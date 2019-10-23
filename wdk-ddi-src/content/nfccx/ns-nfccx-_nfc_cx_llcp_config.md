@@ -48,7 +48,7 @@ req.typenames: NFC_CX_LLCP_CONFIG, *PNFC_CX_LLCP_CONFIG
 ## -description
 
 
-The NFC_CX_LLCP_CONFIG structure is an input parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/nf-nfccx-nfccxsetllcpconfig">NfcCxSetLlcpConfig.</a>
+The NFC_CX_LLCP_CONFIG structure is an input parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxsetllcpconfig">NfcCxSetLlcpConfig.</a>
 
 
 

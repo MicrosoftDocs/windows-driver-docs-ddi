@@ -55,7 +55,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSystemObjects3</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsystemobjects2">IDebugSystemObjects2</a>. <b>IDebugSystemObjects3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSystemObjects3</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects2">IDebugSystemObjects2</a>. <b>IDebugSystemObjects3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IDebugSystemObjects3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentsystemid">GetCurrentSystemId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentsystemid">GetCurrentSystemId</a>
 </td>
 <td align="left" width="63%">
 Returns the engine target ID for the current process.
@@ -93,7 +93,7 @@ Returns the engine target ID for the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-geteventsystem">GetEventSystem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-geteventsystem">GetEventSystem</a>
 </td>
 <td align="left" width="63%">
 Returns the engine target ID for the target in which the last event occurred.
@@ -102,7 +102,7 @@ Returns the engine target ID for the target in which the last event occurred.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getnumbersystems">GetNumberSystems</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getnumbersystems">GetNumberSystems</a>
 </td>
 <td align="left" width="63%">
 Returns the number of targets to which the engine is currently connected.
@@ -118,7 +118,7 @@ Returns the number of targets to which the engine is currently connected.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getsystemidsbyindex">GetSystemIdsByIndex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getsystemidsbyindex">GetSystemIdsByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns the engine target IDs for the specified targets.
@@ -127,7 +127,7 @@ Returns the engine target IDs for the specified targets.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-gettotalnumberthreadsandprocesses">GetTotalNumberThreadsAndProcesses</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-gettotalnumberthreadsandprocesses">GetTotalNumberThreadsAndProcesses</a>
 </td>
 <td align="left" width="63%">
 Returns the total number of threads and processes in all the targets the engine is attached to, in addition to the largest number of threads and processes in a target.
@@ -136,7 +136,7 @@ Returns the total number of threads and processes in all the targets the engine 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-setcurrentsystemid">SetCurrentSystemId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-setcurrentsystemid">SetCurrentSystemId</a>
 </td>
 <td align="left" width="63%">
 Makes the specified target the current target.
@@ -151,15 +151,15 @@ Makes the specified target the current target.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsystemobjects">IDebugSystemObjects</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects">IDebugSystemObjects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsystemobjects2">IDebugSystemObjects2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects2">IDebugSystemObjects2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsystemobjects4">IDebugSystemObjects4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects4">IDebugSystemObjects4</a>
  
 
  

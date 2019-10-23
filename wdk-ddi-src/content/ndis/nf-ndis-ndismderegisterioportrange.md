@@ -62,7 +62,7 @@ req.typenames:
 ### -param MiniportAdapterHandle [in]
 
 Specifies the handle input to 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 
 ### -param InitialPort [in]
@@ -98,7 +98,7 @@ The miniport driver must pass the same
     <i>InitialPort</i> and 
     <i>NumberOfPorts</i> to 
     <b>NdisMDeregisterIoPortRange</b> that were passed when 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> called 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> called 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ndis-ndismregisterioportrange">NdisMRegisterIoPortRange</a> to get
     the mapped 
     <i>PortOffset</i> value. That is, a miniport driver cannot call 
@@ -106,7 +106,7 @@ The miniport driver must pass the same
 
 <b>NdisMDeregisterIoPortRange</b> can be called from the 
     <i>MiniportInitializeEx</i> or 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> functions only if 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> functions only if 
     <i>MiniportInitializeEx</i> previously made a successful call to 
     <b>NdisMRegisterIoPortRange</b>.
 
@@ -126,11 +126,11 @@ After it calls
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 

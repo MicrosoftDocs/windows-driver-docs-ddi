@@ -90,7 +90,7 @@ For more information about guarded mutexes, see <a href="https://docs.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kereleaseguardedmutex">KeReleaseGuardedMutex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleaseguardedmutex">KeReleaseGuardedMutex</a>
  
 
  

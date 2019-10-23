@@ -49,7 +49,7 @@ req.typenames:
 
 
 
-   The <b>UsbBuildGetStatusRequest</b> macro formats an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a> to obtain status from a device, interface, endpoint, or other device-defined target on a USB device.
+   The <b>UsbBuildGetStatusRequest</b> macro formats an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> to obtain status from a device, interface, endpoint, or other device-defined target on a USB device.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ req.typenames:
 
 ### -param urb [in, out]
 
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a> to be formatted as an status request.
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> to be formatted as an status request.
 
 
 ### -param op [in]
@@ -118,15 +118,15 @@ Reserved. Must be set to <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_usbref/">USB device driver programming reference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_usbref/">USB device driver programming reference</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb_control_get_status_request">_URB_CONTROL_GET_STATUS_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_get_status_request">_URB_CONTROL_GET_STATUS_REQUEST</a>
  
 
  

@@ -71,7 +71,7 @@ The <b>IStiUSD</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pdevice_reset_handler">DeviceReset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pdevice_reset_handler">DeviceReset</a>
 </td>
 <td align="left" width="63%">
 A still image minidriver's <b>IStiUSD::DeviceReset</b> method resets a still image device to a known, initialized state.
@@ -80,7 +80,7 @@ A still image minidriver's <b>IStiUSD::DeviceReset</b> method resets a still ima
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-diagnostic">Diagnostic</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-diagnostic">Diagnostic</a>
 </td>
 <td align="left" width="63%">
 A still image minidriver's <b>IStiUSD::Diagnostic</b> method runs diagnostic tests on a still image device.
@@ -98,7 +98,7 @@ A still image minidriver's <b>IStiUSD::Escape</b> method performs a vendor-speci
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschematicket-getcapabilities">GetCapabilities</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 A still image minidriver's <b>IStiUSD::GetCapabilities</b> method returns a still image device's capabilities.
@@ -107,7 +107,7 @@ A still image minidriver's <b>IStiUSD::GetCapabilities</b> method returns a stil
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-getlasterror">GetLastError</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getlasterror">GetLastError</a>
 </td>
 <td align="left" width="63%">
 The <b>IStiUSD::GetLastError</b> method returns the last known error associated with a still image device.
@@ -116,7 +116,7 @@ The <b>IStiUSD::GetLastError</b> method returns the last known error associated 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-getlasterrorinfo">GetLastErrorInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getlasterrorinfo">GetLastErrorInfo</a>
 </td>
 <td align="left" width="63%">
 A still image minidriver's <b>IStiUSD::GetLastErrorInfo</b> method returns information about the last known error associated with a still image device.
@@ -125,7 +125,7 @@ A still image minidriver's <b>IStiUSD::GetLastErrorInfo</b> method returns infor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-getnotificationdata">GetNotificationData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getnotificationdata">GetNotificationData</a>
 </td>
 <td align="left" width="63%">
 A still image minidriver's <b>IStiUSD::GetNotificationData</b> method returns a description of the most recent event that occurred on a still image device.
@@ -134,7 +134,7 @@ A still image minidriver's <b>IStiUSD::GetNotificationData</b> method returns a 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-getstatus">GetStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtfaction2-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 A still image minidriver's <b>IStiUSD::GetStatus</b> method returns the status of a still image device.
@@ -152,7 +152,7 @@ A still image minidriver's <b>IStiUSD::Initialize</b> method initializes an inst
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-lockdevice">LockDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-lockdevice">LockDevice</a>
 </td>
 <td align="left" width="63%">
 A still image minidriver's <b>IStiUSD::LockDevice</b> method locks a device for exclusive use by the caller.
@@ -161,7 +161,7 @@ A still image minidriver's <b>IStiUSD::LockDevice</b> method locks a device for 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-rawreadcommand">RawReadCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawreadcommand">RawReadCommand</a>
 </td>
 <td align="left" width="63%">
 A still image minidriver's <b>IStiUSD::RawReadCommand</b> method reads command information from a still image device.
@@ -170,7 +170,7 @@ A still image minidriver's <b>IStiUSD::RawReadCommand</b> method reads command i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-rawreaddata">RawReadData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawreaddata">RawReadData</a>
 </td>
 <td align="left" width="63%">
 A still image minidriver's <b>IStiUSD::RawReadData</b> method reads data from a still image device.
@@ -179,7 +179,7 @@ A still image minidriver's <b>IStiUSD::RawReadData</b> method reads data from a 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-rawwritecommand">RawWriteCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawwritecommand">RawWriteCommand</a>
 </td>
 <td align="left" width="63%">
 A still image minidriver's <b>IStiDevice::RawWriteCommand</b> method sends command information to a still image device.
@@ -188,7 +188,7 @@ A still image minidriver's <b>IStiDevice::RawWriteCommand</b> method sends comma
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-rawwritedata">RawWriteData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-rawwritedata">RawWriteData</a>
 </td>
 <td align="left" width="63%">
 A still image minidriver's <b>IStiUSD::RawWriteData</b> method writes data to a still image device.
@@ -197,7 +197,7 @@ A still image minidriver's <b>IStiUSD::RawWriteData</b> method writes data to a 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-setnotificationhandle">SetNotificationHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-setnotificationhandle">SetNotificationHandle</a>
 </td>
 <td align="left" width="63%">
 A still image minidriver's <b>IStiUSD::SetNotificationHandle</b> method specifies an event handle that the minidriver should use to inform the caller of device events.
@@ -206,10 +206,10 @@ A still image minidriver's <b>IStiUSD::SetNotificationHandle</b> method specifie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-unlockdevice">UnLockDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-unlockdevice">UnLockDevice</a>
 </td>
 <td align="left" width="63%">
-A still image minidriver's <b>IStiUSD::UnLockDevice</b> method unlocks a device that was locked by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-lockdevice">IStiUSD::LockDevice</a>.
+A still image minidriver's <b>IStiUSD::UnLockDevice</b> method unlocks a device that was locked by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-lockdevice">IStiUSD::LockDevice</a>.
 
 </td>
 </tr>

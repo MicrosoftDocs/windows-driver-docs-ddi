@@ -74,7 +74,7 @@ Points to the second argument to the minidriver's <b>DriverEntry</b> routine.
 
 ### -param HwInitializationData [in]
 
-Points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure that provides the information the class driver needs to begin initializing the minidriver.
+Points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure that provides the information the class driver needs to begin initializing the minidriver.
 
 
 ## -returns
@@ -107,7 +107,7 @@ Since <b>StreamClassRegisterMinidriver</b> performs most of the required driver 
 
 
 
-Most of the information passed in the HW_INITIALIZATION_DATA structure informs the class driver of the minidriver-wide callbacks, and what size buffers to allocate for the minidriver's data structures. The class driver queries the minidriver for additional start-up information through <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-initialize-device">SRB_INITIALIZE_DEVICE</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-get-stream-info">SRB_GET_STREAM_INFO</a> requests to the minidriver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nc-strmini-phw_receive_device_srb">StrMiniReceiveDevicePacket</a> routine (passed as the <b>HwReceivePacket</b> member of HW_INITIALIZATION_DATA).
+Most of the information passed in the HW_INITIALIZATION_DATA structure informs the class driver of the minidriver-wide callbacks, and what size buffers to allocate for the minidriver's data structures. The class driver queries the minidriver for additional start-up information through <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-initialize-device">SRB_INITIALIZE_DEVICE</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-get-stream-info">SRB_GET_STREAM_INFO</a> requests to the minidriver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_receive_device_srb">StrMiniReceiveDevicePacket</a> routine (passed as the <b>HwReceivePacket</b> member of HW_INITIALIZATION_DATA).
 
 Once registered, a minidriver can drive any number of adapter instances in a system.
 
@@ -119,7 +119,7 @@ Once registered, a minidriver can drive any number of adapter instances in a sys
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a>
 
 
 
@@ -131,7 +131,7 @@ Once registered, a minidriver can drive any number of adapter instances in a sys
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nc-strmini-phw_receive_device_srb">StrMiniReceiveDevicePacket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_receive_device_srb">StrMiniReceiveDevicePacket</a>
  
 
  

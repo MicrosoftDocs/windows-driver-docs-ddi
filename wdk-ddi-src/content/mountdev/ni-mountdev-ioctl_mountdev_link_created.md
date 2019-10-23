@@ -52,7 +52,7 @@ Support for this IOCTL by the mount manager clients is optional. The mount manag
 
 ### -input-buffer
 
-The mount point manager places a variable-length structure of type [MOUNTDEV_NAME](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ns-mountmgr-_mountdev_name), defined in *Mountmgr.h* at the beginning of the buffer at **Irp-\>AssociatedIrp.SystemBuffer**. The mount manager inserts the persistent name just assigned at the address pointed to by the *Name* member of this structure.
+The mount point manager places a variable-length structure of type [MOUNTDEV_NAME](https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountdev_name), defined in *Mountmgr.h* at the beginning of the buffer at **Irp-\>AssociatedIrp.SystemBuffer**. The mount manager inserts the persistent name just assigned at the address pointed to by the *Name* member of this structure.
 
 ### -input-buffer-length
 
@@ -80,4 +80,4 @@ No status.
 
 ## -see-also
 
-[MOUNTDEV_NAME](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ns-mountmgr-_mountdev_name)
+[MOUNTDEV_NAME](https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountdev_name)

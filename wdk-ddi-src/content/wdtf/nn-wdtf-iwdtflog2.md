@@ -68,7 +68,7 @@ The <b>IWDTFLOG2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtflog2-endtestcase">EndTestCase</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtflog2-endtestcase">EndTestCase</a>
 </td>
 <td align="left" width="63%">
 Marks the end of a test case.
@@ -77,7 +77,7 @@ Marks the end of a test case.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtflog2-outputerror">OutputError</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtflog2-outputerror">OutputError</a>
 </td>
 <td align="left" width="63%">
 Writes an error entry to the test case log.
@@ -86,7 +86,7 @@ Writes an error entry to the test case log.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtflog2-outputinfo">OutputInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtflog2-outputinfo">OutputInfo</a>
 </td>
 <td align="left" width="63%">
 Writes an informational entry to the test case log.
@@ -95,7 +95,7 @@ Writes an informational entry to the test case log.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtflog2-starttestcase">StartTestCase</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtflog2-starttestcase">StartTestCase</a>
 </td>
 <td align="left" width="63%">
 Marks the start of a test case.
@@ -109,7 +109,7 @@ Marks the start of a test case.
 
 
 
-You access the logging interface from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtf2-get_log">IWDTF2::Log</a> property.
+You access the logging interface from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtf2-get_log">IWDTF2::Log</a> property.
 
 
 

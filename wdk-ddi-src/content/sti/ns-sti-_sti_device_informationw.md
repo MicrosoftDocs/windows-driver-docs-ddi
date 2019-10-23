@@ -63,7 +63,7 @@ Caller-supplied size, in bytes, of the STI_DEVICE_INFORMATION structure.
 
 ### -field DeviceType
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ne-sti-_sti_device_mj_type">STI_DEVICE_TYPE</a>-typed value identifying the still image device type. 
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ne-sti-_sti_device_mj_type">STI_DEVICE_TYPE</a>-typed value identifying the still image device type. 
 
 
 ### -field szDeviceInternalName
@@ -73,7 +73,7 @@ Character array containing the device's internal name string. The string can hav
 
 ### -field DeviceCapabilities
 
-Structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_sti_dev_caps">STI_DEV_CAPS</a>.
+Structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_dev_caps">STI_DEV_CAPS</a>.
 
 
 ### -field dwHardwareConfiguration

@@ -63,12 +63,12 @@ Reserved. Initialize to zero.
 
 ### -field AutomationTable
 
-Pointer to the automation table. This is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>. The automation table specifies the handlers for the properties of the filter instance.
+Pointer to the automation table. This is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>. The automation table specifies the handlers for the properties of the filter instance.
 
 
 ### -field PinSize
 
-Specifies the size in bytes of each element in the <b>Pins</b> array. This value should be a multiple of eight and should be at least <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcpin_descriptor">PCPIN_DESCRIPTOR</a>). Larger values allow client-specific descriptor information to be appended to pin descriptors.
+Specifies the size in bytes of each element in the <b>Pins</b> array. This value should be a multiple of eight and should be at least <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcpin_descriptor">PCPIN_DESCRIPTOR</a>). Larger values allow client-specific descriptor information to be appended to pin descriptors.
 
 
 ### -field PinCount
@@ -78,12 +78,12 @@ Specifies the number of pin descriptors in the <b>Pins</b> array.
 
 ### -field Pins
 
-Pointer to the array of pin descriptors. Each array element is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcpin_descriptor">PCPIN_DESCRIPTOR</a> structure.
+Pointer to the array of pin descriptors. Each array element is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcpin_descriptor">PCPIN_DESCRIPTOR</a> structure.
 
 
 ### -field NodeSize
 
-Specifies the size in bytes of each element in the <b>Nodes</b> array. This value should be a multiple of eight and should be at least <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcnode_descriptor">PCNODE_DESCRIPTOR</a>). Larger values allow client-specific descriptor information to be appended to node descriptors.
+Specifies the size in bytes of each element in the <b>Nodes</b> array. This value should be a multiple of eight and should be at least <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcnode_descriptor">PCNODE_DESCRIPTOR</a>). Larger values allow client-specific descriptor information to be appended to node descriptors.
 
 
 ### -field NodeCount
@@ -93,7 +93,7 @@ Specifies the number of node descriptors in the <b>Nodes</b> array.
 
 ### -field Nodes
 
-Pointer to the array of node descriptors. Each array element is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcnode_descriptor">PCNODE_DESCRIPTOR</a> structure.
+Pointer to the array of node descriptors. Each array element is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcnode_descriptor">PCNODE_DESCRIPTOR</a> structure.
 
 
 ### -field ConnectionCount
@@ -120,7 +120,7 @@ Pointer to the array of GUIDs that specifies the categories that the object belo
 
 
 
-A port driver obtains the miniport driver's filter descriptor by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a> method. The filter descriptor is a <b>PCFILTER_DESCRIPTOR</b> structure describing the miniport driver's pins, nodes, connections, and properties. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/filter--pin--and-node-properties">Filter, Pin, and Node Properties</a>.
+A port driver obtains the miniport driver's filter descriptor by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a> method. The filter descriptor is a <b>PCFILTER_DESCRIPTOR</b> structure describing the miniport driver's pins, nodes, connections, and properties. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/filter--pin--and-node-properties">Filter, Pin, and Node Properties</a>.
 
 
 
@@ -130,11 +130,11 @@ A port driver obtains the miniport driver's filter descriptor by calling the <a 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>
 
 
 
@@ -142,11 +142,11 @@ A port driver obtains the miniport driver's filter descriptor by calling the <a 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcnode_descriptor">PCNODE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcnode_descriptor">PCNODE_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcpin_descriptor">PCPIN_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcpin_descriptor">PCPIN_DESCRIPTOR</a>
  
 
  

@@ -68,7 +68,7 @@ The <b>IDebugSymbols4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols4-getlinebyinlinecontext">GetLineByInlineContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols4-getlinebyinlinecontext">GetLineByInlineContext</a>
 </td>
 <td align="left" width="63%">
 Gets a line by inline context.
@@ -77,7 +77,7 @@ Gets a line by inline context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols4-getlinebyinlinecontextwide">GetLineByInlineContextWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols4-getlinebyinlinecontextwide">GetLineByInlineContextWide</a>
 </td>
 <td align="left" width="63%">
 Gets a line by inline context.
@@ -86,7 +86,7 @@ Gets a line by inline context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols4-getnamebyinlinecontext">GetNameByInlineContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols4-getnamebyinlinecontext">GetNameByInlineContext</a>
 </td>
 <td align="left" width="63%">
 Gets a name by inline context.
@@ -95,7 +95,7 @@ Gets a name by inline context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols4-getnamebyinlinecontextwide">GetNameByInlineContextWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols4-getnamebyinlinecontextwide">GetNameByInlineContextWide</a>
 </td>
 <td align="left" width="63%">
 Gets a name by inline context.
@@ -104,7 +104,7 @@ Gets a name by inline context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols4-getscopeex">GetScopeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols4-getscopeex">GetScopeEx</a>
 </td>
 <td align="left" width="63%">
 Gets the scope as an extended frame structure. 
@@ -113,7 +113,7 @@ Gets the scope as an extended frame structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols4-outputsymbolbyinlinecontext">OutputSymbolByInlineContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols4-outputsymbolbyinlinecontext">OutputSymbolByInlineContext</a>
 </td>
 <td align="left" width="63%">
 Specifies an output symbol by using an inline context.
@@ -122,7 +122,7 @@ Specifies an output symbol by using an inline context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols4-setscopeex">SetScopeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols4-setscopeex">SetScopeEx</a>
 </td>
 <td align="left" width="63%">
 Sets the scope as an extended frame structure. 

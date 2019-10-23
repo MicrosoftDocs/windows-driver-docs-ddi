@@ -65,7 +65,7 @@ Specifies the handle to the parent on which the node is created.
 
 ### -param NodeCreate [in]
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksnode_create">KSNODE_CREATE</a> structure that describes the set of information that is used to create the topology node handle.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksnode_create">KSNODE_CREATE</a> structure that describes the set of information that is used to create the topology node handle.
 
 
 ### -param DesiredAccess [in]
@@ -91,7 +91,7 @@ Returns <b>NOERROR</b> if successful; otherwise, returns an error code.
 
 
 
-This is a new version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kscreatetopologynode">KsCreateTopologyNode</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the Component Object Model (COM) <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> function must be called before this function is called.
+This is a new version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreatetopologynode">KsCreateTopologyNode</a> function and uses the device broker to create the handle to the kernel streaming object. In addition, the Component Object Model (COM) <a href="https://docs.microsoft.com/windows/desktop/api/objbase/nf-objbase-coinitialize">CoInitialize</a> function must be called before this function is called.
 
 
 
@@ -109,11 +109,11 @@ This is a new version of the <a href="https://docs.microsoft.com/windows-hardwar
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksnode_create">KSNODE_CREATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksnode_create">KSNODE_CREATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kscreatetopologynode">KsCreateTopologyNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreatetopologynode">KsCreateTopologyNode</a>
  
 
  

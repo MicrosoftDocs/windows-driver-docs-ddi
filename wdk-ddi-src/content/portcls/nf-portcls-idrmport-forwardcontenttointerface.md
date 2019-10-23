@@ -45,7 +45,7 @@ targetos: Windows
 
 ## -description
 
-The ForwardContentToInterface method accepts a pointer to the COM interface of an object to which the caller intends to forward protected content. Note that this method is identical in operation to the [DrmForwardContentToInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttointerface) function, and its parameter definitions and return value are also identical.
+The ForwardContentToInterface method accepts a pointer to the COM interface of an object to which the caller intends to forward protected content. Note that this method is identical in operation to the [DrmForwardContentToInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttointerface) function, and its parameter definitions and return value are also identical.
 
 
 
@@ -70,7 +70,7 @@ Specifies the total number of methods in the COM interface that pUnknown points 
 This method returns NTSTATUS.
 
 ## -remarks
-See comments in [DrmForwardContentToInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttointerface).
+See comments in [DrmForwardContentToInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttointerface).
 
 
 ## -see-also

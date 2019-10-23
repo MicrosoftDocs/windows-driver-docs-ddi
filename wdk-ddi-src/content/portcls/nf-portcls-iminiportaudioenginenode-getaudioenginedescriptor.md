@@ -63,7 +63,7 @@ The ID of the audio engine node.
 
 ### -param pAudioEngineDescriptor [out]
 
-Audio engine descriptor object. This parameter is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_tagksaudioengine_descriptor">KSAUDIOENGINE_DESCRIPTOR</a>.
+Audio engine descriptor object. This parameter is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagksaudioengine_descriptor">KSAUDIOENGINE_DESCRIPTOR</a>.
 
 
 ## -returns
@@ -80,11 +80,11 @@ Audio engine descriptor object. This parameter is of type <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportaudioenginenode">IMiniportAudioEngineNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportaudioenginenode">IMiniportAudioEngineNode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_tagksaudioengine_descriptor">KSAUDIOENGINE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagksaudioengine_descriptor">KSAUDIOENGINE_DESCRIPTOR</a>
  
 
  

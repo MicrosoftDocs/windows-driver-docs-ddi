@@ -62,20 +62,20 @@ Profile drivers implement an enhanced L2CAP callback function to provide the Blu
 For
      changes to existing L2CAP connections, this is the 
      <b>CallbackContext</b> member specified by the profile driver when it built and sent a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_l2ca_open_enhanced_channel">_BRB_L2CA_OPEN_ENHANCED_CHANNEL</a> structure.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_enhanced_channel">_BRB_L2CA_OPEN_ENHANCED_CHANNEL</a> structure.
 
 
 ### -param Indication [in]
 
 An 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ne-bthddi-_indication_code">INDICATION_CODE</a> value that indicates the type
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_indication_code">INDICATION_CODE</a> value that indicates the type
      of L2CAP event.
 
 
 ### -param Parameters [in]
 
 An 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_indication_parameters_enhanced">INDICATION_PARAMETERS_ENHANCED</a> structure that
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_indication_parameters_enhanced">INDICATION_PARAMETERS_ENHANCED</a> structure that
      contains event-specific parameters.
 
 
@@ -102,10 +102,10 @@ After the profile driver registers its L2CAP callback function, the callback fun
     Profile drivers can register a single callback function to handle L2CAP channel notifications as a client.
 
 The 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_indication_parameters_enhanced">INDICATION_PARAMETERS_ENHANCED</a> structure held in
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_indication_parameters_enhanced">INDICATION_PARAMETERS_ENHANCED</a> structure held in
     the 
     <i>Parameters</i> parameter is interpreted according to the value of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ne-bthddi-_indication_code">INDICATION_CODE</a> enumeration that the Bluetooth
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_indication_code">INDICATION_CODE</a> enumeration that the Bluetooth
     driver stack passes to the profile driver's enhanced L2CAP callback function through the 
     <i>Indication</i> parameter. For most notifications, there is an INDICATION_PARAMETERS_ENHANCED union member that
     corresponds to the event and contains event-specific parameters.

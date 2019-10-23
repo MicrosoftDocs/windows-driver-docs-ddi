@@ -118,7 +118,7 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcerequirementslistremovebyioreslist">WdfIoResourceRequirementsListRemoveByIoResList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcerequirementslistremovebyioreslist">WdfIoResourceRequirementsListRemoveByIoResList</a>
  
 
  

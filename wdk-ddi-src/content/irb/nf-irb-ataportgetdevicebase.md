@@ -71,7 +71,7 @@ Specifies the base address to map.
 
 ### -param NumberOfBytes [in]
 
-Specifies the size, in bytes, of the range that the mappings should cover. The value for this parameter can be obtained from the <b>IdeAccessRange</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_miniport_resources">IDE_MINIPORT_RESOURCES</a> structure.
+Specifies the size, in bytes, of the range that the mappings should cover. The value for this parameter can be obtained from the <b>IdeAccessRange</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_miniport_resources">IDE_MINIPORT_RESOURCES</a> structure.
 
 
 ## -returns
@@ -97,15 +97,15 @@ Miniport drivers must use logical addresses that have been mapped into system sp
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportreadportuchar">AtaPortReadPortUchar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportreadportuchar">AtaPortReadPortUchar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportreadportulong">AtaPortReadPortUlong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportreadportulong">AtaPortReadPortUlong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportreadportushort">AtaPortReadPortUshort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportreadportushort">AtaPortReadPortUshort</a>
  
 
  

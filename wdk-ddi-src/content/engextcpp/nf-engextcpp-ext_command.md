@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The EXT_COMMAND macro is used to define an extension command that was declared by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-ext_command_method">EXT_COMMAND_METHOD</a> macro.
+The EXT_COMMAND macro is used to define an extension command that was declared by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-ext_command_method">EXT_COMMAND_METHOD</a> macro.
 
 An extension command is defined as follows:
 
@@ -60,7 +60,7 @@ An extension command is defined as follows:
 
 ### -param _Name
 
-The name of the extension command.  This must be the same as the <i>_Name</i> parameter that is used to declare the extension command by using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-ext_command_method">EXT_COMMAND_METHOD</a>.
+The name of the extension command.  This must be the same as the <i>_Name</i> parameter that is used to declare the extension command by using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-ext_command_method">EXT_COMMAND_METHOD</a>.
 
 Because EXT_COMMAND is a macro, <i>_Name</i> must be the bare name of the extension command and should not be enclosed in quotation marks or be a variable.
 
@@ -83,7 +83,7 @@ A string describing the arguments that are expected by the extension command.   
 
 The body of the extension command does not take any arguments.  However, because the extension command is declared as a method of the <a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a> class, it has access to all the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a> base class, some of which are initialized for the execution of the extension command.
 
-The macro <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-ext_command_method">EXT_COMMAND_METHOD</a> should be used to declare the extension command.  As with all C++ declarations, the EXT_COMMAND_METHOD declaration should appear in the source files before the EXT_COMMAND definition.
+The macro <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-ext_command_method">EXT_COMMAND_METHOD</a> should be used to declare the extension command.  As with all C++ declarations, the EXT_COMMAND_METHOD declaration should appear in the source files before the EXT_COMMAND definition.
 
 When the debugger engine calls an extension command method, it wraps the call in a <b>try / except</b> block.  This protects the engine from some types of bugs in the extension code; but, since the extension calls are executed in the same thread as the engine, they can still cause it to crash.
 
@@ -107,7 +107,7 @@ EXT_CLASS
 </table></span></div>
 The default value of <a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a> is <b>Extension</b>.  You can change this value  by defining EXT_CLASS before you include the header file Engextcpp.hpp.
 
-Each extension command in the library is declared as a member of the class EXT_CLASS using the macro <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-ext_command_method">EXT_COMMAND_METHOD</a>.  For example, a library with two extension commands, <b>extcmd</b> and <b>anotherextcmd</b>, could define the class EXT_CLASS as follows:
+Each extension command in the library is declared as a member of the class EXT_CLASS using the macro <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-ext_command_method">EXT_COMMAND_METHOD</a>.  For example, a library with two extension commands, <b>extcmd</b> and <b>anotherextcmd</b>, could define the class EXT_CLASS as follows:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -154,7 +154,7 @@ One of the source files to be compiled into the EngExtCpp extension library shou
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-ext_command_method">EXT_COMMAND_METHOD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-ext_command_method">EXT_COMMAND_METHOD</a>
 
 
 

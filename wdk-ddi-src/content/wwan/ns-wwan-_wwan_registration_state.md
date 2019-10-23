@@ -66,7 +66,7 @@ A network specific error, in the event of a registration failure. For more infor
 ### -field RegisterState
 
 The registration state of the device. For a list of defined values, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_register_state">WWAN_REGISTER_STATE</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_state">WWAN_REGISTER_STATE</a>.
      
 
 The 
@@ -80,7 +80,7 @@ The
 ### -field RegisterMode
 
 The registration mode of the device. For a list of defined values, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_register_mode">WWAN_REGISTER_MODE</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_mode">WWAN_REGISTER_MODE</a>.
 
 
 ### -field ProviderId
@@ -260,15 +260,15 @@ Miniport drivers connected to a multi-mode network should indicate the cellular 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_registration_state">NDIS_WWAN_REGISTRATION_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_registration_state">NDIS_WWAN_REGISTRATION_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_register_mode">WWAN_REGISTER_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_mode">WWAN_REGISTER_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_register_state">WWAN_REGISTER_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_register_state">WWAN_REGISTER_STATE</a>
  
 
  

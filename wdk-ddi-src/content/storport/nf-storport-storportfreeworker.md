@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-Frees a Storport work item previously allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a> routine.
+Frees a Storport work item previously allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a> routine.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param Worker
 
-<p>A pointer to an opaque buffer for the work item context returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitializeworker"><b>StorPortInitializeWorker</b></a>.</p>
+<p>A pointer to an opaque buffer for the work item context returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker"><b>StorPortInitializeWorker</b></a>.</p>
 
 
 
@@ -72,7 +72,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a> routine returns one of these status codes:
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a> routine returns one of these status codes:
 
 <table>
 <tr>
@@ -154,11 +154,11 @@ Miniports should call <b>StorPortFreeWorker</b> whenever a work item is no longe
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportqueueworkitem">StorPortQueueWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportqueueworkitem">StorPortQueueWorkItem</a>
  
 
  

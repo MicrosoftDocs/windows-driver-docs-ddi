@@ -75,7 +75,7 @@ Device type of the file system volume. Must be one of the following:
 
 ### -param VolumeFilesystemType [in]
 
-File system type of the volume. The possible values are listed in [FLT_FILESYSTEM_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ne-fltuserstructures-_flt_filesystem_type).
+File system type of the volume. The possible values are listed in [FLT_FILESYSTEM_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ne-fltuserstructures-_flt_filesystem_type).
 
 ## -returns
 
@@ -89,7 +89,7 @@ This callback routine returns STATUS_SUCCESS or an NTSTATUS value such as the fo
 
 <div class="alert"><b>Note</b>   Do not perform any thread synchronization or inter-process communication in the PFLT_INSTANCE_SETUP_CALLBACK implementation. Performing such operations can lead to deadlock conditions. </div>
 
-When a minifilter driver registers itself by calling [FltRegisterFilter](nf-fltkernel-fltregisterfilter.md) from its [DriverEntry](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_initialize) routine, it can register a routine of type PFLT_INSTANCE_SETUP_CALLBACK as the minifilter driver's *InstanceSetupCallback* routine.
+When a minifilter driver registers itself by calling [FltRegisterFilter](nf-fltkernel-fltregisterfilter.md) from its [DriverEntry](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_initialize) routine, it can register a routine of type PFLT_INSTANCE_SETUP_CALLBACK as the minifilter driver's *InstanceSetupCallback* routine.
 
 To register the *InstanceSetupCallback* routine, the minifilter driver stores the address of a routine of type PFLT_INSTANCE_SETUP_CALLBACK in the **InstanceSetupCallback** member of the [FLT_REGISTRATION](ns-fltkernel-_flt_registration.md) structure that the minifilter driver passes as the *Registration* parameter of **FltRegisterFilter**.
 

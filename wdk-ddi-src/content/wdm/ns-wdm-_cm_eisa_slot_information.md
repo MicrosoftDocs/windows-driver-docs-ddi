@@ -95,7 +95,7 @@ The number at this slot.
 
 ### -field FunctionInformation
 
-Whether there is available <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cm_eisa_function_information">CM_EISA_FUNCTION_INFORMATION</a> for this slot.
+Whether there is available <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_function_information">CM_EISA_FUNCTION_INFORMATION</a> for this slot.
 
 
 ### -field CompressedId
@@ -119,7 +119,7 @@ The driver of an EISA device might call <b>HalGetBusData</b> or <b>HalGetBusData
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cm_eisa_function_information">CM_EISA_FUNCTION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_function_information">CM_EISA_FUNCTION_INFORMATION</a>
 
 
 

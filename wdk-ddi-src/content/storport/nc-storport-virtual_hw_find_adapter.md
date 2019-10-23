@@ -83,7 +83,7 @@ A pointer to a null-terminated ASCII string. This string, if supplied, contains 
 
 ### -param ConfigInfo
 
-A pointer to a [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_port_configuration_information) structure. The port driver initializes this structure with any known configuration information, such as values that the miniport driver's [DriverEntry](https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) set in the [VIRTUAL_HW_INITIALIZATION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_virtual_hw_initialization_data). **VirtualHwStorFindAdapter**  must use any supplied information to determine if the virtual HBA it describes is one that the miniport driver supports. If so, **VirtualHwStorFindAdapter** initializes and configures that HBA and fills in any missing configuration information. If possible, a miniport driver should have default configuration values for each type of HBA that it supports, in the event that the operating system-dependent port driver cannot supply additional configuration information that was not provided by the miniport driver's **DriverEntry** routine.
+A pointer to a [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information) structure. The port driver initializes this structure with any known configuration information, such as values that the miniport driver's [DriverEntry](https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) set in the [VIRTUAL_HW_INITIALIZATION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data). **VirtualHwStorFindAdapter**  must use any supplied information to determine if the virtual HBA it describes is one that the miniport driver supports. If so, **VirtualHwStorFindAdapter** initializes and configures that HBA and fills in any missing configuration information. If possible, a miniport driver should have default configuration values for each type of HBA that it supports, in the event that the operating system-dependent port driver cannot supply additional configuration information that was not provided by the miniport driver's **DriverEntry** routine.
 
 
 ### -param Again
@@ -109,7 +109,7 @@ Not used.
 </dl>
 </td>
 <td width="60%">
-Indicates that a supported HBA was found and that the HBA-relevant configuration information was determined successfully and set in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structure.
+Indicates that a supported HBA was found and that the HBA-relevant configuration information was determined successfully and set in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Indicates that a supported HBA was found and that the HBA-relevant configuration
 </dl>
 </td>
 <td width="60%">
-Indicates that an HBA was found, but an error occurred when it obtained the configuration information. If possible, such an error should be logged with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportlogerror">ScsiPortLogError</a>.
+Indicates that an HBA was found, but an error occurred when it obtained the configuration information. If possible, such an error should be logged with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportlogerror">ScsiPortLogError</a>.
 
 </td>
 </tr>
@@ -234,19 +234,19 @@ The <b>VIRTUAL_HW_FIND_ADAPTER</b> function type is defined in the Storport.h he
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportlogerror">ScsiPortLogError</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportlogerror">ScsiPortLogError</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_virtual_hw_initialization_data">VIRTUAL_HW_INITIALIZATION_DATA</a>
  
 
  

@@ -74,7 +74,7 @@ Delete the object and all its children.
 
 
 
-An application can retrieve the deletion options that the device supports by calling the <b>IPortableDeviceCapabilities::GetCommandOptions</b> method for the <b>WPD_COMMAND_OBJECT_MANAGEMENT_DELETE_OBJECTS</b> command. It should examine the <b>WPD_OPTION_OBJECT_MANAGEMENT_RECURSIVE_DELETE_SUPPORTED</b> option value that this method returns in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevaluescollection">IPortableDeviceValuesCollection</a> object.
+An application can retrieve the deletion options that the device supports by calling the <b>IPortableDeviceCapabilities::GetCommandOptions</b> method for the <b>WPD_COMMAND_OBJECT_MANAGEMENT_DELETE_OBJECTS</b> command. It should examine the <b>WPD_OPTION_OBJECT_MANAGEMENT_RECURSIVE_DELETE_SUPPORTED</b> option value that this method returns in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevaluescollection">IPortableDeviceValuesCollection</a> object.
 
 
 

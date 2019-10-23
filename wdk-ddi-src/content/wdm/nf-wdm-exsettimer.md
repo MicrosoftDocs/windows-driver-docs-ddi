@@ -59,7 +59,7 @@ The <b>ExSetTimer</b> routine starts a timer operation and sets the timer to exp
 
 ### -param Timer [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure. This structure is a timer object that was previously allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a> routine.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure. This structure is a timer object that was previously allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a> routine.
 
 
 ### -param DueTime [in]
@@ -76,7 +76,7 @@ An optional period for the timer in system time units (100-nanosecond intervals)
 
 ### -param Parameters [in, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_ext_set_parameters_v0">EXT_SET_PARAMETERS</a> structure. The calling driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinitializesettimerparameters">ExInitializeSetTimerParameters</a> routine to initialize this structure.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_set_parameters_v0">EXT_SET_PARAMETERS</a> structure. The calling driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializesettimerparameters">ExInitializeSetTimerParameters</a> routine to initialize this structure.
 
 
 ## -returns
@@ -94,9 +94,9 @@ This routine returns <b>TRUE</b> if it cancels a timer that was pending at the t
 
 Your driver can call this routine to set a timer to expire at a future time. The driver can then wait for the timer to expire. Or, the driver can implement a callback routine that is called when the timer expires.
 
-After a driver calls <b>ExSetTimer</b>, the driver can call a routine such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a> to wait for the timer to expire. When the timer expires, the operating system signals the timer object.
+After a driver calls <b>ExSetTimer</b>, the driver can call a routine such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a> to wait for the timer to expire. When the timer expires, the operating system signals the timer object.
 
-As an option, the driver can implement an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-ext_callback">ExTimerCallback</a> callback routine, and supply a pointer to this routine as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a> routine. When the timer expires, the operating system calls the <i>ExTimerCallback</i> routine.
+As an option, the driver can implement an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ext_callback">ExTimerCallback</a> callback routine, and supply a pointer to this routine as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a> routine. When the timer expires, the operating system calls the <i>ExTimerCallback</i> routine.
 
 An <b>ExSetTimer</b> call implicitly cancels any previously started set-timer operation on the timer object specified by <i>Timer</i>. If your driver previously called <b>ExSetTimer</b> to set a timer that uses <i>Timer</i>, and this timer has not yet expired when <b>ExSetTimer</b> is called a second time, the second call cancels the timer from the first call and then starts the new timer. In this case, the second call returns <b>TRUE</b>. However, if the timer started by the first call expires before the second call can cancel this timer, the second call starts the new timer and returns <b>FALSE</b>.
 
@@ -120,7 +120,7 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_ext_set_parameters_v0">EXT_SET_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_set_parameters_v0">EXT_SET_PARAMETERS</a>
 
 
 
@@ -128,23 +128,23 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinitializesettimerparameters">ExInitializeSetTimerParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializesettimerparameters">ExInitializeSetTimerParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-ext_callback">ExTimerCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ext_callback">ExTimerCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
  
 
  

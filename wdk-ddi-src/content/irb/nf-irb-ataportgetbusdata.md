@@ -100,7 +100,7 @@ Specifies the length, in bytes, of the buffer.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportsetbusdata">AtaPortSetBusData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportsetbusdata">AtaPortSetBusData</a>
  
 
  

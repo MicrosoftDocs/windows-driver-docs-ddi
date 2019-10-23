@@ -63,7 +63,7 @@ The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previ
 
 ### -field DataType
 
-Indicates which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbology">BarcodeSymbology</a> is associated with the scan data.
+Indicates which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbology">BarcodeSymbology</a> is associated with the scan data.
 
 
 ### -field ScanDataLength

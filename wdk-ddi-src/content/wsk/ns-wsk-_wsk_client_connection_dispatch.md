@@ -60,7 +60,7 @@ The WSK_CLIENT_CONNECTION_DISPATCH structure specifies a WSK application's dispa
 ### -field WskReceiveEvent
 
 A pointer to the WSK application's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_event">WskReceiveEvent</a> event callback function
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive_event">WskReceiveEvent</a> event callback function
      for the socket. If the WSK application does not enable the 
      <i>WskReceiveEvent</i> event callback function for the socket, this pointer can be <b>NULL</b>.
 
@@ -68,7 +68,7 @@ A pointer to the WSK application's
 ### -field WskDisconnectEvent
 
 A pointer to the WSK application's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_disconnect_event">WskDisconnectEvent</a> event callback
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_disconnect_event">WskDisconnectEvent</a> event callback
      function for the socket. If the WSK application does not enable the 
      <i>WskDisconnectEvent</i> event callback function for the socket, this pointer can be <b>NULL</b>.
 
@@ -76,7 +76,7 @@ A pointer to the WSK application's
 ### -field WskSendBacklogEvent
 
 A pointer to the WSK application's 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_send_backlog_event">WskSendBacklogEvent</a> event callback
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_send_backlog_event">WskSendBacklogEvent</a> event callback
      function for the socket. If the WSK application does not enable the 
      <i>WskSendBacklogEvent</i> event callback function for the socket, this pointer can be <b>NULL</b>.
 
@@ -91,25 +91,25 @@ A WSK application passes a pointer to a WSK_CLIENT_CONNECTION_DISPATCH structure
 <ul>
 <li>
 When calling the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function to create a
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function to create a
       connection-oriented socket.
 
 </li>
 <li>
 When calling the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a> function to create,
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a> function to create,
       bind, and connect a connection-oriented socket.
 
 </li>
 <li>
 When calling the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a> function to accept an incoming
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a> function to accept an incoming
       connection-oriented socket on a listening socket.
 
 </li>
 <li>
 As a returned parameter when the WSK subsystem calls the WSK application's 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a> event callback function.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a> event callback function.
       The WSK subsystem calls a WSK application's 
       <i>WskAcceptEvent</i> event callback function to notify the WSK application that an incoming
       connection-oriented socket has been accepted on a listening socket.
@@ -124,36 +124,36 @@ As a returned parameter when the WSK subsystem calls the WSK application's
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_connection_dispatch">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_connection_dispatch">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept">WskAccept</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_disconnect_event">WskDisconnectEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_disconnect_event">WskDisconnectEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_event">WskReceiveEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_receive_event">WskReceiveEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_send_backlog_event">WskSendBacklogEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_send_backlog_event">WskSendBacklogEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
  
 
  

@@ -216,7 +216,7 @@ SubAllocateFroms
 </tr>
 </table> 
 
-For the meanings of the resource type names in the left column above, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
+For the meanings of the resource type names in the left column above, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
 
 The following table explicitly lists the four macros that portcls.h defines for each of the nine resource types. To the right of each macro is the equivalent call to an <code>IResourceList</code> method.
 <table>

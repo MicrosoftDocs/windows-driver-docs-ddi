@@ -68,7 +68,7 @@ Indicates the number of events in <b>Events</b> that were retrieved by the <a hr
 
 ### -field Events
 
-Contains an array of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_msfc_eventbuffer">MSFC_EventBuffer</a> that contains the next events in the HBA's event queue.
+Contains an array of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_msfc_eventbuffer">MSFC_EventBuffer</a> that contains the next events in the HBA's event queue.
 
 
 ## -remarks

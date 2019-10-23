@@ -48,7 +48,7 @@ req.typenames: CDROM_PERFORMANCE_REQUEST, *PCDROM_PERFORMANCE_REQUEST
 ## -description
 
 
-The <b>CDROM_PERFORMANCE_REQUEST</b> structure is used as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a> I/O control request and describes the performance data requested.
+The <b>CDROM_PERFORMANCE_REQUEST</b> structure is used as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a> I/O control request and describes the performance data requested.
 
 
 ## -struct-fields
@@ -58,22 +58,22 @@ The <b>CDROM_PERFORMANCE_REQUEST</b> structure is used as an input parameter to 
 
 ### -field RequestType
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ne-ntddcdrm-_cdrom_performance_request_type">CDROM_PERFORMANCE_REQUEST_TYPE</a> enumeration specifies the request type, <b>CdromPerformanceRequest</b>, or <b>CdromWriteSpeedRequest</b>.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_performance_request_type">CDROM_PERFORMANCE_REQUEST_TYPE</a> enumeration specifies the request type, <b>CdromPerformanceRequest</b>, or <b>CdromWriteSpeedRequest</b>.
 
 
 ### -field PerformanceType
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ne-ntddcdrm-_cdrom_performance_type">CDROM_PERFORMANCE_TYPE</a> enumeration specifies the type of performance data.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_performance_type">CDROM_PERFORMANCE_TYPE</a> enumeration specifies the type of performance data.
 
 
 ### -field Exceptions
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ne-ntddcdrm-_cdrom_performance_exception_type">CDROM_PERFORMANCE_EXCEPTION_TYPE</a>    enumeration specifies the type of exception. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_performance_exception_type">CDROM_PERFORMANCE_EXCEPTION_TYPE</a>    enumeration specifies the type of exception. 
 
 
 ### -field Tolerance
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ne-ntddcdrm-_cdrom_performance_tolerance_type">CDROM_PERFORMANCE_TOLERANCE_TYPE</a> enumeration specifies the performance tolerance for the nominal performance and the time tolerance (seek delay) for the exception list.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_performance_tolerance_type">CDROM_PERFORMANCE_TOLERANCE_TYPE</a> enumeration specifies the performance tolerance for the nominal performance and the time tolerance (seek delay) for the exception list.
 
 
 ### -field StaringLba
@@ -93,7 +93,7 @@ The starting logical block address field.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_performance">IOCTL_CDROM_GET_PERFORMANCE</a>
  
 
  

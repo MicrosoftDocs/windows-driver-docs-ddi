@@ -122,7 +122,7 @@ The video stabilization settings specified with this structure affect only the d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ksproperty_cameracontrol_video_stabilization_mode">KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ksproperty_cameracontrol_video_stabilization_mode">KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE</a>
 
 
 

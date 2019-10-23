@@ -86,7 +86,7 @@ Member of the union in KSM_BDA_PIN_PAIR that contains the value that specifies t
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bdasup/ns-bdasup-_bda_pin_pairing">BDA_PIN_PAIRING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdasup/ns-bdasup-_bda_pin_pairing">BDA_PIN_PAIRING</a>
 
 
 

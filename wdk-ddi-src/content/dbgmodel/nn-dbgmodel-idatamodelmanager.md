@@ -54,15 +54,15 @@ IDataModelManager interits from IUnknown.
 		<td>Description</td>
 	</tr>
     <tr>
-        <td><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/nf-dbgmodel-idatamodelmanager-queryinterface">QueryInterface</a></td>
+        <td><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgmodel/nf-dbgmodel-idatamodelmanager-queryinterface">QueryInterface</a></td>
         <td> Standard COM method.Retrieves pointers to the supported interfaces on an object.</td>
     </tr>
     <tr>
-        <td><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/nf-dbgmodel-idatamodelmanager-addref">AddRef</a></td>
+        <td><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgmodel/nf-dbgmodel-idatamodelmanager-addref">AddRef</a></td>
         <td> Standard COM method. </td>
     </tr>
     <tr>
-        <td><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/nf-dbgmodel-idatamodelmanager-acquirenamedmodel">AcquireNamedModel</a></td>
+        <td><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgmodel/nf-dbgmodel-idatamodelmanager-acquirenamedmodel">AcquireNamedModel</a></td>
         <td> This looks up a well known model name and returns the data model registered by that name. Note that if there is no model registered by the supplied name, a stub will be created and returned to the caller. </td>
     </tr>
     <tr>

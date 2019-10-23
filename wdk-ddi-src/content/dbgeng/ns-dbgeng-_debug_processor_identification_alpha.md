@@ -71,7 +71,7 @@ The revision of the processor.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_processor_identification_all">DEBUG_PROCESSOR_IDENTIFICATION_ALL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_all">DEBUG_PROCESSOR_IDENTIFICATION_ALL</a>
  
 
  

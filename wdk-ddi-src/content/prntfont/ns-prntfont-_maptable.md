@@ -68,14 +68,14 @@ Specifies the number of elements in the <b>Trans</b> array.
 
 ### -field Trans
 
-Is an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_transdata">TRANSDATA</a> structures.
+Is an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_transdata">TRANSDATA</a> structures.
 
 
 ## -remarks
 
 
 
-A .gtt file's MAPTABLE structure, which contains a glyph mapping table, is accessed by a pointer in the file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_uni_glyphsetdata">UNI_GLYPHSETDATA</a> structure. The table maps glyph handles to the character codes or commands that must be sent to the printer in order to print glyphs.
+A .gtt file's MAPTABLE structure, which contains a glyph mapping table, is accessed by a pointer in the file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_uni_glyphsetdata">UNI_GLYPHSETDATA</a> structure. The table maps glyph handles to the character codes or commands that must be sent to the printer in order to print glyphs.
 
 
 
@@ -85,7 +85,7 @@ A .gtt file's MAPTABLE structure, which contains a glyph mapping table, is acces
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_transdata">TRANSDATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_transdata">TRANSDATA</a>
  
 
  

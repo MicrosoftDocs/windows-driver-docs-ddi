@@ -120,7 +120,7 @@ The <code>IPrintOemUni::EnableDriver</code> method allows a rendering plug-in to
 
 Like the <b>DrvEnableDriver</b> function, the <code>IPrintOemUni::EnableDriver</code> method is responsible for providing addresses of internally supported graphics DDI functions, known as hooking functions. It can also perform other one-time initialization operations. Unlike the <b>DrvEnableDriver</b> function, implementation of <code>IPrintOemUni::EnableDriver</code> is optional.
 
-<div class="alert"><b>Note</b>     If you implement <code>IPrintOemUni::EnableDriver</code>, you must also implement <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-disabledriver">IPrintOemUni::DisableDriver</a>. Actions begun in the former method might need to be completed in the latter method. For example, if a large buffer is allocated in <code>IPrintOemUni::EnableDriver</code>, but not deallocated in <b>IPrintOemUni::DisableDriver</b>, a memory leak can occur.</div>
+<div class="alert"><b>Note</b>     If you implement <code>IPrintOemUni::EnableDriver</code>, you must also implement <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-disabledriver">IPrintOemUni::DisableDriver</a>. Actions begun in the former method might need to be completed in the latter method. For example, if a large buffer is allocated in <code>IPrintOemUni::EnableDriver</code>, but not deallocated in <b>IPrintOemUni::DisableDriver</b>, a memory leak can occur.</div>
 <div> </div>
 The method should fill the supplied <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-tagdrvenabledata">DRVENABLEDATA</a> structure and allocate an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_drvfn">DRVFN</a> structures. It should fill the array with pointers to hooking functions, along with winddi.h-defined index values that identify the hooked out graphics DDI functions.
 
@@ -159,7 +159,7 @@ A rendering plug-in for Unidrv can hook out a graphics DDI function only if the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvtransparentblt">DrvTransparentBlt</a>
 If you provide a customized hooking function, it preempts the driver's equivalent graphics DDI function. Hooking functions can also call back into the driver's graphics DDI functions. For more information see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-graphics-ddi-functions">Customized Graphics DDI Functions</a>.
 
-Customized hooking functions have the same input and output parameters as the equivalent graphics DDI function, with one exception - where graphics DDI functions receive PDEV pointers, customized hooking functions receive <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a> pointers. There are two ways for graphics DDI functions to receive PDEV pointers:
+Customized hooking functions have the same input and output parameters as the equivalent graphics DDI function, with one exception - where graphics DDI functions receive PDEV pointers, customized hooking functions receive <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> pointers. There are two ways for graphics DDI functions to receive PDEV pointers:
 
 <ul>
 <li>

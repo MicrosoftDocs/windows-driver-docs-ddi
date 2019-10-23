@@ -55,7 +55,7 @@ After Kbfiltr received the keyboard connect request, Kbfiltr filters the connect
 
 <ul>
 <li>
-Saves a copy of Kbdclass's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA (Kbdclass)</a> structure that is passed to the filter driver by Kbdclass
+Saves a copy of Kbdclass's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA (Kbdclass)</a> structure that is passed to the filter driver by Kbdclass
 
 </li>
 <li>
@@ -76,7 +76,7 @@ For more information about the connection of the Kbdclass service, see the follo
 <dl>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/kbdmou/nc-kbdmou-pservice_callback_routine">Kbdclass Class Service Callback Routine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/kbdmou/nc-kbdmou-pservice_callback_routine">Kbdclass Class Service Callback Routine</a>
 
 
 </dd>
@@ -167,11 +167,11 @@ The request completed successfully.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA (Kbdclass)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA (Kbdclass)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_hook_keyboard">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_hook_keyboard">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
 
 
 

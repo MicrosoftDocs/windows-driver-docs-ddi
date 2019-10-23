@@ -48,7 +48,7 @@ req.typenames: SRIOV_INVALIDATE_BLOCK, *PSRIOV_INVALIDATE_BLOCK
 ## -description
 
 
-Contains the configuration block information. This structure is used in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ni-pcivirt-ioctl_sriov_invalidate_block">IOCTL_SRIOV_INVALIDATE_BLOCK</a> request.
+Contains the configuration block information. This structure is used in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_invalidate_block">IOCTL_SRIOV_INVALIDATE_BLOCK</a> request.
 
 
 ## -syntax
@@ -79,7 +79,7 @@ a block of configuration data.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ni-pcivirt-ioctl_sriov_invalidate_block">IOCTL_SRIOV_INVALIDATE_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_invalidate_block">IOCTL_SRIOV_INVALIDATE_BLOCK</a>
 
 
 

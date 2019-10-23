@@ -48,7 +48,7 @@ req.typenames: DBGKD_GET_VERSION64, *PDBGKD_GET_VERSION64
 ## -description
 
 
-The IG_GET_KERNEL_VERSION <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operation receives information related to the operating system version of the target.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_GET_KERNEL_VERSION, <i>IpvData</i> should contain an instance of the DBGKD_GET_VERSION64 structure.
+The IG_GET_KERNEL_VERSION <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operation receives information related to the operating system version of the target.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_GET_KERNEL_VERSION, <i>IpvData</i> should contain an instance of the DBGKD_GET_VERSION64 structure.
 
 
 ## -struct-fields
@@ -277,14 +277,14 @@ Receives the value of the kernel variable <b>PsLoadedModuleList</b>.
 
 ### -field DebuggerDataList
 
-Receives the value of the kernel variable <b>KdDebuggerDataBlock</b>.  This a pointer to either a KDDEBUGGER_DATA64 structure or a KDDEBUGGER_DATA32 structure.  Use the function <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-getdebuggerdata">GetDebuggerData</a> to fetch this structure.
+Receives the value of the kernel variable <b>KdDebuggerDataBlock</b>.  This a pointer to either a KDDEBUGGER_DATA64 structure or a KDDEBUGGER_DATA32 structure.  Use the function <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-getdebuggerdata">GetDebuggerData</a> to fetch this structure.
 
 
 ## -remarks
 
 
 
-The parameters for the IG_GET_KERNEL_VERSION <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operation are the members of the DBGKD_GET_VERSION64 structure.
+The parameters for the IG_GET_KERNEL_VERSION <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operation are the members of the DBGKD_GET_VERSION64 structure.
 
 This operation is only available in kernel-mode debugging.
 
@@ -296,11 +296,11 @@ This operation is only available in kernel-mode debugging.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-getdebuggerdata">GetDebuggerData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-getdebuggerdata">GetDebuggerData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
  
 
  

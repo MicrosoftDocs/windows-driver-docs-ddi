@@ -63,7 +63,7 @@ Contains a value associated with the WMI class qualifier <a href="https://docs.m
 
 ### -field PortAttributes
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_msfc_hbaportattributesresults">MSFC_HBAPortAttributesResults</a> that holds the port attributes to report.
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_msfc_hbaportattributesresults">MSFC_HBAPortAttributesResults</a> that holds the port attributes to report.
 
 
 ## -remarks

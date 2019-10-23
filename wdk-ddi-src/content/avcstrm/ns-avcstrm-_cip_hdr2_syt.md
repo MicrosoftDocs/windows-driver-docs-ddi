@@ -78,7 +78,7 @@ Specifies field encoding or time-shift flag depending on the value of FMT. This 
 
 ### -field FMT
 
-CIP format ID. For example, 000000 = DV and 100000 = MPEG2TS. If this is 111111 (no data), then DBS, FN, SPH and DBC (in the first quadlet of the CIP header, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_cip_hdr1">CIP_HDR1</a>) are ignored.
+CIP format ID. For example, 000000 = DV and 100000 = MPEG2TS. If this is 111111 (no data), then DBS, FN, SPH and DBC (in the first quadlet of the CIP header, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr1">CIP_HDR1</a>) are ignored.
 
 
 ### -field Bit10
@@ -91,7 +91,7 @@ Must be set to 1:0.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_cip_hdr1">CIP_HDR1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr1">CIP_HDR1</a>
  
 
  

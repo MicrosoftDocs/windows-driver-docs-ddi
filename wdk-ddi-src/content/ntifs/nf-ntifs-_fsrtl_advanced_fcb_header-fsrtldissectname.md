@@ -230,7 +230,7 @@ FsRtlDissectName (FullPathName, &CurrentComponent, &RemainingComponent);
 </td>
 </tr>
 </table></span></div>
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Strings</a>. 
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
 
 
 

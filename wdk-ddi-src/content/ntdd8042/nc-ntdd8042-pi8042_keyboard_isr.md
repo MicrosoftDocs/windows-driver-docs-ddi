@@ -68,7 +68,7 @@ Pointer to the input <a href="https://docs.microsoft.com/windows/desktop/api/ntd
 
 ### -param CurrentOutput [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ns-ntdd8042-_output_packet">OUTPUT_PACKET</a> structure, which specifies an array of bytes that is being written to the hardware device.
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ns-ntdd8042-_output_packet">OUTPUT_PACKET</a> structure, which specifies an array of bytes that is being written to the hardware device.
 
 
 ### -param StatusByte [in]
@@ -88,7 +88,7 @@ Specifies, if <b>TRUE</b>, that processing in the I8042prt keyboard ISR will con
 
 ### -param ScanState [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ne-ntdd8042-_keyboard_scan_state">KEYBOARD_SCAN_STATE</a> enumeration value, which identifies the keyboard scan state.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ne-ntdd8042-_keyboard_scan_state">KEYBOARD_SCAN_STATE</a> enumeration value, which identifies the keyboard scan state.
 
 
 ## -returns
@@ -122,7 +122,7 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ne-ntdd8042-_keyboard_scan_state">KEYBOARD_SCAN_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ne-ntdd8042-_keyboard_scan_state">KEYBOARD_SCAN_STATE</a>
 
 
 
@@ -130,11 +130,11 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ns-ntdd8042-_output_packet">OUTPUT_PACKET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ns-ntdd8042-_output_packet">OUTPUT_PACKET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/nc-ntdd8042-pi8042_keyboard_isr">PI8042_KEYBOARD_ISR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/nc-ntdd8042-pi8042_keyboard_isr">PI8042_KEYBOARD_ISR</a>
  
 
  

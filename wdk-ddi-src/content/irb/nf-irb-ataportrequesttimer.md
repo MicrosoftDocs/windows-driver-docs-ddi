@@ -96,7 +96,7 @@ The ATA port driver passes a pointer to the channel extension to the timer routi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportstallexecution">AtaPortStallExecution</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportstallexecution">AtaPortStallExecution</a>
  
 
  

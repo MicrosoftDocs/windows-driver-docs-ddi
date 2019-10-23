@@ -63,12 +63,12 @@ Identifies a Windows code page.
 
 ### -field SelectSymbolSet
 
-Is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_invoc">INVOC</a> structure containing the printer command to select the code page's symbol set.
+Is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a> structure containing the printer command to select the code page's symbol set.
 
 
 ### -field UnSelectSymbolSet
 
-Is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_invoc">INVOC</a> structure containing the printer command to deselect the code page's symbol set.
+Is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a> structure containing the printer command to deselect the code page's symbol set.
 
 
 ## -see-also
@@ -76,7 +76,7 @@ Is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/p
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_invoc">INVOC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_invoc">INVOC</a>
  
 
  

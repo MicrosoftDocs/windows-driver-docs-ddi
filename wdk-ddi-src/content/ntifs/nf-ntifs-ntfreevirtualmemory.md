@@ -59,7 +59,7 @@ A handle for the process in whose context the pages to be freed reside. Use the 
 
 A pointer to a variable that will receive the base virtual address of the freed region of pages.
 
-If the MEM_RELEASE flag is set in the *FreeType* parameter, *\*BaseAddress* must be the base address returned by [**NtAllocateVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntallocatevirtualmemory) when the region was reserved.
+If the MEM_RELEASE flag is set in the *FreeType* parameter, *\*BaseAddress* must be the base address returned by [**NtAllocateVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntallocatevirtualmemory) when the region was reserved.
 
 ### -param RegionSize [in, out]
 
@@ -104,7 +104,7 @@ MEM_RELEASE
 <td>
 <b>NtFreeVirtualMemory</b> will release the specified region of pages. The pages enter the free state.
 
-If you specify this flag, *<i>RegionSize</i> must be zero, and *<i>BaseAddress</i> must point to the base address returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntallocatevirtualmemory">NtAllocateVirtualMemory</a> when the region was reserved. <b>NtFreeVirtualMemory</b> fails if either of these conditions is not met.
+If you specify this flag, *<i>RegionSize</i> must be zero, and *<i>BaseAddress</i> must point to the base address returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntallocatevirtualmemory">NtAllocateVirtualMemory</a> when the region was reserved. <b>NtFreeVirtualMemory</b> fails if either of these conditions is not met.
 
 If any pages in the region are currently committed, <b>NtFreeVirtualMemory</b> first decommits and then releases them.
 
@@ -169,7 +169,7 @@ The system initializes and loads each committed page into physical memory only a
 
 When a process terminates, the system releases all storage for committed pages.
 
-You can use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntallocatevirtualmemory">NtAllocateVirtualMemory</a> to put committed memory pages into either the reserved or free state.
+You can use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntallocatevirtualmemory">NtAllocateVirtualMemory</a> to put committed memory pages into either the reserved or free state.
 
 </td>
 </tr>
@@ -185,7 +185,7 @@ You can use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/con
 
 If a page is decommitted but not released, its state changes to reserved. You can subsequently call **NtAllocateVirtualMemory** to commit it, or **NtFreeVirtualMemory** to release it. Attempting to read from or write to a reserved page results in an access violation exception.
 
-**NtFreeVirtualMemory** can release a range of pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state of each page. The entire range of pages originally reserved by [**NtAllocateVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntallocatevirtualmemory) must be released at the same time.
+**NtFreeVirtualMemory** can release a range of pages that are in different states, some reserved and some committed. This means that you can release a range of pages without first determining the current commitment state of each page. The entire range of pages originally reserved by [**NtAllocateVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntallocatevirtualmemory) must be released at the same time.
 
 If a page is released, its state changes to free, and it is available for subsequent allocation operations. After memory has been released or decommitted, you can never refer to the memory again. Any information that may have been in that memory is gone forever. Attempting to read from or write to a free page results in an access violation exception. If you require information, do not decommit or free memory that contains that information.
 
@@ -198,4 +198,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 ## -see-also
 
-[**NtAllocateVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntallocatevirtualmemory)
+[**NtAllocateVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntallocatevirtualmemory)

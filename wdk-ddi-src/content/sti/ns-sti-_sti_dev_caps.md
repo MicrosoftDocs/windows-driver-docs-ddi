@@ -48,7 +48,7 @@ req.typenames: STI_DEV_CAPS, *PSTI_DEV_CAPS
 ## -description
 
 
-The STI_DEV_CAPS structure is used as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getcapabilities">IStiDevice::GetCapabilities</a> method. It is also a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_sti_device_informationw">STI_DEVICE_INFORMATION</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_sti_wia_device_informationw">STI_WIA_DEVICE_INFORMATION</a> structures.
+The STI_DEV_CAPS structure is used as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getcapabilities">IStiDevice::GetCapabilities</a> method. It is also a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_device_informationw">STI_DEVICE_INFORMATION</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_wia_device_informationw">STI_WIA_DEVICE_INFORMATION</a> structures.
 
 
 ## -struct-fields
@@ -82,7 +82,7 @@ The still image server will generate a <b>GUID_DeviceArrivedLaunch</b> event whe
 
 #### STI_GENCAP_NOTIFICATIONS
 
-The device supports event notifications (either asynchronously or through polling), and the device can be subscribed to (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-subscribe">IStiDevice::Subscribe</a>).
+The device supports event notifications (either asynchronously or through polling), and the device can be subscribed to (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-subscribe">IStiDevice::Subscribe</a>).
 
 
 
@@ -90,7 +90,7 @@ The device supports event notifications (either asynchronously or through pollin
 
 #### STI_GENCAP_POLLING_NEEDED
 
-The device is not capable of issuing asynchronous notifications; polling of the device is required (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getstatus">IStiDevice::GetStatus</a>).
+The device is not capable of issuing asynchronous notifications; polling of the device is required (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getstatus">IStiDevice::GetStatus</a>).
 
 
 

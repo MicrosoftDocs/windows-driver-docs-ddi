@@ -52,7 +52,7 @@ Writes to USB device registers, using the control pipe.
 
 ### -input-buffer
 
-Pointer to an [IO_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ns-usbscan-_io_block) structure.
+Pointer to an [IO_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_io_block) structure.
 
 ### -input-buffer-length
 
@@ -78,9 +78,9 @@ Zero
 
 ### DeviceIoControl Parameters
 
-When the **DeviceloControl** function is called with the IOCTL_WRITE_REGISTERS I/O control code, the caller must specify the address of an [IO_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ns-usbscan-_io_block) structure as the function's *lpInBuffer* parameter.
+When the **DeviceloControl** function is called with the IOCTL_WRITE_REGISTERS I/O control code, the caller must specify the address of an [IO_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_io_block) structure as the function's *lpInBuffer* parameter.
 
-Using the IO_BLOCK contents, the kernel-mode driver creates a [URB](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb) that contains a [_URB_CONTROL_VENDOR_OR_CLASS_REQUEST](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb_control_vendor_or_class_request) structure.
+Using the IO_BLOCK contents, the kernel-mode driver creates a [URB](https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb) that contains a [_URB_CONTROL_VENDOR_OR_CLASS_REQUEST](https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_vendor_or_class_request) structure.
 
 The following table indicates the values assigned to _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure members.
 

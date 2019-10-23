@@ -144,7 +144,7 @@ Specifies an outbound SA.
 
 The number of elements in the 
      <b>SecAssoc</b> array. Each element in the array is an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_security_association">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_security_association">
      OFFLOAD_SECURITY_ASSOCIATION</a> structure.
 
 
@@ -179,7 +179,7 @@ The handle to the newly created SA. The miniport driver supplies this handle bef
 
 The UDP-ESP encapsulation type and destination port of a parser entry. This information is
      formatted as an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_ipsec_udpesp_encaptype_entry">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_ipsec_udpesp_encaptype_entry">
      OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY</a> structure.
 
 
@@ -228,7 +228,7 @@ A variable-length array that contains keys for the SAs specified at
      an integrity (authentication) algorithm are specified by the 
      <b>ConfAlgo</b> and 
      <b>IntegrityAlgo</b> of an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_security_association">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_security_association">
      OFFLOAD_SECURITY_ASSOCIATION</a> structure, the buffer at 
      <b>KeyMat</b> contains key information for the confirmation algorithm first,
      followed immediately by key information for the integrity algorithm.
@@ -237,7 +237,7 @@ A variable-length array that contains keys for the SAs specified at
 The length of each key in the buffer at 
      <b>KeyMat</b> is specified by 
      <b>algoKeyLen</b> in the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_algo_info">OFFLOAD_ALGO_INFO</a> structure that
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_algo_info">OFFLOAD_ALGO_INFO</a> structure that
      specifies the confidentiality or integrity algorithm. (An OFFLOAD_ALGO_INFO structure is a member of an
      OFFLOAD_SECURITY_ASSOCIATION structure.)
 
@@ -251,7 +251,7 @@ The OFFLOAD_IPSEC_ADD_UDPESP_SA structure is used with the
     OID_TCP_TASK_IPSEC_ADD_UDPESP_SA</a> OID.
 
 Note that the OFFLOAD_IPSEC_ADD_UDPESP_SA structure is almost identical to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_ipsec_add_sa">OFFLOAD_IPSEC_ADD_SA</a> structure used in
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_ipsec_add_sa">OFFLOAD_IPSEC_ADD_SA</a> structure used in
     the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-task-ipsec-add-sa">OID_TCP_TASK_IPSEC_ADD_SA</a> request.
     The only difference is that the OFFLOAD_IPSEC_ADD_UDPESP_SA structure contains the 
@@ -270,20 +270,20 @@ Note that the OFFLOAD_IPSEC_ADD_UDPESP_SA structure is almost identical to the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_algo_info">OFFLOAD_ALGO_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_algo_info">OFFLOAD_ALGO_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_ipsec_add_sa">OFFLOAD_IPSEC_ADD_SA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_ipsec_add_sa">OFFLOAD_IPSEC_ADD_SA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_ipsec_udpesp_encaptype_entry">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_ipsec_udpesp_encaptype_entry">
    OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_security_association">OFFLOAD_SECURITY_ASSOCIATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_offload_security_association">OFFLOAD_SECURITY_ASSOCIATION</a>
 
 
 

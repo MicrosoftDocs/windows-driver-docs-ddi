@@ -85,7 +85,7 @@ Invalid object type.
 
 
 
-The <b>KTMOBJECT_TYPE</b> enumeration is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntenumeratetransactionobject">ZwEnumerateTransactionObject</a> routine.
+The <b>KTMOBJECT_TYPE</b> enumeration is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntenumeratetransactionobject">ZwEnumerateTransactionObject</a> routine.
 
 For more information about KTM objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ktm-objects">KTM Objects</a>.
 
@@ -97,7 +97,7 @@ For more information about KTM objects, see <a href="https://docs.microsoft.com/
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntenumeratetransactionobject">ZwEnumerateTransactionObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntenumeratetransactionobject">ZwEnumerateTransactionObject</a>
  
 
  

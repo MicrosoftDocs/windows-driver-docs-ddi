@@ -74,7 +74,7 @@ Indicates whether the create item pointer passed should be attached directly to 
 
 ### -param ItemFreeCallback [in, optional]
 
-Optionally contains a pointer to a minidriver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksitemfreecallback">KStrItemFreeCallback</a> function to be called when the create entry is being destroyed upon freeing the device header. This is only valid when <i>AllocateEntry</i> is <b>TRUE</b>.
+Optionally contains a pointer to a minidriver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksitemfreecallback">KStrItemFreeCallback</a> function to be called when the create entry is being destroyed upon freeing the device header. This is only valid when <i>AllocateEntry</i> is <b>TRUE</b>.
 
 
 ## -returns
@@ -91,7 +91,7 @@ Returns STATUS_SUCCESS if a new item was allocated and attached. Otherwise, it r
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksitemfreecallback">KStrItemFreeCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksitemfreecallback">KStrItemFreeCallback</a>
  
 
  

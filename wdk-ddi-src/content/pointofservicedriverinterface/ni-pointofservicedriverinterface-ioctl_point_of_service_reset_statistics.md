@@ -59,7 +59,7 @@ This I/O control function resets the specified statistic's value to zero.
 ### -input-buffer
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posstringtype">PosStringType</a> that names the statistic to reset to zero.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posstringtype">PosStringType</a> that names the statistic to reset to zero.
 
 
 ### -input-buffer-length

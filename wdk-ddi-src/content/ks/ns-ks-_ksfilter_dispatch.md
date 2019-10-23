@@ -58,7 +58,7 @@ The KSFILTER_DISPATCH structure describes the client callbacks that are made to 
 
 ### -field Create
 
-Optional. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksfilterirp">AVStrMiniFilterCreate</a> callback routine.
+Optional. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfilterirp">AVStrMiniFilterCreate</a> callback routine.
 
 
 ### -field Close
@@ -68,12 +68,12 @@ Optional. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com
 
 ### -field Process
 
-Optional. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksfilterprocess">AVStrMiniFilterProcess</a> callback routine.
+Optional. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfilterprocess">AVStrMiniFilterProcess</a> callback routine.
 
 
 ### -field Reset
 
-Optional. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksfiltervoid">AVStrMiniFilterReset</a> callback routine.
+Optional. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfiltervoid">AVStrMiniFilterReset</a> callback routine.
 
 
 ## -remarks
@@ -95,15 +95,15 @@ Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/res
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksprocesspin">KSPROCESSPIN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin">KSPROCESSPIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksprocesspin_indexentry">KSPROCESSPIN_INDEXENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksprocesspin_indexentry">KSPROCESSPIN_INDEXENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kscompletependingrequest">KsCompletePendingRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscompletependingrequest">KsCompletePendingRequest</a>
  
 
  

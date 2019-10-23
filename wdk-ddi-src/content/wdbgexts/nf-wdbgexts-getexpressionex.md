@@ -115,7 +115,7 @@ An error occurred while attempting to evaluate the expression.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_get_expression">GetExpression</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_get_expression">GetExpression</a>
  
 
  

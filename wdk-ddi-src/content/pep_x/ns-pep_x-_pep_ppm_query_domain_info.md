@@ -102,7 +102,7 @@ On output, this value indicates the worst case overhead (PEP code execution time
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Processor power management (PPM) notifications</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Processor power management (PPM) notifications</a>
  
 
  

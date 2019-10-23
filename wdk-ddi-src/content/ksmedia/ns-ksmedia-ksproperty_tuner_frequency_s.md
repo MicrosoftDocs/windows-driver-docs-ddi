@@ -73,7 +73,7 @@ Specifies the last frequency tuned.
 
 ### -field TuningFlags
 
-Specifies tuning flags that describe the granularity of a tuning operation. If the request is a Get request, the minidriver returns the current tuning flags. If the request is a Set request, the minidriver should use the specified tuning method. This member must be set to one of the values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ks_tuner_tuning_flags">KS_TUNER_TUNING_FLAGS</a> enumeration.
+Specifies tuning flags that describe the granularity of a tuning operation. If the request is a Get request, the minidriver returns the current tuning flags. If the request is a Set request, the minidriver should use the specified tuning method. This member must be set to one of the values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_tuner_tuning_flags">KS_TUNER_TUNING_FLAGS</a> enumeration.
 
 
 ### -field VideoSubChannel
@@ -109,7 +109,7 @@ Specifies the current country code for the tuning operation. Country codes follo
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ks_tuner_tuning_flags">KS_TUNER_TUNING_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_tuner_tuning_flags">KS_TUNER_TUNING_FLAGS</a>
 
 
 

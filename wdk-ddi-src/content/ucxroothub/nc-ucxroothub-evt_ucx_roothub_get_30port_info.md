@@ -63,7 +63,7 @@ A handle to a UCX object that represents the root hub.
 
 ### -param Request [in]
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_roothub_30port_info">_ROOTHUB_30PORT_INFO</a>.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_30port_info">_ROOTHUB_30PORT_INFO</a>.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This callback function does not return a value.
 The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188048(v=vs.85)">UcxRootHubCreate</a>
  method.
 
- The <b>PortInfoArray</b> array of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_roothub_30port_info">_ROOTHUB_30PORT_INFO</a> structure
+ The <b>PortInfoArray</b> array of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_30port_info">_ROOTHUB_30PORT_INFO</a> structure
     contains a list of USB 3.0 ports that the root hub supports.
 
 The client driver returns completion status in <i>Request</i> and in the USBD_STATUS
@@ -164,7 +164,7 @@ RootHub_EvtRootHubGet30PortInfoEnd:
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_roothub_30port_info">_ROOTHUB_30PORT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_30port_info">_ROOTHUB_30PORT_INFO</a>
  
 
  

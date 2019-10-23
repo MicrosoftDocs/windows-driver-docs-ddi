@@ -48,7 +48,7 @@ req.typenames: OEMFONTINSTPARAM, *POEMFONTINSTPARAM
 ## -description
 
 
-The OEMFONTINSTPARAM structure is used as an input parameter to a user interface plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-fontinstallerdlgproc">IPrintOemUI::FontInstallerDlgProc</a> method.
+The OEMFONTINSTPARAM structure is used as an input parameter to a user interface plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-fontinstallerdlgproc">IPrintOemUI::FontInstallerDlgProc</a> method.
 
 
 ## -struct-fields
@@ -83,5 +83,5 @@ Unidrv-supplied flags. The only defined flag is FG_CANCHANGE which, if set, indi
 
 ### -field pFontInstallerName
 
-Pointer to a string representing the font installer's name. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-fontinstallerdlgproc">IPrintOemUI::FontInstallerDlgProc</a> method must supply this string if the received message is WM_USER+WM_FI_NAME. The string must be placed in memory allocated using <b>hHeap</b>.
+Pointer to a string representing the font installer's name. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-fontinstallerdlgproc">IPrintOemUI::FontInstallerDlgProc</a> method must supply this string if the received message is WM_USER+WM_FI_NAME. The string must be placed in memory allocated using <b>hHeap</b>.
 

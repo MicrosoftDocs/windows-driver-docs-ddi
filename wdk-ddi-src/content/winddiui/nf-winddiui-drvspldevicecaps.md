@@ -164,7 +164,7 @@ The return value depends on the <i>DeviceCap</i> parameter. If <i>DeviceCap</i> 
 
 The <b>DrvSplDeviceCaps</b> function is available in Microsoft Windows Server 2003 and later.
 
-For descriptions of the DC_<i>XXX</i> flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>.
+For descriptions of the DC_<i>XXX</i> flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>.
 
 This function must be defined in the .def file as DrvSplDeviceCaps @ 254, because the spooler uses the ordinal number 254 to obtain the driver function pointer.
 
@@ -176,7 +176,7 @@ This function must be defined in the .def file as DrvSplDeviceCaps @ 254, becaus
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicecapabilities">DrvDeviceCapabilities</a>
  
 
  

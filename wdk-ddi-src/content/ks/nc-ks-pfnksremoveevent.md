@@ -56,7 +56,7 @@ Pointer to the file object for which to remove the event.
 
 ### -param *EventEntry [in]
 
-Pointer to an AVStream-generated [KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksevent_entry) structure.
+Pointer to an AVStream-generated [KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry) structure.
 
 ## -returns
 
@@ -64,9 +64,9 @@ Pointer to an AVStream-generated [KSEVENT_ENTRY](https://docs.microsoft.com/wind
 
 ## -remarks
 
-The minidriver specifies this routine's address in the **RemoveHandler** member of a [KSEVENT_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksevent_item) structure. [Event Handling in AVStream](https://docs.microsoft.com/windows-hardware/drivers/stream/event-handling-in-avstream) describes how the minidriver provides this structure to the class driver.
+The minidriver specifies this routine's address in the **RemoveHandler** member of a [KSEVENT_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksevent_item) structure. [Event Handling in AVStream](https://docs.microsoft.com/windows-hardware/drivers/stream/event-handling-in-avstream) describes how the minidriver provides this structure to the class driver.
 
-If the minidriver provides *AVStrMiniRemoveEvent* and either does not specify an **AddHandler** or specifies an **AddHandler** that calls **Ks***Xxx***AddEvent**, then the minidriver's *AVStrMiniRemoveEvent* must call [RemoveEntryList](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removeentrylist) with a pointer to the LIST_ENTRY structure in the [KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksevent_entry) structure:
+If the minidriver provides *AVStrMiniRemoveEvent* and either does not specify an **AddHandler** or specifies an **AddHandler** that calls **Ks***Xxx***AddEvent**, then the minidriver's *AVStrMiniRemoveEvent* must call [RemoveEntryList](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-removeentrylist) with a pointer to the LIST_ENTRY structure in the [KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry) structure:
 
 ```cpp
 &EventEntry -> ListEntry
@@ -76,20 +76,20 @@ Otherwise, your *AVStrMiniRemoveEvent* should reverse the steps taken in the **A
 
 ## -see-also
 
-[AVStrMiniAddEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksaddevent)
+[AVStrMiniAddEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksaddevent)
 
-[KSAUTOMATION_TABLE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksautomation_table_)
+[KSAUTOMATION_TABLE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksautomation_table_)
 
-[KSEVENTDATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kseventdata)
+[KSEVENTDATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata)
 
-[KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksevent_entry)
+[KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry)
 
-[KSEVENT_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksevent_item)
+[KSEVENT_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksevent_item)
 
-[KsFilterAddEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfilteraddevent)
+[KsFilterAddEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfilteraddevent)
 
-[KsFilterGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfiltergenerateevents)
+[KsFilterGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltergenerateevents)
 
-[KsPinAddEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinaddevent)
+[KsPinAddEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinaddevent)
 
-[KsPinGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingenerateevents)
+[KsPinGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingenerateevents)

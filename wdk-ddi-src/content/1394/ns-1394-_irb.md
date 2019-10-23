@@ -58,7 +58,7 @@ Drivers use this structure to pass most requests to IEEE 1394 bus driver.
 
 ### -field FunctionNumber
 
-Determines the type of request. Each request type is documented under the value of <b>FunctionNumber</b> in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">IEEE 1394 Bus I/O Requests</a>.
+Determines the type of request. Each request type is documented under the value of <b>FunctionNumber</b> in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IEEE 1394 Bus I/O Requests</a>.
 
 
 ### -field Flags
@@ -78,7 +78,7 @@ Reserved.
 
 ### -field u
 
-Specifies a union of structures, one for each value of <b>FunctionNumber</b>. The applicable submembers of <b>u</b> for each request are described with each request type in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">IEEE 1394 Bus I/O Requests</a>.
+Specifies a union of structures, one for each value of <b>FunctionNumber</b>. The applicable submembers of <b>u</b> for each request are described with each request type in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IEEE 1394 Bus I/O Requests</a>.
 
 <table>
 <tr>
@@ -401,7 +401,7 @@ Specifies a union of structures, one for each value of <b>FunctionNumber</b>. Th
 
 
 
-The <b>Parameters->Others.Arguments1</b> member of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ni-1394-ioctl_1394_class">IOCTL_1394_CLASS</a> IRP points to an IRB structure. The bus driver uses the IRB to determine the type of request made by the device driver, and also to return the results of the operation. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">IEEE 1394 Bus I/O Requests</a> for a description of the behavior of each request.
+The <b>Parameters->Others.Arguments1</b> member of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">IOCTL_1394_CLASS</a> IRP points to an IRB structure. The bus driver uses the IRB to determine the type of request made by the device driver, and also to return the results of the operation. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IEEE 1394 Bus I/O Requests</a> for a description of the behavior of each request.
 
 
 
@@ -411,7 +411,7 @@ The <b>Parameters->Others.Arguments1</b> member of an <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ni-1394-ioctl_1394_class">IOCTL_1394_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">IOCTL_1394_CLASS</a>
  
 
  

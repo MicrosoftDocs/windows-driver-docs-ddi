@@ -98,7 +98,7 @@ Specifies the current state of the garbage collector.
 
 ### -field VolumeGcLastStatus
 
-Specifies the status of the last garbage collection using the specified method in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ne-ntifs-_refs_smr_volume_gc_method">REFS_SMR_VOLUME_GC_METHOD</a>.
+Specifies the status of the last garbage collection using the specified method in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_refs_smr_volume_gc_method">REFS_SMR_VOLUME_GC_METHOD</a>.
 
 
 ### -field Unused

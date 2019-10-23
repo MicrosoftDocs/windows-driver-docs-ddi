@@ -58,83 +58,83 @@ A filter driver's <i>RegistryCallback</i> routine can monitor, block, or modify 
 
 ### -param CallbackContext [in]
 
-The value that the driver passed as the <i>Context</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a> when it registered this <i>RegistryCallback</i> routine.
+The value that the driver passed as the <i>Context</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a> when it registered this <i>RegistryCallback</i> routine.
 
 
 ### -param Argument1 [in, optional]
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_reg_notify_class">REG_NOTIFY_CLASS</a>-typed value that identifies the type of registry operation that is being performed and whether the <i>RegistryCallback</i> routine is being called before or after the registry operation is performed.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_reg_notify_class">REG_NOTIFY_CLASS</a>-typed value that identifies the type of registry operation that is being performed and whether the <i>RegistryCallback</i> routine is being called before or after the registry operation is performed.
 
 
 ### -param Argument2 [in, optional]
 
-A pointer to a structure that contains information that is specific to the type of registry operation. The structure type depends on the REG_NOTIFY_CLASS-typed value for <i>Argument1</i>, as shown in the following table. For information about which REG_NOTIFY_CLASS-typed values are available for which operating system versions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_reg_notify_class">REG_NOTIFY_CLASS</a>.
+A pointer to a structure that contains information that is specific to the type of registry operation. The structure type depends on the REG_NOTIFY_CLASS-typed value for <i>Argument1</i>, as shown in the following table. For information about which REG_NOTIFY_CLASS-typed values are available for which operating system versions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_reg_notify_class">REG_NOTIFY_CLASS</a>.
 
 | **REG_NOTIFY_CLASS Value** | **Structure Type** | 
 |:--|:--|
-| **RegNtDeleteKey** | [REG_DELETE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_delete_key_information)  | 
-| **RegNtPreDeleteKey** | [REG_DELETE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_delete_key_information)  | 
-| **RegNtPostDeleteKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtSetValueKey** | [REG_SET_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_set_value_key_information)  | 
-| **RegNtPreSetValueKey** | [REG_SET_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_set_value_key_information)  | 
-| **RegNtPostSetValueKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtDeleteValueKey** | [REG_DELETE_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_delete_value_key_information)  | 
-| **RegNtPreDeleteValueKey** | [REG_DELETE_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_delete_value_key_information)  | 
-| **RegNtPostDeleteValueKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtSetInformationKey** | [REG_SET_INFORMATION_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_set_information_key_information)  | 
-| **RegNtPreSetInformationKey** | [REG_SET_INFORMATION_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_set_information_key_information)  | 
-| **RegNtPostSetInformationKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtRenameKey** | [REG_RENAME_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_rename_key_information)  | 
-| **RegNtPreRenameKey** | [REG_RENAME_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_rename_key_information)  | 
-| **RegNtPostRenameKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtEnumerateKey** | [REG_ENUMERATE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_enumerate_key_information)  | 
-| **RegNtPreEnumerateKey** | [REG_ENUMERATE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_enumerate_key_information)  | 
-| **RegNtPostEnumerateKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtEnumerateValueKey** | [REG_ENUMERATE_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_enumerate_value_key_information)  | 
-| **RegNtPreEnumerateValueKey** | [REG_ENUMERATE_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_enumerate_value_key_information)  | 
-| **RegNtPostEnumerateValueKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtQueryKey** | [REG_QUERY_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_query_key_information)  | 
-| **RegNtPreQueryKey** | [REG_QUERY_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_query_key_information)  | 
-| **RegNtPostQueryKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtQueryValueKey** | [REG_QUERY_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_query_value_key_information)  | 
-| **RegNtPreQueryValueKey** | [REG_QUERY_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_query_value_key_information)  | 
-| **RegNtPostQueryValueKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtQueryMultipleValueKey** | [REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_query_multiple_value_key_information)  | 
-| **RegNtPreQueryMultipleValueKey** | [REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_query_multiple_value_key_information)  | 
-| **RegNtPostQueryMultipleValueKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtPreCreateKey** | [REG_PRE_CREATE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_pre_create_key_information)  | 
-| **RegNtPreCreateKeyEx** | [REG_CREATE_KEY_INFORMATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_create_key_information)  | 
-| **RegNtPostCreateKey** | [REG_POST_CREATE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_create_key_information)  | 
-| **RegNtPostCreateKeyEx** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtPreOpenKey** | [REG_PRE_OPEN_KEY_INFORMATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_pre_create_key_information)  | 
-| **RegNtPreOpenKeyEx** | [REG_OPEN_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_create_key_information)  | 
-| **RegNtPostOpenKey** | [REG_POST_OPEN_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_create_key_information)  | 
-| **RegNtPostOpenKeyEx** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtKeyHandleClose** | [REG_KEY_HANDLE_CLOSE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_key_handle_close_information)  | 
-| **RegNtPreKeyHandleClose** | [REG_KEY_HANDLE_CLOSE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_key_handle_close_information)  | 
-| **RegNtPostKeyHandleClose** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtPreFlushKey** | [REG_FLUSH_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_delete_key_information)  | 
-| **RegNtPostFlushKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtPreLoadKey** | [REG_LOAD_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_load_key_information)  | 
-| **RegNtPostLoadKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtPreUnLoadKey** | [REG_UNLOAD_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_unload_key_information)  | 
-| **RegNtPostUnLoadKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtPreQueryKeySecurity** | [REG_QUERY_KEY_SECURITY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_query_key_security_information)  | 
-| **RegNtPostQueryKeySecurity** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtPreSetKeySecurity** | [REG_SET_KEY_SECURITY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_set_key_security_information)  | 
-| **RegNtPostSetKeySecurity** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtCallbackObjectContextCleanup** | [REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_callback_context_cleanup_information)  | 
-| **RegNtPreRestoreKey** | [REG_RESTORE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_restore_key_information)  | 
-| **RegNtPostRestoreKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtPreSaveKey** | [REG_SAVE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_save_key_information)  | 
-| **RegNtPostSaveKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtPreReplaceKey** | [REG_REPLACE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_replace_key_information)  | 
-| **RegNtPostReplaceKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
-| **RegNtPreQueryKeyName** | [REG_QUERY_KEY_NAME](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_query_key_name)  | 
-| **RegNtPostQueryKeyName** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtDeleteKey** | [REG_DELETE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_delete_key_information)  | 
+| **RegNtPreDeleteKey** | [REG_DELETE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_delete_key_information)  | 
+| **RegNtPostDeleteKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtSetValueKey** | [REG_SET_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_set_value_key_information)  | 
+| **RegNtPreSetValueKey** | [REG_SET_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_set_value_key_information)  | 
+| **RegNtPostSetValueKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtDeleteValueKey** | [REG_DELETE_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_delete_value_key_information)  | 
+| **RegNtPreDeleteValueKey** | [REG_DELETE_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_delete_value_key_information)  | 
+| **RegNtPostDeleteValueKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtSetInformationKey** | [REG_SET_INFORMATION_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_set_information_key_information)  | 
+| **RegNtPreSetInformationKey** | [REG_SET_INFORMATION_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_set_information_key_information)  | 
+| **RegNtPostSetInformationKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtRenameKey** | [REG_RENAME_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_rename_key_information)  | 
+| **RegNtPreRenameKey** | [REG_RENAME_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_rename_key_information)  | 
+| **RegNtPostRenameKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtEnumerateKey** | [REG_ENUMERATE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_enumerate_key_information)  | 
+| **RegNtPreEnumerateKey** | [REG_ENUMERATE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_enumerate_key_information)  | 
+| **RegNtPostEnumerateKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtEnumerateValueKey** | [REG_ENUMERATE_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_enumerate_value_key_information)  | 
+| **RegNtPreEnumerateValueKey** | [REG_ENUMERATE_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_enumerate_value_key_information)  | 
+| **RegNtPostEnumerateValueKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtQueryKey** | [REG_QUERY_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_query_key_information)  | 
+| **RegNtPreQueryKey** | [REG_QUERY_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_query_key_information)  | 
+| **RegNtPostQueryKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtQueryValueKey** | [REG_QUERY_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_query_value_key_information)  | 
+| **RegNtPreQueryValueKey** | [REG_QUERY_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_query_value_key_information)  | 
+| **RegNtPostQueryValueKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtQueryMultipleValueKey** | [REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_query_multiple_value_key_information)  | 
+| **RegNtPreQueryMultipleValueKey** | [REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_query_multiple_value_key_information)  | 
+| **RegNtPostQueryMultipleValueKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtPreCreateKey** | [REG_PRE_CREATE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_pre_create_key_information)  | 
+| **RegNtPreCreateKeyEx** | [REG_CREATE_KEY_INFORMATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information)  | 
+| **RegNtPostCreateKey** | [REG_POST_CREATE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_create_key_information)  | 
+| **RegNtPostCreateKeyEx** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtPreOpenKey** | [REG_PRE_OPEN_KEY_INFORMATION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_pre_create_key_information)  | 
+| **RegNtPreOpenKeyEx** | [REG_OPEN_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information)  | 
+| **RegNtPostOpenKey** | [REG_POST_OPEN_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_create_key_information)  | 
+| **RegNtPostOpenKeyEx** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtKeyHandleClose** | [REG_KEY_HANDLE_CLOSE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_key_handle_close_information)  | 
+| **RegNtPreKeyHandleClose** | [REG_KEY_HANDLE_CLOSE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_key_handle_close_information)  | 
+| **RegNtPostKeyHandleClose** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtPreFlushKey** | [REG_FLUSH_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_delete_key_information)  | 
+| **RegNtPostFlushKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtPreLoadKey** | [REG_LOAD_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_load_key_information)  | 
+| **RegNtPostLoadKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtPreUnLoadKey** | [REG_UNLOAD_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_unload_key_information)  | 
+| **RegNtPostUnLoadKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtPreQueryKeySecurity** | [REG_QUERY_KEY_SECURITY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_query_key_security_information)  | 
+| **RegNtPostQueryKeySecurity** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtPreSetKeySecurity** | [REG_SET_KEY_SECURITY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_set_key_security_information)  | 
+| **RegNtPostSetKeySecurity** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtCallbackObjectContextCleanup** | [REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_callback_context_cleanup_information)  | 
+| **RegNtPreRestoreKey** | [REG_RESTORE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_restore_key_information)  | 
+| **RegNtPostRestoreKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtPreSaveKey** | [REG_SAVE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_save_key_information)  | 
+| **RegNtPostSaveKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtPreReplaceKey** | [REG_REPLACE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_replace_key_information)  | 
+| **RegNtPostReplaceKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
+| **RegNtPreQueryKeyName** | [REG_QUERY_KEY_NAME](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_query_key_name)  | 
+| **RegNtPostQueryKeyName** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_post_operation_information)  | 
  
 
-** Starting with Windows 7, the actual data structure passed in when the notify class is RegNtPreCreateKeyEx or RegNtPreOpenKeyEx is the V1 version of this structure, [REG_CREATE_KEY_INFORMATION_V1](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_create_key_information_v1)  or [REG_OPEN_KEY_INFORMATION_V1](https://msdn.microsoft.com/library/windows/hardware/ff560959) , respectively. Check the Reserved member to determine the version of the structure.
+** Starting with Windows 7, the actual data structure passed in when the notify class is RegNtPreCreateKeyEx or RegNtPreOpenKeyEx is the V1 version of this structure, [REG_CREATE_KEY_INFORMATION_V1](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_create_key_information_v1)  or [REG_OPEN_KEY_INFORMATION_V1](https://msdn.microsoft.com/library/windows/hardware/ff560959) , respectively. Check the Reserved member to determine the version of the structure.
 
 | **Version number** | **Structure name** | 
 |:--|:--|
@@ -160,11 +160,11 @@ For more information about when a <i>RegistryCallback</i> routine should return 
 
 
 
-To be notified of registry operations, a kernel-mode component (such as the driver component of an antivirus software package) can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a> to register a <i>RegistryCallback</i> routine.
+To be notified of registry operations, a kernel-mode component (such as the driver component of an antivirus software package) can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a> to register a <i>RegistryCallback</i> routine.
 
-The <i>RegistryCallback</i> routine can inspect the contents of the input and output buffers that are supplied for registry operations. A registry operation can be initiated by a user-mode application that calls a user-mode registry routine (such as <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>) or by a driver that calls a kernel-mode registry routine (such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>). An <i>input buffer</i> is a memory buffer supplied by the initiator from which the registry reads input data for the operation. An <i>output buffer</i> is a buffer supplied by the initiator into which the registry writes output data requested by the initiator.
+The <i>RegistryCallback</i> routine can inspect the contents of the input and output buffers that are supplied for registry operations. A registry operation can be initiated by a user-mode application that calls a user-mode registry routine (such as <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>) or by a driver that calls a kernel-mode registry routine (such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>). An <i>input buffer</i> is a memory buffer supplied by the initiator from which the registry reads input data for the operation. An <i>output buffer</i> is a buffer supplied by the initiator into which the registry writes output data requested by the initiator.
 
-Before calling the <i>RegistryCallback</i> routine, the kernel probes (to verify alignment and accessibility) all members of the <i>Argument2</i> structures that point to output buffers in user-mode memory, but does not capture user-mode output buffers in system memory. The callback routine must enclose any access of an output buffer in a <b>try</b>/<b>except</b> block. If the callback routine needs to pass an output buffer pointer to a system routine (for example, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>), and the buffer is in user-mode memory, the callback routine must first capture the buffer.
+Before calling the <i>RegistryCallback</i> routine, the kernel probes (to verify alignment and accessibility) all members of the <i>Argument2</i> structures that point to output buffers in user-mode memory, but does not capture user-mode output buffers in system memory. The callback routine must enclose any access of an output buffer in a <b>try</b>/<b>except</b> block. If the callback routine needs to pass an output buffer pointer to a system routine (for example, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>), and the buffer is in user-mode memory, the callback routine must first capture the buffer.
 
 The handling of input buffers depends on the Windows version. Starting with Windows 8, the kernel captures all input buffers pointed to by members of the <i>Argument2</i> structures in system memory before calling the <i>RegistryCallback</i> routine. In versions of Windows before Windows 8, the kernel probes all members of the <i>Argument2</i> structures that point to input buffers in user-mode memory, but captures only some of these buffers in system memory. In these earlier versions of Windows, the callback routine must enclose any access of an input buffer in a <b>try</b>/<b>except</b> block. Additionally, if the callback routine needs to pass an input buffer pointer to a system routine (for example, <b>ZwOpenKey</b>), and the buffer is in user-mode memory, the callback routine must first capture the buffer.
 
@@ -262,23 +262,23 @@ The EX_CALLBACK_FUNCTION function type is defined in the Wdm.h header file. To m
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-cmunregistercallback">CmUnRegisterCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmunregistercallback">CmUnRegisterCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-probeforread">ProbeForRead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-probeforread">ProbeForRead</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_reg_notify_class">REG_NOTIFY_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_reg_notify_class">REG_NOTIFY_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
  
 
  

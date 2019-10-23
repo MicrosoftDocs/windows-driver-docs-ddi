@@ -48,7 +48,7 @@ req.typenames: CDROM_SEEK_AUDIO_MSF, *PCDROM_SEEK_AUDIO_MSF
 ## -description
 
 
-The CDROM_SEEK_AUDIO_MSF structure contains the minute, second, and frame that the device must seek to upon receipt of a device control IRP with a control code of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_seek_audio_msf">IOCTL_CDROM_SEEK_AUDIO_MSF</a>. 
+The CDROM_SEEK_AUDIO_MSF structure contains the minute, second, and frame that the device must seek to upon receipt of a device control IRP with a control code of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_seek_audio_msf">IOCTL_CDROM_SEEK_AUDIO_MSF</a>. 
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ Contains an integer between 0 and 74 that indicates the frame to seek to.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_seek_audio_msf">IOCTL_CDROM_SEEK_AUDIO_MSF</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_seek_audio_msf">IOCTL_CDROM_SEEK_AUDIO_MSF</a>
  
 
  

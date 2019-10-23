@@ -98,7 +98,7 @@ If the camera has only one lens, these values can be used to represent zoom rati
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_cameracontrol_node_focal_length_s">KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_node_focal_length_s">KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S</a>
 
 
 

@@ -58,7 +58,7 @@ The HID_DEVICE_ATTRIBUTES structure contains information about a HIDClass device
 
 ### -field Size
 
-Specifies the size of the structure. This member should be treated as read-only when a HID minidriver uses this structure to complete an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidport/ni-hidport-ioctl_hid_get_device_attributes">IOCTL_HID_GET_DEVICE_ATTRIBUTES</a> request.
+Specifies the size of the structure. This member should be treated as read-only when a HID minidriver uses this structure to complete an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_hid_get_device_attributes">IOCTL_HID_GET_DEVICE_ATTRIBUTES</a> request.
 
 
 ### -field VendorID
@@ -85,7 +85,7 @@ Reserved for internal system use.
 
 
 
-The HID class driver uses this structure to obtain device attributes when it sends an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidport/ni-hidport-ioctl_hid_get_device_attributes">IOCTL_HID_GET_DEVICE_ATTRIBUTES</a> request to a HID minidriver.
+The HID class driver uses this structure to obtain device attributes when it sends an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_hid_get_device_attributes">IOCTL_HID_GET_DEVICE_ATTRIBUTES</a> request to a HID minidriver.
 
 
 
@@ -95,7 +95,7 @@ The HID class driver uses this structure to obtain device attributes when it sen
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidport/ni-hidport-ioctl_hid_get_device_attributes">IOCTL_HID_GET_DEVICE_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_hid_get_device_attributes">IOCTL_HID_GET_DEVICE_ATTRIBUTES</a>
  
 
  

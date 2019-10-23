@@ -151,7 +151,7 @@ Indicates that the device supports Media Status Notification.
 
 ### -field AddressTranslation
 
-Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ne-irb-ata_address_translation">ATA_ADDRESS_TRANSLATION</a> that specifies the sort of address translation used during data transfers.
+Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ne-irb-ata_address_translation">ATA_ADDRESS_TRANSLATION</a> that specifies the sort of address translation used during data transfers.
 
 
 ### -field MaxLba
@@ -213,7 +213,7 @@ Indicates the selected transfer modes on the device. The miniport driver must se
 
 
 
-The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_hw_initialize">IdeHwInitialize</a>.
+The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_initialize">IdeHwInitialize</a>.
 
 
 
@@ -223,15 +223,15 @@ The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ne-irb-ata_address_translation">ATA_ADDRESS_TRANSLATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ne-irb-ata_address_translation">ATA_ADDRESS_TRANSLATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ne-irb-ide_device_type">IDE_DEVICE_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ne-irb-ide_device_type">IDE_DEVICE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_hw_initialize">IdeHwInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_initialize">IdeHwInitialize</a>
  
 
  

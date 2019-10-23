@@ -48,7 +48,7 @@ req.typenames: KSM_NODE, *PKSM_NODE
 ## -description
 
 
-Just as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksp_node">KSP_NODE</a> is used for properties on a node, the KSM_NODE structure is used for methods on a node.
+Just as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a> is used for properties on a node, the KSM_NODE structure is used for methods on a node.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ Reserved for system use. Should be set to zero.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksp_node">KSP_NODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a>
  
 
  

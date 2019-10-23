@@ -68,43 +68,43 @@ The <b>IBidiAsyncNotifyChannel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-asyncclosechannel">AsyncCloseChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-asyncclosechannel">AsyncCloseChannel</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-asyncgetnotificationsendresponse">AsyncGetNotificationSendResponse</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-asyncgetnotificationsendresponse">AsyncGetNotificationSendResponse</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-closechannel">CloseChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-closechannel">CloseChannel</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-createnotificationchannel">CreateNotificationChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-createnotificationchannel">CreateNotificationChannel</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-getchannelnotificationtype">GetChannelNotificationType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-getchannelnotificationtype">GetChannelNotificationType</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-getprintname">GetPrintName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-getprintname">GetPrintName</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-sendnotification">SendNotification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-sendnotification">SendNotification</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>

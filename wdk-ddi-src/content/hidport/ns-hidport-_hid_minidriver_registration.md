@@ -63,7 +63,7 @@ Specifies the HID version that this minidriver supports.
 
 ### -field DriverObject
 
-Pointer to the minidriver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>.
+Pointer to the minidriver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>.
 
 
 ### -field RegistryPath
@@ -90,7 +90,7 @@ Reserved for internal system use.
 
 
 
-When a HID minidriver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidport/nf-hidport-hidregisterminidriver">HidRegisterMinidriver</a>, it uses this structure to pass information to the HID class driver. The minidriver must zero-initialize this structure before setting members. A minidriver sets the members <b>DriverObject</b> and <b>RegistryPath</b> to the driver object and registry path parameters that are passed to the minidriver as system-supplied parameters to its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. <b>Revision</b> should be set to HID_REVISION.
+When a HID minidriver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/nf-hidport-hidregisterminidriver">HidRegisterMinidriver</a>, it uses this structure to pass information to the HID class driver. The minidriver must zero-initialize this structure before setting members. A minidriver sets the members <b>DriverObject</b> and <b>RegistryPath</b> to the driver object and registry path parameters that are passed to the minidriver as system-supplied parameters to its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. <b>Revision</b> should be set to HID_REVISION.
 
 
 
@@ -104,7 +104,7 @@ When a HID minidriver calls <a href="https://docs.microsoft.com/windows-hardware
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidport/nf-hidport-hidregisterminidriver">HidRegisterMinidriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/nf-hidport-hidregisterminidriver">HidRegisterMinidriver</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>UFX_DEVICE_CAPABILITIES_INIT</b> macro the initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxbase/ns-ufxbase-_ufx_device_capabilities">UFX_DEVICE_CAPABILITIES</a> structure.
+The <b>UFX_DEVICE_CAPABILITIES_INIT</b> macro the initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxbase/ns-ufxbase-_ufx_device_capabilities">UFX_DEVICE_CAPABILITIES</a> structure.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>UFX_DEVICE_CAPABILITIES_INIT</b> macro the initializes the <a href="https
 
 ### -param Capabilities [out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxbase/ns-ufxbase-_ufx_device_capabilities">UFX_DEVICE_CAPABILITIES</a> structure.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxbase/ns-ufxbase-_ufx_device_capabilities">UFX_DEVICE_CAPABILITIES</a> structure.
 
 
 ## -returns

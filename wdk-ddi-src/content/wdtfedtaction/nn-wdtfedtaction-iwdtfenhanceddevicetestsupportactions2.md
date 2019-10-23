@@ -70,7 +70,7 @@ The <b>IWDTFEnhancedDeviceTestSupportActions2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-disable">Disable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-disable">Disable</a>
 </td>
 <td align="left" width="63%">
 Disables the Enhanced Device Test (EDT) filter driver on the target device.
@@ -79,7 +79,7 @@ Disables the Enhanced Device Test (EDT) filter driver on the target device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Enable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Enable</a>
 </td>
 <td align="left" width="63%">
 Enables the Enhanced Device Test (EDT) filter driver on the target device.
@@ -88,7 +88,7 @@ Enables the Enhanced Device Test (EDT) filter driver on the target device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-isenabled">IsEnabled</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-isenabled">IsEnabled</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether the Enhanced Device Test (EDT) filter driver is enabled 
@@ -98,7 +98,7 @@ on the target device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">IsRebootRequired</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IsRebootRequired</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether the Enhanced Device Test (EDT) filter driver requires a reboot.
@@ -137,7 +137,7 @@ Sets a value that indicates whether the target device should be restarted by def
 
 
 The EDT filter driver provides support for the 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a> interface methods 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfpnpaction/nn-wdtfpnpaction-iwdtfpnpaction2">IWDTFPNPAction2</a> interface methods 
 that are prefixed with <b>EDT</b>.
 
 

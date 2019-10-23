@@ -90,7 +90,7 @@ Indicates that the copyright protection sequence is complete.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ks_dvdcopy_set_copy_state">KS_DVDCOPY_SET_COPY_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ks_dvdcopy_set_copy_state">KS_DVDCOPY_SET_COPY_STATE</a>
  
 
  

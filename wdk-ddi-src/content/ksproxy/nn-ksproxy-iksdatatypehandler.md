@@ -70,7 +70,7 @@ The <b>IKsDataTypeHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksdatatypehandler-kscompleteiooperation">KsCompleteIoOperation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-kscompleteiooperation">KsCompleteIoOperation</a>
 </td>
 <td align="left" width="63%">
 Cleans up the extended header and completes the I/O operation.
@@ -79,7 +79,7 @@ Cleans up the extended header and completes the I/O operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksdatatypehandler-ksismediatypeinranges">KsIsMediaTypeInRanges</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksismediatypeinranges">KsIsMediaTypeInRanges</a>
 </td>
 <td align="left" width="63%">
 Validates that a media type is within specific data ranges.
@@ -88,7 +88,7 @@ Validates that a media type is within specific data ranges.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksdatatypehandler-ksprepareiooperation">KsPrepareIoOperation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksprepareiooperation">KsPrepareIoOperation</a>
 </td>
 <td align="left" width="63%">
 Initializes the extended header and prepares the media sample for an I/O operation.
@@ -97,7 +97,7 @@ Initializes the extended header and prepares the media sample for an I/O operati
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksdatatypehandler-ksqueryextendedsize">KsQueryExtendedSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksqueryextendedsize">KsQueryExtendedSize</a>
 </td>
 <td align="left" width="63%">
 Retrieves extended header information required for I/O operations.
@@ -106,7 +106,7 @@ Retrieves extended header information required for I/O operations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksdatatypehandler-kssetmediatype">KsSetMediaType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-kssetmediatype">KsSetMediaType</a>
 </td>
 <td align="left" width="63%">
 Sets the media type for a data handler.
@@ -120,7 +120,7 @@ Sets the media type for a data handler.
 
 
 
-In order to keep the proxy data type neutral, optional data type handlers can be loaded to massage the data stream as it passes to or from kernel-mode filters. You should implement a data type handler as a COM server that, at least, supports the <b>IKsDataTypeHandler</b> interface. Your data type handler can optionally support the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-iksdatatypecompletion">IKsDataTypeCompletion</a> interface. 
+In order to keep the proxy data type neutral, optional data type handlers can be loaded to massage the data stream as it passes to or from kernel-mode filters. You should implement a data type handler as a COM server that, at least, supports the <b>IKsDataTypeHandler</b> interface. Your data type handler can optionally support the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypecompletion">IKsDataTypeCompletion</a> interface. 
 
 A data type handler is typically loaded during the pin connection process, and unloaded when the connection is broken. However, a data type handler is sometimes loaded briefly for other purposes. For instance, if an application uses DirectShow's <b>IAMStreamConfig::SetFormat</b> method, the application possibly uses a data type handler to complete a partial media type parameter sent to the method. 
 
@@ -138,7 +138,7 @@ For more information about <b>IAMStreamConfig::SetFormat</b> and <b>CoCreateInst
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-iksdatatypecompletion">IKsDataTypeCompletion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksdatatypecompletion">IKsDataTypeCompletion</a>
  
 
  

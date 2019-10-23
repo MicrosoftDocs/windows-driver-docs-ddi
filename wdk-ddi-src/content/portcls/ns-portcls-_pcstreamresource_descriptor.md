@@ -120,7 +120,7 @@ Stream resources are any resources used by the audio driver to process audio str
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ne-portcls-_pcstreamresourcetype">PcStreamResourceType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ne-portcls-_pcstreamresourcetype">PcStreamResourceType</a>
  
 
  

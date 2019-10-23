@@ -152,7 +152,7 @@ If <i>OutputBuffer</i> is not large enough to contain all of the settings reques
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Hardware notifications reference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>
 
 
 

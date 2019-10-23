@@ -87,7 +87,7 @@ A miniport driver must not use this routine to truncate a 64-bit physical addres
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportconvertulongtophysicaladdress">AtaPortConvertUlongToPhysicalAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportconvertulongtophysicaladdress">AtaPortConvertUlongToPhysicalAddress</a>
  
 
  

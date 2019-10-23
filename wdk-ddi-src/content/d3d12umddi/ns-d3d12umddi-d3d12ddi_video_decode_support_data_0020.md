@@ -93,24 +93,24 @@ The average bits per second data compression rate for the compressed video strea
 
 ### -field SupportFlags
 
-Supported flags. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_support_flags_0020">D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS</a>.
+Supported flags. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_support_flags_0020">D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS</a>.
 
 
 ### -field ConfigurationFlags
 
-Configuration flags. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020">D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS</a>.
+Configuration flags. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020">D3D12DDI_VIDEO_DECODE_CONFIGURATION_FLAGS</a>.
 
 
 ### -field DecodeTier
 
-The tier supported by this configuration.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_tier_0020">D3D12DDI_VIDEO_DECODE_TIER</a>.
+The tier supported by this configuration.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_tier_0020">D3D12DDI_VIDEO_DECODE_TIER</a>.
 
 
 ## -remarks
 
 
 
-This structure is retrieved through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_video_getcaps">pfnGetCaps</a> callback function  with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddicaps_type">D3D12DDICAPS_TYPE</a> set to a value of <b>D3D12DDICAPS_TYPE_VIDEO_DECODE_SUPPORT</b>.
+This structure is retrieved through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_video_getcaps">pfnGetCaps</a> callback function  with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddicaps_type">D3D12DDICAPS_TYPE</a> set to a value of <b>D3D12DDICAPS_TYPE_VIDEO_DECODE_SUPPORT</b>.
 
 
 
@@ -120,7 +120,7 @@ This structure is retrieved through the <a href="https://docs.microsoft.com/wind
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
 
 
 
@@ -128,11 +128,11 @@ This structure is retrieved through the <a href="https://docs.microsoft.com/wind
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_support_flags_0020">D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_support_flags_0020">D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_tier_0020">D3D12DDI_VIDEO_DECODE_TIER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_tier_0020">D3D12DDI_VIDEO_DECODE_TIER</a>
  
 
  

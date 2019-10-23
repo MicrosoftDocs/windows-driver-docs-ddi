@@ -76,7 +76,7 @@ Indicates all the data formats supported by the audio adapter.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getengineformatsize">GetEngineFormatSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getengineformatsize">GetEngineFormatSize</a>
  
 
  

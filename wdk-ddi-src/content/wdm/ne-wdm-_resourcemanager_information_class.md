@@ -48,7 +48,7 @@ req.typenames: RESOURCEMANAGER_INFORMATION_CLASS
 ## -description
 
 
-The <b>RESOURCEMANAGER_INFORMATION_CLASS</b> enumeration identifies the type of information that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationresourcemanager">ZwQueryInformationResourceManager</a> routine can retrieve for a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/resource-manager-objects">resource manager object</a>.
+The <b>RESOURCEMANAGER_INFORMATION_CLASS</b> enumeration identifies the type of information that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationresourcemanager">ZwQueryInformationResourceManager</a> routine can retrieve for a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/resource-manager-objects">resource manager object</a>.
 
 
 ## -enum-fields
@@ -58,12 +58,12 @@ The <b>RESOURCEMANAGER_INFORMATION_CLASS</b> enumeration identifies the type of 
 
 ### -field ResourceManagerBasicInformation
 
-Information about a resource manager object is stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_resourcemanager_basic_information">RESOURCEMANAGER_BASIC_INFORMATION</a> structure. 
+Information about a resource manager object is stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_resourcemanager_basic_information">RESOURCEMANAGER_BASIC_INFORMATION</a> structure. 
 
 
 ### -field ResourceManagerCompletionInformation
 
-Information about a resource manager object is stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_resourcemanager_completion_information">RESOURCEMANAGER_COMPLETION_INFORMATION</a> structure. 
+Information about a resource manager object is stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_resourcemanager_completion_information">RESOURCEMANAGER_COMPLETION_INFORMATION</a> structure. 
 
 
 ## -see-also
@@ -71,15 +71,15 @@ Information about a resource manager object is stored in a <a href="https://docs
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_resourcemanager_basic_information">RESOURCEMANAGER_BASIC_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_resourcemanager_basic_information">RESOURCEMANAGER_BASIC_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_resourcemanager_completion_information">RESOURCEMANAGER_COMPLETION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_resourcemanager_completion_information">RESOURCEMANAGER_COMPLETION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationresourcemanager">ZwQueryInformationResourceManager</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntqueryinformationresourcemanager">ZwQueryInformationResourceManager</a>
  
 
  

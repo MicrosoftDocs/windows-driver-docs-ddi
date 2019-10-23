@@ -63,7 +63,7 @@ UCX invokes this callback function to specify its preference in transport charac
 
 ### -param ChangeNotificationFlags [in]
 
- A bitwise option of flags that indicate the type transport characteristics in which UCX is interested. The flags are defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxcontroller/ns-ucxcontroller-_ucx_controller_transport_characteristics_change_flags">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS</a>.
+ A bitwise option of flags that indicate the type transport characteristics in which UCX is interested. The flags are defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_transport_characteristics_change_flags">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS_CHANGE_FLAGS</a>.
 
 
 ## -returns

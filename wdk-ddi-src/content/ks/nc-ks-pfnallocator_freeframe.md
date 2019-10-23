@@ -58,7 +58,7 @@ The <i>KStrFreeFrame</i> routine describes a vendor-supplied frame deallocation 
 
 ### -param FileObject [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">FILE_OBJECT</a> structure for which this frame has been allocated.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a> structure for which this frame has been allocated.
 
 
 ### -param Frame [in]
@@ -79,7 +79,7 @@ Returns STATUS_SUCCESS if the request is handled.  Otherwise returns an appropri
 
 
 
-This type is used in the <b>FreeFrame</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksstreamallocator_functiontable">KSSTREAMALLOCATOR_FUNCTIONTABLE</a> structure.
+This type is used in the <b>FreeFrame</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstreamallocator_functiontable">KSSTREAMALLOCATOR_FUNCTIONTABLE</a> structure.
 
 You can pass an instance of this structure as part of a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-streamallocator-functiontable">KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE</a> property request.
 
@@ -95,7 +95,7 @@ You can pass an instance of this structure as part of a <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksstreamallocator_functiontable">KSSTREAMALLOCATOR_FUNCTIONTABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstreamallocator_functiontable">KSSTREAMALLOCATOR_FUNCTIONTABLE</a>
  
 
  

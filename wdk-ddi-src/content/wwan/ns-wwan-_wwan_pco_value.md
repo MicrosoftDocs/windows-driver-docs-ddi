@@ -63,7 +63,7 @@ The length of the PCO value that is valid in <b>PcoData</b>, which will be octet
 
 ### -field Type
 
-Indicates whether the PCO value being passed up is the original structure that was received by the modem or a subset of the full PCO structure and has the header synthesized. For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_pco_type">WWAN_PCO_TYPE</a>.
+Indicates whether the PCO value being passed up is the original structure that was received by the modem or a subset of the full PCO structure and has the header synthesized. For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_pco_type">WWAN_PCO_TYPE</a>.
 
 
 ### -field PcoData
@@ -90,11 +90,11 @@ The following figure shows a full PCO structure as defined in the 3G TS24.008 sp
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_pco_status">NDIS_WWAN_PCO_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_pco_status">NDIS_WWAN_PCO_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_pco_type">WWAN_PCO_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_pco_type">WWAN_PCO_TYPE</a>
  
 
  

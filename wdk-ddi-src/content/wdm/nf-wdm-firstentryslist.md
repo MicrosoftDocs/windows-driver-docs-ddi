@@ -65,7 +65,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kern
 
 
 
-<b>FirstEntrySList</b> returns a pointer to the first <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_slist_entry">SLIST_ENTRY</a> structure on the list. If the list is empty, the routine returns <b>NULL</b>.
+<b>FirstEntrySList</b> returns a pointer to the first <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_slist_entry">SLIST_ENTRY</a> structure on the list. If the list is empty, the routine returns <b>NULL</b>.
 
 
 
@@ -84,7 +84,7 @@ Unlike other sequenced singly linked list routines, the <b>FirstEntrySList</b> r
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_slist_entry">SLIST_ENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_slist_entry">SLIST_ENTRY</a>
 
 
 

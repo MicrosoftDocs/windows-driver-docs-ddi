@@ -90,7 +90,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfregistry/nf-wdfregistry-wdfregistryremovevalue">WdfRegistryRemoveValue</a> was not called at IRQL = PASSIVE_LEVEL. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfregistry/nf-wdfregistry-wdfregistryremovevalue">WdfRegistryRemoveValue</a> was not called at IRQL = PASSIVE_LEVEL. 
 
 </td>
 </tr>

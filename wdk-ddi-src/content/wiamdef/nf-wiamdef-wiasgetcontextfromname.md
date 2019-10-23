@@ -80,4 +80,4 @@ This function should be used by minidrivers when they need to move from one appl
 
 ## -see-also
 
-[wiasGetRootItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetrootitem)
+[wiasGetRootItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetrootitem)

@@ -48,7 +48,7 @@ req.typenames: IDE_POWER_INFO, *PIDE_POWER_INFO
 ## -description
 
 
-The POWER_CHANGE_INFO structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a> to request a power state change.
+The POWER_CHANGE_INFO structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a> to request a power state change.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
@@ -58,7 +58,7 @@ The POWER_CHANGE_INFO structure is used in conjunction with the <a href="https:/
 
 ### -field CurrentPowerState
 
-Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ne-irb-ide_power_state">IDE_POWER_STATE</a> that indicates the current power state of the device.
+Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ne-irb-ide_power_state">IDE_POWER_STATE</a> that indicates the current power state of the device.
 
 
 ### -field DesiredPowerState
@@ -71,11 +71,11 @@ Contains an enumeration value of type IDE_POWER_STATE that indicates the power s
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ne-irb-ide_power_state">IDE_POWER_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ne-irb-ide_power_state">IDE_POWER_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a>
  
 
  

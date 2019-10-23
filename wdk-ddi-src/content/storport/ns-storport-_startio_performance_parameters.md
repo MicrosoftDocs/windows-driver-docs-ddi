@@ -48,7 +48,7 @@ req.typenames: STARTIO_PERFORMANCE_PARAMETERS, *PSTARTIO_PERFORMANCE_PARAMETERS
 ## -description
 
 
-The <b>STARTIO_PERFORMANCE_PARAMETERS</b> structure describes the performance parameters that are returned to the miniport driver by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportgetstartioperfparams">StorPortGetStartIoPerfParams</a> routine.
+The <b>STARTIO_PERFORMANCE_PARAMETERS</b> structure describes the performance parameters that are returned to the miniport driver by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetstartioperfparams">StorPortGetStartIoPerfParams</a> routine.
 
 
 ## -struct-fields
@@ -81,7 +81,7 @@ Denotes the concurrent channel in which Storport is passing the I/O. If the mini
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportgetstartioperfparams">StorPortGetStartIoPerfParams</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetstartioperfparams">StorPortGetStartIoPerfParams</a>
  
 
  

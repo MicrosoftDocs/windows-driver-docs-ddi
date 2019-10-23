@@ -53,7 +53,7 @@ req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ## -description
 
 
-The  request indicates that the virtualization stack wants to unregister for Plug and Play events (previously registered through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ni-pcivirt-ioctl_sriov_attach">IOCTL_SRIOV_ATTACH</a> request).
+The  request indicates that the virtualization stack wants to unregister for Plug and Play events (previously registered through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_attach">IOCTL_SRIOV_ATTACH</a> request).
 
 
 ## -ioctlparameters
@@ -126,10 +126,10 @@ The  request indicates that the virtualization stack wants to unregister for Plu
 
 This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
 
-From here on, the PF should not expect to receive  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ni-pcivirt-ioctl_sriov_event_complete">IOCTL_SRIOV_EVENT_COMPLETE</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> requests.
+From here on, the PF should not expect to receive  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_event_complete">IOCTL_SRIOV_EVENT_COMPLETE</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> requests.
 
 
-The driver that must stop waiting for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ni-pcivirt-ioctl_sriov_event_complete">IOCTL_SRIOV_EVENT_COMPLETE</a>.
+The driver that must stop waiting for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_event_complete">IOCTL_SRIOV_EVENT_COMPLETE</a>.
 If the driver is currently waiting it should stop waiting and continue
  processing Plug and Play IRPs.
 
@@ -194,7 +194,7 @@ In this example handling of the IOCTL_SRIOV_DETACH request, the PF driver mainta
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ni-pcivirt-ioctl_sriov_attach">IOCTL_SRIOV_ATTACH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_attach">IOCTL_SRIOV_ATTACH</a>
 
 
 

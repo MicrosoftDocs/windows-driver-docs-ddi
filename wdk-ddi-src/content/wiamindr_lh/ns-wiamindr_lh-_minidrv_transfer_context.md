@@ -132,7 +132,7 @@ Specifies the address, in the client's address space, of the transfer. The minid
 
 ### -field pIWiaMiniDrvCallBack
 
-Points to an [IWiaMiniDrvCallBack Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvcallback) used for data or status callback transfer.
+Points to an [IWiaMiniDrvCallBack Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvcallback) used for data or status callback transfer.
 
 ### -field lImageSize
 
@@ -164,11 +164,11 @@ Specifies the image file directory (IFD) offset in the previous page of a multip
 
 ## -remarks
 
-The WIA service sets most of the members of this structure before it calls the minidriver's [IWiaMiniDrv::drvAcquireItemData](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvacquireitemdata) method. If the minidriver calls [wiasGetImageInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetimageinformation), then that function fills in the remaining members of the MINIDRV_TRANSFER_CONTEXT passed to it.
+The WIA service sets most of the members of this structure before it calls the minidriver's [IWiaMiniDrv::drvAcquireItemData](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvacquireitemdata) method. If the minidriver calls [wiasGetImageInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetimageinformation), then that function fills in the remaining members of the MINIDRV_TRANSFER_CONTEXT passed to it.
 
 Because the WIA service currently uses only the TYMED_FILE and TYMED_CALLBACK constants, the **tymed** and **bTransferDataCB** members store essentially the same information. For file transfers, when **bTransferDataCB** is set to **FALSE**, **tymed** is set to either TYMED_FILE or TYMED_MULTIPAGE_FILE. For memory-callback transfers, when **bTransferDataCB** is set to **TRUE**, **tymed** is set to either TYMED_CALLBACK or TYMED_MULTIPAGE_CALLBACK.
 
-The **hFile** member is reserved for use solely by the WIA service. Rather than using this member for file transfers, the minidriver should instead write the data to a buffer, and then call [wiasWritePageBufToFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiaswritepagebuftofile) to complete the file transfer.
+The **hFile** member is reserved for use solely by the WIA service. Rather than using this member for file transfers, the minidriver should instead write the data to a buffer, and then call [wiasWritePageBufToFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepagebuftofile) to complete the file transfer.
 
 The minidriver obtains values from specific common or scanner item properties to set the members shown in the following table:
 
@@ -193,7 +193,7 @@ The WIA service sets the following structure members:
 
 - **bClassDrvAllocBuf**
 
-Either the minidriver or the [wiasGetImageInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetimageinformation) service library function sets the following structure members:
+Either the minidriver or the [wiasGetImageInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetimageinformation) service library function sets the following structure members:
 
 - **lImageSize**
 
@@ -218,10 +218,10 @@ The following members of this structure are used in data transfer callbacks. The
 
 ## -see-also
 
-[IWiaMiniDrv::drvAcquireItemData](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvacquireitemdata)
+[IWiaMiniDrv::drvAcquireItemData](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvacquireitemdata)
 
-[IWiaMiniDrvCallBack::MiniDrvCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback)
+[IWiaMiniDrvCallBack::MiniDrvCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback)
 
-[wiasGetImageInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetimageinformation)
+[wiasGetImageInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetimageinformation)
 
-[wiasWritePageBufToFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiaswritepagebuftofile)
+[wiasWritePageBufToFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepagebuftofile)

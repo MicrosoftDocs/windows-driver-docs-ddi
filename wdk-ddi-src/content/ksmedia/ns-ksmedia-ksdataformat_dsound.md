@@ -58,19 +58,19 @@ The KSDATAFORMAT_DSOUND structure provides detailed information about a DirectSo
 
 ### -field DataFormat
 
-Specifies the stream's data format. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>.
+Specifies the stream's data format. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>.
 
 
 ### -field BufferDesc
 
-Describes the DirectSound buffer. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksdsound_bufferdesc">KSDSOUND_BUFFERDESC</a>.
+Describes the DirectSound buffer. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdsound_bufferdesc">KSDSOUND_BUFFERDESC</a>.
 
 
 ## -remarks
 
 
 
-In response to an input <i>DataRange</i> parameter that specifies a DirectSound format (see example in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/directsound-stream-data-range">DirectSound Stream Data Range</a>), the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiport-datarangeintersection">IMiniport::DataRangeIntersection</a> method checks to see if the specified pin supports a compatible DirectSound format. If so, the method outputs a KSDATAFORMAT_DSOUND structure (see example in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/directsound-stream-data-format">DirectSound Stream Data Format</a>) to the buffer that its <i>ResultantFormat</i> parameter points to.
+In response to an input <i>DataRange</i> parameter that specifies a DirectSound format (see example in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/directsound-stream-data-range">DirectSound Stream Data Range</a>), the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-datarangeintersection">IMiniport::DataRangeIntersection</a> method checks to see if the specified pin supports a compatible DirectSound format. If so, the method outputs a KSDATAFORMAT_DSOUND structure (see example in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/directsound-stream-data-format">DirectSound Stream Data Format</a>) to the buffer that its <i>ResultantFormat</i> parameter points to.
 
 
 
@@ -80,15 +80,15 @@ In response to an input <i>DataRange</i> parameter that specifies a DirectSound 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiport-datarangeintersection">IMiniport::DataRangeIntersection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-datarangeintersection">IMiniport::DataRangeIntersection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksdsound_bufferdesc">KSDSOUND_BUFFERDESC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdsound_bufferdesc">KSDSOUND_BUFFERDESC</a>
  
 
  

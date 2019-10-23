@@ -107,7 +107,7 @@ None
 
 The <b>UPSWaitForStateChange</b> function must wait until either the state of the UPS changes from the value specified by <i>aCurrentState</i>, or until the time specified by <i>anInterval</i> has elapsed, whichever occurs first. 
 
-A call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/upssvc/nf-upssvc-upscancelwait">UPSCancelWait</a> interrupts <b>UPSWaitForStateChange</b> and causes it to return. 
+A call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/upssvc/nf-upssvc-upscancelwait">UPSCancelWait</a> interrupts <b>UPSWaitForStateChange</b> and causes it to return. 
 
 
 
@@ -117,7 +117,7 @@ A call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/conte
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/upssvc/nf-upssvc-upscancelwait">UPSCancelWait</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/upssvc/nf-upssvc-upscancelwait">UPSCancelWait</a>
  
 
  

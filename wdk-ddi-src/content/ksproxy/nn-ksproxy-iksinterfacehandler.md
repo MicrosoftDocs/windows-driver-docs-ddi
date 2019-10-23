@@ -68,7 +68,7 @@ The <b>IKsInterfaceHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksinterfacehandler-kscompleteio">KsCompleteIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksinterfacehandler-kscompleteio">KsCompleteIo</a>
 </td>
 <td align="left" width="63%">
 Cleans up extended headers and releases media samples. 
@@ -77,7 +77,7 @@ Cleans up extended headers and releases media samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksinterfacehandler-ksprocessmediasamples">KsProcessMediaSamples</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksinterfacehandler-ksprocessmediasamples">KsProcessMediaSamples</a>
 </td>
 <td align="left" width="63%">
 Queries for the extended header size if a data handler is specified. 
@@ -86,7 +86,7 @@ Queries for the extended header size if a data handler is specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksinterfacehandler-kssetpin">KsSetPin</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksinterfacehandler-kssetpin">KsSetPin</a>
 </td>
 <td align="left" width="63%">
 Informs an interface handler about the pin with which to communicate when passing data.
@@ -118,7 +118,7 @@ For more information about <b>CoCreateInstance</b>, see the Microsoft Windows SD
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-ikscontrol">IKsControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol">IKsControl</a>
 
 
 

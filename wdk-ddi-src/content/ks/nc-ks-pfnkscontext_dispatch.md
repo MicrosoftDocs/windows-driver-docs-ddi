@@ -58,7 +58,7 @@ A streaming minidriver's <i>KStrContextDispatch</i> routine is called to process
 
 ### -param Context [in]
 
-Specifies the user-supplied memory context to be passed as the <i>PowerContext</i> argument to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kssetpowerdispatch">KsSetPowerDispatch</a> function.
+Specifies the user-supplied memory context to be passed as the <i>PowerContext</i> argument to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kssetpowerdispatch">KsSetPowerDispatch</a> function.
 
 
 ### -param Irp [in]
@@ -91,7 +91,7 @@ To manipulate the list entry only, <i>KStrContextDispatch</i> can call<b> KsSetP
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kssetpowerdispatch">KsSetPowerDispatch</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kssetpowerdispatch">KsSetPowerDispatch</a>
  
 
  

@@ -68,7 +68,7 @@ The <b>IWDTFSimulatedBatterySystemAction</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">DisableRealBatteries</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">DisableRealBatteries</a>
 </td>
 <td align="left" width="63%">
 Disables real batteries if they are present in the system.
@@ -77,7 +77,7 @@ Disables real batteries if they are present in the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">DisableSimulatedBattery</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">DisableSimulatedBattery</a>
 </td>
 <td align="left" width="63%">
 Disables the simulated battery.
@@ -86,7 +86,7 @@ Disables the simulated battery.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">EnableRealBatteries</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">EnableRealBatteries</a>
 </td>
 <td align="left" width="63%">
 Enables real batteries if they are present in the system.
@@ -95,7 +95,7 @@ Enables real batteries if they are present in the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">EnableSimulatedBattery</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">EnableSimulatedBattery</a>
 </td>
 <td align="left" width="63%">
 Enables the simulated battery.
@@ -104,7 +104,7 @@ Enables the simulated battery.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">SetSimulatedBatteryChargePercentage</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">SetSimulatedBatteryChargePercentage</a>
 </td>
 <td align="left" width="63%">
 Sets the charge percentage reported to the OS by the simulated battery.
@@ -113,7 +113,7 @@ Sets the charge percentage reported to the OS by the simulated battery.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">SetSimulatedBatteryToAC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">SetSimulatedBatteryToAC</a>
 </td>
 <td align="left" width="63%">
 Sets the simulated battery status to AC power.
@@ -122,7 +122,7 @@ Sets the simulated battery status to AC power.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">SetSimulatedBatteryToDC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">SetSimulatedBatteryToDC</a>
 </td>
 <td align="left" width="63%">
 Sets the simulated battery status to DC power.

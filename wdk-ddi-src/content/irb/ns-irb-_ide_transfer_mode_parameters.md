@@ -48,7 +48,7 @@ req.typenames: IDE_TRANSFER_MODE_PARAMETERS, *PIDE_TRANSFER_MODE_PARAMETERS
 ## -description
 
 
-The IDE_TRANSFER_MODE_PARAMETERS structure is used in conjunction with the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_transfer_mode_select">AtaControllerTransferModeSelect</a> routine to set the transfer mode parameters on a channel.
+The IDE_TRANSFER_MODE_PARAMETERS structure is used in conjunction with the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_transfer_mode_select">AtaControllerTransferModeSelect</a> routine to set the transfer mode parameters on a channel.
 <div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
@@ -63,7 +63,7 @@ Indicates the channel number whose mode parameters are to be set.
 
 ### -field DeviceType
 
-Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ne-irb-ide_device_type">IDE_DEVICE_TYPE</a> that indicates the type of device. The miniport driver should not select a transfer mode if the device type is <b>DeviceNotExist</b>.
+Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ne-irb-ide_device_type">IDE_DEVICE_TYPE</a> that indicates the type of device. The miniport driver should not select a transfer mode if the device type is <b>DeviceNotExist</b>.
 
 
 ### -field IoReadySupported
@@ -142,11 +142,11 @@ Member arrays <b>DeviceTransferModeSupported</b>, <b>DeviceTransferModeCurrent</
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_transfer_mode_select">AtaControllerTransferModeSelect</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_transfer_mode_select">AtaControllerTransferModeSelect</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ne-irb-ide_device_type">IDE_DEVICE_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ne-irb-ide_device_type">IDE_DEVICE_TYPE</a>
  
 
  

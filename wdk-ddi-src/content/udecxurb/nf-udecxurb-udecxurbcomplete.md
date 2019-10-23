@@ -60,7 +60,7 @@ Completes the URB request with a USB-specific completion status code.
 
 ### -param Request [in]
 
-A handle to a framework request object that contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a> for the transfer.
+A handle to a framework request object that contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> for the transfer.
 
 
 ### -param UsbdStatus [in]

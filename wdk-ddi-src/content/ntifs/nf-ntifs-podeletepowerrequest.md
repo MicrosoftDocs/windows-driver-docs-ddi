@@ -58,7 +58,7 @@ The <b>PoDeletePowerRequest</b> routine deletes a power request object.
 
 ### -param PowerRequest [in, out]
 
-A pointer to a power request object that was created by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a> routine.
+A pointer to a power request object that was created by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a> routine.
 
 
 ## -returns
@@ -84,7 +84,7 @@ The driver must delete the power request object before it deletes the device obj
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a>
  
 
  

@@ -63,9 +63,9 @@ The
 ### -param WskRegistration [in]
 
 A pointer to the memory location initialized by 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskregister">WskRegister</a> that identifies a WSK
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a> that identifies a WSK
      application's registration instance. For more information, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_registration">WSK_REGISTRATION</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_registration">WSK_REGISTRATION</a>.
 
 
 ### -param WaitTimeout [in]
@@ -97,7 +97,7 @@ For more information about how this parameter is used, see
 ### -param WskProviderNpi [out]
 
 A pointer to the NPI returned by the WSK provider. This 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_npi">WSK_PROVIDER_NPI</a> structure contains a
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_provider_npi">WSK_PROVIDER_NPI</a> structure contains a
      pointer to the WSK provider dispatch table of WSK functions that the WSK application can call.
 
 
@@ -168,13 +168,13 @@ The provider NPI capture failed.
 
 For each call to 
     <b>WskCaptureProviderNPI</b> that returns a success code, there must be exactly one corresponding 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskreleaseprovidernpi">WskReleaseProviderNPI</a> call that uses
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskreleaseprovidernpi">WskReleaseProviderNPI</a> call that uses
     the same 
     <i>WskRegistration</i> parameter that was passed to 
     <b>WskCaptureProviderNPI</b>.
 
 <b>WskCaptureProviderNPI</b> can be called after a call is made to 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskderegister">WskDeregister</a> only if the 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskderegister">WskDeregister</a> only if the 
     <i>WskRegistration</i> block is not freed or overwritten. After 
     <b>WskDeregister</b> is called, any further calls to 
     <b>WskCaptureProviderNPI</b> will fail with status code STATUS_DEVICE_NOT_READY, and, unless the provider
@@ -199,15 +199,15 @@ Callers of the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskderegister">WskDeregister</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskderegister">WskDeregister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskregister">WskRegister</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskregister">WskRegister</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskreleaseprovidernpi">WskReleaseProviderNPI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nf-wsk-wskreleaseprovidernpi">WskReleaseProviderNPI</a>
  
 
  

@@ -58,7 +58,7 @@ The KSDS3D_BUFFER_ALL structure specifies all the 3D characteristics of a Direct
 
 ### -field Position
 
-Specifies the x, y, and z position coordinates of the 3D sound buffer. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ds3dvector">DS3DVECTOR</a>.
+Specifies the x, y, and z position coordinates of the 3D sound buffer. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ds3dvector">DS3DVECTOR</a>.
 
 
 ### -field Velocity
@@ -133,7 +133,7 @@ The members of this structure are similar to those defined for the DS3DBUFFER st
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ds3dvector">DS3DVECTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ds3dvector">DS3DVECTOR</a>
 
 
 

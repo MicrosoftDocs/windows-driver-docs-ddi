@@ -78,7 +78,7 @@ Supplies a <b>NULL</b>-terminated string with context information about the driv
 
 ### -param ConfigInfo [in, out]
 
-Supplies an initialized [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_port_configuration_information) structure that the miniport driver uses during initialization.
+Supplies an initialized [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information) structure that the miniport driver uses during initialization.
 
 
 ### -param Reserved3 [in]
@@ -104,7 +104,7 @@ Reserved for system use.
 </dl>
 </td>
 <td width="60%">
-Indicates that a supported HBA was found and that the HBA-relevant configuration information was successfully determined and set in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structure.
+Indicates that a supported HBA was found and that the HBA-relevant configuration information was successfully determined and set in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structure.
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Indicates that a supported HBA was found and that the HBA-relevant configuration
 </dl>
 </td>
 <td width="60%">
-Indicates that an HBA was found but there was an error obtaining the configuration information. If possible, such an error should be logged with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportlogerror">StorPortLogError</a>.
+Indicates that an HBA was found but there was an error obtaining the configuration information. If possible, such an error should be logged with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportlogerror">StorPortLogError</a>.
 
 </td>
 </tr>
@@ -153,7 +153,7 @@ Indicates that no supported HBA was found for the supplied configuration informa
 
 Because the Storport driver supports only Plug and Play (PnP) devices, the <i>HwContext</i> and <i>BusInformation</i> parameters to <b>HwStorFindAdapter</b> are not supplied to non-virtual miniport drivers.
 
-<b>HwStorFindAdapter</b> must set the <b>MaximumTransferLength</b> and <b>NumberOfPhysicalBreaks</b> fields in the <i>ConfigInfo</i> structure. Other than these fields, the [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_port_configuration_information) structure will always fully specify all adapter resources that are required to start the adapter. 
+<b>HwStorFindAdapter</b> must set the <b>MaximumTransferLength</b> and <b>NumberOfPhysicalBreaks</b> fields in the <i>ConfigInfo</i> structure. Other than these fields, the [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information) structure will always fully specify all adapter resources that are required to start the adapter. 
 
 The name <b>HwStorFindAdapter</b> is just a placeholder. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
 
@@ -176,7 +176,7 @@ HW_FIND_ADAPTER (
 </td>
 </tr>
 </table></span></div>
-In most cases StorPort calls the <b>HwStorFindAdapter</b> routine at IRQL == PASSIVE_LEVEL without acquiring any spin locks. The exception case is when the miniport does not support calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_adapter_control">HwStorAdaptorControl</a> with the <b>ScsiRestartAdapter</b> control type. In this situation, StorPort will instead reinitialize the adapter by calling both  <b>HwStorFindAdapter</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_initialize">HwStorInitialize</a>. When this is the case, <b>HwStorFindAdapter</b> is called at IRQL == DISPATCH_LEVEL. Also, when in dump mode, <b>HwStorFindAdapter</b> is called at IRQL == HIGH_LEVEL.
+In most cases StorPort calls the <b>HwStorFindAdapter</b> routine at IRQL == PASSIVE_LEVEL without acquiring any spin locks. The exception case is when the miniport does not support calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdaptorControl</a> with the <b>ScsiRestartAdapter</b> control type. In this situation, StorPort will instead reinitialize the adapter by calling both  <b>HwStorFindAdapter</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a>. When this is the case, <b>HwStorFindAdapter</b> is called at IRQL == DISPATCH_LEVEL. Also, when in dump mode, <b>HwStorFindAdapter</b> is called at IRQL == HIGH_LEVEL.
 
 
 #### Examples
@@ -229,19 +229,19 @@ The <b>HW_FIND_ADAPTER</b> function type is defined in the Storport.h header fil
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_initialize">HwStorInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitialize">StorPortInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportlogerror">StorPortLogError</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportlogerror">StorPortLogError</a>
  
 
  

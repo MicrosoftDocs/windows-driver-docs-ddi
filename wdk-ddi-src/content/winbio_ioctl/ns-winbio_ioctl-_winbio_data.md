@@ -63,7 +63,7 @@ Specifies the size, in bytes, of the payload.
 
 ### -field Data
 
-Specifies an array that contains the payload. Frequently this member contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_types/ns-winbio_types-_winbio_bir">WINBIO_BIR</a>.
+Specifies an array that contains the payload. Frequently this member contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir">WINBIO_BIR</a>.
 
 
 ## -remarks

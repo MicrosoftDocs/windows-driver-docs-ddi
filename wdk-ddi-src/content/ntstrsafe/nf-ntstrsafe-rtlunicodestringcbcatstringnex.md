@@ -189,7 +189,7 @@ For information about how to test NTSTATUS values, see <a href="https://docs.mic
 
 The <b>RtlUnicodeStringCbCatStringNEx </b>function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. By default, the function does <u>not</u> terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
 
-<b>RtlUnicodeStringCbCatStringNEx </b>adds to the functionality of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringcbcatstringn">RtlUnicodeStringCbCatStringN</a> function by returning a <b>UNICODE_STRING</b> structure that identifies the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to <b>RtlUnicodeStringCbCatStringNEx</b> for additional control.
+<b>RtlUnicodeStringCbCatStringNEx </b>adds to the functionality of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcbcatstringn">RtlUnicodeStringCbCatStringN</a> function by returning a <b>UNICODE_STRING</b> structure that identifies the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to <b>RtlUnicodeStringCbCatStringNEx</b> for additional control.
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
@@ -205,11 +205,11 @@ For more information about the safe string functions, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringcbcatstringn">RtlUnicodeStringCbCatStringN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcbcatstringn">RtlUnicodeStringCbCatStringN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringcchcatstringnex">RtlUnicodeStringCchCatStringNEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringcchcatstringnex">RtlUnicodeStringCchCatStringNEx</a>
 
 
 

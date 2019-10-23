@@ -68,7 +68,7 @@ Indicates whether <a href="https://go.microsoft.com/fwlink/p/?LinkId=314125">Rea
 
 ### -field Severity
 
-Contains a value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposerrorseverity">UnifiedPosErrorSeverity</a> enumeration indicating the severity of the error. 
+Contains a value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposerrorseverity">UnifiedPosErrorSeverity</a> enumeration indicating the severity of the error. 
 
 
 ### -field VendorErrorCode
@@ -78,7 +78,7 @@ Contains a vendor-specific error code.
 
 ### -field Reason
 
-Contains a value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposerrorreason">UnifiedPosErrorReason</a> enumeration indicating the reason for the error.
+Contains a value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposerrorreason">UnifiedPosErrorReason</a> enumeration indicating the reason for the error.
 
 
 ### -field ExtendedReason

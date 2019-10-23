@@ -69,7 +69,7 @@ The <b>IKsAllocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksallocator-ksgetallocatorhandle">KsGetAllocatorHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksallocator-ksgetallocatorhandle">KsGetAllocatorHandle</a>
 </td>
 <td align="left" width="63%">
 Retrieves a file handle to an allocator.
@@ -78,7 +78,7 @@ Retrieves a file handle to an allocator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksallocator-ksgetallocatormode">KsGetAllocatorMode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksallocator-ksgetallocatormode">KsGetAllocatorMode</a>
 </td>
 <td align="left" width="63%">
 Returns the mode in which an allocator allocates memory.
@@ -87,7 +87,7 @@ Returns the mode in which an allocator allocates memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksallocator-ksgetallocatorstatus">KsGetAllocatorStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksallocator-ksgetallocatorstatus">KsGetAllocatorStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status of an allocator.
@@ -96,7 +96,7 @@ Retrieves the status of an allocator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksallocator-kssetallocatormode">KsSetAllocatorMode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksallocator-kssetallocatormode">KsSetAllocatorMode</a>
 </td>
 <td align="left" width="63%">
 Sets the mode in which an allocator allocates memory.

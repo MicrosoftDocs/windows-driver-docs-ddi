@@ -63,7 +63,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kerne
 
 ### -param GenericMapping [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_generic_mapping">GENERIC_MAPPING</a> structure that describes the specific access rights that correspond to each generic access right. 
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_generic_mapping">GENERIC_MAPPING</a> structure that describes the specific access rights that correspond to each generic access right. 
 
 
 ## -returns
@@ -80,7 +80,7 @@ None
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_generic_mapping">GENERIC_MAPPING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_generic_mapping">GENERIC_MAPPING</a>
  
 
  

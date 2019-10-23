@@ -93,7 +93,7 @@ A pointer that receives the buffer that contains the device information.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetdevice-retrievedeviceinformation">RetrieveDeviceInformation</a> successfully retrieved the device information. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetdevice-retrievedeviceinformation">RetrieveDeviceInformation</a> successfully retrieved the device information. 
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ A pointer that receives the buffer that contains the device information.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetdevice-retrievedeviceinformation">RetrieveDeviceInformation</a> encountered an allocation failure.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetdevice-retrievedeviceinformation">RetrieveDeviceInformation</a> encountered an allocation failure.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ The <b>RetrieveDeviceInformation</b> method generates a UMDF request and synchro
 
 #### Examples
 
-For a code example of how to use the<b>RetrieveDeviceInformation</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-setpipepolicy">IWDFUsbTargetPipe::SetPipePolicy</a>.
+For a code example of how to use the<b>RetrieveDeviceInformation</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe-setpipepolicy">IWDFUsbTargetPipe::SetPipePolicy</a>.
 
 <div class="code"></div>
 
@@ -150,7 +150,7 @@ For a code example of how to use the<b>RetrieveDeviceInformation</b> method, see
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a>
 
 
 

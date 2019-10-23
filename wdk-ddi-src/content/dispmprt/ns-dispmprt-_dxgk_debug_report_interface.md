@@ -48,7 +48,7 @@ req.typenames: DXGK_DEBUG_REPORT_INTERFACE, *PDXGK_DEBUG_REPORT_INTERFACE
 ## -description
 
 
-The DXGK_DEBUG_REPORT_INTERFACE structure contains pointers to functions in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Debug Report interface</a>, which is implemented by the display port driver.
+The DXGK_DEBUG_REPORT_INTERFACE structure contains pointers to functions in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Debug Report interface</a>, which is implemented by the display port driver.
 
 
 ## -struct-fields
@@ -104,7 +104,7 @@ DXGK_DEBUG_REPORT_HANDLE (*DbgReportCreate)(
 
 **Parameters**
 
-* *DeviceHandle* A handle to a context block associated with a display adapter. The display miniport driver created this handle in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function. This parameter can be <b>NULL</b>.
+* *DeviceHandle* A handle to a context block associated with a display adapter. The display miniport driver created this handle in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function. This parameter can be <b>NULL</b>.
 
 * *ulCode* A code for the error report. The following codes are supported:
 
@@ -185,7 +185,7 @@ VOID DbgReportComplete(
 
 ## -remarks
 
-The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.
+The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.
 
 
 

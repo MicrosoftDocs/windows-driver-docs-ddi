@@ -50,7 +50,7 @@ req.typenames:
 
 The <b>VideoPortUnmapDmaMemory</b> function is <b>obsolete</b> in Windows 2000 and later.
 
-<b>VideoPortUnmapDmaMemory</b> unmaps a range of memory previously mapped by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportmapdmamemory">VideoPortMapDmaMemory</a>.
+<b>VideoPortUnmapDmaMemory</b> unmaps a range of memory previously mapped by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportmapdmamemory">VideoPortMapDmaMemory</a>.
 
 
 ## -parameters

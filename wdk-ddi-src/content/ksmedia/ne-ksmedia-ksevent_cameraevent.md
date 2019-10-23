@@ -56,7 +56,7 @@ Event notifications to synchronize the shutter sound playback for a photo captur
 
 ## -remarks
 
-The camera event DDI is defined by **KSEVENTSETID_CameraEvent**, a kernel streaming event set that can be used by the pipeline to enable or disable camera event notifications from the driver. This is a filter level event meaning that the driver must implement and define the event in the filter’s automation table and use [KsFilterGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfiltergenerateevents) (or [KsGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgenerateevents) with filter object) to generate event notifications.
+The camera event DDI is defined by **KSEVENTSETID_CameraEvent**, a kernel streaming event set that can be used by the pipeline to enable or disable camera event notifications from the driver. This is a filter level event meaning that the driver must implement and define the event in the filter’s automation table and use [KsFilterGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltergenerateevents) (or [KsGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgenerateevents) with filter object) to generate event notifications.
 
 KSEVENTSETID_CameraEvent and its related data structures are defined in Ksmedia.h as follows.
 

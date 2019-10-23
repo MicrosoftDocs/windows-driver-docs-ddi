@@ -68,7 +68,7 @@ ExtRemoteTyped & operator=(
 
 ### -param
 
-<p>A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_debug_typed_data"><b>DEBUG_TYPED_DATA</b></a> structure that describes the data and type to be assigned to this object.</p>
+<p>A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_debug_typed_data"><b>DEBUG_TYPED_DATA</b></a> structure that describes the data and type to be assigned to this object.</p>
 
 
 

@@ -58,7 +58,7 @@ The <b>KsSetPin</b> method informs the streaming interface handler about the pin
 
 ### -param KsPin [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-ikspin">IKsPin</a> interface for the pin to which this streaming interface handler is to be attached. This pin must support the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-iksobject">IKsObject</a> interface from which the underlying kernel handle can be obtained.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a> interface for the pin to which this streaming interface handler is to be attached. This pin must support the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject">IKsObject</a> interface from which the underlying kernel handle can be obtained.
 
 
 ## -returns
@@ -84,11 +84,11 @@ The <b>KsSetPin</b> method is called after an instance of the interface handler 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-iksobject">IKsObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject">IKsObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-ikspin">IKsPin</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a>
  
 
  

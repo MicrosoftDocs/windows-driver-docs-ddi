@@ -73,7 +73,7 @@ If a block is being registered with static instance names, a driver sets one of 
 
 #### WMIREG_FLAG_INSTANCE_LIST
 
-Indicates that the driver provides static instance names for this block in a static list following the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-wmireginfow">WMIREGINFO</a> structure in the buffer at <b>IrpStack->Parameters.WMI.Buffer</b>. If this flag is set, <b>InstanceNameList</b> is the offset in bytes from the beginning of the <b>WMIREGINFO</b> structure that contains this <b>WMIREGGUID</b> to a contiguous series of <b>InstanceCount</b> counted Unicode strings.
+Indicates that the driver provides static instance names for this block in a static list following the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmistr/ns-wmistr-wmireginfow">WMIREGINFO</a> structure in the buffer at <b>IrpStack->Parameters.WMI.Buffer</b>. If this flag is set, <b>InstanceNameList</b> is the offset in bytes from the beginning of the <b>WMIREGINFO</b> structure that contains this <b>WMIREGGUID</b> to a contiguous series of <b>InstanceCount</b> counted Unicode strings.
 
 
 
@@ -85,7 +85,7 @@ Requests WMI to generate static instance names from a base name provided by the 
 
 #### WMIREG_FLAG_INSTANCE_PDO
 
-Requests WMI to generate static instance names from the device instance ID for the PDO. If this flag is set, <b>InstanceInfo</b> points to the PDO passed to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a> routine. WMI generates instance names from the device instance path of the PDO. Using the device instance path as a base for static instance names is efficient because such names are guaranteed to be unique. WMI automatically supplies a "friendly" name for the instance as an item in a data block that can be queried by data consumers.
+Requests WMI to generate static instance names from the device instance ID for the PDO. If this flag is set, <b>InstanceInfo</b> points to the PDO passed to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine. WMI generates instance names from the device instance path of the PDO. Using the device instance path as a base for static instance names is efficient because such names are guaranteed to be unique. WMI automatically supplies a "friendly" name for the instance as an item in a data block that can be queried by data consumers.
 
 If a block is being registered with dynamic instance names, WMIREG_FLAG_INSTANCE_LIST, WMIREG_FLAG_INSTANCE_BASENAME, and WMIREG_FLAG_INSTANCE_PDO must be clear.
 
@@ -146,7 +146,7 @@ Indicates the offset in bytes from the beginning of the <b>WMIREGINFO</b> struct
 
 ### -field DUMMYUNIONNAME.Pdo
 
-Pointer to the physical device object (PDO) passed to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a> routine. WMI uses the device instance path of this PDO as a base from which to generate static instance names. This member is valid only if WMIREG_FLAG_INSTANCE_PDO is set in <b>Flags</b>. If the block is being registered with dynamic instance names, WMI ignores <b>Pdo</b>. 
+Pointer to the physical device object (PDO) passed to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine. WMI uses the device instance path of this PDO as a base from which to generate static instance names. This member is valid only if WMIREG_FLAG_INSTANCE_PDO is set in <b>Flags</b>. If the block is being registered with dynamic instance names, WMI ignores <b>Pdo</b>. 
 
 
 ### -field DUMMYUNIONNAME.InstanceInfo
@@ -178,7 +178,7 @@ A driver can register or update a block with either static or dynamic instance n
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-wmireginfow">WMIREGINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmistr/ns-wmistr-wmireginfow">WMIREGINFO</a>
  
 
  

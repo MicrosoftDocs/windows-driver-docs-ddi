@@ -52,7 +52,7 @@ req.typenames:
 The 
   <b>FwpmBfeStateUnsubscribeChanges0</b> function deregisters a base filtering engine (BFE) callback function that was previously
   registered by calling the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
   FwpmBfeStateSubscribeChanges0</a> function.
 <div class="alert"><b>Note</b>  <b>FwpmBfeStateUnsubscribeChanges0</b> is a specific version of <b>FwpmBfeStateUnsubscribeChanges</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
@@ -65,7 +65,7 @@ The
 
 A handle associated with the registration of the callback function that is being deregistered.
      This handle was returned to the callout driver when it called the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">FwpmBfeStateSubscribeChanges0</a> function to register the callback function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">FwpmBfeStateSubscribeChanges0</a> function to register the callback function.
 
 
 ## -returns
@@ -115,15 +115,15 @@ An error occurred.
 A callout driver calls the 
     <b>FwpmBfeStateUnsubscribeChanges0</b> function to deregister a callback function that was previously
     registered by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
     FwpmBfeStateSubscribeChanges0</a> function.
 
 If a callout driver registers a callback function by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
     FwpmBfeStateSubscribeChanges0</a> function, it must deregister the callback function before the callout
     driver can be unloaded.
 
-Do not call <b>FwpmBfeStateUnsubscribeChanges0</b> from a callback function that your driver previously registered by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
+Do not call <b>FwpmBfeStateUnsubscribeChanges0</b> from a callback function that your driver previously registered by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
     FwpmBfeStateSubscribeChanges0</a>. Doing so can cause a deadlock.
 
 
@@ -134,7 +134,7 @@ Do not call <b>FwpmBfeStateUnsubscribeChanges0</b> from a callback function that
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
    FwpmBfeStateSubscribeChanges0</a>
  
 

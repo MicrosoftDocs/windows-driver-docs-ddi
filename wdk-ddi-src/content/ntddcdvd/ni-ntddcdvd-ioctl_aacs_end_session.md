@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-Releases the Authentication Grant Identifier (AGID) that was obtained by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_aacs_start_session">IOCTL_AACS_START_SESSION</a>. 
+Releases the Authentication Grant Identifier (AGID) that was obtained by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_start_session">IOCTL_AACS_START_SESSION</a>. 
 
 
 ## -ioctlparameters

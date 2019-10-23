@@ -96,7 +96,7 @@ Display maximum information.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nf-strmini-streamclassdebugprint">StreamClassDebugPrint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassdebugprint">StreamClassDebugPrint</a>
  
 
  

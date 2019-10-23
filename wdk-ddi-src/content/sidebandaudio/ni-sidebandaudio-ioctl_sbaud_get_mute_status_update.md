@@ -46,19 +46,19 @@ The IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL Gets the mute level setting of the 
 
 ### -input-buffer
 
-[SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params) with the 0 based endpoint index and channel number along with 'immediate' parameter indicating whether to process this IOCTL immediately or pend it for future updates.
+[SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params) with the 0 based endpoint index and channel number along with 'immediate' parameter indicating whether to process this IOCTL immediately or pend it for future updates.
 
 ### -input-buffer-length 
 
-Size of [SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params).
+Size of [SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params).
 
 ### -output-buffer
 
-[SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params)
+[SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params)
 
 ### -output-buffer-length 
 
-Size of [SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params).
+Size of [SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params).
 
 ### -in-out-buffer
 
@@ -78,4 +78,4 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 The mute update IOCTL can be used in two modes - update and immediate. If SIDEBANDAUDIO_MUTE_PARAMS::Immediate parameter is set to TRUE, the IOCTL returns immediately with the current mute value for the requested channel. If the Immediate parameter is set to FALSE, the IRP is pended by the Sideband Audio Driver (like USB Audio) until there is a change in the device mute state. Audio driver should setup a pending mute IOCTL to get notified of any changes in hardware mute state.
 
 ## -see-also
-[SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params)
+[SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params)

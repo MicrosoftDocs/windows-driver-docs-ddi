@@ -56,7 +56,7 @@ A handle to the display device (graphics context).
 
 ### -param pHandleData
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-_d3d11_1ddi_getcapturehandledata">D3D11_1DDI_GETCAPTUREHANDLEDATA</a> structure that defines the resource allocation.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-_d3d11_1ddi_getcapturehandledata">D3D11_1DDI_GETCAPTUREHANDLEDATA</a> structure that defines the resource allocation.
 
 ## -returns
 
@@ -64,12 +64,12 @@ This callback function does not return a value.
 
 ## -remarks
 
-Before the Microsoft Direct3D runtime calls the <i>GetCaptureHandle</i> function, it sets the <b>hResource</b>  and <b>ArrayIndex</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-_d3d11_1ddi_getcapturehandledata">D3D11_1DDI_GETCAPTUREHANDLEDATA</a> structure to specify a resource. When this function is called, the driver updates the structure with the kernel mode allocation handle associated with the specified resource, as well as the size of the resource data and its offset within an allocated block of memory.
+Before the Microsoft Direct3D runtime calls the <i>GetCaptureHandle</i> function, it sets the <b>hResource</b>  and <b>ArrayIndex</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-_d3d11_1ddi_getcapturehandledata">D3D11_1DDI_GETCAPTUREHANDLEDATA</a> structure to specify a resource. When this function is called, the driver updates the structure with the kernel mode allocation handle associated with the specified resource, as well as the size of the resource data and its offset within an allocated block of memory.
 
 <div class="alert"><b>Note</b>  The Direct3D runtime calls this function only for resources that were created with the <b>D3D11_DDI_BIND_CAPTURE</b> flag.</div>
 <div> </div>
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-_d3d11_1ddi_getcapturehandledata">D3D11_1DDI_GETCAPTUREHANDLEDATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-_d3d11_1ddi_getcapturehandledata">D3D11_1DDI_GETCAPTUREHANDLEDATA</a>
 

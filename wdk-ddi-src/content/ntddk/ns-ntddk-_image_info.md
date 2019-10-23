@@ -46,7 +46,7 @@ req.typenames: IMAGE_INFO, *PIMAGE_INFO
 
 ## -description
 
-The IMAGE_INFO structure is used by driver's load-image routine ([PLOAD_IMAGE_NOTIFY_ROUTINE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-pload_image_notify_routine)) to specify load image information.
+The IMAGE_INFO structure is used by driver's load-image routine ([PLOAD_IMAGE_NOTIFY_ROUTINE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pload_image_notify_routine)) to specify load image information.
 
 ## -struct-fields
 
@@ -68,7 +68,7 @@ Always set to zero.
 
 ### -field ExtendedInfoPresent
 
-If the **ExtendedInfoPresent** flag is set, IMAGE_INFO is a part of [IMAGE_INFO_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_image_info_ex). Added in Windows Vista.
+If the **ExtendedInfoPresent** flag is set, IMAGE_INFO is a part of [IMAGE_INFO_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_image_info_ex). Added in Windows Vista.
 
 ### -field MachineTypeMismatch
 
@@ -112,8 +112,8 @@ If the **ExtendedInfoPresent** flag is set, the IMAGE_INFO structure is part of 
 
 ## -see-also
 
-[IMAGE_INFO_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_image_info_ex)
+[IMAGE_INFO_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_image_info_ex)
 
-[PLOAD_IMAGE_NOTIFY_ROUTINE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-pload_image_notify_routine)
+[PLOAD_IMAGE_NOTIFY_ROUTINE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pload_image_notify_routine)
 
-[PsSetLoadImageNotifyRoutine](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetloadimagenotifyroutine)
+[PsSetLoadImageNotifyRoutine](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pssetloadimagenotifyroutine)

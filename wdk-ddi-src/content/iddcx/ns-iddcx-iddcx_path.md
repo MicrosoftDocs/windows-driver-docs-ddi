@@ -49,7 +49,7 @@ req.typenames:
 
 
 
-                 Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">IDDCX_PATH_INIT</a> to initialize this structure.
+                 Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IDDCX_PATH_INIT</a> to initialize this structure.
              
 
 

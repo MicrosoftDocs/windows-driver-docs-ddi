@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>UFX_DEVICE_CALLBACKS_INIT</b> macro initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/ns-ufxclient-_ufx_device_callbacks">UFX_DEVICE_CALLBACKS</a> structure.
+The <b>UFX_DEVICE_CALLBACKS_INIT</b> macro initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_device_callbacks">UFX_DEVICE_CALLBACKS</a> structure.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>UFX_DEVICE_CALLBACKS_INIT</b> macro initializes the <a href="https://docs
 
 ### -param Callbacks [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/ns-ufxclient-_ufx_device_callbacks">UFX_DEVICE_CALLBACKS</a> structure.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_device_callbacks">UFX_DEVICE_CALLBACKS</a> structure.
 
 
 ## -returns
@@ -74,9 +74,9 @@ This function does not return a value.
 
 
 
-The <b>UFX_DEVICE_CALLBACKS_INIT</b> macro will set all fields of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/ns-ufxclient-_ufx_device_callbacks">UFX_DEVICE_CALLBACKS</a> structure to zero and set the <b>Size</b> field appropriately.
+The <b>UFX_DEVICE_CALLBACKS_INIT</b> macro will set all fields of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_device_callbacks">UFX_DEVICE_CALLBACKS</a> structure to zero and set the <b>Size</b> field appropriately.
 
-The client driver uses the <b>UFX_DEVICE_CALLBACKS_INIT</b> macro the initialize the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/ns-ufxclient-_ufx_device_callbacks">UFX_DEVICE_CALLBACKS</a> structure prior to calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+The client driver uses the <b>UFX_DEVICE_CALLBACKS_INIT</b> macro the initialize the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_device_callbacks">UFX_DEVICE_CALLBACKS</a> structure prior to calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 
 

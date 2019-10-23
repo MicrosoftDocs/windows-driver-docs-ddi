@@ -49,7 +49,7 @@ req.typenames:
 
 
 
-The <i>DereferenceSwitchPort</i> function decrements the Hyper-V extensible switch reference counter for an extensible switch port. The reference counter was incremented through a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_switch_reference_switch_port">ReferenceSwitchPort</a>.
+The <i>DereferenceSwitchPort</i> function decrements the Hyper-V extensible switch reference counter for an extensible switch port. The reference counter was incremented through a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_reference_switch_port">ReferenceSwitchPort</a>.
 
 
 
@@ -61,7 +61,7 @@ The <i>DereferenceSwitchPort</i> function decrements the Hyper-V extensible swit
 
 ### -param NdisSwitchContext [in]
 
-An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the extension calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
+An NDIS_SWITCH_CONTEXT value that contains the handle of the extensible switch module to which the Hyper-V extensible switch extension is attached. When the extension calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>,  this handle is returned through the <i>NdisSwitchContext</i> parameter.
 
 
 ### -param SwitchPortId [in]
@@ -86,7 +86,7 @@ If the call succeeds, the function returns NDIS_STATUS_SUCCESS. Otherwise, it re
 
 The extensible switch extension calls <i>DereferenceSwitchPort</i> to decrement the reference counter for an extensible switch port. While the extensible switch reference counter has a nonzero value, the protocol edge of the extensible switch will not issue an object identifier (OID) set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-port-delete">OID_SWITCH_PORT_DELETE</a> to delete the port.
 
-The extension must call <i>DereferenceSwitchPort</i> if it had previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_switch_reference_switch_port">ReferenceSwitchPort</a> for an extensible switch port. 
+The extension must call <i>DereferenceSwitchPort</i> if it had previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_reference_switch_port">ReferenceSwitchPort</a> for an extensible switch port. 
 
 
 
@@ -100,7 +100,7 @@ The extension must call <i>DereferenceSwitchPort</i> if it had previously called
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfgetoptionalswitchhandlers">NdisFGetOptionalSwitchHandlers</a>
 
 
 
@@ -108,7 +108,7 @@ The extension must call <i>DereferenceSwitchPort</i> if it had previously called
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_switch_reference_switch_port">ReferenceSwitchPort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_switch_reference_switch_port">ReferenceSwitchPort</a>
  
 
  

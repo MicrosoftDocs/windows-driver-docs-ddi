@@ -49,7 +49,7 @@ req.typenames:
 
 
 The PacketDirect (PD) platform calls a PD-capable miniport driver's 
-   <i>PDPostAndDrainBufferList</i> function to post <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures to PD transmit/receive queues and draining any previously posted <b>PD_BUFFER</b> structures that have been completed.<div class="alert"><b>Note</b>  You must declare the function by using the <b>NDIS_PD_POST_AND_DRAIN_BUFFER_LIST</b> type. For more
+   <i>PDPostAndDrainBufferList</i> function to post <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures to PD transmit/receive queues and draining any previously posted <b>PD_BUFFER</b> structures that have been completed.<div class="alert"><b>Note</b>  You must declare the function by using the <b>NDIS_PD_POST_AND_DRAIN_BUFFER_LIST</b> type. For more
    information, see the following Examples section.</div>
 <div> </div>
 
@@ -77,7 +77,7 @@ The tail of the drain list. The provider removes any completed buffers from the 
 
 ### -param MaxDrainCount [in]
 
-The maximum amount of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures to drain. The provider must ensure not exceed this amount. A set of partial <b>PD_BUFFER</b> structures that make up a single L2 packet count is 1.
+The maximum amount of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures to drain. The provider must ensure not exceed this amount. A set of partial <b>PD_BUFFER</b> structures that make up a single L2 packet count is 1.
 
 
 ## -returns

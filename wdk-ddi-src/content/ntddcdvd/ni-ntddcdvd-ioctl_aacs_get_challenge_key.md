@@ -68,12 +68,12 @@ Length of a <a href="https://docs.microsoft.com/previous-versions/windows/hardwa
 
 ### -output-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the drive challenge key with a format of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_aacs_challenge_key">AACS_CHALLENGE_KEY</a>. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the drive challenge key with a format of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_challenge_key">AACS_CHALLENGE_KEY</a>. 
 
 
 ### -output-buffer-length
 
-Length of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_aacs_challenge_key">AACS_CHALLENGE_KEY</a>.
+Length of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_challenge_key">AACS_CHALLENGE_KEY</a>.
 
 
 ### -in-out-buffer

@@ -59,7 +59,7 @@ The <b>NDIS_PM_PARAMETERS</b> structure specifies the current or new power manag
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_PM_PARAMETERS</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_PM_PARAMETERS</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_PM_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -83,10 +83,10 @@ Set the <b>Size</b> member to NDIS_SIZEOF_NDIS_PM_CAPABILITIES_REVISION_1.
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that correspond to capabilities that the
      miniport driver reported in the 
      <b>SupportedWoLPacketPatterns</b> member of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_capabilities">NDIS_PM_CAPABILITIES</a> structure. NDIS
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_capabilities">NDIS_PM_CAPABILITIES</a> structure. NDIS
      uses these flags to enable the wake-on-LAN (WOL) patterns that a network adapter uses to wake the local
      computer from a low power state. For more information about WOL patterns, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_wol_pattern">NDIS_PM_WOL_PATTERN</a>.     
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_wol_pattern">NDIS_PM_WOL_PATTERN</a>.     
 
 The following flags are used:
 
@@ -185,7 +185,7 @@ A value from the incoming packet in the location specified by the WOL pattern is
 A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that correspond to capabilities that the
      miniport driver reported in the 
      <b>SupportedProtocolOffloads</b> member of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_capabilities">NDIS_PM_CAPABILITIES</a> structure. NDIS
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_capabilities">NDIS_PM_CAPABILITIES</a> structure. NDIS
      uses these flags to enable the low power protocol offload capabilities on a network adapter. The
      following flags are used:
      
@@ -276,7 +276,7 @@ The network adapter detects other external events that require processing by the
 
 If NDIS sets the <b>NDIS_PM_SELECTIVE_SUSPEND_ENABLED</b> flag, it issues the OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-parameters">OID_PM_PARAMETERS</a> directly to the miniport driver. This allows NDIS to bypass the processing by filter drivers in the networking driver stack.
 
-For more information about the selective suspend power management capability, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">NDIS Selective Suspend</a>.
+For more information about the selective suspend power management capability, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">NDIS Selective Suspend</a>.
 
 ### -field MediaSpecificWakeUpEvents
 
@@ -354,30 +354,30 @@ An overlying driver should not try to enable capabilities that a network adapter
     enable an overlying driver to determine what capabilities a network adapter provides, NDIS provides the
     capabilities in the 
     <b>PowerManagementCapabilitiesEx</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structure.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structure.
 
 
 > [!NOTE]
-> NDIS 6.20 and later drivers must use the **PowerManagementCapabilitiesEx** member of the [NDIS_BIND_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_bind_parameters) structure instead of the **PowerManagementCapabilities** member.
+> NDIS 6.20 and later drivers must use the **PowerManagementCapabilitiesEx** member of the [NDIS_BIND_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters) structure instead of the **PowerManagementCapabilities** member.
 
 ## -see-also
 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_capabilities">NDIS_PM_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_capabilities">NDIS_PM_CAPABILITIES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_wol_pattern">NDIS_PM_WOL_PATTERN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_pm_wol_pattern">NDIS_PM_WOL_PATTERN</a>
 
 
 

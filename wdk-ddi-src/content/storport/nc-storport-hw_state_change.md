@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-A miniport-provided callback that is called  after a notification from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a> is processed.
+A miniport-provided callback that is called  after a notification from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a> is processed.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ A miniport-provided callback that is called  after a notification from <a href="
 
 ### -param Context [in, optional]
 
-The context supplied as <i>HwStateChangeContext</i> by the miniport in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a>.
+The context supplied as <i>HwStateChangeContext</i> by the miniport in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a>.
 
 
 ### -param AddressType [in]
@@ -71,7 +71,7 @@ The type of the address in <i>Address</i>.
 
 ### -param Address [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a> structure for the entity whose state change was processed.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a> structure for the entity whose state change was processed.
 
 
 ### -param Status [in]
@@ -99,11 +99,11 @@ None.
 
 The <i>HwStorStateChange</i> is called with the StartIo lock acquired by Storport.
 
-This callback enables miniports to do any additional processing that is needed after hardware addition or removal. If a hardware change occurs on the HBA port or bus, the miniport can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a> to alert the system of the event.
+This callback enables miniports to do any additional processing that is needed after hardware addition or removal. If a hardware change occurs on the HBA port or bus, the miniport can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a> to alert the system of the event.
 
 If the value for <i>Status</i> is  < 0x80000000, then the notification processing was successful. Otherwise, the notification process failed.
 
-The name <i>HwStorStateChange</i> is just a placeholder for the miniport function that is pointed to by the <i>HwStateChange</i> parameter of  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a>. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
+The name <i>HwStorStateChange</i> is just a placeholder for the miniport function that is pointed to by the <i>HwStateChange</i> parameter of  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a>. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -131,11 +131,11 @@ HW_STATE_CHANGE (
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportstatechangedetected"> StorPortStateChangeDetected</a>
  
 
  

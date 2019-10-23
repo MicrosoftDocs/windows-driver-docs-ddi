@@ -59,17 +59,17 @@ An audio driver can send an <b>IOCTL_BTHHFP_DEVICE_GET_CODEC_ID</b>
 
 ### -input-buffer
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthhfpddi/ne-bthhfpddi-_hfp_bypass_codec_id_version">HFP_BYPASS_CODEC_ID_VERSION</a> enumeration value. Currently, only REQ_HFP_BYPASS_CODEC_ID_V1 is supported.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ne-bthhfpddi-_hfp_bypass_codec_id_version">HFP_BYPASS_CODEC_ID_VERSION</a> enumeration value. Currently, only REQ_HFP_BYPASS_CODEC_ID_V1 is supported.
 
 
 ### -input-buffer-length
 
-The size of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthhfpddi/ne-bthhfpddi-_hfp_bypass_codec_id_version">HFP_BYPASS_CODEC_ID_VERSION</a> enumeration value.
+The size of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ne-bthhfpddi-_hfp_bypass_codec_id_version">HFP_BYPASS_CODEC_ID_VERSION</a> enumeration value.
 
 
 ### -output-buffer
 
-A codec ID structure containing the codec ID information. Currently, only <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthhfpddi/ns-bthhfpddi-_hfp_bypass_codec_id_v1">HFP_BYPASS_CODEC_ID_V1</a> is supported.
+A codec ID structure containing the codec ID information. Currently, only <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ns-bthhfpddi-_hfp_bypass_codec_id_v1">HFP_BYPASS_CODEC_ID_V1</a> is supported.
 
 
 ### -output-buffer-length

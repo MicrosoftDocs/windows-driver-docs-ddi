@@ -64,7 +64,7 @@ The
 An NDIS driver or instance handle that was obtained during caller initialization. This should be
      the same handle that was passed to the 
      <i>NdisHandle</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatesharedmemory">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatesharedmemory">
      NdisAllocateSharedMemory</a> function when the shared memory was allocated.
 
 
@@ -92,11 +92,11 @@ None
 An NDIS driver must call the 
     <b>NdisFreeSharedMemory</b> function to free a block of shared memory that it previously allocated with
     the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatesharedmemory">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatesharedmemory">
     NdisAllocateSharedMemory</a> function.
 
 NDIS calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-free_shared_memory_handler">NetFreeSharedMemory</a> function of a
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-free_shared_memory_handler">NetFreeSharedMemory</a> function of a
     shared memory provider from the context of the call to 
     <b>NdisFreeSharedMemory</b>.
 
@@ -108,11 +108,11 @@ NDIS calls the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatesharedmemory">NdisAllocateSharedMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocatesharedmemory">NdisAllocateSharedMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-free_shared_memory_handler">NetFreeSharedMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-free_shared_memory_handler">NetFreeSharedMemory</a>
  
 
  

@@ -77,7 +77,7 @@ None
 
 Only miniport drivers of subordinate HBAs that use a system DMA controller call this routine.
 
-<b>ScsiPortFlushDma</b> must be called after a subordinate DMA transfer operation is completed but before the SRB is completed or the next call is made to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportiomaptransfer">ScsiPortIoMapTransfer</a> for the current buffer.
+<b>ScsiPortFlushDma</b> must be called after a subordinate DMA transfer operation is completed but before the SRB is completed or the next call is made to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportiomaptransfer">ScsiPortIoMapTransfer</a> for the current buffer.
 
 <b>ScsiPortFlushDma</b> also must be called after <b>ScsiPortIoMapTransfer</b> to cancel a DMA operation, even if no transfer has occurred and the driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557291(v=vs.85)">HwScsiDmaStarted</a> routine has not yet been called.
 
@@ -93,7 +93,7 @@ Only miniport drivers of subordinate HBAs that use a system DMA controller call 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportiomaptransfer">ScsiPortIoMapTransfer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportiomaptransfer">ScsiPortIoMapTransfer</a>
  
 
  

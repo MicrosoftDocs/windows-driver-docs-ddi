@@ -51,7 +51,7 @@ req.typenames:
 This routine returns the effective <i>ServerSilo</i> for the job. The returned pointer is valid as long as the supplied <i>Job</i> object remains referenced.
 
 
-<div class="alert"><b>Note</b>  This returns a <i>ServerSilo</i> or a value indicating the host silo. Unlike <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psgetjobsilo">PsGetJobSilo</a>, it will not return an app silo, even if one is present.</div>
+<div class="alert"><b>Note</b>  This returns a <i>ServerSilo</i> or a value indicating the host silo. Unlike <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psgetjobsilo">PsGetJobSilo</a>, it will not return an app silo, even if one is present.</div>
 <div> </div>
 
 

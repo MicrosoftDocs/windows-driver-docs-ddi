@@ -81,7 +81,7 @@ Miniport drivers should rarely call the <b>AtaPortStallExecution</b> routine. Th
 
 Typically, a miniport driver should call <b>AtaPortStallExecution</b> only if the driver must wait for some sort of state change on the HBA that is unable to cause an interrupt, or if the driver must delay for a very short interval between accesses to the HBA.
 
-Miniport drivers should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportrequesttimer">AtaPortRequestTimer</a> routine for delays longer than 1 millisecond.
+Miniport drivers should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportrequesttimer">AtaPortRequestTimer</a> routine for delays longer than 1 millisecond.
 
 
 
@@ -91,7 +91,7 @@ Miniport drivers should use the <a href="https://docs.microsoft.com/windows-hard
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportrequesttimer">AtaPortRequestTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportrequesttimer">AtaPortRequestTimer</a>
  
 
  

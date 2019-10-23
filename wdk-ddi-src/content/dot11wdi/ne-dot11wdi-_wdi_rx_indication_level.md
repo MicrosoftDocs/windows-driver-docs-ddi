@@ -63,12 +63,12 @@ Used for subsequent data indications in a DPC. <b>WDI_RX_INDICATION_DISPATCH_FIR
 
 ### -field WDI_RX_INDICATION_DISPATCH_FIRST_OF_DPC
 
-Used for the first data indication (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_rx_inorder_data_ind">NdisWdiRxInorderDataIndication</a>) of a DPC.
+Used for the first data indication (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_rx_inorder_data_ind">NdisWdiRxInorderDataIndication</a>) of a DPC.
 
 
 ### -field WDI_RX_INDICATION_FROM_RX_RESUME_FRAMES
 
-Used when making data indications in the context of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-miniport_wdi_rx_resume">MiniportWdiRxResume</a>.
+Used when making data indications in the context of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_rx_resume">MiniportWdiRxResume</a>.
 
 
 ### -field WDI_RX_INDICATION_PASSIVE

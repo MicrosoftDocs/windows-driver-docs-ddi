@@ -80,7 +80,7 @@ Pointer to the event object whose state is to be set.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportclearevent">VideoPortClearEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportclearevent">VideoPortClearEvent</a>
  
 
  

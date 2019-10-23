@@ -58,7 +58,7 @@ The <b>GPIO_CONNECT_IO_PINS_PARAMETERS</b> structure describes a logical connect
 
 ### -field BankId
 
-The identifier for the bank that contains the GPIO pins. If M is the number of banks in the GPIO controller, <b>BankId</b> is an integer in the range 0 to M–1. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/nc-gpioclx-gpio_client_query_controller_basic_information">CLIENT_QueryControllerBasicInformation</a> event callback function. For more information, see Remarks in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a>.
+The identifier for the bank that contains the GPIO pins. If M is the number of banks in the GPIO controller, <b>BankId</b> is an integer in the range 0 to M–1. The GPIO framework extension (GpioClx) previously obtained the number of banks in the controller from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_controller_basic_information">CLIENT_QueryControllerBasicInformation</a> event callback function. For more information, see Remarks in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a>.
 
 
 ### -field PinNumberTable
@@ -73,7 +73,7 @@ The number of elements in the <b>PinNumberTable</b> array.
 
 ### -field ConnectMode
 
-Whether the GPIO pins in the new connection should be configured as inputs or as outputs. The value of this parameter is <b>ConnectModeInput</b> for a read-only connection, <b>ConnectModeOutput</b> for a write-only connection, and (<b>ConnectModeInput</b> | <b>ConnectModeOutput</b>) for a read/write connection. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/ne-gpioclx-_gpio_connect_io_pins_mode">GPIO_CONNECT_IO_PINS_MODE</a>.
+Whether the GPIO pins in the new connection should be configured as inputs or as outputs. The value of this parameter is <b>ConnectModeInput</b> for a read-only connection, <b>ConnectModeOutput</b> for a write-only connection, and (<b>ConnectModeInput</b> | <b>ConnectModeOutput</b>) for a read/write connection. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ne-gpioclx-_gpio_connect_io_pins_mode">GPIO_CONNECT_IO_PINS_MODE</a>.
 
 
 ### -field PullConfiguration
@@ -86,7 +86,7 @@ Whether the GPIO pin is pulled up or pulled down. This member is typically set t
 <li><b>GPIO_PIN_PULL_CONFIGURATION_PULLDOWN</b></li>
 <li><b>GPIO_PIN_PULL_CONFIGURATION_PULLNONE</b></li>
 </ul>
-If none of these constants appropriately describes the pin configuration, this member can be set to a vendor-defined constant in the range 128-255. For more information about these constants, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/ns-gpioclx-_gpio_enable_interrupt_parameters">GPIO_PIN_PULL_CONFIGURATION_XXX</a>.
+If none of these constants appropriately describes the pin configuration, this member can be set to a vendor-defined constant in the range 128-255. For more information about these constants, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_enable_interrupt_parameters">GPIO_PIN_PULL_CONFIGURATION_XXX</a>.
 
 
 ### -field DebounceTimeout
@@ -118,7 +118,7 @@ A set of flags that control the configuration of the GPIO pins. No flags are cur
 
 
 
-The <i>ClientParameters</i> parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/nc-gpioclx-gpio_client_connect_io_pins">CLIENT_ConnectIoPins</a> event callback routine is a pointer to a <b>GPIO_CONNECT_IO_PINS_PARAMETERS</b> structure.
+The <i>ClientParameters</i> parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_connect_io_pins">CLIENT_ConnectIoPins</a> event callback routine is a pointer to a <b>GPIO_CONNECT_IO_PINS_PARAMETERS</b> structure.
 
 
 
@@ -128,23 +128,23 @@ The <i>ClientParameters</i> parameter to the <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_client_controller_basic_information">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/nc-gpioclx-gpio_client_connect_io_pins">CLIENT_ConnectIoPins</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_connect_io_pins">CLIENT_ConnectIoPins</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/nc-gpioclx-gpio_client_query_controller_basic_information">CLIENT_QueryControllerBasicInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_query_controller_basic_information">CLIENT_QueryControllerBasicInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/ne-gpioclx-_gpio_connect_io_pins_mode">GPIO_CONNECT_IO_PINS_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ne-gpioclx-_gpio_connect_io_pins_mode">GPIO_CONNECT_IO_PINS_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/ns-gpioclx-_gpio_enable_interrupt_parameters">GPIO_PIN_PULL_CONFIGURATION_XXX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_enable_interrupt_parameters">GPIO_PIN_PULL_CONFIGURATION_XXX</a>
  
 
  

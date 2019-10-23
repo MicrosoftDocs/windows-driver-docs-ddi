@@ -83,22 +83,22 @@ The D3DDDIARG_LOCK structure describes a resource or a surface within the resour
 
 ### -field pSurfData
 
-[out] A pointer to the memory region for the resource that was locked. The user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lock">Lock</a> function returns this pointer to the Microsoft Direct3D runtime.
+[out] A pointer to the memory region for the resource that was locked. The user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lock">Lock</a> function returns this pointer to the Microsoft Direct3D runtime.
 
 
 ### -field Pitch
 
-[out] The pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lock">Lock</a> function returns this pitch value to the Direct3D runtime.
+[out] The pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lock">Lock</a> function returns this pitch value to the Direct3D runtime.
 
 
 ### -field SlicePitch
 
-[out] The slice pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lock">Lock</a> function returns this slice pitch value to the Direct3D runtime.
+[out] The slice pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lock">Lock</a> function returns this slice pitch value to the Direct3D runtime.
 
 
 ### -field Flags
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_lockflags">D3DDDI_LOCKFLAGS</a> structure that indicates, in bit-field flags, how to lock the resource. Note that some flags are mutually exclusive with other flags. For more information, see the following Remarks section.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_lockflags">D3DDDI_LOCKFLAGS</a> structure that indicates, in bit-field flags, how to lock the resource. Note that some flags are mutually exclusive with other flags. For more information, see the following Remarks section.
 
 
 ## -remarks
@@ -133,11 +133,11 @@ The <b>ReadOnly</b> bit-field flag must not be simultaneously set with the <b>Di
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_lockflags">D3DDDI_LOCKFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_lockflags">D3DDDI_LOCKFLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lock">Lock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lock">Lock</a>
  
 
  

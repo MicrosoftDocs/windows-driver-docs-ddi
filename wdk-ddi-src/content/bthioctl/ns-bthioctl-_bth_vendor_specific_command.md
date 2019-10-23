@@ -84,7 +84,7 @@ A BOOLEAN value that specifies if all the patterns in the
 ### -field HciHeader
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_command_header">BTH_COMMAND_HEADER</a> structure that
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_command_header">BTH_COMMAND_HEADER</a> structure that
      contains information about the vendor-specific command that includes an operation code and buffer
      length. The buffer length should only include the size of the data to be sent to the radio. It should
      not include the size of the patterns.
@@ -94,7 +94,7 @@ A
 
 A UCHAR array that contains the data and patterns for the command that is specified in the 
      <b>HciHeader</b> member. Patterns are specified with 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_vendor_pattern">BTH_VENDOR_PATTERN</a> structures.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_pattern">BTH_VENDOR_PATTERN</a> structures.
 
 
 ## -remarks
@@ -102,13 +102,13 @@ A UCHAR array that contains the data and patterns for the command that is specif
 
 
 This BTH_VENDOR_SPECIFIC_COMMAND structure specifies the input buffer for the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_hci_vendor_command">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_hci_vendor_command">
     IOCTL_BTH_HCI_VENDOR_COMMAND</a> IOCTL. This IOCTL can be used to send vendor-specific commands to
     Bluetooth radios.
 
 To specify the size of the HCI command data, use the
     <b>TotalParameterLength</b> member in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_command_header">BTH_COMMAND_HEADER</a> structure in the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_command_header">BTH_COMMAND_HEADER</a> structure in the
     BTH_VENDOR_SPECIFIC_COMMAND structure's 
     <b>HciHeader</b> member.
 
@@ -117,7 +117,7 @@ Patterns are required if a vendor-specific command does not follow the standard 
 
 If patterns are required, the patterns follow the data to be sent to the radio in the 
     <b>Data</b> member buffer. Each pattern begins with a 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_vendor_pattern">BTH_VENDOR_PATTERN</a> structure.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_pattern">BTH_VENDOR_PATTERN</a> structure.
 
 If such patterns are specified, the 
     <b>TotalParameterLength</b> member should not include the size of the patterns.
@@ -130,15 +130,15 @@ If such patterns are specified, the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_command_header">BTH_COMMAND_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_command_header">BTH_COMMAND_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_vendor_pattern">BTH_VENDOR_PATTERN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_vendor_pattern">BTH_VENDOR_PATTERN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_hci_vendor_command">IOCTL_BTH_HCI_VENDOR_COMMAND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_hci_vendor_command">IOCTL_BTH_HCI_VENDOR_COMMAND</a>
  
 
  

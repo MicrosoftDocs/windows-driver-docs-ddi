@@ -65,7 +65,7 @@ A pointer to a file object for the file.
 
 
 
-The <b>IoGetTransactionParameterBlock</b> routine returns a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_txn_parameter_block">TXN_PARAMETER_BLOCK</a> structure if the file operation is transacted, otherwise it returns <b>NULL</b>. 
+The <b>IoGetTransactionParameterBlock</b> routine returns a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_txn_parameter_block">TXN_PARAMETER_BLOCK</a> structure if the file operation is transacted, otherwise it returns <b>NULL</b>. 
 
 
 
@@ -75,7 +75,7 @@ The <b>IoGetTransactionParameterBlock</b> routine returns a pointer to the <a hr
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_txn_parameter_block">TXN_PARAMETER_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_txn_parameter_block">TXN_PARAMETER_BLOCK</a>
  
 
  

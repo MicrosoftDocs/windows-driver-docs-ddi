@@ -94,6 +94,6 @@ In low resource conditions, **FsRtlIsNameInExpression** can raise a structured e
 
 ## -see-also
 
-[**FsRtlIsDbcsInExpression**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression)
+[**FsRtlIsDbcsInExpression**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression)
 
 [UNICODE_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string)

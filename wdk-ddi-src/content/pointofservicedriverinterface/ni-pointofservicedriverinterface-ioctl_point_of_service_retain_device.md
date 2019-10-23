@@ -120,9 +120,9 @@ The POS library has not successfully initialized.
 <h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
 
 
-This IOCTL only works if the client has previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a>.
+This IOCTL only works if the client has previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a>.
 
-When handling this IOCTL, the driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/nf-poscx-poscxretaindevice">PosCxRetainDevice</a>. The driver writer does not need to handle claim contention because the PosCx library determines who gets the claim.
+When handling this IOCTL, the driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxretaindevice">PosCxRetainDevice</a>. The driver writer does not need to handle claim contention because the PosCx library determines who gets the claim.
 
 
 

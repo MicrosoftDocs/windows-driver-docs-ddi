@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>IKsDeviceFunctions::RegisterAdapterObjectEx</b> method registers a DMA adapter object with AVStream. All drivers compiled for Win64 platforms should use this method instead of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a>.
+The <b>IKsDeviceFunctions::RegisterAdapterObjectEx</b> method registers a DMA adapter object with AVStream. All drivers compiled for Win64 platforms should use this method instead of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a>.
 
 
 ## -parameters
@@ -58,12 +58,12 @@ The <b>IKsDeviceFunctions::RegisterAdapterObjectEx</b> method registers a DMA ad
 
 ### -param AdapterObject [in]
 
-Pointer to the ADAPTER_OBJECT for the device. Must be acquired through <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> before calling <b>RegisterAdapterObjectEx</b>.
+Pointer to the ADAPTER_OBJECT for the device. Must be acquired through <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> before calling <b>RegisterAdapterObjectEx</b>.
 
 
 ### -param DeviceDescription [in]
 
-Pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_description">DEVICE_DESCRIPTION</a> that describes the attributes of the physical device for which the caller is registering a DMA object.
+Pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_description">DEVICE_DESCRIPTION</a> that describes the attributes of the physical device for which the caller is registering a DMA object.
 
 
 ### -param NumberOfMapRegisters [in]
@@ -73,12 +73,12 @@ Specifies the number of map registers returned from the minidriver's call to <b>
 
 ### -param MaxMappingsByteCount [in]
 
-Specifies the maximum number of bytes that the device can handle for a single mapping. Enables AVStream to automatically break up large chunks of contiguous physical memory into multiple scatter/gather elements for devices that impose a size limit on individual mappings in DMA transfers. See important additional information about <b>MaxMappingsByteCount</b> on the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a> reference page.
+Specifies the maximum number of bytes that the device can handle for a single mapping. Enables AVStream to automatically break up large chunks of contiguous physical memory into multiple scatter/gather elements for devices that impose a size limit on individual mappings in DMA transfers. See important additional information about <b>MaxMappingsByteCount</b> on the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a> reference page.
 
 
 ### -param MappingTableStride [in]
 
-Specifies how many bytes each entry in the mapping table requires. This value must be at least <b>sizeof</b> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksmapping">KSMAPPING</a>) and can be as large as necessary.
+Specifies how many bytes each entry in the mapping table requires. This value must be at least <b>sizeof</b> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksmapping">KSMAPPING</a>) and can be as large as necessary.
 
 Additional space can be used by the minidriver as context information.
 
@@ -106,7 +106,7 @@ Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/sup
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a>
  
 
  

@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-If a pin has been placed into injection mode by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>, the <b>KsPinSubmitFrameMdl</b> function submits a frame directly into the transport circuit.
+If a pin has been placed into injection mode by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>, the <b>KsPinSubmitFrameMdl</b> function submits a frame directly into the transport circuit.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ If a pin has been placed into injection mode by a call to <a href="https://docs.
 
 ### -param Pin [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin">KSPIN</a> structure representing the pin on which to submit a frame.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin">KSPIN</a> structure representing the pin on which to submit a frame.
 
 
 ### -param Mdl [in, optional]
@@ -69,12 +69,12 @@ A pointer to a memory descriptor list describing the frame buffer. Optional.
 
 ### -param StreamHeader [in, optional]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a> structure. The stream header is copied if this parameter is supplied. Optional.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a> structure. The stream header is copied if this parameter is supplied. Optional.
 
 
 ### -param Context [in, optional]
 
-A pointer to a caller-allocated buffer that is passed to the frame return callback registered through <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>. This parameter is optional and is solely for the caller's use.
+A pointer to a caller-allocated buffer that is passed to the frame return callback registered through <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>. This parameter is optional and is solely for the caller's use.
 
 
 ## -returns
@@ -90,7 +90,7 @@ Returns STATUS_SUCCESS if frame submission is successful. Otherwise returns an a
 
 
 
-The difference between this function and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a> is that this function will submit a frame using an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">MDL</a> structure rather than a data and size argument.
+The difference between this function and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a> is that this function will submit a frame using an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a> structure rather than a data and size argument.
 
 
 
@@ -100,11 +100,11 @@ The difference between this function and <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a>
  
 
  

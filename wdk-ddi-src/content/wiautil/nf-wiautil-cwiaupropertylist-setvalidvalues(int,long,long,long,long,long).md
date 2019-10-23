@@ -87,4 +87,4 @@ This method does not return a value.
 
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
 
-[CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG)](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_long_long_int_plong))
+[CWiauPropertyList::SetValidValues(INT,LONG,LONG,INT,PLONG)](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_long_long_int_plong))

@@ -173,7 +173,7 @@ A pointer to a variable that receives the size of the byte array specified by **
 
 
 
-The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Error Handling</a>.
+The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Error Handling</a>.
 
 <table>
 <tr>
@@ -234,7 +234,7 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
-A single bidi request can have multiple results. The application calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequest-getenumcount">GetEnumCount</a> to get the number of results from the bidi request.
+A single bidi request can have multiple results. The application calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getenumcount">GetEnumCount</a> to get the number of results from the bidi request.
 
 If an application calls <b>GetOutputData</b> with the same index twice, the interface allocates two different buffers and thus the application must free both buffers.
 
@@ -246,7 +246,7 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">Bidirectional Communication Interfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
 
 
@@ -254,11 +254,11 @@ If an application calls <b>GetOutputData</b> with the same index twice, the inte
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequest-getenumcount">GetEnumCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getenumcount">GetEnumCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
  
 
  

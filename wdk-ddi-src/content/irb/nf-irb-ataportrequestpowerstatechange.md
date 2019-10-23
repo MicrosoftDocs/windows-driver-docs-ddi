@@ -73,7 +73,7 @@ Specifies the logical unit number (LUN).
 
 ### -param DesiredPowerState
 
-Contains an enumerator value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ne-irb-ide_power_state">IDE_POWER_STATE</a> that indicates the power state to which the indicated device should be changed. 
+Contains an enumerator value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ne-irb-ide_power_state">IDE_POWER_STATE</a> that indicates the power state to which the indicated device should be changed. 
 
 
 ## -returns
@@ -101,7 +101,7 @@ The <b>AtaPortRequestPowerStateChange</b> routine is used when a miniport driver
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ne-irb-ide_power_state">IDE_POWER_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ne-irb-ide_power_state">IDE_POWER_STATE</a>
  
 
  

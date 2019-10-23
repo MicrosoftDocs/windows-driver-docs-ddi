@@ -58,7 +58,7 @@ The <i>ComponentIdleConditionCallback</i> callback routine notifies the driver t
 
 ### -param Context [in]
 
-A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
+A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
 
 
 ### -param Component [in]
@@ -79,7 +79,7 @@ None.
 
 
 
-When the driver no longer needs to access a component that is in the active condition, the driver should call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxidlecomponent">PoFxIdleComponent</a> routine to switch the component to the idle condition. In response to the <b>PoFxIdleComponent</b> call, PoFx initiates the transition to the idle condition, and then calls the <i>ComponentIdleConditionCallback</i> routine to notify the driver when this transition is complete.
+When the driver no longer needs to access a component that is in the active condition, the driver should call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxidlecomponent">PoFxIdleComponent</a> routine to switch the component to the idle condition. In response to the <b>PoFxIdleComponent</b> call, PoFx initiates the transition to the idle condition, and then calls the <i>ComponentIdleConditionCallback</i> routine to notify the driver when this transition is complete.
 
 The driver must call <b>PoFxCompleteIdleCondition</b> in response to every <i>ComponentIdleConditionCallback</i> callback. The <b>PoFxCompleteIdleCondition</b> call can occur either during the <i>ComponentIdleConditionCallback</i> callback or after the callback returns. The driver should complete any work that requires access to the hardware component before the call to <b>PoFxCompleteIdleCondition</b>. After this call, the component might not stay in the F0 power state.
 
@@ -133,11 +133,11 @@ The PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK function type is defined in the Wdm.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxcompleteidlecondition">PoFxCompleteIdleCondition</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxcompleteidlecondition">PoFxCompleteIdleCondition</a>
  
 
  

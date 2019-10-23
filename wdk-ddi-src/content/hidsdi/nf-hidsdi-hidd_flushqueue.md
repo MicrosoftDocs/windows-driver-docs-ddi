@@ -74,7 +74,7 @@ Specifies an open handle to the top-level collection whose input queue is flushe
 
 
 
-Only user-mode applications can call <b>HidD_FlushQueue</b>. Kernel-mode drivers can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidclass/ni-hidclass-ioctl_hid_flush_queue">IOCTL_HID_FLUSH_QUEUE</a> request.
+Only user-mode applications can call <b>HidD_FlushQueue</b>. Kernel-mode drivers can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_flush_queue">IOCTL_HID_FLUSH_QUEUE</a> request.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
@@ -86,7 +86,7 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidclass/ni-hidclass-ioctl_hid_flush_queue">IOCTL_HID_FLUSH_QUEUE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_flush_queue">IOCTL_HID_FLUSH_QUEUE</a>
  
 
  

@@ -72,11 +72,11 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-devicereset">IStiDevice::DeviceReset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-devicereset">IStiDevice::DeviceReset</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index">IStiUSD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
  
 
  

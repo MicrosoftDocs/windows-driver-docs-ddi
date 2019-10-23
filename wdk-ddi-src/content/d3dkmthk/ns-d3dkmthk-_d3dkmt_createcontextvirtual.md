@@ -48,7 +48,7 @@ req.typenames: D3DKMT_CREATECONTEXTVIRTUAL
 ## -description
 
 
-<b>D3DKMT_CREATECONTEXTVIRTUAL</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontextvirtual">D3DKMTCreateContextVirtual</a> to create a kernel mode device context that supports virtual addressing.
+<b>D3DKMT_CREATECONTEXTVIRTUAL</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontextvirtual">D3DKMTCreateContextVirtual</a> to create a kernel mode device context that supports virtual addressing.
 
 
 
@@ -75,7 +75,7 @@ req.typenames: D3DKMT_CREATECONTEXTVIRTUAL
 
 ### -field Flags
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags">D3DDDI_CREATECONTEXTFLAGS</a> structure that indicates, in bit-field flags, how to create the context. 
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags">D3DDDI_CREATECONTEXTFLAGS</a> structure that indicates, in bit-field flags, how to create the context. 
 
 
 ### -field pPrivateDriverData
@@ -95,7 +95,7 @@ req.typenames: D3DKMT_CREATECONTEXTVIRTUAL
 
 ### -field hContext
 
-[out] A handle to the context that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontextvirtual">D3DKMTCreateContextVirtual</a> function creates. 
+[out] A handle to the context that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontextvirtual">D3DKMTCreateContextVirtual</a> function creates. 
 
 
 ## -see-also
@@ -103,11 +103,11 @@ req.typenames: D3DKMT_CREATECONTEXTVIRTUAL
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags">D3DDDI_CREATECONTEXTFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags">D3DDDI_CREATECONTEXTFLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontextvirtual">D3DKMTCreateContextVirtual</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcreatecontextvirtual">D3DKMTCreateContextVirtual</a>
  
 
  

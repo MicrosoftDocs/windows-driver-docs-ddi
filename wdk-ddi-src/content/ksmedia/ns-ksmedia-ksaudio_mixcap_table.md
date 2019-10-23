@@ -60,7 +60,7 @@ Specifies the number of output channels.
 
 ### -field Capabilities
 
-Contains the first entry in a two-dimensional array of [KSAUDIO_MIX_CAPS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksaudio_mix_caps) structures. Given a supermixer node with *m* input channels and *n* output channels, the array contains *m** elements. Each element describes the mix-level capabilities of the path from a particular input channel to a particular output channel.
+Contains the first entry in a two-dimensional array of [KSAUDIO_MIX_CAPS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_mix_caps) structures. Given a supermixer node with *m* input channels and *n* output channels, the array contains *m** elements. Each element describes the mix-level capabilities of the path from a particular input channel to a particular output channel.
 
 ## -remarks
 
@@ -92,7 +92,7 @@ If the client sends an initial KSPROPERTY_AUDIO_MIX_LEVEL_CAPS request in which 
 
 ## -see-also
 
-[KSAUDIO_MIX_CAPS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksaudio_mix_caps)
+[KSAUDIO_MIX_CAPS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_mix_caps)
 
 [KSNODETYPE_SUPERMIX](https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-supermix)
 

@@ -466,7 +466,7 @@ The size, in bytes, of the buffer pointed to by <i>FileInformation</i>.
 <i>FileInformationClass</i>
 </td>
 <td>
-Specifies the type of information to be returned about the file, in the buffer that <i>FileInformation</i> points to. Device and intermediate drivers can specify any of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class">FILE_INFORMATION_CLASS</a> values. Other values cause the call to fail and should not be passed to PreQueryOpen/PostQueryOpen calls.
+Specifies the type of information to be returned about the file, in the buffer that <i>FileInformation</i> points to. Device and intermediate drivers can specify any of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class">FILE_INFORMATION_CLASS</a> values. Other values cause the call to fail and should not be passed to PreQueryOpen/PostQueryOpen calls.
 
 <table>
 <tr>

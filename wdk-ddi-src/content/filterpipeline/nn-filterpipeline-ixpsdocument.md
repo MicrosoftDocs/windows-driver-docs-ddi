@@ -68,7 +68,7 @@ The <b>IXpsDocument</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ixpsdocument-getthumbnail">IXpsDocument::GetThumbnail</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocument-getthumbnail">IXpsDocument::GetThumbnail</a>
 </td>
 <td align="left" width="63%">
 The <code>GetThumbnail</code> method gets the document thumbnail object. 
@@ -77,7 +77,7 @@ The <code>GetThumbnail</code> method gets the document thumbnail object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ixpsdocument-setthumbnail">IXpsDocument::SetThumbnail</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocument-setthumbnail">IXpsDocument::SetThumbnail</a>
 </td>
 <td align="left" width="63%">
 The <code>SetThumbnail</code> method removes the current thumbnail object from the document and inserts a new one.

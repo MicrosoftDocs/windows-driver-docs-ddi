@@ -48,7 +48,7 @@ req.typenames: D3DDDI_TRIMRESIDENCYSET_FLAGS
 ## -description
 
 
-<b>D3DDDI_TRIMRESIDENCYSET_FLAGS</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_trimresidencyset">pfnTrimResidencySet</a> to trim the residency list for a given device.
+<b>D3DDDI_TRIMRESIDENCYSET_FLAGS</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_trimresidencyset">pfnTrimResidencySet</a> to trim the residency list for a given device.
 
 
 ## -struct-fields
@@ -94,7 +94,7 @@ The consolidated value of the bit-fields in the structure.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_trimresidencyset">pfnTrimResidencySet</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_trimresidencyset">pfnTrimResidencySet</a>
  
 
  

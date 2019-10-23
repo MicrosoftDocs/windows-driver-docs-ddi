@@ -61,7 +61,7 @@ Sends a special control function to an HBA-specific miniport driver. Results var
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> must contain an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> must contain an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure. 
 
 
 ### -input-buffer-length
@@ -71,12 +71,12 @@ The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> must contain an <a href="ht
 
 ### -output-buffer
 
-An updated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure is returned to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+An updated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure is returned to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
 
-The length of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure.
+The length of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure.
 
 
 ### -in-out-buffer
@@ -107,7 +107,7 @@ The <b>Information</b> field contains the number of bytes returned in the output
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a>
  
 
  

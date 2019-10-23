@@ -64,7 +64,7 @@ The <b>GetSystemPowerAction</b> method returns the <a href="https://docs.microso
 
 
 
-<b>GetSystemPowerAction</b> returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-ppower_action">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-power-actions">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. 
+<b>GetSystemPowerAction</b> returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-ppower_action">POWER_ACTION</a>-typed enumerator value. The value indicates the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-power-actions">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. 
 
 
 
@@ -106,7 +106,7 @@ For more information about low-power states, see <a href="https://docs.microsoft
 
 #### Examples
 
-The following code example obtains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface and then calls <b>GetSystemPowerAction</b>.
+The following code example obtains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface and then calls <b>GetSystemPowerAction</b>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -133,7 +133,7 @@ The following code example obtains the <a href="https://docs.microsoft.com/windo
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
  
 
  

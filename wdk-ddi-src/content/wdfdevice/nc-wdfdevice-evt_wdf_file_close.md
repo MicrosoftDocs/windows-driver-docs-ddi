@@ -60,7 +60,7 @@ A driver's <i>EvtFileClose</i> callback function handles operations that must be
 
 ### -param FileObject [in]
 
-A handle to a framework file object, which was previously received by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EvtDeviceFileCreate</a> callback function.
+A handle to a framework file object, which was previously received by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EvtDeviceFileCreate</a> callback function.
 
 
 ## -returns
@@ -80,11 +80,11 @@ The framework calls a driver's <i>EvtFileClose</i> callback function when the la
 
 The device might not be in its working (D0) state.
 
-Before the framework calls a driver's <i>EvtFileClose</i> callback function, it calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_file_cleanup">EvtFileCleanup</a> callback function.
+Before the framework calls a driver's <i>EvtFileClose</i> callback function, it calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_cleanup">EvtFileCleanup</a> callback function.
 
 The <i>EvtFileClose</i> callback function is called synchronously, in an arbitrary thread context. 
 
-To register an <i>EvtFileClose</i> callback function, the driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitsetfileobjectconfig">WdfDeviceInitSetFileObjectConfig</a> method.
+To register an <i>EvtFileClose</i> callback function, the driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetfileobjectconfig">WdfDeviceInitSetFileObjectConfig</a> method.
 
 For more information about framework file objects and the <i>EvtFileClose</i> callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-file-objects">Framework File Objects</a>.
 
@@ -132,7 +132,7 @@ The <b>EVT_WDF_FILE_CLOSE</b> function type is defined in the Wdfdevice.h header
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ns-wdfdevice-_wdf_fileobject_config">WDF_FILEOBJECT_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_fileobject_config">WDF_FILEOBJECT_CONFIG</a>
  
 
  

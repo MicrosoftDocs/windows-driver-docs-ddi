@@ -58,7 +58,7 @@ The HBAFCPScsiEntry structure is used with <a href="https://docs.microsoft.com/w
 
 ### -field FCPId
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> that contains the FCP identifier for the logical unit and information about the port to be queried for information about the device.
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> that contains the FCP identifier for the logical unit and information about the port to be queried for information about the device.
 
 
 ### -field Luid
@@ -68,7 +68,7 @@ Contains the logical unit descriptor for the device that the operating system de
 
 ### -field ScsiId
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbascsiid">HBAScsiID</a> that contains the information that uniquely identifies a logical unit for the operating system. 
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbascsiid">HBAScsiID</a> that contains the information that uniquely identifies a logical unit for the operating system. 
 
 
 ## -see-also

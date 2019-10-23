@@ -80,6 +80,6 @@ Initial implementation requires no input and returns no output other than status
 
 ## -see-also
 
-[_IO_STATUS_BLOCK structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_status_block)
+[_IO_STATUS_BLOCK structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block)
 
 [How to Complete an IRP in a Dispatch Routine](https://docs.microsoft.com/windows-hardware/drivers/kernel/how-to-complete-an-irp-in-a-dispatch-routine)

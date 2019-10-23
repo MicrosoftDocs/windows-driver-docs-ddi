@@ -75,7 +75,7 @@ None
 
 ### -output-buffer
 
-The miniport driver returns an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ns-ntddvdeo-_video_public_access_ranges">VIDEO_PUBLIC_ACCESS_RANGES</a> in the VRP <b>OutputBuffer</b>.
+The miniport driver returns an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_public_access_ranges">VIDEO_PUBLIC_ACCESS_RANGES</a> in the VRP <b>OutputBuffer</b>.
 
 
 ### -output-buffer-length
@@ -107,7 +107,7 @@ The miniport driver returns an array of <a href="https://docs.microsoft.com/wind
 
 ### -status-block
 
-If the miniport driver returns an address range or ranges, it sets the <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_status_block">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_PUBLIC_ACCESS_RANGES); otherwise, the miniport driver sets this member to zero.
+If the miniport driver returns an address range or ranges, it sets the <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_PUBLIC_ACCESS_RANGES); otherwise, the miniport driver sets this member to zero.
 
 
 ## -see-also
@@ -115,11 +115,11 @@ If the miniport driver returns an address range or ranges, it sets the <b>Inform
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_status_block">STATUS_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ns-ntddvdeo-_video_public_access_ranges">VIDEO_PUBLIC_ACCESS_RANGES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_public_access_ranges">VIDEO_PUBLIC_ACCESS_RANGES</a>
  
 
  

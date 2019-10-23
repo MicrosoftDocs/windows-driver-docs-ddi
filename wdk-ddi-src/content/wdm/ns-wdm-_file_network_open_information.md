@@ -48,7 +48,7 @@ req.typenames: FILE_NETWORK_OPEN_INFORMATION, *PFILE_NETWORK_OPEN_INFORMATION
 ## -description
 
 
-The <b>FILE_NETWORK_OPEN_INFORMATION</b> structure is used as an argument to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>. 
+The <b>FILE_NETWORK_OPEN_INFORMATION</b> structure is used as an argument to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>. 
 
 
 ## -struct-fields
@@ -109,7 +109,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
  
 
  

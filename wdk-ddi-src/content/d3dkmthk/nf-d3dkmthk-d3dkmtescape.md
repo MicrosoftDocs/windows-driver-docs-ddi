@@ -58,7 +58,7 @@ The <b>D3DKMTEscape</b> function exchanges information with the display miniport
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_escape">D3DKMT_ESCAPE</a> structure that describes the exchanged information.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_escape">D3DKMT_ESCAPE</a> structure that describes the exchanged information.
 
 ## -returns
 
@@ -69,9 +69,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **STATUS_SUCCESS** | Information was successfully shared. | 
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
-| **STATUS_NO_MEMORY** | [D3DKMTEscape](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtescape)  could not complete because of insufficient memory. | 
-| **STATUS_PRIVILEGED_INSTRUCTION** | [D3DKMTEscape](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtescape)  detected nonprivileged instructions (that is, instructions that access memory beyond the privilege of the current CPU process). | 
-| **STATUS_ILLEGAL_INSTRUCTION** | [D3DKMTEscape](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtescape)  detected instructions that cannot be supported by graphics hardware. | 
+| **STATUS_NO_MEMORY** | [D3DKMTEscape](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtescape)  could not complete because of insufficient memory. | 
+| **STATUS_PRIVILEGED_INSTRUCTION** | [D3DKMTEscape](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtescape)  detected nonprivileged instructions (that is, instructions that access memory beyond the privilege of the current CPU process). | 
+| **STATUS_ILLEGAL_INSTRUCTION** | [D3DKMTEscape](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtescape)  detected instructions that cannot be supported by graphics hardware. | 
 
 This function might also return other <b>NTSTATUS</b> values.
 
@@ -83,4 +83,4 @@ Hardware vendors can use <b>D3DKMTEscape</b> in their OpenGL ICDs as an extensio
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_escape">D3DKMT_ESCAPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_escape">D3DKMT_ESCAPE</a>

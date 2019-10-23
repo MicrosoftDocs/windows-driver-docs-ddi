@@ -63,7 +63,7 @@ Specifies the DRM content ID. This member identifies a protected KS audio stream
 
 ### -field DrmRights
 
-Specifies the DRM content rights assigned to the stream. This member is a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/ns-drmk-tagdrmrights">DRMRIGHTS</a> structure.
+Specifies the DRM content rights assigned to the stream. This member is a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/ns-drmk-tagdrmrights">DRMRIGHTS</a> structure.
 
 
 ## -see-also
@@ -71,7 +71,7 @@ Specifies the DRM content rights assigned to the stream. This member is a pointe
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/ns-drmk-tagdrmrights">DRMRIGHTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/ns-drmk-tagdrmrights">DRMRIGHTS</a>
 
 
 

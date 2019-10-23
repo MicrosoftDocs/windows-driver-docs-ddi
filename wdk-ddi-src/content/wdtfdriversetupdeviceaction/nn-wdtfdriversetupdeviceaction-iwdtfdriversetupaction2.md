@@ -68,7 +68,7 @@ The <b>IWDTFDriverSetupAction2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriversetupdeviceaction/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-uninstalldriverpermanently">UnInstallDriverPermanently</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriversetupdeviceaction/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-uninstalldriverpermanently">UnInstallDriverPermanently</a>
 </td>
 <td align="left" width="63%">
 Uninstalls the current driver for the target device.
@@ -77,7 +77,7 @@ Uninstalls the current driver for the target device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriversetupdeviceaction/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-updatedriver">UpdateDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriversetupdeviceaction/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-updatedriver">UpdateDriver</a>
 </td>
 <td align="left" width="63%">
 Updates the target device with a driver from the driver package.

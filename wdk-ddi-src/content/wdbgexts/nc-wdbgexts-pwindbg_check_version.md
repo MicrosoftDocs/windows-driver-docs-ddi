@@ -85,7 +85,7 @@ For more details, see <a href="https://docs.microsoft.com/windows-hardware/drive
 
 <i>CheckVersion</i> is an optional callback function.  If it exists, it will be called by the debugger the first time an extension function exported by the extension DLL is used.
 
-The purpose of this function is to allow you to print out a version mismatch warning when the extension DLL is used. This is an optional feature, which should not be confused with the version number used  by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_extension_api_version">ExtensionApiVersion</a>.
+The purpose of this function is to allow you to print out a version mismatch warning when the extension DLL is used. This is an optional feature, which should not be confused with the version number used  by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_extension_api_version">ExtensionApiVersion</a>.
 
 If the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-noversion--disable-version-checking-">.noversion</a> command is used, version checking is disabled and the debugger will not call <i>CheckVersion</i>.
 

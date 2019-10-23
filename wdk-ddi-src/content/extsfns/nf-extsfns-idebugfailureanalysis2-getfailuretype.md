@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>GetFailureType</b> method gets the failure type of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object. The failure type indicates whether the code being analyzed was running in kernel mode or user mode.
+The <b>GetFailureType</b> method gets the failure type of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object. The failure type indicates whether the code being analyzed was running in kernel mode or user mode.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>GetFailureType</b> method gets the failure type of a <a href="https://doc
 
 
 
-This method returns a value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/ne-extsfns-_debug_failure_type">DEBUG_FAILURE_TYPE</a> enumeration.
+This method returns a value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/ne-extsfns-_debug_failure_type">DEBUG_FAILURE_TYPE</a> enumeration.
 
 
 
@@ -76,7 +76,7 @@ This method returns a value in the <a href="https://docs.microsoft.com/windows-h
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a>
 
 
 
@@ -84,7 +84,7 @@ This method returns a value in the <a href="https://docs.microsoft.com/windows-h
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
  
 
  

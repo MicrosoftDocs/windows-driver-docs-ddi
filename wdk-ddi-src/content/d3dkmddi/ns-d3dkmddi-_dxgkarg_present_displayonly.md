@@ -78,7 +78,7 @@ The pitch, in bytes, of each line in the source image—that is, the distance, i
 
 ### -field Flags
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_d3dkmt_present_display_only_flags">D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS</a> structure that identifies how to display the source image in the present operation.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_d3dkmt_present_display_only_flags">D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS</a> structure that identifies how to display the source image in the present operation.
 
 
 ### -field NumMoves
@@ -88,7 +88,7 @@ The number of screen-to-screen moves that are pointed to by the <b>pMoves</b> me
 
 ### -field pMoves
 
-A pointer to a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_d3dkmt_move_rect">D3DKMT_MOVE_RECT</a> screen-to-screen moves.
+A pointer to a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmt_move_rect">D3DKMT_MOVE_RECT</a> screen-to-screen moves.
 
 
 ### -field NumDirtyRects
@@ -111,11 +111,11 @@ Reserved for system use. The operating system sets this member to <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_d3dkmt_move_rect">D3DKMT_MOVE_RECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmt_move_rect">D3DKMT_MOVE_RECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_d3dkmt_present_display_only_flags">D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_d3dkmt_present_display_only_flags">D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS</a>
 
 
 
@@ -123,7 +123,7 @@ Reserved for system use. The operating system sets this member to <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_presentdisplayonly">DxgkDdiPresentDisplayOnly</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_presentdisplayonly">DxgkDdiPresentDisplayOnly</a>
 
 
 

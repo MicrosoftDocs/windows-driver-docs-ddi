@@ -68,7 +68,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param OldIrql [in]
 
-The IRQL that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportacquiremsispinlock">StorPortAcquireMSISpinLock</a> routine returned when the miniport driver acquired the spin lock.
+The IRQL that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquiremsispinlock">StorPortAcquireMSISpinLock</a> routine returned when the miniport driver acquired the spin lock.
 
 
 ## -returns
@@ -125,7 +125,7 @@ HwDeviceExtension was <b>NULL</b>.
 
 
 
-Miniport drivers are not required to acquire MSI spin locks for messages unless the <b>InterruptSynchronizePerMessage</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structure indicates a synchronization mode of <b>InterruptSynchronizationMode</b>.
+Miniport drivers are not required to acquire MSI spin locks for messages unless the <b>InterruptSynchronizePerMessage</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> structure indicates a synchronization mode of <b>InterruptSynchronizationMode</b>.
 
 
 
@@ -135,7 +135,7 @@ Miniport drivers are not required to acquire MSI spin locks for messages unless 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportacquiremsispinlock">StorPortAcquireMSISpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquiremsispinlock">StorPortAcquireMSISpinLock</a>
  
 
  

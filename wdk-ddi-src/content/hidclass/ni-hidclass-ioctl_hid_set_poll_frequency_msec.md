@@ -114,7 +114,7 @@ The HID class driver sets the <b>Status</b> member of <b>Irp->IoStatus</b> to ST
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidclass/ni-hidclass-ioctl_hid_get_poll_frequency_msec">IOCTL_HID_GET_POLL_FREQUENCY_MSEC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_poll_frequency_msec">IOCTL_HID_GET_POLL_FREQUENCY_MSEC</a>
  
 
  

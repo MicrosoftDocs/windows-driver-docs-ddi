@@ -48,7 +48,7 @@ req.typenames: OSVERSIONINFOW, *POSVERSIONINFOW, *LPOSVERSIONINFOW, RTL_OSVERSIO
 ## -description
 
 
-The <b>RTL_OSVERSIONINFOW</b> structure contains operating system version information. The information includes major and minor version numbers, a build number, a platform identifier, and descriptive text about the operating system. The <b>RTL_OSVERSIONINFOW</b> structure is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a>. 
+The <b>RTL_OSVERSIONINFOW</b> structure contains operating system version information. The information includes major and minor version numbers, a build number, a platform identifier, and descriptive text about the operating system. The <b>RTL_OSVERSIONINFOW</b> structure is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a>. 
 
 
 ## -struct-fields
@@ -58,17 +58,17 @@ The <b>RTL_OSVERSIONINFOW</b> structure contains operating system version inform
 
 ### -field dwOSVersionInfoSize
 
-The size in bytes of an <b>RTL_OSVERSIONINFOW</b> structure. This member must be set before the structure is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a>.
+The size in bytes of an <b>RTL_OSVERSIONINFOW</b> structure. This member must be set before the structure is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a>.
 
 
 ### -field dwMajorVersion
 
-The major version number of the operating system. For example, for Windows 2000, the major version number is five. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a>.
+The major version number of the operating system. For example, for Windows 2000, the major version number is five. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a>.
 
 
 ### -field dwMinorVersion
 
-The minor version number of the operating system. For example, for Windows 2000 the minor version number is zero. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a>. 
+The minor version number of the operating system. For example, for Windows 2000 the minor version number is zero. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a>. 
 
 
 ### -field dwBuildNumber
@@ -90,7 +90,7 @@ The service-pack version string. This member contains a null-terminated string, 
 
 
 
-For a list of the major and minor version numbers for the various versions of Windows, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a>.
+For a list of the major and minor version numbers for the various versions of Windows, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a>.
 
 
 
@@ -100,15 +100,15 @@ For a list of the major and minor version numbers for the various versions of Wi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlverifyversioninfo">RtlVerifyVersionInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlverifyversioninfo">RtlVerifyVersionInfo</a>
  
 
  

@@ -90,7 +90,7 @@ The source and destination areas must not overlap.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_copy_data">IOCTL_DISK_COPY_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_copy_data">IOCTL_DISK_COPY_DATA</a>
  
 
  

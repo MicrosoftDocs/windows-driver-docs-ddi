@@ -48,7 +48,7 @@ req.typenames: CREATE_DISK_MBR, *PCREATE_DISK_MBR
 ## -description
 
 
-The CREATE_DISK_MBR structure is used with the IOCTL <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a> to initialize a disk with an empty MBR partition table.
+The CREATE_DISK_MBR structure is used with the IOCTL <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a> to initialize a disk with an empty MBR partition table.
 
 
 ## -struct-fields
@@ -66,11 +66,11 @@ Specifies the disk signature value, which uniquely identifies the disk.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_create_disk">CREATE_DISK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_create_disk">CREATE_DISK</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a>
  
 
  
