@@ -58,12 +58,12 @@ The callback routine services various IRPs. For a list of function codes, see Re
 
 ### -param *DeviceObject [in, out]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
 
 ### -param *Irp [in, out]
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> structure that describes the requested I/O operation.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that describes the requested I/O operation.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
 
 
-Input parameters for all <i>Dispatch</i> routines are supplied in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> structure pointed to by <i>Irp</i>. Additional parameters are supplied in the driver's associated I/O stack location, which is described by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a> structure and can be obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetcurrentirpstacklocation">IoGetCurrentIrpStackLocation</a>.
+Input parameters for all <i>Dispatch</i> routines are supplied in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure pointed to by <i>Irp</i>. Additional parameters are supplied in the driver's associated I/O stack location, which is described by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a> structure and can be obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetcurrentirpstacklocation">IoGetCurrentIrpStackLocation</a>.
 
 Generally, all <i>Dispatch</i> routines execute in an arbitrary thread context at IRQL = PASSIVE_LEVEL, but there are exceptions. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/dispatch-routines-and-irqls">Dispatch Routines and IRQLs</a>.
 
@@ -122,7 +122,7 @@ A driver's <i>DispatchCreate</i> routine should be named <i>Xxx</i>DispatchCreat
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-close">IRP_MJ_CLOSE</a>
 </td>
 <td>
-A driver can provide a single <i>DispatchCreateClose</i> routine instead of separate <a href="https://msdn.microsoft.com/library/windows/hardware/ff543266">DispatchCreate</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchClose</a> routines.
+A driver can provide a single <i>DispatchCreateClose</i> routine instead of separate <a href="https://msdn.microsoft.com/library/windows/hardware/ff543266">DispatchCreate</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch">DispatchClose</a> routines.
 
 A driver's <i>DispatchCreateClose</i> routine should be named <b><i>Xxx</i>DispatchCreateClose</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchCreateClose</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_CREATE] and in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_CLOSE].
 
@@ -135,7 +135,7 @@ A driver's <i>DispatchCreateClose</i> routine should be named <b><i>Xxx</i>Dispa
 <td>
 A driver's <i>DispatchDeviceControl</i> routine should be named <b><i>Xxx</i>DispatchDeviceControl</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchDeviceControl</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_DEVICE_CONTROL].
 
-The system uses the FILE_<i>XXX</i> flags in the I/O control code to determine whether the IRP sender has the privileges to send the IRP to the device object. Drivers for Windows Server 2003 and later versions of Windows can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iovalidatedeviceiocontrolaccess">IoValidateDeviceIoControlAccess</a> routine to perform stricter access checks within <i>DispatchDeviceControl</i>.
+The system uses the FILE_<i>XXX</i> flags in the I/O control code to determine whether the IRP sender has the privileges to send the IRP to the device object. Drivers for Windows Server 2003 and later versions of Windows can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iovalidatedeviceiocontrolaccess">IoValidateDeviceIoControlAccess</a> routine to perform stricter access checks within <i>DispatchDeviceControl</i>.
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ A driver's <i>DispatchRead</i> routine should be named <b><i>Xxx</i>DispatchRead
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>
 </td>
 <td>
-A driver can provide a single <i>DispatchReadWrite</i> routine instead of separate <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchRead</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchWrite</a> routines.
+A driver can provide a single <i>DispatchReadWrite</i> routine instead of separate <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch">DispatchRead</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch">DispatchWrite</a> routines.
 
 A driver's <i>DispatchReadWrite</i> routine should be named <b><i>Xxx</i>DispatchReadWrite</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchReadWrite</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[<b>IRP_MJ_READ</b>] and in <i>DriverObject</i>-><b>MajorFunction</b>[<b>IRP_MJ_WRITE</b>].
 
@@ -220,7 +220,7 @@ A driver's <i>DispatchSetInformation</i> routine should be named <b><i>Xxx</i>Di
 <td>
 A driver's <i>DispatchShutdown</i> routine should be named <b><i>Xxx</i>DispatchShutdown</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>DispatchShutdown</i> routine's address in <i>DriverObject</i>-><b>MajorFunction</b>[IRP_MJ_SHUTDOWN].
 
-Additionally, in order to receive <b>IRP_MJ_SHUTDOWN</b> requests, a driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregistershutdownnotification">IoRegisterShutdownNotification</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterlastchanceshutdownnotification">IoRegisterLastChanceShutdownNotification</a> to register its <i>DispatchShutdown</i> routine with the system.
+Additionally, in order to receive <b>IRP_MJ_SHUTDOWN</b> requests, a driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregistershutdownnotification">IoRegisterShutdownNotification</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterlastchanceshutdownnotification">IoRegisterLastChanceShutdownNotification</a> to register its <i>DispatchShutdown</i> routine with the system.
 
 </td>
 </tr>

@@ -84,7 +84,7 @@ Drivers can use this routine to determine if a routine is available on a specifi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioiswdmversionavailable">IoIsWdmVersionAvailable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioiswdmversionavailable">IoIsWdmVersionAvailable</a>
  
 
  

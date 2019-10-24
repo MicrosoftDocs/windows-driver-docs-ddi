@@ -58,7 +58,7 @@ The <b>AUX_MODULE_EXTENDED_INFO</b> structure contains extended information abou
 
 ### -field BasicInfo
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/ns-aux_klib-_aux_module_basic_info">AUX_MODULE_BASIC_INFO</a> structure.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_aux_module_basic_info">AUX_MODULE_BASIC_INFO</a> structure.
 
 
 ### -field ImageSize
@@ -80,7 +80,7 @@ The full path name of the module's image file.
 
 
 
-The <b>AUX_MODULE_EXTENDED_INFO</b> structure is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibquerymoduleinformation">AuxKlibQueryModuleInformation</a> routine. 
+The <b>AUX_MODULE_EXTENDED_INFO</b> structure is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibquerymoduleinformation">AuxKlibQueryModuleInformation</a> routine. 
 
 
 
@@ -90,7 +90,7 @@ The <b>AUX_MODULE_EXTENDED_INFO</b> structure is used as input to the <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibquerymoduleinformation">AuxKlibQueryModuleInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibquerymoduleinformation">AuxKlibQueryModuleInformation</a>
  
 
  

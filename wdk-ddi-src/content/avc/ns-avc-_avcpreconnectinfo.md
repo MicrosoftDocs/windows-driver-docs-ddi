@@ -102,11 +102,11 @@ This structure is used only as member of the AVC_PRECONNECT_INFO structure. It i
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/ns-avc-_avc_preconnect_info">AVC_PRECONNECT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_preconnect_info">AVC_PRECONNECT_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/ne-avc-_kspin_flag_avc">KSPIN_FLAG_AVC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ne-avc-_kspin_flag_avc">KSPIN_FLAG_AVC</a>
  
 
  

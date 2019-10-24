@@ -63,7 +63,7 @@ Specifies a reference time, in 100-nanosecond units.
 
 ### -field timecode
 
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_timecode">TIMECODE</a> structure.
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_timecode">TIMECODE</a> structure.
 
 
 ### -field dwUser
@@ -200,7 +200,7 @@ The upper 16 bits in <b>dwFlags</b> are reserved for future use and must be set 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_timecode">TIMECODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_timecode">TIMECODE</a>
  
 
  

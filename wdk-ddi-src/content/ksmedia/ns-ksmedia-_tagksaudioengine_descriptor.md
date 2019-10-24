@@ -76,7 +76,7 @@ Specifies the ID of the pin factory that is connected to the audio engine node t
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getaudioenginedescriptor">GetAudioEngineDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getaudioenginedescriptor">GetAudioEngineDescriptor</a>
 
 
 

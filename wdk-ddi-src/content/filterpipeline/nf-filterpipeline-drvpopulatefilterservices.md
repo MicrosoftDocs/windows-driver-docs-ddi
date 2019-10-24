@@ -88,7 +88,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/print/xpsdrv-pr
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag">IPrintPipelinePropertyBag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag">IPrintPipelinePropertyBag</a>
 
 
 

@@ -47,7 +47,7 @@ req.product: Windows 10 or later.
 
 ## -description
 
-The **ExAllocatePool** routine is **obsolete**, and is exported only for existing binaries. Use [**ExAllocatePoolWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag) instead.
+The **ExAllocatePool** routine is **obsolete**, and is exported only for existing binaries. Use [**ExAllocatePoolWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag) instead.
 
 **ExAllocatePool** allocates pool memory of the specified type and returns a pointer to the allocated block.
 
@@ -64,7 +64,7 @@ PVOID ExAllocatePool(
 
 ### -param PoolType
 
-Type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_pool_type).
+Type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type).
 
 You can modify *PoolType* by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
 
@@ -94,8 +94,8 @@ The system automatically sets certain standard event objects when the amount of 
 
 ## -see-also
 
-[**ExAllocatePoolWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag)
+[**ExAllocatePoolWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag)
 
-[**ExFreePool**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exfreepool)
+[**ExFreePool**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exfreepool)
 
-[POOL_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_pool_type)
+[POOL_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type)

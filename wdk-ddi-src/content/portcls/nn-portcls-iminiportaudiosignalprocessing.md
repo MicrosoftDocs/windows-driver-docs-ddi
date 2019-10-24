@@ -68,7 +68,7 @@ The <b>IMiniportAudioSignalProcessing</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudiosignalprocessing-getmodes">GetModes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudiosignalprocessing-getmodes">GetModes</a>
 </td>
 <td align="left" width="63%">
 The GetModes method, Gets the audio signal processing modes supported by an audio pin.

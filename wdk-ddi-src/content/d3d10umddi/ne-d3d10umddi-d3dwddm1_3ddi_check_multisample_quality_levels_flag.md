@@ -48,7 +48,7 @@ req.typenames: D3DWDDM1_3DDI_CHECK_MULTISAMPLE_QUALITY_LEVELS_FLAG
 ## -description
 
 
-Identifies how to check multisample quality levels using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3dwddm1_3ddi_checkmultisamplequalitylevels">CheckMultisampleQualityLevels(D3D11_2)</a> function.
+Identifies how to check multisample quality levels using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3dwddm1_3ddi_checkmultisamplequalitylevels">CheckMultisampleQualityLevels(D3D11_2)</a> function.
 
 
 ## -enum-fields
@@ -66,7 +66,7 @@ Check the multisample quality levels of a tiled resource.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3dwddm1_3ddi_checkmultisamplequalitylevels">CheckMultisampleQualityLevels(D3D11_2)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3dwddm1_3ddi_checkmultisamplequalitylevels">CheckMultisampleQualityLevels(D3D11_2)</a>
  
 
  

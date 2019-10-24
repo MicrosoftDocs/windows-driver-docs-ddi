@@ -119,7 +119,7 @@ Minidrivers that call other drivers with this IRP to carry out the I/O to their 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidport/ni-hidport-ioctl_hid_deactivate_device">IOCTL_HID_DEACTIVATE_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_hid_deactivate_device">IOCTL_HID_DEACTIVATE_DEVICE</a>
  
 
  

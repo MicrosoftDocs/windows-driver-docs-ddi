@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>NFC_CX_CLIENT_CONFIG_INIT</b> function initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/ns-nfccx-_nfc_cx_client_config">NFC_CX_CLIENT_CONFIG</a> structure.
+The <b>NFC_CX_CLIENT_CONFIG_INIT</b> function initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ns-nfccx-_nfc_cx_client_config">NFC_CX_CLIENT_CONFIG</a> structure.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ The <b>NFC_CX_CLIENT_CONFIG_INIT</b> function initializes the <a href="https://d
 
 ### -param Config [out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/ns-nfccx-_nfc_cx_client_config">NFC_CX_CLIENT_CONFIG</a> structure. 
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ns-nfccx-_nfc_cx_client_config">NFC_CX_CLIENT_CONFIG</a> structure. 
 
 
 ### -param BusType [in]
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/ne-nfccx-_nfc_cx_transport_type">NFC_CX_TRANSPORT_TYPE</a> enumeration. 
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_transport_type">NFC_CX_TRANSPORT_TYPE</a> enumeration. 
 
 
 ## -returns

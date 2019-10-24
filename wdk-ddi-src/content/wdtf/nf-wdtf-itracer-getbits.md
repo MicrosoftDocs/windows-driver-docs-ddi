@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>GetBits</b> method returns the set of tracing flags for a coclass as a bit mask, given a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">TTraceLevel</a> value and the CLSID of the coclass.
+The <b>GetBits</b> method returns the set of tracing flags for a coclass as a bit mask, given a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a> value and the CLSID of the coclass.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>GetBits</b> method returns the set of tracing flags for a coclass as a bi
 
 ### -param ClassID [in]
 
-The CLSID of the co-class of the object that is requesting the tracing bit mask. This parameter causes the interface's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">TraceLevel Path</a> to be defined as HKCR\CLSID\<<i>ClassID</i>>.
+The CLSID of the co-class of the object that is requesting the tracing bit mask. This parameter causes the interface's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TraceLevel Path</a> to be defined as HKCR\CLSID\<<i>ClassID</i>>.
 
 
 ### -param Level [in]
@@ -84,7 +84,7 @@ The returned set of flags as a bit mask.
 
 
 
-The <b>GetBits</b> method is intended for low-level WDTF usage. If you want to change the trace level of an object at runtime, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">ITracing</a>.
+The <b>GetBits</b> method is intended for low-level WDTF usage. If you want to change the trace level of an object at runtime, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracing</a>.
 
 If no default trace level exists, this method fails.
 
@@ -98,15 +98,15 @@ If <b>GetBits</b> fails for any reason, the caller is expected to silently conti
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">ITracer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">ITracing</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">TTraceLevel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a>
  
 
  

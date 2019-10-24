@@ -107,7 +107,7 @@ WRITE_OWNER
 
 </td>
 <td>
-Required to change the ownership information in the object's security descriptor (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>).
+Required to change the ownership information in the object's security descriptor (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>).
 
 </td>
 </tr>
@@ -315,7 +315,7 @@ When the <i>TokenType</i> parameter is set to <b>TokenImpersonation</b>:
 
 <ul>
 <li>
-The <i>ObjectAttributes </i>parameter may be used to specify the impersonation level of the new token. This can be accomplished by setting <i>ObjectAttributes</i>->SecurityQualityOfService.ImpersonationLevel to an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumeration value. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=91038">SECURITY_QUALITY_OF_SERVICE</a> in the Microsoft Windows SDK documentation.
+The <i>ObjectAttributes </i>parameter may be used to specify the impersonation level of the new token. This can be accomplished by setting <i>ObjectAttributes</i>->SecurityQualityOfService.ImpersonationLevel to an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> enumeration value. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=91038">SECURITY_QUALITY_OF_SERVICE</a> in the Microsoft Windows SDK documentation.
 
 </li>
 <li>
@@ -323,7 +323,7 @@ If the existing token is an impersonation token and the <i>ObjectAttributes</i> 
 
 </li>
 <li>
-If the existing token is a primary token and no impersonation level information is provided, the new impersonation token will have a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> impersonation level.
+If the existing token is a primary token and no impersonation level information is provided, the new impersonation token will have a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a> impersonation level.
 
 </li>
 </ul>
@@ -335,7 +335,7 @@ A Boolean value that indicates whether the entire existing token should be dupli
 
 ### -param TokenType [in]
 
-Specifies one of the following values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ne-ntifs-_token_type">TOKEN_TYPE</a> enumeration.
+Specifies one of the following values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_token_type">TOKEN_TYPE</a> enumeration.
 
 <table>
 <tr>
@@ -468,7 +468,7 @@ With regard to the structure pointed to by the optional <i>ObjectAttributes</i> 
 <div> </div>
 For information on the user-mode analog of <b>NtDuplicateToken</b>, see <a href="https://go.microsoft.com/fwlink/p/?linkid=91047">DuplicateTokenEx</a> in the Windows SDK documentation.
 
-When you have finished using the new token, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntclose">NtClose</a> function to close the token handle.
+When you have finished using the new token, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">NtClose</a> function to close the token handle.
 
 <div class="alert"><b>Note</b>  If the call to the <b>NtDuplicateToken</b> function occurs in user mode, you should use the name "<b>NtDuplicateToken</b>" instead of "<b>NtDuplicateToken</b>".</div>
 <div> </div>
@@ -494,7 +494,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
  
 
  

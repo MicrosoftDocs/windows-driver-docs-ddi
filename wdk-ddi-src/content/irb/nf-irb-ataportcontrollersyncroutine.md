@@ -107,7 +107,7 @@ VOID
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportrequestsynchronizedroutine">AtaPortRequestSynchronizedRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportrequestsynchronizedroutine">AtaPortRequestSynchronizedRoutine</a>
  
 
  

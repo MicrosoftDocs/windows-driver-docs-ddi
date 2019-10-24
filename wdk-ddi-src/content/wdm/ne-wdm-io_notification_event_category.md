@@ -39,7 +39,7 @@ ms.custom: 19H1
 
 ## -description
 
-Specifies the category of PnP event for which the callback routine is being registered.  Used in [**IoRegisterPlugPlayNotification**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterplugplaynotification).
+Specifies the category of PnP event for which the callback routine is being registered.  Used in [**IoRegisterPlugPlayNotification**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification).
 
 ## -enum-fields
 
@@ -67,4 +67,4 @@ Reserved for system use.
 
 ## -see-also
 
-[**IoRegisterPlugPlayNotification**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterplugplaynotification)
+[**IoRegisterPlugPlayNotification**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioregisterplugplaynotification)

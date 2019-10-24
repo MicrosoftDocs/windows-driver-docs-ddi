@@ -63,7 +63,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param VpDeviceDescription [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_vp_device_description">VP_DEVICE_DESCRIPTION</a> structure, which describes the attributes of the physical device.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_vp_device_description">VP_DEVICE_DESCRIPTION</a> structure, which describes the attributes of the physical device.
 
 
 ## -returns
@@ -96,19 +96,19 @@ This structure is available in Windows XP and later.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_vp_device_description">VP_DEVICE_DESCRIPTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_vp_device_description">VP_DEVICE_DESCRIPTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportcompletedma">VideoPortCompleteDma</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportcompletedma">VideoPortCompleteDma</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportputdmaadapter">VideoPortPutDmaAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportputdmaadapter">VideoPortPutDmaAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportstartdma">VideoPortStartDma</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportstartdma">VideoPortStartDma</a>
  
 
  

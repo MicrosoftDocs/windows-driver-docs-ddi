@@ -100,7 +100,7 @@ Reserved for future use. The miniport driver shall not use this field.
 
 
 
-The information reported in the IDEREGISTERS structure is intended to be a superset of the information contained in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_ideregs">IDEREGS</a>. Microsoft might expand the contents of the IDEREGISTERS structure in the future. If you need a structure whose size is stable across different versions of the operating system, you should use <b>IDEREGS</b>.
+The information reported in the IDEREGISTERS structure is intended to be a superset of the information contained in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_ideregs">IDEREGS</a>. Microsoft might expand the contents of the IDEREGISTERS structure in the future. If you need a structure whose size is stable across different versions of the operating system, you should use <b>IDEREGS</b>.
 
 
 
@@ -110,7 +110,7 @@ The information reported in the IDEREGISTERS structure is intended to be a super
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_ideregs">IDEREGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_ideregs">IDEREGS</a>
  
 
  

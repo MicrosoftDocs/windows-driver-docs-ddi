@@ -106,7 +106,7 @@ Supported starting with Windows 10.
 
 ### -field PageTablePageSize
 
-For the level 1 page table entry defines the pages size of the leaf page table PTEs. The value is provided by the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_dxgk_pte_page_size">DXGK_PTE_PAGE_SIZE</a> enumerator. This value should be ignored  when dual-PTE is supported.
+For the level 1 page table entry defines the pages size of the leaf page table PTEs. The value is provided by the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_dxgk_pte_page_size">DXGK_PTE_PAGE_SIZE</a> enumerator. This value should be ignored  when dual-PTE is supported.
 
 Supported starting with Windows 10.
 

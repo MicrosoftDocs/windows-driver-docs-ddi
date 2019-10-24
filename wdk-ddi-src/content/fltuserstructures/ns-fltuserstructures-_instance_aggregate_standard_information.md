@@ -83,7 +83,7 @@ Zero-based index used to identify the filter manager frame that the minifilter i
 
 ### -field Type.MiniFilter.VolumeFileSystemType
 
-Identifies the type of file system the minifilter instance is attached to.  The possible values for this member are listed in [FLT_FILESYSTEM_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ne-fltuserstructures-_flt_filesystem_type).
+Identifies the type of file system the minifilter instance is attached to.  The possible values for this member are listed in [FLT_FILESYSTEM_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ne-fltuserstructures-_flt_filesystem_type).
 
 ### -field Type.MiniFilter.InstanceNameLength
 
@@ -185,9 +185,9 @@ A structure of type INSTANCE_AGGREGATE_STANDARD_INFORMATION can be allocated fro
 - [FilterInstanceGetInformation](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancegetinformation)
 - [FilterVolumeInstanceFindFirst](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst)
 - [FilterVolumeInstanceFindNext](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindnext)
-- [FltEnumerateInstanceInformationByFilter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter)
-- [FltEnumerateInstanceInformationByVolume](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume)
-- [FltGetInstanceInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetinstanceinformation)
+- [FltEnumerateInstanceInformationByFilter](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter)
+- [FltEnumerateInstanceInformationByVolume](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume)
+- [FltGetInstanceInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetinstanceinformation)
 
 The INSTANCE_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer contains two or more of these structures, the **NextEntryOffset** value in each entry falls on an 8-byte boundary.
 
@@ -203,14 +203,14 @@ The INSTANCE_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGL
 
 [FilterVolumeInstanceFindNext](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindnext)
 
-[FltEnumerateInstanceInformationByFilter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter)
+[FltEnumerateInstanceInformationByFilter](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyfilter)
 
-[FltEnumerateInstanceInformationByVolume](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume)
+[FltEnumerateInstanceInformationByVolume](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume)
 
-[FltGetInstanceInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetinstanceinformation)
+[FltGetInstanceInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetinstanceinformation)
 
-[INSTANCE_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_instance_basic_information)
+[INSTANCE_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_basic_information)
 
-[INSTANCE_FULL_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_instance_full_information)
+[INSTANCE_FULL_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_full_information)
 
-[INSTANCE_PARTIAL_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_instance_partial_information)
+[INSTANCE_PARTIAL_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_partial_information)

@@ -58,17 +58,17 @@ The AVC_STREAM_REQUEST_BLOCK structure describes an AV/C streaming request to be
 
 ### -field SizeOfThisBlock
 
-Specifies the size of the request block in bytes. Do not set this value directly. Instead, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/nf-avcstrm-init_avcstrm_header">INIT_AVCSTRM_HEADER</a> macro.
+Specifies the size of the request block in bytes. Do not set this value directly. Instead, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/nf-avcstrm-init_avcstrm_header">INIT_AVCSTRM_HEADER</a> macro.
 
 
 ### -field Version
 
-Specifies the version of <i>avcstrm.sys</i> device driver interface (DDI) to service a request. Do not set this value directly. Instead, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/nf-avcstrm-init_avcstrm_header">INIT_AVCSTRM_HEADER</a> macro.
+Specifies the version of <i>avcstrm.sys</i> device driver interface (DDI) to service a request. Do not set this value directly. Instead, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/nf-avcstrm-init_avcstrm_header">INIT_AVCSTRM_HEADER</a> macro.
 
 
 ### -field Function
 
-Indicates the request (function code) <i>avcstrm.sys</i> services. This must be a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ne-avcstrm-_avcstrm_function">AVCSTRM_FUNCTION</a> enumeration. Do not set this value directly. Instead, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/nf-avcstrm-init_avcstrm_header">INIT_AVCSTRM_HEADER</a> macro.
+Indicates the request (function code) <i>avcstrm.sys</i> services. This must be a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ne-avcstrm-_avcstrm_function">AVCSTRM_FUNCTION</a> enumeration. Do not set this value directly. Instead, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/nf-avcstrm-init_avcstrm_header">INIT_AVCSTRM_HEADER</a> macro.
 
 
 ### -field Flags
@@ -198,7 +198,7 @@ To use this structure, set the IRP's <b>Irp->Parameters->Others.Argument1</b> me
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_avcstrm_buffer_struct">AVCSTRM_BUFFER_STRUCT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_avcstrm_buffer_struct">AVCSTRM_BUFFER_STRUCT</a>
 
 
 
@@ -206,7 +206,7 @@ To use this structure, set the IRP's <b>Irp->Parameters->Others.Argument1</b> me
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ne-avcstrm-_avcstrm_function">AVCSTRM_FUNCTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ne-avcstrm-_avcstrm_function">AVCSTRM_FUNCTION</a>
 
 
 
@@ -222,7 +222,7 @@ To use this structure, set the IRP's <b>Irp->Parameters->Others.Argument1</b> me
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_avcstrm_open_struct">AVCSTRM_OPEN_STRUCT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_avcstrm_open_struct">AVCSTRM_OPEN_STRUCT</a>
 
 
 
@@ -242,7 +242,7 @@ To use this structure, set the IRP's <b>Irp->Parameters->Others.Argument1</b> me
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksstate">KSSTATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>
  
 
  

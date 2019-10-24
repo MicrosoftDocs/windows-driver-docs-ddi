@@ -104,7 +104,7 @@ sizeof(NDIS_WWAN_GET_VISIBLE_PROVIDERS)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field VisibleProviders
@@ -117,7 +117,7 @@ A formatted WWAN_GET_VISIBLE_PROVIDERS object that provides additional informati
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_get_visible_providers">WWAN_GET_VISIBLE_PROVIDERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_get_visible_providers">WWAN_GET_VISIBLE_PROVIDERS</a>
  
 
  

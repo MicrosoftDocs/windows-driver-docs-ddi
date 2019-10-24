@@ -134,7 +134,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ne-fwpsk-fwps_fields_outbound_mac_frame_ethernet_">FWPS_FIELDS_OUTBOUND_MAC_FRAME_ETHERNET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_fields_outbound_mac_frame_ethernet_">FWPS_FIELDS_OUTBOUND_MAC_FRAME_ETHERNET</a>
  
 
  

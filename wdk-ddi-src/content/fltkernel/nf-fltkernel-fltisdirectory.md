@@ -89,7 +89,7 @@ Pointer to a caller-supplied Boolean variable. On return, this variable receives
 </dl>
 </td>
 <td width="60%">
-This error code is returned if the file system does not support stream contexts.  Note that starting with Windows Vista, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltisdirectory">FltIsDirectory</a> will return directory information even for file systems that do not support stream contexts.  
+This error code is returned if the file system does not support stream contexts.  Note that starting with Windows Vista, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltisdirectory">FltIsDirectory</a> will return directory information even for file systems that do not support stream contexts.  
 
 </td>
 </tr>

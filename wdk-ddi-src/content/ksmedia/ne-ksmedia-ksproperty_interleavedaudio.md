@@ -54,4 +54,4 @@ Specifies the ID of the <a href="https://docs.microsoft.com/windows-hardware/dri
 
 [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation)
 
-[INTERLEAVED_AUDIO_FORMAT_INFORMATION structure](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_interleaved_audio_format_information)
+[INTERLEAVED_AUDIO_FORMAT_INFORMATION structure](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_interleaved_audio_format_information)

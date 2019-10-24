@@ -68,7 +68,7 @@ A pointer to memory allocated by the caller to store the ID in the thread.
 
 ### -param OriginalId
 
-<p>Upon successfully returning from the call, holds the ID that was previously set on the thread. The driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-ioclearactivityidthread"><b>IoClearActivityIdThread</b></a> with this pointer when tracing is completed within the same thread context.</p>
+<p>Upon successfully returning from the call, holds the ID that was previously set on the thread. The driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioclearactivityidthread"><b>IoClearActivityIdThread</b></a> with this pointer when tracing is completed within the same thread context.</p>
 
 
 
@@ -105,7 +105,7 @@ The IRP does not have an ID associated with it.
 
 
 
-This routine should be used by drivers that are tracing aware and are issuing I/O on a worker thread. Note that such drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-ioclearactivityidthread">IoClearActivityIdThread</a> with the <i>OriginalId</i> before they return control from the thread, if the call was successful.
+This routine should be used by drivers that are tracing aware and are issuing I/O on a worker thread. Note that such drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioclearactivityidthread">IoClearActivityIdThread</a> with the <i>OriginalId</i> before they return control from the thread, if the call was successful.
 
 Drivers that use I/O work items do not need to call this routine because the I/O subsystem takes care of propagating activity IDs to threads in that case.
 

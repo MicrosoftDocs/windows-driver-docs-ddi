@@ -65,7 +65,7 @@ Pointer to the IRP to be tested for paging priority.
 
 
 
-<b>IoGetPagingIoPriority</b> returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_io_paging_priority">IO_PAGING_PRIORITY</a> value for the associated IRP.
+<b>IoGetPagingIoPriority</b> returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_paging_priority">IO_PAGING_PRIORITY</a> value for the associated IRP.
 
 
 
@@ -84,7 +84,7 @@ For I/O requests that causing paging, the system associates an <b>IO_PAGING_PRIO
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_io_paging_priority">IO_PAGING_PRIORITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_paging_priority">IO_PAGING_PRIORITY</a>
  
 
  

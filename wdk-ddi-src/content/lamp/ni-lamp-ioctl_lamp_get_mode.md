@@ -57,11 +57,11 @@ The **IOCTL_LAMP_GET_MODE** control code queries the mode with which the lamp is
 
 ### -input-buffer
 
-`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ne-lamp-lamp_mode).
+`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ne-lamp-lamp_mode).
 
 ### -input-buffer-length
 
-Length of [LAMP_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ne-lamp-lamp_mode).
+Length of [LAMP_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ne-lamp-lamp_mode).
 
 ### -output-buffer
 

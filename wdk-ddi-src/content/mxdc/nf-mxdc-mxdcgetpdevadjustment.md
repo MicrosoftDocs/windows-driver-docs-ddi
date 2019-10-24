@@ -279,4 +279,4 @@ Values:
 
 [GDIINFO](https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo)
 
-[IPrintOemUIMXDC Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemuimxdc)
+[IPrintOemUIMXDC Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuimxdc)

@@ -87,12 +87,12 @@ An NDIS driver might call the
     <b>NdisGroupMaxProcessorCount</b> function during initialization before it allocates resources.
 
 <div class="alert"><b>Note</b>  NDIS 6.20 and later drivers should not use the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a> function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a> function
     because it only returns the processor count for processor group 0.</div>
 <div> </div>
 The processor count can change at runtime on SKUs that support hot-add functionality for CPUs. To
     obtain an active processor count, call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgroupactiveprocessorcount">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgroupactiveprocessorcount">
     NdisGroupActiveProcessorCount</a> function.
 
 
@@ -103,12 +103,12 @@ The processor count can change at runtime on SKUs that support hot-add functiona
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgroupactiveprocessorcount">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgroupactiveprocessorcount">
    NdisGroupActiveProcessorCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a>
  
 
  

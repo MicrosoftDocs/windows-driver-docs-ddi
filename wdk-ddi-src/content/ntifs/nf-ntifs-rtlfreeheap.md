@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlFreeHeap</b> routine frees a memory block that was allocated from a heap by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlallocateheap">RtlAllocateHeap</a>. 
+The <b>RtlFreeHeap</b> routine frees a memory block that was allocated from a heap by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlallocateheap">RtlAllocateHeap</a>. 
 
 
 ## -parameters
@@ -58,12 +58,12 @@ The <b>RtlFreeHeap</b> routine frees a memory block that was allocated from a he
 
 ### -param HeapHandle [in]
 
-A handle for the heap whose memory block is to be freed. This parameter is a handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlcreateheap">RtlCreateHeap</a>. 
+A handle for the heap whose memory block is to be freed. This parameter is a handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateheap">RtlCreateHeap</a>. 
 
 
 ### -param Flags [in, optional]
 
-A set of flags that controls aspects of freeing a memory block. Specifying the following value overrides the corresponding value that was specified in the <i>Flags</i> parameter when the heap was created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlcreateheap">RtlCreateHeap</a>. 
+A set of flags that controls aspects of freeing a memory block. Specifying the following value overrides the corresponding value that was specified in the <i>Flags</i> parameter when the heap was created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateheap">RtlCreateHeap</a>. 
 
 <table>
 <tr>
@@ -86,7 +86,7 @@ Mutual exclusion will not be used when <b>RtlFreeHeap</b> is accessing the heap.
 
 ### -param BaseAddress
 
-<p>A pointer to the memory block to free. This pointer is returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlallocateheap"><b>RtlAllocateHeap</b></a>. </p>
+<p>A pointer to the memory block to free. This pointer is returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlallocateheap"><b>RtlAllocateHeap</b></a>. </p>
 
 
 
@@ -110,15 +110,15 @@ Mutual exclusion will not be used when <b>RtlFreeHeap</b> is accessing the heap.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlallocateheap">RtlAllocateHeap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlallocateheap">RtlAllocateHeap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlcreateheap">RtlCreateHeap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateheap">RtlCreateHeap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtldestroyheap">RtlDestroyHeap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldestroyheap">RtlDestroyHeap</a>
  
 
  

@@ -68,7 +68,7 @@ The <b>IWDTFSimpleIOStressAction2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Continue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Continue</a>
 </td>
 <td align="left" width="63%">
 Continues the I/O.
@@ -77,7 +77,7 @@ Continues the I/O.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">ContinueAsync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ContinueAsync</a>
 </td>
 <td align="left" width="63%">
 Asynchronously signals the I/O to continue.
@@ -86,7 +86,7 @@ Asynchronously signals the I/O to continue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Pause</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the I/O.
@@ -95,7 +95,7 @@ Pauses the I/O.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemaasyncoperation-start">Start</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperation-start">Start</a>
 </td>
 <td align="left" width="63%">
 Opens the device.
@@ -104,7 +104,7 @@ Opens the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfinterfaces/nf-wdtfinterfaces-iwdtfsimpleiostressaction2-startasync">StartAsync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfinterfaces/nf-wdtfinterfaces-iwdtfsimpleiostressaction2-startasync">StartAsync</a>
 </td>
 <td align="left" width="63%">
 Asynchronously signals a start event to occur.
@@ -122,7 +122,7 @@ Stops the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">StopAsync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">StopAsync</a>
 </td>
 <td align="left" width="63%">
 Asynchronously signals the stop event to occur.
@@ -131,7 +131,7 @@ Asynchronously signals the stop event to occur.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WaitAsyncCompletion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">WaitAsyncCompletion</a>
 </td>
 <td align="left" width="63%">
 Waits for the completion of any of the asynchronous events.

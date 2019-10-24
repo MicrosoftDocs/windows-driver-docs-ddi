@@ -64,15 +64,15 @@ When the minidriver completes a stream request, it fills this member with the st
 
 ### -field StreamObject
 
-For stream oriented requests, the class driver sets this to point to the [HW_STREAM_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_stream_object) structure that specifies the stream the class driver is making a request on.
+For stream oriented requests, the class driver sets this to point to the [HW_STREAM_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object) structure that specifies the stream the class driver is making a request on.
 
 ### -field HwDeviceExtension
 
-Pointer to the minidriver's device extension. The minidriver may use this buffer to record private information. The minidriver sets the size of this buffer in the [HW_INITIALIZATION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_initialization_data) structure it passes when it registers itself via [StreamClassRegisterMinidriver](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nf-strmini-streamclassregisteradapter). The class driver also passes pointers to this buffer in the **HwDeviceExtension** member of the [HW_STREAM_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_stream_object), [HW_TIME_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_time_context), and [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_port_configuration_information) structures it passes to the minidriver.
+Pointer to the minidriver's device extension. The minidriver may use this buffer to record private information. The minidriver sets the size of this buffer in the [HW_INITIALIZATION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data) structure it passes when it registers itself via [StreamClassRegisterMinidriver](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter). The class driver also passes pointers to this buffer in the **HwDeviceExtension** member of the [HW_STREAM_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_object), [HW_TIME_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context), and [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information) structures it passes to the minidriver.
 
 ### -field SRBExtension
 
-Points to an uninitialized buffer the class driver allocates for the minidriver to use while processing this stream request block. This buffer is deallocated once the minidriver completes its handling of the block (see [StreamClassDeviceNotification](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nf-strmini-streamclassdevicenotification) or [StreamClassStreamNotification](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nf-strmini-streamclassstreamnotification) for details).
+Points to an uninitialized buffer the class driver allocates for the minidriver to use while processing this stream request block. This buffer is deallocated once the minidriver completes its handling of the block (see [StreamClassDeviceNotification](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassdevicenotification) or [StreamClassStreamNotification](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification) for details).
 
 ### -field CommandData
 
@@ -80,15 +80,15 @@ Points to an uninitialized buffer the class driver allocates for the minidriver 
 
 ### -field CommandData.DataBufferArray
 
-Pointer to an array of [KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksstream_header) structures. The number of entries in this array is specified in **NumberOfBuffers**. Each KSSTREAM_HEADER describes one block of data.
+Pointer to an array of [KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header) structures. The number of entries in this array is specified in **NumberOfBuffers**. Each KSSTREAM_HEADER describes one block of data.
 
 This member is used when the command code is [SRB_READ_DATA](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-read-data) or [SRB_WRITE_DATA](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-write-data).
 
 ### -field CommandData.StreamBuffer
 
-Points to the [HW_STREAM_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_stream_descriptor) structure the minidriver fills in with a description of the kernel streaming semantics it supports.
+Points to the [HW_STREAM_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_descriptor) structure the minidriver fills in with a description of the kernel streaming semantics it supports.
 
-The minidriver specifies the size of this buffer in the **StreamDescriptorSize** member of its [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_port_configuration_information) structure.
+The minidriver specifies the size of this buffer in the **StreamDescriptorSize** member of its [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information) structure.
 
 This member is used when the command code is [SRB_GET_STREAM_INFO](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-get-stream-info).
 
@@ -106,19 +106,19 @@ A pointer to a STREAM_TIME_REFERENCE structure.
 
 ### -field CommandData.PropertyInfo
 
-Points to the [STREAM_PROPERTY_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_stream_property_descriptor) structure that specifies the parameters for the property get or set operation.
+Points to the [STREAM_PROPERTY_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_stream_property_descriptor) structure that specifies the parameters for the property get or set operation.
 
 This member is used when the command code is [SRB_GET_DEVICE_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-get-device-property), [SRB_SET_DEVICE_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-set-device-property), [SRB_GET_STREAM_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-get-stream-property), or [SRB_SET_STREAM_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-set-stream-property).
 
 ### -field CommandData.OpenFormat
 
-Pointer to the [KSDATAFORMAT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdataformat) structure that specifies the format.
+Pointer to the [KSDATAFORMAT](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat) structure that specifies the format.
 
 This member is used when the command code is [SRB_OPEN_STREAM](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-open-stream) or [SRB_PROPOSE_DATA_FORMAT](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-propose-data-format).
 
 ### -field CommandData.ConfigInfo
 
-Pointer to the [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_port_configuration_information) structure used to initialize the device
+Pointer to the [PORT_CONFIGURATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_port_configuration_information) structure used to initialize the device
 
 This member is used when the command code is [SRB_INITIALIZE_DEVICE](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-initialize-device).
 
@@ -136,7 +136,7 @@ This member is used when the command code is [SRB_CHANGE_POWER_STATE](https://do
 
 ### -field CommandData.IntersectInfo
 
-Pointer to a [STREAM_DATA_INTERSECT_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_stream_data_intersect_info) structure that describes the parameters of this operation.
+Pointer to a [STREAM_DATA_INTERSECT_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_stream_data_intersect_info) structure that describes the parameters of this operation.
 
 This member is used when the command code is [SRB_GET_DATA_INTERSECTION](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-get-data-intersection).
 
@@ -160,11 +160,11 @@ This member is used when the command code is [SRB_NOTIFY_IDLE_STATE](https://doc
 
 ### -field NumberOfBuffers
 
-If Command is either [SRB_READ_DATA](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-read-data) or [SRB_WRITE_DATA](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-write-data), then this specifies the number of entries in the array of [KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksstream_header) structures that begins at the address pointed to by **CommandData.DataBufferArray**. Otherwise this parameter is unused.
+If Command is either [SRB_READ_DATA](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-read-data) or [SRB_WRITE_DATA](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-write-data), then this specifies the number of entries in the array of [KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header) structures that begins at the address pointed to by **CommandData.DataBufferArray**. Otherwise this parameter is unused.
 
 ### -field TimeoutCounter
 
-The number of seconds before this request times out. The class driver decrements this once per second. If the class driver decrements **TimeoutCounter** to zero before the minidriver completes this request, it will call the minidriver's [StrMiniRequestTimeout](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nc-strmini-phw_request_timeout_handler) routine. If the minidriver sets this to zero, the request does not time out.
+The number of seconds before this request times out. The class driver decrements this once per second. If the class driver decrements **TimeoutCounter** to zero before the minidriver completes this request, it will call the minidriver's [StrMiniRequestTimeout](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_request_timeout_handler) routine. If the minidriver sets this to zero, the request does not time out.
 
 ### -field TimeoutOriginal
 
@@ -184,15 +184,15 @@ Specifies the type of request. The class driver and the minidriver can use this 
 
 | Value | Callback used |
 | --- | --- |
-| None | [StrMiniReceiveDevicePacket](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nc-strmini-phw_receive_device_srb) |
+| None | [StrMiniReceiveDevicePacket](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_receive_device_srb) |
 | SRB_HW_FLAGS_STREAM_REQUEST | [StrMiniReceiveStreamControlPacket](https://docs.microsoft.com/previous-versions/ff568467(v=vs.85)) |
-| SRB_HW_FLAGS_DATA_TRANSFER \| SRB_HW_FLAGS_STREAM_REQUEST | [StrMiniReceiveStreamDataPacket](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nc-strmini-phw_receive_device_srb) |
+| SRB_HW_FLAGS_DATA_TRANSFER \| SRB_HW_FLAGS_STREAM_REQUEST | [StrMiniReceiveStreamDataPacket](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_receive_device_srb) |
 
 SRB_HW_FLAGS_STREAM_REQUEST bit is set for stream-specific requests (which are passed to the minidriver's **StrMiniReceiveStream***Xxx***Packet** routines). The SRB_HW_FLAGS_DATA_TRANSFER bit is set for data transfer requests (which are passed to the minidriver).
 
 ### -field HwInstanceExtension
 
-Pointer to the minidriver's instance extension. The minidriver may use this buffer to record private information global to this instance of the minidriver. The minidriver sets the size of this buffer in the [HW_INITIALIZATION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_initialization_data) structure it passes when it registers itself via [StreamClassRegisterMinidriver](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nf-strmini-streamclassregisteradapter).
+Pointer to the minidriver's instance extension. The minidriver may use this buffer to record private information global to this instance of the minidriver. The minidriver sets the size of this buffer in the [HW_INITIALIZATION_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data) structure it passes when it registers itself via [StreamClassRegisterMinidriver](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassregisteradapter).
 
 ### -field NumberOfBytesToTransfer
 
@@ -229,8 +229,8 @@ The Reserved[1] field is reserved for system use. Do not use.
 
 ## -remarks
 
-The stream class driver passes pointers to HW_STREAM_REQUEST_BLOCK structures to the minidriver's [StrMiniReceiveStreamDataPacket](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nc-strmini-phw_receive_device_srb), [StrMiniReceiveStreamControlPacket](https://docs.microsoft.com/previous-versions/ff568467(v=vs.85)), and [StrMiniReceiveDevicePacket](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nc-strmini-phw_receive_device_srb) routines.
+The stream class driver passes pointers to HW_STREAM_REQUEST_BLOCK structures to the minidriver's [StrMiniReceiveStreamDataPacket](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_receive_device_srb), [StrMiniReceiveStreamControlPacket](https://docs.microsoft.com/previous-versions/ff568467(v=vs.85)), and [StrMiniReceiveDevicePacket](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_receive_device_srb) routines.
 
-The minidriver owns this stream request block until the request times out or it completes the request. The minidriver signals to the class driver that it has completed the request by calling [StreamClassDeviceNotification](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nf-strmini-streamclassdevicenotification)(DeviceRequestComplete, pSrb->HwDeviceExtension, pSRB) for device-specific requests, or calling [StreamClassStreamNotification](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nf-strmini-streamclassstreamnotification)(StreamRequestComplete, pSrb->StreamObject, pSrb) for stream-specific requests. (The minidriver can also complete a request by calling [StreamClassCompleteRequestAndMarkQueueReady](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nf-strmini-streamclasscompleterequestandmarkqueueready)(pSrb). See that routine for details.)
+The minidriver owns this stream request block until the request times out or it completes the request. The minidriver signals to the class driver that it has completed the request by calling [StreamClassDeviceNotification](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassdevicenotification)(DeviceRequestComplete, pSrb->HwDeviceExtension, pSRB) for device-specific requests, or calling [StreamClassStreamNotification](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclassstreamnotification)(StreamRequestComplete, pSrb->StreamObject, pSrb) for stream-specific requests. (The minidriver can also complete a request by calling [StreamClassCompleteRequestAndMarkQueueReady](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclasscompleterequestandmarkqueueready)(pSrb). See that routine for details.)
 
-If the class driver times out the request, it will call the minidriver's [StrMiniRequestTimeout](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nc-strmini-phw_request_timeout_handler) routine, which has the responsibility of terminating processing of the request. If the minidriver queues a request for later processing, it should set the **TimeoutCounter** member to zero, which will prevent the class driver from timing out the request. Once the minidriver is ready to resume processing the request, it should reset the **TimeoutCounter** member to the value of **TimeoutOriginal**.
+If the class driver times out the request, it will call the minidriver's [StrMiniRequestTimeout](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nc-strmini-phw_request_timeout_handler) routine, which has the responsibility of terminating processing of the request. If the minidriver queues a request for later processing, it should set the **TimeoutCounter** member to zero, which will prevent the class driver from timing out the request. Once the minidriver is ready to resume processing the request, it should reset the **TimeoutCounter** member to the value of **TimeoutOriginal**.

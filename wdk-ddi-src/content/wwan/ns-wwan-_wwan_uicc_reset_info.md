@@ -58,7 +58,7 @@ The <b>WWAN_UICC_RESET_INFO</b> structure represents the passthrough status of a
 
 ### -field PassThroughStatus
 
-The passthrough status of the miniport adapter. For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_uicc_passthrough_status">WWAN_UICC_PASSTHROUGH_STATUS</a>.
+The passthrough status of the miniport adapter. For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_uicc_passthrough_status">WWAN_UICC_PASSTHROUGH_STATUS</a>.
 
 
 ## -see-also
@@ -70,11 +70,11 @@ The passthrough status of the miniport adapter. For more info, see <a href="http
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_uicc_reset_info">NDIS_WWAN_UICC_RESET_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_uicc_reset_info">NDIS_WWAN_UICC_RESET_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_uicc_passthrough_status">WWAN_UICC_PASSTHROUGH_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_uicc_passthrough_status">WWAN_UICC_PASSTHROUGH_STATUS</a>
  
 
  

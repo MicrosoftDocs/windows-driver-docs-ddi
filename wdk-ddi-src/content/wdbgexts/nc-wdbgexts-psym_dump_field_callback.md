@@ -49,7 +49,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The PSYM_DUMP_FIELD_CALLBACK callback function is called by the debugger engine during the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a> Ioctl operation with information about a member in the specified symbol.
+The PSYM_DUMP_FIELD_CALLBACK callback function is called by the debugger engine during the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a> Ioctl operation with information about a member in the specified symbol.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The PSYM_DUMP_FIELD_CALLBACK callback function is called by the debugger engine 
 
 ### -param *pField
 
-Specifies the field for which this callback function is being called.  The debugger engine fills in the contents of this parameter before making the call.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_field_info">FIELD_INFO</a> for details about the members of this parameter.
+Specifies the field for which this callback function is being called.  The debugger engine fills in the contents of this parameter before making the call.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_field_info">FIELD_INFO</a> for details about the members of this parameter.
 
 
 ### -param UserContext
@@ -91,15 +91,15 @@ If you are writing a WdbgExts extension, include wdbgexts.h. If you are writing 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_field_info">FIELD_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_field_info">FIELD_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
  
 
  

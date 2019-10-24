@@ -117,7 +117,7 @@ A pointer to a wide-character, null-terminated string that explains the reason f
 
 
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a> routine.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a> routine.
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/power-manager">power manager</a> uses the reason string or strings contained in this structure as a diagnostic aid during functional and performance testing.
 
@@ -133,7 +133,7 @@ The DIAGNOSTIC_REASON_DETAILED_STRING flag supports localization. If the localiz
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a>
  
 
  

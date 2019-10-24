@@ -68,12 +68,12 @@ Length of a <a href="https://docs.microsoft.com/previous-versions/windows/hardwa
 
 ### -output-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_aacs_volume_id">AACS_VOLUME_ID</a> that specifies the volume ID. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_volume_id">AACS_VOLUME_ID</a> that specifies the volume ID. 
 
 
 ### -output-buffer-length
 
-Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_aacs_volume_id">AACS_VOLUME_ID</a>.
+Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_volume_id">AACS_VOLUME_ID</a>.
 
 
 ### -in-out-buffer

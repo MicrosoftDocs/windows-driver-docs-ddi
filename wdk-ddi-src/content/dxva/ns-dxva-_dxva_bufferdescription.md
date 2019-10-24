@@ -96,7 +96,7 @@ Specifies the amount of relevant data in the buffer in bytes. The location of th
 
 ### -field dwFirstMBaddress
 
-Specifies the macroblock address of the first macroblock in the buffer passed to the accelerator. The macroblock address is given in raster scan order. The address is determined by the members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_pictureparameters">DXVA_PictureParameters</a>. Examples of macroblock addresses are as follows.
+Specifies the macroblock address of the first macroblock in the buffer passed to the accelerator. The macroblock address is given in raster scan order. The address is determined by the members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_pictureparameters">DXVA_PictureParameters</a>. Examples of macroblock addresses are as follows.
 
 | **Macroblock** | **Address** | 
 |:--|:--|
@@ -121,7 +121,7 @@ The value for <b>dwNumMBsInBuffer</b> depends on the type of data buffer being u
 |:--|:--|
 | Macroblock control command | Must be equal to the sum of all values for MBskipsFollowing, added to the number of macroblock control commands in the macroblock control command buffer. | 
 | Residual difference block | Must have the same value as for the corresponding macroblock control command buffer. | 
-| Slice-control command | Must be equal to the value of the wNumberMBsInSlice member of the [DXVA_SliceInfo](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_sliceinfo) structure in the slice-control buffer. | 
+| Slice-control command | Must be equal to the value of the wNumberMBsInSlice member of the [DXVA_SliceInfo](https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_sliceinfo) structure in the slice-control buffer. | 
 | Bitstream | Must have the same value as for the corresponding slice-control command buffer. | 
 
 
@@ -160,11 +160,11 @@ An array of DXVA_BufferDescription structures is referred to as a buffer descrip
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_pictureparameters">DXVA_PictureParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_pictureparameters">DXVA_PictureParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_sliceinfo">DXVA_SliceInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_sliceinfo">DXVA_SliceInfo</a>
  
 
  

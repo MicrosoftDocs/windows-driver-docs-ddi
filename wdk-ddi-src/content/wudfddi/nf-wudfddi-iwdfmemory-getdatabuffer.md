@@ -85,7 +85,7 @@ This parameter is optional. The driver can pass <b>NULL</b> if the driver does n
 
 
 
-For a code example of how to use the <b>GetDataBuffer</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice-setpnpstate">IWDFDevice::SetPnpState</a>.
+For a code example of how to use the <b>GetDataBuffer</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-setpnpstate">IWDFDevice::SetPnpState</a>.
 
 
 
@@ -95,7 +95,7 @@ For a code example of how to use the <b>GetDataBuffer</b> method, see <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a>
  
 
  

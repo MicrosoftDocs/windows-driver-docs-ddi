@@ -66,7 +66,7 @@ The D3DDDIARG_DESTROYOVERLAY structure contains a handle to the overlay to disab
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_destroyoverlay">DestroyOverlay</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_destroyoverlay">DestroyOverlay</a>
  
 
  

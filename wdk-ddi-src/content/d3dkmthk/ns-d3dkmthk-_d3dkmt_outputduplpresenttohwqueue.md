@@ -68,7 +68,7 @@ A handle to an array of hardware queues.
 
 ### -field PresentRegions
 
-Dirty and move regions, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_rgns">D3DKMT_PRESENT_RGNS</a>.
+Dirty and move regions, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_rgns">D3DKMT_PRESENT_RGNS</a>.
 
 ### -field Flags
 

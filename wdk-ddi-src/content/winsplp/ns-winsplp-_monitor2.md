@@ -60,7 +60,7 @@ A port monitor server DLL's [EnumPorts](https://docs.microsoft.com/windows/deskt
 
 ### -field pfnOpenPort
 
-Pointer to the print monitor's [OpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-openport) function.
+Pointer to the print monitor's [OpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openport) function.
 
 ### -field pfnOpenPortEx
 
@@ -72,11 +72,11 @@ A print monitor's [StartDocPort](https://docs.microsoft.com/previous-versions/ff
 
 ### -field pfnWritePort
 
-Pointer to the print monitor's [WritePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-writeport) function.
+Pointer to the print monitor's [WritePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-writeport) function.
 
 ### -field pfnReadPort
 
-Pointer to the print monitor's [ReadPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-readport) function.
+Pointer to the print monitor's [ReadPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-readport) function.
 
 ### -field pfnEndDocPort
 
@@ -84,7 +84,7 @@ A print monitor's [EndDocPort](https://docs.microsoft.com/previous-versions/ff54
 
 ### -field pfnClosePort
 
-Pointer to the print monitor's [ClosePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-closeport) function.
+Pointer to the print monitor's [ClosePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-closeport) function.
 
 ### -field pfnAddPort
 
@@ -100,7 +100,7 @@ Pointer to the print monitor's [ClosePort](https://docs.microsoft.com/windows-ha
 ### -field pfnConfigurePort
 
 > [!IMPORTANT]
-> The [ConfigurePort](https://docs.microsoft.com/previous-versions/ff546286(v=vs.85)) function is obsolete and should not be used. Use [ConfigurePortUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-configureportui) instead.
+> The [ConfigurePort](https://docs.microsoft.com/previous-versions/ff546286(v=vs.85)) function is obsolete and should not be used. Use [ConfigurePortUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-configureportui) instead.
 
 **ConfigurePort** is a port management function that configures the specified port.
 
@@ -121,15 +121,15 @@ A port monitor server DLL's [SetPortTimeOuts](https://docs.microsoft.com/previou
 
 ### -field pfnXcvOpenPort
 
-Pointer to the print monitor's [XcvOpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvopenport) function. (Port monitors only.)
+Pointer to the print monitor's [XcvOpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvopenport) function. (Port monitors only.)
 
 ### -field pfnXcvDataPort
 
-Pointer to the print monitor's [XcvDataPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvdataport) function. (Port monitors only.)
+Pointer to the print monitor's [XcvDataPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvdataport) function. (Port monitors only.)
 
 ### -field pfnXcvClosePort
 
-Pointer to the print monitor's [XcvClosePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvcloseport) function. (Port monitors only.)
+Pointer to the print monitor's [XcvClosePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvcloseport) function. (Port monitors only.)
 
 ### -field pfnShutdown
 
@@ -153,7 +153,7 @@ Pointer to the print monitor's **PowerEvent** function.
 
 ## -remarks
 
-Each language monitor and each port monitor server DLL must provide a MONITOR2 structure. The monitor must supply values for all structure members, and specify the structure's address as the return value for its [InitializePrintMonitor2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-initializeprintmonitor2) function.
+Each language monitor and each port monitor server DLL must provide a MONITOR2 structure. The monitor must supply values for all structure members, and specify the structure's address as the return value for its [InitializePrintMonitor2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitor2) function.
 
 If a function is not defined, its pointer must be NULL.
 
@@ -198,6 +198,6 @@ if ( Is_Win2000( ) )
 
 ## -see-also
 
-[InitializePrintMonitor2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-initializeprintmonitor2)
+[InitializePrintMonitor2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitor2)
 
-[MONITORUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorui)
+[MONITORUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorui)

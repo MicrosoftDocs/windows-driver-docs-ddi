@@ -71,7 +71,7 @@ The <b>IPrintJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintjob-requestcancel">RequestCancel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-requestcancel">RequestCancel</a>
 </td>
 <td align="left" width="63%">
 Requests the cancellation of a print job.
@@ -80,7 +80,7 @@ Requests the cancellation of a print job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintjob-get_status">Status</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_status">Status</a>
 </td>
 <td align="left" width="63%">
 Gets the current status of the print job.
@@ -114,7 +114,7 @@ Gets the print job identifier (ID).
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemaelement-get_name">Name</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaelement-get_name">Name</a>
 
 
 </td>
@@ -130,7 +130,7 @@ Gets the name of the print job.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintjob-get_printedpages">PrintedPages</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_printedpages">PrintedPages</a>
 
 
 </td>
@@ -146,7 +146,7 @@ Gets the number of pages that have been printed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintjob-get_submissiontime">SubmissionTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_submissiontime">SubmissionTime</a>
 
 
 </td>
@@ -162,7 +162,7 @@ Gets the submission time, in the “DATE” format, provided in the user’s loc
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintjob-get_totalpages">TotalPages</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_totalpages">TotalPages</a>
 
 
 </td>

@@ -48,7 +48,7 @@ req.typenames: OS_DEP_DATA, *POS_DEP_DATA
 ## -description
 
 
-The OS_DEP_DATA structure defines the data that is stored in the <b>OsData</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/smclib/ns-smclib-_smartcard_extension">SMARTCARD_EXTENSION</a> structure, which holds smart card information that is specific to the operating system. 
+The OS_DEP_DATA structure defines the data that is stored in the <b>OsData</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/smclib/ns-smclib-_smartcard_extension">SMARTCARD_EXTENSION</a> structure, which holds smart card information that is specific to the operating system. 
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ A pointer to the smart card reader device object. (Must be set by the driver.)
 
 ### -field CurrentIrp
 
-A pointer to the current IRP to process. Access to this field must be sequentialized by using the spin lock pointed to by the <b>OsData->SpinLock</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/smclib/ns-smclib-_smartcard_extension">SMARTCARD_EXTENSION</a>. 
+A pointer to the current IRP to process. Access to this field must be sequentialized by using the spin lock pointed to by the <b>OsData->SpinLock</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/smclib/ns-smclib-_smartcard_extension">SMARTCARD_EXTENSION</a>. 
 
 
 ### -field NotificationIrp
@@ -78,7 +78,7 @@ Contains a mutex that applications use to synchronize access to the reader drive
 
 ### -field SpinLock
 
-Contains a mutex that drivers use to synchronize access to protected members of the OS_DEP_DATA structure. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/smclib/ns-smclib-_scard_card_capabilities">SCARD_CARD_CAPABILITIES</a>.
+Contains a mutex that drivers use to synchronize access to protected members of the OS_DEP_DATA structure. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/smclib/ns-smclib-_scard_card_capabilities">SCARD_CARD_CAPABILITIES</a>.
 
 
 ### -field RemoveLock

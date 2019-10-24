@@ -68,14 +68,14 @@ Length, in bytes, of the <b>Sid</b> member.
 
 ### -field Sid
 
-Security identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_sid">SID</a>) whose quota information is to be returned. 
+Security identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>) whose quota information is to be returned. 
 
 
 ## -remarks
 
 
 
-The FILE_GET_QUOTA_INFORMATION structure is used to query for quota information. The quota information is returned in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_quota_information">FILE_QUOTA_INFORMATION</a>-structured buffer. 
+The FILE_GET_QUOTA_INFORMATION structure is used to query for quota information. The quota information is returned in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information">FILE_QUOTA_INFORMATION</a>-structured buffer. 
 
 This structure must be aligned on a LONG (4-byte) boundary. 
 
@@ -87,7 +87,7 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_quota_information">FILE_QUOTA_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_quota_information">FILE_QUOTA_INFORMATION</a>
 
 
 
@@ -99,11 +99,11 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iocheckquotabuffervalidity">IoCheckQuotaBufferValidity</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iocheckquotabuffervalidity">IoCheckQuotaBufferValidity</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_sid">SID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_sid">SID</a>
  
 
  

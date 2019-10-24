@@ -76,7 +76,7 @@ None
 
 The system allocates the synchronization object from nonpaged pool. If a pool allocation failure occurs, <b>FsRtlNotifyInitializeSync</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. To gain control if this pool allocation failure occurs, the driver should wrap the call to <b>FsRtlNotifyInitializeSync</b> in a <b>try-except</b> or <b>try-finally</b> statement.
 
-Every successful call to <b>FsRtlNotifyInitializeSync</b> must be matched by a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyuninitializesync">FsRtlNotifyUninitializeSync</a>.
+Every successful call to <b>FsRtlNotifyInitializeSync</b> must be matched by a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyuninitializesync">FsRtlNotifyUninitializeSync</a>.
 
 
 
@@ -86,7 +86,7 @@ Every successful call to <b>FsRtlNotifyInitializeSync</b> must be matched by a s
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyuninitializesync">FsRtlNotifyUninitializeSync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyuninitializesync">FsRtlNotifyUninitializeSync</a>
  
 
  

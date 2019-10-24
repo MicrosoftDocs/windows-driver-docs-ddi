@@ -131,7 +131,7 @@ The call was made at an invalid IRQL.
 
 
 
-A miniport driver calls the <b>StorPortFreeMdl</b> routine to free the MDL that was allocated in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportallocatemdl">StorPortAllocateMdl</a>.
+A miniport driver calls the <b>StorPortFreeMdl</b> routine to free the MDL that was allocated in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatemdl">StorPortAllocateMdl</a>.
 
 
 
@@ -141,7 +141,7 @@ A miniport driver calls the <b>StorPortFreeMdl</b> routine to free the MDL that 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportallocatemdl">StorPortAllocateMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportallocatemdl">StorPortAllocateMdl</a>
  
 
  

@@ -63,7 +63,7 @@ The
 
 Specified the handle to a miniport driver-allocated context area in which the miniport driver
      maintains state information per-VC. The miniport driver supplied this handle to NDIS from its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a> function.
 
 
 ## -returns
@@ -96,7 +96,7 @@ Indicates that the miniport driver successfully halted any communication across 
 <td width="60%">
 Indicates that the miniport driver will complete the request to halt the VC asynchronously. When
        the miniport driver has completed halting the VC, it must then call 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcodeactivatevccomplete">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcodeactivatevccomplete">
        NdisMCoDeactivateVcComplete</a> to signal NDIS that this operation has been completed.
 
 </td>
@@ -117,7 +117,7 @@ Indicates that the miniport driver will complete the request to halt the VC asyn
     across the VC.
 
 There is not a one-to-one relationship between calls to 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_co_activate_vc">MiniportCoActivateVc</a> and 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_activate_vc">MiniportCoActivateVc</a> and 
     <i>MiniportCoDeactivateVc</i>. While NDIS may call 
     <i>MiniportCoActivateVc</i> multiple times on a single VC, only one call to 
     <i>MiniportCoDeactivateVc</i> is made to shut down a virtual connection. For example, a VC can be reused
@@ -168,11 +168,11 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_co_activate_vc">MiniportCoActivateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_co_activate_vc">MiniportCoActivateVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcodeactivatevccomplete">NdisMCoDeactivateVcComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcodeactivatevccomplete">NdisMCoDeactivateVcComplete</a>
  
 
  

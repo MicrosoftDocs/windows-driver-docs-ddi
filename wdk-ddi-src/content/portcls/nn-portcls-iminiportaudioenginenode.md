@@ -68,7 +68,7 @@ The <b>IMiniportAudioEngineNode</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getaudioenginedescriptor">GetAudioEngineDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getaudioenginedescriptor">GetAudioEngineDescriptor</a>
 </td>
 <td align="left" width="63%">
 Gets the descriptor for the audio engine node.
@@ -77,7 +77,7 @@ Gets the descriptor for the audio engine node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getbuffersizerange">GetBufferSizeRange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getbuffersizerange">GetBufferSizeRange</a>
 </td>
 <td align="left" width="63%">
 Gets the minimum and maximum buffer size that the hardware audio engine can support.
@@ -86,7 +86,7 @@ Gets the minimum and maximum buffer size that the hardware audio engine can supp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getdeviceattributesteppings">GetDeviceAttributeSteppings</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getdeviceattributesteppings">GetDeviceAttributeSteppings</a>
 </td>
 <td align="left" width="63%">
 Gets the allowed stepping value for the audio device attribute.
@@ -95,7 +95,7 @@ Gets the allowed stepping value for the audio device attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getdevicechannelcount">GetDeviceChannelCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getdevicechannelcount">GetDeviceChannelCount</a>
 </td>
 <td align="left" width="63%">
 Gets a count of the number of channels supported by the audio device.
@@ -104,7 +104,7 @@ Gets a count of the number of channels supported by the audio device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getdevicechannelmute">GetDeviceChannelMute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getdevicechannelmute">GetDeviceChannelMute</a>
 </td>
 <td align="left" width="63%">
 Gets the state of the Mute node for the audio device channel.
@@ -113,7 +113,7 @@ Gets the state of the Mute node for the audio device channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getdevicechannelpeakmeter">GetDeviceChannelPeakMeter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getdevicechannelpeakmeter">GetDeviceChannelPeakMeter</a>
 </td>
 <td align="left" width="63%">
 Gets the PeakMeter value  for the audio device channel.
@@ -122,7 +122,7 @@ Gets the PeakMeter value  for the audio device channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getdevicechannelvolume">GetDeviceChannelVolume</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getdevicechannelvolume">GetDeviceChannelVolume</a>
 </td>
 <td align="left" width="63%">
 Gets the volume level for a given channel of the audio device.
@@ -131,7 +131,7 @@ Gets the volume level for a given channel of the audio device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getdeviceformat">GetDeviceFormat</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getdeviceformat">GetDeviceFormat</a>
 </td>
 <td align="left" width="63%">
 Gets the audio data format for an audio device.
@@ -140,7 +140,7 @@ Gets the audio data format for an audio device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getengineformatsize">GetEngineFormatSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getengineformatsize">GetEngineFormatSize</a>
 </td>
 <td align="left" width="63%">
 Gets the format type and the buffer size for the audio engine's audio data format.
@@ -149,7 +149,7 @@ Gets the format type and the buffer size for the audio engine's audio data forma
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getgfxstate">GetGfxState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getgfxstate">GetGfxState</a>
 </td>
 <td align="left" width="63%">
 Gets the state of the global effects (GFX) node in the audio engine.
@@ -158,7 +158,7 @@ Gets the state of the global effects (GFX) node in the audio engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getmixformat">GetMixFormat</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getmixformat">GetMixFormat</a>
 </td>
 <td align="left" width="63%">
 Gets the audio data format for the audio engine mixer.
@@ -167,7 +167,7 @@ Gets the audio data format for the audio engine mixer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getsupporteddeviceformats">GetSupportedDeviceFormats</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-getsupporteddeviceformats">GetSupportedDeviceFormats</a>
 </td>
 <td align="left" width="63%">
 Gets the supported audio data formats for the audio device.
@@ -176,7 +176,7 @@ Gets the supported audio data formats for the audio device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-setdevicechannelmute">SetDeviceChannelMute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-setdevicechannelmute">SetDeviceChannelMute</a>
 </td>
 <td align="left" width="63%">
 Sets the state of the Mute node for the audio device channel.
@@ -185,7 +185,7 @@ Sets the state of the Mute node for the audio device channel.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-setdevicechannelvolume">SetDeviceChannelVolume</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-setdevicechannelvolume">SetDeviceChannelVolume</a>
 </td>
 <td align="left" width="63%">
 Sets the volume level for a given channel of the audio device.
@@ -194,7 +194,7 @@ Sets the volume level for a given channel of the audio device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-setdeviceformat">SetDeviceFormat</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-setdeviceformat">SetDeviceFormat</a>
 </td>
 <td align="left" width="63%">
 Sets the audio data format for an audio device.
@@ -203,7 +203,7 @@ Sets the audio data format for an audio device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-setgfxstate">SetGfxState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudioenginenode-setgfxstate">SetGfxState</a>
 </td>
 <td align="left" width="63%">
 Sets the state of the global effects (GFX) node in the audio engine.

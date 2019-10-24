@@ -96,7 +96,7 @@ The kernel streaming subsystem uses the KSEVENT_ENTRY structure to describe how 
 
 
 
-Drivers that do not provide an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksremoveevent">AVStrMiniRemoveEvent</a> handler should treat this as an opaque data structure.
+Drivers that do not provide an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksremoveevent">AVStrMiniRemoveEvent</a> handler should treat this as an opaque data structure.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/event-handling-in-avstream">Event Handling in AVStream</a>.
 

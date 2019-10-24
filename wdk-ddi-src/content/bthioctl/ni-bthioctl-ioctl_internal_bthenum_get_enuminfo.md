@@ -74,7 +74,7 @@ None.
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_bth_enumerator_info">BTH_ENUMERATOR_INFO</a> structure that
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_bth_enumerator_info">BTH_ENUMERATOR_INFO</a> structure that
       contains information about the enumeration's type and action, as well as information about the remote
       device.
 
@@ -82,7 +82,7 @@ The
 ### -output-buffer-length
 
 The length of a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_bth_enumerator_info">BTH_ENUMERATOR_INFO</a> structure.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_bth_enumerator_info">BTH_ENUMERATOR_INFO</a> structure.
 
 
 ### -in-out-buffer
@@ -113,7 +113,7 @@ The length of a
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_bth_enumerator_info">BTH_ENUMERATOR_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_bth_enumerator_info">BTH_ENUMERATOR_INFO</a>
  
 
  

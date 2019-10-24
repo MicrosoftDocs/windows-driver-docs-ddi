@@ -71,7 +71,7 @@ req.typenames:
 This function does not return a value.
 
 <h2><a id="ddk_oemsendfontcmd_gg"></a><a id="DDK_OEMSENDFONTCMD_GG"></a></h2>
-This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd">IPrintOemUni::SendFontCmd</a>.
+This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-sendfontcmd">IPrintOemUni::SendFontCmd</a>.
 
 
 

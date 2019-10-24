@@ -68,7 +68,7 @@ Specifies the size, in bytes, of the UFF_FONTDIRECTORY structure.
 
 ### -field wFontID
 
-Specifies the font identifier. This value must match the <b>wDataID</b> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structure that specifies font metrics information within the .uff file.
+Specifies the font identifier. This value must match the <b>wDataID</b> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structure that specifies font metrics information within the .uff file.
 
 
 ### -field sGlyphID
@@ -176,7 +176,7 @@ Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-a
 
 ### -field offFontData
 
-Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structure specifying a font metrics section.
+Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structure specifying a font metrics section.
 
 
 ### -field offGlyphData
@@ -186,14 +186,14 @@ Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-a
 
 ### -field offVarData
 
-Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structure specifying a data section. If the FONT_FL_PERMANENT_SF flag is set in <b>wFlags</b>, <b>offVarData</b> must be zero.
+Specifies the offset, in bytes, from the beginning of the .uff file to a DWORD-aligned <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structure specifying a data section. If the FONT_FL_PERMANENT_SF flag is set in <b>wFlags</b>, <b>offVarData</b> must be zero.
 
 
 ## -remarks
 
 
 
-If <b>sGlyphID</b> is a greater than zero, it must match the <b>wDataID</b> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structure that specifies a glyph set within the .uff file.
+If <b>sGlyphID</b> is a greater than zero, it must match the <b>wDataID</b> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a> structure that specifies a glyph set within the .uff file.
 
 If <b>sGlyphID</b> is less than zero, it must be one of the CC_-prefixed constants defined in prntfont.h, which identify predefined glyph sets.
 
@@ -207,7 +207,7 @@ If <b>sGlyphID</b> is zero, Unidrv uses the glyph set resource identifier contai
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_data_header">DATA_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_data_header">DATA_HEADER</a>
  
 
  

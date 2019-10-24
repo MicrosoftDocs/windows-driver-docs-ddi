@@ -83,7 +83,7 @@ Serializes a submitted <b>IPortableDeviceValues</b> interface to an allocated by
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledeviceclassextension/nf-portabledeviceclassextension-iportabledeviceclassextension-processlibrarymessage">ProcessLibraryMessage</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledeviceclassextension/nf-portabledeviceclassextension-iportabledeviceclassextension-processlibrarymessage">ProcessLibraryMessage</a>
 </td>
 <td align="left" width="63%">
 Deserializes a byte array to an <b>IPortableDeviceValues</b> interface.
@@ -92,7 +92,7 @@ Deserializes a byte array to an <b>IPortableDeviceValues</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledeviceclassextension/nf-portabledeviceclassextension-iportabledeviceclassextension-uninitialize">Uninitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledeviceclassextension/nf-portabledeviceclassextension-iportabledeviceclassextension-uninitialize">Uninitialize</a>
 </td>
 <td align="left" width="63%">
 Calculates the buffer size that is needed to hold the serialized data.

@@ -58,7 +58,7 @@ The HIDP_EXTENDED_ATTRIBUTES structure contains information about the global ite
 
 ### -field NumGlobalUnknowns
 
-Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/ns-hidpi-_hidp_unknown_token">HIDP_UNKNOWN_TOKEN</a> structures in the list specified by <b>Data</b>.
+Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_unknown_token">HIDP_UNKNOWN_TOKEN</a> structures in the list specified by <b>Data</b>.
 
 
 ### -field Reserved
@@ -73,7 +73,7 @@ Reserved for internal system use only.
 
 ### -field Data
 
-Specifies the memory location where <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/nf-hidpi-hidp_getextendedattributes">HidP_GetExtendedAttributes</a> returns a variable length array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/ns-hidpi-_hidp_unknown_token">HIDP_UNKNOWN_TOKEN</a> structures.
+Specifies the memory location where <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getextendedattributes">HidP_GetExtendedAttributes</a> returns a variable length array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_unknown_token">HIDP_UNKNOWN_TOKEN</a> structures.
 
 
 ## -remarks
@@ -90,11 +90,11 @@ The HIDP_EXTENDED_ATTRIBUTES structure is designed to be used with <b>HidP_GetEx
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/ns-hidpi-_hidp_unknown_token">HIDP_UNKNOWN_TOKEN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_unknown_token">HIDP_UNKNOWN_TOKEN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/nf-hidpi-hidp_getextendedattributes">HidP_GetExtendedAttributes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getextendedattributes">HidP_GetExtendedAttributes</a>
  
 
  

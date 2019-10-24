@@ -63,7 +63,7 @@ Total size, in bytes, of the added private DEVMODEW structure members, including
 
 ### -field dwSignature
 
-Unique signature value that the plug-in also returns when its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-getinfo">IPrintOemUI::GetInfo</a> method receives the OEMGI_GETSIGNATURE flag.
+Unique signature value that the plug-in also returns when its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-getinfo">IPrintOemUI::GetInfo</a> method receives the OEMGI_GETSIGNATURE flag.
 
 
 ### -field dwVersion

@@ -86,7 +86,7 @@ If the buffer is only partially filled, then the audio driver needs to notify th
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportstreamaudioenginenode2">IMiniportStreamAudioEngineNode2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportstreamaudioenginenode2">IMiniportStreamAudioEngineNode2</a>
 
 
 

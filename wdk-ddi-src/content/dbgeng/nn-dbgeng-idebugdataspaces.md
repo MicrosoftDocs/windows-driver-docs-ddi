@@ -67,7 +67,7 @@ The <b>IDebugDataSpaces</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-checklowmemory">CheckLowMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-checklowmemory">CheckLowMemory</a>
 </td>
 <td align="left" width="63%">
 Checks for memory corruption in the low 4 GB of memory.
@@ -76,7 +76,7 @@ Checks for memory corruption in the low 4 GB of memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readbusdata">ReadBusData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readbusdata">ReadBusData</a>
 </td>
 <td align="left" width="63%">
 Reads data from a system bus.
@@ -85,7 +85,7 @@ Reads data from a system bus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readcontrol">ReadControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readcontrol">ReadControl</a>
 </td>
 <td align="left" width="63%">
 Reads implementation-specific system data.
@@ -94,7 +94,7 @@ Reads implementation-specific system data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readdebuggerdata">ReadDebuggerData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readdebuggerdata">ReadDebuggerData</a>
 </td>
 <td align="left" width="63%">
 Returns information about the target that the debugger engine has queried or determined during the current session.
@@ -103,7 +103,7 @@ Returns information about the target that the debugger engine has queried or det
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readio">ReadIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readio">ReadIo</a>
 </td>
 <td align="left" width="63%">
 Reads from the system and bus I/O memory.
@@ -112,7 +112,7 @@ Reads from the system and bus I/O memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readmsr">ReadMsr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readmsr">ReadMsr</a>
 </td>
 <td align="left" width="63%">
 Reads a specified Model-Specific Register (MSR).
@@ -121,7 +121,7 @@ Reads a specified Model-Specific Register (MSR).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readphysical">ReadPhysical</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readphysical">ReadPhysical</a>
 </td>
 <td align="left" width="63%">
 Reads the target's memory from the specified physical address.
@@ -130,7 +130,7 @@ Reads the target's memory from the specified physical address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readpointersvirtual">ReadPointersVirtual</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readpointersvirtual">ReadPointersVirtual</a>
 </td>
 <td align="left" width="63%">
  Reads pointers from the target's virtual address space.
@@ -140,7 +140,7 @@ Reads the target's memory from the specified physical address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readprocessorsystemdata">ReadProcessorSystemData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readprocessorsystemdata">ReadProcessorSystemData</a>
 </td>
 <td align="left" width="63%">
 Returns data about the specified processor.
@@ -149,7 +149,7 @@ Returns data about the specified processor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readvirtual">ReadVirtual</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readvirtual">ReadVirtual</a>
 </td>
 <td align="left" width="63%">
 Reads memory from the target's virtual address space.
@@ -158,7 +158,7 @@ Reads memory from the target's virtual address space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readvirtualuncached">ReadVirtualUncached</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readvirtualuncached">ReadVirtualUncached</a>
 </td>
 <td align="left" width="63%">
 Reads memory from the target's virtual address space.
@@ -167,7 +167,7 @@ Reads memory from the target's virtual address space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-searchvirtual">SearchVirtual</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-searchvirtual">SearchVirtual</a>
 </td>
 <td align="left" width="63%">
 Searches the target's virtual memory for a specified pattern of bytes.
@@ -176,7 +176,7 @@ Searches the target's virtual memory for a specified pattern of bytes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-writebusdata">WriteBusData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-writebusdata">WriteBusData</a>
 </td>
 <td align="left" width="63%">
 Writes data to a system bus.
@@ -185,7 +185,7 @@ Writes data to a system bus.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-writecontrol">WriteControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-writecontrol">WriteControl</a>
 </td>
 <td align="left" width="63%">
 Writes implementation-specific system data.
@@ -194,7 +194,7 @@ Writes implementation-specific system data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-writeio">WriteIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-writeio">WriteIo</a>
 </td>
 <td align="left" width="63%">
 Writes to the system and bus I/O memory.
@@ -203,7 +203,7 @@ Writes to the system and bus I/O memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-writemsr">WriteMsr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-writemsr">WriteMsr</a>
 </td>
 <td align="left" width="63%">
 Writes a value to the specified Model-Specific Register (MSR).
@@ -212,7 +212,7 @@ Writes a value to the specified Model-Specific Register (MSR).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-writephysical">WritePhysical</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-writephysical">WritePhysical</a>
 </td>
 <td align="left" width="63%">
 Writes data to the specified physical address in the target's memory.
@@ -221,7 +221,7 @@ Writes data to the specified physical address in the target's memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-writepointersvirtual">WritePointersVirtual</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-writepointersvirtual">WritePointersVirtual</a>
 </td>
 <td align="left" width="63%">
 Writes pointers to the target's virtual address space.
@@ -230,7 +230,7 @@ Writes pointers to the target's virtual address space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-writevirtual">WriteVirtual</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-writevirtual">WriteVirtual</a>
 </td>
 <td align="left" width="63%">
 Writes data to the target's virtual address space.
@@ -239,7 +239,7 @@ Writes data to the target's virtual address space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-writevirtualuncached">WriteVirtualUncached</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-writevirtualuncached">WriteVirtualUncached</a>
 </td>
 <td align="left" width="63%">
 Writes data to the target's virtual address space.
@@ -254,15 +254,15 @@ Writes data to the target's virtual address space.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugdataspaces2">IDebugDataSpaces2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces2">IDebugDataSpaces2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugdataspaces3">IDebugDataSpaces3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces3">IDebugDataSpaces3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
  
 
  

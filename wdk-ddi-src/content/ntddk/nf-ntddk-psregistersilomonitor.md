@@ -51,7 +51,7 @@ req.typenames:
 This routine registers a server silo monitor that can receive notifications about server silo events.
 
 
-<div class="alert"><b>Note</b>  To start receiving notifications, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psstartsilomonitor">PsStartSiloMonitor</a> routine.</div>
+<div class="alert"><b>Note</b>  To start receiving notifications, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psstartsilomonitor">PsStartSiloMonitor</a> routine.</div>
 <div> </div>
 
 
@@ -63,7 +63,7 @@ This routine registers a server silo monitor that can receive notifications abou
 
 ### -param Registration [in]
 
-Specifies the server silo monitor to be registered, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_silo_monitor_registration">SILO_MONITOR_REGISTRATION</a>. 
+Specifies the server silo monitor to be registered, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_silo_monitor_registration">SILO_MONITOR_REGISTRATION</a>. 
 
 
 ### -param ReturnedMonitor [out]

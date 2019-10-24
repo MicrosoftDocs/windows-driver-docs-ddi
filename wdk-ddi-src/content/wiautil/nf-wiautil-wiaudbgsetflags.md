@@ -70,4 +70,4 @@ The **wiauDbgSetFlags** function sets debugging flags.
 
 ## -see-also
 
-[wiauDbgFlags](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgflags)
+[wiauDbgFlags](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgflags)

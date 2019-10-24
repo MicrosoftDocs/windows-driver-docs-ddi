@@ -58,19 +58,19 @@ The <b><i>DriverEntry</i></b> miniport driver routine is called when the minipor
 
 ### -param DriverObject [in]
 
-A pointer to an opaque structure to be used as the first parameter when this routine calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a> routine.
+A pointer to an opaque structure to be used as the first parameter when this routine calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a> routine.
 
 
 ### -param RegistryPath [in]
 
-A pointer to an opaque structure to be used as the second parameter when this routine calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a> routine.
+A pointer to an opaque structure to be used as the second parameter when this routine calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a> routine.
 
 
 ## -returns
 
 
 
-The return values for this routine are recommended to mirror the return values of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a>.
+The return values for this routine are recommended to mirror the return values of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a>.
 
 
 
@@ -79,7 +79,7 @@ The return values for this routine are recommended to mirror the return values o
 
 
 
-<b>DriverEntry</b> is the first function that is called in an ATA miniport driver. The ATA miniport driver must allocate an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_controller_interface">IDE_CONTROLLER_INTERFACE</a> structure, initialize it, and send it to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a>. The ATA miniport driver indicates its support for the channel interface by setting the ChannelExtensionSize and the <b><i>AtaChannelInitRoutine</i></b> entry point in the <b>IDE_CONTROLLER_INTERFACE</b> structure. This causes the ATA port driver to call the function that is specified in the <b><i>AtaChannelInitRoutine</i></b> field that has a ChannelExtension of size ChannelExtensionSize. The function is called one time for every NumberOfChannels specified in the ControllerConfiguration structure that are returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_adapter_control">AtaAdapterControl</a> when <b>AtaAdapterControl</b> handles an IdeStart action.
+<b>DriverEntry</b> is the first function that is called in an ATA miniport driver. The ATA miniport driver must allocate an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_controller_interface">IDE_CONTROLLER_INTERFACE</a> structure, initialize it, and send it to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a>. The ATA miniport driver indicates its support for the channel interface by setting the ChannelExtensionSize and the <b><i>AtaChannelInitRoutine</i></b> entry point in the <b>IDE_CONTROLLER_INTERFACE</b> structure. This causes the ATA port driver to call the function that is specified in the <b><i>AtaChannelInitRoutine</i></b> field that has a ChannelExtension of size ChannelExtensionSize. The function is called one time for every NumberOfChannels specified in the ControllerConfiguration structure that are returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_adapter_control">AtaAdapterControl</a> when <b>AtaAdapterControl</b> handles an IdeStart action.
 
 
 
@@ -89,11 +89,11 @@ The return values for this routine are recommended to mirror the return values o
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_adapter_control">AtaAdapterControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_adapter_control">AtaAdapterControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a>
  
 
  

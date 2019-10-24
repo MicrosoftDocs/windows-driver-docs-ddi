@@ -102,7 +102,7 @@ For a code example that uses the <b>WdfPreDeviceRemove</b> function, see the ins
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinstaller/nf-wdfinstaller-wdfpostdeviceremove">WdfPostDeviceRemove</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinstaller/nf-wdfinstaller-wdfpostdeviceremove">WdfPostDeviceRemove</a>
  
 
  

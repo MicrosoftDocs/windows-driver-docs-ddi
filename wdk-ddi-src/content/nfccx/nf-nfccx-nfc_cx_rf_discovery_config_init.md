@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The NFC_CX_RF_DISCOVERY_CONFIG_INIT function initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/ns-nfccx-_nfc_cx_rf_discovery_config">NFC_CX_RF_DISCOVERY_CONFIG</a> structure.
+The NFC_CX_RF_DISCOVERY_CONFIG_INIT function initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ns-nfccx-_nfc_cx_rf_discovery_config">NFC_CX_RF_DISCOVERY_CONFIG</a> structure.
 
 
 ## -parameters

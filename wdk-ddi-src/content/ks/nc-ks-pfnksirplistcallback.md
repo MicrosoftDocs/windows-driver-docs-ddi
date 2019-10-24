@@ -63,7 +63,7 @@ Pointer to the IRP to possibly move to the destination list from the source list
 
 ### -param Context [in]
 
-Passed from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksmoveirpsoncancelablequeue">KsMoveIrpsOnCancelableQueue</a>.
+Passed from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmoveirpsoncancelablequeue">KsMoveIrpsOnCancelableQueue</a>.
 
 
 ## -returns
@@ -91,7 +91,7 @@ Returns STATUS_SUCCESS to indicate the passed in IRP should be moved from the so
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksmoveirpsoncancelablequeue">KsMoveIrpsOnCancelableQueue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmoveirpsoncancelablequeue">KsMoveIrpsOnCancelableQueue</a>
  
 
  

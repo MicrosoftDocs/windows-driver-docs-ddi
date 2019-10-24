@@ -117,7 +117,7 @@ if( !NT_SUCCESS(Status) ) {
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfverifier/nf-wdfverifier-wdfverifierkebugcheck">WdfVerifierKeBugCheck</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfverifier/nf-wdfverifier-wdfverifierkebugcheck">WdfVerifierKeBugCheck</a>
  
 
  

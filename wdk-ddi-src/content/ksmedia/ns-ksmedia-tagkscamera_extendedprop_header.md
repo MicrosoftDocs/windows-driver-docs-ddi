@@ -121,7 +121,7 @@ Applies only to asynchronous controls. This flag marks the control operation as 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagkscamera_extendedprop_value">KSCAMERA_EXTENDEDPROP_VALUE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_extendedprop_value">KSCAMERA_EXTENDEDPROP_VALUE</a>
  
 
  

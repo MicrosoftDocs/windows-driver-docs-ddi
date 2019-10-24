@@ -58,12 +58,12 @@ The <i>StartIo</i> routine starts the I/O operation described by an IRP.
 
 ### -param *DeviceObject [in, out]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
 
 ### -param *Irp [in, out]
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> structure that describes the requested I/O operation.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that describes the requested I/O operation.
 
 
 ## -returns
@@ -83,7 +83,7 @@ A driver's <i>StartIo</i> routine executes in an arbitrary thread context at IRQ
 
 The <i>StartIo</i> routine is optional. A driver's <i>StartIo</i> routine, if supplied, should be named <i>Xxx</i><b>StartIo</b>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>StartIo</i> routine's address in <b>DriverObject->DriverStartIo</b>. (If no routine is supplied, this pointer must be <b>NULL</b>.)
 
-A driver can use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iosetstartioattributes">IoSetStartIoAttributes</a> to set attributes on when its <i>StartIo</i> routine is called.
+A driver can use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iosetstartioattributes">IoSetStartIoAttributes</a> to set attributes on when its <i>StartIo</i> routine is called.
 
 For detailed information about implementing a driver's <i>StartIo</i> routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-startio-routine">Writing a StartIo Routine</a>.
 

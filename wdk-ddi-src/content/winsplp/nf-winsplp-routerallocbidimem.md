@@ -74,7 +74,7 @@ Specifies the size, in bytes, of the block of memory to be allocated.
 
 
 
-When the memory allocated by this function is no longer needed, it can be returned by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-routerfreebidimem">RouterFreeBidiMem</a>.
+When the memory allocated by this function is no longer needed, it can be returned by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidimem">RouterFreeBidiMem</a>.
 
 
 
@@ -84,7 +84,7 @@ When the memory allocated by this function is no longer needed, it can be return
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-routerfreebidimem">RouterFreeBidiMem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidimem">RouterFreeBidiMem</a>
 
 
 

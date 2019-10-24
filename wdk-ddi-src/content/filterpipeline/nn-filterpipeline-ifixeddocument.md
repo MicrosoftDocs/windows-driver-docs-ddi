@@ -68,7 +68,7 @@ The <b>IFixedDocument</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ifixeddocument-getprintticket">IFixedDocument::GetPrintTicket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ifixeddocument-getprintticket">IFixedDocument::GetPrintTicket</a>
 </td>
 <td align="left" width="63%">
 The <b>GetPrintTicket</b> method gets the print ticket object for the fixed document.
@@ -77,7 +77,7 @@ The <b>GetPrintTicket</b> method gets the print ticket object for the fixed docu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ifixeddocument-geturi">IFixedDocument::GetUri</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ifixeddocument-geturi">IFixedDocument::GetUri</a>
 </td>
 <td align="left" width="63%">
 The <b>GetUri</b> method gets the URI of the fixed document.
@@ -86,7 +86,7 @@ The <b>GetUri</b> method gets the URI of the fixed document.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ifixeddocument-setprintticket">IFixedDocument::SetPrintTicket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ifixeddocument-setprintticket">IFixedDocument::SetPrintTicket</a>
 </td>
 <td align="left" width="63%">
 The <b>SetPrintTicket</b> method inserts a print ticket into the fixed document.

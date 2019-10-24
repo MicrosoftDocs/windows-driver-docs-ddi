@@ -58,7 +58,7 @@ The <b>wiauRegGetDword</b> function gets a <b>DWORD</b> value from the <b>Device
 
 ### -param hkKey [in]
 
-Specifies the registry key handle. This parameter should be set to the value pointed to by the <i>phkeyDeviceData </i>parameter when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiauregopendataw">wiauRegOpenData</a> returns.
+Specifies the registry key handle. This parameter should be set to the value pointed to by the <i>phkeyDeviceData </i>parameter when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw">wiauRegOpenData</a> returns.
 
 
 ### -param pszValueName
@@ -90,11 +90,11 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaureggetstrw">wiauRegGetStr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaureggetstrw">wiauRegGetStr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiauregopendataw">wiauRegOpenData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiauregopendataw">wiauRegOpenData</a>
  
 
  

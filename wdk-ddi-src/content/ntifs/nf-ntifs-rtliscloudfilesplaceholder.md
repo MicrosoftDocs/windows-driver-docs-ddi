@@ -82,7 +82,7 @@ This function returns <b>TRUE</b> if the file or directory is a CloudFiles parti
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlispartialplaceholder">RtlIsPartialPlaceholder</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlispartialplaceholder">RtlIsPartialPlaceholder</a>
  
 
  

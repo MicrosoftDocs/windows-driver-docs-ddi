@@ -121,7 +121,7 @@ When <b>RxCeBuildVC</b> is successful, the data members in the RXCE_VC structure
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxce/nf-rxce-rxceteardownvc">RxCeTearDownVC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxceteardownvc">RxCeTearDownVC</a>
  
 
  

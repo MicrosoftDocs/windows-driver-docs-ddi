@@ -49,7 +49,7 @@ req.typenames:
 
 
 
-The <b>IOCTL_USB_GET_HUB_CAPABILITIES</b> I/O control request retrieves the capabilities of a USB hub. <b>Note</b>  This request is replaced by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_usb_get_hub_capabilities_ex">IOCTL_USB_GET_HUB_CAPABILITIES_EX</a> in Windows Vista.
+The <b>IOCTL_USB_GET_HUB_CAPABILITIES</b> I/O control request retrieves the capabilities of a USB hub. <b>Note</b>  This request is replaced by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_hub_capabilities_ex">IOCTL_USB_GET_HUB_CAPABILITIES_EX</a> in Windows Vista.
 
 
 
@@ -75,7 +75,7 @@ None.
 
 ### -output-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_hub_capabilities">USB_HUB_CAPABILITIES</a> structure that describes the hub capabilities. 
+The <b>AssociatedIrp.SystemBuffer</b> member points to a user-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_capabilities">USB_HUB_CAPABILITIES</a> structure that describes the hub capabilities. 
 
 
 ### -output-buffer-length
@@ -111,11 +111,11 @@ The USB stack sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS if the request 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_usb_get_hub_capabilities_ex">IOCTL_USB_GET_HUB_CAPABILITIES_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_hub_capabilities_ex">IOCTL_USB_GET_HUB_CAPABILITIES_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_hub_capabilities">USB_HUB_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_hub_capabilities">USB_HUB_CAPABILITIES</a>
  
 
  

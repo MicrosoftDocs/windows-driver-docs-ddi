@@ -48,7 +48,7 @@ req.typenames: PRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, *LPPRINTPROCESS
 ## -description
 
 
-The PRINTPROCESSOROPENDATA structure is used as an input parameter to a print processor's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a> function.
+The PRINTPROCESSOROPENDATA structure is used as an input parameter to a print processor's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a> function.
 
 
 ## -struct-fields
@@ -100,7 +100,7 @@ Spooler-supplied pointer to a string representing the name of the printer to be 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>
  
 
  

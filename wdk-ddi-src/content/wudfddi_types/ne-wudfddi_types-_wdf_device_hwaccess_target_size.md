@@ -82,7 +82,7 @@ The <b>WDF_DEVICE_HWACCESS_TARGET_SIZE</b> enumeration is used internally by the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/">UMDF Structures and Enumeration Types</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/">UMDF Structures and Enumeration Types</a>
  
 
  

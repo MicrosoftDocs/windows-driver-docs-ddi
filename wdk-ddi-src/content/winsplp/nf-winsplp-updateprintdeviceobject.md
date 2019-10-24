@@ -65,7 +65,7 @@ The HANDLE to an open printer. This should be a handle that was returned by the 
 
 ### -param hDeviceObject [in]
 
-The HANDLE to the device object to be updated. This should be a device object that was created with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>.
+The HANDLE to the device object to be updated. This should be a device object that was created with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>.
 
 
 ## -returns
@@ -93,7 +93,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/printdocs/printer-info-2
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addprintdeviceobject">AddPrintDeviceObject</a>
 
 
 

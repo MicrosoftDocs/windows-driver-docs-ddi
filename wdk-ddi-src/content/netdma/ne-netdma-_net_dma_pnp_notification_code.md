@@ -103,7 +103,7 @@ The total number of supported NetDMA PnP events.
 
 
 The NET_DMA_PNP_NOTIFICATION_CODE enumeration is used in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_pnp_notification">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_pnp_notification">
     NET_DMA_PNP_NOTIFICATION</a> structure.
 
 
@@ -114,7 +114,7 @@ The NET_DMA_PNP_NOTIFICATION_CODE enumeration is used in the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_pnp_notification">NET_DMA_PNP_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_pnp_notification">NET_DMA_PNP_NOTIFICATION</a>
  
 
  

@@ -66,7 +66,7 @@ A handle to the printer object of interest. Use the <a href="https://docs.micros
 
 ### -param JobId [in]
 
-Identifier that specifies the print job. You obtain a print job identifier by calling the <a href="https://docs.microsoft.com/windows/desktop/printdocs/addjob">AddJob</a> function or the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nf-printoem-oemstartdoc">StartDoc</a> function. 
+Identifier that specifies the print job. You obtain a print job identifier by calling the <a href="https://docs.microsoft.com/windows/desktop/printdocs/addjob">AddJob</a> function or the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nf-printoem-oemstartdoc">StartDoc</a> function. 
 
 
 

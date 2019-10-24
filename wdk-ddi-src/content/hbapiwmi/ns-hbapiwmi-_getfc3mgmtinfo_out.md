@@ -63,7 +63,7 @@ Contains a value associated with the WMI class qualifier <a href="https://docs.m
 
 ### -field MgmtInfo
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafc3mgmtinfo">HBAFC3MgmtInfo</a> that reports FC3 management information. 
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafc3mgmtinfo">HBAFC3MgmtInfo</a> that reports FC3 management information. 
 
 
 ## -remarks
@@ -86,7 +86,7 @@ The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure i
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafc3mgmtinfo">HBAFC3MgmtInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafc3mgmtinfo">HBAFC3MgmtInfo</a>
 
 
 

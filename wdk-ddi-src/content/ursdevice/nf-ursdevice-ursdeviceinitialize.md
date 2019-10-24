@@ -59,12 +59,12 @@ Initializes a framework device object to support operations related to  a USB du
 
 ### -param Device [in]
 
-A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
+A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
 
 ### -param Config [in]
 
- A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a> structure that the client driver initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ursdevice/nf-ursdevice-urs_config_init">URS_CONFIG_INIT</a>.
+ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a> structure that the client driver initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-urs_config_init">URS_CONFIG_INIT</a>.
 
 
 ## -returns
@@ -80,11 +80,11 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 
 
-The client driver for the USB dual-role controller must call this method after the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call. 
+The client driver for the USB dual-role controller must call this method after the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call. 
 
-The client driver calls this method in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> implementation.
+The client driver calls this method in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> implementation.
 
-During this call, the client driver-supplied event callback implementations are also registered by setting appropriate members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a>. 
+During this call, the client driver-supplied event callback implementations are also registered by setting appropriate members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a>. 
 
 The method creates resource lists for host and function roles and the queues required to handle IOCTL requests that are sent to the controller. With each role switch operation, the current role's child device stack  is torn down and the device stack for the new role is loaded. The  <b>UrsDeviceInitialize</b> method retrieves identifying information that is used to build those device stacks. The method also retrieves information about the device from the underlying bus, such as ACPI.
 
@@ -153,11 +153,11 @@ EvtDriverDeviceAdd (
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/ns-ursdevice-_urs_config">URS_CONFIG</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ursdevice/nf-ursdevice-urs_config_init">URS_CONFIG_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-urs_config_init">URS_CONFIG_INIT</a>
  
 
  

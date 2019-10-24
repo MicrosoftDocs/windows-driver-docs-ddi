@@ -107,7 +107,7 @@ Integrating key. This member is valid only in case of success. This member repre
 
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a> structure uses this structure.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a> structure uses this structure.
 
 
 
@@ -117,7 +117,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwa
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a>
  
 
  

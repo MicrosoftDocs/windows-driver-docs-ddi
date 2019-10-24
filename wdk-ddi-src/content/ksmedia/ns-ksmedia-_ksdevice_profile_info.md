@@ -66,7 +66,7 @@ This must be set to sizeof(KSDEVICE_PROFILE_INFO) structure.
 
 ### -field Camera.Info
 
-Structure of [KSCAMERA_PROFILE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_kscamera_profile_info) defining the profile information of a camera.
+Structure of [KSCAMERA_PROFILE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_kscamera_profile_info) defining the profile information of a camera.
 
 ### -field Camera.Reserved
 
@@ -74,7 +74,7 @@ Unused.  Must be set to 0.
 
 ### -field Camera.ConcurrencyCount
 
-Number of [KSCAMERA_PROFILE_CONCURRENCYINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_kscamera_profile_concurrencyinfo) structures in the **Concurrency** array.
+Number of [KSCAMERA_PROFILE_CONCURRENCYINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_kscamera_profile_concurrencyinfo) structures in the **Concurrency** array.
 
 For Windows 10 this must be less than or equal 1.
 

@@ -78,4 +78,4 @@ For more information about the opcodes used in the **OpCode** member, see [ISO 1
 
 ## -see-also
 
-[PTP_VENDOR_DATA_IN](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ptpusd/ns-ptpusd-_ptp_vendor_data_in)
+[PTP_VENDOR_DATA_IN](https://docs.microsoft.com/windows-hardware/drivers/ddi/ptpusd/ns-ptpusd-_ptp_vendor_data_in)

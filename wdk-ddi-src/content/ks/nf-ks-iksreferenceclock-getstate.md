@@ -58,7 +58,7 @@ The <b>IKsReferenceClock::GetState</b> method queries the associated reference c
 
 ### -param State [out]
 
-Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksstate">KSSTATE</a> structure that indicates the streaming state of the underlying clock.
+Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> structure that indicates the streaming state of the underlying clock.
 
 
 ## -returns
@@ -86,11 +86,11 @@ AVStream uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/s
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksstate">KSSTATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
  
 
  

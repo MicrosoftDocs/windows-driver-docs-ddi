@@ -58,7 +58,7 @@ None.
 
 ### -output-buffer
 
-A buffer containing a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_device_descriptor">SIDEBANDAUDIO_DEVICE_DESCRIPTOR</a> structure.
+A buffer containing a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_device_descriptor">SIDEBANDAUDIO_DEVICE_DESCRIPTOR</a> structure.
 
 ### -output-buffer-length 
 
@@ -78,7 +78,7 @@ The audio driver sends this request to obtain information about an enabled Audio
 
 The audio driver sends this request once with an output buffer size of zero (0) in order to determine the required output buffer size. In this case, the request will complete with Status STATUS_BUFFER_TOO_SMALL and set the <i>Information</i> member to the required buffer size. The audio driver then allocates the necessary storage space and sends the request again. Typically an audio driver will store a pointer to this storage location in its device context for reference during later activity.
 
-The audio driver can then iteratively determine each endpoints capability with the IOCTL <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_endpoint_descriptor">IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR</a>.
+The audio driver can then iteratively determine each endpoints capability with the IOCTL <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_endpoint_descriptor">IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR</a>.
 
 
 ## -see-also

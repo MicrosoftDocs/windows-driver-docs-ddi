@@ -58,7 +58,7 @@ This structure contains a provider's driver routines for receive or transmit que
 
 ### -field Header
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_QUEUE_DISPATCH</b> structure. Set the members of this structure as follows:
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_QUEUE_DISPATCH</b> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
@@ -73,17 +73,17 @@ This member is reserved and must be set to 0.
 
 ### -field PDPostAndDrainBufferList
 
-A pointer to the provider's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_post_and_drain_buffer_list">PDPostAndDrainBufferList</a> routine.
+A pointer to the provider's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_post_and_drain_buffer_list">PDPostAndDrainBufferList</a> routine.
 
 
 ### -field PDQueryQueueDepth
 
-A pointer to the provider's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_query_queue_depth">PDQueryQueueDepth</a> routine.
+A pointer to the provider's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_query_queue_depth">PDQueryQueueDepth</a> routine.
 
 
 ### -field PDFlushQueue
 
-A pointer to the provider's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_flush_queue">PDFlushQueue</a> routine.
+A pointer to the provider's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_flush_queue">PDFlushQueue</a> routine.
 
 
 ### -field PDPostAndDrainBufferListEx

@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeRestoreFloatingPointState</b> routine restores the nonvolatile floating-point context saved by the preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesavefloatingpointstate">KeSaveFloatingPointState</a>. 
+The <b>KeRestoreFloatingPointState</b> routine restores the nonvolatile floating-point context saved by the preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesavefloatingpointstate">KeSaveFloatingPointState</a>. 
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>KeRestoreFloatingPointState</b> routine restores the nonvolatile floating
 
 ### -param FloatSave [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KFLOATING_SAVE</a> structure that was passed in the preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesavefloatingpointstate">KeSaveFloatingPointState</a>.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KFLOATING_SAVE</a> structure that was passed in the preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesavefloatingpointstate">KeSaveFloatingPointState</a>.
 
 
 ## -returns
@@ -110,7 +110,7 @@ The <b>KeRestoreFloatingPointState</b> call that restores a saved state must be 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesavefloatingpointstate">KeSaveFloatingPointState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesavefloatingpointstate">KeSaveFloatingPointState</a>
  
 
  

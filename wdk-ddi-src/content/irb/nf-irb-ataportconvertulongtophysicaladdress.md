@@ -78,7 +78,7 @@ Specifies a value of type ULONG.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportconvertphysicaladdresstoulong">AtaPortConvertPhysicalAddressToUlong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportconvertphysicaladdresstoulong">AtaPortConvertPhysicalAddressToUlong</a>
  
 
  

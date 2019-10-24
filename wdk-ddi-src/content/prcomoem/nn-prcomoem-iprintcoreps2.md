@@ -68,7 +68,7 @@ The <b>IPrintCorePS2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfn_drvwritespoolbuf">DrvWriteSpoolBuf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvwritespoolbuf">DrvWriteSpoolBuf</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCorePS2::DrvWriteSpoolBuf</code> method is provided by the Pscript5 driver so that a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/rendering-plug-ins">rendering plug-in</a> can send printer data to the spooler.
@@ -77,7 +77,7 @@ The <code>IPrintCorePS2::DrvWriteSpoolBuf</code> method is provided by the Pscri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreps2-enumfeatures">EnumFeatures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreps2-enumfeatures">EnumFeatures</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCorePS2::EnumFeatures</code> method enumerates a printer's available features.
@@ -86,7 +86,7 @@ The <code>IPrintCorePS2::EnumFeatures</code> method enumerates a printer's avail
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreps2-enumoptions">EnumOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreps2-enumoptions">EnumOptions</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCorePS2::EnumOptions</code> method enumerates the available options of a specific feature.
@@ -95,7 +95,7 @@ The <code>IPrintCorePS2::EnumOptions</code> method enumerates the available opti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreps2-getfeatureattribute">GetFeatureAttribute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreps2-getfeatureattribute">GetFeatureAttribute</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCorePS2::GetFeatureAttribute</code> method retrieves the feature attribute list or the value of a specific feature attribute.
@@ -104,7 +104,7 @@ The <code>IPrintCorePS2::GetFeatureAttribute</code> method retrieves the feature
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreps2-getglobalattribute">GetGlobalAttribute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreps2-getglobalattribute">GetGlobalAttribute</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCorePS2::GetGlobalAttribute</code> method retrieves the global attribute list or the value of a specific global attribute.
@@ -113,7 +113,7 @@ The <code>IPrintCorePS2::GetGlobalAttribute</code> method retrieves the global a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreps2-getoptionattribute">GetOptionAttribute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreps2-getoptionattribute">GetOptionAttribute</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCorePS2::GetOptionAttribute</code> method retrieves the option attribute list or the value of a specific option attribute.
@@ -122,7 +122,7 @@ The <code>IPrintCorePS2::GetOptionAttribute</code> method retrieves the option a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemacapabilities-getoptions">GetOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemacapabilities-getoptions">GetOptions</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCorePS2::GetOptions</code> method retrieves the driver's current feature settings in the format of a list of feature/option keyword pairs.

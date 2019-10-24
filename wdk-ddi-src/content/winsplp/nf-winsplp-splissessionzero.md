@@ -89,7 +89,7 @@ On success, the <code>SplIsSessionZero</code> function returns ERROR_SUCCESS; ot
 
 
 
-A driver that displays custom user interface elements can use the <code>SplIsSessionZero</code> function to determine whether the current job was issued in session 0. Such a driver can use this information to enable it to present user interface elements in the user's session, rather than in session zero. A related function, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-splpromptuiinuserssession">SplPromptUIInUsersSession</a>, displays a standard Windows message box in the user's session. 
+A driver that displays custom user interface elements can use the <code>SplIsSessionZero</code> function to determine whether the current job was issued in session 0. Such a driver can use this information to enable it to present user interface elements in the user's session, rather than in session zero. A related function, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-splpromptuiinuserssession">SplPromptUIInUsersSession</a>, displays a standard Windows message box in the user's session. 
 
 If you plan to use this function in a driver intended to run under Windows 2000, you must load spoolss.dll by a call to the <b>LoadLibrary</b> function, and then find the address of this function within that DLL by a call to the <b>GetProcAddress</b> function. (<b>LoadLibrary</b> and <b>GetProcAddress</b> are described in the Microsoft Windows SDK documentation.) If the call to <b>GetProcAddress</b> fails, you must use an alternative mechanism to display user interface elements.
 
@@ -101,7 +101,7 @@ If you plan to use this function in a driver intended to run under Windows 2000,
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-splpromptuiinuserssession">SplPromptUIInUsersSession</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-splpromptuiinuserssession">SplPromptUIInUsersSession</a>
  
 
  

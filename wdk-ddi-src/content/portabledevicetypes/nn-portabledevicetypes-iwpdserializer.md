@@ -50,7 +50,7 @@ ms.custom: RS5
 
 
 
-Used by the device driver to serialize <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interfaces to and from the raw data buffers used to communicate with the application.
+Used by the device driver to serialize <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interfaces to and from the raw data buffers used to communicate with the application.
 
 Applications do not need to use this interface, because the data is serialized and deserialized automatically when calling the <b>IPortableDevice::SendCommand</b> method. (See the Windows Portable Devices (WPD) Software Development Kit (SDK) for a description of this method.)
 
@@ -76,7 +76,7 @@ The <b>IWpdSerializer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-getbufferfromiportabledevicevalues">GetBufferFromIPortableDeviceValues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-getbufferfromiportabledevicevalues">GetBufferFromIPortableDeviceValues</a>
 </td>
 <td align="left" width="63%">
 Serializes a submitted <b>IPortableDeviceValues</b> interface to an allocated byte array. The byte array returned is allocated for the caller and should be freed by the caller using CoTaskMemFree.
@@ -85,7 +85,7 @@ Serializes a submitted <b>IPortableDeviceValues</b> interface to an allocated by
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-getiportabledevicevaluesfrombuffer">GetIPortableDeviceValuesFromBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-getiportabledevicevaluesfrombuffer">GetIPortableDeviceValuesFromBuffer</a>
 </td>
 <td align="left" width="63%">
 Deserializes a byte array to an <b>IPortableDeviceValues</b> interface.
@@ -94,7 +94,7 @@ Deserializes a byte array to an <b>IPortableDeviceValues</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-getserializedsize">GetSerializedSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-getserializedsize">GetSerializedSize</a>
 </td>
 <td align="left" width="63%">
 Calculates the buffer size that is needed to hold the serialized data.
@@ -103,7 +103,7 @@ Calculates the buffer size that is needed to hold the serialized data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-writeiportabledevicevaluestobuffer">WriteIPortableDeviceValuesToBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-writeiportabledevicevaluestobuffer">WriteIPortableDeviceValuesToBuffer</a>
 </td>
 <td align="left" width="63%">
 Serializes an <b>IPortableDeviceValues</b> interface to a caller-allocated byte array.

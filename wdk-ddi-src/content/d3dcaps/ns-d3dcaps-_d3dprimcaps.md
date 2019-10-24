@@ -200,7 +200,7 @@ Specifies miscellaneous texture-mapping capabilities. This member can be one or 
 | D3DPTEXTURECAPS_PERSPECTIVE | Perspective correction is supported. See D3DRENDERSTATE_TEXTUREPERSPECTIVE in the DirectX SDK documentation. | 
 | D3DPTEXTURECAPS_POW2 | Under typical conditions, the device requires that textures have widths and heights specified as powers of 2. This requirement does not apply to either cube textures or volume textures. If this flag is set, the D3DPTEXTURECAPS_NONPOW2CONDITIONAL flag might also be set. | 
 | D3DPTEXTURECAPS_PROJECTED | The device can divide transformed texture coordinates by the COUNTth texture coordinate. In other words, the device can do D3DTTFF_PROJECTED. See D3DTEXTURETRANSFORMFLAGS in the DirectX SDK documentation. | 
-| D3DPTEXTURECAPS_NONPOW2CONDITIONAL | Conditionally supports the use of two-dimensional (2D) textures (that is, not volume or cube textures) with dimensions that are not powers of 2. A device that exposes this capability can use such a texture if all of the following requirements are met.<ul><li>The texture addressing mode for the texture stage is set to D3DTADDRESS_CLAMP.</li><li>Texture wrapping for the texture stage is disabled (D3DRS_WRAPn set to 0).</li><li>Mipmapping is not in use (use magnification filter only).</li><li>Texture was not stored in DXT1-5 (compressed texture formats).</li></ul>A driver for a device that exposes this capability cannot perform dependent texture reads using such a texture. That is, such a texture cannot be addressed or sampled using texture coordinates that are computed with [shader code](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index) . In other words, such a texture cannot be set at a stage that will be read based on a shader computation such as the bem, beml, or texm3x3 instructions in versions 1.0-1.3 of pixel shaders. For example, these textures can be used to store bump-map data that the driver supplies to texture reads, but not the environment maps that are used in texbem, texbeml, or texm3x3spec. If this flag is set, the D3DPTEXTURECAPS_POW2 flag must also be set. | 
+| D3DPTEXTURECAPS_NONPOW2CONDITIONAL | Conditionally supports the use of two-dimensional (2D) textures (that is, not volume or cube textures) with dimensions that are not powers of 2. A device that exposes this capability can use such a texture if all of the following requirements are met.<ul><li>The texture addressing mode for the texture stage is set to D3DTADDRESS_CLAMP.</li><li>Texture wrapping for the texture stage is disabled (D3DRS_WRAPn set to 0).</li><li>Mipmapping is not in use (use magnification filter only).</li><li>Texture was not stored in DXT1-5 (compressed texture formats).</li></ul>A driver for a device that exposes this capability cannot perform dependent texture reads using such a texture. That is, such a texture cannot be addressed or sampled using texture coordinates that are computed with [shader code](https://docs.microsoft.com/windows-hardware/drivers/ddi/index) . In other words, such a texture cannot be set at a stage that will be read based on a shader computation such as the bem, beml, or texm3x3 instructions in versions 1.0-1.3 of pixel shaders. For example, these textures can be used to store bump-map data that the driver supplies to texture reads, but not the environment maps that are used in texbem, texbeml, or texm3x3spec. If this flag is set, the D3DPTEXTURECAPS_POW2 flag must also be set. | 
 | D3DPTEXTURECAPS_SQUAREONLY | All textures must be square. | 
 | D3DPTEXTURECAPS_TEXREPEATNOTSCALESBYSIZE | Texture indexes are not scaled by the texture size before interpolation. | 
 | D3DPTEXTURECAPS_TEXTURETRANSFORM | The device is capable of doing texture transforms. | 
@@ -279,7 +279,7 @@ Specify the maximum width and height of the supported stipple (up to 32-by-32).
 
 This structure has been replaced by D3DCAPS8 (see the DirectX 8.0 SDK documentation) for DirectX 8.0 and later runtimes, but is required for DirectX 7.0 and earlier runtime compatibility. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/reporting-directx-8-0-style-direct3d-capabilities">Reporting DirectX 8.0 Style Direct3D Capabilities</a> for details.
 
-This structure is used when a device is created and when the capabilities of a device are queried. It defines several members in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a> structure.
+This structure is used when a device is created and when the capabilities of a device are queried. It defines several members in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a> structure.
 
 
 
@@ -289,7 +289,7 @@ This structure is used when a device is created and when the capabilities of a d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a>
  
 
  

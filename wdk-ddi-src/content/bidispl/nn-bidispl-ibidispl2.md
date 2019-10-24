@@ -68,7 +68,7 @@ The <b>IBidiSpl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidispl2-binddevice">BindDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl2-binddevice">BindDevice</a>
 </td>
 <td align="left" width="63%">
 Binds a printer to a bidirectional communication request.
@@ -77,7 +77,7 @@ Binds a printer to a bidirectional communication request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidispl2-sendrecvxmlstream">SendRecvXMLStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl2-sendrecvxmlstream">SendRecvXMLStream</a>
 </td>
 <td align="left" width="63%">
 Sends a bidirectional communication request (and receives the response) as   Bidi Request and Response-compliant <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
@@ -86,7 +86,7 @@ Sends a bidirectional communication request (and receives the response) as   Bid
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidispl2-sendrecvxmlstring">SendRecvXMLString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl2-sendrecvxmlstring">SendRecvXMLString</a>
 </td>
 <td align="left" width="63%">
 Sends a bidirectional communication request (and receives the response) as   Bidi Request and Response-compliant strings.
@@ -95,7 +95,7 @@ Sends a bidirectional communication request (and receives the response) as   Bid
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidispl2-unbinddevice">UnbindDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl2-unbinddevice">UnbindDevice</a>
 </td>
 <td align="left" width="63%">
 Releases a printer from a bidirectional communication request.
@@ -110,7 +110,7 @@ Releases a printer from a bidirectional communication request.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">Bidirectional Communication Interfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
 
 

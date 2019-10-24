@@ -68,7 +68,7 @@ The maximum speed of the network link, in megabits per second (Mbps).
 
 ### -field LinkState
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsicfg/ne-iscsicfg-iscsi_nic_linkstate">ISCSI_NIC_LINKSTATE</a> enumeration value that indicates whether the port is connected to the network or not.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsicfg/ne-iscsicfg-iscsi_nic_linkstate">ISCSI_NIC_LINKSTATE</a> enumeration value that indicates whether the port is connected to the network or not.
 
 
 ### -field MaxFrameSize
@@ -101,7 +101,7 @@ Initiators should register each instance of the MSiSCSI_NICConfig class by using
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsicfg/ne-iscsicfg-iscsi_nic_linkstate">ISCSI_NIC_LINKSTATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsicfg/ne-iscsicfg-iscsi_nic_linkstate">ISCSI_NIC_LINKSTATE</a>
 
 
 

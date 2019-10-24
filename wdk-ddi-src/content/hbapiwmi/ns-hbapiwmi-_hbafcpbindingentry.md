@@ -71,7 +71,7 @@ HBA_BIND_TO_D_ID
 
 </td>
 <td>
-Indicates that the target is identified by its fibre channel protocol (FCP) ID. The <b>Fcid</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
+Indicates that the target is identified by its fibre channel protocol (FCP) ID. The <b>Fcid</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ HBA_BIND_TO_WWPN
 
 </td>
 <td>
-Indicates that the target is identified by its worldwide port name. The <b>PortWWN</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
+Indicates that the target is identified by its worldwide port name. The <b>PortWWN</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ HBA_BIND_TO_WWNN
 
 </td>
 <td>
-Indicates that the fibre channel target device is identified by its worldwide node name. The <b>NodeWWN</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
+Indicates that the fibre channel target device is identified by its worldwide node name. The <b>NodeWWN</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ HBA_BIND_TO_LUID
 
 </td>
 <td>
-Indicates that the target is identified by its fibre channel logical unit ID. The <b>FcpLun</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
+Indicates that the target is identified by its fibre channel logical unit ID. The <b>FcpLun</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
 
 </td>
 </tr>
@@ -127,12 +127,12 @@ For a more detailed description of the values that this member can have, see the
 
 ### -field FCPId
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> that contains the FCP identifier for the logical unit and information about the port to be queried for information about the device.
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> that contains the FCP identifier for the logical unit and information about the port to be queried for information about the device.
 
 
 ### -field ScsiId
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbascsiid">HBAScsiID</a> that contains the information that uniquely identifies a logical unit for the operating system. 
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbascsiid">HBAScsiID</a> that contains the information that uniquely identifies a logical unit for the operating system. 
 
 
 ## -remarks

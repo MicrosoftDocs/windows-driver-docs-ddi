@@ -45,7 +45,7 @@ targetos: Windows
 
 ## -description
 
-The GetContentRights method retrieves the DRM content rights that are assigned to a stream that is identified by a content ID. Note that this method is identical in operation to the [DrmGetContentRights](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmgetcontentrights) function, and its parameter definitions and return value are also identical.
+The GetContentRights method retrieves the DRM content rights that are assigned to a stream that is identified by a content ID. Note that this method is identical in operation to the [DrmGetContentRights](https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmgetcontentrights) function, and its parameter definitions and return value are also identical.
 
 ## -parameters
 
@@ -63,7 +63,7 @@ This method returns NTSTATUS.
 
 ## -remarks
 
-See comments in [DrmGetContentRights](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmgetcontentrights).
+See comments in [DrmGetContentRights](https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmgetcontentrights).
 
 
 ## -see-also

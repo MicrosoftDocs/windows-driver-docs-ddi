@@ -57,7 +57,7 @@ The **IOCTL_LAMP_GET_CAPABILITIES_COLOR** control code queries the capabilities 
 
 ### -input-buffer
 
-`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_CAPABILITIES_COLOR](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_capabilities_color).
+`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_CAPABILITIES_COLOR](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_capabilities_color).
 
 
 ### -input-buffer-length
@@ -82,7 +82,7 @@ The driver sets `Irp->IoStatus.Status` to **STATUS_SUCCESS** or the appropriate 
 
 ## -remarks
 
-The payload of this IOCTL is a [LAMP_CAPABILITIES_COLOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_capabilities_color) structure.
+The payload of this IOCTL is a [LAMP_CAPABILITIES_COLOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_capabilities_color) structure.
 
 The **IsSupported** field indicates whether the lamp can emit color light. If the hardware does not support color light, the driver should set this field to **FALSE**.
 

@@ -118,7 +118,7 @@ This routine adds an ECP list and/or ECP as needed.  <i>Filter</i> is referenced
     for the lifetime of the open reparse entry structure, not the ECP itself,
     which is conceptually independent of any specific filter.
 
-Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltremoveopenreparseentry">FltRemoveOpenReparseEntry</a> to remove the open reparse structure from the create operation.
+Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltremoveopenreparseentry">FltRemoveOpenReparseEntry</a> to remove the open reparse structure from the create operation.
 
 
 
@@ -128,7 +128,7 @@ Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/flt
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltremoveopenreparseentry">FltRemoveOpenReparseEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltremoveopenreparseentry">FltRemoveOpenReparseEntry</a>
  
 
  

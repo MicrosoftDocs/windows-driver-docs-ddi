@@ -48,7 +48,7 @@ req.typenames: MOUNTMGR_CREATE_POINT_INPUT, *PMOUNTMGR_CREATE_POINT_INPUT
 ## -description
 
 
-The MOUNTMGR_CREATE_POINT_INPUT structure is used by the mount manager to send a symbolic link name to a client that has requested symbolic link name by means of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ni-mountmgr-ioctl_mountmgr_create_point">IOCTL_MOUNTMGR_CREATE_POINT</a> request. 
+The MOUNTMGR_CREATE_POINT_INPUT structure is used by the mount manager to send a symbolic link name to a client that has requested symbolic link name by means of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_create_point">IOCTL_MOUNTMGR_CREATE_POINT</a> request. 
 
 
 ## -struct-fields
@@ -90,7 +90,7 @@ The name given for purposes of identifying the volume can be of any type: a uniq
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ni-mountmgr-ioctl_mountmgr_create_point">IOCTL_MOUNTMGR_CREATE_POINT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_create_point">IOCTL_MOUNTMGR_CREATE_POINT</a>
  
 
  

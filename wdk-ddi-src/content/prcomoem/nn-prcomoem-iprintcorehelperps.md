@@ -68,7 +68,7 @@ The <b>IPrintCoreHelperPS</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperps-createinstanceofmsxmlobject">CreateInstanceOfMSXMLObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-createinstanceofmsxmlobject">CreateInstanceOfMSXMLObject</a>
 </td>
 <td align="left" width="63%">
 The <b>IPrintCoreHelperPS::CreateInstanceOfMSXMLObject</b> method creates an instance of an MSXML object. 
@@ -77,7 +77,7 @@ The <b>IPrintCoreHelperPS::CreateInstanceOfMSXMLObject</b> method creates an ins
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperps-enumconstrainedoptions">EnumConstrainedOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-enumconstrainedoptions">EnumConstrainedOptions</a>
 </td>
 <td align="left" width="63%">
 The <b>IPrintCoreHelperPS::EnumConstrainedOptions</b> method provides a list of all of the options that are constrained in a particular feature, based on current settings.
@@ -86,7 +86,7 @@ The <b>IPrintCoreHelperPS::EnumConstrainedOptions</b> method provides a list of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperps-enumfeatures">EnumFeatures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-enumfeatures">EnumFeatures</a>
 </td>
 <td align="left" width="63%">
 The<b> IPrintCoreHelperPS::EnumFeatures</b> method gets a list of all available features, including synthesized and core driver-implement features.
@@ -95,7 +95,7 @@ The<b> IPrintCoreHelperPS::EnumFeatures</b> method gets a list of all available 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperps-enumoptions">EnumOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-enumoptions">EnumOptions</a>
 </td>
 <td align="left" width="63%">
 The <b>IPrintCoreHelperPS::EnumOptions</b> method gets a list of available options for the given feature. 
@@ -104,7 +104,7 @@ The <b>IPrintCoreHelperPS::EnumOptions</b> method gets a list of available optio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperps-getfeatureattribute">GetFeatureAttribute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-getfeatureattribute">GetFeatureAttribute</a>
 </td>
 <td align="left" width="63%">
 The <b>IPrintCoreHelperPS::GetFeatureAttribute</b> method retrieves the feature attribute list or the value of a specific feature attribute.
@@ -113,7 +113,7 @@ The <b>IPrintCoreHelperPS::GetFeatureAttribute</b> method retrieves the feature 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperps-getfontsubstitution">GetFontSubstitution</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-getfontsubstitution">GetFontSubstitution</a>
 </td>
 <td align="left" width="63%">
 The <b>IPrintCoreHelperPS::GetFontSubstitution</b> method indicates which device font, if any, is used as a substitution font for a specified TrueType font.
@@ -122,7 +122,7 @@ The <b>IPrintCoreHelperPS::GetFontSubstitution</b> method indicates which device
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperps-getglobalattribute">GetGlobalAttribute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-getglobalattribute">GetGlobalAttribute</a>
 </td>
 <td align="left" width="63%">
 The <b>IPrintCoreHelperPS::GetGlobalAttribute</b> method retrieves the global attribute list or the value of a specific global attribute.
@@ -131,7 +131,7 @@ The <b>IPrintCoreHelperPS::GetGlobalAttribute</b> method retrieves the global at
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemafeature-getoption">GetOption</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemafeature-getoption">GetOption</a>
 </td>
 <td align="left" width="63%">
 The <b>IPrintCoreHelperPS::GetOption</b> method gets a specified option for a given feature.
@@ -140,7 +140,7 @@ The <b>IPrintCoreHelperPS::GetOption</b> method gets a specified option for a gi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperps-getoptionattribute">GetOptionAttribute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-getoptionattribute">GetOptionAttribute</a>
 </td>
 <td align="left" width="63%">
 The <b>IPrintCoreHelperPS::GetOptionAttribute</b> method retrieves the option attribute list or the value of a specific option attribute.
@@ -149,7 +149,7 @@ The <b>IPrintCoreHelperPS::GetOptionAttribute</b> method retrieves the option at
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperps-setfontsubstitution">SetFontSubstitution</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-setfontsubstitution">SetFontSubstitution</a>
 </td>
 <td align="left" width="63%">
 The <b>IPrintCoreHelperPS::SetFontSubstitution</b> method specifies the device font to print in place of a given TrueType font. 
@@ -158,7 +158,7 @@ The <b>IPrintCoreHelperPS::SetFontSubstitution</b> method specifies the device f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperps-setoptions">SetOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-setoptions">SetOptions</a>
 </td>
 <td align="left" width="63%">
 The <b>IPrintCoreHelperPS::SetOptions</b> method sets multiple feature-option pairs at the same time.
@@ -167,7 +167,7 @@ The <b>IPrintCoreHelperPS::SetOptions</b> method sets multiple feature-option pa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperps-whyconstrained">WhyConstrained</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelperps-whyconstrained">WhyConstrained</a>
 </td>
 <td align="left" width="63%">
 The <b>IPrintCoreHelperPS::WhyConstrained</b> method provides a list of options that constrain the specified feature-option pair in the current configuration.

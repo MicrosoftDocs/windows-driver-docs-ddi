@@ -58,12 +58,12 @@ The <i>AddDevice</i> routine is responsible for creating functional device objec
 
 ### -param *DriverObject [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure. This is the driver's driver object.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure. This is the driver's driver object.
 
 
 ### -param *PhysicalDeviceObject [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure representing a physical device object (PDO) created by a lower-level driver. 
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure representing a physical device object (PDO) created by a lower-level driver. 
 
 
 ## -returns
@@ -83,7 +83,7 @@ All kernel-mode drivers that support PnP must provide an <i>AddDevice</i> routin
 
 A driver's <i>AddDevice</i> routine should be named <i>Xxx</i><code>AddDevice</code>, where <i>Xxx</i> is a driver-specific prefix. The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine must store the <i>AddDevice</i> routine's address in <b>DriverObject->DriverExtension->AddDevice</b>.
 
-An <i>AddDevice</i> routine's primary responsibilities are calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> to create a device object, then calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a> to attach the device object to the device stack. For detailed information about implementing a driver's <i>AddDevice</i> routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-an-adddevice-routine">Writing an AddDevice Routine</a>.
+An <i>AddDevice</i> routine's primary responsibilities are calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> to create a device object, then calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a> to attach the device object to the device stack. For detailed information about implementing a driver's <i>AddDevice</i> routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-an-adddevice-routine">Writing an AddDevice Routine</a>.
 
 An <i>AddDevice</i> routine runs in a system thread context at IRQL = PASSIVE_LEVEL.
 

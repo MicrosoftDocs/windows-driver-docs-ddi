@@ -65,6 +65,6 @@ The <b>NtRenameTransactionManager</b> routine changes the identity of the transa
 ## -see-also
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-tmrenametransactionmanager">TmRenameTransactionManager</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-tmrenametransactionmanager">TmRenameTransactionManager</a>
 
 

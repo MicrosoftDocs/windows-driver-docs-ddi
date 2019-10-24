@@ -48,7 +48,7 @@ req.typenames: PERF_CONFIGURATION_DATA, *PPERF_CONFIGURATION_DATA
 ## -description
 
 
-The PERF_CONFIGURATION_DATA structure describes the performance optimizations that are supported by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitializeperfopts">StorPortInitializePerfOpts</a> routine.
+The PERF_CONFIGURATION_DATA structure describes the performance optimizations that are supported by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeperfopts">StorPortInitializePerfOpts</a> routine.
 
 
 ## -struct-fields
@@ -94,7 +94,7 @@ STOR_PERF_CONCURRENT_CHANNELS
 
 </td>
 <td>
-This flag is used to indicate that concurrent calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_startio">HwStorStartIo</a> routine are supported. Prior to Windows 8, miniports must not set this flag.
+This flag is used to indicate that concurrent calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine are supported. Prior to Windows 8, miniports must not set this flag.
 
 This flag is valid when <b>Version</b> is set to 2 or 3.
 
@@ -168,7 +168,7 @@ This flag is valid when <b>Version</b> is set to 5.
 
 ### -field ConcurrentChannels
 
-The number of concurrent calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_startio">HwStorStartIo</a> routine that the miniport driver and the device  support. This member is only accessed when the STOR_PERF_CONCURRENT_CHANNELS flag has been set. Prior to Windows 8, miniports must not set this value.
+The number of concurrent calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine that the miniport driver and the device  support. This member is only accessed when the STOR_PERF_CONCURRENT_CHANNELS flag has been set. Prior to Windows 8, miniports must not set this value.
 
 
 ### -field FirstRedirectionMessageNumber
@@ -193,7 +193,7 @@ Reserved for system use.
 
 ### -field MessageTargets
 
-When the <b>Flags</b> member has the STOR_PERF_ADV_CONFIG_LOCALITY flag set, Storport initializes the fields of in the structures of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a> array. These structures correspond to the redirection messages that are currently in use. The array itself is zero-based, but <b>FirstRedirectionMessageNumber</b> is not required to be zero. The miniport allocates this array and sets <b>MessageTargets</b> to point to it. The miniport driver must allocate a <b>GROUP_AFFINITY</b> array large enough to hold all the returned affinity masks.
+When the <b>Flags</b> member has the STOR_PERF_ADV_CONFIG_LOCALITY flag set, Storport initializes the fields of in the structures of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/miniport/ns-miniport-_group_affinity">GROUP_AFFINITY</a> array. These structures correspond to the redirection messages that are currently in use. The array itself is zero-based, but <b>FirstRedirectionMessageNumber</b> is not required to be zero. The miniport allocates this array and sets <b>MessageTargets</b> to point to it. The miniport driver must allocate a <b>GROUP_AFFINITY</b> array large enough to hold all the returned affinity masks.
 
 
 ## -remarks
@@ -204,7 +204,7 @@ The current version of this structure is defined by <b>STOR_PERF_VERSION</b>. Se
 
 The purpose of the STOR_PERF_DPC_REDIRECTION flag is to ensure that individual CPUs are not overwhelmed with DPC processing. When this flag is set, DPC processing is spread over multiple CPUs. If STOR_PERF_DPC_REDIRECTION_CURRENT_CPU is not set, StorPort will attempt to schedule I/O completion DPCs on the same CPU that originated the I/O.
 
-Typically, a miniport  completes I/O requests in it's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_startio">HwStorStartIo</a> routine and calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportnotification">StorPortNotification</a> with the <b>RequestComplete</b> notification type. For processing I/O in this manner, the miniport will leave the STOR_PERF_OPTIMIZE_FOR_COMPLETION_DURING_STARTIO flag set in the <b>Flags</b> member allowing Storport to adjust DPC redirection.
+Typically, a miniport  completes I/O requests in it's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine and calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportnotification">StorPortNotification</a> with the <b>RequestComplete</b> notification type. For processing I/O in this manner, the miniport will leave the STOR_PERF_OPTIMIZE_FOR_COMPLETION_DURING_STARTIO flag set in the <b>Flags</b> member allowing Storport to adjust DPC redirection.
 
 For information about enabling message-signaled interrupts for a device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/enabling-message-signaled-interrupts-in-the-registry">Enabling Message-Signaled Interrupts in the Registry</a>.
 
@@ -216,7 +216,7 @@ For information about enabling message-signaled interrupts for a device, see <a 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitializeperfopts">StorPortInitializePerfOpts</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeperfopts">StorPortInitializePerfOpts</a>
  
 
  

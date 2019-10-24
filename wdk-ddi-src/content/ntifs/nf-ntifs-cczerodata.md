@@ -58,7 +58,7 @@ The <b>CcZeroData</b> routine zeros the specified range of bytes in a cached or 
 
 ### -param FileObject [in]
 
-A pointer to a file object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">FILE_OBJECT</a>) for the file in which a range of bytes is to be zeroed.
+A pointer to a file object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>) for the file in which a range of bytes is to be zeroed.
 
 
 ### -param StartOffset [in]
@@ -89,7 +89,7 @@ Set to <b>TRUE</b> if the caller should be put into a wait state until the entir
 
 
 
-The file to be zeroed can be cached or noncached. However, if the file is noncached, the values of <i>StartOffset</i> and <i>EndOffset</i> must both be multiples of the volume's sector size. (For information about how to determine sector size, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/index">Kernel-Mode Driver Architecture Design Guide</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Kernel-Mode Driver Architecture Reference</a>.)
+The file to be zeroed can be cached or noncached. However, if the file is noncached, the values of <i>StartOffset</i> and <i>EndOffset</i> must both be multiples of the volume's sector size. (For information about how to determine sector size, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/index">Kernel-Mode Driver Architecture Design Guide</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Kernel-Mode Driver Architecture Reference</a>.)
 
 If a pool allocation failure occurs and <i>Wait</i> was specified as <b>TRUE</b>, <b>CcZeroData</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. If a pool allocation failure occurs and <i>Wait</i> was specified as <b>FALSE</b>, <b>CcZeroData</b> returns <b>FALSE</b>, but does not raise an exception.
 
@@ -129,7 +129,7 @@ If <i>EndOffset</i> is not aligned, it will be rounded up to the next sector siz
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">FILE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>
  
 
  

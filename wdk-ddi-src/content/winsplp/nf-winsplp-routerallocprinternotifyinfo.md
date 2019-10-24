@@ -78,9 +78,9 @@ Print providers should call <code>RouterAllocPrinterNotifyInfo</code> to allocat
 
 The <code>RouterAllocPrinterNotifyInfo</code> function initializes the PRINTER_NOTIFY_INFO structure's <b>Version</b> member to the current version of the spooler's notification implementation. It initializes the structure's <b>Flags</b> and <b>Count</b> members to zero, regardless of the number specified for <i>cPrinterNotifyInfoData</i>.
 
-Print providers should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-appendprinternotifyinfodata">AppendPrinterNotifyInfoData</a> to fill in members of the PRINTER_NOTIFY_INFO_DATA structure array.
+Print providers should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-appendprinternotifyinfodata">AppendPrinterNotifyInfoData</a> to fill in members of the PRINTER_NOTIFY_INFO_DATA structure array.
 
-If <code>RefreshPrinterChangeNotification</code> executes successfully and returns the allocated structures to the caller, you should assume that the caller will deallocate structure memory. However, if <code>RefreshPrinterChangeNotification</code> encounters an error it should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-routerfreeprinternotifyinfo">RouterFreePrinterNotifyInfo</a> to deallocate the memory.
+If <code>RefreshPrinterChangeNotification</code> executes successfully and returns the allocated structures to the caller, you should assume that the caller will deallocate structure memory. However, if <code>RefreshPrinterChangeNotification</code> encounters an error it should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreeprinternotifyinfo">RouterFreePrinterNotifyInfo</a> to deallocate the memory.
 
 For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/supporting-printer-change-notifications">Supporting Printer Change Notifications</a>.
 
@@ -92,7 +92,7 @@ For additional information, see <a href="https://docs.microsoft.com/windows-hard
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-appendprinternotifyinfodata">AppendPrinterNotifyInfoData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-appendprinternotifyinfodata">AppendPrinterNotifyInfoData</a>
 
 
 
@@ -100,7 +100,7 @@ For additional information, see <a href="https://docs.microsoft.com/windows-hard
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-routerfreeprinternotifyinfo">RouterFreePrinterNotifyInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreeprinternotifyinfo">RouterFreePrinterNotifyInfo</a>
  
 
  

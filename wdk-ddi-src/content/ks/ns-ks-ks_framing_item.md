@@ -58,7 +58,7 @@ The KS_FRAMING_ITEM structure is used to declare allocator requirements on a ker
 
 ### -field MemoryType
 
-Specifies the type of memory used for buffers and data frames. There is a partial correspondence between this member and the <b>PoolType</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure. The two members differ in that <b>PoolType</b> allows only paged or nonpaged pool. <b>MemoryType</b> can have any of the values listed in the following table.
+Specifies the type of memory used for buffers and data frames. There is a partial correspondence between this member and the <b>PoolType</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure. The two members differ in that <b>PoolType</b> allows only paged or nonpaged pool. <b>MemoryType</b> can have any of the values listed in the following table.
 
 <table>
 <tr>
@@ -101,7 +101,7 @@ KSMEMORY_TYPE_KERNEL_PAGED
 
 </td>
 <td>
-Indicates memory allocation must be kernel paged memory. This corresponds to the <b>PoolType</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure set to <b>PagedPool</b> and the <b>RequirementsFlags</b> member of this structure set to SYSTEM_MEMORY.
+Indicates memory allocation must be kernel paged memory. This corresponds to the <b>PoolType</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure set to <b>PagedPool</b> and the <b>RequirementsFlags</b> member of this structure set to SYSTEM_MEMORY.
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ KSMEMORY_TYPE_KERNEL_NONPAGED
 
 </td>
 <td>
-Indicates memory allocation must be kernel nonpaged memory. This corresponds to the <b>PoolType</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure set to <b>NonPagedPool</b> and the <b>RequirementsFlags</b> member of this structure set to SYSTEM_MEMORY.
+Indicates memory allocation must be kernel nonpaged memory. This corresponds to the <b>PoolType</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure set to <b>NonPagedPool</b> and the <b>RequirementsFlags</b> member of this structure set to SYSTEM_MEMORY.
 
 </td>
 </tr>
@@ -204,7 +204,7 @@ Not used.
 
 ### -field Flags
 
-Similar to the <b>OptionsFlags</b> and <b>RequirementsFlags</b> union in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure, with the addition of the following flags that add support for pipes.
+Similar to the <b>OptionsFlags</b> and <b>RequirementsFlags</b> union in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure, with the addition of the following flags that add support for pipes.
 
 
 
@@ -229,12 +229,12 @@ Similar to the <b>OptionsFlags</b> and <b>RequirementsFlags</b> union in the <a 
 
 ### -field Frames
 
-Specifies the total number of allowable outstanding frames. Corresponds to the <b>Frames</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure.
+Specifies the total number of allowable outstanding frames. Corresponds to the <b>Frames</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure.
 
 
 ### -field FileAlignment
 
-Requirement for frame alignment. Corresponds to the <b>FileAlignment</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure.
+Requirement for frame alignment. Corresponds to the <b>FileAlignment</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure.
 
 
 ### -field FramePitch
@@ -249,12 +249,12 @@ A value of type ULONG that specifies the pin-wide weight of this memory type.
 
 ### -field PhysicalRange
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ks_framing_range">KS_FRAMING_RANGE</a> that specifies the physical limit of frame sizes.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ks_framing_range">KS_FRAMING_RANGE</a> that specifies the physical limit of frame sizes.
 
 
 ### -field FramingRange
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ks_framing_range_weighted">KS_FRAMING_RANGE_WEIGHTED</a> that specifies the optimal range of frame sizes.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ks_framing_range_weighted">KS_FRAMING_RANGE_WEIGHTED</a> that specifies the optimal range of frame sizes.
 
 
 ## -remarks
@@ -263,7 +263,7 @@ A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers
 
 Do not set KSALLOCATOR_FLAG_CAN_ALLOCATE to indicate memory addressing capability. A filter might be able to access the device-specific memory over a device-specific bus by referencing the memory address on this bus, and yet not support the protocol to allocate this device-specific memory.
 
-Each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksallocator_framing_ex">KSALLOCATOR_FRAMING_EX</a> instance contains one or more framing items.
+Each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing_ex">KSALLOCATOR_FRAMING_EX</a> instance contains one or more framing items.
 
 
 
@@ -273,23 +273,23 @@ Each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksallocator_framing_ex">KSALLOCATOR_FRAMING_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing_ex">KSALLOCATOR_FRAMING_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ks_compression">KS_COMPRESSION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ks_compression">KS_COMPRESSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ks_framing_range">KS_FRAMING_RANGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ks_framing_range">KS_FRAMING_RANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ks_framing_range_weighted">KS_FRAMING_RANGE_WEIGHTED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ks_framing_range_weighted">KS_FRAMING_RANGE_WEIGHTED</a>
  
 
  

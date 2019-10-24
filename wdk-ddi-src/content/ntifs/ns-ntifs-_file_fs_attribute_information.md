@@ -59,7 +59,7 @@ Bitmask of flags specifying attributes of the specified file system, as a compat
 | **FILE_CASE_SENSITIVE_SEARCH** (0x00000001) | The file system supports case-sensitive file names. |
 | **FILE_CASE_PRESERVED_NAMES** (0x00000002)| The file system preserves the case of file names when it places a name on disk. |
 | **FILE_UNICODE_ON_DISK** (0x00000004) | The file system supports [Unicode](https://docs.microsoft.com/openspecs/windows_protocols/ms-smb/c7d64f17-1ab6-4151-b9e8-f15813235c83#gt_c305d0ab-8b94-461a-bd76-13b40cb8c4d8) in file names. |
-| **FILE_PERSISTENT_ACLS** (0x00000008) | The file system preserves and enforces access control lists ([ACLs](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_acl)). |
+| **FILE_PERSISTENT_ACLS** (0x00000008) | The file system preserves and enforces access control lists ([ACLs](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl)). |
 | **FILE_FILE_COMPRESSION** (0x00000010) | The file system supports file-based compression. This flag is incompatible with the **FILE_VOLUME_IS_COMPRESSED** flag. This flag does not affect how data is transferred over the network. |
 | **FILE_VOLUME_QUOTAS** (0x00000020) | The file system supports per-user quotas. |
 | **FILE_SUPPORTS_SPARSE_FILES** (0x00000040) | The file system supports sparse files. |
@@ -100,7 +100,7 @@ Variable-length Unicode field containing the name of the file system. This field
 
 This information can be queried in either of the following ways:
 
-* Call [FltQueryVolumeInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueryvolumeinformation) or [ZwQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-zwqueryvolumeinformationfile), passing **FileFsAttributeInformation** as the value of *FileInformationClass* and passing a caller-allocated, **FILE_FS_ATTRIBUTE_INFORMATION**-structured buffer as the value of *FileInformation*.
+* Call [FltQueryVolumeInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation) or [ZwQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwqueryvolumeinformationfile), passing **FileFsAttributeInformation** as the value of *FileInformationClass* and passing a caller-allocated, **FILE_FS_ATTRIBUTE_INFORMATION**-structured buffer as the value of *FileInformation*.
 
   * Note: On CSVFS, **FileFsAttributeInformation** returns **FILE_FS_ATTRIBUTE_INFORMATION** for the CSVFS file system. If you want to query **FileFsAttributeInformation** for the file system CSVFS is layered on then you should use [FSCTL_CSV_QUERY_DOWN_LEVEL_FILE_SYSTEM_CHARACTERISTICS](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_query_down_level_file_system_characteristics).
 
@@ -114,10 +114,10 @@ This structure must be aligned on a **LONG** (4-byte) boundary.
 
 ## -see-also
 
-[ACL](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_acl)
+[ACL](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl)
 
-[FltQueryVolumeInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueryvolumeinformation)
+[FltQueryVolumeInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation)
 
 [IRP_MJ_QUERY_VOLUME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-volume-information)
 
-[ZwQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-zwqueryvolumeinformationfile)
+[ZwQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-zwqueryvolumeinformationfile)

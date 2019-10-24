@@ -90,7 +90,7 @@ The KS_DVD_YCrCb structure is used
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ks_dvd_yuv">KS_DVD_YUV</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ks_dvd_yuv">KS_DVD_YUV</a>
  
 
  

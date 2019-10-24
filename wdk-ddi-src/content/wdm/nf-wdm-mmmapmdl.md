@@ -70,7 +70,7 @@ A bitwise of flags that indicates the protection to set for the pages. Possible 
 
 ### -param DriverRoutine [in]
 
- A pointer to a driver-supplied callback routine (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-mm_mdl_routine">MM_MDL_ROUTINE</a>) that is invoked after the MDL is mapped.
+ A pointer to a driver-supplied callback routine (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-mm_mdl_routine">MM_MDL_ROUTINE</a>) that is invoked after the MDL is mapped.
 
 
 ### -param DriverContext [in]
@@ -93,7 +93,7 @@ A pointer to a driver-defined context. The driver's callback function can store 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-mm_mdl_routine">MM_MDL_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-mm_mdl_routine">MM_MDL_ROUTINE</a>
  
 
  

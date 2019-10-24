@@ -69,7 +69,7 @@ The <b>IKsClockPropertySet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksclockpropertyset-ksgetcorrelatedphysicaltime">KsGetCorrelatedPhysicalTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksclockpropertyset-ksgetcorrelatedphysicaltime">KsGetCorrelatedPhysicalTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the physical time and the correlated system time from the underlying clock.
@@ -78,7 +78,7 @@ Retrieves the physical time and the correlated system time from the underlying c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksclockpropertyset-ksgetcorrelatedtime">KsGetCorrelatedTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksclockpropertyset-ksgetcorrelatedtime">KsGetCorrelatedTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the presentation time and the correlated system time from the underlying clock.
@@ -87,7 +87,7 @@ Retrieves the presentation time and the correlated system time from the underlyi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksclockpropertyset-ksgetphysicaltime">KsGetPhysicalTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksclockpropertyset-ksgetphysicaltime">KsGetPhysicalTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current physical time from the underlying clock. 
@@ -96,7 +96,7 @@ Retrieves the current physical time from the underlying clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksclockpropertyset-ksgetresolution">KsGetResolution</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksclockpropertyset-ksgetresolution">KsGetResolution</a>
 </td>
 <td align="left" width="63%">
 Retrieves the clock resolution from the underlying clock.
@@ -105,7 +105,7 @@ Retrieves the clock resolution from the underlying clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksclockpropertyset-ksgetstate">KsGetState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksclockpropertyset-ksgetstate">KsGetState</a>
 </td>
 <td align="left" width="63%">
 Retrieves the streaming state of a pin from the underlying clock.
@@ -114,7 +114,7 @@ Retrieves the streaming state of a pin from the underlying clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksclockpropertyset-ksgettime">KsGetTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksclockpropertyset-ksgettime">KsGetTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current presentation time from the underlying clock.
@@ -123,7 +123,7 @@ Retrieves the current presentation time from the underlying clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksclockpropertyset-kssetcorrelatedphysicaltime">KsSetCorrelatedPhysicalTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksclockpropertyset-kssetcorrelatedphysicaltime">KsSetCorrelatedPhysicalTime</a>
 </td>
 <td align="left" width="63%">
 Sets the physical time with the correlated system time on the underlying clock.
@@ -132,7 +132,7 @@ Sets the physical time with the correlated system time on the underlying clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksclockpropertyset-kssetcorrelatedtime">KsSetCorrelatedTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksclockpropertyset-kssetcorrelatedtime">KsSetCorrelatedTime</a>
 </td>
 <td align="left" width="63%">
 Sets the correlated system time with the presentation time on the underlying clock.
@@ -141,7 +141,7 @@ Sets the correlated system time with the presentation time on the underlying clo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksclockpropertyset-kssetphysicaltime">KsSetPhysicalTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksclockpropertyset-kssetphysicaltime">KsSetPhysicalTime</a>
 </td>
 <td align="left" width="63%">
 Sets the current physical time on the underlying clock.
@@ -150,7 +150,7 @@ Sets the current physical time on the underlying clock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksclockpropertyset-kssettime">KsSetTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksclockpropertyset-kssettime">KsSetTime</a>
 </td>
 <td align="left" width="63%">
 Sets the current presentation time on the underlying clock.

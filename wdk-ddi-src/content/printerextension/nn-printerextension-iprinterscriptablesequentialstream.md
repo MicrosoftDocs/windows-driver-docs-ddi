@@ -68,7 +68,7 @@ The <b>IPrinterScriptableSequentialStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterscriptablesequentialstream-read">Read</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptablesequentialstream-read">Read</a>
 </td>
 <td align="left" width="63%">
 The Read method reads bytes from the stream and returns them as a JavaScript array.
@@ -77,7 +77,7 @@ The Read method reads bytes from the stream and returns them as a JavaScript arr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterscriptablesequentialstream-write">Write</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptablesequentialstream-write">Write</a>
 </td>
 <td align="left" width="63%">
 The Write method writes the provided JavaScript array to the stream and returns the number of bytes written.

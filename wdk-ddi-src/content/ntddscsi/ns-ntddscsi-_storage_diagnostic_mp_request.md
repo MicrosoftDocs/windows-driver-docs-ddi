@@ -48,7 +48,7 @@ req.typenames: STORAGE_DIAGNOSTIC_MP_REQUEST, *PSTORAGE_DIAGNOSTIC_MP_REQUEST
 ## -description
 
 
-Describes  a diagnostic request to Miniport. The <b>STORAGE_DIAGNOSTIC_MP_REQUEST</b> structure is provided in the input/output buffer of an  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_diagnostic">IOCTL_SCSI_MINIPORT_DIAGNOSTIC</a> request.
+Describes  a diagnostic request to Miniport. The <b>STORAGE_DIAGNOSTIC_MP_REQUEST</b> structure is provided in the input/output buffer of an  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_diagnostic">IOCTL_SCSI_MINIPORT_DIAGNOSTIC</a> request.
 
 
 ## -struct-fields
@@ -68,12 +68,12 @@ Specifies the whole size of the structure and the associated data buffer.
 
 ### -field TargetType
 
-Specifies the request target type. See definitions for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_diagnostic_target_type">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>.
+Specifies the request target type. See definitions for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_diagnostic_target_type">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>.
 
 
 ### -field Level
 
-Specifies the Diagnostic level. See definitions for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_diagnostic_level">STORAGE_DIAGNOSTIC_LEVEL</a>.
+Specifies the Diagnostic level. See definitions for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_diagnostic_level">STORAGE_DIAGNOSTIC_LEVEL</a>.
 
 
 ### -field ProviderId
@@ -103,19 +103,19 @@ Specifies the Diagnostic data buffer.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_diagnostic">IOCTL_SCSI_MINIPORT_DIAGNOSTIC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_diagnostic">IOCTL_SCSI_MINIPORT_DIAGNOSTIC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_diagnostic_data">STORAGE_DIAGNOSTIC_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_diagnostic_data">STORAGE_DIAGNOSTIC_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_diagnostic_level">STORAGE_DIAGNOSTIC_LEVEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_diagnostic_level">STORAGE_DIAGNOSTIC_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_diagnostic_target_type">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_diagnostic_target_type">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>
  
 
  

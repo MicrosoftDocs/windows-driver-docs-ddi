@@ -82,12 +82,12 @@ identifier of the SR_IOV device implementing the interface.
 
 ### -output-buffer
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_proxy_query_luid_output">SRIOV_PROXY_QUERY_LUID_OUTPUT</a> structure that is filled with the identifier.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_proxy_query_luid_output">SRIOV_PROXY_QUERY_LUID_OUTPUT</a> structure that is filled with the identifier.
 
 
 ### -output-buffer-length
 
-The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_proxy_query_luid_output">SRIOV_PROXY_QUERY_LUID_OUTPUT</a> structure
+The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_proxy_query_luid_output">SRIOV_PROXY_QUERY_LUID_OUTPUT</a> structure
 
 
 ### -status-block
@@ -140,7 +140,7 @@ In this example, the PF driver generates a unique identifier by calling <a href=
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_proxy_query_luid_output">SRIOV_PROXY_QUERY_LUID_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_proxy_query_luid_output">SRIOV_PROXY_QUERY_LUID_OUTPUT</a>
 
 
 

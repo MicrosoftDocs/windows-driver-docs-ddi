@@ -65,7 +65,7 @@ Indicates the type of caching that is allowed for the requested memory.
 
 ### -field Flags
 
-Specifies flags for this operation. For more information, see [MmAllocatePagesForMdlEx function](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatepagesformdlex).
+Specifies flags for this operation. For more information, see [MmAllocatePagesForMdlEx function](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex).
 
 ### -field hMemoryHandle
 

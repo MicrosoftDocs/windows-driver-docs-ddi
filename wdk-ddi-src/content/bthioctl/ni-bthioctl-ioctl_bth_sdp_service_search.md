@@ -64,7 +64,7 @@ The IOCTL_BTH_SDP_SERVICE_SEARCH request contacts a remote device with an SDP re
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_sdp_service_search_request">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_service_search_request">
       BTH_SDP_SERVICE_SEARCH_REQUEST</a> structure that specifies the connection handle to the remote SDP
       server and an array of GUIDs to search for.
 
@@ -72,7 +72,7 @@ The
 ### -input-buffer-length
 
 The length of a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_sdp_service_search_request">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_service_search_request">
       BTH_SDP_SERVICE_SEARCH_REQUEST</a> structure/
 
 
@@ -203,7 +203,7 @@ The SDP service could not process the number of GUIDs passed in the input buffer
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_sdp_service_search_request">BTH_SDP_SERVICE_SEARCH_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_service_search_request">BTH_SDP_SERVICE_SEARCH_REQUEST</a>
  
 
  

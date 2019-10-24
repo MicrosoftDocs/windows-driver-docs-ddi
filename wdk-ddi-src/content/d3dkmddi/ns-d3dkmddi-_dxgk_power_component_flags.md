@@ -63,9 +63,9 @@ Reserved for system use and should be set to zero.
 
 ### -field DriverCompletesFStateTransition
 
-If set, indicates that the display miniport driver will call the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_completefstatetransition">DxgkCbCompleteFStateTransition</a> function for a registered power component when the component completes an F-state transition.
+If set, indicates that the display miniport driver will call the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_completefstatetransition">DxgkCbCompleteFStateTransition</a> function for a registered power component when the component completes an F-state transition.
 
-For more information, see Remarks section of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_completefstatetransition">DxgkCbCompleteFStateTransition</a> function.
+For more information, see Remarks section of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_completefstatetransition">DxgkCbCompleteFStateTransition</a> function.
 
 
 ### -field TransitionTo_F0_OnDx
@@ -100,7 +100,7 @@ A member in the union that <b>DXGK_POWER_COMPONENT_FLAGS</b> contains that can h
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_completefstatetransition">DxgkCbCompleteFStateTransition</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_completefstatetransition">DxgkCbCompleteFStateTransition</a>
  
 
  

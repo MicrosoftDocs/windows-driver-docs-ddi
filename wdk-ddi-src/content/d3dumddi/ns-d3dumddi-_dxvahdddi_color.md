@@ -58,12 +58,12 @@ The DXVAHDDDI_COLOR union contains information that specifies color with either 
 
 ### -field RGB
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvahdddi_color_rgba">DXVAHDDDI_COLOR_RGBA</a> structure that describes color in RGB terms. 
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_color_rgba">DXVAHDDDI_COLOR_RGBA</a> structure that describes color in RGB terms. 
 
 
 ### -field YCbCr
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvahdddi_color_ycbcra">DXVAHDDDI_COLOR_YCbCrA</a> structure that describes color in a YCbCr terms. 
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_color_ycbcra">DXVAHDDDI_COLOR_YCbCrA</a> structure that describes color in a YCbCr terms. 
 
 
 ## -see-also
@@ -71,11 +71,11 @@ The DXVAHDDDI_COLOR union contains information that specifies color with either 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvahdddi_color_rgba">DXVAHDDDI_COLOR_RGBA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_color_rgba">DXVAHDDDI_COLOR_RGBA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvahdddi_color_ycbcra">DXVAHDDDI_COLOR_YCbCrA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_color_ycbcra">DXVAHDDDI_COLOR_YCbCrA</a>
  
 
  

@@ -67,7 +67,7 @@ The <b>IDebugSystemObjects</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentprocessdataoffset">GetCurrentProcessDataOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentprocessdataoffset">GetCurrentProcessDataOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the location of the system data structure describing the current process.
@@ -76,7 +76,7 @@ Returns the location of the system data structure describing the current process
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentprocessexecutablename">GetCurrentProcessExecutableName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentprocessexecutablename">GetCurrentProcessExecutableName</a>
 </td>
 <td align="left" width="63%">
 Returns the name of executable file loaded in the current process.
@@ -85,7 +85,7 @@ Returns the name of executable file loaded in the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects-getcurrentprocesshandle">GetCurrentProcessHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects-getcurrentprocesshandle">GetCurrentProcessHandle</a>
 </td>
 <td align="left" width="63%">
 Returns the system handle for the current process.
@@ -94,7 +94,7 @@ Returns the system handle for the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentprocessid">GetCurrentProcessId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentprocessid">GetCurrentProcessId</a>
 </td>
 <td align="left" width="63%">
 Returns the engine process ID for the current process.
@@ -103,7 +103,7 @@ Returns the engine process ID for the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentprocesspeb">GetCurrentProcessPeb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentprocesspeb">GetCurrentProcessPeb</a>
 </td>
 <td align="left" width="63%">
 Returns the process environment block (PEB) of the current process.
@@ -112,7 +112,7 @@ Returns the process environment block (PEB) of the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentprocesssystemid">GetCurrentProcessSystemId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentprocesssystemid">GetCurrentProcessSystemId</a>
 </td>
 <td align="left" width="63%">
 Returns the system process ID of the current process.
@@ -121,7 +121,7 @@ Returns the system process ID of the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentthreaddataoffset">GetCurrentThreadDataOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentthreaddataoffset">GetCurrentThreadDataOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the location of the system data structure for the current thread.
@@ -130,7 +130,7 @@ Returns the location of the system data structure for the current thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentthreadhandle">GetCurrentThreadHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentthreadhandle">GetCurrentThreadHandle</a>
 </td>
 <td align="left" width="63%">
 Returns the system handle for the current thread.
@@ -139,7 +139,7 @@ Returns the system handle for the current thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentthreadid">GetCurrentThreadId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentthreadid">GetCurrentThreadId</a>
 </td>
 <td align="left" width="63%">
 Returns the engine thread ID for the current thread.
@@ -148,7 +148,7 @@ Returns the engine thread ID for the current thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentthreadsystemid">GetCurrentThreadSystemId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentthreadsystemid">GetCurrentThreadSystemId</a>
 </td>
 <td align="left" width="63%">
 Returns the system thread ID of the current thread.
@@ -157,7 +157,7 @@ Returns the system thread ID of the current thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentthreadteb">GetCurrentThreadTeb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentthreadteb">GetCurrentThreadTeb</a>
 </td>
 <td align="left" width="63%">
 Returns the location of the thread environment block (TEB) for the current thread.
@@ -166,7 +166,7 @@ Returns the location of the thread environment block (TEB) for the current threa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-geteventprocess">GetEventProcess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-geteventprocess">GetEventProcess</a>
 </td>
 <td align="left" width="63%">
 Returns the engine process ID for the process on which the last event occurred.
@@ -175,7 +175,7 @@ Returns the engine process ID for the process on which the last event occurred.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-geteventthread">GetEventThread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-geteventthread">GetEventThread</a>
 </td>
 <td align="left" width="63%">
 Returns the engine thread ID for the thread on which the last event occurred.
@@ -184,7 +184,7 @@ Returns the engine thread ID for the thread on which the last event occurred.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getnumberprocesses">GetNumberProcesses</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getnumberprocesses">GetNumberProcesses</a>
 </td>
 <td align="left" width="63%">
 Returns the number of processes for the current target.
@@ -193,7 +193,7 @@ Returns the number of processes for the current target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getnumberthreads">GetNumberThreads</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getnumberthreads">GetNumberThreads</a>
 </td>
 <td align="left" width="63%">
 Returns the number of threads in the current process.
@@ -202,7 +202,7 @@ Returns the number of threads in the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getprocessidbydataoffset">GetProcessIdByDataOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getprocessidbydataoffset">GetProcessIdByDataOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the engine process ID for the specified process.
@@ -211,7 +211,7 @@ Returns the engine process ID for the specified process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getprocessidbyhandle">GetProcessIdByHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getprocessidbyhandle">GetProcessIdByHandle</a>
 </td>
 <td align="left" width="63%">
 Returns the engine process ID for the specified process.
@@ -220,7 +220,7 @@ Returns the engine process ID for the specified process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getprocessidbypeb">GetProcessIdByPeb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getprocessidbypeb">GetProcessIdByPeb</a>
 </td>
 <td align="left" width="63%">
 Returns the engine process ID for the specified process.
@@ -229,7 +229,7 @@ Returns the engine process ID for the specified process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getprocessidbysystemid">GetProcessIdBySystemId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getprocessidbysystemid">GetProcessIdBySystemId</a>
 </td>
 <td align="left" width="63%">
 Returns the engine process ID for a process specified by its system process ID.
@@ -238,7 +238,7 @@ Returns the engine process ID for a process specified by its system process ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getprocessidsbyindex">GetProcessIdsByIndex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getprocessidsbyindex">GetProcessIdsByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns the engine process ID and system process ID for the specified processes in the current target.
@@ -247,7 +247,7 @@ Returns the engine process ID and system process ID for the specified processes 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getthreadidbydataoffset">GetThreadIdByDataOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getthreadidbydataoffset">GetThreadIdByDataOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the engine thread ID for the specified thread.
@@ -256,7 +256,7 @@ Returns the engine thread ID for the specified thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getthreadidbyhandle">GetThreadIdByHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getthreadidbyhandle">GetThreadIdByHandle</a>
 </td>
 <td align="left" width="63%">
 Returns the engine thread ID for the specified thread.
@@ -265,7 +265,7 @@ Returns the engine thread ID for the specified thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getthreadidbyprocessor">GetThreadIdByProcessor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getthreadidbyprocessor">GetThreadIdByProcessor</a>
 </td>
 <td align="left" width="63%">
 Returns the engine thread ID for the kernel-modevirtual thread corresponding to the specified processor.
@@ -274,7 +274,7 @@ Returns the engine thread ID for the kernel-modevirtual thread corresponding to 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getthreadidbysystemid">GetThreadIdBySystemId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getthreadidbysystemid">GetThreadIdBySystemId</a>
 </td>
 <td align="left" width="63%">
 Returns the engine thread ID for the specified thread.
@@ -283,7 +283,7 @@ Returns the engine thread ID for the specified thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getthreadidbyteb">GetThreadIdByTeb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getthreadidbyteb">GetThreadIdByTeb</a>
 </td>
 <td align="left" width="63%">
 Returns the engine thread ID of the specified thread.
@@ -292,7 +292,7 @@ Returns the engine thread ID of the specified thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getthreadidsbyindex">GetThreadIdsByIndex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getthreadidsbyindex">GetThreadIdsByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns the engine and system thread IDs for the specified threads in the current process.
@@ -301,7 +301,7 @@ Returns the engine and system thread IDs for the specified threads in the curren
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-gettotalnumberthreads">GetTotalNumberThreads</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-gettotalnumberthreads">GetTotalNumberThreads</a>
 </td>
 <td align="left" width="63%">
 Returns the total number of threads for all the processes in the current target, in addition to the largest number of threads in any process for the current target.
@@ -310,7 +310,7 @@ Returns the total number of threads for all the processes in the current target,
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-setcurrentprocessid">SetCurrentProcessId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-setcurrentprocessid">SetCurrentProcessId</a>
 </td>
 <td align="left" width="63%">
 Makes the specified process the current process.
@@ -319,7 +319,7 @@ Makes the specified process the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-setcurrentthreadid">SetCurrentThreadId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-setcurrentthreadid">SetCurrentThreadId</a>
 </td>
 <td align="left" width="63%">
 Makes the specified thread the current thread.
@@ -334,15 +334,15 @@ Makes the specified thread the current thread.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsystemobjects2">IDebugSystemObjects2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects2">IDebugSystemObjects2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsystemobjects3">IDebugSystemObjects3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects3">IDebugSystemObjects3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsystemobjects4">IDebugSystemObjects4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsystemobjects4">IDebugSystemObjects4</a>
  
 
  

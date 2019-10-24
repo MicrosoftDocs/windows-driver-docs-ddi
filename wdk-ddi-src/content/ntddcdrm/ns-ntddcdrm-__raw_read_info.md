@@ -48,7 +48,7 @@ req.typenames: RAW_READ_INFO, *PRAW_READ_INFO
 ## -description
 
 
-The RAW_READ_INFO structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_raw_read">IOCTL_CDROM_RAW_READ</a> request to read data from a CD-ROM in raw mode.  
+The RAW_READ_INFO structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_raw_read">IOCTL_CDROM_RAW_READ</a> request to read data from a CD-ROM in raw mode.  
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ Contains the number of sectors to read.
 
 ### -field TrackMode
 
-Contains an enumerator of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ne-ntddcdrm-_track_mode_type">TRACK_MODE_TYPE</a> that indicates the type of the track mode. 
+Contains an enumerator of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_track_mode_type">TRACK_MODE_TYPE</a> that indicates the type of the track mode. 
 
 
 ## -see-also
@@ -76,11 +76,11 @@ Contains an enumerator of type <a href="https://docs.microsoft.com/windows-hardw
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_raw_read">IOCTL_CDROM_RAW_READ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_raw_read">IOCTL_CDROM_RAW_READ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ne-ntddcdrm-_track_mode_type">TRACK_MODE_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_track_mode_type">TRACK_MODE_TYPE</a>
  
 
  

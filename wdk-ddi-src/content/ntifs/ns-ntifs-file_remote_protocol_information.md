@@ -41,7 +41,7 @@ targetos: Windows
 
 ## -description
 
-The *FILE_REMOTE_PROTOCOL_INFORMATION* structure contains file remote protocol information.  This structure is returned from [FltQueryInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueryinformationfile) when **FileRemoteProtocolInformation** is passed in as the *FileInformationClass* parameter.
+The *FILE_REMOTE_PROTOCOL_INFORMATION* structure contains file remote protocol information.  This structure is returned from [FltQueryInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryinformationfile) when **FileRemoteProtocolInformation** is passed in as the *FileInformationClass* parameter.
 
 ## -struct-fields
 
@@ -135,6 +135,6 @@ Should be set to zero. Do not use this member.
 
 ## -see-also
 
-[FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class)
+[FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class)
 
-[FltQueryInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueryinformationfile)
+[FltQueryInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryinformationfile)

@@ -46,7 +46,7 @@ product:
 
 ## -description
 
-The <b>pfnUnlock2Cb</b> function unlocks an allocation that was locked by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lock2cb">pfnLock2Cb</a> function.
+The <b>pfnUnlock2Cb</b> function unlocks an allocation that was locked by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_lock2cb">pfnLock2Cb</a> function.
 
 ## -parameters
 
@@ -58,7 +58,7 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_unlock2">D3DDDICB_UNLOCK2</a> structure that describes the allocation to unlock.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_unlock2">D3DDDICB_UNLOCK2</a> structure that describes the allocation to unlock.
 
 ## -returns
 

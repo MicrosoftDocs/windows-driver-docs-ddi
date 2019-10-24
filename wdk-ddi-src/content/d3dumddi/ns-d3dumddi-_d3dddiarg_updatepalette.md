@@ -75,7 +75,7 @@ The D3DDDIARG_UPDATEPALETTE structure describes parameters that are used to upda
 
 
 
-The Microsoft Direct3D runtime passes palette data for updating to the <i>pPaletteData</i> parameter in a call to the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_updatepalette">UpdatePalette</a> function. This palette data is an array of PALETTEENTRY structures.
+The Microsoft Direct3D runtime passes palette data for updating to the <i>pPaletteData</i> parameter in a call to the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updatepalette">UpdatePalette</a> function. This palette data is an array of PALETTEENTRY structures.
 
 
 
@@ -85,7 +85,7 @@ The Microsoft Direct3D runtime passes palette data for updating to the <i>pPalet
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_updatepalette">UpdatePalette</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updatepalette">UpdatePalette</a>
  
 
  

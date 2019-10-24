@@ -48,7 +48,7 @@ req.typenames: DVD_READ_STRUCTURE, *PDVD_READ_STRUCTURE
 ## -description
 
 
-The DVD_READ_STRUCTURE structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_structure">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD descriptor containing information about a DVD disc. 
+The DVD_READ_STRUCTURE structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_structure">IOCTL_DVD_READ_STRUCTURE</a> request to retrieve a DVD descriptor containing information about a DVD disc. 
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ Contains an offset to the logical block address of the descriptor to be retrieve
 
 ### -field Format
 
-Indicates the type of DVD descriptor to retrieve. See the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ne-ntddcdvd-dvd_structure_format">DVD_STRUCTURE_FORMAT</a> enumeration type for further information about the values that can be assigned to this member. 
+Indicates the type of DVD descriptor to retrieve. See the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ne-ntddcdvd-dvd_structure_format">DVD_STRUCTURE_FORMAT</a> enumeration type for further information about the values that can be assigned to this member. 
 
 
 ### -field SessionId
@@ -90,11 +90,11 @@ The DVD_READ_STRUCTURE structure contains data such as copyright information, or
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ne-ntddcdvd-dvd_structure_format">DVD_STRUCTURE_FORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ne-ntddcdvd-dvd_structure_format">DVD_STRUCTURE_FORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_structure">IOCTL_DVD_READ_STRUCTURE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_read_structure">IOCTL_DVD_READ_STRUCTURE</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames: DXGK_ENGINESTATUS
 ## -description
 
 
-Indicates the progress of a node within an active physical display adapter (engine) specified by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryenginestatus">DXGKARG_QUERYENGINESTATUS</a> structure.
+Indicates the progress of a node within an active physical display adapter (engine) specified by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryenginestatus">DXGKARG_QUERYENGINESTATUS</a> structure.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ A 32-bit value that specifies the progress of the physical adapter.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryenginestatus">DXGKARG_QUERYENGINESTATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryenginestatus">DXGKARG_QUERYENGINESTATUS</a>
  
 
  

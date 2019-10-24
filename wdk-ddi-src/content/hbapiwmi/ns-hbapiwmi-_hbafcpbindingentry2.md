@@ -71,7 +71,7 @@ HBA_BIND_TO_D_ID
 
 </td>
 <td>
-Indicates that the target is identified by its fibre channel protocol (FCP) ID. The <b>Fcid</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
+Indicates that the target is identified by its fibre channel protocol (FCP) ID. The <b>Fcid</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
 
 </td>
 </tr>
@@ -81,7 +81,7 @@ HBA_BIND_TO_WWPN
 
 </td>
 <td>
-Indicates that the target is identified by its worldwide port name. The <b>PortWWN</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
+Indicates that the target is identified by its worldwide port name. The <b>PortWWN</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ HBA_BIND_TO_WWNN
 
 </td>
 <td>
-Indicates that the fibre channel target device is identified by its worldwide node name. The <b>NodeWWN</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
+Indicates that the fibre channel target device is identified by its worldwide node name. The <b>NodeWWN</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ HBA_BIND_TO_LUID
 
 </td>
 <td>
-Indicates that the target is identified by its fibre channel logical unit ID. The <b>FcpLun</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
+Indicates that the target is identified by its fibre channel logical unit ID. The <b>FcpLun</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> structure contains this value.
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ For information about what needs to be included to use the symbols that represen
 
 ### -field FCPId
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> that contains the FCP identifier for the logical unit and information about the port to be queried for information about the device.
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpid">HBAFCPID</a> that contains the FCP identifier for the logical unit and information about the port to be queried for information about the device.
 
 
 ### -field Luid
@@ -133,7 +133,7 @@ Contains a structure of type <a href="https://docs.microsoft.com/windows-hardwar
 
 ### -field ScsiId
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbascsiid">HBAScsiID</a> that contains the information that uniquely identifies a logical unit for the operating system.
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbascsiid">HBAScsiID</a> that contains the information that uniquely identifies a logical unit for the operating system.
 
 
 #### - Luid[256]
@@ -145,7 +145,7 @@ Contains the logical unit descriptor for the device that the operating system de
 
 
 
-This structure is very similar to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpbindingentry">HBAFCPBindingEntry</a> structure. The only difference is that HBAFCPBindingEntry2 includes the number that the operating system generates for the logical unit. 
+This structure is very similar to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpbindingentry">HBAFCPBindingEntry</a> structure. The only difference is that HBAFCPBindingEntry2 includes the number that the operating system generates for the logical unit. 
 
 The WMI tool suite generates a declaration of HBAFCPBindingEntry2 automatically when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hbafcpbindingentry-wmi-class">HBAFCPBindingEntry WMI Class</a> that is defined in <i>hbaapi.mof</i>. 
 
@@ -159,7 +159,7 @@ For an explanation of the fibre channel protocol (FCP), see the T11 committee's 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpbindingentry">HBAFCPBindingEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpbindingentry">HBAFCPBindingEntry</a>
 
 
 

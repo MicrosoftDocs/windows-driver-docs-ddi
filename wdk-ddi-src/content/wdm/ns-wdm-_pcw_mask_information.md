@@ -48,7 +48,7 @@ req.typenames: PCW_MASK_INFORMATION, *PPCW_MASK_INFORMATION
 ## -description
 
 
-The PCW_MASK_INFORMATION structure supplies details about the notification to send to the provider. This information is passed as part of the <i>Info</i> parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcw_callback">PcwCallback</a> function. This mask information is included in PCW_CALLBACK_INFORMATION.
+The PCW_MASK_INFORMATION structure supplies details about the notification to send to the provider. This information is passed as part of the <i>Info</i> parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pcw_callback">PcwCallback</a> function. This mask information is included in PCW_CALLBACK_INFORMATION.
 
 
 ## -struct-fields

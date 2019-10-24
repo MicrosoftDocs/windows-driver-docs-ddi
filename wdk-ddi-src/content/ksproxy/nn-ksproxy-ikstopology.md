@@ -68,7 +68,7 @@ The <b>IKsTopology</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikstopology-createnodeinstance">CreateNodeInstance</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikstopology-createnodeinstance">CreateNodeInstance</a>
 </td>
 <td align="left" width="63%">
 Requests a KS filter object to open a topology node object.

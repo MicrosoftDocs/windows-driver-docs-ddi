@@ -60,7 +60,7 @@ The <b>WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</b> structure describes a state
 
 ### -field Type
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ne-wdfdevice-_wdf_state_notification_type">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerator that identifies the type of state change that is being reported.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_state_notification_type">WDF_STATE_NOTIFICATION_TYPE</a>-typed enumerator that identifies the type of state change that is being reported.
 
 
 ### -field Data
@@ -71,12 +71,12 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfde
 
 ### -field Data.EnterState.CurrentState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ne-wdfdevice-_wdf_device_power_policy_state">WDF_DEVICE_POWER_POLICY_STATE</a>-typed enumerator identifies the state machine's current state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_policy_state">WDF_DEVICE_POWER_POLICY_STATE</a>-typed enumerator identifies the state machine's current state.
 
 
 ### -field Data.EnterState.NewState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ne-wdfdevice-_wdf_device_power_policy_state">WDF_DEVICE_POWER_POLICY_STATE</a>-typed enumerator identifies the state machine's next state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_policy_state">WDF_DEVICE_POWER_POLICY_STATE</a>-typed enumerator identifies the state machine's next state.
 
 
 ### -field Data.PostProcessState
@@ -84,7 +84,7 @@ If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs
 
 ### -field Data.PostProcessState.CurrentState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ne-wdfdevice-_wdf_device_power_policy_state">WDF_DEVICE_POWER_POLICY_STATE</a>-typed enumerator identifies the state machine's current state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_policy_state">WDF_DEVICE_POWER_POLICY_STATE</a>-typed enumerator identifies the state machine's current state.
 
 
 ### -field Data.LeaveState
@@ -92,19 +92,19 @@ If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs
 
 ### -field Data.LeaveState.CurrentState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ne-wdfdevice-_wdf_device_power_policy_state">WDF_DEVICE_POWER_POLICY_STATE</a>-typed enumerator identifies the state machine's current state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_policy_state">WDF_DEVICE_POWER_POLICY_STATE</a>-typed enumerator identifies the state machine's current state.
 
 
 ### -field Data.LeaveState.NewState
 
-If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ne-wdfdevice-_wdf_device_power_policy_state">WDF_DEVICE_POWER_POLICY_STATE</a>-typed enumerator identifies the state machine's next state.
+If <b>Type</b> is <b>StateNotificationEnterState</b>, this <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_device_power_policy_state">WDF_DEVICE_POWER_POLICY_STATE</a>-typed enumerator identifies the state machine's next state.
 
 
 ## -remarks
 
 
 
-The <b>WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</b> structure is an input argument to a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_power_policy_state_change_notification">EvtDevicePowerPolicyStateChange</a> callback function.
+The <b>WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</b> structure is an input argument to a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_power_policy_state_change_notification">EvtDevicePowerPolicyStateChange</a> callback function.
 
 
 
@@ -114,7 +114,7 @@ The <b>WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</b> structure is an input argum
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitregisterpowerpolicystatechangecallback">WdfDeviceInitRegisterPowerPolicyStateChangeCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitregisterpowerpolicystatechangecallback">WdfDeviceInitRegisterPowerPolicyStateChangeCallback</a>
  
 
  

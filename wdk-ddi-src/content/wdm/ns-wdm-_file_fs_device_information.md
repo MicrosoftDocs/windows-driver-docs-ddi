@@ -63,7 +63,7 @@ Set when a driver calls <b>IoCreateDevice</b> as appropriate for the type of und
 
 ### -field Characteristics
 
-The device characteristics. For a description of relevant values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
+The device characteristics. For a description of relevant values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 
 ## -see-also
@@ -71,7 +71,7 @@ The device characteristics. For a description of relevant values, see <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
  
 
  

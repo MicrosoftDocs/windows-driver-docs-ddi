@@ -104,7 +104,7 @@ N/A
 
 
 
-This request initiates the process to disconnect the Service Level Connection and ends without waiting for the disconnection to complete. Connection status can be determined using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_connection_status_update">IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE</a>.
+This request initiates the process to disconnect the Service Level Connection and ends without waiting for the disconnection to complete. Connection status can be determined using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_connection_status_update">IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE</a>.
 
 The audio driver sends this request from its handler for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-oneshot-disconnect">KSPROPERTY_ONESHOT_DISCONNECT</a> KS property.
 
@@ -120,7 +120,7 @@ The audio driver sends this request from its handler for the <a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_connection_status_update">IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_connection_status_update">IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE</a>
 
 
 

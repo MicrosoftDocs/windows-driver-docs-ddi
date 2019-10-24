@@ -82,7 +82,7 @@ For more information about the <b>WdfRequestIsReserved</b> method, see <a href="
 
 #### Examples
 
-The following code example determines whether a request object that a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_read">EvtIoRead</a> callback function has received is one that the driver created for low-memory situations.
+The following code example determines whether a request object that a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_io_read">EvtIoRead</a> callback function has received is one that the driver created for low-memory situations.
 
 ```cpp
 VOID
@@ -111,7 +111,7 @@ VOID
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdfioqueueassignforwardprogresspolicy">WdfIoQueueAssignForwardProgressPolicy</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueueassignforwardprogresspolicy">WdfIoQueueAssignForwardProgressPolicy</a>
  
 
  

@@ -58,12 +58,12 @@ The DXVAHDDDI_DEVICE_DESC structure describes a decode device.
 
 ### -field pContentDesc
 
-[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvahdddi_content_desc">DXVAHDDDI_CONTENT_DESC</a> structure that describes how the device decodes content. 
+[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_content_desc">DXVAHDDDI_CONTENT_DESC</a> structure that describes how the device decodes content. 
 
 
 ### -field Usage
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ne-d3dumddi-_dxvahdddi_device_usage">DXVAHDDDI_DEVICE_USAGE</a>-typed value that indicates how the decode device plays video. 
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_device_usage">DXVAHDDDI_DEVICE_USAGE</a>-typed value that indicates how the decode device plays video. 
 
 
 ## -remarks
@@ -80,11 +80,11 @@ The driver considers the value in the <b>Usage</b> member and the information to
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvahdddi_content_desc">DXVAHDDDI_CONTENT_DESC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_content_desc">DXVAHDDDI_CONTENT_DESC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ne-d3dumddi-_dxvahdddi_device_usage">DXVAHDDDI_DEVICE_USAGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_dxvahdddi_device_usage">DXVAHDDDI_DEVICE_USAGE</a>
  
 
  

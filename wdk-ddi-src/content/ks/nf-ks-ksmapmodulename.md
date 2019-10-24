@@ -96,7 +96,7 @@ Pointer to a location into which the function returns the value type of the spec
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgetimagenameandresourceid">KsGetImageNameAndResourceId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgetimagenameandresourceid">KsGetImageNameAndResourceId</a>
  
 
  

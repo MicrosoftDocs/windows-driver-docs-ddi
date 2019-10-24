@@ -86,11 +86,11 @@ The codec ID can be any of the values in the following table.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthhfpddi/ne-bthhfpddi-_hfp_bypass_codec_id_version">HFP_BYPASS_CODEC_ID_VERSION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ne-bthhfpddi-_hfp_bypass_codec_id_version">HFP_BYPASS_CODEC_ID_VERSION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_codec_id">IOCTL_BTHHFP_DEVICE_GET_CODEC_ID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_codec_id">IOCTL_BTHHFP_DEVICE_GET_CODEC_ID</a>
  
 
  

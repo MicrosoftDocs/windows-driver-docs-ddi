@@ -109,7 +109,7 @@ The disk device does not support IOCTL_DISK_IS_WRITABLE requests. This is an err
 
 
 
-<b>FltIsVolumeWritable</b> sends an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a> request to the underlying storage device that is associated with the given volume or instance. 
+<b>FltIsVolumeWritable</b> sends an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a> request to the underlying storage device that is associated with the given volume or instance. 
 
 In versions of Windows prior to Windows Vista, the <b>FltIsVolumeWritable</b> routine accepted only volumes, not instances. 
 
@@ -121,7 +121,7 @@ In versions of Windows prior to Windows Vista, the <b>FltIsVolumeWritable</b> ro
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a>
  
 
  

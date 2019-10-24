@@ -66,7 +66,7 @@ The D3DDDIARG_SETDEPTHSTENCIL structure specifies a depth buffer.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setdepthstencil">SetDepthStencil</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setdepthstencil">SetDepthStencil</a>
  
 
  

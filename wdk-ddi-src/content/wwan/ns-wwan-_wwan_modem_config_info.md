@@ -55,7 +55,7 @@ The <b>WWAN_MODEM_CONFIG_INFO</b> structure represents the modem's configuration
 
 ### -field ConfigMode
 
-The modem's configuration mode. For a list of defined values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_modem_config_mode">WWAN_MODEM_CONFIG_MODE</a>.
+The modem's configuration mode. For a list of defined values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_modem_config_mode">WWAN_MODEM_CONFIG_MODE</a>.
 
 ### -field ConfigState
 
@@ -87,7 +87,7 @@ A DWORD value that indicates if the current configuration is the default configu
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_modem_config_info">NDIS_WWAN_MODEM_CONFIG_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_modem_config_info">NDIS_WWAN_MODEM_CONFIG_INFO</a>
 
 
 
@@ -95,7 +95,7 @@ A DWORD value that indicates if the current configuration is the default configu
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_modem_config_mode">WWAN_MODEM_CONFIG_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_modem_config_mode">WWAN_MODEM_CONFIG_MODE</a>
 
 
 

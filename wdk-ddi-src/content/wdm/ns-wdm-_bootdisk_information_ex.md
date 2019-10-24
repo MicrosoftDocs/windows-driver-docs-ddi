@@ -100,7 +100,7 @@ If the <b>SystemDeviceIsGpt</b> member is <b>TRUE</b>, this specifies the GUID f
 
 
 
-On Windows XP and later, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetbootdiskinformation">IoGetBootDiskInformation</a> returns this structure to describe the boot and system disks.
+On Windows XP and later, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetbootdiskinformation">IoGetBootDiskInformation</a> returns this structure to describe the boot and system disks.
 
 
 
@@ -110,11 +110,11 @@ On Windows XP and later, <a href="https://docs.microsoft.com/windows-hardware/dr
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_bootdisk_information">BOOTDISK_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_bootdisk_information">BOOTDISK_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetbootdiskinformation">IoGetBootDiskInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetbootdiskinformation">IoGetBootDiskInformation</a>
  
 
  

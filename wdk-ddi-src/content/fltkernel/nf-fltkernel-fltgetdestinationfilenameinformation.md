@@ -125,7 +125,7 @@ Pointer to a caller-allocated variable that receives the address of a system-all
 This return value means one of the following:
 <ul>
 <li>
-<b>FltGetDestinationFileNameInformation</b> cannot get file name information if the <b>TopLevelIrp</b> field of the current thread is not <b>NULL</b>, because the resulting file system recursion could cause deadlocks or stack overflows. (For more information about this issue, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iogettoplevelirp" data-linktype="external">IoGetTopLevelIrp</a>.)
+<b>FltGetDestinationFileNameInformation</b> cannot get file name information if the <b>TopLevelIrp</b> field of the current thread is not <b>NULL</b>, because the resulting file system recursion could cause deadlocks or stack overflows. (For more information about this issue, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogettoplevelirp" data-linktype="external">IoGetTopLevelIrp</a>.)
 </li>
 <li>
 FLT_FILE_NAME_SHORT was specified for the name format flag in the <i>NameOptions</i> parameter.
@@ -176,7 +176,7 @@ The file object pointer that is passed for the *FileObject* parameter must be ei
 
 If the user opened the file by using the file ID but does not have traverse privilege for the entire path, **FltGetDestinationFileNameInformation** returns only the portion of the path that the user has privilege for.
 
-A rename or hard-link-creation operation can only be performed within a volume and not across volumes. Therefore, such an operation fails if the destination path name contains a mount point that resolves to a volume other than the one where the file resides. For more information about rename operations, see the [FILE_RENAME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_rename_information) structure. For more information about hard-link creation operations, see the [FILE_LINK_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_link_information) structures.
+A rename or hard-link-creation operation can only be performed within a volume and not across volumes. Therefore, such an operation fails if the destination path name contains a mount point that resolves to a volume other than the one where the file resides. For more information about rename operations, see the [FILE_RENAME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_rename_information) structure. For more information about hard-link creation operations, see the [FILE_LINK_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_link_information) structures.
 
 After a successful call to **FltGetDestinationFileNameInformation**, the caller is responsible for releasing the pointer returned in the *RetFileNameInformation* parameter when it is no longer needed by calling [FltReleaseFileNameInformation](nf-fltkernel-fltreleasefilenameinformation.md).
 
@@ -197,9 +197,9 @@ The following paired operations can cause the file name *name* to be tunneled:
 
 ## -see-also
 
-[FILE_RENAME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_rename_information)
+[FILE_RENAME_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_rename_information)
 
-[FILE_LINK_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_link_information)
+[FILE_LINK_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_link_information)
 
 [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md)
 
@@ -221,7 +221,7 @@ The following paired operations can cause the file name *name* to be tunneled:
 
 [FltReleaseFileNameInformation](nf-fltkernel-fltreleasefilenameinformation.md)
 
-[IoGetTopLevelIrp](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iogettoplevelirp)
+[IoGetTopLevelIrp](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogettoplevelirp)
 
 [PFLT_POST_OPERATION_CALLBACK](nc-fltkernel-pflt_post_operation_callback.md)
 

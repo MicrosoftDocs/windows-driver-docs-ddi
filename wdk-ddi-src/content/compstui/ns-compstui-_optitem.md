@@ -46,7 +46,7 @@ req.typenames: OPTITEM, *POPTITEM
 
 ## -description
 
-The OPTITEM structure is used by CPSUI applications (including printer interface DLLs) for describing one [property sheet option](https://docs.microsoft.com/windows-hardware/drivers/print/property-sheet-options) on a property sheet page, if the page is described by a [COMPROPSHEETUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_compropsheetui) structure.
+The OPTITEM structure is used by CPSUI applications (including printer interface DLLs) for describing one [property sheet option](https://docs.microsoft.com/windows-hardware/drivers/print/property-sheet-options) on a property sheet page, if the page is described by a [COMPROPSHEETUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure.
 
 ## -struct-fields
 
@@ -60,7 +60,7 @@ Specifies the level of this option in the treeview. For more information, see th
 
 ### -field DlgPageIdx
 
-Identifies the dialog to which the option belongs. Specifies an array index into the DLGPAGE array pointed to by the **pDlgPage** member of the [COMPROPSHEETUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_compropsheetui) structure.
+Identifies the dialog to which the option belongs. Specifies an array index into the DLGPAGE array pointed to by the **pDlgPage** member of the [COMPROPSHEETUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure.
 
 If **pDlgPage** points to a CPSUI-supplied, predefined DLGPAGE structure, CPSUI supplies this index.
 
@@ -70,7 +70,7 @@ Optional bit flags that modify the option's characteristics. The OPTIF_CHANGEONC
 
 #### OPTIF_CALLBACK
 
-When a user modifies the option, CPSUI should call the [_CPSUICALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/nc-compstui-_cpsuicallback)-typed callback function specified in the [COMPROPSHEETUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_compropsheetui) structure.
+When a user modifies the option, CPSUI should call the [_CPSUICALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback)-typed callback function specified in the [COMPROPSHEETUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure.
 
 #### OPTIF_CHANGED
 
@@ -148,7 +148,7 @@ This flag can only be used when **pOptType** contains **NULL**.
 
 Optional 32-bit value that can be set and used by the caller.
 
-(Printer interface DLLs for [Unidrv](https://docs.microsoft.com/windows-hardware/drivers/print/microsoft-universal-printer-driver) and [Pscript](https://docs.microsoft.com/windows-hardware/drivers/print/microsoft-postscript-printer-driver) use this member to supply a pointer to a [USERDATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_userdata) structure. [User interface plug-ins](https://docs.microsoft.com/windows-hardware/drivers/print/user-interface-plug-ins) can reference this structure.)
+(Printer interface DLLs for [Unidrv](https://docs.microsoft.com/windows-hardware/drivers/print/microsoft-universal-printer-driver) and [Pscript](https://docs.microsoft.com/windows-hardware/drivers/print/microsoft-postscript-printer-driver) use this member to supply a pointer to a [USERDATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_userdata) structure. [User interface plug-ins](https://docs.microsoft.com/windows-hardware/drivers/print/user-interface-plug-ins) can reference this structure.)
 
 ### -field pName
 
@@ -176,21 +176,21 @@ Pointer to EXTCHKBOX structure
 
 ### -field DUMMYUNIONNAME2.pExtPush
 
-This union can be a pointer to an [EXTCHKBOX](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_extchkbox) structure, a pointer to an [EXTPUSH](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_extpush) structure, or **NULL**.
+This union can be a pointer to an [EXTCHKBOX](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_extchkbox) structure, a pointer to an [EXTPUSH](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_extpush) structure, or **NULL**.
 
 An OPTITEM structure can optionally have an EXTCHKBOX structure, an EXTPUSH structure, or neither, associated with it. If this union is not **NULL**, and if OPTIF_EXT_IS_EXTPUSH is set in **Flags**, **pExtPush** is valid. If the flag is not set, **pExtChkBox** is valid.
 
 ### -field pOptType
 
-Pointer to an [OPTTYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_opttype) structure that describes the option's display type. If **NULL**, the option has no parameters and is used as a parent to options with a higher **Level** value. The child options must immediately follow the parent in the OPTITEM array. (See the following Remarks section.)
+Pointer to an [OPTTYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_opttype) structure that describes the option's display type. If **NULL**, the option has no parameters and is used as a parent to options with a higher **Level** value. The child options must immediately follow the parent in the OPTITEM array. (See the following Remarks section.)
 
 ### -field HelpIndex
 
-Help file index, which identifies help text to be associated with the option. If zero, help file text does not exist for this option. Note that the **pOIExt** member of this structure must be set with the address of an [OIEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_oiext) structure in order for help text functionality to exist.
+Help file index, which identifies help text to be associated with the option. If zero, help file text does not exist for this option. Note that the **pOIExt** member of this structure must be set with the address of an [OIEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_oiext) structure in order for help text functionality to exist.
 
 ### -field DMPubID
 
-This member is meant for use by printer interface DLLs, when creating a **Document Properties** property sheet (see [DrvDocumentPropertySheets](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentpropertysheets)). It is a constant value specifying which, if any, public member of the [DEVMODEW](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew) structure is associated with this option. The following table lists available constants, the associated DEVMODE structure member, and the required value for **pName** for each constant.
+This member is meant for use by printer interface DLLs, when creating a **Document Properties** property sheet (see [DrvDocumentPropertySheets](https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets)). It is a constant value specifying which, if any, public member of the [DEVMODEW](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew) structure is associated with this option. The following table lists available constants, the associated DEVMODE structure member, and the required value for **pName** for each constant.
 
 | Constant Value | Required pName Value | Structure Member |
 | --- | --- | --- |
@@ -214,7 +214,7 @@ This member is meant for use by printer interface DLLs, when creating a **Docume
 | DMPUB_NONE | Not contained in public section of DEVMODE. | &nbsp; |
 | Greater than or equal to DMPUB_USER | Ignored by CPSUI, can be a caller-defined value. | &nbsp; |
 
-CPSUI does not maintain a DEVMODE structure. The application is responsible for copying user-selected option parameters into a DEVMODE structure. CPSUI uses **DMPubID** contents to determine treeview placement of standard options, and to determine the contents of the **Layout** and **Paper/Quality** tabs (see the **pDlgPage** member of the [COMPROPSHEETUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_compropsheetui) structure).
+CPSUI does not maintain a DEVMODE structure. The application is responsible for copying user-selected option parameters into a DEVMODE structure. CPSUI uses **DMPubID** contents to determine treeview placement of standard options, and to determine the contents of the **Layout** and **Paper/Quality** tabs (see the **pDlgPage** member of the [COMPROPSHEETUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure).
 
 For additional information about using the **DMPubID** member, see the following Remarks section.
 
@@ -228,7 +228,7 @@ Reserved, must be initialized to zero.
 
 ### -field pOIExt
 
-Pointer to an optional [OIEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_oiext) structure. The caller is responsible for allocating storage for this structure.
+Pointer to an optional [OIEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_oiext) structure. The caller is responsible for allocating storage for this structure.
 
 ### -field dwReserved
 
@@ -236,7 +236,7 @@ Reserved, must be initialized to zero.
 
 ## -remarks
 
-OPTITEM structures should be placed in an array, and the array's address should be placed in the **pOptItem** member of a [COMPROPSHEETUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_compropsheetui) structure.
+OPTITEM structures should be placed in an array, and the array's address should be placed in the **pOptItem** member of a [COMPROPSHEETUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui) structure.
 
 The **Level** member allows you to create child nodes in the treeview. For example, to create a set of option nodes under a level 1 parent node, specify level 2 for each child node and include their OPTITEM structures in the OPTITEM array, immediately after the parent's OPTITEM structure. In the parent's OPTITEM structure, **pOptType** should be **NULL**.
 
@@ -247,7 +247,7 @@ For option values that are stored in a printer's DEVMODE structure, the **DMPubI
 | DMPubID Value | Required CPSUI Option Type |
 | --- | --- | --- |
 | DMPUB_COLOR | [TVOT_2STATES](https://docs.microsoft.com/windows-hardware/drivers/print/tvot-2states) |
-| DMPUB_COPIES_COLLATE | [TVOT_UDARROW](https://docs.microsoft.com/windows-hardware/drivers/print/tvot-udarrow) plus [EXTCHKBOX](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_extchkbox) (See comments following this table.) |
+| DMPUB_COPIES_COLLATE | [TVOT_UDARROW](https://docs.microsoft.com/windows-hardware/drivers/print/tvot-udarrow) plus [EXTCHKBOX](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_extchkbox) (See comments following this table.) |
 | DMPUB_DEFSOURCE | [TVOT_LISTBOX](https://docs.microsoft.com/windows-hardware/drivers/print/tvot-listbox) |
 | DMPUB_DITHERTYPE | [TVOT_LISTBOX](https://docs.microsoft.com/windows-hardware/drivers/print/tvot-listbox) |
 | DMPUB_DUPLEX | [TVOT_2STATES](https://docs.microsoft.com/windows-hardware/drivers/print/tvot-2states) or [TVOT_3STATES](https://docs.microsoft.com/windows-hardware/drivers/print/tvot-3states) |
@@ -279,6 +279,6 @@ If OPTIF_EXT_HIDE is not set in **Flags**, CPSUI enables the check box if a user
 
 Additionally, CPSUI sets the option's display text to **copy** for one copy and **copies** for more than one copy.
 
-If **DMPubID** is DMPUB_COLOR, its first [OPTPARAM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_optparam) structure (**Sel**=0) must represent Gray Scale, and **pData** in the OPTPARAM structure must be IDS_CPSUI_GRAYSCALE. Its second OPTPARAM structure (**Sel**=1) must represent Color, and **pData** in the OPTPARAM structure must be IDS_CPSUI_COLOR. If another option's **DMPubID** is DMPUB_ICMINTENT and if Color is not selected, CPSUI disables the option for which DMPUB_ICMINTENT is specified.
+If **DMPubID** is DMPUB_COLOR, its first [OPTPARAM](https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optparam) structure (**Sel**=0) must represent Gray Scale, and **pData** in the OPTPARAM structure must be IDS_CPSUI_GRAYSCALE. Its second OPTPARAM structure (**Sel**=1) must represent Color, and **pData** in the OPTPARAM structure must be IDS_CPSUI_COLOR. If another option's **DMPubID** is DMPUB_ICMINTENT and if Color is not selected, CPSUI disables the option for which DMPUB_ICMINTENT is specified.
 
 CPSUI disables color matching when Color is not selected.

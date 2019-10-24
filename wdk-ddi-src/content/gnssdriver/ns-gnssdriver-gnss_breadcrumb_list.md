@@ -48,7 +48,7 @@ req.typenames: GNSS_BREADCRUMB_LIST, *PGNSS_BREADCRUMB_LIST
 ## -description
 
 
-This structure contains the response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ni-gnssdriver-ioctl_gnss_pop_breadcrumbs">IOCTL_GNSS_POP_BREADCRUMBS</a>.
+This structure contains the response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ni-gnssdriver-ioctl_gnss_pop_breadcrumbs">IOCTL_GNSS_POP_BREADCRUMBS</a>.
 
 
 ## -struct-fields

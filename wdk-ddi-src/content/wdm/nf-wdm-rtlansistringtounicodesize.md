@@ -79,11 +79,11 @@ Callers of <b>RtlAnsiStringToUnicodeSize</b> must be running at IRQL = PASSIVE_L
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlxansistringtounicodesize">RtlxAnsiStringToUnicodeSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlxansistringtounicodesize">RtlxAnsiStringToUnicodeSize</a>
  
 
  

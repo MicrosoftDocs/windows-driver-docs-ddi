@@ -59,7 +59,7 @@ The <b>AuxKlibGetBugCheckData</b> routine retrieves information about a bug chec
 
 ### -param BugCheckData [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/ns-aux_klib-_kbugcheck_data">KBUGCHECK_DATA</a> structure that contains information about the bug check. The <i>BugCheckData</i> size of this structure should be set equal to the size, in bytes, of the <b>KBUGCHECK_DATA</b> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_kbugcheck_data">KBUGCHECK_DATA</a> structure that contains information about the bug check. The <i>BugCheckData</i> size of this structure should be set equal to the size, in bytes, of the <b>KBUGCHECK_DATA</b> structure.
 
 
 ## -returns
@@ -75,9 +75,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 
 
-The <b>AuxKlibGetBugCheckData</b> routine can be called only from a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kbugcheck_callback_routine">BugCheckCallback</a> routine.
+The <b>AuxKlibGetBugCheckData</b> routine can be called only from a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_callback_routine">BugCheckCallback</a> routine.
 
-Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a> before calling <b>AuxKlibGetBugCheckData</b>.
+Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a> before calling <b>AuxKlibGetBugCheckData</b>.
 
 
 
@@ -87,15 +87,15 @@ Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kbugcheck_callback_routine">BugCheckCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_callback_routine">BugCheckCallback</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/ns-aux_klib-_kbugcheck_data">KBUGCHECK_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/ns-aux_klib-_kbugcheck_data">KBUGCHECK_DATA</a>
  
 
  

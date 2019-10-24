@@ -67,7 +67,7 @@ The <b>IDebugRegisters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getdescription">GetDescription</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getdescription">GetDescription</a>
 </td>
 <td align="left" width="63%">
 Returns the description of a register.
@@ -76,7 +76,7 @@ Returns the description of a register.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getframeoffset">GetFrameOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getframeoffset">GetFrameOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the location of the stack frame for the current function.
@@ -85,7 +85,7 @@ Returns the location of the stack frame for the current function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getindexbyname">GetIndexByName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getindexbyname">GetIndexByName</a>
 </td>
 <td align="left" width="63%">
 Returns the index of the named register.
@@ -94,7 +94,7 @@ Returns the index of the named register.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getinstructionoffset">GetInstructionOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getinstructionoffset">GetInstructionOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the location of the current thread's current instruction.
@@ -103,7 +103,7 @@ Returns the location of the current thread's current instruction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getnumberregisters">GetNumberRegisters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getnumberregisters">GetNumberRegisters</a>
 </td>
 <td align="left" width="63%">
 Returns the number of registers on the target computer.
@@ -112,7 +112,7 @@ Returns the number of registers on the target computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getstackoffset">GetStackOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getstackoffset">GetStackOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the current thread's current stack location.
@@ -121,7 +121,7 @@ Returns the current thread's current stack location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getvalue">GetValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Gets the value of one of the target's registers.
@@ -130,7 +130,7 @@ Gets the value of one of the target's registers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getvalues">GetValues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getvalues">GetValues</a>
 </td>
 <td align="left" width="63%">
 Gets the value of several of the target's registers.
@@ -139,7 +139,7 @@ Gets the value of several of the target's registers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-outputregisters">OutputRegisters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-outputregisters">OutputRegisters</a>
 </td>
 <td align="left" width="63%">
 Formats and sends the target's registers to the clients as output.
@@ -148,7 +148,7 @@ Formats and sends the target's registers to the clients as output.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setvalue">SetValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setvalue">SetValue</a>
 </td>
 <td align="left" width="63%">
 Sets the value of one of the target's registers.
@@ -157,7 +157,7 @@ Sets the value of one of the target's registers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-setvalues">SetValues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-setvalues">SetValues</a>
 </td>
 <td align="left" width="63%">
 Sets the value of several of the target's registers.
@@ -172,7 +172,7 @@ Sets the value of several of the target's registers.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
  
 
  

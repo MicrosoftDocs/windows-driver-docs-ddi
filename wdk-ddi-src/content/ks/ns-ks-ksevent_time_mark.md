@@ -58,7 +58,7 @@ The KSEVENT_TIME_MARK structure is used in various events within the <a href="ht
 
 ### -field EventData
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kseventdata">KSEVENTDATA</a> that specifies the standard event structure.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> that specifies the standard event structure.
 
 
 ### -field MarkTime
@@ -84,7 +84,7 @@ The flags indicate the type of units for the interval. The interval can be speci
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksevent_time_interval">KSEVENT_TIME_INTERVAL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksevent_time_interval">KSEVENT_TIME_INTERVAL</a>
  
 
  

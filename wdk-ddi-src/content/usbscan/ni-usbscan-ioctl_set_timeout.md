@@ -52,7 +52,7 @@ Sets the time-out value for USB bulk IN, bulk OUT, or interrupt pipe access.
 
 ### -input-buffer
 
-Pointer to a [USBSCAN_TIMEOUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ns-usbscan-_usbscan_timeout) structure.
+Pointer to a [USBSCAN_TIMEOUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_usbscan_timeout) structure.
 
 ### -input-buffer-length
 
@@ -78,7 +78,7 @@ Zero.
 
 ### DeviceIoControl Parameters</h3>
 
-When the **DeviceloControl** function is called with the IOCTL_SET_TIMEOUT I/O control code, the caller must specify the address of a [USBSCAN_TIMEOUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ns-usbscan-_usbscan_timeout) structure as the function's *lpInBuffer* parameter.
+When the **DeviceloControl** function is called with the IOCTL_SET_TIMEOUT I/O control code, the caller must specify the address of a [USBSCAN_TIMEOUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_usbscan_timeout) structure as the function's *lpInBuffer* parameter.
 
 Using the USBSCAN_TIMEOUT structure's contents, the kernel-mode driver resets the time-out value for each type of operation: bulk IN read, bulk OUT write, or interrupt.
 

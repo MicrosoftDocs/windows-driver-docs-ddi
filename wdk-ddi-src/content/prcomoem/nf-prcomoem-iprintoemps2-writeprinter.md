@@ -58,7 +58,7 @@ The <code>IPrintOemPS2::WritePrinter</code> method, if supported, enables a rend
 
 ### -param pdevobj
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 
 ### -param pBuf

@@ -68,12 +68,12 @@ The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 | **Value** | **Meaning** |
 |:--|:--|
 | DXGK_HANDLE_ALLOCATION (1) | The allocations belong to a resource. | 
-| DXGK_HANDLE_RESOURCE (2) | The [DxgkDdiCreateAllocation](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation)  call is the result of the creation of the primary surface. |
+| DXGK_HANDLE_RESOURCE (2) | The [DxgkDdiCreateAllocation](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation)  call is the result of the creation of the primary surface. |
 
 
 ### -field Flags
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkcb_gethandledataflags">DXGKCB_GETHANDLEDATAFLAGS</a> structure that indicates if allocations belong to a resource.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkcb_gethandledataflags">DXGKCB_GETHANDLEDATAFLAGS</a> structure that indicates if allocations belong to a resource.
 
 
 ## -see-also
@@ -81,15 +81,15 @@ The DXGKARGCB_GETHANDLEDATA structure describes a handle to private data.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkcb_gethandledataflags">DXGKCB_GETHANDLEDATAFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkcb_gethandledataflags">DXGKCB_GETHANDLEDATAFLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_gethandledata">DxgkCbGetHandleData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_gethandledata">DxgkCbGetHandleData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
  
 
  

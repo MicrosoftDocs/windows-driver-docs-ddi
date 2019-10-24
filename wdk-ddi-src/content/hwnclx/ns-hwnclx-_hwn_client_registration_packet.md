@@ -139,7 +139,7 @@ A pointer to the client driver's implementation of the  <a href="..\hwnclx\nc-hw
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Hardware notifications reference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>
 
 
 

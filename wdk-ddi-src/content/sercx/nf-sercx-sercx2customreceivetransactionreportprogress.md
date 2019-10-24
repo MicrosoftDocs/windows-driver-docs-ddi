@@ -58,7 +58,7 @@ The <b>SerCx2CustomReceiveTransactionReportProgress</b> method reports whether p
 
 ### -param CustomReceiveTransaction
 
-<p>A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles"><b>SERCX2CUSTOMRECEIVETRANSACTION</b></a> handle to a custom-receive object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2customreceivetransactioncreate"><b>SerCx2CustomReceiveTransactionCreate</b></a> method to create this object.</p>
+<p>A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles"><b>SERCX2CUSTOMRECEIVETRANSACTION</b></a> handle to a custom-receive object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioncreate"><b>SerCx2CustomReceiveTransactionCreate</b></a> method to create this object.</p>
 
 
 ### -param Progress [in]
@@ -69,7 +69,7 @@ Whether progress is being made toward completing the custom-receive transaction.
 <li>SERCX2_CUSTOM_RECEIVE_NO_PROGRESS</li>
 <li>SERCX2_CUSTOM_RECEIVE_BYTES_TRANSFERRED</li>
 </ul>
-For more information about these enumeration constants, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/ne-sercx-_sercx2_custom_receive_transaction_progress">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>.
+For more information about these enumeration constants, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ne-sercx-_sercx2_custom_receive_transaction_progress">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>.
 
 
 ## -returns
@@ -109,11 +109,11 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/ne-sercx-_sercx2_custom_receive_transaction_progress">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ne-sercx-_sercx2_custom_receive_transaction_progress">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2customreceivetransactioncreate">SerCx2CustomReceiveTransactionCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioncreate">SerCx2CustomReceiveTransactionCreate</a>
  
 
  

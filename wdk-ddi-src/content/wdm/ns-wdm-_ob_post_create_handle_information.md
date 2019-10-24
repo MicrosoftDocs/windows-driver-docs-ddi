@@ -48,7 +48,7 @@ req.typenames: OB_POST_CREATE_HANDLE_INFORMATION, *POB_POST_CREATE_HANDLE_INFORM
 ## -description
 
 
-The <b>OB_POST_CREATE_HANDLE_INFORMATION</b> structure provides information  to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a> routine about a thread or process handle that has been opened.
+The <b>OB_POST_CREATE_HANDLE_INFORMATION</b> structure provides information  to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a> routine about a thread or process handle that has been opened.
 
 
 ## -struct-fields
@@ -70,7 +70,7 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-ma
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a>
  
 
  

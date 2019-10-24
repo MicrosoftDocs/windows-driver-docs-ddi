@@ -94,7 +94,7 @@ A pointer to the connection information that specifies the remote address. on wh
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxce/nf-rxce-rxceteardownconnection">RxCeTearDownConnection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxceteardownconnection">RxCeTearDownConnection</a>
 
 
 

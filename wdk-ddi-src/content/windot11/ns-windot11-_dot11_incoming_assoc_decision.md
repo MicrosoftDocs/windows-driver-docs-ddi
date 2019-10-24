@@ -164,7 +164,7 @@ The length of the additional information elements (IEs), in bytes, which the NIC
 
 
 This structure is used with
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/windot11/ns-windot11-_dot11_incoming_assoc_decision_v2">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/windot11/ns-windot11-_dot11_incoming_assoc_decision_v2">
     OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>.
 
 
@@ -172,7 +172,7 @@ This structure is used with
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/windot11/ns-windot11-_dot11_incoming_assoc_decision_v2">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/windot11/ns-windot11-_dot11_incoming_assoc_decision_v2">
    OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>
 
 

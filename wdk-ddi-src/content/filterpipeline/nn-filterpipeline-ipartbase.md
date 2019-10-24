@@ -68,7 +68,7 @@ The <b>IPartBase</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ipartbase-getpartcompression">IPartBase::GetPartCompression</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ipartbase-getpartcompression">IPartBase::GetPartCompression</a>
 </td>
 <td align="left" width="63%">
 The <b>GetPartCompression</b> method gets the compression of the part.
@@ -77,7 +77,7 @@ The <b>GetPartCompression</b> method gets the compression of the part.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ipartbase-getstream">IPartBase::GetStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ipartbase-getstream">IPartBase::GetStream</a>
 </td>
 <td align="left" width="63%">
 The <b>GetStream</b> method gets the stream object that contains the part data. Each part has part-specific data that is associated with it (for example, a font, image, and page markup).
@@ -86,7 +86,7 @@ The <b>GetStream</b> method gets the stream object that contains the part data. 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ipartbase-geturi">IPartBase::GetUri</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ipartbase-geturi">IPartBase::GetUri</a>
 </td>
 <td align="left" width="63%">
 The <b>GetUri</b> method gets the URI of the part.
@@ -95,7 +95,7 @@ The <b>GetUri</b> method gets the URI of the part.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ipartbase-setpartcompression">IPartBase::SetPartCompression</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ipartbase-setpartcompression">IPartBase::SetPartCompression</a>
 </td>
 <td align="left" width="63%">
 The <b>SetPartCompression</b> method sets the compression of the part.

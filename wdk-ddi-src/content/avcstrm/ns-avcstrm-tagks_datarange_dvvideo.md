@@ -71,7 +71,7 @@ Specifies the digital video information, for example, sound tracks and video inf
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_dvinfo">DVINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_dvinfo">DVINFO</a>
 
 
 

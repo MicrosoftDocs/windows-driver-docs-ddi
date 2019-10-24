@@ -63,5 +63,5 @@ a context.  When performing an operation on the location (reading bytes, writing
 a valid host context must be supplied.
 
 ## -see-also
-[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/)
+[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgmodel/)
 

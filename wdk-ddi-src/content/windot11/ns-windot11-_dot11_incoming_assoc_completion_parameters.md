@@ -255,7 +255,7 @@ The Beacon frame should be the latest frame used by the driver, except that real
 
 The Native 802.11 miniport driver includes a DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure when
     the driver makes an
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/windot11/ns-windot11-dot11_association_completion_parameters">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/windot11/ns-windot11-dot11_association_completion_parameters">
     NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION</a> status indication.
 
 The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end of an
@@ -275,7 +275,7 @@ The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/windot11/ns-windot11-dot11_association_completion_parameters">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/windot11/ns-windot11-dot11_association_completion_parameters">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION</a>
 
 

@@ -58,7 +58,7 @@ The KSEVENT_TIME_INTERVAL structure is used in various events within the <a href
 
 ### -field EventData
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kseventdata">KSEVENTDATA</a> that specifies the standard event structure.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> that specifies the standard event structure.
 
 
 ### -field TimeBase
@@ -80,7 +80,7 @@ Specifies the subsequent interval when the event should continue to be signaled.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksevent_time_mark">KSEVENT_TIME_MARK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksevent_time_mark">KSEVENT_TIME_MARK</a>
  
 
  

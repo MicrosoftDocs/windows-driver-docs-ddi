@@ -117,7 +117,7 @@ Contains a data mask buffer that controls which bits of PCI bus configuration da
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportgetbusdata">AtaPortGetBusData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetbusdata">AtaPortGetBusData</a>
  
 
  

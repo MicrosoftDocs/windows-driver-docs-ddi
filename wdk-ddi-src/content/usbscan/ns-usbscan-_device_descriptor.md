@@ -48,7 +48,7 @@ req.typenames: DEVICE_DESCRIPTOR, *PDEVICE_DESCRIPTOR
 ## -description
 
 
-The DEVICE_DESCRIPTOR structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ni-usbscan-ioctl_get_device_descriptor">IOCTL_GET_DEVICE_DESCRIPTOR</a>.
+The DEVICE_DESCRIPTOR structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_get_device_descriptor">IOCTL_GET_DEVICE_DESCRIPTOR</a>.
 
 
 ## -struct-fields

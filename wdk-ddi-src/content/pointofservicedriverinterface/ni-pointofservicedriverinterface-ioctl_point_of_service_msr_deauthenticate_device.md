@@ -58,7 +58,7 @@ This I/O control function deauthenticates the magnetic stripe reader (MSR).
 
 ### -input-buffer
 
-Pointer to the input buffer, a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicedriverinterface/ns-pointofservicedriverinterface-_msr_deauthenticate_device">MSR_DEAUTHENTICATE_DEVICE</a> variable that contains the challenge token.
+Pointer to the input buffer, a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_msr_deauthenticate_device">MSR_DEAUTHENTICATE_DEVICE</a> variable that contains the challenge token.
 
 
 ### -input-buffer-length

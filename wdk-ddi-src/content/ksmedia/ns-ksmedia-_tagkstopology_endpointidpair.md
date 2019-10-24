@@ -71,7 +71,7 @@ Specifies the capture endpoint ID.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_tagkstopology_endpointid">KSTOPOLOGY_ENDPOINTID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstopology_endpointid">KSTOPOLOGY_ENDPOINTID</a>
  
 
  

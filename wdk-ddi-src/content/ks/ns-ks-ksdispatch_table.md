@@ -112,7 +112,7 @@ Specifies the minidriver's routine to dispatch fast write requests to.
 
 A pointer to a dispatch table is contained in the opaque object header that is the first element of data pointed to by the file object's <b>FsContext</b> field.
 
-For more information about minidriver implemented IRP dispatch routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kssetmajorfunctionhandler">KsSetMajorFunctionHandler</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>.
+For more information about minidriver implemented IRP dispatch routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kssetmajorfunctionhandler">KsSetMajorFunctionHandler</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>.
 
 
 
@@ -122,11 +122,11 @@ For more information about minidriver implemented IRP dispatch routines, see <a 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kssetmajorfunctionhandler">KsSetMajorFunctionHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kssetmajorfunctionhandler">KsSetMajorFunctionHandler</a>
  
 
  

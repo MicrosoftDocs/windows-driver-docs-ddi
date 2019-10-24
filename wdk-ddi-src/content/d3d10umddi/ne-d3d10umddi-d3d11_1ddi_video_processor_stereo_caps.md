@@ -58,7 +58,7 @@ Defines stereo 3-D capabilities for a Microsoft Direct3D 11 video processor.
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS_MONO_OFFSET
 
-The video processor supports the <b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b> format defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> enumeration.
+The video processor supports the <b>D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b> format defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> enumeration.
 
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS_ROW_INTERLEAVED
@@ -80,7 +80,7 @@ format.
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_STEREO_CAPS_FLIP_MODE
 
-The video processor can flip one or both views. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>.
+The video processor can flip one or both views. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>.
 
 
 ## -see-also
@@ -88,11 +88,11 @@ The video processor can flip one or both views. For more information, see <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a>
  
 
  

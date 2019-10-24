@@ -59,7 +59,7 @@ The <b>ClfsReadPreviousRestartArea</b> routine reads the previous restart record
 
 ### -param pvReadContext [in]
 
-A pointer to a read context obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>.
+A pointer to a read context obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>.
 
 
 ### -param ppvRestartBuffer [out]
@@ -74,7 +74,7 @@ A pointer to a ULONG-typed variable that receives the size, in bytes, of the buf
 
 ### -param plsnRestart [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that receives the previous LSN of the restart record that was read.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that receives the previous LSN of the restart record that was read.
 
 
 ## -returns
@@ -96,7 +96,7 @@ For information about reading records from CLFS streams, see <a href="https://do
 
 Read contexts are not thread-safe. Clients are responsible for serializing access to read contexts.
 
-Clients append restart records to a CLFS log by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfswriterestartarea">ClfsWriteRestartArea</a>.       
+Clients append restart records to a CLFS log by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfswriterestartarea">ClfsWriteRestartArea</a>.       
 
 With the <b>ReadPreviousLogRestartArea</b> routine, clients can implement a form of fuzzy checkpointing. For example, the checkpoint state could consist of the log records delimited by two or more restart records. 
 
@@ -108,15 +108,15 @@ With the <b>ReadPreviousLogRestartArea</b> routine, clients can implement a form
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfswriterestartarea">ClfsWriteRestartArea</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-clfswriterestartarea">ClfsWriteRestartArea</a>
  
 
  

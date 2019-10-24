@@ -51,7 +51,7 @@ req.typenames: NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO, *PNDIS_TCP_IP_CHECKSUM
 The <b>NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b> structure specifies information used in offloading
   checksum tasks from the TCP/IP transport to a NIC. The <b>NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b> structure
   is part of the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> information (out-of-band data)
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> information (out-of-band data)
   that is associated with a <b>NET_BUFFER_LIST</b> structure.
 
 
@@ -187,10 +187,10 @@ A <b>PVOID</b> version of the checksum information. Miniport drivers can use thi
 The <b>NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b> structure specifies information that is used in
     offloading checksum tasks from the TCP/IP transport to a NIC. The
     <b>NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b> structure is part of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> information (out-of-band
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> information (out-of-band
     data) that is associated with a <b>NET_BUFFER_LIST</b> structure.
 
-Before the TCP/IP transport passes to the miniport driver a TCP/IP packet on which the miniport driver will perform checksum tasks, the TCP/IP transport updates the <b>NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b> structure that is associated with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Specifically, the TCP/IP transport sets the <b>IsIPv4</b> or <b>IsIPv6</b> flag to indicate that the send packet is an IPv4 or IPv6 packet. 
+Before the TCP/IP transport passes to the miniport driver a TCP/IP packet on which the miniport driver will perform checksum tasks, the TCP/IP transport updates the <b>NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b> structure that is associated with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Specifically, the TCP/IP transport sets the <b>IsIPv4</b> or <b>IsIPv6</b> flag to indicate that the send packet is an IPv4 or IPv6 packet. 
 
 yyIf the TCP/IP transport does not set either the <b>IsIPv4</b> or <b>IsIPv6</b> flag, the miniport driver should not perform checksum tasks on the packet. If the TCP/IP transport sets the <b>IsIPv4</b> or <b>IsIPv6</b> flag, it also sets the appropriate flags that are required to indicate which checksums the miniport driver should calculate for the packet. For IPv4, this includes the <b>IpHeaderChecksum</b>, <b>TcpChecksum</b>, or <b>UdpChecksum</b> flags. For IPv6, this includes the <b>TcpChecksum</b> or <b>UdpChecksum</b> flags. In addition, for TCP packets, the TCP/IP transport sets the **TcpHeaderOffset** field when either the **IsIPv4** or **IPv6** flag is set. The transport does not set this field for UDP packets.
 
@@ -215,7 +215,7 @@ To obtain the <b>NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</b> structure, a driv
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

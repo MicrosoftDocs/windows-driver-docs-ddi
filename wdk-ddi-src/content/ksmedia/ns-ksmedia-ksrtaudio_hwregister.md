@@ -115,7 +115,7 @@ For position registers, the <i>Accuracy</i> parameter represents the accuracy of
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksrtaudio_hwregister_property">KSRTAUDIO_HWREGISTER_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksrtaudio_hwregister_property">KSRTAUDIO_HWREGISTER_PROPERTY</a>
  
 
  

@@ -55,7 +55,7 @@ The <b>D3DKMTCreateContextVirtual</b> function creates a kernel mode device cont
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_createcontextvirtual">D3DKMT_CREATECONTEXTVIRTUAL</a> structure that describes the kernel-mode device context.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createcontextvirtual">D3DKMT_CREATECONTEXTVIRTUAL</a> structure that describes the kernel-mode device context.
 
 ## -returns
 
@@ -70,7 +70,7 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_createcontextvirtual">D3DKMT_CREATECONTEXTVIRTUAL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createcontextvirtual">D3DKMT_CREATECONTEXTVIRTUAL</a>
  
 
  

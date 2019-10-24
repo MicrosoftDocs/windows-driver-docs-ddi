@@ -62,8 +62,8 @@ The **IKsAggregateControl**> interface has these methods.
 
 | Method | Description |
 | --- | --- |
-| [KsAddAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate) | Adds a COM server as an aggregate provider to a KS filter or pin. |
-| [KsRemoveAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksaggregatecontrol-ksremoveaggregate) | Removes a previously added COM server aggregate provider from a KS filter or pin. |
+| [KsAddAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate) | Adds a COM server as an aggregate provider to a KS filter or pin. |
+| [KsRemoveAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksremoveaggregate) | Removes a previously added COM server aggregate provider from a KS filter or pin. |
 
 ## -remarks
 
@@ -97,10 +97,10 @@ For more information about **IDistributorNotify**, **IUnknown**, and **CoCreateI
 
 ## -see-also
 
-[IKsControl](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-ikscontrol)
+[IKsControl](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol)
 
-[IKsObject::KsGetObjectHandle](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksobject-ksgetobjecthandle)
+[IKsObject::KsGetObjectHandle](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksobject-ksgetobjecthandle)
 
-[KsAddAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate)
+[KsAddAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate)
 
-[KsRemoveAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksaggregatecontrol-ksremoveaggregate)
+[KsRemoveAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksremoveaggregate)

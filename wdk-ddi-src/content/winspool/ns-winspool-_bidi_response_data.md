@@ -73,16 +73,16 @@ Pointer to a memory location containing the first byte of the schema string.
 
 ### -field data
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winspool/ns-winspool-_bidi_data">BIDI_DATA</a> structure containing the data associated with the schema.
+Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_data">BIDI_DATA</a> structure containing the data associated with the schema.
 
 
 ## -remarks
 
 
 
-The spooler's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-routerallocbidiresponsecontainer">RouterAllocBidiResponseContainer</a> function is used to allocate the memory needed for a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a> structure, which is then used to hold an array of BIDI_RESPONSE_DATA structures. When a BIDI_RESPONSE_CONTAINER structure is no longer needed, it should be freed by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-routerfreebidiresponsecontainer">RouterFreeBidiResponseContainer</a>. 
+The spooler's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerallocbidiresponsecontainer">RouterAllocBidiResponseContainer</a> function is used to allocate the memory needed for a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a> structure, which is then used to hold an array of BIDI_RESPONSE_DATA structures. When a BIDI_RESPONSE_CONTAINER structure is no longer needed, it should be freed by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidiresponsecontainer">RouterFreeBidiResponseContainer</a>. 
 
-When the bidi action is BIDI_ACTION_GETALL, the <b>dwReqNumber</b> member holds the ID of the matching request in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winspool/ns-winspool-_bidi_request_container">BIDI_REQUEST_CONTAINER</a> structure, the <b>pSchema</b> member points to the schema string associated with the data, and the <b>data</b> member holds the bidi data. If the bidi action is BIDI_ACTION_ENUM_SCHEMA, <b>pSchema</b> should be set to <b>NULL</b>, and the <b>data</b> member will hold the supported schema string. In this case, <b>data.dwDataType</b> is set to BIDI_TEXT (a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winspool/ns-winspool-_bidi_data">BIDI_DATA</a> enumerator). For information about the BIDI_ACTION_<i>Xxx</i> constants, see IBidiSpooler::MultiSendRecv in the Microsoft Windows SDK documentation.
+When the bidi action is BIDI_ACTION_GETALL, the <b>dwReqNumber</b> member holds the ID of the matching request in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_request_container">BIDI_REQUEST_CONTAINER</a> structure, the <b>pSchema</b> member points to the schema string associated with the data, and the <b>data</b> member holds the bidi data. If the bidi action is BIDI_ACTION_ENUM_SCHEMA, <b>pSchema</b> should be set to <b>NULL</b>, and the <b>data</b> member will hold the supported schema string. In this case, <b>data.dwDataType</b> is set to BIDI_TEXT (a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_data">BIDI_DATA</a> enumerator). For information about the BIDI_ACTION_<i>Xxx</i> constants, see IBidiSpooler::MultiSendRecv in the Microsoft Windows SDK documentation.
 
 
 
@@ -92,15 +92,15 @@ When the bidi action is BIDI_ACTION_GETALL, the <b>dwReqNumber</b> member holds 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/ns-winspool-_bidi_response_container">BIDI_RESPONSE_CONTAINER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-routerallocbidiresponsecontainer">RouterAllocBidiResponseContainer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerallocbidiresponsecontainer">RouterAllocBidiResponseContainer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-routerfreebidiresponsecontainer">RouterFreeBidiResponseContainer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-routerfreebidiresponsecontainer">RouterFreeBidiResponseContainer</a>
  
 
  

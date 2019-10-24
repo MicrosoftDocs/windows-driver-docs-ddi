@@ -58,7 +58,7 @@ The <code>IPrintOemPS::ResetPDEV</code> method allows a rendering plug-in for Ps
 
 ### -param pdevobjOld
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a> structure containing current PDEV information.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure containing current PDEV information.
 
 
 ### -param pdevobjNew

@@ -60,7 +60,7 @@ The WWAN_LIST_HEADER structure represents the header of a list of MB objects, in
 ### -field ElementType
 
 A value from the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_struct_type">WWAN_STRUCT_TYPE</a> enumeration that represents
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_struct_type">WWAN_STRUCT_TYPE</a> enumeration that represents
      the type of objects in the list.
 
 
@@ -85,29 +85,29 @@ You can assume that the list of elements is stored in memory immediately followi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_preferred_providers">NDIS_WWAN_PREFERRED_PROVIDERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_preferred_providers">NDIS_WWAN_PREFERRED_PROVIDERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_provisioned_contexts">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_provisioned_contexts">
    NDIS_WWAN_PROVISIONED_CONTEXTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_set_preferred_providers">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_set_preferred_providers">
    NDIS_WWAN_SET_PREFERRED_PROVIDERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_sms_receive">NDIS_WWAN_SMS_RECEIVE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_sms_receive">NDIS_WWAN_SMS_RECEIVE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_visible_providers">NDIS_WWAN_VISIBLE_PROVIDERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_visible_providers">NDIS_WWAN_VISIBLE_PROVIDERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_struct_type">WWAN_STRUCT_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_struct_type">WWAN_STRUCT_TYPE</a>
  
 
  

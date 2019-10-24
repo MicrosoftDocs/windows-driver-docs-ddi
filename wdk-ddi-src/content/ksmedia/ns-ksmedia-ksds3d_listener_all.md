@@ -58,7 +58,7 @@ The KSDS3D_LISTENER_ALL structure specifies all the properties of the DirectSoun
 
 ### -field Position
 
-Specifies the position vector of the 3D listener. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ds3dvector">DS3DVECTOR</a>.
+Specifies the position vector of the 3D listener. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ds3dvector">DS3DVECTOR</a>.
 
 
 ### -field Velocity
@@ -107,7 +107,7 @@ DirectSound uses this property to implement the <b>IDirectSound3DListener::GetAl
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ds3dvector">DS3DVECTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_ds3dvector">DS3DVECTOR</a>
 
 
 

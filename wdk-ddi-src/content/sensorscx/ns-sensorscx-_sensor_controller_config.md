@@ -174,7 +174,7 @@ This callback function sets the batch latency for a specified sensor.
 
 
 
-This structure is given to the class extension using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxdeviceinitialize">SensorsCxDeviceInitialize</a> function. If any of the following function pointers are not set, the driver will fail to load:
+This structure is given to the class extension using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensorscxdeviceinitialize">SensorsCxDeviceInitialize</a> function. If any of the following function pointers are not set, the driver will fail to load:
 
 <ul>
 <li>EvtSensorStart</li>

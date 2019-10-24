@@ -98,7 +98,7 @@ The method was successful.
 
 In kernel-mode debugging, there is a virtual thread representing each processor.
 
-In user-mode debugging, the number of threads changes with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbacks-createthread">IDebugEventCallbacks::CreateThread</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbacks-exitthread">IDebugEventCallbacks::ExitThread</a> events.
+In user-mode debugging, the number of threads changes with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbacks-createthread">IDebugEventCallbacks::CreateThread</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugeventcallbacks-exitthread">IDebugEventCallbacks::ExitThread</a> events.
 
 For more information about threads, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
 

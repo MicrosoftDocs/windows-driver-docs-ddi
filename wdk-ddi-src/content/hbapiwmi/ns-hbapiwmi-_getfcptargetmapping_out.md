@@ -73,7 +73,7 @@ Indicates the total number of mappings retrieved by the <a href="https://docs.mi
 
 ### -field Entry
 
-Contains an array of structures of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpscsientry">HBAFCPScsiEntry</a> that describe an HBA's bindings between operating system and fibre channel protocol (FCP) identifiers. 
+Contains an array of structures of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpscsientry">HBAFCPScsiEntry</a> that describe an HBA's bindings between operating system and fibre channel protocol (FCP) identifiers. 
 
 
 ## -remarks
@@ -96,7 +96,7 @@ The WMI tool suite generates a declaration of the GetFcpTargetMapping_OUT struct
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpscsientry">HBAFCPScsiEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafcpscsientry">HBAFCPScsiEntry</a>
 
 
 

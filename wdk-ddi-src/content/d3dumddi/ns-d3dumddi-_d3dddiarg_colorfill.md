@@ -78,7 +78,7 @@ A D3DCOLOR data type for the A8R8G8B8 fill color.
 
 ### -field Flags
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_colorfillflags">D3DDDI_COLORFILLFLAGS</a> structure that identifies the type of color-fill operation to perform. 
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_colorfillflags">D3DDDI_COLORFILLFLAGS</a> structure that identifies the type of color-fill operation to perform. 
 
 
 ## -see-also
@@ -86,11 +86,11 @@ A D3DCOLOR data type for the A8R8G8B8 fill color.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_colorfill">ColorFill</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_colorfill">ColorFill</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_colorfillflags">D3DDDI_COLORFILLFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_colorfillflags">D3DDDI_COLORFILLFLAGS</a>
 
 
 

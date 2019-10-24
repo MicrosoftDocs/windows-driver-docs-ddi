@@ -72,7 +72,7 @@ A serial number that is assigned to the incoming connection request.
 
 
 The WSK subsystem passes a pointer to a WSK_INSPECT_ID structure to a WSK application's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a> event callback function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a> event callback function
     whenever an incoming connection request arrives on a listening socket that has conditional accept mode
     enabled. The contents of the WSK_INSPECT_ID structure uniquely identify the incoming connection
     request.
@@ -83,12 +83,12 @@ If the WSK application returns
     <u>contents</u> of the WSK_INSPECT_ID structure that is provided by the WSK subsystem into its own
     WSK_INSPECT_ID structure. The WSK application then passes a pointer to its WSK_INSPECT_ID structure to
     the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_inspect_complete">WskInspectComplete</a> function when it
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_inspect_complete">WskInspectComplete</a> function when it
     completes the inspection.
 
 If the incoming connection request is dropped by the remote system while an inspect operation is
     pending, the WSK subsystem calls the WSK application's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_abort_event">WskAbortEvent</a> event callback function with a
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_abort_event">WskAbortEvent</a> event callback function with a
     pointer to a WSK_INSPECT_ID structure that identifies the dropped request. The WSK application uses the
     contents of this WSK_INSPECT_ID structure to determine which inspection of an incoming connection request
     should be terminated. The WSK application should compare the contents of the WSK_INSPECT_ID structures to
@@ -112,15 +112,15 @@ A WSK application can enable conditional accept mode on a listening socket by en
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_abort_event">WskAbortEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_abort_event">WskAbortEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_inspect_complete">WskInspectComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_inspect_complete">WskInspectComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a>
  
 
  

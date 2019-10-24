@@ -74,7 +74,7 @@ The <code>GetBufferSize</code> method gets the buffer size from the allocator.
 
 
 
-<code>GetBufferSize</code> simply returns the size of the buffer that the allocator provides through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dmusicks/nf-dmusicks-iallocatormxf-getbuffer">IAllocatorMXF::GetBuffer</a> call. (For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dmusicks/nn-dmusicks-iallocatormxf">IAllocatorMXF</a> introduction.) Because this is constant for any version of the port driver, <code>GetBufferSize</code> typically needs to be called only once, at the time that the stream is created.
+<code>GetBufferSize</code> simply returns the size of the buffer that the allocator provides through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iallocatormxf-getbuffer">IAllocatorMXF::GetBuffer</a> call. (For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iallocatormxf">IAllocatorMXF</a> introduction.) Because this is constant for any version of the port driver, <code>GetBufferSize</code> typically needs to be called only once, at the time that the stream is created.
 
 
 
@@ -84,11 +84,11 @@ The <code>GetBufferSize</code> method gets the buffer size from the allocator.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dmusicks/nn-dmusicks-iallocatormxf">IAllocatorMXF</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iallocatormxf">IAllocatorMXF</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dmusicks/nf-dmusicks-iallocatormxf-getbuffer">IAllocatorMXF::GetBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iallocatormxf-getbuffer">IAllocatorMXF::GetBuffer</a>
  
 
  
