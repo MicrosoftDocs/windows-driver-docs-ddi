@@ -53,7 +53,7 @@ The **NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT** method initializes a [**N
 
 ### -param Capabilities
 
-A pointer to a client driver-allocated [*NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_power_offload_ns_capabilities.md) structure.
+A pointer to a client driver-allocated [**NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_power_offload_ns_capabilities.md) structure.
 
 ### -param MaximumOffloadCount
 
