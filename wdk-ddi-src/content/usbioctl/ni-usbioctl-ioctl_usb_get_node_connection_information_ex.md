@@ -154,10 +154,13 @@ void GetPortSpeed(const WCHAR *Path, ULONG PortIndex, UCHAR *pPortSpeed)
     if (success == FALSE)
     {
       *pPortSpeed = SPEED_IOCTLERROR;
-      return;
+    }
+    else
+    {
+      *pPortSpeed = (UCHAR)ConnectionInfo->Speed;
     }
 
-    *pPortSpeed = (UCHAR)ConnectionInfo->Speed;
+    free(ConnectionInfo);
 }
 
 ```
