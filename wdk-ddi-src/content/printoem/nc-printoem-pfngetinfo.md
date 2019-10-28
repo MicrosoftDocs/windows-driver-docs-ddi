@@ -103,7 +103,7 @@ UFO_GETINFO_FONTOBJ
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_getinfo_fontobj">GETINFO_FONTOBJ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_fontobj">GETINFO_FONTOBJ</a>
 
 
 </td>
@@ -115,7 +115,7 @@ UFO_GETINFO_GLYPHBITMAP
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_getinfo_glyphbitmap">GETINFO_GLYPHBITMAP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphbitmap">GETINFO_GLYPHBITMAP</a>
 
 
 </td>
@@ -127,7 +127,7 @@ UFO_GETINFO_GLYPHSTRING
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_getinfo_glyphstring">GETINFO_GLYPHSTRING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphstring">GETINFO_GLYPHSTRING</a>
 
 
 </td>
@@ -139,7 +139,7 @@ UFO_GETINFO_GLYPHWIDTH
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_getinfo_glyphwidth">GETINFO_GLYPHWIDTH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphwidth">GETINFO_GLYPHWIDTH</a>
 
 
 </td>
@@ -151,7 +151,7 @@ UFO_GETINFO_MEMORY
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_getinfo_memory">GETINFO_MEMORY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_memory">GETINFO_MEMORY</a>
 
 
 </td>
@@ -163,7 +163,7 @@ UFO_GETINFO_STDVARIABLE
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_getinfo_stdvar">GETINFO_STDVAR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_stdvar">GETINFO_STDVAR</a>
 
 
 </td>
@@ -176,7 +176,7 @@ For a summary of structure contents, see the following <b>Remarks</b> section.
 
 #### - pUFObj
 
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a> structure received by the function that is making the callback to <b>UNIFONTOBJ_GetInfo</b>. Supplied by the caller.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a> structure received by the function that is making the callback to <b>UNIFONTOBJ_GetInfo</b>. Supplied by the caller.
 
 
 #### - pcbNeeded
@@ -199,7 +199,7 @@ If the operation succeeds, the function returns <b>TRUE</b>. Otherwise it return
 
 The <b>UNIFONTOBJ_GetInfo</b> callback function allows a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/rendering-plug-ins">rendering plug-in</a> to call back into Unidrv to obtain font or glyph information from GDI, needed for handling <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">customized font management</a> operations.
 
-A rendering plug-in receives the <b>UNIFONTOBJ_GetInfo</b> function's address in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a> structure that is passed to the font customization methods.
+A rendering plug-in receives the <b>UNIFONTOBJ_GetInfo</b> function's address in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a> structure that is passed to the font customization methods.
 
 The type of information returned by the function is dependent on the input arguments. The caller supplies values for <i>dwInfoID</i>, <i>pData</i>, and <i>dwDataSize</i> to indicate the type of information wanted. The following table summarizes the types of information returned. For more information, see the structure descriptions.
 
@@ -211,7 +211,7 @@ The type of information returned by the function is dependent on the input argum
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_getinfo_fontobj">GETINFO_FONTOBJ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_fontobj">GETINFO_FONTOBJ</a>
 
 
 </td>
@@ -223,7 +223,7 @@ A FONTOBJ structure describing the current font.
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_getinfo_glyphbitmap">GETINFO_GLYPHBITMAP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphbitmap">GETINFO_GLYPHBITMAP</a>
 
 
 </td>
@@ -235,7 +235,7 @@ A single glyph bitmap.
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_getinfo_glyphstring">GETINFO_GLYPHSTRING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphstring">GETINFO_GLYPHSTRING</a>
 
 
 </td>
@@ -247,7 +247,7 @@ An array of glyph specifiers in a specified format.
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_getinfo_glyphwidth">GETINFO_GLYPHWIDTH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_glyphwidth">GETINFO_GLYPHWIDTH</a>
 
 
 </td>
@@ -259,7 +259,7 @@ Total width of a set of glyphs.
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_getinfo_memory">GETINFO_MEMORY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_memory">GETINFO_MEMORY</a>
 
 
 </td>
@@ -271,7 +271,7 @@ Amount of available printer memory remaining.
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_getinfo_stdvar">GETINFO_STDVAR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_getinfo_stdvar">GETINFO_STDVAR</a>
 
 
 </td>

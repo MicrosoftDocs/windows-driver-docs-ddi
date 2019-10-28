@@ -48,7 +48,7 @@ req.typenames: DRV_VERSION, *PDRV_VERSION
 ## -description
 
 
-The DRV_VERSION structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ni-usbscan-ioctl_get_version">IOCTL_GET_VERSION</a>.
+The DRV_VERSION structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ni-usbscan-ioctl_get_version">IOCTL_GET_VERSION</a>.
 
 
 ## -struct-fields

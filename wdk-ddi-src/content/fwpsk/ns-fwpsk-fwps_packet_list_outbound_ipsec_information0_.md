@@ -85,7 +85,7 @@ A value that indicates whether the packet list matched an IP-in-IP filter for IP
 
 
 An FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure is included as a member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_packet_list_ipsec_information0_">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_ipsec_information0_">
     FWPS_PACKET_LIST_IPSEC_INFORMATION0</a> structure.
 
 
@@ -96,7 +96,7 @@ An FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure is included as a membe
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_packet_list_ipsec_information0_">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_packet_list_ipsec_information0_">
    FWPS_PACKET_LIST_IPSEC_INFORMATION0</a>
  
 

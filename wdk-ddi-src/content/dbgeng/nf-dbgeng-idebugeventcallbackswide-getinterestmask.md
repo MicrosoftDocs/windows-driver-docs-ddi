@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>GetInterestMask</b> callback method is called to determine which <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/events">events</a> the <b>IDebugEventCallbacksWide</b> object is interested in.  The engine calls <b>GetInterestMask</b> when the object is registered with a client by using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">SetEventCallbacks</a>.
+The <b>GetInterestMask</b> callback method is called to determine which <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/events">events</a> the <b>IDebugEventCallbacksWide</b> object is interested in.  The engine calls <b>GetInterestMask</b> when the object is registered with a client by using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">SetEventCallbacks</a>.
 
 
 ## -parameters

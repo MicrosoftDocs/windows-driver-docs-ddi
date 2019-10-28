@@ -71,7 +71,7 @@ You must not use the <b>IPrintJob::Id</b> property  to invoke spooler Job APIs. 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
  
 
  

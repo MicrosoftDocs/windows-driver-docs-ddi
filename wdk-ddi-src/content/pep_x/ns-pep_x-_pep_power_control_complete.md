@@ -58,7 +58,7 @@ The <b>PEP_POWER_CONTROL_COMPLETE</b> structure contains status information for 
 
 ### -field DeviceHandle
 
-[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
+[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
 ### -field PowerControlCode
@@ -68,7 +68,7 @@ The <b>PEP_POWER_CONTROL_COMPLETE</b> structure contains status information for 
 
 ### -field RequestContext
 
-[in] A pointer to the request context that was sent by the PEP in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a> structure that the PEP supplied in the original work request. Typically, this member points to a structure that contains a pointer to an output buffer to contain the results of the power control operation that was requested by the PEP.
+[in] A pointer to the request context that was sent by the PEP in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a> structure that the PEP supplied in the original work request. Typically, this member points to a structure that contains a pointer to an output buffer to contain the results of the power control operation that was requested by the PEP.
 
 
 ### -field BytesReturned
@@ -85,7 +85,7 @@ The <b>PEP_POWER_CONTROL_COMPLETE</b> structure contains status information for 
 
 
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_power_control_complete">PEP_DPM_POWER_CONTROL_COMPLETE</a> notification. All five members of the structure contain input values that are supplied by
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_power_control_complete">PEP_DPM_POWER_CONTROL_COMPLETE</a> notification. All five members of the structure contain input values that are supplied by
 
 If the output buffer is too small to receive all of the result data from the operation, the PEP sets the <b>Status</b> member of the structure to STATUS_INSUFFICIENT_RESOURCES, sets  the <b>BytesReturned</b> member to the required size of the output buffer, and (typically) writes no data to the output buffer.
 

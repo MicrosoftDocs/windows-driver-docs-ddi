@@ -102,7 +102,7 @@ If a tape miniclass driver calls this routine with an unsupported tape density c
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/nf-minitape-tapeclasslogicalblocktophysicalblock">TapeClassLogicalBlockToPhysicalBlock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nf-minitape-tapeclasslogicalblocktophysicalblock">TapeClassLogicalBlockToPhysicalBlock</a>
  
 
  

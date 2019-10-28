@@ -188,7 +188,7 @@ The number of connections that currently belong to this session.
 
 ### -field ConnectionsList
 
-A variable length array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsimgt/ns-iscsimgt-_iscsi_connectionstaticinfo">ISCSI_ConnectionStaticInfo</a> structures that specifies the static configuration data for each connection that is associated with this session. <b>ConnectionCount</b> indicates the number of elements in the array.
+A variable length array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_connectionstaticinfo">ISCSI_ConnectionStaticInfo</a> structures that specifies the static configuration data for each connection that is associated with this session. <b>ConnectionCount</b> indicates the number of elements in the array.
 
 
 ## -see-also
@@ -200,11 +200,11 @@ A variable length array of <a href="https://docs.microsoft.com/windows-hardware/
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsimgt/ns-iscsimgt-_iscsi_connectionstaticinfo">ISCSI_ConnectionStaticInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_connectionstaticinfo">ISCSI_ConnectionStaticInfo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ne-iscsiop-loginsessiontype">LOGINSESSIONTYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ne-iscsiop-loginsessiontype">LOGINSESSIONTYPE</a>
 
 
 

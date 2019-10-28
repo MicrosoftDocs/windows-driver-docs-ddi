@@ -92,7 +92,7 @@ The clock can be created after using <b>KsAllocateDefaultClock</b> to create and
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksallocatedefaultclock">KsAllocateDefaultClock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclock">KsAllocateDefaultClock</a>
  
 
  

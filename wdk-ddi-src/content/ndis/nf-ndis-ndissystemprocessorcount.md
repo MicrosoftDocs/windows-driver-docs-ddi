@@ -77,11 +77,11 @@ The
 An NDIS driver can call the 
     <b>NdisSystemProcessorCount</b> function to retrieve the maximum number of processors in the local
     computer. To retrieve the number of currently active processors, the driver must call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissystemactiveprocessorcount">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemactiveprocessorcount">
     NdisSystemActiveProcessorCount</a> function.
 
 <b>NdisSystemProcessorCount</b> is similar to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerymaximumprocessorcount">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerymaximumprocessorcount">
     KeQueryMaximumProcessorCount</a> function.
 
 The value that 
@@ -90,11 +90,11 @@ The value that
 If your code uses an array of buffers, one buffer for each processor, you must decide whether to have
     a statically sized array based on 
     <b>NdisSystemProcessorCount</b> or a dynamically sized array based on 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissystemactiveprocessorcount">NdisSystemActiveProcessorCount</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemactiveprocessorcount">NdisSystemActiveProcessorCount</a>.
 
 To optimize your code based on the number of processors, you must use a resizable structure. In this
     case, use 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissystemactiveprocessorcount">NdisSystemActiveProcessorCount</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemactiveprocessorcount">NdisSystemActiveProcessorCount</a>.
 
 If you are not optimizing and if the data structures that result from using the maximum processor
     count are relatively small, a resizable structure is not necessary. In this case, use 
@@ -113,15 +113,15 @@ If you are not optimizing and if the data structures that result from using the 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerymaximumprocessorcount">KeQueryMaximumProcessorCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerymaximumprocessorcount">KeQueryMaximumProcessorCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgroupmaxprocessorcount">NdisGroupMaxProcessorCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgroupmaxprocessorcount">NdisGroupMaxProcessorCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissystemactiveprocessorcount">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissystemactiveprocessorcount">
    NdisSystemActiveProcessorCount</a>
  
 

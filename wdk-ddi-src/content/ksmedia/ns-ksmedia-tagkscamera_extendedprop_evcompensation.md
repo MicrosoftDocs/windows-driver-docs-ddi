@@ -73,7 +73,7 @@ The maximum EV compensation supported. This is an absolute EV value.
 
 ### -field Value
 
-EV Compensation in units of steps  selected in the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagkscamera_extendedprop_header">KSCAMERA_EXTENDEDPROP_HEADER</a>.
+EV Compensation in units of steps  selected in the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_extendedprop_header">KSCAMERA_EXTENDEDPROP_HEADER</a>.
 
 
 ### -field Reserved
@@ -95,7 +95,7 @@ Reserved.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagkscamera_extendedprop_header">KSCAMERA_EXTENDEDPROP_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_extendedprop_header">KSCAMERA_EXTENDEDPROP_HEADER</a>
 
 
 

@@ -62,11 +62,11 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/ne-printerextension-tagprintschemaconstrainedsetting">PrintSchemaConstrainedSetting</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintschemaconstrainedsetting">PrintSchemaConstrainedSetting</a>
  
 
  

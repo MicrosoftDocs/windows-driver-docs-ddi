@@ -63,12 +63,12 @@ Specifies the size of this structure in bytes.
 
 ### -field ProcAmpControlProp
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_procampcontrolprop">DXVA_ProcAmpControlProp</a> structure that indicates the supported ProcAmp control properties.
+Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_procampcontrolprop">DXVA_ProcAmpControlProp</a> structure that indicates the supported ProcAmp control properties.
 
 
 ### -field VideoDesc
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_videodesc">DXVA_VideoDesc</a> structure that provides the driver with a description of the video that the ProcAmp adjustment is going to be applied to. Drivers may adjust their ProcAmp feature support for particular video streams.
+Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videodesc">DXVA_VideoDesc</a> structure that provides the driver with a description of the video that the ProcAmp adjustment is going to be applied to. Drivers may adjust their ProcAmp feature support for particular video streams.
 
 
 ## -see-also
@@ -76,11 +76,11 @@ Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/con
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_procampcontrolprop">DXVA_ProcAmpControlProp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ne-dxva-_dxva_procampcontrolprop">DXVA_ProcAmpControlProp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_videodesc">DXVA_VideoDesc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_videodesc">DXVA_VideoDesc</a>
  
 
  

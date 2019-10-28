@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoQueryFileInformation</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>.
+The <b>IoQueryFileInformation</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>.
 
 
 ## -parameters

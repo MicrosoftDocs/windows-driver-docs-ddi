@@ -78,12 +78,12 @@ Indicates the offset in bytes from the beginning of this structure to a counted 
 
 ### -field GuidCount
 
-Indicates the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-wmiregguidw">WMIREGGUID</a> structures in the array at <b>WmiRegGuid</b>.
+Indicates the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmistr/ns-wmistr-wmiregguidw">WMIREGGUID</a> structures in the array at <b>WmiRegGuid</b>.
 
 
 ### -field WmiRegGuid
 
-Is an array of <b>GuidCount </b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-wmiregguidw">WMIREGGUID</a> structures.
+Is an array of <b>GuidCount </b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmistr/ns-wmistr-wmiregguidw">WMIREGGUID</a> structures.
 
 
 ## -remarks
@@ -112,11 +112,11 @@ A driver can use the same <b>WMIREGINFO</b> structure(s) to remove or update blo
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-wmiregguidw">WMIREGGUID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmistr/ns-wmistr-wmiregguidw">WMIREGGUID</a>
  
 
  

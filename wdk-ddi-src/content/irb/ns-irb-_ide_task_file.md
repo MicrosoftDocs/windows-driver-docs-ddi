@@ -58,12 +58,12 @@ The IDE_TASK_FILE structure contains the current and previous IDE task file.
 
 ### -field Current
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ideregisters">IDEREGISTERS</a> that holds the current contents of the ATA task file registers.
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ideregisters">IDEREGISTERS</a> that holds the current contents of the ATA task file registers.
 
 
 ### -field Previous
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ideregisters">IDEREGISTERS</a> that holds the previous contents of the ATA task file registers in the case of a 48-bit LBA command.
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ideregisters">IDEREGISTERS</a> that holds the previous contents of the ATA task file registers in the case of a 48-bit LBA command.
 
 
 ## -see-also
@@ -71,7 +71,7 @@ Contains a structure of type <a href="https://docs.microsoft.com/windows-hardwar
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ideregisters">IDEREGISTERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ideregisters">IDEREGISTERS</a>
  
 
  

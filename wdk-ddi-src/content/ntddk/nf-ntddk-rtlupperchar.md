@@ -84,11 +84,11 @@ Specifies the character to convert.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlupcaseunicodechar">RtlUpcaseUnicodeChar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlupcaseunicodechar">RtlUpcaseUnicodeChar</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlupperstring">RtlUpperString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlupperstring">RtlUpperString</a>
  
 
  

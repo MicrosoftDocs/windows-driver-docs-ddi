@@ -61,7 +61,7 @@ Releases a mapping between the virtual address space and the adapter's <a href="
 
 ### -input-buffer
 
-The VRP <b>InputBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ns-ntddvdeo-_video_memory">VIDEO_MEMORY</a> structure, specifying the previously mapped virtual base address to be released with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportunmapmemory">VideoPortUnmapMemory</a>.
+The VRP <b>InputBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_memory">VIDEO_MEMORY</a> structure, specifying the previously mapped virtual base address to be released with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportunmapmemory">VideoPortUnmapMemory</a>.
 
 
 ### -input-buffer-length
@@ -107,7 +107,7 @@ None
 
 ### -status-block
 
-The miniport driver does not set the <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_status_block">STATUS_BLOCK</a> structure.
+The miniport driver does not set the <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a> structure.
 
 
 ## -see-also
@@ -115,11 +115,11 @@ The miniport driver does not set the <b>Information</b> member of the <a href="h
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ns-ntddvdeo-_video_memory">VIDEO_MEMORY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_memory">VIDEO_MEMORY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportunmapmemory">VideoPortUnmapMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportunmapmemory">VideoPortUnmapMemory</a>
  
 
  

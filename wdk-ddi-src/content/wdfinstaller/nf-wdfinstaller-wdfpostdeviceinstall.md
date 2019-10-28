@@ -102,7 +102,7 @@ For a code example that uses the <b>WdfPostDeviceInstall</b> function, see the i
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinstaller/nf-wdfinstaller-wdfpredeviceinstall">WdfPreDeviceInstall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinstaller/nf-wdfinstaller-wdfpredeviceinstall">WdfPreDeviceInstall</a>
  
 
  

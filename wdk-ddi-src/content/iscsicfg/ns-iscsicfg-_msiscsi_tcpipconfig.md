@@ -78,27 +78,27 @@ The version of the IP protocol that the HBA supports. A value of 0x00000001 indi
 
 ### -field IpAddress
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that specifies the IP address for the HBA. The ISCSI_IP_Address structure provides a version-independent way of defining the IP address.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that specifies the IP address for the HBA. The ISCSI_IP_Address structure provides a version-independent way of defining the IP address.
 
 
 ### -field DefaultGateway
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that specifies the static IP address for the default gateway. The ISCSI_IP_Address structure provides a version-independent way of defining the IP address of the default gateway.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that specifies the static IP address for the default gateway. The ISCSI_IP_Address structure provides a version-independent way of defining the IP address of the default gateway.
 
 
 ### -field SubnetMask
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that specifies the static subnet mask. The ISCSI_IP_Address structure provides a version-independent way of defining the subnet mask.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that specifies the static subnet mask. The ISCSI_IP_Address structure provides a version-independent way of defining the subnet mask.
 
 
 ### -field PreferredDNSServer
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that specifies the IP address of the preferred DNS server. The ISCSI_IP_Address structure provides a version-independent way of defining the IP address of the preferred DNS server.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that specifies the IP address of the preferred DNS server. The ISCSI_IP_Address structure provides a version-independent way of defining the IP address of the preferred DNS server.
 
 
 ### -field AlternateDNSServer
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that specifies the IP address of the alternate DNS server. The ISCSI_IP_Address structure provides a version-independent way of defining the IP address of the alternate DNS server.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that specifies the IP address of the alternate DNS server. The ISCSI_IP_Address structure provides a version-independent way of defining the IP address of the alternate DNS server.
 
 
 ## -remarks
@@ -115,7 +115,7 @@ The WMI tool suite automatically generates a declaration of the MSiSCSI_TCPIPCon
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>
 
 
 

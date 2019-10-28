@@ -58,7 +58,7 @@ The KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S structure returns node-specific
 
 ### -field NodeProperty
 
-Specifies both the target node and the property to <i>get</i>. This member is an initialized structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksnodeproperty">KSNODEPROPERTY</a>.
+Specifies both the target node and the property to <i>get</i>. This member is an initialized structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksnodeproperty">KSNODEPROPERTY</a>.
 
 
 ### -field lOcularFocalLength
@@ -98,7 +98,7 @@ If the camera has only one lens, these values can be used to represent zoom rati
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_cameracontrol_focal_length_s">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_focal_length_s">KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S</a>
 
 
 

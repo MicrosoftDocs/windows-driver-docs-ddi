@@ -72,7 +72,7 @@ The <b>IPortClsPnp</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclspnp-registeradapterpnpmanagement">IPortClsPnp::RegisterAdapterPnpManagement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclspnp-registeradapterpnpmanagement">IPortClsPnp::RegisterAdapterPnpManagement</a>
 </td>
 <td align="left" width="63%">
 The <code>RegisterAdapterPowerManagement</code> method registers the PnP management interface of the adapter with PortCls.
@@ -81,7 +81,7 @@ The <code>RegisterAdapterPowerManagement</code> method registers the PnP managem
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclspnp-unregisteradapterpnpmanagement">IPortClsPnp::UnregisterAdapterPnpManagement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclspnp-unregisteradapterpnpmanagement">IPortClsPnp::UnregisterAdapterPnpManagement</a>
 </td>
 <td align="left" width="63%">
 The <code>UnRegisterAdapterPowerManagement</code> method unregisters the PnP management interface of the adapter from PortCls.

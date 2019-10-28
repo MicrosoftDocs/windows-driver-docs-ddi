@@ -68,7 +68,7 @@ Flip, rotation, scale and destination translation for the video input.  For more
 
 ### -field Flags
 
-Options for the input stream.  For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_input_stream_flags_0020">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS</a> enumeration.
+Options for the input stream.  For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_input_stream_flags_0020">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS</a> enumeration.
 
 
 ### -field RateInfo
@@ -83,7 +83,7 @@ Frame format as progressive or interlaced for the input stream.
 
 ### -field DeinterlaceMode
 
-The deinterlace mode to use.  For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a> enumeration.
+The deinterlace mode to use.  For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a> enumeration.
 
 
 ### -field StereoFormat
@@ -98,7 +98,7 @@ The color space for the video processor input and reference surfaces as a <a hre
 
 ### -field FilterFlags
 
-The filters to enable, as a bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a> enumeration.
+The filters to enable, as a bitwise OR of one or more flags from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a> enumeration.
 
 
 ### -field FilterLevels
@@ -108,12 +108,12 @@ The level to apply for each enabled filter.  If a filter is not enabled or the f
 
 ### -field AlphaBlending
 
-The planar alpha for an input stream on the video processor.  For more information, see the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_process_alpha_blending_0020">D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING</a> structure.
+The planar alpha for an input stream on the video processor.  For more information, see the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_process_alpha_blending_0020">D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING</a> structure.
 
 
 ### -field LumaKey
 
-The luma key for an input stream on the video processor.  For more information, see the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_process_luma_key_0020">D3D12DDI_VIDEO_PROCESS_LUMA_KEY</a> structure.
+The luma key for an input stream on the video processor.  For more information, see the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_process_luma_key_0020">D3D12DDI_VIDEO_PROCESS_LUMA_KEY</a> structure.
 
 
 ### -field Palette
@@ -131,19 +131,19 @@ Whether to enable automatic processing features on the video processor.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_process_alpha_blending_0020">D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_process_alpha_blending_0020">D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_deinterlace_flags_0020">D3D12DDI_VIDEO_PROCESS_DEINTERLACE_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_filter_flags_0020">D3D12DDI_VIDEO_PROCESS_FILTER_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_input_stream_flags_0020">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_input_stream_flags_0020">D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_FLAGS</a>
 
 
 
@@ -151,7 +151,7 @@ Whether to enable automatic processing features on the video processor.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_process_luma_key_0020">D3D12DDI_VIDEO_PROCESS_LUMA_KEY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_process_luma_key_0020">D3D12DDI_VIDEO_PROCESS_LUMA_KEY</a>
 
 
 

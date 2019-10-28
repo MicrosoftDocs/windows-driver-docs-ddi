@@ -65,7 +65,7 @@ The<b> IStiDevice::Subscribe</b> method registers the caller to receive notifica
 
 #### - lpSubscribe [in, out]
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_stisubscribe">STISUBSCRIBE</a> structure containing subscription parameter values.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_stisubscribe">STISUBSCRIBE</a> structure containing subscription parameter values.
 
 
 ## -returns
@@ -83,9 +83,9 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 The<b> IStiDevice::Subscribe</b> method is typically called by applications that intercept events from devices and reroute them. The method allows these applications to be notified of <a href="https://docs.microsoft.com/windows-hardware/drivers/image/still-image-device-events">Still Image Device Events</a> so they can then dispatch control to appropriate display applications.
 
-Based on contents supplied in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_stisubscribe">STISUBSCRIBE</a> structure, the caller can request to be notified of device events by Windows messages or by Win32 events (by means of <b>SetEvent</b> calls).
+Based on contents supplied in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_stisubscribe">STISUBSCRIBE</a> structure, the caller can request to be notified of device events by Windows messages or by Win32 events (by means of <b>SetEvent</b> calls).
 
-When the application receives notification of an event, it can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getlastnotificationdata">IStiDevice::GetLastNotificationData</a> to find out which event occurred. 
+When the application receives notification of an event, it can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getlastnotificationdata">IStiDevice::GetLastNotificationData</a> to find out which event occurred. 
 
 Before calling <b>IStiDevice::Subscribe</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
 
@@ -97,11 +97,11 @@ Before calling <b>IStiDevice::Subscribe</b>, clients of the <b>IStiDevice</b> CO
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index">IStiDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index">IStiDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-unsubscribe">IStiDevice::UnSubscribe</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-unsubscribe">IStiDevice::UnSubscribe</a>
 
 
 

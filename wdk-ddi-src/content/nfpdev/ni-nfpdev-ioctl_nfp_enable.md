@@ -143,7 +143,7 @@ If a device is currently proximate when this IOCTL is successfully completed, th
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfpdev/ni-nfpdev-ioctl_nfp_disable">IOCTL_NFP_DISABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfpdev/ni-nfpdev-ioctl_nfp_disable">IOCTL_NFP_DISABLE</a>
 
 
 

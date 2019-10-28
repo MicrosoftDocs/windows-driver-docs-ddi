@@ -58,7 +58,7 @@ A still image minidriver's <b>IStiUSD::Diagnostic</b> method runs diagnostic tes
 
 ### -param pBuffer
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_sti_diag">STI_DIAG</a> structure to receive testing status information.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_diag">STI_DIAG</a> structure to receive testing status information.
 
 
 ## -returns
@@ -84,11 +84,11 @@ The <b>IStiUSD::Diagnostic</b> method is called when a user clicks on the Scanne
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-diagnostic">IStiDevice::Diagnostic</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-diagnostic">IStiDevice::Diagnostic</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index">IStiUSD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
  
 
  

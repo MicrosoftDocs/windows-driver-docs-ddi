@@ -49,7 +49,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Gets a pointer to the enumerants of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a> objects.
+Gets a pointer to the enumerants of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a> objects.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Returns an <b>HRESULT</b> value. If the property call was not successful,  it re
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a>
  
 
  

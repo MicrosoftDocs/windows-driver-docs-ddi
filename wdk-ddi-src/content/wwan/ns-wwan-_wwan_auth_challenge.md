@@ -86,19 +86,19 @@ The challenge that uses the AKA' authentication method. If <b>AuthMethod</b> is 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_auth_akap_challenge">WWAN_AUTH_AKAP_CHALLENGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_akap_challenge">WWAN_AUTH_AKAP_CHALLENGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_auth_aka_challenge">WWAN_AUTH_AKA_CHALLENGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_aka_challenge">WWAN_AUTH_AKA_CHALLENGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_auth_method">WWAN_AUTH_METHOD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ne-wwan-_wwan_auth_method">WWAN_AUTH_METHOD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_auth_sim_challenge">WWAN_AUTH_SIM_CHALLENGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_auth_sim_challenge">WWAN_AUTH_SIM_CHALLENGE</a>
  
 
  

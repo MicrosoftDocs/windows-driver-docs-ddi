@@ -63,12 +63,12 @@ The  <b>IOCTL_SRIOV_INVALIDATE_BLOCK</b> request indicates that the virtualizati
 
 ### -input-buffer
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_invalidate_block">SRIOV_INVALIDATE_BLOCK</a> structure  that contains the configuration block to invalidate.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_invalidate_block">SRIOV_INVALIDATE_BLOCK</a> structure  that contains the configuration block to invalidate.
 
 
 ### -input-buffer-length
 
-The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_invalidate_block">SRIOV_INVALIDATE_BLOCK</a> structure.
+The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_invalidate_block">SRIOV_INVALIDATE_BLOCK</a> structure.
 
 
 ### -output-buffer

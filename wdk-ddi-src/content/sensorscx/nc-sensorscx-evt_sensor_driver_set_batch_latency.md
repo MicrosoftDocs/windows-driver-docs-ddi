@@ -83,7 +83,7 @@ This function returns STATUS_SUCCESS when completed successfully.
 
 The driver can set the batch latency to a value that is less than or equal to <i>BatchLatencyMs</i>, depending on buffer availability. For information about the sensor properties that a data batching sensor driver must report, see <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/common-sensor-properties">Common sensor properties</a>.
 
-It is important to note that there is no change implied to sensor data delivery methods and events, due to data batching.  When data batching latency expires, the driver will call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxsensordataready">SensorsCxSensorDataReady</a> repeatedly to deliver all the buffered data samples, one at a time. The data samples are sent, along with the timestamp information in their <b>PKEY_SensorData_Timestamp</b>  data fields. The timestamp information (of data type VT_FILETIME) shows the time  at which a sample was taken.
+It is important to note that there is no change implied to sensor data delivery methods and events, due to data batching.  When data batching latency expires, the driver will call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensorscxsensordataready">SensorsCxSensorDataReady</a> repeatedly to deliver all the buffered data samples, one at a time. The data samples are sent, along with the timestamp information in their <b>PKEY_SensorData_Timestamp</b>  data fields. The timestamp information (of data type VT_FILETIME) shows the time  at which a sample was taken.
 
 For more information about the VT_FILETIME data type, see <a href="https://go.microsoft.com/fwlink/p/?linkid=313395">MSDN PROPVARIANT structure</a>.
 
@@ -99,7 +99,7 @@ For more information about the VT_FILETIME data type, see <a href="https://go.mi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensorscxsensordataready">SensorsCxSensorDataReady</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensorscxsensordataready">SensorsCxSensorDataReady</a>
  
 
  

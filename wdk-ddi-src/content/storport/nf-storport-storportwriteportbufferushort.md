@@ -85,7 +85,7 @@ The <b>StorPortWritePortBufferUshort</b> routine writes a value to a specified r
 
 
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportwriteportbufferushort">ScsiPortWritePortBufferUshort</a>. For a non-buffered equivalent of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportwriteportushort">StorPortWritePortUshort</a>. 
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportwriteportbufferushort">ScsiPortWritePortBufferUshort</a>. For a non-buffered equivalent of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportwriteportushort">StorPortWritePortUshort</a>. 
 
 
 
@@ -95,11 +95,11 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportwriteportbufferushort">ScsiPortWritePortBufferUshort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportwriteportbufferushort">ScsiPortWritePortBufferUshort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportwriteportushort">StorPortWritePortUshort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportwriteportushort">StorPortWritePortUshort</a>
  
 
  

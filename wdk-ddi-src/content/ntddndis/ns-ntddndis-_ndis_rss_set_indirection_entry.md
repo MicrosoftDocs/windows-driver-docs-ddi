@@ -53,7 +53,7 @@ req.typenames: NDIS_RSS_SET_INDIRECTION_ENTRY, *PNDIS_RSS_SET_INDIRECTION_ENTRY
 > RSSv2 is preview only in Windows 10, version 1803.
 
 
-The <b>NDIS_RSS_SET_INDIRECTION_ENTRY</b> structure represents a command to set a single indirection table entry. It is contained in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_rss_set_indirection_entries">NDIS_RSS_SET_INDIRECTION_ENTRIES</a> structure, which is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-rss-set-indirection-table-entries">OID_GEN_RSS_SET_INDIRECTION_TABLE_ENTRIES</a> OID. OID_GEN_RSS_SET_INDIRECTION_TABLE_ENTRIES is a <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID</a> for <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">RSS Version 2 (RSSv2)</a>.
+The <b>NDIS_RSS_SET_INDIRECTION_ENTRY</b> structure represents a command to set a single indirection table entry. It is contained in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_rss_set_indirection_entries">NDIS_RSS_SET_INDIRECTION_ENTRIES</a> structure, which is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-rss-set-indirection-table-entries">OID_GEN_RSS_SET_INDIRECTION_TABLE_ENTRIES</a> OID. OID_GEN_RSS_SET_INDIRECTION_TABLE_ENTRIES is a <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID</a> for <a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-side-scaling-version-2-rssv2-">RSS Version 2 (RSSv2)</a>.
 
 
 ## -struct-fields
@@ -146,7 +146,7 @@ If an error occurs with this move command, set **EntryStatus** to one of the fol
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_rss_set_indirection_entries">NDIS_RSS_SET_INDIRECTION_ENTRIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_rss_set_indirection_entries">NDIS_RSS_SET_INDIRECTION_ENTRIES</a>
 
 
 

@@ -61,8 +61,8 @@ This property is write-only.
 
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Enable</a> and 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-disable">Disable</a> methods 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Enable</a> and 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfedtaction/nf-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2-disable">Disable</a> methods 
 attempt to restart the target device by default. Use this method to skip that step.
 
 
@@ -73,7 +73,7 @@ attempt to restart the target device by default. Use this method to skip that st
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfedtaction/nn-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2">IWDTFEnhancedDeviceTestSupportAction2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfedtaction/nn-wdtfedtaction-iwdtfenhanceddevicetestsupportaction2">IWDTFEnhancedDeviceTestSupportAction2</a>
  
 
  

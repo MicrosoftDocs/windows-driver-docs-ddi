@@ -68,7 +68,7 @@ Specifies the buffer base address.  Unless the client specifies a base address, 
 
 ### -field RequestedBufferSize
 
-Specifies the buffer size in bytes.  The driver returns the actual size of the allocated buffer in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksrtaudio_buffer">KSRTAUDIO_BUFFER</a> structure that it returns.
+Specifies the buffer size in bytes.  The driver returns the actual size of the allocated buffer in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksrtaudio_buffer">KSRTAUDIO_BUFFER</a> structure that it returns.
 
 
 ### -field NotificationCount

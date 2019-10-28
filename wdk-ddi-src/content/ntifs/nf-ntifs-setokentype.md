@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-This routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>. 
+This routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>. 
 
 
 ## -parameters

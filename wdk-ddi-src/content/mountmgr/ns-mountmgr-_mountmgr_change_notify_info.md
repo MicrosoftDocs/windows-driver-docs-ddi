@@ -75,7 +75,7 @@ For a general discussion of the mount manager and how it communicates with its c
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ni-mountmgr-ioctl_mountmgr_change_notify">IOCTL_MOUNTMGR_CHANGE_NOTIFY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_change_notify">IOCTL_MOUNTMGR_CHANGE_NOTIFY</a>
  
 
  

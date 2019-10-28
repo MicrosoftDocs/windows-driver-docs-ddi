@@ -61,7 +61,7 @@ This property is read-only.
 
 
 
-If the <b>PrintedPages</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintjob-get_totalpages">IPrintJob::TotalPages</a> properties are both zero, then page delimiting is not supported for the print job.
+If the <b>PrintedPages</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_totalpages">IPrintJob::TotalPages</a> properties are both zero, then page delimiting is not supported for the print job.
 
 
 
@@ -71,11 +71,11 @@ If the <b>PrintedPages</b> and <a href="https://docs.microsoft.com/windows-hardw
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintjob">IPrintJob::IPrintJob</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob::IPrintJob</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintjob-get_totalpages">TotalPages</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_totalpages">TotalPages</a>
  
 
  

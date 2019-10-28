@@ -76,7 +76,7 @@ The DXGKARGCB_GETCAPTUREADDRESS structure describes parameters for retrieving in
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_getcaptureaddress">DxgkCbGetCaptureAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_getcaptureaddress">DxgkCbGetCaptureAddress</a>
  
 
  

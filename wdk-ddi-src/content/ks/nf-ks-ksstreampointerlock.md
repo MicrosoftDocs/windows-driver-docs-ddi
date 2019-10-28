@@ -59,7 +59,7 @@ The<b> KsStreamPointerLock </b>function attempts to lock the specified stream po
 
 ### -param StreamPointer [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the stream pointer to attempt to lock.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure representing the stream pointer to attempt to lock.
 
 
 ## -returns
@@ -89,7 +89,7 @@ Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/str
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksstreampointerunlock">KsStreamPointerUnlock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksstreampointerunlock">KsStreamPointerUnlock</a>
  
 
  

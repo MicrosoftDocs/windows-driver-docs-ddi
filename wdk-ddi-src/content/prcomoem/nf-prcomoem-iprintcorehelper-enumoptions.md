@@ -99,11 +99,11 @@ When <b>IPrintCoreHelper::EnumOptions</b> returns, the option list contains all 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintcorehelper">IPrintCoreHelper</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintcorehelper">IPrintCoreHelper</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelper-enumfeatures">IPrintCoreHelper::EnumFeatures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcorehelper-enumfeatures">IPrintCoreHelper::EnumFeatures</a>
  
 
  

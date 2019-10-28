@@ -91,7 +91,7 @@ A vendor identifier (ID) that uniquely identifies the vendor that created the DM
 
 The number of DMA channels that the DMA provider supports. This number can differ from the 
      <b>MaxDmaChannelCount</b> member of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_provider_characteristics">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
      NET_DMA_PROVIDER_CHARACTERISTICS</a> structure that defines the maximum number of DMA channels that
      this type of DMA provider can support.
 
@@ -114,7 +114,7 @@ The largest physical address that the DMA engine can support.
 To start a DMA provider, the DMA provider driver supplies a NET_DMA_PROVIDER_ATTRIBUTES structure at
     the 
     <i>ProviderAttributes</i> parameter of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaproviderstart">NetDmaProviderStart</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaproviderstart">NetDmaProviderStart</a> function.
 
 A DMA provider driver initializes a DMA engine and starts a DMA provider while handling the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> IRP.
@@ -131,16 +131,16 @@ A DMA provider driver initializes a DMA engine and starts a DMA provider while h
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_provider_characteristics">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaproviderstart">NetDmaProviderStart</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaproviderstart">NetDmaProviderStart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaproviderstop">NetDmaProviderStop</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaproviderstop">NetDmaProviderStop</a>
  
 
  

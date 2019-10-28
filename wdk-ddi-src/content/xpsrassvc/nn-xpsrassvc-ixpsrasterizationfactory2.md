@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-In Windows 10, the <b>IXpsRasterizationFactory2</b> interface represents an object factory for creating components that can  convert content from XPS to PWG Raster using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">XPS Rasterization Service</a>. PWG Raster supports non-square DPIs.
+In Windows 10, the <b>IXpsRasterizationFactory2</b> interface represents an object factory for creating components that can  convert content from XPS to PWG Raster using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">XPS Rasterization Service</a>. PWG Raster supports non-square DPIs.
 
 
 ## -inheritance
@@ -68,10 +68,10 @@ The <b>IXpsRasterizationFactory2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory2-createrasterizer">CreateRasterizer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory2-createrasterizer">CreateRasterizer</a>
 </td>
 <td align="left" width="63%">
-The <b>CreateRasterizer</b> method creates an XPS rasterizer object that can convert content from XPS to PWG Raster using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">XPS Rasterization Service</a>. PWG Raster supports non-square DPIs.
+The <b>CreateRasterizer</b> method creates an XPS rasterizer object that can convert content from XPS to PWG Raster using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">XPS Rasterization Service</a>. PWG Raster supports non-square DPIs.
 
 
 </td>

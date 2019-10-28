@@ -79,11 +79,11 @@ None
 
 
 
-The PI8042_ISR_WRITE_PORT callback should only be called by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/nc-ntdd8042-pi8042_keyboard_isr">PI8042_KEYBOARD_ISR</a> callback or a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/nc-ntdd8042-pi8042_mouse_isr">PI8042_MOUSE_ISR</a> callback. I8042prt calls a vendor-supplied ISR callback for a device in the corresponding I8042prt device ISR.
+The PI8042_ISR_WRITE_PORT callback should only be called by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/nc-ntdd8042-pi8042_keyboard_isr">PI8042_KEYBOARD_ISR</a> callback or a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/nc-ntdd8042-pi8042_mouse_isr">PI8042_MOUSE_ISR</a> callback. I8042prt calls a vendor-supplied ISR callback for a device in the corresponding I8042prt device ISR.
 
-I8042prt specifies the keyboard write port callback in the <b>IsrWritePort</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ns-ntdd8042-_internal_i8042_hook_keyboard">INTERNAL_I8042_HOOK_KEYBOARD</a> structure that I8042prt uses with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_hook_keyboard">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a> request.
+I8042prt specifies the keyboard write port callback in the <b>IsrWritePort</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ns-ntdd8042-_internal_i8042_hook_keyboard">INTERNAL_I8042_HOOK_KEYBOARD</a> structure that I8042prt uses with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_hook_keyboard">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a> request.
 
-I8042prt specifies the mouse write port callback in the <b>IsrWritePort</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ns-ntdd8042-_internal_i8042_hook_mouse">INTERNAL_I8042_HOOK_MOUSE</a> structure that I8042prt uses with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_hook_keyboard">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a> request.
+I8042prt specifies the mouse write port callback in the <b>IsrWritePort</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ns-ntdd8042-_internal_i8042_hook_mouse">INTERNAL_I8042_HOOK_MOUSE</a> structure that I8042prt uses with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_hook_keyboard">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a> request.
 
 The PI8042_ISR_WRITE_PORT callback runs in kernel mode at the same IRQL as the I8042prt ISR for the device.
 
@@ -95,7 +95,7 @@ The PI8042_ISR_WRITE_PORT callback runs in kernel mode at the same IRQL as the I
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ns-ntdd8042-_internal_i8042_hook_mouse">INTERNAL_I8042_HOOK_MOUSE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ns-ntdd8042-_internal_i8042_hook_mouse">INTERNAL_I8042_HOOK_MOUSE</a>
 
 
 
@@ -103,7 +103,7 @@ The PI8042_ISR_WRITE_PORT callback runs in kernel mode at the same IRQL as the I
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_hook_mouse">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_hook_mouse">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
  
 
  

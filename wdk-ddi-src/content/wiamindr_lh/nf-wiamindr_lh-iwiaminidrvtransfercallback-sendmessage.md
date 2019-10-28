@@ -72,6 +72,6 @@ When the current transfer sequence is cancelled, the **SendMessage** method retu
 
 [Cancellation of Data Transfers](https://docs.microsoft.com/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista)
 
-[IWiaMiniDrvTransferCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvtransfercallback)
+[IWiaMiniDrvTransferCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvtransfercallback)
 
 [WiaTransferParams](https://docs.microsoft.com/windows/desktop/wia/-wia-wiatransferparams)

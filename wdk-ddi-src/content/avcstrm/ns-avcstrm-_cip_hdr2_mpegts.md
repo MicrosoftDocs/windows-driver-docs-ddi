@@ -81,7 +81,7 @@ Must be set to 1:0
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_cip_hdr1">CIP_HDR1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_cip_hdr1">CIP_HDR1</a>
  
 
  

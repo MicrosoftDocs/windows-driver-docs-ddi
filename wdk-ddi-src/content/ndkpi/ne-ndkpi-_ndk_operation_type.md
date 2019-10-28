@@ -48,7 +48,7 @@ req.typenames: NDK_OPERATION_TYPE
 ## -description
 
 
-The <b>NDK_OPERATION_TYPE</b> enumeration defines types of NDK operations. Its enumeration values are used in the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_result_ex">NDK_RESULT_EX</a> structure.
+The <b>NDK_OPERATION_TYPE</b> enumeration defines types of NDK operations. Its enumeration values are used in the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result_ex">NDK_RESULT_EX</a> structure.
 
 
 ## -enum-fields
@@ -58,42 +58,42 @@ The <b>NDK_OPERATION_TYPE</b> enumeration defines types of NDK operations. Its e
 
 ### -field NdkOperationTypeReceive
 
-An <i>NdkReceive</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_receive">NDK_FN_RECEIVE</a>) operation.
+An <i>NdkReceive</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_receive">NDK_FN_RECEIVE</a>) operation.
 
 
 ### -field NdkOperationTypeReceiveAndInvalidate
 
-An <i>NdkSendAndInvalidate</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_send_and_invalidate">NDK_FN_SEND_AND_INVALIDATE</a>) operation.
+An <i>NdkSendAndInvalidate</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_send_and_invalidate">NDK_FN_SEND_AND_INVALIDATE</a>) operation.
 
 
 ### -field NdkOperationTypeSend
 
-An <i>NdkSend</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_send">NDK_FN_SEND</a>) operation.
+An <i>NdkSend</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_send">NDK_FN_SEND</a>) operation.
 
 
 ### -field NdkOperationTypeFastRegister
 
-An <i>NdkFastRegister</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_fast_register">NDK_FN_FAST_REGISTER</a>) operation.
+An <i>NdkFastRegister</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_fast_register">NDK_FN_FAST_REGISTER</a>) operation.
 
 
 ### -field NdkOperationTypeBind
 
-An <i>NdkBind</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_bind">NDK_FN_BIND</a>)  operation.
+An <i>NdkBind</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_bind">NDK_FN_BIND</a>)  operation.
 
 
 ### -field NdkOperationTypeInvalidate
 
-An <i>NdkInvalidate</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_invalidate">NDK_FN_INVALIDATE</a>) operation.
+An <i>NdkInvalidate</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_invalidate">NDK_FN_INVALIDATE</a>) operation.
 
 
 ### -field NdkOperationTypeRead
 
-An <i>NdkRead</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_read">NDK_FN_READ</a>) operation.
+An <i>NdkRead</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_read">NDK_FN_READ</a>) operation.
 
 
 ### -field NdkOperationTypeWrite
 
-An <i>NdkWrite</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_write">NDK_FN_WRITE</a>) operation.
+An <i>NdkWrite</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_write">NDK_FN_WRITE</a>) operation.
 
 
 ## -see-also
@@ -101,7 +101,7 @@ An <i>NdkWrite</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_result_ex">NDK_RESULT_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result_ex">NDK_RESULT_EX</a>
  
 
  

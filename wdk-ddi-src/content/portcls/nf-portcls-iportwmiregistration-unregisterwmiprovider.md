@@ -60,7 +60,7 @@ The <code>UnregisterWMIProvider</code> method unregisters the <a href="https://d
 
 #### - pDeviceObject
 
-Specifies a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter driver.
+Specifies a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter driver.
 
 
 ## -returns
@@ -77,7 +77,7 @@ The <code>UnregisterWMIProvider</code> method returns STATUS_SUCCESS if the call
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
@@ -85,7 +85,7 @@ The <code>UnregisterWMIProvider</code> method returns STATUS_SUCCESS if the call
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportwmiregistration">IPortWMIRegistration</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportwmiregistration">IPortWMIRegistration</a>
  
 
  

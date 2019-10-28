@@ -58,12 +58,12 @@ The D3DDDIARG_RENDERSTATE structure describes how to update a specific render st
 
 ### -field State
 
-[in] A D3DDDIRENDERSTATETYPE-typed value that indicates the render state to be updated. For a definition of each value, see the corresponding value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d9types/ne-d3d9types-_d3drenderstatetype">D3DRENDERSTATETYPE</a> enumeration type in the DirectX documentation.
+[in] A D3DDDIRENDERSTATETYPE-typed value that indicates the render state to be updated. For a definition of each value, see the corresponding value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d9types/ne-d3d9types-_d3drenderstatetype">D3DRENDERSTATETYPE</a> enumeration type in the DirectX documentation.
 
 
 ### -field Value
 
-[in] The value to which the driver should update the render state that is identified by the <b>State</b> member. For more information about values that can be updated for each render state, see the definition of the corresponding render state in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d9types/ne-d3d9types-_d3drenderstatetype">D3DRENDERSTATETYPE</a> enumeration type in the DirectX documentation.
+[in] The value to which the driver should update the render state that is identified by the <b>State</b> member. For more information about values that can be updated for each render state, see the definition of the corresponding render state in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d9types/ne-d3d9types-_d3drenderstatetype">D3DRENDERSTATETYPE</a> enumeration type in the DirectX documentation.
 
 
 ## -see-also
@@ -71,7 +71,7 @@ The D3DDDIARG_RENDERSTATE structure describes how to update a specific render st
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setrenderstate">SetRenderState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setrenderstate">SetRenderState</a>
  
 
  

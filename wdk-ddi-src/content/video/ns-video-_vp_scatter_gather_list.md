@@ -77,7 +77,7 @@ Specifies the number of scatter/gather elements in the <b>Elements</b> array mem
 
 This structure is available in Windows XP and later.
 
-The video port driver aggregates scatter/gather information in a VP_SCATTER_GATHER_LIST structure, passing it to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pexecute_dma">HwVidExecuteDma</a> callback routine. The miniport driver uses this information when it sets up the video hardware for a DMA transfer.
+The video port driver aggregates scatter/gather information in a VP_SCATTER_GATHER_LIST structure, passing it to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a> callback routine. The miniport driver uses this information when it sets up the video hardware for a DMA transfer.
 
 
 
@@ -87,11 +87,11 @@ The video port driver aggregates scatter/gather information in a VP_SCATTER_GATH
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pexecute_dma">HwVidExecuteDma</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_vp_scatter_gather_element">VP_SCATTER_GATHER_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_vp_scatter_gather_element">VP_SCATTER_GATHER_ELEMENT</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2
 ## -description
 
 
-<b>DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</b> is passed to the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2">DxgkDdiCheckMultiPlaneOverlaySupport2</a> function to determine whether a specific multi-plane overlay configuration is supported. 
+<b>DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</b> is passed to the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2">DxgkDdiCheckMultiPlaneOverlaySupport2</a> function to determine whether a specific multi-plane overlay configuration is supported. 
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ The number of planes to be enabled.
 
 ### -field pPlanes
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_plane_with_source">DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE</a> 
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_plane_with_source">DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE</a> 
                                                                         structure that specifies support attributes that the hardware
                                                                         provides for multi-plane overlays.
 
@@ -83,11 +83,11 @@ Specifies additional information.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_plane_with_source">DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_plane_with_source">DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2">DxgkDdiCheckMultiPlaneOverlaySupport2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport2">DxgkDdiCheckMultiPlaneOverlaySupport2</a>
  
 
  

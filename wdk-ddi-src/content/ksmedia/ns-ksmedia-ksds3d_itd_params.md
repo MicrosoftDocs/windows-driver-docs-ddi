@@ -90,7 +90,7 @@ Specifies the time delay for this channel. The delay is expressed as an integer 
 
 
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksds3d_itd_params_msg">KSDS3D_ITD_PARAMS_MSG</a> structure, which the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-itd3d-params">KSPROPERTY_ITD3D_PARAMS</a> property request uses to specify the ITD parameters for the left and right channels of a 3D audio stream.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksds3d_itd_params_msg">KSDS3D_ITD_PARAMS_MSG</a> structure, which the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-itd3d-params">KSPROPERTY_ITD3D_PARAMS</a> property request uses to specify the ITD parameters for the left and right channels of a 3D audio stream.
 
 The <b>Delay</b> member specifies the amount by which the current channel delays the sound arriving from the source. The interaural time delay is the difference in delays between the two channels.
 
@@ -113,7 +113,7 @@ When a KSPROPERTY_ITD3D_PARAMS set-property request changes either <b>TotalDryAt
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksds3d_itd_params_msg">KSDS3D_ITD_PARAMS_MSG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksds3d_itd_params_msg">KSDS3D_ITD_PARAMS_MSG</a>
 
 
 

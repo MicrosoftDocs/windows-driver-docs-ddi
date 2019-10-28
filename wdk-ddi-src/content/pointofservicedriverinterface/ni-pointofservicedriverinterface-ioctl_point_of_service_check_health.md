@@ -58,7 +58,7 @@ This I/O control function checks the device health.
 
 ### -input-buffer
 
-Pointer to the input buffer, a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposhealthchecklevel">UnifiedPosHealthCheckLevel</a> variable.
+Pointer to the input buffer, a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposhealthchecklevel">UnifiedPosHealthCheckLevel</a> variable.
 
 
 ### -input-buffer-length
@@ -68,7 +68,7 @@ Size of the input buffer, in bytes. Set to sizeof(<i>UnifiedPosHealthCheckLevel<
 
 ### -output-buffer
 
-Pointer to a buffer that receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posstringtype">PosStringType</a> followed by the contents of the health string.
+Pointer to a buffer that receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posstringtype">PosStringType</a> followed by the contents of the health string.
 
 
 ### -output-buffer-length

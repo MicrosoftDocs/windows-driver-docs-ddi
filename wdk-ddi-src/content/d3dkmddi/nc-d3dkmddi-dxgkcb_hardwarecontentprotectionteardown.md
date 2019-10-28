@@ -63,7 +63,7 @@ A handle to the graphics adapter where the tear-down event is occurring.
 
 ### -param Flags
 
-Additional flags defined by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a> enumeration.
+Additional flags defined by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a> enumeration.
 
 
 ## -returns
@@ -94,7 +94,7 @@ The driver can call this callback at either passive level or at dispatch level.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a>
  
 
  

@@ -58,7 +58,7 @@ The <code>IPrintOemDriverUI::DrvGetDriverSetting</code> method is provided by th
 
 ### -param pci
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemuiobj">OEMUIOBJ</a> structure.
 
 
 ### -param Feature

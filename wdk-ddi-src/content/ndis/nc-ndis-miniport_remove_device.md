@@ -50,7 +50,7 @@ req.typenames:
 
 The 
    <i>MiniportRemoveDevice</i> function releases resources that the 
-   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a> function
+   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a> function
    allocated.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_REMOVE_DEVICE</b> type. For more
    information, see the following Examples section.</div><div> </div>
@@ -63,7 +63,7 @@ The
 ### -param MiniportAddDeviceContext [in]
 
 A handle for a driver-allocated context area that the miniport driver registered with NDIS in the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a> function.
 
 
 ## -returns
@@ -82,13 +82,13 @@ None
 The 
     <i>MiniportRemoveDevice</i> function is an optional function. Miniport drivers that
     support MSI-X should specify an entry point for this function in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_pnp_characteristics">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_pnp_characteristics">
     NDIS_MINIPORT_PNP_CHARACTERISTICS</a> structure.
 
 When NDIS receives a request from the Plug and Play (PnP) manager to remove a device, NDIS calls the 
     <i>MiniportRemoveDevice</i> function. 
     <i>MiniportRemoveDevice</i> should then undo the operations that the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a> function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a> function
     performed.
 
 Miniport adapters might be halted and initialized several times before NDIS calls 
@@ -144,15 +144,15 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_add_device">MiniportAddDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_init_parameters">NDIS_MINIPORT_INIT_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_init_parameters">NDIS_MINIPORT_INIT_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_pnp_characteristics">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_pnp_characteristics">
    NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
  
 

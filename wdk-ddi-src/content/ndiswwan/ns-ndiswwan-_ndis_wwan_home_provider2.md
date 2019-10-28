@@ -104,7 +104,7 @@ sizeof(NDIS_WWAN_HOME_PROVIDER2)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -114,7 +114,7 @@ The status of the home provider operation.
 
 ### -field Provider
 
-A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_provider2">WWAN_PROVIDER2</a> object that describes the details of a home network provider.
+A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider2">WWAN_PROVIDER2</a> object that describes the details of a home network provider.
 
 
 ## -see-also
@@ -122,7 +122,7 @@ A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/con
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_provider2">WWAN_PROVIDER2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_provider2">WWAN_PROVIDER2</a>
  
 
  

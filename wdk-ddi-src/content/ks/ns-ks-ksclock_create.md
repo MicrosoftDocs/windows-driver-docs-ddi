@@ -48,7 +48,7 @@ req.typenames: KSCLOCK_CREATE, *PKSCLOCK_CREATE
 ## -description
 
 
-The KSCLOCK_CREATE structure is used in clock create parameters for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kscreateclock">KsCreateClock</a> function.
+The KSCLOCK_CREATE structure is used in clock create parameters for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreateclock">KsCreateClock</a> function.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ Currently consists of a flags item, which must be set to zero.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kscreateclock">KsCreateClock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kscreateclock">KsCreateClock</a>
  
 
  

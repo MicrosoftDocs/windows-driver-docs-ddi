@@ -75,7 +75,7 @@ This structure holds data for the feature named "Disc Control Blocks" by the <i>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddmmc/ns-ntddmmc-_feature_data_disc_control_blocks">FEATURE_DATA_DISC_CONTROL_BLOCKS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddmmc/ns-ntddmmc-_feature_data_disc_control_blocks">FEATURE_DATA_DISC_CONTROL_BLOCKS</a>
  
 
  

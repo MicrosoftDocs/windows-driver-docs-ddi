@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsTopologyPropertyHandler</b> function performs standard handling of the static members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-topology">KSPROPSETID_Topology</a> Property Set. The function uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kstopology">KSTOPOLOGY</a> structure, which describes the set of information that is returned by this property set.
+The <b>KsTopologyPropertyHandler</b> function performs standard handling of the static members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-topology">KSPROPSETID_Topology</a> Property Set. The function uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kstopology">KSTOPOLOGY</a> structure, which describes the set of information that is returned by this property set.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Specifies the topology property-specific data.
 
 ### -param Topology [in]
 
-Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kstopology">KSTOPOLOGY</a> structure containing the topology information.
+Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kstopology">KSTOPOLOGY</a> structure containing the topology information.
 
 
 ## -returns

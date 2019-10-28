@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-debugconnect">DebugConnect</a> and <b>DebugConnectWide</b> functions create a new <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">client object</a> and return an interface pointer to it.  The client object will be connected to a remote host.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-debugconnect">DebugConnect</a> and <b>DebugConnectWide</b> functions create a new <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">client object</a> and return an interface pointer to it.  The client object will be connected to a remote host.
 
 
 ## -parameters

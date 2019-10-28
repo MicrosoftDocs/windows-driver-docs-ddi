@@ -74,7 +74,7 @@ None.
 
 
 
-Your SPB controller driver must use this function to initialize an <b>SPB_REQUEST_PARAMETERS</b> structure before passing this structure as an output parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a> method. This method writes the SPB-specific parameters from an I/O request to this structure.
+Your SPB controller driver must use this function to initialize an <b>SPB_REQUEST_PARAMETERS</b> structure before passing this structure as an output parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a> method. This method writes the SPB-specific parameters from an I/O request to this structure.
 
 
 
@@ -88,7 +88,7 @@ Your SPB controller driver must use this function to initialize an <b>SPB_REQUES
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nf-spbcx-spbrequestgetparameters">SpbRequestGetParameters</a>
  
 
  

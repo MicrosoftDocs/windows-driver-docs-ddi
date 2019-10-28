@@ -58,7 +58,7 @@ The <b>IoWMIQuerySingleInstance</b> routine returns the specified instance of a 
 
 ### -param DataBlockObject [in]
 
-Pointer to a WMI data block object. The caller opens the data block object for the WMI class with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a> routine. The object must be opened with the WMIGUID_QUERY access right.
+Pointer to a WMI data block object. The caller opens the data block object for the WMI class with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a> routine. The object must be opened with the WMIGUID_QUERY access right.
 
 
 ### -param InstanceName [in]
@@ -73,7 +73,7 @@ Pointer to a memory location that specifies the size of the buffer passed in the
 
 ### -param OutBuffer [out, optional]
 
-Pointer to the buffer where the routine returns the WMI data. The routine returns a variable-sized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-tagwnode_single_instance">WNODE_SINGLE_INSTANCE</a> structure. <i>OutBuffer</i> must point to a buffer allocated from nonpaged pool.
+Pointer to the buffer where the routine returns the WMI data. The routine returns a variable-sized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmistr/ns-wmistr-tagwnode_single_instance">WNODE_SINGLE_INSTANCE</a> structure. <i>OutBuffer</i> must point to a buffer allocated from nonpaged pool.
 
 
 ## -returns
@@ -143,7 +143,7 @@ The buffer passed by the caller in the <i>OutBuffer</i> parameter is too small. 
 
 <b>IoWMIQuerySingleInstance</b> determines which drivers might support the specified WMI class with the specified instance name, and issues an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-single-instance">IRP_MN_QUERY_SINGLE_INSTANCE</a> request to each such driver. The driver that exports the data block instance with matching <b>InstanceName</b> property returns the appropriate data.
 
-To query for multiple WMI classes and instance names, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmiquerysingleinstancemultiple">IoWMIQuerySingleInstanceMultiple</a> routine. Drivers can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmisetsingleinstance">IoWMISetSingleInstance</a> routine to update the class instance. 
+To query for multiple WMI classes and instance names, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiquerysingleinstancemultiple">IoWMIQuerySingleInstanceMultiple</a> routine. Drivers can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisetsingleinstance">IoWMISetSingleInstance</a> routine to update the class instance. 
 
 
 
@@ -157,15 +157,15 @@ To query for multiple WMI classes and instance names, use the <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmiquerysingleinstancemultiple">IoWMIQuerySingleInstanceMultiple</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiquerysingleinstancemultiple">IoWMIQuerySingleInstanceMultiple</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmisetsingleinstance">IoWMISetSingleInstance</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmisetsingleinstance">IoWMISetSingleInstance</a>
  
 
  

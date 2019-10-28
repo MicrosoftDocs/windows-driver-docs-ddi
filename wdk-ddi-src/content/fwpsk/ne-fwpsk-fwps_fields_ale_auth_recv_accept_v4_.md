@@ -111,7 +111,7 @@ The identifier of the remote machine.
 
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V4_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) for the network interface associated with the
      local IP address.
 
 
@@ -345,7 +345,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 In Windows Server 2008, Windows Vista SP1, and later versions of Windows, when an outbound packet is
     indicated to this layer during a reauthorization call to the callout filter's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> function, all arrival network
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> function, all arrival network
     interface related fields are set to FWP_EMPTY.
 
 The following macros in 
@@ -431,7 +431,7 @@ The IP_PROTECTION_LEVEL property associated with the socket.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
 
 

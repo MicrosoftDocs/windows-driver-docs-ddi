@@ -87,11 +87,11 @@ Callers of <b>WdmlibRtlInitUnicodeStringEx</b> can be running at IRQL <= DISPATC
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringinit">RtlUnicodeStringInit</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringinit">RtlUnicodeStringInit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringinitex">RtlUnicodeStringInitEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringinitex">RtlUnicodeStringInitEx</a>
 
 
 

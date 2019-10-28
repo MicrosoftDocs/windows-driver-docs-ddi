@@ -440,7 +440,7 @@ For SerCx2 and SerCx, the associated serial controller driver typically sets thi
 
 Receive queue size. This member specifies the size, in bytes, of the serial controller driver's internal input buffer. A value of zero indicates that the buffer size is unavailable.
 
-For SerCx2 and SerCx, this member is set by the associated serial controller driver. For SerCx2, the driver typically sets this member to zero. For SerCx, the driver typically sets this member to the size of the ring buffer that SerCx uses to buffer received data. This driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxgetringbufferutilization">SerCxGetRingBufferUtilization</a> method to get the ring buffer size from SerCx.
+For SerCx2 and SerCx, this member is set by the associated serial controller driver. For SerCx2, the driver typically sets this member to zero. For SerCx, the driver typically sets this member to the size of the ring buffer that SerCx uses to buffer received data. This driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxgetringbufferutilization">SerCxGetRingBufferUtilization</a> method to get the ring buffer size from SerCx.
 
 Serial.sys sets this member to a nonzero value that indicates the input buffer size.
 
@@ -464,7 +464,7 @@ Provider-specific data. Applications should ignore this member unless provider-s
 
 
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_get_properties">IOCTL_SERIAL_GET_PROPERTIES</a> request.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_properties">IOCTL_SERIAL_GET_PROPERTIES</a> request.
 
 
 
@@ -474,7 +474,7 @@ This structure is used by the <a href="https://docs.microsoft.com/windows-hardwa
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_get_properties">IOCTL_SERIAL_GET_PROPERTIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_get_properties">IOCTL_SERIAL_GET_PROPERTIES</a>
  
 
  

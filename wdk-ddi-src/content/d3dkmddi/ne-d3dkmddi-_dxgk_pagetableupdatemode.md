@@ -48,7 +48,7 @@ req.typenames: DXGK_PAGETABLEUPDATEMODE
 ## -description
 
 
-<b>DXGK_PAGETABLEUPDATEMODE</b> is used as part of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_buildpagingbuffer">DxgkDdiBuildPagingBuffer</a> operation to indicate which member of the related <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_pagetableupdateaddress">DXGK_PAGETABLEUPDATEADDRESS</a> structure contains the address of the page table to update. 
+<b>DXGK_PAGETABLEUPDATEMODE</b> is used as part of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_buildpagingbuffer">DxgkDdiBuildPagingBuffer</a> operation to indicate which member of the related <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_pagetableupdateaddress">DXGK_PAGETABLEUPDATEADDRESS</a> structure contains the address of the page table to update. 
 
 
 ## -enum-fields
@@ -58,17 +58,17 @@ req.typenames: DXGK_PAGETABLEUPDATEMODE
 
 ### -field DXGK_PAGETABLEUPDATE_CPU_VIRTUAL
 
-Indicates that the address of the page table to update is in the <b>CpuVirtual</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_pagetableupdateaddress">DXGK_PAGETABLEUPDATEADDRESS</a> structure.
+Indicates that the address of the page table to update is in the <b>CpuVirtual</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_pagetableupdateaddress">DXGK_PAGETABLEUPDATEADDRESS</a> structure.
 
 
 ### -field DXGK_PAGETABLEUPDATE_GPU_VIRTUAL
 
-Indicates that the address of the page table to update is in the <b>GpuVirtual</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_pagetableupdateaddress">DXGK_PAGETABLEUPDATEADDRESS</a> structure.
+Indicates that the address of the page table to update is in the <b>GpuVirtual</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_pagetableupdateaddress">DXGK_PAGETABLEUPDATEADDRESS</a> structure.
 
 
 ### -field DXGK_PAGETABLEUPDATE_GPU_PHYSICAL
 
-Indicates that the address of the page table to update is in the <b>GpuPhysical</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_pagetableupdateaddress">DXGK_PAGETABLEUPDATEADDRESS</a> structure.
+Indicates that the address of the page table to update is in the <b>GpuPhysical</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_pagetableupdateaddress">DXGK_PAGETABLEUPDATEADDRESS</a> structure.
 
 
 ## -see-also
@@ -76,11 +76,11 @@ Indicates that the address of the page table to update is in the <b>GpuPhysical<
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_pagetableupdateaddress">DXGK_PAGETABLEUPDATEADDRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_pagetableupdateaddress">DXGK_PAGETABLEUPDATEADDRESS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_buildpagingbuffer">DxgkDdiBuildPagingBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_buildpagingbuffer">DxgkDdiBuildPagingBuffer</a>
  
 
  

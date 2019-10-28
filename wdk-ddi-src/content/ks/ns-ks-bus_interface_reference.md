@@ -58,22 +58,22 @@ A software device enumerator exports this interface to allow drivers to referenc
 
 ### -field Interface
 
-Specifies the exported <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a>.
+Specifies the exported <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>.
 
 
 ### -field ReferenceDeviceObject
 
-Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnreferencedeviceobject">KStrReferenceDeviceObject</a> routine.
+Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnreferencedeviceobject">KStrReferenceDeviceObject</a> routine.
 
 
 ### -field DereferenceDeviceObject
 
-Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfndereferencedeviceobject">KStrDereferenceDeviceObject</a> routine.
+Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfndereferencedeviceobject">KStrDereferenceDeviceObject</a> routine.
 
 
 ### -field QueryReferenceString
 
-Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnqueryreferencestring">KStrQueryReferenceString</a> routine.
+Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnqueryreferencestring">KStrQueryReferenceString</a> routine.
 
 
 ## -remarks

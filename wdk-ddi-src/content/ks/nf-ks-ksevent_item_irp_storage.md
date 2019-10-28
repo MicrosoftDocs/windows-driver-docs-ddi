@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-This macro retrieves a pointer to the [KSEVENT_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksevent_item) structure stored in *Irp*.
+This macro retrieves a pointer to the [KSEVENT_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksevent_item) structure stored in *Irp*.
 
 ## -parameters
 

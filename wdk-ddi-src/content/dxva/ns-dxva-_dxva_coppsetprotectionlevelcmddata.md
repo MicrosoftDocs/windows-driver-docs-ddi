@@ -127,7 +127,7 @@ Specifies additional 32-bit data for the protection type in <b>ProtType</b>. Not
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppcommand">DXVA_COPPCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppcommand">DXVA_COPPCommand</a>
  
 
  

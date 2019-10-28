@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>HidP_MaxUsageListLength</b> routine returns the maximum number of <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">HID usages</a> that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/nf-hidpi-hidp_getusages">HidP_GetUsages</a> can return for a specified type of HID report and a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
+The <b>HidP_MaxUsageListLength</b> routine returns the maximum number of <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">HID usages</a> that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages">HidP_GetUsages</a> can return for a specified type of HID report and a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>HidP_MaxUsageListLength</b> routine returns the maximum number of <a href
 
 ### -param ReportType [in]
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that indicates the report type.
+Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that indicates the report type.
 
 
 ### -param UsagePage [in]
@@ -76,7 +76,7 @@ Pointer to a top-level collection's <a href="https://docs.microsoft.com/windows-
 
 
 
-If successful, <b>HidP_MaxUsageListLength</b> returns the maximum number of <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">HID usages</a> that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/nf-hidpi-hidp_getusages">HidP_GetUsages</a> can return for a specified type of HID report and a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>. If the specified preparsed data or report type is not valid, the routine returns zero.
+If successful, <b>HidP_MaxUsageListLength</b> returns the maximum number of <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">HID usages</a> that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages">HidP_GetUsages</a> can return for a specified type of HID report and a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>. If the specified preparsed data or report type is not valid, the routine returns zero.
 
 
 
@@ -99,11 +99,11 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/nf-hidpi-hidp_getusages">HidP_GetUsages</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages">HidP_GetUsages</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
  
 
  

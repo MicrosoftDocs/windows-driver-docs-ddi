@@ -48,7 +48,7 @@ req.typenames: RECORDER_LOG_CREATE_PARAMS, *PRECORDER_LOG_CREATE_PARAMS
 ## -description
 
 
-The <b>RECORDER_LOG_CREATE_PARAMS</b> structure is an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wpprecorder/nf-wpprecorder-wpprecorderlogcreate">WppRecorderLogCreate</a> method. 
+The <b>RECORDER_LOG_CREATE_PARAMS</b> structure is an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate">WppRecorderLogCreate</a> method. 
 
 
 ## -struct-fields
@@ -101,7 +101,7 @@ Identifier to print when debug messages are merged. Lives at end of structure so
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wpprecorder/nf-wpprecorder-recorder_log_create_params_init">RECORDER_LOG_CREATE_PARAMS_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-recorder_log_create_params_init">RECORDER_LOG_CREATE_PARAMS_INIT</a>
  
 
  

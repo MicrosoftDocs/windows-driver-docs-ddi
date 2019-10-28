@@ -75,7 +75,7 @@ This method does not return a value.
 
 
 
-This method causes interrupt transfers to be sent to the host controller. UCX invokes the client driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/nc-ucxroothub-evt_ucx_roothub_interrupt_tx">EVT_UCX_ROOTHUB_INTERRUPT_TX</a> event callback.
+This method causes interrupt transfers to be sent to the host controller. UCX invokes the client driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/nc-ucxroothub-evt_ucx_roothub_interrupt_tx">EVT_UCX_ROOTHUB_INTERRUPT_TX</a> event callback.
 
 
 

@@ -48,7 +48,7 @@ req.typenames: KEY_VALUE_ENTRY, *PKEY_VALUE_ENTRY
 ## -description
 
 
-The <b>KEY_VALUE_ENTRY</b> structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_query_multiple_value_key_information">REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</a> structure to describe a single value entry for a registry key.
+The <b>KEY_VALUE_ENTRY</b> structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_query_multiple_value_key_information">REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</a> structure to describe a single value entry for a registry key.
 
 
 ## -struct-fields
@@ -68,19 +68,19 @@ Specifies the size, in bytes, of the data for the value entry.
 
 ### -field DataOffset
 
-Specifies the offset, in bytes, of the value entry's data within the buffer that is pointed to by the <b>ValueBuffer</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_query_multiple_value_key_information">REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</a>.
+Specifies the offset, in bytes, of the value entry's data within the buffer that is pointed to by the <b>ValueBuffer</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_query_multiple_value_key_information">REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</a>.
 
 
 ### -field Type
 
-Specifies the type of the value entry's data. For a description of the possible values for <b>Type</b>, see the <i>Type</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>.
+Specifies the type of the value entry's data. For a description of the possible values for <b>Type</b>, see the <i>Type</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>.
 
 
 ## -remarks
 
 
 
-The <b>ValueEntries</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_query_multiple_value_key_information">REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</a> points to an array of KEY_VALUE_ENTRY structures.
+The <b>ValueEntries</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_query_multiple_value_key_information">REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</a> points to an array of KEY_VALUE_ENTRY structures.
 
 
 
@@ -90,11 +90,11 @@ The <b>ValueEntries</b> member of <a href="https://docs.microsoft.com/windows-ha
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_query_multiple_value_key_information">REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reg_query_multiple_value_key_information">REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>
  
 
  

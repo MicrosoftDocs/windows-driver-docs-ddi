@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-This macro accesses the type of method as described in the [KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksmethod_item). If the method will be processed asynchronously using [KsDispatchSpecificMethod](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksdispatchspecificmethod), this storage must be maintained intact.
+This macro accesses the type of method as described in the [KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item). If the method will be processed asynchronously using [KsDispatchSpecificMethod](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksdispatchspecificmethod), this storage must be maintained intact.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ Specifies the IRP passed to the handler routine.
 
 ## -remarks
 
-The relevant KSMETHOD_ITEM structure is extracted from **Irp->Tail.Overlay.DriverContext**. Parameters in **DriverContext** are initialized by [KsMethodHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksmethodhandler) and [KsMethodHandlerWithAllocator](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksmethodhandlerwithallocator).
+The relevant KSMETHOD_ITEM structure is extracted from **Irp->Tail.Overlay.DriverContext**. Parameters in **DriverContext** are initialized by [KsMethodHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandler) and [KsMethodHandlerWithAllocator](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandlerwithallocator).
 
 The macro is defined as follows:
 
@@ -68,12 +68,12 @@ The macro is defined as follows:
 
 [KSMETHOD](https://docs.microsoft.com/previous-versions/ff563398(v=vs.85))
 
-[KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksmethod_item)
+[KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_item)
 
-[KSMETHOD_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksmethod_set)
+[KSMETHOD_SET](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmethod_set)
 
-[KsFastMethodHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfastmethodhandler)
+[KsFastMethodHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfastmethodhandler)
 
-[KsMethodHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksmethodhandler)
+[KsMethodHandler](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandler)
 
-[KsMethodHandlerWithAllocator](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksmethodhandlerwithallocator)
+[KsMethodHandlerWithAllocator](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandlerwithallocator)

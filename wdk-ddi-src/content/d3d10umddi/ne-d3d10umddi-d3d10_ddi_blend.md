@@ -48,7 +48,7 @@ req.typenames: D3D10_DDI_BLEND
 ## -description
 
 
-The D3D10_DDI_BLEND enumeration type contains values that identify blend modes in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createblendstate">CreateBlendState</a> function.
+The D3D10_DDI_BLEND enumeration type contains values that identify blend modes in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createblendstate">CreateBlendState</a> function.
 
 
 ## -enum-fields
@@ -159,7 +159,7 @@ A <i>blend mode</i> is an algorithm that is used to determine how a texture is b
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createblendstate">CreateBlendState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createblendstate">CreateBlendState</a>
  
 
  

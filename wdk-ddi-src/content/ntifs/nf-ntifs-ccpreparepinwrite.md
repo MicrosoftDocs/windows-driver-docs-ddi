@@ -166,7 +166,7 @@ Returns pointer to desired data, valid until the buffer is unpinned or freed.
 
 If the PIN_WAIT flag is set, <b>CcPreparePinWrite</b> is guaranteed to complete the preparation request and return <b>TRUE</b>. If all of the pages can be prepared immediately, no blocking occurs. If any needed pages are not resident, the caller is put in a wait state until all required pages have been made resident and the pages can be prepared. If the PIN_WAIT flag is not set, but not all of the pages can be prepared immediately, <b>CcPreparePinWrite</b> returns <b>FALSE</b>, and its output parameter values are meaningless.
 
-<b>Microsoft Windows Server 2003 SP1 and later:</b> The PIN_CALLER_TRACKS_DIRTY_DATA flag is commonly used in cases where a file system is managing a log file that is written to but not read from. Because the existing file data will be overwritten and not read, the cache manager may return pages of zeros instead of faulting in the actual pages of file data from disk. If this flag is set, the cache manager does not keep track of dirty pages. The caller is responsible for keeping track of any dirty pages. Note that <b>CcPreparePinWrite</b> should only be used to pin data in this manner if the buffer will eventually be flushed to disk. Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a> to flush the buffer to disk, the caller must first call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-mmsetaddressrangemodified">MmSetAddressRangeModified</a> to notify the memory manager that the specified pages in the system cache buffer are dirty and should be written. 
+<b>Microsoft Windows Server 2003 SP1 and later:</b> The PIN_CALLER_TRACKS_DIRTY_DATA flag is commonly used in cases where a file system is managing a log file that is written to but not read from. Because the existing file data will be overwritten and not read, the cache manager may return pages of zeros instead of faulting in the actual pages of file data from disk. If this flag is set, the cache manager does not keep track of dirty pages. The caller is responsible for keeping track of any dirty pages. Note that <b>CcPreparePinWrite</b> should only be used to pin data in this manner if the buffer will eventually be flushed to disk. Before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff539082">CcFlushCache</a> to flush the buffer to disk, the caller must first call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-mmsetaddressrangemodified">MmSetAddressRangeModified</a> to notify the memory manager that the specified pages in the system cache buffer are dirty and should be written. 
 
 Every successful call to <b>CcPreparePinWrite</b> must be matched by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539228">CcUnpinData</a>. If <b>CcPreparePinWrite</b> is called multiple times for the same data, <b>CcUnpinData</b> must be called the same number of times. 
 
@@ -212,7 +212,7 @@ If any failure occurs, <b>CcPreparePinWrite</b> raises a status exception for th
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-mmsetaddressrangemodified">MmSetAddressRangeModified</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-mmsetaddressrangemodified">MmSetAddressRangeModified</a>
  
 
  

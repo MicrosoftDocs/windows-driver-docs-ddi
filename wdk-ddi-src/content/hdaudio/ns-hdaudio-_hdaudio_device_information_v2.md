@@ -105,14 +105,14 @@ _HDAUDIO_DEVICE_INFORMATION_V2_INIT(&info);
 status = m_BusIntV3->GetDeviceInformation(m_BusIntV3->Context, (PHDAUDIO_DEVICE_INFORMATION)&info);
 ```    
 
-The [GetDeviceInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hdaudio/nc-hdaudio-pget_device_information) routine uses the _HDAUDIO_DEVICE_INFORMATION_V2 structure to provide information about the HD Audio controller's device-specific capabilities to clients.
+The [GetDeviceInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pget_device_information) routine uses the _HDAUDIO_DEVICE_INFORMATION_V2 structure to provide information about the HD Audio controller's device-specific capabilities to clients.
 
 
 ## -see-also
 
 [HDAUDIO_DEVICE_INFORMATION](ns-hdaudio-_hdaudio_device_information.md) 
 
-[GetDeviceInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hdaudio/nc-hdaudio-pget_device_information) 
+[GetDeviceInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pget_device_information) 
 
  
 

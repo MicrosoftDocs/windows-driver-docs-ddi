@@ -63,7 +63,7 @@ Specifies the size in bytes of this D3DHAL_GLOBALDRIVERDATA structure.
 
 ### -field hwCaps
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a> structure where the driver should return its hardware capabilities.
+Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a> structure where the driver should return its hardware capabilities.
 
 
 ### -field dwNumVertices
@@ -100,7 +100,7 @@ The driver is responsible for allocating space for and setting all members of th
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3ddevicedesc_v1">D3DDEVICEDESC_V1</a>
 
 
 

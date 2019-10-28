@@ -60,15 +60,15 @@ The size, in bytes, of the ECP context structure.
 
 ### -param Flags [in]
 
-Defines pool allocation options. If the value of the *SizeOfContext* parameter is larger than the size, in bytes, of the lookaside list that the *LookasideList* parameter points to, **FsRtlAllocateExtraCreateParameterFromLookasideList** allocates the ECP context structure from system pool instead of the lookaside list. In this case, if the *Flags* parameter contains the FSRTL_ALLOCATE_ECP_FLAG_CHARGE_QUOTA bit flag value, system pool allocated by **FsRtlAllocateExtraCreateParameterFromLookasideList** is charged against the current process' memory quota. For more information about bit flag values, see the *Flags* parameter of [FsRtlAllocateExtraCreateParameter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlallocateextracreateparameter). In the more typical case, when **FsRtlAllocateExtraCreateParameterFromLookasideList** allocates memory for the ECP context structure from the lookaside list, **FsRtlAllocateExtraCreateParameterFromLookasideList** ignores the FSRTL_ALLOCATE_ECP_FLAG_CHARGE_QUOTA bit flag.
+Defines pool allocation options. If the value of the *SizeOfContext* parameter is larger than the size, in bytes, of the lookaside list that the *LookasideList* parameter points to, **FsRtlAllocateExtraCreateParameterFromLookasideList** allocates the ECP context structure from system pool instead of the lookaside list. In this case, if the *Flags* parameter contains the FSRTL_ALLOCATE_ECP_FLAG_CHARGE_QUOTA bit flag value, system pool allocated by **FsRtlAllocateExtraCreateParameterFromLookasideList** is charged against the current process' memory quota. For more information about bit flag values, see the *Flags* parameter of [FsRtlAllocateExtraCreateParameter](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlallocateextracreateparameter). In the more typical case, when **FsRtlAllocateExtraCreateParameterFromLookasideList** allocates memory for the ECP context structure from the lookaside list, **FsRtlAllocateExtraCreateParameterFromLookasideList** ignores the FSRTL_ALLOCATE_ECP_FLAG_CHARGE_QUOTA bit flag.
 
 ### -param CleanupCallback [in, optional]
 
-Optional pointer to a minifilter-defined cleanup callback routine of type [PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback). The cleanup callback routine is called when the ECP context structure is deleted. Set this parameter to **NULL** if a cleanup callback routine is not applicable.
+Optional pointer to a minifilter-defined cleanup callback routine of type [PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback). The cleanup callback routine is called when the ECP context structure is deleted. Set this parameter to **NULL** if a cleanup callback routine is not applicable.
 
 ### -param LookasideList [in, out]
 
-Pointer to an initialized lookaside list from which **FsRtlAllocateExtraCreateParameterFromLookasideList** attempts to allocate pool (for the ECP context structure). To initialize the lookaside list, use the [FsRtlInitExtraCreateParameterLookasideList](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlinitextracreateparameterlookasidelist) routine.
+Pointer to an initialized lookaside list from which **FsRtlAllocateExtraCreateParameterFromLookasideList** attempts to allocate pool (for the ECP context structure). To initialize the lookaside list, use the [FsRtlInitExtraCreateParameterLookasideList](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlinitextracreateparameterlookasidelist) routine.
 
 ### -param EcpContext [out]
 
@@ -85,7 +85,7 @@ The **FsRtlAllocateExtraCreateParameterFromLookasideList** routine can return on
 
 ## -remarks
 
-Use the [FsRtlInitExtraCreateParameterLookasideList](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlinitextracreateparameterlookasidelist) routine to initialize a paged or nonpaged pool lookaside list. Use the **FsRtlAllocateExtraCreateParameterFromLookasideList** routine to allocate an ECP context structure from the lookaside list, and the [FsRtlFreeExtraCreateParameter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlfreeextracreateparameter) routine to deallocate the ECP context structure.
+Use the [FsRtlInitExtraCreateParameterLookasideList](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlinitextracreateparameterlookasidelist) routine to initialize a paged or nonpaged pool lookaside list. Use the **FsRtlAllocateExtraCreateParameterFromLookasideList** routine to allocate an ECP context structure from the lookaside list, and the [FsRtlFreeExtraCreateParameter](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlfreeextracreateparameter) routine to deallocate the ECP context structure.
 
 Use the [FsRtlDeleteExtraCreateParameterLookasideList](https://msdn.microsoft.com/library/windows/hardware/ff545849) routine to free a lookaside list.
 
@@ -95,10 +95,10 @@ For more information about using lookaside lists with drivers, see [Using Lookas
 
 ## -see-also
 
-[FsRtlDeleteExtraCreateParameterLookasideList](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtldeleteextracreateparameterlookasidelist)
+[FsRtlDeleteExtraCreateParameterLookasideList](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtldeleteextracreateparameterlookasidelist)
 
-[FsRtlFreeExtraCreateParameter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlfreeextracreateparameter)
+[FsRtlFreeExtraCreateParameter](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlfreeextracreateparameter)
 
-[FsRtlInitExtraCreateParameterLookasideList](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlinitextracreateparameterlookasidelist)
+[FsRtlInitExtraCreateParameterLookasideList](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlinitextracreateparameterlookasidelist)
 
-[PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback)
+[PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nc-ntifs-pfsrtl_extra_create_parameter_cleanup_callback)

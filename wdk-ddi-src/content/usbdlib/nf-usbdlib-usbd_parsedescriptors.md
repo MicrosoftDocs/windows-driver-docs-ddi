@@ -102,7 +102,7 @@ Specifies that the descriptor being searched for is an endpoint descriptor.
 
 
 
-<b>USBD_ParseDescriptors</b> returns a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbspec/ns-usbspec-_usb_common_descriptor">USB_COMMON_DESCRIPTOR</a> structure that is the head of the first descriptor that matches the given search criteria, or <b>NULL</b> is returned if no match is found:
+<b>USBD_ParseDescriptors</b> returns a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_common_descriptor">USB_COMMON_DESCRIPTOR</a> structure that is the head of the first descriptor that matches the given search criteria, or <b>NULL</b> is returned if no match is found:
 
 
 
@@ -123,7 +123,7 @@ When this routine parses the configuration descriptor looking for the descriptor
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_usbref/">USB device driver programming reference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_usbref/">USB device driver programming reference</a>
  
 
  

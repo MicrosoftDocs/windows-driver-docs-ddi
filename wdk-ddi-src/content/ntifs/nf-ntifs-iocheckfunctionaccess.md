@@ -68,11 +68,11 @@ I/O function control code for a device or file system I/O code.
 
 ### -param Arg1
 
-Optional argument that depends on the major function. This parameter points to one of the [FILE_INFORMATION_CLASS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class) enum values if *MajorFunction* indicates a query or set file information function is being performed.
+Optional argument that depends on the major function. This parameter points to one of the [FILE_INFORMATION_CLASS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class) enum values if *MajorFunction* indicates a query or set file information function is being performed.
 
 ### -param Arg2
 
-Optional second argument that depends on the major function. This parameter points to one of the [FS_INFORMATION_CLASS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_fsinfoclass) enum values. This parameter must be supplied if *MajorFunction* indicates a query or set file information function is being performed.
+Optional second argument that depends on the major function. This parameter points to one of the [FS_INFORMATION_CLASS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/ne-wdm-_fsinfoclass) enum values. This parameter must be supplied if *MajorFunction* indicates a query or set file information function is being performed.
 
 ## -returns
 
@@ -84,10 +84,10 @@ The *GrantedAccess* mask cannot contain any generic mappings. That is, [IoCheckD
 
 ## -see-also
 
-[FILE_INFORMATION_CLASS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class)
+[FILE_INFORMATION_CLASS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class)
 
-[FS_INFORMATION_CLASS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_fsinfoclass)
+[FS_INFORMATION_CLASS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/ne-wdm-_fsinfoclass)
 
 [IoCheckDesiredAccess](nf-ntifs-iocheckdesiredaccess.md)
 
-[SeAccessCheck](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-seaccesscheck)
+[SeAccessCheck](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-seaccesscheck)

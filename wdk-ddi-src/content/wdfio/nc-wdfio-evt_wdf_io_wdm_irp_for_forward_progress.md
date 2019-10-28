@@ -72,7 +72,7 @@ A pointer to an IRP structure.
 
 
 
-The <i>EvtIoWdmIrpForForwardProgress</i> callback function must return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/ne-wdfio-_wdf_io_forward_progress_action">WDF_IO_FORWARD_PROGRESS_ACTION</a>-typed value.
+The <i>EvtIoWdmIrpForForwardProgress</i> callback function must return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ne-wdfio-_wdf_io_forward_progress_action">WDF_IO_FORWARD_PROGRESS_ACTION</a>-typed value.
 
 
 
@@ -81,13 +81,13 @@ The <i>EvtIoWdmIrpForForwardProgress</i> callback function must return a <a href
 
 
 
-A driver can register an <i>EvtIoWdmIrpForForwardProgress</i> callback function when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdfioqueueassignforwardprogresspolicy">WdfIoQueueAssignForwardProgressPolicy</a>.
+A driver can register an <i>EvtIoWdmIrpForForwardProgress</i> callback function when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nf-wdfio-wdfioqueueassignforwardprogresspolicy">WdfIoQueueAssignForwardProgressPolicy</a>.
 
 If your driver registers an <i>EvtIoWdmIrpForForwardProgress</i> callback function, the framework calls the function if all of the following conditions exist:
 
 <ul>
 <li>
-The framework has received a I/O request packet (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a>) that the I/O manager is sending to the driver.
+The framework has received a I/O request packet (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>) that the I/O manager is sending to the driver.
 
 </li>
 <li>
@@ -95,7 +95,7 @@ The framework has attempted to create a request object for the IRP, but the atte
 
 </li>
 <li>
-The driver has enabled guaranteed forward progress for the I/O queue that should receive the request object, with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/ne-wdfio-_wdf_io_forward_progress_reserved_policy">policy type</a> set to <b>WdfIoForwardProgressReservedPolicyUseExamine</b>.
+The driver has enabled guaranteed forward progress for the I/O queue that should receive the request object, with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/ne-wdfio-_wdf_io_forward_progress_reserved_policy">policy type</a> set to <b>WdfIoForwardProgressReservedPolicyUseExamine</b>.
 
 </li>
 </ul>
@@ -150,11 +150,11 @@ The <b>EVT_WDF_IO_WDM_IRP_FOR_FORWARD_PROGRESS</b> function type is defined in t
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_allocate_request_resources">EvtIoAllocateRequestResources</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_allocate_request_resources">EvtIoAllocateRequestResources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request">EvtIoAllocateResourcesForReservedRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_allocate_resources_for_reserved_request">EvtIoAllocateResourcesForReservedRequest</a>
  
 
  

@@ -86,7 +86,7 @@ PRINTER_EVENT_ATTRIBUTES_CHANGED
 
 </td>
 <td>
-The attribute bits for a printer have changed. In response to an application's call to the <b>SetPrinter</b> function (described in the Windows SDK documentation), the spooler calls the printer driver's <b>DrvPrinterEvent</b> function, passing the event code in the call. When this event code is used, the <i>lParam</i> parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_printer_event_attributes_info">PRINTER_EVENT_ATTRIBUTES_INFO</a> structure that describes the old and the new attributes.
+The attribute bits for a printer have changed. In response to an application's call to the <b>SetPrinter</b> function (described in the Windows SDK documentation), the spooler calls the printer driver's <b>DrvPrinterEvent</b> function, passing the event code in the call. When this event code is used, the <i>lParam</i> parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_printer_event_attributes_info">PRINTER_EVENT_ATTRIBUTES_INFO</a> structure that describes the old and the new attributes.
 
 </td>
 </tr>

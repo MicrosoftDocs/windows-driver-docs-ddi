@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>DataType</b> property gets the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/ne-printerextension-tagprintschemaparameterdatatype">PrintSchemaParameterDataType</a> enumerated value that indicates the expected data type for the Print Schema parameter.
+The <b>DataType</b> property gets the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintschemaparameterdatatype">PrintSchemaParameterDataType</a> enumerated value that indicates the expected data type for the Print Schema parameter.
 
 This property is read-only.
 
@@ -62,11 +62,11 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/ne-printerextension-tagprintschemaparameterdatatype">PrintSchemaParameterDataType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/ne-printerextension-tagprintschemaparameterdatatype">PrintSchemaParameterDataType</a>
  
 
  

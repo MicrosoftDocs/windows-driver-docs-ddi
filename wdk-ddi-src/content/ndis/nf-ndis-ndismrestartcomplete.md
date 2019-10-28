@@ -52,7 +52,7 @@ req.typenames:
 A miniport driver must call the 
   <b>NdisMRestartComplete</b> function to complete a restart operation if the driver returned
   NDIS_STATUS_PENDING from its 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_restart">MiniportRestart</a> function.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a> function.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ A miniport driver must call the
 
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 
@@ -93,7 +93,7 @@ The restart failed because of insufficient resources.
 
 The driver indicates NDIS_STATUS_FAILURE if none of the preceding values applies. The driver
        should call the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiswriteerrorlogentry">NdisWriteErrorLogEntry</a> function
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteerrorlogentry">NdisWriteErrorLogEntry</a> function
        with parameters that specify the reason for the failure.
 
 
@@ -113,7 +113,7 @@ None
 The miniport adapter specified at 
     <i>MiniportAdapterHandle</i> enters the 
     <i>Restarting</i> state when NDIS calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_restart">MiniportRestart</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a> function.
 
 After the miniport driver successfully restarts the send and receive operations for the miniport
     adapter, the driver must complete the pending restart operation. The pending restart operation is
@@ -122,7 +122,7 @@ After the miniport driver successfully restarts the send and receive operations 
     <i>Running</i> state after the restart operation is complete.
 
 A miniport driver can resume indicating received packets immediately after NDIS calls 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_restart">MiniportRestart</a> and before the driver calls 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a> and before the driver calls 
     <b>NdisMRestartComplete</b>. The driver should be ready to accept send requests after it completes the
     restart request.
 
@@ -134,15 +134,15 @@ A miniport driver can resume indicating received packets immediately after NDIS 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_restart">MiniportRestart</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_restart">MiniportRestart</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiswriteerrorlogentry">NdisWriteErrorLogEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteerrorlogentry">NdisWriteErrorLogEntry</a>
  
 
  

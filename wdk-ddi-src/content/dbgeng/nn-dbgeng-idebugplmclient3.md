@@ -68,7 +68,7 @@ The <b>IDebugPlmClient3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugplmclient3-activateanddebugplmbgtaskwide">ActivateAndDebugPlmBgTaskWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugplmclient3-activateanddebugplmbgtaskwide">ActivateAndDebugPlmBgTaskWide</a>
 </td>
 <td align="left" width="63%">
     Launches and attaches to a Process Lifecycle Management (PLM) background task.
@@ -77,7 +77,7 @@ The <b>IDebugPlmClient3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugplmclient3-disableplmpackagedebugwide">DisablePlmPackageDebugWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugplmclient3-disableplmpackagedebugwide">DisablePlmPackageDebugWide</a>
 </td>
 <td align="left" width="63%">
 Disables a Process Lifecycle Management (PLM) package debug.
@@ -86,7 +86,7 @@ Disables a Process Lifecycle Management (PLM) package debug.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugplmclient3-enableplmpackagedebugwide">EnablePlmPackageDebugWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugplmclient3-enableplmpackagedebugwide">EnablePlmPackageDebugWide</a>
 </td>
 <td align="left" width="63%">
 Enables a Process Lifecycle Management (PLM) package debug.
@@ -95,7 +95,7 @@ Enables a Process Lifecycle Management (PLM) package debug.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugplmclient3-launchanddebugplmappwide">LaunchAndDebugPlmAppWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugplmclient3-launchanddebugplmappwide">LaunchAndDebugPlmAppWide</a>
 </td>
 <td align="left" width="63%">
     Launches and attaches to a Process Lifecycle Management (PLM) application. 
@@ -104,7 +104,7 @@ Enables a Process Lifecycle Management (PLM) package debug.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugplmclient3-queryplmpackagelist">QueryPlmPackageList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugplmclient3-queryplmpackagelist">QueryPlmPackageList</a>
 </td>
 <td align="left" width="63%">
 Query a Process Lifecycle Management (PLM) package list.
@@ -113,7 +113,7 @@ Query a Process Lifecycle Management (PLM) package list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugplmclient3-queryplmpackagewide">QueryPlmPackageWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugplmclient3-queryplmpackagewide">QueryPlmPackageWide</a>
 </td>
 <td align="left" width="63%">
 Query a Process Lifecycle Management (PLM) package.
@@ -122,7 +122,7 @@ Query a Process Lifecycle Management (PLM) package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugplmclient3-resumeplmpackagewide">ResumePlmPackageWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugplmclient3-resumeplmpackagewide">ResumePlmPackageWide</a>
 </td>
 <td align="left" width="63%">
 Resumes a Process Lifecycle Management (PLM) package.
@@ -131,7 +131,7 @@ Resumes a Process Lifecycle Management (PLM) package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugplmclient3-suspendplmpackagewide">SuspendPlmPackageWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugplmclient3-suspendplmpackagewide">SuspendPlmPackageWide</a>
 </td>
 <td align="left" width="63%">
 Suspends a Process Lifecycle Management (PLM) package.
@@ -140,7 +140,7 @@ Suspends a Process Lifecycle Management (PLM) package.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugplmclient3-terminateplmpackagewide">TerminatePlmPackageWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugplmclient3-terminateplmpackagewide">TerminatePlmPackageWide</a>
 </td>
 <td align="left" width="63%">
 Ends a Process Lifecycle Management (PLM) package.

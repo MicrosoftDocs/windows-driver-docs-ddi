@@ -58,7 +58,7 @@ The <code>IPrintOemUni3::GetPDEVAdjustment</code> method enables a plug-in to ov
 
 ### -param pdevobj
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 
 ### -param dwAdjustType
@@ -76,7 +76,7 @@ PDEV_ADJUST_GRAPHICS_RESOLUTION_TYPE
 
 </td>
 <td>
-Adjust the graphics resolution setting that is reported in the PDEV structure. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_adjust_graphics_resolution">PDEV_ADJUST_GRAPHICS RESOLUTION</a> structure.
+Adjust the graphics resolution setting that is reported in the PDEV structure. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_pdev_adjust_graphics_resolution">PDEV_ADJUST_GRAPHICS RESOLUTION</a> structure.
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ PDEV_IMAGEABLE_ORIGIN_AREA_TYPE
 
 </td>
 <td>
-Adjust the imageable origin area that is reported in the PDEV structure. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_adjust_imageable_origin_area">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a> structure.
+Adjust the imageable origin area that is reported in the PDEV structure. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_pdev_adjust_imageable_origin_area">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a> structure.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ PDEV_ADJUST_PHYSICAL_PAPER_SIZE_TYPE
 
 </td>
 <td>
-Adjust the physical paper size that is reported in the PDEV structure. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_adjust_physical_paper_size">PDEV_ADJUST_PAPER_PHYSICAL_SIZE</a> structure.
+Adjust the physical paper size that is reported in the PDEV structure. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_pdev_adjust_physical_paper_size">PDEV_ADJUST_PAPER_PHYSICAL_SIZE</a> structure.
 
 </td>
 </tr>
@@ -144,31 +144,31 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemuni3">IPrintOemUni3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni3">IPrintOemUni3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_adjust_graphics_resolution">PDEV_ADJUST_GRAPHICS RESOLUTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_pdev_adjust_graphics_resolution">PDEV_ADJUST_GRAPHICS RESOLUTION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_adjust_imageable_origin_area">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_pdev_adjust_imageable_origin_area">PDEV_ADJUST_IMAGEABLE_ORIGIN_AREA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_adjust_paper_margin">PDEV_ADJUST_PAPER_MARGIN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_pdev_adjust_paper_margin">PDEV_ADJUST_PAPER_MARGIN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_adjust_physical_paper_size">PDEV_ADJUST_PAPER_PHYSICAL_SIZE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_pdev_adjust_physical_paper_size">PDEV_ADJUST_PAPER_PHYSICAL_SIZE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_hostfont_enabled">PDEV_HOSTFONT_ENABLED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_pdev_hostfont_enabled">PDEV_HOSTFONT_ENABLED</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_use_true_color">PDEV_USE_TRUE_COLOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_pdev_use_true_color">PDEV_USE_TRUE_COLOR</a>
  
 
  

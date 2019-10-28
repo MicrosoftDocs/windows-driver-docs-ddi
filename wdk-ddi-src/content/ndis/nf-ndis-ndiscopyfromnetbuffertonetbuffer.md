@@ -51,7 +51,7 @@ req.typenames:
 
 Call the 
   <b>NdisCopyFromNetBufferToNetBuffer</b> function to copy data from a source 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure to a destination NET_BUFFER
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure to a destination NET_BUFFER
   structure.
 
 
@@ -141,7 +141,7 @@ The copy operation failed because of insufficient resources.
 
 The caller of 
     <b>NdisCopyFromNetBufferToNetBuffer</b> allocates the destination 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure and possibly the source
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure and possibly the source
     NET_BUFFER structure as well. The MDLs of the destination NET_BUFFER structure should have enough space
     to receive the data.
 
@@ -153,7 +153,7 @@ If the source NET_BUFFER structure runs out of data or the destination NET_BUFFE
 The caller must ensure that 
     <b>CurrentMdlOffset</b> and 
     <b>CurrentMdl</b> values are correct in the source and destination 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. NDIS does not change the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. NDIS does not change the
     members in the destination NET_BUFFER. The caller must update the 
     <b>DataLength</b>, 
     <b>DataOffset</b>, and 
@@ -182,7 +182,7 @@ NDIS uses the offsets in the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
  
 
  

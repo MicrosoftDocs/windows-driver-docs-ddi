@@ -58,7 +58,7 @@ This structure indicates the PD capabilities for a provider.
 
 ### -field Header
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_CAPABILITIES</b> structure. Set the members of this structure as follows:
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_CAPABILITIES</b> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
@@ -73,12 +73,12 @@ This member is reserved and must be set to 0.
 
 ### -field MaximumTxPartialBufferCount
 
-The maximum partial transmit <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> chain lengths supported by the provider.
+The maximum partial transmit <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> chain lengths supported by the provider.
 
 
 ### -field MaximumRxPartialBufferCount
 
-The maximum partial receive <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> chain lengths supported by the provider.
+The maximum partial receive <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> chain lengths supported by the provider.
 
 
 ### -field RxFilterContextWidth
@@ -97,7 +97,7 @@ Flags that contain additional capabilities that the provider supports.
 </tr>
 <tr>
 <td><b>NDIS_PD_CAPS_RECEIVE_FILTER_COUNTERS_SUPPORTED</b></td>
-<td>This flag indicates that the provider supports creation of counters with the <b>PDCounterTypeReceiveFilter</b> type that is part of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ne-ndis-ndis_pd_counter_type">NDIS_PD_COUNTER</a> enumeration</td>
+<td>This flag indicates that the provider supports creation of counters with the <b>PDCounterTypeReceiveFilter</b> type that is part of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-ndis_pd_counter_type">NDIS_PD_COUNTER</a> enumeration</td>
 </tr>
 </table>
  
@@ -105,14 +105,14 @@ Flags that contain additional capabilities that the provider supports.
 
 ### -field MaxNumberOfRxQueues
 
-The maximum number of receive queues the provider supports. This is only relevant to queues created by the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_allocate_queue">NdisPDAllocateQueue</a> routine, therefore this number is not accurate for the client because additional pre-existing RSS queues (that the client can request PD-mode access to using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/index">NdisPDOnRssReceiveQueues</a>) are not accounted for in the <i>NdisPDAllocateQueue</i> routine.
+The maximum number of receive queues the provider supports. This is only relevant to queues created by the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_allocate_queue">NdisPDAllocateQueue</a> routine, therefore this number is not accurate for the client because additional pre-existing RSS queues (that the client can request PD-mode access to using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/index">NdisPDOnRssReceiveQueues</a>) are not accounted for in the <i>NdisPDAllocateQueue</i> routine.
 
-It is possible for providers to set this value to 0, if it only supports clients to put pre-existing RSS queues into PD-mode using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/index">NdisPDOnRssReceiveQueues</a> routine.
+It is possible for providers to set this value to 0, if it only supports clients to put pre-existing RSS queues into PD-mode using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/index">NdisPDOnRssReceiveQueues</a> routine.
 
 
 ### -field MaxNumberOfTxQueues
 
-The maximum number of transmit queues the provider can create using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_allocate_queue">NdisPDAllocateQueue</a> routine. The provider must not set this value to 0.
+The maximum number of transmit queues the provider can create using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_allocate_queue">NdisPDAllocateQueue</a> routine. The provider must not set this value to 0.
 
 
 ### -field MaxNumberOfRxQueuesForDefaultVport
@@ -215,7 +215,7 @@ If a provider can partition Rx or Tx queues flexibly between virtual ports then 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
  
 
  

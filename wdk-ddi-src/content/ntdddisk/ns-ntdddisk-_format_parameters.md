@@ -48,7 +48,7 @@ req.typenames: FORMAT_PARAMETERS, *PFORMAT_PARAMETERS
 ## -description
 
 
-The FORMAT_PARAMETERS structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_format_tracks">IOCTL_DISK_FORMAT_TRACKS</a> request to format the specified set of contiguous tracks on the disk. 
+The FORMAT_PARAMETERS structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_format_tracks">IOCTL_DISK_FORMAT_TRACKS</a> request to format the specified set of contiguous tracks on the disk. 
 
 
 ## -struct-fields
@@ -86,7 +86,7 @@ Indicates the number of the head where the formatting should end.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_format_tracks">IOCTL_DISK_FORMAT_TRACKS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_format_tracks">IOCTL_DISK_FORMAT_TRACKS</a>
 
 
 

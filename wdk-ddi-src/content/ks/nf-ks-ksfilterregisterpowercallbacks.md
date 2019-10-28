@@ -53,7 +53,7 @@ The **KsFilterRegisterPowerCallbacks** function registers power management callb
 
 ### -param Filter [in]
 
-A pointer to the [KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter) structure for which to register power callbacks. In order to receive power notification messages, *Filter* must be filter-centric.
+A pointer to the [KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter) structure for which to register power callbacks. In order to receive power notification messages, *Filter* must be filter-centric.
 
 ### -param Sleep [in, optional]
 
@@ -86,4 +86,4 @@ Also see [Initializing an AVStream Minidriver](https://docs.microsoft.com/window
 
 ## -see-also
 
-[KsPinRegisterPowerCallbacks](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinregisterpowercallbacks)
+[KsPinRegisterPowerCallbacks](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinregisterpowercallbacks)

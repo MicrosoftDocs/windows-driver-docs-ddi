@@ -95,7 +95,7 @@ These bit flags are used by the intersect handler to determine plug compatibilit
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/nc-avc-pfnavcintersecthandler">AV/C Intersect Handler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/nc-avc-pfnavcintersecthandler">AV/C Intersect Handler</a>
 
 
 

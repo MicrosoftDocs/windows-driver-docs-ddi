@@ -58,7 +58,7 @@ Informs UFX that the client driver has completed processing a UFX callback funct
 
 ### -param UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 
 ### -param Status [in]
@@ -83,40 +83,40 @@ The client driver calls <b>UfxDeviceEventComplete</b> to signal completion of th
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nc-ufxclient-evt_ufx_device_host_connect">EVT_UFX_DEVICE_HOST_CONNECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_host_connect">EVT_UFX_DEVICE_HOST_CONNECT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nc-ufxclient-evt_ufx_device_host_disconnect">EVT_UFX_DEVICE_HOST_DISCONNECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_host_disconnect">EVT_UFX_DEVICE_HOST_DISCONNECT</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nc-ufxclient-evt_ufx_device_proprietary_charger_set_property">EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_proprietary_charger_set_property">EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nc-ufxclient-evt_ufx_device_proprietary_charger_reset">EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_proprietary_charger_reset">EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nc-ufxclient-evt_ufx_device_addressed">EVT_UFX_DEVICE_ADDRESSED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_addressed">EVT_UFX_DEVICE_ADDRESSED</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nc-ufxclient-evt_ufx_device_default_endpoint_add">EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_default_endpoint_add">EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nc-ufxclient-evt_ufx_device_usb_state_change">EVT_UFX_DEVICE_USB_STATE_CHANGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_usb_state_change">EVT_UFX_DEVICE_USB_STATE_CHANGE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nc-ufxclient-evt_ufx_device_port_change">EVT_UFX_DEVICE_PORT_CHANGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_port_change">EVT_UFX_DEVICE_PORT_CHANGE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nc-ufxclient-evt_ufx_device_remote_wakeup_signal">EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_remote_wakeup_signal">EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nc-ufxclient-evt_ufx_device_test_mode_set">EVT_UFX_DEVICE_TEST_MODE_SET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_test_mode_set">EVT_UFX_DEVICE_TEST_MODE_SET</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nc-ufxclient-evt_ufx_device_super_speed_power_feature">EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_super_speed_power_feature">EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nc-ufxclient-evt_ufx_device_controller_reset">EVT_UFX_DEVICE_CONTROLLER_RESET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nc-ufxclient-evt_ufx_device_controller_reset">EVT_UFX_DEVICE_CONTROLLER_RESET</a>
 </li>
 </ul>
 For example, your callback function could use the following code:

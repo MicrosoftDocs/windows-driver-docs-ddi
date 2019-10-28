@@ -59,12 +59,12 @@ The<b> KsFilterCreatePinFactory</b> function creates a new pin factory on the sp
 
 ### -param Filter [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to create a new pin factory.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to create a new pin factory.
 
 
 ### -param PinDescriptor [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a> structure that describes the pins this factory will create.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a> structure that describes the pins this factory will create.
 
 
 ### -param PinID [out]
@@ -95,7 +95,7 @@ Note that the filter control mutex must be held before calling this function. Fo
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfiltercreatenode">KsFilterCreateNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfiltercreatenode">KsFilterCreateNode</a>
  
 
  

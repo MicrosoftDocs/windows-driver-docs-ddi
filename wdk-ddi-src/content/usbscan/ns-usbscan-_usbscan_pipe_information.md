@@ -48,7 +48,7 @@ req.typenames: USBSCAN_PIPE_INFORMATION, *PUSBSCAN_PIPE_INFORMATION
 ## -description
 
 
-The USBSCAN_PIPE_INFORMATION structure is used to describe a USB transfer pipe for a still image device. An array of USBSCAN_PIPE_INFORMATION structures is supplied within a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ns-usbscan-_usbscan_pipe_configuration">USBSCAN_PIPE_CONFIGURATION</a> structure.
+The USBSCAN_PIPE_INFORMATION structure is used to describe a USB transfer pipe for a still image device. An array of USBSCAN_PIPE_INFORMATION structures is supplied within a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_usbscan_pipe_configuration">USBSCAN_PIPE_CONFIGURATION</a> structure.
 
 
 ## -struct-fields
@@ -117,7 +117,7 @@ Polling interval, in milliseconds, for interrupt pipes. For more information, se
 
 ### -field PipeType
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ne-usbscan-_raw_pipe_type">RAW_PIPE_TYPE</a>-typed value identifying the pipe type.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ne-usbscan-_raw_pipe_type">RAW_PIPE_TYPE</a>-typed value identifying the pipe type.
 
 
 ## -see-also
@@ -125,11 +125,11 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbsc
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ne-usbscan-_raw_pipe_type">RAW_PIPE_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ne-usbscan-_raw_pipe_type">RAW_PIPE_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ns-usbscan-_usbscan_pipe_configuration">USBSCAN_PIPE_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbscan/ns-usbscan-_usbscan_pipe_configuration">USBSCAN_PIPE_CONFIGURATION</a>
  
 
  

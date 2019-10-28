@@ -59,7 +59,7 @@ The <b>PcCompletePendingPropertyRequest</b> function is called to complete a pen
 
 ### -param PropertyRequest [in]
 
-Pointer to the property request that was passed to the property handler. The request is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-_pcproperty_request">PCPROPERTY_REQUEST</a>.
+Pointer to the property request that was passed to the property handler. The request is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcproperty_request">PCPROPERTY_REQUEST</a>.
 
 
 ### -param NtStatus [in]
@@ -92,11 +92,11 @@ The driver should call <b>PcCompletePendingPropertyRequest</b> only when the req
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-_pcproperty_request">PCPROPERTY_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcproperty_request">PCPROPERTY_REQUEST</a>
  
 
  

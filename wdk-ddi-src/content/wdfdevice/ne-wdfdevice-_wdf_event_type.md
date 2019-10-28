@@ -66,7 +66,7 @@ Reserved for system use.
 
 ### -field WdfEventBroadcast
 
-In the current version of UMDF, the driver must specify <b>WdfEventBroadcast</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicepostevent">WdfDevicePostEvent</a>.
+In the current version of UMDF, the driver must specify <b>WdfEventBroadcast</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicepostevent">WdfDevicePostEvent</a>.
 
 
 ### -field WdfEventMaximum
@@ -79,11 +79,11 @@ Reserved for system use.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice-postevent">IWDFDevice::PostEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-postevent">IWDFDevice::PostEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicepostevent">WdfDevicePostEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicepostevent">WdfDevicePostEvent</a>
  
 
  

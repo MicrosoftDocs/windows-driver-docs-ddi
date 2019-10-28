@@ -58,7 +58,7 @@ The SetFC3MgmtInfo_IN structure is used to deliver input parameter data to the <
 
 ### -field MgmtInfo
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafc3mgmtinfo">HBAFC3MgmtInfo</a> that holds FC3 management information that will be used to configure the fibre channel adapter. 
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbafc3mgmtinfo">HBAFC3MgmtInfo</a> that holds FC3 management information that will be used to configure the fibre channel adapter. 
 
 
 ## -remarks

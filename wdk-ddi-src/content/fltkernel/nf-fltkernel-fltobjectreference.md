@@ -95,7 +95,7 @@ The minifilter driver, instance, or volume is being torn down. This is an error 
 
 Adding a rundown reference to an opaque filter, instance, or volume object pointer prevents the object from being freed. 
 
-To remove a rundown reference from an opaque filter, instance, or volume pointer, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>. 
+To remove a rundown reference from an opaque filter, instance, or volume pointer, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>. 
 
 
 
@@ -105,7 +105,7 @@ To remove a rundown reference from an opaque filter, instance, or volume pointer
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>
  
 
  

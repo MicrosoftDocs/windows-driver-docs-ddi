@@ -57,7 +57,7 @@ The <b>D3DKMTOpenAdapterFromGdiDisplayName</b> function maps a GDI device name t
 
 *pData* [in, out]
 
- A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromgdidisplayname">D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME</a> structure that describes the parameters that are required to perform the mapping.
+ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromgdidisplayname">D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME</a> structure that describes the parameters that are required to perform the mapping.
 
 
 ## -returns
@@ -77,7 +77,7 @@ A graphics adapter corresponds to a video card. A monitor output corresponds to 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromgdidisplayname">D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromgdidisplayname">D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME</a>
  
 
  

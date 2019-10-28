@@ -51,7 +51,7 @@ req.typenames: SCO_INDICATION_CODE, *PSCO_INDICATION_CODE
 The SCO_INDICATION_CODE enumeration type describes the type of an incoming SCO connection or bonding
   state change. The Bluetooth driver stack passes a value from this enumeration in the 
   <i>Indication</i> argument of a profile driver's 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>.
 
 
 ## -enum-fields
@@ -94,11 +94,11 @@ This value indicates to a profile driver that a remote device is disconnecting f
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_internal_bth_submit_brb">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_internal_bth_submit_brb">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>
  
 
  

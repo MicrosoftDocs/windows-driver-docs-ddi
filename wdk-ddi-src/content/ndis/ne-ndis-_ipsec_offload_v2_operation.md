@@ -80,7 +80,7 @@ Reserved for NDIS.
 
 The IPSEC_OFFLOAD_V2_OPERATION enumeration specifies the operation for which an SA is used in the 
     <b>Operation</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ipsec_offload_v2_security_association">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_security_association">
     IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a> structure.
 
 
@@ -91,7 +91,7 @@ The IPSEC_OFFLOAD_V2_OPERATION enumeration specifies the operation for which an 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ipsec_offload_v2_security_association">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ipsec_offload_v2_security_association">
    IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a>
  
 

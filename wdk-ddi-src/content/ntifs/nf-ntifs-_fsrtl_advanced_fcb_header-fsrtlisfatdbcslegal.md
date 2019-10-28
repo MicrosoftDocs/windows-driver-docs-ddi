@@ -100,7 +100,7 @@ FAT file names must obey the following rules:
 * A FAT file name is either of the form `N.E` or just `N`, where `N` is a string of one to eight bytes and `E` is a string of one to three bytes conformant to rule one. In addition, neither `N` nor `E` may contain a `.` (period) or end with a space character. For example, the files `.foo`, `foo.`, and `foo .b` are illegal, while `foo. b` and ` bar` are legal.
 * FAT file names are case insensitive. Lowercase names are automatically converted to uppercase. 
 
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Strings</a>. 
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>. 
 
 
 

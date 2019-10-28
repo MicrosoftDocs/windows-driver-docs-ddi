@@ -48,7 +48,7 @@ req.typenames: D3DKMT_FREEGPUVIRTUALADDRESS
 ## -description
 
 
-<b>D3DKMT_FREEGPUVIRTUALADDRESS</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtfreegpuvirtualaddress">FreeGpuVirtualAddress</a> to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
+<b>D3DKMT_FREEGPUVIRTUALADDRESS</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtfreegpuvirtualaddress">FreeGpuVirtualAddress</a> to release a range of graphics processing unit (GPU) virtual addresses that were previously reserved or mapped.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ Specifies the size, in bytes, of the range to free. Must be aligned to 4 KB.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtfreegpuvirtualaddress">FreeGpuVirtualAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtfreegpuvirtualaddress">FreeGpuVirtualAddress</a>
  
 
  

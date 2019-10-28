@@ -48,7 +48,7 @@ req.typenames: SECURE_ELEMENT_ROUTING_TABLE, *PSECURE_ELEMENT_ROUTING_TABLE
 ## -description
 
 
-SECURE_ELEMENT_ROUTING_TABLE is an input parameter for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfcsedev/ni-nfcsedev-ioctl_nfcse_set_routing_table">IOCTL_NFCSE_SET_ROUTING_TABLE</a>.
+SECURE_ELEMENT_ROUTING_TABLE is an input parameter for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ni-nfcsedev-ioctl_nfcse_set_routing_table">IOCTL_NFCSE_SET_ROUTING_TABLE</a>.
 
 
 ## -struct-fields

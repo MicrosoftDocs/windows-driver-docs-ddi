@@ -52,7 +52,7 @@ The **CWiauPropertyList::SendToWia** method calls the WIA service to define all 
 
 ### -param pWiasContext
 
-Pointer to a WIA item context that previously was passed in a call to the [IWiaMiniDrv::drvInitItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinititemproperties)> method.
+Pointer to a WIA item context that previously was passed in a call to the [IWiaMiniDrv::drvInitItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinititemproperties)> method.
 
 ## -returns
 
@@ -66,4 +66,4 @@ The **CWiauPropertyList::SendToWia** method should be called only after all prop
 
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)
 
-[IWiaMiniDrv::drvInitItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinititemproperties)
+[IWiaMiniDrv::drvInitItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinititemproperties)

@@ -99,9 +99,9 @@ If the GPIO controller is not memory-mapped, the driver's hardware resources con
 
 GpioClx connects to (and later disconnects from) any interrupt resource that the PnP manager assigns to the GPIO controller. If GpioClx receives such an interrupt resource, it does not remove this interrupt resource from the resource lists that it passes to the <i>CLIENT_PrepareController</i> callback function. However, the GPIO controller driver should not try to connect to (or later disconnect from) any interrupt resource that it finds in these lists.
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/nc-gpioclx-gpio_client_release_controller">CLIENT_ReleaseController</a> event callback function performs operations that are needed when the GPIO controller device is no longer accessible. During this callback, the GPIO controller driver should release any hardware resources that it acquired during the previous <i>CLIENT_PrepareController</i> callback.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_release_controller">CLIENT_ReleaseController</a> event callback function performs operations that are needed when the GPIO controller device is no longer accessible. During this callback, the GPIO controller driver should release any hardware resources that it acquired during the previous <i>CLIENT_PrepareController</i> callback.
 
-To register your driver's <i>CLIENT_PrepareController</i> callback function, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a> method. This method accepts, as an input parameter, a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/ns-gpioclx-_gpio_client_registration_packet">GPIO_CLIENT_REGISTRATION_PACKET</a> structure that contains a <i>CLIENT_PrepareController</i> function pointer.
+To register your driver's <i>CLIENT_PrepareController</i> callback function, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a> method. This method accepts, as an input parameter, a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_registration_packet">GPIO_CLIENT_REGISTRATION_PACKET</a> structure that contains a <i>CLIENT_PrepareController</i> function pointer.
 
 Although the <i>CLIENT_PrepareController</i> callback function is called at IRQL = PASSIVE_LEVEL, you should not make this function pageable. The <i>CLIENT_PrepareController</i> callback is in the critical timing path for restoring power to the devices in the hardware platform and, for performance reasons, it should not be delayed by page faults.
 
@@ -153,15 +153,15 @@ The GPIO_CLIENT_PREPARE_CONTROLLER function type is defined in the Gpioclx.h hea
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/nc-gpioclx-gpio_client_release_controller">CLIENT_ReleaseController</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nc-gpioclx-gpio_client_release_controller">CLIENT_ReleaseController</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/ns-gpioclx-_gpio_client_registration_packet">GPIO_CLIENT_REGISTRATION_PACKET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_registration_packet">GPIO_CLIENT_REGISTRATION_PACKET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/nf-gpioclx-gpio_clx_registerclient">GPIO_CLX_RegisterClient</a>
  
 
  

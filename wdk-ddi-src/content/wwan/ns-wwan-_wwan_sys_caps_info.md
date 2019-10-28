@@ -85,7 +85,7 @@ A unique 64-bit number that identifies the modem. This is required to distinguis
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_sys_caps_info">NDIS_WWAN_SYS_CAPS_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_sys_caps_info">NDIS_WWAN_SYS_CAPS_INFO</a>
 
 
 

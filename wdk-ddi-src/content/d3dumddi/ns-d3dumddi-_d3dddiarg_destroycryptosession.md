@@ -48,7 +48,7 @@ req.typenames: D3DDDIARG_DESTROYCRYPTOSESSION
 ## -description
 
 
-The D3DDDIARG_DESTROYCRYPTOSESSION structure contains the handle to an encryption session that is destroyed in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_destroycryptosession">DestroyCryptoSession</a> function. 
+The D3DDDIARG_DESTROYCRYPTOSESSION structure contains the handle to an encryption session that is destroyed in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_destroycryptosession">DestroyCryptoSession</a> function. 
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ The D3DDDIARG_DESTROYCRYPTOSESSION structure contains the handle to an encryptio
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_destroycryptosession">DestroyCryptoSession</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_destroycryptosession">DestroyCryptoSession</a>
  
 
  

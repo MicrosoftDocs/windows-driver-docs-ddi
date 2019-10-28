@@ -71,7 +71,7 @@ A pointer to the address from which to read.
 
 
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportreadportbufferushort">ScsiPortReadPortBufferUshort</a>. For a buffered version of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportreadportbufferushort">StorPortReadPortBufferUshort</a>. 
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadportbufferushort">ScsiPortReadPortBufferUshort</a>. For a buffered version of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadportbufferushort">StorPortReadPortBufferUshort</a>. 
 
 
 
@@ -81,11 +81,11 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportreadportbufferushort">ScsiPortReadPortBufferUshort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadportbufferushort">ScsiPortReadPortBufferUshort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportreadportbufferushort">StorPortReadPortBufferUshort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadportbufferushort">StorPortReadPortBufferUshort</a>
  
 
  

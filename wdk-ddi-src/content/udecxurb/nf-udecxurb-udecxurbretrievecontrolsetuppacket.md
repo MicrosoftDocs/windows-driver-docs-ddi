@@ -64,7 +64,7 @@ A handle to a framework request object that represents the request containing th
 
 ### -param SetupPacket [out]
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a> structure that receives a setup packet describing the USB control transfer.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a> structure that receives a setup packet describing the USB control transfer.
 
 
 ## -returns
@@ -82,7 +82,7 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 The client driver can inspect contents of the setup packet to determine the standard control request that is sent to the device.
 
-To complete the request, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxurb/nf-udecxurb-udecxurbcompletewithntstatus">UdecxUrbCompleteWithNtStatus</a>.
+To complete the request, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxurb/nf-udecxurb-udecxurbcompletewithntstatus">UdecxUrbCompleteWithNtStatus</a>.
 
 
 

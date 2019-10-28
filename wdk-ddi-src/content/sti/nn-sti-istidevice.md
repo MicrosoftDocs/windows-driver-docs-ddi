@@ -68,7 +68,7 @@ The <b>IStiDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pdevice_reset_handler">DeviceReset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pdevice_reset_handler">DeviceReset</a>
 </td>
 <td align="left" width="63%">
 The <b>IStiDevice::DeviceReset</b> method resets a still image device to a known state.
@@ -77,7 +77,7 @@ The <b>IStiDevice::DeviceReset</b> method resets a still image device to a known
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-diagnostic">Diagnostic</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-diagnostic">Diagnostic</a>
 </td>
 <td align="left" width="63%">
 The <b>IStiDevice::Diagnostic</b> method executes diagnostic tests on a still image device.
@@ -95,7 +95,7 @@ The <b>IStiDevice::Escape</b> method sends a request for a vendor-specific I/O o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschematicket-getcapabilities">GetCapabilities</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities">GetCapabilities</a>
 </td>
 <td align="left" width="63%">
 The <b>IStiDevice::GetCapabilities</b> method returns a still image device's capabilities.
@@ -104,7 +104,7 @@ The <b>IStiDevice::GetCapabilities</b> method returns a still image device's cap
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getlasterror">GetLastError</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getlasterror">GetLastError</a>
 </td>
 <td align="left" width="63%">
 The <b>IStiDevice::GetLastError</b> method returns the last known error associated with a still image device.
@@ -113,7 +113,7 @@ The <b>IStiDevice::GetLastError</b> method returns the last known error associat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getlasterrorinfo">GetLastErrorInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getlasterrorinfo">GetLastErrorInfo</a>
 </td>
 <td align="left" width="63%">
 The <b>IStiDevice::GetLastErrorInfo</b> method returns information about the last known error associated with a still image device.
@@ -122,7 +122,7 @@ The <b>IStiDevice::GetLastErrorInfo</b> method returns information about the las
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getlastnotificationdata">GetLastNotificationData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getlastnotificationdata">GetLastNotificationData</a>
 </td>
 <td align="left" width="63%">
 The <b>IStiDevice::GetLastNotificationData</b> method returns a description of the most recent event that occurred on a still image device.
@@ -131,7 +131,7 @@ The <b>IStiDevice::GetLastNotificationData</b> method returns a description of t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-getstatus">GetStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtfaction2-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 The <b>IStiDevice::GetStatus</b> method returns a still image device's status information.
@@ -149,7 +149,7 @@ The <b>IStiDevice::Initialize</b> method initializes an instance of the COM obje
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-rawwritecommand">IStiDevice::RawWriteCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-rawwritecommand">IStiDevice::RawWriteCommand</a>
 </td>
 <td align="left" width="63%">
 The <b>IStiDevice::RawWriteCommand</b> method sends command information to a still image device.
@@ -158,7 +158,7 @@ The <b>IStiDevice::RawWriteCommand</b> method sends command information to a sti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-rawwritedata">IStiDevice::RawWriteData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-rawwritedata">IStiDevice::RawWriteData</a>
 </td>
 <td align="left" width="63%">
 The <b>IStiDevice::RawWriteData</b> method writes data to a still image device.
@@ -167,7 +167,7 @@ The <b>IStiDevice::RawWriteData</b> method writes data to a still image device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-release">IStiDevice::Release</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-release">IStiDevice::Release</a>
 </td>
 <td align="left" width="63%">
 The <b>IStiDevice::Release</b> method closes the instance of the COM object that was created by a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a>, and removes access to the object's interface.
@@ -176,7 +176,7 @@ The <b>IStiDevice::Release</b> method closes the instance of the COM object that
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-lockdevice">LockDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-lockdevice">LockDevice</a>
 </td>
 <td align="left" width="63%">
 The <b>IStiDevice::LockDevice </b>method locks a device for exclusive use by the caller.
@@ -185,7 +185,7 @@ The <b>IStiDevice::LockDevice </b>method locks a device for exclusive use by the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-rawreadcommand">RawReadCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-rawreadcommand">RawReadCommand</a>
 </td>
 <td align="left" width="63%">
 The <b>IStiDevice::RawReadCommand</b> method reads command information from a still image device.
@@ -194,7 +194,7 @@ The <b>IStiDevice::RawReadCommand</b> method reads command information from a st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-rawreaddata">RawReadData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-rawreaddata">RawReadData</a>
 </td>
 <td align="left" width="63%">
 The <b>IStiDevice::RawReadData</b> method reads data from a still image device.
@@ -203,7 +203,7 @@ The <b>IStiDevice::RawReadData</b> method reads data from a still image device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-subscribe">Subscribe</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-subscribe">Subscribe</a>
 </td>
 <td align="left" width="63%">
 The<b> IStiDevice::Subscribe</b> method registers the caller to receive notifications of device events.
@@ -212,16 +212,16 @@ The<b> IStiDevice::Subscribe</b> method registers the caller to receive notifica
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-unlockdevice">UnLockDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-unlockdevice">UnLockDevice</a>
 </td>
 <td align="left" width="63%">
-The <b>IStiDevice::UnLockDevice</b> method unlocks a device that was locked by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-lockdevice">IStiDevice::LockDevice</a>.
+The <b>IStiDevice::UnLockDevice</b> method unlocks a device that was locked by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-lockdevice">IStiDevice::LockDevice</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-unsubscribe">UnSubscribe</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-unsubscribe">UnSubscribe</a>
 </td>
 <td align="left" width="63%">
 The<b> IStiDevice::UnSubscribe</b> method removes the caller from the list of applications registered to receive notification of device events.

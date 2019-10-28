@@ -79,7 +79,7 @@ The initialization routine for both SCSI and StorPort miniport drivers are decla
 
 For more information about the SCSI miniport driver initialization routine see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557302(v=vs.85)">HwScsiInitialize</a>.
 
-For more information about the miniport driver initialization routine that is used with the StorPort driver see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_initialize">HwStorInitialize</a>.
+For more information about the miniport driver initialization routine that is used with the StorPort driver see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a>.
 
 
 
@@ -93,7 +93,7 @@ For more information about the miniport driver initialization routine that is us
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_initialize">HwStorInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames: STI_DEVICE_STATUS, *PSTI_DEVICE_STATUS
 ## -description
 
 
-The STI_DEVICE_STATUS structure is used as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getstatus">IStiDevice::GetStatus</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-getstatus">IStiUSD::GetStatus</a> methods.
+The STI_DEVICE_STATUS structure is used as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getstatus">IStiDevice::GetStatus</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getstatus">IStiUSD::GetStatus</a> methods.
 
 
 ## -struct-fields

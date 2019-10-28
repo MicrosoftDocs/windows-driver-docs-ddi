@@ -58,7 +58,7 @@ A handle to a display device (that is, the graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_destroycontext">D3DDDICB_DESTROYCONTEXT</a> structure that contains a handle to the context to destroy.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_destroycontext">D3DDDICB_DESTROYCONTEXT</a> structure that contains a handle to the context to destroy.
 
 ## -returns
 
@@ -93,7 +93,7 @@ The following code example shows how to destroy the default context for a displa
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_destroycontext">D3DDDICB_DESTROYCONTEXT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddicb_destroycontext">D3DDDICB_DESTROYCONTEXT</a>
 
 
 

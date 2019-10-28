@@ -58,7 +58,7 @@ The <b>KeQueryDpcWatchdogInformation</b> routine returns the deferred procedure 
 
 ### -param WatchdogInformation [out]
 
-A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kdpc_watchdog_information">KDPC_WATCHDOG_INFORMATION</a> structure. The routine writes the current DPC watchdog timer values to this structure.
+A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_kdpc_watchdog_information">KDPC_WATCHDOG_INFORMATION</a> structure. The routine writes the current DPC watchdog timer values to this structure.
 
 
 ## -returns
@@ -118,7 +118,7 @@ DPC routines should run only for brief periods, and should delegate as much proc
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kdpc_watchdog_information">KDPC_WATCHDOG_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_kdpc_watchdog_information">KDPC_WATCHDOG_INFORMATION</a>
  
 
  

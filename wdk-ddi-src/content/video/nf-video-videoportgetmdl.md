@@ -50,7 +50,7 @@ req.typenames:
 
 The <b>VideoPortGetMdl</b> function is <b>obsolete</b> in Windows 2000 and later.
 
-<b>VideoPortGetMdl</b> retrieves the memory descriptor list (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">MDL</a>) that represents the page table of the locked buffer.
+<b>VideoPortGetMdl</b> retrieves the memory descriptor list (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>) that represents the page table of the locked buffer.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param pDma [in]
 
-Is a handle to the DMA context being queried. This handle was obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportlockpages">VideoPortLockPages</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportdodma">VideoPortDoDma</a>.
+Is a handle to the DMA context being queried. This handle was obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlockpages">VideoPortLockPages</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportdodma">VideoPortDoDma</a>.
 
 
 ## -returns

@@ -52,7 +52,7 @@ The **IoCheckQuerySetFileInformation** routine checks the validity of the parame
 
 ### -param FileInformationClass
 
-A [FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class) enum value that specifies the file information class to be checked.
+A [FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class) enum value that specifies the file information class to be checked.
 
 ### -param Length
 
@@ -77,7 +77,7 @@ Boolean value that specifies the operation type. If *SetOperation* is **TRUE**, 
 
 ## -see-also
 
-[FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class)
+[FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class)
 
 [ZwQueryInformationFile](nf-ntifs-ntqueryinformationfile.md)
 

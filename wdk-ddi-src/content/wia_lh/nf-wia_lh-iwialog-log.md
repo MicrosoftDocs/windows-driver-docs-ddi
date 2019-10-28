@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-The **IWiaLog** interface is obsolete and is no longer supported. Use the [Diagnostic Log Macros](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index) instead.The **IWiaLog::Log** method writes a diagnostic log message to *Wiaservc.log*.
+The **IWiaLog** interface is obsolete and is no longer supported. Use the [Diagnostic Log Macros](https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index) instead.The **IWiaLog::Log** method writes a diagnostic log message to *Wiaservc.log*.
 
 ## -parameters
 

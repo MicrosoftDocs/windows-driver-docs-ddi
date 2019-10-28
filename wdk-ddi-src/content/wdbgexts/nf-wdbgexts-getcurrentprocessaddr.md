@@ -63,7 +63,7 @@ Specifies the index of the processor or virtual thread that was running the curr
 
 ### -param CurrentThread
 
-Specifies the location of the system data for the current thread.  This is the location returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-getcurrentthreadaddr">GetCurrentThreadAddr</a>.
+Specifies the location of the system data for the current thread.  This is the location returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-getcurrentthreadaddr">GetCurrentThreadAddr</a>.
 
 In kernel-mode debugging, <i>CurrentThread</i> can be <b>NULL</b>, in which case <i>Processor</i> is used instead.
 
@@ -86,7 +86,7 @@ None
 
 
 
-In user-mode debugging, <b>GetCurrentProcessAddr</b> returns the location of the process's Process Environment Block (PEB).  This is the same location that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-getpebaddress">GetPebAddress</a> returns.
+In user-mode debugging, <b>GetCurrentProcessAddr</b> returns the location of the process's Process Environment Block (PEB).  This is the same location that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-getpebaddress">GetPebAddress</a> returns.
 
 In kernel-mode debugging, <b>GetCurrentProcessAddr</b> returns the location of the KPROCESS structure of the current process.
 
@@ -100,11 +100,11 @@ For details on the KPROCESS and PEB structures, see <i>Microsoft Windows Interna
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-getcurrentthreadaddr">GetCurrentThreadAddr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-getcurrentthreadaddr">GetCurrentThreadAddr</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-getpebaddress">GetPebAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nf-wdbgexts-getpebaddress">GetPebAddress</a>
  
 
  

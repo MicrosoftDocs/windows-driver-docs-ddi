@@ -116,7 +116,7 @@ The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidclass/ni-hidclass-ioctl_hid_set_poll_frequency_msec">IOCTL_HID_SET_POLL_FREQUENCY_MSEC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_set_poll_frequency_msec">IOCTL_HID_SET_POLL_FREQUENCY_MSEC</a>
  
 
  

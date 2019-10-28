@@ -82,4 +82,4 @@ This function reads multiple properties from a WIA item. When the call succeeds,
 
 ## -see-also
 
-[wiasWriteMultiple](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiaswritemultiple)
+[wiasWriteMultiple](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritemultiple)

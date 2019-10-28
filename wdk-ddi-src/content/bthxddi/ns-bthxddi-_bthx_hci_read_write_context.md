@@ -82,9 +82,9 @@ Actual data to be read/written.
 
 
 
-The BTHX_HCI_READ_WRITE_CONTEXT structure is an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthxddi/ni-bthxddi-ioctl_bthx_write_hci">IOCTL_BTHX_HCI_WRITE IOCTL</a> and specifies the type of packet associated with the write. It also specifies the data to be written in the <b>Data</b> member.
+The BTHX_HCI_READ_WRITE_CONTEXT structure is an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_write_hci">IOCTL_BTHX_HCI_WRITE IOCTL</a> and specifies the type of packet associated with the write. It also specifies the data to be written in the <b>Data</b> member.
 
-This structure is also used as an output parameter for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthxddi/ni-bthxddi-ioctl_bthx_read_hci">IOCTL_BTHX_HCI_READ</a> IOCTL and specifies the type of packet and the data associated with the read.
+This structure is also used as an output parameter for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_read_hci">IOCTL_BTHX_HCI_READ</a> IOCTL and specifies the type of packet and the data associated with the read.
 
 This structure is packed to 1-byte boundary.
 

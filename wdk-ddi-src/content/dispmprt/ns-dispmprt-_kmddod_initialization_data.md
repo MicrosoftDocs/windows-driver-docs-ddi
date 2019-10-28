@@ -63,156 +63,156 @@ A positive integer that indicates the version of the functional interface implem
 
 ### -field DxgkDdiAddDevice
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
 
 ### -field DxgkDdiStartDevice
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
 
 
 ### -field DxgkDdiStopDevice
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_stop_device">DxgkDdiStopDevice</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_stop_device">DxgkDdiStopDevice</a> function.
 
 
 ### -field DxgkDdiRemoveDevice
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_remove_device">DxgkDdiRemoveDevice</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_remove_device">DxgkDdiRemoveDevice</a> function.
 
 
 ### -field DxgkDdiDispatchIoRequest
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_dispatch_io_request">DxgkDdiDispatchIoRequest</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_dispatch_io_request">DxgkDdiDispatchIoRequest</a> function.
 
 
 ### -field DxgkDdiInterruptRoutine
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_interrupt_routine">DxgkDdiInterruptRoutine</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_interrupt_routine">DxgkDdiInterruptRoutine</a> function.
 
 <div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div>
 <div> </div>
 
 ### -field DxgkDdiDpcRoutine
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_dpc_routine">DxgkDdiDpcRoutine</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_dpc_routine">DxgkDdiDpcRoutine</a> function.
 
 <div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div>
 <div> </div>
 
 ### -field DxgkDdiQueryChildRelations
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_relations">DxgkDdiQueryChildRelations</a> function.
 
 
 ### -field DxgkDdiQueryChildStatus
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_query_child_status">DxgkDdiQueryChildStatus</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_child_status">DxgkDdiQueryChildStatus</a> function.
 
 
 ### -field DxgkDdiQueryDeviceDescriptor
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_query_device_descriptor">DxgkDdiQueryDeviceDescriptor</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_device_descriptor">DxgkDdiQueryDeviceDescriptor</a> function.
 
 
 ### -field DxgkDdiSetPowerState
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_set_power_state">DxgkDdiSetPowerState</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_set_power_state">DxgkDdiSetPowerState</a> function.
 
 
 ### -field DxgkDdiNotifyAcpiEvent
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_notify_acpi_event">DxgkDdiNotifyAcpiEvent</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_notify_acpi_event">DxgkDdiNotifyAcpiEvent</a> function.
 
 
 ### -field DxgkDdiResetDevice
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_reset_device">DxgkDdiResetDevice</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_reset_device">DxgkDdiResetDevice</a> function.
 
 
 ### -field DxgkDdiUnload
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_unload">DxgkDdiUnload</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_unload">DxgkDdiUnload</a> function.
 
 
 ### -field DxgkDdiQueryInterface
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_query_interface">DxgkDdiQueryInterface</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_interface">DxgkDdiQueryInterface</a> function.
 
 
 ### -field DxgkDdiControlEtwLogging
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_control_etw_logging">DxgkDdiControlEtwLogging</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_control_etw_logging">DxgkDdiControlEtwLogging</a> function.
 
 
 ### -field DxgkDdiQueryAdapterInfo
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function.
 
 
 ### -field DxgkDdiSetPalette
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setpalette">DxgkDdiSetPalette</a> function that sets the palette for the display.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setpalette">DxgkDdiSetPalette</a> function that sets the palette for the display.
 
 
 ### -field DxgkDdiSetPointerPosition
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setpointerposition">DxgkDdiSetPointerPosition</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setpointerposition">DxgkDdiSetPointerPosition</a> function.
 
 
 ### -field DxgkDdiSetPointerShape
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setpointershape">DxgkDdiSetPointerShape</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setpointershape">DxgkDdiSetPointerShape</a> function.
 
 
 ### -field DxgkDdiEscape
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a> function.
 
 
 ### -field DxgkDdiCollectDbgInfo
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_collectdbginfo">DxgkDdiCollectDbgInfo</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_collectdbginfo">DxgkDdiCollectDbgInfo</a> function.
 
 
 ### -field DxgkDdiIsSupportedVidPn
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_issupportedvidpn">DxgkDdiIsSupportedVidPn</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_issupportedvidpn">DxgkDdiIsSupportedVidPn</a> function.
 
 
 ### -field DxgkDdiRecommendFunctionalVidPn
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a> function.
 
 
 ### -field DxgkDdiEnumVidPnCofuncModality
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a> function.
 
 
 ### -field DxgkDdiSetVidPnSourceVisibility
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourcevisibility">DxgkDdiSetVidPnSourceVisibility</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourcevisibility">DxgkDdiSetVidPnSourceVisibility</a> function.
 
 
 ### -field DxgkDdiCommitVidPn
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a>  function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a>  function.
 
 
 ### -field DxgkDdiUpdateActiveVidPnPresentPath
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath">DxgkDdiUpdateActiveVidPnPresentPath</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_updateactivevidpnpresentpath">DxgkDdiUpdateActiveVidPnPresentPath</a> function.
 
 
 ### -field DxgkDdiRecommendMonitorModes
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendmonitormodes">DxgkDdiRecommendMonitorModes</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendmonitormodes">DxgkDdiRecommendMonitorModes</a> function.
 
 
 ### -field DxgkDdiGetScanLine
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_getscanline">DxgkDdiGetScanLine</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_getscanline">DxgkDdiGetScanLine</a> function.
 
 <div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div>
 <div> </div>
@@ -220,43 +220,43 @@ A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/dr
 ### -field DxgkDdiQueryVidPnHWCapability
 
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_queryvidpnhwcapability">DxgkDdiQueryVidPnHWCapability</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryvidpnhwcapability">DxgkDdiQueryVidPnHWCapability</a> function.
 
 
 ### -field DxgkDdiPresentDisplayOnly
 
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_presentdisplayonly">DxgkDdiPresentDisplayOnly</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_presentdisplayonly">DxgkDdiPresentDisplayOnly</a> function.
 
 
 ### -field DxgkDdiStopDeviceAndReleasePostDisplayOwnership
 
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a> function.
 
 
 ### -field DxgkDdiSystemDisplayEnable
 
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_system_display_enable">DxgkDdiSystemDisplayEnable</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_enable">DxgkDdiSystemDisplayEnable</a> function.
 
 
 ### -field DxgkDdiSystemDisplayWrite
 
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_system_display_write">DxgkDdiSystemDisplayWrite</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_write">DxgkDdiSystemDisplayWrite</a> function.
 
 
 ### -field DxgkDdiGetChildContainerId
 
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_get_child_container_id">DxgkDdiGetChildContainerId</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_get_child_container_id">DxgkDdiGetChildContainerId</a> function.
 
 
 ### -field DxgkDdiControlInterrupt
 
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt">DxgkDdiControlInterrupt</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt">DxgkDdiControlInterrupt</a> function.
 
 <div class="alert"><b>Note</b>  This function pointer has special requirements. For more information, see Remarks.</div>
 <div> </div>
@@ -264,19 +264,19 @@ A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/dr
 ### -field DxgkDdiSetPowerComponentFState
 
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddisetpowercomponentfstate">DxgkDdiSetPowerComponentFState</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddisetpowercomponentfstate">DxgkDdiSetPowerComponentFState</a> function.
 
 
 ### -field DxgkDdiPowerRuntimeControlRequest
 
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddipowerruntimecontrolrequest">DxgkDdiPowerRuntimeControlRequest</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddipowerruntimecontrolrequest">DxgkDdiPowerRuntimeControlRequest</a> function.
 
 
 ### -field DxgkDdiNotifySurpriseRemoval
 
 
-A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_notify_surprise_removal">DxgkDdiNotifySurpriseRemoval</a> function.
+A pointer to the KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_notify_surprise_removal">DxgkDdiNotifySurpriseRemoval</a> function.
 
 
 ### -field DxgkDdiPowerRuntimeSetDeviceHandle
@@ -288,7 +288,7 @@ A pointer to the KMDOD's DxgkDdiPowerRuntimeSetDeviceHandle function.
 
 
 
-If the kernel mode display-only driver (KMDOD) supports the VSync control feature, it must implement all of the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt">DxgkDdiControlInterrupt</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_getscanline">DxgkDdiGetScanLine</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_interrupt_routine">DxgkDdiInterruptRoutine</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_dpc_routine">DxgkDdiDpcRoutine</a>  functions and must provide valid function pointers to all of these functions in this structure. Conversely, if the KMDOD does not support the VSync control feature, it must not implement either <i>DxgkDdiControlInterrupt</i> or <i>DxgkDdiGetScanLine</i>  functions and must not provide valid function pointers to either of these functions in this structure. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/saving-energy-with-vsync-control">Saving Energy with VSync Control</a>.
+If the kernel mode display-only driver (KMDOD) supports the VSync control feature, it must implement all of the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt">DxgkDdiControlInterrupt</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_getscanline">DxgkDdiGetScanLine</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_interrupt_routine">DxgkDdiInterruptRoutine</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_dpc_routine">DxgkDdiDpcRoutine</a>  functions and must provide valid function pointers to all of these functions in this structure. Conversely, if the KMDOD does not support the VSync control feature, it must not implement either <i>DxgkDdiControlInterrupt</i> or <i>DxgkDdiGetScanLine</i>  functions and must not provide valid function pointers to either of these functions in this structure. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/saving-energy-with-vsync-control">Saving Energy with VSync Control</a>.
 
 
 
@@ -302,7 +302,7 @@ If the kernel mode display-only driver (KMDOD) supports the VSync control featur
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nf-dispmprt-dxgkinitializedisplayonlydriver">DxgkInitializeDisplayOnlyDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nf-dispmprt-dxgkinitializedisplayonlydriver">DxgkInitializeDisplayOnlyDriver</a>
  
 
  

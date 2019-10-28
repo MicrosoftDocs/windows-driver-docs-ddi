@@ -59,7 +59,7 @@ A print processor's <code>PrintDocumentOnPrintProcessor</code> function converts
 
 ### -param hPrintProcessor [in]
 
-Caller-supplied print processor handle. This is the handle returned by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>.
+Caller-supplied print processor handle. This is the handle returned by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>.
 
 
 ### -param pDocumentName [in]
@@ -80,13 +80,13 @@ If the operation succeeds, the function should return <b>TRUE</b>. If the operat
 
 
 
-Print processors are required to export a <code>PrintDocumentOnPrintProcessor</code> function. The spooler calls the function after calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>. The function's purpose is to read the contents of the file named by <i>pDocumentName</i>, convert (if necessary) the file's data to a data stream that can be read by printer hardware, and to send the data stream back to the spooler. The spooler can then send the data stream to the appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/">print monitor</a>.
+Print processors are required to export a <code>PrintDocumentOnPrintProcessor</code> function. The spooler calls the function after calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>. The function's purpose is to read the contents of the file named by <i>pDocumentName</i>, convert (if necessary) the file's data to a data stream that can be read by printer hardware, and to send the data stream back to the spooler. The spooler can then send the data stream to the appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/">print monitor</a>.
 
-If the input format is NT-based operating system EMF, the <code>PrintDocumentOnPrintProcessor</code> function can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">GDI functions for print processors</a>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/processing-a-print-job">Processing a Print Job</a>.
+If the input format is NT-based operating system EMF, the <code>PrintDocumentOnPrintProcessor</code> function can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">GDI functions for print processors</a>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/processing-a-print-job">Processing a Print Job</a>.
 
 The converted data stream must be sent back to the spooler by calling <b>WritePrinter</b>, which is described in the Microsoft Windows SDK documentation. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/processing-a-print-job">Processing a Print Job</a>.
 
-The <code>PrintDocumentOnPrintProcessor</code> function must be written to handle requests to pause, resume, or cancel the print job. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-controlprintprocessor">ControlPrintProcessor</a>.
+The <code>PrintDocumentOnPrintProcessor</code> function must be written to handle requests to pause, resume, or cancel the print job. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-controlprintprocessor">ControlPrintProcessor</a>.
 
 
 
@@ -96,11 +96,11 @@ The <code>PrintDocumentOnPrintProcessor</code> function must be written to handl
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-controlprintprocessor">ControlPrintProcessor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-controlprintprocessor">ControlPrintProcessor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openprintprocessor">OpenPrintProcessor</a>
  
 
  

@@ -212,7 +212,7 @@ For a different property whose valid values are defined by a list of three GUID 
 
 A property whose valid values are defined by a bitset of the values 0x01, 0x02, 0x04, and 0x08 would have the WIA_PROP_FLAG bit set in **lAccessFlags**, and **vt** would be set to VT_UI4. For such a property, the value stored in **Flag.ValidBits** would be 0x0F, the bitwise OR of the four flag values previously mentioned.
 
-The following examples show how to use array data with WIA_PROPERTY_INFO and how to call [wiasWriteMultiple](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiaswritemultiple) to set your property values.
+The following examples show how to use array data with WIA_PROPERTY_INFO and how to call [wiasWriteMultiple](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritemultiple) to set your property values.
 
 Initialization might look like the following example:
 
@@ -248,4 +248,4 @@ hr                  = wiasWriteMultiple(pWiasContext, 1, &propSpec, &propVar);
 
 ## -see-also
 
-[wiasSetItemPropAttribs](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiassetitempropattribs)
+[wiasSetItemPropAttribs](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetitempropattribs)

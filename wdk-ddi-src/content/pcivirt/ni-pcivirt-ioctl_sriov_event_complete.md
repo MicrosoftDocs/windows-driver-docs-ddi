@@ -54,7 +54,7 @@ req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 
 
 The  request indicates that the virtualization stack  or the SR-IOV device received one of the events listed in
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ne-pcivirt-_sriov_pf_event">SRIOV_PF_EVENT</a>.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ne-pcivirt-_sriov_pf_event">SRIOV_PF_EVENT</a>.
 
 
 ## -ioctlparameters
@@ -64,12 +64,12 @@ The  request indicates that the virtualization stack  or the SR-IOV device recei
 
 ### -input-buffer
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_pnp_event_complete">SRIOV_PNP_EVENT_COMPLETE</a> structure that contains the NTSTATUS code with which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> request must be completed.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_pnp_event_complete">SRIOV_PNP_EVENT_COMPLETE</a> structure that contains the NTSTATUS code with which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> request must be completed.
 
 
 ### -input-buffer-length
 
-The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_pnp_event_complete">SRIOV_PNP_EVENT_COMPLETE</a> structure.
+The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_pnp_event_complete">SRIOV_PNP_EVENT_COMPLETE</a> structure.
 
 
 ### -status-block
@@ -83,5 +83,5 @@ The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
 
-The virtualization stack sends the <b>IOCTL_SRIOV_EVENT_COMPLETE</b> request when the physical function (PF) driver completes the previously sent <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> request. The <b>IOCTL_SRIOV_EVENT_COMPLETE</b> request can be completed
-synchronously.  The stack provides the NTSTATUS code to set for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_pnp_event_complete">SRIOV_PNP_EVENT_COMPLETE</a> is the input buffer.
+The virtualization stack sends the <b>IOCTL_SRIOV_EVENT_COMPLETE</b> request when the physical function (PF) driver completes the previously sent <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> request. The <b>IOCTL_SRIOV_EVENT_COMPLETE</b> request can be completed
+synchronously.  The stack provides the NTSTATUS code to set for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_pnp_event_complete">SRIOV_PNP_EVENT_COMPLETE</a> is the input buffer.

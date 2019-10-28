@@ -130,7 +130,7 @@ If an offload target's TCP chimney capabilities are enabled (see
 <ul>
 <li>
 The offload target can indicate the packet through the non-offload interface by calling the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
       NdisMIndicateReceiveNetBufferLists</a> function. In this case, the offload target must not increment
       the 
       <b>InErrors</b> counter. This is the recommended approach.

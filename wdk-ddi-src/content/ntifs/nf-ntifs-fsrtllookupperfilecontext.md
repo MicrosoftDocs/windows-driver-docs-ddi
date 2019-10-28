@@ -86,7 +86,7 @@ A pointer to the first FSRTL_PER_FILE_CONTEXT structure that matches the <i>Owne
 
 By not specifying <i>OwnerID</i> and <i>InstanceId</i>, a filter driver can search for the first context that is associated with a file.  
 
-If the file system does not support per-file context objects, <b>NULL</b> is returned. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlsupportsperfilecontexts">FsRtlSupportsPerFileContexts</a> macro to determine whether a file system supports per-file context objects.
+If the file system does not support per-file context objects, <b>NULL</b> is returned. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlsupportsperfilecontexts">FsRtlSupportsPerFileContexts</a> macro to determine whether a file system supports per-file context objects.
 
 
 

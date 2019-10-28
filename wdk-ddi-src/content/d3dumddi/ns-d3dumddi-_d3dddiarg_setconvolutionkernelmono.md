@@ -81,7 +81,7 @@ The D3DDDIARG_SETCONVOLUTIONKERNELMONO structure describes parameters for settin
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setconvolutionkernelmono">SetConvolutionKernelMono</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setconvolutionkernelmono">SetConvolutionKernelMono</a>
  
 
  

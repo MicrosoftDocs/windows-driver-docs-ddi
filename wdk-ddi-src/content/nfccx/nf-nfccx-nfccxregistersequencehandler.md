@@ -63,12 +63,12 @@ A handle to a framework device object.
 
 ### -param Sequence
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/ne-nfccx-_nfc_cx_sequence">NFC_CX_SEQUENCE</a>-typed enumerator.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_sequence">NFC_CX_SEQUENCE</a>-typed enumerator.
 
 
 ### -param EvtNfcCxSequenceHandler
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/nc-nfccx-evt_nfc_cx_sequence_handler">EvtNfcCxSequenceHandler</a> callback function. 
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/nc-nfccx-evt_nfc_cx_sequence_handler">EvtNfcCxSequenceHandler</a> callback function. 
 
 
 ## -returns

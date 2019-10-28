@@ -94,7 +94,7 @@ The D3DDDIARG_TEXBLT structure describes parameters for a texture bit-block tran
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_texblt">TexBlt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_texblt">TexBlt</a>
  
 
  

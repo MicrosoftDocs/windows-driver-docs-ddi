@@ -89,7 +89,7 @@ Specifies the Ethertype of the frame.
 
 ### -field bTxCompleteRequired
 
-Specifies if an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_tx_send_complete_ind">NdisWdiTxSendCompleteIndication</a> is required for this frame.
+Specifies if an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-ndis_wdi_tx_send_complete_ind">NdisWdiTxSendCompleteIndication</a> is required for this frame.
 
 
 ### -field PnLength
@@ -104,7 +104,7 @@ Specifies the number of credits required to dequeue the frame.
 
 ### -field ExemptionAction
 
-Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/ne-dot11wdi-_wdi_exemption_action_type">WDI_EXEMPTION_ACTION_TYPE</a> value for this frame.
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_exemption_action_type">WDI_EXEMPTION_ACTION_TYPE</a> value for this frame.
 
 
 ### -field MpduPn
@@ -137,11 +137,11 @@ Reserved.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/ne-dot11wdi-_wdi_exemption_action_type">WDI_EXEMPTION_ACTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_exemption_action_type">WDI_EXEMPTION_ACTION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/ns-dot11wdi-_wdi_txrx_target_capabilities">WDI_TXRX_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_txrx_target_capabilities">WDI_TXRX_CAPABILITIES</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames: ROOTHUB_20PORT_INFO, *PROOTHUB_20PORT_INFO
 ## -description
 
 
-Provides information about a USB 2.0 root hub port. This structure is passed by UCX in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/nc-ucxroothub-evt_ucx_roothub_get_20port_info">EVT_UCX_ROOTHUB_GET_20PORT_INFO</a> callback function. 
+Provides information about a USB 2.0 root hub port. This structure is passed by UCX in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/nc-ucxroothub-evt_ucx_roothub_get_20port_info">EVT_UCX_ROOTHUB_GET_20PORT_INFO</a> callback function. 
 
 
 ## -struct-fields
@@ -73,17 +73,17 @@ The hub depth limit.
 
 ### -field Removable
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ne-ucxroothub-_tristate">TRISTATE</a> value that indicates if the port is removable. 
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ne-ucxroothub-_tristate">TRISTATE</a> value that indicates if the port is removable. 
 
 
 ### -field IntegratedHubImplemented
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ne-ucxroothub-_tristate">TRISTATE</a> value that indicates if the port is implemented. 
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ne-ucxroothub-_tristate">TRISTATE</a> value that indicates if the port is implemented. 
 
 
 ### -field DebugCapable
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ne-ucxroothub-_tristate">TRISTATE</a> value that indicates if the port is debug capable. 
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ne-ucxroothub-_tristate">TRISTATE</a> value that indicates if the port is debug capable. 
 
 
 ### -field ControllerUsb20HardwareLpmFlags

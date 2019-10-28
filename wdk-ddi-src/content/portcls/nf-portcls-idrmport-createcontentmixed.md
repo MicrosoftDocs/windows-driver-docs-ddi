@@ -45,7 +45,7 @@ targetos: Windows
 
 ## -description
 
-The CreateContentMixed method computes the DRM content rights for a composite stream containing mixed content from some number of KS audio streams. Note that this method is identical in operation to the [DrmCreateContentMixed function](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmcreatecontentmixed), and its parameter definitions and return value are also identical.
+The CreateContentMixed method computes the DRM content rights for a composite stream containing mixed content from some number of KS audio streams. Note that this method is identical in operation to the [DrmCreateContentMixed function](https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmcreatecontentmixed), and its parameter definitions and return value are also identical.
 
 ## -parameters
 

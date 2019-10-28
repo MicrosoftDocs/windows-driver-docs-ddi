@@ -84,7 +84,7 @@ A pointer to the context parameter that was passed to the <b>RxPostRecurrentTime
 
 
 
-A recurrent timer is initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxtimer/nf-rxtimer-rxpostrecurrenttimerrequest">RxPostRecurrentTimerRequest</a>.
+A recurrent timer is initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxtimer/nf-rxtimer-rxpostrecurrenttimerrequest">RxPostRecurrentTimerRequest</a>.
 
 If the recurrent timer is not found, this routine will return STATUS_NOT_FOUND.
 
@@ -96,11 +96,11 @@ If the recurrent timer is not found, this routine will return STATUS_NOT_FOUND.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxtimer/nf-rxtimer-rxpostoneshottimerrequest">RxPostOneShotTimerRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxtimer/nf-rxtimer-rxpostoneshottimerrequest">RxPostOneShotTimerRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxtimer/nf-rxtimer-rxpostrecurrenttimerrequest">RxPostRecurrentTimerRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxtimer/nf-rxtimer-rxpostrecurrenttimerrequest">RxPostRecurrentTimerRequest</a>
  
 
  

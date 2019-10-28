@@ -45,7 +45,7 @@ targetos: Windows
 
 ## -description
 
-The ForwardContentToFileObject method is obsolete and is maintained only to support existing drivers. Note that this method is identical in operation to the [DrmForwardContentToFileObject](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttofileobject) function, and its parameter definitions and return value are also identical.
+The ForwardContentToFileObject method is obsolete and is maintained only to support existing drivers. Note that this method is identical in operation to the [DrmForwardContentToFileObject](https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttofileobject) function, and its parameter definitions and return value are also identical.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ This method returns NTSTATUS - STATUS_SUCCESS if the call was successful. Otherw
 
 ## -remarks
 
-See comments in [DrmForwardContentToFileObject](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttofileobject).
+See comments in [DrmForwardContentToFileObject](https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmforwardcontenttofileobject).
 
 ## -see-also
 

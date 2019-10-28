@@ -65,17 +65,17 @@ A handle to the framework request object that represents the I/O request that is
 
 ### -param ImpersonationLevel [in]
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>-typed value that identifies the level of impersonation.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>-typed value that identifies the level of impersonation.
 
 
 ### -param EvtRequestImpersonate [in]
 
-A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_impersonate">EvtRequestImpersonate</a> event callback function.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_impersonate">EvtRequestImpersonate</a> event callback function.
 
 
 ### -param Context [in, optional]
 
-A pointer to a buffer that contains context information that is related to the impersonation call. The framework passes this context information in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_impersonate">EvtRequestImpersonate</a> event callback function. This parameter is optional and can be <b>NULL</b>
+A pointer to a buffer that contains context information that is related to the impersonation call. The framework passes this context information in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_impersonate">EvtRequestImpersonate</a> event callback function. This parameter is optional and can be <b>NULL</b>
 
 
 ## -returns
@@ -93,7 +93,7 @@ The method might return other <a href="https://docs.microsoft.com/windows-hardwa
 
 
 
-The <b>WdfRequestImpersonate</b> method does not return until the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_impersonate">EvtRequestImpersonate</a> event callback function completes.
+The <b>WdfRequestImpersonate</b> method does not return until the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_impersonate">EvtRequestImpersonate</a> event callback function completes.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">Handling Client Impersonation in UMDF Drivers</a>.
 
@@ -105,11 +105,11 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_impersonate">EvtRequestImpersonate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_impersonate">EvtRequestImpersonate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest-impersonate">IWDFIoRequest::Impersonate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-impersonate">IWDFIoRequest::Impersonate</a>
  
 
  

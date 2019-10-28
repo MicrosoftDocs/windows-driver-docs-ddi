@@ -58,7 +58,7 @@ The GetFCPStatistics_IN structure is used to deliver input parameter data to the
 
 ### -field ScsiId
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbascsiid">HBAScsiID</a> that uniquely identifies a logical unit and the bus and HBA that the logical unit is connected to.
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbascsiid">HBAScsiID</a> that uniquely identifies a logical unit and the bus and HBA that the logical unit is connected to.
 
 
 ## -remarks
@@ -79,7 +79,7 @@ The WMI tool suite generates a declaration of the GetFCPStatistics_IN structure 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbascsiid">HBAScsiID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_hbascsiid">HBAScsiID</a>
  
 
  

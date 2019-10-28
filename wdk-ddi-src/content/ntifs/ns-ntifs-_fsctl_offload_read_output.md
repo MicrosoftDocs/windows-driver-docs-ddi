@@ -114,7 +114,7 @@ The length, in bytes, of data represented by <b>Token</b>.
 
 ### -field Token
 
-A byte array that contains a token structure, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>, representing a file data within a range specified in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsctl_offload_read_input">FSCTL_OFFLOAD_READ_INPUT</a>. The contents of <b>Token</b>  must remain unmodified between offload operations.
+A byte array that contains a token structure, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>, representing a file data within a range specified in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsctl_offload_read_input">FSCTL_OFFLOAD_READ_INPUT</a>. The contents of <b>Token</b>  must remain unmodified between offload operations.
 
 
 ## -remarks
@@ -123,11 +123,11 @@ A byte array that contains a token structure, <a href="https://docs.microsoft.co
 
 If the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-offload-read">FSCTL_OFFLOAD_READ</a> operation is successful, the storage device's copy provider returns, in <b>FSCTL_OFFLOAD_READ_OUTPUT</b>, a unique token value identifying the portion of file data read. 
 
-The  copy provider retains the data read for the duration in the <b>TokenTimeToLive</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsctl_offload_read_input">FSCTL_OFFLOAD_READ_INPUT</a> structure.
+The  copy provider retains the data read for the duration in the <b>TokenTimeToLive</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsctl_offload_read_input">FSCTL_OFFLOAD_READ_INPUT</a> structure.
 
-<b>Token</b> represents  a contiguous region of the file beginning with the requested offset in the <b>FileOffset</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsctl_offload_read_input">FSCTL_OFFLOAD_READ_INPUT</a>. The resulting length copied, <b>TransferLength</b>, may be smaller than what was originally specified in <b>CopyLength</b> member of <b>FSCTL_OFFLOAD_READ_INPUT</b>. A smaller value indicates that  <b>Token</b> was able to logically represent less data than was requested.
+<b>Token</b> represents  a contiguous region of the file beginning with the requested offset in the <b>FileOffset</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsctl_offload_read_input">FSCTL_OFFLOAD_READ_INPUT</a>. The resulting length copied, <b>TransferLength</b>, may be smaller than what was originally specified in <b>CopyLength</b> member of <b>FSCTL_OFFLOAD_READ_INPUT</b>. A smaller value indicates that  <b>Token</b> was able to logically represent less data than was requested.
 
- If less data than requested was transferred, the read operation  may be completed by performing another <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-offload-read">FSCTL_OFFLOAD_READ</a> request. The next request uses updated <b>FileOffset</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsctl_offload_read_input">FSCTL_OFFLOAD_READ_INPUT</a> structure with the value in <b>TransferLength</b> and an adjusted read length of the previous length minus the value in <b>TransferLength</b>. Also, an incomplete read operation can be completed through a non-offloaded read method, using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a> routine, for example.
+ If less data than requested was transferred, the read operation  may be completed by performing another <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-offload-read">FSCTL_OFFLOAD_READ</a> request. The next request uses updated <b>FileOffset</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsctl_offload_read_input">FSCTL_OFFLOAD_READ_INPUT</a> structure with the value in <b>TransferLength</b> and an adjusted read length of the previous length minus the value in <b>TransferLength</b>. Also, an incomplete read operation can be completed through a non-offloaded read method, using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a> routine, for example.
 
 
 
@@ -141,11 +141,11 @@ The  copy provider retains the data read for the duration in the <b>TokenTimeToL
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsctl_offload_read_input">FSCTL_OFFLOAD_READ_INPUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fsctl_offload_read_input">FSCTL_OFFLOAD_READ_INPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_offload_token">STORAGE_OFFLOAD_TOKEN</a>
  
 
  

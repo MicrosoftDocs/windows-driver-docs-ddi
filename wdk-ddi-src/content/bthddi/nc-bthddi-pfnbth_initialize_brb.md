@@ -66,7 +66,7 @@ Pointer to the BRB to initialize.
 ### -param brbType [in]
 
 Specifies a value from the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ne-bthddi-_brb_type">BRB_TYPE</a> enumeration to initialize the BRB
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_brb_type">BRB_TYPE</a> enumeration to initialize the BRB
      with.
 
 
@@ -88,7 +88,7 @@ Profile drivers should use
     function.
 
 It is not necessary to call this function for a BRB that was allocated using 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a>.
 
 Profile drivers obtain a pointer to the 
     <i>BthInitializeBrb</i> function when they query the Bluetooth driver stack for an instance of the
@@ -104,11 +104,11 @@ Profile drivers obtain a pointer to the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ne-bthddi-_brb_type">BRB_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_brb_type">BRB_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a>
  
 
  

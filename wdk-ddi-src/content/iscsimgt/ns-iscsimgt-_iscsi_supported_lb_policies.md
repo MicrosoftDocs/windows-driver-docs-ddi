@@ -141,7 +141,7 @@ The number of paths associated with a target in the context of this session.
 
 ### -field iSCSI_Paths
 
-Path information as shown in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsimgt/ns-iscsimgt-_iscsi_path">ISCSI_Path</a> structure.
+Path information as shown in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsimgt/ns-iscsimgt-_iscsi_path">ISCSI_Path</a> structure.
 
 
 ## -see-also

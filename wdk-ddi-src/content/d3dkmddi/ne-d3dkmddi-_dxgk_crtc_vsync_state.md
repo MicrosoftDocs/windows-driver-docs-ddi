@@ -48,7 +48,7 @@ req.typenames: DXGK_CRTC_VSYNC_STATE
 ## -description
 
 
-Provides additional information for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt2">DxgkDdi_ControlInterrupt2 </a>when VSYNC is being utilized.
+Provides additional information for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt2">DxgkDdi_ControlInterrupt2 </a>when VSYNC is being utilized.
 
 
 ## -enum-fields

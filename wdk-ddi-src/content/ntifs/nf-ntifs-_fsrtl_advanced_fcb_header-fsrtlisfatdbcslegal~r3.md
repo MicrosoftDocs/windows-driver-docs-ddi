@@ -107,7 +107,7 @@ FAT file names are case insensitive. Lowercase names are automatically converted
 
 </li>
 </ul>
-For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Strings</a>.
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Strings</a>.
 
 
 

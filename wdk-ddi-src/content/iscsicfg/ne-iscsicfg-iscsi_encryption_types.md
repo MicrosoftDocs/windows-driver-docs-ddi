@@ -85,7 +85,7 @@ The ISCSI_ENCRYPTION_TYPES enumeration is used with the <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsicfg/ns-iscsicfg-_msiscsi_securitycapabilities">MSiSCSI_SecurityCapabilities</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsicfg/ns-iscsicfg-_msiscsi_securitycapabilities">MSiSCSI_SecurityCapabilities</a>
 
 
 

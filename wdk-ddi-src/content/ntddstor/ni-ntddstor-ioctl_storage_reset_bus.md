@@ -63,12 +63,12 @@ The <b>SrbStatus</b> flag of pending SRBs is set to SRB_STATUS_BUS_RESET.
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_bus_reset_request">STORAGE_BUS_RESET_REQUEST</a> structure that specifies the path ID of the bus to reset.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_bus_reset_request">STORAGE_BUS_RESET_REQUEST</a> structure that specifies the path ID of the bus to reset.
 
 
 ### -input-buffer-length
 
-The length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_bus_reset_request">STORAGE_BUS_RESET_REQUEST</a> structure.
+The length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_bus_reset_request">STORAGE_BUS_RESET_REQUEST</a> structure.
 
 
 ### -output-buffer
@@ -109,7 +109,7 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_bus_reset_request">STORAGE_BUS_RESET_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_bus_reset_request">STORAGE_BUS_RESET_REQUEST</a>
  
 
  

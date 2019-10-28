@@ -136,7 +136,7 @@ For a very infrequent operation, space can be conserved by dynamically allocatin
 
 </li>
 <li>
-When an operation is going to be repeatedly dispatched, time is conserved by allocating in advance the WORK_QUEUE_ITEM as part of the data structure to be dispatched and using this pre-allocated memory repeatedly. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxworkq/nf-rxworkq-rxposttoworkerthread">RxPostToWorkerThread</a> routine would be used in this case 
+When an operation is going to be repeatedly dispatched, time is conserved by allocating in advance the WORK_QUEUE_ITEM as part of the data structure to be dispatched and using this pre-allocated memory repeatedly. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxworkq/nf-rxworkq-rxposttoworkerthread">RxPostToWorkerThread</a> routine would be used in this case 
 
 </li>
 </ul>
@@ -156,11 +156,11 @@ If the <b>RxDispatchToWorkerThread </b>routine fails on a debug build, the <b>_R
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxworkq/nf-rxworkq-rxposttoworkerthread">RxPostToWorkerThread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxworkq/nf-rxworkq-rxposttoworkerthread">RxPostToWorkerThread</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxworkq/nf-rxworkq-rxspindownmrxdispatcher">RxSpinDownMRxDispatcher</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxworkq/nf-rxworkq-rxspindownmrxdispatcher">RxSpinDownMRxDispatcher</a>
  
 
  

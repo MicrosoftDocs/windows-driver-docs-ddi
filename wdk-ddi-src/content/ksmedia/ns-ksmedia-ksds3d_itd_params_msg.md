@@ -63,7 +63,7 @@ Specifies whether to enable the ITD algorithm. A nonzero value enables the algor
 
 ### -field LeftParams
 
-Specifies the ITD parameters for the left channel (channel 0). This parameter is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksds3d_itd_params">KSDS3D_ITD_PARAMS</a>.
+Specifies the ITD parameters for the left channel (channel 0). This parameter is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksds3d_itd_params">KSDS3D_ITD_PARAMS</a>.
 
 
 ### -field RightParams
@@ -92,7 +92,7 @@ The <i>Enabled</i> parameter should track the DirectSound buffer's 3D mode: Disa
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksds3d_itd_params">KSDS3D_ITD_PARAMS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksds3d_itd_params">KSDS3D_ITD_PARAMS</a>
 
 
 

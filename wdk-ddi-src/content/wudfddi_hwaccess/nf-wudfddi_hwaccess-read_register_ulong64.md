@@ -60,7 +60,7 @@ The <b>READ_REGISTER_ULONG64</b> function reads a ULONG64 value from the specifi
 
 ### -param pDevice [in]
 
-Specifies a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface for the device object of the device to access.
+Specifies a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface for the device object of the device to access.
 
 
 ### -param Register [in]

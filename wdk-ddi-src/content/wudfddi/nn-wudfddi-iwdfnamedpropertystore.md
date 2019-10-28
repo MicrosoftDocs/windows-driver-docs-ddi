@@ -70,37 +70,37 @@ The <b>IWDFNamedPropertyStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnameat">IWDFNamedPropertyStore::GetNameAt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnameat">IWDFNamedPropertyStore::GetNameAt</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnameat">GetNameAt</a> method retrieves the name of a property.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnameat">GetNameAt</a> method retrieves the name of a property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnamecount">IWDFNamedPropertyStore::GetNameCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnamecount">IWDFNamedPropertyStore::GetNameCount</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnamecount">GetNameCount</a> method retrieves the number of properties in a property store.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnamecount">GetNameCount</a> method retrieves the number of properties in a property store.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnamedvalue">IWDFNamedPropertyStore::GetNamedValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnamedvalue">IWDFNamedPropertyStore::GetNamedValue</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnamedvalue">GetNamedValue</a> method retrieves the value of a property.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnamedvalue">GetNamedValue</a> method retrieves the value of a property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-setnamedvalue">IWDFNamedPropertyStore::SetNamedValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfnamedpropertystore-setnamedvalue">IWDFNamedPropertyStore::SetNamedValue</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-setnamedvalue">SetNamedValue</a> method sets the value of a property.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfnamedpropertystore-setnamedvalue">SetNamedValue</a> method sets the value of a property.
 
 </td>
 </tr>

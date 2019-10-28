@@ -52,7 +52,7 @@ The **IPrintOemPS::Command** method is used by rendering plug-ins for the Micros
 
 ### -param pdevobj
 
-Caller-supplied pointer to a [DEVOBJ](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj) structure.
+Caller-supplied pointer to a [DEVOBJ](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj) structure.
 
 ### -param dwIndex
 
@@ -461,7 +461,7 @@ Before the printer driver sends a <b>save</b> command. (See PSINJECT_VMRESTORE.)
 </tr>
 </table>
 
-The **IPrintOemPS::Command** method must call [IPrintOemDriverPS::DrvWriteSpoolBuf](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemdriverps-drvwritespoolbuf) to insert the PostScript commands.
+The **IPrintOemPS::Command** method must call [IPrintOemDriverPS::DrvWriteSpoolBuf](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemdriverps-drvwritespoolbuf) to insert the PostScript commands.
 
 If **IPrintOemPS::Command** methods are exported by multiple rendering plug-ins, the methods are called in the order that the plug-ins are specified for installation, every time that the printer driver reaches an injection point. The following rules apply:
 

@@ -75,7 +75,7 @@ A value that indicates the leading link in the chain of linked adapters. The val
 
 
 
-Prior to a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_link_device">DxgkDdiLinkDevice</a>, the display miniport driver should fill the LINKED_DEVICE structure with information about the linked adapter configuration.
+Prior to a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_link_device">DxgkDdiLinkDevice</a>, the display miniport driver should fill the LINKED_DEVICE structure with information about the linked adapter configuration.
 
 
 
@@ -85,7 +85,7 @@ Prior to a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_link_device">DxgkDdiLinkDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_link_device">DxgkDdiLinkDevice</a>
  
 
  

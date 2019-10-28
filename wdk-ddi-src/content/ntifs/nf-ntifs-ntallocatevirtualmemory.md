@@ -137,4 +137,4 @@ For calls from kernel-mode drivers, the **Nt**Xxx**** and **Zw**Xxx**** versions
 
 ## -see-also
 
-[**NtFreeVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntfreevirtualmemory)
+[**NtFreeVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntfreevirtualmemory)

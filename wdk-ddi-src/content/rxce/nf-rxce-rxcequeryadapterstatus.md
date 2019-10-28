@@ -136,11 +136,11 @@ The <i>pTransport</i> parameter passed to this routine was invalid.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxce/nf-rxce-rxcequeryinformation">RxCeQueryInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcequeryinformation">RxCeQueryInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxce/nf-rxce-rxcequerytransportinformation">RxCeQueryTransportInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxce/nf-rxce-rxcequerytransportinformation">RxCeQueryTransportInformation</a>
  
 
  

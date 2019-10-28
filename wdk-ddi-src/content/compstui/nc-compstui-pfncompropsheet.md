@@ -82,7 +82,7 @@ Caller-supplied value that depends on the <i>ComPropSheet</i> function code supp
 
 
 
-The return value depends on the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">ComPropSheet function code</a> supplied for <i>Function</i>.
+The return value depends on the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">ComPropSheet function code</a> supplied for <i>Function</i>.
 
 
 
@@ -91,22 +91,22 @@ The return value depends on the <a href="https://docs.microsoft.com/windows-hard
 
 
 
-When CPSUI calls one of an application's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a>-typed functions, it passes a pointer to the <i>ComPropSheet</i> function in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_propsheetui_info">PROPSHEETUI_INFO</a> structure. A <b>PFNPROPSHEETUI</b>-typed function can call the <i>ComPropSheet</i> function to describe property sheet pages to CPSUI.
+When CPSUI calls one of an application's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a>-typed functions, it passes a pointer to the <i>ComPropSheet</i> function in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_propsheetui_info">PROPSHEETUI_INFO</a> structure. A <b>PFNPROPSHEETUI</b>-typed function can call the <i>ComPropSheet</i> function to describe property sheet pages to CPSUI.
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-interface-dll">printer interface DLL</a> can call <i>ComPropSheet</i> from within its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a> function or its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdevicepropertysheets">DrvDevicePropertySheets</a> function.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-interface-dll">printer interface DLL</a> can call <i>ComPropSheet</i> from within its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a> function or its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicepropertysheets">DrvDevicePropertySheets</a> function.
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/user-interface-plug-ins">User interface plug-ins</a> for Microsoft's <a href="https://docs.microsoft.com/windows-hardware/drivers/">Unidrv</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/">Pscript</a> drivers can call <i>ComPropSheet</i> from within their <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets">IPrintOemUI::DocumentPropertySheets</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets">IPrintOemUI::DevicePropertySheets</a> methods.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/user-interface-plug-ins">User interface plug-ins</a> for Microsoft's <a href="https://docs.microsoft.com/windows-hardware/drivers/">Unidrv</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/">Pscript</a> drivers can call <i>ComPropSheet</i> from within their <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets">IPrintOemUI::DocumentPropertySheets</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets">IPrintOemUI::DevicePropertySheets</a> methods.
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/print/group-parent">group parent</a> handle specified for the <i>hComPropSheet</i> parameter can be either of the following:
 
 <ul>
 <li>
-The handle received in the <i>hComPropSheet</i> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_propsheetui_info">PROPSHEETUI_INFO</a> structure.
+The handle received in the <i>hComPropSheet</i> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_propsheetui_info">PROPSHEETUI_INFO</a> structure.
 
 </li>
 <li>
-The handle received as a result of previously calling <i>ComPropSheet</i> with a <a href="https://docs.microsoft.com/previous-versions/ff546414(v=vs.85)">CPSFUNC_INSERT_PSUIPAGE</a> function code, and specifying PSUIPAGEINSERT_GROUP_PARENT as the <b>Type</b> member for an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_insertpsuipage_info">INSERTPSUIPAGE_INFO</a> structure.
+The handle received as a result of previously calling <i>ComPropSheet</i> with a <a href="https://docs.microsoft.com/previous-versions/ff546414(v=vs.85)">CPSFUNC_INSERT_PSUIPAGE</a> function code, and specifying PSUIPAGEINSERT_GROUP_PARENT as the <b>Type</b> member for an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_insertpsuipage_info">INSERTPSUIPAGE_INFO</a> structure.
 
 </li>
 </ul>

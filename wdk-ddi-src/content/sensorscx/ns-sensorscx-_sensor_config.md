@@ -63,7 +63,7 @@ The allocated size of this structure (in bytes).
 
 ### -field pEnumerationList
 
-The list of enumerations. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
+The list of enumerations. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
 
 ## -remarks
@@ -74,7 +74,7 @@ The SENSOR_CONFIG structure works with the following helper function:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/nf-sensorscx-sensor_config_init">SENSOR_CONFIG_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/nf-sensorscx-sensor_config_init">SENSOR_CONFIG_INIT</a>
 </li>
 </ul>
 

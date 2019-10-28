@@ -58,7 +58,7 @@ The <b>SERCX2_CUSTOM_RECEIVE_CONFIG</b> structure contains information that vers
 
 ### -field Size
 
-The size, in bytes, of this structure. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2customreceivecreate">SerCx2CustomReceiveCreate</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
+The size, in bytes, of this structure. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivecreate">SerCx2CustomReceiveCreate</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
 
 
 ### -field Alignment
@@ -78,7 +78,7 @@ The maximum length, in bytes, of a data transfer in a custom-receive transaction
 
 ### -field MinimumTransferUnit
 
-The minimum transfer unit. The number of bytes specified by an element in a scatter/gather list must be an integer multiple of the minimum transfer unit. To indicate that the default minimum transfer unit should be used, set this member to zero. For more information about the default minimum transfer unit, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_adapter_info_v1">DMA_ADAPTER_INFO_V1</a>.
+The minimum transfer unit. The number of bytes specified by an element in a scatter/gather list must be an integer multiple of the minimum transfer unit. To indicate that the default minimum transfer unit should be used, set this member to zero. For more information about the default minimum transfer unit, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter_info_v1">DMA_ADAPTER_INFO_V1</a>.
 
 
 ### -field Exclusive
@@ -96,7 +96,7 @@ Regardless of the value of this member, PIO-receive transactions are used to sav
 
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2customreceivecreate">SerCx2CustomReceiveCreate</a> method accepts a pointer to a <b>SERCX2_CUSTOM_RECEIVE_CONFIG</b> structure as an input parameter. Before calling <b>SerCx2CustomReceiveCreate</b>, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2_custom_receive_config_init">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a> function to initialize this structure.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivecreate">SerCx2CustomReceiveCreate</a> method accepts a pointer to a <b>SERCX2_CUSTOM_RECEIVE_CONFIG</b> structure as an input parameter. Before calling <b>SerCx2CustomReceiveCreate</b>, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2_custom_receive_config_init">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a> function to initialize this structure.
 
 
 
@@ -106,7 +106,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ser
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_adapter_info_v1">DMA_ADAPTER_INFO_V1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter_info_v1">DMA_ADAPTER_INFO_V1</a>
 
 
 
@@ -114,11 +114,11 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ser
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2_custom_receive_config_init">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2_custom_receive_config_init">SERCX2_CUSTOM_RECEIVE_CONFIG_INIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2customreceivecreate">SerCx2CustomReceiveCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivecreate">SerCx2CustomReceiveCreate</a>
  
 
  

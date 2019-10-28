@@ -58,7 +58,7 @@ The DXVADDI_VIDEOPROCESSORCAPS structure describes the video processing capabili
 
 ### -field InputPool
 
-[out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddi_pool">D3DDDI_POOL</a>-typed value that indicates the memory pool from which the interlaced source surfaces should be allocated. 
+[out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_pool">D3DDDI_POOL</a>-typed value that indicates the memory pool from which the interlaced source surfaces should be allocated. 
 
 
 ### -field NumForwardRefSamples
@@ -73,7 +73,7 @@ The DXVADDI_VIDEOPROCESSORCAPS structure describes the video processing capabili
 
 ### -field OutputFormat
 
-[out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the uncompressed output frames. Typically, a deinterlace algorithm outputs frames in a pixel format that matches the input sample format. This member ensures that the Video Mixing Renderer (VMR) or other video renderer is able to supply the correct output frame surfaces to the deinterlacing hardware.
+[out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the uncompressed output frames. Typically, a deinterlace algorithm outputs frames in a pixel format that matches the input sample format. This member ensures that the Video Mixing Renderer (VMR) or other video renderer is able to supply the correct output frame surfaces to the deinterlacing hardware.
 
 Note that if the DXVADDI_VIDEOPROCESS_YUV2RGB value is returned in the <b>VideoProcessorOperations</b> member, the VMR determines that valid output formats are specified by this member as well as an D3DFMT_X8R8G8B8 format.
 
@@ -113,7 +113,7 @@ Note that if the DXVADDI_VIDEOPROCESS_YUV2RGB value is returned in the <b>VideoP
 
 ### -field VideoProcessorOperations
 
-[out] A bitwise OR of the following values to indicate which additional video processing operations the hardware can perform concurrently with the requested <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_videoprocessblt">VideoProcessBlt</a> operation.
+[out] A bitwise OR of the following values to indicate which additional video processing operations the hardware can perform concurrently with the requested <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_videoprocessblt">VideoProcessBlt</a> operation.
 
 | **Value** | **Meaning** | 
 |:--|:--|
@@ -126,8 +126,8 @@ Note that if the DXVADDI_VIDEOPROCESS_YUV2RGB value is returned in the <b>VideoP
 | DXVADDI_VIDEOPROCESS_SUBSTREAMS | The video processing device can combine video substreams with the video stream. | 
 | DXVADDI_VIDEOPROCESS_SUBSTREAMSEXTENDED | Necessary color adjustments can be made to the source video streams and substreams. These adjustments are indicated in the extended color data, as the video is deinterlaced, composited with the substreams, and written to the destination surface. | 
 | DXVADDI_VIDEOPROCESS_YUV2RGBEXTENDED | A color-space-conversion operation can be performed as the deinterlaced and composited pixels are written to the destination surface by using the extended color information that is specified for the source and destination surfaces. | 
-| DXVADDI_VIDEOPROCESS_ALPHABLENDEXTENDED | An alpha-blend operation can be performed with the destination surface when the deinterlaced and composited pixels are written to the destination surface. The driver must handle background color based on the alpha value of the Alpha member of the [D3DDDIARG_VIDEOPROCESSBLT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_videoprocessblt) structure. When the alpha value is 1.0, the background color is drawn opaque (without transparency). When the alpha value is 0.0, the background should not be drawn (transparent). | 
-| DXVADDI_VIDEOPROCESS_CONSTRICTION | The video processing device can temporarily reduce the output frame to a size that the ConstrictionSize member of the [D3DDDIARG_VIDEOPROCESSBLT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_videoprocessblt) structure specifies. | 
+| DXVADDI_VIDEOPROCESS_ALPHABLENDEXTENDED | An alpha-blend operation can be performed with the destination surface when the deinterlaced and composited pixels are written to the destination surface. The driver must handle background color based on the alpha value of the Alpha member of the [D3DDDIARG_VIDEOPROCESSBLT](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_videoprocessblt) structure. When the alpha value is 1.0, the background color is drawn opaque (without transparency). When the alpha value is 0.0, the background should not be drawn (transparent). | 
+| DXVADDI_VIDEOPROCESS_CONSTRICTION | The video processing device can temporarily reduce the output frame to a size that the ConstrictionSize member of the [D3DDDIARG_VIDEOPROCESSBLT](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_videoprocessblt) structure specifies. | 
 | DXVADDI_VIDEOPROCESS_NOISEFILTER | The video processing device can perform noise filtering operations on the video stream. | 
 | DXVADDI_VIDEOPROCESS_DETAILFILTER | The video processing device can perform detail filtering operations on the video stream. | 
 | DXVADDI_VIDEOPROCESS_PLANARALPHA | The video processing device can apply a constant alpha blend to the entire video stream (plane) while it mixes the video stream and substreams together. The Alpha member of D3DDDIARG_VIDEOPROCESSBLT specifies the alpha value. | 
@@ -170,31 +170,31 @@ Note that if the DXVADDI_VIDEOPROCESS_YUV2RGB value is returned in the <b>VideoP
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps">D3DDDIARG_GETCAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_videoprocessblt">D3DDDIARG_VIDEOPROCESSBLT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_videoprocessblt">D3DDDIARG_VIDEOPROCESSBLT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ne-d3dumddi-_d3dddicaps_type">D3DDDICAPS_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-_d3dddicaps_type">D3DDDICAPS_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddi_pool">D3DDDI_POOL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddi_pool">D3DDDI_POOL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_videoprocessorinput">DXVADDI_VIDEOPROCESSORINPUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videoprocessorinput">DXVADDI_VIDEOPROCESSORINPUT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
  
 
  

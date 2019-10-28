@@ -66,7 +66,7 @@ The D3DKMT_CHECKOCCLUSION structure contains the handle to the window to check f
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcheckocclusion">D3DKMTCheckOcclusion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtcheckocclusion">D3DKMTCheckOcclusion</a>
  
 
  

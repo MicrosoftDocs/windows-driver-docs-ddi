@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-A <i>WorkItem</i> routine performs the processing for a work item that was queued by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a> routine.
+A <i>WorkItem</i> routine performs the processing for a work item that was queued by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a> routine.
 
 
 ## -parameters
@@ -58,12 +58,12 @@ A <i>WorkItem</i> routine performs the processing for a work item that was queue
 
 ### -param DeviceObject [in]
 
-Pointer to one of the caller's device objects. This is the pointer that was passed as the <i>DeviceObject</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a> when the work item was allocated, or as the <i>IoObject</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioinitializeworkitem">IoInitializeWorkItem</a> when the work item was initialized.
+Pointer to one of the caller's device objects. This is the pointer that was passed as the <i>DeviceObject</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a> when the work item was allocated, or as the <i>IoObject</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializeworkitem">IoInitializeWorkItem</a> when the work item was initialized.
 
 
 ### -param Context [in, optional]
 
-Specifies driver-specific context information. This is the value that was passed as the <i>Context</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a> when the work item was queued.
+Specifies driver-specific context information. This is the value that was passed as the <i>Context</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a> when the work item was queued.
 
 
 ## -returns
@@ -79,7 +79,7 @@ None
 
 
 
-The driver queues a <i>WorkItem</i> routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>, and a system worker thread subsequently executes the routine. A <i>WorkItem</i> routine must run for a limited amount of time; otherwise, the system can deadlock. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-worker-threads">System Worker Threads</a>.
+The driver queues a <i>WorkItem</i> routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>, and a system worker thread subsequently executes the routine. A <i>WorkItem</i> routine must run for a limited amount of time; otherwise, the system can deadlock. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-worker-threads">System Worker Threads</a>.
 
 A <i>WorkItem</i> routine runs at IRQL = PASSIVE_LEVEL and in a system thread context.
 
@@ -135,7 +135,7 @@ The IO_WORKITEM_ROUTINE function type is defined in the Wdm.h header file. To mo
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
  
 
  

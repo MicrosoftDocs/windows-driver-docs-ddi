@@ -48,7 +48,7 @@ req.typenames: PRI_RESERVATION_DESCRIPTOR, *PPRI_RESERVATION_DESCRIPTOR
 ## -description
 
 
-The PRI_RESERVATION_DESCRIPTOR structure is used to construct the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/ns-minitape-pri_reservation_list">PRI_RESERVATION_LIST</a> structure that is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS.
+The PRI_RESERVATION_DESCRIPTOR structure is used to construct the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-pri_reservation_list">PRI_RESERVATION_LIST</a> structure that is returned in response to a Persistent Reserve In command with ServiceAction = RESERVATION_ACTION_READ_RESERVATIONS.
 
 
 ## -struct-fields
@@ -90,7 +90,7 @@ Reserved. Must be zero.
 
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a> request is used to obtain information about persistent reservations and reservation keys that are active within a device server.
 
 
 
@@ -100,11 +100,11 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntd
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_persistent_reserve_in">IOCTL_STORAGE_PERSISTENT_RESERVE_IN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/ns-minitape-pri_reservation_list">PRI_RESERVATION_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-pri_reservation_list">PRI_RESERVATION_LIST</a>
  
 
  

@@ -92,7 +92,7 @@ The provider-defined data. This parameter is optional. The provider determines t
 
 ### -param CallbackContext [in, out, optional]
 
-The context of the callback function that is defined when the provider called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-etwregister">EtwRegister</a> to register itself. This parameter is optional.
+The context of the callback function that is defined when the provider called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a> to register itself. This parameter is optional.
 
 
 #### - IsEnabled [in]
@@ -135,15 +135,15 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-etwregister">EtwRegister</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwregister">EtwRegister</a>
 
 
 

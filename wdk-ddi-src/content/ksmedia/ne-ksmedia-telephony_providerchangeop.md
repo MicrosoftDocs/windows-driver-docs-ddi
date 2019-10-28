@@ -80,7 +80,7 @@ Specifies that single-radio voice call continuity (SRVCC) is being canceled, and
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-telephony_callstate">TELEPHONY_CALLSTATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-telephony_callstate">TELEPHONY_CALLSTATE</a>
  
 
  

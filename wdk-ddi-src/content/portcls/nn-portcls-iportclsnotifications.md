@@ -75,7 +75,7 @@ The <b>IPortClsNotifications</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclsnotifications-allocnotificationbuffer">IPortClsNotifications::AllocNotificationBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsnotifications-allocnotificationbuffer">IPortClsNotifications::AllocNotificationBuffer</a>
 </td>
 <td align="left" width="63%">
 Allocates a buffer of the specified size, in the specified memory pool, for use in sending notifications, to allow for communications between audio modules and UWP apps. 
@@ -84,7 +84,7 @@ Allocates a buffer of the specified size, in the specified memory pool, for use 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclsnotifications-freenotificationbuffer">IPortClsNotifications::FreeNotificationBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsnotifications-freenotificationbuffer">IPortClsNotifications::FreeNotificationBuffer</a>
 </td>
 <td align="left" width="63%">
 Frees a previously allocated IPortClsNotifications buffer. The buffer is used in sending notifications, to allow for communications between audio modules and UWP apps. 
@@ -93,7 +93,7 @@ Frees a previously allocated IPortClsNotifications buffer. The buffer is used in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclsnotifications-sendnotification">IPortClsNotifications::SendNotification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsnotifications-sendnotification">IPortClsNotifications::SendNotification</a>
 </td>
 <td align="left" width="63%">
 Sends a notification to the listening UWP apps, to allow for communications between audio modules and UWP apps. 

@@ -65,7 +65,7 @@ This property is read/write.
 The <b>Context</b> property is parameterized with the 
 <b>BSTR </b><i>Tag </i>parameter. This parameterization 
 enables you to attach many different named values to an instance of the 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface. 
 You can then retrieve these same values by name at a later time. 
 
 Each value is stored as a <b>VARIANT</b>, which correctly 
@@ -83,7 +83,7 @@ see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/creating-w
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
  
 
  

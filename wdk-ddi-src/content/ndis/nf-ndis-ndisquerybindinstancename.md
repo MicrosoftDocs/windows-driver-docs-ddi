@@ -73,7 +73,7 @@ A pointer to a caller-supplied NDIS_STRING type that receives a counted Unicode 
 A handle that identifies the NDIS context area for the bind operation. NDIS passed this handle to
      the 
      <i>BindContext</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">
      ProtocolBindAdapterEx</a> function.
 
 
@@ -96,7 +96,7 @@ A protocol driver uses
     <b>NdisQueryBindInstanceName</b> to retrieve the friendly name of a physical NIC or a virtual adapter to
     which the protocol driver will be bound. The protocol driver specifies the binding context that NDIS
     provided in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">
     ProtocolBindAdapterEx</a> function.
 
 Protocol drivers can use 
@@ -104,7 +104,7 @@ Protocol drivers can use
 
 <b>NdisQueryBindInstanceName</b> allocates memory for the string that specifies the friendly name. After
     the caller finishes using this memory, the caller must call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreememory">NdisFreeMemory</a> function to release the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreememory">NdisFreeMemory</a> function to release the
     memory.
 
 Friendly names are intended to help the user quickly and accurately identify a physical NIC or virtual
@@ -119,11 +119,11 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreememory">NdisFreeMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreememory">NdisFreeMemory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
 
 
 

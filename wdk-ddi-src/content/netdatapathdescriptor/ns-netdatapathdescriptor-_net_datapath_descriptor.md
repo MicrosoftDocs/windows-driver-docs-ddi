@@ -58,7 +58,7 @@ Call [NetRxQueueGetDatapathDescriptor](../netrxqueue/nf-netrxqueue-netrxqueueget
 - [NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER](nf-netdatapathdescriptor-net_datapath_descriptor_get_fragment_ring_buffer.md)
 - [NET_PACKET_GET_FRAGMENT](nf-netdatapathdescriptor-net_packet_get_fragment.md)
 
-The datapath descriptor is also used in other ring buffer manipulation methods defined in [Netadapterpacket.h](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netadapterpacket/):
+The datapath descriptor is also used in other ring buffer manipulation methods defined in [Netadapterpacket.h](https://docs.microsoft.com/windows-hardware/drivers/ddi/netadapterpacket/):
 
 - [NetRingBufferGetPacketAtIndex](../netadapterpacket/nf-netadapterpacket-netringbuffergetpacketatindex.md)
 - [NetRingBufferGetNextPacket](../netadapterpacket/nf-netadapterpacket-netringbuffergetnextpacket.md)

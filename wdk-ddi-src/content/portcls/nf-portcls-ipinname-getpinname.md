@@ -118,7 +118,7 @@ KSNODETYPE_LOW_FREQUENCY_EFFECTS_SPEAKER
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-ipinname">IPinName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-ipinname">IPinName</a>
 
 
 

@@ -163,7 +163,7 @@ Size, in bytes, of the byte array specified by <i>pData</i>.
 
 
 
-The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Error Handling</a>.
+The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Error Handling</a>.
 
 <table>
 <tr>
@@ -245,7 +245,7 @@ If an application calls <b>SetInputData</b> more than once, only the value of th
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">Bidirectional Communication Interfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
 
 
@@ -253,7 +253,7 @@ If an application calls <b>SetInputData</b> more than once, only the value of th
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
  
 
  

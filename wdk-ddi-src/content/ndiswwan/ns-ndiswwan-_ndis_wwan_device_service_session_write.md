@@ -104,7 +104,7 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_SESSION_WRITE)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field WriteData
@@ -117,7 +117,7 @@ The data to be sent to the MB device.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_device_service_session_write">WWAN_DEVICE_SERVICE_SESSION_WRITE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_service_session_write">WWAN_DEVICE_SERVICE_SESSION_WRITE</a>
  
 
  

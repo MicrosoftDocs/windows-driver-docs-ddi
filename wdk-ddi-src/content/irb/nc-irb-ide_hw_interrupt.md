@@ -90,7 +90,7 @@ Disable interrupts on the channel that is indicated by the <i>ChannelExtension</
 
 </li>
 <li>
-Request a worker routine by using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportrequestworkerroutine">AtaPortRequestWorkerRoutine</a>. 
+Request a worker routine by using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportrequestworkerroutine">AtaPortRequestWorkerRoutine</a>. 
 
 </li>
 <li>
@@ -107,13 +107,13 @@ The following ATA port routines must not be called from the <b><i>IdeHwInterrupt
 <ul>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportcompleteallactiverequests">AtaPortCompleteAllActiveRequests</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportcompleteallactiverequests">AtaPortCompleteAllActiveRequests</a>
 
 
 </li>
 <li>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportdevicebusy">AtaPortDeviceBusy</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportdevicebusy">AtaPortDeviceBusy</a>
 
 
 </li>
@@ -130,15 +130,15 @@ The worker routine must clear the interrupt on the HBA before it returns <b>TRUE
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportcompleteallactiverequests">AtaPortCompleteAllActiveRequests</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportcompleteallactiverequests">AtaPortCompleteAllActiveRequests</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportdevicebusy">AtaPortDeviceBusy</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportdevicebusy">AtaPortDeviceBusy</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportrequestworkerroutine">AtaPortRequestWorkerRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportrequestworkerroutine">AtaPortRequestWorkerRoutine</a>
  
 
  

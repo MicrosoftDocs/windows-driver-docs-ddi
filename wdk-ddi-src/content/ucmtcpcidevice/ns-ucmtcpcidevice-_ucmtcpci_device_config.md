@@ -49,8 +49,8 @@ req.typenames: UCMTCPCI_DEVICE_CONFIG, *PUCMTCPCI_DEVICE_CONFIG
 
 
 
-                 Used in the client driver's call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpcidevice/nf-ucmtcpcidevice-ucmtcpcideviceinitialize">UcmTcpciDeviceInitialize</a>. 
-             Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpcidevice/nf-ucmtcpcidevice-ucmtcpci_device_config_init">UCMTCPCI_DEVICE_CONFIG_INIT</a> to initialize this structure.
+                 Used in the client driver's call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpcidevice/nf-ucmtcpcidevice-ucmtcpcideviceinitialize">UcmTcpciDeviceInitialize</a>. 
+             Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpcidevice/nf-ucmtcpcidevice-ucmtcpci_device_config_init">UCMTCPCI_DEVICE_CONFIG_INIT</a> to initialize this structure.
              
 
 
@@ -70,7 +70,7 @@ Size of this structure.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpcidevice/nf-ucmtcpcidevice-ucmtcpcideviceinitialize">UcmTcpciDeviceInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpcidevice/nf-ucmtcpcidevice-ucmtcpcideviceinitialize">UcmTcpciDeviceInitialize</a>
  
 
  

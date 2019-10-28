@@ -70,7 +70,7 @@ If the number supplied by the client is equal to <i>EpicNumber</i>, the mount ma
 
 ### -input-buffer
 
-The mount manager client initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ns-mountmgr-_mountmgr_change_notify_info">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The mount manager client initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_change_notify_info">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -input-buffer-length
@@ -80,7 +80,7 @@ The mount manager client initializes the <a href="https://docs.microsoft.com/win
 
 ### -output-buffer
 
-The mount manager returns the current <i>EpicNumber</i> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ns-mountmgr-_mountmgr_change_notify_info">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The mount manager returns the current <i>EpicNumber</i> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_change_notify_info">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -122,7 +122,7 @@ If <b>InputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_CHANGE_NOTIFY_IN
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ns-mountmgr-_mountmgr_change_notify_info">MOUNTMGR_CHANGE_NOTIFY_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_change_notify_info">MOUNTMGR_CHANGE_NOTIFY_INFO</a>
  
 
  

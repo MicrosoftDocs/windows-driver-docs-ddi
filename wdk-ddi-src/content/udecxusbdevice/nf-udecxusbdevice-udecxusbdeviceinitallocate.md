@@ -59,7 +59,7 @@ Allocates memory for a  <b>UDECXUSBDEVICE_INIT</b> structure that is used to ini
 
 ### -param UdecxWdfDevice [in]
 
-A handle to a framework device object that represents the a USB device. The client driver initialized this object in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
+A handle to a framework device object that represents the a USB device. The client driver initialized this object in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
 
 ## -returns
@@ -75,7 +75,7 @@ This method returns a pointer to an opaque <b>UDECXUSBDEVICE_INIT</b> that conta
 
 
 
-The UDE client driver calls this method to allocate parameters for the virtual device that is created by a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicecreate">UdecxUsbDeviceCreate</a>. If the device is not created or the driver is finished using the resources, the driver must free the resources by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitfree">UdecxUsbDeviceInitFree</a>.
+The UDE client driver calls this method to allocate parameters for the virtual device that is created by a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicecreate">UdecxUsbDeviceCreate</a>. If the device is not created or the driver is finished using the resources, the driver must free the resources by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitfree">UdecxUsbDeviceInitFree</a>.
 
 
 

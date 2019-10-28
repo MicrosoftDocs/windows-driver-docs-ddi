@@ -62,7 +62,7 @@ The
 
 A handle that identifies the network interface provider that is registering the interface. The
      caller obtained this handle from a previous call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifregisterprovider">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">
      NdisIfRegisterProvider</a> function.
 
 
@@ -87,7 +87,7 @@ A handle to a caller-allocated context area that is associated with the interfac
 ### -param pIfInfo [in]
 
 A pointer to a caller-allocated 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_if_information">NET_IF_INFORMATION</a> structure that
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_if_information">NET_IF_INFORMATION</a> structure that
      provides information about the interface. This structure contains information that remains constant
      while the interface exists.
 
@@ -181,7 +181,7 @@ Whenever a computer restarts, NDIS starts with an empty list of registered netwo
 The method for detecting or starting an interface is application dependent. For example, if an LBFO
     MUX intermediate driver is an interface provider, that driver might register an internal interface when
     NDIS calls the driver's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function
     for the first underlying miniport adapter.
 
 An interface provider can put information about an interface in persistent storage and restore the
@@ -204,7 +204,7 @@ NDIS might not return the same interface index every time a provider registers a
 
 To indicate that an interface should be removed from the list of known interfaces on the computer, an
     interface provider calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifderegisterinterface">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifderegisterinterface">
     NdisIfDeregisterInterface</a> function, for example, because the interface has been uninstalled. .
 
 
@@ -219,7 +219,7 @@ To indicate that an interface should be removed from the list of known interface
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_if_information">NET_IF_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_if_information">NET_IF_INFORMATION</a>
 
 
 
@@ -227,15 +227,15 @@ To indicate that an interface should be removed from the list of known interface
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifderegisterinterface">NdisIfDeregisterInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifderegisterinterface">NdisIfDeregisterInterface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifregisterprovider">NdisIfRegisterProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterprovider">NdisIfRegisterProvider</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
  
 
  

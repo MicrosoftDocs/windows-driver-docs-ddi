@@ -58,7 +58,7 @@ This <b>IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</b> request is sent to retrieve th
 
 ### -input-buffer
 
-The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_enumerate_bands_parameters">ENUMERATE_BANDS_PARAMETERS</a> structure. 
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_enumerate_bands_parameters">ENUMERATE_BANDS_PARAMETERS</a> structure. 
 
 
 ### -input-buffer-length
@@ -68,12 +68,12 @@ The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain an <a href="ht
 
 ### -output-buffer
 
-The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_table">BAND_TABLE</a> structure followed by <b>BandTableEntryCount</b> band entries.
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_table">BAND_TABLE</a> structure followed by <b>BandTableEntryCount</b> band entries.
 
 
 ### -output-buffer-length
 
-The length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_table">BAND_TABLE</a> structure followed by <b>BandTableEntryCount</b> band entries.
+The length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_table">BAND_TABLE</a> structure followed by <b>BandTableEntryCount</b> band entries.
 
 
 ### -in-out-buffer
@@ -153,7 +153,7 @@ A driver or application can query for the necessary output buffer size by settin
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_table">BAND_TABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_table">BAND_TABLE</a>
 
 
 

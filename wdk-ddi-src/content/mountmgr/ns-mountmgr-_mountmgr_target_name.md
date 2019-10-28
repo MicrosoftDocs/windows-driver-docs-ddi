@@ -48,7 +48,7 @@ req.typenames: MOUNTMGR_TARGET_NAME, *PMOUNTMGR_TARGET_NAME
 ## -description
 
 
-The MOUNTMGR_TARGET_NAME structure contains the nonpersistent target device name for a device and is used by mount manager clients with the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ni-mountmgr-ioctl_mountmgr_keep_links_when_offline">IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE</a> request to tell the mount manager to keep the symbolic link for a device active even after the device has gone offline. 
+The MOUNTMGR_TARGET_NAME structure contains the nonpersistent target device name for a device and is used by mount manager clients with the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_keep_links_when_offline">IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE</a> request to tell the mount manager to keep the symbolic link for a device active even after the device has gone offline. 
 
 
 ## -struct-fields
@@ -80,7 +80,7 @@ Nonpersistent target names must contain the full path of a target object name in
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ni-mountmgr-ioctl_mountmgr_keep_links_when_offline">IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_keep_links_when_offline">IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE</a>
  
 
  

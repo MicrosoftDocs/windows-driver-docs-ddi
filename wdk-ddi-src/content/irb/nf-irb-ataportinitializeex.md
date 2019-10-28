@@ -104,11 +104,11 @@ While starting the adapter device, the miniport driver routine <b><i>AtaAdapterC
 
 </li>
 <li>
-When the ATA port driver is processing a channel device start request, the miniport driver routine <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a> is called for each channel on the controller to determine whether it is enabled.
+When the ATA port driver is processing a channel device start request, the miniport driver routine <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a> is called for each channel on the controller to determine whether it is enabled.
 
 </li>
 <li>
-After the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a> routine determines which channels are enabled, the ATA port driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_channel_init">AtaChannelInitRoutine</a> for this channel. 
+After the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a> routine determines which channels are enabled, the ATA port driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_init">AtaChannelInitRoutine</a> for this channel. 
 
 </li>
 </ol>
@@ -120,11 +120,11 @@ After the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/conte
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_channel_init">AtaChannelInitRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_init">AtaChannelInitRoutine</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a>
 
 
 
@@ -132,7 +132,7 @@ After the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/conte
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_controller_configuration">IDE_CONTROLLER_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_controller_configuration">IDE_CONTROLLER_CONFIGURATION</a>
  
 
  

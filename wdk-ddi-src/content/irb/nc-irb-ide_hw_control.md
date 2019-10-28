@@ -63,7 +63,7 @@ A pointer to the channel extension.
 
 ### -param ControlAction [in]
 
-Contains an enumerator value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ne-irb-ide_control_action">IDE_CONTROL_ACTION</a> that indicates the control action to perform. 
+Contains an enumerator value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ne-irb-ide_control_action">IDE_CONTROL_ACTION</a> that indicates the control action to perform. 
 
 
 ### -param Parameters [in, out]
@@ -153,7 +153,7 @@ After vendor-defined power management is registered, the miniport driver will be
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportgetuncachedextension">AtaPortGetUncachedExtension</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportgetuncachedextension">AtaPortGetUncachedExtension</a>
  
 
  

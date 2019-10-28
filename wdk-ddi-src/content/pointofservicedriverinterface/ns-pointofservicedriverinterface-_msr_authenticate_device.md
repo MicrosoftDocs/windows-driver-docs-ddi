@@ -76,7 +76,7 @@ The session ID. This is primarily used to identify each transaction so that you 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_msr_authenticate_device">IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_msr_authenticate_device">IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE</a>
  
 
  

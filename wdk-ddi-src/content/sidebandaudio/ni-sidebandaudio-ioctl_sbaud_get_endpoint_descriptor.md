@@ -47,7 +47,7 @@ The audio driver issues the <b>IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR</b> control c
 
 ### -input-buffer
 
-A 0 based index value based on the number of Audio endpoints as reported by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_device_descriptor">IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR</a>.
+A 0 based index value based on the number of Audio endpoints as reported by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_device_descriptor">IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR</a>.
 This is a ULONG value from 0 to (N-1) where N is the number of Endpoints for the device.
 
 ### -input-buffer-length 
@@ -56,7 +56,7 @@ Size of ULONG.
 
 ### -output-buffer
 
-A buffer containing a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_descriptor">SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</a> structure followed by any other data referenced by the structure. This is returned, if the output buffer size is sufficient and the request succeeds. In particular, the buffer includes storage for the string referenced by the <i>FriendlyName</i> field of the <b>SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</b> structure.
+A buffer containing a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_descriptor">SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</a> structure followed by any other data referenced by the structure. This is returned, if the output buffer size is sufficient and the request succeeds. In particular, the buffer includes storage for the string referenced by the <i>FriendlyName</i> field of the <b>SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</b> structure.
 
 ### -output-buffer-length 
 
@@ -86,4 +86,4 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_descriptor">SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_endpoint_descriptor">SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR</a>

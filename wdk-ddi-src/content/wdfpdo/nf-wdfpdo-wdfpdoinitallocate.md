@@ -85,11 +85,11 @@ Calling <b>WdfPdoInitAllocate</b> to allocate a <a href="https://docs.microsoft.
 
 </li>
 <li>
-Calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/">framework device object initialization methods</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/">framework PDO initialization methods</a>, as needed, to initialize the WDFDEVICE_INIT structure. If a call to one of these methods fails, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitfree">WdfDeviceInitFree</a>. 
+Calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/">framework device object initialization methods</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/">framework PDO initialization methods</a>, as needed, to initialize the WDFDEVICE_INIT structure. If a call to one of these methods fails, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitfree">WdfDeviceInitFree</a>. 
 
 </li>
 <li>
-Calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> to create a framework device object, supplying the initialized WDFDEVICE_INIT structure as input.
+Calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> to create a framework device object, supplying the initialized WDFDEVICE_INIT structure as input.
 
 </li>
 </ol>
@@ -98,7 +98,7 @@ For more information about static enumeration, see <a href="https://docs.microso
 
 #### Examples
 
-For a code example that uses <b>WdfPdoInitAllocate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nf-wdffdo-wdffdoaddstaticchild">WdfFdoAddStaticChild</a>.
+For a code example that uses <b>WdfPdoInitAllocate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoaddstaticchild">WdfFdoAddStaticChild</a>.
 
 <div class="code"></div>
 
@@ -109,7 +109,7 @@ For a code example that uses <b>WdfPdoInitAllocate</b>, see <a href="https://doc
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>
  
 
  

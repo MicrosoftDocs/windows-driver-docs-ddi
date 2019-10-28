@@ -62,7 +62,7 @@ The <b>IDebugFAEntryTags</b>
  interface is not a COM interface;removremoproc that is, it does not inherit from <b>IUnknown</b>
 
 To get an <b>IDebugFAEntryTags</b> interface,
-  call the <b>GetDebugFATagControl</b> method of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a> 
+  call the <b>GetDebugFATagControl</b> method of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a> 
   interface.
 
 
@@ -75,72 +75,72 @@ To get an <b>IDebugFAEntryTags</b> interface,
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-getproperties">GetProperties method</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-getproperties">GetProperties method</a>
 
 
 </td>
 <td>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-getproperties">GetProperties</a> method gets the name or description (or both) of a tag in a DebugFailureAnalysisTags object.
-
-</td>
-</tr>
-<tr>
-<td>
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-gettagbyname">GetTagByName method</a>
-
-
-</td>
-<td>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-gettagbyname">GetTagByName</a> method searches for a tag that has a specified name.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-getproperties">GetProperties</a> method gets the name or description (or both) of a tag in a DebugFailureAnalysisTags object.
 
 </td>
 </tr>
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-gettype">GetType method</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-gettagbyname">GetTagByName method</a>
 
 
 </td>
 <td>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-gettype">GetType</a> method gets the data type that is associated with a tag in a DebugFailureAnalysisTags object.
-
-</td>
-</tr>
-<tr>
-<td>
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-isvalidtagtoset">IsValidTagToSet method</a>
-
-
-</td>
-<td>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-isvalidtagtoset">IsValidTagToSet</a> method determines whether it is OK to set the data of a specified tag.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-gettagbyname">GetTagByName</a> method searches for a tag that has a specified name.
 
 </td>
 </tr>
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-setproperties">SetProperties method</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-gettype">GetType method</a>
 
 
 </td>
 <td>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-setproperties">SetProperties</a> method sets the name or description (or both) of a tag in a DebugFailureAnalysisTags object. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-gettype">GetType</a> method gets the data type that is associated with a tag in a DebugFailureAnalysisTags object.
 
 </td>
 </tr>
 <tr>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-settype">SetType method</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-isvalidtagtoset">IsValidTagToSet method</a>
 
 
 </td>
 <td>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-settype">SetType</a> method sets the data type that is associated with a tag in a DebugFailureAnalysisTags object.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-isvalidtagtoset">IsValidTagToSet</a> method determines whether it is OK to set the data of a specified tag.
+
+</td>
+</tr>
+<tr>
+<td>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-setproperties">SetProperties method</a>
+
+
+</td>
+<td>
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-setproperties">SetProperties</a> method sets the name or description (or both) of a tag in a DebugFailureAnalysisTags object. 
+
+</td>
+</tr>
+<tr>
+<td>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-settype">SetType method</a>
+
+
+</td>
+<td>
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-settype">SetType</a> method sets the data type that is associated with a tag in a DebugFailureAnalysisTags object.
 
 </td>
 </tr>

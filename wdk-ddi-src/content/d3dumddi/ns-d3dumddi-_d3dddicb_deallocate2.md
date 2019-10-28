@@ -48,7 +48,7 @@ req.typenames: D3DDDICB_DEALLOCATE2
 ## -description
 
 
-The <b>D3DDDICB_DEALLOCATE2</b> structure describes parameters for releasing allocations with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_deallocate2cb">pfnDeallocate2Cb</a>
+The <b>D3DDDICB_DEALLOCATE2</b> structure describes parameters for releasing allocations with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_deallocate2cb">pfnDeallocate2Cb</a>
 
 
 
@@ -69,14 +69,14 @@ The <b>D3DDDICB_DEALLOCATE2</b> structure describes parameters for releasing all
 
 ### -field HandleList
 
-[in] An array of <b>D3DKMT_HANDLE</b> data types that represent kernel-mode handles to the allocations. The Direct3D runtime's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to release the allocations.
+[in] An array of <b>D3DKMT_HANDLE</b> data types that represent kernel-mode handles to the allocations. The Direct3D runtime's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb">pfnAllocateCb</a> function returns these handles. Therefore, the user-mode display driver uses these handles to release the allocations.
 
 If the user-mode display driver sets the handle in the <b>hResource</b> member to non-<b>NULL</b>, <b>HandleList</b> is ignored by the Direct3D runtime. 
 
 
 ### -field Flags
 
-[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddicb_destroyallocation2flags">D3DDDICB_DESTROYALLOCATION2FLAGS</a> structure that contains additional details about the operation.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddicb_destroyallocation2flags">D3DDDICB_DESTROYALLOCATION2FLAGS</a> structure that contains additional details about the operation.
 
 
 ## -see-also
@@ -84,11 +84,11 @@ If the user-mode display driver sets the handle in the <b>hResource</b> member t
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddicb_destroyallocation2flags">D3DDDICB_DESTROYALLOCATION2FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddicb_destroyallocation2flags">D3DDDICB_DESTROYALLOCATION2FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_deallocate2cb">pfnDeallocate2Cb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_deallocate2cb">pfnDeallocate2Cb</a>
  
 
  

@@ -114,7 +114,7 @@ The current target is a kernel-mode target.  This method is currently not availa
 
 This method is currently not available in kernel-mode debugging.
 
-In user-mode debugging, this method behaves the same as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getprocessidbypeb">GetProcessIdByPeb</a>.
+In user-mode debugging, this method behaves the same as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getprocessidbypeb">GetProcessIdByPeb</a>.
 
 For more information about processes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
 

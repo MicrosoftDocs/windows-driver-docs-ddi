@@ -68,7 +68,7 @@ A pointer to a work item callback routine supplied by the miniport. This routine
 
 ### -param Worker [in]
 
-A pointer to an opaque buffer for the worker returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>.
+A pointer to an opaque buffer for the worker returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>.
 
 
 ### -param Context [in, optional]
@@ -142,15 +142,15 @@ The work item was successfully queued.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_workitem">HwStorWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_workitem">HwStorWorkItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportfreeworker">StorPortFreeWorker</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportfreeworker">StorPortFreeWorker</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>
  
 
  

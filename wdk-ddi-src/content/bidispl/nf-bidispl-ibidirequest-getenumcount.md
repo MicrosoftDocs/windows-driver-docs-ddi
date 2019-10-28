@@ -65,7 +65,7 @@ A pointer to a variable that receives the number of output results.
 
 
 
-The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Error Handling</a>.
+The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Error Handling</a>.
 
 <table>
 <tr>
@@ -126,7 +126,7 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
-A single bidi request can have multiple results. After calling <b>GetEnumCount</b>, the application can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequest-getoutputdata">GetOutputData</a> to select a particular result.
+A single bidi request can have multiple results. After calling <b>GetEnumCount</b>, the application can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getoutputdata">GetOutputData</a> to select a particular result.
 
 
 
@@ -136,7 +136,7 @@ A single bidi request can have multiple results. After calling <b>GetEnumCount</
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">Bidirectional Communication Interfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
 
 
@@ -144,11 +144,11 @@ A single bidi request can have multiple results. After calling <b>GetEnumCount</
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequest-getoutputdata">GetOutputData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getoutputdata">GetOutputData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a>
  
 
  

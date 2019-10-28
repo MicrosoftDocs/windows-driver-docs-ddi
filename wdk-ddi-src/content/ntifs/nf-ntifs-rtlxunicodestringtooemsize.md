@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlxUnicodeStringToOemSize </b>routine is reserved for system use - use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlunicodestringtooemsize">RtlUnicodeStringToOemSize</a> instead.
+The <b>RtlxUnicodeStringToOemSize </b>routine is reserved for system use - use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodestringtooemsize">RtlUnicodeStringToOemSize</a> instead.
 
 
 ## -parameters

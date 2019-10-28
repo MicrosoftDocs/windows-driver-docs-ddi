@@ -58,7 +58,7 @@ The USB dual-role class extension invokes this callback to allow the client driv
 
 ### -param Device [in]
 
-A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
+A handle to the framework device object that the client driver retrieved in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>.
 
 
 ### -param IoResourceRequirementsList [in]
@@ -89,17 +89,17 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 
 
-The client driver registers its implementation with the USB dual-role class extension by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ursdevice/nf-ursdevice-ursdeviceinitialize">UrsDeviceInitialize</a> after calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> to create the framework device object for the controller. The class extension invokes this callback before <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a>. The callback is invoked within the class extension's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a>, which is registered on behalf of the client driver. The client must not implement and register its <i>EvtDeviceFilterRemoveResourceRequirements</i> because it will override the class extension's implementation.
+The client driver registers its implementation with the USB dual-role class extension by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-ursdeviceinitialize">UrsDeviceInitialize</a> after calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> to create the framework device object for the controller. The class extension invokes this callback before <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a>. The callback is invoked within the class extension's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a>, which is registered on behalf of the client driver. The client must not implement and register its <i>EvtDeviceFilterRemoveResourceRequirements</i> because it will override the class extension's implementation.
 
 Each role has a certain number of assigned hardware resources. Those resources can be memory, interrupts, and so on. The resources are maintained by the system in a <i>resource requirements list</i> that contains the range of hardware resources in which the device can operate. 
 
 For more information about resource requirements lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Handling Hardware Resources</a>.
 
-The class extension allocates memory for the <i>resource requirements list</i> and <i>resource lists</i> for both host and function roles. When the class extension  invokes the client driver's implementation of <i>EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS</i>, it passes a WDFIORESREQLIST handle to that requirements list along with URSIORESLIST handles for host and function role <i>resource lists</i>. In the implementation, the client driver is expected to enumerate through the logical configurations in the requirements list and check the resource descriptor for each configuration by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcelistgetdescriptor">WdfIoResourceListGetDescriptor</a>. 
+The class extension allocates memory for the <i>resource requirements list</i> and <i>resource lists</i> for both host and function roles. When the class extension  invokes the client driver's implementation of <i>EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS</i>, it passes a WDFIORESREQLIST handle to that requirements list along with URSIORESLIST handles for host and function role <i>resource lists</i>. In the implementation, the client driver is expected to enumerate through the logical configurations in the requirements list and check the resource descriptor for each configuration by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcelistgetdescriptor">WdfIoResourceListGetDescriptor</a>. 
 
-If the driver wants to use a particular resource, it can add the associated resource descriptor  to the respective resource list by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ursdevice/nf-ursdevice-ursioresourcelistappenddescriptor">UrsIoResourceListAppendDescriptor</a>.
+If the driver wants to use a particular resource, it can add the associated resource descriptor  to the respective resource list by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-ursioresourcelistappenddescriptor">UrsIoResourceListAppendDescriptor</a>.
 
-To delete a resource descriptor from the requirement list, the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcelistremove">WdfIoResourceListRemove</a>. 
+To delete a resource descriptor from the requirement list, the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcelistremove">WdfIoResourceListRemove</a>. 
 
 
 #### Examples
@@ -236,15 +236,15 @@ EvtUrsFilterRemoveResourceRequirements (
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ursdevice/nf-ursdevice-ursdeviceinitialize">UrsDeviceInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-ursdeviceinitialize">UrsDeviceInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ursdevice/nf-ursdevice-ursioresourcelistappenddescriptor">UrsIoResourceListAppendDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nf-ursdevice-ursioresourcelistappenddescriptor">UrsIoResourceListAppendDescriptor</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcelistremove">WdfIoResourceListRemove</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcelistremove">WdfIoResourceListRemove</a>
  
 
  

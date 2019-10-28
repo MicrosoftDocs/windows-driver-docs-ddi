@@ -64,7 +64,7 @@ Points to the GUID of the pressed button. If no button was pressed, this member 
 
 ### -field pScanInfo
 
-Points to a [SCANINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamicro/ns-wiamicro-_scaninfo) structure.
+Points to a [SCANINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamicro/ns-wiamicro-_scaninfo) structure.
 
 ### -field handle
 

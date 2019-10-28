@@ -62,7 +62,7 @@ DD_GETEXTENDEDMODECOUNTDATA is the data structure pointed to by the <b>lpvData</
 
 ### -field gdi2
 
-Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_dd_getdriverinfo2data">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data for the query.
+Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_dd_getdriverinfo2data">DD_GETDRIVERINFO2DATA</a> structure that contains the <b>GetDriverInfo2</b> data for the query.
 
 
 ### -field dwModeCount
@@ -89,7 +89,7 @@ To handle D3DGDI2_TYPE_GETEXTENDEDMODECOUNT, the driver must store the number of
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_dd_getdriverinfo2data">DD_GETDRIVERINFO2DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_dd_getdriverinfo2data">DD_GETDRIVERINFO2DATA</a>
 
 
 
@@ -97,7 +97,7 @@ To handle D3DGDI2_TYPE_GETEXTENDEDMODECOUNT, the driver must store the number of
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_dd_getextendedmodedata">DD_GETEXTENDEDMODEDATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_dd_getextendedmodedata">DD_GETEXTENDEDMODEDATA</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames: IO_FOEXT_SILO_PARAMETERS, *PIO_FOEXT_SILO_PARAMETERS
 ## -description
 
 
-This structure describes the Container context that's identified by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iogetsiloparameters">IoGetSiloParameters</a> routine.
+This structure describes the Container context that's identified by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iogetsiloparameters">IoGetSiloParameters</a> routine.
 
 
 ## -struct-fields

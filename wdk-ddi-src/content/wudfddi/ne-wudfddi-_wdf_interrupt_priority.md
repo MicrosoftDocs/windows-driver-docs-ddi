@@ -82,7 +82,7 @@ The device's interrupt has a relatively high priority, typically because the int
 
 
 
-The <b>WDF_INTERRUPT_PRIORITY</b> enumeration type is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetpolicy">WdfInterruptSetPolicy</a> method.
+The <b>WDF_INTERRUPT_PRIORITY</b> enumeration type is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetpolicy">WdfInterruptSetPolicy</a> method.
 
 
 
@@ -92,7 +92,7 @@ The <b>WDF_INTERRUPT_PRIORITY</b> enumeration type is used as input to the <a hr
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetpolicy">WdfInterruptSetPolicy</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptsetpolicy">WdfInterruptSetPolicy</a>
  
 
  

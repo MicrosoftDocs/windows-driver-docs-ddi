@@ -63,7 +63,7 @@ Moves the current position on the tape to the specified partition and offset, ac
 
 <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(TAPE_SET_POSITION). 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ns-ntddtape-_tape_set_position">TAPE_SET_POSITION</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> indicates the partition and offset to which the tape is to be moved. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_set_position">TAPE_SET_POSITION</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> indicates the partition and offset to which the tape is to be moved. 
 
 If the <b>Immediate</b> member is <b>TRUE</b>, the operation should be asynchronous. 
 
@@ -111,15 +111,15 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ns-ntddtape-_tape_set_position">TAPE_SET_POSITION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_set_position">TAPE_SET_POSITION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/ne-minitape-_tape_status">TAPE_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/nc-minitape-tape_process_command_routine">TapeMiniSetPosition</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniSetPosition</a>
  
 
  

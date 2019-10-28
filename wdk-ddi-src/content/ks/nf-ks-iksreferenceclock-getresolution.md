@@ -58,7 +58,7 @@ The <b>IKsReferenceClock::GetResolution</b> method queries the associated refere
 
 ### -param Resolution [out]
 
-Specifies granularity and notification error of the clock in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksresolution">KSRESOLUTION</a> structure.
+Specifies granularity and notification error of the clock in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksresolution">KSRESOLUTION</a> structure.
 
 
 ## -returns
@@ -90,7 +90,7 @@ AVStream uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/s
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
  
 
  

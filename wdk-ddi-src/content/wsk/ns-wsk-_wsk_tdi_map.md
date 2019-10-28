@@ -91,7 +91,7 @@ A pointer to a null-terminated wide character string that contains the device na
 
 The 
     <b>Map</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_tdi_map_info">WSK_TDI_MAP_INFO</a> structure points to an
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_tdi_map_info">WSK_TDI_MAP_INFO</a> structure points to an
     array of WSK_TDI_MAP structures, each of which contains a mapping between a particular address family,
     socket type, and protocol to the device name of a 
     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transport.
@@ -100,9 +100,9 @@ For more information about using TDI transports, see
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-tdi-transports">Using TDI Transports</a>.
 
 <div class="alert"><b>Note</b>  TDI will not be supported in Microsoft Windows versions after Windows Vista. Use 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">Windows Filtering
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Windows Filtering
     Platform</a> or 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">Winsock Kernel</a> instead.</div>
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">Winsock Kernel</a> instead.</div>
 <div> </div>
 
 
@@ -112,7 +112,7 @@ For more information about using TDI transports, see
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_tdi_map_info">WSK_TDI_MAP_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_tdi_map_info">WSK_TDI_MAP_INFO</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames: BOUND_CALLBACK_STATUS, *PBOUND_CALLBACK_STATUS
 ## -description
 
 
-The <b>BOUND_CALLBACK_STATUS</b> enumeration indicates how a user-mode bounds exception was processed by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-bound_callback">BoundCallback</a> function.
+The <b>BOUND_CALLBACK_STATUS</b> enumeration indicates how a user-mode bounds exception was processed by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-bound_callback">BoundCallback</a> function.
 
 
 ## -enum-fields
@@ -80,7 +80,7 @@ This value is not currently used.
 
 
 
-The return value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-bound_callback">BoundCallback</a> routine is a <b>BOUND_CALLBACK_STATUS</b> value.
+The return value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-bound_callback">BoundCallback</a> routine is a <b>BOUND_CALLBACK_STATUS</b> value.
 
 
 
@@ -90,7 +90,7 @@ The return value of the <a href="https://docs.microsoft.com/windows-hardware/dri
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-bound_callback">BoundCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-bound_callback">BoundCallback</a>
  
 
  

@@ -63,11 +63,11 @@ Arguments used in the [DXGKCB_SAVEMEMORYFORHOTUPDATE](nc-d3dkmddi-dxgkcb_savemem
 When passing *pDataMdl* the driver should do the following:
 
 * Compute how much memory to allocated
-* [MmAllocatePagesForMdlEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatepagesformdlex)
-* [MmMapLockedPagesSpecifyCache](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmaplockedpagesspecifycache)
+* [MmAllocatePagesForMdlEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmallocatepagesformdlex)
+* [MmMapLockedPagesSpecifyCache](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpagesspecifycache)
 * Copy description of the data to the buffer
 * Copy data into pages from internal data structures
-* [MmUnmapLockedPages](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmunmaplockedpages)
+* [MmUnmapLockedPages](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmaplockedpages)
 * Give MDL to Dxgkrnl
 
 ### -field DataSize

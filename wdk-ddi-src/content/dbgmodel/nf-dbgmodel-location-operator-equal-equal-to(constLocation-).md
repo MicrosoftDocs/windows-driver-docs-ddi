@@ -57,4 +57,4 @@ This function returns an indication of whether the two locations refer to the sa
 
 ## -see-also
 
-[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/)
+[dbgmodel.h header](https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgmodel/)

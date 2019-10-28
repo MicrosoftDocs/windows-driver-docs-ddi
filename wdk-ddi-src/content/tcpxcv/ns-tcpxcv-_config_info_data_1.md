@@ -70,7 +70,7 @@ Specifies the version of the PORT_DATA_1 structure (currently equal to 1) that w
 
 
 
-When the <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a> function is called to obtain port configuration information, its <i>pInputData</i> parameter must be set with the address of a CONFIG_INFO_DATA_1 structure, and its <i>pOutputData</i> parameter must be set with the address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/tcpxcv/ns-tcpxcv-_port_data_1">PORT_DATA_1</a> structure, which will be filled in when the function returns. Set this function's <i>pszDataName</i> parameter to the string L"GetConfigInfo". 
+When the <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a> function is called to obtain port configuration information, its <i>pInputData</i> parameter must be set with the address of a CONFIG_INFO_DATA_1 structure, and its <i>pOutputData</i> parameter must be set with the address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/tcpxcv/ns-tcpxcv-_port_data_1">PORT_DATA_1</a> structure, which will be filled in when the function returns. Set this function's <i>pszDataName</i> parameter to the string L"GetConfigInfo". 
 
 See <a href="https://docs.microsoft.com/windows-hardware/drivers/print/tcpmon-xcv-interface">TCPMON Xcv Interface</a> for more information.
 
@@ -82,7 +82,7 @@ See <a href="https://docs.microsoft.com/windows-hardware/drivers/print/tcpmon-xc
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/tcpxcv/ns-tcpxcv-_port_data_1">PORT_DATA_1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/tcpxcv/ns-tcpxcv-_port_data_1">PORT_DATA_1</a>
 
 
 

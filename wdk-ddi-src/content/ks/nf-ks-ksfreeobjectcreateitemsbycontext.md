@@ -90,7 +90,7 @@ Instead of freeing create items by name as <b>KsFreeObjectCreateItems</b> does, 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfreeobjectcreateitem">KsFreeObjectCreateItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfreeobjectcreateitem">KsFreeObjectCreateItem</a>
  
 
  

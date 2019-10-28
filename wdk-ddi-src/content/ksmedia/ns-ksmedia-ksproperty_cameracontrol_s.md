@@ -181,7 +181,7 @@ Indicates that the device settings are in relative values.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_cameracontrol_node_s">KSPROPERTY_CAMERACONTROL_NODE_S</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_cameracontrol_node_s">KSPROPERTY_CAMERACONTROL_NODE_S</a>
 
 
 

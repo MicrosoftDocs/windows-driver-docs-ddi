@@ -63,12 +63,12 @@ The filter driver's implementation to set the device state and operating bus spe
 
 ### -param DeviceState [in]
 
-    A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ne-usbfnbase-_usbfn_device_state">USBFN_DEVICE_STATE</a>-typed flag that indicates the state of the device.
+    A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_device_state">USBFN_DEVICE_STATE</a>-typed flag that indicates the state of the device.
 
 
 ### -param BusSpeed [in]
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ne-usbfnbase-_usbfn_bus_speed">USBFN_BUS_SPEED</a>-typed flag that indicates the bus speed.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnbase/ne-usbfnbase-_usbfn_bus_speed">USBFN_BUS_SPEED</a>-typed flag that indicates the bus speed.
 
 
 ## -returns

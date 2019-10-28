@@ -70,7 +70,7 @@ The <b>IKsPinPipe</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspinpipe-ksgetconnectedpin">KsGetConnectedPin</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspinpipe-ksgetconnectedpin">KsGetConnectedPin</a>
 </td>
 <td align="left" width="63%">
 Not recommended for application use.
@@ -79,7 +79,7 @@ Not recommended for application use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspinpipe-ksgetfiltername">KsGetFilterName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspinpipe-ksgetfiltername">KsGetFilterName</a>
 </td>
 <td align="left" width="63%">
 Returns the name of a filter
@@ -88,7 +88,7 @@ Returns the name of a filter
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspinpipe-ksgetpinbuscache">KsGetPinBusCache</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspinpipe-ksgetpinbuscache">KsGetPinBusCache</a>
 </td>
 <td align="left" width="63%">
 Not recommended for application use.
@@ -97,7 +97,7 @@ Not recommended for application use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspinpipe-ksgetpinframingcache">KsGetPinFramingCache</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspinpipe-ksgetpinframingcache">KsGetPinFramingCache</a>
 </td>
 <td align="left" width="63%">
 Not recommended for application use.
@@ -106,7 +106,7 @@ Not recommended for application use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspinpipe-ksgetpinname">KsGetPinName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspinpipe-ksgetpinname">KsGetPinName</a>
 </td>
 <td align="left" width="63%">
 Returns the name of a pin. 
@@ -115,7 +115,7 @@ Returns the name of a pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspinpipe-ksgetpipe">KsGetPipe</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspinpipe-ksgetpipe">KsGetPipe</a>
 </td>
 <td align="left" width="63%">
 Not recommended for application use.
@@ -124,7 +124,7 @@ Not recommended for application use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspinpipe-ksgetpipeallocatorflag">KsGetPipeAllocatorFlag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspinpipe-ksgetpipeallocatorflag">KsGetPipeAllocatorFlag</a>
 </td>
 <td align="left" width="63%">
 Not recommended for application use.
@@ -133,7 +133,7 @@ Not recommended for application use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspinpipe-kssetpinbuscache">KsSetPinBusCache</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspinpipe-kssetpinbuscache">KsSetPinBusCache</a>
 </td>
 <td align="left" width="63%">
 Not recommended for application use.
@@ -142,7 +142,7 @@ Not recommended for application use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspinpipe-kssetpinframingcache">KsSetPinFramingCache</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspinpipe-kssetpinframingcache">KsSetPinFramingCache</a>
 </td>
 <td align="left" width="63%">
 Not recommended for application use.
@@ -151,7 +151,7 @@ Not recommended for application use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspinpipe-kssetpipe">KsSetPipe</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspinpipe-kssetpipe">KsSetPipe</a>
 </td>
 <td align="left" width="63%">
 Not recommended for application use.
@@ -160,7 +160,7 @@ Not recommended for application use.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspinpipe-kssetpipeallocatorflag">KsSetPipeAllocatorFlag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspinpipe-kssetpipeallocatorflag">KsSetPipeAllocatorFlag</a>
 </td>
 <td align="left" width="63%">
 Not recommended for application use.

@@ -58,7 +58,7 @@ A handle to the display device (graphics context).
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_configureauthenicatedchannel">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a> structure that describes how to configure an authenticated channel. This structure contains an input buffer that describes how to configure the authenticated channel and an output buffer with configuration information.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_configureauthenicatedchannel">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a> structure that describes how to configure an authenticated channel. This structure contains an input buffer that describes how to configure the authenticated channel and an output buffer with configuration information.
 
 ## -returns
 
@@ -67,7 +67,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The authenticated channel is successfully configured. | 
-| **E_OUTOFMEMORY** | [ConfigureAuthenticatedChannel](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel)  could not allocate the required memory for it to complete. |
+| **E_OUTOFMEMORY** | [ConfigureAuthenticatedChannel](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel)  could not allocate the required memory for it to complete. |
 
 ## -remarks
 
@@ -83,5 +83,5 @@ Except for those situations in which the application incorrectly specifies an ou
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_configureauthenicatedchannel">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_configureauthenicatedchannel">D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL</a>
 
