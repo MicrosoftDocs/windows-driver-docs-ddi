@@ -5,7 +5,7 @@ description: The filter engine calls a callout's notifyFn2 callout function to n
 old-location: netvista\notifyfn2.htm
 tech.root: netvista
 ms.assetid: c70c987b-5b4c-4ddd-8eb8-8c3c40003ab3
-ms.date: 05/02/2018
+ms.date: 10/29/2019
 ms.keywords: FWPS_CALLOUT_NOTIFY_FN2, FWPS_CALLOUT_NOTIFY_FN2 callback, fwpsk/notifyFn2, netvista.notifyfn2, notifyFn2, notifyFn2 callback function [Network Drivers Starting with Windows Vista]
 ms.topic: callback
 f1_keywords:
@@ -89,7 +89,7 @@ A filter is being deleted from the filter engine that specifies the callout for 
 A maximum value for testing purposes.
 
 
-### -param *filterKey [in]
+### -param filterKey [in]
 
 A pointer to the management identifier for the filter, as specified by the application or driver
      that is adding or deleting the filter. Must be NULL if the 
@@ -97,7 +97,7 @@ A pointer to the management identifier for the filter, as specified by the appli
      following Remarks section.
 
 
-### -param *filter [in, out]
+### -param filter [in, out]
 
 A pointer to an 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter2_">FWPS_FILTER2</a> structure. This structure
