@@ -2,7 +2,7 @@
 UID: TP:netvista
 title: Networking drivers for Windows Vista and later
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
-ms.date: 02/07/19
+ms.date: 10/29/2019
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,7 +59,6 @@ To develop Networking drivers for Windows Vista and later, you need these header
 - [Netreceivescaling.h](../netreceivescaling/index.md)
 - [Netrequest.h](../netrequest/index.md)
 - [Netrequestqueue.h](../netrequestqueue/index.md)
-- [Netringiterator.h](../netringiterator/index.md)
 - [Netrxqueue.h](../netrxqueue/index.md)
 - [Nettxqueue.h](../nettxqueue/index.md)
 - [Netwakesource.h](../netwakesource/index.md)
@@ -121,7 +120,6 @@ Header files that support NetAdapterCx include the following:
 - [Netreceivescaling.h](../netreceivescaling/index.md)
 - [Netrequest.h](../netrequest/index.md)
 - [Netrequestqueue.h](../netrequestqueue/index.md)
-- [Netringiterator.h](../netringiterator/index.md)
 - [Netrxqueue.h](../netrxqueue/index.md)
 - [Nettxqueue.h](../nettxqueue/index.md)
 - [Netwakesource.h](../netwakesource/index.md)
