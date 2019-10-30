@@ -52,7 +52,7 @@ req.typenames:
 The 
   <b>NdisDprReleaseSpinLock</b> function releases a spin lock acquired in the immediately preceding call to
   the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisdpracquirespinlock">
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisdpracquirespinlock">
   NdisDprAcquireSpinLock</a> function.
 
 
@@ -76,9 +76,9 @@ Release of the spin lock allows another driver function to use the resources the
 A spin lock acquired with 
     <b>NdisDprAcquireSpinLock</b> must be released with 
     <b>NdisDprReleaseSpinLock</b>. A spin lock acquired with 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisacquirespinlock">NdisAcquireSpinLock</a> must be released
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisacquirespinlock">NdisAcquireSpinLock</a> must be released
     with 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisreleasespinlock">NdisReleaseSpinLock</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreleasespinlock">NdisReleaseSpinLock</a>.
 
 For more information about acquiring and releasing NDIS spin locks, see 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronization-and-notification-in-network-drivers">Synchronization
@@ -92,7 +92,7 @@ For more information about acquiring and releasing NDIS spin locks, see
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisdpracquirespinlock">NdisDprAcquireSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisdpracquirespinlock">NdisDprAcquireSpinLock</a>
  
 
  

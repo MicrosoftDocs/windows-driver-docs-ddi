@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>VideoPortSynchronizeExecution</b> function synchronizes the execution of a miniport driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a> function with the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> function, if any. Otherwise, it runs <i>HwVidSynchronizeExecutionCallback</i> at a raised priority.
+The <b>VideoPortSynchronizeExecution</b> function synchronizes the execution of a miniport driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a> function with the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> function, if any. Otherwise, it runs <i>HwVidSynchronizeExecutionCallback</i> at a raised priority.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ If <i>Priority</i> is set to <b>VpLowPriority</b>, the current thread is raised 
 
 </li>
 <li>
-If <i>Priority</i> is set to <b>VpMediumPriority</b> and the miniport driver has an ISR associated with its video adapter, the call to the given <i>SynchronizeRoutine</i> is synchronized with the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> function. Otherwise, synchronization is made at the <b>VpLowPriority</b> level.
+If <i>Priority</i> is set to <b>VpMediumPriority</b> and the miniport driver has an ISR associated with its video adapter, the call to the given <i>SynchronizeRoutine</i> is synchronized with the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> function. Otherwise, synchronization is made at the <b>VpLowPriority</b> level.
 
 </li>
 <li>
@@ -82,7 +82,7 @@ If <i>Priority</i> is set to <b>VpMediumPriority</b> and the miniport driver has
 
 ### -param SynchronizeRoutine
 
-Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a> function.
+Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a> function.
 
 
 ### -param Context
@@ -107,7 +107,7 @@ Miniport drivers seldom call this routine unless either of the following conditi
 
 <ul>
 <li>
-The miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> function shares memory with other miniport driver functions. In order to access the shared memory in a multiprocessor-safe way, such miniport driver functions must call <b>VideoPortSynchronizeExecution</b> with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a>. This miniport driver function can safely access the shared memory because the video port driver prevents the <i>HwVidInterrupt</i> function from accessing the same memory concurrently.
+The miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> function shares memory with other miniport driver functions. In order to access the shared memory in a multiprocessor-safe way, such miniport driver functions must call <b>VideoPortSynchronizeExecution</b> with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a>. This miniport driver function can safely access the shared memory because the video port driver prevents the <i>HwVidInterrupt</i> function from accessing the same memory concurrently.
 
 </li>
 <li>
@@ -115,7 +115,7 @@ The adapter must be programmed with a sequence of commands without being subject
 
 </li>
 </ul>
-A caller should specify the lowest practical <i>Priority</i> value for the work <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a> must do. Any <i>CallbackRoutine</i> that is run at a high hardware priority (<b>VpMediumPriority</b> or <b>VpHighPriority</b>) should return control as quickly as possible. A driver with such a high-priority <i>HwVidSynchronizeExecutionCallback</i> function should be designed to do as much work as possible in every other driver function except one of both of its <i>HwVidSynchronizeExecutionCallback</i> and <i>HwVidInterrupt</i> functions.
+A caller should specify the lowest practical <i>Priority</i> value for the work <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a> must do. Any <i>CallbackRoutine</i> that is run at a high hardware priority (<b>VpMediumPriority</b> or <b>VpHighPriority</b>) should return control as quickly as possible. A driver with such a high-priority <i>HwVidSynchronizeExecutionCallback</i> function should be designed to do as much work as possible in every other driver function except one of both of its <i>HwVidSynchronizeExecutionCallback</i> and <i>HwVidInterrupt</i> functions.
 
 Callers of <b>VideoPortSynchronizeExecution</b> must be running at IRQL 
 
@@ -127,11 +127,11 @@ Callers of <b>VideoPortSynchronizeExecution</b> must be running at IRQL
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a>
  
 
  

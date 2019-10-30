@@ -112,13 +112,13 @@ When the pin on one end of a connection is an input or output pin on the filter 
 
 Avoid confusing logical pins, which are used solely to describe connection points on nodes within a filter, with the external pins that filters use to connect to other filters. Logical pins are rarely used outside of the **PCCONNECTION_DESCRIPTOR** structure. In this document, the term *pin* refers to a pin on a KS filter rather than a logical pin on a node unless noted otherwise.
 
-The [IMiniport::GetDescription](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiport-getdescription) method outputs a [PCFILTER_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcfilter_descriptor) structure that contains a pointer to a **PCCONNECTION_DESCRIPTOR** array.
+The [IMiniport::GetDescription](https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription) method outputs a [PCFILTER_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcfilter_descriptor) structure that contains a pointer to a **PCCONNECTION_DESCRIPTOR** array.
 
 For a simple code example that shows how the **PCCONNECTION_DESCRIPTOR** structure is used, see [Exposing Filter Topology](https://docs.microsoft.com/windows-hardware/drivers/audio/exposing-filter-topology).
 
 ## -see-also
 
-[BdaPropertyTemplateConnections](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bdasup/nf-bdasup-bdapropertytemplateconnections)
+[BdaPropertyTemplateConnections](https://docs.microsoft.com/windows-hardware/drivers/ddi/bdasup/nf-bdasup-bdapropertytemplateconnections)
 
 [KSPROPERTY_TOPOLOGY_CONNECTIONS](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-topology-connections)
 

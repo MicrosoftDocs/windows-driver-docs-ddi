@@ -58,7 +58,7 @@ The <b>KEY_SET_INFORMATION_CLASS</b> enumeration type represents the type of inf
 
 ### -field KeyWriteTimeInformation
 
-Indicates that a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_key_write_time_information">KEY_WRITE_TIME_INFORMATION</a> structure is supplied.
+Indicates that a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_write_time_information">KEY_WRITE_TIME_INFORMATION</a> structure is supplied.
 
 
 ### -field KeyWow64FlagsInformation
@@ -98,7 +98,7 @@ This member constant is always the maximum value in the enumeration.
 
 
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine can receive a pointer to a <b>KEY_SET_INFORMATION_CLASS</b> structure as an input parameter.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine can receive a pointer to a <b>KEY_SET_INFORMATION_CLASS</b> structure as an input parameter.
 
 
 
@@ -108,11 +108,11 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/n
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_key_write_time_information">KEY_WRITE_TIME_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_key_write_time_information">KEY_WRITE_TIME_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
  
 
  

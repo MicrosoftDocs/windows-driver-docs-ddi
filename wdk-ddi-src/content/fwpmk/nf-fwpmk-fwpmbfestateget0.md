@@ -131,7 +131,7 @@ A callout driver calls the
     to open a session to the filter engine, the filter engine must  be currently running.
 
 Before calling <b>FwpmBfeStateGet0</b>, the callout driver  must call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">FwpmBfeStateSubscribeChanges0</a> function to register a callback function that is called whenever the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">FwpmBfeStateSubscribeChanges0</a> function to register a callback function that is called whenever the
     state of the filter engine changes.
 
 
@@ -142,7 +142,7 @@ Before calling <b>FwpmBfeStateGet0</b>, the callout driver  must call the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
    FwpmBfeStateSubscribeChanges0</a>
  
 

@@ -68,7 +68,7 @@ On output, the number of targets that are discovered.
 
 ### -field Targets
 
-On output, an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsifnd/ns-iscsifnd-_iscsi_discoveredtarget">ISCSI_DiscoveredTarget</a> structures, which provide information that is related to discovered targets. 
+On output, an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsifnd/ns-iscsifnd-_iscsi_discoveredtarget">ISCSI_DiscoveredTarget</a> structures, which provide information that is related to discovered targets. 
 
 
 ## -remarks
@@ -85,7 +85,7 @@ You must implement this method.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsifnd/ns-iscsifnd-_iscsi_discoveredtarget">ISCSI_DiscoveredTarget</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsifnd/ns-iscsifnd-_iscsi_discoveredtarget">ISCSI_DiscoveredTarget</a>
 
 
 
@@ -97,7 +97,7 @@ You must implement this method.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsifnd/ns-iscsifnd-_reportdiscoveredtargets2_out">ReportDiscoveredTargets2_OUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsifnd/ns-iscsifnd-_reportdiscoveredtargets2_out">ReportDiscoveredTargets2_OUT</a>
  
 
  

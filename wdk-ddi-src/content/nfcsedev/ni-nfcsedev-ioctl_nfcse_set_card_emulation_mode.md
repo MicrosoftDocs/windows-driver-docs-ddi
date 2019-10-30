@@ -60,7 +60,7 @@ The <b>IOCTL_NFCSE_SET_CARD_EMULATION_MODE</b>
 ### -input-buffer
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfcsedev/ns-nfcsedev-_secure_element_set_card_emulation_mode_info"> SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO</a> structure.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcsedev/ns-nfcsedev-_secure_element_set_card_emulation_mode_info"> SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO</a> structure.
 
 
 ### -input-buffer-length

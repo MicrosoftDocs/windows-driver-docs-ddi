@@ -58,7 +58,7 @@ The LOOPEDSTREAMING_POSITION_EVENT_DATA structure describes a position event in 
 
 ### -field KsEventData
 
-Specifies the type of notification that the system will send to the client when the event occurs. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kseventdata">KSEVENTDATA</a>.
+Specifies the type of notification that the system will send to the client when the event occurs. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a>.
 
 
 ### -field Position
@@ -86,7 +86,7 @@ For more information about looped buffers, buffer positions, and play and record
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kseventdata">KSEVENTDATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a>
 
 
 

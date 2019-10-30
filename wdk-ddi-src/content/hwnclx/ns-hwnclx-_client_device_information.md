@@ -92,7 +92,7 @@ The total number of hardware notifications that the client device driver provide
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Hardware notifications reference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Hardware notifications reference</a>
 
 
 

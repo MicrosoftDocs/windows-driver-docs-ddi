@@ -68,7 +68,7 @@ Write data to a stream.
 
 ### -field AVCSTRM_ABORT_STREAMING
 
-Abort streaming. This cancels <i>all</i> streaming IRPs. To cancel an individual IRP, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocancelirp">IoCancelIrp</a>.
+Abort streaming. This cancels <i>all</i> streaming IRPs. To cancel an individual IRP, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocancelirp">IoCancelIrp</a>.
 
 
 ### -field AVCSTRM_OPEN

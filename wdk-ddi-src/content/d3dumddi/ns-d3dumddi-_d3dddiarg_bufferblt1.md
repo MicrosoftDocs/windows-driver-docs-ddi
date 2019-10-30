@@ -78,7 +78,7 @@ The source range.
 
 ### -field CopyFlags
 
-A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ne-d3dumddi-d3dddi_copy_flags">D3DDDI_COPY_FLAGS</a> enumeration type.
+A value that specifies characteristics of a copy operation as a bitwise OR of the values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_copy_flags">D3DDDI_COPY_FLAGS</a> enumeration type.
 
 
 ## -see-also
@@ -86,7 +86,7 @@ A value that specifies characteristics of a copy operation as a bitwise OR of th
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ne-d3dumddi-d3dddi_copy_flags">D3DDDI_COPY_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_copy_flags">D3DDDI_COPY_FLAGS</a>
  
 
  

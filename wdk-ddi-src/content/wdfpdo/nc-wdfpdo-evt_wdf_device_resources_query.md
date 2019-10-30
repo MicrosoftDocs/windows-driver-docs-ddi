@@ -87,13 +87,13 @@ For more information about this callback function's return values, see <a href="
 
 
 
-Framework-based bus drivers can provide an <i>EvtDeviceResourcesQuery</i> callback function. To register this callback function, bus drivers call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoinitseteventcallbacks">WdfPdoInitSetEventCallbacks</a>.
+Framework-based bus drivers can provide an <i>EvtDeviceResourcesQuery</i> callback function. To register this callback function, bus drivers call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoinitseteventcallbacks">WdfPdoInitSetEventCallbacks</a>.
 
 The framework calls the bus driver's <i>EvtDeviceResourcesQuery</i> callback function to obtain a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">resource list</a> that specifies the boot configuration for the device. 
 
 The driver must populate the supplied resource list object with hardware resources that represent the boot requirements for the device. Drivers for PnP devices obtain this requirements information from the system BIOS.
 
-To create a resource list, the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/">framework resource-list object methods</a> that add resources to the resource-list object that is represented by the <i>Resources</i> parameter.For more information about hardware resources and creating resource lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
+To create a resource list, the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/">framework resource-list object methods</a> that add resources to the resource-list object that is represented by the <i>Resources</i> parameter.For more information about hardware resources and creating resource lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
 
 #### Examples
@@ -140,7 +140,7 @@ The <b>EVT_WDF_DEVICE_RESOURCES_QUERY</b> function type is defined in the Wdfpdo
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nc-wdfpdo-evt_wdf_device_resource_requirements_query">EvtDeviceResourceRequirementsQuery</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nc-wdfpdo-evt_wdf_device_resource_requirements_query">EvtDeviceResourceRequirementsQuery</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <i>DpcForIsr</i> routine finishes the servicing of an I/O operation, after an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kservice_routine">InterruptService</a> routine returns.
+The <i>DpcForIsr</i> routine finishes the servicing of an I/O operation, after an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a> routine returns.
 
 
 ## -parameters
@@ -63,17 +63,17 @@ Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardwar
 
 ### -param *DeviceObject [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
 
 ### -param *Irp [in, out]
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> structure that describes the I/O operation.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that describes the I/O operation.
 
 
 ### -param Context [in, optional]
 
-Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iorequestdpc">IoRequestDpc</a>.
+Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iorequestdpc">IoRequestDpc</a>.
 
 
 ## -returns
@@ -89,9 +89,9 @@ None
 
 
 
-To register a <i>DpcForIsr</i> routine for a specific device object, a driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioinitializedpcrequest">IoInitializeDpcRequest</a>, which causes the system to allocate and initialize one DPC object. (If you need multiple DPC routines, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kdeferred_routine">CustomDpc</a> routines.)
+To register a <i>DpcForIsr</i> routine for a specific device object, a driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializedpcrequest">IoInitializeDpcRequest</a>, which causes the system to allocate and initialize one DPC object. (If you need multiple DPC routines, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine">CustomDpc</a> routines.)
 
-To queue a <i>DpcForIsr</i> routine for execution, a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kservice_routine">InterruptService</a> routine must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iorequestdpc">IoRequestDPC</a>.
+To queue a <i>DpcForIsr</i> routine for execution, a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a> routine must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iorequestdpc">IoRequestDPC</a>.
 
 A <i>DpcForIsr</i> routine is typically responsible for at least the following tasks:
 
@@ -103,13 +103,13 @@ Completing the I/O operation described by the received IRP.
 <li>
 Dequeuing next IRP.
 
-If the driver uses the system-supplied IRP queue, the <i>DpcForIsr</i> routine should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iostartnextpacket">IoStartNextPacket</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iostartnextpacketbykey">IoStartNextPacketByKey</a>, so the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_startio">StartIo</a> routine will start processing the next I/O request.
+If the driver uses the system-supplied IRP queue, the <i>DpcForIsr</i> routine should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartnextpacket">IoStartNextPacket</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartnextpacketbykey">IoStartNextPacketByKey</a>, so the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_startio">StartIo</a> routine will start processing the next I/O request.
 
 If the driver uses internal IRP queues, the <i>DpcForIsr</i> routine should dequeue the next IRP and begin processing for the next I/O request. 
 
 </li>
 <li>
-Setting the I/O status block in the received IRP and calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a> for the completed request.
+Setting the I/O status block in the received IRP and calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a> for the completed request.
 
 </li>
 </ul>

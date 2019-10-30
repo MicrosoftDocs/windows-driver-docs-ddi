@@ -104,7 +104,7 @@ sizeof(NDIS_WWAN_SLOT_INFO)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -193,7 +193,7 @@ The operation failed because the device does not support this OID.
 
 #### - SlotInfoStatus
 
-A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_slot_info">WWAN_SLOT_INFO</a> structure which represents the status of a slot in the modem.
+A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_slot_info">WWAN_SLOT_INFO</a> structure which represents the status of a slot in the modem.
 
 
 ## -see-also
@@ -209,7 +209,7 @@ A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/con
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_slot_info">WWAN_SLOT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_slot_info">WWAN_SLOT_INFO</a>
  
 
  

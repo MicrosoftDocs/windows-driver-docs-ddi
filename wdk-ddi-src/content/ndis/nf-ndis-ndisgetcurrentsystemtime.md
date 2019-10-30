@@ -74,7 +74,7 @@ An NDIS driver might also call
     particular interval to tune its performance dynamically. For example, a miniport driver could call 
     <b>NdisGetCurrentSystemTime</b> for each receive interrupt to determine periods of high network traffic,
     when the driver might disable one or more types of interrupts on the NIC and enable a polling 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_timer_function">NetTimerCallback</a> function to process
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_timer_function">NetTimerCallback</a> function to process
     receive indications or send requests.
 
 
@@ -85,7 +85,7 @@ An NDIS driver might also call
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_timer_function">NetTimerCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_timer_function">NetTimerCallback</a>
  
 
  

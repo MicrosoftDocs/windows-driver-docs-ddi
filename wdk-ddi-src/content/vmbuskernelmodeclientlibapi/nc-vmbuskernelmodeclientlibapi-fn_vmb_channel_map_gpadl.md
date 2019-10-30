@@ -117,12 +117,12 @@ Returns STATUS_SUCCESS if the operation succeeds, or an appropriate NTSTATUS err
 
 ## -remarks
 
-The GPADL must have been pre-established by the client, for instance, by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer">VmbChannelCreateGpadlFromBuffer</a> function.  
+The GPADL must have been pre-established by the client, for instance, by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer">VmbChannelCreateGpadlFromBuffer</a> function.  
 
 Only a single mapping may exist for any given GPADL at a time.  
 
 You must pair calls to this
-function with calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelunmapgpadl">VmbChannelUnmapGpadl</a> function.
+function with calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelunmapgpadl">VmbChannelUnmapGpadl</a> function.
 
 > [!IMPORTANT]
 > This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. This is a server-only function accessed from the [**KMCL_SERVER_ONLY_METHODS**](ns-vmbuskernelmodeclientlibapi-_kmcl_server_only_methods.md) structure. 
@@ -131,8 +131,8 @@ function with calls to the <a href="https://docs.microsoft.com/windows-hardware/
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer">VmbChannelCreateGpadlFromBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelcreategpadlfrombuffer">VmbChannelCreateGpadlFromBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelunmapgpadl">VmbChannelUnmapGpadl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelunmapgpadl">VmbChannelUnmapGpadl</a>

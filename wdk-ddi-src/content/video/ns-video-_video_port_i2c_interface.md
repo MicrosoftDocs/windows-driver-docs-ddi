@@ -83,29 +83,29 @@ Pointer to the video port driver-implemented dereference routine for this interf
 
 ### -field I2CStart
 
-Pointer to the video port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pi2c_start">I2CStart</a> routine.
+Pointer to the video port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pi2c_start">I2CStart</a> routine.
 
 
 ### -field I2CStop
 
-Pointer to the video port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pi2c_stop">I2CStop</a> routine.
+Pointer to the video port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pi2c_stop">I2CStop</a> routine.
 
 
 ### -field I2CWrite
 
-Pointer to the video port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pi2c_write">I2CWrite</a> routine.
+Pointer to the video port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pi2c_write">I2CWrite</a> routine.
 
 
 ### -field I2CRead
 
-Pointer to the video port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pi2c_read">I2CRead</a> routine.
+Pointer to the video port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pi2c_read">I2CRead</a> routine.
 
 
 ## -remarks
 
 
 
-PnP video miniport drivers that can use I²C should fill in the <b>Size</b> and <b>Version</b> members of this structure, and then call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
+PnP video miniport drivers that can use I²C should fill in the <b>Size</b> and <b>Version</b> members of this structure, and then call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
 
 
 
@@ -115,11 +115,11 @@ PnP video miniport drivers that can use I²C should fill in the <b>Size</b> and 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
  
 
  

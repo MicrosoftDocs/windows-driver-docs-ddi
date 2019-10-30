@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>IInterFilterCommunicator</b> interface is implemented in an object that resides in the PrintFilterPipelineSvc service and is made available to filters through methods in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iprintpipelinefilter">IPrintPipelineFilter</a> interface.<b>IInterFilterCommunicator</b> inherits from the <b>IUnknown</b> interface.
+The <b>IInterFilterCommunicator</b> interface is implemented in an object that resides in the PrintFilterPipelineSvc service and is made available to filters through methods in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinefilter">IPrintPipelineFilter</a> interface.<b>IInterFilterCommunicator</b> inherits from the <b>IUnknown</b> interface.
 
 
 ## -inheritance
@@ -68,7 +68,7 @@ The <b>IInterFilterCommunicator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iinterfiltercommunicator-requestreader">IInterFilterCommunicator::RequestReader</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iinterfiltercommunicator-requestreader">IInterFilterCommunicator::RequestReader</a>
 </td>
 <td align="left" width="63%">
 The <b>RequestReader</b> method retrieves the reader interface for an <b>IInterFilterCommunicator</b> object. 
@@ -77,7 +77,7 @@ The <b>RequestReader</b> method retrieves the reader interface for an <b>IInterF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iinterfiltercommunicator-requestwriter">IInterFilterCommunicator::RequestWriter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iinterfiltercommunicator-requestwriter">IInterFilterCommunicator::RequestWriter</a>
 </td>
 <td align="left" width="63%">
 The <b>RequestWriter</b> method retrieves the writer interface for an <b>IInterFilterCommunicator</b> object.

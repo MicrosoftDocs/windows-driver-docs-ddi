@@ -70,7 +70,7 @@ CASCADE_FORM
 
 </li>
 </ul>
-For more information, see the description of the <b>MaxFilterSize</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksds3d_hrtf_init_msg">KSDS3D_HRTF_INIT_MSG</a>.
+For more information, see the description of the <b>MaxFilterSize</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksds3d_hrtf_init_msg">KSDS3D_HRTF_INIT_MSG</a>.
 
 
 ### -field CoeffFormat

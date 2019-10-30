@@ -118,7 +118,7 @@ Possible return values are:
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/ne-poscx-_pos_cx_event_attributes">POS_CX_EVENT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/ne-poscx-_pos_cx_event_attributes">POS_CX_EVENT_ATTRIBUTES</a>
  
 
  

@@ -58,7 +58,7 @@ The <b>CM_EISA_FUNCTION_INFORMATION</b> structure defines detailed EISA configur
 
 ### -field CompressedId
 
-The EISA compressed identification of the device at this slot. The value is identical to the <b>CompressedId</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a> structure.
+The EISA compressed identification of the device at this slot. The value is identical to the <b>CompressedId</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a> structure.
 
 
 ### -field IdSlotFlags1
@@ -210,7 +210,7 @@ Vendor-supplied, device-specific initialization data, if any.
 
 
 
-The information returned by <b>HalGetBusData</b> or <b>HalGetBusDataByOffset</b> in <b>CM_EISA_FUNCTION_INFORMATION</b> and/or in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a> header immediately preceding it is read-only.
+The information returned by <b>HalGetBusData</b> or <b>HalGetBusDataByOffset</b> in <b>CM_EISA_FUNCTION_INFORMATION</b> and/or in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a> header immediately preceding it is read-only.
 
 
 
@@ -220,7 +220,7 @@ The information returned by <b>HalGetBusData</b> or <b>HalGetBusDataByOffset</b>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_eisa_slot_information">CM_EISA_SLOT_INFORMATION</a>
 
 
 

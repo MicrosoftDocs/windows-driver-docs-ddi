@@ -77,7 +77,7 @@ The <b>UPSStop</b> function must:
 
 <ul>
 <li>
-Cancel all waiting calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/upssvc/nf-upssvc-upswaitforstatechange">UPSWaitForStateChange</a>.
+Cancel all waiting calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/upssvc/nf-upssvc-upswaitforstatechange">UPSWaitForStateChange</a>.
 
 </li>
 <li>
@@ -89,7 +89,7 @@ Close and release the UPS unit's COM port.
 
 </li>
 </ul>
-After <b>UPSStop</b> returns, the only function the UPS service can call is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/upssvc/nf-upssvc-upsinit">UPSInit</a>. 
+After <b>UPSStop</b> returns, the only function the UPS service can call is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/upssvc/nf-upssvc-upsinit">UPSInit</a>. 
 
 
 
@@ -99,7 +99,7 @@ After <b>UPSStop</b> returns, the only function the UPS service can call is <a h
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/upssvc/nf-upssvc-upsinit">UPSInit</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/upssvc/nf-upssvc-upsinit">UPSInit</a>
  
 
  

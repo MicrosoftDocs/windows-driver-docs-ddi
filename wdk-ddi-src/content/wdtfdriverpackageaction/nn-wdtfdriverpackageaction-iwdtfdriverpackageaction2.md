@@ -70,7 +70,7 @@ The <b>IWDTFDriverPackageAction2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-compare">Compare</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-compare">Compare</a>
 </td>
 <td align="left" width="63%">
 Compares two driver packages.
@@ -79,7 +79,7 @@ Compares two driver packages.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-getqueryfordevicethatcanusepackage">GetQueryForDevicesThatCanUsePackage</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-getqueryfordevicethatcanusepackage">GetQueryForDevicesThatCanUsePackage</a>
 </td>
 <td align="left" width="63%">
 Returns an SDEL statement that queries for all devices that can use the driver package.
@@ -88,7 +88,7 @@ Returns an SDEL statement that queries for all devices that can use the driver p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-getqueryfordeviceusingpackage">GetQueryForDevicesUsingPackage</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-getqueryfordeviceusingpackage">GetQueryForDevicesUsingPackage</a>
 </td>
 <td align="left" width="63%">
 Returns an SDEL statement that queries for all devices that use the driver package.
@@ -97,7 +97,7 @@ Returns an SDEL statement that queries for all devices that use the driver packa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-setpackageinffilename">SetPackageInfFileName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-setpackageinffilename">SetPackageInfFileName</a>
 </td>
 <td align="left" width="63%">
 Sets the pre-imported driver package path.
@@ -115,7 +115,7 @@ Sets the pre-imported driver package path.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_catalogfile">CatalogFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_catalogfile">CatalogFile</a>
 
 
 </td>
@@ -131,7 +131,7 @@ Gets the catalog file name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_classguid">ClassGuid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_classguid">ClassGuid</a>
 
 
 </td>
@@ -147,7 +147,7 @@ Gets the class GUID.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_classname">ClassName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_classname">ClassName</a>
 
 
 </td>
@@ -163,7 +163,7 @@ Gets the class name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_date">Date</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_date">Date</a>
 
 
 </td>
@@ -179,7 +179,7 @@ Gets the driver package date.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_digitalsigner">DigitalSigner</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_digitalsigner">DigitalSigner</a>
 
 
 </td>
@@ -195,7 +195,7 @@ Gets the digital signer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_hascatalog">HasCatalog</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_hascatalog">HasCatalog</a>
 
 
 </td>
@@ -211,7 +211,7 @@ Gets a value that indicates whether the driver package has a catalog.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_inffilename">InfFileName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_inffilename">InfFileName</a>
 
 
 </td>
@@ -227,7 +227,7 @@ Gets the INF file name.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_isdigitalsigned">IsDigitalSigned</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_isdigitalsigned">IsDigitalSigned</a>
 
 
 </td>
@@ -243,7 +243,7 @@ Gets a value that indicates whether the driver package is signed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_isimported">IsImported</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_isimported">IsImported</a>
 
 
 </td>
@@ -259,7 +259,7 @@ Gets a value that indicates whether the driver package is imported.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_provider">Provider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_provider">Provider</a>
 
 
 </td>

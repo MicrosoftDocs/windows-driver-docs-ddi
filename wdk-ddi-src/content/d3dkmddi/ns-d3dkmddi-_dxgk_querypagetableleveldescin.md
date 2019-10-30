@@ -48,7 +48,7 @@ req.typenames: DXGK_QUERYPAGETABLELEVELDESCIN
 ## -description
 
 
-The <b>DXGK_QUERYPAGETABLELEVELDESCIN</b> structure is used to request page level descriptors from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Dxgkrnl Interface</a>.
+The <b>DXGK_QUERYPAGETABLELEVELDESCIN</b> structure is used to request page level descriptors from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Dxgkrnl Interface</a>.
 
 
 ## -struct-fields
@@ -70,7 +70,7 @@ A zero-based page table level index for the information requested.
 
 
 
-To get page table level descriptors Dxgkrnl calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> with the following parameters:
+To get page table level descriptors Dxgkrnl calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> with the following parameters:
 
 <pre class="syntax" xml:space="preserve"><code>DXGKARG_QUERYADAPTERINFO::Type = DXGKQAITYPE_PAGETABLELEVELDESC;
 DXGKARG_QUERYADAPTERINFO::pInputData = DXGK_QUERYPAGETABLELEVELDESCIN 

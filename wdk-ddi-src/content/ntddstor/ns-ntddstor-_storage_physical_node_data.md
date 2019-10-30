@@ -73,7 +73,7 @@ The data length of the storage adapter in the storage node,  in units of kilobyt
 
 ### -field AdapterDataOffset
 
-The data offset from the beginning of the data structure. The buffer contains an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_physical_adapter_data">STORAGE_PHYSICAL_ADAPTER_DATA</a>.
+The data offset from the beginning of the data structure. The buffer contains an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_physical_adapter_data">STORAGE_PHYSICAL_ADAPTER_DATA</a>.
 
 
 ### -field DeviceCount
@@ -88,7 +88,7 @@ The data length of the storage device in the storage node,  in units of kilobyte
 
 ### -field DeviceDataOffset
 
-The data offset from the beginning of the data structure. The buffer contains an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_physical_device_data">STORAGE_PHYSICAL_DEVICE_DATA</a>.
+The data offset from the beginning of the data structure. The buffer contains an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_physical_device_data">STORAGE_PHYSICAL_DEVICE_DATA</a>.
 
 
 ### -field Reserved

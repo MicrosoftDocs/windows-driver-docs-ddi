@@ -46,7 +46,7 @@ req.typenames: CDROM_TOC, *PCDROM_TOC
 
 ## -description
 
-Device control IRPs with a control code of [IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex) and a format of CDROM_READ_TOC_EX_FORMAT_TOC return their output data in this structure followed by a series of [TRACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_track_data) structures.  
+Device control IRPs with a control code of [IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex) and a format of CDROM_READ_TOC_EX_FORMAT_TOC return their output data in this structure followed by a series of [TRACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_track_data) structures.  
 
 ## -struct-fields
 
@@ -64,7 +64,7 @@ Indicates the last track number of the table of contents of the last complete se
 
 ### -field TrackData
 
-Array of structures of type [TRACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_track_data) that contain table of contents information for all the sessions on the disc.
+Array of structures of type [TRACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_track_data) that contain table of contents information for all the sessions on the disc.
 
 ## -remarks
 
@@ -72,8 +72,8 @@ The output data contains table of contents information for one or more of the sp
 
 ## -see-also
 
-[CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_read_toc_ex)
+[CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_read_toc_ex)
 
-[IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex)
+[IOCTL_CDROM_READ_TOC_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_toc_ex)
 
-[TRACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_track_data)
+[TRACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_track_data)

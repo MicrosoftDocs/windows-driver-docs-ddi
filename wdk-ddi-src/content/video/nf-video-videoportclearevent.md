@@ -79,7 +79,7 @@ None
 
 
 
-To set the state of an event object to the signaled state, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportsetevent">VideoPortSetEvent</a>. 
+To set the state of an event object to the signaled state, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportsetevent">VideoPortSetEvent</a>. 
 
 
 
@@ -89,7 +89,7 @@ To set the state of an event object to the signaled state, use <a href="https://
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportsetevent">VideoPortSetEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportsetevent">VideoPortSetEvent</a>
  
 
  

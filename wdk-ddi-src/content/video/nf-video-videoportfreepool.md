@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>VideoPortFreePool</b> function deallocates a block of pool memory previously allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportallocatepool">VideoPortAllocatePool</a>.
+The <b>VideoPortFreePool</b> function deallocates a block of pool memory previously allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportallocatepool">VideoPortAllocatePool</a>.
 
 
 ## -parameters
@@ -91,11 +91,11 @@ Callers of <b>VideoPortFreePool</b> must be running at IRQL <= DISPATCH_LEVEL. A
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportallocatecommonbuffer">VideoPortAllocateCommonBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportallocatecommonbuffer">VideoPortAllocateCommonBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportallocatepool">VideoPortAllocatePool</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportallocatepool">VideoPortAllocatePool</a>
  
 
  

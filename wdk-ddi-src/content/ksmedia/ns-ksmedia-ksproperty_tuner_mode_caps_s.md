@@ -126,7 +126,7 @@ Indicates that the tuner is capable of tuning Advanced Television Systems Commit
 
 ### -field StandardsSupported
 
-Describes the analog video standards supported. If <b>Mode</b> is set to KSPROPERTY_TUNER_MODE_TV, this member may be set to one or more (logically ORed) values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a> enumeration.
+Describes the analog video standards supported. If <b>Mode</b> is set to KSPROPERTY_TUNER_MODE_TV, this member may be set to one or more (logically ORed) values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a> enumeration.
 
 
 ### -field MinFrequency
@@ -156,7 +156,7 @@ Specifies the time, in milliseconds, for a new frequency setting to become stabl
 
 ### -field Strategy
 
-Specifies the tuning method. This member must be set to only one of the values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ks_tuner_strategy">KS_TUNER_STRATEGY</a> enumeration.
+Specifies the tuning method. This member must be set to only one of the values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_tuner_strategy">KS_TUNER_STRATEGY</a> enumeration.
 
 
 ## -remarks
@@ -181,11 +181,11 @@ The minidriver fills in the mode capabilities for the requested tuner mode.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ks_tuner_strategy">KS_TUNER_STRATEGY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_tuner_strategy">KS_TUNER_STRATEGY</a>
 
 
 

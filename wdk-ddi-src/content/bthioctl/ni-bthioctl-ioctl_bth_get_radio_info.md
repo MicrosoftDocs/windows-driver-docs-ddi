@@ -75,7 +75,7 @@ The length of the buffer.
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a> structure. This structure
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a> structure. This structure
       contains information about the remote radio's feature support for the Link Management Protocol (LMP),
       the radio's manufacturer ID, and its LMP version.
 
@@ -83,7 +83,7 @@ The
 ### -output-buffer-length
 
 The length of a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a> structure. 
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a> structure. 
 
 
 ### -in-out-buffer
@@ -158,7 +158,7 @@ The IOCTL_BTH_GET_RADIO_INFO IOCTL returns similar information as the IOCTL_BTH_
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a>
  
 
  

@@ -77,12 +77,12 @@ A driver is unable to delete some WDF objects. For example, the driver cannot de
 
 The driver typically deletes only WDF objects that it creates and owns. For more information about deleting framework objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/managing-the-lifetime-of-objects">Managing the Lifetime of Objects</a>. 
 
-However, when a parent object is deleted, all child objects are automatically deleted. For example, if the driver called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice-createioqueue">IWDFDevice::CreateIoQueue</a> to create an I/O queue object, the newly created I/O queue becomes a child of the device object. The I/O queue object is then automatically deleted when the device object is deleted without the driver explicitly calling <b>DeleteWdfObject</b>.
+However, when a parent object is deleted, all child objects are automatically deleted. For example, if the driver called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createioqueue">IWDFDevice::CreateIoQueue</a> to create an I/O queue object, the newly created I/O queue becomes a child of the device object. The I/O queue object is then automatically deleted when the device object is deleted without the driver explicitly calling <b>DeleteWdfObject</b>.
 
 
 #### Examples
 
-For a code example of how to use the <b>DeleteWdfObject</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice-setpnpstate">IWDFDevice::SetPnpState</a>.
+For a code example of how to use the <b>DeleteWdfObject</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-setpnpstate">IWDFDevice::SetPnpState</a>.
 
 <div class="code"></div>
 
@@ -93,11 +93,11 @@ For a code example of how to use the <b>DeleteWdfObject</b> method, see <a href=
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice-createioqueue">IWDFDevice::CreateIoQueue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createioqueue">IWDFDevice::CreateIoQueue</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>
  
 
  

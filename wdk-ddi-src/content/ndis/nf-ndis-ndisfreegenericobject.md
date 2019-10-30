@@ -51,7 +51,7 @@ req.typenames:
 
 Call the 
   <b>NdisFreeGenericObject</b> function to free a generic object that was created with the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocategenericobject">
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocategenericobject">
   NdisAllocateGenericObject</a> function.
 
 
@@ -63,7 +63,7 @@ Call the
 ### -param NdisObject
 
 A pointer to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a> structure to be
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a> structure to be
      freed.
 
 ## -returns
@@ -81,7 +81,7 @@ None
 
 An NDIS handle is required to allocate some NDIS resources (for example, buffer pools). Components
     that do not otherwise have an NDIS handle use a pointer to an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a> structure as an NDIS
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a> structure as an NDIS
     handle. All resources that were allocated with this generic object pointer as the handle must be freed
     before freeing the generic object.
 
@@ -93,11 +93,11 @@ An NDIS handle is required to allocate some NDIS resources (for example, buffer 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_generic_object">NDIS_GENERIC_OBJECT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocategenericobject">NdisAllocateGenericObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisallocategenericobject">NdisAllocateGenericObject</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeInitializeMutant</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializemutex">KeInitializeMutex</a>. 
+The <b>KeInitializeMutant</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializemutex">KeInitializeMutex</a>. 
 
 
 ## -parameters

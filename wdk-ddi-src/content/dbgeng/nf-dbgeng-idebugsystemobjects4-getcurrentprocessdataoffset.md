@@ -96,7 +96,7 @@ The method was successful.
 
 
 
-In user-mode debugging, the location returned is of the process environment block (PEB) for the current process.  This is the same location returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentprocesspeb">GetCurrentProcessPeb</a>.
+In user-mode debugging, the location returned is of the process environment block (PEB) for the current process.  This is the same location returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentprocesspeb">GetCurrentProcessPeb</a>.
 
 In kernel-mode debugging, the location returned is of the KPROCESS structure for the system process in which the last event occurred.
 

@@ -67,7 +67,7 @@ The <b>IDebugInputCallbacks</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebuginputcallbacks-endinput">EndInput</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebuginputcallbacks-endinput">EndInput</a>
 </td>
 <td align="left" width="63%">
 This method is called by the engine to indicate that it is no longer waiting for input.
@@ -77,7 +77,7 @@ This method is called by the engine to indicate that it is no longer waiting for
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebuginputcallbacks-startinput">StartInput</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebuginputcallbacks-startinput">StartInput</a>
 </td>
 <td align="left" width="63%">
 This method is called by the engine to indicate that it is waiting for a line of input.

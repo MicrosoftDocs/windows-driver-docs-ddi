@@ -82,7 +82,7 @@ When the current transfer sequence is cancelled, the **GetNextStream** method re
 
 [Data Transfer Between Legacy Application and Windows Driver](https://docs.microsoft.com/windows-hardware/drivers/image/data-transfer-between-legacy-application-and-windows-vista-driver)
 
-[IWiaMiniDrvTransferCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvtransfercallback)
+[IWiaMiniDrvTransferCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvtransfercallback)
 
 [WIA_IPA_FULL_ITEM_NAME](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-full-item-name)
 

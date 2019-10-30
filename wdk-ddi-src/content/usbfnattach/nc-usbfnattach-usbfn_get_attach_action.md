@@ -63,7 +63,7 @@ The filter driver's implementation that gets invoked when charger is attached to
 
 ### -param OnAttach [out]
 
-A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnattach/ns-usbfnattach-_usbfn_on_attach">USBFN_ON_ATTACH</a> structure that the driver populates with the type of attach and port. 
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnattach/ns-usbfnattach-_usbfn_on_attach">USBFN_ON_ATTACH</a> structure that the driver populates with the type of attach and port. 
 
 
 ## -returns

@@ -112,7 +112,7 @@ If the request succeeds, the HID class driver sets the <b>Status</b> field of <b
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidsdi/nf-hidsdi-hidd_getnuminputbuffers">HidD_GetNumInputBuffers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getnuminputbuffers">HidD_GetNumInputBuffers</a>
  
 
  

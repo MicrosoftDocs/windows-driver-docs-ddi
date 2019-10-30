@@ -58,7 +58,7 @@ The <b>SetUnnamedArg</b> method sets an unnamed argument for the current extensi
 
 ### -param Index [in]
 
-Specifies the index of the argument.  <i>Index</i> should be between zero and the number of unnamed arguments, as specified in the command-line description used in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-ext_command">EXT_COMMAND</a>, minus one (unnamed arguments - 1).
+Specifies the index of the argument.  <i>Index</i> should be between zero and the number of unnamed arguments, as specified in the command-line description used in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-ext_command">EXT_COMMAND</a>, minus one (unnamed arguments - 1).
 
 
 ### -param StrArg [in, optional]
@@ -107,7 +107,7 @@ This method should only be called during the execution of an extension command p
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-ext_command">EXT_COMMAND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-ext_command">EXT_COMMAND</a>
 
 
 

@@ -64,7 +64,7 @@ Array of PIDs that identify packets to map to the output of a PID filter.
 
 ## -see-also
 
-[BDA_PID_UNMAP](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bdatypes/ns-bdatypes-_bda_pid_unmap)
+[BDA_PID_UNMAP](https://docs.microsoft.com/windows-hardware/drivers/ddi/bdatypes/ns-bdatypes-_bda_pid_unmap)
 
 [KSPROPSETID_BdaPIDFilter](https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdapidfilter)
 

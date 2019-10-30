@@ -103,7 +103,7 @@ On return, the <b>Status</b> field will contain STATUS_SUCCESS if the operation 
 
 
 
-When the TCG Storage Silo driver relinquishes control, all band management IOCTLs registered by an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities"> IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a> request are unregistered. Any band management IOCTL requests received are returned with STATUS_INVALID_DEVICE_REQUEST. 
+When the TCG Storage Silo driver relinquishes control, all band management IOCTLs registered by an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities"> IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a> request are unregistered. Any band management IOCTL requests received are returned with STATUS_INVALID_DEVICE_REQUEST. 
 
 After relinquishing control, the TCG Storage Silo driver can regain control of a storage device when the device is stopped and restarted.
 
@@ -117,7 +117,7 @@ To prevent the TCG Storage Silo driver from reconfiguring the TCG subsystem in a
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_report_capabilities">IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES</a>
  
 
  

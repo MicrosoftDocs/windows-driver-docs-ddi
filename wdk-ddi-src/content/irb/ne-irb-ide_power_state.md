@@ -75,7 +75,7 @@ Indicates a device power level of 3.
 
 
 
-The IDE_POWER_STATE enumeration type is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportrequestpowerstatechange">AtaPortRequestPowerStateChange</a> routine to request a power state transition for a device.
+The IDE_POWER_STATE enumeration type is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportrequestpowerstatechange">AtaPortRequestPowerStateChange</a> routine to request a power state transition for a device.
 
 
 
@@ -85,7 +85,7 @@ The IDE_POWER_STATE enumeration type is used in conjunction with the <a href="ht
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportrequestpowerstatechange">AtaPortRequestPowerStateChange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportrequestpowerstatechange">AtaPortRequestPowerStateChange</a>
  
 
  

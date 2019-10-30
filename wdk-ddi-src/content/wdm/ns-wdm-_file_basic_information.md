@@ -76,7 +76,7 @@ The FILE_ATTRIBUTE_NORMAL flag cannot be set or returned in combination with any
 
 Time values **CreationTime**, **LastAccessTime**, **LastWriteTime**, and **ChangeTime** are expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar.
 
-If you specify a value of zero for any of the *Xxx***Time** members of the **FILE_BASIC_INFORMATION** structure, the [ZwSetInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntsetinformationfile) function keeps a file's current setting for that time.
+If you specify a value of zero for any of the *Xxx***Time** members of the **FILE_BASIC_INFORMATION** structure, the [ZwSetInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile) function keeps a file's current setting for that time.
 
 The file system updates the values of the **LastAccessTime**, **LastWriteTime**, and **ChangeTime** members as appropriate after an I/O operation is performed on a file. However, a driver or application can request that the file system not update one or more of these members for I/O operations that are performed on the caller's file handle by setting the appropriate members to -1. The caller can set one, all, or any other combination of these three members to -1. Only the members that are set to -1 will be unaffected by I/O operations on the file handle; the other members will be updated as appropriate. Time stamp updates on the file handle can be restored by setting the appropriate member(s) to -2.
 
@@ -84,10 +84,10 @@ To set the members of this structure, the caller must have FILE_WRITE_ATTRIBUTES
 
 ## -see-also
 
-[KeQuerySystemTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerysystemtime~r1)
+[KeQuerySystemTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime~r1)
 
-[ZwCreateFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile)
+[ZwCreateFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
 
-[ZwQueryInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntqueryinformationfile)
+[ZwQueryInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
 
-[ZwSetInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntsetinformationfile)
+[ZwSetInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile)

@@ -90,7 +90,7 @@ The number of device power state values for this enumeration type that represent
 
 
 
-A power state indicates the level of power consumption—and thus the extent of computing activity—by the system or by a single device. The power manager sets the power state of the system as a whole, where the system power state is indicated by one of the values of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type. Device drivers set the power state of their individual devices, where the device power state is indicated by one of the values of the <b>DEVICE_POWER_STATE</b> enumeration type.
+A power state indicates the level of power consumption—and thus the extent of computing activity—by the system or by a single device. The power manager sets the power state of the system as a whole, where the system power state is indicated by one of the values of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a> enumeration type. Device drivers set the power state of their individual devices, where the device power state is indicated by one of the values of the <b>DEVICE_POWER_STATE</b> enumeration type.
 
 For more information about system power states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-system-power-state-requests">Handling System Power State Requests</a>. For more information about device power states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-power-for-individual-devices">Managing Power for Individual Devices</a>. For more information about power management in general, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-power-management">Introduction to Power Management</a>. 
 
@@ -102,7 +102,7 @@ For more information about system power states, see <a href="https://docs.micros
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>
  
 
  

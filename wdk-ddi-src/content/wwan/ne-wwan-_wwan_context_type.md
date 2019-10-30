@@ -145,7 +145,7 @@ This enumeration indicates the usage of the provisioned context. For example, wh
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_context">WWAN_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_context">WWAN_CONTEXT</a>
  
 
  

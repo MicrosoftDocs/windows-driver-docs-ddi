@@ -66,7 +66,7 @@ A pointer to the channel extension.
 
 ### -param Irb [in]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a> that defines the failed IDE request block (IRB) for which the request sense will be issued.
+A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a> that defines the failed IDE request block (IRB) for which the request sense will be issued.
 
 
 ## -returns
@@ -96,7 +96,7 @@ The miniport driver can have only one outstanding request sense IRB per logical 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportreleaserequestsenseirb">AtaPortReleaseRequestSenseIrb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nf-irb-ataportreleaserequestsenseirb">AtaPortReleaseRequestSenseIrb</a>
  
 
  

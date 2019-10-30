@@ -72,7 +72,7 @@ The **NewIrql** parameter specifies the new KIRQL value to which the hardware pr
 
 ### -param b [out]
 
-The **OldIrql** parameter is a pointer to the storage for the original (unraised) KIRQL value to be used in a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kelowerirql">KeLowerIrql</a>.
+The **OldIrql** parameter is a pointer to the storage for the original (unraised) KIRQL value to be used in a subsequent call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kelowerirql">KeLowerIrql</a>.
 
 
 
@@ -82,7 +82,7 @@ The **OldIrql** parameter is a pointer to the storage for the original (unraised
 
 If the new IRQL is less than the current IRQL, a bug check occurs. Otherwise, the current IRQL is set to the specified value.
 
-Callers of this routine can be running at any IRQL. Any caller should restore the original IRQL with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kelowerirql">KeLowerIrql</a> as soon as possible.
+Callers of this routine can be running at any IRQL. Any caller should restore the original IRQL with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kelowerirql">KeLowerIrql</a> as soon as possible.
 
 A call to <b>KeLowerIrql</b> is valid if it specifies <i>NewIrql</i> <= <i>CurrentIrql</i>. A call to <b>KeRaiseIrql</b> is valid if the caller specifies <i>NewIrql</i> >= <i>CurrentIrql</i>.
 
@@ -94,11 +94,11 @@ A call to <b>KeLowerIrql</b> is valid if it specifies <i>NewIrql</i> <= <i>Curre
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kegetcurrentirql">KeGetCurrentIrql</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kegetcurrentirql">KeGetCurrentIrql</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kelowerirql~r1">KeLowerIrql</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kelowerirql~r1">KeLowerIrql</a>
  
 
  

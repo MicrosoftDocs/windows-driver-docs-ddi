@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-ImpersonatePrinterClient resumes impersonation of the client, completing the operation begun by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-reverttoprinterself">RevertToPrinterSelf</a>.
+ImpersonatePrinterClient resumes impersonation of the client, completing the operation begun by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-reverttoprinterself">RevertToPrinterSelf</a>.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ ImpersonatePrinterClient resumes impersonation of the client, completing the ope
 
 ### -param hToken [in]
 
-Caller-supplied handle to a thread. This parameter must have been previously returned by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-reverttoprinterself">RevertToPrinterSelf</a>.
+Caller-supplied handle to a thread. This parameter must have been previously returned by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-reverttoprinterself">RevertToPrinterSelf</a>.
 
 
 ## -returns
@@ -74,7 +74,7 @@ If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the funct
 
 
 
-This function must be called after a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-reverttoprinterself">RevertToPrinterSelf</a>. It resumes impersonation of the client and cleans up the thread handle.
+This function must be called after a successful call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-reverttoprinterself">RevertToPrinterSelf</a>. It resumes impersonation of the client and cleans up the thread handle.
 
 
 
@@ -84,7 +84,7 @@ This function must be called after a successful call to <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-reverttoprinterself">RevertToPrinterSelf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-reverttoprinterself">RevertToPrinterSelf</a>
  
 
  

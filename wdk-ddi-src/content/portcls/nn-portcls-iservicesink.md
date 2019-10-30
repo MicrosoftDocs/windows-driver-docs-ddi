@@ -48,11 +48,11 @@ req.typenames:
 ## -description
 
 
-The <code>IServiceSink</code> interface encapsulates handling of a service request. The source of the service request is typically the miniport driver's interrupt service routine. PortCls supports the <code>IServiceSink</code> interface. An <code>IServiceSink</code> object is typically a member of a service group that is managed by an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iservicegroup">IServiceGroup</a> object. <code>IServiceSink</code> inherits from the <b>IUnknown</b> interface.
+The <code>IServiceSink</code> interface encapsulates handling of a service request. The source of the service request is typically the miniport driver's interrupt service routine. PortCls supports the <code>IServiceSink</code> interface. An <code>IServiceSink</code> object is typically a member of a service group that is managed by an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicegroup">IServiceGroup</a> object. <code>IServiceSink</code> inherits from the <b>IUnknown</b> interface.
 
 <code>IServiceSink</code> is the base interface for <b>IServiceGroup</b>. This allows an <b>IServiceGroup</b> object to add itself (as an object with an <code>IServiceSink</code> interface) to another <b>IServiceGroup</b> object's service group.
 
-Although the PortCls system driver provides a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcnewservicegroup">PcNewServiceGroup</a> function for creating a service group object, no similar function exists for creating a service sink object. Instead, a driver object that requires a service sink simply implements an <code>IServiceSink</code> interface in the driver object. For convenience, header file portcls.h includes an <b>IMP_IServiceSink</b> constant for adding the <code>IServiceSink</code> implementation to the object's class definition. The cost of adding an <code>IServiceSink</code> interface to an object is small because the interface supports only a single method. A port driver typically adds an <code>IServiceSink</code> interface to its port object and stream objects so that they can receive notification of interrupts from an audio device.
+Although the PortCls system driver provides a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcnewservicegroup">PcNewServiceGroup</a> function for creating a service group object, no similar function exists for creating a service sink object. Instead, a driver object that requires a service sink simply implements an <code>IServiceSink</code> interface in the driver object. For convenience, header file portcls.h includes an <b>IMP_IServiceSink</b> constant for adding the <code>IServiceSink</code> implementation to the object's class definition. The cost of adding an <code>IServiceSink</code> interface to an object is small because the interface supports only a single method. A port driver typically adds an <code>IServiceSink</code> interface to its port object and stream objects so that they can receive notification of interrupts from an audio device.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/service-sink-and-service-group-objects">Service Sink and Service Group Objects</a>.
 
@@ -74,7 +74,7 @@ The <b>IServiceSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iservicesink-requestservice">IServiceSink::RequestService</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicesink-requestservice">IServiceSink::RequestService</a>
 </td>
 <td align="left" width="63%">
 The <code>RequestService</code> method is called to forward a service request to an <b>IServiceSink</b> object.

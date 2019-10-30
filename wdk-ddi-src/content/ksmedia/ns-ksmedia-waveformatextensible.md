@@ -81,7 +81,7 @@ Reserved for internal use by operating system. Initialize to zero.
 
 ### -field dwChannelMask
 
-Specifies the assignment of channels in the multichannel stream to speaker positions. The encoding is the same as that used for the <b>ActiveSpeakerPositions</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksaudio_channel_config">KSAUDIO_CHANNEL_CONFIG</a> structure. For more information, see the following Remarks section.
+Specifies the assignment of channels in the multichannel stream to speaker positions. The encoding is the same as that used for the <b>ActiveSpeakerPositions</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_channel_config">KSAUDIO_CHANNEL_CONFIG</a> structure. For more information, see the following Remarks section.
 
 
 ### -field SubFormat
@@ -313,7 +313,7 @@ KSAUDIO_SPEAKER_7POINT1
 
 KSAUDIO_SPEAKER_DIRECTOUT
 
-A hardware device can be set to one of these speaker configurations by a <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-channel-config">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>set-property request. For more information about setting speaker configurations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksaudio_channel_config">KSAUDIO_CHANNEL_CONFIG</a>.
+A hardware device can be set to one of these speaker configurations by a <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-channel-config">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>set-property request. For more information about setting speaker configurations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_channel_config">KSAUDIO_CHANNEL_CONFIG</a>.
 
 Typically, the count in <b>nChannels</b> equals the number of bits set in <b>dwChannelMask</b>, but this is not necessarily so. If <b>nChannels</b> is less than the number of bits set in <b>dwChannelMask</b>, the extra (most significant) bits in <b>dwChannelMask</b> are ignored. If <b>nChannels</b> exceeds the number of bits set in <b>dwChannelMask</b>, the channels that have no corresponding mask bits are not assigned to any physical speaker position. In any speaker configuration other than KSAUDIO_SPEAKER_DIRECTOUT, an audio sink like KMixer (see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kernel-mode-wdm-audio-components">KMixer System Driver</a>) simply ignores these excess channels and mixes only the channels that have corresponding mask bits.
 
@@ -409,7 +409,7 @@ Because WAVEFORMATEXTENSIBLE is an extended version of WAVEFORMATEX, it can desc
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksaudio_channel_config">KSAUDIO_CHANNEL_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksaudio_channel_config">KSAUDIO_CHANNEL_CONFIG</a>
 
 
 

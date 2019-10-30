@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nn-prnasntp-iprintasyncnotifyserverreferral">IPrintAsyncNotifyServerReferral</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nn-prnasntp-iprintasyncnotifyserverreferral">IPrintAsyncNotifyServerReferral</a>
  
 
  

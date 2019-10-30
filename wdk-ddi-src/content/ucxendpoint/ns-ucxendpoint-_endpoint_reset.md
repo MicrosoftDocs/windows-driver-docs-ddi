@@ -48,7 +48,7 @@ req.typenames: ENDPOINT_RESET, *PENDPOINT_RESET
 ## -description
 
 
-Describes information required to reset an endpoint. This structure is passed by UCX in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_reset">EVT_UCX_ENDPOINT_RESET</a> callback function.
+Describes information required to reset an endpoint. This structure is passed by UCX in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_reset">EVT_UCX_ENDPOINT_RESET</a> callback function.
 
 
 ## -struct-fields
@@ -58,7 +58,7 @@ Describes information required to reset an endpoint. This structure is passed by
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/ns-ucxusbdevice-_usbdevice_mgmt_header">USBDEVICE_MGMT_HEADER</a> structure that stores handles to the USB hub or device whose endpoints.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_mgmt_header">USBDEVICE_MGMT_HEADER</a> structure that stores handles to the USB hub or device whose endpoints.
 
 
 ### -field Endpoint
@@ -68,7 +68,7 @@ A handle to the device endpoint to reset.
 
 ### -field Flags
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxendpoint/ne-ucxendpoint-_endpoint_reset_flags">ENDPOINT_RESET_FLAGS</a> value that indicates reset parameters.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/ne-ucxendpoint-_endpoint_reset_flags">ENDPOINT_RESET_FLAGS</a> value that indicates reset parameters.
 
 
 ## -see-also
@@ -76,7 +76,7 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxen
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxendpoint/ne-ucxendpoint-_endpoint_reset_flags">ENDPOINT_RESET_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/ne-ucxendpoint-_endpoint_reset_flags">ENDPOINT_RESET_FLAGS</a>
  
 
  

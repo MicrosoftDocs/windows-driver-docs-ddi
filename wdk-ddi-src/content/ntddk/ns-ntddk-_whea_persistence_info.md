@@ -100,7 +100,7 @@ A ULONGLONG representation of the contents of the WHEA_PERSISTENCE_INFO union.
 
 
 
-A WHEA_PERSISTENCE_INFO union is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a> structure.
+A WHEA_PERSISTENCE_INFO union is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a> structure.
 
 
 
@@ -110,7 +110,7 @@ A WHEA_PERSISTENCE_INFO union is contained within the <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a>
  
 
  

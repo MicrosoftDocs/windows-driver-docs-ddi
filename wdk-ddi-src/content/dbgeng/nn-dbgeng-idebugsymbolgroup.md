@@ -67,7 +67,7 @@ The <b>IDebugSymbolGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbolgroup2-addsymbol">AddSymbol</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-addsymbol">AddSymbol</a>
 </td>
 <td align="left" width="63%">
 Adds a symbol to a symbol group.
@@ -76,7 +76,7 @@ Adds a symbol to a symbol group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbolgroup2-expandsymbol">ExpandSymbol</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-expandsymbol">ExpandSymbol</a>
 </td>
 <td align="left" width="63%">
 Adds or removes the children of a symbol from a symbol group.
@@ -85,7 +85,7 @@ Adds or removes the children of a symbol from a symbol group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbolgroup2-getnumbersymbols">GetNumberSymbols</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-getnumbersymbols">GetNumberSymbols</a>
 </td>
 <td align="left" width="63%">
  Returns the number of symbols that are contained in a symbol group.
@@ -95,7 +95,7 @@ Adds or removes the children of a symbol from a symbol group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbolgroup2-getsymbolname">GetSymbolName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-getsymbolname">GetSymbolName</a>
 </td>
 <td align="left" width="63%">
 Returns the name of a symbol in a symbol group.
@@ -105,7 +105,7 @@ Returns the name of a symbol in a symbol group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbolgroup2-getsymbolparameters">GetSymbolParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-getsymbolparameters">GetSymbolParameters</a>
 </td>
 <td align="left" width="63%">
 Returns the symbol parameters that describe the specified symbols in a symbol group.
@@ -115,7 +115,7 @@ Returns the symbol parameters that describe the specified symbols in a symbol gr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbolgroup2-outputastype">OutputAsType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-outputastype">OutputAsType</a>
 </td>
 <td align="left" width="63%">
 Changes the type of a symbol in a symbol group. The symbol's entry is updated to represent the new type. 
@@ -125,7 +125,7 @@ Changes the type of a symbol in a symbol group. The symbol's entry is updated to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbolgroup2-outputsymbols">OutputSymbols</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-outputsymbols">OutputSymbols</a>
 </td>
 <td align="left" width="63%">
 Prints the specified symbols to the debugger console.
@@ -134,7 +134,7 @@ Prints the specified symbols to the debugger console.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbolgroup2-removesymbolbyindex">RemoveSymbolByIndex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-removesymbolbyindex">RemoveSymbolByIndex</a>
 </td>
 <td align="left" width="63%">
 Removes the specified symbol from a symbol group.
@@ -144,7 +144,7 @@ Removes the specified symbol from a symbol group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbolgroup2-removesymbolbyname">RemoveSymbolByName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-removesymbolbyname">RemoveSymbolByName</a>
 </td>
 <td align="left" width="63%">
  Removes the specified symbol from a symbol group.
@@ -154,7 +154,7 @@ Removes the specified symbol from a symbol group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbolgroup2-writesymbol">WriteSymbol</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbolgroup2-writesymbol">WriteSymbol</a>
 </td>
 <td align="left" width="63%">
 Sets the value of the specified symbol.
@@ -170,7 +170,7 @@ Sets the value of the specified symbol.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsymbolgroup2">IDebugSymbolGroup2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugsymbolgroup2">IDebugSymbolGroup2</a>
  
 
  

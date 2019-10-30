@@ -60,11 +60,11 @@ The NDIS_CONFIGURATION_PARAMETER structure contains the data and type of a named
 ### -field ParameterType
 
 The type of the parameter specified as one of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ne-ndis-_ndis_parameter_type">NDIS_PARAMETER_TYPE</a> enumeration values. 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_parameter_type">NDIS_PARAMETER_TYPE</a> enumeration values. 
      
 
 For successful calls to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisreadconfiguration">NdisReadConfiguration</a> function, the    
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreadconfiguration">NdisReadConfiguration</a> function, the    
      <b>ParameterType</b> value matches the value at the 
      <i>ParameterType</i> parameter. However, when the 
      <i>ParameterType</i> parameter is 
@@ -103,7 +103,7 @@ An NDIS_STRING value that is used when the
 ### -field ParameterData.BinaryData
 
 A 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-binary_data">BINARY_DATA</a> structure that is used when the 
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-binary_data">BINARY_DATA</a> structure that is used when the 
       <b>ParameterType</b> member is set to 
       <b>NdisParameterBinary</b>.
 
@@ -113,13 +113,13 @@ A
 
 
 To read parameters in the registry, an NDIS driver can call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisreadconfiguration">NdisReadConfiguration</a> function. If
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreadconfiguration">NdisReadConfiguration</a> function. If
     the call is successful, NDIS returns a pointer to an NDIS_CONFIGURATION_PARAMETER structure at the 
     <i>ParameterValue</i> parameter of 
     <b>NdisReadConfiguration</b>.
 
 To write parameters to the registry, an NDIS driver can call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiswriteconfiguration">NdisWriteConfiguration</a> function. In
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteconfiguration">NdisWriteConfiguration</a> function. In
     this case, the driver initializes an NDIS_CONFIGURATION_PARAMETER structure and passes it at the 
     <i>ParameterValue</i> parameter of 
     <b>NdisWriteConfiguration</b>.
@@ -132,19 +132,19 @@ To write parameters to the registry, an NDIS driver can call the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-binary_data">BINARY_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-binary_data">BINARY_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ne-ndis-_ndis_parameter_type">NDIS_PARAMETER_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ne-ndis-_ndis_parameter_type">NDIS_PARAMETER_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisreadconfiguration">NdisReadConfiguration</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisreadconfiguration">NdisReadConfiguration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiswriteconfiguration">NdisWriteConfiguration</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiswriteconfiguration">NdisWriteConfiguration</a>
 
 
 

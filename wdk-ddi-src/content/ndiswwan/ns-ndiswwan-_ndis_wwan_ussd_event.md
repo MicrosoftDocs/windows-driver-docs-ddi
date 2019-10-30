@@ -103,7 +103,7 @@ sizeof(NDIS_WWAN_USSD_EVENT)
  
 
 For more information about these members, see 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -198,7 +198,7 @@ Service activation has failed. Subscription has expired. Device does not allow s
 ### -field UssdEvent
 
 A formatted 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a> object that represents a
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a> object that represents a
      USSD event.
 
 
@@ -207,7 +207,7 @@ A formatted
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a>
  
 
  

@@ -75,7 +75,7 @@ A value that specifies that the device plays video at optimal quality.
 
 
 
-A DXVAHDDDI_DEVICE_USAGE-typed value is specified in the <b>Usage</b> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvahdddi_device_desc">DXVAHDDDI_DEVICE_DESC</a> structure to help describe a decode device.
+A DXVAHDDDI_DEVICE_USAGE-typed value is specified in the <b>Usage</b> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_device_desc">DXVAHDDDI_DEVICE_DESC</a> structure to help describe a decode device.
 
 
 
@@ -85,7 +85,7 @@ A DXVAHDDDI_DEVICE_USAGE-typed value is specified in the <b>Usage</b> member of 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvahdddi_device_desc">DXVAHDDDI_DEVICE_DESC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvahdddi_device_desc">DXVAHDDDI_DEVICE_DESC</a>
  
 
  

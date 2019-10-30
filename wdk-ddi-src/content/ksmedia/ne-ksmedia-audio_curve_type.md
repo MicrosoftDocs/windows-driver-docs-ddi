@@ -101,6 +101,6 @@ And the following diagram shows a graphical representation of the preceding pseu
 
 ## -see-also
 
-[KSAUDIOENGINE_VOLUMELEVEL](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_tagksaudioengine_volumelevel)
+[KSAUDIOENGINE_VOLUMELEVEL](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagksaudioengine_volumelevel)
 
 [KSPROPERTY_AUDIOENGINE_VOLUMELEVEL](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audioengine-volumelevel)

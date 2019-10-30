@@ -102,7 +102,7 @@ Callers of <b>RtlEqualMemory</b> can be running at any IRQL if both blocks of me
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlcomparememory">RtlCompareMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlcomparememory">RtlCompareMemory</a>
  
 
  

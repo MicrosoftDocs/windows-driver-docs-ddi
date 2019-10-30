@@ -76,7 +76,7 @@ If the operation succeeds, the function returns the token of the impersonated th
 
 <code>RevertToPrinterSelf</code> should be called when a component needs access to resources from the local system context, such as the registry. The local system context is the security context (the collection of settings that define the security behavior of a process or thread) of the system process. The system process is the process that runs in the logon session that is created for the local system account when the operating system boots. 
 
-If <code>RevertToPrinterSelf</code> returns a non-<b>NULL</b> value, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-impersonateprinterclient">ImpersonatePrinterClient</a> must be called with the return value to complete the operation and clean up the thread handle.
+If <code>RevertToPrinterSelf</code> returns a non-<b>NULL</b> value, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-impersonateprinterclient">ImpersonatePrinterClient</a> must be called with the return value to complete the operation and clean up the thread handle.
 
 
 
@@ -86,7 +86,7 @@ If <code>RevertToPrinterSelf</code> returns a non-<b>NULL</b> value, <a href="ht
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-impersonateprinterclient">ImpersonatePrinterClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-impersonateprinterclient">ImpersonatePrinterClient</a>
  
 
  

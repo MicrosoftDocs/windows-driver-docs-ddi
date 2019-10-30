@@ -48,7 +48,7 @@ req.typenames: INQUIRYDATA, *PINQUIRYDATA
 ## -description
 
 
-The INQUIRYDATA structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/nc-minitape-tape_extension_init_routine">TapeMiniExtensionInit</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/nc-minitape-tape_verify_inquiry_routine">TapeMiniVerifyInquiry</a> routines to report SCSI inquiry data associated with a tape device. 
+The INQUIRYDATA structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_extension_init_routine">TapeMiniExtensionInit</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_verify_inquiry_routine">TapeMiniVerifyInquiry</a> routines to report SCSI inquiry data associated with a tape device. 
 
 
 ## -struct-fields
@@ -301,11 +301,11 @@ Indicates, when set to one, that the target supports the SCSI CONTINUE TASK and 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/nc-minitape-tape_extension_init_routine">TapeMiniExtensionInit</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_extension_init_routine">TapeMiniExtensionInit</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/nc-minitape-tape_verify_inquiry_routine">TapeMiniVerifyInquiry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_verify_inquiry_routine">TapeMiniVerifyInquiry</a>
  
 
  

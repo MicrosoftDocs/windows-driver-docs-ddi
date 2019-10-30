@@ -47,9 +47,9 @@ req.typenames: MONITOREX, *LPMONITOREX
 ## -description
 
 > [!IMPORTANT]
-> The MONITOREX structure is obsolete and supported for compatibility purposes only. New print monitors should the implement [InitializePrintMonitor2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-initializeprintmonitor2) function and [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor2) structure so that they can be used with print server clusters.
+> The MONITOREX structure is obsolete and supported for compatibility purposes only. New print monitors should the implement [InitializePrintMonitor2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitor2) function and [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor2) structure so that they can be used with print server clusters.
 
-The MONITOREX structure is used as the return value for a print monitor's [InitializePrintMonitor](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-initializeprintmonitor) function.
+The MONITOREX structure is used as the return value for a print monitor's [InitializePrintMonitor](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintmonitor) function.
 
 ## -struct-fields
 
@@ -59,7 +59,7 @@ Specifies the size, in bytes, of the Monitor **member**.
 
 ### -field Monitor
 
-A [MONITOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor) structure.
+A [MONITOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor) structure.
 
 ## -remarks
 
@@ -67,4 +67,4 @@ Print monitors are responsible for filling in the MONITOREX and MONITOR structur
 
 ## -see-also
 
-[MONITOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor)
+[MONITOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor)

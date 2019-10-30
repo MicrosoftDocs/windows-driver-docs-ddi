@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-This function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/ns-sensorscx-_sensor_config">SENSOR_CONFIG</a> structure.
+This function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_config">SENSOR_CONFIG</a> structure.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ This function initializes a <a href="https://docs.microsoft.com/windows-hardware
 
 ### -param pConfig [out]
 
-A pointer to a new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/ns-sensorscx-_sensor_config">SENSOR_CONFIG</a> structure.
+A pointer to a new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_config">SENSOR_CONFIG</a> structure.
 
 
 ## -returns
@@ -75,7 +75,7 @@ This function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/ns-sensorscx-_sensor_config">SENSOR_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_config">SENSOR_CONFIG</a>
  
 
  

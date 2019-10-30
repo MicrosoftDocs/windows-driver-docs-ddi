@@ -70,7 +70,7 @@ Specifies the GUID for the pin that is capable of supporting an intermediate fre
 
 
 
-Support for the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-if-medium">KSPROPERTY_TUNER_IF_MEDIUM</a> property causes <i>Kstvtune.ax</i> to create an additional pin representing an MPEG-2 transport stream. A data packet sent on this pin in user mode consists only of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_tvtuner_change_info">KS_TVTUNER_CHANGE_INFO</a> structure.
+Support for the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-if-medium">KSPROPERTY_TUNER_IF_MEDIUM</a> property causes <i>Kstvtune.ax</i> to create an additional pin representing an MPEG-2 transport stream. A data packet sent on this pin in user mode consists only of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_tvtuner_change_info">KS_TVTUNER_CHANGE_INFO</a> structure.
 
 
 

@@ -91,15 +91,15 @@ When the buffer is not being read from or written to, the lock variable should h
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportgetcommonbuffer">VideoPortGetCommonBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetcommonbuffer">VideoPortGetCommonBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportinterlockeddecrement">VideoPortInterlockedDecrement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportinterlockeddecrement">VideoPortInterlockedDecrement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportinterlockedincrement">VideoPortInterlockedIncrement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportinterlockedincrement">VideoPortInterlockedIncrement</a>
  
 
  

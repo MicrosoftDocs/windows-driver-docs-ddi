@@ -63,7 +63,7 @@ A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/wi
 
 ### -param Parameters [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/ns-gpioclx-_gpio_client_controller_specific_function_parameters">GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</a> structure that contains the input and output buffers for the controller-specific operation.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_controller_specific_function_parameters">GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</a> structure that contains the input and output buffers for the controller-specific operation.
 
 
 ## -returns
@@ -109,7 +109,7 @@ The size of the input buffer or output buffer is too small.
 
 
 
-As an option, a GPIO controller driver can support <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpio/ni-gpio-ioctl_gpio_controller_specific_function">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a> requests. This type of I/O control request (IOCTL) performs controller-specific operations for the benefit of peripheral device drivers that require these operations. To support this IOCTL, a GPIO controller driver implements a <i>CLIENT_ControllerSpecificFunction</i> function.
+As an option, a GPIO controller driver can support <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_controller_specific_function">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a> requests. This type of I/O control request (IOCTL) performs controller-specific operations for the benefit of peripheral device drivers that require these operations. To support this IOCTL, a GPIO controller driver implements a <i>CLIENT_ControllerSpecificFunction</i> function.
 
 The GPIO framework extension (GpioClx) supports the <i>CLIENT_ControllerSpecificFunction</i> function to address the specific needs of certain hardware platforms. Typical GPIO controller drivers do not implement this function. A peripheral device driver that uses <b>IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</b> requests to perform a hardware-specific operation on one platform risks the loss of compatibility with other platforms that do not support this operation.
 
@@ -165,11 +165,11 @@ The GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION function type is defined in the Gpi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/ns-gpioclx-_gpio_client_controller_specific_function_parameters">GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpioclx/ns-gpioclx-_gpio_client_controller_specific_function_parameters">GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpio/ni-gpio-ioctl_gpio_controller_specific_function">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/gpio/ni-gpio-ioctl_gpio_controller_specific_function">IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION</a>
  
 
  

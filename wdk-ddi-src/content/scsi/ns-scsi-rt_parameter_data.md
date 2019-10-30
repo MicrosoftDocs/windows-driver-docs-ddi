@@ -156,7 +156,7 @@ Reserved for future use.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-st_parameter_data">ST_PARAMETER_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-st_parameter_data">ST_PARAMETER_DATA</a>
  
 
  

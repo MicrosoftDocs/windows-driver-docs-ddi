@@ -87,7 +87,7 @@ An absolute time value is a time value that specifies a specific date and time. 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcore/nf-wdfcore-wdf_rel_timeout_in_sec">WDF_REL_TIMEOUT_IN_SEC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcore/nf-wdfcore-wdf_rel_timeout_in_sec">WDF_REL_TIMEOUT_IN_SEC</a>
  
 
  

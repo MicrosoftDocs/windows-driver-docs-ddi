@@ -58,7 +58,7 @@ The <b>KBUGCHECK_DATA</b> structure contains bug check parameters.
 
 ### -field BugCheckDataSize
 
-The size, in bytes, of the <b>KBUGCHECK_DATA</b> structure. Callers of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibgetbugcheckdata">AuxKlibGetBugCheckData</a> must supply this value. 
+The size, in bytes, of the <b>KBUGCHECK_DATA</b> structure. Callers of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetbugcheckdata">AuxKlibGetBugCheckData</a> must supply this value. 
 
 
 ### -field BugCheckCode
@@ -90,7 +90,7 @@ Bug check parameter 4. For more information about this parameter, see specific <
 
 
 
-The <b>KBUGCHECK_DATA</b> structure is used as a parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibgetbugcheckdata">AuxKlibGetBugCheckData</a>. 
+The <b>KBUGCHECK_DATA</b> structure is used as a parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetbugcheckdata">AuxKlibGetBugCheckData</a>. 
 
 
 
@@ -100,7 +100,7 @@ The <b>KBUGCHECK_DATA</b> structure is used as a parameter to <a href="https://d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibgetbugcheckdata">AuxKlibGetBugCheckData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/aux_klib/nf-aux_klib-auxklibgetbugcheckdata">AuxKlibGetBugCheckData</a>
  
 
  

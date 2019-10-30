@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-Minidrivers can optionally supply a callback function of type <b>PFNKSALLOCATOR</b> as a parameter in calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksenableeventwithallocator">KsEnableEventWithAllocator</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspropertyhandlerwithallocator">KsPropertyHandlerWithAllocator</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksmethodhandlerwithallocator">KsMethodHandlerWithAllocator</a>.
+Minidrivers can optionally supply a callback function of type <b>PFNKSALLOCATOR</b> as a parameter in calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksenableeventwithallocator">KsEnableEventWithAllocator</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspropertyhandlerwithallocator">KsPropertyHandlerWithAllocator</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksmethodhandlerwithallocator">KsMethodHandlerWithAllocator</a>.
 
 
 ## -parameters

@@ -48,7 +48,7 @@ req.typenames: OPTPARAM, *POPTPARAM
 ## -description
 
 
-An array of OPTPARAM structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/property-sheet-options">property sheet option</a>. The array's address is included in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_opttype">OPTTYPE</a> structure.
+An array of OPTPARAM structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/property-sheet-options">property sheet option</a>. The array's address is included in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_opttype">OPTTYPE</a> structure.
 
 
 ## -struct-fields

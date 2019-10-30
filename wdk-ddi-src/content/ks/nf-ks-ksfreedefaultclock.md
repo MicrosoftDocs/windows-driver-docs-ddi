@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsFreeDefaultClock</b> function frees a default clock structure previously allocated with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksallocatedefaultclock">KsAllocateDefaultClock</a>, taking into account any currently running timer DPCs. This assumes that all instances of the clock have been closed. This may actually just decrement the internal reference counter and allow a pending DPC to free the structure asynchronously.
+The <b>KsFreeDefaultClock</b> function frees a default clock structure previously allocated with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocatedefaultclock">KsAllocateDefaultClock</a>, taking into account any currently running timer DPCs. This assumes that all instances of the clock have been closed. This may actually just decrement the internal reference counter and allow a pending DPC to free the structure asynchronously.
 
 This may only be called at PASSIVE_LEVEL.
 

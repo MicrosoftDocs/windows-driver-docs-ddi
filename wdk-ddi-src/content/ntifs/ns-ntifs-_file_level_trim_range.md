@@ -80,7 +80,7 @@ Due to alignment requirements, the file system may reduce the of the trim range 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_level_trim">FILE_LEVEL_TRIM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_level_trim">FILE_LEVEL_TRIM</a>
  
 
  

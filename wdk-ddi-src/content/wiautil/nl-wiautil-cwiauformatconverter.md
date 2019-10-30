@@ -61,7 +61,7 @@ The <b>CWiauFormatConverter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiauformatconverter-~cwiauformatconverter">~CWiauFormatConverter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiauformatconverter-~cwiauformatconverter">~CWiauFormatConverter</a>
 </td>
 <td align="left" width="63%">
 The <b>~CWiauFormatConverter</b> method is the destructor for the <b>CWiauFormatConverter</b> class.
@@ -70,7 +70,7 @@ The <b>~CWiauFormatConverter</b> method is the destructor for the <b>CWiauFormat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiauformatconverter-converttobmp">ConvertToBmp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiauformatconverter-converttobmp">ConvertToBmp</a>
 </td>
 <td align="left" width="63%">
 The <b>ConvertToBmp</b> method converts an image to BMP format.
@@ -79,7 +79,7 @@ The <b>ConvertToBmp</b> method converts an image to BMP format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiauformatconverter-~cwiauformatconverter">CWiauFormatConverter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiauformatconverter-~cwiauformatconverter">CWiauFormatConverter</a>
 </td>
 <td align="left" width="63%">
 The <b>CWiauFormatConverter</b> method is the constructor for the <b>CWiauFormatConverter</b> class.
@@ -97,7 +97,7 @@ The <b>Init</b> method initializes the <b>CWiauFormatConverter</b> class and GDI
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiauformatconverter-isformatsupported">IsFormatSupported</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiauformatconverter-isformatsupported">IsFormatSupported</a>
 </td>
 <td align="left" width="63%">
 The <b>IsFormatSupported</b> method verifies that GDI+ supports the image format that is to be converted.

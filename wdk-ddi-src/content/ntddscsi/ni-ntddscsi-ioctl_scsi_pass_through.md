@@ -65,7 +65,7 @@ If a class driver for the target type of device exists, the request must be sent
 
 </li>
 <li>
-This request cannot be used if the CDB might require the underlying miniport driver to access memory directly. If the caller's CDB might require direct access to memory, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct">IOCTL_SCSI_PASS_THROUGH_DIRECT</a> instead. 
+This request cannot be used if the CDB might require the underlying miniport driver to access memory directly. If the caller's CDB might require direct access to memory, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct">IOCTL_SCSI_PASS_THROUGH_DIRECT</a> instead. 
 
 </li>
 <li>
@@ -79,7 +79,7 @@ Applications do not require administrative privileges to send a pass-through req
 </ul>
 The calling application creates the SCSI command descriptor block, which can include a request for request-sense data if a CHECK CONDITION occurs. 
 
-<b>IOCTL_SCSI_PASS_THROUGH</b> is a buffered device control request. To bypass buffering in system memory, callers should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>. When handling an <b>IOCTL_SCSI_PASS_THROUGH_DIRECT</b> request, the system locks down the buffer in user memory and the device accesses this memory directly. 
+<b>IOCTL_SCSI_PASS_THROUGH</b> is a buffered device control request. To bypass buffering in system memory, callers should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>. When handling an <b>IOCTL_SCSI_PASS_THROUGH_DIRECT</b> request, the system locks down the buffer in user memory and the device accesses this memory directly. 
 
 This request is typically used for transferring small amounts of data (<16K).
 
@@ -103,7 +103,7 @@ This structure includes a SCSI CDB, which must be initialized by the caller exce
 ### -input-buffer-length
 
 <b>
-       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be at least (<i>sense data size</i> + <b>sizeof</b>(SCSI_PASS_THROUGH)). The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_scsi_pass_through">SCSI_PASS_THROUGH</a> structure varies, depending on its <b>DataTransferLength</b> specification.
+       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be at least (<i>sense data size</i> + <b>sizeof</b>(SCSI_PASS_THROUGH)). The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through">SCSI_PASS_THROUGH</a> structure varies, depending on its <b>DataTransferLength</b> specification.
 
 
 ### -output-buffer
@@ -113,7 +113,7 @@ The port driver returns any request-sense data and any data transferred from the
 
 ### -output-buffer-length
 
-The <b>SenseInfoLength</b> and <b>DataTransferLength</b> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_scsi_pass_through">SCSI_PASS_THROUGH</a> structure are updated to indicate the amount of data transferred.
+The <b>SenseInfoLength</b> and <b>DataTransferLength</b> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through">SCSI_PASS_THROUGH</a> structure are updated to indicate the amount of data transferred.
 
 
 ### -in-out-buffer
@@ -136,7 +136,7 @@ The <b>SenseInfoLength</b> and <b>DataTransferLength</b> in the <a href="https:/
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_scsi_pass_through">SCSI_PASS_THROUGH</a> is improperly set. 
+The <b>Information</b> field is set to the number of bytes returned in the output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_BUFFER_TOO_SMALL or STATUS_INVALID_PARAMETER if the input <b>Length</b> value in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through">SCSI_PASS_THROUGH</a> is improperly set. 
 
 
 ## -see-also
@@ -144,7 +144,7 @@ The <b>Information</b> field is set to the number of bytes returned in the outpu
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_scsi_pass_through">SCSI_PASS_THROUGH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through">SCSI_PASS_THROUGH</a>
  
 
  

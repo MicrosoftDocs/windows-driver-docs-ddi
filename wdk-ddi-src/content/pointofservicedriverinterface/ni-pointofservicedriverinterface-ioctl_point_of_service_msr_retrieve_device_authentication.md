@@ -68,7 +68,7 @@ Not used with this operation; set to <b>0</b> (zero).
 
 ### -output-buffer
 
-Pointer to a buffer that receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicedriverinterface/ns-pointofservicedriverinterface-_msr_retrieve_device_authentication_data">MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA</a>.
+Pointer to a buffer that receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_msr_retrieve_device_authentication_data">MSR_RETRIEVE_DEVICE_AUTHENTICATION_DATA</a>.
 
 
 ### -output-buffer-length

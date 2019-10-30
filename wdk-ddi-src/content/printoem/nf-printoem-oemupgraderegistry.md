@@ -69,7 +69,7 @@ req.typenames:
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfn_drvupgraderegistrysetting">DrvUpgradeRegistrySetting</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvupgraderegistrysetting">DrvUpgradeRegistrySetting</a>
  
 
  

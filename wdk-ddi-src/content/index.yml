@@ -24,30 +24,30 @@ landingContent:
       - linkListType: reference
         links:
           - text: KMDF and UMDF
-            url: /windows-hardware/drivers/ddi/content/_wdf/
+            url: /windows-hardware/drivers/ddi/_wdf/
           - text: Core kernel
-            url: /windows-hardware/drivers/ddi/content/_kernel/
+            url: /windows-hardware/drivers/ddi/_kernel/
   
   - title: System
     linkLists:
       - linkListType: reference
         links:
           - text: Display
-            url: /windows-hardware/drivers/ddi/content/_display/
+            url: /windows-hardware/drivers/ddi/_display/
           - text: Battery
-            url: /windows-hardware/drivers/ddi/content/_battery/
+            url: /windows-hardware/drivers/ddi/_battery/
           - text: ACPI
-            url: /windows-hardware/drivers/ddi/content/_acpi/
+            url: /windows-hardware/drivers/ddi/_acpi/
           - text: Storage
-            url: /windows-hardware/drivers/ddi/content/_storage/
+            url: /windows-hardware/drivers/ddi/_storage/
           - text: File system
-            url: /windows-hardware/drivers/ddi/content/_ifsk/
+            url: /windows-hardware/drivers/ddi/_ifsk/
           - text: Hardware notifications
-            url: /windows-hardware/drivers/ddi/content/_gpiobtn/
+            url: /windows-hardware/drivers/ddi/_gpiobtn/
           - text: Power metering
-            url: /windows-hardware/drivers/ddi/content/_powermeter/
+            url: /windows-hardware/drivers/ddi/_powermeter/
           - text: Biometric
-            url: /windows-hardware/drivers/ddi/content/_biometric/
+            url: /windows-hardware/drivers/ddi/_biometric/
 
 
   - title:  Devices
@@ -55,15 +55,15 @@ landingContent:
       - linkListType: reference
         links:
           - text: Print
-            url: /windows-hardware/drivers/ddi/content/_print/
+            url: /windows-hardware/drivers/ddi/_print/
           - text: HID
-            url: /windows-hardware/drivers/ddi/content/_hid/
+            url: /windows-hardware/drivers/ddi/_hid/
           - text: Sensors
-            url: /windows-hardware/drivers/ddi/content/_sensors/
+            url: /windows-hardware/drivers/ddi/_sensors/
           - text: Point of service
-            url: /windows-hardware/drivers/ddi/content/_pos/
+            url: /windows-hardware/drivers/ddi/_pos/
           - text: Image and Scan
-            url: /windows-hardware/drivers/ddi/content/_image/
+            url: /windows-hardware/drivers/ddi/_image/
 
 
   - title: Connectivity
@@ -71,30 +71,30 @@ landingContent:
       - linkListType: reference
         links:
           - text: Network
-            url: /windows-hardware/drivers/ddi/content/_netvista/
+            url: /windows-hardware/drivers/ddi/_netvista/
           - text: Bluetooth
-            url: /windows-hardware/drivers/ddi/content/_bltooth/
+            url: /windows-hardware/drivers/ddi/_bltooth/
           - text: Smart Card Readers
-            url: /windows-hardware/drivers/ddi/content/_nfpdrivers/
+            url: /windows-hardware/drivers/ddi/_nfpdrivers/
 
   - title: Streaming
     linkLists:
       - linkListType: reference
         links:
           - text: Audio
-            url: /windows-hardware/drivers/ddi/content/_audio/
+            url: /windows-hardware/drivers/ddi/_audio/
           - text: Camera
-            url: /windows-hardware/drivers/ddi/content/_stream/
+            url: /windows-hardware/drivers/ddi/_stream/
 
   - title: Buses and ports
     linkLists:
       - linkListType: reference
         links:
           - text: USB
-            url: /windows-hardware/drivers/ddi/content/_usbref/
+            url: /windows-hardware/drivers/ddi/_usbref/
           - text: I2C, SPI
-            url: /windows-hardware/drivers/ddi/content/_spb/
+            url: /windows-hardware/drivers/ddi/_spb/
           - text: PCI
-            url: /windows-hardware/drivers/ddi/content/_pci/
+            url: /windows-hardware/drivers/ddi/_pci/
           - text: GPIO
-            url: /windows-hardware/drivers/ddi/content/_gpio/
+            url: /windows-hardware/drivers/ddi/_gpio/

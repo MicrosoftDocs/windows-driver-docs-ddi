@@ -86,11 +86,11 @@ This function is atomic only with respect to other <b>VideoPortInterlocked</b><i
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportinterlockeddecrement">VideoPortInterlockedDecrement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportinterlockeddecrement">VideoPortInterlockedDecrement</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportinterlockedexchange">VideoPortInterlockedExchange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportinterlockedexchange">VideoPortInterlockedExchange</a>
  
 
  

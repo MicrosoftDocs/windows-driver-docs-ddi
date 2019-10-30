@@ -48,7 +48,7 @@ req.typenames: USB_HUB_INFORMATION_EX, *PUSB_HUB_INFORMATION_EX
 ## -description
 
 
-The <b>USB_HUB_INFORMATION_EX</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_usb_get_hub_information_ex">IOCTL_USB_GET_HUB_INFORMATION_EX</a> I/O control request to retrieve information about a  Universal Serial Bus (USB) hub.
+The <b>USB_HUB_INFORMATION_EX</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_hub_information_ex">IOCTL_USB_GET_HUB_INFORMATION_EX</a> I/O control request to retrieve information about a  Universal Serial Bus (USB) hub.
 
 
 ## -struct-fields
@@ -58,7 +58,7 @@ The <b>USB_HUB_INFORMATION_EX</b> structure is used with the <a href="https://do
 
 ### -field HubType
 
-The type of hub: root hub, USB 2.0, or USB 3.0 hub. On successful completion of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_usb_get_hub_information_ex">IOCTL_USB_GET_HUB_INFORMATION_EX</a> I/O control request, <b>HubType</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ne-usbioctl-_usb_hub_type">USB_HUB_TYPE</a> enumerator that indicates the type of hub.
+The type of hub: root hub, USB 2.0, or USB 3.0 hub. On successful completion of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_hub_information_ex">IOCTL_USB_GET_HUB_INFORMATION_EX</a> I/O control request, <b>HubType</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ne-usbioctl-_usb_hub_type">USB_HUB_TYPE</a> enumerator that indicates the type of hub.
 
 
 
@@ -73,12 +73,12 @@ Indicates the number of ports on the hub. The ports are numbered from 1 to <b>Hi
 
 ### -field u.UsbHubDescriptor
 
-If <b>HubType</b> indicates a USB 2.0 hub,  <b>u.UsbHubDescriptor</b> is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbspec/ns-usbspec-_usb_hub_descriptor">USB_HUB_DESCRIPTOR</a> structure that contains selected information from the USB 2.0/1.1 hub descriptor, as defined in the USB 2.0 Specification. 
+If <b>HubType</b> indicates a USB 2.0 hub,  <b>u.UsbHubDescriptor</b> is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_hub_descriptor">USB_HUB_DESCRIPTOR</a> structure that contains selected information from the USB 2.0/1.1 hub descriptor, as defined in the USB 2.0 Specification. 
 
 
 ### -field u.Usb30HubDescriptor
 
-If <b>HubType</b> indicates a USB 3.0 hub,  <b>u.UsbHub30Descriptor</b> is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbspec/ns-usbspec-_usb_30_hub_descriptor">USB_30_HUB_DESCRIPTOR</a> structure that contains selected information from the USB 3.0 hub descriptor, as defined in the USB 3.0 Specification.
+If <b>HubType</b> indicates a USB 3.0 hub,  <b>u.UsbHub30Descriptor</b> is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_30_hub_descriptor">USB_30_HUB_DESCRIPTOR</a> structure that contains selected information from the USB 3.0 hub descriptor, as defined in the USB 3.0 Specification.
 
 
 ## -see-also
@@ -86,19 +86,19 @@ If <b>HubType</b> indicates a USB 3.0 hub,  <b>u.UsbHub30Descriptor</b> is a <a 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_usb_get_hub_information_ex">IOCTL_USB_GET_HUB_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_usb_get_hub_information_ex">IOCTL_USB_GET_HUB_INFORMATION_EX</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbspec/ns-usbspec-_usb_30_hub_descriptor">USB_30_HUB_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_30_hub_descriptor">USB_30_HUB_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbspec/ns-usbspec-_usb_hub_descriptor">USB_HUB_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_hub_descriptor">USB_HUB_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ne-usbioctl-_usb_hub_type">USB_HUB_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ne-usbioctl-_usb_hub_type">USB_HUB_TYPE</a>
  
 
  

@@ -100,7 +100,7 @@ This function returns S_OK on success, and a standard COM error code otherwise.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-routerunregisterforprintasyncnotifications">RouterUnregisterForPrintAsyncNotifications</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nf-prnasntp-routerunregisterforprintasyncnotifications">RouterUnregisterForPrintAsyncNotifications</a>
  
 
  

@@ -59,7 +59,7 @@ The<b> KsFilterFactoryAddCreateItem</b> function adds a new create item for the 
 
 ### -param FilterFactory [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> structure representing the filter factory to which to add a new create item.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> structure representing the filter factory to which to add a new create item.
 
 
 ### -param RefString [in]
@@ -69,12 +69,12 @@ A pointer to a Unicode text string that identifies the create item.
 
 ### -param SecurityDescriptor [in, optional]
 
-This parameter optionally contains a pointer to a SECURITY_DESCRIPTOR structure for this type of object. See the Microsoft Windows SDK For information about this structure. For related information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksobject_create_item">KSOBJECT_CREATE_ITEM</a>. If <b>NULL</b>, no descriptor is assigned.
+This parameter optionally contains a pointer to a SECURITY_DESCRIPTOR structure for this type of object. See the Microsoft Windows SDK For information about this structure. For related information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item">KSOBJECT_CREATE_ITEM</a>. If <b>NULL</b>, no descriptor is assigned.
 
 
 ### -param CreateItemFlags [in]
 
-See the table for the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksobject_create_item">KSOBJECT_CREATE_ITEM</a>.
+See the table for the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item">KSOBJECT_CREATE_ITEM</a>.
 
 
 ## -returns
@@ -102,27 +102,27 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksobject_create_item">KSOBJECT_CREATE_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item">KSOBJECT_CREATE_ITEM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksaddobjectcreateitemtodeviceheader">KsAddObjectCreateItemToDeviceHeader</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksaddobjectcreateitemtodeviceheader">KsAddObjectCreateItemToDeviceHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksaddobjectcreateitemtoobjectheader">KsAddObjectCreateItemToObjectHeader</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksaddobjectcreateitemtoobjectheader">KsAddObjectCreateItemToObjectHeader</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksallocateobjectcreateitem">KsAllocateObjectCreateItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksallocateobjectcreateitem">KsAllocateObjectCreateItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfreeobjectcreateitem">KsFreeObjectCreateItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfreeobjectcreateitem">KsFreeObjectCreateItem</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksqueryobjectcreateitem">KsQueryObjectCreateItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksqueryobjectcreateitem">KsQueryObjectCreateItem</a>
  
 
  

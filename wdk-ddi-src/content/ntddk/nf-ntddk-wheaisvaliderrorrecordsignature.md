@@ -58,7 +58,7 @@ The <b>WheaIsValidErrorRecordSignature </b>function verifies whether a WHEA <a h
 
 ### -param Record [in]
 
-A pointer to a WHEA <a href="https://docs.microsoft.com/windows-hardware/drivers/whea/error-records">error record</a> that is formatted as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure.
+A pointer to a WHEA <a href="https://docs.microsoft.com/windows-hardware/drivers/whea/error-records">error record</a> that is formatted as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure.
 
 
 ## -returns
@@ -74,7 +74,7 @@ A pointer to a WHEA <a href="https://docs.microsoft.com/windows-hardware/drivers
 
 
 
-The <b>WheaIsValidErrorRecordSignature </b>function verifies that the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure contains valid values.
+The <b>WheaIsValidErrorRecordSignature </b>function verifies that the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a> structure contains valid values.
 
 
 
@@ -88,11 +88,11 @@ The <b>WheaIsValidErrorRecordSignature </b>function verifies that the specified 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record">WHEA_ERROR_RECORD</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_header">WHEA_ERROR_RECORD_HEADER</a>
  
 
  

@@ -68,7 +68,7 @@ The <b>IBidiRequestContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequestcontainer-addrequest">AddRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequestcontainer-addrequest">AddRequest</a>
 </td>
 <td align="left" width="63%">
 Adds a request to the request list.
@@ -77,7 +77,7 @@ Adds a request to the request list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequestcontainer-getenumobject">GetEnumObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequestcontainer-getenumobject">GetEnumObject</a>
 </td>
 <td align="left" width="63%">
 Enumerates the number of requests in the list.
@@ -86,7 +86,7 @@ Enumerates the number of requests in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequestcontainer-getrequestcount">GetRequestCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequestcontainer-getrequestcount">GetRequestCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of requests in the list.
@@ -101,7 +101,7 @@ Gets the number of requests in the list.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">Bidirectional Communication Interfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
 
 

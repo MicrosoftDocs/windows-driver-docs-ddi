@@ -155,7 +155,7 @@ If the <i>ConversionError</i> value is greater than the expected value (determin
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keconvertauxiliarycountertoperformancecounter">KeConvertAuxiliaryCounterToPerformanceCounter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keconvertauxiliarycountertoperformancecounter">KeConvertAuxiliaryCounterToPerformanceCounter</a>
  
 
  

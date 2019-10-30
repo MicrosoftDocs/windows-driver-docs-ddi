@@ -70,7 +70,7 @@ The <b>IPrintCoreUI2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfn_drvgetdriversetting">DrvGetDriverSetting</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvgetdriversetting">DrvGetDriverSetting</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreUI2::DrvGetDriverSetting</code> method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can obtain the current status of printer features and other internal information.
@@ -79,7 +79,7 @@ The <code>IPrintCoreUI2::DrvGetDriverSetting</code> method is provided by the Wi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfn_drvupdateuisetting">DrvUpdateUISetting</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvupdateuisetting">DrvUpdateUISetting</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreUI2::DrvUpdateUISetting</code> method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can notify the driver of a modified user interface option.
@@ -88,7 +88,7 @@ The <code>IPrintCoreUI2::DrvUpdateUISetting</code> method is provided by the Win
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfn_drvupgraderegistrysetting">DrvUpgradeRegistrySetting</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfn_drvupgraderegistrysetting">DrvUpgradeRegistrySetting</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreUI2::DrvUpgradeRegistrySetting</code> method is provided by the Windows XP Pscript5 driver so that Pscript5 user interface plug-ins can update device settings stored in the registry.
@@ -97,7 +97,7 @@ The <code>IPrintCoreUI2::DrvUpgradeRegistrySetting</code> method is provided by 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreui2-enumconstrainedoptions">EnumConstrainedOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-enumconstrainedoptions">EnumConstrainedOptions</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreUI2::EnumConstrainedOptions</code> method determines which options of a feature are constrained.
@@ -106,7 +106,7 @@ The <code>IPrintCoreUI2::EnumConstrainedOptions</code> method determines which o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreui2-enumfeatures">EnumFeatures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-enumfeatures">EnumFeatures</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreUI2::EnumFeatures</code> method enumerates a printer's available features.
@@ -115,7 +115,7 @@ The <code>IPrintCoreUI2::EnumFeatures</code> method enumerates a printer's avail
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreui2-enumoptions">EnumOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-enumoptions">EnumOptions</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreUI2::EnumOptions</code> method enumerates the available options of a specific feature.
@@ -124,7 +124,7 @@ The <code>IPrintCoreUI2::EnumOptions</code> method enumerates the available opti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreui2-getfeatureattribute">GetFeatureAttribute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-getfeatureattribute">GetFeatureAttribute</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreUI2::GetFeatureAttribute</code> method retrieves the feature attribute list or the value of a specific feature attribute.
@@ -133,7 +133,7 @@ The <code>IPrintCoreUI2::GetFeatureAttribute</code> method retrieves the feature
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreui2-getglobalattribute">GetGlobalAttribute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-getglobalattribute">GetGlobalAttribute</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreUI2::GetGlobalAttribute</code> method retrieves the global attribute list or the value of a specific global attribute.
@@ -142,7 +142,7 @@ The <code>IPrintCoreUI2::GetGlobalAttribute</code> method retrieves the global a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreui2-getoptionattribute">GetOptionAttribute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-getoptionattribute">GetOptionAttribute</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreUI2::GetOptionAttribute</code> method retrieves the option attribute list or the value of a specific option attribute.
@@ -151,7 +151,7 @@ The <code>IPrintCoreUI2::GetOptionAttribute</code> method retrieves the option a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemacapabilities-getoptions">GetOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemacapabilities-getoptions">GetOptions</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreUI2::GetOptions</code> method retrieves the driver's current feature settings in the format of a list of feature/option keyword pairs.
@@ -160,7 +160,7 @@ The <code>IPrintCoreUI2::GetOptions</code> method retrieves the driver's current
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreui2-querysimulationsupport">QuerySimulationSupport</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-querysimulationsupport">QuerySimulationSupport</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreUI2::QuerySimulationSupport</code> method retrieves a spooler simulation capability structure, which indicates the kinds of simulation the spooler supports.
@@ -169,7 +169,7 @@ The <code>IPrintCoreUI2::QuerySimulationSupport</code> method retrieves a spoole
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreui2-setoptions">SetOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-setoptions">SetOptions</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreUI2::SetOptions</code> method sets the driver's feature settings.
@@ -178,7 +178,7 @@ The <code>IPrintCoreUI2::SetOptions</code> method sets the driver's feature sett
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreui2-whyconstrained">WhyConstrained</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintcoreui2-whyconstrained">WhyConstrained</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreUI2::WhyConstrained</code> method determines why the specified feature/option selection is constrained.

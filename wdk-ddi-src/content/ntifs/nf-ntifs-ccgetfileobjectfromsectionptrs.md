@@ -78,7 +78,7 @@ The file system is responsible for ensuring that the file object remains valid w
 
 By using <b>CcGetFileObjectFromSectionPtrs</b>, you lose some caching functionality. Instead, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539113">CcGetFileObjectFromSectionPtrsRef</a> routine, which provides the same functionality as <b>CcGetFileObjectFromSectionPtrs</b> as well as creating a reference for the object.
 
-For more information about creating mapped sections and views of memory, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Sections and Views</a>. 
+For more information about creating mapped sections and views of memory, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Sections and Views</a>. 
 
 
 

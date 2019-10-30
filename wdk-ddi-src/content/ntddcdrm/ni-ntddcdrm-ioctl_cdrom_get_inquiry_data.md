@@ -49,7 +49,7 @@ req.typenames:
 
 
 
-Returns the SCSI inquiry data for the CD-ROM device. This IOCTL can be used when a device has been exclusively locked with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_exclusive_access">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>.
+Returns the SCSI inquiry data for the CD-ROM device. This IOCTL can be used when a device has been exclusively locked with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_exclusive_access">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>.
 
 
 
@@ -71,12 +71,12 @@ None.
 
 ### -output-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the returned inquiry data. For a description of the layout of the inquiry data in the output buffer, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsi/ns-scsi-_inquirydata">INQUIRYDATA</a>.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the returned inquiry data. For a description of the layout of the inquiry data in the output buffer, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_inquirydata">INQUIRYDATA</a>.
 
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> indicates the number of bytes that can be written to <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be >= <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsi/ns-scsi-_inquirydata">INQUIRYDATA</a>).
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> indicates the number of bytes that can be written to <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be >= <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_inquirydata">INQUIRYDATA</a>).
 
 
 ### -in-out-buffer
@@ -111,11 +111,11 @@ The <b>Information</b> field contains the number of bytes returned in the output
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsi/ns-scsi-_inquirydata">INQUIRYDATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_inquirydata">INQUIRYDATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_exclusive_access">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_exclusive_access">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
  
 
  

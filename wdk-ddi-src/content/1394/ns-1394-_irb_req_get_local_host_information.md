@@ -167,7 +167,7 @@ GET_HOST_UNIQUE_ID
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_get_local_host_info1">GET_LOCAL_HOST_INFO1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info1">GET_LOCAL_HOST_INFO1</a>
 
 
 </td>
@@ -179,7 +179,7 @@ GET_HOST_CAPABILITIES
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_get_local_host_info2">GET_LOCAL_HOST_INFO2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info2">GET_LOCAL_HOST_INFO2</a>
 
 
 </td>
@@ -191,7 +191,7 @@ GET_POWER_SUPPLIED
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_get_local_host_info3">GET_LOCAL_HOST_INFO3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info3">GET_LOCAL_HOST_INFO3</a>
 
 
 </td>
@@ -203,7 +203,7 @@ GET_PHYS_ADDR_ROUTINE
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_get_local_host_info4">GET_LOCAL_HOST_INFO4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info4">GET_LOCAL_HOST_INFO4</a>
 
 
 </td>
@@ -215,7 +215,7 @@ GET_HOST_CONFIG_ROM
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_get_local_host_info5">GET_LOCAL_HOST_INFO5</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info5">GET_LOCAL_HOST_INFO5</a>
 
 
 </td>
@@ -227,7 +227,7 @@ GET_HOST_CSR_CONTENTS
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_get_local_host_info6">GET_LOCAL_HOST_INFO6</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info6">GET_LOCAL_HOST_INFO6</a>
 
 
 </td>
@@ -239,7 +239,7 @@ GET_HOST_DMA_CAPABILITIES
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_get_local_host_info7_w2k">GET_LOCAL_HOST_INFO7</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info7_w2k">GET_LOCAL_HOST_INFO7</a>
 
 
 </td>
@@ -251,7 +251,7 @@ GET_HOST_DDI_VERSION
 </td>
 <td>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_get_local_host_info8">GET_LOCAL_HOST_INFO8</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info8">GET_LOCAL_HOST_INFO8</a>
 
 
 </td>

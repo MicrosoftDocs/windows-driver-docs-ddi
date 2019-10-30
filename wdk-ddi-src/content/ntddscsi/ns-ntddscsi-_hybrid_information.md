@@ -48,7 +48,7 @@ req.typenames: HYBRID_INFORMATION, *PHYBRID_INFORMATION
 ## -description
 
 
-The <b>HYBRID_INFORMATION</b> structure contains hybrid disk capability information. The structure is returned when the HYBRID_FUNCTION_GET_INFO function is selected in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_hybrid">IOCTL_SCSI_MINIPORT_HYBRID</a> request  sent to an HBA miniport driver.
+The <b>HYBRID_INFORMATION</b> structure contains hybrid disk capability information. The structure is returned when the HYBRID_FUNCTION_GET_INFO function is selected in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_hybrid">IOCTL_SCSI_MINIPORT_HYBRID</a> request  sent to an HBA miniport driver.
 
 
 ## -struct-fields
@@ -317,7 +317,7 @@ An array of priority level descriptors. The number of descriptors present in the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_hybrid">IOCTL_SCSI_MINIPORT_HYBRID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_hybrid">IOCTL_SCSI_MINIPORT_HYBRID</a>
  
 
  

@@ -70,7 +70,7 @@ Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop
 
 ### -param pAttributeInfo [out]
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_attribute_info_3">ATTRIBUTE_INFO_3</a> structure that receives information about the print job.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3">ATTRIBUTE_INFO_3</a> structure that receives information about the print job.
 
 
 ## -returns
@@ -87,7 +87,7 @@ Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardwa
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_attribute_info_3">ATTRIBUTE_INFO_3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/ns-winddiui-_attribute_info_3">ATTRIBUTE_INFO_3</a>
 
 
 
@@ -95,7 +95,7 @@ Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardwa
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getjobattributesex">GetJobAttributesEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-getjobattributesex">GetJobAttributesEx</a>
  
 
  

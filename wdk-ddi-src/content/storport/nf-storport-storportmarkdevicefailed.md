@@ -80,4 +80,4 @@ The PnP manager will send an IRP to query the failed device's PnP state. If *Fla
 
 ## -see-also
 
-[IoInvalidateDeviceState](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioinvalidatedevicestate)
+[IoInvalidateDeviceState](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinvalidatedevicestate)

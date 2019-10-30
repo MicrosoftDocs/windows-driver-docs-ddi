@@ -61,13 +61,13 @@ The <b>FwpsOpenToken0</b> function opens an access token.<div class="alert"><b>N
 ### -param engineHandle [in]
 
 A handle for an open session to the filter engine. A callout driver calls the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a> function to open a
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a> function to open a
      session to the filter engine.
 
 
 ### -param modifiedId [in]
 
-Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a> that changes each time the token is modified. An application can use this value as a test of whether a security context has changed since it was last used.
+Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a> that changes each time the token is modified. An application can use this value as a test of whether a security context has changed since it was last used.
 
 
 ### -param desiredAccess [in]
@@ -126,7 +126,7 @@ An error occurred.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>
  
 
  

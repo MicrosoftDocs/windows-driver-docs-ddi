@@ -68,7 +68,7 @@ The <b>IBidiSpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidispl-binddevice">BindDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl-binddevice">BindDevice</a>
 </td>
 <td align="left" width="63%">
 Binds a printer to a bidi request.
@@ -77,7 +77,7 @@ Binds a printer to a bidi request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidispl-multisendrecv">MultiSendRecv</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl-multisendrecv">MultiSendRecv</a>
 </td>
 <td align="left" width="63%">
 Sends a list of bidi requests.
@@ -86,7 +86,7 @@ Sends a list of bidi requests.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidispl-sendrecv">SendRecv</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl-sendrecv">SendRecv</a>
 </td>
 <td align="left" width="63%">
 Sends a bidi request.
@@ -95,7 +95,7 @@ Sends a bidi request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidispl-unbinddevice">UnbindDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl-unbinddevice">UnbindDevice</a>
 </td>
 <td align="left" width="63%">
 Unbinds a printer.
@@ -110,7 +110,7 @@ Unbinds a printer.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">Bidirectional Communication Interfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
 
 
@@ -118,7 +118,7 @@ Unbinds a printer.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nn-bidispl-ibidispl">IBidiSpl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nn-bidispl-ibidispl">IBidiSpl</a>
  
 
  

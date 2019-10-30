@@ -216,7 +216,7 @@ Indicates that the media currently in the drive is a cleaner cartridge.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ni-ntddtape-ioctl_tape_get_status">IOCTL_TAPE_GET_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_get_status">IOCTL_TAPE_GET_STATUS</a>
  
 
  

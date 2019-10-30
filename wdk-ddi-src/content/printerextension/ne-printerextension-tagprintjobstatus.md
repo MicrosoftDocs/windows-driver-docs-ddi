@@ -144,7 +144,7 @@ It is possible for a job to have multiple  flag values specified simultaneously.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintjob-get_status">IPrintJob::Status</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintjob-get_status">IPrintJob::Status</a>
 
 
 

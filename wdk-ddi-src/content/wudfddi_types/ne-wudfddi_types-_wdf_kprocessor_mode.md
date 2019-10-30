@@ -82,7 +82,7 @@ Valid enumeration values were exceeded.
 
 
 
-The <b>WDF_KPROCESSOR_MODE</b> enumeration type is return type for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest2-getrequestormode">IWDFIoRequest2::GetRequestorMode</a>.
+The <b>WDF_KPROCESSOR_MODE</b> enumeration type is return type for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest2-getrequestormode">IWDFIoRequest2::GetRequestorMode</a>.
 
 
 
@@ -92,7 +92,7 @@ The <b>WDF_KPROCESSOR_MODE</b> enumeration type is return type for <a href="http
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest2-getrequestormode">IWDFIoRequest2::GetRequestorMode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest2-getrequestormode">IWDFIoRequest2::GetRequestorMode</a>
  
 
  

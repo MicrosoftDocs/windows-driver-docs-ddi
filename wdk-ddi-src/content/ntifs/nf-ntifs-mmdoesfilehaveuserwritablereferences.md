@@ -58,7 +58,7 @@ The <b>MmDoesFileHaveUserWritableReferences </b>function returns the number of w
 
 ### -param SectionPointer [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_section_object_pointers">SECTION_OBJECT_POINTERS</a> structure that contains the file object's section object pointers.  This parameter is required and cannot be <b>NULL</b>.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_section_object_pointers">SECTION_OBJECT_POINTERS</a> structure that contains the file object's section object pointers.  This parameter is required and cannot be <b>NULL</b>.
 
 
 ## -returns
@@ -90,7 +90,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/co
 
 </li>
 <li>
- The number of outstanding <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">MDL</a>s, which are mapping regions for the associated file object.
+ The number of outstanding <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>s, which are mapping regions for the associated file object.
 
 </li>
 </ul>
@@ -100,9 +100,9 @@ Prior to calling <b>MmDoesFileHaveUserWritableReferences</b>, transactional file
 
 <div class="alert"><b>Note</b>   This function can be used to detect if there are writable views for a file object even when all file handles and section handles for the file object have been closed.</div>
 <div> </div>
-For more information about transactions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-kernel-transaction-manager">Kernel Transaction Manager Design Guide</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Kernel Transaction Manager Routines</a>.
+For more information about transactions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-kernel-transaction-manager">Kernel Transaction Manager Design Guide</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Kernel Transaction Manager Routines</a>.
 
-For more information about file objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">FILE_OBJECT</a>.
+For more information about file objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>.
 
 
 
@@ -112,7 +112,7 @@ For more information about file objects, see <a href="https://docs.microsoft.com
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">FILE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_object">FILE_OBJECT</a>
  
 
  

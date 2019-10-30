@@ -167,7 +167,7 @@ A string of <b>InstanceIDLength</b> in length which contains a number that uniqu
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/acpiioct/ni-acpiioct-ioctl_acpi_get_device_information">IOCTL_ACPI_GET_DEVICE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_get_device_information">IOCTL_ACPI_GET_DEVICE_INFORMATION</a>
  
 
  

@@ -52,7 +52,7 @@ The <code>IPortEvents</code> interface is used by miniport drivers to notify cli
 
 Drivers typically use the <code>IPortEvents</code> interface to notify the system of hardware-generated volume or mute changes, although <code>IPortEvents</code> can be used for any type of event notification. <code>IPortEvents</code> interface is an optional lower-edge port driver interface. It can be used, for example, to notify <b>mixer</b> applications of control or mixer-line changes. For information about the <b>mixer</b> API, see the Microsoft Windows SDK documentation.
 
-A miniport driver exposes an event in the same way that it exposes properties: through an automation table (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>). The following objects, all of which are exposed by the miniport driver, can specify an automation table that contains properties and/or events:
+A miniport driver exposes an event in the same way that it exposes properties: through an automation table (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>). The following objects, all of which are exposed by the miniport driver, can specify an automation table that contains properties and/or events:
 <ul>
 <li>
 The filter that the miniport driver implements
@@ -66,7 +66,7 @@ Each pin that the filter exposes
 Each node that the filter exposes
 
 </li>
-</ul>Each event entry in an automation table is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcevent_item">PCEVENT_ITEM</a> that specifies the following:
+</ul>Each event entry in an automation table is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcevent_item">PCEVENT_ITEM</a> that specifies the following:
 <ul>
 <li>
 An event set
@@ -92,7 +92,7 @@ This section also describes the following routine for handling event requests:
 <dl>
 <dd>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nc-portcls-pcpfnevent_handler">EventHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nc-portcls-pcpfnevent_handler">EventHandler</a>
 
 
 </dd>

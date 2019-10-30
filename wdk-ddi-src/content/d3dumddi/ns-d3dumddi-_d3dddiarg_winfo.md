@@ -71,7 +71,7 @@ The D3DDDIARG_WINFO structure describes a w range for w buffering.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_updatewinfo">UpdateWInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updatewinfo">UpdateWInfo</a>
  
 
  

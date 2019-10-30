@@ -109,11 +109,11 @@ Many external applications or components that communicate with your application,
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-copyvaluestopropertystore">IPortableDeviceValues::CopyValuesToPropertyStore</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-copyvaluestopropertystore">IPortableDeviceValues::CopyValuesToPropertyStore</a>
  
 
  

@@ -58,29 +58,29 @@ The KSALLOCATOR_DISPATCH structure contains the callbacks required for a pin to 
 
 ### -field InitializeAllocator
 
-A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspininitializeallocator">AVStrMiniInitializeAllocator</a> callback routine.
+A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspininitializeallocator">AVStrMiniInitializeAllocator</a> callback routine.
 
 
 ### -field DeleteAllocator
 
-A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksdeleteallocator">AVStrMiniDeleteAllocator</a> callback routine.
+A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksdeleteallocator">AVStrMiniDeleteAllocator</a> callback routine.
 
 
 ### -field Allocate
 
-A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksdefaultallocate">AVStrMiniAllocate</a> callback routine.
+A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksdefaultallocate">AVStrMiniAllocate</a> callback routine.
 
 
 ### -field Free
 
-A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksdefaultfree">AVStrMiniAllocatorFreeFrame</a> callback routine.
+A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksdefaultfree">AVStrMiniAllocatorFreeFrame</a> callback routine.
 
 
 ## -remarks
 
 
 
-By providing a pointer to a KSALLOCATOR_DISPATCH structure in the relevant <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a> structure, a minidriver declares that the corresponding pin is capable of performing kernel-level allocation. The allocator might or might not be used by the graph manager. Note that memory allocated at kernel level cannot be passed to a user-mode filter.
+By providing a pointer to a KSALLOCATOR_DISPATCH structure in the relevant <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a> structure, a minidriver declares that the corresponding pin is capable of performing kernel-level allocation. The allocator might or might not be used by the graph manager. Note that memory allocated at kernel level cannot be passed to a user-mode filter.
 
 
 
@@ -90,7 +90,7 @@ By providing a pointer to a KSALLOCATOR_DISPATCH structure in the relevant <a hr
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>
  
 
  

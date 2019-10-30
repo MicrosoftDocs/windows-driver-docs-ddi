@@ -78,7 +78,7 @@ Use this method to determine the difference between stream time and system time.
 
 For the most accurate results, call this method only when the stream is in a running state (KSSTATE_RUN) and not during a state transition.
 
-You should use this method when obtaining a time stamp to put in the <b>PresentationTime</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>.
+You should use this method when obtaining a time stamp to put in the <b>PresentationTime</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-clocks">AVStream Clocks</a>.
 
@@ -92,7 +92,7 @@ AVStream uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/s
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
  
 
  

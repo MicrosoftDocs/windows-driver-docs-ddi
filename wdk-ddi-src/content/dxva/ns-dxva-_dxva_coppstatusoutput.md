@@ -68,14 +68,14 @@ Specifies the size, in bytes, of the status data at <b>COPPStatus</b>.
 
 ### -field COPPStatus
 
-Specifies an array that contains the status data. The display driver should return status data in one of the following ways, depending on the input value that was specified in the <b>guidStatusRequestID</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppstatusinput">DXVA_COPPStatusInput</a> structure: 
+Specifies an array that contains the status data. The display driver should return status data in one of the following ways, depending on the input value that was specified in the <b>guidStatusRequestID</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatusinput">DXVA_COPPStatusInput</a> structure: 
 
 | ****Input value**** | ****Output status data**** | 
 |:--|:--|
-| DXVA_COPPQueryDisplayData | Pointer to a [DXVA_COPPStatusDisplayData](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppstatusdisplaydata)  structure | 
-| DXVA_COPPQueryProtectionType, DXVA_COPPQueryConnectorType, DXVA_COPPQueryLocalProtectionLevel, DXVA_COPPQueryGlobalProtectionLevel or DXVA_COPPQueryBusData| Pointer to a [DXVA_COPPStatusData](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppstatusdata)  structure | 
-| DXVA_COPPQueryHDCPKeyData | Pointer to a [DXVA_COPPStatusHDCPKeyData](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppstatushdcpkeydata)  structure | 
-| DXVA_COPPQuerySignaling | Pointer to a [DXVA_COPPStatusSignalingCmdData](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppstatussignalingcmddata)  structure | 
+| DXVA_COPPQueryDisplayData | Pointer to a [DXVA_COPPStatusDisplayData](https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatusdisplaydata)  structure | 
+| DXVA_COPPQueryProtectionType, DXVA_COPPQueryConnectorType, DXVA_COPPQueryLocalProtectionLevel, DXVA_COPPQueryGlobalProtectionLevel or DXVA_COPPQueryBusData| Pointer to a [DXVA_COPPStatusData](https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatusdata)  structure | 
+| DXVA_COPPQueryHDCPKeyData | Pointer to a [DXVA_COPPStatusHDCPKeyData](https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatushdcpkeydata)  structure | 
+| DXVA_COPPQuerySignaling | Pointer to a [DXVA_COPPStatusSignalingCmdData](https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatussignalingcmddata)  structure | 
 
 
 
@@ -84,7 +84,7 @@ Specifies an array that contains the status data. The display driver should retu
 
 
 
-Status requests are passed in the <i>pInput</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/coppquerystatus">COPPQueryStatus</a> function. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppstatusinput">DXVA_COPPStatusInput</a> structure describes a request for status. Status information is returned through the <i>pOutput</i> parameter of <i>COPPQueryStatus</i>. 
+Status requests are passed in the <i>pInput</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/coppquerystatus">COPPQueryStatus</a> function. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatusinput">DXVA_COPPStatusInput</a> structure describes a request for status. Status information is returned through the <i>pOutput</i> parameter of <i>COPPQueryStatus</i>. 
 
 
 
@@ -98,27 +98,27 @@ Status requests are passed in the <i>pInput</i> parameter of the <a href="https:
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppsetprotectionlevelcmddata">DXVA_COPPSetProtectionLevelCmdData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppsetprotectionlevelcmddata">DXVA_COPPSetProtectionLevelCmdData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppstatusdata">DXVA_COPPStatusData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatusdata">DXVA_COPPStatusData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppstatusdisplaydata">DXVA_COPPStatusDisplayData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatusdisplaydata">DXVA_COPPStatusDisplayData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppstatushdcpkeydata">DXVA_COPPStatusHDCPKeyData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatushdcpkeydata">DXVA_COPPStatusHDCPKeyData</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppstatusinput">DXVA_COPPStatusInput</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatusinput">DXVA_COPPStatusInput</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppstatussignalingcmddata">DXVA_COPPStatusSignalingCmdData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatussignalingcmddata">DXVA_COPPStatusSignalingCmdData</a>
  
 
  

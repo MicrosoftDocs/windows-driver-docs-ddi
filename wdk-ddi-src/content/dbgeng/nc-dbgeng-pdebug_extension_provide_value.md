@@ -77,7 +77,7 @@ Provides behavioral flags. This parameter is currently reserved.
 
 ### -param Name [in]
 
-The name of the value to return. This name might be one of the names that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nc-dbgeng-pdebug_extension_query_value_names">DebugExtensionQueryValueNames</a> function returned or a name that the caller might already be aware of.
+The name of the value to return. This name might be one of the names that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_query_value_names">DebugExtensionQueryValueNames</a> function returned or a name that the caller might already be aware of.
 
 
 ### -param Value [out]
@@ -174,7 +174,7 @@ The name that the <i>Name</i> parameter specifies must start with <b>$$</b> and 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
 
 
 

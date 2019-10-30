@@ -117,7 +117,7 @@ Indicates the system ACL (SACL) of the object is being queried. Requires ACCESS_
 
 ### -param SecurityDescriptor [out]
 
-Caller-allocated buffer that <b>NtQuerySecurityObject</b> fills with a copy of the specified security descriptor. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure is returned in self-relative format. 
+Caller-allocated buffer that <b>NtQuerySecurityObject</b> fills with a copy of the specified security descriptor. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure is returned in self-relative format. 
 
 
 ### -param Length [in]
@@ -201,7 +201,7 @@ The NTFS file system imposes a 64K limit on the size of the security descriptor 
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK.
 
-Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltquerysecurityobject">FltQuerySecurityObject</a> instead of <b>NtQuerySecurityObject</b>. 
+Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltquerysecurityobject">FltQuerySecurityObject</a> instead of <b>NtQuerySecurityObject</b>. 
 
 <div class="alert"><b>Note</b>  If the call to the <b>NtQuerySecurityObject</b> function occurs in user mode, you should use the name "<b>NtQuerySecurityObject</b>" instead of "<b>ZwQuerySecurityObject</b>".</div>
 <div> </div>
@@ -215,11 +215,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltquerysecurityobject">FltQuerySecurityObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltquerysecurityobject">FltQuerySecurityObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 

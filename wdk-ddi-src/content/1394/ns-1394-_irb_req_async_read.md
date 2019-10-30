@@ -58,7 +58,7 @@ This structure contains the fields necessary for the 1394 stack to carry out an 
 
 ### -field DestinationAddress
 
-Specifies the 1394 64-bit destination address for this read operation. The driver only needs to fill in the <b>IA_Destination_Offset</b> member of <b>DestinationAddress</b>; the bus driver fills in the <b>IA_Destination_ID</b> member. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_io_address">IO_ADDRESS</a> for the structure description.
+Specifies the 1394 64-bit destination address for this read operation. The driver only needs to fill in the <b>IA_Destination_Offset</b> member of <b>DestinationAddress</b>; the bus driver fills in the <b>IA_Destination_ID</b> member. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_io_address">IO_ADDRESS</a> for the structure description.
 
 
 ### -field nNumberOfBytesToRead

@@ -108,7 +108,7 @@ The attribute is of type RECT.
 
 ### -field kADT_CUSTOMSIZEPARAMS
 
-The attribute is an array containing CUSTOMPARAM_MAX (a constant defined in printoem.h) elements. Each element is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_customsizeparam">CUSTOMSIZEPARAM</a> structure.
+The attribute is an array containing CUSTOMPARAM_MAX (a constant defined in printoem.h) elements. Each element is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_customsizeparam">CUSTOMSIZEPARAM</a> structure.
 
 
 ## -see-also
@@ -116,7 +116,7 @@ The attribute is an array containing CUSTOMPARAM_MAX (a constant defined in prin
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_customsizeparam">CUSTOMSIZEPARAM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_customsizeparam">CUSTOMSIZEPARAM</a>
  
 
  

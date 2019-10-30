@@ -62,7 +62,7 @@ Loads or unloads the tape, resets tape tension, locks or unlocks the ejection me
 ### -input-buffer
 
 
-       The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ns-ntddtape-_tape_prepare">TAPE_PREPARE</a> structure that indicates the type of operation.
+       The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_prepare">TAPE_PREPARE</a> structure that indicates the type of operation.
 
 If the <b>Immediate</b> member is <b>TRUE</b>, the operation should be asynchronous. 
 
@@ -110,15 +110,15 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ns-ntddtape-_tape_prepare">TAPE_PREPARE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_prepare">TAPE_PREPARE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/ne-minitape-_tape_status">TAPE_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/nc-minitape-tape_process_command_routine">TapeMiniPrepare</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniPrepare</a>
  
 
  

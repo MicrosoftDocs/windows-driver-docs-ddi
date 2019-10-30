@@ -84,7 +84,7 @@ The start routine for both SCSI and StorPort miniport drivers are declared using
 
 For more information about the SCSI miniport driver's start I/O routine see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557323(v=vs.85)">HwScsiStartIo</a>.
 
-For more information about the miniport driver's start I/O routine that is used with the StorPort driver see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_startio">HwStorStartIo</a>.
+For more information about the miniport driver's start I/O routine that is used with the StorPort driver see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a>.
 
 
 
@@ -98,7 +98,7 @@ For more information about the miniport driver's start I/O routine that is used 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_startio">HwStorStartIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a>
  
 
  

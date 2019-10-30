@@ -52,7 +52,7 @@ The `GetStream` method gets the stream interface.
 
 ### -param ppStream [out]
 
-A pointer to an [IPrintReadStream](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iprintreadstream) interface. The filter can use this interface to read the contents of the print ticket.
+A pointer to an [IPrintReadStream](https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintreadstream) interface. The filter can use this interface to read the contents of the print ticket.
 
 ## -returns
 

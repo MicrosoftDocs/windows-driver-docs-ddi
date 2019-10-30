@@ -89,11 +89,11 @@ For more information about the <b>WDF_USB_PIPE_DIRECTION_OUT</b> function and US
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdf_usb_pipe_direction_in">WDF_USB_PIPE_DIRECTION_IN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdf_usb_pipe_direction_in">WDF_USB_PIPE_DIRECTION_IN</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdfusbtargetpipeisoutendpoint">WdfUsbTargetPipeIsOutEndpoint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetpipeisoutendpoint">WdfUsbTargetPipeIsOutEndpoint</a>
  
 
  

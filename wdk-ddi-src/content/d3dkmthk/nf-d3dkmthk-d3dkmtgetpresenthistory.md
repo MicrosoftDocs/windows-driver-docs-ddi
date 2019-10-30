@@ -68,7 +68,7 @@ The <b>D3DKMTGetPresentHistory</b> function retrieves copying history.
 
 *pData* [in, out]
 
-Supplies a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_getpresenthistory">D3DKMT_GETPRESENTHISTORY</a> structure that describes the copying history.
+Supplies a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getpresenthistory">D3DKMT_GETPRESENTHISTORY</a> structure that describes the copying history.
 
 
 ## -returns
@@ -85,7 +85,7 @@ Returns <b>STATUS_SUCCESS</b> if copying history is successfully retrieved; othe
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_getpresenthistory">D3DKMT_GETPRESENTHISTORY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_getpresenthistory">D3DKMT_GETPRESENTHISTORY</a>
  
 
  

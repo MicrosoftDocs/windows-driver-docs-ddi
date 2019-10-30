@@ -132,7 +132,7 @@ Indicates that a driver object extension with the given <i>ClientIdentificationA
 
 Memory allocated by the system for the driver object extension is resident storage and is accessible from any IRQL. The allocated storage is automatically freed by the I/O manager when the driver object is deleted.
 
-Callers of this routine must provide a unique identifier for <i>ClientIdentificationAddress</i>. To retrieve a pointer to the context area, a caller passes the <i>ClientIdentificationAddress</i> to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdriverobjectextension">IoGetDriverObjectExtension</a>. 
+Callers of this routine must provide a unique identifier for <i>ClientIdentificationAddress</i>. To retrieve a pointer to the context area, a caller passes the <i>ClientIdentificationAddress</i> to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdriverobjectextension">IoGetDriverObjectExtension</a>. 
 
 
 
@@ -142,7 +142,7 @@ Callers of this routine must provide a unique identifier for <i>ClientIdentifica
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdriverobjectextension">IoGetDriverObjectExtension</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdriverobjectextension">IoGetDriverObjectExtension</a>
  
 
  

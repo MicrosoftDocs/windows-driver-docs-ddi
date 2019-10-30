@@ -48,7 +48,7 @@ req.typenames: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2
 ## -description
 
 
-<b>D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2">D3DKMTOpenSyncObjectFromNtHandle2</a> to open a monitored fence object.
+<b>D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2">D3DKMTOpenSyncObjectFromNtHandle2</a> to open a monitored fence object.
 
 
 ## -struct-fields
@@ -106,7 +106,7 @@ The consolidated value of the <b>MonitoredFence</b> structure.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2">D3DKMTOpenSyncObjectFromNtHandle2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopensyncobjectfromnthandle2">D3DKMTOpenSyncObjectFromNtHandle2</a>
  
 
  

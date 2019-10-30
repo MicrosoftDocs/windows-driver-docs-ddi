@@ -163,11 +163,11 @@ The value of <i>MaximumSize</i> is too big. This occurs when either <i>MaximumSi
  
 
 ## -remarks
-Once the handle pointed to by <i>SectionHandle</i> is no longer in use, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntclose">NtClose</a> to close it.
+Once the handle pointed to by <i>SectionHandle</i> is no longer in use, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntclose">NtClose</a> to close it.
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/object-handles">Object Handles</a>. 
 
-For more information about setting up mapped sections and views of memory, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Sections and Views</a>. 
+For more information about setting up mapped sections and views of memory, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Sections and Views</a>. 
 
 <div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<b>NtCreateSection</b>" instead of "<b>ZwCreateSection</b>".</div>
 <div> </div>

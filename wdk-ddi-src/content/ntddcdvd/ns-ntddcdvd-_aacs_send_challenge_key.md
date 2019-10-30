@@ -63,14 +63,14 @@ A value of type DVD_SESSION_ID that specifies an Authentication Grant Identifier
 
 ### -field ChallengeKey
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_aacs_challenge_key">AACS_CHALLENGE_KEY</a> that specifies the challenge key to retrieve.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_challenge_key">AACS_CHALLENGE_KEY</a> that specifies the challenge key to retrieve.
 
 
 ## -remarks
 
 
 
-Host software send this challenge key to an AACS-compliant device with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_aacs_send_challenge_key">IOCTL_AACS_SEND_CHALLENGE_KEY</a> request.
+Host software send this challenge key to an AACS-compliant device with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_send_challenge_key">IOCTL_AACS_SEND_CHALLENGE_KEY</a> request.
 
 
 
@@ -80,7 +80,7 @@ Host software send this challenge key to an AACS-compliant device with an <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_aacs_challenge_key">AACS_CHALLENGE_KEY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_challenge_key">AACS_CHALLENGE_KEY</a>
 
 
 
@@ -88,7 +88,7 @@ Host software send this challenge key to an AACS-compliant device with an <a hre
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_aacs_send_challenge_key">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_aacs_send_challenge_key">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
  
 
  

@@ -46,7 +46,7 @@ product:
 
 ## -description
 
-The <i>pfnAllocateCb</i> callback function controls heap allocation by using a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddicb_allocate_0022">D3D12DDICB_ALLOCATE_0022</a> value.
+The <i>pfnAllocateCb</i> callback function controls heap allocation by using a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddicb_allocate_0022">D3D12DDICB_ALLOCATE_0022</a> value.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ The handle for a device.
 
 ### -param Arg2
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddicb_allocate_0022">D3D12DDICB_ALLOCATE_0022</a> structure that contains information for an allocation.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddicb_allocate_0022">D3D12DDICB_ALLOCATE_0022</a> structure that contains information for an allocation.
 
 ## -returns
 
@@ -64,19 +64,19 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 ## -remarks
 
-Access this callback function by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0022">D3D12DDI_CORELAYER_DEVICECALLBACKS_0022</a> structure.
+Access this callback function by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0022">D3D12DDI_CORELAYER_DEVICECALLBACKS_0022</a> structure.
 
 The driver must check the return value of the function.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddicb_allocate_0022">D3D12DDICB_ALLOCATE_0022</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddicb_allocate_0022">D3D12DDICB_ALLOCATE_0022</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0022">D3D12DDI_CORELAYER_DEVICECALLBACKS_0022</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_corelayer_devicecallbacks_0022">D3D12DDI_CORELAYER_DEVICECALLBACKS_0022</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_deallocate_cb_0022">pfnDeallocateCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_deallocate_cb_0022">pfnDeallocateCb</a>
 

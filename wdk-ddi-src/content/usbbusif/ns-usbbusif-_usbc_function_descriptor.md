@@ -68,7 +68,7 @@ The number of interfaces in the interface collection.
 
 ### -field InterfaceDescriptorList
 
-An array of pointers to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a>-type structures that describe the interfaces in the interface collection.
+An array of pointers to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a>-type structures that describe the interfaces in the interface collection.
 
 
 ### -field HardwareId
@@ -100,7 +100,7 @@ Reserved.
 
 
 
-For information on how to use user-defined callback routines to provide a custom definition of the interface collections on a device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Customizing Enumeration of Interface Collections for Composite Devices</a>.
+For information on how to use user-defined callback routines to provide a custom definition of the interface collections on a device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Customizing Enumeration of Interface Collections for Composite Devices</a>.
 
 
 
@@ -110,11 +110,11 @@ For information on how to use user-defined callback routines to provide a custom
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a>
  
 
  

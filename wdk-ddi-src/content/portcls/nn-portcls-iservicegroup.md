@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <code>IServiceGroup</code> interface encapsulates a group of objects that all require notification of the same service request. When the service group object receives notification of the request, it forwards the notification to each of the objects in the group. The PortCls system driver implements the <code>IServiceGroup</code> interface and exposes it to miniport drivers. A miniport driver creates an <code>IServiceGroup</code> object by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcnewservicegroup">PcNewServiceGroup</a>. <code>IServiceGroup</code> inherits from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iservicesink">IServiceSink</a> interface.
+The <code>IServiceGroup</code> interface encapsulates a group of objects that all require notification of the same service request. When the service group object receives notification of the request, it forwards the notification to each of the objects in the group. The PortCls system driver implements the <code>IServiceGroup</code> interface and exposes it to miniport drivers. A miniport driver creates an <code>IServiceGroup</code> object by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcnewservicegroup">PcNewServiceGroup</a>. <code>IServiceGroup</code> inherits from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicesink">IServiceSink</a> interface.
 
 Port drivers typically use service group objects to demultiplex requests for interrupt service, although the functionality of a service group is general enough to make it potentially useful for other purposes as well. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/service-sink-and-service-group-objects">Service Sink and Service Group Objects</a>.
 
@@ -70,7 +70,7 @@ The <b>IServiceGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iservicegroup-addmember">IServiceGroup::AddMember</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicegroup-addmember">IServiceGroup::AddMember</a>
 </td>
 <td align="left" width="63%">
 The <code>AddMember</code> method adds a member to the service group.
@@ -79,7 +79,7 @@ The <code>AddMember</code> method adds a member to the service group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iservicegroup-canceldelayedservice">IServiceGroup::CancelDelayedService</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicegroup-canceldelayedservice">IServiceGroup::CancelDelayedService</a>
 </td>
 <td align="left" width="63%">
 The <code>CancelDelayedService</code> method cancels the previously requested delayed service.
@@ -88,7 +88,7 @@ The <code>CancelDelayedService</code> method cancels the previously requested de
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iservicegroup-removemember">IServiceGroup::RemoveMember</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicegroup-removemember">IServiceGroup::RemoveMember</a>
 </td>
 <td align="left" width="63%">
 The <code>RemoveMember</code> method removes the specified member from the service group.
@@ -97,7 +97,7 @@ The <code>RemoveMember</code> method removes the specified member from the servi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iservicegroup-requestdelayedservice">IServiceGroup::RequestDelayedService</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicegroup-requestdelayedservice">IServiceGroup::RequestDelayedService</a>
 </td>
 <td align="left" width="63%">
 The <code>RequestDelayedService</code> method requests service after the specified delay.
@@ -115,7 +115,7 @@ The RequestService method is called to forward a service request to an IServiceS
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iservicegroup-supportdelayedservice">IServiceGroup::SupportDelayedService</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicegroup-supportdelayedservice">IServiceGroup::SupportDelayedService</a>
 </td>
 <td align="left" width="63%">
 The <code>SupportDelayedService</code> method indicates that the service group should prepare to support delayed service.

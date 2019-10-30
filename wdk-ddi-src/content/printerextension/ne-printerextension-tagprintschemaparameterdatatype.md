@@ -79,7 +79,7 @@ This maps to the Print Schema’s StringParamType parameters, with UnitType not 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemaparameterdefinition-get_datatype">IPrintSchemaParameterDefinition::DataType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaparameterdefinition-get_datatype">IPrintSchemaParameterDefinition::DataType</a>
  
 
  

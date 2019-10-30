@@ -68,12 +68,12 @@ None.
 
 ### -output-buffer
 
-The driver returns the results of the vendor-specific command to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. Cast the structure returned to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_command">STORAGE_PROTOCOL_COMMAND</a> and check its <b>ReturnStatus</b> field to determine the status of the command request.
+The driver returns the results of the vendor-specific command to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. Cast the structure returned to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_protocol_command">STORAGE_PROTOCOL_COMMAND</a> and check its <b>ReturnStatus</b> field to determine the status of the command request.
 
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_command">STORAGE_PROTOCOL_COMMAND</a>). 
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_protocol_command">STORAGE_PROTOCOL_COMMAND</a>). 
 
 
 ### -in-out-buffer
@@ -104,7 +104,7 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_command">STORAGE_PROTOCOL_COMMAND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_protocol_command">STORAGE_PROTOCOL_COMMAND</a>
  
 
  

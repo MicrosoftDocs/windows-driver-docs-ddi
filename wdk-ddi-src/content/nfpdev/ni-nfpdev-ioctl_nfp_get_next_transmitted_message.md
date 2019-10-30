@@ -131,7 +131,7 @@ The client should send another IOCTL each time the pended one is completed.  The
 <li>
 The following actions are required when using this IOCTL:<ul>
 <li>
-If this IOCTL is received on a handle that hasn’t previously succeeded an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfpdev/ni-nfpdev-ioctl_nfp_set_payload">IOCTL_NFP_SET_PAYLOAD</a>, the driver MUST complete it with STATUS_INVALID_DEVICE_STATE.
+If this IOCTL is received on a handle that hasn’t previously succeeded an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfpdev/ni-nfpdev-ioctl_nfp_set_payload">IOCTL_NFP_SET_PAYLOAD</a>, the driver MUST complete it with STATUS_INVALID_DEVICE_STATE.
 
 </li>
 <li>

@@ -64,14 +64,14 @@ in Windows 8 and later.</div><div> </div>The
 
 A handle that identifies a DMA provider. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaregisterprovider">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
      NetDmaRegisterProvider</a> function.
 
 
 ### -param ProviderAttributes [in]
 
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_provider_attributes">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_attributes">
      NET_DMA_PROVIDER_ATTRIBUTES</a> structure that defines the DMA device attributes of the DMA
      provider.
 
@@ -97,13 +97,13 @@ DMA providers call the
 
 The DMA provider driver can also call 
     <b>NetDmaProviderStart</b> after the driver called the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaproviderstop">NetDmaProviderStop</a> function for
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaproviderstop">NetDmaProviderStop</a> function for
     application-specific reasons. DMA provider drivers call 
     <b>NetDmaProviderStop</b> to notify the NetDMA interface that a previously started DMA provider is no
     longer available.
 
 The DMA provider driver supplies a 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_provider_attributes">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_attributes">
     NET_DMA_PROVIDER_ATTRIBUTES</a> structure at the 
     <i>ProviderAttributes</i> parameter of 
     <b>NetDmaProviderStart</b>. The NET_DMA_PROVIDER_ATTRIBUTES structure specifies the configuration
@@ -125,15 +125,15 @@ Before a DMA provider driver calls
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_provider_attributes">NET_DMA_PROVIDER_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_attributes">NET_DMA_PROVIDER_ATTRIBUTES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaproviderstop">NetDmaProviderStop</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaproviderstop">NetDmaProviderStop</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
  
 
  

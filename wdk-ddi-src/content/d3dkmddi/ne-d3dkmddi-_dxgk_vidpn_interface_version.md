@@ -70,7 +70,7 @@ Indicates version 1 of the VidPN interface.
 
 
 
-The <i>VidPnInterfaceVersion</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_queryvidpninterface">DxgkCbQueryVidPnInterface</a> function and the <b>Version</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_vidpn_interface">DXGK_VIDPN_INTERFACE</a> structure are DXGK_VIDPN_INTERFACE_VERSION values.
+The <i>VidPnInterfaceVersion</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_queryvidpninterface">DxgkCbQueryVidPnInterface</a> function and the <b>Version</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_vidpn_interface">DXGK_VIDPN_INTERFACE</a> structure are DXGK_VIDPN_INTERFACE_VERSION values.
 
 
 
@@ -80,7 +80,7 @@ The <i>VidPnInterfaceVersion</i> parameter of the <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">VidPn Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">VidPn Interface</a>
  
 
  

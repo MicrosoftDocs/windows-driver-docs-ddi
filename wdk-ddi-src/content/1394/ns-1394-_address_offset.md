@@ -71,11 +71,11 @@ Specifies the low order offset for a IEEE 1394 address.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_get_local_host_info6">GET_LOCAL_HOST_INFO6</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_get_local_host_info6">GET_LOCAL_HOST_INFO6</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_io_address">IO_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_io_address">IO_ADDRESS</a>
 
 
 

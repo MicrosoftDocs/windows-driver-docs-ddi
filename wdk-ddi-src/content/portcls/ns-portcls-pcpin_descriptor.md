@@ -73,27 +73,27 @@ Specifies the minimum number of times that the pin needs to be instantiated on a
 
 ### -field AutomationTable
 
-Pointer to the automation table. This member is a pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>. The pointer can be <b>NULL</b> to indicate that no automation is supported. The automation table specifies the handlers for the properties and events belonging to the pin instance.
+Pointer to the automation table. This member is a pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>. The pointer can be <b>NULL</b> to indicate that no automation is supported. The automation table specifies the handlers for the properties and events belonging to the pin instance.
 
 
 ### -field KsPinDescriptor
 
-Describes the pin factory. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>. A pin factory can have zero interfaces and zero mediums. The list of interfaces is ignored in all cases. The standard-medium list will default to a list containing only device I/O (KSMEDIUM_STANDARD_DEVIO).
+Describes the pin factory. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>. A pin factory can have zero interfaces and zero mediums. The list of interfaces is ignored in all cases. The standard-medium list will default to a list containing only device I/O (KSMEDIUM_STANDARD_DEVIO).
 
 
 ## -remarks
 
 
 
-This structure is used to describe each of the pin factories that a miniport driver implements. The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcfilter_descriptor">PCFILTER_DESCRIPTOR</a> structure contains a pointer to an array of <b>PCPIN_DESCRIPTOR</b> structures. The number of elements in the array is equal to the number of pin factories in the filter.
+This structure is used to describe each of the pin factories that a miniport driver implements. The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcfilter_descriptor">PCFILTER_DESCRIPTOR</a> structure contains a pointer to an array of <b>PCPIN_DESCRIPTOR</b> structures. The number of elements in the array is equal to the number of pin factories in the filter.
 
-The <b>MaxGlobalInstanceCount</b>, <b>MaxFilterInstanceCount</b>, and <b>MinFilterInstanceCount</b> members are maximum and minimum counts that describe the pin's resource restrictions and functional requirements. An autoinitialized <b>PCPIN_DESCRIPTOR</b> array can present only a static estimate of the available pin resources. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-ipincount-pincount">IPinCount::PinCount</a> method provides a means for the driver to revise its list of available pin resources dynamically as pins are allocated and freed.
+The <b>MaxGlobalInstanceCount</b>, <b>MaxFilterInstanceCount</b>, and <b>MinFilterInstanceCount</b> members are maximum and minimum counts that describe the pin's resource restrictions and functional requirements. An autoinitialized <b>PCPIN_DESCRIPTOR</b> array can present only a static estimate of the available pin resources. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-ipincount-pincount">IPinCount::PinCount</a> method provides a means for the driver to revise its list of available pin resources dynamically as pins are allocated and freed.
 
 The <b>MaxGlobalInstanceCount</b> value is similar in meaning to:
 
 <ul>
 <li>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-ipincount-pincount">PinCount</a> method's <i>GlobalPossible</i> call parameter.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-ipincount-pincount">PinCount</a> method's <i>GlobalPossible</i> call parameter.
 
 </li>
 <li>
@@ -105,7 +105,7 @@ The <b>MaxFilterInstanceCount</b> value is similar in meaning to:
 
 <ul>
 <li>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-ipincount-pincount">PinCount</a> method's <i>FilterPossible</i> call parameter.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-ipincount-pincount">PinCount</a> method's <i>FilterPossible</i> call parameter.
 
 </li>
 <li>
@@ -117,7 +117,7 @@ The <b>MinFilterInstanceCount</b> value is similar in meaning to:
 
 <ul>
 <li>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-ipincount-pincount">PinCount</a> method's <i>FilterNecessary</i> call parameter.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-ipincount-pincount">PinCount</a> method's <i>FilterNecessary</i> call parameter.
 
 </li>
 <li>
@@ -139,11 +139,11 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-ipincount-pincount">IPinCount::PinCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-ipincount-pincount">IPinCount::PinCount</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>
 
 
 
@@ -159,7 +159,7 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>
  
 
  

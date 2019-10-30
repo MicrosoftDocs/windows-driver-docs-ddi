@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>VideoPortUnlockPages</b> function is <b>obsolete</b> in Windows 2000 and later. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportunlockbuffer">VideoPortUnlockBuffer</a> in place of this function.
+The <b>VideoPortUnlockPages</b> function is <b>obsolete</b> in Windows 2000 and later. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportunlockbuffer">VideoPortUnlockBuffer</a> in place of this function.
 
 <b>VideoPortUnlockPages</b> releases memory used for packet-based DMA.
 
@@ -93,7 +93,7 @@ This function can be called only within the context of a DMA IOCTL. It cannot be
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportunlockbuffer">VideoPortUnlockBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportunlockbuffer">VideoPortUnlockBuffer</a>
  
 
  

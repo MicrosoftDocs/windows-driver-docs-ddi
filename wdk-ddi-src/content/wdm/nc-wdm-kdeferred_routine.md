@@ -48,9 +48,9 @@ req.typenames:
 ## -description
 
 
-The callback routine performs actions, after an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kservice_routine">InterruptService</a> returns,  of a threaded DPC, 
+The callback routine performs actions, after an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a> returns,  of a threaded DPC, 
 
-The <i>CustomDpc</i> routine finishes the servicing of an I/O operation, after an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kservice_routine">InterruptService</a> routine returns.
+The <i>CustomDpc</i> routine finishes the servicing of an I/O operation, after an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a> routine returns.
 
 The <i>CustomThreadedDpc</i> routine performs the action of a threaded DPC. The system executes this routine when the threaded DPC runs.
 
@@ -69,16 +69,16 @@ Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardwar
 
 ### -param DeferredContext [in, optional]
 
-For <i>CustomDpc</i>, a caller-supplied pointer to driver-defined context information that was specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>.
+For <i>CustomDpc</i>, a caller-supplied pointer to driver-defined context information that was specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>.
 
-For <i>CustomThreadedDpc</i>, specifies driver-defined context information. When it initialized the DPC object, the driver supplied this value as the <i>DeferredContext</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializethreadeddpc">KeInitializeThreadedDpc</a>.
+For <i>CustomThreadedDpc</i>, specifies driver-defined context information. When it initialized the DPC object, the driver supplied this value as the <i>DeferredContext</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializethreadeddpc">KeInitializeThreadedDpc</a>.
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure, which represents the DPC object associated with this <i>CustomTimerDpc</i> routine.
 
 
 ### -param SystemArgument1 [in, optional]
 
-Caller-supplied pointer to driver-supplied information that was specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinsertqueuedpc">KeInsertQueueDpc</a>. When it added the DPC to the DPC queue, the driver supplied this value as the <i>SystemArgument1</i> parameter to <b>KeInsertQueueDpc</b>.
+Caller-supplied pointer to driver-supplied information that was specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc">KeInsertQueueDpc</a>. When it added the DPC to the DPC queue, the driver supplied this value as the <i>SystemArgument1</i> parameter to <b>KeInsertQueueDpc</b>.
 
 For <i>CustomTimerDpc</i>,  this value is not used.
 
@@ -103,9 +103,9 @@ None
 
 
 
-<b>About implementing <i>CustomDpc</i>:  </b>To create a DPC object and register a <i>CustomDpc</i> routine for that object, a driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>. (If you need only one DPC routine, you can use a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-io_dpc_routine">DpcForIsr</a> routine and the system-allocated DPC object.)
+<b>About implementing <i>CustomDpc</i>:  </b>To create a DPC object and register a <i>CustomDpc</i> routine for that object, a driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>. (If you need only one DPC routine, you can use a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_dpc_routine">DpcForIsr</a> routine and the system-allocated DPC object.)
 
-To queue a <i>CustomDpc</i> routine for execution, a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kservice_routine">InterruptService</a> routine must call <b>KeInsertQueueDpc</b>.
+To queue a <i>CustomDpc</i> routine for execution, a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kservice_routine">InterruptService</a> routine must call <b>KeInsertQueueDpc</b>.
 
 One or more <i>CustomDpc</i> routines can be used instead of, or in conjunction with, a <i>DpcForIsr</i> routine. A driver that maintains several internal IRP queues typically supplies a <i>CustomDpc</i> routine for each queue. Each <i>CustomDpc</i> routine is typically responsible for at least the following tasks:
 
@@ -115,11 +115,11 @@ Completing the I/O operation that is described by the current IRP.
 
 </li>
 <li>
-Dequeuing the next IRP from one of the driver's IRP queues. (Drivers that use the system-supplied IRP queue together with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_startio">StartIo</a> routine call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iostartnextpacket">IoStartNextPacket</a>.)
+Dequeuing the next IRP from one of the driver's IRP queues. (Drivers that use the system-supplied IRP queue together with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_startio">StartIo</a> routine call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartnextpacket">IoStartNextPacket</a>.)
 
 </li>
 <li>
-Setting the I/O status block in the current IRP and calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a> for the completed request.
+Setting the I/O status block in the current IRP and calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a> for the completed request.
 
 </li>
 </ul>
@@ -129,7 +129,7 @@ For more information about <i>CustomDpc</i> routines, see <a href="https://docs.
 
 
 
-<b>About implementing <i>CustomThreadedDpc</i>:  </b>A driver registers a <i>CustomThreadedDpc</i> for a DPC object by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializethreadeddpc">KeInitializeThreadedDpc</a>. To actually add the DPC to the DPC queue so that the <i>CustomThreadedDpc</i> routine will be executed, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinsertqueuedpc">KeInsertQueueDpc</a>.
+<b>About implementing <i>CustomThreadedDpc</i>:  </b>A driver registers a <i>CustomThreadedDpc</i> for a DPC object by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializethreadeddpc">KeInitializeThreadedDpc</a>. To actually add the DPC to the DPC queue so that the <i>CustomThreadedDpc</i> routine will be executed, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc">KeInsertQueueDpc</a>.
 
 For more information about using <i>CustomThreadedDpc</i> routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/threaded-dpcs">Threaded DPCs</a>.
 
@@ -137,9 +137,9 @@ A <i>CustomThreadedDpc</i> routine can run at IRQL = DISPATCH_LEVEL, or it can r
 
 
 
-<b>About implementing <i>CustomTimerDpc</i>:  </b>To create a DPC object and register a <i>CustomTimerDpc</i> routine for that object, a driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>.
+<b>About implementing <i>CustomTimerDpc</i>:  </b>To create a DPC object and register a <i>CustomTimerDpc</i> routine for that object, a driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>.
 
-To queue a <i>CustomTimerDpc</i> routine for execution, a driver routine must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesettimer">KeSetTimer</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>, supplying a DPC object pointer returned by <b>KeInitializeDpc</b>. The system calls the <i>CustomTimerDpc</i> routine when the timer interval expires.
+To queue a <i>CustomTimerDpc</i> routine for execution, a driver routine must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimer">KeSetTimer</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>, supplying a DPC object pointer returned by <b>KeInitializeDpc</b>. The system calls the <i>CustomTimerDpc</i> routine when the timer interval expires.
 
 For more information about <i>CustomTimerDpc</i> routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/timer-objects-and-dpcs">Timer Objects and DPCs</a>.
 
@@ -196,15 +196,15 @@ VOID
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinsertqueuedpc">KeInsertQueueDpc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinsertqueuedpc">KeInsertQueueDpc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesettimer">KeSetTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimer">KeSetTimer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>
  
 
  

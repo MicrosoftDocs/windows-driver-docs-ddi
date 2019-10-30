@@ -103,7 +103,7 @@ You must implement this method.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_scsiinquiry_in">ScsiInquiry_IN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_scsiinquiry_in">ScsiInquiry_IN</a>
  
 
  

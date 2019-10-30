@@ -58,7 +58,7 @@ Used in the <b>PEP_NOTIFY_PPM_ENTER_SYSTEM_STATE</b> notification to notify PEP 
 
 ### -field TargetState
 
-On input, a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>-type value that indicates the power state that the system is entering. 
+On input, a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>-type value that indicates the power state that the system is entering. 
 
 
 ## -remarks
@@ -77,7 +77,7 @@ PEP must not queue any work from this notification. The processors will not proc
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Processor power management (PPM) notifications</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Processor power management (PPM) notifications</a>
  
 
  

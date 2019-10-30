@@ -81,7 +81,7 @@ Adds a property key to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Clear</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Clear</a>
 </td>
 <td align="left" width="63%">
 Deletes all items from the collection.
@@ -99,7 +99,7 @@ Retrieves a <b>PROPERTYKEY</b> from the collection by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getcount">GetCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of keys in this collection.
@@ -108,7 +108,7 @@ Retrieves the number of keys in this collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicepropvariantcollection-removeat">RemoveAt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicepropvariantcollection-removeat">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes the element stored at the location specified by the given index.

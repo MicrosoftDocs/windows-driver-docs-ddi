@@ -70,7 +70,7 @@ Contains the number of hidden sectors in the partition.
 
 ## -see-also
 
-[IoReadPartitionTable](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-ioreadpartitiontable)
+[IoReadPartitionTable](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreadpartitiontable)
 
 [PARTITION_INFORMATION_EX](ns-ntdddisk-_partition_information_ex.md)
 

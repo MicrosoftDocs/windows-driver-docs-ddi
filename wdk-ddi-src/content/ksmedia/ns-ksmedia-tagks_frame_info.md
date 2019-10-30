@@ -47,7 +47,7 @@ ms.custom: 19H1
 
 ## -description
 
-The **KS_FRAME_INFO** structure extends the [KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksstream_header) structure for video streams.
+The **KS_FRAME_INFO** structure extends the [KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header) structure for video streams.
 
 ## -struct-fields
 
@@ -134,4 +134,4 @@ For more information about updating **PictureNumber** and **DropCount** see [Cap
 
 ## -see-also
 
-[KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksstream_header)
+[KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header)

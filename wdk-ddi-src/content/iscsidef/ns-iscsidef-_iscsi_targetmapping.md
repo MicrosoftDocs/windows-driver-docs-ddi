@@ -93,7 +93,7 @@ Reserved for Microsoft use only.
 
 ### -field LUNList
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_lunlist">ISCSI_LUNList</a> structure that holds a list of LUNs that are associated with the target device.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_lunlist">ISCSI_LUNList</a> structure that holds a list of LUNs that are associated with the target device.
 
 
 ## -remarks
@@ -116,7 +116,7 @@ Management applications can use the ISCSI_TargetMapping structure to specify a l
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_lunlist">ISCSI_LUNList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_lunlist">ISCSI_LUNList</a>
 
 
 

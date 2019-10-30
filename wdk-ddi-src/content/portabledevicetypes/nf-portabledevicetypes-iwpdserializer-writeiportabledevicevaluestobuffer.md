@@ -67,7 +67,7 @@ Serializes an <b>IPortableDeviceValues</b> interface to a caller-allocated byte 
 
 ### -param pResults [in]
 
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interface to serialize.
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interface to serialize.
 
 
 ### -param pBuffer [out]
@@ -134,7 +134,7 @@ The caller-provided buffer was not big enough.
 
 
 
-This method copies an <b>IPortableDeviceValues</b> interface into an existing buffer. If you want to allocate a new buffer, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-getbufferfromiportabledevicevalues">GetBufferFromIPortableDeviceValues</a>.
+This method copies an <b>IPortableDeviceValues</b> interface into an existing buffer. If you want to allocate a new buffer, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-getbufferfromiportabledevicevalues">GetBufferFromIPortableDeviceValues</a>.
 
 
 
@@ -144,7 +144,7 @@ This method copies an <b>IPortableDeviceValues</b> interface into an existing bu
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iwpdserializer">IWpdSerializer Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nn-portabledevicetypes-iwpdserializer">IWpdSerializer Interface</a>
  
 
  

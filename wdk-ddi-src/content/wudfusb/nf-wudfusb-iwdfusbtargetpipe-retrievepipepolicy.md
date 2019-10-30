@@ -92,7 +92,7 @@ A pointer that receives the buffer that contains the WinUsb pipe policy.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-retrievepipepolicy">RetrievePipePolicy</a> successfully retrieved the WinUsb pipe policy. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe-retrievepipepolicy">RetrievePipePolicy</a> successfully retrieved the WinUsb pipe policy. 
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ A pointer that receives the buffer that contains the WinUsb pipe policy.
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-retrievepipepolicy">RetrievePipePolicy</a> encountered an allocation failure.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe-retrievepipepolicy">RetrievePipePolicy</a> encountered an allocation failure.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Pipe policy controls the behavior of the USB pipe (for example, time-outs, handl
 
 For more information about valid policy types that a UMDF driver can pass for the <i>PolicyType</i> parameter and values that the framework returns, see the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_getpipepolicy">WinUsb_GetPipePolicy</a> function.
 
-For information about the behavior of the pipe policies, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB Functions for Pipe Policy Modification</a>.
+For information about the behavior of the pipe policies, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">WinUSB Functions for Pipe Policy Modification</a>.
 
 The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
@@ -145,11 +145,11 @@ The <b>RetrievePipePolicy</b> method generates a UMDF request and synchronously 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-setpipepolicy">IWDFUsbTargetPipe::SetPipePolicy</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe-setpipepolicy">IWDFUsbTargetPipe::SetPipePolicy</a>
 
 
 

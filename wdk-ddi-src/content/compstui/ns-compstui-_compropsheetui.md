@@ -48,7 +48,7 @@ req.typenames: COMPROPSHEETUI, *PCOMPROPSHEETUI
 ## -description
 
 
-The COMPROPSHEETUI structure is used as an input parameter to CPSUI's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function, if the function code is <a href="https://docs.microsoft.com/previous-versions/ff546388(v=vs.85)">CPSFUNC_ADD_PCOMPROPSHEETUI</a>. All structure members must be supplied by the caller of <i>ComPropSheet</i>.
+The COMPROPSHEETUI structure is used as an input parameter to CPSUI's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function, if the function code is <a href="https://docs.microsoft.com/previous-versions/ff546388(v=vs.85)">CPSFUNC_ADD_PCOMPROPSHEETUI</a>. All structure members must be supplied by the caller of <i>ComPropSheet</i>.
 
 
 ## -struct-fields
@@ -104,31 +104,31 @@ Caller-supplied pointer to a NULL-terminated text string representing the applic
 
 ### -field UserData
 
-Optional caller-supplied value, which CPSUI places in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_cpsuicbparam">CPSUICBPARAM</a> structure's <b>UserData</b> member when calling the function pointed to by <b>pfnCallBack</b>.
+Optional caller-supplied value, which CPSUI places in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_cpsuicbparam">CPSUICBPARAM</a> structure's <b>UserData</b> member when calling the function pointed to by <b>pfnCallBack</b>.
 
 
 ### -field pHelpFile
 
 Caller-supplied pointer to a NULL-terminated text string representing a path to a help file. For printer interface DLLs, this is typically the help file path obtained by calling GetPrinterDriver (described in the Microsoft Windows SDK documentation).
 
-The help file is indexed by values contained in the <b>HelpIndex</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_optitem">OPTITEM</a> structures.
+The help file is indexed by values contained in the <b>HelpIndex</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structures.
 
 
 ### -field pfnCallBack
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/nc-compstui-_cpsuicallback">_CPSUICALLBACK</a>-typed callback function, which CPSUI calls when a user modifies the page's option values.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-_cpsuicallback">_CPSUICALLBACK</a>-typed callback function, which CPSUI calls when a user modifies the page's option values.
 
-Can be used only if <b>pDlgPage</b> identifies a CPSUI-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_dlgpage">DLGPAGE</a> structure, or if the <b>DlgProc</b> member of an application-supplied DLGPAGE structure is <b>NULL</b>.
+Can be used only if <b>pDlgPage</b> identifies a CPSUI-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage">DLGPAGE</a> structure, or if the <b>DlgProc</b> member of an application-supplied DLGPAGE structure is <b>NULL</b>.
 
 
 ### -field pOptItem
 
-Caller-supplied pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_optitem">OPTITEM</a> structures describing the page's options.
+Caller-supplied pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structures describing the page's options.
 
 
 ### -field pDlgPage
 
-This member specifies <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_dlgpage">DLGPAGE</a> structures that describe pages to be added to the property sheet. It can be either of the following:
+This member specifies <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage">DLGPAGE</a> structures that describe pages to be added to the property sheet. It can be either of the following:
 
 <ul>
 <li>
@@ -143,7 +143,7 @@ One of the pointers that is described in the following list. These pointers refe
 <dd>
 Defines one treeview page whose tab reads <b>Advanced</b>.
 
-For use only by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a> function.
+For use only by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a> function.
 
 </dd>
 </dl>
@@ -154,7 +154,7 @@ For use only by a <a href="https://docs.microsoft.com/windows-hardware/drivers/d
 <dd>
 Defines three pages, whose tabs are <b>Layout</b>, <b>Paper/Quality</b>, and <b>Advanced</b>. The <b>Advanced</b> page is a treeview.
 
-For use only by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a> function.
+For use only by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets">DrvDocumentPropertySheets</a> function.
 
 </dd>
 </dl>
@@ -165,7 +165,7 @@ For use only by a <a href="https://docs.microsoft.com/windows-hardware/drivers/d
 <dd>
 Defines one treeview page whose tab reads <b>Device Settings</b>.
 
-For use only by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdevicepropertysheets">DrvDevicePropertySheets</a> function.
+For use only by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdevicepropertysheets">DrvDevicePropertySheets</a> function.
 
 </dd>
 </dl>
@@ -185,12 +185,12 @@ Defines one treeview page.
 
 ### -field cOptItem
 
-Caller-supplied number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_optitem">OPTITEM</a> structures pointed to by <b>pOptItem</b>.
+Caller-supplied number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_optitem">OPTITEM</a> structures pointed to by <b>pOptItem</b>.
 
 
 ### -field cDlgPage
 
-Caller-supplied number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_dlgpage">DLGPAGE</a> structures pointed to by <b>pDlgPage</b>. Not used if <b>pDlgPage</b> specifies a predefined CPSUI_PDLGPAGE-prefixed structure.
+Caller-supplied number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage">DLGPAGE</a> structures pointed to by <b>pDlgPage</b>. Not used if <b>pDlgPage</b> specifies a predefined CPSUI_PDLGPAGE-prefixed structure.
 
 
 ### -field IconID

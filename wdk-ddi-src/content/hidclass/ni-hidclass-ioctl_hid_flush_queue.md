@@ -107,7 +107,7 @@ The HID class driver sets the <b>Status</b> member of <b>Irp->IoStatus</b> to ST
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidsdi/nf-hidsdi-hidd_flushqueue">HidD_FlushQueue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_flushqueue">HidD_FlushQueue</a>
  
 
  

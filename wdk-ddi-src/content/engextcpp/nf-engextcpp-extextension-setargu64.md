@@ -58,7 +58,7 @@ The <b>SetArgU64</b> method sets a named expression argument for the current exp
 
 ### -param Name [in]
 
-Specifies the name of the argument.  The command-line description used in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-ext_command">EXT_COMMAND</a> must specify that the type of this argument is expression.
+Specifies the name of the argument.  The command-line description used in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-ext_command">EXT_COMMAND</a> must specify that the type of this argument is expression.
 
 
 ### -param Arg [in]
@@ -96,7 +96,7 @@ This method should only be called during the execution of an extension command p
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-ext_command">EXT_COMMAND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-ext_command">EXT_COMMAND</a>
 
 
 

@@ -58,7 +58,7 @@ The <b>KeQueryHardwareCounterConfiguration</b> routine queries the operating sys
 
 ### -param CounterArray [out]
 
-A pointer to a caller-allocated buffer into which the routine writes an array of elements of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_hardware_counter">HARDWARE_COUNTER</a>. Each array element is a structure that contains information about a hardware counter. The array contains one element for each hardware counter that is assigned to thread profiling. If the routine fails, it writes nothing to this buffer. 
+A pointer to a caller-allocated buffer into which the routine writes an array of elements of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_hardware_counter">HARDWARE_COUNTER</a>. Each array element is a structure that contains information about a hardware counter. The array contains one element for each hardware counter that is assigned to thread profiling. If the routine fails, it writes nothing to this buffer. 
 
 
 ### -param MaximumCount [in]
@@ -116,7 +116,7 @@ This routine is not implemented for the processor architecture that the caller i
 
 In Windows 7, this routine is implemented only for the x86-based, x64-based, and Itanium-based architectures. If the caller is running on a processor architecture that is not supported, the routine returns STATUS_NOT_IMPLEMENTED. 
 
-To set the hardware counter configuration to use for thread profiling, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-kesethardwarecounterconfiguration">KeSetHardwareCounterConfiguration</a> routine. 
+To set the hardware counter configuration to use for thread profiling, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesethardwarecounterconfiguration">KeSetHardwareCounterConfiguration</a> routine. 
 
 
 
@@ -126,11 +126,11 @@ To set the hardware counter configuration to use for thread profiling, call the 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_hardware_counter">HARDWARE_COUNTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_hardware_counter">HARDWARE_COUNTER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-kesethardwarecounterconfiguration">KeSetHardwareCounterConfiguration</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kesethardwarecounterconfiguration">KeSetHardwareCounterConfiguration</a>
  
 
  

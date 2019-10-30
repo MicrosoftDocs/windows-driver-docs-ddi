@@ -125,7 +125,7 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 
 
-If  <b>RequestContext</b> is a pointer, the data pointed to must remain valid until the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismindicatestatusex">NdisMIndicateStatusEx</a> returns.
+If  <b>RequestContext</b> is a pointer, the data pointed to must remain valid until the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismindicatestatusex">NdisMIndicateStatusEx</a> returns.
 
 
 

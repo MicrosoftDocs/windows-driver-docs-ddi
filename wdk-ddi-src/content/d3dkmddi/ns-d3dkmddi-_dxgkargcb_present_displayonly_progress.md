@@ -63,7 +63,7 @@ An integer that identifies a video present source.
 
 ### -field ProgressId
 
-A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_present_display_only_progress_id">DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID</a> that represents the status of the current present operation.
+A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_present_display_only_progress_id">DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID</a> that represents the status of the current present operation.
 
 
 ## -see-also
@@ -71,7 +71,7 @@ A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_present_display_only_progress_id">DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_present_display_only_progress_id">DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID</a>
  
 
  

@@ -52,7 +52,7 @@ The **IPrintOemUni::HalftonePattern** method can be used with Unidrv-supported p
 
 ### -param pdevobj
 
-Caller-supplied pointer to a [DEVOBJ](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj) structure.
+Caller-supplied pointer to a [DEVOBJ](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj) structure.
 
 ### -param pHTPattern
 
@@ -204,7 +204,7 @@ An implementation of a **HalftonePattern** method in the rendering plug-in must 
 }
 ```
 
-The **IPrintOemUni::HalftonePattern** method is optional. If a rendering plug-in implements this method, the plug-in's [IPrintOemUni::GetImplementedMethod](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod) method must return S_OK when it receives "HalftonePattern" as input.
+The **IPrintOemUni::HalftonePattern** method is optional. If a rendering plug-in implements this method, the plug-in's [IPrintOemUni::GetImplementedMethod](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod) method must return S_OK when it receives "HalftonePattern" as input.
 
 For more information about halftoning, see [Customized Halftoning](https://docs.microsoft.com/windows-hardware/drivers/print/customized-halftoning) and [Option Attributes for the Halftone Feature](https://docs.microsoft.com/windows-hardware/drivers/print/option-attributes-for-the-halftone-feature).
 
@@ -212,4 +212,4 @@ For more information about halftoning, see [Customized Halftoning](https://docs.
 
 [IPrintOemUni Interface](https://docs.microsoft.com/windows-hardware/drivers/print/iprintoemuni-com-interface)
 
-[IPrintOemUni::ImageProcessing](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing)
+[IPrintOemUni::ImageProcessing](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing)

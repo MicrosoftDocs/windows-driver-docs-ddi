@@ -71,7 +71,7 @@ Specifies the AV/C preconnection info.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/ns-avc-_avcpreconnectinfo">AVCPRECONNECTINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avcpreconnectinfo">AVCPRECONNECTINFO</a>
 
 
 

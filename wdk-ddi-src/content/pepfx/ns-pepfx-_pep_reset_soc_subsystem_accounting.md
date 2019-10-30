@@ -48,7 +48,7 @@ req.typenames: PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, *PPEP_RESET_SOC_SUBSYSTEM_ACC
 ## -description
 
 
-The <b>PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING</b> structure is provided to the platform extension plug-in (PEP) as part of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>. 
+The <b>PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING</b> structure is provided to the platform extension plug-in (PEP) as part of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>. 
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ This member is reserved and should be set to zero.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>
  
 
  

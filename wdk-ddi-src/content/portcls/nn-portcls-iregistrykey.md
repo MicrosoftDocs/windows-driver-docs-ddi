@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <code>IRegistryKey</code> interface provides an abstraction of a registry key that a miniport driver can use to access the key and its subkeys. The PortCls system driver implements this interface and exposes it to miniport drivers. A miniport driver obtains a reference to an <code>IRegistryKey</code> object by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcnewregistrykey">PcNewRegistryKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iport-newregistrykey">IPort::NewRegistryKey</a>. 
+The <code>IRegistryKey</code> interface provides an abstraction of a registry key that a miniport driver can use to access the key and its subkeys. The PortCls system driver implements this interface and exposes it to miniport drivers. A miniport driver obtains a reference to an <code>IRegistryKey</code> object by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcnewregistrykey">PcNewRegistryKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iport-newregistrykey">IPort::NewRegistryKey</a>. 
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/registry-key-objects">Registry Key Objects</a>.
 
@@ -70,7 +70,7 @@ The <b>IRegistryKey</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iregistrykey-deletekey">IRegistryKey::DeleteKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iregistrykey-deletekey">IRegistryKey::DeleteKey</a>
 </td>
 <td align="left" width="63%">
 The <code>DeleteKey</code> method deletes the registry key.
@@ -79,7 +79,7 @@ The <code>DeleteKey</code> method deletes the registry key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iregistrykey-enumeratekey">IRegistryKey::EnumerateKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iregistrykey-enumeratekey">IRegistryKey::EnumerateKey</a>
 </td>
 <td align="left" width="63%">
 The <code>EnumerateKey</code> method returns information about the subkeys of the open key.
@@ -88,7 +88,7 @@ The <code>EnumerateKey</code> method returns information about the subkeys of th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iregistrykey-enumeratevaluekey">IRegistryKey::EnumerateValueKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iregistrykey-enumeratevaluekey">IRegistryKey::EnumerateValueKey</a>
 </td>
 <td align="left" width="63%">
 The <code>EnumerateValueKey</code> method returns information about a registry entry that contains a value key.
@@ -97,7 +97,7 @@ The <code>EnumerateValueKey</code> method returns information about a registry e
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iregistrykey-newsubkey">IRegistryKey::NewSubKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iregistrykey-newsubkey">IRegistryKey::NewSubKey</a>
 </td>
 <td align="left" width="63%">
 The <code>NewSubKey</code> method either creates a new registry subkey or opens an existing subkey under the key represented by the <b>IRegistryKey</b> object.
@@ -106,7 +106,7 @@ The <code>NewSubKey</code> method either creates a new registry subkey or opens 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iregistrykey-querykey">IRegistryKey::QueryKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iregistrykey-querykey">IRegistryKey::QueryKey</a>
 </td>
 <td align="left" width="63%">
 The <code>QueryKey</code> method retrieves information about a registry key, including the key name, key class, and the number of subkeys and their sizes.
@@ -115,7 +115,7 @@ The <code>QueryKey</code> method retrieves information about a registry key, inc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iregistrykey-queryregistryvalues">IRegistryKey::QueryRegistryValues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iregistrykey-queryregistryvalues">IRegistryKey::QueryRegistryValues</a>
 </td>
 <td align="left" width="63%">
 The <code>QueryRegistryValues</code> method allows the caller to query several values from the registry with a single call.
@@ -124,7 +124,7 @@ The <code>QueryRegistryValues</code> method allows the caller to query several v
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iregistrykey-queryvaluekey">IRegistryKey::QueryValueKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iregistrykey-queryvaluekey">IRegistryKey::QueryValueKey</a>
 </td>
 <td align="left" width="63%">
 The <code>QueryValueKey</code> method retrieves information about a registry key's value entries, including their names, types, data sizes, and values.
@@ -133,7 +133,7 @@ The <code>QueryValueKey</code> method retrieves information about a registry key
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iregistrykey-setvaluekey">IRegistryKey::SetValueKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iregistrykey-setvaluekey">IRegistryKey::SetValueKey</a>
 </td>
 <td align="left" width="63%">
 The <code>SetValueKey</code> method replaces or creates a value entry under the open key.

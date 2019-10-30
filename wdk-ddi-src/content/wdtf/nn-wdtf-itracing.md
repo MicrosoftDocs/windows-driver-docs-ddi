@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>ITracing </b>interface sets an object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">TTraceLevel</a> value. This interface is a base interface for most of the WDTF interfaces.
+The <b>ITracing </b>interface sets an object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a> value. This interface is a base interface for most of the WDTF interfaces.
 
 
 ## -inheritance
@@ -81,7 +81,7 @@ Sets the tracing level for an object.
 
 
 
-Because the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iaction">IAction</a> interface inherits from the <b>ITracing</b> interface, all WDTF plug-ins will support <b>ITracing</b>. All of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WDTF core interfaces</a> should also support <b>ITracing</b>.
+Because the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iaction">IAction</a> interface inherits from the <b>ITracing</b> interface, all WDTF plug-ins will support <b>ITracing</b>. All of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">WDTF core interfaces</a> should also support <b>ITracing</b>.
 
 
 
@@ -91,15 +91,15 @@ Because the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/con
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iaction">IAction</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iaction">IAction</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">ITracing</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ITracing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">TTraceLevel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">TTraceLevel</a>
  
 
  

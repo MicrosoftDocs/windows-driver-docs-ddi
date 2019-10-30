@@ -58,7 +58,7 @@ The <code>IPrintOemUni2::WritePrinter</code> method, if supported, enables a ren
 
 ### -param pdevobj
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 
 ### -param pBuf
@@ -93,7 +93,7 @@ At <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drve
 
 This method should report the number of bytes written to the spooler's <b>WritePrinter</b> function in <i>pcbWritten</i>. A value of zero carries no special meaning; errors must be reported through the returned HRESULT.
 
-The <code>IPrintOemUni2::WritePrinter</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "WritePrinter" as input.
+The <code>IPrintOemUni2::WritePrinter</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "WritePrinter" as input.
 
 
 

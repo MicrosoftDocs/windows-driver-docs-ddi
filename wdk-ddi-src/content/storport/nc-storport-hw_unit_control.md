@@ -143,7 +143,7 @@ None
 
 </td>
 <td>
-Notifies the miniport if idle power management is enabled or disabled on the unit component. The miniport should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitializepofxpower">StorPortInitializePoFxPower</a> within this unit control if idle power management was enabled and it if supports runtime power management for the unit device.
+Notifies the miniport if idle power management is enabled or disabled on the unit component. The miniport should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializepofxpower">StorPortInitializePoFxPower</a> within this unit control if idle power management was enabled and it if supports runtime power management for the unit device.
 
 </td>
 <td>
@@ -197,7 +197,7 @@ None
 
 </td>
 <td>
-Notifies the miniport to set the unit component to the given functional power state (F-state). The miniport must support this control type if is specifies more than one F-state in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitializepofxpower">StorPortInitializePoFxPower</a>.
+Notifies the miniport to set the unit component to the given functional power state (F-state). The miniport must support this control type if is specifies more than one F-state in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializepofxpower">StorPortInitializePoFxPower</a>.
 
 </td>
 <td>
@@ -848,4 +848,4 @@ HW_UNIT_CONTROL (
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>

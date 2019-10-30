@@ -58,14 +58,14 @@ The <b>KeRegisterBoundCallback</b> routine registers a routine to be called when
 
 ### -param CallbackRoutine [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-bound_callback">BoundCallback</a> function.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-bound_callback">BoundCallback</a> function.
 
 
 ## -returns
 
 
 
-On success, <b>KeRegisterBoundCallback</b> returns an opaque pointer that the caller passes to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kederegisterboundcallback">KeDeregisterBoundCallback</a> to deregister the callback. The routine returns <b>NULL</b> if it is unable to register the callback.
+On success, <b>KeRegisterBoundCallback</b> returns an opaque pointer that the caller passes to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisterboundcallback">KeDeregisterBoundCallback</a> to deregister the callback. The routine returns <b>NULL</b> if it is unable to register the callback.
 
 
 
@@ -74,7 +74,7 @@ On success, <b>KeRegisterBoundCallback</b> returns an opaque pointer that the ca
 
 
 
-The <b>KeRegisterBoundCallback</b> routine provides the opportunity for a kernel-mode driver to intercept and handle user-mode bound exceptions. When a bounds exception for a user-mode thread occurs, the system calls the registered  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-bound_callback">BoundCallback</a> function to manage the bounds trap. The return value of the <i>BoundCallback</i> function indicates the action that the system should then perform, such as propagating the bounds exception or terminating the user-mode process. 
+The <b>KeRegisterBoundCallback</b> routine provides the opportunity for a kernel-mode driver to intercept and handle user-mode bound exceptions. When a bounds exception for a user-mode thread occurs, the system calls the registered  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-bound_callback">BoundCallback</a> function to manage the bounds trap. The return value of the <i>BoundCallback</i> function indicates the action that the system should then perform, such as propagating the bounds exception or terminating the user-mode process. 
 
 
 
@@ -84,7 +84,7 @@ The <b>KeRegisterBoundCallback</b> routine provides the opportunity for a kernel
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kederegisterboundcallback">KeDeregisterBoundCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisterboundcallback">KeDeregisterBoundCallback</a>
  
 
  

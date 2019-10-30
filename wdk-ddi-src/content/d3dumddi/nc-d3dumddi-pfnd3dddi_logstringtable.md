@@ -63,7 +63,7 @@ A handle to the Event Tracing for Windows (ETW) log that is to be written to.
 
 ### -param pfnLogStringTableEntryCb
 
-A function pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddicb_logstringtableentry">LogMarkerStringTableEntry</a> function that locates a string table entry.
+A function pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddicb_logstringtableentry">LogMarkerStringTableEntry</a> function that locates a string table entry.
 
 
 ## -returns
@@ -90,7 +90,7 @@ This function is free-threaded.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddicb_logstringtableentry">LogMarkerStringTableEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddicb_logstringtableentry">LogMarkerStringTableEntry</a>
  
 
  

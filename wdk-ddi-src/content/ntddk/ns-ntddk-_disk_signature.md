@@ -87,7 +87,7 @@ Specifies the GUID that uniquely identifies the disk. The <b>Gpt</b> member of t
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-ioreaddisksignature">IoReadDiskSignature</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioreaddisksignature">IoReadDiskSignature</a>
  
 
  

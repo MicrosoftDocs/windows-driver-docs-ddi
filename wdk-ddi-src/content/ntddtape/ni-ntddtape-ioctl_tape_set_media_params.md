@@ -62,7 +62,7 @@ Resets the block size of the media in the drive.
 ### -input-buffer
 
 
-       The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ns-ntddtape-_tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a> structure containing the block size to be set. 
+       The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a> structure containing the block size to be set. 
 
 
 ### -input-buffer-length
@@ -108,15 +108,15 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ns-ntddtape-_tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ns-ntddtape-_tape_set_media_parameters">TAPE_SET_MEDIA_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/ne-minitape-_tape_status">TAPE_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ne-minitape-_tape_status">TAPE_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/nc-minitape-tape_process_command_routine">TapeMiniSetMediaParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniSetMediaParameters</a>
  
 
  

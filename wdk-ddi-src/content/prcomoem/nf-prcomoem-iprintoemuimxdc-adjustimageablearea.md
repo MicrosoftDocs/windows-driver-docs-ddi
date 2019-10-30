@@ -111,7 +111,7 @@ If the plug-in cannot complete the operation, it should return an appropriate fa
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemuimxdc">IPrintOemUIMXDC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuimxdc">IPrintOemUIMXDC</a>
 
 
 

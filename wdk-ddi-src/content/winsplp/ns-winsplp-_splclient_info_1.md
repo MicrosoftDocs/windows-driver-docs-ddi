@@ -48,7 +48,7 @@ req.typenames: SPLCLIENT_INFO_1, *PSPLCLIENT_INFO_1, *LPSPLCLIENT_INFO_1
 ## -description
 
 
-The SPLCLIENT_INFO_1 structure is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-generatecopyfilepaths">GenerateCopyFilePaths</a> function that is exported by <a href="https://docs.microsoft.com/windows-hardware/drivers/print/point-and-print-dlls">Point and Print DLLs</a>.
+The SPLCLIENT_INFO_1 structure is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-generatecopyfilepaths">GenerateCopyFilePaths</a> function that is exported by <a href="https://docs.microsoft.com/windows-hardware/drivers/print/point-and-print-dlls">Point and Print DLLs</a>.
 
 
 ## -struct-fields
@@ -95,7 +95,7 @@ The client's processor architecture, as returned by the Window SDK <b>GetSystemI
 
 
 
-Values for all structure members are supplied by the print spooler before the spooler calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-generatecopyfilepaths">GenerateCopyFilePaths</a>.
+Values for all structure members are supplied by the print spooler before the spooler calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-generatecopyfilepaths">GenerateCopyFilePaths</a>.
 
 
 

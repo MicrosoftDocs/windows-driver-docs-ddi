@@ -53,16 +53,16 @@ The **WdfDriverRetrieveDriverDataDirectoryString** method returns a path to a di
 ## -parameters
 
 ### -param Driver
-[_In_] A handle to the driver's framework driver object that the driver obtained from a previous call to [**WdfDriverCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfdrivercreate) or [**WdfDeviceGetDriver**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicegetdriver).
+[_In_] A handle to the driver's framework driver object that the driver obtained from a previous call to [**WdfDriverCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate) or [**WdfDeviceGetDriver**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicegetdriver).
 
 ### -param String
-[_In_] A handle to a framework string object that the driver obtained from a previous call to [**WdfStringCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfstring/nf-wdfstring-wdfstringcreate). The framework assigns the fully qualified path of the requested driver directory to the string object.
+[_In_] A handle to a framework string object that the driver obtained from a previous call to [**WdfStringCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfstring/nf-wdfstring-wdfstringcreate). The framework assigns the fully qualified path of the requested driver directory to the string object.
 
 ## -returns
 **WdfDriverRetrieveDriverDataDirectoryString** returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method returns an appropriate NTSTATUS error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
-To achieve the same result, a KMDF driver should call [**IoGetDriverDirectory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdriverdirectory) instead.
+To achieve the same result, a KMDF driver should call [**IoGetDriverDirectory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdriverdirectory) instead.
 
 For more information about string objects, see [Using String Objects](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects).
 
@@ -92,6 +92,6 @@ if (NT_SUCCESS(status)) {
 
 ## -see-also
 
-[**IoGetDriverDirectory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdriverdirectory)
+[**IoGetDriverDirectory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdriverdirectory)
 
-[_DRIVER_DIRECTORY_TYPE Enumeration](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_driver_directory_type)
+[_DRIVER_DIRECTORY_TYPE Enumeration](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_driver_directory_type)

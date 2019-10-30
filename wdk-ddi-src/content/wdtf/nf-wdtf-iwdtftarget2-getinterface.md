@@ -120,7 +120,7 @@ For more information about the <b>GetInterface</b> method,
 see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/controlling-targets">Controlling Targets</a>.
 
 For detailed descriptions of the interfaces that WDTF includes, 
-see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Action Interfaces</a>.
+see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Action Interfaces</a>.
 
 
 
@@ -130,7 +130,7 @@ see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ind
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
  
 
  

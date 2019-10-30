@@ -75,7 +75,7 @@ The <b>PsGetProcessExitTime</b> routine returns the exit time for the current pr
 
 System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. This value is computed for the GMT time zone. To adjust this value for the local time zone, use <b>ExSystemTimeToLocalTime</b>.
 
-For more information about converting time values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Data Conversions</a>. 
+For more information about converting time values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Data Conversions</a>. 
 
 
 
@@ -85,15 +85,15 @@ For more information about converting time values, see <a href="https://docs.mic
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exsystemtimetolocaltime">ExSystemTimeToLocalTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exsystemtimetolocaltime">ExSystemTimeToLocalTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerysystemtime">KeQuerySystemTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime">KeQuerySystemTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-psisthreadterminating">PsIsThreadTerminating</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psisthreadterminating">PsIsThreadTerminating</a>
  
 
  

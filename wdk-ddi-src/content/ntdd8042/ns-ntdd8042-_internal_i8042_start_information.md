@@ -75,7 +75,7 @@ Reserved for future use.
 
 
 
-This structure is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_mouse_start_information">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a> requests.
+This structure is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_mouse_start_information">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a> requests.
 
 
 
@@ -85,11 +85,11 @@ This structure is used with <a href="https://docs.microsoft.com/windows-hardware
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_mouse_start_information">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_mouse_start_information">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a>
  
 
  

@@ -112,7 +112,7 @@ In the paging I/O path.
 </li>
 
 <li>
-When the <b>TopLevelIrp</b> field of the current thread is not <b>NULL</b>, because the resulting file system recursion could cause deadlocks or stack overflows. (For more information about this issue, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iogettoplevelirp">IoGetTopLevelIrp</a>.)
+When the <b>TopLevelIrp</b> field of the current thread is not <b>NULL</b>, because the resulting file system recursion could cause deadlocks or stack overflows. (For more information about this issue, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogettoplevelirp">IoGetTopLevelIrp</a>.)
 </li>
 
 <li>
@@ -135,7 +135,7 @@ In a postoperation callback routine for IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATI
 </li>
 
 <li>
-When all APCs are disabled; that is, when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keareallapcsdisabled">KeAreAllApcsDisabled</a> returns TRUE.
+When all APCs are disabled; that is, when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keareallapcsdisabled">KeAreAllApcsDisabled</a> returns TRUE.
 </li>
 
 </ul>
@@ -268,7 +268,7 @@ The following paired operations can cause the file name *name* to be tunneled:
 
 [FltReleaseFileNameInformation](nf-fltkernel-fltreleasefilenameinformation.md)
 
-[IoGetTopLevelIrp](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iogettoplevelirp)
+[IoGetTopLevelIrp](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogettoplevelirp)
 
 [PFLT_POST_OPERATION_CALLBACK](nc-fltkernel-pflt_post_operation_callback.md)
 

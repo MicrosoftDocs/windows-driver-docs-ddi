@@ -116,7 +116,7 @@ A required pointer argument was <b>NULL</b>.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledeviceclassextension/nn-portabledeviceclassextension-iportabledeviceclassextension">IPortableDeviceClassExtension Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledeviceclassextension/nn-portabledeviceclassextension-iportabledeviceclassextension">IPortableDeviceClassExtension Interface</a>
 
 
 

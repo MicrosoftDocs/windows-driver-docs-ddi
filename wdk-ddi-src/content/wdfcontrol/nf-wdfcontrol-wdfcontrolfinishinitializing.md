@@ -86,7 +86,7 @@ For more information about control device objects and calling <b>WdfControlFinis
 
 #### Examples
 
-For a code example that uses <b>WdfControlFinishInitializing</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>.
+For a code example that uses <b>WdfControlFinishInitializing</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>.
 
 <div class="code"></div>
 

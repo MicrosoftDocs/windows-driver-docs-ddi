@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>RECORDER_LOG_CREATE_PARAMS_INIT</b> function is used to initialize the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wpprecorder/ns-wpprecorder-_recorder_log_create_params">RECORDER_LOG_CREATE_PARAMS</a> structure.
+The <b>RECORDER_LOG_CREATE_PARAMS_INIT</b> function is used to initialize the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_recorder_log_create_params">RECORDER_LOG_CREATE_PARAMS</a> structure.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>RECORDER_LOG_CREATE_PARAMS_INIT</b> function is used to initialize the <a
 
 ### -param Params [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wpprecorder/ns-wpprecorder-_recorder_log_create_params">RECORDER_LOG_CREATE_PARAMS</a> structure to initialize.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_recorder_log_create_params">RECORDER_LOG_CREATE_PARAMS</a> structure to initialize.
 
 
 ### -param LogIdentifier [in, optional]
@@ -78,7 +78,7 @@ This function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wpprecorder/ns-wpprecorder-_recorder_log_create_params">RECORDER_LOG_CREATE_PARAMS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_recorder_log_create_params">RECORDER_LOG_CREATE_PARAMS</a>
  
 
  

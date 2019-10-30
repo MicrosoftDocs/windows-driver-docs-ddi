@@ -96,7 +96,7 @@ Specifies the 61883-5 specification for SDL-DVCR data transmission. PAL. This fo
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_avcstrm_format_info">AVCSTRM_FORMAT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_avcstrm_format_info">AVCSTRM_FORMAT_INFO</a>
  
 
  

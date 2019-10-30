@@ -68,7 +68,7 @@ Contains the status of the operation. For a list of allowed values and their des
 
 ### -field Statistics
 
-Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_msfc_hbaportstatistics">MSFC_HBAPortStatistics</a> with statistical information about the port. 
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hbapiwmi/ns-hbapiwmi-_msfc_hbaportstatistics">MSFC_HBAPortStatistics</a> with statistical information about the port. 
 
 
 ## -see-also

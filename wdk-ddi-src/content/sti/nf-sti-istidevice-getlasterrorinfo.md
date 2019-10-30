@@ -65,7 +65,7 @@ The <b>IStiDevice::GetLastErrorInfo</b> method returns information about the las
 
 #### - pLastErrorInf [out]
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_error_infow">STI_ERROR_INFO</a> structure to receive error information.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_error_infow">STI_ERROR_INFO</a> structure to receive error information.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 
-The <b>IStiDevice::GetLastErrorInfo</b> method returns information about the most recent error by filling in the caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_error_infow">STI_ERROR_INFO</a> structure. The method calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-getlasterrorinfo">IStiUSD::GetLastErrorInfo</a>, which is exported by vendor-supplied minidrivers.
+The <b>IStiDevice::GetLastErrorInfo</b> method returns information about the most recent error by filling in the caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_error_infow">STI_ERROR_INFO</a> structure. The method calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getlasterrorinfo">IStiUSD::GetLastErrorInfo</a>, which is exported by vendor-supplied minidrivers.
 
 Before calling <b>IStiDevice::GetLastErrorInfo</b>, clients of the <b>IStiDevice</b> COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a> to obtain an <b>IStiDevice</b> interface pointer, which provides access to a specified device.
 

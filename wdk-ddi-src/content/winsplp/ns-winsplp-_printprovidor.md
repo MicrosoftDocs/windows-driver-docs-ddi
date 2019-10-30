@@ -50,7 +50,7 @@ req.typenames: PRINTPROVIDOR, *LPPRINTPROVIDOR
 > [!WARNING]
 > Starting with Windows 10, the APIs which support third-party print providers are deprecated. Microsoft does not recommend any investment into third-party print providers. Additionally, on Windows 8 and newer products where the v4 print driver model is available, third-party print providers may not create or manage queues which use v4 print drivers.
 
-The PRINTPROVIDOR structure is used as a parameter to a print provider's [InitializePrintProvidor](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-initializeprintprovidor) function. All structure member values are supplied by the provider.
+The PRINTPROVIDOR structure is used as a parameter to a print provider's [InitializePrintProvidor](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintprovidor) function. All structure member values are supplied by the provider.
 
 ## -struct-fields
 
@@ -478,9 +478,9 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 
 ## -see-also
 
-[FindFirstPrinterChangeNotification](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winspool/nf-winspool-findfirstprinterchangenotification)
+[FindFirstPrinterChangeNotification](https://docs.microsoft.com/windows-hardware/drivers/ddi/winspool/nf-winspool-findfirstprinterchangenotification)
 
-[InitializePrintProvidor](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-initializeprintprovidor)
+[InitializePrintProvidor](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-initializeprintprovidor)
 
 [RefreshPrinterChangeNotification](https://docs.microsoft.com/previous-versions/ff561930(v=vs.85))
 

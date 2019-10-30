@@ -63,7 +63,7 @@ Reserved for system use.
 
 ### -field AccessState
 
-Reserved for use by file systems and file system filter drivers. This member is a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_access_state">ACCESS_STATE</a> structure that contains the object's subject context, granted access types, and remaining desired access types. 
+Reserved for use by file systems and file system filter drivers. This member is a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state">ACCESS_STATE</a> structure that contains the object's subject context, granted access types, and remaining desired access types. 
 
 
 ### -field DesiredAccess
@@ -85,7 +85,7 @@ Reserved for system use.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_access_state">ACCESS_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_access_state">ACCESS_STATE</a>
 
 
 

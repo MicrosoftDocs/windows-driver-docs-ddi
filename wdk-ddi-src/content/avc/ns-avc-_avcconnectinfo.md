@@ -90,7 +90,7 @@ The plug number (within the subunit) described by the AVCPRECONNECTINFO structur
 
 
 
-This structure is used only as member inside the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/ns-avc-_avc_setconnect_info">AVC_SETCONNECT_INFO</a> structure. It is not used by itself.
+This structure is used only as member inside the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_setconnect_info">AVC_SETCONNECT_INFO</a> structure. It is not used by itself.
 
 
 

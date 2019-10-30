@@ -89,6 +89,6 @@ typedef enum {
 
 ## -see-also
 
-[KsReleaseIrpOnCancelableQueue](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksreleaseirponcancelablequeue)
+[KsReleaseIrpOnCancelableQueue](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksreleaseirponcancelablequeue)
 
-[KsRemoveSpecificIrpFromCancelableQueue](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksremovespecificirpfromcancelablequeue)
+[KsRemoveSpecificIrpFromCancelableQueue](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksremovespecificirpfromcancelablequeue)

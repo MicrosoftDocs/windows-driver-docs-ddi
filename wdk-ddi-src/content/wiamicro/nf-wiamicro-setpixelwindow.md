@@ -52,7 +52,7 @@ The **SetPixelWindow** function sets the image area to be scanned.
 
 ### -param pScanInfo [in, out]
 
-Points to a [SCANINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamicro/ns-wiamicro-_scaninfo) structure that represents the current state of the device. This is stored by the WIA Flatbed driver to guarantee synchronized settings between the microdriver and the WIA Flatbed driver.
+Points to a [SCANINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamicro/ns-wiamicro-_scaninfo) structure that represents the current state of the device. This is stored by the WIA Flatbed driver to guarantee synchronized settings between the microdriver and the WIA Flatbed driver.
 
 ### -param x
 
@@ -76,10 +76,10 @@ If the function succeeds, it returns S_OK. If the function fails, it returns a s
 
 ## -remarks
 
-In this function, the microdriver should set up the **Window** member of the [SCANINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamicro/ns-wiamicro-_scaninfo) structure, making any device-specific adjustments that are necessary.
+In this function, the microdriver should set up the **Window** member of the [SCANINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamicro/ns-wiamicro-_scaninfo) structure, making any device-specific adjustments that are necessary.
 
 ## -see-also
 
-[SCANINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamicro/ns-wiamicro-_scaninfo)
+[SCANINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamicro/ns-wiamicro-_scaninfo)
 
-[WIA Microdriver Structures](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index)
+[WIA Microdriver Structures](https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index)

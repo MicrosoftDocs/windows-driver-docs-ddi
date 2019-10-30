@@ -59,16 +59,16 @@ The **IKsReferenceClock** interface has these methods.
 
 | Method | Description |
 | --- | --- |
-| [IKsReferenceClock::GetCorrelatedPhysicalTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-iksreferenceclock-getcorrelatedphysicaltime) | Queries the associated reference clock for the current correlated physical time and system time. |
-| [IKsReferenceClock::GetCorrelatedTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-iksreferenceclock-getcorrelatedtime) | Concurrently queries the associated reference clock for current stream time and acquires the system time. Use if obtaining a time stamp for the **PresentationTime** member of [KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksstream_header). |
-| [IKsReferenceClock::GetPhysicalTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-iksreferenceclock-getphysicaltime) | Queries the associated reference clock for the current physical time. |
-| [IKsReferenceClock::GetResolution](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-iksreferenceclock-getresolution) | Queries the associated reference clock for its resolution. |
-| [IKsReferenceClock::GetState](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-iksreferenceclock-getstate) | Queries the associated reference clock for its current state. |
-| [IKsReferenceClock::GetTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-iksreferenceclock-gettime) | Queries the associated reference clock for the current time. |
+| [IKsReferenceClock::GetCorrelatedPhysicalTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-getcorrelatedphysicaltime) | Queries the associated reference clock for the current correlated physical time and system time. |
+| [IKsReferenceClock::GetCorrelatedTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-getcorrelatedtime) | Concurrently queries the associated reference clock for current stream time and acquires the system time. Use if obtaining a time stamp for the **PresentationTime** member of [KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header). |
+| [IKsReferenceClock::GetPhysicalTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-getphysicaltime) | Queries the associated reference clock for the current physical time. |
+| [IKsReferenceClock::GetResolution](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-getresolution) | Queries the associated reference clock for its resolution. |
+| [IKsReferenceClock::GetState](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-getstate) | Queries the associated reference clock for its current state. |
+| [IKsReferenceClock::GetTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-gettime) | Queries the associated reference clock for the current time. |
 
 ## -remarks
 
-The minidriver can acquire an **IKsReferenceClock** interface by calling [KsPinGetReferenceClockInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingetreferenceclockinterface). Because this is a COM-style interface, **KsPinGetReferenceClockInterface** calls **QueryInterface**, which in turn invokes **AddRef** to increment the interface pointer. This means that when the minidriver is finished with the **IKsReferenceClock** interface, the minidriver must release it by calling **Release**.
+The minidriver can acquire an **IKsReferenceClock** interface by calling [KsPinGetReferenceClockInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface). Because this is a COM-style interface, **KsPinGetReferenceClockInterface** calls **QueryInterface**, which in turn invokes **AddRef** to increment the interface pointer. This means that when the minidriver is finished with the **IKsReferenceClock** interface, the minidriver must release it by calling **Release**.
 
 Clients that are written in C will see the **IKsReferenceClock** interface as a structure that contains a pointer to a table of functions instead of a C++ abstract base class. A client that is written in C++ might do the following:
 
@@ -104,8 +104,8 @@ For more information, see [AVStream Overview](https://docs.microsoft.com/windows
 
 ## -see-also
 
-[KsPinGetConnectedFilterInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingetconnectedfilterinterface)
+[KsPinGetConnectedFilterInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedfilterinterface)
 
-[KsPinGetConnectedPinInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingetconnectedpininterface)
+[KsPinGetConnectedPinInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpininterface)
 
-[KsPinGetReferenceClockInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingetreferenceclockinterface)
+[KsPinGetReferenceClockInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface)

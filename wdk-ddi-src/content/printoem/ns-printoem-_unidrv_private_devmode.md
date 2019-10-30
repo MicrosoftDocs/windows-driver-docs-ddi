@@ -86,8 +86,8 @@ To safely determine the address of the private portion of your plug-in's DEVMODE
 
     The preceding example starts with the address of the public DEVMODEW structure (pdm), adds the number of bytes of this structure (pdm->dmSize), and then adds the size in bytes of the Unidrv private DEVMODEW structure (**wSize**). A plug-in's private DEVMODEW data begins at this memory address. If there are multiple plug-ins chained together, the address returned by this example is that of the first plug-in's private DEVMODEW data. The second plug-in's private DEVMODEW data follows the first plug-in's private DEVMODEW data, the third plug-in's private DEVMODEW data follows that of the second plug-in's private DEVMODEW data, and so on. A plug-in developer who needs to determine the address of the *n*-th plug-in's private DEVMODEW data must know the sizes of the private DEVMODEW data for the first *n* - 1 plug-ins.
 
-4. Verify that the private portion of your plug-in's DEVMODEW structure begins with a valid [OEM_DMEXTRAHEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_oem_dmextraheader) structure.
+4. Verify that the private portion of your plug-in's DEVMODEW structure begins with a valid [OEM_DMEXTRAHEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oem_dmextraheader) structure.
 
 ## -see-also
 
-[PSCRIPT5_PRIVATE_DEVMODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pscript5_private_devmode)
+[PSCRIPT5_PRIVATE_DEVMODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_pscript5_private_devmode)

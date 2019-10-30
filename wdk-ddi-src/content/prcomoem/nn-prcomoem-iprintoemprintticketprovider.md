@@ -68,7 +68,7 @@ The <b>IPrintOemPrintTicketProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemprintticketprovider-getsupportedversions">GetSupportedVersions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemprintticketprovider-getsupportedversions">GetSupportedVersions</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemPrintTicketProvider::GetSupportedVersions</code> method retrieves major versions of the print schemas that are supported by the plug-in provider.
@@ -86,7 +86,7 @@ The <code>IPrintOemPrintTicketProvider::BindPrinter</code> method enables the co
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemprintticketprovider-completeprintcapabilities">IPrintOemPrintTicketProvider::CompletePrintCapabilities</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemprintticketprovider-completeprintcapabilities">IPrintOemPrintTicketProvider::CompletePrintCapabilities</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemPrintTicketProvider::CompletePrintCapabilities</code> method fills in the remaining entries of the specified print capabilities document. 
@@ -104,7 +104,7 @@ The <code>IPrintOemPrintTicketProvider::ConvertDevModeToPrintTicket</code> metho
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemprintticketprovider-convertprinttickettodevmode">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemprintticketprovider-convertprinttickettodevmode">IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</code> method converts a print ticket to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure. 
@@ -113,7 +113,7 @@ The <code>IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode</code> metho
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemprintticketprovider-expandintentoptions">IPrintOemPrintTicketProvider::ExpandIntentOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemprintticketprovider-expandintentoptions">IPrintOemPrintTicketProvider::ExpandIntentOptions</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemPrintTicketProvider::ExpandIntentOptions</code> method enables the plug-in to expand printer options (such as photo printing) into individual feature settings in the print ticket. 
@@ -122,7 +122,7 @@ The <code>IPrintOemPrintTicketProvider::ExpandIntentOptions</code> method enable
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemprintticketprovider-publishprinttickethelperinterface">IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemprintticketprovider-publishprinttickethelperinterface">IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface</code> method publishes the print ticket helper interface for either Unidrv or Pscript5 user interface (UI) plug-ins.
@@ -131,7 +131,7 @@ The <code>IPrintOemPrintTicketProvider::PublishPrintTicketHelperInterface</code>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemprintticketprovider-querydevicedefaultnamespace">IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemprintticketprovider-querydevicedefaultnamespace">IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace</code> method queries the device for its default namespace uniform resource identifier (URI).

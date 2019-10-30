@@ -86,7 +86,7 @@ For more information about resource requirements lists and logical configuration
 
 #### Examples
 
-For a code example that uses <b>WdfIoResourceListGetCount</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcerequirementslistgetioreslist">WdfIoResourceRequirementsListGetIoResList</a>.
+For a code example that uses <b>WdfIoResourceListGetCount</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcerequirementslistgetioreslist">WdfIoResourceRequirementsListGetIoResList</a>.
 
 <div class="code"></div>
 
@@ -97,7 +97,7 @@ For a code example that uses <b>WdfIoResourceListGetCount</b>, see <a href="http
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcerequirementslistgetioreslist">WdfIoResourceRequirementsListGetIoResList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfioresourcerequirementslistgetioreslist">WdfIoResourceRequirementsListGetIoResList</a>
  
 
  

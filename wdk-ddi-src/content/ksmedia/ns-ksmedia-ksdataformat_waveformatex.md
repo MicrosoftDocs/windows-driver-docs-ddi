@@ -58,7 +58,7 @@ The KSDATAFORMAT_WAVEFORMATEX structure provides detailed information about the 
 
 ### -field DataFormat
 
-Specifies the general features of the stream's data format. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>.
+Specifies the general features of the stream's data format. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>.
 
 
 ### -field WaveFormatEx
@@ -70,9 +70,9 @@ Describes the wave-specific details of the audio stream's data format. This memb
 
 
 
-In response to an input <i>DataRange</i> parameter that specifies a WAVEFORMATEX format (see example in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/pcm-stream-data-range">PCM Stream Data Range</a>), the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiport-datarangeintersection">IMiniport::DataRangeIntersection</a> method checks to see if the specified pin supports a compatible WAVEFORMATEX format. If so, the method outputs a KSDATAFORMAT_WAVEFORMATEX structure (see example in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/pcm-stream-data-format">PCM Stream Data Format</a>) to the buffer that its <i>ResultantFormat</i> parameter points to.
+In response to an input <i>DataRange</i> parameter that specifies a WAVEFORMATEX format (see example in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/pcm-stream-data-range">PCM Stream Data Range</a>), the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-datarangeintersection">IMiniport::DataRangeIntersection</a> method checks to see if the specified pin supports a compatible WAVEFORMATEX format. If so, the method outputs a KSDATAFORMAT_WAVEFORMATEX structure (see example in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/pcm-stream-data-format">PCM Stream Data Format</a>) to the buffer that its <i>ResultantFormat</i> parameter points to.
 
-Note that the <b>WaveFormatEx</b> member of the KSDATAFORMAT_WAVEFORMATEX structure can be extended to include additional format information (for example, a channel configuration mask). For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>.
+Note that the <b>WaveFormatEx</b> member of the KSDATAFORMAT_WAVEFORMATEX structure can be extended to include additional format information (for example, a channel configuration mask). For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>.
 
 
 
@@ -82,11 +82,11 @@ Note that the <b>WaveFormatEx</b> member of the KSDATAFORMAT_WAVEFORMATEX struct
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiport-datarangeintersection">IMiniport::DataRangeIntersection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-datarangeintersection">IMiniport::DataRangeIntersection</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
 
 
 
@@ -94,7 +94,7 @@ Note that the <b>WaveFormatEx</b> member of the KSDATAFORMAT_WAVEFORMATEX struct
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-waveformatextensible">WAVEFORMATEXTENSIBLE</a>
  
 
  

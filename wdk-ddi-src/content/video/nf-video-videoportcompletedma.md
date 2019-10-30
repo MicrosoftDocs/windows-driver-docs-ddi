@@ -63,12 +63,12 @@ Pointer to the miniport driver's device extension.
 
 ### -param VpDmaAdapter [in]
 
-Pointer to a <a href="https://docs.microsoft.com/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This structure was returned by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>.
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/ff570570(v=vs.85)">VP_DMA_ADAPTER</a> structure that represents the bus-master adapter. This structure was returned by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>.
 
 
 ### -param VpScatterGather [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_vp_scatter_gather_list">VP_SCATTER_GATHER_LIST</a> structure previously passed to the miniport driver callback routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pexecute_dma">HwVidExecuteDma</a>.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_vp_scatter_gather_list">VP_SCATTER_GATHER_LIST</a> structure previously passed to the miniport driver callback routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pexecute_dma">HwVidExecuteDma</a>.
 
 
 ### -param WriteToDevice [in]
@@ -105,15 +105,15 @@ It is important to note that the scatter/gather list built by <b>VideoPortStartD
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_vp_scatter_gather_list">VP_SCATTER_GATHER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_vp_scatter_gather_list">VP_SCATTER_GATHER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportgetdmaadapter">VideoPortGetDmaAdapter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportstartdma">VideoPortStartDma</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportstartdma">VideoPortStartDma</a>
  
 
  

@@ -58,7 +58,7 @@ The <i>Dump_Start</i> callback routine is called after initializing the dump dri
 
 ### -param FilterExtension [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a>
  
 
  

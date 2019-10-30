@@ -68,13 +68,13 @@ The <b>IPrintAsyncCookie</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-iprintasynccookie-cancelasynccall">CancelAsyncCall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nf-prnasntp-iprintasynccookie-cancelasynccall">CancelAsyncCall</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-iprintasynccookie-finishasynccall">FinishAsyncCall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nf-prnasntp-iprintasynccookie-finishasynccall">FinishAsyncCall</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>

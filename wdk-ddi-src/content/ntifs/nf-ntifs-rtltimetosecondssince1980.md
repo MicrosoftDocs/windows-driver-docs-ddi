@@ -81,7 +81,7 @@ Pointer to a caller-allocated variable that receives the corresponding number of
 
 The absolute system time is a LARGE_INTEGER value, accurate to 100-nanosecond resolution, assuming an accurate hardware clock. The basis for system time is the start of 1601. The value that is processed by <b>RtlTimeToSecondsSince1980</b> is truncated to one-millisecond resolution. 
 
-For more information about converting time values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Data Conversions</a>. 
+For more information about converting time values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Data Conversions</a>. 
 
 
 
@@ -91,19 +91,19 @@ For more information about converting time values, see <a href="https://docs.mic
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlsecondssince1980totime">RtlSecondsSince1980ToTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlsecondssince1980totime">RtlSecondsSince1980ToTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtltimefieldstotime">RtlTimeFieldsToTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtltimefieldstotime">RtlTimeFieldsToTime</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtltimetosecondssince1970">RtlTimeToSecondsSince1970</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtltimetosecondssince1970">RtlTimeToSecondsSince1970</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtltimetotimefields">RtlTimeToTimeFields</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtltimetotimefields">RtlTimeToTimeFields</a>
  
 
  

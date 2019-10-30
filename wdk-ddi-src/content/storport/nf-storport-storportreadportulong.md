@@ -71,7 +71,7 @@ A pointer to the address from which to read.
 
 
 
-For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportreadportulong">ScsiPortReadPortUlong</a> routine. For a buffered version of this routine see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportreadportbufferulong">StorPortReadPortBufferUlong</a>.
+For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadportulong">ScsiPortReadPortUlong</a> routine. For a buffered version of this routine see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadportbufferulong">StorPortReadPortBufferUlong</a>.
 
 
 
@@ -81,11 +81,11 @@ For more information, see the <a href="https://docs.microsoft.com/windows-hardwa
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportreadportbufferulong">ScsiPortReadPortBufferUlong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportreadportbufferulong">ScsiPortReadPortBufferUlong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportreadportulong">StorPortReadPortUlong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreadportulong">StorPortReadPortUlong</a>
  
 
  

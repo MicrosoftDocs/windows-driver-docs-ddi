@@ -86,7 +86,7 @@ In essence, <b>RescanParentDevice</b> calls
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">IWDTFPNPActions2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">IWDTFPNPActions2</a>
  
 
  

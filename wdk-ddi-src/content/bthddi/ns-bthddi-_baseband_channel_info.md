@@ -105,7 +105,7 @@ The size, in bytes, of the eSCO payload in the transmit direction. This member w
 
 Profile drivers access the BASEBAND_CHANNEL_INFO structure through the 
     <b>BasebandInfo</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_sco_get_channel_info">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_get_channel_info">
     _BRB_SCO_GET_CHANNEL_INFO</a> structure.
 
 
@@ -116,7 +116,7 @@ Profile drivers access the BASEBAND_CHANNEL_INFO structure through the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_sco_get_channel_info">_BRB_SCO_GET_CHANNEL_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_sco_get_channel_info">_BRB_SCO_GET_CHANNEL_INFO</a>
  
 
  

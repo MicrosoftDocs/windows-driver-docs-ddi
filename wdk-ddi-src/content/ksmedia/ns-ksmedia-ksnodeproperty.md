@@ -75,7 +75,7 @@ Reserved for internal use by operating system. Do not use.
 
 
 
-This structure is identical to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksp_node">KSP_NODE</a>.
+This structure is identical to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a>.
 
 See the discussion of the KSNODEPROPERTY structure in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-property-requests">Audio Property Requests</a>.
 
@@ -91,7 +91,7 @@ See the discussion of the KSNODEPROPERTY structure in <a href="https://docs.micr
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksp_node">KSP_NODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a>
  
 
  

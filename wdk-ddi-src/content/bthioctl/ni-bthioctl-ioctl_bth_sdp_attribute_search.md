@@ -63,7 +63,7 @@ The IOCTL_BTH_SDP_ATTRIBUTE_SEARCH request obtains attributes for the specified 
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_sdp_attribute_search_request">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_attribute_search_request">
       BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a> structure that specifies the remote computer range of attributes
       to search plus other key members.
 
@@ -71,7 +71,7 @@ The
 ### -input-buffer-length
 
 The length of a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_sdp_attribute_search_request">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_attribute_search_request">
       BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a> structure.
 
 
@@ -79,14 +79,14 @@ The length of a
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that contains a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_sdp_stream_response">BTH_SDP_STREAM_RESPONSE</a> structure
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_stream_response">BTH_SDP_STREAM_RESPONSE</a> structure
       that is followed by a variable-length raw SDP stream.
 
 
 ### -output-buffer-length
 
 The length of a 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_sdp_stream_response">BTH_SDP_STREAM_RESPONSE</a> structure.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_stream_response">BTH_SDP_STREAM_RESPONSE</a> structure.
 
 
 ### -in-out-buffer
@@ -111,7 +111,7 @@ The length of a
 
 If the request is successful, the 
       <b>Information</b> member of the STATUS_BLOCK structure is set to the size, in bytes, of the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_sdp_stream_response">BTH_SDP_STREAM_RESPONSE</a> or the size
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_stream_response">BTH_SDP_STREAM_RESPONSE</a> or the size
       of the output buffer, whichever is smaller. Otherwise, the 
       <b>Information</b> member is set to zero.
 
@@ -202,11 +202,11 @@ The SDP service could not process the number of GUIDs passed in the input buffer
 
 
 In most circumstances, profile drivers can combine SDP service and attribute searches by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_attribute_search">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_attribute_search">
     IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a> IOCTL. If a profile driver must reduce the amount of SDP
     traffic that is transmitted over the Bluetooth link, or extract information from the SDP server by using
     a small number of message transfer units (MTUs), the profile driver should call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_search">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_search">
     IOCTL_BTH_SDP_SERVICE_SEARCH</a> IOCTL to perform a service search. The profile driver should then call
     the IOCTL_BTH_SDP_ATTRIBUTE_SEARCH IOCTL to perform an attribute search.
 
@@ -223,21 +223,21 @@ The BTH_SDP_STREAM_RESPONSE structure returned in the output buffer contains inf
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_sdp_attribute_search_request">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_attribute_search_request">
    BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_sdp_stream_response">BTH_SDP_STREAM_RESPONSE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ns-bthioctl-_bth_sdp_stream_response">BTH_SDP_STREAM_RESPONSE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_attribute_search">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_attribute_search">
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_search">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_search">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
  
 
  

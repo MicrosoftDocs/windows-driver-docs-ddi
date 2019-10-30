@@ -129,7 +129,7 @@ NDIS interface providers call the
     can remain associated with the same interface even after the computer restarts. NDIS will not allocate
     the same NET_LUID index to future callers of 
     <b>NdisIfAllocateNetLuidIndex</b> until after the interface provider calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisiffreenetluidindex">NdisIfFreeNetLuidIndex</a> function to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisiffreenetluidindex">NdisIfFreeNetLuidIndex</a> function to
     free the index.
 
 To build a 
@@ -140,10 +140,10 @@ To build a
 The interface provider must store the NET_LUID values that it allocates in persistent storage. For
     example, if there is a loss of computer power, the provider should have stored the NET_LUID values in
     persistent storage so it can call 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisiffreenetluidindex">NdisIfFreeNetLuidIndex</a> later to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisiffreenetluidindex">NdisIfFreeNetLuidIndex</a> later to
     free any indexes that are no longer in use. Also, the provider should use the same NET_LUID value
     whenever it registers the same interface with the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifregisterinterface">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">
     NdisIfRegisterInterface</a> function.
 
 
@@ -162,11 +162,11 @@ The interface provider must store the NET_LUID values that it allocates in persi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisiffreenetluidindex">NdisIfFreeNetLuidIndex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisiffreenetluidindex">NdisIfFreeNetLuidIndex</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>
  
 
  

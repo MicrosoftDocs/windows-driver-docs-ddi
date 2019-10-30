@@ -48,7 +48,7 @@ req.typenames: STI_USD_CAPS, *PSTI_USD_CAPS
 ## -description
 
 
-The STI_USD_CAPS structure is used as a parameter for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-getcapabilities">IStiUSD::GetCapabilities</a> method.
+The STI_USD_CAPS structure is used as a parameter for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-getcapabilities">IStiUSD::GetCapabilities</a> method.
 
 
 ## -struct-fields

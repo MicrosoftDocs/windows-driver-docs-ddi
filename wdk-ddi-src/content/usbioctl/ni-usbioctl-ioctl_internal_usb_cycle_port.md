@@ -53,7 +53,7 @@ The <b>IOCTL_INTERNAL_USB_CYCLE_PORT</b> I/O request simulates a device unplug a
 
 Drivers should cancel all I/O requests and wait for them to complete before initiating this operation. 
 
-A driver that manages an individual interface on a composite device cannot cycle the port to which the device is attached without affecting the entire composite device and all of its interfaces. For this reason, drivers that manage interfaces should attempt other types of error recovery, such as resetting pipes (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb_pipe_request">_URB_PIPE_REQUEST</a>), before cycling the port. 
+A driver that manages an individual interface on a composite device cannot cycle the port to which the device is attached without affecting the entire composite device and all of its interfaces. For this reason, drivers that manage interfaces should attempt other types of error recovery, such as resetting pipes (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_pipe_request">_URB_PIPE_REQUEST</a>), before cycling the port. 
 
 <b>IOCTL_INTERNAL_USB_CYCLE_PORT</b> is a kernel-mode I/O control request. This request targets the USB hub PDO. This request must be sent at an IRQL of PASSIVE_LEVEL.
 

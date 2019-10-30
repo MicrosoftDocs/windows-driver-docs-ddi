@@ -124,7 +124,7 @@ Contains the configurable parameters of the Unit Descriptor.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufs/ns-ufs-ufs_unit_config_descriptor">UFS_UNIT_CONFIG_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_config_descriptor">UFS_UNIT_CONFIG_DESCRIPTOR</a>
  
 
  

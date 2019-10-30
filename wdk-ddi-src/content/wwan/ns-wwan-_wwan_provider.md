@@ -227,7 +227,7 @@ Miniport drivers should specify a <b>NULL</b> string for devices that do not hav
 A bitmap that represents the data-class(es) that the device supports. For a detailed list of
      values, see the 
      <b>WwanDataClass</b> member of 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>.
      
 
 This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
@@ -238,19 +238,19 @@ This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_home_provider">NDIS_WWAN_HOME_PROVIDER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_home_provider">NDIS_WWAN_HOME_PROVIDER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_preferred_providers">NDIS_WWAN_PREFERRED_PROVIDERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_preferred_providers">NDIS_WWAN_PREFERRED_PROVIDERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_visible_providers">NDIS_WWAN_VISIBLE_PROVIDERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_visible_providers">NDIS_WWAN_VISIBLE_PROVIDERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>
  
 
  

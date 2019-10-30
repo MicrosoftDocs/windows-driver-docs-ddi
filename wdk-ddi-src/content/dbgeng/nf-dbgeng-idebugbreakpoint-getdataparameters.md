@@ -94,7 +94,7 @@ The method was successful.
 </dl>
 </td>
 <td width="60%">
-The breakpoint is not a processor breakpoint.  For more information about the breakpoint type, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-gettype">GetType</a>.
+The breakpoint is not a processor breakpoint.  For more information about the breakpoint type, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-gettype">GetType</a>.
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ This method can also return other error values.  For more information, see <a hr
 
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-getparameters">GetParameters</a> method also returns the information that is returned in <i>Size</i> and <i>AccessType</i>.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getparameters">GetParameters</a> method also returns the information that is returned in <i>Size</i> and <i>AccessType</i>.
 
 For more information about breakpoint properties, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
 

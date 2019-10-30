@@ -103,8 +103,8 @@ Events generated from this function are published to the "Microsoft-Windows-Stor
 
 ## -see-also
 
-[StorPortEtwEvent2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportetwevent2)
+[StorPortEtwEvent2](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportetwevent2)
 
-[StorPortEtwEvent4](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportetwevent4)
+[StorPortEtwEvent4](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportetwevent4)
 
-[StorPortEtwEvent8](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportetwevent8)
+[StorPortEtwEvent8](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportetwevent8)
