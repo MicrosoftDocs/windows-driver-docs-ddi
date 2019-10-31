@@ -5,7 +5,7 @@ description: The NET_BUFFER structure specifies data that is transmitted or rece
 old-location: netvista\net_buffer.htm
 tech.root: netvista
 ms.assetid: 66a725f9-ae72-41b4-8840-63c9ff89ace7
-ms.date: 05/02/2018
+ms.date: 10/31/2019
 ms.keywords: "*PNET_BUFFER, NET_BUFFER, NET_BUFFER structure [Network Drivers Starting with Windows Vista], PNET_BUFFER, PNET_BUFFER structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER, ndis/NET_BUFFER, ndis/PNET_BUFFER, ndis_netbuf_structures_ref_e07734b2-9135-48a5-b3d4-f6e252a52c45.xml, netvista.net_buffer"
 ms.topic: struct
 f1_keywords:
@@ -58,48 +58,40 @@ The NET_BUFFER structure specifies data that is transmitted or received over the
 
 ### -field Next
 
- 
-
+A pointer to the next NET_BUFFER structure in a linked list of NET_BUFFER structures. If this structure is the last NET_BUFFER structure in the list, this member is NULL.
 
 ### -field CurrentMdl
 
- 
-
+A pointer to the first MDL that the current driver is using. This member provides an optimization that improves performance by skipping over any MDLs that the current driver is not using.
 
 ### -field CurrentMdlOffset
 
- 
-
+The offset, in bytes, to the beginning of the *used data space* in the MDL that is specified by the **CurrentMdl** member.
 
 ### -field DataLength
 
- 
-
+The length, in bytes, of the used data space in the MDL chain. The maximum length is 0xFFFFFFFF bytes.
 
 ### -field stDataLength
 
- 
-
+The length, in bytes, of the used data space in the MDL chain. The maximum length is 0xFFFFFFFF bytes. This member is the same as **DataLength**, but its type is **SIZE_T** instead of **ULONG**.
 
 ### -field MdlChain
 
- 
-
+A pointer to a linked list of MDLs that map a data buffer. The data buffer stores the network data.
 
 ### -field DataOffset
 
- 
-
+The offset, in bytes, from the beginning of the MDL chain to the beginning of the network data in the MDL chain. This offset is also the size, in bytes, of the *unused data space*.
 
 ### -field Link
 
- 
-
+Reserved for NDIS.
 
 ### -field NetBufferHeader
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_header">NET_BUFFER_HEADER</a> structure.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_header">NET_BUFFER_HEADER</a> structure. This is a duplicate of the above union, for compatibility reasons.
 
 
 ### -field ChecksumBias
