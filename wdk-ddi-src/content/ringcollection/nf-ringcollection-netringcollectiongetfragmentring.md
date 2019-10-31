@@ -68,4 +68,4 @@ For examples of using this method, see the [Realtek sample driver](https://githu
 
 ## -see-also
 
-[Net rings and net ring iterators](https://docs.microsoft.com/windows-hardware/drivers/netcx/net-rings-and-net-ring-iterators)
+[Introduction to net rings](https://docs.microsoft.com/windows-hardware/drivers/netcx/introduction-to-net-rings)

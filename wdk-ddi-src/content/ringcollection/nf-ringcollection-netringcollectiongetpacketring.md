@@ -66,4 +66,4 @@ Client drivers typically call this method when they need information about a pac
 
 ## -see-also
 
-[Net rings and net ring iterators](https://docs.microsoft.com/windows-hardware/drivers/netcx/net-rings-and-net-ring-iterators)
+[Introduction to net rings](https://docs.microsoft.com/windows-hardware/drivers/netcx/introduction-to-net-rings)

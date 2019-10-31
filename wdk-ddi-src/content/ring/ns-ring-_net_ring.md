@@ -99,6 +99,6 @@ The **NET_RING** structure is a generic ring buffer, optimized for efficient acc
 
 For more info about packet and fragment ring buffers, see [Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions#storage-of-packet-descriptors).
 
-For more info about using net rings, see [Net rings and net ring iterators](https://docs.microsoft.com/windows-hardware/drivers/netcx/net-rings-and-net-ring-iterators).
+For more info about using net rings, see [Introduction to net rings](https://docs.microsoft.com/windows-hardware/drivers/netcx/introduction-to-net-rings).
 
 ## -see-also
