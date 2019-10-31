@@ -5,7 +5,7 @@ description: The filter engine calls a callout's classifyFn1 callout function wh
 old-location: netvista\classifyfn1.htm
 tech.root: netvista
 ms.assetid: 128fd929-6e83-46a0-9475-e459ede58f30
-ms.date: 05/02/2018
+ms.date: 10/28/2019
 ms.keywords: FWPS_CALLOUT_CLASSIFY_FN1, FWPS_CALLOUT_CLASSIFY_FN1 callback, classifyFn1, classifyFn1 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn1, netvista.classifyfn1, wfp_ref_2_funct_4_callout_db29c2d0-9b7c-4737-b66f-472c78fff234.xml
 ms.topic: callback
 f1_keywords:
@@ -57,14 +57,14 @@ The filter engine calls a callout's
 
 
 
-### -param *inFixedValues [in]
+### -param inFixedValues [in]
 
 A pointer to an 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0_">FWPS_INCOMING_VALUES0</a> structure. This
      structure contains the values for each of the data fields in the layer being filtered.
 
 
-### -param *inMetaValues [in]
+### -param inMetaValues [in]
 
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">
@@ -72,7 +72,7 @@ A pointer to an
      metadata fields in the layer being filtered.
 
 
-### -param *layerData [in, out]
+### -param layerData [in, out]
 
 A pointer to a structure that describes the raw data in the layer being filtered. This parameter
      might be <b>NULL</b>, depending on the layer being filtered and the conditions under which the 
@@ -83,12 +83,12 @@ A pointer to a structure that describes the raw data in the layer being filtered
      <b>NULL</b>.
 
 
-### -param *classifyContext [in, optional]
+### -param classifyContext [in, optional]
 
 A pointer to context data associated with the callout driver by the filter engine.
 
 
-### -param *filter [in]
+### -param filter [in]
 
 A pointer to an 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter1_">FWPS_FILTER1</a> structure. This structure
@@ -103,7 +103,7 @@ A UINT64-typed variable that contains the context associated with the data flow.
      <i>classifyFn1</i> callout function should ignore this parameter.
 
 
-### -param *classifyOut [in, out]
+### -param classifyOut [in, out]
 
 A pointer to an 
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure that
