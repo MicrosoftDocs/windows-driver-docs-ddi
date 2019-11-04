@@ -317,22 +317,6 @@ The compartment that the network interface belongs to.
 <div class="alert"><b>Note</b>  Supported starting with Windows 10, version 1703.</div>
 <div> </div>
 
-### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_BITMAP_IP_LOCAL_ADDRESS
-
-A bitmap of the local IP address.
-
-### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_BITMAP_IP_LOCAL_PORT
-
-A bitmap of the local transport protocol port number.
-
-### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_BITMAP_IP_REMOTE_ADDRESS
-
-A bitmap of the remote IP address.
-
-### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_BITMAP_IP_REMOTE_PORT
-
-A bitmap of the remote transport protocol port number.
-
 ### -field FWPS_FIELD_ALE_AUTH_RECV_ACCEPT_V6_MAX
 
 The maximum value for this enumeration. This value might change in future versions of the NDIS
