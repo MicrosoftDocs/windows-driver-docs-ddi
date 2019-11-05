@@ -59,8 +59,8 @@ The following table identifies the IRP associated with each structure of the FLT
 | Structure Name | Associated IRP | Associated Reference Page |
 | -------------- | -------------- | ------------------------- |
 | *Create* | [IRP_MJ_CREATE](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create) | [FLT_PARAMETERS for IRP_MJ_CREATE](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create) |
-| *CreatePipe* | IRP_MJ_CREATE_NAMED_PIPE | [FLT_PARAMETERS for IRP_MJ_CREATE_NAMED_PIPE](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create-pipe) |
-| *CreateMailslot* | IRP_MJ_CREATE_MAILSLOT | [FLT_PARAMETERS for IRP_MJ_CREATE_MAILSLOT](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create-mailslot) |
+| *CreatePipe* | [IRP_MJ_CREATE_NAMED_PIPE](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create-named-pipe) | [FLT_PARAMETERS for IRP_MJ_CREATE_NAMED_PIPE](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create-pipe) |
+| *CreateMailslot* | [IRP_MJ_CREATE_MAILSLOT](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create-mailslot) | [FLT_PARAMETERS for IRP_MJ_CREATE_MAILSLOT](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create-mailslot) |
 | *Read* | [IRP_MJ_READ](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read) | [FLT_PARAMETERS for IRP_MJ_READ](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-read) |
 | *Write* | [IRP_MJ_WRITE](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-write) | [FLT_PARAMETERS for IRP_MJ_WRITE](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-write) |
 | *QueryFileInformation* | [IRP_MJ_QUERY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-information) | [FLT_PARAMETERS for IRP_MJ_QUERY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-information) |
