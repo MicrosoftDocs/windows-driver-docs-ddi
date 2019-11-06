@@ -1,7 +1,7 @@
 ---
 UID: NS:wdm._NAMED_PIPE_CREATE_PARAMETERS
 title: _NAMED_PIPE_CREATE_PARAMETERS (wdm.h)
-description: The NAMED_PIPE_CREATE_PARAMETERS structure is used by the Windows subsystem to internally create a named pipe.
+description: The NAMED_PIPE_CREATE_PARAMETERS structure is used by the Windows subsystem to create a named pipe.
 tech.root: ifsk
 ms.assetid: 2db2ba80-17c2-4161-9be7-c3fdc8d824cd
 ms.date: 10/30/2019
@@ -45,7 +45,7 @@ req.typenames: NAMED_PIPE_CREATE_PARAMETERS, *PNAMED_PIPE_CREATE_PARAMETERS
 
 ## -description
 
- The NAMED_PIPE_CREATE_PARAMETERS structure is used by the Windows subsystem to internally create a named pipe.
+ The NAMED_PIPE_CREATE_PARAMETERS structure is used by the Windows subsystem to create a named pipe.
 
 ## -struct-fields
 
