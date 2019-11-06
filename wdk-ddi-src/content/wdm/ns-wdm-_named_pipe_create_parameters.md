@@ -45,7 +45,7 @@ req.typenames: NAMED_PIPE_CREATE_PARAMETERS, *PNAMED_PIPE_CREATE_PARAMETERS
 
 ## -description
 
- The NAMED_PIPE_CREATE_PARAMETERS structure is used by the Windows subsystem to internally create a named pipe. Minifilters should call [**FltCreateNamedPipeFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatenamedpipefile) to create or open a named pipe instance.
+ The NAMED_PIPE_CREATE_PARAMETERS structure is used by the Windows subsystem to internally create a named pipe.
 
 ## -struct-fields
 
@@ -81,8 +81,13 @@ Pointer to a timeout value to use if a timeout value is not specified when waiti
 
 Boolean value that specifies whether a pointer to a timeout period was provided in the *DefaultTimeout* member.
 
+## - remarks
+
+For an [IRP_MJ_CREATE_NAMED_PIPE](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create-named-pipe) operation, [FLT_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters) is a *CreatePipe* structure, and *CreatePipe.Parameters* points to a NAMED_PIPE_CREATE_PARAMETERS structure that describes the named pipe to create or open.
+
 ## -see-also
 
-[**FltCreateNamedPipeFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatenamedpipefile)
+[FLT_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters)
+## -see-also
 
 [IRP_MJ_CREATE_NAMED_PIPE](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create-named-pipe)

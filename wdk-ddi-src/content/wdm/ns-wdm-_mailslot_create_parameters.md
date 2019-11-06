@@ -1,10 +1,10 @@
 ---
 UID: NS:wdm._MAILSLOT_CREATE_PARAMETERS
 title: _MAILSLOT_CREATE_PARAMETERS (wdm.h)
-description: The MAILSLOT_CREATE_PARAMETERS is used by the Windows subsystem to internally create a mailslot.
+description: The MAILSLOT_CREATE_PARAMETERS is used by the Windows subsystem to create a mailslot.
 tech.root: ifsk
 ms.assetid: 6b0eda09-e890-463f-a5d9-0fd3ca8e52c3
-ms.date: 10/30/2019
+ms.date: 11/05/2019
 ms.keywords: "*PMAILSLOT_CREATE_PARAMETERS, MAILSLOT_CREATE_PARAMETERS, MAILSLOT_CREATE_PARAMETERS structure"
 ms.topic: struct
 f1_keywords:
@@ -45,7 +45,7 @@ req.typenames: MAILSLOT_CREATE_PARAMETERS, *PMAILSLOT_CREATE_PARAMETERS
 
 ## -description
 
- The MAILSLOT_CREATE_PARAMETERS is used by the Windows subsystem to internally create a mailslot. Minifilters should call [**FltCreateMailslotFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatemailslotfile) to create or open a mailslot instance.
+ The MAILSLOT_CREATE_PARAMETERS is used by the Windows subsystem to create a mailslot.
 
 ## -struct-fields
 
@@ -65,8 +65,12 @@ The timeout period for the read operation, specified as a relative time.
 
 Boolean value that specifies whether a timeout period was provided in the *ReadTimeout* member.
 
+## -remarks
+
+For an [IRP_MJ_CREATE_MAILSLOT](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create-mailslot) operation, [FLT_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters) is a *CreateMailslot* structure, and *CreateMailslot.Parameters* points to a MAILSLOT_CREATE_PARAMETERS structure that describes the mailslot to create or open.
+
 ## -see-also
 
-[**FltCreateMailslotFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatemailslotfile)
+[FLT_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_parameters)
 
 [IRP_MJ_CREATE_MAILSLOT](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create-mailslot)
