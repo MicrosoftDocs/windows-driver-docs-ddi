@@ -2,25 +2,25 @@
 UID: NF:netadapter.NetAdapterPowerOffloadSetNSCapabilities
 title: NetAdapterPowerOffloadSetNSCapabilities function (netadapter.h)
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The NetAdapterPowerOffloadSetNsCapabilities method sets a net adapter's capabilities for IPv6 Neighbor Solicitation (NS) low power protocol offload.
+tech.root: netvista
 ms.assetid: 7ee49626-79b4-46e3-a98f-0b9990cb4a2d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 11/06/2019
 ms.topic: function
 f1_keywords:
  - "netadapter/NetAdapterPowerOffloadSetNSCapabilities"
 ms.keywords: NetAdapterPowerOffloadSetNSCapabilities
 req.header: netadapter.h
 req.include-header:
-req.target-type:
-req.target-min-winverclnt:
+req.target-type: Universal
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
+req.lib: netadaptercxstub.lib
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -31,9 +31,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
+- LibDef
 api_location: 
-- 
+- netadaptercxstub.lib
 api_name: 
 - NetAdapterPowerOffloadSetNSCapabilities
 product: 
