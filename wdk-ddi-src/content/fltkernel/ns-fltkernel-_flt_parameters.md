@@ -59,7 +59,7 @@ The following table lists each structure member of the FLT_PARAMETERS union and 
 | Structure Name | Description |
 | -------------- | ----------- |
 | *Create* | [FLT_PARAMETERS for IRP_MJ_CREATE](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create) |
-| *CreatePipe* | [FLT_PARAMETERS for IRP_MJ_CREATE_NAMED_PIPE](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create-pipe) |
+| *CreatePipe* | [FLT_PARAMETERS for IRP_MJ_CREATE_NAMED_PIPE](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create-named-pipe) |
 | *CreateMailslot*  | [FLT_PARAMETERS for IRP_MJ_CREATE_MAILSLOT](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create-mailslot) |
 | *Read* | [FLT_PARAMETERS for IRP_MJ_READ](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-read) |
 | *Write* | [FLT_PARAMETERS for IRP_MJ_WRITE](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-write) |
