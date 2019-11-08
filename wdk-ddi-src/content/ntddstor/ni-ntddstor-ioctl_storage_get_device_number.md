@@ -5,7 +5,7 @@ description: Returns a STORAGE_DEVICE_NUMBER structure that contains the FILE_DE
 old-location: storage\ioctl_storage_get_device_number.htm
 tech.root: storage
 ms.assetid: 5d1095c6-b9f9-44ef-bb2b-7bc0265e5aa9
-ms.date: 03/29/2018
+ms.date: 11/08/2019
 ms.keywords: IOCTL_STORAGE_GET_DEVICE_NUMBER, IOCTL_STORAGE_GET_DEVICE_NUMBER control, IOCTL_STORAGE_GET_DEVICE_NUMBER control code [Storage Devices], k307_d4d6bd65-7f75-4810-90ce-edd3dec950be.xml, ntddstor/IOCTL_STORAGE_GET_DEVICE_NUMBER, storage.ioctl_storage_get_device_number
 ms.topic: ioctl
 f1_keywords:
@@ -44,71 +44,34 @@ req.typenames:
 
 # IOCTL_STORAGE_GET_DEVICE_NUMBER IOCTL
 
-
 ## -description
 
-
-
-Returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_number">STORAGE_DEVICE_NUMBER</a> structure that contains the FILE_DEVICE_<i>XXX</i> type, device number, and, for a partitionable device, the partition number assigned to a device by the driver when the device is started. This request is usually issued by a fault-tolerant disk driver. 
-
-
-
+Returns a [STORAGE_DEVICE_NUMBER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_number) structure that contains the FILE_DEVICE_*XXX* type, device number, and, for a partitionable device, the partition number assigned to a device by the driver when the device is started. This request is usually issued by a fault-tolerant disk driver.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
 
-
 ### -output-buffer
 
-The driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_number">STORAGE_DEVICE_NUMBER</a> data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
-
+The driver returns the [STORAGE_DEVICE_NUMBER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_number) data in the buffer at **Irp->AssociatedIrp.SystemBuffer**.
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= <b>sizeof</b>(STORAGE_DEVICE_NUMBER). 
-
-
-### -in-out-buffer
-
-
-
-
-
-
-
-
-### -inout-buffer-length
-
-
-
-
-
-
-
+**Parameters.DeviceIoControl.OutputBufferLength** in the I/O stack location indicates the size, in bytes, of the parameter buffer, which must be >= **sizeof**(STORAGE_DEVICE_NUMBER).
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned. The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_INSUFFICIENT_RESOURCES.
-
+The **Information** field is set to the number of bytes returned. The **Status** field is set to STATUS_SUCCESS, or possibly to STATUS_INSUFFICIENT_RESOURCES.
 
 ## -see-also
 
+[IOCTL_STORAGE_GET_DEVICE_NUMBER_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-ioctl_storage_get_device_number_ex)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_number">STORAGE_DEVICE_NUMBER</a>
- 
-
- 
-
+[STORAGE_DEVICE_NUMBER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_number)
