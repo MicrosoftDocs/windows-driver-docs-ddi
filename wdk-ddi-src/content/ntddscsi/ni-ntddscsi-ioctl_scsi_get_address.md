@@ -5,7 +5,7 @@ description: Returns the address information, such as the target ID (TID) and th
 old-location: storage\ioctl_scsi_get_address.htm
 tech.root: storage
 ms.assetid: 56e2a62c-ecf1-45c8-ba65-fb53b1897ddb
-ms.date: 03/29/2018
+ms.date: 11/07/2019
 ms.keywords: IOCTL_SCSI_GET_ADDRESS, IOCTL_SCSI_GET_ADDRESS control, IOCTL_SCSI_GET_ADDRESS control code [Storage Devices], k307_0d205fdd-0951-42ef-bd5c-09727bee65f4.xml, ntddscsi/IOCTL_SCSI_GET_ADDRESS, storage.ioctl_scsi_get_address
 ms.topic: ioctl
 f1_keywords:
@@ -44,73 +44,43 @@ req.typenames:
 
 # IOCTL_SCSI_GET_ADDRESS IOCTL
 
-
 ## -description
 
+Returns the address information, such as the target ID (TID) and the logical unit number (LUN) of a particular SCSI target. A legacy class driver can issue this request to the port driver to obtain the address of its device. On Windows 10 version 1809 and later versions, a legacy class driver can issue this request to obtain the address of its adapter.
 
-
-Returns the address information, such as the target ID (TID) and the logical unit number (LUN) of a particular SCSI target. A legacy class driver can issue this request to the port driver to obtain the address of its device. This request is not relevant to storage class drivers that support Plug and Play because the port driver supplies the address information on behalf of the class driver.
+This request is not relevant to storage class drivers that support Plug and Play because the port driver supplies the address information on behalf of the class driver.
 
 This request must be directed to a class driver or to a PDO created by the port driver.
 
-
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+> [!NOTE]
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 None.
 
-
 ### -input-buffer-length
 
 None.
 
-
 ### -output-buffer
 
-Updated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_address">SCSI_ADDRESS</a> information is returned to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
-
+Updated [SCSI_ADDRESS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_address) information is returned to the buffer at **Irp->AssociatedIrp.SystemBuffer**.
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_address">SCSI_ADDRESS</a>).
-
+**Parameters.DeviceIoControl.OutputBufferLength** in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= **sizeof**([SCSI_ADDRESS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_address)).
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
-The <b>Information</b> field contains the number of bytes returned in the output buffer. The <b>Status</b> field indicates the results of the operation. 
-
+The **Information** field contains the number of bytes returned in the output buffer. The **Status** field indicates the results of the operation.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_address">SCSI_ADDRESS</a>
- 
-
- 
-
+[SCSI_ADDRESS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_address)
