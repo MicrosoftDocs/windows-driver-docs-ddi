@@ -2,25 +2,25 @@
 UID: NF:netadapteroffload.NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT
 title: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT function (netadapteroffload.h)
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT method initializes a NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure.
+tech.root: netvista
 ms.assetid: 1df09a2f-d816-407a-8759-142f569f0f57
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 11/07/2019
 ms.topic: function
 f1_keywords:
  - "netadapteroffload/NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT
 req.header: netadapteroffload.h
 req.include-header:
-req.target-type:
-req.target-min-winverclnt:
+req.target-type: Universal
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: Any level as long as target memory is resident
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -31,9 +31,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
+- HeaderDef
 api_location: 
-- 
+- netadapteroffload.h
 api_name: 
 - NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT
 product: 
@@ -47,33 +47,42 @@ ms.custom: Vb
 
 ## -description
 
-TBD
+The **NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT** method initializes a [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md) structure.
 
 ## -parameters
 
 ### -param RscCapabilities
 
-TBD
+A pointer to a driver-allocated [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md) structure.
 
 ### -param IPv4
 
-TBD
+A flag specifying whether the hardware can perform receive segment coalescence (RSC) on IPv4 packets.
 
 ### -param IPv6
 
-TBD
+A flag specifying whether the hardware can perform RSC on IPv6 packets.
 
 ### -param Timestamp
 
-TBD
+A flag specifying whether the hardware can perform RSC on packets with a timestamp.
 
 ### -param EvtAdapterOffloadSetRsc
 
-TBD
-
+A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_RSC*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) callback function.
 
 ## -returns
-This function returns void.
+
+This method does not return a value.
+
 ## -remarks
 
+The [**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md) structure initialized by this method is passed as a parameter to the [**NetAdapterOffloadSetRscCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetrsccapabilities.md) method.
+
 ## -see-also
+
+[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+
+[**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md)
+
+[**NetAdapterOffloadSetRscCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetrsccapabilities.md)

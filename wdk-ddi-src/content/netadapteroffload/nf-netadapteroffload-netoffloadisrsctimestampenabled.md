@@ -2,25 +2,25 @@
 UID: NF:netadapteroffload.NetOffloadIsRscTimestampEnabled
 title: NetOffloadIsRscTimestampEnabled function (netadapteroffload.h)
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The NetOffloadIsRscTimestampEnabled method determines whether a net adapter has RSC offload enabled for timestamp packets.
+tech.root: netvista
 ms.assetid: d602c7b6-eab2-4929-a124-c2f46a98947a
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 11/07/2019
 ms.topic: function
 f1_keywords:
  - "netadapteroffload/NetOffloadIsRscTimestampEnabled"
 ms.keywords: NetOffloadIsRscTimestampEnabled
 req.header: netadapteroffload.h
 req.include-header:
-req.target-type:
-req.target-min-winverclnt:
+req.target-type: Universal
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
+req.lib: netadaptercxstub.lib
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -31,9 +31,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
+- LibDef
 api_location: 
-- 
+- netadaptercxstub.lib
 api_name: 
 - NetOffloadIsRscTimestampEnabled
 product: 
@@ -47,17 +47,24 @@ ms.custom: Vb
 
 ## -description
 
-TBD
+The **NetOffloadIsRscTimestampEnabled** method determines whether a net adapter has RSC offload enabled for timestamp packets.
 
 ## -parameters
 
 ### -param Offload
 
-TBD
-
+A NETOFFLOAD object that represents the net adapter's RSC capabilities.
 
 ## -returns
-This function returns BOOLEAN.
+
+Returns **TRUE** if RSC offload is enabled for timestamp packets, or **FALSE** if it is not.
+
 ## -remarks
 
+Client drivers typically call this method during their [*EvtNetAdapterOffloadSetRsc*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) callback to test whether an updated set of active RSC capabilities includes RSC offload for timestamp packets.
+
 ## -see-also
+
+[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+
+[*EVT_NET_ADAPTER_OFFLOAD_SET_RSC*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md)

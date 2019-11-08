@@ -2,11 +2,11 @@
 UID: NS:netadapteroffload._NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES
 title: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES (netadapteroffload.h)
 author: windows-driver-content
-description: 
-tech.root:
+description: The NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure describes a network interface card (NIC)'s capabilities for receive segment coalescence (RSC).
+tech.root: netvista
 ms.assetid: ec0a7407-64eb-477e-be2e-ada7c1c3bcc7
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 11/07/2019
 ms.topic: struct
 f1_keywords:
  - "netadapteroffload/NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES"
@@ -14,7 +14,7 @@ ms.keywords: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES, NET_ADAPTER_OFFLOAD_RSC_CAPAB
 req.header: netadapteroffload.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -42,20 +42,36 @@ ms.custom: Vb
 
 ## -description
 
+The **NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES** structure describes a network interface card (NIC)'s capabilities for receive segment coalescence (RSC).
 
 ## -struct-fields
 
 ### -field Size
+
+The size of this structure, in bytes.
  
 ### -field IPv4
  
-### -field IPv6
- 
-### -field Timestamp
+A flag specifying whether the hardware can perform receive segment coalescence (RSC) on IPv4 packets.
+
+### -param IPv6
+
+A flag specifying whether the hardware can perform RSC on IPv6 packets.
+
+### -param Timestamp
+
+A flag specifying whether the hardware can perform RSC on packets with a timestamp.
  
 ### -field EvtAdapterOffloadSetRsc
- 
+
+A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_RSC*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_rsc.md) callback function.
 
 ## -remarks
 
 ## -see-also
+
+[NetAdapterCx hardware offloads](https://docs.microsoft.com/windows-hardware/drivers/netcx/netadaptercx-hardware-offloads)
+
+[**NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_rsc_capabilities.md)
+
+[**NetAdapterOffloadSetRscCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetrsccapabilities.md)
