@@ -2,25 +2,25 @@
 UID: NF:mbbcx.MbbDeviceSetWakeCapabilities
 title: MbbDeviceSetWakeCapabilities function (mbbcx.h)
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The MbbDeviceSetWakeCapabilities method sets the wake capabilities for a MBBCx device.
+tech.root: netvista
 ms.assetid: 06db3e7f-0840-4ec8-8111-37802903d213
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 11/07/2019
 ms.topic: function
 f1_keywords:
  - "mbbcx/MbbDeviceSetWakeCapabilities"
 ms.keywords: MbbDeviceSetWakeCapabilities
 req.header: mbbcx.h
 req.include-header:
-req.target-type:
-req.target-min-winverclnt:
+req.target-type: Universal
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -31,9 +31,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
+- LibDef
 api_location: 
-- 
+- mbbcxstub.lib
 api_name: 
 - MbbDeviceSetWakeCapabilities
 product: 
@@ -47,21 +47,24 @@ ms.custom: Vb
 
 ## -description
 
-TBD
+The **MbbDeviceSetWakeCapabilities** method sets the wake capabilities for a MBBCx device.
 
 ## -parameters
 
 ### -param Device
 
-TBD
+The WDFDEVICE object the driver previously obtained from a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
 ### -param Capabilities
 
-TBD
-
+A pointer to a driver-allocated and initialized [**MBB_DEVICE_WAKE_CAPABILITIES**](../mbbcx/ns-mbbcx-_mbb_device_wake_capabilities.md) structure.
 
 ## -returns
-This function returns VOID.
+
+This method does not return a value.
+
 ## -remarks
+
+The client driver typically calls this method from within [*EVT_DEVICE_PREPARE_HARDWARE*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md). 
 
 ## -see-also
