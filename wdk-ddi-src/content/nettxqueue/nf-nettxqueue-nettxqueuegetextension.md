@@ -56,7 +56,7 @@ The transmit queue object.
 
 ### -param Query
 
-A pointer to a driver-allocated and initialized [**NET_PACKET_EXTENSION_QUERY**](../netadapterpacket/ns-netadapterpacket-_net_packet_extension_query.md) structure that contains information about the desired packet extension.
+A pointer to a driver-allocated and initialized [**NET_EXTENSION_QUERY**](../netadapterpacket/ns-netadapterpacket-_net_extension_query.md) structure that contains information about the desired packet extension.
 
 
 ### -param Extension
