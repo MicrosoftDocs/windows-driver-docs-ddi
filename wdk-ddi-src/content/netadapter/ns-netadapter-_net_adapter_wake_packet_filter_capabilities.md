@@ -2,11 +2,11 @@
 UID: NS:netadapter._NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES
 title: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES (netadapter.h)
 author: windows-driver-content
-description: 
-tech.root:
+description: The NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES structure describes a net adapter's wake on LAN (WoL) capabilities for waking from a packet filter match.
+tech.root: netvista
 ms.assetid: 4c04cbbb-a926-4371-a717-bfe6bf0742c4
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 11/07/2019
 ms.topic: struct
 f1_keywords:
  - "netadapter/NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES"
@@ -14,7 +14,7 @@ ms.keywords: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES, NET_ADAPTER_WAKE_PACKE
 req.header: netadapter.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
