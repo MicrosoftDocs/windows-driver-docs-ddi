@@ -90,9 +90,13 @@ The framework calls a driver's <i>EvtDeviceFileCreate</i> callback function when
 
 The driver can pass the <i>Request</i> handle to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetparameters">WdfRequestGetParameters</a> to retrieve parameters that are associated with the file creation request. The parameters are stored in the <b>Parameters.Create</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a> structure. 
 
-This callback function is called synchronously, in the context of the user thread that opens the device. 
+This callback function is called synchronously, in the context of the thread that opens the device. 
 
 To register an <i>EvtDeviceFileCreate</i> callback function, the driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceinitsetfileobjectconfig">WdfDeviceInitSetFileObjectConfig</a> method.
+
+The driver must either complete the request or send it with [*WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ne-wdfrequest-_wdf_request_send_options_flags).
+
+Alternatively, the driver can receive create requests in a queue. For more info, see [**WdfDeviceConfigureRequestDispatching **](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceconfigurerequestdispatching).
 
 For more information about framework file objects and the <i>EvtDeviceFileCreate</i> callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-file-objects">Framework File Objects</a>.
 
