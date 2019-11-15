@@ -61,9 +61,6 @@ A pointer to a driver-allocated [NET_REQUEST_QUEUE_CONFIG](ns-netrequestqueue-_n
 ### -param QueryDataHandler
 A pointer to a driver-allocated and initialized [NET_REQUEST_QUEUE_QUERY_DATA_HANDLER](ns-netrequestqueue-_net_request_queue_query_data_handler.md) structure. The client driver must call [NET_REQUEST_QUEUE_QUERY_DATA_HANDLER_INIT](nf-netrequestqueue-net_request_queue_query_data_handler_init.md) method to initialize the custom handler before calling this function.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 When the client driver has finished adding custom handlers, it registers them with NetAdapterCx by calling [NetRequestQueueCreate](nf-netrequestqueue-netrequestqueuecreate.md).
 

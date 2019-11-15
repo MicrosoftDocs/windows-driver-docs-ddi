@@ -77,15 +77,6 @@ This parameter contains the number of output bytes used. AVStream advances the o
 This parameter indicates whether <i>StreamPointer</i> should be advanced. If this parameter is set to <b>TRUE</b>, AVStream advances the stream pointer to the next available data frame regardless of the values in <i>InUsed </i>and <i>OutUsed</i>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

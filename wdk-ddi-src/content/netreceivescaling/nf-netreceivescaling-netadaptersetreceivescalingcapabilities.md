@@ -59,9 +59,6 @@ The **NETADAPTER** object the driver obtained in a previous call to [NetAdapterC
 ### -param Capabilities
 A pointer to a driver-allocated and initialized [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 
 The client driver must call this method when starting a net adapter, before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).

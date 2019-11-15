@@ -79,15 +79,6 @@ Specifies the logical unit number of the device.
 Specifies the queue tag to be freed.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

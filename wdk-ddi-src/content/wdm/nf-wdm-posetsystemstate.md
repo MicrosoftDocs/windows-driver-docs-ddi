@@ -81,15 +81,6 @@ Use of the display is required.
 A user is present.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

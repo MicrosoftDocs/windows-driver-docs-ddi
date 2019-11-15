@@ -61,15 +61,6 @@ The <b>CmCallbackReleaseKeyObjectIDEx</b> routine frees an object name string ob
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the object name string. The driver previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-cmcallbackgetkeyobjectidex">CmCallbackGetKeyObjectIDEx</a>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -see-also
 
 

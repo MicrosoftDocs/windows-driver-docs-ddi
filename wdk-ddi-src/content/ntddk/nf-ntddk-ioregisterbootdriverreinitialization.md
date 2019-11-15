@@ -71,15 +71,6 @@ Pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/dri
 Optional context pointer to be passed to the driver's reinitialization routine.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -66,15 +66,6 @@ Opaque structure passed by UFX in the call to <a href="https://docs.microsoft.co
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

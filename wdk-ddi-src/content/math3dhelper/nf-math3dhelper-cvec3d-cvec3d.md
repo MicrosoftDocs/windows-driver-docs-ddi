@@ -53,10 +53,6 @@ ms.custom: RS5
 
 No parameters.
 
-## -returns
-
-Void.
-
 ## -remarks
 
 ## -see-also

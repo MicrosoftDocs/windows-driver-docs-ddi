@@ -61,11 +61,3 @@ The <code>Reset</code> method sets the iterator to the first element.
 #### - None
 
 
-## -returns
-
-
-
-None
-
-
-

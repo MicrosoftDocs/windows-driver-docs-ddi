@@ -63,15 +63,6 @@ A UMDF-based driver's <b>OnRemoteInterfaceRemoval</b> event callback function no
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfremoteinterface">IWDFRemoteInterface</a> interface of a remote interface object that represents a device interface. The driver obtains this pointer when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice2-createremoteinterface">IWDFDevice2::CreateRemoteInterface</a>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

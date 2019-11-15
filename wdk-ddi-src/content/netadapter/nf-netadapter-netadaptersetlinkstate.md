@@ -64,10 +64,6 @@ The network adapter object that the client created in a prior call to [**NetAdap
 
 A pointer to an allocated and initialized [**NET_ADAPTER_LINK_STATE**](ns-netadapter-_net_adapter_link_state.md) structure that describes the link state of the adapter.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 The client driver calls **NetAdapterSetLinkState** when starting a net adapter, before it calls [**NetAdapterStart**](nf-netadapter-netadapterstart.md). It can also call this method later when it needs to change the current link state.

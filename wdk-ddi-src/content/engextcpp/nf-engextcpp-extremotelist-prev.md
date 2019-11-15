@@ -58,15 +58,6 @@ The <b>Prev</b> method changes the current item to the previous item in the list
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -60,15 +60,6 @@ The <b>FsRtlIncrementCcFastMdlReadWait </b>routine increments the cache manager'
 
 
 
-## -returns
-
-
-
-This routine does not return a value.
-
-
-
-
 ## -remarks
 
 

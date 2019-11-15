@@ -68,15 +68,6 @@ A pointer to a NET_BUFFER_LIST structure that was allocated by calling the
      NdisAllocateNetBufferAndNetBufferList</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -77,15 +77,6 @@ The flags for the idle operation. Set this member to zero or to one of the follo
 These two flag bits are mutually exclusive. For more information, see Remarks.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

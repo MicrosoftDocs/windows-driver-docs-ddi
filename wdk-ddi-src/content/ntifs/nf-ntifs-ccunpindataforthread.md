@@ -66,15 +66,6 @@ Pointer to the BCB for the pages to be released.
 Identifies the thread that originally acquired the BCB. Must match the owner pointer used in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539207">CcSetBcbOwnerPointer</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

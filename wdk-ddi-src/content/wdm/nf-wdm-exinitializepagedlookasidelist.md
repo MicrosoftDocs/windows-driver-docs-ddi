@@ -151,15 +151,6 @@ Specifies the pool tag to use when allocating lookaside list entries. For more i
 Reserved. Must be zero. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

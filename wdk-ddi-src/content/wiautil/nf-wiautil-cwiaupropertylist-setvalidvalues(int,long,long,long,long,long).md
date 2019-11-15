@@ -75,10 +75,6 @@ Specifies the maximum value in the range of values.
 
 Specifies the increment between two successive values in the range of values.
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)

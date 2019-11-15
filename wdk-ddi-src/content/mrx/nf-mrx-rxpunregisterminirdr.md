@@ -61,15 +61,6 @@ req.typenames:
 A pointer to the RDBSS device object for this network redirector.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

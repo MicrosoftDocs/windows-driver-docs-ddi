@@ -101,15 +101,6 @@ The framework synchronously forwards create, cleanup, and close notifications to
  
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

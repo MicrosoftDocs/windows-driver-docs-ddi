@@ -71,10 +71,6 @@ Specifies the number of values in the property list.
 
 Points to the first property in the property list. This pointer must remain valid until the [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md) method is called.
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)

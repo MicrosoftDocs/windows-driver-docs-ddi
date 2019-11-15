@@ -67,15 +67,6 @@ A WDFDEVICE handle to the device object that represents the SPB controller.
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the controller's SPBTARGET objects.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

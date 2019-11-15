@@ -68,15 +68,6 @@ Pointer to the pseudo base address obtained from a previous call to <a href="htt
 Specifies the number of bytes that were mapped.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

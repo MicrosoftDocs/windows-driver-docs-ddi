@@ -71,15 +71,6 @@ Specifies the length, in bytes, of the user-mode buffer.
 Specifies the required alignment, in bytes, of the beginning of the user-mode buffer.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

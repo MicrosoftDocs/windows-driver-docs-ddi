@@ -66,15 +66,6 @@ Pointer to the device object for which the IRP is to be dequeued.
 Specifies whether IRPs in the device queue can be canceled. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

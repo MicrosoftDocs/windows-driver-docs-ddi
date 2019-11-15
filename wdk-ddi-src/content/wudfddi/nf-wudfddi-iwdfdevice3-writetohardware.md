@@ -76,15 +76,6 @@ The <b>WriteToHardware</b> method is used internally by the framework. Do not us
 ### -param Count [in, optional]
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

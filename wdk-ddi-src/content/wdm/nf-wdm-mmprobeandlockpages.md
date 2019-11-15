@@ -71,15 +71,6 @@ The access mode in which to probe the arguments, either <b>KernelMode</b> or <b>
 The type of operation for which the caller wants the access rights probed and the pages locked. Set this parameter to <b>IoReadAccess</b>, <b>IoWriteAccess</b>, or <b>IoModifyAccess</b>. <b>IoReadAccess</b> indicates that the driver can examine the contents of the buffer but cannot change the contents. <b>IoWriteAccess</b> and <b>IoModifyAccess</b>, which are equivalent, indicate that the driver has both read and write access to the buffer.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

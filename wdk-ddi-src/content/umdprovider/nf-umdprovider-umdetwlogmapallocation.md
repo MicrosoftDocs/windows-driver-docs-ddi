@@ -90,15 +90,6 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/umdprovider/n
 If the allocation is used internally by the user-mode driver, this is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/umdprovider/ne-umdprovider-_umdetw_allocation_semantic">UMDETW_ALLOCATION_SEMANTIC</a> structure that indicates what the allocation is used for.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

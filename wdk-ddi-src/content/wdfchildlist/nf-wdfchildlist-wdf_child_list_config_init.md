@@ -73,15 +73,6 @@ The size, in bytes, of each child device's <a href="https://docs.microsoft.com/w
 The address of a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/nc-wdfchildlist-evt_wdf_child_list_create_device">EvtChildListCreateDevice</a> event callback function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

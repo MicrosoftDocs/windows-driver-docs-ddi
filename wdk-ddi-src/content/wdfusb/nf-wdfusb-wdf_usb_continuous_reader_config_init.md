@@ -78,15 +78,6 @@ An untyped pointer to driver-defined context information that the framework pass
 The maximum length, in bytes, of data that can be received from the device.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

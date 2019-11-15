@@ -60,15 +60,6 @@ The <b>Enable</b> method enables a specified device interrupt by calling the dri
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -66,15 +66,6 @@ A pointer to the NAME_CACHE_CONTROL structure to scan.
 A pointer to the Unicode string that contains the name prefix to scan for name cache entry matches to expire.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

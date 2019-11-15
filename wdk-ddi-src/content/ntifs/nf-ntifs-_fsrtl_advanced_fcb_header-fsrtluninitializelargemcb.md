@@ -63,15 +63,6 @@ The <b>FsRtlUninitializeLargeMcb</b> routine uninitializes a large map-control b
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

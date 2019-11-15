@@ -249,15 +249,6 @@ an NVS sleep.
 This is cast to *<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

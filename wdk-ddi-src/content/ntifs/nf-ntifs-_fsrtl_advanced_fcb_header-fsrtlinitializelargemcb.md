@@ -80,15 +80,6 @@ Type of pool to use when allocating additional internal storage for the MCB. One
 <div class="alert"><b>Note</b>    The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. </div>
 <div> </div>
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

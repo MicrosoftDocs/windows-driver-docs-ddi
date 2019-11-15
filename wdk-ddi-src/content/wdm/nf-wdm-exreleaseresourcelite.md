@@ -62,15 +62,6 @@ The <b>ExReleaseResourceLite</b> routine releases a specified executive resource
 A pointer to an executive resource owned by the current thread.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

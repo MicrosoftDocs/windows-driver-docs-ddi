@@ -62,15 +62,6 @@ The <b>KeReleaseGuardedMutexUnsafe</b> routine releases a guarded mutex acquired
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KGUARDED_MUTEX</a> structure for the guarded mutex.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

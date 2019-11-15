@@ -90,15 +90,6 @@ Specifies the corresponding physical address returned by
      <b>NdisMAllocateSharedMemoryAsyncEx</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -61,15 +61,6 @@ The <b>MmFreePagesFromMdl</b> routine frees all the physical pages that are desc
 Pointer to an MDL that was created by <b>MmAllocatePagesForMdl</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

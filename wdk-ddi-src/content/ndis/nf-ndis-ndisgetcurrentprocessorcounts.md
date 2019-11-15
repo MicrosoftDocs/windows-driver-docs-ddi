@@ -77,15 +77,6 @@ A pointer to a caller-supplied variable in which this function returns a zero-ba
      identifies the processor within the computer.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

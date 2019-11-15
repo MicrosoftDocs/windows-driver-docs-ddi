@@ -73,15 +73,6 @@ The handle to the protocol interface that the
      NdisRegisterProtocolDriver</a> function returns.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

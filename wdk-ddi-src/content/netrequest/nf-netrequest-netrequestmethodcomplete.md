@@ -73,9 +73,6 @@ The number of bytes that the client driver read from the request buffer.
 ### -param BytesWritten
 The number of bytes that the client driver wrote to the request buffer.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 Typically, the client driver calls **NetRequestMethodComplete** from one of its control request handler routines. For more info, see [Handling Control Requests](https://docs.microsoft.com/windows-hardware/drivers/netcx/handling-control-requests#completing-requests).
 

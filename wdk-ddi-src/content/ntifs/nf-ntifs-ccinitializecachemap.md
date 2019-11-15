@@ -166,15 +166,6 @@ VOID (*PRELEASE_FROM_READ_AHEAD) (
 Pointer to context information to be passed to the callback routines specified in <i>Callbacks</i>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

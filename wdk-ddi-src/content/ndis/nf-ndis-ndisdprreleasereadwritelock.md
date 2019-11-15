@@ -69,15 +69,6 @@ A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 A pointer to an opaque <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_lock_state">LOCK_STATE</a> variable that tracks the state of the lock. This variable exists
      in the interval between the time the caller acquires and releases the lock.
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

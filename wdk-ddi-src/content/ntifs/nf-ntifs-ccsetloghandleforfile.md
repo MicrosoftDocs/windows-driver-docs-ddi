@@ -97,15 +97,6 @@ Pointer to an opaque structure that is used to identify this client.
 This is the LSN that must be on the disk on return from this callback routine. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

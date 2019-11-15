@@ -70,10 +70,6 @@ Defines the **IWiaLog** parameter _*pIWiaLog_.
 
 Defines the **CHAR** parameter _*pszMsg_.
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 [CWiaLogProc](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-cwialogproc-cwialogproc)

@@ -67,15 +67,6 @@ A pointer to the resource to release.
 Identifies the thread that originally acquired the resource. If this is not the currently executing thread, the caller must have transferred ownership of the resource by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exsetresourceownerpointerex">ExSetResourceOwnerPointerEx</a> routine first on the thread that originally acquired the resource.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

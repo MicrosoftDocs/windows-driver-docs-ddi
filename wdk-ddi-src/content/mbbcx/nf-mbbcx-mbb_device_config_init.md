@@ -76,10 +76,6 @@ A pointer to the client driver's implementation of the [*EVT_MBB_DEVICE_SEND_SER
 
 A pointer to the client driver's implementation of the [*EVT_MBB_DEVICE_CREATE_ADAPTER*](nc-mbbcx-evt_mbb_device_create_adapter.md) callback function.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 The client driver calls this method from its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) event callback function in preparation for calling [**MbbDeviceInitialize**](nf-mbbcx-mbbdeviceinitialize.md).

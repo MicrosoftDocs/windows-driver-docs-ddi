@@ -66,15 +66,6 @@ A handle to a UFX device object that the driver created by calling <a href="http
 Optional pointer to a client driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxbase/ns-ufxbase-_ufx_hardware_failure_context">UFX_HARDWARE_FAILURE_CONTEXT</a> structure containing controller-specific information about the hardware failure.  
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -65,11 +65,3 @@ req.typenames:
 A pointer to the driver-allocated <b>UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</b> structure.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

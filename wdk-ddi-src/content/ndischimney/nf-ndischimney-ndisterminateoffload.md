@@ -78,15 +78,6 @@ A pointer to an
      terminated.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

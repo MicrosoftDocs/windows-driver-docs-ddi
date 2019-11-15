@@ -63,10 +63,6 @@ A handle that represents a display adapter.
 Pointer to a memory pool.
 
 
-## -returns
-
-This function returns VOID.
-
 ## -remarks
 
 ## -see-also

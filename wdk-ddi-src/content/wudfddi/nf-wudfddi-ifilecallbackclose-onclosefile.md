@@ -63,15 +63,6 @@ The <b>OnCloseFile</b> method is called when the last reference count on a file 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the file object that is associated with the device. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

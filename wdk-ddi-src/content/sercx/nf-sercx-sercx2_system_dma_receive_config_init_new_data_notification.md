@@ -91,15 +91,6 @@ The value to load into the <b>EvtSerCx2SystemDmaReceiveEnableNewDataNotification
 The value to load into the <b>EvtSerCx2SystemDmaReceiveCancelNewDataNotification</b> member of the <b>SERCX2_CONFIG</b> structure. For more information, see the description of this member in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_system_dma_receive_config">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG</a>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

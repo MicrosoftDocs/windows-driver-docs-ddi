@@ -97,15 +97,6 @@ The driver indicates NDIS_STATUS_FAILURE if none of the preceding values applies
        with parameters that specify the reason for the failure.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

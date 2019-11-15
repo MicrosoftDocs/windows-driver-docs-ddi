@@ -63,15 +63,6 @@ The <b>GetDriver</b> method retrieves the interface to the parent driver object 
 A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdriver">IWDFDriver</a> interface for the parent driver object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

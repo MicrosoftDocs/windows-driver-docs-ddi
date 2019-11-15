@@ -91,15 +91,6 @@ Specifies the device number that is assigned to the logical PCI slot.
 Specifies the specific function on the device that is located in the logical PCI slot. 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

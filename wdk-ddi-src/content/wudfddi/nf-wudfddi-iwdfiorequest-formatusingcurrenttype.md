@@ -60,15 +60,6 @@ The <b>FormatUsingCurrentType</b> method formats an I/O request so that the driv
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

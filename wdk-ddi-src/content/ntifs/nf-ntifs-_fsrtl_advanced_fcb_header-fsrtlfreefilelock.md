@@ -61,15 +61,6 @@ The <b>FsRtlFreeFileLock</b> routine uninitializes and frees a file lock structu
 Pointer to the FILE_LOCK structure. This structure must have been allocated by a previous call to <b>FsRtlAllocateFileLock</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

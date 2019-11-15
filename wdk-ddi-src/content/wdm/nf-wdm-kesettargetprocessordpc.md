@@ -66,15 +66,6 @@ Pointer to the caller's DPC object, which <a href="https://docs.microsoft.com/wi
 Specifies the zero-based number of the target processor on which the DPC should be queued and executed.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

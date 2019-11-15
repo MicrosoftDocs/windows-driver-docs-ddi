@@ -76,15 +76,6 @@ Length in bytes of the range that was last read.
 The thread issuing the read ahead request. For a file system with disk I/O accounting enabled, this is the thread the I/O is charged to. If <i>IoIssuerThread</i> is NULL, the I/O is charged to the current thread.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

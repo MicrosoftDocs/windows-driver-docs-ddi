@@ -69,15 +69,6 @@ A pointer to the destination register. The address value that is assigned to thi
 Specifies the value to write to the register for the HBA.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -see-also
 
 

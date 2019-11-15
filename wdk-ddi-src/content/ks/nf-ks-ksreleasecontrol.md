@@ -62,15 +62,6 @@ The<b> KsReleaseControl </b>function releases the control mutex for <i>Object</i
 The object for which to release the control mutex.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

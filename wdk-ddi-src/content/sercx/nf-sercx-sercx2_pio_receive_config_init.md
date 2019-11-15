@@ -76,15 +76,6 @@ The value to load into the <b>EvtSerCx2PioReceiveEnableReadyNotification</b> mem
 The value to load into the <b>EvtSerCx2PioReceiveCancelReadyNotification</b> member of the <b>SERCX2_PIO_RECEIVE_CONFIG</b> structure. For more information, see the description of this member in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_pio_receive_config">SERCX2_PIO_RECEIVE_CONFIG</a>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

@@ -71,15 +71,6 @@ Specifies the size in bytes of the IRP.
 Specifies the number of stack locations in the IRP. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

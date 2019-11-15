@@ -63,15 +63,6 @@ The <b>WdfVerifierDbgBreakPoint</b> function breaks into a kernel debugger, if a
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

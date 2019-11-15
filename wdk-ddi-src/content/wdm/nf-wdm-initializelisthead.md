@@ -61,15 +61,6 @@ The <b>InitializeListHead</b> routine initializes a <a href="https://docs.micros
 Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that serves as the list header. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

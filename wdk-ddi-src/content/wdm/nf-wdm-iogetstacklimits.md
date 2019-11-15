@@ -66,15 +66,6 @@ Pointer to a caller-supplied variable in which this routine returns the lower of
 Pointer to a caller-supplied variable in which this routine returns the higher offset of the current thread's stack frame.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

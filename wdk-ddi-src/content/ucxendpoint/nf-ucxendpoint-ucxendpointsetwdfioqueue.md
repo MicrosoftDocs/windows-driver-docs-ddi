@@ -66,15 +66,6 @@ A handle to the endpoint object. The client driver retrieved the handle in a pre
 A handle to the framework queue object to set on the endpoint.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

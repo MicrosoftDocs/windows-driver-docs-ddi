@@ -71,15 +71,6 @@ Specifies the event type, either <b>NotificationEvent</b> or <b>SynchronizationE
 Specifies the initial state of the event. <b>TRUE</b> indicates a signaled state.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

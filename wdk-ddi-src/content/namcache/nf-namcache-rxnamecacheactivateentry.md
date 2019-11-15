@@ -76,15 +76,6 @@ A value that indicates the valid lifetime in seconds of the cache entry. A value
 A value of context supplied by the network mini-redirector for equality checking when making a valid entry check. An <i>MRxContext</i> value of 0 means to leave the current value unchanged. A value of 0 is used for reactivations after a match where you want the original <i>MRxContext</i> preserved.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

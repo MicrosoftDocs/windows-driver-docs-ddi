@@ -73,15 +73,6 @@ A cancellation identifier for the request. This identifier specifies the
      canceled.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

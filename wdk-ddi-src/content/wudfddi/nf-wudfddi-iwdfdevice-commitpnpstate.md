@@ -60,15 +60,6 @@ The <b>CommitPnpState</b> method commits the state of the Plug and Play (PnP) pr
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

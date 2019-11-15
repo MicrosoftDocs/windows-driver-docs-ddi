@@ -86,15 +86,6 @@ Indicates whether <i>NodeId</i> should be used in qualifying which event entries
 Specifies the node ID of the event to be signaled. If <i>NodeEvent</i> is <b>TRUE</b>, then only event entries with matching node IDs are signaled.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

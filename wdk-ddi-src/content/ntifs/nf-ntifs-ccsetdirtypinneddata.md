@@ -66,15 +66,6 @@ Pointer to the BCB structure to be marked as dirty.
 Logical sequence number (LSN) to be associated with this buffer.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

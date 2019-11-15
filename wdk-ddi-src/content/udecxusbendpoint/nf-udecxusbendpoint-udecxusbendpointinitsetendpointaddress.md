@@ -67,15 +67,6 @@ A pointer to an <b>UDECXUSBENDPOINT_INIT</b> structure that the client driver re
 Specifies the USB-defined endpoint address. The four low-order bits specify the endpoint number. The high-order bit specifies the direction of data flow on this endpoint: 1 for in, 0 for out.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

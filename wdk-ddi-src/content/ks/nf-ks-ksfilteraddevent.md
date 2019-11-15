@@ -66,15 +66,6 @@ The<b> KsFilterAddEvent</b> function adds an event to <i>Filter</i>'s event list
 <i>A pointer</i> to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a> structure describing the event to add to <i>Filter</i>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

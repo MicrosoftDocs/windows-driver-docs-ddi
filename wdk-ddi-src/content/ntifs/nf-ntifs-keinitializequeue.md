@@ -140,15 +140,6 @@ Pointer to the first entry in the thread list.
 The maximum number of threads for which the waits on the queue object can be satisfied concurrently. If this parameter is not supplied, the number of processors in the machine is used.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

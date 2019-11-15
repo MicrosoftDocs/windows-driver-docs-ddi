@@ -76,15 +76,6 @@ Pointer to a value that determines where to insert the packet into the device qu
 Specifies the entry point for a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensionrequest-cancel">Cancel</a> routine.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

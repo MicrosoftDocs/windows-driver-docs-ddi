@@ -76,15 +76,6 @@ Specifies the address of an array of bytes to hold the control space data.
 Specifies the number of bytes in the array pointed to by <i>buf</i>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

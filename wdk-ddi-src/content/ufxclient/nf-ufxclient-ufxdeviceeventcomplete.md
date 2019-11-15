@@ -66,15 +66,6 @@ A handle to a UFX device object that the driver created by calling <a href="http
 Status of the event being completed.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -62,10 +62,6 @@ A handle to a NETADAPTER object that the client driver obtained from a previous 
 
 A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md) structure that describes the hardware's checksum offload capabilities.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).

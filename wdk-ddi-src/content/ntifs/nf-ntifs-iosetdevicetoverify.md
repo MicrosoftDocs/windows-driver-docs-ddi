@@ -66,15 +66,6 @@ A pointer to the thread.
 A pointer to the device object for a removable-media device. Can be <b>NULL</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

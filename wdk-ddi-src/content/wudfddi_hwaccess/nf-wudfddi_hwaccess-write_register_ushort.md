@@ -73,15 +73,6 @@ A pointer to the register address, which must be a mapped range in memory space.
 Specifies a USHORT value to write to the register.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

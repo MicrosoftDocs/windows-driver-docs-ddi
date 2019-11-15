@@ -61,15 +61,6 @@ The <code>Disconnect</code> method disconnects the synchronization object from t
 #### - None
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

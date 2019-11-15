@@ -66,15 +66,6 @@ An interrupt handle that the miniport driver obtained in a previous call to
      <b>NdisMRegisterInterruptEx</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

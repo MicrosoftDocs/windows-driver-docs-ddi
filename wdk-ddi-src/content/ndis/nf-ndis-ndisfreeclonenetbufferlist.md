@@ -93,15 +93,6 @@ If this flag is set, NDIS did not allocate new MDLs for the cloned NET_BUFFER_LI
        allocated new MDLs to reference the original data buffers.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

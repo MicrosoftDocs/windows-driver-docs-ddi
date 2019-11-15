@@ -80,15 +80,6 @@ Instead, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 ### -param Count [in, optional]
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

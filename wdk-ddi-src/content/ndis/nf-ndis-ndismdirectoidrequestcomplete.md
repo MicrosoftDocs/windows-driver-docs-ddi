@@ -85,15 +85,6 @@ The final status of the request operation: NDIS_STATUS_SUCCESS, NDIS_STATUS_REQU
      MiniportDirectOidRequest</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

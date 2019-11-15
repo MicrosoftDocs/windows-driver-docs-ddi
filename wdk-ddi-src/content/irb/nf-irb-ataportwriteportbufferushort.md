@@ -74,15 +74,6 @@ A pointer to the source buffer.
 Specifies the number of USHORT values to write to the HBA.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -see-also
 
 

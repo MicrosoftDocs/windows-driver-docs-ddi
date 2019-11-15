@@ -73,15 +73,6 @@ The number of elements in the <i>SettingPairs</i> array. If <i>SettingPairs</i> 
 An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_interface_setting_pair">WDF_USB_INTERFACE_SETTING_PAIR</a> structures. This parameter is optional and can be <b>NULL</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

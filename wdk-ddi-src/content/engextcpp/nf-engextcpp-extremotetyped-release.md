@@ -58,15 +58,6 @@ The <b>Release</b> method releases any resources held by this object.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

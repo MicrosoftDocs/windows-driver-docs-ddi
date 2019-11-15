@@ -75,15 +75,6 @@ A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/d
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/nc-wudfinterrupt-wudf_interrupt_workitem">OnInterruptWorkItem</a> event callback function, or NULL.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

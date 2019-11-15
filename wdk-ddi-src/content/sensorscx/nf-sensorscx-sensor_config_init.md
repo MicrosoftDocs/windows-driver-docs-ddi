@@ -61,15 +61,6 @@ This function initializes a <a href="https://docs.microsoft.com/windows-hardware
 A pointer to a new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_config">SENSOR_CONFIG</a> structure.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

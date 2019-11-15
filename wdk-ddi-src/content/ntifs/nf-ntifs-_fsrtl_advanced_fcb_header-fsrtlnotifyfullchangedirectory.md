@@ -266,15 +266,6 @@ For more information about the <i>TargetContext</i> parameter, see the <i>Target
 A pointer to a context structure to be passed to <i>TraverseCallback</i>. <b>FsRtlNotifyFullChangeDirectory</b> releases the context and frees the structure after using it. Ignored if <i>NotifyIrp</i> is <b>NULL</b>. If a <i>TraverseCallback</i> routine is supplied, <i>SubjectContext</i> is passed as the <i>SubjectContext</i> parameter to that routine.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -66,15 +66,6 @@ A pointer to the object. The caller obtains this pointer either when it creates 
 Specifies a four-byte, custom tag value. For more information, see the following Remarks section. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -69,15 +69,6 @@ TRUE to return synchronously after deleting a device. In this case, Virtual HID 
 FALSE to return asynchronously. See Remarks for more information.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -60,15 +60,6 @@ The <b>Flush</b> method returns after this interface's work item has been servic
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -60,15 +60,6 @@ The <b>FsRtlIncrementCcFastReadWait</b> routine increments the CcFastReadWait pe
 
 
 
-## -returns
-
-
-
-This routine does not return a value.
-
-
-
-
 ## -remarks
 
 

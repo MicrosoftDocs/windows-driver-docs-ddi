@@ -122,15 +122,6 @@ Pointer to a caller-supplied
      NDIS_CONFIGURATION_PARAMETER</a> structure.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

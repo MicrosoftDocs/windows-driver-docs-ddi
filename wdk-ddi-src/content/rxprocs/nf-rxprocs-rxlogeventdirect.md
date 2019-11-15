@@ -83,15 +83,6 @@ The value indicating the status code of a routine indicating a failure.
 The line number in the source code file where this failure occurred.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

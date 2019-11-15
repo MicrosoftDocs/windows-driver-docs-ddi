@@ -71,15 +71,6 @@ The index that identifies the component. This parameter is an index into the <b>
 The maximum latency, in 100-nanosecond units, that can be tolerated in the specified component. For more information, see Remarks.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

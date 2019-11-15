@@ -96,15 +96,6 @@ When this value is set, the operation must succeed for non-blocking operations. 
 Pointer to the RX_CONTEXT to be initialized.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

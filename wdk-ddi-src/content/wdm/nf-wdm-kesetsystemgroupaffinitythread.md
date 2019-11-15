@@ -68,15 +68,6 @@ A pointer to a caller-allocated <b>GROUP_AFFINITY</b> structure into which the r
 If necessary, the caller can change the thread affinity more than once by calling <b>KeSetSystemGroupAffinityThread</b> multiple times. During the first of these calls, the caller should specify a non-<b>NULL</b> value for <i>PreviousAffinity</i> so that the original thread affinity can be captured and later restored. However, the later calls to <b>KeSetSystemGroupAffinityThread</b> can, as an option, set <i>PreviousAffinity</i> = <b>NULL</b>. For more information, see Remarks.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

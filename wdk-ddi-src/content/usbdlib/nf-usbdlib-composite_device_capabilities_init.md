@@ -63,15 +63,6 @@ The <b>COMPOSITE_DEVICE_CAPABILITIES_INIT</b> macro initializes the <a href="htt
 member of <b>COMPOSITE_DEVICE_CAPABILITIES</b> to 0.
 
 
-## -returns
-
-
-
-This routine does not return a value.
-
-
-
-
 ## -see-also
 
 

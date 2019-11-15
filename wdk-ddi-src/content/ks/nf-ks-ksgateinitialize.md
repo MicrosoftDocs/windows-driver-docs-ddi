@@ -76,15 +76,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 This parameter specifies whether to propagate ON transitions or OFF transitions. For an OR gate, set to <b>TRUE</b>; for an AND gate, set to <b>FALSE</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

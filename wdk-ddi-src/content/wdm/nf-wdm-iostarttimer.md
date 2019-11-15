@@ -61,15 +61,6 @@ The <b>IoStartTimer</b> routine enables the timer associated with a given device
 Pointer to a device object whose timer routine is to be called.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

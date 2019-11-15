@@ -101,15 +101,6 @@ A pointer to a caller-supplied context area that NDIS passes through to the call
      item.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

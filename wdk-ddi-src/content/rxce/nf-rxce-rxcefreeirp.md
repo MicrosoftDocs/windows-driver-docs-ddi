@@ -61,15 +61,6 @@ req.typenames:
 A pointer to the IRP to be freed.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

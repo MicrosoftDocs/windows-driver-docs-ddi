@@ -71,15 +71,6 @@ Pointer to a variable that specifies the starting byte offset within the cached 
 Length in bytes of the range that was last read.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

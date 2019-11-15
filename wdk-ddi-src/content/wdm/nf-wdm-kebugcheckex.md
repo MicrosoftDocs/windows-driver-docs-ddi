@@ -75,15 +75,6 @@ Specifies a value that indicates the reason for the bug check.
 The four <i>BugCheckParameterX</i> values supply additional information, such as the address and data where a memory-corruption error occurred, depending on the value of <i>BugCheckCode</i>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

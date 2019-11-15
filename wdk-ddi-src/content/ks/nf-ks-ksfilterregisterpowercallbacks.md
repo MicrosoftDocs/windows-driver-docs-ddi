@@ -63,10 +63,6 @@ A pointer to a function that handles sleep requests for the device. If **NULL**,
 
 A pointer to a function that handles wake requests for the device. If **NULL**, no wake callback is specified. For more information, see the Remarks section below.
 
-## -returns
-
-None
-
 ## -remarks
 
 > [!WARNING]

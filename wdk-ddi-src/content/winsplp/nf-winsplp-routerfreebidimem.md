@@ -61,15 +61,6 @@ req.typenames:
 Pointer to the memory to be freed.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

@@ -70,9 +70,6 @@ A UINT specifying the minimum input length for the request.
 ### -param MinimumOutputLength
 A UINT specifying the minimum output length for the request.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 When the client driver has finished adding custom handlers, it registers them with NetAdapterCx by calling [NetRequestQueueCreate](nf-netrequestqueue-netrequestqueuecreate.md).
 

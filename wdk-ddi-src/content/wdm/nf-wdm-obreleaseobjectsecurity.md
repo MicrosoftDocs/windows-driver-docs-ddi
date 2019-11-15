@@ -66,15 +66,6 @@ Pointer to the buffered <a href="https://docs.microsoft.com/windows-hardware/dri
 Specifies the value also obtained from <b>ObGetObjectSecurity</b>. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

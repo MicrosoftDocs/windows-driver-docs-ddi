@@ -66,15 +66,6 @@ Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardwa
 The identifier to assign to the connector object. If there is only one connector, pass 0.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

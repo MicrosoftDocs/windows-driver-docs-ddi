@@ -76,15 +76,6 @@ Pointer to the driver-supplied <a href="https://msdn.microsoft.com/library/windo
 Pointer to a driver-determined context, passed to the driver's <i>ControllerControl</i> routine when it is called. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

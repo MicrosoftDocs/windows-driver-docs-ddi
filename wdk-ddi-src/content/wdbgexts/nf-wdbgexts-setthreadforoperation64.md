@@ -61,15 +61,6 @@ The <b>SetThreadForOperation64</b> function sets the thread to use for the next 
 Points to the thread object to be used for the next stack trace.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

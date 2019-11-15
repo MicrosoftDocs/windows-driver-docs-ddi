@@ -66,15 +66,6 @@ A pointer to the <b>SPB_TRANSFER_LIST</b> structure that is to be initialized.
 The number of entries in the transfer list. The function writes this value to the <b>TransferCount</b> member of the  <b>SPB_TRANSFER_LIST</b> structure.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

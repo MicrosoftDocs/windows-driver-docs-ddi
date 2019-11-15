@@ -61,15 +61,6 @@ The <b>SeFreePrivileges</b> routine frees a privilege set returned by <b>SeAcces
 Pointer to the privilege set to be freed.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

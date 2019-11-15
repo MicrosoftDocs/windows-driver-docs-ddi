@@ -58,10 +58,6 @@ Specifies the handle to the DLL instance.
 
 Specifies the HRESULT to be logged.
 
-## -returns
-
-None
-
 ## -remarks
 
 A call to the **wiauDbgLegacyHresult2** function is equivalent to the following call to the [wiauDbgErrorHr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-wiaudbgerrorhr) function:

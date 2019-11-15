@@ -64,10 +64,6 @@ Supplies the VEC3D buffer in which input data is stored and in which the transfo
 
 Supplies the number of elements that Data holds.
 
-## -returns
-
-This function returns VOID.
-
 ## -remarks
 
 The caller is responsible for saving/restoring the floating point context prior to calling this function.

@@ -66,15 +66,6 @@ Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-nt
 Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the entry to be inserted in the list.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

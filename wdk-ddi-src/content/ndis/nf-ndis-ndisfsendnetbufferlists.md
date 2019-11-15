@@ -130,15 +130,6 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 <div> </div>
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

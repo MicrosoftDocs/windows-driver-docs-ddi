@@ -91,15 +91,6 @@ A pointer to the RDBSS device object.
 The count of the number of annotation strings to add to the I/O error log structure.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

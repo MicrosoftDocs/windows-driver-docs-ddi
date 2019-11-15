@@ -62,11 +62,3 @@ req.typenames:
 ### -param ppProperties [in, out, optional]
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

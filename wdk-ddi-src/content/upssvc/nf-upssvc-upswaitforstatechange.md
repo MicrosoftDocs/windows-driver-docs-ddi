@@ -92,15 +92,6 @@ Communication with the UPS is not currently established.
 Specifies a time-out interval, in milliseconds, for the function. If the UPS state has not changed from the specified state when the interval elapses, the function returns. A value of INFINITE means the interval never elapses.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

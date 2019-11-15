@@ -112,15 +112,6 @@ Place the DPC at the end of the DPC queue, and begin processing the queue immedi
 Place the DPC at the end of the DPC queue. If the DPC is assigned to the current processor's DPC queue, begin processing the queue immediately. <b>MediumImportance</b> is the default value for <i>Importance</i>. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

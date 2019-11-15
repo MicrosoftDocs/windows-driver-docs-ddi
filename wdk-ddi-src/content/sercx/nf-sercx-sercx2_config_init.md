@@ -76,15 +76,6 @@ The value to load into the <b>EvtSerCx2Control</b> member of the <b>SERCX2_CONFI
 The value to load into the <b>EvtSerCx2PurgeFifos</b> member of the <b>SERCX2_CONFIG</b> structure. For more information, see the description of this member in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_config">SERCX2_CONFIG</a>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

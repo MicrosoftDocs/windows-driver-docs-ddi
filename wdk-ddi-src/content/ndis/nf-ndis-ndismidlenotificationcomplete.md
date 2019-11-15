@@ -67,15 +67,6 @@ The network adapter handle that NDIS passed to the <i>MiniportAdapterHandle</i> 
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

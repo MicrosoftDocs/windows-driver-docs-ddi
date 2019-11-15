@@ -69,15 +69,6 @@ A handle to a framework device object.
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that identifies a device that <i>Device</i> depends on.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

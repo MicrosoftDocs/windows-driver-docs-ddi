@@ -73,15 +73,6 @@ A pointer to a boolean that indicates if the mitigation should be enabled in
                 audit-only mode.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

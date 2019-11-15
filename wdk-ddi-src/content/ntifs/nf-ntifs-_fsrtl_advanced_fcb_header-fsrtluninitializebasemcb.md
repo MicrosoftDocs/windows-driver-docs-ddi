@@ -52,9 +52,6 @@ The **FsRtlUninitializeBaseMcb** function uninitializes a map control block (MCB
 ### -param Mcb
 Supplies a pointer to the Mcb structure to uninitialize.
 
-## -returns
-None.
-
 ## -remarks
 
 ## -see-also

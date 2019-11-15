@@ -73,15 +73,6 @@ A pointer to a memory buffer.
 The size, in bytes, of the memory buffer that <i>Buffer</i> points to.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

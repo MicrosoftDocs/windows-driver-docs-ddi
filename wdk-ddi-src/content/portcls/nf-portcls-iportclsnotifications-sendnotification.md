@@ -75,15 +75,6 @@ KSNOTIFICATIONID_AudioModule
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcnotification_buffer">PCNOTIFICATION_BUFFER</a> structure to send to the listening audio module UWP clients. 
 
 
-## -returns
-
-
-
-This function returns void.
-
-
-
-
 ## -remarks
 
 

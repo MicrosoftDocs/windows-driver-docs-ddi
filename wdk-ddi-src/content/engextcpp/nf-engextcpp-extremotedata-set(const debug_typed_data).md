@@ -62,15 +62,6 @@ The <b>Set</b> method sets the region of the target's memory represented by the 
 Specifies the region of memory by using a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_debug_typed_data">DEBUG_TYPED_DATA</a> structure.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

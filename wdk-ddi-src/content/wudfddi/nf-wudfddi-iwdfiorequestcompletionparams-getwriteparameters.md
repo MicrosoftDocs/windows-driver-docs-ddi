@@ -79,15 +79,6 @@ A pointer to a variable that receives the offset, in bytes, into the write buffe
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

@@ -67,15 +67,6 @@ Call the
 The pool handle for the NET_BUFFER structure pool to be freed.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

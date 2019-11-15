@@ -66,15 +66,6 @@ Specifies the value of the <i>Interrupt</i> parameter passed to <a href="https:/
 Specifies the IRQL value returned by <b>KeAcquireInterruptSpinLock</b>. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

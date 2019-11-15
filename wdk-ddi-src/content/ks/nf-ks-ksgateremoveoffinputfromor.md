@@ -61,15 +61,6 @@ The<b> KsGateRemoveOffInputFromOr</b> function removes an existing input that is
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure representing the OR gate from which to remove an OFF input.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

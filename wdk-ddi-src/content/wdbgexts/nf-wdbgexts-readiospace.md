@@ -71,15 +71,6 @@ Specifies the address of a variable to hold the data read. This must be at least
 Specifies the address of a variable that contains the number of bytes to read (1, 2, or 4 only). After the data is read, <i>size</i> will contain the number of bytes actually read.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

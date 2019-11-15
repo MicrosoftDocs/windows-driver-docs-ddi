@@ -71,9 +71,6 @@ A bitmask of these flags:
 IO_SHARE_ACCESS_NON_PRIMARY_STREAM         (0x00000080) specifies that the stream is neither the primary data stream nor a directory stream.
 
 
-## -returns
-This function returns VOID.
-
 ## -remarks
 
 ## -see-also

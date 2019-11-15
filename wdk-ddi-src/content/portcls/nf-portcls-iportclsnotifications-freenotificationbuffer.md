@@ -64,15 +64,6 @@ For more information about audio modules, see <a href="https://docs.microsoft.co
 The address of the notification buffer returned in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsnotifications-allocnotificationbuffer">IPortClsNotifications::AllocNotificationBuffer</a> call.
 
 
-## -returns
-
-
-
-This function returns void.
-
-
-
-
 ## -see-also
 
 

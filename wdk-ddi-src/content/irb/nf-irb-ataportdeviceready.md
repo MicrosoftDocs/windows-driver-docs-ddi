@@ -71,15 +71,6 @@ Specifies the target identifier of the device.
 Specifies the logical unit number (LUN) of the device.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

@@ -68,10 +68,6 @@ An NTSTATUS value that represents the completion status of the request.
 
 The client driver must pass in the number of bytes it has written to the pre-allocated buffer. 
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 This method must only be used to complete requests from the [*EvtMbbDeviceReceiveMbimFragment*](nc-mbbcx-evt_mbb_device_receive_mbim_fragment.md) callback function.

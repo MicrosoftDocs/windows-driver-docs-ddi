@@ -58,15 +58,6 @@ The <b>Next</b> method changes the current item to the next item in the list.
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

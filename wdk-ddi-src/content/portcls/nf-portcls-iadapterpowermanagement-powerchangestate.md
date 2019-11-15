@@ -109,15 +109,6 @@ A full hibernation state and is the longest latency sleep state. The driver cann
  
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

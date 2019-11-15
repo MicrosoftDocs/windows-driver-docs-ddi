@@ -57,10 +57,6 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 The flag in the **NblFlags** member of the **NET_BUFFER_LIST** structure to clear.
 
-## -returns
-
-This macro does not return a value.
-
 ## -remarks
 
 NDIS drivers use the **NdisClearNblFlag** macro to clear the specified flag (*\_F*) in the **NblFlags** member of a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.

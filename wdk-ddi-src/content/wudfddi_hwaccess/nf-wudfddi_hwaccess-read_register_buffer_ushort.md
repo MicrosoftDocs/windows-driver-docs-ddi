@@ -78,15 +78,6 @@ A pointer to a buffer into which an array of USHORT values is read.
 Specifies the number of USHORT values to be read into the buffer.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

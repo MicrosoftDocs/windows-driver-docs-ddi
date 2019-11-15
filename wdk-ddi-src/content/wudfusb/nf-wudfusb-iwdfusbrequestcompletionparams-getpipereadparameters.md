@@ -73,15 +73,6 @@ A pointer to a variable that receives the size, in bytes, of the read buffer for
 A pointer to a variable that receives the offset, in bytes, into the read buffer for the read request. This parameter is optional and can be <b>NULL</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

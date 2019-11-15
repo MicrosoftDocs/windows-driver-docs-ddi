@@ -62,10 +62,6 @@ Pointer to a format string that specifies a variable argument list, which starts
 
 #### - fmt, ...
 
-## -returns
-
-None
-
 ## -remarks
 
 The **wiauDbgDump** function typically is used to log a message along with one or more data values, as in the following example:

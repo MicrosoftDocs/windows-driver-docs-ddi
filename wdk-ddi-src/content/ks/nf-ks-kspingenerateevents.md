@@ -87,10 +87,6 @@ BOOLEAN CallBack
 
 A pointer to a caller-specified context that is passed to the callback function *CallBack*.
 
-## -returns
-
-None
-
 ## -remarks
 
 When calling this function, a minidriver must place *Data* and *CallBackContext* in a locked, nonpageable data segment. The *CallBack* is made at DISPATCH_LEVEL. The callback function must be in a locked segment and must be prepared to run at IRQL = DISPATCH_LEVEL. Note that there is an additional issue in DX8 *only*: *EventSet* must be in a locked data segment.

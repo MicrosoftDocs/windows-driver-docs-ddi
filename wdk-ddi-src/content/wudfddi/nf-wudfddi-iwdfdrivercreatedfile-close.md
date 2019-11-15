@@ -60,15 +60,6 @@ The <b>Close</b> method closes an instance of a UMDF driver-created-file object 
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 
