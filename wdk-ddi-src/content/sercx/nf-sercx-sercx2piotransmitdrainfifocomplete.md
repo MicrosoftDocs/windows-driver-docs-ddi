@@ -61,15 +61,6 @@ The <b>SerCx2PioTransmitDrainFifoComplete</b> method notifies version 2 of the s
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a> method to create this object.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

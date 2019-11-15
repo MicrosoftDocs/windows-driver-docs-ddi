@@ -68,15 +68,6 @@ The handle returned by the
      NdisRegisterProtocolDriver</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

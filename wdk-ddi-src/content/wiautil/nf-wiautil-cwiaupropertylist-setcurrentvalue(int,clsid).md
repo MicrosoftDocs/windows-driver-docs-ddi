@@ -59,10 +59,6 @@ Specifies the property index. Set this parameter to the value in *_pIdx_ when th
 
 Pointer to a memory location containing the value that is written to the device property in the property list. This pointer must remain valid until the [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md) method is called.
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)

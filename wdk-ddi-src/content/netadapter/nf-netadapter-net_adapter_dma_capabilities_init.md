@@ -59,9 +59,6 @@ A pointer to the driver-allocated **NET_ADAPTER_DMA_CAPABILITIES** structure to 
 ### -param DmaEnabler
 A DMA enabler object the client driver obtained in a previous call to [**WdfDmaEnablerCreate**](../wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate.md).
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 
 The client driver typically calls this method while setting capabilities for its data path, when it is starting a net adapter but before it calls [**NetAdapterStart**](nf-netadapter-netadapterstart.md).

@@ -57,10 +57,6 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 A pointer to an [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX**](ns-ndis-_ndis_nbl_media_specific_information_ex.md) structure to add to the linked list.
 
-## -returns
-
-This macro does not return a value.
-
 ## -remarks
 
 Any NDIS 6.20 or later driver can use **NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX** to add media-specific information to a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.

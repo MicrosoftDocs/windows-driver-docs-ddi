@@ -77,15 +77,6 @@ A pointer to an
      queried.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

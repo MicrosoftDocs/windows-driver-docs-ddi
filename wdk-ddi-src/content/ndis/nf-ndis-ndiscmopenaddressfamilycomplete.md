@@ -81,15 +81,6 @@ Specifies the handle to a caller-allocated resident context area in which the ca
      <i>Status</i> is not NDIS_STATUS_SUCCESS, NDIS ignores this parameter.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

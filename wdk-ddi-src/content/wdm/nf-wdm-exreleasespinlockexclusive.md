@@ -67,15 +67,6 @@ The <b>ExReleaseSpinLockExclusive</b> routine releases a <a href="https://docs.m
 The interrupt request level (IRQL) to restore. Set this parameter to the KIRQL value that was returned by the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh451007(v=vs.85)">ExAcquireSpinLockExclusive</a> call that acquired the spin lock.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

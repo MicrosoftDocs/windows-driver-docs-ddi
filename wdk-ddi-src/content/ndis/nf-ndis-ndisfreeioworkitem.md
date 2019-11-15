@@ -65,15 +65,6 @@ A handle to a private <b>NDIS_IO_WORKITEM</b> structure that was returned by a p
      NdisAllocateIoWorkItem</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

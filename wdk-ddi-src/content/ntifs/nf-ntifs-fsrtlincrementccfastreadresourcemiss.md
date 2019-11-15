@@ -60,15 +60,6 @@ The <b>FsRtlIncrementCcFastReadResourceMiss</b> routine increments the CcFastRea
 
 
 
-## -returns
-
-
-
-This routine does not return a value.
-
-
-
-
 ## -remarks
 
 

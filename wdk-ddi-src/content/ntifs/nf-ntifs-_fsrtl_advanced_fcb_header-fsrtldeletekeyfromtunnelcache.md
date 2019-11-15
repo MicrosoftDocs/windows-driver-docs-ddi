@@ -71,15 +71,6 @@ A pointer to a tunnel cache that was initialized by <a href="https://docs.micros
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

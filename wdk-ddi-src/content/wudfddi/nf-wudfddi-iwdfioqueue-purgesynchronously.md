@@ -60,15 +60,6 @@ The <b>PurgeSynchronously</b> method directs the framework to reject new incomin
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

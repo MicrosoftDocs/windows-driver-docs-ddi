@@ -61,15 +61,6 @@ This routine unregisters a server silo monitor.
 The server silo monitor to unregister.
 
 
-## -returns
-
-
-
-This routine does not return a value.
-
-
-
-
 ## -remarks
 
 

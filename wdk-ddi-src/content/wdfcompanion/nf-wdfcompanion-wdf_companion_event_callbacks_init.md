@@ -60,11 +60,3 @@ req.typenames:
 ### -param Callbacks [out]
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

@@ -60,10 +60,6 @@ Adapter object of the adapter for which the rendering adapter preference is bein
 
 Input arguments for the function.
 
-## -returns
-
-This function returns VOID.
-
 ## -remarks
 
 The driver can call **IddCxAdapterSetRenderAdapter** at anytime to change the preferred render adapter. The driver can use Dxgi enumeration to find the required render adapter LUID.  When this callback is called, the OS will attempt to re-create any existing swapchains onto the specified render adapter, and hence the user may see some visual glitches/artifacts. It is recommended that, if possible, the driver makes this call before adding any monitors.

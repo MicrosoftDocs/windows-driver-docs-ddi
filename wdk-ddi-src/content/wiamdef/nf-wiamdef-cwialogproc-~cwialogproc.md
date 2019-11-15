@@ -50,10 +50,6 @@ The **~CWiaLogProc** destructor is called when the function or method being logg
 
 ## -parameters
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 [CWiaLogProc](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-cwialogproc-cwialogproc)

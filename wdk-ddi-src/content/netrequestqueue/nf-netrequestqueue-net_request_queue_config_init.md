@@ -64,9 +64,6 @@ The net adapter object that the client created in a prior call to [NetAdapterCre
 ### -param QueueType
 A [NET_REQUEST_QUEUE_TYPE](ne-netrequestqueue-_net_request_queue_type.md) enumeration that specifies the type of queue.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 
 

@@ -90,15 +90,6 @@ A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hard
 This parameter is optional and can be <b>NULL</b>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

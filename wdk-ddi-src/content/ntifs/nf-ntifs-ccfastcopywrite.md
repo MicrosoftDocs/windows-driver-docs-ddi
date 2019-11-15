@@ -76,15 +76,6 @@ Length in bytes of the data to be written.
 Pointer to the buffer from which the data is to be copied.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

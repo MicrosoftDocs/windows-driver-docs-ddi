@@ -64,15 +64,6 @@ The <b>WdfDriverMiniportUnload</b> method deletes a specified miniport driver's 
 A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfgetdriver">WdfGetDriver</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

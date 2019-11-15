@@ -71,15 +71,6 @@ A caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardw
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains attributes for the device's request objects.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

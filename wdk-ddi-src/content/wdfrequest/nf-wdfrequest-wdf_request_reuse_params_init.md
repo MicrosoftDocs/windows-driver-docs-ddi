@@ -74,15 +74,6 @@ A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardw
 An NTSTATUS value that the framework assigns to the request.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

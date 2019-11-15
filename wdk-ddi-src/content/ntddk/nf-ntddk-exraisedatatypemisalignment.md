@@ -58,15 +58,6 @@ The <b>ExRaiseDatatypeMisalignment</b> routine can be used with structured excep
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

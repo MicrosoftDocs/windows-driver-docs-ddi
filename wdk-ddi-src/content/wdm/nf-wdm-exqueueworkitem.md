@@ -96,15 +96,6 @@ Insert the <i>WorkItem</i> into the queue from which a system thread with a vari
 The <i>QueueType</i> value <b>HyperCriticalWorkQueue</b> is reserved for system use. 
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

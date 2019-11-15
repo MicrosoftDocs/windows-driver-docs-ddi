@@ -61,15 +61,6 @@ The <b>ExDeleteNPagedLookasideList</b> routine destroys a nonpaged lookaside lis
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">NPAGED_LOOKASIDE_LIST</a> structure for the lookaside list, which the caller originally set up with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializenpagedlookasidelist">ExInitializeNPagedLookasideList</a>. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

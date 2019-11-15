@@ -71,15 +71,6 @@ The <b>FsRtlTruncateLargeMcb</b> routine truncates a large map control block (MC
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

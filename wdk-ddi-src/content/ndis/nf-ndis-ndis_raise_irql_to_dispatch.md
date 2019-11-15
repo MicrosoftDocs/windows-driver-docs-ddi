@@ -53,10 +53,6 @@ The **NDIS_RAISE_IRQL_TO_DISPATCH** macro raises the current IRQL to DISPATCH_LE
 
 A pointer to a KIRQL-type variable where **NDIS_RAISE_IRQL_TO_DISPATCH** stores the original (that is, unraised) IRQL value. You should use this original IRQL value in a subsequent call to the [**NDIS_LOWER_IRQL**](nf-ndis-ndis_lower_irql.md) macro.
 
-## -returns
-
-This macro does not return a value.
-
 ## -remarks
 
 NDIS network drivers should use the **NDIS_RAISE_IRQL_TO_DISPATCH** macro to raise the current IRQL.

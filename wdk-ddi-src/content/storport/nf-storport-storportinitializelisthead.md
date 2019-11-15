@@ -68,15 +68,6 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structure that represents the head of the list.
 
 
-## -returns
-
-
-
-This routine does not return a value.
-
-
-
-
 ## -see-also
 
 

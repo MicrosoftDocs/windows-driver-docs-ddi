@@ -80,15 +80,6 @@ A Boolean value. If the value is <b>TRUE</b>, this function is provided with wri
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

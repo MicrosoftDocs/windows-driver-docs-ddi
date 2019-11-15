@@ -79,15 +79,6 @@ A pointer to an
      MiniportInvalidateOffload</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

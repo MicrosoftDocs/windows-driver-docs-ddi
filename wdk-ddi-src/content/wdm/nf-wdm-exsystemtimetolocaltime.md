@@ -66,15 +66,6 @@ A pointer to a variable set to the unbiased, GMT system time.
 A pointer to the returned value for the current locale.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

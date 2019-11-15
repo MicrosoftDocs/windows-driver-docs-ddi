@@ -61,15 +61,6 @@ The <b>PoSetSystemWake</b> routine marks the specified IRP as one that contribut
 A pointer to the wait/wake IRP.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

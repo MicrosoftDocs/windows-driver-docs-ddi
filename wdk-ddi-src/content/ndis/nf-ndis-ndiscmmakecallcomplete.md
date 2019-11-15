@@ -99,15 +99,6 @@ Pointer to a structure of type
      <i>Status</i> is NDIS_STATUS_SUCCESS.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

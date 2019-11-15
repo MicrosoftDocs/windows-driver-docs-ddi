@@ -60,11 +60,3 @@ Initializes the IDD_CX_CLIENT_CONFIG structure.
 A pointer to the driver-allocated IDD_CX_CLIENT_CONFIG structure.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

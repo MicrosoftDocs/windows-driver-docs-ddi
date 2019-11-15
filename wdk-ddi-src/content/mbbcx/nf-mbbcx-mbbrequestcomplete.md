@@ -64,10 +64,6 @@ A handle to the framework request object passed in from the [*EvtMbbDeviceSendMb
 
 An NTSTATUS value that represents the completion status of the request.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 This method must only be used to complete requests from the [*EvtMbbDeviceSendMbimFragment*](nc-mbbcx-evt_mbb_device_send_mbim_fragment.md) callback function.

@@ -72,15 +72,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/st
 Specifies the status to be returned when an outstanding request is aborted. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

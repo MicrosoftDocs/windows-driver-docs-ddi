@@ -79,15 +79,6 @@ Reserved. Set this member to zero.
 Reserved. Set this member to zero.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

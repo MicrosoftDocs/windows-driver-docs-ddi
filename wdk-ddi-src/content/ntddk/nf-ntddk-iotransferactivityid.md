@@ -66,11 +66,3 @@ The source activity ID.
 The new activity ID to be transferred from the source activity ID.
 
 
-## -returns
-
-
-
-None.
-
-
-

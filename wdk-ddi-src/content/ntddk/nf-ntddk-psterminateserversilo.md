@@ -68,15 +68,6 @@ A pointer to the silo being terminated.
 
 
 
-## -returns
-
-
-
-This routine does not return a value.
-
-
-
-
 ## -remarks
 
 

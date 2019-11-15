@@ -50,9 +50,6 @@ The Remove method removes the breakpoint from its containing list. The breakpoin
 ## -parameters
 
 
-## -returns
-This method returns void.
-
 ## -remarks
 
 ## -see-also

@@ -61,15 +61,6 @@ The <b>HidD_GetHidGuid</b> routine returns the <a href="https://docs.microsoft.c
 Pointer to a caller-allocated GUID buffer that the routine uses to return the device interface GUID for HIDClass devices.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

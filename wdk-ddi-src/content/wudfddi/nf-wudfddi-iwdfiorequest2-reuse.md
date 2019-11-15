@@ -63,15 +63,6 @@ The <b>Reuse</b> method reinitializes a framework request object so that it can 
 An HRESULT-typed status value that the framework assigns to the request.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

@@ -57,9 +57,6 @@ A handle to a Platform Policy Manager (PPM) object that the client driver receiv
 ### -param DataBlock [in]
 A pointer to a [**UCSI_DATA_BLOCK**] structure that contains information about the USCI notification.
 
-## -returns
-This function returns VOID.
-
 ## -remarks
 The client driver calls UcmUcsiPpmNotification in the event of a UCSI notification. The driver must not call more than one instance of this function at the same time to avoid a race condition.  
 

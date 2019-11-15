@@ -67,15 +67,6 @@ A pointer to an opaque
      non-ISR driver threads.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

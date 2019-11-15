@@ -78,15 +78,6 @@ A pointer to an
      invalidated.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

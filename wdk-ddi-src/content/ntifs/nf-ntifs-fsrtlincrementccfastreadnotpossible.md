@@ -60,15 +60,6 @@ The <b>FsRtlIncrementCcFastReadNotPossible</b> routine increments the CcFastRead
 
 
 
-## -returns
-
-
-
-This routine does not return a value.
-
-
-
-
 ## -remarks
 
 

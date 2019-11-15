@@ -52,10 +52,6 @@ The **CWiauPropertyList::CWiauPropertyList** method is the constructor for the *
 ## -parameters
 
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 The **CWiauPropertyList** constructor initializes all data members of a property list object to either **NULL** or zero. Use the [CWiauPropertyList::Init]() method to reserve memory for properties. Use the [CWiauPropertyList::DefineProperty](nf-wiautil-cwiaupropertylist-defineproperty.md) method once per property to add it to the property list object.

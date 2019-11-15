@@ -64,11 +64,3 @@ The <b>KoRelease</b> function decrements the reference count for the calling int
 The CLSID of the object whose reference count will be decremented.
 
 
-## -returns
-
-
-
-None
-
-
-

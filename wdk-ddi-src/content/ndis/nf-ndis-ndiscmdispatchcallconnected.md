@@ -67,15 +67,6 @@ Specifies the handle to the VC that represents the connection, which was created
      ProtocolCoReceiveNetBufferLists</a> function was notified of the incoming call.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

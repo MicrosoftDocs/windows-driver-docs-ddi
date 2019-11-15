@@ -67,15 +67,6 @@ A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/wi
 The identifier for this bank of GPIO pins. If N is the number of banks in the GPIO controller, <b>BankId</b> is an integer in the range 0 to N–1.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

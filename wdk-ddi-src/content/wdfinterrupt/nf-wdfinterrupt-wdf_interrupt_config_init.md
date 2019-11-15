@@ -73,15 +73,6 @@ A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/d
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function, or <b>NULL</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

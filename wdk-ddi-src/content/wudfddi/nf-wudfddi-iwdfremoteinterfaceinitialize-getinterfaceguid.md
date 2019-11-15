@@ -63,15 +63,6 @@ The <b>GetInterfaceGuid</b> method retrieves the GUID that identifies a <a href=
 A pointer to a driver-allocated GUID structure that receives the device interface GUID.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

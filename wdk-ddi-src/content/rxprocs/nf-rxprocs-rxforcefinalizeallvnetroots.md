@@ -61,15 +61,6 @@ req.typenames:
 A pointer to the NET_ROOT structure.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

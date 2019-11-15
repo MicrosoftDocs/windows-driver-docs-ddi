@@ -70,9 +70,6 @@ An NTSTATUS value that represents the completion status of the request. Valid st
 ### -param BytesRead
 The number of bytes that the client driver read from the request buffer.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 Typically, the client driver calls **NetRequestSetDataComplete** from one of its control request handler routines. For more info, see [Handling Control Requests](https://docs.microsoft.com/windows-hardware/drivers/netcx/handling-control-requests#completing-requests).
 

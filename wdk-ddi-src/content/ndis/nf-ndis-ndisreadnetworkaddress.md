@@ -102,15 +102,6 @@ The configuration handle returned by the
      NdisOpenConfigurationEx</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

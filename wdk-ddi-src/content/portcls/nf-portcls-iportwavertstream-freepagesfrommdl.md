@@ -61,15 +61,6 @@ The <code>FreePagesFromMdl</code> method frees a memory descriptor list (<a href
 Pointer to the MDL.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

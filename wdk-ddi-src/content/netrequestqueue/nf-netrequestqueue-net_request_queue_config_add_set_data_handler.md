@@ -67,9 +67,6 @@ Pointer to the client driver's implementation of a *[EVT_NET_REQUEST_SET_DATA](n
 ### -param MinimumInputLength
 A UINT specifying the minimum input length for the request.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 When the client driver has finished adding custom handlers, it registers them with NetAdapterCx by calling [NetRequestQueueCreate](nf-netrequestqueue-netrequestqueuecreate.md).
 

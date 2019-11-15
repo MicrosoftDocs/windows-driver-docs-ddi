@@ -132,15 +132,6 @@ Identifies the event set against which to match in the event queue for this stre
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_stream_request_block">HW_STREAM_REQUEST_BLOCK</a> structure. Specify only if <i>NotificationType</i> equals <b>StreamRequestComplete</b>. Pointer to the stream request block that the minidriver has completed processing. Once this routine completes, this address is no longer valid. This parameter is optional.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -79,15 +79,6 @@ A pointer to an
      MiniportUpdateOffload</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

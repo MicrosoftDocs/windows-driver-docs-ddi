@@ -50,10 +50,6 @@ ms.custom: RS5
 
 ### -param
 
-## -returns
-
-This function returns VOID.
-
 ## -remarks
 
 ## -see-also

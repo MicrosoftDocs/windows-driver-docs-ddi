@@ -81,11 +81,3 @@ A pointer to a buffer from which an array of USHORT values is to be written.
 Specifies the number of USHORT values to be written to the buffer.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

@@ -63,15 +63,6 @@ The <b>GetInputMemory</b> method retrieves the memory object that represents the
 A pointer to a variable that receives a pointer to the reference-counted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a> interface for the memory object. Note that returning <b>NULL</b> is valid; in this situation, no input memory is associated with the I/O request.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

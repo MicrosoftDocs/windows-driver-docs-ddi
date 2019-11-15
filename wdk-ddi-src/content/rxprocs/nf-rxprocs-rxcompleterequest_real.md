@@ -71,15 +71,6 @@ A pointer to the IRP to complete.
 The status value to return when the IRP request is complete. This is the value that will be stored in the <b>IoStatus.Status</b> member of the associated IRP on completion.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -71,15 +71,6 @@ A handle to a DMA transaction object that specifies the transaction to modify.
 The offset of the register, from the <b>DeviceAddress</b> specified in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_system_profile_config">WDF_DMA_SYSTEM_PROFILE_CONFIG</a>, to or from which DMA should be performed.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

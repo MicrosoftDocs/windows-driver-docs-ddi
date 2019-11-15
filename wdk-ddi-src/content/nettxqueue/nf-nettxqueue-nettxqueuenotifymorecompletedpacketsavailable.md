@@ -59,10 +59,6 @@ The client driver calls **NetTxQueueNotifyMoreCompletedPacketsAvailable** to res
 
 A handle to a net transmit queue.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 This method should only be called when polling is disabled.

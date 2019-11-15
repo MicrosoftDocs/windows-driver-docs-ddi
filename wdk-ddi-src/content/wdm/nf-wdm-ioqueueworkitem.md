@@ -76,15 +76,6 @@ Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm
 Specifies driver-specific information for the work item. The system passes this value as the <i>Context</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_workitem_routine">WorkItem</a>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

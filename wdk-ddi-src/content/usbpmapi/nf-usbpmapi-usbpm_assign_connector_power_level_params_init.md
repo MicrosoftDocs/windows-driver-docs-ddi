@@ -58,8 +58,6 @@ Initializes a [**USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS**](nf-usbpmapi-usbpm_
 ### -param Format
 [In] The USB Type-C format, defined in [**USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT**](ne-usbpmapi-_usbpm_assign_power_level_params_format.md)
 
-## -returns
-
 ## -remarks
 
 ## -see-also

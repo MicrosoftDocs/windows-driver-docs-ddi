@@ -61,15 +61,6 @@ The <b>SeLockSubjectContext</b> routine locks the primary and impersonation toke
 Pointer to a SECURITY_SUBJECT_CONTEXT structure returned by a call to <b>SeCaptureSubjectContext</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

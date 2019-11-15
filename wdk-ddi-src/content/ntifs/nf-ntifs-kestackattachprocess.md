@@ -66,15 +66,6 @@ Pointer to the target process object. This parameter can be a PEPROCESS pointer 
 An opaque pointer to a KAPC_STATE structure. The caller must allocate storage for this structure either from nonpaged pool or from the caller's own thread stack. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

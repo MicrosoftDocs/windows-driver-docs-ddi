@@ -79,15 +79,6 @@ FLAG_OWNER_POINTER_IS_THREAD
 If <i>Flags</i> = FLAG_OWNER_POINTER_IS_THREAD, <i>OwnerPointer</i> must point to a value of type ERESOURCE_THREAD, which is a pointer to an opaque thread object. If <i>Flags</i> = 0, <i>OwnerPointer</i> must point to a storage object in system memory that remains allocated until the resource is released. For more information, see the following Remarks section.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

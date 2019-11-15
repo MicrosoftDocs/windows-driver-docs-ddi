@@ -74,15 +74,6 @@ Specifies the handle to the party that the client requested to be dropped. The c
      ProtocolCmDropParty</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

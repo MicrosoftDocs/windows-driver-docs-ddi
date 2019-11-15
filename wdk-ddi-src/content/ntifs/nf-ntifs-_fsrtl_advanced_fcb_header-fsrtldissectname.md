@@ -74,15 +74,6 @@ Pointer to the first file name in the pathname string.
 Pointer to the remaining unparsed portion of the pathname string.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

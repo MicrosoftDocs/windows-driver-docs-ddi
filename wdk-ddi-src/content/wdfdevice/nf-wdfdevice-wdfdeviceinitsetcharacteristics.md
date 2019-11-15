@@ -74,15 +74,6 @@ A value that consists of ORed system-defined constants that represent device cha
 A Boolean value. If this value is <b>TRUE</b>, the <i>DeviceCharacteristics</i> value is ORed with existing device characteristics. If the value is <b>FALSE</b>, the <i>DeviceCharacteristics</i> value replaces existing device characteristics.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

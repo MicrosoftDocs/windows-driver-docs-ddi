@@ -54,8 +54,6 @@ Initializes a [**USBPM_CONNECTOR_STATE_INIT**](ns-usbpmapi-_usbpm_connector_stat
 ### -param ConnectorState
 [Out] A pointer a [**USBPM_CONNECTOR_STATE_INIT**](ns-usbpmapi-_usbpm_connector_state.md) structure to initialize.
 
-## -returns
-
 ## -remarks
 
 ## -see-also

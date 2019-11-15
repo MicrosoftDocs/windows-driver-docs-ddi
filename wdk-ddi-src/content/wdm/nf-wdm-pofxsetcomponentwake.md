@@ -71,15 +71,6 @@ The index that identifies the component. This parameter is an index into the <b>
 Whether the driver arms the component to wake whenever the component enters the idle condition. If TRUE, the driver arms the component to wake. If FALSE, the driver does not arm the component to wake.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

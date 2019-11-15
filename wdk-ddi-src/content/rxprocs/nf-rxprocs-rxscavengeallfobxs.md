@@ -61,15 +61,6 @@ req.typenames:
 A pointer to the mini-redirector device object for which the scavenge should be done.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

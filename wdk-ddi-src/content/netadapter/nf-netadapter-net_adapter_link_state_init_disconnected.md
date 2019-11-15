@@ -59,9 +59,6 @@ Initializes a [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md)
 ### -param LinkState
 A pointer to a driver-allocated [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md) structure.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 
 Call [NET_ADAPTER_LINK_STATE_INIT](nf-netadapter-net_adapter_link_state_init.md) or **NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED** to initialize a [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md) structure.

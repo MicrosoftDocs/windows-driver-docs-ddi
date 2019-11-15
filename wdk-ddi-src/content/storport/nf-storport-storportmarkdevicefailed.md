@@ -68,10 +68,6 @@ Set to STORPORT_MARK_DEVICE_FAILED_FLAG_REMOVE_DEVICE to remove the failed devic
 
 String that specifies the reason for the device failure along with other details.
 
-## -returns
-
-None.
-
 ## -remarks
 
 A miniport driver can call this function to mark a failed device. If STORPORT_MARK_DEVICE_FAILED_FLAG_REMOVE_DEVICE is not set in *Flags*, Storport will only log the event.

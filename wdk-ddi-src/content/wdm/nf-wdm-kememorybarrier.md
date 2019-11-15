@@ -58,15 +58,6 @@ The <b>KeMemoryBarrier</b> routine creates a barrier at its position in the code
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

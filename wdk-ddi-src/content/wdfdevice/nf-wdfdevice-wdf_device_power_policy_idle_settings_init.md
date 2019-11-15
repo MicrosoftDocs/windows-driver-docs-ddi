@@ -68,15 +68,6 @@ A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hard
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_power_policy_s0_idle_capabilities">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

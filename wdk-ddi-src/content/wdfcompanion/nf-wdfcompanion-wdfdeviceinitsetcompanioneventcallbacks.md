@@ -63,11 +63,3 @@ req.typenames:
 ### -param CompanionEventCallbacks [in]
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

@@ -66,15 +66,6 @@ A pointer to a variable set to the locale-specific time.
 A pointer to the returned value for GMT system time.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

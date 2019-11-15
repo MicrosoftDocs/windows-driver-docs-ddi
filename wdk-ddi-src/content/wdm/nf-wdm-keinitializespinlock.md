@@ -61,15 +61,6 @@ The <b>KeInitializeSpinLock </b>routine initializes a variable of type KSPIN_LOC
 Pointer to a spin lock, for which the caller must provide the storage.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

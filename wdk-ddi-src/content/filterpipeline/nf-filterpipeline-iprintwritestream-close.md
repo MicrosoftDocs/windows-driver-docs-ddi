@@ -61,11 +61,3 @@ The <code>Close</code> method closes a stream and ends the writing to that strea
 #### - None
 
 
-## -returns
-
-
-
-None
-
-
-

@@ -60,15 +60,6 @@ The <b>Disable</b> method disables a specified device interrupt by calling the d
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

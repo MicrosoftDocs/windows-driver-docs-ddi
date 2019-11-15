@@ -66,11 +66,3 @@ req.typenames:
 ### -param DispatchType [in]
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

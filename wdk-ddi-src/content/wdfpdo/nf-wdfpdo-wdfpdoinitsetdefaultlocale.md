@@ -69,15 +69,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/
 A locale identifier (LCID) that represents the default locale. For more information, see <a href="https://docs.microsoft.com/windows/desktop/Intl/locale-identifiers">Locale Identifiers</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

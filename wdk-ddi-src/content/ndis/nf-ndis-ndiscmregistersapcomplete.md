@@ -80,15 +80,6 @@ Specifies the handle to a caller-supplied resident context area in which the CM 
      <i>Status</i> is set to something other than NDIS_STATUS_SUCCESS, NDIS ignores this parameter.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

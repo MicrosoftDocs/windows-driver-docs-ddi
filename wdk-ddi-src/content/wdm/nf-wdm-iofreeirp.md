@@ -61,15 +61,6 @@ The <b>IoFreeIrp</b> routine releases a caller-allocated IRP from the caller's <
 Pointer to the IRP that is to be released.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

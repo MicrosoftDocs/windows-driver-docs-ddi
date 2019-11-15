@@ -79,15 +79,6 @@ Points to a <b>NULL</b>-terminated string containing the message to print to the
 Specifies a variable argument list containing optional arguments for the format string, as in <b>printf</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

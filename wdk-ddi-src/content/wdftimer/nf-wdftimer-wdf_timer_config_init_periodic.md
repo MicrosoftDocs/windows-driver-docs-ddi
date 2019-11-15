@@ -74,15 +74,6 @@ A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardw
 A time value. For more information about specifying this value, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

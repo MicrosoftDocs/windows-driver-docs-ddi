@@ -76,15 +76,6 @@ Specifies the logical unit number (LUN).
 Contains an enumerator value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ne-irb-ide_power_state">IDE_POWER_STATE</a> that indicates the power state to which the indicated device should be changed. 
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

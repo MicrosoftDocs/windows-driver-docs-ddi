@@ -66,15 +66,6 @@ A pointer to the NAME_CACHE_CONTROL structure for the name cache.
 A pointer to the NAME_CACHE structure to free.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

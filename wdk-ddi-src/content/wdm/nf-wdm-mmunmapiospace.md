@@ -66,15 +66,6 @@ Pointer to the base virtual address to which the physical pages were mapped.
 Specifies the number of bytes that were mapped. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

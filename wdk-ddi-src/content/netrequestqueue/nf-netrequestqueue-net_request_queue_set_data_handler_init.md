@@ -67,9 +67,6 @@ A pointer to the client driver's implementation of an *[EVT_NET_REQUEST_SET_DATA
 ### -param MinimumInputLength
 The required minimum input length for the request.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 
 

@@ -62,15 +62,6 @@ The <b>USBD_GetUSBDIVersion</b> routine returns version information about the ho
 Pointer to caller-allocated memory for a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_version_information">USBD_VERSION_INFORMATION</a> structure that on return from the routine, contains version information about the HCD.
 
 
-## -returns
-
-
-
-This routine does not return a value.
-
-
-
-
 ## -remarks
 
 

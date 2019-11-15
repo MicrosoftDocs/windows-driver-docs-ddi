@@ -66,15 +66,6 @@ Pointer to the node in the tree at which <i>ChildLinks</i> should be inserted as
 Pointer to the splay link node to be inserted into the tree. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

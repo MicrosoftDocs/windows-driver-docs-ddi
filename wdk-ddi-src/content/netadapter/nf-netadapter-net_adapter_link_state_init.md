@@ -74,10 +74,6 @@ Support for the IEEE 802.3 pause frames. For more info, see [NDIS_MINIPORT_ADAPT
 ### -param AutoNegotiationFlags
 The auto-negotiation settings for the network adapter. For more info, see [NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../ndis/ns-ndis-_ndis_miniport_adapter_general_attributes.md).
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 Call **NET_ADAPTER_LINK_STATE_INIT** or [NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED](nf-netadapter-net_adapter_link_state_init_disconnected.md) to initialize a [NET_ADAPTER_LINK_STATE](ns-netadapter-_net_adapter_link_state.md) structure.

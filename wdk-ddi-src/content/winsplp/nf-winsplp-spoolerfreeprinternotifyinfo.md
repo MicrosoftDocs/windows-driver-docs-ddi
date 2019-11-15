@@ -59,11 +59,3 @@ req.typenames:
 ### -param pInfo [in]
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

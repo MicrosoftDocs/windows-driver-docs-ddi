@@ -57,9 +57,6 @@ A handle to a Platform Policy Manager (PPM) object that the client driver receiv
 ### -param PpmRequestQueue [in]
 A WDFQUEUE handle that the client driver in a previous call to [**WdfIoQueueCreate**](../wdfio/nf-wdfio-wdfioqueuecreate.md)
 
-## -returns
-This function returns VOID.
-
 ## -remarks
 The client driver is expected to call UcmUcsiPpmSetUcsiCommandRequestQueue after calling  [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md) and before [**UcmUcsiPpmStart**](nf-ucmucsippm-ucmucsippmstart.md).  
 

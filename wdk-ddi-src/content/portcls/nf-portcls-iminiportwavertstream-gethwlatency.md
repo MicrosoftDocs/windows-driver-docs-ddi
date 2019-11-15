@@ -53,9 +53,6 @@ The GetHWLatency method retrieves information about sources of stream latency in
 A pointer to a KSRTAUDIO_HWLATENCY structure into which the driver writes the hardware latency parameters.
 
 
-## -returns
-This method returns VOID.
-
 ## -remarks
 The port driver calls this method in response to a KSPROPERTY_RTAUDIO_HWLATENCY property request from a client.
 For more information about the sources of hardware latency in an audio stream, see the Stream Latency during Playback and Stream Latency during Recording topics.

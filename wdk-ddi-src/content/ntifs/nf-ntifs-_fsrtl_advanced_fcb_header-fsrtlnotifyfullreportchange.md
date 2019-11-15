@@ -222,15 +222,6 @@ An object ID for a file could not be tunneled because the file already has an ob
 Context pointer to pass to the file system if performing a traverse check in the case of a tree being watched. For more information, see the <i>TraverseCallback</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory">FsRtlNotifyFullChangeDirectory</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

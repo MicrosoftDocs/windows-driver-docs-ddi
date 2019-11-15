@@ -58,15 +58,6 @@ The <b>PsRevertToSelf</b> routine ends the calling thread's impersonation of a c
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

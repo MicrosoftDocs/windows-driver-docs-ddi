@@ -68,15 +68,6 @@ Handle to the port controller object that the client driver received in the prev
 A handle to the framework queue object to assign.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

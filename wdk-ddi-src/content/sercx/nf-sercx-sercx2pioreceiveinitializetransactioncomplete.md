@@ -66,15 +66,6 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-o
 Whether the initialization was successful. If <b>TRUE</b>, the initialization succeeded. If <b>FALSE</b>, the initialization failed.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

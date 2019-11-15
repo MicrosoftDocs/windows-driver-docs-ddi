@@ -64,10 +64,6 @@ The length, in bytes, of the entire output buffer.
 
 Flags for the DSM action in the DEVICE_DSM_OUTPUT structure.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for information on how to process a DSM.

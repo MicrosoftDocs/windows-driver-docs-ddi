@@ -60,15 +60,6 @@ The <b>DrainSynchronously</b> method directs the queue to reject new incoming I/
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

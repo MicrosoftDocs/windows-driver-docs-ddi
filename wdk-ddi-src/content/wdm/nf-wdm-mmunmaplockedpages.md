@@ -66,15 +66,6 @@ Pointer to the base virtual address to which the physical pages were mapped.
 Pointer to an MDL.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -61,15 +61,6 @@ The <b>FsRtlNotifyInitializeSync</b> routine allocates and initializes a synchro
 A pointer to a location in which to return a pointer to the opaque synchronization object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

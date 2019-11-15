@@ -106,15 +106,6 @@ Set the capability.
  
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

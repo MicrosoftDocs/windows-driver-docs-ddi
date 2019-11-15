@@ -71,15 +71,6 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 Specifies the value to pass as the <i>DeferredContext</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

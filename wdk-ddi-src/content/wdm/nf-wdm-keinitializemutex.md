@@ -66,15 +66,6 @@ Pointer to a mutex object, for which the caller provides the storage. The storag
 Reserved. Drivers set this to zero.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

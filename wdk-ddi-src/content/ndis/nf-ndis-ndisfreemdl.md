@@ -64,15 +64,6 @@ The
 A pointer to the MDL that NDIS should free.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

@@ -69,15 +69,6 @@ Pointer to the MCB structure to truncate.
 Indicates whether the caller is already synchronized with respect to the MCB.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

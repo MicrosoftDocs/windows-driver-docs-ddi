@@ -66,15 +66,6 @@ Pointer to a file object for the cached file whose read-ahead granularity is to 
 Specifies the desired read-ahead granularity, which must be an even power of two and must be greater than or equal to PAGE_SIZE.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

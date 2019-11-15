@@ -71,15 +71,6 @@ Pointer to the volume parameter block (VPB), if any, for the mounted file object
 Pointer to the device object that represents the physical device on which the I/O operation failed. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

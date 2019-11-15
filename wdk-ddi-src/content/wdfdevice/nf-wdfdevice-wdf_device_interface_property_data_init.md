@@ -73,15 +73,6 @@ A pointer to a GUID that identifies the device interface class.
 A pointer to a <b>DEVPROPKEY</b> structure that specifies the device property key.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

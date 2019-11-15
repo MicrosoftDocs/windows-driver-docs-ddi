@@ -63,15 +63,6 @@ The <b>WDF_REQUEST_FORWARD_OPTIONS_INIT</b> function initializes a <a href="http
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_forward_options">WDF_REQUEST_FORWARD_OPTIONS</a> structure.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

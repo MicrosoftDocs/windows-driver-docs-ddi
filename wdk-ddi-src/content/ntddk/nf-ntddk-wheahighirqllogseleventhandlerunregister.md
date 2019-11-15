@@ -54,8 +54,6 @@ Reserved for system use.
 ## -parameters
 
 
-## -returns
-This function returns VOID.
 ## -remarks
 
 ## -see-also

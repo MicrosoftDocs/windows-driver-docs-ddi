@@ -68,15 +68,6 @@ Specifies NDIS_STATUS_SUCCESS.
 Specifies the handle identifying the SAP.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

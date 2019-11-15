@@ -61,15 +61,6 @@ The <b>CWiauDbgFn::CWiauDbgFn</b> method is used for tracing when a function or 
 Specifies the name of the function or method being entered.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

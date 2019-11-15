@@ -55,10 +55,6 @@ Converts a 16 bit build from a 32 bit version.
 
 The current version.
 
-## -returns
-
-
-
 ## -remarks
 
 ## -see-also

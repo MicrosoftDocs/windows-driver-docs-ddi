@@ -50,10 +50,6 @@ Unregisters the event trace provider. Call this function before the user-mode dr
 
 ## -parameters
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 <b>UMDEtwUnregister</b> is defined inline in Umdprovider.h as:

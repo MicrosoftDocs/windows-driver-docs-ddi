@@ -95,15 +95,6 @@ The size, in bytes, of the input buffer for the request.
 The size, in bytes, of the output buffer for the request.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

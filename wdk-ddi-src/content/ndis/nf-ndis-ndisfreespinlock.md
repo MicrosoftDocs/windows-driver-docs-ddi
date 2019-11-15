@@ -64,15 +64,6 @@ The
 Pointer to the spin lock to be deinitialized.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

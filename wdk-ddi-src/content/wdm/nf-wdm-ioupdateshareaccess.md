@@ -66,15 +66,6 @@ Pointer to a referenced file object representing the file or associated device o
 Pointer to the common <b>SHARE_ACCESS</b> structure associated with the <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

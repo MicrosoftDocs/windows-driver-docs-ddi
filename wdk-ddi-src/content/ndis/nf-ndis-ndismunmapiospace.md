@@ -76,15 +76,6 @@ Specifies the number of bytes in the range that was mapped with
      <b>NdisMMapIoSpace</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -67,15 +67,6 @@ A pointer to a NET_BUFFER structure that was allocated by calling
      <b>NdisAllocateNetBuffer</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

@@ -63,15 +63,6 @@ Specifies the callback routine to unregister. This must be the value returned by
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

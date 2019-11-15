@@ -63,10 +63,6 @@ A handle that represents a display adapter.
 The memory descriptor list.
 
 
-## -returns
-
-This function returns VOID.
-
 ## -remarks
 
 ## -see-also

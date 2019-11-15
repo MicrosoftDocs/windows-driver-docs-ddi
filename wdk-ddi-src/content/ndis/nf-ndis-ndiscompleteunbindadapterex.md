@@ -67,15 +67,6 @@ The handle that NDIS passed to the
      <i>ProtocolUnbindAdapterEx</i> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

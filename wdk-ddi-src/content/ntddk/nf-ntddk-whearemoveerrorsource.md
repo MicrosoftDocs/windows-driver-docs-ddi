@@ -57,8 +57,6 @@ Reserved for system use.
 
 
 
-## -returns
-This function returns VOID.
 ## -remarks
 
 ## -see-also

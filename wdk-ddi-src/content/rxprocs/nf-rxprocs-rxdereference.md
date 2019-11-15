@@ -86,15 +86,6 @@ A shared lock is being held.
 An exclusive lock is being held.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

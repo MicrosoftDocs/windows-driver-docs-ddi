@@ -58,15 +58,6 @@ The <b>KeFlushQueuedDpcs</b> routine returns after all currently queued DPCs on 
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

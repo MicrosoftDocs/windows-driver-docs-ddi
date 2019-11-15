@@ -69,15 +69,6 @@ A handle to a DMA transaction object that the driver obtained from a previous ca
 A Boolean value that, if <b>TRUE</b>, specifies that the DMA transaction requires a single transfer.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

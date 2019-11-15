@@ -71,15 +71,6 @@ Set to <b>TRUE</b> to disable read-ahead, <b>FALSE</b> to enable it. The caller 
 Set to <b>TRUE</b> to disable write-behind, <b>FALSE</b> to enable it. The caller must specify a value for <i>DisableWriteBehind</i> in each call to <b>CcSetAdditionalCacheAttributes</b>, even if a value was already specified in a previous call.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

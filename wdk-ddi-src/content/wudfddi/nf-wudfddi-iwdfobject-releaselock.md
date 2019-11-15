@@ -60,15 +60,6 @@ The <b>ReleaseLock</b> method allows the framework to call methods of interfaces
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

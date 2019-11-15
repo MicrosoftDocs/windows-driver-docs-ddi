@@ -72,10 +72,6 @@ Parameters for initializing the parameter block of the input structure. The form
 
 The length, in bytes, of the parameter block. If the action defined by *Definition* does not have parameters, *ParameterBlockLength* is set to zero.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 To add a data set range to the input operation, call [**DeviceDsmAddDataSetRange**](nf-ntddstor-devicedsmadddatasetrange.md).

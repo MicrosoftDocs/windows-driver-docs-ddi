@@ -82,15 +82,6 @@ Pointer to the file object whose share access is being set or reset.
 Pointer to the SHARE_ACCESS structure associated with <i>FileObject</i>. Drivers should treat this structure as opaque. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

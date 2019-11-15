@@ -72,15 +72,6 @@ A string, delimited by single quotation marks, with up to four characters, usual
      default by supplying an explicit value.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

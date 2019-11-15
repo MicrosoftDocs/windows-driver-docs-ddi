@@ -73,15 +73,6 @@ A numeric value that represents the Kernel-Mode Driver Framework library's major
 A numeric value that represents the Kernel-Mode Driver Framework library's minor version number.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

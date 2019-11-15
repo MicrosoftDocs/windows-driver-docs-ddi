@@ -62,15 +62,6 @@ The <b>KeReleaseInStackQueuedSpinLock</b> routine releases a queued spin lock ac
 Specifies the queued spin lock handle initialized by the call to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551899(v=vs.85)">KeAcquireInStackQueuedSpinLock</a> that acquired the lock.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

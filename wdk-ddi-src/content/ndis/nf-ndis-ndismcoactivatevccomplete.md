@@ -82,15 +82,6 @@ Pointer to a structure of type
      manager, specifying the call and media parameters for the VC activation.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 
