@@ -66,15 +66,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kern
 A pointer to the lookaside-list entry that is being freed.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

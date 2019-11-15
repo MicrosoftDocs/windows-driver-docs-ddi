@@ -62,9 +62,6 @@ The network adapter object that the client created in a prior call to [**NetAdap
 ### -param MtuSize
 The new size of the adapter's MTU, in bytes.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 The client driver first sets MTU size by calling **NetAdapterSetLinkLayerMtuSize** when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 

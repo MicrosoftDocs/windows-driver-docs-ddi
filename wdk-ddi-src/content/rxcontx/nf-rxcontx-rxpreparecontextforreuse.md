@@ -61,15 +61,6 @@ req.typenames:
 A pointer to the RX_CONTEXT structure.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

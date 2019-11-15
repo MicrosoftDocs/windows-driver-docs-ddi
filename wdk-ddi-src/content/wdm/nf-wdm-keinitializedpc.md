@@ -71,15 +71,6 @@ Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 Specifies the value to pass as the <i>DeferredContext</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kdeferred_routine">CustomDpc</a>. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

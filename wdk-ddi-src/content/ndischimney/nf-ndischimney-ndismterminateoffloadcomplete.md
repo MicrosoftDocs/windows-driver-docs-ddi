@@ -79,15 +79,6 @@ A pointer to an
      MiniportTerminateOffload</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

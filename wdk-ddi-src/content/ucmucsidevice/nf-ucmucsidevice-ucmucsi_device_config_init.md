@@ -55,9 +55,6 @@ Initializes a [**UCMUCSI_DEVICE_CONFIG**](ns-ucmucsidevice-_ucmucsi_device_confi
 ### -param Config
 A pointer to the **UCMUCSI_DEVICE_CONFIG** structure to initialize.
 
-## -returns
-This function returns VOID.
-
 ## -remarks
 The client driver must call this initialization function before calling [**UcmUcsiDeviceInitialize**](nf-ucmucsidevice-ucmucsideviceinitialize.md).
 

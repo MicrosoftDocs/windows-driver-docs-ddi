@@ -73,15 +73,6 @@ A pointer to an MDL that describes a buffer.
 The size, in bytes, of the buffer that <i>Mdl</i> specifies.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

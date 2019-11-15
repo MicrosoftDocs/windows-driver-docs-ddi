@@ -64,15 +64,6 @@ The
 Pointer to an opaque variable that represents a spin lock.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

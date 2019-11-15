@@ -61,15 +61,6 @@ The <b>KeBugCheck</b> routine brings down the system in a controlled manner when
 Specifies a value that indicates the reason for the bug check. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

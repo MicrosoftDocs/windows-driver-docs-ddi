@@ -61,15 +61,6 @@ The <b>PoStartNextPowerIrp</b> routine signals the <a href="https://docs.microso
 A pointer to an IRP in which the major function code is <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-power">IRP_MJ_POWER</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

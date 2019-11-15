@@ -73,15 +73,6 @@ A pointer to the key for the SRV_OPEN structure.
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

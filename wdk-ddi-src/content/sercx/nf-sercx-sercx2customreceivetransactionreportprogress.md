@@ -72,15 +72,6 @@ Whether progress is being made toward completing the custom-receive transaction.
 For more information about these enumeration constants, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ne-sercx-_sercx2_custom_receive_transaction_progress">SERCX2_CUSTOM_RECEIVE_TRANSACTION_PROGRESS</a>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

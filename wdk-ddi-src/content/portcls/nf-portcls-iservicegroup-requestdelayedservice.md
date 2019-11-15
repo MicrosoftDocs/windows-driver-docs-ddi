@@ -68,15 +68,6 @@ The <code>RequestDelayedService</code> method requests service after the specifi
 Specifies the absolute or relative time at which the timer is to expire. If the value of <i>ulDelay</i> is negative, the expiration time is relative to the current system time. Otherwise, the expiration time is absolute. The expiration time is expressed in system time units (100-nanosecond intervals). Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

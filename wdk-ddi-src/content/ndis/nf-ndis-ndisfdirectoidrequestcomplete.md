@@ -83,15 +83,6 @@ The final status of the request operation: NDIS_STATUS_SUCCESS or any driver-det
      NDIS_STATUS_<i>Xxx</i> value except NDIS_STATUS_PENDING.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

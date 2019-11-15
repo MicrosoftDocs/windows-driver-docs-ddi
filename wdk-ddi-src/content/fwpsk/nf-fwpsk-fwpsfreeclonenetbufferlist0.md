@@ -75,15 +75,6 @@ There are currently no flags defined for this function. Callout drivers should s
      to zero.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

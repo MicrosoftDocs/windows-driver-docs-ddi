@@ -61,15 +61,6 @@ req.typenames:
 A pointer to the reference-counted data structure to be referenced (incremented). 
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

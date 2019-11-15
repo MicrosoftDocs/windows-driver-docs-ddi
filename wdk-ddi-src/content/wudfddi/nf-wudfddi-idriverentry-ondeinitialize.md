@@ -63,15 +63,6 @@ The <b>OnDeinitialize</b> method performs any operations that are necessary befo
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdriver">IWDFDriver</a> interface for the driver object that represents the driver that the system unloads.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

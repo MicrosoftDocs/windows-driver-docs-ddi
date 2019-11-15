@@ -68,15 +68,6 @@ A pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wd
 A pointer to a <b>DEVPROPKEY</b> structure that specifies the device property key.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

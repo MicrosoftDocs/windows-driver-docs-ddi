@@ -86,15 +86,6 @@ Specifies the number of the bus on which the extended I/O space exists. This is 
 This is typically 1.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

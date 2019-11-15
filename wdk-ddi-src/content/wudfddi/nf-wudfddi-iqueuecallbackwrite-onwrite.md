@@ -73,15 +73,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 The size, in bytes, of the write buffer for the request.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

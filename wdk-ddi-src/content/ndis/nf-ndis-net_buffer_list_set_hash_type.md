@@ -68,10 +68,6 @@ The hash type is an OR value of valid combinations of the following flags:
 
 For more information about hash types and the valid combinations of these flags, see [RSS Hashing Types](https://docs.microsoft.com/windows-hardware/drivers/network/rss-hashing-types).
 
-## -returns
-
-This macro does not return a value.
-
 ## -remarks
 
 A NIC (or its miniport driver) uses the receive side scaling (RSS) hash type to identify the portion of received network data that is used to calculate an RSS hash value.

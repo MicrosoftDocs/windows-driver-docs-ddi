@@ -63,15 +63,6 @@ The <b>GetIoQueue</b> method retrieves the I/O queue object that is associated w
 A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the I/O queue object that the I/O request is associated with.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

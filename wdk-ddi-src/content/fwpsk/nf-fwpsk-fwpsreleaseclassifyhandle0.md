@@ -69,15 +69,6 @@ The classification handle that identifies the callout driver's processing at the
      FwpsAcquireClassifyHandle0</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

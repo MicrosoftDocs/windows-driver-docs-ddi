@@ -66,15 +66,6 @@ The <b>WdfFdoInitSetFilter</b> method identifies the calling driver as an upper-
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure that the driver obtained from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

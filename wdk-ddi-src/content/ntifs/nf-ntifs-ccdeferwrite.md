@@ -102,15 +102,6 @@ Number of bytes of data to be written.
 Set to <b>FALSE</b> if the request is being posted for the first time, <b>TRUE</b> otherwise.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

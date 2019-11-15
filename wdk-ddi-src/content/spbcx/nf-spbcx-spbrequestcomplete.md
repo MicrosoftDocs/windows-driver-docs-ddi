@@ -87,15 +87,6 @@ The I/O request is canceled.
 The driver encountered an error while processing the I/O request.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

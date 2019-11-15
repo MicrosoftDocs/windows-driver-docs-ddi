@@ -71,15 +71,6 @@ A pointer to the FCB. This parameter is required and cannot be <b>NULL</b>.
 The thread ID that originally acquired the resource.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

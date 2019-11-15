@@ -63,10 +63,6 @@ y-coordinate.
 
 z-coordinate.
 
-## -returns
-
-Void.
-
 ## -remarks
 
 ## -see-also

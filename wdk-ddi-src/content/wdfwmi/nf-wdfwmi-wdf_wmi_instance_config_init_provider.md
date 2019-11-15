@@ -68,15 +68,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 A handle to a WMI provider object that the driver obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfwmi/nf-wdfwmi-wdfwmiprovidercreate">WdfWmiProviderCreate</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

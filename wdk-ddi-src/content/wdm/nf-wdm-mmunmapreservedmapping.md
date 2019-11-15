@@ -71,15 +71,6 @@ Specifies the pool tag for the reserved memory buffer. This must be identical to
 Pointer to the MDL that describes the physical memory mapping.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

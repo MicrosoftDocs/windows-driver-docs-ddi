@@ -80,15 +80,6 @@ Length of the byte range to flush, starting at <i>FileOffset</i>. If <i>FileOffs
 Pointer to a structure that receives the final completion status and information about the flush operation. If the data is flushed successfully, <i>IoStatus.Status</i> contains STATUS_SUCCESS. If not all of the data is flushed successfully, <i>IoStatus.Information</i> contains the actual number of bytes that were flushed. Otherwise, <i>IoStatus.Information</i> contains the value  given in <i>Length</i>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

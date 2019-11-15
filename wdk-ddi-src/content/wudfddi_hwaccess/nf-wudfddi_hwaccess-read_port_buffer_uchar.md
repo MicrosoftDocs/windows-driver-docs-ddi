@@ -78,15 +78,6 @@ A pointer to a buffer into which an array of UCHAR values is read.
 Specifies the number of bytes to be read into the buffer.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

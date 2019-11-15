@@ -61,15 +61,6 @@ The<b> KsGateTurnInputOff</b> function turns off an existing input to <i>Gate</i
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure that is the gate to transition to the OFF state. Must currently have an input in the ON state. May be an AND gate or an OR gate.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

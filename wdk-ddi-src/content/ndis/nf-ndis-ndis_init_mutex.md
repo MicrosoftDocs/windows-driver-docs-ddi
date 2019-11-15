@@ -53,10 +53,6 @@ The **NDIS_INIT_MUTEX** macro initializes a mutex object and sets it to a signal
 
 A pointer to a caller-supplied NDIS_MUTEX-type mutex object. NDIS_MUTEX is a wrapper for KMUTEX.
 
-## -returns
-
-This macro does not return a value.
-
 ## -remarks
 
 NDIS network drivers should use the **NDIS_INIT_MUTEX** macro to initialize a mutex.

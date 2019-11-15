@@ -66,15 +66,6 @@ A pointer to the KSGATE structure to initialize as a new OR gate.
 A pointer to an existing KSGATE structure to which <i>OrGate</i> attaches. Optional.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

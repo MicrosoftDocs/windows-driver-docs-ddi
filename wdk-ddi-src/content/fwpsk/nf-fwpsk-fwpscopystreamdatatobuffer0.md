@@ -84,15 +84,6 @@ A pointer to a variable that receives the size, in bytes, of the stream data cop
      <i>buffer</i> parameter.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

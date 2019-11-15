@@ -77,15 +77,6 @@ The length of the HID Report Descriptor contained in a buffer pointer by <i>Repo
 A pointer to a HID source driver-allocated buffer that contains the  HID Report Descriptor.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

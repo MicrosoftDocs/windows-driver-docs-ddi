@@ -61,15 +61,6 @@ The <b>FsRtlDeregisterUncProvider</b> routine deregisters a redirector that was 
 MUP handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider">FsRtlRegisterUncProvider</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex">FsRtlRegisterUncProviderEx</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

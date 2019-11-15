@@ -60,10 +60,6 @@ The number of bytes.
 
 The status of the sensor object.
 
-## -returns
-
-This function returns VOID.
-
 ## -remarks
 
 ## -see-also

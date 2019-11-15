@@ -61,15 +61,6 @@ The <b>PcwUnregister</b> function unregisters the provider of the specified coun
 A pointer to the registration being removed.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

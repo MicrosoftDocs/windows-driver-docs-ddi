@@ -61,15 +61,6 @@ The <b>SPB_TRANSFER_DESCRIPTOR_INIT</b> function initializes an  <a href="https:
 A pointer to the <b>SPB_TRANSFER_DESCRIPTOR</b> structure that is to be initialized.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

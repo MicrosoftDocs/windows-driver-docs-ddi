@@ -65,15 +65,6 @@ A pointer to an opaque
      access to resources that are shared among non-ISR driver threads.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

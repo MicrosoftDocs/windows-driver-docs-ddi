@@ -70,15 +70,6 @@ Additional driver-supplied information that is related to the I/O operation.
 For read, write, and device I/O control operations, the driver should supply the number of bytes that are transferred.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

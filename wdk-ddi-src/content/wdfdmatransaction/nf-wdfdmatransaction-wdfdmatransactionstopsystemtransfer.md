@@ -66,15 +66,6 @@ req.typenames:
 A handle to an initialized DMA transaction object.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

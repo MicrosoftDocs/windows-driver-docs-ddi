@@ -64,15 +64,6 @@ Informs the  USB device emulation  class extension (UdeCx) that the reset operat
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

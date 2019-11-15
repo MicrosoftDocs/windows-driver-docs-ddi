@@ -61,15 +61,6 @@ The <b>SeCaptureSubjectContext</b> routine captures the security context of the 
 Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">SECURITY_SUBJECT_CONTEXT</a> structure.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

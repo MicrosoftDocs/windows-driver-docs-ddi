@@ -78,15 +78,6 @@ A pointer to a boolean that returns whether secure process creation is enabled e
 A pointer to a boolean that returns whether the mitigation is in audit-only mode.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

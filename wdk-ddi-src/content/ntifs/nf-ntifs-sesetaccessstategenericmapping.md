@@ -66,15 +66,6 @@ Pointer to the ACCESS_STATE structure to be modified.
 Pointer to a GENERIC<b>_</b>MAPPING structure to be copied into the ACCESS_STATE structure specified by <i>AccessState</i>. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

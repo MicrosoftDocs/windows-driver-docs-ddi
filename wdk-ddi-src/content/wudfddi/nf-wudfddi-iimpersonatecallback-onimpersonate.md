@@ -63,15 +63,6 @@ The <b>OnImpersonate</b> method handles impersonation.
 A pointer to a context that was previously supplied in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-impersonate">IWDFIoRequest::Impersonate</a> method. This parameter is optional and can be <b>NULL</b> if a context is not required. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

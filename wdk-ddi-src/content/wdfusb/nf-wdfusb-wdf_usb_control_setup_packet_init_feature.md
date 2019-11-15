@@ -83,15 +83,6 @@ A feature-specific index value that is stored in the <b>Packet.wIndex.Value</b> 
 A Boolean value that, if <b>TRUE</b>, indicates that the specified feature will be set. If <b>FALSE</b>, the specified feature will be cleared.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

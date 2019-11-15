@@ -58,10 +58,6 @@ Contains a pointer to the Mcb structure to initialize.
 ### -param PoolType
 Specifies the pool type to use when allocating additional internal Mcb memory.
 
-## -returns
-
-None.
-
 ## -remarks
 
 ## -see-also

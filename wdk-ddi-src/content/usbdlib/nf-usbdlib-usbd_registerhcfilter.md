@@ -69,15 +69,6 @@ Pointer to the device object that is the current top of the stack as reported by
 Pointer to the filter device object created by the filter driver for its operations.
 
 
-## -returns
-
-
-
-None. 
-
-
-
-
 ## -remarks
 
 

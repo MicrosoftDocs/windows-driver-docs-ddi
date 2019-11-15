@@ -70,9 +70,6 @@ The required minimum input length for the request.
 ### -param MinimumOutputLength
 The required minimum output length for the request.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 
 

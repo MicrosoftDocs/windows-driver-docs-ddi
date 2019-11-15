@@ -78,15 +78,6 @@ A pointer to a buffer into which an array of USHORT values is to be written.
 Specifies the number of USHORT values to write to the register.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

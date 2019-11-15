@@ -66,15 +66,6 @@ Specifies the new power state that Portcls has requested for the device. This pa
 Specifies the new power state that Portcls has requested for the system. This parameter is an enumeration of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

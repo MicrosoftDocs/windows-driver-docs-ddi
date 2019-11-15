@@ -81,11 +81,3 @@ Specifies the pattern to search for.
 Receives the location of the pattern, found in the target's virtual memory.  If the pattern was not found, the value in <i>FoundAddress</i> is unchanged by this function.
 
 
-## -returns
-
-
-
-None
-
-
-

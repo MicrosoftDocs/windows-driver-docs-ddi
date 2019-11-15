@@ -71,15 +71,6 @@ The number of bytes of unread data that are currently contained in the type-ahea
 The size, in bytes, of the type-ahead ring buffer that is used to store received data.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

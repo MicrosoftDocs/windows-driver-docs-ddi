@@ -68,15 +68,6 @@ A handle to a framework request object that contains the <a href="https://docs.m
 A <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff539136(v=vs.85)">USBD_STATUS</a>-typed value that indicates the success or failure of the completed URB request. 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -61,15 +61,6 @@ The <b>GetTebAddress</b> function returns the address of the thread environment 
 Receives the address of the TEB for the current operating system thread.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

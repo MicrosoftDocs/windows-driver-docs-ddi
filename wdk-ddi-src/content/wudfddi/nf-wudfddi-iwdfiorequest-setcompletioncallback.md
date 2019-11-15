@@ -68,15 +68,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 A pointer to a buffer that contains context information that is related to the request completion. The framework passes this context information in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-irequestcallbackrequestcompletion-oncompletion">IRequestCallbackRequestCompletion::OnCompletion</a> method. This parameter is optional and can be <b>NULL</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

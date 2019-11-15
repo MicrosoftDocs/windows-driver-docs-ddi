@@ -66,10 +66,6 @@ New tags can be assigned in future system releases for new media types that requ
 
 A pointer to an [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION**](ns-ndis-_ndis_nbl_media_media_specific_information.md) structure.
 
-## -returns
-
-This macro does not return a value.
-
 ## -remarks
 
 Any NDIS 6.0 or 6.1 driver can use **NDIS_NBL_GET_MEDIA_SPECIFIC_INFO** to get media-specific information from a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure. When this macro returns, the *\_MediaSpecificInfo* parameter contains a pointer to the first [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION**](ns-ndis-_ndis_nbl_media_media_specific_information.md) structure in the media-specific information list that has a **Tag** member matching the value specified in the *\_Tag* parameter.

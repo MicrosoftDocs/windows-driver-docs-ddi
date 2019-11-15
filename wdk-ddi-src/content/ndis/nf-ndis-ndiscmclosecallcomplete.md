@@ -84,15 +84,6 @@ Specifies either <b>NULL</b> if the
      <i>ProtocolCmCloseCall</i> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

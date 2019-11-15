@@ -84,15 +84,6 @@ Specifies the size in bytes of the buffer, zero if
      <i>Buffer</i> is <b>NULL</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

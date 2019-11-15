@@ -62,10 +62,6 @@ A handle that represents a display adapter.
 
 Specifies the base address of the mapped range to be freed.
 
-## -returns
-
-This function returns VOID.
-
 ## -remarks
 
 ## -see-also

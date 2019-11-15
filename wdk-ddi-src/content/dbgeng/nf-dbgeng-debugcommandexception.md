@@ -71,11 +71,3 @@ The size of the argument.
 A pointer to an argument.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

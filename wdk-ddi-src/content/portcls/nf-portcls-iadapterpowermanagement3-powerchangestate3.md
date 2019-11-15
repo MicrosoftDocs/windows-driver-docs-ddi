@@ -61,9 +61,6 @@ The new power state that Portcls has requested for the system. This parameter is
 The acceptable exit latency for the state into which the device is put when the device comes out of PowerDeviceD3. This parameter is an enumeration of type PC_EXIT_LATENCY.
 
 
-## -returns
-This method returns void.
-
 ## -remarks
 If the device is not going into its new state from PowerDeviceD3, then D3ExitLatency is set to PcExitLatencyInstant. For more information about the possible values for D3ExitLatency, see [D3ExitLatencyChanged](nf-portcls-iadapterpowermanagement3-d3exitlatencychanged.md).
 

@@ -50,9 +50,6 @@ The PnpCancelStop method provides a notification while processing the CancelStop
 ## -parameters
 None
 
-## -returns
-This method returns void.
-
 ## -remarks
 PnpCancelStop is invoked by portcls while processing the CancelStop IRP. This is just a notification. It is possible for the Miniport to receive PnpCancelStop even without previously receiving a PnpQueryStop notification. The miniport should be written to accommodate this behavior. For example this is the case when the QueryStop logic fails the IRP before Portcls has an opportunity to forward this notification to the Miniport. In this scenario PnP manager still invokes a PnP Cancel Stop. 
 

@@ -61,15 +61,6 @@ The <b>AtaPortBusChangeDetected</b> routine notifies the port driver of changes 
 A pointer to the channel extension. 
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

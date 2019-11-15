@@ -66,15 +66,6 @@ The list of PROPERTYKEY elements.
 The size of pPropertyList.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

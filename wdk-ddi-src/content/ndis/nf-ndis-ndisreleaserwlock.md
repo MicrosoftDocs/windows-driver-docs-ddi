@@ -76,15 +76,6 @@ A pointer to an opaque
      to obtain the lock from the same non-ISR driver thread.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

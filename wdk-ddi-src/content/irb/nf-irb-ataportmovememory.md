@@ -74,15 +74,6 @@ A pointer to the source buffer.
 Specifies the number of bytes to transfer from <i>ReadBuffer</i> to <i>WriteBuffer</i>.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

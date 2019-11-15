@@ -67,15 +67,6 @@ A handle to UDE device object. The client driver retrieved this pointer in the p
 This value is the <b>bInterfaceNumber</b> of the interface that is waking up. 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

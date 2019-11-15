@@ -66,15 +66,6 @@ Pointer to the register which must be a mapped range in memory space.
 Specifies a ULONG value to be written to the register. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

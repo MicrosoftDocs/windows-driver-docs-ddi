@@ -75,11 +75,3 @@ A pointer to the port, which must be a mapped memory range in I/O space.
 Specifies a byte to be written to the port.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

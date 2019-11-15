@@ -69,15 +69,6 @@ The network interface index for the interface that was higher in the stack table
 The network interface index for the interface that was lower in the stack table.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

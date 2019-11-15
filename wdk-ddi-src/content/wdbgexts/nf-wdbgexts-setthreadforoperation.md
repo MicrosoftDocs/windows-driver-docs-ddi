@@ -61,15 +61,6 @@ The <b>SetThreadForOperation</b> function sets the thread to use for the next <a
 Points to a thread object to be used for the next stack trace.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

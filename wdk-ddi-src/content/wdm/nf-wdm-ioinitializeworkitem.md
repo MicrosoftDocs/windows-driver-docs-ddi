@@ -66,15 +66,6 @@ Pointer to the caller's driver object or to one of the caller's device objects. 
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure to initialize.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

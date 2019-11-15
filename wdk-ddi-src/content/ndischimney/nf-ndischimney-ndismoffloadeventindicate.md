@@ -147,15 +147,6 @@ Indicates that a neighbor cache entry (NCE) has become stale. For more informati
 Reserved.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

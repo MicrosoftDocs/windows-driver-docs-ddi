@@ -177,15 +177,6 @@ Specifies that all the <a href="https://docs.microsoft.com/windows-hardware/driv
 Reserved.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 A miniport driver typically calls the 

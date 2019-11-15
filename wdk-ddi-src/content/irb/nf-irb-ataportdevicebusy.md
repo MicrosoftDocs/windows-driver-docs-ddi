@@ -76,15 +76,6 @@ Specifies the logical unit number (LUN) of the device.
 Specifies the time, in seconds, for which the device is presumed to be busy.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

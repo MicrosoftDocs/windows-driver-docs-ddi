@@ -92,15 +92,6 @@ Place the DPC at the end of the DPC queue, and begin processing the queue immedi
 Place the DPC at the beginning of the DPC queue, and begin processing the queue immediately. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

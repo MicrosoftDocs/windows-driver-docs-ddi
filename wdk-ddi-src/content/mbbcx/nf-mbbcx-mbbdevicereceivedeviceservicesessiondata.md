@@ -68,10 +68,6 @@ The ID of the device service session obtained from a previous call to [**MbbAdap
 
 A driver-allocated WDFMEMORY object containing the data to pass to the application.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 For more information, see [Handling device service sessions](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#handling-device-service-sessions).

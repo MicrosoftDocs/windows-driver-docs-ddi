@@ -76,15 +76,6 @@ A pointer to the base virtual address for the subrange to be described by the <i
 Specifies the length, in bytes, to be mapped by the <i>TargetMdl</i>. This value, in combination with <i>VirtualAddress</i>, must specify a buffer that is a proper subrange of the buffer that is described by <i>SourceMdl</i>. If <i>Length</i> is zero, the subrange to be mapped starts at <i>VirtualAddress</i> and includes the remaining range described by the <i>SourceMdl</i>. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

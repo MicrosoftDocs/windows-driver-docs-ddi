@@ -79,15 +79,6 @@ A pointer to an opaque variable that tracks the state of the lock. This variable
      driver thread.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

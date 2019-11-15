@@ -61,15 +61,6 @@ The <b>RtlInitializeSplayLinks</b> routine initializes a splay link node.
 Pointer to a caller-allocated buffer, which must be at least <b>sizeof(</b>RTL_SPLAY_LINK<b>)</b>, to contain the initialized splay link node. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

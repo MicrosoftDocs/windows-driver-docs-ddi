@@ -106,15 +106,6 @@ The miniport driver reclaims ownership of the NET_BUFFER_LIST structures and any
        <b>NdisMCoIndicateReceiveNetBufferLists</b> returns.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

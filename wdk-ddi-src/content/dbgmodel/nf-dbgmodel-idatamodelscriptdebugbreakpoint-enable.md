@@ -50,8 +50,6 @@ The Enable method enables the breakpoint. If the breakpoint was disabled, "hitti
 ## -parameters
 
 
-## -returns
-This method returns void.
 ## -remarks
 
 ## -see-also

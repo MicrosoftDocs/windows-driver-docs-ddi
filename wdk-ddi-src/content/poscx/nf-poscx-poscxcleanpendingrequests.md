@@ -63,6 +63,3 @@ A handle to a framework file object for which all pending requests should be can
 
 An appropriate NTSTATUS error code that indicates success or failure.
 
-## -returns
-
-This function does not return a value.

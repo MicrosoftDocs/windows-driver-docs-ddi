@@ -66,10 +66,6 @@ Specifies the current setting of the property on the device.
 
 Specifies a value containing all of the valid flags.
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)

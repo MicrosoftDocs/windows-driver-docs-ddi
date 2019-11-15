@@ -78,15 +78,6 @@ A pointer to the key for the SRV_OPEN key structure.
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

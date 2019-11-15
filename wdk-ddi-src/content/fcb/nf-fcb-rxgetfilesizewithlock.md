@@ -66,15 +66,6 @@ A pointer to the FCB structure.
 A pointer where the file size file will be stored on output.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

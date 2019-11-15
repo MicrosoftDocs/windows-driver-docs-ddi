@@ -68,15 +68,6 @@ A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hard
 A value for the <b>FileName</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/ns-wdfiotarget-_wdf_io_target_open_params">WDF_IO_TARGET_OPEN_PARAMS</a> structure. Most drivers specify <b>NULL</b> here unless the lower target supports <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/controlling-device-namespace-access">Device Namespace Access</a>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -285,15 +285,6 @@ Optional pointer to a callback routine to be invoked when a change occurs to the
 </tr>
 </table></span></div>
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

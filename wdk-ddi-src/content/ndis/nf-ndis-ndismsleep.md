@@ -63,15 +63,6 @@ The
 The number of microseconds to delay.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -61,15 +61,6 @@ The <b>ExInitializeSetTimerParameters</b> routine initializes an <a href="https:
 A pointer to the <b>EXT_SET_PARAMETER</b> structure that is to be initialized.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

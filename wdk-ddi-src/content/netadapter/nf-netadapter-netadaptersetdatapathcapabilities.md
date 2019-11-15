@@ -65,9 +65,6 @@ A pointer to an allocated and initialized [NET_ADAPTER_TX_CAPABILITIES](ns-netad
 ### -param RxCapabilities
 A pointer to an allocated and initialized [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 The client driver must call this method when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 

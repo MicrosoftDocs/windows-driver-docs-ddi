@@ -94,15 +94,6 @@ Length in bytes of the information to be stored in the tunnel cache entry for th
 Pointer to a buffer that contains file-system-specific information to be stored in the tunnel cache entry for this file.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

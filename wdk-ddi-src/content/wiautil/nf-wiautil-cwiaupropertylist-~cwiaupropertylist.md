@@ -51,10 +51,6 @@ The **CWiauPropertyList::~CWiauPropertyList** method is the destructor for the *
 ## -parameters
 
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)

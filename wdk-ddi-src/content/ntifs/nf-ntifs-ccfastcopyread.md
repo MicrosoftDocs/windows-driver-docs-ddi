@@ -86,15 +86,6 @@ Pointer to a buffer into which the data is to be copied.
 Pointer to a structure that receives the final completion status and information about the operation. If not all of the data is copied successfully, <i>IoStatus.Information</i> contains the actual number of bytes that were copied.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

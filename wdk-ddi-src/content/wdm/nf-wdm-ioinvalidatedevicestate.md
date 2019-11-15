@@ -61,15 +61,6 @@ The <b>IoInvalidateDeviceState</b> routine notifies the PnP manager that some as
 Pointer to the PDO for the device. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

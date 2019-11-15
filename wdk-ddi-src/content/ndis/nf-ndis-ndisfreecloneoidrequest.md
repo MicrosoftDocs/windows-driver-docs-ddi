@@ -72,15 +72,6 @@ A pointer to the
      freed.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

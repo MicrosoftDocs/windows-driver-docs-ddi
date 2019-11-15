@@ -95,15 +95,6 @@ The final status of the request operation, either NDIS_STATUS_SUCCESS,
      <u>except</u> NDIS_STATUS_PENDING.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

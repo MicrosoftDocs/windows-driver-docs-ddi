@@ -68,15 +68,6 @@ A pointer to a driver-allocated WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER stru
 The size, in bytes, of a driver-defined structure that contains device identification information. For more information about specifying the size value, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

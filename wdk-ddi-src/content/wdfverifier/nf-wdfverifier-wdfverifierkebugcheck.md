@@ -86,15 +86,6 @@ For information about this parameter, see the specified bug check code's descrip
 For information about this parameter, see the specified bug check code's description.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

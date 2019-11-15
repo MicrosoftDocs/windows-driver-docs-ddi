@@ -66,15 +66,6 @@ Pointer to the spin lock that <b>KeAcquireSpinLockForDpc</b> acquired.
 Specifies the IRQL that was current when the spin lock was acquired. Specify the value returned by <b>KeAcquireSpinLockForDpc</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

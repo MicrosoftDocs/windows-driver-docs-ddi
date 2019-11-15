@@ -66,15 +66,6 @@ A pointer to the KSGATE structure to initialize as a new AND gate.
 A pointer to an existing KSGATE structure to which <i>AndGate</i> attaches. This parameter should be an OR gate and is optional.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

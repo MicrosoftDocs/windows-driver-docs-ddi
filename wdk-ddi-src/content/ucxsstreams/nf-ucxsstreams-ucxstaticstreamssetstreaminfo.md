@@ -66,15 +66,6 @@ Sets stream information for each stream enabled by the client driver.
                 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxsstreams/ns-ucxsstreams-_stream_info">STREAM_INFO</a> structure that contains static stream-related information.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

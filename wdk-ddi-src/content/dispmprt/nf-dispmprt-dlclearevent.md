@@ -63,10 +63,6 @@ A handle to the device.
 Pointer to an event to clear.
 
 
-## -returns
-
-This function returns VOID.
-
 ## -remarks
 
 ## -see-also

@@ -53,10 +53,6 @@ The **NET_BUFFER_LIST_NBL_FLAGS** macro retrieves the **NblFlags** member of a [
 
 A pointer to a **NET_BUFFER_LIST** structure.
 
-## -returns
-
-This macro does not return a value.
-
 ## -remarks
 
 NDIS network drivers should use the **NET_BUFFER_LIST_NBL_FLAGS** macro to get the **NblFlags** member of a [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure.

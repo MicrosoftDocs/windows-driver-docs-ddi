@@ -66,15 +66,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 The value to load into the <b>EvtSerCx2CustomTransmitTransactionStart</b> member of the <b>SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</b> structure. For more information, see the description of this member in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_custom_transmit_transaction_config">SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG</a>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

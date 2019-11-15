@@ -59,15 +59,6 @@ The <b>WdmlibProcgrpInitialize</b> function initializes the Processor Group (Pro
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

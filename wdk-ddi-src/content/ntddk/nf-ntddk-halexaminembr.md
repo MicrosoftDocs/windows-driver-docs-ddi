@@ -78,15 +78,6 @@ A pointer to a location to which <b>HalExamineMBR</b> writes a pointer to a buff
 <b>HalExamineMBR</b> sets *<i>Buffer</i> = <b>NULL</b> if the MBR partition type of the disk does not match that specified by <i>MBRTypeIdentifier</i> or if there is an error.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

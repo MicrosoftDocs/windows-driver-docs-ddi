@@ -62,15 +62,6 @@ The<b> KsFreeObjectBag</b> function empties and frees an object bag.
 The KSOBJECT_BAG (equivalent to type PVOID) to be emptied and then freed.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

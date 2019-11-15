@@ -73,11 +73,3 @@ A pointer to the register, which must be a mapped range in memory space.
 Specifies a ULONG value to write to the register.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

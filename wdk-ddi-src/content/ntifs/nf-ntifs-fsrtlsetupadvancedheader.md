@@ -69,15 +69,6 @@ The <b>FsRtlSetupAdvancedHeader</b> macro is used by file systems to initialize 
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

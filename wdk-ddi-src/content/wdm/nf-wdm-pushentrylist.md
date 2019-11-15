@@ -66,15 +66,6 @@ Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-
 Pointer to SINGLE_LIST_ENTRY structure that represents the entry to be inserted on the list.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

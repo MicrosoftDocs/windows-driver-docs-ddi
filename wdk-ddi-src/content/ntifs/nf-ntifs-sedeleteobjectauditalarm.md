@@ -66,15 +66,6 @@ Address of the object.
 A unique 32-bit value representing the client's handle to the object. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

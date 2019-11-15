@@ -56,10 +56,6 @@ A DFx (Directed [PoFx](https://docs.microsoft.com/windows-hardware/drivers/kerne
 A POHANDLE value that represents the registration of the processor (as a device) with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">power management framework</a> (PoFx).
 
 
-## -returns
-
-This function returns VOID.
-
 ## -remarks
 
 The driver typically calls this routine from its [*PO_FX_DIRECTED_POWER_DOWN_CALLBACK*](nc-wdm-po_fx_directed_power_down_callback.md) callback routine.

@@ -68,15 +68,6 @@ A pointer to the caller-allocated <a href="https://docs.microsoft.com/windows-ha
 The address of the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nc-wdfworkitem-evt_wdf_workitem">EvtWorkItem</a> event callback function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

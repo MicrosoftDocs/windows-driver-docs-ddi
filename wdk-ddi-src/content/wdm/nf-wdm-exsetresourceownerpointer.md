@@ -66,15 +66,6 @@ A pointer to an executive resource owned by the current thread.
 A pointer to an owner thread pointer of type ERESOURCE_THREAD (for additional requirements, see the following Remarks section).
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -83,15 +83,6 @@ Pointer to a structure of type
      parameters for the incoming call.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

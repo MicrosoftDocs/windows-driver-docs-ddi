@@ -58,11 +58,3 @@ The <b>StartTail</b> method initializes the list for iterating backward, startin
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

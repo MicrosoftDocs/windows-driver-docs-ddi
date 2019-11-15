@@ -66,11 +66,3 @@ Holds information on the sensor being managed by the driver.
 Holds information on the state of the sensor.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

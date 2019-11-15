@@ -88,15 +88,6 @@ An optional entry point for an
      <i>NetFreeMdl</i> function, NDIS calls 
      <i>NetFreeMdl</i> to free an MDL and memory.
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

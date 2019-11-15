@@ -62,9 +62,6 @@ The maximum fragment buffer size, in bytes, that the adapter can transmit.
 ### -param MaximumNumberOfQueues
 The maximum number of transmit queues that the adapter supports.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 This method is one of two possible methods to call in order to initialize a [NET_ADAPTER_TX_CAPABILITIES](ns-netadapter-_net_adapter_tx_capabilities.md) structure. Which one the client driver should call depends on whether it would like to use DMA. **NET_ADAPTER_TX_CAPABILITIES_INIT** is used if the driver does not specify DMA memory mapping for its transmit buffers, and [NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA](nf-netadapter-net_adapter_tx_capabilities_init_for_dma.md) is used if it does.
 

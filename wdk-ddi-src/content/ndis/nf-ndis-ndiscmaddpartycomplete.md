@@ -84,15 +84,6 @@ Pointer to a structure of type
      parameters, originally supplied by the client, for the party to be added.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

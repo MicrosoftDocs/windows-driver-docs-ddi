@@ -64,15 +64,6 @@ The <b>AtaPortStallExecution</b> stalls in the miniport driver.
 Specifies the delay interval, in microseconds.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

@@ -75,11 +75,3 @@ Specifies a ULONG value to be written to the port.
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

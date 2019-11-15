@@ -72,15 +72,6 @@ A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-
 Specifies the interval in 100-nanosecond units from the current time to the time that the timeout occurs.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

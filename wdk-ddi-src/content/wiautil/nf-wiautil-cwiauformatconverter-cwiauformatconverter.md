@@ -58,15 +58,6 @@ The <b>CWiauFormatConverter::CWiauFormatConverter</b> method is the constructor 
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

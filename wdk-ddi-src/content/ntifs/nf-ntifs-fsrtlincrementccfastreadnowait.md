@@ -60,15 +60,6 @@ The <b>FsRtlIncrementCcFastReadNoWait</b> routine increments the CcFastReadNoWai
 
 
 
-## -returns
-
-
-
-This routine does not return a value.
-
-
-
-
 ## -remarks
 
 

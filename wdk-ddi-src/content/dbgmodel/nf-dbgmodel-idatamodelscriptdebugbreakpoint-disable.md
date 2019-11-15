@@ -50,8 +50,6 @@ The Disable method disables the breakpoint. After this call, "hitting the breakp
 ## -parameters
 
 
-## -returns
-This method returns void.
 ## -remarks
 
 ## -see-also

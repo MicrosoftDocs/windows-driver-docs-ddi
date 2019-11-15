@@ -83,15 +83,6 @@ The size, in bytes, of the buffer that <i>pbData</i> points to.
 An offset, in bytes, from the beginning of the buffer that <i>pbData</i> points to. Bytes from 0 to <i>NameBufferOffset</i>-1 of the buffer contain binary data. Bytes from <i>NameBufferOffset</i> to the end of the buffer contain Unicode string data. 
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

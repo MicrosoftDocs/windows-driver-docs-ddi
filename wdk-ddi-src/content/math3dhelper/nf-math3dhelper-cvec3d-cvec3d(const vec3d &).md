@@ -55,10 +55,6 @@ ms.custom: RS5
 
 A 3D vector.
 
-## -returns
-
-Void.
-
 ## -remarks
 
 ## -see-also

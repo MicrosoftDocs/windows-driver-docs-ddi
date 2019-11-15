@@ -65,15 +65,6 @@ The <b>UFX_ENDPOINT_CALLBACKS_INIT</b> macro initializes the <a href="https://do
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/ns-ufxclient-_ufx_endpoint_callbacks">UFX_ENDPOINT_CALLBACKS</a> structure.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

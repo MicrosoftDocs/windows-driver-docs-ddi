@@ -69,15 +69,6 @@ A pointer to the channel extension.
 A pointer to the buffer to free. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

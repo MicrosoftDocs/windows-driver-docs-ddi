@@ -61,15 +61,6 @@ The <b>SPB_CONTROLLER_CONFIG_INIT</b> function initializes an <a href="https://d
 A pointer to the <b>SPB_CONTROLLER_CONFIG</b> structure that is to be initialized.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

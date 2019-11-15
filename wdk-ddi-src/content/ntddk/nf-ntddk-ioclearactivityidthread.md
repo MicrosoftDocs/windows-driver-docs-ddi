@@ -61,11 +61,3 @@ The IoClearActivityIdThread routine clears the activity ID of the current thread
 The activity ID that was previously set on the thread.
 
 
-## -returns
-
-
-
-None.
-
-
-

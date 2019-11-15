@@ -60,15 +60,6 @@ The <b>ReleaseInterruptLock</b> method ends a code sequence that executes while 
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

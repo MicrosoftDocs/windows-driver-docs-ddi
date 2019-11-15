@@ -68,15 +68,6 @@ An index that identifies the network interface to deregister. The interface prov
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">
      NdisIfRegisterInterface</a> function.
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

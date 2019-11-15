@@ -81,15 +81,6 @@ The final status of the request operation, either NDIS_STATUS_SUCCESS or any dri
      NDIS_STATUS_<i>XXX</i> value except NDIS_STATUS_PENDING.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

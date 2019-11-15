@@ -66,15 +66,6 @@ Pointer to the top of the device stack immediately below the filter driver's dev
 Pointer to the file object for the file to be closed.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

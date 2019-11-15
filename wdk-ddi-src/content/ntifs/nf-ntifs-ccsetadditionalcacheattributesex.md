@@ -66,15 +66,6 @@ Pointer to a file object for the cached file.
 Behavior flags to set for <i>FileObject</i>. Currently, only the  <b>AGGRESSIVE_UNMAP_BEHIND</b> flag is available. Setting this flag will allow the cache manager to optimize memory usage when modified writes are disabled for a file object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

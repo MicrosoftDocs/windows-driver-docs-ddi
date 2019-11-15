@@ -65,15 +65,6 @@ req.typenames:
 A pointer to the activity identifier GUID to store in the I/O request.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

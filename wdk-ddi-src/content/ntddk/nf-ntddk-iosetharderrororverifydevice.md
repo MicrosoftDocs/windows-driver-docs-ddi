@@ -66,15 +66,6 @@ Pointer to the IRP for which the driver encountered a user-induced error.
 Pointer to the target device to be verified for the I/O operation. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

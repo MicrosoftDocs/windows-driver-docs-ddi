@@ -58,11 +58,3 @@ The <b>StartHead</b> method initializes the list for iterating forward starting 
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

@@ -61,15 +61,6 @@ The<b> KsFilterReleaseControl </b>function releases the control mutex for the AV
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter">KSFILTER</a> structure representing the AVStream filter for which to release the control mutex.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 
