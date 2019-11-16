@@ -89,7 +89,7 @@ The <i>Tag</i> does not have to be unique, but should be something meaningful du
 
 The I/O system uses this parameter on checked builds only.
 
-## -returns
+## -remarks
 
 This macro wraps and assumes the return value of **IoAcquireRemoveLockEx**, which is NTSTATUS.
 
@@ -99,7 +99,6 @@ STATUS_DELETE_PENDING: The driver has received an IRP_MN_REMOVE_DEVICE for the d
 
 If the routine returns any value besides STATUS_SUCCESS, do not start any new operations on the device.
 
-## -remarks
 
 
 
