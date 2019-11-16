@@ -66,9 +66,20 @@ The <b>WdfIoQueueDrainSynchronously</b> method causes the framework to stop queu
 A handle to a framework queue object.
 
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
+
+
+
+
+
+## -remarks
 
 
 

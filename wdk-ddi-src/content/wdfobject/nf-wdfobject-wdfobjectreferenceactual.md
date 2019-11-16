@@ -81,10 +81,18 @@ A numeric value that represents a line number in a driver source file.
 A pointer to a null-terminated constant character string that represents the name of a driver source file. This parameter is optional and can be <b>NULL</b>.
 
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
+
+
+
+## -remarks
 
 
 

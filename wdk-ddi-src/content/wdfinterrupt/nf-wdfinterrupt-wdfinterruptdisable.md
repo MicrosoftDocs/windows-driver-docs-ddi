@@ -66,9 +66,20 @@ The <b>WdfInterruptDisable</b> method disables a specified device interrupt by c
 A handle to a framework interrupt object.
 
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
+
+
+
+
+
+## -remarks
 
 
 

@@ -91,9 +91,20 @@ The driver is canceling the request.
 The driver has encountered an error while processing the request.
 
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
+
+
+
+
+
+## -remarks
 
 
 

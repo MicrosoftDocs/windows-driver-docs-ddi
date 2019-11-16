@@ -66,9 +66,20 @@ The <b>WdfIoQueueStart</b> method enables an I/O queue to start receiving and de
 A handle to a framework queue object.
 
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
+
+
+
+
+
+## -remarks
 
 
 

@@ -71,10 +71,18 @@ A handle to a framework request object.
 A pointer to a driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_cancel">EvtRequestCancel</a> callback function, which the framework calls if it cancels the I/O request.
 
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
+
+
+
+## -remarks
 
 
 

@@ -69,10 +69,20 @@ A handle to a framework resource-range-list object that represents a logical con
 A zero-based value that is used as an index into the logical configuration that <i>ResourceList</i> specifies.
 
 
+## -returns
+
+
+
+None.
+
+A system bug check occurs if the driver supplies an invalid object handle.
+
+
+
+
+
+
 ## -remarks
-
-A bug check occurs if the driver supplies an invalid object handle.
-
 
 
 
