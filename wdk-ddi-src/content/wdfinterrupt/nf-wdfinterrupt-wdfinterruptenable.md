@@ -66,9 +66,20 @@ The <b>WdfInterruptEnable</b> method enables a specified device interrupt by cal
 A handle to a framework interrupt object.
 
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
+
+
+
+
+
+## -remarks
 
 
 

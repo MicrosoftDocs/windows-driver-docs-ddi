@@ -71,9 +71,20 @@ A handle to a framework string object.
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that receives a pointer to the Unicode string that is currently assigned to the string object that <i>String</i> specifies.
 
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
+
+
+
+
+
+## -remarks
 
 
 

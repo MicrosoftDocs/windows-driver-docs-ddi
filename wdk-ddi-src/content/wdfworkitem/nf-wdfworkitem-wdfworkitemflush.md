@@ -66,9 +66,20 @@ The <b>WdfWorkItemFlush</b> method returns after a specified work item has been 
 A handle to a framework work-item object that is obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfworkitem/nf-wdfworkitem-wdfworkitemcreate">WdfWorkItemCreate</a>.
 
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
+
+
+
+
+
+## -remarks
 
 
 

@@ -66,9 +66,20 @@ The <b>WdfRegistryClose</b> method closes the registry key that is associated wi
 A handle to a registry-key object that represents an opened registry key.
 
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
+
+
+
+
+
+## -remarks
 
 
 

@@ -81,9 +81,20 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/
 A [**KAFFINITY**](https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-affinity-and-priority#about-kaffinity)-typed value that specifies a processor affinity for the interrupt, if the <i>Policy</i> parameter is set to <b>WdfIrqPolicySpecifiedProcessors</b>.
 
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
+
+
+
+
+
+## -remarks
 
 
 

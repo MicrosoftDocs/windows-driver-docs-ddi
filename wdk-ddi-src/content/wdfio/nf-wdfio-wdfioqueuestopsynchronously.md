@@ -66,9 +66,20 @@ The <b>WdfIoQueueStopSynchronously</b> method prevents an I/O queue from deliver
 A handle to a framework queue object.
 
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
+
+
+
+
+
+## -remarks
 
 
 

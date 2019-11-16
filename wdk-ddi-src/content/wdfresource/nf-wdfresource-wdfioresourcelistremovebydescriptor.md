@@ -69,10 +69,20 @@ A handle to a framework resource-range-list object that represents a logical con
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
 
 
+## -returns
+
+
+
+None.
+
+A system bug check occurs if the driver supplies an invalid object handle.
+
+
+
+
+
+
 ## -remarks
-
-A bug check occurs if the driver supplies an invalid object handle.
-
 
 
 

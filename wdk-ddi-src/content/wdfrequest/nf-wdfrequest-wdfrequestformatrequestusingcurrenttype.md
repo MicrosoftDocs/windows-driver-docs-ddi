@@ -66,9 +66,20 @@ The <b>WdfRequestFormatRequestUsingCurrentType</b> method formats a specified I/
 A handle to a framework request object that the driver received from one of its I/O queues.
 
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
+
+
+
+
+
+
+## -remarks
 
 
 
