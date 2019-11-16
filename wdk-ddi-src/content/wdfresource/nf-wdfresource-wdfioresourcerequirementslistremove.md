@@ -69,18 +69,10 @@ A handle to a framework resource-requirements-list object that represents a devi
 A zero-based value that is used as an index into the resource requirements list that <i>RequirementsList</i> specifies. 
 
 
-## -returns
-
-
-
-None.
-
-A system bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
 ## -remarks
+
+A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 

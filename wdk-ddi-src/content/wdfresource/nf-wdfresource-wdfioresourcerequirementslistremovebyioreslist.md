@@ -69,18 +69,10 @@ A handle to a framework resource-requirements-list object that represents a devi
 A handle to a framework resource-range-list object that represents the logical configuration to be removed from the resource requirements list that <i>RequirementsList</i> specifies.
 
 
-## -returns
-
-
-
-None.
-
-A system bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
 ## -remarks
+
+A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 
