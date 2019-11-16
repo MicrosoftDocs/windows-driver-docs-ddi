@@ -58,15 +58,6 @@ The <b>KeEnterGuardedRegion</b> routine enters a guarded region, which disables 
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

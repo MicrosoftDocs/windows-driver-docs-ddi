@@ -52,9 +52,6 @@ Instructs the UcmUcsiCx class extension to stop sending requests to the client d
 ### -param PpmObject [in]
 A handle to a Platform Policy Manager (PPM) object that the client driver received in the previous call to [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md).
 
-## -returns
-This function returns VOID.
-
 ## -remarks
 
 **UcmUcsiPpmStop** indicates that the client driver is no longer ready to receive requests from the class extension. The class extension guarantees that there will not be any requests made to the client after this call returns. The driver should call this DDI when it encounters a fault and wants the class extension to stop sending PPM requests. After the call completes, the driver should start the PPM again using [**UcmUcsiPpmStart**](nf-ucmucsippm-ucmucsippmstart.md).

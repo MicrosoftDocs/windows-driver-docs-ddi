@@ -73,15 +73,6 @@ A handle to a context area that NDIS uses to manage a DMA resource. The caller o
      <b>NdisMRegisterScatterGatherDma</b> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

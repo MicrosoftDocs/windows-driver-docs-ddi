@@ -64,9 +64,6 @@ An NTSTATUS value that represents the completion status of the request. Valid st
 | STATUS_CANCELLED | The driver canceled the request. |
 | STATUS_UNSUCCESSFUL | The driver encountered an error while processing the request. |
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 Typically, the client driver calls **NetRequestCompleteWithoutInformation** from one of its control request handler routines. Call this function when completing a request that does not require additional memory transfer. For more info, see [Handling Control Requests](https://docs.microsoft.com/windows-hardware/drivers/netcx/handling-control-requests#completing-requests).
 

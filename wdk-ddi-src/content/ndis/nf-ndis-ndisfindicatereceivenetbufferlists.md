@@ -181,15 +181,6 @@ If this flag is set, all packets in a linked list of <a href="https://docs.micro
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-send-and-receive-flags">Hyper-V Extensible Switch Send and Receive Flags</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

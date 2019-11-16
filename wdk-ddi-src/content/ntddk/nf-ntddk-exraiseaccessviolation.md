@@ -58,15 +58,6 @@ The <b>ExRaiseAccessViolation</b> routine can be used with structured exception 
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

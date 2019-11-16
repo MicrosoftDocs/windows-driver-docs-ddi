@@ -63,15 +63,6 @@ The <b>WDF_REQUEST_COMPLETION_PARAMS_INIT</b> function initializes a <a href="ht
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_completion_params">WDF_REQUEST_COMPLETION_PARAMS</a> structure.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

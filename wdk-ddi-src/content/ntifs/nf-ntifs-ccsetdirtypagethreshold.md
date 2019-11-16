@@ -66,15 +66,6 @@ Pointer to a file object for the cached file on which the dirty page threshold i
 Specifies, as a number of pages, the dirty page threshold value. To remove a per-file dirty page threshold value that was set previously, set <i>DirtyPageThreshold</i> to zero.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -68,15 +68,6 @@ A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardw
 A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

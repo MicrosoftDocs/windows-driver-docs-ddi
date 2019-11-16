@@ -75,15 +75,6 @@ The address of a location that receives a pointer to the pseudo base address.
 Specifies a value greater than zero, indicating the number of bytes to be mapped.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

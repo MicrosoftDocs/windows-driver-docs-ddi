@@ -76,15 +76,6 @@ Reserved. Set this parameter to zero.
 Reserved. Set this parameter to  zero.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

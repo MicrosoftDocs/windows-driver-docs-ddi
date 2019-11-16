@@ -71,15 +71,6 @@ A pointer to a caller-allocated buffer into which the routine writes a <a href="
 A pointer to a location into which the routine writes the number of active processors that are represented in the node affinity mask that is pointed to by <i>Affinity</i>. You can set this parameter to <b>NULL</b> if you do not need this information. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

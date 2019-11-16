@@ -61,10 +61,6 @@ A pointer to a NETADAPTER_INIT structure that the driver obtained from a previou
 
 A pointer to a driver-allocated and initialized [**NET_ADAPTER_DATAPATH_CALLBACKS**](ns-netadapter-_net_adapter_datapath_callbacks.md) structure that contains pointers to the adapter's datapath queue creation callback functions.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 This is an optional method. If a client driver does not provide its own packet queue creation handlers, NetAdapterCx provides default handlers on the driver's behalf.

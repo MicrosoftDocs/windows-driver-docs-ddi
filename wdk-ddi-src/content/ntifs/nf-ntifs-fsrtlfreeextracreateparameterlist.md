@@ -61,15 +61,6 @@ The <b>FsRtlFreeExtraCreateParameterList</b> routine frees an extra create param
 Pointer to the ECP list structure to be freed.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -78,15 +78,6 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-
 </div>
 <div> </div>
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

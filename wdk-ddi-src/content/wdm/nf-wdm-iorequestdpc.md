@@ -71,15 +71,6 @@ Pointer to the current IRP for the specified device.
 Pointer to a driver-determined context to be passed to the DPC routine.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

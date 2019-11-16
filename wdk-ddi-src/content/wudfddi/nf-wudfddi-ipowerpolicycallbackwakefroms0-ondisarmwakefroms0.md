@@ -63,15 +63,6 @@ A driver's <b>OnDisarmWakeFromS0</b> event callback function disarms (that is, d
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a> interface of the device object that represents one of the driver's devices.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

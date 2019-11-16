@@ -66,15 +66,6 @@ Specifies the ID number of the MSR.
 Specifies the new value of the MSR.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

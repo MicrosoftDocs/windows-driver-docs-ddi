@@ -68,15 +68,6 @@ A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardw
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ne-wdfchildlist-_wdf_retrieve_child_flags">WDF_RETRIEVE_CHILD_FLAGS</a>-typed flag value.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

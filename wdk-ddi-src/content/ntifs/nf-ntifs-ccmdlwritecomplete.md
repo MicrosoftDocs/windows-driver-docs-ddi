@@ -71,15 +71,6 @@ Value of <i>FileOffset</i> that was passed to <a href="https://msdn.microsoft.co
 Address of the MDL chain returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

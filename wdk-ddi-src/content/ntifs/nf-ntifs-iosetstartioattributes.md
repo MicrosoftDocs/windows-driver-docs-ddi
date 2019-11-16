@@ -71,15 +71,6 @@ If <b>TRUE</b>, the I/O manager will defer any call to the driver's <a href="htt
 If <b>TRUE</b>, the IRP cannot be canceled once it has been dequeued by a call to <b>IoStartNextPacket</b>. The default is <b>FALSE</b>. Drivers that set this member to <b>FALSE</b> must synchronize their IRP handling with the cancel spin lock.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

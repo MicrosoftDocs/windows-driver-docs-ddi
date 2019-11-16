@@ -66,15 +66,6 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-o
 The number of bytes of unsent data that the serial controller driver purged from the transmit FIFO.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

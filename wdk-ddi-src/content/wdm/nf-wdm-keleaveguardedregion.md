@@ -58,15 +58,6 @@ The <b>KeLeaveGuardedRegion</b> routine exits a guarded region entered by <b>KeE
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -72,15 +72,6 @@ Pointer to a buffer into which an array of ULONG values is read.
 Specifies the number of ULONG values to be read into the buffer. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

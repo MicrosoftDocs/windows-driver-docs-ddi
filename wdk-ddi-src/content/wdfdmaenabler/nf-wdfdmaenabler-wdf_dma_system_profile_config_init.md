@@ -79,15 +79,6 @@ The translated resource descriptor for the DMA channel assigned
       the device during <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

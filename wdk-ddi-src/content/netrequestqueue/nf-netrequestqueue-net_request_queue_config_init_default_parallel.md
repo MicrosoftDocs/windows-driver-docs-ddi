@@ -58,9 +58,6 @@ A pointer to a driver-allocated [NET_REQUEST_QUEUE_CONFIG](ns-netrequestqueue-_n
 ### -param Adapter
 The net adapter object that the client created in a prior call to [NetAdapterCreate](../netadapter/nf-netadapter-netadaptercreate.md).
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 
 

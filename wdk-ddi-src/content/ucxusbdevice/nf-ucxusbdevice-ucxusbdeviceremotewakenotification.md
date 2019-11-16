@@ -66,15 +66,6 @@ A handle to the USB device object for which the remote wake is received. The cli
 The interface number that sent the remote wake notification.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

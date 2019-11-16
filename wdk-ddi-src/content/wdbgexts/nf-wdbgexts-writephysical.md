@@ -76,15 +76,6 @@ Specifies the number of bytes to write.
 Receives the number of bytes actually written.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

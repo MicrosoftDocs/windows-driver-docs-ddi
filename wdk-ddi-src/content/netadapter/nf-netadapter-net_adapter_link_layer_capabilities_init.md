@@ -65,10 +65,6 @@ The maximum transmit link speed of the adapter in bits per second. For more info
 
 The maximum receive link speed of the adapter in bits per second. For more information, see [OID_GEN_MAX_LINK_SPEED](https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-max-link-speed).
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 **NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT** zeroes out the [NET_ADAPTER_LINK_LAYER_CAPABILITIES](ns-netadapter-_net_adapter_link_layer_capabilities.md) structure and then sets all of its members.

@@ -61,15 +61,6 @@ The <b>GetCurrentProcessHandle</b> function returns the system handle for the cu
 Receives the system handle for the current process.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

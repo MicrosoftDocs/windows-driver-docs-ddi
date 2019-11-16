@@ -59,8 +59,6 @@ Initializes a [**USBPM_HUB_CONNECTOR_HANDLES**](ns-usbpmapi-_usbpm_hub_connector
 ### -param ConnectorHandlesBuffer
 [Out] A pointer to a connector handle array of all the connectors on this hub. 
 
-## -returns
-
 ## -remarks
 
 ## -see-also

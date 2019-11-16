@@ -55,9 +55,6 @@ The client driver calls **NetRxQueueNotifyMoreReceivedPacketsAvailable** to resu
 ### -param RxQueue
 A handle to a net receive queue object.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 
 This method should only be called when polling is disabled.

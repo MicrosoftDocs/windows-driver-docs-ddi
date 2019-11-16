@@ -74,15 +74,6 @@ A pointer to the head of a notify list. Each element in the list is an opaque no
 A unique value assigned by the file system to identify a notify structure as belonging to a particular file object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

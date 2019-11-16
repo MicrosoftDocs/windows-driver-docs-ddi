@@ -61,15 +61,6 @@ The <b>SeReleaseSubjectContext</b> routine releases a subject security context c
 Pointer to the captured security context.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -118,15 +118,6 @@ New valid data length for the file.
  
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

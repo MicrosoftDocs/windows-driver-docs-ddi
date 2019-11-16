@@ -61,15 +61,6 @@ The <b>IoDeleteController</b> routine removes a given controller object from the
 Pointer to the controller object to be released. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

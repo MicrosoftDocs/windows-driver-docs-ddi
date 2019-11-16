@@ -71,20 +71,9 @@ A handle to a local or remote I/O target object that was obtained from a previou
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfiotarget/ne-wdfiotarget-_wdf_io_target_purge_io_action">WDF_IO_TARGET_PURGE_IO_ACTION</a>-typed value that indicates whether the framework should wait to return from  <b>WdfIoTargetPurge</b> until all delivered requests are completed or canceled. 
 
 
-## -returns
-
-
-
-None.
+## -remarks
 
 A bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
-
-
-## -remarks
 
 
 

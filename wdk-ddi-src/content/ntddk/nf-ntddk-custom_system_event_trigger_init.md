@@ -54,9 +54,6 @@ A pointer to the [**_CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG**](ns-ntddk-_custom_syst
 ### -param TriggerId
 A pointer to a Unicode string that contains the GUID used to identify background task to trigger.
 
-## -returns
-This function returns VOID.
-
 ## -remarks
 
 ## -see-also

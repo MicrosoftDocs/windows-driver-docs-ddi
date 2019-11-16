@@ -79,15 +79,6 @@ A pointer to an
      MiniportInitiateOffload</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

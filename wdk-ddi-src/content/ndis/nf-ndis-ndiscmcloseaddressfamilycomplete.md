@@ -71,15 +71,6 @@ Specifies the NDIS-supplied handle passed to the call manager's
      client originally opened the address family.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

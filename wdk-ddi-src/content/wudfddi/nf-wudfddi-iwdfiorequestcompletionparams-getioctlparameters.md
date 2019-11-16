@@ -100,15 +100,6 @@ A pointer to a variable that receives the number of bytes that are output for th
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

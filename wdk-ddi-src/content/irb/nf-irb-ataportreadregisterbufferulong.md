@@ -74,15 +74,6 @@ A pointer to the destination buffer.
 Specifies the number of ULONG values to read from the HBA.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -see-also
 
 

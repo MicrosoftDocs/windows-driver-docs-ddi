@@ -61,15 +61,6 @@ The <b>PoUnregisterSystemState</b> routine cancels a system state registration c
 A pointer to a handle previously returned by <b>PoRegisterSystemState</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

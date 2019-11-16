@@ -126,15 +126,6 @@ The number of pins described by the <i>PinTable</i> parameter.
 A pointer to the resource. The structure behind the pointer is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_gpio_resource">PEP_ACPI_GPIO_RESOURCE</a>. 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

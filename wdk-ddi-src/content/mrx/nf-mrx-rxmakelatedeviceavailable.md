@@ -61,15 +61,6 @@ req.typenames:
 A pointer to the where the created device object is to be stored.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

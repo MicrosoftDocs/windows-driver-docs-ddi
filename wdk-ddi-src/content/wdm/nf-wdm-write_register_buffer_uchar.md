@@ -71,15 +71,6 @@ Pointer to a buffer from which an array of UCHAR values is to be written.
 Specifies the number of bytes to be written to the register. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

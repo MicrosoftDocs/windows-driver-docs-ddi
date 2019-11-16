@@ -78,15 +78,6 @@ A pointer to the GUID that identifies the interface.
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfqueryinterface/nc-wdfqueryinterface-evt_wdf_device_process_query_interface_request">EvtDeviceProcessQueryInterfaceRequest</a> event callback function, which is called when another driver requests the interface.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

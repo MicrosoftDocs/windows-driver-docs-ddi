@@ -66,15 +66,6 @@ A handle to a UFX device object that the driver created by calling <a href="http
 Contains a value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ne-usbspec-_usb_device_speed">USB_DEVICE_SPEED</a> that indicates the speed of the device.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

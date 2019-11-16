@@ -67,10 +67,6 @@ The maximum size, in bytes, of MBIM control messages that the client driver can 
 
 An [**MBB_MBIM_EXTENDED_VERSION**](../mbbcx/ne-mbbcx-_mbb_mbim_extended_version.md) value that defines the version of the extended MBIM specification that the client driver supports. The value of this field must be **MBB_MBIM_EXTENDED_VERSION2_0**.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 The client driver typically calls this method from its [*EVT_WDF_DEVICE_PREPARE_HARDWARE*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) event callback function in preparation for calling [**MbbDeviceSetMbimParameters**](nf-mbbcx-mbbdevicesetmbimparameters.md).

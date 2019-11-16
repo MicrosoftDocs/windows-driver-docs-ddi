@@ -59,9 +59,6 @@ The network adapter object that the client created in a prior call to [NetAdapte
 ### -param LinkLayerAddress
 A pointer to a driver-allocated allocated NET_ADAPTER_LINK_LAYER_ADDRESS object that the driver initialized in a prior call to [NET_ADAPTER_LINK_LAYER_ADDRESS_INIT](nf-netadapter-net_adapter_link_layer_address_init.md).
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 
 

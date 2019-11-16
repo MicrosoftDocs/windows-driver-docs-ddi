@@ -71,15 +71,6 @@ Pointer to a GUID that identifies a section of the registry containing possible 
 <div class="alert"><b>Note</b>    You should always specify a custom class GUID. You should not specify an existing class GUID. If you specify an existing class GUID, other drivers that attempt to specify that existing class GUID might fail to install or might install with incorrect security settings.</div>
 <div> </div>
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

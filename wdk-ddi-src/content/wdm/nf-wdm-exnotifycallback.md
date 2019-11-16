@@ -71,15 +71,6 @@ Specifies the parameter that is passed as <i>Argument1</i> of the callback routi
 Specifies the parameter that is passed as <i>Argument2</i> of the callback routine. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

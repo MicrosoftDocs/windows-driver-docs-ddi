@@ -91,15 +91,6 @@ If this parameter is used, the classification is taken as the callout driver's f
      to <b>NULL</b>, the indication will be reauthorized.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

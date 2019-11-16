@@ -57,10 +57,6 @@ The original (that is, unraised) IRQL value from before the driver called the [*
 
 The current IRQL value that is active before the call to **NDIS_LOWER_IRQL**.
 
-## -returns
-
-This macro does not return a value.
-
 ## -remarks
 
 NDIS network drivers should use the **NDIS_LOWER_IRQL** macro to restore the IRQL setting that existed before a call to the [**NDIS_RAISE_IRQL_TO_DISPATCH**](nf-ndis-ndis_raise_irql_to_dispatch.md) macro.

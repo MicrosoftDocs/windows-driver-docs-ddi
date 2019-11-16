@@ -101,15 +101,6 @@ Access mode used for the access check. Either <b>UserMode</b> or <b>KernelMode</
 Pointer to a flag set by the audit generation routine when <b>SeOpenObjectAuditAlarm</b> returns.  
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

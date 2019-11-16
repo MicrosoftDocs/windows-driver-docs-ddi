@@ -71,15 +71,6 @@ Specifies whether IRPs in the device queue can be canceled.
 Specifies the sort key that determines which entry to remove from the queue.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

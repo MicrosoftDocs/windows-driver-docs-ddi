@@ -81,20 +81,9 @@ An index value that identifies an endpoint that is associated with the specified
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a> structure that the framework fills in.
 
 
-## -returns
-
-
-
-None.
+## -remarks
 
 A bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
-
-
-## -remarks
 
 
 

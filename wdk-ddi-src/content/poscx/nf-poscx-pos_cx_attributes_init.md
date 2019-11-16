@@ -62,15 +62,6 @@ POS_CX_ATTRIBUTES_INIT initializes a <a href="https://docs.microsoft.com/windows
 A pointer to the caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/ns-poscx-_pos_cx_attributes">POS_CX_ATTRIBUTE</a> structure to initialize.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

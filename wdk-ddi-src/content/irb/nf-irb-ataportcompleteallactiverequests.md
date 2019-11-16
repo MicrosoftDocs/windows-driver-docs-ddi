@@ -79,15 +79,6 @@ Specifies the logical unit number of the device.
 Specifies the status with which the requests will be completed.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

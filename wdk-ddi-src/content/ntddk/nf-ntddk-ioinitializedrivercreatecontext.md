@@ -61,15 +61,6 @@ The <b>IoInitializeDriverCreateContext</b> routine initializes a caller-allocate
 A pointer to a caller-allocated variable of type IO_DRIVER_CREATE_CONTEXT.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

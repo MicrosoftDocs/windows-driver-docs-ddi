@@ -103,15 +103,6 @@ Make the condition change fully asynchronous. If this flag is set, the calling d
  
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

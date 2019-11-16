@@ -71,15 +71,6 @@ Specifies the address of a variable that holds the data to write. This must be a
 Specifies the address of a variable that contains the number of bytes to write. <i>Size</i> must be 1, 2, or 4. After the data is written, <i>size</i> will contain the number of bytes actually written.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

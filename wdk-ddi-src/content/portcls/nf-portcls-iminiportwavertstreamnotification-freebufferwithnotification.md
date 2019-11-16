@@ -66,15 +66,6 @@ Specifies a memory descriptor list (<a href="https://docs.microsoft.com/windows-
 Output pointer for the number of bytes the method has written to the Attributes buffer. This parameter points to a ULONG variable into which the method writes the byte count.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

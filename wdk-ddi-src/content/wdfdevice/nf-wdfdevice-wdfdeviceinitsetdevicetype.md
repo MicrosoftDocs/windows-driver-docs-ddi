@@ -69,15 +69,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/
 A FILE_DEVICE_XXXX value that identifies the device type. For more information about FILE_DEVICE_XXXX values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

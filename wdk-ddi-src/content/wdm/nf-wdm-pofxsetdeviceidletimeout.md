@@ -66,15 +66,6 @@ A handle that represents the registration of the device with PoFx. The device dr
 The idle time-out interval in 100-nanosecond units. For more information, see Remarks.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

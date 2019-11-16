@@ -62,15 +62,6 @@ The <b>ExConvertExclusiveToSharedLite</b> routine converts a given resource from
 A pointer to the resource for which the access should be converted.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

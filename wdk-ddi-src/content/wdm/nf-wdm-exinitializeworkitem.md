@@ -92,15 +92,6 @@ Context information pointer that was passed in the <i>Context</i> parameter.
 Pointer to caller-supplied context information to be passed to the callback routine specified in the <i>Routine</i> parameter. 
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

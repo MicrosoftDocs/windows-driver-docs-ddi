@@ -57,10 +57,6 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 A ULONG value that is a cancellation identifier for the **NET_BUFFER_LIST** structure.
 
-## -returns
-
-This macro does not return a value.
-
 ## -remarks
 
 An NDIS driver can call the **NDIS_SET_NET_BUFFER_LIST_CANCEL_ID** macro for each [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structure that it passes to lower-level drivers for transmission. The **NDIS_SET_NET_BUFFER_LIST_CANCEL_ID** macro marks the specified NET_BUFFER_LIST structure with a cancellation identifier. Drivers must call the [**NdisGeneratePartialCancelId**](nf-ndis-ndisgeneratepartialcancelid.md) function to obtain a value that the driver must use as the high-order byte of a cancellation identifier.

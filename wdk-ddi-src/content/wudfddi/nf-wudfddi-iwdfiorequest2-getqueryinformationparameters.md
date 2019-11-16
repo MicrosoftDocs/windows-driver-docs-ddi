@@ -68,15 +68,6 @@ A pointer to a driver-allocated variable that receives a <a href="https://docs.m
 A pointer to a driver-allocated variable that receives the size, in bytes, of the file information. This pointer is optional and can be <b>NULL</b>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

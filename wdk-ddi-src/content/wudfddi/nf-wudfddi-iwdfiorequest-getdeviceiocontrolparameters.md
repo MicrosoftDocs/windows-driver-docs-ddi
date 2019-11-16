@@ -79,15 +79,6 @@ A pointer to a variable that receives the size, in bytes, of the output data buf
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

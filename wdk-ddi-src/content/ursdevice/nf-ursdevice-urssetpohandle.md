@@ -67,15 +67,6 @@ A handle to the framework device object that the client driver retrieved in the 
 A handle that represents the registration of the device with PoFx. The client driver receives this handle from WDF in  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device">EvtDeviceWdmPostPoFxRegisterDevice</a>  and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdfdevice_wdm_pre_po_fx_unregister_device">EvtDeviceWdmPrePoFxUnregisterDevice</a> callback functions.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

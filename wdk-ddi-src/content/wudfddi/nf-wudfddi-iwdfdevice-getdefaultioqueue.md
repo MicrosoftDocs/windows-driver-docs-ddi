@@ -63,15 +63,6 @@ The <b>GetDefaultIoQueue</b> method retrieves the interface of the default I/O q
 A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a> interface for the default I/O queue object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

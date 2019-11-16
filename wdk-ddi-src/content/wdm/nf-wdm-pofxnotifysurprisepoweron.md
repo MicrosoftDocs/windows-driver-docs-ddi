@@ -61,15 +61,6 @@ The <b>PoFxNotifySurprisePowerOn</b> routine notifies the power management frame
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/">physical device object</a> (PDO). This parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the physical device that was turned on as a side effect. The caller is always the bus driver that enumerated the PDO.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

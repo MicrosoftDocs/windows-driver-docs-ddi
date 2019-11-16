@@ -71,15 +71,6 @@ A pointer to a previously allocated NET_BUFFER_LIST structure.
 The amount of context space to free.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

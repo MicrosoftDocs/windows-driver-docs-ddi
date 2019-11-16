@@ -66,15 +66,6 @@ Pointer to the file object, which usually is being closed by the current thread.
 Pointer to the share-access structure that describes how the open file object is currently being accessed. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

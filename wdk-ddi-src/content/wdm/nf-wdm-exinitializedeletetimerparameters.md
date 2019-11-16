@@ -61,15 +61,6 @@ The <b>ExInitializeDeleteTimerParameters</b> routine initializes an <a href="htt
 A pointer to the <b>EXT_DELETE_PARAMETERS</b> structure that is to be initialized.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

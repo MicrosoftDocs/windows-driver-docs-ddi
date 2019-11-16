@@ -71,15 +71,6 @@ Pointer to the IRP to be queued.
 Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_CSQ_IRP_CONTEXT</a> structure. <b>IoCsqInsertIrp</b> initializes this structure with context information for the inserted IRP. The driver passes this value to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocsqremoveirp">IoCsqRemoveIrp</a> to delete the IRP from the queue. <i>Context</i> can be <b>NULL</b> if the driver will not use <b>IoCsqRemoveIrp</b> to remove this IRP from the queue. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

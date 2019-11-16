@@ -59,10 +59,6 @@ Disables calls to a miniport driver's [HwVidTimer](https://docs.microsoft.com/wi
 A handle that represents a display adapter.
 
 
-## -returns
-
-This function returns VOID.
-
 ## -remarks
 
 ## -see-also

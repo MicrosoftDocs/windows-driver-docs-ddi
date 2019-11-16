@@ -63,15 +63,6 @@ The
 A pointer to an initialized event object for which the caller provides the storage.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

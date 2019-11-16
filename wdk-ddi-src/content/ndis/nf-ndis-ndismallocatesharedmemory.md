@@ -95,15 +95,6 @@ Pointer to a caller-supplied variable in which this function returns a physical 
      <i>VirtualAddress</i>, or it returns <b>NULL</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

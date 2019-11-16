@@ -66,15 +66,6 @@ Supplies a pointer to the <a href="https://docs.microsoft.com/windows-hardware/d
 Supplies a pointer to the driver-supplied <i>DpcForIsr</i> routine.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

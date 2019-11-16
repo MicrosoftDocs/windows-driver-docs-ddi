@@ -76,15 +76,6 @@ Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm
 Specifies driver-specific information for the work item. The system passes this value as the <i>Context</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_workitem_routine_ex">WorkItemEx</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 The **IoQueueWorkItemEx** routine differs from [**IoQueueWorkItem**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem) in that the **WorkerRoutine** parameter is a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_workitem_routine_ex">WorkItemEx</a> callback routine, which provides the driver with a pointer to the [**IO_WORKITEM**](https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess) structure for the work item.

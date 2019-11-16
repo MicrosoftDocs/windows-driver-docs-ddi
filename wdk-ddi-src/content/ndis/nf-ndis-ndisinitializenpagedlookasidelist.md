@@ -112,15 +112,6 @@ A caller-supplied pool tag for lookaside list entries. The
 Must be zero. This parameter is also reserved.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

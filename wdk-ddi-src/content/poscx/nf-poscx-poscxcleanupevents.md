@@ -59,6 +59,3 @@ A handle to a framework device object that represents the device.
 
 A handle to a framework file object for which all pending events should be cleaned up.
 
-## -returns
-
-This function does not return a value.

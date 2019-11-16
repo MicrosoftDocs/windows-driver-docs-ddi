@@ -69,15 +69,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/ns-wdfpdo-_wdf_pdo_event_callbacks">WDF_PDO_EVENT_CALLBACKS</a> structure.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -104,15 +104,6 @@ A pointer to a caller-supplied variable in which this function returns a handle 
      subkey if this call is successful.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

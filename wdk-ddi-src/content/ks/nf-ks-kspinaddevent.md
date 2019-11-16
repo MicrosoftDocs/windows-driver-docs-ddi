@@ -66,15 +66,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a> structure describing the event to add to <i>Pin</i>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

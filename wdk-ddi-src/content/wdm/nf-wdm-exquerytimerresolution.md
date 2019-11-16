@@ -72,15 +72,6 @@ A pointer to a location to which the routine writes the minimum time interval, i
 A pointer to a location to which the routine writes the current time interval, in 100-nanosecond units, between successive ticks of the system clock.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

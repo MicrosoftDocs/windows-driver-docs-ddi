@@ -75,15 +75,6 @@ A value that indicates that the current IRQL = DISPATCH_LEVEL. A callout driver 
      driver sets this parameter to <b>FALSE</b>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

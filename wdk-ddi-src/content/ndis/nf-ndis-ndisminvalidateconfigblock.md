@@ -75,16 +75,6 @@ A ULONGLONG value that specifies a bitmask for the first 64 VF configuration blo
 
 
 
-## -returns
-
-
-
-
-     None.
-
-
-
-
 ## -remarks
 
 

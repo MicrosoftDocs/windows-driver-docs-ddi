@@ -71,15 +71,6 @@ Length in bytes of the memory to fill. Must be a multiple of <b>sizeof(</b>ULONG
 ULONG value with which to fill the memory block. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

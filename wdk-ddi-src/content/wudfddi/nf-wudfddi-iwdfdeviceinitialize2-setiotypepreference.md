@@ -73,15 +73,6 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-
 A WDF_DEVICE_IO_TYPE-typed value that specifies the buffer access method that you prefer UMDF to use for the data buffers of device I/O control requests. 
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

@@ -71,15 +71,6 @@ The cancellation identifier. This identifier specifies the network data for whic
      being canceled.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

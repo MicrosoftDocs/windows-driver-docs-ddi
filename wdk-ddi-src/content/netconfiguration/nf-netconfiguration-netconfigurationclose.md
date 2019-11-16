@@ -55,9 +55,6 @@ Releases the handle to the registry key that is associated with an adapter confi
 ### -param Configuration
 A handle to an adapter configuration object opened in a prior call to [NetAdapterOpenConfiguration](../netadapter/nf-netadapter-netadapteropenconfiguration.md) or [NetConfigurationOpenSubConfiguration](nf-netconfiguration-netconfigurationopensubconfiguration.md).
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 **NetConfigurationClose** is an alias of [WdfObjectDelete](../wdfobject/nf-wdfobject-wdfobjectdelete.md). Because the configuration object, like all NetAdapterCx objects, is a WDF object, you can use [WdfObjectDelete](../wdfobject/nf-wdfobject-wdfobjectdelete.md) interchangeably.
 

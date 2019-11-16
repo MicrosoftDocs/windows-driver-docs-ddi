@@ -65,10 +65,6 @@ A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_CREATE_
 
 A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_CREATE_RXQUEUE*](nc-netadapter-evt_net_adapter_create_rxqueue.md) callback function. 
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 Call this method to initialize the [**NET_ADAPTER_DATAPATH_CALLBACKS**](ns-netadapter-_net_adapter_datapath_callbacks.md) structure before calling [**NetAdapterInitSetDatapathCallbacks**](nf-netadapter-netadapterinitsetdatapathcallbacks.md).

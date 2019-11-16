@@ -66,15 +66,6 @@ The handle returned by
      the device object to be deregistered.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

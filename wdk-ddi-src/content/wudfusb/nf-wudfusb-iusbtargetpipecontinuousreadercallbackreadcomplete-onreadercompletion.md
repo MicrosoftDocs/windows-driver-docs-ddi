@@ -78,15 +78,6 @@ The number of bytes that the read buffer contains.
 A pointer to driver-supplied context information that the driver provided when it previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe2-configurecontinuousreader">IWDFUsbTargetPipe2::ConfigureContinuousReader</a>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

@@ -76,15 +76,6 @@ A pointer to the DPC object for which the lock is held if <i>SpinLock</i> indica
 A pointer to a buffer that, on return, will contain a lock handle. To release the lock, the caller must pass this handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportreleasespinlock">StorPortReleaseSpinLock</a> routine. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

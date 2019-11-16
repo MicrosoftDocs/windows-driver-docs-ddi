@@ -63,15 +63,6 @@ The <b>WDF_USB_DEVICE_INFORMATION_INIT</b> function initializes a driver's <a hr
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_device_information">WDF_USB_DEVICE_INFORMATION</a> structure.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

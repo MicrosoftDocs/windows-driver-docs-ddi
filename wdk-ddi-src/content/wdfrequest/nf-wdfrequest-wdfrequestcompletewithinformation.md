@@ -96,20 +96,9 @@ The driver encountered an error while processing the request.
 Driver-defined completion status information for the request, such as the number of bytes that were transferred.
 
 
-## -returns
-
-
-
-None.
+## -remarks
 
 A bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
-
-
-## -remarks
 
 
 

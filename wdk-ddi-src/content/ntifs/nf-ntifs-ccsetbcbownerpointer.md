@@ -66,15 +66,6 @@ Pointer to a pinned BCB structure that is owned by the current thread.
 A valid resource owner pointer, which means a pointer to an allocated system address, with the low-order two bits set. This address may not be deallocated until after the BCB is unpinned by a subsequent call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539231">CcUnpinDataForThread</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

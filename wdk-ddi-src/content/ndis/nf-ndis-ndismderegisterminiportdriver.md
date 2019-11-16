@@ -66,15 +66,6 @@ The handle that the miniport driver obtained in a previous call to
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

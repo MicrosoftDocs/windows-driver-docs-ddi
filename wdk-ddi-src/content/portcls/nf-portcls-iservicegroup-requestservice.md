@@ -57,12 +57,6 @@ The RequestService method is called to forward a service request to an IServiceS
 
 
 
-## -returns
-
-None
-
-
-
 ## -remarks
 
 

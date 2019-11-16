@@ -88,15 +88,6 @@ VOID
 </tr>
 </table></span></div>
 
-## -returns
-
-
-
-None. 
-
-
-
-
 ## -remarks
 
 

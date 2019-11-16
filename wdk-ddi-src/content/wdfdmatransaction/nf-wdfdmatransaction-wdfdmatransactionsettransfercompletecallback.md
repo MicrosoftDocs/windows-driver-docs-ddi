@@ -75,15 +75,6 @@ A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/d
 A pointer to a buffer containing the driver-specified context to be provided to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_dma_transfer_complete">EvtDmaTransactionDmaTransferComplete</a> event callback function, or NULL.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

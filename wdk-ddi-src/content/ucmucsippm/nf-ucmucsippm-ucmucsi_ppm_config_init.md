@@ -57,9 +57,6 @@ A pointer to a [**UCMUCSI_PPM_CONFIG**](ns-ucmucsippm-_ucmucsi_ppm_config.md) st
 ### -param CollectionObject
 The handle to the connector collection object that the client driver retrieved in a previous call to [**UcmUcsiConnectorCollectionCreate**](nf-ucmucsippm-ucmucsiconnectorcollectioncreate.md).
 
-## -returns
-This function returns VOID.
-
 ## -remarks
 
 ## -see-also

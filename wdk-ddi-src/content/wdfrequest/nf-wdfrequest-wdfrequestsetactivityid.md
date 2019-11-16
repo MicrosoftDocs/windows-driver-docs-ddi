@@ -68,15 +68,6 @@ A handle to a framework request object.
 A pointer to the activity identifier GUID to store in the I/O request.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

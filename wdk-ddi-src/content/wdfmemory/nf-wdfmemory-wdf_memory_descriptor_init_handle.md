@@ -73,15 +73,6 @@ A handle to a framework memory object.
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfmemory/ns-wdfmemory-_wdfmemory_offset">WDFMEMORY_OFFSET</a> structure. This parameter is optional and can be <b>NULL</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

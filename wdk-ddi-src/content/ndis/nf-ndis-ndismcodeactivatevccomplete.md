@@ -75,15 +75,6 @@ Specifies the handle identifying the VC. The caller obtained this handle from it
      MiniportCoDeactivateVc</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

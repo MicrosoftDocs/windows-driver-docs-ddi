@@ -70,15 +70,6 @@ The handle that the
      returns.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

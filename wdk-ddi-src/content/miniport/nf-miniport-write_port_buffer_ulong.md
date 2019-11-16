@@ -72,15 +72,6 @@ Pointer to a buffer from which an array of ULONG values is to be written.
 Specifies the number of ULONG values to be written to the port. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

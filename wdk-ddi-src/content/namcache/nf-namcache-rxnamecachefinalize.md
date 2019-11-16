@@ -61,15 +61,6 @@ req.typenames:
 A pointer to the NAME_CACHE_CONTROL structure for the name cache.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

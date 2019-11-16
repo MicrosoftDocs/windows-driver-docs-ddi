@@ -69,15 +69,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a> callback function. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -91,15 +91,6 @@ The length of the data buffer to be added to the I/O error log structure.
 The line number in the source code file where this failure occurred.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

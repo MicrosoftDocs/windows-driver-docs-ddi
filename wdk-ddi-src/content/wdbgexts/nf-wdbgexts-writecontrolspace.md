@@ -76,15 +76,6 @@ Specifies the data to be written to the control space.
 Specifies the number of bytes to be written.  This is the number of bytes in the <i>buf</i> buffer.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -61,15 +61,6 @@ The <code>SupportDelayedService</code> method indicates that the service group s
 #### - None
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

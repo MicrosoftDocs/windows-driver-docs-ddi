@@ -61,15 +61,6 @@ The <code>SetPreFetchOffset</code> method sets the prefetch offset, which is the
 Specifies the prefetch offset size in bytes.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

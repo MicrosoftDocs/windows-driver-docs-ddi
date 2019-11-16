@@ -59,9 +59,6 @@ The network adapter object that the client created in a prior call to [**NetAdap
 ### -param LinkLayerCapabilities
 A pointer to an allocated and initialized [**NET_ADAPTER_LINK_LAYER_CAPABILITIES**](ns-netadapter-_net_adapter_link_layer_capabilities.md) structure.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 The client driver calls this method when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 

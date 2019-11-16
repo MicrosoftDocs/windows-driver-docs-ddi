@@ -53,9 +53,6 @@ The **NetAdapterStop** method stops a NETADAPTER object.
 ### -param Adapter
 The **NETADAPTER** object created by a prior call to [NetAdapterCreate](nf-netadapter-netadaptercreate.md).
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 If the **NETADAPTER** object is already stopped, this method does nothing.
 

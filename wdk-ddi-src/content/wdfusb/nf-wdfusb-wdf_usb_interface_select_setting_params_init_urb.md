@@ -68,15 +68,6 @@ A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hard
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -58,15 +58,6 @@ The <b>KeEnterCriticalRegion</b> routine temporarily disables the execution of n
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

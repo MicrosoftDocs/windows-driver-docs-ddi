@@ -67,15 +67,6 @@ A handle used by the NMR to represent the binding between the client module and 
      function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

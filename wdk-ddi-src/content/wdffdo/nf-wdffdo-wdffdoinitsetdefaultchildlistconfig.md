@@ -74,15 +74,6 @@ A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hard
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the child-list object that represents the driver's default child list. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

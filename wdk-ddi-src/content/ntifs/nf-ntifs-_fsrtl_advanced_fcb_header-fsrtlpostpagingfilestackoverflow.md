@@ -74,15 +74,6 @@ A pointer to a caller-allocated notification event to pass to the stack overflow
 A pointer to a callback routine to be invoked when processing the request in the overflow thread.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

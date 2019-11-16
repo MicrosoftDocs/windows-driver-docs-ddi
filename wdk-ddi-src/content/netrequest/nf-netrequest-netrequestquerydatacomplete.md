@@ -67,9 +67,6 @@ An NTSTATUS value that represents the completion status of the request. Valid st
 ### -param BytesWritten
 The number of bytes that the client driver wrote to the request buffer.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 Typically, the client driver calls **NetRequestQueryDataComplete** from one of its control request handler routines. For more info, see [Handling Control Requests](https://docs.microsoft.com/windows-hardware/drivers/netcx/handling-control-requests#completing-requests).
 

@@ -68,15 +68,6 @@ Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/u
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -71,15 +71,6 @@ The size, in bytes, of the network mini-redirector portion of the NAME_CACHE ent
 The maximum number of entries that will ever be allocated. This value prevents an errant program that opens a large number of files with bad names from using all of the paged pool memory.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

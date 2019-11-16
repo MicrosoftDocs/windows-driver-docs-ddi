@@ -75,10 +75,6 @@ The minimum number of segments by which a large TCP packet must be divisible bef
 
 A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_LSO*](../netadapteroffload/nc-netadapteroffload-evt_net_adapter_offload_set_lso.md) callback function.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 The [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md) structure initialized by this method is passed as a parameter to the [**NetAdapterOffloadSetLsoCapabilities**](../netadapteroffload/nf-netadapteroffload-netadapteroffloadsetlsocapabilities.md) method.

@@ -63,15 +63,6 @@ The <b>ReloadSymbols</b> function deletes symbol information from the debugger s
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

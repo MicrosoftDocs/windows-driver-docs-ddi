@@ -61,15 +61,6 @@ The <b>ObDereferenceObjectDeferDelete</b> routine decrements the reference count
 A pointer to the body of the object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -61,15 +61,6 @@ The <b>IoCopyCurrentIrpStackLocationToNext</b> routine copies the IRP stack para
 A pointer to the IRP.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -68,15 +68,6 @@ A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hard
 An index value that identifies an alternate setting for the interface. (The interface is identified by an interface object handle that the driver passes to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbinterfaceselectsetting">WdfUsbInterfaceSelectSetting</a>.) 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -68,15 +68,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

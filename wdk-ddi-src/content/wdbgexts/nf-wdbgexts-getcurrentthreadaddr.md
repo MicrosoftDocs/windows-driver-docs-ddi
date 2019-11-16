@@ -68,15 +68,6 @@ In kernel-mode debugging, this is the index of a virtual thread, which is the in
 Receives the location of the system data for the thread.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

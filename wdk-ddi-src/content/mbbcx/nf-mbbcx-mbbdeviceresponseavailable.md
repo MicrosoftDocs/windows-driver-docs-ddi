@@ -59,10 +59,6 @@ It can also call this method to notify the MBBCx framework of an unsolicited dev
 
 A handle to a framework device object the client driver obtained from a previous call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 For more information, see [Handling MBIM control messages](https://docs.microsoft.com/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#handling-mbim-control-messages).

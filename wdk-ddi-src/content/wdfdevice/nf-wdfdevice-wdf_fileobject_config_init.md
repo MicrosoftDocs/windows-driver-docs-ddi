@@ -78,15 +78,6 @@ A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/d
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_cleanup">EvtFileCleanup</a> event callback function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

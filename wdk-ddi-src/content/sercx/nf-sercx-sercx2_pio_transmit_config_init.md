@@ -76,15 +76,6 @@ The value to load into the <b>EvtSerCx2PioTransmitEnableReadyNotification</b> me
 The value to load into the <b>EvtSerCx2PioTransmitCancelReadyNotification</b> member of the <b>SERCX2_PIO_TRANSMIT_CONFIG</b> structure. For more information, see the description of this member in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx2_pio_transmit_config">SERCX2_PIO_TRANSMIT_CONFIG</a>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

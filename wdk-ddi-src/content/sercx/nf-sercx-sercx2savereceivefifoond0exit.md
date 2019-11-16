@@ -66,15 +66,6 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-o
 The number of bytes of unread data that the transmit FIFO contains.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

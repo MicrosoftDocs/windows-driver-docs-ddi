@@ -55,10 +55,6 @@ The **NetAdapterInitFree** method deallocates a NETADAPTER_INIT structure.
 
 A pointer to a NETADAPTER_INIT structure.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 If a client driver receives a NETADAPTER_INIT structure from a call to [**NetAdapterInitAllocate**](nf-netadapter-netadapterinitallocate.md), the driver must always call **NetAdapterInitFree** to deallocate it regardless of the result of [**NetAdapterCreate**](nf-netadapter-netadaptercreate.md).

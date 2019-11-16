@@ -61,15 +61,6 @@ The <b>SPB_CONNECTION_PARAMETERS_INIT</b> function initializes an  <a href="http
 A pointer to the <b>SPB_CONNECTION_PARAMETERS</b> structure that is to be initialized.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

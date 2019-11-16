@@ -66,10 +66,6 @@ Pointer to a format string that specifies a variable argument list, which starts
 
 #### - fmt, ...
 
-## -returns
-
-None
-
 ## -remarks
 
 The **wiauDbgErrorHr** function typically logs two lines to the log file, or debugger, or both. The first line contains the text of the *fmt* parameter, including data, if provided. The second line contains the HRESULT and the message string associated with that HRESULT. The following example shows how this function might be called:

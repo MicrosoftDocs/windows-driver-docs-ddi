@@ -64,9 +64,6 @@ A pointer to the client driver's implementation of an *[EVT_NET_REQUEST_QUERY_DA
 ### -param MinimumOutputLength
 The required minimum output length for the request.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 
 

@@ -62,15 +62,6 @@ Notifies UCX about a new port change event on the host controller.
 A handle to the root hub object. The client driver retrieved the handle in a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188048(v=vs.85)">UcxRootHubCreate</a>.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

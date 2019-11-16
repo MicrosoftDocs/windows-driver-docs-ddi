@@ -62,15 +62,6 @@ req.typenames:
 #### - None
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -69,15 +69,6 @@ A pointer to the opaque synchronization object for <i>NotifyList</i>.
 A pointer to the head of the notify list to be cleaned up. Each element in the list is an opaque notify structure. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -62,15 +62,6 @@ The<b> KsCompletePendingRequest</b> function is used to complete an I/O request 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that must be completed; this is passed in the dispatch function that returned a STATUS_PENDING.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

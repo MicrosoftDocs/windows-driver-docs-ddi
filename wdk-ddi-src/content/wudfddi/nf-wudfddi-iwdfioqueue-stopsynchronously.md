@@ -60,15 +60,6 @@ The <b>StopSynchronously</b> method prevents an I/O queue from delivering I/O re
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

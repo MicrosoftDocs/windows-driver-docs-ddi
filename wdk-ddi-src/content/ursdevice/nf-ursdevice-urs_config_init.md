@@ -71,15 +71,6 @@ Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/u
  A  pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ursdevice/nc-ursdevice-evt_urs_device_filter_resource_requirements">EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS</a> callback function that is implemented by the  client driver.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

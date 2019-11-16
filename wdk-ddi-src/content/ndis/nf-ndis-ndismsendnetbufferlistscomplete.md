@@ -64,10 +64,6 @@ A pointer to a linked list of NET_BUFFER_LIST structures. The miniport driver re
 
 NDIS flags that can be combined with an OR operation. To clear all the flags, set this member to zero. This function supports the NDIS_SEND_COMPLETE_FLAGS_DISPATCH_LEVEL flag which; if set, indicates that the current IRQL is DISPATCH_LEVEL. For more information about this flag, see [Dispatch IRQL Tracking](https://docs.microsoft.com/windows-hardware/drivers/network/dispatch-irql-tracking).
 
-## -returns
-
-None
-
 ## -remarks
 
 A miniport driver calls **NdisMSendNetBufferListsComplete** to complete send requests that NDIS made to the driver's

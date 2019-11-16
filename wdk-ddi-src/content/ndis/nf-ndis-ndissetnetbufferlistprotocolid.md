@@ -69,10 +69,6 @@ The IPX protocol.
 NDIS_PROTOCOL_ID_NBF  
 The NetBEUI protocol.
 
-## -returns
-
-This macro does not return a value.
-
 ## -remarks
 
 Drivers that create [**NET_BUFFER_LIST**](ns-ndis-_net_buffer_list.md) structures should set the protocol identifier by calling the **NdisSetNetBufferListProtocolId** macro or by associating an identifier with a **NET_BUFFER_LIST** pool.

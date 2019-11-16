@@ -74,15 +74,6 @@ A pointer to the destination buffer.
 Specifies the number of bytes to read from the HBA.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -see-also
 
 

@@ -73,15 +73,6 @@ A pointer to a variable that receives the size, in bytes, of the write buffer fo
 A pointer to a variable that receives the offset, in bytes, into the write buffer for the write request. This parameter is optional and can be <b>NULL</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

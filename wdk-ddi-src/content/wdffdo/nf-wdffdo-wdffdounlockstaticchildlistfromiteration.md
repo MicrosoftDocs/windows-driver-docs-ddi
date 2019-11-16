@@ -64,18 +64,10 @@ The <b>WdfFdoUnlockStaticChildListFromIteration</b> method unlocks the list of c
 A handle to a framework device object that represents the parent device.
 
 
-## -returns
-
-
-
-None.
-
-A system bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
 ## -remarks
+
+A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 

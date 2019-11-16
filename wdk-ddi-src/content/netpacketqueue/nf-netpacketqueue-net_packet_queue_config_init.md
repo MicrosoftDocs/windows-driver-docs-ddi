@@ -69,10 +69,6 @@ A pointer to the client driver's implementation of the [*EVT_PACKET_QUEUE_SET_NO
 
 A pointer to the client driver's implementation of the [*EVT_PACKET_QUEUE_CANCEL*](nc-netpacketqueue-evt_packet_queue_advance.md) callback function for this packet queue.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 Client drivers must call this method to initialize a [**NET_PACKET_QUEUE_CONFIG**](ns-netpacketqueue-_net_packet_queue_config.md) structure before calling [**NetTxQueueCreate**](../nettxqueue/nf-nettxqueue-nettxqueuecreate.md) or [**NetRxQueueCreate**](../netrxqueue/nf-netrxqueue-netrxqueuecreate.md) to create a packet queue.

@@ -50,9 +50,6 @@ PnpQueryStop provides a notification when PnpQueryStop is invoked by portcls jus
 ## -parameters
 
 
-## -returns
-This method returns void.
-
 ## -remarks
 
 PnpQueryStop is invoked by portcls just before succeeding the QueryStop IRP. This is just a notification and the call doesn’t return a value. 

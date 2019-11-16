@@ -61,10 +61,6 @@ A WDFMEMORY object that contains data passed to the device.
 
 An NTSTATUS value indicating the status of the send operation.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 Client drivers must call this method from within the [*EvtMbbDeviceSendServiceSessionData*](nc-mbbcx-evt_mbb_device_send_device_service_session_data.md) callback function after they have sent the DSS data to the device.

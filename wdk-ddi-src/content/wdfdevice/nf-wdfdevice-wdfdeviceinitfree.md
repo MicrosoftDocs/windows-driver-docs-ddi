@@ -64,15 +64,6 @@ The <b>WdfDeviceInitFree</b> method deallocates a <a href="https://docs.microsof
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

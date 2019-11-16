@@ -106,15 +106,6 @@ Turn on the PnP property.
  
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

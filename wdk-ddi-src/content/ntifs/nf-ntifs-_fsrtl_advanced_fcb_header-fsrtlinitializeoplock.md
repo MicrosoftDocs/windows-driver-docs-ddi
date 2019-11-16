@@ -61,15 +61,6 @@ req.typenames:
 Caller-supplied pointer variable that receives the initialized opportunistic lock pointer. This variable must be initialized to <b>NULL</b> before the initial call to <b>FsRtlInitializeOplock</b>. 
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

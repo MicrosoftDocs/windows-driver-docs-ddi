@@ -66,10 +66,6 @@ Pointer to a format string that specifies a variable argument list, which starts
 
 ####### - fmt, ...
 
-## -returns
-
-None
-
 ## -remarks
 
 The **wiauDbgHelper2** function enables those using it to write **printf**-style messages, with variable argument lists, to a log file or debugger. The following example demonstrates how this function might be used:

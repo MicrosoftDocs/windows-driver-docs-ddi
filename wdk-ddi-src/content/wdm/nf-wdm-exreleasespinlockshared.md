@@ -68,15 +68,6 @@ The interrupt request level (IRQL) to restore. Set this parameter to the KIRQL v
 
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

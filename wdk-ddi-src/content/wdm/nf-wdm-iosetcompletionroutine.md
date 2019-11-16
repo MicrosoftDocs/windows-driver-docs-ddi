@@ -86,15 +86,6 @@ Specifies whether the completion routine is called if the IRP is completed with 
 Specifies whether the completion routine is called if a driver or the kernel has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocancelirp">IoCancelIrp</a> to cancel the IRP.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

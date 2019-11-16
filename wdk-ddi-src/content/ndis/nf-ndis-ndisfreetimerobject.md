@@ -67,15 +67,6 @@ A handle to a timer object that NDIS provides when a driver calls the
      NdisAllocateTimerObject</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

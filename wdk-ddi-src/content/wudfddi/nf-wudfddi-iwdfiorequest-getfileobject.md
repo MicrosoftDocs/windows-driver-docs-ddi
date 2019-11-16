@@ -63,15 +63,6 @@ The <b>GetFileObject</b> method retrieves a pointer to the <a href="https://docs
 A pointer to a buffer that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the file object. Note that returning <b>NULL</b> is valid.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

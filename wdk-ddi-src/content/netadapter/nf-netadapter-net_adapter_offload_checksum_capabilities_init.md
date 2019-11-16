@@ -71,10 +71,6 @@ A flag specifying whether the hardware can calculate and validate UDP checksum.
 
 A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM*](nc-netadapter-evt_net_adapter_offload_set_checksum.md) callback function.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 The [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md) structure initialized by this method is passed as a parameter to the [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md) method.

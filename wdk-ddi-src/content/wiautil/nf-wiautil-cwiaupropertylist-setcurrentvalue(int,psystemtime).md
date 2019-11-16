@@ -59,10 +59,6 @@ Specifies the property index. Set this parameter to the value in *<i>pIdx</i> wh
 
 Pointer to a memory location containing the value that is written to the device property in the property list. This pointer must remain valid until the [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md) method is called.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 The **SYSTEMTIME** structure is described in the Microsoft Windows SDK documentation.

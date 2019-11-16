@@ -60,9 +60,6 @@ The maximum fragment buffer size, in bytes, that the adapter can receive.
 ### -param MaximumNumberOfQueues
 The maximum number of receive queues that the adapter supports.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 This method is one of three possible methods to call in order to initialize a [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure. Which one the client driver should call depends on how it would like to allocate receive buffers and if it would like to use DMA.
 

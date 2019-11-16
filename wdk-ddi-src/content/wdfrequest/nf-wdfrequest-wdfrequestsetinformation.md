@@ -71,18 +71,10 @@ A handle to a framework request object.
 Driver-defined completion status information for the request.
 
 
-## -returns
-
-
-
-None.
+## -remarks
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-## -remarks
 
 
 

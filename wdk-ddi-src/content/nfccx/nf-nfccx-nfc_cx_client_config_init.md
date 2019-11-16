@@ -67,15 +67,6 @@ A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ne-nfccx-_nfc_cx_transport_type">NFC_CX_TRANSPORT_TYPE</a> enumeration. 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

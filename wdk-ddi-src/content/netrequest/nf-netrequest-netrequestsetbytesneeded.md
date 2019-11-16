@@ -58,9 +58,6 @@ A handle to a network request object.
 ### -param BytesNeeded
 The number of bytes to be read or written.
 
-## -returns
-This method does not return a value.
-
 ## -remarks
 The client calls this routine if the I/O request fails due a smaller than expected InputOutputBuffer size. For example, to report that 8 bytes are required to support the requested OID:
 

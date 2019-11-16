@@ -61,15 +61,6 @@ The <b>SERCX_ACTIVITY_INIT</b> function initializes a <a href="https://docs.micr
 A pointer to the <b>SERCX_ACTIVITY</b> structure that is to be initialized.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -see-also
 
 

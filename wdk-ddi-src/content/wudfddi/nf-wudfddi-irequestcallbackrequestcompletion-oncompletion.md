@@ -78,15 +78,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 A pointer to a buffer that contains context information that is related to the completion request.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -66,15 +66,6 @@ Pointer to the PDO for the device.
 Specifies a <b>DEVICE_RELATION_TYPE</b> enumeration value that describes the type of relations that have changed. Possible values include <b>BusRelations</b>, <b>EjectionRelations</b>, <b>RemovalRelations</b>, and <b>TargetDeviceRelation</b>. Starting with Windows 7, the <b>PowerRelations</b> value is also supported.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

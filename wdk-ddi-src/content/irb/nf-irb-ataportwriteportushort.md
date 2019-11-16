@@ -69,15 +69,6 @@ A pointer to the I/O port. The address value that is assigned to this parameter 
 Specifies the value to write to the HBA's I/O port.
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -see-also
 
 

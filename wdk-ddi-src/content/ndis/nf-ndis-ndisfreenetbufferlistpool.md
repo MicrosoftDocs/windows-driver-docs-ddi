@@ -65,15 +65,6 @@ A handle that was obtained from a call to the
      NdisAllocateNetBufferListPool</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

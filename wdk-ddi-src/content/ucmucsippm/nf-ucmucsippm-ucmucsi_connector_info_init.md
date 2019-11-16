@@ -54,9 +54,6 @@ Initializes a [**UCMUCSI_CONNECTOR_INFO**](ns-ucmucsippm-_ucmucsi_connector_info
 ### -param ConnectorInfo [out]
 A pointer to a [**UCMUCSI_CONNECTOR_INFO**](ns-ucmucsippm-_ucmucsi_connector_info.md) structure to initialize.
 
-## -returns
-This function returns VOID.
-
 ## -remarks
 
 ## -see-also

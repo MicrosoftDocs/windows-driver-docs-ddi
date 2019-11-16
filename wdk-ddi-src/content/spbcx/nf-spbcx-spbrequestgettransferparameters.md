@@ -77,15 +77,6 @@ A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hard
 A pointer to a location into which the method writes a pointer to an MDL (or an MDL chain) that describes the physical memory in the transfer buffer.  The caller must not modify the contents of this MDL. This parameter is optional and can be set to NULL if the MDL is not needed. For more information, see the following Remarks section.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 
