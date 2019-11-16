@@ -82,7 +82,7 @@ A Boolean value that indicates when **WdfDeviceStopIdleWithTag** will return. If
 
 A driver-defined value that the framework stores as an identification tag for the power reference.
 
-## -returns
+## -remarks
 
 If the operation succeeds, **WdfDeviceStopIdleWithTag** returns STATUS_SUCCESS.
 
@@ -122,7 +122,6 @@ The method might return other [NTSTATUS values](https://docs.microsoft.com/windo
 A bug check occurs if the driver supplies an invalid object handle.
 
 
-## -remarks
 
 
 
