@@ -76,22 +76,13 @@ An index value that identifies an alternate setting for the interface. For more 
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a> structure that the framework fills in.
 
 
-## -returns
+## -remarks
 
-
-
-None. 
 
 If the <i>SettingIndex</i> value is invalid, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a> structure can receive invalid data. 
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-
-
-## -remarks
 
 
 

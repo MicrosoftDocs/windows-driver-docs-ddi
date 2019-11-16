@@ -69,16 +69,9 @@ A handle to a framework device object.
 A driver-defined value that the framework stores as an identification tag for the power reference.
 
 
-## -returns
-
-None.
-
-A bug check occurs if the driver supplies an invalid object handle.
-
-
-
 ## -remarks
 
+A bug check occurs if the driver supplies an invalid object handle.
 
 
 If the object's reference count becomes zero, the object might be deleted before **WdfDeviceResumeIdleWithTag** returns.

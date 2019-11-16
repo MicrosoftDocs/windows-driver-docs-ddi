@@ -65,16 +65,10 @@ The <b>WdfDeviceResumeIdle</b> method informs the framework that the specified d
 
 A handle to a framework device object.
 
-## -returns
-
-None.
-
-A bug check occurs if the driver supplies an invalid object handle.
-
-
 
 ## -remarks
 
+A bug check occurs if the driver supplies an invalid object handle.
 
 
 Every call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicestopidle">WdfDeviceStopIdle</a> must eventually be followed by a call to <b>WdfDeviceResumeIdle</b>, or else the device will never return to a low-power state if it again becomes idle.
