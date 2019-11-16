@@ -74,18 +74,10 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-
 Supplies a Boolean value which, if <b>TRUE</b>, enables support for the special file type and, if <b>FALSE</b>, disables support the special file type.
 
 
-## -returns
-
-
-
-None.
+## -remarks
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
-## -remarks
 
 
 
