@@ -81,20 +81,9 @@ If the specified value is greater than the default value, the specified value is
 </li>
 </ul>
 
-## -returns
-
-
-
-None.
+## -remarks
 
 A bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
-
-
-## -remarks
 
 
 
