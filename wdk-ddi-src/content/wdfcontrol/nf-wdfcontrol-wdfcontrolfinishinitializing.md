@@ -64,18 +64,10 @@ The <b>WdfControlFinishInitializing</b> method informs the framework that a driv
 A handle to a control device object.
 
 
-## -returns
-
-
-
-None.
-
-A system bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
 ## -remarks
+
+A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 

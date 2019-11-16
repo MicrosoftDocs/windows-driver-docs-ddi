@@ -71,18 +71,10 @@ A handle to a collection object.
 A zero-based index that identifies the object to remove. 
 
 
-## -returns
-
-
-
-None.
-
-A system bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
 ## -remarks
+
+A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 
