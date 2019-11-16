@@ -60,12 +60,10 @@ The <b>RtlParent</b> routine returns a pointer to the parent of the specified no
 
 Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>.
 
-## -returns
-**RtlParent** returns a pointer to the parent of the node at Links, or it returns the Links pointer if the given node is the root node of the tree. 
-
 
 ## -remarks
 
+**RtlParent** returns a pointer to the parent of the node at Links, or it returns the Links pointer if the given node is the root node of the tree. 
 
 
 <b>RtlParent</b> can be called repeatedly in conjunction with <b>RtlLeftChild</b> and <b>RtlRightChild</b> to walk a splay link tree. 
