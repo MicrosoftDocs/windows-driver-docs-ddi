@@ -69,20 +69,10 @@ A handle to a framework resource-list object that represents a list of hardware 
 A zero-based value that is used as an index into the resource list that <i>List</i> specifies.
 
 
-## -returns
-
-
-
-None.
-
-A system bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
-
-
 ## -remarks
+
+A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 
