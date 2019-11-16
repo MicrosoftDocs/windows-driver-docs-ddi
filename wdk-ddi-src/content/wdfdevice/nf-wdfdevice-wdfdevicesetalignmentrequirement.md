@@ -84,10 +84,18 @@ The hardware-dependent alignment requirement for a data buffer. This value must 
 #define FILE_512_BYTE_ALIGNMENT         0x000001ff
 ```
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
+
+
+
+## -remarks
 
 
 

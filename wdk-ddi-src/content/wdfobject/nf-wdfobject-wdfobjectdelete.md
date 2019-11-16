@@ -66,10 +66,18 @@ The <b>WdfObjectDelete</b> method deletes a framework object and its child objec
 A handle to framework object.
 
 
-## -remarks
+## -returns
+
+
+
+None.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
+
+
+
+## -remarks
 
 
 
