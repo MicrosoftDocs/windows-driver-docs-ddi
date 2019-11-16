@@ -69,12 +69,11 @@ PVOID MmGetSystemAddressForMdl(
 
 Pointer to a buffer whose corresponding base virtual address is to be mapped. 
 
-## -returns
-**MmGetSystemAddressForMdl** returns the base system-space virtual address that maps the physical pages described by the given MDL.
 
 
 ## -remarks
 
+**MmGetSystemAddressForMdl** returns the base system-space virtual address that maps the physical pages described by the given MDL.
 
 
 Drivers of PIO devices call this routine to translate a virtual address range, described by the MDL at <b>Irp->MdlAddress</b>, for a user buffer to a system-space address range.

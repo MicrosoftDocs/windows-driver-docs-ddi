@@ -61,11 +61,10 @@ The <b>IoGetFunctionCodeFromCtlCode</b> macro returns the value of the function 
 The IOCTL_<i>XXX</i> (or FSCTL_<i>XXX</i>) value, which can be obtained from the driver's I/O stack location of the IRP at <b>Parameters.DeviceIoControl.IoControlCode</b>.
 
 
-## -returns
-**IoGetFunctionCodeFromCtlCode** returns the value of the Function part of the given IOCTL_XXX code.
 
 ## -remarks
 
+**IoGetFunctionCodeFromCtlCode** returns the value of the Function part of the given IOCTL_XXX code.
 
 
 For information about the layout of IOCTL codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-i-o-control-codes">Using I/O Control Codes</a>.

@@ -60,14 +60,12 @@ The <b>RtlAnsiStringToUnicodeSize</b> routine returns the number of bytes requir
 
 Pointer to a buffer containing the ANSI string.
 
-## -returns
-**RtlAnsiStringToUnicodeSize** returns the necessary size in bytes for a Unicode string buffer.
-
 
 ## -remarks
 
+**RtlAnsiStringToUnicodeSize** returns the necessary size in bytes for a Unicode string buffer.
 
-> Casting the return value of the <b>RtlAnsiStringToUnicodeSize</b> routine to USHORT might cause a loss of data. To avoid potential problems, callers of this routine should test the return value for arithmetic overflow. Note that <b>RtlAnsiStringToUnicodeSize</b> accounts for the trailing <b>NULL</b>.</div>
+Casting the return value of the <b>RtlAnsiStringToUnicodeSize</b> routine to USHORT might cause a loss of data. To avoid potential problems, callers of this routine should test the return value for arithmetic overflow. Note that <b>RtlAnsiStringToUnicodeSize</b> accounts for the trailing <b>NULL</b>.</div>
 
 Callers of <b>RtlAnsiStringToUnicodeSize</b> must be running at IRQL = PASSIVE_LEVEL.
 

@@ -75,13 +75,11 @@ A pointer to an integer with which the value at <i>Destination</i> will be compa
 
 A pointer to a caller-allocated spin-lock that is used if the host system does not support an 8-byte atomic compare-and-exchange operation. 
 
-## -returns
-
-This macro wraps **InterlockedCompareExchange64** or **ExfInterlockedCompareExchange64** and assumes the return value of the type LONGLONG.
 
 
 ## -remarks
 
+This macro wraps **InterlockedCompareExchange64** or **ExfInterlockedCompareExchange64** and assumes the return value of the type LONGLONG.
 
 
 <b>ExInterlockedCompareExchange64</b> tests and, possibly, replaces the value of a given variable. For most underlying microprocessors, this routine is implemented inline by the compiler to execute as an atomic operation. If a spin lock is used, this routine can only be safely used on nonpaged parameters.

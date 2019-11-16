@@ -68,11 +68,10 @@ BOOLEAN IoIsErrorUserInduced(
 Specifies the current NTSTATUS value, usually within the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_dpc_routine">DpcForIsr</a> routine.
 
 
-## -returns
-**IoIsErrorUserInduced** returns TRUE if an I/O request failed because of a user-induced error.
 
 ## -remarks
 
+**IoIsErrorUserInduced** returns TRUE if an I/O request failed because of a user-induced error.
 
 
 This routine indicates whether an I/O request failed for one of the following user-correctable conditions:  

@@ -60,12 +60,10 @@ The <b>ExInterlockedFlushSList</b> routine atomically removes all entries from a
 
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">SLIST_HEADER</a> structure that serves as the header for the sequenced singly linked list.
 
-## -returns
-
-If there were entries on the specified list, **ExInterlockedFlushSList** returns a pointer to the first [**SLIST_ENTRY**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_slist_entry) structure that was entry on the list; otherwise, it returns NULL.
 
 ## -remarks
 
+If there were entries on the specified list, **ExInterlockedFlushSList** returns a pointer to the first [**SLIST_ENTRY**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_slist_entry) structure that was entry on the list; otherwise, it returns NULL.
 
 
 <b>ExInterlockedFlushSList</b> does not delete the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_slist_entry">SLIST_ENTRY</a> structures that made up the list; it only sets the internal pointer of <i>ListHead</i> to the beginning of the list to <b>NULL</b>. The driver must free the entries explicitly.

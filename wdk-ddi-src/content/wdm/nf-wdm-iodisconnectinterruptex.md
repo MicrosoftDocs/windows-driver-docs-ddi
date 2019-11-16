@@ -64,7 +64,7 @@ For more information, see the <a href="https://docs.microsoft.com/windows-hardwa
 For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a> function.
 
 
-## -returns
+## -remarks
 
 
 
