@@ -84,7 +84,7 @@ If successful, <b>DbgPrint</b> returns the NTSTATUS code STATUS_SUCCESS; otherwi
 
 
 <h3><a id="remarks"></a><a id="REMARKS"></a></h3>
-<b>DbgPrint</b> and <b>DbgPrintEx</b> can be called at IRQL<=DIRQL. However, Unicode format codes (%wc and %ws) can be used only at IRQL=PASSIVE_LEVEL. Also, because the debugger uses interprocess interrupts (IPIs) to communicate with other processors, calling <b>DbgPrint</b> at IRQL>DIRQL can cause deadlocks.
+<b>DbgPrint</b> and <b>DbgPrintEx</b> can be called at IRQL&lt;=DIRQL. However, Unicode format codes (%wc and %ws) can be used only at IRQL=PASSIVE_LEVEL. Also, because the debugger uses interprocess interrupts (IPIs) to communicate with other processors, calling <b>DbgPrint</b> at IRQL&gt;DIRQL can cause deadlocks.
 
 Only kernel-mode drivers can call the <b>DbgPrint</b> routine. 
 
