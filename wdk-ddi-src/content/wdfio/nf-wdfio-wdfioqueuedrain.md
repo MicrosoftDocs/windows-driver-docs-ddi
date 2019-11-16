@@ -76,20 +76,9 @@ A pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardw
 An untyped pointer to driver-supplied context information that the framework passes to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_queue_state">EvtIoQueueState</a> callback function. This parameter is optional and can be <b>NULL</b>.
 
 
-## -returns
-
-
-
-None.
+## -remarks
 
 A bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
-
-
-## -remarks
 
 
 
