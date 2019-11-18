@@ -76,15 +76,6 @@ Specifies the address of the STATUS_<i>XXX</i> code set by the system. The chang
 Pointer to a flag that indicates whether to retry the request. The changer miniclass driver can set this flag or leave it as is.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

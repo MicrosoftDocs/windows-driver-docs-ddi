@@ -51,9 +51,4 @@ Destructor for the vector 3d class used in sensor driver development.
 
 No parameters.
 
-## -returns
-
-Void.
-
-
 ## -see-also

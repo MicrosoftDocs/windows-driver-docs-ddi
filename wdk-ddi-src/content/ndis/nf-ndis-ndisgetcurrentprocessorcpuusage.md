@@ -64,15 +64,6 @@ The
 A pointer to a caller-supplied variable that receives the average usage of the current processor since boot, expressed as a percentage.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

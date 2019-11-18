@@ -84,15 +84,6 @@ In the <b>NumberOfStreams</b> value, specify lesser of two values supported by t
 Pointer to a caller-allocated, initialized array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_stream_information">USBD_STREAM_INFORMATION</a> structures. The length of the array depends on the number of streams to open and must be the same as the <b>NumberOfStreams</b> value.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

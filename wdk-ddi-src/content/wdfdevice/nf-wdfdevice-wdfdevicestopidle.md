@@ -78,7 +78,9 @@ A handle to a framework device object.
 
 A Boolean value that indicates when <b>WdfDeviceStopIdle</b> will return. If <b>TRUE</b>, it returns only after the specified device has entered the D0 device power state. If <b>FALSE</b>, the method returns immediately.
 
-## -returns
+## -remarks
+
+This macro can return the following values:
 
 **STATUS_PENDING**  The device is being powered up asynchronously.
  
@@ -89,10 +91,6 @@ A Boolean value that indicates when <b>WdfDeviceStopIdle</b> will return. If <b>
 The method might return other NTSTATUS values.
 
 A bug check occurs if the driver supplies an invalid object handle.
-
-
-## -remarks
-
 
 
 If your device can enter a low-power state when it becomes idle, your driver might have to occasionally call <b>WdfDeviceStopIdle</b> to bring the device back to its working (D0) state or to prevent it from entering a low-power state. 

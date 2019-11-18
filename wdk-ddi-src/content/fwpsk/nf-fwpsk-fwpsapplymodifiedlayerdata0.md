@@ -99,15 +99,6 @@ When set, this flag specifies that data at the layer of the pended classify acti
  
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

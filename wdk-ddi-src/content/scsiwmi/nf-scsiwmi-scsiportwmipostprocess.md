@@ -71,15 +71,6 @@ Specifies any valid SRB status. If the output buffer passed to the miniport driv
 If <i>SrbStatus</i> indicates success, the miniport driver sets <i>BufferUsed</i> to the number of bytes of data written to the buffer. If <i>SrbStatus</i> is SRB_STATUS_DATA_OVERRUN, the miniport driver sets <i>BufferUsed</i> to the number of bytes required to complete the SRB successfully.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

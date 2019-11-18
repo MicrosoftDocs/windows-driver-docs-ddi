@@ -63,10 +63,6 @@ Pointer to a memory location containing the value that is written to the device 
 
 Specifies the number of elements in the array of bytes.
 
-## -returns
-
-This method does not return a value.
-
 ## -see-also
 
 [CWiauPropertyList](nl-wiautil-cwiaupropertylist.md)

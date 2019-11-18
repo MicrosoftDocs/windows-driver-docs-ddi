@@ -52,8 +52,6 @@ Sanitizes the padding for a Unicode string.
 ### -param String
 Pointer to the Unicode string buffer previously allocated by functions such as <b>RtlAnsiStringToUnicodeString</b> or <b>RtlUpcaseUnicodeString</b>. 
 
-## -returns
-
 ## -remarks
 
 ## -see-also

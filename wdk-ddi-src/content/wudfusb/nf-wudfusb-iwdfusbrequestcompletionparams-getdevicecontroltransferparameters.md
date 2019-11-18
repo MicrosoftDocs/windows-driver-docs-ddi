@@ -78,15 +78,6 @@ A pointer to a variable that receives the offset, in bytes, into the buffer for 
 A pointer that receives the WinUsb setup packet for the control transfer. This pointer is a PWINUSB_SETUP_PACKET data type that is defined as PVOID. This parameter is optional and can be <b>NULL</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

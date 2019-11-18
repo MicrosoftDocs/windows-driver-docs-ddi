@@ -86,15 +86,6 @@ The protocol driver's response to the pending Plug and Play or Power Management 
      ProtocolNetPnPEvent</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

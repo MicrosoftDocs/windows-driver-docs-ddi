@@ -84,16 +84,6 @@ A pointer to a caller-supplied variable in which this function returns a UCHAR v
 A pointer to a caller-supplied variable in which this function returns a UCHAR value. This value specifies the function number of a logical device on the device.
 
 
-## -returns
-
-
-
-
-     None.
-
-
-
-
 ## -remarks
 
 

@@ -86,15 +86,6 @@ Specifies the current number of pins that the pin factory has instantiated on th
 Specifies the maximum number of pins that the pin factory can instantiate on the driver. Set to KSINSTANCE_INDETERMINATE if there is no maximum.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

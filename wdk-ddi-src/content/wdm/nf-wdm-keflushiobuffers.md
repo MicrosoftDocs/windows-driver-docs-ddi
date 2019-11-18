@@ -71,15 +71,6 @@ Specifies <b>TRUE</b> if the flush is being performed for a read operation, and 
 Specifies <b>TRUE</b> for a DMA transfer, <b>FALSE</b> for PIO.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

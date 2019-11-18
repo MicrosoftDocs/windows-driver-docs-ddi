@@ -71,15 +71,6 @@ Pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/dri
 Pointer to the context to be passed to the driver's <i>Reinitialize</i> routine.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

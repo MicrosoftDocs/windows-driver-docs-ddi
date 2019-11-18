@@ -81,15 +81,6 @@ Specifies the mapped base port address returned by
      <b>NdisMRegisterIoPortRange</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

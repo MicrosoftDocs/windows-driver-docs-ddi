@@ -68,15 +68,6 @@ A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/d
 The number of request objects that the framework will attempt to reserve for use in low-memory situations. This number must be greater than zero.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

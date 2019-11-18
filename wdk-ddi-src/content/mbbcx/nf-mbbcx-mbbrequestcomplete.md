@@ -47,10 +47,7 @@ ms.custom: RS5
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-> 
-> MBBCx is preview only in Windows 10, version 1903.
+
 
 Client drivers call the **MbbRequestComplete** method to complete a specified request for sending an MBIM control message to the device.
 
@@ -63,10 +60,6 @@ A handle to the framework request object passed in from the [*EvtMbbDeviceSendMb
 ### -param NtStatus
 
 An NTSTATUS value that represents the completion status of the request.
-
-## -returns
-
-This method does not return a value.
 
 ## -remarks
 

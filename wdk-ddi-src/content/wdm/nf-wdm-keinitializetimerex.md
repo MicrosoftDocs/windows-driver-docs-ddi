@@ -66,15 +66,6 @@ Pointer to a timer object, for which the caller provides the storage.
 Specifies the type of the timer object, either <b>NotificationTimer</b> or <b>SynchronizationTimer</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

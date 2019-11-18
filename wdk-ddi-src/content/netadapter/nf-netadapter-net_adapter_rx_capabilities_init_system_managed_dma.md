@@ -44,10 +44,7 @@ targetos: Windows
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 The **NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA** method initializes a [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure for a net adapter that would like to specify operating system-managed receive buffer allocation and attachment, as well as DMA for memory mapping.
 
@@ -64,9 +61,6 @@ The maximum fragment buffer size, in bytes, that the adapter can receive.
 
 ### -param MaximumNumberOfQueues
 The maximum number of receive queues that the adapter supports.
-
-## -returns
-This method does not return a value.
 
 ## -remarks
 This method is one of three possible methods to call in order to initialize a [NET_ADAPTER_RX_CAPABILITIES](ns-netadapter-_net_adapter_rx_capabilities.md) structure. Which one the client driver should call depends on how it would like to allocate receive buffers and if it would like to use DMA.

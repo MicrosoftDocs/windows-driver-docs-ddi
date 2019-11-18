@@ -118,15 +118,6 @@ The first element in an array of <a href="https://docs.microsoft.com/windows-har
 A pointer to the context for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_perf_state_callback">ComponentPerfStateCallback</a> callback routine. This parameter is optional. It is provided so that a driver or device context can be passed to the callback routine. If this parameter is not used, it must be set to NULL.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

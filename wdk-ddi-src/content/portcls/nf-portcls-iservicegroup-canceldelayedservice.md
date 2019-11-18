@@ -61,15 +61,6 @@ The <code>CancelDelayedService</code> method cancels the previously requested de
 #### - None
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

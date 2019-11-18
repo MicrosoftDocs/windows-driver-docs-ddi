@@ -61,15 +61,6 @@ The<b> KsGateAddOffInputToAnd</b> function adds a new input in the OFF state to 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure representing the AND gate to which to add a new OFF input.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -63,15 +63,6 @@ The <b>SerCx2SystemDmaTransmitDrainFifoComplete</b> method notifies version 2 of
 
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

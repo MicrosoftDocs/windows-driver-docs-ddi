@@ -4,7 +4,7 @@ title: _NET_PACKET_LAYOUT (packet.h)
 description: A NET_PACKET_LAYOUT structure describes the start of each protocol header in a NET_PACKET.
 tech.root: netvista
 ms.assetid: 71300205-2332-4127-8622-86390FE54BBD
-ms.date: 01/30/2019
+ms.date: 09/27/2019
 ms.topic: struct
 f1_keywords:
  - "packet/RegisterOpRegionHandler"
@@ -41,10 +41,7 @@ product:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 A **NET_PACKET_LAYOUT** structure describes the start of each protocol header in a [**NET_PACKET**](ns-packet-_net_packet.md).
 
@@ -69,9 +66,9 @@ An enumeration that specifies a flag from **NET_PACKET_LAYER2_TYPE**.
 ```c++
 typedef enum _NET_PACKET_LAYER2_TYPE
 {
-    NET_PACKET_LAYER2_TYPE_UNSPECIFIED                  = 0,
-    NET_PACKET_LAYER2_TYPE_NULL                         = 1,
-    NET_PACKET_LAYER2_TYPE_ETHERNET                     = 2,
+    NetPacketLayer2TypeUnspecified,
+    NetPacketLayer2TypeNull,
+    NetPacketLayer2TypeEthernet,
 } NET_PACKET_LAYER2_TYPE;
 ```
 
@@ -82,13 +79,13 @@ An enumeration that specifies a flag from **NET_PACKET_LAYER3_TYPE**.
 ```c++
 typedef enum _NET_PACKET_LAYER3_TYPE
 {
-    NET_PACKET_LAYER3_TYPE_UNSPECIFIED                  = 0,
-    NET_PACKET_LAYER3_TYPE_IPV4_UNSPECIFIED_OPTIONS     = 1,
-    NET_PACKET_LAYER3_TYPE_IPV4_WITH_OPTIONS            = 2,
-    NET_PACKET_LAYER3_TYPE_IPV4_NO_OPTIONS              = 3,
-    NET_PACKET_LAYER3_TYPE_IPV6_UNSPECIFIED_EXTENSIONS  = 4,
-    NET_PACKET_LAYER3_TYPE_IPV6_WITH_EXTENSIONS         = 5,
-    NET_PACKET_LAYER3_TYPE_IPV6_NO_EXTENSIONS           = 6,
+    NetPacketLayer3TypeUnspecified,
+    NetPacketLayer3TypeIPv4UnspecifiedOptions,
+    NetPacketLayer3TypeIPv4WithOptions,
+    NetPacketLayer3TypeIPv4NoOptions,
+    NetPacketLayer3TypeIPv6UnspecifiedExtensions,
+    NetPacketLayer3TypeIPv6WithExtensions,
+    NetPacketLayer3TypeIPv6NoExtensions,
 } NET_PACKET_LAYER3_TYPE;
 ```
 
@@ -99,11 +96,11 @@ An enumeration that specifies a flag from NET_PACKET_LAYER4_TYPE.
 ```c++
 typedef enum _NET_PACKET_LAYER4_TYPE
 {
-    NET_PACKET_LAYER4_TYPE_UNSPECIFIED                  = 0,
-    NET_PACKET_LAYER4_TYPE_TCP                          = 1,
-    NET_PACKET_LAYER4_TYPE_UDP                          = 2,
-    NET_PACKET_LAYER4_TYPE_IP_NOT_FRAGMENTED            = 3,
-    NET_PACKET_LAYER4_TYPE_IP_FRAGMENT                  = 4,
+    NetPacketLayer4TypeUnspecified,
+    NetPacketLayer4TypeTcp,
+    NetPacketLayer4TypeUdp,
+    NetPacketLayer4TypeIPFragment,
+    NetPacketLayer4TypeIPNotFragment,
 } NET_PACKET_LAYER4_TYPE;
 ```
 

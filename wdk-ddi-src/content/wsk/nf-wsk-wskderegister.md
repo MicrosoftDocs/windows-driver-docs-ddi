@@ -67,15 +67,6 @@ A pointer to the memory location initialized by
      application's registration instance.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

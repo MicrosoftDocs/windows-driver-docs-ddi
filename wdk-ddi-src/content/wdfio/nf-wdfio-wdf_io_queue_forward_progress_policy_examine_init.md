@@ -73,15 +73,6 @@ The number of request objects that the framework will attempt to reserve for use
 A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfio/nc-wdfio-evt_wdf_io_wdm_irp_for_forward_progress">EvtIoWdmIrpForForwardProgress</a> callback function.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

@@ -46,10 +46,7 @@ product:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 Sets the number of bytes needed to read or write for a control request (OID).
 
@@ -60,9 +57,6 @@ A handle to a network request object.
 
 ### -param BytesNeeded
 The number of bytes to be read or written.
-
-## -returns
-This method does not return a value.
 
 ## -remarks
 The client calls this routine if the I/O request fails due a smaller than expected InputOutputBuffer size. For example, to report that 8 bytes are required to support the requested OID:

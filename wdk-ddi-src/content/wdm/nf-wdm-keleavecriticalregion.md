@@ -58,15 +58,6 @@ The <b>KeLeaveCriticalRegion</b> routine reenables the delivery of normal kernel
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

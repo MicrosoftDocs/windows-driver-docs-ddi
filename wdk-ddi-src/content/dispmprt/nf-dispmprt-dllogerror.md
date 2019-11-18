@@ -70,10 +70,6 @@ Specifies a miniport driver-defined error code that indicates the type of hardwa
 
 Specifies a unique identifier for the error.
 
-## -returns
-
-This function returns VOID.
-
 ## -remarks
 
 ## -see-also

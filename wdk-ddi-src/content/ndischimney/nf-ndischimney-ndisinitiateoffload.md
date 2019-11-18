@@ -77,15 +77,6 @@ A pointer to an
      linked list of such structures. These structures identify the state that is being offloaded.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

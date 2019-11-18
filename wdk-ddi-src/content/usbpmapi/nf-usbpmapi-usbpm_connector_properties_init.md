@@ -54,8 +54,6 @@ Initializes a [**USBPM_CONNECTOR_PROPERTIES**](ns-usbpmapi-_usbpm_connector_prop
 ### -param Properties
 [Out] A pointer to a [**USBPM_CONNECTOR_PROPERTIES**](ns-usbpmapi-_usbpm_connector_properties.md) to initialize.
 
-## -returns
-
 ## -remarks
 
 ## -see-also

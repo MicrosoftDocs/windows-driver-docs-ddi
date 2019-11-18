@@ -67,15 +67,6 @@ The filter driver handle that identifies this filter driver. NDIS returned the h
      <b>NdisFRegisterFilterDriver</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

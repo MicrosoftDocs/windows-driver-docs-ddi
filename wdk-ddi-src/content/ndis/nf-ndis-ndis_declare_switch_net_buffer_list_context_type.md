@@ -57,10 +57,6 @@ An identifier for the context type.
 
 A GUID that matches the extension ID.
 
-## -returns
-
-This macro does not return a value.
-
 ## -remarks
 
 ## -see-also

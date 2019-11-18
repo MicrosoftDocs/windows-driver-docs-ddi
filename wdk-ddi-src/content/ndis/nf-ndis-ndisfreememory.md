@@ -78,15 +78,6 @@ A set of flags that specify the type of memory to free. This value must be zero 
       <b>NdisAllocateMemoryWithTagPriority</b> is always used to allocate memory.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

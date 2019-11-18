@@ -60,15 +60,6 @@ The <b>UPSCancelWait</b> function cancels all waits initiated by calls to <a hre
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

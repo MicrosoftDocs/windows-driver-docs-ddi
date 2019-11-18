@@ -67,15 +67,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 This parameter specifies whether to advance <i>StreamPointer</i> to the next data frame. A value of <b>TRUE</b> advances the stream pointer.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

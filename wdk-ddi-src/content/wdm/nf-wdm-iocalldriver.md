@@ -78,13 +78,11 @@ See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 ## -returns
 See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
-## -remarks
-
-see [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 
 ## -see-also
 
+See [**IofCallDriver**](nf-wdm-iofcalldriver.md).
 
 
 

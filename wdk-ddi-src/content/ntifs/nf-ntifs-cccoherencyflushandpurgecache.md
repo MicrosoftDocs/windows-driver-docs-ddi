@@ -99,15 +99,6 @@ Flush, but do not purge the cache. This is useful for read coherency flushes.
  
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

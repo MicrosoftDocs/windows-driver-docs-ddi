@@ -73,15 +73,6 @@ In kernel-mode debugging, <i>CurrentThread</i> can be <b>NULL</b>, in which case
 Receives the location of the system data that describes the current process.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

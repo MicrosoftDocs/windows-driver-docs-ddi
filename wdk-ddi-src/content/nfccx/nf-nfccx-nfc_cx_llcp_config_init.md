@@ -62,15 +62,6 @@ The <b>NFC_CX_LLCP_CONFIG_INIT</b> function initializes the <a href="https://doc
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfccx/ns-nfccx-_nfc_cx_llcp_config">NFC_CX_LLCP_CONFIG</a> structure that the function will initialize.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -see-also
 
 

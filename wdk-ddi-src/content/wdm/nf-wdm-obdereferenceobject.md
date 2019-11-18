@@ -61,11 +61,10 @@ The <b>ObDereferenceObject</b> routine decrements the given object's reference c
 Pointer to the object's body. 
 
 
-## -returns
-**ObDereferenceObject** returns a value that is reserved for system use. Drivers must treat this value as VOID.
 
 ## -remarks
 
+**ObDereferenceObject** returns a value that is reserved for system use. Drivers must treat this value as VOID.
 
 
 <b>ObDereferenceObject</b> decreases the reference count of an object by one. If the object was created as temporary (the OBJ_PERMANENT flag was not specified on creation), and the reference count reaches zero, the object can be deleted by the system.

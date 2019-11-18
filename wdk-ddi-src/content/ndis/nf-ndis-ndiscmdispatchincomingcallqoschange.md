@@ -74,15 +74,6 @@ Pointer to a structure of type
      QoS, requested by the client on the remote node, for this connection.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

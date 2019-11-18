@@ -83,15 +83,6 @@ The final status of the request operation, either NDIS_STATUS_SUCCESS,
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -67,10 +67,6 @@ Pointer to a string containing the debug message to be printed.
 
 
 
-## -returns
-
-This function returns VOID.
-
 ## -remarks
 
 ## -see-also

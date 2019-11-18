@@ -67,15 +67,6 @@ A pointer to a WDF-allocated structure that contains initialization parameters f
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/ne-udecxusbdevice-_udecx_usb_device_speed">UDECX_USB_DEVICE_SPEED</a>-type value that indicates the USB speed to set.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

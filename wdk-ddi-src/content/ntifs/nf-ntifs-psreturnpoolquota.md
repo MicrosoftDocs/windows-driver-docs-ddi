@@ -81,15 +81,6 @@ Type of pool quota to return, which can be one of the following:
 Number of bytes to return to the pool quota for this process. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

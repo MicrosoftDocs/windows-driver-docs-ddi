@@ -92,15 +92,6 @@ The protocol driver's attempt to set up a binding failed or the protocol driver 
        <b>Ndis<i>Xxx</i></b> function or a kernel-mode support routine.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -66,15 +66,6 @@ A pointer to the NAME_CACHE_CONTROL structure on which to expire the entry.
 A pointer to the NAME_CACHE structure to expire.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

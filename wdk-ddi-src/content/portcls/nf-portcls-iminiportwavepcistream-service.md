@@ -61,15 +61,6 @@ The <code>Service</code> method notifies the miniport driver of a request for se
 #### - None
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

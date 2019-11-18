@@ -61,15 +61,6 @@ The <b>FsRtlInitializeTunnelCache</b> routine initializes a new tunnel cache for
 Pointer to a per-volume TUNNEL structure for which the caller must provide resident storage in nonpaged pool. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

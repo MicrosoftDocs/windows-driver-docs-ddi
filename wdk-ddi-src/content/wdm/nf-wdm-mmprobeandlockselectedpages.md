@@ -76,15 +76,6 @@ Specifies the access mode in which to probe the arguments, either KernelMode or 
 Specifies the type of operation for which the caller wants the access rights probed and the pages locked. Set this parameter to IoReadAccess, IoWriteAccess, or IoModifyAccess. IoReadAccess indicates that the driver can examine the contents of the buffer but cannot change the contents. IoWriteAccess and IoModifyAccess, which are equivalent, indicate that the driver has both read and write access to the buffer. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

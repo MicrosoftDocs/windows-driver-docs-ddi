@@ -70,15 +70,6 @@ A handle to a framework request object that contains the <a href="https://docs.m
 
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

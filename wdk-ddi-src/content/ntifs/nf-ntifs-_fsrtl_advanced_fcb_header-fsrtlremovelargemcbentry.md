@@ -76,15 +76,6 @@ The <b>FsRtlRemoveLargeMcbEntry</b> routine removes one or more mappings from a 
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

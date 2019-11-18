@@ -69,18 +69,10 @@ A handle to a framework resource-requirements-list object that represents a devi
 A value that identifies the bus slot number to which the device is connected.
 
 
-## -returns
-
-
-
-None.
-
-A system bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
 ## -remarks
+
+A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 

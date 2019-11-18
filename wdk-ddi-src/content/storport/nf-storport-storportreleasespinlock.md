@@ -66,15 +66,6 @@ The <b>StorPortReleaseSpinLock</b> routine releases a spinlock acquired by <a hr
 Pointer to a lock handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>.
 
 
-## -returns
-
-
-
-None. 
-
-
-
-
 ## -see-also
 
 

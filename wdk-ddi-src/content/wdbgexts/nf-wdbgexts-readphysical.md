@@ -76,15 +76,6 @@ Specifies the number of bytes to read.
 Receives the number of bytes actually read.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

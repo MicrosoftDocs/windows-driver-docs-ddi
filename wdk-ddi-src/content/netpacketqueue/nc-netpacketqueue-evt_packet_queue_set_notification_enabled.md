@@ -43,10 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 The *EvtPacketQueueSetNotificationEnabled* callback function is implemented by the client driver to perform client-specific processing when there are new packets received in the specified queue's ring buffer.
 

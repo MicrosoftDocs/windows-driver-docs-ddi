@@ -67,15 +67,6 @@ A pointer to the AVStream <a href="https://docs.microsoft.com/windows-hardware/d
 This parameter supplies the address of a minidriver-provided <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspinframereturn">AVStrMiniFrameReturn</a> routine.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

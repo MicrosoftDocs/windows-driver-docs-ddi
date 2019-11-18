@@ -62,15 +62,6 @@ The <b>ChangerClassFreePool</b> routine frees pool memory previously allocated u
 Pointer to the block of memory to be freed.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

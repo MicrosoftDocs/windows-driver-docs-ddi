@@ -63,15 +63,6 @@ The <b>Complete</b> method completes an I/O request.
 A status value to complete the request with. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

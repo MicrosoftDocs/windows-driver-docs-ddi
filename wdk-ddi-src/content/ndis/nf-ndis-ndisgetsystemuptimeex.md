@@ -65,15 +65,6 @@ A pointer to a caller-supplied LARGE_INTEGER variable in which this function ret
      milliseconds, since the computer was last restarted.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

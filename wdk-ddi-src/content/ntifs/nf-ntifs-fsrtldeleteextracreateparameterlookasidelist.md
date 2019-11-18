@@ -68,15 +68,6 @@ Communicates ECP lookaside list allocation options with which the <a href="https
 This <i>Flags</i> parameter should be the same as the <i>Flags</i> parameter used in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546102">FsRtlInitExtraCreateParameterLookasideList</a> routine.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

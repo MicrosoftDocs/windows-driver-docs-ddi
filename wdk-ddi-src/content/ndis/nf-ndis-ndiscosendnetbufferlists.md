@@ -100,15 +100,6 @@ NDIS should check for loopback. By default, NDIS does not loop back data to the 
        checking for loopback, or looping back, on other bindings.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

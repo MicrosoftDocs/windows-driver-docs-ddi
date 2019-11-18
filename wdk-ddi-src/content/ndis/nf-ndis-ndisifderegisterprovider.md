@@ -69,15 +69,6 @@ A handle that identifies the network interface provider. The caller obtained thi
      NdisIfRegisterProvider</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

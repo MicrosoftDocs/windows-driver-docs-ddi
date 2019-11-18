@@ -63,15 +63,6 @@ The <b>GetRelatedFileObject</b> method retrieves the <a href="https://docs.micro
 The address of a location that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface of a UMDF file object. This file object is related to the file object that exposes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile2">IWDFFile2</a> interface's parent <b>IWDFFile</b> interface.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

@@ -61,15 +61,6 @@ The<b> KsGateAddOnInputToOr</b> function adds a new input in the ON state to a g
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksgate">KSGATE</a> structure representing the OR gate to which to add a new ON input.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

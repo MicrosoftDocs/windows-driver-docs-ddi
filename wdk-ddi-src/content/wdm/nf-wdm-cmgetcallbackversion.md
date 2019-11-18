@@ -66,15 +66,6 @@ A pointer to a location that receives the major version number.
 A pointer to a location that receives the minor version number.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

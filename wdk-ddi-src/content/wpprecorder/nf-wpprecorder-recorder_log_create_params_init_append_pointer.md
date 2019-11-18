@@ -71,11 +71,3 @@ String identifier for the log.
 A pointer from each debug message to its IFR’s metadata structure.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

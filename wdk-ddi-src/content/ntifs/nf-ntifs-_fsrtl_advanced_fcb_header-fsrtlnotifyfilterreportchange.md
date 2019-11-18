@@ -109,15 +109,6 @@ Context pointer to pass to the file system if performing a traverse check in the
 Context pointer to pass to the filter callback routine. For more information, see the <i>FilterCallback</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterchangedirectory">FsRtlNotifyFilterChangeDirectory</a>. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

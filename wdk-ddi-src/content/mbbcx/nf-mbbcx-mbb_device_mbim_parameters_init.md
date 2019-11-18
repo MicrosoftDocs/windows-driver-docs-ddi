@@ -45,10 +45,7 @@ ms.custom: 19H1
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-> 
-> MBBCx is preview only in Windows 10, version 1903.
+
 
 The **MBB_DEVICE_MBIM_PARAMETERS_INIT** method initializes a [**MBB_DEVICE_MBIM_PARAMETERS**](ns-mbbcx-_mbb_device_mbim_parameters.md) structure.
 
@@ -69,10 +66,6 @@ The maximum size, in bytes, of MBIM control messages that the client driver can 
 ### -param ExtendedVersion
 
 An [**MBB_MBIM_EXTENDED_VERSION**](../mbbcx/ne-mbbcx-_mbb_mbim_extended_version.md) value that defines the version of the extended MBIM specification that the client driver supports. The value of this field must be **MBB_MBIM_EXTENDED_VERSION2_0**.
-
-## -returns
-
-This method does not return a value.
 
 ## -remarks
 

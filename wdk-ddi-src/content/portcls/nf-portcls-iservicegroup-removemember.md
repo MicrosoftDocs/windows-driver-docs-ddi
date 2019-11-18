@@ -61,15 +61,6 @@ The <code>RemoveMember</code> method removes the specified member from the servi
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iservicesink">IServiceSink</a> interface of the member that is to be removed
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

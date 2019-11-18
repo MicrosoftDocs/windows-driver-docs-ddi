@@ -67,15 +67,6 @@ This routine removes a thread from a silo which was added by an attach. For more
 The value returned from the silo attach call.
 
 
-## -returns
-
-
-
-This routine does not return a value.
-
-
-
-
 ## -see-also
 
 

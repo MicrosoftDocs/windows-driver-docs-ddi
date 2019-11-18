@@ -71,11 +71,3 @@ Indicates the operating mode of the connector. This value is a bitwise OR of <a 
 Indicates the power source capabilities of the connector. This value is a bitwise OR of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtypes/ne-ucmtypes-_ucm_typec_current">UCM_TYPEC_CURRENT</a>-typed flags.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-

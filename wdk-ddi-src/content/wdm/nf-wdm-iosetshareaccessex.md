@@ -88,15 +88,6 @@ A pointer to the <b>SHARE_ACCESS</b> structure that is associated with <i>FileOb
 A pointer to the value that specifies whether the file object has write permission. This value is <b>TRUE</b> if the share has write permission; otherwise, it is <b>FALSE</b>. If  the value is <b>FALSE</b>  and the caller attempts to take exclusive read access, the write permission is downgraded to FILE_SHARE_READ.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -see-also
 
 

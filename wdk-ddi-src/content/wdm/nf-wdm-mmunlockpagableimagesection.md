@@ -61,15 +61,6 @@ The <b>MmUnlockPagableImageSection</b> routine releases a section of driver code
 Specifies the handle returned by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmlockpagablecodesection">MmLockPagableCodeSection</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-mmlockpagabledatasection">MmLockPagableDataSection</a>. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

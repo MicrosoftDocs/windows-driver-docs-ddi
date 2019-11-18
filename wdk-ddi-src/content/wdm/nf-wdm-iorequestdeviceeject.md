@@ -61,15 +61,6 @@ The <b>IoRequestDeviceEject</b> routine notifies the PnP manager that the device
 Pointer to the PDO for the device. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

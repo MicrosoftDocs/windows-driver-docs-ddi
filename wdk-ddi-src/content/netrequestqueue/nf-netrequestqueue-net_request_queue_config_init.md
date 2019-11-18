@@ -46,10 +46,7 @@ product:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 Initializes a caller-allocated [NET_REQUEST_QUEUE_CONFIG](ns-netrequestqueue-_net_request_queue_config.md) structure.
 
@@ -63,9 +60,6 @@ The net adapter object that the client created in a prior call to [NetAdapterCre
 
 ### -param QueueType
 A [NET_REQUEST_QUEUE_TYPE](ne-netrequestqueue-_net_request_queue_type.md) enumeration that specifies the type of queue.
-
-## -returns
-This method does not return a value.
 
 ## -remarks
 

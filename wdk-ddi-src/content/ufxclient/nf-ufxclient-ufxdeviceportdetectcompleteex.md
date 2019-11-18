@@ -71,15 +71,6 @@ Contains an enumeration value of type <a href="https://docs.microsoft.com/window
 Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxbase/ne-ufxbase-_usbfn_action">USBFN_ACTION</a>.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

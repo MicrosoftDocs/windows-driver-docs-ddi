@@ -86,15 +86,6 @@ Pointer to a GUID that indicates the type of ECP for which the context structure
 Optional pointer to the list from which the ECP context structure is allocated. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

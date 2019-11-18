@@ -71,15 +71,6 @@ TRUE indicates the client driver will report hardware events by calling <a href=
 FALSE indicates hardware event reporting is not handled by the client driver.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -remarks
 
 

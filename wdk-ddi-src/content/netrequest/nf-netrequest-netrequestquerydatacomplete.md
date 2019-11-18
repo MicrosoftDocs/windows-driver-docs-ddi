@@ -46,10 +46,7 @@ product:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 Completes a query data (OID) request.
 
@@ -69,9 +66,6 @@ An NTSTATUS value that represents the completion status of the request. Valid st
 
 ### -param BytesWritten
 The number of bytes that the client driver wrote to the request buffer.
-
-## -returns
-This method does not return a value.
 
 ## -remarks
 Typically, the client driver calls **NetRequestQueryDataComplete** from one of its control request handler routines. For more info, see [Handling Control Requests](https://docs.microsoft.com/windows-hardware/drivers/netcx/handling-control-requests#completing-requests).

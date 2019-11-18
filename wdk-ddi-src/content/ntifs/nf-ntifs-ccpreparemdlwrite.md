@@ -81,15 +81,6 @@ A chain of one or more memory descriptor lists (MDL) describing the pages to whi
 Pointer to an IO_STATUS_BLOCK structure. If the call to <b>CcPrepareMdlWrite</b> succeeds, <i>IoStatus.Status</i> is set to STATUS_SUCCESS. Otherwise, it is set to an appropriate NTSTATUS error code. <i>IoStatus.Information</i> is set to the actual number of bytes that were successfully locked down in the MDL chain.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

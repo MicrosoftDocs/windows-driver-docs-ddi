@@ -49,8 +49,6 @@ ms.custom: RS5
 
 ### -param Arg1
 
-## -returns
-
 ## -remarks
 
 ## -see-also

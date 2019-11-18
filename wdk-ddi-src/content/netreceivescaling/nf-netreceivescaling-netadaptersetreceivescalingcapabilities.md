@@ -44,10 +44,7 @@ targetos: Windows
 
 
 ## -description
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 The **NetAdapterSetReceiveScalingCapabilities** method sets a net adapter's receive side scaling (RSS) capabilities.
 
@@ -58,9 +55,6 @@ The **NETADAPTER** object the driver obtained in a previous call to [NetAdapterC
 
 ### -param Capabilities
 A pointer to a driver-allocated and initialized [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure.
-
-## -returns
-This method does not return a value.
 
 ## -remarks
 

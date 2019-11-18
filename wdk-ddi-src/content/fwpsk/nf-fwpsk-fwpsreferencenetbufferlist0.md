@@ -76,15 +76,6 @@ A value that indicates whether a callout intends to modify the cloned network bu
      <i>classifyFn</i> has returned (an out-of-band modification). Otherwise, set to <b>FALSE</b>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

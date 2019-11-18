@@ -60,10 +60,6 @@ A pointer to a **NET_BUFFER_LIST** structure.
 
 A pointer to an [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION**](ns-ndis-_ndis_nbl_media_media_specific_information.md) structure that has a **Tag** member matching the **Tag** member of the information structure that should be removed.
 
-## -returns
-
-This macro does not return a value.
-
 ## -remarks
 
 Any NDIS 6.0 or 6.1 driver can use **NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO** to remove an [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION**](ns-ndis-_ndis_nbl_media_media_specific_information.md) structure from a list of media-specific information. To specify the type information to remove, specify an **NDIS_NBL_MEDIA_SPECIFIC_INFORMATION** structure with a matching **Tag** member in the *\_MediaSpecificInfo* parameter.

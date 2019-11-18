@@ -45,10 +45,7 @@ ms.custom: 19H1
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 The **NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT** method initializes a [**NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES**](ns-netadapter-_net_adapter_offload_checksum_capabilities.md) structure.
 
@@ -73,10 +70,6 @@ A flag specifying whether the hardware can calculate and validate UDP checksum.
 ### -param EvtAdapterOffloadSetChecksum
 
 A pointer to the client driver's implementation of the [*EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM*](nc-netadapter-evt_net_adapter_offload_set_checksum.md) callback function.
-
-## -returns
-
-This method does not return a value.
 
 ## -remarks
 

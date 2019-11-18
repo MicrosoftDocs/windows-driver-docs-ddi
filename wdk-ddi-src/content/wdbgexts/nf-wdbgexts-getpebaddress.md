@@ -70,15 +70,6 @@ In user-mode debugging, <i>CurrentThread</i> is ignored.
 Receives the address of the PEB for the current operating system process or, in kernel-mode debugging, when <i>CurrentThread</i> is not <b>NULL</b>, for the system process that contains the thread that is specified by <i>CurrentThread</i>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

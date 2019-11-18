@@ -57,8 +57,6 @@ Initializes a [**USBPM_CLIENT_CONFIG_EXTRA_INFO**](ns-usbpmapi-_usbpm_client_con
 ### -param WdmDeviceObject
 [In] If the client is a kernel mode driver, it should set it to the kernel mode WDM device object after calling [**USBPM_CLIENT_CONFIG_INIT**](nf-usbpmapi-usbpm_client_config_init.md). In user mode, it is not used.
 
-## -returns
-
 ## -remarks
 
 ## -see-also

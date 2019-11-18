@@ -76,15 +76,6 @@ A string that specifies the device identifier assigned by the manufacturer.
 A string that Specifies the revision level of the device described by the <b>DeviceID</b> member.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

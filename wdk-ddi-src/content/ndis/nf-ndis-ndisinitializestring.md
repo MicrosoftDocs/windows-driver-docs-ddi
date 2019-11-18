@@ -73,15 +73,6 @@ A pointer to a null-terminated string with which to initialize the counted strin
      <i>SourceString</i> must not be <b>NULL</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

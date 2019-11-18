@@ -46,10 +46,7 @@ product:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 Initializes a caller-allocated [NET_REQUEST_QUEUE_METHOD_HANDLER](ns-netrequestqueue-_net_request_queue_method_handler.md) structure.
 
@@ -69,9 +66,6 @@ The required minimum input length for the request.
 
 ### -param MinimumOutputLength
 The required minimum output length for the request.
-
-## -returns
-This method does not return a value.
 
 ## -remarks
 

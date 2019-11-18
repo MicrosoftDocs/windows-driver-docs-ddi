@@ -61,11 +61,11 @@ The <b>ObReferenceObject</b> routine increments the reference count to the given
 
 Pointer to the object. The caller obtained this parameter either when it created the object or from a preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a> after it opened the object. 
 
-## -returns
+## -remarks
+
 **ObReferenceObject** returns a value that is reserved for system use. Drivers must treat this value as VOID. 
 
 
-## -remarks
 
 
 

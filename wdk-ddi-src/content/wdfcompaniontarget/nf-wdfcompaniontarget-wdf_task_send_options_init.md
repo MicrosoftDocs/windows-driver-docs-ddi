@@ -63,11 +63,3 @@ req.typenames:
 ### -param Flags [in]
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-

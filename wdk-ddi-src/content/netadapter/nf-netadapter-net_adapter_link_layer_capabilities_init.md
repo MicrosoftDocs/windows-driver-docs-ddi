@@ -47,36 +47,23 @@ product:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 The **NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT** method initializes a [NET_ADAPTER_LINK_LAYER_CAPABILITIES](ns-netadapter-_net_adapter_link_layer_capabilities.md) structure.
 
 ## -parameters
 
 ### -param LinkLayerCapabilities
+
 A pointer to the driver-allocated [NET_ADAPTER_LINK_LAYER_CAPABILITIES](ns-netadapter-_net_adapter_link_layer_capabilities.md) structure that describes the link layer capabilities of the adapter.
 
-### -param SupportedPacketFilters
-An enumeration value of [NET_PACKET_FILTER_TYPES_FLAGS](ne-netadapter-_net_packet_filter_types_flags.md) that specifies packet filters that the adapter supports.
-
-### -param MaxMulticastListSize
-The multicast address list size for the adapter.
-
-### -param SupportedStatistics
-A bitwise OR of [NET_ADAPTER_STATISTICS_FLAGS](ne-netadapter-_net_adapter_statistics_flags.md)-typed flags specifying statistics the adapter supports.
-
 ### -param MaxTxLinkSpeed
+
 The maximum transmit link speed of the adapter in bits per second. For more information, see [OID_GEN_MAX_LINK_SPEED](https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-max-link-speed).
 
 ### -param MaxRxLinkSpeed
+
 The maximum receive link speed of the adapter in bits per second. For more information, see [OID_GEN_MAX_LINK_SPEED](https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-max-link-speed).
-
-## -returns
-
-This method does not return a value.
 
 ## -remarks
 

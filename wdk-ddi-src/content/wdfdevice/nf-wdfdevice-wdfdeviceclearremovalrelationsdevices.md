@@ -64,18 +64,12 @@ The <b>WdfDeviceClearRemovalRelationsDevices</b> method removes all devices from
 A handle to a framework device object.
 
 
-## -returns
-
-
-
-None.
+## -remarks
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
-
-
 ## -see-also
+
 
 
 

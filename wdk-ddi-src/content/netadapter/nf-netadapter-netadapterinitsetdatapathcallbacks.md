@@ -47,10 +47,7 @@ ms.custom: RS5
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 The **NetAdapterInitSetDatapathCallbacks** method sets a net adapter's callback functions for creating datapath packet queues.
 
@@ -63,10 +60,6 @@ A pointer to a NETADAPTER_INIT structure that the driver obtained from a previou
 ### -param DatapathCallbacks
 
 A pointer to a driver-allocated and initialized [**NET_ADAPTER_DATAPATH_CALLBACKS**](ns-netadapter-_net_adapter_datapath_callbacks.md) structure that contains pointers to the adapter's datapath queue creation callback functions.
-
-## -returns
-
-This method does not return a value.
 
 ## -remarks
 

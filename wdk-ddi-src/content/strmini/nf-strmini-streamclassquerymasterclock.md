@@ -71,10 +71,6 @@ Specifies the routine to which the class driver passes the results. The function
 ClockCallbackRoutine(PHW_TIME_CONTEXT TimeContext);
 ```
 
-## -returns
-
-None
-
 ## -remarks
 
 The class driver queries the master clock and passes the results in the *TimeContext* parameter (of type [HW_TIME_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_time_context)) of the callback. In particular, it sets the **Time** member of this structure to the time value requested in the *TimeFunction* parameter, the current system time in the **SystemTime** member of the same structure, and the minidriver's device extension in the **HwDeviceExtension** member of that structure.

@@ -70,15 +70,6 @@ The <b>GetTargetFile</b> method retrieves the framework file object that is asso
 Pointer to a buffer that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the I/O target's file object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

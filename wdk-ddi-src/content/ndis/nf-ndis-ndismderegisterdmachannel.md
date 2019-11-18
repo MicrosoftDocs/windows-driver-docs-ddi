@@ -66,15 +66,6 @@ The DMA handle returned by the
      NdisMRegisterDmaChannel</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

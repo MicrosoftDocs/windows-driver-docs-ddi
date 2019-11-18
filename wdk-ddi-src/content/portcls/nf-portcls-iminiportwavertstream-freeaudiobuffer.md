@@ -58,9 +58,6 @@ Output pointer for the number of bytes that the method has written to the Attrib
 
 
 
-## -returns
-This method returns VOID.
-
 ## -remarks
 
 ## -see-also

@@ -66,15 +66,6 @@ A pointer to the master <a href="https://docs.microsoft.com/windows-hardware/dri
 An NTSTATUS value to compare to the <b>Status</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/i-o-status-blocks">I/O status block</a> in the master IRP.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

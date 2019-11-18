@@ -67,15 +67,6 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

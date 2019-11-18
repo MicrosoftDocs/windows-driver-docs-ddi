@@ -64,10 +64,6 @@ The hash function can be one of the following:
 - **NdisHashFunctionReserved2**
 - **NdisHashFunctionReserved3**
 
-## -returns
-
-This macro does not return a value.
-
 ## -remarks
 
 A NIC (or its miniport driver) uses the receive side scaling (RSS) hashing function to calculate an RSS hash value.

@@ -41,10 +41,7 @@ product:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 The **NET_EXTENSION** structure represents a packet extension for all packets in a packet queue.
 
@@ -62,7 +59,7 @@ A union that contains the **Enabled** and **Reserved1** members.
 
 A boolean value that indicates if this extension is currently enabled for the packets in this queue.
 
-### field DUMMYUNIONNAME.Reserved1
+### -field DUMMYUNIONNAME.Reserved1
 
 Reserved. Client drivers must not read or write to this value.
 

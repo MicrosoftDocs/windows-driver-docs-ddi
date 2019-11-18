@@ -60,8 +60,6 @@ Initializes a [**USBPM_CLIENT_CONFIG**](ns-usbpmapi-_usbpm_client_config.md) str
 ### -param ExtraInfo
 [In] A pointer to a [**USBPM_CLIENT_CONFIG_EXTRA_INFO**](ns-usbpmapi-_usbpm_client_config_extra_info.md) structure that contains optional information such as the WDM device object.
 
-## -returns
-
 ## -remarks
 
 ## -see-also

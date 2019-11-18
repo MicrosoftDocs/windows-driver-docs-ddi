@@ -60,15 +60,6 @@ The <b>AcquireLock</b> method prevents the framework from calling methods of int
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

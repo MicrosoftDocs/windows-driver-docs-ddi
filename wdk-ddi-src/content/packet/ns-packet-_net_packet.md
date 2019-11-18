@@ -41,10 +41,7 @@ product:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 Represents a single network packet.
 
@@ -53,10 +50,6 @@ Represents a single network packet.
 ### -field FragmentIndex
 
 The index in the fragment ring of the first [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) structure in this packet's payload.
-
-### -field Reserved0
-
-Reserved. Client drivers must not read or write this value.
 
 ### -field FragmentCount
 
@@ -89,7 +82,5 @@ Reserved. Client drivers must not read or write this value.
 Each **NET_PACKET** structure represents a single network frame and contains basic metadata applicable to all packets, such as the framing layout. A **NET_PACKET** contains at least one [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) that describes the location in system memory where the packet data resides.
 
 The **NET_PACKET** structure can be an element in a [**NET_RING**](../ring/ns-ring-_net_ring.md) structure.
-
-You can use [**NetPacketIteratorGetPacket**](../netringiterator/nf-netringiterator-netpacketiteratorgetpacket.md) to obtain a **NET_PACKET** from a net ring.
 
 ## -see-also

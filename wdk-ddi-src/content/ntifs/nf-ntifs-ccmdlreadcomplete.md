@@ -66,15 +66,6 @@ File object pointer that was passed to <a href="https://docs.microsoft.com/previ
 Address of the MDL chain returned by <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

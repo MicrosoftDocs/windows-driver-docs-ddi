@@ -58,15 +58,6 @@ The <b>CWiauDbgFn::~CWiauDbgFn</b> destructor is called when the function or met
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -see-also
 
 

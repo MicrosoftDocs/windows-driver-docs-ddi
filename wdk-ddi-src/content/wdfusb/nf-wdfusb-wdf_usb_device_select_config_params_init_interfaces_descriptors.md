@@ -78,11 +78,6 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/dr
 The number of elements that is in the <i>InterfaceDescriptors</i> array.
 
 
-## -returns
-
-
-
-Non
 
 
 

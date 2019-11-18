@@ -47,10 +47,7 @@ product:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 The **NetAdapterSetPermanentLinkLayerAddress** method sets the permanent link layer address for the network adapter.
 
@@ -61,9 +58,6 @@ The network adapter object that the client created in a prior call to [NetAdapte
 
 ### -param LinkLayerAddress
 A pointer to a driver-allocated allocated NET_ADAPTER_LINK_LAYER_ADDRESS object that the driver initialized in a prior call to [NET_ADAPTER_LINK_LAYER_ADDRESS_INIT](nf-netadapter-net_adapter_link_layer_address_init.md).
-
-## -returns
-This method does not return a value.
 
 ## -remarks
 

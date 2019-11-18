@@ -68,15 +68,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 A pointer to a GUID that identifies a WMI data provider's data block. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

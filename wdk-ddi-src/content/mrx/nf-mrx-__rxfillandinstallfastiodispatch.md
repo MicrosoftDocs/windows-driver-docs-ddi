@@ -71,15 +71,6 @@ A pointer to the fast I/O dispatch table to fill in and use.
 The size, in bytes, of the fast I/O dispatch table passed.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

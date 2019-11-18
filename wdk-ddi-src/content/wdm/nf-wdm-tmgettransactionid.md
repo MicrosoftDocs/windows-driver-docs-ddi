@@ -68,15 +68,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kern
 A pointer to a location that receives the transaction object's UOW identifier.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

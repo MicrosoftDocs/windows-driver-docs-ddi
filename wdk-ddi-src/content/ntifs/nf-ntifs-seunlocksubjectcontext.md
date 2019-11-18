@@ -61,15 +61,6 @@ The <b>SeUnlockSubjectContext</b> routine unlocks the tokens of a captured subje
 Pointer to a SECURITY_SUBJECT_CONTEXT structure whose tokens are to be unlocked.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

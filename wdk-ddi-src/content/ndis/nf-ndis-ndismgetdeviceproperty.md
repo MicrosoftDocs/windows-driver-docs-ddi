@@ -108,15 +108,6 @@ A pointer to a caller-allocated buffer that receives a pointer to a
      pointer is optional.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -47,10 +47,7 @@ product:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 Sets the link layer maximum transfer unit size of the adapter.
 
@@ -61,9 +58,6 @@ The network adapter object that the client created in a prior call to [**NetAdap
 
 ### -param MtuSize
 The new size of the adapter's MTU, in bytes.
-
-## -returns
-This method does not return a value.
 
 ## -remarks
 The client driver first sets MTU size by calling **NetAdapterSetLinkLayerMtuSize** when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).

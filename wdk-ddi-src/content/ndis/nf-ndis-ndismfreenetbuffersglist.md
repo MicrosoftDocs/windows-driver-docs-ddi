@@ -87,15 +87,6 @@ A pointer to the
      specified scatter/gather list buffer.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

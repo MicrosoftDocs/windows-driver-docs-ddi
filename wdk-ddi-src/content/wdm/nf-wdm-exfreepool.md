@@ -61,15 +61,6 @@ The <b>ExFreePool</b> routine deallocates a block of pool memory.
 Specifies the address of the block of pool memory being deallocated. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

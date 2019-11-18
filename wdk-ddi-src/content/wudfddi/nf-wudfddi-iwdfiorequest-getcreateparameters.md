@@ -83,15 +83,6 @@ A pointer to a variable that receives a bitmask of flags that specify the share 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

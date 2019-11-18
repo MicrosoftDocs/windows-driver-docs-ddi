@@ -71,15 +71,6 @@ Specifies the length (in bytes) of the data to be rendered.
 Specifies the position (in bytes) in the PCM buffer at which to begin rendering. Rendering continues from this position for the number of bytes specified in <i>dwLength</i>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

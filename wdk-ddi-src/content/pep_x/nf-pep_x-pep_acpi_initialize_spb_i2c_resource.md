@@ -114,15 +114,6 @@ The length of the buffer pointed to by the <i>VendorData</i> parameter.
 A pointer to the resource. The structure behind the pointer is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_acpi_spb_i2c_resource">PEP_ACPI_SPB_I2C_RESOURCE</a>.
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

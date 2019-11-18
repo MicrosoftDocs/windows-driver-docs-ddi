@@ -55,8 +55,6 @@ Restores the IRQL on the current processor to its original value. For informatio
 [in] Specifies the IRQL that was returned from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keraiseirql">KeRaiseIrql</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keraiseirqltodpclevel">KeRaiseIrqlToDpcLevel</a>.
 
 
-## -returns
-
 ## -remarks
 This function is same as the [**KeLowerIrql**](nf-wdm-kelowerirql~r1.md) function.
 

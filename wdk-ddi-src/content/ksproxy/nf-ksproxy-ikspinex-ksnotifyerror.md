@@ -66,15 +66,6 @@ Pointer to the <b>IMediaSample</b> interface for the associated media sample.
 Error value for notification. If ERROR_OPERATION_ABORTED (that is, the I/O was purposefully canceled), the filter graph is not notified. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -68,15 +68,6 @@ req.typenames:
 A handle to a framework queue object.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

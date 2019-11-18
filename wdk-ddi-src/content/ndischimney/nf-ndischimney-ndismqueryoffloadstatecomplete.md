@@ -79,15 +79,6 @@ A pointer to an
      MiniportQueryOffload</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

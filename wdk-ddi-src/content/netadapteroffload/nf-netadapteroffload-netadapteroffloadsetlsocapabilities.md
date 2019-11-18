@@ -45,10 +45,7 @@ ms.custom: 19H1
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 The **NetAdapterOffloadSetLsoCapabilities** method sets the hardware large send offload (LSO) offload capabilities of a network adapter.
 
@@ -61,10 +58,6 @@ A handle to a NETADAPTER object that the client driver obtained from a previous 
 ### -param HardwareCapabilities
 
 A pointer to a driver-allocated and initialized [**NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES**](../netadapteroffload/ns-netadapteroffload-_net_adapter_offload_lso_capabilities.md) structure that describes the hardware's LSO offload capabilities.
-
-## -returns
-
-This method does not return a value.
 
 ## -remarks
 

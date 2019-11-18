@@ -66,15 +66,6 @@ A pointer to the RX_CONTEXT structure of the operation being synchronized.
 A pointer to the blocking I/O queue. 
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

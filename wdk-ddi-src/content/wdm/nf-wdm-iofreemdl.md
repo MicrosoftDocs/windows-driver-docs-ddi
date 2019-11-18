@@ -61,15 +61,6 @@ The <b>IoFreeMdl</b> routine releases a caller-allocated memory descriptor list 
 Pointer to the MDL to be released. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

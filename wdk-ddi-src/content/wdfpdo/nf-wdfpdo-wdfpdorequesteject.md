@@ -64,18 +64,10 @@ The <b>WdfPdoRequestEject</b> method informs the framework that a specified devi
 A handle to a framework device object that represents the device's physical device object (PDO).
 
 
-## -returns
-
-
-
-None.
-
-A system bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
 ## -remarks
+
+A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 

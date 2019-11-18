@@ -86,15 +86,6 @@ Client applications specify this value in the <b>Offset</b> and <b>OffsetHigh</b
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

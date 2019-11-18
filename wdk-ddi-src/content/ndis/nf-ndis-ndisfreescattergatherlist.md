@@ -80,15 +80,6 @@ A BOOLEAN value that is set to <b>TRUE</b> if the scatter/gather list was used f
      Otherwise, it is <b>FALSE</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

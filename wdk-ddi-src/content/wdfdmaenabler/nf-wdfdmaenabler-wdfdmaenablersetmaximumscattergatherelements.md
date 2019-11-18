@@ -69,20 +69,9 @@ A handle to a DMA enabler object that the driver obtained from a previous call t
 The maximum number of scatter/gather elements that the driver and device can support.   
 
 
-## -returns
-
-
-
-None.
+## -remarks
 
 A bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
-
-
-## -remarks
 
 
 

@@ -66,15 +66,6 @@ req.typenames:
 A handle to a framework interrupt object.
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

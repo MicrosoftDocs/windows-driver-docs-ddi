@@ -68,15 +68,6 @@ A pointer to a driver-supplied buffer.
 The nonzero size, in bytes, of the buffer that <i>Buffer</i> points to. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

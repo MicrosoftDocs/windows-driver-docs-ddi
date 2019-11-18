@@ -74,15 +74,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/pc
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/punlock-routine">PUNLOCK_ROUTINE</a>-typed callback routine to be called when the byte range is unlocked. This parameter is optional and can be <b>NULL</b>. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -72,15 +72,6 @@ A pointer to a
      the packet data for which processing has been suspended pending completion of another operation.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

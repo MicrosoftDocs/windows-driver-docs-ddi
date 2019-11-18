@@ -47,10 +47,7 @@ ms.custom: RS5
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-> 
-> MBBCx is preview only in Windows 10, version 1903.
+
 
 Client drivers call the **MbbDeviceReceiveServiceSessionData** method to pass received device service session data up to an application through the MBBCx framework.
 
@@ -67,10 +64,6 @@ The ID of the device service session obtained from a previous call to [**MbbAdap
 ### -param Data
 
 A driver-allocated WDFMEMORY object containing the data to pass to the application.
-
-## -returns
-
-This method does not return a value.
 
 ## -remarks
 

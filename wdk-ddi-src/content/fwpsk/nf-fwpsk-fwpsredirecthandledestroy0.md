@@ -66,15 +66,6 @@ The redirect handle being destroyed.
 
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

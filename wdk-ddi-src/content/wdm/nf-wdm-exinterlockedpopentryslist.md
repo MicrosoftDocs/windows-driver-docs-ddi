@@ -77,13 +77,12 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ke
 
 A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
 
-## -returns
-**ExInterlockedPopEntrySList** returns a pointer to the first [**SLIST_ENTRY**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_slist_entry) structure on the list. If the list was empty, the routine returns NULL.
 
 
 
 ## -remarks
 
+**ExInterlockedPopEntrySList** returns a pointer to the first [**SLIST_ENTRY**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_slist_entry) structure on the list. If the list was empty, the routine returns NULL.
 
 
 For more information about using this routine to implement a sequenced singly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>. 

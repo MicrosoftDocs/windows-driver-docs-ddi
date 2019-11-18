@@ -108,15 +108,6 @@ Specifies that NDIS should check for loopback. By default, NDIS does not loop ba
        on other bindings.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -60,15 +60,6 @@ The <b>AcquireInterruptLock</b> method begins a code sequence that executes whil
 
 
 
-## -returns
-
-
-
-This method does not return a value.
-
-
-
-
 ## -remarks
 
 

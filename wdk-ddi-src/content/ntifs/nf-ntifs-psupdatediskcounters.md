@@ -86,15 +86,6 @@ The number of write operations to update in the Write Operation counter.
 The number of flush operations to update in the Flush Operation counter.
 
 
-## -returns
-
-
-
-This routine does not return a value.
-
-
-
-
 ## -remarks
 
 

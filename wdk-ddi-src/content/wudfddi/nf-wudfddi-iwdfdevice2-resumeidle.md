@@ -60,15 +60,6 @@ The <b>ResumeIdle</b> method informs the framework that the device is not in use
 
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

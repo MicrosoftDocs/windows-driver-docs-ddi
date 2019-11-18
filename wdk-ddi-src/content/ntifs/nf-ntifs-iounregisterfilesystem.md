@@ -61,15 +61,6 @@ The <b>IoUnregisterFileSystem</b> routine removes a file system's control device
 Pointer to the control device object for the file system.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

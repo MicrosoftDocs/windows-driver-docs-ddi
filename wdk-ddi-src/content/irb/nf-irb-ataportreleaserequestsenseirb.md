@@ -69,15 +69,6 @@ A pointer to the channel extension.
 A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a> that defines the request sense IRB.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

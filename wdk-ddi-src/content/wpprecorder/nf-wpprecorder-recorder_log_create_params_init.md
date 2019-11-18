@@ -64,15 +64,6 @@ A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 ### -param LogIdentifier [in, optional]
 
 
-## -returns
-
-
-
-This function does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -71,15 +71,6 @@ Specifies the size in bytes of the buffer to be freed. Must match the size reque
 Specifies the cache type of the buffer to be freed. Must match the cache type requested when the buffer was allocated by the <b>MmAllocateContiguousMemorySpecifyCache<i>Xxx</i></b> routine.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

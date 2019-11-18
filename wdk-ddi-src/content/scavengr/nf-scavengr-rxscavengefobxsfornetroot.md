@@ -73,15 +73,6 @@ A Boolean value that specifies if this routine should synchronize with the scave
 
 
 
-## -returns
-
-
-
-None 
-
-
-
-
 ## -remarks
 
 

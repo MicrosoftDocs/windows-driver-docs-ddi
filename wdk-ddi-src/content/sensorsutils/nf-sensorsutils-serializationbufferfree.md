@@ -56,10 +56,6 @@ Exported memory allocation function for freeing a serialization buffer.
 
 [in] The buffer to free.
 
-## -returns
-
-This function returns VOID.
-
 ## -remarks
 
 ## -see-also

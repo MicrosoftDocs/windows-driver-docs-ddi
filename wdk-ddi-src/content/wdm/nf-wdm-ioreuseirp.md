@@ -66,15 +66,6 @@ Pointer to the IRP to be reinitialized for reuse.
 Specifies the NTSTATUS value to be set in the IRP after it is reinitialized.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -61,15 +61,6 @@ The <code>MappingAvailable</code> method indicates that a new mapping is availab
 #### - None
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

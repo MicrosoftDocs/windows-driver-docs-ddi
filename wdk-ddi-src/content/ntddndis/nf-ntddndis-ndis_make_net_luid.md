@@ -61,10 +61,6 @@ The Internet Assigned Numbers Authority (IANA) interface type. **NDIS_MAKE_NET_L
 
 A NET_LUID index that the caller allocated with the [**NdisIfAllocateNetLuidIndex**](../ndis/nf-ndis-ndisifallocatenetluidindex.md) function. **NDIS_MAKE_NET_LUID** writes the value at *\_NetLuidIndex* to the **NetLuidIndex** member of the **NET_LUID** union that the caller provided at *\_pNetLuid* .
 
-## -returns
-
-This macro does not return a value.
-
 ## -remarks
 
 NDIS network interface providers should use the **NDIS_MAKE_NET_LUID** macro to build a [**NET_LUID**](https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh) value. The provider passes the resulting **NET_LUID** value to the [**NdisIfRegisterInterface**](../ndis/nf-ndis-ndisifregisterinterface.md) function to register the interface with NDIS.

@@ -71,18 +71,10 @@ A handle to a collection object.
 A handle to the framework object that will be removed from the collection.
 
 
-## -returns
-
-
-
-None.
-
-A system bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
 ## -remarks
+
+A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 

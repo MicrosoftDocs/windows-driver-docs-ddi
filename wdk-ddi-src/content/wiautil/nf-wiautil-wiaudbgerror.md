@@ -62,10 +62,6 @@ Pointer to a format string that specifies a variable argument list, which starts
 
 ####### - fmt, ...
 
-## -returns
-
-None
-
 ## -remarks
 
 The **wiauDbgError** typically is used to display an error message with no data, such as in the following example:

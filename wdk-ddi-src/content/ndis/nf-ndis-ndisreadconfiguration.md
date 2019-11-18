@@ -188,15 +188,6 @@ The type of the value entry that is specified as one of the
      This parameter is ignored in Windows NT and later versions.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

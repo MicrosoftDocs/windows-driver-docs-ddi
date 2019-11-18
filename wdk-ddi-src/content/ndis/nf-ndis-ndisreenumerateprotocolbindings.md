@@ -69,15 +69,6 @@ A handle representing the calling protocol driver. The driver obtained this hand
      NdisRegisterProtocolDriver</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

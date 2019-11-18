@@ -76,15 +76,6 @@ A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hard
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains driver-supplied object attributes for the driver's framework file objects. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -72,15 +72,6 @@ This parameter supplies the address of a <a href="https://docs.microsoft.com/win
 This parameter supplies the address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspinpower">AVStrMiniPinPower</a>  function that handles wake requests for the device. Optional.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

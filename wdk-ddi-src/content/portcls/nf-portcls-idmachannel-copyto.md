@@ -60,9 +60,6 @@ Pointer to the source buffer
 Specifies the number of bytes to be copied.
 
 
-## -returns
-This method returns void.
-
 ## -remarks
 
 The Source and Destination pointers are both kernel-mode virtual addresses. The IDmaChannel::SystemAddress call returns the virtual address of a DMA channel's common buffer.

@@ -66,15 +66,6 @@ A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ker
 The amount by which to decrement to the run-down instance count of the object. For more information, see Remarks.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

@@ -61,15 +61,6 @@ The <b>PcwCloseInstance</b> function closes the specified instance of the counte
 A pointer to the instance of the counter set to close. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

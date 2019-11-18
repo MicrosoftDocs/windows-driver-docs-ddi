@@ -78,15 +78,6 @@ Specifies the handle to the DLL instance.
 Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the message and any conversion specifiers. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 
