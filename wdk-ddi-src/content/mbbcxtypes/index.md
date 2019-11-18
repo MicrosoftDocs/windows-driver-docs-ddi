@@ -1,6 +1,6 @@
 ---
 UID: NA:mbbcxtypes
-title: Math3dhelper.h header
+title: Mbbcxtypes.h header
 ms.assetid: 05AA5A28-0140-4E61-8999-30134D153C5B
 ms.date: 06/26/2018
 ms.keywords: 

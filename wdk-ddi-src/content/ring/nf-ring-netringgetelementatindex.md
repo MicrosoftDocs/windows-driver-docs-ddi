@@ -1,10 +1,10 @@
 ---
 UID: NF:ring.NetRingGetElementAtIndex
 title: NetRingGetElementAtIndex function (ring.h)
-description: Returns the element at the specified index in the net ring.
+description: The NetRingGetElementAtIndex method retrieves an element from a net ring.
 tech.root: netvista
 ms.assetid: 5feeac1c-9c69-4179-8604-5aaaff7e60a0
-ms.date: 01/31/2019
+ms.date: 09/25/2019
 ms.topic: function
 f1_keywords:
  - "ring/RILWRITEPHONEBOOKENTRYPARAMS"
@@ -43,34 +43,32 @@ product:
 
 # NetRingGetElementAtIndex function
 
-
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
-
-Returns the element at the specified index in the net ring.
+The **NetRingGetElementAtIndex** method retrieves an element from a net ring.
 
 ## -parameters
 
-### -param RingBuffer
-A pointer to a [**NET_RING**](../ring/ns-netring-_net_ring.md).
+### -param Ring
+
+A pointer to a [**NET_RING**](../ring/ns-ring-_net_ring.md).
 
 ### -param Index
-The element index, within the range **[0, RingBuffer->NumberOfElements)**.
+
+The element index, within the range **[0, Ring->NumberOfElements)**.
 
 ## -returns
-Returns the location of the specified element.
+
+Returns the element at the specified location.
 
 ## -remarks
+
 **NetRingGetElementAtIndex** uses the **ElementStride** member of the net ring to index into the buffer and returns the location of the specified element.
 
-You'll need to cast the returned element to whatever data type your net ring elements use.
-
-**NetRingGetElementAtIndex** is meant for generic use of net rings. Instead, a NetAdapterCx client driver typically use net ring iterators to get a packet with the [**NetPacketIteratorGetPacket**](../netringiterator/nf-netringiterator-netpacketiteratorgetpacket.md).
-
-For more info, see [Net rings and net ring iterators](https://docs.microsoft.com/windows-hardware/drivers/netcx/net-rings-and-net-ring-iterators).
+**NetRingGetElementAtIndex** is meant for generic use of net rings. Instead, a NetAdapterCx client driver typically calls either [**NetRingGetPacketAtIndex**](../ring/nf-ring-netringgetpacketatindex.md) for a packet ring or [**NetRingGetFragmentAtIndex**](../ring/nf-ring-netringgetfragmentatindex.md) for a fragment ring.
 
 ## -see-also
+
+[**NetRingGetPacketAtIndex**](../ring/nf-ring-netringgetpacketatindex.md)
+
+[**NetRingGetFragmentAtIndex**](../ring/nf-ring-netringgetfragmentatindex.md)
