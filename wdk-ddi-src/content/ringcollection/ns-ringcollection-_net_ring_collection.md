@@ -41,10 +41,7 @@ product:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 The **NET_RING_COLLECTION** structure describes the collection of net rings that belong to a packet queue.
 
@@ -56,8 +53,8 @@ A pointer to an array of [**NET_RING**](../ring/ns-ring-_net_ring.md) structures
 
 ## -remarks
 
-Call [**NetRxQueueGetRingCollection**](../netrxqueue/nf-netrxqueue-netrxqueuegetringcollection.md) or [**NetTxQueueGetRingCollection**](../nettxqueue/nf-nettxqueue-nettxqueuegetringcollection.md) to get a packet queue's ring collection. You can then use this collection structure to retrieve iterators for processing the queue's packet ring and fragment ring. For more information about using net rings and net ring iterators, see [Net rings and net ring iterators](https://docs.microsoft.com/windows-hardware/drivers/netcx/net-rings-and-net-ring-iterators).
+Call [**NetRxQueueGetRingCollection**](../netrxqueue/nf-netrxqueue-netrxqueuegetringcollection.md) or [**NetTxQueueGetRingCollection**](../nettxqueue/nf-nettxqueue-nettxqueuegetringcollection.md) to get a packet queue's ring collection. You can then use this collection structure to retrieve the queue's packet ring and fragment ring. For more information about using net rings, see [Introduction to net rings](https://docs.microsoft.com/windows-hardware/drivers/netcx/introduction-to-net-rings).
 
 ## -see-also
 
-[Net rings and net ring iterators](https://docs.microsoft.com/windows-hardware/drivers/netcx/net-rings-and-net-ring-iterators)
+[Introduction to net rings](https://docs.microsoft.com/windows-hardware/drivers/netcx/introduction-to-net-rings)
