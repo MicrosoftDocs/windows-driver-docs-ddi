@@ -1,7 +1,7 @@
 ---
 UID: NF:winspool.FreePrintNamedPropertyArray
 title: FreePrintNamedPropertyArray function (winspool.h)
-description: 
+description: Describes the FreePrintNamedPropertyArray function.
 old-location: print\freeprintnamedpropertyarray.htm
 tech.root: print
 ms.assetid: 18E24562-F57A-492F-9254-722ABA0B2BC4
@@ -44,21 +44,10 @@ req.typenames:
 
 # FreePrintNamedPropertyArray function
 
-
 ## -description
-
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param cProperties [in]
 
-
 ### -param ppProperties [in, out, optional]
-
-
