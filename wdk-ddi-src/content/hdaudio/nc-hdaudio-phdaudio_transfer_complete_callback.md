@@ -78,15 +78,6 @@ HDAudio codec transfer complete callback function. <b>PHDAUDIO_TRANSFER_COMPLETE
 A pointer to the codecTransfer array element that contains the codec command and the response that triggered the callback. 
 
 
-## -returns
-
-
-
-Void
-
-
-
-
 ## -remarks
 
 

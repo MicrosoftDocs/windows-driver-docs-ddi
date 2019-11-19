@@ -81,15 +81,6 @@ Specifies the Microsoft Windows build type. A value of 0xC indicates the checked
 Specifies the Windows build number (for example 2600) of the target system. Save this value in a global variable in your DLL. For example, you could create a global variable named SavedMinorVersion.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

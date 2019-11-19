@@ -68,15 +68,6 @@ A handle to an I/O queue object.
 A handle to a request object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

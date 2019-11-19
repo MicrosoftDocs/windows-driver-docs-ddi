@@ -61,15 +61,6 @@ The <b>HwStorCleanupTracing</b> callback routine allows the Storport virtual min
 A pointer to the driver object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

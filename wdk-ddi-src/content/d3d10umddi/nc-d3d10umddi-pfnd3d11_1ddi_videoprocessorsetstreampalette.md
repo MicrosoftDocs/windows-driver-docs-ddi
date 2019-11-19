@@ -80,10 +80,6 @@ The number of elements in the array that is referenced by the <i>pEntries</i> pa
 
 A pointer to an array of palette entries. For RGB streams, the palette entries are specified in the <b>DXGI_FORMAT_B8G8R8A8</b> format. For YCbCr streams, the palette entries are specified in the <b>DXGI_FORMAT_AYUV</b> format.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 The <b>VideoProcessorSetStreamPalette</b> function is called only for input streams that have a palettized color format. Palettized formats with 4 bits per pixel (bpp) use the first 16 entries in the list. Formats with 8 bpp use the first 256 entries.

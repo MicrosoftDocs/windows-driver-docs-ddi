@@ -64,10 +64,6 @@ The <i>latency tolerance</i>—the maximum  time, in units of 100 nanoseconds, t
 
 For more information, see Remarks.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 <div class="alert"><b>Note</b>  The display miniport driver should call this function only if the component type is <b>DXGK_POWER_COMPONENT_OTHER</b>. The Microsoft DirectX graphics kernel subsystem sets the latency tolerance value for other component types.</div>

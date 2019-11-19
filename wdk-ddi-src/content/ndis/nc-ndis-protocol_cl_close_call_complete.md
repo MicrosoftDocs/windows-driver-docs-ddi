@@ -102,15 +102,6 @@ Specifies the handle to the client's per-party context area for the last remaini
      client-created VC representing a multipoint connection. Otherwise, this parameter is <b>NULL</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

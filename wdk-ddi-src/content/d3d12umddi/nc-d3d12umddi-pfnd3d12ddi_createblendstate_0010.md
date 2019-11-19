@@ -61,10 +61,6 @@ Pointer to a D3D12DDI_BLEND_DESC_0010 structure.
 
 A blend state handle.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

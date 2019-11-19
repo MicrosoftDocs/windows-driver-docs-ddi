@@ -65,15 +65,6 @@ NDIS calls a protocol driver's
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

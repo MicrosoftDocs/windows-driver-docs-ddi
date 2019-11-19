@@ -76,10 +76,6 @@ Specifies a bitwise OR of zero or more flags from the <a href="https://docs.micr
 
 For more information, see the Remarks section.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 If the driver can support the format as an input format for the video processor, the driver sets the <b>D3D11_1DDI_VIDEO_FORMAT_SUPPORT_VIDEO_PROCESSOR_INPUT</b> flag in the <i>pSupported</i> parameter.

@@ -85,15 +85,6 @@ A value that indicates the IRQL at which the
      <i>completionFn</i> callout function is being called at an IRQL < DISPATCH_LEVEL.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

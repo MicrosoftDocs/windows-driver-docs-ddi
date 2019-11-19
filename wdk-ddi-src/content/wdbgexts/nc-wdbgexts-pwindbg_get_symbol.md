@@ -71,11 +71,3 @@ Receives the name of the symbol found.
 Specifies the displacement from the beginning of the symbol.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

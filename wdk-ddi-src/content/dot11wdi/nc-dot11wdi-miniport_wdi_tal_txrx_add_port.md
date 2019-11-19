@@ -77,15 +77,6 @@ Port ID designated by the target for the port.
 Default operation mode for the port.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

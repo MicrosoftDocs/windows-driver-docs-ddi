@@ -61,10 +61,6 @@ Pointer to a D3D12DDIARG_CREATE_SAMPLER structure.
 
 A CPU descriptor handle.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

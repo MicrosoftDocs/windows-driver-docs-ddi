@@ -82,6 +82,3 @@ The number of bytes written to the sensor object's history.
 
 The current status of the sensor object.
 
-## -returns
-
-Returns VOID.

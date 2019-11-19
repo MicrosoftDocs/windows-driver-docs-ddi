@@ -75,10 +75,6 @@ A handle to a framework device object the client driver obtained from a previous
 
 A handle to the framework object that represents the request to send a fragemented MBIM message to the device.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 An MBBCx client driver must register an *EvtMbbDeviceSendMbimFragment* callback function by calling [**MbbDeviceInitialize**](nf-mbbcx-mbbdeviceinitialize.md).

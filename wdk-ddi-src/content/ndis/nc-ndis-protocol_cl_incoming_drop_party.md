@@ -97,15 +97,6 @@ Specifies the length, in bytes, of the buffer at
      <i>CloseData</i> is <b>NULL</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

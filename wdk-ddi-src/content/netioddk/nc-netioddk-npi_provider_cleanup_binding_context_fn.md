@@ -67,15 +67,6 @@ A pointer to the provider module's context for the binding between the provider 
      function returns this pointer to the NMR when it attaches to the client module.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

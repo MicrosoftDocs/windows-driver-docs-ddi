@@ -98,15 +98,6 @@ Specifies the handle to the client's per-party context area, which the client or
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

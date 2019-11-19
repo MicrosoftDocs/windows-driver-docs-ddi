@@ -66,10 +66,6 @@ The input arguments for the video process.
 
 The number of input streams.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -prototype
 
 ```cpp

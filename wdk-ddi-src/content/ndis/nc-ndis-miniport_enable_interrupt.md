@@ -67,15 +67,6 @@ A handle to a block of context information. The miniport driver supplied this ha
      NdisMRegisterInterruptEx</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

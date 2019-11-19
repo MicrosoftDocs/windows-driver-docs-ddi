@@ -113,15 +113,6 @@ A pointer to an
      <i>classifyFn2</i> callout function returns to the caller.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -85,15 +85,6 @@ The sampling size.
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

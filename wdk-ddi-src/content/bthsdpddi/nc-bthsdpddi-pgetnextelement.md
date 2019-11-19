@@ -75,10 +75,6 @@ A pointer to an unsigned character variable that receives the address of the nex
 A pointer to an unsigned long integer variable that receives the size of the next entry in the SDP
      container stream.
 
-## -returns
-
-None
-
 ## -remarks
 
 The 

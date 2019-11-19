@@ -77,6 +77,3 @@ A reference to a sensor object.
 
 The state of the sensor.
 
-## -returns
-
-Returns VOID.

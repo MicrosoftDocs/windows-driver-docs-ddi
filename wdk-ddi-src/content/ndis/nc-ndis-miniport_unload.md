@@ -66,15 +66,6 @@ A pointer to a
      driver object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

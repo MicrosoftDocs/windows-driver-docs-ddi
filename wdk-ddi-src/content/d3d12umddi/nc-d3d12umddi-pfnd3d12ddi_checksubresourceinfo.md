@@ -65,10 +65,6 @@ The subresource index.
 
 Pointer to a D3D12DDI_SUBRESOURCE_INFO.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

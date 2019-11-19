@@ -143,15 +143,6 @@ Specifies the optimum number of send data bytes that the host stack should have 
        the offload target in order to achieve the best data throughput.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

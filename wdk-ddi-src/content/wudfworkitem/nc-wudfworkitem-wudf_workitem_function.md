@@ -63,15 +63,6 @@ A driver's <i>OnWorkItem</i> event callback function performs the work that is a
 A pointer to an  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfworkitem">IWDFWorkItem</a> interface.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

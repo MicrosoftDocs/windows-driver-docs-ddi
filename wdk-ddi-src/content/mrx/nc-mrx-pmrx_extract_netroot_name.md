@@ -85,15 +85,6 @@ On input, a pointer for storing a Unicode string. On success, this parameter wil
 A pointer to a Unicode string that contains the rest of the name on success. This parameter is optional and can be a <b>NULL</b> pointer on input.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

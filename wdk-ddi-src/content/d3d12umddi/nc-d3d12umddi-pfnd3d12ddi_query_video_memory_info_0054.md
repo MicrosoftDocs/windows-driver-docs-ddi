@@ -69,10 +69,6 @@ Queries for video memory info.
 
 [out] Pointer to a D3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054 structure that contains the video memory info.
 
-## -returns
-
-Returns void.
-
 ## -prototype
 
 ```

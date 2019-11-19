@@ -68,15 +68,6 @@ A handle to a framework child-list object.
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that identifies an identification description.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

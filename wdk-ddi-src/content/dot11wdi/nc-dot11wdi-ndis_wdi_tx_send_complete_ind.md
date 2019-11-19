@@ -85,15 +85,6 @@ An array of frame IDs. The size of the array is the value of <i>NumCompletedSend
 An array of TX completion data. The size of the array is the value of <i>NumCompletedSends</i>.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

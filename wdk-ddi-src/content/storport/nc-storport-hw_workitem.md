@@ -71,15 +71,6 @@ Optional context provided by the miniport in the <i>Callback</i> parameter of <a
 A pointer to an opaque buffer that holds context information for the work item returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

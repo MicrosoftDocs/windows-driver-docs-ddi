@@ -81,15 +81,6 @@ Pointer to the corresponding virtual address of the allocated memory range.
 Indicates whether the allocated memory is cached.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

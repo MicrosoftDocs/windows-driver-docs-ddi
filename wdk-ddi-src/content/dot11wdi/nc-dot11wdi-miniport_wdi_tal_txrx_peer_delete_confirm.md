@@ -75,15 +75,6 @@ Port ID associated with the peer.
 Peer ID for the peer.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

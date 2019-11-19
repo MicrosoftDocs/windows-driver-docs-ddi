@@ -58,10 +58,6 @@ A handle to the command recorder.
 
 A handle to the command pool.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -prototype
 
 ```cpp

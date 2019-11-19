@@ -79,10 +79,6 @@ A  pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/n
 </div>
 <div> </div>
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 The target rectangle is the area within the destination surface where the output will be drawn. The target rectangle is given in pixel coordinates, relative to the destination surface.

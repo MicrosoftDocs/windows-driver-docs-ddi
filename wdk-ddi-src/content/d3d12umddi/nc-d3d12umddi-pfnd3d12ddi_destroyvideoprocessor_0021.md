@@ -66,11 +66,3 @@ The handle of a device driver.
 The handle of a video processor.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

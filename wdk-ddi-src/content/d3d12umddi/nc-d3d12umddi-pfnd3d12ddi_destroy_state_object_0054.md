@@ -75,10 +75,6 @@ A handle to the device.
 
 A handle to the state object to destroy.
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 

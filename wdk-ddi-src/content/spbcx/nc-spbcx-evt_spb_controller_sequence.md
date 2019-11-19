@@ -76,15 +76,6 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-objec
 The number of individual transfers in this I/O transfer sequence. Each individual transfer is a simple read or write operation.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

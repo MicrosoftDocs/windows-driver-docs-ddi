@@ -81,10 +81,6 @@ Pointer to the descriptor range sizes in the destination.
 
 The descriptor heap type.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

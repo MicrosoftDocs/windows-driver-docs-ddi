@@ -80,10 +80,6 @@ A handle to the pass that was created by the app.
 
 A flag to indicate what the driver should do when an app starts a pass.
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 This callback is used as part of a test to see if drivers can find perf wins from being told when apps are repeating "passes" of consistent workloads. The app instructs the driver to observe how some passes run and gives the driver a chance to make optimizations for future runs of the same pass. The contents of a "pass" can be anything - it is up to the app to be relatively consistent in the overall performance characteristics of a pass.

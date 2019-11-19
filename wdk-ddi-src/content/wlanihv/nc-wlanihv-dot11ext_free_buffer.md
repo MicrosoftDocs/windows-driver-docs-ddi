@@ -76,15 +76,6 @@ A pointer to the buffer to be freed. If the value of
      <b>Dot11ExtFreeBuffer</b> function returns immediately.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

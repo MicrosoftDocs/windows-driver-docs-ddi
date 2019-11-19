@@ -78,15 +78,6 @@ This is the callbackContext value that was passed previously to <a href="https:/
 This is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_codec_response">HDAUDIO_CODEC_RESPONSE</a> that specifies the codec's response to the command. This structure is passed by value.  
 
 
-## -returns
-
-
-
-Void
-
-
-
-
 ## -remarks
 
 

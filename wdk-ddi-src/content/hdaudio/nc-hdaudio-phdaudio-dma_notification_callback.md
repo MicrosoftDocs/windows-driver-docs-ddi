@@ -81,11 +81,6 @@ Driver-specific context value used when registering the callback routine.
 The QPC time when the IOC ISR handled the DMA interrupt. 
 
 
-## -returns
-
-Returns VOID.
-
-
 ## -remarks
 
 

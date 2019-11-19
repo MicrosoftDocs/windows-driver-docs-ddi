@@ -66,15 +66,6 @@ Pointer to the miniport driver's device extension.
 Is the context handle that identifies the reserved virtual address range to be released. This context was obtained from <b>AgpReleaseVirtual</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

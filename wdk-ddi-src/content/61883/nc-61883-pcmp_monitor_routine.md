@@ -61,15 +61,6 @@ This routine is called for plug monitoring.
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_cmp_monitor_info">CMP_MONITOR_INFO</a> structure containing the contents of the plug that was modified. 
 
 
-## -returns
-
-
-
-This callback does not return a value.
-
-
-
-
 ## -see-also
 
 

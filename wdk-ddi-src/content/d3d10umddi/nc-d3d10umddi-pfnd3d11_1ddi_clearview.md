@@ -80,10 +80,6 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-wi
 
 The number of rectangles in the array that the  <i>pRect</i> parameter specifies.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 <i>ClearView</i> works only on render-target views (RTVs), unordered-access views (UAVs), or any video view of a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/details-of-the-extended-format">Texture2D</a> surface. Empty rectangles in the <i>pRect</i> array are a no-op. A rectangle is empty if the top value equals the bottom value or the left value equals the right value.

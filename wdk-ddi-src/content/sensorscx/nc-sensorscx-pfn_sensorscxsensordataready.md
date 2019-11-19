@@ -77,6 +77,3 @@ A reference to a sensor object.
 
 Pointer to a list of sensor properties.
 
-## -returns
-
-Returns VOID.

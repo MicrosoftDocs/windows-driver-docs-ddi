@@ -54,10 +54,6 @@ A handle to the display device (graphics context).
 
 A handle to the command recorder.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -prototype
 
 ```cpp

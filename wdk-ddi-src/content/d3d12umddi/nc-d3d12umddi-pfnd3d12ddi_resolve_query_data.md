@@ -94,15 +94,6 @@ The handle of a destination buffer.
 The destination offset.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

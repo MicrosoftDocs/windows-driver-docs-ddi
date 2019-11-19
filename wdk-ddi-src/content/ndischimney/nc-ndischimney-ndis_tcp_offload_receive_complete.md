@@ -79,15 +79,6 @@ A pointer to a
      MiniportTcpOffloadReceive</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

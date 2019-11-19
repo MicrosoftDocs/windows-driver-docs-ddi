@@ -75,15 +75,6 @@ The total number of resource views. The number can be -1, which specifies that t
 The beginning resource view for which the runtime should refresh state. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

@@ -107,15 +107,6 @@ Specifies the client-supplied handle to its per-SAP context area, originally pas
      release its context area or prepare this context area for reuse.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

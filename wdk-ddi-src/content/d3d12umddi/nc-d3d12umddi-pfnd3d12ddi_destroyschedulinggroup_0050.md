@@ -75,10 +75,6 @@ A handle to the display device (graphics context).
 
 A D3D12DDI_HSCHEDULINGGROUP_0050 user mode driver handle type that represents a hardware scheduling group.
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 

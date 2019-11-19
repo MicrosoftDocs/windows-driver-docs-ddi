@@ -69,10 +69,6 @@ Multi-sample quality level flags.
 
 The number of quality levels.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

@@ -98,11 +98,3 @@ A pointer to the subresource layout.
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

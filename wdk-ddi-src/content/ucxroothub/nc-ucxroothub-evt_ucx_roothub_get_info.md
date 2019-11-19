@@ -66,15 +66,6 @@ A handle to a UCX object that represents the root hub.
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_info">ROOTHUB_INFO</a>.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

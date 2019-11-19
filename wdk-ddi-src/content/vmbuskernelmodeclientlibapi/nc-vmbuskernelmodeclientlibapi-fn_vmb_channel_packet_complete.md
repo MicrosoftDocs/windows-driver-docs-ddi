@@ -83,10 +83,6 @@ A buffer of completion data to be sent back to the originating endpoint.  Althou
 
 The size, in bytes, of the completion buffer.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 This function is called when the client driver is finished

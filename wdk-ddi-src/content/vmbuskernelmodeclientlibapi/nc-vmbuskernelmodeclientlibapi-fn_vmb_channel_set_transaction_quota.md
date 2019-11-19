@@ -75,10 +75,6 @@ A handle for a channel.
 
  The maximum outstanding packet quota. This value must be greater than 0.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 The incoming packet quota can be set to be lower than the current

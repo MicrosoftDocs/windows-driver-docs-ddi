@@ -66,15 +66,6 @@ A handle to a framework device object.
 A handle to a framework request object.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

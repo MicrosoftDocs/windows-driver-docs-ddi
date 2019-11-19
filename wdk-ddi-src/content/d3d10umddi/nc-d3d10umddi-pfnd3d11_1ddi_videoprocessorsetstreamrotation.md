@@ -91,15 +91,6 @@ If <b>TRUE</b>, rotation is enabled on the input stream. Otherwise, rotation is 
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

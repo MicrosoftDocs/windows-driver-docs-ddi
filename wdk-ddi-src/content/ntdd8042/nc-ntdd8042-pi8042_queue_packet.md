@@ -61,15 +61,6 @@ The PI8042_QUEUE_PACKET-typed callback routine queues an input data packet for p
 Pointer to the function device object that represents a keyboard or mouse device.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

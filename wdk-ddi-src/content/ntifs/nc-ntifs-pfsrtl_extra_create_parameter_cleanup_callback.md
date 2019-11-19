@@ -66,15 +66,6 @@ An ECP context pointer that was returned by the routine that allocated the ECP c
 A pointer to a GUID that was passed to the routine that allocated the ECP context structure, that indicates the extra create parameter type.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-guids-in-drivers">Using GUIDs in Drivers</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

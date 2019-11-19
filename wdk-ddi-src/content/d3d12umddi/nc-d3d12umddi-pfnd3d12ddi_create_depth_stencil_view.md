@@ -61,10 +61,6 @@ A pointer to a [D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW](ns-d3d12umddi-d3d12ddiarg
 
 A pointer to [D3D12DDI_CPU_DESCRIPTOR_HANDLE](ns-d3d12umddi-d3d12ddi_cpu_descriptor_handle.md) structure that describes the depth buffer bindings.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

@@ -68,8 +68,6 @@ VOID PstreamReceivePacket
 ### -param Completed: 
 
 
-## -returns
-
 ## -remarks
 
 ## -see-also

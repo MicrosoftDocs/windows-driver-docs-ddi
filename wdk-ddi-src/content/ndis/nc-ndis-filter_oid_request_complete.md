@@ -83,15 +83,6 @@ The final status of the request set by an underlying driver or by NDIS. This par
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfoidrequest">NdisFOidRequest</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -75,15 +75,6 @@ The final status of the open operation for the underlying miniport driver. This 
      determines.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

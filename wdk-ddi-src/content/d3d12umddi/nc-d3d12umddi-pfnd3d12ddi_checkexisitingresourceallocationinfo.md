@@ -65,10 +65,6 @@ Pointer to a D3D12DDI_RESOURCE_ALLOCATION_INFO.
 
 Pointer to an array of handles.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

@@ -73,15 +73,6 @@ A pointer to a
      describes a device Plug and Play event.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

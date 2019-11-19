@@ -75,10 +75,6 @@ A handle to the state object.
 
 Stack size in bytes to use during pipeline execution for each shader thread (of which there can be many thousands in flight on the GPU).
 
-## -returns
-
-Returns void.
-
 ## -remarks
 
 SetPipelineStackSize and [GetPipelineStackSize](nc-d3d12umddi-pfnd3d12ddi_get_pipeline_stack_size_0054.md) or any use of ray tracing pipeline state objects, such as [DispatchRays](nc-d3d12umddi-pfnd3d12ddi_dispatch_rays_0054.md) are not re-entrant. This means that if calling any of these functions from separate threads, the app must synchronize on its own. Any given DispatchRays call or GetPipelineStackSize call uses or returns the most recent stack size setting.

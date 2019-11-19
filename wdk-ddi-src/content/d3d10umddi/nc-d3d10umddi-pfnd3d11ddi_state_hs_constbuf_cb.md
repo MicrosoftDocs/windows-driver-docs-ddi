@@ -77,15 +77,6 @@ The total number of constant buffers. The number can be -1, which specifies that
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

@@ -78,15 +78,6 @@ If <b>TRUE</b>, stereo output is enabled. Otherwise, the video processor produce
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

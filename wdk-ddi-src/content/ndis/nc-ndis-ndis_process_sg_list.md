@@ -84,15 +84,6 @@ A pointer to a block of driver-allocated context information that contains infor
      NDIS_SCATTER_GATHER_LIST_PARAMETERS</a> structure.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

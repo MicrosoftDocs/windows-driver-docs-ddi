@@ -68,12 +68,6 @@ A pointer to a driver-supplied buffer to hold the returned IO_STATUS_BLOCK struc
 
 
 
-## -returns
-
-This callback function does not return a value.
-
-
-
 ## -remarks
 
 This function can be called simultaneously from multiple execution threads.

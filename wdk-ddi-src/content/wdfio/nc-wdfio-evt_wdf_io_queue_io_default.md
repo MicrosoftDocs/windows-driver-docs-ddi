@@ -68,15 +68,6 @@ A handle to the framework queue object that is associated with the I/O request.
 A handle to a framework request object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

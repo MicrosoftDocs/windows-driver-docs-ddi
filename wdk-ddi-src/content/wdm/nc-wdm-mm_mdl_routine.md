@@ -68,15 +68,6 @@ A pointer to a buffer that contains the system virtual address of the
         mapping.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

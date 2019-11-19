@@ -81,15 +81,6 @@ The starting offset for the data transfer. This parameter is a byte offset from 
 The size, in bytes, of the data transfer. If the MDL specifies a total of N bytes of buffer space, possible values of <i>Length</i> are in the range 1 to N–<i>Offset</i>.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

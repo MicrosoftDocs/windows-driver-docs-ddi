@@ -81,15 +81,6 @@ A pointer to the context that was passed to <b>PoRequestPowerIrp</b>.
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure for the completed IRP.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

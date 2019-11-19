@@ -63,10 +63,6 @@ A pointer to a meta-command.
 
 ### -param Arg4
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

@@ -66,15 +66,6 @@ Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kern
 Specifies an IRQL. This is the value stored by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock">CsqAcquireLock</a> when the lock was acquired. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

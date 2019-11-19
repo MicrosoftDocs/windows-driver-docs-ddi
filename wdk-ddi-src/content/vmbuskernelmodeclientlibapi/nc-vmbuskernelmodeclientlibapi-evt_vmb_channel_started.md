@@ -64,15 +64,6 @@ fully configured but before any packets have been delivered.  This occurs when t
 The channel which is started.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

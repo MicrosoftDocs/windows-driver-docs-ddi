@@ -61,10 +61,6 @@ A pointer to a [D3D12DDI_DEPTH_STENCIL_DESC_0025](ns-d3d12umddi-d3d12ddi_depth_s
 
 A handle to the driver's private data for the depth stencil state. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's [CalcPrivateDepthStencilStateSize](nc-d3d12umddi-pfnd3d12ddi_calcprivatedepthstencilstatesize_0025.md) function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its depth stencil state object.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

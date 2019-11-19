@@ -73,10 +73,6 @@ The network adapter object that the client created in a prior call to [**NetAdap
 
 A pointer to a driver-allocated context space structure.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 Register your implementation of this callback function by setting the appropriate member of [**NET_ADAPTER_RX_CAPABILITIES**](ns-netadapter-_net_adapter_rx_capabilities.md) structure and then calling [**NetAdapterSetDatapathCapabilities**](nf-netadapter-netadaptersetdatapathcapabilities.md). Client drivers typically call **NetAdapterSetDatapathCapabilities** when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).

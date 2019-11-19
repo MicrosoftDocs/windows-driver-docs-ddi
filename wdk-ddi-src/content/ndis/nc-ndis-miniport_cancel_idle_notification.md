@@ -64,15 +64,6 @@ NDIS calls the <i>MiniportCancelIdleNotification</i> handler function to notify 
 A handle to a context area that the miniport driver allocated in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function. The miniport driver uses this context area to maintain state information for a network adapter.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -86,15 +86,6 @@ The length, in bytes, of the input buffer, if an input buffer is supplied with t
 The I/O control code (IOCTL) for the request. This value is an IOCTL that the SPB framework extension (SpbCx) does not recognize.  For more information, see Remarks.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

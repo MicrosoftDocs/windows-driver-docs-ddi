@@ -71,15 +71,6 @@ Caller-supplied pointer to context information, specified in a previous call to 
 Caller-supplied value representing the number of times the <i>Reinitialize</i> routine has been called, including the current call.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

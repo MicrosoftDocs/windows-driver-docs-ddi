@@ -63,15 +63,6 @@ A driver's <i>EvtDeviceSurpriseRemoval</i> event callback function performs any 
 A handle to a framework device object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

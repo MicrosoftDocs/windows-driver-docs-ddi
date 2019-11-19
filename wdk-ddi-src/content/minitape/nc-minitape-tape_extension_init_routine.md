@@ -71,15 +71,6 @@ Pointer to the SCSI inquiry data for the tape device.
 Pointer to a buffer that contains low-level information for the tape device. The format of this page is defined by the QIC 157 standard and is subject to change. This is <b>NULL</b> if the device does not support a mode capabilities page. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

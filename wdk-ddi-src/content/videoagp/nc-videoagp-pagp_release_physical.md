@@ -66,15 +66,6 @@ Pointer to the miniport driver's device extension.
 Is the context handle that identifies the reserved physical address range to be released. This context was obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

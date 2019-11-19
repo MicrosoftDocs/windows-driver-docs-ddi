@@ -80,15 +80,6 @@ A message-signaled interrupt.
      <b>NdisMRegisterInterruptEx</b> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -65,10 +65,6 @@ Pointer to the number of packed MIPs.
 
 Pointer to the number of tiles for packed MIPs.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

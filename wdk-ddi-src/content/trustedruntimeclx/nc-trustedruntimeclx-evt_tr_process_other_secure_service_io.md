@@ -71,10 +71,6 @@ VOID EvtTrProcessOtherSecureServiceIo
 
 
 
-## -returns
-
-
-
 ## -remarks
 
 

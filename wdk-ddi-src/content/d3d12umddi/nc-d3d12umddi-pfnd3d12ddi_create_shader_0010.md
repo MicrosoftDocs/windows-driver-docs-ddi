@@ -61,10 +61,6 @@ Pointer to a D3D12DDIARG_CREATE_SHADER_0010 structure.
 
 Shader handle.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

@@ -63,15 +63,6 @@ This is a control path callback inside <a href="https://docs.microsoft.com/windo
 The miniport handle.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

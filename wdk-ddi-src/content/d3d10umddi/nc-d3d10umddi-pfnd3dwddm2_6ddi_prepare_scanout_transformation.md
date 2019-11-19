@@ -75,10 +75,6 @@ The index of the plane.
 
 Pointer to a D3D10_DDI_RECT.
 
-## -returns
-
-Returns void.
-
 ## -prototype
 
 ```

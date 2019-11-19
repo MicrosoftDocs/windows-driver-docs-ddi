@@ -130,15 +130,6 @@ The call manager that registered the specified AF is closing its binding to the 
 </li>
 </ul>
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

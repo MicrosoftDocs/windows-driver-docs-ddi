@@ -76,15 +76,6 @@ A pointer to caller-supplied information.
 A pointer to caller-supplied information.
 
 
-## -returns
-
-
-
-None. 
-
-
-
-
 ## -remarks
 
 

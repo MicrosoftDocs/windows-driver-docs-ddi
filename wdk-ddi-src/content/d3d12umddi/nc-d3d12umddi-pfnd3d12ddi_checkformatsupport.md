@@ -61,10 +61,6 @@ A DXGI_FORMAT.
 
 Pointer to a UINT.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

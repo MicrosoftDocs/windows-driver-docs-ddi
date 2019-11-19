@@ -66,15 +66,6 @@ Pointer to the context information that the bus driver passes to the callback ro
 Must be set to SDBUS_INTTYPE_DEVICE.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

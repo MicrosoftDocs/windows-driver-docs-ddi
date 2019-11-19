@@ -70,15 +70,6 @@ req.typenames:
 Pointer to the stream request block.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

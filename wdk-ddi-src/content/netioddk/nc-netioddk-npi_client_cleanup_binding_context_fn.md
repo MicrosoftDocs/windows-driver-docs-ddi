@@ -68,15 +68,6 @@ A pointer to the client module's context for the binding between the client modu
      to attach to the provider module.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

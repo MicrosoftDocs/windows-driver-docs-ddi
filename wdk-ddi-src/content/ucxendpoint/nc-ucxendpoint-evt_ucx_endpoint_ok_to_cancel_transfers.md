@@ -71,15 +71,6 @@ The client driver's implementation that UCX calls to notify the controller drive
 A handle to a UCXENDPOINT object that represents the endpoint.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -66,15 +66,6 @@ A handle to a context block that is associated with a display adapter. The displ
 The Miracast device context, supplied by the operating system. This context was previously provided by the driver in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_miracast_create_context">DxgkDdiMiracastCreateContext</a> function.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -82,15 +82,6 @@ Pointer to the call parameters as specified by the call manager in the call to
      The signaling protocol determines which call parameters, if any, the call manager can change.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

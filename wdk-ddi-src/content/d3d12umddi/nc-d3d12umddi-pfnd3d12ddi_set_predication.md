@@ -79,15 +79,6 @@ A predication operation. For more information, see the <a href="https://docs.mic
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

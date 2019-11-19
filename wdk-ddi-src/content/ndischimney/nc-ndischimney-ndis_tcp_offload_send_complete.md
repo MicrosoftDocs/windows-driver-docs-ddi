@@ -78,15 +78,6 @@ A pointer to a
      MiniportTcpOffloadSend</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

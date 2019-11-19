@@ -67,15 +67,6 @@ Pointer to the source address for the unaligned 64-bit integer.
 Pointer to the address of an aligned variable to receive the 64-bit integer.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

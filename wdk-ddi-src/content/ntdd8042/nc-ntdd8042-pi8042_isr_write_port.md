@@ -66,15 +66,6 @@ Pointer to the function device object that represents a keyboard or mouse device
 Specifies the data to write to an i8042 port.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -142,15 +142,6 @@ Depending on the hardware implementation, a DMA engine's FIFO size can either be
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

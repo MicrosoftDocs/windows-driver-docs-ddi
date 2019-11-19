@@ -103,15 +103,6 @@ The filter level. The meaning of this value is defined by the independent hardwa
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

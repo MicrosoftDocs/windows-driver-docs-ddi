@@ -114,15 +114,6 @@ NDIS reclaims ownership of the <a href="https://docs.microsoft.com/windows-hardw
        <i>ProtocolCoReceiveNetBufferLists</i> returns.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

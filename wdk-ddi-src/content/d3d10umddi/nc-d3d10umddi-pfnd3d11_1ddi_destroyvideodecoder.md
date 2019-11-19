@@ -73,15 +73,6 @@ A handle to the driver's private data for the video decoder object. This handle 
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

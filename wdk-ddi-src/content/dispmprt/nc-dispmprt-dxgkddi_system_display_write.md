@@ -95,15 +95,6 @@ A UINT value that specifies the starting X coordinate that the specified source 
 A UINT value that specifies the starting Y coordinate that the specified source image should be written to on the display device.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

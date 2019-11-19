@@ -79,10 +79,6 @@ Points to a structure containing the HDR metadata.
 * For D3DDDI_HDR_METADATA_TYPE_NONE, this should be NULL.
 * For D3DDDI_HDR_METADATA_TYPE_HDR10, this is a pointer to a DD3DDDI_HDR_METADATA_HDR10 structure.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

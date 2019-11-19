@@ -54,10 +54,6 @@ A handle to a display adapter. The driver provides this handle for the master/le
 
 A pointer to the [DXGKARGCB_UNMAPMDLFROMIOMMU](ns-d3dkmddi-_dxgkargcb_unmapmdlfromiommu.md) structure that contains a handle to the memory to be unmapped.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -prototype
 
 ```cpp

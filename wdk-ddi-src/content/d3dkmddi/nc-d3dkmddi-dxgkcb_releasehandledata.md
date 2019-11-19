@@ -68,6 +68,3 @@ VOID DxgkcbReleasehandledata
 
 
 
-## -returns
-
-Returns VOID.

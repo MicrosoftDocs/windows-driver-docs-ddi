@@ -81,15 +81,6 @@ The most recent context that has been associated with the data flow by a call to
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsflowassociatecontext0">FwpsFlowAssociateContext0</a> function.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

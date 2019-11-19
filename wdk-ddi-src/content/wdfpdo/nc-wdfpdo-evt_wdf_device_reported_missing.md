@@ -64,15 +64,6 @@ req.typenames:
 A handle to a framework device object.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

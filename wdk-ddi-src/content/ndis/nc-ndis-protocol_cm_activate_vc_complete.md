@@ -79,15 +79,6 @@ Pointer to the call parameters as specified by the call manager in a call to
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmactivatevc">NdisCmActivateVc</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -63,15 +63,6 @@ A driver's <i>EvtDeviceShutdownNotification</i> event callback function notifies
 A handle to a framework device object that the driver initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -63,15 +63,6 @@ A driver's <i>EvtWorkItem</i> event callback function performs the work that is 
 A handle to a framework work-item object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

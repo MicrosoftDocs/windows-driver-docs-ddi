@@ -76,15 +76,6 @@ Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardwar
 Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel">AllocateAdapterChannel</a>. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

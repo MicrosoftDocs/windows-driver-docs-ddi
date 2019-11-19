@@ -71,15 +71,6 @@ The index that identifies the component. This parameter is an index into the <b>
 Indicates whether this notification is for a transition to the F0 component power state. If TRUE, the component has just completed a transition from a low-power F<i>x</i> state to F0. If FALSE, the component is about to start a transition from F0 to a low-power F<i>x</i> state.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

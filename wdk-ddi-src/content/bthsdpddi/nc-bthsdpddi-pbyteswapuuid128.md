@@ -62,10 +62,6 @@ A pointer to the 128-bit GUID for which to reverse the byte order.
 
 A pointer to the converted 128-bit GUID.
 
-## -returns
-
-None
-
 ## -remarks
 
 The 

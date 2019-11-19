@@ -64,15 +64,6 @@ The <i>DxgkDdiUnload</i> function frees any resources allocated during execution
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

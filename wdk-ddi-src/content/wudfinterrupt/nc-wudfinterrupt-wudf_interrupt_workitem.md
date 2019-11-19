@@ -69,15 +69,6 @@ A pointer to the interrupt object interface associated with the work item.
 A pointer to the associated object.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -82,10 +82,6 @@ A [D3D12DDI_BACKGROUND_PROCESSING_MODE_0062](ne-d3d12umddi-d3d12ddi_background_p
 
 A [D3D12DDI_MEASUREMENTS_ACTION_0062](ne-d3d12umddi-d3d12ddi_measurements_action_0062.md) enumeration that represents the measurement action.
 
-## -returns
-
-Returns void.
-
 ## -remarks
 
 Background processing work must only ever be used for optimization purposes. These work items must not affect functional correctness of the implementation.

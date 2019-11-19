@@ -84,15 +84,6 @@ An
      contains event-specific parameters.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

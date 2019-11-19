@@ -77,15 +77,6 @@ The beginning resource view for which the runtime should refresh state.
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

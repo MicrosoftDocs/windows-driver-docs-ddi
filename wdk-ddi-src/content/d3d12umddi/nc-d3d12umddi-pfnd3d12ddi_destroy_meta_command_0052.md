@@ -77,10 +77,6 @@ A handle to the display device (graphics context).
 
 Handle to a meta-command.
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 

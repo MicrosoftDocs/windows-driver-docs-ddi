@@ -80,15 +80,6 @@ FLT_TRANSACTION_CONTEXT (starting with  Windows Vista)
 FLT_VOLUME_CONTEXT
 
 
-## -returns
-
-
-
-None. 
-
-
-
-
 ## -remarks
 
 

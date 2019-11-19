@@ -78,15 +78,6 @@ The number of bytes of data that are in the read buffer.
 Driver-defined context information that the driver specified in the <b>EvtUsbTargetPipeReadCompleteContext</b> member of the pipe's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_continuous_reader_config">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

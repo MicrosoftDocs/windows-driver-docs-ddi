@@ -87,15 +87,6 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-add
      Ws2def.h directly.</div>
 <div> </div>
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

@@ -103,15 +103,6 @@ Specifies the Ethertype of the frames.
 Specifies the ExemptionAction of the frames.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

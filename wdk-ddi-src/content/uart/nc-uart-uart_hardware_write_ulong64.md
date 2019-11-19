@@ -71,9 +71,6 @@ A pointer to the register, which must be a mapped range in memory space.
 A ULONG64 value to be written to the register.
 
 
-## -returns
-
-
 ## -remarks
 
 Register your implementation of this callback function by setting the **WriteRegister64** member of the [**_UART_HARDWARE_ACCESS**](ns-uart-_uart_hardware_access.md) structure.

@@ -61,10 +61,6 @@ Pointer to a D3D12DDIARG_CREATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT_0010 structur
 
 A shader handle.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

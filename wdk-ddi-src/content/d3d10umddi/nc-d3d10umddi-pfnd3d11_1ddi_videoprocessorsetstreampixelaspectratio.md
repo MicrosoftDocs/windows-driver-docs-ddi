@@ -106,15 +106,6 @@ A pointer to a <b>DXGI_RATIONAL</b> structure that contains the pixel aspect rat
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

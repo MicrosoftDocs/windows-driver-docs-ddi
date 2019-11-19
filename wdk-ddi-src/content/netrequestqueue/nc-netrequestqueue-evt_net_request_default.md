@@ -95,10 +95,6 @@ The length, in bytes, of the request's input buffer, if an input buffer is avail
 ### -param OutputBufferLength 
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 Register your implementation of this callback function by setting the appropriate member of [NET_REQUEST_QUEUE_CONFIG](ns-netrequestqueue-_net_request_queue_config.md) and then calling [NetRequestQueueCreate](nf-netrequestqueue-netrequestqueuecreate.md).
 

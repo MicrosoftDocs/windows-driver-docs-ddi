@@ -65,15 +65,6 @@ state.
 The channel which is suspended.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 
