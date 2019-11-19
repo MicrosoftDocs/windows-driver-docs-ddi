@@ -1,11 +1,11 @@
 ---
 UID: NF:wiamdef.wiasDebugTrace
 title: wiasDebugTrace function (wiamdef.h)
-description: This function prints a debug trace string in the Device Manager debug console.
+description: The wiasDebugTrace function is obsolete.
 old-location: image\wiasdebugtrace.htm
 tech.root: image
 ms.assetid: db39c7f6-d966-4538-8ee9-d3623995535c
-ms.date: 05/03/2018
+ms.date: 11/18/2019
 ms.keywords: image.wiasdebugtrace, wiamdef/wiasDebugTrace, wiasDebugTrace, wiasDebugTrace function [Imaging Devices], wiasFncs_b6582555-3674-4261-a542-9a6388649bb0.xml
 ms.topic: function
 f1_keywords:
@@ -46,13 +46,15 @@ req.typenames:
 
 ## -description
 
+The **wiasDebugTrace** function is obsolete. Use the [WIAS_TRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace) macro instead.
+
 This function prints a debug trace string in the Device Manager debug console.
 
 ## -parameters
 
 ### -param hInstance
 
-Is the module handle of calling module.
+Te handle of calling module.
 
 ### -param pszFormat
 
@@ -62,15 +64,7 @@ Is the module handle of calling module.
 
 Specifies a variable argument list, which starts with an ANSI format string containing the message and any format specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output.
 
-## -returns
-
-On success, the function returns S_OK.
-
-If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
-
 ## -remarks
-
-The wiasDebugTrace function is obsolete. Use the [WIAS_TRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace) macro instead.
 
 To enable tracing in free builds, drivers must define the WIAS_DEBUG macro. Tracing is enabled by default in checked and debug builds of the operating system.
 
