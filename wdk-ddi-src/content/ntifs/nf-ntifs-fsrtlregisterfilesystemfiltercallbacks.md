@@ -5,7 +5,7 @@ description: File system filter drivers and file systems call the FsRtlRegisterF
 old-location: ifsk\fsrtlregisterfilesystemfiltercallbacks.htm
 tech.root: ifsk
 ms.assetid: cd6d2ab6-ce17-47db-b5d0-4f9543e15487
-ms.date: 04/16/2018
+ms.date: 12/15/2019
 ms.keywords: FsRtlRegisterFileSystemFilterCallbacks, FsRtlRegisterFileSystemFilterCallbacks routine [Installable File System Drivers], fsrtlref_a831a0f3-f819-45e3-9121-ae50ef1b95bf.xml, ifsk.fsrtlregisterfilesystemfiltercallbacks, ntifs/FsRtlRegisterFileSystemFilterCallbacks
 ms.topic: function
 f1_keywords:
@@ -44,22 +44,15 @@ req.typenames:
 
 # FsRtlRegisterFileSystemFilterCallbacks function
 
-
 ## -description
-
 
 File system filter drivers and file systems call the <b>FsRtlRegisterFileSystemFilterCallbacks</b> routine to register notification callback routines to be invoked when the underlying file system performs certain operations. 
 
-
 ## -parameters
-
-
-
 
 ### -param FilterDriverObject [in]
 
 A pointer to the driver object for the filter or file system driver. 
-
 
 ### -param Callbacks [in]
 
@@ -327,6 +320,7 @@ typedef union _FS_FILTER_PARAMETERS {
         FS_FILTER_SECTION_SYNC_TYPE SyncType;
         ULONG PageProtection;
         PFS_FILTER_SECTION_SYNC_OUTPUT OutputInformation;
+        ULONG Flags;
     } AcquireForSectionSynchronization;
 
     //
@@ -389,7 +383,7 @@ Resource to be released. This parameter must not have a <b>NULL</b> value.
 
 </td>
 <td>
-Type of synchronization requested for the section: SyncTypeCreateSection if a section is being created, SyncTypeOther otherwise.
+Type of synchronization requested for the section: <b>SyncTypeCreateSection</b> if a section is being created, <b>SyncTypeOther</b> otherwise.
 
 </td>
 </tr>
@@ -427,9 +421,23 @@ Type of page protection requested for the section. Must be zero if <i>SyncType</
 
 </td>
 <td>
-A [FS_FILTER_SECTION_SYNC_OUTPUT](ns-ntifs-_fs_filter_section_sync_output.md) structure that contains the extended output information for the section.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fs_filter_section_sync_output">FS_FILTER_SECTION_SYNC_OUTPUT</a href> structure that contains the extended output information for the section.
 </ul>
 
+</td>
+</tr>
+
+<tr>
+<td>
+<i>Flags</i>
+</td>
+<td>
+When <i>SyncType</i> is <b>SyncTypeCreateSection</b>, *Flags* can be one of the following values:
+<ul>
+
+<li>FS_FILTER_SECTION_SYNC_IN_FLAG_DONT_UPDATE_LAST_ACCESS    (0x00000001): The file system should not update the last access time for access to the file through the section that's being created.
+<li>FS_FILTER_SECTION_SYNC_IN_FLAG_DONT_UPDATE_LAST_WRITE     (0x00000002): The file system should not update the last write time for modifications to the file through the section that is being created.
+</ul>
 
 </td>
 </tr>
