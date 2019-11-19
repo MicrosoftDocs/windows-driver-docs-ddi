@@ -74,10 +74,6 @@ If <b>TRUE</b>, the background color that is specified by the <i>pColor</i> para
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color">D3D11_1DDI_VIDEO_COLOR</a> structure that specifies the background color.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>

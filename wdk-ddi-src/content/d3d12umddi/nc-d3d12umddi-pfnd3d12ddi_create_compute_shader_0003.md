@@ -69,10 +69,6 @@ A shader handle.
 
 Flags to create a shader.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

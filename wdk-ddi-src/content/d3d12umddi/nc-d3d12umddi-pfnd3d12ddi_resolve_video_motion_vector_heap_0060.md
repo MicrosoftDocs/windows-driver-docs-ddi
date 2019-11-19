@@ -65,10 +65,6 @@ Pointer to a [D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_OUTPUT_0060](ns-d3d12umd
 
 Pointer to a [D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053](ns-d3d12umddi-d3d12ddi_resolve_video_motion_vector_heap_input_0053.md) structure containing input arguments.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```

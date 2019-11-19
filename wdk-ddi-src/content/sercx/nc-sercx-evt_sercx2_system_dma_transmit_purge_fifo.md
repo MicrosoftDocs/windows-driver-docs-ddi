@@ -66,15 +66,6 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-o
 The number of bytes that have already been loaded into the transmit FIFO during the current system-DMA-transmit transaction.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

@@ -70,15 +70,6 @@ An HRESULT value that specifies the error to set for a driver function.
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

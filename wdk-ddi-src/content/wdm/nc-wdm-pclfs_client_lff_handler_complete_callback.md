@@ -76,15 +76,6 @@ If <b>TRUE</b>, specifies that the log tail is currently pinned;  <b>FALSE</b> i
 A pointer to client-supplied information.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

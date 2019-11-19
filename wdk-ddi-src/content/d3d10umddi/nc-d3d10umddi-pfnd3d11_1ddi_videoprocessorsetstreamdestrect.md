@@ -83,10 +83,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns
 <div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is <b>FALSE</b>, this parameter is ignored.</div>
 <div> </div>
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 The destination rectangle is the portion of the output surface that receives the bit-block transfer (bitblt) for the specified input stream. The destination rectangle is given in pixel coordinates, relative to the output surface.

@@ -74,15 +74,6 @@ The <b>DebugExtensionUninitialize</b> callback function is called by the engine 
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

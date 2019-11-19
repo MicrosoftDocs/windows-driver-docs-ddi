@@ -77,10 +77,6 @@ A handle to the command list.
 
 A handle to the resource that contains the shading rate image.
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 

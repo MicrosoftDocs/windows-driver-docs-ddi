@@ -77,10 +77,6 @@ VOID DxgkddiQueryprobedbars
 
 [in, out] Pointer to the DXGKARG_QUERYPROBEDBARS structure.
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 This is part of the normal process of setting up a PCI device, and the result allows the PCI driver to know how much address space would be decoded by the device after it was enabled. Because writing -1 to the physical BARS could be considered a security risk, this step of PCI enumeration is emulated.

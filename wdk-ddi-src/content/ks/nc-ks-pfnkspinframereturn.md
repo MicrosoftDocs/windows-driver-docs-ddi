@@ -89,15 +89,6 @@ Contains a copy of <i>Irp->IoStatus.Status</i> for the IRP to which the requeste
 Specifies the size in bytes of <i>Data</i> as originally specified in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

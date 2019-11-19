@@ -71,15 +71,6 @@ A WDFREQUEST handle to the framework request object that represents the <a href=
 The new wait mask. For more information, see Remarks.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

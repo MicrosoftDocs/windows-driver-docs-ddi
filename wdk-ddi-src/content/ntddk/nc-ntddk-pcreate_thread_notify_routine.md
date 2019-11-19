@@ -71,15 +71,6 @@ The thread ID of the thread.
 Indicates whether the thread was created (<b>TRUE</b>) or deleted (<b>FALSE</b>).
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

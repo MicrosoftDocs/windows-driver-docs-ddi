@@ -61,15 +61,6 @@ The <i>EvtSerCxReceiveCancel</i> event callback function notifies the serial con
 A WDFDEVICE handle to the framework device object that represents the serial controller.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

@@ -76,15 +76,6 @@ The total number of access views. The number can be -1, which specifies that the
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

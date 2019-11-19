@@ -66,15 +66,6 @@ Points to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/k
 Points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> which originated from the circuit to which <i>Pin</i> belongs.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -61,10 +61,6 @@ Pointer to a D3D12DDIARG_CREATE_SHADER_RESOURCE_VIEW_0002 structure.
 
 A CPU descriptor handle.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

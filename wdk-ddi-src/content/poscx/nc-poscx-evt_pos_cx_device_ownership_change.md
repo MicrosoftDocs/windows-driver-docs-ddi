@@ -73,11 +73,3 @@ The file object of the previous claim owner. This may be NULL if no previous own
 The file object of the new claim owner. This may be NULL if the device was released without a pending claim request.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

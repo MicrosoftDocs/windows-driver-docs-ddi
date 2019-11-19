@@ -90,15 +90,6 @@ A visible node mask.
 Information for resource allocation.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

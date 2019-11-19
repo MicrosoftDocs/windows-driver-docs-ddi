@@ -57,10 +57,6 @@ A handle to the display device (graphics context).
 
 Fence handle.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

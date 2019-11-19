@@ -63,15 +63,6 @@ A driver's <i>EvtDriverUnload</i> event callback function performs operations th
 A handle to a framework driver object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 A driver registers an <i>EvtDriverUnload</i> callback function when it calls [**WdfDriverCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nf-wdfdriver-wdfdrivercreate).

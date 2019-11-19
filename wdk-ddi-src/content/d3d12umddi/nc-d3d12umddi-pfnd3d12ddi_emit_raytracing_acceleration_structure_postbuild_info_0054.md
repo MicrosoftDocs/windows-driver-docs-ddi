@@ -57,10 +57,6 @@ A handle to the command list.
 
 Pointer to a [D3D12DDIARG_EMIT_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_0054](ns-d3d12umddi-d3d12ddiarg_emit_raytracing_acceleration_structure_postbuild_info_0054.md) structure.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

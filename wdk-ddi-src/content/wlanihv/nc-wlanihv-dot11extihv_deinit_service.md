@@ -70,15 +70,6 @@ VOID APIENTRY Dot11ExtIhvDeinitService(
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

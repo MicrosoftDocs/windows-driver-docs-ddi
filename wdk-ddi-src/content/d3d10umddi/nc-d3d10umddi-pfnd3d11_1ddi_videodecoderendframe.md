@@ -74,15 +74,6 @@ A handle to the video decoder object that was created through a call to the <a h
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

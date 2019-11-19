@@ -63,15 +63,6 @@ A driver's <i>EvtChildListScanForChildren</i> event callback function must repor
 A handle to a framework child list object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

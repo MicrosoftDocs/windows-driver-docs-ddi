@@ -71,15 +71,6 @@ typedef VOID (*PPARALLEL_FREE_ROUTINE)(
 Pointer to the device extension of a parallel port's functional device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">FDO</a>).
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

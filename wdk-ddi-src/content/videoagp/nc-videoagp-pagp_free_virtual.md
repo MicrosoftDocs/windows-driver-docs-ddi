@@ -76,15 +76,6 @@ Specifies the number of pages of virtual memory that the video port driver shoul
 Specifies the page offset into the reserved virtual address range identified by <b>VirtualReserveContext</b> that indicates the actual base address at which to unmap virtual memory.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

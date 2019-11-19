@@ -66,15 +66,6 @@ A pointer to an NDK listener object (<a href="https://docs.microsoft.com/windows
 A BOOLEAN value that specifies if a connection is paused or restarted. If <i>Pause</i> is TRUE the connection is paused. If <i>Pause</i> is FALSE the connection is restarted.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

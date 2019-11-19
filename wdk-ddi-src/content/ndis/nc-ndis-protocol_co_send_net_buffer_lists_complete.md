@@ -89,15 +89,6 @@ NDIS flags that can be combined with a bitwise OR operation. To clear all of the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dispatch-irql-tracking">Dispatch IRQL Tracking</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

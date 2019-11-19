@@ -76,15 +76,6 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object
 The number of bytes to read from the target device.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

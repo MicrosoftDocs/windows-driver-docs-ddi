@@ -70,10 +70,6 @@ VOID FnVmbChannelPause
 
 A handle for the channel to pause.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 This function waits until the channel is in the paused state before it returns. This ensures that all packets that are waiting for completion have completed.

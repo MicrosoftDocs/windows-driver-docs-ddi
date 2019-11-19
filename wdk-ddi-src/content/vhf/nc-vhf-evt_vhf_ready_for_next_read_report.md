@@ -61,15 +61,6 @@ The HID source driver implements this event call back function to use its buffer
 Pointer to the HID source driver-defined context structure that the driver passed in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vhf/nf-vhf-vhfcreate">VhfCreate</a> to create the virtual HID device.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -68,15 +68,6 @@ The miniport handle.
 The completion status.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

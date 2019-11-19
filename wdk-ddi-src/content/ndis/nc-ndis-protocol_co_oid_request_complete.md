@@ -98,15 +98,6 @@ The final status of the request. The target driver or NDIS determines this final
      <i>OidRequest</i>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

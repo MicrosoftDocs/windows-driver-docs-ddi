@@ -97,10 +97,6 @@ Pointer to a [D3D12DDI_PRESENT_HWQUEUES_0051](ns-d3d12umddi-d3d12ddi_present_hwq
 
 
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 The PFND3D12DDI_PRESENT_0051 callback function split the output arguments into ones that are relevant for the command queue involved. For software scheduled command queues, the driver provides contexts. For hardware scheduled command queues, the driver provides hardware queues.

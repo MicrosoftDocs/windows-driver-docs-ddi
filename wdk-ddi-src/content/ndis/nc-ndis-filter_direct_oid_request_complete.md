@@ -84,15 +84,6 @@ The final status of the request that an underlying driver or NDIS set. This para
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfdirectoidrequest">NdisFDirectOidRequest</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -66,15 +66,6 @@ A pointer to interface-specific context information. The caller sets this parame
 Whether to allow transitions from D3hot to D3cold. Set to <b>TRUE</b> to enable these transitions. Otherwise, set to <b>FALSE.</b> For more information, see Remarks.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

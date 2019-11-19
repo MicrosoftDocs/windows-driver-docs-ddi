@@ -73,15 +73,6 @@ A cancellation identifier. This identifier specifies the NET_BUFFER_LIST structu
      canceled.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

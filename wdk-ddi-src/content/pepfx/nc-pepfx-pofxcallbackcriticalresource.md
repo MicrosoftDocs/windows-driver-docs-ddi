@@ -71,15 +71,6 @@ A POHANDLE value that represents the registration of the device with PoFx. The P
 Whether to transition the device from inactive to active, or vice versa. Set to TRUE to transition the device from inactive to active, or to FALSE to transition the device from active to inactive.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -66,15 +66,6 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-o
 The number of bytes that have already been loaded into the transmit FIFO during the current PIO-transmit transaction. This parameter is the sum of all the bytes transferred in previous calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_pio_transmit_write_buffer">EvtSerCx2PioTransmitWriteBuffer</a> event callback function that are part of this transaction.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

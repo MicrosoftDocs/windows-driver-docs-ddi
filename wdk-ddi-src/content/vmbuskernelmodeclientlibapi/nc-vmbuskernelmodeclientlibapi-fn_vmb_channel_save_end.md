@@ -70,10 +70,6 @@ VOID FnVmbChannelSaveEnd
 
 A handle of the channel that was saved. 
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 > [!IMPORTANT]

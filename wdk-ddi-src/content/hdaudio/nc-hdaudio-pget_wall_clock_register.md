@@ -68,15 +68,6 @@ Specifies the context value from the <b>Context</b> member of the <a href="https
 Retrieves a pointer to the wall clock register. This parameter points to a caller-allocated PULONG variable into which the routine writes a pointer to the register. The HD Audio bus driver maps the register to a system virtual address that is accessible to the function driver.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

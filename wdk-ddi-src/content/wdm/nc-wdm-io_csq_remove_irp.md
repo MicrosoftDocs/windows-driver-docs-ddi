@@ -66,15 +66,6 @@ Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kern
 Pointer to the IRP to remove from the IRP queue. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

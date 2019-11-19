@@ -63,8 +63,6 @@ VOID AcpiOpRegionCallback
 
 ### -param Context: 
 
-## -returns
-
 ## -remarks
 
 ## -see-also

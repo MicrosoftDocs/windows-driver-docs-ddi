@@ -71,11 +71,3 @@ A valid bitwise OR of values. Currently, no flags are defined.
 A value that indicates the level of event logging.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

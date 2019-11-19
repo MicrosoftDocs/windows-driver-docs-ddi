@@ -61,10 +61,6 @@ A heap handle.
 
 A resource handle.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

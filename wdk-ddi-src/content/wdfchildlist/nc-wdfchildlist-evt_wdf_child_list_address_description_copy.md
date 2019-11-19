@@ -73,15 +73,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 A pointer to a WDF_CHILD_ADDRESS_DESCRIPTION_HEADER structure that identifies the destination location of the child address description.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

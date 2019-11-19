@@ -69,11 +69,3 @@ A handle to the driver's data for the command list. The driver uses this region 
 The protected resource session.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

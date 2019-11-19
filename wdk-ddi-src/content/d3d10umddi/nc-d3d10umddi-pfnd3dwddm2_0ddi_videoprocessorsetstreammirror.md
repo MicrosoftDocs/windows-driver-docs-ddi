@@ -85,10 +85,6 @@ Indicates whether the input stream should be flipped vertically.
 </div>
 <div> </div>
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 Operations are conceptually applied in the following order:

@@ -74,15 +74,6 @@ The <i>DebugExtensionUnload</i> callback function unloads the debug extension.
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

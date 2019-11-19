@@ -74,10 +74,6 @@ Pointer to [D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC](ns-d3d12umddi-d3d12ddiar
 
 An unordered access view (UAV), defined by a value in the [D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS](ne-d3d12umddi-d3d12ddiarg_render_pass_uav_access_flags.md) enumeration.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

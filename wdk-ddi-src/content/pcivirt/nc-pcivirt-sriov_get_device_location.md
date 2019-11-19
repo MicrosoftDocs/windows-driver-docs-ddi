@@ -102,15 +102,6 @@ A pointer to a variable that is filled in with the current Bus Number, which des
 A pointer to a variable that is filled in with the FunctionNumber, which further describes where on this bus the device can be found.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -74,15 +74,6 @@ The handle to a  USB device object that the client driver received in a previous
 The handle framework request object that for an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/charging/ni-charging-ioctl_internal_configure_charger_property">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a> request from the battery minidriver. 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

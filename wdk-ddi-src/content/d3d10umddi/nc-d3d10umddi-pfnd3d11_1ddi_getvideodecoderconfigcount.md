@@ -77,15 +77,6 @@ A pointer to a UINT value that specifies the maximum number of decoder configura
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

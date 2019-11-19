@@ -78,15 +78,6 @@ A pointer to a single
      MiniportTcpOffloadDisconnect</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

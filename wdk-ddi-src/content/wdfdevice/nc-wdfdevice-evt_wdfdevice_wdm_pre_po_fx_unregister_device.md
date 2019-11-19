@@ -70,15 +70,6 @@ A handle to a framework device object.
 A handle that represents the device’s registration with the power framework.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

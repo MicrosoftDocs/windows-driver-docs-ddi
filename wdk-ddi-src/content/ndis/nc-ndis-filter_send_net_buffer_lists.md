@@ -130,15 +130,6 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 <div class="alert"><b>Note</b>  This flag is available in NDIS 6.30 and later.</div>
 <div> </div>
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

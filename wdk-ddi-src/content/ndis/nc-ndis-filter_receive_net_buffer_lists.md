@@ -184,15 +184,6 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 <div class="alert"><b>Note</b>  If each packet in the linked list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures uses the same destination ports, the extension should set the <b>NDIS_RECEIVE_FLAGS_SWITCH_DESTINATION_GROUP</b> flag in the <i>ReturnFlags</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_return_net_buffer_lists">FilterReturnNetBufferLists</a>  when the receive request completes. The extension must set this flag in the <i>ReturnFlags</i> parameter if it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreturnnetbufferlists">NdisFReturnNetBufferLists</a> to return packets that it did not originate or clone.</div>
 <div> </div>
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

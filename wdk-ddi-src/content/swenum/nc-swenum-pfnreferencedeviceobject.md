@@ -61,15 +61,6 @@ The driver can use this routine to increment the reference count of the PDO.
 Pointer to a device extension of the device's PDO.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

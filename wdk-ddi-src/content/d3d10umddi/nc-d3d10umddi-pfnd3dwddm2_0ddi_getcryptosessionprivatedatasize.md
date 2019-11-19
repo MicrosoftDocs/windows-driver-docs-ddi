@@ -74,10 +74,6 @@ Returns the size of private data that the driver needs for input commands.
 
 Returns the size of private data that the driver needs for output commands.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 When <b>pKeyExchangeType</b> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the following behavior is expected in the <b>NegotiateCryptessionKeyExchange</b>device driver interface (DDI):

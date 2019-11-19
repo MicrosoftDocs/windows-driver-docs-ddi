@@ -75,15 +75,6 @@ The total number of buffers to refresh. The number can be -1, which specifies th
 The starting constant buffer to refresh. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

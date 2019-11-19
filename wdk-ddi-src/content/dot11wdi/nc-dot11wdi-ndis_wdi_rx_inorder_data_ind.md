@@ -89,15 +89,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nd
 Status from WDI for the <i>NdisWdiRxInorderDataIndication</i>.  See the <i>Remarks</i> section for more information.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -111,15 +111,6 @@ A pointer to an
      <i>classifyFn1</i> callout function returns to the caller.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

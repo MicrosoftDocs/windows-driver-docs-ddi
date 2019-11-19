@@ -79,15 +79,6 @@ A pointer to a
      MiniportTcpOffloadForward</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

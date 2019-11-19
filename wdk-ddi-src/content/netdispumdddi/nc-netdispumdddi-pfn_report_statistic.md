@@ -68,15 +68,6 @@ A handle that represents a Miracast device. The Miracast user-mode driver previo
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_statistic_data">MIRACAST_STATISTIC_DATA</a> structure that contains the statistics data.
 
 
-## -returns
-
-
-
-Does not return a value.
-
-
-
-
 ## -remarks
 
 

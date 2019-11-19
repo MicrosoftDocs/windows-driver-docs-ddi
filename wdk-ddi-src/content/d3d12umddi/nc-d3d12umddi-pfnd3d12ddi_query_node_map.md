@@ -61,10 +61,6 @@ The number of physical adapters.
 
 Pointer to a map.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

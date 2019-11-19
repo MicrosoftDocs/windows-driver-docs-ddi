@@ -70,15 +70,6 @@ The channel of the client endpoint.
 A failure code.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

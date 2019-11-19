@@ -63,10 +63,6 @@ A pointer to void.
 
 ### -param Arg4
 
-## -returns
-
-This callback function does not return a value.
-
 ## -prototype
 
 ```cpp

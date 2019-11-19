@@ -71,15 +71,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wd
 Indicates the direction of the DMA transfer: specify <b>TRUE</b> for a transfer from the buffer to the device, and <b>FALSE</b> otherwise. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

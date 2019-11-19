@@ -78,15 +78,6 @@ A DXGI_FORMAT value that specifies the output format. Typical values include DXG
 A BOOL value that, if TRUE, specifies that the specified format can be used  for the specified DXVA profile.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

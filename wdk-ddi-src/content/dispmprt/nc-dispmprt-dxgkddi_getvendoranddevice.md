@@ -77,10 +77,6 @@ VOID DxgkddiGetvendoranddevice
 
 [in, out] A pointer to the DXGKARG_GETVENDORANDDEVICE structure.
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 

@@ -76,10 +76,6 @@ A handle to a command list.
 A handle to a root signature.
 
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 

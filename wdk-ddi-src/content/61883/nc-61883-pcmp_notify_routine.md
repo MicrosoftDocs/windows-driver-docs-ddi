@@ -61,11 +61,3 @@ This routine is called for plug notification.
 Specifies the notification information.
 
 
-## -returns
-
-
-
-This callback does not return a value.
-
-
-

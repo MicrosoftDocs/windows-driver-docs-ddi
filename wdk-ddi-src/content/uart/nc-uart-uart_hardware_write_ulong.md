@@ -71,9 +71,6 @@ A pointer to a variable that contains the port or register address.
 A ULONG value to be written to the port or register.
 
 
-## -returns
-
-
 ## -remarks
 
 Register your implementation of this callback function by setting the **WritePort32** or **WriteRegister32** member of the [**_UART_HARDWARE_ACCESS**](ns-uart-_uart_hardware_access.md) structure.

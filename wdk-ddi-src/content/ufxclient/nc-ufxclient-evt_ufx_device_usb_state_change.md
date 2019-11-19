@@ -74,15 +74,6 @@ The handle to a  USB device object that the client driver received in a previous
 A USBFN_DEVICE_STATE-typed flag that indicates state of the USB device.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

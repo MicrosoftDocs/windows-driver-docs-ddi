@@ -61,15 +61,6 @@ The <b>HwStorCompleteServiceIrp</b> routine is called when the virtual adapter i
 A pointer to the virtual miniport driver's per-adapter storage area.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

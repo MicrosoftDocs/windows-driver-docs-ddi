@@ -76,10 +76,6 @@ A handle for a channel.
 
 The GPADL handle of the GPADL to delete.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 > [!IMPORTANT]

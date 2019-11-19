@@ -87,15 +87,6 @@ If <b>TRUE</b>, automatic processing features are enabled. If <b>FALSE</b>, the 
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

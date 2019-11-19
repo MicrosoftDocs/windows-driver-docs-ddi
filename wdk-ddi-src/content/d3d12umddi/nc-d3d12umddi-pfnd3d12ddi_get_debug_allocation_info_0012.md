@@ -73,10 +73,6 @@ Pointer to the number of kernel mode thread info.
 
 Pointer to the kernel mode thread info.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

@@ -63,15 +63,6 @@ A driver's <i>EvtDeviceWakeFromSxTriggered</i> event callback function informs t
 A handle to a framework device object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

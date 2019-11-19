@@ -68,15 +68,6 @@ A handle to a framework device object.
 A handle to a framework request object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

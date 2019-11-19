@@ -73,15 +73,6 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-
 A Boolean value which, if <b>TRUE</b>, indicates that the system has starting using the special file and, if <b>FALSE</b>, indicate that the system as finished using the special file.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

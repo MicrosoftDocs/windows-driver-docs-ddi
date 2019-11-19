@@ -90,15 +90,6 @@ The client successfully closed its address family.
 The client failed the request for some driver-determined reason.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

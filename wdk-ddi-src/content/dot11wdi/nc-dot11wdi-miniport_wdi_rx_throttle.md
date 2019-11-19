@@ -70,15 +70,6 @@ TAL device handle returned by the IHV miniport in <a href="https://docs.microsof
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_rx_throttle_level">WDI_RX_THROTTLE_LEVEL</a> enumeration value that specifies the throttle level.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

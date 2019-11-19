@@ -76,15 +76,6 @@ Port ID for the port.
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_operation_mode">WDI_OPERATION_MODE</a> value that specifies the operation mode for the port.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

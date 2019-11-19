@@ -81,15 +81,6 @@ A buffer that contains the completion response from the opposite endpoint, if an
 Length of the <i>Buffer</i> parameter, in bytes.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

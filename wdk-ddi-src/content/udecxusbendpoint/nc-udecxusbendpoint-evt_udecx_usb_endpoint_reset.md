@@ -66,15 +66,6 @@ A handle to a UDE endpoint object that represents the endpoint to reset. The cli
 A handle to a framework request object that represents the request to reset the endpoint.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

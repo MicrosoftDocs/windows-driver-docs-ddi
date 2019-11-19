@@ -66,15 +66,6 @@ A pointer to a file system device object for which the notification was called.
 A Boolean value that indicates whether the file system has registered (TRUE) or unregistered (FALSE) itself as an active file system.
 
 
-## -returns
-
-
-
-This routine does not return a value.
-
-
-
-
 ## -remarks
 
 

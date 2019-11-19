@@ -70,10 +70,6 @@ VOID EvtPacketQueueAdvance
 
 A handle to a packet queue.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 Register this callback function in your *EVT_NET_ADAPTER_CREATE_TX(RX)QUEUE* callback. Set the appropriate member of a [**NET_PACKET_QUEUE_CONFIG**](ns-netpacketqueue-_net_packet_queue_config.md) structure when you are initializing the structure with [**NET_PACKET_QUEUE_CONFIG_INIT**](nf-netpacketqueue-net_packet_queue_config_init.md), then call **NetTx(Rx)QueueCreate**.

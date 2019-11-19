@@ -67,10 +67,6 @@ A [D3D12DDI_MEASUREMENTS_ACTION_0062](ne-d3d12umddi-d3d12ddi_measurements_action
 
 Pointer to a BOOL, indicating whether further measurements are desired.
 
-## -returns
-
-Returns void.
-
 ## -prototype
 
 ```

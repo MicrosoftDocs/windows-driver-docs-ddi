@@ -77,10 +77,6 @@ The miniport context that is returned by the driver in the [DXGKDDI_GPU_PARTITIO
 
 A pointer to the DXGKARG_QUERYMITIGATEDRANGECOUNT structure.
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 

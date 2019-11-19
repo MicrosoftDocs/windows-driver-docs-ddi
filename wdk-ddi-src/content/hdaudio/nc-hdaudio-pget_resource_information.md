@@ -85,15 +85,6 @@ Retrieves a codec address. This parameter points to a caller-allocated UCHAR var
 Retrieves the function group's starting node ID. This parameter points to a caller-allocated UCHAR variable into which the routine writes the node ID. For more information, see the following Remarks section.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

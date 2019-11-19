@@ -73,10 +73,6 @@ Pointer to [D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC_0053](ns-d3d12umddi-d3d12
 
 Pointer to a [D3D12DDIARG_RENDER_PASS_FLAGS_0053](ne-d3d12umddi-d3d12ddiarg_render_pass_flags_0053.md) enumeration, that specifies the state of the Render Pass.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

@@ -70,15 +70,6 @@ The class driver calls the minidriver's <i>StrMiniCancelPacket</i> routine to si
 Pointer to the stream request that had been canceled.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

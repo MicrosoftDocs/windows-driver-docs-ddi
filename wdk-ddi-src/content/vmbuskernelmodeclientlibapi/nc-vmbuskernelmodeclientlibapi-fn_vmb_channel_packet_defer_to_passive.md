@@ -72,10 +72,6 @@ VOID FnVmbChannelPacketDeferToPassive
 A  handle that identifies the incoming packet and is used to refer to the packet
 once processing is finished.  
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 A deferred packet goes back onto the parsing queue. It is guaranteed to be

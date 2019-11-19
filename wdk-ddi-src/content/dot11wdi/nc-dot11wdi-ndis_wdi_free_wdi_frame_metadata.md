@@ -68,15 +68,6 @@ The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://do
 The frame metadata buffer to free.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

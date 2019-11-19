@@ -66,15 +66,6 @@ The context that the driver specifies as the <i>CallBackRegistration</i>-><b>Reg
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_post_operation_information">OB_POST_OPERATION_INFORMATION</a> structure that specifies the parameters of the handle operation.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -77,15 +77,6 @@ The beginning constant buffer for which the runtime should refresh state.
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

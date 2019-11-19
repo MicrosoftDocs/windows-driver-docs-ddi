@@ -77,10 +77,6 @@ A handle to the context.
 
 Pointer to a DXGKARG_QUERYVIRTUALFUNCTIONLUID structure.
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 

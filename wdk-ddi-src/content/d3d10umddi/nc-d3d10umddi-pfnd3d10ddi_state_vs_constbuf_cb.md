@@ -77,15 +77,6 @@ The starting constant buffer to refresh.
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

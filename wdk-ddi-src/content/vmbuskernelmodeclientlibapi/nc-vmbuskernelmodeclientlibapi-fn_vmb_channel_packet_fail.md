@@ -71,10 +71,6 @@ VOID FnVmbChannelPacketFail
 A  handle that identifies the incoming packet and is used to refer to the packet
 once processing is finished. 
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 Call this function for packets presented to the server endpoint which seem malformed, to

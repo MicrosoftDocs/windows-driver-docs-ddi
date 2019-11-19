@@ -77,15 +77,6 @@ The beginning of the DDI handles to samplers.
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

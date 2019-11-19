@@ -79,15 +79,6 @@ A pointer to a
      NdisOffloadTcpReceive</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

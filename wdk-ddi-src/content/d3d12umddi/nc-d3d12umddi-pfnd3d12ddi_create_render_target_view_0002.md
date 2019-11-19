@@ -61,10 +61,6 @@ Pointer to a D3D12DDIARG_CREATE_RENDER_TARGET_VIEW_0002 structure.
 
 The CPU descriptor handle.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

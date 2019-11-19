@@ -66,15 +66,6 @@ The first parameter that is passed to <a href="https://docs.microsoft.com/window
 The second parameter that is passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

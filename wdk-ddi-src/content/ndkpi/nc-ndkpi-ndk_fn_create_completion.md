@@ -71,15 +71,6 @@ The asynchronous completion status for the create request. See the object creati
 A pointer to an NDK object header (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>).
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

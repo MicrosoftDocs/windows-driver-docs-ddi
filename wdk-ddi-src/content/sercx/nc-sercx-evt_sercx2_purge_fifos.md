@@ -71,15 +71,6 @@ Whether to purge the receive FIFO. If this parameter is set to <b>TRUE</b>, purg
 Whether to purge the transmit FIFO. If this parameter is set to <b>TRUE</b>, purge the transmit FIFO. If <b>FALSE</b>, do not purge the transmit FIFO.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

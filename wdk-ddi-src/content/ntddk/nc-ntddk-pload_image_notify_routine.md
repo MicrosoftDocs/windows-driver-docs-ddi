@@ -71,15 +71,6 @@ The process ID of the process in which the image has been mapped, but this handl
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_image_info">IMAGE_INFO</a> structure that contains image information. See Remarks.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

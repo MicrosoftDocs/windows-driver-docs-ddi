@@ -54,10 +54,6 @@ A handle to the display device (graphics context).
 
 A handle to a command pool.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -prototype
 
 ```cpp

@@ -74,15 +74,6 @@ Pointer to a buffer, formatted as a
      the new QoS specification.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

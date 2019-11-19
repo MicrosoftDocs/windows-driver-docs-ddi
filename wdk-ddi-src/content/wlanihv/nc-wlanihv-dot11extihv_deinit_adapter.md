@@ -80,15 +80,6 @@ The handle used by the IHV Extensions DLL to reference the WLAN adapter. This ha
      Handler function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

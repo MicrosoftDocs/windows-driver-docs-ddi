@@ -66,15 +66,6 @@ A pointer to the lookaside-list entry that is to be freed.
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">LOOKASIDE_LIST_EX</a> structure that describes the lookaside list. This structure was previously initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializelookasidelistex">ExInitializeLookasideListEx</a> routine. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

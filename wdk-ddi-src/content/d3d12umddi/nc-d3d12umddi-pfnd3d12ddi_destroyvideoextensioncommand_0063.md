@@ -77,10 +77,6 @@ Handle for the Direct3D 12 device.
 
 Handle to the D3D12DDI_HVIDEOEXTENSIONCOMMAND_0063 to be destroyed.
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 

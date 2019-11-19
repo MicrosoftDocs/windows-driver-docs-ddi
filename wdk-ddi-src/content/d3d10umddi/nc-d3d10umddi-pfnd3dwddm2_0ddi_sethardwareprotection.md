@@ -71,15 +71,6 @@ A handle to the resource object that was created through a call to the <a href="
 Indicates that the buffer should be protected.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

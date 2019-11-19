@@ -66,15 +66,6 @@ Points to a pin-centric <a href="https://docs.microsoft.com/windows-hardware/dri
 Specifies the device power state being requested. Set this parameter to one of the following DEVICE_POWER_STATE enumeration values: <b>PowerDeviceD0</b>, <b>PowerDeviceD1</b>, <b>PowerDeviceD2</b>, or <b>PowerDeviceD3</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

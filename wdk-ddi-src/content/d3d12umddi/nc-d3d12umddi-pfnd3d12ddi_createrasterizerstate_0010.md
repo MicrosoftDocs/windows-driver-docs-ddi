@@ -61,10 +61,6 @@ Pointer to a D3D12DDI_RASTERIZER_DESC_0010 structure.
 
 A handle to a rasterizer state.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

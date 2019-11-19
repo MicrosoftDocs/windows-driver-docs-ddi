@@ -66,15 +66,6 @@ A WDFDEVICE handle to the <a href="https://docs.microsoft.com/windows-hardware/d
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target to close. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a> callback that opened the connection to the target.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

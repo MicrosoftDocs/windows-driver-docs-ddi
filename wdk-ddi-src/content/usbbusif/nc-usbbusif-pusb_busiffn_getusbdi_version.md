@@ -79,15 +79,6 @@ Returns the host capability flags. Currently, no host capability flags are repor
 Returns a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_version_information">USBD_VERSION_INFORMATION</a> structure that contains the USB interface version number and the USB specification version number. 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

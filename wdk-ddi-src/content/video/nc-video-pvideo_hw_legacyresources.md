@@ -76,15 +76,6 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/driv
 Is the number of elements in the array to which <i>LegacyResourceList</i> points.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

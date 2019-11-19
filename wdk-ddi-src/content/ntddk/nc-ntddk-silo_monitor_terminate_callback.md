@@ -61,15 +61,6 @@ This callback is invoked when a silo is terminated.
 The silo to be terminated.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

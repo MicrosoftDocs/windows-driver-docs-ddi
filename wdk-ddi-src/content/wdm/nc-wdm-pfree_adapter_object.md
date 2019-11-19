@@ -66,15 +66,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 The type of deallocation that the calling driver requests. Set this parameter to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_io_allocation_action">IO_ALLOCATION_ACTION</a> enumeration value. For more information, see the Remarks section.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

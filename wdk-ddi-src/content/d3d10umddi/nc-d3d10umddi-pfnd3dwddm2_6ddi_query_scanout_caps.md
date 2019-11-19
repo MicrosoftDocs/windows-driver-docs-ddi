@@ -75,10 +75,6 @@ The index of the plane.
 
 A [D3DWDDM2_6DDI_SCANOUT_FLAGS](ne-d3d10umddi-d3dwddm2_6ddi_scanout_flags.md) value that indicates the type of transformation.
 
-## -returns
-
-Returns void.
-
 ## -prototype
 
 ```

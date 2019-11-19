@@ -66,15 +66,6 @@ Pointer to the allocator's context structure created in <a href="https://docs.mi
 Pointer to the frame to be freed.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

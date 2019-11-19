@@ -66,15 +66,6 @@ A pointer to an NDK protection domain (PD) object (<a href="https://docs.microso
 A memory token value is returned in this location.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

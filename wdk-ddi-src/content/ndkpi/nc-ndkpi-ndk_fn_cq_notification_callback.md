@@ -106,15 +106,6 @@ Indicates a  fatal error occurred on the CQ and the CQ is  unusable. All of the 
  
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

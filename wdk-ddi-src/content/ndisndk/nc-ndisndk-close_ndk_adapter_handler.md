@@ -66,15 +66,6 @@ A handle to a context area that the miniport driver allocated in its <a href="ht
 A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a> instance to close.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

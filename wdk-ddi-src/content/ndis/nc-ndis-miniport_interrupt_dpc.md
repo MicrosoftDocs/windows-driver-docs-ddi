@@ -94,15 +94,6 @@ A pointer to an
 Reserved for NDIS.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

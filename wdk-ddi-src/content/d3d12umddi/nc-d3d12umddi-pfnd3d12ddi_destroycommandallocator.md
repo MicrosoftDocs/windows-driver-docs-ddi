@@ -57,10 +57,6 @@ A handle to the display device (graphics context).
 
 A handle to a command allocator.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

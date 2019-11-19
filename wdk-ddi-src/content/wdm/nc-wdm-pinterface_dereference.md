@@ -62,15 +62,6 @@ A pointer to interface-specific context information. The caller passes the value
 
 Note that the <i>InterfaceDereference</i> routine is a per interface contract, so there are no general IRQL requirements for calling it.
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

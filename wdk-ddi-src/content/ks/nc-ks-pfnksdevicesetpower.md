@@ -76,15 +76,6 @@ The target device power state.
 The current device power state.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -70,10 +70,6 @@ VOID FnVmbChannelStart
 
 A handle for a channel that this function modifies.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 > [!IMPORTANT]

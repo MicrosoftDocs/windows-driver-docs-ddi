@@ -75,10 +75,6 @@ A handle to a NETADAPTER object the client driver previously created with a call
 
 A handle to a NETOFFLOAD object that describes the adapter's offload capabilities.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 Register your implementation of this callback function by setting the appropriate parameter when calling [**NetAdapterOffloadSetChecksumCapabilities**](nf-netadapter-netadapteroffloadsetchecksumcapabilities.md).

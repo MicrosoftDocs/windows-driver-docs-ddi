@@ -94,15 +94,6 @@ A pointer to a context area that the miniport driver specified in the preceding 
      <b>NdisMAllocateSharedMemoryAsyncEx</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

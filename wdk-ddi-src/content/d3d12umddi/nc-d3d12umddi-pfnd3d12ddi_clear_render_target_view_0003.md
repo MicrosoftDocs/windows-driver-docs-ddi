@@ -70,10 +70,6 @@ The number of rectangles in the array that the *pRects* parameter specifies.
 
 An array of D3D12DDI_RECT structures for the rectangles in the render target view to clear.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```

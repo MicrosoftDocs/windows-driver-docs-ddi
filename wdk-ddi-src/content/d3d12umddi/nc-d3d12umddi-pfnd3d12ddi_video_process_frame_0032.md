@@ -70,7 +70,3 @@ Specifies an array of input parameters. The available parameters are in the [D3D
 
 The count of input streams.
 
-## -returns
-
-This callback function does not return a value.
-

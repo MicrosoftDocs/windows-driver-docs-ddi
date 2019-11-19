@@ -61,15 +61,6 @@ req.typenames:
 Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -94,15 +94,6 @@ Specifies the client-supplied handle to its per-AF context area. The client orig
      <b>NdisClOpenAddressFamilyEx</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

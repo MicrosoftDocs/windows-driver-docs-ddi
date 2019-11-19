@@ -80,10 +80,6 @@ A pointer to a **PVOID** to fill with the MMIO physical address.
 
 A pointer to the returned size of the MMIO space.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 > [!IMPORTANT]

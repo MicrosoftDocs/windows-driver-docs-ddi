@@ -73,15 +73,6 @@ A cancellation identifier. This identifier specifies the <a href="https://docs.m
      canceled.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

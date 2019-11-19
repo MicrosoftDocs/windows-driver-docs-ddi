@@ -75,15 +75,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nd
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_frame_status">WDI_TX_FRAME_STATUS</a> enumeration value that specifies the TX frame status.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

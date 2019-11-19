@@ -80,10 +80,6 @@ The ID of the device service session obtained from a previous call to [**MbbAdap
 
 A WDFMEMORY object containing the data to pass to the device.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 MBBCx invokes a client driver's *EvtMbbDeviceSendServiceSessionData* callback function when an application sends DSS data down to the modem device. After sending the data to the device asynchronously, the client driver must call [**MbbDeviceSendServiceSessionDataComplete**](nf-mbbcx-mbbdevicesenddeviceservicesessiondatacomplete.md) so MBBCx can free the memory allocated for the data.

@@ -68,15 +68,6 @@ A handle to a framework interrupt object.
 A handle to the framework device object that the driver passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptcreate">WdfInterruptCreate</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

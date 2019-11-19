@@ -61,15 +61,6 @@ The <b>HwStorTimer</b> routine is called after the interval that is specified wh
 A pointer to the miniport driver's per HBA storage area.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

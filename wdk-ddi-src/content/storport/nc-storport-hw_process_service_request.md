@@ -66,15 +66,6 @@ A pointer to the virtual miniport driver's per-adapter storage area.
 A pointer to the I/O request.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

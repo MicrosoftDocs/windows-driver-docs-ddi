@@ -64,10 +64,6 @@ The <i>expected residency</i>—the maximum  time, in units of 100 nanoseconds, 
 
 For more information, see Remarks.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 <div class="alert"><b>Note</b>  The display miniport driver should call this function only if the component type is <b>DXGK_POWER_COMPONENT_OTHER</b>. The Microsoft DirectX graphics kernel subsystem sets the expected residency value for other component types.</div>

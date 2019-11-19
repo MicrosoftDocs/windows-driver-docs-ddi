@@ -85,15 +85,6 @@ NDIS flags that can be combined with an OR operation. This function supports the
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dispatch-irql-tracking">Dispatch IRQL Tracking</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

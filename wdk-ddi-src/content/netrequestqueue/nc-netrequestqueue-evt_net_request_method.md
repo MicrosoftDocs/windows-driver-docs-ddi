@@ -87,10 +87,6 @@ The length, in bytes, of the request's input buffer, if an input buffer is avail
 ### -param OutputBufferLength 
 The length, in bytes, of the request's output buffer, if an output buffer is available.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 To register an *EVT_NET_REQUEST_METHOD* callback function, the client driver calls [NET_REQUEST_QUEUE_CONFIG_ADD_METHOD_HANDLER](nf-netrequestqueue-net_request_queue_config_add_method_handler.md) or [NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_METHOD_HANDLER](nf-netrequestqueue-net_request_queue_config_add_initialized_method_handler.md), and then calls [NetRequestQueueCreate](nf-netrequestqueue-netrequestqueuecreate.md).
 

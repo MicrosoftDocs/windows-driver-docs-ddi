@@ -69,10 +69,6 @@ A handle to the descriptor range in the source.
 
 The descriptor heap type.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

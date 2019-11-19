@@ -75,15 +75,6 @@ Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 The absolute value of RSSI, in dB.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

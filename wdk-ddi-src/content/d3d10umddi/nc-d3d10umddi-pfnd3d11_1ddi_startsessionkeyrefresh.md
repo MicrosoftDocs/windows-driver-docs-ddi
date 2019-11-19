@@ -66,10 +66,6 @@ The size, in bytes, of the number in the buffer that is referenced by the <i>pRa
 
 A pointer to a buffer that contains the status sequence number for the random start.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 The hardware and driver can optionally support <b>StartSessionKeyRefresh</b> for all cryptographic types.

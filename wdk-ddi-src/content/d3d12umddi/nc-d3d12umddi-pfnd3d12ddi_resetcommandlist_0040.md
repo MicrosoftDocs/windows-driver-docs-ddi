@@ -54,10 +54,6 @@ A handle to the driver's data for the command list. The driver uses this region 
 
 A pointer to the D3D12DDIARG_RESETCOMMANDLIST_0040 structure that contains arguments to reset the command list.
 
-## -returns
-
-Returns VOID on completion.
-
 ## -prototype
 
 ```cpp

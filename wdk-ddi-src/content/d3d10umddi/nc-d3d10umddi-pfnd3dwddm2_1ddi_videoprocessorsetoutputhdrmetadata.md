@@ -97,10 +97,6 @@ Points to a structure containing the HDR metadata.
 * For D3DDDI_HDR_METADATA_TYPE_HDR10, this is a pointer to a DD3DDDI_HDR_METADATA_HDR10 structure.
 
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 When processing an HDR stream, the driver may use this brightness information to tone map the video content to optimize it for the output display.

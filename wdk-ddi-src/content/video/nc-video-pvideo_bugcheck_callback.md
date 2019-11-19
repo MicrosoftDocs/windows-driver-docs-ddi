@@ -76,15 +76,6 @@ Pointer to the memory location where the miniport driver can store the data that
 Specifies the size, in bytes, of the buffer pointed to by the <i>Buffer</i> parameter.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

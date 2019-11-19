@@ -74,10 +74,6 @@ An optional array of <a href="https://docs.microsoft.com/windows/desktop/api/win
 
 The number of rectangles in the array that the  <i>pRects</i> parameter specifies.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 The D3D10_DDI_RECT structure is defined as a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure.

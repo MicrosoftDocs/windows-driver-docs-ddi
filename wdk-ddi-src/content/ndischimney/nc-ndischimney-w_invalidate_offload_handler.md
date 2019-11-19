@@ -78,15 +78,6 @@ A pointer to an
      structures. These structures identify the offloaded state object that is being invalidated.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -63,15 +63,6 @@ A driver's <i>EvtIoTargetRemoveComplete</i> event callback function performs ope
 A handle to an I/O target object. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

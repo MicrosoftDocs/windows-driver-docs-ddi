@@ -74,15 +74,6 @@ Contains the URB for the <b>URB_FUNCTION_OPEN_STATIC_STREAMS</b>.
 A handle to a UCXENDPOINT object that represents the endpoint.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

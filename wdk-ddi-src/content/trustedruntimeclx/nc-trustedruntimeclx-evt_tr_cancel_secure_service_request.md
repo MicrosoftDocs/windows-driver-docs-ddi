@@ -73,10 +73,6 @@ VOID EvtTrCancelSecureServiceRequest
 
 
 
-## -returns
-
-
-
 ## -remarks
 
 

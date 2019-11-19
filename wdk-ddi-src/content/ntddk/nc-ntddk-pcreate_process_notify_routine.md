@@ -71,15 +71,6 @@ The process ID of the process.
 Indicates whether the process was created (<b>TRUE</b>) or deleted (<b>FALSE</b>).
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

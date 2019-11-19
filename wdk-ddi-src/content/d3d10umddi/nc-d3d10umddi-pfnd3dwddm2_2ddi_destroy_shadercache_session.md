@@ -70,15 +70,6 @@ The handle of a cache session.
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

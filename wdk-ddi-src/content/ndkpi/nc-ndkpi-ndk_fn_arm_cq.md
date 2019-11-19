@@ -107,15 +107,6 @@ Notify when the completion queue receives a send request that includes the ND_OP
  
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

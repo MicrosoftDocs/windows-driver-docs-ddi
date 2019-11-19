@@ -61,10 +61,6 @@ Pointer to a D3D12DDIARG_CREATEELEMENTLAYOUT structure.
 
 An element layout handle.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

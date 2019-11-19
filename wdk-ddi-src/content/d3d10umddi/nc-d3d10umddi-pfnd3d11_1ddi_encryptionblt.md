@@ -80,10 +80,6 @@ A pointer to a block of memory that contains the initialization vector that is r
 </div>
 <div> </div>
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 This function has the following limitations:
