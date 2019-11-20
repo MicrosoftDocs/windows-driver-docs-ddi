@@ -87,19 +87,10 @@ VOID WdfInterruptReleaseLock(
 A handle to a framework interrupt object.
 
 
-## -returns
-
-
-None.
-
-A bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
 
 ## -remarks
 
+A bug check occurs if the driver supplies an invalid object handle.
 
 The <b>WdfInterruptReleaseLock</b> method releases the specified interrupt object's spin lock or wait lock and returns the processor's IRQL to the level that it was set to before the driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>.
 

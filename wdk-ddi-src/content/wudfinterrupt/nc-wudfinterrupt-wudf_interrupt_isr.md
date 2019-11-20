@@ -52,6 +52,23 @@ req.typenames:
 
 A driver's <i>OnInterruptIsr</i> event callback function services a hardware interrupt.
 
+## -syntax
+
+```cpp
+typedef
+BOOLEAN
+_Function_class_(WUDF_INTERRUPT_ISR)
+WUDF_INTERRUPT_ISR(
+    _In_
+    IWDFInterrupt* Interrupt,
+    _In_
+    ULONG MessageID,
+    _In_
+    ULONG Reserved
+    );
+
+typedef WUDF_INTERRUPT_ISR *PFN_WUDF_INTERRUPT_ISR;
+```
 
 ## -parameters
 
@@ -76,17 +93,13 @@ Reserved for system use.
 A pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a> interface.
 
 
-## -returns
-
-
-
-Returns TRUE if the driver acknowledges ownership of the interrupt, and has stopped and acknowledged the interrupt on its device. Otherwise, returns FALSE.
 
 
 
 
 ## -remarks
 
+Returns TRUE if the driver acknowledges ownership of the interrupt, and has stopped and acknowledged the interrupt on its device. Otherwise, returns FALSE.
 
 
 To register an <i>OnInterruptIsr</i> callback function, your driver must place the callback function's address in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/ns-wudfinterrupt-_wudf_interrupt_config">WUDF_INTERRUPT_CONFIG</a> structure before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice3-createinterrupt">IWDFDevice3::CreateInterrupt</a>.
