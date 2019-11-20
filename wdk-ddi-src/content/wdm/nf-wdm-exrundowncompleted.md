@@ -71,7 +71,7 @@ After an <b>ExRundownCompleted</b> call, additional calls to <b>ExWaitForRundown
 
 After an <b>ExRundownCompleted</b> call, the driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exreinitializerundownprotection">ExReInitializeRundownProtection</a> routine to associate the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">EX_RUNDOWN_REF</a> structure with a new object and to initialize run-down protection on this object. After the <b>ExReInitializeRundownProtection</b> call, drivers can call <b>ExAcquireRundownProtection</b> to acquire run-down protection on the new object.
 
-On entry, the status information in the <b>EX_RUNDOWN_REF</b> structure must indicate that the object that was associated with this structure was run down. Otherwise, <b>ExReInitializeRundownProtection</b> bug checks in checked builds.
+On entry, the status information in the <b>EX_RUNDOWN_REF</b> structure must indicate that the object that was associated with this structure was run down. 
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/run-down-protection">Run-Down Protection</a>.
 

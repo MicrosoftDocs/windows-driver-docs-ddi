@@ -65,11 +65,10 @@ Pointer to an <b>IO_REMOVE_LOCK</b> structure that the caller passed in a previo
 
 Pointer to a caller-supplied tag that was passed in a previous call to <b>IoAcquireRemoveLock</b>. 
 
-If a driver specified a <i>Tag</i> when it acquired the lock, the driver must specify the same <i>Tag</i> when releasing the lock. If the tags do not match, this routine asserts on a checked build.
+If a driver specified a <i>Tag</i> when it acquired the lock, the driver must specify the same <i>Tag</i> when releasing the lock. 
 
 If the call to <b>IoAcquireRemoveLock</b> did not specify a <i>Tag</i>, then this parameter is <b>NULL</b>.
 
-The I/O system only uses this parameter on checked builds.
 
 
 ## -remarks
