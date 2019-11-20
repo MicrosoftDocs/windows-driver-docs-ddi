@@ -85,19 +85,11 @@ VOID WdfObjectReleaseLock(
 A handle to a framework device object or a framework queue object.
 
 
-## -returns
-
-
-None.
-
-A bug check occurs if the driver supplies an invalid object handle.
-
-
-
 
 
 ## -remarks
 
+A bug check occurs if the driver supplies an invalid object handle.
 
 The <b>WdfObjectReleaseLock</b> method releases the synchronization lock that a driver acquired by previously calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548721">WdfObjectAcquireLock</a>. <b>WdfObjectReleaseLock</b> also restores the driver's IRQL to the value that it had before the driver called <b>WdfObjectAcquireLock</b>.
 

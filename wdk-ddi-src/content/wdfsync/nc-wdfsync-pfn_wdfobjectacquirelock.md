@@ -85,19 +85,11 @@ VOID WdfObjectAcquireLock(
 A handle to a framework device object or a framework queue object.
 
 
-## -returns
-
-
-None.
-
-A bug check occurs if the driver supplies an invalid object handle.
-
-
-
 
 
 ## -remarks
 
+A bug check occurs if the driver supplies an invalid object handle.
 
 A driver can call the <b>WdfObjectAcquireLock</b> method to acquire the synchronization lock that is associated with a specified framework device object or framework queue object. The method does not return until the lock has been acquired.
 

@@ -61,12 +61,6 @@ A camera minidriver's <i>AdapterReceivePacket</i> callback function processes ad
 Specifies the SRB to be processed by the camera minidriver.
 
 
-## -returns
-
-
-
-<i>AdapterReceivePacket</i> does not return a value.
-
 
 
 
