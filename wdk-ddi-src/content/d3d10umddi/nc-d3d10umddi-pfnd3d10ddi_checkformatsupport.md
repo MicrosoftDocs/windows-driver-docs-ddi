@@ -89,13 +89,11 @@ A pointer to a variable that receives a valid bitwise <b>OR</b> of the following
 |D3D11_1DDI_FORMAT_SUPPORT_MULTIPLANE_OVERLAY (0x00008000)|The format supports multiplane overlays.<br/>Available starting with Windows 8. However, multiplane overlays are supported only in WDDM 1.3 and later drivers, which were introduced with Windows 8.1.|
 |D3DWDDM1_3DDI_FORMAT_SUPPORT_TILED (0x00010000)|The format supports use in a tiled resource of type <b>D3D10DDIRESOURCE_TEXTURE1D</b>, <b>D3D10DDIRESOURCE_TEXTURE2D</b>, or <b>D3D10DDIRESOURCE_TEXTURECUBE</b>.<br/>Available starting with Windows 8.1, and supported only by WDDM 1.3 and later drivers.|
 
-## -returns
-
-None.
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see  Remarks .
-
 ## -remarks
+
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
+
 
 The driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> function to set <b>E_FAIL</b> if the format in the <i>Format</i> parameter does not exist or can set <b>E_INVALIDARG</b> if the <i>pFormatCaps</i> parameter is <b>NULL</b>.
 

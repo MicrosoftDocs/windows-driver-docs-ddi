@@ -70,13 +70,12 @@ A combination of <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 
 A pointer to a variable that receives the number of quality levels that the device supports for the specified number of samples.
 
-## -returns
+## -remarks
 
-None
+
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. The driver can set <b>E_INVALIDARG</b> if the format in the <i>Format</i> parameter does not exist or the <i>pNumQualityLevels</i> parameter is <b>NULL</b>.
 
-## -remarks
 
 If the device does not support multiple sampling with the number of samples that is specified in the <i>SampleCount</i> parameter, the user-mode display driver should return zero in the variable that the <i>pNumQualityLevels</i> parameter points to.
 
