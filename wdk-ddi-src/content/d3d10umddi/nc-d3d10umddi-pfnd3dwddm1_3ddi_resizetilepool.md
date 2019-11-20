@@ -77,7 +77,7 @@ The new size, in bytes, of the tile pool. The size must be a multiple of 64 KB o
 
 
 
-None
+
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. Returns <b>S_OK</b> if successful; otherwise, returns one of the following:
 
