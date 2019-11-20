@@ -50,7 +50,7 @@ req.typenames:
 
 This function is <u>obsolete</u> in Windows XP and later versions of the Windows operating system. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a> instead.
 
-<b>PsGetVersion</b> returns caller-selected information about the current version of the NT-based operating system. 
+
 
 
 ## -parameters
@@ -60,59 +60,22 @@ This function is <u>obsolete</u> in Windows XP and later versions of the Windows
 
 ### -param MajorVersion [out, optional]
 
-Points to a caller-supplied variable that this routine sets to the major version of the operating system. This optional parameter can be <b>NULL</b>. 
 
 
 ### -param MinorVersion [out, optional]
 
-Points to a caller-supplied variable that this routine sets to the minor version of the operating system. This optional parameter can be <b>NULL</b>. 
 
 
 ### -param BuildNumber [out, optional]
 
-Points to a caller-supplied variable that this routine sets to the current build number of the operating system. This optional parameter can be <b>NULL</b>. 
 
 
 ### -param CSDVersion [out, optional]
 
-Points to a caller-allocated buffer in which this routine returns the current service-pack version as a Unicode string only during system driver initialization. This optional parameter can be <b>NULL</b>. 
 
 
 ## -returns
 
-
-
-<b>PsGetVersion</b> returns whether the system is a checked or free build, as follows:
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b><b>TRUE</b> (1)</b></dt>
-</dl>
-</td>
-<td width="60%">
-Checked build of the operating system.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b><b>FALSE</b> (0)</b></dt>
-</dl>
-</td>
-<td width="60%">
-Free build of the operating system. 
-
-</td>
-</tr>
-</table>
- 
 
 
 
@@ -120,10 +83,6 @@ Free build of the operating system.
 ## -remarks
 
 
-
-<b>PsGetVersion</b> returns the requested information, depending on which optional parameter(s) the caller supplies.
-
-To retrieve the current service-pack number, it is easier and more efficient to make an application-level call within the Win32 environment than to call <b>PsGetVersion</b> during system driver initialization, which then must parse the string it returns at <i>CSDVersion</i>. When the registry is initialized, a driver cannot obtain this string from <b>PsGetVersion</b>, but must read the <b>CmCSDVersionString</b> value from the registry. 
 
 
 

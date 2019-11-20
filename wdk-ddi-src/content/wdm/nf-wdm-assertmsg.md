@@ -74,7 +74,7 @@ Specifies any logical expression.
 
 <b>ASSERTMSG</b> is identical to <b>ASSERT</b>, except that it sends an additional message to the debugger.
 
-This macro will only be included in your binary if your code is compiled in a Debug configuration. Once your driver is built, <b>ASSERTMSG</b> will work properly regardless of whether your driver is run on the checked build or on the free build of Windows. 
+This macro will only be included in your binary if your code is compiled in a Debug configuration.
 
 If <i>Expression</i> evaluates to <b>TRUE</b>, this routine has no effect.
 

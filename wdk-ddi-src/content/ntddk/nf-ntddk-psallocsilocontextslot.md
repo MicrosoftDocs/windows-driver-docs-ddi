@@ -60,8 +60,6 @@ This routine allocates a slot that can be used to insert, retrieve, and delete a
 
 This parameter is reserved for future use and <b>must be set to zero</b>. 
 
-<div class="alert"><b>Warning</b>  Setting <i>Reserved</i> to a non-zero value causes the system to execute an <b>ASSERT</b> on a checked build.</div>
-<div> </div>
 
 ### -param ReturnedContextSlot [out]
 

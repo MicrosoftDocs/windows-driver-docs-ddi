@@ -245,7 +245,7 @@ Used for setting up and freeing the objects and resources that drivers might use
 |ZwDeleteKey |Deletes an existing, open key in the registry after the last handle for the key is closed.|
 |ZwMakeTemporaryObject |Resets the "permanent" attribute of an opened object, so that the object and its name can be deleted when the reference count for the object becomes zero.|
 |ZwClose |Releases the handle for an opened object, causing the handle to become invalid, and decrements the reference count of the object handle.|
-|PsGetVersion |Indicates whether the driver is running on a free or checked build, and optionally supplies information about the operating system version and build number. |
+|PsGetVersion |Supplies information about the operating system version and build number. |
 |ObGetObjectSecurity |Returns a buffered security descriptor for a given object. |
 |ObReleaseObjectSecurity |Releases the security descriptor returned by ObGetObjectSecurity.|
 
