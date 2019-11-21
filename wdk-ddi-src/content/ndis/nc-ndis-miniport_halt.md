@@ -122,15 +122,6 @@ NDIS could not initialize the miniport adapter for an unknown reason after the
 NDIS is halting the miniport adapter in response to a PnP stop device message.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

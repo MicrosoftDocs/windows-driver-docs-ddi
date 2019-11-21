@@ -70,10 +70,6 @@ VOID Pfnd3d12ddiEndRenderPass
 
 A D3D12DDI_HCOMMANDLIST (command list) that contains the Render Pass.
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 

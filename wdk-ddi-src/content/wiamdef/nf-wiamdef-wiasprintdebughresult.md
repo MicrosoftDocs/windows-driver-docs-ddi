@@ -1,11 +1,11 @@
 ---
 UID: NF:wiamdef.wiasPrintDebugHResult
 title: wiasPrintDebugHResult function (wiamdef.h)
-description: The wiasPrintDebugHResult function is obsolete for Windows XP and later, and is no longer supported. Use the WIAS_LHRESULT macro instead.This function prints an HRESULT string on the Device Manager debug console.
+description: The wiasPrintDebugHResult function is obsolete.
 old-location: image\wiasprintdebughresult.htm
 tech.root: image
 ms.assetid: f9dc5379-0efa-4743-9460-bfb16945768b
-ms.date: 05/03/2018
+ms.date: 11/18/2019
 ms.keywords: image.wiasprintdebughresult, wiamdef/wiasPrintDebugHResult, wiasFncs_932e688a-da37-4a53-91ff-f0c0abca4f98.xml, wiasPrintDebugHResult, wiasPrintDebugHResult function [Imaging Devices]
 ms.topic: function
 f1_keywords:
@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-The **wiasPrintDebugHResult** function is **obsolete** for Windows XP and later, and is no longer supported. Use the [WIAS_LHRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lhresult) macro instead.
+The **wiasPrintDebugHResult** function is obsolete for Windows XP and later, and is no longer supported. Use the [WIAS_LHRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lhresult) macro instead.
 
 This function prints an HRESULT string on the Device Manager debug console.
 
@@ -54,17 +54,11 @@ This function prints an HRESULT string on the Device Manager debug console.
 
 ### -param hInstance
 
-Is the module handle of the calling module.
+The handle of the calling module.
 
 ### -param hr
 
 Specifies the HRESULT to be printed.
-
-## -returns
-
-On success, the function returns S_OK.
-
-If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
 
 ## -see-also
 

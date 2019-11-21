@@ -64,19 +64,10 @@ The <b>WdfChildListEndScan</b> method processes modifications to a specified chi
 The same handle to a framework child-list object that the driver previously specified to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistbeginscan">WdfChildListBeginScan</a>.
 
 
-## -returns
-
-
-
-None.
-
-A system bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
-
 ## -remarks
+
+A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 

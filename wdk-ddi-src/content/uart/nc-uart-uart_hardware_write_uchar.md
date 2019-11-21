@@ -72,10 +72,6 @@ Specifies a byte to be written to the port or register.
 
 
 
-## -returns
-
-
-
 ## -remarks
 
 Register your implementation of this callback function by setting the **WritePort8** or **WriteRegister8** member of the [**_UART_HARDWARE_ACCESS**](ns-uart-_uart_hardware_access.md) structure.

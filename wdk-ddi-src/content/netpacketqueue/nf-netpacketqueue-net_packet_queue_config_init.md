@@ -47,10 +47,7 @@ ms.custom: RS5
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 The **NET_PACKET_QUEUE_CONFIG_INIT** method initializes a [**NET_PACKET_QUEUE_CONFIG**](ns-netpacketqueue-_net_packet_queue_config.md) structure.
 

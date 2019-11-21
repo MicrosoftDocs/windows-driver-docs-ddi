@@ -82,15 +82,6 @@ A pointer to a context area that the miniport driver created prior to calling
      <b>NdisMAllocateNetBufferSGList</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

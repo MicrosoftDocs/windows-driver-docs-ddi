@@ -61,15 +61,6 @@ The <b>HwStorFreeAdapterResources</b> callback routine allows the Storport virtu
 A pointer to the virtual miniport driver's per-adapter storage area.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

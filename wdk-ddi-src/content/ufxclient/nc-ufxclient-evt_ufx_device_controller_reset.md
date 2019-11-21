@@ -74,15 +74,6 @@ The handle to a  USB device object that the client driver received in a previous
 A pointer to a variable-length UFX_HARDWARE_FAILURE_CONTEXT structure allocated by the client driver.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

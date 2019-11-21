@@ -72,18 +72,9 @@ A handle to the driver's private data for the blend state object to destroy. The
 
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
-
-
-
-
 ## -remarks
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 

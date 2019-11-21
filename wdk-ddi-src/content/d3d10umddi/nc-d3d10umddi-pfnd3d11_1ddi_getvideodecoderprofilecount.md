@@ -62,7 +62,3 @@ A handle to the display device (graphics context).
 
 A pointer to a UINT value that specifies the maximum number of decoder profiles that are supported.
 
-## -returns
-
-This callback function does not return a value.
-

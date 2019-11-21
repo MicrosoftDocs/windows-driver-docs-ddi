@@ -60,10 +60,6 @@ A pointer to an unaligned 128-bit UUID.
 
 A pointer to an aligned variable to receive the 128-bit UUID.
 
-## -returns
-
-None
-
 ## -remarks
 
 The 

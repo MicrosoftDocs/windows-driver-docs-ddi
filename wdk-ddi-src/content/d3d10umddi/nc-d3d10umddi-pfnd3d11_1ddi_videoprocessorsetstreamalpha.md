@@ -95,15 +95,6 @@ A pointer to a <b>FLOAT</b> value that specifies the planar alpha value. The val
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

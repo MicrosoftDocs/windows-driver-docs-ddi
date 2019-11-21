@@ -78,15 +78,6 @@ The peer ID. This is used to identify the  peer in subsequent commands and indic
 The peer MAC address.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

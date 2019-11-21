@@ -43,10 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 The *EvtNetAdapterOffloadSetChecksum* callback function is implemented by the client driver to set changes in active checksum offload capabilities.
 
@@ -77,10 +74,6 @@ A handle to a NETADAPTER object the client driver previously created with a call
 ### -param Offload
 
 A handle to a NETOFFLOAD object that describes the adapter's offload capabilities.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

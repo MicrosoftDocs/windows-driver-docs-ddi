@@ -73,15 +73,6 @@ The current status of the Miracast link, of type <a href="https://docs.microsoft
 A status value the driver can provide that's logged for diagnostics purposes.
 
 
-## -returns
-
-
-
-Does not return a value.
-
-
-
-
 ## -remarks
 
 

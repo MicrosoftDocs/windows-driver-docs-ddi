@@ -70,15 +70,6 @@ A pointer that identifies a DMA channel's context area. The DMA provider returne
      ProviderAllocateDmaChannel</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

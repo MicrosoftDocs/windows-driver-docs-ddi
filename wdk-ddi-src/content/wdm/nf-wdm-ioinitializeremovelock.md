@@ -64,19 +64,19 @@ Pointer to a caller-supplied <b>IO_REMOVE_LOCK</b> structure that this routine i
 
 Specifies a tag to identify the creator of the lock. Driver writers typically use a 4-character string, specified in reverse order, like the tags used for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
-The I/O system uses this parameter if <a href="https://docs.microsoft.com/windows-hardware/drivers/what-s-new-in-driver-development">Driver Verifier</a> is enabled, and on checked builds regardless of whether Driver Verifier is enabled. The caller should always supply a nonzero tag value for this parameter, for both free and checked builds.
+The I/O system uses this parameter if <a href="https://docs.microsoft.com/windows-hardware/drivers/what-s-new-in-driver-development">Driver Verifier</a> is enabled. The caller should always supply a nonzero tag value for this parameter.
 
 ### - param Maxmin [in]
 
 Specifies the maximum number of minutes that this lock should be held. A value of zero means there is no limit. This value is typically used during debugging to identify a driver routine that holds the lock longer than expected.
 
-The I/O system uses this parameter if Driver Verifier is enabled, and on checked builds regardless of whether Driver Verifier is enabled. If the lock is held for more than <i>MaxLockedMinutes</i> on a checked build, the operating system asserts.
+The I/O system uses this parameter if Driver Verifier is enabled. 
 
 ### - param HighWater [in]
 
 Specifies the maximum number of outstanding acquisitions allowed on the lock. Use 0 to specify no maximum. <i>HighWatermark</i> must be <= 0x7FFFFFFF.
 
-The I/O system uses this parameter if Driver Verifier is enabled, and on checked builds regardless of whether Driver Verifier is enabled. If the lock is acquired <i>HighWatermark</i> times on a checked build, the operating system asserts.
+The I/O system uses this parameter if Driver Verifier is enabled. 
 
 
 

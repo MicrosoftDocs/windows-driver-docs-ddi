@@ -67,15 +67,6 @@ retrieve hub properties.
 Contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_hub_info">USBDEVICE_HUB_INFO</a> structure.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

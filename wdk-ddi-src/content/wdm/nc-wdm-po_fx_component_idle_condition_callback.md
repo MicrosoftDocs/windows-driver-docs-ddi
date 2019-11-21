@@ -66,15 +66,6 @@ A pointer to the device context. The device driver uses this context to store in
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <b>PO_FX_DEVICE</b> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

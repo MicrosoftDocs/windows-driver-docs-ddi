@@ -60,13 +60,11 @@ A handle to the display device (graphics context).
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_counter_info">D3DDDIARG_COUNTER_INFO</a> structure that the driver populates with global information that's related to manipulating counters.
 
-## -returns
+## -remarks
 
-None
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
-## -remarks
 
 This function should behave similarly to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_checkcounterinfo">CheckCounterInfo</a> function that supports Microsoft Direct3D 10 and later.
 

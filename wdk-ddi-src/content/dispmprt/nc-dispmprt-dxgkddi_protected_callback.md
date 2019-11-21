@@ -84,15 +84,6 @@ VOID DxgkProtectedCallback(
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

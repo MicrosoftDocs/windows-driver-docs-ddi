@@ -55,10 +55,6 @@ Used by the user mode driver to complete a context.
 
 A pointer to the context.
 
-## -returns
-
-Returns void.
-
 ## -prototype
 
 ```

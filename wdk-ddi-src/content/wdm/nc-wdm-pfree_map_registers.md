@@ -71,15 +71,6 @@ Specifies the map registers allocated for the DMA operation.  The system passes 
 Specifies the number of map registers to be released. This value must match the number specified in an earlier call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel">AllocateAdapterChannel</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

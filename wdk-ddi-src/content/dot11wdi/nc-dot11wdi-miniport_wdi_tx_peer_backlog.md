@@ -82,15 +82,6 @@ The peer ID.
 The backlog state.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

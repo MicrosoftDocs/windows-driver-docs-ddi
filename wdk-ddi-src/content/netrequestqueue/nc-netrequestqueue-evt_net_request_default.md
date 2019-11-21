@@ -44,10 +44,7 @@ product:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 Implemented by the client driver as the default handler for object identifier (OID) requests that are not query, set, or method requests.
 
@@ -97,10 +94,6 @@ The length, in bytes, of the request's input buffer, if an input buffer is avail
 
 ### -param OutputBufferLength 
 The length, in bytes, of the request's output buffer, if an output buffer is available.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 Register your implementation of this callback function by setting the appropriate member of [NET_REQUEST_QUEUE_CONFIG](ns-netrequestqueue-_net_request_queue_config.md) and then calling [NetRequestQueueCreate](nf-netrequestqueue-netrequestqueuecreate.md).

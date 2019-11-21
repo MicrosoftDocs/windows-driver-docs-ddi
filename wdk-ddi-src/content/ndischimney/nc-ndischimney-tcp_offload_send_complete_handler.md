@@ -78,15 +78,6 @@ A pointer to a
      <b>NdisOffloadTcpSend</b> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

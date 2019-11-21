@@ -79,15 +79,6 @@ When non-NULL, a pointer to a single
      NdisOffloadTcpDisconnect</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

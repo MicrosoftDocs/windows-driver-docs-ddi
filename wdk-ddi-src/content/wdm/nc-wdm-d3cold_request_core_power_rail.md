@@ -74,8 +74,6 @@ D3COLD_REQUEST_CORE_POWER_RAIL *PD3COLD_REQUEST_CORE_POWER_RAIL
 [_In_] A flag that indicates whether or not the driver needs the core power rail.
 
 
-## -returns
-
 ## -remarks
 A device driver that successfully queries for the GUID_D3COLD_AUX_POWER_AND_TIMING_INTERFACE interface receives a pointer to a [**D3COLD_AUX_POWER_AND_TIMING_INTERFACE**](ns-wdm-_d3cold_aux_power_and_timing_interface.md) structure in which the driver sets the **RequestCorePowerRail** member to a pointer to its implementation of the _D3COLD_REQUEST_CORE_POWER_RAIL_ callback function.
 

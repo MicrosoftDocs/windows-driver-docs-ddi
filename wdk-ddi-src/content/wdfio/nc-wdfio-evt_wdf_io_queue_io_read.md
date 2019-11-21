@@ -73,15 +73,6 @@ A handle to a framework request object.
 The number of bytes to be read.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

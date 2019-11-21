@@ -76,15 +76,6 @@ A handle for a context area that identifies the shared memory block. This is the
      NetAllocateSharedMemory</a> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

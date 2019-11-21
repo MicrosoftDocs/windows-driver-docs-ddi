@@ -84,15 +84,6 @@ The final status of the request. The underlying driver or NDIS determines this f
      <i>OidRequest</i>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -66,15 +66,6 @@ The client driver's implementation that UCX calls with information about the def
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/ns-ucxendpoint-_default_endpoint_update">DEFAULT_ENDPOINT_UPDATE</a> structure that contains the handle to the default endpoint to be updated.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

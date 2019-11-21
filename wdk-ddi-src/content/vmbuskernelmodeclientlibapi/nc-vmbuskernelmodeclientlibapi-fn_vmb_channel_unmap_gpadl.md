@@ -76,10 +76,6 @@ A handle for a channel.
 
 The handle of the GPADL to unmap.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 > [!IMPORTANT]

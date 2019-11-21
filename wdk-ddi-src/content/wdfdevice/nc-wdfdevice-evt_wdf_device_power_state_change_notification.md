@@ -71,15 +71,6 @@ A handle to a framework device object.
 A pointer to a framework-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_device_power_notification_data">WDF_DEVICE_POWER_NOTIFICATION_DATA</a> structure that identifies the state machine's old and new states.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

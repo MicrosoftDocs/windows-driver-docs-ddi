@@ -64,15 +64,6 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 The handle to the context area that the miniport driver allocated.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

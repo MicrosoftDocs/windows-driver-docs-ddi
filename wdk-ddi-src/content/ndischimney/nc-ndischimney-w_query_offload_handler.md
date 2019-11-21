@@ -78,15 +78,6 @@ A pointer to an
      structures. These structures identify the offloaded state that is being queried.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

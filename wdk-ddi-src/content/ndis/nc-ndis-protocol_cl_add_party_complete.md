@@ -122,15 +122,6 @@ Pointer to a structure of type
      <b>NdisClAddParty</b> but possibly modified subsequently by the call manager.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

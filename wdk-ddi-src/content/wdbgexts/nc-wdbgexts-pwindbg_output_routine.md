@@ -254,15 +254,6 @@ String containing the name of the specified symbol (and displacement, if any), a
  
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

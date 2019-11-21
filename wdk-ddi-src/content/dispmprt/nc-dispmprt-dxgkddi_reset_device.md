@@ -61,15 +61,6 @@ The <i>DxgkDdiResetDevice</i> function sets a display adapter to VGA character m
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

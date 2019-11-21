@@ -76,10 +76,6 @@ A handle for a channel.
 
 If true, the channel requires PASSIVE_LEVEL. If false, packets may arrive at either DISPATCH_LEVEL or PASSIVE_LEVEL.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 > [!IMPORTANT]

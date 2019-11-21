@@ -70,15 +70,6 @@ An optional pointer to a <a href="https://docs.microsoft.com/windows-hardware/dr
 Can be <b>NULL</b> if the network has an error. For more info, see Remarks.
 
 
-## -returns
-
-
-
-Does not return a value.
-
-
-
-
 ## -remarks
 
 

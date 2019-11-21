@@ -67,15 +67,6 @@ A context area that was specified in the <i>ConnectEventContext</i> parameter of
 A pointer to an NDK connector object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>) that represents a new incoming connection request.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

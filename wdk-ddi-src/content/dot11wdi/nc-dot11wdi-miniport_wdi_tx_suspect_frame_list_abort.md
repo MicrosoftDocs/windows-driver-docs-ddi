@@ -82,10 +82,6 @@ The number of suspect frames.
 
 The list of suspected frames. For more information, see the Remarks section.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 Register your implementation of this callback function by setting the appropriate member of the [NDIS_MINIPORT_WDI_DATA_HANDLERS](ns-dot11wdi-_ndis_miniport_wdi_data_handlers.md) structure.

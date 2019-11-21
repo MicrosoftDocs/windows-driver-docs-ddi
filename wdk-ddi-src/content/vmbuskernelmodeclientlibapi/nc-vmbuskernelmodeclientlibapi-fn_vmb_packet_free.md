@@ -70,10 +70,6 @@ VOID FnVmbPacketFree
 
  A pointer to an allocated VMBus packet object.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 > [!IMPORTANT]

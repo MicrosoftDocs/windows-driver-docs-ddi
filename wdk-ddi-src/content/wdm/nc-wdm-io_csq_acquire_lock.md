@@ -66,15 +66,6 @@ Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kern
 Pointer to a variable that the <i>CsqAcquireLock</i> routine can use to store the current IRQL. The system passes the stored value <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_release_lock">CsqReleaseLock</a> when it releases the lock.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

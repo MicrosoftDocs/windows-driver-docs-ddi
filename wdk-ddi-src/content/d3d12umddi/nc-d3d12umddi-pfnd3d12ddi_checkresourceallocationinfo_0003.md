@@ -98,6 +98,3 @@ Indicates the visible node mask.
 
 Pointer to a D3D12DDI_RESOURCE_ALLOCATION_INFO structure.
 
-## -returns
-
-Returns VOID.

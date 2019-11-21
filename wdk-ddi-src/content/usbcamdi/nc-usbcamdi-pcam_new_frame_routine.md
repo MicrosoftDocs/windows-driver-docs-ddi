@@ -69,11 +69,6 @@ Pointer to the camera minidriver's device context.
 Pointer to the camera minidriver's frame context.
 
 
-## -returns
-
-
-
-<b>CamNewVideoFrame</b> does not return a value.
 
 
 

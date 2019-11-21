@@ -57,10 +57,6 @@ Provides a bitmap describing which counters overflowed.
 
 Provides the <b>HANDLE</b> corresponding to the resource set the overflowing counters belong to.
 
-## -returns
-
-None.
-
 ## -remarks
 
 Register your implementation of this callback function by calling [**HalAllocateHardwareCounters**](nf-ntddk-halallocatehardwarecounters.md) with a structure of type [**PHYSICAL_COUNTER_RESOURCE_LIST**](ns-ntddk-_physical_counter_resource_list.md).  In the **PHYSICAL_COUNTER_RESOURCE_LIST**, provide a structure of type [PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR](ns-ntddk-_physical_counter_resource_descriptor.md) that specifies a [**PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE**](ne-ntddk-_physical_counter_resource_descriptor_type.md) of **ResourceTypeOverflow**.

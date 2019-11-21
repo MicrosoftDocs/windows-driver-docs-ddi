@@ -68,10 +68,6 @@ VOID EvtUsbpmEventCallback
 
 [In] A pointer to the caller-spupplied [**USBPM_EVENT_CALLBACK_PARAMS**](ns-usbpmapi-_usbpm_event_callback_params.md) structure that the client driver fills with event-specific data.
 
-## -returns
-
-None.
-
 ## -remarks
 
 The client driver registers its implementation of this callback function by setting the appropriate member of [**USBPM_CLIENT_CONFIG**](ns-usbpmapi-_usbpm_client_config.md) and then calling [**UsbPm_Register**](nf-usbpmapi-usbpm_register.md). Policy Manager can invoke the client driver's implementation before [**UsbPm_Register**] returns.

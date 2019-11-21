@@ -96,15 +96,6 @@ The context tag used to associate the packets of interest with the context of th
      driver.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

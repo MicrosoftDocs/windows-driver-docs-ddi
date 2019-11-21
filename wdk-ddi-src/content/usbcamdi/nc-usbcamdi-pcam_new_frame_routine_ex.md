@@ -76,12 +76,6 @@ Indicates the stream associated with this new frame.
 Pointer to the raw frame buffer length. The length is expressed in bytes. The camera minidriver may decrease this value if it does not require a buffer transfer on the USB bus of the specified size. The camera minidriver should not increase this value.
 
 
-## -returns
-
-
-
-<b>CamNewVideoFrameEx</b> does not return a value.
-
 
 
 

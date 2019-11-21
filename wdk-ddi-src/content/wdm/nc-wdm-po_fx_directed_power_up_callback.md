@@ -75,8 +75,6 @@ Supplies a pointer to the context passed in to [**PoFxRegisterDevice**](https://
 
 Reserved for future use.
 
-## -returns
-
 ## -remarks
 
 WDM drivers that register with PoFx for runtime idle power management support need to implement this callback to add DFx support.

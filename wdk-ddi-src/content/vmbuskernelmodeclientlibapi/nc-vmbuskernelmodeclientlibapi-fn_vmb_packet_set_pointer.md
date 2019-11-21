@@ -76,10 +76,6 @@ A handle for a VMBus packet.
 
  An arbitrary pointer to save in the context of the packet.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 This function is intended to offer a more efficient way to retrieve the context of a client driver.

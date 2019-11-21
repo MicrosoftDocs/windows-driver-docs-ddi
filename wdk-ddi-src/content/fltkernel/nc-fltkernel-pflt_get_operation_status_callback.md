@@ -78,15 +78,6 @@ The NTSTATUS value of the I/O operation generating the callback.
 An optional pointer to a minifilter driver-provided context information of the requester passed from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrequestoperationstatuscallback">FltRequestOperationStatusCallback</a>. 
 
 
-## -returns
-
-
-
-This routine does not return a value.
-
-
-
-
 ## -remarks
 
 

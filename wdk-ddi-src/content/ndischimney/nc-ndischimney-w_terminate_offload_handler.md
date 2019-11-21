@@ -78,15 +78,6 @@ A pointer to an
      structures. These structures identify the offloaded state objects that are being terminated.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

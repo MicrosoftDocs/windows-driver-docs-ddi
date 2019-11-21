@@ -76,15 +76,6 @@ Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardwa
 Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iorequestdpc">IoRequestDpc</a>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

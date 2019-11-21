@@ -66,7 +66,3 @@ Specifies the output surface and output parameters. See [D3D12DDI_VIDEO_DECODE_O
 
 Specifies the input bit stream, parameters, reference frames, and other input parameters for the decode operation.  See [D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0032.md).
 
-## -returns
-
-This callback function does not return a value.
-

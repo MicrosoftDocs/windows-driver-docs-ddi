@@ -44,10 +44,7 @@ targetos: Windows
 
 
 ## -description
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 The **NetTxQueueGetExtension** method retrieves a packet extension for all packets in a transmit (Tx) queue.
 
@@ -59,7 +56,7 @@ The transmit queue object.
 
 ### -param Query
 
-A pointer to a driver-allocated and initialized [**NET_PACKET_EXTENSION_QUERY**](../netadapterpacket/ns-netadapterpacket-_net_packet_extension_query.md) structure that contains information about the desired packet extension.
+A pointer to a driver-allocated and initialized [**NET_EXTENSION_QUERY**](../netadapterpacket/ns-netadapterpacket-_net_extension_query.md) structure that contains information about the desired packet extension.
 
 
 ### -param Extension

@@ -69,15 +69,6 @@ The channel one which the packets are delivered.
 The number of packets which were delivered in this batch.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

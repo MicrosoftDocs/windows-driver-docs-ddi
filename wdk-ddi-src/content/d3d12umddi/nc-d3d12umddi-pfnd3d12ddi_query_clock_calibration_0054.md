@@ -65,10 +65,6 @@ A handle to the command queue.
 
 Pointer to a [D3D12DDI_GPUCLOCKDATA_0054](ns-d3d12umddi-d3d12ddi_gpuclockdata_0054.md) structure that contains the output frequency, GPU clock, and CPU clock on the specified engine.
 
-## -returns
-
-Returns void.
-
 ## -prototype
 
 ```

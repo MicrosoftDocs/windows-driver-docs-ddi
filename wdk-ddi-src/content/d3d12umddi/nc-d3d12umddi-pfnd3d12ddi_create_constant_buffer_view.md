@@ -61,10 +61,6 @@ Pointer to a D3D12DDI_CONSTANT_BUFFER_VIEW_DESC structure.
 
 CPU descriptor handle.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

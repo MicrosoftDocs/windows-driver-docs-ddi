@@ -129,15 +129,6 @@ Pointer to a buffered CO_CALL_PARAMETERS structure. The client allocated this bu
      reflect the results of its negotiation with the network or with a signaling peer.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -76,15 +76,6 @@ The total number of resource views. The number can be -1, which specifies that t
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

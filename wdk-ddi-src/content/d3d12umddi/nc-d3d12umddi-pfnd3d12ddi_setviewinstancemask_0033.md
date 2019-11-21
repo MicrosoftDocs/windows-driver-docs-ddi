@@ -69,11 +69,3 @@ The mask that will be set.
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-

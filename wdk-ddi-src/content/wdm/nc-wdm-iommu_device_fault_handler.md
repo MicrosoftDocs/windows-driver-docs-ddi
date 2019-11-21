@@ -71,10 +71,6 @@ A pointer to the opaque driver-supplied fault context.
 A pointer to a [**FAULT_INFORMATION**](ns-wdm-_fault_information.md) structure that contains fault information.
 
 
-## -returns
-
-.
-
 ## -remarks
 
 Register your implementation of this callback function by setting the **FaultHandler** member of [**DEVICE_FAULT_CONFIGURATION**](ns-wdm-_device_fault_configuration.md).

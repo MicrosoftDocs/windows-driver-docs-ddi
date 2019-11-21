@@ -1,11 +1,11 @@
 ---
 UID: NF:printoem.OEMOutputCharStr
 title: OEMOutputCharStr function (printoem.h)
-description: OEMOutputCharStr function
+description: This function is obsolete.
 old-location: print\oemoutputcharstr.htm
 tech.root: print
 ms.assetid: ac23ec89-b455-4bfd-93a5-2294d8b8ffc2
-ms.date: 04/20/2018
+ms.date: 11/18/2019
 ms.keywords: OEMOutputCharStr, OEMOutputCharStr function [Print Devices], print.oemoutputcharstr, print_obsoletefunctions_250a623a-d7ce-48ba-9163-c24f52eb687d.xml, printoem/OEMOutputCharStr
 ms.topic: function
 f1_keywords:
@@ -44,40 +44,20 @@ req.typenames:
 
 # OEMOutputCharStr function
 
-
 ## -description
 
+This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins.
 
-
+Use [IPrintOemUni::OutputCharStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-outputcharstr) instead.
 
 ## -parameters
 
-
-
-
 ### -param pdevobj
-
 
 ### -param pUFObj
 
-
 ### -param dwType
-
 
 ### -param dwCount
 
-
 ### -param pGlyph [in]
-
-
-## -returns
-
-
-
-This function does not return a value.
-
-<h2><a id="ddk_oemoutputcharstr_gg"></a><a id="DDK_OEMOUTPUTCHARSTR_GG"></a></h2>
-This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-outputcharstr">IPrintOemUni::OutputCharStr</a>.
-
-
-

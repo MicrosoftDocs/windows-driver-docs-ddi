@@ -57,10 +57,6 @@ A handle to the display device (graphics context).
 
 A pipeline state handle.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

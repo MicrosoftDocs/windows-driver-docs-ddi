@@ -60,12 +60,10 @@ The <b>RtlRightChild</b> routine returns a pointer to the right child of the spe
 
 Pointer to the node whose right child is to be returned. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
-## -returns
-**RtlRightChild** returns a pointer to the right child of the node at Links, or it returns NULL if the specified node has no right child. 
-
 
 ## -remarks
 
+**RtlRightChild** returns a pointer to the right child of the node at Links, or it returns NULL if the specified node has no right child. 
 
 
 <b>RtlRightChild</b> can be called repeatedly in conjunction with <b>RtlParent</b> and <b>RtlLeftChild</b> to walk a splay link tree. 

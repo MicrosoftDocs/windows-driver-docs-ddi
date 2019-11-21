@@ -76,10 +76,6 @@ The channel for which to get an instance.
 A pointer to a GUID, which is the interface instance
 of the channel.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 > [!IMPORTANT]

@@ -74,15 +74,6 @@ A handle to a framework request object that the client driver completes when the
 A handle to a UCXENDPOINT object that represents the endpoint.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

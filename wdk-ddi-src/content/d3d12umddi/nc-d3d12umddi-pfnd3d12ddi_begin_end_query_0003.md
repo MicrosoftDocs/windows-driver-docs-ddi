@@ -80,12 +80,6 @@ The type of query. Resolve is used by applications to transform a query result p
 
 The value of the start element.
 
-## -returns
-
-
-
-This callback function does not return a value.
-
 ## -remarks
 
 Begin/End query and resolve query are scheduled commands that are processed on the GPU.  There is no defined entry point to allow CPU processing on the query results.

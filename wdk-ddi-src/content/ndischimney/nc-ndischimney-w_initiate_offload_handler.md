@@ -77,15 +77,6 @@ A pointer to an
      linked list of such structures.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

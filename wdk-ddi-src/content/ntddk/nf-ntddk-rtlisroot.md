@@ -60,13 +60,11 @@ The <b>RtlIsRoot</b> routine determines whether the specified node is the root n
 
 Pointer to the node. The node must have been initialized by calling <b>RtlInitializeSplayLinks</b>. 
 
-## -returns
-
-**RtlIsRoot** returns TRUE if the node at Links has no parent node, FALSE otherwise. 
 
 
 ## -remarks
 
+**RtlIsRoot** returns TRUE if the node at Links has no parent node, FALSE otherwise. 
 
 
 Callers of the <b>Rtl</b> splay link routines are responsible for synchronizing access to the splay link tree. A fast mutex is the most efficient synchronization mechanism to use for this purpose. 

@@ -92,10 +92,6 @@ A pointer to a BOOLEAN value that indicates if the frame requires the send compl
 
 A pointer to the status set by the IHV miniport to indicate the result of *TxQuerySuspectFrameStatus*.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 Register your implementation of this callback function by setting the appropriate member of the [NDIS_WDI_DATA_API](ns-dot11wdi-_ndis_wdi_data_api.md) structure.

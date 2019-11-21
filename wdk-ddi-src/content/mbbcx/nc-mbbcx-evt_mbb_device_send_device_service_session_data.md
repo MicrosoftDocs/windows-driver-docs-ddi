@@ -43,10 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
-> 
-> MBBCx is preview only in Windows 10, version 1903.
+
 
 A client driver's *EvtMbbDeviceSendServiceSessionData* event callback function sends device service session data down to its modem device.
 
@@ -82,10 +79,6 @@ The ID of the device service session obtained from a previous call to [**MbbAdap
 ### -param Data
 
 A WDFMEMORY object containing the data to pass to the device.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

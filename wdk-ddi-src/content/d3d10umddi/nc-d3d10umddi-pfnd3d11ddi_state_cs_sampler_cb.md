@@ -76,15 +76,6 @@ The total number of samplers. The number can be -1, which specifies that the Dir
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

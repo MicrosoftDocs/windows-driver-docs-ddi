@@ -70,15 +70,6 @@ The process ID of the process.
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_ps_create_notify_info">PS_CREATE_NOTIFY_INFO</a> structure that contains information about the new process. If this parameter is NULL, the specified process is exiting.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

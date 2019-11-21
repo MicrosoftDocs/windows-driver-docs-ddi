@@ -72,15 +72,6 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ne-
 <div class="alert"><b>Note</b>  For USB network adapters, this parameter must be <b>NdisDeviceStateD2</b>.</div>
 <div> </div>
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -78,10 +78,6 @@ Pointer to a buffer that contains a structure of type determined by the table be
 Specifies the size, in bytes, of the buffer that the <i>ReasonSpecificData</i> parameter points to. 
 
 
-## -returns
-
-None.
-
 ## -remarks
 
 For information about how to implement this callback routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.

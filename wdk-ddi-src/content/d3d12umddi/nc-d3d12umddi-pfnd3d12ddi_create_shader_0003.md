@@ -73,10 +73,6 @@ Pointer to a D3D12DDIARG_STAGE_IO_SIGNATURES structure.
 
 Flags to create a shader.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

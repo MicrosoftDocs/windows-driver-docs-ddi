@@ -59,10 +59,6 @@ A handle to the display device (graphics context).
 
 A pointer to a D3DWDDM2_6DDI_DEVICEFUNCS structure that contains pointers to the functions of the user-mode display driver.
 
-## -returns
-
-None.
-
 ## -prototype
 
 ```

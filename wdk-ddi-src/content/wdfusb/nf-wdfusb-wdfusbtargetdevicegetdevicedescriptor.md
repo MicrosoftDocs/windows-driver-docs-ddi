@@ -71,19 +71,11 @@ A handle to a USB device object that was obtained from a previous call to <a hre
 A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbspec/ns-usbspec-_usb_device_descriptor">USB_DEVICE_DESCRIPTOR</a> structure that receives the USB device descriptor.
 
 
-## -returns
-
-
-
-None. 
-
-A bug check occurs if a driver-supplied object handle is invalid.
-
-
 
 
 ## -remarks
 
+A bug check occurs if a driver-supplied object handle is invalid.
 
 
 For more information about the <b>WdfUsbTargetDeviceGetDeviceDescriptor</b> method and USB I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/usb-i-o-targets">USB I/O Targets</a>.

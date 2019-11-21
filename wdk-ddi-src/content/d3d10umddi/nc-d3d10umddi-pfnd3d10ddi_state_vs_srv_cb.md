@@ -73,15 +73,6 @@ The total number of DDI handles to samplers. The number can be -1, which specifi
 The beginning of the DDI handles to samplers. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

@@ -75,10 +75,6 @@ A handle to the command list.
 
 A handle to the state object.
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 

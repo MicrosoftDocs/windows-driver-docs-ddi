@@ -61,10 +61,6 @@ A pointer to the buffer that was specified when the callback was registered.
 
 Specifies the length, in bytes, of the buffer that is pointed to by the <i>Buffer</i> parameter.
 
-## -returns
-
-None
-
 ## -remarks
 
 Drivers can supply a <i>BugCheckCallback</i> that resets the device to a known state if the system issues a bug check.

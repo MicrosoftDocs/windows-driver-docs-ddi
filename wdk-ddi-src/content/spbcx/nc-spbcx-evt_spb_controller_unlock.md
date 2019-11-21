@@ -71,15 +71,6 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to an I/O control request to unlock the controller. Your SPB controller driver must complete this request either by performing the requested operation or by returning an error status. For more information, see Remarks.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

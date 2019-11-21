@@ -59,10 +59,6 @@ A handle to the command list.
 
 Description of the acceleration structure to build.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

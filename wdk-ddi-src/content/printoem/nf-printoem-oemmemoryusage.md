@@ -1,11 +1,11 @@
 ---
 UID: NF:printoem.OEMMemoryUsage
 title: OEMMemoryUsage function (printoem.h)
-description: This function is obsolete for Windows XP and later.wcs
+description: This function is obsolete.
 old-location: print\oemmemoryusage__function_.htm
 tech.root: print
 ms.assetid: ae78fc9a-06a2-466f-875c-9c35aec13336
-ms.date: 04/20/2018
+ms.date: 11/18/2019
 ms.keywords: OEMMemoryUsage, OEMMemoryUsage function [Print Devices], print.oemmemoryusage__function_, print_obsoletefunctions_35165216-4a29-4096-95b6-5f5b00418193.xml, printoem/OEMMemoryUsage
 ms.topic: function
 f1_keywords:
@@ -44,32 +44,18 @@ req.typenames:
 
 # OEMMemoryUsage function
 
-
 ## -description
 
+This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins.
 
-This function is obsolete for Windows XP and later.wcs
-
+Use [IPrintOemUni::MemoryUsage](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-memoryusage) instead.
 
 ## -parameters
 
-
-
-
 ### -param pdevobj
 
+Pointer to device object.
 
 ### -param pMemoryUsage [in, out]
 
-
-## -returns
-
-
-
-This function does not return a value.
-
-<h2><a id="ddk_oemmemoryusage_function__gg"></a><a id="DDK_OEMMEMORYUSAGE_FUNCTION__GG"></a></h2>
-This function is obsolete for Windows XP and later. It is supported only for earlier Unidrv plug-ins. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-memoryusage">IPrintOemUni::MemoryUsage</a> instead.
-
-
-
+Pointer to OEMMEMORYUSAGE structure.

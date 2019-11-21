@@ -69,10 +69,6 @@ VOID EvtTrProcessOtherDeviceIo
 
 
 
-## -returns
-
-
-
 ## -remarks
 
 

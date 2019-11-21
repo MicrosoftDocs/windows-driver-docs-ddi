@@ -84,15 +84,6 @@ The processing status for the state change notification.
 A pointer to the miniport driver's per-HBA storage area. 
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

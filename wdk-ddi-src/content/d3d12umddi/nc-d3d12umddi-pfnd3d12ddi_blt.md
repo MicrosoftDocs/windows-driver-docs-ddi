@@ -56,10 +56,6 @@ A handle to the driver's data for the command list. The driver uses this region 
 
 A pointer to a D3D12DDIARG_BLT structure that describes the parameters of the bit-block transfer (bitblt).
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```

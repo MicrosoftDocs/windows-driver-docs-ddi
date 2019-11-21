@@ -65,15 +65,6 @@ channel.
 The channel that the guest virtual machine closes.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

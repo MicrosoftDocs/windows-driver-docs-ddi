@@ -100,15 +100,6 @@ The context of the callback function that is defined when the provider called <a
 The parameter indicates whether the provider is being enabled or disabled. The value is <b>TRUE</b> if the session enabled the provider; otherwise, it is <b>FALSE</b>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

@@ -79,15 +79,6 @@ The peer ID.
 The Extended TID bitmask.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

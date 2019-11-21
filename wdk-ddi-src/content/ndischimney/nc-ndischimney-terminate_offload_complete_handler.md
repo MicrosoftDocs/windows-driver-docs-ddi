@@ -78,15 +78,6 @@ A pointer to an
      attempted to be terminated.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

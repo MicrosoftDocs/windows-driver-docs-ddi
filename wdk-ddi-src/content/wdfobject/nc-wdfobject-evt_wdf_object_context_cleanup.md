@@ -63,15 +63,6 @@ A driver's <i>EvtCleanupCallback</i> event callback function removes the driver'
 A handle to a framework object.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

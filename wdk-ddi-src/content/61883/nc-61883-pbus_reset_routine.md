@@ -66,15 +66,6 @@ Pointer to the context supplied by the caller at the <b>Context</b> member of th
 The bus reset information. 
 
 
-## -returns
-
-
-
-This callback does not return a value.
-
-
-
-
 ## -see-also
 
 

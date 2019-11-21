@@ -75,15 +75,6 @@ The client driver's implementation that UCX calls to start the queue associated 
 A handle to a UCXENDPOINT object that represents the endpoint.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

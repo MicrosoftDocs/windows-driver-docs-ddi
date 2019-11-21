@@ -66,15 +66,6 @@ Pointer to the video miniport driver's per-adapter storage area. For more inform
 Supplies a value that specifies whether to set the serial data line to high or low. A value of 0 specifies that the data line should be set to low, and a value of 1 specifies that the data line should be set to high.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

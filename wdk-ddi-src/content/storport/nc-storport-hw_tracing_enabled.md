@@ -69,15 +69,6 @@ True to enable tracing in the miniport. Otherwise, false.
 A pointer to the miniport driver's per-HBA storage area. 
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

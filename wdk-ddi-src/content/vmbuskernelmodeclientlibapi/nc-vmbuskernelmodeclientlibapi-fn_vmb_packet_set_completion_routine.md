@@ -75,10 +75,6 @@ The packet for which to specify a completion routine.
 
 Function to call when the packet is completed.
 
-## -returns
-
-This function does not return a value.
-
 ## -remarks
 
 > [!IMPORTANT]

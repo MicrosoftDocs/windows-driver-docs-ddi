@@ -71,9 +71,6 @@ A pointer to a variable that contains the port or register address.
 A USHORT value to be written to the port or register.
 
 
-## -returns
-
-
 ## -remarks
 
 Register your implementation of this callback function by setting the appropriate member of the [**_UART_HARDWARE_ACCESS**](ns-uart-_uart_hardware_access.md) structure.

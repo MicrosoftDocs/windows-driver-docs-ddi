@@ -71,15 +71,6 @@ A handle to a framework request object that represents the request.
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/ns-udecxusbdevice-_udecx_endpoints_configure_params">UDECX_ENDPOINTS_CONFIGURE_PARAMS</a> structure that describes the configuration options.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

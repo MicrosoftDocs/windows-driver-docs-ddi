@@ -46,17 +46,14 @@ product:
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 Calculates the number of elements contained in a range of the specified net ring buffer.
 
 ## -parameters
 
 ### -param RingBuffer
-A pointer to a [**NET_RING**](../ring/ns-netring-_net_ring.md).
+A pointer to a [**NET_RING**](../ring/ns-ring-_net_ring.md).
 
 ### -param StartIndex
 The inclusive start of the range to measure.

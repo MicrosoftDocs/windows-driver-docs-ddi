@@ -66,7 +66,3 @@ The parameters for the write buffer.
 
 The modes for the write buffer.
 
-## -returns
-
-This callback function does not return a value.
-

@@ -72,15 +72,6 @@ The handle of the cache session for the driver to use when it calls back into th
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

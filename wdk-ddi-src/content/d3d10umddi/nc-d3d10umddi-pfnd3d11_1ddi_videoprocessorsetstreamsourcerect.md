@@ -97,15 +97,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns
 </div>
 <div> </div>
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

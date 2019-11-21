@@ -63,10 +63,6 @@ A [D3D12DDI_SHADING_RATE_0062](ne-d3d12umddi-d3d12ddi_shading_rate_0062.md) enum
 
 Pointer to a [D3D12DDI_SHADING_RATE_COMBINER_0062](ne-d3d12umddi-d3d12ddi_shading_rate_combiner_0062.md) enum that indicates the combined shading rate.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```

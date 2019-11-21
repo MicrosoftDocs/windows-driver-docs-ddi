@@ -85,15 +85,6 @@ The zero-based index of an input stream. This parameter is used if the <i>AlphaF
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

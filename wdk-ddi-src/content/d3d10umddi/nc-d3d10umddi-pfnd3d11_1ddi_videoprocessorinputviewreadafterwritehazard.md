@@ -76,15 +76,6 @@ A handle to the driver's private data for an input view resource object. This ha
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

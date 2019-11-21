@@ -64,15 +64,6 @@ the opposite endpoint.
 The channel for these endpoints.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -4,7 +4,7 @@ title: _MBB_MBIM_EXTENDED_VERSION (mbbcx.h)
 description: The MBB_MBIM_EXTENDED_VERSION enumeration defines the version of the extended MBIM specification that a client driver and its device support. 
 tech.root: netvista
 ms.assetid: 38F07398-3659-46A3-A0E6-FAD5B18E0934
-ms.date: 02/06/2019
+ms.date: 09/27/2019
 ms.topic: enum
 f1_keywords:
  - "mbbcx/-	_MBB_MBIM_EXTENDED_VERSION"
@@ -46,22 +46,22 @@ The **MBB_MBIM_EXTENDED_VERSION** enumeration defines the version of the extende
 
 ## -enum-fields
 
-### -field MBB_MBIM_EXTENDED_VERSION1_0 
+### -field MbbMbimExtendedVersion1Dot0 
 
 The client driver and device support the extended MBIM specification Rev 1.0.
 
-### -field MBB_MBIM_EXTENDED_VERSION2_0
+### -field MbbMbimExtendedVersion2Dot0
 
 The client driver and device support the extended MBIM specification Rev 2.0.
 
-### -field MBB_MBIM_HIGHEST_SUPPORTED_EXTENDED_VERSION
+### -field MbbMbimExtendedVersion3Dot0
 
-The highest version of the extended MBB specification that the client driver and its device support.
+The client driver and device support the extended MBIM specification Rev 3.0.
 
 ## -remarks
 
 Client drivers set the MBIM specification extended version they support in the **ExtendedVersion** member of the [**MBB_DEVICE_MBIM_PARAMETERS**](ns-mbbcx-_mbb_device_mbim_parameters.md) structure. 
 
-Currently, client drivers must set the value of this field to **MBB_MBIM_EXTENDED_VERSION2_0**.
+Currently, client drivers must set the value of this field to **MbbMbimExtendedVersion2Dot0**.
 
 ## -see-also

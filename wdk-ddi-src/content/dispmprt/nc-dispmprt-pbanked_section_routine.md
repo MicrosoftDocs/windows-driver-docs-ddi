@@ -80,10 +80,6 @@ VOID PbankedSectionRoutine
 
 
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 

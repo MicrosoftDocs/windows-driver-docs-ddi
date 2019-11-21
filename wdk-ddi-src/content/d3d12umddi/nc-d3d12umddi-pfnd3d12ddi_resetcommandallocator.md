@@ -53,10 +53,6 @@ Implemented by the client driver to reset the command allocator.
 
 A handle to the command allocator.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

@@ -68,15 +68,6 @@ A handle to a framework device object.
 A DEVICE_RELATION_TYPE-typed enumerator value. The DEVICE_RELATION_TYPE enumeration is defined in <i>wdm.h</i>.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

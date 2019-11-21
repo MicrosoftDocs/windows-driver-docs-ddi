@@ -70,15 +70,6 @@ A pointer to a context that was previously supplied in the <a href="https://docs
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -66,15 +66,6 @@ Pointer to one of the caller's device objects. This is the pointer that was pass
 Specifies driver-specific context information. This is the value that was passed as the <i>Context</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a> when the work item was queued.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

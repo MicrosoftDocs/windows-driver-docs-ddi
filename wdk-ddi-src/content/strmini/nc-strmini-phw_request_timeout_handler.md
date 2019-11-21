@@ -70,15 +70,6 @@ The stream class driver calls the minidriver's <i>StrMiniRequestTimeout</i> rout
 Pointer to the stream request that has timed out.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

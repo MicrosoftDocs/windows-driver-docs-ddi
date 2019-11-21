@@ -63,15 +63,6 @@ The
 Pointer to the BRB to free.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

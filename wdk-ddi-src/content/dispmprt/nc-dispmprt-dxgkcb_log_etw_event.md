@@ -78,15 +78,6 @@ A pointer to a buffer that contains the information to be logged.
 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

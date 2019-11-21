@@ -76,15 +76,6 @@ The TX status, specified as a <a href="https://docs.microsoft.com/windows-hardwa
 The null-terminated list of frame buffers that have been transferred to the target.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

@@ -87,15 +87,6 @@ Indicates that NDIS called
        <i>MiniportShutdownEx</i> because of a system error.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

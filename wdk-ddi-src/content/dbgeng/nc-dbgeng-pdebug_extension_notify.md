@@ -123,15 +123,6 @@ The debugging session has started running and is now inaccessible.
 Set to zero. (Reserved for future use.)
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

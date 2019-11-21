@@ -99,10 +99,6 @@ A pointer to a block of memory that contains the initialization vector that is r
 </div>
 <div> </div>
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 For 128-bit AES-CTR encryption, the <i>pIV</i> parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv">D3D11_1DDI_AES_CTR_IV</a> structure that is allocated by the application. However, the actual contents of this structure are filled in by the driver or graphics adapter.  When the first IV is generated, the driver or adapter  initializes the <b>IV</b> member of this structure to a random number. For each subsequent IV, the caller increments the <b>IV</b> member, ensuring that the value always increases. This procedure enables the application to validate that the same IV is never used more than once with the same key pair.

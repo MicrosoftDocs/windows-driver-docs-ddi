@@ -66,15 +66,6 @@ A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ker
 The context value that your driver previously supplied as the <i>CallbackContext</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a> routine.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

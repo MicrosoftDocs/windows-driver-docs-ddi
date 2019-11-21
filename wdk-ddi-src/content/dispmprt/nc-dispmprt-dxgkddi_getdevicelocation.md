@@ -77,10 +77,6 @@ The miniport context that is returned by the driver in the [DXGKDDI_SRIOV_INTERF
 
 Pointer to the DXGKARG_GETDEVICELOCATION structure.
 
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
 VF indices are incrementing, but the bus location is not directly tied to the index. This function retrieves the actual PCIe bus location of a virtual function.

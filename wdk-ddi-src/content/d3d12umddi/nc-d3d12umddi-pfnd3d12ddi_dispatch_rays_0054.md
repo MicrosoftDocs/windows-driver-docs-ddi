@@ -57,10 +57,6 @@ A handle to the command list.
 
 Pointer to the [D3D12DDIARG_DISPATCH_RAYS_0054](ns-d3d12umddi-d3d12ddiarg_dispatch_rays_0054.md) structure.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

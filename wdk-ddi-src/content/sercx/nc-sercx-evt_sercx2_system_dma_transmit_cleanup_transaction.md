@@ -61,15 +61,6 @@ The <i>EvtSerCx2SystemDmaTransmitCleanupTransaction</i> event callback function 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2systemdmatransmitcreate">SerCx2SystemDmaTransmitCreate</a> method to create this object.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

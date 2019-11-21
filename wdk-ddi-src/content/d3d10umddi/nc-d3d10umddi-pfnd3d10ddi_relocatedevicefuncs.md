@@ -62,13 +62,11 @@ A handle to the display device (graphics context).
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10ddi_devicefuncs">D3D10DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver.
 
-## -returns
+## -remarks
 
-None
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code.
 
-## -remarks
 
 A user-mode display driver can use the <i>RelocateDeviceFuncs</i> function to replace function pointers in the driver function table.
 

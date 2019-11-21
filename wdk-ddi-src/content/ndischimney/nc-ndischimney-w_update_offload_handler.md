@@ -79,15 +79,6 @@ A pointer to an
      variables are updated.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

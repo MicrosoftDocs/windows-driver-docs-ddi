@@ -62,10 +62,6 @@ A handle to the display adapter.
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setrootpagetable">DXGKARG_SETROOTPAGETABLE</a> structure that describes the operation.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_setrootpagetable">DXGKARG_SETROOTPAGETABLE</a>

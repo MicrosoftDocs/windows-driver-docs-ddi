@@ -68,15 +68,6 @@ A handle to an I/O queue object.
 Driver-defined context information that the driver specified when it registered the <i>EvtIoQueueState</i> callback function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

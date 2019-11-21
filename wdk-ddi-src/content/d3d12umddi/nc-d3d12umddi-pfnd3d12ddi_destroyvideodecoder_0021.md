@@ -65,14 +65,6 @@ A handle to the display device (graphics context).
 Holds the HVideoDecoder
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
 ## -remarks
 
 The decoder may be used to record commands with multiple command lists, but commands cannot be recorded simultaneously.  The application is responsible for synchronizing access to the decoder while recording commands.

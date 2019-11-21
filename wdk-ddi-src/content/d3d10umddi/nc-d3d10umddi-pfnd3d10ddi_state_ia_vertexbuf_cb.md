@@ -75,15 +75,6 @@ The total number of vertex buffers. The number can be -1, which specifies that t
 The beginning vertex buffer for which the runtime should refresh state. 
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -see-also
 
 

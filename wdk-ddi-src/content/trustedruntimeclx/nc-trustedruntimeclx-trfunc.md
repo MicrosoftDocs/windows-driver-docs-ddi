@@ -67,10 +67,6 @@ VOID Trfunc
 
 
 
-## -returns
-
-
-
 ## -remarks
 
 

@@ -74,15 +74,6 @@ A pointer to a UINT value that specifies the maximum number of buffer types that
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

@@ -75,10 +75,6 @@ A zero-based index for the port.
 Specifies a byte to be written to the register.
 
 
-## -returns
-
-
-
 ## -remarks
 
 Register your implementation of this callback function by setting the appropriate member of the [**_CPPORT**](ns-uart-_cpport.md) structure.

@@ -71,15 +71,6 @@ Specifies the component number. This parameter is an index into the <b>Component
 Specifies the new Fx power state that the component will change to. If this parameter is zero, the new state is F0; if this parameter is one, the new state is F1; and so on.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

@@ -81,15 +81,6 @@ The length, in bytes, of the request's input buffer, if an input buffer is avail
 The driver-defined or system-defined I/O control code (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">IOCTL</a>) that is associated with the request.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

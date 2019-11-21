@@ -75,15 +75,6 @@ Pointer to a single <a href="https://docs.microsoft.com/windows-hardware/drivers
 Pointer to the status set by the IHV to indicate the result of the <i>MINIPORT_WDI_TX_TARGET_DESC_INIT</i> callback function.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

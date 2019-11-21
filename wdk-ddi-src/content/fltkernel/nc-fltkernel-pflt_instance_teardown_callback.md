@@ -66,10 +66,6 @@ Flag that indicates why the minifilter driver instance is being torn down. One o
 | FLTFL_INSTANCE_TEARDOWN_MANUAL | The instance is being detached because a user-mode application has called [**FilterDetach**](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterdetach) or a kernel-mode component has called [**FltDetachVolume**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdetachvolume). |
 | FLTFL_INSTANCE_TEARDOWN_VOLUME_DISMOUNT | If set, the volume is being dismounted. (Or the volume has already been dismounted. Or the volume mount operation failed. Or the minifilter driver instance or the volume is being torn down. Or the file system unregistered itself as an active file system.) |
 
-## -returns
-
-None
-
 ## -remarks
 
 When a minifilter driver registers itself by calling [**FltRegisterFilter**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltregisterfilter) from its [**DriverEntry**](https://docs.microsoft.com/windows-hardware/drivers/ifs/writing-a-driverentry-routine-for-a-minifilter-driver) routine, it can register two routines of type PFLT_INSTANCE_TEARDOWN_CALLBACK as the minifilter driver's *InstanceTeardownStartCallback* and *InstanceTeardownCompleteCallback* routines. To register these callback routines, the minifilter driver stores the addresses of the two routines of type PFLT_INSTANCE_TEARDOWN_CALLBACK in the **InstanceTeardownStartCallback** and **InstanceTeardownCompleteCallback** members of the [FLT_REGISTRATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_registration) structure that the minifilter driver passes as the *Registration* parameter of **FltRegisterFilter**.

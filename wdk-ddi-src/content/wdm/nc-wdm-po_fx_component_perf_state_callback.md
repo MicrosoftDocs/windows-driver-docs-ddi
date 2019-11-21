@@ -76,15 +76,6 @@ If TRUE, the platform extension plug-in (PEP) succeeded the performance state ch
 Pointer to the optional driver or device context that was specified by the <i>Context</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxissuecomponentperfstatechange">PoFxIssueComponentPerfStateChange</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pofxissuecomponentperfstatechangemultiple">PoFxIssueComponentPerfStateChangeMultiple</a> routine.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

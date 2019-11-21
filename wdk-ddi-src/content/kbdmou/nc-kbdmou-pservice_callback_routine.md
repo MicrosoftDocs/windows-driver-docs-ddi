@@ -76,15 +76,6 @@ Pointer to the keyboard input data packet that immediately follows the last data
 Pointer to the number of keyboard input data packets that are transferred by the routine.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

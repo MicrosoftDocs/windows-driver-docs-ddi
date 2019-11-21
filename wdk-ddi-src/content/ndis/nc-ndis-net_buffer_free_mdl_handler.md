@@ -63,15 +63,6 @@ The
 A pointer to the MDL that is to be freed.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

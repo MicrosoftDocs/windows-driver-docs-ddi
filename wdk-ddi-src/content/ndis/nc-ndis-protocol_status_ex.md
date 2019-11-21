@@ -74,15 +74,6 @@ A pointer to an
      that contains the status information.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

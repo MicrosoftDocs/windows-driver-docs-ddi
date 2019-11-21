@@ -83,15 +83,6 @@ The length, in bytes, of the request's input buffer, if an input buffer is avail
 The driver-defined or system-defined IOCTL that is associated with the request.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

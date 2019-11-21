@@ -57,10 +57,6 @@ A handle to the graphics context device.
 
 Pointer to a [D3DDDIARG_SYNCTOKEN](ns-d3dumddi-_d3dddiarg_synctoken.md) structure.
 
-## -returns
-
-Returns VOID.
-
 ## -prototype
 
 ```cpp

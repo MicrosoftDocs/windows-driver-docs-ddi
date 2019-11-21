@@ -76,15 +76,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 Driver-defined context information that the driver specified when it registered the <i>EvtNfcCxSequenceHandler</i> callback function.
 
 
-## -returns
-
-
-
-None.
-
-
-
-
 ## -remarks
 
 

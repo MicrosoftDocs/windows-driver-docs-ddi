@@ -88,15 +88,6 @@ Indicates the result of the query operation.  See the <i>Remarks</i> section for
 The number of backlogged frames in the specified RA/TID  or Port queue.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

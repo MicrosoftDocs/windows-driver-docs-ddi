@@ -108,15 +108,6 @@ The upper bound for the luma key. The valid range is from zero to one.
 
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -remarks
 
 

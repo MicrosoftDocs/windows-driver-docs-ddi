@@ -64,19 +64,10 @@ The <b>WdfChildListBeginScan</b> method prepares a specified list of child devic
 A handle to a framework child list object.
 
 
-## -returns
-
-
-
-None.
-
-A system bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
-
 ## -remarks
+
+A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 

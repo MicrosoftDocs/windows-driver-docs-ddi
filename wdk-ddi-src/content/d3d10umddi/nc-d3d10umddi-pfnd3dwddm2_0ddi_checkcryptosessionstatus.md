@@ -62,10 +62,6 @@ A handle to the cryptographic session object that was created through a call to 
 
 Receives a status as a value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3dwddm2_0ddi_crypto_session_status">D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS</a> enumeration.
 
-## -returns
-
-This callback function does not return a value.
-
 ## -remarks
 
 The application may call this DDI after receiving a hardware content protection tear-down notification to determine the state of the underlying hardware key and protected content.

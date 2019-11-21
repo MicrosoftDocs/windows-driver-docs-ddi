@@ -90,15 +90,6 @@ Specifies driver-defined context information. When it added the DPC to the DPC q
 For <i>CustomTimerDpc</i>,  this value is not used.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

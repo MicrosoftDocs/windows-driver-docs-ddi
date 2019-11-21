@@ -70,15 +70,6 @@ TAL device handle returned by the IHV miniport in <a href="https://docs.microsof
 Port ID for the port being reset.
 
 
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
-
 ## -see-also
 
 

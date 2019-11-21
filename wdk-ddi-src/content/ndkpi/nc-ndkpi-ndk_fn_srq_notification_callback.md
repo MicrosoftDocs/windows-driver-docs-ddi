@@ -98,15 +98,6 @@ A catastrophic error occurred on the SRQ. The SRQ is unusable. All of the associ
  
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

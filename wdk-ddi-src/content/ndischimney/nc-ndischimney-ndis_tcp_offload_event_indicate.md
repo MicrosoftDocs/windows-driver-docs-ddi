@@ -138,15 +138,6 @@ Specifies the optimum number of send data bytes that the host stack should have 
        the offload target.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

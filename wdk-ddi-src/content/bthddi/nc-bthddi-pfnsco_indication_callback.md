@@ -86,15 +86,6 @@ A
      <i>Indication</i> parameter.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

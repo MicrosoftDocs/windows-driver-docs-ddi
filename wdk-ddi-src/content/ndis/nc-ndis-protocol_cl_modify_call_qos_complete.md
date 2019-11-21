@@ -123,15 +123,6 @@ Pointer to a buffered CO_CALL_PARAMETERS structure containing the client-specifi
      which the call manager has restored.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

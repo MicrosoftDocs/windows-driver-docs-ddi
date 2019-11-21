@@ -76,15 +76,6 @@ Specifies the number of pages of system memory that the video port driver should
 Specifies the page offset into the reserved physical address range identified by <b>PhysicalReserveContext</b> that indicates the actual base address at which to unmap system memory.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 

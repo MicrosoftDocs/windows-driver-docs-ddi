@@ -64,18 +64,10 @@ The <b>WdfPdoClearEjectionRelationsDevices</b> method removes all devices from t
 A handle to a framework device object.
 
 
-## -returns
-
-
-
-None.
-
-A system bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
 ## -remarks
+
+A bug check occurs if the driver supplies an invalid object handle.
+
 
 
 

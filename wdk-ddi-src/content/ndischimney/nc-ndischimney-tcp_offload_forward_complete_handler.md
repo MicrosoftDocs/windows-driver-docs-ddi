@@ -79,15 +79,6 @@ A pointer to a
      <b>NdisOffloadTcpForward</b> function.
 
 
-## -returns
-
-
-
-None
-
-
-
-
 ## -remarks
 
 
