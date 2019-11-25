@@ -46,32 +46,6 @@ An interface implemented by callers to receive errors from certain portions of t
 
 ## -inheritance
 IDebugHostErrorSink interits from IUnknown. 
-## -members
-
-<p>IDebugHostErrorSink has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ReportError</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 The IDebugHostErrorSink is a means by which a client can receive notifications of errors which occur during certain operations and route those errors where needed. 

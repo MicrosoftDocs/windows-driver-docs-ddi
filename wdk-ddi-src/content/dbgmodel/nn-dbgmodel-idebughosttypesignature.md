@@ -46,40 +46,6 @@ A definition which will match a set of types by module and/or name.
 
 ## -inheritance
 IDebugHostTypeSignature interits from IUnknown. 
-## -members
-
-<p>IDebugHostTypeSignature has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetHashCode</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>IsMatch</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CompareAgainst</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

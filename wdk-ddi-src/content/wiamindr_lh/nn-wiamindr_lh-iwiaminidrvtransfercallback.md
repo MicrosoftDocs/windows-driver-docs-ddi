@@ -50,15 +50,6 @@ This is a Callback interface that is called by the WIA mini-driver for stream-ba
 
 ## -inheritance
 
-## -members
-
-The **IWiaMiniDrvTransferCallback** interface has these methods.
-
-| Method | Description |
-| --- | --- |
-| [GetNextStream](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvtransfercallback-getnextstream) | Called by the WIA mini-driver to obtain a stream for the current data transfer (download or upload). |
-| [SendMessage](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvtransfercallback-sendmessage) | Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer. |
-
 ## -see-also
 
 [Cancellation of Data Transfers](https://docs.microsoft.com/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista)

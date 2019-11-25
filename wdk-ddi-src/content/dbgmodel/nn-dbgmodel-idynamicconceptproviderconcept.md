@@ -46,48 +46,6 @@ The object is a dynamic provider of keys and wishes to take over all key queries
 
 ## -inheritance
 IDynamicConceptProviderConcept interits from IUnknown. 
-## -members
-
-<p>IDynamicConceptProviderConcept has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetConcept</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetConcept</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>NotifyParent</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>NotifyParentChange</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>NotifyDestruct</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 **Dynamic Provider Concepts**

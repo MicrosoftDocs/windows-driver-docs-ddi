@@ -44,32 +44,6 @@ Supports the ability to compare this object to another (of arbitrary type) for e
 
 ## -inheritance
 IEquatableConcept interits from IUnknown. 
-## -members
-
-<p>IEquatableConcept has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AreObjectsEqual</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

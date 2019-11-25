@@ -58,44 +58,6 @@ The <b>IKsInterfaceHandler</b> interface provides methods that marshal samples i
 
 
 
-## -members
-
-The <b>IKsInterfaceHandler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksinterfacehandler-kscompleteio">KsCompleteIo</a>
-</td>
-<td align="left" width="63%">
-Cleans up extended headers and releases media samples. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksinterfacehandler-ksprocessmediasamples">KsProcessMediaSamples</a>
-</td>
-<td align="left" width="63%">
-Queries for the extended header size if a data handler is specified. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksinterfacehandler-kssetpin">KsSetPin</a>
-</td>
-<td align="left" width="63%">
-Informs an interface handler about the pin with which to communicate when passing data.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
 
 

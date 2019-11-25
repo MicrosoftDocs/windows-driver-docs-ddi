@@ -60,35 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterQueue2</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPrinterQueue2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue2-getprinterqueueview">GetPrinterQueueView</a>
-</td>
-<td align="left" width="63%">
-Retrieves an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview">IPrinterQueueView</a> object, and initializes the object with the range of jobs to be monitored.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue2-sendbidisetrequestasync">SendBidiSetRequestAsync</a>
-</td>
-<td align="left" width="63%">
-Uses an XML string value to send a Bidi Set request as an asynchronous operation.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
 
 

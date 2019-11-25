@@ -57,26 +57,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugAdvanced4</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDebugAdvanced4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced4-getsymbolinformationwideex">GetSymbolInformationWideEx</a>
-</td>
-<td align="left" width="63%">
- Returns specified information about a symbol.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
 

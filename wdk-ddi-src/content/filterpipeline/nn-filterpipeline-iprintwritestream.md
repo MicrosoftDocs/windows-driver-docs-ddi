@@ -58,31 +58,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintWriteStream</b> interfa
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPrintWriteStream</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintwritestream-close">IPrintWriteStream::Close</a>
-</td>
-<td align="left" width="63%">
-The <code>Close</code> method closes a stream and ends the writing to that stream. This method is mandatory. You must call this method when the filter is done writing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintwritestream-writebytes">IPrintWriteStream::WriteBytes</a>
-</td>
-<td align="left" width="63%">
-The <code>WriteBytes</code> method writes a specified number of bytes to a stream.
-
-</td>
-</tr>
-</table> 
-

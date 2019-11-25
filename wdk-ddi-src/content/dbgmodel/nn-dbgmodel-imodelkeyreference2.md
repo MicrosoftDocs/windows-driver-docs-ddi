@@ -45,60 +45,6 @@ This version 2 of the interface supports all of the previous methods with identi
 
 ## -inheritance
 IModelKeyReference2 interits from [IModelKeyReference](nn-dbgmodel-imodelkeyreference.md). 
-## -members
-
-<p>IModelKeyReference2 has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetKeyName</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetOriginalObject</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContextObject</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetKey</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetKeyValue</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetKey</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetKeyValue</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>OverrideContextObject</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 **Key References** 

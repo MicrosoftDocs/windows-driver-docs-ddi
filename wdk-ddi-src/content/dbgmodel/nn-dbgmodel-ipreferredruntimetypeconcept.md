@@ -46,32 +46,6 @@ The object understands more about types derived from it than the underlying type
 
 ## -inheritance
 IPreferredRuntimeTypeConcept interits from IUnknown. 
-## -members
-
-<p>IPreferredRuntimeTypeConcept has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CastToPreferredRuntimeType</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 **Preferred Runtime Type Concept**

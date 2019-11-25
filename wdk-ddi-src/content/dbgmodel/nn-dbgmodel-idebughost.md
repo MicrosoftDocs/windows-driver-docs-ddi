@@ -44,40 +44,6 @@ The core interface to the underlying debugger.
 
 ## -inheritance
 IDebugHost interits from IUnknown. 
-## -members
-
-<p>IDebugHost has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetHostDefinedInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetCurrentContext</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetDefaultMetadata</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 The IDebugHost interface is the core interface of any data model host. 

@@ -44,32 +44,6 @@ Interface a component directly using debugger script must implement as a multi-w
 
 ## -inheritance
 IDataModelScriptClient interits from IUnknown. 
-## -members
-
-<p>IDataModelScriptClient has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ReportError</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 A client interface which is used by the script provider in order to communicate information to a user interface. Script providers do not implement this interface. The application hosting the data model which wishes to make use of script providers does. A script provider will call into methods of the script client to report status, errors, etc...

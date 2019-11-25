@@ -47,45 +47,6 @@ The IEventDetectorOemAdapter interface is used for hardware keyword spotters.
 ## -inheritance
 IEventDetectorOemAdapter interits from IUnknown.
 
-## -members
-
-<p>IEventDetectorOemAdapter has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>GetCapabilities</td>
-		<td>Returns langauges and detector features supported by the object.</td>
-	</tr>
-	<tr>
-		<td>GetCapabilitiesForLanguage</td>
-		<td>Returns the events supported by the specific language.</td>
-	</tr>
-	<tr>
-		<td>VerifyUserEventData</td>
-		<td>Verifies the user recording for the given EVENTID.</td>
-	</tr>
-	<tr>
-		<td>ComputeAndAddUserModelData</td>
-		<td>Adds the user specific model data to an existing model data blob.</td>
-	</tr>
-	<tr>
-		<td>BuildArmingPatternData</td>
-		<td>Builds the pattern data to be used on a subsequent arm request - this is done once for each pin instance.</td>
-	</tr>
-	<tr>
-		<td>ParseDetectionResultData</td>
-		<td>Uses the input model data and SOUNDDETECTOR_PATTERNHEADER to determine the DETECTIONEVENTID,LANGID and USER detected. </td>
-	</tr>
-	<tr>
-		<td>ReportOSDetectionResult</td>
-		<td>Called to provide second stage result to OEM dll.</td>
-	</tr>
-</table>
-
-
 ## -remarks
 
 ## -remarks

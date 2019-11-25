@@ -44,32 +44,6 @@ Compares this object to another (of arbitrary type).  If the comparison cannot b
 
 ## -inheritance
 IComparableConcept interits from IUnknown. 
-## -members
-
-<p>IComparableConcept has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CompareObjects</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 The return value passed in comparison result has the following meaning:

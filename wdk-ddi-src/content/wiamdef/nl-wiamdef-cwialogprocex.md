@@ -41,24 +41,6 @@ ms.custom: RS5
 
 
 
-## -members
-
-<p>CWiaLogProcEx has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>CWiaLogProcEx</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>~CWiaLogProcEx</td>
-		<td></td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

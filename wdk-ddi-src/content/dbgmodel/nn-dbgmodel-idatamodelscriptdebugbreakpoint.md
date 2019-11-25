@@ -46,52 +46,6 @@ The script provider implements this interface to expose the notion of and contro
 
 ## -inheritance
 IDataModelScriptDebugBreakpoint interits from IUnknown. 
-## -members
-
-<p>IDataModelScriptDebugBreakpoint has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetId</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>IsEnabled</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Enable</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Disable</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Remove</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetPosition</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 

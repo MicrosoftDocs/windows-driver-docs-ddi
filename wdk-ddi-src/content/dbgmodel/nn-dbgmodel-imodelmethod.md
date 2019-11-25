@@ -46,32 +46,6 @@ Extensions which implement methods would implement this interface one or more ti
 
 ## -inheritance
 IModelMethod interits from IUnknown. 
-## -members
-
-<p>IModelMethod has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Call</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 A method in the data model is an implementation of the IModelMethod interface which is boxed into an [IModelObject](nn-dbgmodel-imodelobject.md). The model object will return a kind of ObjectMethod when queried and the intrinsic value is a VT_UNKNOWN which is guaranteed to be queryable for IModelMethod. In process, it is guaranteed to be statically castable to IModelMethod. 

@@ -58,53 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBidiSpl2</b> interface inher
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBidiSpl2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl2-binddevice">BindDevice</a>
-</td>
-<td align="left" width="63%">
-Binds a printer to a bidirectional communication request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl2-sendrecvxmlstream">SendRecvXMLStream</a>
-</td>
-<td align="left" width="63%">
-Sends a bidirectional communication request (and receives the response) as   Bidi Request and Response-compliant <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl2-sendrecvxmlstring">SendRecvXMLString</a>
-</td>
-<td align="left" width="63%">
-Sends a bidirectional communication request (and receives the response) as   Bidi Request and Response-compliant strings.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl2-unbinddevice">UnbindDevice</a>
-</td>
-<td align="left" width="63%">
-Releases a printer from a bidirectional communication request.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
 

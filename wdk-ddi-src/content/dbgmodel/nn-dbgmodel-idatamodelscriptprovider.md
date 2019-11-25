@@ -43,48 +43,6 @@ Any script provider implementing a bridge between a dynamic language and the dat
 
 ## -inheritance
 IDataModelScriptProvider interits from IUnknown. 
-## -members
-
-<p>IDataModelScriptProvider has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetName</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetExtension</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CreateScript</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetDefaultTemplateContent</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateTemplates</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 Any extension which wants to be a script provider must provide an implementation of the IDataModelScriptProvider interface and register such with the script manager portion of the data model manager via the RegisterScriptProvider method. 

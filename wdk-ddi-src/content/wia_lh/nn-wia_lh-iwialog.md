@@ -59,12 +59,3 @@ The **IWiaLog** interface inherits from the [IUnknown](https://docs.microsoft.co
 
 - **Methods**
 
-## -members
-
-The **IWiaLog** interface has these methods.
-
-| Method | Description |
-| --- | --- |
-| [hResult](https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nf-wia_lh-iwialog-hresult) | The **IWiaLog** interface is obsolete and is no longer supported. Use the [Diagnostic Log Macros](https://docs.microsoft.com/windows-hardware/drivers/image/wia-diagnostic-log-macros) instead.<br><br>The **IWiaLog::hResult** method translates an HRESULT value into a string and writes the string to *Wiaservc.log*. |
-| [InitializeLog](https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nf-wia_lh-iwialog-initializelog) |The **IWiaLog** interface is obsolete and is no longer supported. Use the [Diagnostic Log Macros](https://docs.microsoft.com/windows-hardware/drivers/image/wia-diagnostic-log-macros) instead.<br><br>The **IWiaLog::InitializeLog** method initializes the **lWiaLog** interface. |
-| [Log](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtf2-get_log) | The **IWiaLog** interface is obsolete and is no longer supported. Use the [Diagnostic Log Macros](https://docs.microsoft.com/windows-hardware/drivers/image/wia-diagnostic-log-macros) instead.<br><br>The **IWiaLog::Log** method writes a diagnostic log message to *Wiaservc.log*. |

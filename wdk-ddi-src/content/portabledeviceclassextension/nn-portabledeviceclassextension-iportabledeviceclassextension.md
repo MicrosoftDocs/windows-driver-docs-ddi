@@ -64,44 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceClassExtension
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPortableDeviceClassExtension</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff550945(v=vs.85)">Initialize</a>
-</td>
-<td align="left" width="63%">
-Serializes a submitted <b>IPortableDeviceValues</b> interface to an allocated byte array. The byte array returned is allocated for the caller and should be freed by the caller using <b>CoTaskMemFree</b>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledeviceclassextension/nf-portabledeviceclassextension-iportabledeviceclassextension-processlibrarymessage">ProcessLibraryMessage</a>
-</td>
-<td align="left" width="63%">
-Deserializes a byte array to an <b>IPortableDeviceValues</b> interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledeviceclassextension/nf-portabledeviceclassextension-iportabledeviceclassextension-uninitialize">Uninitialize</a>
-</td>
-<td align="left" width="63%">
-Calculates the buffer size that is needed to hold the serialized data.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
 

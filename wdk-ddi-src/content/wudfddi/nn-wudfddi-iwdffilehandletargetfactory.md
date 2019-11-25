@@ -60,26 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFFileHandleTargetFactory</
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWDFFileHandleTargetFactory</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdffilehandletargetfactory-createfilehandletarget">IWDFFileHandleTargetFactory::CreateFileHandleTarget</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdffilehandletargetfactory-createfilehandletarget">CreateFileHandleTarget</a> method creates a file-handle-based I/O target object.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
 
 

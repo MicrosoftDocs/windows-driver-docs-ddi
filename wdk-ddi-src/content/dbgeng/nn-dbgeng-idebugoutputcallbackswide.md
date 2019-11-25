@@ -57,26 +57,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugOutputCallbacksWide</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDebugOutputCallbacksWide</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
-</td>
-<td align="left" width="63%">
-This method is called by the engine to send output from the client to the <b>IDebugOutputCallbacksWide</b> object that is registered with the client.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
 

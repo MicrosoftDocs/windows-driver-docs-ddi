@@ -57,44 +57,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugAdvanced3</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDebugAdvanced3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-findsourcefileandtokenwide">FindSourceFileAndTokenWide</a>
-</td>
-<td align="left" width="63%">
-Returns the filename of a source file on the source path or return the value of a variable associated with a file token.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-getsourcefileinformationwide">GetSourceFileInformationWide</a>
-</td>
-<td align="left" width="63%">
-Returns specified information about a source file.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugadvanced3-getsymbolinformationwide">GetSymbolInformationWide</a>
-</td>
-<td align="left" width="63%">
-Returns specified information about a symbol.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
 

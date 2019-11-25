@@ -58,35 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl6</b> interface 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IDebugControl6</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol6-getexecutionstatusex">GetExecutionStatusEx</a>
-</td>
-<td align="left" width="63%">
-The GetExecutionStatusEx method returns information about the execution status of the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a>.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol6-getsynchronizationstatus">GetSynchronizationStatus</a>
-</td>
-<td align="left" width="63%">
-The GetSynchronizationStatus method returns information about the synchronization status of the debugger engine.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
 
