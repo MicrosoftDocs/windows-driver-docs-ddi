@@ -45,52 +45,6 @@ This version 2 of the interface supports all of the previous methods with identi
 
 ## -inheritance
 IDebugHostMemory2 interits from [IDebugHostMemory](nn-dbgmodel-idebughostmemory.md). 
-## -members
-
-<p>IDebugHostMemory2 has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ReadBytes</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>WriteBytes</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ReadPointers</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>WritePointers</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetDisplayStringForLocation</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>LinearizeLocation</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

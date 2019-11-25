@@ -56,15 +56,6 @@ The **IKsAggregateControl** interface inherits from the [IUnknown](https://docs.
 
 - **Methods**
 
-## -members
-
-The **IKsAggregateControl**> interface has these methods.
-
-| Method | Description |
-| --- | --- |
-| [KsAddAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate) | Adds a COM server as an aggregate provider to a KS filter or pin. |
-| [KsRemoveAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksremoveaggregate) | Removes a previously added COM server aggregate provider from a KS filter or pin. |
-
 ## -remarks
 
 All property, method, and event sets that a KS filter or pin supports can be represented on the DirectShow proxy representation of the filter or pin object by zero or more aggregated interfaces, dialogs, and so on. These client aggregated interfaces are set extensions that can then be used to communicate to the underlying KS object in order to represent the functionality of the set. A set extension is a registered COM server, which is loaded through **CoCreateInstance** by the KS filter or pin at handle creation time.

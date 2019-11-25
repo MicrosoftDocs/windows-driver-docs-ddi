@@ -45,40 +45,6 @@ The object is a dynamic provider of keys and wishes to take over all key queries
 
 ## -inheritance
 IDynamicKeyProviderConcept interits from IUnknown. 
-## -members
-
-<p>IDynamicKeyProviderConcept has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetKey</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetKey</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateKeys</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 **Dynamic Provider Concepts**

@@ -46,36 +46,6 @@ An enumerator interface that the script provider implements in order to advertis
 
 ## -inheritance
 IDataModelScriptTemplateEnumerator interits from IUnknown. 
-## -members
-
-<p>IDataModelScriptTemplateEnumerator has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Reset</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetNext</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 A script provider can provide one or more templates which pre-fill content into newly created scripts in some user interface. If any of these templates are provided, the script provider must implement an enumerator over them which is returned upon a call to the EnumerateTemplates method. 

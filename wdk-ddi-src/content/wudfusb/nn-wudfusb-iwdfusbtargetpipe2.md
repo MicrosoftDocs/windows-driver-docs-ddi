@@ -63,26 +63,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbTargetPipe2</b> interf
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWDFUsbTargetPipe2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe2-configurecontinuousreader">IWDFUsbTargetPipe2::ConfigureContinuousReader</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nf-wudfusb-iwdfusbtargetpipe2-configurecontinuousreader">ConfigureContinuousReader</a> method configures the framework to continuously read from a USB pipe.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
 
 

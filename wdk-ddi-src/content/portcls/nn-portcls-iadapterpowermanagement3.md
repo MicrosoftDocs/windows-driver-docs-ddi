@@ -60,35 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAdapterPowerManagement3</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IAdapterPowerManagement3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iadapterpowermanagement3-d3exitlatencychanged">D3ExitLatencyChanged</a>
-</td>
-<td align="left" width="63%">
-PortCls calls the D3ExitLatencyChanged method while the device is in sleep (D3) power state, to provide a new exit latency value.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/jj200332(v=vs.85)">PowerChangeState3</a>
-</td>
-<td align="left" width="63%">
-PortCls calls the PowerChangeState3 method to request a change to the new power state. This request is passed on to the adapter driver.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
 

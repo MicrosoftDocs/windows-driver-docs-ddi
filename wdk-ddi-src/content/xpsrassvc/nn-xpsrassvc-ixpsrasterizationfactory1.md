@@ -58,22 +58,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsRasterizationFactory1</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IXpsRasterizationFactory1</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory2-createrasterizer">CreateRasterizer</a>
-</td>
-<td align="left" width="63%">
-The <code>CreateRasterize</code> method creates an XPS rasterizer object that can handle high precision colors.
-
-</td>
-</tr>
-</table> 
-

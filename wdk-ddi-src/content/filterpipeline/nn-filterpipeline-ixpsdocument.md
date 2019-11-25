@@ -58,31 +58,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsDocument</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IXpsDocument</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocument-getthumbnail">IXpsDocument::GetThumbnail</a>
-</td>
-<td align="left" width="63%">
-The <code>GetThumbnail</code> method gets the document thumbnail object. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocument-setthumbnail">IXpsDocument::SetThumbnail</a>
-</td>
-<td align="left" width="63%">
-The <code>SetThumbnail</code> method removes the current thumbnail object from the document and inserts a new one.
-
-</td>
-</tr>
-</table> 
-

@@ -59,44 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsControl</b> interface inhe
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IKsControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ff561744(v=vs.85)">KsEvent</a>
-</td>
-<td align="left" width="63%">
-Enables or disables an event.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)">KsMethod</a>
-</td>
-<td align="left" width="63%">
-Sends a method to a KS object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KsProperty</a>
-</td>
-<td align="left" width="63%">
-Sets a property or retrieves property information.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
 
 

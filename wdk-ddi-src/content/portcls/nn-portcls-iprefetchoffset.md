@@ -60,22 +60,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreFetchOffset</b> interface
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPreFetchOffset</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iprefetchoffset-setprefetchoffset">IPreFetchOffset::SetPreFetchOffset</a>
-</td>
-<td align="left" width="63%">
-The <code>SetPreFetchOffset</code> method sets the prefetch offset, which is the number of bytes of data separating the write cursor from the play cursor in a DirectSound output stream.
-
-</td>
-</tr>
-</table> 
-

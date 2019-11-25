@@ -46,56 +46,6 @@ The script provider implements this interface to expose the notion of a particul
 
 ## -inheritance
 IDataModelScriptDebugStackFrame interits from IUnknown. 
-## -members
-
-<p>IDataModelScriptDebugStackFrame has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetName</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetPosition</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>IsTransitionPoint</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetTransition</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Evaluate</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateLocals</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateArguments</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 A particular frame of the call stack when broken into the script debugger can be retrieved via a call to the GetStackFrame method on the [IDataModelScriptDebugStack](nn-dbgmodel-idatamodelscriptdebugstack.md) interface representing the stack segment where the break occurred. The IDataModelScriptDebugStackFrame interface which is returned to represent this frame. 

@@ -45,32 +45,6 @@ The IDebugHostStatus interface allows a client of the data model or the debug ho
 
 ## -inheritance
 IDebugHostStatus interits from IUnknown. 
-## -members
-
-<p>IDebugHostStatus has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>PollUserInterrupt</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

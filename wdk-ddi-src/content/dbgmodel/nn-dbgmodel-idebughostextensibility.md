@@ -44,36 +44,6 @@ The extensibility interface to the underlying debugger.
 
 ## -inheritance
 IDebugHostExtensibility interits from IUnknown. 
-## -members
-
-<p>IDebugHostExtensibility has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CreateFunctionAlias</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>DestroyFunctionAlias</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 Certain functionality of the debug host is optionally subject to extensibility. This may, for instance, include the expression evaluator. The IDebugHostExtensibility interface is the means by which these extensibility points are accessed. 

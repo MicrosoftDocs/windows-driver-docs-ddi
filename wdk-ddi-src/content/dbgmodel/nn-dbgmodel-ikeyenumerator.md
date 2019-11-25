@@ -44,36 +44,6 @@ An enumerator which runs through keys on an object.
 
 ## -inheritance
 IKeyEnumerator interits from IUnknown. 
-## -members
-
-<p>IKeyEnumerator has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Reset</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetNext</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

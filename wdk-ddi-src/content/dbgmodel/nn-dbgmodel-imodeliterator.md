@@ -44,36 +44,6 @@ An iterator of contained objects (client implemented and returned by [IIterableC
 
 ## -inheritance
 IModelIterator interits from IUnknown. 
-## -members
-
-<p>IModelIterator has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Reset</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetNext</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 **Iterable Concept**

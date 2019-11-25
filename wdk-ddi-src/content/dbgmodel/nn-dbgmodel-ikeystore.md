@@ -44,48 +44,6 @@ A key/value store.  Typically used for metadata.
 
 ## -inheritance
 IKeyStore interits from IUnknown. 
-## -members
-
-<p>IKeyStore has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetKey</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetKey</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetKeyValue</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetKeyValue</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ClearKeys</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 **Metadata in the Data Model**

@@ -48,36 +48,6 @@ Clients which create data models implement this interface.  It is most frequentl
 
 IDataModelConcept interits from IUnknown. 
 
-## -members
-
-<p>IDataModelConcept has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>InitializeObject</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetName</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

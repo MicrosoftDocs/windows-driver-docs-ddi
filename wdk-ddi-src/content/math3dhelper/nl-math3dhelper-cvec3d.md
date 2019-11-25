@@ -47,9 +47,6 @@ Math library for a 3D vector.
 
 CVEC3D inherits from VEC3D.
 
-## -members
-
-
 ## -remarks
 
 ## -see-also

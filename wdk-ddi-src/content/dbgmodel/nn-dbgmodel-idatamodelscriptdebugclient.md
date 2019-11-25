@@ -46,32 +46,6 @@ The user interface which wishes to provide the capability of script debugging im
 
 ## -inheritance
 IDataModelScriptDebugClient interits from IUnknown. 
-## -members
-
-<p>IDataModelScriptDebugClient has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>NotifyDebugEvent</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 The debug host or debugger application which wishes to provide an interface around script debugging must provide an implementation of the IDataModelScriptDebugClient interface to the script debugger via the StartDebugging method on the debug interface for the script. 

@@ -44,36 +44,6 @@ Implemented by the underlying host debugger, represents information about where 
 
 ## -inheritance
 IDataModelScriptHostContext interits from IUnknown. 
-## -members
-
-<p>IDataModelScriptHostContext has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>NotifyScriptChange</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetNamespaceObject</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 A host interface which is used by the script provider as a container for the contents of the script. How the contents of a script surface other than the manipulations that it performs to the object model of the debugger application is up to the particular debug host. This interface allows the script provider to get information about where to place its contents. See [Data Model C++ Scripting Interfaces](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-scripting) for more information.

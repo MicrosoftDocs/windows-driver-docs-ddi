@@ -58,26 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaAsyncOperationEve
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPrintSchemaAsyncOperationEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterbidisetrequestcallback-completed">Completed</a>
-</td>
-<td align="left" width="63%">
-Is called when asynchronous PrintSchema operation that is represented by an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaasyncoperation">IPrintSchemaAsyncOperation</a> context is completed.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
 
 

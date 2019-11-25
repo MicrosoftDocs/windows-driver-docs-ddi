@@ -84,22 +84,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUnregisterSubdevice</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IUnregisterSubdevice</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iunregistersubdevice-unregistersubdevice">IUnregisterSubdevice::UnregisterSubdevice</a>
-</td>
-<td align="left" width="63%">
-The <b>UnregisterSubdevice</b> method deletes the registration of a subdevice that was previously registered by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-pcregistersubdevice">PcRegisterSubdevice</a>.
-
-</td>
-</tr>
-</table> 
-

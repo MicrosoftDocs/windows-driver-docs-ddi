@@ -55,16 +55,6 @@ See the [IKsControl (ksproxy.h)](https://docs.microsoft.com/windows-hardware/dri
 
 The **IKsControl** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
 
-## -members
-
-The **IKsControl** interface has these methods.
-
-| Method | Description  |
-| --- | --- |
-| KsEvent | Enables or disables an event. |
-| KsMethod | Sends a method to a KS object. |
-| KsProperty | Sets a property or retrieves property information. |
-
 ## -remarks
 
 Minidrivers typically acquire the **IKsControl** interface through a call to [KsPinGetConnectedFilterInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedfilterinterface) or [KsPinGetConnectedPinInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetconnectedpininterface). Because this is a COM-style interface, the function call to obtain this interface calls the **QueryInterface** method, which in turn calls the **AddRef** method. Therefore, the minidriver does not have to perform these steps.

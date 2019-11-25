@@ -62,53 +62,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceValuesCollecti
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPortableDeviceValuesCollection</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/test/wpt/add">Add</a>
-</td>
-<td align="left" width="63%">
-Adds an item to the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Clear</a>
-</td>
-<td align="left" width="63%">
-Deletes all items from the collection.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/radio/hh406567(v=vs.85)">GetAt</a>
-</td>
-<td align="left" width="63%">
-Retrieves an item from the collection by a zero-based index.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Retrieves the number of items in the collection.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
 

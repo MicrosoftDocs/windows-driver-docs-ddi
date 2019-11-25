@@ -46,56 +46,6 @@ Any script provider must implement this to represent a script managed by that pr
 
 ## -inheritance
 IDataModelScript interits from IUnknown. 
-## -members
-
-<p>IDataModelScript has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetName</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Rename</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Populate</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Execute</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Unlink</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>IsInvocable</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>InvokeMain</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 The main interface which manages an individual script that is implemented by the provider is the IDataModelScript interface. A component implementing this interface is returned when the client wishes to create a new blank script and calls the CreateScript method on [IDataModelScriptProvider](nn-dbgmodel-idatamodelscriptprovider.md). 

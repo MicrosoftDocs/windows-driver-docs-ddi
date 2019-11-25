@@ -58,26 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaTicket2</b> inter
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPrintSchemaTicket2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket2-getparameterinitializer">GetParameterInitializer</a>
-</td>
-<td align="left" width="63%">
-The <b>GetParameterInitializer</b> method retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterinitializer">IPrintSchemaParameterInitializer</a> object, and it  represents the <psf:ParameterInit> element in the PrintTicket XML.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
 

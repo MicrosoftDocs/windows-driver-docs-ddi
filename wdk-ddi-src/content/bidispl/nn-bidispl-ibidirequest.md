@@ -58,62 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBidiRequest</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBidiRequest</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getenumcount">GetEnumCount</a>
-</td>
-<td align="left" width="63%">
-Gets the number of output items.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getoutputdata">GetOutputData</a>
-</td>
-<td align="left" width="63%">
-Gets the output data coming back from the device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getresult">GetResult</a>
-</td>
-<td align="left" width="63%">
-Gets the result code.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-setinputdata">SetInputData</a>
-</td>
-<td align="left" width="63%">
-Sets the data to send to the device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-setschema">SetSchema</a>
-</td>
-<td align="left" width="63%">
-Sets the bidi schema string.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
 

@@ -58,35 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPartImage</b> interface inhe
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPartImage</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ipartimage-getimageproperties">IPartImage::GetImageProperties</a>
-</td>
-<td align="left" width="63%">
-The <b>GetImageProperties</b> method gets an image property that is based on the content type.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ipartimage-setimagecontent">IPartImage::SetImageContent</a>
-</td>
-<td align="left" width="63%">
-The <b>SetImageContent</b> method sets an image property that is based on the content type.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
 

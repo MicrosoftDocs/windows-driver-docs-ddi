@@ -58,35 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaAsyncOperation</b
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPrintSchemaAsyncOperation</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensionrequest-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Cancels the asynchronous PrintSchema operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperation-start">Start</a>
-</td>
-<td align="left" width="63%">
-Starts the asynchronous PrintSchema operation.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
 
 
