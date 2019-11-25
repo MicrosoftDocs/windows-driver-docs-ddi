@@ -44,48 +44,6 @@ The memory access interface to the underlying debugger.
 
 ## -inheritance
 IDebugHostMemory interits from IUnknown. 
-## -members
-
-<p>IDebugHostMemory has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ReadBytes</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>WriteBytes</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ReadPointers</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>WritePointers</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetDisplayStringForLocation</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

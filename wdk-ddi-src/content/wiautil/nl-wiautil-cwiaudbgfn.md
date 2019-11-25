@@ -80,35 +80,3 @@ The CWiauDbgFn constructor method is used for tracing when a function or method 
 </table> 
 
 
-## -members
-
-The <b>CWiauDbgFn</b> class has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiaudbgfn-~cwiaudbgfn">~CWiauDbgFn</a>
-</td>
-<td align="left" width="63%">
-The ~CWiauDbgFn destructor method is called when the function or method being traced by CWiauDbgFn is exited.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiaudbgfn-cwiaudbgfn">CWiauDbgFn</a>
-</td>
-<td align="left" width="63%">
-The CWiauDbgFn constructor method is used for tracing when a function or method is entered.
-
-</td>
-</tr>
-</table>The ~CWiauDbgFn destructor method is called when the function or method being traced by CWiauDbgFn is exited.
-
-The CWiauDbgFn constructor method is used for tracing when a function or method is entered.
-
- 
-

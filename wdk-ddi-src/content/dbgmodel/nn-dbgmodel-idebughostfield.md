@@ -44,68 +44,6 @@ Represents a field within a structure or class.
 
 ## -inheritance
 IDebugHostField interits from [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md). 
-## -members
-
-<p>IDebugHostField has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContext</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateChildren</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetSymbolKind</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetName</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetType</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContainingModule</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetLocationKind</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetOffset</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetLocation</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetValue</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 The IDebugHostField class represents a symbol which is a data member of a class, structure, union, or other type construct. It does not represent free data (e.g.: global data). 

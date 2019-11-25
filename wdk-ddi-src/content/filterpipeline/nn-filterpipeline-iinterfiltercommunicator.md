@@ -58,31 +58,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInterFilterCommunicator</b> 
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IInterFilterCommunicator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iinterfiltercommunicator-requestreader">IInterFilterCommunicator::RequestReader</a>
-</td>
-<td align="left" width="63%">
-The <b>RequestReader</b> method retrieves the reader interface for an <b>IInterFilterCommunicator</b> object. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iinterfiltercommunicator-requestwriter">IInterFilterCommunicator::RequestWriter</a>
-</td>
-<td align="left" width="63%">
-The <b>RequestWriter</b> method retrieves the writer interface for an <b>IInterFilterCommunicator</b> object.
-
-</td>
-</tr>
-</table> 
-

@@ -45,56 +45,6 @@ An interface to a particular symbol.
 ## -inheritance
 IDebugHostSymbol interits from IUnknown. 
 
-## -members
-
-<p>IDebugHostSymbol has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContext</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateChildren</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetSymbolKind</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetName</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetType</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContainingModule</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CompareAgainst</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 Every symbol that can be returned from the data model host will derive in some fashion from IDebugHostSymbol. This is the core interface that every symbol implements regardless of the kind of symbol. Depending on the kind of symbol, a given symbol may implement a set of other interfaces which return attributes more unique to the particular kind of symbol represented by this interface.

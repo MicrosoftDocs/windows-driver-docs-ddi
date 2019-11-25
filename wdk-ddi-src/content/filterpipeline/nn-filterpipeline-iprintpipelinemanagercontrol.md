@@ -67,31 +67,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintPipelineManagerControl<
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPrintPipelineManagerControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinemanagercontrol-filterfinished">IPrintPipelineManagerControl::FilterFinished</a>
-</td>
-<td align="left" width="63%">
-The <code>FilterFinished</code> method reports that a filter is finished processing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinemanagercontrol-requestshutdown">IPrintPipelineManagerControl::RequestShutdown</a>
-</td>
-<td align="left" width="63%">
-The <code>RequestShutdown</code> method requests that a pipeline be shut down.
-
-</td>
-</tr>
-</table> 
-

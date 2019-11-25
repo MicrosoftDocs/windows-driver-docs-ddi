@@ -44,56 +44,6 @@ An ([IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md) derived) interface to a 
 
 ## -inheritance
 IDebugHostBaseClass interits from [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md). 
-## -members
-
-<p>IDebugHostBaseClass has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContext</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateChildren</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetSymbolKind</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetName</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetType</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContainingModule</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetOffset</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

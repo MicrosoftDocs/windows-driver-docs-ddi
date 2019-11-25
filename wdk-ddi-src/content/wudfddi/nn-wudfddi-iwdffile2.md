@@ -60,31 +60,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFFile2</b> interface inher
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IWDFFile2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdffile2-getrelatedfileobject">IWDFFile2::GetRelatedFileObject</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdffile2-getrelatedfileobject">GetRelatedFileObject</a> method retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface of a <i>related file object</i>, which is a file object that has a technology-specific relationship with another file object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdffile2-retrievecountedfilename">IWDFFile2::RetrieveCountedFileName</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdffile2-retrievecountedfilename">RetrieveCountedFileName</a> method retrieves the full counted file name for a file that is associated with a device. 
-
-</td>
-</tr>
-</table> 
-

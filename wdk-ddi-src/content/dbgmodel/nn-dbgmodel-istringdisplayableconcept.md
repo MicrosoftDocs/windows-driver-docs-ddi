@@ -46,32 +46,6 @@ Clients should not rely on the form of this string conversion for programmatic p
 ## -inheritance
 IStringDisplayableConcept interits from IUnknown. 
 
-## -members
-
-<p>IStringDisplayableConcept has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ToDisplayString</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 An object which wishes to provide a string conversion for display purposes can implement the string displayable concept through implementation of the IStringDisplayableConcept interface. 

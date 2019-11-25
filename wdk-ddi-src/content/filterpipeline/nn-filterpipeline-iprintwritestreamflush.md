@@ -58,22 +58,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintWriteStreamFlush</b> in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPrintWriteStreamFlush</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintwritestreamflush-flushdata">FlushData</a>
-</td>
-<td align="left" width="63%">
-The FlushData method flushes buffered data to a data stream while leaving the stream open, allowing the caller to write additional data to the stream.
-
-</td>
-</tr>
-</table> 
-

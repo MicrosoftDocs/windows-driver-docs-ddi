@@ -60,31 +60,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortWMIRegistration</b> inte
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPortWMIRegistration</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwmiregistration-registerwmiprovider">IPortWMIRegistration::RegisterWMIProvider</a>
-</td>
-<td align="left" width="63%">
-The <code>RegisterWMIProvider</code> method registers the <a href="https://docs.microsoft.com/windows-hardware/test/wpt/event-tracing-for-windows">Event Tracing for Windows</a> (ETW) capability of the miniport driver with PortCls.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwmiregistration-unregisterwmiprovider">IPortWMIRegistration::UnregisterWMIProvider</a>
-</td>
-<td align="left" width="63%">
-The <code>UnregisterWMIProvider</code> method unregisters the <a href="https://docs.microsoft.com/windows-hardware/test/wpt/event-tracing-for-windows">Event Tracing for Windows</a> (ETW) interface that was previously registered with a call to the RegisterWMIProvider method. The unregistration disables the ETW registration with PortCls.
-
-</td>
-</tr>
-</table> 
-

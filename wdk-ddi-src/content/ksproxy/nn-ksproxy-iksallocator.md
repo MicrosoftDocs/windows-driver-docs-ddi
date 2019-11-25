@@ -59,53 +59,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAllocator</b> interface in
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IKsAllocator</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksallocator-ksgetallocatorhandle">KsGetAllocatorHandle</a>
-</td>
-<td align="left" width="63%">
-Retrieves a file handle to an allocator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksallocator-ksgetallocatormode">KsGetAllocatorMode</a>
-</td>
-<td align="left" width="63%">
-Returns the mode in which an allocator allocates memory.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksallocator-ksgetallocatorstatus">KsGetAllocatorStatus</a>
-</td>
-<td align="left" width="63%">
-Retrieves the status of an allocator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksallocator-kssetallocatormode">KsSetAllocatorMode</a>
-</td>
-<td align="left" width="63%">
-Sets the mode in which an allocator allocates memory.
-
-</td>
-</tr>
-</table> 
-
-
 ## -remarks
 
 

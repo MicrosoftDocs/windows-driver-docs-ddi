@@ -46,40 +46,6 @@ It is legal for an object to be indexable (via support of IIndexableConcept) and
 
 ## -inheritance
 IIndexableConcept interits from IUnknown. 
-## -members
-
-<p>IIndexableConcept has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetDimensionality</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetAt</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetAt</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

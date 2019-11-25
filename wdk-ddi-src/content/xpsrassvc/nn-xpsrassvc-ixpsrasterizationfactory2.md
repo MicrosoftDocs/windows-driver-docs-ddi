@@ -58,23 +58,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsRasterizationFactory2</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IXpsRasterizationFactory2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory2-createrasterizer">CreateRasterizer</a>
-</td>
-<td align="left" width="63%">
-The <b>CreateRasterizer</b> method creates an XPS rasterizer object that can convert content from XPS to PWG Raster using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">XPS Rasterization Service</a>. PWG Raster supports non-square DPIs.
-
-
-</td>
-</tr>
-</table> 
-

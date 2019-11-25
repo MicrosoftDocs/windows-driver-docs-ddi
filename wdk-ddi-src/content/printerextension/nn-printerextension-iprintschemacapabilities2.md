@@ -58,26 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaCapabilities2</b>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IPrintSchemaCapabilities2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemacapabilities2-getparameterdefinition">GetParameterDefinition</a>
-</td>
-<td align="left" width="63%">
-The <b>GetParameterDefinition</b> method retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a> object, and it  represents the <psf:ParameterDef> element in the PrintCapabilites XML.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
 

@@ -58,53 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBidiSpl</b> interface inheri
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
-## -members
-
-The <b>IBidiSpl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl-binddevice">BindDevice</a>
-</td>
-<td align="left" width="63%">
-Binds a printer to a bidi request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl-multisendrecv">MultiSendRecv</a>
-</td>
-<td align="left" width="63%">
-Sends a list of bidi requests.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl-sendrecv">SendRecv</a>
-</td>
-<td align="left" width="63%">
-Sends a bidi request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidispl-unbinddevice">UnbindDevice</a>
-</td>
-<td align="left" width="63%">
-Unbinds a printer.
-
-</td>
-</tr>
-</table> 
-
-
 ## -see-also
 
 
