@@ -47,9 +47,6 @@ targetos: Windows
 
 SystemAddress returns the address in kernel-mode virtual address space of the allocated buffer.
 
-## -parameters
-void
-
 ## -returns
 This method returns PVOID.
 

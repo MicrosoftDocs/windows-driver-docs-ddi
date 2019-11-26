@@ -51,9 +51,6 @@ ms.custom: 19H1
 Reserved for system use.
 
 
-## -parameters
-
-
 ## -remarks
 
 ## -see-also

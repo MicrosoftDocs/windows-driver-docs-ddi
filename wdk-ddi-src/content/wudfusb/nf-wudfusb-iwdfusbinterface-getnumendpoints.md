@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetNumEndPoints</b> method retrieves the number of endpoints (pipes) on a USB interface.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

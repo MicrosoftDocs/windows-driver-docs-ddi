@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetWinUsbHandle</b> method retrieves the WinUsb interface handle that is associated with a USB interface.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeLeaveCriticalRegion</b> routine reenables the delivery of normal kernel-mode APCs that were disabled by a preceding call to <b>KeEnterCriticalRegion</b>. 
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

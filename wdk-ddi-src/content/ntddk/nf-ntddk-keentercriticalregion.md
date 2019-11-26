@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeEnterCriticalRegion</b> routine temporarily disables the execution of normal kernel APCs, but does not prevent special kernel APCs from running.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

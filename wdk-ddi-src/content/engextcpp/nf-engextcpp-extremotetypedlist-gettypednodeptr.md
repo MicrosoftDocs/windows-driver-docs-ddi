@@ -51,13 +51,6 @@ req.typenames:
 The <b>GetTypedNodePtr</b> method returns a pointer to the current list item.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -53,13 +53,6 @@ req.typenames:
 The <b>Reset</b> method resets the data toggle and clears the stall condition on a USB pipe.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

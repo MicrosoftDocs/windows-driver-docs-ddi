@@ -53,13 +53,6 @@ The
   <b>NdisGetVersion</b> function returns the version number of NDIS.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

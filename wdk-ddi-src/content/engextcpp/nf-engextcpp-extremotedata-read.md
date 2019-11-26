@@ -51,13 +51,6 @@ req.typenames:
 The <b>Read</b> method reads the contents of the target's memory, represented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, and then caches the data.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -50,13 +50,6 @@ req.typenames:
 The RequestService method is called to forward a service request to an IServiceSink object.
 
 
-## -parameters
-
-
-#### - None
-
-
-
 ## -remarks
 
 

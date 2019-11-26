@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetType</b> method retrieves the type of a USB pipe.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

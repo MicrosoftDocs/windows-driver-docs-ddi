@@ -47,9 +47,6 @@ ms.custom: RS5
 
 The IsEnabled method returns whether or not the breakpoint is enabled. A disabled breakpoint still exists and is still in the list of breakpoints for the script, it is merely "turned off" temporarily. All breakpoints should be created in the enabled state. 
 
-## -parameters
-
-
 ## -returns
 This method returns bool. The value is an indication of whether the breakpoint is enabled or not.
 

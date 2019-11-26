@@ -47,9 +47,6 @@ ms.custom: RS5
 
 The Enable method enables the breakpoint. If the breakpoint was disabled, "hitting the breakpoint" after calling this method will cause a break into the debugger. 
 
-## -parameters
-
-
 ## -remarks
 
 ## -see-also

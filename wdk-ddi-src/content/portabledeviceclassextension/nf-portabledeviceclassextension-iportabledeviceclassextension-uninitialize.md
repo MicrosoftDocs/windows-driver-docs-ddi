@@ -55,13 +55,6 @@ The Uninitialize interface disables the WPD interface, any private interfaces, a
 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

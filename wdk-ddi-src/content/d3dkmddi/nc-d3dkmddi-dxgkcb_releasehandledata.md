@@ -63,8 +63,3 @@ VOID DxgkcbReleasehandledata
 
 ```
 
-## -parameters
-
-
-
-

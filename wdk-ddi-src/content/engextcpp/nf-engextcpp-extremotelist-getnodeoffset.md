@@ -51,13 +51,6 @@ req.typenames:
 The <b>GetNodeOffset</b> method returns the address of the current list item.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

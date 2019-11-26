@@ -51,13 +51,6 @@ req.typenames:
 The <b>IStiDevice::DeviceReset</b> method resets a still image device to a known state.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeQueryActiveProcessors</b> routine returns a bitmask of the currently active processors.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

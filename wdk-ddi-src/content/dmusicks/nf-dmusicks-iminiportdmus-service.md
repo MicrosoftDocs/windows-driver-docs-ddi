@@ -52,16 +52,6 @@ req.typenames:
    This method does not currently need to be implemented in the miniport driver. The<code> Service</code> method is currently unused.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -remarks
 
 

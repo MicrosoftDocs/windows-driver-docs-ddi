@@ -51,18 +51,6 @@ req.typenames:
 Starts the asynchronous PrintSchema operation.
 
 
-## -parameters
-
-
-
-
-
-
-#### - Void
-
-This method has no parameters.
-
-
 ## -returns
 
 

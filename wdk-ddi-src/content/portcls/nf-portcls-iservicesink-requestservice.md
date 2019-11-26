@@ -51,13 +51,3 @@ req.typenames:
 The <code>RequestService</code> method is called to forward a service request to an <b>IServiceSink</b> object.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-

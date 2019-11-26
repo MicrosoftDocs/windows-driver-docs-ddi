@@ -51,15 +51,6 @@ req.typenames:
 The <b>FsRtlIncrementCcFastReadNotPossible</b> routine increments the CcFastReadNotPossible performance counter in a per processor control block of cache manager system counters.
 
 
-## -parameters
-
-
-
-
-
-
-
-
 ## -remarks
 
 

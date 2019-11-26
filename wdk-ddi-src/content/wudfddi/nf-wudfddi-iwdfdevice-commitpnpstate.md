@@ -53,13 +53,6 @@ req.typenames:
 The <b>CommitPnpState</b> method commits the state of the Plug and Play (PnP) property (that is, turns on, turns off, or sets to the default state) that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-setpnpstate">IWDFDevice::SetPnpState</a> method set.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

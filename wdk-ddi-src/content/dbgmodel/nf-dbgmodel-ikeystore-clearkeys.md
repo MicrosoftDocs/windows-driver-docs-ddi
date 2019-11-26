@@ -47,9 +47,6 @@ ms.custom: RS5
 
 The ClearKeys method is analogous to the ClearKeys method on [IModelObject](nn-dbgmodel-imodelobject.md). It will remove every key from the given metadata store. This method has no effect on any parent store. 
 
-## -parameters
-
-
 ## -returns
 This method returns HRESULT that indicates success or failure.
 

@@ -51,16 +51,6 @@ req.typenames:
 The IoGetActivityIdThread routine returns the activity ID associated with the current thread.
 
 
-## -parameters
-
-
-
-
-
-
-##### - None.
-
-
 ## -returns
 
 

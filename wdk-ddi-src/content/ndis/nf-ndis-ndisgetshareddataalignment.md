@@ -53,13 +53,6 @@ req.typenames:
   by more than one processor.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

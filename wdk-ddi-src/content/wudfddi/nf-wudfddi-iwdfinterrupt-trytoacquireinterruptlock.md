@@ -53,13 +53,6 @@ req.typenames:
 The <b>TryToAcquireInterruptLock</b> method acquires the interrupt lock if no other thread has already acquired it.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

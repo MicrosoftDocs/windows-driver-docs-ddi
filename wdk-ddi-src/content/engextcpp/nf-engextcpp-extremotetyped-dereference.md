@@ -51,13 +51,6 @@ req.typenames:
 The <b>Dereference</b> method returns the typed data that is pointed to by the typed data represented by this object.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

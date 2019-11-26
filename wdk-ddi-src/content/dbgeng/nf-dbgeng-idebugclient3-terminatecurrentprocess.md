@@ -54,13 +54,6 @@ req.typenames:
 The <b>TerminateCurrentProcess</b> method attempts to terminate the current process.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetInterrupt</b> method checks whether a user interrupt was issued.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

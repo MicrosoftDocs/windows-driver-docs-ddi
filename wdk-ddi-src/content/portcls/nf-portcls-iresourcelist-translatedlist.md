@@ -51,16 +51,6 @@ req.typenames:
 The <code>TranslatedList</code> method returns the list of translated resources.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -returns
 
 

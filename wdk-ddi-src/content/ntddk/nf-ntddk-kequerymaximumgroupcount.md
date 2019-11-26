@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeQueryMaximumGroupCount</b> routine returns the maximum number of groups in a multiprocessor system.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

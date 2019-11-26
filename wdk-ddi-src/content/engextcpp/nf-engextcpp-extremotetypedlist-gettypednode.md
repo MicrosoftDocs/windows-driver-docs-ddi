@@ -51,13 +51,6 @@ req.typenames:
 The <b>GetTypedNode</b> method returns the current list item.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -51,13 +51,6 @@ req.typenames:
 The<b> IStiDevice::UnSubscribe</b> method removes the caller from the list of applications registered to receive notification of device events.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

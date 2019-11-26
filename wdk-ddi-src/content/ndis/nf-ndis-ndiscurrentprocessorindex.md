@@ -54,13 +54,6 @@ The
   the caller is running on.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

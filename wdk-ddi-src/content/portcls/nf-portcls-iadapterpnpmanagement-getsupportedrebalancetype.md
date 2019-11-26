@@ -47,10 +47,6 @@ targetos: Windows
 
 The GetSupportedRebalanceType method returns the type of rebalancing supported. Rebalancing is used in certain Thunderbolt USB scenario, where, when additional devices are added to the USB chain, the use of memory resources needs to be rearranged and consolidated.
 
-## -parameters
-
-None
-
 ## -returns
 The GetSupportedRebalanceType method returns the type of rebalancing supported (RebalanceNotSupported or RebalanceRemoveSubdevices) as defined in the enum PC_REBALANCE_TYPE. 
 

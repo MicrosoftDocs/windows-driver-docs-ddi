@@ -49,9 +49,6 @@ The search record passed to EnumerateChildrenEx in order to restrict symbol sear
 A given kind of symbol (as indicated by the SymbolKind enumeration) searched may have its own derived type.
 
 
-## -parameters
-None
-
 ## -returns
 This function is a constructor and does not return a value.
 

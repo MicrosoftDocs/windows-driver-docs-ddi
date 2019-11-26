@@ -51,16 +51,6 @@ req.typenames:
 The <code>StartOperation</code> method starts the operation of a filter. The filter reads, processes, and writes data in this method.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -returns
 
 

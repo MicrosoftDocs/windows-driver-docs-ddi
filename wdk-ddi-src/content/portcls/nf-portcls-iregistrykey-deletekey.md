@@ -51,16 +51,6 @@ req.typenames:
 The <code>DeleteKey</code> method deletes the registry key.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -returns
 
 

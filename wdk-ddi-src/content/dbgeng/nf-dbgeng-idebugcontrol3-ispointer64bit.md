@@ -53,13 +53,6 @@ req.typenames:
 The <b>IsPointer64Bit</b> method determines if the effective processor uses 64-bit pointers.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

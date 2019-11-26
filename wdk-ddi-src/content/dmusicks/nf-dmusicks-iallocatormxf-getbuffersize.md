@@ -51,16 +51,6 @@ req.typenames:
 The <code>GetBufferSize</code> method gets the buffer size from the allocator.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -returns
 
 

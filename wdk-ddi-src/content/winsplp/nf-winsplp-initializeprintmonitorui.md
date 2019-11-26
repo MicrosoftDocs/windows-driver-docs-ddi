@@ -51,16 +51,6 @@ req.typenames:
 A port monitor UI DLL's <b>InitializePrintMonitorUI</b> function supplies the print spooler with addresses of DLL functions.
 
 
-## -parameters
-
-
-
-
-
-
-#### - void
-
-
 ## -returns
 
 

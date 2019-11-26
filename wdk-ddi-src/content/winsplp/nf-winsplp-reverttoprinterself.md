@@ -51,16 +51,6 @@ req.typenames:
 When <code>RevertToPrinterSelf</code> is called on an impersonating thread, it returns the token for the thread that is being impersonated.
 
 
-## -parameters
-
-
-
-
-
-
-#### - void
-
-
 ## -returns
 
 

@@ -53,9 +53,3 @@ req.typenames:
 The <b>WdfGetTriageInfo</b> method is reserved for internal use only.
 
 
-## -parameters
-
-
-
-
-

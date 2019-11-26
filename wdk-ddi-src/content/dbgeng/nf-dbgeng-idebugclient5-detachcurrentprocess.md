@@ -54,13 +54,6 @@ req.typenames:
 The <b>DetachCurrentProcess</b> method detaches the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a> from the current process, resuming all its <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-threads-and-processes">threads</a>.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

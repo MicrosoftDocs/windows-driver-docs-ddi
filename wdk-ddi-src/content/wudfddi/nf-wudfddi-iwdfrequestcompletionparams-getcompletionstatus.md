@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetCompletionStatus</b> method retrieves the completion status of an I/O request.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

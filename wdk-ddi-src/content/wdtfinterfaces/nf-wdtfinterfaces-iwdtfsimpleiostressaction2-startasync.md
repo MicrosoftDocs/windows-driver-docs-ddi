@@ -51,13 +51,6 @@ req.typenames:
 Asynchronously signals a start event to occur.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

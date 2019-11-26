@@ -51,8 +51,6 @@ req.typenames:
 
 Sets the properties for an allocator.
 
-## -parameters
-
 ## -see-also
 
 [IKsAllocatorEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocatorex)

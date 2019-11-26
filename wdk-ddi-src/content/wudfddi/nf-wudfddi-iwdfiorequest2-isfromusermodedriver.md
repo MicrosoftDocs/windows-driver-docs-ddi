@@ -53,13 +53,6 @@ req.typenames:
 The <b>IsFromUserModeDriver</b> method indicates whether an I/O request came from a user-mode driver or an application.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

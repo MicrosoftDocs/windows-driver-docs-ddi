@@ -56,9 +56,6 @@ After the Unlink call, the state of the script should be the same as if the foll
 - Populate the new script with the content of the script which was unlinked
 
 
-## -parameters
-
-
 ## -returns
 This method returns HRESULT that indicates success or failure.
 

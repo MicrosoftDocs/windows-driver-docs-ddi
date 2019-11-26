@@ -47,9 +47,6 @@ targetos: Windows
 
 An optional interface to allow miniport drivers to receive PnP state change notifications.
 
-## -parameters
-
-
 ## -remarks
 Available in Windows 10, version 1511 and later versions of Windows. 
 

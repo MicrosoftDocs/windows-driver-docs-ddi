@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetCompletedRequestType</b> method retrieves the type of operation that the request to be completed contains.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

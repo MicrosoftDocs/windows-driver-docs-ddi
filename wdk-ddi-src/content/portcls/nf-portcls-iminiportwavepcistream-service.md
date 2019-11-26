@@ -51,16 +51,6 @@ req.typenames:
 The <code>Service</code> method notifies the miniport driver of a request for service.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -remarks
 
 

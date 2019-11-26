@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeEnterGuardedRegion</b> routine enters a guarded region, which disables all kernel-mode APC delivery to the current thread. 
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

@@ -47,9 +47,6 @@ targetos: Windows
 
 PnpQueryStop provides a notification when PnpQueryStop is invoked by portcls just before succeeding the QueryStop IRP. 
 
-## -parameters
-
-
 ## -remarks
 
 PnpQueryStop is invoked by portcls just before succeeding the QueryStop IRP. This is just a notification and the call doesn’t return a value. 

@@ -51,15 +51,6 @@ req.typenames:
 The <b>FsRtlIncrementCcFastMdlReadWait </b>routine increments the cache manager's <b>CcFastMdlReadWait</b> performance counter member in a processor control block (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PRCB</a>) object.
 
 
-## -parameters
-
-
-
-
-
-
-
-
 ## -remarks
 
 

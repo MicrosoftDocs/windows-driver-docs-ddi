@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetRequestorMode</b> method indicates whether an I/O request came from a kernel-mode driver or a user-mode component (either an application or a user-mode driver).
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

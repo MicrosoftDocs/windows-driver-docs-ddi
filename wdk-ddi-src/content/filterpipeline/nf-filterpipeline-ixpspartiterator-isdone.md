@@ -51,16 +51,6 @@ req.typenames:
 The <code>IsDone</code> method determines whether the iterator has finished  the iteration.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -returns
 
 

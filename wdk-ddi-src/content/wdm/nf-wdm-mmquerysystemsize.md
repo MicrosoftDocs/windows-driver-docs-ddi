@@ -51,13 +51,6 @@ req.typenames:
 The <b>MmQuerySystemSize</b> routine returns an estimate of the amount of memory in the system.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

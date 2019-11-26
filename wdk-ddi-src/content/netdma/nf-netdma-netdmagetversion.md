@@ -57,13 +57,6 @@ The
   supports.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

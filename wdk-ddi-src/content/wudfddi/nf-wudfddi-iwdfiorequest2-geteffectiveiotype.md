@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetEffectiveIoType</b> method returns the buffer access method that UMDF is using for the data buffers of the I/O request that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a> interface represents.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

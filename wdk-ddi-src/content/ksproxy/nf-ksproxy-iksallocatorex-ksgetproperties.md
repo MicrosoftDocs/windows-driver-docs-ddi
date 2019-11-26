@@ -53,13 +53,6 @@ req.typenames:
 Returns the properties for an allocator.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

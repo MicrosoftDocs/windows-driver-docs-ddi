@@ -51,13 +51,6 @@ req.typenames:
 Removes all items from the collection.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -55,13 +55,6 @@ Removes or frees all items in the collection. The collection is considered empty
 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

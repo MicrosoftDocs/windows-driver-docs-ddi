@@ -54,13 +54,6 @@ The
   multiprocessor computer.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

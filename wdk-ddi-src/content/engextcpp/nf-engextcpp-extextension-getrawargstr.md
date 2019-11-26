@@ -51,13 +51,6 @@ req.typenames:
 The <b>GetRawArgStr</b> method returns a string that represents the arguments passed to the extension command.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

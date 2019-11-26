@@ -51,13 +51,6 @@ req.typenames:
 Determines whether the system has gone through a soft restart.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

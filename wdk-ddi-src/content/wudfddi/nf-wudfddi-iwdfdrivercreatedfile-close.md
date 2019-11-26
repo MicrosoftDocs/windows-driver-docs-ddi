@@ -53,13 +53,6 @@ req.typenames:
 The <b>Close</b> method closes an instance of a UMDF driver-created-file object that was created by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfdevice-createwdffile">IWDFDevice::CreateWdfFile</a> method.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

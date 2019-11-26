@@ -47,9 +47,6 @@ ms.custom: RS5
 
 The Close method is called on the data model manager by an application (e.g.: debugger) hosting the data model in order to start the shutdown process of the data model manager. A host of the data model which does not the Close method prior to releasing its final reference on the data model manager may cause undefined behavior including, but not limited to, significant leaks of the management infrastructure for the data model. 
 
-## -parameters
-
-
 ## -returns
 This method returns HRESULT.
 

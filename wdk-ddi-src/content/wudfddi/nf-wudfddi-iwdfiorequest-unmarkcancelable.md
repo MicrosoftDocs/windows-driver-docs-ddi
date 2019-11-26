@@ -53,13 +53,6 @@ req.typenames:
 The <b>UnmarkCancelable</b> method disables the canceling of an I/O request.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

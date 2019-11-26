@@ -51,13 +51,6 @@ req.typenames:
 The <b>GetNumUnnamedArgs</b> method returns the number of unnamed arguments in the command line used to invoke the current extension command.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

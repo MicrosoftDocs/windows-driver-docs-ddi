@@ -53,13 +53,6 @@ req.typenames:
 The <b>ReleaseInterruptLock</b> method ends a code sequence that executes while holding an interrupt object's lock.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

@@ -47,9 +47,6 @@ targetos: Windows
 
 The BufferSize method returns the size in bytes of the DMA channel's data buffer.
 
-## -parameters
-
-
 ## -returns
 This method returns ULONG which is the size in bytes of the buffer.
 

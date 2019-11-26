@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetInformation</b> method retrieves information that is associated with the completion of an I/O request.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

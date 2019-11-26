@@ -51,13 +51,6 @@ req.typenames:
 The <b>IKsReferenceClock::GetPhysicalTime</b> method queries the associated reference clock for the current physical time.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

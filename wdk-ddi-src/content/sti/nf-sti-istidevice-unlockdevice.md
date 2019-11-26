@@ -51,13 +51,6 @@ req.typenames:
 The <b>IStiDevice::UnLockDevice</b> method unlocks a device that was locked by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-lockdevice">IStiDevice::LockDevice</a>.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

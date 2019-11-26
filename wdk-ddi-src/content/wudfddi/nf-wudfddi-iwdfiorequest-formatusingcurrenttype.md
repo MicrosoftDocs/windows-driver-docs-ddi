@@ -53,13 +53,6 @@ req.typenames:
 The <b>FormatUsingCurrentType</b> method formats an I/O request so that the driver can forward it, unmodified, to the next-lower driver.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

@@ -53,13 +53,6 @@ req.typenames:
 The <b>Start</b> method enables an I/O queue to start receiving new I/O requests and delivering them to a driver.
 
 
-## -parameters
-
-
-
-
-
-
 ## -see-also
 
 

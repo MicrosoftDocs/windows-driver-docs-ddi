@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetConfiguredSettingIndex</b> method retrieves the current setting index for a USB interface.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

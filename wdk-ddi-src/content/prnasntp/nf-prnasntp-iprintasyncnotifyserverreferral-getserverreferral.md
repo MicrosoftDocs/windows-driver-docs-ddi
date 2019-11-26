@@ -51,16 +51,6 @@ req.typenames:
 
 
 
-## -parameters
-
-
-
-
-
-
-#### - pStr [out]
-
-
 ## -returns
 
 

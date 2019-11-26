@@ -51,13 +51,6 @@ req.typenames:
 The <b>GetFailureType</b> method gets the failure type of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object. The failure type indicates whether the code being analyzed was running in kernel mode or user mode.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

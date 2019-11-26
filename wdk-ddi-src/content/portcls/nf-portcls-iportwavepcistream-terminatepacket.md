@@ -51,16 +51,6 @@ req.typenames:
 The <code>TerminatePacket</code> method terminates the packet currently being mapped.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -returns
 
 

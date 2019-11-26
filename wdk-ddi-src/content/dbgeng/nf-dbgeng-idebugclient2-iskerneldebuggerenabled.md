@@ -54,13 +54,6 @@ req.typenames:
 The <b>IsKernelDebuggerEnabled</b> method checks whether kernel debugging is enabled for the local kernel.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

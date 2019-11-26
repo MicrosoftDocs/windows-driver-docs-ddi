@@ -53,13 +53,6 @@ req.typenames:
 The <b>Start</b> method starts sending queued requests to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">local  I/O target</a>.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

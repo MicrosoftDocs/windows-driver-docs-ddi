@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetRequestorProcessId</b> method retrieves the identifier of the process that sent an I/O request.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

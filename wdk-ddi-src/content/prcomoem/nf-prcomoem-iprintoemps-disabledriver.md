@@ -51,13 +51,6 @@ req.typenames:
 The <code>IPrintOemPS::DisableDriver</code> method allows a rendering plug-in for <a href="https://docs.microsoft.com/windows-hardware/drivers/">Pscript</a> to free resources that were allocated by the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enabledriver">IPrintOemPS::EnableDriver</a> method.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

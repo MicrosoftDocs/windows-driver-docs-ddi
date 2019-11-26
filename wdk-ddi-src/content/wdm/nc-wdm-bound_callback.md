@@ -51,17 +51,6 @@ req.typenames:
 The <i>BoundCallback</i> routine is executed whenever the system issues a bounds exception for a user-mode thread.
 
 
-## -parameters
-
-
-
-
-
-
-
-
-
-
 ## -returns
 
 

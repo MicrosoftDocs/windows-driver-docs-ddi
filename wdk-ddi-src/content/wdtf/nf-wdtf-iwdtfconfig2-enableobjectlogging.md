@@ -51,13 +51,6 @@ req.typenames:
 Enables object logging for all objects.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

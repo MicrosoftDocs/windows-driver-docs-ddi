@@ -52,13 +52,6 @@ req.typenames:
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensorclassextension-uninitialize">ISensorClassExtension::Uninitialize</a> method uninitializes the sensor class extension object.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 
