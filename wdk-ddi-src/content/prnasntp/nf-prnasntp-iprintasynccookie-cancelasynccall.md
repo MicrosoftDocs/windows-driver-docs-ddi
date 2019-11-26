@@ -51,16 +51,6 @@ req.typenames:
 
 
 
-## -parameters
-
-
-
-
-
-
-#### - hRes [in]
-
-
 ## -returns
 
 

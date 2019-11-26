@@ -51,13 +51,6 @@ req.typenames:
 Disables object logging for all objects.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

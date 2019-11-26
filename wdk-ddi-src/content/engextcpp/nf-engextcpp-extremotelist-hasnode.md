@@ -51,13 +51,6 @@ req.typenames:
 The <b>HasNode</b> method determines if there is a current item in the list iteration.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

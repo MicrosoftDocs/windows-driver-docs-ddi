@@ -53,13 +53,6 @@ req.typenames:
 The <b>Requeue</b> method returns an I/O request to the head of the I/O queue from which it was delivered to the driver.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -53,13 +53,6 @@ req.typenames:
 Returns the mode in which an allocator allocates memory.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

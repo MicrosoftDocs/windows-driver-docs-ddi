@@ -51,13 +51,6 @@ req.typenames:
 The <b>IStiDeviceControl::AddRef</b> method increments the reference count for the <b>IStiDeviceControl</b> interface.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

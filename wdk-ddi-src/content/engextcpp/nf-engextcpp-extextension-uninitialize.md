@@ -51,13 +51,6 @@ req.typenames:
 The <b>Uninitialize</b> method is called by the engine to uninitialize an EngExtCpp extension library before it is unloaded.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

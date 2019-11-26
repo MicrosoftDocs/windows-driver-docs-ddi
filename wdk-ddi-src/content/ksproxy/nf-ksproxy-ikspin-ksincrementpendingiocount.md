@@ -51,13 +51,6 @@ req.typenames:
 The <b>KsIncrementPendingIoCount</b> method increments the number of input/output (I/O) operations that are in progress on a pin.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -51,13 +51,6 @@ req.typenames:
 The <b>MmGetMaximumFileSectionSize</b> returns the maximum possible size of a file section for the current version of Windows.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

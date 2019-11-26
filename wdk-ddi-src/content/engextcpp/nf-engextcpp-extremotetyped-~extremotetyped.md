@@ -53,9 +53,6 @@ The <b>ExtRemoteTyped</b> class provides the ability to manipulate typed data on
 <b>ExtRemoteTyped</b> is a subclass of <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>.
 
 
-## -parameters
-
-
 ## -see-also
 
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>

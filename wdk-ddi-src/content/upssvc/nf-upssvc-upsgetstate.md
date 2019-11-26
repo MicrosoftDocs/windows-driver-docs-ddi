@@ -51,15 +51,6 @@ req.typenames:
 The <b>UPSGetState</b> function returns the operational state of the UPS.
 
 
-## -parameters
-
-
-
-
-
-
-
-
 ## -returns
 
 

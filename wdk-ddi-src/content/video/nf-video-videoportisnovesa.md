@@ -51,13 +51,6 @@ req.typenames:
 The <b>VideoPortIsNoVesa</b> function determines whether a video miniport driver that does not support Plug and Play (PnP) is restricted to legacy VGA resources.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

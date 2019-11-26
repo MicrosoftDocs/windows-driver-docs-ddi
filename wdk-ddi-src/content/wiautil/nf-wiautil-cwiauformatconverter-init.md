@@ -51,13 +51,6 @@ req.typenames:
 The <b>CWiauFormatConverter::Init</b> method initializes the <b>CWiauFormatConverter</b> class and GDI+ for converting images. This method should be called only once.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

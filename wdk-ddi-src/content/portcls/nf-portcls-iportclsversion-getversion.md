@@ -51,16 +51,6 @@ req.typenames:
 The <code>GetVersion</code> method returns the version of the Windows operating system that the driver is running on.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -returns
 
 

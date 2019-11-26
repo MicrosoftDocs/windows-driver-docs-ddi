@@ -53,13 +53,6 @@ req.typenames:
 The <b>AcquireLock</b> method prevents the framework from calling methods of interfaces that a driver registered.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

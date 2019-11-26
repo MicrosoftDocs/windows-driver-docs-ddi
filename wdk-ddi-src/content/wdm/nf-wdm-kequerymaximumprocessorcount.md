@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeQueryMaximumProcessorCount</b> routine returns the maximum number of processors.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -53,13 +53,6 @@ req.typenames:
 The <b>ResumeIdle</b> method informs the framework that the device is not in use and can be placed in a device low-power state if it remains idle.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

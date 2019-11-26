@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetStatus</b> method returns the status of an I/O request.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

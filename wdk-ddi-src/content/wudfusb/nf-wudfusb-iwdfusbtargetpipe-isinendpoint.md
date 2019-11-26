@@ -53,13 +53,6 @@ req.typenames:
 The <b>IsInEndPoint</b> method determines whether a USB pipe (endpoint) is an IN pipe.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeLeaveGuardedRegion</b> routine exits a guarded region entered by <b>KeEnterGuardedRegion</b>.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

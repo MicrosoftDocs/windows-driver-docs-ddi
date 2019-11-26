@@ -53,13 +53,6 @@ req.typenames:
 The <b>CloseLogFile</b> method closes the currently-open log file.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

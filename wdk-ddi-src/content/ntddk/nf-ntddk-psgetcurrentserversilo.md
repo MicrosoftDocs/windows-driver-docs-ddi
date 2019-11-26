@@ -51,13 +51,6 @@ req.typenames:
 This routine returns the effective server silo for the thread.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

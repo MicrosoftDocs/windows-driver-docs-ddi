@@ -53,13 +53,6 @@ req.typenames:
 The <b>IsCanceled</b> method determines whether the I/O manager has attempted to cancel an I/O request.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

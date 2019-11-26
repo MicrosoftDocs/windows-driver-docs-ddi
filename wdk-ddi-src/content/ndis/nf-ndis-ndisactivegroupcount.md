@@ -54,13 +54,6 @@ The
   local computer system.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

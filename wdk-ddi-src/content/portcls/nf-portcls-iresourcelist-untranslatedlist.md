@@ -51,16 +51,6 @@ req.typenames:
 The <code>UntranslatedList</code> method returns the list of untranslated resources.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -returns
 
 

@@ -53,13 +53,6 @@ req.typenames:
 The <b>DrainSynchronously</b> method directs the queue to reject new incoming I/O requests and allows already-queued requests to be delivered to the driver for processing. This method returns after all requests are completed or canceled.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

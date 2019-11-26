@@ -51,13 +51,6 @@ req.typenames:
 The <b>IKsReferenceClock::GetTime</b> method queries the associated reference clock for the current time.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

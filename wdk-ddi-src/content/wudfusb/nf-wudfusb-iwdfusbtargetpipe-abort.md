@@ -53,13 +53,6 @@ req.typenames:
 The <b>Abort</b> method aborts all pending transfers on a USB pipe.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

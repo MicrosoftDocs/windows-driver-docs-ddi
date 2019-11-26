@@ -53,13 +53,6 @@ req.typenames:
 The <b>DeleteWdfObject</b> method deletes a previously created Microsoft Windows Driver Frameworks (WDF) object.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

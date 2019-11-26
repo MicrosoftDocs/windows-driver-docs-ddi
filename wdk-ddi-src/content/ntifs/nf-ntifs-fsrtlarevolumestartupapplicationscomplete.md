@@ -51,13 +51,6 @@ req.typenames:
 The <b>FsRtlAreVolumeStartupApplicationsComplete</b> function determines whether volume startup applications have completed processing.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -51,15 +51,6 @@ req.typenames:
 The <b>MmIsRecursiveIoFault</b> routine determines whether the current page fault is occurring during an I/O operation.
 
 
-## -parameters
-
-
-
-
-
-
-
-
 ## -returns
 
 

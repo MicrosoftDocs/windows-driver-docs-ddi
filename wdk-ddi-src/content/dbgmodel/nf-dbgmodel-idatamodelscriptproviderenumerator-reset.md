@@ -46,9 +46,6 @@ ms.custom: RS5
 ## -description
 Resets the enumerator to the first element.
 
-## -parameters
-None
-
 ## -returns
 This method returns HRESULT that indicates success or failure.
 

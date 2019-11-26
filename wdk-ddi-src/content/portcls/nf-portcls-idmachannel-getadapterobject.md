@@ -46,9 +46,6 @@ targetos: Windows
 ## -description
 The GetAdapterObject method returns the DMA channel's hardware adapter object.
 
-## -parameters
-void
-
 ## -returns
 This method returns PADAPTER_OBJECT. It returns a pointer to the DMA-channel object's internal adapter object, which is a DMA_ADAPTER structure.
 

@@ -53,13 +53,6 @@ The
   <b>FwpmBfeStateGet0</b> function retrieves the current state of the filter engine.
 <div class="alert"><b>Note</b>  <b>FwpmBfeStateGet0</b> is a specific version of <b>FwpmBfeStateGet</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

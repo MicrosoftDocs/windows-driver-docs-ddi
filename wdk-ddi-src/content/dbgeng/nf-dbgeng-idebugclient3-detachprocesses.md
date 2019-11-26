@@ -55,13 +55,6 @@ req.typenames:
 The <b>DetachProcesses</b> method detaches the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a> from all <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-threads-and-processes">processes</a> in all targets, resuming all their <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-threads-and-processes">threads</a>.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

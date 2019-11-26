@@ -51,13 +51,6 @@ req.typenames:
 Disable object logging for all actions in the collection.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

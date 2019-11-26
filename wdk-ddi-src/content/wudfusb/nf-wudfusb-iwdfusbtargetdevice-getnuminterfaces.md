@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetNumInterfaces</b> method retrieves the number of USB interfaces for the USB device.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

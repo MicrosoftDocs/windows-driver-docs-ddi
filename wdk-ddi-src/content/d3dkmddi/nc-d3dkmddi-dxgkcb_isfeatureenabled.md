@@ -67,9 +67,6 @@ NTSTATUS DxgkcbIsfeatureenabled
 
 ```
 
-## -parameters
-
-
 ## -returns
 
 Return STATUS_SUCCESS if the operation succeeds.

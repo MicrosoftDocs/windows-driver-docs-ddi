@@ -52,9 +52,6 @@ The Clear method is a member of the <b>ExtRemoteTyped</b> class. The <b>ExtRemot
 <b>ExtRemoteTyped</b> is a subclass of <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>.
 
 
-## -parameters
-
-
 ## -see-also
 
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>

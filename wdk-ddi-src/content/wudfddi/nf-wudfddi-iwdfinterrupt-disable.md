@@ -53,13 +53,6 @@ req.typenames:
 The <b>Disable</b> method disables a specified device interrupt by calling the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/nc-wudfinterrupt-wudf_interrupt_disable">OnInterruptDisable</a> callback function.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

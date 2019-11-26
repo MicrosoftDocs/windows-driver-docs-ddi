@@ -53,13 +53,6 @@ req.typenames:
 The <b>IsFrom32BitProcess</b> method determines whether a request originated from a 32-bit process.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

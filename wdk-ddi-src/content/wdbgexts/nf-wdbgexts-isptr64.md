@@ -51,13 +51,6 @@ req.typenames:
 The <b>IsPtr64</b> function determines if the target uses 64-bit pointers.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

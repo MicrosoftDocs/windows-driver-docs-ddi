@@ -47,9 +47,6 @@ ms.custom: RS5
 
 The Reset method resets the position of the enumerator to where it was just after the enumerator was created -- that is, before the first enumerated breakpoint. 
 
-## -parameters
-
-
 ## -returns
 This method returns HRESULT that indicates success or failure.
 ## -remarks

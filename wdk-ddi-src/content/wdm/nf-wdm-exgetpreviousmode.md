@@ -51,13 +51,6 @@ req.typenames:
 The <b>ExGetPreviousMode</b> routine returns the previous processor mode for the current thread.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

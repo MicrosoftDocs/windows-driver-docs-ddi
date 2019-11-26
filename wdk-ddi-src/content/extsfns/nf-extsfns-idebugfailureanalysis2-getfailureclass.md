@@ -51,13 +51,6 @@ req.typenames:
 The <b>GetFailureClass</b> method gets the failure class of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object. The failure class indicates whether the debugging session  that created the <b>DebugFailureAnalysis</b> object is a kernel mode session or a user mode session.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

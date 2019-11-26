@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetState</b> method returns the current state of a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">local  I/O target</a>.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

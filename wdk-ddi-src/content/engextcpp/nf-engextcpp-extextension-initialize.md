@@ -51,13 +51,6 @@ req.typenames:
 The <b>Initialize</b> method is called by the engine to initialize an EngExtCpp extension library after loading it.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

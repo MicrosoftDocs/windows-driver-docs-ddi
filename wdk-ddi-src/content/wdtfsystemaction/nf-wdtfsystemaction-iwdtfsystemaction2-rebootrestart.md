@@ -51,13 +51,6 @@ req.typenames:
 Restart the system and the current test.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -63,11 +63,6 @@ VOID * DxgkcbAcquirehandledata
 
 ```
 
-## -parameters
-
-
-
-
 ## -returns
 
 Returns VOID.

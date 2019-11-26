@@ -51,16 +51,6 @@ req.typenames:
 The <code>MappingAvailable</code> method indicates that a new mapping is available.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -remarks
 
 

@@ -51,13 +51,6 @@ req.typenames:
 The <b>CWiauFormatConverter::CWiauFormatConverter</b> method is the constructor for the <b>CWiauFormatConverter</b> class.
 
 
-## -parameters
-
-
-
-
-
-
 ## -see-also
 
 

@@ -51,13 +51,6 @@ req.typenames:
 The <b>ExtRemoteTyped</b> constructors create a new instance of the <b>ExtRemoteTyped</b> class.
 
 
-## -parameters
-
-
-
-
-
-
 ## -see-also
 
 

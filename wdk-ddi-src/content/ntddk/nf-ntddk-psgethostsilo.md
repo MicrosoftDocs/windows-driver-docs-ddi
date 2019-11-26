@@ -51,13 +51,6 @@ req.typenames:
 This routine returns the host silo.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

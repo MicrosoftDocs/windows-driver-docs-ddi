@@ -47,9 +47,6 @@ ms.custom: RS5
 
 The Reset method resets the enumerator to the position it was at when it was first created -- before the first template produced. 
 
-## -parameters
-
-
 ## -returns
 This method returns HRESULT.
 ## -remarks

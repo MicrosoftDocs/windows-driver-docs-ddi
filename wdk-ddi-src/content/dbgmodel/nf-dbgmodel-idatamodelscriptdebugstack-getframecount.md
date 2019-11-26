@@ -47,9 +47,6 @@ ms.custom: RS5
 
 The GetFrameCount method returns the number of stack frames in this segment of the call stack. If the provider can detect frames in different script contexts or of different providers, it should indicate this to the caller by implementation of the IsTransitionPoint and GetTransition methods on the entry frame into this stack segment. 
 
-## -parameters
-
-
 ## -returns
 This method returns ULONG64. The value is the number of stack frames in the current stack segment.
 ## -remarks

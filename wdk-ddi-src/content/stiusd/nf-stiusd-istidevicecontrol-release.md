@@ -51,13 +51,6 @@ req.typenames:
 The <b>IStiDeviceControl::Release</b> method closes the instance of the COM object that was created when a minidriver client called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a>.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -51,13 +51,6 @@ req.typenames:
 <b>ChangerAdditionalExtensionSize</b> indicates the number of bytes the changer miniclass driver requires to store device-specific information in the device extension.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

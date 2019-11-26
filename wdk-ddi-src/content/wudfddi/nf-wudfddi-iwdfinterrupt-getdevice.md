@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetDevice</b> method returns the framework device object interface for this interrupt object.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -47,9 +47,6 @@ ms.custom: RS5
 
 The search record passed to EnumerateChildrenEx specifically for SymbolType searches.
 
-## -parameters
-None
-
 ## -returns
 This function is a constructor and does not return a value.
 

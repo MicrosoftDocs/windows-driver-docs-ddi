@@ -52,13 +52,6 @@ req.typenames:
 The <b>KeGetCurrentIrql</b> routine returns the current IRQL. For information about IRQLs, see [Managing Hardware Priorities](https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-hardware-priorities).
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

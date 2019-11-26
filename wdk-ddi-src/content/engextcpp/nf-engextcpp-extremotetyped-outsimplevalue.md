@@ -51,13 +51,6 @@ req.typenames:
 The <b>OutSimpleValue</b> method prints the value of the typed data represented by this object.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

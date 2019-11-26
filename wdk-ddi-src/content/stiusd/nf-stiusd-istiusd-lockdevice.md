@@ -51,13 +51,6 @@ req.typenames:
 A still image minidriver's <b>IStiUSD::LockDevice</b> method locks a device for exclusive use by the caller.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

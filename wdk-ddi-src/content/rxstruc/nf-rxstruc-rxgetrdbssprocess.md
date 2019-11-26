@@ -51,13 +51,6 @@ req.typenames:
 <b>RxGetRDBSSProcess</b> returns a pointer to the process of the main thread used by the RDBSS kernel process.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

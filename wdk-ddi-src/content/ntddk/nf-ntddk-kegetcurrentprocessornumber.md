@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeGetCurrentProcessorNumber</b> routine returns the system-assigned number of the current processor on which the caller is running.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

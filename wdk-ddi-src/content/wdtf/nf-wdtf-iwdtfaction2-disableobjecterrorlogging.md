@@ -51,13 +51,6 @@ req.typenames:
 Disables object error logging for the action.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

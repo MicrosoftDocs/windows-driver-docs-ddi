@@ -51,13 +51,6 @@ req.typenames:
 The <b>IoSizeofWorkItem</b> routine returns the size, in bytes, of an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure. 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

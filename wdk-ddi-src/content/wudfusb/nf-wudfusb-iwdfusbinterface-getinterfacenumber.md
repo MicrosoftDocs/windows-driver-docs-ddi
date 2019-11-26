@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetInterfaceNumber</b> method retrieves the index of a USB interface.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

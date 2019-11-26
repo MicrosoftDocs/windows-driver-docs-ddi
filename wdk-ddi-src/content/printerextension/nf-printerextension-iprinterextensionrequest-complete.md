@@ -51,18 +51,6 @@ req.typenames:
 Completes the extension event.
 
 
-## -parameters
-
-
-
-
-
-
-#### - Void
-
-This method has no parameters.
-
-
 ## -returns
 
 

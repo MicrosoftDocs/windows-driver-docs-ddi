@@ -51,18 +51,6 @@ req.typenames:
 The <b>IStillImage::SetupDeviceParameters</b> method allows clients of the <b>IStillImage</b> COM interface to modify a still image device's stored characteristics, if the device's bus type is unknown.
 
 
-## -parameters
-
-
-
-
-
-
-#### - pDevInfo [in, out]
-
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_device_informationw">STI_DEVICE_INFORMATION</a> structure describing a still image device.
-
-
 ## -returns
 
 

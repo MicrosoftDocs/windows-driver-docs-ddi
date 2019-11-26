@@ -51,13 +51,3 @@ req.typenames:
 The <code>Reset</code> method sets the iterator to the first element.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-

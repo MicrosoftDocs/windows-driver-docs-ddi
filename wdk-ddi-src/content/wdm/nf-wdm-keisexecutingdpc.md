@@ -46,9 +46,6 @@ targetos: Windows
 
 Checks whether a DPC is being executed on current processor.
 
-## -parameters
-
-
 ## -returns
 This function returns a non-zero value if a DPC is currently being executed on the current processor. Otherwise, retunrs zero. 
 

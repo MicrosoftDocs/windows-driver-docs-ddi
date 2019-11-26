@@ -53,13 +53,6 @@ req.typenames:
 The <b>Flush</b> method discards any data that WinUsb saved when the device returned more data than the client requested.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

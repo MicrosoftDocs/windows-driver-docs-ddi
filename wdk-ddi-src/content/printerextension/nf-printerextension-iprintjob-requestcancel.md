@@ -51,18 +51,6 @@ req.typenames:
 Requests the cancellation of a print job.
 
 
-## -parameters
-
-
-
-
-
-
-#### - void
-
-None.
-
-
 ## -returns
 
 

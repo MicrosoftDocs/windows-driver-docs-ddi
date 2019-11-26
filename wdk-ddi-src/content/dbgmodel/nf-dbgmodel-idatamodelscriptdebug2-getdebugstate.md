@@ -55,9 +55,6 @@ ScriptDebugBreak |	Indicates that the script is broken into the debugger during 
 
 
 
-## -parameters
-
-
 ## -returns
 The debug state of the script as indicated by a value in the ScriptDebugState enumeration.
 

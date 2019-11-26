@@ -51,13 +51,6 @@ req.typenames:
 The <b>IoGetRemainingStackSize</b> routine returns the current amount of available kernel-mode stack space.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

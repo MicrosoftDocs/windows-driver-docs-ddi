@@ -55,13 +55,6 @@ req.typenames:
   <b>GetUserModeDriverInitiatedIo</b> method determines whether an I/O request is marked as initiated by a UMDF driver.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

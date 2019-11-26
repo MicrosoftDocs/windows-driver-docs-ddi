@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeInvalidateAllCaches</b> routine flushes all processor caches. 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

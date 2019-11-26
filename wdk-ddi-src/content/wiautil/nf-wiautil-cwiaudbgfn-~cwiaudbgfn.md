@@ -51,13 +51,6 @@ req.typenames:
 The <b>CWiauDbgFn::~CWiauDbgFn</b> destructor is called when the function or method being traced by <b>CWiauDbgFn::CWiauDbgFn</b> is exited.
 
 
-## -parameters
-
-
-
-
-
-
 ## -see-also
 
 

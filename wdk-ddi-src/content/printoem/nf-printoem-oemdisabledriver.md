@@ -50,4 +50,3 @@ This function is obsolete for Windows XP and later. It is supported only for ear
 
 Use [IPrintOemPS::DisableDriver (Pscript)](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-disabledriver) or [IPrintOemUni::DisableDriver (Unidrv)](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-disabledriver) instead.
 
-## -parameters

@@ -53,13 +53,6 @@ The <b>FwpsNetBufferListGetTagForContext0</b> function gets a locally unique con
   associate packets with the callout driver.
 <div class="alert"><b>Note</b>  <b>FwpsNetBufferListGetTagForContext0</b> is a specific version of <b>FwpsNetBufferListGetTagForContext</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

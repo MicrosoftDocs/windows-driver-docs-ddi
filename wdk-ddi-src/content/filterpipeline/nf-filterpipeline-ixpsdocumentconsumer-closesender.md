@@ -51,16 +51,6 @@ req.typenames:
 The <code>CloseSender</code> method tells the Pipeline Manager that the filter is done sending XPS parts.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -returns
 
 

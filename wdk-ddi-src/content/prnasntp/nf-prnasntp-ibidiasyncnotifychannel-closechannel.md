@@ -51,16 +51,6 @@ req.typenames:
 
 
 
-## -parameters
-
-
-
-
-
-
-#### - pObject [in]
-
-
 ## -returns
 
 

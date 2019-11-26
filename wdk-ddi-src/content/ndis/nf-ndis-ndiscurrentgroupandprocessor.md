@@ -54,13 +54,6 @@ The
   the current processor.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

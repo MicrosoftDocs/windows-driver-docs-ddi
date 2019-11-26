@@ -51,16 +51,6 @@ req.typenames:
 The <code>NumberOfEntries</code> method returns the number of resource items in the resource list.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -returns
 
 

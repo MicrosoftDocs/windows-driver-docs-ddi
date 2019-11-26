@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeAreApcsDisabled</b> routine returns whether the calling thread is within a critical region or a guarded region, which disables normal kernel APC delivery.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

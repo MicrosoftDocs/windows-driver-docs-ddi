@@ -51,16 +51,6 @@ req.typenames:
 The <code>Disconnect</code> method disconnects the synchronization object from the interrupt.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -see-also
 
 

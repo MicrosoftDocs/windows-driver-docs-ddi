@@ -51,15 +51,6 @@ req.typenames:
 The <b>FsRtlIncrementCcFastReadNoWait</b> routine increments the CcFastReadNoWait performance counter in a per processor control block of cache manager system counters.
 
 
-## -parameters
-
-
-
-
-
-
-
-
 ## -remarks
 
 

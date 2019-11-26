@@ -56,13 +56,6 @@ The <b>GetCount</b> method returns the number of resource descriptors that are c
 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

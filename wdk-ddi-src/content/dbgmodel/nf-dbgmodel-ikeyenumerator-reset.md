@@ -47,9 +47,6 @@ ms.custom: RS5
 
 Resets the enumerator to its initial state.  A subsequent GetNext call will return the first key in enumerator order.
 
-## -parameters
-
-
 ## -returns
 This method returns HRESULT that indicates success or failure.
 

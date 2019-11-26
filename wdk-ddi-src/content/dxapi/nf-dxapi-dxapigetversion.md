@@ -54,13 +54,6 @@ Do not use the <b>DxApiGetVersion</b> function; use the <a href="https://docs.mi
 The <b>DxApiGetVersion</b> function returns a Direct Sound version number of 4.02.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

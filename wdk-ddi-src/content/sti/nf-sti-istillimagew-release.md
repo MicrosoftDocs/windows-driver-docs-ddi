@@ -51,13 +51,6 @@ req.typenames:
 The <b>IStillImage::Release</b> method closes the instance of the COM object that was created by a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a>, and removes access to the object's interface.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

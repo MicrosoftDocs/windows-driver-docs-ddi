@@ -51,16 +51,6 @@ req.typenames:
 The <code>GetKInterrupt</code> method gets a WDM interrupt object from a port-class synchronization object.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -returns
 
 
