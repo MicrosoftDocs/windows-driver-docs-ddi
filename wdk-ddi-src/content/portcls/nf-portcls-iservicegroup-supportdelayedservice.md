@@ -51,16 +51,6 @@ req.typenames:
 The <code>SupportDelayedService</code> method indicates that the service group should prepare to support delayed service.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -remarks
 
 

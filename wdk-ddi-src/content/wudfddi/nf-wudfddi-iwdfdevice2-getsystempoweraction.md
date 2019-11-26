@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetSystemPowerAction</b> method returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-power-actions">system power action</a>, if any, that is currently occurring for the computer. 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

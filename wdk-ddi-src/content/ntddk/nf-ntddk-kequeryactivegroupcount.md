@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeQueryActiveGroupCount</b> routine returns the number of active processor groups in a multiprocessor system.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

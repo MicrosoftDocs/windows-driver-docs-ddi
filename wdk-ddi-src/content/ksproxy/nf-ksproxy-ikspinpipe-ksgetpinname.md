@@ -53,13 +53,6 @@ req.typenames:
 Returns the name of a pin. 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

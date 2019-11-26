@@ -51,16 +51,6 @@ req.typenames:
 The <code>FilterFinished</code> method reports that a filter is finished processing.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -returns
 
 

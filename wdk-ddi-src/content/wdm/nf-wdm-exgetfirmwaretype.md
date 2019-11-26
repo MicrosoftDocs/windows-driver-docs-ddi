@@ -51,13 +51,6 @@ req.typenames:
 Returns the system firmware type.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -51,13 +51,6 @@ req.typenames:
 The <b>Prev</b> method changes the current item to the previous item in the list.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

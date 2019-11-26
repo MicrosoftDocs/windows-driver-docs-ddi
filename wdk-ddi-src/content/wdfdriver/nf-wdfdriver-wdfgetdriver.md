@@ -56,13 +56,6 @@ req.typenames:
 The <b>WdfGetDriver</b> method returns a handle to the framework driver object that represents the calling driver.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

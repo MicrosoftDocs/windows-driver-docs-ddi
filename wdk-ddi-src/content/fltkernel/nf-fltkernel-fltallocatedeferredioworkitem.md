@@ -52,13 +52,6 @@ req.typenames:
 <b>FltAllocateDeferredIoWorkItem</b> allocates a deferred-I/O work item. 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

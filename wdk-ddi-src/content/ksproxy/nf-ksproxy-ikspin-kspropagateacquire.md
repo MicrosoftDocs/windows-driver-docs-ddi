@@ -51,13 +51,6 @@ req.typenames:
 The <b>KsPropagateAcquire</b> method directs all the pins on the filter to attain the Acquire state. 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -51,15 +51,6 @@ req.typenames:
 The <b>FsRtlIncrementCcFastReadResourceMiss</b> routine increments the CcFastReadNotPossible performance counter in a per processor control block of cache manager system counters.
 
 
-## -parameters
-
-
-
-
-
-
-
-
 ## -remarks
 
 

@@ -53,13 +53,6 @@ The <b>MmIsThisAnNtAsSystem</b> routine is <u>obsolete</u> for Windows XP and la
 The <b>MmIsThisAnNtAsSystem </b>routine checks whether the current platform is running a server version of the NT-based operating system.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

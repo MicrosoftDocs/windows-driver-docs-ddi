@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeGetCurrentThread</b> routine identifies the current thread. 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

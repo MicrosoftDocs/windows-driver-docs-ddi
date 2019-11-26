@@ -51,13 +51,6 @@ req.typenames:
 <b>FltAllocateGenericWorkItem</b> allocates a generic work item. 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

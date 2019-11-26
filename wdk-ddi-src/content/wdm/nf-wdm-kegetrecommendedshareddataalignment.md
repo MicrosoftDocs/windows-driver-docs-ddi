@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeGetRecommendedSharedDataAlignment</b> routine returns the preferred alignment for memory structures that can be accessed by more than one processor.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

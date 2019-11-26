@@ -51,18 +51,6 @@ req.typenames:
 Commits the operation.
 
 
-## -parameters
-
-
-
-
-
-
-#### - Void
-
-This method has no parameters.
-
-
 ## -returns
 
 

@@ -47,9 +47,6 @@ ms.custom: RS5
 
 The ClearKeys method removes all keys and their associated values and metadata from the instance of the object specified by this. This method has no effect on parent models attached to the particular object instance. 
 
-## -parameters
-
-
 ## -returns
 This method returns HRESULT that indicates success or failure.
 

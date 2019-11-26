@@ -51,18 +51,6 @@ req.typenames:
 The <code>UnregisterWMIProvider</code> method unregisters the <a href="https://docs.microsoft.com/windows-hardware/test/wpt/event-tracing-for-windows">Event Tracing for Windows</a> (ETW) interface that was previously registered with a call to the RegisterWMIProvider method. The unregistration disables the ETW registration with PortCls.
 
 
-## -parameters
-
-
-
-
-
-
-#### - pDeviceObject
-
-Specifies a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter driver.
-
-
 ## -returns
 
 

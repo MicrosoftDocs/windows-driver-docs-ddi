@@ -54,13 +54,6 @@ req.typenames:
 The <b>AbandonCurrentProcess</b> method removes the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/c">current process</a> from the debugger engine's process list without detaching or terminating the process.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

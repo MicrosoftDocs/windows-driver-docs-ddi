@@ -51,15 +51,6 @@ req.typenames:
 The <b>PsGetCurrentThreadTeb</b> routine returns the Thread Environment Block (TEB) of the current thread, or NULL. The call must be made in kernel-mode.
 
 
-## -parameters
-
-
-
-
-
-
-
-
 ## -returns
 
 

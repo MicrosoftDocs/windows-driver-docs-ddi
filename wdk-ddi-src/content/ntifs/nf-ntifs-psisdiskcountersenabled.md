@@ -51,13 +51,6 @@ req.typenames:
 The enabled state of the per process disk I/O counters is returned by the <b>PsIsDiskCountersEnabled</b> routine.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

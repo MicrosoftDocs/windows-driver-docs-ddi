@@ -51,16 +51,6 @@ req.typenames:
 The <code>Connect</code> method connects the synchronization object to the interrupt.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -returns
 
 

@@ -51,19 +51,6 @@ req.typenames:
 The <i>DxgkDdiUnload</i> function frees any resources allocated during execution of the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function.
 
 
-## -parameters
-
-
-
-
-
-
-
-
-
-
-
-
 ## -remarks
 
 

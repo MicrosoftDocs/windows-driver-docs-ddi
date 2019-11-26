@@ -51,13 +51,6 @@ req.typenames:
 Asynchronously signals the I/O to continue.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

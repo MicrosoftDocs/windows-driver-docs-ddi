@@ -51,18 +51,6 @@ req.typenames:
 Notifies the print system that the XML DOM object has changed.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-This method has no parameters.
-
-
 ## -returns
 
 

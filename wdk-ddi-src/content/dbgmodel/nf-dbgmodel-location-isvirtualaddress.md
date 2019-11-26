@@ -47,9 +47,6 @@ ms.custom: RS5
 
 Indicates whether the location refers to a virtual address.
 
-## -parameters
-None
-
 ## -returns
 This function returns bool.
 

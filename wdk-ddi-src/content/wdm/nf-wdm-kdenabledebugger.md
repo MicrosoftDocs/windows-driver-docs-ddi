@@ -51,13 +51,6 @@ req.typenames:
 The <b>KdEnableDebugger</b> routine re-enables the kernel debugger after a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kddisabledebugger">KdDisableDebugger</a> routine disables the kernel debugger. 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

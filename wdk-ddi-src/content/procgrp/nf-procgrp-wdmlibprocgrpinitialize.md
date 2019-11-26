@@ -52,13 +52,6 @@ req.typenames:
 The <b>WdmlibProcgrpInitialize</b> function initializes the Processor Group (ProcGrp) compatibility library.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

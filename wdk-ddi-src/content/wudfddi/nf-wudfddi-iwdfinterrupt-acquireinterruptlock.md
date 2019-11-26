@@ -53,13 +53,6 @@ req.typenames:
 The <b>AcquireInterruptLock</b> method begins a code sequence that executes while holding an interrupt object's lock.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

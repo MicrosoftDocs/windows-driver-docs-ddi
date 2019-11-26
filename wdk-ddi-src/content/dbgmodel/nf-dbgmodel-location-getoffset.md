@@ -46,9 +46,6 @@ ms.custom: RS5
 ## -description
 Returns the offset of the location.
 
-## -parameters
-None 
-
 ## -returns
 This function returns ULONG64.
 

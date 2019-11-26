@@ -54,13 +54,6 @@ req.typenames:
 The <b>CheckLowMemory</b> method checks for memory corruption in the low 4 GB of memory.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

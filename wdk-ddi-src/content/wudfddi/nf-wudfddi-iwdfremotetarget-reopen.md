@@ -53,13 +53,6 @@ req.typenames:
 The <b>Reopen</b> method reopens a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a> after it has been temporarily closed.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

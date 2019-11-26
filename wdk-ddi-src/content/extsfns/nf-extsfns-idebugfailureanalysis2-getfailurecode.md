@@ -51,13 +51,6 @@ req.typenames:
 The <b>GetFailureCode</b> method gets the bug check code or exception code of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

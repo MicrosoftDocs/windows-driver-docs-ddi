@@ -51,13 +51,6 @@ req.typenames:
 The <b>ExRaiseAccessViolation</b> routine can be used with structured exception handling to throw a driver-determined exception for a memory access violation that occurs when a driver processes I/O requests.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

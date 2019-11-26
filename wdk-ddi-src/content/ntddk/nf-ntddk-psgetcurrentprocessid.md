@@ -51,13 +51,6 @@ req.typenames:
 The <b>PsGetCurrentProcessId</b> routine identifies the current thread's process. 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeMemoryBarrier</b> routine creates a barrier at its position in the code—across which the compiler and the processor cannot move any operations.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

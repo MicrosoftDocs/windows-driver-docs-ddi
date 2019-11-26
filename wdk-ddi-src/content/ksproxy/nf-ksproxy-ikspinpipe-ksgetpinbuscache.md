@@ -53,13 +53,6 @@ req.typenames:
 Not recommended for application use.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

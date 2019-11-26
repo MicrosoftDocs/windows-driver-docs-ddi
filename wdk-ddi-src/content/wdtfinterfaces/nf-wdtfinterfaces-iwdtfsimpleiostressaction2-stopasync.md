@@ -51,13 +51,6 @@ req.typenames:
 Asynchronously signals the stop event to occur.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -51,13 +51,6 @@ req.typenames:
 The <b>PsRevertToSelf</b> routine ends the calling thread's impersonation of a client.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

@@ -56,13 +56,6 @@ req.typenames:
 The <b>WdfVerifierDbgBreakPoint</b> function breaks into a kernel debugger, if a debugger is running.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

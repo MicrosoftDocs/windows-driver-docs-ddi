@@ -51,13 +51,6 @@ req.typenames:
 The <b>GetTypeSize</b> method returns the size of the type represented by this object.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

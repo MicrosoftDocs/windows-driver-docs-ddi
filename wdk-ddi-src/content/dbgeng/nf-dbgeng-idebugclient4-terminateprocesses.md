@@ -55,13 +55,6 @@ req.typenames:
 The <b>TerminateProcesses</b> method attempts to terminate all <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-threads-and-processes">processes</a> in all targets.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

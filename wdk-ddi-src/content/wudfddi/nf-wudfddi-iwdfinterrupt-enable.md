@@ -53,13 +53,6 @@ req.typenames:
 The <b>Enable</b> method enables a specified device interrupt by calling the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfinterrupt/nc-wudfinterrupt-wudf_interrupt_enable">OnInterruptEnable</a> callback function.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

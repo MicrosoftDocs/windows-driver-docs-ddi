@@ -49,8 +49,6 @@ req.typenames:
 
 The **IoGetCurrentProcess** routine returns a pointer to the current process. Call **PsGetCurrentProcess** instead of **IoGetCurrentProcess**.
 
-## -parameters
-
 ## -returns
 
 **IoGetCurrentProcess** returns a pointer to the current process.

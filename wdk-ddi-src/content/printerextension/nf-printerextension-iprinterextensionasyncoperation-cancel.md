@@ -51,18 +51,6 @@ req.typenames:
 Cancels the asynchronous operation.
 
 
-## -parameters
-
-
-
-
-
-
-#### - void
-
-None.
-
-
 ## -returns
 
 

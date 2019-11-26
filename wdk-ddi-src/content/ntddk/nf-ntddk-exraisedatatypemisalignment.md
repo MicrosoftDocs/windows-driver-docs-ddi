@@ -51,13 +51,6 @@ req.typenames:
 The <b>ExRaiseDatatypeMisalignment</b> routine can be used with structured exception handling to throw a driver-determined exception for a misaligned data type that occurs when a driver processes I/O requests.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

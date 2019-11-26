@@ -51,16 +51,6 @@ req.typenames:
 
 
 
-## -parameters
-
-
-
-
-
-
-#### - ppObject [in]
-
-
 ## -returns
 
 

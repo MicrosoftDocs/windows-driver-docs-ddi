@@ -54,13 +54,6 @@ This method ends a power trace session. Any power state events that occurred bet
 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

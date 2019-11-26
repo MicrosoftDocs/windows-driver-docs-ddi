@@ -53,13 +53,6 @@ req.typenames:
 Retrieves a file handle to an allocator.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

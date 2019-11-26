@@ -53,13 +53,6 @@ req.typenames:
 The <b>GetSize</b> method retrieves the size of the data buffer that is associated with a memory object.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

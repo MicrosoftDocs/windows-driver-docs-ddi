@@ -51,13 +51,6 @@ req.typenames:
 A still image minidriver's <b>IStiUSD::DeviceReset</b> method resets a still image device to a known, initialized state.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

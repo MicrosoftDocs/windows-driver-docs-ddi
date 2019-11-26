@@ -51,13 +51,6 @@ req.typenames:
 The <b>VideoPortGetCurrentIrql</b> function gets the current IRQL.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

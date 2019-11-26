@@ -53,13 +53,6 @@ req.typenames:
 The <b>QueueWorkItemForIsr</b> method queues a work item to process interrupt-related work outside of the interrupt service routine.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

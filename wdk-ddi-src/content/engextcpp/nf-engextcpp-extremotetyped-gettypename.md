@@ -51,13 +51,6 @@ req.typenames:
 The <b>GetTypeName</b> method returns the type name of the typed data represented by this object.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

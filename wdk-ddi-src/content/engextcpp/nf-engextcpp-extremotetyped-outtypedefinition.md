@@ -51,13 +51,6 @@ req.typenames:
 The <b>OutTypeDefinition</b> method prints the type of the typed data represented by this object.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -47,9 +47,6 @@ targetos: Windows
 
 The PnpStop method provides a notification after stopping all Ioctl operations and moving active streams from run|pause|acquire state to stop state.
 
-## -parameters
-
-
 ## -remarks
 
 PnpStop is invoked by Portcls after stopping all Ioctl operations and moving active streams from run|pause|acquire state to stop state. This call is not made while holding the device global lock. Thus the miniport driver has an opportunity to wait for its async operations (work-items, dpc, async threads) and unregister its audio subdevices. Before returning from this call the miniport must ensure that all the hardware resources have been released. 

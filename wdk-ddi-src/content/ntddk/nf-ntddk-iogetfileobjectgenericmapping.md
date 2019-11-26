@@ -51,13 +51,6 @@ req.typenames:
 The <b>IoGetFileObjectGenericMapping</b> routine returns information about the mapping between each generic access right and the set of specific access rights for file objects.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

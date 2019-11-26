@@ -51,13 +51,6 @@ req.typenames:
 A still image minidriver's <b>IStiUSD::UnLockDevice</b> method unlocks a device that was locked by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-lockdevice">IStiUSD::LockDevice</a>.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

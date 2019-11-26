@@ -51,13 +51,6 @@ req.typenames:
 The <b>KsGetObjectHandle</b> method retrieves a file handle to a KS object. 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

@@ -53,13 +53,6 @@ req.typenames:
 The <b>Close</b> method closes a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

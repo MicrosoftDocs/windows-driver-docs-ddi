@@ -51,13 +51,6 @@ req.typenames:
 The <b>Next</b> method changes the current item to the next item in the list.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

@@ -47,10 +47,6 @@ targetos: Windows
 
 The Stop method stops a subordinate DMA object that was started by a previous call to [IDmaChannelSlave::Start](nf-portcls-idmachannelslave-start.md).
 
-## -parameters
-
-None
-
 ## -returns
 The stop method returns NTSTATUS.  It returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 

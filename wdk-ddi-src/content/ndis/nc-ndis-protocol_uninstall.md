@@ -54,17 +54,6 @@ NDIS calls a protocol driver's
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_UNINSTALL</b> type. For more
    information, see the following Examples section.</div><div> </div>
 
-## -parameters
-
-
-
-
-
-
-
-
-
-
 ## -remarks
 
 

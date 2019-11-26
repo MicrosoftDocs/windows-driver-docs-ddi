@@ -51,13 +51,6 @@ req.typenames:
 The <b>CcWaitForCurrentLazyWriterActivity</b> routine puts the caller into a wait state until the current batch of lazy writer activity is completed.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

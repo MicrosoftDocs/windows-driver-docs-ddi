@@ -51,13 +51,6 @@ req.typenames:
 The <b>GetPointerTo</b> method returns typed data that is a pointer to the typed data represented by this object.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

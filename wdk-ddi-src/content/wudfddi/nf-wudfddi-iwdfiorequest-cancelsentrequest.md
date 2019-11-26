@@ -53,13 +53,6 @@ req.typenames:
 The <b>CancelSentRequest</b> method attempts to cancel the I/O request that the driver previously submitted to an I/O target.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

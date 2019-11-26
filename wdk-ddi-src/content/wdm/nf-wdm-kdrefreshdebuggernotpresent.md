@@ -51,13 +51,6 @@ req.typenames:
 The <b>KdRefreshDebuggerNotPresent</b> macro refreshes the value of the <a href="https://docs.microsoft.com/previous-versions/ff548125(v=vs.85)">KD_DEBUGGER_NOT_PRESENT</a> global kernel variable.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

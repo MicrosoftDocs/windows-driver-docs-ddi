@@ -47,9 +47,6 @@ ms.custom: RS5
 
 The Reset method on an iterator returned from the iterable concept will restore the position of the iterator to where it was when the iterator was first created (before the first element). While it is strongly recommended that iterator's support the Reset method, it is not required. An iterator can be the equivalent of a C++ input iterator and only allow a single pass of forward iteration. In such case, the Reset method may fail with E_NOTIMPL. 
 
-## -parameters
-
-
 ## -returns
 This method returns HRESULT.
 

@@ -53,13 +53,6 @@ req.typenames:
 The <b>SetFilter</b> method sets the property that enables a device as a filter device.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 

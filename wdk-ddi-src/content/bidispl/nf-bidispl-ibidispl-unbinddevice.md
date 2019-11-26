@@ -51,13 +51,6 @@ req.typenames:
 The <b>UnbindDevice</b> method unbinds a printer from a bidi request.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

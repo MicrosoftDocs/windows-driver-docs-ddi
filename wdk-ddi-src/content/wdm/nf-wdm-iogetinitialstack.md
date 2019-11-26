@@ -51,13 +51,6 @@ req.typenames:
 The <b>IoGetInitialStack</b> routine returns the base address of the current thread's stack.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

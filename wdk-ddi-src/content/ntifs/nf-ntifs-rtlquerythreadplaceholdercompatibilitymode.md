@@ -51,13 +51,6 @@ req.typenames:
 **RtlQueryThreadPlaceholderCompatibilityMode** returns the placeholder compatibility mode for the current thread.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 Returns the thread's placeholder compatibility mode. If there was an error it returns a negative value. It can be one of the following values:

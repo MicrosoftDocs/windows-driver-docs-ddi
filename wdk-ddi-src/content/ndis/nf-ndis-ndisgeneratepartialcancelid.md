@@ -54,13 +54,6 @@ The
   high-order byte of a cancellation ID.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

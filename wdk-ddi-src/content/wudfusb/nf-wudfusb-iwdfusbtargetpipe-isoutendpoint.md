@@ -53,13 +53,6 @@ req.typenames:
 The <b>IsOutEndPoint</b> method determines whether a USB pipe (endpoint) is an OUT pipe.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

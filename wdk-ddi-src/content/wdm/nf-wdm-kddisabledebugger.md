@@ -51,13 +51,6 @@ req.typenames:
 The <b>KdDisableDebugger</b> routine disables the kernel debugger. 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 

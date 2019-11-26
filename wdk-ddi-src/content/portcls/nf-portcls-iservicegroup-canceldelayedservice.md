@@ -51,16 +51,6 @@ req.typenames:
 The <code>CancelDelayedService</code> method cancels the previously requested delayed service.
 
 
-## -parameters
-
-
-
-
-
-
-#### - None
-
-
 ## -see-also
 
 

@@ -51,18 +51,6 @@ req.typenames:
 Disallows events to be generated.
 
 
-## -parameters
-
-
-
-
-
-
-#### - Void
-
-This method has no parameters.
-
-
 ## -returns
 
 

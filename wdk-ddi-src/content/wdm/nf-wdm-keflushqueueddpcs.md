@@ -51,13 +51,6 @@ req.typenames:
 The <b>KeFlushQueuedDpcs</b> routine returns after all currently queued DPCs on all processors have executed their DPC routines to completion.
 
 
-## -parameters
-
-
-
-
-
-
 ## -remarks
 
 
