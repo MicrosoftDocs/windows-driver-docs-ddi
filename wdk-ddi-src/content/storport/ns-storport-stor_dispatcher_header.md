@@ -3,16 +3,18 @@ UID: NS:storport._STOR_DISPATCHER_HEADER
 title: STOR_DISPATCHER_HEADER
 author: windows-driver-content
 description: 
-tech.root:
+tech.root: storage
 ms.assetid: f6864a1e-ea64-4daa-bbe6-d658d03f37cf
 ms.author: windowsdriverdev
 ms.date: 12/15/2019
 ms.topic: struct
 ms.keywords: STOR_DISPATCHER_HEADER, STOR_DISPATCHER_HEADER, *PSTOR_DISPATCHER_HEADER, 
 req.header: storport.h
+f1_keywords:
+ - "storport/STOR_DISPATCHER_HEADER"
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -45,7 +47,6 @@ The STOR_DISPATCHER_HEADER structure ??????????????????????????????
 
 ### -field Data
 
-Union that contains 
 
 ### -field Data.Type
 
@@ -73,6 +74,8 @@ Union that contains
 ## -remarks
 
 STOR_DISPATCHER_HEADER is a member of the [STOR_EVENT](ns-storport-stor_event.md) structure that is passed to [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md) and [**StorPortSetEvent**](nf-storport-storportsetevent.md).
+
+<!-- how is it initialized? -->
 
 ## -see-also
 

@@ -2,17 +2,19 @@
 UID: NF:storport.StorPortSetFeatureList
 title: StorPortSetFeatureList function
 author: windows-driver-content
-description: TBD
-tech.root:
+description: A miniport can call StorPortSetFeatureList to set the Storport features that it supports.
+tech.root: storage
 ms.assetid: 1426766a-5575-42ba-8a64-53d2e6c23be7
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 12/15/2019
 ms.topic: function
 ms.keywords: StorPortSetFeatureList
 req.header: storport.h
+f1_keywords:
+ - "storport/StorPortSetFeatureList"
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -42,28 +44,40 @@ targetos: Windows
 
 # StorPortSetFeatureList function
 
-
 ## -description
 
-TBD
+A miniport can call **StorPortSetFeatureList** to set the *StorPort* features that it supports.
 
 ## -parameters
 
 ### -param HwDeviceExtension
 
-TBD
+Pointer to the miniport's device extension.
 
 ### -param FeatureCount
 
-TBD
+Number of features in *FeatureList*.
 
 ### -param FeatureList
 
-TBD
-
+List of *StorPort* features supported by the miniport. This value is based on [STORPORT_FEATURE_TYPE](ne-storport-storport_feature_type.md) enum values.
 
 ## -returns
-This function returns ULONG.
+
+**StorPortSetFeatureList** returns one of the following status codes:
+
+| Return code | Description |
+| ----------- | ----------- |
+| STOR_STATUS_SUCCESS | The feature list was set successfully. |
+| STOR_STATUS_INVALID_PARAMETER | An input parameter is invalid. |
+| STOR_STATUS_UNSUCCESSFUL | The operation failed. |
+
 ## -remarks
 
+A miniport should call **StorPortSetFeatureList** for each adapter in the beginning of its [*HwFindAdapter*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize) routine.
+
 ## -see-also
+
+[*HwFindAdapter*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize)
+
+[STORPORT_FEATURE_TYPE](ne-storport-storport_feature_type.md)

@@ -2,17 +2,19 @@
 UID: NF:storport.StorPortWaitForSingleObject
 title: StorPortWaitForSingleObject function
 author: windows-driver-content
-description: TBD
-tech.root:
+description: A miniport can call StorPortWaitForSingleObject function to put the current thread into a wait state until the given dispatcher object is set to signaled state or optionally times out.
+tech.root: storage
 ms.assetid: 36dba4d1-de52-4522-ba07-f8b57357b48e
 ms.author: windowsdriverdev
 ms.date: 12/15/2019
 ms.topic: function
 ms.keywords: StorPortWaitForSingleObject
 req.header: storport.h
+f1_keywords:
+ - "storport/StorPortWaitForSingleObject"
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -44,17 +46,17 @@ targetos: Windows
 
 ## -description
 
-The **StorPortWaitForSingleObject** function puts the current thread into a wait state until the given dispatcher object is set to signaled state or optionally times out.
+A miniport can call **StorPortWaitForSingleObject** function to put the current thread into a wait state until the given dispatcher object is set to signaled state or optionally times out.
 
 ## -parameters
 
 ### -param HwDeviceExtension
 
-Pointer to the miniport's device extension.
+Pointer to the storage miniport's device extension.
 
 ### -param Object
 
-Pointer to the initialized dispatcher object (event, mutex, semaphore, thread, or timer).
+Pointer to the initialized dispatcher object (event, mutex, semaphore, thread, or timer).   <!-- this is only just an event in storport? -->
 
 ### -param Alertable
 
@@ -75,13 +77,20 @@ If *Timeout* = 0, the routine returns without waiting. If the miniport supplies 
 | Return code | Description |
 | ----------- | ----------- |
 | STOR_STATUS_UNSUCCESSFUL | The operation failed. |
-| STOR_STATUS_SUCCESS | The ETW event was successfully logged <!-- got this from reSearch - is ETW right?? ->. |
+| STOR_STATUS_SUCCESS | The ETW event was successfully logged. |
 | STOR_STATUS_INVALID_PARAMETER | One or more of the parameters are invalid. |
 
 ## -remarks
 
-<!-- Should I copy remarks from KeWaitForSingleObject?? -->
+<!-- Which remarks to copy from KeWaitForSingleObject?? For example: -->
+
+Callers of **StorportWaitForSingleObject** must be running at IRQL <= DISPATCH_LEVEL. However, if *Timeout* = NULL or *Timeout* != 0, the caller must be running at IRQL <= APC_LEVEL and in a nonarbitrary thread context. (If *Timeout* != NULL and *Timeout* = 0, the caller must be running at IRQL <= DISPATCH_LEVEL.)
 
 ## -see-also
 
-<!-- link to KeWaitForSingleObject? Any other links? ->
+[**StorportInitializeEvent**](nf-storport-storportinitializeevent.md)
+
+[**StorportSetEvent**](nf-storport-storportsetevent.md)
+
+<!-- link to KeWaitForSingleObject? Any other links?->
+

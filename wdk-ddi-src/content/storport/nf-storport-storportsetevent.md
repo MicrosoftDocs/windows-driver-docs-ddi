@@ -2,17 +2,19 @@
 UID: NF:storport.StorPortSetEvent
 title: StorPortSetEvent function
 author: windows-driver-content
-description: TBD
-tech.root:
+description: A miniport can call StorPortSetEvent to set an event object to the signaled state.
+tech.root: storage
 ms.assetid: 85d89cc8-a4b6-4f83-a3ba-2c64d28ca516
 ms.author: windowsdriverdev
 ms.date: 12/15/2019
 ms.topic: function
 ms.keywords: StorPortSetEvent
 req.header: storport.h
+f1_keywords:
+ - "storport/StorPortSetEvent"
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -44,7 +46,7 @@ targetos: Windows
 
 ## -description
 
-**StorPortSetEvent** sets an event object to the signaled state.
+A miniport can call **StorPortSetEvent** to set an event object to the signaled state.
 
 ## -parameters
 
