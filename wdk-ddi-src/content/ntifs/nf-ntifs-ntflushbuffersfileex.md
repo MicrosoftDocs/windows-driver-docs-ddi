@@ -60,6 +60,7 @@ Handle returned by [**NtCreateFile**](https://docs.microsoft.com/windows-hardwar
 Flush operation flags. *Flags* can be 0 or one of the following values.
 
 | Value | Meaning |
+| ----- | ------- |
 | FLUSH_FLAGS_FILE_DATA_ONLY | If the file is on an NTFS file system, file data in the file cache will be written. No metadata is written and the underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles. |
 | FLUSH_FLAGS_NO_SYNC | If the file is on an NTFS file system, file data and metadata in the file cache will be written. The underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles. |
 
