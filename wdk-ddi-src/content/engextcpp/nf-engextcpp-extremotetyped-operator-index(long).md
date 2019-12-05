@@ -93,7 +93,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/n
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-operator-index(ulong)">ExtRemoteTyped::Operator[] (ULONG)</a>
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-operator-index(ulong64)">ExtRemoteTyped::Operator[] (ULONG64)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-operator-index(ulong64)">ExtRemoteTyped::Operator[] (ULONG64)</a>
  
 
  

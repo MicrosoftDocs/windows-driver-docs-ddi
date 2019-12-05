@@ -100,33 +100,53 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/to
 
 <table>
 <tr>
-<th>Return code</th>
-<th>Description</th>
+    <th>Return code</th>
+    <th>NT Status Value</th>
+    <th>Description</th>
 </tr>
+ 
 <tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The routine successfully returned the capability data.
-
-</td>
+    <td width="40%">
+        <dl>
+            <dt><b>HIDP_STATUS_SUCCESS</b></dt>
+        </dl>
+    </td>
+    <td width="10%">
+        <dt><b>0x00110000</b></dt>
+    </td>
+    <td width="50%">
+        The routine successfully returned the capability data.
+    </td>
 </tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_STATUS_INVALID_PREPARSED_DATA</b></dt>
-</dl>
-</td>
-<td width="60%">
-The preparsed data is not valid.
 
-</td>
+<tr>
+    <td width="40%">
+        <dl>
+            <dt><b>HIDP_STATUS_INVALID_PREPARSED_DATA</b></dt>
+        </dl>
+    </td>
+    <td width="10%">
+        <dt><b>0xc0110001</b></dt>
+    </td>
+    <td width="50%">
+        The preparsed data is not valid.
+    </td>
+</tr>
+
+<tr>
+    <td width="40%">
+        <dl>
+            <dt><b>HIDP_STATUS_USAGE_NOT_FOUND</b></dt>
+        </dl>
+    </td>
+    <td width="10%">
+        <dt><b>0xc0110004</b></dt>
+    </td>
+    <td width="60%">
+        The usage does not exist in any report of the specified report type.
+    </td>
 </tr>
 </table>
- 
 
 
 

@@ -165,7 +165,7 @@ PRINTER_DRIVER_XPS
 0x00000002
 
 </td>
-<td>The printer driver supports the Microsoft XPS format described in the <a href="https://docs.microsoft.com/en-us/previous-versions/windows/hardware/design/dn641615(v=vs.85)">XML Paper Specification: Overview</a>, and also in <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43">Product Behavior, section <27></a>.</td>
+<td>The printer driver supports the Microsoft XPS format described in the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/design/dn641615(v=vs.85)">XML Paper Specification: Overview</a>, and also in <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43">Product Behavior, section <27></a>.</td>
 <td>
 Windows 8
 

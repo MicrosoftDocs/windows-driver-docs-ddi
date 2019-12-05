@@ -78,4 +78,4 @@ The WAVEFORMATEXTENSIBLE returned by the driver reports the channel count as a s
 
 [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation)
 
-[KSPROPERTY_INTERLEAVEDAUDIO Enumeration](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ksproperty_interleavedaudio)
+[KSPROPERTY_INTERLEAVEDAUDIO Enumeration](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ksproperty_interleavedaudio)

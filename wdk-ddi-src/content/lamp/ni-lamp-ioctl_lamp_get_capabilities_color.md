@@ -57,7 +57,7 @@ The **IOCTL_LAMP_GET_CAPABILITIES_COLOR** control code queries the capabilities 
 
 ### -input-buffer
 
-`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_CAPABILITIES_COLOR](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_capabilities_color).
+`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_CAPABILITIES_COLOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_capabilities_color).
 
 
 ### -input-buffer-length
