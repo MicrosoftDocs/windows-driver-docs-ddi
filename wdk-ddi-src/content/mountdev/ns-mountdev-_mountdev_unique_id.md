@@ -60,7 +60,7 @@ Contains the unique volume ID as an array of bytes.
 
 ## -remarks
 
-For a discussion of unique volume IDs and how the mount manager uses them, see [Supporting Mount Manager Requests in a Storage Class Driver](https://docs.microsoft.com/en-us/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver).
+For a discussion of unique volume IDs and how the mount manager uses them, see [Supporting Mount Manager Requests in a Storage Class Driver](https://docs.microsoft.com/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver).
 
 As a best practice, the implementer must not thread synchronize and must not make blocking and/or Interprocess Communication (IPC) function calls.
 

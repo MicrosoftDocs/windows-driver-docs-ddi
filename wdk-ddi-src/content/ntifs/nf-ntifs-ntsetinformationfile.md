@@ -103,7 +103,7 @@ Change the information that is supplied in a <a href="https://docs.microsoft.com
 
 </td>
 <td>
-Change the information that is supplied in a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure. The caller must have opened the file with the FILE_WRITE_ATTRIBUTES flag set in the <i>DesiredAccess</i> parameter. This value is available starting with Windows 10, version 1803. 
+Change the information that is supplied in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure. The caller must have opened the file with the FILE_WRITE_ATTRIBUTES flag set in the <i>DesiredAccess</i> parameter. This value is available starting with Windows 10, version 1803. 
  
 </td>
 </tr>
@@ -113,7 +113,7 @@ Change the information that is supplied in a <a href="https://docs.microsoft.com
 
 </td>
 <td>
-Change the information that is supplied in a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure. The caller must have opened the file with the FILE_WRITE_ATTRIBUTES flag set in the <i>DesiredAccess</i> parameter. This is a special version of the FileCaseSensitiveInformation operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it. This value is available starting with Windows 10, version 1803.
+Change the information that is supplied in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_case_sensitive_information">FILE_CASE_SENSITIVE_INFORMATION</a> structure. The caller must have opened the file with the FILE_WRITE_ATTRIBUTES flag set in the <i>DesiredAccess</i> parameter. This is a special version of the FileCaseSensitiveInformation operation that is used to force the IOManager to perform access checks for the kernel-mode driver, similar to the checks that apply to a user-mode caller. This operation is only recognized by the IOManager and a file system should never receive it. This value is available starting with Windows 10, version 1803.
 
 </td>
 </tr>

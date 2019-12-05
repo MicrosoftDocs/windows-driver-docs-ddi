@@ -88,9 +88,9 @@ For more information about **IDistributorNotify**, **IUnknown**, and **CoCreateI
 
 ## -see-also
 
-[IKsControl](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol)
+[IKsControl](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol)
 
-[IKsObject::KsGetObjectHandle](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksobject-ksgetobjecthandle)
+[IKsObject::KsGetObjectHandle](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksobject-ksgetobjecthandle)
 
 [KsAddAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate)
 

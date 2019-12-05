@@ -121,7 +121,7 @@ A device driver is not required to implement all eight callback routines. The dr
 
 ## -see-also
 
-https://review.docs.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework?branch=kernel_19h1
+https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-the-directed-power-management-framework
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-po_fx_component_active_condition_callback">ComponentActiveConditionCallback</a>
 

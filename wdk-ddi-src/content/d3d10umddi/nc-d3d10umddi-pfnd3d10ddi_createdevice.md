@@ -69,8 +69,8 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |Return code|Description|
 |--- |--- |
 |S_OK|The graphics context was successfully created.|
-|DXGI_STATUS_NO_REDIRECTION|The graphics context was successfully created. However, the DirectX Graphics Infrastructure (DXGI) should not use the shared resource presentation path to effect communication with the Desktop Windows Manager (DWM). For more information about the DXGI DDI, see [Supporting the DXGI DDI](https://docs.microsoft.com/en-us/windows-hardware/drivers/display/supporting-the-dxgi-ddi).|
-|E_OUTOFMEMORY|[CreateDevice(D3D10)](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice) could not allocate the memory that was required for it to complete.|
+|DXGI_STATUS_NO_REDIRECTION|The graphics context was successfully created. However, the DirectX Graphics Infrastructure (DXGI) should not use the shared resource presentation path to effect communication with the Desktop Windows Manager (DWM). For more information about the DXGI DDI, see [Supporting the DXGI DDI](https://docs.microsoft.com/windows-hardware/drivers/display/supporting-the-dxgi-ddi).|
+|E_OUTOFMEMORY|[CreateDevice(D3D10)](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice) could not allocate the memory that was required for it to complete.|
 
 ## -remarks
 
