@@ -58,10 +58,6 @@ Pointer to the file object for which to remove the event.
 
 Pointer to an AVStream-generated [KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry) structure.
 
-## -returns
-
-*AVStrMiniRemoveEvent* must return STATUS_SUCCESS.
-
 ## -remarks
 
 The minidriver specifies this routine's address in the **RemoveHandler** member of a [KSEVENT_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksevent_item) structure. [Event Handling in AVStream](https://docs.microsoft.com/windows-hardware/drivers/stream/event-handling-in-avstream) describes how the minidriver provides this structure to the class driver.
