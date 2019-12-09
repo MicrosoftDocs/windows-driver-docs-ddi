@@ -70,6 +70,10 @@ A handle to the driver's private data for the hull shader. The driver returns th
 
 ### -param Arg4
 
+*hRTShader* [in]
+
+A handle to the hull shader that the driver should use, when it calls back into the Direct3D runtime.
+
 ### -param Arg5
 
 *pSignatures* [in]

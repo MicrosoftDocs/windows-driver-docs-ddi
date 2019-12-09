@@ -64,11 +64,15 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ### -param Arg3
 
+*hElementLayout* [in]
+
+A handle to the driver's private data for the element layout.
+
+### -param Arg4
+
 *hRTElementLayout* [in]
 
 A handle to the element layout that the driver should use anytime it calls back into the Direct3D runtime.
-
-### -param Arg4
 
 ## -remarks
 

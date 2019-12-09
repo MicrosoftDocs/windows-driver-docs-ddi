@@ -51,11 +51,11 @@ Invokes the driver to schedule work to perform the necessary transformations fro
 
 ## -parameters
 
-### -param Arg1
+### -param hDevice
 
 A handle to the device.
 
-### -param Arg2
+### -param hResource
 
 A handle to the resource that is associated with the allocations.
 

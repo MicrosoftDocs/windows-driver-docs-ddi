@@ -68,6 +68,10 @@ A handle to the driver's private data for the pixel shader. The driver returns t
 
 ### -param Arg4
 
+*hRTShader* [in]
+
+A handle to the pixel shader that the driver should use when it calls back into the Direct3D runtime. 
+
 ### -param Arg5
 
 *pSignatures* [in]
