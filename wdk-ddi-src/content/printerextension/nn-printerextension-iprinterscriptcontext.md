@@ -51,7 +51,7 @@ req.typenames:
 Passed to all third-party constraints JavaScript functions, and provides access to relevant objects.
 <ul>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
-</ul><h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterScriptContext</b> interface has these properties.
+</ul><h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterScriptContext</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
