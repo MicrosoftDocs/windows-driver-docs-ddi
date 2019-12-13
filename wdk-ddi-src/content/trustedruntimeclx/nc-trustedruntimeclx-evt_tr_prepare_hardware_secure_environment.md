@@ -44,7 +44,7 @@ ms.custom: RS5
 
  
 
-## -prototype
+## -syntax
 
 ```cpp
 //Declaration

@@ -99,24 +99,10 @@ Not used with this operation; set to <b>0</b> (zero).
 
 Returns <b>TRUE</b> if successful; otherwise, returns <b>FALSE</b>.
 
-To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values (other return values may be returned as defined by your property callback implementation):
-
-
-
-
-#### -STATUS_ACCESS_DENIED
-
-The device is currently claimed by another client.
-
-
 ## -remarks
 
+To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following is a common error value (other return values may be returned as defined by your property callback implementation):
 
-
-<h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
-
+- STATUS_ACCESS_DENIED: The device is currently claimed by another client.
 
 The client must successfully call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a> before using this IOCTL.
-
-
-

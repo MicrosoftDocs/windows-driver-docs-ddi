@@ -51,7 +51,7 @@ req.typenames: KBUGCHECK_DATA, *PKBUGCHECK_DATA
 The AV/C intersect handler determines if the data ranges are compatible. This is a user-defined function based on the following prototype:
 
 
-## -prototype
+## -syntax
 
 
 ```cpp

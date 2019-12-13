@@ -98,27 +98,10 @@ Size, in bytes, of the buffer pointed to by <i>lpOutBuffer</i>.
 
 Returns <b>TRUE</b> if successful; otherwise, returns <b>FALSE</b>.
 
-To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values (other status values may be returned as defined by your GET property callback implementation):
-
-
-
-
-#### -STATUS_ACCESS_DENIED
-
-The calling thread does not have a claim on the device.
-
-
-#### -STATUS_BUFFER_OVERFLOW
-
-The output buffer is not large enough to contain the output value. The driver will copy as much data into the output buffer as possible.
-
-
 ## -remarks
 
+To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values (other status values may be returned as defined by your GET property callback implementation):
 
+- STATUS_ACCESS_DENIED: The calling thread does not have a claim on the device.
 
-<h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
-
-
-
-
+- STATUS_BUFFER_OVERFLOW: The output buffer is not large enough to contain the output value. The driver will copy as much data into the output buffer as possible.

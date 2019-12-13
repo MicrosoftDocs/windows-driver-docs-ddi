@@ -42,18 +42,18 @@ ms.custom: RS5
 
 ## -description
 
-## -prototype
+## -syntax
 
 ```cpp
 //Declaration
 
-ACPI_OP_REGION_CALLBACK AcpiOpRegionCallback; 
+ACPI_OP_REGION_CALLBACK AcpiOpRegionCallback;
 
 // Definition
 
-VOID AcpiOpRegionCallback 
+VOID AcpiOpRegionCallback
 (
-	PVOID Context
+    PVOID Context
 )
 {...}
 
@@ -61,7 +61,7 @@ VOID AcpiOpRegionCallback
 
 ## -parameters
 
-### -param Context: 
+### -param Context
 
 ## -remarks
 

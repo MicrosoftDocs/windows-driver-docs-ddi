@@ -54,7 +54,7 @@ req.typenames:
 
 A pointer to a [KSFILTERFACTORY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilterfactory) structure that represents the filter factory to be deleted.
 
-## -return-value
+## -returns
 
 This macro wraps and assumes the return value of [KsFreeObjectCreateItemsByContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfreeobjectcreateitemsbycontext), which is NTSTATUS.
 

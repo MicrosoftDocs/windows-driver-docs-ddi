@@ -98,34 +98,14 @@ Not used with this operation; set to <b>0</b> (zero).
 
 Returns <b>TRUE</b> if successful; otherwise, returns <b>FALSE</b>.
 
-To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values: 
-
-
-
-
-#### -STATUS_ACCESS_DENIED
-
-The claim could not be taken from the current claim owner.
-
-
-#### -STATUS_DEVICE_NOT_READY
-
-The POS library is not initialized.
-
-
-#### -STATUS_PENDING
-
-The claim request was queued.
-
-
 ## -remarks
 
+To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values:
 
+- STATUS_ACCESS_DENIED: The claim could not be taken from the current claim owner.
 
-<h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
+- STATUS_DEVICE_NOT_READY: The POS library is not initialized.
 
+- STATUS_PENDING: The claim request was queued.
 
 This IOCTL is handled by the PosCx library. The driver writer does not need to handle this IOCTL. Instead, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxclaimdevice">PosCxClaimDevice</a>. If the POS device is already claimed by another client, then the POS device driver is responsible for notifying the claim owner using a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn790033(v=vs.85)">ReleaseDeviceRequested</a> event and waiting for the claim owner to retain its claim within 50 milliseconds. If the claim is not reaffirmed, then the current claim owner's claim is automatically revoked and granted to the challenging client. 
-
-
-

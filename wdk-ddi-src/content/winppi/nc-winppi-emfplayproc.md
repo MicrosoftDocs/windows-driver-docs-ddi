@@ -42,20 +42,20 @@ ms.custom: RS5
 
 ## -description
 
-## -prototype
+## -syntax
 
 ```cpp
 //Declaration
 
-EMFPLAYPROC Emfplayproc; 
+EMFPLAYPROC Emfplayproc;
 
 // Definition
 
-int Emfplayproc 
+int Emfplayproc
 (
-	HDC Arg1
-	INT Arg2
-	HANDLE Arg3
+    HDC Arg1
+    INT Arg2
+    HANDLE Arg3
 )
 {...}
 
@@ -63,9 +63,11 @@ int Emfplayproc
 
 ## -parameters
 
-### -param Arg1: 
-### -param Arg2: 
-### -param Arg3: 
+### -param Arg1
+
+### -param Arg2
+
+### -param Arg3
 
 ## -returns
 

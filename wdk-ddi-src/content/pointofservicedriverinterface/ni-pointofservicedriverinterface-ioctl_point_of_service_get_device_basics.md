@@ -98,29 +98,12 @@ Size of the output buffer, in bytes. Set to sizeof(<i>PosDeviceBasicsType</i>).
 
 Returns <b>TRUE</b> if successful; otherwise, returns <b>FALSE</b>.
 
-To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values:
-
-
-
-
-#### -STATUS_BUFFER_TOO_SMALL
-
-The output buffer is not large enough to contain the result.
-
-
-#### -STATUS_INSUFFICIENT_RESOURCES
-
-There is insufficient memory.
-
-
 ## -remarks
 
+To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values:
 
+- STATUS_BUFFER_TOO_SMALL: The output buffer is not large enough to contain the result.
 
-<h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
-
+- STATUS_INSUFFICIENT_RESOURCES: There is insufficient memory.
 
 Provide the version of the POS WinRT API to inform the driver which version of the runtime it is working with. This IOCTL returns the version of the driver in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posdevicebasicstype">PosDeviceBasicsType</a>, so that you can have the driver version available in the runtime API if you wish to provide it.
-
-
-
