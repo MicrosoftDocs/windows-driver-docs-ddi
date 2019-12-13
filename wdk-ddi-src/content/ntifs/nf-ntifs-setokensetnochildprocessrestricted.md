@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>SeTokenSetNoChildProcessRestricted</b> routine sets the <b>TOKEN_AUDIT_NO_CHILD_PROCESS</b> or <b>TOKEN_AUDIT_NO_CHILD_PROCESS</b>
+The <b>SeTokenSetNoChildProcessRestricted</b> routine sets the <b>TOKEN_NO_CHILD_PROCESS_UNLESS_SECURE</b> or <b>TOKEN_AUDIT_NO_CHILD_PROCESS</b>
     flags in the token.  
 
 
@@ -64,7 +64,7 @@ Specifies a pointer to the access token.
 
 ### -param UnlessSecure [in]
 
-A pointer to a boolean that indicates that secure process creation shoudl always be enabled.
+A pointer to a boolean that indicates that secure process creation should always be enabled.
 
 
 ### -param AuditOnly [in]

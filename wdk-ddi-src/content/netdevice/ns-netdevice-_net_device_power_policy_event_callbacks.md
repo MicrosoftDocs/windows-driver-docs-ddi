@@ -14,7 +14,7 @@ ms.keywords: NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS, NET_DEVICE_POWER_POLICY_EV
 req.header: netdevice.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
