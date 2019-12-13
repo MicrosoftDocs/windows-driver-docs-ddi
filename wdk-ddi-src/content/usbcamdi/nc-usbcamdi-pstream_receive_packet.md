@@ -42,20 +42,20 @@ ms.custom: RS5
 
 ## -description
 
-## -prototype
+## -syntax
 
 ```cpp
 //Declaration
 
-PSTREAM_RECEIVE_PACKET PstreamReceivePacket; 
+PSTREAM_RECEIVE_PACKET PstreamReceivePacket;
 
 // Definition
 
-VOID PstreamReceivePacket 
+VOID PstreamReceivePacket
 (
-	PVOID Srb
-	PVOID DeviceContext
-	PBOOLEAN Completed
+    PVOID Srb
+    PVOID DeviceContext
+    PBOOLEAN Completed
 )
 {...}
 
@@ -63,10 +63,11 @@ VOID PstreamReceivePacket
 
 ## -parameters
 
-### -param Srb: 
-### -param DeviceContext: 
-### -param Completed: 
+### -param Srb
 
+### -param DeviceContext
+
+### -param Completed
 
 ## -remarks
 

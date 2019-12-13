@@ -42,20 +42,19 @@ ms.custom: RS5
 
 ## -description
 
-
-## -prototype
+## -syntax
 
 ```cpp
 //Declaration
 
-PENTROPY_SOURCE_CALLBACK_FUNCTION PentropySourceCallbackFunction; 
+PENTROPY_SOURCE_CALLBACK_FUNCTION PentropySourceCallbackFunction;
 
 // Definition
 
-NTSTATUS PentropySourceCallbackFunction 
+NTSTATUS PentropySourceCallbackFunction
 (
-	ENTROPY_SOURCE_HANDLE hEntropySource
-	PVOID context
+    ENTROPY_SOURCE_HANDLE hEntropySource
+    PVOID context
 )
 {...}
 
@@ -63,10 +62,9 @@ NTSTATUS PentropySourceCallbackFunction
 
 ## -parameters
 
-### -param hEntropySource: 
-### -param context: 
+### -param hEntropySource
 
-
+### -param context
 
 ## -returns
 

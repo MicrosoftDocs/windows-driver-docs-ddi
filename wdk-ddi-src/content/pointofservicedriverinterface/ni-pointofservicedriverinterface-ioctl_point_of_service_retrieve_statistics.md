@@ -98,27 +98,10 @@ Size of the output buffer in bytes. Set to sizeof(<i>PosStatisticsHeader</i>).
 
 Returns <b>TRUE</b> if successful; otherwise, returns <b>FALSE</b>.
 
-To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values:
-
-
-
-
-#### -STATUS_BUFFER_OVERFLOW
-
-The output buffer is not large enough to hold the statistics.
-
-
-#### -STATUS_NOT_SUPPORTED
-
-Statistic reporting is not supported.
-
-
 ## -remarks
 
+To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values:
 
+- STATUS_BUFFER_OVERFLOW: The output buffer is not large enough to hold the statistics.
 
-<h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
-
-
-
-
+- STATUS_NOT_SUPPORTED: Statistic reporting is not supported.
