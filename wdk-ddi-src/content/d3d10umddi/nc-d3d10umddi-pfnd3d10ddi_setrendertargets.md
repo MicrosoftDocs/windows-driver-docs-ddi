@@ -72,7 +72,11 @@ An array of handles to the render target view objects to set. Note that some han
 
 Note that the number that <i>ClearTargets</i> specifies is only an optimization aid because the user-mode display driver could calculate this number.
 
-### -param Arg5
+### -param hDepthStencilView
+
+*hDepthStencilView* [in]
+
+Handle to the depth stencil view.
 
 ## -remarks
 

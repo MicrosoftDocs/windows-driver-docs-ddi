@@ -58,17 +58,21 @@ A handle to the display device (graphics context).
 
 ### -param Arg2
 
-pBlendDesc [in]
+*pBlendDesc* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_1_ddi_blend_desc">D3D10_1_DDI_BLEND_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a blend state.
 
 ### -param Arg3
 
+*hBlendState* [in]
+
+A handle to the driver's private data for the blend state.
+
+### -param Arg4
+
 *hRTBlendState* [in]
 
 A handle to the blend state that the driver should use anytime it calls back into the Direct3D runtime.
-
-### -param Arg4
 
 ## -remarks
 

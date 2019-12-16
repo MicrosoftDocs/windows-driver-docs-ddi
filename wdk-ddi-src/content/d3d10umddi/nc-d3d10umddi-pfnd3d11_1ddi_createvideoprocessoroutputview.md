@@ -58,17 +58,21 @@ A handle to the display device (graphics context).
 
 ### -param Arg2
 
-pCreateData [in]
+*pCreateData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessoroutputview">D3D11_1DDIARG_CREATEVIDEOPROCESSOROUTPUTVIEW</a> structure. This structure specifies the attributes of the video processor output view to be created.
 
 ### -param Arg3
 
-hRTView [in]
+*hView* [in]
 
-A handle to the video processor output view that the driver should use when it calls back into the Direct3D runtime.
+A handle to the driver's private data for the video processor output view.
 
 ### -param Arg4
+
+*hRTView* [in]
+
+A handle to the video processor output view that the driver should use when it calls back into the Direct3D runtime.
 
 ## -returns
 

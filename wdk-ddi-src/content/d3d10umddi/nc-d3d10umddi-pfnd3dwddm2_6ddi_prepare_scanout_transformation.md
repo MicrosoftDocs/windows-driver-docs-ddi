@@ -2,7 +2,7 @@
 UID: NC:d3d10umddi.PFND3DWDDM2_6DDI_PREPARE_SCANOUT_TRANSFORMATION
 title: PFND3DWDDM2_6DDI_PREPARE_SCANOUT_TRANSFORMATION
 author: windows-driver-content
-description: Invokes the driver to schedule work to perform the necessary transformations from the input resource, to the “shadow” allocation which will actually be scanned out.
+description: Invokes the driver to schedule work to perform the necessary transformations from the input resource, to the "shadow" allocation which will actually be scanned out.
 tech.root: display
 ms.assetid: 84b01acb-e1cb-4ed4-b82c-5dfc427ac05d
 ms.author: windowsdriverdev
@@ -47,15 +47,19 @@ product:
 
 ## -description
 
-Invokes the driver to schedule work to perform the necessary transformations from the input resource, to the “shadow” allocation which will actually be scanned out. The runtime may request that the driver only update a sub-region, if only a small portion of the resource has changed since the last time this was invoked.
+Invokes the driver to schedule work to perform the necessary transformations from the input resource, to the "shadow" allocation which will actually be scanned out. The runtime may request that the driver only update a sub-region, if only a small portion of the resource has changed since the last time this was invoked.
 
 ## -parameters
 
 ### -param Arg1
 
+*hDevice* [in]
+
 A handle to the device.
 
 ### -param Arg2
+
+*hResource* [in]
 
 A handle to the resource that is associated with the allocations.
 

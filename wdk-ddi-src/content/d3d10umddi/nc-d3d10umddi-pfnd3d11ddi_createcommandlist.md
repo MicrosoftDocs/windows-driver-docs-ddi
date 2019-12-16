@@ -58,17 +58,21 @@ A handle to the display device (graphics context).
 
 ### -param Arg2
 
-pCreateCommandList [in]
+*pCreateCommandList* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_createcommandlist">D3D11DDIARG_CREATECOMMANDLIST</a> structure that describes the parameters that the user-mode display driver uses to create a command list.
 
 ### -param Arg3
 
+*hCommandList* [in]
+
+A handle to the driver's private data for the command list.
+
+### -param Arg4
+
 *hRTCommandList* [in]
 
 A handle to the command list that the driver should use, when it calls back into the Direct3D runtime.
-
-### -param Arg4
 
 ## -remarks
 

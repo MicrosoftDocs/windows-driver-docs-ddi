@@ -65,13 +65,13 @@ A handle to a context for the core Direct3D runtime. This handle is supplied to 
 
 ### -param Arg2
 
-Base [in]
+*Base* [in]
 
 The beginning sampler for which the runtime should refresh state. 
 
 ### -param Arg3
 
-Count [in]
+*Count* [in]
 
 The total number of samplers. The number can be -1, which specifies that the Direct3D runtime uses its high watermarks to substitute an optimal value (which is typically less than the maximum valid value for <i>Count</i>). However, no non-NULL binding exists in a slot larger than the optimal <i>Count</i> value.
 

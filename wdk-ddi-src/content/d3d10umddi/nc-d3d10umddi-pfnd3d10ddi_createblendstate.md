@@ -64,11 +64,15 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ### -param Arg3
 
+*hBlendState* [in]
+
+A handle to the driver's private data for the blend state.
+
+### -param Arg4
+
 *hRTBlendState* [in]
 
 A handle to the blend state that the driver should use anytime it calls back into the Direct3D runtime.
-
-### -param Arg4
 
 ## -remarks
 

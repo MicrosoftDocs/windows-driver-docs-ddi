@@ -72,7 +72,9 @@ A pointer to a region of memory that receives the data from a query operation. T
 
 [out] The size, in bytes, of the query data that the <i>pData</i> parameter points to. The user-mode display driver can set <i>DataSize</i> to zero and set <i>pData</i> to <b>NULL</b>. If <i>DataSize</i> is zero, <i>QueryGetData</i> can indicate the state of the query operation (for example, through return codes).
 
-### -param Arg5
+### -param Flags
+
+[in] D3D10_DDI_GET_DATA_FLAG flags.
 
 ## -remarks
 

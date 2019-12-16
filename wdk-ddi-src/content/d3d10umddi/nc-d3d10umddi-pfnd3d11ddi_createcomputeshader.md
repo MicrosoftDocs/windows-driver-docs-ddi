@@ -62,11 +62,15 @@ An array of CONST UINT tokens that form the shader code. The first token in the 
 
 ### -param Arg3
 
-hShader [in]
+*hShader* [in]
 
 A handle to the driver's private data for the compute shader. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_calcprivateshadersize">CalcPrivateShaderSize</a> function. The handle is  just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader object.
 
 ### -param Arg4
+
+*hRTShader* [in]
+
+A handle to the compute shader that the driver should use, when it calls back into the Direct3D runtime.
 
 ## -remarks
 

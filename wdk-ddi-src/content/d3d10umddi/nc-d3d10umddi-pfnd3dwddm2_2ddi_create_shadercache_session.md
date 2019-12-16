@@ -55,6 +55,8 @@ The <i>pfnCreateShaderCacheSession</i> callback function creates a shader cache 
 
 ### -param Arg1
 
+*hDevice* [in]
+
 The handle of a device.
 
 
