@@ -51,7 +51,9 @@ The RelocateDeviceFuncs function notifies the user-mode display driver about the
 
 ## -parameters
 
-### -param hDevice
+### -param Arg1
+
+*hDevice* [in]
 
 A handle to the display device (graphics context).
 

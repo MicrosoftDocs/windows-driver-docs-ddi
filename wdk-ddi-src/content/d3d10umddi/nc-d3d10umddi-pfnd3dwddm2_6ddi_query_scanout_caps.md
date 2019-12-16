@@ -51,11 +51,15 @@ Queries whether or not a transformation should occur in preparation for a flip o
 
 ## -parameters
 
-### -param hDevice
+### -param Arg1
+
+*hDevice* [in]
 
 A handle to the device.
 
-### -param hResource
+### -param Arg2
+
+*hResource* [in]
 
 A handle to the resource that is associated with the allocations.
 
