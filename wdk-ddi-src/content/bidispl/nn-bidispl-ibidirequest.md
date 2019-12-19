@@ -50,10 +50,6 @@ The **IBidiRequest** interface allows an application or other objects to compose
 
 ## -inheritance
 
-The **IBidiRequest** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
-
-**IBidiRequest** also has these types of members:
-
 ## -see-also
 
 [Bidirectional Communication Schema](https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema)
