@@ -44,131 +44,102 @@ req.typenames: ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, *PACPI_DEVICE_INFORMATION_
 
 # _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure
 
-
 ## -description
-
 
 The ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure contains output arguments from the IOCTL_ACPI_GET_DEVICE_INFORMATION control method.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Signature
 
 A unique identifier for the IOCTL that returns this buffer. Used for verification.
 
-
 ### -field Size
 
 The size, in bytes, of the ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure.
-
 
 ### -field Revision
 
 Revision of the ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure.
 
-
 ### -field Reserved0
 
 Reserved. Do not use.
 
-
 ### -field VendorIdStringOffset
 
-The offset from the beginning of this structure to the beginning of the <b>VendorIDString</b> member. This string uniquely identifies The manufacturer and the device itself.
-
+The offset from the beginning of this structure to the beginning of the **VendorIDString** member. This string uniquely identifies The manufacturer and the device itself.
 
 ### -field VendorStringLength
 
-The length of the <b>VendorIDString</b> member.
-
+The length of the **VendorIDString** member.
 
 ### -field DeviceIdStringOffset
 
-The offset from the beginning of this structure to the beginning of the <b>DeviceIDString</b> member. This string uniquely identifies the device.
-
+The offset from the beginning of this structure to the beginning of the **DeviceIDString** member. This string uniquely identifies the device.
 
 ### -field SubSystemIdStringOffset
 
-The offset from the beginning of this structure to the beginning of the <b>SubSystemIDString</b> member. This string uniquely identifies the manufacturer and the subsystem (chip or board) into which the device is integrated.
-
+The offset from the beginning of this structure to the beginning of the **SubSystemIDString** member. This string uniquely identifies the manufacturer and the subsystem (chip or board) into which the device is integrated.
 
 ### -field SubSystemStringLength
 
-The length of the <b>SubSystemIDString</b> member.
-
+The length of the **SubSystemIDString** member.
 
 ### -field SubDeviceIdStringOffset
 
-The offset from the beginning of this structure to the beginning of the <b>DeviceIDString</b> member. This string uniquely identifies the subsystem.
-
+The offset from the beginning of this structure to the beginning of the **DeviceIDString** member. This string uniquely identifies the subsystem.
 
 ### -field InstanceIdLength
 
-The length of the <b>InstanceIDString</b> member.
-
+The length of the **InstanceIDString** member.
 
 ### -field InstanceIdOffset
 
-The offset from the beginning of this structure to the beginning of the <b>InstanceIDString</b> member. This string uniquely identifies the device amongst all such devices on the platform.
-
+The offset from the beginning of this structure to the beginning of the **InstanceIDString** member. This string uniquely identifies the device amongst all such devices on the platform.
 
 ### -field BaseClassCode
 
-A number identifying the class of the device. See http://pcisig.org for baseclass code definitions.
+A number identifying the class of the device.
 
+For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.org) specifications for baseclass code definitions.
 
 ### -field HardwareRevision
 
 A number identifying the hardware revision of the device.
 
-
 ### -field ProgrammingInterface
 
-A number identifying the programming interface of the device. See http://pcisig.org for class programming interface definitions.
+A number identifying the programming interface of the device.
 
+For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.org) specifications for class programming interface definitions.
 
 ### -field Reserved1
 
 Reserved. Do not use.
 
-
 ### -field SubClassCode
 
-A number identifying the subclass of the device. See http://pcisig.org for subclass code definitions.
+A number identifying the subclass of the device.
 
+For more information, see the [Peripheral Component Interconnect Special Interest Group (PCI-SIG)](https://pcisig.org) specifications for subclass code definitions.
 
 ## -remarks
 
-
-
 Appended after the ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER are the SubSystemIdString, VendorIdString, and InstanceIdString strings, described as follows:
 
-<b>BYTE[SubVendorStringLength+1] SubSystemIdString</b>
+### BYTE[SubVendorStringLength+1] SubSystemIdString
 
-A string of <b>SubSystemStringLength</b> in length which contains the subsystem's manufacturer and subsystem identifiers.
+A string of **SubSystemStringLength** in length which contains the subsystem's manufacturer and subsystem identifiers.
 
-<b>BYTE[VendorIdStringOffset+1] VendorIdString</b>
+### BYTE[VendorIdStringOffset+1] VendorIdString
 
-A string of <b>VendorStringLength</b> in length which contains the device's manufacturer and device identifiers.
+A string of **VendorStringLength** in length which contains the device's manufacturer and device identifiers.
 
-<b>BYTE[InstanceIdOffset+1] InstanceIdString</b>
+### BYTE[InstanceIdOffset+1] InstanceIdString
 
-A string of <b>InstanceIDLength</b> in length which contains a number that uniquely identifies the device amongst all such devices on the platform (i.e. all devices with the same Vendor, Device, SubsystemVendor and SubsystemDevice IDs.)
-
-
-
+A string of **InstanceIDLength** in length which contains a number that uniquely identifies the device amongst all such devices on the platform (i.e. all devices with the same Vendor, Device, SubsystemVendor and SubsystemDevice IDs.)
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_get_device_information">IOCTL_ACPI_GET_DEVICE_INFORMATION</a>
- 
-
- 
-
+[IOCTL_ACPI_GET_DEVICE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_get_device_information)
