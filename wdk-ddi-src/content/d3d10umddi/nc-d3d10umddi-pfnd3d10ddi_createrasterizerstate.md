@@ -70,6 +70,10 @@ A handle to the driver's private data for the rasterizer state. The driver retur
 
 ### -param Arg4
 
+*hRTRasterizerState* [in]
+
+A handle to the rasterizer state that the driver should use anytime it calls back into the Direct3D runtime.
+
 ## -remarks
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 

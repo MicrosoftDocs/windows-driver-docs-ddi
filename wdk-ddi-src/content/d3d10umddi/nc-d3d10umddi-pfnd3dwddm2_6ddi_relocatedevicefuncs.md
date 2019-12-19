@@ -53,9 +53,13 @@ The RelocateDeviceFuncs function notifies the user-mode display driver about the
 
 ### -param Arg1
 
+*hDevice* [in]
+
 A handle to the display device (graphics context).
 
 ### -param Arg2
+
+*pDeviceFunctions* [in]
 
 A pointer to a D3DWDDM2_6DDI_DEVICEFUNCS structure that contains pointers to the functions of the user-mode display driver.
 

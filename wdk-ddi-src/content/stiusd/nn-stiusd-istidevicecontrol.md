@@ -44,20 +44,8 @@ req.typenames:
 
 # IStiDeviceControl interface
 
-
 ## -description
 
-
-
-This section describes the methods defined for the <a href="https://docs.microsoft.com/windows-hardware/drivers/image/istidevicecontrol-com-interface">IStiDeviceControl COM Interface</a>. Method prototypes are contained in <i>Stiusd.h</i>.
-
-
-
+This section describes the methods defined for the [IStiDeviceControl COM Interface](https://docs.microsoft.com/windows-hardware/drivers/image/istidevicecontrol-com-interface). Method prototypes are contained in *Stiusd.h*.
 
 ## -inheritance
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStiDeviceControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStiDeviceControl</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-

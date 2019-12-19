@@ -44,35 +44,14 @@ req.typenames:
 
 # IBidiRequest interface
 
-
 ## -description
 
-
-The <b>IBidiRequest</b> interface allows an application or other objects to compose a bidi request.
-
+The **IBidiRequest** interface allows an application or other objects to compose a bidi request.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBidiRequest</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBidiRequest</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
 ## -see-also
 
+[Bidirectional Communication Schema](https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>
- 
-
- 
-
+[Print Spooler Components](https://docs.microsoft.com/windows-hardware/drivers/print/print-spooler-components)

@@ -76,13 +76,13 @@ The zero-based index of the input stream.
 
 ### -param Arg4
 
-Rotation [in]
+*Rotation* [in]
 
 The clockwise degrees of rotation as specified by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_rotation">D3D11_1DDI_VIDEO_PROCESSOR_ROTATION</a> enumeration value.
 
 ### -param Arg5
 
-Enable [in]
+*Enable* [in]
 
 If <b>TRUE</b>, rotation is enabled on the input stream. Otherwise, rotation is disabled on the input stream.
 

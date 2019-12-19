@@ -64,11 +64,15 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ### -param Arg3
 
+*hCommandList* [in]
+
+A handle to the driver's private data for the command list.
+
+### -param Arg4
+
 *hRTCommandList* [in]
 
 A handle to the command list that the driver should use, when it calls back into the Direct3D runtime.
-
-### -param Arg4
 
 ## -returns
 

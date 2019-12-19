@@ -64,11 +64,15 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ### -param Arg3
 
+*hRasterizerState* [in]
+
+A handle to the driver's private data for the rasterizer state.
+
+### -param Arg4
+
 *hRTRasterizerState*
 
 A handle to the rasterizer state that the driver should use when it calls back into the Direct3D runtime.
-
-### -param Arg4
 
 ## -remarks
 

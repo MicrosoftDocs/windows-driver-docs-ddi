@@ -52,6 +52,9 @@ req.typenames:
 Sends a special control function to an HBA-specific miniport driver. Results vary, depending on the particular miniport driver to which this request is forwarded. If the caller specifies a nonzero <b>Length</b>, either the input or output buffer must be at least (<b>sizeof</b>(SRB_IO_CONTROL) + <i>DataBufferLength</i>)).
 
 
+The prescribed way to open the HBA is use the SetupDiXXX API’s to get all the ScsiAdapter class devices that are running. Get the properties of each for their device instance name and open the HBA directly. SCSI%d (for example, \\.\Scsi0:) is a symbolic link and not ALL storage drivers create the link.
+
+
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -ioctlparameters
