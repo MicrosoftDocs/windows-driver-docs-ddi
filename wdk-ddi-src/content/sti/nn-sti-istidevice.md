@@ -44,17 +44,8 @@ req.typenames:
 
 # IStiDevice interface
 
-
 ## -description
 
-
-This section describes the methods defined for the <a href="https://docs.microsoft.com/windows-hardware/drivers/image/istidevice-com-interface">IStiDevice COM Interface</a>. Method prototypes are contained in <i>Sti.h</i>.
-
+This section describes the methods defined for the [IStiDevice COM Interface](https://docs.microsoft.com/windows-hardware/drivers/image/istidevice-com-interface). Method prototypes are contained in *Sti.h*.
 
 ## -inheritance
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStiDevice</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStiDevice</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-

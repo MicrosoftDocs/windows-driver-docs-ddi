@@ -44,20 +44,8 @@ req.typenames:
 
 # IStillImageW interface
 
-
 ## -description
 
-
-
-This section describes the methods defined for the <a href="https://docs.microsoft.com/windows-hardware/drivers/image/istillimage-com-interface">IStillImage COM Interface</a>. Method prototypes are contained in <i>S</i><i>ti.h</i>.
-
-
-
+This section describes the methods defined for the [IStillImage COM Interface](https://docs.microsoft.com/windows-hardware/drivers/image/istillimage-com-interface). Method prototypes are contained in *Sti.h*.
 
 ## -inheritance
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStillImageW</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStillImageW</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-

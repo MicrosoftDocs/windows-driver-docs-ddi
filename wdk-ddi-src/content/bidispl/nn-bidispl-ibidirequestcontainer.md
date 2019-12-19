@@ -50,10 +50,6 @@ The **IBidiRequestContainer** interface allows an application or other objects t
 
 ## -inheritance
 
-The **IBidiRequestContainer** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
-
-**IBidiRequestContainer** also has these types of members:
-
 ## -see-also
 
 [Bidirectional Communication Schema](https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema)
