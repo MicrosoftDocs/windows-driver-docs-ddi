@@ -64,7 +64,7 @@ A handle to the display device (graphics context).
 
 ### -param Arg2
 
-hShader
+*hShader* [in]
 
 A handle to the driver's private data for the shader object.
 

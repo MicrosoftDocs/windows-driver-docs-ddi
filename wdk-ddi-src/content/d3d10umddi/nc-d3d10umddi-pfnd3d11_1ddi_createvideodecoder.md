@@ -64,11 +64,15 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ### -param Arg3
 
+*hDecode* [in]
+
+A handle to the driver's private data for the video decoder object.
+
+### -param Arg4
+
 *hRTDecode* [in]
 
 A handle to the video decoder object that the driver should use when it calls back into the runtime.
-
-### -param Arg4
 
 ## -returns
 

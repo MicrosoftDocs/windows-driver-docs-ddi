@@ -64,11 +64,15 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ### -param Arg3
 
+*hResource* [in]
+
+A handle to the driver's private data for the resource.
+
+### -param Arg4
+
 *hRTResource* [in]
 
 A handle to the resource that the driver will use when it calls back into the Direct3D runtime.
-
-### -param Arg4
 
 ## -remarks
 

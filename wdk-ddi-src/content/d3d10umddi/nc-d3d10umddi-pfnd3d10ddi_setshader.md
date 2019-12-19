@@ -52,9 +52,13 @@ The <b>CsSetShader</b> function sets the compute shader code so that all of the 
 
 ### -param Arg1
 
+*hDevice* [in]
+
 A handle to the display device (graphics context).
 
 ### -param Arg2
+
+*hShader* [in]
 
 A handle to the compute shader code object.
 

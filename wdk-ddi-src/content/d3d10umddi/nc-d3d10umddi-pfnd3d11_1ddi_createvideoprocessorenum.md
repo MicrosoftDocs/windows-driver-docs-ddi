@@ -58,17 +58,21 @@ A handle to the display device (graphics context).
 
 ### -param Arg2
 
-pCreateData [in]
+*pCreateData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a> structure. This structure specifies the attributes of the video processor enumeration object to be created.
 
 ### -param Arg3
 
-hRTVideoProcessorEnum [in]
+*hVideoProcessorEnum* [in]
 
-A handle to the video processor enumeration object that the driver should use when it calls back into the Direct3D runtime.
+A handle to the driver's private data for the video processor enumeration object.
 
 ### -param Arg4
+
+*hRTVideoProcessorEnum* [in]
+
+A handle to the video processor enumeration object that the driver should use when it calls back into the Direct3D runtime.
 
 ## -returns
 
