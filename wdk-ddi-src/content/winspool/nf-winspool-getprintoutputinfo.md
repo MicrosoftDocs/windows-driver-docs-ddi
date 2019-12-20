@@ -44,35 +44,18 @@ req.typenames:
 
 # GetPrintOutputInfo function
 
-
 ## -description
-
-
-
-
 
 ## -parameters
 
-
-
-
 ### -param hWnd [in]
-
 
 ### -param pszPrinter [in]
 
-
 ### -param phFile [out]
-
 
 ### -param ppszOutputFile [out]
 
-
 ## -returns
 
-
-
-If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+If this function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
