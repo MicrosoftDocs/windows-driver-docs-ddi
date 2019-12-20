@@ -44,19 +44,10 @@ req.typenames:
 
 # IXpsRasterizer interface
 
-
 ## -description
 
+The **IXpsRasterizer** interface represents an XPS rasterizer that can create a bitmap image of an XPS fixed page or of a rectangular region of a fixed page.
 
-The <b>IXpsRasterizer</b> interface represents an XPS rasterizer that can create a bitmap image of an XPS fixed page or of a rectangular region of a fixed page.
-
-A client obtains an <b>IXpsRasterizer</b> interface instance by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory-createrasterizer">IXpsRasterizationFactory::CreateRasterizer</a> method.
-
+A client obtains an **IXpsRasterizer** interface instance by calling the [IXpsRasterizationFactory::CreateRasterizer](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory-createrasterizer) method.
 
 ## -inheritance
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsRasterizer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsRasterizer</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
