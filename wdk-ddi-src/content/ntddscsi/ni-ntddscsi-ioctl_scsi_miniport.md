@@ -5,7 +5,7 @@ description: Sends a special control function to an HBA-specific miniport driver
 old-location: storage\ioctl_scsi_miniport.htm
 tech.root: storage
 ms.assetid: 5a9facc7-c83e-4dd4-9fb4-e3385c1b94ea
-ms.date: 03/29/2018
+ms.date: 12/20/2019
 ms.keywords: IOCTL_SCSI_MINIPORT, IOCTL_SCSI_MINIPORT control, IOCTL_SCSI_MINIPORT control code [Storage Devices], k307_49b821f3-1a79-44aa-a6a1-92543177181d.xml, ntddscsi/IOCTL_SCSI_MINIPORT, storage.ioctl_scsi_miniport
 ms.topic: ioctl
 f1_keywords:
@@ -44,74 +44,37 @@ req.typenames:
 
 # IOCTL_SCSI_MINIPORT IOCTL
 
-
 ## -description
 
+Sends a special control function to a host bus adapter-specific (HBA) miniport driver. Results vary, depending on the particular miniport driver to which this request is forwarded. If the caller specifies a nonzero **Length**, either the input or output buffer must be at least (**sizeof**(SRB_IO_CONTROL) + *DataBufferLength*)).
 
+The prescribed way to open the HBA is use the [SetupDi*Xxx* APIs](https://docs.microsoft.com/windows-hardware/drivers/install/using-device-installation-functions#ddk-setupdi-setup-class-functions-dg) to get all the ScsiAdapter class devices that are running. Get the properties of each for their device instance name and open the HBA directly. SCSI%d (for example, \\\\.\Scsi0:) is a symbolic link and not ALL storage drivers create the link.
 
-Sends a special control function to an HBA-specific miniport driver. Results vary, depending on the particular miniport driver to which this request is forwarded. If the caller specifies a nonzero <b>Length</b>, either the input or output buffer must be at least (<b>sizeof</b>(SRB_IO_CONTROL) + <i>DataBufferLength</i>)).
-
-
-The prescribed way to open the HBA is use the SetupDiXXX API’s to get all the ScsiAdapter class devices that are running. Get the properties of each for their device instance name and open the HBA directly. SCSI%d (for example, \\.\Scsi0:) is a symbolic link and not ALL storage drivers create the link.
-
-
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+> [!NOTE]
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> must contain an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure. 
-
+The buffer at **Irp->AssociatedIrp.SystemBuffer** must contain an [SRB_IO_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control) structure.
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the buffer, which must be at least <b>sizeof</b>(SRB_IO_CONTROL), with additional storage for data if the <b>Length</b> field is nonzero.
-
+**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of the buffer, which must be at least **sizeof**(SRB_IO_CONTROL), with additional storage for data if the **Length** field is nonzero.
 
 ### -output-buffer
 
-An updated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure is returned to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
-
+An updated [SRB_IO_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control) structure is returned to the buffer at **Irp->AssociatedIrp.SystemBuffer**.
 
 ### -output-buffer-length
 
-The length of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure.
-
-
-### -in-out-buffer
-
-
-
-
-
-
-
-
-### -inout-buffer-length
-
-
-
-
-
-
-
+The length of the [SRB_IO_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control) structure.
 
 ### -status-block
 
-The <b>Information</b> field contains the number of bytes returned in the output buffer. The <b>Status</b> field indicates the results of the operation. 
-
+The **Information** field contains the number of bytes returned in the output buffer. The **Status** field indicates the results of the operation.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a>
- 
-
- 
-
+[SRB_IO_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control)
