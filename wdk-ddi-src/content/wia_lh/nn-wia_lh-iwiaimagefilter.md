@@ -44,17 +44,8 @@ req.typenames:
 
 # IWiaImageFilter interface
 
-
 ## -description
 
-
-The <b>IWiaImageFilter</b> interface is an extension interface implemented by image processing filter developers and called by Microsoft Windows Image Acquisition (WIA).
-
+The **IWiaImageFilter** interface is an extension interface implemented by image processing filter developers and called by Microsoft Windows Image Acquisition (WIA).
 
 ## -inheritance
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaImageFilter</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaImageFilter</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-

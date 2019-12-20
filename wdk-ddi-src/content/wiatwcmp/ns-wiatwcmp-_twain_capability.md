@@ -106,4 +106,4 @@ Is an array that contains the capability data. The actual size, in bytes, of the
 
 A TWAIN-capable application communicates with a WIA driver by way of the TWAIN compatibility later to find out whether the driver has any private capabilities, and if so, what they are. A TWAIN_CAPABILITY structure is used in this communication. For more information, see [TWAIN Compatibility](https://docs.microsoft.com/windows-hardware/drivers/image/twain-compatibility).
 
-The TWAIN return codes and control codes are defined in *twain.h*, which can be obtained from the TWAIN Working Group (http://www.twain.org).
+The TWAIN return codes and control codes are defined in *twain.h*, which can be obtained from the [TWAIN Working Group](https://www.twain.org).

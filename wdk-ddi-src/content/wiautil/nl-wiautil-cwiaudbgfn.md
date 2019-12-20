@@ -44,39 +44,6 @@ req.typenames:
 
 # CWiauDbgFn class
 
-
 ## -description
 
-
-The <b>CWiauDbgFn</b> class is a helper class that is used for tracing function or method entry and exit points.
-
-<b xmlns:loc="http://microsoft.com/wdcml/l10n">CWiauDbgFn</b> has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul><h3><a id="methods"></a>Methods</h3>The <b>CWiauDbgFn</b> class has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiaudbgfn-~cwiaudbgfn">~CWiauDbgFn</a>
-</td>
-<td align="left" width="63%">
-The ~CWiauDbgFn destructor method is called when the function or method being traced by CWiauDbgFn is exited.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiaudbgfn-cwiaudbgfn">CWiauDbgFn</a>
-</td>
-<td align="left" width="63%">
-The CWiauDbgFn constructor method is used for tracing when a function or method is entered.
-
-</td>
-</tr>
-</table> 
-
-
+The **CWiauDbgFn** class is a helper class that is used for tracing function or method entry and exit points.

@@ -44,17 +44,8 @@ req.typenames:
 
 # IXpsRasterizationFactory2 interface
 
-
 ## -description
 
-
-In Windows 10, the <b>IXpsRasterizationFactory2</b> interface represents an object factory for creating components that can  convert content from XPS to PWG Raster using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">XPS Rasterization Service</a>. PWG Raster supports non-square DPIs.
-
+In Windows 10, the **IXpsRasterizationFactory2** interface represents an object factory for creating components that can  convert content from XPS to PWG Raster using the [XPS Rasterization Service](https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index). PWG Raster supports non-square DPIs.
 
 ## -inheritance
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsRasterizationFactory2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsRasterizationFactory2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-

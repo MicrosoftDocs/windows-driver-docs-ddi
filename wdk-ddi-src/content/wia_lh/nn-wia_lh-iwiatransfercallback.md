@@ -44,23 +44,12 @@ req.typenames:
 
 # IWiaTransferCallback interface
 
-
 ## -description
 
+The **IWiaTransferCallback** interface is implemented by image processing filter developers and called by Microsoft Windows Image Acquisition (WIA).
 
-The <b>IWiaTransferCallback</b> interface is implemented by image processing filter developers and called by Microsoft Windows Image Acquisition (WIA).
+This interface's methods are called as a result of an application calling **IWiaTransfer::Download** or the preview component's **IWiaPreview::GetNewPreview**.
 
-This interface's methods are called as a result of an application calling <b>IWiaTransfer::Download</b> or the preview component's <b>IWiaPreview::GetNewPreview</b>.
-
-This interface is available in Windows Vista and later operating system versions.
-
-The methods on this interface depend on the <b>IWiaTransfer</b> and <b>IWiaPreview</b> interfaces, both of which are described in the Microsoft Windows SDK documentation.
-
+The methods on this interface depend on the **IWiaTransfer** and **IWiaPreview** interfaces, both of which are described in the Microsoft Windows SDK documentation.
 
 ## -inheritance
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaTransferCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaTransferCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
