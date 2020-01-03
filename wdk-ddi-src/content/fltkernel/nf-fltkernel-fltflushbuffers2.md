@@ -74,7 +74,7 @@ Specifies the type of flush that the file system should do on the file. *FlushTy
 
 ### -param CallbackData
 
-Pointer to optional callback data used to propagate the caller's IRP extension. See [**FltPropagateIrpExtension**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers).
+Pointer to optional callback data used to propagate the caller's IRP extension. See [**FltPropagateIrpExtension**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltpropagateirpextension).
 
 ## -returns
 
@@ -95,6 +95,6 @@ If the file is on an NTFS file system, the minifilter can control the type of fl
 
 [**FltFlushBuffers**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers)
 
-[**FltPropagateIrpExtension**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers)
+[**FltPropagateIrpExtension**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltpropagateirpextension)
 
 [IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers)
