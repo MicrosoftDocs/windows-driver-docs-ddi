@@ -65,7 +65,7 @@ For example, for the Print Schema feature <psf:Feature name="psk:JobOutputBin">,
 ### -param bstrNamespaceUri [in]
 
 The namespace URI of the <b>name</b> attribute value of the feature element.
-For example, the namespace URI of the public Print Schema feature "JobOutputBin" is "http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords".
+For example, the namespace URI of the public Print Schema feature "JobOutputBin" is "https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords".
 If the feature is not defined in the public Print Schema, then this should be the URI of the private namespace defining the feature.
 
 

@@ -53,7 +53,7 @@ The <b>IPartThumbnail</b> interface is an abstraction for thumbnails in an XPS d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPartThumbnail</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>. <b>IPartThumbnail</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPartThumbnail</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>. <b>IPartThumbnail</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
