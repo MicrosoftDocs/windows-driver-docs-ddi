@@ -79,6 +79,7 @@ The Type for the standard Windows fingerprint format is:
 ```
 
 WBDI drivers for fingerprint sensors must support the Owner and Type for the Windows fingerprint data format. The Windows Biometric Service (WBS) verifies that a sensor minimally supports the Windows fingerprint raw data format.  Windows defines this standard raw data format to allow ISVs to write engine adapters that can take input from any sensor.  Each engine should have a capability to support at least this format, but it can specify a different format as a preferred raw format.
+In case any other type of sensors, see <a href="https://docs.microsoft.com/ja-jp/windows/win32/secbiomet/client-application-constants">Client Application Constants</a>.
 
 No format owner or type are defined as follows:
 
