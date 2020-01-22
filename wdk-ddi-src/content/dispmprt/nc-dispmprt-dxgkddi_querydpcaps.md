@@ -1,10 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKDDI_QUERYDPCAPS
 title: DXGKDDI_QUERYDPCAPS
-ms.date: 11/8/2019
+ms.date: 01/30/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The DXGKDDI_QUERYDPCAPS callback functions queries the DisplayPort (DP) capabilities of the GPU and driver supported.
+tech.root: display
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,15 +43,34 @@ dev_langs:
 
 ## -description
 
+The **DXGKDDI_QUERYDPCAPS** callback functions queries the DisplayPort (DP) capabilities of the GPU and driver supported.
+
 ## -parameters
 
 ### -param Context
 
+Context pointer provided when querying the interface.
+
 ### -param pArgs
+
+Pointer to a [**DXGKARG_QUERYDPCAPS**](ns-dispmprt-dxgkarg_querydpcaps.md) structure in which to return the DP capabilities.
 
 ## -returns
 
+**DXGKDDI_QUERYDPCAPS** returns STATUS_SUCCESS if it succeeds; otherwise it returns an error code.
+
 ## -remarks
+
+The driver should return in **NumRootPorts** the number of DP capable connectors on the GPU, including the one for eDP internal panel. Subsequent transmission calls will refer to the DP connectors with **RootPortIndex** ranging from **0** to **NumRootPorts - 1**.
+
+**DPVersionMajor** and **DPVersionMinor** is the highest version of DP protocol supported by the driver and GPU DP root ports of major/minor versions. For example, **DPVersionMajor == 1** and **DPVersionMinor == 1** is for DP protocol 1.1, and **DPVersionMajor == 1** and **DPVersionMinor == 2** is for DP protocol 1.2.
 
 ## -see-also
 
+[**DXGKARG_QUERYDPCAPS**](ns-dispmprt-dxgkarg_querydpcaps.md)
+
+[**DXGKDDI_DPAUXIOTRANSMISSION**](nc-dispmprt-dxgkddi_dpauxiotransmission.md)
+
+[**DXGKDDI_DPI2CIOTRANSMISSION**](nc-dispmprt-dxgkddi_dpi2ciotransmission.md)
+
+[**DXGKDDI_DPSBMTRANSMISSION**](nc-dispmprt-dxgkddi_dpsbmtransmission.md)

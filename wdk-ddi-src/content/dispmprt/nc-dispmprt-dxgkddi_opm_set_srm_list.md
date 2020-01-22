@@ -1,10 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_SET_SRM_LIST
 title: DXGKDDI_OPM_SET_SRM_LIST
-ms.date: 11/8/2019
+ms.date: 01/30/2020
 ms.topic: language-reference
 targetos: Windows
 description: 
+tech.root: display
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

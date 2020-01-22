@@ -1,10 +1,11 @@
 ---
 UID: NS:dispmprt._DXGK_DP_INTERFACE
 title: DXGK_DP_INTERFACE
-ms.date: 11/8/2019
+ms.date: 01/30/2020
 ms.topic: language-reference
 targetos: Windows
 description: 
+tech.root: display
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -40,29 +41,68 @@ dev_langs:
 
 ## -description
 
+A kernel-mode component that needs to use the DXGK_DP_INTERFACE DisplayPort (DP) interface calls the display miniport driver's [DxgkDdiQueryInterface](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_query_interface) function.
+
 ## -struct-fields
 
 ### -field Size
 
+Size, in bytes, of this structure.
+
 ### -field Version
+
+Version number of the DP interface. Version numbers constants are defined in *dispmprt.h* (for example, DXGK_DP_INTERFACE_VERSION_1).
 
 ### -field Context
 
+Pointer to a private context block provided by the display miniport driver.
+
 ### -field InterfaceReference
+
+[**PINTERFACE_REFERENCE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference) interface reference function that is implemented by the display miniport driver.
 
 ### -field InterfaceDereference
 
+[**PINTERFACE_DEREFERENCE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference) interface dereference function that is implemented by the display miniport driver.
+
 ### -field DxgkDdiQueryDPCaps
+
+Pointer to the display miniport driver's [DXGKDDI_QUERYDPCAPS](nc-dispmprt-dxgkddi_querydpcaps.md) function.
 
 ### -field DxgkDdiGetDPAddress
 
+Pointer to the display miniport driver's [DXGKDDI_GETDPADDRESS](nc-dispmprt-dxgkddi_getdpaddress.md) function.
+
 ### -field DxgkDdiDPAuxIoTransmission
+
+Pointer to the display miniport driver's [DXGKDDI_DPAUXIOTRANSMISSION](nc-dispmprt-dxgkddi_dpauxiotransmission.md) function.
 
 ### -field DxgkDdiDPI2CIoTransmission
 
+Pointer to the display miniport driver's [DXGKDDI_DPI2CIOTRANSMISSION](nc-dispmprt-dxgkddi_dpi2ciotransmission.md) function.
+
 ### -field DxgkDdiDPSBMTransmission
+
+Pointer to the display miniport driver's [DXGKDDI_DPSBMTRANSMISSION](nc-dispmprt-dxgkddi_dpsbmtransmission.md) function.
 
 ## -remarks
 
+|Minimum supported client|Header|IRQL|
+|:----------------------:|:----:|:--:|
+|Available in WDDM 2.7 and later version|dispmprt.h(include Dispmprt.h)|PASSIVE_LEVEL|
+
 ## -see-also
 
+[DXGKDDI_DPAUXIOTRANSMISSION](nc-dispmprt-dxgkddi_dpauxiotransmission.md)
+
+[DXGKDDI_DPI2CIOTRANSMISSION](nc-dispmprt-dxgkddi_dpi2ciotransmission.md)
+
+[DXGKDDI_DPSBMTRANSMISSION](nc-dispmprt-dxgkddi_dpsbmtransmission.md)
+
+[DXGKDDI_GETDPADDRESS](nc-dispmprt-dxgkddi_getdpaddress.md)
+
+[DXGKDDI_QUERYDPCAPS](nc-dispmprt-dxgkddi_querydpcaps.md)
+
+[**PINTERFACE_DEREFERENCE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference)
+
+[**PINTERFACE_REFERENCE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_reference)

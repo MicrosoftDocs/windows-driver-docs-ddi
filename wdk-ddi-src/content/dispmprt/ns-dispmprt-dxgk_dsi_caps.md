@@ -1,10 +1,11 @@
 ---
 UID: NS:dispmprt._DXGK_DSI_CAPS
 title: DXGK_DSI_CAPS
-ms.date: 11/8/2019
+ms.date: 01/30/2020
 ms.topic: language-reference
 targetos: Windows
 description: The DXGK_DSI_CAPS structure is used to identify the MIPI Display Serial Interface (DSI) capabilities of a device.
+tech.root: display
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
