@@ -1,10 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKDDI_GETDPADDRESS
 title: DXGKDDI_GETDPADDRESS
-ms.date: 11/8/2019
+ms.date: 01/30/2020
 ms.topic: language-reference
 targetos: Windows
 description: 
+tech.root: display
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -42,15 +43,28 @@ dev_langs:
 
 ## -description
 
+The **DXGKDDI_GETDPADDRESS** callback queries the DisplayPort (DP) address of a monitor connected through DP.
+
 ## -parameters
 
 ### -param Context
 
+Context pointer provided when querying the interface.
+
 ### -param pArgs
+
+Pointer to a [**DXGKARG_GETDPADDRESS**](ns-dispmprt-dxgkarg_getdpaddress.md) structure.
 
 ## -returns
 
+**DXGKDDI_GETDPADDRESS** returns STATUS_SUCCESS if it succeeds; otherwise it returns an error code.
+
 ## -remarks
+
+**DXGKDDI_GETDPADDRESS** is both for developmental and validation purposes.
+
+For **TargetId** of a monitor connected through DP, the driver should return its DP address in the form of **RootPortIndex**, **NumLinks**, and DP Relative Address in **RelAddress**. **NumLinks** should be 0 if the DP monitor is directly connected to the GPU; otherwise, it should be the number of links between the root port and target device. The format of the Relative Address in **RelAddress** should follow the DP spec.
 
 ## -see-also
 
+[**DXGKARG_GETDPADDRESS**](ns-dispmprt-dxgkarg_getdpaddress.md)

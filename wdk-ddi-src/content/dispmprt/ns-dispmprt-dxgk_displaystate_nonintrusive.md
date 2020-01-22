@@ -1,10 +1,11 @@
 ---
 UID: NS:dispmprt._DXGK_DISPLAYSTATE_NONINTRUSIVE
 title: DXGK_DISPLAYSTATE_NONINTRUSIVE
-ms.date: 11/8/2019
+ms.date: 01/30/2020
 ms.topic: language-reference
 targetos: Windows
 description: 
+tech.root: display
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

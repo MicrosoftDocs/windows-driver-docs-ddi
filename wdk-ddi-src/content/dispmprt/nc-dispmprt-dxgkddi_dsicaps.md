@@ -1,10 +1,11 @@
 ---
 UID: NC:dispmprt.DXGKDDI_DSICAPS
 title: DXGKDDI_DSICAPS
-ms.date: 11/8/2019
+ms.date: 01/30/2020
 ms.topic: language-reference
 targetos: Windows
 description: The DxgkddiDsiCaps function queries the Display Serial Interface (DSI) capabilities for a particular target.
+tech.root: display
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

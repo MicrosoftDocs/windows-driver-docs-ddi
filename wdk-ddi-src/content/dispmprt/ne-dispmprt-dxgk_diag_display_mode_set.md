@@ -1,7 +1,7 @@
 ---
 UID: NE:dispmprt._DXGK_DIAG_DISPLAY_MODE_SET
 title: DXGK_DIAG_DISPLAY_MODE_SET
-ms.date: 11/8/2019
+ms.date: 01/30/2020
 ms.topic: language-reference
 targetos: Windows
 description: 

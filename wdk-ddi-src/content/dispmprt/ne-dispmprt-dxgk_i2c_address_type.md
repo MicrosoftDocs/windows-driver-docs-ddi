@@ -1,10 +1,11 @@
 ---
 UID: NE:dispmprt._DXGK_I2C_ADDRESS_TYPE
 title: DXGK_I2C_ADDRESS_TYPE
-ms.date: 11/8/2019
+ms.date: 01/30/2020
 ms.topic: language-reference
 targetos: Windows
 description: 
+tech.root: display
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: dispmprt.h
