@@ -301,7 +301,7 @@ A pointer to a buffer into which the underlying driver or NDIS returns the reque
 
 ### -field DATA.METHOD_INFORMATION.InputBufferLength
 
-The size, in bytes, of the buffer at
+The size, in bytes, of the readable data in the buffer at
        <b>InformationBuffer</b>. The value at
        <b>Oid</b> determines the value appropriate to this member.
 
