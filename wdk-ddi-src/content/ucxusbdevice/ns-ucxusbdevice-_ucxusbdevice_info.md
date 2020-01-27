@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: E6875195-D6C4-4CEB-8381-8CBA732223A5
 ms.date: 05/07/2018
 ms.keywords: "*PUCXUSBDEVICE_INFO, P_UCXUSBDEVICE_INFO, P_UCXUSBDEVICE_INFO structure pointer [Buses], UCXUSBDEVICE_INFO, UCXUSBDEVICE_INFO structure [Buses], _UCXUSBDEVICE_INFO, buses._ucxusbdevice_info, ucxusbdevice/P_UCXUSBDEVICE_INFO, ucxusbdevice/_UCXUSBDEVICE_INFO"
-ms.topic: struct
 f1_keywords:
  - "ucxusbdevice/UCXUSBDEVICE_INFO"
 req.header: ucxusbdevice.h

@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 9da16cd4-bd5f-4713-83ce-4302f6807476
 ms.date: 05/07/2018
 ms.keywords: "*PUSB_PIPE_INFO, PUSB_PIPE_INFO, PUSB_PIPE_INFO structure pointer [Buses], USB_PIPE_INFO, USB_PIPE_INFO structure [Buses], _USB_PIPE_INFO, buses.usb_pipe_info, usbioctl/PUSB_PIPE_INFO, usbioctl/USB_PIPE_INFO, usbstrct_bba47504-f840-483c-9cf8-49a7ade717d3.xml"
-ms.topic: struct
 f1_keywords:
  - "usbioctl/USB_PIPE_INFO"
 req.header: usbioctl.h

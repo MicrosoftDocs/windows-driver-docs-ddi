@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: acaf7024-b73a-4fe5-89e2-83e28cf2fdd1
 ms.date: 02/26/2018
 ms.keywords: DFRegKeyObjectRef_400650ea-7915-45f5-bcdd-2de1a02041f0.xml, WdfRegistryCreateKey, WdfRegistryCreateKey method, kmdf.wdfregistrycreatekey, wdf.wdfregistrycreatekey, wdfregistry/WdfRegistryCreateKey
-ms.topic: function
 f1_keywords:
  - "wdfregistry/WdfRegistryCreateKey"
 req.header: wdfregistry.h

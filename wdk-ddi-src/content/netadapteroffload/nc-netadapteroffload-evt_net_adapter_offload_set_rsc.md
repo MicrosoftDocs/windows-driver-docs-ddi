@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: b23d877b-4f75-497b-8b2c-5082eaba2ba2
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: callback
 f1_keywords:
  - "netadapteroffload/EVT_NET_ADAPTER_OFFLOAD_SET_RSC"
 req.header: netadapteroffload.h

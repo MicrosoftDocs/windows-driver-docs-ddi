@@ -4,7 +4,6 @@ title: IDataModelScriptDebugStackFrame (dbgmodel.h)
 description: An interface to a stack frame in the script. The script provider implements this interface to expose the notion of a particular stack frame within the call stack.
 ms.assetid: c0701fe1-41b8-4f51-91e8-74506b344b08
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugStackFrame"
 req.header: dbgmodel.h

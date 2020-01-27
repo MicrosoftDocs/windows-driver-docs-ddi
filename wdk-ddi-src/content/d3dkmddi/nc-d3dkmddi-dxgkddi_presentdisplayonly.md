@@ -6,7 +6,6 @@ old-location: display\dxgkddipresentdisplayonly.htm
 ms.assetid: b68839e3-ad82-4fcc-8e5a-02dea5db08d9
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_PRESENTDISPLAYONLY, DXGKDDI_PRESENTDISPLAYONLY callback, DxgkDdiPresentDisplayOnly, DxgkDdiPresentDisplayOnly callback function [Display Devices], d3dkmddi/DxgkDdiPresentDisplayOnly, display.dxgkddipresentdisplayonly
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

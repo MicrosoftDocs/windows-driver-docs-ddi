@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: AFB291B7-7962-46D2-BB00-E1CB8B0BF5FC
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_CONNECT, NDK_FN_CONNECT callback, NdkConnect, NdkConnect callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnect, netvista.ndk_fn_connect
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkConnect"
 req.header: ndkpi.h

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 893F249B-ACD9-4262-93B6-890987A9F591
 ms.date: 02/26/2018
 ms.keywords: WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function, umdf.wudf_device_power_policy_idle_settings_init, wdf.wudf_device_power_policy_idle_settings_init, wudfdevice/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT
-ms.topic: function
 f1_keywords:
  - "wudfdevice/WUDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT"
 req.header: wudfdevice.h

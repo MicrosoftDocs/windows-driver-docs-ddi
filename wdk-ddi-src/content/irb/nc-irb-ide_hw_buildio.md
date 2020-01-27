@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 057fb78f-6f1c-4b16-b9fa-6fcff299a90d
 ms.date: 03/29/2018
 ms.keywords: IDE_HW_BUILDIO, IdeHwBuildIo, IdeHwBuildIo routine [Storage Devices], atartns_9111d60c-e0e1-4c5c-aacf-2af56fcf7338.xml, irb/IdeHwBuildIo, storage.idehwbuildio
-ms.topic: callback
 f1_keywords:
  - "irb/IdeHwBuildIo"
 req.header: irb.h

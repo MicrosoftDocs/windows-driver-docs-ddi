@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 3d6559e5-776e-4fc0-b99a-8818cbcc289d
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_OPM_GET_INFORMATION, DXGKDDI_OPM_GET_INFORMATION callback, Dm_Opm_functions_6d4af4a5-4390-49f1-a557-735bf2c90ce6.xml, DxgkDdiOPMGetInformation, DxgkDdiOPMGetInformation callback function [Display Devices], display.dxgkddiopmgetinformation, dispmprt/DxgkDdiOPMGetInformation
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiOPMGetInformation"
 req.header: dispmprt.h

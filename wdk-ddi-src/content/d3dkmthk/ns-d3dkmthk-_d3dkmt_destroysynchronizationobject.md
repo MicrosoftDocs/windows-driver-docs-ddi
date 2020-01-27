@@ -6,7 +6,6 @@ old-location: display\d3dkmt_destroysynchronizationobject.htm
 ms.assetid: d6be16da-7f92-4c10-af8b-7ecd05ef6856
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_ca88b27b-fcac-41f6-bf16-9f26507f4e3f.xml, _D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_DESTROYSYNCHRONIZATIONOBJECT, display.d3dkmt_destroysynchronizationobject
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_DESTROYSYNCHRONIZATIONOBJECT"
 req.header: d3dkmthk.h

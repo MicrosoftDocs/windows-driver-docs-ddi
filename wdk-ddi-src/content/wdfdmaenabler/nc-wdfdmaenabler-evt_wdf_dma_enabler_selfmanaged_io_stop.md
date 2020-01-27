@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: b334588a-7a92-4542-8f45-13c363ce22f0
 ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_b04ab1d3-dbff-42f2-b22a-a212d04fac5b.xml, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP callback, EvtDmaEnablerSelfManagedIoStop, EvtDmaEnablerSelfManagedIoStop callback function, kmdf.evtdmaenablerselfmanagediostop, wdf.evtdmaenablerselfmanagediostop, wdfdmaenabler/EvtDmaEnablerSelfManagedIoStop
-ms.topic: callback
 f1_keywords:
  - "wdfdmaenabler/EvtDmaEnablerSelfManagedIoStop"
 req.header: wdfdmaenabler.h

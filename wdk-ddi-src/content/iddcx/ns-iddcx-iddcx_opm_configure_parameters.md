@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 88d8171f-8ed4-40af-8c05-7421895dca26
 ms.date: 05/10/2018
 ms.keywords: IDDCX_OPM_CONFIGURE_PARAMETERS, IDDCX_OPM_CONFIGURE_PARAMETERS structure [Display Devices], display.iddcx_opm_configure_parameters, iddcx/IDDCX_OPM_CONFIGURE_PARAMETERS
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDDCX_OPM_CONFIGURE_PARAMETERS"
 req.header: iddcx.h

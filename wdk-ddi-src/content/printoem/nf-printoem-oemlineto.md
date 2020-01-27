@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 4131f7eb-de96-42cd-87f0-15fd73836a2d
 ms.date: 04/20/2018
 ms.keywords: OEMLineTo, OEMLineTo function [Print Devices], print.oemlineto, print_unidrv-pscript_rendering_45398181-47db-43c2-8c68-000dbf9cce8d.xml, printoem/OEMLineTo
-ms.topic: function
 f1_keywords:
  - "printoem/OEMLineTo"
 req.header: printoem.h

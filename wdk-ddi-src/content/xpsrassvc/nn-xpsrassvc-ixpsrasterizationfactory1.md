@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 65EFEC4F-60DC-41DF-81F2-5A5C4EEE4BF8
 ms.date: 04/20/2018
 ms.keywords: IXpsRasterizationFactory1, IXpsRasterizationFactory1 interface [Print Devices], IXpsRasterizationFactory1 interface [Print Devices],described, print.xpsrasterizationfactory1, xpsrassvc/IXpsRasterizationFactory1
-ms.topic: interface
 f1_keywords:
  - "xpsrassvc/IXpsRasterizationFactory1"
 req.header: xpsrassvc.h

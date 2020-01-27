@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: E1CC0E8D-B48E-4F02-AE26-82123A3722E6
 ms.date: 05/02/2018
 ms.keywords: NpdBrokerUninitialize, NpdBrokerUninitialize function [Network Drivers Starting with Windows Vista], knetpwrdepbroker/NpdBrokerUninitialize, netvista.npdbrokeruninitialize
-ms.topic: function
 f1_keywords:
  - "knetpwrdepbroker/NpdBrokerUninitialize"
 req.header: knetpwrdepbroker.h

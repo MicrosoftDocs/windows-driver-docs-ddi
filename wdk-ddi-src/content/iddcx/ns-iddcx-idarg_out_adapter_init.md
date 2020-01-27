@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 55e4c835-88c8-403f-883c-182915aa614d
 ms.date: 05/10/2018
 ms.keywords: IDARG_OUT_ADAPTER_INIT, IDARG_OUT_ADAPTER_INIT structure [Display Devices], display.idarg_out_adapter_init, iddcx/IDARG_OUT_ADAPTER_INIT
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDARG_OUT_ADAPTER_INIT"
 req.header: iddcx.h

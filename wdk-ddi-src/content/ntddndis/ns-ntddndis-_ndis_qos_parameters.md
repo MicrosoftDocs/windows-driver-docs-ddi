@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 83eb72a8-d35b-445d-a207-c14a3bedd308
 ms.date: 05/02/2018
 ms.keywords: NDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_PARAMETERS, netvista.ndis_qos_parameters, ntddndis/NDIS_QOS_PARAMETERS, ntddndis/PNDIS_QOS_PARAMETERS
-ms.topic: struct
 f1_keywords:
  - "ntddndis/NDIS_QOS_PARAMETERS"
 req.header: ntddndis.h

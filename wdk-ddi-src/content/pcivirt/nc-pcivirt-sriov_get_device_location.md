@@ -7,7 +7,6 @@ tech.root: PCI
 ms.assetid: 705b52e3-f695-4c58-9ae2-5a806f1e2140
 ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_GET_DEVICE_LOCATION, *PSRIOV_GET_DEVICE_LOCATION callback function pointer [Buses], PCI.sriov_get_device_location, SRIOV_GET_DEVICE_LOCATION, SriovGetDeviceLocation, SriovGetDeviceLocation callback function [Buses], pcivirt/SriovGetDeviceLocation"
-ms.topic: callback
 f1_keywords:
  - "pcivirt/*PSRIOV_GET_DEVICE_LOCATION"
 req.header: pcivirt.h

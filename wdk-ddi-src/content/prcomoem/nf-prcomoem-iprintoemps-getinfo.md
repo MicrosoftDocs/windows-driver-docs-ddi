@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 9a8b060d-675b-4171-b75e-6df55cd0667f
 ms.date: 04/20/2018
 ms.keywords: GetInfo, GetInfo method [Print Devices], GetInfo method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],GetInfo method, IPrintOemPS.GetInfo, IPrintOemPS::GetInfo, prcomoem/IPrintOemPS::GetInfo, print.iprintoemps_getinfo, print_unidrv-pscript_rendering_1312f0cf-aa7d-45df-8e77-eed5dedd2f10.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemPS.GetInfo"
 req.header: prcomoem.h

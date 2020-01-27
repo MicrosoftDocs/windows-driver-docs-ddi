@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 058ced7e-50bc-4847-b082-57608ac5ddd2
 ms.date: 04/20/2018
 ms.keywords: OEMQueryAdvanceWidths, OEMQueryAdvanceWidths function [Print Devices], print.oemqueryadvancewidths, print_unidrv-pscript_rendering_14849fac-0d28-4961-b37b-ee14cd285018.xml, printoem/OEMQueryAdvanceWidths
-ms.topic: function
 f1_keywords:
  - "printoem/OEMQueryAdvanceWidths"
 req.header: printoem.h

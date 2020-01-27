@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: cd8e989a-1030-4f37-bb39-38974764ccb2
 ms.date: 03/29/2018
 ms.keywords: "*PFEATURE_DATA_CORE, FEATURE_DATA_CORE, FEATURE_DATA_CORE structure [Storage Devices], PFEATURE_DATA_CORE, PFEATURE_DATA_CORE structure pointer [Storage Devices], _FEATURE_DATA_CORE, ntddmmc/FEATURE_DATA_CORE, ntddmmc/PFEATURE_DATA_CORE, storage.feature_data_core, structs-CD-ROM_1b2608f2-398d-4733-b319-a92d932504e7.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_CORE"
 req.header: ntddmmc.h

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 774cce7b-37bf-495b-8087-915b164745ba
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_821bd67e-0a04-4664-91e1-4fa608a8b93e.xml, WdfDeviceGetDriver, WdfDeviceGetDriver method, kmdf.wdfdevicegetdriver, wdf.wdfdevicegetdriver, wdfdevice/WdfDeviceGetDriver
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceGetDriver"
 req.header: wdfdevice.h

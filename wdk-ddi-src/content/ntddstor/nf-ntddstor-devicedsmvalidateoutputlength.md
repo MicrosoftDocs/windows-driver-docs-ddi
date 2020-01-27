@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 953960c8-dfe1-48d9-9265-08e37a18d0d4
 ms.author: windowsdriverdev
 ms.date: 08/23/2019
-ms.topic: function
 ms.keywords: DeviceDsmValidateOutputLength
 f1_keywords:
  - "ntddstor/DeviceDsmValidateOutputLength"

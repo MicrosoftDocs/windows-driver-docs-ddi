@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2e089827-dd50-43cb-9e1a-34c439780831
 ms.date: 05/10/2018
 ms.keywords: IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], display.iddcxmonitorcreate, iddcx/IddCxMonitorCreate
-ms.topic: function
 f1_keywords:
  - "iddcx/IddCxMonitorCreate"
 req.header: iddcx.h

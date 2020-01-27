@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 3ac34302-f56f-424d-b627-f977c4aabfba
 ms.date: 05/02/2018
 ms.keywords: RILHIDEIDSETTINGSPARAMMASK, RILHIDEIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_HIDS_ALL, RIL_PARAM_HIDS_PROVISIONING, RIL_PARAM_HIDS_STATUS, netvista.rilhideidsettingsparammask, ntddrilapitypes/RILHIDEIDSETTINGSPARAMMASK, ntddrilapitypes/RIL_PARAM_HIDS_ALL, ntddrilapitypes/RIL_PARAM_HIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_HIDS_STATUS
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILHIDEIDSETTINGSPARAMMASK"
 req.header: rilapitypes.h

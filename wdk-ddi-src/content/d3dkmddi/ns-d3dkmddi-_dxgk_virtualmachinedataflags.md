@@ -4,7 +4,6 @@ title: _DXGK_VIRTUALMACHINEDATAFLAGS (d3dkmddi.h)
 description: The virtual machine data flags.
 ms.assetid: decc4a46-fe67-49bf-bf9e-067c184ec272
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/_DXGK_VIRTUALMACHINEDATAFLAGS"
 ms.keywords: _DXGK_VIRTUALMACHINEDATAFLAGS, DXGK_VIRTUALMACHINEDATAFLAGS,

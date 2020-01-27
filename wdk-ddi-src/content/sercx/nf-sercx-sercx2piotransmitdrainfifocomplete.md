@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: A1AF3D23-D0F4-44C0-A1B1-E7775FCA3699
 ms.date: 04/23/2018
 ms.keywords: 2/SerCx2PioTransmitDrainFifoComplete, SerCx2PioTransmitDrainFifoComplete, SerCx2PioTransmitDrainFifoComplete method [Serial Ports], serports.sercx2piotransmitdrainfifocomplete
-ms.topic: function
 f1_keywords:
  - "sercx/SerCx2PioTransmitDrainFifoComplete"
 req.header: sercx.h

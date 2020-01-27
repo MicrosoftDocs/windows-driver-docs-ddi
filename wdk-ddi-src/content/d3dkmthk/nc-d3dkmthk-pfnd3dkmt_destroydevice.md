@@ -4,7 +4,6 @@ title: PFND3DKMT_DESTROYDEVICE (d3dkmthk.h)
 description: The PFND3DKMT_DESTROYDEVICE callback function destroys a graphics context device.
 ms.assetid: f8c8bc39-b32f-40e7-a707-065fd56210bd
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_DESTROYDEVICE"
 req.header: d3dkmthk.h

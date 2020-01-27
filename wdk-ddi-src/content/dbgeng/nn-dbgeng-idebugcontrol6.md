@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 3361EB55-0765-405E-AA75-D1DF3BDE0003
 ms.date: 05/03/2018
 ms.keywords: IDebugControl6, IDebugControl6 interface [Windows Debugging], IDebugControl6 interface [Windows Debugging],described, dbgeng/IDebugControl6, debugger.idebugcontrol6
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugControl6"
 req.header: dbgeng.h

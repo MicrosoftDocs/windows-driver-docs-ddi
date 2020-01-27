@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 1d201c4d-606d-4461-ad3d-df48d3455724
 ms.date: 05/02/2018
 ms.keywords: "*LPRILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING, RILPHONEBOOKADDITIONALNUMBERSTRING structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookadditionalnumberstring, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERSTRING"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILPHONEBOOKADDITIONALNUMBERSTRING"
 req.header: rilapitypes.h

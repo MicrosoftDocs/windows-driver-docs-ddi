@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 2D2980D7-6675-4414-AA32-D8782526E039
 ms.date: 02/26/2018
 ms.keywords: WdfRequestIsFromUserModeDriver, WdfRequestIsFromUserModeDriver method, wdf.wdfrequestisfromusermodedriver, wdfrequest/WdfRequestIsFromUserModeDriver
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WdfRequestIsFromUserModeDriver"
 req.header: wdfrequest.h

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 52ce1c63-b2cf-4eda-b056-4f1f999110c5
 ms.date: 02/26/2018
 ms.keywords: IWDFIoTarget2, IWDFIoTarget2 interface, IWDFIoTarget2 interface,described, UMDFIoTargetObjectRef_7639fcef-e463-4500-94a0-132b63e1e564.xml, umdf.iwdfiotarget2, wdf.iwdfiotarget2, wudfddi/IWDFIoTarget2
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IWDFIoTarget2"
 req.header: wudfddi.h

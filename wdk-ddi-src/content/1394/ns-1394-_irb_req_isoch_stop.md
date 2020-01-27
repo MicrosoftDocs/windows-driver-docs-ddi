@@ -7,7 +7,6 @@ tech.root: IEEE
 ms.assetid: 1400FAC6-DD4E-4E8E-A0ED-C59B700F0672
 ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_STOP, IEEE.irb_req_isoch_stop, IRB_REQ_ISOCH_STOP, IRB_REQ_ISOCH_STOP structure [Buses], _IRB_REQ_ISOCH_STOP
-ms.topic: struct
 f1_keywords:
  - "1394/IRB_REQ_ISOCH_STOP"
 req.header: 1394.h

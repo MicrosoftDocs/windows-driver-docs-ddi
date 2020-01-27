@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 517CF135-A5D7-4C99-8592-59934E24DEE3
 ms.date: 04/20/2018
 ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetBytes method, IPrinterScriptablePropertyBag.SetBytes, IPrinterScriptablePropertyBag::SetBytes, SetBytes, SetBytes method [Print Devices], SetBytes method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setbytes, printerextension/IPrinterScriptablePropertyBag::SetBytes
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag.SetBytes"
 req.header: printerextension.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: f7ffe847-58ae-42a9-86fd-50a757134b45
 ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_TCoef4Group, DXVA_TCoef4Group, DXVA_TCoef4Group structure [Display Devices], LPDXVA_TCoef4Group, LPDXVA_TCoef4Group structure pointer [Display Devices], _DXVA_TCoef4Group, display.dxva_tcoef4group, dxva/DXVA_TCoef4Group, dxva/LPDXVA_TCoef4Group, dxvaref_40a4dc23-1488-41ad-ba76-296384236d78.xml"
-ms.topic: struct
 f1_keywords:
  - "dxva/DXVA_TCoef4Group"
 req.header: dxva.h

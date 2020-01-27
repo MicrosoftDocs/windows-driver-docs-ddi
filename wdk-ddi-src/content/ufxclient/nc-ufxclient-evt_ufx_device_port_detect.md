@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: EC32BFE8-6E93-4CEF-8EA8-856B0E431FCF
 ms.date: 05/07/2018
 ms.keywords: EVT_UFX_DEVICE_PORT_DETECT, EVT_UFX_DEVICE_PORT_DETECT callback, EvtUfxDevicePortDetect, EvtUfxDevicePortDetect callback function [Buses], PFN_UFX_DEVICE_PORT_DETECT, PFN_UFX_DEVICE_PORT_DETECT callback function pointer [Buses], buses.evt_ufx_device_port_detect, ufxclient/EvtUfxDevicePortDetect
-ms.topic: callback
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_PORT_DETECT"
 req.header: ufxclient.h

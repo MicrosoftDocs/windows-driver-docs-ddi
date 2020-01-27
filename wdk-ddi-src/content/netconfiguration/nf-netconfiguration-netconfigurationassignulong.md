@@ -5,7 +5,6 @@ description: The NetConfigurationAssignUlong method writes a caller-supplied uns
 tech.root: netvista
 ms.assetid: 239fbd90-5991-4f3d-a053-7c8586c2abdc
 ms.date: 02/07/2018
-ms.topic: function
 f1_keywords:
  - "netconfiguration/NetConfigurationAssignUlong"
 ms.keywords: NetConfigurationAssignUlong

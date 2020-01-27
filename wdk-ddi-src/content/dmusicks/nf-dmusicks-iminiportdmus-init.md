@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 08111f70-d0cc-4abc-8bcd-86683af3eb32
 ms.date: 05/08/2018
 ms.keywords: IMiniportDMus interface [Audio Devices],Init method, IMiniportDMus.Init, IMiniportDMus::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IMiniportDMus interface, audio.iminiportdmus_init, audmp-routines_016b2aed-13f3-4d9a-86c0-fbdbcbf55341.xml, dmusicks/IMiniportDMus::Init
-ms.topic: method
 f1_keywords:
  - "dmusicks/IMiniportDMus.Init"
 req.header: dmusicks.h

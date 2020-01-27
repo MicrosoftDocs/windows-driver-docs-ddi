@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 068ac200-55bb-4d7b-bc69-ad57d466a36b
 ms.date: 04/16/2018
 ms.keywords: "*PWORK_QUEUE_ITEM, PWORK_QUEUE_ITEM, PWORK_QUEUE_ITEM structure pointer [Installable File System Drivers], WORK_QUEUE_ITEM, WORK_QUEUE_ITEM structure [Installable File System Drivers], _WORK_QUEUE_ITEM, ifsk.work_queue_item, othersystemstructures_52486f79-e8f4-4fb3-9b41-564bbd78f5d5.xml, wdm/PWORK_QUEUE_ITEM, wdm/WORK_QUEUE_ITEM"
-ms.topic: struct
 f1_keywords:
  - "wdm/WORK_QUEUE_ITEM"
 req.header: wdm.h

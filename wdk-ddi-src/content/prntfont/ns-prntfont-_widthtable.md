@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 6c7b35a2-f9fd-41a9-a353-ec8b78259bf0
 ms.date: 04/20/2018
 ms.keywords: "*PWIDTHTABLE, PWIDTHTABLE, PWIDTHTABLE structure pointer [Print Devices], WIDTHTABLE, WIDTHTABLE structure [Print Devices], _WIDTHTABLE, print.widthtable, print_unidrv-pscript_fonts_a09173f6-51f7-4523-8270-a0406999f776.xml, prntfont/PWIDTHTABLE, prntfont/WIDTHTABLE"
-ms.topic: struct
 f1_keywords:
  - "prntfont/WIDTHTABLE"
 req.header: prntfont.h

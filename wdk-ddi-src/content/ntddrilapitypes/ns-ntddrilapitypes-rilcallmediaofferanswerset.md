@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 5d2f913e-10a3-4e96-a12f-5c4ea1dc061f
 ms.date: 05/02/2018
 ms.keywords: "*LPRILCALLMEDIAOFFERANSWERSET, RILCALLMEDIAOFFERANSWERSET, RILCALLMEDIAOFFERANSWERSET structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaofferanswerset, ntddrilapitypes/RILCALLMEDIAOFFERANSWERSET"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILCALLMEDIAOFFERANSWERSET"
 req.header: ntddrilapitypes.h

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 7B67BB47-6F95-4B1A-A823-F796529D5C48
 ms.date: 03/29/2018
 ms.keywords: FsRtlMdlWriteCompleteDev, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlWriteCompleteDev, ifsk.fltfastiomdlwritecomplete
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlMdlWriteCompleteDev"
 req.header: ntifs.h

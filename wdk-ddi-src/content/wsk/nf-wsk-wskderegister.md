@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: b2ff3d7b-319d-4256-a574-cb32595fd02f
 ms.date: 05/02/2018
 ms.keywords: WskDeregister, WskDeregister function [Network Drivers Starting with Windows Vista], netvista.wskderegister, wsk/WskDeregister, wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml
-ms.topic: function
 f1_keywords:
  - "wsk/WskDeregister"
 req.header: wsk.h

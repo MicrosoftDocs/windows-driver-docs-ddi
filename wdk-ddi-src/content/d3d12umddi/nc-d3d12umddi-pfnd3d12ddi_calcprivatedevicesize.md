@@ -5,7 +5,6 @@ description: The CalcPrivateDeviceSize function determines the size of a memory 
 tech.root: display
 ms.assetid: 989c35d8-c2bc-4738-ab14-85aeeb2bb3c3
 ms.date: 11/28/2018
-ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

@@ -5,7 +5,6 @@ description: The EvtNetAdapterReceiveScalingSetHashSecretKey callback function i
 tech.root: netvista
 ms.assetid: 9144fad7-c6d6-4d67-9ad7-45e9a0cf31f6
 ms.date: 02/01/2019
-ms.topic: callback
 f1_keywords:
  - "netreceivescaling/EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE"
 req.header: netreceivescaling.h

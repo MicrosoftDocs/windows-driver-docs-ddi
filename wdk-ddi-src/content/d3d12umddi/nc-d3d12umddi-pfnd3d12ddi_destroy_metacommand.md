@@ -4,7 +4,6 @@ title: PFND3D12DDI_DESTROY_METACOMMAND (d3d12umddi.h)
 description: Destroys the meta-command.
 ms.assetid: 0bd395c4-a428-4db7-8ebc-43f1a8474506
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_DESTROY_METACOMMAND"
 req.header: d3d12umddi.h

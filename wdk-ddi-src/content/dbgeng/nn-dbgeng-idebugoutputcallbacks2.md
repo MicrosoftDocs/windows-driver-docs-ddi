@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: D35D8960-AD9F-4493-B6CD-3E3049CC3BBD
 ms.date: 05/03/2018
 ms.keywords: IDebugOutputCallbacks2, IDebugOutputCallbacks2 interface [Windows Debugging], IDebugOutputCallbacks2 interface [Windows Debugging],described, dbgeng/IDebugOutputCallbacks2, debugger.idebugoutputcallbacks2
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugOutputCallbacks2"
 req.header: dbgeng.h

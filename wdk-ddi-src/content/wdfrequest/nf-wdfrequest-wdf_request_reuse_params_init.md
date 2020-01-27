@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: a77d77c5-5c8a-439a-93a3-fe29b15c6ed0
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_e43a091a-a926-4705-8241-0620b6ef3096.xml, WDF_REQUEST_REUSE_PARAMS_INIT, WDF_REQUEST_REUSE_PARAMS_INIT function, kmdf.wdf_request_reuse_params_init, wdf.wdf_request_reuse_params_init, wdfrequest/WDF_REQUEST_REUSE_PARAMS_INIT
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WDF_REQUEST_REUSE_PARAMS_INIT"
 req.header: wdfrequest.h

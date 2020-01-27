@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 5E90FB65-AF23-47C0-B0E9-2B6EF353D095
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_USSD_EVENT, PWWAN_USSD_EVENT, PWWAN_USSD_EVENT structure pointer [Network Drivers Starting with Windows Vista], WWAN_USSD_EVENT, WWAN_USSD_EVENT structure [Network Drivers Starting with Windows Vista], _WWAN_USSD_EVENT, netvista.wwan_ussd_event, wwan/PWWAN_USSD_EVENT, wwan/WWAN_USSD_EVENT"
-ms.topic: struct
 f1_keywords:
  - "wwan/WWAN_USSD_EVENT"
 req.header: wwan.h

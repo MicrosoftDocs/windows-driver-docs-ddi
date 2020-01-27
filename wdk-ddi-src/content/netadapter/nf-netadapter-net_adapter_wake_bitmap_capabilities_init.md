@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 8e7670bc-a6b2-4f1b-ad10-6f16cd0bd7f9
 ms.author: windowsdriverdev
 ms.date: 10/24/2019
-ms.topic: function
 f1_keywords:
  - "netadapter/NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES_INIT

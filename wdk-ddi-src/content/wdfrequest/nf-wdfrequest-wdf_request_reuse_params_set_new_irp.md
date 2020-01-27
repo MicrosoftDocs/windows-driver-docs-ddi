@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 3a18ec1b-be02-418a-8a38-deca7178ce30
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_1c9cbd6c-35a3-4de2-84f9-9d9788002d31.xml, WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP, WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP function, kmdf.wdf_request_reuse_params_set_new_irp, wdf.wdf_request_reuse_params_set_new_irp, wdfrequest/WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP"
 req.header: wdfrequest.h

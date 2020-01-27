@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: e8584c60-57ba-4b9c-949f-041bb37dfb13
 ms.date: 04/30/2018
 ms.keywords: RtlUpcaseUnicodeChar, RtlUpcaseUnicodeChar routine [Kernel-Mode Driver Architecture], k109_81806669-d742-4cb9-b4dd-d7e40fef171a.xml, kernel.rtlupcaseunicodechar, wdm/RtlUpcaseUnicodeChar
-ms.topic: function
 f1_keywords:
  - "wdm/RtlUpcaseUnicodeChar"
 req.header: wdm.h

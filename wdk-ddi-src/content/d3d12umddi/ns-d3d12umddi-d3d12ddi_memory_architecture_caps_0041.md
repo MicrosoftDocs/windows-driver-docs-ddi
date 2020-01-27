@@ -4,7 +4,6 @@ title: D3D12DDI_MEMORY_ARCHITECTURE_CAPS_0041 (d3d12umddi.h)
 description: Defines the memory architecture capabilities.
 ms.assetid: e69b499c-3865-4829-9b76-672130a2b648
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_MEMORY_ARCHITECTURE_CAPS_0041"
 ms.keywords: D3D12DDI_MEMORY_ARCHITECTURE_CAPS_0041, D3D12DDI_MEMORY_ARCHITECTURE_CAPS_0041,

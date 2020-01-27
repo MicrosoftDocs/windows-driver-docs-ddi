@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: E259B3D0-7536-4287-A7A2-367407D97F33
 ms.date: 11/19/2019
 ms.keywords: IKsAllocatorEx interface [Streaming Media Devices],KsSetAllocatorHandle method, IKsAllocatorEx.KsSetAllocatorHandle, IKsAllocatorEx::KsSetAllocatorHandle, KsSetAllocatorHandle, KsSetAllocatorHandle method [Streaming Media Devices], KsSetAllocatorHandle method [Streaming Media Devices],IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsSetAllocatorHandle, stream.iksallocatorex_kssetallocatorhandle
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsAllocatorEx.KsSetAllocatorHandle"
 req.header: ksproxy.h

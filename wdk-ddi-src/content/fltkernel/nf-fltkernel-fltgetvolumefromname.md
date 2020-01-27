@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 813b914a-05d6-4e5a-9420-f87e94ee9e96
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_1132de70-bc75-48a2-b0ae-d5b6d67a0a07.xml, FltGetVolumeFromName, FltGetVolumeFromName routine [Installable File System Drivers], fltkernel/FltGetVolumeFromName, ifsk.fltgetvolumefromname
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltGetVolumeFromName"
 req.header: fltkernel.h

@@ -5,7 +5,6 @@ description: Initializes the NET_ADAPTER_LINK_LAYER_CAPABILITIES structure.
 tech.root: netvista
 ms.assetid: f73e2515-c7e3-46f0-b5bd-741c24e65cbd
 ms.date: 02/05/2018
-ms.topic: function
 f1_keywords:
  - "netadapter/NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT

@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: A0F4DB51-D68E-4516-833A-7E984247796B
 ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionEvent, IPrinterExtensionEvent interface [Print Devices], IPrinterExtensionEvent interface [Print Devices],described, print.iprinterextensionevent_interface, printerextension/IPrinterExtensionEvent
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrinterExtensionEvent"
 req.header: printerextension.h

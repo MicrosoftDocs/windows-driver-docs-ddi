@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: e8839d4d-b7cb-4f18-b122-42c87e779d7f
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_57ac1d7b-3417-4757-bd62-21bc8b13c782.xml, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT function, kmdf.wdf_io_queue_forward_progress_policy_pagingio_init, wdf.wdf_io_queue_forward_progress_policy_pagingio_init, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT
-ms.topic: function
 f1_keywords:
  - "wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_PAGINGIO_INIT"
 req.header: wdfio.h

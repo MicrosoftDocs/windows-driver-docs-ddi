@@ -4,7 +4,6 @@ title: EVT_SENSOR_DRIVER_CANCEL_HISTORY_RETRIEVAL (sensorscx.h)
 description: Cancels history retrieval from the sensor.
 ms.assetid: 244e5a2d-1a37-461a-9834-836169158756
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "sensorscx/EVT_SENSOR_DRIVER_CANCEL_HISTORY_RETRIEVAL"
 req.header: sensorscx.h

@@ -5,7 +5,6 @@ description: The WWAN_UICC_ACCESS_RECORD structure describes information about a
 tech.root: netvista
 ms.assetid: 04C39F78-66B1-4AC6-A66D-49DB0829DCF1
 ms.date: 04/10/2019
-ms.topic: struct
 f1_keywords:
  - "wwan/_WWAN_UICC_ACCESS_RECORD"
 ms.keywords: _WWAN_UICC_ACCESS_RECORD, WWAN_UICC_ACCESS_RECORD, *PWWAN_UICC_ACCESS_RECORD, 

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1EC4F8EE-1284-4752-8941-F1C31415BF29
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_MAKERESIDENT_FLAGS, D3DDDI_MAKERESIDENT_FLAGS structure [Display Devices], d3dukmdt/D3DDDI_MAKERESIDENT_FLAGS, display.d3dddi_makeresident_flags
-ms.topic: struct
 f1_keywords:
  - "d3dukmdt/D3DDDI_MAKERESIDENT_FLAGS"
 req.header: d3dukmdt.h

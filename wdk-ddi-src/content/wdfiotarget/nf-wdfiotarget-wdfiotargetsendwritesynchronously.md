@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: a730ac71-2a9b-4667-88b5-7c84d0728d40
 ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_2d272a81-583d-4d22-888e-797ace9a134c.xml, WdfIoTargetSendWriteSynchronously, WdfIoTargetSendWriteSynchronously method, kmdf.wdfiotargetsendwritesynchronously, wdf.wdfiotargetsendwritesynchronously, wdfiotarget/WdfIoTargetSendWriteSynchronously
-ms.topic: function
 f1_keywords:
  - "wdfiotarget/WdfIoTargetSendWriteSynchronously"
 req.header: wdfiotarget.h

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: FB74E774-8CDE-4DE4-942E-10AF4BEFF63C
 ms.date: 03/29/2018
 ms.keywords: Adaptive Setting, HIPM/DIPM Setting, StorPortSetPowerSettingNotificationGuids, StorPortSetPowerSettingNotificationGuids routine [Storage Devices], storage.storportsetpowersettingnotificationguids, storport/StorPortSetPowerSettingNotificationGuids
-ms.topic: function
 f1_keywords:
  - "storport/StorPortSetPowerSettingNotificationGuids"
 req.header: storport.h

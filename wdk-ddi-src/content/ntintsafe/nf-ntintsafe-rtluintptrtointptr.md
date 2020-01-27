@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 5340A64A-3A26-4EE1-9829-BFF4F1951FEC
 ms.date: 04/30/2018
 ms.keywords: RtlUIntPtrToIntPtr, RtlUIntPtrToIntPtr function [Kernel-Mode Driver Architecture], kernel.rtluintptrtointptr, ntintsafe/RtlUIntPtrToIntPtr
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlUIntPtrToIntPtr"
 req.header: ntintsafe.h

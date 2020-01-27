@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 8f918bc4-d2d0-4d5b-93c8-89f02c81a701
 ms.date: 02/26/2018
 ms.keywords: GetRequestorMode, GetRequestorMode method, GetRequestorMode method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetRequestorMode method, IWDFIoRequest2.GetRequestorMode, IWDFIoRequest2::GetRequestorMode, UMDFRequestObjectRef_ab2c358c-de7c-4bc3-b0cf-a598a1c69bd1.xml, umdf.iwdfiorequest2_getrequestormode, wdf.iwdfiorequest2_getrequestormode, wudfddi/IWDFIoRequest2::GetRequestorMode
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.GetRequestorMode"
 req.header: wudfddi.h

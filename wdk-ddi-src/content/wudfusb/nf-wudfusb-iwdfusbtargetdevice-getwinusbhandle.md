@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 458cbe27-be75-49f4-9849-969d881e0cd2
 ms.date: 02/26/2018
 ms.keywords: GetWinUsbHandle, GetWinUsbHandle method, GetWinUsbHandle method,IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface,GetWinUsbHandle method, IWDFUsbTargetDevice.GetWinUsbHandle, IWDFUsbTargetDevice::GetWinUsbHandle, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, umdf.iwdfusbtargetdevice_getwinusbhandle, wdf.iwdfusbtargetdevice_getwinusbhandle, wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle
-ms.topic: method
 f1_keywords:
  - "wudfusb/IWDFUsbTargetDevice.GetWinUsbHandle"
 req.header: wudfusb.h

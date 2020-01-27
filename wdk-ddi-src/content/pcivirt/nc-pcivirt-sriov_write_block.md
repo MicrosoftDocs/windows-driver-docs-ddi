@@ -7,7 +7,6 @@ tech.root: PCI
 ms.assetid: da47d601-2fab-49bb-b669-909a2e5c95c0
 ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_WRITE_BLOCK, *PSRIOV_WRITE_BLOCK callback function pointer [Buses], PCI.sriov_write_block, SRIOV_WRITE_BLOCK, SriovWriteBlock, SriovWriteBlock callback function [Buses], pcivirt/SriovWriteBlock"
-ms.topic: callback
 f1_keywords:
  - "pcivirt/*PSRIOV_WRITE_BLOCK"
 req.header: pcivirt.h

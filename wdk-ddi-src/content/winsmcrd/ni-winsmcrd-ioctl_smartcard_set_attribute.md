@@ -7,7 +7,6 @@ tech.root: nfpdrivers
 ms.assetid: 48B5F00C-1DDD-488C-8269-E52DF366D552
 ms.date: 02/15/2018
 ms.keywords: IOCTL_SMARTCARD_SET_ATTRIBUTE, IOCTL_SMARTCARD_SET_ATTRIBUTE control, IOCTL_SMARTCARD_SET_ATTRIBUTE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_set_attribute, winsmcrd/IOCTL_SMARTCARD_SET_ATTRIBUTE
-ms.topic: ioctl
 f1_keywords:
  - "winsmcrd/IOCTL_SMARTCARD_SET_ATTRIBUTE"
 req.header: winsmcrd.h

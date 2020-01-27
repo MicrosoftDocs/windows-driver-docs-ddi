@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 2ebc685c-02ef-4640-955f-17b032f4b46a
 ms.author: windowsdriverdev
 ms.date: 10/07/2019
-ms.topic: struct
 f1_keywords:
  - "netwakesource/NET_WAKE_SOURCE_BITMAP_PARAMETERS"
 ms.keywords: NET_WAKE_SOURCE_BITMAP_PARAMETERS, NET_WAKE_SOURCE_BITMAP_PARAMETERS, 

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: ed91d41a-575d-4b26-a7e0-f3ce43db76b4
 ms.date: 03/29/2018
 ms.keywords: StorPortReleaseSpinLock, StorPortReleaseSpinLock routine [Storage Devices], storage.storportreleasespinlock, storport/StorPortReleaseSpinLock, storprt_5f3bd7a7-ffdd-4d7b-992b-70c2cea3acec.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortReleaseSpinLock"
 req.header: storport.h

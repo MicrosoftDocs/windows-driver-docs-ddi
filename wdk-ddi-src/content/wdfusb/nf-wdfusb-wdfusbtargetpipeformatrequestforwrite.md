@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: cf880701-d1e9-4bda-8d6c-35f35b707e9b
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_4f71425c-5d39-433c-9820-d736b9f4f531.xml, WdfUsbTargetPipeFormatRequestForWrite, WdfUsbTargetPipeFormatRequestForWrite method, kmdf.wdfusbtargetpipeformatrequestforwrite, wdf.wdfusbtargetpipeformatrequestforwrite, wdfusb/WdfUsbTargetPipeFormatRequestForWrite
-ms.topic: function
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeFormatRequestForWrite"
 req.header: wdfusb.h

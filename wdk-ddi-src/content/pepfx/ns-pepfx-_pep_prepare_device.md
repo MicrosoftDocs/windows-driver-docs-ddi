@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 1D47C803-693B-4205-9D25-82489BFEC82C
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_PREPARE_DEVICE, PPEP_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_PREPARE_DEVICE, kernel.pep_prepare_device, pepfx/PEP_PREPARE_DEVICE, pepfx/PPEP_PREPARE_DEVICE"
-ms.topic: struct
 f1_keywords:
  - "pepfx/PEP_PREPARE_DEVICE"
 req.header: pepfx.h

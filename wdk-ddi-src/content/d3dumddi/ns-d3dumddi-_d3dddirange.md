@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 3A64DB04-EDAE-419C-947B-67201ECA8068
 ms.date: 05/10/2018
 ms.keywords: D3DDDIRANGE, D3DDDIRANGE structure [Display Devices], _D3DDDIRANGE, d3dumddi/D3DDDIRANGE, display.d3dddirange
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIRANGE"
 req.header: d3dumddi.h

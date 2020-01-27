@@ -6,7 +6,6 @@ old-location: display\createvideoprocessorinputview.htm
 ms.assetid: f3942c53-e366-41c5-9f43-d093fa6b6ed6
 ms.date: 05/10/2018
 ms.keywords: CreateVideoProcessorInputView, CreateVideoProcessorInputView callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW, PFND3D11_1DDI_CREATEVIDEOPROCESSORINPUTVIEW callback, d3d10umddi/CreateVideoProcessorInputView, display.createvideoprocessorinputview
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

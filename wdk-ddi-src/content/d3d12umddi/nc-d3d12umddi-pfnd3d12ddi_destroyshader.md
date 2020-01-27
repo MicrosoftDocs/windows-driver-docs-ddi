@@ -4,7 +4,6 @@ title: PFND3D12DDI_DESTROYSHADER (d3d12umddi.h)
 description: Destroy shader.
 ms.assetid: 11ca0734-50b5-45a3-af8a-d344c88a2b68
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

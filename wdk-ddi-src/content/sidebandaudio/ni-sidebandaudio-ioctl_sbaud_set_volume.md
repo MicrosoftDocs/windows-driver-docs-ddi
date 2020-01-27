@@ -4,7 +4,6 @@ title: IOCTL_SBAUD_SET_VOLUME (sidebandaudio.h)
 description: 
 ms.assetid: 312a6d1c-0372-4efb-94e4-7a7cf6190f27
 ms.date: 10/05/2018
-ms.topic: ioctl
 f1_keywords:
  - "sidebandaudio/IOCTL_SBAUD_SET_VOLUME"
 req.header: sidebandaudio.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 97873113-7B0B-4121-B074-5B73D59489F4
 ms.date: 04/30/2018
 ms.keywords: RtlIntPtrAdd, RtlIntPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtlintptradd, ntintsafe/RtlIntPtrAdd
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlIntPtrAdd"
 req.header: ntintsafe.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 57b1447a-e923-47b8-a17d-c9668be70e26
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: function
 f1_keywords:
  - "dispmprt/DlReadDeviceSpace"
 ms.keywords: DlReadDeviceSpace

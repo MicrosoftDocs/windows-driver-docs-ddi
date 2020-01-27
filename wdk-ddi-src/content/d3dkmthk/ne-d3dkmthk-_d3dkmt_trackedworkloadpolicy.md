@@ -4,7 +4,6 @@ title: _D3DKMT_TRACKEDWORKLOADPOLICY (d3dkmthk.h)
 description: Indicates if the execution of tracked workload should attempt to preserve battery or be geared towards performance.
 ms.assetid: 3e508c6e-cf67-423d-bc1b-7566dbce965e
 ms.date: 10/19/2018
-ms.topic: enum
 f1_keywords:
  - "d3dkmthk/_D3DKMT_TRACKEDWORKLOADPOLICY"
 ms.keywords: _D3DKMT_TRACKEDWORKLOADPOLICY, D3DKMT_TRACKEDWORKLOADPOLICY, 

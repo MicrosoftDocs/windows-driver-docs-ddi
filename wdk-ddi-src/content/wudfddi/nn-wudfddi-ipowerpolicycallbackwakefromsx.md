@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: dac93565-e67a-44a3-acf0-e1f58ce8dd9e
 ms.date: 02/26/2018
 ms.keywords: IPowerPolicyCallbackWakeFromSx, IPowerPolicyCallbackWakeFromSx interface, IPowerPolicyCallbackWakeFromSx interface,described, UMDFDeviceObjectRef_bc620403-691d-42df-9bdf-2a859e5718ea.xml, umdf.ipowerpolicycallbackwakefromsx, wdf.ipowerpolicycallbackwakefromsx, wudfddi/IPowerPolicyCallbackWakeFromSx
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IPowerPolicyCallbackWakeFromSx"
 req.header: wudfddi.h

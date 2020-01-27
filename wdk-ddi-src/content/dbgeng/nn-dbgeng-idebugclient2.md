@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 0ea32baa-b318-44ec-8696-a5b42fe73ed1
 ms.date: 05/03/2018
 ms.keywords: IDebugClient2, IDebugClient2 interface [Windows Debugging], IDebugClient2 interface [Windows Debugging],described, dbgeng/IDebugClient2, debugger.idebugclient2
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugClient2"
 req.header: dbgeng.h

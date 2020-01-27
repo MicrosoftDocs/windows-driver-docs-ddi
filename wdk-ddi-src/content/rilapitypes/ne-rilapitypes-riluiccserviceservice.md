@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 1aeb4642-d718-4e39-a6c7-dc33146c9687
 ms.date: 05/02/2018
 ms.keywords: RILUICCSERVICESERVICE, RILUICCSERVICESERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCOPERATION_SERVICE_ACL, RIL_UICCOPERATION_SERVICE_BDN, RIL_UICCOPERATION_SERVICE_MAX, netvista.riluiccserviceservice, ntddrilapitypes/RILUICCSERVICESERVICE, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_ACL, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_BDN, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_MAX
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILUICCSERVICESERVICE"
 req.header: rilapitypes.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 187aec67-9ebe-483e-8c51-f418903f118b
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: function
 f1_keywords:
  - "dispmprt/DlDisableInterrupt"
 ms.keywords: DlDisableInterrupt

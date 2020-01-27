@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 8a400515-3619-4fe9-8e08-638859442ea3
 ms.date: 05/02/2018
 ms.keywords: ProtocolTcpOffloadReceiveIndicate, ProtocolTcpOffloadReceiveIndicate callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER, TCP_OFFLOAD_RECEIVE_INDICATE_HANDLER callback, ndischimney/ProtocolTcpOffloadReceiveIndicate, netvista.protocoltcpoffloadreceiveindicate, tcp_chim_protocol_func_c65e1895-a874-4c93-b25f-f2951a0a19db.xml
-ms.topic: callback
 f1_keywords:
  - "ndischimney/ProtocolTcpOffloadReceiveIndicate"
 req.header: ndischimney.h

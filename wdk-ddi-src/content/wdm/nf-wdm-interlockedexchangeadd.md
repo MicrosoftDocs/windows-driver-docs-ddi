@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: f61878b4-6bfa-463e-9fb1-c95171ce65b4
 ms.date: 04/30/2018
 ms.keywords: InterlockedExchangeAdd, InterlockedExchangeAdd routine [Kernel-Mode Driver Architecture], k102_ed690604-0379-476d-b838-4820f47b850a.xml, kernel.interlockedexchangeadd, wdm/InterlockedExchangeAdd
-ms.topic: function
 f1_keywords:
  - "wdm/InterlockedExchangeAdd"
 req.header: wdm.h

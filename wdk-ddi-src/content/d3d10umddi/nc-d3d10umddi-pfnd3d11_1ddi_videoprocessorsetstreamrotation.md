@@ -6,7 +6,6 @@ old-location: display\videoprocessorsetstreamrotation.htm
 ms.assetid: 9b7d91e0-4913-404c-b7d7-eb63e9919919
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION callback, d3d10umddi/pfnVideoProcessorSetStreamRotation, display.videoprocessorsetstreamrotation, pfnVideoProcessorSetStreamRotation, pfnVideoProcessorSetStreamRotation callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetStreamRotation"
 req.header: d3d10umddi.h

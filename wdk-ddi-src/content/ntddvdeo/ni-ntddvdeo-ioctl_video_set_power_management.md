@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 76b643db-318c-4dd4-bc45-e9da27ecb283
 ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_SET_POWER_MANAGEMENT, IOCTL_VIDEO_SET_POWER_MANAGEMENT control, IOCTL_VIDEO_SET_POWER_MANAGEMENT control code [Display Devices], Video_IOCTLs_36fe9d13-31c0-435c-939c-af0ce6d5b380.xml, display.ioctl_video_set_power_management, ntddvdeo/IOCTL_VIDEO_SET_POWER_MANAGEMENT
-ms.topic: ioctl
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_SET_POWER_MANAGEMENT"
 req.header: ntddvdeo.h

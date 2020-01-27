@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: a7bcda7e-4e39-4250-9154-6af32cdc1ecf
 ms.author: windowsdriverdev
 ms.date: 12/19/2018
-ms.topic: struct
 f1_keywords:
  - "hdaudio/_HDAUDIO_BUS_INTERFACE_V3"
 ms.prod: windows-hardware

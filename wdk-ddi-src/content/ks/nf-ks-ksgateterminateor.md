@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 6d73ce17-1fbc-4d12-87f0-ac10889b85be
 ms.date: 04/23/2018
 ms.keywords: KsGateTerminateOr, KsGateTerminateOr function [Streaming Media Devices], avfunc_b2bf57c5-4f08-456a-bbac-217531cf5bc3.xml, ks/KsGateTerminateOr, stream.ksgateterminateor
-ms.topic: function
 f1_keywords:
  - "ks/KsGateTerminateOr"
 req.header: ks.h

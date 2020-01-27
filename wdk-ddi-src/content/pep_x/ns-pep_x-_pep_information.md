@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 60221D44-79C0-4043-A4AF-1200C2F087F6
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_INFORMATION, PEP_INFORMATION, PEP_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_INFORMATION, PPEP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_INFORMATION, kernel.pep_information, pepfx/PEP_INFORMATION, pepfx/PPEP_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "pep_x/PEP_INFORMATION"
 req.header: pep_x.h

@@ -4,7 +4,6 @@ title: IoOpenDriverRegistryKey function (wdm.h)
 description: Reserved.
 ms.assetid: 5166cf0f-81c2-4567-91a8-67ae6727fbdd
 ms.date: 10/19/2018
-ms.topic: function
 f1_keywords:
  - "wdm/IoOpenDriverRegistryKey"
 ms.keywords: IoOpenDriverRegistryKey

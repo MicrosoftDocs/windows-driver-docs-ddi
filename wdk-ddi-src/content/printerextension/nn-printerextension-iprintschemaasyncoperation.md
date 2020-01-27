@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: CEA80412-4B19-493B-A85E-625915D77CA5
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaAsyncOperation, IPrintSchemaAsyncOperation interface [Print Devices], IPrintSchemaAsyncOperation interface [Print Devices],described, print.iprintschemaasyncoperation_interface, printerextension/IPrintSchemaAsyncOperation
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrintSchemaAsyncOperation"
 req.header: printerextension.h

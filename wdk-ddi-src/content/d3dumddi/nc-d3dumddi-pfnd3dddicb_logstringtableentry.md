@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 54D1F822-2D82-498D-A50F-A917FA127496
 ms.date: 05/10/2018
 ms.keywords: LogMarkerStringTableEntry, LogMarkerStringTableEntry callback function [Display Devices], PFND3DDDICB_LOGSTRINGTABLEENTRY, PFND3DDDICB_LOGSTRINGTABLEENTRY callback, d3dumddi/LogMarkerStringTableEntry, display.logmarkerstringtableentry
-ms.topic: callback
 f1_keywords:
  - "d3dumddi/LogMarkerStringTableEntry"
 req.header: d3dumddi.h

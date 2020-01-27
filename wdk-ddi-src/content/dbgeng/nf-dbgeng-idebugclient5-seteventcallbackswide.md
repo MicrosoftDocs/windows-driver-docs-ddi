@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: f5aecd1f-e0f2-47a9-aa70-767a42fefdff
 ms.date: 05/03/2018
 ms.keywords: IDebugClient5 interface [Windows Debugging],SetEventCallbacksWide method, IDebugClient5.SetEventCallbacksWide, IDebugClient5::SetEventCallbacksWide, SetEventCallbacksWide, SetEventCallbacksWide method [Windows Debugging], SetEventCallbacksWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetEventCallbacksWide, debugger.seteventcallbackswide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugClient5.SetEventCallbacksWide"
 req.header: dbgeng.h

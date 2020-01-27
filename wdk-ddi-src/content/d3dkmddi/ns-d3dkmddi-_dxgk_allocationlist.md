@@ -6,7 +6,6 @@ old-location: display\dxgk_allocationlist.htm
 ms.assetid: 1be057dc-6a97-4798-a152-7cc6d6febda5
 ms.date: 05/10/2018
 ms.keywords: DXGK_ALLOCATIONLIST, DXGK_ALLOCATIONLIST structure [Display Devices], DmStructs_ed92f9cf-ad3f-4566-89ff-31d6b162f755.xml, _DXGK_ALLOCATIONLIST, d3dkmddi/DXGK_ALLOCATIONLIST, display.dxgk_allocationlist
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_ALLOCATIONLIST"
 req.header: d3dkmddi.h

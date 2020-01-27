@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: DA114D60-60EE-4D1D-B42C-A84CE54C8B95
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_COPYFLAGS, D3DDDIARG_COPYFLAGS structure [Display Devices], d3dumddi/D3DDDIARG_COPYFLAGS, display.d3dddiarg_copyflags
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_COPYFLAGS"
 req.header: d3dumddi.h

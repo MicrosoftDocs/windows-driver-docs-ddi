@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 337874d1-9f9b-429d-a970-60b5d86ac7a2
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_CREATERESOURCE2, D3DDDIARG_CREATERESOURCE2 structure [Display Devices], _D3DDDIARG_CREATERESOURCE2, d3dukmdt/D3DDDIARG_CREATERESOURCE2, display.d3dddiarg_createresource2
-ms.topic: struct
 f1_keywords:
  - "d3dukmdt/D3DDDIARG_CREATERESOURCE2"
 req.header: d3dukmdt.h

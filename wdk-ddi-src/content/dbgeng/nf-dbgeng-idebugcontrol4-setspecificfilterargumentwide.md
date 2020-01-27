@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 416c4de2-f200-491a-a319-fb0a4fd86f86
 ms.date: 05/03/2018
 ms.keywords: IDebugControl4 interface [Windows Debugging],SetSpecificFilterArgumentWide method, IDebugControl4.SetSpecificFilterArgumentWide, IDebugControl4::SetSpecificFilterArgumentWide, SetSpecificFilterArgumentWide, SetSpecificFilterArgumentWide method [Windows Debugging], SetSpecificFilterArgumentWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::SetSpecificFilterArgumentWide, debugger.setspecificfilterargumentwide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl4.SetSpecificFilterArgumentWide"
 req.header: dbgeng.h

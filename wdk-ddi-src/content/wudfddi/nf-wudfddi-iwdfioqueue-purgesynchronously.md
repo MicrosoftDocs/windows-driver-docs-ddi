@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: a714dffd-ca88-40cf-95ef-cf15384e0c02
 ms.date: 02/26/2018
 ms.keywords: IWDFIoQueue interface,PurgeSynchronously method, IWDFIoQueue.PurgeSynchronously, IWDFIoQueue::PurgeSynchronously, PurgeSynchronously, PurgeSynchronously method, PurgeSynchronously method,IWDFIoQueue interface, UMDFQueueObjectRef_c146c969-5b34-4aa0-af8e-9edec10f4c46.xml, umdf.iwdfioqueue_purgesynchronously, wdf.iwdfioqueue_purgesynchronously, wudfddi/IWDFIoQueue::PurgeSynchronously
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoQueue.PurgeSynchronously"
 req.header: wudfddi.h

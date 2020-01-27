@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 4472A092-B2F4-4220-9685-6BE4FF0A83DB
 ms.date: 03/29/2018
 ms.keywords: StorPortInitializeWorker, StorPortInitializeWorker routine [Storage Devices], storage.storportinitializeworker, storport/StorPortInitializeWorker
-ms.topic: function
 f1_keywords:
  - "storport/StorPortInitializeWorker"
 req.header: storport.h

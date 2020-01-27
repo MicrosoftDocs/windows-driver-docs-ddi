@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 9512ecf2-ca59-4df8-bb60-c644444bc6fa
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_cd40c10b-367c-403a-8002-39662120f697.xml, WdfIoQueueAssignForwardProgressPolicy, WdfIoQueueAssignForwardProgressPolicy method, kmdf.wdfioqueueassignforwardprogresspolicy, wdf.wdfioqueueassignforwardprogresspolicy, wdfio/WdfIoQueueAssignForwardProgressPolicy
-ms.topic: function
 f1_keywords:
  - "wdfio/WdfIoQueueAssignForwardProgressPolicy"
 req.header: wdfio.h

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: AD531C16-0E24-4CDE-B188-981260CF8F49
 ms.date: 04/23/2018
 ms.keywords: IOCTL_LAMP_SET_INTENSITY_COLOR, IOCTL_LAMP_SET_INTENSITY_COLOR control, IOCTL_LAMP_SET_INTENSITY_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_INTENSITY_COLOR, stream.ioctl_lamp_set_intensity_color
-ms.topic: ioctl
 f1_keywords:
  - "lamp/IOCTL_LAMP_SET_INTENSITY_COLOR"
 req.header: lamp.h

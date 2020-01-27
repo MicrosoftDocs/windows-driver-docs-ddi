@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 5417D6B1-0523-4C01-9C07-571D096E10F3
 ms.date: 04/30/2018
 ms.keywords: RtlIntMult, RtlIntMult function [Kernel-Mode Driver Architecture], kernel.rtlintmult, ntintsafe/RtlIntMult
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlIntMult"
 req.header: ntintsafe.h

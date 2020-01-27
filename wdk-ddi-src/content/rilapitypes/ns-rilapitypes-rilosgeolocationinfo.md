@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 9a56152e-fb38-4470-8834-a0cbdd7b70ec
 ms.date: 05/02/2018
 ms.keywords: "*LPRILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO, RILOSGEOLOCATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilosgeolocationinfo, ntddrilapitypes/RILOSGEOLOCATIONINFO"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILOSGEOLOCATIONINFO"
 req.header: rilapitypes.h

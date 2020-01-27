@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 4e8f01af-9279-483a-90f9-d0391122ba5b
 ms.date: 05/02/2018
 ms.keywords: "*LPRILGETIMSPARAMS, RILGETIMSPARAMS, RILGETIMSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetimsparams, ntddrilapitypes/RILGETIMSPARAMS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILGETIMSPARAMS"
 req.header: rilapitypes.h

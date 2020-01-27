@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: EA7B1E9C-5777-4002-BCB3-57479B86993C
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_GET_LOCAL_ADDRESS, NDK_FN_GET_LOCAL_ADDRESS callback, NdkGetLocalAddress, NdkGetLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetLocalAddress, netvista.ndk_fn_get_local_address
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkGetLocalAddress"
 req.header: ndkpi.h

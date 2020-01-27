@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: de7b5a2a-dc88-4b27-8896-7682e8dce72a
 ms.author: windowsdriverdev
 ms.date: 10/07/2019
-ms.topic: struct
 f1_keywords:
  - "netwakesource/NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS"
 ms.keywords: NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS, NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS, 

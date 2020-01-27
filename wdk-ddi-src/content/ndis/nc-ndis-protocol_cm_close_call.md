@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: b5307e1b-3905-4e43-a0b0-0068ba18ef0d
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CM_CLOSE_CALL, PROTOCOL_CM_CLOSE_CALL callback, ProtocolCmCloseCall, ProtocolCmCloseCall callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_238e7e85-94af-4e1e-8eb2-04fc89515b4d.xml, ndis/ProtocolCmCloseCall, netvista.protocolcmclosecall
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolCmCloseCall"
 req.header: ndis.h

@@ -6,7 +6,6 @@ old-location: display\dxgkarg_createperiodicframenotification.htm
 ms.assetid: 455C3FBD-2E0D-4CD7-B753-E53ED58A7F6F
 ms.date: 05/10/2018
 ms.keywords: "*INOUT_PDXGKARG_CREATEPERIODICFRAMENOTIFICATION, DXGKARG_CREATEPERIODICFRAMENOTIFICATION, DXGKARG_CREATEPERIODICFRAMENOTIFICATION structure [Display Devices], _DXGKARG_CREATEPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_CREATEPERIODICFRAMENOTIFICATION, display.dxgkarg_createperiodicframenotification"
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_CREATEPERIODICFRAMENOTIFICATION"
 req.header: d3dkmddi.h

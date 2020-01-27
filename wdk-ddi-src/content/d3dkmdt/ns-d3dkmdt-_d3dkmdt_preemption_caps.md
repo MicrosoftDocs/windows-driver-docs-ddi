@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 52172edc-77a9-46b9-8382-c57c65b80b93
 ms.date: 05/10/2018
 ms.keywords: D3DKMDT_PREEMPTION_CAPS, D3DKMDT_PREEMPTION_CAPS structure [Display Devices], _D3DKMDT_PREEMPTION_CAPS, d3dkmdt/D3DKMDT_PREEMPTION_CAPS, display.d3dkmdt_preemption_caps
-ms.topic: struct
 f1_keywords:
  - "d3dkmdt/D3DKMDT_PREEMPTION_CAPS"
 req.header: d3dkmdt.h

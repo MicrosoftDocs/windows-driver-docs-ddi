@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 6A9BBBAD-F6D1-49A4-9FBA-7F263C1793F0
 ms.date: 03/29/2018
 ms.keywords: FsRtlPrepareMdlWriteEx, FsRtlPrepareMdlWriteEx routine [Installable File System Drivers], ifsk.fsrtlpreparemdlwriteex, ntifs/FsRtlPrepareMdlWriteEx
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlPrepareMdlWriteEx"
 req.header: ntifs.h

@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 1C8610F5-A397-4CDE-890D-7AA5AD94A6AF
 ms.date: 04/23/2018
 ms.keywords: "*PSERIAL_COMMPROP, PSERIAL_COMMPROP, PSERIAL_COMMPROP structure pointer [Serial Ports], SERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports], _SERIAL_COMMPROP, ntddser/PSERIAL_COMMPROP, ntddser/SERIAL_COMMPROP, serports.serial_commprop"
-ms.topic: struct
 f1_keywords:
  - "ntddser/SERIAL_COMMPROP"
 req.header: ntddser.h

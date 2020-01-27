@@ -4,7 +4,6 @@ title: IDebugHostType::GetBitField (dbgmodel.h)
 description: If a given member of a data structure is a bitfield (e.g. ULONG MyBits:8), the type information for the field carries with it information about the bitfield placement. 
 ms.assetid: 38c6d950-3d83-4748-a976-115dabad4000
 ms.date: 08/22/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDebugHostType.GetBitField"
 ms.keywords: IDebugHostType::GetBitField, GetBitField, IDebugHostType.GetBitField, IDebugHostType::GetBitField, IDebugHostType.GetBitField

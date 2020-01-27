@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 2BB02F84-01C1-432D-A4A9-6035F3ED32D7
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2PioTransmitPurgeFifo, EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO, EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO callback, EvtSerCx2PioTransmitPurgeFifo, EvtSerCx2PioTransmitPurgeFifo callback function [Serial Ports], serports.evtsercx2piotransmitpurgefifo
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2PioTransmitPurgeFifo"
 req.header: sercx.h

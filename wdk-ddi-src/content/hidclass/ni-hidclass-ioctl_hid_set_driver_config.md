@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: E20A1105-CB86-4CE3-91A4-23B08B4D0393
 ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_SET_DRIVER_CONFIG, IOCTL_HID_SET_DRIVER_CONFIG control, IOCTL_HID_SET_DRIVER_CONFIG control code [Human Input Devices], hid.ioctl_hid_set_driver_config, hidclass/IOCTL_HID_SET_DRIVER_CONFIG
-ms.topic: ioctl
 f1_keywords:
  - "hidclass/IOCTL_HID_SET_DRIVER_CONFIG"
 req.header: hidclass.h

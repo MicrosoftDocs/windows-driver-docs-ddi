@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 1c481f30-0f92-423c-9d72-730e24c880a4
 ms.author: windowsdriverdev
 ms.date: 02/14/2019
-ms.topic: enum
 f1_keywords:
  - "wditypes/WDI_SAE_STATUS"
 ms.keywords: WDI_SAE_STATUS, WDI_SAE_STATUS, 

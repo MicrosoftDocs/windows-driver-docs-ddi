@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 2ED5A28B-8668-411D-9462-8D6ED2F08B35
 ms.date: 04/30/2018
 ms.keywords: GET_D3COLD_LAST_TRANSITION_STATUS, GetLastTransitionStatus, GetLastTransitionStatus routine [Kernel-Mode Driver Architecture], kernel.getlasttransitionstatus, wdm/GetLastTransitionStatus
-ms.topic: callback
 f1_keywords:
  - "wdm/GetLastTransitionStatus"
 req.header: wdm.h

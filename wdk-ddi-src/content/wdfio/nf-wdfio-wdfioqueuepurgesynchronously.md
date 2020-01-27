@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 705faf80-79c4-4f2a-a399-d9a26bde54cf
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_3630b28a-48ff-4b9d-9359-9b88771e5104.xml, WdfIoQueuePurgeSynchronously, WdfIoQueuePurgeSynchronously method, kmdf.wdfioqueuepurgesynchronously, wdf.wdfioqueuepurgesynchronously, wdfio/WdfIoQueuePurgeSynchronously
-ms.topic: function
 f1_keywords:
  - "wdfio/WdfIoQueuePurgeSynchronously"
 req.header: wdfio.h

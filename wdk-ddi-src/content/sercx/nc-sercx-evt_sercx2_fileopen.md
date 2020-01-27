@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: A8E6EB7F-B6FE-4FA1-88A4-52C584E69D5B
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2FileOpen, EVT_SERCX2_FILEOPEN, EVT_SERCX2_FILEOPEN callback, EvtSerCx2FileOpen, EvtSerCx2FileOpen callback function [Serial Ports], serports.evtsercx2fileopen
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2FileOpen"
 req.header: sercx.h

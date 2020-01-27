@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: bd9697ce-bd05-4169-9b0f-13877307c0d7
 ms.date: 05/07/2018
 ms.keywords: "*PUSB_ROOT_HUB_NAME, PUSB_ROOT_HUB_NAME, PUSB_ROOT_HUB_NAME structure pointer [Buses], USB_ROOT_HUB_NAME, USB_ROOT_HUB_NAME structure [Buses], _USB_ROOT_HUB_NAME, buses.usb_root_hub_name, usbioctl/PUSB_ROOT_HUB_NAME, usbioctl/USB_ROOT_HUB_NAME, usbstrct_a285af0b-6144-46a0-bfbf-640b3073047a.xml"
-ms.topic: struct
 f1_keywords:
  - "usbioctl/USB_ROOT_HUB_NAME"
 req.header: usbioctl.h

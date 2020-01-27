@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 4b6d6791-6c13-49ee-a588-a0ed514279b2
 ms.date: 04/30/2018
 ms.keywords: NtRollbackComplete, ZwRollbackComplete, ZwRollbackComplete routine [Kernel-Mode Driver Architecture], kernel.zwrollbackcomplete, ktm_ref_0e759f02-d2c1-4759-a5bc-3c3ceca8186c.xml, wdm/NtRollbackComplete, wdm/ZwRollbackComplete
-ms.topic: function
 f1_keywords:
  - "wdm/ZwRollbackComplete"
 req.header: wdm.h

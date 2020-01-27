@@ -4,7 +4,6 @@ title: CreateDataModelManager function (dbgmodel.h)
 description: The initial call a host performs to create and initialize the data model.
 ms.assetid: 5694acc5-d39e-408a-8678-88207ca4707a
 ms.date: 09/28/2018
-ms.topic: function
 f1_keywords:
  - "dbgmodel/CreateDataModelManager"
 ms.keywords: CreateDataModelManager

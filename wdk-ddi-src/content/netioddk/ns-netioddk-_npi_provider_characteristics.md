@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: a83220e8-496c-4b83-b774-88ab1f017e8d
 ms.date: 05/02/2018
 ms.keywords: NPI_PROVIDER_CHARACTERISTICS, NPI_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNPI_PROVIDER_CHARACTERISTICS, PNPI_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NPI_PROVIDER_CHARACTERISTICS, netioddk/NPI_PROVIDER_CHARACTERISTICS, netioddk/PNPI_PROVIDER_CHARACTERISTICS, netvista.npi_provider_characteristics, nmrref_ceebed62-8102-41e3-af13-e663c1e8babb.xml
-ms.topic: struct
 f1_keywords:
  - "netioddk/NPI_PROVIDER_CHARACTERISTICS"
 req.header: netioddk.h

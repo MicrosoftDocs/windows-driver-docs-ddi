@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: da220281-a08d-4aeb-abb4-471aacb2461a
 ms.date: 03/29/2018
 ms.keywords: IOCTL_TAPE_CREATE_PARTITION, IOCTL_TAPE_CREATE_PARTITION control, IOCTL_TAPE_CREATE_PARTITION control code [Storage Devices], k307_d1911c51-33f1-4c45-bbf0-ace7714fa53f.xml, ntddtape/IOCTL_TAPE_CREATE_PARTITION, storage.ioctl_tape_create_partition
-ms.topic: ioctl
 f1_keywords:
  - "ntddtape/IOCTL_TAPE_CREATE_PARTITION"
 req.header: ntddtape.h

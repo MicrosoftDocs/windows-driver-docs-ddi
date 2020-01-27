@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 16c6fda5-c2e1-4ee4-80f7-e970b1da0e01
 ms.date: 05/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT, EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT callback, EvtIddCxMonitorOpmCreateProtectedOutput, EvtIddCxMonitorOpmCreateProtectedOutput callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT, PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_create_protected_output, iddcx/EvtIddCxMonitorOpmCreateProtectedOutput
-ms.topic: callback
 f1_keywords:
  - "iddcx/PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT"
 req.header: iddcx.h

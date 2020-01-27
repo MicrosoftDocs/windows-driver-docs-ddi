@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 594E0FF1-A965-4CE4-A2EA-C9098685FCED
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceConfigureWdmIrpDispatchCallback, WdfDeviceConfigureWdmIrpDispatchCallback method, kmdf.wdfdeviceconfigurewdmirpdispatchcallback, wdf.wdfdeviceconfigurewdmirpdispatchcallback, wdfdevice/WdfDeviceConfigureWdmIrpDispatchCallback
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceConfigureWdmIrpDispatchCallback"
 req.header: wdfdevice.h

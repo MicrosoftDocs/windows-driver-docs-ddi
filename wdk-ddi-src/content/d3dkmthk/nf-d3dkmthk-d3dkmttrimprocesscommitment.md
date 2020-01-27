@@ -4,7 +4,6 @@ title: D3DKMTTrimProcessCommitment function (d3dkmthk.h)
 description: Trim process commitment.
 ms.assetid: a997c0c4-f047-4a09-a14d-a8a2b93a0d57
 ms.date: 10/19/2018
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTTrimProcessCommitment"
 ms.keywords: D3DKMTTrimProcessCommitment

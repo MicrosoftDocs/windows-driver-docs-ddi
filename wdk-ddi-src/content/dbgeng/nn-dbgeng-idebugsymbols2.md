@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 2764a3b4-ba20-4b2e-8eb1-6ab9c631ccd8
 ms.date: 05/03/2018
 ms.keywords: IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], IDebugSymbols2 interface [Windows Debugging],described, dbgeng/IDebugSymbols2, debugger.idebugsymbols2
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugSymbols2"
 req.header: dbgeng.h

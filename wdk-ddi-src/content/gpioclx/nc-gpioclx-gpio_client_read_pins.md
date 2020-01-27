@@ -7,7 +7,6 @@ tech.root: GPIO
 ms.assetid: FE1AB8D5-DEA7-47BE-921E-BB33BBB61AC9
 ms.date: 02/15/2018
 ms.keywords: CLIENT_ReadGpioPins, CLIENT_ReadGpioPins callback, CLIENT_ReadGpioPins callback function [Parallel Ports], GPIO.client_readgpiopins, GPIO_CLIENT_READ_PINS, gpioclx/CLIENT_ReadGpioPins
-ms.topic: callback
 f1_keywords:
  - "gpioclx/CLIENT_ReadGpioPins"
 req.header: gpioclx.h

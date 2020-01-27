@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 49608EE6-1666-4430-AD22-9627EEF6F223
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceAssignInterfaceProperty, WdfDeviceAssignInterfaceProperty method, wdf.wdfdeviceassigninterfaceproperty, wdfdevice/WdfDeviceAssignInterfaceProperty
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceAssignInterfaceProperty"
 req.header: wdfdevice.h

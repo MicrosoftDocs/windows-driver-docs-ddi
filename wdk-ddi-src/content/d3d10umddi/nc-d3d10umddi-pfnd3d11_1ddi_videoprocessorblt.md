@@ -6,7 +6,6 @@ old-location: display\videoprocessorblt.htm
 ms.assetid: 7a3e17cb-0397-4051-8443-fb2edf3b4cff
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORBLT, PFND3D11_1DDI_VIDEOPROCESSORBLT callback, d3d10umddi/pfnVideoProcessorBlt, display.videoprocessorblt, pfnVideoProcessorBlt, pfnVideoProcessorBlt callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

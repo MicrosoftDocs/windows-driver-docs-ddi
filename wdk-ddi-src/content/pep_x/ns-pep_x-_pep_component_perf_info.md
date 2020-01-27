@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: F05D67A0-6583-4C3E-B9AA-B99381A18047
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PERF_INFO, PPEP_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_PERF_INFO, kernel.pep_component_perf_info, pepfx/PEP_COMPONENT_PERF_INFO, pepfx/PPEP_COMPONENT_PERF_INFO"
-ms.topic: struct
 f1_keywords:
  - "pep_x/PEP_COMPONENT_PERF_INFO"
 req.header: pep_x.h

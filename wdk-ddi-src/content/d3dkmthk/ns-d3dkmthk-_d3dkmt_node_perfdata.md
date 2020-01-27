@@ -4,7 +4,6 @@ title: _D3DKMT_NODE_PERFDATA (d3dkmthk.h)
 description: Represents performance data collected per engine from an adapter on an interval basis.
 ms.assetid: 90d91283-4891-4459-b182-40bf600c8b92
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/_D3DKMT_NODE_PERFDATA"
 ms.keywords: _D3DKMT_NODE_PERFDATA, D3DKMT_NODE_PERFDATA,

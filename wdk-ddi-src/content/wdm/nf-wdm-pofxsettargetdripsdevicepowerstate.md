@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 435c0731-101c-498b-9041-904001be3f2c
 ms.date: 04/30/2018
 ms.keywords: PoFxSetTargetDripsDevicePowerState, PoFxSetTargetDripsDevicePowerState function [Kernel-Mode Driver Architecture], kernel.pofxsettargetdripsdevicepowerstate, wdm/PoFxSetTargetDripsDevicePowerState
-ms.topic: function
 f1_keywords:
  - "wdm/PoFxSetTargetDripsDevicePowerState"
 req.header: wdm.h

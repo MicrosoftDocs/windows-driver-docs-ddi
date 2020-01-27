@@ -6,7 +6,6 @@ old-location: display\videoprocessorsetstreamfilter.htm
 ms.assetid: e44e5e4a-20e1-4327-b64c-5806d1bb2ece
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMFILTER callback, d3d10umddi/pfnVideoProcessorSetStreamFilter, display.videoprocessorsetstreamfilter, pfnVideoProcessorSetStreamFilter, pfnVideoProcessorSetStreamFilter callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetStreamFilter"
 req.header: d3d10umddi.h

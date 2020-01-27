@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 65c0b401-e437-485a-99bc-75ce5296ef34
 ms.date: 04/30/2019
 ms.keywords: "*PKSPROPERTY_CROSSBAR_CAPS_S, KSPROPERTY_CROSSBAR_CAPS_S, KSPROPERTY_CROSSBAR_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_CROSSBAR_CAPS_S, PKSPROPERTY_CROSSBAR_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CROSSBAR_CAPS_S, ksmedia/PKSPROPERTY_CROSSBAR_CAPS_S, stream.ksproperty_crossbar_caps_s, vidcapstruct_db0a7a6a-8f6f-45d8-9d05-c520c8396858.xml"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSPROPERTY_CROSSBAR_CAPS_S"
 req.header: ksmedia.h

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: f03506f6-404e-4635-a9ad-f2f36164ff2f
 ms.date: 03/29/2018
 ms.keywords: "*PPRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR structure pointer [Storage Devices], PRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR structure [Storage Devices], storage.pri_reservation_descriptor, storport/PPRI_RESERVATION_DESCRIPTOR, storport/PRI_RESERVATION_DESCRIPTOR, structs-general_96e112cc-0cf3-442d-bb3a-7bcad8a95220.xml"
-ms.topic: struct
 f1_keywords:
  - "minitape/PRI_RESERVATION_DESCRIPTOR"
 req.header: minitape.h

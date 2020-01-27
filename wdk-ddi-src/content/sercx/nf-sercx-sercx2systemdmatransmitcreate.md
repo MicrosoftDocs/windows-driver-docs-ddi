@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: CD0FA4A2-9E09-4F76-A332-858CC5D61651
 ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SystemDmaTransmitCreate, SerCx2SystemDmaTransmitCreate, SerCx2SystemDmaTransmitCreate method [Serial Ports], serports.sercx2systemdmatransmitcreate
-ms.topic: function
 f1_keywords:
  - "sercx/SerCx2SystemDmaTransmitCreate"
 req.header: sercx.h

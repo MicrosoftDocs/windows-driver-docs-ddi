@@ -7,7 +7,6 @@ tech.root: parports
 ms.assetid: fe5b9b54-b1b6-48e2-b464-f0f3e9845917
 ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO, IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO control code [Parallel Ports], cisspd_3f4efeec-5579-44c6-8438-bdb4b4983194.xml, parallel/IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO, parports.ioctl_internal_get_more_parallel_port_info
-ms.topic: ioctl
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO"
 req.header: parallel.h

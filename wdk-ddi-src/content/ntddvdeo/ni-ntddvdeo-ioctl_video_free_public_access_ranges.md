@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 6adc5234-a7c3-4860-8d3e-6c990f460ecc
 ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES, IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES control, IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES control code [Display Devices], Video_IOCTLs_8b60ca4e-5d15-4fa1-8257-805d90276262.xml, display.ioctl_video_free_public_access_ranges, ntddvdeo/IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES
-ms.topic: ioctl
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_FREE_PUBLIC_ACCESS_RANGES"
 req.header: ntddvdeo.h

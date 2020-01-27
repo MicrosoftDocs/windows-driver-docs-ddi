@@ -4,7 +4,6 @@ title: _DXGK_BRIGHTNESS_SENSOR_DATA (d3dkmdt.h)
 description: Describes the sensor data brightness.
 ms.assetid: 38aca9c4-ed04-405b-a659-5d5d252a45dc
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmdt/_DXGK_BRIGHTNESS_SENSOR_DATA"
 ms.keywords: _DXGK_BRIGHTNESS_SENSOR_DATA, DXGK_BRIGHTNESS_SENSOR_DATA,

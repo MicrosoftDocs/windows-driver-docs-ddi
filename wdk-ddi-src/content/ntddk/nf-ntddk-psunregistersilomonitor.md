@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: B1B85AD5-F626-4177-8218-428B617A97F6
 ms.date: 04/30/2018
 ms.keywords: PsUnregisterSiloMonitor, PsUnregisterSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psunregistersilomonitor, ntddk/PsUnregisterSiloMonitor
-ms.topic: function
 f1_keywords:
  - "ntddk/PsUnregisterSiloMonitor"
 req.header: ntddk.h

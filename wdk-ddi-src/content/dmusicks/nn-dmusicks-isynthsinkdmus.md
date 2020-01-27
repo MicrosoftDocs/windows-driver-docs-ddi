@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 3bff4242-3e7b-424e-ac86-121267a2c32a
 ms.date: 05/08/2018
 ms.keywords: ISynthSinkDMus, ISynthSinkDMus interface [Audio Devices], ISynthSinkDMus interface [Audio Devices],described, audio.isynthsinkdmus, audmp-routines_744ae6c7-7f7e-4a66-9624-5a5d82e2eb86.xml, dmusicks/ISynthSinkDMus
-ms.topic: interface
 f1_keywords:
  - "dmusicks/ISynthSinkDMus"
 req.header: dmusicks.h

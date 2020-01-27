@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: cc4dabe3-4e14-4495-89b4-37f1a31ea62d
 ms.date: 03/29/2018
 ms.keywords: IOCTL_TAPE_WRITE_MARKS, IOCTL_TAPE_WRITE_MARKS control, IOCTL_TAPE_WRITE_MARKS control code [Storage Devices], k307_f1ba7d65-28cf-4a26-b385-462ca5018d88.xml, ntddtape/IOCTL_TAPE_WRITE_MARKS, storage.ioctl_tape_write_marks
-ms.topic: ioctl
 f1_keywords:
  - "ntddtape/IOCTL_TAPE_WRITE_MARKS"
 req.header: ntddtape.h

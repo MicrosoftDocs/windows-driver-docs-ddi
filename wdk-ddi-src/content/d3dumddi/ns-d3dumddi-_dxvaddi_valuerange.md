@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c3013da9-8db4-4346-9be8-77b2c6de3f59
 ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_37c2cd52-30c3-4e99-918f-6a538547bdd2.xml, DXVADDI_VALUERANGE, DXVADDI_VALUERANGE structure [Display Devices], _DXVADDI_VALUERANGE, d3dumddi/DXVADDI_VALUERANGE, display.dxvaddi_valuerange
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/DXVADDI_VALUERANGE"
 req.header: d3dumddi.h

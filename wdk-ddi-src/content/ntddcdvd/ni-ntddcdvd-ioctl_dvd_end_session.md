@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 70908275-211b-4112-bad3-35584ec1ef10
 ms.date: 03/29/2018
 ms.keywords: IOCTL_DVD_END_SESSION, IOCTL_DVD_END_SESSION control, IOCTL_DVD_END_SESSION control code [Storage Devices], k307_6d285513-0b3e-4493-977e-e6e837fa3d6a.xml, ntddcdvd/IOCTL_DVD_END_SESSION, storage.ioctl_dvd_end_session
-ms.topic: ioctl
 f1_keywords:
  - "ntddcdvd/IOCTL_DVD_END_SESSION"
 req.header: ntddcdvd.h

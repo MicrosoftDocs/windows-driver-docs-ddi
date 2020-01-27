@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 4186a362-f75d-4633-b9eb-5b0810bf56dc
 ms.date: 04/16/2018
 ms.keywords: IoCreateStreamFileObject, IoCreateStreamFileObject routine [Installable File System Drivers], ifsk.iocreatestreamfileobject, ioref_b800437d-cde5-4605-955f-c14152aa0576.xml, ntifs/IoCreateStreamFileObject
-ms.topic: function
 f1_keywords:
  - "ntifs/IoCreateStreamFileObject"
 req.header: ntifs.h

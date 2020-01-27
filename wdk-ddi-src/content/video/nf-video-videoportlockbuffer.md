@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: ba65d1b1-a720-4f21-8c6d-af70185c0c24
 ms.date: 05/10/2018
 ms.keywords: VideoPortLockBuffer, VideoPortLockBuffer function [Display Devices], VideoPort_Functions_8c96bd4d-b9fc-4ff7-9d81-1087d6527700.xml, display.videoportlockbuffer, video/VideoPortLockBuffer
-ms.topic: function
 f1_keywords:
  - "video/VideoPortLockBuffer"
 req.header: video.h

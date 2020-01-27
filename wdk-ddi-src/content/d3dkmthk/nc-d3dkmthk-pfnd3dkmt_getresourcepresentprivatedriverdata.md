@@ -4,7 +4,6 @@ title: PFND3DKMT_GETRESOURCEPRESENTPRIVATEDRIVERDATA (d3dkmthk.h)
 description: Pfnd3dkmtGetresourcepresentprivatedriverdata queries the resource private data, which is associated with the resource during Present.
 ms.assetid: 598b2722-a60f-4f26-9e65-ba015b2ffa51
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_GETRESOURCEPRESENTPRIVATEDRIVERDATA"
 req.header: d3dkmthk.h

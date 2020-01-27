@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 8DF89C18-10CA-4E8B-8E2A-B373C80F7B39
 ms.date: 04/20/2018
 ms.keywords: EnableEvents, EnableEvents method [Print Devices], EnableEvents method [Print Devices],IPrinterExtensionManager interface, IPrinterExtensionManager interface [Print Devices],EnableEvents method, IPrinterExtensionManager.EnableEvents, IPrinterExtensionManager::EnableEvents, print.iprinterextensionmanager_enableevents, printerextension/IPrinterExtensionManager::EnableEvents
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterExtensionManager.EnableEvents"
 req.header: printerextension.h

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: d58a275a-aaaa-4159-ba00-6998b7a63434
 ms.date: 02/26/2018
 ms.keywords: WdfCompanionTargetSendTaskSynchronously, WdfCompanionTargetSendTaskSynchronously method, wdf.wdfcompaniontargetsendtasksynchronously, wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously
-ms.topic: function
 f1_keywords:
  - "wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously"
 req.header: wdfcompaniontarget.h

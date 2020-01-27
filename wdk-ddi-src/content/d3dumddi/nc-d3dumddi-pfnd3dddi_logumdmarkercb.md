@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: BD544686-20D3-4577-9950-9C3B6853C4BD
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_LOGUMDMARKERCB, PFND3DDDI_LOGUMDMARKERCB callback, d3dumddi/pfnLogUMDMarkerCb, display.pfnlogumdmarkercb, pfnLogUMDMarkerCb, pfnLogUMDMarkerCb callback function [Display Devices]
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

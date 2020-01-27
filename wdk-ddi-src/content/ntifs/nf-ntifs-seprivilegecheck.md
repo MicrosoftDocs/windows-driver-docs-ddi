@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 707ced39-4153-4a6e-b87d-7e4eb487e738
 ms.date: 04/16/2018
 ms.keywords: SePrivilegeCheck, SePrivilegeCheck routine [Installable File System Drivers], ifsk.seprivilegecheck, ntifs/SePrivilegeCheck, seref_45aa3a8c-26b9-4bb9-968a-5f7d4a12ca3a.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/SePrivilegeCheck"
 req.header: ntifs.h

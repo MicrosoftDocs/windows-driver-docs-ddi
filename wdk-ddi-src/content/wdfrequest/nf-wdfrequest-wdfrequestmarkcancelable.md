@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 1bd1ec2a-8b07-4843-84b6-6b651453328c
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_29a4ad0c-ce28-4f4b-b015-90b067feaeec.xml, WdfRequestMarkCancelable, WdfRequestMarkCancelable method, kmdf.wdfrequestmarkcancelable, wdf.wdfrequestmarkcancelable, wdfrequest/WdfRequestMarkCancelable
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WdfRequestMarkCancelable"
 req.header: wdfrequest.h

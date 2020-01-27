@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 2B5AF281-C080-4ED9-9C58-5757CDE0117A
 ms.date: 03/29/2018
 ms.keywords: IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX, IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX control, IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX control code [Storage Devices], ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX, storage.ioctl_mpio_pass_through_path_direct_ex
-ms.topic: ioctl
 f1_keywords:
  - "ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT_EX"
 req.header: ntddscsi.h

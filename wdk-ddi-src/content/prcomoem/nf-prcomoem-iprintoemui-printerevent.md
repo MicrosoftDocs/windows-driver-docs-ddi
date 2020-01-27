@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 214ea4d8-3bf9-4248-8bfa-7180635769be
 ms.date: 04/20/2018
 ms.keywords: IPrintOemUI interface [Print Devices],PrinterEvent method, IPrintOemUI.PrinterEvent, IPrintOemUI::PrinterEvent, PrinterEvent, PrinterEvent method [Print Devices], PrinterEvent method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::PrinterEvent, print.iprintoemui_printerevent, print_unidrv-pscript_ui_87a42746-bb3f-494a-a647-8b111e2b0e09.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemUI.PrinterEvent"
 req.header: prcomoem.h

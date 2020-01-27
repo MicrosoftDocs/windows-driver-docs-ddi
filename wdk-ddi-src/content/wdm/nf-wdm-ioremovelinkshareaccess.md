@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: FFCD4705-4E5D-4D4E-9E6D-D06A7D21DC17
 ms.date: 04/30/2018
 ms.keywords: IoRemoveLinkShareAccess, IoRemoveLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioremovelinkshareaccess, wdm/IoRemoveLinkShareAccess
-ms.topic: function
 f1_keywords:
  - "wdm/IoRemoveLinkShareAccess"
 req.header: wdm.h

@@ -4,7 +4,6 @@ title: PFND3DKMT_QUERYFSEBLOCK (d3dkmthk.h)
 description: The PFND3DKMT_QUERYFSEBLOCK callback function queries FSE blocks.
 ms.assetid: 699577c3-0e0d-4518-88e7-40a6992a41ce
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_QUERYFSEBLOCK"
 req.header: d3dkmthk.h

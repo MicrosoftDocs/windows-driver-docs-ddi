@@ -6,7 +6,6 @@ old-location: display\dxgkarg_buildpagingbuffer.htm
 ms.assetid: dc0de06b-d495-4ce2-b0e2-a6fefd6c8e0c
 ms.date: 05/10/2018
 ms.keywords: "*IN_PDXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER structure [Display Devices], DXGKARG_BUILDPAGINGBUFFER_OPERATION, DXGK_BUILDPAGINGBUFFER_OPERATION, DmStructs_06cb7ec2-482d-41ba-b550-3c4f27d36070.xml, _DXGKARG_BUILDPAGINGBUFFER, d3dkmddi/DXGKARG_BUILDPAGINGBUFFER, display.dxgkarg_buildpagingbuffer"
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_BUILDPAGINGBUFFER"
 req.header: d3dkmddi.h

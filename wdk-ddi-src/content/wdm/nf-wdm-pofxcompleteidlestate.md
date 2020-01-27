@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: D9224991-DB36-4250-861A-6C21E29F91EF
 ms.date: 04/30/2018
 ms.keywords: PoFxCompleteIdleState, PoFxCompleteIdleState routine [Kernel-Mode Driver Architecture], kernel.pofxcompleteidlestate, wdm/PoFxCompleteIdleState
-ms.topic: function
 f1_keywords:
  - "wdm/PoFxCompleteIdleState"
 req.header: wdm.h

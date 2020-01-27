@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 9a8d2bc1-a75a-449d-8cfe-9d1f16a9dbb7
 ms.date: 05/02/2018
 ms.keywords: NmrRegisterClient, NmrRegisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterClient, netvista.nmrregisterclient, nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml
-ms.topic: function
 f1_keywords:
  - "netioddk/NmrRegisterClient"
 req.header: netioddk.h

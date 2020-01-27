@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 7C12C528-03B2-42B7-A73D-21DF3FEF1505
 ms.date: 04/20/2018
 ms.keywords: IPrintAsyncNotify, IPrintAsyncNotify interface [Print Devices], IPrintAsyncNotify interface [Print Devices],described, print.iprintasyncnotify, prnasntp/IPrintAsyncNotify
-ms.topic: interface
 f1_keywords:
  - "prnasntp/IPrintAsyncNotify"
 req.header: prnasntp.h

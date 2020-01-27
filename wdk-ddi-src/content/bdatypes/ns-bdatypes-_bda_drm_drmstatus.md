@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: EC287CF0-9B39-4412-849E-9F86EEE69365
 ms.date: 04/23/2018
 ms.keywords: "*PBDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS structure [Streaming Media Devices], PBDA_DRM_DRMSTATUS, PBDA_DRM_DRMSTATUS structure pointer [Streaming Media Devices], _BDA_DRM_DRMSTATUS, bdatypes/BDA_DRM_DRMSTATUS, bdatypes/PBDA_DRM_DRMSTATUS, stream.bda_drm_drmstatus"
-ms.topic: struct
 f1_keywords:
  - "bdatypes/BDA_DRM_DRMSTATUS"
 req.header: bdatypes.h

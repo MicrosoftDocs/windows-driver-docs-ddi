@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 4434a42f-2f3a-4d19-979c-52de51133b44
 ms.author: windowsdriverdev
 ms.date: 10/03/2019
-ms.topic: function
 f1_keywords:
  - "netpoweroffload/NetPowerOffloadGetNSParameters"
 ms.keywords: NetPowerOffloadGetNSParameters

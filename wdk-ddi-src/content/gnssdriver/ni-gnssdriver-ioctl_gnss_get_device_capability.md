@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: 28673D2A-5DD6-42CD-BD91-5C30B905ECF0
 ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_GET_DEVICE_CAPABILITY, IOCTL_GNSS_GET_DEVICE_CAPABILITY control, IOCTL_GNSS_GET_DEVICE_CAPABILITY control code [Sensor Devices], gnss.ioctl_gnss_get_device_capability, gnssdriver/IOCTL_GNSS_GET_DEVICE_CAPABILITY
-ms.topic: ioctl
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_GET_DEVICE_CAPABILITY"
 req.header: gnssdriver.h

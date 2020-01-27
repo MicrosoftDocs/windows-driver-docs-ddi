@@ -6,7 +6,6 @@ old-location: display\videodecoderenabledownsampling.htm
 ms.assetid: 0817C977-1113-4953-B60C-A69185443335
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING, PFND3DWDDM2_0DDI_VIDEODECODERENABLEDOWNSAMPLING callback, d3d10umddi/pfnVideoDecoderEnableDownsampling, display.videodecoderenabledownsampling, pfnVideoDecoderEnableDownsampling, pfnVideoDecoderEnableDownsampling callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

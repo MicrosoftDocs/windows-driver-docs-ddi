@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 87B34452-DC2C-4FD4-B0F8-51EFAF2D4AA6
 ms.date: 05/07/2018
 ms.keywords: UrsSetPoHandle, UrsSetPoHandle function [Buses], buses.urssetpohandle, ursdevice/UrsSetPoHandle
-ms.topic: function
 f1_keywords:
  - "ursdevice/UrsSetPoHandle"
 req.header: ursdevice.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: d57fee0b-2dd3-4fad-bc7e-d413c08e2441
 ms.date: 04/30/2018
 ms.keywords: RtlUnicodeStringInitEx, RtlUnicodeStringInitEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringinitex, ntstrsafe/RtlUnicodeStringInitEx, safestrings_fab7496b-3acf-416d-8425-6936a73f1ca7.xml
-ms.topic: function
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringInitEx"
 req.header: ntstrsafe.h

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: af81a053-8c09-411c-a437-21859ea867b2
 ms.date: 04/30/2019
 ms.keywords: "*PKSPROPERTY_VIDEODECODER_CAPS_S, KSPROPERTY_VIDEODECODER_CAPS_S, KSPROPERTY_VIDEODECODER_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_VIDEODECODER_CAPS_S, PKSPROPERTY_VIDEODECODER_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEODECODER_CAPS_S, ksmedia/PKSPROPERTY_VIDEODECODER_CAPS_S, stream.ksproperty_videodecoder_caps_s, vidcapstruct_091e360d-7c9a-4ffc-a7b5-aa634847bbed.xml"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSPROPERTY_VIDEODECODER_CAPS_S"
 req.header: ksmedia.h

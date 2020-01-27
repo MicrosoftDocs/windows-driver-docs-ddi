@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: d3c4d041-0589-46f5-a514-8efb0db642c7
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_2b9315b1-c1c1-4739-af0e-0acebae1c59e.xml, FltPurgeFileNameInformationCache, FltPurgeFileNameInformationCache function [Installable File System Drivers], fltkernel/FltPurgeFileNameInformationCache, ifsk.fltpurgefilenameinformationcache
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltPurgeFileNameInformationCache"
 req.header: fltkernel.h

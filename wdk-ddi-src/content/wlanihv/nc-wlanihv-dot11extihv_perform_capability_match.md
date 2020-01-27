@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: c49b23c0-4707-4626-8035-a83ccf7638eb
 ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_PERFORM_CAPABILITY_MATCH, Dot11ExtIhvPerformCapabilityMatch, Dot11ExtIhvPerformCapabilityMatch callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_98cf7a9a-aaf4-45d0-8b1d-3142e947e415.xml, netvista.dot11extihvperformcapabilitymatch, wlanihv/Dot11ExtIhvPerformCapabilityMatch
-ms.topic: callback
 f1_keywords:
  - "wlanihv/Dot11ExtIhvPerformCapabilityMatch"
 req.header: wlanihv.h

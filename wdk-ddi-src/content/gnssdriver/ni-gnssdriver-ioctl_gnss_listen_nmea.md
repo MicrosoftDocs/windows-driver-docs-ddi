@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: 975F5FB4-503D-44E7-8D4C-2AEFE72B672B
 ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_LISTEN_NMEA, IOCTL_GNSS_LISTEN_NMEA control, IOCTL_GNSS_LISTEN_NMEA control code [Sensor Devices], gnss.ioctl_gnss_listen_nmea, gnssdriver/IOCTL_GNSS_LISTEN_NMEA
-ms.topic: ioctl
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_LISTEN_NMEA"
 req.header: gnssdriver.h

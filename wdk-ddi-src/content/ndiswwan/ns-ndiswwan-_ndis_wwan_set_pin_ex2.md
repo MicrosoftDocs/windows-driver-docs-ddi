@@ -5,7 +5,6 @@ description: The NDIS_WWAN_SET_PIN_EX2 structure specifies the PIN action to tak
 tech.root: netvista
 ms.assetid: E4AAF4D1-687A-48DA-AE6F-0C7ABEAFD02E
 ms.date: 04/10/2019
-ms.topic: struct
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_SET_PIN_EX2"
 ms.keywords: _NDIS_WWAN_SET_PIN_EX2, NDIS_WWAN_SET_PIN_EX2, *PNDIS_WWAN_SET_PIN_EX2, 

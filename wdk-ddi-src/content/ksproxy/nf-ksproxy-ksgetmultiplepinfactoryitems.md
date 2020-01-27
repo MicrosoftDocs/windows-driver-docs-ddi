@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 43210484-dcae-49b7-bda3-50d6c06ee2c0
 ms.date: 04/23/2018
 ms.keywords: KsGetMultiplePinFactoryItems, KsGetMultiplePinFactoryItems function [Streaming Media Devices], ksproxy/KsGetMultiplePinFactoryItems, ksproxy_cd252212-9317-4e1a-9f57-ee18afc23766.xml, stream.ksgetmultiplepinfactoryitems
-ms.topic: function
 f1_keywords:
  - "ksproxy/KsGetMultiplePinFactoryItems"
 req.header: ksproxy.h

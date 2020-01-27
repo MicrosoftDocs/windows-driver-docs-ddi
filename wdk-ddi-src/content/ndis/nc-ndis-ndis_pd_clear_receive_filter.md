@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: C91F2E5D-C37F-48A9-9AE0-F5A8C5D8F54D
 ms.date: 05/02/2018
 ms.keywords: NDIS_PD_CLEAR_RECEIVE_FILTER, NDIS_PD_CLEAR_RECEIVE_FILTER callback, NdisPDClearReceiveFilter, NdisPDClearReceiveFilter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDClearReceiveFilter, netvista.ndispdclearreceivefilter
-ms.topic: callback
 f1_keywords:
  - "ndis/NdisPDClearReceiveFilter"
 req.header: ndis.h

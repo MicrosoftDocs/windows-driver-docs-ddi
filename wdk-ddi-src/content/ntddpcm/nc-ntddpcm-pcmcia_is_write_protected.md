@@ -7,7 +7,6 @@ tech.root: PCMCIA
 ms.assetid: d270f39a-d8e8-4ec6-987e-e755da767495
 ms.date: 02/15/2018
 ms.keywords: IsWriteProtected, IsWriteProtected callback function [Buses], PCMCIA.pcmcia_is_write_protected, PCMCIA_IS_WRITE_PROTECTED, PCMCIA_IS_WRITE_PROTECTED callback, memcdref_e7dab6ad-c94a-42c9-a969-f102c58e4d3c.xml, ntddpcm/IsWriteProtected
-ms.topic: callback
 f1_keywords:
  - "ntddpcm/IsWriteProtected"
 req.header: ntddpcm.h

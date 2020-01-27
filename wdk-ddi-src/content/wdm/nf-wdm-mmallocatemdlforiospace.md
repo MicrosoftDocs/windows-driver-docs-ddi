@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 198ECC2A-1AC0-44FA-8E5C-84F1C8BEE246
 ms.date: 04/30/2018
 ms.keywords: MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmallocatemdlforiospace, wdm/MmAllocateMdlForIoSpace
-ms.topic: function
 f1_keywords:
  - "wdm/MmAllocateMdlForIoSpace"
 req.header: wdm.h

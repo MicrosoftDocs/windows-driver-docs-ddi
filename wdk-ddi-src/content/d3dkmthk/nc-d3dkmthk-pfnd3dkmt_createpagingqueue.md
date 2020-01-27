@@ -4,7 +4,6 @@ title: PFND3DKMT_CREATEPAGINGQUEUE (d3dkmthk.h)
 description: The PFND3DKMT_CREATEPAGINGQUEUE callback function creates a paging queue.
 ms.assetid: c0aa3399-4862-4836-a183-141caa8264d4
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_CREATEPAGINGQUEUE"
 req.header: d3dkmthk.h

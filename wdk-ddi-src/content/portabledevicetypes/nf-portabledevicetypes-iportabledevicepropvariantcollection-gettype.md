@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: d1d84b17-96e6-49a5-bf54-ffce1cb8f405
 ms.date: 02/15/2018
 ms.keywords: GetType, GetType method, GetType method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,GetType method, IPortableDevicePropVariantCollection.GetType, IPortableDevicePropVariantCollection::GetType, IPortableDevicePropVariantCollectionGetType, portabledevicetypes/IPortableDevicePropVariantCollection::GetType, wpddk.iportabledevicepropvariantcollection_gettype
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IPortableDevicePropVariantCollection.GetType"
 req.header: portabledevicetypes.h

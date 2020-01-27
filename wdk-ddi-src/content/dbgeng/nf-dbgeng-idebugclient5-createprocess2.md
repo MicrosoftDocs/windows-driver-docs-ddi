@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 6b10dcec-2c1a-4068-adb2-4f532ec0b897
 ms.date: 05/03/2018
 ms.keywords: CreateProcess2, CreateProcess2 method [Windows Debugging], CreateProcess2 method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],CreateProcess2 method, IDebugClient5.CreateProcess2, IDebugClient5::CreateProcess2, IDebugClient_1cf74a01-b7bd-4899-8a17-4fc443ee0fbc.xml, dbgeng/IDebugClient5::CreateProcess2, debugger.createprocess2
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugClient5.CreateProcess2"
 req.header: dbgeng.h

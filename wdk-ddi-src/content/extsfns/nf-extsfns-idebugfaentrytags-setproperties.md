@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: EEBD3291-4DFC-4503-9F5A-49591FE09680
 ms.date: 05/03/2018
 ms.keywords: IDebugFAEntryTags interface [Windows Debugging],SetProperties method, IDebugFAEntryTags.SetProperties, IDebugFAEntryTags::SetProperties, SetProperties, SetProperties method [Windows Debugging], SetProperties method [Windows Debugging],IDebugFAEntryTags interface, debugger.idebugfaentrytags_setproperties, extsfns/IDebugFAEntryTags::SetProperties
-ms.topic: method
 f1_keywords:
  - "extsfns/IDebugFAEntryTags.SetProperties"
 req.header: extsfns.h

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 20897336-e032-4aa7-be5f-47704c6d1d12
 ms.date: 03/29/2018
 ms.keywords: "*LPIDEREGS, *PIDEREGS, IDEREGS, IDEREGS structure [Storage Devices], LPIDEREGS, LPIDEREGS structure pointer [Storage Devices], PIDEREGS, PIDEREGS structure pointer [Storage Devices], _IDEREGS, ntdddisk/IDEREGS, ntdddisk/LPIDEREGS, ntdddisk/PIDEREGS, storage.ideregs, structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml"
-ms.topic: struct
 f1_keywords:
  - "ntdddisk/IDEREGS"
 req.header: ntdddisk.h

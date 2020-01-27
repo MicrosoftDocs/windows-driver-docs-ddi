@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 261d4dbc-6374-4b11-80a0-64b0a2fc6abe
 ms.date: 04/20/2018
 ms.keywords: OEMDriverDMS, OEMDriverDMS function [Print Devices], print.oemdriverdms, print_obsoletefunctions_2ae5b734-4f6d-4d91-baba-b594a3388d08.xml, printoem/OEMDriverDMS
-ms.topic: function
 f1_keywords:
  - "printoem/OEMDriverDMS"
 req.header: printoem.h

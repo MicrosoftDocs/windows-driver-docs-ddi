@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: a17812f5-4e20-4793-9352-3cabed25a6da
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_367ee79b-5fdf-41ca-b43c-f9f29b3a872c.xml, ExtRemoteData class [Windows Debugging],GetW32Bool method, ExtRemoteData.GetW32Bool, ExtRemoteData::GetW32Bool, GetW32Bool, GetW32Bool method [Windows Debugging], GetW32Bool method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getw32bool
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetW32Bool"
 req.header: engextcpp.hpp

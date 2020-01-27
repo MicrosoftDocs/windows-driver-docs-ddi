@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 3e12c431-4f6d-4d07-be52-e4809e8bc798
 ms.date: 03/29/2018
 ms.keywords: "*PTAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS, PTAPE_GET_MEDIA_PARAMETERS structure pointer [Storage Devices], TAPE_GET_MEDIA_PARAMETERS, TAPE_GET_MEDIA_PARAMETERS structure [Storage Devices], _TAPE_GET_MEDIA_PARAMETERS, ntddtape/PTAPE_GET_MEDIA_PARAMETERS, ntddtape/TAPE_GET_MEDIA_PARAMETERS, storage.tape_get_media_parameters, structs-tape_19ce668d-65dd-40d6-a668-d34e540cc686.xml"
-ms.topic: struct
 f1_keywords:
  - "minitape/TAPE_GET_MEDIA_PARAMETERS"
 req.header: minitape.h

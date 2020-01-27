@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: fe135118-1992-43c7-8492-81f9febd79b9
 ms.date: 04/30/2018
 ms.keywords: IoWMIRegistrationControl, IoWMIRegistrationControl routine [Kernel-Mode Driver Architecture], k104_69efd10b-fb1a-4d66-939d-6ade4185605d.xml, kernel.iowmiregistrationcontrol, wdm/IoWMIRegistrationControl
-ms.topic: function
 f1_keywords:
  - "wdm/IoWMIRegistrationControl"
 req.header: wdm.h

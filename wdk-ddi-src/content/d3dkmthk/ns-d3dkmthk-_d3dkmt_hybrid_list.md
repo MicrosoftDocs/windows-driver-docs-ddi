@@ -4,7 +4,6 @@ title: _D3DKMT_HYBRID_LIST (d3dkmthk.h)
 description: Describes the Direct 3D kernel mode hybrid list.
 ms.assetid: 15dea116-bc45-4ef9-a78a-9ab7f9a0842c
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/_D3DKMT_HYBRID_LIST"
 ms.keywords: _D3DKMT_HYBRID_LIST, D3DKMT_HYBRID_LIST, 

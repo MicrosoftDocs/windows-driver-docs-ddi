@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: c7c4a98a-51c3-46c8-856e-053291b412b3
 ms.date: 03/29/2018
 ms.keywords: IOCTL_SCSI_PASS_THROUGH, IOCTL_SCSI_PASS_THROUGH control, IOCTL_SCSI_PASS_THROUGH control code [Storage Devices], k307_3ce0bb34-5f8d-40f8-ae98-24f597656ad0.xml, ntddscsi/IOCTL_SCSI_PASS_THROUGH, storage.ioctl_scsi_pass_through
-ms.topic: ioctl
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_PASS_THROUGH"
 req.header: ntddscsi.h

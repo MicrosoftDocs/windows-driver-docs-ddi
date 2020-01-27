@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: c2d1b967-32fb-437a-a0bd-e0028acee022
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR, NDIS_PROCESSOR_VENDOR enumeration [Network Drivers Starting with Windows Vista], NdisProcessorVendorAuthenticAMD, NdisProcessorVendorGenuinIntel, NdisProcessorVendorUnknown, PNDIS_PROCESSOR_VENDOR, PNDIS_PROCESSOR_VENDOR enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_PROCESSOR_VENDOR, ndis_sysinfo_ref_7037b548-2ccc-4f39-9b34-33002f811bf1.xml, netvista.ndis_processor_vendor, ntddndis/NDIS_PROCESSOR_VENDOR, ntddndis/NdisProcessorVendorAuthenticAMD, ntddndis/NdisProcessorVendorGenuinIntel, ntddndis/NdisProcessorVendorUnknown, ntddndis/PNDIS_PROCESSOR_VENDOR"
-ms.topic: enum
 f1_keywords:
  - "ntddndis/NDIS_PROCESSOR_VENDOR"
 req.header: ntddndis.h

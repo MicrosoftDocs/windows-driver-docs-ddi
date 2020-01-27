@@ -5,7 +5,6 @@ description: Used in the GET_PDOS command. See Table 4-34.
 ms.assetid: e3f8b770-0582-434c-9d46-f882d5a55b0b
 tech.root: usbref
 ms.date: 09/30/2018
-ms.topic: struct
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_PDOS_COMMAND"
 ms.keywords: _UCSI_GET_PDOS_COMMAND, UCSI_GET_PDOS_COMMAND, *PUCSI_GET_PDOS_COMMAND, 

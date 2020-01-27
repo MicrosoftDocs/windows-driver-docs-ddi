@@ -6,7 +6,6 @@ old-location: display\setblendstate.htm
 ms.assetid: 8794413f-f4d5-4382-8886-2f0659d8a781
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_SETBLENDSTATE, PFND3D10DDI_SETBLENDSTATE callback, SetBlendState, SetBlendState callback function [Display Devices], UserModeDisplayDriverDx10_Functions_11dcf032-7cd6-497e-985d-548960276981.xml, d3d10umddi/SetBlendState, display.setblendstate
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

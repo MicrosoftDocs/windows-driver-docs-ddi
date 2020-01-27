@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: b256e6fd-d44f-482a-836d-a812634b4b3a
 ms.date: 04/30/2018
 ms.keywords: "*PHID_XFER_PACKET, HID_XFER_PACKET, HID_XFER_PACKET structure [Human Input Devices], PHID_XFER_PACKET, PHID_XFER_PACKET structure pointer [Human Input Devices], _HID_XFER_PACKET, hid.hid_xfer_packet, hidclass/HID_XFER_PACKET, hidclass/PHID_XFER_PACKET, hidstrct_55f22385-a5ed-46b5-9f97-9d47ee731145.xml"
-ms.topic: struct
 f1_keywords:
  - "hidclass/HID_XFER_PACKET"
 req.header: hidclass.h

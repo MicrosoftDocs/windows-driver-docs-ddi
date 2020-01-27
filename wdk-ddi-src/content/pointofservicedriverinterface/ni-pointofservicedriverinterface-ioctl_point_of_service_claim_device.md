@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: e9dfa630-d3ac-4228-ae2a-02ff5a0fd558
 ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE, IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE control, IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE, pos.ioctl_point_of_service_claim_device
-ms.topic: ioctl
 f1_keywords:
  - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE"
 req.header: pointofservicedriverinterface.h

@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 577ce93a-5a90-4e85-afc6-3791f402c238
 ms.date: 05/03/2018
 ms.keywords: image.wiaudbghelper2, wiauDbgHelper2, wiauDbgHelper2 function [Imaging Devices], wiauFncs_6ccf146a-ec2e-4ca4-827a-dec2f8ea629d.xml, wiautil/wiauDbgHelper2
-ms.topic: function
 f1_keywords:
  - "wiautil/wiauDbgHelper2"
 req.header: wiautil.h

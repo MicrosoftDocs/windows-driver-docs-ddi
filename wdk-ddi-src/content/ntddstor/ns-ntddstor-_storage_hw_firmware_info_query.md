@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 7B58F050-2AF4-4BD5-95AB-254BCAA865F6
 ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_INFO_QUERY, PSTORAGE_HW_FIRMWARE_INFO_QUERY, PSTORAGE_HW_FIRMWARE_INFO_QUERY structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_INFO_QUERY, STORAGE_HW_FIRMWARE_INFO_QUERY structure [Storage Devices], _STORAGE_HW_FIRMWARE_INFO_QUERY, ntddstor/PSTORAGE_HW_FIRMWARE_INFO_QUERY, ntddstor/STORAGE_HW_FIRMWARE_INFO_QUERY, storage.storage_hw_firmware_info_query"
-ms.topic: struct
 f1_keywords:
  - "ntddstor/STORAGE_HW_FIRMWARE_INFO_QUERY"
 req.header: ntddstor.h

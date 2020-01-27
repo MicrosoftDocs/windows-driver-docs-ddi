@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 16699B3D-D02B-4D01-9EBE-003C92B06D31
 ms.date: 04/30/2018
 ms.keywords: POFXCALLBACKREQUESTCOMMON, RequestCommon, RequestCommon routine [Kernel-Mode Driver Architecture], kernel.requestcommon, pepfx/RequestCommon
-ms.topic: callback
 f1_keywords:
  - "pepfx/RequestCommon"
 req.header: pepfx.h

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 554f03bf-cacd-401b-aa34-fcfe1c31091e
 ms.date: 04/23/2018
 ms.keywords: KsAllocateDeviceHeader, KsAllocateDeviceHeader function [Streaming Media Devices], ks/KsAllocateDeviceHeader, ksfunc_715031de-7d7e-4e24-8e1c-072c7bc271fb.xml, stream.ksallocatedeviceheader
-ms.topic: function
 f1_keywords:
  - "ks/KsAllocateDeviceHeader"
 req.header: ks.h

@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 4B5301B6-8C10-4C8E-A9D2-28D2484A907A
 ms.date: 04/23/2018
 ms.keywords: 1/SerCxProgressTransmit, SerCxProgressTransmit, SerCxProgressTransmit method [Serial Ports], serports.sercxprogresstransmit
-ms.topic: function
 f1_keywords:
  - "sercx/SerCxProgressTransmit"
 req.header: sercx.h

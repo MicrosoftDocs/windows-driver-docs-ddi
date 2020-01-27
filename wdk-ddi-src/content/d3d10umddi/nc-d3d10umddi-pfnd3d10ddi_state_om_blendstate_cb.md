@@ -6,7 +6,6 @@ old-location: display\pfnstateomblendstatecb.htm
 ms.assetid: 3cec9d99-0d15-4c61-9de2-ab203a56441d
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_STATE_OM_BLENDSTATE_CB, PFND3D10DDI_STATE_OM_BLENDSTATE_CB callback, d3d10state_functions_18da32ca-c230-4119-a721-cbb8511a8b7c.xml, d3d10umddi/pfnStateOmBlendStateCb, display.pfnstateomblendstatecb, pfnStateOmBlendStateCb, pfnStateOmBlendStateCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateOmBlendStateCb"
 req.header: d3d10umddi.h

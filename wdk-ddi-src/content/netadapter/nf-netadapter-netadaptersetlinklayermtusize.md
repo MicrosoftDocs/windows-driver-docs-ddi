@@ -5,7 +5,6 @@ description: Sets the link layer maximum transfer unit size of the adapter.
 tech.root: netvista
 ms.assetid: 367f8b32-c11a-46e4-ba1d-35c8ae359230
 ms.date: 02/06/2018
-ms.topic: function
 f1_keywords:
  - "netadapter/NetAdapterSetLinkLayerMtuSize"
 ms.keywords: NetAdapterSetLinkLayerMtuSize

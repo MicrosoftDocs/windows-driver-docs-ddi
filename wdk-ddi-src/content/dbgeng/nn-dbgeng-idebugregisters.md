@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: a2587ea7-20cd-43be-ba71-750e699ee0ce
 ms.date: 05/03/2018
 ms.keywords: IDebugRegisters, IDebugRegisters interface [Windows Debugging], IDebugRegisters interface [Windows Debugging],described, IDebugRegisters_ca710692-a977-4276-b779-2b66311938dc.xml, dbgeng/IDebugRegisters, debugger.idebugregisters
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugRegisters"
 req.header: dbgeng.h

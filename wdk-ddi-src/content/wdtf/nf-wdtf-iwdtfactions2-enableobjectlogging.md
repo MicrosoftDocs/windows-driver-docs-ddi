@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: 854c7770-2857-48ed-8ca6-ad0e26aa412d
 ms.date: 04/04/2018
 ms.keywords: EnableObjectLogging, EnableObjectLogging method [Windows Device Testing Framework], EnableObjectLogging method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],EnableObjectLogging method, IWDTFActions2.EnableObjectLogging, IWDTFActions2::EnableObjectLogging, dtf.iwdtfactions2_enableobjectlogging, wdtf/IWDTFActions2::EnableObjectLogging
-ms.topic: method
 f1_keywords:
  - "wdtf/IWDTFActions2.EnableObjectLogging"
 req.header: wdtf.h

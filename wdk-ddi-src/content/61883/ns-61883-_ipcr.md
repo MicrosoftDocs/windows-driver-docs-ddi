@@ -7,7 +7,6 @@ tech.root: IEEE
 ms.assetid: 81c89fbc-5d58-4983-b591-765a7818b932
 ms.date: 02/15/2018
 ms.keywords: "*PIPCR, 61883/IPCR, 61883/PIPCR, 61883_structures_e7226c37-f3b1-4e57-977a-6fb25c853f19.xml, IEEE.ipcr, IPCR, IPCR structure [Buses], PIPCR, PIPCR structure pointer [Buses], _IPCR"
-ms.topic: struct
 f1_keywords:
  - "61883/IPCR"
 req.header: 61883.h

@@ -4,7 +4,6 @@ title: _D3DKMT_QUERYVIDEOMEMORYINFO (d3dkmthk.h)
 description: Used to query for video memory info.
 ms.assetid: 6ddd12f9-abd8-4e9a-b1e5-193956a5f9dd
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/_D3DKMT_QUERYVIDEOMEMORYINFO"
 ms.keywords: _D3DKMT_QUERYVIDEOMEMORYINFO, D3DKMT_QUERYVIDEOMEMORYINFO, 

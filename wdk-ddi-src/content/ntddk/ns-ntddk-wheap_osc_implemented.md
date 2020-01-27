@@ -7,7 +7,6 @@ tech.root:
 ms.assetid: f94348ba-a1ab-43e6-8696-231eae36d141
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: struct
 f1_keywords:
  - "ntddk/WHEAP_OSC_IMPLEMENTED"
 ms.keywords: WHEAP_OSC_IMPLEMENTED, WHEAP_OSC_IMPLEMENTED, *PWHEAP_OSC_IMPLEMENTED, 

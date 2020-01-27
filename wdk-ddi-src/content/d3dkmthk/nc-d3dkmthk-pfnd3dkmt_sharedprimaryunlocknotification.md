@@ -4,7 +4,6 @@ title: PFND3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION (d3dkmthk.h)
 description: The PFND3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION callback function notifies the operating system that a shared primary surface was unlocked.
 ms.assetid: c6a4be3f-33b5-4369-8b27-06561bf43873
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION"
 req.header: d3dkmthk.h

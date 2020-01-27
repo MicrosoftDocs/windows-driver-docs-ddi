@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 9987ed83-7aa1-4e07-a85b-26607000ecba
 ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2POINTS, D3DHAL_DP2POINTS, D3DHAL_DP2POINTS structure [Display Devices], LPD3DHAL_DP2POINTS, LPD3DHAL_DP2POINTS structure pointer [Display Devices], _D3DHAL_DP2POINTS, d3dhal/D3DHAL_DP2POINTS, d3dhal/LPD3DHAL_DP2POINTS, d3dstrct_ab7299b5-74b9-43bb-8784-6c1249e23f2f.xml, display.d3dhal_dp2points"
-ms.topic: struct
 f1_keywords:
  - "d3dhal/D3DHAL_DP2POINTS"
 req.header: d3dhal.h

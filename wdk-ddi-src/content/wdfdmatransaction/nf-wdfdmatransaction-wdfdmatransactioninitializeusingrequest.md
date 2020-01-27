@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 5a59c1cc-b5a9-4e94-966d-9998a98d6ad2
 ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_b61c1d2b-b62e-4f04-b7ff-53a8e819062a.xml, WdfDmaTransactionInitializeUsingRequest, WdfDmaTransactionInitializeUsingRequest method, kmdf.wdfdmatransactioninitializeusingrequest, wdf.wdfdmatransactioninitializeusingrequest, wdfdmatransaction/WdfDmaTransactionInitializeUsingRequest
-ms.topic: function
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionInitializeUsingRequest"
 req.header: wdfdmatransaction.h

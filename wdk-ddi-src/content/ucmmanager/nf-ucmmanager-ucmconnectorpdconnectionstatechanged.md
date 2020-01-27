@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 2DE78869-9AFC-423A-BCB0-B7BBAB0C06BC
 ms.date: 05/07/2018
 ms.keywords: UcmConnectorPdConnectionStateChanged, UcmConnectorPdConnectionStateChanged method [Buses], buses.ucmconnectorpdconnectionstatechanged, ucmmanager/UcmConnectorPdConnectionStateChanged
-ms.topic: function
 f1_keywords:
  - "ucmmanager/UcmConnectorPdConnectionStateChanged"
 req.header: ucmmanager.h

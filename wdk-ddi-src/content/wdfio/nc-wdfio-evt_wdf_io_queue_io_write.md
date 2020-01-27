@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 5a0fa3b4-d020-4664-afa4-352573d4f079
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_c98601af-48d0-4fc1-9947-b94c50f7a994.xml, EVT_WDF_IO_QUEUE_IO_WRITE, EVT_WDF_IO_QUEUE_IO_WRITE callback, EvtIoWrite, EvtIoWrite callback function, kmdf.evtiowrite, wdf.evtiowrite, wdfio/EvtIoWrite
-ms.topic: callback
 f1_keywords:
  - "wdfio/EvtIoWrite"
 req.header: wdfio.h

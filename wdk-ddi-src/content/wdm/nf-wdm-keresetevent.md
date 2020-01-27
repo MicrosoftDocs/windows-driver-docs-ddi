@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 90be986b-e63e-4ae3-a0f3-87f6f58583dc
 ms.date: 04/30/2018
 ms.keywords: KeResetEvent, KeResetEvent routine [Kernel-Mode Driver Architecture], k105_d2a27b37-56af-46a4-8a48-da507261f77a.xml, kernel.keresetevent, wdm/KeResetEvent
-ms.topic: function
 f1_keywords:
  - "wdm/KeResetEvent"
 req.header: wdm.h

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 91658dfc-dad4-4fbb-8688-13971e7275e2
 ms.date: 05/08/2018
 ms.keywords: "*PKSAUDIO_POSITION, KSAUDIO_POSITION, KSAUDIO_POSITION structure [Audio Devices], PKSAUDIO_POSITION, PKSAUDIO_POSITION structure pointer [Audio Devices], aud-prop_0518af7c-0c1d-4710-8879-43bb42e1ba2a.xml, audio.ksaudio_position, ksmedia/KSAUDIO_POSITION, ksmedia/PKSAUDIO_POSITION"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSAUDIO_POSITION"
 req.header: ksmedia.h

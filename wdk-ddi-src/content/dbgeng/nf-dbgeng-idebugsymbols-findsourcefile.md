@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 960d02a8-0929-4ac5-acf8-8386cae543f8
 ms.date: 05/03/2018
 ms.keywords: FindSourceFile, FindSourceFile method [Windows Debugging], FindSourceFile method [Windows Debugging],IDebugSymbols interface, FindSourceFile method [Windows Debugging],IDebugSymbols2 interface, FindSourceFile method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],FindSourceFile method, IDebugSymbols.FindSourceFile, IDebugSymbols2 interface [Windows Debugging],FindSourceFile method, IDebugSymbols2::FindSourceFile, IDebugSymbols3 interface [Windows Debugging],FindSourceFile method, IDebugSymbols3::FindSourceFile, IDebugSymbols::FindSourceFile, IDebugSymbols_4b585dd9-8278-457d-901a-89350f6643e4.xml, dbgeng/IDebugSymbols2::FindSourceFile, dbgeng/IDebugSymbols3::FindSourceFile, dbgeng/IDebugSymbols::FindSourceFile, debugger.findsourcefile
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols.FindSourceFile"
 req.header: dbgeng.h

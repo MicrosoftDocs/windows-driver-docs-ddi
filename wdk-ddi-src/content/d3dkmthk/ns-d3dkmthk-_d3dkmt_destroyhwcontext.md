@@ -6,7 +6,6 @@ old-location: display\d3dkmt_destroyhwcontext.htm
 ms.assetid: DFFFE90A-C505-466A-B415-AA6C6352421B
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_DESTROYHWCONTEXT, D3DKMT_DESTROYHWCONTEXT structure [Display Devices], _D3DKMT_DESTROYHWCONTEXT, d3dkmthk/D3DKMT_DESTROYHWCONTEXT, display.d3dkmt_destroyhwcontext
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_DESTROYHWCONTEXT"
 req.header: d3dkmthk.h

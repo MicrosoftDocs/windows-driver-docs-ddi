@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: E8EF5995-67AE-4F34-B885-CBADDF3D151F
 ms.date: 03/29/2018
 ms.keywords: StorPortInitializeSListHead, StorPortInitializeSListHead routine [Storage Devices], storage.storportinitializeslisthead, storport/StorPortInitializeSListHead
-ms.topic: function
 f1_keywords:
  - "storport/StorPortInitializeSListHead"
 req.header: storport.h

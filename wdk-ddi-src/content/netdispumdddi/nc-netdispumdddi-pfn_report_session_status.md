@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a3e44e55-5c6a-4a79-8caa-3a3b9db6b456
 ms.date: 05/10/2018
 ms.keywords: PFN_REPORT_SESSION_STATUS, PFN_REPORT_SESSION_STATUS callback, ReportSessionStatus, ReportSessionStatus callback function [Display Devices], display.reportsessionstatus, netdispumdddi/ReportSessionStatus
-ms.topic: callback
 f1_keywords:
  - "netdispumdddi/ReportSessionStatus"
 req.header: netdispumdddi.h

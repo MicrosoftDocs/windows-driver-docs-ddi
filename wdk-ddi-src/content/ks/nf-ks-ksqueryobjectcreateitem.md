@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: dd6d436c-6166-4baf-b180-67f7aa7238e3
 ms.date: 04/23/2018
 ms.keywords: KsQueryObjectCreateItem, KsQueryObjectCreateItem function [Streaming Media Devices], ks/KsQueryObjectCreateItem, ksfunc_57cde673-cd08-4018-b01e-45214058b435.xml, stream.ksqueryobjectcreateitem
-ms.topic: function
 f1_keywords:
  - "ks/KsQueryObjectCreateItem"
 req.header: ks.h

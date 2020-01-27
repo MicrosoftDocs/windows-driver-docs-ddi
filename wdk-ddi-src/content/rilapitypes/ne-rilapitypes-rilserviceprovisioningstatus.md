@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 2f611dff-56b5-406f-8f67-cd3744caa1b5
 ms.date: 05/02/2018
 ms.keywords: RILSERVICEPROVISIONINGSTATUS, RILSERVICEPROVISIONINGSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SVCPROV_MAX, RIL_SVCPROV_NOTPROVISIONED, RIL_SVCPROV_PROVISIONED, RIL_SVCPROV_TEMPMODEALLOWED, RIL_SVCPROV_TEMPMODERESTRICTED, netvista.rilserviceprovisioningstatus, ntddrilapitypes/RILSERVICEPROVISIONINGSTATUS, ntddrilapitypes/RIL_SVCPROV_MAX, ntddrilapitypes/RIL_SVCPROV_NOTPROVISIONED, ntddrilapitypes/RIL_SVCPROV_PROVISIONED, ntddrilapitypes/RIL_SVCPROV_TEMPMODEALLOWED, ntddrilapitypes/RIL_SVCPROV_TEMPMODERESTRICTED
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILSERVICEPROVISIONINGSTATUS"
 req.header: rilapitypes.h

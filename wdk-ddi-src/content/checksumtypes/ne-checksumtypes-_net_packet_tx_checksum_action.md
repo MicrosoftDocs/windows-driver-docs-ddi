@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 2d4005bc-13e3-462d-9e73-5f6cea707db3
 ms.author: windowsdriverdev
 ms.date: 09/25/2019
-ms.topic: enum
 ms.keywords: NET_PACKET_TX_CHECKSUM_ACTION, NET_PACKET_TX_CHECKSUM_ACTION, 
 req.header: checksumtypes.h
 req.include-header:

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: B98D14A1-7016-4299-9E7E-45E5EB6BE912
 ms.date: 04/30/2018
 ms.keywords: ComponentIdleStateCallback, ComponentIdleStateCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_IDLE_STATE_CALLBACK, kernel.componentidlestatecallback, wdm/ComponentIdleStateCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/ComponentIdleStateCallback"
 req.header: wdm.h

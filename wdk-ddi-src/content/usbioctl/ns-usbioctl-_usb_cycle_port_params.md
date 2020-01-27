@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 357C62F3-43FE-4132-9233-7BFAD2CE95C5
 ms.date: 05/07/2018
 ms.keywords: "*PUSB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS, PUSB_CYCLE_PORT_PARAMS structure pointer [Buses], USB_CYCLE_PORT_PARAMS, USB_CYCLE_PORT_PARAMS structure [Buses], _USB_CYCLE_PORT_PARAMS, buses.usb_cycle_port_params, usbioctl/PUSB_CYCLE_PORT_PARAMS, usbioctl/USB_CYCLE_PORT_PARAMS"
-ms.topic: struct
 f1_keywords:
  - "usbioctl/USB_CYCLE_PORT_PARAMS"
 req.header: usbioctl.h

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 5cce25e7-582b-49b3-9f10-be59471e377f
 ms.date: 03/29/2018
 ms.keywords: "*PGetFC3MgmtInfo_OUT, GetFC3MgmtInfo_OUT, GetFC3MgmtInfo_OUT structure [Storage Devices], PGetFC3MgmtInfo_OUT, PGetFC3MgmtInfo_OUT structure pointer [Storage Devices], _GetFC3MgmtInfo_OUT, hbapiwmi/GetFC3MgmtInfo_OUT, hbapiwmi/PGetFC3MgmtInfo_OUT, storage.getfc3mgmtinfo_out, structs-Fibre_599fab97-a877-4299-8697-1decb1305672.xml"
-ms.topic: struct
 f1_keywords:
  - "hbapiwmi/GetFC3MgmtInfo_OUT"
 req.header: hbapiwmi.h

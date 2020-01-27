@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: d97c0abc-6fc4-43bd-89b0-edf70a43f8d7
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: enum
 f1_keywords:
  - "d3dukmdt/D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL"
 ms.keywords: D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL, D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL, *PD3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL, 

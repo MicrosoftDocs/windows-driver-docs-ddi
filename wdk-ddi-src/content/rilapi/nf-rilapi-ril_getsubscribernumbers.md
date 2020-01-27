@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 31634cee-0d8e-4eed-b127-906da6a7b8fe
 ms.date: 05/02/2018
 ms.keywords: RIL_GetSubscriberNumbers, RIL_GetSubscriberNumbers method [Network Drivers Starting with Windows Vista], netvista.ril_getsubscribernumbers, rilapi/RIL_GetSubscriberNumbers
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_GetSubscriberNumbers"
 req.header: rilapi.h

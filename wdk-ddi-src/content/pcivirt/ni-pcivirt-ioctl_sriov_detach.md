@@ -7,7 +7,6 @@ tech.root: PCI
 ms.assetid: 8ede4a48-317b-46be-834a-a67b638b28c0
 ms.date: 02/24/2018
 ms.keywords: IOCTL_SRIOV_DETACH, IOCTL_SRIOV_DETACH control code [Buses], PCI.ioctl-sriov-detach, pcivirt/IOCTL_SRIOV_DETACH
-ms.topic: ioctl
 f1_keywords:
  - "pcivirt/IOCTL_SRIOV_DETACH"
 req.header: pcivirt.h

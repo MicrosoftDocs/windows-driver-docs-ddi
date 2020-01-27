@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 537342c3-fbcf-493d-98ce-64ea1a84225b
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_ENUM_INFO, NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO, NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_ENUM_INFO, PNDIS_SWITCH_PORT_PROPERTY_ENUM_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO, netvista.ndis_switch_port_property_enum_info, ntddndis/NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_ENUM_INFO"
-ms.topic: struct
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO"
 req.header: ntddndis.h

@@ -7,7 +7,6 @@ tech.root: IEEE
 ms.assetid: 9B0590F4-E9B3-4999-99BD-BDB1EA413FF4
 ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_LISTEN, IEEE.irb_req_isoch_listen, IRB_REQ_ISOCH_LISTEN, IRB_REQ_ISOCH_LISTEN structure [Buses], _IRB_REQ_ISOCH_LISTEN
-ms.topic: struct
 f1_keywords:
  - "1394/IRB_REQ_ISOCH_LISTEN"
 req.header: 1394.h

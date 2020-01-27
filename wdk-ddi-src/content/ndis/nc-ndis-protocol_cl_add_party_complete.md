@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: ea3ebbe9-fd94-44b8-8801-639d099c5158
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CL_ADD_PARTY_COMPLETE, PROTOCOL_CL_ADD_PARTY_COMPLETE callback, ProtocolClAddPartyComplete, ProtocolClAddPartyComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_9c69b521-649f-4c2b-b665-e79cd8c07e48.xml, ndis/ProtocolClAddPartyComplete, netvista.protocolcladdpartycomplete
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolClAddPartyComplete"
 req.header: ndis.h

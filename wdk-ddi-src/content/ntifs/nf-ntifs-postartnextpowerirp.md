@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 92754668-5327-4e37-9da1-cc1870f923c5
 ms.date: 04/30/2018
 ms.keywords: PoStartNextPowerIrp, PoStartNextPowerIrp routine [Kernel-Mode Driver Architecture], kernel.postartnextpowerirp, portn_3e23c20a-d35e-45cd-a2da-3dbc0f249548.xml, wdm/PoStartNextPowerIrp
-ms.topic: function
 f1_keywords:
  - "ntifs/PoStartNextPowerIrp"
 req.header: ntifs.h

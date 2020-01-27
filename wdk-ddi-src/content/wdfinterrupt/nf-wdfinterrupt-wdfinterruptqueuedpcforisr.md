@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: ba9a292d-12c8-41b5-bddb-7c8ebf4fdc48
 ms.date: 02/26/2018
 ms.keywords: DFInterruptObjectRef_c77c2aa3-e142-4226-aa9d-fb31d408e335.xml, WdfInterruptQueueDpcForIsr, WdfInterruptQueueDpcForIsr method, kmdf.wdfinterruptqueuedpcforisr, wdf.wdfinterruptqueuedpcforisr, wdfinterrupt/WdfInterruptQueueDpcForIsr
-ms.topic: function
 f1_keywords:
  - "wdfinterrupt/WdfInterruptQueueDpcForIsr"
 req.header: wdfinterrupt.h

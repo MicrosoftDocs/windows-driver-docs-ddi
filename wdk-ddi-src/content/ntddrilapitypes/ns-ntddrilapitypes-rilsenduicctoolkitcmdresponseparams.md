@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 9006d542-0f83-4cd4-ab81-d2e4cce67406
 ms.date: 05/02/2018
 ms.keywords: "*LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS, RILSENDUICCTOOLKITCMDRESPONSEPARAMS, RILSENDUICCTOOLKITCMDRESPONSEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsenduicctoolkitcmdresponseparams, ntddrilapitypes/RILSENDUICCTOOLKITCMDRESPONSEPARAMS"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILSENDUICCTOOLKITCMDRESPONSEPARAMS"
 req.header: ntddrilapitypes.h

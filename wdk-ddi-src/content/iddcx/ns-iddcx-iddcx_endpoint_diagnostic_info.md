@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 70be09ed-5633-464b-b311-f671efe83a54
 ms.date: 05/10/2018
 ms.keywords: IDDCX_ENDPOINT_DIAGNOSTIC_INFO, IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure [Display Devices], display.iddcx_endpoint_diagnostic_info, iddcx/IDDCX_ENDPOINT_DIAGNOSTIC_INFO
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDDCX_ENDPOINT_DIAGNOSTIC_INFO"
 req.header: iddcx.h

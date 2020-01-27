@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 9372E6D5-0E0B-4916-929D-73532FB6A5D6
 ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_SET_S0_IDLE_TIMEOUT, IOCTL_HID_SET_S0_IDLE_TIMEOUT control, IOCTL_HID_SET_S0_IDLE_TIMEOUT control code [Human Input Devices], hid.ioctl_hid_set_s0_idle_timeout, hidclass/IOCTL_HID_SET_S0_IDLE_TIMEOUT
-ms.topic: ioctl
 f1_keywords:
  - "hidclass/IOCTL_HID_SET_S0_IDLE_TIMEOUT"
 req.header: hidclass.h

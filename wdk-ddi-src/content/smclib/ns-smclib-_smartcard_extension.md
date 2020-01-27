@@ -7,7 +7,6 @@ tech.root: smartcrd
 ms.assetid: 057d82a8-ce5d-416f-b753-297dcbac27b8
 ms.date: 02/22/2018
 ms.keywords: "*PSMARTCARD_EXTENSION, PSMARTCARD_EXTENSION, PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices], SMARTCARD_EXTENSION, SMARTCARD_EXTENSION structure [Smart Card Reader Devices], _SMARTCARD_EXTENSION, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml, smartcrd.smartcard_extension, smclib/PSMARTCARD_EXTENSION, smclib/SMARTCARD_EXTENSION"
-ms.topic: struct
 f1_keywords:
  - "smclib/SMARTCARD_EXTENSION"
 req.header: smclib.h

@@ -4,7 +4,6 @@ title: D3D12DDIARG_TEX1D_SHADER_RESOURCE_VIEW (d3d12umddi.h)
 description: Describes a one-dimensional (1-D) texture that is used to create a shader resource view.
 ms.assetid: 94b6f165-eb7b-45e2-9cba-4ed0ad313d2d
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_TEX1D_SHADER_RESOURCE_VIEW"
 ms.keywords: D3D12DDIARG_TEX1D_SHADER_RESOURCE_VIEW, D3D12DDIARG_TEX1D_SHADER_RESOURCE_VIEW, 

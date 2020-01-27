@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4dfd6223-420e-4087-b5bd-8277575321f7
 ms.date: 05/10/2018
 ms.keywords: PVIDEO_WRITE_CLOCK_LINE, PVIDEO_WRITE_CLOCK_LINE callback, VideoMiniport_Functions_7d36df35-ac09-4a82-af0c-47a733617d9a.xml, WriteClockLine, WriteClockLine callback function [Display Devices], display.writeclockline, video/WriteClockLine
-ms.topic: callback
 f1_keywords:
  - "video/WriteClockLine"
 req.header: video.h

@@ -4,7 +4,6 @@ title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_0053 (d3d12umddi.h)
 description: Indicates the differences metric to capture during video motion estimation.
 ms.assetid: 5e9f9b13-fc06-44fe-b508-b6c3da570b8f
 ms.date: 10/19/2018
-ms.topic: enum
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_0053"
 ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_0053, 

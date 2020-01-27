@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 5959B7A7-147D-4F20-82CC-EC1DEAAE3494
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_LTE_MRL, PWWAN_LTE_MRL, PWWAN_LTE_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_LTE_MRL, WWAN_LTE_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_LTE_MRL, netvista.wwan_lte_mrl, wwan/PWWAN_LTE_MRL, wwan/WWAN_LTE_MRL"
-ms.topic: struct
 f1_keywords:
  - "wwan/WWAN_LTE_MRL"
 req.header: wwan.h

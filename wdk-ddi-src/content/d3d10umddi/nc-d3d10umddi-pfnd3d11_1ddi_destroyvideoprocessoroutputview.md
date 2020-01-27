@@ -6,7 +6,6 @@ old-location: display\destroyvideoprocessoroutputview.htm
 ms.assetid: 7efc032e-0ee4-4eca-b6b0-dda4bfab2756
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEOPROCESSOROUTPUTVIEW, PFND3D11_1DDI_DESTROYVIDEOPROCESSOROUTPUTVIEW callback, d3d10umddi/pfnDestroyVideoProcessorOutputView, display.destroyvideoprocessoroutputview, pfnDestroyVideoProcessorOutputView, pfnDestroyVideoProcessorOutputView callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnDestroyVideoProcessorOutputView"
 req.header: d3d10umddi.h

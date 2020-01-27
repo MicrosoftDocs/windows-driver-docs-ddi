@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: ACCB45DA-1233-4276-A0F5-466E50D9377B
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_TX_DEQUEUE_IND, NDIS_WDI_TX_DEQUEUE_IND callback, NdisWdiTxDequeueIndication, NdisWdiTxDequeueIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxDequeueIndication, netvista.ndiswditxdequeueindication
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/NdisWdiTxDequeueIndication"
 req.header: dot11wdi.h

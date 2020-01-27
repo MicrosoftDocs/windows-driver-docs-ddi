@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 4d0782c7-0516-4326-9994-7820446f2af6
 ms.date: 04/30/2018
 ms.keywords: IoRegisterDeviceInterface, IoRegisterDeviceInterface routine [Kernel-Mode Driver Architecture], k104_4916c641-8510-425d-953f-68ed7a3f8976.xml, kernel.ioregisterdeviceinterface, wdm/IoRegisterDeviceInterface
-ms.topic: function
 f1_keywords:
  - "wdm/IoRegisterDeviceInterface"
 req.header: wdm.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 81aa5707-b614-429b-bd8e-0204eec74e0f
 ms.date: 05/02/2018
 ms.keywords: NetDmaIsr, NetDmaIsr function [Network Drivers Starting with Windows Vista], netdma/NetDmaIsr, netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml, netvista.netdmaisr
-ms.topic: function
 f1_keywords:
  - "netdma/NetDmaIsr"
 req.header: netdma.h

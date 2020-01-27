@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: e5702476-60a3-4bfc-b959-198e98f0f9ba
 ms.date: 05/02/2018
 ms.keywords: MiniportTcpOffloadForward, MiniportTcpOffloadForward callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_FORWARD_HANDLER, W_TCP_OFFLOAD_FORWARD_HANDLER callback, ndischimney/MiniportTcpOffloadForward, netvista.miniporttcpoffloadforward, tcp_chim_miniport_func_18a2b561-13cd-4337-8ff4-fcd3bfc34b3b.xml
-ms.topic: callback
 f1_keywords:
  - "ndischimney/MiniportTcpOffloadForward"
 req.header: ndischimney.h

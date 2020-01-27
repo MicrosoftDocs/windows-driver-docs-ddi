@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: ffc6332b-7daa-4b23-8cf4-6077f7d1d40a
 ms.date: 04/16/2018
 ms.keywords: RxCeAllocateIrpWithMDL, RxCeAllocateIrpWithMDL function [Installable File System Drivers], ifsk.rxceallocateirpwithmdl, rxce/RxCeAllocateIrpWithMDL, rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml
-ms.topic: function
 f1_keywords:
  - "rxce/RxCeAllocateIrpWithMDL"
 req.header: rxce.h

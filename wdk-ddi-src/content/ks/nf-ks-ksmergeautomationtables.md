@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: ef90f9da-3169-4b49-9ba2-2cab058e5d00
 ms.date: 04/23/2018
 ms.keywords: KsMergeAutomationTables, KsMergeAutomationTables function [Streaming Media Devices], avfunc_7e2146e2-0458-48ee-815a-8ea478187e07.xml, ks/KsMergeAutomationTables, stream.ksmergeautomationtables
-ms.topic: function
 f1_keywords:
  - "ks/KsMergeAutomationTables"
 req.header: ks.h

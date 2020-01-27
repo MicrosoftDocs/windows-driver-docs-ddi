@@ -6,7 +6,6 @@ old-location: display\dxgk_updatepagetableflags.htm
 ms.assetid: E0E1CDE7-F1BF-44C8-A320-9BD90788679F
 ms.date: 05/10/2018
 ms.keywords: DXGK_UPDATEPAGETABLEFLAGS, DXGK_UPDATEPAGETABLEFLAGS structure [Display Devices], _DXGK_UPDATEPAGETABLEFLAGS, d3dkmddi/DXGK_UPDATEPAGETABLEFLAGS, display.dxgk_updatepagetableflags
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_UPDATEPAGETABLEFLAGS"
 req.header: d3dkmddi.h

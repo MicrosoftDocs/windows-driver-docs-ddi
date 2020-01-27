@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: dae00663-17bd-461d-9b3f-febff2d9811b
 ms.date: 05/10/2018
 ms.keywords: HwVidResetHw, HwVidResetHw callback function [Display Devices], PVIDEO_HW_RESET_HW, PVIDEO_HW_RESET_HW callback, VideoMiniport_Functions_783bcc9a-8af3-4cfb-8121-a2bbeb0e64f1.xml, display.hwvidresethw, video/HwVidResetHw
-ms.topic: callback
 f1_keywords:
  - "video/HwVidResetHw"
 req.header: video.h

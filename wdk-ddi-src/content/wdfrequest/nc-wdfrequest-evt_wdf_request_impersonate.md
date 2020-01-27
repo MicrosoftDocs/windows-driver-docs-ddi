@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: FA3FE0C0-57EC-4761-991B-49CA65A79BDD
 ms.date: 02/26/2018
 ms.keywords: EVT_WDF_REQUEST_IMPERSONATE, EVT_WDF_REQUEST_IMPERSONATE callback, EvtRequestImpersonate, EvtRequestImpersonate callback function, wdf.evtrequestimpersonate, wdfrequest/EvtRequestImpersonate
-ms.topic: callback
 f1_keywords:
  - "wdfrequest/EvtRequestImpersonate"
 req.header: wdfrequest.h

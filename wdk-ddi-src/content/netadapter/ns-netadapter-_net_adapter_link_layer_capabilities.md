@@ -5,7 +5,6 @@ description: Describes the link layer capabilities of the adapter.
 tech.root: netvista
 ms.assetid: 24888f71-0e12-41c8-a218-9289b1f5b288
 ms.date: 09/27/2019
-ms.topic: struct
 f1_keywords:
  - "netadapter/NET_ADAPTER_LINK_LAYER_CAPABILITIES"
 ms.keywords: _NET_ADAPTER_LINK_LAYER_CAPABILITIES, *PNET_ADAPTER_LINK_LAYER_CAPABILITIES, NET_ADAPTER_LINK_LAYER_CAPABILITIES, 

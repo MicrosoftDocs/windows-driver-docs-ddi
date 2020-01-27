@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: B4124FF4-50CC-474A-B42F-17BCF698AB59
 ms.date: 04/30/2018
 ms.keywords: TmRenameTransactionManager, TmRenameTransactionManager , TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrenametransactionmanager_, wdm/TmRenameTransactionManager
-ms.topic: function
 f1_keywords:
  - "wdm/TmRenameTransactionManager"
 req.header: wdm.h

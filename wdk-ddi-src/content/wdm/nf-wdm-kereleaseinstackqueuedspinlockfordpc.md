@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 4334559f-a07c-4d11-952b-97717232f74f
 ms.date: 04/30/2018
 ms.keywords: KeReleaseInStackQueuedSpinLockForDpc, KeReleaseInStackQueuedSpinLockForDpc routine [Kernel-Mode Driver Architecture], k105_19c82f3d-cecf-4c77-9800-4b80c63db572.xml, kernel.kereleaseinstackqueuedspinlockfordpc, wdm/KeReleaseInStackQueuedSpinLockForDpc
-ms.topic: function
 f1_keywords:
  - "wdm/KeReleaseInStackQueuedSpinLockForDpc"
 req.header: wdm.h

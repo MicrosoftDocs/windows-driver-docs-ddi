@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 148c463c-a18b-4f24-b3dc-af74c3de97b7
 ms.date: 04/20/2018
 ms.keywords: "*PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER structure pointer [Print Devices], PROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER structure [Print Devices], _PROPSHEETUI_INFO_HEADER, compstui/PPROPSHEETUI_INFO_HEADER, compstui/PROPSHEETUI_INFO_HEADER, cpsuifnc_21dad179-56e1-478c-8a62-628262ca59a8.xml, print.propsheetui_info_header"
-ms.topic: struct
 f1_keywords:
  - "compstui/PROPSHEETUI_INFO_HEADER"
 req.header: compstui.h

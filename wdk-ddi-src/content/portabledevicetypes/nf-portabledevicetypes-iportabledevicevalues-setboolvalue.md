@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: 98c7be46-c99a-4cf4-b77b-2d3ea896b198
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetBoolValue method, IPortableDeviceValues.SetBoolValue, IPortableDeviceValues::SetBoolValue, IPortableDeviceValuesSetBoolValue, SetBoolValue, SetBoolValue method, SetBoolValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetBoolValue, wpddk.iportabledevicevalues_setboolvalue
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetBoolValue"
 req.header: portabledevicetypes.h

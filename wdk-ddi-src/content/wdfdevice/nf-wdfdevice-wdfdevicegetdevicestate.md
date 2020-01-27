@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 510197cf-8eab-4e1a-8b51-c1c08c58532b
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_459b9aad-7503-4319-be67-4b713a32559e.xml, WdfDeviceGetDeviceState, WdfDeviceGetDeviceState method, kmdf.wdfdevicegetdevicestate, wdf.wdfdevicegetdevicestate, wdfdevice/WdfDeviceGetDeviceState
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceGetDeviceState"
 req.header: wdfdevice.h

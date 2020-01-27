@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 872098c1-d684-4ce5-9f53-2fee8b50b626
 ms.date: 04/30/2018
 ms.keywords: ObDereferenceObjectWithTag, ObDereferenceObjectWithTag routine [Kernel-Mode Driver Architecture], k107_4a4d8579-6641-4d2a-9599-9ac39c25fd91.xml, kernel.obdereferenceobjectwithtag, wdm/ObDereferenceObjectWithTag
-ms.topic: macro
 f1_keywords:
  - "wdm/ObDereferenceObjectWithTag"
 req.header: wdm.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 6131bf6c-c18f-4ff6-ae89-b39528c77be2
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_KSR_MEMORY_RANGE"
 ms.keywords: DXGK_KSR_MEMORY_RANGE, DXGK_KSR_MEMORY_RANGE, *PDXGK_KSR_MEMORY_RANGE, 

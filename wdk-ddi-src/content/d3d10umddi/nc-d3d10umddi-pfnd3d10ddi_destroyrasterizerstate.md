@@ -6,7 +6,6 @@ old-location: display\destroyrasterizerstate.htm
 ms.assetid: 7d730528-dc97-4490-a9fa-3d7916eef2e6
 ms.date: 05/10/2018
 ms.keywords: DestroyRasterizerState, DestroyRasterizerState callback function [Display Devices], PFND3D10DDI_DESTROYRASTERIZERSTATE, PFND3D10DDI_DESTROYRASTERIZERSTATE callback, UserModeDisplayDriverDx10_Functions_09ed2d7c-4191-4b5e-a18f-b42177106145.xml, d3d10umddi/DestroyRasterizerState, display.destroyrasterizerstate
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/DestroyRasterizerState"
 req.header: d3d10umddi.h

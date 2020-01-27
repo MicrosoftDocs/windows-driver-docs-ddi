@@ -6,7 +6,6 @@ old-location: display\d3d12ddi_video_decode_bitstream_encryption_schemes_data_00
 ms.assetid: A028463A-5914-4522-8683-F0A692CF09A3
 ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020, D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020, display.d3d12ddi_video_decode_bitstream_encryption_schemes_data_0010
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020"
 req.header: d3d12umddi.h

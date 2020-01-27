@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: A733140D-2F0D-4E5A-A3AD-C27756584200
 ms.date: 04/30/2018
 ms.keywords: RtlIntToUChar, RtlIntToUChar function [Kernel-Mode Driver Architecture], kernel.rtlinttouchar, ntintsafe/RtlIntToUChar
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlIntToUChar"
 req.header: ntintsafe.h

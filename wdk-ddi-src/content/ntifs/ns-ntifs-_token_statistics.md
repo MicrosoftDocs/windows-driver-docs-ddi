@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: a7f651c0-fcd5-4271-9452-b6ac41cd33cc
 ms.date: 04/16/2018
 ms.keywords: "*PTOKEN_STATISTICS, PTOKEN_STATISTICS, PTOKEN_STATISTICS structure pointer [Installable File System Drivers], TOKEN_STATISTICS, TOKEN_STATISTICS structure [Installable File System Drivers], _TOKEN_STATISTICS, ifsk.token_statistics, ntifs/PTOKEN_STATISTICS, ntifs/TOKEN_STATISTICS, securitystructures_5934a44f-c54e-44fe-a1c8-50b656b2b1f5.xml"
-ms.topic: struct
 f1_keywords:
  - "ntifs/TOKEN_STATISTICS"
 req.header: ntifs.h

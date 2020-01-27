@@ -7,7 +7,6 @@ tech.root: GPIO
 ms.assetid: 6B3667AA-4658-4EDE-A8E1-925064BCD249
 ms.date: 02/15/2018
 ms.keywords: CLIENT_WriteGpioPinsUsingMask, CLIENT_WriteGpioPinsUsingMask callback, CLIENT_WriteGpioPinsUsingMask callback function [Parallel Ports], GPIO.client_writegpiopinsusingmask, GPIO_CLIENT_WRITE_PINS_MASK, gpioclx/CLIENT_WriteGpioPinsUsingMask
-ms.topic: callback
 f1_keywords:
  - "gpioclx/CLIENT_WriteGpioPinsUsingMask"
 req.header: gpioclx.h

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 0153ee1d-93b3-497c-9fbf-e285c3730f72
 ms.date: 05/03/2018
 ms.keywords: GetEventIndexDescriptionWide, GetEventIndexDescriptionWide method [Windows Debugging], GetEventIndexDescriptionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventIndexDescriptionWide method, IDebugControl4.GetEventIndexDescriptionWide, IDebugControl4::GetEventIndexDescriptionWide, dbgeng/IDebugControl4::GetEventIndexDescriptionWide, debugger.geteventindexdescriptionwide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl4.GetEventIndexDescriptionWide"
 req.header: dbgeng.h

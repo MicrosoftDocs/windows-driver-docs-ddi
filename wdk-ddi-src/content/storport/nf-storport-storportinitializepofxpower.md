@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 154EAF9B-4B30-4124-B31D-6C7D09B52674
 ms.date: 03/29/2018
 ms.keywords: StorPortInitializePoFxPower, StorPortInitializePoFxPower routine [Storage Devices], storage.storportinitializepofxpower, storport/StorPortInitializePoFxPower
-ms.topic: function
 f1_keywords:
  - "storport/StorPortInitializePoFxPower"
 req.header: storport.h

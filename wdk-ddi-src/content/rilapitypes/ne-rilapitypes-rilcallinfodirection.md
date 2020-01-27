@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 2243fb04-81a9-49d6-9ce2-d06d4a590fb1
 ms.date: 05/02/2018
 ms.keywords: RILCALLINFODIRECTION, RILCALLINFODIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLDIR_MAX, RIL_CALLDIR_OUTGOING, netvista.rilcallinfodirection, ntddrilapitypes/RILCALLINFODIRECTION, ntddrilapitypes/RIL_CALLDIR_MAX, ntddrilapitypes/RIL_CALLDIR_OUTGOING
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILCALLINFODIRECTION"
 req.header: rilapitypes.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 79edb8b3-24a1-4dc0-b816-f78bbc888d3a
 ms.date: 04/30/2018
 ms.keywords: IoReleaseRemoveLockAndWait, IoReleaseRemoveLockAndWait routine [Kernel-Mode Driver Architecture], k104_bcbaa84f-6216-4ea4-9527-fb7e62d323a3.xml, kernel.ioreleaseremovelockandwait, wdm/IoReleaseRemoveLockAndWait
-ms.topic: macro
 f1_keywords:
  - "wdm/IoReleaseRemoveLockAndWait"
 req.header: wdm.h

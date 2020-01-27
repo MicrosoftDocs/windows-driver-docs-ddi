@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 9b48e2c0-bd44-49ed-83e8-1e4895858e9b
 ms.date: 11/18/2019
 ms.keywords: OEMDisableDriver, OEMDisableDriver function [Print Devices], print.oemdisabledriver, print_obsoletefunctions_b9594259-f9e5-43bf-b2dd-18ace2ddc25c.xml, printoem/OEMDisableDriver
-ms.topic: function
 f1_keywords:
  - "printoem/OEMDisableDriver"
 req.header: printoem.h

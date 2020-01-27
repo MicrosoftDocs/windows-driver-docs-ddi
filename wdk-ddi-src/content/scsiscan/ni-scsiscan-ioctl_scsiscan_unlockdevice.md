@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 6dc380a9-b983-453e-949d-f49f85df4c7b
 ms.date: 05/03/2018
 ms.keywords: IOCTL_SCSISCAN_UNLOCKDEVICE, IOCTL_SCSISCAN_UNLOCKDEVICE control, IOCTL_SCSISCAN_UNLOCKDEVICE control code [Imaging Devices], image.ioctl_scsiscan_unlockdevice, scsiscan/IOCTL_SCSISCAN_UNLOCKDEVICE, stifnc_b3d77638-dbcf-41ae-90f9-50611e562590.xml
-ms.topic: ioctl
 f1_keywords:
  - "scsiscan/IOCTL_SCSISCAN_UNLOCKDEVICE"
 req.header: scsiscan.h

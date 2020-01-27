@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 375af8a1-9e05-4830-9074-6313b4e082d9
 ms.date: 05/02/2018
 ms.keywords: FwpmBfeStateSubscribeChanges0, FwpmBfeStateSubscribeChanges0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmBfeStateSubscribeChanges0, netvista.fwpmbfestatesubscribechanges0, wfp_ref_2_funct_2_fwpm_79b78030-bb8c-462d-98fc-6f3818dead3d.xml
-ms.topic: function
 f1_keywords:
  - "fwpmk/FwpmBfeStateSubscribeChanges0"
 req.header: fwpmk.h

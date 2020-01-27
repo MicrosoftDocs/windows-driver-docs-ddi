@@ -6,7 +6,6 @@ old-location: display\dxgkddigetrootpagetablesize.htm
 ms.assetid: 474F1772-0DF9-487B-AEB9-302392AE0B98
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_GETROOTPAGETABLESIZE, DXGKDDI_GETROOTPAGETABLESIZE callback, DxgkDdiGetRootPageTableSize, DxgkDdiGetRootPageTableSize callback function [Display Devices], d3dkmddi/DxgkDdiGetRootPageTableSize, display.dxgkddigetrootpagetablesize
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

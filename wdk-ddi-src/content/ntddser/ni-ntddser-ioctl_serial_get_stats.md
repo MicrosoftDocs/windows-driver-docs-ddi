@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 264b8460-acda-46ba-b070-e2956f7cfc50
 ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_GET_STATS, IOCTL_SERIAL_GET_STATS control, IOCTL_SERIAL_GET_STATS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_STATS, serports.ioctl_serial_get_stats, serref_c5deddd3-8649-4628-a62e-810d4693052e.xml
-ms.topic: ioctl
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_GET_STATS"
 req.header: ntddser.h

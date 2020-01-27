@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 15068d10-5e24-427c-9684-24ce67b75ada
 ms.date: 05/03/2018
 ms.keywords: IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], IWiaMiniDrv interface [Imaging Devices],described, MiniDrv_8a22bfee-13f8-4efc-b31d-8dd9fabfe131.xml, image.iwiaminidrv_interface, wiamindr_lh/IWiaMiniDrv
-ms.topic: interface
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv"
 req.header: wiamindr_lh.h

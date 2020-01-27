@@ -6,7 +6,6 @@ old-location: display\destroyauthenticatedchannel1.htm
 ms.assetid: 3eebda5e-72c6-4167-a886-58e877551923
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_DESTROYAUTHENTICATEDCHANNEL, PFND3D11_1DDI_DESTROYAUTHENTICATEDCHANNEL callback, d3d10umddi/pfnDestroyAuthenticatedChannel, display.destroyauthenticatedchannel1, display.pfndestroyauthenticatedchannel1, pfnDestroyAuthenticatedChannel, pfnDestroyAuthenticatedChannel callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

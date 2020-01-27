@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: C3D1902A-DEB6-4AC7-B452-66C4636416BB
 ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_START_FIXSESSION, IOCTL_GNSS_START_FIXSESSION control, IOCTL_GNSS_START_FIXSESSION control code [Sensor Devices], gnss.ioctl_gnss_start_fixsession, gnssdriver/IOCTL_GNSS_START_FIXSESSION
-ms.topic: ioctl
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_START_FIXSESSION"
 req.header: gnssdriver.h

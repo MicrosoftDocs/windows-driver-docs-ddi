@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: BAAAF09B-F39D-44E0-9409-1C98B0C6A56B
 ms.date: 05/03/2018
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],QueryPlmPackageList method, IDebugPlmClient3.QueryPlmPackageList, IDebugPlmClient3::QueryPlmPackageList, QueryPlmPackageList, QueryPlmPackageList method [Windows Debugging], QueryPlmPackageList method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::QueryPlmPackageList, debugger.idebugplmclient3_queryplmpackagelist
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugPlmClient3.QueryPlmPackageList"
 req.header: dbgeng.h

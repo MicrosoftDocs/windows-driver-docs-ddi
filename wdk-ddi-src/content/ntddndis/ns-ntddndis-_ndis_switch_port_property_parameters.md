@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 656acfd4-6f34-41aa-862e-134a2b95dcab
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_PARAMETERS, NDIS_SWITCH_PORT_PROPERTY_PARAMETERS, NDIS_SWITCH_PORT_PROPERTY_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_PARAMETERS, PNDIS_SWITCH_PORT_PROPERTY_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_PARAMETERS, netvista.ndis_switch_port_property_parameters, ntddndis/NDIS_SWITCH_PORT_PROPERTY_PARAMETERS, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_PARAMETERS"
-ms.topic: struct
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_PROPERTY_PARAMETERS"
 req.header: ntddndis.h

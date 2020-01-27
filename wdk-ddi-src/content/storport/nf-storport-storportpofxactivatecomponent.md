@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 23872334-F9C3-4EB5-9B26-0BDB239D8F4E
 ms.date: 03/29/2018
 ms.keywords: StorPortPoFxActivateComponent, StorPortPoFxActivateComponent routine [Storage Devices], storage.storportpofxactivatecomponent, storport/StorPortPoFxActivateComponent
-ms.topic: function
 f1_keywords:
  - "storport/StorPortPoFxActivateComponent"
 req.header: storport.h

@@ -5,7 +5,6 @@ description: The VmbPacketInitialize function initializes a buffer to contain a 
 tech.root: netvista
 ms.assetid: 440d75dc-1b2e-4460-b0b4-d0e949e2e165
 ms.date: 05/22/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_INITIALIZE"
 req.header: vmbuskernelmodeclientlibapi.h

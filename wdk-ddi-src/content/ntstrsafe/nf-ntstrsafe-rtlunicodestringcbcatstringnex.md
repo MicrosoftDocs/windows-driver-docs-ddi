@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 20636a37-8cc5-4ee2-91b1-53edf4911b49
 ms.date: 04/30/2018
 ms.keywords: RtlUnicodeStringCbCatStringNEx, RtlUnicodeStringCbCatStringNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatstringnex, ntstrsafe/RtlUnicodeStringCbCatStringNEx, safestrings_e032e11b-4526-4f1f-9e1a-3ae387e8c49d.xml
-ms.topic: function
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringCbCatStringNEx"
 req.header: ntstrsafe.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 94c37721-372f-448f-8cd9-d4c64dd285cb
 ms.date: 02/26/2018
 ms.keywords: RILIMSSYSTEMTYPE, RILIMSSYSTEMTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_IMSSYSTEMTYPE_LTE, RIL_IMSSYSTEMTYPE_MAX, RIL_IMSSYSTEMTYPE_WIFI, netvista.rilimssystemtype_2, rilapitypes/RILIMSSYSTEMTYPE, rilapitypes/RIL_IMSSYSTEMTYPE_LTE, rilapitypes/RIL_IMSSYSTEMTYPE_MAX, rilapitypes/RIL_IMSSYSTEMTYPE_WIFI
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILIMSSYSTEMTYPE"
 req.header: rilapitypes.h

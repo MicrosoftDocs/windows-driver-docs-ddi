@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: fe088ec7-2577-488d-a1c7-a7e2a1f86f6a
 ms.date: 03/29/2018
 ms.keywords: "*PAddLink_OUT, AddLink_OUT, AddLink_OUT structure [Storage Devices], PAddLink_OUT, PAddLink_OUT structure pointer [Storage Devices], _AddLink_OUT, hbapiwmi/AddLink_OUT, hbapiwmi/PAddLink_OUT, storage.addlink_out, structs-Fibre_5f49a86f-a59f-4572-bfa2-5bb78dfe599b.xml"
-ms.topic: struct
 f1_keywords:
  - "hbapiwmi/AddLink_OUT"
 req.header: hbapiwmi.h

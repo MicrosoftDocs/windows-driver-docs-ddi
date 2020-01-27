@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: b55d0995-efd8-4a61-85e9-970559e21a88
 ms.date: 05/02/2018
 ms.keywords: NdisMCmDeleteVc, NdisMCmDeleteVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_a6a2bb4d-a82e-422f-b9f0-821519513cb4.xml, ndis/NdisMCmDeleteVc, netvista.ndismcmdeletevc
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMCmDeleteVc"
 req.header: ndis.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: ed2f8529-dfc7-4db5-b90c-c0bf8840dc70
 ms.date: 04/30/2018
 ms.keywords: CsqCompleteCanceledIrp, CsqCompleteCanceledIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_07239a13-c445-4f75-8765-ff5806515ecb.xml, IO_CSQ_COMPLETE_CANCELED_IRP, kernel.csqcompletecanceledirp, wdm/CsqCompleteCanceledIrp
-ms.topic: callback
 f1_keywords:
  - "wdm/CsqCompleteCanceledIrp"
 req.header: wdm.h

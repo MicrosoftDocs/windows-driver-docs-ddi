@@ -5,7 +5,6 @@ description: The VmbChannelSaveContinue function saves the channel state to a bu
 tech.root: netvista
 ms.assetid: 020dcfd9-f552-4b0a-ad82-0dea44bcec28
 ms.date: 05/21/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SAVE_CONTINUE"
 req.header: vmbuskernelmodeclientlibapi.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 8e3126df-d081-4545-a5db-8637ee27f15b
 ms.date: 05/10/2018
 ms.keywords: "*PSTATUS_BLOCK, PSTATUS_BLOCK, PSTATUS_BLOCK structure pointer [Display Devices], STATUS_BLOCK, STATUS_BLOCK structure [Display Devices], Video_Structs_90f8dc6a-a666-4976-bc71-edf43b31b6e4.xml, _STATUS_BLOCK, display.status_block, video/PSTATUS_BLOCK, video/STATUS_BLOCK"
-ms.topic: struct
 f1_keywords:
  - "video/STATUS_BLOCK"
 req.header: video.h

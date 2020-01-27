@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: F5748E93-9761-423B-9971-011FC4D7F6B8
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitConfigureDmaChannel, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CONFIGURE_DMA_CHANNEL, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CONFIGURE_DMA_CHANNEL callback, EvtSerCx2SystemDmaTransmitConfigureDmaChannel, EvtSerCx2SystemDmaTransmitConfigureDmaChannel callback function [Serial Ports], serports.evtsercx2systemdmatransmitconfiguredmachannel
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaTransmitConfigureDmaChannel"
 req.header: sercx.h

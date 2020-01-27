@@ -4,7 +4,6 @@ title: IModelObject::GetContext (dbgmodel.h)
 description: The GetContext method returns the host context that is associated with the object. 
 ms.assetid: 448a54c8-ab67-4bc1-aad4-362ea94f7830
 ms.date: 08/09/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IModelObject.GetContext"
 ms.keywords: IModelObject::GetContext, GetContext, IModelObject.GetContext, IModelObject::GetContext, IModelObject.GetContext

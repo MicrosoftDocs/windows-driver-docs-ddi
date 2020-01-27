@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: E2B7FE14-1D06-48E7-95FB-C103358340EA
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2SystemDmaReceiveEnableNewDataNotification, EVT_SERCX2_SYSTEM_DMA_RECEIVE_ENABLE_NEW_DATA_NOTIFICATION, EVT_SERCX2_SYSTEM_DMA_RECEIVE_ENABLE_NEW_DATA_NOTIFICATION callback, EvtSerCx2SystemDmaReceiveEnableNewDataNotification, EvtSerCx2SystemDmaReceiveEnableNewDataNotification callback function [Serial Ports], serports.evtsercx2systemdmareceiveenablenewdatanotification
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaReceiveEnableNewDataNotification"
 req.header: sercx.h

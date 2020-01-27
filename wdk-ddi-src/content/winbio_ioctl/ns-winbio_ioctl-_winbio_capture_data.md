@@ -7,7 +7,6 @@ tech.root: biometric
 ms.assetid: 1d1df123-4c1a-498b-b629-ca63336a762b
 ms.date: 02/20/2018
 ms.keywords: "*PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA structure pointer [Biometric Devices], WINBIO_CAPTURE_DATA, WINBIO_CAPTURE_DATA structure [Biometric Devices], _WINBIO_CAPTURE_DATA, biometric.winbio_capture_data, biometric_ref_be8dfe0a-ed13-4b31-af93-8fde60a1640f.xml, winbio_ioctl/PWINBIO_CAPTURE_DATA, winbio_ioctl/WINBIO_CAPTURE_DATA"
-ms.topic: struct
 f1_keywords:
  - "winbio_ioctl/WINBIO_CAPTURE_DATA"
 req.header: winbio_ioctl.h

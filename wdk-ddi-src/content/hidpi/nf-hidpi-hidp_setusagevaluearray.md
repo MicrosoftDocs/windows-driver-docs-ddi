@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 8c18c224-6d55-405d-87ec-cca99d702713
 ms.date: 04/30/2018
 ms.keywords: HidP_SetUsageValueArray, HidP_SetUsageValueArray routine [Human Input Devices], hid.hidp_setusagevaluearray, hidfunc_08ebfd84-e1da-4eb8-8741-ec2b16b488c9.xml, hidpi/HidP_SetUsageValueArray
-ms.topic: function
 f1_keywords:
  - "hidpi/HidP_SetUsageValueArray"
 req.header: hidpi.h

@@ -7,7 +7,6 @@ tech.root: IEEE
 ms.assetid: b08588a2-d786-44c1-a265-0f7fef9ecd6a
 ms.date: 02/15/2018
 ms.keywords: "*PSET_CMP_ADDRESS_TYPE, 61883/PSET_CMP_ADDRESS_TYPE, 61883/SET_CMP_ADDRESS_TYPE, 61883_structures_35b30fc9-69a6-4599-8d76-5aaf35104346.xml, IEEE.set_cmp_address_type, PSET_CMP_ADDRESS_TYPE, PSET_CMP_ADDRESS_TYPE structure pointer [Buses], SET_CMP_ADDRESS_TYPE, SET_CMP_ADDRESS_TYPE structure [Buses], _SET_CMP_ADDRESS_TYPE"
-ms.topic: struct
 f1_keywords:
  - "61883/SET_CMP_ADDRESS_TYPE"
 req.header: 61883.h

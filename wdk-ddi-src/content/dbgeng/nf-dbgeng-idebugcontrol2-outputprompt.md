@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 463d6fbd-cbe4-4de1-a01a-52a5002f24b8
 ms.date: 05/03/2018
 ms.keywords: IDebugControl interface [Windows Debugging],OutputPrompt method, IDebugControl2 interface [Windows Debugging],OutputPrompt method, IDebugControl2.OutputPrompt, IDebugControl2::OutputPrompt, IDebugControl3 interface [Windows Debugging],OutputPrompt method, IDebugControl3::OutputPrompt, IDebugControl::OutputPrompt, IDebugControl_bb972181-80f5-4c7a-8705-919273529eee.xml, OutputPrompt, OutputPrompt method [Windows Debugging], OutputPrompt method [Windows Debugging],IDebugControl interface, OutputPrompt method [Windows Debugging],IDebugControl2 interface, OutputPrompt method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputPrompt, dbgeng/IDebugControl3::OutputPrompt, dbgeng/IDebugControl::OutputPrompt, debugger.outputprompt
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl.OutputPrompt"
 req.header: dbgeng.h

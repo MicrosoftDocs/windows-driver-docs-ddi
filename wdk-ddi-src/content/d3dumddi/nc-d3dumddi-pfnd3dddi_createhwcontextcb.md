@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 989682F3-340E-4F64-BF2D-771D58066EB2
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_CREATEHWCONTEXTCB, PFND3DDDI_CREATEHWCONTEXTCB callback, PFND3DDDI_CREATEHWCONTEXTCB callback function [Display Devices], d3dumddi/PFND3DDDI_CREATEHWCONTEXTCB, display.pfnd3dddi_createhwcontextcb
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows

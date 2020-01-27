@@ -4,7 +4,6 @@ title: PFND3DKMT_GETCONTEXTSCHEDULINGPRIORITY (d3dkmthk.h)
 description: The Pfnd3dkmtGetcontextschedulingpriority retrieves the scheduling priority for a device context.
 ms.assetid: 37420543-d819-4fa9-b73e-3787db47dce9
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_GETCONTEXTSCHEDULINGPRIORITY"
 req.header: d3dkmthk.h

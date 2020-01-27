@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 28d45b36-c20d-40a5-bdf9-5fb754e36e74
 ms.date: 04/30/2018
 ms.keywords: KeInitializeGuardedMutex, KeInitializeGuardedMutex routine [Kernel-Mode Driver Architecture], k105_e9686411-583c-43bb-b7e6-b5248bed72f8.xml, kernel.keinitializeguardedmutex, wdm/KeInitializeGuardedMutex
-ms.topic: function
 f1_keywords:
  - "wdm/KeInitializeGuardedMutex"
 req.header: wdm.h

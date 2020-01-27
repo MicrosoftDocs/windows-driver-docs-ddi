@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 75cf8262-8cb4-428e-b18e-b80121c6390e
 ms.date: 04/30/2018
 ms.keywords: IoReleaseRemoveLock, IoReleaseRemoveLock routine [Kernel-Mode Driver Architecture], k104_7ac4aba4-0219-4ad2-81bf-028ec989e1f2.xml, kernel.ioreleaseremovelock, wdm/IoReleaseRemoveLock
-ms.topic: macro
 f1_keywords:
  - "wdm/IoReleaseRemoveLock"
 req.header: wdm.h

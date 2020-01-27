@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: c358220c-1e29-4889-b214-f2892c9ac47d
 ms.date: 04/30/2018
 ms.keywords: "*PBOOTDISK_INFORMATION_EX, BOOTDISK_INFORMATION_EX, BOOTDISK_INFORMATION_EX structure [Kernel-Mode Driver Architecture], PBOOTDISK_INFORMATION_EX, PBOOTDISK_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], _BOOTDISK_INFORMATION_EX, kernel.bootdisk_information_ex, kstruct_a_abc410ed-6eca-4417-b428-565971e85287.xml, wdm/BOOTDISK_INFORMATION_EX, wdm/PBOOTDISK_INFORMATION_EX"
-ms.topic: struct
 f1_keywords:
  - "wdm/BOOTDISK_INFORMATION_EX"
 req.header: wdm.h

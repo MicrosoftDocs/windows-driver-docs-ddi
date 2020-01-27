@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: DBB172A0-957E-4FAC-9727-D72B060E3193
 ms.date: 05/02/2018
 ms.keywords: "*PNET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS, NET_BUFFER_LIST_POOL_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_POOL_PARAMETERS, PNET_BUFFER_LIST_POOL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST_POOL_PARAMETERS, ndis/NET_BUFFER_LIST_POOL_PARAMETERS, ndis/PNET_BUFFER_LIST_POOL_PARAMETERS, netvista.net_buffer_list_pool_parameters"
-ms.topic: struct
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_POOL_PARAMETERS"
 req.header: ndis.h

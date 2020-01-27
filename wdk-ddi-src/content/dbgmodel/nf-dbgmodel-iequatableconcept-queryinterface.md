@@ -4,7 +4,6 @@ title: IEquatableConcept::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: f0a9e269-c78b-4425-8e6c-0a3cce39d219
 ms.date: 09/19/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IEquatableConcept.QueryInterface"
 ms.keywords: IEquatableConcept::QueryInterface, QueryInterface, IEquatableConcept.QueryInterface, IEquatableConcept::QueryInterface, IEquatableConcept.QueryInterface

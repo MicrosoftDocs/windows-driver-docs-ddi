@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: a48c9543-602f-4f3c-876e-9acc76ca1a6b
 ms.date: 05/02/2018
 ms.keywords: "*LPRILSENDSUPSERVICEDATAPARAMS, RILSENDSUPSERVICEDATAPARAMS, RILSENDSUPSERVICEDATAPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendsupservicedataparams, ntddrilapitypes/RILSENDSUPSERVICEDATAPARAMS"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILSENDSUPSERVICEDATAPARAMS"
 req.header: ntddrilapitypes.h

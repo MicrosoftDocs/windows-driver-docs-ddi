@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 8653fac0-8b2f-4e77-9588-2854ae168c1a
 ms.date: 05/02/2018
 ms.keywords: FwpsClassifyOptionSet0, FwpsClassifyOptionSet0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsClassifyOptionSet0, netvista.fwpsclassifyoptionset0, wfp_ref_2_funct_3_fwps_C_a482e4f1-dc60-450e-8e3f-6ba7da1a4528.xml
-ms.topic: function
 f1_keywords:
  - "fwpsk/FwpsClassifyOptionSet0"
 req.header: fwpsk.h

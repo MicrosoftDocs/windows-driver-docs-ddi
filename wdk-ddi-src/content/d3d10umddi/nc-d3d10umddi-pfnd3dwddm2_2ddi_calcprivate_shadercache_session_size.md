@@ -6,7 +6,6 @@ old-location: display\pfnd3dwddm2_2ddi_calcprivate_shadercache_session_size.htm
 ms.assetid: 86FD1B35-878A-4D68-83CB-7F322CD9006D
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_2DDI_CALCPRIVATE_SHADERCACHE_SESSION_SIZE, PFND3DWDDM2_2DDI_CALCPRIVATE_SHADERCACHE_SESSION_SIZE callback, d3d10umddi/pfnCalcPrivateShaderCacheSessionSize, display.pfnd3dwddm2_2ddi_calcprivate_shadercache_session_size, pfnCalcPrivateShaderCacheSessionSize, pfnCalcPrivateShaderCacheSessionSize callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnCalcPrivateShaderCacheSessionSize"
 req.header: d3d10umddi.h

@@ -6,7 +6,6 @@ old-location: display\dxgkarg_createcontext.htm
 ms.assetid: 94239501-2eeb-479a-851a-14ae665c5887
 ms.date: 05/10/2018
 ms.keywords: "*INOUT_PDXGKARG_CREATECONTEXT, DXGKARG_CREATECONTEXT, DXGKARG_CREATECONTEXT structure [Display Devices], DmStructs_f88f9027-046c-482e-93c6-882c325d1a09.xml, _DXGKARG_CREATECONTEXT, d3dkmddi/DXGKARG_CREATECONTEXT, display.dxgkarg_createcontext"
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_CREATECONTEXT"
 req.header: d3dkmddi.h

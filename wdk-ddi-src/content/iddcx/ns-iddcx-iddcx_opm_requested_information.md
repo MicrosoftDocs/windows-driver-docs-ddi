@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0e8c49b2-1c36-432b-aba9-bc6a739ee04d
 ms.date: 05/10/2018
 ms.keywords: IDDCX_OPM_REQUESTED_INFORMATION, IDDCX_OPM_REQUESTED_INFORMATION structure [Display Devices], display.iddcx_opm_requested_information, iddcx/IDDCX_OPM_REQUESTED_INFORMATION
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDDCX_OPM_REQUESTED_INFORMATION"
 req.header: iddcx.h

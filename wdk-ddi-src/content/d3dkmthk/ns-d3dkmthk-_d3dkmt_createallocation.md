@@ -6,7 +6,6 @@ old-location: display\d3dkmt_createallocation.htm
 ms.assetid: 3e698027-23f8-4765-a4ac-955cd4b24a70
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_CREATEALLOCATION, D3DKMT_CREATEALLOCATION structure [Display Devices], OpenGL_Structs_983d37f8-47ad-40ea-b3da-2a211e9f0967.xml, _D3DKMT_CREATEALLOCATION, d3dkmthk/D3DKMT_CREATEALLOCATION, display.d3dkmt_createallocation
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEALLOCATION"
 req.header: d3dkmthk.h

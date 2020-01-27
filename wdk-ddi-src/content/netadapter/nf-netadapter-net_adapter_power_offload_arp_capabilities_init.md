@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: c7a01b5d-7ad6-498e-bd6a-0d66eb9bd220
 ms.author: windowsdriverdev
 ms.date: 10/22/2019
-ms.topic: function
 f1_keywords:
  - "netadapter/NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES_INIT

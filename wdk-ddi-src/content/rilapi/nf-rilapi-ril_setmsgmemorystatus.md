@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 23be30ba-3999-4e40-b0c5-30f0b37ff8c4
 ms.date: 05/02/2018
 ms.keywords: RIL_SetMsgMemoryStatus, RIL_SetMsgMemoryStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setmsgmemorystatus, rilapi/RIL_SetMsgMemoryStatus
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_SetMsgMemoryStatus"
 req.header: rilapi.h

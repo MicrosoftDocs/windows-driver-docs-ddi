@@ -6,7 +6,6 @@ old-location: display\createauthenticatedchannel1.htm
 ms.assetid: 90b43bc3-6569-4799-8be3-e4e60f59164f
 ms.date: 05/10/2018
 ms.keywords: CreateAuthenticatedChannel, CreateAuthenticatedChannel callback function [Display Devices], PFND3D11_1DDI_CREATEAUTHENTICATEDCHANNEL, PFND3D11_1DDI_CREATEAUTHENTICATEDCHANNEL callback, d3d10umddi/CreateAuthenticatedChannel, display.createauthenticatedchannel1
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

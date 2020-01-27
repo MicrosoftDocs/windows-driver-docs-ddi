@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 96176a33-0721-4a4d-ba1b-131e25fc2306
 ms.date: 04/23/2018
 ms.keywords: KsGetPinFromIrp, KsGetPinFromIrp function [Streaming Media Devices], avfunc_fa403f21-cccb-4a57-b40a-e7531feac721.xml, ks/KsGetPinFromIrp, stream.ksgetpinfromirp
-ms.topic: function
 f1_keywords:
  - "ks/KsGetPinFromIrp"
 req.header: ks.h

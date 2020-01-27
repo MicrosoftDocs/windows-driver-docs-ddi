@@ -6,7 +6,6 @@ old-location: display\d3dwddm1_3ddi_d3d11_options_data1.htm
 ms.assetid: 822819CE-DF40-4AFD-966A-DA5C433646D7
 ms.date: 05/10/2018
 ms.keywords: D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, display.d3dwddm1_3ddi_d3d11_options_data1
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1"
 req.header: d3d10umddi.h

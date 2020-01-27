@@ -4,7 +4,6 @@ title: TRFUNC (trustedruntimeclx.h)
 description: 
 ms.assetid: 8e25c958-8de1-4ae5-ace9-91184e90a1bd
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "trustedruntimeclx/TRFUNC"
 req.header: trustedruntimeclx.h

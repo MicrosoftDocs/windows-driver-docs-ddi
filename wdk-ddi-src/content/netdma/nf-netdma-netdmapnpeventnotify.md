@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: a0f0fdbc-089c-4bfb-ba5f-eaff6042621c
 ms.date: 05/02/2018
 ms.keywords: NetDmaPnPEventNotify, NetDmaPnPEventNotify function [Network Drivers Starting with Windows Vista], netdma/NetDmaPnPEventNotify, netdma_ref_406452bc-e56a-47da-9e7a-09fb4aebe1eb.xml, netvista.netdmapnpeventnotify
-ms.topic: function
 f1_keywords:
  - "netdma/NetDmaPnPEventNotify"
 req.header: netdma.h

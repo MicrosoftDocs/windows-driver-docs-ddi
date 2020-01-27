@@ -7,7 +7,6 @@ tech.root:
 ms.assetid: 147f40bd-4000-4fdd-b6ac-a305fc581d29
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: enum
 f1_keywords:
  - "wdm/DRIVER_REGKEY_TYPE"
 ms.keywords: DRIVER_REGKEY_TYPE, DRIVER_REGKEY_TYPE, *PDRIVER_REGKEY_TYPE, 

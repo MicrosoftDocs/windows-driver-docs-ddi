@@ -4,7 +4,6 @@ title: BindProperty function (dbgmodel.h)
 description:  A binder which converts two lambdas to a read/write property accessor.
 ms.assetid: 5bb97697-3462-4fcc-9306-e8741fc6003e
 ms.date: 09/28/2018
-ms.topic: function
 f1_keywords:
  - "dbgmodel/BindProperty"
 ms.keywords: BindProperty

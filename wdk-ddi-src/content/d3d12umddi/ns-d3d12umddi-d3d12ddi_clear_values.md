@@ -4,7 +4,6 @@ title: D3D12DDI_CLEAR_VALUES (d3d12umddi.h)
 description: The D3D12DDI_CLEAR_VALUES structure contains values used to optimize clear operations for a particular resource.
 ms.assetid: 25db923b-e26c-44ef-adef-a619df1ac0ef
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_CLEAR_VALUES"
 ms.keywords: D3D12DDI_CLEAR_VALUES, D3D12DDI_CLEAR_VALUES, 

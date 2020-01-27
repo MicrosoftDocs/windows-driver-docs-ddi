@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: b68c5971-6d09-49a8-873d-8736068f6003
 ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_QUERY_PROPERTY, IOCTL_STORAGE_QUERY_PROPERTY control, IOCTL_STORAGE_QUERY_PROPERTY control code [Storage Devices], k307_1ee2fd05-4e88-47ef-8ed5-0553bcccc0d7.xml, ntddstor/IOCTL_STORAGE_QUERY_PROPERTY, storage.ioctl_storage_query_property
-ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_QUERY_PROPERTY"
 req.header: ntddstor.h

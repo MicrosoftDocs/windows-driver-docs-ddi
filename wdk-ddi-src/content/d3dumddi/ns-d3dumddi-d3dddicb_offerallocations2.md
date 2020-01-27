@@ -4,7 +4,6 @@ title: D3DDDICB_OFFERALLOCATIONS2 (d3dumddi.h)
 description: Used to offer allocations.
 ms.assetid: 96f8b4fd-05e2-4250-8492-f861793d0b12
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDICB_OFFERALLOCATIONS2"
 ms.keywords: D3DDDICB_OFFERALLOCATIONS2, D3DDDICB_OFFERALLOCATIONS2, 

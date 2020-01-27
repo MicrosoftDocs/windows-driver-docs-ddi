@@ -7,7 +7,6 @@ tech.root: parports
 ms.assetid: 4973b1e2-5828-40d1-bb2e-da67a406eafa
 ms.date: 02/15/2018
 ms.keywords: PPARALLEL_WRITE, PPARALLEL_WRITE function pointer [Parallel Ports], cisspd_c9bcb3ed-ca6a-44d7-8952-f96f76490262.xml, parallel/PPARALLEL_WRITE, parports.pparallel_write
-ms.topic: callback
 f1_keywords:
  - "parallel/PPARALLEL_WRITE"
 req.header: parallel.h

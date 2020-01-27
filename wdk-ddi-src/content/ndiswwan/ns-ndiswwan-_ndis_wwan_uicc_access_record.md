@@ -5,7 +5,6 @@ description: The NDIS_WWAN_UICC_ACCESS_RECORD structure describes information ab
 tech.root: netvista
 ms.assetid: 6E0A8DEA-EAC1-43BD-AE55-E01640D2201A
 ms.date: 04/10/2019
-ms.topic: struct
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_UICC_ACCESS_RECORD"
 ms.keywords: _NDIS_WWAN_UICC_ACCESS_RECORD, NDIS_WWAN_UICC_ACCESS_RECORD, *PNDIS_WWAN_UICC_ACCESS_RECORD, 

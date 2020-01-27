@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 2a2811de-9024-40a8-b8af-b61ca4100218
 ms.date: 02/26/2018
 ms.keywords: DFWorkItemObjectRef_e799d95c-bbde-402a-8ba6-6e03256772ff.xml, EVT_WDF_WORKITEM, EVT_WDF_WORKITEM callback, EvtWorkItem, EvtWorkItem callback function, kmdf.evtworkitem, wdf.evtworkitem, wdfworkitem/EvtWorkItem
-ms.topic: callback
 f1_keywords:
  - "wdfworkitem/EvtWorkItem"
 req.header: wdfworkitem.h

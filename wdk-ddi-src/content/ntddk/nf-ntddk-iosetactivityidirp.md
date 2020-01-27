@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 81D3BE8C-D6E0-47E2-959C-3834988E4C61
 ms.date: 04/30/2018
 ms.keywords: IoSetActivityIdIrp, IoSetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iosetactivityidirp, ntddk/IoSetActivityIdIrp
-ms.topic: function
 f1_keywords:
  - "ntddk/IoSetActivityIdIrp"
 req.header: ntddk.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 93D35A64-8394-41C2-BFB8-C8DE93619E75
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_UICC_PASSTHROUGH_STATUS, WWAN_UICC_PASSTHROUGH_STATUS, WWAN_UICC_PASSTHROUGH_STATUS enumeration [Network Drivers Starting with Windows Vista], WwanUiccPassThroughDisabled, WwanUiccPassThroughEnabled, WwanUiccPassThroughMaximum, _WWAN_UICC_PASSTHROUGH_STATUS, netvista.wwan_uicc_passthrough_status, wwan/WWAN_UICC_PASSTHROUGH_STATUS, wwan/WwanUiccPassThroughDisabled, wwan/WwanUiccPassThroughEnabled, wwan/WwanUiccPassThroughMaximum"
-ms.topic: enum
 f1_keywords:
  - "wwan/WWAN_UICC_PASSTHROUGH_STATUS"
 req.header: wwan.h

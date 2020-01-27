@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: bfeec8b1-48fb-420e-b602-699a5f2d659a
 ms.date: 04/30/2018
 ms.keywords: IoAllocateController, IoAllocateController routine [Kernel-Mode Driver Architecture], k104_b550c6ff-9d5c-4497-98bb-6781b4e6abd8.xml, kernel.ioallocatecontroller, ntddk/IoAllocateController
-ms.topic: function
 f1_keywords:
  - "ntddk/IoAllocateController"
 req.header: ntddk.h

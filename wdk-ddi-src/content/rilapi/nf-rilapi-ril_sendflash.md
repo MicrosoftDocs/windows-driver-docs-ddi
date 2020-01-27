@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 9a23fae8-7142-48a1-871e-1fa3a6d8e112
 ms.date: 05/02/2018
 ms.keywords: RIL_SendFlash, RIL_SendFlash method [Network Drivers Starting with Windows Vista], netvista.ril_sendflash, rilapi/RIL_SendFlash
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_SendFlash"
 req.header: rilapi.h

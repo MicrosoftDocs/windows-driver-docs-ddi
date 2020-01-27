@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 3676476d-babe-4d68-995b-b7068a587bbc
 ms.date: 05/10/2018
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH, D3DKMDT_VIDPN_PRESENT_PATH structure [Display Devices], DmStructs_7cf350db-f1fa-492f-96d2-9ad806f2b75a.xml, _D3DKMDT_VIDPN_PRESENT_PATH, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH, display.d3dkmdt_vidpn_present_path
-ms.topic: struct
 f1_keywords:
  - "d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH"
 req.header: d3dkmdt.h

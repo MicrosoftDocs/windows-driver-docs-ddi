@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 4da6cf19-745e-49ea-b5f9-d4a51f7bbcf4
 ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME, IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME control, IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME control code [Buses], buses.ioctl_internal_usb_req_global_resume, usbioctl/IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME
-ms.topic: ioctl
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME"
 req.header: usbioctl.h

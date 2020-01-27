@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: F2CD1373-CDBD-4D14-8C63-7A08A5EBCED6
 ms.date: 04/20/2018
 ms.keywords: IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST, IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST control, IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST control code [Print Devices], d4drvif/IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST, print.ioctl_ioctl_dot4_remove_activity_broadcast
-ms.topic: ioctl
 f1_keywords:
  - "d4drvif/IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST"
 req.header: d4drvif.h

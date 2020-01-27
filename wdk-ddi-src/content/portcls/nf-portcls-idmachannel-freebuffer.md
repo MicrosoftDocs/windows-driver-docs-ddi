@@ -5,7 +5,6 @@ description: The FreeBuffer method frees the buffer that was allocated by the pr
 tech.root: audio
 ms.assetid: 151e5da1-e78a-4f72-a132-87ae9f743330
 ms.date: 10/31/2018 
-ms.topic: method
 f1_keywords:
  - "portcls/IDmaChannel.FreeBuffer"
 ms.keywords: IDmaChannel::FreeBuffer, FreeBuffer, IDmaChannel.FreeBuffer, IDmaChannel::FreeBuffer, IDmaChannel.FreeBuffer

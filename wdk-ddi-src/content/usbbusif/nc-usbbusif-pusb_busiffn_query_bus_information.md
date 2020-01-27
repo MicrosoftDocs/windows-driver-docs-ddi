@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: cc03ae88-89ba-44ff-bfe7-6255f2a2ec5c
 ms.date: 05/07/2018
 ms.keywords: PUSB_BUSIFFN_QUERY_BUS_INFORMATION, QueryBusInformation, QueryBusInformation callback function [Buses], USB_BUSIFFN_QUERY_BUS_INFORMATION, USB_BUSIFFN_QUERY_BUS_INFORMATION callback, buses.querybusinformation, usbbusif/QueryBusInformation, usbinterKR_91d1f7ee-5cd2-4f87-bc4c-16972039f5e3.xml
-ms.topic: callback
 f1_keywords:
  - "usbbusif/QueryBusInformation"
 req.header: usbbusif.h

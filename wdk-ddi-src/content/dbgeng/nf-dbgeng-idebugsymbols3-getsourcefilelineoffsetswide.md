@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: f774dde1-3498-423b-bf09-239d3d3421b4
 ms.date: 05/03/2018
 ms.keywords: GetSourceFileLineOffsetsWide, GetSourceFileLineOffsetsWide method [Windows Debugging], GetSourceFileLineOffsetsWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceFileLineOffsetsWide method, IDebugSymbols3.GetSourceFileLineOffsetsWide, IDebugSymbols3::GetSourceFileLineOffsetsWide, dbgeng/IDebugSymbols3::GetSourceFileLineOffsetsWide, debugger.getsourcefilelineoffsetswide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSourceFileLineOffsetsWide"
 req.header: dbgeng.h

@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: B4BE0BDC-C1A3-4230-8F4B-78DE34F5554D
 ms.date: 05/07/2018
 ms.keywords: UfxDeviceNotifyHardwareReady, UfxDeviceNotifyHardwareReady method [Buses], buses.ufxdevicenotifyhardwareready, ufxclient/UfxDeviceNotifyHardwareReady
-ms.topic: function
 f1_keywords:
  - "ufxclient/UfxDeviceNotifyHardwareReady"
 req.header: ufxclient.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2104BF68-DF35-44DE-AD83-3026FF9314B4
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_PRESENTSURFACE, D3DDDIARG_PRESENTSURFACE structure [Display Devices], d3dumddi/D3DDDIARG_PRESENTSURFACE, display.d3dddiarg_presentsurface
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_PRESENTSURFACE"
 req.header: d3dumddi.h

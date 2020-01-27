@@ -4,7 +4,6 @@ title: D3D12DDI_EXISTING_COLLECTION_DESC_0054 (d3d12umddi.h)
 description: An existing collection.
 ms.assetid: d9974a90-8c8b-4fd8-8e82-5938d3c97590
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_EXISTING_COLLECTION_DESC_0054"
 ms.keywords: D3D12DDI_EXISTING_COLLECTION_DESC_0054, D3D12DDI_EXISTING_COLLECTION_DESC_0054, 

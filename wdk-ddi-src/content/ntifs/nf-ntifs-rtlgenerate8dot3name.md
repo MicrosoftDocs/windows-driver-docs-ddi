@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 7e8f84c4-c251-4f80-a8fc-465e44c14405
 ms.date: 04/16/2018
 ms.keywords: RtlGenerate8dot3Name, RtlGenerate8dot3Name routine [Installable File System Drivers], ifsk.rtlgenerate8dot3name, ntifs/RtlGenerate8dot3Name, rtlref_e28a5c45-d430-43a7-89f8-4f193971715c.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlGenerate8dot3Name"
 req.header: ntifs.h

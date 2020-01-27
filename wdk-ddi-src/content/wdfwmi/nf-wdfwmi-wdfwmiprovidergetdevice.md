@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 8d934e44-c6f9-42f7-81a6-202b6c97aca2
 ms.date: 02/26/2018
 ms.keywords: DFWMIRef_697647f5-0ece-46e4-8973-07088c8c3739.xml, WdfWmiProviderGetDevice, WdfWmiProviderGetDevice method, kmdf.wdfwmiprovidergetdevice, wdf.wdfwmiprovidergetdevice, wdfwmi/WdfWmiProviderGetDevice
-ms.topic: function
 f1_keywords:
  - "wdfwmi/WdfWmiProviderGetDevice"
 req.header: wdfwmi.h

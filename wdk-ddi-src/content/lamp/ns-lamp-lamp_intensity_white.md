@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: BDE53311-589F-4458-9510-1B02F1BD0289
 ms.date: 04/23/2018
 ms.keywords: LAMP_INTENSITY_WHITE, LAMP_INTENSITY_WHITE structure [Streaming Media Devices], lamp/LAMP_INTENSITY_WHITE, stream.lamp_intensity_white
-ms.topic: struct
 f1_keywords:
  - "lamp/LAMP_INTENSITY_WHITE"
 req.header: lamp.h

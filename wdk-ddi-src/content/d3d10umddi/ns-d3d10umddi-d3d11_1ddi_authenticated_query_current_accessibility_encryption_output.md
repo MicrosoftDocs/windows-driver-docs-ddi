@@ -6,7 +6,6 @@ old-location: display\d3d11_1ddi_authenticated_query_current_accessibility_encry
 ms.assetid: d985b388-c8f7-405c-a268-a0cd821ea249
 ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_CURRENT_ACCESSIBILITY_ENCRYPTION_OUTPUT, D3D11_1DDI_AUTHENTICATED_QUERY_CURRENT_ACCESSIBILITY_ENCRYPTION_OUTPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_CURRENT_ACCESSIBILITY_ENCRYPTION_OUTPUT, display.d3d11_1ddi_authenticated_query_current_accessibility_encryption_output
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_CURRENT_ACCESSIBILITY_ENCRYPTION_OUTPUT"
 req.header: d3d10umddi.h

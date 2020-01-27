@@ -5,7 +5,6 @@ description: The WWAN_UICC_FILE_TYPE enumeration specifies the type for a UICC f
 tech.root: netvista
 ms.assetid: A404E722-2533-4C98-9F20-C75829E94C7F
 ms.date: 04/09/2019
-ms.topic: enum
 f1_keywords:
  - "wwan/_WWAN_UICC_FILE_TYPE"
 ms.keywords: _WWAN_UICC_FILE_TYPE, WWAN_UICC_FILE_TYPE, *PWWAN_UICC_FILE_TYPE, 

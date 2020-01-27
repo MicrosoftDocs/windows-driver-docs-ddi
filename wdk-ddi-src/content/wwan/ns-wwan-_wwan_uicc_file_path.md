@@ -5,7 +5,6 @@ description: The WWAN_UICC_FILE_PATH structure describes file path information a
 tech.root: netvista
 ms.assetid: D7D74B4A-EB1D-479A-8206-A904C34B7C43
 ms.date: 04/09/2019
-ms.topic: struct
 f1_keywords:
  - "wwan/_WWAN_UICC_FILE_PATH"
 ms.keywords: _WWAN_UICC_FILE_PATH, WWAN_UICC_FILE_PATH, *PWWAN_UICC_FILE_PATH, 

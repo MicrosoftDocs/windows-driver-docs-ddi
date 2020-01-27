@@ -6,7 +6,6 @@ old-location: display\dxgkddipresent.htm
 ms.assetid: 1a46b129-1e78-44e6-a609-59eab206692b
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_PRESENT, DXGKDDI_PRESENT callback, DmFunctions_9dfdaa11-723f-48de-a0d1-5559b5841e7e.xml, DxgkDdiPresent, DxgkDdiPresent callback function [Display Devices], d3dkmddi/DxgkDdiPresent, display.dxgkddipresent
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

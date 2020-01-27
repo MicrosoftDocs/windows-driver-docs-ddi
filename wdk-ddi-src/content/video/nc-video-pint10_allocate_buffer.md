@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2e6c8000-13e3-46fb-81be-18428fec2b21
 ms.date: 05/10/2018
 ms.keywords: Int10AllocateBuffer, Int10AllocateBuffer callback function [Display Devices], PINT10_ALLOCATE_BUFFER, PINT10_ALLOCATE_BUFFER callback, VideoPort_Functions_9e19d07d-46a9-46ee-97db-6548202ff14f.xml, display.int10allocatebuffer, video/Int10AllocateBuffer
-ms.topic: callback
 f1_keywords:
  - "video/Int10AllocateBuffer"
 req.header: video.h

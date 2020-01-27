@@ -7,7 +7,6 @@ old-location: display\dxgk_setvidpnsourceaddress_input_flags.htm
 ms.assetid: FBC661AA-B028-45AF-8E3C-7C2472652BD5
 ms.date: 04/16/2018
 ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS structure [Display Devices], _DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, display.dxgk_setvidpnsourceaddress_input_flags
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS"
 req.header: d3dkmddi.h

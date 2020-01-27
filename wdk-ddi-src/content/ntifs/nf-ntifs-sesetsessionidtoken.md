@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 18c5ef8c-de72-4d2e-9bee-5b58bc5482c7
 ms.date: 04/16/2018
 ms.keywords: SeSetSessionIdToken, SeSetSessionIdToken function [Installable File System Drivers], ifsk.sesetsessionidtoken, ntifs/SeSetSessionIdToken, seref_3af3660a-a2ba-4262-91bb-dff8533bcdcb.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/SeSetSessionIdToken"
 req.header: ntifs.h

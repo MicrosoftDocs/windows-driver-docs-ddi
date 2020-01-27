@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4e6403e7-7463-479a-8be9-4136287b375e
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_NOTIFY_SURPRISE_REMOVAL, DXGKDDI_NOTIFY_SURPRISE_REMOVAL callback, DxgkDdiNotifySurpriseRemoval, DxgkDdiNotifySurpriseRemoval callback function [Display Devices], display.dxgkddinotifysurpriseremoval, dispmprt/DxgkDdiNotifySurpriseRemoval
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiNotifySurpriseRemoval"
 req.header: dispmprt.h

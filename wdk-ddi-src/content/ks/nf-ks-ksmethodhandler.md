@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 730b5fae-3536-44ed-8f92-e4563a137be9
 ms.date: 04/23/2018
 ms.keywords: KsMethodHandler, KsMethodHandler function [Streaming Media Devices], ks/KsMethodHandler, ksfunc_1f1959ed-e370-4ebb-9932-435c448a944b.xml, stream.ksmethodhandler
-ms.topic: function
 f1_keywords:
  - "ks/KsMethodHandler"
 req.header: ks.h

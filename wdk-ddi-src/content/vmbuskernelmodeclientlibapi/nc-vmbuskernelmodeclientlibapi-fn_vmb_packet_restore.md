@@ -5,7 +5,6 @@ description: The VmbPacketRestore function restores packet from a buffer that co
 tech.root: netvista
 ms.assetid: 2bb4f7b2-a6e7-4a11-a5ca-bfd7db47037a
 ms.date: 05/22/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_RESTORE"
 req.header: vmbuskernelmodeclientlibapi.h

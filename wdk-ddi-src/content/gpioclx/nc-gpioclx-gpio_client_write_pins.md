@@ -7,7 +7,6 @@ tech.root: GPIO
 ms.assetid: 1C203107-258E-41DF-AFA7-B2597DCDF2E3
 ms.date: 02/15/2018
 ms.keywords: CLIENT_WriteGpioPins, CLIENT_WriteGpioPins callback, CLIENT_WriteGpioPins callback function [Parallel Ports], GPIO.client_writegpiopins, GPIO_CLIENT_WRITE_PINS, gpioclx/CLIENT_WriteGpioPins
-ms.topic: callback
 f1_keywords:
  - "gpioclx/CLIENT_WriteGpioPins"
 req.header: gpioclx.h

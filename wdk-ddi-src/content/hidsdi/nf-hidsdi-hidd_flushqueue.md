@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 4ddc2d50-4828-4764-a690-27d4d5bd7c74
 ms.date: 06/19/2019
 ms.keywords: HidD_FlushQueue, HidD_FlushQueue routine [Human Input Devices], hid.hidd_flushqueue, hidfunc_3709367d-c7ad-4754-a4bc-c8ccf2752188.xml, hidsdi/HidD_FlushQueue
-ms.topic: function
 f1_keywords:
  - "hidsdi/HidD_FlushQueue"
 req.header: hidsdi.h

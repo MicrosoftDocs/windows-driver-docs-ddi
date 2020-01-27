@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 37f624b8-3b15-41ee-9670-84287c3e10e6
 ms.date: 04/20/2018
 ms.keywords: GetDiscardProperties, GetDiscardProperties method [Print Devices], GetDiscardProperties method [Print Devices],IPartDiscardControl interface, IPartDiscardControl interface [Print Devices],GetDiscardProperties method, IPartDiscardControl.GetDiscardProperties, IPartDiscardControl::GetDiscardProperties, filterpipeline/IPartDiscardControl::GetDiscardProperties, filterpipeline_ffa81b25-78c6-4193-a253-cc1d5d51aafe.xml, print.ipartdiscardcontrol_getdiscardproperties
-ms.topic: method
 f1_keywords:
  - "filterpipeline/IPartDiscardControl.GetDiscardProperties"
 req.header: filterpipeline.h

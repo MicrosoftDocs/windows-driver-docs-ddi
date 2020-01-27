@@ -6,7 +6,6 @@ old-location: display\dxgk_updatehwcontextstate_flags.htm
 ms.assetid: 23F0679A-05BB-4988-AF83-B6CC91C4CB79
 ms.date: 05/10/2018
 ms.keywords: DXGK_UPDATEHWCONTEXTSTATE_FLAGS, DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure [Display Devices], _DXGK_UPDATEHWCONTEXTSTATE_FLAGS, d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS, display.dxgk_updatehwcontextstate_flags
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS"
 req.header: d3dkmddi.h

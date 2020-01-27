@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: a8b7efd2-7773-44dc-92de-85b03c31ada8
 ms.date: 04/23/2018
 ms.keywords: StreamClassDebugPrint, StreamClassDebugPrint routine [Streaming Media Devices], strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, stream.streamclassdebugprint, strmini/StreamClassDebugPrint
-ms.topic: function
 f1_keywords:
  - "strmini/StreamClassDebugPrint"
 req.header: strmini.h

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 1c363649-4eff-4ad1-bc31-b060e2eb15d5
 ms.date: 05/03/2018
 ms.keywords: AddSymbolWide, AddSymbolWide method [Windows Debugging], AddSymbolWide method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],AddSymbolWide method, IDebugSymbolGroup2.AddSymbolWide, IDebugSymbolGroup2::AddSymbolWide, dbgeng/IDebugSymbolGroup2::AddSymbolWide, debugger.addsymbolwide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.AddSymbolWide"
 req.header: dbgeng.h

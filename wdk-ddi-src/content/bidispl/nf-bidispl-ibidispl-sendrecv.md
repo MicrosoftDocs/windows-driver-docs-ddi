@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 0c91abd0-5e49-4e23-a50f-9d1dacf9d868
 ms.date: 04/20/2018
 ms.keywords: IBidiSpl interface [Print Devices],SendRecv method, IBidiSpl.SendRecv, IBidiSpl::SendRecv, SendRecv, SendRecv method [Print Devices], SendRecv method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_SendRecv, bidispl/IBidiSpl::SendRecv, gdi.ibidispl_ibidispl__sendrecv, print.ibidispl_ibidispl__sendrecv
-ms.topic: method
 f1_keywords:
  - "bidispl/IBidiSpl.SendRecv"
 req.header: bidispl.h

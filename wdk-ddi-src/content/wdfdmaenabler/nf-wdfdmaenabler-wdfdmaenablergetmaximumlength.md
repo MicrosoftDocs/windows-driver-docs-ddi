@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: f37359b9-807e-43dc-a66b-7b32c0921f06
 ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_8d6be540-2f98-48f9-8ffe-332c96394920.xml, WdfDmaEnablerGetMaximumLength, WdfDmaEnablerGetMaximumLength method, kmdf.wdfdmaenablergetmaximumlength, wdf.wdfdmaenablergetmaximumlength, wdfdmaenabler/WdfDmaEnablerGetMaximumLength
-ms.topic: function
 f1_keywords:
  - "wdfdmaenabler/WdfDmaEnablerGetMaximumLength"
 req.header: wdfdmaenabler.h

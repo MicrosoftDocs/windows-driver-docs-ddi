@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: C2047F4D-6D24-432B-98F1-EA00D88E3860
 ms.date: 04/23/2018
 ms.keywords: KSLIST_ENTRY_LOCATION, KSLIST_ENTRY_LOCATION enumeration [Streaming Media Devices], KsListEntryHead, KsListEntryTail, ks/KSLIST_ENTRY_LOCATION, ks/KsListEntryHead, ks/KsListEntryTail, stream.kslist_entry_location
-ms.topic: enum
 f1_keywords:
  - "ks/KSLIST_ENTRY_LOCATION"
 req.header: ks.h

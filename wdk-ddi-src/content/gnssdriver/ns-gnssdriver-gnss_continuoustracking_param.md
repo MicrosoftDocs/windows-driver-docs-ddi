@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: D69D317C-5B42-4709-87AF-4323DF2EBE2D
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_CONTINUOUSTRACKING_PARAM, GNSS_CONTINUOUSTRACKING_PARAM, GNSS_CONTINUOUSTRACKING_PARAM structure [Sensor Devices], PGNSS_CONTINUOUSTRACKING_PARAM, PGNSS_CONTINUOUSTRACKING_PARAM structure pointer [Sensor Devices], gnss.gnss_continuoustracking_param, gnssdriver/GNSS_CONTINUOUSTRACKING_PARAM, gnssdriver/PGNSS_CONTINUOUSTRACKING_PARAM"
-ms.topic: struct
 f1_keywords:
  - "gnssdriver/GNSS_CONTINUOUSTRACKING_PARAM"
 req.header: gnssdriver.h

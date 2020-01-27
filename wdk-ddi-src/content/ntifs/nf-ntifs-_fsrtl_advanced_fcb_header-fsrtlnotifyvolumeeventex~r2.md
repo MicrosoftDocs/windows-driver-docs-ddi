@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 0792e139-0217-4882-b2df-e69452118fc9
 ms.date: 03/29/2018
 ms.keywords: FsRtlNotifyVolumeEventEx, FsRtlNotifyVolumeEventEx routine [Installable File System Drivers], fsrtlref_421ebbf6-0678-4b66-a7c3-00f5914ea05c.xml, ifsk.fsrtlnotifyvolumeeventex, ntifs/FsRtlNotifyVolumeEventEx
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlNotifyVolumeEventEx"
 req.header: ntifs.h
