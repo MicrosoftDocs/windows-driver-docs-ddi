@@ -4,7 +4,6 @@ title: _D3DTEXTURETRANSFORMFLAGS (d3d9types.h)
 description: 
 ms.assetid: 9948eefd-9cd0-4704-b8b9-fcb4a499f942
 ms.date: 10/19/2018
-ms.topic: enum
 f1_keywords:
  - "d3d9types/_D3DTEXTURETRANSFORMFLAGS"
 ms.keywords: _D3DTEXTURETRANSFORMFLAGS, D3DTEXTURETRANSFORMFLAGS, 

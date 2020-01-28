@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 8D3BD2E0-02EA-4745-AA1C-86D829E6BA81
 ms.date: 03/29/2018
 ms.keywords: "*PSRBEX_DATA_SCSI_CDB_VAR, PSRBEX_DATA_SCSI_CDB_VAR, PSRBEX_DATA_SCSI_CDB_VAR structure pointer [Storage Devices], SRBEX_DATA_SCSI_CDB_VAR, SRBEX_DATA_SCSI_CDB_VAR structure [Storage Devices], _SRBEX_DATA_SCSI_CDB_VAR, storage.srbex_data_scsi_cdb_var, storport/PSRBEX_DATA_SCSI_CDB_VAR, storport/SRBEX_DATA_SCSI_CDB_VAR"
-ms.topic: struct
 f1_keywords:
  - "minitape/SRBEX_DATA_SCSI_CDB_VAR"
 req.header: minitape.h

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: e50199d2-948d-4572-8688-89d92961f85b
 ms.date: 04/16/2018
 ms.keywords: RtlUnicodeToMultiByteN, RtlUnicodeToMultiByteN routine [Installable File System Drivers], ifsk.rtlunicodetomultibyten, ntifs/RtlUnicodeToMultiByteN, rtlref_233ec1ac-8ecc-4261-8f17-11485d03ec50.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlUnicodeToMultiByteN"
 req.header: ntifs.h

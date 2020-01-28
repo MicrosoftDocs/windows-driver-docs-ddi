@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 0EF8652F-34A8-4804-9D3F-8C8BEFCBCAAF
 ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionRequest, IPrinterExtensionRequest interface [Print Devices], IPrinterExtensionRequest interface [Print Devices],described, print.iprinterextensionrequest_interface, printerextension/IPrinterExtensionRequest
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrinterExtensionRequest"
 req.header: printerextension.h

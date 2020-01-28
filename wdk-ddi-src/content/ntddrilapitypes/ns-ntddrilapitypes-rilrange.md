@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 2f704899-eb5e-4632-a76d-eb474f3273f9
 ms.date: 05/02/2018
 ms.keywords: "*LPRILRANGE, RILRANGE, RILRANGE structure [Network Drivers Starting with Windows Vista], netvista.rilrange, ntddrilapitypes/RILRANGE"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILRANGE"
 req.header: ntddrilapitypes.h

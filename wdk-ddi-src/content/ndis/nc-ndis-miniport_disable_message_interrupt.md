@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 68d2076d-c991-4219-b6c3-2399ff5c11a3
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_DISABLE_MESSAGE_INTERRUPT, MINIPORT_DISABLE_MESSAGE_INTERRUPT callback, MiniportDisableMessageInterrupt, MiniportDisableMessageInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportDisableMessageInterrupt, ndis_interrupts_miniport_functions_ref_50d58bcc-7d77-4ca8-9419-74dd1602177d.xml, netvista.miniportdisablemessageinterrupt
-ms.topic: callback
 f1_keywords:
  - "ndis/MiniportDisableMessageInterrupt"
 req.header: ndis.h

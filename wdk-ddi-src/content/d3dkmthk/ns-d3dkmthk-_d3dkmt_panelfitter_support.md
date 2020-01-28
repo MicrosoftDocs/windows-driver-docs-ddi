@@ -4,7 +4,6 @@ title: _D3DKMT_PANELFITTER_SUPPORT (d3dkmthk.h)
 description: Structure that contains panel fitter support info.
 ms.assetid: 54767c86-7cad-44cf-9192-6cf1dde36f73
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/_D3DKMT_PANELFITTER_SUPPORT"
 ms.keywords: _D3DKMT_PANELFITTER_SUPPORT, D3DKMT_PANELFITTER_SUPPORT, 

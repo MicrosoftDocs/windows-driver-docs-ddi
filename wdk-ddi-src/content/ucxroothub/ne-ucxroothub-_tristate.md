@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 16D8981B-53D3-4886-A85F-B487701ED172
 ms.date: 05/07/2018
 ms.keywords: TRISTATE, TRISTATE enumeration [Buses], TriStateFalse, TriStateTrue, TriStateUnknown, _TRISTATE, buses.tristate, ucxroothub/TRISTATE, ucxroothub/TriStateFalse, ucxroothub/TriStateTrue, ucxroothub/TriStateUnknown
-ms.topic: enum
 f1_keywords:
  - "ucxroothub/TRISTATE"
 req.header: ucxroothub.h

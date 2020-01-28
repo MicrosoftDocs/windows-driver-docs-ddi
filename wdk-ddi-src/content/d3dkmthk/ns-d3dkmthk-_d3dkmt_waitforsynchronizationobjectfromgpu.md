@@ -6,7 +6,6 @@ old-location: display\d3dkmt_waitforsynchronizationobjectfromgpu.htm
 ms.assetid: F22149E4-0396-46DE-89FE-9B4321D86605
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU, display.d3dkmt_waitforsynchronizationobjectfromgpu
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU"
 req.header: d3dkmthk.h

@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: A1DCC547-8CAA-46B9-A855-5F591C69A3B0
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG structure [Sensor Devices], PGNSS_V2UPL_CONFIG, PGNSS_V2UPL_CONFIG structure pointer [Sensor Devices], gnss.gnss_v2upl_config, gnssdriver/GNSS_V2UPL_CONFIG, gnssdriver/PGNSS_V2UPL_CONFIG"
-ms.topic: struct
 f1_keywords:
  - "gnssdriver/GNSS_V2UPL_CONFIG"
 req.header: gnssdriver.h

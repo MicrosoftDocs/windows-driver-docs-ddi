@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 804D53F2-0F92-4262-A4C8-D171A5E69BFC
 ms.date: 04/23/2018
 ms.keywords: 1/SerCxGetActivity, SerCxGetActivity, SerCxGetActivity method [Serial Ports], serports.sercxgetactivity
-ms.topic: function
 f1_keywords:
  - "sercx/SerCxGetActivity"
 req.header: sercx.h

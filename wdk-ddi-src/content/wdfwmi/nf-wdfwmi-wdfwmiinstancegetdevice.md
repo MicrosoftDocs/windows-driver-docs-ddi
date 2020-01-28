@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 4ebc90e0-328b-4830-9942-027d3f19d186
 ms.date: 02/26/2018
 ms.keywords: DFWMIRef_adc116bf-d2bc-41b0-8d1d-5cc90440d778.xml, WdfWmiInstanceGetDevice, WdfWmiInstanceGetDevice method, kmdf.wdfwmiinstancegetdevice, wdf.wdfwmiinstancegetdevice, wdfwmi/WdfWmiInstanceGetDevice
-ms.topic: function
 f1_keywords:
  - "wdfwmi/WdfWmiInstanceGetDevice"
 req.header: wdfwmi.h

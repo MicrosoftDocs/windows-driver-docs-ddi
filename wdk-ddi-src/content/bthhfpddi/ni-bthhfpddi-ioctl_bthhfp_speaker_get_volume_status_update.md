@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: CE122D3F-CD8F-47F5-88E0-AB0140A8DE1E
 ms.date: 05/08/2018
 ms.keywords: IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE, IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE control, IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_speaker_get_volume_status_update, bthhfpddi/IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE
-ms.topic: ioctl
 f1_keywords:
  - "bthhfpddi/IOCTL_BTHHFP_SPEAKER_GET_VOLUME_STATUS_UPDATE"
 req.header: bthhfpddi.h

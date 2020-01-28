@@ -4,7 +4,6 @@ title: IDataModelScriptDebugStackFrame::Evaluate (dbgmodel.h)
 description: The Evaluate method evaluates an expression (of the language of the script provider) in the context of the stack frame represented by the IDataModelScriptDebugStackFrame interface on which this method was called.
 ms.assetid: ef36e451-1a5a-4ea0-a2cf-6af38fe6757c
 ms.date: 09/10/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugStackFrame.Evaluate"
 ms.keywords: IDataModelScriptDebugStackFrame::Evaluate, Evaluate, IDataModelScriptDebugStackFrame.Evaluate, IDataModelScriptDebugStackFrame::Evaluate, IDataModelScriptDebugStackFrame.Evaluate

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 235DA791-D4D1-486C-B136-3703E62E91E2
 ms.date: 05/03/2018
 ms.keywords: IDebugClient7 interface [Windows Debugging],SetClientContext method, IDebugClient7.SetClientContext, IDebugClient7::SetClientContext, SetClientContext, SetClientContext method [Windows Debugging], SetClientContext method [Windows Debugging],IDebugClient7 interface, dbgeng/IDebugClient7::SetClientContext, debugger.idebugclient7_setclientcontext
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugClient7.SetClientContext"
 req.header: dbgeng.h

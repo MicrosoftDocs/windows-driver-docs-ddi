@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 95b761ff-ca78-4793-b5eb-a9ff35a963d3
 ms.date: 05/03/2018
 ms.keywords: IDebugSystemObjects3 interface [Windows Debugging],SetCurrentSystemId method, IDebugSystemObjects3::SetCurrentSystemId, IDebugSystemObjects4 interface [Windows Debugging],SetCurrentSystemId method, IDebugSystemObjects4.SetCurrentSystemId, IDebugSystemObjects4::SetCurrentSystemId, IDebugSystemObjects_70a23767-a18b-4920-828a-34fe863fec4a.xml, SetCurrentSystemId, SetCurrentSystemId method [Windows Debugging], SetCurrentSystemId method [Windows Debugging],IDebugSystemObjects3 interface, SetCurrentSystemId method [Windows Debugging],IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects3::SetCurrentSystemId, dbgeng/IDebugSystemObjects4::SetCurrentSystemId, debugger.setcurrentsystemid
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSystemObjects3.SetCurrentSystemId"
 req.header: dbgeng.h

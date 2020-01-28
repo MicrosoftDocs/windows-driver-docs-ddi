@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 39c66462-015d-49ba-9a37-0b3b928e5fbf
 ms.date: 02/26/2018
 ms.keywords: IQueueCallbackStateChange, IQueueCallbackStateChange interface, IQueueCallbackStateChange interface,described, UMDFQueueObjectRef_57a57868-6a9d-42b3-8c74-ceb6c4be03c3.xml, umdf.iqueuecallbackstatechange, wdf.iqueuecallbackstatechange, wudfddi/IQueueCallbackStateChange
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IQueueCallbackStateChange"
 req.header: wudfddi.h

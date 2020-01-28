@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: fdff17ac-2ffd-45b0-8f01-a21af1ffa9d0
 ms.date: 05/02/2018
 ms.keywords: "*LPRILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER, RILMSGCDMAINDELIVER structure [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmaindeliver, ntddrilapitypes/RILMSGCDMAINDELIVER"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILMSGCDMAINDELIVER"
 req.header: rilapitypes.h

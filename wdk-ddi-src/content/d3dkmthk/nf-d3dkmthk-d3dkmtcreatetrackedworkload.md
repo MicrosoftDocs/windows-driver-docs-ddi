@@ -4,7 +4,6 @@ title: D3DKMTCreateTrackedWorkload function (d3dkmthk.h)
 description: Creates a tracked workload instance.
 ms.assetid: beb2ea0b-cf59-4126-ad12-a6755c2a58ca
 ms.date: 10/19/2018
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateTrackedWorkload"
 ms.keywords: D3DKMTCreateTrackedWorkload

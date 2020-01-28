@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 57418ab1-e341-41ad-a120-cc4f7e0b0227
 ms.date: 05/02/2018
 ms.keywords: "*LPRILEXCHANGEUICCAPDURESPONSE, RILEXCHANGEUICCAPDURESPONSE, RILEXCHANGEUICCAPDURESPONSE structure [Network Drivers Starting with Windows Vista], netvista.rilexchangeuiccapduresponse, ntddrilapitypes/RILEXCHANGEUICCAPDURESPONSE"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILEXCHANGEUICCAPDURESPONSE"
 req.header: rilapitypes.h

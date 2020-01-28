@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: AC8EBE07-92D6-4985-A575-8AD3321D29FB
 ms.date: 03/29/2018
 ms.keywords: "*PSTOR_CRYPTO_CAPABILITY, PSTOR_CRYPTO_CAPABILITY, PSTOR_CRYPTO_CAPABILITY structure pointer [Storage Devices], STOR_CRYPTO_CAPABILITY, STOR_CRYPTO_CAPABILITY structure [Storage Devices], _STOR_CRYPTO_CAPABILITY, storage.stor_crypto_capability, storport/PSTOR_CRYPTO_CAPABILITY, storport/STOR_CRYPTO_CAPABILITY"
-ms.topic: struct
 f1_keywords:
  - "storport/STOR_CRYPTO_CAPABILITY"
 req.header: storport.h

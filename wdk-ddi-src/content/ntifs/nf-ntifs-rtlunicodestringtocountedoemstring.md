@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 7479d5d0-69d0-42b8-9aa1-5eab8b71b118
 ms.date: 04/16/2018
 ms.keywords: RtlUnicodeStringToCountedOemString, RtlUnicodeStringToCountedOemString routine [Installable File System Drivers], ifsk.rtlunicodestringtocountedoemstring, ntifs/RtlUnicodeStringToCountedOemString, rtlref_dbc62228-043f-43f1-bd19-464adf37b693.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlUnicodeStringToCountedOemString"
 req.header: ntifs.h

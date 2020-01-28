@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 8EDBD8FF-6417-44C0-87C0-14D71FEFA380
 ms.date: 04/23/2018
 ms.keywords: KsReleaseCachedMdl, KsReleaseCachedMdl function [Streaming Media Devices], ks/KsReleaseCachedMdl, stream.ksreleasecachedmdl
-ms.topic: function
 f1_keywords:
  - "ks/KsReleaseCachedMdl"
 req.header: ks.h

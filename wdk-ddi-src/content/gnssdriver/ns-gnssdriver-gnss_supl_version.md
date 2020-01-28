@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: D004DAEF-F25F-442D-9A6D-91FB8A18E0DB
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_SUPL_VERSION, GNSS_SUPL_VERSION, GNSS_SUPL_VERSION structure [Sensor Devices], PGNSS_SUPL_VERSION, PGNSS_SUPL_VERSION structure pointer [Sensor Devices], gnss.gnss_supl_version, gnssdriver/GNSS_SUPL_VERSION, gnssdriver/PGNSS_SUPL_VERSION"
-ms.topic: struct
 f1_keywords:
  - "gnssdriver/GNSS_SUPL_VERSION"
 req.header: gnssdriver.h

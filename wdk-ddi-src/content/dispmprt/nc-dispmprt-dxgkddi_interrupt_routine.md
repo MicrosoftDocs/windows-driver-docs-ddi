@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: eacfd42d-405c-4c23-8978-0f373a393e10
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_INTERRUPT_ROUTINE, DXGKDDI_INTERRUPT_ROUTINE callback, DmFunctions_5341cc5a-0dd5-4493-ab02-0aa66d910ec0.xml, DxgkDdiInterruptRoutine, DxgkDdiInterruptRoutine callback function [Display Devices], display.dxgkddiinterruptroutine, dispmprt/DxgkDdiInterruptRoutine
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiInterruptRoutine"
 req.header: dispmprt.h

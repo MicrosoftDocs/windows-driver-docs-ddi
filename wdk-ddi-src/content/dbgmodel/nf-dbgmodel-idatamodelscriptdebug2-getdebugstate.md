@@ -4,7 +4,6 @@ title: IDataModelScriptDebug2::GetDebugState (dbgmodel.h)
 description: The GetDebugState method returns the current state of the script (that is whether it is executing or not). 
 ms.assetid: 5426937e-cf7e-4af0-afe3-39b2dce07983
 ms.date: 08/21/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug2.GetDebugState"
 ms.keywords: IDataModelScriptDebug2::GetDebugState, GetDebugState, IDataModelScriptDebug2.GetDebugState, IDataModelScriptDebug2::GetDebugState, IDataModelScriptDebug2.GetDebugState

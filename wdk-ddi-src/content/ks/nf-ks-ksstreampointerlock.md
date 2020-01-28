@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: eb960301-2afa-42f7-a2ea-129d85c49db9
 ms.date: 04/23/2018
 ms.keywords: KsStreamPointerLock, KsStreamPointerLock function [Streaming Media Devices], avfunc_c7a4d7fb-9708-480d-a452-f398637bc82a.xml, ks/KsStreamPointerLock, stream.ksstreampointerlock
-ms.topic: function
 f1_keywords:
  - "ks/KsStreamPointerLock"
 req.header: ks.h

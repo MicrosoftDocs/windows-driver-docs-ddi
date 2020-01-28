@@ -4,7 +4,6 @@ title: _FILE_STAT_LX_INFORMATION (ntifs.h)
 description: The _FILE_STAT_LX_INFORMATION structure contains metadata about a file.
 ms.assetid: dc897c81-2268-44bc-943e-1f494eba4a68
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "ntifs/_FILE_STAT_LX_INFORMATION"
 ms.keywords: _FILE_STAT_LX_INFORMATION, FILE_STAT_LX_INFORMATION, *PFILE_STAT_LX_INFORMATION, 

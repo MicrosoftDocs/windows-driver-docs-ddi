@@ -4,7 +4,6 @@ title: D3D12DDI_DRIVER_MATCHING_IDENTIFIER_STATUS (d3d12umddi.h)
 description: Specifies whether a device is compatible with a serialized driver identifier.
 ms.assetid: 12eec72b-25f5-4718-bb61-33771a1f1748
 ms.date: 10/19/2018
-ms.topic: enum
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DRIVER_MATCHING_IDENTIFIER_STATUS"
 ms.keywords: D3D12DDI_DRIVER_MATCHING_IDENTIFIER_STATUS, D3D12DDI_DRIVER_MATCHING_IDENTIFIER_STATUS, 

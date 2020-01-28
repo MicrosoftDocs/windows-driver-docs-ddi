@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c3a78863-0715-4051-9ae1-145bbc2746c6
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
 f1_keywords:
  - "dispmprt/_DXGK_VIRTUALGPUMEMORYRESOURCE"
 ms.prod: windows-hardware

@@ -5,7 +5,6 @@ description: The DeviceDsmOutputBlock function gets the output block of a DEVICE
 tech.root: storage
 ms.assetid: a33581ae-15ac-4957-99a0-58ed8c8dbd24
 ms.date: 08/23/2019
-ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmOutputBlock"
 ms.keywords: DeviceDsmOutputBlock

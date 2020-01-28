@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 7A10B5E7-293E-4E28-BAB8-E189891A851A
 ms.date: 04/16/2018
 ms.keywords: RtlLookupElementGenericTableAvl, RtlLookupElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtllookupelementgenerictableavl, ntddk/RtlLookupElementGenericTableAvl
-ms.topic: function
 f1_keywords:
  - "ntddk/RtlLookupElementGenericTableAvl"
 req.header: ntddk.h

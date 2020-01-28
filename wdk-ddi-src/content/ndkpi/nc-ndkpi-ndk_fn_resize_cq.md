@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: DFAEAA42-B1B5-43AA-A573-8434FAF3B446
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_RESIZE_CQ, NDK_FN_RESIZE_CQ callback, NdkResizeCq, NdkResizeCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkResizeCq, netvista.ndk_fn_resize_cq
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkResizeCq"
 req.header: ndkpi.h

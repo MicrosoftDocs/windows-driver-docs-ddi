@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 37C4A2B0-6FB4-431D-8FB2-0B13EE1F00F1
 ms.date: 04/30/2018
 ms.keywords: RtlULongPtrToShort, RtlULongPtrToShort function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtoshort, ntintsafe/RtlULongPtrToShort
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlULongPtrToShort"
 req.header: ntintsafe.h

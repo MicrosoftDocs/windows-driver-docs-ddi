@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 73ec4bf1-ba48-4b51-8824-61ce42f9708d
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_2306854d-71f7-475f-bd8c-a74e2e6630ca.xml, WdfRequestIsCanceled, WdfRequestIsCanceled method, kmdf.wdfrequestiscanceled, wdf.wdfrequestiscanceled, wdfrequest/WdfRequestIsCanceled
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WdfRequestIsCanceled"
 req.header: wdfrequest.h

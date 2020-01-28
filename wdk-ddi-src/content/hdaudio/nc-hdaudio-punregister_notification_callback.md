@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 453c5313-24a0-4009-98bd-9bba2a546a75
 ms.author: windowsdriverdev
 ms.date: 04/08/2019 
-ms.topic: callback
 f1_keywords:
  - "hdaudio/PUNREGISTER_NOTIFICATION_CALLBACK"
 ms.prod: windows-hardware

@@ -5,7 +5,6 @@ description: The NetRxQueueGetExtension method retrieves a packet extension for 
 tech.root: netvista
 ms.assetid: a3581073-6875-478b-88c6-ca753cca08b2
 ms.date: 01/31/2019
-ms.topic: function
 f1_keywords:
  - "netrxqueue/NetRxQueueCreate"
 ms.keywords: NetRxQueueGetExtension

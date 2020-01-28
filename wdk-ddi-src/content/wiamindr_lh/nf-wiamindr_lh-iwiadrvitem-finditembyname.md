@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 59a77753-1f34-4224-af11-c6bbfa847619
 ms.date: 05/03/2018
 ms.keywords: DrvItem_d3717889-b428-4dbc-8ef9-c501a52f3328.xml, FindItemByName, FindItemByName method [Imaging Devices], FindItemByName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],FindItemByName method, IWiaDrvItem.FindItemByName, IWiaDrvItem::FindItemByName, image.iwiadrvitem_finditembyname, wiamindr_lh/IWiaDrvItem::FindItemByName
-ms.topic: method
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.FindItemByName"
 req.header: wiamindr_lh.h

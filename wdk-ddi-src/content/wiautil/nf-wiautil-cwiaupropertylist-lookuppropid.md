@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 454e51fc-f81a-49c8-9e07-e32819af2642
 ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],LookupPropId method, CWiauPropertyList.LookupPropId, CWiauPropertyList::LookupPropId, LookupPropId, LookupPropId method [Imaging Devices], LookupPropId method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_lookuppropid, wiauFncs_087766c2-718f-4d02-be7f-869df198c3a7.xml, wiautil/CWiauPropertyList::LookupPropId
-ms.topic: method
 f1_keywords:
  - "wiautil/CWiauPropertyList.LookupPropId"
 req.header: wiautil.h

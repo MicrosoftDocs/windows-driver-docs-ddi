@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 80558175-4d34-4011-a5b3-b6475b5e0d15
 ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_SET_PARTITION_INFO_EX, IOCTL_DISK_SET_PARTITION_INFO_EX control, IOCTL_DISK_SET_PARTITION_INFO_EX control code [Storage Devices], k307_5fc1358c-2216-41c9-a934-9a5cbed9a6fc.xml, ntdddisk/IOCTL_DISK_SET_PARTITION_INFO_EX, storage.ioctl_disk_set_partition_info_ex
-ms.topic: ioctl
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_SET_PARTITION_INFO_EX"
 req.header: ntdddisk.h

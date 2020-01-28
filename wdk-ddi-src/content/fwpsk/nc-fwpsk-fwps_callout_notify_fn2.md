@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: c70c987b-5b4c-4ddd-8eb8-8c3c40003ab3
 ms.date: 10/29/2019
 ms.keywords: FWPS_CALLOUT_NOTIFY_FN2, FWPS_CALLOUT_NOTIFY_FN2 callback, fwpsk/notifyFn2, netvista.notifyfn2, notifyFn2, notifyFn2 callback function [Network Drivers Starting with Windows Vista]
-ms.topic: callback
 f1_keywords:
  - "fwpsk/notifyFn2"
 req.header: fwpsk.h

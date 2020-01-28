@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 20bc6141-8c4a-4a98-acb3-506840893db6
 ms.date: 05/03/2018
 ms.keywords: GetNumberOutputCallbacks, GetNumberOutputCallbacks method [Windows Debugging], GetNumberOutputCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetNumberOutputCallbacks method, IDebugClient5.GetNumberOutputCallbacks, IDebugClient5::GetNumberOutputCallbacks, IDebugClient_ce6e107b-a356-434a-81d7-eccb8495289d.xml, dbgeng/IDebugClient5::GetNumberOutputCallbacks, debugger.getnumberoutputcallbacks
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugClient5.GetNumberOutputCallbacks"
 req.header: dbgeng.h

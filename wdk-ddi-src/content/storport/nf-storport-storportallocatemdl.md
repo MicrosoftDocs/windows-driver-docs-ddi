@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 45450486-3264-4fc8-8051-f7c48997e3dd
 ms.date: 03/29/2018
 ms.keywords: StorPortAllocateMdl, StorPortAllocateMdl routine [Storage Devices], storage.storportallocatemdl, storport/StorPortAllocateMdl, storprt_d80c510f-4cc4-4687-ab5b-9b9b5cf399ce.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortAllocateMdl"
 req.header: storport.h

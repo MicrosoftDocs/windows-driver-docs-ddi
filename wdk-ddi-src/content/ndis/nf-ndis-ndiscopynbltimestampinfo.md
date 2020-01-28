@@ -5,7 +5,6 @@ description: This function is reserved for system use and should not be called i
 tech.root: netvista
 ms.assetid: 27acbf79-a529-4644-b64c-4c8ae2c6da14
 ms.date: 08/08/2018
-ms.topic: function
 f1_keywords:
  - "ndis/NdisCopyNblTimestampInfo"
 ms.keywords: NdisCopyNblTimestampInfo

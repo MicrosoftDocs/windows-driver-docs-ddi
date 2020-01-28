@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: DEE6FBD6-4807-4216-9010-F59C9E08076B
 ms.date: 05/02/2018
 ms.keywords: EVT_VMB_PACKET_COMPLETION_ROUTINE, EVT_VMB_PACKET_COMPLETION_ROUTINE callback, EvtVmbPacketCompletionRoutine, EvtVmbPacketCompletionRoutine callback function [Network Drivers Starting with Windows Vista], PFN_VMB_PACKET_COMPLETION_ROUTINE, PFN_VMB_PACKET_COMPLETION_ROUTINE callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_packet_completion_routine, vmbuskernelmodeclientlibapi/EvtVmbPacketCompletionRoutine
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/PFN_VMB_PACKET_COMPLETION_ROUTINE"
 req.header: vmbuskernelmodeclientlibapi.h

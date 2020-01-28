@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: CFCF122F-E971-4A6B-91C9-71A8030366A9
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_SUPPORTED_DEVICE_SERVICES, PWWAN_SUPPORTED_DEVICE_SERVICES, PWWAN_SUPPORTED_DEVICE_SERVICES structure pointer [Network Drivers Starting with Windows Vista], WWAN_SUPPORTED_DEVICE_SERVICES, WWAN_SUPPORTED_DEVICE_SERVICES structure [Network Drivers Starting with Windows Vista], _WWAN_SUPPORTED_DEVICE_SERVICES, netvista.wwan_supported_device_services, wwan/PWWAN_SUPPORTED_DEVICE_SERVICES, wwan/WWAN_SUPPORTED_DEVICE_SERVICES"
-ms.topic: struct
 f1_keywords:
  - "wwan/WWAN_SUPPORTED_DEVICE_SERVICES"
 req.header: wwan.h

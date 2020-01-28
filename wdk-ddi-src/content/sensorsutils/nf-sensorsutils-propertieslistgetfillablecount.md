@@ -5,7 +5,6 @@ description: Returns the number of elements a properties list buffer of a certai
 ms.assetid: 18425b45-8ebc-4bbe-b69c-caf7a3a83414
 ms.date: 08/08/2018
 tech.root: sensors
-ms.topic: function
 f1_keywords:
  - "sensorsutils/PropertiesListGetFillableCount"
 ms.keywords: PropertiesListGetFillableCount

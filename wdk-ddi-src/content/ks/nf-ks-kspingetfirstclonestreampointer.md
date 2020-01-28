@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 9b4880af-d748-4a4e-92ec-8081138d4e27
 ms.date: 04/23/2018
 ms.keywords: KsPinGetFirstCloneStreamPointer, KsPinGetFirstCloneStreamPointer function [Streaming Media Devices], avfunc_2a3d17ef-c1b8-4b22-af1e-7f9bb01c1183.xml, ks/KsPinGetFirstCloneStreamPointer, stream.kspingetfirstclonestreampointer
-ms.topic: function
 f1_keywords:
  - "ks/KsPinGetFirstCloneStreamPointer"
 req.header: ks.h

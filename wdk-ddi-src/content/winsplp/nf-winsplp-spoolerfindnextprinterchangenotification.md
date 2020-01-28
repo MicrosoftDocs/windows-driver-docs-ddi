@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: FE69BD53-F463-480A-820B-4259D6F48BD0
 ms.date: 04/20/2018
 ms.keywords: SpoolerFindNextPrinterChangeNotification, SpoolerFindNextPrinterChangeNotification function [Print Devices], print.spoolerfindnextprinterchangenotification, winsplp/SpoolerFindNextPrinterChangeNotification
-ms.topic: function
 f1_keywords:
  - "winsplp/SpoolerFindNextPrinterChangeNotification"
 req.header: winsplp.h

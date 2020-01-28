@@ -7,7 +7,6 @@ tech.root: nfpdrivers
 ms.assetid: 98047C0F-B419-4DFE-8143-BD3917650878
 ms.date: 02/15/2018
 ms.keywords: NfcCxDeviceInitConfig, NfcCxDeviceInitConfig function [Near-Field Proximity Drivers], nfccx/NfcCxDeviceInitConfig, nfpdrivers._nfccxdeviceinitconfig_
-ms.topic: function
 f1_keywords:
  - "nfccx/NfcCxDeviceInitConfig"
 req.header: nfccx.h

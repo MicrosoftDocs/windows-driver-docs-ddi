@@ -5,7 +5,6 @@ description: This routine gets a USHORT value from a PROPVARIANT within a collec
 ms.assetid: e074729c-2050-4ee6-b81f-93366d318aa9
 ms.date: 08/08/2018
 tech.root: sensors
-ms.topic: function
 f1_keywords:
  - "sensorsutils/PropKeyFindKeyGetUshort"
 ms.keywords: PropKeyFindKeyGetUshort

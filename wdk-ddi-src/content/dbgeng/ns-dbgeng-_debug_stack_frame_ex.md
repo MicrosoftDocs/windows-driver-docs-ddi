@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: EC0AF311-7BFC-4E2E-A1B1-FE38872B7FA2
 ms.date: 05/03/2018
 ms.keywords: "*PDEBUG_STACK_FRAME_EX, DEBUG_STACK_FRAME_EX, DEBUG_STACK_FRAME_EX structure [Windows Debugging], PDEBUG_STACK_FRAME_EX, PDEBUG_STACK_FRAME_EX structure pointer [Windows Debugging], _DEBUG_STACK_FRAME_EX, dbgeng/DEBUG_STACK_FRAME_EX, dbgeng/PDEBUG_STACK_FRAME_EX, debugger.debug_stack_frame_ex"
-ms.topic: struct
 f1_keywords:
  - "dbgeng/DEBUG_STACK_FRAME_EX"
 req.header: dbgeng.h

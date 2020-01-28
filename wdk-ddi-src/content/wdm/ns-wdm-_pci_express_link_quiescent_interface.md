@@ -7,7 +7,6 @@ tech.root: PCI
 ms.assetid: c57ef3e0-5d4d-4545-9c70-b2e11e5823ec
 ms.date: 02/24/2018
 ms.keywords: "*PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI.pci_express_link_quiescent_interface_, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure [Buses], _PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, wdm/"
-ms.topic: struct
 f1_keywords:
  - "wdm/PCI_EXPRESS_LINK_QUIESCENT_INTERFACE"
 req.header: wdm.h

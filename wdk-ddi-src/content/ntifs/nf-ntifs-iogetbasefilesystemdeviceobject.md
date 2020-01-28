@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 12a326d8-8628-496d-96e7-8c680aeb1a03
 ms.date: 04/16/2018
 ms.keywords: IoGetBaseFileSystemDeviceObject, IoGetBaseFileSystemDeviceObject function [Installable File System Drivers], ifsk.iogetbasefilesystemdeviceobject, ioref_008b0d20-a816-4f24-9439-ffe97ac8dc04.xml, ntifs/IoGetBaseFileSystemDeviceObject
-ms.topic: function
 f1_keywords:
  - "ntifs/IoGetBaseFileSystemDeviceObject"
 req.header: ntifs.h

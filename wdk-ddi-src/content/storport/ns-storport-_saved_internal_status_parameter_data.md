@@ -5,7 +5,6 @@ description:
 tech.root: storage
 ms.assetid: 31a20525-f950-454a-a158-4cb01dd4d8d6
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "storport/_SAVED_INTERNAL_STATUS_PARAMETER_DATA"
 ms.keywords: _SAVED_INTERNAL_STATUS_PARAMETER_DATA, SAVED_INTERNAL_STATUS_PARAMETER_DATA, *PSAVED_INTERNAL_STATUS_PARAMETER_DATA, 

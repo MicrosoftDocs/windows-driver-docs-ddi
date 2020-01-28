@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 7d1c0d8a-65db-47fd-ad6a-a83c7ed3acd9
 ms.date: 05/03/2018
 ms.keywords: CallBack_ab4a8e02-c505-49d4-8933-27428333a00d.xml, IWiaMiniDrvCallBack interface [Imaging Devices],MiniDrvCallback method, IWiaMiniDrvCallBack.MiniDrvCallback, IWiaMiniDrvCallBack::MiniDrvCallback, MiniDrvCallback, MiniDrvCallback method [Imaging Devices], MiniDrvCallback method [Imaging Devices],IWiaMiniDrvCallBack interface, image.iwiaminidrvcallback_minidrvcallback, wiamindr_lh/IWiaMiniDrvCallBack::MiniDrvCallback
-ms.topic: method
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrvCallBack.MiniDrvCallback"
 req.header: wiamindr_lh.h

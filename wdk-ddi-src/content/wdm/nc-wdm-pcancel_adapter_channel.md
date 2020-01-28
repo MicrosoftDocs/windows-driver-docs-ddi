@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 3E510E2D-AC9B-4F00-B7FD-A67B1F3FEBA7
 ms.date: 04/30/2018
 ms.keywords: CancelAdapterChannel, CancelAdapterChannel callback function [Kernel-Mode Driver Architecture], PCANCEL_ADAPTER_CHANNEL, PCANCEL_ADAPTER_CHANNEL callback, kernel.canceladapterchannel, wdm/CancelAdapterChannel
-ms.topic: callback
 f1_keywords:
  - "wdm/CancelAdapterChannel"
 req.header: wdm.h

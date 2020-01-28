@@ -4,7 +4,6 @@ title: D3DKMTDestroyTrackedWorkload function (d3dkmthk.h)
 description: Destroys a tracked workload instance.
 ms.assetid: 03995236-00aa-403f-9ea0-c03f873e8f69
 ms.date: 10/19/2018
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyTrackedWorkload"
 ms.keywords: D3DKMTDestroyTrackedWorkload

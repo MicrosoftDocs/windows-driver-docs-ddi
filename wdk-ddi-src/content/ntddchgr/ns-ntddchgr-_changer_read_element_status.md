@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 3e80790c-72b9-4e26-a767-a25e6425118e
 ms.date: 03/29/2018
 ms.keywords: "*PCHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS, CHANGER_READ_ELEMENT_STATUS structure [Storage Devices], PCHANGER_READ_ELEMENT_STATUS, PCHANGER_READ_ELEMENT_STATUS structure pointer [Storage Devices], _CHANGER_READ_ELEMENT_STATUS, ntddchgr/CHANGER_READ_ELEMENT_STATUS, ntddchgr/PCHANGER_READ_ELEMENT_STATUS, storage.changer_read_element_status, structs-changer_bbb217cb-b38d-4d81-941f-ac1d78d0c584.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddchgr/CHANGER_READ_ELEMENT_STATUS"
 req.header: ntddchgr.h

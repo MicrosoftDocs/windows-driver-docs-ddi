@@ -7,7 +7,6 @@ tech.root: PCI
 ms.assetid: 53efddbc-0e65-487c-b406-c7d093ca5667
 ms.date: 02/24/2018
 ms.keywords: "*PPCI_EXPRESS_ERROR_SOURCE_ID, PCI.pci_express_error_source_id, PCI_EXPRESS_ERROR_SOURCE_ID, PCI_EXPRESS_ERROR_SOURCE_ID union [Buses], PPCI_EXPRESS_ERROR_SOURCE_ID, PPCI_EXPRESS_ERROR_SOURCE_ID union pointer [Buses], _PCI_EXPRESS_ERROR_SOURCE_ID, pci_struct_f111f61b-46a0-450d-bbce-172f125a6903.xml, wdm/PCI_EXPRESS_ERROR_SOURCE_ID, wdm/PPCI_EXPRESS_ERROR_SOURCE_ID"
-ms.topic: struct
 f1_keywords:
  - "miniport/PCI_EXPRESS_ERROR_SOURCE_ID"
 req.header: miniport.h

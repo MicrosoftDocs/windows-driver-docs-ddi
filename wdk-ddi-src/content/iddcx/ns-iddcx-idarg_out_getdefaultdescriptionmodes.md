@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0e172d33-e4af-4345-a979-6b4549565ec7
 ms.date: 05/10/2018
 ms.keywords: IDARG_OUT_GETDEFAULTDESCRIPTIONMODES, IDARG_OUT_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], display.idarg_out_getdefaultdescriptionmodes, iddcx/IDARG_OUT_GETDEFAULTDESCRIPTIONMODES
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDARG_OUT_GETDEFAULTDESCRIPTIONMODES"
 req.header: iddcx.h

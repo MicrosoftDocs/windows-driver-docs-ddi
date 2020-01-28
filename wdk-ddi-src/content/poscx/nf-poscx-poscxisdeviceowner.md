@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: 48D30A9D-3BA2-4929-865A-D9A34DC6E497
 ms.date: 02/23/2018
 ms.keywords: PosCxIsDeviceOwner, PosCxIsDeviceOwner function, pos.poscxisdeviceowner, poscx/PosCxIsDeviceOwner
-ms.topic: function
 f1_keywords:
  - "poscx/PosCxIsDeviceOwner"
 req.header: poscx.h

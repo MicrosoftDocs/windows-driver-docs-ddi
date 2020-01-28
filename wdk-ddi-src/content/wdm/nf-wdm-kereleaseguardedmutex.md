@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 0734094d-0386-4b00-a2cb-881b782108dc
 ms.date: 04/30/2018
 ms.keywords: KeReleaseGuardedMutex, KeReleaseGuardedMutex routine [Kernel-Mode Driver Architecture], k105_a338f1ba-027d-4637-a50f-776d60bd7da0.xml, kernel.kereleaseguardedmutex, wdm/KeReleaseGuardedMutex
-ms.topic: function
 f1_keywords:
  - "wdm/KeReleaseGuardedMutex"
 req.header: wdm.h

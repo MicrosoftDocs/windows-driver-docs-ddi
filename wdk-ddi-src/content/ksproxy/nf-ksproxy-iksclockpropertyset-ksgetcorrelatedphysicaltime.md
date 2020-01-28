@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: d9babef4-c41a-4458-8072-eb562ef4d997
 ms.date: 04/23/2018
 ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsGetCorrelatedPhysicalTime method, IKsClockPropertySet.KsGetCorrelatedPhysicalTime, IKsClockPropertySet::KsGetCorrelatedPhysicalTime, KsGetCorrelatedPhysicalTime, KsGetCorrelatedPhysicalTime method [Streaming Media Devices], KsGetCorrelatedPhysicalTime method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsGetCorrelatedPhysicalTime, ksproxy_bab50759-78be-43b2-8346-2e1c88529899.xml, stream.iksclockpropertyset_ksgetcorrelatedphysicaltime
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsClockPropertySet.KsGetCorrelatedPhysicalTime"
 req.header: ksproxy.h

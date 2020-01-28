@@ -5,7 +5,6 @@ description: Hyper-V extensible switch extensions use the NDIS_SWITCH_PORT_PROPE
 tech.root: netvista
 ms.assetid: 38af4698-9281-4ba5-bf7c-14abebff1bca
 ms.date: 04/17/2018
-ms.topic: macro
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_PROPERTY"
 ms.keywords: NDIS_SWITCH_PORT_PROPERTY_ENUM_INFO_GET_PROPERTY

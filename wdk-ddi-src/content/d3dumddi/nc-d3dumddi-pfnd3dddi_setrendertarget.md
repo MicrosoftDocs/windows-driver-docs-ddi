@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 067378bd-a2d8-4c83-9436-531519eadaa3
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETRENDERTARGET, PFND3DDDI_SETRENDERTARGET callback, SetRenderTarget, SetRenderTarget callback function [Display Devices], UserModeDisplayDriver_Functions_c6c2e714-ac5c-4106-98da-1d87a322c652.xml, d3dumddi/SetRenderTarget, display.setrendertarget
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

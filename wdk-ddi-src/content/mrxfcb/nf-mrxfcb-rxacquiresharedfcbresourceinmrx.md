@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 5ef976a7-5be6-414b-a558-75c107f75d61
 ms.date: 04/16/2018
 ms.keywords: RxAcquireSharedFcbResourceInMRx, RxAcquireSharedFcbResourceInMRx routine [Installable File System Drivers], ifsk.rxacquiresharedfcbresourceinmrx, mrxfcb/RxAcquireSharedFcbResourceInMRx, rxref_8be6c6b8-c906-4071-b1a1-7687f044dcb7.xml
-ms.topic: function
 f1_keywords:
  - "mrxfcb/RxAcquireSharedFcbResourceInMRx"
 req.header: mrxfcb.h

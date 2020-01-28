@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: c7cbb968-118b-4f1a-a752-7bbe2923cba1
 ms.date: 05/03/2018
 ms.keywords: IDebugSymbols2 interface [Windows Debugging],SetTypeOptions method, IDebugSymbols2::SetTypeOptions, IDebugSymbols3 interface [Windows Debugging],SetTypeOptions method, IDebugSymbols3.SetTypeOptions, IDebugSymbols3::SetTypeOptions, IDebugSymbols_b6a88e5d-93c9-4cc6-ab53-e5e5f6b8f107.xml, SetTypeOptions, SetTypeOptions method [Windows Debugging], SetTypeOptions method [Windows Debugging],IDebugSymbols2 interface, SetTypeOptions method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::SetTypeOptions, dbgeng/IDebugSymbols3::SetTypeOptions, debugger.settypeoptions
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols2.SetTypeOptions"
 req.header: dbgeng.h

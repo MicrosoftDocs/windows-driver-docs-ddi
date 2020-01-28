@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 1190ad46-6da0-4d08-80ce-ec4cce91abea
 ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_GET_PRODUCT_STRING, IOCTL_HID_GET_PRODUCT_STRING control, IOCTL_HID_GET_PRODUCT_STRING control code [Human Input Devices], hid.ioctl_hid_get_product_string, hidclass/IOCTL_HID_GET_PRODUCT_STRING, hidioreq_566be8cb-e7d2-4756-a5e8-51c24d540780.xml
-ms.topic: ioctl
 f1_keywords:
  - "hidclass/IOCTL_HID_GET_PRODUCT_STRING"
 req.header: hidclass.h

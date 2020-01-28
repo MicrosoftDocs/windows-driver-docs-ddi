@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_createvideodecoder.htm
 ms.assetid: 5E0B6A5A-FA6E-4722-B442-FE74437224B3
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CREATEVIDEODECODER_0021, PFND3D12DDI_CREATEVIDEODECODER_0021 callback, d3d12umddi/pfnCreateVideoDecoder, display.pfnd3d12ddi_createvideodecoder, pfnCreateVideoDecoder, pfnCreateVideoDecoder callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/pfnCreateVideoDecoder"
 req.header: d3d12umddi.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 660c04b0-499b-40e7-94c2-5cb457e93f00
 ms.date: 04/30/2018
 ms.keywords: NtNotifyChangeKey, ZwNotifyChangeKey, ZwNotifyChangeKey routine [Kernel-Mode Driver Architecture], k111_e9219ad8-c702-45a2-97f1-a195c1aa8b89.xml, kernel.zwnotifychangekey, ntifs/NtNotifyChangeKey, ntifs/ZwNotifyChangeKey
-ms.topic: function
 f1_keywords:
  - "ntifs/ZwNotifyChangeKey"
 req.header: ntifs.h

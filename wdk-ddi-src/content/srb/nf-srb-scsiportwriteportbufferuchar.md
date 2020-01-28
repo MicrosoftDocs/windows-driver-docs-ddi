@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 83b6425f-52fa-4c57-aac5-698d3a586248
 ms.date: 03/29/2018
 ms.keywords: ScsiPortWritePortBufferUchar, ScsiPortWritePortBufferUchar routine [Storage Devices], scsiprt_19277863-04fb-4f72-85f5-9bc877bd83c1.xml, srb/ScsiPortWritePortBufferUchar, storage.scsiportwriteportbufferuchar
-ms.topic: function
 f1_keywords:
  - "srb/ScsiPortWritePortBufferUchar"
 req.header: srb.h

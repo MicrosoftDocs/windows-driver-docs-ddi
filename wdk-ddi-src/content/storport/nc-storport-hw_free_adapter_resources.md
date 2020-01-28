@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 2f12aab4-ca6e-473b-a342-2881c4a7b133
 ms.date: 03/29/2018
 ms.keywords: HW_FREE_ADAPTER_RESOURCES, HwStorFreeAdapterResources, HwStorFreeAdapterResources routine [Storage Devices], storage.hwstorfreeadapterresources, storport/HwStorFreeAdapterResources, storvmini_88adb6fa-10a8-4ee7-90d3-881564ed5cfd.xml
-ms.topic: callback
 f1_keywords:
  - "storport/HwStorFreeAdapterResources"
 req.header: storport.h

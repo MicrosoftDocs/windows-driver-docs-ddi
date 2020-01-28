@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 8D4B8682-5713-47D6-A18E-F2EE44614DFB
 ms.date: 04/23/2018
 ms.keywords: 1/SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization method [Serial Ports], serports.sercxgetringbufferutilization
-ms.topic: function
 f1_keywords:
  - "sercx/SerCxGetRingBufferUtilization"
 req.header: sercx.h

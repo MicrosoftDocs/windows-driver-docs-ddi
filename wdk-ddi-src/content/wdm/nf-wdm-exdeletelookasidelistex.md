@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: b72187de-a2ac-446f-bb06-9ca380454122
 ms.date: 04/30/2018
 ms.keywords: ExDeleteLookasideListEx, ExDeleteLookasideListEx routine [Kernel-Mode Driver Architecture], k102_35b6c2b4-58a3-4900-b8dc-63ed0a53b80f.xml, kernel.exdeletelookasidelistex, wdm/ExDeleteLookasideListEx
-ms.topic: function
 f1_keywords:
  - "wdm/ExDeleteLookasideListEx"
 req.header: wdm.h

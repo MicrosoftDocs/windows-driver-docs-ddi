@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 4289406f-dda0-4439-be6e-6e638bb46e1f
 ms.date: 02/26/2018
 ms.keywords: IPnpCallback interface,OnSurpriseRemoval method, IPnpCallback.OnSurpriseRemoval, IPnpCallback::OnSurpriseRemoval, OnSurpriseRemoval, OnSurpriseRemoval method, OnSurpriseRemoval method,IPnpCallback interface, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, umdf.ipnpcallback_onsurpriseremoval, wdf.ipnpcallback_onsurpriseremoval, wudfddi/IPnpCallback::OnSurpriseRemoval
-ms.topic: method
 f1_keywords:
  - "wudfddi/IPnpCallback.OnSurpriseRemoval"
 req.header: wudfddi.h

@@ -7,7 +7,6 @@ tech.root: whea
 ms.assetid: 8ad93312-932c-417c-8198-9ba515e3d55d
 ms.date: 02/20/2018
 ms.keywords: PshedRegisterPlugin, PshedRegisterPlugin function [WHEA Drivers and Applications], ntddk/PshedRegisterPlugin, whea.pshedregisterplugin, whearef_27f04399-dd53-44b3-a31e-350aee53bcb1.xml
-ms.topic: function
 f1_keywords:
  - "ntddk/PshedRegisterPlugin"
 req.header: ntddk.h

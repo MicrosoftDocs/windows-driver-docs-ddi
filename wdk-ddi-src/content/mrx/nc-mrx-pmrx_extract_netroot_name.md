@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: e990b7fc-a341-419d-b358-eac4fa2dca78
 ms.date: 04/16/2018
 ms.keywords: MRxExtractNetRootName, MRxExtractNetRootName routine [Installable File System Drivers], PMRX_EXTRACT_NETROOT_NAME, ifsk.mrxextractnetrootname, mrx/MRxExtractNetRootName, mrxref_6ccbe7d3-a74d-4eab-bfc1-994791d9613a.xml
-ms.topic: callback
 f1_keywords:
  - "mrx/MRxExtractNetRootName"
 req.header: mrx.h

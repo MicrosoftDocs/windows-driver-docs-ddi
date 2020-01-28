@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 1facaf24-ed94-4516-b9d6-bdcd8ac4b9e9
 ms.date: 04/30/2018
 ms.keywords: NtOpenEvent, ZwOpenEvent, ZwOpenEvent routine [Kernel-Mode Driver Architecture], k111_b2349294-0e16-43ef-95cb-eecd213374b6.xml, kernel.zwopenevent, wdm/NtOpenEvent, wdm/ZwOpenEvent
-ms.topic: function
 f1_keywords:
  - "wdm/ZwOpenEvent"
 req.header: wdm.h

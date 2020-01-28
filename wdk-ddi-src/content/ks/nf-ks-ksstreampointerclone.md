@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: b51e1c17-e6b5-4108-bfbc-29f1ee06d9f4
 ms.date: 04/23/2018
 ms.keywords: KsStreamPointerClone, KsStreamPointerClone function [Streaming Media Devices], avfunc_29a7da58-5321-4c19-83df-c9deab062e78.xml, ks/KsStreamPointerClone, stream.ksstreampointerclone
-ms.topic: function
 f1_keywords:
  - "ks/KsStreamPointerClone"
 req.header: ks.h

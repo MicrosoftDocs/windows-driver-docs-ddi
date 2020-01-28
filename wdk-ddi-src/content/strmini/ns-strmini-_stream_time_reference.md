@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: BC3839C0-AED6-470D-9C2B-B1529B2B3D1A
 ms.date: 04/23/2018
 ms.keywords: "*PSTREAM_TIME_REFERENCE, PSTREAM_TIME_REFERENCE, PSTREAM_TIME_REFERENCE structure pointer [Streaming Media Devices], STREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE structure [Streaming Media Devices], _STREAM_TIME_REFERENCE, stream.stream_time_reference, strmini/PSTREAM_TIME_REFERENCE, strmini/STREAM_TIME_REFERENCE"
-ms.topic: struct
 f1_keywords:
  - "strmini/STREAM_TIME_REFERENCE"
 req.header: strmini.h

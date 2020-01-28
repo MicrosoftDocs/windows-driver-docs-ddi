@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 79ac01ff-9976-4321-a6b1-0a1cc6e5810a
 ms.date: 05/02/2018
 ms.keywords: FwpmEngineClose0, FwpmEngineClose0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmEngineClose0, netvista.fwpmengineclose0, wfp_ref_2_funct_2_fwpm_b01feaca-7c4a-44a9-aec4-f867508b0129.xml
-ms.topic: function
 f1_keywords:
  - "fwpmk/FwpmEngineClose0"
 req.header: fwpmk.h

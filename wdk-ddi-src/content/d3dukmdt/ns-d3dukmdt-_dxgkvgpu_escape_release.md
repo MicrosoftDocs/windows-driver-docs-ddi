@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 96BA0967-BA65-483D-9165-C7ADE05C0216
 ms.date: 05/10/2018
 ms.keywords: DXGKVGPU_ESCAPE_RELEASE, DXGKVGPU_ESCAPE_RELEASE structure [Display Devices], _DXGKVGPU_ESCAPE_RELEASE, d3dukmdt/DXGKVGPU_ESCAPE_RELEASE, display.dxgkvgpu_escape_release
-ms.topic: struct
 f1_keywords:
  - "d3dukmdt/DXGKVGPU_ESCAPE_RELEASE"
 req.header: d3dukmdt.h

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: f4d3d2cf-8877-4071-8e75-f971803beca4
 ms.date: 02/26/2018
 ms.keywords: IWDFDevice2, IWDFDevice2 interface, IWDFDevice2 interface,described, UMDFDeviceObjectRef_0b02d642-234d-4f98-b6d1-5557aa74eb14.xml, umdf.iwdfdevice2, wdf.iwdfdevice2, wudfddi/IWDFDevice2
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IWDFDevice2"
 req.header: wudfddi.h

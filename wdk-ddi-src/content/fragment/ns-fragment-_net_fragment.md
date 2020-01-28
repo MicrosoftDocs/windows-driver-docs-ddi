@@ -5,7 +5,6 @@ description: Represents one contiguous buffer in memory.
 tech.root: netvista
 ms.assetid: 7836111a-f6e9-4177-858d-a05a30a2ec1a
 ms.date: 09/26/2019
-ms.topic: struct
 f1_keywords:
  - "fragment/INSTANCE_PARTIAL_INFORMATION"
 ms.keywords: _NET_FRAGMENT, NET_FRAGMENT, 

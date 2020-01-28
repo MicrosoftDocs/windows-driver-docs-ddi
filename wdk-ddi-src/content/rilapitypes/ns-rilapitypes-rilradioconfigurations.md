@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 28908305-69aa-4bf0-98a1-6cee4aa1c349
 ms.date: 05/02/2018
 ms.keywords: "*LPRILRADIOCONFIGURATIONS, RILRADIOCONFIGURATIONS, RILRADIOCONFIGURATIONS structure [Network Drivers Starting with Windows Vista], netvista.rilradioconfigurations, ntddrilapitypes/RILRADIOCONFIGURATIONS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILRADIOCONFIGURATIONS"
 req.header: rilapitypes.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 2a9f3bb8-3de5-439c-86a3-7fdc6b025b8d
 ms.date: 05/02/2018
 ms.keywords: RIL_DrainModemLogs, RIL_DrainModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_drainmodemlogs, rilapi/RIL_DrainModemLogs
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_DrainModemLogs"
 req.header: rilapi.h

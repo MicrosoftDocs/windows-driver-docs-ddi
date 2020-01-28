@@ -7,7 +7,6 @@ tech.root: IEEE
 ms.assetid: 32C96259-3A35-4BD3-96A4-A9F2A5FDAB99
 ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_SEND_PHY_PACKET, IEEE.irb_req_send_phy_packet, IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET structure [Buses], _IRB_REQ_SEND_PHY_PACKET
-ms.topic: struct
 f1_keywords:
  - "1394/IRB_REQ_SEND_PHY_PACKET"
 req.header: 1394.h

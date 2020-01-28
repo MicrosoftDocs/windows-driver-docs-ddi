@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 0bcd48c6-be8a-47af-9e34-a06ce572925c
 ms.date: 05/03/2018
 ms.keywords: IStiDevice interface [Imaging Devices],UnLockDevice method, IStiDevice.UnLockDevice, IStiDevice::UnLockDevice, UnLockDevice, UnLockDevice method [Imaging Devices], UnLockDevice method [Imaging Devices],IStiDevice interface, image.istidevice_unlockdevice, sti/IStiDevice::UnLockDevice, stifnc_7f72c1a7-41cd-4191-8c8f-390dfc991246.xml
-ms.topic: method
 f1_keywords:
  - "sti/IStiDevice.UnLockDevice"
 req.header: sti.h

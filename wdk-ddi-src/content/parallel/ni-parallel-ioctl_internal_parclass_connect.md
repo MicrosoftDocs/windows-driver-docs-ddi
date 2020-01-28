@@ -7,7 +7,6 @@ tech.root: parports
 ms.assetid: 77dc31a1-a50c-4727-b730-1785e5d4a355
 ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_PARCLASS_CONNECT, IOCTL_INTERNAL_PARCLASS_CONNECT control code [Parallel Ports], cisspd_03b94b78-be74-4421-bb08-0860d6d8dca5.xml, parallel/IOCTL_INTERNAL_PARCLASS_CONNECT, parports.ioctl_internal_parclass_connect
-ms.topic: ioctl
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_PARCLASS_CONNECT"
 req.header: parallel.h

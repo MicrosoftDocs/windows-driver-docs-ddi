@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 95df7ed6-ac9e-4620-bc3c-54e45a123fdc
 ms.date: 05/10/2018
 ms.keywords: VideoPortGetDeviceData, VideoPortGetDeviceData function [Display Devices], VideoPort_Functions_01e88665-7ecb-470e-b25b-21a3c62f7485.xml, display.videoportgetdevicedata, video/VideoPortGetDeviceData
-ms.topic: function
 f1_keywords:
  - "video/VideoPortGetDeviceData"
 req.header: video.h

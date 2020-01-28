@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 8e6042e4-b004-4250-b208-b0614d2d11fd
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml, WdfChildListRetrievePdo, WdfChildListRetrievePdo method, kmdf.wdfchildlistretrievepdo, wdf.wdfchildlistretrievepdo, wdfchildlist/WdfChildListRetrievePdo
-ms.topic: function
 f1_keywords:
  - "wdfchildlist/WdfChildListRetrievePdo"
 req.header: wdfchildlist.h

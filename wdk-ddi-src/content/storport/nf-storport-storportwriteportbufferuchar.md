@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 44b57aa2-37ef-4491-8a88-9e7f880f5c1b
 ms.date: 03/29/2018
 ms.keywords: StorPortWritePortBufferUchar, StorPortWritePortBufferUchar routine [Storage Devices], storage.storportwriteportbufferuchar, storport/StorPortWritePortBufferUchar, storprt_5bdd38fc-5cb0-483e-a0aa-19179c7ad833.xml
-ms.topic: macro
 f1_keywords:
  - "storport/StorPortWritePortBufferUchar"
 req.header: storport.h

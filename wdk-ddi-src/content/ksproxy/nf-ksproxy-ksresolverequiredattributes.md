@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 04153845-4170-40db-ba60-3d438ae0a60d
 ms.date: 04/23/2018
 ms.keywords: KsResolveRequiredAttributes, KsResolveRequiredAttributes function [Streaming Media Devices], ksproxy/KsResolveRequiredAttributes, ksproxy_fb22470c-5445-4005-b1c3-4f708cc0a47f.xml, stream.ksresolverequiredattributes
-ms.topic: function
 f1_keywords:
  - "ksproxy/KsResolveRequiredAttributes"
 req.header: ksproxy.h

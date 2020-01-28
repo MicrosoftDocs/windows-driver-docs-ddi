@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 7e4ca8ea-52c1-462e-bf02-cc82e9ab2be2
 ms.date: 04/23/2018
 ms.keywords: KsSynchronousIoControlDevice, KsSynchronousIoControlDevice function [Streaming Media Devices], ks/KsSynchronousIoControlDevice, ksfunc_b3bba8f7-d9fb-4372-bfff-f39b4d925561.xml, stream.kssynchronousiocontroldevice
-ms.topic: function
 f1_keywords:
  - "ks/KsSynchronousIoControlDevice"
 req.header: ks.h

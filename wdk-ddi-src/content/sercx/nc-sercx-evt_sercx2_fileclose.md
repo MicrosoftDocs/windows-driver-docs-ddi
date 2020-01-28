@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: C923D37B-595F-41CF-B2F3-F12303120C95
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2FileClose, EVT_SERCX2_FILECLOSE, EVT_SERCX2_FILECLOSE callback, EvtSerCx2FileClose, EvtSerCx2FileClose callback function [Serial Ports], serports.evtsercx2fileclose
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2FileClose"
 req.header: sercx.h

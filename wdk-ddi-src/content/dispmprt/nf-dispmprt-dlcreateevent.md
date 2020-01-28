@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 680892be-b48b-4a2a-90bd-29468ae432d6
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: function
 f1_keywords:
  - "dispmprt/DlCreateEvent"
 ms.keywords: DlCreateEvent

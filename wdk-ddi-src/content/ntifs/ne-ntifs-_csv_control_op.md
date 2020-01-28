@@ -5,7 +5,6 @@ description: Specifies the type of cluster shared volume (CSV) control operation
 tech.root: ifsk
 ms.assetid: a08a089b-44a0-45b7-98e3-8d82b3edef4b
 ms.date: 10/21/2019
-ms.topic: enum
 f1_keywords:
  - "ntifs/_CSV_CONTROL_OP"
 ms.keywords: _CSV_CONTROL_OP, CSV_CONTROL_OP, *PCSV_CONTROL_OP, 

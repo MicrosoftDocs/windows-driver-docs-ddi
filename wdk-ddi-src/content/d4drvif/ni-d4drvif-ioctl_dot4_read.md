@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 6E9E20E9-37F1-4C2F-B7C8-885F617A671F
 ms.date: 04/20/2018
 ms.keywords: IOCTL_DOT4_READ, IOCTL_DOT4_READ control, IOCTL_DOT4_READ control code [Print Devices], d4drvif/IOCTL_DOT4_READ, print.ioctl_ioctl_dot4_read
-ms.topic: ioctl
 f1_keywords:
  - "d4drvif/IOCTL_DOT4_READ"
 req.header: d4drvif.h

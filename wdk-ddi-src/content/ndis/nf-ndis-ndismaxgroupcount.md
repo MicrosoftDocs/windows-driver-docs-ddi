@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 080707c5-cf46-4066-a241-684cdae37fee
 ms.date: 05/02/2018
 ms.keywords: NdisMaxGroupCount, NdisMaxGroupCount function [Network Drivers Starting with Windows Vista], ndis/NdisMaxGroupCount, ndis_processor_group_ref_5744be61-71b7-4abc-ad66-30b26558c0ac.xml, netvista.ndismaxgroupcount
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMaxGroupCount"
 req.header: ndis.h

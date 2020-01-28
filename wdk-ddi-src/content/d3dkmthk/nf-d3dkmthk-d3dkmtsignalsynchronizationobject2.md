@@ -6,7 +6,6 @@ old-location: display\d3dkmtsignalsynchronizationobject2.htm
 ms.assetid: 7a13d999-9caf-4750-beba-4e031cd0db81
 ms.date: 05/10/2018
 ms.keywords: D3DKMTSignalSynchronizationObject2, D3DKMTSignalSynchronizationObject2 function [Display Devices], OpenGL_Functions_ffc87bcb-e2ab-48ea-8a90-c0b4cf7c8b33.xml, d3dkmthk/D3DKMTSignalSynchronizationObject2, display.d3dkmtsignalsynchronizationobject2
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTSignalSynchronizationObject2"
 req.header: d3dkmthk.h

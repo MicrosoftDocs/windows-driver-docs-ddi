@@ -6,7 +6,6 @@ old-location: display\dxgk_set_timing_flags.htm
 ms.assetid: BB10EBD3-2CB6-4854-994D-B10929CB27FC
 ms.date: 05/10/2018
 ms.keywords: DXGK_SET_TIMING_FLAGS, DXGK_SET_TIMING_FLAGS structure [Display Devices], PDXGK_SET_TIMING_FLAGS, PDXGK_SET_TIMING_FLAGS structure pointer [Display Devices], _DXGK_SET_TIMING_FLAGS, d3dkmddi/DXGK_SET_TIMING_FLAGS, d3dkmddi/PDXGK_SET_TIMING_FLAGS, display.dxgk_set_timing_flags
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_SET_TIMING_FLAGS"
 req.header: d3dkmddi.h

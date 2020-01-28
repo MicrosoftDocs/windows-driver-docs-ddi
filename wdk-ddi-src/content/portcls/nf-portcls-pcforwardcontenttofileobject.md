@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 3cad8e61-e016-415a-9aa9-1169267dc729
 ms.date: 05/08/2018
 ms.keywords: PcForwardContentToFileObject, PcForwardContentToFileObject function [Audio Devices], audio.pcforwardcontenttofileobject, audpc-routines_2560382f-57c9-4d3c-9ba0-330374e18663.xml, portcls/PcForwardContentToFileObject
-ms.topic: function
 f1_keywords:
  - "portcls/PcForwardContentToFileObject"
 req.header: portcls.h

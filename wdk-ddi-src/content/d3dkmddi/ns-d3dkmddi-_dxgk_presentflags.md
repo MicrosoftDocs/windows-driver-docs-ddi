@@ -6,7 +6,6 @@ old-location: display\dxgk_presentflags.htm
 ms.assetid: ff1fe315-7824-4e61-83f5-6d75aba2a941
 ms.date: 05/10/2018
 ms.keywords: DXGK_PRESENTFLAGS, DXGK_PRESENTFLAGS structure [Display Devices], DmStructs_b8913202-bee3-4584-b323-6c6fb47a5c8d.xml, _DXGK_PRESENTFLAGS, d3dkmddi/DXGK_PRESENTFLAGS, display.dxgk_presentflags
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_PRESENTFLAGS"
 req.header: d3dkmddi.h

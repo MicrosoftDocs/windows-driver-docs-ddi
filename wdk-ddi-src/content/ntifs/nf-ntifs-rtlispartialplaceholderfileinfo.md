@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: B84CC8C1-639D-45B4-A2A4-03BA2F1FF04B
 ms.date: 04/16/2018
 ms.keywords: RtlIsPartialPlaceholderFileInfo, RtlIsPartialPlaceholderFileInfo routine [Installable File System Drivers], ifsk.rtlispartialplaceholderfileinfo, ntifs/RtlIsPartialPlaceholderFileInfo
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlIsPartialPlaceholderFileInfo"
 req.header: ntifs.h

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 762776f1-5423-4d02-8b59-de1e9ada8044
 ms.date: 03/29/2018
 ms.keywords: IOCTL_AACS_SEND_CHALLENGE_KEY, IOCTL_AACS_SEND_CHALLENGE_KEY control, IOCTL_AACS_SEND_CHALLENGE_KEY control code [Storage Devices], k307_064ac0c8-c4f9-4232-a41a-72159ff13fd2.xml, ntddcdvd/IOCTL_AACS_SEND_CHALLENGE_KEY, storage.ioctl_aacs_send_challenge_key
-ms.topic: ioctl
 f1_keywords:
  - "ntddcdvd/IOCTL_AACS_SEND_CHALLENGE_KEY"
 req.header: ntddcdvd.h

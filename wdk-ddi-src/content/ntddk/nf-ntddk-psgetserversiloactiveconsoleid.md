@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 66b3c35d-681c-464a-86fa-972825bf3e97
 ms.date: 04/30/2018
 ms.keywords: PsGetServerSiloActiveConsoleId, PsGetServerSiloActiveConsoleId method [Kernel-Mode Driver Architecture], kernel.psgetserversiloactiveconsoleid, ntddk/PsGetServerSiloActiveConsoleId
-ms.topic: function
 f1_keywords:
  - "ntddk/PsGetServerSiloActiveConsoleId"
 req.header: ntddk.h

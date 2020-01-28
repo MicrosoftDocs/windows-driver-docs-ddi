@@ -6,7 +6,6 @@ old-location: display\pfnstatevsshadercb.htm
 ms.assetid: f43f7dea-26a6-4e3f-99e2-5e3488a621b0
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_STATE_VS_SHADER_CB, PFND3D10DDI_STATE_VS_SHADER_CB callback, d3d10state_functions_e9873351-ceaf-4cc2-9f92-7b3708d803bd.xml, d3d10umddi/pfnStateVsShaderCb, display.pfnstatevsshadercb, pfnStateVsShaderCb, pfnStateVsShaderCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateVsShaderCb"
 req.header: d3d10umddi.h

@@ -4,7 +4,6 @@ title: IIndexableConcept::SetAt (dbgmodel.h)
 description: The SetAt method attempts to set the value at a particular N-dimensional index from within the indexed object.
 ms.assetid: 732e17ad-60d2-4f42-a898-5fa81eb7005b
 ms.date: 09/19/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IIndexableConcept.SetAt"
 ms.keywords: IIndexableConcept::SetAt, SetAt, IIndexableConcept.SetAt, IIndexableConcept::SetAt, IIndexableConcept.SetAt

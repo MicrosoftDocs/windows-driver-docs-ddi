@@ -4,7 +4,6 @@ title: IDebugHostSymbols::CreateTypeSignature (dbgmodel.h)
 description: The CreateTypeSignature method creates a signature which can be used to match a set of concrete types by containing module and type name.
 ms.assetid: ead25214-26a0-4819-81ca-e47f5644b1f2
 ms.date: 08/22/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDebugHostSymbols.CreateTypeSignature"
 ms.keywords: IDebugHostSymbols::CreateTypeSignature, CreateTypeSignature, IDebugHostSymbols.CreateTypeSignature, IDebugHostSymbols::CreateTypeSignature, IDebugHostSymbols.CreateTypeSignature

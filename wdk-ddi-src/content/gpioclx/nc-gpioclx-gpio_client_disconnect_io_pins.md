@@ -7,7 +7,6 @@ tech.root: GPIO
 ms.assetid: FA6ACAE4-54D9-4EE6-AC63-3FFB973DD37F
 ms.date: 02/15/2018
 ms.keywords: CLIENT_DisconnectIoPins, CLIENT_DisconnectIoPins callback, CLIENT_DisconnectIoPins callback function [Parallel Ports], GPIO.client_disconnectiopins, GPIO_CLIENT_DISCONNECT_IO_PINS, gpioclx/CLIENT_DisconnectIoPins
-ms.topic: callback
 f1_keywords:
  - "gpioclx/CLIENT_DisconnectIoPins"
 req.header: gpioclx.h

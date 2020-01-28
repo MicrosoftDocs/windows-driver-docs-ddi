@@ -7,7 +7,6 @@ tech.root: SPB
 ms.assetid: 5ED8DC18-75B8-40EB-B7D2-6F8597BCEBF9
 ms.date: 04/30/2018
 ms.keywords: SPB.spb_transfer_list_entry_init_non_paged, SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED, SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
-ms.topic: function
 f1_keywords:
  - "spb/SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED"
 req.header: spb.h

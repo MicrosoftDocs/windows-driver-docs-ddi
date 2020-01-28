@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 8b2cf728-8859-4b7d-99f0-2ee7604ab480
 ms.date: 04/30/2018
 ms.keywords: ClfsLsnBlockOffset, ClfsLsnBlockOffset routine [Kernel-Mode Driver Architecture], Clfs_700ff9e8-40ea-4659-b4a5-99432fb1577c.xml, kernel.clfslsnblockoffset, wdm/ClfsLsnBlockOffset
-ms.topic: function
 f1_keywords:
  - "wdm/ClfsLsnBlockOffset"
 req.header: wdm.h

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: F35F80E7-E1B6-4219-96AF-687E0014CCB3
 ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionFreeResources, WdfDmaTransactionFreeResources method, kmdf.wdfdmatransactionfreeresources, wdf.wdfdmatransactionfreeresources, wdfdmatransaction/WdfDmaTransactionFreeResources
-ms.topic: function
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionFreeResources"
 req.header: wdfdmatransaction.h

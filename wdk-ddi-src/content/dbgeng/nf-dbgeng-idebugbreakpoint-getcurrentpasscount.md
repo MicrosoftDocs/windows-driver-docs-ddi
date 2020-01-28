@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: ff9b9988-6790-48d1-8423-60c63b0a90cf
 ms.date: 05/03/2018
 ms.keywords: ComOther_b9308489-679e-4ced-bd73-84cbeaadc669.xml, GetCurrentPassCount, GetCurrentPassCount method [Windows Debugging], GetCurrentPassCount method [Windows Debugging],IDebugBreakpoint interface, GetCurrentPassCount method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetCurrentPassCount method, IDebugBreakpoint.GetCurrentPassCount, IDebugBreakpoint2 interface [Windows Debugging],GetCurrentPassCount method, IDebugBreakpoint2::GetCurrentPassCount, IDebugBreakpoint::GetCurrentPassCount, dbgeng/IDebugBreakpoint2::GetCurrentPassCount, dbgeng/IDebugBreakpoint::GetCurrentPassCount, debugger.getcurrentpasscount
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.GetCurrentPassCount"
 req.header: dbgeng.h

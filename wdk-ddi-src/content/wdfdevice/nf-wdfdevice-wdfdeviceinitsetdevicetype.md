@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 26c5c998-fb10-45c3-b28c-91a759fa941e
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_872eb4dd-0d40-46ed-a7ed-4eae8ec67240.xml, WdfDeviceInitSetDeviceType, WdfDeviceInitSetDeviceType method, kmdf.wdfdeviceinitsetdevicetype, wdf.wdfdeviceinitsetdevicetype, wdfdevice/WdfDeviceInitSetDeviceType
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetDeviceType"
 req.header: wdfdevice.h

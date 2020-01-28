@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: 7b3ca272-8583-429e-970d-6f9b965da337
 ms.date: 02/15/2018
 ms.keywords: GetUnsignedIntegerValue, GetUnsignedIntegerValue method, GetUnsignedIntegerValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetUnsignedIntegerValue method, IPortableDeviceValues.GetUnsignedIntegerValue, IPortableDeviceValues::GetUnsignedIntegerValue, IPortableDeviceValuesGetUnsignedIntegerValue, portabledevicetypes/IPortableDeviceValues::GetUnsignedIntegerValue, wpddk.iportabledevicevalues_getunsignedintegervalue
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetUnsignedIntegerValue"
 req.header: portabledevicetypes.h

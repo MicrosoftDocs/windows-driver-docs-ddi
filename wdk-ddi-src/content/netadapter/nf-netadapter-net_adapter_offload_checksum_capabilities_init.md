@@ -5,7 +5,6 @@ description: The NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT method initializ
 tech.root: netvista
 ms.assetid: 22fa6f17-30aa-4ca4-ab53-a3c95591a68f
 ms.date: 01/18/2019
-ms.topic: function
 f1_keywords:
  - "netadapter/NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES_INIT

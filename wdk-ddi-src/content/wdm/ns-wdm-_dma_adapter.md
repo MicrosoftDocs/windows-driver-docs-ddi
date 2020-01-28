@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 08cd5b10-725e-4a36-b70d-42a831b79372
 ms.date: 04/30/2018
 ms.keywords: "*PADAPTER_OBJECT, *PDMA_ADAPTER, DMA_ADAPTER, DMA_ADAPTER structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER, PDMA_ADAPTER structure pointer [Kernel-Mode Driver Architecture], _DMA_ADAPTER, kernel.dma_adapter, kstruct_a_030ef4da-75e2-4427-baf6-cb9a5eb194cf.xml, wdm/DMA_ADAPTER, wdm/PDMA_ADAPTER"
-ms.topic: struct
 f1_keywords:
  - "wdm/DMA_ADAPTER"
 req.header: wdm.h

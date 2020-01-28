@@ -5,7 +5,6 @@ description: The NDIS_RELEASE_MUTEX macro releases the specified mutex object.
 tech.root: netvista
 ms.assetid: 9a64c6fc-ee2c-45b5-ba12-7e9a42934a9b
 ms.date: 04/16/2018
-ms.topic: macro
 f1_keywords:
  - "ndis/NDIS_RELEASE_MUTEX"
 ms.keywords: NDIS_RELEASE_MUTEX

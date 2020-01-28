@@ -7,7 +7,6 @@ tech.root: nfpdrivers
 ms.assetid: 03E15708-7983-41F5-BD66-F9E1117740A6
 ms.date: 02/15/2018
 ms.keywords: NFC_CX_LLCP_CONFIG_INIT, NFC_CX_LLCP_CONFIG_INIT function [Near-Field Proximity Drivers], nfccx/NFC_CX_LLCP_CONFIG_INIT, nfpdrivers.nfc_cx_llcp_config_init
-ms.topic: function
 f1_keywords:
  - "nfccx/NFC_CX_LLCP_CONFIG_INIT"
 req.header: nfccx.h

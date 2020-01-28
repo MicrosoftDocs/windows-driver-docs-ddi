@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 2c7d31a3-081a-420a-ab61-33700155d858
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_b2c7b272-fe4a-4422-9e98-e756cdf3f264.xml, WdfUsbTargetDeviceGetInterface, WdfUsbTargetDeviceGetInterface method, kmdf.wdfusbtargetdevicegetinterface, wdf.wdfusbtargetdevicegetinterface, wdfusb/WdfUsbTargetDeviceGetInterface
-ms.topic: function
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceGetInterface"
 req.header: wdfusb.h

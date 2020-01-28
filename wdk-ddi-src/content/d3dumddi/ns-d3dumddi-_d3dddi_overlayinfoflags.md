@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: ebf31c28-857b-4885-a910-16da5a011ce1
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_OVERLAYINFOFLAGS, D3DDDI_OVERLAYINFOFLAGS structure [Display Devices], D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml, _D3DDDI_OVERLAYINFOFLAGS, d3dumddi/D3DDDI_OVERLAYINFOFLAGS, display.d3dddi_overlayinfoflags
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDI_OVERLAYINFOFLAGS"
 req.header: d3dumddi.h

@@ -5,7 +5,6 @@ description: This routine gets a BOOL value from a PROPVARIANT within a collecti
 ms.assetid: 6d6c1849-555f-4c33-bc26-723006584ed5
 ms.date: 08/08/2018
 tech.root: sensors
-ms.topic: function
 f1_keywords:
  - "sensorsutils/PropKeyFindKeyGetBool"
 ms.keywords: PropKeyFindKeyGetBool

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 9f03af94-0a29-42f4-84f1-09d8d1c97dd6
 ms.date: 04/30/2018
 ms.keywords: KeStallExecutionProcessor, KeStallExecutionProcessor routine [Kernel-Mode Driver Architecture], k105_47405815-7368-4100-b39d-43f5a242f5c1.xml, kernel.kestallexecutionprocessor, wdm/KeStallExecutionProcessor
-ms.topic: function
 f1_keywords:
  - "ntifs/KeStallExecutionProcessor"
 req.header: ntifs.h

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 88967BD6-C633-40D0-BE4F-2B08494EA5B0
 ms.date: 04/16/2018
 ms.keywords: FsRtlPrepareToReuseEcp, FsRtlPrepareToReuseEcp routine [Installable File System Drivers], ifsk.fsrtlpreparetoreuseecp, ntifs/FsRtlPrepareToReuseEcp
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlPrepareToReuseEcp"
 req.header: ntifs.h

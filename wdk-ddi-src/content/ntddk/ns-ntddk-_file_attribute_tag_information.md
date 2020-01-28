@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: e330bd79-cd44-412e-b9aa-ca5b791750d4
 ms.date: 04/30/2018
 ms.keywords: "*PFILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ATTRIBUTE_TAG_INFORMATION, PFILE_ATTRIBUTE_TAG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_ATTRIBUTE_TAG_INFORMATION, kernel.file_attribute_tag_information, kstruct_b_d990c73e-3b75-4c00-954d-a16cca892895.xml, ntddk/FILE_ATTRIBUTE_TAG_INFORMATION, ntddk/PFILE_ATTRIBUTE_TAG_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "ntddk/FILE_ATTRIBUTE_TAG_INFORMATION"
 req.header: ntddk.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 2D5DA884-1746-4DBC-8ABC-2D307181CCAE
 ms.date: 04/30/2018
 ms.keywords: RtlULongMult, RtlULongMult function [Kernel-Mode Driver Architecture], kernel.rtlulongmult, ntintsafe/RtlULongMult
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlULongMult"
 req.header: ntintsafe.h

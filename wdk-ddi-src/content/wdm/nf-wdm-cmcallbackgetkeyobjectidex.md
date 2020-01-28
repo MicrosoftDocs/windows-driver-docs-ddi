@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: E55CDAF9-2711-4DC6-8BED-EDB0D78D9158
 ms.date: 04/30/2018
 ms.keywords: CmCallbackGetKeyObjectIDEx, CmCallbackGetKeyObjectIDEx routine [Kernel-Mode Driver Architecture], kernel.cmcallbackgetkeyobjectidex, wdm/CmCallbackGetKeyObjectIDEx
-ms.topic: function
 f1_keywords:
  - "wdm/CmCallbackGetKeyObjectIDEx"
 req.header: wdm.h

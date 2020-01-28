@@ -5,7 +5,6 @@ description: The VmbChannelInitSetStateChangeCallbacks function sets optional ca
 tech.root: netvista
 ms.assetid: fb182313-12a8-4886-bc16-9255ac998684
 ms.date: 05/21/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_STATE_CHANGE_CALLBACKS"
 req.header: vmbuskernelmodeclientlibapi.h

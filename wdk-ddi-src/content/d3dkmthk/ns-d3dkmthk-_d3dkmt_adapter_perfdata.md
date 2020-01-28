@@ -4,7 +4,6 @@ title: _D3DKMT_ADAPTER_PERFDATA (d3dkmthk.h)
 description: Contains input arguments for the D3DKMTQueryAdapterInfo function. Represents performance data collected per adapter on an interval basis.
 ms.assetid: 9ea3462d-9604-4d22-9d7f-1dc5a0693d2a
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ADAPTER_PERFDATA"
 ms.keywords: _D3DKMT_ADAPTER_PERFDATA, D3DKMT_ADAPTER_PERFDATA,

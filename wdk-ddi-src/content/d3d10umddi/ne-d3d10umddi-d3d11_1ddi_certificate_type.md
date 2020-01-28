@@ -6,7 +6,6 @@ old-location: display\d3d11_1ddi_certificate_type.htm
 ms.assetid: e95573c9-0ea7-4ad2-9e7e-d75761e98be6
 ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_CERTIFICATE_TYPE, D3D11_1DDI_CERTIFICATE_TYPE enumeration [Display Devices], D3D11_1DDI_CERTIFICATE_TYPE_AUTHENTICATED_CHANNEL, D3D11_1DDI_CERTIFICATE_TYPE_CRYPTO_SESSION, d3d10umddi/D3D11_1DDI_CERTIFICATE_TYPE, d3d10umddi/D3D11_1DDI_CERTIFICATE_TYPE_AUTHENTICATED_CHANNEL, d3d10umddi/D3D11_1DDI_CERTIFICATE_TYPE_CRYPTO_SESSION, display.d3d11_1ddi_certificate_type
-ms.topic: enum
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_CERTIFICATE_TYPE"
 req.header: d3d10umddi.h

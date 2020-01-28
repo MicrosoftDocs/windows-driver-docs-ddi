@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 99cd35f3-ebae-4ef2-b6fa-96853b3639ee
 ms.date: 04/20/2018
 ms.keywords: IPrintCoreHelperUni interface [Print Devices],WhyConstrained method, IPrintCoreHelperUni.WhyConstrained, IPrintCoreHelperUni::WhyConstrained, WhyConstrained, WhyConstrained method [Print Devices], WhyConstrained method [Print Devices],IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::WhyConstrained, print.iprintcorehelperuni_whyconstrained, print_unidrv-pscript_allplugins_82445c6f-68d1-41df-b94f-243cd072e1a0.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintCoreHelperUni.WhyConstrained"
 req.header: prcomoem.h

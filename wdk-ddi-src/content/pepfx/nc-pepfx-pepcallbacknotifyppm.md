@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 06A8ED06-107E-495F-8664-01477C9CF843
 ms.date: 04/30/2018
 ms.keywords: AcceptProcessorNotification, AcceptProcessorNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYPPM, kernel.acceptprocessornotification, pepfx/AcceptProcessorNotification
-ms.topic: callback
 f1_keywords:
  - "pepfx/AcceptProcessorNotification"
 req.header: pepfx.h

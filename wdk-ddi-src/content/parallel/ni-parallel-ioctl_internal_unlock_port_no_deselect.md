@@ -7,7 +7,6 @@ tech.root: parports
 ms.assetid: 516441bc-d240-43d2-a206-3d0bd8e712e9
 ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT, IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT control code [Parallel Ports], cisspd_a62d2a09-93e4-4fc4-ac5d-9589d930c794.xml, parallel/IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT, parports.ioctl_internal_unlock_port_no_deselect
-ms.topic: ioctl
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT"
 req.header: parallel.h

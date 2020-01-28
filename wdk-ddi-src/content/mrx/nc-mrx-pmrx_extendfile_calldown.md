@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 2fde7925-040b-4a8c-8a95-29321f1ae474
 ms.date: 04/16/2018
 ms.keywords: MRxExtendForCache, MRxExtendForCache routine [Installable File System Drivers], PMRX_EXTENDFILE_CALLDOWN, ifsk.mrxextendforcache, mrx/MRxExtendForCache, mrxref_9d9e2b3a-589c-41a3-b786-fbaaab97814a.xml
-ms.topic: callback
 f1_keywords:
  - "mrx/MRxExtendForCache"
 req.header: mrx.h

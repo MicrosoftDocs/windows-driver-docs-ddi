@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: b1522320-110c-46dc-be50-df7c05d61351
 ms.date: 03/29/2018
 ms.keywords: "*PDSM_Load_Balance_Policy_V2, DSM_Load_Balance_Policy_V2, DSM_Load_Balance_Policy_V2 structure [Storage Devices], PDSM_Load_Balance_Policy_V2, PDSM_Load_Balance_Policy_V2 structure pointer [Storage Devices], _DSM_Load_Balance_Policy_V2, mpiodisk/DSM_Load_Balance_Policy_V2, mpiodisk/PDSM_Load_Balance_Policy_V2, storage.dsm_load_balance_policy_v2, structs-scsibus_f53c7618-49ab-452b-97e7-402d9392a419.xml"
-ms.topic: struct
 f1_keywords:
  - "mpiodisk/DSM_Load_Balance_Policy_V2"
 req.header: mpiodisk.h

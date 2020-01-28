@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 938eacb5-7939-43ed-a854-046708fc9c79
 ms.date: 05/03/2018
 ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging],SystemError method, IDebugEventCallbacksWide.SystemError, IDebugEventCallbacksWide::SystemError, SystemError, SystemError method [Windows Debugging], SystemError method [Windows Debugging],IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::SystemError, debugger.idebugeventcallbackswide_systemerror
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.SystemError"
 req.header: dbgeng.h

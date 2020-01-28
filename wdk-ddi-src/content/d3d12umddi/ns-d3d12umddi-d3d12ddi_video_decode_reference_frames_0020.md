@@ -6,7 +6,6 @@ old-location: display\d3d12ddi_video_decode_reference_frames.htm
 ms.assetid: B7ED4ADA-572A-4D15-B8FD-6EAF2DB87157
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020, D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020, display.d3d12ddi_video_decode_reference_frames
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020"
 req.header: d3d12umddi.h

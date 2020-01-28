@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: B97FF6B1-BFCB-4293-B2F0-EE08E12CFCFF
 ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionSetTransferCompleteCallback, WdfDmaTransactionSetTransferCompleteCallback method, kmdf.wdfdmatransactionsettransfercompletecallback, wdf.wdfdmatransactionsettransfercompletecallback, wdfdmatransaction/WdfDmaTransactionSetTransferCompleteCallback
-ms.topic: function
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionSetTransferCompleteCallback"
 req.header: wdfdmatransaction.h

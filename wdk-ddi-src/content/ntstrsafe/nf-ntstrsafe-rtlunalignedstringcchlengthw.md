@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 7b9f38f5-7fc9-4670-975d-b7bfeefb2cb8
 ms.date: 04/30/2018
 ms.keywords: RtlUnalignedStringCchLength, RtlUnalignedStringCchLengthW, RtlUnalignedStringCchLengthW function [Kernel-Mode Driver Architecture], kernel.rtlunalignedstringcchlength, ntstrsafe/RtlUnalignedStringCchLengthW, safestrings_7bfc07f7-2096-4818-a0d5-31767b7342ea.xml
-ms.topic: function
 f1_keywords:
  - "ntstrsafe/RtlUnalignedStringCchLengthW"
 req.header: ntstrsafe.h

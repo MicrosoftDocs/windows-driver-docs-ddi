@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 9d908fbf-4d2e-4099-b0d5-12cdb5014d61
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DXGKDDI_QUERYVIRTUALFUNCTIONLUID"
 req.header: dispmprt.h

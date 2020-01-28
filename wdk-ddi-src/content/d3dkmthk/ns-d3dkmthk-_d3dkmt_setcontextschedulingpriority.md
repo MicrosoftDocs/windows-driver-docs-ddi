@@ -6,7 +6,6 @@ old-location: display\d3dkmt_setcontextschedulingpriority.htm
 ms.assetid: 879c7117-080a-4056-b94f-6462b370f434
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, D3DKMT_SETCONTEXTSCHEDULINGPRIORITY structure [Display Devices], OpenGL_Structs_d0a33042-237e-469f-93af-f6031cf54098.xml, _D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, d3dkmthk/D3DKMT_SETCONTEXTSCHEDULINGPRIORITY, display.d3dkmt_setcontextschedulingpriority
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_SETCONTEXTSCHEDULINGPRIORITY"
 req.header: d3dkmthk.h

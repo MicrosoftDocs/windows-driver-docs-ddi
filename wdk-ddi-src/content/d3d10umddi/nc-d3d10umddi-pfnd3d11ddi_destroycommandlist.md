@@ -6,7 +6,6 @@ old-location: display\destroycommandlist.htm
 ms.assetid: 9f03c193-f017-4189-a082-908e28a2e9f7
 ms.date: 05/10/2018
 ms.keywords: DestroyCommandList, DestroyCommandList callback function [Display Devices], PFND3D11DDI_DESTROYCOMMANDLIST, PFND3D11DDI_DESTROYCOMMANDLIST callback, UserModeDisplayDriverDx11_Functions_cf01bd33-1921-4d56-a377-f8eda35a8d04.xml, d3d10umddi/DestroyCommandList, display.destroycommandlist
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/DestroyCommandList"
 req.header: d3d10umddi.h

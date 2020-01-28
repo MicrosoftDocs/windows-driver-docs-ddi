@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 569816dc-3b92-45da-a1b8-ce4b504b6592
 ms.date: 03/29/2018
 ms.keywords: "*PLoginToTarget_OUT, LoginToTarget_OUT, LoginToTarget_OUT structure [Storage Devices], PLoginToTarget_OUT, PLoginToTarget_OUT structure pointer [Storage Devices], _LoginToTarget_OUT, iscsiop/LoginToTarget_OUT, iscsiop/PLoginToTarget_OUT, storage.logintotarget_out, structs-iSCSI_8fefca89-dd27-4a01-90a1-76ed16e79568.xml"
-ms.topic: struct
 f1_keywords:
  - "iscsiop/LoginToTarget_OUT"
 req.header: iscsiop.h

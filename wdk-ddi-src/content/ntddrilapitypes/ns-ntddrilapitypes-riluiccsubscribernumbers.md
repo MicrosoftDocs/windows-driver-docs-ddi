@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 7c9f7c52-edb3-48cd-b532-0e100692fee4
 ms.date: 02/16/2018
 ms.keywords: "*LPRILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], netvista.riluiccsubscribernumbers, rilapitypes/RILUMTSMRL"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILUMTSMRL"
 req.header: ntddrilapitypes.h

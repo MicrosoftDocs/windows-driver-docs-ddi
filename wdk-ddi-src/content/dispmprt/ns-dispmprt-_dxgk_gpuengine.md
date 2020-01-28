@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 82479dfa-1e27-49ec-bacb-82fa3223ee1d
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
 f1_keywords:
  - "dispmprt/_DXGK_GPUENGINE"
 ms.prod: windows-hardware

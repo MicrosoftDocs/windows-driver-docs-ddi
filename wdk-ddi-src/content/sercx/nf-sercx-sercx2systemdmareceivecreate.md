@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 62758F49-5CBB-4694-B4F4-12A5372F846F
 ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SystemDmaReceiveCreate, SerCx2SystemDmaReceiveCreate, SerCx2SystemDmaReceiveCreate method [Serial Ports], serports.sercx2systemdmareceivecreate
-ms.topic: function
 f1_keywords:
  - "sercx/SerCx2SystemDmaReceiveCreate"
 req.header: sercx.h

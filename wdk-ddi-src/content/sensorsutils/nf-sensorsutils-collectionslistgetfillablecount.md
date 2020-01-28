@@ -4,7 +4,6 @@ title: CollectionsListGetFillableCount function (sensorsutils.h)
 description: Returns the number of elements a SENSOR_COLLECTION_LIST buffer of a certain size can possibly hold.
 ms.assetid: 36d2a3c0-ee27-4620-a783-9d910907d2fa
 ms.date: 08/08/2018
-ms.topic: function
 f1_keywords:
  - "sensorsutils/CollectionsListGetFillableCount"
 tech.root: sensors

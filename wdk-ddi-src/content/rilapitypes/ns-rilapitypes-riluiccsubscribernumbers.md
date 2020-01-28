@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: e1a097b5-ce13-4070-a6f6-4b461ac086de
 ms.date: 02/26/2018
 ms.keywords: "*LPRILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS, RILUICCSUBSCRIBERNUMBERS structure [Network Drivers Starting with Windows Vista], netvista.riluiccsubscribernumbers_2, rilapitypes/RILUICCSUBSCRIBERNUMBERS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILUICCSUBSCRIBERNUMBERS"
 req.header: rilapitypes.h

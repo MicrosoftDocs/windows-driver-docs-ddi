@@ -7,7 +7,6 @@ tech.root: parports
 ms.assetid: cc895a21-16bb-4a49-980c-8c6023d6aed4
 ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_UNLOCK_PORT, IOCTL_INTERNAL_UNLOCK_PORT control code [Parallel Ports], cisspd_2f7b8b18-f3cb-41e4-bdb7-4475f3b8655f.xml, parallel/IOCTL_INTERNAL_UNLOCK_PORT, parports.ioctl_internal_unlock_port
-ms.topic: ioctl
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_UNLOCK_PORT"
 req.header: parallel.h

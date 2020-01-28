@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 150B1ED3-572A-4986-BED6-628ED6C54CCF
 ms.date: 03/29/2018
 ms.keywords: StorPortInitializeSpinlock, StorPortInitializeSpinlock routine [Storage Devices], storage.storportinitializespinlock, storport/StorPortInitializeSpinlock
-ms.topic: function
 f1_keywords:
  - "storport/StorPortInitializeSpinlock"
 req.header: storport.h

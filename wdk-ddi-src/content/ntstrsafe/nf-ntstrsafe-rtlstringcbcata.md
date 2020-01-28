@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 1034384f-6295-42ca-bf78-47c383417500
 ms.date: 04/30/2018
 ms.keywords: RtlStringCbCat, RtlStringCbCatA, RtlStringCbCatW, RtlStringCbCatW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcat, ntstrsafe/RtlStringCbCatA, ntstrsafe/RtlStringCbCatW, safestrings_31bee145-512e-4daa-87c3-98abc5e88b2b.xml
-ms.topic: function
 f1_keywords:
  - "ntstrsafe/RtlStringCbCatW"
 req.header: ntstrsafe.h

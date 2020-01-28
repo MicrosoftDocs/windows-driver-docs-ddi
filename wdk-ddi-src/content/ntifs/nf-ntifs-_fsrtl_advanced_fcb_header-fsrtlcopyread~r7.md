@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: fb36b3e9-c17b-4c15-b1ad-b93f71f43cd5
 ms.date: 03/29/2018
 ms.keywords: FsRtlCopyRead, FsRtlCopyRead routine [Installable File System Drivers], fsrtlref_e1027860-157f-4621-97dd-54a15c59be0c.xml, ifsk.fsrtlcopyread, ntifs/FsRtlCopyRead
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlCopyRead"
 req.header: ntifs.h

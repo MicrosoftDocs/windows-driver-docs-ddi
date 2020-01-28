@@ -6,7 +6,6 @@ old-location: display\d3dkmt_surfacecomplete_presenthistorytoken.htm
 ms.assetid: AF58684E-3516-48F9-B771-63701C00645F
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN, D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN structure [Display Devices], _D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN, display.d3dkmt_surfacecomplete_presenthistorytoken
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_SURFACECOMPLETE_PRESENTHISTORYTOKEN"
 req.header: d3dkmthk.h

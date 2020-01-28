@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 23433B59-A376-4D92-863E-4492621F3BF5
 ms.date: 04/20/2018
 ms.keywords: IPrintJob interface [Print Devices],SubmissionTime property, IPrintJob.SubmissionTime, IPrintJob.get_SubmissionTime, IPrintJob::SubmissionTime, IPrintJob::get_SubmissionTime, SubmissionTime property [Print Devices], SubmissionTime property [Print Devices],IPrintJob interface, get_SubmissionTime, print.iprintjob_submissiontime, printerextension/IPrintJob::SubmissionTime, printerextension/IPrintJob::get_SubmissionTime
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintJob.SubmissionTime"
 req.header: printerextension.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 08960797-4846-46D4-8DD9-3A935EAD7D48
 ms.date: 04/30/2018
 ms.keywords: MmAllocateContiguousNodeMemory, MmAllocateContiguousNodeMemory routine [Kernel-Mode Driver Architecture], kernel.mmallocatecontiguousnodememory, wdm/MmAllocateContiguousNodeMemory
-ms.topic: function
 f1_keywords:
  - "wdm/MmAllocateContiguousNodeMemory"
 req.header: wdm.h

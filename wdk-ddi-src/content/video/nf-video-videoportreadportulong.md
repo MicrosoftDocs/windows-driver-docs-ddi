@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 73402b35-85ce-4bb1-8ec5-619805d5a3e0
 ms.date: 05/10/2018
 ms.keywords: VideoPortReadPortUlong, VideoPortReadPortUlong function [Display Devices], VideoPort_Functions_347d0c32-a4b6-4061-bbd5-16325e0e3af6.xml, display.videoportreadportulong, video/VideoPortReadPortUlong
-ms.topic: function
 f1_keywords:
  - "video/VideoPortReadPortUlong"
 req.header: video.h

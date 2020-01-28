@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 2022915A-2717-4098-BCD8-34130A161967
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_RX_STOP_CONFIRM, NDIS_WDI_RX_STOP_CONFIRM callback, NdisWdiRxStopConfirm, NdisWdiRxStopConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxStopConfirm, netvista.ndiswdirxstopconfirm
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/NdisWdiRxStopConfirm"
 req.header: dot11wdi.h

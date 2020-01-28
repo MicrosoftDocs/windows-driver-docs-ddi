@@ -4,7 +4,6 @@ title: EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT (trustedruntimeclx.h)
 description: 
 ms.assetid: 38424b3b-880a-46e6-b4f8-1f364528c0a9
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "trustedruntimeclx/EVT_TR_DESTROY_SECURE_SERVICE_SESSION_CONTEXT"
 req.header: trustedruntimeclx.h

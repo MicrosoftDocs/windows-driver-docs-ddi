@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: A97DE517-26ED-452F-9066-94F73BC47BDE
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY structure [Sensor Devices], PGNSS_PLATFORM_CAPABILITY, PGNSS_PLATFORM_CAPABILITY structure pointer [Sensor Devices], gnss.gnss_platform_capability, gnssdriver/GNSS_PLATFORM_CAPABILITY, gnssdriver/PGNSS_PLATFORM_CAPABILITY"
-ms.topic: struct
 f1_keywords:
  - "gnssdriver/GNSS_PLATFORM_CAPABILITY"
 req.header: gnssdriver.h

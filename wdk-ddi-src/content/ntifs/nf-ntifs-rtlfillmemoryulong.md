@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: a3758f32-daa9-4795-9a79-694b02da43cd
 ms.date: 04/16/2018
 ms.keywords: RtlFillMemoryUlong, RtlFillMemoryUlong routine [Installable File System Drivers], ifsk.rtlfillmemoryulong, ntifs/RtlFillMemoryUlong, rtlref_11aa35b5-f5b5-459c-9996-e7dcb7741dd8.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlFillMemoryUlong"
 req.header: ntifs.h

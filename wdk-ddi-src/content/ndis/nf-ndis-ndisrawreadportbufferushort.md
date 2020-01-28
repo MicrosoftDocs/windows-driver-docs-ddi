@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: c100aad1-2fb9-49e0-b68e-20b165a69701
 ms.date: 05/02/2018
 ms.keywords: NdisRawReadPortBufferUshort, NdisRawReadPortBufferUshort macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_fc8d7120-4fbc-46e3-9946-c269f2992f56.xml, ndis/NdisRawReadPortBufferUshort, netvista.ndisrawreadportbufferushort
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisRawReadPortBufferUshort"
 req.header: ndis.h

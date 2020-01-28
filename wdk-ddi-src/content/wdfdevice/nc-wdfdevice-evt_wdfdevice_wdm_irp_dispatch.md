@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: C6BED59F-066E-42F6-86AE-B0423E0E847F
 ms.date: 02/26/2018
 ms.keywords: EVT_WDFDEVICE_WDM_IRP_DISPATCH, EVT_WDFDEVICE_WDM_IRP_DISPATCH callback, EvtDeviceWdmIrpDispatch, EvtDeviceWdmIrpDispatch callback function, kmdf.evtdevicewdmirpdispatch, wdf.evtdevicewdmirpdispatch, wdfdevice/EvtDeviceWdmIrpDispatch
-ms.topic: callback
 f1_keywords:
  - "wdfdevice/EvtDeviceWdmIrpDispatch"
 req.header: wdfdevice.h

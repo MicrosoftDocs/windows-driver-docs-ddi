@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: e26e7e68-0d0c-42fe-9342-ebbf2bb8f830
 ms.date: 04/16/2018
 ms.keywords: ExInitializeWorkItem, ExInitializeWorkItem routine [Installable File System Drivers], exref_815c9796-c2e5-4362-926a-2fb509f3a1ae.xml, ifsk.exinitializeworkitem, wdm/ExInitializeWorkItem
-ms.topic: function
 f1_keywords:
  - "wdm/ExInitializeWorkItem"
 req.header: wdm.h

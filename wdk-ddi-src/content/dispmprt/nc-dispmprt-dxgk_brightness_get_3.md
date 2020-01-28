@@ -4,7 +4,6 @@ title: DXGK_BRIGHTNESS_GET_3 (dispmprt.h)
 description: Implemented by the client driver to retrieve the currently active brightness level of an integrated display panel, with details on the brightness transition in progress.
 ms.assetid: 0bcf8d16-da3a-45a3-b9cc-d767b69695db
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DXGK_BRIGHTNESS_GET_3"
 req.header: dispmprt.h

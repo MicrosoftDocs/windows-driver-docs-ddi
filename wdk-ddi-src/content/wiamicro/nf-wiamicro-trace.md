@@ -4,7 +4,6 @@ title: Trace function (wiamicro.h)
 description:
 ms.assetid: 9125c65e-16b6-412e-a09a-1ee643e378bf
 ms.date: 10/19/2018
-ms.topic: function
 f1_keywords:
  - "wiamicro/Trace"
 ms.keywords: Trace

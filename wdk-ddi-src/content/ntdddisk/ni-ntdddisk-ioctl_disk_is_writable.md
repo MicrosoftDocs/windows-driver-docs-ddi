@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 073dd5d4-d6b9-42c8-adb2-1d6c53f2a352
 ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_IS_WRITABLE, IOCTL_DISK_IS_WRITABLE control, IOCTL_DISK_IS_WRITABLE control code [Storage Devices], k307_b5d259a8-bf23-4475-98ce-69c87b3de52c.xml, ntdddisk/IOCTL_DISK_IS_WRITABLE, storage.ioctl_disk_is_writable
-ms.topic: ioctl
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_IS_WRITABLE"
 req.header: ntdddisk.h

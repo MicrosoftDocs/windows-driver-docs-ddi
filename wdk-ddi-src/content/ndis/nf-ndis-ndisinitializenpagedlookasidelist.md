@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: d240f2cc-18a6-4c2d-889f-e25a9486d5fe
 ms.date: 05/02/2018
 ms.keywords: NdisInitializeNPagedLookasideList, NdisInitializeNPagedLookasideList function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeNPagedLookasideList, ndis_lookaside_ref_edf7a9cc-c6bc-405b-88bb-c27331c38069.xml, netvista.ndisinitializenpagedlookasidelist
-ms.topic: function
 f1_keywords:
  - "ndis/NdisInitializeNPagedLookasideList"
 req.header: ndis.h

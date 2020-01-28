@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 6041b96e-2364-4592-9bc5-de4fb1b36957
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_e0c08e93-b09f-40d0-9958-e4e51d7b887d.xml, WdfUsbInterfaceGetNumEndpoints, WdfUsbInterfaceGetNumEndpoints method, kmdf.wdfusbinterfacegetnumendpoints, wdf.wdfusbinterfacegetnumendpoints, wdfusb/WdfUsbInterfaceGetNumEndpoints
-ms.topic: function
 f1_keywords:
  - "wdfusb/WdfUsbInterfaceGetNumEndpoints"
 req.header: wdfusb.h

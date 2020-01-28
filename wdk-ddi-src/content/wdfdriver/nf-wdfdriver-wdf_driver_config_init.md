@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: d7520300-9345-4681-a10d-acf34838199a
 ms.date: 02/26/2018
 ms.keywords: DFDriverObjectRef_c8331742-9717-476d-8a48-f9e472cb3128.xml, WDF_DRIVER_CONFIG_INIT, WDF_DRIVER_CONFIG_INIT function, kmdf.wdf_driver_config_init, wdf.wdf_driver_config_init, wdfdriver/WDF_DRIVER_CONFIG_INIT
-ms.topic: function
 f1_keywords:
  - "wdfdriver/WDF_DRIVER_CONFIG_INIT"
 req.header: wdfdriver.h

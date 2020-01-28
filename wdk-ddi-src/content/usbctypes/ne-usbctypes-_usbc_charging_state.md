@@ -4,7 +4,6 @@ title: _USBC_CHARGING_STATE (usbctypes.h)
 description: Defines the charging state of a Type-C connector.
 ms.assetid: dc25a168-6fc0-49a6-8b68-e01451a06b45
 ms.date: 09/30/2018
-ms.topic: enum
 f1_keywords:
  - "usbctypes/_USBC_CHARGING_STATE"
 ms.keywords: _USBC_CHARGING_STATE, USBC_CHARGING_STATE, 

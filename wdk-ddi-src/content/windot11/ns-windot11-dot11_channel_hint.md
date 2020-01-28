@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: B3E395C3-C642-4A5E-9005-88323A80F90E
 ms.date: 02/16/2018
 ms.keywords: "*PDOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT structure [Network Drivers Starting with Windows Vista], PDOT11_CHANNEL_HINT, PDOT11_CHANNEL_HINT structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_channel_hint, windot11/DOT11_CHANNEL_HINT, windot11/PDOT11_CHANNEL_HINT"
-ms.topic: struct
 f1_keywords:
  - "windot11/DOT11_CHANNEL_HINT"
 req.header: windot11.h

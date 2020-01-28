@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: eddb6cea-74fc-4faf-85fa-3a35d6890802
 ms.date: 04/30/2018
 ms.keywords: IoGetIoPriorityHint, IoGetIoPriorityHint routine [Kernel-Mode Driver Architecture], k104_7d622ea7-68a8-4029-96d4-5c40d4f348de.xml, kernel.iogetiopriorityhint, wdm/IoGetIoPriorityHint
-ms.topic: function
 f1_keywords:
  - "wdm/IoGetIoPriorityHint"
 req.header: wdm.h

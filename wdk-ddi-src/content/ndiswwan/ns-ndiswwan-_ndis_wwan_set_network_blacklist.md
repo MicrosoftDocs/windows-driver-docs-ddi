@@ -5,7 +5,6 @@ description: The NDIS_WWAN_SET_NETWORK_BLACKLIST structure describes network bla
 tech.root: netvista
 ms.assetid: 11ffe280-f068-4196-9dc9-85c20e0527b0
 ms.date: 08/21/2018
-ms.topic: struct
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_SET_NETWORK_BLACKLIST"
 ms.keywords: _NDIS_WWAN_SET_NETWORK_BLACKLIST, NDIS_WWAN_SET_NETWORK_BLACKLIST, *PNDIS_WWAN_SET_NETWORK_BLACKLIST, 

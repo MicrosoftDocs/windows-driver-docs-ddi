@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F
 ms.date: 02/26/2018
 ms.keywords: GetInfo, GetInfo method, GetInfo method,IWDFInterrupt interface, IWDFInterrupt interface,GetInfo method, IWDFInterrupt.GetInfo, IWDFInterrupt::GetInfo, umdf.iwdfinterrupt_getinfo, wdf.iwdfinterrupt_getinfo, wudfddi/IWDFInterrupt::GetInfo
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFInterrupt.GetInfo"
 req.header: wudfddi.h

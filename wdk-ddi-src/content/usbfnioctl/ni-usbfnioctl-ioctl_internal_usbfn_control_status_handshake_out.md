@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: C2CF94F3-E12D-4D31-975B-720FA5AB5ABA
 ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT, IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT control, IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT control code [Buses], buses.ioctl_internal_usbfn_control_status_handshake_out, usbfnioctl/IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT
-ms.topic: ioctl
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_OUT"
 req.header: usbfnioctl.h

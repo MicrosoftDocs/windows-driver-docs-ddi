@@ -6,7 +6,6 @@ old-location: display\dxgk_vidpntargetmodeset_interface_pfnreleasemodeinfo.htm
 ms.assetid: 0b1d0331-f0fa-40fc-a1d6-15fe3568f3cc
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO, DXGKDDI_VIDPNTARGETMODESET_RELEASEMODEINFO callback, VidPnFunctions_faa4fee3-0bf7-43af-a000-e5b7e891c9e9.xml, d3dkmddi/pfnReleaseModeInfo, display.dxgk_vidpntargetmodeset_interface_pfnreleasemodeinfo, pfnReleaseModeInfo, pfnReleaseModeInfo callback function [Display Devices]
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

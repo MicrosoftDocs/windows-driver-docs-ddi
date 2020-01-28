@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 18D4C334-1AD9-4CBF-8BF1-063A8E837A21
 ms.date: 05/07/2018
 ms.keywords: UfxDeviceIoControl, UfxDeviceIoControl method [Buses], buses.ufxdeviceiocontrol, ufxclient/UfxDeviceIoControl
-ms.topic: function
 f1_keywords:
  - "ufxclient/UfxDeviceIoControl"
 req.header: ufxclient.h

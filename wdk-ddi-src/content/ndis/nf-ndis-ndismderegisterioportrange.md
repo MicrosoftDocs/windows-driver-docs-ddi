@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: b5b6a608-af1f-4030-b83a-a6f64ff3a264
 ms.date: 05/02/2018
 ms.keywords: NdisMDeregisterIoPortRange, NdisMDeregisterIoPortRange function [Network Drivers Starting with Windows Vista], miniport_port_io_ref_3ec72b06-3f52-46b9-b699-774a7df4a658.xml, ndis/NdisMDeregisterIoPortRange, netvista.ndismderegisterioportrange
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMDeregisterIoPortRange"
 req.header: ndis.h

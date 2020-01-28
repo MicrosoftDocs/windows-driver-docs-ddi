@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: d1c246bd-314d-475f-9df8-f1bf90355a5a
 ms.date: 05/02/2019
 ms.keywords: "*PKBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO, KBUGCHECK_DUMP_IO structure [Kernel-Mode Driver Architecture], PKBUGCHECK_DUMP_IO, PKBUGCHECK_DUMP_IO structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_DUMP_IO, kernel.kbugcheck_dump_io, kstruct_c_a6201416-346e-4100-882c-329dd3ae1843.xml, wdm/KBUGCHECK_DUMP_IO, wdm/PKBUGCHECK_DUMP_IO"
-ms.topic: struct
 f1_keywords:
  - "wdm/KBUGCHECK_DUMP_IO"
 req.header: wdm.h

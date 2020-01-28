@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: dfd6fa4d-60d8-486a-87a0-3d03e291a5c3
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceClassExtension, IPortableDeviceClassExtension interface, IPortableDeviceClassExtension interface,described, IPortableDeviceClassExtensionInterface, portabledeviceclassextension/IPortableDeviceClassExtension, wpddk.iportabledeviceclassextension
-ms.topic: interface
 f1_keywords:
  - "portabledeviceclassextension/IPortableDeviceClassExtension"
 req.header: portabledeviceclassextension.h

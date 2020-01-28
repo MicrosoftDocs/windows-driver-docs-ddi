@@ -7,7 +7,6 @@ tech.root: sensors
 ms.assetid: 17B53AAF-5027-4E45-ABAF-566771DDF1DE
 ms.date: 05/03/2018
 ms.keywords: SENSOR_PROPERTY_LIST_SIZE, SENSOR_PROPERTY_LIST_SIZE function [Sensor Devices], sensors.sensor_property_list_size, sensorsdef/SENSOR_PROPERTY_LIST_SIZE
-ms.topic: function
 f1_keywords:
  - "sensorsdef/SENSOR_PROPERTY_LIST_SIZE"
 req.header: sensorsdef.h

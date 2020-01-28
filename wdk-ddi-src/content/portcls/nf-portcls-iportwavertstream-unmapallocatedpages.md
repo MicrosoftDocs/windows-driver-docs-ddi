@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 558636ed-4bab-42bc-8925-df01e032439a
 ms.date: 05/08/2018
 ms.keywords: IPortWaveRTStream interface [Audio Devices],UnmapAllocatedPages method, IPortWaveRTStream.UnmapAllocatedPages, IPortWaveRTStream::UnmapAllocatedPages, UnmapAllocatedPages, UnmapAllocatedPages method [Audio Devices], UnmapAllocatedPages method [Audio Devices],IPortWaveRTStream interface, audio.iportwavertstream_unmapallocatedpages, audmp-routines_2d402b1b-6951-48db-89bb-81f3cc7e0076.xml, portcls/IPortWaveRTStream::UnmapAllocatedPages
-ms.topic: method
 f1_keywords:
  - "portcls/IPortWaveRTStream.UnmapAllocatedPages"
 req.header: portcls.h

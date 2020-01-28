@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: 0682B3AA-13F5-4686-AD78-D45DA85398B7
 ms.date: 02/23/2018
 ms.keywords: BarcodeSymbologyAttributesData, BarcodeSymbologyAttributesData structure, _BarcodeSymbologyAttributesData, pointofservicecommontypes/BarcodeSymbologyAttributesData, pos.barcodesymbologyattributesdata
-ms.topic: struct
 f1_keywords:
  - "pointofservicecommontypes/BarcodeSymbologyAttributesData"
 req.header: pointofservicecommontypes.h

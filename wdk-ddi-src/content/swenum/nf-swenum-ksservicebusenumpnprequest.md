@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: cdf0017f-e8c0-4e95-bea6-8bc2509c090c
 ms.date: 04/23/2018
 ms.keywords: KsServiceBusEnumPnpRequest, KsServiceBusEnumPnpRequest function [Streaming Media Devices], ksfunc_eb0bfe3e-a401-4941-8b68-a9de970c2b1e.xml, stream.ksservicebusenumpnprequest, swenum/KsServiceBusEnumPnpRequest
-ms.topic: function
 f1_keywords:
  - "swenum/KsServiceBusEnumPnpRequest"
 req.header: swenum.h

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: DFD077B7-307B-439B-828D-DC225FC5AAA0
 ms.date: 05/08/2018
 ms.keywords: DRMForwardContentToInterface, DRMForwardContentToInterface callback function [Audio Devices], PFNDRMFORWARDCONTENTTOINTERFACE, PFNDRMFORWARDCONTENTTOINTERFACE callback, PfnDRMForwardContentToInterface, PfnDRMForwardContentToInterface callback function [Audio Devices], audio.pfndrmforwardcontenttointerface, drmk/PfnDRMForwardContentToInterface
-ms.topic: callback
 f1_keywords:
  - "drmk/DRMForwardContentToInterface"
 req.header: drmk.h

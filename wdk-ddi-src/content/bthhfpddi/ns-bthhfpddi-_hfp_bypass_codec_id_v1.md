@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: FB618271-A1E9-4F47-97DC-F4ACAA01028C
 ms.date: 05/08/2018
 ms.keywords: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1 structure [Audio Devices], PHFP_BYPASS_CODEC_ID_V1, PHFP_BYPASS_CODEC_ID_V1 structure pointer [Audio Devices], _HFP_BYPASS_CODEC_ID_V1, audio.hfp_bypass_codec_id_v1, bthhfpddi/HFP_BYPASS_CODEC_ID_V1, bthhfpddi/PHFP_BYPASS_CODEC_ID_V1"
-ms.topic: struct
 f1_keywords:
  - "bthhfpddi/HFP_BYPASS_CODEC_ID_V1"
 req.header: bthhfpddi.h

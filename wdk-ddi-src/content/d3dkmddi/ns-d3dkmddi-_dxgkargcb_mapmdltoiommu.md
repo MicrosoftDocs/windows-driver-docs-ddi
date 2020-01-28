@@ -4,7 +4,6 @@ title: _DXGKARGCB_MAPMDLTOIOMMU (d3dkmddi.h)
 description: Arguments used by the DXGKCB_MAPMDLTOIOMMU callback function.
 ms.assetid: 2dc0bd13-f7d3-44b4-a1da-ee05ff63d832
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/_DXGKARGCB_MAPMDLTOIOMMU"
 ms.keywords: _DXGKARGCB_MAPMDLTOIOMMU, DXGKARGCB_MAPMDLTOIOMMU, *INOUT_PDXGKARGCB_MAPMDLTOIOMMU

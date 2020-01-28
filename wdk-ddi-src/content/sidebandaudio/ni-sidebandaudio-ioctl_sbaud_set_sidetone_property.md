@@ -4,7 +4,6 @@ title: IOCTL_SBAUD_SET_SIDETONE_PROPERTY (sidebandaudio.h)
 description: 
 ms.assetid: f8b02e43-3e8a-4f23-9449-9d6e66eef75e
 ms.date: 10/05/2018
-ms.topic: ioctl
 f1_keywords:
  - "sidebandaudio/IOCTL_SBAUD_SET_SIDETONE_PROPERTY"
 req.header: sidebandaudio.h

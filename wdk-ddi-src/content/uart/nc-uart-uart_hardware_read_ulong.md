@@ -5,7 +5,6 @@ description: Reads a ULONG value from the specified port or register.
 tech.root: serports
 ms.assetid: 242023e2-fae1-4d27-9175-3438a9ba3bac
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "uart/UART_HARDWARE_READ_ULONG"
 req.header: uart.h

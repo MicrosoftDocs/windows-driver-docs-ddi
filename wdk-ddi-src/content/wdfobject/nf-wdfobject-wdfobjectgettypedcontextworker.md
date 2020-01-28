@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 1d95084b-16c4-468e-84af-47650292c5a1
 ms.date: 02/26/2018
 ms.keywords: DFGenObjectRef_d932d163-5341-45b3-b896-bb3adb5831a6.xml, WdfObjectGetTypedContextWorker, WdfObjectGetTypedContextWorker method, kmdf.wdfobjectgettypedcontextworker, wdf.wdfobjectgettypedcontextworker, wdfobject/WdfObjectGetTypedContextWorker
-ms.topic: function
 f1_keywords:
  - "wdfobject/WdfObjectGetTypedContextWorker"
 req.header: wdfobject.h

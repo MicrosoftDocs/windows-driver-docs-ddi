@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 80735E36-C483-4CD8-AB53-873BA5E997D0
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_DESTROYHWQUEUE, D3DDDICB_DESTROYHWQUEUE structure [Display Devices], _D3DDDICB_DESTROYHWQUEUE, d3dumddi/D3DDDICB_DESTROYHWQUEUE, display.d3dddicb_destroyhwqueue
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDICB_DESTROYHWQUEUE"
 req.header: d3dumddi.h

@@ -5,7 +5,6 @@ description: The WWAN_CONFIGURATION_SOURCE enumeration specifies the creation so
 tech.root: netvista
 ms.assetid: 1bd34230-23ba-4874-9ec0-888b7500ebe7
 ms.date: 08/23/2018
-ms.topic: enum
 f1_keywords:
  - "wwan/_WWAN_CONFIGURATION_SOURCE"
 ms.keywords: _WWAN_CONFIGURATION_SOURCE, WWAN_CONFIGURATION_SOURCE, *PWWAN_CONFIGURATION_SOURCE, 

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 89bfe36a-6674-43b7-a889-24fe15771aea
 ms.date: 05/03/2018
 ms.keywords: IDebugRegisters2 interface [Windows Debugging],SetPseudoValues method, IDebugRegisters2.SetPseudoValues, IDebugRegisters2::SetPseudoValues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, SetPseudoValues, SetPseudoValues method [Windows Debugging], SetPseudoValues method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::SetPseudoValues, debugger.setpseudovalues
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugRegisters2.SetPseudoValues"
 req.header: dbgeng.h

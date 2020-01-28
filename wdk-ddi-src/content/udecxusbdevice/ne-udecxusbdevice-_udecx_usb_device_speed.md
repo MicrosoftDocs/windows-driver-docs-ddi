@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 337C9FFE-F97A-4F0F-9567-D1FF532FE165
 ms.date: 05/07/2018
 ms.keywords: "*PUDECX_USB_DEVICE_SPEED, UDECX_USB_DEVICE_SPEED, UDECX_USB_DEVICE_SPEED enumeration [Buses], UdecxUsbFullSpeed, UdecxUsbHighSpeed, UdecxUsbLowSpeed, UdecxUsbSuperSpeed, _UDECX_USB_DEVICE_SPEED, buses.udecx_usb_device_speed, udecxusbdevice/UDECX_USB_DEVICE_SPEED, udecxusbdevice/UdecxUsbFullSpeed, udecxusbdevice/UdecxUsbHighSpeed, udecxusbdevice/UdecxUsbLowSpeed, udecxusbdevice/UdecxUsbSuperSpeed"
-ms.topic: enum
 f1_keywords:
  - "udecxusbdevice/UDECX_USB_DEVICE_SPEED"
 req.header: udecxusbdevice.h

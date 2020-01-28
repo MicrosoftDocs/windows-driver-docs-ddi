@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 8b8c7f61-c22a-421f-999f-291999bb243f
 ms.date: 05/08/2018
 ms.keywords: GetLinkPositionRegister, GetLinkPositionRegister callback function [Audio Devices], PGET_LINK_POSITION_REGISTER, PGET_LINK_POSITION_REGISTER callback, aud-prop2_715e978e-6396-479a-a953-6d17016306c4.xml, audio.getlinkpositionregister, hdaudio/GetLinkPositionRegister
-ms.topic: callback
 f1_keywords:
  - "hdaudio/GetLinkPositionRegister"
 req.header: hdaudio.h

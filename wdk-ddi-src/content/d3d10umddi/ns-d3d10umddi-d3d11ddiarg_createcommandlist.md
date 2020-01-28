@@ -6,7 +6,6 @@ old-location: display\d3d11ddiarg_createcommandlist.htm
 ms.assetid: 7d720346-4a68-40bd-816d-c406995b3232
 ms.date: 05/10/2018
 ms.keywords: D3D11DDIARG_CREATECOMMANDLIST, D3D11DDIARG_CREATECOMMANDLIST structure [Display Devices], UMDisplayDriver_Dx11param_Structs_fc1a42ad-2d14-44de-abf1-480810b8d080.xml, d3d10umddi/D3D11DDIARG_CREATECOMMANDLIST, display.d3d11ddiarg_createcommandlist
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_CREATECOMMANDLIST"
 req.header: d3d10umddi.h

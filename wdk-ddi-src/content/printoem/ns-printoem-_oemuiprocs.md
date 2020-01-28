@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 67dfb4bd-c43c-4da3-833d-34050d49dea3
 ms.date: 04/20/2018
 ms.keywords: "*POEMUIPROCS, OEMUIPROCS, OEMUIPROCS structure [Print Devices], POEMUIPROCS, POEMUIPROCS structure pointer [Print Devices], _OEMUIPROCS, print.oemuiprocs, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, printoem/OEMUIPROCS, printoem/POEMUIPROCS"
-ms.topic: struct
 f1_keywords:
  - "printoem/OEMUIPROCS"
 req.header: printoem.h

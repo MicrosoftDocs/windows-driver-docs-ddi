@@ -6,7 +6,6 @@ old-location: display\dxgkcbcreatecontextallocation.htm
 ms.assetid: b6b142a4-20eb-4368-bd7f-8a25f4fe48ca
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_CREATECONTEXTALLOCATION, DXGKCB_CREATECONTEXTALLOCATION callback, DxgkCbCreateContextAllocation, DxgkCbCreateContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbCreateContextAllocation, display.dxgkcbcreatecontextallocation
-ms.topic: callback
 f1_keywords:
  - "d3dkmddi/DxgkCbCreateContextAllocation"
 req.header: d3dkmddi.h

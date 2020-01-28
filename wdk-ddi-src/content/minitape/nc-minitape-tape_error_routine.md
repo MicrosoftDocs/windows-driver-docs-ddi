@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: a39fac12-f284-4b3a-a9ab-ae75934f810e
 ms.date: 03/29/2018
 ms.keywords: "(*TAPE_ERROR_ROUTINE), (*TAPE_ERROR_ROUTINE) routine [Storage Devices], TAPE_ERROR_ROUTINE, minitape/(*TAPE_ERROR_ROUTINE), storage.tapeminitapeerror, tapemini_cf0f724e-63c4-4923-a59e-508c45dac6d9.xml"
-ms.topic: callback
 f1_keywords:
  - "minitape/(*TAPE_ERROR_ROUTINE)"
 req.header: minitape.h

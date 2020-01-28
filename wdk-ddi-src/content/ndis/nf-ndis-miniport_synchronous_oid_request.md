@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 0DDF9CF8-91F6-4D7C-A8E8-FC425BF155CB
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_SYNCHRONOUS_OID_REQUEST, MiniportSynchronousOidRequest, MiniportSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/MiniportSynchronousOidRequest, netvista.miniport_synchronous_oid_request
-ms.topic: function
 f1_keywords:
  - "ndis/MiniportSynchronousOidRequest"
 req.header: ndis.h

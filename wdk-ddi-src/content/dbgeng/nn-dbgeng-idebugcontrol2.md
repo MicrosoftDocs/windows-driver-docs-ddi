@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: c8371bbc-cbd1-4ff4-a055-99cc6cd6f8c6
 ms.date: 05/03/2018
 ms.keywords: IDebugControl2, IDebugControl2 interface [Windows Debugging], IDebugControl2 interface [Windows Debugging],described, dbgeng/IDebugControl2, debugger.idebugcontrol2
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugControl2"
 req.header: dbgeng.h

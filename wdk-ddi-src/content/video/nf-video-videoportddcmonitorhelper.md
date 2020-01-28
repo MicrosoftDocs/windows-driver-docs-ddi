@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2e4bd9c7-73be-47bc-b4e7-daea7781c46b
 ms.date: 05/10/2018
 ms.keywords: VideoPortDDCMonitorHelper, VideoPortDDCMonitorHelper function [Display Devices], VideoPort_Functions_dc0bda84-97c5-49ba-9084-04149f9be157.xml, display.videoportddcmonitorhelper, video/VideoPortDDCMonitorHelper
-ms.topic: function
 f1_keywords:
  - "video/VideoPortDDCMonitorHelper"
 req.header: video.h

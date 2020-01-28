@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: E9E80EB4-C20B-4025-957B-32DC6FAE7F38
 ms.date: 04/30/2018
 ms.keywords: IoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt, WdmlibIoGetAffinityInterrupt function [Kernel-Mode Driver Architecture], iointex/IoGetAffinityInterrupt, iointex/WdmlibIoGetAffinityInterrupt, kernel.wdmlibiogetaffinityinterrupt
-ms.topic: function
 f1_keywords:
  - "iointex/WdmlibIoGetAffinityInterrupt"
 req.header: iointex.h

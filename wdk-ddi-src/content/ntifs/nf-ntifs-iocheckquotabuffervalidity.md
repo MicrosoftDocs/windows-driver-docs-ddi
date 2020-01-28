@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 8a003d78-3b7d-44af-a7cf-a2a516c2cc20
 ms.date: 04/16/2018
 ms.keywords: IoCheckQuotaBufferValidity, IoCheckQuotaBufferValidity routine [Installable File System Drivers], ifsk.iocheckquotabuffervalidity, ioref_b4dc2b93-aaf1-450b-8240-b92792182057.xml, ntifs/IoCheckQuotaBufferValidity
-ms.topic: function
 f1_keywords:
  - "ntifs/IoCheckQuotaBufferValidity"
 req.header: ntifs.h

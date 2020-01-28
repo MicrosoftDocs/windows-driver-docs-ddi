@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 025c29d3-1167-4aa3-8399-01dab5729267
 ms.date: 05/03/2018
 ms.keywords: GetNextStream, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices],IWiaTransferCallback interface, IWiaTransferCallback interface [Imaging Devices],GetNextStream method, IWiaTransferCallback.GetNextStream, IWiaTransferCallback::GetNextStream, IWiaTransfercallback_155c3198-1ed9-46a9-b6d8-0d6029bf0803.xml, image.iwiatransfercallback_getnextstream, wia_lh/IWiaTransferCallback::GetNextStream
-ms.topic: method
 f1_keywords:
  - "wia_lh/IWiaTransferCallback.GetNextStream"
 req.header: wia_lh.h

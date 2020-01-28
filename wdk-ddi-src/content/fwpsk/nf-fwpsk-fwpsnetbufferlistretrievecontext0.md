@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 482cec75-8a21-4988-b869-639d019f9460
 ms.date: 05/02/2018
 ms.keywords: FwpsNetBufferListRetrieveContext0, FwpsNetBufferListRetrieveContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListRetrieveContext0, netvista.fwpsnetbufferlistretrievecontext0, wfp_ref_2_funct_3_fwps_J-Q_63312511-d342-4705-86d9-844c59f42fe3.xml
-ms.topic: function
 f1_keywords:
  - "fwpsk/FwpsNetBufferListRetrieveContext0"
 req.header: fwpsk.h

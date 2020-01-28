@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 8f87ee5f-74bb-446f-8be3-214cc2c01c1b
 ms.date: 04/23/2018
 ms.keywords: IOCTL_AVC_BUS_RESET, IOCTL_AVC_BUS_RESET control, IOCTL_AVC_BUS_RESET control code [Streaming Media Devices], avc/IOCTL_AVC_BUS_RESET, avcref_4be76d4b-17fe-4ae6-a078-ebb079499d55.xml, stream.ioctl_avc_bus_reset
-ms.topic: ioctl
 f1_keywords:
  - "avc/IOCTL_AVC_BUS_RESET"
 req.header: avc.h

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 731abdaf-f84b-4d4b-a6e0-ee11899fba27
 ms.date: 05/08/2018
 ms.keywords: ISynthSinkDMus interface [Audio Devices],Render method, ISynthSinkDMus.Render, ISynthSinkDMus::Render, Render, Render method [Audio Devices], Render method [Audio Devices],ISynthSinkDMus interface, audio.isynthsinkdmus_render, audmp-routines_ada0270e-6234-4508-a323-f4bdaee295ce.xml, dmusicks/ISynthSinkDMus::Render
-ms.topic: method
 f1_keywords:
  - "dmusicks/ISynthSinkDMus.Render"
 req.header: dmusicks.h

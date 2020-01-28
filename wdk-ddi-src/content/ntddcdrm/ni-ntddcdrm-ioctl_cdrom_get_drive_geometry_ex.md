@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: ef04ba90-698f-4ae2-9ac6-106d66b61080
 ms.date: 03/29/2018
 ms.keywords: IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX, IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX control, IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX control code [Storage Devices], k307_d92083df-7f01-4858-8bab-5b4b4ea5eaea.xml, ntddcdrm/IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX, storage.ioctl_cdrom_get_drive_geometry_ex
-ms.topic: ioctl
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX"
 req.header: ntddcdrm.h

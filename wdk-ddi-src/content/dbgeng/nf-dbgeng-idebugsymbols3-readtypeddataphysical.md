@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 72562325-27f9-4e80-b03f-8926adad99c1
 ms.date: 05/03/2018
 ms.keywords: IDebugSymbols interface [Windows Debugging],ReadTypedDataPhysical method, IDebugSymbols2 interface [Windows Debugging],ReadTypedDataPhysical method, IDebugSymbols2::ReadTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging],ReadTypedDataPhysical method, IDebugSymbols3.ReadTypedDataPhysical, IDebugSymbols3::ReadTypedDataPhysical, IDebugSymbols::ReadTypedDataPhysical, IDebugSymbols_d9131c11-5752-4b05-b779-69cb256b8ded.xml, ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging], ReadTypedDataPhysical method [Windows Debugging],IDebugSymbols interface, ReadTypedDataPhysical method [Windows Debugging],IDebugSymbols2 interface, ReadTypedDataPhysical method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::ReadTypedDataPhysical, dbgeng/IDebugSymbols3::ReadTypedDataPhysical, dbgeng/IDebugSymbols::ReadTypedDataPhysical, debugger.readtypeddataphysical
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols.ReadTypedDataPhysical"
 req.header: dbgeng.h

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 76b7e097-4953-4988-8999-07bbfbd65912
 ms.date: 05/03/2018
 ms.keywords: Extensions_Ref_dfff8fda-36a7-42ab-9ad7-1698c352c028.xml, KnownStructOutput, KnownStructOutput callback function [Windows Debugging], PDEBUG_EXTENSION_KNOWN_STRUCT, PDEBUG_EXTENSION_KNOWN_STRUCT callback, dbgeng/KnownStructOutput, debugger.knownstructoutput
-ms.topic: callback
 f1_keywords:
  - "dbgeng/KnownStructOutput"
 req.header: dbgeng.h

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 26ce460f-b12d-4e5e-994a-047a1853325d
 ms.date: 03/29/2018
 ms.keywords: "*PPDO_INFORMATION, PDO_INFORMATION, PDO_INFORMATION structure [Storage Devices], PPDO_INFORMATION, PPDO_INFORMATION structure pointer [Storage Devices], _PDO_INFORMATION, mpiodisk/PDO_INFORMATION, mpiodisk/PPDO_INFORMATION, storage.pdo_information, structs-scsibus_da7fe7ec-475b-4779-b4ed-7cf903fe2525.xml"
-ms.topic: struct
 f1_keywords:
  - "mpiodisk/PDO_INFORMATION"
 req.header: mpiodisk.h

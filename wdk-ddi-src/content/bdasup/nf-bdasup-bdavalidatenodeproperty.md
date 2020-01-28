@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: e3a6d757-68c5-49d1-92cc-0ebf6ba6bbec
 ms.date: 04/23/2018
 ms.keywords: BdaValidateNodeProperty, BdaValidateNodeProperty function [Streaming Media Devices], bdaref_a6f1ec2f-9e23-4cbb-a3dc-fab0d2c5ca1c.xml, bdasup/BdaValidateNodeProperty, stream.bdavalidatenodeproperty
-ms.topic: function
 f1_keywords:
  - "bdasup/BdaValidateNodeProperty"
 req.header: bdasup.h

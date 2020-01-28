@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 9b90f85e-091f-465d-a6e2-fa4ad66489ff
 ms.date: 05/02/2018
 ms.keywords: "*LPRILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilchangecallbarringpasswordparams, ntddrilapitypes/RILCHANGECALLBARRINGPASSWORDPARAMS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILCHANGECALLBARRINGPASSWORDPARAMS"
 req.header: rilapitypes.h

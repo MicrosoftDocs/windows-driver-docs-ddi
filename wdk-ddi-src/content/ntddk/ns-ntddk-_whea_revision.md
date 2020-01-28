@@ -7,7 +7,6 @@ tech.root: whea
 ms.assetid: 4258f223-353a-4b6e-a93c-5742e5c1668b
 ms.date: 02/20/2018
 ms.keywords: "*PWHEA_REVISION, PWHEA_REVISION, PWHEA_REVISION union pointer [WHEA Drivers and Applications], WHEA_REVISION, WHEA_REVISION union [WHEA Drivers and Applications], _WHEA_REVISION, ntddk/PWHEA_REVISION, ntddk/WHEA_REVISION, whea.whea_revision, whearef_0572aecb-765a-4118-8df0-7b34922e79d9.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_REVISION"
 req.header: ntddk.h

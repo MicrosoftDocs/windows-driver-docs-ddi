@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: d35450ec-5ddc-4312-bd77-ab7e89690f82
 ms.date: 04/30/2019
 ms.keywords: "*PKSAC3_DOWNMIX, KSAC3_DOWNMIX, KSAC3_DOWNMIX structure [Audio Devices], PKSAC3_DOWNMIX, PKSAC3_DOWNMIX structure pointer [Audio Devices], aud-prop_24e957af-1fba-467d-93f6-3b7ca211238e.xml, audio.ksac3_downmix, ksmedia/KSAC3_DOWNMIX, ksmedia/PKSAC3_DOWNMIX"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSAC3_DOWNMIX"
 req.header: ksmedia.h

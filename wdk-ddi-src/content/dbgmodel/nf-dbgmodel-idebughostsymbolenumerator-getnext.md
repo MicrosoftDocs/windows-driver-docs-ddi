@@ -4,7 +4,6 @@ title: IDebugHostSymbolEnumerator::GetNext (dbgmodel.h)
 description: Moves the iterator forward and fetches the next symbol in the set.
 ms.assetid: 906a53c9-af84-46c6-9b39-f55b85786641
 ms.date: 12/21/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDebugHostSymbolEnumerator.GetNext"
 ms.keywords: IDebugHostSymbolEnumerator::GetNext, GetNext, IDebugHostSymbolEnumerator.GetNext, IDebugHostSymbolEnumerator::GetNext, IDebugHostSymbolEnumerator.GetNext

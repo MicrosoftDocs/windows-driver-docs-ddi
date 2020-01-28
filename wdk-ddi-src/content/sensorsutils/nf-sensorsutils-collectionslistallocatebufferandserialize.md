@@ -4,7 +4,6 @@ title: CollectionsListAllocateBufferAndSerialize function (sensorsutils.h)
 description: This routine allocates a buffer and then serializes a sensor collection list to it.
 ms.assetid: be6b18b4-97cf-4206-ad98-57a045ecd11f
 ms.date: 08/07/2018
-ms.topic: function
 f1_keywords:
  - "sensorsutils/CollectionsListAllocateBufferAndSerialize"
 tech.root: sensors

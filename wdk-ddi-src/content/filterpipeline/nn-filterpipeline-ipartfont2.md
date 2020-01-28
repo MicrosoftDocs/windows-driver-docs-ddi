@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: AB1EFF6E-4FF5-413E-A4E4-3EEC47CDEBD4
 ms.date: 04/20/2018
 ms.keywords: IPartFont2, IPartFont2 interface [Print Devices], IPartFont2 interface [Print Devices],described, filterpipeline/IPartFont2, print.ipartfont2
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IPartFont2"
 req.header: filterpipeline.h

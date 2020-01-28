@@ -4,7 +4,6 @@ title: _D3DKMT_SETSTABLEPOWERSTATE (d3dkmthk.h)
 description: Used to set stable power state.
 ms.assetid: e636281e-c287-4ddc-b304-6edc4be92d8c
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/_D3DKMT_SETSTABLEPOWERSTATE"
 ms.keywords: _D3DKMT_SETSTABLEPOWERSTATE, D3DKMT_SETSTABLEPOWERSTATE, 

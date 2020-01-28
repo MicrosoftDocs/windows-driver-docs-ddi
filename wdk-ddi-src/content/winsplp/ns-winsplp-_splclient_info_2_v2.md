@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 48BD760E-6017-49B2-854F-7F48671974F3
 ms.date: 04/20/2018
 ms.keywords: "*LPSPLCLIENT_INFO_2, *PSPLCLIENT_INFO_2, SPLCLIENT_INFO_2, SPLCLIENT_INFO_2_WINXP, SPLCLIENT_INFO_2_WINXP structure [Print Devices], _SPLCLIENT_INFO_2_V2, print.splclient_info_2_winxp, winsplp/SPLCLIENT_INFO_2_WINXP"
-ms.topic: struct
 f1_keywords:
  - "winsplp/SPLCLIENT_INFO_2_WINXP"
 req.header: winsplp.h

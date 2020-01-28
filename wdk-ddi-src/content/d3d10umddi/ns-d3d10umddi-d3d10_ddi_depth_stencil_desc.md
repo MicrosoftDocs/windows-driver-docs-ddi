@@ -6,7 +6,6 @@ old-location: display\d3d10_ddi_depth_stencil_desc.htm
 ms.assetid: d1043d5b-6f2c-4c2f-894a-ae6870865257
 ms.date: 05/10/2018
 ms.keywords: D3D10_DDI_DEPTH_STENCIL_DESC, D3D10_DDI_DEPTH_STENCIL_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4e9cbeba-8eb3-43ea-891a-1b57c82cd3ef.xml, d3d10umddi/D3D10_DDI_DEPTH_STENCIL_DESC, display.d3d10_ddi_depth_stencil_desc
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D10_DDI_DEPTH_STENCIL_DESC"
 req.header: d3d10umddi.h

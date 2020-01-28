@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 8b7a49cc-5061-475b-ac03-cbf43954c413
 ms.date: 05/08/2018
 ms.keywords: IPinCount interface [Audio Devices],PinCount method, IPinCount.PinCount, IPinCount::PinCount, PinCount, PinCount method [Audio Devices], PinCount method [Audio Devices],IPinCount interface, audio.ipincount_pincount, audmp-routines_bded3ce8-936c-4391-901f-df6b2061c7c3.xml, portcls/IPinCount::PinCount
-ms.topic: method
 f1_keywords:
  - "portcls/IPinCount.PinCount"
 req.header: portcls.h

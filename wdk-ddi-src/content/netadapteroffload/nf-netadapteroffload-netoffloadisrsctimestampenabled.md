@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: d602c7b6-eab2-4929-a124-c2f46a98947a
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: function
 f1_keywords:
  - "netadapteroffload/NetOffloadIsRscTimestampEnabled"
 ms.keywords: NetOffloadIsRscTimestampEnabled

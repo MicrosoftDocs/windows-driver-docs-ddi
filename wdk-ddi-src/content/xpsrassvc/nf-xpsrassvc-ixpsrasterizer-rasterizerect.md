@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: abf8dfc7-7921-4e9c-a338-ec783a01fca7
 ms.date: 04/20/2018
 ms.keywords: IXpsRasterizer interface [Print Devices],RasterizeRect method, IXpsRasterizer.RasterizeRect, IXpsRasterizer::RasterizeRect, RasterizeRect, RasterizeRect method [Print Devices], RasterizeRect method [Print Devices],IXpsRasterizer interface, print.ixpsrasterizer_rasterizerect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, xpsrassvc/IXpsRasterizer::RasterizeRect
-ms.topic: method
 f1_keywords:
  - "xpsrassvc/IXpsRasterizer.RasterizeRect"
 req.header: xpsrassvc.h

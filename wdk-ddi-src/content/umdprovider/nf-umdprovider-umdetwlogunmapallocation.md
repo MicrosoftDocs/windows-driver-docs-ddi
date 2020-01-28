@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 36c204fb-638d-44d2-8379-a5bd79e4167a
 ms.date: 05/10/2018
 ms.keywords: UMDEtwLogUnmapAllocation, UMDEtwLogUnmapAllocation function [Display Devices], display.umdetwlogunmapallocation, umdprovider/UMDEtwLogUnmapAllocation
-ms.topic: function
 f1_keywords:
  - "umdprovider/UMDEtwLogUnmapAllocation"
 req.header: umdprovider.h

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 5340DB05-12D9-4965-B207-BA113F3801A7
 ms.date: 04/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPinBusCache method, IKsPinPipe.KsSetPinBusCache, IKsPinPipe::KsSetPinBusCache, KsSetPinBusCache, KsSetPinBusCache method [Streaming Media Devices], KsSetPinBusCache method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPinBusCache, stream.ikspinpipe_kssetpinbuscache
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsSetPinBusCache"
 req.header: ksproxy.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 397d882d-c82a-4686-b9ca-58a2fade5256
 ms.date: 02/16/2018
 ms.keywords: "*LPRILGSMNMR, RILGSMNMR, RILGSMNMR structure [Network Drivers Starting with Windows Vista], netvista.rilgsmnmr, rilapitypes/RILGSMNMR"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILGSMNMR"
 req.header: ntddrilapitypes.h

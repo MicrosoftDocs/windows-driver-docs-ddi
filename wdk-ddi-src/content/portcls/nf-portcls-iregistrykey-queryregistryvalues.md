@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: eb3aa7ec-65f7-4e3d-8059-e9627de9818c
 ms.date: 05/08/2018
 ms.keywords: IRegistryKey interface [Audio Devices],QueryRegistryValues method, IRegistryKey.QueryRegistryValues, IRegistryKey::QueryRegistryValues, QueryRegistryValues, QueryRegistryValues method [Audio Devices], QueryRegistryValues method [Audio Devices],IRegistryKey interface, audio.iregistrykey_queryregistryvalues, audmp-routines_b2601a0c-3b8f-4e2b-868c-cf189eca7e05.xml, portcls/IRegistryKey::QueryRegistryValues
-ms.topic: method
 f1_keywords:
  - "portcls/IRegistryKey.QueryRegistryValues"
 req.header: portcls.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: de761fd9-5637-40be-a4bb-9e29ed19a434
 ms.date: 05/02/2018
 ms.keywords: RIL_CloseUiccLogicalChannelGroup, RIL_CloseUiccLogicalChannelGroup method [Network Drivers Starting with Windows Vista], netvista.ril_closeuicclogicalchannelgroup, rilapi/RIL_CloseUiccLogicalChannelGroup
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_CloseUiccLogicalChannelGroup"
 req.header: rilapi.h

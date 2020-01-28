@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 232AC14B-CE3C-44AC-9428-5594993CD749
 ms.date: 05/07/2018
 ms.keywords: IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC, IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC control, IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC control code [Buses], buses._ioctl_usb_stop_tracking_for_time_sync, usbioctl/ IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC
-ms.topic: ioctl
 f1_keywords:
  - "usbioctl/IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC"
 req.header: usbioctl.h

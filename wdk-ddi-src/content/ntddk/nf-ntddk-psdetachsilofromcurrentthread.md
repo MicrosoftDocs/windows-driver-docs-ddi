@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: E364130B-9709-4FD9-8654-9FBC52E29145
 ms.date: 04/30/2018
 ms.keywords: PsDetachSiloFromCurrentThread, PsDetachSiloFromCurrentThread routine [Kernel-Mode Driver Architecture], kernel.psdetachsilofromcurrentthread, ntddk/PsDetachSiloFromCurrentThread
-ms.topic: function
 f1_keywords:
  - "ntddk/PsDetachSiloFromCurrentThread"
 req.header: ntddk.h

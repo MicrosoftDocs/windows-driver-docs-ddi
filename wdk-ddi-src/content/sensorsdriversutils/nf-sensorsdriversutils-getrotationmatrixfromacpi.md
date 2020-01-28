@@ -4,7 +4,6 @@ title: GetRotationMatrixFromAcpi function (sensorsdriversutils.h)
 description: The GetRotationMatrixFromAcpi function reads the rotation matrix from the ACPI entries.
 ms.assetid: ac29311e-066a-42ea-9edf-7d114c6b951d
 ms.date: 04/19/2018
-ms.topic: function
 f1_keywords:
  - "sensorsdriversutils/GetRotationMatrixFromAcpi"
 ms.keywords: GetRotationMatrixFromAcpi

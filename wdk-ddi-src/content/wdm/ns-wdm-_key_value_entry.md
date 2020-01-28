@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 8a0e819e-6da7-4006-a276-9bfd324800d8
 ms.date: 04/30/2018
 ms.keywords: "*PKEY_VALUE_ENTRY, KEY_VALUE_ENTRY, KEY_VALUE_ENTRY structure [Kernel-Mode Driver Architecture], PKEY_VALUE_ENTRY, PKEY_VALUE_ENTRY structure pointer [Kernel-Mode Driver Architecture], _KEY_VALUE_ENTRY, kernel.key_value_entry, kstruct_c_750eac86-0e41-4623-8404-8c198c1ee96c.xml, wdm/KEY_VALUE_ENTRY, wdm/PKEY_VALUE_ENTRY"
-ms.topic: struct
 f1_keywords:
  - "wdm/KEY_VALUE_ENTRY"
 req.header: wdm.h

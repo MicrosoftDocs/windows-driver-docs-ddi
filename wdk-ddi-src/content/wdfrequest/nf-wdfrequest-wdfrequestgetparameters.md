@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 7d9924a9-23b6-4bec-95f0-cebc3e99fda4
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_f3d44f7e-60b9-4a64-b5b8-a68ab5240376.xml, WdfRequestGetParameters, WdfRequestGetParameters method, kmdf.wdfrequestgetparameters, wdf.wdfrequestgetparameters, wdfrequest/WdfRequestGetParameters
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WdfRequestGetParameters"
 req.header: wdfrequest.h

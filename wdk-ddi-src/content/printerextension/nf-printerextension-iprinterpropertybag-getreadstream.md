@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: BDA58F6A-A245-4616-866C-6D1734EFB469
 ms.date: 04/20/2018
 ms.keywords: GetReadStream, GetReadStream method [Print Devices], GetReadStream method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetReadStream method, IPrinterPropertyBag.GetReadStream, IPrinterPropertyBag::GetReadStream, print.iprinterpropertybag_getreadstream, printerextension/IPrinterPropertyBag::GetReadStream
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterPropertyBag.GetReadStream"
 req.header: printerextension.h

@@ -6,7 +6,6 @@ old-location: display\dxgk_createallocationflags.htm
 ms.assetid: 3c6c5515-855a-4016-a327-958959981f0f
 ms.date: 05/10/2018
 ms.keywords: DXGK_CREATEALLOCATIONFLAGS, DXGK_CREATEALLOCATIONFLAGS structure [Display Devices], DmStructs_320b15bf-5664-4fb9-9126-2c063ef75467.xml, _DXGK_CREATEALLOCATIONFLAGS, d3dkmddi/DXGK_CREATEALLOCATIONFLAGS, display.dxgk_createallocationflags
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_CREATEALLOCATIONFLAGS"
 req.header: d3dkmddi.h

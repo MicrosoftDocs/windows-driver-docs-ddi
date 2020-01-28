@@ -6,7 +6,6 @@ old-location: display\dxgkcb_notify_mpo_vsync_flags.htm
 ms.assetid: 5583297C-D927-4D9A-8F77-D9871B2CA736
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, DXGKCB_NOTIFY_MPO_VSYNC_FLAGS structure [Display Devices], _DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, d3dkmddi/DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, display.dxgkcb_notify_mpo_vsync_flags
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKCB_NOTIFY_MPO_VSYNC_FLAGS"
 req.header: d3dkmddi.h

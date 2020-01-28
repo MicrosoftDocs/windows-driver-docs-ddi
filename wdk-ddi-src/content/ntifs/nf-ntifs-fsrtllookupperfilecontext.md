@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: b15598bd-8362-44f1-83ce-b4282d6604b0
 ms.date: 04/16/2018
 ms.keywords: FsRtlLookupPerFileContext, FsRtlLookupPerFileContext routine [Installable File System Drivers], fsrtlref_ab859bb7-ea43-4d55-ab37-feebddd270ff.xml, ifsk.fsrtllookupperfilecontext, ntifs/FsRtlLookupPerFileContext
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlLookupPerFileContext"
 req.header: ntifs.h

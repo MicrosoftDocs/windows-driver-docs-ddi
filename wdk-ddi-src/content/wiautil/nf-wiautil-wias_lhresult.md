@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: dcc02735-632f-4b86-ac4f-833c8dcba1c5
 ms.date: 05/03/2018
 ms.keywords: IWiaLog_f9693b87-6464-423a-9b50-f715f3b35f36.xml, WIAS_LHRESULT, WIAS_LHRESULT macro [Imaging Devices], image.wias_lhresult, wiamdef/WIAS_LHRESULT
-ms.topic: macro
 f1_keywords:
  - "wiautil/WIAS_LHRESULT"
 req.header: wiautil.h

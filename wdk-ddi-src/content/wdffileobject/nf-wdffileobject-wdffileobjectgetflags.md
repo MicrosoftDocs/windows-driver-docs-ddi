@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: f2f30acb-cab7-444a-8b86-6001a8a325b9
 ms.date: 02/26/2018
 ms.keywords: DFFileObjectRef_5f2f8f12-9a16-4fb5-88ae-ee726a278cc5.xml, WdfFileObjectGetFlags, WdfFileObjectGetFlags method, kmdf.wdffileobjectgetflags, wdf.wdffileobjectgetflags, wdffileobject/WdfFileObjectGetFlags
-ms.topic: function
 f1_keywords:
  - "wdffileobject/WdfFileObjectGetFlags"
 req.header: wdffileobject.h

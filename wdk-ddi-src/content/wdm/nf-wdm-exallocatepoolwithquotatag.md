@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 1d2e4c8c-c76c-4936-80bf-005d8a393aa9
 ms.date: 04/30/2018
 ms.keywords: ExAllocatePoolWithQuotaTag, ExAllocatePoolWithQuotaTag routine [Kernel-Mode Driver Architecture], k102_70106c3b-0d33-4fa7-be6a-2ac42cf3cbfe.xml, kernel.exallocatepoolwithquotatag, wdm/ExAllocatePoolWithQuotaTag
-ms.topic: function
 f1_keywords:
  - "wdm/ExAllocatePoolWithQuotaTag"
 req.header: wdm.h

@@ -4,7 +4,6 @@ title: _D3DDDI_SEGMENTPREFERENCE (d3dukmdt.h)
 description: The segment preference.
 ms.assetid: d026dae6-6978-44a1-9586-d69d5fbdc052
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dukmdt/_D3DDDI_SEGMENTPREFERENCE"
 ms.keywords: _D3DDDI_SEGMENTPREFERENCE, D3DDDI_SEGMENTPREFERENCE, 

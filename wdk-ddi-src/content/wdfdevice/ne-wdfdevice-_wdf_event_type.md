@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: DC6353BB-98C0-4647-9180-F099CD95348E
 ms.date: 02/26/2018
 ms.keywords: WDF_EVENT_TYPE, WDF_EVENT_TYPE enumeration, WdfEventBroadcast, WdfEventMaximum, WdfEventReserved, _WDF_EVENT_TYPE, wdf.wdf_event_type, wdfdevice/WDF_EVENT_TYPE, wdfdevice/WdfEventBroadcast, wdfdevice/WdfEventMaximum, wdfdevice/WdfEventReserved, wudfddi_types/WDF_EVENT_TYPE, wudfddi_types/WdfEventBroadcast, wudfddi_types/WdfEventMaximum, wudfddi_types/WdfEventReserved
-ms.topic: enum
 f1_keywords:
  - "wdfdevice/WDF_EVENT_TYPE"
 req.header: wdfdevice.h

@@ -7,7 +7,6 @@ tech.root: PCI
 ms.assetid: 6a2ee9be-03bc-436d-91c7-f00222911b19
 ms.date: 02/24/2018
 ms.keywords: "*PPCI_CAPABILITIES_HEADER, PCI.pci_capabilities_header, PCI_CAPABILITIES_HEADER, PCI_CAPABILITIES_HEADER structure [Buses], PPCI_CAPABILITIES_HEADER, PPCI_CAPABILITIES_HEADER structure pointer [Buses], _PCI_CAPABILITIES_HEADER, pci_struct_4e7e5552-8a1b-4081-9197-df863319b01d.xml, wdm/PCI_CAPABILITIES_HEADER, wdm/PPCI_CAPABILITIES_HEADER"
-ms.topic: struct
 f1_keywords:
  - "miniport/PCI_CAPABILITIES_HEADER"
 req.header: miniport.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 11FA2777-93AA-4833-8726-4C6E5FADD0B9
 ms.date: 04/30/2018
 ms.keywords: RtlUIntPtrToInt16, RtlUIntPtrToInt16 function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoint16, ntintsafe/RtlUIntPtrToInt16
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlUIntPtrToInt16"
 req.header: ntintsafe.h

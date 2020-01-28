@@ -6,7 +6,6 @@ old-location: display\destroyvideodecoder.htm
 ms.assetid: 541f4c9b-3193-46a8-9979-74456168988e
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEODECODER, PFND3D11_1DDI_DESTROYVIDEODECODER callback, d3d10umddi/pfnDestroyVideoDecoder, display.destroyvideodecoder, pfnDestroyVideoDecoder, pfnDestroyVideoDecoder callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnDestroyVideoDecoder"
 req.header: d3d10umddi.h

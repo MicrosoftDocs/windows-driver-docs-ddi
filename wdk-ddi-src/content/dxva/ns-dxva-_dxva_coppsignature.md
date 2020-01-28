@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 12520b5d-b994-4af5-9bcf-5140616786e8
 ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_COPPSignature, DXVA_COPPSignature, DXVA_COPPSignature structure [Display Devices], LPDXVA_COPPSignature, LPDXVA_COPPSignature structure pointer [Display Devices], _DXVA_COPPSignature, display.dxva_coppsignature, dxva/DXVA_COPPSignature, dxva/LPDXVA_COPPSignature, dxvaref_9194eb73-7b7e-4d28-b589-08ddd24eaf0c.xml"
-ms.topic: struct
 f1_keywords:
  - "dxva/DXVA_COPPSignature"
 req.header: dxva.h

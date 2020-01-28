@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: b6ae3b68-d9a0-45b3-bf5d-00c09b87709f
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_RATIONAL, D3DDDI_RATIONAL structure [Display Devices], DmStructs_68540737-a888-46aa-99d7-83a071f3f604.xml, _D3DDDI_RATIONAL, d3dukmdt/D3DDDI_RATIONAL, display.d3dddi_rational
-ms.topic: struct
 f1_keywords:
  - "d3dukmdt/D3DDDI_RATIONAL"
 req.header: d3dukmdt.h

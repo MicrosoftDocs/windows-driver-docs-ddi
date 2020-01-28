@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 2ec9222b-d9e7-4386-ac66-30c5436f549d
 ms.date: 05/08/2018
 ms.keywords: FreeBufferWithNotification, FreeBufferWithNotification method [Audio Devices], FreeBufferWithNotification method [Audio Devices],IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification interface [Audio Devices],FreeBufferWithNotification method, IMiniportWaveRTStreamNotification.FreeBufferWithNotification, IMiniportWaveRTStreamNotification::FreeBufferWithNotification, audio.iminiportwavertstreamnotification_freebufferwithnotification, audmp-routines_7b323e6d-c060-4d8a-beb1-88303e45bc0e.xml, portcls/IMiniportWaveRTStreamNotification::FreeBufferWithNotification
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportWaveRTStreamNotification.FreeBufferWithNotification"
 req.header: portcls.h

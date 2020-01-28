@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 2D713354-4C93-4DC1-A3E9-7E6BC991FD08
 ms.date: 05/03/2018
 ms.keywords: IDebugPlmClient, IDebugPlmClient interface [Windows Debugging], IDebugPlmClient interface [Windows Debugging],described, dbgeng/IDebugPlmClient, debugger.idebugplmclient
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugPlmClient"
 req.header: dbgeng.h

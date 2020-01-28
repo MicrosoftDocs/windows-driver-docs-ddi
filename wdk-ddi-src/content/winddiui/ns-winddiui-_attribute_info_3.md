@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: a9299c25-4210-4161-bfd6-8a13113b93e1
 ms.date: 04/20/2018
 ms.keywords: "*PATTRIBUTE_INFO_3, ATTRIBUTE_INFO_3, ATTRIBUTE_INFO_3 structure [Print Devices], PATTRIBUTE_INFO_3, PATTRIBUTE_INFO_3 structure pointer [Print Devices], _ATTRIBUTE_INFO_3, print.attribute_info_3, print_interface-graphics_473dca69-31fc-410d-a9d6-cfa5241f2c5b.xml, winddiui/ATTRIBUTE_INFO_3, winddiui/PATTRIBUTE_INFO_3"
-ms.topic: struct
 f1_keywords:
  - "winddiui/ATTRIBUTE_INFO_3"
 req.header: winddiui.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 30140530-63B6-4FE4-98A4-C6950D7D4D9A
 ms.date: 05/10/2018
 ms.keywords: MIRACAST_CHUNK_ID, MIRACAST_CHUNK_ID union [Display Devices], display.miracast_chunk_id, netdispumdddi/MIRACAST_CHUNK_ID
-ms.topic: struct
 f1_keywords:
  - "netdispumdddi/MIRACAST_CHUNK_ID"
 req.header: netdispumdddi.h

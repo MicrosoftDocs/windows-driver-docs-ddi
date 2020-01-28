@@ -5,7 +5,6 @@ description: The EvtPacketQueueAdvance callback function is implemented by the c
 tech.root: netvista
 ms.assetid: d4d6becc-ae41-451d-939d-c4169456adb7
 ms.date: 07/16/2018
-ms.topic: callback
 f1_keywords:
  - "netpacketqueue/EVT_PACKET_QUEUE_ADVANCE"
 req.header: netpacketqueue.h

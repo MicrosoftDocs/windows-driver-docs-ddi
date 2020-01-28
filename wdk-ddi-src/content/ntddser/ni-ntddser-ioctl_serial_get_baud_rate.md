@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 074ab68e-7cd5-44e4-b3f6-2d6ddc5f3095
 ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_GET_BAUD_RATE, IOCTL_SERIAL_GET_BAUD_RATE control, IOCTL_SERIAL_GET_BAUD_RATE control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_BAUD_RATE, serports.ioctl_serial_get_baud_rate, serref_d3a435b0-2934-465a-9c60-91210895755e.xml
-ms.topic: ioctl
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_GET_BAUD_RATE"
 req.header: ntddser.h

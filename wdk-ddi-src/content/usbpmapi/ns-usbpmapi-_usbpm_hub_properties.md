@@ -4,7 +4,6 @@ title: _USBPM_HUB_PROPERTIES (usbpmapi.h)
 description: Properties of a connector hub.
 ms.assetid: f5579381-05a0-42e2-890c-9970a94ca7b4
 ms.date: 09/30/2018
-ms.topic: struct
 f1_keywords:
  - "usbpmapi/USBPM_HUB_PROPERTIES"
 tech.root: usbref

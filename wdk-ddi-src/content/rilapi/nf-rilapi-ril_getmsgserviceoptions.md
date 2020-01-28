@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 53e8be7b-dad2-4060-99b1-eca7b7fdb8ff
 ms.date: 05/02/2018
 ms.keywords: RIL_GetMsgServiceOptions, RIL_GetMsgServiceOptions method [Network Drivers Starting with Windows Vista], netvista.ril_getmsgserviceoptions, rilapi/RIL_GetMsgServiceOptions
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_GetMsgServiceOptions"
 req.header: rilapi.h

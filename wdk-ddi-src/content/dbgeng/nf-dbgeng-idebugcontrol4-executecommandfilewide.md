@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 4c3fbd76-745a-45d0-b4fd-6da382712322
 ms.date: 05/03/2018
 ms.keywords: ExecuteCommandFileWide, ExecuteCommandFileWide method [Windows Debugging], ExecuteCommandFileWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ExecuteCommandFileWide method, IDebugControl4.ExecuteCommandFileWide, IDebugControl4::ExecuteCommandFileWide, dbgeng/IDebugControl4::ExecuteCommandFileWide, debugger.executecommandfilewide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl4.ExecuteCommandFileWide"
 req.header: dbgeng.h

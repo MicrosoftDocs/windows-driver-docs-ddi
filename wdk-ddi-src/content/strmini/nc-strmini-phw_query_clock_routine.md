@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: ea230363-e2e8-48fb-982b-025615753e83
 ms.date: 04/23/2018
 ms.keywords: PHW_QUERY_CLOCK_ROUTINE, StrMiniClock, StrMiniClock routine [Streaming Media Devices], stream.strminiclock, strmini-routines_d53b0cf1-3c0c-435f-bc44-732f6418ebb8.xml, strmini/StrMiniClock
-ms.topic: callback
 f1_keywords:
  - "strmini/StrMiniClock"
 req.header: strmini.h

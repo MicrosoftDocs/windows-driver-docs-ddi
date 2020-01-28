@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: DDC99C5F-B959-44E4-A4A8-1CBA4E9BDA5A
 ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_TRANSFER_OUT, IOCTL_INTERNAL_USBFN_TRANSFER_OUT control, IOCTL_INTERNAL_USBFN_TRANSFER_OUT control code [Buses], buses.ioctl_internal_usbfn_transfer_out, usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_OUT
-ms.topic: ioctl
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_OUT"
 req.header: usbfnioctl.h

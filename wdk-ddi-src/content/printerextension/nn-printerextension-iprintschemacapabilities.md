@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: A148C1B4-99A3-4AF3-B2D6-73684978425F
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], IPrintSchemaCapabilities interface [Print Devices],described, print.iprintschemacapabilities_interface, printerextension/IPrintSchemaCapabilities
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrintSchemaCapabilities"
 req.header: printerextension.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: B6F4207F-B55A-4B36-883D-291E351742CA
 ms.date: 05/10/2018
 ms.keywords: DXGKVGPU_ESCAPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_READ_PCI_CONFIG structure [Display Devices], _DXGKVGPU_ESCAPE_READ_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_READ_PCI_CONFIG, display.dxgkvgpu_escape_read_pci_config
-ms.topic: struct
 f1_keywords:
  - "d3dukmdt/DXGKVGPU_ESCAPE_READ_PCI_CONFIG"
 req.header: d3dukmdt.h

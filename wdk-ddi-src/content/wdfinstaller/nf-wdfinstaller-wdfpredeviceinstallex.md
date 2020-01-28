@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 99de930a-0d01-4177-b0d9-4692cc570303
 ms.date: 02/26/2018
 ms.keywords: DFCoinstallerRef_0142df49-f344-47f7-bcd1-6e37e5d439fe.xml, WdfPreDeviceInstallEx, WdfPreDeviceInstallEx function, kmdf.wdfpredeviceinstallex, wdf.wdfpredeviceinstallex, wdfinstaller/WdfPreDeviceInstallEx
-ms.topic: function
 f1_keywords:
  - "wdfinstaller/WdfPreDeviceInstallEx"
 req.header: wdfinstaller.h

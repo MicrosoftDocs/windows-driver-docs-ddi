@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 745b014d-7ab4-4e07-a24c-7a74949a9d7b
 ms.date: 04/30/2018
 ms.keywords: ExAcquireSharedWaitForExclusive, ExAcquireSharedWaitForExclusive routine [Kernel-Mode Driver Architecture], k102_505fe2a0-5751-4481-a545-2091828463ce.xml, kernel.exacquiresharedwaitforexclusive, wdm/ExAcquireSharedWaitForExclusive
-ms.topic: function
 f1_keywords:
  - "wdm/ExAcquireSharedWaitForExclusive"
 req.header: wdm.h

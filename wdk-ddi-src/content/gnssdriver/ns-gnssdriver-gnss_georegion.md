@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: 70FC3BCE-3869-4263-8870-BB97438CB5F1
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_GEOREGION, GNSS_GEOREGION, GNSS_GEOREGION structure [Sensor Devices], PGNSS_GEOREGION, PGNSS_GEOREGION structure pointer [Sensor Devices], gnss.gnss_georegion, gnssdriver/GNSS_GEOREGION, gnssdriver/PGNSS_GEOREGION"
-ms.topic: struct
 f1_keywords:
  - "gnssdriver/GNSS_GEOREGION"
 req.header: gnssdriver.h

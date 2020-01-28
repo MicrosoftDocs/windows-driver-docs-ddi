@@ -5,7 +5,6 @@ tech.root: usbref
 description: Contains a USCI data block for output to IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK.
 ms.assetid: c2710a84-7eaa-44bf-a0b3-4ea40f0b03a3
 ms.date: 09/30/2018
-ms.topic: struct
 f1_keywords:
  - "ucmucsippmrequests/_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS"
 ms.keywords: _UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS, UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS, *PUCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS, 

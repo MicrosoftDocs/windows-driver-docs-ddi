@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: F8BBD279-3694-4559-83B3-9312EF4153C0
 ms.date: 05/07/2018
 ms.keywords: "*PUSBFN_PIPE_INFORMATION, PUSBFN_PIPE_INFORMATION, PUSBFN_PIPE_INFORMATION structure pointer [Buses], USBFN_PIPE_INFORMATION, USBFN_PIPE_INFORMATION structure [Buses], _USBFN_PIPE_INFORMATION, buses.usbfn_pipe_information, usbfnbase/PUSBFN_PIPE_INFORMATION, usbfnbase/USBFN_PIPE_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "usbfnbase/USBFN_PIPE_INFORMATION"
 req.header: usbfnbase.h

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 419912d0-40d0-4fa9-be3b-770875271640
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_afe4967c-d7ea-4c78-98ff-9bcfb98f6b80.xml, WdfPdoInitAssignRawDevice, WdfPdoInitAssignRawDevice method, kmdf.wdfpdoinitassignrawdevice, wdf.wdfpdoinitassignrawdevice, wdfpdo/WdfPdoInitAssignRawDevice
-ms.topic: function
 f1_keywords:
  - "wdfpdo/WdfPdoInitAssignRawDevice"
 req.header: wdfpdo.h

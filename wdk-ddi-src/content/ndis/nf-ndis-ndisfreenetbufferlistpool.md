@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 811df5ea-f5e6-4986-adc0-c5fa95e5f072
 ms.date: 05/02/2018
 ms.keywords: NdisFreeNetBufferListPool, NdisFreeNetBufferListPool function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBufferListPool, ndis_netbuf_functions_ref_c2efb4b4-41de-4493-92a2-42e3fa78628b.xml, netvista.ndisfreenetbufferlistpool
-ms.topic: function
 f1_keywords:
  - "ndis/NdisFreeNetBufferListPool"
 req.header: ndis.h

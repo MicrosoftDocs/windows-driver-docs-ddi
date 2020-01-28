@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: c0c47dc7-d672-4094-af17-9de2b01886aa
 ms.date: 04/16/2018
 ms.keywords: "*PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION, FILE_LINK_INFORMATION structure [Installable File System Drivers], PFILE_LINK_INFORMATION, PFILE_LINK_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_INFORMATION, fileinformationstructures_6702855e-5076-41aa-a6c8-e9569c782646.xml, ifsk.file_link_information, ntifs/FILE_LINK_INFORMATION, ntifs/PFILE_LINK_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "ntifs/FILE_LINK_INFORMATION"
 req.header: ntifs.h

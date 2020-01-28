@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: fc6b719d-3e05-4ff5-9d81-1e9326ff4ad4
 ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control, IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE, pos.ioctl_point_of_service_msr_authenticate_device
-ms.topic: ioctl
 f1_keywords:
  - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_AUTHENTICATE_DEVICE"
 req.header: pointofservicedriverinterface.h

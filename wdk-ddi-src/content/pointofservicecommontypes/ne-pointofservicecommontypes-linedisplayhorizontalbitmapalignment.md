@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: 7C5981A5-6156-459E-8405-B178E2D3B487
 ms.date: 02/23/2018
 ms.keywords: LineDisplayHorizontalBitmapAlignment, LineDisplayHorizontalBitmapAlignment enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayHorizontalBitmapAlignment, pos.linedisplayhorizontalbitmapalignment
-ms.topic: enum
 f1_keywords:
  - "pointofservicecommontypes/LineDisplayHorizontalBitmapAlignment"
 req.header: pointofservicecommontypes.h

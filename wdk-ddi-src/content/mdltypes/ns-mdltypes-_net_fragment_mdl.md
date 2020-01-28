@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: DA25E9D1-BCAC-4B48-9F13-A5C673CF40D3
 ms.author: windowsdriverdev
 ms.date: 09/26/2019
-ms.topic: struct
 f1_keywords:
  - "mdltypes/NET_FRAGMENT_MDL"
 ms.keywords: NET_FRAGMENT_MDL, NET_FRAGMENT_MDL, 

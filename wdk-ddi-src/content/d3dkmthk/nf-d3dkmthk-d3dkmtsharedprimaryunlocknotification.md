@@ -6,7 +6,6 @@ old-location: display\d3dkmtsharedprimaryunlocknotification.htm
 ms.assetid: 1d602d09-cd80-4079-9132-1caced4d1eee
 ms.date: 05/10/2018
 ms.keywords: D3DKMTSharedPrimaryUnLockNotification, D3DKMTSharedPrimaryUnLockNotification function [Display Devices], OpenGL_Functions_311a1879-e3f7-44e2-aa1a-0c070e45bf85.xml, d3dkmthk/D3DKMTSharedPrimaryUnLockNotification, display.d3dkmtsharedprimaryunlocknotification
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTSharedPrimaryUnLockNotification"
 req.header: d3dkmthk.h

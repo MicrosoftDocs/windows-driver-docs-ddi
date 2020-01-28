@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: df3bbc09-14aa-4243-887b-d88d02a59f73
 ms.date: 04/23/2018
 ms.keywords: IKsPin interface [Streaming Media Devices],KsMediaSamplesCompleted method, IKsPin.KsMediaSamplesCompleted, IKsPin::KsMediaSamplesCompleted, KsMediaSamplesCompleted, KsMediaSamplesCompleted method [Streaming Media Devices], KsMediaSamplesCompleted method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsMediaSamplesCompleted, ksproxy_06b7c470-0755-4cae-a346-15f544c51d1d.xml, stream.ikspin_ksmediasamplescompleted
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPin.KsMediaSamplesCompleted"
 req.header: ksproxy.h

@@ -6,7 +6,6 @@ old-location: display\d3dkmtqueryresourceinfofromnthandle.htm
 ms.assetid: 7a433aaf-3215-4d11-8989-2d7bdc7f7499
 ms.date: 05/10/2018
 ms.keywords: D3DKMTQueryResourceInfoFromNtHandle, D3DKMTQueryResourceInfoFromNtHandle callback function [Display Devices], PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, PFND3DKMT_QUERYRESOURCEINFOFROMNTHANDLE callback, d3dkmthk/D3DKMTQueryResourceInfoFromNtHandle, display.d3dkmtqueryresourceinfofromnthandle
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTQueryResourceInfoFromNtHandle"
 req.header: d3dkmthk.h

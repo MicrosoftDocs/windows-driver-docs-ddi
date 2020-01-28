@@ -7,7 +7,6 @@ tech.root: sensors
 ms.assetid: 5CCFA490-090E-4F24-A5E4-4BECA63EBA53
 ms.date: 05/03/2018
 ms.keywords: SENSOR_PROPERTY_LIST_INIT, SENSOR_PROPERTY_LIST_INIT function [Sensor Devices], sensors.sensor_property_list_init, sensorsdef/SENSOR_PROPERTY_LIST_INIT
-ms.topic: function
 f1_keywords:
  - "sensorsdef/SENSOR_PROPERTY_LIST_INIT"
 req.header: sensorsdef.h

@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: AFC51731-2F30-4214-90EE-A05D48F68530
 ms.date: 04/20/2018
 ms.keywords: GetString, GetString method [Print Devices], GetString method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetString method, IPrinterPropertyBag.GetString, IPrinterPropertyBag::GetString, print.iprinterpropertybag_getstring, printerextension/IPrinterPropertyBag::GetString
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterPropertyBag.GetString"
 req.header: printerextension.h

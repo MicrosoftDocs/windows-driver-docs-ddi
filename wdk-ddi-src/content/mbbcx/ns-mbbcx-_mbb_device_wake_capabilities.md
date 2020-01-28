@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: a366fb3b-30b7-4abf-9619-5580707673ce
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: struct
 f1_keywords:
  - "mbbcx/MBB_DEVICE_WAKE_CAPABILITIES"
 ms.keywords: MBB_DEVICE_WAKE_CAPABILITIES, MBB_DEVICE_WAKE_CAPABILITIES, 

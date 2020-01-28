@@ -4,7 +4,6 @@ title: IDataModelScript (dbgmodel.h)
 description: An abstraction of a particular script which is being managed by the provider. Each script which is loaded or being edited has a separate IDataModelScript instance.
 ms.assetid: 90bb7c14-076e-45b0-9e69-24e88d74e23a
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDataModelScript"
 req.header: dbgmodel.h

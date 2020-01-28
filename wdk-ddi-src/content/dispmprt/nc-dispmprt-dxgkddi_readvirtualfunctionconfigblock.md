@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: d71bcf10-67b0-4300-bd52-d76cfcd865d1
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DXGKDDI_READVIRTUALFUNCTIONCONFIGBLOCK"
 req.header: dispmprt.h

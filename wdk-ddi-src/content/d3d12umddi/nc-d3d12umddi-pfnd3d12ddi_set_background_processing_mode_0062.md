@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 5165a123-6ae6-41bb-9ce7-c152dfc0bb89
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0062"
 req.header: d3d12umddi.h

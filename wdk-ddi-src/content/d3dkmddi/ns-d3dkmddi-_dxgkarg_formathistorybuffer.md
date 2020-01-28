@@ -6,7 +6,6 @@ old-location: display\dxgkarg_formathistorybuffer.htm
 ms.assetid: 40E00234-C22B-4F86-AC5D-197223298FD7
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_FORMATHISTORYBUFFER, DXGKARG_FORMATHISTORYBUFFER structure [Display Devices], _DXGKARG_FORMATHISTORYBUFFER, d3dkmddi/DXGKARG_FORMATHISTORYBUFFER, display.dxgkarg_formathistorybuffer
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_FORMATHISTORYBUFFER"
 req.header: d3dkmddi.h

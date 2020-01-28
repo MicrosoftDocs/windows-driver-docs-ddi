@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 3191aeff-7324-4c2b-9b64-ddc50a561df5
 ms.date: 04/30/2019
 ms.keywords: "*PKSAUDIO_PREFERRED_STATUS, KSAUDIO_PREFERRED_STATUS, KSAUDIO_PREFERRED_STATUS structure [Audio Devices], PKSAUDIO_PREFERRED_STATUS, PKSAUDIO_PREFERRED_STATUS structure pointer [Audio Devices], aud-prop_a1287dc0-98ad-4071-be11-41e51b6b4846.xml, audio.ksaudio_preferred_status, ksmedia/KSAUDIO_PREFERRED_STATUS, ksmedia/PKSAUDIO_PREFERRED_STATUS"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSAUDIO_PREFERRED_STATUS"
 req.header: ksmedia.h

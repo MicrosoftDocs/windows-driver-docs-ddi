@@ -7,7 +7,6 @@ tech.root: whea
 ms.assetid: 2961a568-32e0-4c48-b5bc-5cfb0f78272d
 ms.date: 02/20/2018
 ms.keywords: "*PWHEA_IPF_MCA_DESCRIPTOR, PWHEA_IPF_MCA_DESCRIPTOR, PWHEA_IPF_MCA_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_IPF_MCA_DESCRIPTOR, WHEA_IPF_MCA_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_IPF_MCA_DESCRIPTOR, ntddk/PWHEA_IPF_MCA_DESCRIPTOR, ntddk/WHEA_IPF_MCA_DESCRIPTOR, whea.whea_ipf_mca_descriptor, whearef_855b78be-e404-4bc0-a9fa-a0f03e61151d.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_IPF_MCA_DESCRIPTOR"
 req.header: ntddk.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 9DE4F3B0-915A-4C66-85F8-AE248B8471B5
 ms.date: 05/10/2018
 ms.keywords: HandleKernelModeMessage, HandleKernelModeMessage callback function [Display Devices], PFN_HANDLE_KMD_MESSAGE, PFN_HANDLE_KMD_MESSAGE callback, display.handlekernelmodemessage, netdispumdddi/HandleKernelModeMessage
-ms.topic: callback
 f1_keywords:
  - "netdispumdddi/HandleKernelModeMessage"
 req.header: netdispumdddi.h

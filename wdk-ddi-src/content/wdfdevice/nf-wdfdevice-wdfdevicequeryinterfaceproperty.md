@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 0A09990B-DAB9-41D3-80BF-38CD6AF39625
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceQueryInterfaceProperty, WdfDeviceQueryInterfaceProperty method, wdf.wdfdevicequeryinterfaceproperty, wdfdevice/WdfDeviceQueryInterfaceProperty
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceQueryInterfaceProperty"
 req.header: wdfdevice.h

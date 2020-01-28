@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: BA6EBD60-B7D8-4EDE-A655-2F18F27E6299
 ms.date: 04/30/2018
 ms.keywords: IoTransferActivityId, IoTransferActivityId routine [Kernel-Mode Driver Architecture], kernel.iotransferactivityid, ntddk/IoTransferActivityId
-ms.topic: function
 f1_keywords:
  - "ntddk/IoTransferActivityId"
 req.header: ntddk.h

@@ -5,7 +5,6 @@ tech.root: usbref
 description: Used in the GET_ALTERNATE_MODES command. See Table 4-24.
 ms.assetid: 324916ee-2ed2-4946-a3ab-69a82771a4c7
 ms.date: 09/30/2018
-ms.topic: struct
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_ALTERNATE_MODES_COMMAND"
 ms.keywords: _UCSI_GET_ALTERNATE_MODES_COMMAND, UCSI_GET_ALTERNATE_MODES_COMMAND, *PUCSI_GET_ALTERNATE_MODES_COMMAND, 

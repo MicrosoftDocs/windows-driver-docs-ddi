@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: C4860A43-2C53-4967-81A8-41FFF5CD2A5E
 ms.date: 05/02/2018
 ms.keywords: NDIS_PD_QUERY_COUNTER, NDIS_PD_QUERY_COUNTER callback, NdisPDQueryCounter, NdisPDQueryCounter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDQueryCounter, netvista.ndispdquerycounter
-ms.topic: callback
 f1_keywords:
  - "ndis/NdisPDQueryCounter"
 req.header: ndis.h

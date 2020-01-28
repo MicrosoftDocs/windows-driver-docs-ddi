@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: A1CC714A-CDD5-494F-8157-9D95DF738CBE
 ms.date: 04/20/2018
 ms.keywords: IPrintUnidiAsyncNotifyRegistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], IPrintUnidiAsyncNotifyRegistration interface [Print Devices],described, print.iprintunidiasyncnotifyregistration, prnasntp/IPrintUnidiAsyncNotifyRegistration
-ms.topic: interface
 f1_keywords:
  - "prnasntp/IPrintUnidiAsyncNotifyRegistration"
 req.header: prnasntp.h

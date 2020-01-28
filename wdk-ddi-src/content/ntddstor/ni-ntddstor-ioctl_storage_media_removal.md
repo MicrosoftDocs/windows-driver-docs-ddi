@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: ea8d7924-7ecc-47df-9616-8e2ed60c3de8
 ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_MEDIA_REMOVAL, IOCTL_STORAGE_MEDIA_REMOVAL control, IOCTL_STORAGE_MEDIA_REMOVAL control code [Storage Devices], k307_3579b0fa-49fa-4051-8726-15662992f0d2.xml, ntddstor/IOCTL_STORAGE_MEDIA_REMOVAL, storage.ioctl_storage_media_removal
-ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_MEDIA_REMOVAL"
 req.header: ntddstor.h

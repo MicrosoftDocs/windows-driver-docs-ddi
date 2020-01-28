@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 120bbf98-6e76-4ab2-98b3-d934d966baca
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
 f1_keywords:
  - "ntddvdeo/COLORSPACE_TRANSFORM_3x4"
 ms.keywords: COLORSPACE_TRANSFORM_3x4, COLORSPACE_TRANSFORM_3x4, *PCOLORSPACE_TRANSFORM_3x4, 

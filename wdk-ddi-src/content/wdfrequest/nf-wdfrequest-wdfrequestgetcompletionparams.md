@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 167bb0f3-a484-443b-8bc4-bb2bbcecc19a
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_032fe29a-4000-4d97-92fb-50462d2c1bea.xml, WdfRequestGetCompletionParams, WdfRequestGetCompletionParams method, kmdf.wdfrequestgetcompletionparams, wdf.wdfrequestgetcompletionparams, wdfrequest/WdfRequestGetCompletionParams
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WdfRequestGetCompletionParams"
 req.header: wdfrequest.h

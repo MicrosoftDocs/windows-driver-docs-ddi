@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 1866c6ad-57a2-4f3d-a2c8-f5748ecf42bc
 ms.date: 05/03/2018
 ms.keywords: GetSymbolInformation, GetSymbolInformation method [Windows Debugging], GetSymbolInformation method [Windows Debugging],IDebugAdvanced2 interface, GetSymbolInformation method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced2 interface [Windows Debugging],GetSymbolInformation method, IDebugAdvanced2.GetSymbolInformation, IDebugAdvanced2::GetSymbolInformation, IDebugAdvanced3 interface [Windows Debugging],GetSymbolInformation method, IDebugAdvanced3::GetSymbolInformation, IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml, dbgeng/IDebugAdvanced2::GetSymbolInformation, dbgeng/IDebugAdvanced3::GetSymbolInformation, debugger.getsymbolinformation
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugAdvanced2.GetSymbolInformation"
 req.header: dbgeng.h

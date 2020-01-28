@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 0227751d-739b-4e0c-84bd-9135f117ec9b
 ms.date: 04/30/2018
 ms.keywords: IoAttachDevice, IoAttachDevice routine [Kernel-Mode Driver Architecture], k104_a4f21237-9d2c-4336-9956-5e24da79f4b2.xml, kernel.ioattachdevice, wdm/IoAttachDevice
-ms.topic: function
 f1_keywords:
  - "wdm/IoAttachDevice"
 req.header: wdm.h

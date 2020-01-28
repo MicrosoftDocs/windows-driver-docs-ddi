@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: a239889e-ec39-48fc-9e82-c8bc3d7ca51a
 ms.date: 05/02/2018
 ms.keywords: FILTER_PAUSE, FILTER_PAUSE callback, FilterPause, FilterPause callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_2f28fa9f-47cb-4638-b673-e938872f54f1.xml, ndis/FilterPause, netvista.filterpause
-ms.topic: callback
 f1_keywords:
  - "ndis/FilterPause"
 req.header: ndis.h

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: B8D09AB4-1F36-44E1-8D4F-33E7E4DBBFE3
 ms.date: 05/08/2018
 ms.keywords: GetAudioEngineDescriptor, GetAudioEngineDescriptor method [Audio Devices], GetAudioEngineDescriptor method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetAudioEngineDescriptor method, IMiniportAudioEngineNode.GetAudioEngineDescriptor, IMiniportAudioEngineNode::GetAudioEngineDescriptor, audio.iminiportaudioenginenode_getaudioenginedescriptor, portcls/IMiniportAudioEngineNode::GetAudioEngineDescriptor
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetAudioEngineDescriptor"
 req.header: portcls.h

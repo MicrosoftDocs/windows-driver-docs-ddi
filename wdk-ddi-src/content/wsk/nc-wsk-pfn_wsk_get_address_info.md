@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 688619b9-ab0b-4459-8f1b-74815043a190
 ms.date: 05/02/2018
 ms.keywords: PFN_WSK_GET_ADDRESS_INFO, PFN_WSK_GET_ADDRESS_INFO callback, WskGetAddressInfo, WskGetAddressInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetaddressinfo, wsk/WskGetAddressInfo, wskref_4b8f8dcc-eebb-4613-b130-3f7ae2921a8b.xml
-ms.topic: callback
 f1_keywords:
  - "wsk/WskGetAddressInfo"
 req.header: wsk.h

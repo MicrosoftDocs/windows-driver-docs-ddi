@@ -6,7 +6,6 @@ old-location: display\dxgkddiresetfromtimeout.htm
 ms.assetid: b9bfc801-33f6-4911-ab7d-8e3c99a5e2e9
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_RESETFROMTIMEOUT, DXGKDDI_RESETFROMTIMEOUT callback, DmFunctions_de82b888-dc3d-40b6-a3c3-360254efb972.xml, DxgkDdiResetFromTimeout, DxgkDdiResetFromTimeout callback function [Display Devices], d3dkmddi/DxgkDdiResetFromTimeout, display.dxgkddiresetfromtimeout
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

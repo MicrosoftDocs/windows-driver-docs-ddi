@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 90f0a38d-f50e-4da0-b98f-2f3068f03b2e
 ms.date: 05/10/2018
 ms.keywords: I2CStart, I2CStart callback function [Display Devices], PI2C_START, PI2C_START callback, VideoPort_Functions_287e51cf-dce0-47c5-b743-c6fb401bb74e.xml, display.i2cstart, video/I2CStart
-ms.topic: callback
 f1_keywords:
  - "video/I2CStart"
 req.header: video.h
