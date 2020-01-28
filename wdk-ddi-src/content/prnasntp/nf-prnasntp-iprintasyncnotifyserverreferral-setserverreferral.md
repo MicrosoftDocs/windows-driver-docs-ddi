@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 6555386C-8589-424A-9640-530B0C625DE2
 ms.date: 04/20/2018
 ms.keywords: IPrintAsyncNotifyServerReferral interface [Print Devices],SetServerReferral method, IPrintAsyncNotifyServerReferral.SetServerReferral, IPrintAsyncNotifyServerReferral::SetServerReferral, SetServerReferral, SetServerReferral method [Print Devices], SetServerReferral method [Print Devices],IPrintAsyncNotifyServerReferral interface, print.iprintasyncnotifyserverreferral_setserverreferral, prnasntp/IPrintAsyncNotifyServerReferral::SetServerReferral
-ms.topic: method
 f1_keywords:
  - "prnasntp/IPrintAsyncNotifyServerReferral.SetServerReferral"
 req.header: prnasntp.h

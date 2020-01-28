@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 9558e2bc-4975-4b32-8e95-9fc5e0f7882e
 ms.date: 04/30/2018
 ms.keywords: RtlFindClearBitsAndSet, RtlFindClearBitsAndSet routine [Kernel-Mode Driver Architecture], k109_187055d4-54ce-4ede-878a-fd97079e6fdd.xml, kernel.rtlfindclearbitsandset, wdm/RtlFindClearBitsAndSet
-ms.topic: function
 f1_keywords:
  - "wdm/RtlFindClearBitsAndSet"
 req.header: wdm.h

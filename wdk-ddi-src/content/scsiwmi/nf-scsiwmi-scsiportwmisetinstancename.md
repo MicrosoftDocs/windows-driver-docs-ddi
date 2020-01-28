@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: f624959f-e232-4918-8f0b-f232471c2c67
 ms.date: 03/29/2018
 ms.keywords: ScsiPortWmiSetInstanceName, ScsiPortWmiSetInstanceName routine [Storage Devices], scsiprt_a6ff8339-8734-4635-a17e-c3ad7bb524c3.xml, scsiwmi/ScsiPortWmiSetInstanceName, storage.scsiportwmisetinstancename
-ms.topic: function
 f1_keywords:
  - "scsiwmi/ScsiPortWmiSetInstanceName"
 req.header: scsiwmi.h

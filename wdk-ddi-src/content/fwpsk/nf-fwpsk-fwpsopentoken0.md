@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: B6C61023-F840-4517-83C1-BC9CBDFC27B0
 ms.date: 05/02/2018
 ms.keywords: FwpsOpenToken0, FwpsOpenToken0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsOpenToken0, netvista.fwpsopentoken0
-ms.topic: function
 f1_keywords:
  - "fwpsk/FwpsOpenToken0"
 req.header: fwpsk.h

@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: 7f7f1286-83e9-4bd8-ac57-1c3def4c0035
 ms.date: 04/04/2018
 ms.keywords: IWDTFDeviceDepot2, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], IWDTFDeviceDepot2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFDeviceDepot2, dtf.iwdtfdevicedepot2, wdtf/IWDTFDeviceDepot2
-ms.topic: interface
 f1_keywords:
  - "wdtf/IWDTFDeviceDepot2"
 req.header: wdtf.h

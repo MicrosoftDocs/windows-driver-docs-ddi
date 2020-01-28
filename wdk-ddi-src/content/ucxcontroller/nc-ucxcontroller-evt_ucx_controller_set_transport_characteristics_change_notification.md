@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 559D2215-B78C-41EA-9E2C-6E67AE5276BE
 ms.date: 05/07/2018
 ms.keywords: "*PFN_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION, *PFN_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION callback function pointer [Buses], EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION, EVT_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION callback, EvUcxControllerSetTransportCharacteristicsChangeNotification, EvUcxControllerSetTransportCharacteristicsChangeNotification callback function [Buses], buses.evt_ucx_controller_set_transport_characteristics_change_notification, ucxcontroller/EvUcxControllerSetTransportCharacteristicsChangeNotification"
-ms.topic: callback
 f1_keywords:
  - "ucxcontroller/*PFN_UCX_CONTROLLER_SET_TRANSPORT_CHARACTERISTICS_CHANGE_NOTIFICATION"
 req.header: ucxcontroller.h

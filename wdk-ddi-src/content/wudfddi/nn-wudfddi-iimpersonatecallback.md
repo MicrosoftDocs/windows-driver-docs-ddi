@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 811cb070-9cbe-4906-9db0-ee8316cc18c9
 ms.date: 02/26/2018
 ms.keywords: IImpersonateCallback, IImpersonateCallback interface, IImpersonateCallback interface,described, UMDFRequestObjectRef_a92c4df0-b16b-4fc0-b858-4b2cdd59c3b2.xml, umdf.iimpersonatecallback, wdf.iimpersonatecallback, wudfddi/IImpersonateCallback
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IImpersonateCallback"
 req.header: wudfddi.h

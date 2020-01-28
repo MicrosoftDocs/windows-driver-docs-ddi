@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 79A39FEE-173F-4106-9759-97CF6BE5DA65
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_INVALIDATE, NDK_FN_INVALIDATE callback, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkInvalidate, NdkInvalidate callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkInvalidate, netvista.ndk_fn_invalidate
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkInvalidate"
 req.header: ndkpi.h

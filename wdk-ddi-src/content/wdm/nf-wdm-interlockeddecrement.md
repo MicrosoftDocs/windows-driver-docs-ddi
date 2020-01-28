@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 06964a2c-f666-44e8-a747-41791f61c67c
 ms.date: 04/30/2018
 ms.keywords: InterlockedDecrement, InterlockedDecrement routine [Kernel-Mode Driver Architecture], k102_cc85e517-f056-413e-a095-671867632613.xml, kernel.interlockeddecrement, wdm/InterlockedDecrement
-ms.topic: function
 f1_keywords:
  - "wdm/InterlockedDecrement"
 req.header: wdm.h

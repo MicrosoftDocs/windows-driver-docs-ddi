@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 6907eb45-8d29-4cdc-80eb-2d8cafbbd9bd
 ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_82433e94-79b3-4398-a38e-7f7a99cc09be.xml, DXVADDI_QUERYEXTENSIONCAPSINPUT, DXVADDI_QUERYEXTENSIONCAPSINPUT structure [Display Devices], _DXVADDI_QUERYEXTENSIONCAPSINPUT, d3dumddi/DXVADDI_QUERYEXTENSIONCAPSINPUT, display.dxvaddi_queryextensioncapsinput
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/DXVADDI_QUERYEXTENSIONCAPSINPUT"
 req.header: d3dumddi.h

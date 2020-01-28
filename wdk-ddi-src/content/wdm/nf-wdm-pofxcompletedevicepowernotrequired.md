@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 7DCAFA7C-6F13-4020-BCB6-D36EE164BDAA
 ms.date: 04/30/2018
 ms.keywords: PoFxCompleteDevicePowerNotRequired, PoFxCompleteDevicePowerNotRequired routine [Kernel-Mode Driver Architecture], kernel.pofxcompletedevicepowernotrequired, wdm/PoFxCompleteDevicePowerNotRequired
-ms.topic: function
 f1_keywords:
  - "wdm/PoFxCompleteDevicePowerNotRequired"
 req.header: wdm.h

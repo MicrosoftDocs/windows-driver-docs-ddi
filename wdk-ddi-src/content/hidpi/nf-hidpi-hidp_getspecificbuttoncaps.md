@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 923693a2-cb46-4f74-bb1b-cd7bb07014e8
 ms.date: 04/30/2018
 ms.keywords: HidP_GetSpecificButtonCaps, HidP_GetSpecificButtonCaps routine [Human Input Devices], hid.hidp_getspecificbuttoncaps, hidfunc_dd31da1d-fb42-4ac9-a15e-4c6585785c20.xml, hidpi/HidP_GetSpecificButtonCaps
-ms.topic: function
 f1_keywords:
  - "hidpi/HidP_GetSpecificButtonCaps"
 req.header: hidpi.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 6cec8639-1d5e-4b24-8e02-a7ae62740fea
 ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2COLORFILL, D3DHAL_DP2COLORFILL, D3DHAL_DP2COLORFILL structure [Display Devices], LPD3DHAL_DP2COLORFILL, LPD3DHAL_DP2COLORFILL structure pointer [Display Devices], _D3DHAL_DP2COLORFILL, d3dhal/D3DHAL_DP2COLORFILL, d3dhal/LPD3DHAL_DP2COLORFILL, d3dstrct_41b1733a-0f94-4e04-9f7d-dac688c2bc56.xml, display.d3dhal_dp2colorfill"
-ms.topic: struct
 f1_keywords:
  - "d3dhal/D3DHAL_DP2COLORFILL"
 req.header: d3dhal.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: cfb8d6d9-0210-4800-979c-7c6a6bbfe633
 ms.date: 05/10/2018
 ms.keywords: PDRIVER_IO_PORT_USHORT_STRING, PDRIVER_IO_PORT_USHORT_STRING callback, SvgaHwIoPortUshortString, SvgaHwIoPortUshortString callback function [Display Devices], VideoMiniport_Functions_7ac011d5-6b69-4ac5-92dd-abc8f2c43740.xml, display.svgahwioportushortstring, video/SvgaHwIoPortUshortString
-ms.topic: callback
 f1_keywords:
  - "video/SvgaHwIoPortUshortString"
 req.header: video.h

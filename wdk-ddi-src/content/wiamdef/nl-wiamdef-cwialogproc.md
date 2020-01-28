@@ -4,7 +4,6 @@ title: CWiaLogProc (wiamdef.h)
 description: 
 ms.assetid: 778cac25-66f5-4909-884a-119477b288a7
 ms.date: 10/19/2018
-ms.topic: class
 f1_keywords:
  - "wiamdef/CWiaLogProc"
 req.header: wiamdef.h

@@ -4,7 +4,6 @@ title: IIterableConcept::GetDefaultIndexDimensionality (dbgmodel.h)
 description: The GetDefaultIndexDimensionality method returns the number of dimensions to the default index. 
 ms.assetid: 877b66bb-4b7a-4e4e-8199-d90a77eabda7
 ms.date: 09/19/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IIterableConcept.GetDefaultIndexDimensionality"
 ms.keywords: IIterableConcept::GetDefaultIndexDimensionality, GetDefaultIndexDimensionality, IIterableConcept.GetDefaultIndexDimensionality, IIterableConcept::GetDefaultIndexDimensionality, IIterableConcept.GetDefaultIndexDimensionality

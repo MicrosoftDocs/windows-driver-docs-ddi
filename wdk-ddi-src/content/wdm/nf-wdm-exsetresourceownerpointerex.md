@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 96293fbc-0c3c-4685-8708-dd84fcc2223e
 ms.date: 04/30/2018
 ms.keywords: ExSetResourceOwnerPointerEx, ExSetResourceOwnerPointerEx routine [Kernel-Mode Driver Architecture], k102_2bcc65e9-00e7-4fc5-a1d6-1f797b2c6038.xml, kernel.exsetresourceownerpointerex, wdm/ExSetResourceOwnerPointerEx
-ms.topic: function
 f1_keywords:
  - "wdm/ExSetResourceOwnerPointerEx"
 req.header: wdm.h

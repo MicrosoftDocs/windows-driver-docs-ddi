@@ -5,7 +5,6 @@ description: The Start method starts a subordinate DMA object.
 tech.root: audio
 ms.assetid: 35bad0d6-f3ce-48c8-8bf2-f25707378dec
 ms.date: 10/30/2018
-ms.topic: method
 f1_keywords:
  - "portcls/IDmaChannelSlave.Start"
 ms.keywords: IDmaChannelSlave::Start, Start, IDmaChannelSlave.Start, IDmaChannelSlave::Start, IDmaChannelSlave.Start

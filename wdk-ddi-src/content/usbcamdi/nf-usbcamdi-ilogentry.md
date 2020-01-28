@@ -4,7 +4,6 @@ title: ILOGENTRY macro (usbcamdi.h)
 description: 
 ms.assetid: f8206e7e-4474-4cc4-83a8-4973369eab25
 ms.date: 10/19/2018
-ms.topic: macro
 f1_keywords:
  - "usbcamdi/ILOGENTRY"
 ms.keywords: ILOGENTRY

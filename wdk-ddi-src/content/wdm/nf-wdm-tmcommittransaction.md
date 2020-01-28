@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 8d17de44-2fd9-4e20-8a9b-2647c9917709
 ms.date: 04/30/2018
 ms.keywords: TmCommitTransaction, TmCommitTransaction routine [Kernel-Mode Driver Architecture], kernel.tmcommittransaction, ktm_ref_e5e36a40-1ee7-469c-acd9-8e7a44017853.xml, wdm/TmCommitTransaction
-ms.topic: function
 f1_keywords:
  - "wdm/TmCommitTransaction"
 req.header: wdm.h

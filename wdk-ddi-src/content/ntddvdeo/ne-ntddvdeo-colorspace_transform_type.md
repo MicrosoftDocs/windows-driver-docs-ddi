@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 987104a9-3e75-4418-b6b1-949bc62ac580
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: enum
 f1_keywords:
  - "ntddvdeo/COLORSPACE_TRANSFORM_TYPE"
 ms.keywords: COLORSPACE_TRANSFORM_TYPE, COLORSPACE_TRANSFORM_TYPE, 

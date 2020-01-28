@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: b07cd86b-a980-478b-832b-484a1b0ca981
 ms.date: 05/10/2018
 ms.keywords: VideoPortWritePortBufferUchar, VideoPortWritePortBufferUchar function [Display Devices], VideoPort_Functions_c7f29624-d08d-437f-8b03-6f6f3b1f27b9.xml, display.videoportwriteportbufferuchar, video/VideoPortWritePortBufferUchar
-ms.topic: function
 f1_keywords:
  - "video/VideoPortWritePortBufferUchar"
 req.header: video.h

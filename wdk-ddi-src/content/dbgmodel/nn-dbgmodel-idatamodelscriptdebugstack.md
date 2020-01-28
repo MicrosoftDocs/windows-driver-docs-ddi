@@ -4,7 +4,6 @@ title: IDataModelScriptDebugStack (dbgmodel.h)
 description: An interface to a stack in the script. The script provider implements this interface to expose the notion of a call stack to the script debugger.
 ms.assetid: 835f361a-a4eb-4b32-a4a6-0aff8d9a2f50
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugStack"
 req.header: dbgmodel.h

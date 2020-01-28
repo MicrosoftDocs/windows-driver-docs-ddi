@@ -4,7 +4,6 @@ title: IOCTL_SBAUD_STREAM_SUSPEND (sidebandaudio.h)
 description: 
 ms.assetid: ff4f29b9-2902-4f72-b204-14d5e486d42d
 ms.date: 10/05/2018
-ms.topic: ioctl
 f1_keywords:
  - "sidebandaudio/IOCTL_SBAUD_STREAM_SUSPEND"
 req.header: sidebandaudio.h

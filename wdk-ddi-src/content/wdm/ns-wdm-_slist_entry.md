@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 690bcd8a-3c4f-4254-99c7-4ad600b4ae4f
 ms.date: 04/30/2018
 ms.keywords: "*PSLIST_ENTRY, PSLIST_ENTRY, PSLIST_ENTRY structure pointer [Kernel-Mode Driver Architecture], SLIST_ENTRY, SLIST_ENTRY structure [Kernel-Mode Driver Architecture], _SLIST_ENTRY, kernel.slist_entry, kstruct_d_2bfe90ad-ee2e-4dbf-a028-5b3481aa8695.xml, wdm/PSLIST_ENTRY, wdm/SLIST_ENTRY"
-ms.topic: struct
 f1_keywords:
  - "wdm/SLIST_ENTRY"
 req.header: wdm.h

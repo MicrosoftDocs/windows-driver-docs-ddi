@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 3d129a30-a892-4f4d-b8e3-f277d97980f4
 ms.date: 04/20/2018
 ms.keywords: DrvSplDeviceCaps, DrvSplDeviceCaps function [Print Devices], print.drvspldevicecaps, print_interface-graphics_8c345fd4-e513-44ff-94b0-2f035db6a022.xml, winddiui/DrvSplDeviceCaps
-ms.topic: function
 f1_keywords:
  - "winddiui/DrvSplDeviceCaps"
 req.header: winddiui.h

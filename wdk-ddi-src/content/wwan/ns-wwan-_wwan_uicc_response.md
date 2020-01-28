@@ -5,7 +5,6 @@ description: The WWAN_UICC_RESPONSE structure describes a UICC response to a fil
 tech.root: netvista
 ms.assetid: 30E5B8D7-B104-469D-B3F0-7FE8C2BE295A
 ms.date: 04/10/2019
-ms.topic: struct
 f1_keywords:
  - "wwan/_WWAN_UICC_RESPONSE"
 ms.keywords: _WWAN_UICC_RESPONSE, WWAN_UICC_RESPONSE, *PWWAN_UICC_RESPONSE, 

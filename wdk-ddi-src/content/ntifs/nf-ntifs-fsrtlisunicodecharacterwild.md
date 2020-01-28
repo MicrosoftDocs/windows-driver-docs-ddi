@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 5e72aa2e-3aa6-49e5-b49f-339722060d5b
 ms.date: 04/16/2018
 ms.keywords: FsRtlIsUnicodeCharacterWild, FsRtlIsUnicodeCharacterWild function [Installable File System Drivers], fsrtlref_90047321-d510-4139-bfcf-d2f48c126834.xml, ifsk.fsrtlisunicodecharacterwild, ntifs/FsRtlIsUnicodeCharacterWild
-ms.topic: macro
 f1_keywords:
  - "ntifs/FsRtlIsUnicodeCharacterWild"
 req.header: ntifs.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 72a75d88-1694-4acf-8775-8586e37e412d
 ms.date: 05/02/2018
 ms.keywords: RILUICCCHANNELGROUP, RILUICCCHANNELGROUP enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccchannelgroup, ntddrilapitypes/RILUICCCHANNELGROUP
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILUICCCHANNELGROUP"
 req.header: rilapitypes.h

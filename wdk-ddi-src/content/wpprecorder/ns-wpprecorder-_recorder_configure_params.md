@@ -7,7 +7,6 @@ tech.root: devtest
 ms.assetid: 9D2AB7D0-CD75-4539-9CB8-8CBA33EFE299
 ms.date: 02/23/2018
 ms.keywords: "*PRECORDER_CONFIGURE_PARAMS, PRECORDER_CONFIGURE_PARAMS, PRECORDER_CONFIGURE_PARAMS structure pointer [Driver Development Tools], RECORDER_CONFIGURE_PARAMS, RECORDER_CONFIGURE_PARAMS structure [Driver Development Tools], _RECORDER_CONFIGURE_PARAMS, devtest.recorder_configure_params, wpprecorder/PRECORDER_CONFIGURE_PARAMS, wpprecorder/RECORDER_CONFIGURE_PARAMS"
-ms.topic: struct
 f1_keywords:
  - "wpprecorder/RECORDER_CONFIGURE_PARAMS"
 req.header: wpprecorder.h

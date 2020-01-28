@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: a07ff2f6-e67e-489e-a477-6dc4b4ce6fed
 ms.date: 04/30/2018
 ms.keywords: IoWMISuggestInstanceName, IoWMISuggestInstanceName routine [Kernel-Mode Driver Architecture], k104_dc84cc9c-d6ca-40d2-93af-f54a149be7d1.xml, kernel.iowmisuggestinstancename, wdm/IoWMISuggestInstanceName
-ms.topic: function
 f1_keywords:
  - "wdm/IoWMISuggestInstanceName"
 req.header: wdm.h

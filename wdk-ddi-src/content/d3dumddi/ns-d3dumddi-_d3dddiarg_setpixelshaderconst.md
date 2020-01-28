@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1c8cbbdc-ac2e-462e-9d5c-484305a41302
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_SETPIXELSHADERCONST, D3DDDIARG_SETPIXELSHADERCONST structure [Display Devices], D3DDDIARG_SETPIXELSHADERCONSTB, D3DDDIARG_SETPIXELSHADERCONSTI, UMDisplayDriver_param_Structs_b2bba0b4-f57a-48f6-a738-709fedfe678e.xml, _D3DDDIARG_SETPIXELSHADERCONST, d3dumddi/D3DDDIARG_SETPIXELSHADERCONST, display.d3dddiarg_setpixelshaderconst
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETPIXELSHADERCONST"
 req.header: d3dumddi.h

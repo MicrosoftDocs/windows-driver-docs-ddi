@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: a910ae2d-8a3b-451c-b1f2-a19f7f9f14a2
 ms.date: 03/26/2018
 ms.keywords: NdisReleaseReadWriteLock, NdisReleaseReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisReleaseReadWriteLock, ndis_read_write_lock_ref_4f0f9891-a4a6-457d-b547-4f5543fbc534.xml, netvista.ndisreleasereadwritelock
-ms.topic: function
 f1_keywords:
  - "ndis/NdisReleaseReadWriteLock"
 req.header: ndis.h

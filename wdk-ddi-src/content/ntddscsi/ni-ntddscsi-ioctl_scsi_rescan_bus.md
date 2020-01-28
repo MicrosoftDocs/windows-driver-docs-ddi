@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: d2b1ec10-3d59-469f-a92e-e28a6c2aef92
 ms.date: 03/29/2018
 ms.keywords: IOCTL_SCSI_RESCAN_BUS, IOCTL_SCSI_RESCAN_BUS control, IOCTL_SCSI_RESCAN_BUS control code [Storage Devices], k307_36067418-9daa-4fed-a8a6-98fe65ca7fe2.xml, ntddscsi/IOCTL_SCSI_RESCAN_BUS, storage.ioctl_scsi_rescan_bus
-ms.topic: ioctl
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_RESCAN_BUS"
 req.header: ntddscsi.h

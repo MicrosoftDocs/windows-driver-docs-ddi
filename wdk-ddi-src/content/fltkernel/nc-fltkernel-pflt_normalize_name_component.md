@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 7050e872-3976-4842-9d16-50caf415acbc
 ms.date: 04/16/2018
 ms.keywords: FltCallbacks_674b1fbb-234b-4505-931e-8148e2f23d1b.xml, NormalizeNameComponentCallback, NormalizeNameComponentCallback routine [Installable File System Drivers], PFLT_NORMALIZE_NAME_COMPONENT, fltkernel/NormalizeNameComponentCallback, ifsk.pflt_normalize_name_component
-ms.topic: callback
 f1_keywords:
  - "fltkernel/NormalizeNameComponentCallback"
 req.header: fltkernel.h

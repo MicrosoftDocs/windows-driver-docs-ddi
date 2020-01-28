@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 043c15dc-ebd7-4d91-8f65-d89d6064cc7c
 ms.date: 02/26/2018
 ms.keywords: DFInterruptObjectRef_ed600fb0-0e09-4c00-a132-cd4947dd2b04.xml, WdfInterruptSetExtendedPolicy, WdfInterruptSetExtendedPolicy method, kmdf.wdfinterruptsetextendedpolicy, wdf.wdfinterruptsetextendedpolicy, wdfinterrupt/WdfInterruptSetExtendedPolicy
-ms.topic: function
 f1_keywords:
  - "wdfinterrupt/WdfInterruptSetExtendedPolicy"
 req.header: wdfinterrupt.h

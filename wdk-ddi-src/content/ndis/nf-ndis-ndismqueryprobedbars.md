@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 39deba08-3ff0-4037-b530-0cb4a01fc758
 ms.date: 05/02/2018
 ms.keywords: NdisMQueryProbedBars, NdisMQueryProbedBars function [Network Drivers Starting with Windows Vista], ndis/NdisMQueryProbedBars, netvista.ndismqueryprobedbars
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMQueryProbedBars"
 req.header: ndis.h

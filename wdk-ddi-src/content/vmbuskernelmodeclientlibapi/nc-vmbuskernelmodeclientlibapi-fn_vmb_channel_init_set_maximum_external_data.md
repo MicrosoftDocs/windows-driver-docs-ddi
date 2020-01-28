@@ -5,7 +5,6 @@ description: The VmbChannelInitSetMaximumExternalData function sets the maximum 
 tech.root: netvista
 ms.assetid: 09e113ef-d1a5-444a-99c9-06a2a46c9734
 ms.date: 05/21/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_MAXIMUM_EXTERNAL_DATA"
 req.header: vmbuskernelmodeclientlibapi.h

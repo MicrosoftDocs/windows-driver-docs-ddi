@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 5c501305-fa5f-4466-9a9a-83f072d904b3
 ms.date: 04/20/2018
 ms.keywords: IPrintOemUI interface [Print Devices],UpdateExternalFonts method, IPrintOemUI.UpdateExternalFonts, IPrintOemUI::UpdateExternalFonts, UpdateExternalFonts, UpdateExternalFonts method [Print Devices], UpdateExternalFonts method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::UpdateExternalFonts, print.iprintoemui_updateexternalfonts, print_unidrv-pscript_ui_e9f50923-c566-4e7f-997e-5788602d1083.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemUI.UpdateExternalFonts"
 req.header: prcomoem.h

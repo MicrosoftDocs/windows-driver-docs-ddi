@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 5dd4b15a-63e1-4b80-a156-bc44aeeafb0e
 ms.date: 04/16/2018
 ms.keywords: RtlGetSaclSecurityDescriptor, RtlGetSaclSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetsaclsecuritydescriptor, ntifs/RtlGetSaclSecurityDescriptor, rtlref_708c4a48-6840-426d-9c64-1eff896e8446.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlGetSaclSecurityDescriptor"
 req.header: ntifs.h

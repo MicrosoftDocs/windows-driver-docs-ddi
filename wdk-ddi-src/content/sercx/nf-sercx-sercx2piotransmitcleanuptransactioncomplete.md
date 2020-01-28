@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 44ADAAB7-E0EE-4908-A0D8-366EC1C3AC2E
 ms.date: 04/23/2018
 ms.keywords: 2/SerCx2PioTransmitCleanupTransactionComplete, SerCx2PioTransmitCleanupTransactionComplete, SerCx2PioTransmitCleanupTransactionComplete method [Serial Ports], serports.sercx2piotransmitcleanuptransactioncomplete
-ms.topic: function
 f1_keywords:
  - "sercx/SerCx2PioTransmitCleanupTransactionComplete"
 req.header: sercx.h

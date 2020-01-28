@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: EBF5B615-A7B1-4B44-855C-7956334AAF75
 ms.date: 04/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPipeAllocatorFlag method, IKsPinPipe.KsGetPipeAllocatorFlag, IKsPinPipe::KsGetPipeAllocatorFlag, KsGetPipeAllocatorFlag, KsGetPipeAllocatorFlag method [Streaming Media Devices], KsGetPipeAllocatorFlag method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPipeAllocatorFlag, stream.ikspinpipe_ksgetpipeallocatorflag
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsGetPipeAllocatorFlag"
 req.header: ksproxy.h

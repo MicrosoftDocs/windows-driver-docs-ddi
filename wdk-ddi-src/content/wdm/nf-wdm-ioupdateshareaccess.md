@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: b8e14607-a8d4-4e15-8b1d-92096879ea65
 ms.date: 04/30/2018
 ms.keywords: IoUpdateShareAccess, IoUpdateShareAccess routine [Kernel-Mode Driver Architecture], k104_24b78a73-20f1-4d8b-be0e-67964e8dbc31.xml, kernel.ioupdateshareaccess, wdm/IoUpdateShareAccess
-ms.topic: function
 f1_keywords:
  - "wdm/IoUpdateShareAccess"
 req.header: wdm.h

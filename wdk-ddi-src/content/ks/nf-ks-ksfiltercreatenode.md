@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 2a796bb9-7d55-47da-9a57-2829cd193e23
 ms.date: 04/23/2018
 ms.keywords: KsFilterCreateNode, KsFilterCreateNode function [Streaming Media Devices], avfunc_9adc2406-964c-4f26-a155-67f37cceb0b4.xml, ks/KsFilterCreateNode, stream.ksfiltercreatenode
-ms.topic: function
 f1_keywords:
  - "ks/KsFilterCreateNode"
 req.header: ks.h

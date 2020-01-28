@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: a3d33a3a-efe7-4346-82bc-555c57ae7b74
 ms.date: 05/02/2019
 ms.keywords: BugCheckAddPagesCallback, BugCheckDumpIoCallback, BugCheckSecondaryDumpDataCallback, DrvrRtns_337f5b60-9ed5-4a1b-a215-1d3b1e3abb1e.xml, KBUGCHECK_REASON_CALLBACK_ROUTINE, KBUGCHECK_REASON_CALLBACK_ROUTINE callback, MyBugCheckCallback, MyBugCheckCallback callback function [Kernel-Mode Driver Architecture], kernel.bugcheckaddpagescallback, wdm/MyBugCheckCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/MyBugCheckCallback"
 req.header: wdm.h

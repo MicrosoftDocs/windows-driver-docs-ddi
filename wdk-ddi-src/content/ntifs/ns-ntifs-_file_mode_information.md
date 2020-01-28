@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: c01ee792-4e39-4135-b389-a5c5ac832245
 ms.date: 04/30/2018
 ms.keywords: "*PFILE_MODE_INFORMATION, FILE_MODE_INFORMATION, FILE_MODE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_MODE_INFORMATION, PFILE_MODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_MODE_INFORMATION, kernel.file_mode_information, kstruct_b_ab9ae7a9-242c-4f0e-a44f-8c5883b0c3ce.xml, ntifs/FILE_MODE_INFORMATION, ntifs/PFILE_MODE_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "ntifs/FILE_MODE_INFORMATION"
 req.header: ntifs.h

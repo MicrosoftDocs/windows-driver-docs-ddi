@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 38f4c2b7-f9cd-42f2-b75e-725976b6b9dd
 ms.date: 11/26/2019
 ms.keywords: RtlAllocateHeap, RtlAllocateHeap routine [Installable File System Drivers], ifsk.rtlallocateheap, ntifs/RtlAllocateHeap, rtlref_fa360ead-62c7-46c3-8d66-a73ee9e1a0bb.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlAllocateHeap"
 req.header: ntifs.h

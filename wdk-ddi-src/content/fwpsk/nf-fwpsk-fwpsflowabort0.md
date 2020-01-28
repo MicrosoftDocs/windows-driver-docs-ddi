@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 029dd387-498f-4402-9e61-a46688294949
 ms.date: 05/02/2018
 ms.keywords: FwpsFlowAbort0, FwpsFlowAbort0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFlowAbort0, netvista.fwpsflowabort0
-ms.topic: function
 f1_keywords:
  - "fwpsk/FwpsFlowAbort0"
 req.header: fwpsk.h

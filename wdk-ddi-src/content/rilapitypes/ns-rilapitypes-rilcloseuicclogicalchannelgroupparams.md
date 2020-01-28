@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 9442df60-7280-4c09-bea0-45ed2ac70694
 ms.date: 05/02/2018
 ms.keywords: "*LPRILCLOSEUICCLOGICALCHANNELGROUPPARAMS, RILCLOSEUICCLOGICALCHANNELGROUPPARAMS, RILCLOSEUICCLOGICALCHANNELGROUPPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilcloseuicclogicalchannelgroupparams, ntddrilapitypes/RILCLOSEUICCLOGICALCHANNELGROUPPARAMS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILCLOSEUICCLOGICALCHANNELGROUPPARAMS"
 req.header: rilapitypes.h

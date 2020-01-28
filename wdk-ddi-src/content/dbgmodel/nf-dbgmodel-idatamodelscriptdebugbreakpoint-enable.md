@@ -4,7 +4,6 @@ title: IDataModelScriptDebugBreakpoint::Enable (dbgmodel.h)
 description: The Enable method enables the breakpoint.
 ms.assetid: b9d7ccd3-cce4-4e63-9315-4a3ada35f82d
 ms.date: 09/10/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpoint.Enable"
 ms.keywords: IDataModelScriptDebugBreakpoint::Enable, Enable, IDataModelScriptDebugBreakpoint.Enable, IDataModelScriptDebugBreakpoint::Enable, IDataModelScriptDebugBreakpoint.Enable

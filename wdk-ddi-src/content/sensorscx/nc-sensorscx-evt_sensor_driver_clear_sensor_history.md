@@ -4,7 +4,6 @@ title: EVT_SENSOR_DRIVER_CLEAR_SENSOR_HISTORY (sensorscx.h)
 description: Clears the history recorded so far in the sensor.
 ms.assetid: f38c9a95-78ec-4839-a57d-14229fb5e297
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "sensorscx/EVT_SENSOR_DRIVER_CLEAR_SENSOR_HISTORY"
 req.header: sensorscx.h

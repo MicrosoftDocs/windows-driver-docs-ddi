@@ -4,7 +4,6 @@ title: _D3DDDIRENDERSTATETYPE (d3dumddi.h)
 description: The render state type.
 ms.assetid: 6af2548f-7751-4b41-b15b-117d67df3db6
 ms.date: 10/19/2018
-ms.topic: enum
 ms.keywords: _D3DDDIRENDERSTATETYPE, D3DDDIRENDERSTATETYPE,
 req.header: d3dumddi.h
 req.include-header: 

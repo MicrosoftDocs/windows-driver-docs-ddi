@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 413469b9-2f6c-4f4d-8723-80645a72744c
 ms.date: 04/16/2018
 ms.keywords: SeDeleteClientSecurity, SeDeleteClientSecurity routine [Installable File System Drivers], ifsk.sedeleteclientsecurity, ntifs/SeDeleteClientSecurity, seref_bab4478e-d302-478b-8819-79c9b2f79aa7.xml
-ms.topic: macro
 f1_keywords:
  - "ntifs/SeDeleteClientSecurity"
 req.header: ntifs.h

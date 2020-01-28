@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 1be555a5-9fa7-4179-8a36-803b8792db86
 ms.date: 04/16/2018
 ms.keywords: FltAllocateGenericWorkItem, FltAllocateGenericWorkItem function [Installable File System Drivers], FltApiRef_a_to_d_06bae00e-f41d-4cc9-8664-94e06d004458.xml, fltkernel/FltAllocateGenericWorkItem, ifsk.fltallocategenericworkitem
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltAllocateGenericWorkItem"
 req.header: fltkernel.h

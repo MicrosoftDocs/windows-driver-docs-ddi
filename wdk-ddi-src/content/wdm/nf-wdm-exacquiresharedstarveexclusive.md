@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: b148e684-18bd-4ab3-b772-6bc103b9f436
 ms.date: 04/30/2018
 ms.keywords: ExAcquireSharedStarveExclusive, ExAcquireSharedStarveExclusive routine [Kernel-Mode Driver Architecture], k102_b350fc88-cc76-4432-98e0-90e113e98007.xml, kernel.exacquiresharedstarveexclusive, wdm/ExAcquireSharedStarveExclusive
-ms.topic: function
 f1_keywords:
  - "wdm/ExAcquireSharedStarveExclusive"
 req.header: wdm.h

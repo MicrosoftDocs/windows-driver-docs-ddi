@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: E334FEE1-DD78-4906-ADFA-1B496F91BA28
 ms.date: 04/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPinFramingCache method, IKsPinPipe.KsSetPinFramingCache, IKsPinPipe::KsSetPinFramingCache, KsSetPinFramingCache, KsSetPinFramingCache method [Streaming Media Devices], KsSetPinFramingCache method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPinFramingCache, stream.ikspinpipe_kssetpinframingcache
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsSetPinFramingCache"
 req.header: ksproxy.h

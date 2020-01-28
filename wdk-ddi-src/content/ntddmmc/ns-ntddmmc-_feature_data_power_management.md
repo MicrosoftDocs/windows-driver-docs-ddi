@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 0b3f23d1-1081-4fb9-86af-6dbf7bfeb3b7
 ms.date: 03/29/2018
 ms.keywords: "*PFEATURE_DATA_POWER_MANAGEMENT, FEATURE_DATA_POWER_MANAGEMENT, FEATURE_DATA_POWER_MANAGEMENT structure [Storage Devices], PFEATURE_DATA_POWER_MANAGEMENT, PFEATURE_DATA_POWER_MANAGEMENT structure pointer [Storage Devices], _FEATURE_DATA_POWER_MANAGEMENT, ntddmmc/FEATURE_DATA_POWER_MANAGEMENT, ntddmmc/PFEATURE_DATA_POWER_MANAGEMENT, storage.feature_data_power_management, structs-CD-ROM_b2dfa21c-3dd3-40fd-9605-05c36c4b9fc8.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_POWER_MANAGEMENT"
 req.header: ntddmmc.h

@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 7984308D-4C8E-4481-8770-2430552B00E8
 ms.date: 05/07/2018
 ms.keywords: UcxRootHubPortChanged, UcxRootHubPortChanged method [Buses], buses._ucxroothubportchanged, ucxroothub/UcxRootHubPortChanged
-ms.topic: function
 f1_keywords:
  - "ucxroothub/UcxRootHubPortChanged"
 req.header: ucxroothub.h

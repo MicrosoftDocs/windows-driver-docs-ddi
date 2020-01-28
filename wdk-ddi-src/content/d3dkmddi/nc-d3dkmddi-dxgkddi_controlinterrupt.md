@@ -6,7 +6,6 @@ old-location: display\dxgkddicontrolinterrupt.htm
 ms.assetid: d6bef242-bafc-4d9e-a729-d62ccdbd2667
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CONTROLINTERRUPT, DXGKDDI_CONTROLINTERRUPT callback, DmFunctions_a124d234-9609-4f21-a1f5-c1f4cfa65d9c.xml, DxgkDdiControlInterrupt, DxgkDdiControlInterrupt callback function [Display Devices], d3dkmddi/DxgkDdiControlInterrupt, display.dxgkddicontrolinterrupt
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

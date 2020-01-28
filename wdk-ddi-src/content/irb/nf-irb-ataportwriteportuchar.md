@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 2585da94-babe-479f-8957-adaa9190451e
 ms.date: 03/29/2018
 ms.keywords: AtaPortWritePortUchar, AtaPortWritePortUchar routine [Storage Devices], atartns_25e284e4-0c1e-4172-b0d2-4435e23f7270.xml, irb/AtaPortWritePortUchar, storage.ataportwriteportuchar
-ms.topic: function
 f1_keywords:
  - "irb/AtaPortWritePortUchar"
 req.header: irb.h

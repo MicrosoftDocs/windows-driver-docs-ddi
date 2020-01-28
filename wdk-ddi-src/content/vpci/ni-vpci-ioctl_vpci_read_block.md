@@ -7,7 +7,6 @@ tech.root: PCI
 ms.assetid: C493724D-316B-4F64-866B-D26C2DBA822A
 ms.date: 02/24/2018
 ms.keywords: IOCTL_VPCI_READ_BLOCK, IOCTL_VPCI_READ_BLOCK control code, PCI.ioctl_vpci_read_block, vpci/IOCTL_VPCI_READ_BLOCK
-ms.topic: ioctl
 f1_keywords:
  - "vpci/IOCTL_VPCI_READ_BLOCK"
 req.header: vpci.h

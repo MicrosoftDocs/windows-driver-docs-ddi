@@ -7,7 +7,6 @@ tech.root: gpiobtn
 ms.assetid: 79ad880a-74a2-48e8-b16b-0d488003889f
 ms.date: 02/15/2018
 ms.keywords: "*PHWN_CLIENT_START_DEVICE, *PHWN_CLIENT_START_DEVICE callback function pointer, HWN_CLIENT_START_DEVICE, HwnClientStartDevice, HwnClientStartDevice callback function, gpiobtn.hwn_client_start_device, hwnclx/HwnClientStartDevice"
-ms.topic: callback
 f1_keywords:
  - "hwnclx/*PHWN_CLIENT_START_DEVICE"
 req.header: hwnclx.h

@@ -4,7 +4,6 @@ title: _D3DKMT_DEVICEESCAPE_TYPE (d3dkmthk.h)
 description: Device escape type.
 ms.assetid: d24e5059-9075-4448-8f85-aee583f9e92c
 ms.date: 10/19/2018
-ms.topic: enum
 f1_keywords:
  - "d3dkmthk/_D3DKMT_DEVICEESCAPE_TYPE"
 ms.keywords: _D3DKMT_DEVICEESCAPE_TYPE, D3DKMT_DEVICEESCAPE_TYPE, 

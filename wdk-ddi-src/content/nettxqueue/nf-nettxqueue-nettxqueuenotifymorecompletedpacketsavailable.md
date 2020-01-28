@@ -5,7 +5,6 @@ description: The client driver calls NetTxQueueNotifyMoreCompletedPacketsAvailab
 tech.root: netvista
 ms.assetid: 930bb60a-6ce0-4af3-b78e-160a36fc998d
 ms.date: 07/13/2018
-ms.topic: function
 f1_keywords:
  - "nettxqueue/NetTxQueueInitGetQueueId"
 ms.keywords: NetTxQueueNotifyMoreCompletedPacketsAvailable

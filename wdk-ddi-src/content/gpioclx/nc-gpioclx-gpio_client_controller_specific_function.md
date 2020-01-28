@@ -7,7 +7,6 @@ tech.root: GPIO
 ms.assetid: 27551BE5-1260-4F05-9847-97C90ADF7968
 ms.date: 02/15/2018
 ms.keywords: CLIENT_ControllerSpecificFunction, CLIENT_ControllerSpecificFunction callback, CLIENT_ControllerSpecificFunction callback function [Parallel Ports], GPIO.client_controllerspecificfunction, GPIO_CLIENT_CONTROLLER_SPECIFIC_FUNCTION, gpioclx/CLIENT_ControllerSpecificFunction
-ms.topic: callback
 f1_keywords:
  - "gpioclx/CLIENT_ControllerSpecificFunction"
 req.header: gpioclx.h

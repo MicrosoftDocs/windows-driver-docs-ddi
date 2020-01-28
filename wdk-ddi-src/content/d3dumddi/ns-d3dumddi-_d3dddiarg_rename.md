@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 3ecddaf4-bce7-4ea0-b53d-e4872fa21f81
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_RENAME, D3DDDIARG_RENAME structure [Display Devices], UMDisplayDriver_param_Structs_5acf671e-94e3-4752-89c1-b3c9e33cba7a.xml, _D3DDDIARG_RENAME, d3dumddi/D3DDDIARG_RENAME, display.d3dddiarg_rename
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_RENAME"
 req.header: d3dumddi.h

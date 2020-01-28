@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: A4FE108D-85CE-4F6A-A17A-E81684764FD3
 ms.date: 04/16/2018
 ms.keywords: RtlDecompressFragmentEx, RtlDecompressFragmentEx routine [Installable File System Drivers], ifsk.rtldecompressfragmentex, ntifs/RtlDecompressFragmentEx
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlDecompressFragmentEx"
 req.header: ntifs.h

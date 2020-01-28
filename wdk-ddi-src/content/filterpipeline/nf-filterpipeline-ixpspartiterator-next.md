@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: ac54ac59-4144-4449-a732-b9da16338ddf
 ms.date: 04/20/2018
 ms.keywords: IXpsPartIterator interface [Print Devices],Next method, IXpsPartIterator.Next, IXpsPartIterator::Next, Next, Next method [Print Devices], Next method [Print Devices],IXpsPartIterator interface, filterpipeline/IXpsPartIterator::Next, filterpipeline_1e70f932-105f-4d9f-ace3-78f687f446c6.xml, print.ixpspartiterator_next
-ms.topic: method
 f1_keywords:
  - "filterpipeline/IXpsPartIterator.Next"
 req.header: filterpipeline.h

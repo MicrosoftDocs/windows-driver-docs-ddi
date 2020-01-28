@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: aaf3d22d-da54-4478-9bf8-aad4b943788a
 ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_7130ba6a-fc24-4785-9fa3-c8fd159f63fb.xml, WdfIoResourceListCreate, WdfIoResourceListCreate method, kmdf.wdfioresourcelistcreate, wdf.wdfioresourcelistcreate, wdfresource/WdfIoResourceListCreate
-ms.topic: function
 f1_keywords:
  - "wdfresource/WdfIoResourceListCreate"
 req.header: wdfresource.h

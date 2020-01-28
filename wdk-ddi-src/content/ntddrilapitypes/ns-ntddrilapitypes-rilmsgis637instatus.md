@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: ba87baa2-7d96-4418-bfbc-411bb4cda3fb
 ms.date: 05/02/2018
 ms.keywords: "*LPRILMSGIS637INSTATUS, RILMSGIS637INSTATUS, RILMSGIS637INSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilmsgis637instatus, ntddrilapitypes/RILMSGIS637INSTATUS"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILMSGIS637INSTATUS"
 req.header: ntddrilapitypes.h

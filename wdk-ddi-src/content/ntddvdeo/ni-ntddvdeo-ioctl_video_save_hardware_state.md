@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 24d786df-2cdd-465c-b468-212e109d5ae1
 ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_SAVE_HARDWARE_STATE, IOCTL_VIDEO_SAVE_HARDWARE_STATE control, IOCTL_VIDEO_SAVE_HARDWARE_STATE control code [Display Devices], Video_IOCTLs_2595d8e2-5b1e-47dd-b3ba-627425f84215.xml, display.ioctl_video_save_hardware_state, ntddvdeo/IOCTL_VIDEO_SAVE_HARDWARE_STATE
-ms.topic: ioctl
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_SAVE_HARDWARE_STATE"
 req.header: ntddvdeo.h

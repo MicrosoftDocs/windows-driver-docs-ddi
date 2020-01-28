@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 767ea5d2-4c11-4ba8-bb1f-c5f6038244f5
 ms.date: 04/30/2019
 ms.keywords: "*PKSPROPERTY_VIDEOPROCAMP_NODE_S2, KSPROPERTY_VIDEOPROCAMP_NODE_S2, KSPROPERTY_VIDEOPROCAMP_NODE_S2 structure [Streaming Media Devices], PKSPROPERTY_VIDEOPROCAMP_NODE_S2, PKSPROPERTY_VIDEOPROCAMP_NODE_S2 structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOPROCAMP_NODE_S2, ksmedia/PKSPROPERTY_VIDEOPROCAMP_NODE_S2, stream.ksproperty_videoprocamp_node_s2, vidcapstruct_1876d4f4-15ae-4bcb-9f57-ed08ddf15411.xml"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSPROPERTY_VIDEOPROCAMP_NODE_S2"
 req.header: ksmedia.h

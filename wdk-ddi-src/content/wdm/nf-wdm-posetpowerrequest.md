@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 5670a4dd-3804-4532-8765-2fdffe1c4a0b
 ms.date: 04/30/2018
 ms.keywords: PoSetPowerRequest, PoSetPowerRequest routine [Kernel-Mode Driver Architecture], kernel.posetpowerrequest, portn_8f3abb03-a324-4841-b630-b62344d656ce.xml, wdm/PoSetPowerRequest
-ms.topic: function
 f1_keywords:
  - "wdm/PoSetPowerRequest"
 req.header: wdm.h

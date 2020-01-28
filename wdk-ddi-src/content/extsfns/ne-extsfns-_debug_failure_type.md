@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: BFCFE35A-5697-4F9D-B0A1-51EB5D8AE690
 ms.date: 05/03/2018
 ms.keywords: DEBUG_FAILURE_TYPE, DEBUG_FAILURE_TYPE enumeration [Windows Debugging], DEBUG_FLR_IE_CRASH, DEBUG_FLR_KERNEL, DEBUG_FLR_UNKNOWN, DEBUG_FLR_USER_CRASH, _DEBUG_FAILURE_TYPE, debugger.debug_failure_type, extsfns/DEBUG_FAILURE_TYPE, extsfns/DEBUG_FLR_IE_CRASH, extsfns/DEBUG_FLR_KERNEL, extsfns/DEBUG_FLR_UNKNOWN, extsfns/DEBUG_FLR_USER_CRASH
-ms.topic: enum
 f1_keywords:
  - "extsfns/DEBUG_FAILURE_TYPE"
 req.header: extsfns.h

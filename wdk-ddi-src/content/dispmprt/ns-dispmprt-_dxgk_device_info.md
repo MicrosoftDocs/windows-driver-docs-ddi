@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: dcdae08f-69a6-496b-8391-d2b505fb86d9
 ms.date: 05/10/2018
 ms.keywords: "*PDXGK_DEVICE_INFO, DXGK_DEVICE_INFO, DXGK_DEVICE_INFO structure [Display Devices], DmStructs_89344ee9-8c4e-4f7e-8950-11948c07bb8e.xml, PDXGK_DEVICE_INFO, PDXGK_DEVICE_INFO structure pointer [Display Devices], _DXGK_DEVICE_INFO, display.dxgk_device_info, dispmprt/DXGK_DEVICE_INFO, dispmprt/PDXGK_DEVICE_INFO"
-ms.topic: struct
 f1_keywords:
  - "dispmprt/DXGK_DEVICE_INFO"
 req.header: dispmprt.h

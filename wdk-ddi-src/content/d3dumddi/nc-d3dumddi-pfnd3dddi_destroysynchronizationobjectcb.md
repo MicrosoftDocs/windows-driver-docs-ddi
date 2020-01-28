@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 7ba549a2-f165-4b5e-8cf4-ab707222532c
 ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_a2b3f092-097e-4eb1-b38d-8f68e5edbcca.xml, PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB, PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB callback, d3dumddi/pfnDestroySynchronizationObjectCb, display.pfndestroysynchronizationobjectcb, pfnDestroySynchronizationObjectCb, pfnDestroySynchronizationObjectCb callback function [Display Devices]
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

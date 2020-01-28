@@ -4,7 +4,6 @@ title: IOCTL_TR_SERVICE_QUERY (trustedrt.h)
 description: 
 ms.assetid: f22825f0-a287-4343-a971-1e8765d0c199
 ms.date: 10/19/2018
-ms.topic: ioctl
 f1_keywords:
  - "trustedrt/IOCTL_TR_SERVICE_QUERY"
 req.header: trustedrt.h

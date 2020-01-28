@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 8549DAA9-3BD3-4CED-AC2A-EFADF317EF5A
 ms.date: 04/16/2018
 ms.keywords: CcScheduleReadAheadEx, CcScheduleReadAheadEx routine [Installable File System Drivers], ifsk.ccschedulereadaheadex, ntifs/CcScheduleReadAheadEx
-ms.topic: function
 f1_keywords:
  - "ntifs/CcScheduleReadAheadEx"
 req.header: ntifs.h

@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: a5fe5d9a-c5af-4445-bfd6-caf55555997c
 ms.date: 04/20/2018
 ms.keywords: DrvWriteAbortBuf, DrvWriteAbortBuf callback function [Print Devices], PFN_DrvWriteAbortBuf, PFN_DrvWriteAbortBuf callback, print.drvwriteabortbuf, print_obsoletefunctions_016b6fea-c0ac-47ad-8834-5681e2f4de3d.xml, printoem/DrvWriteAbortBuf
-ms.topic: callback
 f1_keywords:
  - "printoem/DrvWriteAbortBuf"
 req.header: printoem.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: af52d1a3-b537-48d2-ab57-3f798ec83c98
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_ISSUEQUERY, D3DDDIARG_ISSUEQUERY structure [Display Devices], UMDisplayDriver_param_Structs_3fb59dbc-e5de-4d14-9d4b-25934e4e3ded.xml, _D3DDDIARG_ISSUEQUERY, d3dumddi/D3DDDIARG_ISSUEQUERY, display.d3dddiarg_issuequery
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_ISSUEQUERY"
 req.header: d3dumddi.h

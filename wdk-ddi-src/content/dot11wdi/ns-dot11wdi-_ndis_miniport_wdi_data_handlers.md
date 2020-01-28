@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: DBDB5F08-9988-4D9B-A731-DA65BBA67813
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_WDI_DATA_HANDLERS, PNDIS_MINIPORT_WDI_DATA_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/NDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/PNDIS_MINIPORT_WDI_DATA_HANDLERS, netvista.ndis_miniport_wdi_data_handlers"
-ms.topic: struct
 f1_keywords:
  - "dot11wdi/NDIS_MINIPORT_WDI_DATA_HANDLERS"
 req.header: dot11wdi.h

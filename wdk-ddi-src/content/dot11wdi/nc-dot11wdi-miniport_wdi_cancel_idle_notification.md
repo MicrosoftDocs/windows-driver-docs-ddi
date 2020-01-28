@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 4C52E367-2E75-47EC-8743-F3FA2EEE25F8
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION, MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION callback, MiniportWdiCancelIdleNotification, MiniportWdiCancelIdleNotification callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiCancelIdleNotification, netvista.miniportwdicancelidlenotification
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiCancelIdleNotification"
 req.header: dot11wdi.h

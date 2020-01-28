@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 7e667dd9-8ed1-49ef-a6ef-0d079d41db86
 ms.date: 04/23/2018
 ms.keywords: "*PBUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM, BUS_INTERFACE_SWENUM structure [Streaming Media Devices], PBUS_INTERFACE_SWENUM, PBUS_INTERFACE_SWENUM structure pointer [Streaming Media Devices], _BUS_INTERFACE_SWENUM, ks-struct_d2f7683d-30e1-4ff5-b494-57309987e181.xml, stream.bus_interface_swenum, swenum/BUS_INTERFACE_SWENUM, swenum/PBUS_INTERFACE_SWENUM"
-ms.topic: struct
 f1_keywords:
  - "swenum/BUS_INTERFACE_SWENUM"
 req.header: swenum.h

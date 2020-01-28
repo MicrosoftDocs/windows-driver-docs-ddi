@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: ed0ecb71-22b4-4387-8d5a-4d6fd2c7047e
 ms.date: 05/02/2018
 ms.keywords: RILSYSTEMCAPS, RILSYSTEMCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_SYSTEMCAPS_ALL, RIL_SYSTEMCAPS_VOICEDATA, netvista.rilsystemcaps, ntddrilapitypes/RILSYSTEMCAPS, ntddrilapitypes/RIL_SYSTEMCAPS_ALL, ntddrilapitypes/RIL_SYSTEMCAPS_VOICEDATA
-ms.topic: enum
 f1_keywords:
  - "ntddrilapitypes/RILSYSTEMCAPS"
 req.header: ntddrilapitypes.h

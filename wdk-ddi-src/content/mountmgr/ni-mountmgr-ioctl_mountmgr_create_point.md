@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 580af31d-4122-48fe-a9da-097787f87620
 ms.date: 03/29/2018
 ms.keywords: IOCTL_MOUNTMGR_CREATE_POINT, IOCTL_MOUNTMGR_CREATE_POINT control, IOCTL_MOUNTMGR_CREATE_POINT control code [Storage Devices], k307_c1159db5-2699-4bac-9fe9-67ceda477ddb.xml, mountmgr/IOCTL_MOUNTMGR_CREATE_POINT, storage.ioctl_mountmgr_create_point
-ms.topic: ioctl
 f1_keywords:
  - "mountmgr/IOCTL_MOUNTMGR_CREATE_POINT"
 req.header: mountmgr.h

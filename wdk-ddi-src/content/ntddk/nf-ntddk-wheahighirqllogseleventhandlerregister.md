@@ -7,7 +7,6 @@ tech.root:
 ms.assetid: 492e73c4-2d9a-419c-aabf-b4f53324b8bb
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: function
 f1_keywords:
  - "ntddk/WheaHighIrqlLogSelEventHandlerRegister"
 ms.keywords: WheaHighIrqlLogSelEventHandlerRegister

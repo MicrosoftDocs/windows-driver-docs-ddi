@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 07ba6437-655b-417a-87a8-5374812ca4d7
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_7fafb899-1038-409b-af8e-f45776b18abe.xml, EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST, EVT_WDF_IO_ALLOCATE_RESOURCES_FOR_RESERVED_REQUEST callback, EvtIoAllocateResourcesForReservedRequest, EvtIoAllocateResourcesForReservedRequest callback function, kmdf.evtioallocateresourcesforreservedrequest, wdf.evtioallocateresourcesforreservedrequest, wdfio/EvtIoAllocateResourcesForReservedRequest
-ms.topic: callback
 f1_keywords:
  - "wdfio/EvtIoAllocateResourcesForReservedRequest"
 req.header: wdfio.h

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 379fc7ec-577a-48a4-83b0-4be4e8cfe1bf
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_c0d57542-6256-4502-ad31-8b388857296f.xml, WdfIoQueueFindRequest, WdfIoQueueFindRequest method, kmdf.wdfioqueuefindrequest, wdf.wdfioqueuefindrequest, wdfio/WdfIoQueueFindRequest
-ms.topic: function
 f1_keywords:
  - "wdfio/WdfIoQueueFindRequest"
 req.header: wdfio.h

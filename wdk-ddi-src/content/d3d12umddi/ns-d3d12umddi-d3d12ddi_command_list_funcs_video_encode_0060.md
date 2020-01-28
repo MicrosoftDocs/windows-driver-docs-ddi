@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2b4b7e91-98c6-4db4-bc98-8bd0e7b486c7
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0060,

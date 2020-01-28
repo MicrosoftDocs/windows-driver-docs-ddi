@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 7cdc45d4-e8aa-437a-b6fc-8b8c0dc17585
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_RECEIVE_QUEUE_INFO, NDIS_RECEIVE_QUEUE_INFO, NDIS_RECEIVE_QUEUE_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_INFO, PNDIS_RECEIVE_QUEUE_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_INFO, netvista.ndis_receive_queue_info, ntddndis/NDIS_RECEIVE_QUEUE_INFO, ntddndis/PNDIS_RECEIVE_QUEUE_INFO, virtual_machine_queue_ref_5052da2e-c93a-40f9-b129-07538556ef29.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddndis/NDIS_RECEIVE_QUEUE_INFO"
 req.header: ntddndis.h

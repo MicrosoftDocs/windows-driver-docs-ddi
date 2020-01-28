@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: F2870421-2A6F-4E63-AC91-E251E0B67C06
 ms.date: 05/08/2018
 ms.keywords: GetPacketCount, GetPacketCount method [Audio Devices], GetPacketCount method [Audio Devices],IMiniportWaveRTOutputStream interface, IMiniportWaveRTOutputStream interface [Audio Devices],GetPacketCount method, IMiniportWaveRTOutputStream.GetPacketCount, IMiniportWaveRTOutputStream::GetPacketCount, audio.iminiportwavertoutputstream_getpacketcount, portcls/IMiniportWaveRTOutputStream::GetPacketCount
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportWaveRTOutputStream.GetPacketCount"
 req.header: portcls.h

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 6D214346-8CE6-4E9C-B054-1C72B928ED2B
 ms.date: 04/16/2018
 ms.keywords: SeTokenIsNoChildProcessRestrictionEnforced, SeTokenIsNoChildProcessRestrictionEnforced function [Installable File System Drivers], ifsk.setokenisnochildprocessrestrictionenforced, ntifs/SeTokenIsNoChildProcessRestrictionEnforced
-ms.topic: function
 f1_keywords:
  - "ntifs/SeTokenIsNoChildProcessRestrictionEnforced"
 req.header: ntifs.h

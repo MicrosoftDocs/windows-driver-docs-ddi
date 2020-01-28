@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 1c2ded31-9d2d-46e4-a23f-a48528fd448f
 ms.date: 05/02/2018
 ms.keywords: RILUICCCOMMAND, RILUICCCOMMAND enumeration [Network Drivers Starting with Windows Vista], RIL_UICCCMD_MAX, RIL_UICCCMD_READRECORD, RIL_UICCCMD_UPDATEBINARY, RIL_UICCCMD_UPDATERECORD, netvista.riluicccommand, ntddrilapitypes/RILUICCCOMMAND, ntddrilapitypes/RIL_UICCCMD_MAX, ntddrilapitypes/RIL_UICCCMD_READRECORD, ntddrilapitypes/RIL_UICCCMD_UPDATEBINARY, ntddrilapitypes/RIL_UICCCMD_UPDATERECORD
-ms.topic: enum
 f1_keywords:
  - "ntddrilapitypes/RILUICCCOMMAND"
 req.header: ntddrilapitypes.h

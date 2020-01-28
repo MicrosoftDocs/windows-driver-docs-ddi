@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: b6b36720-0c56-46f6-bfa6-dd31fae7b6d4
 ms.date: 04/30/2018
 ms.keywords: KeReleaseSpinLockForDpc, KeReleaseSpinLockForDpc routine [Kernel-Mode Driver Architecture], k105_71e8daa4-ca71-41d9-bf2f-2866df1d0c9c.xml, kernel.kereleasespinlockfordpc, wdm/KeReleaseSpinLockForDpc
-ms.topic: function
 f1_keywords:
  - "wdm/KeReleaseSpinLockForDpc"
 req.header: wdm.h

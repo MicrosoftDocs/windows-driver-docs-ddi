@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: d8e56186-f801-4684-8919-236d2429310f
 ms.date: 02/26/2018
 ms.keywords: CopyFromBuffer, CopyFromBuffer method, CopyFromBuffer method,IWDFMemory interface, IWDFMemory interface,CopyFromBuffer method, IWDFMemory.CopyFromBuffer, IWDFMemory::CopyFromBuffer, UMDFMemoryObjectRef_ca676a5f-0dba-423a-9013-3bb95974371a.xml, umdf.iwdfmemory_copyfrombuffer, wdf.iwdfmemory_copyfrombuffer, wudfddi/IWDFMemory::CopyFromBuffer
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFMemory.CopyFromBuffer"
 req.header: wudfddi.h

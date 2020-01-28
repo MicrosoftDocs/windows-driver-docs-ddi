@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: e516758d-d1fe-4977-93bb-f427972fdd3c
 ms.date: 04/16/2018
 ms.keywords: FsRtlLogCcFlushError, FsRtlLogCcFlushError routine [Installable File System Drivers], fsrtlref_5e72d84c-d788-4b6d-b5fe-3e9b06b0e074.xml, ifsk.fsrtllogccflusherror, ntifs/FsRtlLogCcFlushError
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlLogCcFlushError"
 req.header: ntifs.h

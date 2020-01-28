@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 625980d1-47eb-4427-a9e8-967b1873bbd6
 ms.date: 04/20/2018
 ms.keywords: "*POEMDMPARAM, OEMDMPARAM, OEMDMPARAM structure [Print Devices], POEMDMPARAM, POEMDMPARAM structure pointer [Print Devices], _OEMDMPARAM, print.oemdmparam, print_unidrv-pscript_ui_49535272-ec29-4133-8105-0ce9b31808a2.xml, printoem/OEMDMPARAM, printoem/POEMDMPARAM"
-ms.topic: struct
 f1_keywords:
  - "printoem/OEMDMPARAM"
 req.header: printoem.h

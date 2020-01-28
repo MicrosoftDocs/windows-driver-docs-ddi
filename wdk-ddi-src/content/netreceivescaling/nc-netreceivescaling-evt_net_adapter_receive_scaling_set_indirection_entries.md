@@ -5,7 +5,6 @@ description: The EvtNetAdapterReceiveScalingSetIndirectionEntries callback funct
 tech.root: netvista
 ms.assetid: 7483bad1-4ec0-44aa-bd4c-16d32e44bb70
 ms.date: 03/07/2018
-ms.topic: callback
 f1_keywords:
  - "netreceivescaling/EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE"
 req.header: netreceivescaling.h

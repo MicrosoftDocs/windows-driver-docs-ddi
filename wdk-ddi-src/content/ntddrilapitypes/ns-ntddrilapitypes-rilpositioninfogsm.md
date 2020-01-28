@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 86b0510b-54ed-463e-b5d4-a34b0a98c00e
 ms.date: 02/16/2018
 ms.keywords: "*LPRILPOSITIONINFOGSM, RILPOSITIONINFOGSM, RILPOSITIONINFOGSM structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfogsm, rilapitypes/RILPOSITIONINFOGSM"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILPOSITIONINFOGSM"
 req.header: ntddrilapitypes.h

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 21932a96-285c-490d-a1fb-a137aed57bbb
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_1a871104-3d76-4ecb-936e-c27c2a107f2e.xml, WdfChildListUpdateChildDescriptionAsMissing, WdfChildListUpdateChildDescriptionAsMissing method, kmdf.wdfchildlistupdatechilddescriptionasmissing, wdf.wdfchildlistupdatechilddescriptionasmissing, wdfchildlist/WdfChildListUpdateChildDescriptionAsMissing
-ms.topic: function
 f1_keywords:
  - "wdfchildlist/WdfChildListUpdateChildDescriptionAsMissing"
 req.header: wdfchildlist.h

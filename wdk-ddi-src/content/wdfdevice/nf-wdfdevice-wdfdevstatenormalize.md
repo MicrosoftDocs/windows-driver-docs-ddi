@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 0243de8b-0f47-4f0a-af25-beb6365386dd
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_24d4e166-f4b0-4696-b775-62d0df565a8a.xml, WdfDevStateNormalize, WdfDevStateNormalize method, kmdf.wdfdevstatenormalize, wdf.wdfdevstatenormalize, wdfdevice/WdfDevStateNormalize
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDevStateNormalize"
 req.header: wdfdevice.h

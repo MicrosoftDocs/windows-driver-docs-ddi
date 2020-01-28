@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 466af310-f2a7-4bd7-b927-df644e2e9c24
 ms.date: 02/26/2018
 ms.keywords: AssignDeviceInterfaceState, AssignDeviceInterfaceState method, AssignDeviceInterfaceState method,IWDFDevice interface, IWDFDevice interface,AssignDeviceInterfaceState method, IWDFDevice.AssignDeviceInterfaceState, IWDFDevice::AssignDeviceInterfaceState, UMDFDeviceObjectRef_d3c15e61-9df6-4b55-a479-375486383064.xml, umdf.iwdfdevice_assigndeviceinterfacestate, wdf.iwdfdevice_assigndeviceinterfacestate, wudfddi/IWDFDevice::AssignDeviceInterfaceState
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFDevice.AssignDeviceInterfaceState"
 req.header: wudfddi.h

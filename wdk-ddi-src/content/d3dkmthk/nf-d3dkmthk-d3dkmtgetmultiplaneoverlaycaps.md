@@ -4,7 +4,6 @@ title: D3DKMTGetMultiPlaneOverlayCaps function (d3dkmthk.h)
 description: Retrieves multiplane overlay capabilities.
 ms.assetid: dbd72a04-5c62-4707-97ca-3efeded2df1e
 ms.date: 10/19/2018
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTGetMultiPlaneOverlayCaps"
 ms.keywords: D3DKMTGetMultiPlaneOverlayCaps

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 641DE2B5-7903-4D25-A280-F2BCCE8B1500
 ms.date: 05/08/2018
 ms.keywords: "*PKSRTAUDIO_SETWRITEPACKET_INFO, KSRTAUDIO_SETWRITEPACKET_INFO, KSRTAUDIO_SETWRITEPACKET_INFO structure [Audio Devices], PKSRTAUDIO_SETWRITEPACKET_INFO, PKSRTAUDIO_SETWRITEPACKET_INFO structure pointer [Audio Devices], audio.ksrtaudio_setwritepacket_info, ksmedia/KSRTAUDIO_SETWRITEPACKET_INFO, ksmedia/PKSRTAUDIO_SETWRITEPACKET_INFO"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSRTAUDIO_SETWRITEPACKET_INFO"
 req.header: ksmedia.h

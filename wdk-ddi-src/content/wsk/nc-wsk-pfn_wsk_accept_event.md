@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 672440f0-810a-4e68-82a5-d038770898c5
 ms.date: 05/02/2018
 ms.keywords: PFN_WSK_ACCEPT_EVENT, PFN_WSK_ACCEPT_EVENT callback, WskAcceptEvent, WskAcceptEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskacceptevent, wsk/WskAcceptEvent, wskref_5a830348-5fa7-4704-86f2-9d1a953f057b.xml
-ms.topic: callback
 f1_keywords:
  - "wsk/WskAcceptEvent"
 req.header: wsk.h

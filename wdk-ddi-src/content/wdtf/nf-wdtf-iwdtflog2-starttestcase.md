@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: d72bff68-d1c0-4ce4-bc2d-abe350036eec
 ms.date: 04/04/2018
 ms.keywords: IWDTFLOG2 interface [Windows Device Testing Framework],StartTestCase method, IWDTFLOG2.StartTestCase, IWDTFLOG2::StartTestCase, Microsoft.WDTF.IWDTFLOG2.StartTestCase, Microsoft::WDTF::IWDTFLOG2::StartTestCase, StartTestCase, StartTestCase method [Windows Device Testing Framework], StartTestCase method [Windows Device Testing Framework],IWDTFLOG2 interface, dtf.iwdtflog2_starttestcase, wdtf/IWDTFLOG2::StartTestCase
-ms.topic: method
 f1_keywords:
  - "wdtf/IWDTFLOG2.StartTestCase"
 req.header: wdtf.h

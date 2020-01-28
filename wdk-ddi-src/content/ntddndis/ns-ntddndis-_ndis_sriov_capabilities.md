@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 57cf980c-4477-4c12-8d82-7a8df8b2922f
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SRIOV_CAPABILITIES, NDIS_SRIOV_CAPABILITIES, NDIS_SRIOV_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_CAPABILITIES, PNDIS_SRIOV_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_CAPABILITIES, netvista.ndis_sriov_capabilities, ntddndis/NDIS_SRIOV_CAPABILITIES, ntddndis/PNDIS_SRIOV_CAPABILITIES"
-ms.topic: struct
 f1_keywords:
  - "ntddndis/NDIS_SRIOV_CAPABILITIES"
 req.header: ntddndis.h

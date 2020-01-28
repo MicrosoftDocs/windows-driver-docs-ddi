@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: ed39e714-38c5-45cf-b1f0-dd00b4d49895
 ms.date: 03/29/2018
 ms.keywords: "*PFEATURE_DATA_DISC_CONTROL_BLOCKS, FEATURE_DATA_DISC_CONTROL_BLOCKS, FEATURE_DATA_DISC_CONTROL_BLOCKS structure [Storage Devices], PFEATURE_DATA_DISC_CONTROL_BLOCKS, PFEATURE_DATA_DISC_CONTROL_BLOCKS structure pointer [Storage Devices], _FEATURE_DATA_DISC_CONTROL_BLOCKS, ntddmmc/FEATURE_DATA_DISC_CONTROL_BLOCKS, ntddmmc/PFEATURE_DATA_DISC_CONTROL_BLOCKS, storage.feature_data_disc_control_blocks, structs-CD-ROM_313fa292-b1c4-408d-94e9-491cb3d0aa0f.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_DISC_CONTROL_BLOCKS"
 req.header: ntddmmc.h

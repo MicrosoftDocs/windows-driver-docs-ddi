@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: B72D0236-1C2B-4D0B-86B4-4E9B667BA1B3
 ms.date: 05/08/2018
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2 control, IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2 control code [Audio Devices], audio.ioctl_bthhfp_device_get_descriptor2, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2
-ms.topic: ioctl
 f1_keywords:
  - "bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR2"
 req.header: bthhfpddi.h

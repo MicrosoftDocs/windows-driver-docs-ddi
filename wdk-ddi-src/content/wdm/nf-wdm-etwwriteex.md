@@ -7,7 +7,6 @@ tech.root: devtest
 ms.assetid: E2EF929A-61EB-412B-B8E8-D51FD6944B1D
 ms.date: 02/23/2018
 ms.keywords: EtwWriteEx, EtwWriteEx function [Driver Development Tools], devtest.etwwriteex, wdm/EtwWriteEx
-ms.topic: function
 f1_keywords:
  - "wdm/EtwWriteEx"
 req.header: wdm.h

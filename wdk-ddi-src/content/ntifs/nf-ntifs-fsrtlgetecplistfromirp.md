@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 9e225f00-f830-488f-8bf0-666290dc40b0
 ms.date: 04/16/2018
 ms.keywords: FsRtlGetEcpListFromIrp, FsRtlGetEcpListFromIrp routine [Installable File System Drivers], fsrtlref_85b1fc72-e8ce-4909-a0d4-1eab35b3a0cb.xml, ifsk.fsrtlgetecplistfromirp, ntifs/FsRtlGetEcpListFromIrp
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlGetEcpListFromIrp"
 req.header: ntifs.h

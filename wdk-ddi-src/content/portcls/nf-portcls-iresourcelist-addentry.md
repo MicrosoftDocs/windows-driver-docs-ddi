@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 7f4ac419-a24e-4421-9891-9fea9479e781
 ms.date: 05/08/2018
 ms.keywords: AddEntry, AddEntry method [Audio Devices], AddEntry method [Audio Devices],IResourceList interface, IResourceList interface [Audio Devices],AddEntry method, IResourceList.AddEntry, IResourceList::AddEntry, audio.iresourcelist_addentry, audmp-routines_6a6091c9-4cb3-40ca-8bb9-39b239c322b7.xml, portcls/IResourceList::AddEntry
-ms.topic: method
 f1_keywords:
  - "portcls/IResourceList.AddEntry"
 req.header: portcls.h

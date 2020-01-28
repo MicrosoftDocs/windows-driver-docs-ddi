@@ -6,7 +6,6 @@ old-location: display\d3dkmt-queryprotectedsessionstatus.htm
 ms.assetid: c49b1c12-8757-4d15-807d-fdb963746810
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_QUERYPROTECTEDSESSIONSTATUS, D3DKMT_QUERYPROTECTEDSESSIONSTATUS structure [Display Devices], _D3DKMT_QUERYPROTECTEDSESSIONSTATUS, d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONSTATUS, display.d3dkmt-queryprotectedsessionstatus
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONSTATUS"
 req.header: d3dkmthk.h

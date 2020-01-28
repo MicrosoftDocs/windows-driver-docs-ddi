@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: EB3A65B5-EB21-45CA-B26D-F57A28F9F2CB
 ms.date: 05/07/2018
 ms.keywords: UfxDevicePortDetectCompleteEx, UfxDevicePortDetectCompleteEx method [Buses], buses.ufxdeviceportdetectcompleteex, ufxclient/UfxDevicePortDetectCompleteEx
-ms.topic: function
 f1_keywords:
  - "ufxclient/UfxDevicePortDetectCompleteEx"
 req.header: ufxclient.h

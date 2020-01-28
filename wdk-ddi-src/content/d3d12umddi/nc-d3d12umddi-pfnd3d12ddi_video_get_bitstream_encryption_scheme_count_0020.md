@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_video_get_decode_bitstream_encryption_scheme_c
 ms.assetid: BD3DFB48-9470-45CC-93BC-A918FD43DC3F
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_VIDEO_GET_BITSTREAM_ENCRYPTION_SCHEME_COUNT_0020, PFND3D12DDI_VIDEO_GET_BITSTREAM_ENCRYPTION_SCHEME_COUNT_0020 callback, d3d12umddi/pfnGetBitstreamEncryptionSchemeCount, display.pfnd3d12ddi_video_get_decode_bitstream_encryption_scheme_count, pfnGetBitstreamEncryptionSchemeCount, pfnGetBitstreamEncryptionSchemeCount callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/pfnGetBitstreamEncryptionSchemeCount"
 req.header: d3d12umddi.h

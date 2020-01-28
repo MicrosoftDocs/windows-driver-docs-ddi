@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 35119100-adf9-4376-bb1a-7317733fbcc5
 ms.date: 04/20/2018
 ms.keywords: SetCPSUIUserData, SetCPSUIUserData function [Print Devices], compstui/SetCPSUIUserData, cpsuifnc_d2f38387-ece5-4894-86d5-0ef66f62a72c.xml, print.setcpsuiuserdata
-ms.topic: function
 f1_keywords:
  - "compstui/SetCPSUIUserData"
 req.header: compstui.h

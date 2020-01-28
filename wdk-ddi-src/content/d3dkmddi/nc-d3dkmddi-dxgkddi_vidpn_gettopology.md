@@ -6,7 +6,6 @@ old-location: display\dxgk_vidpn_interface_pfngettopology.htm
 ms.assetid: 2bc43cd0-97a2-4120-8e6f-425664d3d28c
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_GETTOPOLOGY, DXGKDDI_VIDPN_GETTOPOLOGY callback, VidPnFunctions_2818281e-102f-4c76-a57d-3b133b0692e6.xml, d3dkmddi/pfnGetTopology, display.dxgk_vidpn_interface_pfngettopology, pfnGetTopology, pfnGetTopology callback function [Display Devices]
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

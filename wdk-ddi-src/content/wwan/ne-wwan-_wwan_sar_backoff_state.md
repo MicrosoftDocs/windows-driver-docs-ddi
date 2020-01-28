@@ -5,7 +5,6 @@ description: The WWAN_SAR_BACKOFF_STATE enumeration specifies the state of SAR b
 tech.root: netvista
 ms.assetid: 2c4aeedf-4c2c-4efe-8c3f-fe5c6b7d6009
 ms.date: 08/20/2018
-ms.topic: enum
 f1_keywords:
  - "wwan/_WWAN_SAR_BACKOFF_STATE"
 ms.keywords: _WWAN_SAR_BACKOFF_STATE, WWAN_SAR_BACKOFF_STATE, *PWWAN_SAR_BACKOFF_STATE, 

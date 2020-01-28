@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: A38BA15D-FDD8-41D1-87ED-2CABC1926962
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_TX_SEND_COMPLETE_IND, NDIS_WDI_TX_SEND_COMPLETE_IND callback, NdisWdiTxSendCompleteIndication, NdisWdiTxSendCompleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendCompleteIndication, netvista.ndiswditxsendcompleteindication
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/NdisWdiTxSendCompleteIndication"
 req.header: dot11wdi.h

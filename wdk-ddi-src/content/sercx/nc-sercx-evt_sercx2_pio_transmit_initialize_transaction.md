@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 2E3652CB-24F1-4467-AF1D-CFD52392B2DB
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2PioTransmitInitializeTransaction, EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION, EVT_SERCX2_PIO_TRANSMIT_INITIALIZE_TRANSACTION callback, EvtSerCx2PioTransmitInitializeTransaction, EvtSerCx2PioTransmitInitializeTransaction callback function [Serial Ports], serports.evtsercx2piotransmitinitializetransaction
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2PioTransmitInitializeTransaction"
 req.header: sercx.h

@@ -4,7 +4,6 @@ title: _REPARSE_DATA_BUFFER_EX (ntifs.h)
 description: The REPARSE_DATA_BUFFER_EX structure contains reparse point data for a reparse point.
 ms.assetid: fcbcb8e5-293f-4a19-8015-99cd870669bf
 ms.date: 05/31/2019
-ms.topic: struct
 f1_keywords:
  - "ntifs/_REPARSE_DATA_BUFFER_EX"
 ms.keywords: _REPARSE_DATA_BUFFER_EX, REPARSE_DATA_BUFFER_EX, *PREPARSE_DATA_BUFFER_EX, REPARSE_DATA_BUFFER

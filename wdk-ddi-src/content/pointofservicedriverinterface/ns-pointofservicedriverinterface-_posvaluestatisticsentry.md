@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: e6627d5f-5905-479e-b968-6914491231b1
 ms.date: 02/23/2018
 ms.keywords: PosValueStatisticsEntry, PosValueStatisticsEntry structure, _PosValueStatisticsEntry, pointofservicedriverinterface/PosValueStatisticsEntry, pos.posvaluestatisticsentry
-ms.topic: struct
 f1_keywords:
  - "pointofservicedriverinterface/PosValueStatisticsEntry"
 req.header: pointofservicedriverinterface.h

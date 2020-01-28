@@ -7,7 +7,6 @@ tech.root: smartcrd
 ms.assetid: f55b74d0-d545-419a-87fb-c320f789aaf4
 ms.date: 02/22/2018
 ms.keywords: "*PSCARD_READER_CAPABILITIES, *PSCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], SCARD_READER_CAPABILITIES, SCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], _SCARD_READER_CAPABILITIES, scstruct_bf7b8868-e647-42c5-8e1d-18681db95b08.xml, smartcrd.scard_reader_capabilities, smclib/*PSCARD_READER_CAPABILITIES, smclib/SCARD_READER_CAPABILITIES"
-ms.topic: struct
 f1_keywords:
  - "smclib/SCARD_READER_CAPABILITIES"
 req.header: smclib.h

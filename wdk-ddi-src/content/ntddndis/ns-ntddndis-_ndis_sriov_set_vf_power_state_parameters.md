@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: f2914619-1721-42ef-a20f-5774b906a35e
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, netvista.ndis_sriov_set_vf_power_state_parameters, ntddndis/NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, ntddndis/PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS"
-ms.topic: struct
 f1_keywords:
  - "ntddndis/NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS"
 req.header: ntddndis.h

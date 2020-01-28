@@ -4,7 +4,6 @@ title: PsGetThreadServerSilo function (ntddk.h)
 description: Determines whether the given thread is a silo.
 ms.assetid: 021c4a39-c2fd-4f6d-8299-0f36fab0a69f
 ms.date: 09/30/2018
-ms.topic: function
 f1_keywords:
  - "ntddk/PsGetThreadServerSilo"
 ms.keywords: PsGetThreadServerSilo

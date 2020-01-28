@@ -5,7 +5,6 @@ description: The NET_ADAPTER_DATAPATH_CALLBACKS_INIT method initializes a NET_AD
 tech.root: netvista
 ms.assetid: bc15c768-b5ba-48b0-ad78-fb33cc577407
 ms.date: 07/27/2018
-ms.topic: function
 f1_keywords:
  - "netadapter/NET_ADAPTER_DATAPATH_CALLBACKS_INIT"
 ms.keywords: NET_ADAPTER_DATAPATH_CALLBACKS_INIT

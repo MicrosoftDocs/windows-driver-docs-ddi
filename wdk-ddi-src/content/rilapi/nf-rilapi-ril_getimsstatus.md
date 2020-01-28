@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 78b2621e-e969-48ba-b742-ca6e52518874
 ms.date: 05/02/2018
 ms.keywords: RIL_GetIMSStatus, RIL_GetIMSStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getimsstatus, rilapi/RIL_GetIMSStatus
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_GetIMSStatus"
 req.header: rilapi.h

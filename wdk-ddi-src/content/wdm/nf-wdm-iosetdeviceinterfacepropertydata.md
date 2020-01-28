@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 346F6FEC-7E06-4DF0-A304-88BD830C591B
 ms.date: 04/30/2018
 ms.keywords: IoSetDeviceInterfacePropertyData, IoSetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], kernel.iosetdeviceinterfacepropertydata, wdm/IoSetDeviceInterfacePropertyData
-ms.topic: function
 f1_keywords:
  - "wdm/IoSetDeviceInterfacePropertyData"
 req.header: wdm.h

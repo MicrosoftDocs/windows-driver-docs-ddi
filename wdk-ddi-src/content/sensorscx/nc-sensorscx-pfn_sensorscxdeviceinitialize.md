@@ -4,7 +4,6 @@ title: PFN_SENSORSCXDEVICEINITIALIZE (sensorscx.h)
 description: Initializes the sensor in the class extension.
 ms.assetid: cc62e248-377f-4018-89c5-618264a98a4e
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "sensorscx/*PFN_SENSORSCXDEVICEINITIALIZE"
 req.header: sensorscx.h

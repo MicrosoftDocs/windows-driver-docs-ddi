@@ -6,7 +6,6 @@ old-location: display\dxgkddi_settargetcontenttype.htm
 ms.assetid: 7639BF7B-6219-4490-953F-80E76CDFBAAA
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_SETTARGETCONTENTTYPE, DXGKDDI_SETTARGETCONTENTTYPE callback, DXGKDDI_SETTARGETCONTENTTYPE callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETCONTENTTYPE, display.dxgkddi_settargetcontenttype
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: FE699F78-99AC-46E0-9C51-6F69A5C4932C
 ms.date: 03/29/2018
 ms.keywords: "*PSCSI_PASS_THROUGH_DIRECT_EX, PSCSI_PASS_THROUGH_DIRECT_EX, PSCSI_PASS_THROUGH_DIRECT_EX structure pointer [Storage Devices], SCSI_PASS_THROUGH_DIRECT_EX, SCSI_PASS_THROUGH_DIRECT_EX structure [Storage Devices], _SCSI_PASS_THROUGH_DIRECT_EX, ntddscsi/PSCSI_PASS_THROUGH_DIRECT_EX, ntddscsi/SCSI_PASS_THROUGH_DIRECT_EX, storage.scsi_pass_through_direct_ex"
-ms.topic: struct
 f1_keywords:
  - "ntddscsi/SCSI_PASS_THROUGH_DIRECT_EX"
 req.header: ntddscsi.h

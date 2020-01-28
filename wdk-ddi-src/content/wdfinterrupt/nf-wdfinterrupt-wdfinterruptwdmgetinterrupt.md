@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: b301e9f6-264d-43d9-a344-b34dcd659d04
 ms.date: 02/26/2018
 ms.keywords: DFInterruptObjectRef_72a56280-07d3-43c1-99f9-68dc3323fe86.xml, WdfInterruptWdmGetInterrupt, WdfInterruptWdmGetInterrupt method, kmdf.wdfinterruptwdmgetinterrupt, wdf.wdfinterruptwdmgetinterrupt, wdfinterrupt/WdfInterruptWdmGetInterrupt
-ms.topic: function
 f1_keywords:
  - "wdfinterrupt/WdfInterruptWdmGetInterrupt"
 req.header: wdfinterrupt.h

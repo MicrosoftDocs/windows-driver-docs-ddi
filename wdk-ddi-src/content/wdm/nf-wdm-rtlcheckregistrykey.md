@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: b752a764-1f7d-4768-9fa2-c8976560f840
 ms.date: 04/30/2018
 ms.keywords: RtlCheckRegistryKey, RtlCheckRegistryKey routine [Kernel-Mode Driver Architecture], k109_d4610b64-e689-4734-aca9-4536889ae2b9.xml, kernel.rtlcheckregistrykey, wdm/RtlCheckRegistryKey
-ms.topic: function
 f1_keywords:
  - "wdm/RtlCheckRegistryKey"
 req.header: wdm.h

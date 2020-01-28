@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 959bc46a-c574-4130-a83d-22a695d0d891
 ms.date: 05/02/2018
 ms.keywords: "*PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATS, TCP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATS, ndischimney/PTCP_OFFLOAD_STATS, ndischimney/TCP_OFFLOAD_STATS, netvista.tcp_offload_stats, tcp_chim_struct_62878657-feff-41e4-b540-cbde66c1244e.xml"
-ms.topic: struct
 f1_keywords:
  - "ndischimney/TCP_OFFLOAD_STATS"
 req.header: ndischimney.h

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: bde6dbc5-b518-47ed-990c-9bcbf0c0d803
 ms.author: windowsdriverdev
 ms.date: 08/23/2019
-ms.topic: struct
 ms.keywords: DEVICE_STORAGE_RANGE_ATTRIBUTES, DEVICE_STORAGE_RANGE_ATTRIBUTES, *PDEVICE_STORAGE_RANGE_ATTRIBUTES, 
 req.header: ntddstor.h
 req.include-header:

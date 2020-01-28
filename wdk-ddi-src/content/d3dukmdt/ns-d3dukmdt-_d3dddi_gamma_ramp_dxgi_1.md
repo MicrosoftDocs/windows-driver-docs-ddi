@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: f5c67404-3baf-44f1-8b19-f099cf71c178
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_GAMMA_RAMP_DXGI_1, D3DDDI_GAMMA_RAMP_DXGI_1 structure [Display Devices], DmStructs_378e6432-010f-453c-8e59-d32f243543f0.xml, _D3DDDI_GAMMA_RAMP_DXGI_1, d3dukmdt/D3DDDI_GAMMA_RAMP_DXGI_1, display.d3dddi_gamma_ramp_dxgi_1
-ms.topic: struct
 f1_keywords:
  - "d3dukmdt/D3DDDI_GAMMA_RAMP_DXGI_1"
 req.header: d3dukmdt.h

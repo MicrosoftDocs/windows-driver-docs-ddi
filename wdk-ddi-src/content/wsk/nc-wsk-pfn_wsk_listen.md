@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 854C2DA1-1763-4354-8B9D-9AE0C60D8F31
 ms.date: 05/02/2018
 ms.keywords: PFN_WSK_LISTEN, PFN_WSK_LISTEN callback, WskListen, WskListen callback function [Network Drivers Starting with Windows Vista], netvista.wsklisten, wsk/WskListen
-ms.topic: callback
 f1_keywords:
  - "wsk/WskListen"
 req.header: wsk.h

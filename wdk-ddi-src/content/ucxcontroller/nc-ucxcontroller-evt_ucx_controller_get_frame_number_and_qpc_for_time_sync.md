@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: A8D666BD-5C2A-416F-901E-5FF7CF38A084
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC callback, EvtUcxControllerGetFrameNumberAndQpcForTimeSync, EvtUcxControllerGetFrameNumberAndQpcForTimeSync callback function [Buses], buses.evt_ucx_controller_get_frame_number_and_qpc_for_time_sync, ucxcontroller/EvtUcxControllerGetFrameNumberAndQpcForTimeSync
-ms.topic: callback
 f1_keywords:
  - "ucxcontroller/EvtUcxControllerGetFrameNumberAndQpcForTimeSync"
 req.header: ucxcontroller.h

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 2D02D43F-495E-45EE-B932-C8924ADF05DC
 ms.date: 04/23/2018
 ms.keywords: KSALLOCATORMODE, KSALLOCATORMODE enumeration [Streaming Media Devices], KsAllocatorMode_Kernel, KsAllocatorMode_User, ksproxy/KSALLOCATORMODE, ksproxy/KsAllocatorMode_Kernel, ksproxy/KsAllocatorMode_User, stream.ksallocatormode
-ms.topic: enum
 f1_keywords:
  - "ksproxy/KSALLOCATORMODE"
 req.header: ksproxy.h

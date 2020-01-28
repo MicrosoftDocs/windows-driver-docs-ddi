@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: e3ab0d74-2c97-43da-8bee-82caa3d91c98
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_d55f3e54-9c1c-4fd0-92e6-1e950c2a4637.xml, FltCloseCommunicationPort, FltCloseCommunicationPort function [Installable File System Drivers], fltkernel/FltCloseCommunicationPort, ifsk.fltclosecommunicationport
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltCloseCommunicationPort"
 req.header: fltkernel.h

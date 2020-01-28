@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: ac69fdaa-f1e3-4487-93e1-f900f73be2fe
 ms.date: 04/23/2018
 ms.keywords: BdaCreatePin, BdaCreatePin function [Streaming Media Devices], bdaref_e84fba91-044c-40f3-9364-ede0bbabda48.xml, bdasup/BdaCreatePin, stream.bdacreatepin
-ms.topic: function
 f1_keywords:
  - "bdasup/BdaCreatePin"
 req.header: bdasup.h

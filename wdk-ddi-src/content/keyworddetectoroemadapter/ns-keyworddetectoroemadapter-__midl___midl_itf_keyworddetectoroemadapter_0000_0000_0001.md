@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 43172627-2A05-44AD-8B39-8FC384F9F44E
 ms.date: 05/08/2018
 ms.keywords: SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER structure [Audio Devices], __MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001, audio.sounddetector_patternheader, ksmedia/SOUNDDETECTOR_PATTERNHEADER
-ms.topic: struct
 f1_keywords:
  - "keyworddetectoroemadapter/SOUNDDETECTOR_PATTERNHEADER"
 req.header: keyworddetectoroemadapter.h

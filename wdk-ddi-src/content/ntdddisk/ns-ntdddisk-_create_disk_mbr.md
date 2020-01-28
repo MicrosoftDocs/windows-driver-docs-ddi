@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: afc0e705-ae98-486b-82d3-4f21fca89e70
 ms.date: 03/29/2018
 ms.keywords: "*PCREATE_DISK_MBR, CREATE_DISK_MBR, CREATE_DISK_MBR structure [Storage Devices], PCREATE_DISK_MBR, PCREATE_DISK_MBR structure pointer [Storage Devices], _CREATE_DISK_MBR, ntdddisk/CREATE_DISK_MBR, ntdddisk/PCREATE_DISK_MBR, storage.create_disk_mbr, structs-disk_680fcaf9-080c-4e38-be53-ed9899539d9b.xml"
-ms.topic: struct
 f1_keywords:
  - "ntdddisk/CREATE_DISK_MBR"
 req.header: ntdddisk.h

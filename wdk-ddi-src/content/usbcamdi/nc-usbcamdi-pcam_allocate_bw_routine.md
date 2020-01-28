@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 0dd01bf7-04a8-4d20-982a-1ec81076583f
 ms.date: 04/23/2018
 ms.keywords: CamAllocateBandwidth, CamAllocateBandwidth callback function [Streaming Media Devices], PCAM_ALLOCATE_BW_ROUTINE, PCAM_ALLOCATE_BW_ROUTINE callback, stream.camallocatebandwidth, usbcamdi/CamAllocateBandwidth, usbcmdpr_4e7b22dc-0f6d-4a9b-82df-61c14cae981b.xml
-ms.topic: callback
 f1_keywords:
  - "usbcamdi/CamAllocateBandwidth"
 req.header: usbcamdi.h

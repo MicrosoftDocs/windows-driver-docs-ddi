@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 6c538468-2f7c-48b0-90f8-deb975c85970
 ms.date: 04/30/2018
 ms.keywords: IoDisconnectInterruptEx, IoDisconnectInterruptEx routine [Kernel-Mode Driver Architecture], WdmlibIoDisconnectInterruptEx, k104_3bfae096-0af6-4f61-ae4b-4c83e748b071.xml, kernel.iodisconnectinterruptex, wdm/IoDisconnectInterruptEx, wdm/WdmlibIoDisconnectInterruptEx
-ms.topic: function
 f1_keywords:
  - "wdm/IoDisconnectInterruptEx"
 req.header: wdm.h

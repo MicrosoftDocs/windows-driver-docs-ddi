@@ -4,7 +4,6 @@ title: D3DKMTGetTrackedWorkloadStatistics function (d3dkmthk.h)
 description: Retrieves the rolling statistics for the tracked workload.
 ms.assetid: a29b19fb-1a03-42a1-9523-059f91939ecd
 ms.date: 10/19/2018
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTGetTrackedWorkloadStatistics"
 ms.keywords: D3DKMTGetTrackedWorkloadStatistics

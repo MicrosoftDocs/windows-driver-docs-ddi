@@ -5,7 +5,6 @@ description: The Flattening Portal Bridge (FPB) Capabilities register. See secti
 tech.root: pci
 ms.assetid: 8295b886-e840-4926-b2b3-bfcb45022ebe
 ms.date: 09/30/2018
-ms.topic: struct
 f1_keywords:
  - "ntddk/_PCI_FPB_CAPABILITIES_REGISTER"
 ms.keywords: _PCI_FPB_CAPABILITIES_REGISTER, PCI_FPB_CAPABILITIES_REGISTER, *PPCI_FPB_CAPABILITIES_REGISTER, 

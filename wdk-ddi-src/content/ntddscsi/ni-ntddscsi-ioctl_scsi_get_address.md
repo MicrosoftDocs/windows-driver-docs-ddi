@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 56e2a62c-ecf1-45c8-ba65-fb53b1897ddb
 ms.date: 11/07/2019
 ms.keywords: IOCTL_SCSI_GET_ADDRESS, IOCTL_SCSI_GET_ADDRESS control, IOCTL_SCSI_GET_ADDRESS control code [Storage Devices], k307_0d205fdd-0951-42ef-bd5c-09727bee65f4.xml, ntddscsi/IOCTL_SCSI_GET_ADDRESS, storage.ioctl_scsi_get_address
-ms.topic: ioctl
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_GET_ADDRESS"
 req.header: ntddscsi.h

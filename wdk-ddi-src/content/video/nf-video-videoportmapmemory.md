@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c1b54ef4-93b5-41df-8a49-8b00cbd4bcee
 ms.date: 05/10/2018
 ms.keywords: VideoPortMapMemory, VideoPortMapMemory function [Display Devices], VideoPort_Functions_53fef559-5fbb-4e9a-9152-b44be67bd63c.xml, display.videoportmapmemory, video/VideoPortMapMemory
-ms.topic: function
 f1_keywords:
  - "video/VideoPortMapMemory"
 req.header: video.h

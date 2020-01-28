@@ -5,7 +5,6 @@ description: Retrieves the NETADAPTER object corresponding to a NETREQUESTQUEUE.
 tech.root: netvista
 ms.assetid: 638f5dea-d79b-41bb-967b-27339bfae3ab
 ms.date: 02/01/2019
-ms.topic: function
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_TYPE"
 ms.keywords: NetRequestQueueGetAdapter

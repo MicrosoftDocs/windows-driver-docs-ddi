@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 42acd24e-5952-46b3-bb0b-1eb43125fccd
 ms.date: 05/03/2018
 ms.keywords: GetDumpFileWide, GetDumpFileWide method [Windows Debugging], GetDumpFileWide method [Windows Debugging],IDebugClient4 interface, GetDumpFileWide method [Windows Debugging],IDebugClient5 interface, IDebugClient4 interface [Windows Debugging],GetDumpFileWide method, IDebugClient4.GetDumpFileWide, IDebugClient4::GetDumpFileWide, IDebugClient5 interface [Windows Debugging],GetDumpFileWide method, IDebugClient5::GetDumpFileWide, dbgeng/IDebugClient4::GetDumpFileWide, dbgeng/IDebugClient5::GetDumpFileWide, debugger.getdumpfilewide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugClient4.GetDumpFileWide"
 req.header: dbgeng.h

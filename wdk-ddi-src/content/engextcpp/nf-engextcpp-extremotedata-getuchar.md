@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 2c4b7f40-210a-44fa-b7d4-150355d6b75b
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_687a7887-560a-4565-8417-ec46cc1ee254.xml, ExtRemoteData class [Windows Debugging],GetUchar method, ExtRemoteData.GetUchar, ExtRemoteData::GetUchar, GetUchar, GetUchar method [Windows Debugging], GetUchar method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getuchar
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetUchar"
 req.header: engextcpp.hpp

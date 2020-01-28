@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 39D4AE72-EF60-455E-A7C2-F2896E304897
 ms.date: 04/30/2018
 ms.keywords: RtlUIntToUInt8, RtlUIntToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtluinttouint8, ntintsafe/RtlUIntToUInt8
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlUIntToUInt8"
 req.header: ntintsafe.h

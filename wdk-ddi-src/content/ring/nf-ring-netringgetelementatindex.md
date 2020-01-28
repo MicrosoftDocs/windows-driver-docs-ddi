@@ -5,7 +5,6 @@ description: The NetRingGetElementAtIndex method retrieves an element from a net
 tech.root: netvista
 ms.assetid: 5feeac1c-9c69-4179-8604-5aaaff7e60a0
 ms.date: 09/25/2019
-ms.topic: function
 f1_keywords:
  - "ring/RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: NetRingGetElementAtIndex

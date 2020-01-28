@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 8fc3dc6f-8a21-490b-adbf-5f735cb953de
 ms.date: 02/26/2018
 ms.keywords: WdfCompanionWdmGetSecureDeviceHandle, WdfCompanionWdmGetSecureDeviceHandle method, wdf.wdfcompanionwdmgetsecuredevicehandle, wdfcompanion/WdfCompanionWdmGetSecureDeviceHandle
-ms.topic: function
 f1_keywords:
  - "wdfcompanion/WdfCompanionWdmGetSecureDeviceHandle"
 req.header: wdfcompanion.h

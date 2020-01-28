@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 85363a0b-0e62-499e-bcdb-4b86c4a0c3a0
 ms.date: 04/16/2018
 ms.keywords: FsRtlIsPagingFile, FsRtlIsPagingFile routine [Installable File System Drivers], fsrtlref_80254cb1-bb65-4b1b-8fe4-c975b0f00c63.xml, ifsk.fsrtlispagingfile, ntifs/FsRtlIsPagingFile
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlIsPagingFile"
 req.header: ntifs.h

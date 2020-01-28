@@ -4,7 +4,6 @@ title: ExReleasePushLockExclusive macro (wdm.h)
 description: Releases a specified push lock for exclusive access owned by the current thread.
 ms.assetid: 4405aad6-919c-4609-bd48-e29474827d8b
 ms.date: 09/30/2018
-ms.topic: macro
 f1_keywords:
  - "wdm/ExReleasePushLockExclusive"
 ms.keywords: ExReleasePushLockExclusive

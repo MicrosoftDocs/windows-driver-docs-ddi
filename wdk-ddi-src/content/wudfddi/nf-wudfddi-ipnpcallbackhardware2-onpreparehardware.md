@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 830D706A-016C-4637-829F-2014AD1A1309
 ms.date: 02/26/2018
 ms.keywords: IPnpCallbackHardware2 interface,OnPrepareHardware method, IPnpCallbackHardware2.OnPrepareHardware, IPnpCallbackHardware2::OnPrepareHardware, OnPrepareHardware, OnPrepareHardware method, OnPrepareHardware method,IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onpreparehardware, wdf.ipnpcallbackhardware2_onpreparehardware, wudfddi/IPnpCallbackHardware2::OnPrepareHardware
-ms.topic: method
 f1_keywords:
  - "wudfddi/IPnpCallbackHardware2.OnPrepareHardware"
 req.header: wudfddi.h

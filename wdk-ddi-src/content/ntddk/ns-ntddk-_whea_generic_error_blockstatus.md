@@ -7,7 +7,6 @@ tech.root: whea
 ms.assetid: 38c8422d-7307-4acd-81f0-931d2e128cb9
 ms.date: 02/20/2018
 ms.keywords: "*PWHEA_GENERIC_ERROR_BLOCKSTATUS, PWHEA_GENERIC_ERROR_BLOCKSTATUS, PWHEA_GENERIC_ERROR_BLOCKSTATUS union pointer [WHEA Drivers and Applications], WHEA_GENERIC_ERROR_BLOCKSTATUS, WHEA_GENERIC_ERROR_BLOCKSTATUS union [WHEA Drivers and Applications], _WHEA_GENERIC_ERROR_BLOCKSTATUS, ntddk/PWHEA_GENERIC_ERROR_BLOCKSTATUS, ntddk/WHEA_GENERIC_ERROR_BLOCKSTATUS, whea.whea_generic_error_blockstatus, whearef_2137a60a-daff-4a33-a516-c9ae87e2f11c.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_GENERIC_ERROR_BLOCKSTATUS"
 req.header: ntddk.h

@@ -4,7 +4,6 @@ title: AXIS (sensorsstructures.h)
 description: Defines 3D coordinates.
 ms.assetid: cdac1a8d-304d-4f98-becf-6608d0d99154
 ms.date: 10/19/2018
-ms.topic: enum
 f1_keywords:
  - "sensorsstructures/AXIS"
 ms.keywords: AXIS, AXIS, *PAXIS, 

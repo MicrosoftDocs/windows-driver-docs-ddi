@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1f59ae13-022b-426c-9eef-9a8e5f5a85f2
 ms.date: 05/10/2018
 ms.keywords: VideoPortZeroDeviceMemory, VideoPortZeroDeviceMemory function [Display Devices], VideoPort_Functions_42829075-dd6d-49fd-a4d6-3ee19152335d.xml, display.videoportzerodevicememory, video/VideoPortZeroDeviceMemory
-ms.topic: function
 f1_keywords:
  - "video/VideoPortZeroDeviceMemory"
 req.header: video.h

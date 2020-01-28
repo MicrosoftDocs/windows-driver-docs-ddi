@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 85e91b13-96c8-4422-b9b7-90f6cecbb2a5
 ms.date: 04/23/2018
 ms.keywords: AVStrMiniPinCreate, AVStrMiniPinCreate routine [Streaming Media Devices], PFNKSPINIRP, avstclbk_0feeeb85-88fe-43d7-83e4-399b0c26aa53.xml, ks/AVStrMiniPinCreate, stream.avstrminipincreate
-ms.topic: callback
 f1_keywords:
  - "ks/AVStrMiniPinCreate"
 req.header: ks.h

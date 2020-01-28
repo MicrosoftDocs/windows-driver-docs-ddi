@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 4fe45811-a823-4cc6-bdc4-a1f2ac892d37
 ms.date: 04/23/2018
 ms.keywords: KsGetObjectTypeFromIrp, KsGetObjectTypeFromIrp function [Streaming Media Devices], avfunc_4021d1e6-6dcd-4c59-8863-0d0b5a8e922f.xml, ks/KsGetObjectTypeFromIrp, stream.ksgetobjecttypefromirp
-ms.topic: function
 f1_keywords:
  - "ks/KsGetObjectTypeFromIrp"
 req.header: ks.h

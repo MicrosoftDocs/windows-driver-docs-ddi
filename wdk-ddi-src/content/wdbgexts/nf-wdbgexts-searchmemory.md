@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 7e07c47e-803b-44fa-9d0f-aa86475246d2
 ms.date: 05/03/2018
 ms.keywords: SearchMemory, SearchMemory function [Windows Debugging], WdbgExts_Ref_4eb909e5-edfd-487c-851c-812b15274c66.xml, debugger.searchmemory, wdbgexts/SearchMemory
-ms.topic: function
 f1_keywords:
  - "wdbgexts/SearchMemory"
 req.header: wdbgexts.h

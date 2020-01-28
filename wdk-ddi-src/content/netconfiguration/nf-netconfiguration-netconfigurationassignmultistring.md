@@ -5,7 +5,6 @@ description: The NetConfigurationAssignMultiString method assigns a set of strin
 tech.root: netvista
 ms.assetid: efff27e3-7d42-4c48-ad87-8ec2a5e1eb20
 ms.date: 02/07/2018
-ms.topic: function
 f1_keywords:
  - "netconfiguration/NetConfigurationAssignMultiString"
 ms.keywords: NetConfigurationAssignMultiString

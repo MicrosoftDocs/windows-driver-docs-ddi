@@ -6,7 +6,6 @@ tech.root: wdf
 ms.assetid: 792A5EA8-5273-4284-B0EE-01BE1DCB9863
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_3dbde224-ecdf-429e-9389-9bdb49b16040.xml, WdfDeviceStopIdleWithTag, WdfDeviceStopIdleWithTag method, kmdf.WdfDeviceStopIdleWithTag, wdf.WdfDeviceStopIdleWithTag, wdfdevice/WdfDeviceStopIdleWithTag
-ms.topic: macro
 f1_keywords:
  - "wdfdevice/WdfDeviceStopIdleWithTag"
 req.header: wdfdevice.h

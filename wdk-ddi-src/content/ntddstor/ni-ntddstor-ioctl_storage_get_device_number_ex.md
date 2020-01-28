@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 21eb3380-bd3c-488d-8eaf-22d337775f42
 ms.date: 11/08/2019
 ms.keywords: IOCTL_STORAGE_GET_DEVICE_NUMBER_EX, IOCTL_STORAGE_GET_DEVICE_NUMBER_EX control, IOCTL_STORAGE_GET_DEVICE_NUMBER_EX control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_DEVICE_NUMBER_EX
-ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_GET_DEVICE_NUMBER_EX"
 req.header: ntddstor.h

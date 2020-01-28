@@ -7,7 +7,6 @@ tech.root: IEEE
 ms.assetid: DD5EB79D-122B-4D17-9109-37473AC49C4A
 ms.date: 02/15/2018
 ms.keywords: "*PCIP_TALK, 61883/CIP_TALK, 61883/PCIP_TALK, CIP_TALK, CIP_TALK structure [Buses], IEEE.cip_talk, PCIP_TALK, PCIP_TALK structure pointer [Buses], _CIP_TALK"
-ms.topic: struct
 f1_keywords:
  - "61883/CIP_TALK"
 req.header: 61883.h

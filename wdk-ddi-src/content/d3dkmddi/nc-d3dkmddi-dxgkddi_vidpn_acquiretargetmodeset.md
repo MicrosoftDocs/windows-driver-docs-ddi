@@ -6,7 +6,6 @@ old-location: display\dxgk_vidpn_interface_pfnacquiretargetmodeset.htm
 ms.assetid: 1b91c472-21eb-4aa8-91e3-c9eb70556d9f
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_ACQUIRETARGETMODESET, DXGKDDI_VIDPN_ACQUIRETARGETMODESET callback, VidPnFunctions_e7b058c8-0f02-4456-8938-9182a35826f9.xml, d3dkmddi/pfnAcquireTargetModeSet, display.dxgk_vidpn_interface_pfnacquiretargetmodeset, pfnAcquireTargetModeSet, pfnAcquireTargetModeSet callback function [Display Devices]
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

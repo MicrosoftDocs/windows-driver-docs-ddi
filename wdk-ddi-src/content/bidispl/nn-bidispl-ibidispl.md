@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 7e4a30b2-ac3a-475a-b818-455cdb7a91bf
 ms.date: 04/20/2018
 ms.keywords: IBidiSpl, IBidiSpl interface [Print Devices], IBidiSpl interface [Print Devices],described, _win32_IBidiSpl, bidispl/IBidiSpl, gdi.ibidispl, print.ibidispl
-ms.topic: interface
 f1_keywords:
  - "bidispl/IBidiSpl"
 req.header: bidispl.h

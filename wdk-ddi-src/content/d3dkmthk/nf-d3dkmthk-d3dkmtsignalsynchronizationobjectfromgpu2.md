@@ -6,7 +6,6 @@ old-location: display\d3dkmtsignalsynchronizationobjectfromgpu2.htm
 ms.assetid: 813193DC-8066-4B98-BC24-7688630AAC1C
 ms.date: 05/10/2018
 ms.keywords: D3DKMTSignalSynchronizationObjectFromGpu2, D3DKMTSignalSynchronizationObjectFromGpu2 function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromGpu2, display.d3dkmtsignalsynchronizationobjectfromgpu2
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTSignalSynchronizationObjectFromGpu2"
 req.header: d3dkmthk.h

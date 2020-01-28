@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: 2939F01A-2F1C-4434-BAE1-59F1F320BD44
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_FIXDATA, GNSS_FIXDATA, GNSS_FIXDATA structure [Sensor Devices], PGNSS_FIXDATA, PGNSS_FIXDATA structure pointer [Sensor Devices], gnss.gnss_fixdata, gnssdriver/GNSS_FIXDATA, gnssdriver/PGNSS_FIXDATA"
-ms.topic: struct
 f1_keywords:
  - "gnssdriver/GNSS_FIXDATA"
 req.header: gnssdriver.h

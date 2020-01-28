@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: b7e52667-b4ef-4807-867c-37b80af03b6b
 ms.date: 04/23/2018
 ms.keywords: KsPropertyHandlerWithAllocator, KsPropertyHandlerWithAllocator function [Streaming Media Devices], ks/KsPropertyHandlerWithAllocator, ksfunc_bad2a764-641a-4f28-a7e6-7d9a03d300f3.xml, stream.kspropertyhandlerwithallocator
-ms.topic: function
 f1_keywords:
  - "ks/KsPropertyHandlerWithAllocator"
 req.header: ks.h

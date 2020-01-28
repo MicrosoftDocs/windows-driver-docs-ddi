@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 057b548a-d9e4-4db4-b34f-d867b7be3971
 ms.date: 05/03/2018
 ms.keywords: MicroDrv_ab289619-86b7-47fd-a5f5-e8533da4db31.xml, Scan, Scan function [Imaging Devices], image.scan, wiamicro/Scan
-ms.topic: function
 f1_keywords:
  - "wiamicro/Scan"
 req.header: wiamicro.h

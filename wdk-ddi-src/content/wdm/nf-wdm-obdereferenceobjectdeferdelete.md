@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 6b20db9e-807d-40f5-844f-f9726e3a854f
 ms.date: 04/30/2018
 ms.keywords: ObDereferenceObjectDeferDelete, ObDereferenceObjectDeferDelete routine [Kernel-Mode Driver Architecture], k107_d20a8bd1-feff-4c48-8c6f-ccf8a119281b.xml, kernel.obdereferenceobjectdeferdelete, wdm/ObDereferenceObjectDeferDelete
-ms.topic: function
 f1_keywords:
  - "wdm/ObDereferenceObjectDeferDelete"
 req.header: wdm.h

@@ -7,7 +7,6 @@ tech.root: IEEE
 ms.assetid: 76BC179A-7484-433C-8467-B13BA7008B90
 ms.date: 02/15/2018
 ms.keywords: "*PCMP_GET_PLUG_STATE, 61883/CMP_GET_PLUG_STATE, 61883/PCMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE structure [Buses], IEEE.cmp_get_plug_state, PCMP_GET_PLUG_STATE, PCMP_GET_PLUG_STATE structure pointer [Buses], _CMP_GET_PLUG_STATE"
-ms.topic: struct
 f1_keywords:
  - "61883/CMP_GET_PLUG_STATE"
 req.header: 61883.h

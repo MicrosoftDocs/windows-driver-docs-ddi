@@ -5,7 +5,6 @@ description: The NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID macro sets or gets the 
 tech.root: netvista
 ms.assetid: 6ed1f2da-6e14-438e-9f3b-af8d1fbeeec4
 ms.date: 04/13/2018
-ms.topic: macro
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID"
 ms.keywords: NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 95f1e2c2-2b70-4a98-b075-e582b6a56e9d
 ms.date: 03/29/2018
 ms.keywords: AtaPortWriteRegisterBufferUlong, AtaPortWriteRegisterBufferUlong routine [Storage Devices], atartns_678d25ba-ba41-4a94-b689-5f19a89ace7f.xml, irb/AtaPortWriteRegisterBufferUlong, storage.ataportwriteregisterbufferulong
-ms.topic: function
 f1_keywords:
  - "irb/AtaPortWriteRegisterBufferUlong"
 req.header: irb.h

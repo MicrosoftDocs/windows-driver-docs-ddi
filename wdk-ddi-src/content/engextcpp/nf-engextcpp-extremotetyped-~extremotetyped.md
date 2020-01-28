@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 1f5d71a5-fa60-4819-9838-2b035ef21374
 ms.date: 08/09/2018
 ms.keywords: ExtRemoteTyped class [Windows Debugging], described, engextcpp/ExtRemoteTyped, ExtRemoteTyped::ErtIoctl, Set, Copy, ~ExtRemoteTyped, debugger.extremotetyped, ExtRemoteTyped class [Windows Debugging], operator[], EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ErtIoctl, operator=, ExtRemoteTyped, ExtRemoteTyped::Set, ExtRemoteTyped::operator=, ExtRemoteTyped::~ExtRemoteTyped, ExtRemoteTyped::operator[], ExtRemoteTyped::Copy, ExtRemoteTyped::GetSimpleValue, Clear, GetSimpleValue, ExtRemoteTyped::Clear
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteTyped"
 req.header: engextcpp.hpp

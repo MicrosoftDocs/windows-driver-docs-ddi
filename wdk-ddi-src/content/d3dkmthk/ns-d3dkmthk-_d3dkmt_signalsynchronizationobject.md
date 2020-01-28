@@ -6,7 +6,6 @@ old-location: display\d3dkmt_signalsynchronizationobject.htm
 ms.assetid: 13368ea2-dd2e-48af-b528-097104dffb60
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_8a7c1832-e93f-47d3-b5ec-b5bea7f3321a.xml, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, display.d3dkmt_signalsynchronizationobject
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT"
 req.header: d3dkmthk.h

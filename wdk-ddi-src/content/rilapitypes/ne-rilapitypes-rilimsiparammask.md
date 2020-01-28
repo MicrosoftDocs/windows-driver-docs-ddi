@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 69516b0b-d563-4a88-b083-a1a5a4e0ef16
 ms.date: 02/26/2018
 ms.keywords: RILIMSIPARAMMASK, RILIMSIPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_IMSI_ALL, RIL_PARAM_IMSI_MCC, RIL_PARAM_IMSI_MNC, netvista.rilimsiparammask_2, rilapitypes/RILIMSIPARAMMASK, rilapitypes/RIL_PARAM_IMSI_ALL, rilapitypes/RIL_PARAM_IMSI_MCC, rilapitypes/RIL_PARAM_IMSI_MNC
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILIMSIPARAMMASK"
 req.header: rilapitypes.h

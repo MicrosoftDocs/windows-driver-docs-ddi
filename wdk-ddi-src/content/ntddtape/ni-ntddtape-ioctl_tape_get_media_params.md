@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 4fd09b30-d63b-4b7f-9f6c-ef028e5e549f
 ms.date: 03/29/2018
 ms.keywords: IOCTL_TAPE_GET_MEDIA_PARAMS, IOCTL_TAPE_GET_MEDIA_PARAMS control, IOCTL_TAPE_GET_MEDIA_PARAMS control code [Storage Devices], k307_c8991fab-1c8d-4792-9ecc-6bb7e4643e68.xml, ntddtape/IOCTL_TAPE_GET_MEDIA_PARAMS, storage.ioctl_tape_get_media_params
-ms.topic: ioctl
 f1_keywords:
  - "ntddtape/IOCTL_TAPE_GET_MEDIA_PARAMS"
 req.header: ntddtape.h

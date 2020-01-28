@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: CBCE6C4C-C713-4ED3-9C40-30F9D8C2406D
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_DESTROYPAGINGQUEUE, D3DDDI_DESTROYPAGINGQUEUE structure [Display Devices], d3dukmdt/D3DDDI_DESTROYPAGINGQUEUE, display.d3dddi_destroypagingqueue
-ms.topic: struct
 f1_keywords:
  - "d3dukmdt/D3DDDI_DESTROYPAGINGQUEUE"
 req.header: d3dukmdt.h

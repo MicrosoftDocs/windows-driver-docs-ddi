@@ -6,7 +6,6 @@ old-location: display\d3dkmt-createstandardallocation.htm
 ms.assetid: 7698ab93-68af-479d-97a4-c45ac84b0710
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_CREATESTANDARDALLOCATION, D3DKMT_CREATESTANDARDALLOCATION structure [Display Devices], _D3DKMT_CREATESTANDARDALLOCATION, d3dkmthk/D3DKMT_CREATESTANDARDALLOCATION, display.d3dkmt-createstandardallocation
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATESTANDARDALLOCATION"
 req.header: d3dkmthk.h

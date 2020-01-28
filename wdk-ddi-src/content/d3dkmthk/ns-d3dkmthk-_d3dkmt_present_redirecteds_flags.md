@@ -4,7 +4,6 @@ title: _D3DKMT_PRESENT_REDIRECTEDS_FLAGS (d3dkmthk.h)
 description: Used to specify the flags needed to get redirected present history tokens.
 ms.assetid: a9799f00-c1a4-4da1-bc09-4e6d2ca3ade2
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/_D3DKMT_PRESENT_REDIRECTEDS_FLAGS"
 ms.keywords: _D3DKMT_PRESENT_REDIRECTEDS_FLAGS, D3DKMT_PRESENT_REDIRECTED_FLAGS, 

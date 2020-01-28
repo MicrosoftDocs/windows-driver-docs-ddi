@@ -4,7 +4,6 @@ title: IDebugHostType2 (dbgmodel.h)
 description: An (IDebugHostSymbol derived) interface to a particular type.
 ms.assetid: e0f687cc-99bd-4ea7-a809-81e46a0d4f0c
 ms.date: 06/11/2019
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDebugHostType2"
 req.header: dbgmodel.h

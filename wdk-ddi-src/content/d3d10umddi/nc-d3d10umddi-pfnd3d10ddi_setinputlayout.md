@@ -6,7 +6,6 @@ old-location: display\iasetinputlayout.htm
 ms.assetid: 905e4e7f-5bc5-487f-8d82-4ebc2db66135
 ms.date: 05/10/2018
 ms.keywords: IaSetInputLayout, IaSetInputLayout callback function [Display Devices], PFND3D10DDI_SETINPUTLAYOUT, PFND3D10DDI_SETINPUTLAYOUT callback, UserModeDisplayDriverDx10_Functions_fbd365d3-26a5-49a8-b89c-c094d8e873d9.xml, d3d10umddi/IaSetInputLayout, display.iasetinputlayout
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/IaSetInputLayout"
 req.header: d3d10umddi.h

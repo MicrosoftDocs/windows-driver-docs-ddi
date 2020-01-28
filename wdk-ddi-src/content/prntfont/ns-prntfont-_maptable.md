@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: d3dcf7b0-4244-41c1-801e-cf41b20f2d54
 ms.date: 04/20/2018
 ms.keywords: "*PMAPTABLE, MAPTABLE, MAPTABLE structure [Print Devices], PMAPTABLE, PMAPTABLE structure pointer [Print Devices], _MAPTABLE, print.maptable, print_unidrv-pscript_fonts_c98fd60e-c56a-4f76-8408-e6680bc49525.xml, prntfont/MAPTABLE, prntfont/PMAPTABLE"
-ms.topic: struct
 f1_keywords:
  - "prntfont/MAPTABLE"
 req.header: prntfont.h

@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: DE51CB88-E761-40DC-B437-7572CD95FB4A
 ms.date: 02/15/2018
 ms.keywords: GNSS_SUPL_CERT_ACTION, GNSS_SUPL_CERT_ACTION enumeration [Sensor Devices], GNSS_Supl_Cert_Delete, GNSS_Supl_Cert_Inject, GNSS_Supl_Cert_Purge, gnss.gnss_supl_cert_action, gnssdriver/GNSS_SUPL_CERT_ACTION, gnssdriver/GNSS_Supl_Cert_Delete, gnssdriver/GNSS_Supl_Cert_Inject, gnssdriver/GNSS_Supl_Cert_Purge
-ms.topic: enum
 f1_keywords:
  - "gnssdriver/GNSS_SUPL_CERT_ACTION"
 req.header: gnssdriver.h

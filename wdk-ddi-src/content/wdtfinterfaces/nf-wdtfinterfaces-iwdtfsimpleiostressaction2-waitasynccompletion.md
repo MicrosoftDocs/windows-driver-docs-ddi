@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: 7aaf56cf-ba31-495b-9f54-35e9238f188a
 ms.date: 04/04/2018
 ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],WaitAsyncCompletion method, IWDTFSimpleIOStressAction2.WaitAsyncCompletion, IWDTFSimpleIOStressAction2::WaitAsyncCompletion, Microsoft.WDTF.IWDTFSimpleIOStressAction2.WaitAsyncCompletion, Microsoft::WDTF::IWDTFSimpleIOStressAction2::WaitAsyncCompletion, WaitAsyncCompletion, WaitAsyncCompletion method [Windows Device Testing Framework], WaitAsyncCompletion method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_waitasynccompletion, wdtfinterfaces/IWDTFSimpleIOStressAction2::WaitAsyncCompletion
-ms.topic: method
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOStressAction2.WaitAsyncCompletion"
 req.header: wdtfinterfaces.h

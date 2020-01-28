@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 3EA8FE2A-85CE-4C81-81EB-F08028F0F822
 ms.date: 05/03/2018
 ms.keywords: GetTagByName, GetTagByName method [Windows Debugging], GetTagByName method [Windows Debugging],IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging],GetTagByName method, IDebugFAEntryTags.GetTagByName, IDebugFAEntryTags::GetTagByName, debugger.idebugfaentrytags_gettagbyname, extsfns/IDebugFAEntryTags::GetTagByName
-ms.topic: method
 f1_keywords:
  - "extsfns/IDebugFAEntryTags.GetTagByName"
 req.header: extsfns.h

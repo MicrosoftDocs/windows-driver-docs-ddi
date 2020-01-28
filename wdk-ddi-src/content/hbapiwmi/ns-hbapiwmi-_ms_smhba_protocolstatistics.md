@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: eb992a5e-41fe-4bb3-9f53-785135af8a32
 ms.date: 03/29/2018
 ms.keywords: "*PMS_SMHBA_PROTOCOLSTATISTICS, MS_SMHBA_PROTOCOLSTATISTICS, MS_SMHBA_PROTOCOLSTATISTICS structure [Storage Devices], PMS_SMHBA_PROTOCOLSTATISTICS, PMS_SMHBA_PROTOCOLSTATISTICS structure pointer [Storage Devices], _MS_SMHBA_PROTOCOLSTATISTICS, hbapiwmi/MS_SMHBA_PROTOCOLSTATISTICS, hbapiwmi/PMS_SMHBA_PROTOCOLSTATISTICS, storage.ms_smhba_protocolstatistics, structs-Fibre_c49fbe22-4575-4738-810b-c9b53d5cc40c.xml"
-ms.topic: struct
 f1_keywords:
  - "hbapiwmi/MS_SMHBA_PROTOCOLSTATISTICS"
 req.header: hbapiwmi.h

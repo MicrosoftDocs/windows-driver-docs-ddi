@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: cad3eeb5-2106-4648-97e5-cf3bb8601599
 ms.date: 05/08/2018
 ms.keywords: IMiniportWavePci interface [Audio Devices],NewStream method, IMiniportWavePci.NewStream, IMiniportWavePci::NewStream, NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices],IMiniportWavePci interface, audio.iminiportwavepci_newstream, audmp-routines_cf0b0f93-033d-47f1-8e07-c0407e0a89f3.xml, portcls/IMiniportWavePci::NewStream
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportWavePci.NewStream"
 req.header: portcls.h

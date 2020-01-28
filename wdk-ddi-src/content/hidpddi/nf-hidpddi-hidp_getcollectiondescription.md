@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: F8FD0C10-115D-4ACF-8C7F-127D342EA9CD
 ms.date: 04/30/2018
 ms.keywords: HidP_GetCollectionDescription, HidP_GetCollectionDescription function [Human Input Devices], hid.hidp_getcollectiondescription, hidpddi/HidP_GetCollectionDescription
-ms.topic: function
 f1_keywords:
  - "hidpddi/HidP_GetCollectionDescription"
 req.header: hidpddi.h

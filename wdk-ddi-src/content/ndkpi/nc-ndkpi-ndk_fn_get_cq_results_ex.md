@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: DC2782AB-BDFA-45C2-BC2E-ED4B946597D4
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_GET_CQ_RESULTS_EX, NDK_FN_GET_CQ_RESULTS_EX callback, NDK_FN_GET_CQ_RESULTS_EX callback function [Network Drivers Starting with Windows Vista], ndkpi/NDK_FN_GET_CQ_RESULTS_EX, netvista.ndk_fn_get_cq_results_ex
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NDK_FN_GET_CQ_RESULTS_EX"
 req.header: ndkpi.h

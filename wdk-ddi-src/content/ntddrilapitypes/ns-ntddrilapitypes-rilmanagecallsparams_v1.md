@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 7e89e417-59aa-4bcd-a6a9-0eaaa6a7a776
 ms.date: 05/02/2018
 ms.keywords: "*LPRILMANAGECALLSPARAMS_V1, RILMANAGECALLSPARAMS_V1, RILMANAGECALLSPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilmanagecallsparams_v1, ntddrilapitypes/RILMANAGECALLSPARAMS_V1"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILMANAGECALLSPARAMS_V1"
 req.header: ntddrilapitypes.h

@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 6f63d48d-7c2f-4531-b6db-fd4fdcfbce27
 ms.date: 04/20/2018
 ms.keywords: FontInstallerDlgProc, FontInstallerDlgProc method [Print Devices], FontInstallerDlgProc method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],FontInstallerDlgProc method, IPrintOemUI.FontInstallerDlgProc, IPrintOemUI::FontInstallerDlgProc, prcomoem/IPrintOemUI::FontInstallerDlgProc, print.iprintoemui_fontinstallerdlgproc, print_unidrv-pscript_ui_f5a028b9-eb7b-4d07-81e8-d7aadc5b8ceb.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemUI.FontInstallerDlgProc"
 req.header: prcomoem.h

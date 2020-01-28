@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 3434112f-54b4-4494-8514-fd3d8dc33329
 ms.date: 05/02/2018
 ms.keywords: "*LPRILTONESIGNALINFO_V1, RILTONESIGNALINFO_V1, RILTONESIGNALINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.riltonesignalinfo_v1, ntddrilapitypes/RILTONESIGNALINFO_V1"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILTONESIGNALINFO_V1"
 req.header: rilapitypes.h

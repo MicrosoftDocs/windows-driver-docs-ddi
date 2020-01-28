@@ -7,7 +7,6 @@ tech.root: IEEE
 ms.assetid: 007E0DDE-0BD1-499D-A6C6-446644BBCE00
 ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ASYNC_WRITE, IEEE.irb_req_async_write, IRB_REQ_ASYNC_WRITE, IRB_REQ_ASYNC_WRITE structure [Buses], _IRB_REQ_ASYNC_WRITE
-ms.topic: struct
 f1_keywords:
  - "1394/IRB_REQ_ASYNC_WRITE"
 req.header: 1394.h

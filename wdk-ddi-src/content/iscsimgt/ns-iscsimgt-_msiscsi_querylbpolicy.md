@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: da45810a-12f2-4242-8428-a1717ecf8af3
 ms.date: 03/29/2018
 ms.keywords: "*PMSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy structure [Storage Devices], PMSiSCSI_QueryLBPolicy, PMSiSCSI_QueryLBPolicy structure pointer [Storage Devices], _MSiSCSI_QueryLBPolicy, iscsimgt/MSiSCSI_QueryLBPolicy, iscsimgt/PMSiSCSI_QueryLBPolicy, storage.msiscsi_querylbpolicy, structs-iSCSI_d978106a-8fb4-4b42-8277-8ac767c54d06.xml"
-ms.topic: struct
 f1_keywords:
  - "iscsimgt/MSiSCSI_QueryLBPolicy"
 req.header: iscsimgt.h

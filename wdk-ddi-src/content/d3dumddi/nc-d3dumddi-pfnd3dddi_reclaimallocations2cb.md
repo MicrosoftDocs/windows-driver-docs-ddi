@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1D3439BA-AB3D-4D94-B4C8-91BE9B3349A1
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_RECLAIMALLOCATIONS2CB, d3dumddi/pfnReclaimAllocations2Cb, display.pfnreclaimallocations2cb, pfnReclaimAllocations2Cb, pfnReclaimAllocations2Cb callback, pfnReclaimAllocations2Cb callback function [Display Devices]
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

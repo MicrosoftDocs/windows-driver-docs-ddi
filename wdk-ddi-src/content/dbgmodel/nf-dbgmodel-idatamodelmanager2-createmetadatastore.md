@@ -4,7 +4,6 @@ title: IDataModelManager2::CreateMetadataStore (dbgmodel.h)
 description: The CreateMetadataStore method creates a key store which is used to hold metadata that can be associated with properties and a variety of other values.
 ms.assetid: 545fd9fa-22bf-4bdd-b898-d5533fe8df81
 ms.date: 09/11/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelManager2.CreateMetadataStore"
 ms.keywords: IDataModelManager2::CreateMetadataStore, CreateMetadataStore, IDataModelManager2.CreateMetadataStore, IDataModelManager2::CreateMetadataStore, IDataModelManager2.CreateMetadataStore

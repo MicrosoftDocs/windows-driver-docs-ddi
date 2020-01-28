@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: c24082c4-0c79-4956-8035-79198cb2b7ee
 ms.date: 02/26/2018
 ms.keywords: Close, Close method, Close method,IWDFRemoteTarget interface, IWDFRemoteTarget interface,Close method, IWDFRemoteTarget.Close, IWDFRemoteTarget::Close, UMDFIoTargetObjectRef_1e5aba5f-fd82-4d59-abb6-915e8a49ad22.xml, umdf.iwdfremotetarget_close, wdf.iwdfremotetarget_close, wudfddi/IWDFRemoteTarget::Close
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFRemoteTarget.Close"
 req.header: wudfddi.h

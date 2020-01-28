@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: AC04051E-8412-4B61-B452-C05A9D8D5CD9
 ms.date: 05/08/2018
 ms.keywords: IPortClsPnp, IPortClsPnp interface [Audio Devices], IPortClsPnp interface [Audio Devices],described, audio.iportclspnp, portcls/IPortClsPnp
-ms.topic: interface
 f1_keywords:
  - "portcls/IPortClsPnp"
 req.header: portcls.h

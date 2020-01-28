@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4b3a266f-4d60-4d39-81fb-ea2b4aa12a8d
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_LOCKFLAGS, D3DDDICB_LOCKFLAGS structure [Display Devices], D3D_other_Structs_6238800f-60d9-472d-aa18-10343abbcee7.xml, _D3DDDICB_LOCKFLAGS, d3dukmdt/D3DDDICB_LOCKFLAGS, display.d3dddicb_lockflags
-ms.topic: struct
 f1_keywords:
  - "d3dukmdt/D3DDDICB_LOCKFLAGS"
 req.header: d3dukmdt.h

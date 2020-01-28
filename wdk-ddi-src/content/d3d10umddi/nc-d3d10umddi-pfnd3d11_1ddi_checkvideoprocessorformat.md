@@ -6,7 +6,6 @@ old-location: display\checkvideoprocessorformat.htm
 ms.assetid: f5f18a53-d121-445a-86b7-649624a2f175
 ms.date: 05/10/2018
 ms.keywords: CheckVideoProcessorFormat, CheckVideoProcessorFormat callback function [Display Devices], PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT, PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT callback, d3d10umddi/CheckVideoProcessorFormat, display.checkvideoprocessorformat
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

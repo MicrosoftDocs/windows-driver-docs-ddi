@@ -4,7 +4,6 @@ title: IDebugHostSymbol2::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 700638e0-73ae-4689-930a-14a925a48ee7
 ms.date: 09/20/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol2.QueryInterface"
 ms.keywords: IDebugHostSymbol2::QueryInterface, QueryInterface, IDebugHostSymbol2.QueryInterface, IDebugHostSymbol2::QueryInterface, IDebugHostSymbol2.QueryInterface

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 27465cd9-77bc-4c9e-bac6-bd471ca93261
 ms.date: 05/03/2018
 ms.keywords: GetNumberSystems, GetNumberSystems method [Windows Debugging], GetNumberSystems method [Windows Debugging],IDebugSystemObjects3 interface, GetNumberSystems method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging],GetNumberSystems method, IDebugSystemObjects3::GetNumberSystems, IDebugSystemObjects4 interface [Windows Debugging],GetNumberSystems method, IDebugSystemObjects4.GetNumberSystems, IDebugSystemObjects4::GetNumberSystems, IDebugSystemObjects_821c2f0e-0863-4300-b26e-93e86ad9f0dd.xml, dbgeng/IDebugSystemObjects3::GetNumberSystems, dbgeng/IDebugSystemObjects4::GetNumberSystems, debugger.getnumbersystems
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSystemObjects3.GetNumberSystems"
 req.header: dbgeng.h

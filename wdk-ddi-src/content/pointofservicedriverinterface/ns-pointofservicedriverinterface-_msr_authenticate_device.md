@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: b75dce2c-5ad5-4340-b1b7-5fcf4440e58c
 ms.date: 02/23/2018
 ms.keywords: "*PMSR_AUTHENTICATE_DEVICE, MSR_AUTHENTICATE_DEVICE, MSR_AUTHENTICATE_DEVICE structure, PMSR_AUTHENTICATE_DEVICE, PMSR_AUTHENTICATE_DEVICE structure pointer, _MSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/MSR_AUTHENTICATE_DEVICE, pointofservicedriverinterface/PMSR_AUTHENTICATE_DEVICE, pos.msr_authenticate_device"
-ms.topic: struct
 f1_keywords:
  - "pointofservicedriverinterface/MSR_AUTHENTICATE_DEVICE"
 req.header: pointofservicedriverinterface.h

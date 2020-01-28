@@ -6,7 +6,6 @@ old-location: display\d3dkmt_offerallocations.htm
 ms.assetid: 6f6df55d-bb23-4a70-97f4-32809d1a41a5
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_OFFERALLOCATIONS, D3DKMT_OFFERALLOCATIONS structure [Display Devices], _D3DKMT_OFFERALLOCATIONS, d3dkmthk/D3DKMT_OFFERALLOCATIONS, display.d3dkmt_offerallocations
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_OFFERALLOCATIONS"
 req.header: d3dkmthk.h

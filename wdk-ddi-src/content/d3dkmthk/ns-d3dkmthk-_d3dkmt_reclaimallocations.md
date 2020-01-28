@@ -6,7 +6,6 @@ old-location: display\d3dkmt_reclaimallocations.htm
 ms.assetid: 7fc9295b-90b4-4fa7-abcb-3e3e6a165203
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_RECLAIMALLOCATIONS, D3DKMT_RECLAIMALLOCATIONS structure [Display Devices], _D3DKMT_RECLAIMALLOCATIONS, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS, display.d3dkmt_reclaimallocations
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_RECLAIMALLOCATIONS"
 req.header: d3dkmthk.h

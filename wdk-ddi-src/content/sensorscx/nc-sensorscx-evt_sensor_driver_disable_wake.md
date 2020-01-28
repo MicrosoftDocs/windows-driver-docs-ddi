@@ -7,7 +7,6 @@ tech.root: sensors
 ms.assetid: 15873D33-1423-47D7-8CE6-F2012241B658
 ms.date: 05/03/2018
 ms.keywords: EVT_SENSOR_DRIVER_DISABLE_WAKE, EVT_SENSOR_DRIVER_DISABLE_WAKE callback, EVT_SENSOR_DRIVER_DISABLE_WAKE callback function [Sensor Devices], sensors.evt_sensor_driver_disable_wake, sensorscx/EVT_SENSOR_DRIVER_DISABLE_WAKE
-ms.topic: callback
 f1_keywords:
  - "sensorscx/EVT_SENSOR_DRIVER_DISABLE_WAKE"
 req.header: sensorscx.h

@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_video_get_decode_format_count.htm
 ms.assetid: 84503E38-E141-4DAC-B305-6C7E6157A3E9
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020, PFND3D12DDI_VIDEO_GET_DECODE_FORMAT_COUNT_0020 callback, d3d12umddi/pfnGetDecodeFormatCount, display.pfnd3d12ddi_video_get_decode_format_count, pfnGetDecodeFormatCount, pfnGetDecodeFormatCount callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/pfnGetDecodeFormatCount"
 req.header: d3d12umddi.h

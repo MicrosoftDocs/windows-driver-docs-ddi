@@ -6,7 +6,6 @@ old-location: display\d3dkmtreservegpuvirtualaddress.htm
 ms.assetid: 2F8B689C-162C-4C1B-BD45-A154079334D0
 ms.date: 05/10/2018
 ms.keywords: D3DKMTReserveGpuVirtualAddress, D3DKMTReserveGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTReserveGpuVirtualAddress, display.d3dkmtreservegpuvirtualaddress
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTReserveGpuVirtualAddress"
 req.header: d3dkmthk.h

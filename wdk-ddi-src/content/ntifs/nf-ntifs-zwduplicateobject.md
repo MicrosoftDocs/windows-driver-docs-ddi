@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 9a922379-b439-4f94-9eb1-7c229318382c
 ms.date: 04/30/2018
 ms.keywords: NtDuplicateObject, ZwDuplicateObject, ZwDuplicateObject routine [Kernel-Mode Driver Architecture], kernel.zwduplicateobject, ntifs/NtDuplicateObject, ntifs/ZwDuplicateObject
-ms.topic: function
 f1_keywords:
  - "ntifs/ZwDuplicateObject"
 req.header: ntifs.h

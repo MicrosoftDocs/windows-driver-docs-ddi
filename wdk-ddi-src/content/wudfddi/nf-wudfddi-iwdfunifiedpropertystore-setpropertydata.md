@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 07A79E40-6C49-4AF8-90B8-26652C46B6F1
 ms.date: 02/26/2018
 ms.keywords: IWDFUnifiedPropertyStore interface,SetPropertyData method, IWDFUnifiedPropertyStore.SetPropertyData, IWDFUnifiedPropertyStore::SetPropertyData, SetPropertyData, SetPropertyData method, SetPropertyData method,IWDFUnifiedPropertyStore interface, umdf.iwdfunifiedpropertystore_setpropertydata, wdf.iwdfunifiedpropertystore_setpropertydata, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFUnifiedPropertyStore.SetPropertyData"
 req.header: wudfddi.h

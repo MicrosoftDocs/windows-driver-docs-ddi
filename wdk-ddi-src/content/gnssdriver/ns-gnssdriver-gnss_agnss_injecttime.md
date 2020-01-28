@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: 05BCC40C-E542-4BE8-9FD7-F0D25C3B8C7C
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_AGNSS_INJECTTIME, GNSS_AGNSS_INJECTTIME, GNSS_AGNSS_INJECTTIME structure [Sensor Devices], PGNSS_AGNSS_INJECTTIME, PGNSS_AGNSS_INJECTTIME structure pointer [Sensor Devices], gnss.gnss_agnss_injecttime, gnssdriver/GNSS_AGNSS_INJECTTIME, gnssdriver/PGNSS_AGNSS_INJECTTIME"
-ms.topic: struct
 f1_keywords:
  - "gnssdriver/GNSS_AGNSS_INJECTTIME"
 req.header: gnssdriver.h

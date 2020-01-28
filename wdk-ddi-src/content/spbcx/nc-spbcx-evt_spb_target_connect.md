@@ -7,7 +7,6 @@ tech.root: SPB
 ms.assetid: D90DD169-A989-4D08-B1B8-BDE7EC9B7A82
 ms.date: 04/30/2018
 ms.keywords: EVT_SPB_TARGET_CONNECT, EVT_SPB_TARGET_CONNECT callback, EvtSpbTargetConnect, EvtSpbTargetConnect callback function [Buses], SPB.evtspbtargetconnect, spbcx/EvtSpbTargetConnect
-ms.topic: callback
 f1_keywords:
  - "spbcx/EvtSpbTargetConnect"
 req.header: spbcx.h

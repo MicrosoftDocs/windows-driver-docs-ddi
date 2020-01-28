@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 7c669708-9b5d-424f-ab6f-6e3498331c74
 ms.date: 04/23/2018
 ms.keywords: "*PBDA_PID_UNMAP, BDA_PID_UNMAP, BDA_PID_UNMAP structure [Streaming Media Devices], PBDA_PID_UNMAP, PBDA_PID_UNMAP structure pointer [Streaming Media Devices], _BDA_PID_UNMAP, bdaref_2ce4a3ed-4ca0-421f-9de6-6a07dffe0cbe.xml, bdatypes/BDA_PID_UNMAP, bdatypes/PBDA_PID_UNMAP, stream.bda_pid_unmap"
-ms.topic: struct
 f1_keywords:
  - "bdatypes/BDA_PID_UNMAP"
 req.header: bdatypes.h

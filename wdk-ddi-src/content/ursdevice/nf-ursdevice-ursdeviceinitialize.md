@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 8A9C76C0-70F5-4F65-A460-CCFCD236A242
 ms.date: 05/07/2018
 ms.keywords: UrsDeviceInitialize, UrsDeviceInitialize function [Buses], buses.ursdeviceinitialize, ursdevice/UrsDeviceInitialize
-ms.topic: function
 f1_keywords:
  - "ursdevice/UrsDeviceInitialize"
 req.header: ursdevice.h

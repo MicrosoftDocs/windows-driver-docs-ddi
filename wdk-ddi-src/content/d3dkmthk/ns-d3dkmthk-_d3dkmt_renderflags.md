@@ -6,7 +6,6 @@ old-location: display\d3dkmt_renderflags.htm
 ms.assetid: 6a25528c-063b-4cd5-963d-82245009bb48
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_RENDERFLAGS, D3DKMT_RENDERFLAGS structure [Display Devices], OpenGL_Structs_8a885a03-0eba-4119-973a-a1c1dafe3c10.xml, _D3DKMT_RENDERFLAGS, d3dkmthk/D3DKMT_RENDERFLAGS, display.d3dkmt_renderflags
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_RENDERFLAGS"
 req.header: d3dkmthk.h

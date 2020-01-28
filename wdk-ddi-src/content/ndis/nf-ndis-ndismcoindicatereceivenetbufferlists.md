@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: dabd472f-9877-4434-a534-e07a047e092f
 ms.date: 05/02/2018
 ms.keywords: NdisMCoIndicateReceiveNetBufferLists, NdisMCoIndicateReceiveNetBufferLists function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_98f228ff-027c-4b60-b469-3d9ead72ed6f.xml, ndis/NdisMCoIndicateReceiveNetBufferLists, netvista.ndismcoindicatereceivenetbufferlists
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMCoIndicateReceiveNetBufferLists"
 req.header: ndis.h

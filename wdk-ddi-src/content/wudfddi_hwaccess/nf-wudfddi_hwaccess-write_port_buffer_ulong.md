@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: B5C6FA66-617E-4DB1-A62A-3F3F41E971B0
 ms.date: 02/26/2018
 ms.keywords: WRITE_PORT_BUFFER_ULONG, WRITE_PORT_BUFFER_ULONG function, umdf.write_port_buffer_ulong, wdf.write_port_buffer_ulong, wudfddi_hwaccess/WRITE_PORT_BUFFER_ULONG
-ms.topic: function
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_PORT_BUFFER_ULONG"
 req.header: wudfddi_hwaccess.h

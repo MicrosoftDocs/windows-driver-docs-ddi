@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 86AA537D-952F-4A7A-ACA4-24B8C1AE932A
 ms.date: 05/02/2018
 ms.keywords: NDIS_PD_ALLOCATE_COUNTER, NDIS_PD_ALLOCATE_COUNTER callback, NdisPDAllocateCounter, NdisPDAllocateCounter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDAllocateCounter, netvista.ndispdallocatecounter
-ms.topic: callback
 f1_keywords:
  - "ndis/NdisPDAllocateCounter"
 req.header: ndis.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 40f184ac-4ef3-485a-a529-71c1f2716427
 ms.date: 05/02/2018
 ms.keywords: PFN_WSK_INSPECT_EVENT, PFN_WSK_INSPECT_EVENT callback, WskInspectEvent, WskInspectEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskinspectevent, wsk/WskInspectEvent, wskref_096ba538-90c2-454b-9334-d6241425945e.xml
-ms.topic: callback
 f1_keywords:
  - "wsk/WskInspectEvent"
 req.header: wsk.h

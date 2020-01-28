@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 252dc455-e2d9-40db-83ea-a53e5ff8eda0
 ms.date: 04/30/2018
 ms.keywords: ClfsAddLogContainerSet, ClfsAddLogContainerSet routine [Kernel-Mode Driver Architecture], Clfs_f112becb-a913-4d1a-8e58-d7365468be18.xml, kernel.clfsaddlogcontainerset, wdm/ClfsAddLogContainerSet
-ms.topic: function
 f1_keywords:
  - "wdm/ClfsAddLogContainerSet"
 req.header: wdm.h

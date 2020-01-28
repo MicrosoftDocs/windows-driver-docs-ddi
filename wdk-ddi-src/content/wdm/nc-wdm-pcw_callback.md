@@ -7,7 +7,6 @@ tech.root: devtest
 ms.assetid: 5058fc17-1016-45bc-a6ea-5e2458824e7b
 ms.date: 02/23/2018
 ms.keywords: PCW_CALLBACK, PCW_CALLBACK callback, PcwCallback, PcwCallback callback function [Driver Development Tools], devtest.pcwcallback, km_pcw_f4d70925-0361-4aa6-9e4b-3f1e00a01535.xml, wdm/PcwCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/PcwCallback"
 req.header: wdm.h

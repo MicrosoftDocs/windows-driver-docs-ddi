@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 9b5f73db-1fb8-4e07-8053-67cb5020505e
 ms.date: 05/03/2018
 ms.keywords: IDebugAdvanced2, IDebugAdvanced2 interface [Windows Debugging], IDebugAdvanced2 interface [Windows Debugging],described, dbgeng/IDebugAdvanced2, debugger.idebugadvanced2
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugAdvanced2"
 req.header: dbgeng.h

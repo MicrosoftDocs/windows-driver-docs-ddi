@@ -5,7 +5,6 @@ description: The VmbChannelPacketComplete function cleans up any outstanding mem
 tech.root: netvista
 ms.assetid: 371b8ad4-4777-427c-9b9f-6c9c07bb9c3d
 ms.date: 05/21/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_PACKET_COMPLETE"
 req.header: vmbuskernelmodeclientlibapi.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: D4C0009D-A9D0-4870-86C5-60DC9B5892BC
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_ACPI_SPB_RESOURCE, 0 - Slave mode, 1 - Consumer/producer mode, 2 to 7 - Reserved, PEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_SPB_RESOURCE, PPEP_ACPI_SPB_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_SPB_RESOURCE, kernel.pep_acpi_spb_resource, pepfx/PEP_ACPI_SPB_RESOURCE, pepfx/PPEP_ACPI_SPB_RESOURCE"
-ms.topic: struct
 f1_keywords:
  - "pepfx/PEP_ACPI_SPB_RESOURCE"
 req.header: pepfx.h

@@ -6,7 +6,6 @@ old-location: display\d3dkmtcreatebundleobject.htm
 ms.assetid: c4d62ccf-606b-457e-a239-1b5189e42657
 ms.date: 05/10/2018
 ms.keywords: D3DKMTCreateBundleObject, D3DKMTCreateBundleObject method [Display Devices], d3dkmthk/D3DKMTCreateBundleObject, display.d3dkmtcreatebundleobject
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateBundleObject"
 req.header: d3dkmthk.h

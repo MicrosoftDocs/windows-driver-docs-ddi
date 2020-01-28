@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 981fef6c-65a7-4ba1-ad6a-c7c9c2795feb
 ms.date: 05/03/2018
 ms.keywords: image.wiaudbglegacyerror2, wiauDbgLegacyError2, wiauDbgLegacyError2 function [Imaging Devices], wiauFncs_647f5e2c-bcc7-4e9a-9746-2f0685f29fcf.xml, wiautil/wiauDbgLegacyError2
-ms.topic: function
 f1_keywords:
  - "wiautil/wiauDbgLegacyError2"
 req.header: wiautil.h

@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: A9B303C7-868D-47EB-8279-9F655F58630C
 ms.date: 04/27/2018
 ms.keywords: "*PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT enumeration [Bluetooth Devices], ScoSupportHCI, ScoSupportHCIBypass, ScoSupportNone, _BTHX_SCO_SUPPORT, bltooth.bthx_sco_support, bthxddi/BTHX_SCO_SUPPORT, bthxddi/ScoSupportHCI, bthxddi/ScoSupportHCIBypass, bthxddi/ScoSupportNone"
-ms.topic: enum
 f1_keywords:
  - "bthxddi/BTHX_SCO_SUPPORT"
 req.header: bthxddi.h

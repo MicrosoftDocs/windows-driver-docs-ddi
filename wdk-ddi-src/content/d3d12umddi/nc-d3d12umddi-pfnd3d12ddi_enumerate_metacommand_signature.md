@@ -4,7 +4,6 @@ title: PFND3D12DDI_ENUMERATE_METACOMMAND_SIGNATURE (d3d12umddi.h)
 description: Implemented by the client driver to enumerate meta-command signatures.
 ms.assetid: 9ab6bbb3-6641-4576-b86d-f90dd2975cb0
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_ENUMERATE_METACOMMAND_SIGNATURE"
 req.header: d3d12umddi.h

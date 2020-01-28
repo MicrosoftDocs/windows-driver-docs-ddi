@@ -7,7 +7,6 @@ tech.root: PCI
 ms.assetid: 0fef9d53-b8af-4c9b-9914-982bcfc26517
 ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_READ_CONFIG, *PSRIOV_READ_CONFIG callback function [Buses], PCI.sriov_read_config, SRIOV_READ_CONFIG, SRIOV_READ_CONFIG callback function [Buses], pcivirt/SRIOV_READ_CONFIG"
-ms.topic: callback
 f1_keywords:
  - "pcivirt/*PSRIOV_READ_CONFIG"
 req.header: pcivirt.h

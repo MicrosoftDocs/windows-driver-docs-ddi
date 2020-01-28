@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: aa903b7e-e844-466e-85b1-33fe6ba40689
 ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control code [Storage Devices], k307_dd8dcdec-9756-435c-abbb-14dd1a64ee11.xml, ntddstor/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, storage.ioctl_storage_get_media_serial_number
-ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER"
 req.header: ntddstor.h

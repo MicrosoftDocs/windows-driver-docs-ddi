@@ -4,7 +4,6 @@ title: _D3DKMT_SETFSEBLOCKFLAGS (d3dkmthk.h)
 description: Used to set the FSE (full screen exclusive) block flags.
 ms.assetid: de196937-105b-42e2-8df8-9df6c005e9ff
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/_D3DKMT_SETFSEBLOCKFLAGS"
 ms.keywords: _D3DKMT_SETFSEBLOCKFLAGS, D3DKMT_SETFSEBLOCKFLAGS, 

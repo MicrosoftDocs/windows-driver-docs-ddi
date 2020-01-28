@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 638E4FBE-8F53-4509-BFAE-59C02D2D1C4B
 ms.date: 04/20/2018
 ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],EnableDriver method, IPrintOemEngine.EnableDriver, IPrintOemEngine::EnableDriver, prcomoem/IPrintOemEngine::EnableDriver, print.iprintoemengine_enabledriver
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemEngine.EnableDriver"
 req.header: prcomoem.h

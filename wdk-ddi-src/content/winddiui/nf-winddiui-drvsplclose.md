@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: bd5f0bf2-ccb8-446c-b1e5-2e32538ebfbd
 ms.date: 11/18/2019
 ms.keywords: DrvSplClose, DrvSplClose function [Print Devices], print.drvsplclose, print_interface-graphics_e43f66ed-0e5e-4a27-ad52-0faebe549ac5.xml, winddiui/DrvSplClose
-ms.topic: function
 f1_keywords:
  - "winddiui/DrvSplClose"
 req.header: winddiui.h

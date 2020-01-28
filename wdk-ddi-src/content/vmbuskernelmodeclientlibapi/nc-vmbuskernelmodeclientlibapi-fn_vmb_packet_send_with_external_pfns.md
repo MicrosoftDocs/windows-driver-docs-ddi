@@ -5,7 +5,6 @@ description: The VmbPacketSendWithExternalPfns function sends the data in a pack
 tech.root: netvista
 ms.assetid: 680f7faf-6874-4c02-84b9-d919430ad386
 ms.date: 05/22/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_SEND_WITH_EXTERNAL_PFNS"
 req.header: vmbuskernelmodeclientlibapi.h

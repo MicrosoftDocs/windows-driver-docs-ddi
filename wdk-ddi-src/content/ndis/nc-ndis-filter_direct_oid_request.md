@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: a39f4b50-0183-4f92-82f2-3c8e2e2d0632
 ms.date: 05/02/2018
 ms.keywords: FILTER_DIRECT_OID_REQUEST, FILTER_DIRECT_OID_REQUEST callback, FilterDirectOidRequest, FilterDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterDirectOidRequest, ndis_request_direct_ref_47a005b0-4a5b-4539-a1dc-2d9423022567.xml, netvista.filterdirectoidrequest
-ms.topic: callback
 f1_keywords:
  - "ndis/FilterDirectOidRequest"
 req.header: ndis.h

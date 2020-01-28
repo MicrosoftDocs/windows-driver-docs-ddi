@@ -7,7 +7,6 @@ tech.root: nfpdrivers
 ms.assetid: 18666E48-9505-448E-ABA1-536D365FC49D
 ms.date: 02/15/2018
 ms.keywords: IOCTL_SMARTCARD_GET_STATE, IOCTL_SMARTCARD_GET_STATE control, IOCTL_SMARTCARD_GET_STATE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_get_state, winsmcrd/IOCTL_SMARTCARD_GET_STATE
-ms.topic: ioctl
 f1_keywords:
  - "winsmcrd/IOCTL_SMARTCARD_GET_STATE"
 req.header: winsmcrd.h

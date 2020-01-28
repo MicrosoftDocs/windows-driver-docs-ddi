@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 2C35EF9F-143C-4DE2-93D0-5BCF8AADF11B
 ms.date: 04/23/2018
 ms.keywords: "*PSTREAM_METHOD_DESCRIPTOR, PSTREAM_METHOD_DESCRIPTOR, PSTREAM_METHOD_DESCRIPTOR structure pointer [Streaming Media Devices], STREAM_METHOD_DESCRIPTOR, STREAM_METHOD_DESCRIPTOR structure [Streaming Media Devices], _STREAM_METHOD_DESCRIPTOR, stream.stream_method_descriptor, strmini/PSTREAM_METHOD_DESCRIPTOR, strmini/STREAM_METHOD_DESCRIPTOR"
-ms.topic: struct
 f1_keywords:
  - "strmini/STREAM_METHOD_DESCRIPTOR"
 req.header: strmini.h

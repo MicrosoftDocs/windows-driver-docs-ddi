@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 61C425CB-4900-4EB2-8D33-FF235BC03929
 ms.date: 05/02/2018
 ms.keywords: NDK_ADAPTER_DISPATCH, NDK_ADAPTER_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_ADAPTER_DISPATCH, PNDK_ADAPTER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDK_ADAPTER_DISPATCH, ndkpi/NDK_ADAPTER_DISPATCH, ndkpi/PNDK_ADAPTER_DISPATCH, netvista.ndk_adapter_dispatch
-ms.topic: struct
 f1_keywords:
  - "ndkpi/NDK_ADAPTER_DISPATCH"
 req.header: ndkpi.h

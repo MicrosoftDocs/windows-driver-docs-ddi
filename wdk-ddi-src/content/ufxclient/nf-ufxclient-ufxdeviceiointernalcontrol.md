@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 0AD4316E-67E7-4810-86DA-5DEB5C4E6DE6
 ms.date: 05/07/2018
 ms.keywords: UfxDeviceIoInternalControl, UfxDeviceIoInternalControl method [Buses], buses.ufxdeviceiointernalcontrol, ufxclient/UfxDeviceIoInternalControl
-ms.topic: function
 f1_keywords:
  - "ufxclient/UfxDeviceIoInternalControl"
 req.header: ufxclient.h

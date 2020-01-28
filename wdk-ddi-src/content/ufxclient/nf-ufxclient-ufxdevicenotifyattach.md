@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: E45FA08C-3E00-4AF6-A983-6E9C808AFA11
 ms.date: 05/07/2018
 ms.keywords: UfxDeviceNotifyAttach, UfxDeviceNotifyAttach method [Buses], buses.ufxdevicenotifyattach, ufxclient/UfxDeviceNotifyAttach
-ms.topic: function
 f1_keywords:
  - "ufxclient/UfxDeviceNotifyAttach"
 req.header: ufxclient.h

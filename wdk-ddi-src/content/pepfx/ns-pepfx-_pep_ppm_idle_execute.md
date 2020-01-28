@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 88BE0C4E-0607-48D6-B0E1-7B35BFD70AD4
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_IDLE_EXECUTE, PEP_PPM_IDLE_EXECUTE, PEP_PPM_IDLE_EXECUTE structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_EXECUTE, PPEP_PPM_IDLE_EXECUTE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_EXECUTE, kernel.pep_ppm_idle_execute, pepfx/PEP_PPM_IDLE_EXECUTE, pepfx/PPEP_PPM_IDLE_EXECUTE"
-ms.topic: struct
 f1_keywords:
  - "pepfx/PEP_PPM_IDLE_EXECUTE"
 req.header: pepfx.h

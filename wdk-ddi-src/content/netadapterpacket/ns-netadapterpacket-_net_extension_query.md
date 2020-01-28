@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: c5f5ab4a-886a-4eee-bc5d-dc73bbfe5c72
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: struct
 f1_keywords:
  - "netadapterpacket/NET_EXTENSION_QUERY"
 ms.keywords: NET_EXTENSION_QUERY, NET_EXTENSION_QUERY, 

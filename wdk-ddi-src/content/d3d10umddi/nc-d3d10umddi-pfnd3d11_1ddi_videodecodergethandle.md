@@ -6,7 +6,6 @@ old-location: display\videodecodergethandle.htm
 ms.assetid: 05c16416-d48c-44ce-b025-d62d763682bc
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEODECODERGETHANDLE, PFND3D11_1DDI_VIDEODECODERGETHANDLE callback, d3d10umddi/pfnVideoDecoderGetHandle, display.videodecodergethandle, pfnVideoDecoderGetHandle, pfnVideoDecoderGetHandle callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

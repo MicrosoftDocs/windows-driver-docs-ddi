@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: c3730035-74fc-421a-89dc-7411e53950f5
 ms.date: 04/30/2018
 ms.keywords: "*PPOWER_STATE, POWER_STATE, POWER_STATE union [Kernel-Mode Driver Architecture], PPOWER_STATE, PPOWER_STATE union pointer [Kernel-Mode Driver Architecture], _POWER_STATE, kernel.power_state, kstruct_c_a0fca0b4-3d45-48e4-b3ee-ba473ac08347.xml, wdm/POWER_STATE, wdm/PPOWER_STATE"
-ms.topic: struct
 f1_keywords:
  - "wdm/POWER_STATE"
 req.header: wdm.h

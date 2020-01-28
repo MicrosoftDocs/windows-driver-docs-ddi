@@ -6,7 +6,6 @@ old-location: display\dxgk_vidpntargetmodeset_interface_pfnpinmode.htm
 ms.assetid: 91ea3105-2fdf-4533-a2d4-d27f1e660056
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTARGETMODESET_PINMODE, DXGKDDI_VIDPNTARGETMODESET_PINMODE callback, VidPnFunctions_2b6f869f-bd7d-4699-8934-04cbe56bf0af.xml, d3dkmddi/pfnPinMode, display.dxgk_vidpntargetmodeset_interface_pfnpinmode, pfnPinMode, pfnPinMode callback function [Display Devices]
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

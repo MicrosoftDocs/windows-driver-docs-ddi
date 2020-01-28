@@ -7,7 +7,6 @@ tech.root: IEEE
 ms.assetid: 9CF14B12-D94F-486D-A5FC-E7CC2730D8E9
 ms.date: 02/15/2018
 ms.keywords: "*PBUS_RESET_NOTIFY, 61883/BUS_RESET_NOTIFY, 61883/PBUS_RESET_NOTIFY, BUS_RESET_NOTIFY, BUS_RESET_NOTIFY structure [Buses], IEEE.bus_reset_notify, PBUS_RESET_NOTIFY, PBUS_RESET_NOTIFY structure pointer [Buses], _BUS_RESET_NOTIFY"
-ms.topic: struct
 f1_keywords:
  - "61883/BUS_RESET_NOTIFY"
 req.header: 61883.h

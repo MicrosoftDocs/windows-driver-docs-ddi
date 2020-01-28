@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 4bf5c95f-dc08-4d1e-8e52-6d0de19df4c0
 ms.date: 05/08/2018
 ms.keywords: "*PKSAUDIO_DYNAMIC_RANGE, KSAUDIO_DYNAMIC_RANGE, KSAUDIO_DYNAMIC_RANGE structure [Audio Devices], PKSAUDIO_DYNAMIC_RANGE, PKSAUDIO_DYNAMIC_RANGE structure pointer [Audio Devices], aud-prop_1b73d842-9ef4-4017-b30a-26373b4797b4.xml, audio.ksaudio_dynamic_range, ksmedia/KSAUDIO_DYNAMIC_RANGE, ksmedia/PKSAUDIO_DYNAMIC_RANGE"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSAUDIO_DYNAMIC_RANGE"
 req.header: ksmedia.h

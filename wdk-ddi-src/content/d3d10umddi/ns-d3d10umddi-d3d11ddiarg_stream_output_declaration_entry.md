@@ -6,7 +6,6 @@ old-location: display\d3d11ddiarg_stream_output_declaration_entry.htm
 ms.assetid: 336bfc9d-325b-4ff1-8d6b-ec2ef4158cb9
 ms.date: 05/10/2018
 ms.keywords: D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure [Display Devices], UMDisplayDriver_Dx11param_Structs_c3324903-51b0-4679-ad77-b24cb5619bef.xml, d3d10umddi/D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, display.d3d11ddiarg_stream_output_declaration_entry
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY"
 req.header: d3d10umddi.h

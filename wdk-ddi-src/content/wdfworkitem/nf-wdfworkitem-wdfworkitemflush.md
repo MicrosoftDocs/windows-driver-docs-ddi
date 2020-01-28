@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 5868dd01-17ba-4edf-b665-c90d2b1aa2ba
 ms.date: 02/26/2018
 ms.keywords: DFWorkItemObjectRef_620a50e7-1995-4806-b71a-932f7fc7c35a.xml, WdfWorkItemFlush, WdfWorkItemFlush method, kmdf.wdfworkitemflush, wdf.wdfworkitemflush, wdfworkitem/WdfWorkItemFlush
-ms.topic: function
 f1_keywords:
  - "wdfworkitem/WdfWorkItemFlush"
 req.header: wdfworkitem.h

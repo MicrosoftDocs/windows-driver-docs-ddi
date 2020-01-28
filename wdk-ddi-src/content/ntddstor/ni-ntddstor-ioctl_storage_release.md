@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: ca43da4e-6e0e-4689-83db-3f5ee5e560b2
 ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_RELEASE, IOCTL_STORAGE_RELEASE control, IOCTL_STORAGE_RELEASE control code [Storage Devices], k307_8097610b-98ad-4bb2-9f16-2caca8bf7f0d.xml, ntddstor/IOCTL_STORAGE_RELEASE, storage.ioctl_storage_release
-ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_RELEASE"
 req.header: ntddstor.h

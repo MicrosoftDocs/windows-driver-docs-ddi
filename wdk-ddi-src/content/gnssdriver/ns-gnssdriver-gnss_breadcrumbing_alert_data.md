@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: 5B8C1264-336C-438F-89AC-82B6FCBAE931
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_BREADCRUMBING_ALERT_DATA, GNSS_BREADCRUMBING_ALERT_DATA, GNSS_BREADCRUMBING_ALERT_DATA structure [Sensor Devices], PGNSS_BREADCRUMBING_ALERT_DATA, PGNSS_BREADCRUMBING_ALERT_DATA structure pointer [Sensor Devices], gnss.gnss_breadcrumbing_alert_data, gnssdriver/GNSS_BREADCRUMBING_ALERT_DATA, gnssdriver/PGNSS_BREADCRUMBING_ALERT_DATA"
-ms.topic: struct
 f1_keywords:
  - "gnssdriver/GNSS_BREADCRUMBING_ALERT_DATA"
 req.header: gnssdriver.h

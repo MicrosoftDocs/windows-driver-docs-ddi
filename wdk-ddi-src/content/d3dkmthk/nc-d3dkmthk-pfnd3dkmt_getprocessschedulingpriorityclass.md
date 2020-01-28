@@ -4,7 +4,6 @@ title: PFND3DKMT_GETPROCESSSCHEDULINGPRIORITYCLASS (d3dkmthk.h)
 description: Pfnd3dkmtGetprocessschedulingpriorityclass retrieves the scheduling priority for a process.
 ms.assetid: 40923029-966b-4782-9d13-f647ddbc6ec0
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_GETPROCESSSCHEDULINGPRIORITYCLASS"
 req.header: d3dkmthk.h

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 98d38c84-ed3a-4119-9a05-f8211f220467
 ms.date: 04/16/2018
 ms.keywords: IoSetFileOrigin, IoSetFileOrigin routine [Installable File System Drivers], ifsk.iosetfileorigin, ioref_782eeed5-9c44-4572-b929-4e1fb82d8e03.xml, ntddk/IoSetFileOrigin
-ms.topic: function
 f1_keywords:
  - "ntddk/IoSetFileOrigin"
 req.header: ntddk.h

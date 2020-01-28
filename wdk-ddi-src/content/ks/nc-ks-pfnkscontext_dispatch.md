@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: be96eb59-6128-41bd-ad31-38f0d1a4e656
 ms.date: 04/23/2018
 ms.keywords: KStrContextDispatch, KStrContextDispatch routine [Streaming Media Devices], PFNKSCONTEXT_DISPATCH, ks/KStrContextDispatch, ksfunc_b607dd80-6da6-4364-9452-4c2e53c54343.xml, stream.kstrcontextdispatch
-ms.topic: callback
 f1_keywords:
  - "ks/KStrContextDispatch"
 req.header: ks.h

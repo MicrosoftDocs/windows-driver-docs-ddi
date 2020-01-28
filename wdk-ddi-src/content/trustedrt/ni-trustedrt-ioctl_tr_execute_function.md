@@ -4,7 +4,6 @@ title: IOCTL_TR_EXECUTE_FUNCTION (trustedrt.h)
 description: 
 ms.assetid: 79daccd6-3bda-4ef2-81e4-e68137257369
 ms.date: 10/19/2018
-ms.topic: ioctl
 f1_keywords:
  - "trustedrt/IOCTL_TR_EXECUTE_FUNCTION"
 req.header: trustedrt.h

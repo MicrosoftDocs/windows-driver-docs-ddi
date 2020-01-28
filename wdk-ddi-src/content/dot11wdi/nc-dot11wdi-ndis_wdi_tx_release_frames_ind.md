@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 1324D516-8AEF-4357-86EC-81F6EBDC8FB9
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_TX_RELEASE_FRAMES_IND, NDIS_WDI_TX_RELEASE_FRAMES_IND callback, NdisWdiTxReleaseFrameIndication, NdisWdiTxReleaseFrameIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxReleaseFrameIndication, netvista.ndiswditxreleaseframesindication
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/NdisWdiTxReleaseFrameIndication"
 req.header: dot11wdi.h

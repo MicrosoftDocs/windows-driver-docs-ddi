@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: c7ffc52a-e7cd-4ba1-9696-568719166713
 ms.date: 04/30/2019
 ms.keywords: "*PKS_AM_ExactRateChange, KS_AM_ExactRateChange, KS_AM_ExactRateChange structure [Streaming Media Devices], PKS_AM_ExactRateChange, PKS_AM_ExactRateChange structure pointer [Streaming Media Devices], dvdref_bbe80dae-5cb8-45f8-a283-c0a2af794525.xml, ksmedia/KS_AM_ExactRateChange, ksmedia/PKS_AM_ExactRateChange, stream.ks_am_exactratechange"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KS_AM_ExactRateChange"
 req.header: ksmedia.h

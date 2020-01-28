@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 045c45fe-c971-4d41-a43d-415c2a4d464b
 ms.date: 04/30/2018
 ms.keywords: WmiTraceMessage, WmiTraceMessage routine [Kernel-Mode Driver Architecture], k902_114717ae-d439-4ddd-b939-913795610dee.xml, kernel.wmitracemessage, wdm/WmiTraceMessage
-ms.topic: function
 f1_keywords:
  - "wdm/WmiTraceMessage"
 req.header: wdm.h

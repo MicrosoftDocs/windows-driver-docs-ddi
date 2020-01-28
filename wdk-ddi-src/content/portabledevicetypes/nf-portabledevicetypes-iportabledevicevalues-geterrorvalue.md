@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: 6e5a0d31-3a89-4188-bf5f-6c7636c7106f
 ms.date: 02/15/2018
 ms.keywords: GetErrorValue, GetErrorValue method, GetErrorValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetErrorValue method, IPortableDeviceValues.GetErrorValue, IPortableDeviceValues::GetErrorValue, IPortableDeviceValuesGetErrorValue, portabledevicetypes/IPortableDeviceValues::GetErrorValue, wpddk.iportabledevicevalues_geterrorvalue
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetErrorValue"
 req.header: portabledevicetypes.h

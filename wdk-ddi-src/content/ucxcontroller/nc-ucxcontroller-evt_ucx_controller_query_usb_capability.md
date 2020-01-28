@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: c01150b6-e6cf-484c-be3e-c63984e97bb3
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY, EVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback, EvtUcxControllerQueryUsbCapability, EvtUcxControllerQueryUsbCapability callback function [Buses], PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY, PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY callback function pointer [Buses], buses.evt_ucx_controller_query_usb_capability, ucxcontroller/EvtUcxControllerQueryUsbCapability
-ms.topic: callback
 f1_keywords:
  - "ucxcontroller/PEVT_UCX_CONTROLLER_QUERY_USB_CAPABILITY"
 req.header: ucxcontroller.h

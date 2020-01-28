@@ -4,7 +4,6 @@ title: ArrayDimension (dbgmodel.h)
 description: Defines the memory layout of one dimension of an array.
 ms.assetid: e99b1f99-d853-4159-9656-1a6b83f43ac1
 ms.date: 07/16/2018
-ms.topic: struct
 f1_keywords:
  - "dbgmodel/ArrayDimension"
 ms.keywords: ArrayDimension, , 

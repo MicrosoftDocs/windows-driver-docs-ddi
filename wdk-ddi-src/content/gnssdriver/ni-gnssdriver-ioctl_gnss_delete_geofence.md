@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: BF50E28A-56CF-4718-93BB-CCC3DFE84072
 ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_DELETE_GEOFENCE, IOCTL_GNSS_DELETE_GEOFENCE control, IOCTL_GNSS_DELETE_GEOFENCE control code [Sensor Devices], gnss.ioctl_gnss_delete_geofence, gnssdriver/IOCTL_GNSS_DELETE_GEOFENCE
-ms.topic: ioctl
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_DELETE_GEOFENCE"
 req.header: gnssdriver.h

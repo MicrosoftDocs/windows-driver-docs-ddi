@@ -4,7 +4,6 @@ title: IDataModelScriptDebugBreakpoint::GetPosition (dbgmodel.h)
 description: The GetPosition method returns the position of the breakpoint within the script.
 ms.assetid: cdc328af-b80c-45cb-b4a1-5b31e878014e
 ms.date: 09/10/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpoint.GetPosition"
 ms.keywords: IDataModelScriptDebugBreakpoint::GetPosition, GetPosition, IDataModelScriptDebugBreakpoint.GetPosition, IDataModelScriptDebugBreakpoint::GetPosition, IDataModelScriptDebugBreakpoint.GetPosition

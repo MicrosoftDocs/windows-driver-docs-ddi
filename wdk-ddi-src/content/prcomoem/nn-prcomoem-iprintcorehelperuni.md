@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: e581d190-8185-45c1-80c7-ff8eb305360e
 ms.date: 04/20/2018
 ms.keywords: IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], IPrintCoreHelperUni interface [Print Devices],described, prcomoem/IPrintCoreHelperUni, print.iprintcorehelperuni_interface, print_unidrv-pscript_allplugins_ca505d1f-1b52-4a61-a2d8-d8fea10cda76.xml
-ms.topic: interface
 f1_keywords:
  - "prcomoem/IPrintCoreHelperUni"
 req.header: prcomoem.h

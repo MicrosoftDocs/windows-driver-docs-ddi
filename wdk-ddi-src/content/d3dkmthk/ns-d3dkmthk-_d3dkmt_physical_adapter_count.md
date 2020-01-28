@@ -4,7 +4,6 @@ title: _D3DKMT_PHYSICAL_ADAPTER_COUNT (d3dkmthk.h)
 description: Used to get the physical adapter count.
 ms.assetid: 31c7df20-f9d0-4f28-8731-271b5f9b88af
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/_D3DKMT_PHYSICAL_ADAPTER_COUNT"
 ms.keywords: _D3DKMT_PHYSICAL_ADAPTER_COUNT, D3DKMT_PHYSICAL_ADAPTER_COUNT, 

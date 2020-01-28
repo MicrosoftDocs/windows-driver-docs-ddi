@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 1619BF14-DDEE-48CB-8E31-0CC17C8A4C6A
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_TX_ABORT_CONFIRM, NDIS_WDI_TX_ABORT_CONFIRM callback, NdisWdiTxAbortConfirm, NdisWdiTxAbortConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxAbortConfirm, netvista.ndiswditxabortconfirm
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/NdisWdiTxAbortConfirm"
 req.header: dot11wdi.h

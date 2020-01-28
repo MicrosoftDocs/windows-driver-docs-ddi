@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 31ffab25-ec34-42ff-bdde-c98fef003bfc
 ms.date: 05/03/2018
 ms.keywords: "*PDEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY structure [Windows Debugging], PDEBUG_SYMBOL_ENTRY, PDEBUG_SYMBOL_ENTRY structure pointer [Windows Debugging], Structures_5673550e-274a-429f-9a31-88e401bca68e.xml, _DEBUG_SYMBOL_ENTRY, dbgeng/DEBUG_SYMBOL_ENTRY, dbgeng/PDEBUG_SYMBOL_ENTRY, debugger.debug_symbol_entry"
-ms.topic: struct
 f1_keywords:
  - "dbgeng/DEBUG_SYMBOL_ENTRY"
 req.header: dbgeng.h

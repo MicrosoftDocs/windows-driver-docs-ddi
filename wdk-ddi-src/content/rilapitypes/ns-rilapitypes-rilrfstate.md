@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 7eb78864-d20c-4993-8b33-63096bf971fa
 ms.date: 05/02/2018
 ms.keywords: "*LPRILRFSTATE, RILRFSTATE, RILRFSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilrfstate, ntddrilapitypes/RILRFSTATE"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILRFSTATE"
 req.header: rilapitypes.h

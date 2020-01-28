@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 1398056B-6AC3-4F92-8981-58C193907D6F
 ms.date: 04/16/2018
 ms.keywords: IoIsFileObjectIgnoringSharing, IoIsFileObjectIgnoringSharing routine [Installable File System Drivers], ifsk.ioisfileobjectignoringsharing, ntddk/IoIsFileObjectIgnoringSharing
-ms.topic: function
 f1_keywords:
  - "ntddk/IoIsFileObjectIgnoringSharing"
 req.header: ntddk.h

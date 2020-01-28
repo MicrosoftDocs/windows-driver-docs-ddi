@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 12378915-fa3d-4054-bb06-6eb8b292559c
 ms.date: 05/07/2018
 ms.keywords: "*PUSB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR structure pointer [Buses], USB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR structure [Buses], _USB_INTERFACE_DESCRIPTOR, buses.usb_interface_descriptor, usbspec/PUSB_INTERFACE_DESCRIPTOR, usbspec/USB_INTERFACE_DESCRIPTOR, usbstrct_2b4503ac-895a-4e94-87b5-10f286ed0b90.xml"
-ms.topic: struct
 f1_keywords:
  - "usbspec/USB_INTERFACE_DESCRIPTOR"
 req.header: usbspec.h

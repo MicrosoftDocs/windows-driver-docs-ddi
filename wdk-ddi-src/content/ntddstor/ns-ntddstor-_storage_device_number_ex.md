@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 6134d9e6-7241-4533-904b-fbedb1bcc4b5
 ms.date: 11/08/2019
 ms.keywords: "*PSTORAGE_DEVICE_NUMBER_EX, PSTORAGE_DEVICE_NUMBER_EX, PSTORAGE_DEVICE_NUMBER_EX structure pointer [Storage Devices], STORAGE_DEVICE_NUMBER_EX, STORAGE_DEVICE_NUMBER_EX structure [Storage Devices], _STORAGE_DEVICE_NUMBER_EX, ntddstor/PSTORAGE_DEVICE_NUMBER_EX, ntddstor/STORAGE_DEVICE_NUMBER_EX"
-ms.topic: struct
 f1_keywords:
  - "ntddstor/STORAGE_DEVICE_NUMBER_EX"
 req.header: ntddstor.h

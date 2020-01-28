@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 12F6E1F5-15F9-42BE-8C47-C9A561513717
 ms.date: 04/30/2018
 ms.keywords: DMA_COMPLETION_STATUS, DMA_COMPLETION_STATUS enumeration [Kernel-Mode Driver Architecture], DmaAborted, DmaCancelled, DmaComplete, DmaError, kernel.dma_completion_status, wdm/DMA_COMPLETION_STATUS, wdm/DmaAborted, wdm/DmaCancelled, wdm/DmaComplete, wdm/DmaError
-ms.topic: enum
 f1_keywords:
  - "wdm/DMA_COMPLETION_STATUS"
 req.header: wdm.h

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: d29d2e29-74e2-44bb-a296-ecefc25437d5
 ms.author: windowsdriverdev
 ms.date: 02/25/2019
-ms.topic: struct
 f1_keywords:
  - "eventdetectoroemadapter/DETECTIONEVENTSELECTOR"
 ms.keywords: DETECTIONEVENTSELECTOR, DETECTIONEVENTSELECTOR, 

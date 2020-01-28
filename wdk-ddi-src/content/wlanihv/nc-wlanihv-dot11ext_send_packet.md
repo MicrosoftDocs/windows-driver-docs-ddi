@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 0672eed0-4824-464b-9f4e-93862f27d586
 ms.date: 02/16/2018
 ms.keywords: DOT11EXT_SEND_PACKET, Dot11ExtSendPacket, Dot11ExtSendPacket callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_0acd1763-b9d3-4e75-ada6-63f5a77b42c3.xml, netvista.dot11extsendpacket, wlanihv/Dot11ExtSendPacket
-ms.topic: callback
 f1_keywords:
  - "wlanihv/Dot11ExtSendPacket"
 req.header: wlanihv.h

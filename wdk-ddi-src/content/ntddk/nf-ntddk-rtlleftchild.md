@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 26e6b0c6-7de0-43c9-a117-5c0bf0e986a2
 ms.date: 04/16/2018
 ms.keywords: RtlLeftChild, RtlLeftChild routine [Installable File System Drivers], ifsk.rtlleftchild, ntddk/RtlLeftChild, rtlref_f2bfae7c-de1d-4d7c-84b5-947a0cfdb16f.xml
-ms.topic: macro
 f1_keywords:
  - "ntddk/RtlLeftChild"
 req.header: ntddk.h

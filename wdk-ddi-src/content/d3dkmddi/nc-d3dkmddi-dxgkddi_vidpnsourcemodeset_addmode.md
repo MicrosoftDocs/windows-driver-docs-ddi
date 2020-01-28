@@ -6,7 +6,6 @@ old-location: display\dxgk_vidpnsourcemodeset_interface_pfnaddmode.htm
 ms.assetid: 754078c2-f79b-4237-a14c-96903856f3a5
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_ADDMODE, DXGKDDI_VIDPNSOURCEMODESET_ADDMODE callback, VidPnFunctions_4a5d2191-c7d3-4b94-80aa-b6b3c71dfe18.xml, d3dkmddi/pfnAddMode, display.dxgk_vidpnsourcemodeset_interface_pfnaddmode, pfnAddMode, pfnAddMode callback function [Display Devices]
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

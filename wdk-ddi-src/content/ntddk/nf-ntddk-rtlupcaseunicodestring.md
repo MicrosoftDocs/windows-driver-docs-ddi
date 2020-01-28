@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: fe3c6010-532b-4f3d-b3d3-a1c27d4a05f1
 ms.date: 04/30/2018
 ms.keywords: RtlUpcaseUnicodeString, RtlUpcaseUnicodeString routine [Kernel-Mode Driver Architecture], k109_617db3d7-18d8-46eb-a555-59f99d9cae78.xml, kernel.rtlupcaseunicodestring, ntddk/RtlUpcaseUnicodeString
-ms.topic: function
 f1_keywords:
  - "ntddk/RtlUpcaseUnicodeString"
 req.header: ntddk.h

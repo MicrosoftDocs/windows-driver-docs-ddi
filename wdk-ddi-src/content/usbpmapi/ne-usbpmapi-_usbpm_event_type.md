@@ -4,7 +4,6 @@ title: _USBPM_EVENT_TYPE (usbpmapi.h)
 description: Defines values for types of events.
 ms.assetid: 71d061e8-92bb-4b83-9e77-c576163bb5a1
 ms.date: 09/30/2018
-ms.topic: enum
 f1_keywords:
  - "usbpmapi/USBPM_EVENT_TYPE"
 ms.keywords: _USBPM_EVENT_TYPE, USBPM_EVENT_TYPE, 

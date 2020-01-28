@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 2a5cccb3-24aa-404a-b887-2ccbe98a0673
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_76b63618-935e-44b2-ac3d-591c5e11ea74.xml, WdfRequestSetInformation, WdfRequestSetInformation method, kmdf.wdfrequestsetinformation, wdf.wdfrequestsetinformation, wdfrequest/WdfRequestSetInformation
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WdfRequestSetInformation"
 req.header: wdfrequest.h

@@ -4,7 +4,6 @@ title: D3D12DDI_METACOMMAND_FUNCS_0033 (d3d12umddi.h)
 description: Meta-command functions.
 ms.assetid: ab765602-a6bb-4c7e-abb7-20185554bd8d
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_METACOMMAND_FUNCS_0033"
 ms.keywords: D3D12DDI_METACOMMAND_FUNCS_0033, D3D12DDI_METACOMMAND_FUNCS_0033,

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: a21be482-7640-4e72-a8af-00bb10216fa8
 ms.date: 05/03/2018
 ms.keywords: FindSourceFileWide, FindSourceFileWide method [Windows Debugging], FindSourceFileWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],FindSourceFileWide method, IDebugSymbols3.FindSourceFileWide, IDebugSymbols3::FindSourceFileWide, dbgeng/IDebugSymbols3::FindSourceFileWide, debugger.findsourcefilewide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols3.FindSourceFileWide"
 req.header: dbgeng.h

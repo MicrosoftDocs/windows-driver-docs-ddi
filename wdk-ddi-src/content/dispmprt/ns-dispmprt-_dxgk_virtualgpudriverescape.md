@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: ef42bc4c-4ed2-40bf-9548-1de05ff6718f
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
 f1_keywords:
  - "dispmprt/_DXGK_VIRTUALGPUDRIVERESCAPE"
 ms.prod: windows-hardware

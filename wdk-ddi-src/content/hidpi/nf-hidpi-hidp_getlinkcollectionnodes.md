@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: d829b203-8b7f-4504-a9ac-da1f91b3bbd6
 ms.date: 04/30/2018
 ms.keywords: HidP_GetLinkCollectionNodes, HidP_GetLinkCollectionNodes routine [Human Input Devices], hid.hidp_getlinkcollectionnodes, hidfunc_cbcd531f-dc4d-4a27-96bd-bfa3589af9a7.xml, hidpi/HidP_GetLinkCollectionNodes
-ms.topic: function
 f1_keywords:
  - "hidpi/HidP_GetLinkCollectionNodes"
 req.header: hidpi.h

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 9F5268BF-293F-4736-974D-25914B67ED4B
 ms.date: 04/23/2018
 ms.keywords: KSEVENT_CLOCK_INTERVAL_MARK, KSEVENT_CLOCK_POSITION, KSEVENT_CLOCK_POSITION enumeration [Streaming Media Devices], KSEVENT_CLOCK_POSITION_MARK, ks/KSEVENT_CLOCK_INTERVAL_MARK, ks/KSEVENT_CLOCK_POSITION, ks/KSEVENT_CLOCK_POSITION_MARK, stream.ksevent_clock_position
-ms.topic: enum
 f1_keywords:
  - "ks/KSEVENT_CLOCK_POSITION"
 req.header: ks.h

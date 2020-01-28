@@ -4,7 +4,6 @@ title: PFND3DKMT_DESTROYALLOCATION2 (d3dkmthk.h)
 description: The PFND3DKMT_DESTROYALLOCATION2 callback function releases allocations.
 ms.assetid: 184d35d6-4d28-4153-a9a1-d5ccd04827cd
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_DESTROYALLOCATION2"
 req.header: d3dkmthk.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4312e775-cc75-477b-979b-09fd0604b55c
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_DESTROYVIDEOEXTENSIONCOMMAND_0063"
 req.header: d3d12umddi.h

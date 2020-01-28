@@ -7,7 +7,6 @@ tech.root: biometric
 ms.assetid: 70591143-f429-4a6e-8f2a-cc1082f40f6e
 ms.date: 02/20/2018
 ms.keywords: "*PWINBIO_REGISTERED_FORMAT, PWINBIO_REGISTERED_FORMAT, PWINBIO_REGISTERED_FORMAT structure pointer [Biometric Devices], WINBIO_REGISTERED_FORMAT, WINBIO_REGISTERED_FORMAT structure [Biometric Devices], _WINBIO_REGISTERED_FORMAT, biometric.winbio_registered_format, biometric_ref_824bd2c9-98a7-4967-8416-82aadd8ec6ed.xml, winbio_types/PWINBIO_REGISTERED_FORMAT, winbio_types/WINBIO_REGISTERED_FORMAT"
-ms.topic: struct
 f1_keywords:
  - "winbio_types/WINBIO_REGISTERED_FORMAT"
 req.header: winbio_types.h

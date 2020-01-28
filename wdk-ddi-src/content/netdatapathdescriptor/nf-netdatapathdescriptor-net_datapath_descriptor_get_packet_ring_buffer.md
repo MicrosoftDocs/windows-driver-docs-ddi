@@ -5,7 +5,6 @@ description: The NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER macro retrieves 
 tech.root: netvista
 ms.assetid: b715d6c9-84f1-4c99-8c28-8eaa7d6eb8ef
 ms.date: 02/27/2018
-ms.topic: macro
 f1_keywords:
  - "netdatapathdescriptor/NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER"
 ms.keywords: NET_DATAPATH_DESCRIPTOR_GET_PACKET_RING_BUFFER

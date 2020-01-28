@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 44d4f693-4aab-4023-88b7-19c1bfcc7e5a
 ms.date: 05/02/2018
 ms.keywords: "*LPRILMESSAGEIN, RILMESSAGEIN, RILMESSAGEIN_V2, RILMESSAGEIN_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilmessagein_v2, ntddrilapitypes/RILMESSAGEIN_V2"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILMESSAGEIN_V2"
 req.header: rilapitypes.h

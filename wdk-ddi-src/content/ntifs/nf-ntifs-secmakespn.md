@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: e294832a-f0f2-49ab-b215-7c0e67e5ec13
 ms.date: 04/16/2018
 ms.keywords: SecMakeSPN, SecMakeSPN function [Installable File System Drivers], ifsk.secmakespn, ksecddref_0225b4c1-8cfd-49cc-a69a-85da507c401e.xml, ntifs/SecMakeSPN
-ms.topic: function
 f1_keywords:
  - "ntifs/SecMakeSPN"
 req.header: ntifs.h

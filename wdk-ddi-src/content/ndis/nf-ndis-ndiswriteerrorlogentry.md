@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: d36174ef-4df2-49ec-9167-cfb150f090f8
 ms.date: 05/02/2018
 ms.keywords: NdisWriteErrorLogEntry, NdisWriteErrorLogEntry function [Network Drivers Starting with Windows Vista], miniport_logging_ref_754f8e03-f922-4e6d-b2ef-20fb8027b645.xml, ndis/NdisWriteErrorLogEntry, netvista.ndiswriteerrorlogentry
-ms.topic: function
 f1_keywords:
  - "ndis/NdisWriteErrorLogEntry"
 req.header: ndis.h

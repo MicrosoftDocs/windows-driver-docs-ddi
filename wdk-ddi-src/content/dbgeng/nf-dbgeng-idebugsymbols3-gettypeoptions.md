@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: a21442e5-8237-4d00-8d8a-6fabd6cc0db2
 ms.date: 05/03/2018
 ms.keywords: GetTypeOptions, GetTypeOptions method [Windows Debugging], GetTypeOptions method [Windows Debugging],IDebugSymbols2 interface, GetTypeOptions method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging],GetTypeOptions method, IDebugSymbols2::GetTypeOptions, IDebugSymbols3 interface [Windows Debugging],GetTypeOptions method, IDebugSymbols3.GetTypeOptions, IDebugSymbols3::GetTypeOptions, IDebugSymbols_ea8a630e-a7a9-40eb-9127-76fd876bf253.xml, dbgeng/IDebugSymbols2::GetTypeOptions, dbgeng/IDebugSymbols3::GetTypeOptions, debugger.gettypeoptions
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols2.GetTypeOptions"
 req.header: dbgeng.h

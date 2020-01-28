@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: EB507DE2-354C-41D2-9BEE-091C4AE299EC
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_REQUEST_COMPLETION, NDK_FN_REQUEST_COMPLETION callback, NdkRequestCompletion, NdkRequestCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRequestCompletion, netvista.ndk_fn_request_completion
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkRequestCompletion"
 req.header: ndkpi.h

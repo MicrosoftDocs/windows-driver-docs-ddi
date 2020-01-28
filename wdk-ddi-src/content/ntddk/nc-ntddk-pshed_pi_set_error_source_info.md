@@ -7,7 +7,6 @@ tech.root: whea
 ms.assetid: 0b9cd546-d4ad-4e0e-92cb-7994c7327977
 ms.date: 02/20/2018
 ms.keywords: PSHED_PI_SET_ERROR_SOURCE_INFO, PSHED_PI_SET_ERROR_SOURCE_INFO callback, SetErrorSourceInfo, SetErrorSourceInfo callback function [WHEA Drivers and Applications], ntddk/SetErrorSourceInfo, whea.seterrorsourceinfo, whearef_49924aa5-519d-4e23-95c5-a52264713258.xml
-ms.topic: callback
 f1_keywords:
  - "ntddk/SetErrorSourceInfo"
 req.header: ntddk.h

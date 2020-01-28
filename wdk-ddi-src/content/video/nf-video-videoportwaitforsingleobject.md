@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 574aa79e-c8ef-44de-8d0b-a550698a32e0
 ms.date: 05/10/2018
 ms.keywords: VideoPortWaitForSingleObject, VideoPortWaitForSingleObject function [Display Devices], VideoPort_Functions_a1678f59-0c1c-4b0a-b1e6-2dbb71c8a7c2.xml, display.videoportwaitforsingleobject, video/VideoPortWaitForSingleObject
-ms.topic: function
 f1_keywords:
  - "video/VideoPortWaitForSingleObject"
 req.header: video.h

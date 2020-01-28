@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 71E2E98D-4C97-4C04-A379-88C2A7CC8428
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_LOCK2, D3DDDICB_LOCK2 structure [Display Devices], _D3DDDICB_LOCK2, d3dumddi/D3DDDICB_LOCK2, display.d3dddicb_lock2
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDICB_LOCK2"
 req.header: d3dumddi.h

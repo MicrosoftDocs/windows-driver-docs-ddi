@@ -6,7 +6,6 @@ old-location: display\videoprocessorsetstreamstereoformat.htm
 ms.assetid: bc79f431-d23e-4440-a8c5-50c29c48444e
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSTEREOFORMAT callback, d3d10umddi/pfnVideoProcessorSetStreamStereoFormat, display.videoprocessorsetstreamstereoformat, pfnVideoProcessorSetStreamStereoFormat, pfnVideoProcessorSetStreamStereoFormat callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetStreamStereoFormat"
 req.header: d3d10umddi.h

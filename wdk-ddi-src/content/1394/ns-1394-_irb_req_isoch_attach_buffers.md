@@ -7,7 +7,6 @@ tech.root: IEEE
 ms.assetid: 7EA6E82C-D803-48CD-9955-CF576BF978CA
 ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_ATTACH_BUFFERS, IEEE.irb_req_isoch_attach_buffers, IRB_REQ_ISOCH_ATTACH_BUFFERS, IRB_REQ_ISOCH_ATTACH_BUFFERS structure [Buses], _IRB_REQ_ISOCH_ATTACH_BUFFERS
-ms.topic: struct
 f1_keywords:
  - "1394/IRB_REQ_ISOCH_ATTACH_BUFFERS"
 req.header: 1394.h

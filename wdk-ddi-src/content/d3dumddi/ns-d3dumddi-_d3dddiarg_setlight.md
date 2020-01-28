@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 91da1c7a-aff5-4ece-b18d-14bd41e95464
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_SETLIGHT, D3DDDIARG_SETLIGHT structure [Display Devices], UMDisplayDriver_param_Structs_85eaa308-4edf-44ee-9235-e8637c10aa35.xml, _D3DDDIARG_SETLIGHT, d3dumddi/D3DDDIARG_SETLIGHT, display.d3dddiarg_setlight
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETLIGHT"
 req.header: d3dumddi.h

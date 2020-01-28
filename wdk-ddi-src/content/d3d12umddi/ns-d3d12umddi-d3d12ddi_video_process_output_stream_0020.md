@@ -6,7 +6,6 @@ old-location: display\d3d12ddi_video_process_output_stream.htm
 ms.assetid: D6C510B3-D578-41D0-9D52-131F2B61161D
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020, D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020, display.d3d12ddi_video_process_output_stream
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_0020"
 req.header: d3d12umddi.h

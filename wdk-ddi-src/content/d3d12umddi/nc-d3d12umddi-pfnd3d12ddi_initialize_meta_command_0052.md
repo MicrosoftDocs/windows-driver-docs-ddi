@@ -4,7 +4,6 @@ title: PFND3D12DDI_INITIALIZE_META_COMMAND_0052 (d3d12umddi.h)
 description: Initializes a meta-command.
 ms.assetid: e06b223d-11b6-4bbe-a2a0-af69c7e3ed3e
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

@@ -6,7 +6,6 @@ old-location: display\d3d12ddiarg_video_process_output_stream_parameters.htm
 ms.assetid: F8D7A87D-FFE6-4846-A902-2A686D78F0C1
 ms.date: 05/10/2018
 ms.keywords: D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020, D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020 structure [Display Devices], d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020, display.d3d12ddiarg_video_process_output_stream_parameters
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0020"
 req.header: d3d12umddi.h

@@ -6,7 +6,6 @@ old-location: display\dxgkddigetscanline.htm
 ms.assetid: e37bb3c6-a0b6-409f-8a82-20ec7a931c6a
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_GETSCANLINE, DXGKDDI_GETSCANLINE callback, DmFunctions_135e90a4-1b44-4cd6-92fe-626dd389af9b.xml, DxgkDdiGetScanLine, DxgkDdiGetScanLine callback function [Display Devices], d3dkmddi/DxgkDdiGetScanLine, display.dxgkddigetscanline
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

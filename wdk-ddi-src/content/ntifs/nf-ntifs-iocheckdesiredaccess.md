@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: ab90ab40-7b45-4658-b11b-cf46f91f8699
 ms.date: 05/30/2019
 ms.keywords: IoCheckDesiredAccess, IoCheckDesiredAccess function [Installable File System Drivers], ifsk.iocheckdesiredaccess, ioref_f8879d66-0bad-4c92-b2a3-853b7eb65ac6.xml, ntifs/IoCheckDesiredAccess
-ms.topic: function
 f1_keywords:
  - "ntifs/IoCheckDesiredAccess"
 req.header: ntifs.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 81ff56bb-84e5-4556-a0bf-32164b938622
 ms.date: 05/10/2018
 ms.keywords: D3DKMDT_PALETTEDATA, D3DKMDT_PALETTEDATA structure [Display Devices], DmStructs_83e6b2ae-dd44-4a21-bca5-6009af1f4ced.xml, _D3DKMDT_PALETTEDATA, d3dkmdt/D3DKMDT_PALETTEDATA, display.d3dkmdt_palettedata
-ms.topic: struct
 f1_keywords:
  - "d3dkmdt/D3DKMDT_PALETTEDATA"
 req.header: d3dkmdt.h

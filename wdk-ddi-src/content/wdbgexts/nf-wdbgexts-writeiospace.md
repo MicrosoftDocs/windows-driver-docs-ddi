@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 4d1a3df6-2440-46b7-8e73-f017f5fcfa51
 ms.date: 05/03/2018
 ms.keywords: WdbgExts_Ref_1aa4429d-9d99-4c7c-8870-7a75ccaad6e5.xml, WriteIoSpace, WriteIoSpace function [Windows Debugging], debugger.writeiospace, wdbgexts/WriteIoSpace
-ms.topic: function
 f1_keywords:
  - "wdbgexts/WriteIoSpace"
 req.header: wdbgexts.h

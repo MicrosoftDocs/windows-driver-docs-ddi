@@ -6,7 +6,6 @@ old-location: display\pdxgk_power_notification.htm
 ms.assetid: 11549B4E-7929-4957-9775-BF8AAF501D45
 ms.date: 03/29/2018
 ms.keywords: "*PDXGK_POWER_NOTIFICATION, *PDXGK_POWER_NOTIFICATION callback function [Display Devices], d3dkmthk/*PDXGK_POWER_NOTIFICATION, display.pdxgk_power_notification"
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/*PDXGK_POWER_NOTIFICATION"
 req.header: d3dkmthk.h

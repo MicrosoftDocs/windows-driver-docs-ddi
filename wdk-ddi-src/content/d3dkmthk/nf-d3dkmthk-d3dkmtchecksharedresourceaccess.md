@@ -6,7 +6,6 @@ old-location: display\d3dkmtchecksharedresourceaccess.htm
 ms.assetid: ca1861d3-a838-4b4a-9304-e75dcca04f0d
 ms.date: 05/10/2018
 ms.keywords: D3DKMTCheckSharedResourceAccess, D3DKMTCheckSharedResourceAccess callback function [Display Devices], OpenGL_Functions_b9ffd997-0bfe-47ad-a769-c2ed8148fe4b.xml, PFND3DKMT_CHECKSHAREDRESOURCEACCESS, PFND3DKMT_CHECKSHAREDRESOURCEACCESS callback, d3dkmthk/D3DKMTCheckSharedResourceAccess, display.d3dkmtchecksharedresourceaccess
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTCheckSharedResourceAccess"
 req.header: d3dkmthk.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 31b11f16-b9ae-44d0-a29c-696536cc66cb
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

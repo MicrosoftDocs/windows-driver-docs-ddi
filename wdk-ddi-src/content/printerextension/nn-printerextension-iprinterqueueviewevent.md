@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 23951787-C147-43A6-99D6-71AC037F6A43
 ms.date: 04/20/2018
 ms.keywords: IPrinterQueueViewEvent, IPrinterQueueViewEvent interface [Print Devices], IPrinterQueueViewEvent interface [Print Devices],described, print.iprinterqueueviewevent, printerextension/IPrinterQueueViewEvent
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrinterQueueViewEvent"
 req.header: printerextension.h

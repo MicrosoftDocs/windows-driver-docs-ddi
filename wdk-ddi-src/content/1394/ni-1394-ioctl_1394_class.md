@@ -7,7 +7,6 @@ tech.root: IEEE
 ms.assetid: 88a5f5ab-e85b-4bd6-a2f5-bbcdc8c4f30c
 ms.date: 02/15/2018
 ms.keywords: 1394/IOCTL_1394_CLASS, 1394irp_fa8ee811-14ee-44a0-9a9c-b53a421497d4.xml, IEEE.ioctl_1394_class, IOCTL_1394_CLASS, IOCTL_1394_CLASS control, IOCTL_1394_CLASS control code [Buses]
-ms.topic: ioctl
 f1_keywords:
  - "1394/IOCTL_1394_CLASS"
 req.header: 1394.h

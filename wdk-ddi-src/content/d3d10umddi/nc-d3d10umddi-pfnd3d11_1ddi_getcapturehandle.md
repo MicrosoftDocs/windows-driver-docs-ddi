@@ -6,7 +6,6 @@ old-location: display\getcapturehandle.htm
 ms.assetid: b1ca7cf0-fe63-452f-8360-fdba05875719
 ms.date: 05/10/2018
 ms.keywords: GetCaptureHandle, GetCaptureHandle callback function [Display Devices], PFND3D11_1DDI_GETCAPTUREHANDLE, PFND3D11_1DDI_GETCAPTUREHANDLE callback, d3d10umddi/GetCaptureHandle, display.getcapturehandle
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

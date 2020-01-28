@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4bdce35f-adce-4898-8ef5-011a5476065a
 ms.date: 05/10/2018
 ms.keywords: D3DKMDT_MONITOR_DESCRIPTOR, D3DKMDT_MONITOR_DESCRIPTOR structure [Display Devices], DmStructs_760a75c4-4db4-445e-a63b-7e77b6b69090.xml, _D3DKMDT_MONITOR_DESCRIPTOR, d3dkmdt/D3DKMDT_MONITOR_DESCRIPTOR, display.d3dkmdt_monitor_descriptor
-ms.topic: struct
 f1_keywords:
  - "d3dkmdt/D3DKMDT_MONITOR_DESCRIPTOR"
 req.header: d3dkmdt.h

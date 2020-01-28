@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: db7277d0-9671-4680-84d4-d3415ce3922f
 ms.date: 05/02/2018
 ms.keywords: "*PNET_BUFFER_HEADER, NET_BUFFER_HEADER, NET_BUFFER_HEADER union [Network Drivers Starting with Windows Vista], PNET_BUFFER_HEADER, PNET_BUFFER_HEADER union pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_HEADER, ndis/NET_BUFFER_HEADER, ndis/PNET_BUFFER_HEADER, ndis_netbuf_structures_ref_a19368c6-0bef-4fe6-be52-d76e0c6ea99d.xml, netvista.net_buffer_header"
-ms.topic: struct
 f1_keywords:
  - "ndis/NET_BUFFER_HEADER"
 req.header: ndis.h

@@ -6,7 +6,6 @@ old-location: display\d3dkmt_openadapterfromdevicename.htm
 ms.assetid: 4e633c7c-fd88-4b8f-9d29-2c7a3daa3d32
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_OPENADAPTERFROMDEVICENAME, D3DKMT_OPENADAPTERFROMDEVICENAME structure [Display Devices], OpenGL_Structs_f710fec6-a0f4-4b86-b4ba-5f8411deb490.xml, _D3DKMT_OPENADAPTERFROMDEVICENAME, d3dkmthk/D3DKMT_OPENADAPTERFROMDEVICENAME, display.d3dkmt_openadapterfromdevicename
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENADAPTERFROMDEVICENAME"
 req.header: d3dkmthk.h

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: f57fe6ac-87ad-4db8-a715-816885b87d68
 ms.date: 02/26/2018
 ms.keywords: DFMemoryObjectRef_c2bf3437-5c1e-44d6-97ab-6ede16f7bc53.xml, WdfMemoryAssignBuffer, WdfMemoryAssignBuffer method, kmdf.wdfmemoryassignbuffer, wdf.wdfmemoryassignbuffer, wdfmemory/WdfMemoryAssignBuffer
-ms.topic: function
 f1_keywords:
  - "wdfmemory/WdfMemoryAssignBuffer"
 req.header: wdfmemory.h

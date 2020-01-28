@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: be1bbb29-bb8c-4948-bebd-7c9dabb2dfd6
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
 f1_keywords:
  - "dispmprt/_DXGK_VIRTUALGPUPROFILE"
 ms.prod: windows-hardware

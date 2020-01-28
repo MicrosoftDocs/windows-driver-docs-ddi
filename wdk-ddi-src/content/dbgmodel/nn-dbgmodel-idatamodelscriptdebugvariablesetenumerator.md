@@ -4,7 +4,6 @@ title: IDataModelScriptDebugVariableSetEnumerator (dbgmodel.h)
 description: Enumerates a set of variables (arguments, parameters, locals, etc...)
 ms.assetid: f6d5d98e-0550-4348-9777-072a802d68a1
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugVariableSetEnumerator"
 req.header: dbgmodel.h

@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: EB44DE6F-6B88-4F6D-B9AC-3FF7A519C047
 ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_SET_PIPE_STATE, IOCTL_INTERNAL_USBFN_SET_PIPE_STATE control, IOCTL_INTERNAL_USBFN_SET_PIPE_STATE control code [Buses], buses.ioctl_internal_usbfn_set_pipe_state, usbfnioctl/IOCTL_INTERNAL_USBFN_SET_PIPE_STATE
-ms.topic: ioctl
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_SET_PIPE_STATE"
 req.header: usbfnioctl.h

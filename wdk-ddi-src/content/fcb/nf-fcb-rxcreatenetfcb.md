@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 8be20f25-d72d-4c4d-be05-abb38cdd492d
 ms.date: 04/16/2018
 ms.keywords: RxCreateNetFCB, RxCreateNetFcb, RxCreateNetFcb function [Installable File System Drivers], fcb/RxCreateNetFcb, ifsk.rxcreatenetfcb, rxref_d5f0cde4-daba-475d-9a63-b56047cc24e2.xml
-ms.topic: function
 f1_keywords:
  - "fcb/RxCreateNetFcb"
 req.header: fcb.h

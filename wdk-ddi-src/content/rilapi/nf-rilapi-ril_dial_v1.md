@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 8d4967fc-bcb7-4770-92a8-aac9ef13085b
 ms.date: 05/02/2018
 ms.keywords: RIL_Dial_V1, RIL_Dial_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_dial_v1, rilapi/RIL_Dial_V1
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_Dial_V1"
 req.header: rilapi.h

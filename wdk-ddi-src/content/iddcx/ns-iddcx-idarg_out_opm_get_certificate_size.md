@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 983e4bda-160d-4a3d-9a50-0ceabc70114f
 ms.date: 05/10/2018
 ms.keywords: IDARG_OUT_OPM_GET_CERTIFICATE_SIZE, IDARG_OUT_OPM_GET_CERTIFICATE_SIZE structure [Display Devices], display.idarg_out_opm_get_certificate_size, iddcx/IDARG_OUT_OPM_GET_CERTIFICATE_SIZE
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDARG_OUT_OPM_GET_CERTIFICATE_SIZE"
 req.header: iddcx.h

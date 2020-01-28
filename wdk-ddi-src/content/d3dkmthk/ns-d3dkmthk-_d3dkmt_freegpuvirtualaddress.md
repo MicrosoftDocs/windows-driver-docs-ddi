@@ -6,7 +6,6 @@ old-location: display\d3dkmt_freegpuvirtualaddress.htm
 ms.assetid: BB3DD49B-7DAB-48AC-BC63-595A184374AB
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS structure [Display Devices], _D3DKMT_FREEGPUVIRTUALADDRESS, d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS, display.d3dkmt_freegpuvirtualaddress
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS"
 req.header: d3dkmthk.h

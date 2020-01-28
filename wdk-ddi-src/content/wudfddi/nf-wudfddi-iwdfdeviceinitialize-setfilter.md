@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: a5f61a83-43db-4ad7-9b18-0cdf574ea546
 ms.date: 02/26/2018
 ms.keywords: IWDFDeviceInitialize interface,SetFilter method, IWDFDeviceInitialize.SetFilter, IWDFDeviceInitialize::SetFilter, SetFilter, SetFilter method, SetFilter method,IWDFDeviceInitialize interface, UMDFDeviceObjectRef_742df830-2e67-4f03-bdfb-77cef5bc21bf.xml, umdf.iwdfdeviceinitialize_setfilter, wdf.iwdfdeviceinitialize_setfilter, wudfddi/IWDFDeviceInitialize::SetFilter
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFDeviceInitialize.SetFilter"
 req.header: wudfddi.h

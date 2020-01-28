@@ -4,7 +4,6 @@ title: PFND3DKMT_GETMULTIPLANEOVERLAYCAPS (d3dkmthk.h)
 description: Pfnd3dkmtGetmultiplaneoverlaycaps retrieves multiplane overlay capabilities.
 ms.assetid: 1c060cf5-6129-4fd2-8bf9-74e4ceb037b6
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_GETMULTIPLANEOVERLAYCAPS"
 req.header: d3dkmthk.h

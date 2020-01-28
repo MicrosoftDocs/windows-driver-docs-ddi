@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 60638048-9009-4943-ba61-b724612852df
 ms.date: 02/26/2018
 ms.keywords: DFRegKeyObjectRef_9229cd7b-fb26-4e95-a5ee-5deb31f549f4.xml, WdfRegistryWdmGetHandle, WdfRegistryWdmGetHandle method, kmdf.wdfregistrywdmgethandle, wdf.wdfregistrywdmgethandle, wdfregistry/WdfRegistryWdmGetHandle
-ms.topic: function
 f1_keywords:
  - "wdfregistry/WdfRegistryWdmGetHandle"
 req.header: wdfregistry.h

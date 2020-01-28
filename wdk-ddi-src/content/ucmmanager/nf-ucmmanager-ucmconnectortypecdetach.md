@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: E89DC8B6-9379-4FE2-BF4C-897DA9DFA11C
 ms.date: 05/07/2018
 ms.keywords: UcmConnectorTypeCDetach, UcmConnectorTypeCDetach method [Buses], buses.ucmconnectortypecdetach, ucmmanager/UcmConnectorTypeCDetach
-ms.topic: function
 f1_keywords:
  - "ucmmanager/UcmConnectorTypeCDetach"
 req.header: ucmmanager.h

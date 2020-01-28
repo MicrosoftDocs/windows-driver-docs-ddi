@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: fc24e764-d584-4927-942f-3b8b4b83af79
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_f88abc20-f8b7-4399-85be-bd43674fe536.xml, FltStartFiltering, FltStartFiltering function [Installable File System Drivers], fltkernel/FltStartFiltering, ifsk.fltstartfiltering
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltStartFiltering"
 req.header: fltkernel.h

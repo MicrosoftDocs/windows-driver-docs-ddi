@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: C67EA467-D344-44D0-93E8-29D29A3A586B
 ms.date: 02/26/2018
 ms.keywords: IPnpCallbackHardwareInterrupt interface,OnD0ExitPreInterruptsDisabled method, IPnpCallbackHardwareInterrupt.OnD0ExitPreInterruptsDisabled, IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled, OnD0ExitPreInterruptsDisabled, OnD0ExitPreInterruptsDisabled method, OnD0ExitPreInterruptsDisabled method,IPnpCallbackHardwareInterrupt interface, umdf.ipnpcallbackhardwareinterrupt_ond0exitpreinterruptsdisabled, wdf.ipnpcallbackhardwareinterrupt_ond0exitpreinterruptsdisabled, wudfddi/IPnpCallbackHardwareInterrupt::OnD0ExitPreInterruptsDisabled
-ms.topic: method
 f1_keywords:
  - "wudfddi/IPnpCallbackHardwareInterrupt.OnD0ExitPreInterruptsDisabled"
 req.header: wudfddi.h

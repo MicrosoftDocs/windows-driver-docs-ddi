@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 829e96e7-7063-4de3-b13a-0b0d12ba1f44
 ms.date: 04/23/2018
 ms.keywords: KsFastMethodHandler, KsFastMethodHandler function [Streaming Media Devices], ks/KsFastMethodHandler, ksfunc_4c9fb7a6-5297-4b74-a865-14a774f728a5.xml, stream.ksfastmethodhandler
-ms.topic: function
 f1_keywords:
  - "ks/KsFastMethodHandler"
 req.header: ks.h

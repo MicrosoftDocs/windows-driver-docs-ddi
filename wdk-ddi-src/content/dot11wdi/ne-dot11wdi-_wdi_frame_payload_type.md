@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 28aef1bd-915a-4f05-a4b0-bec63ddfdfb5
 ms.date: 05/02/2018
 ms.keywords: WDI_FRAME_MSDU, WDI_FRAME_MSDU_FRAGMENT, WDI_FRAME_PAYLOAD_TYPE, WDI_FRAME_PAYLOAD_TYPE enumeration [Network Drivers Starting with Windows Vista], _WDI_FRAME_PAYLOAD_TYPE, dot11wdi/WDI_FRAME_MSDU, dot11wdi/WDI_FRAME_MSDU_FRAGMENT, dot11wdi/WDI_FRAME_PAYLOAD_TYPE, netvista.wdi_frame_payload_type, netvista.wifi_frame_payload_type
-ms.topic: enum
 f1_keywords:
  - "dot11wdi/WDI_FRAME_PAYLOAD_TYPE"
 req.header: dot11wdi.h

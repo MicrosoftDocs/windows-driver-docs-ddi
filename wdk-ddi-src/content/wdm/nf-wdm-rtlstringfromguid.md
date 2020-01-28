@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 89a3ca92-7c8a-40e3-a818-0127af6f2e91
 ms.date: 04/30/2018
 ms.keywords: RtlStringFromGUID, RtlStringFromGUID routine [Kernel-Mode Driver Architecture], k109_8a3ac592-7ade-48fc-9536-d8a6c84fb033.xml, kernel.rtlstringfromguid, wdm/RtlStringFromGUID
-ms.topic: function
 f1_keywords:
  - "wdm/RtlStringFromGUID"
 req.header: wdm.h
