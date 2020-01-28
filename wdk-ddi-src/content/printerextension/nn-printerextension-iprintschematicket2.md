@@ -44,27 +44,12 @@ req.typenames:
 
 # IPrintSchemaTicket2 interface
 
-
 ## -description
 
-
-The  <b>IPrintSchemaTicket2</b> interface is an extension to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a> interface, which provides wrapper methods over a print ticket document.
-
+The **IPrintSchemaTicket2** interface is an extension to the [IPrintSchemaTicket](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket) interface, which provides wrapper methods over a print ticket document.
 
 ## -inheritance
 
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintSchemaTicket2</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>. <b>IPrintSchemaTicket2</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket">IPrintSchemaTicket</a>
- 
-
- 
-
+[IPrintSchemaTicket](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschematicket)
