@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 9677dbd7-4b6f-49a9-ac38-fdcbaeb3a6f8
 ms.date: 04/30/2018
 ms.keywords: KeSetHardwareCounterConfiguration, KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, kernel.kesethardwarecounterconfiguration, ntddk/KeSetHardwareCounterConfiguration
-ms.topic: function
 f1_keywords:
  - "ntddk/KeSetHardwareCounterConfiguration"
 req.header: ntddk.h

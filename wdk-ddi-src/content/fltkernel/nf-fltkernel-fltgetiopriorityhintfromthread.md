@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: e79f7cf2-8d3e-42b9-810b-068afa60fb6e
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_edc8f8c5-8be8-45a7-9936-c2146e5fd4b6.xml, FltGetIoPriorityHintFromThread, FltGetIoPriorityHintFromThread routine [Installable File System Drivers], fltkernel/FltGetIoPriorityHintFromThread, ifsk.fltgetiopriorityhintfromthread
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltGetIoPriorityHintFromThread"
 req.header: fltkernel.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 28974c00-9225-4458-a198-beb4538e3a45
 ms.date: 05/10/2018
 ms.keywords: IDDCX_MOVEREGION, IDDCX_MOVEREGION structure [Display Devices], display.iddcx_moveregion, iddcx/IDDCX_MOVEREGION
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDDCX_MOVEREGION"
 req.header: iddcx.h

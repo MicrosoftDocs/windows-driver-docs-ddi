@@ -4,7 +4,6 @@ title: _FAULT_INFORMATION_ARCH (wdm.h)
 description: Defines values for type of system architecture.
 ms.assetid: cee58e78-b1d7-471f-80e4-c1aa4e5189a5
 ms.date: 10/19/2018
-ms.topic: enum
 f1_keywords:
  - "wdm/_FAULT_INFORMATION_ARCH"
 ms.keywords: _FAULT_INFORMATION_ARCH, *PFAULT_INFORMATION_ARCH, FAULT_INFORMATION_ARCH, 

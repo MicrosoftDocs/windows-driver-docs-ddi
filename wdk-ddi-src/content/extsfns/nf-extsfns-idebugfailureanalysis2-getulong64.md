@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: C00C983A-92BA-4E4A-A5AB-918121D14B64
 ms.date: 05/03/2018
 ms.keywords: GetUlong64, GetUlong64 method [Windows Debugging], GetUlong64 method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetUlong64 method, IDebugFailureAnalysis2.GetUlong64, IDebugFailureAnalysis2::GetUlong64, debugger.idebugfailureanalysis2_getulong64, extsfns/IDebugFailureAnalysis2::GetUlong64
-ms.topic: method
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.GetUlong"
 req.header: extsfns.h

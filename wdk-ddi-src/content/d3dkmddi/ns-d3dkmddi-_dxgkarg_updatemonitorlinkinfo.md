@@ -4,7 +4,6 @@ title: _DXGKARG_UPDATEMONITORLINKINFO (d3dkmddi.h)
 description: Contains arguments for the DXGKDDI_UPDATEMONITORLINKINFO callback function.
 ms.assetid: a4a7f01c-ff10-4ce7-b666-0229e0e8bf85
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/_DXGKARG_UPDATEMONITORLINKINFO"
 ms.keywords: _DXGKARG_UPDATEMONITORLINKINFO, DXGKARG_UPDATEMONITORLINKINFO, *INOUT_PDXGKARG_UPDATEMONITORLINKINFO

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 6CF651D7-7F5F-4622-8FDF-8BFF4E4A701D
 ms.date: 05/03/2018
 ms.keywords: DebugExtensionCanUnload, DebugExtensionCanUnload callback function [Windows Debugging], PDEBUG_EXTENSION_CANUNLOAD, PDEBUG_EXTENSION_CANUNLOAD callback, dbgeng/DebugExtensionCanUnload, debugger.debugextensioncanunload
-ms.topic: callback
 f1_keywords:
  - "dbgeng/DebugExtensionCanUnload"
 req.header: dbgeng.h

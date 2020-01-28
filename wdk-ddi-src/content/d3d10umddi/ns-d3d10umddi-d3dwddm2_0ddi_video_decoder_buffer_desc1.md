@@ -6,7 +6,6 @@ old-location: display\d3dwddm2_0ddi_video_decoder_buffer_desc1.htm
 ms.assetid: BF57E573-852E-4784-8E76-B5E7D86A57EB
 ms.date: 05/10/2018
 ms.keywords: D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, display.d3dwddm2_0ddi_video_decoder_buffer_desc1
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1"
 req.header: d3d10umddi.h

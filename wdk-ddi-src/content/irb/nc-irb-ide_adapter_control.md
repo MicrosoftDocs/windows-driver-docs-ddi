@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 50125022-7450-4582-b98d-1d597e4e96d4
 ms.date: 03/29/2018
 ms.keywords: AtaAdapterControl, AtaAdapterControl routine [Storage Devices], IDE_ADAPTER_CONTROL, atartns_6460976d-3415-4cda-b128-f74baefd075f.xml, irb/AtaAdapterControl, storage.ataadaptercontrol
-ms.topic: callback
 f1_keywords:
  - "irb/AtaAdapterControl"
 req.header: irb.h

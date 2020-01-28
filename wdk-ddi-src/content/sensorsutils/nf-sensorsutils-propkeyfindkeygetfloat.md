@@ -5,7 +5,6 @@ description: This routine gets a single precision floating point value from a PR
 ms.assetid: ce0f82e3-6537-4423-b7d5-7c440657d245
 ms.date: 08/08/2018
 tech.root: sensors
-ms.topic: function
 f1_keywords:
  - "sensorsutils/PropKeyFindKeyGetFloat"
 ms.keywords: PropKeyFindKeyGetFloat

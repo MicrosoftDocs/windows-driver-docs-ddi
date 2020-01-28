@@ -6,7 +6,6 @@ old-location: display\d3d11_1ddi_authenticated_query_unrestricted_protected_shar
 ms.assetid: ba58942c-f491-423e-805a-375165117a30
 ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT, D3D11_1DDI_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT, display.d3d11_1ddi_authenticated_query_unrestricted_protected_shared_resource_count_output
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_UNRESTRICTED_PROTECTED_SHARED_RESOURCE_COUNT_OUTPUT"
 req.header: d3d10umddi.h

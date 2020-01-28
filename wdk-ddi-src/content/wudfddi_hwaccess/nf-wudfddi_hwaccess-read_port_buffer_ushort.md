@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 1707617F-3EFC-41AA-BE06-72CA254EEBDA
 ms.date: 02/26/2018
 ms.keywords: READ_PORT_BUFFER_USHORT, READ_PORT_BUFFER_USHORT function, umdf.read_port_buffer_ushort, wdf.read_port_buffer_ushort, wudfddi_hwaccess/READ_PORT_BUFFER_USHORT
-ms.topic: function
 f1_keywords:
  - "wudfddi_hwaccess/READ_PORT_BUFFER_USHORT"
 req.header: wudfddi_hwaccess.h

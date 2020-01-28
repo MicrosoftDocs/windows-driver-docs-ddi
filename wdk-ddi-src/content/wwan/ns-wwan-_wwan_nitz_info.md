@@ -5,7 +5,6 @@ description: The WWAN_NITZ_INFO structure describes the current network time and
 tech.root: netvista
 ms.assetid: 55764A9D-388B-4ACE-9CC3-C621D5ADFBD2
 ms.date: 04/11/2019
-ms.topic: struct
 f1_keywords:
  - "wwan/_WWAN_NITZ_INFO"
 ms.keywords: _WWAN_NITZ_INFO, WWAN_NITZ_INFO, *PWWAN_NITZ_INFO, 

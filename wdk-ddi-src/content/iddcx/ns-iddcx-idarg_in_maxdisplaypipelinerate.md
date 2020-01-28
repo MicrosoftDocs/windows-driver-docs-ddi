@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 035c3d04-56e8-48ec-91d4-6d6a1a5037c4
 ms.date: 05/10/2018
 ms.keywords: IDARG_IN_MAXDISPLAYPIPELINERATE, IDARG_IN_MAXDISPLAYPIPELINERATE structure [Display Devices], display.idarg_in_maxdisplaypipelinerate, iddcx/IDARG_IN_MAXDISPLAYPIPELINERATE
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDARG_IN_MAXDISPLAYPIPELINERATE"
 req.header: iddcx.h

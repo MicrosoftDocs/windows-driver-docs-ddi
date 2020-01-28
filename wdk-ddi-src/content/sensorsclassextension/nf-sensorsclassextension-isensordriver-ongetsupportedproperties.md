@@ -7,7 +7,6 @@ tech.root: sensors
 ms.assetid: 8712fe85-0af1-4552-9351-aca4fe5430d1
 ms.date: 05/03/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedProperties method, ISensorDriver.OnGetSupportedProperties, ISensorDriver::OnGetSupportedProperties, OnGetSupportedProperties, OnGetSupportedProperties method [Sensor Devices], OnGetSupportedProperties method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupportedproperties, sensorsclassextension/ISensorDriver::OnGetSupportedProperties
-ms.topic: method
 f1_keywords:
  - "sensorsclassextension/OnGetSupportedProperties"
 req.header: sensorsclassextension.h

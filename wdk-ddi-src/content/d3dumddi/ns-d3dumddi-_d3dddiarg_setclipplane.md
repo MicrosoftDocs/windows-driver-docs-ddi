@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 94e942a4-de66-47a3-89bf-fbec2a408775
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_SETCLIPPLANE, D3DDDIARG_SETCLIPPLANE structure [Display Devices], UMDisplayDriver_param_Structs_3371265a-3cb5-4aee-b019-14ef454e9d6d.xml, _D3DDDIARG_SETCLIPPLANE, d3dumddi/D3DDDIARG_SETCLIPPLANE, display.d3dddiarg_setclipplane
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETCLIPPLANE"
 req.header: d3dumddi.h

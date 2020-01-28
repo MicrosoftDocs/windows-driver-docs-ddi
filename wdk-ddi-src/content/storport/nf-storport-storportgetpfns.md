@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: F9E69501-4889-4A1B-8942-C6D4406474DE
 ms.date: 03/29/2018
 ms.keywords: StorPortGetPfns, StorPortGetPfns routine [Storage Devices], storage.storportgetpfns, storport/StorPortGetPfns
-ms.topic: function
 f1_keywords:
  - "storport/StorPortGetPfns"
 req.header: storport.h

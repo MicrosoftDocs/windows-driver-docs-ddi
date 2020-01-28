@@ -4,7 +4,6 @@ title: IModelObject::SetKey (dbgmodel.h)
 description: The SetKey method is the method a client will turn to in order to create a key on an object (and potentially associate metadata with the created key). 
 ms.assetid: 068f6bfc-403c-4f0c-a6ce-f782da26b0f4
 ms.date: 08/13/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IModelObject.SetKey"
 ms.keywords: IModelObject::SetKey, SetKey, IModelObject.SetKey, IModelObject::SetKey, IModelObject.SetKey

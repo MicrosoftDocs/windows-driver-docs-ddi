@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: aba1638f-1ab0-4953-afe9-1f539e5bd967
 ms.date: 04/16/2018
 ms.keywords: "*PVPB, PVPB, PVPB structure pointer [Installable File System Drivers], VPB, VPB structure [Installable File System Drivers], VPB_DIRECT_WRITES_ALLOWED, VPB_LOCKED, VPB_MOUNTED, VPB_PERSISTENT, VPB_RAW_MOUNT, VPB_REMOVE_PENDING, _VPB, ifsk.vpb, wdm/PVPB, wdm/VPB"
-ms.topic: struct
 f1_keywords:
  - "wdm/VPB"
 req.header: wdm.h

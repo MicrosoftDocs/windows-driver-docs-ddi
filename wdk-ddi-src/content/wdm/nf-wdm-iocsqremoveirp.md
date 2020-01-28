@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 72a6327c-01b2-479c-a2eb-f58180193d50
 ms.date: 04/30/2018
 ms.keywords: IoCsqRemoveIrp, IoCsqRemoveIrp routine [Kernel-Mode Driver Architecture], k104_9a940115-fcbd-4e46-b7a5-10dc7fad7bda.xml, kernel.iocsqremoveirp, wdm/IoCsqRemoveIrp
-ms.topic: function
 f1_keywords:
  - "wdm/IoCsqRemoveIrp"
 req.header: wdm.h

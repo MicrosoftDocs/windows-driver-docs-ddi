@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: fe7c8a20-dadb-4c8d-b208-8fbbf8c719a6
 ms.date: 04/30/2018
 ms.keywords: WRITE_PORT_ULONG, WRITE_PORT_ULONG routine [Kernel-Mode Driver Architecture], k103_3cc5c915-f77f-4cec-af7c-bee345e2137a.xml, kernel.write_port_ulong, wdm/WRITE_PORT_ULONG
-ms.topic: function
 f1_keywords:
  - "miniport/WRITE_PORT_ULONG"
 req.header: miniport.h

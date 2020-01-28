@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: b08767f9-6b2d-4930-bd02-ebc89f2bdb7d
 ms.date: 05/02/2018
 ms.keywords: "*LPRILSENDDTMFPARAMS, RILSENDDTMFPARAMS, RILSENDDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsenddtmfparams, ntddrilapitypes/RILSENDDTMFPARAMS"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILSENDDTMFPARAMS"
 req.header: ntddrilapitypes.h

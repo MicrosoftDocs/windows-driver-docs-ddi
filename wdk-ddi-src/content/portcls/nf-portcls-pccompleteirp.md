@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: fa0b36bf-0628-4136-9ca7-1d20823969ff
 ms.date: 05/08/2018
 ms.keywords: PcCompleteIrp, PcCompleteIrp function [Audio Devices], audio.pccompleteirp, audpc-routines_f61145f8-9e55-4b2a-a3aa-37f7be4f4df3.xml, portcls/PcCompleteIrp
-ms.topic: function
 f1_keywords:
  - "portcls/PcCompleteIrp"
 req.header: portcls.h

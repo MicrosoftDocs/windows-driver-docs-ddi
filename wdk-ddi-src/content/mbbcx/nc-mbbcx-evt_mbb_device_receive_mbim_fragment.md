@@ -5,7 +5,6 @@ description: A client driver's EvtMbbDeviceReceiveMbimFragment event callback fu
 tech.root: netvista
 ms.assetid: aaf0e1ca-600d-4912-93ae-10dc6d04dd7e
 ms.date: 07/02/2018
-ms.topic: callback
 f1_keywords:
  - "mbbcx/EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT"
 req.header: mbbcx.h

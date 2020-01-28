@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: F7EC4309-1274-4DA1-B006-A716627010F6
 ms.date: 04/20/2018
 ms.keywords: IPrintCoreHelperUni2, IPrintCoreHelperUni2 interface [Print Devices], IPrintCoreHelperUni2 interface [Print Devices],described, prcomoem/IPrintCoreHelperUni2, print.iprintcorehelperuni2_interface
-ms.topic: interface
 f1_keywords:
  - "prcomoem/IPrintCoreHelperUni2"
 req.header: prcomoem.h

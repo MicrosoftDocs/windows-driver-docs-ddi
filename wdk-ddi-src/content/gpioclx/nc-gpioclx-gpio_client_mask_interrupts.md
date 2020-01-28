@@ -7,7 +7,6 @@ tech.root: GPIO
 ms.assetid: 0E0480BA-0F9D-4AD4-8FEC-35B3757494B9
 ms.date: 02/15/2018
 ms.keywords: CLIENT_MaskInterrupts, CLIENT_MaskInterrupts callback, CLIENT_MaskInterrupts callback function [Parallel Ports], GPIO.client_maskinterrupts, GPIO_CLIENT_MASK_INTERRUPTS, gpioclx/CLIENT_MaskInterrupts
-ms.topic: callback
 f1_keywords:
  - "gpioclx/CLIENT_MaskInterrupts"
 req.header: gpioclx.h

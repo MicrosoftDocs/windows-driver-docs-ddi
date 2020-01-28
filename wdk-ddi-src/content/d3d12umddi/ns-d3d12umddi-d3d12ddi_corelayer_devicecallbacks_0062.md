@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: f518bd61-c76b-4b46-94d5-6d1f2e664ce8
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_CORELAYER_DEVICECALLBACKS_0062"
 ms.keywords: D3D12DDI_CORELAYER_DEVICECALLBACKS_0062, D3D12DDI_CORELAYER_DEVICECALLBACKS_0062, 

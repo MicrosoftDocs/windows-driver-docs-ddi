@@ -6,7 +6,6 @@ old-location: display\dxgk_vidmmcaps.htm
 ms.assetid: c3df50a0-2388-4760-b6e2-ef6af650d0e2
 ms.date: 05/10/2018
 ms.keywords: DXGK_VIDMMCAPS, DXGK_VIDMMCAPS structure [Display Devices], DmStructs_0ec3e7bb-c14e-41b8-a148-7f77153972e8.xml, _DXGK_VIDMMCAPS, d3dkmddi/DXGK_VIDMMCAPS, display.dxgk_vidmmcaps
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_VIDMMCAPS"
 req.header: d3dkmddi.h

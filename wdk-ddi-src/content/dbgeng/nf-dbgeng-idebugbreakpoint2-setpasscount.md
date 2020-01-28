@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: a95f7a8d-7e0d-4971-9683-f83600030337
 ms.date: 05/03/2018
 ms.keywords: ComOther_8398fd11-1821-4adb-b8be-4e207b616169.xml, IDebugBreakpoint interface [Windows Debugging],SetPassCount method, IDebugBreakpoint2 interface [Windows Debugging],SetPassCount method, IDebugBreakpoint2.SetPassCount, IDebugBreakpoint2::SetPassCount, IDebugBreakpoint::SetPassCount, SetPassCount, SetPassCount method [Windows Debugging], SetPassCount method [Windows Debugging],IDebugBreakpoint interface, SetPassCount method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetPassCount, dbgeng/IDebugBreakpoint::SetPassCount, debugger.setpasscount
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.SetPassCount"
 req.header: dbgeng.h

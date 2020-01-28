@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 0C1CEDD8-EA78-4188-AD05-99608B400C84
 ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SystemDmaReceiveGetDmaEnabler, SerCx2SystemDmaReceiveGetDmaEnabler, SerCx2SystemDmaReceiveGetDmaEnabler method [Serial Ports], serports.sercx2systemdmareceivegetdmaenabler
-ms.topic: function
 f1_keywords:
  - "sercx/SerCx2SystemDmaReceiveGetDmaEnabler"
 req.header: sercx.h

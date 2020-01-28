@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 2bcfa3b3-8a83-460b-9b44-1188fceb3849
 ms.date: 04/16/2018
 ms.keywords: FsRtlIsAnsiCharacterLegalNtfsStream, FsRtlIsAnsiCharacterLegalNtfsStream function [Installable File System Drivers], fsrtlref_0dc6f0d3-6f38-4861-89d6-15cab783a959.xml, ifsk.fsrtlisansicharacterlegalntfsstream, ntifs/FsRtlIsAnsiCharacterLegalNtfsStream
-ms.topic: macro
 f1_keywords:
  - "ntifs/FsRtlIsAnsiCharacterLegalNtfsStream"
 req.header: ntifs.h

@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 97586B8D-D070-4DF1-AECE-50EB4D28414B
 ms.date: 04/20/2018
 ms.keywords: IPrinterScriptablePropertyBag2, IPrinterScriptablePropertyBag2 interface [Print Devices], IPrinterScriptablePropertyBag2 interface [Print Devices],described, print.iprinterscriptablepropertybag2, printerextension/IPrinterScriptablePropertyBag2
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag2"
 req.header: printerextension.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 5E11C1BB-7E9E-4D9C-A15A-B9CCB29622C3
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_FREEGPUVIRTUALADDRESS, D3DDDICB_FREEGPUVIRTUALADDRESS structure [Display Devices], _D3DDDICB_FREEGPUVIRTUALADDRESS, d3dumddi/D3DDDICB_FREEGPUVIRTUALADDRESS, display.d3dddicb_freegpuvirtualaddress
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDICB_FREEGPUVIRTUALADDRESS"
 req.header: d3dumddi.h

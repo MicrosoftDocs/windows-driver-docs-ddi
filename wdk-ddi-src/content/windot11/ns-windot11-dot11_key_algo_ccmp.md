@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: cf89ee80-d19d-4d97-b71f-8ebee4b96562
 ms.date: 02/16/2018
 ms.keywords: "*PDOT11_KEY_ALGO_CCMP, DOT11_KEY_ALGO_CCMP, DOT11_KEY_ALGO_CCMP structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_37999ce3-5aae-4c91-80f0-f47a7182a963.xml, PDOT11_KEY_ALGO_CCMP, PDOT11_KEY_ALGO_CCMP structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_key_algo_ccmp, windot11/DOT11_KEY_ALGO_CCMP, windot11/PDOT11_KEY_ALGO_CCMP"
-ms.topic: struct
 f1_keywords:
  - "windot11/DOT11_KEY_ALGO_CCMP"
 req.header: windot11.h

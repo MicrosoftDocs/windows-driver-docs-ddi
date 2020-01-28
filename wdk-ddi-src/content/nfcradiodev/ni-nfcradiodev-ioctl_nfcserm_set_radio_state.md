@@ -7,7 +7,6 @@ tech.root: nfpdrivers
 ms.assetid: 721AE7FE-927C-4EBA-B33D-C5A5A986951C
 ms.date: 02/15/2018
 ms.keywords: IOCTL_NFCSERM_SET_RADIO_STATE, IOCTL_NFCSERM_SET_RADIO_STATE control, IOCTL_NFCSERM_SET_RADIO_STATE control code [Near-Field Proximity Drivers], nfcradiodev/IOCTL_NFCSERM_SET_RADIO_STATE, nfpdrivers.ioctl_nfcserm_set_radio_state
-ms.topic: ioctl
 f1_keywords:
  - "nfcradiodev/IOCTL_NFCSERM_SET_RADIO_STATE"
 req.header: nfcradiodev.h

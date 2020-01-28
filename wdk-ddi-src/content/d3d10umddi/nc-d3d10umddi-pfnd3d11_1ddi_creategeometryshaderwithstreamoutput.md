@@ -6,7 +6,6 @@ old-location: display\creategeometryshaderwithstreamoutput_d3d11_1_.htm
 ms.assetid: 1d06ef38-4eb9-4129-b409-74bbd1951f92
 ms.date: 04/16/2018
 ms.keywords: CreateGeometryShaderWithStreamOutput(D3D11_1), CreateGeometryShaderWithStreamOutput(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, PFND3D11_1DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT callback, d3d10umddi/CreateGeometryShaderWithStreamOutput(D3D11_1), display.creategeometryshaderwithstreamoutput_d3d11_1_, display.pfncreategeometryshaderwithstreamoutput
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/CreateGeometryShaderWithStreamOutput(D3D11_1)"
 req.header: d3d10umddi.h

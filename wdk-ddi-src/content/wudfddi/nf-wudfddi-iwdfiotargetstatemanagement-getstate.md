@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: f915294f-457f-4913-b4b0-e94e1806a06d
 ms.date: 02/26/2018
 ms.keywords: GetState, GetState method, GetState method,IWDFIoTargetStateManagement interface, IWDFIoTargetStateManagement interface,GetState method, IWDFIoTargetStateManagement.GetState, IWDFIoTargetStateManagement::GetState, UMDFIoTargetObjectRef_0a52ff77-9947-49a1-958a-ffe6e61ec169.xml, umdf.iwdfiotargetstatemanagement_getstate, wdf.iwdfiotargetstatemanagement_getstate, wudfddi/IWDFIoTargetStateManagement::GetState
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoTargetStateManagement.GetState"
 req.header: wudfddi.h

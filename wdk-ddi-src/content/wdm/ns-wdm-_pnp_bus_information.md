@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 68372562-9af0-431d-90ae-c82678d9103e
 ms.date: 04/30/2018
 ms.keywords: "*PPNP_BUS_INFORMATION, PNP_BUS_INFORMATION, PNP_BUS_INFORMATION structure [Kernel-Mode Driver Architecture], PPNP_BUS_INFORMATION, PPNP_BUS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PNP_BUS_INFORMATION, kernel.pnp_bus_information, kstruct_c_a62e40f6-081a-4d2e-859b-28c98c2216f3.xml, wdm/PNP_BUS_INFORMATION, wdm/PPNP_BUS_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "wdm/PNP_BUS_INFORMATION"
 req.header: wdm.h

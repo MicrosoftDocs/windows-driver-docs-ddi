@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 10AC7347-6C6B-4A37-9298-B773ADCB3FDA
 ms.date: 04/23/2018
 ms.keywords: KSIRP_REMOVAL_OPERATION, KSIRP_REMOVAL_OPERATION enumeration [Streaming Media Devices], KsAcquireAndRemove, KsAcquireAndRemoveOnlySingleItem, KsAcquireOnly, KsAcquireOnlySingleItem, ks/KSIRP_REMOVAL_OPERATION, ks/KsAcquireAndRemove, ks/KsAcquireAndRemoveOnlySingleItem, ks/KsAcquireOnly, ks/KsAcquireOnlySingleItem, stream.ksirp_removal_operation
-ms.topic: enum
 f1_keywords:
  - "ks/KSIRP_REMOVAL_OPERATION"
 req.header: ks.h

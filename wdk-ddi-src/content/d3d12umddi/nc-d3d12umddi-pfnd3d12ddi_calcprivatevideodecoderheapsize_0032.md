@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_calcprivatevideodecoderheapsize_0032_.htm
 ms.assetid: BEC5D467-87B1-4AED-9DB8-A3D94A373464
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0032, PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0032  entry, PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0032 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0032, display.pfnd3d12ddi_calcprivatevideodecoderheapsize_0032_
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0032"
 req.header: d3d12umddi.h

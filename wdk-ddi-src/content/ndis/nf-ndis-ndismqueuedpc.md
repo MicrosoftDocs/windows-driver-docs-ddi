@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 203be18a-b3c5-420b-bcd1-1134beb1c8bd
 ms.date: 05/02/2018
 ms.keywords: NdisMQueueDpc, NdisMQueueDpc function [Network Drivers Starting with Windows Vista], ndis/NdisMQueueDpc, ndis_interrupts_functions_ref_a4b04210-b671-4ab3-8b5b-989bed907aed.xml, netvista.ndismqueuedpc
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMQueueDpc"
 req.header: ndis.h

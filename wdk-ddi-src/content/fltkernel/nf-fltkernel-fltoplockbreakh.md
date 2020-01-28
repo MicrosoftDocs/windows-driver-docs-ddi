@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 1341c0c6-f943-4f94-8535-8b6cc7b5c27e
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_55fd17fd-a64a-4837-a000-0d51685e5a18.xml, FltOplockBreakH, FltOplockBreakH routine [Installable File System Drivers], fltkernel/FltOplockBreakH, ifsk.fltoplockbreakh
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltOplockBreakH"
 req.header: fltkernel.h

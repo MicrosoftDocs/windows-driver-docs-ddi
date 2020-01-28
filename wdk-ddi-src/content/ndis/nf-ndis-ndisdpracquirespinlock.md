@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 2e21d2f8-467e-43d3-8261-2373a8b8daa4
 ms.date: 05/02/2018
 ms.keywords: NdisDprAcquireSpinLock, NdisDprAcquireSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisDprAcquireSpinLock, ndis_spin_lock_ref_c954c605-2544-4911-8ebd-ba0464228437.xml, netvista.ndisdpracquirespinlock
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisDprAcquireSpinLock"
 req.header: ndis.h

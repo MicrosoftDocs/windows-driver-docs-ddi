@@ -7,7 +7,6 @@ tech.root: nfpdrivers
 ms.assetid: D0190BA1-196D-4F8B-A367-80272F094B6B
 ms.date: 02/15/2018
 ms.keywords: NfcCxSetRfDiscoveryConfig, NfcCxSetRfDiscoveryConfig method [Near-Field Proximity Drivers], nfccx/NfcCxSetRfDiscoveryConfig, nfpdrivers._nfccxsetrfdiscoveryconfig
-ms.topic: function
 f1_keywords:
  - "nfccx/NfcCxSetRfDiscoveryConfig"
 req.header: nfccx.h

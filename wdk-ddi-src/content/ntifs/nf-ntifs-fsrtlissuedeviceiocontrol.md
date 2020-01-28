@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 3BB31389-EB1B-4443-9FCF-70B420D71126
 ms.date: 04/16/2018
 ms.keywords: FsRtlIssueDeviceIoControl, FsRtlIssueDeviceIoControl routine [Installable File System Drivers], ifsk.fsrtlissuedeviceiocontrol, ntifs/FsRtlIssueDeviceIoControl
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlIssueDeviceIoControl"
 req.header: ntifs.h

@@ -5,7 +5,6 @@ description: The WWAN_UICC_ACCESS_BINARY structure describes information about a
 tech.root: netvista
 ms.assetid: D22866FC-A344-4D8B-B4C4-A72DF90F1505
 ms.date: 04/10/2019
-ms.topic: struct
 f1_keywords:
  - "wwan/_WWAN_UICC_ACCESS_BINARY"
 ms.keywords: _WWAN_UICC_ACCESS_BINARY, WWAN_UICC_ACCESS_BINARY, *PWWAN_UICC_ACCESS_BINARY, 

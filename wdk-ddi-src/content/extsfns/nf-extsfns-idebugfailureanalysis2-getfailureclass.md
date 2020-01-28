@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 4840F881-E3CB-4C89-AE2D-88610790C221
 ms.date: 05/03/2018
 ms.keywords: GetFailureClass, GetFailureClass method [Windows Debugging], GetFailureClass method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureClass method, IDebugFailureAnalysis2.GetFailureClass, IDebugFailureAnalysis2::GetFailureClass, debugger.idebugfailureanalysis2_getfailureclass, extsfns/IDebugFailureAnalysis2::GetFailureClass
-ms.topic: method
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.GetFailureClass"
 req.header: extsfns.h

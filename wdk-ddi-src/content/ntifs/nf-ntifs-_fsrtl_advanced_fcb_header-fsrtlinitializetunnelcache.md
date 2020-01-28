@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: c499c11f-1de5-4c7f-aa26-62d2221c35bd
 ms.date: 04/16/2018
 ms.keywords: FsRtlInitializeTunnelCache, FsRtlInitializeTunnelCache routine [Installable File System Drivers], fsrtlref_33e2bd32-4b53-4edc-8e61-7a0ffbab327a.xml, ifsk.fsrtlinitializetunnelcache, ntifs/FsRtlInitializeTunnelCache
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlInitializeTunnelCache"
 req.header: ntifs.h

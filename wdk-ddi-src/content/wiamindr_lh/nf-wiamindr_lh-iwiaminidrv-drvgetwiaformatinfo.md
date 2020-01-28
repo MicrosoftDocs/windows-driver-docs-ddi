@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: f0b7d982-735f-489c-b9f8-81a287f6722a
 ms.date: 05/03/2018
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvGetWiaFormatInfo method, IWiaMiniDrv.drvGetWiaFormatInfo, IWiaMiniDrv::drvGetWiaFormatInfo, MiniDrv_6c0cb527-6884-4b7d-a7cc-0e09c1774b7f.xml, drvGetWiaFormatInfo, drvGetWiaFormatInfo method [Imaging Devices], drvGetWiaFormatInfo method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvgetwiaformatinfo, wiamindr_lh/IWiaMiniDrv::drvGetWiaFormatInfo
-ms.topic: method
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv.drvGetWiaFormatInfo"
 req.header: wiamindr_lh.h

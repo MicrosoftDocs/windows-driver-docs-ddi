@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 9819567c-1c79-440c-9bac-f81f23df29ae
 ms.date: 04/30/2018
 ms.keywords: KeRemoveByKeyDeviceQueue, KeRemoveByKeyDeviceQueue routine [Kernel-Mode Driver Architecture], k105_7ceac4c8-26cc-4dfc-86fa-937d1c63d11b.xml, kernel.keremovebykeydevicequeue, wdm/KeRemoveByKeyDeviceQueue
-ms.topic: function
 f1_keywords:
  - "wdm/KeRemoveByKeyDeviceQueue"
 req.header: wdm.h

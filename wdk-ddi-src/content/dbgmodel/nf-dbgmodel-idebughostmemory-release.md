@@ -4,7 +4,6 @@ title: IDebugHostMemory::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: f88e3c4b-8375-4e28-9e6e-8980b391237b
 ms.date: 09/18/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDebugHostMemory.Release"
 ms.keywords: IDebugHostMemory::Release, Release, IDebugHostMemory.Release, IDebugHostMemory::Release, IDebugHostMemory.Release

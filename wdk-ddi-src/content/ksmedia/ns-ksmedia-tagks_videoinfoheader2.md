@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 4eb909fe-7ba2-4208-b713-54252022a5cf
 ms.date: 04/23/2018
 ms.keywords: "*PKS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2, KS_VIDEOINFOHEADER2 structure [Streaming Media Devices], PKS_VIDEOINFOHEADER2, PKS_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFOHEADER2, ksmedia/PKS_VIDEOINFOHEADER2, stream.ks_videoinfoheader2, tagKS_VIDEOINFOHEADER2, vidcapstruct_c789f606-9b19-42b0-8492-3b945141c274.xml"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KS_VIDEOINFOHEADER2"
 req.header: ksmedia.h

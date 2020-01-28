@@ -5,7 +5,6 @@ description: The NdisSetNblFlag macro sets a flag in a NET_BUFFER_LIST structure
 tech.root: netvista
 ms.assetid: fb399afc-ff20-43aa-9c9c-7be525e61d1f
 ms.date: 04/16/2018
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisSetNblFlag"
 ms.keywords: NdisSetNblFlag

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 19467f90-945d-46ac-a800-300e1d490ef0
 ms.date: 04/30/2018
 ms.keywords: DrvrRtns_55d37b62-e72b-4aa3-b590-e9598ead0b46.xml, IO_WORKITEM_ROUTINE, WorkItem, WorkItem routine [Kernel-Mode Driver Architecture], kernel.workitem, wdm/WorkItem
-ms.topic: callback
 f1_keywords:
  - "wdm/WorkItem"
 req.header: wdm.h

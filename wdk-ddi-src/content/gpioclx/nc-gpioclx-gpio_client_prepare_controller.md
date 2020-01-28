@@ -7,7 +7,6 @@ tech.root: GPIO
 ms.assetid: FAB86862-C0A1-4FC1-A80F-44F235B9B37D
 ms.date: 02/15/2018
 ms.keywords: CLIENT_PrepareController, CLIENT_PrepareController callback, CLIENT_PrepareController callback function [Parallel Ports], GPIO.client_preparecontroller, GPIO_CLIENT_PREPARE_CONTROLLER, gpioclx/CLIENT_PrepareController
-ms.topic: callback
 f1_keywords:
  - "gpioclx/CLIENT_PrepareController"
 req.header: gpioclx.h

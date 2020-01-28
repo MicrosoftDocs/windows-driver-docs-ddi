@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 08DC764B-4410-4D7C-B199-29E38BA09CA6
 ms.date: 04/20/2018
 ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrintSchemaAsyncOperation interface, IPrintSchemaAsyncOperation interface [Print Devices],Cancel method, IPrintSchemaAsyncOperation.Cancel, IPrintSchemaAsyncOperation::Cancel, print.iprintschemaasyncoperation_cancel, printerextension/IPrintSchemaAsyncOperation::Cancel
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintSchemaAsyncOperation.Cancel"
 req.header: printerextension.h

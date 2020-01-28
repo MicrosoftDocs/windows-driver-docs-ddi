@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 04e3dfba-3313-4575-9956-5b1861b8212a
 ms.date: 02/26/2018
 ms.keywords: IWDFUsbTargetDevice interface,RetrieveDeviceInformation method, IWDFUsbTargetDevice.RetrieveDeviceInformation, IWDFUsbTargetDevice::RetrieveDeviceInformation, RetrieveDeviceInformation, RetrieveDeviceInformation method, RetrieveDeviceInformation method,IWDFUsbTargetDevice interface, UMDFUSBref_3323b24f-da0c-4208-8f88-88d7198e805c.xml, umdf.iwdfusbtargetdevice_retrievedeviceinformation, wdf.iwdfusbtargetdevice_retrievedeviceinformation, wudfusb/IWDFUsbTargetDevice::RetrieveDeviceInformation
-ms.topic: method
 f1_keywords:
  - "wudfusb/IWDFUsbTargetDevice.RetrieveDeviceInformation"
 req.header: wudfusb.h

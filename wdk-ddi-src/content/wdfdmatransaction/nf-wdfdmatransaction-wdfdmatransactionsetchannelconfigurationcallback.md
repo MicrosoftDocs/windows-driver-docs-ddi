@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: B38BD937-5027-4EED-9ECA-3333F56DFFA8
 ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionSetChannelConfigurationCallback, WdfDmaTransactionSetChannelConfigurationCallback method, kmdf.wdfdmatransactionsetchannelconfigurationcallback, wdf.wdfdmatransactionsetchannelconfigurationcallback, wdfdmatransaction/WdfDmaTransactionSetChannelConfigurationCallback
-ms.topic: function
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionSetChannelConfigurationCallback"
 req.header: wdfdmatransaction.h

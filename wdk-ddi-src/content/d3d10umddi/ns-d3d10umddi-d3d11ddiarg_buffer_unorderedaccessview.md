@@ -6,7 +6,6 @@ old-location: display\d3d11ddiarg_buffer_unorderedaccessview.htm
 ms.assetid: a5ff1158-539f-4b25-8b65-72d077108c46
 ms.date: 05/10/2018
 ms.keywords: D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW, D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_c097052f-b667-43a9-8133-172770d9ab70.xml, d3d10umddi/D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW, display.d3d11ddiarg_buffer_unorderedaccessview
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW"
 req.header: d3d10umddi.h

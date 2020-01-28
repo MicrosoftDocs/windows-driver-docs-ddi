@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: feb3428c-ab18-4bd5-bf8a-81c7aaab0413
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_ce313b29-9c88-47f7-9a7f-a4ad9945ade1.xml, FltGetIoPriorityHintFromCallbackData, FltGetIoPriorityHintFromCallbackData routine [Installable File System Drivers], fltkernel/FltGetIoPriorityHintFromCallbackData, ifsk.fltgetiopriorityhintfromcallbackdata
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltGetIoPriorityHintFromCallbackData"
 req.header: fltkernel.h

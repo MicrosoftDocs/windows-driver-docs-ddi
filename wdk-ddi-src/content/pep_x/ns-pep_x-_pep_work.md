@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 7C6ACFDD-809E-4E75-8E4D-8A4E0207593E
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_WORK, PEP_WORK, PEP_WORK structure [Kernel-Mode Driver Architecture], PPEP_WORK, PPEP_WORK structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK, kernel.pep_work, pepfx/PEP_WORK, pepfx/PPEP_WORK"
-ms.topic: struct
 f1_keywords:
  - "pep_x/PEP_WORK"
 req.header: pep_x.h

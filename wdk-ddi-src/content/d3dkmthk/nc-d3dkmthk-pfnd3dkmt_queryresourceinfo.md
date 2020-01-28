@@ -4,7 +4,6 @@ title: PFND3DKMT_QUERYRESOURCEINFO (d3dkmthk.h)
 description: The PFND3DKMT_QUERYRESOURCEINFO callback function retrieves information about a shared resource.
 ms.assetid: 4e48ccbd-d20b-433f-aa1d-9c44fc5d930a
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_QUERYRESOURCEINFO"
 req.header: d3dkmthk.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 02c37c3d-fa5b-4d26-a092-09f6f3dbd46c
 ms.date: 05/02/2018
 ms.keywords: "*LPRILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS, RILUICCCMDPARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.riluicccmdparameters, ntddrilapitypes/RILUICCCMDPARAMETERS"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILUICCCMDPARAMETERS"
 req.header: ntddrilapitypes.h

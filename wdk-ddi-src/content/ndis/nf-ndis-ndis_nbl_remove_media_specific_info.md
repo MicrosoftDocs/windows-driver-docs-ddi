@@ -5,7 +5,6 @@ description: The NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO macro removes a media-speci
 tech.root: netvista
 ms.assetid: 4434561f-23f4-454c-9396-2e87b7aa322c
 ms.date: 04/13/2018
-ms.topic: macro
 f1_keywords:
  - "ndis/NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO"
 ms.keywords: NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO

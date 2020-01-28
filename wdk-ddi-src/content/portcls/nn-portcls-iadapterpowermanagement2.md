@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 86cab3f1-2792-486f-91a3-4fb88be2a1da
 ms.date: 05/08/2018
 ms.keywords: IAdapterPowerManagement2, IAdapterPowerManagement2 interface [Audio Devices], IAdapterPowerManagement2 interface [Audio Devices],described, audio.iadapterpowermanagement2, audmp-routines_c7d21546-b88c-46e6-9612-6244155058b0.xml, portcls/IAdapterPowerManagement2
-ms.topic: interface
 f1_keywords:
  - "portcls/IAdapterPowerManagement2"
 req.header: portcls.h

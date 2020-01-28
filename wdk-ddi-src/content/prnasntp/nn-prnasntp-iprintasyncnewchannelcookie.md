@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 48C5F80F-64AB-415A-AAF5-8B06505B02BF
 ms.date: 04/20/2018
 ms.keywords: IPrintAsyncNewChannelCookie, IPrintAsyncNewChannelCookie interface [Print Devices], IPrintAsyncNewChannelCookie interface [Print Devices],described, print.iprintasyncnewchannelcookie, prnasntp/IPrintAsyncNewChannelCookie
-ms.topic: interface
 f1_keywords:
  - "prnasntp/IPrintAsyncNewChannelCookie"
 req.header: prnasntp.h

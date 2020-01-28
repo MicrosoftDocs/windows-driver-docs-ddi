@@ -7,7 +7,6 @@ tech.root: GPIO
 ms.assetid: A6911DD2-0524-4E83-A42E-6E3E7107A928
 ms.date: 02/15/2018
 ms.keywords: GPIO.ioctl_gpio_read_pins, IOCTL_GPIO_READ_PINS, IOCTL_GPIO_READ_PINS control, IOCTL_GPIO_READ_PINS control code [Parallel Ports], gpio/IOCTL_GPIO_READ_PINS
-ms.topic: ioctl
 f1_keywords:
  - "gpio/IOCTL_GPIO_READ_PINS"
 req.header: gpio.h

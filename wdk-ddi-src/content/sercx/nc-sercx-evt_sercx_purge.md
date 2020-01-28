@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 036D9AAC-C740-4108-B952-0A4F91585488
 ms.date: 04/23/2018
 ms.keywords: 1/EvtSerCxPurge, EVT_SERCX_PURGE, EVT_SERCX_PURGE callback, EvtSerCxPurge, EvtSerCxPurge callback function [Serial Ports], serports.evtsercxpurge
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCxPurge"
 req.header: sercx.h

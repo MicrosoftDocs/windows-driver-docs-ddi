@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 041dd438-e837-4912-bda7-de654204198b
 ms.date: 04/20/2018
 ms.keywords: "*POPTTYPE, OPTTYPE, OPTTYPE structure [Print Devices], POPTTYPE, POPTTYPE structure pointer [Print Devices], _OPTTYPE, compstui/OPTTYPE, compstui/POPTTYPE, cpsuifnc_de1ff2db-9eea-4daf-bc9e-2e24a2dd5271.xml, print.opttype"
-ms.topic: struct
 f1_keywords:
  - "compstui/OPTTYPE"
 req.header: compstui.h

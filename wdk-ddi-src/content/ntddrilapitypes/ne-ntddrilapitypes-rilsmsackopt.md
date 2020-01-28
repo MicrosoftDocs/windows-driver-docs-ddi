@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 652315db-0cdc-4c32-8fa0-3a538c917497
 ms.date: 05/02/2018
 ms.keywords: RILSMSACKOPT, RILSMSACKOPT enumeration [Network Drivers Starting with Windows Vista], RIL_SMSACKOPT_IMS, netvista.rilsmsackopt, ntddrilapitypes/RILSMSACKOPT, ntddrilapitypes/RIL_SMSACKOPT_IMS
-ms.topic: enum
 f1_keywords:
  - "ntddrilapitypes/RILSMSACKOPT"
 req.header: ntddrilapitypes.h

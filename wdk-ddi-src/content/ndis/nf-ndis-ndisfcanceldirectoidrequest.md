@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 05cbeca1-7420-41c6-8868-980b265523db
 ms.date: 05/02/2018
 ms.keywords: NdisFCancelDirectOidRequest, NdisFCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFCancelDirectOidRequest, ndis_request_direct_ref_48dc16f9-1c11-41de-9c37-91abed86b06c.xml, netvista.ndisfcanceldirectoidrequest
-ms.topic: function
 f1_keywords:
  - "ndis/NdisFCancelDirectOidRequest"
 req.header: ndis.h

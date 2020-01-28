@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: c0499a9b-8f02-4a88-bffa-e088e9098a6c
 ms.date: 04/20/2018
 ms.keywords: ExpandIntentOptions, ExpandIntentOptions method [Print Devices], ExpandIntentOptions method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],ExpandIntentOptions method, IPrintOemPrintTicketProvider.ExpandIntentOptions, IPrintOemPrintTicketProvider::ExpandIntentOptions, prcomoem/IPrintOemPrintTicketProvider::ExpandIntentOptions, print.iprintoemprintticketprovider_expandintentoptions, print_ticket-package_1b344230-a06b-49ca-8b55-eb9c3500c3f1.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemPrintTicketProvider.ExpandIntentOptions"
 req.header: prcomoem.h

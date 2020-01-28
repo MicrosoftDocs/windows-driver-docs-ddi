@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: C65A250A-594B-4317-AEE6-C3E60D122A1D
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_CONTROLLER_STOP_TRACKING_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_STOP_TRACKING_FOR_TIME_SYNC callback, EvUcxControllerStopTrackingForTimeSync, EvUcxControllerStopTrackingForTimeSync callback function [Buses], buses.evt_ucx_controller_stop_tracking_for_time_sync, ucxcontroller/EvUcxControllerStopTrackingForTimeSync
-ms.topic: callback
 f1_keywords:
  - "ucxcontroller/EvUcxControllerStopTrackingForTimeSync"
 req.header: ucxcontroller.h

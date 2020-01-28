@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: ee2f06f6-3295-4a92-b232-daf66ec6195a
 ms.date: 04/16/2018
 ms.keywords: FsRtlIsEcpAcknowledged, FsRtlIsEcpAcknowledged routine [Installable File System Drivers], fsrtlref_5e05018f-5f4a-41e1-a05a-93ab636012e1.xml, ifsk.fsrtlisecpacknowledged, ntifs/FsRtlIsEcpAcknowledged
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlIsEcpAcknowledged"
 req.header: ntifs.h

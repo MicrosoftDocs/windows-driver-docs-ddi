@@ -4,7 +4,6 @@ title: _DXGK_DIAGTYPE_PROGRESSIONS (dispmprt.h)
 description: A structure used to identify one or more diagnostic types in the Progressions category.
 ms.assetid: 9c8fc25d-8d4f-4987-93b6-1347bb32507b
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "dispmprt/_DXGK_DIAGTYPE_PROGRESSIONS"
 ms.keywords: _DXGK_DIAGTYPE_PROGRESSIONS, DXGK_DIAGTYPE_PROGRESSIONS, 

@@ -4,7 +4,6 @@ title: D3D12DDI_ELEMENTS_LAYOUT (d3d12umddi.h)
 description: Describes how instances or geometries are laid out.
 ms.assetid: c886ddab-ba16-4d7f-abbd-3e57b7cc8dc5
 ms.date: 10/19/2018
-ms.topic: enum
 ms.keywords: D3D12DDI_ELEMENTS_LAYOUT, D3D12DDI_ELEMENTS_LAYOUT,
 req.header: d3d12umddi.h
 req.include-header: 

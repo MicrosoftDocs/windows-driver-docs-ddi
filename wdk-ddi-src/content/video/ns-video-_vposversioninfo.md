@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: b6335df5-81d9-4a00-8e97-0ebebb987d32
 ms.date: 05/10/2018
 ms.keywords: "*PVPOSVERSIONINFO, PVPOSVERSIONINFO, PVPOSVERSIONINFO structure pointer [Display Devices], VPOSVERSIONINFO, VPOSVERSIONINFO structure [Display Devices], Video_Structs_893105be-4f14-4903-aae1-85ffe8ef8a2b.xml, _VPOSVERSIONINFO, display.vposversioninfo, video/PVPOSVERSIONINFO, video/VPOSVERSIONINFO"
-ms.topic: struct
 f1_keywords:
  - "video/VPOSVERSIONINFO"
 req.header: video.h

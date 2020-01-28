@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 8f8ccc6e-ceb5-49df-bf1f-7a804850728a
 ms.date: 05/02/2018
 ms.keywords: "*LPRILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS, RILGETMSGINUICCSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetmsginuiccstatusparams, ntddrilapitypes/RILGETMSGINUICCSTATUSPARAMS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILGETMSGINUICCSTATUSPARAMS"
 req.header: rilapitypes.h

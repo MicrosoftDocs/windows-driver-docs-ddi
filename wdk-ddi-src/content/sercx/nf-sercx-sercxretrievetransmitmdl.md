@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: C0FF3667-9641-4032-826E-7E297F57CDFA
 ms.date: 04/23/2018
 ms.keywords: 1/SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl method [Serial Ports], serports.sercxretrievetransmitmdl
-ms.topic: function
 f1_keywords:
  - "sercx/SerCxRetrieveTransmitMdl"
 req.header: sercx.h

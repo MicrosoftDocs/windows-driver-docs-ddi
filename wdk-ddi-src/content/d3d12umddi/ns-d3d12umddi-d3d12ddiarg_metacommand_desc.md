@@ -4,7 +4,6 @@ title: D3D12DDIARG_METACOMMAND_DESC (d3d12umddi.h)
 description: Contains information about a meta-command.
 ms.assetid: d61a72ca-9e93-456f-b10f-e8a0b6516b4b
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_METACOMMAND_DESC"
 ms.keywords: D3D12DDIARG_METACOMMAND_DESC, D3D12DDIARG_METACOMMAND_DESC,

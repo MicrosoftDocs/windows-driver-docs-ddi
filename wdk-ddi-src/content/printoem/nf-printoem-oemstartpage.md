@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 86cee994-2dfe-4eaf-906b-ce6d9051399e
 ms.date: 04/20/2018
 ms.keywords: OEMStartPage, OEMStartPage function [Print Devices], print.oemstartpage, print_unidrv-pscript_rendering_df5731ee-40be-45e1-8dbb-b7893ec27622.xml, printoem/OEMStartPage
-ms.topic: function
 f1_keywords:
  - "printoem/OEMStartPage"
 req.header: printoem.h

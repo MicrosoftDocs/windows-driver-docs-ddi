@@ -4,7 +4,6 @@ title: IDataModelScriptDebug (dbgmodel.h)
 description: The core interface that a script provider must provide in order to make a script debuggable. 
 ms.assetid: 11133d81-6a1e-4e83-8e85-63c282f4eb16
 ms.date: 10/04/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug"
 req.header: dbgmodel.h

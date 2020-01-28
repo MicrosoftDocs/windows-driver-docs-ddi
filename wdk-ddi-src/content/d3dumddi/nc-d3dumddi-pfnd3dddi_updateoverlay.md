@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 80d7cc5c-51d8-4b91-9581-b073f9b0e68a
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_UPDATEOVERLAY, PFND3DDDI_UPDATEOVERLAY callback, UpdateOverlay, UpdateOverlay callback function [Display Devices], UserModeDisplayDriver_Functions_58c588ce-de18-4aa0-bb22-0c33d053e22f.xml, d3dumddi/UpdateOverlay, display.updateoverlay
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

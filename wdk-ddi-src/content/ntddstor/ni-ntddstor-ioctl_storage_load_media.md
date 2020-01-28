@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 137ebbec-53f7-4bf6-b43b-2c736d66eb97
 ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_LOAD_MEDIA, IOCTL_STORAGE_LOAD_MEDIA control, IOCTL_STORAGE_LOAD_MEDIA control code [Storage Devices], k307_730c4c03-9d36-406b-8965-270aa539d0ca.xml, ntddstor/IOCTL_STORAGE_LOAD_MEDIA, storage.ioctl_storage_load_media
-ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_LOAD_MEDIA"
 req.header: ntddstor.h

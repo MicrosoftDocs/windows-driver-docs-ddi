@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: f103724c-25c4-4dec-a7a3-9713440ca833
 ms.date: 02/23/2018
 ms.keywords: "*PMSR_DATA_RECEIVED, MSR_DATA_RECEIVED, MSR_DATA_RECEIVED structure, PMSR_DATA_RECEIVED, PMSR_DATA_RECEIVED structure pointer, _MSR_DATA_RECEIVED, pointofservicedriverinterface/MSR_DATA_RECEIVED, pointofservicedriverinterface/PMSR_DATA_RECEIVED, pos.msr_data_received"
-ms.topic: struct
 f1_keywords:
  - "pointofservicedriverinterface/MSR_DATA_RECEIVED"
 req.header: pointofservicedriverinterface.h

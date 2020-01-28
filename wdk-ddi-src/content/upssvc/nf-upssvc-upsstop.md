@@ -7,7 +7,6 @@ tech.root: battery
 ms.assetid: 55555e58-eaba-4c39-a771-9924da3fcfc4
 ms.date: 02/15/2018
 ms.keywords: UPSStop, UPSStop function [Battery Devices], UPS_fns_60f920b5-6225-4569-a60a-dfb1c6b2538c.xml, battery.upsstop, upssvc/UPSStop
-ms.topic: function
 f1_keywords:
  - "upssvc/UPSStop"
 req.header: upssvc.h

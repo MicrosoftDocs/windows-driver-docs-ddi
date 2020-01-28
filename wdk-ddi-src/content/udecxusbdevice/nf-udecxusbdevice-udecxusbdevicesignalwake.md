@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: BF8C1D85-6C88-4F4C-ADDB-CCE603D420F2
 ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceSignalWake, UdecxUsbDeviceSignalWake function [Buses], buses.udecxusbdevicesignalwake, udecxusbdevice/UdecxUsbDeviceSignalWake
-ms.topic: function
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceSignalWake"
 req.header: udecxusbdevice.h

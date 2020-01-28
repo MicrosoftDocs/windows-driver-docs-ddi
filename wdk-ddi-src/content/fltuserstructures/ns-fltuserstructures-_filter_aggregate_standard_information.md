@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 76703a53-45c1-4dfa-b8aa-4f73d4d84538
 ms.date: 04/16/2018
 ms.keywords: "*PFILTER_AGGREGATE_STANDARD_INFORMATION, FILTER_AGGREGATE_STANDARD_INFORMATION, FILTER_AGGREGATE_STANDARD_INFORMATION structure [Installable File System Drivers], FltSystemStructures_2b06b94c-69dc-4b0c-a9bc-56bba1592036.xml, PFILTER_AGGREGATE_STANDARD_INFORMATION, PFILTER_AGGREGATE_STANDARD_INFORMATION structure pointer [Installable File System Drivers], _FILTER_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/FILTER_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/PFILTER_AGGREGATE_STANDARD_INFORMATION, ifsk.filter_aggregate_standard_information"
-ms.topic: struct
 f1_keywords:
  - "fltuserstructures/FILTER_AGGREGATE_STANDARD_INFORMATION"
 req.header: fltuserstructures.h

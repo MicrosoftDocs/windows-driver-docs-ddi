@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: FF063DFE-FD80-4E30-8289-5B40642C867F
 ms.date: 04/20/2018
 ms.keywords: IPrinterPropertyBag interface [Print Devices],SetString method, IPrinterPropertyBag.SetString, IPrinterPropertyBag::SetString, SetString, SetString method [Print Devices], SetString method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setstring, printerextension/IPrinterPropertyBag::SetString
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterPropertyBag.SetString"
 req.header: printerextension.h

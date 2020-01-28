@@ -7,7 +7,6 @@ tech.root: parports
 ms.assetid: 7c80f3ee-cbb2-400d-9dfb-36ccef93d80f
 ms.date: 02/15/2018
 ms.keywords: "(*PPARALLEL_SET_CHIP_MODE), (*PPARALLEL_SET_CHIP_MODE) callback function [Parallel Ports], cisspd_a108ba77-8f01-436e-bc7a-48a74f80ac75.xml, parallel/(*PPARALLEL_SET_CHIP_MODE), parports.pparallel_set_chip_mode"
-ms.topic: callback
 f1_keywords:
  - "parallel/(*PPARALLEL_SET_CHIP_MODE)"
 req.header: parallel.h

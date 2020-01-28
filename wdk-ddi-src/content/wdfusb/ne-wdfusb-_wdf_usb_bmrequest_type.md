@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: c20e7aec-32e7-401d-8c40-aa6ac191e857
 ms.date: 02/26/2018
 ms.keywords: BmRequestClass, BmRequestStandard, BmRequestVendor, DFUsbRef_01dc6407-8fa2-462a-848c-2a8fc53ef50b.xml, WDF_USB_BMREQUEST_TYPE, WDF_USB_BMREQUEST_TYPE enumeration, _WDF_USB_BMREQUEST_TYPE, kmdf.wdf_usb_bmrequest_type, wdf.wdf_usb_bmrequest_type, wdfusb/BmRequestClass, wdfusb/BmRequestStandard, wdfusb/BmRequestVendor, wdfusb/WDF_USB_BMREQUEST_TYPE
-ms.topic: enum
 f1_keywords:
  - "wdfusb/WDF_USB_BMREQUEST_TYPE"
 req.header: wdfusb.h

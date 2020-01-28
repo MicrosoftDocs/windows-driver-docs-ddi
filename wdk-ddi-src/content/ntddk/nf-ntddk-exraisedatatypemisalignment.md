@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 5c8bfd13-31e0-461f-93d2-53ce15c53cdb
 ms.date: 04/30/2018
 ms.keywords: ExRaiseDatatypeMisalignment, ExRaiseDatatypeMisalignment routine [Kernel-Mode Driver Architecture], k102_ff274a50-ae59-4591-9484-6bc068601ee8.xml, kernel.exraisedatatypemisalignment, ntddk/ExRaiseDatatypeMisalignment
-ms.topic: function
 f1_keywords:
  - "ntddk/ExRaiseDatatypeMisalignment"
 req.header: ntddk.h

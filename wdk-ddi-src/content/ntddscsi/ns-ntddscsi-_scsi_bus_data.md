@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: d7baddb5-ad12-4aea-9515-97511dc05fe7
 ms.date: 03/29/2018
 ms.keywords: "*PSCSI_BUS_DATA, PSCSI_BUS_DATA, PSCSI_BUS_DATA structure pointer [Storage Devices], SCSI_BUS_DATA, SCSI_BUS_DATA structure [Storage Devices], _SCSI_BUS_DATA, ntddscsi/PSCSI_BUS_DATA, ntddscsi/SCSI_BUS_DATA, storage.scsi_bus_data, structs-scsibus_8a0f86c6-4011-4c11-90e8-bf3c28a147dc.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddscsi/SCSI_BUS_DATA"
 req.header: ntddscsi.h

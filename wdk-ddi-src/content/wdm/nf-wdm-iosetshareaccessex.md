@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 4DCC4A37-0099-4C6F-B00D-B6CAA7D1EC68
 ms.date: 04/30/2018
 ms.keywords: IoSetShareAccessEx, IoSetShareAccessEx routine [Kernel-Mode Driver Architecture], kernel.iosetshareaccessex, wdm/IoSetShareAccessEx
-ms.topic: function
 f1_keywords:
  - "wdm/IoSetShareAccessEx"
 req.header: wdm.h

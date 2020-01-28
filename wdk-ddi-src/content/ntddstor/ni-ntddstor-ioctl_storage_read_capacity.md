@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: FC4CFD33-5632-400A-90E5-583C6D6DFFD9
 ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_READ_CAPACITY, IOCTL_STORAGE_READ_CAPACITY control, IOCTL_STORAGE_READ_CAPACITY control code [Storage Devices], ntddstor/IOCTL_STORAGE_READ_CAPACITY, storage.ioctl_storage_read_capacity
-ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_READ_CAPACITY"
 req.header: ntddstor.h

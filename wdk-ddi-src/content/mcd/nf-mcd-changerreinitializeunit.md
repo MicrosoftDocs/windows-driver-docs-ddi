@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 161156e3-0da0-458d-b623-67665b2a56c0
 ms.date: 03/29/2018
 ms.keywords: ChangerReinitializeUnit, ChangerReinitializeUnit function [Storage Devices], chgrmini_9883d8fd-334e-49f5-93ad-408622aa339f.xml, mcd/ChangerReinitializeUnit, storage.changerreinitializeunit
-ms.topic: function
 f1_keywords:
  - "mcd/ChangerReinitializeUnit"
 req.header: mcd.h

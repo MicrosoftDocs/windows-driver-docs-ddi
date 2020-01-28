@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 7331b30f-f61c-445c-ac0f-07c887ae92d7
 ms.date: 04/30/2018
 ms.keywords: "*PWMIREGINFOW, PWMIREGINFOW, PWMIREGINFOW structure pointer [Kernel-Mode Driver Architecture], WMIREGINFO, WMIREGINFOW, WMIREGINFOW structure [Kernel-Mode Driver Architecture], kernel.wmireginfo, kstruct_d_2c5c2f97-d385-4cd6-8b0f-c27d4b21ea11.xml, wmistr/PWMIREGINFOW, wmistr/WMIREGINFOW"
-ms.topic: struct
 f1_keywords:
  - "wmistr/WMIREGINFOW"
 req.header: wmistr.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 353e929b-17c8-47e8-82fd-b646e93a5b9a
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CM_INCOMING_CALL_COMPLETE, PROTOCOL_CM_INCOMING_CALL_COMPLETE callback, ProtocolCmIncomingCallComplete, ProtocolCmIncomingCallComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_0760b8c9-29b8-40ff-b8a9-03e4c4f792e2.xml, ndis/ProtocolCmIncomingCallComplete, netvista.protocolcmincomingcallcomplete
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolCmIncomingCallComplete"
 req.header: ndis.h

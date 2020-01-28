@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 72863a3e-9907-43e1-ad83-831a972ab823
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_TCP_OFFLOAD_EVENT_HANDLERS, NDIS_TCP_OFFLOAD_EVENT_HANDLERS, NDIS_TCP_OFFLOAD_EVENT_HANDLERS structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_OFFLOAD_EVENT_HANDLERS, PNDIS_TCP_OFFLOAD_EVENT_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_OFFLOAD_EVENT_HANDLERS, ndischimney/NDIS_TCP_OFFLOAD_EVENT_HANDLERS, ndischimney/PNDIS_TCP_OFFLOAD_EVENT_HANDLERS, netvista.ndis_tcp_offload_event_handlers, tcp_chim_struct_ae670e4d-ac1a-4dd2-95f5-2f2b202003e4.xml"
-ms.topic: struct
 f1_keywords:
  - "ndischimney/NDIS_TCP_OFFLOAD_EVENT_HANDLERS"
 req.header: ndischimney.h

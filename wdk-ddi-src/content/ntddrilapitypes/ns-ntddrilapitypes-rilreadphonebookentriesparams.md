@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: af74f94a-497a-4771-aee4-d1ba8d2f3ad9
 ms.date: 05/02/2018
 ms.keywords: "*LPRILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilreadphonebookentriesparams, ntddrilapitypes/RILREADPHONEBOOKENTRIESPARAMS"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILREADPHONEBOOKENTRIESPARAMS"
 req.header: ntddrilapitypes.h

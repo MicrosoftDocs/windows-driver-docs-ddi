@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 00f89160-b880-4882-bf2e-28e9ed15f844
 ms.date: 02/26/2018
 ms.keywords: IWDFUsbTargetFactory, IWDFUsbTargetFactory interface, IWDFUsbTargetFactory interface,described, UMDFDeviceObjectRef_71a85574-e7e1-483e-8d16-06cb784ff30e.xml, umdf.iwdfusbtargetfactory, wdf.iwdfusbtargetfactory, wudfusb/IWDFUsbTargetFactory
-ms.topic: interface
 f1_keywords:
  - "wudfusb/IWDFUsbTargetFactory"
 req.header: wudfusb.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 27D1FAAE-6DEF-4485-AA29-32CC85A01000
 ms.date: 04/30/2018
 ms.keywords: GetDmaTransferInfo, GetDmaTransferInfo callback function [Kernel-Mode Driver Architecture], PGET_DMA_TRANSFER_INFO, PGET_DMA_TRANSFER_INFO callback, kernel.getdmatransferinfo, wdm/GetDmaTransferInfo
-ms.topic: callback
 f1_keywords:
  - "wdm/GetDmaTransferInfo"
 req.header: wdm.h

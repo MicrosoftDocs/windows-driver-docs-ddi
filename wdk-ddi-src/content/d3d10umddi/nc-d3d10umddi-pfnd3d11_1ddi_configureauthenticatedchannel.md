@@ -6,7 +6,6 @@ old-location: display\configureauthenticatedchannel1.htm
 ms.assetid: 28d32813-15f5-4b9c-9bdb-5ad9b47bbe3b
 ms.date: 05/10/2018
 ms.keywords: ConfigureAuthenticatedChannel, ConfigureAuthenticatedChannel callback function [Display Devices], PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL, PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL callback, d3d10umddi/ConfigureAuthenticatedChannel, display.configureauthenticatedchannel1
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

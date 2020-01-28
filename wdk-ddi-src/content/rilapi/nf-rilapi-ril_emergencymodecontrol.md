@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 011b8b11-5e75-4db9-ba3d-6483a90788ac
 ms.date: 05/02/2018
 ms.keywords: RIL_EmergencyModeControl, RIL_EmergencyModeControl method [Network Drivers Starting with Windows Vista], netvista.ril_emergencymodecontrol, rilapi/RIL_EmergencyModeControl
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_EmergencyModeControl"
 req.header: rilapi.h

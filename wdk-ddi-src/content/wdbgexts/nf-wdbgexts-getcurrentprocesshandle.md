@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: b6780f1c-e093-4d91-8909-dabb1ecaefaa
 ms.date: 05/03/2018
 ms.keywords: GetCurrentProcessHandle, GetCurrentProcessHandle function [Windows Debugging], WdbgExts_Ref_50cc8e27-7f7e-4ec3-ad2d-745f38e87037.xml, debugger.getcurrentprocesshandle, wdbgexts/GetCurrentProcessHandle
-ms.topic: function
 f1_keywords:
  - "wdbgexts/GetCurrentProcessHandle"
 req.header: wdbgexts.h

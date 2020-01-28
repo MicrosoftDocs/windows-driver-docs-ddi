@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: 8926e96e-b738-47ff-a5c4-8bc15943c6a4
 ms.date: 04/04/2018
 ms.keywords: IWDTFPNPActions2 interface [Windows Device Testing Framework],RemoveDevice method, IWDTFPNPActions2.RemoveDevice, IWDTFPNPActions2::RemoveDevice, RemoveDevice, RemoveDevice method [Windows Device Testing Framework], RemoveDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, dtf.iwdtfpnpactions2_removedevice, wdtfpnpaction/IWDTFPNPActions2::RemoveDevice
-ms.topic: method
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPActions2.RemoveDevice"
 req.header: wdtfpnpaction.h

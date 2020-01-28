@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 99a91bb4-4fcd-4b49-bd1e-4551027b5d1f
 ms.date: 04/16/2018
 ms.keywords: RtlInitializeGenericTable, RtlInitializeGenericTable routine [Installable File System Drivers], ifsk.rtlinitializegenerictable, ntddk/RtlInitializeGenericTable, rtlref_2ef380c8-bc8a-4711-b0d1-b1c669818f2c.xml
-ms.topic: function
 f1_keywords:
  - "ntddk/RtlInitializeGenericTable"
 req.header: ntddk.h

@@ -4,7 +4,6 @@ title: IoAllocateAdapterChannel function (ntddk.h)
 description: Deprecated. Use PALLOCATE_ADAPTER_CHANNEL.
 ms.assetid: 87be4a93-5bfe-484c-8e88-4748ea155d8d
 ms.date: 10/19/2018
-ms.topic: function
 f1_keywords:
  - "ntddk/IoAllocateAdapterChannel"
 ms.keywords: IoAllocateAdapterChannel

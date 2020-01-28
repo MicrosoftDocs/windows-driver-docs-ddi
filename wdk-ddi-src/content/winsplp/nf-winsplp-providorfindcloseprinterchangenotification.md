@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: D7360F7B-394D-480A-B2AB-B4461B057E43
 ms.date: 04/20/2018
 ms.keywords: ProvidorFindClosePrinterChangeNotification, ProvidorFindClosePrinterChangeNotification function [Print Devices], print.providorfindcloseprinterchangenotification, winsplp/ProvidorFindClosePrinterChangeNotification
-ms.topic: function
 f1_keywords:
  - "winsplp/ProvidorFindClosePrinterChangeNotification"
 req.header: winsplp.h

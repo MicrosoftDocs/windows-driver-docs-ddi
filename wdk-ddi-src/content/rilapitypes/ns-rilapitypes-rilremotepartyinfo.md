@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 3bcaaf63-adff-4559-9e34-eae089dff6f8
 ms.date: 05/02/2018
 ms.keywords: "*LPRILREMOTEPARTYINFO, RILREMOTEPARTYINFO, RILREMOTEPARTYINFO structure [Network Drivers Starting with Windows Vista], netvista.rilremotepartyinfo, ntddrilapitypes/RILREMOTEPARTYINFO"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILREMOTEPARTYINFO"
 req.header: rilapitypes.h

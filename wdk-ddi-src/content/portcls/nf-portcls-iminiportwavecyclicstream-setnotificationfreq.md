@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: b909c11c-de56-43e8-b339-b92249bc7e1c
 ms.date: 05/08/2018
 ms.keywords: IMiniportWaveCyclicStream interface [Audio Devices],SetNotificationFreq method, IMiniportWaveCyclicStream.SetNotificationFreq, IMiniportWaveCyclicStream::SetNotificationFreq, SetNotificationFreq, SetNotificationFreq method [Audio Devices], SetNotificationFreq method [Audio Devices],IMiniportWaveCyclicStream interface, audio.iminiportwavecyclicstream_setnotificationfreq, audmp-routines_9db148da-326d-4176-a852-83fa1e453246.xml, portcls/IMiniportWaveCyclicStream::SetNotificationFreq
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportWaveCyclicStream.SetNotificationFreq"
 req.header: portcls.h

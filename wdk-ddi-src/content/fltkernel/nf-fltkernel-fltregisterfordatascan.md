@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: E603975A-B927-475A-9DEA-2D01C1249819
 ms.date: 05/24/2019
 ms.keywords: FltRegisterForDataScan, FltRegisterForDataScan routine [Installable File System Drivers], fltkernel/FltRegisterForDataScan, ifsk.fltregisterfordatascan
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltRegisterForDataScan"
 req.header: fltkernel.h

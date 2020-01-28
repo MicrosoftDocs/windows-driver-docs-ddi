@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 9e1dd010-0074-45fb-b3cb-f8ea7ad15e02
 ms.date: 04/23/2018
 ms.keywords: KsStreamPointerCancelTimeout, KsStreamPointerCancelTimeout function [Streaming Media Devices], avfunc_9496b7be-f178-418a-87ac-d09dec988672.xml, ks/KsStreamPointerCancelTimeout, stream.ksstreampointercanceltimeout
-ms.topic: function
 f1_keywords:
  - "ks/KsStreamPointerCancelTimeout"
 req.header: ks.h

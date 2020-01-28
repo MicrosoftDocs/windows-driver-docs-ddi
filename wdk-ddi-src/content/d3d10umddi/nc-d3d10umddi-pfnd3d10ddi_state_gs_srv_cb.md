@@ -6,7 +6,6 @@ old-location: display\pfnstategssrvcb.htm
 ms.assetid: 4ab7444f-face-4ad0-a73c-18dd0b59a344
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_STATE_GS_SRV_CB, PFND3D10DDI_STATE_GS_SRV_CB callback, d3d10state_functions_a19053b4-243c-4158-baf0-2eee3ba01dc5.xml, d3d10umddi/pfnStateGsSrvCb, display.pfnstategssrvcb, pfnStateGsSrvCb, pfnStateGsSrvCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateGsSrvCb"
 req.header: d3d10umddi.h

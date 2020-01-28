@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 05a76baf-e5f7-41ca-ac9f-4538cd3e0292
 ms.date: 04/30/2018
 ms.keywords: PPUT_DMA_ADAPTER, PPUT_DMA_ADAPTER callback, PutDmaAdapter, PutDmaAdapter callback function [Kernel-Mode Driver Architecture], kdma_49fe7ec6-e0a3-445e-9275-08b94ca2cf48.xml, kernel.putdmaadapter, wdm/PutDmaAdapter
-ms.topic: callback
 f1_keywords:
  - "wdm/PutDmaAdapter"
 req.header: wdm.h

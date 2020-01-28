@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: ef3f7b9f-8b4b-4d47-8457-17452e3e918a
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_becbf646-e647-4337-a1cb-05a72c3dd215.xml, WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE, WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function, kmdf.wdf_usb_control_setup_packet_init_feature, wdf.wdf_usb_control_setup_packet_init_feature, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE
-ms.topic: function
 f1_keywords:
  - "wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE"
 req.header: wdfusb.h

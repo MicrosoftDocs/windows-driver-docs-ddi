@@ -4,7 +4,6 @@ title: IOCTL_PANEL_SET_BRIGHTNESS (ntddvdeo.h)
 description: Sets the brightness for the display panel.
 ms.assetid: 7fa5e82d-90fa-4e99-a33d-c2519ff619aa
 ms.date: 10/19/2018
-ms.topic: ioctl
 f1_keywords:
  - "ntddvdeo/IOCTL_PANEL_SET_BRIGHTNESS"
 req.header: ntddvdeo.h

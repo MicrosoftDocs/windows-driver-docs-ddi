@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 376b0cc3-8189-499e-ad7f-5844f8cb4221
 ms.date: 02/26/2018
 ms.keywords: ConfigureRequestDispatching, ConfigureRequestDispatching method, ConfigureRequestDispatching method,IWDFIoQueue interface, IWDFIoQueue interface,ConfigureRequestDispatching method, IWDFIoQueue.ConfigureRequestDispatching, IWDFIoQueue::ConfigureRequestDispatching, UMDFQueueObjectRef_8aab2e0a-7864-4a37-abba-2807327dd4dc.xml, umdf.iwdfioqueue_configurerequestdispatching, wdf.iwdfioqueue_configurerequestdispatching, wudfddi/IWDFIoQueue::ConfigureRequestDispatching
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoQueue.ConfigureRequestDispatching"
 req.header: wudfddi.h

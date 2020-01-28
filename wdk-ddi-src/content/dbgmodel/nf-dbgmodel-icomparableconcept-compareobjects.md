@@ -4,7 +4,6 @@ title: IComparableConcept::CompareObjects (dbgmodel.h)
 description: Compares this object to another (of arbitrary type).  If the comparison cannot be performed, E_NOT_SET should be returned.
 ms.assetid: c9736b52-f159-4468-af0a-94b409c89991
 ms.date: 09/28/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IComparableConcept.CompareObjects"
 ms.keywords: IComparableConcept::CompareObjects, CompareObjects, IComparableConcept.CompareObjects, IComparableConcept::CompareObjects, IComparableConcept.CompareObjects

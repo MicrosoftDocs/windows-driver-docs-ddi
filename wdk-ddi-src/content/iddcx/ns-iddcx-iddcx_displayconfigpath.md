@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 5dce6205-f03c-4ca5-8f40-09a24eacbd13
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDDCX_DISPLAYCONFIGPATH"
 ms.prod: windows-hardware

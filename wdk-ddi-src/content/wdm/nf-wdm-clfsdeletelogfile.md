@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: a8c90199-e938-45bb-9356-48591e127eed
 ms.date: 04/30/2018
 ms.keywords: ClfsDeleteLogFile, ClfsDeleteLogFile routine [Kernel-Mode Driver Architecture], Clfs_0b23f7ac-c175-4eaf-b6c9-9b23b6ebe7e3.xml, kernel.clfsdeletelogfile, wdm/ClfsDeleteLogFile
-ms.topic: function
 f1_keywords:
  - "wdm/ClfsDeleteLogFile"
 req.header: wdm.h

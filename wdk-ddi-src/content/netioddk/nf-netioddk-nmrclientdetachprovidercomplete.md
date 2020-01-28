@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: e54864de-9558-44b1-9c5a-0f2ecc6516b1
 ms.date: 05/02/2018
 ms.keywords: NmrClientDetachProviderComplete, NmrClientDetachProviderComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrClientDetachProviderComplete, netvista.nmrclientdetachprovidercomplete, nmrref_7fb0e7ef-62a3-4dc4-a0e2-b38005056317.xml
-ms.topic: function
 f1_keywords:
  - "netioddk/NmrClientDetachProviderComplete"
 req.header: netioddk.h

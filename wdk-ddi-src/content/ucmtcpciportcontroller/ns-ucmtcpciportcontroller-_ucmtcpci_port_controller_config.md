@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: a9027cda-0851-46e2-9006-0d757109fc3a
 ms.date: 05/07/2018
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_CONFIG, PUCMTCPCI_PORT_CONTROLLER_CONFIG, PUCMTCPCI_PORT_CONTROLLER_CONFIG structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_CONFIG, UCMTCPCI_PORT_CONTROLLER_CONFIG structure [Buses], _UCMTCPCI_PORT_CONTROLLER_CONFIG, buses.ucmtcpci_port_controller_config, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_CONFIG, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG"
-ms.topic: struct
 f1_keywords:
  - "ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG"
 req.header: ucmtcpciportcontroller.h

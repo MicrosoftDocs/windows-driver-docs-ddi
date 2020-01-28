@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 7918ee03-c1cb-4a38-8773-4a01832357d2
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE, NDIS_WWAN_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_CONTEXT_STATE, PNDIS_WWAN_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_87098fc7-4dbd-4331-81a4-53d425cc0bb0.xml, _NDIS_WWAN_CONTEXT_STATE, ndiswwan/NDIS_WWAN_CONTEXT_STATE, ndiswwan/PNDIS_WWAN_CONTEXT_STATE, netvista.ndis_wwan_context_state"
-ms.topic: struct
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_CONTEXT_STATE"
 req.header: ndiswwan.h

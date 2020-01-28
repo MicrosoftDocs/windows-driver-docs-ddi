@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: e0a0ad31-86c1-44bd-b069-70442973a539
 ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_b076dffc-bfe0-4141-a075-9349b69af16c.xml, DXVADDI_DECODEBUFFERINFO, DXVADDI_DECODEBUFFERINFO structure [Display Devices], _DXVADDI_DECODEBUFFERINFO, d3dumddi/DXVADDI_DECODEBUFFERINFO, display.dxvaddi_decodebufferinfo
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/DXVADDI_DECODEBUFFERINFO"
 req.header: d3dumddi.h

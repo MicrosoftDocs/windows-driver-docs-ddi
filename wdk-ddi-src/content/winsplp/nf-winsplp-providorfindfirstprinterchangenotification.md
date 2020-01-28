@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: AFDA244D-D692-44C1-8BA3-5E1F013558D6
 ms.date: 04/20/2018
 ms.keywords: ProvidorFindFirstPrinterChangeNotification, ProvidorFindFirstPrinterChangeNotification function [Print Devices], print.providorfindfirstprinterchangenotification, winsplp/ProvidorFindFirstPrinterChangeNotification
-ms.topic: function
 f1_keywords:
  - "winsplp/ProvidorFindFirstPrinterChangeNotification"
 req.header: winsplp.h

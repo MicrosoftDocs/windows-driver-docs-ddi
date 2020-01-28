@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: e791900a-06a8-4c8b-8ca8-c4e73d94f609
 ms.date: 04/30/2018
 ms.keywords: ZwSetEaFile, ZwSetEaFile routine [Kernel-Mode Driver Architecture], kernel.zwseteafile, ntifs/ZwSetEaFile
-ms.topic: function
 f1_keywords:
  - "ntifs/ZwSetEaFile"
 req.header: ntifs.h

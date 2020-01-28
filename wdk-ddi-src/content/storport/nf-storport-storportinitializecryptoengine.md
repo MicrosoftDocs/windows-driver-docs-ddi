@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 49F4EEA1-BFA6-4A91-8306-E25569C679A6
 ms.date: 03/29/2018
 ms.keywords: StorPortInitializeCryptoEngine, StorPortInitializeCryptoEngine routine [Storage Devices], storage.storportinitializecryptoengine, storport/StorPortInitializeCryptoEngine
-ms.topic: function
 f1_keywords:
  - "storport/StorPortInitializeCryptoEngine"
 req.header: storport.h

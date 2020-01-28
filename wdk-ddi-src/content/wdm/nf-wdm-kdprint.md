@@ -7,7 +7,6 @@ tech.root: devtest
 ms.assetid: 4a2ab12b-ee89-462d-821a-0a2db20cc36c
 ms.date: 02/23/2018
 ms.keywords: DebugFns_630aea64-3f51-4c73-8575-00a507846ab9.xml, KdPrint, KdPrint function [Driver Development Tools], devtest.kdprint, wdm/KdPrint
-ms.topic: macro
 f1_keywords:
  - "wdm/KdPrint"
 req.header: wdm.h

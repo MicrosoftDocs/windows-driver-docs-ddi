@@ -5,7 +5,6 @@ description: The Flattening Portal Bridge (FPB) Capabilities header. See section
 tech.root: pci
 ms.assetid: 67a5bfcc-d532-4c81-bb65-445307fcedf2
 ms.date: 09/30/2018
-ms.topic: struct
 f1_keywords:
  - "ntddk/_PCI_FPB_CAPABILITY_HEADER"
 ms.keywords: _PCI_FPB_CAPABILITY_HEADER, PCI_FPB_CAPABILITY_HEADER, *PPCI_FPB_CAPABILITY_HEADER, 

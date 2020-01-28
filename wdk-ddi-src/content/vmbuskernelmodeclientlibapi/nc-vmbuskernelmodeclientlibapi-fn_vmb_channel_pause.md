@@ -5,7 +5,6 @@ description: The VmbChannelPause function moves a channel into the paused state,
 tech.root: netvista
 ms.assetid: 9e6f55f0-c12d-430f-be21-3885ed819288
 ms.date: 05/21/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_PAUSE"
 req.header: vmbuskernelmodeclientlibapi.h

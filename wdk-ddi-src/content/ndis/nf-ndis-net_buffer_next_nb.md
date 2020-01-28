@@ -5,7 +5,6 @@ description: NET_BUFFER_NEXT_NB is a macro that NDIS drivers use to get a pointe
 tech.root: netvista
 ms.assetid: 64ae6d10-0c08-42f2-be10-a5141cf3c068
 ms.date: 04/13/2018
-ms.topic: macro
 f1_keywords:
  - "ndis/NET_BUFFER_NEXT_NB"
 ms.keywords: NET_BUFFER_NEXT_NB

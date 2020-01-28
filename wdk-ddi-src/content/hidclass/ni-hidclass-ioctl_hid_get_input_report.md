@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 968a3498-efd4-4097-a7ac-17e47809a7c9
 ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_GET_INPUT_REPORT, IOCTL_HID_GET_INPUT_REPORT control, IOCTL_HID_GET_INPUT_REPORT control code [Human Input Devices], hid.ioctl_hid_get_input_report2, hidclass/IOCTL_HID_GET_INPUT_REPORT, hidioreq_d9b80227-8a48-439e-80de-3b0e722e3576.xml
-ms.topic: ioctl
 f1_keywords:
  - "hidclass/IOCTL_HID_GET_INPUT_REPORT"
 req.header: hidclass.h

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 2b03f010-cc3c-48a1-b86c-df470a832c94
 ms.date: 05/03/2018
 ms.keywords: ComOther_894176f1-bf26-4780-b287-a97993dd6e79.xml, IDebugSymbolGroup interface [Windows Debugging],RemoveSymbolByName method, IDebugSymbolGroup.RemoveSymbolByName, IDebugSymbolGroup2 interface [Windows Debugging],RemoveSymbolByName method, IDebugSymbolGroup2::RemoveSymbolByName, IDebugSymbolGroup::RemoveSymbolByName, RemoveSymbolByName, RemoveSymbolByName method [Windows Debugging], RemoveSymbolByName method [Windows Debugging],IDebugSymbolGroup interface, RemoveSymbolByName method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::RemoveSymbolByName, dbgeng/IDebugSymbolGroup::RemoveSymbolByName, debugger.removesymbolbyname
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup.RemoveSymbolByName"
 req.header: dbgeng.h

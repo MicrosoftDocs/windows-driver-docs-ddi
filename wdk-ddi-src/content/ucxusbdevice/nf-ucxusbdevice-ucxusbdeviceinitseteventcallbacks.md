@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 913F96FD-9C51-4A45-86A9-8830E1A395EE
 ms.date: 05/07/2018
 ms.keywords: UcxUsbDeviceInitSetEventCallbacks, UcxUsbDeviceInitSetEventCallbacks method [Buses], buses._ucxusbdeviceinitseteventcallbacks
-ms.topic: function
 f1_keywords:
  - "ucxusbdevice/UcxUsbDeviceInitSetEventCallbacks"
 req.header: ucxusbdevice.h

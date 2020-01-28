@@ -4,7 +4,6 @@ title: IModelObject::IsEqualTo (dbgmodel.h)
 description: The IsEqualTo method compares a host context to another host context. If the two contexts are equivalent, an indication of this is returned. Note that this comparison is not interface equivalence.
 ms.assetid: 06dd5b3c-8216-444b-82a7-dcfbf0361a30
 ms.date: 08/13/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IModelObject.IsEqualTo"
 ms.keywords: IModelObject::IsEqualTo, IsEqualTo, IModelObject.IsEqualTo, IModelObject::IsEqualTo, IModelObject.IsEqualTo

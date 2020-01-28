@@ -6,7 +6,6 @@ old-location: display\d3dkmtinvalidateactivevidpn.htm
 ms.assetid: a7cac46d-b64d-4362-99ab-179aa6525ba2
 ms.date: 05/10/2018
 ms.keywords: D3DKMTInvalidateActiveVidPn, D3DKMTInvalidateActiveVidPn function [Display Devices], OpenGL_Functions_3c74c218-cf17-4a86-af8e-da565b3cffd4.xml, d3dkmthk/D3DKMTInvalidateActiveVidPn, display.d3dkmtinvalidateactivevidpn
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTInvalidateActiveVidPn"
 req.header: d3dkmthk.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 3008a69e-25d8-4e54-afb3-317a8ca82d34
 ms.date: 05/02/2018
 ms.keywords: "*LPRILGPPREJECTCAUSE, RILGPPREJECTCAUSE, RILGPPREJECTCAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgpprejectcause, ntddrilapitypes/RILGPPREJECTCAUSE"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILGPPREJECTCAUSE"
 req.header: rilapitypes.h

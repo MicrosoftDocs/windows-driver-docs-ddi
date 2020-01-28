@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 766add6b-02a7-40b2-abfa-d30d3a24b067
 ms.author: windowsdriverdev
 ms.date: 10/07/2019
-ms.topic: function
 f1_keywords:
  - "netwakesource/NetWakeSourceGetBitmapParameters"
 ms.keywords: NetWakeSourceGetBitmapParameters

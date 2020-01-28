@@ -6,7 +6,6 @@ old-location: display\d3d12ddi_video_process_max_input_streams_data.htm
 ms.assetid: 41518F04-4AD1-4057-8988-5934F3875B8E
 ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020, D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020, display.d3d12ddi_video_process_max_input_streams_data
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA_0020"
 req.header: d3d12umddi.h

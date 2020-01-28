@@ -6,7 +6,6 @@ old-location: display\dxgkarg_submitcommandvirtual.htm
 ms.assetid: 7BBB4BEC-82F1-44B9-A0C2-1073517A4116
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_SUBMITCOMMANDVIRTUAL, DXGKARG_SUBMITCOMMANDVIRTUAL structure [Display Devices], _DXGKARG_SUBMITCOMMANDVIRTUAL, d3dkmddi/DXGKARG_SUBMITCOMMANDVIRTUAL, display.dxgkarg_submitcommandvirtual
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_SUBMITCOMMANDVIRTUAL"
 req.header: d3dkmddi.h

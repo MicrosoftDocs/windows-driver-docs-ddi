@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: c9ce4ff9-1c69-40c4-8d82-d1ec4e134f34
 ms.date: 04/30/2019
 ms.keywords: "*PLOOPEDSTREAMING_POSITION_EVENT_DATA, LOOPEDSTREAMING_POSITION_EVENT_DATA, LOOPEDSTREAMING_POSITION_EVENT_DATA structure [Audio Devices], PLOOPEDSTREAMING_POSITION_EVENT_DATA, PLOOPEDSTREAMING_POSITION_EVENT_DATA structure pointer [Audio Devices], aud-prop_637593e4-087a-4856-95e2-cb99f9df3d0c.xml, audio.loopedstreaming_position_event_data, ksmedia/LOOPEDSTREAMING_POSITION_EVENT_DATA, ksmedia/PLOOPEDSTREAMING_POSITION_EVENT_DATA"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/LOOPEDSTREAMING_POSITION_EVENT_DATA"
 req.header: ksmedia.h

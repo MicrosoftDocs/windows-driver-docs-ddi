@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 8abd72f1-0537-4624-b3d4-2de51c4d4daa
 ms.date: 04/30/2018
 ms.keywords: ExFreeToNPagedLookasideList, ExFreeToNPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_30577c54-40a4-41a3-abc2-f3cdcd45ef1b.xml, kernel.exfreetonpagedlookasidelist, wdm/ExFreeToNPagedLookasideList
-ms.topic: function
 f1_keywords:
  - "wdm/ExFreeToNPagedLookasideList"
 req.header: wdm.h

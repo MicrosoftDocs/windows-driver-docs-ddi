@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 86f236fa-73f8-4071-b6da-6de2d276cbff
 ms.date: 05/03/2018
 ms.keywords: GetDebuggeeType, GetDebuggeeType method [Windows Debugging], GetDebuggeeType method [Windows Debugging],IDebugControl interface, GetDebuggeeType method [Windows Debugging],IDebugControl2 interface, GetDebuggeeType method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetDebuggeeType method, IDebugControl2 interface [Windows Debugging],GetDebuggeeType method, IDebugControl2::GetDebuggeeType, IDebugControl3 interface [Windows Debugging],GetDebuggeeType method, IDebugControl3.GetDebuggeeType, IDebugControl3::GetDebuggeeType, IDebugControl::GetDebuggeeType, IDebugControl_4179686c-b047-41f5-98cc-28f2c6bd852d.xml, dbgeng/IDebugControl2::GetDebuggeeType, dbgeng/IDebugControl3::GetDebuggeeType, dbgeng/IDebugControl::GetDebuggeeType, debugger.getdebuggeetype
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl.GetDebuggeeType"
 req.header: dbgeng.h

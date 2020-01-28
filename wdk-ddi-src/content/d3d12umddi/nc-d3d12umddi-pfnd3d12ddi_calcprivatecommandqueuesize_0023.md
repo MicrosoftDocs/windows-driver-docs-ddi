@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_calcprivatecommandqueuesize_0023.htm
 ms.assetid: 70A81285-97CD-4526-8EB0-F00908B2D331
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0023, PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0023 callback, d3d12umddi/pfnCalcPrivateCommandQueueSize, display.pfnd3d12ddi_calcprivatecommandqueuesize_0023, pfnCalcPrivateCommandQueueSize, pfnCalcPrivateCommandQueueSize callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/pfnCalcPrivateCommandQueueSize"
 req.header: d3d12umddi.h

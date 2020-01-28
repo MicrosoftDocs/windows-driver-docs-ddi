@@ -4,7 +4,6 @@ title: D3DKMTAdjustFullscreenGamma function (d3dkmthk.h)
 description: Adjusts full screen gamma.
 ms.assetid: 194c2969-02b8-4caa-ba6c-a20fb87507d2
 ms.date: 10/19/2018
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTAdjustFullscreenGamma"
 ms.keywords: D3DKMTAdjustFullscreenGamma

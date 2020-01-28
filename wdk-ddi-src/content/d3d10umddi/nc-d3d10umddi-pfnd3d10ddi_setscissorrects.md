@@ -6,7 +6,6 @@ old-location: display\setscissorrects.htm
 ms.assetid: ef61f50b-a82b-43df-865f-2f9d9ca906d4
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_SETSCISSORRECTS, PFND3D10DDI_SETSCISSORRECTS callback, SetScissorRects, SetScissorRects callback function [Display Devices], UserModeDisplayDriverDx10_Functions_c1eec8b9-134e-4066-9f31-d1693e0c4b66.xml, d3d10umddi/SetScissorRects, display.setscissorrects
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

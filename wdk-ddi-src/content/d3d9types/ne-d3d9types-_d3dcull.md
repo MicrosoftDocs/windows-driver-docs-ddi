@@ -4,7 +4,6 @@ title: _D3DCULL (d3d9types.h)
 description: 
 ms.assetid: f22fb406-d3b5-4965-9a5a-dbac6560e30e
 ms.date: 10/19/2018
-ms.topic: enum
 f1_keywords:
  - "d3d9types/_D3DCULL"
 ms.keywords: _D3DCULL, D3DCULL, 

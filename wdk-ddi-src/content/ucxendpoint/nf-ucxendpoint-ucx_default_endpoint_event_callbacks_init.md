@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: EE7ABC3D-948B-481B-B254-40A05EDEB83D
 ms.date: 05/07/2018
 ms.keywords: UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses], buses.ucx_default_endpoint_event_callbacks_init, ucxendpoint/UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT
-ms.topic: function
 f1_keywords:
  - "ucxendpoint/UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS_INIT"
 req.header: ucxendpoint.h

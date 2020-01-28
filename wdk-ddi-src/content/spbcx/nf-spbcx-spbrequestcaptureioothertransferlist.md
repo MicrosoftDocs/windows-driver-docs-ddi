@@ -7,7 +7,6 @@ tech.root: SPB
 ms.assetid: 7AC76E6F-1250-49EB-BEA1-3807C65AC2B7
 ms.date: 04/30/2018
 ms.keywords: SPB.spbrequestcaptureioothertransferlist, SpbRequestCaptureIoOtherTransferList, SpbRequestCaptureIoOtherTransferList method [Buses], spbcx/SpbRequestCaptureIoOtherTransferList
-ms.topic: function
 f1_keywords:
  - "spbcx/SpbRequestCaptureIoOtherTransferList"
 req.header: spbcx.h

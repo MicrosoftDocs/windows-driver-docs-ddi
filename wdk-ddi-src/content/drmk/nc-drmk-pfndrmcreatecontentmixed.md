@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: A4BA818F-126F-4134-AEDA-F983ADFC4A07
 ms.date: 05/08/2018
 ms.keywords: DRMCreateContentMixed, DRMCreateContentMixed callback function [Audio Devices], PFNDRMCREATECONTENTMIXED, PFNDRMCREATECONTENTMIXED callback, PfnDRMCreateContentMixed, PfnDRMCreateContentMixed callback function [Audio Devices], audio.pfndrmcreatecontentmixed, drmk/PfnDRMCreateContentMixed
-ms.topic: callback
 f1_keywords:
  - "drmk/DRMCreateContentMixed"
 req.header: drmk.h

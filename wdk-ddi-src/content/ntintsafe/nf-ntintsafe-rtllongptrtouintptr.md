@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: A3AE875A-0794-4EE1-9795-A9CCDC7C8F78
 ms.date: 04/30/2018
 ms.keywords: RtlLongPtrToUIntPtr, RtlLongPtrToUIntPtr function [Kernel-Mode Driver Architecture], kernel.rtllongptrtouintptr, ntintsafe/RtlLongPtrToUIntPtr
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlLongPtrToUIntPtr"
 req.header: ntintsafe.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 966dfc6c-6830-4872-b411-2801e3a4b753
 ms.date: 05/10/2018
 ms.keywords: AgpReserveVirtual, AgpReserveVirtual callback function [Display Devices], PAGP_RESERVE_VIRTUAL, PAGP_RESERVE_VIRTUAL callback, VideoPort_Functions_ed4d4e19-25f2-4169-a80e-8c57c80ffd2b.xml, display.agpreservevirtual, videoagp/AgpReserveVirtual
-ms.topic: callback
 f1_keywords:
  - "videoagp/AgpReserveVirtual"
 req.header: videoagp.h

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 8d14604f-c9e5-4a2d-bb51-ef1925b39118
 ms.date: 04/16/2018
 ms.keywords: RxLockEnumerator, RxLockEnumerator function [Installable File System Drivers], ifsk.rxlockenumerator, rxprocs/RxLockEnumerator, rxref_62372da9-aa80-447e-8e79-6bc1f1c5cf54.xml
-ms.topic: function
 f1_keywords:
  - "rxprocs/RxLockEnumerator"
 req.header: rxprocs.h

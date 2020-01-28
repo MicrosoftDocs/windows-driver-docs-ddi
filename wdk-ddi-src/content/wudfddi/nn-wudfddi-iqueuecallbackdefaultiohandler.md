@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 3b2980f9-2f55-4fe3-99ac-1da578688f4b
 ms.date: 02/26/2018
 ms.keywords: IQueueCallbackDefaultIoHandler, IQueueCallbackDefaultIoHandler interface, IQueueCallbackDefaultIoHandler interface,described, UMDFQueueObjectRef_31f05689-d38c-444b-b930-9c6c5136c60d.xml, umdf.iqueuecallbackdefaultiohandler, wdf.iqueuecallbackdefaultiohandler, wudfddi/IQueueCallbackDefaultIoHandler
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IQueueCallbackDefaultIoHandler"
 req.header: wudfddi.h

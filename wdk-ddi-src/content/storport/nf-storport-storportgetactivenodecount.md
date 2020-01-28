@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: b981bfe7-832b-47ae-a742-c4829a6ad06b
 ms.date: 03/29/2018
 ms.keywords: StorPortGetActiveNodeCount, StorPortGetActiveNodeCount routine [Storage Devices], storage.storportgetactivenodecount, storport/StorPortGetActiveNodeCount, storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortGetActiveNodeCount"
 req.header: storport.h

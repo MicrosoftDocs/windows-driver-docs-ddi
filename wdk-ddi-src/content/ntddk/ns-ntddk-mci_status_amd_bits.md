@@ -7,7 +7,6 @@ tech.root:
 ms.assetid: d4119011-157e-4f51-b95a-6ab20cf553c0
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: struct
 f1_keywords:
  - "ntddk/MCI_STATUS_AMD_BITS"
 ms.keywords: MCI_STATUS_AMD_BITS, MCI_STATUS_AMD_BITS, *PMCI_STATUS_AMD_BITS, 

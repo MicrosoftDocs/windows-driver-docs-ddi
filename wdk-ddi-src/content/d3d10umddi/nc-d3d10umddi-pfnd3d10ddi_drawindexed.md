@@ -6,7 +6,6 @@ old-location: display\drawindexed.htm
 ms.assetid: d1097bb6-35ac-4069-ae05-b74c75a98e21
 ms.date: 05/10/2018
 ms.keywords: DrawIndexed, DrawIndexed callback function [Display Devices], PFND3D10DDI_DRAWINDEXED, PFND3D10DDI_DRAWINDEXED callback, UserModeDisplayDriverDx10_Functions_4529cc06-0ad4-41ea-8cab-b55a398cb889.xml, d3d10umddi/DrawIndexed, display.drawindexed
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/DrawIndexed"
 req.header: d3d10umddi.h

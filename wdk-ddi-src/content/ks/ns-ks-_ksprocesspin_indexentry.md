@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 8fa26442-66a3-4eeb-89d4-21418d60a1af
 ms.date: 04/23/2018
 ms.keywords: "*PKSPROCESSPIN_INDEXENTRY, KSPROCESSPIN_INDEXENTRY, KSPROCESSPIN_INDEXENTRY structure [Streaming Media Devices], PKSPROCESSPIN_INDEXENTRY, PKSPROCESSPIN_INDEXENTRY structure pointer [Streaming Media Devices], _KSPROCESSPIN_INDEXENTRY, avstruct_c32acda3-bab1-4077-a834-4b44a92524db.xml, ks/KSPROCESSPIN_INDEXENTRY, ks/PKSPROCESSPIN_INDEXENTRY, stream.ksprocesspin_indexentry"
-ms.topic: struct
 f1_keywords:
  - "ks/KSPROCESSPIN_INDEXENTRY"
 req.header: ks.h

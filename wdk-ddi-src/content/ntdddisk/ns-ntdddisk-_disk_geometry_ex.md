@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 6397c0dd-4dc7-49fa-85a7-841f6c2b30d8
 ms.date: 01/06/2020
 ms.keywords: "*PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX, DISK_GEOMETRY_EX structure [Storage Devices], PDISK_GEOMETRY_EX, PDISK_GEOMETRY_EX structure pointer [Storage Devices], _DISK_GEOMETRY_EX, ntdddisk/DISK_GEOMETRY_EX, ntdddisk/PDISK_GEOMETRY_EX, storage.disk_geometry_ex, structs-disk_58b543a6-c9ee-4acf-9012-6572e9e9e627.xml"
-ms.topic: struct
 f1_keywords:
  - "ntdddisk/DISK_GEOMETRY_EX"
 req.header: ntdddisk.h

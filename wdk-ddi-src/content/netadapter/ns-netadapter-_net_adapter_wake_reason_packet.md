@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: b6693c4b-f299-4437-953c-868e6238c9b2
 ms.author: windowsdriverdev
 ms.date: 10/25/2019
-ms.topic: struct
 f1_keywords:
  - "netadapter/NET_ADAPTER_WAKE_REASON_PACKET"
 ms.keywords: NET_ADAPTER_WAKE_REASON_PACKET, NET_ADAPTER_WAKE_REASON_PACKET, 

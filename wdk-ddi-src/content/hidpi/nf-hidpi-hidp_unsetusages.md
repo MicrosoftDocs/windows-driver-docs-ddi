@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 55dcd9f3-6903-4718-98c2-ee42ee1026e3
 ms.date: 04/30/2018
 ms.keywords: HidP_UnsetUsages, HidP_UnsetUsages routine [Human Input Devices], hid.hidp_unsetusages, hidfunc_7ffa6677-1a45-4e19-8001-116fbeacf097.xml, hidpi/HidP_UnsetUsages
-ms.topic: function
 f1_keywords:
  - "hidpi/HidP_UnsetUsages"
 req.header: hidpi.h

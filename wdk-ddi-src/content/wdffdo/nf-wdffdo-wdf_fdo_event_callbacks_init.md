@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 02ff7c36-8bca-4531-bef5-d8a284d2d047
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_fdf4f567-cbdd-4fb4-a752-344f6a298bbf.xml, WDF_FDO_EVENT_CALLBACKS_INIT, WDF_FDO_EVENT_CALLBACKS_INIT function, kmdf.wdf_fdo_event_callbacks_init, wdf.wdf_fdo_event_callbacks_init, wdffdo/WDF_FDO_EVENT_CALLBACKS_INIT
-ms.topic: function
 f1_keywords:
  - "wdffdo/WDF_FDO_EVENT_CALLBACKS_INIT"
 req.header: wdffdo.h

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 981655A8-B6DC-4720-8D2E-B42AA0859FB2
 ms.date: 03/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_REVERT, IOCTL_EHSTOR_BANDMGMT_REVERT control, IOCTL_EHSTOR_BANDMGMT_REVERT control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_REVERT, storage.ioctl_ehstor_bandmgmt_revert
-ms.topic: ioctl
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_REVERT"
 req.header: ehstorbandmgmt.h

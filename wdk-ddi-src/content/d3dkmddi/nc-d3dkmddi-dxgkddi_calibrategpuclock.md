@@ -6,7 +6,6 @@ old-location: display\dxgkddicalibrategpuclock.htm
 ms.assetid: AF912508-D6EF-450D-AEC3-47D1C44D0DA0
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CALIBRATEGPUCLOCK, DXGKDDI_CALIBRATEGPUCLOCK callback, DxgkDdiCalibrateGpuClock, DxgkDdiCalibrateGpuClock callback function [Display Devices], d3dkmddi/DxgkDdiCalibrateGpuClock, display.dxgkddicalibrategpuclock
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

@@ -6,7 +6,6 @@ old-location: display\pfnd3dwddm2_2ddi_relocatedevicefuncs.htm
 ms.assetid: EAABE65C-3893-4B4C-BB7E-A02F91F869BE
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_2DDI_RELOCATEDEVICEFUNCS, PFND3DWDDM2_2DDI_RELOCATEDEVICEFUNCS callback, d3d10umddi/pfnRelocateDeviceFuncs, display.pfnd3dwddm2_2ddi_relocatedevicefuncs, pfnRelocateDeviceFuncs, pfnRelocateDeviceFuncs callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

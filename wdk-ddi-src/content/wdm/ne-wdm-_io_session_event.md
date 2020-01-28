@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 6bdc1c25-bac3-416e-af3d-66a125f0f036
 ms.date: 04/30/2018
 ms.keywords: "*PIO_SESSION_EVENT, IO_SESSION_EVENT, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], IoSessionEventConnected, IoSessionEventCreated, IoSessionEventDisconnected, IoSessionEventLogoff, IoSessionEventLogon, IoSessionEventMax, IoSessionEventTerminated, PIO_SESSION_EVENT, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], _IO_SESSION_EVENT, kernel.io_session_event, sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, wdm/IO_SESSION_EVENT, wdm/IoSessionEventConnected, wdm/IoSessionEventCreated, wdm/IoSessionEventDisconnected, wdm/IoSessionEventLogoff, wdm/IoSessionEventLogon, wdm/IoSessionEventMax, wdm/IoSessionEventTerminated, wdm/PIO_SESSION_EVENT"
-ms.topic: enum
 f1_keywords:
  - "wdm/IO_SESSION_EVENT"
 req.header: wdm.h

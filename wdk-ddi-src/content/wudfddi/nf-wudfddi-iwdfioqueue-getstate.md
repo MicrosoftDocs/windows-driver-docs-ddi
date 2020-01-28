@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 42dc9bbe-b00d-4187-ab07-0c268a061298
 ms.date: 02/26/2018
 ms.keywords: GetState, GetState method, GetState method,IWDFIoQueue interface, IWDFIoQueue interface,GetState method, IWDFIoQueue.GetState, IWDFIoQueue::GetState, UMDFQueueObjectRef_81051128-228b-476a-b27f-5c542558d8a8.xml, umdf.iwdfioqueue_getstate, wdf.iwdfioqueue_getstate, wudfddi/IWDFIoQueue::GetState
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoQueue.GetState"
 req.header: wudfddi.h

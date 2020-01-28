@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: c1f508a3-6aa8-4fed-af14-6466fcae30da
 ms.date: 03/29/2018
 ms.keywords: ChangerGetParameters, ChangerGetParameters function [Storage Devices], chgrmini_d8cfe74e-46ff-4aee-b1a2-2e55be7ed01f.xml, mcd/ChangerGetParameters, storage.changergetparameters
-ms.topic: function
 f1_keywords:
  - "mcd/ChangerGetParameters"
 req.header: mcd.h

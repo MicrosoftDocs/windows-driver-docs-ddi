@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: ad2b3372-f8b4-49dc-ba20-2ee89d60f41f
 ms.date: 04/16/2018
 ms.keywords: CcCopyWriteWontFlush, CcCopyWriteWontFlush function [Installable File System Drivers], ccref_a8540235-ac2e-4d04-8153-95e2dae5a650.xml, ifsk.cccopywritewontflush, ntifs/CcCopyWriteWontFlush
-ms.topic: function
 f1_keywords:
  - "ntifs/CcCopyWriteWontFlush"
 req.header: ntifs.h

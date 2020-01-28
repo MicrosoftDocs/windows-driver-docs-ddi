@@ -7,7 +7,6 @@ tech.root: PCI
 ms.assetid: 5299ec17-1fcb-4449-9ec4-73a4d818df0d
 ms.date: 02/24/2018
 ms.keywords: IOCTL_SRIOV_EVENT_COMPLETE, IOCTL_SRIOV_EVENT_COMPLETE control code [Buses], PCI.ioctl-sriov-event-complete, pcivirt/IOCTL_SRIOV_EVENT_COMPLETE
-ms.topic: ioctl
 f1_keywords:
  - "pcivirt/IOCTL_SRIOV_EVENT_COMPLETE"
 req.header: pcivirt.h

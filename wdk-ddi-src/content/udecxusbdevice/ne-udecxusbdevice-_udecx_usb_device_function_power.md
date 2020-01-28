@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 7EE6D8AE-E001-4BC9-A617-682202A297E7
 ms.date: 05/07/2018
 ms.keywords: "*PUDECX_USB_DEVICE_FUNCTION_POWER, PUDECX_USB_DEVICE_FUNCTION_POWER, PUDECX_USB_DEVICE_FUNCTION_POWER enumeration pointer [Buses], UDECX_USB_DEVICE_FUNCTION_POWER, UDECX_USB_DEVICE_FUNCTION_POWER enumeration [Buses], UdecxUsbDeviceFunctionNotSuspended, UdecxUsbDeviceFunctionSuspendedCanWake, UdecxUsbDeviceFunctionSuspendedCannotWake, _UDECX_USB_DEVICE_FUNCTION_POWER, buses.udecx_usb_device_function_power, udecxusbdevice/PUDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/UDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/UdecxUsbDeviceFunctionNotSuspended, udecxusbdevice/UdecxUsbDeviceFunctionSuspendedCanWake, udecxusbdevice/UdecxUsbDeviceFunctionSuspendedCannotWake"
-ms.topic: enum
 f1_keywords:
  - "udecxusbdevice/UDECX_USB_DEVICE_FUNCTION_POWER"
 req.header: udecxusbdevice.h

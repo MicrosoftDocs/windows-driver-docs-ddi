@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 8a9718eb-59f3-441a-b482-c2a376a48ac1
 ms.date: 05/07/2018
 ms.keywords: PUSB_BUSIFFN_QUERY_BUS_TIME_EX, QueryBusTimeEx, QueryBusTimeEx callback function [Buses], USB_BUSIFFN_QUERY_BUS_TIME_EX, USB_BUSIFFN_QUERY_BUS_TIME_EX callback, buses.querybustimeex, usbbusif/QueryBusTimeEx
-ms.topic: callback
 f1_keywords:
  - "usbbusif/QueryBusTimeEx"
 req.header: usbbusif.h

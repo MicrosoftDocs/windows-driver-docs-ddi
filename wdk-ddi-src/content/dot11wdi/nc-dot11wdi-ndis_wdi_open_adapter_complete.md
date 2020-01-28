@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: FD6FF134-A8D7-433E-9353-88965E67749E
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_OPEN_ADAPTER_COMPLETE, NDIS_WDI_OPEN_ADAPTER_COMPLETE callback, NdisWdiOpenAdapterComplete, NdisWdiOpenAdapterComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiOpenAdapterComplete, netvista.ndiswdiopenadaptercomplete
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/NdisWdiOpenAdapterComplete"
 req.header: dot11wdi.h

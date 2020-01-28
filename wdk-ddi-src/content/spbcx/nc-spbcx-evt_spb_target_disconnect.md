@@ -7,7 +7,6 @@ tech.root: SPB
 ms.assetid: 02756C35-E76C-42C0-80FA-359CADE224A1
 ms.date: 04/30/2018
 ms.keywords: EVT_SPB_TARGET_DISCONNECT, EVT_SPB_TARGET_DISCONNECT callback, EvtSpbTargetDisconnect, EvtSpbTargetDisconnect callback function [Buses], SPB.evtspbtargetdisconnect, spbcx/EvtSpbTargetDisconnect
-ms.topic: callback
 f1_keywords:
  - "spbcx/EvtSpbTargetDisconnect"
 req.header: spbcx.h

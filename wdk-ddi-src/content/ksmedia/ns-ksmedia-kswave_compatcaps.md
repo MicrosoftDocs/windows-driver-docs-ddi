@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 92e6090e-6a31-45d9-ac6d-a20bf180f12e
 ms.date: 04/30/2019
 ms.keywords: "*PKSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS structure [Streaming Media Devices], PKSWAVE_COMPATCAPS, PKSWAVE_COMPATCAPS structure pointer [Streaming Media Devices], dvdref_496e945d-fb6d-47da-8668-4cb8f1b265e6.xml, ksmedia/KSWAVE_COMPATCAPS, ksmedia/PKSWAVE_COMPATCAPS, stream.kswave_compatcaps"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSWAVE_COMPATCAPS"
 req.header: ksmedia.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0ce6b0e0-5afe-4069-8839-dd1ea0611fe3
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
 f1_keywords:
  - "dispmprt/_DXGKARG_GETGPUPARTITIONINFO"
 ms.prod: windows-hardware

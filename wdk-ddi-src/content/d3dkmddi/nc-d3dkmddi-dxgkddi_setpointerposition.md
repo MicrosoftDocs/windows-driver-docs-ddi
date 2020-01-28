@@ -6,7 +6,6 @@ old-location: display\dxgkddisetpointerposition.htm
 ms.assetid: b30e4f19-068c-4ab0-a2e9-b1f57592be1c
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_SETPOINTERPOSITION, DXGKDDI_SETPOINTERPOSITION callback, DmFunctions_1067a75d-aece-48c2-93c1-35465c57c07e.xml, DxgkDdiSetPointerPosition, DxgkDdiSetPointerPosition callback function [Display Devices], d3dkmddi/DxgkDdiSetPointerPosition, display.dxgkddisetpointerposition
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

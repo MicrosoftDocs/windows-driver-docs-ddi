@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 3f8cc918-9819-4c32-93f3-dbc2c1023016
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_DRAWINDEXEDPRIMITIVE, D3DDDIARG_DRAWINDEXEDPRIMITIVE structure [Display Devices], UMDisplayDriver_param_Structs_241177c0-f301-4b49-93cb-5c75ca8cb30a.xml, _D3DDDIARG_DRAWINDEXEDPRIMITIVE, d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE, display.d3dddiarg_drawindexedprimitive
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE"
 req.header: d3dumddi.h

@@ -5,7 +5,6 @@ description: Calculates the geometry shader with stream output.
 tech.root: display
 ms.assetid: 91788a05-c3a3-4ec1-9eb2-809e7a891d50
 ms.date: 11/28/2018
-ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

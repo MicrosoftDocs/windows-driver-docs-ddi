@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: c8671ba7-6128-4f0f-b5b1-32ce35e31168
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_a412f56d-8cee-40de-93fb-1c007fe87c3c.xml, FltReuseCallbackData, FltReuseCallbackData routine [Installable File System Drivers], fltkernel/FltReuseCallbackData, ifsk.fltreusecallbackdata
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltReuseCallbackData"
 req.header: fltkernel.h

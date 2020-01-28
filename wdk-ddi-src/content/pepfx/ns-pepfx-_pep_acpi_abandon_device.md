@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: A8D0FA24-664F-4A2B-BF08-300D6E30F7E2
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_ACPI_ABANDON_DEVICE, PEP_ACPI_ABANDON_DEVICE, PEP_ACPI_ABANDON_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_ABANDON_DEVICE, PPEP_ACPI_ABANDON_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_ABANDON_DEVICE, kernel.pep_acpi_abandon_device, pepfx/PEP_ACPI_ABANDON_DEVICE, pepfx/PPEP_ACPI_ABANDON_DEVICE"
-ms.topic: struct
 f1_keywords:
  - "pepfx/PEP_ACPI_ABANDON_DEVICE"
 req.header: pepfx.h

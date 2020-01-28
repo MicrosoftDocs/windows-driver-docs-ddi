@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 02b4a485-d44b-458c-89f5-1807500b6db8
 ms.date: 05/02/2018
 ms.keywords: NdisIfDeleteIfStackEntry, NdisIfDeleteIfStackEntry function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeleteIfStackEntry, net_if_functions_ref_dc4a2189-1dc6-43c5-8cef-baf5907d3d60.xml, netvista.ndisifdeleteifstackentry
-ms.topic: function
 f1_keywords:
  - "ndis/NdisIfDeleteIfStackEntry"
 req.header: ndis.h

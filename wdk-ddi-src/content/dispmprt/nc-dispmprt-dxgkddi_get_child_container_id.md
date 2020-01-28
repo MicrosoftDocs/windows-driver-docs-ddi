@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: e7073fb3-0cb7-425e-9ffb-d7eaa963a70f
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_GET_CHILD_CONTAINER_ID, DXGKDDI_GET_CHILD_CONTAINER_ID callback, DxgkDdiGetChildContainerId, DxgkDdiGetChildContainerId callback function [Display Devices], display.dxgkddigetchildcontainerid, dispmprt/DxgkDdiGetChildContainerId
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiGetChildContainerId"
 req.header: dispmprt.h

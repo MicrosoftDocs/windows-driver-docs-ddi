@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 057827CD-03DD-429D-9DDF-7846D344DC88
 ms.author: windowsdriverdev
 ms.date: 09/26/2019
-ms.topic: function
 f1_keywords:
  - "returncontext/NetExtensionGetFragmentReturnContext"
 ms.keywords: NetExtensionGetFragmentReturnContext

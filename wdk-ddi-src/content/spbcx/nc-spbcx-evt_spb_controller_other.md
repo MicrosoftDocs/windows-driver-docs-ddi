@@ -7,7 +7,6 @@ tech.root: SPB
 ms.assetid: 5A4BC061-4703-4C46-BD5D-A891F3DA8842
 ms.date: 04/30/2018
 ms.keywords: EVT_SPB_CONTROLLER_OTHER, EVT_SPB_CONTROLLER_OTHER callback, EvtSpbControllerIoOther, EvtSpbControllerIoOther callback function [Buses], SPB.evtspbcontrollerioother, spbcx/EvtSpbControllerIoOther
-ms.topic: callback
 f1_keywords:
  - "spbcx/EvtSpbControllerIoOther"
 req.header: spbcx.h

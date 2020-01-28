@@ -4,7 +4,6 @@ title: PFND3DKMT_RELEASEKEYEDMUTEX (d3dkmthk.h)
 description: The PFND3DKMT_RELEASEKEYEDMUTEX callback function releases a keyed mutex object.
 ms.assetid: a738d7b0-4526-4549-9371-e67036b2eae8
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 

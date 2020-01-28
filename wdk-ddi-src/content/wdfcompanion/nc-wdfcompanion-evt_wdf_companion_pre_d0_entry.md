@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 18d55cf3-62c3-42e8-8c33-f61ea80ff680
 ms.date: 02/26/2018
 ms.keywords: EVT_WDF_COMPANION_PRE_D0_ENTRY, EVT_WDF_COMPANION_PRE_D0_ENTRY callback, EVT_WDF_COMPANION_PRE_D0_ENTRY callback function, wdf.evt_wdf_companion_pre_d0_entry, wdfcompanion/EVT_WDF_COMPANION_PRE_D0_ENTRY
-ms.topic: callback
 f1_keywords:
  - "wdfcompanion/EVT_WDF_COMPANION_PRE_D0_ENTRY"
 req.header: wdfcompanion.h

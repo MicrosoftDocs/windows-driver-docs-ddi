@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: D44C8782-DA25-4189-AECA-B899A4AA9279
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaPageMediaSizeOption interface [Print Devices],WidthInMicrons property, IPrintSchemaPageMediaSizeOption.WidthInMicrons, IPrintSchemaPageMediaSizeOption.get_WidthInMicrons, IPrintSchemaPageMediaSizeOption::WidthInMicrons, IPrintSchemaPageMediaSizeOption::get_WidthInMicrons, WidthInMicrons property [Print Devices], WidthInMicrons property [Print Devices],IPrintSchemaPageMediaSizeOption interface, get_WidthInMicrons, print.iprintschemapagemediasizeoption_widthinmicrons, printerextension/IPrintSchemaPageMediaSizeOption::WidthInMicrons, printerextension/IPrintSchemaPageMediaSizeOption::get_WidthInMicrons
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintSchemaPageMediaSizeOption.WidthInMicrons"
 req.header: printerextension.h

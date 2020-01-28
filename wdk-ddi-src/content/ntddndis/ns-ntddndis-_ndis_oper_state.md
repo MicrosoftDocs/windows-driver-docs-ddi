@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: c08f8bcd-23fc-445c-9c42-e5c4edc75d78
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_OPER_STATE, NDIS_OPER_STATE, NDIS_OPER_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_OPER_STATE, PNDIS_OPER_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OPER_STATE, ndis_status_ref_d5bb44f8-a279-4806-b81b-87e109078a82.xml, netvista.ndis_oper_state, ntddndis/NDIS_OPER_STATE, ntddndis/PNDIS_OPER_STATE"
-ms.topic: struct
 f1_keywords:
  - "ntddndis/NDIS_OPER_STATE"
 req.header: ntddndis.h

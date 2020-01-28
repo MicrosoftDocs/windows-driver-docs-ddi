@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 526ce708-93bb-43f2-9d78-b3e8360e01da
 ms.date: 05/02/2018
 ms.keywords: "*LPRILCALLWAITINGINFO, RILCALLWAITINGINFO, RILCALLWAITINGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcallwaitinginfo, ntddrilapitypes/RILCALLWAITINGINFO"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILCALLWAITINGINFO"
 req.header: rilapitypes.h

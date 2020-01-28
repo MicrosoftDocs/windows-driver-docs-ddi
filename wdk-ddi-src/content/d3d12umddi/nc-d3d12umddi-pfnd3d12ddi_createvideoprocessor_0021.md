@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_createvideoprocessor.htm
 ms.assetid: 4F1AA75F-DDC7-490B-8CE2-590691991234
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CREATEVIDEOPROCESSOR_0021, PFND3D12DDI_CREATEVIDEOPROCESSOR_0021 callback, d3d12umddi/pfnCreateVideoProcessor, display.pfnd3d12ddi_createvideoprocessor, pfnCreateVideoProcessor, pfnCreateVideoProcessor callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/pfnCreateVideoProcessor"
 req.header: d3d12umddi.h

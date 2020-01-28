@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: d9be3108-27fe-4899-bf23-0f51d9309888
 ms.date: 05/10/2018
 ms.keywords: VideoPortWritePortBufferUshort, VideoPortWritePortBufferUshort function [Display Devices], VideoPort_Functions_cf88884e-2891-4e82-b7e0-afaa605a2d65.xml, display.videoportwriteportbufferushort, video/VideoPortWritePortBufferUshort
-ms.topic: function
 f1_keywords:
  - "video/VideoPortWritePortBufferUshort"
 req.header: video.h

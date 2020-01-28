@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 45a5ab64-1b34-4f48-bbe3-285016e9c16e
 ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_ENABLE_VDM, IOCTL_VIDEO_ENABLE_VDM control, IOCTL_VIDEO_ENABLE_VDM control code [Display Devices], Video_IOCTLs_d0e75fac-0604-49f5-9293-3455659ab821.xml, display.ioctl_video_enable_vdm, ntddvdeo/IOCTL_VIDEO_ENABLE_VDM
-ms.topic: ioctl
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_ENABLE_VDM"
 req.header: ntddvdeo.h

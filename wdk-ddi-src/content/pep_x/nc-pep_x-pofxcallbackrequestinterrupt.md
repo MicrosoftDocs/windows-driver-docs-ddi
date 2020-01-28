@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: B999405D-D6A5-4DFF-A902-F9C938C29063
 ms.date: 04/30/2018
 ms.keywords: POFXCALLBACKREQUESTINTERRUPT, RequestInterrupt, RequestInterrupt routine [Kernel-Mode Driver Architecture], kernel.requestinterrupt, pepfx/RequestInterrupt
-ms.topic: callback
 f1_keywords:
  - "pep_x/RequestInterrupt"
 req.header: pep_x.h

@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 5eeaa7f7-dc99-4cf7-846c-801954cc9040
 ms.date: 04/20/2018
 ms.keywords: "*PINVOC, INVOC, INVOC structure [Print Devices], PINVOC, PINVOC structure pointer [Print Devices], _INVOC, print.invoc, print_unidrv-pscript_fonts_1c5bebe8-a2ca-4049-bcce-defd8622761b.xml, prntfont/INVOC, prntfont/PINVOC"
-ms.topic: struct
 f1_keywords:
  - "prntfont/INVOC"
 req.header: prntfont.h

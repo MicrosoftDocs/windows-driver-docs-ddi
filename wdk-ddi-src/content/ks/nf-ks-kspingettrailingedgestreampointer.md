@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 763f1f66-4d83-44aa-9db5-206cf6b6f9b1
 ms.date: 04/23/2018
 ms.keywords: KsPinGetTrailingEdgeStreamPointer, KsPinGetTrailingEdgeStreamPointer function [Streaming Media Devices], avfunc_3fd3182e-6e4d-4654-9de7-e9cea1086e3e.xml, ks/KsPinGetTrailingEdgeStreamPointer, stream.kspingettrailingedgestreampointer
-ms.topic: function
 f1_keywords:
  - "ks/KsPinGetTrailingEdgeStreamPointer"
 req.header: ks.h

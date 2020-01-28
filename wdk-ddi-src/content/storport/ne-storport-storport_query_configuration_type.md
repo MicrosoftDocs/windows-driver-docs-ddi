@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: c91774dc-a244-46e7-a5bb-ef7b8493184f
 ms.author: windowsdriverdev
 ms.date: 03/20/2019
-ms.topic: enum
 f1_keywords:
  - "storport/STORPORT_QUERY_CONFIGURATION_TYPE"
 ms.keywords: STORPORT_QUERY_CONFIGURATION_TYPE, STORPORT_QUERY_CONFIGURATION_TYPE, *PSTORPORT_QUERY_CONFIGURATION_TYPE, 

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 15eeeb07-b71f-4868-8854-6a5034d3f8c6
 ms.date: 04/30/2018
 ms.keywords: "*PHARDWARE_COUNTER, HARDWARE_COUNTER, HARDWARE_COUNTER structure [Kernel-Mode Driver Architecture], PHARDWARE_COUNTER, PHARDWARE_COUNTER structure pointer [Kernel-Mode Driver Architecture], _HARDWARE_COUNTER, kernel.hardware_counter, kstruct_b_3e230097-13da-4e6b-bb89-baf3563c3570.xml, ntddk/HARDWARE_COUNTER, ntddk/PHARDWARE_COUNTER"
-ms.topic: struct
 f1_keywords:
  - "ntddk/HARDWARE_COUNTER"
 req.header: ntddk.h

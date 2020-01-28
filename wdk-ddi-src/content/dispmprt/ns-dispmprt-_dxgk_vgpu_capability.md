@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 36f71088-758a-4bd5-adaa-20b3feeb9d03
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
 f1_keywords:
  - "dispmprt/_DXGK_VGPU_CAPABILITY"
 ms.prod: windows-hardware

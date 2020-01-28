@@ -6,7 +6,6 @@ old-location: display\dxgkddicheckmultiplaneoverlaysupport.htm
 ms.assetid: 8332DD64-B75E-40A4-9D98-3406187150F2
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT, DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT callback, DxgkDdiCheckMultiPlaneOverlaySupport, DxgkDdiCheckMultiPlaneOverlaySupport callback function [Display Devices], d3dkmddi/DxgkDdiCheckMultiPlaneOverlaySupport, display.dxgkddicheckmultiplaneoverlaysupport
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

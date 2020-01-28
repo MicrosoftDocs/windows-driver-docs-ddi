@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: E060EDA8-691F-4860-B422-24DFB7FCAFEF
 ms.date: 04/20/2018
 ms.keywords: IPrintJob interface [Print Devices],Name property, IPrintJob.Name, IPrintJob.get_Name, IPrintJob::Name, IPrintJob::get_Name, Name property [Print Devices], Name property [Print Devices],IPrintJob interface, get_Name, print.iprintjob_name, printerextension/IPrintJob::Name, printerextension/IPrintJob::get_Name
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintJob.Name"
 req.header: printerextension.h

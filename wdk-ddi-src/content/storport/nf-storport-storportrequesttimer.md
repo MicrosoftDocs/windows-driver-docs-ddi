@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: EE5A6D39-EC76-4D97-B2EC-4A43225C2FB5
 ms.date: 03/29/2018
 ms.keywords: StorPortRequestTimer, StorPortRequestTimer routine [Storage Devices], storage.storportrequesttimer, storport/StorPortRequestTimer
-ms.topic: function
 f1_keywords:
  - "storport/StorPortRequestTimer"
 req.header: storport.h

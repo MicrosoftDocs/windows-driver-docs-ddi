@@ -4,7 +4,6 @@ title: PFND3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX (d3dkmthk.h)
 description: Gets the available tracked workload index.
 ms.assetid: aa4a954a-abac-4adb-859e-e7f7c46c58cf
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX"
 req.header: d3dkmthk.h

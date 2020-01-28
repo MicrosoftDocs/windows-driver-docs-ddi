@@ -6,7 +6,6 @@ old-location: display\destroysampler.htm
 ms.assetid: 8e66de90-c336-43b4-b0ad-cb24cea3638c
 ms.date: 05/10/2018
 ms.keywords: DestroySampler, DestroySampler callback function [Display Devices], PFND3D10DDI_DESTROYSAMPLER, PFND3D10DDI_DESTROYSAMPLER callback, UserModeDisplayDriverDx10_Functions_814d0591-6b69-4b30-9463-3c23c62e0b6a.xml, d3d10umddi/DestroySampler, display.destroysampler
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/DestroySampler"
 req.header: d3d10umddi.h

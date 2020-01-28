@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 79BD2B77-E99A-4CFA-9F7B-AFC984D5F0B3
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitPurgeFifo, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO callback, EvtSerCx2SystemDmaTransmitPurgeFifo, EvtSerCx2SystemDmaTransmitPurgeFifo callback function [Serial Ports], serports.evtsercx2systemdmatransmitpurgefifo
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaTransmitPurgeFifo"
 req.header: sercx.h

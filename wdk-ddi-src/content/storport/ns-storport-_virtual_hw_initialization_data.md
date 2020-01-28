@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 10e7e097-ed84-4200-b7b6-6a838a058fd2
 ms.date: 03/29/2018
 ms.keywords: "*PVIRTUAL_HW_INITIALIZATION_DATA, PVIRTUAL_HW_INITIALIZATION_DATA, PVIRTUAL_HW_INITIALIZATION_DATA structure pointer [Storage Devices], VIRTUAL_HW_INITIALIZATION_DATA, VIRTUAL_HW_INITIALIZATION_DATA structure [Storage Devices], _VIRTUAL_HW_INITIALIZATION_DATA, storage.virtual_hw_initialization_data, storport/PVIRTUAL_HW_INITIALIZATION_DATA, storport/VIRTUAL_HW_INITIALIZATION_DATA, structs-virtual_afc3c543-a34f-4853-b67b-06d57d0350b6.xml"
-ms.topic: struct
 f1_keywords:
  - "storport/VIRTUAL_HW_INITIALIZATION_DATA"
 req.header: storport.h

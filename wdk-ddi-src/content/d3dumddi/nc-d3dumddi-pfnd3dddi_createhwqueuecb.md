@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1BA2E4DD-3E91-4D2E-AA90-9C85D53EE9E3
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_CREATEHWQUEUECB, PFND3DDDI_CREATEHWQUEUECB callback, PFND3DDDI_CREATEHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_CREATEHWQUEUECB, display.pfnd3dddi_createhwqueuecb
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows

@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 181B2619-A8A8-45ED-935B-B4F12A0695E0
 ms.date: 04/23/2018
 ms.keywords: 2/SerCx2CustomReceiveTransactionNewDataNotification, SerCx2CustomReceiveTransactionNewDataNotification, SerCx2CustomReceiveTransactionNewDataNotification method [Serial Ports], serports.sercx2customreceivetransactionnewdatanotification
-ms.topic: function
 f1_keywords:
  - "sercx/SerCx2CustomReceiveTransactionNewDataNotification"
 req.header: sercx.h

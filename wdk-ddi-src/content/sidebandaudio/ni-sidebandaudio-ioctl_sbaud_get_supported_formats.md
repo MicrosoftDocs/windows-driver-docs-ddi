@@ -4,7 +4,6 @@ title: IOCTL_SBAUD_GET_SUPPORTED_FORMATS (sidebandaudio.h)
 description: 
 ms.assetid: 0e17eae1-e498-43b6-88d8-6a5f0752f3f0
 ms.date: 10/05/2018
-ms.topic: ioctl
 f1_keywords:
  - "sidebandaudio/IOCTL_SBAUD_GET_SUPPORTED_FORMATS"
 req.header: sidebandaudio.h

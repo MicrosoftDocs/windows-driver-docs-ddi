@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 9895ee9a-4d8c-4cd4-8df4-fedaf864a178
 ms.date: 05/08/2018
 ms.keywords: CallSynchronizedRoutine, CallSynchronizedRoutine method [Audio Devices], CallSynchronizedRoutine method [Audio Devices],IInterruptSync interface, IInterruptSync interface [Audio Devices],CallSynchronizedRoutine method, IInterruptSync.CallSynchronizedRoutine, IInterruptSync::CallSynchronizedRoutine, audio.iinterruptsync_callsynchronizedroutine, audmp-routines_985e70ee-3e6b-4514-adb5-1b37f92c9ae4.xml, portcls/IInterruptSync::CallSynchronizedRoutine
-ms.topic: method
 f1_keywords:
  - "portcls/IInterruptSync.CallSynchronizedRoutine"
 req.header: portcls.h

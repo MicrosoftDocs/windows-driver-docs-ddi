@@ -4,7 +4,6 @@ title: _DXVAHDDDI_DEVICE_CAPS (d3dumddi.h)
 description: DirectX video acceleration device capabilities.
 ms.assetid: f1277bfc-7240-4a85-bd3f-5062b9e773b9
 ms.date: 10/19/2018
-ms.topic: enum
 ms.keywords: _DXVAHDDDI_DEVICE_CAPS, DXVAHDDDI_DEVICE_CAPS,
 req.header: d3dumddi.h
 req.include-header: 

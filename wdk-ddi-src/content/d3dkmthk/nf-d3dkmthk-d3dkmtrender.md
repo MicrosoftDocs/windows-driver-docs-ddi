@@ -6,7 +6,6 @@ old-location: display\d3dkmtrender.htm
 ms.assetid: 8720db3f-aafc-4657-a0cd-3068760855a3
 ms.date: 05/10/2018
 ms.keywords: D3DKMTRender, D3DKMTRender function [Display Devices], OpenGL_Functions_d24fbe14-3271-47f8-9268-8946b599b32a.xml, d3dkmthk/D3DKMTRender, display.d3dkmtrender
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTRender"
 req.header: d3dkmthk.h

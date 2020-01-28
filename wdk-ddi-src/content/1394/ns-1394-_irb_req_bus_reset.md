@@ -7,7 +7,6 @@ tech.root: IEEE
 ms.assetid: 56B7D001-2EC3-4397-B520-193CCF52A9EE
 ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_BUS_RESET, IEEE.irb_req_bus_reset, IRB_REQ_BUS_RESET, IRB_REQ_BUS_RESET structure [Buses], _IRB_REQ_BUS_RESET
-ms.topic: struct
 f1_keywords:
  - "1394/IRB_REQ_BUS_RESET"
 req.header: 1394.h

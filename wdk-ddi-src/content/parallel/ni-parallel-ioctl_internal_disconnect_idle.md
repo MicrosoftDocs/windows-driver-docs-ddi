@@ -7,7 +7,6 @@ tech.root: parports
 ms.assetid: 02fd4277-502d-4a9e-b809-10134ed0900b
 ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_DISCONNECT_IDLE, IOCTL_INTERNAL_DISCONNECT_IDLE control code [Parallel Ports], cisspd_ff4b2feb-d3b4-4b80-9f6f-f4fd16bab4c1.xml, parallel/IOCTL_INTERNAL_DISCONNECT_IDLE, parports.ioctl_internal_disconnect_idle
-ms.topic: ioctl
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_DISCONNECT_IDLE"
 req.header: parallel.h

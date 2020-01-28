@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: e09d0c3d-28a0-4c8d-ac70-9575968cbea1
 ms.date: 04/04/2018
 ms.keywords: IWDTFLOG2, IWDTFLOG2 interface [Windows Device Testing Framework], IWDTFLOG2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFLOG2, dtf.iwdtflog2, wdtf/IWDTFLOG2
-ms.topic: interface
 f1_keywords:
  - "wdtf/IWDTFLOG2"
 req.header: wdtf.h

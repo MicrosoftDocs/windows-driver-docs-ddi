@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: DF597216-FB81-466C-871E-5E08C69B78DA
 ms.date: 05/08/2018
 ms.keywords: PcRegisterAdapterPnPManagement, PcRegisterAdapterPnPManagement function [Audio Devices], PcRegisterAdapterPnpManagement, audio.pcregisteradapterpnpmanagement, portcls/PcRegisterAdapterPnPManagement
-ms.topic: function
 f1_keywords:
  - "portcls/PcRegisterAdapterPnPManagement"
 req.header: portcls.h

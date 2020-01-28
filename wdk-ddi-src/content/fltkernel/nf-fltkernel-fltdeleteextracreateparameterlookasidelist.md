@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 8df06f2c-7358-49ea-8948-b76c5090d75b
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_ac849af2-706e-4eac-be0b-1c3c905ccdfe.xml, FltDeleteExtraCreateParameterLookasideList, FltDeleteExtraCreateParameterLookasideList routine [Installable File System Drivers], fltkernel/FltDeleteExtraCreateParameterLookasideList, ifsk.fltdeleteextracreateparameterlookasidelist
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltDeleteExtraCreateParameterLookasideList"
 req.header: fltkernel.h

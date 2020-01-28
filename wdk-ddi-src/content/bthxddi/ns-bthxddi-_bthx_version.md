@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 2C5CC5B1-52F1-4DF5-9397-E8FD4983BA25
 ms.date: 04/27/2018
 ms.keywords: "*PBTHX_VERSION, BTHX_VERSION, BTHX_VERSION structure [Bluetooth Devices], _BTHX_VERSION, bltooth.bthx_version, bthxddi/_BTHX_VERSION"
-ms.topic: struct
 f1_keywords:
  - "bthxddi/_BTHX_VERSION"
 req.header: bthxddi.h

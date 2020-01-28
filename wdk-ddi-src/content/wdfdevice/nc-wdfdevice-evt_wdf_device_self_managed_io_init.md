@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 9dbc66db-ea94-4e6a-9618-00999a9dd641
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_7c67b851-b6d0-450d-bdc9-2a32aa384a36.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT, EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT callback, EvtDeviceSelfManagedIoInit, EvtDeviceSelfManagedIoInit callback function, kmdf.evtdeviceselfmanagedioinit, wdf.evtdeviceselfmanagedioinit, wdfdevice/EvtDeviceSelfManagedIoInit
-ms.topic: callback
 f1_keywords:
  - "wdfdevice/EvtDeviceSelfManagedIoInit"
 req.header: wdfdevice.h

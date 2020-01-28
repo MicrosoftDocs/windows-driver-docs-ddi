@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 495191f4-a5c6-4223-8c5d-e4c0ecb0cc5d
 ms.date: 05/02/2018
 ms.keywords: NdisMGetBusData, NdisMGetBusData function [Network Drivers Starting with Windows Vista], hardware_configuration_ref_e2ffab8c-2dba-4b49-a7dc-246a4792ca43.xml, ndis/NdisMGetBusData, netvista.ndismgetbusdata
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMGetBusData"
 req.header: ndis.h

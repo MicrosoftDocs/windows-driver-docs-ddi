@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 4f9dd025-b49f-44ab-88c4-38139e6cbee2
 ms.date: 05/08/2018
 ms.keywords: IRegistryKey interface [Audio Devices],SetValueKey method, IRegistryKey.SetValueKey, IRegistryKey::SetValueKey, SetValueKey, SetValueKey method [Audio Devices], SetValueKey method [Audio Devices],IRegistryKey interface, audio.iregistrykey_setvaluekey, audmp-routines_a7668b45-2b58-4a49-b1ef-a8d0755225b0.xml, portcls/IRegistryKey::SetValueKey
-ms.topic: method
 f1_keywords:
  - "portcls/IRegistryKey.SetValueKey"
 req.header: portcls.h

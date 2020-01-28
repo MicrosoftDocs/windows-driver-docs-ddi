@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: D32E24E4-FAF4-401B-85FB-4D522C52093E
 ms.date: 04/30/2018
 ms.keywords: PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE, PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_gpio_io_resource, pepfx/PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE
-ms.topic: function
 f1_keywords:
  - "pepfx/PEP_ACPI_INITIALIZE_GPIO_IO_RESOURCE"
 req.header: pepfx.h

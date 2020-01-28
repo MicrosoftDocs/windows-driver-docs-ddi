@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: c608dac0-bb2a-4d89-a2f8-1017254c8a6c
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO structure [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_DOMAIN_INFO, kernel.pep_ppm_query_domain_info, pepfx/PEP_PPM_QUERY_DOMAIN_INFO"
-ms.topic: struct
 f1_keywords:
  - "pep_x/PEP_PPM_QUERY_DOMAIN_INFO"
 req.header: pep_x.h

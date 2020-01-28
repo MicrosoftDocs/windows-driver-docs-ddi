@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 33534C7A-C88D-4980-98A7-2B94488D3550
 ms.date: 07/19/2019
 ms.keywords: HW_UNIT_CONTROL, HwStorUnitControl, HwStorUnitControl routine [Storage Devices], storage.hwstorunitcontrol, storport/HwStorUnitControl
-ms.topic: callback
 f1_keywords:
  - "storport/HwStorUnitControl"
 req.header: storport.h

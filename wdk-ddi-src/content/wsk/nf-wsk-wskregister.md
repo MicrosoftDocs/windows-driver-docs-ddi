@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 340933ad-1a71-421c-b1e1-360aa9c441fd
 ms.date: 05/02/2018
 ms.keywords: WskRegister, WskRegister function [Network Drivers Starting with Windows Vista], netvista.wskregister, wsk/WskRegister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml
-ms.topic: function
 f1_keywords:
  - "wsk/WskRegister"
 req.header: wsk.h

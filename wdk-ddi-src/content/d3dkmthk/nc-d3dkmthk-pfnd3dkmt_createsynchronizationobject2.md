@@ -4,7 +4,6 @@ title: PFND3DKMT_CREATESYNCHRONIZATIONOBJECT2 (d3dkmthk.h)
 description: The PFND3DKMT_CREATESYNCHRONIZATIONOBJECT2 callback function creates a synchronization object.
 ms.assetid: 5fff0987-f4dd-4a6e-9415-0e9bf5be4d00
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_CREATESYNCHRONIZATIONOBJECT2"
 req.header: d3dkmthk.h

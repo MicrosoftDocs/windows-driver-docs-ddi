@@ -6,7 +6,6 @@ old-location: display\dxgk_monitorsourcemodeset_interface_pfncreatenewmodeinfo.h
 ms.assetid: 314b345c-a40b-418d-a2d8-c7b42e5fd27d
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO, DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO callback, VidPnFunctions_4b8b1581-4518-471d-a79e-ed05899ad500.xml, d3dkmddi/pfnCreateNewModeInfo, display.dxgk_monitorsourcemodeset_interface_pfncreatenewmodeinfo, pfnCreateNewModeInfo, pfnCreateNewModeInfo callback function [Display Devices]
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

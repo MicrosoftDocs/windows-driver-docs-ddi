@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 57c75a4c-7224-45d5-af96-6e969548248a
 ms.date: 02/16/2018
 ms.keywords: "*PDOT11_MAC_FRAME_STATISTICS, DOT11_MAC_FRAME_STATISTICS, DOT11_MAC_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_f04e9263-5c70-402b-a2d1-8f4689b4a13e.xml, PDOT11_MAC_FRAME_STATISTICS, PDOT11_MAC_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_mac_frame_statistics, windot11/DOT11_MAC_FRAME_STATISTICS, windot11/PDOT11_MAC_FRAME_STATISTICS"
-ms.topic: struct
 f1_keywords:
  - "windot11/DOT11_MAC_FRAME_STATISTICS"
 req.header: windot11.h

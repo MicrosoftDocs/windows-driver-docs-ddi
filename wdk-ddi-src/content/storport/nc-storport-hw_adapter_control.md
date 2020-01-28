@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: e1944f1b-97db-4ac2-848e-e69359c09589
 ms.date: 07/19/2019
 ms.keywords: HW_ADAPTER_CONTROL, HwStorAdapterControl, HwStorAdapterControl routine [Storage Devices], storage.hwstoradaptercontrol, stormini_19cbc8b1-9908-4b4d-a62b-712fb97e6bbd.xml, storport/HwStorAdapterControl
-ms.topic: callback
 f1_keywords:
  - "storport/HwStorAdapterControl"
 req.header: storport.h

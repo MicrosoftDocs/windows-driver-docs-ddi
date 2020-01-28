@@ -4,7 +4,6 @@ title: IOCTL_ABORT_PIPE (usbscan.h)
 description: 
 ms.assetid: b532777a-0834-4d70-9cde-060f697e912d
 ms.date: 10/19/2018
-ms.topic: ioctl
 f1_keywords:
  - "usbscan/IOCTL_ABORT_PIPE"
 req.header: usbscan.h

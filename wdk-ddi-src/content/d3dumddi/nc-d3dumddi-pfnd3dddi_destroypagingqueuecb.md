@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2C039656-5384-4864-8F29-A336B0ED06C0
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_DESTROYPAGINGQUEUECB, PFND3DDDI_DESTROYPAGINGQUEUECB callback, d3dumddi/pfnDestroyPagingQueueCb, display.pfndestroypagingqueuecb, pfnDestroyPagingQueueCb, pfnDestroyPagingQueueCb callback function [Display Devices]
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

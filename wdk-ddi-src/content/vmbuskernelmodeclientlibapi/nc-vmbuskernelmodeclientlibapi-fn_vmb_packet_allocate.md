@@ -5,7 +5,6 @@ description: The VmbPacketAllocate function allocates a packet from the channel'
 tech.root: netvista
 ms.assetid: de59b2ba-33eb-41f2-a4ce-6be46e88dfd7
 ms.date: 05/22/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_ALLOCATE"
 req.header: vmbuskernelmodeclientlibapi.h

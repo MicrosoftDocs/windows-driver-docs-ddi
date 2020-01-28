@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: D679DEF0-1229-4731-8024-4DEDAE5B0185
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_IDLE_NOTIFICATION, MINIPORT_IDLE_NOTIFICATION callback, MiniportIdleNotification, MiniportIdleNotification callback function [Network Drivers Starting with Windows Vista], ndis/MiniportIdleNotification, netvista.miniportidlenotification
-ms.topic: callback
 f1_keywords:
  - "ndis/MiniportIdleNotification"
 req.header: ndis.h

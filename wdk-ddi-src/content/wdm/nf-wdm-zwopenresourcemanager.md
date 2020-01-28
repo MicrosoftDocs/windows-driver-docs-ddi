@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: baa12e3c-dc17-4fef-bce4-29c50328314c
 ms.date: 04/30/2018
 ms.keywords: NtOpenResourceManager, ZwOpenResourceManager, ZwOpenResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwopenresourcemanager, ktm_ref_f873ba66-20d0-4498-a8b6-d62bf8593d05.xml, wdm/NtOpenResourceManager, wdm/ZwOpenResourceManager
-ms.topic: function
 f1_keywords:
  - "wdm/ZwOpenResourceManager"
 req.header: wdm.h

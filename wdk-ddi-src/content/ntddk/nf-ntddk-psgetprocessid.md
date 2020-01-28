@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 9e1f6a57-bc48-41c6-815c-6a44e8d01699
 ms.date: 04/30/2018
 ms.keywords: PsGetProcessId, PsGetProcessId routine [Kernel-Mode Driver Architecture], k108_b0733011-4102-4e10-83e3-e7e9d7172d08.xml, kernel.psgetprocessid, ntddk/PsGetProcessId
-ms.topic: function
 f1_keywords:
  - "ntddk/PsGetProcessId"
 req.header: ntddk.h

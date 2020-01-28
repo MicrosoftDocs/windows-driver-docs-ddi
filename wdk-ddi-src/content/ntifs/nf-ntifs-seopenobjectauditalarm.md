@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: a4310cf8-1518-4d25-b2f9-a232ddd9c535
 ms.date: 04/16/2018
 ms.keywords: SeOpenObjectAuditAlarm, SeOpenObjectAuditAlarm routine [Installable File System Drivers], ifsk.seopenobjectauditalarm, ntifs/SeOpenObjectAuditAlarm, seref_87dbea09-cd36-40c2-8241-16c8180f1945.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/SeOpenObjectAuditAlarm"
 req.header: ntifs.h

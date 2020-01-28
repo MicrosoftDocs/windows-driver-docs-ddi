@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 0860733c-d28c-4916-a743-d5f6256cfca0
 ms.date: 04/30/2018
 ms.keywords: HidP_GetSpecificValueCaps, HidP_GetSpecificValueCaps routine [Human Input Devices], hid.hidp_getspecificvaluecaps, hidfunc_627cf175-fa12-4082-9d13-8ec454be4a74.xml, hidpi/HidP_GetSpecificValueCaps
-ms.topic: function
 f1_keywords:
  - "hidpi/HidP_GetSpecificValueCaps"
 req.header: hidpi.h

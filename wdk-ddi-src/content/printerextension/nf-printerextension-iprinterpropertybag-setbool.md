@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: B97C3FE9-0AC8-4147-A394-3344EBBA0B4C
 ms.date: 04/20/2018
 ms.keywords: IPrinterPropertyBag interface [Print Devices],SetBool method, IPrinterPropertyBag.SetBool, IPrinterPropertyBag::SetBool, SetBool, SetBool method [Print Devices], SetBool method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setbool, printerextension/IPrinterPropertyBag::SetBool
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterPropertyBag.SetBool"
 req.header: printerextension.h

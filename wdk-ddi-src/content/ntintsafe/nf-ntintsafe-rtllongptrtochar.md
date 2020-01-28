@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 9DB98A1F-F820-4182-A22D-1C759A0F8F72
 ms.date: 04/30/2018
 ms.keywords: RtlLongPtrToChar, RtlLongPtrToChar function [Kernel-Mode Driver Architecture], kernel.rtllongptrtochar, ntintsafe/RtlLongPtrToChar
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlLongPtrToChar"
 req.header: ntintsafe.h

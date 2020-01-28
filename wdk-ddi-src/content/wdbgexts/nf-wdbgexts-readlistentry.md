@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: b5bfbb6d-4797-4e5f-bc66-398527b13d85
 ms.date: 05/03/2018
 ms.keywords: ReadListEntry, ReadListEntry function [Windows Debugging], WdbgExts_Ref_ab7a48d6-aa2a-4ed1-a4dc-7339993ccb45.xml, debugger.readlistentry, wdbgexts/ReadListEntry
-ms.topic: function
 f1_keywords:
  - "wdbgexts/ReadListEntry"
 req.header: wdbgexts.h

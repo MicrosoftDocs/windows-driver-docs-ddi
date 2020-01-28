@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 41B7CE15-8702-49C8-9FD0-450DF6E4798C
 ms.date: 04/30/2018
 ms.keywords: ExReInitializeRundownProtection, ExReInitializeRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exreinitializerundownprotection, wdm/ExReInitializeRundownProtection
-ms.topic: function
 f1_keywords:
  - "wdm/ExReInitializeRundownProtection"
 req.header: wdm.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: C38F8222-7F22-4D6B-A3F2-C326ECE22E8B
 ms.date: 04/30/2018
 ms.keywords: PSCREATETHREADNOTIFYTYPE, PSCREATETHREADNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], PsCreateThreadNotifyNonSystem, PsCreateThreadNotifySubsystems, _PSCREATETHREADNOTIFYTYPE, kernel.pscreatethreadnotifytype, ntddk/PSCREATETHREADNOTIFYTYPE, ntddk/PsCreateThreadNotifyNonSystem, ntddk/PsCreateThreadNotifySubsystems
-ms.topic: enum
 f1_keywords:
  - "ntddk/PSCREATETHREADNOTIFYTYPE"
 req.header: ntddk.h

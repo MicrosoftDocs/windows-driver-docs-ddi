@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 86b76d13-d8b5-4336-a010-87d7753a367c
 ms.date: 05/03/2018
 ms.keywords: GetPseudoIndexByNameWide, GetPseudoIndexByNameWide method [Windows Debugging], GetPseudoIndexByNameWide method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoIndexByNameWide method, IDebugRegisters2.GetPseudoIndexByNameWide, IDebugRegisters2::GetPseudoIndexByNameWide, dbgeng/IDebugRegisters2::GetPseudoIndexByNameWide, debugger.getpseudoindexbynamewide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugRegisters2.GetPseudoIndexByNameWide"
 req.header: dbgeng.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 10392f1f-3112-4cbe-9e70-47ea6d37fbaf
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
 f1_keywords:
  - "dispmprt/_DXGKARG_GETVIRTUALGPUPROFILE"
 ms.prod: windows-hardware

@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: f486efdb-79fd-4c57-bff6-75a0dbd68cc0
 ms.date: 04/20/2018
 ms.keywords: "*PDOCEVENT_FILTER, DOCEVENT_FILTER, DOCEVENT_FILTER structure [Print Devices], PDOCEVENT_FILTER, PDOCEVENT_FILTER structure pointer [Print Devices], _DOCEVENT_FILTER, print.docevent_filter, print_interface-graphics_ddc1c545-869f-440d-a364-7cd90ca189e0.xml, winddiui/DOCEVENT_FILTER, winddiui/PDOCEVENT_FILTER"
-ms.topic: struct
 f1_keywords:
  - "winddiui/DOCEVENT_FILTER"
 req.header: winddiui.h

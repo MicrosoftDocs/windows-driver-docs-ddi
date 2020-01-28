@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 594614ee-0d30-4574-81ad-a523e7fadc2c
 ms.date: 04/23/2018
 ms.keywords: KsPinGetConnectedPinInterface, KsPinGetConnectedPinInterface function [Streaming Media Devices], avfunc_57b89966-efc8-4b5a-96c1-da5aeb58e2d3.xml, ks/KsPinGetConnectedPinInterface, stream.kspingetconnectedpininterface
-ms.topic: function
 f1_keywords:
  - "ks/KsPinGetConnectedPinInterface"
 req.header: ks.h

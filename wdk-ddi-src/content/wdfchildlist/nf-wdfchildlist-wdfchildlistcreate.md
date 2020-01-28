@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 88af6933-09f0-4248-9003-62f486d38645
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, WdfChildListCreate, WdfChildListCreate method, kmdf.wdfchildlistcreate, wdf.wdfchildlistcreate, wdfchildlist/WdfChildListCreate
-ms.topic: function
 f1_keywords:
  - "wdfchildlist/WdfChildListCreate"
 req.header: wdfchildlist.h

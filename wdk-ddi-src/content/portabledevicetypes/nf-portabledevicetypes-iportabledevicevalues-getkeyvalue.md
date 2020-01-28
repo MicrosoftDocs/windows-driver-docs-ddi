@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: 00d0f564-05ab-4f87-8477-efedc172e296
 ms.date: 02/15/2018
 ms.keywords: GetKeyValue, GetKeyValue method, GetKeyValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetKeyValue method, IPortableDeviceValues.GetKeyValue, IPortableDeviceValues::GetKeyValue, IPortableDeviceValuesGetKeyValue, portabledevicetypes/IPortableDeviceValues::GetKeyValue, wpddk.iportabledevicevalues_getkeyvalue
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetKeyValue"
 req.header: portabledevicetypes.h

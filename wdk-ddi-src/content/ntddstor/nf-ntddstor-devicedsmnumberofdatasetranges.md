@@ -5,7 +5,6 @@ description: The DeviceDsmNumberOfDataSetRanges function gets the number of data
 tech.root: storage
 ms.assetid: 04c83255-8f92-4db7-848b-928fcc16bb60
 ms.date: 08/23/2019
-ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmNumberOfDataSetRanges"
 ms.keywords: DeviceDsmNumberOfDataSetRanges

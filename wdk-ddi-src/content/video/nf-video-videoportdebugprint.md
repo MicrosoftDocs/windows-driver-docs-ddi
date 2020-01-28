@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c476c8a2-5d79-45cd-ae72-f8792137f9c2
 ms.date: 05/10/2018
 ms.keywords: VideoPortDebugPrint, VideoPortDebugPrint function [Display Devices], VideoPort_Functions_a98adb70-bb89-4d0d-8922-836056896a61.xml, display.videoportdebugprint, video/VideoPortDebugPrint
-ms.topic: function
 f1_keywords:
  - "video/VideoPortDebugPrint"
 req.header: video.h

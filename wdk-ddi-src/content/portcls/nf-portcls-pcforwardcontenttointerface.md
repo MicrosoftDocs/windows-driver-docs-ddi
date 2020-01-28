@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 5aa6aa90-ef41-467e-a096-5ab660b3f357
 ms.date: 05/08/2018
 ms.keywords: PcForwardContentToInterface, PcForwardContentToInterface function [Audio Devices], audio.pcforwardcontenttointerface, audpc-routines_1c3b8e8d-556e-4029-9e25-5a2e083dd17f.xml, portcls/PcForwardContentToInterface
-ms.topic: function
 f1_keywords:
  - "portcls/PcForwardContentToInterface"
 req.header: portcls.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 0681519e-022a-487c-ae5e-39a293b060ec
 ms.date: 02/16/2018
 ms.keywords: DOT11EXT_SET_ETHERTYPE_HANDLING, Dot11ExtSetEtherTypeHandling, Dot11ExtSetEtherTypeHandling callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_6265fb16-690c-4ada-a79d-fa39760a63d2.xml, netvista.dot11extsetethertypehandling, wlanihv/Dot11ExtSetEtherTypeHandling
-ms.topic: callback
 f1_keywords:
  - "wlanihv/Dot11ExtSetEtherTypeHandling"
 req.header: wlanihv.h

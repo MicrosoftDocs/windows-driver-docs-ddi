@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 76954a20-7cd7-454b-a965-8c3f0cdb6e8f
 ms.date: 04/30/2018
 ms.keywords: KeFlushIoBuffers, KeFlushIoBuffers routine [Kernel-Mode Driver Architecture], k105_265e110c-5dad-444c-a97d-6693d7996c51.xml, kernel.keflushiobuffers, wdm/KeFlushIoBuffers
-ms.topic: function
 f1_keywords:
  - "wdm/KeFlushIoBuffers"
 req.header: wdm.h

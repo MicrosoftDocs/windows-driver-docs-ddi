@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 644559BB-9842-4261-9A9C-720185E6E9F4
 ms.date: 04/30/2018
 ms.keywords: RtlShortToInt8, RtlShortToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlshorttoint8, ntintsafe/RtlShortToInt8
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlShortToInt8"
 req.header: ntintsafe.h

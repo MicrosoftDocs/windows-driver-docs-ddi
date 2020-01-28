@@ -5,7 +5,6 @@ tech.root: usbref
 description: Reserved.
 ms.assetid: 648e8856-ea6e-473c-9e1b-8c055b5b1ef9
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "ucmucsiglobals/_UCMUCSI_DRIVER_GLOBALS"
 ms.keywords: _UCMUCSI_DRIVER_GLOBALS, UCMUCSI_DRIVER_GLOBALS, *PUCMUCSI_DRIVER_GLOBALS, 

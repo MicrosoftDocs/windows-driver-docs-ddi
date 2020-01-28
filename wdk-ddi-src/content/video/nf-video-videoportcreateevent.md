@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: bb1ef5f0-ccf3-487b-99e6-9ec733c7cd63
 ms.date: 05/10/2018
 ms.keywords: VideoPortCreateEvent, VideoPortCreateEvent function [Display Devices], VideoPort_Functions_29412925-5117-4759-b4ea-b4adb4358a8c.xml, display.videoportcreateevent, video/VideoPortCreateEvent
-ms.topic: function
 f1_keywords:
  - "video/VideoPortCreateEvent"
 req.header: video.h

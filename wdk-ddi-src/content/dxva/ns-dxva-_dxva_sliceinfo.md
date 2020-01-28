@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: fd1d0cf5-2ee2-44d8-945f-492af57c3990
 ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_SliceInfo, DXVA_SliceInfo, DXVA_SliceInfo structure [Display Devices], LPDXVA_SliceInfo, LPDXVA_SliceInfo structure pointer [Display Devices], _DXVA_SliceInfo, display.dxva_sliceinfo, dxva/DXVA_SliceInfo, dxva/LPDXVA_SliceInfo, dxvaref_04736e26-0c58-4e92-9f45-1675565c9f55.xml"
-ms.topic: struct
 f1_keywords:
  - "dxva/DXVA_SliceInfo"
 req.header: dxva.h

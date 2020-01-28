@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: 2a6c4cf7-179e-4e20-bab4-a4181a0ee64c
 ms.date: 04/04/2018
 ms.keywords: IWDTFLongNumbers2, IWDTFLongNumbers2 interface [Windows Device Testing Framework], IWDTFLongNumbers2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFLongNumbers2, dtf.iwdtflongnumbers2, wdtf/IWDTFLongNumbers2
-ms.topic: interface
 f1_keywords:
  - "wdtf/IWDTFLongNumbers2"
 req.header: wdtf.h

@@ -5,7 +5,6 @@ description: Initializes a NET_ADAPTER_LINK_STATE structure.
 tech.root: netvista
 ms.assetid: 6cb7595b-d33f-40fb-a1da-319b31bbeadc
 ms.date: 02/06/2018
-ms.topic: function
 f1_keywords:
  - "netadapter/NET_ADAPTER_LINK_STATE_INIT"
 ms.keywords: NET_ADAPTER_LINK_STATE_INIT

@@ -4,7 +4,6 @@ title: IRawEnumerator::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 72ad0098-17a6-40ab-a9c6-f994017f5957
 ms.date: 08/13/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IRawEnumerator.Release"
 ms.keywords: IRawEnumerator::Release, Release, IRawEnumerator.Release, IRawEnumerator::Release, IRawEnumerator.Release

@@ -7,7 +7,6 @@ tech.root: parports
 ms.assetid: abad8ebd-a9fc-4cfb-8495-aca4e38ee45a
 ms.date: 02/15/2018
 ms.keywords: "*PPARCLASS_INFORMATION, PARCLASS_INFORMATION, PARCLASS_INFORMATION structure [Parallel Ports], PPARCLASS_INFORMATION, PPARCLASS_INFORMATION structure pointer [Parallel Ports], _PARCLASS_INFORMATION, cisspd_b7b1d8b8-fc86-4bd9-a474-e31f416da93c.xml, parallel/PARCLASS_INFORMATION, parallel/PPARCLASS_INFORMATION, parports.parclass_information"
-ms.topic: struct
 f1_keywords:
  - "parallel/PARCLASS_INFORMATION"
 req.header: parallel.h

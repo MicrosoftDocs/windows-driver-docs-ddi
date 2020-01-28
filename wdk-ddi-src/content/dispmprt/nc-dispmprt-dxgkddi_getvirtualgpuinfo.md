@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: d52799c8-a962-4b41-a03c-d1454efb7b88
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DXGKDDI_GETVIRTUALGPUINFO"
 req.header: dispmprt.h

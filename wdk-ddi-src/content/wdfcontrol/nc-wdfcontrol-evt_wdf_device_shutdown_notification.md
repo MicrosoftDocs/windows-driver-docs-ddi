@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 365e669b-b4a1-432a-ab0c-9292a910256e
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectControllerDevObjRef_d7dab025-aa6d-4f66-a0cb-3784b3bc7b1c.xml, EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION, EVT_WDF_DEVICE_SHUTDOWN_NOTIFICATION callback, EvtDeviceShutdownNotification, EvtDeviceShutdownNotification callback function, kmdf.evtdeviceshutdownnotification, wdf.evtdeviceshutdownnotification, wdfcontrol/EvtDeviceShutdownNotification
-ms.topic: callback
 f1_keywords:
  - "wdfcontrol/EvtDeviceShutdownNotification"
 req.header: wdfcontrol.h

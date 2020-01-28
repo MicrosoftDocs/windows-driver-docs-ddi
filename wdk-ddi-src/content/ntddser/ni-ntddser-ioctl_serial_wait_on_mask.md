@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: b813bd59-249d-4cd1-bf56-4525c7f1fa1d
 ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_WAIT_ON_MASK, IOCTL_SERIAL_WAIT_ON_MASK control, IOCTL_SERIAL_WAIT_ON_MASK control code [Serial Ports], ntddser/IOCTL_SERIAL_WAIT_ON_MASK, serports.ioctl_serial_wait_on_mask, serref_4879eda6-26ca-48a6-9176-4aa20d46aa47.xml
-ms.topic: ioctl
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_WAIT_ON_MASK"
 req.header: ntddser.h

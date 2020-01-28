@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: A107F641-AE30-4F99-9AB6-EC84F52A2B52
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_PERF_CHECK_COMPLETE, PEP_PPM_PERF_CHECK_COMPLETE, PEP_PPM_PERF_CHECK_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_CHECK_COMPLETE, PPEP_PPM_PERF_CHECK_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PERF_CHECK_COMPLETE, kernel.pep_ppm_perf_check_complete, pepfx/PEP_PPM_PERF_CHECK_COMPLETE, pepfx/PPEP_PPM_PERF_CHECK_COMPLETE"
-ms.topic: struct
 f1_keywords:
  - "pep_x/PEP_PPM_PERF_CHECK_COMPLETE"
 req.header: pep_x.h

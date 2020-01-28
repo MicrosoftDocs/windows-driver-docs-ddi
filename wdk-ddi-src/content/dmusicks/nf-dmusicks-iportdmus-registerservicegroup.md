@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 271d77ae-dc2c-4dc0-8dd9-b09b2d341c60
 ms.date: 05/08/2018
 ms.keywords: IPortDMus interface [Audio Devices],RegisterServiceGroup method, IPortDMus.RegisterServiceGroup, IPortDMus::RegisterServiceGroup, RegisterServiceGroup, RegisterServiceGroup method [Audio Devices], RegisterServiceGroup method [Audio Devices],IPortDMus interface, audio.iportdmus_registerservicegroup, audmp-routines_9167129c-286d-4c54-9633-1f31aa08b904.xml, dmusicks/IPortDMus::RegisterServiceGroup
-ms.topic: method
 f1_keywords:
  - "dmusicks/IPortDMus.RegisterServiceGroup"
 req.header: dmusicks.h

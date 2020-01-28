@@ -6,7 +6,6 @@ old-location: display\clearrendertargetview.htm
 ms.assetid: 9dc95dd2-01ad-45d7-9e75-049026b25968
 ms.date: 05/10/2018
 ms.keywords: ClearRenderTargetView, ClearRenderTargetView callback function [Display Devices], PFND3D10DDI_CLEARRENDERTARGETVIEW, PFND3D10DDI_CLEARRENDERTARGETVIEW callback, UserModeDisplayDriverDx10_Functions_b9129a55-a400-45b7-a3a9-da477170c99c.xml, d3d10umddi/ClearRenderTargetView, display.clearrendertargetview
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/ClearRenderTargetView"
 req.header: d3d10umddi.h

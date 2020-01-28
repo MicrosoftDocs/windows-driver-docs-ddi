@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: bdf9c43d-d747-40e8-86ba-976f3f6a19d6
 ms.date: 04/20/2018
 ms.keywords: IPrintOemUni interface [Print Devices],MemoryUsage method, IPrintOemUni.MemoryUsage, IPrintOemUni::MemoryUsage, MemoryUsage, MemoryUsage method [Print Devices], MemoryUsage method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::MemoryUsage, print.iprintoemuni_memoryusage, print_unidrv-pscript_rendering_3c23be3a-ed61-452d-8bd9-0b9137ea777f.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemUni.MemoryUsage"
 req.header: prcomoem.h

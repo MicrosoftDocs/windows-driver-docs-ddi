@@ -5,7 +5,6 @@ description: The NdisSetNetBufferListProtocolId macro sets the protocol identifi
 tech.root: netvista
 ms.assetid: e2af0fa5-6f94-4406-a5c9-20f114316d6d
 ms.date: 04/13/2018
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisSetNetBufferListProtocolId"
 ms.keywords: NdisSetNetBufferListProtocolId

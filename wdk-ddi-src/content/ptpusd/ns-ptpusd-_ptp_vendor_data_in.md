@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 896209d0-d545-495b-b743-98c0b9d976ff
 ms.date: 05/03/2018
 ms.keywords: "*PPTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN structure pointer [Imaging Devices], PTP_VENDOR_DATA_IN, PTP_VENDOR_DATA_IN structure [Imaging Devices], _PTP_VENDOR_DATA_IN, image.ptp_vendor_data_in, ptpusd/PPTP_VENDOR_DATA_IN, ptpusd/PTP_VENDOR_DATA_IN, wiastrct_b0ebb671-78d9-4224-8bde-893fb0afc9f8.xml"
-ms.topic: struct
 f1_keywords:
  - "ptpusd/PTP_VENDOR_DATA_IN"
 req.header: ptpusd.h

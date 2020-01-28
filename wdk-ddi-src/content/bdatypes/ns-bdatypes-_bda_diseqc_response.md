@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 724FD17B-D12B-423D-AA0E-93D9D31DC93E
 ms.date: 04/23/2018
 ms.keywords: "*PBDA_DISEQC_RESPONSE, BDA_DISEQC_RESPONSE, BDA_DISEQC_RESPONSE structure [Streaming Media Devices], PBDA_DISEQC_RESPONSE, PBDA_DISEQC_RESPONSE structure pointer [Streaming Media Devices], _BDA_DISEQC_RESPONSE, bdatypes/BDA_DISEQC_RESPONSE, bdatypes/PBDA_DISEQC_RESPONSE, stream.bda_diseqc_response"
-ms.topic: struct
 f1_keywords:
  - "bdatypes/BDA_DISEQC_RESPONSE"
 req.header: bdatypes.h

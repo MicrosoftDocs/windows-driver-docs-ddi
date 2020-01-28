@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 79bf7a42-5053-428a-a78b-dd8bdff93a69
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_ea30bcf7-25ce-493a-a8e0-310657a98c60.xml, EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX, EVT_WDF_DEVICE_DISARM_WAKE_FROM_SX callback, EvtDeviceDisarmWakeFromSx, EvtDeviceDisarmWakeFromSx callback function, kmdf.evtdevicedisarmwakefromsx, wdf.evtdevicedisarmwakefromsx, wdfdevice/EvtDeviceDisarmWakeFromSx
-ms.topic: callback
 f1_keywords:
  - "wdfdevice/EvtDeviceDisarmWakeFromSx"
 req.header: wdfdevice.h

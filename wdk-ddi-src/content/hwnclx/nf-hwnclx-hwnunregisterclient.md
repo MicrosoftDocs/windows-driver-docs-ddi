@@ -7,7 +7,6 @@ tech.root: gpiobtn
 ms.assetid: 94e5153a-3ce5-400c-b53a-5323b34a6c34
 ms.date: 02/15/2018
 ms.keywords: HwNUnregisterClient, HwNUnregisterClient function, gpiobtn.hwnunregisterclient, hwnclx/HwNUnregisterClient
-ms.topic: function
 f1_keywords:
  - "hwnclx/HwNUnregisterClient"
 req.header: hwnclx.h

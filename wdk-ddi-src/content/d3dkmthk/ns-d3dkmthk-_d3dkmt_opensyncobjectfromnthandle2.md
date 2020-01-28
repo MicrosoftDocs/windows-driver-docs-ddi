@@ -6,7 +6,6 @@ old-location: display\d3dkmt_opensyncobjectfromnthandle2.htm
 ms.assetid: 7C5F9ACF-AA21-4A2B-B943-3B1D940284E1
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 structure [Display Devices], _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2, display.d3dkmt_opensyncobjectfromnthandle2
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2"
 req.header: d3dkmthk.h

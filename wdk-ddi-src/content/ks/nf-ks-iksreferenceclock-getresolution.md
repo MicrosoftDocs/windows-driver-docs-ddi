@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 7fb70431-db09-470b-b795-826aba3a8b77
 ms.date: 04/23/2018
 ms.keywords: GetResolution, GetResolution method [Streaming Media Devices], GetResolution method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetResolution method, IKsReferenceClock.GetResolution, IKsReferenceClock::GetResolution, avintfc_941baf81-e369-45bc-a798-15270a6d8a29.xml, ks/IKsReferenceClock::GetResolution, stream.iksreferenceclock_getresolution
-ms.topic: method
 f1_keywords:
  - "ks/IKsReferenceClock.GetResolution"
 req.header: ks.h

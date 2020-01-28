@@ -5,7 +5,6 @@ description: The EvtNetAdapterReceiveScalingEnable callback function is implemen
 tech.root: netvista
 ms.assetid: a37af139-8c98-4733-b2d2-cb0c9d67de35
 ms.date: 07/13/2018
-ms.topic: callback
 f1_keywords:
  - "netreceivescaling/EVT_NET_ADAPTER_RECEIVE_SCALING_ENABLE"
 req.header: netreceivescaling.h

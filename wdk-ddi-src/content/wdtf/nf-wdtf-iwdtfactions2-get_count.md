@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: 73115e3a-3749-4751-a460-7557c996c0b8
 ms.date: 04/04/2018
 ms.keywords: Count method [Windows Device Testing Framework], Count method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],Count method, IWDTFActions2.get_Count, IWDTFActions2::Count, IWDTFActions2::get_Count, dtf.iwdtfactions2_count, get_Count, wdtf/IWDTFActions2::Count
-ms.topic: method
 f1_keywords:
  - "wdtf/IWDTFDeviceDepot2.Count"
 req.header: wdtf.h

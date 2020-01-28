@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 5aaebf38-bc09-4fb5-969e-7b456773d5ac
 ms.date: 05/10/2018
 ms.keywords: I2CWrite, I2CWrite callback function [Display Devices], PI2C_WRITE, PI2C_WRITE callback, VideoPort_Functions_3e35f4d8-7c13-4c2c-b0e4-c518bc63e6f6.xml, display.i2cwrite, video/I2CWrite
-ms.topic: callback
 f1_keywords:
  - "video/I2CWrite"
 req.header: video.h

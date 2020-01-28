@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: ddfca68f-142e-4e6a-9307-04a3136a4135
 ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_INTERNAL_SET_VERIFY, IOCTL_DISK_INTERNAL_SET_VERIFY control, IOCTL_DISK_INTERNAL_SET_VERIFY control code [Storage Devices], k307_d97d4ec3-63c0-4041-9953-8727b1b82e66.xml, ntdddisk/IOCTL_DISK_INTERNAL_SET_VERIFY, storage.ioctl_disk_internal_set_verify
-ms.topic: ioctl
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_INTERNAL_SET_VERIFY"
 req.header: ntdddisk.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2b99d877-aeab-49aa-82ad-4808b8a00519
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
 f1_keywords:
  - "ntddvdeo/COLORSPACE_TRANSFORM_SET_INPUT"
 ms.keywords: COLORSPACE_TRANSFORM_SET_INPUT, COLORSPACE_TRANSFORM_SET_INPUT, *PCOLORSPACE_TRANSFORM_SET_INPUT, 

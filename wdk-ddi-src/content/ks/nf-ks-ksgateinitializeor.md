@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: a02a3b53-03fa-49d4-835c-88623c2f4d8b
 ms.date: 04/23/2018
 ms.keywords: KsGateInitializeOr, KsGateInitializeOr function [Streaming Media Devices], avfunc_6741b878-dfae-4d40-9040-ab78d32243e2.xml, ks/KsGateInitializeOr, stream.ksgateinitializeor
-ms.topic: function
 f1_keywords:
  - "ks/KsGateInitializeOr"
 req.header: ks.h

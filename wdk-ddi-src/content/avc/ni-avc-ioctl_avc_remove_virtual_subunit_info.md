@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 0058b595-e807-4908-89b1-3956effba4db
 ms.date: 04/23/2018
 ms.keywords: IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO, IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO control, IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO control code [Streaming Media Devices], avc/IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO, avcref_b337d332-db69-4a9d-8e5e-d261ebf0cdd8.xml, stream.ioctl_avc_remove_virtual_subunit_info
-ms.topic: ioctl
 f1_keywords:
  - "avc/IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO"
 req.header: avc.h

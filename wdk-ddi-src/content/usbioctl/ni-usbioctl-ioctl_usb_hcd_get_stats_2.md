@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 64d229b3-9f06-432d-8d4f-7469e0deb11a
 ms.date: 05/07/2018
 ms.keywords: IOCTL_USB_HCD_GET_STATS_2, IOCTL_USB_HCD_GET_STATS_2 control, IOCTL_USB_HCD_GET_STATS_2 control code [Buses], buses.ioctl_usb_hcd_get_stats_2, usbioctl/IOCTL_USB_HCD_GET_STATS_2, usbirp_62df7d2d-dc01-46bf-8ce8-aa1a0082387e.xml
-ms.topic: ioctl
 f1_keywords:
  - "usbioctl/IOCTL_USB_HCD_GET_STATS_2"
 req.header: usbioctl.h

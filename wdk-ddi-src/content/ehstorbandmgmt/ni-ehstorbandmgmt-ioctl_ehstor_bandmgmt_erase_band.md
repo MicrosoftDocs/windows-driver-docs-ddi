@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: E7DE8E55-B753-42AF-B25F-F806EE37DCF1
 ms.date: 03/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_ERASE_BAND, IOCTL_EHSTOR_BANDMGMT_ERASE_BAND control, IOCTL_EHSTOR_BANDMGMT_ERASE_BAND control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ERASE_BAND, storage.ioctl_ehstor_bandmgmt_erase_band
-ms.topic: ioctl
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ERASE_BAND"
 req.header: ehstorbandmgmt.h

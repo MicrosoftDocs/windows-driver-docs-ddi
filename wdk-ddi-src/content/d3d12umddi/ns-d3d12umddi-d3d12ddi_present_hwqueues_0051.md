@@ -4,7 +4,6 @@ title: D3D12DDI_PRESENT_HWQUEUES_0051 (d3d12umddi.h)
 description: Describes allocation hardware queues that content is copied to and from.
 ms.assetid: 155ca041-9fd9-4503-bca8-caea01159eea
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_PRESENT_HWQUEUES_0051"
 ms.keywords: D3D12DDI_PRESENT_HWQUEUES_0051, D3D12DDI_PRESENT_HWQUEUES_0051, 

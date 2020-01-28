@@ -4,7 +4,6 @@ title: IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR (sidebandaudio.h)
 description: 
 ms.assetid: 425f4c56-06d0-438a-81ec-f1335b52e398
 ms.date: 10/05/2018
-ms.topic: ioctl
 f1_keywords:
  - "sidebandaudio/IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR"
 req.header: sidebandaudio.h

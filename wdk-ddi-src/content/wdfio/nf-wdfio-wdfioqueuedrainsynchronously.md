@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: e8e53a6d-8b8b-49ed-947b-d0bb69a4d050
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_8c2d977e-f24a-49b8-bb80-e4b3d369d23a.xml, WdfIoQueueDrainSynchronously, WdfIoQueueDrainSynchronously method, kmdf.wdfioqueuedrainsynchronously, wdf.wdfioqueuedrainsynchronously, wdfio/WdfIoQueueDrainSynchronously
-ms.topic: function
 f1_keywords:
  - "wdfio/WdfIoQueueDrainSynchronously"
 req.header: wdfio.h

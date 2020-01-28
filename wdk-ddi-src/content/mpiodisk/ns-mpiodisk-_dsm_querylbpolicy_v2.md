@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: f02f3442-e9c2-4f60-833d-e470de62118e
 ms.date: 03/29/2018
 ms.keywords: "*PDSM_QueryLBPolicy_V2, DSM_QueryLBPolicy_V2, DSM_QueryLBPolicy_V2 structure [Storage Devices], PDSM_QueryLBPolicy_V2, PDSM_QueryLBPolicy_V2 structure pointer [Storage Devices], _DSM_QueryLBPolicy_V2, mpiodisk/DSM_QueryLBPolicy_V2, mpiodisk/PDSM_QueryLBPolicy_V2, storage.dsm_querylbpolicy_v2, structs-scsibus_ea429f47-a439-433a-962e-2ce334aa7498.xml"
-ms.topic: struct
 f1_keywords:
  - "mpiodisk/DSM_QueryLBPolicy_V2"
 req.header: mpiodisk.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 347B069F-76B6-42D5-9613-7D0214C2FEDB
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TX_TAL_SEND_COMPLETE, MINIPORT_WDI_TX_TAL_SEND_COMPLETE callback, MiniportWdiTxTalSendComplete, MiniportWdiTxTalSendComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalSendComplete, netvista.miniportwditxtalsendcomplete
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiTxTalSendComplete"
 req.header: dot11wdi.h

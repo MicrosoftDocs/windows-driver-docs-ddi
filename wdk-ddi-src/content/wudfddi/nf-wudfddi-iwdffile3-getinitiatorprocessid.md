@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 4D23A651-7231-40CE-B9C2-4382D4E7F683
 ms.date: 02/26/2018
 ms.keywords: GetInitiatorProcessId, GetInitiatorProcessId method, GetInitiatorProcessId method,IWDFFile3 interface, IWDFFile3 interface,GetInitiatorProcessId method, IWDFFile3.GetInitiatorProcessId, IWDFFile3::GetInitiatorProcessId, umdf.iwdffile3_getinitiatorprocessid, wdf.iwdffile3_getinitiatorprocessid, wudfddi/IWDFFile3::GetInitiatorProcessId
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFFile3.GetInitiatorProcessId"
 req.header: wudfddi.h

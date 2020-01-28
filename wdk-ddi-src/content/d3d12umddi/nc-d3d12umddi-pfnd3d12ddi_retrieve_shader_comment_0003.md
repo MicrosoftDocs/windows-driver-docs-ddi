@@ -4,7 +4,6 @@ title: PFND3D12DDI_RETRIEVE_SHADER_COMMENT_0003 (d3d12umddi.h)
 description: Implemented by the client driver to retrieve shader comment.
 ms.assetid: 3c06c20c-915f-41c7-949d-a41038317e07
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

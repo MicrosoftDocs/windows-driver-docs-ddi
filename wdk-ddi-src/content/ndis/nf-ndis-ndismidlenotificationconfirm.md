@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 726B392E-3C7F-4F55-B045-CE022C242F0A
 ms.date: 05/02/2018
 ms.keywords: NdisMIdleNotificationConfirm, NdisMIdleNotificationConfirm function [Network Drivers Starting with Windows Vista], ndis/NdisMIdleNotificationConfirm, netvista.ndismidlenotificationconfirm
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMIdleNotificationConfirm"
 req.header: ndis.h

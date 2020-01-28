@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 4cd64469-7623-437b-b85d-3fd5535495be
 ms.author: windowsdriverdev
 ms.date: 09/25/2019
-ms.topic: function
 f1_keywords:
  - "ring/NetRingGetFragmentAtIndex"
 ms.keywords: NetRingGetFragmentAtIndex

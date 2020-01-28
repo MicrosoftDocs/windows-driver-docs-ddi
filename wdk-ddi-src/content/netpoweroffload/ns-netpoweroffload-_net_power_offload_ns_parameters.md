@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 4ebf3a7f-90b5-43dd-8c28-33319fdf0d59
 ms.author: windowsdriverdev
 ms.date: 09/30/2019
-ms.topic: struct
 f1_keywords:
  - "netpoweroffload/NET_POWER_OFFLOAD_NS_PARAMETERS"
 ms.keywords: NET_POWER_OFFLOAD_NS_PARAMETERS, NET_POWER_OFFLOAD_NS_PARAMETERS, 

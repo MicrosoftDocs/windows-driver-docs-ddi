@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: aba0ebc8-2c92-4d27-a35b-9ac25ac6e5ab
 ms.date: 05/10/2018
 ms.keywords: "*PDXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE, DXGK_I2C_INTERFACE structure [Display Devices], DmStructs_59985b59-bb86-459c-8bd2-2b6124a6b9bb.xml, PDXGK_I2C_INTERFACE, PDXGK_I2C_INTERFACE structure pointer [Display Devices], _DXGK_I2C_INTERFACE, display.dxgk_i2c_interface, dispmprt/DXGK_I2C_INTERFACE, dispmprt/PDXGK_I2C_INTERFACE"
-ms.topic: struct
 f1_keywords:
  - "dispmprt/DXGK_I2C_INTERFACE"
 req.header: dispmprt.h

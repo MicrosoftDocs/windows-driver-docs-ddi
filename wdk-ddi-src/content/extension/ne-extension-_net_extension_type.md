@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 92541d1b-82e8-4717-9733-3e0e562a9d09
 ms.author: windowsdriverdev
 ms.date: 09/23/2019
-ms.topic: enum
 f1_keywords:
  - "extension/-_NET_EXTENSION_GET_TYPE"
 ms.keywords: NET_EXTENSION_TYPE, NET_EXTENSION_TYPE, 

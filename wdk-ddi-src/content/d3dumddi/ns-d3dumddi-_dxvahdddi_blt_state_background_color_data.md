@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 23eaa88a-a3c3-4630-92b0-d76b266a9c45
 ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_d4f86ea1-cbdd-48ab-84ca-1bc64ba4c8db.xml, DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA, DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA, display.dxvahdddi_blt_state_background_color_data
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA"
 req.header: d3dumddi.h

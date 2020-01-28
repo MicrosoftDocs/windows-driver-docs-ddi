@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 019cc9b7-13f7-4925-af98-5df0e8556e1c
 ms.date: 04/16/2018
 ms.keywords: RxCeBuildTransport, RxCeBuildTransport function [Installable File System Drivers], ifsk.rxcebuildtransport, rxce/RxCeBuildTransport, rxref_8251916d-7a85-4e6d-8ca1-2deacf4a389a.xml
-ms.topic: function
 f1_keywords:
  - "rxce/RxCeBuildTransport"
 req.header: rxce.h

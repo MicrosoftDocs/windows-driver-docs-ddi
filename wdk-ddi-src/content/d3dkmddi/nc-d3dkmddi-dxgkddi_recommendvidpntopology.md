@@ -6,7 +6,6 @@ old-location: display\dxgkddirecommendvidpntopology.htm
 ms.assetid: a7c31d2c-3893-4d25-837d-d4650aeb1cd1
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_RECOMMENDVIDPNTOPOLOGY, DXGKDDI_RECOMMENDVIDPNTOPOLOGY callback, DmFunctions_8036db05-72c0-4b67-9151-a33da1df4fb8.xml, DxgkDdiRecommendVidPnTopology, DxgkDdiRecommendVidPnTopology callback function [Display Devices], d3dkmddi/DxgkDdiRecommendVidPnTopology, display.dxgkddirecommendvidpntopology
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

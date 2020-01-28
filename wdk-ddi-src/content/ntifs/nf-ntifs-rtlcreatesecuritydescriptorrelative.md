@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: feb9600a-e8ce-449a-8da8-2d9a2f10f581
 ms.date: 04/16/2018
 ms.keywords: RtlCreateSecurityDescriptorRelative, RtlCreateSecurityDescriptorRelative routine [Installable File System Drivers], ifsk.rtlcreatesecuritydescriptorrelative, ntifs/RtlCreateSecurityDescriptorRelative, rtlref_3130b278-4976-4371-952f-ab6fddeda7a9.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlCreateSecurityDescriptorRelative"
 req.header: ntifs.h

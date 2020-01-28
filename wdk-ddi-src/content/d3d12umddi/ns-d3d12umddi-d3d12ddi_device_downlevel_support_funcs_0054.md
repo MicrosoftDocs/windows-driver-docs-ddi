@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 434aefc5-b81e-418a-8f1e-e833fee7bbec
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054"
 ms.prod: windows-hardware

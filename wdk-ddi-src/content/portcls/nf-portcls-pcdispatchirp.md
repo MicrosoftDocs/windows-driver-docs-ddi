@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 01add66e-a007-4b1d-add6-c5be71dd0d61
 ms.date: 05/08/2018
 ms.keywords: PcDispatchIrp, PcDispatchIrp function [Audio Devices], audio.pcdispatchirp, audpc-routines_c87193c2-a8f8-4ba1-bf47-422fb5ff452d.xml, portcls/PcDispatchIrp
-ms.topic: function
 f1_keywords:
  - "portcls/PcDispatchIrp"
 req.header: portcls.h

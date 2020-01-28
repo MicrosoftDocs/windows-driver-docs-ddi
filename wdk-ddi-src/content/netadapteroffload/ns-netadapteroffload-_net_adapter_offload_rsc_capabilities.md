@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: ec0a7407-64eb-477e-be2e-ada7c1c3bcc7
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: struct
 f1_keywords:
  - "netadapteroffload/NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES"
 ms.keywords: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES, NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES, 

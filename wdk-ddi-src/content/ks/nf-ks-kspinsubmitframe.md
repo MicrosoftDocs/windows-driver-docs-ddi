@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 3fdb83b2-85b7-4f86-9a59-a42138000214
 ms.date: 04/23/2018
 ms.keywords: KsPinSubmitFrame, KsPinSubmitFrame function [Streaming Media Devices], avfunc_ce7c4c71-c404-4061-a2e5-b9f4c15df4a2.xml, ks/KsPinSubmitFrame, stream.kspinsubmitframe
-ms.topic: function
 f1_keywords:
  - "ks/KsPinSubmitFrame"
 req.header: ks.h

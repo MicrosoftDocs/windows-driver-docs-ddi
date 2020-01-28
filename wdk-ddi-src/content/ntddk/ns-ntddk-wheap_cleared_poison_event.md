@@ -7,7 +7,6 @@ tech.root:
 ms.assetid: 77b44885-a7c4-4aca-ac5e-e4da87ecc90b
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: struct
 f1_keywords:
  - "ntddk/WHEAP_CLEARED_POISON_EVENT"
 ms.keywords: WHEAP_CLEARED_POISON_EVENT, WHEAP_CLEARED_POISON_EVENT, *PWHEAP_CLEARED_POISON_EVENT, 

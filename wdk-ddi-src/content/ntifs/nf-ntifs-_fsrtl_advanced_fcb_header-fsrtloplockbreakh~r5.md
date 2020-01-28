@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: c533fb15-ca3a-44b2-8a1b-03b2b9c93fc6
 ms.date: 03/29/2018
 ms.keywords: FsRtlOplockBreakH, FsRtlOplockBreakH routine [Installable File System Drivers], fsrtlref_fe992b81-62d1-4f86-9615-05bca958411b.xml, ifsk.fsrtloplockbreakh, ntifs/FsRtlOplockBreakH
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlOplockBreakH"
 req.header: ntifs.h

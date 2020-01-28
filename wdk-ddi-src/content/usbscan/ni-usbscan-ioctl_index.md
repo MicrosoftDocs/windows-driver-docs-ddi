@@ -4,7 +4,6 @@ title: IOCTL_INDEX (usbscan.h)
 description: 
 ms.assetid: 5f05ce18-4a4a-433c-8cab-402f0ea39155
 ms.date: 10/19/2018
-ms.topic: ioctl
 f1_keywords:
  - "usbscan/IOCTL_INDEX"
 req.header: usbscan.h

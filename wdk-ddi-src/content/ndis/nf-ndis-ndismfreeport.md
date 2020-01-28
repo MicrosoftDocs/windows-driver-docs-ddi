@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 38d53977-ada2-41b9-8b6a-a3bd691f4525
 ms.date: 05/02/2018
 ms.keywords: NdisMFreePort, NdisMFreePort function [Network Drivers Starting with Windows Vista], ndis/NdisMFreePort, ndis_ports_ref_b5b73dda-9bc0-4d7d-a265-d50d1436c8f4.xml, netvista.ndismfreeport
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMFreePort"
 req.header: ndis.h

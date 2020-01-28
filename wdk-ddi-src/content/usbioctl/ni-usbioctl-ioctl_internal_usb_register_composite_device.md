@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 5ADCD625-485C-4E18-B022-BA1611F87EA9
 ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE, IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE control, IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE control code [Buses], buses.ioctl_internal_usb_register_composite_driver, usbioctl/IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE
-ms.topic: ioctl
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE"
 req.header: usbioctl.h

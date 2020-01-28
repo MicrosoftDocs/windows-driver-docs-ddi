@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: cc11e153-6be6-4fbc-9535-98bab7ed2b90
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_DECRYPTIONBLT, D3DDDIARG_DECRYPTIONBLT structure [Display Devices], UMDisplayDriver_param_Structs_1d0c0adb-cfde-47fd-b17c-1acc15de25cd.xml, _D3DDDIARG_DECRYPTIONBLT, d3dumddi/D3DDDIARG_DECRYPTIONBLT, display.d3dddiarg_decryptionblt
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DECRYPTIONBLT"
 req.header: d3dumddi.h

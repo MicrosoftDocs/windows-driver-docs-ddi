@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: eb3d8e2a-20f6-41fc-a220-de93eb83f359
 ms.date: 04/30/2018
 ms.keywords: "*PWNODE_TOO_SMALL, PWNODE_TOO_SMALL, PWNODE_TOO_SMALL structure pointer [Kernel-Mode Driver Architecture], WNODE_TOO_SMALL, WNODE_TOO_SMALL structure [Kernel-Mode Driver Architecture], kernel.wnode_too_small, kstruct_d_dcabaeb1-21d1-4cbe-a3ea-c6022e57e4b9.xml, tagWNODE_TOO_SMALL, wmistr/PWNODE_TOO_SMALL, wmistr/WNODE_TOO_SMALL"
-ms.topic: struct
 f1_keywords:
  - "wmistr/WNODE_TOO_SMALL"
 req.header: wmistr.h

@@ -6,7 +6,6 @@ old-location: display\d3dkmtcreatedevice.htm
 ms.assetid: 91f559cc-c84b-450d-b52c-8289e976f991
 ms.date: 05/10/2018
 ms.keywords: D3DKMTCreateDevice, D3DKMTCreateDevice callback function [Display Devices], OpenGL_Functions_09099f43-bae3-4859-9465-434915af774a.xml, PFND3DKMT_CREATEDEVICE, PFND3DKMT_CREATEDEVICE callback, d3dkmthk/D3DKMTCreateDevice, display.d3dkmtcreatedevice
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateDevice"
 req.header: d3dkmthk.h

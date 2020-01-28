@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 0110979E-8C57-4394-B43E-BCC7B178A0AF
 ms.date: 05/08/2018
 ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetStreamChannelVolume method, IMiniportStreamAudioEngineNode.SetStreamChannelVolume, IMiniportStreamAudioEngineNode::SetStreamChannelVolume, SetStreamChannelVolume, SetStreamChannelVolume method [Audio Devices], SetStreamChannelVolume method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamchannelvolume, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelVolume
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.SetStreamChannelVolume"
 req.header: portcls.h

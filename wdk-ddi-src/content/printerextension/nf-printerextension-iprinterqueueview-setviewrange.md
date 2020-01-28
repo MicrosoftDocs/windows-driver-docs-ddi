@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0
 ms.date: 04/20/2018
 ms.keywords: IPrinterQueueView interface [Print Devices],SetViewRange method, IPrinterQueueView.SetViewRange, IPrinterQueueView::SetViewRange, SetViewRange, SetViewRange method [Print Devices], SetViewRange method [Print Devices],IPrinterQueueView interface, print.iprinterqueueview_setviewrange, printerextension/IPrinterQueueView::SetViewRange
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterQueueView.SetViewRange"
 req.header: printerextension.h

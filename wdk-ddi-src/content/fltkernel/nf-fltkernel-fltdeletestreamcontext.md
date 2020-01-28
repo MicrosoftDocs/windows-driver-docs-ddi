@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 49f7d633-3e8b-4c9c-b14a-7ae8f997ad2f
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_8339a254-56eb-4f75-b294-006286f3ff10.xml, FltDeleteStreamContext, FltDeleteStreamContext function [Installable File System Drivers], fltkernel/FltDeleteStreamContext, ifsk.fltdeletestreamcontext
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltDeleteStreamContext"
 req.header: fltkernel.h

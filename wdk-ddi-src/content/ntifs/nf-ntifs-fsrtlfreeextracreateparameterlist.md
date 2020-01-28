@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 0d2f1204-0874-4ede-9931-be6f2dbc3c47
 ms.date: 04/16/2018
 ms.keywords: FsRtlFreeExtraCreateParameterList, FsRtlFreeExtraCreateParameterList routine [Installable File System Drivers], fsrtlref_909d50be-4f8d-47dc-ad00-03d3f9eb4533.xml, ifsk.fsrtlfreeextracreateparameterlist, ntifs/FsRtlFreeExtraCreateParameterList
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlFreeExtraCreateParameterList"
 req.header: ntifs.h

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: F87AFCA5-651C-4782-9F6F-C0AFB09010CB
 ms.date: 04/23/2018
 ms.keywords: LAMP_INTENSITY_COLOR, LAMP_INTENSITY_COLOR structure [Streaming Media Devices], lamp/LAMP_INTENSITY_COLOR, stream.lamp_intensity_color
-ms.topic: struct
 f1_keywords:
  - "lamp/LAMP_INTENSITY_COLOR"
 req.header: lamp.h

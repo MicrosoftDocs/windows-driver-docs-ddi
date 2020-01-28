@@ -4,7 +4,6 @@ title: PFND3D12DDI_CALCPRIVATEVIDEOMOTIONESTIMATORSIZE_0053 (d3d12umddi.h)
 description: Calculates the driver object size.
 ms.assetid: 2980611e-51df-4c26-9453-34bddb3b00a1
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 48300C50-47B7-47DC-BDE5-3847E1EAE820
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2PioTransmitCleanupTransaction, EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION, EVT_SERCX2_PIO_TRANSMIT_CLEANUP_TRANSACTION callback, EvtSerCx2PioTransmitCleanupTransaction, EvtSerCx2PioTransmitCleanupTransaction callback function [Serial Ports], serports.evtsercx2piotransmitcleanuptransaction
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2PioTransmitCleanupTransaction"
 req.header: sercx.h

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 9b916d43-26ab-4354-8537-2d4789c5fb52
 ms.date: 05/08/2018
 ms.keywords: PcCreateContentMixed, PcCreateContentMixed function [Audio Devices], audio.pccreatecontentmixed, audpc-routines_40c3dd23-60cb-48dc-a570-1ba007a27bb2.xml, portcls/PcCreateContentMixed
-ms.topic: function
 f1_keywords:
  - "portcls/PcCreateContentMixed"
 req.header: portcls.h

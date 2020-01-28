@@ -6,7 +6,6 @@ old-location: display\d3d10ddiarg_buffer_shaderresourceview.htm
 ms.assetid: 9144b167-7fa4-4854-bf0c-e98192f07db8
 ms.date: 05/10/2018
 ms.keywords: D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW, D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_76ff32e8-1460-45a7-a63d-3c18b75a860e.xml, d3d10umddi/D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW, display.d3d10ddiarg_buffer_shaderresourceview
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW"
 req.header: d3d10umddi.h

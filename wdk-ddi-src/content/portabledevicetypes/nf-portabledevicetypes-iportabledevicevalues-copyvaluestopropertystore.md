@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: 46bf7f4e-f1cc-413d-bd3b-229399741eb9
 ms.date: 02/15/2018
 ms.keywords: CopyValuesToPropertyStore, CopyValuesToPropertyStore method, CopyValuesToPropertyStore method,IPortableDeviceValues interface, IPortableDeviceValues interface,CopyValuesToPropertyStore method, IPortableDeviceValues.CopyValuesToPropertyStore, IPortableDeviceValues::CopyValuesToPropertyStore, IPortableDeviceValuesCopyValuesToPropertyStore, portabledevicetypes/IPortableDeviceValues::CopyValuesToPropertyStore, wpddk.iportabledevicevalues_copyvaluestopropertystore
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.CopyValuesToPropertyStore"
 req.header: portabledevicetypes.h

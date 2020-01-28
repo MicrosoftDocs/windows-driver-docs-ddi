@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 7C88F794-0C2B-4715-B09A-2AA49414F18A
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2SystemDmaReceiveCancelNewDataNotification, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CANCEL_NEW_DATA_NOTIFICATION callback, EvtSerCx2SystemDmaReceiveCancelNewDataNotification, EvtSerCx2SystemDmaReceiveCancelNewDataNotification callback function [Serial Ports], serports.evtsercx2systemdmareceivecancelnewdatanotification
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaReceiveCancelNewDataNotification"
 req.header: sercx.h

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: d211bab9-4932-41c5-9b6f-528a75bb2ae4
 ms.date: 03/29/2018
 ms.keywords: ChangerClassAllocatePool, ChangerClassAllocatePool function [Storage Devices], chgrclas_e1b15ece-f3e4-446f-adc4-39301fc0346f.xml, mcd/ChangerClassAllocatePool, storage.changerclassallocatepool
-ms.topic: function
 f1_keywords:
  - "mcd/ChangerClassAllocatePool"
 req.header: mcd.h

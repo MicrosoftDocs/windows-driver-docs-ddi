@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 71F6D886-D32E-4C90-B5BA-A4A1BBCD0B8F
 ms.date: 04/30/2018
 ms.keywords: RtlPtrdiffTMult, RtlPtrdiffTMult function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftmult, ntintsafe/RtlPtrdiffTMult
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlPtrdiffTMult"
 req.header: ntintsafe.h

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 282ffc00-ca62-4729-afe3-c13ea8069a18
 ms.date: 04/23/2018
 ms.keywords: KsIncrementCountedWorker, KsIncrementCountedWorker function [Streaming Media Devices], ks/KsIncrementCountedWorker, ksfunc_14b63f3e-f634-4147-891b-111179462966.xml, stream.ksincrementcountedworker
-ms.topic: function
 f1_keywords:
  - "ks/KsIncrementCountedWorker"
 req.header: ks.h

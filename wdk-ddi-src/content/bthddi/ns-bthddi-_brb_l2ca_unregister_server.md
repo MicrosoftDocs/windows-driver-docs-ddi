@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: bc10d76f-da09-457a-b469-ef59d1cb09d9
 ms.date: 04/27/2018
 ms.keywords: "_BRB_L2CA_UNREGISTER_SERVER, _BRB_L2CA_UNREGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_l2ca_unregister_server, bth_structs_211f7f5f-0a2d-487e-9720-78076b36e012.xml, bthddi/_BRB_L2CA_UNREGISTER_SERVER"
-ms.topic: struct
 f1_keywords:
  - "bthddi/_BRB_L2CA_UNREGISTER_SERVER"
 req.header: bthddi.h

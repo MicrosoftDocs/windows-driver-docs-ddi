@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4da0f5cb-a017-4df5-958b-c76b7a08495a
 ms.date: 05/10/2018
 ms.keywords: AgpReleasePhysical, AgpReleasePhysical callback function [Display Devices], PAGP_RELEASE_PHYSICAL, PAGP_RELEASE_PHYSICAL callback, VideoPort_Functions_427923a7-3205-41a7-a470-dbc7d531e47f.xml, display.agpreleasephysical, videoagp/AgpReleasePhysical
-ms.topic: callback
 f1_keywords:
  - "videoagp/AgpReleasePhysical"
 req.header: videoagp.h

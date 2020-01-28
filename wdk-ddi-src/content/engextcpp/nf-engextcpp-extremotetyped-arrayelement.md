@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: abe43441-3e00-4d85-ae84-dd738303ab1b
 ms.date: 05/03/2018
 ms.keywords: ArrayElement, ArrayElement method [Windows Debugging], ArrayElement method [Windows Debugging],ExtRemoteTyped interface, EngExtCpp_Ref_086fc0ab-cf63-4079-86d4-552dd2a1593d.xml, ExtRemoteTyped interface [Windows Debugging],ArrayElement method, ExtRemoteTyped.ArrayElement, ExtRemoteTyped::ArrayElement, debugger.extremotetyped_arrayelement
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.ArrayElement"
 req.header: engextcpp.hpp

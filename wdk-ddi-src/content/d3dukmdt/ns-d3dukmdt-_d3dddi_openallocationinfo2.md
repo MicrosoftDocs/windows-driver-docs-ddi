@@ -4,7 +4,6 @@ title: _D3DDDI_OPENALLOCATIONINFO2 (d3dukmdt.h)
 description: The D3DDDI_OPENALLOCATIONINFO2 structure describes an allocation to be opened.
 ms.assetid: aade2040-999b-4094-b984-cf0ed7324c6a
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dukmdt/_D3DDDI_OPENALLOCATIONINFO2"
 ms.keywords: _D3DDDI_OPENALLOCATIONINFO2, D3DDDI_OPENALLOCATIONINFO2, 

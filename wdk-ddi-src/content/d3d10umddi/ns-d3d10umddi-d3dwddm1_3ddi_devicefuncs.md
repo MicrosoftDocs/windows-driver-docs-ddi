@@ -6,7 +6,6 @@ old-location: display\d3dwddm1_3ddi_devicefuncs.htm
 ms.assetid: DE7A88BA-2E59-4E8C-B315-CA6260E3D68E
 ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_DEVICEFUNCS, D3D11_1DDI_DEVICEFUNCS structure [Display Devices], D3DWDDM1_3DDI_DEVICEFUNCS, D3DWDDM1_3DDI_DEVICEFUNCS structure [Display Devices], d3d10umddi/D3D11_1DDI_DEVICEFUNCS, display.d3dwddm1_3ddi_devicefuncs
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_DEVICEFUNCS"
 req.header: d3d10umddi.h

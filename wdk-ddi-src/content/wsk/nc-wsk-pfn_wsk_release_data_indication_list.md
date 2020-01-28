@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: ef42dfc9-f2f5-4799-b090-8e152a4aafcf
 ms.date: 05/02/2018
 ms.keywords: PFN_WSK_RELEASE_DATA_INDICATION_LIST, PFN_WSK_RELEASE_DATA_INDICATION_LIST callback, WskReleaseDataIndicationList, WskReleaseDataIndicationList callback function [Network Drivers Starting with Windows Vista], netvista.wskrelease, wsk/WskReleaseDataIndicationList, wskref_5e5f5aa8-bcd6-426c-a82c-7fde106f6e8d.xml
-ms.topic: callback
 f1_keywords:
  - "wsk/WskReleaseDataIndicationList"
 req.header: wsk.h
