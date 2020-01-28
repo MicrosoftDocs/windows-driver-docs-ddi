@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 689306DE-F83A-4C5D-B79A-DEBF2D5E79B3
 ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SaveReceiveFifoOnD0Exit, SerCx2SaveReceiveFifoOnD0Exit, SerCx2SaveReceiveFifoOnD0Exit method [Serial Ports], serports.sercx2savereceivefifoond0exit
-ms.topic: function
 f1_keywords:
  - "sercx/SerCx2SaveReceiveFifoOnD0Exit"
 req.header: sercx.h

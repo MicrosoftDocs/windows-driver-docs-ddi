@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: d522bb54-dc96-4cb5-afed-3eb096143882
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
 f1_keywords:
  - "ntddvdeo/MIPI_DSI2_CAPS"
 ms.keywords: MIPI_DSI2_CAPS, MIPI_DSI2_CAPS, *PMIPI_DSI2_CAPS, 

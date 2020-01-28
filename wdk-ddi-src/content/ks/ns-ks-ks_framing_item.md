@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: cd7d4ef7-f8ad-467f-aa5b-28b131941094
 ms.date: 04/23/2018
 ms.keywords: "*PKS_FRAMING_ITEM, KSALLOCATOR_FLAG_CAN_ALLOCATE, KSALLOCATOR_FLAG_DEVICE_SPECIFIC, KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO, KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT, KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY, KS_FRAMING_ITEM, KS_FRAMING_ITEM structure [Streaming Media Devices], PKS_FRAMING_ITEM, PKS_FRAMING_ITEM structure pointer [Streaming Media Devices], ks-struct_8ddb4478-636f-4cd4-b4c1-663a20070cef.xml, ks/KS_FRAMING_ITEM, ks/PKS_FRAMING_ITEM, stream.ks_framing_item"
-ms.topic: struct
 f1_keywords:
  - "ks/KS_FRAMING_ITEM"
 req.header: ks.h

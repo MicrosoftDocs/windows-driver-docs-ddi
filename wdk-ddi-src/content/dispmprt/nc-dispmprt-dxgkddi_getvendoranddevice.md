@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 52b16e83-c445-4854-9ef0-2a3f0f6c7c09
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DXGKDDI_GETVENDORANDDEVICE"
 req.header: dispmprt.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: fcc2679c-9a73-4bd0-ad2d-e7b48df9c7f7
 ms.date: 05/10/2018
 ms.keywords: "*PVIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE, PVIDEO_PORT_I2C_INTERFACE structure pointer [Display Devices], VIDEO_PORT_I2C_INTERFACE, VIDEO_PORT_I2C_INTERFACE structure [Display Devices], Video_Structs_2b152aec-acc0-4602-80de-cfdf9c0632a4.xml, _VIDEO_PORT_I2C_INTERFACE, display.video_port_i2c_interface, video/PVIDEO_PORT_I2C_INTERFACE, video/VIDEO_PORT_I2C_INTERFACE"
-ms.topic: struct
 f1_keywords:
  - "video/VIDEO_PORT_I2C_INTERFACE"
 req.header: video.h

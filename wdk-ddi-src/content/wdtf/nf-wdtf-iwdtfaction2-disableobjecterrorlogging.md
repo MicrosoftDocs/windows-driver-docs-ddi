@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: fcf279e6-f88f-4895-85bd-1088dd06fd12
 ms.date: 04/04/2018
 ms.keywords: DisableObjectErrorLogging, DisableObjectErrorLogging method [Windows Device Testing Framework], DisableObjectErrorLogging method [Windows Device Testing Framework],IWDTFAction2 interface, IWDTFAction2 interface [Windows Device Testing Framework],DisableObjectErrorLogging method, IWDTFAction2.DisableObjectErrorLogging, IWDTFAction2::DisableObjectErrorLogging, Microsoft.WDTF.IWDTFAction2.DisableObjectErrorLogging, Microsoft::WDTF::IWDTFAction2::DisableObjectErrorLogging, dtf.iwdtfaction2_disableobjecterrorlogging, wdtf/IWDTFAction2::DisableObjectErrorLogging
-ms.topic: method
 f1_keywords:
  - "wdtf/IWDTFAction2.DisableObjectErrorLogging"
 req.header: wdtf.h

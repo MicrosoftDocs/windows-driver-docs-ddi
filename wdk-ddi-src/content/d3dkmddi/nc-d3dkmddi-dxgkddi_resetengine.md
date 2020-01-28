@@ -6,7 +6,6 @@ old-location: display\dxgkddiresetengine.htm
 ms.assetid: 9c2097b2-5742-422c-a650-7efff2484970
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_RESETENGINE, DXGKDDI_RESETENGINE callback, DxgkDdiResetEngine, DxgkDdiResetEngine callback function [Display Devices], d3dkmddi/DxgkDdiResetEngine, display.dxgkddiresetengine
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

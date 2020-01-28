@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: a3f8d3f2-180c-454b-8e15-57c479c00db9
 ms.date: 05/08/2018
 ms.keywords: IMiniportDMus interface [Audio Devices],Service method, IMiniportDMus.Service, IMiniportDMus::Service, Service, Service method [Audio Devices], Service method [Audio Devices],IMiniportDMus interface, audio.iminiportdmus_service, audmp-routines_0c872bc5-12b7-4e9d-b6ea-0da47cd41483.xml, dmusicks/IMiniportDMus::Service
-ms.topic: method
 f1_keywords:
  - "dmusicks/IMiniportDMus.Service"
 req.header: dmusicks.h

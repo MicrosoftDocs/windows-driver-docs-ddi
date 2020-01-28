@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 197b0268-eace-4c01-bacd-62102bae7225
 ms.author: windowsdriverdev
 ms.date: 10/07/2019
-ms.topic: function
 f1_keywords:
  - "netwakesource/NetWakeSourceGetMediaChangeParameters"
 ms.keywords: NetWakeSourceGetMediaChangeParameters

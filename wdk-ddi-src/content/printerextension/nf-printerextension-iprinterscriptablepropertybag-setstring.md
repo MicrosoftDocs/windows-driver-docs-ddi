@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 9B4EBCA4-8370-4F00-9853-6EE8408367BE
 ms.date: 04/20/2018
 ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetString method, IPrinterScriptablePropertyBag.SetString, IPrinterScriptablePropertyBag::SetString, SetString, SetString method [Print Devices], SetString method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setstring, printerextension/IPrinterScriptablePropertyBag::SetString
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag.SetString"
 req.header: printerextension.h

@@ -5,7 +5,6 @@ description: The NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE enumeration specifies the
 tech.root: netvista
 ms.assetid: fea3f37f-acd1-4af3-8e20-4473fc289430
 ms.date: 03/06/2018
-ms.topic: enum
 f1_keywords:
  - "netreceivescaling/_NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE"
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE, NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE, 

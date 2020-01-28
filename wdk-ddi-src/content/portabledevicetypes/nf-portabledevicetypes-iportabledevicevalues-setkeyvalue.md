@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: 4c8ccaa6-a99e-42b5-9044-fe11d17e9aa7
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetKeyValue method, IPortableDeviceValues.SetKeyValue, IPortableDeviceValues::SetKeyValue, IPortableDeviceValuesSetKeyValue, SetKeyValue, SetKeyValue method, SetKeyValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetKeyValue, wpddk.iportabledevicevalues_setkeyvalue
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetKeyValue"
 req.header: portabledevicetypes.h

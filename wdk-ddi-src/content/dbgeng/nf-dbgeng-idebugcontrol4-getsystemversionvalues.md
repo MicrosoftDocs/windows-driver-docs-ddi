@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 77996a5f-aaf0-4c8c-9d29-498612ae9c0d
 ms.date: 05/03/2018
 ms.keywords: GetSystemVersionValues, GetSystemVersionValues method [Windows Debugging], GetSystemVersionValues method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetSystemVersionValues method, IDebugControl4.GetSystemVersionValues, IDebugControl4::GetSystemVersionValues, IDebugControl_32de1433-8721-41c0-9b14-43ef8f7bcf70.xml, dbgeng/IDebugControl4::GetSystemVersionValues, debugger.getsystemversionvalues
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl4.GetSystemVersionValues"
 req.header: dbgeng.h

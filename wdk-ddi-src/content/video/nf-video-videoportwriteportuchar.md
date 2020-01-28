@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0f05f765-ca59-4a92-91a0-f1123dd9cd6f
 ms.date: 05/10/2018
 ms.keywords: VideoPortWritePortUchar, VideoPortWritePortUchar function [Display Devices], VideoPort_Functions_cfd3f257-e96f-4f75-a335-6b78aaa47c70.xml, display.videoportwriteportuchar, video/VideoPortWritePortUchar
-ms.topic: function
 f1_keywords:
  - "video/VideoPortWritePortUchar"
 req.header: video.h

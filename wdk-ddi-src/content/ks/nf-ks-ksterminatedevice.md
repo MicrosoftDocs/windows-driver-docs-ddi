@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 3d6ad381-0bd9-47d8-a4dd-e434b62bf5a1
 ms.date: 04/23/2018
 ms.keywords: KsTerminateDevice, KsTerminateDevice function [Streaming Media Devices], avfunc_42f55ca4-ed73-4ea2-9f33-462d9d13e3e3.xml, ks/KsTerminateDevice, stream.ksterminatedevice
-ms.topic: function
 f1_keywords:
  - "ks/KsTerminateDevice"
 req.header: ks.h

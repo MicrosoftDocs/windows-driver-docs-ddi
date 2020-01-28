@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 023390a1-e878-4f1f-a5c2-1545a6786aaa
 ms.date: 03/29/2018
 ms.keywords: "*PDSM_QueryUniqueId, DSM_QueryUniqueId, DSM_QueryUniqueId structure [Storage Devices], PDSM_QueryUniqueId, PDSM_QueryUniqueId structure pointer [Storage Devices], _DSM_QueryUniqueId, mpiodisk/DSM_QueryUniqueId, mpiodisk/PDSM_QueryUniqueId, storage.dsm_queryuniqueid, structs-scsibus_eb6e8cc6-4b6a-468f-a14c-7a11c827ef30.xml"
-ms.topic: struct
 f1_keywords:
  - "mpiodisk/DSM_QueryUniqueId"
 req.header: mpiodisk.h

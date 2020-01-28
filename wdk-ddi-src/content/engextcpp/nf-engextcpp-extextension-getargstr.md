@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: a875b832-11dc-4cba-8fce-019bbb9ec7f2
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_0a1f3246-41a5-4a2f-8656-45f8c17b6418.xml, ExtExtension class [Windows Debugging],GetArgStr method, ExtExtension.GetArgStr, ExtExtension::GetArgStr, GetArgStr, GetArgStr method [Windows Debugging], GetArgStr method [Windows Debugging],ExtExtension class, debugger.getargstr
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtExtension.GetArgStr"
 req.header: engextcpp.hpp

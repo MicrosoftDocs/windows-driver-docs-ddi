@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: d11c3414-86c8-4b68-829e-4523519c5299
 ms.date: 04/30/2018
 ms.keywords: RtlPrefetchMemoryNonTemporal, RtlPrefetchMemoryNonTemporal routine [Kernel-Mode Driver Architecture], k109_795dffef-c947-4f0b-a8ab-fcc0cb6cc630.xml, kernel.rtlprefetchmemorynontemporal, wdm/RtlPrefetchMemoryNonTemporal
-ms.topic: function
 f1_keywords:
  - "wdm/RtlPrefetchMemoryNonTemporal"
 req.header: wdm.h

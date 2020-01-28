@@ -7,7 +7,6 @@ tech.root: acpi
 ms.assetid: 08C27EC1-0948-4E8F-A391-01FE2C1A34DB
 ms.date: 02/15/2018
 ms.keywords: IOCTL_ACPI_GET_DEVICE_INFORMATION, IOCTL_ACPI_GET_DEVICE_INFORMATION control, IOCTL_ACPI_GET_DEVICE_INFORMATION control code [ACPI Devices], acpi.ioctl_acpi_get_device_information, acpiioct/IOCTL_ACPI_GET_DEVICE_INFORMATION
-ms.topic: ioctl
 f1_keywords:
  - "acpiioct/IOCTL_ACPI_GET_DEVICE_INFORMATION"
 req.header: acpiioct.h

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: BF490F9C-C1CD-4AEE-A970-161C5BB3A523
 ms.date: 05/08/2018
 ms.keywords: IMiniportWaveRTInputStream, IMiniportWaveRTInputStream interface [Audio Devices], IMiniportWaveRTInputStream interface [Audio Devices],described, audio.iminiportwavertinputstream, portcls/IMiniportWaveRTInputStream
-ms.topic: interface
 f1_keywords:
  - "portcls/IMiniportWaveRTInputStream"
 req.header: portcls.h

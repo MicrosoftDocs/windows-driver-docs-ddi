@@ -6,7 +6,6 @@ old-location: display\d3d12ddi_video_sample_description.htm
 ms.assetid: B9918A06-6C10-4AD7-97EC-4FA0BC5319AD
 ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020, D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_SAMPLE_DESCRIPTION, display.d3d12ddi_video_sample_description
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020"
 req.header: d3d12umddi.h

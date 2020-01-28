@@ -7,7 +7,6 @@ tech.root: powermeter
 ms.assetid: 2CCEDDB4-C91D-4E88-A01F-BB52F1686A95
 ms.date: 05/08/2018
 ms.keywords: IOCTL_HPMI_QUERY_CAPABILITIES, IOCTL_HPMI_QUERY_CAPABILITIES control, IOCTL_HPMI_QUERY_CAPABILITIES control code [Power Metering and Budgeting Devices], hpmi/IOCTL_HPMI_QUERY_CAPABILITIES, powermeter.ioctl_hpmi_query_capabilities
-ms.topic: ioctl
 f1_keywords:
  - "hpmi/IOCTL_HPMI_QUERY_CAPABILITIES"
 req.header: hpmi.h

@@ -6,7 +6,6 @@ old-location: display\startsessionkeyrefresh1.htm
 ms.assetid: 0973cef3-41a8-495e-aa8a-ce64df53b892
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_STARTSESSIONKEYREFRESH, PFND3D11_1DDI_STARTSESSIONKEYREFRESH callback, d3d10umddi/pfnStartSessionKeyRefresh, display.startsessionkeyrefresh1, pfnStartSessionKeyRefresh, pfnStartSessionKeyRefresh callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

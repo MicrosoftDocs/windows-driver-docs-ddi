@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 2a7a7570-ed26-48be-b27b-dc240588ecfc
 ms.date: 05/02/2018
 ms.keywords: PFN_WSK_RECEIVE_EVENT, PFN_WSK_RECEIVE_EVENT callback, WSK_FLAG_AT_DISPATCH_LEVEL, WSK_FLAG_ENTIRE_MESSAGE, WSK_FLAG_RELEASE_ASAP, WskReceiveEvent, WskReceiveEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskreceiveevent, wsk/WskReceiveEvent, wskref_acb47379-99e4-42b8-92a1-19395cc29fd8.xml
-ms.topic: callback
 f1_keywords:
  - "wsk/WskReceiveEvent"
 req.header: wsk.h

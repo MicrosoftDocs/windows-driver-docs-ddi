@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 3d8b3b45-90d9-4e64-a52d-253c9cb86588
 ms.date: 05/10/2018
 ms.keywords: "*PVIDEO_MEMORY, PVIDEO_MEMORY, PVIDEO_MEMORY structure pointer [Display Devices], VIDEO_MEMORY, VIDEO_MEMORY structure [Display Devices], Video_Structs_85973586-1583-46cb-93a7-c8d37ba4ef5f.xml, _VIDEO_MEMORY, display.video_memory, ntddvdeo/PVIDEO_MEMORY, ntddvdeo/VIDEO_MEMORY"
-ms.topic: struct
 f1_keywords:
  - "ntddvdeo/VIDEO_MEMORY"
 req.header: ntddvdeo.h

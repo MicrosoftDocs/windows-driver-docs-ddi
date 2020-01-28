@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 61C1EB2F-E4CF-4B18-AD7B-6B24EF14E71F
 ms.date: 05/10/2018
 ms.keywords: D3DKMDT_VPPR_GET_CONTENT_ROTATION, D3DKMDT_VPPR_GET_CONTENT_ROTATION function [Display Devices], d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION, display.d3dkmdt_vppr_get_content_rotation
-ms.topic: function
 f1_keywords:
  - "d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION"
 req.header: d3dkmdt.h

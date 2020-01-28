@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 36ea4547-e9a0-49c9-8b45-903a2de60923
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_FLIPOVERLAY, D3DDDIARG_FLIPOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_078e5dd1-bbd8-4067-85a7-2474d18b1d40.xml, _D3DDDIARG_FLIPOVERLAY, d3dumddi/D3DDDIARG_FLIPOVERLAY, display.d3dddiarg_flipoverlay
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_FLIPOVERLAY"
 req.header: d3dumddi.h

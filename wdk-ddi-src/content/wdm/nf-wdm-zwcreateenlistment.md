@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 5ffd8262-10b3-4c40-bd3e-050271338508
 ms.date: 04/30/2018
 ms.keywords: NtCreateEnlistment, ZwCreateEnlistment, ZwCreateEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwcreateenlistment, ktm_ref_30b47803-67b7-4a88-9f87-0dbee055f580.xml, wdm/NtCreateEnlistment, wdm/ZwCreateEnlistment
-ms.topic: function
 f1_keywords:
  - "wdm/ZwCreateEnlistment"
 req.header: wdm.h

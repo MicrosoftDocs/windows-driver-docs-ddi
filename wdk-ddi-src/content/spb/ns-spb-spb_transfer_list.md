@@ -7,7 +7,6 @@ tech.root: SPB
 ms.assetid: DC4E165B-4D3A-4C5F-9B6F-8CB825BAF4FD
 ms.date: 04/30/2018
 ms.keywords: "*PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST structure pointer [Buses], SPB.spb_transfer_list, SPB_TRANSFER_LIST, SPB_TRANSFER_LIST structure [Buses], spb/PSPB_TRANSFER_LIST, spb/SPB_TRANSFER_LIST"
-ms.topic: struct
 f1_keywords:
  - "spb/SPB_TRANSFER_LIST"
 req.header: spb.h

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 1F32DA95-6801-4C48-B3C4-A47C3E1C678B
 ms.date: 03/29/2018
 ms.keywords: "*PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR structure pointer [Storage Devices], UFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR structure [Storage Devices], _UFS_STRING_DESCRIPTOR, storage.ufs_string_descriptor, ufs/PUFS_STRING_DESCRIPTOR, ufs/UFS_STRING_DESCRIPTOR"
-ms.topic: struct
 f1_keywords:
  - "ufs/UFS_STRING_DESCRIPTOR"
 req.header: ufs.h

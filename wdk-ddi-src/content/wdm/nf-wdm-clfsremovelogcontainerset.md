@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: b73a125f-3ab9-4ec6-a154-7b32334e95eb
 ms.date: 04/30/2018
 ms.keywords: ClfsRemoveLogContainerSet, ClfsRemoveLogContainerSet routine [Kernel-Mode Driver Architecture], Clfs_8455da3b-79fb-4511-8682-e9167620a369.xml, kernel.clfsremovelogcontainerset, wdm/ClfsRemoveLogContainerSet
-ms.topic: function
 f1_keywords:
  - "wdm/ClfsRemoveLogContainerSet"
 req.header: wdm.h

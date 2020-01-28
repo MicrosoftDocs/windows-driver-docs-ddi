@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: A4324FAD-A925-4D65-9697-9CC2878DBE0B
 ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration [Storage Devices], UfsDataTypeMax, UfsDataTypeQueryDescriptor, UfsDataTypeUnknown, _STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/ UfsDataTypeMax, ntddstor/ UfsDataTypeQueryDescriptor, ntddstor/STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/UfsDataTypeUnknown, storage.storage_protocol_ufs_data_type"
-ms.topic: enum
 f1_keywords:
  - "ntddstor/STORAGE_PROTOCOL_UFS_DATA_TYPE"
 req.header: ntddstor.h

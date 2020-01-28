@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATE_SHADER_0010 (d3d12umddi.h)
 description: Create shader.
 ms.assetid: 56c7add3-70b2-4a2b-9412-ed7d3a839592
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

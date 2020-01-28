@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 0afe431d-55dd-4aaa-bcbc-467ac3a7b604
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_3f130d06-8af0-46c1-9db3-bd70d1cbabe1.xml, FltCancellableWaitForMultipleObjects, FltCancellableWaitForMultipleObjects function [Installable File System Drivers], ifsk.fltcancellablewaitformultipleobjects, ntifs/FltCancellableWaitForMultipleObjects
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltCancellableWaitForMultipleObjects"
 req.header: fltkernel.h

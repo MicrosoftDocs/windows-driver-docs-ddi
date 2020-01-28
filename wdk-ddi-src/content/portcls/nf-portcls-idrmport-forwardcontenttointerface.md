@@ -5,7 +5,6 @@ description: The ForwardContentToInterface method accepts a pointer to the COM i
 tech.root: audio
 ms.assetid: 8ccec5e2-2239-4d3d-a789-f7d1800966d7
 ms.date: 02/20/2019
-ms.topic: method
 f1_keywords:
  - "portcls/IDrmPort.ForwardContentToInterface"
 ms.keywords: IDrmPort::ForwardContentToInterface, ForwardContentToInterface, IDrmPort.ForwardContentToInterface, IDrmPort::ForwardContentToInterface, IDrmPort.ForwardContentToInterface

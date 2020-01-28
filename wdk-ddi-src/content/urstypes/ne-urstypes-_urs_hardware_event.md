@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 985A7725-1EE1-4419-B8BE-FEE2306E93A7
 ms.date: 05/07/2018
 ms.keywords: "*PURS_HARDWARE_EVENT, URS_HARDWARE_EVENT, URS_HARDWARE_EVENT enumeration [Buses], URS_HARDWARE_EVENT,*PURS_HARDWARE_EVENT, URS_HARDWARE_EVENT,*PURS_HARDWARE_EVENT enumeration [Buses], UrsHardwareEventDetach, UrsHardwareEventIdFloat, UrsHardwareEventIdGround, UrsHardwareEventNone, UrsHardwareEventPortTypeDfp, UrsHardwareEventPortTypeUfp, _URS_HARDWARE_EVENT, buses.urs_hardware_event, urstypes/URS_HARDWARE_EVENT, urstypes/UrsHardwareEventDetach, urstypes/UrsHardwareEventIdFloat, urstypes/UrsHardwareEventIdGround, urstypes/UrsHardwareEventNone, urstypes/UrsHardwareEventPortTypeDfp, urstypes/UrsHardwareEventPortTypeUfp"
-ms.topic: enum
 f1_keywords:
  - "urstypes/URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT"
 req.header: urstypes.h

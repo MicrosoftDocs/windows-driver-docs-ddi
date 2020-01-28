@@ -6,7 +6,6 @@ old-location: display\dxgk_set_timing_results.htm
 ms.assetid: EA5C845B-76FD-40AD-B4E8-78601CA847CE
 ms.date: 05/10/2018
 ms.keywords: "*PDXGK_SET_TIMING_RESULTS, DXGK_SET_TIMING_RESULTS, DXGK_SET_TIMING_RESULTS structure [Display Devices], PDXGK_SET_TIMING_RESULTS, PDXGK_SET_TIMING_RESULTS structure pointer [Display Devices], _DXGK_SET_TIMING_RESULTS, d3dkmddi/DXGK_SET_TIMING_RESULTS, d3dkmddi/PDXGK_SET_TIMING_RESULTS, display.dxgk_set_timing_results"
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_SET_TIMING_RESULTS"
 req.header: d3dkmddi.h

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 2bc0cd81-db9b-4646-838b-0e66c0667202
 ms.date: 05/03/2018
 ms.keywords: GetScopeSymbolGroup2, GetScopeSymbolGroup2 method [Windows Debugging], GetScopeSymbolGroup2 method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetScopeSymbolGroup2 method, IDebugSymbols3.GetScopeSymbolGroup2, IDebugSymbols3::GetScopeSymbolGroup2, dbgeng/IDebugSymbols3::GetScopeSymbolGroup2, debugger.getscopesymbolgroup2
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetScopeSymbolGroup2"
 req.header: dbgeng.h

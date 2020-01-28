@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 2c2e4f7d-578a-4429-baca-ebe45423afff
 ms.date: 05/02/2018
 ms.keywords: NdisMCmActivateVc, NdisMCmActivateVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_0dd062a7-dc2b-49c1-b319-e0189631e348.xml, ndis/NdisMCmActivateVc, netvista.ndismcmactivatevc
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMCmActivateVc"
 req.header: ndis.h

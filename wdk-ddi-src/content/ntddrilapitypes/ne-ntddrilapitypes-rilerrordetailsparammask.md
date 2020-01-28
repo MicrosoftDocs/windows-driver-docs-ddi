@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 5890ea36-73af-4d64-bea3-12b75d479e6e
 ms.date: 05/02/2018
 ms.keywords: RILERRORDETAILSPARAMMASK, RILERRORDETAILSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilerrordetailsparammask, ntddrilapitypes/RILERRORDETAILSPARAMMASK
-ms.topic: enum
 f1_keywords:
  - "ntddrilapitypes/RILERRORDETAILSPARAMMASK"
 req.header: ntddrilapitypes.h

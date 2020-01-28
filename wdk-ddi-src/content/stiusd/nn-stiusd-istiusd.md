@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 62740263-5bbb-48e1-be3d-9ee9cb37d6b9
 ms.date: 05/03/2018
 ms.keywords: IStiUSD, IStiUSD interface [Imaging Devices], IStiUSD interface [Imaging Devices],described, image.istiusd_interface_methods, stifnc_2fa7c229-f4c5-455e-ba93-019c5b84dd79.xml, stiusd/IStiUSD
-ms.topic: interface
 f1_keywords:
  - "stiusd/IStiUSD"
 req.header: stiusd.h

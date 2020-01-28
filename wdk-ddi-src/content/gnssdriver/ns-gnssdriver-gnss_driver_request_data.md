@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: 801FBD9D-304A-41AC-AD28-00DE95DEFE63
 ms.date: 02/15/2018
 ms.keywords: GNSS_DRIVER_REQUEST_DATA, GNSS_DRIVER_REQUEST_DATA structure [Sensor Devices], PGNSS_DRIVER_REQUEST_DATA, PGNSS_DRIVER_REQUEST_DATA structure pointer [Sensor Devices], gnss.gnss_driver_request_data, gnssdriver/GNSS_DRIVER_REQUEST_DATA, gnssdriver/PGNSS_DRIVER_REQUEST_DATA
-ms.topic: struct
 f1_keywords:
  - "gnssdriver/GNSS_DRIVER_REQUEST_DATA"
 req.header: gnssdriver.h

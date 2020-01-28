@@ -6,7 +6,6 @@ old-location: display\dxgkarg_settargetanalogcopyprotection.htm
 ms.assetid: F5A853B2-4A8C-4929-AAEC-28844DEF0B29
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_SETTARGETANALOGCOPYPROTECTION, DXGKARG_SETTARGETANALOGCOPYPROTECTION structure [Display Devices], _DXGKARG_SETTARGETANALOGCOPYPROTECTION, d3dkmddi/DXGKARG_SETTARGETANALOGCOPYPROTECTION, display.dxgkarg_settargetanalogcopyprotection
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_SETTARGETANALOGCOPYPROTECTION"
 req.header: d3dkmddi.h

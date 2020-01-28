@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 87C99B3A-EF77-4D87-9953-BBE9628D2A3D
 ms.date: 04/20/2018
 ms.keywords: CreatePrinterIC, CreatePrinterIC function [Print Devices], print.createprinteric, winsplp/CreatePrinterIC
-ms.topic: function
 f1_keywords:
  - "winsplp/CreatePrinterIC"
 req.header: winsplp.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 959baf54-849c-4bb1-b4c5-4d5537e1d688
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_UNINSTALL, PROTOCOL_UNINSTALL callback, ProtocolUninstall, ProtocolUninstall callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolUninstall, netvista.protocoluninstall, protocol_functions_ref_5c889ae3-39d9-43ff-84b5-8ecbb0b48be5.xml
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolUninstall"
 req.header: ndis.h

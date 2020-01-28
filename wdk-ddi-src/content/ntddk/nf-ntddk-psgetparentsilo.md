@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 57fa5563-3a02-449a-a934-85c75f450500
 ms.date: 04/30/2018
 ms.keywords: PsGetParentSilo, PsGetParentSilo function [Kernel-Mode Driver Architecture], kernel.psgetparentsilo, ntddk/PsGetParentSilo
-ms.topic: function
 f1_keywords:
  - "ntddk/PsGetParentSilo"
 req.header: ntddk.h

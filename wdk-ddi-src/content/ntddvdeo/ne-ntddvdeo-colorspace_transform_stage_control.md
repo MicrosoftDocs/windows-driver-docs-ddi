@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 5c8ce12f-aff7-4096-b51d-b05015bb78da
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: enum
 f1_keywords:
  - "ntddvdeo/COLORSPACE_TRANSFORM_STAGE_CONTROL"
 ms.keywords: COLORSPACE_TRANSFORM_STAGE_CONTROL, COLORSPACE_TRANSFORM_STAGE_CONTROL, *PCOLORSPACE_TRANSFORM_STAGE_CONTROL, 

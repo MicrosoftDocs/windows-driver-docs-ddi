@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: b0b199ea-d72f-4de3-a6b1-bd22140d13cb
 ms.date: 04/16/2018
 ms.keywords: "*PFSRTL_COMMON_FCB_HEADER, FSRTL_COMMON_FCB_HEADER, FSRTL_COMMON_FCB_HEADER structure [Installable File System Drivers], PFSRTL_COMMON_FCB_HEADER, PFSRTL_COMMON_FCB_HEADER structure pointer [Installable File System Drivers], _FSRTL_COMMON_FCB_HEADER, contextstructures_775f0b4a-8043-4125-85b4-530a79ed76ba.xml, ifsk.fsrtl_common_fcb_header, ntifs/FSRTL_COMMON_FCB_HEADER, ntifs/PFSRTL_COMMON_FCB_HEADER"
-ms.topic: struct
 f1_keywords:
  - "ntifs/FSRTL_COMMON_FCB_HEADER"
 req.header: ntifs.h

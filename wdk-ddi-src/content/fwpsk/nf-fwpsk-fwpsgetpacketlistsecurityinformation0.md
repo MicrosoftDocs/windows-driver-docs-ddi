@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: c3391615-963b-4916-9280-ce782269692c
 ms.date: 05/02/2018
 ms.keywords: FwpsGetPacketListSecurityInformation0, FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsGetPacketListSecurityInformation0, netvista.fwpsgetpacketlistsecurityinformation0, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml
-ms.topic: function
 f1_keywords:
  - "fwpsk/FwpsGetPacketListSecurityInformation0"
 req.header: fwpsk.h

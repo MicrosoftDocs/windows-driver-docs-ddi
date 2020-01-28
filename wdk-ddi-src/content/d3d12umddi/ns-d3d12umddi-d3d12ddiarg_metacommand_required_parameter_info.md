@@ -6,7 +6,6 @@ ms.author: misaso
 description: The required parameter information for the meta-command.
 ms.assetid: e7f6659b-a46b-467d-85e0-90f28dde27a2
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO"
 ms.keywords: D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO, D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO,

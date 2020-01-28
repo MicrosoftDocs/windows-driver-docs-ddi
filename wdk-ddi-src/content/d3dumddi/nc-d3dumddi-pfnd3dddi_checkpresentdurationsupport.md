@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4D3FC503-A502-41D3-AB76-5A2BEBE4C551
 ms.date: 05/10/2018
 ms.keywords: CheckPresentDurationSupport, CheckPresentDurationSupport callback function [Display Devices], PFND3DDDI_CHECKPRESENTDURATIONSUPPORT, PFND3DDDI_CHECKPRESENTDURATIONSUPPORT callback, d3dumddi/CheckPresentDurationSupport, display.checkpresentdurationsupport
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

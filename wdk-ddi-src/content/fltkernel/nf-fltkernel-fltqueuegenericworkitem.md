@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 30179fe1-e218-46cd-96a9-816ebab112bf
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_221f809d-f028-4e0f-b7b3-1341c1ed8782.xml, FltQueueGenericWorkItem, FltQueueGenericWorkItem function [Installable File System Drivers], fltkernel/FltQueueGenericWorkItem, ifsk.fltqueuegenericworkitem
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltQueueGenericWorkItem"
 req.header: fltkernel.h

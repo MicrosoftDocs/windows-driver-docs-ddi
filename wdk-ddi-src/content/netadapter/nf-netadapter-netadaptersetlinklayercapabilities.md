@@ -5,7 +5,6 @@ description: Sets the link layer capabilities of the network adapter.
 tech.root: netvista
 ms.assetid: cf6bc60a-837a-44c1-bd8a-15ffb7c696a9
 ms.date: 02/06/2018
-ms.topic: function
 f1_keywords:
  - "netadapter/NetAdapterSetLinkLayerCapabilities"
 ms.keywords: NetAdapterSetLinkLayerCapabilities

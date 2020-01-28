@@ -4,7 +4,6 @@ title: D3DDDI_INTERFACE32_FROM_VERSION64 macro (d3dumddi.h)
 description: Converts a 32 bit interface from a 64 bit version.
 ms.assetid: b9bcb1e1-f640-4f75-929f-bd5249f4124d
 ms.date: 10/19/2018
-ms.topic: macro
 f1_keywords:
  - "d3dumddi/D3DDDI_INTERFACE32_FROM_VERSION64"
 ms.keywords: D3DDDI_INTERFACE32_FROM_VERSION64

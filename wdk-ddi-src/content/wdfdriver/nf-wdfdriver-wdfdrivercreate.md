@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 2b8cea0f-bca0-4ffa-834b-d7c079cf93d8
 ms.date: 02/26/2018
 ms.keywords: DFDriverObjectRef_10e33793-b3e1-4938-9b82-439451aceb86.xml, WdfDriverCreate, WdfDriverCreate method, kmdf.wdfdrivercreate, wdf.wdfdrivercreate, wdfdriver/WdfDriverCreate
-ms.topic: function
 f1_keywords:
  - "wdfdriver/WdfDriverCreate"
 req.header: wdfdriver.h

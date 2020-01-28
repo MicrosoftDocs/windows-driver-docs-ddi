@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 5f725332-155d-484f-8eaf-b45e0d7413e7
 ms.date: 04/30/2019
 ms.keywords: "*PKSPROPERTY_TUNER_STANDARD_MODE_S, KSPROPERTY_TUNER_STANDARD_MODE_S, KSPROPERTY_TUNER_STANDARD_MODE_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_STANDARD_MODE_S, PKSPROPERTY_TUNER_STANDARD_MODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_STANDARD_MODE_S, ksmedia/PKSPROPERTY_TUNER_STANDARD_MODE_S, stream.ksproperty_tuner_standard_mode_s, vidcapstruct_5b923a0a-26a2-4ef4-82d7-de7b3c3b67d0.xml"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSPROPERTY_TUNER_STANDARD_MODE_S"
 req.header: ksmedia.h

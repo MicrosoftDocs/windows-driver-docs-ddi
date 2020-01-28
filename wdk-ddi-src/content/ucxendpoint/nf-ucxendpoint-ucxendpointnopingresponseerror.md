@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 0EDC524E-12BB-49AD-AA12-A7D9CF7D2F9C
 ms.date: 05/07/2018
 ms.keywords: UcxEndpointNoPingResponseError, UcxEndpointNoPingResponseError method [Buses], buses._ucxendpointnopingresponseerror, ucxendpoint/UcxEndpointNoPingResponseError
-ms.topic: function
 f1_keywords:
  - "ucxendpoint/UcxEndpointNoPingResponseError"
 req.header: ucxendpoint.h

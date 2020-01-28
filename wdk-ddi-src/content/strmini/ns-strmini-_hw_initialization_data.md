@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 5be9ba51-bd6c-4650-9c48-f89267a2ac16
 ms.date: 04/23/2018
 ms.keywords: "*PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA structure [Streaming Media Devices], PHW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA structure pointer [Streaming Media Devices], _HW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA structure [Streaming Media Devices], strclass-struct_7c987d6a-732c-4de9-b98a-b68873458c41.xml, stream.hw_initialization_data, strmini/HW_INITIALIZATION_DATA, strmini/PHW_INITIALIZATION_DATA"
-ms.topic: struct
 f1_keywords:
  - "strmini/HW_INITIALIZATION_DATA"
 req.header: strmini.h

@@ -5,7 +5,6 @@ description: This routine finds the PROPVARIANT from a collection list based on 
 ms.assetid: f649dbee-d3c5-4fd0-afa8-1afa64a97cf6
 ms.date: 08/08/2018
 tech.root: sensors
-ms.topic: function
 f1_keywords:
  - "sensorsutils/PropKeyFindKeyGetPropVariant"
 ms.keywords: PropKeyFindKeyGetPropVariant

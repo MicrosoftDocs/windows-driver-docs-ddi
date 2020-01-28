@@ -5,7 +5,6 @@ description: The DeviceDsmGetInputLength function gets the number of bytes in a 
 tech.root: storage
 ms.assetid: 689bb265-239d-442c-b2ae-be648cf8d641
 ms.date: 08/23/2019
-ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmGetInputLength"
 ms.keywords: DeviceDsmGetInputLength

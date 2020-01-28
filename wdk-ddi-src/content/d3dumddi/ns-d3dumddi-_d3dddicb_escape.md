@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 37e111be-5175-40d0-b862-0cc79d77d2bc
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_ESCAPE, D3DDDICB_ESCAPE structure [Display Devices], D3D_param_Structs_3981c7f8-973d-42c4-abfa-29613731df50.xml, _D3DDDICB_ESCAPE, d3dumddi/D3DDDICB_ESCAPE, display.d3dddicb_escape
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDICB_ESCAPE"
 req.header: d3dumddi.h

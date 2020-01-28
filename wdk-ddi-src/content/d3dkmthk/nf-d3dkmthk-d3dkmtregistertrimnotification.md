@@ -6,7 +6,6 @@ old-location: display\d3dkmtregistertrimnotification.htm
 ms.assetid: 4D35ED8F-2D1E-4C0B-8302-CE651D47AF10
 ms.date: 05/10/2018
 ms.keywords: D3DKMTRegisterTrimNotification, D3DKMTRegisterTrimNotification function [Display Devices], d3dkmthk/D3DKMTRegisterTrimNotification, display.d3dkmtregistertrimnotification
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTRegisterTrimNotification"
 req.header: d3dkmthk.h

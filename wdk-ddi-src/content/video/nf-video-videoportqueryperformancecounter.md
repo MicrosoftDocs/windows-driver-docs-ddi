@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 44e9fca2-54b1-427c-864d-f170a8a26f5e
 ms.date: 05/10/2018
 ms.keywords: VideoPortQueryPerformanceCounter, VideoPortQueryPerformanceCounter function [Display Devices], VideoPort_Functions_cd442a17-45fb-493b-b725-8bfbd12ed398.xml, display.videoportqueryperformancecounter, video/VideoPortQueryPerformanceCounter
-ms.topic: function
 f1_keywords:
  - "video/VideoPortQueryPerformanceCounter"
 req.header: video.h

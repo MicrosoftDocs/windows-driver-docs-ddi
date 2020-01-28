@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: e84ee541-4347-4385-9742-5cc0c6c5017f
 ms.date: 02/26/2018
 ms.keywords: DFRegKeyObjectRef_6b8641ef-885d-47f5-ad8b-afdd57a75c84.xml, WdfRegistryAssignString, WdfRegistryAssignString method, kmdf.wdfregistryassignstring, wdf.wdfregistryassignstring, wdfregistry/WdfRegistryAssignString
-ms.topic: function
 f1_keywords:
  - "wdfregistry/WdfRegistryAssignString"
 req.header: wdfregistry.h

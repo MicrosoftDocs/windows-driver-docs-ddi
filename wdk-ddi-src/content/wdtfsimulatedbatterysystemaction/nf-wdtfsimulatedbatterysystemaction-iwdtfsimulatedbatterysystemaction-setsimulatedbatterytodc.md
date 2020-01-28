@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: 7564c5f0-ea36-4009-bd34-3119ef23149e
 ms.date: 04/04/2018
 ms.keywords: IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],SetSimulatedBatteryToDC method, IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToDC, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC, SetSimulatedBatteryToDC, SetSimulatedBatteryToDC method [Windows Device Testing Framework], SetSimulatedBatteryToDC method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterytodc, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToDC
-ms.topic: method
 f1_keywords:
  - "wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToDC"
 req.header: wdtfsimulatedbatterysystemaction.h

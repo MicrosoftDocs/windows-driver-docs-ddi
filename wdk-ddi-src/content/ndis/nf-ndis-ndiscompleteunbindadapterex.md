@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 3a1daad4-d4b7-4950-be58-73612949fba9
 ms.date: 05/02/2018
 ms.keywords: NdisCompleteUnbindAdapterEx, NdisCompleteUnbindAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteUnbindAdapterEx, netvista.ndiscompleteunbindadapterex, protocol_ndis_functions_ref_3d1252b7-d653-4bd6-a105-b998ffed694c.xml
-ms.topic: function
 f1_keywords:
  - "ndis/NdisCompleteUnbindAdapterEx"
 req.header: ndis.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: ae281f37-bb05-4efe-a8d3-d59e76fe83d6
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DXGKDDI_SETVIRTUALGPUVMBUS"
 req.header: dispmprt.h

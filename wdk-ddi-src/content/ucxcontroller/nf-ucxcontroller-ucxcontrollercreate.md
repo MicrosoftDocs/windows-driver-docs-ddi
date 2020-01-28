@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 29A1697E-CC42-468B-B97A-A8182DA13EE9
 ms.date: 05/07/2018
 ms.keywords: UcxControllerCreate, UcxControllerCreate method [Buses], buses._ucxcontrollercreate, ucxcontroller/UcxControllerCreate
-ms.topic: function
 f1_keywords:
  - "ucxcontroller/UcxControllerCreate"
 req.header: ucxcontroller.h

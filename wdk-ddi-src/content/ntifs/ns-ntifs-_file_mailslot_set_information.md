@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 65104303-5041-45e7-bd59-bb78dde1dffd
 ms.date: 04/16/2018
 ms.keywords: "*PFILE_MAILSLOT_SET_INFORMATION, FILE_MAILSLOT_SET_INFORMATION, FILE_MAILSLOT_SET_INFORMATION structure [Installable File System Drivers], PFILE_MAILSLOT_SET_INFORMATION, PFILE_MAILSLOT_SET_INFORMATION structure pointer [Installable File System Drivers], _FILE_MAILSLOT_SET_INFORMATION, ifsk.file_mailslot_set_information, ntifs/FILE_MAILSLOT_SET_INFORMATION, ntifs/PFILE_MAILSLOT_SET_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "ntifs/FILE_MAILSLOT_SET_INFORMATION"
 req.header: ntifs.h

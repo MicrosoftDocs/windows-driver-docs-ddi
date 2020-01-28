@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 670AFE37-1617-4171-9504-50B13B8E0F76
 ms.date: 04/30/2018
 ms.keywords: PoFxSetComponentLatency, PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentlatency, wdm/PoFxSetComponentLatency
-ms.topic: function
 f1_keywords:
  - "wdm/PoFxSetComponentLatency"
 req.header: wdm.h

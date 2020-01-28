@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 50B76D96-120C-4C86-89ED-7F298E50B1A4
 ms.date: 04/27/2018
 ms.keywords: "*PPCM_DATA_FORMAT, PCM_DATA_FORMAT, PCM_DATA_FORMAT enumeration [Bluetooth Devices], PPCM_DATA_FORMAT, PPCM_DATA_FORMAT enumeration pointer [Bluetooth Devices], _PCM_DATA_FORMAT, bltooth.pcm_data_format, bthddi/, bthddi/PCM_DATA_FORMAT, bthddi/PPCM_DATA_FORMAT"
-ms.topic: enum
 f1_keywords:
  - "bthddi/PCM_DATA_FORMAT"
 req.header: bthddi.h

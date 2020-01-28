@@ -6,7 +6,6 @@ old-location: display\videoprocessorgetstreamextension.htm
 ms.assetid: e2c91e9c-f8ab-48ba-b98a-332cb0ac7077
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION, PFND3D11_1DDI_VIDEOPROCESSORGETSTREAMEXTENSION callback, d3d10umddi/pfnVideoProcessorGetStreamExtension, display.videoprocessorgetstreamextension, pfnVideoProcessorGetStreamExtension, pfnVideoProcessorGetStreamExtension callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorGetStreamExtension"
 req.header: d3d10umddi.h

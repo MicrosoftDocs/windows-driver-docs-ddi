@@ -7,7 +7,6 @@ tech.root: sensors
 ms.assetid: 8C73DFE2-E87A-460D-8EBE-CF3767CAA23F
 ms.date: 05/03/2018
 ms.keywords: EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS, EVT_SENSOR_DRIVER_GET_SUPPORTED_DATA_FIELDS callback, EvtSensorGetSupportedDataFields, EvtSensorGetSupportedDataFields callback function [Sensor Devices], sensors.evtsensorgetsupporteddatafields, sensorscx/EvtSensorGetSupportedDataFields
-ms.topic: callback
 f1_keywords:
  - "sensorscx/EvtSensorGetSupportedDataFields"
 req.header: sensorscx.h

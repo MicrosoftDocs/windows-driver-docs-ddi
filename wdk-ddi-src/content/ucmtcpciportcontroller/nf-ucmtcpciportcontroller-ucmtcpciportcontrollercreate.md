@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 29862d9b-c004-445b-b90b-6990e5e01966
 ms.date: 05/07/2018
 ms.keywords: UcmTcpciPortControllerCreate, UcmTcpciPortControllerCreate method [Buses], buses.ucmtcpciportcontrollercreate, ucmtcpciportcontroller/UcmTcpciPortControllerCreate
-ms.topic: function
 f1_keywords:
  - "ucmtcpciportcontroller/UcmTcpciPortControllerCreate"
 req.header: ucmtcpciportcontroller.h

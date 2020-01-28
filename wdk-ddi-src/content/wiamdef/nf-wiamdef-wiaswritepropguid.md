@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 1189fe8d-7b94-46ed-9090-bfe40f244e6a
 ms.date: 05/03/2018
 ms.keywords: image.wiaswritepropguid, wiamdef/wiasWritePropGuid, wiasFncs_2d4110e9-d2e5-47a2-8213-d221e77c527d.xml, wiasWritePropGuid, wiasWritePropGuid function [Imaging Devices]
-ms.topic: function
 f1_keywords:
  - "wiamdef/wiasWritePropGuid"
 req.header: wiamdef.h

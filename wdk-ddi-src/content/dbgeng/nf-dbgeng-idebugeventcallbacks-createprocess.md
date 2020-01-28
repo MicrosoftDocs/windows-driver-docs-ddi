@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: a826782a-67ca-4b90-b7b5-caddeae6d2dc
 ms.date: 05/03/2018
 ms.keywords: ComCallbacks_cd6a97b7-a041-419c-8e64-0aeb6fe7b0c8.xml, CreateProcess, CreateProcess method [Windows Debugging], CreateProcess method [Windows Debugging],IDebugEventCallbacks interface, IDebugEventCallbacks interface [Windows Debugging],CreateProcess method, IDebugEventCallbacks.CreateProcess, IDebugEventCallbacks::CreateProcess, dbgeng/IDebugEventCallbacks::CreateProcess, debugger.idebugeventcallbacks_createprocess
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugEventCallbacks.CreateProcess"
 req.header: dbgeng.h

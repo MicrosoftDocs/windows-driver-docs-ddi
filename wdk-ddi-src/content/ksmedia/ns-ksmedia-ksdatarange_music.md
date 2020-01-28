@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 2ada5d1c-9c46-4f7b-99e5-72aa8f6fee9f
 ms.date: 04/30/2019
 ms.keywords: "*PKSDATARANGE_MUSIC, KSDATARANGE_MUSIC, KSDATARANGE_MUSIC structure [Audio Devices], PKSDATARANGE_MUSIC, PKSDATARANGE_MUSIC structure pointer [Audio Devices], aud-prop_5c82e83d-000e-440e-bfcb-8daef30f5056.xml, audio.ksdatarange_music, ksmedia/KSDATARANGE_MUSIC, ksmedia/PKSDATARANGE_MUSIC"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSDATARANGE_MUSIC"
 req.header: ksmedia.h

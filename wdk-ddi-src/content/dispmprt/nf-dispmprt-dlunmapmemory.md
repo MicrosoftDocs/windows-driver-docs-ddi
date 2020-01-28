@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 44b55045-998e-4611-938f-d38692759e66
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: function
 f1_keywords:
  - "dispmprt/DlUnmapMemory"
 ms.keywords: DlUnmapMemory

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 762A7E36-E0F8-475C-B201-217D8FD8EBD6
 ms.date: 05/08/2018
 ms.keywords: KEYWORDSELECTOR, KEYWORDSELECTOR structure [Audio Devices], __MIDL_IKeywordDetectorOemAdapter_0003, audio.keywordselector, keyworddetectoroemadapter/KEYWORDSELECTOR
-ms.topic: struct
 f1_keywords:
  - "keyworddetectoroemadapter/KEYWORDSELECTOR"
 req.header: keyworddetectoroemadapter.h

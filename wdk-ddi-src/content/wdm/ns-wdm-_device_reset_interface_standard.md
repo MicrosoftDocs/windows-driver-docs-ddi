@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: DD8A7E50-664B-49B8-905B-A5BE02A48DCE
 ms.date: 11/15/2018
 ms.keywords: "*PDEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], PDEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], _DEVICE_RESET_INTERFACE_STANDARD, kernel.device_reset_interface_standard, wdm/DEVICE_RESET_INTERFACE_STANDARD, wdm/PDEVICE_RESET_INTERFACE_STANDARD"
-ms.topic: struct
 f1_keywords:
  - "wdm/DEVICE_RESET_INTERFACE_STANDARD"
 req.header: wdm.h

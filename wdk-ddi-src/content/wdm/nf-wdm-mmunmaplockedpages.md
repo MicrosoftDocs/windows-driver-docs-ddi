@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: ab5f33b9-5261-4d30-bceb-8e91a24ae0a8
 ms.date: 04/30/2018
 ms.keywords: MmUnmapLockedPages, MmUnmapLockedPages routine [Kernel-Mode Driver Architecture], k106_1ed6ae95-665b-4a6e-802a-4f80294c4f6e.xml, kernel.mmunmaplockedpages, wdm/MmUnmapLockedPages
-ms.topic: function
 f1_keywords:
  - "wdm/MmUnmapLockedPages"
 req.header: wdm.h

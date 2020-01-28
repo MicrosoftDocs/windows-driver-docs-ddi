@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: f84e1835-33a4-4300-8701-ed73249f8119
 ms.date: 04/30/2018
 ms.keywords: DrvrRtns_1f39517a-fa8b-44a4-9e6c-2ecc428cd416.xml, InterruptMessageService, InterruptMessageService routine [Kernel-Mode Driver Architecture], KMESSAGE_SERVICE_ROUTINE, kernel.interruptmessageservice, wdm/InterruptMessageService
-ms.topic: callback
 f1_keywords:
  - "wdm/InterruptMessageService"
 req.header: wdm.h

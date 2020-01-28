@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: D3A7646A-49A8-499E-A63A-BCD222DF7804
 ms.date: 02/26/2018
 ms.keywords: WDF_DEVICE_PROPERTY_DATA_INIT, WDF_DEVICE_PROPERTY_DATA_INIT function, wdf.wdf_device_property_data_init, wdfdevice/WDF_DEVICE_PROPERTY_DATA_INIT
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WDF_DEVICE_PROPERTY_DATA_INIT"
 req.header: wdfdevice.h

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: eae478e1-f70c-4344-a6e0-982a668c1f5d
 ms.date: 05/03/2018
 ms.keywords: GetRadix, GetRadix method [Windows Debugging], GetRadix method [Windows Debugging],IDebugControl interface, GetRadix method [Windows Debugging],IDebugControl2 interface, GetRadix method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetRadix method, IDebugControl.GetRadix, IDebugControl2 interface [Windows Debugging],GetRadix method, IDebugControl2::GetRadix, IDebugControl3 interface [Windows Debugging],GetRadix method, IDebugControl3::GetRadix, IDebugControl::GetRadix, IDebugControl_3f4cb732-868a-4944-bcd9-dd1f221824df.xml, dbgeng/IDebugControl2::GetRadix, dbgeng/IDebugControl3::GetRadix, dbgeng/IDebugControl::GetRadix, debugger.getradix
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl.GetRadix"
 req.header: dbgeng.h

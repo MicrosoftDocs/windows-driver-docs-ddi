@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1c874df6-6b47-4501-9eaf-7c07f0172580
 ms.date: 05/10/2018
 ms.keywords: DXVAHDDDI_STREAM_STATE_ROTATION_DATA, DXVAHDDDI_STREAM_STATE_ROTATION_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_ROTATION_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ROTATION_DATA, display.dxvahdddi_stream_state_rotation_data
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_STREAM_STATE_ROTATION_DATA"
 req.header: d3dumddi.h

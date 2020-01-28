@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: D7EF9B82-5156-4F27-AA52-94C113C81D3A
 ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceInitSetSpeed, UdecxUsbDeviceInitSetSpeed function [Buses], buses.udecxusbdeviceinitsetspeed, udecxusbdevice/UdecxUsbDeviceInitSetSpeed
-ms.topic: function
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceInitSetSpeed"
 req.header: udecxusbdevice.h

@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 9E71A230-5412-4248-A412-B92BE9E119FD
 ms.date: 04/20/2018
 ms.keywords: IOCTL_DOT4_OPEN_CHANNEL, IOCTL_DOT4_OPEN_CHANNEL control, IOCTL_DOT4_OPEN_CHANNEL control code [Print Devices], d4drvif/IOCTL_DOT4_OPEN_CHANNEL, print.ioctl_ioctl_dot4_open_channel
-ms.topic: ioctl
 f1_keywords:
  - "d4drvif/IOCTL_DOT4_OPEN_CHANNEL"
 req.header: d4drvif.h

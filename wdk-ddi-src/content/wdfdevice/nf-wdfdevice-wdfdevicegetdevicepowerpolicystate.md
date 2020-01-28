@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 3a4aab60-6568-4017-acad-ca643cb4d661
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_34dd5376-7889-4900-bcd9-65ad9ff732e2.xml, WdfDeviceGetDevicePowerPolicyState, WdfDeviceGetDevicePowerPolicyState method, kmdf.wdfdevicegetdevicepowerpolicystate, wdf.wdfdevicegetdevicepowerpolicystate, wdfdevice/WdfDeviceGetDevicePowerPolicyState
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceGetDevicePowerPolicyState"
 req.header: wdfdevice.h

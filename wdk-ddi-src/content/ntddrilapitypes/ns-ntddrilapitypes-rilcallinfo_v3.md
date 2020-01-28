@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: b72eb90f-d98c-43ba-b3f8-2d248d61da40
 ms.date: 05/02/2018
 ms.keywords: "*LPRILCALLINFO_V3, RILCALLINFO_V3, RILCALLINFO_V3 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v3, ntddrilapitypes/RILCALLINFO_V3"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILCALLINFO_V3"
 req.header: ntddrilapitypes.h

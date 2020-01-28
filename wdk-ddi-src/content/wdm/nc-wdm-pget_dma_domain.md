@@ -4,7 +4,6 @@ title: PGET_DMA_DOMAIN (wdm.h)
 description: 
 ms.assetid: 005216e2-74a5-4048-b855-8616b244d554
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "wdm/PGET_DMA_DOMAIN"
 req.header: wdm.h

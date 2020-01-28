@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: a12f7597-cfe7-466f-a5b5-aafd885d5adf
 ms.date: 05/02/2018
 ms.keywords: NdisCloseFile, NdisCloseFile function [Network Drivers Starting with Windows Vista], ndis/NdisCloseFile, ndis_file_ref_17933dee-e6d5-4b5d-a078-84617c38c46c.xml, netvista.ndisclosefile
-ms.topic: function
 f1_keywords:
  - "ndis/NdisCloseFile"
 req.header: ndis.h

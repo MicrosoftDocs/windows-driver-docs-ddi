@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 7de1ce11-a2b3-4d68-b279-4652b822297b
 ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_3ef7f2b7-6919-46d7-b48c-10dc135905d4.xml, WdfIoTargetClose, WdfIoTargetClose method, kmdf.wdfiotargetclose, wdf.wdfiotargetclose, wdfiotarget/WdfIoTargetClose
-ms.topic: function
 f1_keywords:
  - "wdfiotarget/WdfIoTargetClose"
 req.header: wdfiotarget.h

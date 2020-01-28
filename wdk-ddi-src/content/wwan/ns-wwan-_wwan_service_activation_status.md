@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 1bd81e55-6438-4bff-ab50-3de3457d2e99
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_SERVICE_ACTIVATION_STATUS, PWWAN_SERVICE_ACTIVATION_STATUS, PWWAN_SERVICE_ACTIVATION_STATUS structure pointer [Network Drivers Starting with Windows Vista], WWAN_SERVICE_ACTIVATION_STATUS, WWAN_SERVICE_ACTIVATION_STATUS structure [Network Drivers Starting with Windows Vista], WwanRef_b9086c08-c7df-46f1-8ce2-c056dd667eac.xml, _WWAN_SERVICE_ACTIVATION_STATUS, netvista.wwan_service_activation_status, wwan/PWWAN_SERVICE_ACTIVATION_STATUS, wwan/WWAN_SERVICE_ACTIVATION_STATUS"
-ms.topic: struct
 f1_keywords:
  - "wwan/WWAN_SERVICE_ACTIVATION_STATUS"
 req.header: wwan.h

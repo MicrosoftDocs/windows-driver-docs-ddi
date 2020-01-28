@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 1a372468-2bad-44d4-a19a-d3b517b7ed7b
 ms.date: 05/02/2018
 ms.keywords: "*LPRILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS, RILDELETEPHONEBOOKENTRYPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeletephonebookentryparams, ntddrilapitypes/RILDELETEPHONEBOOKENTRYPARAMS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILDELETEPHONEBOOKENTRYPARAMS"
 req.header: rilapitypes.h

@@ -5,7 +5,6 @@ description: The VmbConvertVmbusHandleToKernelHandle function converts the user 
 tech.root: netvista
 ms.assetid: cabb88f4-baa8-494a-88d1-d5aa4f53c45a
 ms.date: 05/22/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CONVERT_VMBUS_HANDLE_TO_KERNEL_HANDLE"
 req.header: vmbuskernelmodeclientlibapi.h

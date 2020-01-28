@@ -7,7 +7,6 @@ tech.root:
 ms.assetid: c458ecb8-45ea-4a7b-a873-2f362866d63d
 ms.author: windowsdriverdev
 ms.date: 03/05/2019
-ms.topic: callback
 f1_keywords:
  - "ntddk/_WHEA_ERROR_SOURCE_READY_DEVICE_DRIVER"
 req.header: ntddk.h

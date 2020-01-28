@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 65803145-8043-4902-981a-9dbbda2d69e9
 ms.date: 02/26/2018
 ms.keywords: IRequestCallbackRequestCompletion, IRequestCallbackRequestCompletion interface, IRequestCallbackRequestCompletion interface,described, UMDFRequestObjectRef_9940e95b-e321-4cdf-95bb-3540e95f6094.xml, umdf.irequestcallbackrequestcompletion, wdf.irequestcallbackrequestcompletion, wudfddi/IRequestCallbackRequestCompletion
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IRequestCallbackRequestCompletion"
 req.header: wudfddi.h

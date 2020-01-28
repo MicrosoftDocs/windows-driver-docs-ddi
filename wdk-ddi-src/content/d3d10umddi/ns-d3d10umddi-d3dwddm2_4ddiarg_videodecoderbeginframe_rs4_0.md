@@ -4,7 +4,6 @@ title: D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0 (d3d10umddi.h)
 description: A collection of histogram output buffers.
 ms.assetid: ce36a841-b614-4b23-b6a4-7c4afe1adf57
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0"
 ms.keywords: D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0, D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0,

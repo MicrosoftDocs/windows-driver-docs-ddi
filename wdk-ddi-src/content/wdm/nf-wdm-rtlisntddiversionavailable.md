@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 54017f67-b01f-48bd-a5bb-598902672c4f
 ms.date: 04/30/2018
 ms.keywords: RtlIsNtDdiVersionAvailable, RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, kernel.rtlisntddiversionavailable, wdm/RtlIsNtDdiVersionAvailable
-ms.topic: function
 f1_keywords:
  - "wdm/RtlIsNtDdiVersionAvailable"
 req.header: wdm.h

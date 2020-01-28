@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 5481ae5e-c28a-478e-96be-c6ec8d7f163e
 ms.date: 03/29/2018
 ms.keywords: StorPortMoveMemory, StorPortMoveMemory routine [Storage Devices], storage.storportmovememory, storport/StorPortMoveMemory, storprt_7af1ec0d-f1c4-4335-9b80-1aaef26afa35.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortMoveMemory"
 req.header: storport.h

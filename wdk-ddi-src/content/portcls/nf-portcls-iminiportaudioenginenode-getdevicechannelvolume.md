@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 195AAD37-6993-4F0A-BEF7-848122402742
 ms.date: 05/08/2018
 ms.keywords: GetDeviceChannelVolume, GetDeviceChannelVolume method [Audio Devices], GetDeviceChannelVolume method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceChannelVolume method, IMiniportAudioEngineNode.GetDeviceChannelVolume, IMiniportAudioEngineNode::GetDeviceChannelVolume, audio.iminiportaudioenginenode_getdevicechannelvolume, portcls/IMiniportAudioEngineNode::GetDeviceChannelVolume
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetDeviceChannelVolume"
 req.header: portcls.h

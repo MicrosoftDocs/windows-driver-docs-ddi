@@ -5,7 +5,6 @@ description: The PHYSICAL_ELEMENT_STATUS structure defines the output buffer for
 tech.root: storage
 ms.assetid: 11c8f210-a836-4c73-a69a-160ff113894c
 ms.date: 09/10/2018
-ms.topic: struct
 f1_keywords:
  - "ntddstor/_PHYSICAL_ELEMENT_STATUS"
 ms.keywords: _PHYSICAL_ELEMENT_STATUS, PHYSICAL_ELEMENT_STATUS, *PPHYSICAL_ELEMENT_STATUS, 

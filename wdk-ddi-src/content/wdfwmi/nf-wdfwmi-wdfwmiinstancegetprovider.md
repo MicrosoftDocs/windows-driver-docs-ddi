@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: e0371aeb-fcc0-4749-b70e-26b05b4f12b2
 ms.date: 02/26/2018
 ms.keywords: DFWMIRef_f5950eae-6036-4acc-91ab-d7d49ae74202.xml, WdfWmiInstanceGetProvider, WdfWmiInstanceGetProvider method, kmdf.wdfwmiinstancegetprovider, wdf.wdfwmiinstancegetprovider, wdfwmi/WdfWmiInstanceGetProvider
-ms.topic: function
 f1_keywords:
  - "wdfwmi/WdfWmiInstanceGetProvider"
 req.header: wdfwmi.h

@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 701A7ED2-F35F-4B6B-BC91-ADCF60E294D2
 ms.date: 05/07/2018
 ms.keywords: IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC, IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC control, IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC control code [Buses], buses._ioctl_usb_get_frame_number_and_qpc_for_time_sync, usbioctl/ IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC
-ms.topic: ioctl
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC"
 req.header: usbioctl.h

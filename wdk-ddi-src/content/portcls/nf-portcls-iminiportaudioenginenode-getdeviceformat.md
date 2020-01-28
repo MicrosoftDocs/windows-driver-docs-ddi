@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 6EA01AE7-E5D5-4182-862D-2901185C2BF8
 ms.date: 05/08/2018
 ms.keywords: GetDeviceFormat, GetDeviceFormat method [Audio Devices], GetDeviceFormat method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceFormat method, IMiniportAudioEngineNode.GetDeviceFormat, IMiniportAudioEngineNode::GetDeviceFormat, audio.iminiportaudioenginenode_getdeviceformat, portcls/IMiniportAudioEngineNode::GetDeviceFormat
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetDeviceFormat"
 req.header: portcls.h

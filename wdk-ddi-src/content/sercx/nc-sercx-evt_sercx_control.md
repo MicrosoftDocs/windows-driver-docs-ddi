@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 2A88BA68-48A7-4C00-8031-CCC50A0C090D
 ms.date: 04/23/2018
 ms.keywords: 1/EvtSerCxControl, EVT_SERCX_CONTROL, EVT_SERCX_CONTROL callback, EvtSerCxControl, EvtSerCxControl callback function [Serial Ports], serports.evtsercxcontrol
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCxControl"
 req.header: sercx.h

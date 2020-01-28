@@ -7,7 +7,6 @@ tech.root: gpiobtn
 ms.assetid: 907cdeac-e2f0-48fa-bbf0-082c0fce6401
 ms.date: 02/15/2018
 ms.keywords: HwNProcessAddDevicePostDeviceCreate, HwNProcessAddDevicePostDeviceCreate function, gpiobtn.hwnprocessadddevicepostdevicecreate, hwnclx/HwNProcessAddDevicePostDeviceCreate
-ms.topic: function
 f1_keywords:
  - "hwnclx/HwNProcessAddDevicePostDeviceCreate"
 req.header: hwnclx.h

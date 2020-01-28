@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 2a66ea7f-bfa1-4c51-a93d-18043fc49066
 ms.date: 04/23/2018
 ms.keywords: IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO, IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO control, IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO control code [Streaming Media Devices], avc/IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO, avcref_70967704-87c3-4d0b-856f-e031ae0011cc.xml, stream.ioctl_avc_update_virtual_subunit_info
-ms.topic: ioctl
 f1_keywords:
  - "avc/IOCTL_AVC_UPDATE_VIRTUAL_SUBUNIT_INFO"
 req.header: avc.h

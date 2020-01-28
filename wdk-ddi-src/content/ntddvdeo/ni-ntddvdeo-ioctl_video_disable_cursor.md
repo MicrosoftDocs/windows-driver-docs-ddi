@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: bbc3564d-bed5-45fb-9ee3-ed98073b6eba
 ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_DISABLE_CURSOR, IOCTL_VIDEO_DISABLE_CURSOR control, IOCTL_VIDEO_DISABLE_CURSOR control code [Display Devices], Video_IOCTLs_664ec9f1-497c-4890-b812-9691776b1988.xml, display.ioctl_video_disable_cursor, ntddvdeo/IOCTL_VIDEO_DISABLE_CURSOR
-ms.topic: ioctl
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_DISABLE_CURSOR"
 req.header: ntddvdeo.h

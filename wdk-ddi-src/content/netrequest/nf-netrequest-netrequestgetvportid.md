@@ -5,7 +5,6 @@ description: Retrieves the VPortId for the NETREQUEST.
 tech.root: netvista
 ms.assetid: 811d3c80-f307-4823-a46e-b9f958f040a2
 ms.date: 02/08/2018
-ms.topic: function
 f1_keywords:
  - "netrequest/NetRequestGetVPortId"
 ms.keywords: NetRequestGetVPortId

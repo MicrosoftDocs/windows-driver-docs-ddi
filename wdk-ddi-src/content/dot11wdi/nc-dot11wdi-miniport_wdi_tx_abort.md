@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: FA6BEAE9-5D48-463E-A398-518737D78867
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TX_ABORT, MINIPORT_WDI_TX_ABORT callback, MiniportWdiTxAbort, MiniportWdiTxAbort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxAbort, netvista.miniportwditxabort
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiTxAbort"
 req.header: dot11wdi.h

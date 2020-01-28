@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: fddfd724-c3ba-4908-a60f-70c4934efb49
 ms.date: 05/02/2018
 ms.keywords: PFN_WSK_SOCKET, PFN_WSK_SOCKET callback, WskSocket, WskSocket callback function [Network Drivers Starting with Windows Vista], netvista.wsksocket, wsk/WskSocket, wskref_37c59d39-d8fd-4e3f-9f69-c0874e1801ed.xml
-ms.topic: callback
 f1_keywords:
  - "wsk/WskSocket"
 req.header: wsk.h

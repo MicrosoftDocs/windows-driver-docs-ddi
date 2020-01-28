@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: f4092f06-3ed7-4153-8498-0fdfac958a1e
 ms.date: 04/30/2018
 ms.keywords: RtlAreBitsClear, RtlAreBitsClear routine [Kernel-Mode Driver Architecture], k109_bbef7cb1-d817-498e-b091-2d07acc0e552.xml, kernel.rtlarebitsclear, wdm/RtlAreBitsClear
-ms.topic: function
 f1_keywords:
  - "wdm/RtlAreBitsClear"
 req.header: wdm.h

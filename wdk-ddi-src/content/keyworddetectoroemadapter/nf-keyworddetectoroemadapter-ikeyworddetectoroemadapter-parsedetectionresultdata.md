@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 97C92A85-BE00-4B95-80D1-20FE7A31BCA9
 ms.date: 05/08/2018
 ms.keywords: IKeywordDetectorOemAdapter interface [Audio Devices],ParseDetectionResultData method, IKeywordDetectorOemAdapter.ParseDetectionResultData, IKeywordDetectorOemAdapter::ParseDetectionResultData, ParseDetectionResultData, ParseDetectionResultData method [Audio Devices], ParseDetectionResultData method [Audio Devices],IKeywordDetectorOemAdapter interface, audio.ikeyworddetectoroemadapter_parsedetectionresultdata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ParseDetectionResultData
-ms.topic: method
 f1_keywords:
  - "keyworddetectoroemadapter/IKeywordDetectorOemAdapter.ParseDetectionResultData"
 req.header: keyworddetectoroemadapter.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 925a5481-d626-4824-8cbe-4fc2a0a6ad92
 ms.date: 04/30/2018
 ms.keywords: InterlockedCompareExchange, InterlockedCompareExchange routine [Kernel-Mode Driver Architecture], k102_d40d8288-4c0d-43ed-af9f-3f9afabe1455.xml, kernel.interlockedcompareexchange, wdm/InterlockedCompareExchange
-ms.topic: function
 f1_keywords:
  - "wdm/InterlockedCompareExchange"
 req.header: wdm.h

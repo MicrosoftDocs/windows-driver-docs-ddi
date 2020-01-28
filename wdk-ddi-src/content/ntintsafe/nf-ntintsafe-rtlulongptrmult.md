@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 6E66CD0B-7CAD-4BF1-A6DD-56C5029A929E
 ms.date: 04/30/2018
 ms.keywords: RtlULongPtrMult, RtlULongPtrMult function [Kernel-Mode Driver Architecture], kernel.rtlulongptrmult, ntintsafe/RtlULongPtrMult
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlULongPtrMult"
 req.header: ntintsafe.h

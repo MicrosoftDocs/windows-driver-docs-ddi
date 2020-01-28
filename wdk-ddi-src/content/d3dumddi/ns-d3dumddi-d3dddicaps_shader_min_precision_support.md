@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c3ad65e7-8a91-464b-9a7f-e5c47ee54048
 ms.date: 05/10/2018
 ms.keywords: D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT, D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT structure [Display Devices], d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT, display.d3dddicaps_shader_min_precision_support
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT"
 req.header: d3dumddi.h

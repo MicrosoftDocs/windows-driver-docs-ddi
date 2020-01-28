@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 212dc455-9317-4901-9a96-1c71dde0faf3
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_7d787a5c-c78b-43d2-aa48-412010c97630.xml, FltOplockBreakToNone, FltOplockBreakToNone routine [Installable File System Drivers], fltkernel/FltOplockBreakToNone, ifsk.fltoplockbreaktonone
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltOplockBreakToNone"
 req.header: fltkernel.h

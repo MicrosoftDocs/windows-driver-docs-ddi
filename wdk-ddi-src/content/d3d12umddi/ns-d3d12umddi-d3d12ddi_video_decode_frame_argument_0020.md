@@ -6,7 +6,6 @@ old-location: display\d3d12ddi_video_decode_frame_parameter.htm
 ms.assetid: 5651BDA8-256F-4041-A8BB-E3B30DB1870C
 ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020, D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020, display.d3d12ddi_video_decode_frame_parameter
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODE_FRAME_ARGUMENT_0020"
 req.header: d3d12umddi.h

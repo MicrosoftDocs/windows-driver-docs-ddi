@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 6066CDD4-D2BA-4CF8-AF1C-189812B150D5
 ms.date: 04/30/2018
 ms.keywords: EXT_DELETE_CALLBACK, ExTimerDeleteCallback, ExTimerDeleteCallback routine [Kernel-Mode Driver Architecture], kernel.extimerdeletecallback, wdm/ExTimerDeleteCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/ExTimerDeleteCallback"
 req.header: wdm.h

@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 7a2644af-fdfe-4481-8c44-c40244b8a00e
 ms.date: 04/20/2018
 ms.keywords: IPrintPipelineProgressReport, IPrintPipelineProgressReport interface [Print Devices], IPrintPipelineProgressReport interface [Print Devices],described, filterpipeline/IPrintPipelineProgressReport, filterpipeline_de104fc6-8ac2-4a10-ab09-09596a093835.xml, print.iprintpipelineprogressreport
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IPrintPipelineProgressReport"
 req.header: filterpipeline.h

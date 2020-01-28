@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: CAD08405-698C-4C3A-A03F-827837199CC8
 ms.date: 05/03/2018
 ms.keywords: WIA_MICR, WIA_MICR structure [Imaging Devices], _WIA_MICR, image.wia_micr, wiadef/WIA_MICR
-ms.topic: struct
 f1_keywords:
  - "wiadef/WIA_MICR"
 req.header: wiadef.h

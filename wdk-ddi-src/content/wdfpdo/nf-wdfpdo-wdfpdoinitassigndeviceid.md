@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: f8992245-42db-4ca8-afdc-e123adc0a40d
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_c0885107-9e40-4c57-ab50-c757ea58b2f9.xml, WdfPdoInitAssignDeviceID, WdfPdoInitAssignDeviceID method, kmdf.wdfpdoinitassigndeviceid, wdf.wdfpdoinitassigndeviceid, wdfpdo/WdfPdoInitAssignDeviceID
-ms.topic: function
 f1_keywords:
  - "wdfpdo/WdfPdoInitAssignDeviceID"
 req.header: wdfpdo.h

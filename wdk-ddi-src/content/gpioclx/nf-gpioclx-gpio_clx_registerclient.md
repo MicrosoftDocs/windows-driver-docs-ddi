@@ -7,7 +7,6 @@ tech.root: GPIO
 ms.assetid: C87385E0-7B3F-44DA-90D0-E644C58AB375
 ms.date: 02/15/2018
 ms.keywords: GPIO.gpio_clx_registerclient, GPIO_CLX_RegisterClient, GPIO_CLX_RegisterClient method [Parallel Ports], gpioclx/GPIO_CLX_RegisterClient
-ms.topic: function
 f1_keywords:
  - "gpioclx/GPIO_CLX_RegisterClient"
 req.header: gpioclx.h

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 272B83D4-AACE-419D-9DD7-A1AE1C8A931A
 ms.date: 05/08/2018
 ms.keywords: IMiniportAudioEngineNode interface [Audio Devices],SetDeviceChannelMute method, IMiniportAudioEngineNode.SetDeviceChannelMute, IMiniportAudioEngineNode::SetDeviceChannelMute, SetDeviceChannelMute, SetDeviceChannelMute method [Audio Devices], SetDeviceChannelMute method [Audio Devices],IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setdevicechannelmute, portcls/IMiniportAudioEngineNode::SetDeviceChannelMute
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.SetDeviceChannelMute"
 req.header: portcls.h

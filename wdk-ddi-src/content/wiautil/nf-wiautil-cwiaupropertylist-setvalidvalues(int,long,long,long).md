@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: e61b5bbb-14a8-4dfa-af36-99c5dd1ecc99
 ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,LONG,LONG,LONG), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,LONG  ,LONG  ,LONG  ), CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setvalidvalues_flag_, wiauFncs_11c27970-2fa2-480d-9f60-b12202b9b03c.xml, wiautil/CWiauPropertyList::SetValidValues
-ms.topic: method
 f1_keywords:
  - "wiautil/CWiauPropertyList.SetValidValues"
 req.header: wiautil.h

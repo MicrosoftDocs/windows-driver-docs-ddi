@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 49DDDEF8-F949-4674-A18B-9BB091D163C2
 ms.date: 04/16/2018
 ms.keywords: RtlWriteNonVolatileMemory, RtlWriteNonVolatileMemory routine [Installable File System Drivers], ifsk.rtlwritenonvolatilememory, ntddk/RtlWriteNonVolatileMemory
-ms.topic: function
 f1_keywords:
  - "ntddk/RtlWriteNonVolatileMemory"
 req.header: ntddk.h

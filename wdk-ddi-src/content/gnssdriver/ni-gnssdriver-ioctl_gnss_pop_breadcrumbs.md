@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: D5F7ACDC-25A0-49A4-95D4-C48B3E94CF69
 ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_POP_BREADCRUMBS, IOCTL_GNSS_POP_BREADCRUMBS control, IOCTL_GNSS_POP_BREADCRUMBS control code [Sensor Devices], gnss.ioctl_gnss_pop_breadcrumbs_, gnssdriver/IOCTL_GNSS_POP_BREADCRUMBS
-ms.topic: ioctl
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_POP_BREADCRUMBS"
 req.header: gnssdriver.h

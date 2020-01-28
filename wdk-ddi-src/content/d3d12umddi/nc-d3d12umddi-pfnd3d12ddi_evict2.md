@@ -4,7 +4,6 @@ title: PFND3D12DDI_EVICT2 (d3d12umddi.h)
 description: PFND3D12DDI_EVICT2 instructs the OS to decrement the residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.
 ms.assetid: 2ebce9ab-3827-4fa4-848f-58c9eb10f82a
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

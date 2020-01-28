@@ -4,7 +4,6 @@ title: _D3DKMT_GET_SEGMENT_CAPS (d3dkmthk.h)
 description: Used to get segment capabilities.
 ms.assetid: fe182215-7e68-4620-9b20-d00685b0fe87
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GET_SEGMENT_CAPS"
 ms.keywords: _D3DKMT_GET_SEGMENT_CAPS, D3DKMT_GET_SEGMENT_CAPS, 

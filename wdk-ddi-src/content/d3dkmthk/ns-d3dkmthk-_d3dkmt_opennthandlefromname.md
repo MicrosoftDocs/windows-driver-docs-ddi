@@ -6,7 +6,6 @@ old-location: display\d3dkmt_opennthandlefromname.htm
 ms.assetid: 34f70519-7905-4a16-bd07-db3592b05890
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_OPENNTHANDLEFROMNAME, D3DKMT_OPENNTHANDLEFROMNAME structure [Display Devices], _D3DKMT_OPENNTHANDLEFROMNAME, d3dkmthk/D3DKMT_OPENNTHANDLEFROMNAME, display.d3dkmt_opennthandlefromname
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENNTHANDLEFROMNAME"
 req.header: d3dkmthk.h

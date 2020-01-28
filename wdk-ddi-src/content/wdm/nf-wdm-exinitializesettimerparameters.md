@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 43A07E6E-C69F-4D6C-9B9C-EB7FFDF7651E
 ms.date: 04/30/2018
 ms.keywords: ExInitializeSetTimerParameters, ExInitializeSetTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializesettimerparameters, wdm/ExInitializeSetTimerParameters
-ms.topic: function
 f1_keywords:
  - "wdm/ExInitializeSetTimerParameters"
 req.header: wdm.h

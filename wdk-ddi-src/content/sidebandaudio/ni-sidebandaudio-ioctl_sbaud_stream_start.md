@@ -4,7 +4,6 @@ title: IOCTL_SBAUD_STREAM_START (sidebandaudio.h)
 description: 
 ms.assetid: 65009cf5-5f6b-4dfc-b3d9-fade63426bf9
 ms.date: 10/05/2018
-ms.topic: ioctl
 f1_keywords:
  - "sidebandaudio/IOCTL_SBAUD_STREAM_START"
 req.header: sidebandaudio.h

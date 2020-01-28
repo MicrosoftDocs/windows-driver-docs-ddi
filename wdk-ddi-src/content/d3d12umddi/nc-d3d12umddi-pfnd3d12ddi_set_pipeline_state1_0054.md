@@ -4,7 +4,6 @@ title: PFND3D12DDI_SET_PIPELINE_STATE1_0054 (d3d12umddi.h)
 description: Sets the pipeline state.
 ms.assetid: 762c6ecc-061f-40ae-bcf6-7c7b527da106
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_SET_PIPELINE_STATE1_0054"
 req.header: d3d12umddi.h

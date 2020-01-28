@@ -4,7 +4,6 @@ title: PFND3DKMT_SETALLOCATIONPRIORITY (d3dkmthk.h)
 description: The PFND3DKMT_SETALLOCATIONPRIORITY callback function sets the priority level of a resource or list of allocations.
 ms.assetid: 4cdabc99-d898-449c-b27e-cfd7a7363b54
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_SETALLOCATIONPRIORITY"
 req.header: d3dkmthk.h

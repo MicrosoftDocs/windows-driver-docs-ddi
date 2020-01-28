@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 97df2db8-6a42-46d4-bc31-babb124635ee
 ms.date: 03/29/2018
 ms.keywords: ATA_CHANNEL_STATE, ATA_CHANNEL_STATE enumeration [Storage Devices], ChannelStateDisabled, ChannelStateEnabled, ChannelStateUnKnown, irb/ATA_CHANNEL_STATE, irb/ChannelStateDisabled, irb/ChannelStateEnabled, irb/ChannelStateUnKnown, storage.ata_channel_state, structs-ATA_317e3cc4-5b93-4942-9256-9418f692a8e2.xml
-ms.topic: enum
 f1_keywords:
  - "irb/ATA_CHANNEL_STATE"
 req.header: irb.h

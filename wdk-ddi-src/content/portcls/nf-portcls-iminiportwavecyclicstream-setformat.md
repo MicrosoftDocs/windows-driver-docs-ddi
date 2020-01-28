@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 6881ea55-138a-408e-955e-c5c74f777ce8
 ms.date: 05/08/2018
 ms.keywords: IMiniportWaveCyclicStream interface [Audio Devices],SetFormat method, IMiniportWaveCyclicStream.SetFormat, IMiniportWaveCyclicStream::SetFormat, SetFormat, SetFormat method [Audio Devices], SetFormat method [Audio Devices],IMiniportWaveCyclicStream interface, audio.iminiportwavecyclicstream_setformat, audmp-routines_d23a09d4-7110-425f-b10d-5f7f601179bb.xml, portcls/IMiniportWaveCyclicStream::SetFormat
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportWaveCyclicStream.SetFormat"
 req.header: portcls.h

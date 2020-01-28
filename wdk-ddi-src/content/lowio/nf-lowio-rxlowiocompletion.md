@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: d9018a68-e72c-4149-a6a5-095654d0363c
 ms.date: 04/16/2018
 ms.keywords: RxLowIoCompletion, RxLowIoCompletion routine [Installable File System Drivers], ifsk.rxlowiocompletion, lowio/RxLowIoCompletion, rxref_9a8f198a-0177-42f5-9039-3f5d6a3fa14d.xml
-ms.topic: function
 f1_keywords:
  - "lowio/RxLowIoCompletion"
 req.header: lowio.h

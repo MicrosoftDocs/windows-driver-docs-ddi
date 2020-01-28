@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 6dc32dd7-e15b-4c93-92d1-5b7206ed98c0
 ms.date: 02/26/2018
 ms.keywords: DrainSynchronously, DrainSynchronously method, DrainSynchronously method,IWDFIoQueue interface, IWDFIoQueue interface,DrainSynchronously method, IWDFIoQueue.DrainSynchronously, IWDFIoQueue::DrainSynchronously, UMDFQueueObjectRef_35105420-0461-4879-aba2-28c32ece9aab.xml, umdf.iwdfioqueue_drainsynchronously, wdf.iwdfioqueue_drainsynchronously, wudfddi/IWDFIoQueue::DrainSynchronously
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoQueue.DrainSynchronously"
 req.header: wudfddi.h

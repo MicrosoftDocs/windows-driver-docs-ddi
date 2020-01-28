@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2d88fbf8-1dfc-4d27-91d2-64f5b06e1375
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
 f1_keywords:
  - "ntddvdeo/COLORSPACE_TRANSFORM_TARGET_CAPS"
 ms.keywords: COLORSPACE_TRANSFORM_TARGET_CAPS, COLORSPACE_TRANSFORM_TARGET_CAPS, *PCOLORSPACE_TRANSFORM_TARGET_CAPS, 

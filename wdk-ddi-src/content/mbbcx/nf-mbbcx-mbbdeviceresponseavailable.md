@@ -5,7 +5,6 @@ description: A client driver calls the MbbDeviceResponseAvailable method when th
 tech.root: netvista
 ms.assetid: 045363e7-a8f4-490d-ae82-b382c66d8a7a
 ms.date: 06/29/2018
-ms.topic: function
 f1_keywords:
  - "mbbcx/MbbDeviceResponseAvailable"
 ms.keywords: MbbDeviceResponseAvailable

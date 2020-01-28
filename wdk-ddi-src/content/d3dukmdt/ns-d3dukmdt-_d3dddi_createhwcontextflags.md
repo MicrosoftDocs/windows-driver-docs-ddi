@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 429A1C54-14F0-4E50-B0D6-BB73FCFD1904
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_CREATEHWCONTEXTFLAGS, D3DDDI_CREATEHWCONTEXTFLAGS structure [Display Devices], _D3DDDI_CREATEHWCONTEXTFLAGS, d3dukmdt/D3DDDI_CREATEHWCONTEXTFLAGS, display.d3dddi_createhwcontextflags
-ms.topic: struct
 f1_keywords:
  - "d3dukmdt/D3DDDI_CREATEHWCONTEXTFLAGS"
 req.header: d3dukmdt.h

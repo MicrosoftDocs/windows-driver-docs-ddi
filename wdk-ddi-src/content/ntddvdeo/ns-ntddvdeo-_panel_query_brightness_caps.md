@@ -5,7 +5,6 @@ description: Retrieves brightness control capabilities of a display panel.
 tech.root: display
 ms.assetid: b0bdacef-4409-49cf-b53b-6e7023617793
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "ntddvdeo/_PANEL_QUERY_BRIGHTNESS_CAPS"
 ms.keywords: _PANEL_QUERY_BRIGHTNESS_CAPS, *PPANEL_QUERY_BRIGHTNESS_CAPS, PANEL_QUERY_BRIGHTNESS_CAPS

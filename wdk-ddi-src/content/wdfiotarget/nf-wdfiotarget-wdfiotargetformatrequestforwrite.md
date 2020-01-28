@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 936fe0f7-cff6-45c3-b1dd-cbed2f60438f
 ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_d5d06763-e3a8-41bb-aad6-a116f167ff08.xml, WdfIoTargetFormatRequestForWrite, WdfIoTargetFormatRequestForWrite method, kmdf.wdfiotargetformatrequestforwrite, wdf.wdfiotargetformatrequestforwrite, wdfiotarget/WdfIoTargetFormatRequestForWrite
-ms.topic: function
 f1_keywords:
  - "wdfiotarget/WdfIoTargetFormatRequestForWrite"
 req.header: wdfiotarget.h

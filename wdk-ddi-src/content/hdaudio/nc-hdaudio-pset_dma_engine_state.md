@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 05cfb827-e143-4d77-b378-e02dd381e429
 ms.date: 05/08/2018
 ms.keywords: PSET_DMA_ENGINE_STATE, PSET_DMA_ENGINE_STATE callback, SetDmaEngineState, SetDmaEngineState callback function [Audio Devices], aud-prop2_a1455dc1-3ed9-43c3-a5b6-af321c26eefe.xml, audio.setdmaenginestate, hdaudio/SetDmaEngineState
-ms.topic: callback
 f1_keywords:
  - "hdaudio/SetDmaEngineState"
 req.header: hdaudio.h

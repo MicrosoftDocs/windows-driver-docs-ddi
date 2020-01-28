@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 9D2BF078-305F-4656-8BA0-F03959209874
 ms.date: 04/30/2018
 ms.keywords: IOCTL_UMDF_HID_SET_OUTPUT_REPORT, IOCTL_UMDF_HID_SET_OUTPUT_REPORT control, IOCTL_UMDF_HID_SET_OUTPUT_REPORT control code, hid.ioctl_umdf_hid_set_output_report, hidport/IOCTL_UMDF_HID_SET_OUTPUT_REPORT, umdf.ioctl_umdf_hid_set_output_report
-ms.topic: ioctl
 f1_keywords:
  - "hidport/IOCTL_UMDF_HID_SET_OUTPUT_REPORT"
 req.header: hidport.h

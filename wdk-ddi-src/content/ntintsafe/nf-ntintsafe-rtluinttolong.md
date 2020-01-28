@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 9C388D02-003B-4B0E-B2ED-E311AE750601
 ms.date: 04/30/2018
 ms.keywords: RtlUIntToLong, RtlUIntToLong function [Kernel-Mode Driver Architecture], kernel.rtluinttolong, ntintsafe/RtlUIntToLong
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlUIntToLong"
 req.header: ntintsafe.h

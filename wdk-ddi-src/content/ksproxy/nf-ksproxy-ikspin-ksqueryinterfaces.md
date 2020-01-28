@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: e8b0a1c0-c018-4556-b43c-fae4f7cf43de
 ms.date: 04/23/2018
 ms.keywords: IKsPin interface [Streaming Media Devices],KsQueryInterfaces method, IKsPin.KsQueryInterfaces, IKsPin::KsQueryInterfaces, KsQueryInterfaces, KsQueryInterfaces method [Streaming Media Devices], KsQueryInterfaces method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsQueryInterfaces, ksproxy_6a22f676-b7bd-4212-a79a-3a02da890e9f.xml, stream.ikspin_ksqueryinterfaces
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPin.KsQueryInterfaces"
 req.header: ksproxy.h

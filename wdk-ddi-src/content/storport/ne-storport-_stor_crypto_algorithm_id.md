@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 761B905B-D8E5-43C2-A412-EEC5F91848F3
 ms.date: 03/29/2018
 ms.keywords: "*PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPTO_ALGORITHM_ID enumeration pointer [Storage Devices], STOR_CRYPTO_ALGORITHM_ID, STOR_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], _STOR_CRYPTO_ALGORITHM_ID, storage.stor_crypto_algorithm_id, storport/, storport/PSTOR_CRYPTO_ALGORITHM_ID, storport/STOR_CRYPTO_ALGORITHM_ID"
-ms.topic: enum
 f1_keywords:
  - "storport/STOR_CRYPTO_ALGORITHM_ID"
 req.header: storport.h

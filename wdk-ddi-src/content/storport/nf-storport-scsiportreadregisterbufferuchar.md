@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 5574d8ee-8a52-488f-849d-9288af5fed2b
 ms.date: 03/29/2018
 ms.keywords: ScsiPortReadRegisterBufferUchar, ScsiPortReadRegisterBufferUchar routine [Storage Devices], scsiprt_cfe4caf7-bfae-4d7a-aa70-8f44b52ca33c.xml, srb/ScsiPortReadRegisterBufferUchar, storage.scsiportreadregisterbufferuchar
-ms.topic: macro
 f1_keywords:
  - "storport/ScsiPortReadRegisterBufferUchar"
 req.header: storport.h

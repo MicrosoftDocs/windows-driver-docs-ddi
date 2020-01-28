@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 196bad19-85a6-41a0-ac61-b70594a19f0f
 ms.date: 04/30/2018
 ms.keywords: "*PREG_SET_KEY_SECURITY_INFORMATION, PREG_SET_KEY_SECURITY_INFORMATION, PREG_SET_KEY_SECURITY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_SET_KEY_SECURITY_INFORMATION, REG_SET_KEY_SECURITY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_SET_KEY_SECURITY_INFORMATION, kernel.reg_set_key_security_information, kstruct_d_2154cf21-9f72-488b-ad13-687ada458991.xml, wdm/PREG_SET_KEY_SECURITY_INFORMATION, wdm/REG_SET_KEY_SECURITY_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "wdm/REG_SET_KEY_SECURITY_INFORMATION"
 req.header: wdm.h

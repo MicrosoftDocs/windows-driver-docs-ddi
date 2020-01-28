@@ -6,7 +6,6 @@ old-location: display\dxgkddi_createperiodicframenotification.htm
 ms.assetid: EE11227A-E576-49C6-AEF1-CBE0AD788275
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CREATEPERIODICFRAMENOTIFICATION, DXGKDDI_CREATEPERIODICFRAMENOTIFICATION callback, DXGKDDI_CREATEPERIODICFRAMENOTIFICATION callback function [Display Devices], d3dkmddi/DXGKDDI_CREATEPERIODICFRAMENOTIFICATION, display.dxgkddi_createperiodicframenotification
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 852b8b71-8a8c-4e9e-b27e-78fc2df8d5bd
 ms.date: 04/16/2018
 ms.keywords: FsRtlInsertPerFileObjectContext, FsRtlInsertPerFileObjectContext function [Installable File System Drivers], fsrtlref_21a21edf-cf20-4c0b-aaef-bc75656238c4.xml, ifsk.fsrtlinsertperfileobjectcontext, ntifs/FsRtlInsertPerFileObjectContext
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlInsertPerFileObjectContext"
 req.header: ntifs.h

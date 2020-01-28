@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 8B03835A-98EE-4157-BD05-C52D01EE5F5E
 ms.date: 05/02/2018
 ms.keywords: FwpsInjectMacReceiveAsync0, FwpsInjectMacReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectMacReceiveAsync0, netvista.fwpsinjectmacreceiveasync0
-ms.topic: function
 f1_keywords:
  - "fwpsk/FwpsInjectMacSendAsync0"
 req.header: fwpsk.h

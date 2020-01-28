@@ -5,7 +5,6 @@ description: The NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER macro retrieve
 tech.root: netvista
 ms.assetid: 2bbf1079-abf9-4980-8b99-f392bbdfaa43
 ms.date: 02/27/2018
-ms.topic: macro
 f1_keywords:
  - "netdatapathdescriptor/NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER"
 ms.keywords: NET_DATAPATH_DESCRIPTOR_GET_FRAGMENT_RING_BUFFER

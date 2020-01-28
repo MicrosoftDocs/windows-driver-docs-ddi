@@ -6,7 +6,6 @@ old-location: display\pdxgk_graphicspower_unregister.htm
 ms.assetid: A925D5D3-EF79-4C14-BE1C-188C255DDF8E
 ms.date: 04/16/2018
 ms.keywords: PDXGK_GRAPHICSPOWER_UNREGISTER, PDXGK_GRAPHICSPOWER_UNREGISTER callback, PDXGK_GRAPHICSPOWER_UNREGISTER callback function [Display Devices], d3dkmthk/PDXGK_GRAPHICSPOWER_UNREGISTER, display.pdxgk_graphicspower_unregister
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PDXGK_GRAPHICSPOWER_UNREGISTER"
 req.header: d3dkmthk.h

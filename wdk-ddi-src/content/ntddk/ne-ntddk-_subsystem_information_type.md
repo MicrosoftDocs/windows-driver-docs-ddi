@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: B1E334BF-AAB3-410D-8D10-A750E8459E42
 ms.date: 04/30/2018
 ms.keywords: "*PSUBSYSTEM_INFORMATION_TYPE, MaxSubsystemInformationType, SUBSYSTEM_INFORMATION_TYPE, SUBSYSTEM_INFORMATION_TYPE enumeration [Kernel-Mode Driver Architecture], SubsystemInformationTypeWSL, SubsystemInformationTypeWin32, _SUBSYSTEM_INFORMATION_TYPE, kernel.subsystem_information_type, ntddk/MaxSubsystemInformationType, ntddk/SUBSYSTEM_INFORMATION_TYPE, ntddk/SubsystemInformationTypeWSL, ntddk/SubsystemInformationTypeWin32"
-ms.topic: enum
 f1_keywords:
  - "ntddk/SUBSYSTEM_INFORMATION_TYPE"
 req.header: ntddk.h

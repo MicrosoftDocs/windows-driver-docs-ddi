@@ -4,7 +4,6 @@ title: IDataModelScriptDebug2::EnumerateBreakpoints (dbgmodel.h)
 description: The EnumerateBreakpoints method returns an enumerator capable of enumerating every breakpoint which is set within a particular script. 
 ms.assetid: 32ebb52c-74b2-4966-bdb4-47c69850b18a
 ms.date: 08/21/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug2.EnumerateBreakpoints"
 ms.keywords: IDataModelScriptDebug2::EnumerateBreakpoints, EnumerateBreakpoints, IDataModelScriptDebug2.EnumerateBreakpoints, IDataModelScriptDebug2::EnumerateBreakpoints, IDataModelScriptDebug2.EnumerateBreakpoints

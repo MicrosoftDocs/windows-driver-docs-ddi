@@ -4,7 +4,6 @@ title: _DXGKARG_SETVIRTUALMACHINEDATA (d3dkmddi.h)
 description: Arguments used to set virtual machine data.
 ms.assetid: abccb1a3-74bd-4831-9b69-50974ba2b997
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/_DXGKARG_SETVIRTUALMACHINEDATA"
 ms.keywords: _DXGKARG_SETVIRTUALMACHINEDATA, DXGKARG_SETVIRTUALMACHINEDATA,

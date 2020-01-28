@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: a32b5ec9-b4f2-4f33-879d-252806bd34ed
 ms.date: 04/20/2018
 ms.keywords: IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices],described, prcomoem/IPrintOemPrintTicketProvider, print.iprintoemprintticketprovider_interface, print_ticket-package_73ff5919-5d89-4fe1-b10f-03f2b14b716f.xml
-ms.topic: interface
 f1_keywords:
  - "prcomoem/IPrintOemPrintTicketProvider"
 req.header: prcomoem.h

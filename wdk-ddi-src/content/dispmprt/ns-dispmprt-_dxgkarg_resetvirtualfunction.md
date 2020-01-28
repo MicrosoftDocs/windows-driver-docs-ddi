@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 56aad462-fc54-4a1d-9161-2f19f4370ed6
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
 f1_keywords:
  - "dispmprt/_DXGKARG_RESETVIRTUALFUNCTION"
 ms.prod: windows-hardware

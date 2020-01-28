@@ -6,7 +6,6 @@ old-location: display\d3dkmt_openresourcefromnthandle.htm
 ms.assetid: 3f595816-29b5-4efc-a00c-77597dd9fa48
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_OPENRESOURCEFROMNTHANDLE, D3DKMT_OPENRESOURCEFROMNTHANDLE structure [Display Devices], _D3DKMT_OPENRESOURCEFROMNTHANDLE, d3dkmthk/D3DKMT_OPENRESOURCEFROMNTHANDLE, display.d3dkmt_openresourcefromnthandle
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENRESOURCEFROMNTHANDLE"
 req.header: d3dkmthk.h

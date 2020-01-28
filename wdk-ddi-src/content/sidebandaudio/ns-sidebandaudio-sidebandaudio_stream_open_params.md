@@ -4,7 +4,6 @@ title: SIDEBANDAUDIO_STREAM_OPEN_PARAMS (sidebandaudio.h)
 description: Describes the variable I/O parameters for IOCTLs.
 ms.assetid: f34ee0ff-8e4a-4893-90f8-5dcf6fa50f0d
 ms.date: 09/07/2018
-ms.topic: struct
 f1_keywords:
  - "sidebandaudio/SIDEBANDAUDIO_STREAM_OPEN_PARAMS"
 ms.keywords: SIDEBANDAUDIO_STREAM_OPEN_PARAMS, SIDEBANDAUDIO_STREAM_OPEN_PARAMS, *PSIDEBANDAUDIO_STREAM_OPEN_PARAMS, 

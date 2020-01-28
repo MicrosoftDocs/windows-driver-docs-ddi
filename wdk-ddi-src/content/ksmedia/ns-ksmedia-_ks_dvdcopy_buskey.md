@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: bae613e1-c450-4bc0-9370-a7eb8438ae23
 ms.date: 04/23/2018
 ms.keywords: "*PKS_DVDCOPY_BUSKEY, KS_DVDCOPY_BUSKEY, KS_DVDCOPY_BUSKEY structure [Streaming Media Devices], PKS_DVDCOPY_BUSKEY, PKS_DVDCOPY_BUSKEY structure pointer [Streaming Media Devices], _KS_DVDCOPY_BUSKEY, dvdref_e3933026-ef22-42c4-8977-2c648421ccb2.xml, ksmedia/KS_DVDCOPY_BUSKEY, ksmedia/PKS_DVDCOPY_BUSKEY, stream.ks_dvdcopy_buskey"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KS_DVDCOPY_BUSKEY"
 req.header: ksmedia.h

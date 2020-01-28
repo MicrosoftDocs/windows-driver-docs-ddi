@@ -6,7 +6,6 @@ old-location: display\d3dkmtopenresource2.htm
 ms.assetid: 7D496443-F68D-41E6-B377-BC9E6F6ABB83
 ms.date: 05/10/2018
 ms.keywords: D3DKMTOpenResource2, D3DKMTOpenResource2 function [Display Devices], d3dkmthk/D3DKMTOpenResource2, display.d3dkmtopenresource2
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenResource2"
 req.header: d3dkmthk.h

@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 67A296B3-5D59-475E-9026-EDAB90C8E3DD
 ms.date: 04/20/2018
 ms.keywords: "*PBranchOfficeJobDataRendered, BranchOfficeJobDataRendered, BranchOfficeJobDataRendered structure [Print Devices], PBranchOfficeJobDataRendered, PBranchOfficeJobDataRendered structure pointer [Print Devices], print.branchofficejobdatarendered, winsplp/BranchOfficeJobDataRendered, winsplp/PBranchOfficeJobDataRendered"
-ms.topic: struct
 f1_keywords:
  - "winsplp/BranchOfficeJobDataRendered"
 req.header: winsplp.h

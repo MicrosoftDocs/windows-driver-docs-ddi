@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 7566f92d-0e25-44bf-a2b3-587bb11a7d03
 ms.date: 04/20/2018
 ms.keywords: DrvPrinterEvent, DrvPrinterEvent function [Print Devices], print.drvprinterevent, print_interface-graphics_5bfc5cb2-1835-4659-afa7-7b3bbb7ee051.xml, winddiui/DrvPrinterEvent
-ms.topic: function
 f1_keywords:
  - "winddiui/DrvPrinterEvent"
 req.header: winddiui.h

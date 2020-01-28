@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 416f3f32-7bca-4ffa-893b-5d7d5916a381
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/_DXGK_WDDMDEVICECAPS"
 ms.prod: windows-hardware

@@ -6,7 +6,6 @@ old-location: display\dxgkddiissupportedvidpn.htm
 ms.assetid: 96e96366-6306-4d20-8752-e942f2ed4069
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_ISSUPPORTEDVIDPN, DXGKDDI_ISSUPPORTEDVIDPN callback, DmFunctions_222f2c38-00c6-466f-b653-3c9529f93849.xml, DxgkDdiIsSupportedVidPn, DxgkDdiIsSupportedVidPn callback function [Display Devices], d3dkmddi/DxgkDdiIsSupportedVidPn, display.dxgkddiissupportedvidpn
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

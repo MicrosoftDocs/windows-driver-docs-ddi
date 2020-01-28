@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: e68ed118-76c7-44ff-a10f-dc64f1ce2d0e
 ms.date: 05/02/2018
 ms.keywords: "*LPRILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rildialedidsettings, ntddrilapitypes/RILDIALEDIDSETTINGS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILDIALEDIDSETTINGS"
 req.header: rilapitypes.h

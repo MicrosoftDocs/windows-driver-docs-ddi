@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 87ad817a-4a62-4061-949c-fe45bdfb44d5
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_ad75f4c0-79f7-42d6-8798-947cdcbfd8f1.xml, WDF_FILEOBJECT_CONFIG_INIT, WDF_FILEOBJECT_CONFIG_INIT function, kmdf.wdf_fileobject_config_init, wdf.wdf_fileobject_config_init, wdfdevice/WDF_FILEOBJECT_CONFIG_INIT
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WDF_FILEOBJECT_CONFIG_INIT"
 req.header: wdfdevice.h

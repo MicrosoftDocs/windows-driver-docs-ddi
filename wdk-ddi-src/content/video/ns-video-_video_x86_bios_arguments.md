@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c0404803-d8a5-4698-a725-12c659cbcaab
 ms.date: 05/10/2018
 ms.keywords: "*PVIDEO_X86_BIOS_ARGUMENTS, PVIDEO_X86_BIOS_ARGUMENTS, PVIDEO_X86_BIOS_ARGUMENTS structure pointer [Display Devices], VIDEO_X86_BIOS_ARGUMENTS, VIDEO_X86_BIOS_ARGUMENTS structure [Display Devices], VIDEO_x86_BIOS_ARGUMENTS, VIDEO_x86_BIOS_ARGUMENTS structure [Display Devices], Video_Structs_6e82199c-1448-483c-ab53-73590564b165.xml, _VIDEO_X86_BIOS_ARGUMENTS, display.video_x86_bios_arguments, video/PVIDEO_X86_BIOS_ARGUMENTS, video/VIDEO_X86_BIOS_ARGUMENTS"
-ms.topic: struct
 f1_keywords:
  - "video/VIDEO_X86_BIOS_ARGUMENTS"
 req.header: video.h

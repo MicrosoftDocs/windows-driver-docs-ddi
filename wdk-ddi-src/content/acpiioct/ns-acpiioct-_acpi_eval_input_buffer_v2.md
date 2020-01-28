@@ -7,7 +7,6 @@ tech.root: acpi
 ms.assetid: EDB4862E-FAD4-4AB2-BF0C-CF4C6342F0E4
 ms.date: 02/15/2018
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_V2, ACPI_EVAL_INPUT_BUFFER_V2, ACPI_EVAL_INPUT_BUFFER_V2 structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_V2, PACPI_EVAL_INPUT_BUFFER_V2 structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_V2, acpi.acpi_eval_input_buffer_v2, acpiioct/ACPI_EVAL_INPUT_BUFFER_V2, acpiioct/PACPI_EVAL_INPUT_BUFFER_V2"
-ms.topic: struct
 f1_keywords:
  - "acpiioct/ACPI_EVAL_INPUT_BUFFER_V2"
 req.header: acpiioct.h

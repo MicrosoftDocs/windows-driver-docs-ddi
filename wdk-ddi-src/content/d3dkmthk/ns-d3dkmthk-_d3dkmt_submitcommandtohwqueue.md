@@ -6,7 +6,6 @@ old-location: display\d3dkmt_submitcommandtohwqueue.htm
 ms.assetid: 3807BD27-FAE4-4E12-A825-A9FAFB7A6ACA
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_SUBMITCOMMANDTOHWQUEUE, D3DKMT_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], _D3DKMT_SUBMITCOMMANDTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITCOMMANDTOHWQUEUE, display.d3dkmt_submitcommandtohwqueue
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_SUBMITCOMMANDTOHWQUEUE"
 req.header: d3dkmthk.h

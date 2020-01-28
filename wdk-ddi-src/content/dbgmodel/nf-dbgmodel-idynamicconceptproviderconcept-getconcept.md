@@ -4,7 +4,6 @@ title: IDynamicConceptProviderConcept::GetConcept (dbgmodel.h)
 description: The GetConcept method on a dynamic concept provider is effectively an override of the GetConcept method on IModelObject.
 ms.assetid: 40a661df-b934-4e3e-a4e0-6a2fbaceecbe
 ms.date: 09/19/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDynamicConceptProviderConcept.GetConcept"
 ms.keywords: IDynamicConceptProviderConcept::GetConcept, GetConcept, IDynamicConceptProviderConcept.GetConcept, IDynamicConceptProviderConcept::GetConcept, IDynamicConceptProviderConcept.GetConcept

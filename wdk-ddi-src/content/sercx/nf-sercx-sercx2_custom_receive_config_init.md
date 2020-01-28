@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 35C7AE64-C778-443E-9CF7-7868048DA01F
 ms.date: 04/23/2018
 ms.keywords: 2/SERCX2_CUSTOM_RECEIVE_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_CONFIG_INIT function [Serial Ports], serports.sercx2_custom_receive_config_init
-ms.topic: function
 f1_keywords:
  - "sercx/SERCX2_CUSTOM_RECEIVE_CONFIG_INIT"
 req.header: sercx.h

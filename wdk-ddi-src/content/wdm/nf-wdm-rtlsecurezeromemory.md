@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: b7a9beaf-5eca-4fb0-af63-06c002297085
 ms.date: 04/30/2018
 ms.keywords: RtlSecureZeroMemory, RtlSecureZeroMemory routine [Kernel-Mode Driver Architecture], k109_8bcffbc1-2930-416b-a192-b70c477d1910.xml, kernel.rtlsecurezeromemory, wdm/RtlSecureZeroMemory
-ms.topic: function
 f1_keywords:
  - "wdm/RtlSecureZeroMemory"
 req.header: wdm.h

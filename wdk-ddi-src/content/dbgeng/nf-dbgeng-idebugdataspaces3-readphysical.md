@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 8df51985-9208-46ce-8802-6bc5ec707ab2
 ms.date: 05/03/2018
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadPhysical method, IDebugDataSpaces2 interface [Windows Debugging],ReadPhysical method, IDebugDataSpaces2::ReadPhysical, IDebugDataSpaces3 interface [Windows Debugging],ReadPhysical method, IDebugDataSpaces3.ReadPhysical, IDebugDataSpaces3::ReadPhysical, IDebugDataSpaces4 interface [Windows Debugging],ReadPhysical method, IDebugDataSpaces4::ReadPhysical, IDebugDataSpaces::ReadPhysical, IDebugDataSpaces_5be1f680-1177-4cdf-a4d8-5868644a51af.xml, ReadPhysical, ReadPhysical method [Windows Debugging], ReadPhysical method [Windows Debugging],IDebugDataSpaces interface, ReadPhysical method [Windows Debugging],IDebugDataSpaces2 interface, ReadPhysical method [Windows Debugging],IDebugDataSpaces3 interface, ReadPhysical method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadPhysical, dbgeng/IDebugDataSpaces3::ReadPhysical, dbgeng/IDebugDataSpaces4::ReadPhysical, dbgeng/IDebugDataSpaces::ReadPhysical, debugger.readphysical3
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugDataSpaces.ReadPhysical"
 req.header: dbgeng.h

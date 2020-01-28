@@ -5,7 +5,6 @@ description: Reads a USHORT value from the specified port or register.
 tech.root: serports
 ms.assetid: d516dfad-577b-4c6b-87df-ab6c7ce5c7f8
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "uart/UART_HARDWARE_READ_USHORT"
 req.header: uart.h

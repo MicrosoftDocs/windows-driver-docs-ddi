@@ -7,7 +7,6 @@ tech.root: devtest
 ms.assetid: 389A4F90-9C81-4C03-A2F9-ACF0E597018C
 ms.date: 02/23/2018
 ms.keywords: WppRecorderGetCounterHandle, devtest.wpprecordergetcounterhandle, imp_WppRecorderGetCounterHandle, imp_WppRecorderGetCounterHandle function [Driver Development Tools], wpprecorder/imp_WppRecorderGetCounterHandle
-ms.topic: function
 f1_keywords:
  - "wpprecorder/imp_WppRecorderGetCounterHandle"
 req.header: wpprecorder.h

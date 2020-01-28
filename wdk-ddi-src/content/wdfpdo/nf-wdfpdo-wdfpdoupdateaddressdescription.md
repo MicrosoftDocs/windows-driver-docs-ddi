@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: f41e4b81-48e0-448f-b32a-6ecadbc2e45c
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml, WdfPdoUpdateAddressDescription, WdfPdoUpdateAddressDescription method, kmdf.wdfpdoupdateaddressdescription, wdf.wdfpdoupdateaddressdescription, wdfpdo/WdfPdoUpdateAddressDescription
-ms.topic: function
 f1_keywords:
  - "wdfpdo/WdfPdoUpdateAddressDescription"
 req.header: wdfpdo.h

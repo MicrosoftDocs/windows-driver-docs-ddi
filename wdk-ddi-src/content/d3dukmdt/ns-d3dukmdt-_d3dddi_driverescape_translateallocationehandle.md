@@ -4,7 +4,6 @@ title: _D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE (d3dukmdt.h)
 description: Used to translate the guest allocation to the corresponding host handle.
 ms.assetid: 8a286cbc-92cb-45cd-ac98-c0d185fc0bf0
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dukmdt/_D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE"
 ms.keywords: _D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE, D3DDDI_DRIVERESCAPE_TRANSLATEALLOCATIONEHANDLE, 

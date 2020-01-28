@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 8dfeb2d5-e75e-4e5b-b209-cb23133136f7
 ms.date: 02/02/2018
 ms.keywords: XcvClosePort, winsplp/XcvClosePort, print.xcvcloseport, spoolfnc_5d0750d1-1f50-4e09-8c91-1362b2037265.xml, XcvClosePort function [Print Devices]
-ms.topic: function
 f1_keywords:
  - "winsplp/XcvClosePort"
 req.header: winsplp.h

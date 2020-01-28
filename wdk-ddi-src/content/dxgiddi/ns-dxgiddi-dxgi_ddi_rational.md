@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 3a1ebeb8-4a0e-4a1f-9039-13ca8e375e5e
 ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_RATIONAL, DXGI_DDI_RATIONAL structure [Display Devices], UMDisplayDriver_Dx10param_Structs_ef68ce24-ab05-45db-9b37-02367bbba7f4.xml, display.dxgi_ddi_rational, dxgiddi/DXGI_DDI_RATIONAL
-ms.topic: struct
 f1_keywords:
  - "dxgiddi/DXGI_DDI_RATIONAL"
 req.header: dxgiddi.h

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 001a64dd-1470-42e0-98ba-22ba33f3fa69
 ms.date: 05/03/2018
 ms.keywords: AddBreakpoint2, AddBreakpoint2 method [Windows Debugging], AddBreakpoint2 method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],AddBreakpoint2 method, IDebugControl4.AddBreakpoint2, IDebugControl4::AddBreakpoint2, dbgeng/IDebugControl4::AddBreakpoint2, debugger.addbreakpoint2
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl4.AddBreakpoint2"
 req.header: dbgeng.h

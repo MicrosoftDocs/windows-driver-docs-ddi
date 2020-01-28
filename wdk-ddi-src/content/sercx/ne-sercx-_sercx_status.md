@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 7EF129C7-25C3-49D2-8FC5-FFA1C4E77935
 ms.date: 04/23/2018
 ms.keywords: "*PSERCX_STATUS, 1/SERCX_STATUS, 1/SerCxStatusCancelled, 1/SerCxStatusSuccess, 1/SerCxStatusTimeout, SERCX_STATUS, SERCX_STATUS enumeration [Serial Ports], SerCxStatusCancelled, SerCxStatusSuccess, SerCxStatusTimeout, _SERCX_STATUS, serports.sercx_status"
-ms.topic: enum
 f1_keywords:
  - "sercx/SERCX_STATUS"
 req.header: sercx.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 62451fc4-92cc-4553-80cc-0843cf734a62
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD, PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD callback, UserModeDisplayDriver_Functions_72b2babe-fc93-4960-93d3-6bc2022227c8.xml, VideoProcessBltHD, VideoProcessBltHD callback function [Display Devices], d3dumddi/VideoProcessBltHD, display.videoprocessblthd
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

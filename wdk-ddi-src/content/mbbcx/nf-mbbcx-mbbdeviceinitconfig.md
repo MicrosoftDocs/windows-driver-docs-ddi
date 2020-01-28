@@ -5,7 +5,6 @@ description: The MBBDeviceInitConfig method initializes MBBCx device initializat
 tech.root: netvista
 ms.assetid: c4998ab1-28f7-44d3-83ef-e6f303ff6279
 ms.date: 06/28/2018
-ms.topic: function
 f1_keywords:
  - "mbbcx/MbbDeviceInitConfig"
 ms.keywords: MbbDeviceInitConfig

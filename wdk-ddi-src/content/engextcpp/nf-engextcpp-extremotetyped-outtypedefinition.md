@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: f7d24a3b-b5a8-4924-85d9-8bf7983b95fa
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, ExtRemoteTyped interface [Windows Debugging],OutTypeDefinition method, ExtRemoteTyped.OutTypeDefinition, ExtRemoteTyped::OutTypeDefinition, OutTypeDefinition, OutTypeDefinition method [Windows Debugging], OutTypeDefinition method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_outtypedefinition
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.OutTypeDefinition"
 req.header: engextcpp.hpp

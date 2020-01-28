@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 1483be56-71c5-435b-843d-821f73dc79d7
 ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_PROCESS_UI_RESPONSE, Dot11ExtIhvProcessUIResponse, Dot11ExtIhvProcessUIResponse callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_6bf65442-0a9a-4061-81a3-855b0ae80df4.xml, netvista.dot11extihvprocessuiresponse, wlanihv/Dot11ExtIhvProcessUIResponse
-ms.topic: callback
 f1_keywords:
  - "wlanihv/Dot11ExtIhvProcessUIResponse"
 req.header: wlanihv.h

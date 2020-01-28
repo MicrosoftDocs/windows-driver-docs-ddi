@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 4c23f270-9ea3-475f-81d8-c003b2aca44b
 ms.date: 02/26/2018
 ms.keywords: DFInterruptObjectRef_5b885d42-7ce9-4ac2-b97b-c41906298c22.xml, WDF_INTERRUPT_INFO_INIT, WDF_INTERRUPT_INFO_INIT function, kmdf.wdf_interrupt_info_init, wdf.wdf_interrupt_info_init, wdfinterrupt/WDF_INTERRUPT_INFO_INIT
-ms.topic: function
 f1_keywords:
  - "wdfinterrupt/WDF_INTERRUPT_INFO_INIT"
 req.header: wdfinterrupt.h

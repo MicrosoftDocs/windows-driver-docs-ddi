@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 68753690-A6DC-46BE-9981-F395B98C3245
 ms.date: 04/30/2018
 ms.keywords: PoFxRegisterPluginEx, PoFxRegisterPluginEx routine [Kernel-Mode Driver Architecture], kernel.pofxregisterpluginex, pepfx/PoFxRegisterPluginEx
-ms.topic: function
 f1_keywords:
  - "pep_x/PoFxRegisterPluginEx"
 req.header: pep_x.h

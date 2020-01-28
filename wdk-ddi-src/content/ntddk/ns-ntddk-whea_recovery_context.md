@@ -7,7 +7,6 @@ tech.root:
 ms.assetid: 7ce30722-7df7-4eac-95eb-5e2117a8f263
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_RECOVERY_CONTEXT"
 ms.keywords: WHEA_RECOVERY_CONTEXT, WHEA_RECOVERY_CONTEXT, *PWHEA_RECOVERY_CONTEXT, 

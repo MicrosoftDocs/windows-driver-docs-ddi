@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: e7708b33-b032-41b9-84f9-6c5b38044f9c
 ms.date: 04/20/2018
 ms.keywords: "*POEMUIPSPARAM, OEMUIPSPARAM, OEMUIPSPARAM structure [Print Devices], POEMUIPSPARAM, POEMUIPSPARAM structure pointer [Print Devices], _OEMUIPSPARAM, print.oemuipsparam, print_unidrv-pscript_ui_7a4c3f10-5a2d-45da-99e4-bbd6ee0fb8bf.xml, printoem/OEMUIPSPARAM, printoem/POEMUIPSPARAM"
-ms.topic: struct
 f1_keywords:
  - "printoem/OEMUIPSPARAM"
 req.header: printoem.h

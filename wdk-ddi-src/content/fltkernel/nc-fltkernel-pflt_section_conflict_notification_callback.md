@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 22840772-7DFC-4339-9C06-4900E47048B4
 ms.date: 04/25/2019
 ms.keywords: PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK, SectionNotificationCallback, SectionNotificationCallback routine [Installable File System Drivers], fltkernel/SectionNotificationCallback, ifsk.pflt_section_conflict_notification_callback
-ms.topic: callback
 f1_keywords:
  - "fltkernel/SectionNotificationCallback"
 req.header: fltkernel.h

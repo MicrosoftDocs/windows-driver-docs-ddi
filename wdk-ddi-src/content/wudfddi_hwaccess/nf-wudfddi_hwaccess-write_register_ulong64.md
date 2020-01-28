@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 50C407F2-657F-451F-8A6B-BEEB533D89DE
 ms.date: 02/26/2018
 ms.keywords: WRITE_REGISTER_ULONG64, WRITE_REGISTER_ULONG64 function, umdf.write_register_ulong64, wdf.write_register_ulong64, wudfddi_hwaccess/WRITE_REGISTER_ULONG64
-ms.topic: function
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_REGISTER_ULONG64"
 req.header: wudfddi_hwaccess.h

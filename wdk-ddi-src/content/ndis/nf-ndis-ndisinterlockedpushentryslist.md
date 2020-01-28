@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 155604e9-45f6-4dd2-9373-90f689713c1a
 ms.date: 05/02/2018
 ms.keywords: NdisInterlockedPushEntrySList, NdisInterlockedPushEntrySList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedPushEntrySList, ndis_interlocked_ref_ee1513c8-bb1a-4f3e-981b-7c448b3d1e41.xml, netvista.ndisinterlockedpushentryslist
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisInterlockedPushEntrySList"
 req.header: ndis.h

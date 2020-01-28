@@ -7,7 +7,6 @@ tech.root: SD
 ms.assetid: 145e460e-6988-4e61-bb33-6f1b1df54629
 ms.date: 02/15/2018
 ms.keywords: SD.sffdisk_dcmd, SFFDISK_DCMD, SFFDISK_DCMD enumeration [Buses], SFFDISK_DC_DEVICE_COMMAND, SFFDISK_DC_GET_VERSION, SFFDISK_DC_LOCK_CHANNEL, SFFDISK_DC_UNLOCK_CHANNEL, sd-structs_440acb4f-89ba-4ea0-9f8b-c7fd241dfe85.xml, sffdisk/SFFDISK_DCMD, sffdisk/SFFDISK_DC_DEVICE_COMMAND, sffdisk/SFFDISK_DC_GET_VERSION, sffdisk/SFFDISK_DC_LOCK_CHANNEL, sffdisk/SFFDISK_DC_UNLOCK_CHANNEL
-ms.topic: enum
 f1_keywords:
  - "sffdisk/SFFDISK_DCMD"
 req.header: sffdisk.h

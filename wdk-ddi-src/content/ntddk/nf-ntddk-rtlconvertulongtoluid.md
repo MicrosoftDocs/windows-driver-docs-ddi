@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: f3c1e2d5-8bb8-486c-a78a-3ddde6ab64bd
 ms.date: 04/30/2018
 ms.keywords: RtlConvertUlongToLuid, RtlConvertUlongToLuid routine [Kernel-Mode Driver Architecture], k109_25b3458f-dc47-436f-af5b-7d6a9d8eeb2a.xml, kernel.rtlconvertulongtoluid, ntddk/RtlConvertUlongToLuid
-ms.topic: function
 f1_keywords:
  - "ntddk/RtlConvertUlongToLuid"
 req.header: ntddk.h

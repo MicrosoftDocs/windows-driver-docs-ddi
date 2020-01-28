@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 80450bfb-ae3a-46cd-8cf2-905df5adf70d
 ms.date: 04/16/2018
 ms.keywords: RtlDecompressFragment, RtlDecompressFragment function [Installable File System Drivers], ifsk.rtldecompressfragment, ntifs/RtlDecompressFragment, rtlref_40a25add-c5bc-40f5-bb79-d5dcd6c11d69.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlDecompressFragment"
 req.header: ntifs.h

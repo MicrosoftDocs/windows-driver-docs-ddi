@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: e6d5bd94-d9cb-462f-84e4-bf9d70961e95
 ms.date: 05/02/2018
 ms.keywords: NdisMCoIndicateStatusEx, NdisMCoIndicateStatusEx function [Network Drivers Starting with Windows Vista], condis_status_ref_1a0c27e2-e728-4b1d-8e45-9305869d3bfc.xml, ndis/NdisMCoIndicateStatusEx, netvista.ndismcoindicatestatusex
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMCoIndicateStatusEx"
 req.header: ndis.h

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: d0bc4e8b-b173-4568-8c0f-7b87fd84e2cf
 ms.date: 04/23/2018
 ms.keywords: KsFreeObjectBag, KsFreeObjectBag function [Streaming Media Devices], avfunc_f91aca67-5d6c-42f7-9e24-3b15b54c2b69.xml, ks/KsFreeObjectBag, stream.ksfreeobjectbag
-ms.topic: function
 f1_keywords:
  - "ks/KsFreeObjectBag"
 req.header: ks.h

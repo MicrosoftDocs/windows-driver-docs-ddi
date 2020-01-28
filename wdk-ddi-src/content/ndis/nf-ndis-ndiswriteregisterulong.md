@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: f21954a8-66a0-40c5-9116-da6e57d24f53
 ms.date: 05/02/2018
 ms.keywords: NdisWriteRegisterUlong, NdisWriteRegisterUlong macro [Network Drivers Starting with Windows Vista], miniport_register_ref_2f7b1091-df45-47d7-9dd7-9a6f39e0b19d.xml, ndis/NdisWriteRegisterUlong, netvista.ndiswriteregisterulong
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisWriteRegisterUlong"
 req.header: ndis.h

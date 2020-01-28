@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 66B15ED1-583D-418C-90C5-25BBBCEE7B5A
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2SystemDmaReceiveCleanupTransaction, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CLEANUP_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_RECEIVE_CLEANUP_TRANSACTION callback, EvtSerCx2SystemDmaReceiveCleanupTransaction, EvtSerCx2SystemDmaReceiveCleanupTransaction callback function [Serial Ports], serports.evtsercx2systemdmareceivecleanuptransaction
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaReceiveCleanupTransaction"
 req.header: sercx.h

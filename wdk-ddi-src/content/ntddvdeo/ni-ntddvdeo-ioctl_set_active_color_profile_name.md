@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: f39b1114-70dd-4975-ba6e-058456f7f64d
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: ioctl
 f1_keywords:
  - "ntddvdeo/IOCTL_SET_ACTIVE_COLOR_PROFILE_NAME"
 req.header: ntddvdeo.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 8EBCBC06-8373-43EA-91F5-6C8A439C0EAD
 ms.date: 04/30/2018
 ms.keywords: PsGetJobServerSilo, PsGetJobServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgetjobserversilo, ntddk/PsGetJobServerSilo
-ms.topic: function
 f1_keywords:
  - "ntddk/PsGetJobServerSilo"
 req.header: ntddk.h

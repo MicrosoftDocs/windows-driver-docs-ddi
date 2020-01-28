@@ -4,7 +4,6 @@ title: PSTREAM_RECEIVE_PACKET (usbcamdi.h)
 description: 
 ms.assetid: 2ae5c8c4-9951-4424-90e8-25fd25a48bb2
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "usbcamdi/PSTREAM_RECEIVE_PACKET"
 req.header: usbcamdi.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 92955e1e-6c5b-4e8e-a365-65ff4d0889a5
 ms.date: 05/02/2018
 ms.keywords: NdisCmDeregisterSapComplete, NdisCmDeregisterSapComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_d8a656de-56d5-4b84-8179-636b72f1313b.xml, ndis/NdisCmDeregisterSapComplete, netvista.ndiscmderegistersapcomplete
-ms.topic: function
 f1_keywords:
  - "ndis/NdisCmDeregisterSapComplete"
 req.header: ndis.h

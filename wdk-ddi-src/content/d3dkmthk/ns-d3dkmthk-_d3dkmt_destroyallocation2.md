@@ -6,7 +6,6 @@ old-location: display\d3dkmt_destroyallocation2.htm
 ms.assetid: A51C5F98-5979-436A-9E7E-EA54A1469940
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_DESTROYALLOCATION2, D3DKMT_DESTROYALLOCATION2 structure [Display Devices], _D3DKMT_DESTROYALLOCATION2, d3dkmthk/D3DKMT_DESTROYALLOCATION2, display.d3dkmt_destroyallocation2
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_DESTROYALLOCATION2"
 req.header: d3dkmthk.h

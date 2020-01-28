@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 6FF62F6B-D83D-45DB-BE83-7A6D61A6AC92
 ms.date: 05/07/2018
 ms.keywords: UdecxInitializeWdfDeviceInit, UdecxInitializeWdfDeviceInit function [Buses], buses.udecxinitializewdfdeviceinit, udecxwdfdevice/UdecxInitializeWdfDeviceInit
-ms.topic: function
 f1_keywords:
  - "udecxwdfdevice/UdecxInitializeWdfDeviceInit"
 req.header: udecxwdfdevice.h

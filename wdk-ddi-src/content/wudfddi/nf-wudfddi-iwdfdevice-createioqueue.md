@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 54c19d8c-59eb-44b2-b406-8fe33cdfcd63
 ms.date: 02/26/2018
 ms.keywords: CreateIoQueue, CreateIoQueue method, CreateIoQueue method,IWDFDevice interface, IWDFDevice interface,CreateIoQueue method, IWDFDevice.CreateIoQueue, IWDFDevice::CreateIoQueue, UMDFDeviceObjectRef_ed702ef2-a628-44cc-9aba-421018c236c1.xml, umdf.iwdfdevice_createioqueue, wdf.iwdfdevice_createioqueue, wudfddi/IWDFDevice::CreateIoQueue
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFDevice.CreateIoQueue"
 req.header: wudfddi.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1b155e15-1e4e-45bb-98cc-f1c19923ed2c
 ms.date: 05/10/2018
 ms.keywords: DestroyMiracastContext, DestroyMiracastContext callback function [Display Devices], PFN_DESTROY_MIRACAST_CONTEXT, PFN_DESTROY_MIRACAST_CONTEXT callback, display.destroymiracastcontext, netdispumdddi/DestroyMiracastContext
-ms.topic: callback
 f1_keywords:
  - "netdispumdddi/DestroyMiracastContext"
 req.header: netdispumdddi.h

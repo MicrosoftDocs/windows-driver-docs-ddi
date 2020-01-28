@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 6d404c47-01ae-496c-8252-32f180cf0fd3
 ms.date: 04/23/2018
 ms.keywords: "*PAVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR structure [Streaming Media Devices], PAVC_PIN_DESCRIPTOR, PAVC_PIN_DESCRIPTOR structure pointer [Streaming Media Devices], _AVC_PIN_DESCRIPTOR, avc/AVC_PIN_DESCRIPTOR, avc/PAVC_PIN_DESCRIPTOR, avcref_4207f0d3-ba1e-47ae-abdd-4eebccf094b9.xml, stream.avc_pin_descriptor"
-ms.topic: struct
 f1_keywords:
  - "avc/AVC_PIN_DESCRIPTOR"
 req.header: avc.h

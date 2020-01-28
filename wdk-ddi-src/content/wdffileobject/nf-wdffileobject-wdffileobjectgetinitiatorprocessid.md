@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 59E15EAA-4934-48D9-A9E3-7CDEEAE01985
 ms.date: 02/26/2018
 ms.keywords: WdfFileObjectGetInitiatorProcessId, WdfFileObjectGetInitiatorProcessId function, wdf.wdffileobjectgetinitiatorprocessid, wdffileobject/WdfFileObjectGetInitiatorProcessId
-ms.topic: function
 f1_keywords:
  - "wdffileobject/WdfFileObjectGetInitiatorProcessId"
 req.header: wdffileobject.h

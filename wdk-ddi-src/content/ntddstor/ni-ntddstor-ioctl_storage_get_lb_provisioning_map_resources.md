@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 117F6507-CA52-4EA7-9633-75ADB19F4DDA
 ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES, IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES control, IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES, storage.ioctl_storage_get_lb_provisioning_map_resources
-ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES"
 req.header: ntddstor.h

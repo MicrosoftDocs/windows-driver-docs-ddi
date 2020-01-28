@@ -4,7 +4,6 @@ title: _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION (d3dkmthk.h)
 description: Contains multiplane overly post composition info.
 ms.assetid: 35bfcaea-fdf4-49f5-baf4-53d77fed7fb2
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/_D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION"
 ms.keywords: _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION, D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION, 

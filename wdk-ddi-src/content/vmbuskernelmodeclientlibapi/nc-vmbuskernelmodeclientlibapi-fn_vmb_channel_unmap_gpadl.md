@@ -5,7 +5,6 @@ description: The VmbChannelUnmapGpadl function unmaps a Guest Physical Address D
 tech.root: netvista
 ms.assetid: 37e0ab68-e710-48ae-a476-0bceb206fd80
 ms.date: 05/22/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_UNMAP_GPADL"
 req.header: vmbuskernelmodeclientlibapi.h

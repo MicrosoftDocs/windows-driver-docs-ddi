@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: BF7563F8-F1C5-4300-94A2-7D884DA7DFA2
 ms.date: 04/16/2018
 ms.keywords: RtlInsertElementGenericTableAvl, RtlInsertElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictableavl, ntddk/RtlInsertElementGenericTableAvl
-ms.topic: function
 f1_keywords:
  - "ntddk/RtlInsertElementGenericTableAvl"
 req.header: ntddk.h

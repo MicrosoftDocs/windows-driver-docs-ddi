@@ -6,7 +6,6 @@ old-location: display\d3d11_1ddi_authenticated_configure_protection.htm
 ms.assetid: 2932fd35-54dc-4054-99e5-9b33aac77413
 ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION, D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION, display.d3d11_1ddi_authenticated_configure_protection
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_PROTECTION"
 req.header: d3d10umddi.h

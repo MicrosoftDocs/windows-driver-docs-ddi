@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: B065CDE1-BB6D-4209-881B-50743A38EDBE
 ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_LISTEN_AGNSS, IOCTL_GNSS_LISTEN_AGNSS control, IOCTL_GNSS_LISTEN_AGNSS control code [Sensor Devices], gnss.ioctl_gnss_listen_agnss, gnssdriver/IOCTL_GNSS_LISTEN_AGNSS
-ms.topic: ioctl
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_LISTEN_AGNSS"
 req.header: gnssdriver.h

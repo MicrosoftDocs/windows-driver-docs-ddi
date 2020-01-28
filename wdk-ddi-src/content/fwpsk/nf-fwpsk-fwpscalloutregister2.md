@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 7e60d536-607f-469f-8de4-5f6b77443b3e
 ms.date: 05/02/2018
 ms.keywords: FwpsCalloutRegister2, FwpsCalloutRegister2 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutRegister2, netvista.fwpscalloutregister2
-ms.topic: function
 f1_keywords:
  - "fwpsk/FwpsCalloutRegister2"
 req.header: fwpsk.h

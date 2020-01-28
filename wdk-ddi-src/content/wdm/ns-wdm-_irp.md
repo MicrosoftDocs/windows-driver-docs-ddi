@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 6e044704-2edf-416f-a5a1-2ae65363a165
 ms.date: 04/30/2018
 ms.keywords: "*PIRP, IRP, IRP structure [Kernel-Mode Driver Architecture], PIRP, PIRP structure pointer [Kernel-Mode Driver Architecture], _IRP, kernel.irp, kstruct_b_39688b8b-4b33-4bce-b71f-e9c183e4d6bd.xml, wdm/IRP, wdm/PIRP"
-ms.topic: struct
 f1_keywords:
  - "wdm/IRP"
 req.header: wdm.h

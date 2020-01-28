@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: f1197dfd-03d7-4ac2-8f11-60da413e32b2
 ms.date: 04/30/2018
 ms.keywords: IoStartNextPacket, IoStartNextPacket routine [Kernel-Mode Driver Architecture], k104_5a02a1fa-cf0e-43b0-a4e8-db1da8ad110c.xml, kernel.iostartnextpacket, wdm/IoStartNextPacket
-ms.topic: function
 f1_keywords:
  - "ntifs/IoStartNextPacket"
 req.header: ntifs.h

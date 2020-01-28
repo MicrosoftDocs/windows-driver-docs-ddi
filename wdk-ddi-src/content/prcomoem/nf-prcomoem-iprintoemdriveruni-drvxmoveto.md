@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 1f2c65ec-6218-438e-a853-4780f091a330
 ms.date: 04/20/2018
 ms.keywords: DrvXMoveTo, DrvXMoveTo method [Print Devices], DrvXMoveTo method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvXMoveTo method, IPrintOemDriverUni.DrvXMoveTo, IPrintOemDriverUni::DrvXMoveTo, prcomoem/IPrintOemDriverUni::DrvXMoveTo, print.iprintoemdriveruni_drvxmoveto, print_unidrv-pscript_rendering_85f4b5f5-6953-4b3d-902c-4573c4a1bb90.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemDriverUni.DrvXMoveTo"
 req.header: prcomoem.h

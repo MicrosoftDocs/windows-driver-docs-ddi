@@ -4,7 +4,6 @@ title: IOMMU_UNMAP_IDENTITY_RANGE (wdm.h)
 description: Deletes an identity mapping for the specified MDL.
 ms.assetid: 9a59ab97-1b72-4fd2-920d-c0a0c242b184
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "wdm/IOMMU_UNMAP_IDENTITY_RANGE"
 req.header: wdm.h

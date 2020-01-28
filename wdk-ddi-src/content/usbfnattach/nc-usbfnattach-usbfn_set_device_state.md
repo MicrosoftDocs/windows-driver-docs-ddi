@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: EAEFEE8A-D96B-40D8-A4F0-FEFA670E1E6E
 ms.date: 05/07/2018
 ms.keywords: PFN_USBFN_SET_DEVICE_STATE, PFN_USBFN_SET_DEVICE_STATE callback function pointer [Buses], USBFN_SET_DEVICE_STATE, USBFN_SET_DEVICE_STATE callback, UsbFnSetDeviceState, UsbFnSetDeviceState callback function [Buses], buses.usbfn_set_device_state, usbfnattach/UsbFnSetDeviceState
-ms.topic: callback
 f1_keywords:
  - "usbfnattach/USBFN_SET_DEVICE_STATE"
 req.header: usbfnattach.h

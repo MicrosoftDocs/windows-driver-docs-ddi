@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: e7b16853-7f1d-45e4-af5e-4ae9cbb9b191
 ms.date: 04/20/2018
 ms.keywords: IBidiRequest, IBidiRequest interface [Print Devices], IBidiRequest interface [Print Devices],described, _win32_IBidiRequest, bidispl/IBidiRequest, gdi.ibidirequest, print.ibidirequest
-ms.topic: interface
 f1_keywords:
  - "bidispl/IBidiRequest"
 req.header: bidispl.h

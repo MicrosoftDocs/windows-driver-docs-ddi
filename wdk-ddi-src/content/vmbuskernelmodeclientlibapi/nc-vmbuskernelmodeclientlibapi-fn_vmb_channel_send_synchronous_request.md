@@ -5,7 +5,6 @@ description: The VmbChannelSendSynchronousRequest function sends a packet to the
 tech.root: netvista
 ms.assetid: 353b996b-0678-4ce6-aaeb-3835ae05ee3e
 ms.date: 05/22/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST"
 req.header: vmbuskernelmodeclientlibapi.h

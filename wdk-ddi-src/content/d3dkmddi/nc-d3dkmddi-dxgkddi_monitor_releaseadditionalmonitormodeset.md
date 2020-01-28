@@ -6,7 +6,6 @@ old-location: display\dxgk_monitor_interface_v2_pfnreleaseadditionalmonitormodes
 ms.assetid: b9f6cb52-8870-4319-a1ff-d3dbbeef8cb6
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET, DXGKDDI_MONITOR_RELEASEADDITIONALMONITORMODESET callback, VidPnFunctions_7b298754-19ed-420f-88f9-2910c3f5968a.xml, d3dkmddi/pfnReleaseAdditionalMonitorModeSet, display.dxgk_monitor_interface_v2_pfnreleaseadditionalmonitormodeset, pfnReleaseAdditionalMonitorModeSet, pfnReleaseAdditionalMonitorModeSet callback function [Display Devices]
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

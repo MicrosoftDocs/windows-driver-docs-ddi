@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: B8AA23C6-EFFC-47C3-9AD2-72421463CDBA
 ms.date: 02/16/2018
 ms.keywords: "*PDOT11_WFD_DISCOVER_DEVICE_FILTER, DOT11_WFD_DISCOVER_DEVICE_FILTER, DOT11_WFD_DISCOVER_DEVICE_FILTER structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DISCOVER_DEVICE_FILTER, PDOT11_WFD_DISCOVER_DEVICE_FILTER structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DISCOVER_DEVICE_FILTER, netvista.dot11_wfd_discover_device_filter, windot11/DOT11_WFD_DISCOVER_DEVICE_FILTER, windot11/PDOT11_WFD_DISCOVER_DEVICE_FILTER"
-ms.topic: struct
 f1_keywords:
  - "windot11/DOT11_WFD_DISCOVER_DEVICE_FILTER"
 req.header: windot11.h

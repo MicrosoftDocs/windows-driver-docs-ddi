@@ -6,7 +6,6 @@ old-location: display\d3d12ddi-device-funcs-core-0030.htm
 ms.assetid: 421e6b72-a771-4b18-9776-0b5e8e7a1e29
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0030, D3D12DDI_DEVICE_FUNCS_CORE_0030 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0030, display.d3d12ddi-device-funcs-core-0030
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0030"
 req.header: d3d12umddi.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 19ab8771-2a86-469a-98e4-3d295a458b90
 ms.date: 05/10/2018
 ms.keywords: UMDEtwUnregister, UMDEtwUnregister function [Display Devices], display.umdetwunregister, umdprovider/UMDEtwUnregister
-ms.topic: function
 f1_keywords:
  - "umdprovider/UMDEtwUnregister"
 req.header: umdprovider.h

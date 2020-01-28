@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: F494ED4C-DA2F-4630-B0CA-8B3BE7D26A80
 ms.date: 02/26/2018
 ms.keywords: IWDFIoRequest3 interface,SetUserModeDriverInitiatedIo method, IWDFIoRequest3.SetUserModeDriverInitiatedIo, IWDFIoRequest3::SetUserModeDriverInitiatedIo, SetUserModeDriverInitiatedIo, SetUserModeDriverInitiatedIo method, SetUserModeDriverInitiatedIo method,IWDFIoRequest3 interface, umdf.iwdfiorequest3_setusermodedriverinitiatedio, wdf.iwdfiorequest3_setusermodedriverinitiatedio, wudfddi/IWDFIoRequest3::SetUserModeDriverInitiatedIo
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoRequest3.SetUserModeDriverInitiatedIo"
 req.header: wudfddi.h

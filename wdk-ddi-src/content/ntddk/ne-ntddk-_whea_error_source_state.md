@@ -7,7 +7,6 @@ tech.root: whea
 ms.assetid: 7be90712-9f6f-4998-a8ca-148ff900c82c
 ms.date: 02/20/2018
 ms.keywords: "*PWHEA_ERROR_SOURCE_STATE, PWHEA_ERROR_SOURCE_STATE, PWHEA_ERROR_SOURCE_STATE enumeration pointer [WHEA Drivers and Applications], WHEA_ERROR_SOURCE_STATE, WHEA_ERROR_SOURCE_STATE enumeration [WHEA Drivers and Applications], WheaErrSrcStateStarted, WheaErrSrcStateStopped, _WHEA_ERROR_SOURCE_STATE, ntddk/PWHEA_ERROR_SOURCE_STATE, ntddk/WHEA_ERROR_SOURCE_STATE, ntddk/WheaErrSrcStateStarted, ntddk/WheaErrSrcStateStopped, whea.whea_error_source_state, whearef_c6edca73-b5ec-4473-bbe3-9ed5e48f017d.xml"
-ms.topic: enum
 f1_keywords:
  - "ntddk/WHEA_ERROR_SOURCE_STATE"
 req.header: ntddk.h

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 6aaa4ae9-fd3c-4cdd-ac37-0533c45143af
 ms.date: 05/02/2018
 ms.keywords: NdisIfGetInterfaceIndexFromNetLuid, NdisIfGetInterfaceIndexFromNetLuid function [Network Drivers Starting with Windows Vista], ndis/NdisIfGetInterfaceIndexFromNetLuid, net_if_functions_ref_d375ff1d-3f7f-4f11-8fd3-c41340276d30.xml, netvista.ndisifgetinterfaceindexfromnetluid
-ms.topic: function
 f1_keywords:
  - "ndis/NdisIfGetInterfaceIndexFromNetLuid"
 req.header: ndis.h

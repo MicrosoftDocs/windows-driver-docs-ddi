@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: a4b5e669-7abb-4c60-b2dc-249103d0b20c
 ms.date: 05/02/2018
 ms.keywords: NdisMReadConfigBlock, NdisMReadConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMReadConfigBlock, netvista.ndismreadconfigblock
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMReadConfigBlock"
 req.header: ndis.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: BDEC9AFC-2BA1-4E2C-83B4-F21B220B8B3B
 ms.date: 04/30/2018
 ms.keywords: DMA_SYNCHRONOUS_CALLBACK, GetScatterGatherListEx, GetScatterGatherListEx callback function [Kernel-Mode Driver Architecture], PGET_SCATTER_GATHER_LIST_EX, PGET_SCATTER_GATHER_LIST_EX callback, kernel.getscattergatherlistex, wdm/GetScatterGatherListEx
-ms.topic: callback
 f1_keywords:
  - "wdm/GetScatterGatherListEx"
 req.header: wdm.h

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 7287b060-ab4c-48af-b5cd-67bae7bc1a73
 ms.date: 04/16/2018
 ms.keywords: ObQueryObjectAuditingByHandle, ObQueryObjectAuditingByHandle function [Installable File System Drivers], ifsk.obqueryobjectauditingbyhandle, ntifs/ObQueryObjectAuditingByHandle, obref_1fb6339d-82a7-4c0f-bcaf-001886ebd898.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/ObQueryObjectAuditingByHandle"
 req.header: ntifs.h

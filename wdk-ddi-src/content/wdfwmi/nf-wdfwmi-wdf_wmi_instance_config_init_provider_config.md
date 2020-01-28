@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: e65a7fa3-1c9c-447a-b99a-a63570c9e233
 ms.date: 02/26/2018
 ms.keywords: DFWMIRef_6aec4b1b-494c-4f9f-89c3-a8e79fa552da.xml, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function, kmdf.wdf_wmi_instance_config_init_provider_config, wdf.wdf_wmi_instance_config_init_provider_config, wdfwmi/WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG
-ms.topic: function
 f1_keywords:
  - "wdfwmi/WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG"
 req.header: wdfwmi.h

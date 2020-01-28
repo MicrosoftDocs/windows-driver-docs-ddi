@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: ab8c19c8-73c0-4c70-9a5d-9cf9d182157d
 ms.date: 05/03/2018
 ms.keywords: ComOther_6805cc12-0d46-4114-a40d-54c7e32b3c7c.xml, IDebugSymbolGroup interface [Windows Debugging],OutputAsType method, IDebugSymbolGroup.OutputAsType, IDebugSymbolGroup2 interface [Windows Debugging],OutputAsType method, IDebugSymbolGroup2::OutputAsType, IDebugSymbolGroup::OutputAsType, OutputAsType, OutputAsType method [Windows Debugging], OutputAsType method [Windows Debugging],IDebugSymbolGroup interface, OutputAsType method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputAsType, dbgeng/IDebugSymbolGroup::OutputAsType, debugger.outputastype
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup.OutputAsType"
 req.header: dbgeng.h

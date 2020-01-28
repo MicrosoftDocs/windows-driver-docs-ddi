@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 56ef9b59-5dbb-4720-bae1-7af6d9dbc110
 ms.date: 02/16/2018
 ms.keywords: "*PDOT11EXT_IHV_CONNECTIVITY_PROFILE, DOT11EXT_IHV_CONNECTIVITY_PROFILE, DOT11EXT_IHV_CONNECTIVITY_PROFILE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_a0d8e30b-4a72-44d2-a83a-c7b1785f2c8e.xml, PDOT11EXT_IHV_CONNECTIVITY_PROFILE, PDOT11EXT_IHV_CONNECTIVITY_PROFILE structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_CONNECTIVITY_PROFILE, netvista.dot11ext_ihv_connectivity_profile, wlanihv/DOT11EXT_IHV_CONNECTIVITY_PROFILE, wlanihv/PDOT11EXT_IHV_CONNECTIVITY_PROFILE"
-ms.topic: struct
 f1_keywords:
  - "wlanihv/DOT11EXT_IHV_CONNECTIVITY_PROFILE"
 req.header: wlanihv.h

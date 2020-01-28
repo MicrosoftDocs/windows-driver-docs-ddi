@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 5672C7E2-83AA-4BDC-BE60-E2BC54BD636F
 ms.date: 04/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPipe method, IKsPinPipe.KsGetPipe, IKsPinPipe::KsGetPipe, KsGetPipe, KsGetPipe method [Streaming Media Devices], KsGetPipe method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPipe, stream.ikspinpipe_ksgetpipe
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsGetPipe"
 req.header: ksproxy.h

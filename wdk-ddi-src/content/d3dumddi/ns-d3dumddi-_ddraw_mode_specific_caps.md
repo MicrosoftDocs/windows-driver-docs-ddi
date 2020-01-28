@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4434e2cb-af36-446b-b84e-f303ba315cd3
 ms.date: 05/10/2018
 ms.keywords: D3D_other_Structs_21634851-4693-46c9-b742-f2001e63f349.xml, DDRAW_MODE_SPECIFIC_CAPS, DDRAW_MODE_SPECIFIC_CAPS structure [Display Devices], _DDRAW_MODE_SPECIFIC_CAPS, d3dumddi/DDRAW_MODE_SPECIFIC_CAPS, display.ddraw_mode_specific_caps
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/DDRAW_MODE_SPECIFIC_CAPS"
 req.header: d3dumddi.h

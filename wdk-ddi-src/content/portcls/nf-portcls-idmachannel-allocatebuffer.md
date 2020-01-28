@@ -5,7 +5,6 @@ description: The AllocateBuffer method allocates a common buffer that can be acc
 tech.root: audio
 ms.assetid: 5a1752fd-35e1-4ce1-9322-e4202705cb29
 ms.date: 10/31/2018
-ms.topic: method
 f1_keywords:
  - "portcls/IDmaChannel.AllocateBuffer"
 ms.keywords: IDmaChannel::AllocateBuffer, AllocateBuffer, IDmaChannel.AllocateBuffer, IDmaChannel::AllocateBuffer, IDmaChannel.AllocateBuffer

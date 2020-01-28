@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 10e72834-4866-42f2-842e-0a30278acab8
 ms.date: 03/29/2018
 ms.keywords: "*PRemoveiSNSServer_IN, PRemoveiSNSServer_IN, PRemoveiSNSServer_IN structure pointer [Storage Devices], RemoveiSNSServer_IN, RemoveiSNSServer_IN structure [Storage Devices], _RemoveiSNSServer_IN, iscsiop/PRemoveiSNSServer_IN, iscsiop/RemoveiSNSServer_IN, storage.removeisnsserver_in, structs-iSCSI_b79fe0e4-386c-4b5c-9b43-ef8fdb7f4b6a.xml"
-ms.topic: struct
 f1_keywords:
  - "iscsiop/RemoveiSNSServer_IN"
 req.header: iscsiop.h

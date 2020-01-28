@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: b1e62ae3-4a3d-42db-b7fe-87d1a7e0b438
 ms.date: 05/03/2018
 ms.keywords: GetInterestMask, GetInterestMask method [Windows Debugging], GetInterestMask method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],GetInterestMask method, IDebugEventCallbacksWide.GetInterestMask, IDebugEventCallbacksWide::GetInterestMask, dbgeng/IDebugEventCallbacksWide::GetInterestMask, debugger.idebugeventcallbackswide_getinterestmask
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.GetInterestMask"
 req.header: dbgeng.h

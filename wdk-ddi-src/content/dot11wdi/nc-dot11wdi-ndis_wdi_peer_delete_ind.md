@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: A13F2A98-BADA-43B8-A24B-0749C5558C35
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_PEER_DELETE_IND, NDIS_WDI_PEER_DELETE_IND callback, NdisWdiPeerDeleteIndication, NdisWdiPeerDeleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiPeerDeleteIndication, netvista.ndiswdipeerdeleteindication
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/NdisWdiPeerDeleteIndication"
 req.header: dot11wdi.h

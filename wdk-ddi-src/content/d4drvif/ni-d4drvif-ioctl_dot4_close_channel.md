@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 66832FC2-D958-480F-84FB-B910B760444D
 ms.date: 04/20/2018
 ms.keywords: IOCTL_DOT4_CLOSE_CHANNEL, IOCTL_DOT4_CLOSE_CHANNEL control, IOCTL_DOT4_CLOSE_CHANNEL control code [Print Devices], d4drvif/IOCTL_DOT4_CLOSE_CHANNEL, print.ioctl_ioctl_dot4_close_channel
-ms.topic: ioctl
 f1_keywords:
  - "d4drvif/IOCTL_DOT4_CLOSE_CHANNEL"
 req.header: d4drvif.h

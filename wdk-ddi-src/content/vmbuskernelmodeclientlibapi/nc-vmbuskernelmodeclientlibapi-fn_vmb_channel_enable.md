@@ -5,7 +5,6 @@ description: The VmbChannelEnable function enables a channel that is in the disa
 tech.root: netvista
 ms.assetid: e2761a5b-dac3-4423-93af-5f009c2cfaad
 ms.date: 05/21/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_ENABLE"
 req.header: vmbuskernelmodeclientlibapi.h

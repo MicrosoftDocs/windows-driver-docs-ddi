@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: 7E06DAAF-B360-4C6C-8E6B-0F7CFC46A69E
 ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_SET_V2UPL_CONFIG, IOCTL_GNSS_SET_V2UPL_CONFIG control, IOCTL_GNSS_SET_V2UPL_CONFIG control code [Sensor Devices], gnss.ioctl_gnss_set_v2upl_config, gnssdriver/IOCTL_GNSS_SET_V2UPL_CONFIG
-ms.topic: ioctl
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_SET_V2UPL_CONFIG"
 req.header: gnssdriver.h

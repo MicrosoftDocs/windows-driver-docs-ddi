@@ -4,7 +4,6 @@ title: D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW (d3d12umddi.h)
 description: Describes the subresources from an array of cube textures to use in a shader-resource view.
 ms.assetid: e823651f-f626-4db1-a9ac-3ead29da054e
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW"
 ms.keywords: D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW, D3D12DDIARG_TEXCUBE_SHADER_RESOURCE_VIEW, 

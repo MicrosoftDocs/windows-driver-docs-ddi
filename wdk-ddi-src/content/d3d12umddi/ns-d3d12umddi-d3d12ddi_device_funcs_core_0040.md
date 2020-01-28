@@ -4,7 +4,6 @@ title: D3D12DDI_DEVICE_FUNCS_CORE_0040 (d3d12umddi.h)
 description: Core device functions.
 ms.assetid: f4a40b3b-ce5e-4591-aab6-236297623a46
 ms.date: 10/19/2018
-ms.topic: struct
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0040, D3D12DDI_DEVICE_FUNCS_CORE_0040,
 req.header: d3d12umddi.h
 req.include-header: 

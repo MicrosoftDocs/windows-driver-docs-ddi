@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 7411c10f-76ab-44df-8cab-2266443417aa
 ms.date: 04/30/2018
 ms.keywords: DrvrRtns_2bf4e129-77ac-4525-9504-4f039a503943.xml, RTL_RUN_ONCE_INIT_FN, RunOnceInitialization, RunOnceInitialization routine [Kernel-Mode Driver Architecture], kernel.runonceinitialization, ntddk/RunOnceInitialization
-ms.topic: callback
 f1_keywords:
  - "ntddk/RunOnceInitialization"
 req.header: ntddk.h

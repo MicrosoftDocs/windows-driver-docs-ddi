@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 2d689ede-418e-4bf3-8c0e-82ded1085382
 ms.date: 02/26/2018
 ms.keywords: DFRegKeyObjectRef_97e02e2b-59d4-4041-a22d-e3a8905c096f.xml, WdfRegistryQueryMemory, WdfRegistryQueryMemory method, kmdf.wdfregistryquerymemory, wdf.wdfregistryquerymemory, wdfregistry/WdfRegistryQueryMemory
-ms.topic: function
 f1_keywords:
  - "wdfregistry/WdfRegistryQueryMemory"
 req.header: wdfregistry.h

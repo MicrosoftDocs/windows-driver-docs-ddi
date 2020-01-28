@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 3BA2D85A-052B-4851-B31C-072F2872F3FE
 ms.date: 03/29/2018
 ms.keywords: IOCTL_CDROM_GET_PERFORMANCE, IOCTL_CDROM_GET_PERFORMANCE control, IOCTL_CDROM_GET_PERFORMANCE control code [Storage Devices], ntddcdrm/IOCTL_CDROM_GET_PERFORMANCE, storage.ioctl_cdrom_get_performance
-ms.topic: ioctl
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_GET_PERFORMANCE"
 req.header: ntddcdrm.h

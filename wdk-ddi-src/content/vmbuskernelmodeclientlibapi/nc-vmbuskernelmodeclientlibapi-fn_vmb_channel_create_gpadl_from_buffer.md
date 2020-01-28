@@ -5,7 +5,6 @@ description: The VmbChannelCreateGpadlFromBuffer function creates a Guest Physic
 tech.root: netvista
 ms.assetid: 08d38304-c8bb-4dcf-aa57-be05d8fe7270
 ms.date: 05/21/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_CREATE_GPADL_FROM_BUFFER"
 req.header: vmbuskernelmodeclientlibapi.h

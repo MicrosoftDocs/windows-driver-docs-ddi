@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: b74acc12-8fc2-497f-9f65-8b1a85a03286
 ms.date: 04/16/2018
 ms.keywords: MRxPreparseName, MRxPreparseName routine [Installable File System Drivers], PMRX_PREPARSE_NAME, ifsk.mrxpreparsename, mrx/MRxPreparseName, mrxref_4f7f0d54-93a0-4b61-bf62-6e7b1063415c.xml
-ms.topic: callback
 f1_keywords:
  - "mrx/MRxPreparseName"
 req.header: mrx.h

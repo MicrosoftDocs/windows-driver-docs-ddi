@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: e8855baf-ce75-4a4c-bbbe-d1a7e5a65907
 ms.date: 04/16/2018
 ms.keywords: CcRemapBcb, CcRemapBcb routine [Installable File System Drivers], ccref_64bd8036-ecdd-48bd-8894-fea7f28cc3be.xml, ifsk.ccremapbcb, ntifs/CcRemapBcb
-ms.topic: function
 f1_keywords:
  - "ntifs/CcRemapBcb"
 req.header: ntifs.h

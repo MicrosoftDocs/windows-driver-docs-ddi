@@ -4,7 +4,6 @@ title: IDataModelScriptDebug2::StartDebugging (dbgmodel.h)
 description: The StartDebugging method "turns on" the debugger for a particular script. 
 ms.assetid: 2cebdd6c-9883-492a-881d-f3b9175804f2
 ms.date: 09/11/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug2.StartDebugging"
 ms.keywords: IDataModelScriptDebug2::StartDebugging, StartDebugging, IDataModelScriptDebug2.StartDebugging, IDataModelScriptDebug2::StartDebugging, IDataModelScriptDebug2.StartDebugging

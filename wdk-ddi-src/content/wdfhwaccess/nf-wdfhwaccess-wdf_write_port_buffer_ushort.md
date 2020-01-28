@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 7E4638B0-6FFE-483A-8B71-33B939854CFA
 ms.date: 02/26/2018
 ms.keywords: WDF_WRITE_PORT_BUFFER_USHORT, WDF_WRITE_PORT_BUFFER_USHORT function, wdf.wdf_write_port_buffer_ushort, wdfhwaccess/WDF_WRITE_PORT_BUFFER_USHORT
-ms.topic: function
 f1_keywords:
  - "wdfhwaccess/WDF_WRITE_PORT_BUFFER_USHORT"
 req.header: wdfhwaccess.h

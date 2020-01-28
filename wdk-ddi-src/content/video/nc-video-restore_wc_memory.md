@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 8fa0be0c-04ce-41ab-93dd-6dc9e8daa356
 ms.date: 05/10/2018
 ms.keywords: RESTORE_WC_MEMORY, RESTORE_WC_MEMORY callback, VideoPortRestoreWCMemory, VideoPortRestoreWCMemory callback function [Display Devices], VideoPort_Functions_88c8ebcc-40d1-4883-9e99-eac1aab0c6c7.xml, display.videoportrestorewcmemory, video/VideoPortRestoreWCMemory
-ms.topic: callback
 f1_keywords:
  - "video/VideoPortRestoreWCMemory"
 req.header: video.h

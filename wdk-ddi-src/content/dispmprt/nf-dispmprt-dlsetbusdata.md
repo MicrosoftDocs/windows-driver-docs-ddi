@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1c96d9b5-e074-41da-8867-a858d280fa10
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: function
 f1_keywords:
  - "dispmprt/DlSetBusData"
 ms.keywords: DlSetBusData

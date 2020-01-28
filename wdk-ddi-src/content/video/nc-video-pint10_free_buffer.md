@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: feb7dd98-8c44-405e-8e98-ffd6246cf0ee
 ms.date: 05/10/2018
 ms.keywords: Int10FreeBuffer, Int10FreeBuffer callback function [Display Devices], PINT10_FREE_BUFFER, PINT10_FREE_BUFFER callback, VideoPort_Functions_607fc1f2-1d9a-48eb-97c2-a2cd510e3d78.xml, display.int10freebuffer, video/Int10FreeBuffer
-ms.topic: callback
 f1_keywords:
  - "video/Int10FreeBuffer"
 req.header: video.h

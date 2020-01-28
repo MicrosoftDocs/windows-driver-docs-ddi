@@ -6,7 +6,6 @@ old-location: display\d3dkmt_releasekeyedmutex2.htm
 ms.assetid: e343b11c-7cd1-4aea-a87c-e33577456851
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_RELEASEKEYEDMUTEX2, D3DKMT_RELEASEKEYEDMUTEX2 structure [Display Devices], _D3DKMT_RELEASEKEYEDMUTEX2, d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX2, display.d3dkmt_releasekeyedmutex2
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX2"
 req.header: d3dkmthk.h

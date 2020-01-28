@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 16804ff1-8531-48aa-baf6-b89ccfe25d07
 ms.date: 04/23/2018
 ms.keywords: "*PKSPROPERTY_BOUNDS_LONG, KSPROPERTY_BOUNDS_LONG, KSPROPERTY_BOUNDS_LONG union [Streaming Media Devices], PKSPROPERTY_BOUNDS_LONG, PKSPROPERTY_BOUNDS_LONG union pointer [Streaming Media Devices], ks-struct_805e1a44-91bb-45be-a99d-174e98639d9e.xml, ks/KSPROPERTY_BOUNDS_LONG, ks/PKSPROPERTY_BOUNDS_LONG, stream.ksproperty_bounds_long"
-ms.topic: struct
 f1_keywords:
  - "ks/KSPROPERTY_BOUNDS_LONG"
 req.header: ks.h

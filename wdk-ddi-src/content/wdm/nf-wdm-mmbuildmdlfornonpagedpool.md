@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: f83a9a57-be44-4aa0-bb2e-740f48d82e06
 ms.date: 04/30/2018
 ms.keywords: MmBuildMdlForNonPagedPool, MmBuildMdlForNonPagedPool routine [Kernel-Mode Driver Architecture], k106_58d8437c-b6da-4b88-85a4-300392fb58f9.xml, kernel.mmbuildmdlfornonpagedpool, wdm/MmBuildMdlForNonPagedPool
-ms.topic: function
 f1_keywords:
  - "wdm/MmBuildMdlForNonPagedPool"
 req.header: wdm.h

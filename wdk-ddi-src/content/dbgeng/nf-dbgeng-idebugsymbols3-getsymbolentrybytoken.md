@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: C5BAED6C-223F-4D1B-A9A4-323C93DD5AD9
 ms.date: 05/03/2018
 ms.keywords: GetSymbolEntryByToken, GetSymbolEntryByToken method [Windows Debugging], GetSymbolEntryByToken method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryByToken method, IDebugSymbols3.GetSymbolEntryByToken, IDebugSymbols3::GetSymbolEntryByToken, dbgeng/IDebugSymbols3::GetSymbolEntryByToken, debugger.idebugsymbols3_getsymbolentrybytoken
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSymbolEntryByToken"
 req.header: dbgeng.h

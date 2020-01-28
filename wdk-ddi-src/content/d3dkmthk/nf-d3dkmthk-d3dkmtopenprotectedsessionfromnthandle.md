@@ -6,7 +6,6 @@ old-location: display\d3dkmtopenprotectedsessionfromnthandle.htm
 ms.assetid: 3ebdf120-ecdd-474b-961d-958179cf30e0
 ms.date: 05/10/2018
 ms.keywords: D3DKMTOpenProtectedSessionFromNtHandle, D3DKMTOpenProtectedSessionFromNtHandle method [Display Devices], d3dkmthk/D3DKMTOpenProtectedSessionFromNtHandle, display.d3dkmtopenprotectedsessionfromnthandle
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenProtectedSessionFromNtHandle"
 req.header: d3dkmthk.h

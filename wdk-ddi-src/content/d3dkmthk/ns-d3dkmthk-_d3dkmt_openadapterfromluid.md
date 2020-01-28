@@ -6,7 +6,6 @@ old-location: display\d3dkmt_openadapterfromluid.htm
 ms.assetid: 93f5c1d1-e1df-4536-8b52-db3b4942488c
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_OPENADAPTERFROMLUID, D3DKMT_OPENADAPTERFROMLUID structure [Display Devices], _D3DKMT_OPENADAPTERFROMLUID, d3dkmthk/D3DKMT_OPENADAPTERFROMLUID, display.d3dkmt_openadapterfromluid
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENADAPTERFROMLUID"
 req.header: d3dkmthk.h

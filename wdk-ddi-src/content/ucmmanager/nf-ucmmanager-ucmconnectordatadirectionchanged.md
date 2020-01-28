@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 62ED07DF-2DDC-42FD-80C3-75AB3DE839AD
 ms.date: 05/07/2018
 ms.keywords: UcmConnectorDataDirectionChanged, UcmConnectorDataDirectionChanged method [Buses], buses.ucmconnectordatadirectionchanged, ucmmanager/UcmConnectorDataDirectionChanged
-ms.topic: function
 f1_keywords:
  - "ucmmanager/UcmConnectorDataDirectionChanged"
 req.header: ucmmanager.h

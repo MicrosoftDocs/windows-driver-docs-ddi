@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 3B32F31C-3850-43D4-9C6E-40D35B8AF4D4
 ms.date: 03/29/2018
 ms.keywords: StorPortLogTelemetry, StorPortLogTelemetry routine [Storage Devices], storage.storportlogtelemetry, storport/StorPortLogTelemetry
-ms.topic: function
 f1_keywords:
  - "storport/StorPortLogTelemetry"
 req.header: storport.h

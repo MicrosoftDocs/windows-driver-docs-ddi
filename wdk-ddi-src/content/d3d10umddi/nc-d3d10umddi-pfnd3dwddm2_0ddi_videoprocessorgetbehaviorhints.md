@@ -6,7 +6,6 @@ old-location: display\videoprocessorgetbehaviorhints.htm
 ms.assetid: E6CBAFEE-9587-45D5-A6CD-4CA739AF279E
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_0DDI_VIDEOPROCESSORGETBEHAVIORHINTS, PFND3DWDDM2_0DDI_VIDEOPROCESSORGETBEHAVIORHINTS callback, d3d10umddi/pfnVideoProcessorGetBehaviorHints, display.videoprocessorgetbehaviorhints, pfnVideoProcessorGetBehaviorHints, pfnVideoProcessorGetBehaviorHints callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATEVIDEOMOTIONVECTORHEAP_0053 (d3d12umddi.h)
 description: Creates a video motion vector heap.
 ms.assetid: 4b1ca6fb-cc29-4621-99af-594f42c4e7a9
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

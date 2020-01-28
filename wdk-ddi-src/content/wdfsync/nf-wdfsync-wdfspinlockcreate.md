@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 2854fa05-61a9-4515-9dc1-463f160ae89a
 ms.date: 02/26/2018
 ms.keywords: DFSynchroRef_6e5f9884-82a8-4c1e-a039-9e01f4f3d0f1.xml, WdfSpinLockCreate, WdfSpinLockCreate method, kmdf.wdfspinlockcreate, wdf.wdfspinlockcreate, wdfsync/WdfSpinLockCreate
-ms.topic: function
 f1_keywords:
  - "wdfsync/WdfSpinLockCreate"
 req.header: wdfsync.h

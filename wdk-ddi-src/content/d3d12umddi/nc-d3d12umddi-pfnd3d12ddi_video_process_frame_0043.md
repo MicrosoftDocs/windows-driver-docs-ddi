@@ -4,7 +4,6 @@ title: PFND3D12DDI_VIDEO_PROCESS_FRAME_0043 (d3d12umddi.h)
 description: Implemented by the client driver to process a video frame.
 ms.assetid: cd60f939-e9f0-408b-8bb3-709bd7d14fdc
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

@@ -7,7 +7,6 @@ tech.root: nfpdrivers
 ms.assetid: 8208F61E-DFD9-4AA8-B225-BEB35F80F621
 ms.date: 02/15/2018
 ms.keywords: NfcCxSetLlcpConfig, NfcCxSetLlcpConfig method [Near-Field Proximity Drivers], nfccx/NfcCxSetLlcpConfig, nfpdrivers._nfccxsetllcpconfig
-ms.topic: function
 f1_keywords:
  - "nfccx/NfcCxSetLlcpConfig"
 req.header: nfccx.h

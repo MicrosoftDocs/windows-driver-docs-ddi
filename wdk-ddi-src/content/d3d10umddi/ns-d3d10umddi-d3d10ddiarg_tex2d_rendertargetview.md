@@ -6,7 +6,6 @@ old-location: display\d3d10ddiarg_tex2d_rendertargetview.htm
 ms.assetid: 9537801f-568a-4fb6-b4f8-e901cf9146f6
 ms.date: 05/10/2018
 ms.keywords: D3D10DDIARG_TEX2D_RENDERTARGETVIEW, D3D10DDIARG_TEX2D_RENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_542468b2-b74d-4146-b745-65727ecd9510.xml, d3d10umddi/D3D10DDIARG_TEX2D_RENDERTARGETVIEW, display.d3d10ddiarg_tex2d_rendertargetview
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_TEX2D_RENDERTARGETVIEW"
 req.header: d3d10umddi.h

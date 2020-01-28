@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: f9ed28a5-835c-47c8-b9cf-888785013b69
 ms.date: 06/19/2019
 ms.keywords: HidD_GetNumInputBuffers, HidD_GetNumInputBuffers routine [Human Input Devices], hid.hidd_getnuminputbuffers, hidfunc_addf7040-0b62-45bc-8b43-1aa0157924e8.xml, hidsdi/HidD_GetNumInputBuffers
-ms.topic: function
 f1_keywords:
  - "hidsdi/HidD_GetNumInputBuffers"
 req.header: hidsdi.h

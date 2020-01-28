@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: eefb8f2c-e460-4f9c-851d-9a97dbcd728f
 ms.date: 05/10/2018
 ms.keywords: PFNDDXGIDDI_PRESENTCB, PFNDDXGIDDI_PRESENTCB callback, d3d10state_functions_22004360-a0a0-4d54-ac0e-d7fadec2bf67.xml, display.pfnpresentcbdxgi, dxgiddi/pfnPresentCbDXGI, pfnPresentCbDXGI, pfnPresentCbDXGI callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "dxgiddi/pfnPresentCbDXGI"
 req.header: dxgiddi.h

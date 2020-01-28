@@ -6,7 +6,6 @@ old-location: display\dxgk_multiplane_overlay_plane2.htm
 ms.assetid: 31A1EAFB-FA48-432D-963E-EA907B43F08A
 ms.date: 05/10/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE2, DXGK_MULTIPLANE_OVERLAY_PLANE2 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_PLANE2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE2, display.dxgk_multiplane_overlay_plane2
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE2"
 req.header: d3dkmddi.h

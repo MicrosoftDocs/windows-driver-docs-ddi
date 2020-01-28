@@ -5,7 +5,6 @@ description: Creates a net transmit queue object.
 tech.root: netvista
 ms.assetid: 50a3a979-0699-40d9-9932-3836a3b0b3a0
 ms.date: 11/12/2018
-ms.topic: function
 f1_keywords:
  - "nettxqueue/NetTxQueueCreate"
 ms.keywords: NetTxQueueCreate

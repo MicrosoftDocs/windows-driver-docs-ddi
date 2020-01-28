@@ -7,7 +7,6 @@ tech.root: sensors
 ms.assetid: DC495EFB-3522-4220-87F8-3DB501831D6E
 ms.date: 05/03/2018
 ms.keywords: Approximate, High, MagnetometerAccuracy, MagnetometerAccuracy enumeration [Sensor Devices], Unknown, Unreliable, sensors.magnetometeraccuracy, sensorsclassextension/Approximate, sensorsclassextension/High, sensorsclassextension/MagnetometerAccuracy, sensorsclassextension/Unknown, sensorsclassextension/Unreliable
-ms.topic: enum
 f1_keywords:
  - "sensorsclassextension/MagnetometerAccuracy"
 req.header: sensorsclassextension.h

@@ -4,7 +4,6 @@ title: IDebugHostModule::FindTypeByName (dbgmodel.h)
 description: The FindTypeByName method finds a type defined within the module by the type name and returns a type symbol for it.
 ms.assetid: 382868fc-8d1c-4278-8eb5-365622c57754
 ms.date: 09/18/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDebugHostModule.FindTypeByName"
 ms.keywords: IDebugHostModule::FindTypeByName, FindTypeByName, IDebugHostModule.FindTypeByName, IDebugHostModule::FindTypeByName, IDebugHostModule.FindTypeByName

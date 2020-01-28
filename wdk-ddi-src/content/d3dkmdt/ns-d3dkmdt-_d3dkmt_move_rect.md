@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2d9e0a8e-9485-427d-bdd0-2d89dec76a77
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_MOVE_RECT, D3DKMT_MOVE_RECT structure [Display Devices], _D3DKMT_MOVE_RECT, d3dkmdt/D3DKMT_MOVE_RECT, display.d3dkmt_move_rect
-ms.topic: struct
 f1_keywords:
  - "d3dkmdt/D3DKMT_MOVE_RECT"
 req.header: d3dkmdt.h

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 6C86A931-C87C-4273-9409-A45A3FDB8B4C
 ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_ZONES_ATTRIBUTES, PSTORAGE_ZONES_ATTRIBUTES, PSTORAGE_ZONES_ATTRIBUTES enumeration pointer [Storage Devices], STORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES enumeration [Storage Devices], ZonesAttributeTypeAndLengthMayDifferent, ZonesAttributeTypeMayDifferentLengthSame, ZonesAttributeTypeSameLastZoneLengthDifferent, ZonesAttributeTypeSameLengthSame, _STORAGE_ZONES_ATTRIBUTES, ntddstor/PSTORAGE_ZONES_ATTRIBUTES, ntddstor/STORAGE_ZONES_ATTRIBUTES, ntddstor/ZonesAttributeTypeAndLengthMayDifferent, ntddstor/ZonesAttributeTypeMayDifferentLengthSame, ntddstor/ZonesAttributeTypeSameLastZoneLengthDifferent, ntddstor/ZonesAttributeTypeSameLengthSame, storage.storage_zones_attributes"
-ms.topic: enum
 f1_keywords:
  - "ntddstor/STORAGE_ZONES_ATTRIBUTES"
 req.header: ntddstor.h

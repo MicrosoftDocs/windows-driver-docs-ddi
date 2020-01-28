@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 5D7348DC-1114-4346-9486-FCCE2C0F3E0F
 ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control code [Storage Devices], ntddstor/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, storage.ioctl_storage_set_temperature_threshold
-ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD"
 req.header: ntddstor.h

@@ -6,7 +6,6 @@ old-location: display\dxgk_plane_specific_input_flags.htm
 ms.assetid: 39BE1343-D965-4750-9B94-B54127D873A5
 ms.date: 11/26/2019
 ms.keywords: DXGK_PLANE_SPECIFIC_INPUT_FLAGS, DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure [Display Devices], _DXGK_PLANE_SPECIFIC_INPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS, display.dxgk_plane_specific_input_flags
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS"
 req.header: d3dkmddi.h

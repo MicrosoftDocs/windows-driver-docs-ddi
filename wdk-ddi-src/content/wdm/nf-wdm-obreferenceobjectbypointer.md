@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: c575bd3f-6790-4815-b7c7-8ee16a9cac17
 ms.date: 04/30/2018
 ms.keywords: ObReferenceObjectByPointer, ObReferenceObjectByPointer routine [Kernel-Mode Driver Architecture], k107_2846f148-4ad5-472a-aa74-4f03c5251aee.xml, kernel.obreferenceobjectbypointer, wdm/ObReferenceObjectByPointer
-ms.topic: function
 f1_keywords:
  - "wdm/ObReferenceObjectByPointer"
 req.header: wdm.h

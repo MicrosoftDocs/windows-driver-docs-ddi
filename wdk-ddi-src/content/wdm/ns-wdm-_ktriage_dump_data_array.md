@@ -4,7 +4,6 @@ title: _KTRIAGE_DUMP_DATA_ARRAY (wdm.h)
 description: 
 ms.assetid: 07dbd4cb-0840-4802-a595-a9e08cab4918
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "wdm/_KTRIAGE_DUMP_DATA_ARRAY"
 ms.keywords: _KTRIAGE_DUMP_DATA_ARRAY, PKTRIAGE_DUMP_DATA_ARRAY, KTRIAGE_DUMP_DATA_ARRAY, 

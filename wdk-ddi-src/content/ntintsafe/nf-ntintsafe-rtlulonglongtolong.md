@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: DC1784C6-0775-46E9-A439-B522713C297C
 ms.date: 04/30/2018
 ms.keywords: RtlULongLongToLong, RtlULongLongToLong function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtolong, ntintsafe/RtlULongLongToLong
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlULongLongToLong"
 req.header: ntintsafe.h

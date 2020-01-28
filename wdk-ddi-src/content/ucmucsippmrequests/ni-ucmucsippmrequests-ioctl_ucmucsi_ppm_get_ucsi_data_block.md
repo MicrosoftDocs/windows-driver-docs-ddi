@@ -5,7 +5,6 @@ tech.root: usbref
 description: 
 ms.assetid: 8572406b-0348-4b9b-bd82-6f3d88b733ed
 ms.date: 09/30/2018
-ms.topic: ioctl
 f1_keywords:
  - "ucmucsippmrequests/IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK"
 req.header: Ucmucsippmrequests.h

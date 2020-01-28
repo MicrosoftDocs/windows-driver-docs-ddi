@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 7c4f452e-df7b-401b-a62e-20e0b2164172
 ms.date: 04/30/2018
 ms.keywords: RtlUnicodeStringValidate, RtlUnicodeStringValidate function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvalidate, ntstrsafe/RtlUnicodeStringValidate, safestrings_65cec2b6-a948-423e-b7e3-786ae2a9ab1a.xml
-ms.topic: function
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringValidate"
 req.header: ntstrsafe.h

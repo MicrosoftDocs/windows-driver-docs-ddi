@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 5BA1417B-B78B-4582-9DDC-D542413B4BD8
 ms.date: 04/20/2018
 ms.keywords: Commit, Commit method [Print Devices], Commit method [Print Devices],IPrinterScriptableStream interface, IPrinterScriptableStream interface [Print Devices],Commit method, IPrinterScriptableStream.Commit, IPrinterScriptableStream::Commit, print.iprinterscriptablestream__commit, printerextension/IPrinterScriptableStream::Commit
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterScriptableStream.Commit"
 req.header: printerextension.h

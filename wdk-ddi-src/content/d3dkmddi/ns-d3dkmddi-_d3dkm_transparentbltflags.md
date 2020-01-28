@@ -6,7 +6,6 @@ old-location: display\d3dkm_transparentbltflags.htm
 ms.assetid: 8ac87e6e-bc24-45fe-b0c5-d253dd03da16
 ms.date: 05/10/2018
 ms.keywords: D3DKM_TRANSPARENTBLTFLAGS, D3DKM_TRANSPARENTBLTFLAGS structure [Display Devices], DmStructs_7190815e-5610-4c97-823f-8bdaae16c005.xml, _D3DKM_TRANSPARENTBLTFLAGS, d3dkmddi/D3DKM_TRANSPARENTBLTFLAGS, display.d3dkm_transparentbltflags
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/D3DKM_TRANSPARENTBLTFLAGS"
 req.header: d3dkmddi.h

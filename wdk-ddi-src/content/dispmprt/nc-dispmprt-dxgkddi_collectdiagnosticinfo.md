@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: df12fb24-823a-439e-936a-bbf7079cf437
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DXGKDDI_COLLECTDIAGNOSTICINFO"
 req.header: dispmprt.h

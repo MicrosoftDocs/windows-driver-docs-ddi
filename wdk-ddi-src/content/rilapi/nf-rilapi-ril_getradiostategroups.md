@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 7143e3a1-f383-4ea8-8e97-d9d7a9089db4
 ms.date: 05/02/2018
 ms.keywords: RIL_GetRadioStateGroups, RIL_GetRadioStateGroups method [Network Drivers Starting with Windows Vista], netvista.ril_getradiostategroups, rilapi/RIL_GetRadioStateGroups
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_GetRadioStateGroups"
 req.header: rilapi.h

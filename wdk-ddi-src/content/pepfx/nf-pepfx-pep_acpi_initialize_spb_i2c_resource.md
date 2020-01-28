@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 5F1606D8-1E6F-494F-AE70-07A1EC1FEA47
 ms.date: 04/30/2018
 ms.keywords: PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE, PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_spb_i2c_resource, pepfx/PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE
-ms.topic: function
 f1_keywords:
  - "pepfx/PEP_ACPI_INITIALIZE_SPB_I2C_RESOURCE"
 req.header: pepfx.h

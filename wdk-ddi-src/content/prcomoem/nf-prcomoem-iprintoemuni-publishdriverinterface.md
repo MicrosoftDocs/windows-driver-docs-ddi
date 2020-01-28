@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 72bfa383-a7f2-4aa6-a45c-564928705e42
 ms.date: 04/20/2018
 ms.keywords: IPrintOemUni interface [Print Devices],PublishDriverInterface method, IPrintOemUni.PublishDriverInterface, IPrintOemUni::PublishDriverInterface, PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::PublishDriverInterface, print.iprintoemuni_publishdriverinterface, print_unidrv-pscript_rendering_c9525b65-4bc0-42cb-b416-7b2034581b0e.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemUni.PublishDriverInterface"
 req.header: prcomoem.h

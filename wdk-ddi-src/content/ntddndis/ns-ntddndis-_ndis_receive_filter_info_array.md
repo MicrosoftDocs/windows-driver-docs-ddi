@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 32896b46-1143-4598-ad15-2eb4dbdea6e8
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY, NDIS_RECEIVE_FILTER_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_INFO_ARRAY, PNDIS_RECEIVE_FILTER_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_INFO_ARRAY, netvista.ndis_receive_filter_info_array, ntddndis/NDIS_RECEIVE_FILTER_INFO_ARRAY, ntddndis/PNDIS_RECEIVE_FILTER_INFO_ARRAY, virtual_machine_queue_ref_f87d474d-4909-48ed-8891-7213bd4dcbc1.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddndis/NDIS_RECEIVE_FILTER_INFO_ARRAY"
 req.header: ntddndis.h

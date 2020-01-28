@@ -6,7 +6,6 @@ old-location: display\dxgk_vidpntargetmodeset_interface_pfncreatenewmodeinfo.htm
 ms.assetid: ebb37681-fa03-49f5-968b-87c9ff4ebae9
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTARGETMODESET_CREATENEWMODEINFO, DXGKDDI_VIDPNTARGETMODESET_CREATENEWMODEINFO callback, VidPnFunctions_96744b7d-68a5-4ea6-840b-eed33b627ec2.xml, d3dkmddi/pfnCreateNewModeInfo, display.dxgk_vidpntargetmodeset_interface_pfncreatenewmodeinfo, pfnCreateNewModeInfo, pfnCreateNewModeInfo callback function [Display Devices]
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

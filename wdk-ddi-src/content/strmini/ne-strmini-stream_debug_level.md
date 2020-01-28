@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 42d70c1f-5cce-4097-849d-a5aa05b669b5
 ms.date: 04/23/2018
 ms.keywords: DebugLevelError, DebugLevelFatal, DebugLevelInfo, DebugLevelMaximum, DebugLevelTrace, DebugLevelVerbose, DebugLevelWarning, STREAM_DEBUG_LEVEL, STREAM_DEBUG_LEVEL enumeration [Streaming Media Devices], ks-struct_9820cc1d-0d8b-43a8-b1a2-bca3f8a23d22.xml, stream.stream_debug_level, strmini/DebugLevelError, strmini/DebugLevelFatal, strmini/DebugLevelInfo, strmini/DebugLevelMaximum, strmini/DebugLevelTrace, strmini/DebugLevelVerbose, strmini/DebugLevelWarning, strmini/STREAM_DEBUG_LEVEL
-ms.topic: enum
 f1_keywords:
  - "strmini/STREAM_DEBUG_LEVEL"
 req.header: strmini.h

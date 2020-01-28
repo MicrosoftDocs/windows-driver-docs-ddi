@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 36f146a7-cdc2-4b88-bd9a-5008bf94c180
 ms.date: 04/30/2018
 ms.keywords: RtlInt64ToUnicodeString, RtlInt64ToUnicodeString routine [Kernel-Mode Driver Architecture], k109_b6248e50-c6e8-4c61-a9f0-83fb434bd69c.xml, kernel.rtlint64tounicodestring, wdm/RtlInt64ToUnicodeString
-ms.topic: function
 f1_keywords:
  - "wdm/RtlInt64ToUnicodeString"
 req.header: wdm.h

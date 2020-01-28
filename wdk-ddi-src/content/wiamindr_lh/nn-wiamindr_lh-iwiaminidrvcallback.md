@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: cf2460c5-325f-43c3-a1fe-5b6982234194
 ms.date: 05/03/2018
 ms.keywords: CallBack_2e94f80e-dde0-4289-8911-a769a909b4d8.xml, IWiaMiniDrvCallBack, IWiaMiniDrvCallBack interface [Imaging Devices], IWiaMiniDrvCallBack interface [Imaging Devices],described, image.iwiaminidrvcallback_interface, wiamindr_lh/IWiaMiniDrvCallBack
-ms.topic: interface
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrvCallBack"
 req.header: wiamindr_lh.h

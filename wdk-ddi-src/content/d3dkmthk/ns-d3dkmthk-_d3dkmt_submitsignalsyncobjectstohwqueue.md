@@ -6,7 +6,6 @@ old-location: display\d3dkmt_submitsignalsyncobjectstohwqueue.htm
 ms.assetid: BD192367-4960-4FD9-867F-02263AC93A61
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, display.d3dkmt_submitsignalsyncobjectstohwqueue
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE"
 req.header: d3dkmthk.h

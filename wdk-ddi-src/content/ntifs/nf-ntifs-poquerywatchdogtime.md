@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 4833d4e2-295a-4d38-9ebf-8af68eeff948
 ms.date: 04/30/2018
 ms.keywords: PoQueryWatchdogTime, PoQueryWatchdogTime routine [Kernel-Mode Driver Architecture], kernel.poquerywatchdogtime, portn_1fe369ed-f8f0-4459-943f-a624764c279b.xml, wdm/PoQueryWatchdogTime
-ms.topic: function
 f1_keywords:
  - "ntifs/PoQueryWatchdogTime"
 req.header: ntifs.h

@@ -7,7 +7,6 @@ tech.root: sensors
 ms.assetid: 0A7189A0-1375-4456-B8A5-D92E0AA74A99
 ms.date: 05/03/2018
 ms.keywords: SENSOR_CONFIG_INIT, SENSOR_CONFIG_INIT function [Sensor Devices], sensors.sensor_config_init, sensorscx/SENSOR_CONFIG_INIT
-ms.topic: function
 f1_keywords:
  - "sensorscx/SENSOR_CONFIG_INIT"
 req.header: sensorscx.h

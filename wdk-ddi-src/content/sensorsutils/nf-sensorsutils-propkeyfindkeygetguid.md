@@ -5,7 +5,6 @@ description: This routine gets a GUID value from a PROPVARIANT within a collecti
 ms.assetid: 56740950-e6d3-4f3a-83ab-546fda013b81
 ms.date: 08/08/2018
 tech.root: sensors
-ms.topic: function
 f1_keywords:
  - "sensorsutils/PropKeyFindKeyGetGuid"
 ms.keywords: PropKeyFindKeyGetGuid

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: f5ae426a-9d9d-4391-b87f-c4281dc9cadc
 ms.date: 04/23/2018
 ms.keywords: StreamClassRegisterFilterWithNoKSPins, StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices], strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml, stream.streamclassregisterfilterwithnokspins, strmini/StreamClassRegisterFilterWithNoKSPins
-ms.topic: function
 f1_keywords:
  - "strmini/StreamClassRegisterFilterWithNoKSPins"
 req.header: strmini.h

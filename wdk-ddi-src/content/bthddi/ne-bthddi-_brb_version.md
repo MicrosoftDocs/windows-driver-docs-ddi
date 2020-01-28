@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 2bd4f3f6-94a4-47a6-8c15-a8f9bef5d2b5
 ms.date: 04/27/2018
 ms.keywords: BLUETOOTH_V1, BLUETOOTH_V2, BRB_VERSION, BRB_VERSION Enumeration, BRB_VERSION enumeration [Bluetooth Devices], _BRB_VERSION, bltooth.brb_version, bth_enums_d14431ac-24e9-4a27-90b9-a8aef7e38769.xml, bthddi/BLUETOOTH_V1, bthddi/BLUETOOTH_V2, bthddi/BRB_VERSION
-ms.topic: enum
 f1_keywords:
  - "bthddi/BRB_VERSION"
 req.header: bthddi.h

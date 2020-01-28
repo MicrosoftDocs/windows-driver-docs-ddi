@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 26b2521c-7008-437d-aed3-3ed2be5d5959
 ms.date: 05/02/2018
 ms.keywords: "*LPRILRADIOSTATEITEMS, RILRADIOSTATEITEMS, RILRADIOSTATEITEMS structure [Network Drivers Starting with Windows Vista], netvista.rilradiostateitems, ntddrilapitypes/RILRADIOSTATEITEMS"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILRADIOSTATEITEMS"
 req.header: ntddrilapitypes.h

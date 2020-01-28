@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 367D8BC1-07F4-474E-913A-5F825320A70C
 ms.date: 04/16/2018
 ms.keywords: RtlInitializeSidEx, RtlInitializeSidEx routine [Installable File System Drivers], ifsk.rtlinitializesidex, ntifs/RtlInitializeSidEx
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlInitializeSidEx"
 req.header: ntifs.h

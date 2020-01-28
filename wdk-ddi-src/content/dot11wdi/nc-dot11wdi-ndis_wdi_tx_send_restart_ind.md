@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 40976CC1-89A4-420F-867F-99F857670DAE
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_TX_SEND_RESTART_IND, NDIS_WDI_TX_SEND_RESTART_IND callback, NdisWdiTxSendRestartIndication, NdisWdiTxSendRestartIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendRestartIndication, netvista.ndiswditxsendrestartindication
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/NdisWdiTxSendRestartIndication"
 req.header: dot11wdi.h

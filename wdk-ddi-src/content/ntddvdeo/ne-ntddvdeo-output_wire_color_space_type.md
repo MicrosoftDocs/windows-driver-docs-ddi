@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 9dbddd1f-ca06-43f1-853b-43fc7a6290b1
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: enum
 f1_keywords:
  - "ntddvdeo/OUTPUT_WIRE_COLOR_SPACE_TYPE"
 ms.keywords: OUTPUT_WIRE_COLOR_SPACE_TYPE, OUTPUT_WIRE_COLOR_SPACE_TYPE, 

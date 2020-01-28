@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 82951291-cf3e-486b-ad0e-f347fefe0370
 ms.date: 05/10/2018
 ms.keywords: HwVidStartIO, HwVidStartIO callback function [Display Devices], PVIDEO_HW_START_IO, PVIDEO_HW_START_IO callback, VideoMiniport_Functions_5dd4317e-f80d-4f93-86b5-b7c83aca2546.xml, display.hwvidstartio, video/HwVidStartIO
-ms.topic: callback
 f1_keywords:
  - "video/HwVidStartIO"
 req.header: video.h

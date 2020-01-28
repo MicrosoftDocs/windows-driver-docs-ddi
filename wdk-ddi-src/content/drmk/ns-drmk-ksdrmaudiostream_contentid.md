@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: d11be514-2a45-407e-884a-66f6f503f57a
 ms.date: 05/08/2018
 ms.keywords: "*PKSDRMAUDIOSTREAM_CONTENTID, KSDRMAUDIOSTREAM_CONTENTID, KSDRMAUDIOSTREAM_CONTENTID structure [Audio Devices], PKSDRMAUDIOSTREAM_CONTENTID, PKSDRMAUDIOSTREAM_CONTENTID structure pointer [Audio Devices], aud-prop_451e4ef3-53c7-4be2-a59c-efd34633c007.xml, audio.ksdrmaudiostream_contentid, drmk/KSDRMAUDIOSTREAM_CONTENTID, drmk/PKSDRMAUDIOSTREAM_CONTENTID"
-ms.topic: struct
 f1_keywords:
  - "drmk/KSDRMAUDIOSTREAM_CONTENTID"
 req.header: drmk.h

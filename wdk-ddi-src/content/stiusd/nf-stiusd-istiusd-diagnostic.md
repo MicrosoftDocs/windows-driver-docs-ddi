@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: bf99c34e-5a71-4f2b-8dca-bed87d18b352
 ms.date: 05/03/2018
 ms.keywords: Diagnostic, Diagnostic method [Imaging Devices], Diagnostic method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],Diagnostic method, IStiUSD.Diagnostic, IStiUSD::Diagnostic, image.istiusd_diagnostic, stifnc_07917e25-965a-4a7e-82af-1cfef09d6748.xml, stiusd/IStiUSD::Diagnostic
-ms.topic: method
 f1_keywords:
  - "stiusd/IStiUSD.Diagnostic"
 req.header: stiusd.h

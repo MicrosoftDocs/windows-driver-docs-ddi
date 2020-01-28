@@ -5,7 +5,6 @@ description: Determines the size of the user-mode display driver's private regio
 tech.root: display
 ms.assetid: 9bae8daf-8162-42cf-8087-6ace5f910cbd
 ms.date: 11/28/2018
-ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

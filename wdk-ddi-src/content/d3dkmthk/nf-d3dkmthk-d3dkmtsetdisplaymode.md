@@ -6,7 +6,6 @@ old-location: display\d3dkmtsetdisplaymode.htm
 ms.assetid: bf51b8dc-82e8-420e-bc3d-7cb9e8d72b9f
 ms.date: 05/10/2018
 ms.keywords: D3DKMTSetDisplayMode, D3DKMTSetDisplayMode function [Display Devices], OpenGL_Functions_dc92e1c9-5873-42b6-a8f8-f6827091dac4.xml, d3dkmthk/D3DKMTSetDisplayMode, display.d3dkmtsetdisplaymode
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTSetDisplayMode"
 req.header: d3dkmthk.h

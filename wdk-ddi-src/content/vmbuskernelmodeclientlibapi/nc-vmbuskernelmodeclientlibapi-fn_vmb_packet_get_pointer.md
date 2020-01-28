@@ -5,7 +5,6 @@ description: The VmbPacketGetPointer function retrieves a pointer that was previ
 tech.root: netvista
 ms.assetid: 51c40032-5700-49d8-ba21-a03739e9dd3b
 ms.date: 05/22/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_GET_POINTER"
 req.header: vmbuskernelmodeclientlibapi.h

@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 072dcb92-8202-4a45-ba1c-7bb1403029c9
 ms.author: windowsdriverdev
 ms.date: 08/23/2019
-ms.topic: struct
 f1_keywords:
  - "ntddstor/_DEVICE_DSM_CONVERSION_OUTPUT"
 ms.keywords: DEVICE_DSM_CONVERSION_OUTPUT, DEVICE_DSM_CONVERSION_OUTPUT, *PDEVICE_DSM_CONVERSION_OUTPUT, 

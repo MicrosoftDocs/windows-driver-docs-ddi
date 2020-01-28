@@ -4,7 +4,6 @@ title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053 (d3d12umddi.h)
 description: Specifies the resources needed to start a Render Pass.
 ms.assetid: 7b1f8655-46af-44a7-9597-15b2f6531bc0
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053"
 ms.keywords: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053, D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053, 

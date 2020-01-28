@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: bc984f10-8eae-45f7-9ab0-637b35e57e3c
 ms.date: 04/23/2018
 ms.keywords: "*PKS_DATAFORMAT_VIDEOINFO_PALETTE, KS_DATAFORMAT_VIDEOINFO_PALETTE, KS_DATAFORMAT_VIDEOINFO_PALETTE structure [Streaming Media Devices], PKS_DATAFORMAT_VIDEOINFO_PALETTE, PKS_DATAFORMAT_VIDEOINFO_PALETTE structure pointer [Streaming Media Devices], ksmedia/KS_DATAFORMAT_VIDEOINFO_PALETTE, ksmedia/PKS_DATAFORMAT_VIDEOINFO_PALETTE, stream.ks_dataformat_videoinfo_palette, tagKS_DATAFORMAT_VIDEOINFO_PALETTE, vidcapstruct_1c005432-ed48-43fb-b866-387903e45b93.xml"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KS_DATAFORMAT_VIDEOINFO_PALETTE"
 req.header: ksmedia.h

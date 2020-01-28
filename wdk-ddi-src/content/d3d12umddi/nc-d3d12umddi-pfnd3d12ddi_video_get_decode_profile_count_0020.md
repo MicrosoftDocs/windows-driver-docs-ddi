@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_video_get_decode_profile_count.htm
 ms.assetid: 81B31232-5207-46AF-952C-252E2512521F
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_VIDEO_GET_DECODE_PROFILE_COUNT_0020, PFND3D12DDI_VIDEO_GET_DECODE_PROFILE_COUNT_0020 callback, d3d12umddi/pfnGetDecodeProfileCount, display.pfnd3d12ddi_video_get_decode_profile_count, pfnGetDecodeProfileCount, pfnGetDecodeProfileCount callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/pfnGetDecodeProfileCount"
 req.header: d3d12umddi.h

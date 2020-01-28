@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: f0955e88-df80-4f53-bc5f-5a38a840aab4
 ms.date: 04/27/2018
 ms.keywords: IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH, IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH control, IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_service_attribute_search, bth_ioctls_73db8572-0986-4ac7-a76c-4cb3777c0660.xml, bthioctl/IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH
-ms.topic: ioctl
 f1_keywords:
  - "bthioctl/IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH"
 req.header: bthioctl.h

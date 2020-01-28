@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 8919e2d1-0c39-46b6-b06e-83fe61f67751
 ms.date: 04/20/2018
 ms.keywords: IFixedDocumentSequence, IFixedDocumentSequence interface [Print Devices], IFixedDocumentSequence interface [Print Devices],described, filterpipeline/IFixedDocumentSequence, filterpipeline_ed0de3e6-e4c7-43e6-a6cf-c16d3a086838.xml, print.ifixeddocumentsequence
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IFixedDocumentSequence"
 req.header: filterpipeline.h

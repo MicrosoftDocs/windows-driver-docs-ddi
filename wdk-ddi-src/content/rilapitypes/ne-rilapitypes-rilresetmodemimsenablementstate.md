@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 50fae043-3575-4eff-869a-fae94168a4a1
 ms.date: 05/02/2018
 ms.keywords: RILRESETMODEMIMSENABLEMENTSTATE, RILRESETMODEMIMSENABLEMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEM_ENABLED, netvista.rilresetmodemimsenablementstate, ntddrilapitypes/RILRESETMODEMIMSENABLEMENTSTATE, ntddrilapitypes/RIL_RESETMODEM_ENABLED
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILRESETMODEMIMSENABLEMENTSTATE"
 req.header: rilapitypes.h

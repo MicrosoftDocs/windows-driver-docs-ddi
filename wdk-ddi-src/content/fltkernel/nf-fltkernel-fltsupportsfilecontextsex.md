@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 42401474-ea2d-441f-ad70-bd95544933ac
 ms.date: 05/29/2019
 ms.keywords: FltApiRef_p_to_z_3e8b5485-5c61-4405-9c5d-7d7c966f0478.xml, FltSupportsFileContextsEx, FltSupportsFileContextsEx routine [Installable File System Drivers], fltkernel/FltSupportsFileContextsEx, ifsk.fltsupportsfilecontextsex
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltSupportsFileContextsEx"
 req.header: fltkernel.h

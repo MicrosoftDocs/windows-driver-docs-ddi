@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 65e57147-f8a1-4b9b-b856-51f89bcba149
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_9a31e96a-4cb1-43ea-b429-591f820838d8.xml, WDF_REQUEST_SEND_OPTIONS_INIT, WDF_REQUEST_SEND_OPTIONS_INIT function, kmdf.wdf_request_send_options_init, wdf.wdf_request_send_options_init, wdfrequest/WDF_REQUEST_SEND_OPTIONS_INIT
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WDF_REQUEST_SEND_OPTIONS_INIT"
 req.header: wdfrequest.h

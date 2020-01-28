@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 63081b07-add8-49fc-b12d-6aa5c43356ce
 ms.date: 04/23/2018
 ms.keywords: KsPinAttachAndGate, KsPinAttachAndGate function [Streaming Media Devices], avfunc_395e0cf9-ba21-4b20-a37b-7758d1bfeca0.xml, ks/KsPinAttachAndGate, stream.kspinattachandgate
-ms.topic: function
 f1_keywords:
  - "ks/KsPinAttachAndGate"
 req.header: ks.h

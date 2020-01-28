@@ -5,7 +5,6 @@ description: The DeviceDsmGetOutputLength function gets the length, in bytes, of
 tech.root: storage
 ms.assetid: deb9e6b6-d744-4c3a-a6f4-d1b452401a08
 ms.date: 08/23/2019
-ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmGetOutputLength"
 ms.keywords: DeviceDsmGetOutputLength

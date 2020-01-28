@@ -4,7 +4,6 @@ title: PFND3DWDDM2_4DDI_VIDEODECODERSUBMITBUFFERS (d3d10umddi.h)
 description: Submits one or more video frame buffers for DirectX Video Acceleration (DXVA) decoding.
 ms.assetid: c5e55baf-a822-42ce-ac97-830873b75da0
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: 
 req.target-type: 

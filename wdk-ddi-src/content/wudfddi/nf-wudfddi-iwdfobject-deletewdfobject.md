@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: a777b8df-e255-402a-aa55-14e5861b215f
 ms.date: 02/26/2018
 ms.keywords: DeleteWdfObject, DeleteWdfObject method, DeleteWdfObject method,IWDFObject interface, IWDFObject interface,DeleteWdfObject method, IWDFObject.DeleteWdfObject, IWDFObject::DeleteWdfObject, UMDFBaseObjectRef_e8c4d75a-eed6-4da3-9cce-79d863a01cd6.xml, umdf.iwdfobject_deletewdfobject, wdf.iwdfobject_deletewdfobject, wudfddi/IWDFObject::DeleteWdfObject
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFObject.DeleteWdfObject"
 req.header: wudfddi.h

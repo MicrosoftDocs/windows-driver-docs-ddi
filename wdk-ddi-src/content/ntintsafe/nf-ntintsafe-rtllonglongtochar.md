@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: E69889FC-11EF-4C49-A550-7C9C9FE1FDA7
 ms.date: 04/30/2018
 ms.keywords: RtlLongLongToChar, RtlLongLongToChar function [Kernel-Mode Driver Architecture], kernel.rtllonglongtochar, ntintsafe/RtlLongLongToChar
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlLongLongToChar"
 req.header: ntintsafe.h

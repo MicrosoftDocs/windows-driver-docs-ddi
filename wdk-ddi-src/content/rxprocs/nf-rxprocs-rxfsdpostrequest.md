@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 0b1bc248-6b8e-498c-936d-64f6ff9fa183
 ms.date: 04/16/2018
 ms.keywords: RxFsdPostRequest, RxFsdPostRequest function [Installable File System Drivers], ifsk.rxfsdpostrequest, rxprocs/RxFsdPostRequest, rxref_ceb83e58-1e5a-49d0-b281-50cd5067e09f.xml
-ms.topic: function
 f1_keywords:
  - "rxprocs/RxFsdPostRequest"
 req.header: rxprocs.h

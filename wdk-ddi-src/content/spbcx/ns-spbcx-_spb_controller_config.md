@@ -7,7 +7,6 @@ tech.root: SPB
 ms.assetid: 73856669-ACE9-46B0-AC7A-282D9C8A0285
 ms.date: 04/30/2018
 ms.keywords: "*PSPB_CONTROLLER_CONFIG, PSPB_CONTROLLER_CONFIG, PSPB_CONTROLLER_CONFIG structure pointer [Buses], SPB.spb_controller_config, SPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG structure [Buses], _SPB_CONTROLLER_CONFIG, spbcx/PSPB_CONTROLLER_CONFIG, spbcx/SPB_CONTROLLER_CONFIG"
-ms.topic: struct
 f1_keywords:
  - "spbcx/SPB_CONTROLLER_CONFIG"
 req.header: spbcx.h

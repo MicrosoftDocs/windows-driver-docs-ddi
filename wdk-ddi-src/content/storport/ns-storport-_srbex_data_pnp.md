@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: CB64AF68-C40D-44F0-8F52-6BF05E23E5E1
 ms.date: 03/29/2018
 ms.keywords: "*PSRBEX_DATA_PNP, PSRBEX_DATA_PNP, PSRBEX_DATA_PNP structure pointer [Storage Devices], SRBEX_DATA_PNP, SRBEX_DATA_PNP structure [Storage Devices], StorFilterResourceRequirements, StorQueryCapabilities, StorQueryResourceRequirements, StorRemoveDevice, StorStartDevice, StorStopDevice, StorSupriseRemoval, _SRBEX_DATA_PNP, storage.srbex_data_pnp, storport/PSRBEX_DATA_PNP, storport/SRBEX_DATA_PNP"
-ms.topic: struct
 f1_keywords:
  - "storport/SRBEX_DATA_PNP"
 req.header: storport.h

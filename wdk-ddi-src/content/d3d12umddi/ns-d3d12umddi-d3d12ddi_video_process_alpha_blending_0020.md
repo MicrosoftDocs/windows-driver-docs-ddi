@@ -6,7 +6,6 @@ old-location: display\d3d12ddi_video_process_alpha_blending.htm
 ms.assetid: 58E7A600-1CA9-40F8-8F37-CA7A0834B3F4
 ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020, D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020, display.d3d12ddi_video_process_alpha_blending
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING_0020"
 req.header: d3d12umddi.h

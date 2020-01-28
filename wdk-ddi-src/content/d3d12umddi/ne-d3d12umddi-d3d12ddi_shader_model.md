@@ -4,7 +4,6 @@ title: D3D12DDI_SHADER_MODEL (d3d12umddi.h)
 description: Specifies the Shader Model.
 ms.assetid: 2bfe0ac6-1de4-482d-9f15-8a5407fbb8a7
 ms.date: 10/19/2018
-ms.topic: enum
 f1_keywords:
  - "d3d12umddi/D3D12DDI_SHADER_MODEL"
 ms.keywords: D3D12DDI_SHADER_MODEL, D3D12DDI_SHADER_MODEL,

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: e8423c27-d3eb-4bef-a835-37fae0e2b68c
 ms.date: 10/28/2019
 ms.keywords: FWPS_CALLOUT_CLASSIFY_FN0, FWPS_CALLOUT_CLASSIFY_FN0 callback, classifyFn0, classifyFn0 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn0, netvista.classifyfn0, wfp_ref_2_funct_4_callout_402ad3d3-74db-4024-8dcb-50459ab669c7.xml
-ms.topic: callback
 f1_keywords:
  - "fwpsk/classifyFn0"
 req.header: fwpsk.h

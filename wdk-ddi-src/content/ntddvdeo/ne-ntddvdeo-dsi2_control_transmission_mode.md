@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: cebd9ace-6678-4fdf-a12d-0685772aae3c
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: enum
 f1_keywords:
  - "ntddvdeo/DSI2_CONTROL_TRANSMISSION_MODE"
 ms.keywords: DSI2_CONTROL_TRANSMISSION_MODE, DSI2_CONTROL_TRANSMISSION_MODE, 

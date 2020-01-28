@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: d645867c-3264-45ae-b0bd-4d21e388fb97
 ms.date: 01/19/2018
 ms.keywords: ExtRemoteData class [Windows Debugging], described, ExtRemoteData::SetChar, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, Clear, debugger.extremotedata, ExtRemoteData class [Windows Debugging], ExtRemoteData::SetData, ExtRemoteData, engextcpp/ExtRemoteData, SetChar, ExtRemoteData::SetBoolean, ExtRemoteData::Clear, SetData, SetBoolean
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteData"
 req.header: engextcpp.hpp

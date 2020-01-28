@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: EAFC6B53-98E9-46A4-9D45-56B0A32993B1
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceOpenDevicemapKey, WdfDeviceOpenDevicemapKey method, wdf.wdfdeviceopendevicemapkey, wdfdevice/WdfDeviceOpenDevicemapKey
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceOpenDevicemapKey"
 req.header: wdfdevice.h

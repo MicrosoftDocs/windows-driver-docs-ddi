@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 3369feeb-cbb9-4938-8dfd-0160ba4fefdf
 ms.date: 05/02/2018
 ms.keywords: "*LPRILMESSAGESTORAGEFULL, RILMESSAGESTORAGEFULL, RILMESSAGESTORAGEFULL structure [Network Drivers Starting with Windows Vista], netvista.rilmessagestoragefull, ntddrilapitypes/RILMESSAGESTORAGEFULL"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILMESSAGESTORAGEFULL"
 req.header: rilapitypes.h

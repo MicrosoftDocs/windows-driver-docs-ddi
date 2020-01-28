@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: D211CB5B-9FE6-4829-950D-F7DDD1A00F76
 ms.date: 04/30/2018
 ms.keywords: FlushAdapterBuffersEx, FlushAdapterBuffersEx callback function [Kernel-Mode Driver Architecture], PFLUSH_ADAPTER_BUFFERS_EX, PFLUSH_ADAPTER_BUFFERS_EX callback, kernel.flushadapterbuffersex, wdm/FlushAdapterBuffersEx
-ms.topic: callback
 f1_keywords:
  - "wdm/FlushAdapterBuffersEx"
 req.header: wdm.h

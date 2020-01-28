@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 87fbceab-d08c-4da7-a257-1454f84c04b7
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_7efacd41-7c8c-4832-b10a-cc7d3dac8982.xml, WdfDeviceSetFailed, WdfDeviceSetFailed method, kmdf.wdfdevicesetfailed, wdf.wdfdevicesetfailed, wdfdevice/WdfDeviceSetFailed
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceSetFailed"
 req.header: wdfdevice.h

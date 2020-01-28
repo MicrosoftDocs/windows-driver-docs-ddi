@@ -6,7 +6,6 @@ old-location: display\calcprivateauthenticatedchannelsize.htm
 ms.assetid: f22dee75-a7e3-4ad4-a0d1-584adff3230e
 ms.date: 05/10/2018
 ms.keywords: CalcPrivateAuthenticatedChannelSize, CalcPrivateAuthenticatedChannelSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEAUTHENTICATEDCHANNELSIZE, PFND3D11_1DDI_CALCPRIVATEAUTHENTICATEDCHANNELSIZE callback, d3d10umddi/CalcPrivateAuthenticatedChannelSize, display.calcprivateauthenticatedchannelsize
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/CalcPrivateAuthenticatedChannelSize"
 req.header: d3d10umddi.h

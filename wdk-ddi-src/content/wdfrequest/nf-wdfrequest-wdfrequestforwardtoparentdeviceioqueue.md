@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 81511d81-206c-420b-a956-42cf68b57fc4
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_0bfa4a8a-7b79-4256-84df-5bdabfff234b.xml, WdfRequestForwardToParentDeviceIoQueue, WdfRequestForwardToParentDeviceIoQueue method, kmdf.wdfrequestforwardtoparentdeviceioqueue, wdf.wdfrequestforwardtoparentdeviceioqueue, wdfrequest/WdfRequestForwardToParentDeviceIoQueue
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WdfRequestForwardToParentDeviceIoQueue"
 req.header: wdfrequest.h

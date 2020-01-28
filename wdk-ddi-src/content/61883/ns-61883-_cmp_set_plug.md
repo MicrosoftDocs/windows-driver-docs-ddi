@@ -7,7 +7,6 @@ tech.root: IEEE
 ms.assetid: 2C47165D-9D04-46C8-A1EC-04E6F32AE516
 ms.date: 02/15/2018
 ms.keywords: "*PCMP_SET_PLUG, 61883/CMP_SET_PLUG, 61883/PCMP_SET_PLUG, CMP_SET_PLUG, CMP_SET_PLUG structure [Buses], IEEE.cmp_set_plug, PCMP_SET_PLUG, PCMP_SET_PLUG structure pointer [Buses], _CMP_SET_PLUG"
-ms.topic: struct
 f1_keywords:
  - "61883/CMP_SET_PLUG"
 req.header: 61883.h

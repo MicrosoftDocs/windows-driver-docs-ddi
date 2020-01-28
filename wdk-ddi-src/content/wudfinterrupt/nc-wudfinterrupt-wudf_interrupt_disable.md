@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 3ADBD4C2-075E-4988-BF13-EB0C3E0C02BF
 ms.date: 02/26/2018
 ms.keywords: OnInterruptDisable, OnInterruptDisable callback function, WUDF_INTERRUPT_DISABLE, WUDF_INTERRUPT_DISABLE callback, umdf.oninterruptdisable, wdf.oninterruptdisable, wudfinterrupt/OnInterruptDisable
-ms.topic: callback
 f1_keywords:
  - "wudfinterrupt/OnInterruptDisable"
 req.header: wudfinterrupt.h

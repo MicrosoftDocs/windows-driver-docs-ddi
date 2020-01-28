@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 70b406f8-d9ac-4882-89bc-e257cbe06921
 ms.date: 05/10/2018
 ms.keywords: VideoPortStallExecution, VideoPortStallExecution function [Display Devices], VideoPort_Functions_bda7e25d-a636-4ceb-ae47-c74435f9483a.xml, display.videoportstallexecution, video/VideoPortStallExecution
-ms.topic: function
 f1_keywords:
  - "video/VideoPortStallExecution"
 req.header: video.h

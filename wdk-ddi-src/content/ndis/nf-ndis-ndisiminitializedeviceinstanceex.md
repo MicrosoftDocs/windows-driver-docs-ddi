@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: f65c2974-4bf4-4948-ac07-527e69c96303
 ms.date: 05/02/2018
 ms.keywords: NdisIMInitializeDeviceInstanceEx, NdisIMInitializeDeviceInstanceEx function [Network Drivers Starting with Windows Vista], intermediate_ref_37fbd7e8-287e-49dc-8de5-6b438a305804.xml, ndis/NdisIMInitializeDeviceInstanceEx, netvista.ndisiminitializedeviceinstanceex
-ms.topic: function
 f1_keywords:
  - "ndis/NdisIMInitializeDeviceInstanceEx"
 req.header: ndis.h

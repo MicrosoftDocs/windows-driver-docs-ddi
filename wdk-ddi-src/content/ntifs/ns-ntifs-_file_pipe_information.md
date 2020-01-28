@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: d38b9f36-27f1-47f1-a469-18ddb6f5b2c1
 ms.date: 04/16/2018
 ms.keywords: "*PFILE_PIPE_INFORMATION, FILE_PIPE_INFORMATION, FILE_PIPE_INFORMATION structure [Installable File System Drivers], PFILE_PIPE_INFORMATION, PFILE_PIPE_INFORMATION structure pointer [Installable File System Drivers], _FILE_PIPE_INFORMATION, ifsk.file_pipe_information, ntifs/FILE_PIPE_INFORMATION, ntifs/PFILE_PIPE_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "ntifs/FILE_PIPE_INFORMATION"
 req.header: ntifs.h

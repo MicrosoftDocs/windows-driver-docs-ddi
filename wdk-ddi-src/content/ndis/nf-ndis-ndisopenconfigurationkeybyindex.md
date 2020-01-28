@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: e405853a-cf25-4214-82a9-bc3d76334413
 ms.date: 05/02/2018
 ms.keywords: NdisOpenConfigurationKeyByIndex, NdisOpenConfigurationKeyByIndex function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationKeyByIndex, ndis_configuration_ref_71c37932-c758-475c-9c84-c176c6c40cf8.xml, netvista.ndisopenconfigurationkeybyindex
-ms.topic: function
 f1_keywords:
  - "ndis/NdisOpenConfigurationKeyByIndex"
 req.header: ndis.h

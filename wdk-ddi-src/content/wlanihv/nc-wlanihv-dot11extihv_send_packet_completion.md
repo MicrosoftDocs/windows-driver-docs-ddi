@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 117a9806-95a0-4f2f-8280-fec035df2811
 ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_SEND_PACKET_COMPLETION, Dot11ExtIhvSendPacketCompletion, Dot11ExtIhvSendPacketCompletion callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_c0d3f967-28a9-4242-9a4b-2faed66ae5b1.xml, netvista.dot11extihvsendpacketcompletion, wlanihv/Dot11ExtIhvSendPacketCompletion
-ms.topic: callback
 f1_keywords:
  - "wlanihv/Dot11ExtIhvSendPacketCompletion"
 req.header: wlanihv.h

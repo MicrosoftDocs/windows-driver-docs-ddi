@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 9470e4a6-eee4-4a73-80b0-3d45f9d79934
 ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_d7399240-2da3-418f-b21b-8a441e7923d4.xml, WdfDmaTransactionCreate, WdfDmaTransactionCreate method, kmdf.wdfdmatransactioncreate, wdf.wdfdmatransactioncreate, wdfdmatransaction/WdfDmaTransactionCreate
-ms.topic: function
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionCreate"
 req.header: wdfdmatransaction.h

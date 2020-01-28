@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 6AA5AA6F-DC73-40E6-8EE0-CAA91D89A0E8
 ms.date: 02/26/2018
 ms.keywords: IPnpCallbackHardwareInterrupt interface,OnD0EntryPostInterruptsEnabled method, IPnpCallbackHardwareInterrupt.OnD0EntryPostInterruptsEnabled, IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled, OnD0EntryPostInterruptsEnabled, OnD0EntryPostInterruptsEnabled method, OnD0EntryPostInterruptsEnabled method,IPnpCallbackHardwareInterrupt interface, umdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, wdf.ipnpcallbackhardwareinterrupt_ond0entrypostinterruptsenabled, wudfddi/IPnpCallbackHardwareInterrupt::OnD0EntryPostInterruptsEnabled
-ms.topic: method
 f1_keywords:
  - "wudfddi/IPnpCallbackHardwareInterrupt.OnD0EntryPostInterruptsEnabled"
 req.header: wudfddi.h

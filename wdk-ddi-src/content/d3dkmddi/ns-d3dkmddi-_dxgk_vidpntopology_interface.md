@@ -6,7 +6,6 @@ old-location: display\dxgk_vidpntopology_interface.htm
 ms.assetid: 293103cc-217c-4dcb-82c1-971adba564a0
 ms.date: 10/30/2018
 ms.keywords: DXGK_VIDPNTOPOLOGY_INTERFACE, DXGK_VIDPNTOPOLOGY_INTERFACE structure [Display Devices], DmStructs_6e2f92a1-beaa-4485-bb27-aff719a693b4.xml, _DXGK_VIDPNTOPOLOGY_INTERFACE, d3dkmddi/DXGK_VIDPNTOPOLOGY_INTERFACE, display.dxgk_vidpntopology_interface
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_VIDPNTOPOLOGY_INTERFACE"
 req.header: d3dkmddi.h

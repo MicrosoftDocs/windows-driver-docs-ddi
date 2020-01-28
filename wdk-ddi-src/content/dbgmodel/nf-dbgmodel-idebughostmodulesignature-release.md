@@ -4,7 +4,6 @@ title: IDebugHostModuleSignature::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 559e4079-a1bb-4d53-abfb-4d35789bf5a9
 ms.date: 09/18/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDebugHostModuleSignature.Release"
 ms.keywords: IDebugHostModuleSignature::Release, Release, IDebugHostModuleSignature.Release, IDebugHostModuleSignature::Release, IDebugHostModuleSignature.Release

@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: 44218c04-7f32-4e88-830a-8341b903a6c5
 ms.date: 02/15/2018
 ms.keywords: WPD_FOCUS_METERING_MODES, WPD_FOCUS_METERING_MODES enumeration, WPD_FOCUS_METERING_MODE_CENTER_SPOT, WPD_FOCUS_METERING_MODE_MULTI_SPOT, WPD_FOCUS_METERING_MODE_UNDEFINED, enumeration, portabledevice/WPD_FOCUS_METERING_MODES, portabledevice/WPD_FOCUS_METERING_MODE_CENTER_SPOT, portabledevice/WPD_FOCUS_METERING_MODE_MULTI_SPOT, portabledevice/WPD_FOCUS_METERING_MODE_UNDEFINED, tagWPD_FOCUS_METERING_MODES, wpddk.wpd_focus_metering_modes
-ms.topic: enum
 f1_keywords:
  - "portabledevice/WPD_FOCUS_METERING_MODES"
 req.header: portabledevice.h

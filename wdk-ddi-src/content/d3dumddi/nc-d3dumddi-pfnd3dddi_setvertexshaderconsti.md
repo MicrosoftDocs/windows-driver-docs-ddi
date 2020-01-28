@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c245cfbd-0368-4a49-96a7-ac4cd14e2f5a
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETVERTEXSHADERCONSTI, PFND3DDDI_SETVERTEXSHADERCONSTI callback, SetVertexShaderConstI, SetVertexShaderConstI callback function [Display Devices], UserModeDisplayDriver_Functions_2cbf7e0b-a910-4072-a016-33a602fc0e95.xml, d3dumddi/SetVertexShaderConstI, display.setvertexshaderconsti
-ms.topic: callback
 f1_keywords:
  - "d3dumddi/SetVertexShaderConstI"
 req.header: d3dumddi.h

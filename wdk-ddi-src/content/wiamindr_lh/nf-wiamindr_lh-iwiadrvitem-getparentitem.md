@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: e6197993-b998-424e-ab5d-a91a57c7398c
 ms.date: 05/03/2018
 ms.keywords: DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, GetParentItem, GetParentItem method [Imaging Devices], GetParentItem method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetParentItem method, IWiaDrvItem.GetParentItem, IWiaDrvItem::GetParentItem, image.iwiadrvitem_getparentitem, wiamindr_lh/IWiaDrvItem::GetParentItem
-ms.topic: method
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.GetParentItem"
 req.header: wiamindr_lh.h

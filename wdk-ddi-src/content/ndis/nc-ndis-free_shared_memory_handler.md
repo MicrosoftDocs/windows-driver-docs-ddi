@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: fdc3dfe7-6980-493d-ad41-aed501db3a6b
 ms.date: 05/02/2018
 ms.keywords: FREE_SHARED_MEMORY_HANDLER, FREE_SHARED_MEMORY_HANDLER callback, NetFreeSharedMemory, NetFreeSharedMemory callback function [Network Drivers Starting with Windows Vista], ndis/NetFreeSharedMemory, ndis_shared_memory_ref_15b5aca1-e5be-4063-812f-9d98a4e72cd4.xml, netvista.netfreesharedmemory
-ms.topic: callback
 f1_keywords:
  - "ndis/NetFreeSharedMemory"
 req.header: ndis.h

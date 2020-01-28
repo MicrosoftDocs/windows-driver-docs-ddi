@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 4a70c0a7-9de7-48ed-a678-64832f078018
 ms.date: 04/20/2018
 ms.keywords: IPrintOemUIMXDC, IPrintOemUIMXDC interface [Print Devices], IPrintOemUIMXDC interface [Print Devices],described, prcomoem/IPrintOemUIMXDC, print.iprintoemuimxdc_interface, print_unidrv-pscript_ui_120354fc-1e37-41c9-b273-c28fde18079f.xml
-ms.topic: interface
 f1_keywords:
  - "prcomoem/IPrintOemUIMXDC"
 req.header: prcomoem.h

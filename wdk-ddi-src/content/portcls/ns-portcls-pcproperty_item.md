@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: aec5b9df-22cc-4ef8-8d09-103124ab357c
 ms.date: 05/08/2018
 ms.keywords: "*PPCPROPERTY_ITEM, PCPROPERTY_ITEM, PCPROPERTY_ITEM structure [Audio Devices], PPCPROPERTY_ITEM, PPCPROPERTY_ITEM structure pointer [Audio Devices], audio.pcproperty_item, audpc-struct_6d95504b-3ecc-47dc-b98f-b6ebfa40d749.xml, portcls/PCPROPERTY_ITEM, portcls/PPCPROPERTY_ITEM"
-ms.topic: struct
 f1_keywords:
  - "portcls/PCPROPERTY_ITEM"
 req.header: portcls.h

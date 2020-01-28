@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 9ff62523-e9e3-4f32-802f-6fee0082d925
 ms.date: 05/07/2018
 ms.keywords: "_URB_OS_FEATURE_DESCRIPTOR_REQUEST, _URB_OS_FEATURE_DESCRIPTOR_REQUEST structure [Buses], buses._urb_os_feature_descriptor_request, usb/_URB_OS_FEATURE_DESCRIPTOR_REQUEST"
-ms.topic: struct
 f1_keywords:
  - "usb/_URB_OS_FEATURE_DESCRIPTOR_REQUEST"
 req.header: usb.h

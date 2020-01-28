@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 5838984e-4df8-4bda-ae31-92c56d699e1b
 ms.author: windowsdriverdev
 ms.date: 09/30/2019
-ms.topic: function
 f1_keywords:
  - "netpoweroffload/NET_POWER_OFFLOAD_NS_PARAMETERS_INIT"
 ms.keywords: NET_POWER_OFFLOAD_NS_PARAMETERS_INIT

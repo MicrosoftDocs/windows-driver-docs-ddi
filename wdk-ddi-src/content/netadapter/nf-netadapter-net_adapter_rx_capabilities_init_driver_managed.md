@@ -5,7 +5,6 @@ description: The NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED method initiali
 tech.root: netvista
 ms.assetid: d3b29896-25ef-4d96-99db-799408fb207f
 ms.date: 02/14/2018
-ms.topic: function
 f1_keywords:
  - "netadapter/NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED"
 ms.keywords: NET_ADAPTER_RX_CAPABILITIES_INIT_DRIVER_MANAGED

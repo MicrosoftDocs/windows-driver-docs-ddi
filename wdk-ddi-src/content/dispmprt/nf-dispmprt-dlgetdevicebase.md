@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 5d64fca7-23ed-4bf0-9a81-fdbced013728
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: function
 f1_keywords:
  - "dispmprt/DlGetDeviceBase"
 ms.keywords: DlGetDeviceBase

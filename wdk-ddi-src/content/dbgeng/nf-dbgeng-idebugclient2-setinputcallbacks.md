@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 4fd7ba5f-c400-4f44-bebb-b52e9a579f99
 ms.date: 05/03/2018
 ms.keywords: IDebugClient interface [Windows Debugging],SetInputCallbacks method, IDebugClient2 interface [Windows Debugging],SetInputCallbacks method, IDebugClient2.SetInputCallbacks, IDebugClient2::SetInputCallbacks, IDebugClient3 interface [Windows Debugging],SetInputCallbacks method, IDebugClient3::SetInputCallbacks, IDebugClient4 interface [Windows Debugging],SetInputCallbacks method, IDebugClient4::SetInputCallbacks, IDebugClient5 interface [Windows Debugging],SetInputCallbacks method, IDebugClient5::SetInputCallbacks, IDebugClient::SetInputCallbacks, IDebugClient_fea0d021-69b2-462f-965f-455305fd5971.xml, SetInputCallbacks, SetInputCallbacks method [Windows Debugging], SetInputCallbacks method [Windows Debugging],IDebugClient interface, SetInputCallbacks method [Windows Debugging],IDebugClient2 interface, SetInputCallbacks method [Windows Debugging],IDebugClient3 interface, SetInputCallbacks method [Windows Debugging],IDebugClient4 interface, SetInputCallbacks method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::SetInputCallbacks, dbgeng/IDebugClient3::SetInputCallbacks, dbgeng/IDebugClient4::SetInputCallbacks, dbgeng/IDebugClient5::SetInputCallbacks, dbgeng/IDebugClient::SetInputCallbacks, debugger.setinputcallbacks
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugClient.SetInputCallbacks"
 req.header: dbgeng.h

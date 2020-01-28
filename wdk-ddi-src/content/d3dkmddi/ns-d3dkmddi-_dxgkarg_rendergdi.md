@@ -6,7 +6,6 @@ old-location: display\dxgkarg_rendergdi.htm
 ms.assetid: E1DC536B-581E-43F8-99B2-776DC30EEBB7
 ms.date: 05/10/2018
 ms.keywords: "*INOUT_PDXGKARG_RENDERGDI, DXGKARG_RENDERGDI, DXGKARG_RENDERGDI structure [Display Devices], _DXGKARG_RENDERGDI, d3dkmddi/DXGKARG_RENDERGDI, display.dxgkarg_rendergdi"
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_RENDERGDI"
 req.header: d3dkmddi.h
