@@ -525,7 +525,7 @@
         "**/wudfworkitem/*.md": "tedhudek",
         "**/wwan/*.md": "billlattimer",
         "**/xfilter/*.md": "billlattimer",
-        "**/xpsrassvc/*.md": "barrygolden",
+        "**/xpsrassvc/*.md": "barrygolden"
       },
       "ms.author":
       {
@@ -1006,7 +1006,7 @@
         "**/wudfworkitem/*.md": "tedhudek",
         "**/wwan/*.md": "billla",
         "**/xfilter/*.md": "billla",
-        "**/xpsrassvc/*.md": "bagold",
+        "**/xpsrassvc/*.md": "bagold"
       }
     },
     "template": [],
