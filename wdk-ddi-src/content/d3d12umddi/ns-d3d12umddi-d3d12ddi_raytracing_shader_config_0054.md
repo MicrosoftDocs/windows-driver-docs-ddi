@@ -4,7 +4,6 @@ title: D3D12DDI_RAYTRACING_SHADER_CONFIG_0054 (d3d12umddi.h)
 description: Describes the ray tracing shader configuration.
 ms.assetid: a5bbfe65-1692-4fd4-b3ce-46b6df5a53ac
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RAYTRACING_SHADER_CONFIG_0054"
 ms.keywords: D3D12DDI_RAYTRACING_SHADER_CONFIG_0054, D3D12DDI_RAYTRACING_SHADER_CONFIG_0054, 

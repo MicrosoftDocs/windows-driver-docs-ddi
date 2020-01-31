@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: 8c63ef41-e4dd-4b34-a897-c9bec13f4211
 ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS, IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS control, IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS, pos.ioctl_point_of_service_retrieve_statistics
-ms.topic: ioctl
 f1_keywords:
  - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS"
 req.header: pointofservicedriverinterface.h
@@ -98,27 +97,10 @@ Size of the output buffer in bytes. Set to sizeof(<i>PosStatisticsHeader</i>).
 
 Returns <b>TRUE</b> if successful; otherwise, returns <b>FALSE</b>.
 
-To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values:
-
-
-
-
-#### -STATUS_BUFFER_OVERFLOW
-
-The output buffer is not large enough to hold the statistics.
-
-
-#### -STATUS_NOT_SUPPORTED
-
-Statistic reporting is not supported.
-
-
 ## -remarks
 
+To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values:
 
+- STATUS_BUFFER_OVERFLOW: The output buffer is not large enough to hold the statistics.
 
-<h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
-
-
-
-
+- STATUS_NOT_SUPPORTED: Statistic reporting is not supported.

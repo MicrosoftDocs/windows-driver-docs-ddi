@@ -6,7 +6,6 @@ old-location: display\videoprocessorsetstreampixelaspectratio.htm
 ms.assetid: fe472b54-09f5-4689-a3d1-0985dafa7d4b
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPIXELASPECTRATIO callback, d3d10umddi/pfnVideoProcessorSetStreamPixelAspectRatio, display.videoprocessorsetstreampixelaspectratio, pfnVideoProcessorSetStreamPixelAspectRatio, pfnVideoProcessorSetStreamPixelAspectRatio callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetStreamPixelAspectRatio"
 req.header: d3d10umddi.h
@@ -103,15 +102,6 @@ A pointer to a <b>DXGI_RATIONAL</b> structure that contains the pixel aspect rat
 
 </div>
 <div> </div>
-
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
 
 
 

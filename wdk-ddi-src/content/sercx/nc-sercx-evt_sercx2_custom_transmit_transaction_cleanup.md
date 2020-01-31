@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: CEADF06B-FD60-4B4C-AB59-1ED6B1226204
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2CustomTransmitTransactionCleanup, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP callback, EvtSerCx2CustomTransmitTransactionCleanup, EvtSerCx2CustomTransmitTransactionCleanup callback function [Serial Ports], serports.evtsercx2customtransmittransactioncleanup
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2CustomTransmitTransactionCleanup"
 req.header: sercx.h
@@ -59,15 +58,6 @@ The <i>EvtSerCx2CustomTransmitTransactionCleanup</i> event callback function  is
 ### -param CustomTransmitTransaction [in]
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMTRANSMITTRANSACTION</a> handle to a custom-transmit object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customtransmittransactioncreate">SerCx2CustomTransmitTransactionCreate</a> method to create this object.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

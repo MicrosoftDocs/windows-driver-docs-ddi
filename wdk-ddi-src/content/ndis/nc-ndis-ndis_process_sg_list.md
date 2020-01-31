@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 5b99e0ec-7c82-46d6-b32a-246b368cf4f1
 ms.date: 05/02/2018
 ms.keywords: NDIS_PROCESS_SG_LIST, NDIS_PROCESS_SG_LIST callback, NetProcessSGList, NetProcessSGList callback function [Network Drivers Starting with Windows Vista], ndis/NetProcessSGList, ndis_shared_memory_ref_0c3e2851-6897-4997-a974-2a108e1e5ee9.xml, netvista.netprocesssglist
-ms.topic: callback
 f1_keywords:
  - "ndis/NetProcessSGList"
 req.header: ndis.h
@@ -82,15 +81,6 @@ A pointer to a block of driver-allocated context information that contains infor
      <b>Context</b> member of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_scatter_gather_list_parameters">
      NDIS_SCATTER_GATHER_LIST_PARAMETERS</a> structure.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

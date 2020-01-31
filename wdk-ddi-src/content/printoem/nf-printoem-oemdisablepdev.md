@@ -1,13 +1,12 @@
 ---
 UID: NF:printoem.OEMDisablePDEV
 title: OEMDisablePDEV function (printoem.h)
-description: OEMDisablePDEV function
+description: This function is obsolete.
 old-location: print\oemdisablepdev.htm
 tech.root: print
 ms.assetid: a58d333f-f092-4f7a-b6ae-ebba4f894678
-ms.date: 04/20/2018
+ms.date: 11/18/2019
 ms.keywords: OEMDisablePDEV, OEMDisablePDEV function [Print Devices], print.oemdisablepdev, print_obsoletefunctions_d0b9c4d2-19f5-4702-a99d-5549ae1b5b3d.xml, printoem/OEMDisablePDEV
-ms.topic: function
 f1_keywords:
  - "printoem/OEMDisablePDEV"
 req.header: printoem.h
@@ -44,28 +43,14 @@ req.typenames:
 
 # OEMDisablePDEV function
 
-
 ## -description
 
+This function is obsolete for Windows XP and later. It is supported only for earlier plug-ins.
 
-
+Use [IPrintOemPS::DisablePDEV (Pscript)](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-disablepdev) or [IPrintOemUni::DisablePDEV (Unidrv)](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-disablepdev) instead.
 
 ## -parameters
 
-
-
-
 ### -param pdevobj
 
-
-## -returns
-
-
-
-This function does not return a value.
-
-<h2><a id="ddk_oemdisablepdev_gg"></a><a id="DDK_OEMDISABLEPDEV_GG"></a></h2>
-This function is obsolete for Windows XP and later. It is supported only for earlier plug-ins. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-disablepdev">IPrintOemPS::DisablePDEV</a> (Pscript) or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-disablepdev">IPrintOemUni::DisablePDEV</a> (Unidrv).
-
-
-
+Pointer to the device object.

@@ -4,7 +4,6 @@ title: IKeyStore::ClearKeys (dbgmodel.h)
 description: The ClearKeys method is analogous to the ClearKeys method on IModelObject. 
 ms.assetid: 7fb81fa1-c09a-4995-9a28-34a2d5716625
 ms.date: 08/13/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IKeyStore.ClearKeys"
 ms.keywords: IKeyStore::ClearKeys, ClearKeys, IKeyStore.ClearKeys, IKeyStore::ClearKeys, IKeyStore.ClearKeys
@@ -46,9 +45,6 @@ ms.custom: RS5
 ## -description
 
 The ClearKeys method is analogous to the ClearKeys method on [IModelObject](nn-dbgmodel-imodelobject.md). It will remove every key from the given metadata store. This method has no effect on any parent store. 
-
-## -parameters
-
 
 ## -returns
 This method returns HRESULT that indicates success or failure.

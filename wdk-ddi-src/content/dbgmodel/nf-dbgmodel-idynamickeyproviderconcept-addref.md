@@ -4,7 +4,6 @@ title: IDynamicKeyProviderConcept::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 2d12274d-75b0-4494-bec7-c962ec80e1aa
 ms.date: 09/21/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDynamicKeyProviderConcept.AddRef"
 ms.keywords: IDynamicKeyProviderConcept::AddRef, AddRef, IDynamicKeyProviderConcept.AddRef, IDynamicKeyProviderConcept::AddRef, IDynamicKeyProviderConcept.AddRef
@@ -49,10 +48,6 @@ Increments the reference count for an interface on an object. This method should
 
 For more information, see [IUnknown::AddRef](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-addref) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
-## -parameters
-
-None
 
 ## -returns
 

@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: FAC021F0-CF37-4A28-BE89-D6BD77B8B708
 ms.date: 05/07/2018
 ms.keywords: EVT_UDECX_USB_ENDPOINT_PURGE, EVT_UDECX_USB_ENDPOINT_PURGE callback, EvtUsbEndpointPurge, EvtUsbEndpointPurge callback function [Buses], buses.evt_udecx_usb_endpoint_purge, udecxusbendpoint/EvtUsbEndpointPurge
-ms.topic: callback
 f1_keywords:
  - "udecxusbendpoint/EvtUsbEndpointPurge"
 req.header: udecxusbendpoint.h
@@ -59,15 +58,6 @@ The USB device emulation class extension (UdeCx) invokes this callback function 
 ### -param UdecxUsbEndpoint [in]
 
 A handle to a UDE endpoint object that represents the endpoint for which I/O requests must be canceled. The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

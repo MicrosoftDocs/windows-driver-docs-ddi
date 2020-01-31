@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 37CE6358-68F8-49E2-8B3E-126D5D135ADF
 ms.date: 05/07/2018
 ms.keywords: EVT_UFX_DEVICE_CONTROLLER_RESET, EVT_UFX_DEVICE_CONTROLLER_RESET callback, EvtUfxDeviceControllerReset, EvtUfxDeviceControllerReset callback function [Buses], PFN_UFX_DEVICE_CONTROLLER_RESET, PFN_UFX_DEVICE_CONTROLLER_RESET callback function pointer [Buses], buses.evt_ufx_device_controller_reset, ufxclient/EvtUfxDeviceControllerReset
-ms.topic: callback
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_CONTROLLER_RESET"
 req.header: ufxclient.h
@@ -72,15 +71,6 @@ The handle to a  USB device object that the client driver received in a previous
 #### - UfxHardwareFailureContext [in, optional]
 
 A pointer to a variable-length UFX_HARDWARE_FAILURE_CONTEXT structure allocated by the client driver.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

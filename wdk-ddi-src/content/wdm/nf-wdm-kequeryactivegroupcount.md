@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: a5447dd8-6a4f-4686-b4e3-7deb4b61ff92
 ms.date: 04/30/2018
 ms.keywords: KeQueryActiveGroupCount, KeQueryActiveGroupCount routine [Kernel-Mode Driver Architecture], k105_29b5c7ca-1596-4a3e-8cda-20c6ccec4ebb.xml, kernel.kequeryactivegroupcount, wdm/KeQueryActiveGroupCount
-ms.topic: function
 f1_keywords:
  - "wdm/KeQueryActiveGroupCount"
 req.header: wdm.h
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>KeQueryActiveGroupCount</b> routine returns the number of active processor groups in a multiprocessor system.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

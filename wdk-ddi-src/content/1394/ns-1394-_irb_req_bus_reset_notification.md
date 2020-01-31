@@ -7,7 +7,6 @@ tech.root: IEEE
 ms.assetid: 3EF9BB26-81B2-4ED7-A934-AF3E73B650A0
 ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_BUS_RESET_NOTIFICATION, IEEE.irb_req_bus_reset_notification, IRB_REQ_BUS_RESET_NOTIFICATION, IRB_REQ_BUS_RESET_NOTIFICATION structure [Buses], _IRB_REQ_BUS_RESET_NOTIFICATION
-ms.topic: struct
 f1_keywords:
  - "1394/IRB_REQ_BUS_RESET_NOTIFICATION"
 req.header: 1394.h

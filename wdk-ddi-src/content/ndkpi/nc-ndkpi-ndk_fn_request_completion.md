@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: EB507DE2-354C-41D2-9BEE-091C4AE299EC
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_REQUEST_COMPLETION, NDK_FN_REQUEST_COMPLETION callback, NdkRequestCompletion, NdkRequestCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRequestCompletion, netvista.ndk_fn_request_completion
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkRequestCompletion"
 req.header: ndkpi.h
@@ -64,15 +63,6 @@ The context value passed to the NDK provider when a consumer calls an asynchrono
 ### -param Status [in]
 
 The asynchronous completion status for the request. See the asynchronous request  functions (for example, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_accept">NDK_FN_ACCEPT</a>) for completion status codes that can be returned for each type of request.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

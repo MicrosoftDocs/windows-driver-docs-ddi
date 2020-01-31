@@ -5,7 +5,6 @@ description: The FltQueryInformationByName routine returns the requested informa
 tech.root: ifsk
 ms.assetid: dac542b8-eaea-4065-ae36-1433a6589ac3
 ms.date: 09/14/2018
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltQueryInformationByName"
 ms.keywords: FltQueryInformationByName

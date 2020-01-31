@@ -7,7 +7,6 @@ tech.root: SPB
 ms.assetid: 4EB36115-2783-4FD5-9CEE-1F7C971C334D
 ms.date: 04/30/2018
 ms.keywords: EVT_SPB_CONTROLLER_UNLOCK, EVT_SPB_CONTROLLER_UNLOCK callback, EvtSpbControllerUnlock, EvtSpbControllerUnlock callback function [Buses], SPB.evtspbcontrollerunlock, spbcx/EvtSpbControllerUnlock
-ms.topic: callback
 f1_keywords:
  - "spbcx/EvtSpbControllerUnlock"
 req.header: spbcx.h
@@ -69,15 +68,6 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object
 ### -param UnlockRequest [in]
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to an I/O control request to unlock the controller. Your SPB controller driver must complete this request either by performing the requested operation or by returning an error status. For more information, see Remarks.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

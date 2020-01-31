@@ -4,7 +4,6 @@ title: DXGKDDI_ENDEXCLUSIVEACCESS (d3dkmddi.h)
 description: Implemented by the client driver to end exclusive access.
 ms.assetid: 942f37e5-310a-4233-bda9-5e606d41756e
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 

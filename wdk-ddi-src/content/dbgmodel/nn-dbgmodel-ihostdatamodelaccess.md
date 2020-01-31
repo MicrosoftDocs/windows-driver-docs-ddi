@@ -4,7 +4,6 @@ title: IHostDataModelAccess (dbgmodel.h)
 description: IHostDataModelAccess is the bridge interface between the legacy IDebug* interfaces of Debugging Tools for Windows and the data model. 
 ms.assetid: 00f72d8d-6a79-4000-b68d-05ba984585f6
 ms.date: 07/16/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IHostDataModelAccess"
 req.header: dbgmodel.h
@@ -44,32 +43,6 @@ When DebugExtensionInitialize is called, it creates a debug client and gets acce
 
 ## -inheritance
 IHostDataModelAccess interits from IUnknown. 
-## -members
-
-<p>IHostDataModelAccess has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetDataModel</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 An interface *suggested* on the per-host extensibility mechanism to get from the host extensibility mechanism to the model based one.  Extensions which are written to a host-specific API set can query this mechanism to get to the data model and create host-agnostic extensions.

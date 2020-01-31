@@ -4,7 +4,6 @@ title: IComparableConcept (dbgmodel.h)
 description: Compares this object to another (of arbitrary type).  If the comparison cannot be performed, E_NOT_SET should be returned.
 ms.assetid: ddbad055-aafe-4ba0-8265-1b9216610f20
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IComparableConcept"
 req.header: dbgmodel.h
@@ -44,32 +43,6 @@ Compares this object to another (of arbitrary type).  If the comparison cannot b
 
 ## -inheritance
 IComparableConcept interits from IUnknown. 
-## -members
-
-<p>IComparableConcept has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CompareObjects</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 The return value passed in comparison result has the following meaning:

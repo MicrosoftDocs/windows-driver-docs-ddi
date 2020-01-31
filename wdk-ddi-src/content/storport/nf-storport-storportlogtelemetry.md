@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 3B32F31C-3850-43D4-9C6E-40D35B8AF4D4
 ms.date: 03/29/2018
 ms.keywords: StorPortLogTelemetry, StorPortLogTelemetry routine [Storage Devices], storage.storportlogtelemetry, storport/StorPortLogTelemetry
-ms.topic: function
 f1_keywords:
  - "storport/StorPortLogTelemetry"
 req.header: storport.h
@@ -49,7 +48,7 @@ ms.custom: 19H1
 
 ## -description
 
-The **StorPortLogTelemetry** routine logs a miniport telemetry event to help diagnose or collect any useful information. The miniport can log eight general purpose name-value pairs and a buffer that has maximum length of 4KB, as well as several event related fields that are defined in structure [STORPORT_TELEMETRY_EVENT](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/storport/ns-storport-_storport_telemetry_event).
+The **StorPortLogTelemetry** routine logs a miniport telemetry event to help diagnose or collect any useful information. The miniport can log eight general purpose name-value pairs and a buffer that has maximum length of 4KB, as well as several event related fields that are defined in structure [STORPORT_TELEMETRY_EVENT](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_storport_telemetry_event).
 
 ## -parameters
 

@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: C248FEF0-8E0B-4296-940E-763165F80617
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2SetWaitMask, EVT_SERCX2_SET_WAIT_MASK, EVT_SERCX2_SET_WAIT_MASK callback, EvtSerCx2SetWaitMask, EvtSerCx2SetWaitMask callback function [Serial Ports], serports.evtsercx2setwaitmask
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2SetWaitMask"
 req.header: sercx.h
@@ -69,15 +68,6 @@ A WDFREQUEST handle to the framework request object that represents the <a href=
 ### -param WaitMask [in]
 
 The new wait mask. For more information, see Remarks.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

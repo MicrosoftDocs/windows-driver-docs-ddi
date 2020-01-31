@@ -4,7 +4,6 @@ title: PFND3D12DDI_CHECKFORMATSUPPORT (d3d12umddi.h)
 description: Implemented by the client driver to check the format support.
 ms.assetid: b05a2e1a-5839-4a5e-83c5-67bfd41287b0
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -60,10 +59,6 @@ A DXGI_FORMAT.
 ### -param Arg3
 
 Pointer to a UINT.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

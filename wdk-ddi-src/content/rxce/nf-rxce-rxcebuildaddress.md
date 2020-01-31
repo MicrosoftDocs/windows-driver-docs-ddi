@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: e8845b15-4427-45ea-9192-352d82c89c6a
 ms.date: 04/16/2018
 ms.keywords: RxCeBuildAddress, RxCeBuildAddress function [Installable File System Drivers], ifsk.rxcebuildaddress, rxce/RxCeBuildAddress, rxref_ee32329f-3111-4ee6-869f-2b8e21d6696c.xml
-ms.topic: function
 f1_keywords:
  - "rxce/RxCeBuildAddress"
 req.header: rxce.h

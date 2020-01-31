@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 9965E4EA-10E3-4240-9E4F-D3B49B8F9593
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_CANCEL_IDLE_NOTIFICATION, MINIPORT_CANCEL_IDLE_NOTIFICATION callback, MiniportCancelIdleNotification, MiniportCancelIdleNotification callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelIdleNotification, netvista.miniportcancelidlenotification
-ms.topic: callback
 f1_keywords:
  - "ndis/MiniportCancelIdleNotification"
 req.header: ndis.h
@@ -62,15 +61,6 @@ NDIS calls the <i>MiniportCancelIdleNotification</i> handler function to notify 
 ### -param MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function. The miniport driver uses this context area to maintain state information for a network adapter.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

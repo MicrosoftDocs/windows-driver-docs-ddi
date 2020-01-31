@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: bec3ab2b-5884-4c7d-895a-76b8a44126bf
 ms.author: windowsdriverdev
 ms.date: 09/30/2019
-ms.topic: struct
 f1_keywords:
  - "netpoweroffload/NET_POWER_OFFLOAD_ARP_PARAMETERS"
 ms.keywords: NET_POWER_OFFLOAD_ARP_PARAMETERS, NET_POWER_OFFLOAD_ARP_PARAMETERS, 
 req.header: netpoweroffload.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

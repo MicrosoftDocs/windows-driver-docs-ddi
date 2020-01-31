@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 8C5F62DD-36CB-4EBC-9113-BB5BF19C0D45
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_FLUSH, NDK_FN_FLUSH callback, NdkFlush, NdkFlush callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkFlush, netvista.ndk_fn_flush
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkFlush"
 req.header: ndkpi.h
@@ -59,15 +58,6 @@ The <i>NdkFlush</i> (<i>NDK_FN_FLUSH</i>) function initiates cancelling of the r
 ### -param *pNdkQp [in]
 
 A pointer to an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: b9f72e79-930c-456e-8001-5df808604caa
 ms.date: 04/23/2018
 ms.keywords: IKsInterfaceHandler, IKsInterfaceHandler interface [Streaming Media Devices], IKsInterfaceHandler interface [Streaming Media Devices],described, ksproxy/IKsInterfaceHandler, ksproxy_9d597bae-a5d7-4575-a4ac-983b827b0ae4.xml, stream.iksinterfacehandler
-ms.topic: interface
 f1_keywords:
  - "ksproxy/IKsInterfaceHandler"
 req.header: ksproxy.h
@@ -44,56 +43,18 @@ req.typenames:
 
 # IKsInterfaceHandler interface
 
+## -inheritance
+
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsInterfaceHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsInterfaceHandler</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -description
 
 
 The <b>IKsInterfaceHandler</b> interface provides methods that marshal samples into the kernel based on the <a href="https://docs.microsoft.com/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> structure specified for the established connection. The IID for this interface is IID_IKsInterfaceHandler.
 
-
-## -inheritance
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsInterfaceHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsInterfaceHandler</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IKsInterfaceHandler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksinterfacehandler-kscompleteio">KsCompleteIo</a>
-</td>
-<td align="left" width="63%">
-Cleans up extended headers and releases media samples. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksinterfacehandler-ksprocessmediasamples">KsProcessMediaSamples</a>
-</td>
-<td align="left" width="63%">
-Queries for the extended header size if a data handler is specified. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksinterfacehandler-kssetpin">KsSetPin</a>
-</td>
-<td align="left" width="63%">
-Informs an interface handler about the pin with which to communicate when passing data.
-
-</td>
-</tr>
-</table> 
 
 
 ## -remarks

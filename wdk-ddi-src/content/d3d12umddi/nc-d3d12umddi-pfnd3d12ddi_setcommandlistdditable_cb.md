@@ -4,7 +4,6 @@ title: PFND3D12DDI_SETCOMMANDLISTDDITABLE_CB (d3d12umddi.h)
 description: Sets the command list table.
 ms.assetid: d1480f13-37d6-465c-b468-bf7a32bf0523
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -56,10 +55,6 @@ A handle to a command list.
 ### -param Arg2
 
 A handle to a table.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 17111aa3-c02f-494a-af97-5ab34c152451
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_CANCEL_SEND, MINIPORT_CANCEL_SEND callback, MiniportCancelSend, MiniportCancelSend callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelSend, ndis_sendrcv_ref_86f1ff8c-c68b-49e3-8d77-883d7e055961.xml, netvista.miniportcancelsend
-ms.topic: callback
 f1_keywords:
  - "ndis/MiniportCancelSend"
 req.header: ndis.h
@@ -71,15 +70,6 @@ A handle to a context area that the miniport driver allocated in its
 
 A cancellation identifier. This identifier specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are being
      canceled.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

@@ -6,7 +6,6 @@ old-location: display\decryptionblt1.htm
 ms.assetid: 36aeb826-251e-404e-8ce3-6b2246ff07bc
 ms.date: 05/10/2018
 ms.keywords: DecryptionBlt, DecryptionBlt callback function [Display Devices], PFND3D11_1DDI_DECRYPTIONBLT, PFND3D11_1DDI_DECRYPTIONBLT callback, d3d10umddi/DecryptionBlt, display.decryptionblt1
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -98,10 +97,6 @@ A pointer to a block of memory that contains the initialization vector that is r
 
 </div>
 <div> </div>
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

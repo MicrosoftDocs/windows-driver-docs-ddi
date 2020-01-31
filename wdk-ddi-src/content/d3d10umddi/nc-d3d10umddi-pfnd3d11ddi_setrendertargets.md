@@ -6,7 +6,6 @@ old-location: display\setrendertargets_d3d11_.htm
 ms.assetid: cfe5f570-4e53-43ee-942d-56da8dfcfe80
 ms.date: 05/10/2018
 ms.keywords: PFND3D11DDI_SETRENDERTARGETS, PFND3D11DDI_SETRENDERTARGETS callback, SetRenderTargets, SetRenderTargets callback function [Display Devices], UserModeDisplayDriverDx11_Functions_a24d5500-fe0a-4d17-a3fb-acb6ed9e4698.xml, d3d10umddi/SetRenderTargets, display.setrendertargets_d3d11_
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/SetRenderTargets"
 req.header: d3d10umddi.h
@@ -64,7 +63,7 @@ A handle to the display device (graphics context).
 
 ### -param Arg2
 
-phRenderTargetView [in]
+*phRenderTargetView* [in]
 
 An array of handles to the render target view objects to set. Note that some handle values can be <b>NULL</b>. 
 
@@ -75,25 +74,25 @@ The number of elements in the array that <i>phRenderTargetView</i> specifies for
 
 ### -param ClearSlots
 
-RTVNumbertoUnbind [in]
+*RTVNumbertoUnbind* [in]
 
 The number of render target view (RTV) objects to unbind (that is, those render target view objects that are previously set but should be no longer set).
 
 ### -param Arg5
 
-hDepthStencilView [in]
+*hDepthStencilView* [in]
 
 A handle to the depth-stencil buffer to set. 
 
 ### -param Arg6
 
-phUnorderedAccessView [in]
+*phUnorderedAccessView* [in]
 
 An array of handles to the unordered access view (UAV) objects. 
 
 ### -param Arg7
 
-pUAVInitialCounts [in]
+*pUAVInitialCounts* [in]
 
 An array of append and consume buffer offsets. <i>pUAV</i> is only relevant for unordered access views (UAVs)  of the <i>phUnorderedAccessView</i> array that were created with either <b>D3D11_DDI_BUFFER_UAV_FLAG_APPEND</b>  or <b>D3D11_DDI_BUFFER_UAV_FLAG_COUNTER</b> set in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_buffer_unorderedaccessview">D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW</a> structure when the UAV was created; otherwise, the argument is ignored. If an element in this array is set to -1, the current offset for that append and consume buffer should be kept. Any other value causes the driver to set the hidden counter for that UAV append and consume buffer.
 
@@ -123,18 +122,9 @@ The number of unordered access view objects (UAVs) in the set of all updated UAV
 
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
-
-
-
-
 ## -remarks
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 

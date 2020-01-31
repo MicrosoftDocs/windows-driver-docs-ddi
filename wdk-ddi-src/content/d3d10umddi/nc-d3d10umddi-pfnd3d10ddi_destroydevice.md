@@ -6,7 +6,6 @@ old-location: display\destroydevice_d3d10_.htm
 ms.assetid: 90ada8c8-8ad8-4992-aac1-6eb7fdf3f249
 ms.date: 05/10/2018
 ms.keywords: DestroyDevice, DestroyDevice callback function [Display Devices], PFND3D10DDI_DESTROYDEVICE, PFND3D10DDI_DESTROYDEVICE callback, UserModeDisplayDriverDx10_Functions_4f2918da-90e0-4e85-b019-f9481555e524.xml, d3d10umddi/DestroyDevice, display.destroydevice_d3d10_
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/DestroyDevice"
 req.header: d3d10umddi.h
@@ -63,18 +62,9 @@ The <b>DestroyDevice(D3D10)</b> function destroys the specified device object.
 A handle to the display device (graphics context). The Microsoft Direct3D runtime will free the memory region that it previously allocated for the object. Therefore, the driver can no longer access this memory region. 
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the Remarks section. 
-
-
-
-
 ## -remarks
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 

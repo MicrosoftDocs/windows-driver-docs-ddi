@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 5E425011-BFC7-434C-9D0A-DB4481EC315F
 ms.date: 05/07/2018
 ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE, EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE callback, EvtUsbDeviceEndpointsConfigure, EvtUsbDeviceEndpointsConfigure callback function [Buses], buses.evt_udecx_usb_device_endpoints_configure, udecxusbdevice/EvtUsbDeviceEndpointsConfigure
-ms.topic: callback
 f1_keywords:
  - "udecxusbdevice/EvtUsbDeviceEndpointsConfigure"
 req.header: udecxusbdevice.h
@@ -69,15 +68,6 @@ A handle to a framework request object that represents the request.
 ### -param Params [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbdevice/ns-udecxusbdevice-_udecx_endpoints_configure_params">UDECX_ENDPOINTS_CONFIGURE_PARAMS</a> structure that describes the configuration options.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

@@ -6,7 +6,6 @@ old-location: display\d3dkmt_render.htm
 ms.assetid: 8e45c4cb-3635-403b-8a91-71af6605c3be
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_RENDER, D3DKMT_RENDER structure [Display Devices], OpenGL_Structs_9da3b8d2-479c-4d6d-ba5c-70aa171121e3.xml, _D3DKMT_RENDER, d3dkmthk/D3DKMT_RENDER, display.d3dkmt_render
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_RENDER"
 req.header: d3dkmthk.h

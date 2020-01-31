@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 3ACE32ED-75C5-440D-BAA1-470C4E043299
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_UNLOCK2, D3DDDICB_UNLOCK2 structure [Display Devices], _D3DDDICB_UNLOCK2, d3dumddi/D3DDDICB_UNLOCK2, display.d3dddicb_unlock2
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDICB_UNLOCK2"
 req.header: d3dumddi.h

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: FF098E63-842F-4D88-A184-BE886E0ED507
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU structure [Display Devices], d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU, display.d3dddicb_signalsynchronizationobjectfromgpu
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU"
 req.header: d3dumddi.h

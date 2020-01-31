@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: eba64244-50ff-4c59-a30f-46874c683e63
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_49386e60-3427-449c-8c36-fe2e8bc7fabb.xml, WdfFdoInitWdmGetPhysicalDevice, WdfFdoInitWdmGetPhysicalDevice method, kmdf.wdffdoinitwdmgetphysicaldevice, wdf.wdffdoinitwdmgetphysicaldevice, wdffdo/WdfFdoInitWdmGetPhysicalDevice
-ms.topic: function
 f1_keywords:
  - "wdffdo/WdfFdoInitWdmGetPhysicalDevice"
 req.header: wdffdo.h

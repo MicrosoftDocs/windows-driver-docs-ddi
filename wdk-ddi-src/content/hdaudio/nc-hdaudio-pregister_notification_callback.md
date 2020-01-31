@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 453c5313-24a0-4009-98bd-9bba2a546a75
 ms.author: windowsdriverdev
 ms.date: 04/29/2019 
-ms.topic: callback
 f1_keywords:
  - "hdaudio/PREGISTER_NOTIFICATION_CALLBACK"
 ms.prod: windows-hardware
@@ -94,7 +93,7 @@ Driver-specific context value for the callback routine.
 
 RegisterNotificationCallback returns STATUS_SUCCESS if the call successfully registers the event. Otherwise, the routine returns STATUS_INSUFFICIENT_RESOURCES to indicate that there are insufficient resources that are available to complete the operation. 
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

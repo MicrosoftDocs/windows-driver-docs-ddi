@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: fb4b00c0-0b14-48dd-a6f2-aae659c6bb28
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE, PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE callback, ProtocolCoSendNetBufferListsComplete, ProtocolCoSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_d2516eb4-44f1-4bae-a4f8-5a1ddd069c5a.xml, ndis/ProtocolCoSendNetBufferListsComplete, netvista.protocolcosendnetbufferlistscomplete
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolCoSendNetBufferListsComplete"
 req.header: ndis.h
@@ -87,15 +86,6 @@ NDIS flags that can be combined with a bitwise OR operation. To clear all of the
      which; if set, indicates that the current IRQL is DISPATCH_LEVEL. For more information about this flag,
      see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dispatch-irql-tracking">Dispatch IRQL Tracking</a>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

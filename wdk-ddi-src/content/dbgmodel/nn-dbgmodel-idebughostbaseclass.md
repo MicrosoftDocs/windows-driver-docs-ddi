@@ -4,7 +4,6 @@ title: IDebugHostBaseClass (dbgmodel.h)
 description: An (IDebugHostSymbol derived) interface to a base class.
 ms.assetid: 3240aa54-97b6-43e1-81e9-41f4eb5bd447
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDebugHostBaseClass"
 req.header: dbgmodel.h
@@ -44,56 +43,6 @@ An ([IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md) derived) interface to a 
 
 ## -inheritance
 IDebugHostBaseClass interits from [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md). 
-## -members
-
-<p>IDebugHostBaseClass has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContext</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateChildren</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetSymbolKind</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetName</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetType</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContainingModule</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetOffset</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

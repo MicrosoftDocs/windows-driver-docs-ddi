@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: B98F669D-D0DE-4FF2-903C-D51E0FEEE840
 ms.date: 05/08/2018
 ms.keywords: HDAudioUnsolicitedResponseCallback, HDAudioUnsolicitedResponseCallback callback function [Audio Devices], PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK, PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK callback, audio.phdaudio_unsolicited_response_callback, hdaudio/HDAudioUnsolicitedResponseCallback
-ms.topic: callback
 f1_keywords:
  - "hdaudio/HDAudioUnsolicitedResponseCallback"
 req.header: hdaudio.h
@@ -76,15 +75,6 @@ This is the callbackContext value that was passed previously to <a href="https:/
 #### - HDAudioCodecResponse
 
 This is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_codec_response">HDAUDIO_CODEC_RESPONSE</a> that specifies the codec's response to the command. This structure is passed by value.  
-
-
-## -returns
-
-
-
-Void
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: nfpdrivers
 ms.assetid: 54B37EC0-C38A-479C-A45F-424963C4D89A
 ms.date: 02/15/2018
 ms.keywords: IOCTL_NFCSE_SET_ROUTING_TABLE, IOCTL_NFCSE_SET_ROUTING_TABLE control, IOCTL_NFCSE_SET_ROUTING_TABLE control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_SET_ROUTING_TABLE, nfpdrivers.ioctl_nfcse_set_routing_table
-ms.topic: ioctl
 f1_keywords:
  - "nfcsedev/IOCTL_NFCSE_SET_ROUTING_TABLE"
 req.header: nfcsedev.h

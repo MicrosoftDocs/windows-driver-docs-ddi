@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: c401fda9-9eaf-4d2b-a19e-d42b2c0cd9e8
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
 f1_keywords:
  - "dispmprt/_DXGKARG_QUERYMITIGATEDRANGES"
 ms.prod: windows-hardware

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 896343A8-0C72-47D4-8465-A029EDCD66A0
 ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionInitializeUsingOffset, WdfDmaTransactionInitializeUsingOffset method, kmdf.wdfdmatransactioninitializeusingoffset, wdf.wdfdmatransactioninitializeusingoffset, wdfdmatransaction/WdfDmaTransactionInitializeUsingOffset
-ms.topic: function
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionInitializeUsingOffset"
 req.header: wdfdmatransaction.h

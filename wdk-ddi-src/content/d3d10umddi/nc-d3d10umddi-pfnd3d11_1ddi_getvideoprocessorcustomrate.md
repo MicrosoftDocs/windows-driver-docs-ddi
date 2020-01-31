@@ -6,7 +6,6 @@ old-location: display\getvideoprocessorcustomrate.htm
 ms.assetid: 49aec00a-8d63-4ec9-966a-0826354fbbe0
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEOPROCESSORCUSTOMRATE, PFND3D11_1DDI_GETVIDEOPROCESSORCUSTOMRATE callback, d3d10umddi/pfnGetVideoProcessorCustomRate, display.getvideoprocessorcustomrate, pfnGetVideoProcessorCustomRate, pfnGetVideoProcessorCustomRate callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -79,10 +78,6 @@ The zero-based index of the frame-rate conversion capability group. For more inf
 *pRate* [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_custom_rate">D3D11_1DDI_VIDEO_PROCESSOR_CUSTOM_RATE</a> structure that contains the attributes of the specified custom rate.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

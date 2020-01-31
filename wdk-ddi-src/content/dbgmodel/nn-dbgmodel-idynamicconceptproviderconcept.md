@@ -4,7 +4,6 @@ title: IDynamicConceptProviderConcept (dbgmodel.h)
 description: If a client wants to take over the storage of keys and values for an object, it can implement this concept interface.
 ms.assetid: b3cb8b59-ea20-4db7-badc-25dac000bcaa
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDynamicConceptProviderConcept"
 req.header: dbgmodel.h
@@ -46,48 +45,6 @@ The object is a dynamic provider of keys and wishes to take over all key queries
 
 ## -inheritance
 IDynamicConceptProviderConcept interits from IUnknown. 
-## -members
-
-<p>IDynamicConceptProviderConcept has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetConcept</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetConcept</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>NotifyParent</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>NotifyParentChange</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>NotifyDestruct</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 **Dynamic Provider Concepts**

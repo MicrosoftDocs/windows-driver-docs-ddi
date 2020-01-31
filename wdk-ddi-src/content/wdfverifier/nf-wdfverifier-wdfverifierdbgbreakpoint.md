@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 55b8a6de-f20b-4d2d-8235-4837bc4a0d7d
 ms.date: 02/26/2018
 ms.keywords: DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml, WdfVerifierDbgBreakPoint, WdfVerifierDbgBreakPoint function, kmdf.wdfverifierdbgbreakpoint, wdf.wdfverifierdbgbreakpoint, wdfverifier/WdfVerifierDbgBreakPoint
-ms.topic: function
 f1_keywords:
  - "wdfverifier/WdfVerifierDbgBreakPoint"
 req.header: wdfverifier.h
@@ -54,13 +53,6 @@ req.typenames:
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfVerifierDbgBreakPoint</b> function breaks into a kernel debugger, if a debugger is running.
-
-
-## -parameters
-
-
-
-
 
 
 ## -remarks

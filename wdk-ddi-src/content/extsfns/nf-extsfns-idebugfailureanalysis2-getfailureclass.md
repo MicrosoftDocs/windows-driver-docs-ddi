@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 4840F881-E3CB-4C89-AE2D-88610790C221
 ms.date: 05/03/2018
 ms.keywords: GetFailureClass, GetFailureClass method [Windows Debugging], GetFailureClass method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureClass method, IDebugFailureAnalysis2.GetFailureClass, IDebugFailureAnalysis2::GetFailureClass, debugger.idebugfailureanalysis2_getfailureclass, extsfns/IDebugFailureAnalysis2::GetFailureClass
-ms.topic: method
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.GetFailureClass"
 req.header: extsfns.h
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>GetFailureClass</b> method gets the failure class of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object. The failure class indicates whether the debugging session  that created the <b>DebugFailureAnalysis</b> object is a kernel mode session or a user mode session.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

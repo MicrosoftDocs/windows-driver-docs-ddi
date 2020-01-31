@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 2d8789e1-721d-4abe-9864-0f7fdeb24482
 ms.date: 06/27/2019
 ms.keywords: FsRtlAreThereCurrentFileLocks, FsRtlAreThereCurrentFileLocks function [Installable File System Drivers], fsrtlref_c3102eee-b523-418a-8977-a875e0eb76b7.xml, ifsk.fsrtlaretherecurrentfilelocks, ntifs/FsRtlAreThereCurrentFileLocks
-ms.topic: macro
 f1_keywords:
  - "ntifs/FsRtlAreThereCurrentFileLocks"
 req.header: ntifs.h

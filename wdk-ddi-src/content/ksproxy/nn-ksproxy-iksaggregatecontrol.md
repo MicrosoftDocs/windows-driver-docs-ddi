@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: ed239516-bbaf-4e16-a3b8-4f9f34cab4ef
 ms.date: 04/23/2018
 ms.keywords: IKsAggregateControl, IKsAggregateControl interface [Streaming Media Devices], IKsAggregateControl interface [Streaming Media Devices],described, ksproxy/IKsAggregateControl, ksproxy_ccd980b0-abd1-4354-9f2c-3c0613b18d07.xml, stream.iksaggregatecontrol
-ms.topic: interface
 f1_keywords:
  - "ksproxy/IKsAggregateControl"
 req.header: ksproxy.h
@@ -56,15 +55,6 @@ The **IKsAggregateControl** interface inherits from the [IUnknown](https://docs.
 
 - **Methods**
 
-## -members
-
-The **IKsAggregateControl**> interface has these methods.
-
-| Method | Description |
-| --- | --- |
-| [KsAddAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate) | Adds a COM server as an aggregate provider to a KS filter or pin. |
-| [KsRemoveAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksremoveaggregate) | Removes a previously added COM server aggregate provider from a KS filter or pin. |
-
 ## -remarks
 
 All property, method, and event sets that a KS filter or pin supports can be represented on the DirectShow proxy representation of the filter or pin object by zero or more aggregated interfaces, dialogs, and so on. These client aggregated interfaces are set extensions that can then be used to communicate to the underlying KS object in order to represent the functionality of the set. A set extension is a registered COM server, which is loaded through **CoCreateInstance** by the KS filter or pin at handle creation time.
@@ -97,9 +87,9 @@ For more information about **IDistributorNotify**, **IUnknown**, and **CoCreateI
 
 ## -see-also
 
-[IKsControl](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol)
+[IKsControl](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikscontrol)
 
-[IKsObject::KsGetObjectHandle](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksobject-ksgetobjecthandle)
+[IKsObject::KsGetObjectHandle](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksobject-ksgetobjecthandle)
 
 [KsAddAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate)
 

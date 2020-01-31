@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 6B3DA3B1-33E9-4BE4-A3EE-146080C483A6
 ms.date: 05/08/2018
 ms.keywords: HDAudioTransferCompleteCallback, HDAudioTransferCompleteCallback callback function [Audio Devices], PHDAUDIO_TRANSFER_COMPLETE_CALLBACK, PHDAUDIO_TRANSFER_COMPLETE_CALLBACK callback, audio.phdaudio_transfer_complete_callback, hdaudio/HDAudioTransferCompleteCallback
-ms.topic: callback
 f1_keywords:
  - "hdaudio/HDAudioTransferCompleteCallback"
 req.header: hdaudio.h
@@ -76,15 +75,6 @@ HDAudio codec transfer complete callback function. <b>PHDAUDIO_TRANSFER_COMPLETE
 #### - pHDAudioCodecTransfer
 
 A pointer to the codecTransfer array element that contains the codec command and the response that triggered the callback. 
-
-
-## -returns
-
-
-
-Void
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 1755804c-d82f-465d-862f-8a2340516f8e
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS, PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS callback, ProtocolCoReceiveNetBufferLists, ProtocolCoReceiveNetBufferLists callback function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_cebb36c0-45b2-4318-b70d-aae2eada001f.xml, ndis/ProtocolCoReceiveNetBufferLists, netvista.protocolcoreceivenetbufferlists
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolCoReceiveNetBufferLists"
 req.header: ndis.h
@@ -112,15 +111,6 @@ The current IRQL is DISPATCH_LEVEL. For more information about this flag, see
 NDIS reclaims ownership of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures and any attached NET_BUFFER structures
        immediately after the call to 
        <i>ProtocolCoReceiveNetBufferLists</i> returns.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

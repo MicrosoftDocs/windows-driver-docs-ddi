@@ -4,7 +4,6 @@ title: IDataModelScriptManager (dbgmodel.h)
 description: The core interface to the script management capabilities of the data model manager.  Queried from the data model manager.
 ms.assetid: 456082be-779f-4504-a068-4c625759cc54
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDataModelScriptManager"
 req.header: dbgmodel.h
@@ -44,52 +43,6 @@ The core interface to the script management capabilities of the data model manag
 
 ## -inheritance
 IDataModelScriptManager interits from IUnknown. 
-## -members
-
-<p>IDataModelScriptManager has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetDefaultNameBinder</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>RegisterScriptProvider</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>UnregisterScriptProvider</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>FindProviderForScriptType</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>FindProviderForScriptExtension</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateScriptProviders</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 In addition to the Data Model Manager's role as the central authority on object creation and extensibility, it is also responsible for the management of an abstract concept of scripts. From the perspective of the Script Manager portion of the Data Model Manager, a script is something which can be dynamically loaded, unloaded, and potentially debugged by a provider in order to extend or provide new functionality to the data model. 

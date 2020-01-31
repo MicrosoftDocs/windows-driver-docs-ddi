@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: D9EA3F98-7646-4882-BE07-818280404D6A
 ms.date: 04/30/2018
 ms.keywords: ComponentActiveConditionCallback, ComponentActiveConditionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK, kernel.componentactiveconditioncallback, wdm/ComponentActiveConditionCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/ComponentActiveConditionCallback"
 req.header: wdm.h
@@ -64,15 +63,6 @@ A pointer to the device context. The device driver uses this context to store in
 ### -param Component [in]
 
 Specifies the index that identifies the component. This parameter is an index into the <b>Components</b> array in the <b>PO_FX_DEVICE</b> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

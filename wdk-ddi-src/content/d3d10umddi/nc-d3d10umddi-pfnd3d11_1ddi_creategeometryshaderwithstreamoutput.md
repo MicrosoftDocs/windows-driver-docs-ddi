@@ -6,7 +6,6 @@ old-location: display\creategeometryshaderwithstreamoutput_d3d11_1_.htm
 ms.assetid: 1d06ef38-4eb9-4129-b409-74bbd1951f92
 ms.date: 04/16/2018
 ms.keywords: CreateGeometryShaderWithStreamOutput(D3D11_1), CreateGeometryShaderWithStreamOutput(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, PFND3D11_1DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT callback, d3d10umddi/CreateGeometryShaderWithStreamOutput(D3D11_1), display.creategeometryshaderwithstreamoutput_d3d11_1_, display.pfncreategeometryshaderwithstreamoutput
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/CreateGeometryShaderWithStreamOutput(D3D11_1)"
 req.header: d3d10umddi.h
@@ -84,12 +83,11 @@ A handle to the geometry shader with stream output that the driver should use wh
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_stage_io_signatures">D3D11_1DDIARG_STAGE_IO_SIGNATURES</a> structure that forms the shader's signature.
 
 
-## -returns
+## -remarks
 
 
 
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
-
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code.
 
 
 

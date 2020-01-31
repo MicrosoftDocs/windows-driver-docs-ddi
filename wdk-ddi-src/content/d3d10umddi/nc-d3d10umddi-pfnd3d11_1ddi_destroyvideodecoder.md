@@ -6,7 +6,6 @@ old-location: display\destroyvideodecoder.htm
 ms.assetid: 541f4c9b-3193-46a8-9979-74456168988e
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEODECODER, PFND3D11_1DDI_DESTROYVIDEODECODER callback, d3d10umddi/pfnDestroyVideoDecoder, display.destroyvideodecoder, pfnDestroyVideoDecoder, pfnDestroyVideoDecoder callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnDestroyVideoDecoder"
 req.header: d3d10umddi.h
@@ -65,19 +64,10 @@ A handle to the display device (graphics context).
 
 ### -param Arg2
 
-hDecoder [in]
+*hDecoder* [in]
 
 A handle to the driver's private data for the video decoder object. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a>.
 
-
-
-
-
-## -returns
-
-
-
-This callback function does not return a value.
 
 
 

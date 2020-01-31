@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: C85690D0-3CA7-46C7-B597-E36555879F08
 ms.date: 04/20/2018
 ms.keywords: IPrinterBidiSetRequestCallback, IPrinterBidiSetRequestCallback interface [Print Devices], IPrinterBidiSetRequestCallback interface [Print Devices],described, print.iprinterbidisetrequestcallback, printerextension/IPrinterBidiSetRequestCallback
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrinterBidiSetRequestCallback"
 req.header: printerextension.h
@@ -53,30 +52,10 @@ Describes the signature of the callback object that receives the Bidi response.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterBidiSetRequestCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterBidiSetRequestCallback</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterBidiSetRequestCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterBidiSetRequestCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IPrinterBidiSetRequestCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterbidisetrequestcallback-completed">Completed</a>
-</td>
-<td align="left" width="63%">
-Invoked when the Bidi “Set”” operation is completed.
-
-</td>
-</tr>
-</table> 
-
 
 ## -remarks
 

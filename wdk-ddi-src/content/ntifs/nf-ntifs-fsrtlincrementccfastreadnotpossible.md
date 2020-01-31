@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 2e0ae5d1-5189-4f78-9729-9c1b9bbf046d
 ms.date: 04/16/2018
 ms.keywords: FsRtlIncrementCcFastReadNotPossible, FsRtlIncrementCcFastReadNotPossible routine [Installable File System Drivers], fsrtlref_7789e1c4-9ac3-48c7-9191-f5eba5f4e5e0.xml, ifsk.fsrtlincrementccfastreadnotpossible, ntifs/FsRtlIncrementCcFastReadNotPossible
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlIncrementCcFastReadNotPossible"
 req.header: ntifs.h
@@ -49,15 +48,6 @@ req.typenames:
 
 
 The <b>FsRtlIncrementCcFastReadNotPossible</b> routine increments the CcFastReadNotPossible performance counter in a per processor control block of cache manager system counters.
-
-
-## -parameters
-
-
-
-
-
-
 
 
 ## -remarks

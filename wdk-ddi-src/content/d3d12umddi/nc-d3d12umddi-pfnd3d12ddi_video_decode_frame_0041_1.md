@@ -4,7 +4,6 @@ title: PFND3D12DDI_VIDEO_DECODE_FRAME_0041_1 (d3d12umddi.h)
 description: Implemented by the client driver to decode a video frame.
 ms.assetid: 9cb62916-22cb-42c6-925d-16cc320ddb5a
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -61,10 +60,6 @@ Specifies the output surface and output parameters. See [D3D12DDI_VIDEO_DECODE_O
 ### -param pInputStreamParameters
 
 Specifies the input bit stream, parameters, reference frames, and other input parameters for the decode operation.  See [D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0032.md).
-
-## -returns
-
-This callback function does not return a value.
 
 ## -prototype
 

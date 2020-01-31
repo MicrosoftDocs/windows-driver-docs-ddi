@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 2C5B3C90-04A9-48CF-9162-0E069A483C5F
 ms.date: 04/30/2018
 ms.keywords: PCREATE_PROCESS_NOTIFY_ROUTINE, PCREATE_PROCESS_NOTIFY_ROUTINE callback, SetCreateProcessNotifyRoutine, SetCreateProcessNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pcreate_process_notify_routine, ntddk/SetCreateProcessNotifyRoutine
-ms.topic: callback
 f1_keywords:
  - "ntddk/SetCreateProcessNotifyRoutine"
 req.header: ntddk.h
@@ -69,15 +68,6 @@ The process ID of the process.
 ### -param Create [in]
 
 Indicates whether the process was created (<b>TRUE</b>) or deleted (<b>FALSE</b>).
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

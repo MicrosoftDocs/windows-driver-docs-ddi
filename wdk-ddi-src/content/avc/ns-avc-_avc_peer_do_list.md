@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 5420df9b-35e7-49b4-97dc-a1d61623551c
 ms.date: 04/23/2018
 ms.keywords: "*PAVC_PEER_DO_LIST, AVC_PEER_DO_LIST, AVC_PEER_DO_LIST structure [Streaming Media Devices], PAVC_PEER_DO_LIST, PAVC_PEER_DO_LIST structure pointer [Streaming Media Devices], _AVC_PEER_DO_LIST, avc/AVC_PEER_DO_LIST, avc/PAVC_PEER_DO_LIST, avcref_69feff07-d80c-4d5a-a5d8-fe942dfc5e26.xml, stream.avc_peer_do_list"
-ms.topic: struct
 f1_keywords:
  - "avc/AVC_PEER_DO_LIST"
 req.header: avc.h

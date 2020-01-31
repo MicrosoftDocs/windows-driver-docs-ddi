@@ -4,7 +4,6 @@ title: IOCTL_LAMP_BASE (lamp.h)
 description: 
 ms.assetid: 91ad561c-3f84-4395-8612-bd7a836b6e24
 ms.date: 10/19/2018
-ms.topic: ioctl
 f1_keywords:
  - "lamp/IOCTL_LAMP_BASE"
 req.header: lamp.h

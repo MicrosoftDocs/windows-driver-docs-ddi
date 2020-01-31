@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 172598B1-C486-489F-98F0-382EB8139A08
 ms.date: 04/30/2018
 ms.keywords: IoConnectInterruptEx, WdmlibIoConnectInterruptEx, WdmlibIoConnectInterruptEx function [Kernel-Mode Driver Architecture], iointex/IoConnectInterruptEx, iointex/WdmlibIoConnectInterruptEx, kernel.wdmlibioconnectinterruptex
-ms.topic: function
 f1_keywords:
  - "iointex/WdmlibIoConnectInterruptEx"
 req.header: iointex.h

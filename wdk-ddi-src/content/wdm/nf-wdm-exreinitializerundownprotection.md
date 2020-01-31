@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 41B7CE15-8702-49C8-9FD0-450DF6E4798C
 ms.date: 04/30/2018
 ms.keywords: ExReInitializeRundownProtection, ExReInitializeRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exreinitializerundownprotection, wdm/ExReInitializeRundownProtection
-ms.topic: function
 f1_keywords:
  - "wdm/ExReInitializeRundownProtection"
 req.header: wdm.h
@@ -71,7 +70,7 @@ This routine is called by the driver that owns an object that resides in shared 
 
 An <b>ExReInitializeRundownProtection</b> call must be preceded by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exwaitforrundownprotectionrelease">ExWaitForRundownProtectionRelease</a> routine that runs down the old object. Between the <b>ExWaitForRundownProtectionRelease</b> and <b>ExReInitializeRundownProtection</b> calls, the driver might call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exrundowncompleted">ExRundownCompleted</a> routine to indicate that the run down of the old object has completed.
 
-On entry, the status information in the <b>EX_RUNDOWN_REF</b> structure must indicate that the old object was run down. Otherwise, <b>ExReInitializeRundownProtection</b> bug checks in checked builds.
+On entry, the status information in the <b>EX_RUNDOWN_REF</b> structure must indicate that the old object was run down. 
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/run-down-protection">Run-Down Protection</a>.
 

@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW (d3d12umddi.h)
 description: Create constant buffer view.
 ms.assetid: 20f24353-affc-4862-ba13-e3bfc2c0a74d
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -60,10 +59,6 @@ Pointer to a D3D12DDI_CONSTANT_BUFFER_VIEW_DESC structure.
 ### -param DestDescriptor
 
 CPU descriptor handle.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

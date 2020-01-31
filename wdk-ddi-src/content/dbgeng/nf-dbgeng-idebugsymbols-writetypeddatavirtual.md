@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: c7a3854b-2405-4e20-8c6c-4e0c0d43987e
 ms.date: 05/03/2018
 ms.keywords: IDebugSymbols interface [Windows Debugging],WriteTypedDataVirtual method, IDebugSymbols.WriteTypedDataVirtual, IDebugSymbols2 interface [Windows Debugging],WriteTypedDataVirtual method, IDebugSymbols2::WriteTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging],WriteTypedDataVirtual method, IDebugSymbols3::WriteTypedDataVirtual, IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols_51186c12-dc2b-4906-a8fa-9e0f4a960135.xml, WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], WriteTypedDataVirtual method [Windows Debugging],IDebugSymbols interface, WriteTypedDataVirtual method [Windows Debugging],IDebugSymbols2 interface, WriteTypedDataVirtual method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::WriteTypedDataVirtual, dbgeng/IDebugSymbols3::WriteTypedDataVirtual, dbgeng/IDebugSymbols::WriteTypedDataVirtual, debugger.writetypeddatavirtual
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols.WriteTypedDataVirtual"
 req.header: dbgeng.h

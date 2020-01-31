@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 6362ca08-cf8d-4e54-b144-10b2252f05c5
 ms.date: 04/23/2018
 ms.keywords: AVStrMiniPinPower, AVStrMiniPinPower routine [Streaming Media Devices], PFNKSPINPOWER, avstclbk_fd047ae3-b574-4dad-a16b-2152193fb2cd.xml, ks/AVStrMiniPinPower, stream.avstrminipinpower
-ms.topic: callback
 f1_keywords:
  - "ks/AVStrMiniPinPower"
 req.header: ks.h
@@ -64,15 +63,6 @@ Points to a pin-centric <a href="https://docs.microsoft.com/windows-hardware/dri
 ### -param State [in]
 
 Specifies the device power state being requested. Set this parameter to one of the following DEVICE_POWER_STATE enumeration values: <b>PowerDeviceD0</b>, <b>PowerDeviceD1</b>, <b>PowerDeviceD2</b>, or <b>PowerDeviceD3</b>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

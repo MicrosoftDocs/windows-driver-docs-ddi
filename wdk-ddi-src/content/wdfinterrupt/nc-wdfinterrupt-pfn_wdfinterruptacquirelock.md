@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 6a2fe0d5-bc7e-4d3e-8f47-8206fd42a36f
 ms.date: 01/11/2018
 ms.keywords: wdf.wdfinterruptacquirelock, PFN_WDFINTERRUPTACQUIRELOCK, WdfInterruptAcquireLock callback function, WdfInterruptAcquireLock, wdfinterrupt/WdfInterruptAcquireLock, DFInterruptObjectRef_9d3cd9a1-801c-437a-b1df-7e2819d1465a.xml, kmdf.wdfinterruptacquirelock
-ms.topic: callback
 f1_keywords:
  - "wdfinterrupt/WdfInterruptAcquireLock"
 req.header: wdfinterrupt.h
@@ -89,19 +88,11 @@ VOID WdfInterruptAcquireLock(
 A handle to a framework interrupt object.
 
 
-## -returns
-
-
-None.
-
-A bug check occurs if the driver supplies an invalid object handle.
-
-
-
 
 
 ## -remarks
 
+A bug check occurs if the driver supplies an invalid object handle.
 
 When a driver calls <b>WdfInterruptAcquireLock</b> on a DIRQL interrupt object, the system raises the processor's IRQL to the device's DIRQL and acquires the spin lock that the driver specified in the interrupt object's <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_config.md">WDF_INTERRUPT_CONFIG</a> structure. As a result, the interrupt object's <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a> and <a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_synchronize.md">EvtInterruptSynchronize</a> callback functions (and any other code that calls <b>WdfInterruptAcquireLock</b> for the same interrupt object) cannot execute.
 

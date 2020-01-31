@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 316a4d8b-4cf6-4270-8d9b-e1ede53d567d
 ms.date: 05/03/2018
 ms.keywords: IDebugClient3, IDebugClient3 interface [Windows Debugging], IDebugClient3 interface [Windows Debugging],described, dbgeng/IDebugClient3, debugger.idebugclient3
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugClient3"
 req.header: dbgeng.h
@@ -56,55 +55,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient3</b> interface i
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDebugClient3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-createprocessandattachwide">CreateProcessAndAttachWide</a>
-</td>
-<td align="left" width="63%">
-Creates a process from a specified command line, then attaches to another user-mode process.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-createprocesswide">CreateProcessWide</a>
-</td>
-<td align="left" width="63%">
-Creates a process from the specified command line.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-getrunningprocessdescriptionwide">GetRunningProcessDescriptionWide</a>
-</td>
-<td align="left" width="63%">
-Returns a description of the process that includes the executable image name, the service names, the MTS package names, and the command line.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient5-getrunningprocesssystemidbyexecutablenamewide">GetRunningProcessSystemIdByExecutableNameWide</a>
-</td>
-<td align="left" width="63%">
- Searches for a process with a given executable file name and return its process ID.
-
-
-</td>
-</tr>
-</table> 
-
 
 ## -see-also
 

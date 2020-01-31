@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 1e33f284-6cb9-426f-a900-76b827341927
 ms.date: 02/26/2018
 ms.keywords: IWDFIoRequest2 interface,Requeue method, IWDFIoRequest2.Requeue, IWDFIoRequest2::Requeue, Requeue, Requeue method, Requeue method,IWDFIoRequest2 interface, UMDFRequestObjectRef_e86bd6e8-ed4b-42e8-a32f-29c4415e1384.xml, umdf.iwdfiorequest2_requeue, wdf.iwdfiorequest2_requeue, wudfddi/IWDFIoRequest2::Requeue
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.Requeue"
 req.header: wudfddi.h
@@ -51,13 +50,6 @@ req.typenames:
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Requeue</b> method returns an I/O request to the head of the I/O queue from which it was delivered to the driver.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

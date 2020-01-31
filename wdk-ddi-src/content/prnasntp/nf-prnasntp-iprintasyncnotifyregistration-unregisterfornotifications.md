@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: C1B7EE25-B95B-4EAA-8826-269099352FDF
 ms.date: 04/20/2018
 ms.keywords: IPrintAsyncNotifyRegistration interface [Print Devices],UnregisterForNotifications method, IPrintAsyncNotifyRegistration.UnregisterForNotifications, IPrintAsyncNotifyRegistration::UnregisterForNotifications, UnregisterForNotifications, UnregisterForNotifications method [Print Devices], UnregisterForNotifications method [Print Devices],IPrintAsyncNotifyRegistration interface, print.iprintasyncnotifyregistration_unregisterfornotifications, prnasntp/IPrintAsyncNotifyRegistration::UnregisterForNotifications
-ms.topic: method
 f1_keywords:
  - "prnasntp/IPrintAsyncNotifyRegistration.UnregisterForNotifications"
 req.header: prnasntp.h
@@ -51,18 +50,11 @@ req.typenames:
 
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

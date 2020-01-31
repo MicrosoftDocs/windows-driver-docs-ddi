@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 13EC62D0-6C70-46BE-8088-2DEC7012EE1A
 ms.date: 04/30/2018
 ms.keywords: DMA_COMPLETION_ROUTINE, DmaCompletionRoutine, DmaCompletionRoutine routine [Kernel-Mode Driver Architecture], kernel.dmacompletionroutine, wdm/DmaCompletionRoutine
-ms.topic: callback
 f1_keywords:
  - "wdm/DmaCompletionRoutine"
 req.header: wdm.h
@@ -74,15 +73,6 @@ A pointer to a driver-determined context for the <i>DmaCompletionRoutine</i> rou
 ### -param Status [in]
 
 The completion status of the DMA transfer. This parameter is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-dma_completion_status">DMA_COMPLETION_STATUS</a> enumeration value that indicates whether the DMA transfer completed successfully.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

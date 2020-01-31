@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: 3af300cf-1518-49bc-8192-9fa3e6c64981
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: function
 f1_keywords:
  - "netadapterpacket/NET_EXTENSION_QUERY_INIT"
 ms.keywords: NET_EXTENSION_QUERY_INIT
 req.header: netadapterpacket.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

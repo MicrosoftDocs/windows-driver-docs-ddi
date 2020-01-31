@@ -7,7 +7,6 @@ tech.root: devtest
 ms.assetid: 3b43943d-99b7-4d60-96fe-019f4ba2b809
 ms.date: 02/23/2018
 ms.keywords: DebugFns_77b08eed-2f06-4ede-b02f-f1a7a5ab9ba5.xml, KdRefreshDebuggerNotPresent, KdRefreshDebuggerNotPresent function [Driver Development Tools], devtest.kdrefreshdebuggernotpresent, ntddk/KdRefreshDebuggerNotPresent
-ms.topic: function
 f1_keywords:
  - "wdm/KdRefreshDebuggerNotPresent"
 req.header: wdm.h
@@ -51,13 +50,6 @@ req.typenames:
 The <b>KdRefreshDebuggerNotPresent</b> macro refreshes the value of the <a href="https://docs.microsoft.com/previous-versions/ff548125(v=vs.85)">KD_DEBUGGER_NOT_PRESENT</a> global kernel variable.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 
@@ -77,7 +69,7 @@ If a kernel debugger was recently attached or removed, the value of KD_DEBUGGER_
 
 KD_DEBUGGER_NOT_PRESENT can be modified by Windows or any other kernel-mode binary. Therefore, it is possible that the most recent return value of <b>KdRefreshDebuggerNotPresent</b> may not match the current value of KD_DEBUGGER_NOT_PRESENT.
 
-<div class="alert"><b>Note</b>  <b>KdRefreshDebuggerNotPresent</b> works equally well in the free build of a driver and the checked build of a driver -- unlike the other routines beginning with the letters "Kd."</div>
+
 <div> </div>
 The following sample shows how to use <b>KdRefreshDebuggerNotPresent</b>:
 

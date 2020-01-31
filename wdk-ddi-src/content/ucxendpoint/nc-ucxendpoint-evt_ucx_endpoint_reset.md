@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 927fdd48-416e-4e8f-a29c-c2799952197e
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_ENDPOINT_RESET, EVT_UCX_ENDPOINT_RESET callback, EvtUcxEndpointReset, EvtUcxEndpointReset callback function [Buses], PEVT_UCX_ENDPOINT_RESET, PEVT_UCX_ENDPOINT_RESET callback function pointer [Buses], buses.evt_ucx_endpoint_reset, ucxendpoint/EvtUcxEndpointReset
-ms.topic: callback
 f1_keywords:
  - "ucxendpoint/PEVT_UCX_ENDPOINT_RESET"
 req.header: ucxendpoint.h
@@ -72,15 +71,6 @@ A handle to a framework request object that the client driver completes when the
 #### - Endpoint [in]
 
 A handle to a UCXENDPOINT object that represents the endpoint.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

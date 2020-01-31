@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 83801ea2-1beb-4b73-8906-ffefee67a2ac
 ms.date: 04/23/2018
 ms.keywords: "*PKS_DATARANGE_VIDEO_VBI, KS_DATARANGE_VIDEO_VBI, KS_DATARANGE_VIDEO_VBI structure [Streaming Media Devices], PKS_DATARANGE_VIDEO_VBI, PKS_DATARANGE_VIDEO_VBI structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO_VBI, ksmedia/PKS_DATARANGE_VIDEO_VBI, stream.ks_datarange_video_vbi, tagKS_DATARANGE_VIDEO_VBI, vidcapstruct_79d2aa9b-f3b9-4faf-b06e-6048686602a5.xml"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KS_DATARANGE_VIDEO_VBI"
 req.header: ksmedia.h

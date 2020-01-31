@@ -6,7 +6,6 @@ old-location: display\checkcryptosessionstatus.htm
 ms.assetid: C7BA5CE0-F89E-4C4B-9976-B9CB6BF8DA81
 ms.date: 05/10/2018
 ms.keywords: CheckCryptoSessionStatus, CheckCryptoSessionStatus callback function [Display Devices], PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS, PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS callback, d3d10umddi/CheckCryptoSessionStatus, display.checkcryptosessionstatus
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -61,10 +60,6 @@ A handle to the cryptographic session object that was created through a call to 
 ### -param pStatus
 
 Receives a status as a value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3dwddm2_0ddi_crypto_session_status">D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS</a> enumeration.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

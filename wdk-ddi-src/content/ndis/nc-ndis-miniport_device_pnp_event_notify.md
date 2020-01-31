@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: e41240c0-17be-42ef-a72c-c5311115cf64
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_DEVICE_PNP_EVENT_NOTIFY, MINIPORT_DEVICE_PNP_EVENT_NOTIFY callback, MiniportDevicePnPEventNotify, MiniportDevicePnPEventNotify callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_5f503cae-149c-447c-b3f5-cb09d2c47ad7.xml, ndis/MiniportDevicePnPEventNotify, netvista.miniportdevicepnpeventnotify
-ms.topic: callback
 f1_keywords:
  - "ndis/MiniportDevicePnPEventNotify"
 req.header: ndis.h
@@ -71,15 +70,6 @@ A handle to a context area that the miniport driver allocated in its
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_device_pnp_event">NET_DEVICE_PNP_EVENT</a> structure that
      describes a device Plug and Play event.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

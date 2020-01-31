@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: A13F2A98-BADA-43B8-A24B-0749C5558C35
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_PEER_DELETE_IND, NDIS_WDI_PEER_DELETE_IND callback, NdisWdiPeerDeleteIndication, NdisWdiPeerDeleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiPeerDeleteIndication, netvista.ndiswdipeerdeleteindication
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/NdisWdiPeerDeleteIndication"
 req.header: dot11wdi.h
@@ -77,15 +76,6 @@ The peer ID.
 ### -param *pWifiStatus [out]
 
 Indicates whether the peer deletion completed synchronously (if status is set to <b>NDIS_STATUS_SUCCESS</b>), or whether WDI will issue a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_peer_delete_confirm">MiniportWdiTalTxRxPeerDeleteConfirm</a> when peer deletion completes.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

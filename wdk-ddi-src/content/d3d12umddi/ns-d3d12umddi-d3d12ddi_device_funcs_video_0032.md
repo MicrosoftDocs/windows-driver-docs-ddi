@@ -6,7 +6,6 @@ old-location: display\d3d12ddi-device-funcs-video-0032.htm
 ms.assetid: 2b71c48a-a028-4bfa-a8bd-ad612aa800ff
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0032, D3D12DDI_DEVICE_FUNCS_VIDEO_0032 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0032, display.d3d12ddi-device-funcs-video-0032
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0032"
 req.header: d3d12umddi.h

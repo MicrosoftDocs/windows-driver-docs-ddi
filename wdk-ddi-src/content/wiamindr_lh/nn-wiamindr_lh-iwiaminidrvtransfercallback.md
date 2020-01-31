@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: A3D874CB-1F43-4AA0-975B-35C0C5F7A13C
 ms.date: 05/03/2018
 ms.keywords: IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback interface [Imaging Devices], IWiaMiniDrvTransferCallback interface [Imaging Devices],described, image.iwiaminidrvtransfercallback, wiamindr_lh/IWiaMiniDrvTransferCallback
-ms.topic: interface
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrvTransferCallback"
 req.header: wiamindr_lh.h
@@ -49,15 +48,6 @@ req.typenames:
 This is a Callback interface that is called by the WIA mini-driver for stream-based transfers.
 
 ## -inheritance
-
-## -members
-
-The **IWiaMiniDrvTransferCallback** interface has these methods.
-
-| Method | Description |
-| --- | --- |
-| [GetNextStream](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvtransfercallback-getnextstream) | Called by the WIA mini-driver to obtain a stream for the current data transfer (download or upload). |
-| [SendMessage](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvtransfercallback-sendmessage) | Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer. |
 
 ## -see-also
 

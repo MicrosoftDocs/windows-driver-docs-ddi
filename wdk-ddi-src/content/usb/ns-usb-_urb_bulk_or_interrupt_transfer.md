@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 398f50ad-4c58-4585-8fb8-c523b74793e9
 ms.date: 05/07/2018
 ms.keywords: USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, _URB_BULK_OR_INTERRUPT_TRANSFER, _URB_BULK_OR_INTERRUPT_TRANSFER structure [Buses], buses._urb_bulk_or_interrupt_transfer, usb/_URB_BULK_OR_INTERRUPT_TRANSFER, usbstrct_3d3da976-5136-4648-850e-c0e3fe0999d8.xml
-ms.topic: struct
 f1_keywords:
  - "usb/_URB_BULK_OR_INTERRUPT_TRANSFER"
 req.header: usb.h

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: b29d35bd-d27d-4507-9fa7-5648bcb1f825
 ms.date: 04/16/2018
 ms.keywords: FsRtlCancellableWaitForSingleObject, FsRtlCancellableWaitForSingleObject routine [Installable File System Drivers], fsrtlref_5515496d-6e38-488c-8fbf-439aa4ac555a.xml, ifsk.fsrtlcancellablewaitforsingleobject, ntifs/FsRtlCancellableWaitForSingleObject
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlCancellableWaitForSingleObject"
 req.header: ntifs.h

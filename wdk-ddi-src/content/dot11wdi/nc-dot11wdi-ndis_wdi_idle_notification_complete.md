@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 22622545-F92E-4FEE-8F5D-64EC792490C7
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_IDLE_NOTIFICATION_COMPLETE, NDIS_WDI_IDLE_NOTIFICATION_COMPLETE callback, NdisWdiIdleNotificationComplete, NdisWdiIdleNotificationComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiIdleNotificationComplete, netvista.ndiswdiidlenotificationcomplete
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/NdisWdiIdleNotificationComplete"
 req.header: dot11wdi.h
@@ -61,15 +60,6 @@ This is a control path callback inside <a href="https://docs.microsoft.com/windo
 ### -param MiniportAdapterHandle [in]
 
 The miniport handle.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

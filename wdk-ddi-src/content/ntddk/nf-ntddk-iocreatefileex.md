@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 47d5e7e2-bc97-4413-b1ca-ef958288902c
 ms.date: 04/16/2018
 ms.keywords: IoCreateFileEx, IoCreateFileEx routine [Installable File System Drivers], ifsk.iocreatefileex, ioref_7e2e6fcc-6ec5-4329-a855-c9f4a06b5434.xml, ntddk/IoCreateFileEx
-ms.topic: function
 f1_keywords:
  - "ntddk/IoCreateFileEx"
 req.header: ntddk.h

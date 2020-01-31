@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 72FD2A3B-B246-41BA-BEB6-169C214C32D7
 ms.date: 04/16/2018
 ms.keywords: "*PFILE_LEVEL_TRIM, FILE_LEVEL_TRIM, FILE_LEVEL_TRIM structure [Installable File System Drivers], PFILE_LEVEL_TRIM, PFILE_LEVEL_TRIM structure pointer [Installable File System Drivers], _FILE_LEVEL_TRIM, ifsk.file_level_trim, ntifs/FILE_LEVEL_TRIM, ntifs/PFILE_LEVEL_TRIM"
-ms.topic: struct
 f1_keywords:
  - "ntifs/FILE_LEVEL_TRIM"
 req.header: ntifs.h

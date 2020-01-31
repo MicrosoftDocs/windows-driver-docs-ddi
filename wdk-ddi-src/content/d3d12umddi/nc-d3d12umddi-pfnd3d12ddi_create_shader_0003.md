@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATE_SHADER_0003 (d3d12umddi.h)
 description: Create shader.
 ms.assetid: 789087e8-bc98-4ccf-936e-cf880c89d176
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -72,10 +71,6 @@ Pointer to a D3D12DDIARG_STAGE_IO_SIGNATURES structure.
 ### -param Arg6
 
 Flags to create a shader.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

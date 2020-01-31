@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_setviewinstancemask_0033.htm
 ms.assetid: 0A41AC01-9F45-4026-9451-AEF2732C9084
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_SETVIEWINSTANCEMASK_0033, PFND3D12DDI_SETVIEWINSTANCEMASK_0033 callback, PFND3D12DDI_SETVIEWINSTANCEMASK_0033 callback function [Display Devices], d3d12umddi/PFND3D12DDI_SETVIEWINSTANCEMASK_0033, display.pfnd3d12ddi_setviewinstancemask_0033
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_SETVIEWINSTANCEMASK_0033"
 req.header: d3d12umddi.h
@@ -66,14 +65,6 @@ A handle to the driver's data for the command list. The driver uses this region 
 
 The mask that will be set.
 
-
-
-
-## -returns
-
-
-
-This callback function does not return a value.
 
 
 

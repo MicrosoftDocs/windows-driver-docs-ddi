@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0a9685f8-f201-4d1b-aef6-c4ac78100a80
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_KERNELOVERLAYINFO, D3DDDI_KERNELOVERLAYINFO structure [Display Devices], D3D_other_Structs_ee8ebc87-60be-4b70-8428-4db20bcbdaa0.xml, _D3DDDI_KERNELOVERLAYINFO, d3dukmdt/D3DDDI_KERNELOVERLAYINFO, display.d3dddi_kerneloverlayinfo
-ms.topic: struct
 f1_keywords:
  - "d3dukmdt/D3DDDI_KERNELOVERLAYINFO"
 req.header: d3dukmdt.h

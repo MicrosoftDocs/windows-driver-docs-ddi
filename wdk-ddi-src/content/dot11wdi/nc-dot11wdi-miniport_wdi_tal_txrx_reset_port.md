@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: BB584FC9-8048-42F4-AFA9-7BF6790EDD69
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TAL_TXRX_RESET_PORT, MINIPORT_WDI_TAL_TXRX_RESET_PORT callback, MiniportWdiTalTxRxResetPort, MiniportWdiTalTxRxResetPort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxResetPort, netvista.miniportwditaltxrxresetport
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiTalTxRxResetPort"
 req.header: dot11wdi.h
@@ -68,15 +67,6 @@ TAL device handle returned by the IHV miniport in <a href="https://docs.microsof
 ### -param PortId [in]
 
 Port ID for the port being reset.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

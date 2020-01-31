@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 79edb8b3-24a1-4dc0-b816-f78bbc888d3a
 ms.date: 04/30/2018
 ms.keywords: IoReleaseRemoveLockAndWait, IoReleaseRemoveLockAndWait routine [Kernel-Mode Driver Architecture], k104_bcbaa84f-6216-4ea4-9527-fb7e62d323a3.xml, kernel.ioreleaseremovelockandwait, wdm/IoReleaseRemoveLockAndWait
-ms.topic: macro
 f1_keywords:
  - "wdm/IoReleaseRemoveLockAndWait"
 req.header: wdm.h
@@ -65,11 +64,10 @@ Pointer to an <b>IO_REMOVE_LOCK</b> structure that the caller passed in a previo
 
 Pointer to a caller-supplied tag that was passed in a previous call to <b>IoAcquireRemoveLock</b>. 
 
-If a driver specified a <i>Tag</i> when it acquired the lock, the driver must specify the same <i>Tag</i> when releasing the lock. If the tags do not match, this routine asserts on a checked build.
+If a driver specified a <i>Tag</i> when it acquired the lock, the driver must specify the same <i>Tag</i> when releasing the lock. 
 
 If the call to <b>IoAcquireRemoveLock</b> did not specify a <i>Tag</i>, then this parameter is <b>NULL</b>.
 
-The I/O system only uses this parameter on checked builds.
 
 
 ## -remarks

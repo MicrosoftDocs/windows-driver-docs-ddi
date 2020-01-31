@@ -4,7 +4,6 @@ title: EVT_TR_DESTROY_SECURE_SERVICE_CONTEXT (trustedruntimeclx.h)
 description: 
 ms.assetid: 29b30f6b-8050-41ce-9dbb-2f0bef850eff
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "trustedruntimeclx/EVT_TR_DESTROY_SECURE_SERVICE_CONTEXT"
 req.header: trustedruntimeclx.h
@@ -44,7 +43,7 @@ ms.custom: RS5
 
  
 
-## -prototype
+## -syntax
 
 ```cpp
 //Declaration

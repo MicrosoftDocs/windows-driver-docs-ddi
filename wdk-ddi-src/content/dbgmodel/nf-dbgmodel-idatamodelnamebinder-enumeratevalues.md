@@ -4,7 +4,6 @@ title: IDataModelNameBinder::EnumerateValues (dbgmodel.h)
 description: The EnumerateValues method enumerates the set of names and values which will bind against the object according to the rules of the BindValue method.
 ms.assetid: c704a73d-a6c1-4ff6-b2a1-4c5f683b0582
 ms.date: 09/12/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelNameBinder.EnumerateValues"
 ms.keywords: IDataModelNameBinder::EnumerateValues, EnumerateValues, IDataModelNameBinder.EnumerateValues, IDataModelNameBinder::EnumerateValues, IDataModelNameBinder.EnumerateValues

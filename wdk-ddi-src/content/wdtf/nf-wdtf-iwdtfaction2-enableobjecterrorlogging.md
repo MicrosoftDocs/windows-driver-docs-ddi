@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: 684e3c82-65f1-43fd-858a-461760dcaa8d
 ms.date: 04/04/2018
 ms.keywords: EnableObjectErrorLogging, EnableObjectErrorLogging method [Windows Device Testing Framework], EnableObjectErrorLogging method [Windows Device Testing Framework],IWDTFAction2 interface, IWDTFAction2 interface [Windows Device Testing Framework],EnableObjectErrorLogging method, IWDTFAction2.EnableObjectErrorLogging, IWDTFAction2::EnableObjectErrorLogging, Microsoft.WDTF.IWDTFAction2.EnableObjectErrorLogging, Microsoft::WDTF::IWDTFAction2::EnableObjectErrorLogging, dtf.iwdtfaction2_enableobjecterrorlogging, wdtf/IWDTFAction2::EnableObjectErrorLogging
-ms.topic: method
 f1_keywords:
  - "wdtf/IWDTFAction2.EnableObjectErrorLogging"
 req.header: wdtf.h
@@ -49,13 +48,6 @@ req.typenames:
 
 
 Enables object error logging for the action.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

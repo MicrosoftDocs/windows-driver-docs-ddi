@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 015592AE-4AF6-48C8-BF79-6B22A6FCAB98
 ms.date: 03/29/2018
 ms.keywords: StorPortGetDataInBufferScatterGatherList, StorPortGetDataInBufferScatterGatherList routine [Storage Devices], storage.storportgetdatainbufferscattergatherlist, storport/StorPortGetDataInBufferScatterGatherList
-ms.topic: function
 f1_keywords:
  - "storport/StorPortGetDataInBufferScatterGatherList"
 req.header: storport.h

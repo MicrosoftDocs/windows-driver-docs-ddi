@@ -6,7 +6,6 @@ old-location: display\videoprocessorinputviewreadafterwritehazard.htm
 ms.assetid: 320cfd00-656a-47ce-912e-7196986deaae
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORINPUTVIEWREADAFTERWRITEHAZARD, PFND3D11_1DDI_VIDEOPROCESSORINPUTVIEWREADAFTERWRITEHAZARD callback, VideoProcessorInputViewReadAfterWriteHazard, VideoProcessorInputViewReadAfterWriteHazard callback function [Display Devices], d3d10umddi/VideoProcessorInputViewReadAfterWriteHazard, display.videoprocessorinputviewreadafterwritehazard
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/VideoProcessorInputViewReadAfterWriteHazard"
 req.header: d3d10umddi.h
@@ -73,15 +72,6 @@ A handle to the driver's private data for the video processor input view that wa
 *hResource* [in]
 
 A handle to the driver's private data for an input view resource object. This handle is created though a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorinputview">CreateVideoProcessorInputView</a> function.
-
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
 
 
 

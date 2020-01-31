@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 3e8053b7-a063-4143-a02d-35d917ca1e81
 ms.date: 04/30/2018
 ms.keywords: Cancel, Cancel routine [Kernel-Mode Driver Architecture], DRIVER_CANCEL, DrvrRtns_790a0e91-0752-42ac-a5f0-4fee193765f0.xml, kernel.cancel, wdm/Cancel
-ms.topic: callback
 f1_keywords:
  - "wdm/Cancel"
 req.header: wdm.h
@@ -64,15 +63,6 @@ Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardwar
 ### -param *Irp [in, out]
 
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that describes the I/O operation to be canceled.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

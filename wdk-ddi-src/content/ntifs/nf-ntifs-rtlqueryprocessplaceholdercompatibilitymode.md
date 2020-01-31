@@ -5,7 +5,6 @@ description: RtlQueryProcessPlaceholderCompatibilityMode returns the placeholder
 tech.root: ifsk
 ms.assetid: 259275e9-2680-4b7a-a291-83ee9a1fb9c9
 ms.date: 10/19/2018
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlQueryProcessPlaceholderCompatibilityMode"
 ms.keywords: RtlQueryProcessPlaceholderCompatibilityMode
@@ -46,9 +45,6 @@ targetos: Windows
 ## -description
 
  **RtlQueryProcessPlaceholderCompatibilityMode** returns the placeholder compatibility mode for the current process.
-
-## -parameters
-
 
 ## -returns
 This function returns the process's placeholder compatibily mode (PHCM_xxx), or a negative value on error (PCHM_ERROR_xxx). Contains one of the following values:

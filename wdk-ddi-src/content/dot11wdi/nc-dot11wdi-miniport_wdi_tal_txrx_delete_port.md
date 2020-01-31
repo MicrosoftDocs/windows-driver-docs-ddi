@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 3DB6AC6F-2A6F-43E1-B98D-B4E5C8A87845
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TAL_TXRX_DELETE_PORT, MINIPORT_WDI_TAL_TXRX_DELETE_PORT callback, MiniportWdiTalTxRxDeletePort, MiniportWdiTalTxRxDeletePort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxDeletePort, netvista.miniportwditaltxrxdeleteport
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiTalTxRxDeletePort"
 req.header: dot11wdi.h
@@ -68,15 +67,6 @@ TAL device handle returned by the IHV miniport in <a href="https://docs.microsof
 ### -param PortId [in]
 
 Port ID that specifies the deleted port.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

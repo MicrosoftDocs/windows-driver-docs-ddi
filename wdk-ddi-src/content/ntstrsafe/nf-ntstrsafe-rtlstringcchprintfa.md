@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: e1c04e73-3055-4de8-bd8d-8d0a13541612
 ms.date: 04/30/2018
 ms.keywords: RtlStringCchPrintf, RtlStringCchPrintfA, RtlStringCchPrintfW, RtlStringCchPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchprintf, ntstrsafe/RtlStringCchPrintfA, ntstrsafe/RtlStringCchPrintfW, safestrings_d1041cf8-bec9-4eef-8de8-7b662d474263.xml
-ms.topic: function
 f1_keywords:
  - "ntstrsafe/RtlStringCchPrintfW"
 req.header: ntstrsafe.h

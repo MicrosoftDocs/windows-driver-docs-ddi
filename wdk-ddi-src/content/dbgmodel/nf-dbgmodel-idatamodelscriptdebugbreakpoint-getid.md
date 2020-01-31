@@ -4,7 +4,6 @@ title: IDataModelScriptDebugBreakpoint::GetId (dbgmodel.h)
 description: The GetId method returns the unique identifier assigned by the script provider's debug engine to the breakpoint. 
 ms.assetid: bc277aed-d7ac-4bd9-b3bb-4ef27489eabc
 ms.date: 09/10/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpoint.GetId"
 ms.keywords: IDataModelScriptDebugBreakpoint::GetId, GetId, IDataModelScriptDebugBreakpoint.GetId, IDataModelScriptDebugBreakpoint::GetId, IDataModelScriptDebugBreakpoint.GetId
@@ -46,9 +45,6 @@ ms.custom: RS5
 ## -description
 
 The GetId method returns the unique identifier assigned by the script provider's debug engine to the breakpoint. This identifier must be unique within the context of the containing script. The breakpoint identifier may be unique to the provider; however, that is not required. 
-
-## -parameters
-
 
 ## -returns
 This method returns ULONG64. The value is the unique identifier assigned to the breakpoint.

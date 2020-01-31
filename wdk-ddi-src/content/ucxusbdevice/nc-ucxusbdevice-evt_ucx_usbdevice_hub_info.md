@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 5bf8000d-63d8-4901-b3fc-d3c43cefe37e
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_USBDEVICE_HUB_INFO, EVT_UCX_USBDEVICE_HUB_INFO callback, EvtUcxUsbDeviceHubInfo, EvtUcxUsbDeviceHubInfo callback function [Buses], PEVT_UCX_USBDEVICE_HUB_INFO, PEVT_UCX_USBDEVICE_HUB_INFO callback function pointer [Buses], buses.evt_ucx_usbdevice_hub_info, ucxusbdevice/EvtUcxUsbDeviceHubInfo
-ms.topic: callback
 f1_keywords:
  - "ucxusbdevice/PEVT_UCX_USBDEVICE_HUB_INFO"
 req.header: ucxusbdevice.h
@@ -65,15 +64,6 @@ retrieve hub properties.
 ### -param Request [in]
 
 Contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_hub_info">USBDEVICE_HUB_INFO</a> structure.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

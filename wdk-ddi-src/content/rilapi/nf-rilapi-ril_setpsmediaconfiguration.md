@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 66fa9900-0195-4ec0-b181-6f791247422c
 ms.date: 05/02/2018
 ms.keywords: RIL_SetPSMediaConfiguration, RIL_SetPSMediaConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_setpsmediaconfiguration, rilapi/RIL_SetPSMediaConfiguration
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_SetPSMediaConfiguration"
 req.header: rilapi.h

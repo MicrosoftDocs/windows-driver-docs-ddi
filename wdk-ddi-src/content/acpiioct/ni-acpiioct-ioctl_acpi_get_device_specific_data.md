@@ -7,7 +7,6 @@ tech.root: acpi
 ms.assetid: D77E272D-833E-40EA-97AA-137E0A219730
 ms.date: 02/15/2018
 ms.keywords: IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA, IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA control, IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA control code [ACPI Devices], acpi.ioctl_acpi_get_device_specific_data, acpiioct/IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA
-ms.topic: ioctl
 f1_keywords:
  - "acpiioct/IOCTL_ACPI_GET_DEVICE_SPECIFIC_DATA"
 req.header: acpiioct.h

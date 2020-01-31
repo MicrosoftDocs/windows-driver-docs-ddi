@@ -6,7 +6,6 @@ old-location: display\createsampler.htm
 ms.assetid: 603bb033-390b-4965-b6ea-6acc2c7a8fcf
 ms.date: 05/10/2018
 ms.keywords: CreateSampler, CreateSampler callback function [Display Devices], PFND3D10DDI_CREATESAMPLER, PFND3D10DDI_CREATESAMPLER callback, UserModeDisplayDriverDx10_Functions_16c89dca-e337-42c7-a666-f0f4c9a6d3e3.xml, d3d10umddi/CreateSampler, display.createsampler
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/CreateSampler"
 req.header: d3d10umddi.h
@@ -82,18 +81,9 @@ A handle to the driver's private data for the sampler. The driver returns the si
 A handle to the sampler that the driver should use anytime it calls back into the Direct3D runtime. 
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
-
-
-
-
 ## -remarks
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 

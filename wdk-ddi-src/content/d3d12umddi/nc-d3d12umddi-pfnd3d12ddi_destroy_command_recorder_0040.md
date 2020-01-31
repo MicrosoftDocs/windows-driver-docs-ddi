@@ -4,7 +4,6 @@ title: PFND3D12DDI_DESTROY_COMMAND_RECORDER_0040 (d3d12umddi.h)
 description: Implemented by the client driver to clean up command recorder resources.
 ms.assetid: 361f2b22-ea1e-4535-a0e7-302dab683485
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -53,10 +52,6 @@ A handle to the display device (graphics context).
 ### -param Arg2
 
 A handle to the command recorder.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -prototype
 

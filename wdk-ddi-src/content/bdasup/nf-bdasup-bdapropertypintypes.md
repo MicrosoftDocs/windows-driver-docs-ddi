@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 155aafd7-0d26-47b1-9401-9d780e393e03
 ms.date: 04/23/2018
 ms.keywords: BdaPropertyPinTypes, BdaPropertyPinTypes function [Streaming Media Devices], bdaref_38003a0c-ac8f-4249-b7b1-a4979f05b7ab.xml, bdasup/BdaPropertyPinTypes, stream.bdapropertypintypes
-ms.topic: function
 f1_keywords:
  - "bdasup/BdaPropertyPinTypes"
 req.header: bdasup.h

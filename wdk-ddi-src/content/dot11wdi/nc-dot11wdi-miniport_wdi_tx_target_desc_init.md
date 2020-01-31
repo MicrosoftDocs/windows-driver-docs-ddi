@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: EAFE6F7D-6820-4626-863D-C28FBFFCE6A0
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TX_TARGET_DESC_INIT, MINIPORT_WDI_TX_TARGET_DESC_INIT callback, MiniportWdiTxTargetDescInit, MiniportWdiTxTargetDescInit callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTargetDescInit, netvista.miniportwditxtargetdescinit
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiTxTargetDescInit"
 req.header: dot11wdi.h
@@ -73,15 +72,6 @@ Pointer to a single <a href="https://docs.microsoft.com/windows-hardware/drivers
 ### -param *pWifiStatus [out]
 
 Pointer to the status set by the IHV to indicate the result of the <i>MINIPORT_WDI_TX_TARGET_DESC_INIT</i> callback function.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

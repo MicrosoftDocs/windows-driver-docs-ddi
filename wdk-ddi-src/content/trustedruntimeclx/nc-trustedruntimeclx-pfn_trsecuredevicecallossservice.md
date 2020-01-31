@@ -4,7 +4,6 @@ title: PFN_TRSECUREDEVICECALLOSSSERVICE (trustedruntimeclx.h)
 description: 
 ms.assetid: 66deec39-5ce0-4f88-8420-a2845e0f4c00
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "trustedruntimeclx/*PFN_TRSECUREDEVICECALLOSSSERVICE"
 req.header: trustedruntimeclx.h
@@ -44,7 +43,7 @@ ms.custom: RS5
 
  
 
-## -prototype
+## -syntax
 
 ```cpp
 //Declaration

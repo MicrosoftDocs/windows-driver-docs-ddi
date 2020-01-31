@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 224c8483-56b8-4341-8347-fa119ec04024
 ms.date: 05/10/2018
 ms.keywords: VideoPortUnmapMemory, VideoPortUnmapMemory function [Display Devices], VideoPort_Functions_394a66fa-47cd-4e0e-8467-3c3562d27822.xml, display.videoportunmapmemory, video/VideoPortUnmapMemory
-ms.topic: function
 f1_keywords:
  - "video/VideoPortUnmapMemory"
 req.header: video.h

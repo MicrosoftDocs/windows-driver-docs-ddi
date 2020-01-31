@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2DEEB379-C9E8-45E4-920D-D94F8C27A4EF
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MIRACAST_DESTROY_CONTEXT, DXGKDDI_MIRACAST_DESTROY_CONTEXT callback, DxgkDdiMiracastDestroyContext, DxgkDdiMiracastDestroyContext callback function [Display Devices], display.dxgkddimiracastdestroycontext, dispmprt/DxgkDdiMiracastDestroyContext
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiMiracastDestroyContext"
 req.header: dispmprt.h
@@ -64,15 +63,6 @@ A handle to a context block that is associated with a display adapter. The displ
 ### -param MiracastContext [in]
 
 The Miracast device context, supplied by the operating system. This context was previously provided by the driver in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_miracast_create_context">DxgkDdiMiracastCreateContext</a> function.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

@@ -6,7 +6,6 @@ old-location: display\videoprocessorsetoutputstereomode.htm
 ms.assetid: 3e3eaaa6-2725-49de-bca6-df2da1b4324b
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback, d3d10umddi/pfnVideoProcessorSetOutputStereoMode, display.videoprocessorsetoutputstereomode, pfnVideoProcessorSetOutputStereoMode, pfnVideoProcessorSetOutputStereoMode callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetOutputStereoMode"
 req.header: d3d10umddi.h
@@ -75,15 +74,6 @@ A handle to the video processor object that was created through a call to the <a
 *Enable* [in]
 
 If <b>TRUE</b>, stereo output is enabled. Otherwise, the video processor produces mono video frames.
-
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
 
 
 

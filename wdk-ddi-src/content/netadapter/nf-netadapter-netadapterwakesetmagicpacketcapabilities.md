@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: 43c226cd-11a2-4250-95d3-be9e2986acc2
 ms.author: windowsdriverdev
 ms.date: 10/25/2019
-ms.topic: function
 f1_keywords:
  - "netadapter/NetAdapterWakeSetMagicPacketCapabilities"
 ms.keywords: NetAdapterWakeSetMagicPacketCapabilities
 req.header: netadapter.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

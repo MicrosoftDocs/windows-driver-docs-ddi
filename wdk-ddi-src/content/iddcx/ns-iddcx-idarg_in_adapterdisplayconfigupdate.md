@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 67a33cad-55df-4e65-9f8a-5e684fad8d6e
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE"
 ms.prod: windows-hardware

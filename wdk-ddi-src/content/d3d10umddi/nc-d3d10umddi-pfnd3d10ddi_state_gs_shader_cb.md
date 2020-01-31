@@ -6,7 +6,6 @@ old-location: display\pfnstategsshadercb.htm
 ms.assetid: 2bcdc7bd-4327-4258-ad89-5e028cffd06b
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_STATE_GS_SHADER_CB, PFND3D10DDI_STATE_GS_SHADER_CB callback, d3d10state_functions_b6a723d5-84d5-4e7c-aeea-2d2bb2ada5eb.xml, d3d10umddi/pfnStateGsShaderCb, display.pfnstategsshadercb, pfnStateGsShaderCb, pfnStateGsShaderCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateGsShaderCb"
 req.header: d3d10umddi.h
@@ -61,15 +60,6 @@ The <b>pfnStateGsShaderCb</b> function causes the Microsoft Direct3D 10 runtime 
 *hRuntimeDevice* [in]
 
 A handle to a context for the core Direct3D 10 runtime. This handle is supplied to the driver in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function. 
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -see-also

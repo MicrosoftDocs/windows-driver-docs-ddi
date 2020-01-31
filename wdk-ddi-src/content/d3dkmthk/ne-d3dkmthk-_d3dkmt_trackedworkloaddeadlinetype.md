@@ -4,7 +4,6 @@ title: _D3DKMT_TRACKEDWORKLOADDEADLINETYPE (d3dkmthk.h)
 description: Specifies the tracked workload deadline type.
 ms.assetid: 7bf49b7e-0658-46c2-bc35-e5dcddb4f507
 ms.date: 10/19/2018
-ms.topic: enum
 f1_keywords:
  - "d3dkmthk/_D3DKMT_TRACKEDWORKLOADDEADLINETYPE"
 ms.keywords: _D3DKMT_TRACKEDWORKLOADDEADLINETYPE, D3DKMT_TRACKEDWORKLOADDEADLINETYPE, 

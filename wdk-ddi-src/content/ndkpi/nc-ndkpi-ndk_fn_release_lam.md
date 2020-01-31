@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 8CEBDCCE-5B71-443D-9DE5-F789E16843D7
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_RELEASE_LAM, NDK_FN_RELEASE_LAM callback, NdkReleaseLam, NdkReleaseLam callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReleaseLam, netvista.ndk_fn_release_lam
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkReleaseLam"
 req.header: ndkpi.h
@@ -65,15 +64,6 @@ A pointer to an NDK adapter object
 ### -param *pNdkLAM [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_logical_address_mapping">NDK_LOGICAL_ADDRESS_MAPPING</a> structure that was previously initialized by calling the <i>NdkBuildLAM</i>  (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_build_lam">NDK_FN_BUILD_LAM</a>) function.
-
-
-
-## -returns
-
-
-
-None
-
 
 
 

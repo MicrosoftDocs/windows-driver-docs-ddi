@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: b764e55e-e58b-4a4f-a32f-84e3cfd5f8c4
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_ac6da005-5f47-441d-8277-9beedb72c0ee.xml, FltRetrieveIoPriorityInfo, FltRetrieveIoPriorityInfo routine [Installable File System Drivers], fltkernel/FltRetrieveIoPriorityInfo, ifsk.fltretrieveiopriorityinfo
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltRetrieveIoPriorityInfo"
 req.header: fltkernel.h

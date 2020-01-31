@@ -6,7 +6,6 @@ old-location: display\copytiles.htm
 ms.assetid: 8DA0FF6C-CA2C-4943-93C3-BFC3773617CC
 ms.date: 05/10/2018
 ms.keywords: CopyTiles, CopyTiles callback function [Display Devices], PFND3DWDDM1_3DDI_COPYTILES, PFND3DWDDM1_3DDI_COPYTILES callback, d3d10umddi/CopyTiles, display.copytiles
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -80,7 +79,7 @@ A combination of <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 
 ## -returns
 
-None
+
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code.
 

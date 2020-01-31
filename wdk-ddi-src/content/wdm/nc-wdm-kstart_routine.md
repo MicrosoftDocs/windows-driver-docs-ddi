@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 4a4e4e0f-fadf-4f4c-9759-6d52ef9f663d
 ms.date: 04/30/2018
 ms.keywords: DrvrRtns_913b72f4-9f6b-4967-879d-c4e565d219dd.xml, KSTART_ROUTINE, ThreadStart, ThreadStart routine [Kernel-Mode Driver Architecture], kernel.threadstart, wdm/ThreadStart
-ms.topic: callback
 f1_keywords:
  - "wdm/ThreadStart"
 req.header: wdm.h
@@ -59,15 +58,6 @@ The <i>ThreadStart</i> routine provides an entry point for a driver-created syst
 ### -param StartContext [in]
 
 A caller-supplied pointer to driver-defined context information that is specified in the <i>StartContext</i> parameter a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-pscreatesystemthread">PsCreateSystemThread</a>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -see-also

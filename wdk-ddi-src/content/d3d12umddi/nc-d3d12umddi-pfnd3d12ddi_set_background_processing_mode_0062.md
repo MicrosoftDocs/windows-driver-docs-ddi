@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 5165a123-6ae6-41bb-9ce7-c152dfc0bb89
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0062"
 req.header: d3d12umddi.h
@@ -81,10 +80,6 @@ A [D3D12DDI_BACKGROUND_PROCESSING_MODE_0062](ne-d3d12umddi-d3d12ddi_background_p
 ### -param MeasurementsAction
 
 A [D3D12DDI_MEASUREMENTS_ACTION_0062](ne-d3d12umddi-d3d12ddi_measurements_action_0062.md) enumeration that represents the measurement action.
-
-## -returns
-
-Returns void.
 
 ## -remarks
 

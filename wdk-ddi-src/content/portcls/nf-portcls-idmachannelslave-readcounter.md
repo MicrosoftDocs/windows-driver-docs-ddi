@@ -5,7 +5,6 @@ description: The ReadCounter method reads the counter of a subordinate DMA objec
 tech.root: audio
 ms.assetid: e3b67baa-da4b-468b-be74-8b760002b597
 ms.date: 10/30/2018
-ms.topic: method
 f1_keywords:
  - "portcls/IDmaChannelSlave.ReadCounter"
 ms.keywords: IDmaChannelSlave::ReadCounter, ReadCounter, IDmaChannelSlave.ReadCounter, IDmaChannelSlave::ReadCounter, IDmaChannelSlave.ReadCounter
@@ -46,10 +45,6 @@ targetos: Windows
 ## -description
 
 The ReadCounter method reads the counter of a subordinate DMA object.
-
-## -parameters
-
-None
 
 ## -returns
 ReadCounter returns the DMA object's counter value as ULONG, which specifies the current byte count. When the object is started, this value is set to the map size (the IDmaChannelSlave::Start method's MapSize parameter). The value decrements until it reaches zero, at which time it is reset to the map size. This process repeats until the DMA object is stopped (by calling the IDmaChannelSlave::Stop method).

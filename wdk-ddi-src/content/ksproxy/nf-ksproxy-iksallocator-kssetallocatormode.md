@@ -5,9 +5,8 @@ description: Sets the mode in which an allocator allocates memory.
 old-location: stream\iksallocator_kssetallocatormode.htm
 tech.root: stream
 ms.assetid: 8F64E58D-9C04-43BA-9C1B-88AD081176A9
-ms.date: 04/23/2018
+ms.date: 11/18/2019
 ms.keywords: IKsAllocator interface [Streaming Media Devices],KsSetAllocatorMode method, IKsAllocator.KsSetAllocatorMode, IKsAllocator::KsSetAllocatorMode, KsSetAllocatorMode, KsSetAllocatorMode method [Streaming Media Devices], KsSetAllocatorMode method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsSetAllocatorMode, stream.iksallocator_kssetallocatormode
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsAllocator.KsSetAllocatorMode"
 req.header: ksproxy.h
@@ -44,43 +43,19 @@ req.typenames:
 
 # IKsAllocator::KsSetAllocatorMode
 
-
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+> [!IMPORTANT]
+> Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
 Sets the mode in which an allocator allocates memory.
 
-
 ## -parameters
-
-
-
 
 ### -param Mode
 
-
-
-
-
-
-## -returns
-
-
-
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
-
+The mode in which an allocator allocates memory.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocator">IKsAllocator</a>
- 
-
- 
-
+[IKsAllocator](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocator)

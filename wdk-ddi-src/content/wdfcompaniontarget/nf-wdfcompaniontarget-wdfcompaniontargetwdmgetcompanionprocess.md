@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 589c5076-e283-4cf4-bd9f-52a465794b06
 ms.date: 02/26/2018
 ms.keywords: WdfCompanionTargetWdmGetCompanionProcess, WdfCompanionTargetWdmGetCompanionProcess method, wdf.wdfcompaniontargetwdmgetcompanionprocess, wdfcompaniontarget/WdfCompanionTargetWdmGetCompanionProcess
-ms.topic: function
 f1_keywords:
  - "wdfcompaniontarget/WdfCompanionTargetWdmGetCompanionProcess"
 req.header: wdfcompaniontarget.h

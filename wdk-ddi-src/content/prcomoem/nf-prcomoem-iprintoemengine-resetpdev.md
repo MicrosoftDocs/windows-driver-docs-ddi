@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: DD8E4DAC-A4CA-4F1A-A898-E4A68A2D6715
 ms.date: 04/20/2018
 ms.keywords: IPrintOemEngine interface [Print Devices],ResetPDEV method, IPrintOemEngine.ResetPDEV, IPrintOemEngine::ResetPDEV, ResetPDEV, ResetPDEV method [Print Devices], ResetPDEV method [Print Devices],IPrintOemEngine interface, prcomoem/IPrintOemEngine::ResetPDEV, print.iprintoemengine_resetpdev
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemEngine.ResetPDEV"
 req.header: prcomoem.h
@@ -66,7 +65,7 @@ req.typenames:
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

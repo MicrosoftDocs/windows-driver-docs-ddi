@@ -6,7 +6,6 @@ old-location: display\createdevice_d3d10_.htm
 ms.assetid: c69eedb1-c975-412c-aa9f-cf64a702f937
 ms.date: 05/10/2018
 ms.keywords: CreateDevice, CreateDevice callback function [Display Devices], PFND3D10DDI_CREATEDEVICE, PFND3D10DDI_CREATEDEVICE callback, UserModeDisplayDriverDx10_Functions_4d3d9d4c-e03b-46a9-a62a-cb49f071c0a2.xml, d3d10umddi/CreateDevice, display.createdevice_d3d10_
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -69,8 +68,8 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |Return code|Description|
 |--- |--- |
 |S_OK|The graphics context was successfully created.|
-|DXGI_STATUS_NO_REDIRECTION|The graphics context was successfully created. However, the DirectX Graphics Infrastructure (DXGI) should not use the shared resource presentation path to effect communication with the Desktop Windows Manager (DWM). For more information about the DXGI DDI, see [Supporting the DXGI DDI](https://docs.microsoft.com/en-us/windows-hardware/drivers/display/supporting-the-dxgi-ddi).|
-|E_OUTOFMEMORY|[CreateDevice(D3D10)](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice) could not allocate the memory that was required for it to complete.|
+|DXGI_STATUS_NO_REDIRECTION|The graphics context was successfully created. However, the DirectX Graphics Infrastructure (DXGI) should not use the shared resource presentation path to effect communication with the Desktop Windows Manager (DWM). For more information about the DXGI DDI, see [Supporting the DXGI DDI](https://docs.microsoft.com/windows-hardware/drivers/display/supporting-the-dxgi-ddi).|
+|E_OUTOFMEMORY|[CreateDevice(D3D10)](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice) could not allocate the memory that was required for it to complete.|
 
 ## -remarks
 

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 7a580683-ae56-4566-95b4-b4d42ae0e1ab
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_791b0934-9cb7-430a-8b80-d7fe4f458f49.xml, ExtRemoteData class [Windows Debugging],GetBoolean method, ExtRemoteData.GetBoolean, ExtRemoteData::GetBoolean, GetBoolean, GetBoolean method [Windows Debugging], GetBoolean method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getboolean
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetBoolean"
 req.header: engextcpp.hpp
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>GetBoolean</b> method returns a Boolean version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

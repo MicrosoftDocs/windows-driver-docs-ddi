@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 08C795F2-64F9-4EFE-AA25-3B2FCB31D062
 ms.date: 04/30/2018
 ms.keywords: PsGetSiloContext, PsGetSiloContext routine [Kernel-Mode Driver Architecture], kernel.psgetsilocontext, ntddk/PsGetSiloContext
-ms.topic: function
 f1_keywords:
  - "ntddk/PsGetSiloContext"
 req.header: ntddk.h

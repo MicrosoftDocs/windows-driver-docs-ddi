@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: f589180c-5379-4f50-876e-48d142b44be4
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_RADIO, PWWAN_RADIO, PWWAN_RADIO enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_RADIO, WWAN_RADIO enumeration [Network Drivers Starting with Windows Vista], WwanRadioOff, WwanRadioOn, WwanRef_b864982c-e4b4-4a2e-b45b-ba6e534a1a71.xml, _WWAN_RADIO, netvista.wwan_radio, wwan/PWWAN_RADIO, wwan/WWAN_RADIO, wwan/WwanRadioOff, wwan/WwanRadioOn"
-ms.topic: enum
 f1_keywords:
  - "wwan/WWAN_RADIO"
 req.header: wwan.h

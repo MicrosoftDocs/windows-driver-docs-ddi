@@ -7,7 +7,6 @@ tech.root: SPB
 ms.assetid: 7FFFB495-7E6A-465C-AE93-B62957179531
 ms.date: 04/30/2018
 ms.keywords: SPB.spb_transfer_list_init, SPB_TRANSFER_LIST_INIT, SPB_TRANSFER_LIST_INIT function [Buses], spb/SPB_TRANSFER_LIST_INIT
-ms.topic: function
 f1_keywords:
  - "spb/SPB_TRANSFER_LIST_INIT"
 req.header: spb.h

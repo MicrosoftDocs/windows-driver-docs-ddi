@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: F5228B4C-B5CC-4F7F-91E6-B5BCED76BF7A
 ms.date: 04/20/2018
 ms.keywords: CancelAsyncCall, CancelAsyncCall method [Print Devices], CancelAsyncCall method [Print Devices],IPrintAsyncCookie interface, IPrintAsyncCookie interface [Print Devices],CancelAsyncCall method, IPrintAsyncCookie.CancelAsyncCall, IPrintAsyncCookie::CancelAsyncCall, print.iprintasyncnotify_cancelasynccall, prnasntp/IPrintAsyncCookie::CancelAsyncCall
-ms.topic: method
 f1_keywords:
  - "prnasntp/IPrintAsyncCookie.CancelAsyncCall"
 req.header: prnasntp.h
@@ -51,21 +50,11 @@ req.typenames:
 
 
 
-## -parameters
-
-
-
-
-
-
-#### - hRes [in]
-
-
 ## -returns
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATE_UNORDERED_ACCESS_VIEW_0002 (d3d12umddi.h)
 description: Create unordered access view.
 ms.assetid: 38bc078d-cd76-4dd3-aed4-b703ddddd7b9
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -60,10 +59,6 @@ Pointer to a D3D12DDIARG_CREATE_UNORDERED_ACCESS_VIEW_0002 structure.
 ### -param DestDescriptor
 
 A CPU descriptor handle.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

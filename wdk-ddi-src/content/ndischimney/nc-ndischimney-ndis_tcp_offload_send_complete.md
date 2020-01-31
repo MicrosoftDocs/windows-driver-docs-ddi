@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 1689b6f9-88f3-456f-9a7c-c6b4e76cb336
 ms.date: 05/02/2018
 ms.keywords: NDIS_TCP_OFFLOAD_SEND_COMPLETE, NDIS_TCP_OFFLOAD_SEND_COMPLETE callback, NdisTcpOffloadSendComplete, NdisTcpOffloadSendComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadSendComplete, netvista.ndistcpoffloadsendcomplete, tcp_chim_ndis_func_8893982f-08b9-4963-8a52-533a8ee94cde.xml
-ms.topic: callback
 f1_keywords:
  - "ndischimney/NdisTcpOffloadSendComplete"
 req.header: ndischimney.h
@@ -76,15 +75,6 @@ A pointer to a
      The offload target obtained these structures in one or more calls to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_send_handler">
      MiniportTcpOffloadSend</a> function.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

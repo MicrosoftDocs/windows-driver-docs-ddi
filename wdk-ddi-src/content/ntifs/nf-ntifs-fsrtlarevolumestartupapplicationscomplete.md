@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: a6ee1b04-7f62-452c-92b7-7325278bcd17
 ms.date: 04/16/2018
 ms.keywords: FsRtlAreVolumeStartupApplicationsComplete, FsRtlAreVolumeStartupApplicationsComplete function [Installable File System Drivers], fsrtlref_c0858a3d-5e61-4ba3-bbaf-9ec881042d6a.xml, ifsk.fsrtlarevolumestartupapplicationscomplete, ntifs/FsRtlAreVolumeStartupApplicationsComplete
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlAreVolumeStartupApplicationsComplete"
 req.header: ntifs.h
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>FsRtlAreVolumeStartupApplicationsComplete</b> function determines whether volume startup applications have completed processing.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

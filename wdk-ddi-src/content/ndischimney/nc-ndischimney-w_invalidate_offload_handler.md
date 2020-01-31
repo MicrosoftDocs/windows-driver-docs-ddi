@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 58226149-daea-40aa-afb6-13ce615434b3
 ms.date: 05/02/2018
 ms.keywords: MiniportInvalidateOffload, MiniportInvalidateOffload callback function [Network Drivers Starting with Windows Vista], W_INVALIDATE_OFFLOAD_HANDLER, W_INVALIDATE_OFFLOAD_HANDLER callback, ndischimney/MiniportInvalidateOffload, netvista.miniportinvalidateoffload, tcp_chim_miniport_func_226472dd-905a-42ef-8251-b32acfa93f0b.xml
-ms.topic: callback
 f1_keywords:
  - "ndischimney/MiniportInvalidateOffload"
 req.header: ndischimney.h
@@ -76,15 +75,6 @@ A pointer to an
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which can be the root of a linked list of such
      structures. These structures identify the offloaded state object that is being invalidated.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

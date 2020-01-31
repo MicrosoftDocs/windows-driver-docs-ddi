@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 78ae2a98-bebd-43ee-b016-2f619c3135ca
 ms.date: 04/30/2018
 ms.keywords: ClassServiceCallback, ClassServiceCallback callback function [Human Input Devices], PSERVICE_CALLBACK_ROUTINE, PSERVICE_CALLBACK_ROUTINE callback, hid.kbdclass_class_service_callback_routine, kbdmou/ClassServiceCallback, kref_c3fa9125-0bc4-4936-b4e5-eb4e5eee23e2.xml
-ms.topic: callback
 f1_keywords:
  - "kbdmou/ClassServiceCallback"
 req.header: kbdmou.h
@@ -74,15 +73,6 @@ Pointer to the keyboard input data packet that immediately follows the last data
 ### -param SystemArgument3 [in, out]
 
 Pointer to the number of keyboard input data packets that are transferred by the routine.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

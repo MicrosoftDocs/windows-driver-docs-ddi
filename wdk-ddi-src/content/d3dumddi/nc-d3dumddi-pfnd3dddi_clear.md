@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1cfb5f5b-8d46-4a38-8f16-b1cecaac948a
 ms.date: 05/10/2018
 ms.keywords: Clear, Clear callback function [Display Devices], PFND3DDDI_CLEAR, PFND3DDDI_CLEAR callback, UserModeDisplayDriver_Functions_fc47f935-b69f-4e51-be36-73f0b89f44cf.xml, d3dumddi/Clear, display.clear
-ms.topic: callback
 f1_keywords:
  - "d3dumddi/Clear"
 req.header: d3dumddi.h

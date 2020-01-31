@@ -4,7 +4,6 @@ title: IDebugHostType2::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 02d46592-4529-4ef4-b5c2-7e713d4be5a3
 ms.date: 09/20/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDebugHostType2.AddRef"
 ms.keywords: IDebugHostType2::AddRef, AddRef, IDebugHostType2.AddRef, IDebugHostType2::AddRef, IDebugHostType2.AddRef
@@ -49,10 +48,6 @@ Increments the reference count for an interface on an object. This method should
 
 For more information, see [IUnknown::AddRef](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-addref) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
-## -parameters
-
-None
 
 ## -returns
 

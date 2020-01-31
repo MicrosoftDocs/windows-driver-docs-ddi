@@ -6,7 +6,6 @@ old-location: display\d3d12ddi-video-crypto-session-support-data-0030.htm
 ms.assetid: 6a1a2c3e-a120-4b5e-bd25-02cb3ab11e9c
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030, D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030, display.d3d12ddi-video-crypto-session-support-data-0030
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030"
 req.header: d3d12umddi.h

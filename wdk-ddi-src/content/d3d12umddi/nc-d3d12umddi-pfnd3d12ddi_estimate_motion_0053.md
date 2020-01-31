@@ -4,7 +4,6 @@ title: PFND3D12DDI_ESTIMATE_MOTION_0053 (d3d12umddi.h)
 description: Performs the motion estimation operation.
 ms.assetid: 52009f15-ea7a-4993-adce-c3b0a3b1e5ee
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -64,10 +63,6 @@ Pointer to a [D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053](ns-d3d12umddi-d3d12dd
 ### -param pInputArguments
 
 Pointer to a [D3D12DDI_VIDEO_MOTION_ESTIMATOR_INPUT_0053](ns-d3d12umddi-d3d12ddi_video_motion_estimator_input_0053.md) structure that contains the input arguments for the motion estimation operation.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

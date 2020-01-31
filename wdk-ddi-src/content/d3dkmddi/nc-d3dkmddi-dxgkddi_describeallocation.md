@@ -6,7 +6,6 @@ old-location: display\dxgkddidescribeallocation.htm
 ms.assetid: 8ee65716-496c-4b0f-baa7-34a625847d5f
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_DESCRIBEALLOCATION, DXGKDDI_DESCRIBEALLOCATION callback, DmFunctions_ba74cf3f-f0be-401c-8232-0672d490221a.xml, DxgkDdiDescribeAllocation, DxgkDdiDescribeAllocation callback function [Display Devices], d3dkmddi/DxgkDdiDescribeAllocation, display.dxgkddidescribeallocation
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

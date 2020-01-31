@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1223534f-a89c-45b4-b07d-75c2c8383b73
 ms.date: 05/10/2018
 ms.keywords: HwVidBugcheckCallback, HwVidBugcheckCallback callback function [Display Devices], PVIDEO_BUGCHECK_CALLBACK, PVIDEO_BUGCHECK_CALLBACK callback, VideoMiniport_Functions_d3dcce93-d172-4948-8cc5-395dd2a1f9a5.xml, display.hwvidbugcheckcallback, video/HwVidBugcheckCallback
-ms.topic: callback
 f1_keywords:
  - "video/HwVidBugcheckCallback"
 req.header: video.h
@@ -74,15 +73,6 @@ Pointer to the memory location where the miniport driver can store the data that
 ### -param BufferSize [in]
 
 Specifies the size, in bytes, of the buffer pointed to by the <i>Buffer</i> parameter.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

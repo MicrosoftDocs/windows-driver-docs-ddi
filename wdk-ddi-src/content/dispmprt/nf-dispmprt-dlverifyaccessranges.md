@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 72310495-2f98-4661-98d1-d55292f4e3ed
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: function
 f1_keywords:
  - "dispmprt/DlVerifyAccessRanges"
 ms.keywords: DlVerifyAccessRanges

@@ -5,7 +5,6 @@ description: Implemented by the client driver as the default handler for method 
 tech.root: netvista
 ms.assetid: b9b871b2-b92a-47f1-9b68-ccfbca6eeeea
 ms.date: 02/01/2019
-ms.topic: callback
 f1_keywords:
  - "netrequestqueue/NetRequestWdmGetNdisOidRequest"
 req.header: netrequestqueue.h
@@ -90,9 +89,6 @@ The length, in bytes, of the request's input buffer, if an input buffer is avail
 
 ### -param OutputBufferLength 
 The length, in bytes, of the request's output buffer, if an output buffer is available.
-
-## -returns
-This callback function does not return a value.
 
 ## -remarks
 Register your implementation of this callback function by setting the appropriate member of [NET_REQUEST_QUEUE_CONFIG](ns-netrequestqueue-_net_request_queue_config.md) and then calling [NetRequestQueueCreate](nf-netrequestqueue-netrequestqueuecreate.md).

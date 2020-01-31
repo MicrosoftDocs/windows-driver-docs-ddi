@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: f58a9c08-d2cf-48d1-98d1-68aecd3b7bd0
 ms.date: 05/02/2018
 ms.keywords: NdisMCmRegisterAddressFamilyEx, NdisMCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_mcm_ref_9e0ef0aa-0fa8-4f40-a225-8908099356bc.xml, ndis/NdisMCmRegisterAddressFamilyEx, netvista.ndismcmregisteraddressfamilyex
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMCmRegisterAddressFamilyEx"
 req.header: ndis.h

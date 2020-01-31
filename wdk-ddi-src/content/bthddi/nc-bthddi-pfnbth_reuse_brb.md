@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: cdf156a1-1556-441a-ae3d-9a49daf47990
 ms.date: 04/27/2018
 ms.keywords: BthReuseBrb, BthReuseBrb callback function [Bluetooth Devices], PFNBTH_REUSE_BRB, PFNBTH_REUSE_BRB callback, bltooth.bthreusebrb, bth_funcs_118c4022-448d-4970-ba70-34dcbc488d13.xml, bthddi/BthReuseBrb
-ms.topic: callback
 f1_keywords:
  - "bthddi/BthReuseBrb"
 req.header: bthddi.h
@@ -67,15 +66,6 @@ Pointer to the BRB to reuse.
 Specifies a value from the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ne-bthddi-_brb_type">BRB_TYPE</a> enumeration to initialize the BRB
      with.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

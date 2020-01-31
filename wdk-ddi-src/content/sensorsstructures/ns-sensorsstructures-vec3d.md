@@ -4,7 +4,6 @@ title: VEC3D (sensorsstructures.h)
 description: Defines a 3D vector.
 ms.assetid: 44c53c34-c7fd-467a-a969-40ead8f990f3
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "sensorsstructures/VEC3D"
 tech.root: sensors

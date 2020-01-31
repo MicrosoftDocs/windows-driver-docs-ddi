@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: d2f87c47-7f26-4c22-a5b8-2be8f309d1ba
 ms.date: 07/10/2019
 ms.keywords: FltCallbacks_2bec09ed-3009-465c-842b-67e0cd7d734f.xml, PFLT_INSTANCE_TEARDOWN_CALLBACK, PFLT_INSTANCE_TEARDOWN_CALLBACK function pointer [Installable File System Drivers], fltkernel/PFLT_INSTANCE_TEARDOWN_CALLBACK, ifsk.pflt_instance_teardown_callback
-ms.topic: callback
 f1_keywords:
  - "fltkernel/PFLT_INSTANCE_TEARDOWN_CALLBACK"
 req.header: fltkernel.h
@@ -65,10 +64,6 @@ Flag that indicates why the minifilter driver instance is being torn down. One o
 | FLTFL_INSTANCE_TEARDOWN_MANDATORY_FILTER_UNLOAD | The minifilter driver is being unloaded. |
 | FLTFL_INSTANCE_TEARDOWN_MANUAL | The instance is being detached because a user-mode application has called [**FilterDetach**](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterdetach) or a kernel-mode component has called [**FltDetachVolume**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdetachvolume). |
 | FLTFL_INSTANCE_TEARDOWN_VOLUME_DISMOUNT | If set, the volume is being dismounted. (Or the volume has already been dismounted. Or the volume mount operation failed. Or the minifilter driver instance or the volume is being torn down. Or the file system unregistered itself as an active file system.) |
-
-## -returns
-
-None
 
 ## -remarks
 

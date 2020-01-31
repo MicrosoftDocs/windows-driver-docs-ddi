@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: E2527150-2F62-4729-BC6A-FE6027BCCA35
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_DEVICE_SERVICE_SESSION_STATE, WWAN_DEVICE_SERVICE_SESSION_STATE, WWAN_DEVICE_SERVICE_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanDeviceServiceSessionClosed, WwanDeviceServiceSessionOpen, _WWAN_DEVICE_SERVICE_SESSION_STATE, netvista.wwan_device_service_session_state, wwan/WWAN_DEVICE_SERVICE_SESSION_STATE, wwan/WwanDeviceServiceSessionClosed, wwan/WwanDeviceServiceSessionOpen"
-ms.topic: enum
 f1_keywords:
  - "wwan/WWAN_DEVICE_SERVICE_SESSION_STATE"
 req.header: wwan.h

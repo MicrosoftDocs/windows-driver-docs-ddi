@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 68551AD7-AC0C-4138-948F-33773F02DA41
 ms.date: 05/10/2018
 ms.keywords: OfferResources, OfferResources callback function [Display Devices], PFND3DDDI_OFFERRESOURCES, PFND3DDDI_OFFERRESOURCES callback, d3dumddi/OfferResources, display.offerresources
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

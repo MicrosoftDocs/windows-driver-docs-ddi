@@ -6,7 +6,6 @@ old-location: display\dxgk_physicaladaptercaps.htm
 ms.assetid: 8D075473-605F-4B75-BB02-5B182EEB3B5F
 ms.date: 05/10/2018
 ms.keywords: DXGK_PHYSICALADAPTERCAPS, DXGK_PHYSICALADAPTERCAPS structure [Display Devices], Flags.GpuMmuSupported, Flags.IoMmuSupported, Flags.MovePagingSupported, Flags.VPRPagingContextRequired, _DXGK_PHYSICALADAPTERCAPS, d3dkmddi/DXGK_PHYSICALADAPTERCAPS, display.dxgk_physicaladaptercaps
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_PHYSICALADAPTERCAPS"
 req.header: d3dkmddi.h

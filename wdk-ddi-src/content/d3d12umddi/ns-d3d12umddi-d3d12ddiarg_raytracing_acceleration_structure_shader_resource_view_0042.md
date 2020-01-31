@@ -4,7 +4,6 @@ title: D3D12DDIARG_RAYTRACING_ACCELERATION_STRUCTURE_SHADER_RESOURCE_VIEW_0042 (
 description: 
 ms.assetid: 9287cca7-6102-4eba-a392-77b64b4d94e2
 ms.date: 11/27/2018
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_RAYTRACING_ACCELERATION_STRUCTURE_SHADER_RESOURCE_VIEW_0042"
 ms.prod: windows-hardware

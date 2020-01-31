@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 1de4db64-be4c-4a9b-b1ab-29f703e17959
 ms.date: 04/23/2018
 ms.keywords: IKsNotifyEvent, IKsNotifyEvent interface [Streaming Media Devices], IKsNotifyEvent interface [Streaming Media Devices],described, ksproxy/IKsNotifyEvent, ksproxy_1ef13fd1-5ccb-410c-8b0e-4942d9ba790e.xml, stream.iksnotifyevent
-ms.topic: interface
 f1_keywords:
  - "ksproxy/IKsNotifyEvent"
 req.header: ksproxy.h
@@ -58,27 +57,8 @@ The IID for this interface is IID_IKsNotifyEvent
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsNotifyEvent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsNotifyEvent</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsNotifyEvent</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsNotifyEvent</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IKsNotifyEvent</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksnotifyevent-ksnotifyevent">KsNotifyEvent</a>
-</td>
-<td align="left" width="63%">
-Sets up for notification whenever action related to a DirectShow event occurs.
-
-</td>
-</tr>
-</table> 
 

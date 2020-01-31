@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: C56D6CD8-7D23-4DA7-9241-F72ADBDD2770
 ms.date: 02/26/2018
 ms.keywords: WRITE_REGISTER_UCHAR, WRITE_REGISTER_UCHAR function, umdf.write_register_uchar, wdf.write_register_uchar, wudfddi_hwaccess/WRITE_REGISTER_UCHAR
-ms.topic: function
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_REGISTER_UCHAR"
 req.header: wudfddi_hwaccess.h

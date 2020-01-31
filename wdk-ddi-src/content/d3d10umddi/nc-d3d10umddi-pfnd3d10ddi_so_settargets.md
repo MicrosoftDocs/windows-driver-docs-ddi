@@ -6,7 +6,6 @@ old-location: display\sosettargets.htm
 ms.assetid: 96f1c439-7323-456e-8c9c-793d8e0973d9
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_SO_SETTARGETS, PFND3D10DDI_SO_SETTARGETS callback, SoSetTargets, SoSetTargets callback function [Display Devices], UserModeDisplayDriverDx10_Functions_02cc8776-273f-4442-93da-34c2df9746ee.xml, d3d10umddi/SoSetTargets, display.sosettargets
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/SoSetTargets"
 req.header: d3d10umddi.h
@@ -88,18 +87,9 @@ An array of offsets, in bytes, into the stream output target resources in the ar
 
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
-
-
-
-
 ## -remarks
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 10677BC2-2A98-41C8-BAE9-1FA3689ACD93
 ms.date: 02/26/2018
 ms.keywords: OnInterruptWorkItem, OnInterruptWorkItem callback function, WUDF_INTERRUPT_WORKITEM, WUDF_INTERRUPT_WORKITEM callback, umdf.oninterruptworkitem, wdf.oninterruptworkitem, wudfinterrupt/OnInterruptWorkItem
-ms.topic: callback
 f1_keywords:
  - "wudfinterrupt/OnInterruptWorkItem"
 req.header: wudfinterrupt.h
@@ -67,15 +66,6 @@ A pointer to the interrupt object interface associated with the work item.
 ### -param AssociatedObject [in]
 
 A pointer to the associated object.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

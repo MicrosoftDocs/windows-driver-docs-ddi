@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: c5b488ac-dd8d-4484-81ca-b64fdf517100
 ms.date: 04/20/2018
 ms.keywords: "*PCPSUIDATABLOCK, CPSUIDATABLOCK, CPSUIDATABLOCK structure [Print Devices], PCPSUIDATABLOCK, PCPSUIDATABLOCK structure pointer [Print Devices], _CPSUIDATABLOCK, compstui/CPSUIDATABLOCK, compstui/PCPSUIDATABLOCK, cpsuifnc_c9e406f5-1d6a-403d-a286-89cf199a09d2.xml, print.cpsuidatablock"
-ms.topic: struct
 f1_keywords:
  - "compstui/CPSUIDATABLOCK"
 req.header: compstui.h

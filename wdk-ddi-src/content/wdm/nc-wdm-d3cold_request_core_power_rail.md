@@ -4,7 +4,6 @@ title: D3COLD_REQUEST_CORE_POWER_RAIL (wdm.h)
 description: Enables the function device object (FDO) to indicate whether the core power rail is needed.
 ms.assetid: 48ce96cc-8827-47ba-bb32-028b0744c58e
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "wdm/D3COLD_REQUEST_CORE_POWER_RAIL"
 req.header: wdm.h
@@ -73,8 +72,6 @@ D3COLD_REQUEST_CORE_POWER_RAIL *PD3COLD_REQUEST_CORE_POWER_RAIL
 ### -param CorePowerRailNeeded: 
 [_In_] A flag that indicates whether or not the driver needs the core power rail.
 
-
-## -returns
 
 ## -remarks
 A device driver that successfully queries for the GUID_D3COLD_AUX_POWER_AND_TIMING_INTERFACE interface receives a pointer to a [**D3COLD_AUX_POWER_AND_TIMING_INTERFACE**](ns-wdm-_d3cold_aux_power_and_timing_interface.md) structure in which the driver sets the **RequestCorePowerRail** member to a pointer to its implementation of the _D3COLD_REQUEST_CORE_POWER_RAIL_ callback function.

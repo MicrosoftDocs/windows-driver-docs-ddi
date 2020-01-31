@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 182e55ec-1a99-4bd6-bcf6-d5e8302b9eae
 ms.date: 05/03/2018
 ms.keywords: GetValues2, GetValues2 method [Windows Debugging], GetValues2 method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetValues2 method, IDebugRegisters2.GetValues2, IDebugRegisters2::GetValues2, IDebugRegisters_de7a1e67-5ffe-48f8-a19d-63858c500389.xml, dbgeng/IDebugRegisters2::GetValues2, debugger.getvalues2
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugRegisters2.GetValues2"
 req.header: dbgeng.h

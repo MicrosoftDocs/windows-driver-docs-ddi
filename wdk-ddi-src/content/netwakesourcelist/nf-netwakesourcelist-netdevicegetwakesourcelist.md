@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: a70770b8-04a4-4012-9f1b-dcf62cdc5a8b
 ms.author: windowsdriverdev
 ms.date: 10/08/2019
-ms.topic: function
 f1_keywords:
  - "netwakesourcelist/NetDeviceGetWakeSourceList"
 ms.keywords: NetDeviceGetWakeSourceList
 req.header: netwakesourcelist.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

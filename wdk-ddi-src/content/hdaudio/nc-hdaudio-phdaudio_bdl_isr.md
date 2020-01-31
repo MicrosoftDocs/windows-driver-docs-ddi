@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 9DC36C2E-6609-46C8-870E-44845020A4B2
 ms.date: 05/08/2018
 ms.keywords: HDAudioBdlIsr, HDAudioBdlIsr callback function [Audio Devices], PHDAUDIO_BDL_ISR, PHDAUDIO_BDL_ISR callback, audio.phdaudio_bdl_isr, hdaudio/HDAudioBdlIsr
-ms.topic: callback
 f1_keywords:
  - "hdaudio/HDAudioBdlIsr"
 req.header: hdaudio.h
@@ -138,15 +137,6 @@ The FIFO size is the maximum number of bytes that the DMA engine can hold in its
 
 
 Depending on the hardware implementation, a DMA engine's FIFO size can either be static or vary dynamically with changes in the stream format. For more information about the FIFO size, see the Intel High Definition Audio Specification.
-
-
-
-
-## -returns
-
-
-
-None
 
 
 

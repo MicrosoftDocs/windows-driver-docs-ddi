@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 8204EC7B-8F90-4F34-BFFB-9F1574AF69BC
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_ARM_CQ, NDK_FN_ARM_CQ callback, NdkArmCq, NdkArmCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkArmCq, netvista.ndk_fn_arm_cq
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkArmCq"
 req.header: ndkpi.h
@@ -105,15 +104,6 @@ Notify when the completion queue receives a send request that includes the ND_OP
 </tr>
 </table>
  
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

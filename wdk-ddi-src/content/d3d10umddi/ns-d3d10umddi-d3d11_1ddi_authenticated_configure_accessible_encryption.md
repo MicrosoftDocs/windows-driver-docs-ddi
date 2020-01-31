@@ -6,7 +6,6 @@ old-location: display\d3d11_1ddi_authenticated_configure_accessible_encryption.h
 ms.assetid: 07a2508e-fa0e-489c-8f27-7f5d09919fb4
 ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION, D3D11_1DDI_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION, display.d3d11_1ddi_authenticated_configure_accessible_encryption
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_ACCESSIBLE_ENCRYPTION"
 req.header: d3d10umddi.h

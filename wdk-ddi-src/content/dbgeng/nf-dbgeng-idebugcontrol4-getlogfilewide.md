@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 2dd20552-747c-4eb8-aacd-7ee241d490d1
 ms.date: 05/03/2018
 ms.keywords: GetLogFileWide, GetLogFileWide method [Windows Debugging], GetLogFileWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetLogFileWide method, IDebugControl4.GetLogFileWide, IDebugControl4::GetLogFileWide, dbgeng/IDebugControl4::GetLogFileWide, debugger.getlogfilewide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl4.GetLogFileWide"
 req.header: dbgeng.h

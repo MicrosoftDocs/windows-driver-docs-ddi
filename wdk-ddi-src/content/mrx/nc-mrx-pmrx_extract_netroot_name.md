@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: e990b7fc-a341-419d-b358-eac4fa2dca78
 ms.date: 04/16/2018
 ms.keywords: MRxExtractNetRootName, MRxExtractNetRootName routine [Installable File System Drivers], PMRX_EXTRACT_NETROOT_NAME, ifsk.mrxextractnetrootname, mrx/MRxExtractNetRootName, mrxref_6ccbe7d3-a74d-4eab-bfc1-994791d9613a.xml
-ms.topic: callback
 f1_keywords:
  - "mrx/MRxExtractNetRootName"
 req.header: mrx.h
@@ -83,15 +82,6 @@ On input, a pointer for storing a Unicode string. On success, this parameter wil
 #### - RestOfName [out, optional]
 
 A pointer to a Unicode string that contains the rest of the name on success. This parameter is optional and can be a <b>NULL</b> pointer on input.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

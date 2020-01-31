@@ -6,7 +6,6 @@ old-location: display\destroyvideoprocessor1.htm
 ms.assetid: a04776ba-bc80-498e-b25d-511ecb03fb63
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEOPROCESSOR, PFND3D11_1DDI_DESTROYVIDEOPROCESSOR callback, d3d10umddi/pfnDestroyVideoProcessor, display.destroyvideoprocessor1, display.pfndestroyvideoprocessor1, pfnDestroyVideoProcessor, pfnDestroyVideoProcessor callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnDestroyVideoProcessor"
 req.header: d3d10umddi.h
@@ -68,15 +67,6 @@ A handle to the display device (graphics context).
 *hProcessor* [in]
 
 A handle to the driver's private data for the video processor object. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

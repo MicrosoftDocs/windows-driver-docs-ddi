@@ -7,13 +7,12 @@ tech.root: netvista
 ms.assetid: d227adc8-0a5f-4cc7-967f-555336f05ef2
 ms.author: windowsdriverdev
 ms.date: 10/11/2019
-ms.topic: callback
 f1_keywords:
  - "netdevice/EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE"
 req.header: netdevice.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 9fb49710-5d8c-4376-9898-7f0ae570ee94
 ms.date: 04/30/2018
 ms.keywords: AdapterListControl, AdapterListControl routine [Kernel-Mode Driver Architecture], DRIVER_LIST_CONTROL, DrvrRtns_feb5903f-df38-4471-ab1e-2e6341620774.xml, kernel.adapterlistcontrol, wdm/AdapterListControl
-ms.topic: callback
 f1_keywords:
  - "wdm/AdapterListControl"
 req.header: wdm.h
@@ -74,15 +73,6 @@ Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardwar
 ### -param Context [in]
 
 Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel">AllocateAdapterChannel</a>. 
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: B920E5D1-D565-4626-A15E-8500DFFBC9FF
 ms.date: 04/20/2018
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrintJobCollection interface, IPrintJobCollection interface [Print Devices],GetAt method, IPrintJobCollection.GetAt, IPrintJobCollection::GetAt, print.iprintjobcollection_getat, printerextension/IPrintJobCollection::GetAt
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintJobCollection.GetAt"
 req.header: printerextension.h

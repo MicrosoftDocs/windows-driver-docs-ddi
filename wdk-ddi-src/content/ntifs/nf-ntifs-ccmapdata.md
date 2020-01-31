@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: dccc79ba-68d9-41cf-b86d-37adb83558a0
 ms.date: 04/16/2018
 ms.keywords: CcMapData, CcMapData routine [Installable File System Drivers], ccref_1eb788ce-2fb2-40b4-b696-14609a0c8556.xml, ifsk.ccmapdata, ntifs/CcMapData
-ms.topic: function
 f1_keywords:
  - "ntifs/CcMapData"
 req.header: ntifs.h

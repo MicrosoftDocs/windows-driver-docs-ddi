@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 92ddc186-7b4c-410e-a82b-7309559364c1
 ms.date: 04/27/2018
 ms.keywords: SdpCreateNodeUInt128, SdpCreateNodeUInt128 function [Bluetooth Devices], bltooth.sdpcreatenodeuint128, bth_funcs_c03666c1-b1d7-4361-9133-f0525300e546.xml, sdplib/SdpCreateNodeUInt128
-ms.topic: function
 f1_keywords:
  - "sdplib/SdpCreateNodeUInt128"
 req.header: sdplib.h

@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 809F946C-DDD4-4C4D-9F0F-F2B4A4657D12
 ms.date: 05/07/2018
 ms.keywords: "*PFN_UCX_USBDEVICE_SUSPEND, *PFN_UCX_USBDEVICE_SUSPEND callback function [Buses], EVT_UCX_USBDEVICE_SUSPEND, EVT_UCX_USBDEVICE_SUSPEND callback, EvtUcxDeviceSuspend, EvtUcxDeviceSuspend callback function [Buses], buses.evt_ucx_usbdevice_suspend, ucxusbdevice/EvtUcxDeviceSuspend"
-ms.topic: callback
 f1_keywords:
  - "ucxusbdevice/*PFN_UCX_USBDEVICE_SUSPEND"
 req.header: ucxusbdevice.h
@@ -64,15 +63,6 @@ UCX invokes this callback function to send a device suspend state.
 ### -param UcxUsbDevice [in]
 
 A handle to a UCX object that represents the USB device that the client driver received in a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a> method.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: B34EABF4-C659-4DB4-AEC6-94F544D79221
 ms.date: 02/26/2018
 ms.keywords: CreateWorkItem, CreateWorkItem method, CreateWorkItem method,IWDFDevice3 interface, IWDFDevice3 interface,CreateWorkItem method, IWDFDevice3.CreateWorkItem, IWDFDevice3::CreateWorkItem, umdf.iwdfdevice3_createworkitem, wdf.iwdfdevice3_createworkitem, wudfddi/IWDFDevice3::CreateWorkItem
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFDevice3.CreateWorkItem"
 req.header: wudfddi.h

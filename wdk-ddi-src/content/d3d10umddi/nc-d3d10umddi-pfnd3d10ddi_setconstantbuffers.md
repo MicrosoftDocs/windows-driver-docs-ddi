@@ -6,7 +6,6 @@ old-location: display\cssetconstantbuffers.htm
 ms.assetid: 159ee0ac-7ddf-4ffd-a07f-3d58130b90e8
 ms.date: 05/10/2018
 ms.keywords: CsSetConstantBuffers, CsSetConstantBuffers callback function [Display Devices], PFND3D10DDI_SETCONSTANTBUFFERS, PFND3D10DDI_SETCONSTANTBUFFERS callback, UserModeDisplayDriverDx11_Functions_ae0b7e35-f8c5-428d-97d0-e22d5b609c72.xml, d3d10umddi/CsSetConstantBuffers, display.cssetconstantbuffers
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/CsSetConstantBuffers"
 req.header: d3d10umddi.h
@@ -76,18 +75,9 @@ A handle to the display device (graphics context).
 An array of handles to the constant buffers, beginning with the buffer that <b>StartBuffer</b> specifies.
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
-
-
-
-
 ## -remarks
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 

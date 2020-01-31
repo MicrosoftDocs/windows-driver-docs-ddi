@@ -4,7 +4,6 @@ title: UsbPm_RetrieveConnectorProperties function (usbpmapi.h)
 description: Retrieves the properties of a connector. The properties are static information that do not change during the lifecycle of a connector.
 ms.assetid: 69060bba-873e-41ff-a00f-5632de227735
 ms.date: 09/30/2018
-ms.topic: function
 f1_keywords:
  - "usbpmapi/UsbPm_RetrieveConnectorProperties"
 ms.keywords: UsbPm_RetrieveConnectorProperties

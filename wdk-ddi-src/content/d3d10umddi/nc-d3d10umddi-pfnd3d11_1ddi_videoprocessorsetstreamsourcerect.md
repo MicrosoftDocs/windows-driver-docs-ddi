@@ -6,7 +6,6 @@ old-location: display\videoprocessorsetstreamsourcerect.htm
 ms.assetid: 78d62117-260a-46ab-9daa-ee9dcfc7fc1f
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMSOURCERECT callback, d3d10umddi/pfnVideoProcessorSetStreamSourceRect, display.videoprocessorsetstreamsourcerect, pfnVideoProcessorSetStreamSourceRect, pfnVideoProcessorSetStreamSourceRect callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetStreamSourceRect"
 req.header: d3d10umddi.h
@@ -96,15 +95,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns
 <div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is FALSE, this parameter is ignored.
 </div>
 <div> </div>
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
-
 
 ## -remarks
 

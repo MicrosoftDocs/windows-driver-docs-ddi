@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 1ea77cc4-bee4-4e0a-92a4-6413d3e5871a
 ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE, IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE control, IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE control code [Buses], buses.ioctl_internal_usb_get_tt_device_handle, usbioctl/IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE
-ms.topic: ioctl
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE"
 req.header: usbioctl.h

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: d645867c-3264-45ae-b0bd-4d21e388fb97
 ms.date: 08/09/2018
 ms.keywords: ExtRemoteData class [Windows Debugging], described, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, debugger.extremotedata, Clear, ExtRemoteData class [Windows Debugging], ExtRemoteData, engextcpp/ExtRemoteData, ExtRemoteData::Clear
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteData"
 req.header: engextcpp.hpp
@@ -48,9 +47,6 @@ req.typenames: DXVA_VideoSample32
 ## -description
 
 The Clear method is a member of the <b>ExtRemoteData</b> class. The <b>ExtRemoteData</b> class provides a wrapper around a small section of a target's memory.  <b>ExtRemoteData</b> automatically retrieves the memory and provides a number of convenience methods.
-
-
-## -parameters
 
 
 ## -see-also

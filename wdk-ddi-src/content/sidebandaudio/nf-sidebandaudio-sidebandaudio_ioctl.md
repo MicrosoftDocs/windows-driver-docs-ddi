@@ -4,7 +4,6 @@ title: SIDEBANDAUDIO_IOCTL macro (sidebandaudio.h)
 description: A macro that is used for the SIDEBANDAUDIO_IOCTL.
 ms.assetid: 3ac72e47-78ef-4e4c-9614-8bec1f24d539
 ms.date: 10/05/2018
-ms.topic: macro
 f1_keywords:
  - "sidebandaudio/SIDEBANDAUDIO_IOCTL"
 ms.keywords: SIDEBANDAUDIO_IOCTL

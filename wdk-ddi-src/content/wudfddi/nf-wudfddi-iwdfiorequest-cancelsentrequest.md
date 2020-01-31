@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 1951a2e8-c2f0-42bc-9deb-8d2a049817c4
 ms.date: 02/26/2018
 ms.keywords: CancelSentRequest, CancelSentRequest method, CancelSentRequest method,IWDFIoRequest interface, IWDFIoRequest interface,CancelSentRequest method, IWDFIoRequest.CancelSentRequest, IWDFIoRequest::CancelSentRequest, UMDFRequestObjectRef_cf439791-044b-4cd8-8a1c-eafc7b266897.xml, umdf.iwdfiorequest_cancelsentrequest, wdf.iwdfiorequest_cancelsentrequest, wudfddi/IWDFIoRequest::CancelSentRequest
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoRequest.CancelSentRequest"
 req.header: wudfddi.h
@@ -51,13 +50,6 @@ req.typenames:
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>CancelSentRequest</b> method attempts to cancel the I/O request that the driver previously submitted to an I/O target.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

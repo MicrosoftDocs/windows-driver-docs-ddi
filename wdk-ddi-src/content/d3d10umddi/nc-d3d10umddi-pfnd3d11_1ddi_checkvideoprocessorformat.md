@@ -6,7 +6,6 @@ old-location: display\checkvideoprocessorformat.htm
 ms.assetid: f5f18a53-d121-445a-86b7-649624a2f175
 ms.date: 05/10/2018
 ms.keywords: CheckVideoProcessorFormat, CheckVideoProcessorFormat callback function [Display Devices], PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT, PFND3D11_1DDI_CHECKVIDEOPROCESSORFORMAT callback, d3d10umddi/CheckVideoProcessorFormat, display.checkvideoprocessorformat
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -75,10 +74,6 @@ The video format to query.
 Specifies a bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_format_support">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT</a> enumeration.
 
 For more information, see the Remarks section.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

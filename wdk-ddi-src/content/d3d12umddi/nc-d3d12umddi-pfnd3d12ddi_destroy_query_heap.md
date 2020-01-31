@@ -4,7 +4,6 @@ title: PFND3D12DDI_DESTROY_QUERY_HEAP (d3d12umddi.h)
 description: Destroys the query heap.
 ms.assetid: a99e0330-70bd-450e-8783-15b67b644ee8
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -56,10 +55,6 @@ A handle to the display device (graphics context).
 ### -param Arg2
 
 A query heap handle.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

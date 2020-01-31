@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: c1cba1fa-3952-4f2f-829f-2f5983349df8
 ms.date: 02/26/2018
 ms.keywords: IWDFUsbTargetPipe interface,IsInEndPoint method, IWDFUsbTargetPipe.IsInEndPoint, IWDFUsbTargetPipe::IsInEndPoint, IsInEndPoint, IsInEndPoint method, IsInEndPoint method,IWDFUsbTargetPipe interface, UMDFUSBref_07580c26-1173-4624-9199-c8dc8ef59edf.xml, umdf.iwdfusbtargetpipe_isinendpoint, wdf.iwdfusbtargetpipe_isinendpoint, wudfusb/IWDFUsbTargetPipe::IsInEndPoint
-ms.topic: method
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe.IsInEndPoint"
 req.header: wudfusb.h
@@ -51,13 +50,6 @@ req.typenames:
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>IsInEndPoint</b> method determines whether a USB pipe (endpoint) is an IN pipe.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

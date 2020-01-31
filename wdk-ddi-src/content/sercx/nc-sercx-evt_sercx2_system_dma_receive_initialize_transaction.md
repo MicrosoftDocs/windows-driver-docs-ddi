@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 34E016AF-439C-44CC-A2AE-78CD7B2B5443
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2SystemDmaReceiveInitializeTransaction, EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_RECEIVE_INITIALIZE_TRANSACTION callback, EvtSerCx2SystemDmaReceiveInitializeTransaction, EvtSerCx2SystemDmaReceiveInitializeTransaction callback function [Serial Ports], serports.evtsercx2systemdmareceiveinitializetransaction
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaReceiveInitializeTransaction"
 req.header: sercx.h
@@ -64,15 +63,6 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-o
 ### -param Length [in]
 
 The number of bytes to be transferred in the system-DMA-receive transaction.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 6afc3e8b-0be0-4728-b00f-deea5e60d27e
 ms.date: 04/30/2018
 ms.keywords: NtSetInformationFile, ZwSetVolumeInformationFile, ZwSetVolumeInformationFile routine [Kernel-Mode Driver Architecture], k111_580470b4-9769-4fec-9811-04f703473131.xml, kernel.zwsetvolumeinformationfile, ntifs/NtSetInformationFile, ntifs/ZwSetVolumeInformationFile
-ms.topic: function
 f1_keywords:
  - "ntifs/ZwSetVolumeInformationFile"
 req.header: ntifs.h

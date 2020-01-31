@@ -6,7 +6,6 @@ old-location: display\pfnd3dwddm2_2ddi_shadercache_store_value.htm
 ms.assetid: 715D4C28-029F-463E-9A6D-D8155B570538
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB, PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback, d3d12umddi/pfnShaderCacheStoreValue, display.pfnd3dwddm2_2ddi_shadercache_store_value, pfnShaderCacheStoreValue, pfnShaderCacheStoreValue callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

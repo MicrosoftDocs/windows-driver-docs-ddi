@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 2CFCF5D9-23F8-4571-972A-0BE48EB2D046
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2PioReceiveCleanupTransaction, EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION, EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION callback, EvtSerCx2PioReceiveCleanupTransaction, EvtSerCx2PioReceiveCleanupTransaction callback function [Serial Ports], serports.evtsercx2pioreceivecleanuptransaction
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2PioReceiveCleanupTransaction"
 req.header: sercx.h
@@ -59,15 +58,6 @@ The <i>EvtSerCx2PioReceiveCleanupTransaction</i> event callback function is call
 ### -param PioReceive [in]
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIORECEIVE</a> handle to a PIO-receive object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2pioreceivecreate">SerCx2PioReceiveCreate</a> method to create this object.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

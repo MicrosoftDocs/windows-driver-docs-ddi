@@ -4,7 +4,6 @@ title: IIndexableConcept::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 427e9fea-91d6-48ce-a9df-c8033ed86a23
 ms.date: 09/19/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IIndexableConcept.Release"
 ms.keywords: IIndexableConcept::Release, Release, IIndexableConcept.Release, IIndexableConcept::Release, IIndexableConcept.Release
@@ -49,10 +48,6 @@ Decrements the reference count for an interface on an object.
 
 For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
-## -parameters
-
-None
 
 ## -returns
 

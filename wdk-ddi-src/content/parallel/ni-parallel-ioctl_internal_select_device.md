@@ -7,7 +7,6 @@ tech.root: parports
 ms.assetid: d072a97d-f15d-44e9-b7d5-4fb872bfcbf0
 ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_SELECT_DEVICE, IOCTL_INTERNAL_SELECT_DEVICE control code [Parallel Ports], cisspd_e884bf73-c8d2-4007-a01a-ba6af4fd8359.xml, parallel/IOCTL_INTERNAL_SELECT_DEVICE, parports.ioctl_internal_select_device
-ms.topic: ioctl
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_SELECT_DEVICE"
 req.header: parallel.h

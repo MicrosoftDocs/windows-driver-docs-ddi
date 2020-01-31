@@ -4,7 +4,6 @@ title: IDebugHostContext (dbgmodel.h)
 description: Represents a context of the debugger answers questions about (what session, process, thread).
 ms.assetid: d0930562-7c04-499a-89e3-d50a463b7cce
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDebugHostContext"
 req.header: dbgmodel.h
@@ -44,32 +43,6 @@ Represents a context of the debugger answers questions about (what session, proc
 
 ## -inheritance
 IDebugHostContext interits from IUnknown. 
-## -members
-
-<p>IDebugHostContext has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>IsEqualTo</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 Context objects are opaque blobs of information that the debug host (in cooperation with the data model) associates with every object. It may include things such as the process context or address space the information comes from, etc... A context object is an implementation of IDebugHostContext boxed within an [IModelObject](nn-dbgmodel-imodelobject.md). 

@@ -4,7 +4,6 @@ title: D3DKMTQueryVidPnExclusiveOwnership function (d3dkmthk.h)
 description: Queries for VidPn exclusive ownership.
 ms.assetid: 4c9446c7-33a6-4268-a751-fec50b20df57
 ms.date: 10/19/2018
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTQueryVidPnExclusiveOwnership"
 ms.keywords: D3DKMTQueryVidPnExclusiveOwnership

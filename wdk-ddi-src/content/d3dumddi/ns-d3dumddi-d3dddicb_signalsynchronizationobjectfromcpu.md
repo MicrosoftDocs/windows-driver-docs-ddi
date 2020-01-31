@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 14CA5FD1-00CB-474B-A2A3-4264CAFA063A
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, display.d3dddicb_signalsynchronizationobjectfromcpu
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU"
 req.header: d3dumddi.h

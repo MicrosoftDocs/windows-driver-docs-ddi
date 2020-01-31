@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 4bff45b5-c295-444d-82ea-59cfd6c37551
 ms.date: 04/30/2018
 ms.keywords: ExInterlockedPushEntrySList, ExInterlockedPushEntrySList routine [Kernel-Mode Driver Architecture], k102_53da8507-cae3-4a71-9c59-49676a8b7a95.xml, kernel.exinterlockedpushentryslist, wdm/ExInterlockedPushEntrySList
-ms.topic: macro
 f1_keywords:
  - "wdm/ExInterlockedPushEntrySList"
 req.header: wdm.h

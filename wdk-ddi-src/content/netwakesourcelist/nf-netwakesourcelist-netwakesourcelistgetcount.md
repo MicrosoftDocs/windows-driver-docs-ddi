@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: 2380726e-eef7-43fb-aa6a-9109232eff1f
 ms.author: windowsdriverdev
 ms.date: 10/08/2019
-ms.topic: function
 f1_keywords:
  - "netwakesourcelist/NetWakeSourceListGetCount"
 ms.keywords: NetWakeSourceListGetCount
 req.header: netwakesourcelist.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

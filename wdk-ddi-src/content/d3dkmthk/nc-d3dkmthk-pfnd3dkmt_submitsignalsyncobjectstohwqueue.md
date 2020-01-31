@@ -4,7 +4,6 @@ title: PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE (d3dkmthk.h)
 description: Implemented by the client driver to submit a signal to the hardware queue.
 ms.assetid: 4d3b171d-10f1-43a7-ba73-3864d9a590a9
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE"
 req.header: d3dkmthk.h

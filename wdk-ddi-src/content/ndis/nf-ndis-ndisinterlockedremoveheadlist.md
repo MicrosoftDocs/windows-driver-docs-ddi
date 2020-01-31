@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 85cbc158-7132-4666-8161-a78251a62e4d
 ms.date: 05/02/2018
 ms.keywords: NdisInterlockedRemoveHeadList, NdisInterlockedRemoveHeadList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedRemoveHeadList, ndis_interlocked_ref_5aacd492-068c-4cfe-afa6-4e0e63cf66e9.xml, netvista.ndisinterlockedremoveheadlist
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisInterlockedRemoveHeadList"
 req.header: ndis.h

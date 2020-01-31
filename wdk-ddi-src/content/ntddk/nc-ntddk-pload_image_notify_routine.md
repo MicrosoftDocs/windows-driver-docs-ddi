@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 613962D6-DF27-4AAE-BD8F-6BC0A538D7F8
 ms.date: 04/30/2018
 ms.keywords: PLOAD_IMAGE_NOTIFY_ROUTINE, PLOAD_IMAGE_NOTIFY_ROUTINE callback, SetLoadImageNotifyRoutine, SetLoadImageNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pload_image_notify_routine, ntddk/SetLoadImageNotifyRoutine
-ms.topic: callback
 f1_keywords:
  - "ntddk/SetLoadImageNotifyRoutine"
 req.header: ntddk.h
@@ -69,15 +68,6 @@ The process ID of the process in which the image has been mapped, but this handl
 ### -param ImageInfo [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_image_info">IMAGE_INFO</a> structure that contains image information. See Remarks.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

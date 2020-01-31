@@ -7,7 +7,6 @@ tech.root: whea
 ms.assetid: e0784b46-9929-480c-88d0-9983d80fd753
 ms.date: 02/20/2018
 ms.keywords: PshedFreeMemory, PshedFreeMemory function [WHEA Drivers and Applications], ntddk/PshedFreeMemory, whea.pshedfreememory, whearef_e17812c6-f817-490d-b1f7-bf5fa16d769b.xml
-ms.topic: function
 f1_keywords:
  - "ntddk/PshedFreeMemory"
 req.header: ntddk.h

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: d204eeb4-e109-4a86-986f-0fccdda3f8f8
 ms.date: 04/30/2018
 ms.keywords: RtlCopyBytes, RtlCopyMemory, RtlCopyMemory routine [Kernel-Mode Driver Architecture], k109_f4bb1fef-aae6-4086-b95a-ae4dc220c04b.xml, kernel.rtlcopymemory, wdm/RtlCopyMemory
-ms.topic: macro
 f1_keywords:
  - "wdm/RtlCopyMemory"
 req.header: wdm.h

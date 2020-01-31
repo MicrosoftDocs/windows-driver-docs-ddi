@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 916531dd-4768-436a-910c-07d49924ac48
 ms.date: 04/30/2018
 ms.keywords: FreeAdapterChannel, FreeAdapterChannel callback function [Kernel-Mode Driver Architecture], PFREE_ADAPTER_CHANNEL, PFREE_ADAPTER_CHANNEL callback, kdma_f48025a6-96a2-4bdd-8b48-6c939bdf738b.xml, kernel.freeadapterchannel, wdm/FreeAdapterChannel
-ms.topic: callback
 f1_keywords:
  - "wdm/FreeAdapterChannel"
 req.header: wdm.h
@@ -59,15 +58,6 @@ The <b>FreeAdapterChannel</b> routine releases the system DMA controller when a 
 ### -param DmaAdapter [in]
 
 Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a>  structure returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

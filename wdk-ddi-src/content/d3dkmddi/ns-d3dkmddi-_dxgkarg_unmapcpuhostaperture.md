@@ -6,7 +6,6 @@ old-location: display\dxgkarg_unmapcpuhostaperture.htm
 ms.assetid: 22482590-B0F7-4F35-95D5-9B352810047D
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_UNMAPCPUHOSTAPERTURE, DXGKARG_UNMAPCPUHOSTAPERTURE structure [Display Devices], _DXGKARG_UNMAPCPUHOSTAPERTURE, d3dkmddi/DXGKARG_UNMAPCPUHOSTAPERTURE, display.dxgkarg_unmapcpuhostaperture
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_UNMAPCPUHOSTAPERTURE"
 req.header: d3dkmddi.h

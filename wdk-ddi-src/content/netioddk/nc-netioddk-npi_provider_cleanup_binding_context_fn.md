@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 0af476f6-0113-4aeb-b7d6-8e0e64a89bd0
 ms.date: 05/02/2018
 ms.keywords: NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, NPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback, PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN, PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN callback function [Network Drivers Starting with Windows Vista], ProviderCleanupBindingContext, ProviderCleanupBindingContext callback function [Network Drivers Starting with Windows Vista], netioddk/ProviderCleanupBindingContext, netvista.providercleanupbindingcontext, nmrref_9723dfb1-96dd-410c-a5cd-1adfb6aa9544.xml
-ms.topic: callback
 f1_keywords:
  - "netioddk/PNPI_PROVIDER_CLEANUP_BINDING_CONTEXT_FN"
 req.header: netioddk.h
@@ -65,15 +64,6 @@ A pointer to the provider module's context for the binding between the provider 
      client module from which it has detached. The provider module's 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a> callback
      function returns this pointer to the NMR when it attaches to the client module.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

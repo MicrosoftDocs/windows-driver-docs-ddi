@@ -5,7 +5,6 @@ description: The NDIS_WWAN_LTE_ATTACH_CONTEXTS structure describes default LTE a
 tech.root: netvista
 ms.assetid: 103cf958-1c1c-44ff-bc93-ce69bbe43b20
 ms.date: 08/22/2018
-ms.topic: struct
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_LTE_ATTACH_CONTEXTS"
 ms.keywords: _NDIS_WWAN_LTE_ATTACH_CONTEXTS, NDIS_WWAN_LTE_ATTACH_CONTEXTS, *PNDIS_WWAN_LTE_ATTACH_CONTEXTS, 

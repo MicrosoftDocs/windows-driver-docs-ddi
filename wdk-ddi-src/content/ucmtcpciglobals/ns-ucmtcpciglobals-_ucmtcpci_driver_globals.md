@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 75a0e9ef-0791-4465-b671-36c86dc9116a
 ms.date: 05/07/2018
 ms.keywords: "*PUCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS structure [Buses], _UCMTCPCI_DRIVER_GLOBALS, buses.ucmtcpci_driver_globals, ucmtcpciglobals/UCMTCPCI_DRIVER_GLOBALS"
-ms.topic: struct
 f1_keywords:
  - "ucmtcpciglobals/UCMTCPCI_DRIVER_GLOBALS"
 req.header: ucmtcpciglobals.h

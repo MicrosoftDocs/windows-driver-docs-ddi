@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: 0978d4cd-3ed1-478b-b5ea-8fe21811526c
 ms.date: 02/15/2018
 ms.keywords: Clear, Clear method, Clear method,IPortableDeviceValues interface, IPortableDeviceValues interface,Clear method, IPortableDeviceValues.Clear, IPortableDeviceValues::Clear, IPortableDeviceValuesClear, portabledevicetypes/IPortableDeviceValues::Clear, wpddk.iportabledevicevalues_clear
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.Clear"
 req.header: portabledevicetypes.h
@@ -51,13 +50,6 @@ ms.custom: RS5
 
 
 Deletes all items from the collection.
-
-
-
-
-## -parameters
-
-
 
 
 

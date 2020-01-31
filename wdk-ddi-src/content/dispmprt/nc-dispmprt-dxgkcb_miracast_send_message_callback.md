@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: E8C3B9E3-854C-488D-809B-0F0893591352
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_MIRACAST_SEND_MESSAGE, DXGKCB_MIRACAST_SEND_MESSAGE callback, DxgkCbMiracastSendMessage, DxgkCbMiracastSendMessage callback function [Display Devices], display.dxgkcbmiracastsendmessage, dispmprt/DxgkCbMiracastSendMessage
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkCbMiracastSendMessageCallback"
 req.header: dispmprt.h
@@ -65,12 +64,6 @@ A pointer to the driver-supplied callback context. The operating system passes t
 
 A pointer to a driver-supplied buffer to hold the returned IO_STATUS_BLOCK structure for the completed or canceled user-mode message. This structure holds the status of the I/O call and the number of bytes that the user-mode driver wrote to the output buffer.
 
-
-
-
-## -returns
-
-This callback function does not return a value.
 
 
 

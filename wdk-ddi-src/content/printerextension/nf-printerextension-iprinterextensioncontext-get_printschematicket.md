@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: B217DE53-23B9-46BA-8B35-DA869EB9DBDA
 ms.date: 10/19/2018
 ms.keywords: IPrinterExtensionContext interface [Print Devices],PrintSchemaTicket property, IPrinterExtensionContext.PrintSchemaTicket, IPrinterExtensionContext.get_PrintSchemaTicket, IPrinterExtensionContext::PrintSchemaTicket, IPrinterExtensionContext::get_PrintSchemaTicket, PrintSchemaTicket property [Print Devices], PrintSchemaTicket property [Print Devices],IPrinterExtensionContext interface, get_PrintSchemaTicket, print.iprinterextensioncontext_printschematicket, printerextension/IPrinterExtensionContext::PrintSchemaTicket, printerextension/IPrinterExtensionContext::get_PrintSchemaTicket
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterExtensionContext.PrintSchemaTicket"
 req.header: printerextension.h

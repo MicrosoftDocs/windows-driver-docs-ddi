@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: E0749F52-CC7C-484D-8350-1986154957C1
 ms.date: 05/02/2018
 ms.keywords: FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE, FilterSynchronousOidRequestComplete, FilterSynchronousOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/FilterSynchronousOidRequestComplete, netvista.filter_synchronous_oid_request_complete
-ms.topic: function
 f1_keywords:
  - "ndis/FilterSynchronousOidRequestComplete"
 req.header: ndis.h
@@ -44,7 +43,6 @@ req.typenames:
 
 # FILTER_SYNCHRONOUS_OID_REQUEST_COMPLETE function
 
-
 ## -description
 
 NDIS calls a filter driver’s FilterSynchronousOidRequestComplete function after a Synchronous OID request has been completed from an underlying driver.
@@ -68,10 +66,6 @@ A pointer to the resulting status code of the request being completed.
 ### -param CallContext [in]
 
 A PVOID-sized storage slot for the filter driver to share state between its [*FilterSynchronousOidRequest*](nf-ndis-filter_synchronous_oid_request.md) and *FilterSynchronousOidRequestComplete* handlers. If the filter driver implements a *FilterSynchronousOidRequest* handler, this parameter contains the context value that the *FilterSynchronousOidRequest* handler returned. Otherwise, if the filter driver does not implement a *FilterSynchronousOidRequest* handler, this value is zero.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 
@@ -115,8 +109,4 @@ Filter drivers must not call [**NdisAllocateCloneOidRequest**](nf-ndis-ndisalloc
 
 [**NdisFSynchronousOidRequest**](nf-ndis-ndisfsynchronousoidrequest.md)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80">Synchronous OID Request Interface in NDIS 6.80</a>
- 
-
- 
-
+[Synchronous OID Request Interface in NDIS 6.80](https://docs.microsoft.com/windows-hardware/drivers/network/synchronous-oid-request-interface-in-ndis-6-80)

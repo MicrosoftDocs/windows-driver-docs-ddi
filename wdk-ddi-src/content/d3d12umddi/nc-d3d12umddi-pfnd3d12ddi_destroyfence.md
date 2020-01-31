@@ -4,7 +4,6 @@ title: PFND3D12DDI_DESTROYFENCE (d3d12umddi.h)
 description: Destroy fence.
 ms.assetid: 80fb2a47-384b-413a-a68f-1faedb114a17
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -56,10 +55,6 @@ A handle to the display device (graphics context).
 ### -param Arg2
 
 Fence handle.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: AA862667-42D6-4A82-9698-1C43E9EEC434
 ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionAsyncOperation, IPrinterExtensionAsyncOperation interface [Print Devices], IPrinterExtensionAsyncOperation interface [Print Devices],described, print.iprinterextensionasyncoperation, printerextension/IPrinterExtensionAsyncOperation
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrinterExtensionAsyncOperation"
 req.header: printerextension.h
@@ -44,60 +43,18 @@ req.typenames:
 
 # IPrinterExtensionAsyncOperation interface
 
-
 ## -description
-
 
 Provides the context associated with an asynchronous operation.
 
-
 ## -inheritance
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterExtensionAsyncOperation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterExtensionAsyncOperation</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
-## -members
-
-The <b>IPrinterExtensionAsyncOperation</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensionrequest-cancel">Cancel</a>
-</td>
-<td align="left" width="63%">
-Cancels the asynchronous operation.
-
-</td>
-</tr>
-</table> 
-
 
 ## -remarks
 
-
-
-<b>IPrinterExtensionAsyncOperation</b> also helps to make it possible to perform device maintenance from a UWP device app or from a printer extension. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/device-maintenance">Device Maintenance</a>.
-
-
-
+**IPrinterExtensionAsyncOperation** also helps to make it possible to perform device maintenance from a UWP device app or from a printer extension. For more information, see [Device Maintenance](https://docs.microsoft.com/windows-hardware/drivers/print/device-maintenance).
 
 ## -see-also
 
+[Device Maintenance](https://docs.microsoft.com/windows-hardware/drivers/print/device-maintenance)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/device-maintenance">Device Maintenance</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue2-sendbidisetrequestasync">SendBidiSetRequestAsync</a>
- 
-
- 
-
+[SendBidiSetRequestAsync](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue2-sendbidisetrequestasync)

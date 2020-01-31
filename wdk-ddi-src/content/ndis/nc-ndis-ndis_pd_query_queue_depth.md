@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 0061E269-4A19-4D65-B988-29DB582BA960
 ms.date: 05/02/2018
 ms.keywords: "*NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER, *NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER callback function pointer [Network Drivers Starting with Windows Vista], NDIS_PD_QUERY_QUEUE_DEPTH, NDIS_PD_QUERY_QUEUE_DEPTH callback, PDQueryQueueDepth, PDQueryQueueDepth callback function [Network Drivers Starting with Windows Vista], ndis/PDQueryQueueDepth, netvista.pdqueryqueuedepth"
-ms.topic: callback
 f1_keywords:
  - "ndis/*NDIS_PD_QUERY_QUEUE_DEPTH_HANDLER"
 req.header: ndis.h

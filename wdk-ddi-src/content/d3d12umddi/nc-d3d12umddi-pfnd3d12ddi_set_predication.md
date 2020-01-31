@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_set_predication.htm
 ms.assetid: C5830688-4FC6-4D3F-82EB-15354B28C5F1
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_SET_PREDICATION, PFND3D12DDI_SET_PREDICATION callback, d3d12umddi/pfnSetPredication, display.pfnd3d12ddi_set_predication, pfnSetPredication, pfnSetPredication callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/pfnSetPredication"
 req.header: d3d12umddi.h
@@ -76,15 +75,6 @@ The handle of a resource.
 *PredicationOp*
 
 A predication operation. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_predication_op">D3D12DDI_PREDICATION_OP</a> enumeration.
-
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
 
 
 

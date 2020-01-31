@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 4BE0A753-58A6-4868-9A04-B9A0710A02A5
 ms.date: 04/30/2018
 ms.keywords: EXT_CALLBACK, ExTimerCallback, ExTimerCallback routine [Kernel-Mode Driver Architecture], kernel.extimercallback, wdm/ExTimerCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/ExTimerCallback"
 req.header: wdm.h
@@ -64,15 +63,6 @@ A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ker
 ### -param Context [in]
 
 The context value that your driver previously supplied as the <i>CallbackContext</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a> routine.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

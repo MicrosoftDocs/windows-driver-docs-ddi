@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 513fd718-3d35-4a7b-be28-b002a8108e86
 ms.date: 05/03/2018
 ms.keywords: IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml, WIAS_LTRACE, WIAS_LTRACE macro [Imaging Devices], image.wias_ltrace, wiamdef/WIAS_LTRACE
-ms.topic: macro
 f1_keywords:
  - "wiautil/WIAS_LTRACE"
 req.header: wiautil.h
@@ -46,7 +45,7 @@ req.typenames:
 
 ## -description
 
-The WIAS_LTRACE macro is obsolete. It is recommended that the [WIAS_TRACE](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace) macro be used instead.
+The WIAS_LTRACE macro is obsolete. It is recommended that the [WIAS_TRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace) macro be used instead.
 
 The WIAS_LTRACE macro writes a diagnostic WIA_TRACE message to the log file.
 
@@ -74,7 +73,7 @@ The WIAS_LTRACE macro writes a diagnostic WIA_TRACE message to the log file.
 
 - **format_string** - Specifies a variable argument list, which starts with an ANSI format string describing the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
-- **pIWiaLog** - Pointer to an [IWiaLog Interface](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwialog).
+- **pIWiaLog** - Pointer to an [IWiaLog Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwialog).
 
 ## -remarks
 
@@ -85,14 +84,14 @@ WIAS_LTRACE(g_pIWiaLog, WIALOG_NO_RESOURCE_ID, WIALOG_LEVEL2,
   ("MyClass::MyMethod, This is my text and my lValue = %d", lValue));
 ```
 
-Use of the WIAS_LTRACE macro is not recommended because it does not record its output to the *Wiatrace.log* diagnostic log file. It is recommended that the [WIAS_TRACE](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace) macro be used instead.
+Use of the WIAS_LTRACE macro is not recommended because it does not record its output to the *Wiatrace.log* diagnostic log file. It is recommended that the [WIAS_TRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace) macro be used instead.
 
 ## -see-also
 
-[WIAS_LERROR](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lerror)
+[WIAS_LERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lerror)
 
-[WIAS_LHRESULT](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lhresult)
+[WIAS_LHRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lhresult)
 
-[WIAS_LWARNING](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lwarning)
+[WIAS_LWARNING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lwarning)
 
-[WIAS_TRACE](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace)
+[WIAS_TRACE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_trace)

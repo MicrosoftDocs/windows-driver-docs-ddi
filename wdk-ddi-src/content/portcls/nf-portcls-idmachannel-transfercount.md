@@ -5,7 +5,6 @@ description: The TransferCount method returns the size in bytes of the buffer th
 tech.root: audio
 ms.assetid: 2d008277-36b1-4c66-8b70-5500ed7dc81f
 ms.date: 10/31/2018
-ms.topic: method
 f1_keywords:
  - "portcls/IDmaChannel.TransferCount"
 ms.keywords: IDmaChannel::TransferCount, TransferCount, IDmaChannel.TransferCount, IDmaChannel::TransferCount, IDmaChannel.TransferCount
@@ -46,9 +45,6 @@ targetos: Windows
 ## -description
 
 The TransferCount method returns the size in bytes of the buffer that is currently being transferred by a subordinate DMA object.
-
-## -parameters
-
 
 ## -returns
 This method returns ULONG which is the size in bytes of the buffer that is currently being transferred.

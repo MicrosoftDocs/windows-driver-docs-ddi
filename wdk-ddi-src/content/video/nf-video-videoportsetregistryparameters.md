@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 39cf1829-2caf-44e0-8528-acb0def0dd54
 ms.date: 05/10/2018
 ms.keywords: VideoPortSetRegistryParameters, VideoPortSetRegistryParameters function [Display Devices], VideoPort_Functions_a1d6dbfd-595b-4396-a1d3-9ec4fa3a6bfb.xml, display.videoportsetregistryparameters, video/VideoPortSetRegistryParameters
-ms.topic: function
 f1_keywords:
  - "video/VideoPortSetRegistryParameters"
 req.header: video.h

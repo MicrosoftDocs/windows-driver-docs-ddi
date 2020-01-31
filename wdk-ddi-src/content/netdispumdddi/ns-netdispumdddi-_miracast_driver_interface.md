@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a3b9695e-b317-471b-91de-e191c1f5cb17
 ms.date: 05/10/2018
 ms.keywords: "*PMIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE, MIRACAST_DRIVER_INTERFACE structure [Display Devices], PMIRACAST_DRIVER_INTERFACE, PMIRACAST_DRIVER_INTERFACE structure pointer [Display Devices], _MIRACAST_DRIVER_INTERFACE, display.miracast_driver_interface, netdispumdddi/MIRACAST_DRIVER_INTERFACE, netdispumdddi/PMIRACAST_DRIVER_INTERFACE"
-ms.topic: struct
 f1_keywords:
  - "netdispumdddi/MIRACAST_DRIVER_INTERFACE"
 req.header: netdispumdddi.h

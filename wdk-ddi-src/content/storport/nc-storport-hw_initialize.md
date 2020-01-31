@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: c6c70f15-2614-4623-8979-6046cdc6239b
 ms.date: 03/29/2018
 ms.keywords: HW_INITIALIZE, HwStorInitialize, HwStorInitialize routine [Storage Devices], storage.hwstorinitialize, stormini_ef5f6b0d-443d-4ee4-a319-117e5be40831.xml, storport/HwStorInitialize
-ms.topic: callback
 f1_keywords:
  - "storport/HwStorInitialize"
 req.header: storport.h

@@ -6,7 +6,6 @@ old-location: display\createvideoprocessorenum.htm
 ms.assetid: 38c27502-7e8a-45a1-8a7c-315300502480
 ms.date: 05/10/2018
 ms.keywords: CreateVideoProcessorEnum, CreateVideoProcessorEnum callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM, PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM callback, d3d10umddi/CreateVideoProcessorEnum, display.createvideoprocessorenum
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -58,17 +57,21 @@ A handle to the display device (graphics context).
 
 ### -param Arg2
 
-pCreateData [in]
+*pCreateData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorenum">D3D11_1DDIARG_CREATEVIDEOPROCESSORENUM</a> structure. This structure specifies the attributes of the video processor enumeration object to be created.
 
 ### -param Arg3
 
-hRTVideoProcessorEnum [in]
+*hVideoProcessorEnum* [in]
 
-A handle to the video processor enumeration object that the driver should use when it calls back into the Direct3D runtime.
+A handle to the driver's private data for the video processor enumeration object.
 
 ### -param Arg4
+
+*hRTVideoProcessorEnum* [in]
+
+A handle to the video processor enumeration object that the driver should use when it calls back into the Direct3D runtime.
 
 ## -returns
 

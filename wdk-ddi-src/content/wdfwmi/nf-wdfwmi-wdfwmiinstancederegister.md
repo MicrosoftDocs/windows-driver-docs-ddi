@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 2167504e-ca92-4427-9101-04a2c2bf66df
 ms.date: 02/26/2018
 ms.keywords: DFWMIRef_4e04e7da-3a14-4bd4-a430-8f5f3624b61a.xml, WdfWmiInstanceDeregister, WdfWmiInstanceDeregister method, kmdf.wdfwmiinstancederegister, wdf.wdfwmiinstancederegister, wdfwmi/WdfWmiInstanceDeregister
-ms.topic: function
 f1_keywords:
  - "wdfwmi/WdfWmiInstanceDeregister"
 req.header: wdfwmi.h

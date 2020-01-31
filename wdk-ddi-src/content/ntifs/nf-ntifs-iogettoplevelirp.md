@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: e92685f6-031a-464a-b26a-54bebf7d66b6
 ms.date: 04/16/2018
 ms.keywords: IoGetTopLevelIrp, IoGetTopLevelIrp routine [Installable File System Drivers], ifsk.iogettoplevelirp, ioref_4826c2a4-5c95-461d-b21c-7e3fca98c0cb.xml, ntifs/IoGetTopLevelIrp
-ms.topic: function
 f1_keywords:
  - "ntifs/IoGetTopLevelIrp"
 req.header: ntifs.h
@@ -49,15 +48,6 @@ req.typenames:
 
 
 The <b>IoGetTopLevelIrp</b> routine returns the value of the <b>TopLevelIrp</b> field of the current thread.
-
-
-## -parameters
-
-
-
-
-
-
 
 
 ## -returns

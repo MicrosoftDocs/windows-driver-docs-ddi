@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 26f3fc82-051d-4827-8b59-ac2c99f4d2c5
 ms.date: 04/20/2018
 ms.keywords: IBidiSpl2 interface [Print Devices],UnbindDevice method, IBidiSpl2.UnbindDevice, IBidiSpl2::UnbindDevice, UnbindDevice, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices],IBidiSpl2 interface, _win32_IBidiSpl2_UnbindDevice, bidispl/IBidiSpl2::UnbindDevice, gdi.ibidispl2_ibidispl2__unbinddevice, print.ibidispl2_ibidispl2__unbinddevice
-ms.topic: method
 f1_keywords:
  - "bidispl/IBidiSpl2.UnbindDevice"
 req.header: bidispl.h
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>UnbindDevice</b> method releases a printer from a bidirectional printer communication (bidi communication) request.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

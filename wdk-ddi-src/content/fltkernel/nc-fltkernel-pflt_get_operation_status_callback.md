@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: f3fedf69-260c-4117-b302-db3ce6b182a0
 ms.date: 04/16/2018
 ms.keywords: OperationStatusCallback, OperationStatusCallback routine [Installable File System Drivers], PFLT_GET_OPERATION_STATUS_CALLBACK, fltkernel/OperationStatusCallback, ifsk.PFLT_GET_OPERATION_STATUS_CALLBACK
-ms.topic: callback
 f1_keywords:
  - "fltkernel/OperationStatusCallback"
 req.header: fltkernel.h
@@ -76,15 +75,6 @@ The NTSTATUS value of the I/O operation generating the callback.
 ### -param RequesterContext [in, optional]
 
 An optional pointer to a minifilter driver-provided context information of the requester passed from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltrequestoperationstatuscallback">FltRequestOperationStatusCallback</a>. 
-
-
-## -returns
-
-
-
-This routine does not return a value.
-
-
 
 
 ## -remarks

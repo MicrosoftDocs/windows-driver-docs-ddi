@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 9025E49D-A12B-4617-9441-13B61137853E
 ms.date: 04/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetConnectedPin method, IKsPinPipe.KsGetConnectedPin, IKsPinPipe::KsGetConnectedPin, KsGetConnectedPin, KsGetConnectedPin method [Streaming Media Devices], KsGetConnectedPin method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetConnectedPin, stream.ikspinpipe_ksgetconnectedpin
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsGetConnectedPin"
 req.header: ksproxy.h
@@ -53,18 +52,11 @@ req.typenames:
 Not recommended for application use.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

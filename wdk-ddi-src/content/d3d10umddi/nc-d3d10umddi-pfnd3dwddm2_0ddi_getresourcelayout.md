@@ -6,7 +6,6 @@ old-location: display\pfnd3dwddm2_0ddi_getresourcelayout.htm
 ms.assetid: 0158F1B4-AA6E-41F9-BAEF-A3C688758205
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_0DDI_GETRESOURCELAYOUT, PFND3DWDDM2_0DDI_GETRESOURCELAYOUT callback, d3d10umddi/pfnGetResourceLayout, display.pfnd3dwddm2_0ddi_getresourcelayout, pfnGetResourceLayout, pfnGetResourceLayout callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnGetResourceLayout"
 req.header: d3d10umddi.h
@@ -95,14 +94,6 @@ A pointer to a MIP level swizzle transition.
 
 A pointer to the subresource layout.
 
-
-
-
-## -returns
-
-
-
-This callback function does not return a value.
 
 
 

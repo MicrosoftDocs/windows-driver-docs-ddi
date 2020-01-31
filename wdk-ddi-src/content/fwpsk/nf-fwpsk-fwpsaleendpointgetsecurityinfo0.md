@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 0c825695-7fef-4eb1-8615-f41c526aa32d
 ms.date: 05/02/2018
 ms.keywords: FwpsAleEndpointGetSecurityInfo0, FwpsAleEndpointGetSecurityInfo0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointGetSecurityInfo0, netvista.fwpsaleendpointgetsecurityinfo0, wfp_ref_2_funct_3_fwps_A-B_83803cc6-94be-4b32-8b33-2d12cec31e9e.xml
-ms.topic: function
 f1_keywords:
  - "fwpsk/FwpsAleEndpointGetSecurityInfo0"
 req.header: fwpsk.h

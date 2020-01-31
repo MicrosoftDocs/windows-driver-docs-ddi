@@ -4,7 +4,6 @@ title: IDebugHostTypeSignature (dbgmodel.h)
 description: Represents a type signature against which type instances can be matched.
 ms.assetid: d4a331e4-18cf-49f4-a7a3-4e3cde4adb05
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDebugHostTypeSignature"
 req.header: dbgmodel.h
@@ -46,40 +45,6 @@ A definition which will match a set of types by module and/or name.
 
 ## -inheritance
 IDebugHostTypeSignature interits from IUnknown. 
-## -members
-
-<p>IDebugHostTypeSignature has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetHashCode</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>IsMatch</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CompareAgainst</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

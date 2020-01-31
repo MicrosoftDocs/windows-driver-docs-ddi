@@ -4,7 +4,6 @@ title: IDebugHostSymbolEnumerator (dbgmodel.h)
 description: An enumerator which runs through children of a symbol.
 ms.assetid: ea0851a6-952e-44c3-819a-ead0568bd22c
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDebugHostSymbolEnumerator"
 req.header: dbgmodel.h
@@ -44,36 +43,6 @@ An enumerator which runs through children of a symbol.
 
 ## -inheritance
 IDebugHostSymbolEnumerator interits from IUnknown. 
-## -members
-
-<p>IDebugHostSymbolEnumerator has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Reset</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetNext</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

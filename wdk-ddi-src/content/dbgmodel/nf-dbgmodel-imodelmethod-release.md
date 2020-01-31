@@ -4,7 +4,6 @@ title: IModelMethod::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 53bb081b-80ba-4481-b84c-546ed6a0520e
 ms.date: 08/13/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IModelMethod.Release"
 ms.keywords: IModelMethod::Release, Release, IModelMethod.Release, IModelMethod::Release, IModelMethod.Release
@@ -49,10 +48,6 @@ Decrements the reference count for an interface on an object.
 
 For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
-## -parameters
-
-None
 
 ## -returns
 

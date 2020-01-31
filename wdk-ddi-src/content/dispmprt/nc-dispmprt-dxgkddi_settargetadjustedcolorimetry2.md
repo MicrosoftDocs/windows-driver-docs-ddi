@@ -4,7 +4,6 @@ title: DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2 (dispmprt.h)
 description: Reports the colorimetry values selected by the OS for a target.
 ms.assetid: 6177791c-0854-4902-bcbb-d5a58676dbb4
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2"
 req.header: dispmprt.h
@@ -45,7 +44,7 @@ ms.custom: RS5
 
 ## -description
 
-Reports the colorimetry values selected by the OS for a target. The OS will call this routine whenever any of the values in the [DXGK_COLORIMETRY](../d3dkmddi/ns-d3dkmddi-_dxgk_colorimetry.md) changes or the **SdrWhiteLevel** in [DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_attributes3) changes for a target.
+Reports the colorimetry values selected by the OS for a target. The OS will call this routine whenever any of the values in the [DXGK_COLORIMETRY](../d3dkmddi/ns-d3dkmddi-_dxgk_colorimetry.md) changes or the **SdrWhiteLevel** in [DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_attributes3) changes for a target.
 
 
 ## -prototype

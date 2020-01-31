@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 8a25d44b-c83b-4454-858b-117dbb6cc4b7
 ms.date: 04/20/2018
 ms.keywords: OEMGradientFill, OEMGradientFill function [Print Devices], print.oemgradientfill, print_unidrv-pscript_rendering_ddb279ca-c526-4993-94ce-cf8caa0febb4.xml, printoem/OEMGradientFill
-ms.topic: function
 f1_keywords:
  - "printoem/OEMGradientFill"
 req.header: printoem.h

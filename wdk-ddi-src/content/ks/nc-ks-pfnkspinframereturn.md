@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 842ed1ac-4043-41ce-90e5-94c9098e9da4
 ms.date: 04/23/2018
 ms.keywords: AVStrMiniFrameReturn, AVStrMiniFrameReturn routine [Streaming Media Devices], PFNKSPINFRAMERETURN, avstclbk_e7edb74a-8c38-4e7d-9978-849e5d88c153.xml, ks/AVStrMiniFrameReturn, stream.avstrminiframereturn
-ms.topic: callback
 f1_keywords:
  - "ks/AVStrMiniFrameReturn"
 req.header: ks.h
@@ -87,15 +86,6 @@ Contains a copy of <i>Irp->IoStatus.Status</i> for the IRP to which the requeste
 #### - Size [in, optional]
 
 Specifies the size in bytes of <i>Data</i> as originally specified in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

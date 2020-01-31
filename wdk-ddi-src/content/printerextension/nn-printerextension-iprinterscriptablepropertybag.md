@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: E6F48895-7ED6-479B-BF16-42192461C56D
 ms.date: 04/20/2018
 ms.keywords: IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], IPrinterScriptablePropertyBag interface [Print Devices],described, print.iprinterscriptablepropertybag, printerextension/IPrinterScriptablePropertyBag
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag"
 req.header: printerextension.h
@@ -55,111 +54,10 @@ This interface is the same as <a href="https://docs.microsoft.com/windows-hardwa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterScriptablePropertyBag</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterScriptablePropertyBag</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterScriptablePropertyBag</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterScriptablePropertyBag</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IPrinterScriptablePropertyBag</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptablepropertybag-getbool">GetBool</a>
-</td>
-<td align="left" width="63%">
-Gets a specified boolean property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptablepropertybag-getbytes">GetBytes</a>
-</td>
-<td align="left" width="63%">
-Gets a byte array property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptablepropertybag-getint32">GetInt32</a>
-</td>
-<td align="left" width="63%">
-Gets an integer property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterpropertybag-getreadstream">GetReadStream</a>
-</td>
-<td align="left" width="63%">
-Gets a read stream and uses it to read  from a property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-getstring">GetString</a>
-</td>
-<td align="left" width="63%">
-Gets a string property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterscriptablepropertybag-getwritestream">GetWriteStream</a>
-</td>
-<td align="left" width="63%">
-Gets a stream and uses it  to write to a stream property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterpropertybag-setbool">SetBool</a>
-</td>
-<td align="left" width="63%">
-Writes a specified boolean property value.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterpropertybag-setbytes">SetBytes</a>
-</td>
-<td align="left" width="63%">
-Writes a byte array property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterpropertybag-setint32">SetInt32</a>
-</td>
-<td align="left" width="63%">
-Writes an integer property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-setstring">SetString</a>
-</td>
-<td align="left" width="63%">
-Writes a string property.
-
-</td>
-</tr>
-</table> 
-
 
 ## -see-also
 

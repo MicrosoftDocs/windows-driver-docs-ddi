@@ -4,7 +4,6 @@ title: PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052 (d3d12umddi.h)
 description: Gets required information for a meta-command.
 ms.assetid: 0056ecd5-aaa6-435e-9812-a88dc5ef27ab
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052"
 req.header: d3d12umddi.h
@@ -84,10 +83,6 @@ The index of the parameter.
 ### -param Arg4
 
 A pointer to a [D3D12DDIARG_METACOMMAND_REQUIRED_PARAMETER_INFO](ns-d3d12umddi-d3d12ddiarg_metacommand_required_parameter_info.md) structure that contains the meta-command's required parameter info.
-
-## -returns
-
-Returns VOID.
 
 ## -remarks
 

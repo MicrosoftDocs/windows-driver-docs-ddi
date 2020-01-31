@@ -5,7 +5,6 @@ description: Do not use.
 tech.root: kernel 
 ms.assetid: 8ef47a1f-40ab-436b-9cef-c81124997c1a
 ms.date: 09/30/2018
-ms.topic: struct
 f1_keywords:
  - "ntddk/_PROCESS_LOGGING_INFORMATION"
 ms.keywords: _PROCESS_LOGGING_INFORMATION, PROCESS_LOGGING_INFORMATION, *PPROCESS_LOGGING_INFORMATION, 

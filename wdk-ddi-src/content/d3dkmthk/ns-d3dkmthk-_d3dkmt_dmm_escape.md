@@ -6,7 +6,6 @@ old-location: display\d3dkmt_dmm_escape.htm
 ms.assetid: 9d4a317d-bb0c-47d4-b9f2-e668adc4d0d4
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_DMM_ESCAPE, D3DKMT_DMM_ESCAPE structure [Display Devices], OpenGL_Structs_670cf3b6-6c85-4ddc-af88-8891e3f8f6ce.xml, _D3DKMT_DMM_ESCAPE, d3dkmthk/D3DKMT_DMM_ESCAPE, display.d3dkmt_dmm_escape
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_DMM_ESCAPE"
 req.header: d3dkmthk.h

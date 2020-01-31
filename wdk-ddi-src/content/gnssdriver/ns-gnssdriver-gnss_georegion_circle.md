@@ -7,7 +7,6 @@ tech.root: gnss
 ms.assetid: 498F8325-C887-4FDE-8BCF-A713639E3B35
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE structure [Sensor Devices], PGNSS_GEOREGION_CIRCLE, PGNSS_GEOREGION_CIRCLE structure pointer [Sensor Devices], gnss.gnss_georegion_circle, gnssdriver/GNSS_GEOREGION_CIRCLE, gnssdriver/PGNSS_GEOREGION_CIRCLE"
-ms.topic: struct
 f1_keywords:
  - "gnssdriver/GNSS_GEOREGION_CIRCLE"
 req.header: gnssdriver.h

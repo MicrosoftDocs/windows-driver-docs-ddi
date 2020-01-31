@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATE_TESS_SHADER_0003 (d3d12umddi.h)
 description: Create a tessellation shader.
 ms.assetid: 9a80bdac-138c-4025-99d9-7afaee97b6da
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -72,10 +71,6 @@ Pointer to a D3D12DDIARG_TESSELLATION_IO_SIGNATURES structure.
 ### -param Arg6
 
 Flags to create a shader.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

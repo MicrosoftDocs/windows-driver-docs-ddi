@@ -4,7 +4,6 @@ title: PFND3D12DDI_BEGIN_RENDER_PASS (d3d12umddi.h)
 description: Implemented by the client driver to start the Render Pass.
 ms.assetid: 563ef6fb-d509-4f6b-8a2f-95cfcaea8dd7
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -73,10 +72,6 @@ Pointer to [D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC](ns-d3d12umddi-d3d12ddiar
 ### -param UnorderedAccessViewAccessFlags
 
 An unordered access view (UAV), defined by a value in the [D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS](ne-d3d12umddi-d3d12ddiarg_render_pass_uav_access_flags.md) enumeration.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

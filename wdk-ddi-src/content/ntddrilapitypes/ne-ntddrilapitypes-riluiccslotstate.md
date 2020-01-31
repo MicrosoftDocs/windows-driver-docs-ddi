@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: e88c6e79-c1a0-4ff9-ac00-f8f367aaa7c4
 ms.date: 02/16/2018
 ms.keywords: RILUICCSLOTSTATE, RILUICCSLOTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCSLOT_ACTIVE, RIL_UICCSLOT_EMPTY, RIL_UICCSLOT_ERROR, RIL_UICCSLOT_NOT_READY, RIL_UICCSLOT_OFF, RIL_UICCSLOT_OFF_EMPTY, netvista.riluiccslotstate, rilapitypes/RILUICCSLOTSTATE, rilapitypes/RIL_UICCSLOT_ACTIVE, rilapitypes/RIL_UICCSLOT_EMPTY, rilapitypes/RIL_UICCSLOT_ERROR, rilapitypes/RIL_UICCSLOT_NOT_READY, rilapitypes/RIL_UICCSLOT_OFF, rilapitypes/RIL_UICCSLOT_OFF_EMPTY
-ms.topic: enum
 f1_keywords:
  - "ntddrilapitypes/RILUICCSLOTSTATE"
 req.header: ntddrilapitypes.h

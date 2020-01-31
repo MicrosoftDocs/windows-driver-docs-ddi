@@ -6,7 +6,6 @@ old-location: display\videoprocessorsetstreampalette.htm
 ms.assetid: a655baef-4f99-45a1-ac78-5f54d2f4f1ab
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMPALETTE callback, d3d10umddi/pfnVideoProcessorSetStreamPalette, display.videoprocessorsetstreampalette, pfnVideoProcessorSetStreamPalette, pfnVideoProcessorSetStreamPalette callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -79,10 +78,6 @@ The number of elements in the array that is referenced by the <i>pEntries</i> pa
 *pEntries* [in]
 
 A pointer to an array of palette entries. For RGB streams, the palette entries are specified in the <b>DXGI_FORMAT_B8G8R8A8</b> format. For YCbCr streams, the palette entries are specified in the <b>DXGI_FORMAT_AYUV</b> format.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

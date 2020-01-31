@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 9af21f56-d93d-4130-888c-c7009dc2854d
 ms.date: 05/02/2018
 ms.keywords: NdisGetProcessorInformationEx, NdisGetProcessorInformationEx function [Network Drivers Starting with Windows Vista], ndis/NdisGetProcessorInformationEx, ndis_processor_group_ref_f387710b-fb49-4202-9ff5-496021972695.xml, netvista.ndisgetprocessorinformationex
-ms.topic: function
 f1_keywords:
  - "ndis/NdisGetProcessorInformationEx"
 req.header: ndis.h

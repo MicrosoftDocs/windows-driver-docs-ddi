@@ -6,7 +6,6 @@ old-location: display\pfnstatecssamplercb.htm
 ms.assetid: f041a99b-73d7-4fc4-8530-c94d6bbd1f03
 ms.date: 05/10/2018
 ms.keywords: PFND3D11DDI_STATE_CS_SAMPLER_CB, PFND3D11DDI_STATE_CS_SAMPLER_CB callback, d3d10umddi/pfnStateCsSamplerCb, d3d11state_functions_5a300b32-e958-46be-b13b-89dee7d81b39.xml, display.pfnstatecssamplercb, pfnStateCsSamplerCb, pfnStateCsSamplerCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateCsSamplerCb"
 req.header: d3d10umddi.h
@@ -58,30 +57,21 @@ The <b>pfnStateCsSamplerCb</b> function causes the Microsoft Direct3D 11 runtime
 
 ### -param Arg1
 
-hRuntimeDevice [in]
+*hRuntimeDevice* [in]
 
 A handle to a context for the core Direct3D runtime. This handle is supplied to the driver in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function. 
 
 ### -param Arg2
 
-Base [in]
+*Base* [in]
 
 The beginning sampler for which the runtime should refresh state. 
 
 ### -param Arg3
 
-Count [in]
+*Count* [in]
 
 The total number of samplers. The number can be -1, which specifies that the Direct3D runtime uses its high watermarks to substitute an optimal value (which is typically less than the maximum valid value for <i>Count</i>). However, no non-NULL binding exists in a slot larger than the optimal <i>Count</i> value.
-
-
-
-## -returns
-
-
-
-None
-
 
 
 

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 2D713354-4C93-4DC1-A3E9-7E6BC991FD08
 ms.date: 05/03/2018
 ms.keywords: IDebugPlmClient, IDebugPlmClient interface [Windows Debugging], IDebugPlmClient interface [Windows Debugging],described, dbgeng/IDebugPlmClient, debugger.idebugplmclient
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugPlmClient"
 req.header: dbgeng.h
@@ -57,23 +56,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugPlmClient</b> interface
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDebugPlmClient</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugplmclient-launchplmpackagefordebugwide">LaunchPlmPackageForDebugWide</a>
-</td>
-<td align="left" width="63%">
-Launches a suspended Process Lifecycle Management (PLM) application.
-
-</td>
-</tr>
-</table> 
 

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 7c3cb6e2-707a-4f8d-84b7-fce1354c06af
 ms.date: 04/23/2018
 ms.keywords: AVStrMiniDeviceCancelStop, MyAVStrMiniDeviceIRP, MyAVStrMiniDeviceIRP routine [Streaming Media Devices], PFNKSDEVICEIRPVOID, avstclbk_5b19ddf6-52f4-4d93-b5e1-7d7b5a41fe8b.xml, ks/MyAVStrMiniDeviceIRP, stream.avstrminidevicecancelstop
-ms.topic: callback
 f1_keywords:
  - "ks/MyAVStrMiniDeviceIRP"
 req.header: ks.h
@@ -84,15 +83,6 @@ Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 ### -param Irp [in]
 
 The IRP issued by <i>Device</i>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

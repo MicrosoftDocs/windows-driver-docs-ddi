@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: 7904ef5f-734b-4cfb-9a84-c8ee26e37b0d
 ms.date: 02/15/2018
 ms.keywords: WPD_SECTION_DATA_UNITS_BYTES, WPD_SECTION_DATA_UNITS_MILLISECONDS, WPD_SECTION_DATA_UNITS_VALUES, WPD_SECTION_DATA_UNITS_VALUES enumeration, enumeration, portabledevice/WPD_SECTION_DATA_UNITS_BYTES, portabledevice/WPD_SECTION_DATA_UNITS_MILLISECONDS, portabledevice/WPD_SECTION_DATA_UNITS_VALUES, tagWPD_SECTION_DATA_UNITS_VALUES, wpddk.wpd_section_data_units_values
-ms.topic: enum
 f1_keywords:
  - "portabledevice/WPD_SECTION_DATA_UNITS_VALUES"
 req.header: portabledevice.h

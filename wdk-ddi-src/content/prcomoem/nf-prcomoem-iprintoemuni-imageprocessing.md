@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 201450cb-cda6-4dd3-93ee-056d1627b00d
 ms.date: 07/03/2018
 ms.keywords: IPrintOemUni interface [Print Devices],ImageProcessing method, IPrintOemUni.ImageProcessing, IPrintOemUni::ImageProcessing, ImageProcessing, ImageProcessing method [Print Devices], ImageProcessing method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::ImageProcessing, print.iprintoemuni_imageprocessing, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemUni.ImageProcessing"
 req.header: prcomoem.h

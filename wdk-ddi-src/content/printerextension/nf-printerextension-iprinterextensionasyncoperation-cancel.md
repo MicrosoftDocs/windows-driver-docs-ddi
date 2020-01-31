@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: B5E1F3C4-A131-411B-BBAB-6E8B69433E13
 ms.date: 04/20/2018
 ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrinterExtensionAsyncOperation interface, IPrinterExtensionAsyncOperation interface [Print Devices],Cancel method, IPrinterExtensionAsyncOperation.Cancel, IPrinterExtensionAsyncOperation::Cancel, print.iprinterextensionasyncoperation_cancel, printerextension/IPrinterExtensionAsyncOperation::Cancel
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterExtensionAsyncOperation.Cancel"
 req.header: printerextension.h
@@ -49,18 +48,6 @@ req.typenames:
 
 
 Cancels the asynchronous operation.
-
-
-## -parameters
-
-
-
-
-
-
-#### - void
-
-None.
 
 
 ## -returns

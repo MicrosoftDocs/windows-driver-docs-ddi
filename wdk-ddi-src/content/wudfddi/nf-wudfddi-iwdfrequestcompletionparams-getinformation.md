@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 6dd47575-0da3-4038-81aa-ac955c00f08d
 ms.date: 02/26/2018
 ms.keywords: GetInformation, GetInformation method, GetInformation method,IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface,GetInformation method, IWDFRequestCompletionParams.GetInformation, IWDFRequestCompletionParams::GetInformation, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, umdf.iwdfrequestcompletionparams_getinformation, wdf.iwdfrequestcompletionparams_getinformation, wudfddi/IWDFRequestCompletionParams::GetInformation
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFRequestCompletionParams.GetInformation"
 req.header: wudfddi.h
@@ -51,13 +50,6 @@ req.typenames:
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetInformation</b> method retrieves information that is associated with the completion of an I/O request.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

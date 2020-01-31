@@ -6,7 +6,6 @@ old-location: display\videoprocessorsetstreamautoprocessingmode.htm
 ms.assetid: 85c504e3-46b4-434a-8ab9-5c866eafe05a
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMAUTOPROCESSINGMODE, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMAUTOPROCESSINGMODE callback, d3d10umddi/pfnVideoProcessorSetStreamAutoProcessingMode, display.videoprocessorsetstreamautoprocessingmode, pfnVideoProcessorSetStreamAutoProcessingMode, pfnVideoProcessorSetStreamAutoProcessingMode callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetStreamAutoProcessingMode"
 req.header: d3d10umddi.h
@@ -83,15 +82,6 @@ The zero-based index of the input stream.
 If <b>TRUE</b>, automatic processing features are enabled. If <b>FALSE</b>, the driver disables any additional video processing that it might be performing.
 
 
-
-
-
-
-## -returns
-
-
-
-This callback function does not return a value.
 
 
 

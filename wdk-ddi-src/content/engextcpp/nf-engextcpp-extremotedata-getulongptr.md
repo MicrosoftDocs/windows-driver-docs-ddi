@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 1a3a870b-9f50-4430-b4f4-6d877d2fac3e
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_22ba632d-a45b-40de-b8d7-269c917357d5.xml, ExtRemoteData class [Windows Debugging],GetUlongPtr method, ExtRemoteData.GetUlongPtr, ExtRemoteData::GetUlongPtr, GetUlongPtr, GetUlongPtr method [Windows Debugging], GetUlongPtr method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getulongptr
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetUlongPtr"
 req.header: engextcpp.hpp
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>GetUlongPtr</b> method returns an unsigned integer version (extended to ULONG64) of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory. The size of the unsigned integer from the target is the same size as a pointer on the target.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

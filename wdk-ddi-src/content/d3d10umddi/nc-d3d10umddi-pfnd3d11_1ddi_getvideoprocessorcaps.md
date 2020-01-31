@@ -6,7 +6,6 @@ old-location: display\getvideoprocessorcaps.htm
 ms.assetid: 5ffb4f6e-41c6-4d15-8995-a398b9976822
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEOPROCESSORCAPS, PFND3D11_1DDI_GETVIDEOPROCESSORCAPS callback, d3d10umddi/pfnGetVideoProcessorCaps, display.getvideoprocessorcaps, pfnGetVideoProcessorCaps, pfnGetVideoProcessorCaps callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -67,10 +66,6 @@ A handle to a video processor enumeration object that was created through a call
 *pCaps* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_caps">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a> structure that specifies the capabilities of the video processor that is specified by the <i>hProcessorEnum</i> parameter.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -see-also
 

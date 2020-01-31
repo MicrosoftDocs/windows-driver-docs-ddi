@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: ae1f4e0e-f801-41b1-a283-dd9ec9559e45
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -54,10 +53,6 @@ Used by the user mode driver to complete a context.
 ### -param pContext
 
 A pointer to the context.
-
-## -returns
-
-Returns void.
 
 ## -prototype
 

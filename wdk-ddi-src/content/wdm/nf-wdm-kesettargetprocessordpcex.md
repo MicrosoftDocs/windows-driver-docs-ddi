@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: a21f3304-9181-4027-9a7e-d590037b4b0f
 ms.date: 04/30/2018
 ms.keywords: KeSetTargetProcessorDpcEx, KeSetTargetProcessorDpcEx routine [Kernel-Mode Driver Architecture], k105_86dff32b-f370-4233-a3ec-d8fb3cc5b4cc.xml, kernel.kesettargetprocessordpcex, wdm/KeSetTargetProcessorDpcEx
-ms.topic: function
 f1_keywords:
  - "wdm/KeSetTargetProcessorDpcEx"
 req.header: wdm.h

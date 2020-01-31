@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: bbcf7597-217a-499b-b0f2-deef1e85becb
 ms.date: 09/25/2019
 ms.keywords: "*PKSSOUNDDETECTORPROPERTY, KSSOUNDDETECTORPROPERTY, KSSOUNDDETECTORPROPERTYstructure [Audio Devices], PKSSOUNDDETECTORPROPERTY, PKSSOUNDDETECTORPROPERTYstructure pointer [Audio Devices], audio.KSSOUNDDETECTORPROPERTY, ksmedia/KSSOUNDDETECTORPROPERTY, ksmedia/PKSSOUNDDETECTORPROPERTY"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSSOUNDDETECTORPROPERTY"
 req.header: ksmedia.h
@@ -66,4 +65,4 @@ The EventId is used to identify the different voice assistant/agents such as Cor
 
 <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/audio/voice-activation-mva">Mulitple Voice Assistant</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/voice-activation-mva">Mulitple Voice Assistant</a>

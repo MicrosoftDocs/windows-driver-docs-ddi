@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 336fa87a-6c3e-4337-90d9-b0ebeb355e68
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_UNLOAD, DXGKDDI_UNLOAD callback, DmFunctions_b7f60489-c7e7-4bd1-bf17-ff193bc7d614.xml, DxgkDdiUnload, DxgkDdiUnload callback function [Display Devices], display.dxgkddiunload, dispmprt/DxgkDdiUnload
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiUnload"
 req.header: dispmprt.h
@@ -49,28 +48,6 @@ req.typenames:
 
 
 The <i>DxgkDdiUnload</i> function frees any resources allocated during execution of the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function.
-
-
-## -parameters
-
-
-
-
-
-
-
-
-
-
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

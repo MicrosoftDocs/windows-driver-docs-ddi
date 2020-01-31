@@ -4,7 +4,6 @@ title: IDebugHostPublic (dbgmodel.h)
 description: An (IDebugHostSymbol derived) interface to a public symbol (address/name only).
 ms.assetid: 18775b1d-4efc-422c-8920-21de383fb5b9
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDebugHostPublic"
 req.header: dbgmodel.h
@@ -46,60 +45,6 @@ Represents a symbol within the publics table of a PDB. This does not have type i
 
 ## -inheritance
 IDebugHostPublic interits from [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md). 
-## -members
-
-<p>IDebugHostPublic has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContext</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateChildren</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetSymbolKind</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetName</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetType</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContainingModule</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetLocationKind</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetLocation</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 Public symbols represent things in the public table within a symbol file. They are, in effect, export addresses. There is no type information associated with a public symbol -- only an address. Unless a public symbol is explicitly requested by the caller, the debug host prefers to return private symbols for every inquiry. A public symbol is expressed by the IDebugHostPublic interface.

@@ -1,15 +1,14 @@
 ---
 UID: NF:ntifs.NtFlushBuffersFileEx
 title: NtFlushBuffersFileEx function (ntifs.h)
-description: The ZwFlushBuffersFileEx routine is called by a file system filter driver to send a flush request for a given file to the file system. An optional flush operation flag can be set to control how file data is written to storage.
+description: The NtFlushBuffersFileEx routine is called by a file system legacy filter driver to send a flush request for a given file to the file system. An optional flush operation flag can be set to control how file data is written to storage.
 old-location: kernel\zwflushbuffersfileex.htm
 tech.root: kernel
 ms.assetid: C081CCF5-D13C-405C-A430-31805A16724A
-ms.date: 04/30/2018
+ms.date: 01/02/2020
 ms.keywords: FLUSH_FLAGS_FILE_DATA_ONLY, FLUSH_FLAGS_NO_SYNC, NtFlushBuffersFileEx, ZwFlushBuffersFileEx, ZwFlushBuffersFileEx routine [Kernel-Mode Driver Architecture], kernel.zwflushbuffersfileex, ntifs/NtFlushBuffersFileEx, ntifs/ZwFlushBuffersFileEx
-ms.topic: function
 f1_keywords:
- - "ntifs/ZwFlushBuffersFileEx"
+ - "ntifs/NtFlushBuffersFileEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -45,161 +44,66 @@ req.typenames:
 
 # NtFlushBuffersFileEx function
 
-
 ## -description
 
-
-The <b>NtFlushBuffersFileEx</b> routine is called by a file system filter driver to send a flush request for a given file to the file system. An optional flush operation flag can be set to control how file data is written to storage.
-
+The **NtFlushBuffersFileEx** routine is called by a file system legacy filter driver to send a flush request for a given file to the file system. An optional flush operation flag can be set to control how file data is written to storage.
 
 ## -parameters
 
-
-
-
 ### -param FileHandle [in]
 
-Handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">NtOpenFile</a> for the file whose buffers will be flushed. This parameter is required and cannot be <b>NULL</b>.
-
+Handle returned by [**NtCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile) or [**NtOpenFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile) for the file whose buffers will be flushed. This parameter is required and cannot be NULL.
 
 ### -param Flags [in]
 
-Flush operation flags. <i>Flags</i> can be 0 or one of the following values.
+Flush operation flags. *Flags* can be 0 or one of the following values *if the file is on an NTFS file system*.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="FLUSH_FLAGS_FILE_DATA_ONLY"></a><a id="flush_flags_file_data_only"></a><dl>
-<dt><b>FLUSH_FLAGS_FILE_DATA_ONLY</b></dt>
-</dl>
-</td>
-<td width="60%">
-If the file is on an NTFS file system, file data in the file cache will be written. No metadata is written and the underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="FLUSH_FLAGS_NO_SYNC"></a><a id="flush_flags_no_sync"></a><dl>
-<dt><b>FLUSH_FLAGS_NO_SYNC</b></dt>
-</dl>
-</td>
-<td width="60%">
-If the file is on an NTFS file system, file data and metadata in the file cache will be written. The underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles.
-
-</td>
-</tr>
-</table>
- 
-
+| Value | Meaning |
+| ----- | ------- |
+| FLUSH_FLAGS_FILE_DATA_ONLY | File data in the file cache will be written. No metadata is written and the underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles. |
+| FLUSH_FLAGS_NO_SYNC | File data and metadata in the file cache will be written. The underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles. |
+| FLUSH_FLAGS_FILE_DATA_SYNC_ONLY | Data from the given file will be written from the Windows in-memory cache. Timestamp updating will be skipped as much as possible. The underlying storage is synchronized to flush its cache. This flag is not valid with volume or directory handles. |
 
 ### -param Parameters
 
-<p>Address of the caller's I/O status block. This parameter is required and cannot be <b>NULL</b>.</p>
-
+Pointer to a block with additional parameters. This parameter must currently be set to NULL.
 
 ### -param ParametersSize
 
-The size, in bytes, of the parameters block.
-
+The size, in bytes, of the block that *Parameters* point to. This parameter must currently be set to 0.
 
 ### -param IoStatusBlock [out]
 
-Address of the caller's I/O status block. This parameter is required and cannot be <b>NULL</b>.
-
+Address of the caller's I/O status block. This parameter is required and cannot be NULL.
 
 ## -returns
 
+**NtFlushBuffersFileEx** returns STATUS_SUCCESS or an appropriate NTSTATUS value, such as one of the following:
 
-
-<b>NtFlushBuffersFileEx</b> returns <b>STATUS_SUCCESS</b> or an appropriate <b>NTSTATUS</b> value, such as one of the following: 
-
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_MEDIA_WRITE_PROTECTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file resides on a write-protected volume; this is an error code.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_VOLUME_DISMOUNTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file resides on a volume that is not currently mounted; this is an error code.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file does has neither write or append access.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_MEDIA_WRITE_PROTECTED | The file resides on a write-protected volume; this is an error code. |
+| STATUS_VOLUME_DISMOUNTED | The file resides on a volume that is not currently mounted; this is an error code. |
+| STATUS_ACCESS_DENIED | The file does has neither write or append access. |
 
 ## -remarks
 
+Minifilter drivers should call [**FltFlushBuffers2**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers2) instead of calling **NtFlushBuffersFileEx**.
 
+A legacy file system filter driver can call **NtFlushBuffersFileEx** to issue an [IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers) request to the file system for a given file. The flush operation is synchronous.
 
-A file system filter driver can call <b>NtFlushBuffersFileEx</b> to issue an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers">IRP_MJ_FLUSH_BUFFERS</a> request to the file system for a given file. The flush operation is synchronous. 
+Callers of **NtFlushBuffersFileEx** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs).
 
-Minifilter drivers should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers">FltFlushBuffers</a> instead of calling <b>NtFlushBuffersFileEx</b>. 
-
-Callers of <b>NtFlushBuffersFileEx</b> must be running at IRQL = PASSIVE_LEVEL and <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs">with special kernel APCs enabled</a>.
-
-<div class="alert"><b>Note</b>  If the call to the <b>NtFlushBuffersFileEx</b> function occurs in user mode, you should use the name "<b>NtFlushBuffersFileEx</b>" instead of "<b>NtFlushBuffersFileEx</b>".</div>
-<div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
-
-
-
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
+[**FltFlushBuffers2**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers2)
 
+[IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers)
 
+[Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltflushbuffers">FltFlushBuffers</a>
+[**NtCreateFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers">IRP_MJ_FLUSH_BUFFERS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">NtCreateFile</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile">NtOpenFile</a>
- 
-
- 
-
+[**NtOpenFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntopenfile)

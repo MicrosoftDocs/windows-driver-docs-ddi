@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 6e466815-aef4-4602-b3cf-66b47b2e3f3b
 ms.date: 04/23/2018
 ms.keywords: KsDefaultDeviceIoCompletion, KsDefaultDeviceIoCompletion function [Streaming Media Devices], ks/KsDefaultDeviceIoCompletion, ksfunc_ae9df7be-800d-4f4a-a8d9-f39e09653e98.xml, stream.ksdefaultdeviceiocompletion
-ms.topic: function
 f1_keywords:
  - "ks/KsDefaultDeviceIoCompletion"
 req.header: ks.h

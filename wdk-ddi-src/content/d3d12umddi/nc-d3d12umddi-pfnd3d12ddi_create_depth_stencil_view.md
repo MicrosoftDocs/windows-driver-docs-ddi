@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW (d3d12umddi.h)
 description: The PFND3D12DDI_CREATE_DEPTH_STENCIL_VIEW callback function creates a depth stencil view.
 ms.assetid: e3973803-8c0d-4e73-b935-34bb6413d0d4
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -60,10 +59,6 @@ A pointer to a [D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW](ns-d3d12umddi-d3d12ddiarg
 ### -param DestDescriptor
 
 A pointer to [D3D12DDI_CPU_DESCRIPTOR_HANDLE](ns-d3d12umddi-d3d12ddi_cpu_descriptor_handle.md) structure that describes the depth buffer bindings.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

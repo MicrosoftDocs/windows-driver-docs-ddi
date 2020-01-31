@@ -4,7 +4,6 @@ title: IHostDataModelAccess::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 5b5320b2-fee9-494f-b2ba-07f0a2b83ae2
 ms.date: 07/20/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IHostDataModelAccess.Release"
 ms.keywords: IHostDataModelAccess::Release, Release, IHostDataModelAccess.Release, IHostDataModelAccess::Release, IHostDataModelAccess.Release
@@ -49,10 +48,6 @@ Decrements the reference count for an interface on an object.
 
 For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
-## -parameters
-
-None
 
 ## -returns
 

@@ -4,7 +4,6 @@ title: PFND3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054 (d3d12umddi.h)
 description: Performs a ray tracing acceleration structure build on the GPU.
 ms.assetid: c85f6b3b-0420-4acd-8f4a-891e4432fb4a
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -58,10 +57,6 @@ A handle to the command list.
 *_In_* [D3D12DDIARG_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054](ns-d3d12umddi-d3d12ddiarg_build_raytracing_acceleration_structure_0054.md)
 
 Description of the acceleration structure to build.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

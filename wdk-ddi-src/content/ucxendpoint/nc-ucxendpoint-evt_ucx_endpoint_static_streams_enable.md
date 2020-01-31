@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: eb40623f-b13f-4c3f-b3ac-687cba323ce2
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE, EVT_UCX_ENDPOINT_STATIC_STREAMS_ENABLE callback, EvtUcxEndpointStaticStreamsEnable, EvtUcxEndpointStaticStreamsEnable callback function [Buses], PFN_UCM_CONNECTOR_GET_OPERATING_MODE, PFN_UCM_CONNECTOR_GET_OPERATING_MODE callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_enable, ucxendpoint/EvtUcxEndpointStaticStreamsEnable
-ms.topic: callback
 f1_keywords:
  - "ucxendpoint/PFN_UCM_CONNECTOR_GET_OPERATING_MODE"
 req.header: ucxendpoint.h
@@ -72,15 +71,6 @@ Contains the URB for the <b>URB_FUNCTION_OPEN_STATIC_STREAMS</b>.
 #### - Endpoint [in]
 
 A handle to a UCXENDPOINT object that represents the endpoint.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

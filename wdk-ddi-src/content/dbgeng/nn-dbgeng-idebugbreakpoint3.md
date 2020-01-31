@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 42A31C23-9C02-48F6-83CC-CA017F76DE18
 ms.date: 11/13/2018
 ms.keywords: IDebugBreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], IDebugBreakpoint3 interface [Windows Debugging],described, dbgeng/IDebugBreakpoint3, debugger.idebugbreakpoint3
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugBreakpoint3"
 req.header: dbgeng.h
@@ -56,23 +55,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugBreakpoint3</b> interfa
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDebugBreakpoint3</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint3-getguid">GetGuid</a>
-</td>
-<td align="left" width="63%">
-Returns a GUID for the breakpoint.
-
-</td>
-</tr>
-</table> 
 

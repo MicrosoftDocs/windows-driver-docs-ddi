@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: adf5b2fc-1b9a-4dad-97ad-e23f382acb8c
 ms.author: windowsdriverdev
 ms.date: 10/11/2019
-ms.topic: function
 f1_keywords:
  - "netdevice/NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT"
 ms.keywords: NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT
 req.header: netdevice.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

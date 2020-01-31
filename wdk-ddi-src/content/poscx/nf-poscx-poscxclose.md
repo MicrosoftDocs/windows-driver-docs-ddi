@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: 90D097B9-EE7B-49FA-B0F7-6A255D140C06
 ms.date: 02/23/2018
 ms.keywords: PosCxClose, PosCxClose function, pos.poscxclose, poscx/PosCxClose
-ms.topic: function
 f1_keywords:
  - "poscx/PosCxClose"
 req.header: poscx.h
@@ -47,7 +46,7 @@ req.product: Windows 10 or later.
 
 ## -description
 
-PosCxClose is called to delete an opened PosCx library instance. This function releases the device if the caller is the owner, and cancels pending requests. It should be called from the driver's [EVT_WDF_FILE_CLOSE](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_close) callback.
+PosCxClose is called to delete an opened PosCx library instance. This function releases the device if the caller is the owner, and cancels pending requests. It should be called from the driver's [EVT_WDF_FILE_CLOSE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_file_close) callback.
 
 ## -parameters
 

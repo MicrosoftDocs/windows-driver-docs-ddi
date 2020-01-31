@@ -4,7 +4,6 @@ title: IDebugHostStatus (dbgmodel.h)
 description: An interface allowing a client to query for the status of the host.
 ms.assetid: aff0759f-6583-437e-a68d-793566b83eed
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDebugHostStatus"
 req.header: dbgmodel.h
@@ -45,32 +44,6 @@ The IDebugHostStatus interface allows a client of the data model or the debug ho
 
 ## -inheritance
 IDebugHostStatus interits from IUnknown. 
-## -members
-
-<p>IDebugHostStatus has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>PollUserInterrupt</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

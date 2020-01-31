@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: 05E5F48B-4E82-4BC3-B6D1-7E9E3435BDB3
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2PioTransmitEnableReadyNotification, EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION, EVT_SERCX2_PIO_TRANSMIT_ENABLE_READY_NOTIFICATION callback, EvtSerCx2PioTransmitEnableReadyNotification, EvtSerCx2PioTransmitEnableReadyNotification callback function [Serial Ports], serports.evtsercx2piotransmitenablereadynotification
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2PioTransmitEnableReadyNotification"
 req.header: sercx.h
@@ -59,15 +58,6 @@ The <i>EvtSerCx2PioTransmitEnableReadyNotification</i> event callback function i
 ### -param PioTransmit [in]
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a> handle to a PIO-transmit object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2piotransmitcreate">SerCx2PioTransmitCreate</a> method to create this object.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

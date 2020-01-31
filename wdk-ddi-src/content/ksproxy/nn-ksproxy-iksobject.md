@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: c4422564-3fc0-4087-b628-056488c723e6
 ms.date: 04/23/2018
 ms.keywords: IKsObject, IKsObject interface [Streaming Media Devices], IKsObject interface [Streaming Media Devices],described, ksproxy_6432effa-13f1-4b39-a158-c315a93108d4.xml, stream.iksobject
-ms.topic: interface
 f1_keywords:
  - "ksproxy/IKsObject"
 req.header: ksproxy.h
@@ -54,30 +53,10 @@ The <b>IKsObject</b> interface provides a method to retrieve the file handle of 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsObject</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsObject</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsObject</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IKsObject</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksobject-ksgetobjecthandle">KsGetObjectHandle</a>
-</td>
-<td align="left" width="63%">
-Retrieves the file handle of a KS object.
-
-</td>
-</tr>
-</table> 
-
 
 ## -remarks
 

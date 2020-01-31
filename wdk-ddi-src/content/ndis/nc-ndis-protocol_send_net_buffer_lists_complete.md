@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: bc9197c5-ce0b-42b2-8225-fb9d83427ac8
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE, PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE callback, ProtocolSendNetBufferListsComplete, ProtocolSendNetBufferListsComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolSendNetBufferListsComplete, ndis_sendrcv_ref_1e393909-0442-45d4-ae57-7ec0f51671a4.xml, netvista.protocolsendnetbufferlistscomplete
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolSendNetBufferListsComplete"
 req.header: ndis.h
@@ -85,15 +84,6 @@ A pointer to a list of
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that the
      protocol driver supplied in a previous call to 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndissendnetbufferlists">NdisSendNetBufferLists</a>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

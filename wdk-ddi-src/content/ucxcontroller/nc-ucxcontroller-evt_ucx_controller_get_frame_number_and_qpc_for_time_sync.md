@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: A8D666BD-5C2A-416F-901E-5FF7CF38A084
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC callback, EvtUcxControllerGetFrameNumberAndQpcForTimeSync, EvtUcxControllerGetFrameNumberAndQpcForTimeSync callback function [Buses], buses.evt_ucx_controller_get_frame_number_and_qpc_for_time_sync, ucxcontroller/EvtUcxControllerGetFrameNumberAndQpcForTimeSync
-ms.topic: callback
 f1_keywords:
  - "ucxcontroller/EvtUcxControllerGetFrameNumberAndQpcForTimeSync"
 req.header: ucxcontroller.h
@@ -76,15 +75,6 @@ The length, in bytes, of the request's output buffer, if an output buffer
 
 The length, in bytes, of the request's input buffer, if an input buffer
         is available. This value is the size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_frame_number_and_qpc_for_time_sync_information">USB_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC_INFORMATION</a> structure.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: A1ACF7C4-2DEE-405E-AEEE-BC03B9D5FAD2
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaDisplayableElement, IPrintSchemaDisplayableElement interface [Print Devices], IPrintSchemaDisplayableElement interface [Print Devices],described, print.iprintschemadisplayableelement_interface, printerextension/IPrintSchemaDisplayableElement
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrintSchemaDisplayableElement"
 req.header: printerextension.h

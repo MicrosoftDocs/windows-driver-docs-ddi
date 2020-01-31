@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 6873609d-7f5a-474d-8b48-fee9f93c812b
 ms.date: 05/03/2018
 ms.keywords: GetBreakpointById, GetBreakpointById method [Windows Debugging], GetBreakpointById method [Windows Debugging],IDebugControl interface, GetBreakpointById method [Windows Debugging],IDebugControl2 interface, GetBreakpointById method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetBreakpointById method, IDebugControl2 interface [Windows Debugging],GetBreakpointById method, IDebugControl2::GetBreakpointById, IDebugControl3 interface [Windows Debugging],GetBreakpointById method, IDebugControl3.GetBreakpointById, IDebugControl3::GetBreakpointById, IDebugControl::GetBreakpointById, IDebugControl_641f8e32-6c08-4b63-89c6-877b52a86ab2.xml, dbgeng/IDebugControl2::GetBreakpointById, dbgeng/IDebugControl3::GetBreakpointById, dbgeng/IDebugControl::GetBreakpointById, debugger.getbreakpointbyid
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl.GetBreakpointById"
 req.header: dbgeng.h

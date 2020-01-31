@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: e862d9fe-a60c-4397-95ce-62aa1ef17eae
 ms.date: 05/02/2018
 ms.keywords: NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE, NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE callback, NdisTcpOffloadDisconnectComplete, NdisTcpOffloadDisconnectComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadDisconnectComplete, netvista.ndistcpoffloaddisconnectcomplete, tcp_chim_ndis_func_4a062983-d7c0-47c4-9eeb-dd3561c6b31a.xml
-ms.topic: callback
 f1_keywords:
  - "ndischimney/NdisTcpOffloadDisconnectComplete"
 req.header: ndischimney.h
@@ -76,15 +75,6 @@ A pointer to a single
      target obtained this pointer as an input parameter to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_disconnect_handler">
      MiniportTcpOffloadDisconnect</a> function.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

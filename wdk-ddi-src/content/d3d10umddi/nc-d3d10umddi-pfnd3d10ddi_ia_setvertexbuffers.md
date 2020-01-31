@@ -6,7 +6,6 @@ old-location: display\iasetvertexbuffers.htm
 ms.assetid: 3d5a7ea1-08c2-4594-93bc-97b985cd16dc
 ms.date: 05/10/2018
 ms.keywords: IaSetVertexBuffers, IaSetVertexBuffers callback function [Display Devices], PFND3D10DDI_IA_SETVERTEXBUFFERS, PFND3D10DDI_IA_SETVERTEXBUFFERS callback, UserModeDisplayDriverDx10_Functions_12104a04-1497-42c6-a5e1-6573b33a43d3.xml, d3d10umddi/IaSetVertexBuffers, display.iasetvertexbuffers
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/IaSetVertexBuffers"
 req.header: d3d10umddi.h
@@ -90,18 +89,9 @@ An array of values that indicate the offsets, in bytes, into each vertex buffer.
 
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
-
-
-
-
 ## -remarks
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 

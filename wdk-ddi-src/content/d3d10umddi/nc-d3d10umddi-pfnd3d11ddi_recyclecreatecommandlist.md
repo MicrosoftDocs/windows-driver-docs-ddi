@@ -6,7 +6,6 @@ old-location: display\recyclecreatecommandlist.htm
 ms.assetid: c387545e-2891-401d-b7ca-ee7549a52603
 ms.date: 05/10/2018
 ms.keywords: PFND3D11DDI_RECYCLECREATECOMMANDLIST, PFND3D11DDI_RECYCLECREATECOMMANDLIST callback, RecycleCreateCommandList, RecycleCreateCommandList callback function [Display Devices], UserModeDisplayDriverDx11_Functions_ae724488-211a-4590-abcc-f2c8f954531e.xml, d3d10umddi/RecycleCreateCommandList, display.recyclecreatecommandlist
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -64,11 +63,15 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ### -param Arg3
 
+*hCommandList* [in]
+
+A handle to the driver's private data for the command list.
+
+### -param Arg4
+
 *hRTCommandList* [in]
 
 A handle to the command list that the driver should use, when it calls back into the Direct3D runtime.
-
-### -param Arg4
 
 ## -returns
 

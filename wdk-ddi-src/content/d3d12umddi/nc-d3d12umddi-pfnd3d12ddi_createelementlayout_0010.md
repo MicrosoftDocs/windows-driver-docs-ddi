@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATEELEMENTLAYOUT_0010 (d3d12umddi.h)
 description: Creates an element layout.
 ms.assetid: 4d9e1109-4d2c-4234-b989-0bc270a5fb0c
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -60,10 +59,6 @@ Pointer to a D3D12DDIARG_CREATEELEMENTLAYOUT_0010 structure.
 ### -param Arg3
 
 An element layout handle.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

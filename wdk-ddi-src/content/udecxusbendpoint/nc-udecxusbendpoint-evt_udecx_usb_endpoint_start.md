@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 3F58B6FF-65C5-4B28-81DD-3726B6695BF7
 ms.date: 05/07/2018
 ms.keywords: EVT_UDECX_USB_ENDPOINT_START, EVT_UDECX_USB_ENDPOINT_START callback, EvtUsbEndpointStart, EvtUsbEndpointStart callback function [Buses], buses.evt_udecx_usb_endpoint_start, udecxusbendpoint/EvtUsbEndpointStart
-ms.topic: callback
 f1_keywords:
  - "udecxusbendpoint/EvtUsbEndpointStart"
 req.header: udecxusbendpoint.h
@@ -59,15 +58,6 @@ The USB device emulation class extension (UdeCx) invokes this callback function 
 ### -param UdecxUsbEndpoint [in]
 
 A handle to a UDE endpoint object that represents the endpoint which can start receiving I/O requests. The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

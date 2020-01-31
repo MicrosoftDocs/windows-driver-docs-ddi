@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 62cc047a-bc91-4e1e-817e-7fd509d4d90e
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX, PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX callback, ProtocolCloseAdapterCompleteEx, ProtocolCloseAdapterCompleteEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolCloseAdapterCompleteEx, netvista.protocolcloseadaptercompleteex, protocol_functions_ref_ebd02bc7-54f9-4b38-a2a5-9db0b64f1747.xml
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolCloseAdapterCompleteEx"
 req.header: ndis.h
@@ -66,15 +65,6 @@ A handle to a context area allocated by the protocol driver. The protocol driver
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
      driver called the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

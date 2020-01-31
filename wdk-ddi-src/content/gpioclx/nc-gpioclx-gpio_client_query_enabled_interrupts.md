@@ -7,7 +7,6 @@ tech.root: GPIO
 ms.assetid: 2F09006A-EFC6-4A38-AC5D-661DA48155FA
 ms.date: 02/15/2018
 ms.keywords: CLIENT_QueryEnabledInterrupts, CLIENT_QueryEnabledInterrupts callback, CLIENT_QueryEnabledInterrupts callback function [Parallel Ports], GPIO.client_queryenabledinterrupts, GPIO_CLIENT_QUERY_ENABLED_INTERRUPTS, gpioclx/CLIENT_QueryEnabledInterrupts
-ms.topic: callback
 f1_keywords:
  - "gpioclx/CLIENT_QueryEnabledInterrupts"
 req.header: gpioclx.h

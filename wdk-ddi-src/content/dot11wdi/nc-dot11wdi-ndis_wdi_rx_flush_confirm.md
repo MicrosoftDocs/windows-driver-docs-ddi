@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: CEED709C-F295-4633-B7C1-4719EDDC7CD4
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_RX_FLUSH_CONFIRM, NDIS_WDI_RX_FLUSH_CONFIRM callback, NdisWdiRxFlushConfirm, NdisWdiRxFlushConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxFlushConfirm, netvista.ndiswdirxflushconfirm
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/NdisWdiRxFlushConfirm"
 req.header: dot11wdi.h
@@ -61,15 +60,6 @@ This is a callback inside <a href="https://docs.microsoft.com/windows-hardware/d
 ### -param NdisMiniportDataPathHandle
 
 The NdisMiniportDataPathHandle passed to the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

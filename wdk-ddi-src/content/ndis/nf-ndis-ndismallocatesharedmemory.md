@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 8eda6100-598f-405d-a9b3-74424c829a58
 ms.date: 05/02/2018
 ms.keywords: NdisMAllocateSharedMemory, NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml, ndis/NdisMAllocateSharedMemory, netvista.ndismallocatesharedmemory
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMAllocateSharedMemory"
 req.header: ndis.h

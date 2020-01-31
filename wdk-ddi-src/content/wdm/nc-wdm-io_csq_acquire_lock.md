@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 8981e2f9-b456-48de-b31c-25a6884bcf12
 ms.date: 04/30/2018
 ms.keywords: CsqAcquireLock, CsqAcquireLock routine [Kernel-Mode Driver Architecture], DrvrRtns_02339dc6-f9f2-47b0-a0c9-df36f862b5d6.xml, IO_CSQ_ACQUIRE_LOCK, kernel.csqacquirelock, wdm/CsqAcquireLock
-ms.topic: callback
 f1_keywords:
  - "wdm/CsqAcquireLock"
 req.header: wdm.h
@@ -64,15 +63,6 @@ Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kern
 ### -param Irql [out]
 
 Pointer to a variable that the <i>CsqAcquireLock</i> routine can use to store the current IRQL. The system passes the stored value <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_release_lock">CsqReleaseLock</a> when it releases the lock.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

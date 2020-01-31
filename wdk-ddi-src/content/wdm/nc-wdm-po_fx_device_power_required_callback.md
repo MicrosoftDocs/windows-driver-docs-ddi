@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: AC2110EA-A124-4C01-8270-8D6650F80E0A
 ms.date: 04/30/2018
 ms.keywords: DevicePowerRequiredCallback, DevicePowerRequiredCallback routine [Kernel-Mode Driver Architecture], PO_FX_DEVICE_POWER_REQUIRED_CALLBACK, kernel.devicepowerrequiredcallback, wdm/DevicePowerRequiredCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/DevicePowerRequiredCallback"
 req.header: wdm.h
@@ -59,15 +58,6 @@ The <i>DevicePowerRequiredCallback</i> callback routine notifies the device driv
 ### -param Context [in]
 
 A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

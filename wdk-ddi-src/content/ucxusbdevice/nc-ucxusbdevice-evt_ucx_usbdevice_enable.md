@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: ac46a6eb-c30d-4b1f-8e14-0ae44ae0d4f1
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_USBDEVICE_ENABLE, EVT_UCX_USBDEVICE_ENABLE callback, EvtUcxUsbDeviceEnable, EvtUcxUsbDeviceEnable callback function [Buses], PEVT_UCX_USBDEVICE_ENABLE, PEVT_UCX_USBDEVICE_ENABLE callback function pointer [Buses], buses.evt_ucx_usbdevice_enable, ucxusbdevice/EvtUcxUsbDeviceEnable
-ms.topic: callback
 f1_keywords:
  - "ucxusbdevice/PEVT_UCX_USBDEVICE_ENABLE"
 req.header: ucxusbdevice.h
@@ -65,15 +64,6 @@ The client driver's implementation that UCX calls to program information about t
 ### -param Request [in]
 
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_enable">USBDEVICE_ENABLE</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

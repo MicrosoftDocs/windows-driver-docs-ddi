@@ -4,7 +4,6 @@ title: EVT_TR_PROCESS_OTHER_DEVICE_IO (trustedruntimeclx.h)
 description: 
 ms.assetid: 33c1d7c7-75bc-4a1d-a7b4-d85180224a68
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "trustedruntimeclx/EVT_TR_PROCESS_OTHER_DEVICE_IO"
 req.header: trustedruntimeclx.h
@@ -44,7 +43,7 @@ ms.custom: RS5
 
  
 
-## -prototype
+## -syntax
 
 ```cpp
 //Declaration
@@ -66,10 +65,6 @@ VOID EvtTrProcessOtherDeviceIo
 
 ### -param MasterDevice: 
 ### -param Request: 
-
-
-
-## -returns
 
 
 

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: a8e1860b-026a-4de4-8219-e3e40cfbc837
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DXGKDDI_QUERYMITIGATEDRANGECOUNT"
 req.header: dispmprt.h
@@ -76,10 +75,6 @@ The miniport context that is returned by the driver in the [DXGKDDI_GPU_PARTITIO
 ### -param pArgs
 
 A pointer to the DXGKARG_QUERYMITIGATEDRANGECOUNT structure.
-
-## -returns
-
-Returns VOID.
 
 ## -remarks
 

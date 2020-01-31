@@ -4,7 +4,6 @@ title: SymbolSearchInfo function (dbgmodel.h)
 description: The search record passed to EnumerateChildrenEx in order to restrict symbol searches.
 ms.assetid: a2b85960-ae07-4f5f-8f41-5dd9784eaae9
 ms.date: 10/04/2018
-ms.topic: function
 f1_keywords:
  - "dbgmodel/SymbolSearchInfo"
 ms.keywords: SymbolSearchInfo
@@ -48,9 +47,6 @@ The search record passed to EnumerateChildrenEx in order to restrict symbol sear
 
 A given kind of symbol (as indicated by the SymbolKind enumeration) searched may have its own derived type.
 
-
-## -parameters
-None
 
 ## -returns
 This function is a constructor and does not return a value.

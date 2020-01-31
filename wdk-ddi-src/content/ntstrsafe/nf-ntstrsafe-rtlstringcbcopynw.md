@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: d64fb3e6-fba1-4383-bdb0-a63dc7c16033
 ms.date: 04/30/2018
 ms.keywords: RtlStringCbCopyN, RtlStringCbCopyNA, RtlStringCbCopyNW, RtlStringCbCopyNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopyn, ntstrsafe/RtlStringCbCopyNA, ntstrsafe/RtlStringCbCopyNW, safestrings_a3f7f7a8-b4a1-4c7c-b384-2243b3c97a4e.xml
-ms.topic: function
 f1_keywords:
  - "ntstrsafe/RtlStringCbCopyNW"
 req.header: ntstrsafe.h

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 3981ab65-2d21-4188-88dc-04eb7aff0869
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_cfb86d4e-84c0-4ab7-a813-094420e437cc.xml, FltQueryEaFile, FltQueryEaFile function [Installable File System Drivers], fltkernel/FltQueryEaFile, ifsk.fltqueryeafile
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltQueryEaFile"
 req.header: fltkernel.h

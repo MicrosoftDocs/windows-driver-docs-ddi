@@ -6,7 +6,6 @@ old-location: display\pfnstatepssrvcb.htm
 ms.assetid: ed49ce47-c56d-4d38-8f2c-562841b8e804
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_STATE_PS_SRV_CB, PFND3D10DDI_STATE_PS_SRV_CB callback, d3d10state_functions_39451a84-f247-4325-bcc0-b9ee23c2cfe3.xml, d3d10umddi/pfnStatePsSrvCb, display.pfnstatepssrvcb, pfnStatePsSrvCb, pfnStatePsSrvCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStatePsSrvCb"
 req.header: d3d10umddi.h
@@ -74,15 +73,6 @@ The total number of resource views. The number can be -1, which specifies that t
 *Base* [in]
 
 The beginning resource view for which the runtime should refresh state. 
-
-
-
-## -returns
-
-
-
-None
-
 
 
 

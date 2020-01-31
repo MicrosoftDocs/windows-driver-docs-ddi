@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: f27b7622-614b-4c9e-8253-51f4638e5eb0
 ms.date: 04/30/2018
 ms.keywords: MmMapLockedPages, MmMapLockedPages routine [Kernel-Mode Driver Architecture], k106_009bdc6a-6bbc-4a7f-927e-ea5c6de8fa95.xml, kernel.mmmaplockedpages, wdm/MmMapLockedPages
-ms.topic: function
 f1_keywords:
  - "wdm/MmMapLockedPages"
 req.header: wdm.h

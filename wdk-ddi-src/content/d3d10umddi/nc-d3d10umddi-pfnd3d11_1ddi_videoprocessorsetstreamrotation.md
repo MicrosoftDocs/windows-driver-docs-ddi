@@ -6,7 +6,6 @@ old-location: display\videoprocessorsetstreamrotation.htm
 ms.assetid: 9b7d91e0-4913-404c-b7d7-eb63e9919919
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION callback, d3d10umddi/pfnVideoProcessorSetStreamRotation, display.videoprocessorsetstreamrotation, pfnVideoProcessorSetStreamRotation, pfnVideoProcessorSetStreamRotation callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetStreamRotation"
 req.header: d3d10umddi.h
@@ -76,26 +75,17 @@ The zero-based index of the input stream.
 
 ### -param Arg4
 
-Rotation [in]
+*Rotation* [in]
 
 The clockwise degrees of rotation as specified by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_rotation">D3D11_1DDI_VIDEO_PROCESSOR_ROTATION</a> enumeration value.
 
 ### -param Arg5
 
-Enable [in]
+*Enable* [in]
 
 If <b>TRUE</b>, rotation is enabled on the input stream. Otherwise, rotation is disabled on the input stream.
 
 
-
-
-
-
-## -returns
-
-
-
-This callback function does not return a value.
 
 
 

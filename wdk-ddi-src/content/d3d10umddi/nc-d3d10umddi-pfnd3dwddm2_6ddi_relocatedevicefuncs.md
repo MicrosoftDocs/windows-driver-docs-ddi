@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 8ae919bf-d9fb-43ec-8895-a83320309d46
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d10umddi.h
@@ -53,15 +52,15 @@ The RelocateDeviceFuncs function notifies the user-mode display driver about the
 
 ### -param Arg1
 
+*hDevice* [in]
+
 A handle to the display device (graphics context).
 
 ### -param Arg2
 
+*pDeviceFunctions* [in]
+
 A pointer to a D3DWDDM2_6DDI_DEVICEFUNCS structure that contains pointers to the functions of the user-mode display driver.
-
-## -returns
-
-None.
 
 ## -prototype
 

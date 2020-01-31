@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 95e1778a-4f65-40ee-8ad2-f797ce9e95b0
 ms.date: 05/10/2018
 ms.keywords: IDDCX_MONITOR_MODE, IDDCX_MONITOR_MODE structure [Display Devices], display.iddcx_monitor_mode, iddcx/IDDCX_MONITOR_MODE
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDDCX_MONITOR_MODE"
 req.header: iddcx.h

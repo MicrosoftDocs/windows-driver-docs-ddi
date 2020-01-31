@@ -4,7 +4,6 @@ title: IDebugHostMemory (dbgmodel.h)
 description: The memory access interface to the underlying debugger.
 ms.assetid: 6a713259-f5cf-4ca8-a68a-55dd44a748fe
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDebugHostMemory"
 req.header: dbgmodel.h
@@ -44,48 +43,6 @@ The memory access interface to the underlying debugger.
 
 ## -inheritance
 IDebugHostMemory interits from IUnknown. 
-## -members
-
-<p>IDebugHostMemory has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ReadBytes</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>WriteBytes</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ReadPointers</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>WritePointers</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetDisplayStringForLocation</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 7453EEB1-F974-4AEB-93C4-A75A79E1FE19
 ms.date: 04/16/2018
 ms.keywords: FltPropagateActivityIdToThread, FltPropagateActivityIdToThread routine [Installable File System Drivers], fltkernel/FltPropagateActivityIdToThread, ifsk.fltpropagateactivityidtothread
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltPropagateActivityIdToThread"
 req.header: fltkernel.h

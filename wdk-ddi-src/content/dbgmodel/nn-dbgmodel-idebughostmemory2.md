@@ -4,7 +4,6 @@ title: IDebugHostMemory2 (dbgmodel.h)
 description: The memory access interface to the underlying debugger.
 ms.assetid: f34471dc-175b-46e3-aeec-18841184e940
 ms.date: 06/11/2019
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDebugHostMemory2"
 req.header: dbgmodel.h
@@ -45,52 +44,6 @@ This version 2 of the interface supports all of the previous methods with identi
 
 ## -inheritance
 IDebugHostMemory2 interits from [IDebugHostMemory](nn-dbgmodel-idebughostmemory.md). 
-## -members
-
-<p>IDebugHostMemory2 has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ReadBytes</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>WriteBytes</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>ReadPointers</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>WritePointers</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetDisplayStringForLocation</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>LinearizeLocation</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 ## -see-also

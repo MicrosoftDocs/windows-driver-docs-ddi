@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4116be18-e98e-4778-b0aa-753c1ca79d32
 ms.date: 05/10/2018
 ms.keywords: IDARG_OUT_GETDIRTYRECTS, IDARG_OUT_GETDIRTYRECTS structure [Display Devices], display.idarg_out_getdirtyrects, iddcx/IDARG_OUT_GETDIRTYRECTS
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDARG_OUT_GETDIRTYRECTS"
 req.header: iddcx.h

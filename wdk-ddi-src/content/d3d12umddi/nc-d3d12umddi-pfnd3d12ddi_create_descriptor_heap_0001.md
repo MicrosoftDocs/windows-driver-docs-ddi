@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATE_DESCRIPTOR_HEAP_0001 (d3d12umddi.h)
 description: Create descriptor heap.
 ms.assetid: c60b9860-d115-47ee-aadc-f25c36c789a5
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

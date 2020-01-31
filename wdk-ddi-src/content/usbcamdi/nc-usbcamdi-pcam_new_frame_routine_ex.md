@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 739e434e-9621-4927-bf1d-2e7c3b2828d7
 ms.date: 04/23/2018
 ms.keywords: CamNewVideoFrameEx, CamNewVideoFrameEx routine [Streaming Media Devices], PCAM_NEW_FRAME_ROUTINE_EX, stream.camnewvideoframeex, usbcamdi/CamNewVideoFrameEx, usbcmdpr_e7d56a12-73a6-4778-91be-24962683c475.xml
-ms.topic: callback
 f1_keywords:
  - "usbcamdi/CamNewVideoFrameEx"
 req.header: usbcamdi.h
@@ -75,12 +74,6 @@ Indicates the stream associated with this new frame.
 
 Pointer to the raw frame buffer length. The length is expressed in bytes. The camera minidriver may decrease this value if it does not require a buffer transfer on the USB bus of the specified size. The camera minidriver should not increase this value.
 
-
-## -returns
-
-
-
-<b>CamNewVideoFrameEx</b> does not return a value.
 
 
 

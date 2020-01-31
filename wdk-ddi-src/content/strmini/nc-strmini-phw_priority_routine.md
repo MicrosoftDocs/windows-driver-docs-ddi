@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 775ab6aa-eda7-4774-8fe8-8b1838b3972f
 ms.date: 04/23/2018
 ms.keywords: PHW_PRIORITY_ROUTINE, StrMiniPriorityRoutine, StrMiniPriorityRoutine routine [Streaming Media Devices], stream.strminipriorityroutine, strmini-routines_718339c9-e072-4d3e-a9ec-a0ce2cce4f90.xml, strmini/StrMiniPriorityRoutine
-ms.topic: callback
 f1_keywords:
  - "strmini/StrMiniPriorityRoutine"
 req.header: strmini.h
@@ -59,15 +58,6 @@ req.typenames:
 ### -param Context [in]
 
 Pointer to a minidriver-allocated buffer. The minidriver provides a pointer to this buffer in the Context parameter of its call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/nf-strmini-streamclasscallatnewpriority">StreamClassCallAtNewPriority</a>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

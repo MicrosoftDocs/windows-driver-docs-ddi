@@ -6,7 +6,6 @@ old-location: display\pfnstateiavertexbufcb.htm
 ms.assetid: 15068932-b769-4027-986f-195b569a23eb
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_STATE_IA_VERTEXBUF_CB, PFND3D10DDI_STATE_IA_VERTEXBUF_CB callback, d3d10state_functions_b08135a0-2a61-4823-9153-bf89ea24e0fa.xml, d3d10umddi/pfnStateIaVertexBufCb, display.pfnstateiavertexbufcb, pfnStateIaVertexBufCb, pfnStateIaVertexBufCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateIaVertexBufCb"
 req.header: d3d10umddi.h
@@ -73,15 +72,6 @@ The total number of vertex buffers. The number can be -1, which specifies that t
 *Base* [in]
 
 The beginning vertex buffer for which the runtime should refresh state. 
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -see-also

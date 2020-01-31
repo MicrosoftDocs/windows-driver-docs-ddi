@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 484cbb69-0adc-4d31-94c2-930ae747a431
 ms.date: 04/30/2018
 ms.keywords: CsqReleaseLock, CsqReleaseLock routine [Kernel-Mode Driver Architecture], DrvrRtns_054ce175-3354-4b0e-9578-19bab44d39ca.xml, IO_CSQ_RELEASE_LOCK, kernel.csqreleaselock, wdm/CsqReleaseLock
-ms.topic: callback
 f1_keywords:
  - "wdm/CsqReleaseLock"
 req.header: wdm.h
@@ -64,15 +63,6 @@ Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kern
 ### -param Irql [in]
 
 Specifies an IRQL. This is the value stored by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-io_csq_acquire_lock">CsqAcquireLock</a> when the lock was acquired. 
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

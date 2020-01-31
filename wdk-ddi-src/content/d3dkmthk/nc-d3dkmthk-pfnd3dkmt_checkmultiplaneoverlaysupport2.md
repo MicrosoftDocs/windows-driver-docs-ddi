@@ -4,7 +4,6 @@ title: PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2 (d3dkmthk.h)
 description: The PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2 callback function checks the details of hardware support for multiplane overlays.
 ms.assetid: 2c7e8c79-ec9a-46f1-b217-8e6bd95b21d9
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2"
 req.header: d3dkmthk.h

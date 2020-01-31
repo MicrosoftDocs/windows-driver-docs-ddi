@@ -4,7 +4,6 @@ title: IDataModelConcept::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object.
 ms.assetid: c200852b-61de-4ac3-a12b-ed3b705336f6
 ms.date: 09/21/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelConcept.Release"
 ms.keywords: IDataModelConcept::Release, Release, IDataModelConcept.Release, IDataModelConcept::Release, IDataModelConcept.Release
@@ -49,10 +48,6 @@ Decrements the reference count for an interface on an object.
 
 For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
-## -parameters
-
-None
 
 ## -returns
 

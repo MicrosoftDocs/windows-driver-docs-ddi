@@ -6,7 +6,6 @@ old-location: display\pfnstatehssamplercb.htm
 ms.assetid: 95475c7a-874c-45e9-ab92-1c3983315446
 ms.date: 05/10/2018
 ms.keywords: PFND3D11DDI_STATE_HS_SAMPLER_CB, PFND3D11DDI_STATE_HS_SAMPLER_CB callback, d3d10umddi/pfnStateHsSamplerCb, d3d11state_functions_36ac0f95-b5df-45d2-bae7-38c2ea1986b7.xml, display.pfnstatehssamplercb, pfnStateHsSamplerCb, pfnStateHsSamplerCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateHsSamplerCb"
 req.header: d3d10umddi.h
@@ -64,24 +63,15 @@ A handle to a context for the core Direct3D runtime. This handle is supplied to 
 
 ### -param Arg2
 
-Base [in]
+*Base* [in]
 
 The beginning sampler for which the runtime should refresh state. 
 
 ### -param Arg3
 
-Count [in]
+*Count* [in]
 
 The total number of samplers. The number can be -1, which specifies that the Direct3D runtime uses its high watermarks to substitute an optimal value (which is typically less than the maximum valid value for <i>Count</i>). However, no non-NULL binding exists in a slot larger than the optimal <i>Count</i> value.
-
-
-
-
-## -returns
-
-
-
-None
 
 
 

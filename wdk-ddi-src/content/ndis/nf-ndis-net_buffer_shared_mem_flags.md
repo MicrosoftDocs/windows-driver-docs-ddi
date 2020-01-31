@@ -5,7 +5,6 @@ description: The NET_BUFFER_SHARED_MEM_FLAGS macro gets the shared memory flags 
 tech.root: netvista
 ms.assetid: cf98dfad-0db3-414a-811a-61a29ee6fe15
 ms.date: 04/13/2018
-ms.topic: macro
 f1_keywords:
  - "ndis/NET_BUFFER_SHARED_MEM_FLAGS"
 ms.keywords: NET_BUFFER_SHARED_MEM_FLAGS

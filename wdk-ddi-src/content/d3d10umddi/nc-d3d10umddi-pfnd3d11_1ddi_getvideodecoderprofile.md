@@ -6,7 +6,6 @@ old-location: display\getvideodecoderprofile.htm
 ms.assetid: 75576152-0afd-4602-b481-bf1d6d9348b3
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERPROFILE, PFND3D11_1DDI_GETVIDEODECODERPROFILE callback, d3d10umddi/pfnGetVideoDecoderProfile, display.getvideodecoderprofile, pfnGetVideoDecoderProfile, pfnGetVideoDecoderProfile callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -67,10 +66,6 @@ The zero-based index of the video decoder profile. The display miniport driver r
 *pDecodeDesc* [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_desc">D3D11_1DDI_VIDEO_DECODER_DESC</a> structure that specifies the attributes of the specified video decoder profile.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

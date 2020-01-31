@@ -6,7 +6,6 @@ old-location: display\getvideoprocessorrateconversioncaps.htm
 ms.assetid: c77b722f-e023-4e3e-9dff-616d0ab0a6a2
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS, PFND3D11_1DDI_GETVIDEOPROCESSORRATECONVERSIONCAPS callback, d3d10umddi/pfnGetVideoProcessorRateConversionCaps, display.getvideoprocessorrateconversioncaps, pfnGetVideoProcessorRateConversionCaps, pfnGetVideoProcessorRateConversionCaps callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -73,10 +72,6 @@ The zero-based index of the frame-rate conversion capability group. For more inf
 *pCaps* [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_rate_conversion_caps">D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS</a> structure that contains the attributes of  the specified rate conversion capability group.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

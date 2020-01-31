@@ -7,13 +7,12 @@ tech.root: netvista
 ms.assetid: b23d877b-4f75-497b-8b2c-5082eaba2ba2
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: callback
 f1_keywords:
  - "netadapteroffload/EVT_NET_ADAPTER_OFFLOAD_SET_RSC"
 req.header: netadapteroffload.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -74,10 +73,6 @@ A handle to a NETADAPTER object the client driver previously created with a call
 ### -param Offload 
 
 A handle to a NETOFFLOAD object that describes the adapter's offload capabilities.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

@@ -6,7 +6,6 @@ old-location: display\getvideodecoderbufferinfo.htm
 ms.assetid: f129ae04-da7f-4681-a266-ac13317a895d
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERBUFFERINFO, PFND3D11_1DDI_GETVIDEODECODERBUFFERINFO callback, d3d10umddi/pfnGetVideoDecoderBufferInfo, display.getvideodecoderbufferinfo, pfnGetVideoDecoderBufferInfo, pfnGetVideoDecoderBufferInfo callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnGetVideoDecoderBufferInfo"
 req.header: d3d10umddi.h
@@ -80,15 +79,6 @@ The zero-based index of the video decoder buffer type that is used for the speci
 *pInfo* [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_buffer_info">D3D11_1DDI_VIDEO_DECODER_BUFFER_INFO</a> structure that describes the video decoder buffer.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

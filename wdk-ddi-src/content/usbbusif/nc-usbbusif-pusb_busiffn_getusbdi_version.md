@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 05a22049-5165-41a3-aa6f-134c5d1b6c15
 ms.date: 05/07/2018
 ms.keywords: GetUSBDIVersion, GetUSBDIVersion callback function [Buses], PUSB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION callback, buses.getusbdiversion, usbbusif/GetUSBDIVersion, usbinterKR_48f5b2a5-9cd8-46c2-abf9-313469817541.xml
-ms.topic: callback
 f1_keywords:
  - "usbbusif/GetUSBDIVersion"
 req.header: usbbusif.h
@@ -77,15 +76,6 @@ Returns the host capability flags. Currently, no host capability flags are repor
 #### - VersionInformation [out, optional]
 
 Returns a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_version_information">USBD_VERSION_INFORMATION</a> structure that contains the USB interface version number and the USB specification version number. 
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

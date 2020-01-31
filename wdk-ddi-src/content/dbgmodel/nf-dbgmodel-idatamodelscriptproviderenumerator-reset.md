@@ -4,7 +4,6 @@ title: IDataModelScriptProviderEnumerator::Reset (dbgmodel.h)
 description: Resets the enumerator to the first element.
 ms.assetid: c424d21a-987d-4250-ae01-5e802e33b1f8
 ms.date: 10/03/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelScriptProviderEnumerator.Reset"
 ms.keywords: IDataModelScriptProviderEnumerator::Reset, Reset, IDataModelScriptProviderEnumerator.Reset, IDataModelScriptProviderEnumerator::Reset, IDataModelScriptProviderEnumerator.Reset
@@ -45,9 +44,6 @@ ms.custom: RS5
 
 ## -description
 Resets the enumerator to the first element.
-
-## -parameters
-None
 
 ## -returns
 This method returns HRESULT that indicates success or failure.

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 834b1ad0-82e4-481d-93cc-1f46c20fcba3
 ms.date: 04/30/2018
 ms.keywords: DpcForIsr, DpcForIsr routine [Kernel-Mode Driver Architecture], DrvrRtns_2d3825cf-0f9b-4698-9deb-e9fe5757fb9c.xml, IO_DPC_ROUTINE, kernel.dpcforisr, wdm/DpcForIsr
-ms.topic: callback
 f1_keywords:
  - "wdm/DpcForIsr"
 req.header: wdm.h
@@ -74,15 +73,6 @@ Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardwa
 ### -param Context [in, optional]
 
 Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iorequestdpc">IoRequestDpc</a>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

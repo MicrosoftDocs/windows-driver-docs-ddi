@@ -4,7 +4,6 @@ title: IPreferredRuntimeTypeConcept (dbgmodel.h)
 description: Interface which clients can implement if they can provide better dynamic runtime type analysis for a given type than the debugger can acquire through RTTI or v-table analysis.
 ms.assetid: db2befcc-f796-49d1-b875-532adf3bec5a
 ms.date: 07/16/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IPreferredRuntimeTypeConcept"
 req.header: dbgmodel.h
@@ -46,32 +45,6 @@ The object understands more about types derived from it than the underlying type
 
 ## -inheritance
 IPreferredRuntimeTypeConcept interits from IUnknown. 
-## -members
-
-<p>IPreferredRuntimeTypeConcept has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CastToPreferredRuntimeType</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 **Preferred Runtime Type Concept**

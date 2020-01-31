@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: BE2734B5-1E67-4E38-B4DF-0C353BFB1F0B
 ms.date: 05/03/2018
 ms.keywords: IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], IDebugSymbols4 interface [Windows Debugging],described, dbgeng/IDebugSymbols4, debugger.idebugsymbols4
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugSymbols4"
 req.header: dbgeng.h
@@ -57,77 +56,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols4</b> interface 
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDebugSymbols4</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols4-getlinebyinlinecontext">GetLineByInlineContext</a>
-</td>
-<td align="left" width="63%">
-Gets a line by inline context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols4-getlinebyinlinecontextwide">GetLineByInlineContextWide</a>
-</td>
-<td align="left" width="63%">
-Gets a line by inline context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols4-getnamebyinlinecontext">GetNameByInlineContext</a>
-</td>
-<td align="left" width="63%">
-Gets a name by inline context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols4-getnamebyinlinecontextwide">GetNameByInlineContextWide</a>
-</td>
-<td align="left" width="63%">
-Gets a name by inline context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols4-getscopeex">GetScopeEx</a>
-</td>
-<td align="left" width="63%">
-Gets the scope as an extended frame structure. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols4-outputsymbolbyinlinecontext">OutputSymbolByInlineContext</a>
-</td>
-<td align="left" width="63%">
-Specifies an output symbol by using an inline context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols4-setscopeex">SetScopeEx</a>
-</td>
-<td align="left" width="63%">
-Sets the scope as an extended frame structure. 
-
-</td>
-</tr>
-</table> 
 

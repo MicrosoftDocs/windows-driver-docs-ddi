@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 051ce37c-a7a5-4367-9495-023fc51349ba
 ms.date: 05/02/2018
 ms.keywords: FILTER_STATUS, FILTER_STATUS callback, FilterStatus, FilterStatus callback function [Network Drivers Starting with Windows Vista], ndis/FilterStatus, ndis_status_ref_4bddf4b3-3869-4e47-ba86-021e9f25484b.xml, netvista.filterstatus
-ms.topic: callback
 f1_keywords:
  - "ndis/FilterStatus"
 req.header: ndis.h
@@ -71,15 +70,6 @@ A handle to the context area for the filter module. The filter driver created an
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_status_indication">NDIS_STATUS_INDICATION</a> structure
      that contains the status information.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

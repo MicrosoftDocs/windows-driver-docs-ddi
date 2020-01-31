@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 4BE1EEF7-7053-47AF-91E8-7313C3A56718
 ms.date: 04/30/2018
 ms.keywords: DevicePowerNotRequiredCallback, DevicePowerNotRequiredCallback routine [Kernel-Mode Driver Architecture], PO_FX_DEVICE_POWER_NOT_REQUIRED_CALLBACK, kernel.devicepowernotrequiredcallback, wdm/DevicePowerNotRequiredCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/DevicePowerNotRequiredCallback"
 req.header: wdm.h
@@ -59,15 +58,6 @@ The <i>DevicePowerNotRequiredCallback</i> callback routine notifies the device d
 ### -param Context [in]
 
 A pointer to the device context. The device driver uses this context to store information about the current power state of the device. The device driver specified this pointer in the <b>DeviceContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_fx_device_v1">PO_FX_DEVICE</a> structure that the driver used to register the device with the power management framework (PoFx). This context is opaque to PoFx.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

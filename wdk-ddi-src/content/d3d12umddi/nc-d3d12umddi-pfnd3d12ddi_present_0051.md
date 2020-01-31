@@ -4,7 +4,6 @@ title: PFND3D12DDI_PRESENT_0051 (d3d12umddi.h)
 description: The PFND3D12DDI_PRESENT_0051 callback function copies content from source allocations to a primary surface.
 ms.assetid: 191033a4-5f8c-409b-9097-a9f096267844
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_PRESENT_0051"
 req.header: d3d12umddi.h
@@ -96,10 +95,6 @@ Pointer to a [D3D12DDI_PRESENT_CONTEXTS_0051](ns-d3d12umddi-d3d12ddi_present_con
 Pointer to a [D3D12DDI_PRESENT_HWQUEUES_0051](ns-d3d12umddi-d3d12ddi_present_hwqueues_0051.md) structure.
 
 
-
-## -returns
-
-Returns VOID.
 
 ## -remarks
 

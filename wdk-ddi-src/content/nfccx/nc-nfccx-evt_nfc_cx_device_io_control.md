@@ -7,7 +7,6 @@ tech.root: nfpdrivers
 ms.assetid: 45512F88-D4B8-4488-99EB-B47EE7443425
 ms.date: 02/15/2018
 ms.keywords: EVT_NFC_CX_DEVICE_IO_CONTROL, EVT_NFC_CX_DEVICE_IO_CONTROL callback, EvtNfcCxDeviceIoControl, EvtNfcCxDeviceIoControl callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxDeviceIoControl, nfpdrivers.evtnfccxdeviceiocontrol_
-ms.topic: callback
 f1_keywords:
  - "nfccx/EvtNfcCxDeviceIoControl"
 req.header: nfccx.h
@@ -79,15 +78,6 @@ The length, in bytes, of the request's input buffer, if an input buffer is avail
 ### -param IoControlCode [in]
 
 The driver-defined or system-defined I/O control code (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">IOCTL</a>) that is associated with the request.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

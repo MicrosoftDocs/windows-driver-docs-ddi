@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 6066CDD4-D2BA-4CF8-AF1C-189812B150D5
 ms.date: 04/30/2018
 ms.keywords: EXT_DELETE_CALLBACK, ExTimerDeleteCallback, ExTimerDeleteCallback routine [Kernel-Mode Driver Architecture], kernel.extimerdeletecallback, wdm/ExTimerDeleteCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/ExTimerDeleteCallback"
 req.header: wdm.h
@@ -59,15 +58,6 @@ An <i>ExTimerDeleteCallback</i> callback routine runs when the operating system 
 ### -param Context [in, optional]
 
 The context value from the <i>DeleteContext</i> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ext_delete_parameters">EXT_DELETE_PARAMETERS</a> structure that your driver previously passed as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exdeletetimer">ExDeleteTimer</a> routine.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

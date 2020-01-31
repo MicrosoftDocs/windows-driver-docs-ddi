@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: a43baab5-26d9-43f7-bc13-3b0864769e68
 ms.date: 04/30/2018
 ms.keywords: HidP_GetCaps, HidP_GetCaps callback function [Human Input Devices], PHIDP_GETCAPS, PHIDP_GETCAPS callback, hid.hidp_getcaps, hidfunc_420188e5-e357-43cc-b195-dea7637fd3c9.xml, hidpi/HidP_GetCaps
-ms.topic: function
 f1_keywords:
  - "hidpi/HidP_GetCaps"
 req.header: hidpi.h

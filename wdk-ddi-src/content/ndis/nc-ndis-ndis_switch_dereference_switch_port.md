@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 976D3A69-C539-4C8E-9664-F85717E5F712
 ms.date: 05/02/2018
 ms.keywords: DereferenceSwitchPort, DereferenceSwitchPort callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_DEREFERENCE_SWITCH_PORT, NDIS_SWITCH_DEREFERENCE_SWITCH_PORT callback, ndis/DereferenceSwitchPort, netvista.DereferenceSwitchPort
-ms.topic: callback
 f1_keywords:
  - "ndis/DereferenceSwitchPort"
 req.header: ndis.h

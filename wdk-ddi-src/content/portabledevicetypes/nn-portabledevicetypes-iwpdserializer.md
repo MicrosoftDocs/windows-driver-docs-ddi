@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: b52a063f-0455-4e49-a355-ea12d68c4835
 ms.date: 02/15/2018
 ms.keywords: IWpdSerializer, IWpdSerializer interface, IWpdSerializer interface,described, IWpdSerializerInterface, portabledevicetypes/IWpdSerializer, wpddk.iwpdserializer
-ms.topic: interface
 f1_keywords:
  - "portabledevicetypes/IWpdSerializer"
 req.header: portabledevicetypes.h
@@ -65,53 +64,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWpdSerializer</b> interface 
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWpdSerializer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-getbufferfromiportabledevicevalues">GetBufferFromIPortableDeviceValues</a>
-</td>
-<td align="left" width="63%">
-Serializes a submitted <b>IPortableDeviceValues</b> interface to an allocated byte array. The byte array returned is allocated for the caller and should be freed by the caller using CoTaskMemFree.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-getiportabledevicevaluesfrombuffer">GetIPortableDeviceValuesFromBuffer</a>
-</td>
-<td align="left" width="63%">
-Deserializes a byte array to an <b>IPortableDeviceValues</b> interface.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-getserializedsize">GetSerializedSize</a>
-</td>
-<td align="left" width="63%">
-Calculates the buffer size that is needed to hold the serialized data.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-writeiportabledevicevaluestobuffer">WriteIPortableDeviceValuesToBuffer</a>
-</td>
-<td align="left" width="63%">
-Serializes an <b>IPortableDeviceValues</b> interface to a caller-allocated byte array.
-
-</td>
-</tr>
-</table> 
-
 
 ## -see-also
 

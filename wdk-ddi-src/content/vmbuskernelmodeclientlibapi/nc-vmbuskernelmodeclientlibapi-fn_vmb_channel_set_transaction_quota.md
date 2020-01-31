@@ -5,7 +5,6 @@ description: The VmbChannelSetTransactionQuota function sets the incoming packet
 tech.root: netvista
 ms.assetid: a5e56060-b5b9-4d65-8808-1d4a430521fa
 ms.date: 05/22/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SET_TRANSACTION_QUOTA"
 req.header: vmbuskernelmodeclientlibapi.h
@@ -74,10 +73,6 @@ A handle for a channel.
 ### -param Quota: 
 
  The maximum outstanding packet quota. This value must be greater than 0.
-
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

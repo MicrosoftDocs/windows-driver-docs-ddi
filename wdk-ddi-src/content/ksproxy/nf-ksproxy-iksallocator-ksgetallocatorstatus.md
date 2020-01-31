@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 139F4465-1228-4603-B92F-4CB73E1A6DC0
 ms.date: 04/23/2018
 ms.keywords: IKsAllocator interface [Streaming Media Devices],KsGetAllocatorStatus method, IKsAllocator.KsGetAllocatorStatus, IKsAllocator::KsGetAllocatorStatus, KsGetAllocatorStatus, KsGetAllocatorStatus method [Streaming Media Devices], KsGetAllocatorStatus method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsGetAllocatorStatus, stream.iksallocator_ksgetallocatorstatus
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsAllocator.KsGetAllocatorStatus"
 req.header: ksproxy.h
@@ -69,7 +68,7 @@ Retrieves the status of an allocator.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: c7175b39-9db2-4903-bb50-bb0c97fda471
 ms.date: 05/03/2018
 ms.keywords: IOCTL_WRITE_REGISTERS, IOCTL_WRITE_REGISTERS control, IOCTL_WRITE_REGISTERS control code [Imaging Devices], image.ioctl_write_registers, stifnc_e994c3b6-35b9-4b5f-aaba-72fedeb9e08f.xml, usbscan/IOCTL_WRITE_REGISTERS
-ms.topic: ioctl
 f1_keywords:
  - "usbscan/IOCTL_WRITE_REGISTERS"
 req.header: usbscan.h

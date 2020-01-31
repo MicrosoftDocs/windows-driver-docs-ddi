@@ -6,7 +6,6 @@ old-location: display\abandoncommandlist.htm
 ms.assetid: fc8347da-25ac-47ea-b482-61b7873ca5bc
 ms.date: 05/10/2018
 ms.keywords: AbandonCommandList, AbandonCommandList callback function [Display Devices], PFND3D11DDI_ABANDONCOMMANDLIST, PFND3D11DDI_ABANDONCOMMANDLIST callback, UserModeDisplayDriverDx11_Functions_1f9b5b27-499e-41a0-adf3-7b1c2f0021c7.xml, d3d10umddi/AbandonCommandList, display.abandoncommandlist
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/AbandonCommandList"
 req.header: d3d10umddi.h
@@ -63,18 +62,16 @@ The <b>AbandonCommandList</b> function abandons the command list.
 A handle to the display device (graphics context).
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set a critical error code. For more information about setting error codes, see the Remarks section.
-
-
-
-
 ## -remarks
+
+
+
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set a critical error code. 
+
+
+
+
 
 
 

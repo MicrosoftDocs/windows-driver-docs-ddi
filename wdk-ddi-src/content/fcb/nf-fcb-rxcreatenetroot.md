@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 076624d3-96f5-4e93-8598-b880a6b2289b
 ms.date: 04/16/2018
 ms.keywords: RxCreateNetRoot, RxCreateNetRoot function [Installable File System Drivers], fcb/RxCreateNetRoot, ifsk.rxcreatenetroot, rxref_3171aa4b-bf5b-4114-a5a0-40af765b09da.xml
-ms.topic: function
 f1_keywords:
  - "fcb/RxCreateNetRoot"
 req.header: fcb.h

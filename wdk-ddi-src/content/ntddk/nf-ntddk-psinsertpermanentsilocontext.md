@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: ADBAB25B-7646-4E0E-AFD8-18B87A293674
 ms.date: 04/30/2018
 ms.keywords: PsInsertPermanentSiloContext, PsInsertPermanentSiloContext routine [Kernel-Mode Driver Architecture], kernel.psinsertpermanentsilocontext, ntddk/PsInsertPermanentSiloContext
-ms.topic: function
 f1_keywords:
  - "ntddk/PsInsertPermanentSiloContext"
 req.header: ntddk.h

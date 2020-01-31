@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: DAC33D61-F85C-43A7-9F4D-AA31F8CA4430
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitCleanupTransaction, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION callback, EvtSerCx2SystemDmaTransmitCleanupTransaction, EvtSerCx2SystemDmaTransmitCleanupTransaction callback function [Serial Ports], serports.evtsercx2systemdmatransmitcleanuptransaction
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaTransmitCleanupTransaction"
 req.header: sercx.h
@@ -59,15 +58,6 @@ The <i>EvtSerCx2SystemDmaTransmitCleanupTransaction</i> event callback function 
 ### -param SystemDmaTransmit [in]
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a> handle to a system-DMA-transmit object. The serial controller driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2systemdmatransmitcreate">SerCx2SystemDmaTransmitCreate</a> method to create this object.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: f9d441a5-46b5-4da8-aa7e-f4f45eb733d4
 ms.date: 05/10/2018
 ms.keywords: DxApiGetVersion, DxApiGetVersion function [Display Devices], ddfncs_72fbedfa-d63f-462a-a6c4-862c6815f1c1.xml, display.dxapigetversion, dxapi/DxApiGetVersion
-ms.topic: function
 f1_keywords:
  - "dxapi/DxApiGetVersion"
 req.header: dxapi.h
@@ -52,13 +51,6 @@ req.typenames:
 Do not use the <b>DxApiGetVersion</b> function; use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxapi/nf-dxapi-dxapi">DxApi</a> function along with the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550637(v=vs.85)">DD_DXAPI_GETVERSIONNUMBER</a> function identifier instead.
 
 The <b>DxApiGetVersion</b> function returns a Direct Sound version number of 4.02.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

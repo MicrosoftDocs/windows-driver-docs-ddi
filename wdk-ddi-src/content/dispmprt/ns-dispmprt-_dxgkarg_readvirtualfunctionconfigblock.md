@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 0b5a0ae9-7b8d-436d-a5b2-17a3daea4bec
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
 f1_keywords:
  - "dispmprt/_DXGKARG_READVIRTUALFUNCTIONCONFIGBLOCK"
 ms.prod: windows-hardware

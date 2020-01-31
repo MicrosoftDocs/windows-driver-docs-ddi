@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 22ecfb7b-daba-4321-bca5-4460ead8e3cd
 ms.date: 02/26/2018
 ms.keywords: IFileCallbackClose, IFileCallbackClose interface, IFileCallbackClose interface,described, UMDFFileObjectRef_52a9bb2c-0bf7-49db-80f0-7df5f4f131f6.xml, umdf.ifilecallbackclose, wdf.ifilecallbackclose, wudfddi/IFileCallbackClose
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IFileCallbackClose"
 req.header: wudfddi.h
@@ -61,23 +60,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFileCallbackClose</b> interf
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IFileCallbackClose</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ifilecallbackclose-onclosefile">IFileCallbackClose::OnCloseFile</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ifilecallbackclose-onclosefile">OnCloseFile</a> method is called when the last reference count on a file object goes down to zero and before the file object is released. 
-
-</td>
-</tr>
-</table> 
 

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 6bc4f939-dbc8-4d9a-95f9-b5ec97a47a8a
 ms.date: 05/08/2018
 ms.keywords: IResourceList interface [Audio Devices],TranslatedList method, IResourceList.TranslatedList, IResourceList::TranslatedList, TranslatedList, TranslatedList method [Audio Devices], TranslatedList method [Audio Devices],IResourceList interface, audio.iresourcelist_translatedlist, audmp-routines_d74c0767-97d9-4488-82f1-51cde4dc8259.xml, portcls/IResourceList::TranslatedList
-ms.topic: method
 f1_keywords:
  - "portcls/IResourceList.TranslatedList"
 req.header: portcls.h
@@ -49,16 +48,6 @@ req.typenames:
 
 
 The <code>TranslatedList</code> method returns the list of translated resources.
-
-
-## -parameters
-
-
-
-
-
-
-#### - None
 
 
 ## -returns

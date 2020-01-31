@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4f14532f-8937-4715-aa9f-e38f18179af7
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_MULTIPLYTRANSFORM, D3DDDIARG_MULTIPLYTRANSFORM structure [Display Devices], UMDisplayDriver_param_Structs_9bae119f-aead-46d7-8a10-18cd6e227102.xml, _D3DDDIARG_MULTIPLYTRANSFORM, d3dumddi/D3DDDIARG_MULTIPLYTRANSFORM, display.d3dddiarg_multiplytransform
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_MULTIPLYTRANSFORM"
 req.header: d3dumddi.h

@@ -6,7 +6,6 @@ old-location: display\dxgkcbnotifydpc.htm
 ms.assetid: 3df3f7d4-3721-46f5-b9e3-19bd3d870292
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_NOTIFY_DPC, DXGKCB_NOTIFY_DPC callback, DpFunctions_a1e9512a-ae77-4e3b-9876-5ce247b811e5.xml, DxgkCbNotifyDpc, DxgkCbNotifyDpc callback function [Display Devices], d3dkmddi/DxgkCbNotifyDpc, display.dxgkcbnotifydpc
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -53,10 +52,6 @@ The <b>DxgkCbNotifyDpc</b> function informs the graphics processing unit (GPU) s
 ### -param hAdapter
 
 [in] A handle to the adapter object for the GPU. The driver receives the handle from the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure in a call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
-
-## -returns
-
-None
 
 ## -remarks
 

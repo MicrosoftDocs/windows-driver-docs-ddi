@@ -5,7 +5,6 @@ description: Adds a caller-provided, pre-initialized set request handler structu
 tech.root: netvista
 ms.assetid: 44328633-7ebf-472d-b7d1-39779fb273b2
 ms.date: 02/09/2018
-ms.topic: function
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_SET_DATA_HANDLER"
 ms.keywords: NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_SET_DATA_HANDLER

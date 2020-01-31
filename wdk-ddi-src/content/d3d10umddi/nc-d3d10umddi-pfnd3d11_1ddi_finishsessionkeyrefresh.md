@@ -6,7 +6,6 @@ old-location: display\finishsessionkeyrefresh1.htm
 ms.assetid: 95c0433f-e4da-4566-b128-34cb758b8001
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_FINISHSESSIONKEYREFRESH, PFND3D11_1DDI_FINISHSESSIONKEYREFRESH callback, d3d10umddi/pfnFinishSessionKeyRefresh, display.finishsessionkeyrefresh1, pfnFinishSessionKeyRefresh, pfnFinishSessionKeyRefresh callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -57,10 +56,6 @@ A handle to the display device (graphics context).
 ### -param hCryptoSession
 
 A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

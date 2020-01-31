@@ -4,7 +4,6 @@ title: IDataModelScriptDebug2 (dbgmodel.h)
 description: An optional interface on scripts (objects which implement IDataModelScript).
 ms.assetid: 29d61401-a385-4f5e-bda3-81ee79f5c5f8
 ms.date: 06/11/2019
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug2"
 req.header: dbgmodel.h
@@ -45,72 +44,6 @@ This version 2 of the interface supports all of the previous methods with identi
 
 ## -inheritance
 IDataModelScriptDebug2 interits from [IDataModelScriptDebug](nn-dbgmodel-idatamodelscriptdebug.md). 
-## -members
-
-<p>IDataModelScriptDebug2 has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetDebugState</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetCurrentPosition</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetStack</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetBreakpoint</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>FindBreakpointById</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateBreakpoints</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetEventFilter</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetEventFilter</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>StartDebugging</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>StopDebugging</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetBreakpointAtFunction</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 The infrastructure for script providers in the data model also provides a concept around debugging scripts. Any script that wishes to expose debugging capabilities to the debug host and the debugger application hosting the data model can do so by having debuggable scripts implement the [IDataModelScriptDebug](nn-dbgmodel-idatamodelscriptdebug.md) interface in addition to the [IDataModelScript](nn-dbgmodel-idatamodelscript.md) interface. The presence of this interface on the script indicates to the infrastructure that it is debuggable. 

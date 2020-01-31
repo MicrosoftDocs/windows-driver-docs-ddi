@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 99f21862-5cd6-4bf9-abde-d5d24332a147
 ms.date: 05/02/2018
 ms.keywords: "*LPRILCAPSLOCKINGPWDLENGTH, RILCAPSLOCKINGPWDLENGTH, RILCAPSLOCKINGPWDLENGTH structure [Network Drivers Starting with Windows Vista], netvista.rilcapslockingpwdlength, ntddrilapitypes/RILCAPSLOCKINGPWDLENGTH"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILCAPSLOCKINGPWDLENGTH"
 req.header: rilapitypes.h

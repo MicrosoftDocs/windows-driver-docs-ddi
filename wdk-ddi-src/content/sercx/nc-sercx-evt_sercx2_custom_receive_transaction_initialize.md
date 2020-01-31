@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: B3C23236-2A35-456A-B461-AEC688ACA5B7
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2CustomReceiveTransactionInitialize, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_INITIALIZE callback, EvtSerCx2CustomReceiveTransactionInitialize, EvtSerCx2CustomReceiveTransactionInitialize callback function [Serial Ports], serports.evtsercx2customreceivetransactioninitialize
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2CustomReceiveTransactionInitialize"
 req.header: sercx.h
@@ -74,15 +73,6 @@ The starting offset for the data transfer. This parameter is a byte offset from 
 ### -param Length [in]
 
 The size, in bytes, of the data transfer. If the MDL specifies a total of N bytes of buffer space, possible values of <i>Length</i> are in the range 1 to N–<i>Offset</i>.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

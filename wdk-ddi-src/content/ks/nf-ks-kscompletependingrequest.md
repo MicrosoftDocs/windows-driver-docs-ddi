@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 9bde557e-0759-4f5b-989e-a34a701d2ebd
 ms.date: 04/23/2018
 ms.keywords: KsCompletePendingRequest, KsCompletePendingRequest function [Streaming Media Devices], avfunc_e01e61fc-ec10-4781-aee2-0aa7e24ca31a.xml, ks/KsCompletePendingRequest, stream.kscompletependingrequest
-ms.topic: function
 f1_keywords:
  - "ks/KsCompletePendingRequest"
 req.header: ks.h

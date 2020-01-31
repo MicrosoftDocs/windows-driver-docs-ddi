@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: B0F003B4-D82D-4110-B53A-CDE45B75DC8C
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaParameterInitializer interface [Print Devices],Value property, IPrintSchemaParameterInitializer,put_Value, IPrintSchemaParameterInitializer.Value, IPrintSchemaParameterInitializer.put_Value, IPrintSchemaParameterInitializer::Value, IPrintSchemaParameterInitializer::put_Value, Value property [Print Devices], Value property [Print Devices],IPrintSchemaParameterInitializer interface, print.iprintschemaparameterinitializer_putvalue, printerextension/IPrintSchemaParameterInitializer::Value, printerextension/IPrintSchemaParameterInitializer::put_Value, put_Value
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintSchemaParameterInitializer.Value"
 req.header: printerextension.h

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 8ddcb9cb-d184-4ec8-a321-599394a8512e
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_490bda33-9f36-43ab-9108-8622a3ea79b0.xml, EVT_WDF_FILE_CLOSE, EVT_WDF_FILE_CLOSE callback, EvtFileClose, EvtFileClose callback function, kmdf.evtfileclose, wdf.evtfileclose, wdfdevice/EvtFileClose
-ms.topic: callback
 f1_keywords:
  - "wdfdevice/EvtFileClose"
 req.header: wdfdevice.h
@@ -61,15 +60,6 @@ A driver's <i>EvtFileClose</i> callback function handles operations that must be
 ### -param FileObject [in]
 
 A handle to a framework file object, which was previously received by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EvtDeviceFileCreate</a> callback function.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: E08E2ED1-047B-4190-8A54-79ECC75E860F
 ms.date: 04/16/2018
 ms.keywords: FltPrepareToReuseEcp, FltPrepareToReuseEcp routine [Installable File System Drivers], fltkernel/FltPrepareToReuseEcp, ifsk.fltpreparetoreuseecp
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltPrepareToReuseEcp"
 req.header: fltkernel.h

@@ -6,7 +6,6 @@ old-location: display\d3dkmtgetsharedprimaryhandle.htm
 ms.assetid: 927a6ddd-caac-4460-b9df-3ba22db69398
 ms.date: 05/10/2018
 ms.keywords: D3DKMTGetSharedPrimaryHandle, D3DKMTGetSharedPrimaryHandle function [Display Devices], OpenGL_Functions_bb0d000e-4846-4851-a6c5-c70330ef8921.xml, d3dkmthk/D3DKMTGetSharedPrimaryHandle, display.d3dkmtgetsharedprimaryhandle
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTGetSharedPrimaryHandle"
 req.header: d3dkmthk.h

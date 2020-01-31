@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: b2c46419-644b-4ad4-aa50-7c6e541638aa
 ms.date: 05/02/2018
 ms.keywords: NdisIMAssociateMiniport, NdisIMAssociateMiniport function [Network Drivers Starting with Windows Vista], intermediate_ref_2f9545a6-262c-4347-b192-16ea23314410.xml, ndis/NdisIMAssociateMiniport, netvista.ndisimassociateminiport
-ms.topic: function
 f1_keywords:
  - "ndis/NdisIMAssociateMiniport"
 req.header: ndis.h

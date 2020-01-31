@@ -7,7 +7,6 @@ tech.root:
 ms.assetid: 3a97010f-ec3e-498e-81a9-db51dd710841
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_SEL_BUGCHECK_PROGRESS"
 ms.keywords: WHEA_SEL_BUGCHECK_PROGRESS, WHEA_SEL_BUGCHECK_PROGRESS, *PWHEA_SEL_BUGCHECK_PROGRESS, 

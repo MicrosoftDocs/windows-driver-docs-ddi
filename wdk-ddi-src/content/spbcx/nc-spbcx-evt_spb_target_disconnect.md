@@ -7,7 +7,6 @@ tech.root: SPB
 ms.assetid: 02756C35-E76C-42C0-80FA-359CADE224A1
 ms.date: 04/30/2018
 ms.keywords: EVT_SPB_TARGET_DISCONNECT, EVT_SPB_TARGET_DISCONNECT callback, EvtSpbTargetDisconnect, EvtSpbTargetDisconnect callback function [Buses], SPB.evtspbtargetdisconnect, spbcx/EvtSpbTargetDisconnect
-ms.topic: callback
 f1_keywords:
  - "spbcx/EvtSpbTargetDisconnect"
 req.header: spbcx.h
@@ -64,15 +63,6 @@ A WDFDEVICE handle to the <a href="https://docs.microsoft.com/windows-hardware/d
 ### -param Target [in]
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a> handle to the target to close. The target is a peripheral device or port that is attached to the bus. The SPB framework extension (SpbCx) previously assigned this handle to the target in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a> callback that opened the connection to the target.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

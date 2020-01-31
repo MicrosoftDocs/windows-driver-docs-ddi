@@ -5,7 +5,6 @@ tech.root: usbref
 description: Used in the GET_ALTERNATE_MODES command. See Table 4-24, Offset 16.
 ms.assetid: 31bee6a3-8619-48fb-8753-2e849ceef2b7
 ms.date: 09/30/2018
-ms.topic: enum
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_ALTERNATE_MODES_RECIPIENT"
 ms.keywords: _UCSI_GET_ALTERNATE_MODES_RECIPIENT, UCSI_GET_ALTERNATE_MODES_RECIPIENT, 

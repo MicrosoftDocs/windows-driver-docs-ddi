@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 2E65BDF2-9539-402B-AF19-8CBC84F9C018
 ms.date: 04/20/2018
 ms.keywords: GetFeature, GetFeature method [Print Devices], GetFeature method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],GetFeature method, IPrintSchemaTicket.GetFeature, IPrintSchemaTicket::GetFeature, print.iprintschematicket_getfeature, printerextension/IPrintSchemaTicket::GetFeature
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintSchemaTicket.GetFeature"
 req.header: printerextension.h
@@ -65,7 +64,7 @@ For example, for the Print Schema feature <psf:Feature name="psk:JobOutputBin">,
 ### -param bstrNamespaceUri [in]
 
 The namespace URI of the <b>name</b> attribute value of the feature element.
-For example, the namespace URI of the public Print Schema feature "JobOutputBin" is "http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords".
+For example, the namespace URI of the public Print Schema feature "JobOutputBin" is "https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords".
 If the feature is not defined in the public Print Schema, then this should be the URI of the private namespace defining the feature.
 
 

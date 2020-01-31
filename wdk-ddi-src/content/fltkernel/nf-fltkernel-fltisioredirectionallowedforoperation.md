@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 601a155d-587f-47fc-960e-d1162eabd4b9
 ms.date: 04/16/2018
 ms.keywords: FltIsIoRedirectionAllowedForOperation, FltIsIoRedirectionAllowedForOperation routine [Installable File System Drivers], fltkernel/FltIsIoRedirectionAllowedForOperation, ifsk.fltisioredirectionallowedforoperation
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltIsIoRedirectionAllowedForOperation"
 req.header: fltkernel.h

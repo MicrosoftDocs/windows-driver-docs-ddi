@@ -4,7 +4,6 @@ title: Location function (dbgmodel.h)
 description: Copy constructs a location.
 ms.assetid: e50b6f55-a47e-4fbc-b7f1-041cbccf9ea5
 ms.date: 09/28/2018
-ms.topic: function
 f1_keywords:
  - "dbgmodel/Location"
 ms.keywords: Location
@@ -48,10 +47,6 @@ ms.custom: RS5
 Copy constructs a location.
 
 Default constructs an equivalent nullptr.
-
-## -parameters
-None
-
 
 ## -returns
 This function is a constructor and does not return value.

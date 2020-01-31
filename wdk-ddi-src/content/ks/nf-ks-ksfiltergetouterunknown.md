@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 599a6583-dcf2-4fe3-949a-5072bff9915c
 ms.date: 04/23/2018
 ms.keywords: KsFilterGetOuterUnknown, KsFilterGetOuterUnknown function [Streaming Media Devices], avfunc_32947579-50ca-4942-a594-b991c42d6681.xml, ks/KsFilterGetOuterUnknown, stream.ksfiltergetouterunknown
-ms.topic: function
 f1_keywords:
  - "ks/KsFilterGetOuterUnknown"
 req.header: ks.h

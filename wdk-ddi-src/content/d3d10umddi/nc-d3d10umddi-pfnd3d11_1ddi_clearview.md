@@ -6,7 +6,6 @@ old-location: display\clearview.htm
 ms.assetid: c3cc08ea-22db-4fae-a180-76f3babd1c5c
 ms.date: 05/10/2018
 ms.keywords: ClearView, ClearView callback function [Display Devices], PFND3D11_1DDI_CLEARVIEW, PFND3D11_1DDI_CLEARVIEW callback, d3d10umddi/ClearView, display.clearview, display.clearview_d3d11_1_, display.pfnclearview
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -79,10 +78,6 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-wi
 ### -param NumRects
 
 The number of rectangles in the array that the  <i>pRect</i> parameter specifies.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

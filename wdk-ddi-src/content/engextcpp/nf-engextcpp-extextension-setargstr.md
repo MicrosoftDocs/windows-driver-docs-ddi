@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: a133cc3d-7d28-436a-b2f7-0f6171ed379f
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_768f449e-fa81-4759-a16d-a8dfe1d3bf61.xml, ExtExtension class [Windows Debugging],SetArgStr method, ExtExtension.SetArgStr, ExtExtension::SetArgStr, SetArgStr, SetArgStr method [Windows Debugging], SetArgStr method [Windows Debugging],ExtExtension class, debugger.setargstr
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtExtension.SetArgStr"
 req.header: engextcpp.hpp

@@ -4,7 +4,6 @@ title: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS (d3d10umddi.h)
 description: Flags for indicating a subset of components used with video decode histogram.
 ms.assetid: ce69c641-c6ed-45ba-8e4e-2a0e9f0681f0
 ms.date: 10/19/2018
-ms.topic: enum
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS"
 ms.keywords: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS, D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAGS,

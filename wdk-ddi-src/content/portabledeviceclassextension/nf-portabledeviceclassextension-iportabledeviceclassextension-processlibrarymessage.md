@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: b9e5f556-de9e-465f-a02f-ff4c1cb414b3
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceClassExtension interface,ProcessLibraryMessage method, IPortableDeviceClassExtension.ProcessLibraryMessage, IPortableDeviceClassExtension::ProcessLibraryMessage, IPortableDeviceClassExtensionProcessLibraryMessage, ProcessLibraryMessage, ProcessLibraryMessage method, ProcessLibraryMessage method,IPortableDeviceClassExtension interface, portabledeviceclassextension/IPortableDeviceClassExtension::ProcessLibraryMessage, wpddk.iportabledeviceclassextension_processlibrarymessage
-ms.topic: method
 f1_keywords:
  - "portabledeviceclassextension/IPortableDeviceClassExtension.ProcessLibraryMessage"
 req.header: portabledeviceclassextension.h

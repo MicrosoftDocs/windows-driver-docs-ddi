@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 1f0ebadc-4a6c-4d57-ba96-936ce138142b
 ms.date: 04/23/2018
 ms.keywords: IKsQualityForwarder, IKsQualityForwarder interface [Streaming Media Devices], IKsQualityForwarder interface [Streaming Media Devices],described, ksproxy/IKsQualityForwarder, ksproxy_ed147fca-8a84-407c-861a-f33625d90bc7.xml, stream.iksqualityforwarder
-ms.topic: interface
 f1_keywords:
  - "ksproxy/IKsQualityForwarder"
 req.header: ksproxy.h
@@ -53,30 +52,10 @@ The <b>IKsQualityForwarder</b> interface inherits the method of the <a href="htt
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsQualityForwarder</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject">IKsObject</a>. <b>IKsQualityForwarder</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsQualityForwarder</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksobject">IKsObject</a>. <b>IKsQualityForwarder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IKsQualityForwarder</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksqualityforwarder-ksflushclient">KsFlushClient</a>
-</td>
-<td align="left" width="63%">
-Flushes information from a pin. 
-
-</td>
-</tr>
-</table> 
-
 
 ## -remarks
 

@@ -6,7 +6,6 @@ old-location: display\pfnstategsconstbufcb.htm
 ms.assetid: 02468226-f0a4-4f24-a7f9-61a3b67dffb1
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_STATE_GS_CONSTBUF_CB, PFND3D10DDI_STATE_GS_CONSTBUF_CB callback, d3d10state_functions_d0994a2d-dd79-490e-b35a-04719bfa1450.xml, d3d10umddi/pfnStateGsConstBufCb, display.pfnstategsconstbufcb, pfnStateGsConstBufCb, pfnStateGsConstBufCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateGsConstBufCb"
 req.header: d3d10umddi.h
@@ -73,15 +72,6 @@ The total number of constant buffers. The number can be -1, which specifies that
 *Base* [in]
 
 The beginning constant buffer for which the runtime should refresh state. 
-
-
-
-
-## -returns
-
-
-
-None
 
 
 

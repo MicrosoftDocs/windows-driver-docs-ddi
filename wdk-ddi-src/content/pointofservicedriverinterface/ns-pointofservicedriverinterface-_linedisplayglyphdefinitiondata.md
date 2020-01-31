@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: D2F27B23-2B77-42C8-A7D5-61AB6BCEC77D
 ms.date: 02/23/2018
 ms.keywords: LineDisplayGlyphDefinitionData, LineDisplayGlyphDefinitionData structure, _LineDisplayGlyphDefinitionData, pointofservicedriverinterface/LineDisplayGlyphDefinitionData, pos.linedisplayglyphdefinitiondata
-ms.topic: struct
 f1_keywords:
  - "pointofservicedriverinterface/LineDisplayGlyphDefinitionData"
 req.header: pointofservicedriverinterface.h

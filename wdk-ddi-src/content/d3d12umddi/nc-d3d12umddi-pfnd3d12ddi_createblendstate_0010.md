@@ -4,7 +4,6 @@ title: PFND3D12DDI_CREATEBLENDSTATE_0010 (d3d12umddi.h)
 description: Creates a blend state.
 ms.assetid: 84568c55-656d-4668-8b37-4e3dcae345d5
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -60,10 +59,6 @@ Pointer to a D3D12DDI_BLEND_DESC_0010 structure.
 ### -param Arg3
 
 A blend state handle.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

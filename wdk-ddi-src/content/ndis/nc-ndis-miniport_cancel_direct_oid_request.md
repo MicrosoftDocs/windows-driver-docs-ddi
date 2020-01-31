@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 88639bb4-89f3-4e7f-9cce-ea541224572d
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_CANCEL_DIRECT_OID_REQUEST, MINIPORT_CANCEL_DIRECT_OID_REQUEST callback, MiniportCancelDirectOidRequest, MiniportCancelDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelDirectOidRequest, ndis_request_direct_ref_d98875f6-2607-4d82-ac0f-615a33c0b11e.xml, netvista.miniportcanceldirectoidrequest
-ms.topic: callback
 f1_keywords:
  - "ndis/MiniportCancelDirectOidRequest"
 req.header: ndis.h
@@ -71,15 +70,6 @@ A cancellation identifier for the request. This identifier specifies the direct 
      match this value in the 
      <b>RequestId</b> member of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

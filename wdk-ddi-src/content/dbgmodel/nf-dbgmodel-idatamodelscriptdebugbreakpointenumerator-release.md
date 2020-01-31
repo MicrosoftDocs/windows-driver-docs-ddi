@@ -4,7 +4,6 @@ title: IDataModelScriptDebugBreakpointEnumerator::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: b11ce58d-9614-4f05-875b-16e412d6c827
 ms.date: 09/10/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpointEnumerator.Release"
 ms.keywords: IDataModelScriptDebugBreakpointEnumerator::Release, Release, IDataModelScriptDebugBreakpointEnumerator.Release, IDataModelScriptDebugBreakpointEnumerator::Release, IDataModelScriptDebugBreakpointEnumerator.Release
@@ -49,10 +48,6 @@ Decrements the reference count for an interface on an object.
 
 For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
-## -parameters
-
-None
 
 ## -returns
 

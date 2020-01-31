@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 8a367bcb-680b-41be-975f-1a1f4bec3b60
 ms.date: 05/08/2018
 ms.keywords: IPortClsVersion, IPortClsVersion interface [Audio Devices], IPortClsVersion interface [Audio Devices],described, audio.iportclsversion, audmp-routines_47212df8-c1b8-4e77-bd5f-90b74a6ae08c.xml, portcls/IPortClsVersion
-ms.topic: interface
 f1_keywords:
  - "portcls/IPortClsVersion"
 req.header: portcls.h

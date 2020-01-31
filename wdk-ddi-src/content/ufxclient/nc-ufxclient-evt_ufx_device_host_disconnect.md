@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 01E66957-BB9B-4C35-920F-2DC0F01123E5
 ms.date: 05/07/2018
 ms.keywords: EVT_UFX_DEVICE_HOST_DISCONNECT, EVT_UFX_DEVICE_HOST_DISCONNECT callback, EvtUfxDeviceHostDisconnect, EvtUfxDeviceHostDisconnect callback function [Buses], PFN_UFX_DEVICE_HOST_DISCONNECT, PFN_UFX_DEVICE_HOST_DISCONNECT callback function pointer [Buses], buses.evt_ufx_device_host_disconnect, ufxclient/EvtUfxDeviceHostDisconnect
-ms.topic: callback
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_HOST_DISCONNECT"
 req.header: ufxclient.h
@@ -68,15 +67,6 @@ The client driver's implementation to disable the function controller's communic
 #### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

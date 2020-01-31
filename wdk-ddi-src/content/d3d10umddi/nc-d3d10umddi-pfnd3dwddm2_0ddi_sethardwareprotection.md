@@ -6,7 +6,6 @@ old-location: display\sethardwareprotection.htm
 ms.assetid: 9D41C504-1F84-4F1A-B767-D3B423A8AA46
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION, PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION callback, d3d10umddi/pfnSetHardwareProtection, display.sethardwareprotection, pfnSetHardwareProtection, pfnSetHardwareProtection callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnSetHardwareProtection"
 req.header: d3d10umddi.h
@@ -69,15 +68,6 @@ A handle to the resource object that was created through a call to the <a href="
 ### -param Protected
 
 Indicates that the buffer should be protected.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: 2006f55e-1d1b-41ef-93db-b7501f974c11
 ms.date: 02/15/2018
 ms.keywords: WPD_CROPPED_STATUS_CROPPED, WPD_CROPPED_STATUS_NOT_CROPPED, WPD_CROPPED_STATUS_SHOULD_NOT_BE_CROPPED, WPD_CROPPED_STATUS_VALUES, WPD_CROPPED_STATUS_VALUES enumeration, enumeration, portabledevice/WPD_CROPPED_STATUS_CROPPED, portabledevice/WPD_CROPPED_STATUS_NOT_CROPPED, portabledevice/WPD_CROPPED_STATUS_SHOULD_NOT_BE_CROPPED, portabledevice/WPD_CROPPED_STATUS_VALUES, tagWPD_CROPPED_STATUS_VALUES, wpddk.wpd_cropped_status_values
-ms.topic: enum
 f1_keywords:
  - "portabledevice/WPD_CROPPED_STATUS_VALUES"
 req.header: portabledevice.h

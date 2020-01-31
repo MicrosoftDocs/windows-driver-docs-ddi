@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 8579b364-2a1f-4e71-b128-879e63a5c4d6
 ms.author: windowsdriverdev
 ms.date: 03/18/2019
-ms.topic: struct
 f1_keywords:
  - "ntddscsi/NTSCSI_UNICODE_STRING"
 ms.keywords: NTSCSI_UNICODE_STRING, NTSCSI_UNICODE_STRING, *PNTSCSI_UNICODE_STRING
@@ -74,4 +73,4 @@ If the string is null-terminated, **Length** does not include the trailing null 
 
 ## -see-also
 
-[UNICODE_STRING](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string)
+[UNICODE_STRING](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ns-wudfwdm-_unicode_string)

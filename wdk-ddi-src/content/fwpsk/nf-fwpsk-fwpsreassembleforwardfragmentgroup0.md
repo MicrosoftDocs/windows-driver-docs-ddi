@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 00322dbf-0099-439a-8d65-bf530129cea1
 ms.date: 05/02/2018
 ms.keywords: FwpsReassembleForwardFragmentGroup0, FwpsReassembleForwardFragmentGroup0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReassembleForwardFragmentGroup0, netvista.fwpsreassembleforwardfragmentgroup0, wfp_ref_2_funct_3_fwps_R-Z_354e1536-de02-474d-b99f-b5d81875aecd.xml
-ms.topic: function
 f1_keywords:
  - "fwpsk/FwpsReassembleForwardFragmentGroup0"
 req.header: fwpsk.h

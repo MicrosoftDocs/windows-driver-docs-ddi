@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: b6b7dd80-fd91-4194-8288-4d703983a798
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_bbf01697-e3d0-4711-aa7f-c53bfd205ea7.xml, EVT_WDF_DEVICE_USAGE_NOTIFICATION, EVT_WDF_DEVICE_USAGE_NOTIFICATION callback, EvtDeviceUsageNotification, EvtDeviceUsageNotification callback function, kmdf.evtdeviceusagenotification, wdf.evtdeviceusagenotification, wdfdevice/EvtDeviceUsageNotification
-ms.topic: callback
 f1_keywords:
  - "wdfdevice/EvtDeviceUsageNotification"
 req.header: wdfdevice.h
@@ -71,15 +70,6 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-
 ### -param IsInNotificationPath [in]
 
 A Boolean value which, if <b>TRUE</b>, indicates that the system has starting using the special file and, if <b>FALSE</b>, indicate that the system as finished using the special file.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

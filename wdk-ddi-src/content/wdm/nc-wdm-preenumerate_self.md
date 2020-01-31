@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: ee669f35-87a5-4c5e-9936-b9135a1459e1
 ms.date: 04/30/2018
 ms.keywords: PREENUMERATE_SELF, ReenumerateSelf, ReenumerateSelf routine [Kernel-Mode Driver Architecture], drvr_interface_208efec1-4236-441b-a4b8-45a9539e4d84.xml, kernel.reenumerateself, wdm/ReenumerateSelf
-ms.topic: callback
 f1_keywords:
  - "wdm/ReenumerateSelf"
 req.header: wdm.h
@@ -59,15 +58,6 @@ A <i>ReenumerateSelf</i> routine requests that a bus driver reenumerate a child 
 ### -param Context [in]
 
 A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_reenumerate_self_interface_standard">REENUMERATE_SELF_INTERFACE_STANDARD</a> structure.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 32C894CA-B644-4221-97B6-A21F2A459DE6
 ms.date: 04/23/2018
 ms.keywords: "*PKSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO structure [Streaming Media Devices], PKSDEVICE_PROFILE_INFO, PKSDEVICE_PROFILE_INFO structure pointer [Streaming Media Devices], _KSDEVICE_PROFILE_INFO, ksmedia/KSDEVICE_PROFILE_INFO, ksmedia/PKSDEVICE_PROFILE_INFO, stream.ksdevice_profile_info"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSDEVICE_PROFILE_INFO"
 req.header: ksmedia.h

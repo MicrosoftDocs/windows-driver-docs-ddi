@@ -6,7 +6,6 @@ old-location: display\dxgkcbsetpowercomponentlatency.htm
 ms.assetid: 8FF86746-15A2-4BDF-98AF-23B5F9960DB9
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_SETPOWERCOMPONENTLATENCY, DXGKCB_SETPOWERCOMPONENTLATENCY callback, DxgkCbSetPowerComponentLatency, DxgkCbSetPowerComponentLatency callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentLatency, display.dxgkcbsetpowercomponentlatency
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -63,10 +62,6 @@ The power component index specified by  <a href="https://docs.microsoft.com/wind
 The <i>latency tolerance</i>—the maximum  time, in units of 100 nanoseconds, that the display miniport driver should take to awaken a power component from an idle state. The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/overview-of-the-power-management-framework">Power Management Framework</a> uses this information to select an appropriate idle state for the component that does not violate the requested latency tolerance. The latency tolerance specified by <i>Latency</i> remains in effect until the driver calls this function again to update it.
 
 For more information, see Remarks.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

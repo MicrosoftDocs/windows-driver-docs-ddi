@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 1a6a6073-27ec-43c0-b5ec-37ef4177fa54
 ms.date: 03/29/2018
 ms.keywords: HW_COMPLETE_SERVICE_IRP, HwStorCompleteServiceIrp, HwStorCompleteServiceIrp routine [Storage Devices], storage.hwstorcompleteserviceirp, storport/HwStorCompleteServiceIrp, storvmini_57cddd18-134c-4ecc-9180-4c4b3ff3903d.xml
-ms.topic: callback
 f1_keywords:
  - "storport/HwStorCompleteServiceIrp"
 req.header: storport.h
@@ -59,15 +58,6 @@ The <b>HwStorCompleteServiceIrp</b> routine is called when the virtual adapter i
 ### -param DeviceExtension
 
 A pointer to the virtual miniport driver's per-adapter storage area.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

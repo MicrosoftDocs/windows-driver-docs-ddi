@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: f521af88-eb96-4077-8882-9b1d02c6c87c
 ms.date: 05/02/2018
 ms.keywords: ProtocolQueryOffloadComplete, ProtocolQueryOffloadComplete callback function [Network Drivers Starting with Windows Vista], QUERY_OFFLOAD_COMPLETE_HANDLER, QUERY_OFFLOAD_COMPLETE_HANDLER callback, ndischimney/ProtocolQueryOffloadComplete, netvista.protocolqueryoffloadcomplete, tcp_chim_protocol_func_044230e2-8c5e-4f7c-8f6c-5b7ba8f48810.xml
-ms.topic: callback
 f1_keywords:
  - "ndischimney/ProtocolQueryOffloadComplete"
 req.header: ndischimney.h
@@ -76,15 +75,6 @@ A pointer to an
      NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a> structure that can be a stand-alone structure or the root of a
      linked list of such structures. These structures identify the state that was queried or that was
      attempted to be queried.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

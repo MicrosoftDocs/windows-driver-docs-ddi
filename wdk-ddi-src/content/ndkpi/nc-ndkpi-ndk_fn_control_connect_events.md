@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 3AA50940-A782-4A46-8E45-077BC76D41A7
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_CONTROL_CONNECT_EVENTS, NDK_FN_CONTROL_CONNECT_EVENTS callback, NdkControlConnectEvents, NdkControlConnectEvents callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkControlConnectEvents, netvista.ndk_fn_control_connect_events
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkControlConnectEvents"
 req.header: ndkpi.h
@@ -64,15 +63,6 @@ A pointer to an NDK listener object (<a href="https://docs.microsoft.com/windows
 ### -param Pause [in]
 
 A BOOLEAN value that specifies if a connection is paused or restarted. If <i>Pause</i> is TRUE the connection is paused. If <i>Pause</i> is FALSE the connection is restarted.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

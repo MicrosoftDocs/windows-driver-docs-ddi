@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: BCF2171C-93CB-4DAC-AA78-C272D5445F99
 ms.date: 04/23/2018
 ms.keywords: LAMP_CAPABILITIES_COLOR, LAMP_CAPABILITIES_COLOR structure [Streaming Media Devices], lamp/LAMP_CAPABILITIES_COLOR, stream.lamp_capabilities_color
-ms.topic: struct
 f1_keywords:
  - "lamp/LAMP_CAPABILITIES_COLOR"
 req.header: lamp.h

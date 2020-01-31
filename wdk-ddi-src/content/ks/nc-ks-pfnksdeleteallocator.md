@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 867da1f8-061b-4fc1-8e20-3ebc43300f15
 ms.date: 04/23/2018
 ms.keywords: AVStrMiniDeleteAllocator, AVStrMiniDeleteAllocator routine [Streaming Media Devices], PFNKSDELETEALLOCATOR, avstclbk_32e3c0fd-c437-45e0-8e5e-72f2f628ee51.xml, ks/AVStrMiniDeleteAllocator, stream.avstrminideleteallocator
-ms.topic: callback
 f1_keywords:
  - "ks/AVStrMiniDeleteAllocator"
 req.header: ks.h
@@ -59,15 +58,6 @@ An AVStream minidriver's <i>AVStrMiniDeleteAllocator</i> routine deletes the all
 ### -param Context [in]
 
 Pointer to the allocator's context structure created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspininitializeallocator">AVStrMiniInitializeAllocator</a>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

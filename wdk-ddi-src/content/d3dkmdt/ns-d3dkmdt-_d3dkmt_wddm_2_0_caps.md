@@ -4,7 +4,6 @@ title: _D3DKMT_WDDM_2_0_CAPS (d3dkmdt.h)
 description: Indicates the capabilities for Windows Display Driver Model v2.0.
 ms.assetid: 4a073daa-4233-4c38-bcef-86dc04d00352
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmdt/_D3DKMT_WDDM_2_0_CAPS"
 ms.keywords: _D3DKMT_WDDM_2_0_CAPS, D3DKMT_WDDM_2_0_CAPS,

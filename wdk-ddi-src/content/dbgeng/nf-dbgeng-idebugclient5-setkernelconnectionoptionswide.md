@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: aea5651f-b361-4253-bf51-bd320408bdab
 ms.date: 05/03/2018
 ms.keywords: IDebugClient5 interface [Windows Debugging],SetKernelConnectionOptionsWide method, IDebugClient5.SetKernelConnectionOptionsWide, IDebugClient5::SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide method [Windows Debugging], SetKernelConnectionOptionsWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, debugger.setkernelconnectionoptionswide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugClient5.SetKernelConnectionOptionsWide"
 req.header: dbgeng.h

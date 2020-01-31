@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: ff39aebb-03c0-4ba4-844a-417579ed2bbf
 ms.date: 04/16/2018
 ms.keywords: RxCreateRxContext, RxCreateRxContext function [Installable File System Drivers], ifsk.rxcreaterxcontext, rxcontx/RxCreateRxContext, rxref_ceb498ca-e985-4100-a104-8333abb41fdf.xml
-ms.topic: function
 f1_keywords:
  - "rxcontx/RxCreateRxContext"
 req.header: rxcontx.h

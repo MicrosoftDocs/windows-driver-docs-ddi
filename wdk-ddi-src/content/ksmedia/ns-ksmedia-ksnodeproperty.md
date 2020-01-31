@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: bbcf7597-217a-499b-b0f2-deef1e85becc
 ms.date: 04/30/2019
 ms.keywords: "*PKSNODEPROPERTY, KSNODEPROPERTY, KSNODEPROPERTY structure [Audio Devices], PKSNODEPROPERTY, PKSNODEPROPERTY structure pointer [Audio Devices], aud-prop_7d1e6907-77f6-445d-ba5d-b94037b234f3.xml, audio.ksnodeproperty, ksmedia/KSNODEPROPERTY, ksmedia/PKSNODEPROPERTY"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSNODEPROPERTY"
 req.header: ksmedia.h

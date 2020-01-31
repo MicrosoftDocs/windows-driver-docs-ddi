@@ -4,7 +4,6 @@ title: PFND3D12DDI_UNMAPHEAP (d3d12umddi.h)
 description: Implemented by the client driver to unmap a heap.
 ms.assetid: ff2743ac-ae14-4c19-836a-d8a869b3ff9b
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -56,10 +55,6 @@ A handle to the display device (graphics context).
 ### -param Arg2
 
 A heap handle.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 02A30A9F-A27D-492E-8FB3-D8CB34D51D5A
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_DEVICE_STARTED, PEP_DEVICE_STARTED, PEP_DEVICE_STARTED structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_STARTED, PPEP_DEVICE_STARTED structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_STARTED, kernel.pep_device_started, pepfx/PEP_DEVICE_STARTED, pepfx/PPEP_DEVICE_STARTED"
-ms.topic: struct
 f1_keywords:
  - "pepfx/PEP_DEVICE_STARTED"
 req.header: pepfx.h

@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: 431cdc87-473f-40f1-9ade-14e3e7459cbd
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: function
 f1_keywords:
  - "netadapteroffload/NetOffloadIsRscIPv4Enabled"
 ms.keywords: NetOffloadIsRscIPv4Enabled
 req.header: netadapteroffload.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

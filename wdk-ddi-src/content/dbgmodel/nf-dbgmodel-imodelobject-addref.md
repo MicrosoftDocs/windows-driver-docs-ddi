@@ -4,7 +4,6 @@ title: IModelObject::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object.
 ms.assetid: 57eec432-2950-42c7-a73c-febcfd412b55
 ms.date: 07/20/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IModelObject.AddRef"
 ms.keywords: IModelObject::AddRef, AddRef, IModelObject.AddRef, IModelObject::AddRef, IModelObject.AddRef
@@ -49,10 +48,6 @@ Increments the reference count for an interface on an object. This method should
 
 For more information, see [IUnknown::AddRef](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-addref) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
-## -parameters
-
-None
 
 ## -returns
 

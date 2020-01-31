@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: a1899d90-4906-458d-b7e3-122655f4d926
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_38946496-1155-44d9-8636-8343c4623000.xml, EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED, EVT_WDF_DEVICE_WAKE_FROM_SX_TRIGGERED callback, EvtDeviceWakeFromSxTriggered, EvtDeviceWakeFromSxTriggered callback function, kmdf.evtdevicewakefromsxtriggered, wdf.evtdevicewakefromsxtriggered, wdfdevice/EvtDeviceWakeFromSxTriggered
-ms.topic: callback
 f1_keywords:
  - "wdfdevice/EvtDeviceWakeFromSxTriggered"
 req.header: wdfdevice.h
@@ -61,15 +60,6 @@ A driver's <i>EvtDeviceWakeFromSxTriggered</i> event callback function informs t
 ### -param Device [in]
 
 A handle to a framework device object.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

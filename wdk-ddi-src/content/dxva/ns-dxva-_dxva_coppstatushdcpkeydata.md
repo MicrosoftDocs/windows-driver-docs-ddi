@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 2e8024b4-69db-4f10-b33f-a6b817aa0aa9
 ms.date: 05/10/2018
 ms.keywords: DXVA_COPPStatusHDCPKeyData, DXVA_COPPStatusHDCPKeyData structure [Display Devices], _DXVA_COPPStatusHDCPKeyData, display.dxva_coppstatushdcpkeydata, dxva/DXVA_COPPStatusHDCPKeyData, dxvaref_6aca4a16-16df-46ab-be65-b6033258f781.xml
-ms.topic: struct
 f1_keywords:
  - "dxva/DXVA_COPPStatusHDCPKeyData"
 req.header: dxva.h

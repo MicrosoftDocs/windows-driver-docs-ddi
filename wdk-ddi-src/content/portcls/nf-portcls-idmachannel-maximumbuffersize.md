@@ -5,7 +5,6 @@ description: The MaximumBufferSize method returns the size in bytes of the large
 tech.root: audio
 ms.assetid: 85d5a1be-e372-4d64-9b27-631f566094ba
 ms.date: 10/31/2018
-ms.topic: method
 f1_keywords:
  - "portcls/IDmaChannel.MaximumBufferSize"
 ms.keywords: IDmaChannel::MaximumBufferSize, MaximumBufferSize, IDmaChannel.MaximumBufferSize, IDmaChannel::MaximumBufferSize, IDmaChannel.MaximumBufferSize
@@ -46,9 +45,6 @@ targetos: Windows
 ## -description
 
 The MaximumBufferSize method returns the size in bytes of the largest buffer that this DMA-channel object is configured to support.
-
-## -parameters
-
 
 ## -returns
 This method returns ULONG which is the size in bytes of the largest buffer that this DMA channel supports.

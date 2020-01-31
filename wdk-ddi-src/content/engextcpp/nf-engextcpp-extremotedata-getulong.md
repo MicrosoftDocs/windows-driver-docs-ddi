@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: ce25b52e-5ac7-470d-902b-f45350718dff
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_41a112c3-0350-4e54-981c-b5c11697ef2d.xml, ExtRemoteData class [Windows Debugging],GetUlong method, ExtRemoteData.GetUlong, ExtRemoteData::GetUlong, GetUlong, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getulong
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetUlong"
 req.header: engextcpp.hpp
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>GetUlong</b> method returns a ULONG version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

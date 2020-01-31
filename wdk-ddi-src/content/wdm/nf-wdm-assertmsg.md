@@ -7,7 +7,6 @@ tech.root: devtest
 ms.assetid: 88c0cd30-607b-48f4-b2b6-3c21be1ce31a
 ms.date: 02/23/2018
 ms.keywords: ASSERTMSG, ASSERTMSG function [Driver Development Tools], DebugFns_998b520e-90e6-440f-94d4-55ff0b6e102f.xml, devtest.assertmsg, ntddk/ASSERTMSG
-ms.topic: macro
 f1_keywords:
  - "wdm/ASSERTMSG"
 req.header: wdm.h
@@ -74,7 +73,7 @@ Specifies any logical expression.
 
 <b>ASSERTMSG</b> is identical to <b>ASSERT</b>, except that it sends an additional message to the debugger.
 
-This macro will only be included in your binary if your code is compiled in a Debug configuration. Once your driver is built, <b>ASSERTMSG</b> will work properly regardless of whether your driver is run on the checked build or on the free build of Windows. 
+This macro will only be included in your binary if your code is compiled in a Debug configuration.
 
 If <i>Expression</i> evaluates to <b>TRUE</b>, this routine has no effect.
 

@@ -5,7 +5,6 @@ description: The NetDeviceOpenConfiguration method opens a net device's configur
 tech.root: netvista
 ms.assetid: 3446a849-1637-4aa8-96b6-70491c47bf31
 ms.date: 07/19/2018
-ms.topic: function
 f1_keywords:
  - "netdevice/NetDeviceOpenConfiguration"
 ms.keywords: NetDeviceOpenConfiguration

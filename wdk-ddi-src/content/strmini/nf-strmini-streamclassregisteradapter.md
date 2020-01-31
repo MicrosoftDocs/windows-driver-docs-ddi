@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 231a0e11-2968-4a51-9a51-ae98a483f85b
 ms.date: 04/23/2018
 ms.keywords: StreamClassRegisterAdapter, StreamClassRegisterAdapter function [Streaming Media Devices], StreamClassRegisterMinidriver, strclass-routines_5336cc3e-8abd-4943-a191-12dbf9d25b85.xml, stream.streamclassregisterminidriver, strmini/StreamClassRegisterAdapter
-ms.topic: function
 f1_keywords:
  - "strmini/StreamClassRegisterAdapter"
 req.header: strmini.h

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: e746fc3d-ebfd-41a1-b640-6f803423bd95
 ms.date: 05/08/2018
 ms.keywords: "*PKSDS3D_HRTF_PARAMS_MSG, KSDS3D_HRTF_PARAMS_MSG, KSDS3D_HRTF_PARAMS_MSG structure [Audio Devices], PKSDS3D_HRTF_PARAMS_MSG, PKSDS3D_HRTF_PARAMS_MSG structure pointer [Audio Devices], aud-prop_1f9e726f-d9b6-43e5-8c6e-82e645587ca4.xml, audio.ksds3d_hrtf_params_msg, ksmedia/KSDS3D_HRTF_PARAMS_MSG, ksmedia/PKSDS3D_HRTF_PARAMS_MSG"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSDS3D_HRTF_PARAMS_MSG"
 req.header: ksmedia.h

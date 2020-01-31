@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_destroyvideoprocessor.htm
 ms.assetid: 93C1FA5F-064F-41AC-B854-FF59A5CC172C
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021, PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021 callback, d3d12umddi/pfnDestroyVideoProcessor, display.pfnd3d12ddi_destroyvideoprocessor, pfnDestroyVideoProcessor, pfnDestroyVideoProcessor callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/pfnDestroyVideoProcessor"
 req.header: d3d12umddi.h
@@ -64,13 +63,5 @@ The handle of a device driver.
 ### -param hDrvVideoProcessor
 
 The handle of a video processor.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
 
 

@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: dc594873-2347-4ad8-9748-2d5a1fa4d8a7
 ms.date: 04/04/2018
 ms.keywords: IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFSimpleIOStressAction2, dtf.iwdtfsimpleiostressaction2, wdtfinterfaces/IWDTFSimpleIOStressAction2
-ms.topic: interface
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOStressAction2"
 req.header: wdtfinterfaces.h
@@ -57,86 +56,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSimpleIOStressAction2</b
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWDTFSimpleIOStressAction2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Continue</a>
-</td>
-<td align="left" width="63%">
-Continues the I/O.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">ContinueAsync</a>
-</td>
-<td align="left" width="63%">
-Asynchronously signals the I/O to continue.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">Pause</a>
-</td>
-<td align="left" width="63%">
-Pauses the I/O.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschemaasyncoperation-start">Start</a>
-</td>
-<td align="left" width="63%">
-Opens the device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfinterfaces/nf-wdtfinterfaces-iwdtfsimpleiostressaction2-startasync">StartAsync</a>
-</td>
-<td align="left" width="63%">
-Asynchronously signals a start event to occur.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/test/wpt/stop-icontrolmanager">Stop</a>
-</td>
-<td align="left" width="63%">
-Stops the device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">StopAsync</a>
-</td>
-<td align="left" width="63%">
-Asynchronously signals the stop event to occur.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">WaitAsyncCompletion</a>
-</td>
-<td align="left" width="63%">
-Waits for the completion of any of the asynchronous events.
-
-</td>
-</tr>
-</table> 
 

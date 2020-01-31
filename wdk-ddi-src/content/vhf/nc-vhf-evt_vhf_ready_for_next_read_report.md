@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: 02DDBE00-C342-474B-8D06-FBB929BA4760
 ms.date: 04/30/2018
 ms.keywords: EVT_VHF_READY_FOR_NEXT_READ_REPORT, EVT_VHF_READY_FOR_NEXT_READ_REPORT callback, EvtVhfReadyForNextReadReport, EvtVhfReadyForNextReadReport callback function [Human Input Devices], hid.evtvhfreadyfornextreadreport, vhf/EvtVhfReadyForNextReadReport
-ms.topic: callback
 f1_keywords:
  - "vhf/EvtVhfReadyForNextReadReport"
 req.header: vhf.h
@@ -59,15 +58,6 @@ The HID source driver implements this event call back function to use its buffer
 ### -param VhfClientContext [in]
 
 Pointer to the HID source driver-defined context structure that the driver passed in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vhf/nf-vhf-vhfcreate">VhfCreate</a> to create the virtual HID device.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

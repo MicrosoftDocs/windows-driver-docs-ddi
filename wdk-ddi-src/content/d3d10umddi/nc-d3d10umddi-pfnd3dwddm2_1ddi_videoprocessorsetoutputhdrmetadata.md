@@ -4,7 +4,6 @@ title: PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA (d3d10umddi.h)
 description: Includes HDR metadata to allow the video processor to optimize video for display.
 ms.assetid: c7a687ae-1877-4565-9dd7-618e8cec81ff
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/PFND3DWDDM2_1DDI_VIDEOPROCESSORSETOUTPUTHDRMETADATA"
 req.header: d3d10umddi.h
@@ -96,10 +95,6 @@ Points to a structure containing the HDR metadata.
 * For D3DDDI_HDR_METADATA_TYPE_NONE, this should be NULL.
 * For D3DDDI_HDR_METADATA_TYPE_HDR10, this is a pointer to a DD3DDDI_HDR_METADATA_HDR10 structure.
 
-
-## -returns
-
-Returns VOID.
 
 ## -remarks
 

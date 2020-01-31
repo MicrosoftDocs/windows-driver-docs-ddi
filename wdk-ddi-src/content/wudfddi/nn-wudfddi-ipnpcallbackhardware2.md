@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: C0DB967F-0A1A-4749-B902-EBA0D59A3E45
 ms.date: 02/26/2018
 ms.keywords: IPnpCallbackHardware2, IPnpCallbackHardware2 interface, IPnpCallbackHardware2 interface,described, umdf.ipnpcallbackhardware2, wdf.ipnpcallbackhardware2, wudfddi/IPnpCallbackHardware2
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IPnpCallbackHardware2"
 req.header: wudfddi.h
@@ -59,37 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPnpCallbackHardware2</b> int
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IPnpCallbackHardware2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onpreparehardware">OnPrepareHardware</a>
-</td>
-<td align="left" width="63%">
-
-   The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onpreparehardware">OnPrepareHardware</a> method performs any operations that are needed to make a device accessible to the driver.
-  
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onreleasehardware">OnReleaseHardware</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onreleasehardware">OnReleaseHardware</a> method performs operations that are needed when a device is no longer accessible.
-
-</td>
-</tr>
-</table> 
-
 
 ## -see-also
 

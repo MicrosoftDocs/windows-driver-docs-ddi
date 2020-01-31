@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 7287281b-8c7b-4842-b312-1fff130a5de6
 ms.date: 05/02/2018
 ms.keywords: RIL_Initialize, RIL_Initialize method [Network Drivers Starting with Windows Vista], netvista.ril_initialize, rilapi/RIL_Initialize
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_Initialize"
 req.header: rilapi.h

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: e3ab83cf-96ed-468d-895f-23b90951cfb5
 ms.date: 05/03/2018
 ms.keywords: "*PDEBUG_STACK_FRAME, DEBUG_STACK_FRAME, DEBUG_STACK_FRAME structure [Windows Debugging], PDEBUG_STACK_FRAME, PDEBUG_STACK_FRAME structure pointer [Windows Debugging], Structures_219fad76-6f80-429d-b0ff-0f5443a9263b.xml, _DEBUG_STACK_FRAME, dbgeng/DEBUG_STACK_FRAME, dbgeng/PDEBUG_STACK_FRAME, debugger.debug_stack_frame"
-ms.topic: struct
 f1_keywords:
  - "dbgeng/DEBUG_STACK_FRAME"
 req.header: dbgeng.h

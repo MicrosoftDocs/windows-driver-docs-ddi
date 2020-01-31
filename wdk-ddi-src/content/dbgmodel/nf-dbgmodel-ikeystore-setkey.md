@@ -4,7 +4,6 @@ title: IKeyStore::SetKey (dbgmodel.h)
 description: The SetKey method is analogous to the SetKey method on IModelObject.
 ms.assetid: ad29e237-ecce-4109-9b5e-24b914ca8bb7
 ms.date: 08/13/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IKeyStore.SetKey"
 ms.keywords: IKeyStore::SetKey, SetKey, IKeyStore.SetKey, IKeyStore::SetKey, IKeyStore.SetKey

@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: ccbcab46-0af9-4c21-896f-14096f1461bc
 ms.date: 09/07/2018
 ms.keywords: image.wiaudbglegacytrace, wiauDbgLegacyTrace, wiauDbgLegacyTrace function [Imaging Devices], wiauFncs_a780f296-5780-4589-9aa6-1e61ebec013e.xml, wiautil/wiauDbgLegacyTrace
-ms.topic: function
 f1_keywords:
  - "wiautil/wiauDbgLegacyTrace"
 req.header: wiautil.h

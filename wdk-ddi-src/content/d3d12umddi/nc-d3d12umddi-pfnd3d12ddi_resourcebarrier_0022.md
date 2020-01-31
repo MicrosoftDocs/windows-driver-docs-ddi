@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_resourcebarrier_0022.htm
 ms.assetid: AD42B7FC-9928-4386-B3EB-C9F0302415DA
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_RESOURCEBARRIER_0022, PFND3D12DDI_RESOURCEBARRIER_0022 callback, d3d12umddi/pfnResourceBarrier, display.pfnd3d12ddi_resourcebarrier_0022, pfnResourceBarrier, pfnResourceBarrier callback function [Display Devices]
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
@@ -65,10 +64,6 @@ Specifies a count.
 **ResourceBarrier** [in]
 
 A pointer to a resource barrier as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddiarg_resource_barrier_0022">D3D12DDIARG_RESOURCE_BARRIER_0022</a> structure.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

@@ -6,7 +6,6 @@ old-location: display\destroyvideoprocessorenum.htm
 ms.assetid: a4325993-aa87-466e-8e89-40bede1e0306
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM, PFND3D11_1DDI_DESTROYVIDEOPROCESSORENUM callback, d3d10umddi/pfnDestroyVideoProcessorEnum, display.destroyvideoprocessorenum, pfnDestroyVideoProcessorEnum, pfnDestroyVideoProcessorEnum callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnDestroyVideoProcessorEnum"
 req.header: d3d10umddi.h
@@ -68,15 +67,6 @@ A handle to the display device (graphics context).
 *hProcessorEnum* [in]
 
 A handle to the driver's private data for the video processor enumeration object. This handle was created by the Direct3D runtime and passed to the driver in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum">CreateVideoProcessorEnum</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

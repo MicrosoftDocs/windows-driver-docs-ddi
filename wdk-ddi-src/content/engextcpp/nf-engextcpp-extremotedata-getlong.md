@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 064f50e7-bae8-4c29-9802-47efdb749652
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_10a1810d-2e15-490a-baeb-8881106f41a6.xml, ExtRemoteData class [Windows Debugging],GetLong method, ExtRemoteData.GetLong, ExtRemoteData::GetLong, GetLong, GetLong method [Windows Debugging], GetLong method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getlong
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetLong"
 req.header: engextcpp.hpp
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>GetLong</b> method returns a LONG version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

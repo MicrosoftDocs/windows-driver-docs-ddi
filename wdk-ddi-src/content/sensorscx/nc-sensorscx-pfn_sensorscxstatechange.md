@@ -4,7 +4,6 @@ title: PFN_SENSORSCXSTATECHANGE (sensorscx.h)
 description: Used to initialize a sensor state change.
 ms.assetid: 7c918334-c20f-4edd-988b-4bbe8bc2c9d8
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "sensorscx/*PFN_SENSORSCXSTATECHANGE"
 req.header: sensorscx.h
@@ -77,6 +76,3 @@ A reference to a sensor object.
 
 The state of the sensor.
 
-## -returns
-
-Returns VOID.

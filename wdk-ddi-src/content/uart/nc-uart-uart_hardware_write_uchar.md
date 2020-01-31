@@ -5,7 +5,6 @@ description: Writes a byte to the port or a register.
 tech.root: serports
 ms.assetid: 4fb781e3-0e25-4e35-8ebf-f8046b05fd23
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "uart/UART_HARDWARE_WRITE_UCHAR"
 req.header: uart.h
@@ -69,10 +68,6 @@ A pointer to a variable that contains the port or register address.
 
 ### -param Value
 Specifies a byte to be written to the port or register.
-
-
-
-## -returns
 
 
 

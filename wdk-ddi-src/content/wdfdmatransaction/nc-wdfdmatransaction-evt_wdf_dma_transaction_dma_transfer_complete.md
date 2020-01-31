@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: C638A505-AAE1-48FC-B06B-F2F161ADC948
 ms.date: 02/26/2018
 ms.keywords: EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE, EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE callback, EvtDmaTransactionDmaTransferComplete, EvtDmaTransactionDmaTransferComplete callback function, kmdf.evtdmatransactiondmatransfercomplete, wdf.evtdmatransactiondmatransfercomplete, wdfdmatransaction/EvtDmaTransactionDmaTransferComplete
-ms.topic: callback
 f1_keywords:
  - "wdfdmatransaction/EvtDmaTransactionDmaTransferComplete"
 req.header: wdfdmatransaction.h
@@ -82,15 +81,6 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdmaenabler
 ### -param Status [in]
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-dma_completion_status">DMA_COMPLETION_STATUS</a>-typed value that specifies the status of the transfer.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

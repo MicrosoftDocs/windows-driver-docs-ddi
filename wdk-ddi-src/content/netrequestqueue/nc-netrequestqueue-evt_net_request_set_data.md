@@ -5,7 +5,6 @@ description: Implemented by the client driver to handle a specific OID set reque
 tech.root: netvista
 ms.assetid: 213e6c64-701e-42ce-9e0e-7c8849dcedd6
 ms.date: 02/01/2019
-ms.topic: callback
 f1_keywords:
  - "netrequestqueue/NetRequestWdmGetNdisOidRequest"
 req.header: netrequestqueue.h
@@ -82,10 +81,6 @@ A pointer to a caller-supplied buffer.
 
 ### -param InputBufferLength 
 The length, in bytes, of the request's input buffer, if an input buffer is available.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 To register an *EVT_NET_REQUEST_SET_DATA* callback function, the client driver calls [NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER](nf-netrequestqueue-net_request_queue_config_add_set_data_handler.md) or [NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_SET_DATA_HANDLER](nf-netrequestqueue-net_request_queue_config_add_initialized_set_data_handler.md), and then calls [NetRequestQueueCreate](nf-netrequestqueue-netrequestqueuecreate.md).

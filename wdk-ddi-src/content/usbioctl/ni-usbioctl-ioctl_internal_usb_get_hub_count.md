@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: c671e983-aa19-4ba4-ba40-de9b4660f935
 ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_HUB_COUNT, IOCTL_INTERNAL_USB_GET_HUB_COUNT control, IOCTL_INTERNAL_USB_GET_HUB_COUNT control code [Buses], buses.ioctl_internal_usb_get_hub_count, usbioctl/IOCTL_INTERNAL_USB_GET_HUB_COUNT, usbirp_8c73af1c-9349-4b49-8d8d-aaaeb090dc5e.xml
-ms.topic: ioctl
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_GET_HUB_COUNT"
 req.header: usbioctl.h

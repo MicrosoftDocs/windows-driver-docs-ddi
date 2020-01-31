@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 2598ebb3-1c9c-4ec1-b172-8c6d53415c9d
 ms.date: 04/27/2018
 ms.keywords: PBYTESWAPUUID128, PBYTESWAPUUID128 callback, SdpByteSwapUuid128, SdpByteSwapUuid128 callback function [Bluetooth Devices], bltooth.sdpbyteswapuuid128, bth_funcs_b14ffa6d-3cad-4683-94fe-367272b9afb1.xml, sdplib/SdpByteSwapUuid128
-ms.topic: callback
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -61,10 +60,6 @@ A pointer to the 128-bit GUID for which to reverse the byte order.
 #### - pUuidTo
 
 A pointer to the converted 128-bit GUID.
-
-## -returns
-
-None
 
 ## -remarks
 

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: B98D14A1-7016-4299-9E7E-45E5EB6BE912
 ms.date: 04/30/2018
 ms.keywords: ComponentIdleStateCallback, ComponentIdleStateCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_IDLE_STATE_CALLBACK, kernel.componentidlestatecallback, wdm/ComponentIdleStateCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/ComponentIdleStateCallback"
 req.header: wdm.h
@@ -69,15 +68,6 @@ Specifies the component number. This parameter is an index into the <b>Component
 ### -param State [in]
 
 Specifies the new Fx power state that the component will change to. If this parameter is zero, the new state is F0; if this parameter is one, the new state is F1; and so on.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: sensors
 ms.assetid: 204a6126-bb69-4a96-acbf-3ad5b8ae0f04
 ms.date: 05/03/2018
 ms.keywords: ISensorClassExtension interface [Sensor Devices],Uninitialize method, ISensorClassExtension.Uninitialize, ISensorClassExtension::Uninitialize, Uninitialize, Uninitialize method [Sensor Devices], Uninitialize method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_uninitialize, sensorsclassextension/ISensorClassExtension::Uninitialize
-ms.topic: method
 f1_keywords:
  - "sensorsclassextension/Uninitialize"
 req.header: sensorsclassextension.h
@@ -50,13 +49,6 @@ req.typenames:
 
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensorclassextension-uninitialize">ISensorClassExtension::Uninitialize</a> method uninitializes the sensor class extension object.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

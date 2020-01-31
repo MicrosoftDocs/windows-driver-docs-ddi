@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 48bda241-18b0-44c2-8e8b-7d3ecaad8a05
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_USBDEVICE_ADDRESS, EVT_UCX_USBDEVICE_ADDRESS callback, EvtUcxUsbDeviceAddress, EvtUcxUsbDeviceAddress callback function [Buses], PEVT_UCX_USBDEVICE_ADDRESS, PEVT_UCX_USBDEVICE_ADDRESS callback function pointer [Buses], buses.evt_ucx_usbdevice_address, ucxusbdevice/EvtUcxUsbDeviceAddress
-ms.topic: callback
 f1_keywords:
  - "ucxusbdevice/PEVT_UCX_USBDEVICE_ADDRESS"
 req.header: ucxusbdevice.h
@@ -64,15 +63,6 @@ The client driver's implementation that UCX calls to address the USB device.
 ### -param Request [in]
 
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_address">USBDEVICE_ADDRESS</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

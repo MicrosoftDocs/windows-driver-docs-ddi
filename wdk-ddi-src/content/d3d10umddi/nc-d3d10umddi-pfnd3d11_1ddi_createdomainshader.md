@@ -6,7 +6,6 @@ old-location: display\createdomainshader_d3d11_1_.htm
 ms.assetid: 74e6457f-4a99-4b19-9a7e-3ebac5aef48e
 ms.date: 05/10/2018
 ms.keywords: CreateDomainShader(D3D11_1), CreateDomainShader(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEDOMAINSHADER, PFND3D11_1DDI_CREATEDOMAINSHADER callback, d3d10umddi/CreateDomainShader(D3D11_1), display.createdomainshader_d3d11_1_, display.pfncreatedomainshader
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/CreateDomainShader(D3D11_1)"
 req.header: d3d10umddi.h
@@ -84,15 +83,6 @@ A handle to the domain shader that the driver should use when it calls back into
 *pSignatures* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_tessellation_io_signatures">D3D11_1DDIARG_TESSELLATION_IO_SIGNATURES</a> structure that forms the tessellation-shader's signature.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

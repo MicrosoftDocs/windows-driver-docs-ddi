@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: 69577bdf-fff6-498f-ba80-fb1678e8145f
 ms.author: windowsdriverdev
 ms.date: 11/06/2019
-ms.topic: function
 f1_keywords:
  - "netpoweroffloadlist/NET_POWER_OFFLOAD_NS_PARAMETERS"
 ms.keywords: NET_POWER_OFFLOAD_LIST_INIT
 req.header: netpoweroffloadlist.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

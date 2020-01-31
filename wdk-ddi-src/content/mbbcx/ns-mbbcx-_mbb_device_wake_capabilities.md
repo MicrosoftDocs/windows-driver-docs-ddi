@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: a366fb3b-30b7-4abf-9619-5580707673ce
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: struct
 f1_keywords:
  - "mbbcx/MBB_DEVICE_WAKE_CAPABILITIES"
 ms.keywords: MBB_DEVICE_WAKE_CAPABILITIES, MBB_DEVICE_WAKE_CAPABILITIES, 
 req.header: mbbcx.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

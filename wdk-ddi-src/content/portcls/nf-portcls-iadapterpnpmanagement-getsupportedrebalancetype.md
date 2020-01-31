@@ -5,7 +5,6 @@ description: The GetSupportedRebalanceType method returns the type of rebalancin
 tech.root: audio
 ms.assetid: 7feb6a3f-cb3f-4aaa-8386-d7c803201a6c
 ms.date: 10/31/2018
-ms.topic: method
 f1_keywords:
  - "portcls/IAdapterPnpManagement.GetSupportedRebalanceType"
 ms.keywords: IAdapterPnpManagement::GetSupportedRebalanceType, GetSupportedRebalanceType, IAdapterPnpManagement.GetSupportedRebalanceType, IAdapterPnpManagement::GetSupportedRebalanceType, IAdapterPnpManagement.GetSupportedRebalanceType
@@ -46,10 +45,6 @@ targetos: Windows
 ## -description
 
 The GetSupportedRebalanceType method returns the type of rebalancing supported. Rebalancing is used in certain Thunderbolt USB scenario, where, when additional devices are added to the USB chain, the use of memory resources needs to be rearranged and consolidated.
-
-## -parameters
-
-None
 
 ## -returns
 The GetSupportedRebalanceType method returns the type of rebalancing supported (RebalanceNotSupported or RebalanceRemoveSubdevices) as defined in the enum PC_REBALANCE_TYPE. 

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 233aec2e-4d61-4369-80bb-a01a5fd5b925
 ms.date: 05/03/2018
 ms.keywords: DetachCurrentProcess, DetachCurrentProcess method [Windows Debugging], DetachCurrentProcess method [Windows Debugging],IDebugClient2 interface, DetachCurrentProcess method [Windows Debugging],IDebugClient3 interface, DetachCurrentProcess method [Windows Debugging],IDebugClient4 interface, DetachCurrentProcess method [Windows Debugging],IDebugClient5 interface, IDebugClient2 interface [Windows Debugging],DetachCurrentProcess method, IDebugClient2::DetachCurrentProcess, IDebugClient3 interface [Windows Debugging],DetachCurrentProcess method, IDebugClient3.DetachCurrentProcess, IDebugClient3::DetachCurrentProcess, IDebugClient4 interface [Windows Debugging],DetachCurrentProcess method, IDebugClient4::DetachCurrentProcess, IDebugClient5 interface [Windows Debugging],DetachCurrentProcess method, IDebugClient5::DetachCurrentProcess, IDebugClient_cee2b21f-2cbf-449d-a2c8-2006e21074db.xml, dbgeng/IDebugClient2::DetachCurrentProcess, dbgeng/IDebugClient3::DetachCurrentProcess, dbgeng/IDebugClient4::DetachCurrentProcess, dbgeng/IDebugClient5::DetachCurrentProcess, debugger.detachcurrentprocess
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugClient2.DetachCurrentProcess"
 req.header: dbgeng.h
@@ -52,13 +51,6 @@ req.typenames:
 
 
 The <b>DetachCurrentProcess</b> method detaches the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a> from the current process, resuming all its <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-threads-and-processes">threads</a>.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

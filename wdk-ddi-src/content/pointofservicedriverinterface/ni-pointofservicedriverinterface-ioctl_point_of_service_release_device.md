@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: 623feb2b-8c49-41e8-9de5-d5955843c6f7
 ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE, IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE control, IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE, pos.ioctl_point_of_service_release_device
-ms.topic: ioctl
 f1_keywords:
  - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE"
 req.header: pointofservicedriverinterface.h
@@ -98,31 +97,14 @@ Not used with this operation; set to <b>0</b> (zero).
 
 Returns <b>TRUE</b> if successful; otherwise, returns <b>FALSE</b>.
 
-To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values: 
-
-
-
-
-#### -STATUS_ACCESS_DENIED
-
-The device is currently claimed by another client.
-
-
-#### -STATUS_DEVICE_NOT_READY
-
-The POS library has not been successfully initialized.
-
-
 ## -remarks
 
+To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values:
 
+- STATUS_ACCESS_DENIED: The device is currently claimed by another client.
 
-<h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
-
+- STATUS_DEVICE_NOT_READY: The POS library has not been successfully initialized.
 
 The driver can handle this IOCTL by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/poscx/nf-poscx-poscxreleasedevice">PosCxReleaseDevice</a>.
 
-To use this IOCTL, the client must have previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a>. 
-
-
-
+To use this IOCTL, the client must have previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pointofservicedriverinterface/ni-pointofservicedriverinterface-ioctl_point_of_service_claim_device">IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE</a>.

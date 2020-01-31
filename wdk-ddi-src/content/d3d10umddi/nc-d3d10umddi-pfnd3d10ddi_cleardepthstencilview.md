@@ -6,7 +6,6 @@ old-location: display\cleardepthstencilview.htm
 ms.assetid: 0474c154-1bec-4602-880c-ffdc48c738f0
 ms.date: 05/10/2018
 ms.keywords: ClearDepthStencilView, ClearDepthStencilView callback function [Display Devices], PFND3D10DDI_CLEARDEPTHSTENCILVIEW, PFND3D10DDI_CLEARDEPTHSTENCILVIEW callback, UserModeDisplayDriverDx10_Functions_580c85a3-3ad9-415c-925c-2ca103d10237.xml, d3d10umddi/ClearDepthStencilView, display.cleardepthstencilview
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/ClearDepthStencilView"
 req.header: d3d10umddi.h
@@ -93,18 +92,9 @@ A value that specifies which parts of the buffer to affect. This parameter must 
 |D3D10_DDI_CLEAR_DEPTH (0x01L)|The depth value (Z) is clamped to the ZNear and ZFar range of the viewport that is currently bound to slot zero by using Microsoft Direct3D. Afterwards, Z is clamped again to the representable range of the currently bound depth-stencil view by again using Direct3D.|
 |D3D10_DDI_CLEAR_STENCIL (0x02L)|The stencil value is cleared.|
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
-
-
-
-
 ## -remarks
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 

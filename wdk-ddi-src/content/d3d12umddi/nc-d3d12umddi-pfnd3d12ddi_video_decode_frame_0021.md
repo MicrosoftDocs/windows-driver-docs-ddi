@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_video_decode_frame.htm
 ms.assetid: 8EA34C58-9B2D-4B69-ABAB-D67F6BCD6229
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_VIDEO_DECODE_FRAME_0021, PFND3D12DDI_VIDEO_DECODE_FRAME_0021 callback, d3d12umddi/pfnDecodeFrame, display.pfnd3d12ddi_video_decode_frame, pfnDecodeFrame, pfnDecodeFrame callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/pfnDecodeFrame"
 req.header: d3d12umddi.h

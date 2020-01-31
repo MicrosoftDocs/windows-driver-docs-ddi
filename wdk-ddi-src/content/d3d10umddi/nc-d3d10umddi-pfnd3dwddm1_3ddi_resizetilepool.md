@@ -6,7 +6,6 @@ old-location: display\resizetilepool.htm
 ms.assetid: 184EF418-1B1E-4A10-8F10-1331DF99DCBD
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM1_3DDI_RESIZETILEPOOL, PFND3DWDDM1_3DDI_RESIZETILEPOOL callback, ResizeTilePool, ResizeTilePool callback function [Display Devices], d3d10umddi/ResizeTilePool, display.resizetilepool
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/ResizeTilePool"
 req.header: d3d10umddi.h
@@ -77,7 +76,7 @@ The new size, in bytes, of the tile pool. The size must be a multiple of 64 KB o
 
 
 
-None
+
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. Returns <b>S_OK</b> if successful; otherwise, returns one of the following:
 

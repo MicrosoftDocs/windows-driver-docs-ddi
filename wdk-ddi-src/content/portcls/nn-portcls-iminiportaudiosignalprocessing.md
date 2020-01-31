@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 6C520509-347F-4E01-95C4-0D3306031E51
 ms.date: 05/08/2018
 ms.keywords: IMiniportAudioSignalProcessing, IMiniportAudioSignalProcessing interface [Audio Devices], IMiniportAudioSignalProcessing interface [Audio Devices],described, audio.iminiportaudiosignalprocessing, portcls/IMiniportAudioSignalProcessing
-ms.topic: interface
 f1_keywords:
  - "portcls/IMiniportAudioSignalProcessing"
 req.header: portcls.h
@@ -57,26 +56,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportAudioSignalProcessin
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMiniportAudioSignalProcessing</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportaudiosignalprocessing-getmodes">GetModes</a>
-</td>
-<td align="left" width="63%">
-The GetModes method, Gets the audio signal processing modes supported by an audio pin.
-
-</td>
-</tr>
-</table> 
-
 
 ## -remarks
 

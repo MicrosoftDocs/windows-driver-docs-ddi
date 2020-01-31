@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_video_decode_frame_0032.htm
 ms.assetid: 0E7DC432-64F9-4EDE-B0FC-5F65EB9E68AD
 ms.date: 03/29/2018
 ms.keywords: PFND3D12DDI_VIDEO_DECODE_FRAME_0030, PFND3D12DDI_VIDEO_DECODE_FRAME_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_VIDEO_DECODE_FRAME_0030, display.pfnd3d12ddi_video_decode_frame_0032
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
@@ -65,8 +64,4 @@ Specifies the output surface and output parameters. See [D3D12DDI_VIDEO_DECODE_O
 ### -param pInputStreamParameters
 
 Specifies the input bit stream, parameters, reference frames, and other input parameters for the decode operation.  See [D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0032.md).
-
-## -returns
-
-This callback function does not return a value.
 

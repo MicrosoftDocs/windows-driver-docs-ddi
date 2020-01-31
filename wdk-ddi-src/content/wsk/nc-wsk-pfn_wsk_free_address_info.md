@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 552b4024-03d3-4e9b-b149-cf584c7e7259
 ms.date: 05/02/2018
 ms.keywords: PFN_WSK_FREE_ADDRESS_INFO, PFN_WSK_FREE_ADDRESS_INFO callback, WskFreeAddressInfo, WskFreeAddressInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskfreeaddressinfo, wsk/WskFreeAddressInfo, wskref_dff141b0-8164-439d-9ad7-69a4d2207f31.xml
-ms.topic: callback
 f1_keywords:
  - "wsk/WskFreeAddressInfo"
 req.header: wsk.h
@@ -86,15 +85,6 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-add
      Wsk.h. Do not use 
      Ws2def.h directly.</div>
 <div> </div>
-
-## -returns
-
-
-
-None
-
-
-
 
 ## -see-also
 

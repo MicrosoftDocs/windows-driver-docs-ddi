@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 0326229f-cf02-4368-bc32-7fbed118714b
 ms.date: 04/30/2018
 ms.keywords: FreeMapRegisters, FreeMapRegisters callback function [Kernel-Mode Driver Architecture], PFREE_MAP_REGISTERS, PFREE_MAP_REGISTERS callback, kdma_039f59c4-101e-40c2-bf2e-a0faa7c11032.xml, kernel.freemapregisters, wdm/FreeMapRegisters
-ms.topic: callback
 f1_keywords:
  - "wdm/FreeMapRegisters"
 req.header: wdm.h
@@ -69,15 +68,6 @@ Specifies the map registers allocated for the DMA operation.  The system passes 
 ### -param NumberOfMapRegisters [in]
 
 Specifies the number of map registers to be released. This value must match the number specified in an earlier call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_adapter_channel">AllocateAdapterChannel</a>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

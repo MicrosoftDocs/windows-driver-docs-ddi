@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 84258422-A2AE-449F-97C8-41336FEA5D8B
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_WORK_POWER_CONTROL, PEP_WORK_POWER_CONTROL, PEP_WORK_POWER_CONTROL structure [Kernel-Mode Driver Architecture], PPEP_WORK_POWER_CONTROL, PPEP_WORK_POWER_CONTROL structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_POWER_CONTROL, kernel.pep_work_power_control, pepfx/PEP_WORK_POWER_CONTROL, pepfx/PPEP_WORK_POWER_CONTROL"
-ms.topic: struct
 f1_keywords:
  - "pepfx/PEP_WORK_POWER_CONTROL"
 req.header: pepfx.h

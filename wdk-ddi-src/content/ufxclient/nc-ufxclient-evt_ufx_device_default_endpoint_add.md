@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 37AF38A2-F761-4DBC-A7E7-FC4BDA544A31
 ms.date: 05/07/2018
 ms.keywords: EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD, EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback, EvtUfxDeviceDefaultEndpointAdd, EvtUfxDeviceDefaultEndpointAdd callback function [Buses], PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD, PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ufx_device_default_endpoint_add, ufxclient/EvtUfxDeviceDefaultEndpointAdd
-ms.topic: callback
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD"
 req.header: ufxclient.h
@@ -77,15 +76,6 @@ The default maximum packet size that can be sent from or to this endpoint.
 #### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 8c01d677-5ce4-44f6-8342-2152e851de87
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_CONTROLLER_RESET, EVT_UCX_CONTROLLER_RESET callback, EvtUcxControllerReset, EvtUcxControllerReset callback function [Buses], PEVT_UCX_CONTROLLER_RESET, PEVT_UCX_CONTROLLER_RESET callback function pointer [Buses], buses.evt_ucx_controller_reset, ucxcontroller/EvtUcxControllerReset
-ms.topic: callback
 f1_keywords:
  - "ucxcontroller/PEVT_UCX_CONTROLLER_RESET"
 req.header: ucxcontroller.h
@@ -59,15 +58,6 @@ The client driver's implementation that UCX calls to reset the controller.
 ### -param UcxController [in]
 
  A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

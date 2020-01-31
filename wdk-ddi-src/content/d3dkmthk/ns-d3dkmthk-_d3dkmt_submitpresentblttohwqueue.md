@@ -4,7 +4,6 @@ title: _D3DKMT_SUBMITPRESENTBLTTOHWQUEUE (d3dkmthk.h)
 description: Contains arguments needed for the D3DKMTSubmitPresentBltToHwQueue function.
 ms.assetid: 2454c446-7a3a-49f5-918f-d5e26d043e99
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/_D3DKMT_SUBMITPRESENTBLTTOHWQUEUE"
 ms.keywords: _D3DKMT_SUBMITPRESENTBLTTOHWQUEUE, D3DKMT_SUBMITPRESENTBLTTOHWQUEUE,

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 12cd3533-1830-46cd-a1eb-350f7461a61d
 ms.date: 05/08/2018
 ms.keywords: IMiniportDMus, IMiniportDMus interface [Audio Devices], IMiniportDMus interface [Audio Devices],described, audio.iminiportdmus, audmp-routines_b123c50b-e4b9-4f19-a2c4-b33fb335bec6.xml, dmusicks/IMiniportDMus
-ms.topic: interface
 f1_keywords:
  - "dmusicks/IMiniportDMus"
 req.header: dmusicks.h
@@ -61,42 +60,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportDMus</b> interface i
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMiniportDMus</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iminiportdmus-init">IMiniportDMus::Init</a>
-</td>
-<td align="left" width="63%">
-The <code>Init</code> method initializes the DMus miniport object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iminiportdmus-newstream">IMiniportDMus::NewStream</a>
-</td>
-<td align="left" width="63%">
-The <code>NewStream</code> method creates a new instance of a logical stream associated with a specified physical channel.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iminiportdmus-service">IMiniportDMus::Service</a>
-</td>
-<td align="left" width="63%">
-
-   This method does not currently need to be implemented in the miniport driver. The<code> Service</code> method is currently unused.
-
-</td>
-</tr>
-</table> 
 

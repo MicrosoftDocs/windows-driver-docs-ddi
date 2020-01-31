@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 34894a89-73ba-4744-97b9-7c1f124431f4
 ms.date: 05/02/2018
 ms.keywords: RIL_GetOperatorList, RIL_GetOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_getoperatorlist, rilapi/RIL_GetOperatorList
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_GetOperatorList"
 req.header: rilapi.h

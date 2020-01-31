@@ -1,13 +1,12 @@
 ---
 UID: NF:winddiui.DrvSplAbort
 title: DrvSplAbort function (winddiui.h)
-description: 
+description: The DrvSplAbort function is obsolete.
 old-location: print\drvsplabort.htm
 tech.root: print
 ms.assetid: b40dff76-4330-4527-b1f6-69f625732604
-ms.date: 04/20/2018
+ms.date: 11/18/2019
 ms.keywords: DrvSplAbort, DrvSplAbort function [Print Devices], print.drvsplabort, print_interface-graphics_78bb32ad-7688-4ea9-9369-93db9d2eea96.xml, winddiui/DrvSplAbort
-ms.topic: function
 f1_keywords:
  - "winddiui/DrvSplAbort"
 req.header: winddiui.h
@@ -44,34 +43,20 @@ req.typenames:
 
 # DrvSplAbort function
 
-
 ## -description
 
+The **DrvSplAbort** function is obsolete, and is supported only so that user-mode rendering DLLs, optionally supplied with Windows NT 4.0 drivers, will execute under Windows 2000 and later.
 
+Use [DrvDocumentEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentevent) instead of this function.
 
-
+The **DrvSplAbort** function enables a user-mode rendering DLL to respond to a request to cancel a print job.
 
 ## -parameters
 
-
-
-
 ### -param hDriver
 
+The handle of the driver object.
 
-## -returns
+## -remarks
 
-
-
-This function does not return a value.
-
-<h2><a id="ddk_drvsplabort_gg"></a><a id="DDK_DRVSPLABORT_GG"></a></h2>
-The <b>DrvSplAbort</b> function is obsolete, and is supported only so that user-mode rendering DLLs, optionally supplied with Windows NT 4.0 drivers, will execute under Windows 2000 and later. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentevent">DrvDocumentEvent</a> instead of this function.
-
-The <b>DrvSplAbort</b> function enables a user-mode rendering DLL to respond to a request to cancel a print job.
-
-<h3><a id="comments"></a><a id="COMMENTS"></a>Comments</h3>
-To supply user-mode image-rendering code for printers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/choosing-user-mode-or-kernel-mode">Choosing User Mode or Kernel Mode</a>.
-
-
-
+To supply user-mode image-rendering code for printers, see [Choosing User Mode or Kernel Mode](https://docs.microsoft.com/windows-hardware/drivers/print/choosing-user-mode-or-kernel-mode).

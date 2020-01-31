@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: E8A77709-7E35-4FFC-B7EC-19E5256AB55F
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TAL_TXRX_DEINITIALIZE, MINIPORT_WDI_TAL_TXRX_DEINITIALIZE callback, MiniportWdiTalTxRxDeinitialize, MiniportWdiTalTxRxDeinitialize callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxDeinitialize, netvista.miniportwditaltxrxdeinitialize
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiTalTxRxDeinitialize"
 req.header: dot11wdi.h
@@ -63,15 +62,6 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 ### -param MiniportTalTxRxContext [in]
 
 TAL device handle returned by the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

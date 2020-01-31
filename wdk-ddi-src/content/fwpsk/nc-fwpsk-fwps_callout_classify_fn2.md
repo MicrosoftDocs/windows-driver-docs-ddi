@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: de8220de-cf71-4718-876e-ef02c15fc948
 ms.date: 10/28/2019
 ms.keywords: FWPS_CALLOUT_CLASSIFY_FN2, FWPS_CALLOUT_CLASSIFY_FN2 callback, classifyFn2, classifyFn2 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn2, netvista.classifyfn2
-ms.topic: callback
 f1_keywords:
  - "fwpsk/classifyFn2"
 req.header: fwpsk.h
@@ -111,15 +110,6 @@ A pointer to an
      <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure that
      receives any data that the 
      <i>classifyFn2</i> callout function returns to the caller.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

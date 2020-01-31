@@ -4,7 +4,6 @@ title: _KMCL_SERVER_ONLY_METHODS (vmbuskernelmodeclientlibapi.h)
 description: The KMCL_SERVER_ONLY_METHODS structure contains function pointers for server-only functions for the VMBus Kernel Mode Client Library (KMCL) interface.
 ms.assetid: ef9df9ca-b6d0-4c8e-a482-7989bab40b40
 ms.date: 09/13/2018
-ms.topic: struct
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/_KMCL_SERVER_ONLY_METHODS"
 ms.keywords: _KMCL_SERVER_ONLY_METHODS, KMCL_SERVER_ONLY_METHODS, 

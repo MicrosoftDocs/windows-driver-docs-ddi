@@ -4,7 +4,6 @@ title: IModelKeyReference2::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 15c5918c-e038-4c18-a82d-13d75310b413
 ms.date: 08/14/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IModelKeyReference2.AddRef"
 ms.keywords: IModelKeyReference2::AddRef, AddRef, IModelKeyReference2.AddRef, IModelKeyReference2::AddRef, IModelKeyReference2.AddRef
@@ -49,10 +48,6 @@ Increments the reference count for an interface on an object. This method should
 
 For more information, see [IUnknown::AddRef](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-addref) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
-## -parameters
-
-None
 
 ## -returns
 

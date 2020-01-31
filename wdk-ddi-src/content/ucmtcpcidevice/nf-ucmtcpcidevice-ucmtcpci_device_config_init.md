@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 8845f8f7-683e-487b-924b-596dbbfb98f2
 ms.date: 05/07/2018
 ms.keywords: UCMTCPCI_DEVICE_CONFIG_INIT, UCMTCPCI_DEVICE_CONFIG_INIT method [Buses], buses.ucmtcpci_device_config_init, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG_INIT
-ms.topic: function
 f1_keywords:
  - "ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG_INIT"
 req.header: ucmtcpcidevice.h

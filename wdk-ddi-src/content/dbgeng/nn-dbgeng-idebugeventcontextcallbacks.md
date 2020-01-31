@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: F4FAA5C9-B7D9-43B6-8B1D-CA790522900C
 ms.date: 05/03/2018
 ms.keywords: IDebugEventContextCallbacks, IDebugEventContextCallbacks interface [Windows Debugging], IDebugEventContextCallbacks interface [Windows Debugging],described, dbgeng/IDebugEventContextCallbacks, debugger.idebugeventcontextcallbacks
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugEventContextCallbacks"
 req.header: dbgeng.h

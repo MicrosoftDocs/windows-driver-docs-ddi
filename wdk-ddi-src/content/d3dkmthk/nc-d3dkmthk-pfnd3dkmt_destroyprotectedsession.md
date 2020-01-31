@@ -4,7 +4,6 @@ title: PFND3DKMT_DESTROYPROTECTEDSESSION (d3dkmthk.h)
 description: Implemented by the client driver to destroy a protected session.
 ms.assetid: a5e0bcd2-aa9e-450a-9f72-038c90dafc36
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_DESTROYPROTECTEDSESSION"
 req.header: d3dkmthk.h

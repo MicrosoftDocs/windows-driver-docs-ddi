@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 61fb66b9-afd7-4ec4-bbbb-66a287398484
 ms.date: 04/20/2018
 ms.keywords: "*PDLGPAGE, DLGPAGE, DLGPAGE structure [Print Devices], PDLGPAGE, PDLGPAGE structure pointer [Print Devices], _DLGPAGE, compstui/DLGPAGE, compstui/PDLGPAGE, cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, print.dlgpage"
-ms.topic: struct
 f1_keywords:
  - "compstui/DLGPAGE"
 req.header: compstui.h

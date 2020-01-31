@@ -4,7 +4,6 @@ title: IDebugHostConstant::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: a365a625-6a86-41fb-8e54-43652e4ee662
 ms.date: 10/19/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDebugHostConstant.Release"
 ms.keywords: IDebugHostConstant::Release, Release, IDebugHostConstant.Release, IDebugHostConstant::Release, IDebugHostConstant.Release
@@ -49,10 +48,6 @@ Decrements the reference count for an interface on an object.
 
 For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
-## -parameters
-
-None
 
 ## -returns
 

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 4ed81d77-e140-4633-8582-d21170ecc645
 ms.date: 05/08/2018
 ms.keywords: IAllocatorMXF, IAllocatorMXF interface [Audio Devices], IAllocatorMXF interface [Audio Devices],described, audio.iallocatormxf, audmp-routines_3ab3f61f-aa26-4a37-b1ff-68c1b0ae97c4.xml, dmusicks/IAllocatorMXF
-ms.topic: interface
 f1_keywords:
  - "dmusicks/IAllocatorMXF"
 req.header: dmusicks.h
@@ -61,51 +60,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAllocatorMXF</b> interface i
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IAllocatorMXF</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iallocatormxf-getbuffer">IAllocatorMXF::GetBuffer</a>
-</td>
-<td align="left" width="63%">
-The <code>GetBuffer</code> method allocates a buffer for long MIDI events.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iallocatormxf-getbuffersize">IAllocatorMXF::GetBufferSize</a>
-</td>
-<td align="left" width="63%">
-The <code>GetBufferSize</code> method gets the buffer size from the allocator.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iallocatormxf-getmessage">IAllocatorMXF::GetMessage</a>
-</td>
-<td align="left" width="63%">
-The <code>GetMessage</code> method serves as the retrieval point for any DirectMusic kernel-mode component that utilizes the port driver's allocator to reuse <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/ns-dmusicks-_dmus_kernel_event">DMUS_KERNEL_EVENT</a> structures.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iallocatormxf-putbuffer">IAllocatorMXF::PutBuffer</a>
-</td>
-<td align="left" width="63%">
-
-   This method is not currently used by the miniport driver. The <code>PutBuffer</code> method passes a buffer to the allocator, but this occurs automatically when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-imxf-putmessage">IMXF::PutMessage</a> is called anyway.
-
-</td>
-</tr>
-</table> 
 

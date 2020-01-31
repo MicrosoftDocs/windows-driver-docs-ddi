@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 8472c449-74ee-4590-a94b-7d726e1707db
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: ioctl
 f1_keywords:
  - "ntddvdeo/IOCTL_MIPI_DSI2_QUERY_CAPS"
 req.header: ntddvdeo.h
@@ -40,7 +39,7 @@ ms.custom: 19H1
 
 # IOCTL_MIPI_DSI2_QUERY_CAPS IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -76,7 +75,7 @@ Mipi (mobile industry processor interface) DCS IOCLTs must be handled by the mon
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

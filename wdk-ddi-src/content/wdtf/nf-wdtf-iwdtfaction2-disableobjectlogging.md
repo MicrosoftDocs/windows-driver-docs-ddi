@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: acc456b1-bf88-4c30-9221-3dd8e204b390
 ms.date: 04/04/2018
 ms.keywords: DisableObjectLogging, DisableObjectLogging method [Windows Device Testing Framework], DisableObjectLogging method [Windows Device Testing Framework],IWDTFAction2 interface, IWDTFAction2 interface [Windows Device Testing Framework],DisableObjectLogging method, IWDTFAction2.DisableObjectLogging, IWDTFAction2::DisableObjectLogging, Microsoft.WDTF.IWDTFAction2.DisableObjectLogging, Microsoft::WDTF::IWDTFAction2::DisableObjectLogging, dtf.iwdtfaction2_disableobjectlogging, wdtf/IWDTFAction2::DisableObjectLogging
-ms.topic: method
 f1_keywords:
  - "wdtf/IWDTFAction2.DisableObjectLogging"
 req.header: wdtf.h
@@ -49,13 +48,6 @@ req.typenames:
 
 
 Disables object logging for the action.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

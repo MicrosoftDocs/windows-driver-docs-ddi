@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 3bd92999-07f3-43bb-a826-4fea3e19168a
 ms.date: 05/10/2018
 ms.keywords: IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS structure [Display Devices], display.iddcx_cursor_caps, iddcx/IDDCX_CURSOR_CAPS
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDDCX_CURSOR_CAPS"
 req.header: iddcx.h

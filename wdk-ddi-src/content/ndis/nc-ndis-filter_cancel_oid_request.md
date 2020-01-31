@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: e7e3f67e-5353-4355-bf19-8a8041cafc84
 ms.date: 05/02/2018
 ms.keywords: FILTER_CANCEL_OID_REQUEST, FILTER_CANCEL_OID_REQUEST callback, FilterCancelOidRequest, FilterCancelOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterCancelOidRequest, ndis_request_ref_495c5b9b-651d-4255-bf88-30789153314f.xml, netvista.filtercanceloidrequest
-ms.topic: callback
 f1_keywords:
  - "ndis/FilterCancelOidRequest"
 req.header: ndis.h
@@ -70,15 +69,6 @@ A handle to the context area for the filter module that is the target of this re
 A cancellation identifier for the request. This identifier specifies the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structures that are being
      canceled.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

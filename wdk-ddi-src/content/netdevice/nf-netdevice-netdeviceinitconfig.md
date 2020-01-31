@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: 578116d2-0dcf-4ebb-a42f-db9f456a0f38
 ms.author: windowsdriverdev
 ms.date: 10/11/2019
-ms.topic: function
 f1_keywords:
  - "netdevice/NetDeviceInitConfig"
 ms.keywords: NetDeviceInitConfig
 req.header: netdevice.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

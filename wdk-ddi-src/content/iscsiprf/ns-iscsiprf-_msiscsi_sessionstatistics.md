@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 04ceffce-cd5f-4e62-98cb-450e8552a811
 ms.date: 03/29/2018
 ms.keywords: "*PMSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics structure [Storage Devices], PMSiSCSI_SessionStatistics, PMSiSCSI_SessionStatistics structure pointer [Storage Devices], _MSiSCSI_SessionStatistics, iscsiprf/MSiSCSI_SessionStatistics, iscsiprf/PMSiSCSI_SessionStatistics, storage.msiscsi_sessionstatistics, structs-iSCSI_90b593e8-cda5-4b61-860b-b17394f90891.xml"
-ms.topic: struct
 f1_keywords:
  - "iscsiprf/MSiSCSI_SessionStatistics"
 req.header: iscsiprf.h

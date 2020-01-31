@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: c44d6a2f-c7ef-486d-973e-aada068ddc06
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_8568b87d-544a-4574-a9c7-c5498a30a758.xml, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY callback, EvtChildListIdentificationDescriptionCopy, EvtChildListIdentificationDescriptionCopy callback function, kmdf.evtchildlistidentificationdescriptioncopy, wdf.evtchildlistidentificationdescriptioncopy, wdfchildlist/EvtChildListIdentificationDescriptionCopy
-ms.topic: callback
 f1_keywords:
  - "wdfchildlist/EvtChildListIdentificationDescriptionCopy"
 req.header: wdfchildlist.h
@@ -71,15 +70,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 ### -param DestinationIdentificationDescription [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_identification_description_header">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a> structure that identifies the destination location of the child identification description.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

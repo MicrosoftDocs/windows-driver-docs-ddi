@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 92a84bf3-34bf-4ee7-97c0-f5e6427c0464
 ms.date: 04/23/2018
 ms.keywords: IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices],described, avintfc_7146002a-d8ab-4789-b752-863f8b2d94d2.xml, ks/IKsReferenceClock, stream.iksreferenceclock
-ms.topic: interface
 f1_keywords:
  - "ks/IKsReferenceClock"
 req.header: ks.h
@@ -52,19 +51,6 @@ The **IKsReferenceClock** interface is a COM-style interface that is provided by
 ## -inheritance
 
 The **IKsReferenceClock** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
-
-## -members
-
-The **IKsReferenceClock** interface has these methods.
-
-| Method | Description |
-| --- | --- |
-| [IKsReferenceClock::GetCorrelatedPhysicalTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-getcorrelatedphysicaltime) | Queries the associated reference clock for the current correlated physical time and system time. |
-| [IKsReferenceClock::GetCorrelatedTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-getcorrelatedtime) | Concurrently queries the associated reference clock for current stream time and acquires the system time. Use if obtaining a time stamp for the **PresentationTime** member of [KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header). |
-| [IKsReferenceClock::GetPhysicalTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-getphysicaltime) | Queries the associated reference clock for the current physical time. |
-| [IKsReferenceClock::GetResolution](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-getresolution) | Queries the associated reference clock for its resolution. |
-| [IKsReferenceClock::GetState](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-getstate) | Queries the associated reference clock for its current state. |
-| [IKsReferenceClock::GetTime](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-gettime) | Queries the associated reference clock for the current time. |
 
 ## -remarks
 

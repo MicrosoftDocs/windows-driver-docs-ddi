@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: a5e7379a-6501-4245-92ce-0474baa33e2c
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_14e06d93-d5c8-4154-9184-d30beef6c126.xml, FltGetBottomInstance, FltGetBottomInstance function [Installable File System Drivers], fltkernel/FltGetBottomInstance, ifsk.fltgetbottominstance
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltGetBottomInstance"
 req.header: fltkernel.h

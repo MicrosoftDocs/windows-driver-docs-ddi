@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 02a11841-d98a-4c74-8922-458826e2911e
 ms.date: 05/02/2018
 ms.keywords: ProtocolTcpOffloadForwardComplete, ProtocolTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER, TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadForwardComplete, netvista.protocoltcpoffloadforwardcomplete, tcp_chim_protocol_func_18981e3f-fec9-483d-b60e-54017ebd57d1.xml
-ms.topic: callback
 f1_keywords:
  - "ndischimney/ProtocolTcpOffloadForwardComplete"
 req.header: ndischimney.h
@@ -77,15 +76,6 @@ A pointer to a
      can be stand-alone or the first structure in a linked list of NET_BUFFER_LIST structures. The driver
      supplied this pointer as an input parameter in a previous call to the 
      <b>NdisOffloadTcpForward</b> function.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

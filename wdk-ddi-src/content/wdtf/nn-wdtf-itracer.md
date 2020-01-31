@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: 3873ed15-cb68-4442-8b4d-e4b370d29728
 ms.date: 04/04/2018
 ms.keywords: ITracer, ITracer interface [Windows Device Testing Framework], ITracer interface [Windows Device Testing Framework],described, ITracer_dcaa8d23-ed67-4084-b214-0e2506076e77.xml, dtf.itracer, wdtf/ITracer
-ms.topic: interface
 f1_keywords:
  - "wdtf/ITracer"
 req.header: wdtf.h
@@ -57,26 +56,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITracer</b> interface inherit
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>ITracer</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">GetBits</a>
-</td>
-<td align="left" width="63%">
-Retrieves the tracing bit mask for this coclass, given a specified trace-level.
-
-</td>
-</tr>
-</table> 
-
 
 ## -remarks
 

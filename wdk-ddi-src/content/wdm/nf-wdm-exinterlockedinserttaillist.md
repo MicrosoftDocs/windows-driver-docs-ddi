@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: cd322d64-4005-426c-b3ce-0fe8f6ce868e
 ms.date: 04/30/2018
 ms.keywords: ExInterlockedInsertTailList, ExInterlockedInsertTailList routine [Kernel-Mode Driver Architecture], k102_a6d47e7b-63d2-48e9-9f6a-99f733194c1b.xml, kernel.exinterlockedinserttaillist, wdm/ExInterlockedInsertTailList
-ms.topic: function
 f1_keywords:
  - "wdm/ExInterlockedInsertTailList"
 req.header: wdm.h

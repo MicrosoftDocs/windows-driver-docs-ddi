@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 71011FDF-547E-4FF0-9015-E8E09FDF950E
 ms.date: 02/26/2018
 ms.keywords: WUDF_INTERRUPT_CONFIG_INIT, WUDF_INTERRUPT_CONFIG_INIT function, umdf.wudf_interrupt_config_init, wdf.wudf_interrupt_config_init, wudfinterrupt/WUDF_INTERRUPT_CONFIG_INIT
-ms.topic: function
 f1_keywords:
  - "wudfinterrupt/WUDF_INTERRUPT_CONFIG_INIT"
 req.header: wudfinterrupt.h

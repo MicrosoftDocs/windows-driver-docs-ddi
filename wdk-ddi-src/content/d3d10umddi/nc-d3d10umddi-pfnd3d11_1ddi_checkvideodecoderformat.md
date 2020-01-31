@@ -6,7 +6,6 @@ old-location: display\checkvideodecoderformat.htm
 ms.assetid: 6bde6e00-70ba-4fa5-9cc0-9884ce7381ed
 ms.date: 05/10/2018
 ms.keywords: CheckVideoDecoderFormat, CheckVideoDecoderFormat callback function [Display Devices], PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback, d3d10umddi/CheckVideoDecoderFormat, display.checkvideodecoderformat
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/CheckVideoDecoderFormat"
 req.header: d3d10umddi.h
@@ -76,15 +75,6 @@ A DXGI_FORMAT value that specifies the output format. Typical values include DXG
 *pBool* [out]
 
 A BOOL value that, if TRUE, specifies that the specified format can be used  for the specified DXVA profile.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

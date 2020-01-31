@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 108c224c-ae42-414f-951d-cb225059d525
 ms.date: 04/16/2018
 ms.keywords: "*PFSRTL_PER_STREAM_CONTEXT, FSRTL_PER_STREAM_CONTEXT, FSRTL_PER_STREAM_CONTEXT structure [Installable File System Drivers], PFSRTL_PER_STREAM_CONTEXT, PFSRTL_PER_STREAM_CONTEXT structure pointer [Installable File System Drivers], _FSRTL_PER_STREAM_CONTEXT, contextstructures_c3576880-65f8-4340-b1d2-82d66f8e4f30.xml, ifsk.fsrtl_per_stream_context, ntifs/FSRTL_PER_STREAM_CONTEXT, ntifs/PFSRTL_PER_STREAM_CONTEXT"
-ms.topic: struct
 f1_keywords:
  - "ntifs/FSRTL_PER_STREAM_CONTEXT"
 req.header: ntifs.h

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: da762d78-6d73-4ab9-83a8-297c6f48855b
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_6c37ab84-2c88-41d5-8a63-3e74207083ed.xml, EVT_WDF_USB_READER_COMPLETION_ROUTINE, EVT_WDF_USB_READER_COMPLETION_ROUTINE callback, EvtUsbTargetPipeReadComplete, EvtUsbTargetPipeReadComplete callback function, kmdf.evtusbtargetpipereadcomplete, wdf.evtusbtargetpipereadcomplete, wdfusb/EvtUsbTargetPipeReadComplete
-ms.topic: callback
 f1_keywords:
  - "wdfusb/EvtUsbTargetPipeReadComplete"
 req.header: wdfusb.h
@@ -76,15 +75,6 @@ The number of bytes of data that are in the read buffer.
 ### -param Context [in]
 
 Driver-defined context information that the driver specified in the <b>EvtUsbTargetPipeReadCompleteContext</b> member of the pipe's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_continuous_reader_config">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure. 
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

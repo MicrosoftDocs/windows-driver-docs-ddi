@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: fd833d0b-2f81-4002-8280-38e17e528af6
 ms.date: 04/23/2018
 ms.keywords: IKsPin interface [Streaming Media Devices],KsPeekAllocator method, IKsPin.KsPeekAllocator, IKsPin::KsPeekAllocator, KsPeekAllocator, KsPeekAllocator method [Streaming Media Devices], KsPeekAllocator method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsPeekAllocator, ksproxy_46ab9e52-a477-4fca-bddc-af1848484f84.xml, stream.ikspin_kspeekallocator
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPin.KsPeekAllocator"
 req.header: ksproxy.h

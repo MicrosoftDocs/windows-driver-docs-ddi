@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 81c5eced-3d68-4202-83b9-57d661fe4952
 ms.date: 04/20/2018
 ms.keywords: OEMDocumentPropertySheets, OEMDocumentPropertySheets function [Print Devices], print.oemdocumentpropertysheets, print_obsoletefunctions_793a8444-a6ec-46b0-82bf-ea9cfecdf98a.xml, printoem/OEMDocumentPropertySheets
-ms.topic: function
 f1_keywords:
  - "printoem/OEMDocumentPropertySheets"
 req.header: printoem.h

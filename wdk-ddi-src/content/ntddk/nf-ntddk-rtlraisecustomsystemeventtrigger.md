@@ -4,7 +4,6 @@ title: RtlRaiseCustomSystemEventTrigger function (ntddk.h)
 description: Allows NT services and kernel-mode and user-mode drivers to raise a custom trigger for a device.
 ms.assetid: b5f212a3-3b2a-46ce-ae89-112320d0b2a9
 ms.date: 10/19/2018
-ms.topic: function
 f1_keywords:
  - "ntddk/RtlRaiseCustomSystemEventTrigger"
 ms.keywords: RtlRaiseCustomSystemEventTrigger

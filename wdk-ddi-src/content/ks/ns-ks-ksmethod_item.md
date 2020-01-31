@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 79119458-a6a7-433e-9306-d7a56ca056c2
 ms.date: 04/23/2018
 ms.keywords: "*PKSMETHOD_ITEM, KSMETHOD_ITEM, KSMETHOD_ITEM structure [Streaming Media Devices], PKSMETHOD_ITEM, PKSMETHOD_ITEM structure pointer [Streaming Media Devices], ks-struct_e3c7b451-337f-4cc5-a5b8-a28aa9bea679.xml, ks/KSMETHOD_ITEM, ks/PKSMETHOD_ITEM, stream.ksmethod_item"
-ms.topic: struct
 f1_keywords:
  - "ks/KSMETHOD_ITEM"
 req.header: ks.h

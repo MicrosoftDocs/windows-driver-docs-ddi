@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: c6931cee-2b86-4bf8-9e9d-b04e2df9eb12
 ms.date: 05/02/2018
 ms.keywords: "*LPRILVERSIONPARAMS, RILVERSIONPARAMS, RILVERSIONPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilversionparams, ntddrilapitypes/RILVERSIONPARAMS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILVERSIONPARAMS"
 req.header: rilapitypes.h

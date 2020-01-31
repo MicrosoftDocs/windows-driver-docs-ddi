@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 6581a309-1a6d-4795-a55c-327215ea18ee
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_8b314bb3-74d4-4ef6-b1a0-f45fb498c468.xml, WdfDeviceIndicateWakeStatus, WdfDeviceIndicateWakeStatus method, kmdf.wdfdeviceindicatewakestatus, wdf.wdfdeviceindicatewakestatus, wdfdevice/WdfDeviceIndicateWakeStatus
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceIndicateWakeStatus"
 req.header: wdfdevice.h

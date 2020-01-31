@@ -6,7 +6,6 @@ old-location: display\draw.htm
 ms.assetid: 7a6f1d56-12be-4185-97bf-06f265ee6fe3
 ms.date: 05/10/2018
 ms.keywords: Draw, Draw callback function [Display Devices], PFND3D10DDI_DRAW, PFND3D10DDI_DRAW callback, UserModeDisplayDriverDx10_Functions_aec9f82d-41e9-41bc-b8e7-c07c531caf4c.xml, d3d10umddi/Draw, display.draw
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/Draw"
 req.header: d3d10umddi.h
@@ -77,18 +76,9 @@ The first vertex in the vertex buffer that vertices are read from to draw the pr
 
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
-
-
-
-
 ## -remarks
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 

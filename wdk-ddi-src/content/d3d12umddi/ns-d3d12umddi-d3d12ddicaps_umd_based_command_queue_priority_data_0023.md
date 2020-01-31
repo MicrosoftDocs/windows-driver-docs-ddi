@@ -6,7 +6,6 @@ old-location: display\d3d12ddicaps_umd_based_command_queue_priority_data_0023.ht
 ms.assetid: B82C6050-689A-4D70-831A-B935EDBBC9AC
 ms.date: 05/10/2018
 ms.keywords: D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023, D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023 structure [Display Devices], d3d12umddi/D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023, display.d3d12ddicaps_umd_based_command_queue_priority_data_0023
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023"
 req.header: d3d12umddi.h

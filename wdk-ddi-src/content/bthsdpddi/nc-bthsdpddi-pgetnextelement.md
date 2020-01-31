@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 60216196-f8c7-4555-a461-4862ce6bc376
 ms.date: 04/27/2018
 ms.keywords: PGETNEXTELEMENT, PGETNEXTELEMENT callback, SdpGetNextElement, SdpGetNextElement callback function [Bluetooth Devices], bltooth.sdpgetnextelement, bth_funcs_344a59cb-6151-4634-bc5f-cb23c58eb329.xml, sdplib/SdpGetNextElement
-ms.topic: callback
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -74,10 +73,6 @@ A pointer to an unsigned character variable that receives the address of the nex
 
 A pointer to an unsigned long integer variable that receives the size of the next entry in the SDP
      container stream.
-
-## -returns
-
-None
 
 ## -remarks
 

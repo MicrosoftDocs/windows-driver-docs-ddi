@@ -4,7 +4,6 @@ title: IDataModelScriptDebugStack (dbgmodel.h)
 description: An interface to a stack in the script. The script provider implements this interface to expose the notion of a call stack to the script debugger.
 ms.assetid: 835f361a-a4eb-4b32-a4a6-0aff8d9a2f50
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugStack"
 req.header: dbgmodel.h
@@ -44,36 +43,6 @@ An interface to a stack in the script. The script provider implements this inter
 
 ## -inheritance
 IDataModelScriptDebugStack interits from IUnknown. 
-## -members
-
-<p>IDataModelScriptDebugStack has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetFrameCount</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetStackFrame</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 When an event occurs which breaks into the script debugger, the debugging interface will want to retrieve the call stack for the break location. This is done through the GetStack method. Such stack is expressed via the IDataModelScriptDebugStack which is defined as indicated below. 

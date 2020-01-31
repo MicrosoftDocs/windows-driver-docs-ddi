@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: C862D632-5425-4EEB-9C5D-BC3721D9F132
 ms.date: 04/23/2018
 ms.keywords: 1/EvtSerCxReceive, EVT_SERCX_RECEIVE, EVT_SERCX_RECEIVE callback, EvtSerCxReceive, EvtSerCxReceive callback function [Serial Ports], serports.evtsercxreceive
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCxReceive"
 req.header: sercx.h

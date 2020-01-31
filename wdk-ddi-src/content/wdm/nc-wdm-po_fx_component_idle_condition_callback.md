@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 785DF693-DB7A-4675-9F33-200F17093333
 ms.date: 04/30/2018
 ms.keywords: ComponentIdleConditionCallback, ComponentIdleConditionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_IDLE_CONDITION_CALLBACK, kernel.componentidleconditioncallback, wdm/ComponentIdleConditionCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/ComponentIdleConditionCallback"
 req.header: wdm.h
@@ -64,15 +63,6 @@ A pointer to the device context. The device driver uses this context to store in
 ### -param Component [in]
 
 The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <b>PO_FX_DEVICE</b> structure that the device driver used to register the device with PoFx. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

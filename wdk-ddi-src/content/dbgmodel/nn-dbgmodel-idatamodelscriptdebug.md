@@ -4,7 +4,6 @@ title: IDataModelScriptDebug (dbgmodel.h)
 description: The core interface that a script provider must provide in order to make a script debuggable. 
 ms.assetid: 11133d81-6a1e-4e83-8e85-63c282f4eb16
 ms.date: 10/04/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug"
 req.header: dbgmodel.h
@@ -45,68 +44,6 @@ Any script which is debuggable indicates this capability via the presence of the
 
 ## -inheritance
 IDataModelScriptDebug interits from IUnknown. 
-## -members
-
-<p>IDataModelScriptDebug has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetDebugState</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetCurrentPosition</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetStack</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetBreakpoint</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>FindBreakpointById</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateBreakpoints</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetEventFilter</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetEventFilter</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>StartDebugging</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>StopDebugging</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 The infrastructure for script providers in the data model also provides a concept around debugging scripts. Any script that wishes to expose debugging capabilities to the debug host and the debugger application hosting the data model can do so by having debuggable scripts implement the IDataModelScriptDebug interface in addition to the [IDataModelScript](nn-dbgmodel-idatamodelscript.md) interface. The presence of this interface on the script indicates to the infrastructure that it is debuggable. 

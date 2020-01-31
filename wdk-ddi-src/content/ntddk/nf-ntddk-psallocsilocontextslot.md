@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 835446D1-EB41-47BC-AA0F-54A9C029EFFE
 ms.date: 04/30/2018
 ms.keywords: PsAllocSiloContextSlot, PsAllocSiloContextSlot routine [Kernel-Mode Driver Architecture], kernel.psallocsilocontextslot, ntddk/PsAllocSiloContextSlot
-ms.topic: function
 f1_keywords:
  - "ntddk/PsAllocSiloContextSlot"
 req.header: ntddk.h
@@ -60,8 +59,6 @@ This routine allocates a slot that can be used to insert, retrieve, and delete a
 
 This parameter is reserved for future use and <b>must be set to zero</b>. 
 
-<div class="alert"><b>Warning</b>  Setting <i>Reserved</i> to a non-zero value causes the system to execute an <b>ASSERT</b> on a checked build.</div>
-<div> </div>
 
 ### -param ReturnedContextSlot [out]
 

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 45022490-8130-449c-8ec9-380be0a3a03d
 ms.date: 04/30/2018
 ms.keywords: KeDeregisterNmiCallback, KeDeregisterNmiCallback routine [Kernel-Mode Driver Architecture], k105_407e4af5-fb93-4a7e-bacd-cc1d08935815.xml, kernel.kederegisternmicallback, wdm/KeDeregisterNmiCallback
-ms.topic: function
 f1_keywords:
  - "wdm/KeDeregisterNmiCallback"
 req.header: wdm.h

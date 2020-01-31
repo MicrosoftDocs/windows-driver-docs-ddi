@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 453ca575-be7f-47ee-9201-0f1ede16420c
 ms.date: 04/30/2018
 ms.keywords: CsqInsertIrp, CsqInsertIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_84a81857-afd6-491c-829f-34063a5b1958.xml, IO_CSQ_INSERT_IRP, kernel.csqinsertirp, wdm/CsqInsertIrp
-ms.topic: callback
 f1_keywords:
  - "wdm/CsqInsertIrp"
 req.header: wdm.h
@@ -64,15 +63,6 @@ Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kern
 ### -param Irp [in]
 
 Pointer to the IRP to insert into the IRP queue.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

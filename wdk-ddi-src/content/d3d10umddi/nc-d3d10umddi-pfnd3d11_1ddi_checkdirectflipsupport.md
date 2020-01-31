@@ -6,7 +6,6 @@ old-location: display\checkdirectflipsupport_d3d11_1_.htm
 ms.assetid: 2acf84cb-5e51-4aa8-96ce-96abc6ceec8c
 ms.date: 05/10/2018
 ms.keywords: CheckDirectFlipSupport(D3D11_1), CheckDirectFlipSupport(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT, PFND3D11_1DDI_CHECKDIRECTFLIPSUPPORT callback, d3d10umddi/CheckDirectFlipSupport(D3D11_1), display.checkdirectflipsupport_d3d11_1_, display.pfncheckdirectflipsupport
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/CheckDirectFlipSupport(D3D11_1)"
 req.header: d3d10umddi.h
@@ -82,15 +81,6 @@ If this parameter has a value of <b>D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE</b>, 
 ### -param pSupported [out]
 
 Set to <b>TRUE</b> if the driver can seamlessly flip video memory between  an application's managed primary allocations and the DWM's managed primary allocations. Otherwise, set to <b>FALSE</b>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

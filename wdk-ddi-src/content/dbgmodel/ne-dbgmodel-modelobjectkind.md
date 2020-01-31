@@ -4,7 +4,6 @@ title: ModelObjectKind (dbgmodel.h)
 description: Describes what an IModelObject is intrinsically.
 ms.assetid: a51f5f4b-faf4-4a52-ba02-65fde8fc8654
 ms.date: 07/16/2018
-ms.topic: enum
 f1_keywords:
  - "dbgmodel/ModelObjectKind"
 ms.keywords: ModelObjectKind, , 

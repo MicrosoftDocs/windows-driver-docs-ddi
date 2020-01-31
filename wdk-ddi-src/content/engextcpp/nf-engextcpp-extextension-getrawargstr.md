@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 677b56ee-3758-4f47-9f8e-fc8878d00136
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_1072b281-ece3-4641-93e8-60866c1e3ef4.xml, ExtExtension class [Windows Debugging],GetRawArgStr method, ExtExtension.GetRawArgStr, ExtExtension::GetRawArgStr, GetRawArgStr, GetRawArgStr method [Windows Debugging], GetRawArgStr method [Windows Debugging],ExtExtension class, debugger.getrawargstr
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtExtension.GetRawArgStr"
 req.header: engextcpp.hpp
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>GetRawArgStr</b> method returns a string that represents the arguments passed to the extension command.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

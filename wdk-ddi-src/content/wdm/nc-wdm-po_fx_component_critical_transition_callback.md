@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 6E551951-E903-4970-8B30-6780C9FF4FC6
 ms.date: 04/30/2018
 ms.keywords: ComponentCriticalTransitionCallback, ComponentCriticalTransitionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK, kernel.componentcriticaltransitioncallback, wdm/ComponentCriticalTransitionCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/ComponentCriticalTransitionCallback"
 req.header: wdm.h
@@ -69,15 +68,6 @@ The index that identifies the component. This parameter is an index into the <b>
 ### -param Active [in]
 
 Indicates whether this notification is for a transition to the F0 component power state. If TRUE, the component has just completed a transition from a low-power F<i>x</i> state to F0. If FALSE, the component is about to start a transition from F0 to a low-power F<i>x</i> state.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

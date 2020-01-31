@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: af697ccd-a748-45f8-97bb-fe595d81b693
 ms.date: 04/16/2018
 ms.keywords: RxpTrackReference, RxpTrackReference function [Installable File System Drivers], fcb/RxpTrackReference, ifsk.rxptrackreference, rxref_12b9266b-6cd9-4011-b764-b62376e0a5fb.xml
-ms.topic: function
 f1_keywords:
  - "fcb/RxpTrackReference"
 req.header: fcb.h

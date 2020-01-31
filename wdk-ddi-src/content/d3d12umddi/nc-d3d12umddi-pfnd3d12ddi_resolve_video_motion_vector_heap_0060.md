@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 45c9cf09-be26-45e3-a78f-c27778448da8
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h
@@ -64,10 +63,6 @@ Pointer to a [D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_OUTPUT_0060](ns-d3d12umd
 ### -param pInputArguments
 
 Pointer to a [D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053](ns-d3d12umddi-d3d12ddi_resolve_video_motion_vector_heap_input_0053.md) structure containing input arguments.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

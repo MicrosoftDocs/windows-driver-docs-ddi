@@ -6,7 +6,6 @@ old-location: display\clearunorderedaccessviewuint.htm
 ms.assetid: 7cdc81a9-e468-4da8-bc32-9e9cea1fd60d
 ms.date: 05/10/2018
 ms.keywords: ClearUnorderedAccessViewUINT, ClearUnorderedAccessViewUINT callback function [Display Devices], PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT, PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT callback, UserModeDisplayDriverDx11_Functions_c31370b0-9955-4ccb-b540-92b15fc27cc5.xml, d3d10umddi/ClearUnorderedAccessViewUINT, display.clearunorderedaccessviewuint
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/ClearUnorderedAccessViewUINT"
 req.header: d3d10umddi.h
@@ -75,18 +74,9 @@ A handle to the unordered-access view to clear.
 A four-element array of unsigned integers that the driver uses to clear an unordered-access view. 
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the Remarks section. 
-
-
-
-
 ## -remarks
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 

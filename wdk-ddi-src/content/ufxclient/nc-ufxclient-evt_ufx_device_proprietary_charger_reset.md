@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 103E60D4-4640-430D-A4AE-E03D8B6E7031
 ms.date: 05/07/2018
 ms.keywords: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback, EvtUfxDeviceProprietaryChargerReset, EvtUfxDeviceProprietaryChargerReset callback function [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback function pointer [Buses], buses.evt_ufx_device_proprietary_charger_reset, ufxclient/EvtUfxDeviceProprietaryChargerReset
-ms.topic: callback
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET"
 req.header: ufxclient.h
@@ -68,15 +67,6 @@ The client driver's implementation to resets proprietary charger.
 #### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

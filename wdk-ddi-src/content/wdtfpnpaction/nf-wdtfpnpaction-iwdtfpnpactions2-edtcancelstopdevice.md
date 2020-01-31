@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: b0616c88-1304-4d39-b7bd-e7d1355a9de6
 ms.date: 04/04/2018
 ms.keywords: EDTCancelStopDevice, EDTCancelStopDevice method [Windows Device Testing Framework], EDTCancelStopDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTCancelStopDevice method, IWDTFPNPActions2.EDTCancelStopDevice, IWDTFPNPActions2::EDTCancelStopDevice, dtf.iwdtfpnpactions2_edtcancelstopdevice, wdtfpnpaction/IWDTFPNPActions2::EDTCancelStopDevice
-ms.topic: method
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPActions2.EDTCancelStopDevice"
 req.header: wdtfpnpaction.h

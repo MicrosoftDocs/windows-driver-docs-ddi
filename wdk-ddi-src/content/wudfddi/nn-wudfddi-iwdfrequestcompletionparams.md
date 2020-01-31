@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: f297c6e0-927a-4fb3-bab4-00fdd610a684
 ms.date: 02/26/2018
 ms.keywords: IWDFRequestCompletionParams, IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface,described, UMDFRequestObjectRef_746528f7-b23f-4907-8661-e228fa99df1c.xml, umdf.iwdfrequestcompletionparams, wdf.iwdfrequestcompletionparams, wudfddi/IWDFRequestCompletionParams
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IWDFRequestCompletionParams"
 req.header: wudfddi.h
@@ -59,41 +58,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFRequestCompletionParams</
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWDFRequestCompletionParams</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfrequestcompletionparams-getcompletedrequesttype">IWDFRequestCompletionParams::GetCompletedRequestType</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfrequestcompletionparams-getcompletedrequesttype">GetCompletedRequestType</a> method retrieves the type of operation that the request to be completed contains.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfrequestcompletionparams-getcompletionstatus">IWDFRequestCompletionParams::GetCompletionStatus</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfrequestcompletionparams-getcompletionstatus">GetCompletionStatus</a> method retrieves the completion status of an I/O request.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfrequestcompletionparams-getinformation">IWDFRequestCompletionParams::GetInformation</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfrequestcompletionparams-getinformation">GetInformation</a> method retrieves information that is associated with the completion of an I/O request.
-
-</td>
-</tr>
-</table> 
 

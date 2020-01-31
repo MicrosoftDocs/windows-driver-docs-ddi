@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: c03656ec-f0fe-49f5-8a04-2d26ef23c50a
 ms.date: 05/02/2018
 ms.keywords: FWPS_INJECT_COMPLETE0, FWPS_INJECT_COMPLETE0 callback, completionFn, completionFn callback function [Network Drivers Starting with Windows Vista], fwpsk/completionFn, netvista.completionfn, wfp_ref_2_funct_4_callout_bc142e7e-f390-4b8c-b82b-c13077e1d6bf.xml
-ms.topic: callback
 f1_keywords:
  - "fwpsk/completionFn"
 req.header: fwpsk.h
@@ -83,15 +82,6 @@ A value that indicates the IRQL at which the
      <i>completionFn</i> callout function is being called at IRQL = DISPATCH_LEVEL. If this parameter is
      <b>FALSE</b>, the 
      <i>completionFn</i> callout function is being called at an IRQL < DISPATCH_LEVEL.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

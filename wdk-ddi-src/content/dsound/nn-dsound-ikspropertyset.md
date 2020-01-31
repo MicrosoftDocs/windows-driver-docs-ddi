@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 9999d6ec-977c-4425-ad38-0c5478272c76
 ms.date: 04/23/2018
 ms.keywords: IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], IKsPropertySet interface [Streaming Media Devices],described, dsound/IKsPropertySet, ksproxy_5f6316c6-5bcf-4155-b4a5-976a0cee8aa5.xml, stream.ikspropertyset
-ms.topic: interface
 f1_keywords:
  - "dsound/IKsPropertySet"
 req.header: dsound.h
@@ -61,44 +60,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPropertySet</b> interface 
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IKsPropertySet</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfailureanalysis2-get">Get</a>
-</td>
-<td align="left" width="63%">
-Retrieves a property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-ikspropertyset-querysupported">QuerySupported</a>
-</td>
-<td align="left" width="63%">
-Determines the support of a property.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-set(pcstr_ulong64_bool_pulong64_pcstr)">Set</a>
-</td>
-<td align="left" width="63%">
-Sets a property.
-
-</td>
-</tr>
-</table> 
-
 
 ## -remarks
 

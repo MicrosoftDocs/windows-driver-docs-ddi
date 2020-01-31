@@ -4,7 +4,6 @@ title: CWiaLogProc (wiamdef.h)
 description: 
 ms.assetid: 778cac25-66f5-4909-884a-119477b288a7
 ms.date: 10/19/2018
-ms.topic: class
 f1_keywords:
  - "wiamdef/CWiaLogProc"
 req.header: wiamdef.h
@@ -40,24 +39,6 @@ ms.custom: RS5
 
 
 
-
-## -members
-
-<p>CWiaLogProc has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>CWiaLogProc</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>~CWiaLogProc</td>
-		<td></td>
-	</tr>
-</table>
 
 ## -remarks
 

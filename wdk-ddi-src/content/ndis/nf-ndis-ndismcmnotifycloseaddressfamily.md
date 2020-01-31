@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 47b0b1da-e29b-45cc-921b-69d630670b44
 ms.date: 05/02/2018
 ms.keywords: NdisMCmNotifyCloseAddressFamily, NdisMCmNotifyCloseAddressFamily macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_448486f3-1eeb-4f45-b764-6fd4ab06b63e.xml, ndis/NdisMCmNotifyCloseAddressFamily, netvista.ndismcmnotifycloseaddressfamily
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisMCmNotifyCloseAddressFamily"
 req.header: ndis.h

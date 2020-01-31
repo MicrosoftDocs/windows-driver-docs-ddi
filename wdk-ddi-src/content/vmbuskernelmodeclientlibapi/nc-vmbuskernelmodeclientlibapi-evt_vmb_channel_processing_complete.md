@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: E30A169E-0EC6-4128-B268-5FC1CD37A877
 ms.date: 05/02/2018
 ms.keywords: EVT_VMB_CHANNEL_PROCESSING_COMPLETE, EVT_VMB_CHANNEL_PROCESSING_COMPLETE callback, EvtVmbChannelProcessingComplete, EvtVmbChannelProcessingComplete callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PROCESSING_COMPLETE, PFN_VMB_CHANNEL_PROCESSING_COMPLETE callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_processing_complete, vmbuskernelmodeclientlibapi/EvtVmbChannelProcessingComplete
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/PFN_VMB_CHANNEL_PROCESSING_COMPLETE"
 req.header: vmbuskernelmodeclientlibapi.h
@@ -67,15 +66,6 @@ The channel one which the packets are delivered.
 ### -param PacketsProcessed [in]
 
 The number of packets which were delivered in this batch.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

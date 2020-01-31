@@ -6,7 +6,6 @@ old-location: display\destroyblendstate.htm
 ms.assetid: 56fc1ecf-fd4c-4d36-941b-8fa6cca3b6b4
 ms.date: 05/10/2018
 ms.keywords: DestroyBlendState, DestroyBlendState callback function [Display Devices], PFND3D10DDI_DESTROYBLENDSTATE, PFND3D10DDI_DESTROYBLENDSTATE callback, UserModeDisplayDriverDx10_Functions_8af7f412-da7f-4326-a681-41bdfb4a97bb.xml, d3d10umddi/DestroyBlendState, display.destroyblendstate
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/DestroyBlendState"
 req.header: d3d10umddi.h
@@ -72,18 +71,9 @@ A handle to the driver's private data for the blend state object to destroy. The
 
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
-
-
-
-
 ## -remarks
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 

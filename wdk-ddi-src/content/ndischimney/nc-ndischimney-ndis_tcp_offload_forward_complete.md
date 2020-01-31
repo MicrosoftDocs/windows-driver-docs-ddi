@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 080949ab-8a27-4d13-992e-597210d4882c
 ms.date: 05/02/2018
 ms.keywords: NDIS_TCP_OFFLOAD_FORWARD_COMPLETE, NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback, NdisTcpOffloadForwardComplete, NdisTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadForwardComplete, netvista.ndistcpoffloadforwardcomplete, tcp_chim_ndis_func_a6483879-a4ae-49e0-859f-51a66070566d.xml
-ms.topic: callback
 f1_keywords:
  - "ndischimney/NdisTcpOffloadForwardComplete"
 req.header: ndischimney.h
@@ -77,15 +76,6 @@ A pointer to a
      target obtained these structures in one or more calls to its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_tcp_offload_forward_handler">
      MiniportTcpOffloadForward</a> function.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

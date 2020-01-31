@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: A6099DCB-7F10-4BDB-B463-422C2B7A2B3F
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_GET_CONNECTION_DATA, NDK_FN_GET_CONNECTION_DATA callback, NdkGetConnectionData, NdkGetConnectionData callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetConnectionData, netvista.ndk_fn_get_connection_data
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkGetConnectionData"
 req.header: ndkpi.h

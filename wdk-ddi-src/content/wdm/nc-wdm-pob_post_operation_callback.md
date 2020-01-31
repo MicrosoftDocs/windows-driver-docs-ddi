@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: cfa73359-58bb-4260-ac16-08f57ead67bb
 ms.date: 04/30/2018
 ms.keywords: DrvrRtns_f15a2608-233d-47af-84cc-eb5692a6fe9a.xml, ObjectPostCallback, ObjectPostCallback callback function [Kernel-Mode Driver Architecture], POB_POST_OPERATION_CALLBACK, POB_POST_OPERATION_CALLBACK callback, kernel.objectpostcallback, wdm/ObjectPostCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/ObjectPostCallback"
 req.header: wdm.h
@@ -64,15 +63,6 @@ The context that the driver specifies as the <i>CallBackRegistration</i>-><b>Reg
 ### -param OperationInformation [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_ob_post_operation_information">OB_POST_OPERATION_INFORMATION</a> structure that specifies the parameters of the handle operation.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

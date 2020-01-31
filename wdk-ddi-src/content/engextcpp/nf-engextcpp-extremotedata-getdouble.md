@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: f8645e92-659f-42b8-a850-49a434ec2a67
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_8776e6fd-9e13-4502-a445-da65a8fcfe41.xml, ExtRemoteData class [Windows Debugging],GetDouble method, ExtRemoteData.GetDouble, ExtRemoteData::GetDouble, GetDouble, GetDouble method [Windows Debugging], GetDouble method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getdouble
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetDouble"
 req.header: engextcpp.hpp
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>GetDouble</b> method returns a <b>double</b> version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

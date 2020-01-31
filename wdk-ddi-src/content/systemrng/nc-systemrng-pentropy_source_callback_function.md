@@ -4,7 +4,6 @@ title: PENTROPY_SOURCE_CALLBACK_FUNCTION (systemrng.h)
 description: 
 ms.assetid: e9ed974c-3854-4644-8ad9-9f694082698e
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "systemrng/PENTROPY_SOURCE_CALLBACK_FUNCTION"
 req.header: systemrng.h
@@ -42,20 +41,19 @@ ms.custom: RS5
 
 ## -description
 
-
-## -prototype
+## -syntax
 
 ```cpp
 //Declaration
 
-PENTROPY_SOURCE_CALLBACK_FUNCTION PentropySourceCallbackFunction; 
+PENTROPY_SOURCE_CALLBACK_FUNCTION PentropySourceCallbackFunction;
 
 // Definition
 
-NTSTATUS PentropySourceCallbackFunction 
+NTSTATUS PentropySourceCallbackFunction
 (
-	ENTROPY_SOURCE_HANDLE hEntropySource
-	PVOID context
+    ENTROPY_SOURCE_HANDLE hEntropySource
+    PVOID context
 )
 {...}
 
@@ -63,10 +61,9 @@ NTSTATUS PentropySourceCallbackFunction
 
 ## -parameters
 
-### -param hEntropySource: 
-### -param context: 
+### -param hEntropySource
 
-
+### -param context
 
 ## -returns
 

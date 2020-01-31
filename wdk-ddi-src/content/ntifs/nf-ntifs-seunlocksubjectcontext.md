@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 5b0dda8f-52de-462b-8dab-8aed86e5dc0e
 ms.date: 04/16/2018
 ms.keywords: SeUnlockSubjectContext, SeUnlockSubjectContext routine [Installable File System Drivers], ifsk.seunlocksubjectcontext, ntifs/SeUnlockSubjectContext, seref_a07c19ad-03a8-403d-9844-9e85862377ab.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/SeUnlockSubjectContext"
 req.header: ntifs.h

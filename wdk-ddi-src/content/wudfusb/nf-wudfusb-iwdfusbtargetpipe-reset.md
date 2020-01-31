@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 8d42dd60-a032-4486-87e0-2204e833035b
 ms.date: 02/26/2018
 ms.keywords: IWDFUsbTargetPipe interface,Reset method, IWDFUsbTargetPipe.Reset, IWDFUsbTargetPipe::Reset, Reset, Reset method, Reset method,IWDFUsbTargetPipe interface, UMDFUSBref_510f6831-e75f-41b6-9637-7400fe89e4d3.xml, umdf.iwdfusbtargetpipe_reset, wdf.iwdfusbtargetpipe_reset, wudfusb/IWDFUsbTargetPipe::Reset
-ms.topic: method
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe.Reset"
 req.header: wudfusb.h
@@ -51,13 +50,6 @@ req.typenames:
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>Reset</b> method resets the data toggle and clears the stall condition on a USB pipe.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

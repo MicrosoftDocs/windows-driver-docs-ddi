@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: ba803eab-74ae-4998-b013-9f4470da8382
 ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_INIT_SERVICE, Dot11ExtIhvInitService, Dot11ExtIhvInitService callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_8e49584c-f0e7-4ff5-a3cb-5eafde2ff081.xml, netvista.dot11extihvinitservice, wlanihv/Dot11ExtIhvInitService
-ms.topic: callback
 f1_keywords:
  - "wlanihv/Dot11ExtIhvInitService"
 req.header: wlanihv.h

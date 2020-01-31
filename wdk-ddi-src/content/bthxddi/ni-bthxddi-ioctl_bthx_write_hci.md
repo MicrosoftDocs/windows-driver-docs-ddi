@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 77BBF6AC-F5FA-4795-8898-6DC02983F573
 ms.date: 04/27/2018
 ms.keywords: IOCTL_BTHX_WRITE_HCI, IOCTL_BTHX_WRITE_HCI control, IOCTL_BTHX_WRITE_HCI control code [Bluetooth Devices], bltooth.ioctl_bthx_hci_write, bltooth.ioctl_bthx_write_hci, bthxddi/IOCTL_BTHX_WRITE_HCI
-ms.topic: ioctl
 f1_keywords:
  - "bthxddi/IOCTL_BTHX_WRITE_HCI"
 req.header: bthxddi.h

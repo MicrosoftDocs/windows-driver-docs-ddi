@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: F64E2FFD-229F-4447-94C2-A5403E7893B7
 ms.date: 02/26/2018
 ms.keywords: EVT_WDF_DEVICE_REPORTED_MISSING, EVT_WDF_DEVICE_REPORTED_MISSING callback, EvtDeviceReportedMissing, EvtDeviceReportedMissing callback function, kmdf.evtdevicereportedmissing, wdf.evtdevicereportedmissing, wdfpdo/EvtDeviceReportedMissing
-ms.topic: callback
 f1_keywords:
  - "wdfpdo/EvtDeviceReportedMissing"
 req.header: wdfpdo.h
@@ -62,15 +61,6 @@ req.typenames:
 ### -param Device [in]
 
 A handle to a framework device object.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

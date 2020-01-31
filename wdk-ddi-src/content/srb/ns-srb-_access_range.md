@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 6009d11b-4f44-4591-bcb8-66e0c42d5689
 ms.date: 03/29/2018
 ms.keywords: "*PACCESS_RANGE, ACCESS_RANGE, ACCESS_RANGE structure [Storage Devices], PACCESS_RANGE, PACCESS_RANGE structure pointer [Storage Devices], _ACCESS_RANGE, srb/ACCESS_RANGE, srb/PACCESS_RANGE, storage.access_range, structs-scsiport_353ffdeb-4d30-4df8-9422-ea3a9e662104.xml"
-ms.topic: struct
 f1_keywords:
  - "srb/ACCESS_RANGE"
 req.header: srb.h

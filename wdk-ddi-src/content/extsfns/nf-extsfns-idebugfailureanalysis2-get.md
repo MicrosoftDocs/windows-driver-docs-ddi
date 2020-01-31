@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 5F43909E-56D0-43F8-A24E-04981614C683
 ms.date: 05/03/2018
 ms.keywords: Get, Get method [Windows Debugging], Get method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],Get method, IDebugFailureAnalysis2.Get, IDebugFailureAnalysis2::Get, debugger.idebugfailureanalysis2_get, extsfns/IDebugFailureAnalysis2::Get
-ms.topic: method
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.Get"
 req.header: extsfns.h

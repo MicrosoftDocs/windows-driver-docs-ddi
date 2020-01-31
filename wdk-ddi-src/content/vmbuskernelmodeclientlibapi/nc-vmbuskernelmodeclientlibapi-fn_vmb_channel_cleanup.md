@@ -5,7 +5,6 @@ description: The VmbChannelCleanup function disposes of a channel that was alloc
 tech.root: netvista
 ms.assetid: 08ed4d5b-5a84-43ac-b8b4-1bce6ece7f67
 ms.date: 05/21/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_CLEANUP"
 req.header: vmbuskernelmodeclientlibapi.h
@@ -69,10 +68,6 @@ VOID FnVmbChannelCleanup
 ### -param Channel
 
 The channel to clean up.
-
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

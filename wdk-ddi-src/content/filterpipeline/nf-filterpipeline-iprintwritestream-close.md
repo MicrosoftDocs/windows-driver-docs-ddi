@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: d3f828bf-854f-4d2d-a869-ee5c002a1728
 ms.date: 04/20/2018
 ms.keywords: Close, Close method [Print Devices], Close method [Print Devices],IPrintWriteStream interface, IPrintWriteStream interface [Print Devices],Close method, IPrintWriteStream.Close, IPrintWriteStream::Close, filterpipeline/IPrintWriteStream::Close, filterpipeline_68b1e38f-f42a-4fa1-92f1-2181ac15033e.xml, print.iprintwritestream_close
-ms.topic: method
 f1_keywords:
  - "filterpipeline/IPrintWriteStream.Close"
 req.header: filterpipeline.h
@@ -49,15 +48,5 @@ req.typenames:
 
 
 The <code>Close</code> method closes a stream and ends the writing to that stream. This method is mandatory. You must call this method when the filter is done writing.
-
-
-## -parameters
-
-
-
-
-
-
-#### - None
 
 

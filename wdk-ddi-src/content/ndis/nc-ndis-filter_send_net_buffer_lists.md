@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 1b3fc0c8-95da-47e5-8ff1-b7967f5148e7
 ms.date: 05/02/2018
 ms.keywords: FILTER_SEND_NET_BUFFER_LISTS, FILTER_SEND_NET_BUFFER_LISTS callback, FilterSendNetBufferLists, FilterSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_576e3ac8-da80-4302-a0d5-41a1168336ee.xml, ndis/FilterSendNetBufferLists, netvista.filtersendnetbufferlists
-ms.topic: callback
 f1_keywords:
  - "ndis/FilterSendNetBufferLists"
 req.header: ndis.h
@@ -129,15 +128,6 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 <div class="alert"><b>Note</b>  This flag is available in NDIS 6.30 and later.</div>
 <div> </div>
-
-## -returns
-
-
-
-None
-
-
-
 
 ## -remarks
 

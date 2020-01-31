@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: e92387db-0c35-40c8-8342-4b1bf498aa1a
 ms.date: 04/30/2018
 ms.keywords: KeQueryHighestNodeNumber, KeQueryHighestNodeNumber routine [Kernel-Mode Driver Architecture], k105_3d91d159-3bbb-445b-874b-a6d1a8b078df.xml, kernel.kequeryhighestnodenumber, wdm/KeQueryHighestNodeNumber
-ms.topic: function
 f1_keywords:
  - "ntddk/KeQueryHighestNodeNumber"
 req.header: ntddk.h
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>KeQueryHighestNodeNumber</b> routine returns the highest node number in a multiprocessor system that has a non-uniform memory access (NUMA) architecture. 
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

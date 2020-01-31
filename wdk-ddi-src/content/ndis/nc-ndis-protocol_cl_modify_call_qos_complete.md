@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 0d925862-49af-4579-b877-c9a033e73be0
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE, PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE callback, ProtocolClModifyCallQoSComplete, ProtocolClModifyCallQoSComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_19bed505-8cde-44c3-bee1-dd5cc7a26526.xml, ndis/ProtocolClModifyCallQoSComplete, netvista.protocolclmodifycallqoscomplete
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolClModifyCallQoSComplete"
 req.header: ndis.h
@@ -121,15 +120,6 @@ Specifies the handle to the client's per-VC context area, which the client origi
 Pointer to a buffered CO_CALL_PARAMETERS structure containing the client-specified QoS change it
      requested, or, possibly, the original QoS for this VC established when the connection was activated,
      which the call manager has restored.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

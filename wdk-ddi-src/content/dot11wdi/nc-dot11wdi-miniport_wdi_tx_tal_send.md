@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 42489ADA-78BF-4EBF-A6EC-5484F82C46ED
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TX_TAL_SEND, MINIPORT_WDI_TX_TAL_SEND callback, MiniportWdiTxTalSend, MiniportWdiTxTalSend callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTalSend, netvista.miniportwditxtalsend
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiTxTalSend"
 req.header: dot11wdi.h
@@ -93,15 +92,6 @@ The total number of frames in action (schedulable) queues.
 ### -param bRobustnessFlag [in]
 
 The robustness flag. If the robustness flag is set to TRUE, the NIC ensures reliable delivery within a small number of retries by aggressively lowering the TX data rate used for the frame using CTS and/or other mechanisms.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

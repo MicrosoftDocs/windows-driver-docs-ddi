@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 76909efd-99ca-4e47-9c81-8a48608c2543
 ms.date: 02/26/2018
 ms.keywords: GetEffectiveIoType, GetEffectiveIoType method, GetEffectiveIoType method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetEffectiveIoType method, IWDFIoRequest2.GetEffectiveIoType, IWDFIoRequest2::GetEffectiveIoType, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml, umdf.iwdfiorequest2_geteffectiveiotype, wdf.iwdfiorequest2_geteffectiveiotype, wudfddi/IWDFIoRequest2::GetEffectiveIoType
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.GetEffectiveIoType"
 req.header: wudfddi.h
@@ -51,13 +50,6 @@ req.typenames:
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>GetEffectiveIoType</b> method returns the buffer access method that UMDF is using for the data buffers of the I/O request that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a> interface represents.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

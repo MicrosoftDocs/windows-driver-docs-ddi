@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 3648668C-65CD-45F9-80E0-490AE2FE405E
 ms.date: 04/30/2018
 ms.keywords: RtlInt8Sub, RtlInt8Sub function [Kernel-Mode Driver Architecture], kernel.rtlint8sub, ntintsafe/RtlInt8Sub
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlInt8Sub"
 req.header: ntintsafe.h

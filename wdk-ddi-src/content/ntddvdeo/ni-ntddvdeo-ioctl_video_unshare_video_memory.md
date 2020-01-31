@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: f6ec4237-05f1-4777-a035-7cedb4283e0e
 ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY, IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY control, IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY control code [Display Devices], Video_IOCTLs_114ef264-3c3f-400d-bef0-4ebd2a4af035.xml, display.ioctl_video_unshare_video_memory, ntddvdeo/IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY
-ms.topic: ioctl
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY"
 req.header: ntddvdeo.h

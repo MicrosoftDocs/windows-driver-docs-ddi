@@ -6,7 +6,6 @@ old-location: display\videoprocessorsetoutputcolorspace1.htm
 ms.assetid: 03C45E7A-245C-4A04-9284-6D803CF0CC8F
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_0DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE1, PFND3DWDDM2_0DDI_VIDEOPROCESSORSETOUTPUTCOLORSPACE1 callback, d3d10umddi/pfnVideoProcessorSetOutputColorSpace1, display.videoprocessorsetoutputcolorspace1, pfnVideoProcessorSetOutputColorSpace1, pfnVideoProcessorSetOutputColorSpace1 callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -61,10 +60,6 @@ A handle to the video processor object.
 ### -param ColorSpace
 
 Contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-d3dddi_color_space_type">D3DDDI_COLOR_SPACE_TYPE</a> enumeration identifying the color space.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

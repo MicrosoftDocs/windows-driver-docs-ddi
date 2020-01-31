@@ -6,7 +6,6 @@ ms.assetid: 20edf110-f620-4d1d-a495-589b50fbaf6f
 author: mimisasouvanh
 ms.author: misaso
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_DESTROY_META_COMMAND_0052"
 req.header: d3d12umddi.h
@@ -76,10 +75,6 @@ A handle to the display device (graphics context).
 ### -param Arg2
 
 Handle to a meta-command.
-
-## -returns
-
-Returns VOID.
 
 ## -remarks
 

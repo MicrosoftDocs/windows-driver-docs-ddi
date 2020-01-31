@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 56638b74-6233-4239-9315-ec8a643a2cea
 ms.date: 04/30/2018
 ms.keywords: DRIVER_UNLOAD, DrvrRtns_68cde0dd-4521-4771-8965-309dedd87d37.xml, Unload, Unload routine [Kernel-Mode Driver Architecture], kernel.unload, wdm/Unload
-ms.topic: callback
 f1_keywords:
  - "wdm/Unload"
 req.header: wdm.h
@@ -59,15 +58,6 @@ The <i>Unload</i> routine performs any operations that are necessary before the 
 ### -param *DriverObject [in]
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure. This is the driver's driver object.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

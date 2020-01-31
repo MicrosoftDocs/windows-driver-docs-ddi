@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 82efbe8d-0928-4550-9de1-a806a00791eb
 ms.date: 04/20/2018
 ms.keywords: IPrintPipelineManagerControl, IPrintPipelineManagerControl interface [Print Devices], IPrintPipelineManagerControl interface [Print Devices],described, filterpipeline/IPrintPipelineManagerControl, filterpipeline_5b9732d1-6a75-4059-84fa-1bbbdeb70eb3.xml, print.iprintpipelinemanagercontrol
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IPrintPipelineManagerControl"
 req.header: filterpipeline.h
@@ -62,36 +61,8 @@ Report when the filters are finished processing.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintPipelineManagerControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintPipelineManagerControl</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintPipelineManagerControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintPipelineManagerControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IPrintPipelineManagerControl</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinemanagercontrol-filterfinished">IPrintPipelineManagerControl::FilterFinished</a>
-</td>
-<td align="left" width="63%">
-The <code>FilterFinished</code> method reports that a filter is finished processing.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintpipelinemanagercontrol-requestshutdown">IPrintPipelineManagerControl::RequestShutdown</a>
-</td>
-<td align="left" width="63%">
-The <code>RequestShutdown</code> method requests that a pipeline be shut down.
-
-</td>
-</tr>
-</table> 
 

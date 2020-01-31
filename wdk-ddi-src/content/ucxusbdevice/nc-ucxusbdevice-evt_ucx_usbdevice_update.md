@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 5dbf3560-9968-4996-8bce-fb43e3918d72
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_USBDEVICE_UPDATE, EVT_UCX_USBDEVICE_UPDATE callback, EvtUcxUsbDeviceUpdate, EvtUcxUsbDeviceUpdate callback function [Buses], PEVT_UCX_USBDEVICE_UPDATE, PEVT_UCX_USBDEVICE_UPDATE callback function pointer [Buses], buses.evt_ucx_usbdevice_update, ucxusbdevice/EvtUcxUsbDeviceUpdate
-ms.topic: callback
 f1_keywords:
  - "ucxusbdevice/PEVT_UCX_USBDEVICE_UPDATE"
 req.header: ucxusbdevice.h
@@ -65,15 +64,6 @@ The client driver's implementation that UCX calls to
 ### -param Request [in]
 
 Contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_update">USBDEVICE_UPDATE</a> structure.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

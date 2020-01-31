@@ -4,7 +4,6 @@ title: USBPM_HUB_PROPERTIES_INIT function (usbpmapi.h)
 description: Initializes a [**USBPM_HUB_PROPERTIES**] structure.
 ms.assetid: 44627145-69c9-4996-bdc2-3d53957e1de6
 ms.date: 09/30/2018
-ms.topic: function
 f1_keywords:
  - "usbpmapi/USBPM_HUB_PROPERTIES_INIT"
 ms.keywords: USBPM_HUB_PROPERTIES_INIT

@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 1140F881-A6E1-4342-A069-BE9EB3BD4BF8
 ms.date: 04/20/2018
 ms.keywords: IPrinterScriptableSequentialStream interface [Print Devices],Write method, IPrinterScriptableSequentialStream.Write, IPrinterScriptableSequentialStream::Write, Write, Write method [Print Devices], Write method [Print Devices],IPrinterScriptableSequentialStream interface, print.iprinterscriptablesequentialstream_write, printerextension/IPrinterScriptableSequentialStream::Write
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterScriptableSequentialStream.Write"
 req.header: printerextension.h

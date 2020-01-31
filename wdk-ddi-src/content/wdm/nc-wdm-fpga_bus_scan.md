@@ -4,7 +4,6 @@ title: FPGA_BUS_SCAN (wdm.h)
 description: Reserved for future use. Triggers a bus scan at the parent of the FPGA device.
 ms.assetid: 9508f992-23b7-49d8-8eb7-3bd5214a6835
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "wdm/FPGA_BUS_SCAN"
 req.header: wdm.h
@@ -68,9 +67,6 @@ FPGA_BUS_SCAN *PFPGA_BUS_SCAN
 
 ### -param Context
 [_In_reads_opt_(_Inexpressible_("varies"))] The handle to the bus extension.
-
-
-## -returns
 
 
 ## -remarks

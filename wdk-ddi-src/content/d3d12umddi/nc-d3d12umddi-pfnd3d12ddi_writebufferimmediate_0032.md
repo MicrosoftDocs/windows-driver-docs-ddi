@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_writebufferimmediate_0032.htm
 ms.assetid: 73486EA4-F1D8-4649-81C8-1698E1854DED
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032, PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032 callback, PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032 callback function [Display Devices], d3d12umddi/PFND3D12DDI_WRITEBUFFERIMMEDIATE_0032, display.pfnd3d12ddi_writebufferimmediate_0032
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
@@ -65,8 +64,4 @@ The parameters for the write buffer.
 ### -param pModes
 
 The modes for the write buffer.
-
-## -returns
-
-This callback function does not return a value.
 

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: d1f3d510-5b2c-4956-b9e0-cd26b2d818a9
 ms.date: 03/01/2018
 ms.keywords: WRITE_REGISTER_ULONG, WRITE_REGISTER_ULONG routine [Kernel-Mode Driver Architecture], k103_af58a3ec-4102-4a89-9c58-e56f99d793d0.xml, kernel.write_register_ulong, wdm/WRITE_REGISTER_ULONG
-ms.topic: function
 f1_keywords:
  - "ioaccess/WRITE_REGISTER_ULONG"
 req.header: ioaccess.h

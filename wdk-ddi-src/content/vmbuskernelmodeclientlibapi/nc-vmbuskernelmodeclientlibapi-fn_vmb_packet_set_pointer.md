@@ -5,7 +5,6 @@ description: The VmbPacketSetPointer function saves an arbitrary pointer in the 
 tech.root: netvista
 ms.assetid: 5c6d8399-50ff-466c-9942-8b5232b841ad
 ms.date: 05/22/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_SET_POINTER"
 req.header: vmbuskernelmodeclientlibapi.h
@@ -75,10 +74,6 @@ A handle for a VMBus packet.
 ### -param Pointer
 
  An arbitrary pointer to save in the context of the packet.
-
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

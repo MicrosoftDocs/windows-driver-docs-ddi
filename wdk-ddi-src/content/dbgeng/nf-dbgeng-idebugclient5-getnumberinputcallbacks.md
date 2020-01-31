@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 25188616-ac1a-4699-9343-0fa88e27d9b8
 ms.date: 05/03/2018
 ms.keywords: GetNumberInputCallbacks, GetNumberInputCallbacks method [Windows Debugging], GetNumberInputCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetNumberInputCallbacks method, IDebugClient5.GetNumberInputCallbacks, IDebugClient5::GetNumberInputCallbacks, IDebugClient_ccf5fe3e-20d9-4415-bcfd-4823960acd05.xml, dbgeng/IDebugClient5::GetNumberInputCallbacks, debugger.getnumberinputcallbacks
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugClient5.GetNumberInputCallbacks"
 req.header: dbgeng.h

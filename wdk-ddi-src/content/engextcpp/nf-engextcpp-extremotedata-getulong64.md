@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: f88694a0-aa76-434a-b436-3c0b6903cad6
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_8310177e-7943-4f2c-92bd-b69848c9e9f0.xml, ExtRemoteData class [Windows Debugging],GetUlong64 method, ExtRemoteData.GetUlong64, ExtRemoteData::GetUlong64, GetUlong64, GetUlong64 method [Windows Debugging], GetUlong64 method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getulong64
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetUlong64"
 req.header: engextcpp.hpp
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>GetUlong64</b> method returns a ULONG64 version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 3cb30b74-d50d-49dd-ab5d-de1cf71facd4
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS, EVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS callback, EvtUcxEndpointOkToCancelTransfers, EvtUcxEndpointOkToCancelTransfers callback function [Buses], PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS, PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS callback function pointer [Buses], buses.evt_ucx_endpoint_ok_to_cancel_transfers, ucxendpoint/EvtUcxEndpointOkToCancelTransfers
-ms.topic: callback
 f1_keywords:
  - "ucxendpoint/PEVT_UCX_ENDPOINT_OK_TO_CANCEL_TRANSFERS"
 req.header: ucxendpoint.h
@@ -69,15 +68,6 @@ The client driver's implementation that UCX calls to notify the controller drive
 #### - Endpoint [in]
 
 A handle to a UCXENDPOINT object that represents the endpoint.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

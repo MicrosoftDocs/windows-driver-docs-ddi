@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 47C442F5-7D16-4E73-8D05-82D63D5265C1
 ms.date: 05/07/2018
 ms.keywords: "*PUSBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO structure pointer [Buses], USBDEVICE_TREE_PURGEIO, USBDEVICE_TREE_PURGEIO structure [Buses], _USBDEVICE_TREE_PURGEIO, buses._usbdevice_tree_purgeio, ucxusbdevice/P_USBDEVICE_TREE_PURGEIO, ucxusbdevice/_USBDEVICE_TREE_PURGEIO"
-ms.topic: struct
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_TREE_PURGEIO"
 req.header: ucxusbdevice.h

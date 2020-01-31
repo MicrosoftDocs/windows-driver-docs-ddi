@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: ab9ad8ee-9390-41a4-9a69-2e98579b2b77
 ms.date: 05/10/2018
 ms.keywords: PFN_STOP_MIRACAST_SESSION, PFN_STOP_MIRACAST_SESSION callback, StopMiracastSession, StopMiracastSession callback function [Display Devices], display.stopmiracastsession, netdispumdddi/StopMiracastSession
-ms.topic: callback
 f1_keywords:
  - "netdispumdddi/StopMiracastSession"
 req.header: netdispumdddi.h
@@ -61,15 +60,6 @@ Called by the operating system to start a Miracast connected session that had ea
 A pointer to a context associated with a display adapter.
 
 The operating system obtained the context when it called the Miracast user-mode driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a> function.
-
-
-## -returns
-
-
-
-Does not return a value.
-
-
 
 
 ## -remarks

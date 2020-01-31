@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: D7009707-7139-4572-A620-C8ACFA6B5665
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_CONNECT_EVENT_CALLBACK, NDK_FN_CONNECT_EVENT_CALLBACK callback, NdkConnectEventCallback, NdkConnectEventCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnectEventCallback, netvista.ndk_fn_connect_event_callback
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkConnectEventCallback"
 req.header: ndkpi.h
@@ -65,15 +64,6 @@ A context area that was specified in the <i>ConnectEventContext</i> parameter of
 ### -param *pNdkConnector [in]
 
 A pointer to an NDK connector object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>) that represents a new incoming connection request.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

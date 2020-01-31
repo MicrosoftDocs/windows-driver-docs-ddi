@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 4837b9c2-a3c1-4574-8f5b-4bf7c7d037a0
 ms.date: 03/29/2018
 ms.keywords: "(*TAPE_EXTENSION_INIT_ROUTINE), (*TAPE_EXTENSION_INIT_ROUTINE) routine [Storage Devices], TAPE_EXTENSION_INIT_ROUTINE, minitape/(*TAPE_EXTENSION_INIT_ROUTINE), storage.tapeminiextensioninit, tapemini_858bcb61-472e-45c4-8438-060eb61f1c4a.xml"
-ms.topic: callback
 f1_keywords:
  - "minitape/(*TAPE_EXTENSION_INIT_ROUTINE)"
 req.header: minitape.h
@@ -69,15 +68,6 @@ Pointer to the SCSI inquiry data for the tape device.
 ### -param ModeCapabilitiesPage [in]
 
 Pointer to a buffer that contains low-level information for the tape device. The format of this page is defined by the QIC 157 standard and is subject to change. This is <b>NULL</b> if the device does not support a mode capabilities page. 
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

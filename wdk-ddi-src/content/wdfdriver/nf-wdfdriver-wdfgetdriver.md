@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 423d4407-9e30-4625-bbe8-5465af29cfaa
 ms.date: 02/26/2018
 ms.keywords: DFDriverObjectRef_7419a365-e5ee-49cd-8d85-4db65cd27645.xml, WdfGetDriver, WdfGetDriver method, kmdf.wdfgetdriver, wdf.wdfgetdriver, wdfdriver/WdfGetDriver
-ms.topic: function
 f1_keywords:
  - "wdfdriver/WdfGetDriver"
 req.header: wdfdriver.h
@@ -54,13 +53,6 @@ req.typenames:
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
 The <b>WdfGetDriver</b> method returns a handle to the framework driver object that represents the calling driver.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

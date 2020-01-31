@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 81D4F3C5-7412-4148-A5B4-0C56DD9ADB35
 ms.date: 05/07/2018
 ms.keywords: EVT_UFX_DEVICE_USB_STATE_CHANGE, EVT_UFX_DEVICE_USB_STATE_CHANGE callback, EvtUfxDeviceUsbStateChange, EvtUfxDeviceUsbStateChange callback function [Buses], PFN_UFX_DEVICE_USB_STATE_CHANGE, PFN_UFX_DEVICE_USB_STATE_CHANGE callback function pointer [Buses], buses.evt_ufx_device_usb_state_change, ufxclient/EvtUfxDeviceUsbStateChange
-ms.topic: callback
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_USB_STATE_CHANGE"
 req.header: ufxclient.h
@@ -72,15 +71,6 @@ The handle to a  USB device object that the client driver received in a previous
 #### - UsbDeviceState [in]
 
 A USBFN_DEVICE_STATE-typed flag that indicates state of the USB device.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

@@ -5,7 +5,6 @@ description: The driver is notified that the app has started of a pass of consis
 tech.root: display
 ms.assetid: 05d0f76c-4a82-433c-9d97-a4fb2c4b4e1a
 ms.date: 11/28/2018
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_BEGIN_PASS"
 ms.prod: windows-hardware
@@ -79,10 +78,6 @@ A handle to the pass that was created by the app.
 ### -param PassFlags
 
 A flag to indicate what the driver should do when an app starts a pass.
-
-## -returns
-
-Returns VOID.
 
 ## -remarks
 

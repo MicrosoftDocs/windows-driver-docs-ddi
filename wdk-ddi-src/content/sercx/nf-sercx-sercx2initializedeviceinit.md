@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: E63B234D-07B7-467D-A13B-157781513F22
 ms.date: 04/23/2018
 ms.keywords: 2/SerCx2InitializeDeviceInit, SerCx2InitializeDeviceInit, SerCx2InitializeDeviceInit method [Serial Ports], serports.sercx2initializedeviceinit
-ms.topic: function
 f1_keywords:
  - "sercx/SerCx2InitializeDeviceInit"
 req.header: sercx.h

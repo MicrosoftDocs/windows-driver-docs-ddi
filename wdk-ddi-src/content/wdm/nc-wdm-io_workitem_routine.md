@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 19467f90-945d-46ac-a800-300e1d490ef0
 ms.date: 04/30/2018
 ms.keywords: DrvrRtns_55d37b62-e72b-4aa3-b590-e9598ead0b46.xml, IO_WORKITEM_ROUTINE, WorkItem, WorkItem routine [Kernel-Mode Driver Architecture], kernel.workitem, wdm/WorkItem
-ms.topic: callback
 f1_keywords:
  - "wdm/WorkItem"
 req.header: wdm.h
@@ -64,15 +63,6 @@ Pointer to one of the caller's device objects. This is the pointer that was pass
 ### -param Context [in, optional]
 
 Specifies driver-specific context information. This is the value that was passed as the <i>Context</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a> when the work item was queued.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

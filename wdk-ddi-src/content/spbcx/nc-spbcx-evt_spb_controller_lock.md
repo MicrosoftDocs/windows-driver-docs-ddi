@@ -7,7 +7,6 @@ tech.root: SPB
 ms.assetid: E08674F1-CE63-464B-9C70-96F93C574753
 ms.date: 04/30/2018
 ms.keywords: EVT_SPB_CONTROLLER_LOCK, EVT_SPB_CONTROLLER_LOCK callback, EvtSpbControllerLock, EvtSpbControllerLock callback function [Buses], SPB.evtspbcontrollerlock, spbcx/EvtSpbControllerLock
-ms.topic: callback
 f1_keywords:
  - "spbcx/EvtSpbControllerLock"
 req.header: spbcx.h
@@ -69,15 +68,6 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object
 ### -param LockRequest [in]
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a> handle to an I/O control request to lock the controller.  Your SPB controller driver must complete this request either by performing the requested operation or by returning an error status. For more information, see Remarks.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

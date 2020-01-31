@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: d6b76b6b-59d9-441f-846e-fe89d26f631d
 ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_bb978cee-d80a-429b-ac2c-1704539c55f7.xml, DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, display.dxvahdddi_blt_state_target_rect_data
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA"
 req.header: d3dumddi.h

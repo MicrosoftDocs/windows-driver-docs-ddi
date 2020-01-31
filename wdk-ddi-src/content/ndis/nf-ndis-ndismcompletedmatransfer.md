@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 12a8062a-6d4b-4757-a076-56aeb5e4e48c
 ms.date: 05/02/2018
 ms.keywords: NdisMCompleteDmaTransfer, NdisMCompleteDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_bd601fef-cf06-42ff-9906-d3bf8edef72f.xml, ndis/NdisMCompleteDmaTransfer, netvista.ndismcompletedmatransfer
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisMCompleteDmaTransfer"
 req.header: ndis.h

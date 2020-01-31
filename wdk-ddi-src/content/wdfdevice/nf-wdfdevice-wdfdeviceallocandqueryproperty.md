@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: f921fee7-e2c0-4e0f-a78b-d2dff8af97a2
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_d093b9da-de6b-467d-a6bd-c25d7a4145f8.xml, WdfDeviceAllocAndQueryProperty, WdfDeviceAllocAndQueryProperty method, kmdf.wdfdeviceallocandqueryproperty, wdf.wdfdeviceallocandqueryproperty, wdfdevice/WdfDeviceAllocAndQueryProperty
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceAllocAndQueryProperty"
 req.header: wdfdevice.h

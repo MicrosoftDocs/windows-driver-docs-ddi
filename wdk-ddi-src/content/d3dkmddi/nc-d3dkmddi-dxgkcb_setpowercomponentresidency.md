@@ -6,7 +6,6 @@ old-location: display\dxgkcbsetpowercomponentresidency.htm
 ms.assetid: 9D567380-2E77-4A63-8674-E19A13C7B8BC
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_SETPOWERCOMPONENTRESIDENCY, DXGKCB_SETPOWERCOMPONENTRESIDENCY callback, DxgkCbSetPowerComponentResidency, DxgkCbSetPowerComponentResidency callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentResidency, display.dxgkcbsetpowercomponentresidency
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -63,10 +62,6 @@ The power component index specified by  <a href="https://docs.microsoft.com/wind
 The <i>expected residency</i>—the maximum  time, in units of 100 nanoseconds, that the display miniport driver expects a power component to remain idle after it enters an idle state. The <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/overview-of-the-power-management-framework">Power Management Framework</a> uses this information to select an appropriate idle state for the component that does not violate the requested residency. The expected residency specified by <i>Residency</i> remains in effect until the driver calls this function again to update it.
 
 For more information, see Remarks.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

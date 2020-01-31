@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 483C59C3-8F9C-48A5-B5E4-34A60BAE1B1A
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_RX_RESUME, MINIPORT_WDI_RX_RESUME callback, MiniportWdiRxResume, MiniportWdiRxResume callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxResume, netvista.miniportwdirxresume
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiRxResume"
 req.header: dot11wdi.h
@@ -63,15 +62,6 @@ This is a WDI miniport handler inside <a href="https://docs.microsoft.com/window
 ### -param MiniportTalTxRxContext
 
 TAL device handle returned by the IHV miniport in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

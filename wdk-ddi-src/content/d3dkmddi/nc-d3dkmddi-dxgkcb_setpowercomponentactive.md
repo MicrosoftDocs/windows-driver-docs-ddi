@@ -6,7 +6,6 @@ old-location: display\dxgkcbsetpowercomponentactive.htm
 ms.assetid: 12008d80-8bcb-4289-97ea-d3325731a95f
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_SETPOWERCOMPONENTACTIVE, DXGKCB_SETPOWERCOMPONENTACTIVE callback, DxgkCbSetPowerComponentActive, DxgkCbSetPowerComponentActive callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentActive, display.dxgkcbsetpowercomponentactive
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -57,10 +56,6 @@ A handle to the display adapter. The display miniport driver receives the handle
 ### -param ComponentIndex
 
 The power component index specified by  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo">DXGKARG_QUERYADAPTERINFO</a>.<b>pInputData</b> in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

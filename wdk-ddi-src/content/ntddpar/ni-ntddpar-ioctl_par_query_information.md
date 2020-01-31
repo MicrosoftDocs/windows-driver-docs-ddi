@@ -7,7 +7,6 @@ tech.root: parports
 ms.assetid: 272e7810-1242-4e56-8431-bd7c5908247a
 ms.date: 02/15/2018
 ms.keywords: IOCTL_PAR_QUERY_INFORMATION, IOCTL_PAR_QUERY_INFORMATION control code [Parallel Ports], cisspd_50a28bb8-8015-4b25-9850-9038b1c1789a.xml, ntddpar/IOCTL_PAR_QUERY_INFORMATION, parports.ioctl_par_query_information
-ms.topic: ioctl
 f1_keywords:
  - "ntddpar/IOCTL_PAR_QUERY_INFORMATION"
 req.header: ntddpar.h

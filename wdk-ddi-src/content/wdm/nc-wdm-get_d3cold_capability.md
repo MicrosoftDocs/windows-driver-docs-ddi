@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: FE756171-327B-40E7-92A4-9159C509FD5E
 ms.date: 04/30/2018
 ms.keywords: GET_D3COLD_CAPABILITY, GetBusDriverD3ColdSupport, GetBusDriverD3ColdSupport routine [Kernel-Mode Driver Architecture], kernel.getbusdriverd3coldsupport, wdm/GetBusDriverD3ColdSupport
-ms.topic: callback
 f1_keywords:
  - "wdm/GetBusDriverD3ColdSupport"
 req.header: wdm.h

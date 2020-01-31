@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: f9778881-9b53-49c5-9fe8-80f9a866b9af
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_6aea2145-72ce-4bdc-afb2-1fa360e643da.xml, ExtRemoteData class [Windows Debugging],GetPtr method, ExtRemoteData.GetPtr, ExtRemoteData::GetPtr, GetPtr, GetPtr method [Windows Debugging], GetPtr method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getptr
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetPtr"
 req.header: engextcpp.hpp
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>GetPtr</b> method returns a pointer from the target's memory version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory. The size of the unsigned integer from the target is the same size as a pointer on the target.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

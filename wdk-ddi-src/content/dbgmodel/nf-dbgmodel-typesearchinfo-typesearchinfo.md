@@ -4,7 +4,6 @@ title: TypeSearchInfo function (dbgmodel.h)
 description: The search record passed to EnumerateChildrenEx specifically for SymbolType searches.
 ms.assetid: 91758763-6193-4287-8f91-445953e817a9
 ms.date: 10/02/2018
-ms.topic: function
 f1_keywords:
  - "dbgmodel/TypeSearchInfo"
 ms.keywords: TypeSearchInfo
@@ -46,9 +45,6 @@ ms.custom: RS5
 ## -description
 
 The search record passed to EnumerateChildrenEx specifically for SymbolType searches.
-
-## -parameters
-None
 
 ## -returns
 This function is a constructor and does not return a value.

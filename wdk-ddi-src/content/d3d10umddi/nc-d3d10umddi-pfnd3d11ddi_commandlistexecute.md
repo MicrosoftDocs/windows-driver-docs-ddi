@@ -6,7 +6,6 @@ old-location: display\commandlistexecute.htm
 ms.assetid: 49f44f29-52f6-40d9-8617-a24aa3d30736
 ms.date: 05/10/2018
 ms.keywords: CommandListExecute, CommandListExecute callback function [Display Devices], PFND3D11DDI_COMMANDLISTEXECUTE, PFND3D11DDI_COMMANDLISTEXECUTE callback, UserModeDisplayDriverDx11_Functions_14a50e02-5483-4d83-83d7-79064981f4c8.xml, d3d10umddi/CommandListExecute, display.commandlistexecute
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/CommandListExecute"
 req.header: d3d10umddi.h
@@ -70,18 +69,17 @@ A handle to the driver's private data for the command list to run.
 
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the Remarks section.
-
-
-
-
 ## -remarks
+
+
+
+
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
+
+
+
+
 
 
 

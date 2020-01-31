@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 689EE1EB-820A-4873-92C5-08F5F1873825
 ms.date: 03/29/2018
 ms.keywords: IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ, IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ control, IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ, storage.ioctl_ehstor_driver_perform_authz
-ms.topic: ioctl
 f1_keywords:
  - "ehstorioctl/IOCTL_EHSTOR_DRIVER_PERFORM_AUTHZ"
 req.header: ehstorioctl.h

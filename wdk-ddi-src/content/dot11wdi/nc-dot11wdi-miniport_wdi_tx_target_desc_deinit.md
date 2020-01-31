@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: C7C6C175-5E9D-4C6B-8A6B-F903DDE4DC78
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TX_TARGET_DESC_DEINIT, MINIPORT_WDI_TX_TARGET_DESC_DEINIT callback, MiniportWdiTxTargetDescDeInit, MiniportWdiTxTargetDescDeInit callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTargetDescDeInit, netvista.miniportwditxtargetdescdeinit
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiTxTargetDescDeInit"
 req.header: dot11wdi.h
@@ -68,15 +67,6 @@ TAL device handle returned by the IHV miniport in the <a href="https://docs.micr
 ### -param pNBL [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

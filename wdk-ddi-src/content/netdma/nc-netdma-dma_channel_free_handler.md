@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 5bbe432d-f236-46ec-8e78-788bd676b852
 ms.date: 05/02/2018
 ms.keywords: DMA_CHANNEL_FREE_HANDLER, DMA_CHANNEL_FREE_HANDLER callback, ProviderFreeDmaChannel, ProviderFreeDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderFreeDmaChannel, netdma_ref_d81eae9f-e306-4ac7-a4ce-3e4831b45c39.xml, netvista.providerfreedmachannel
-ms.topic: callback
 f1_keywords:
  - "netdma/ProviderFreeDmaChannel"
 req.header: netdma.h
@@ -68,15 +67,6 @@ A pointer that identifies a DMA channel's context area. The DMA provider returne
      <i>pProviderChannelContext</i> parameter of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
      ProviderAllocateDmaChannel</a> function.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

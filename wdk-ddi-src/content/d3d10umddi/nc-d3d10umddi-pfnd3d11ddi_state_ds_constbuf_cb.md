@@ -6,7 +6,6 @@ old-location: display\pfnstatedsconstbufcb.htm
 ms.assetid: 8170be69-3e75-4e33-a123-3039e3f9d0c0
 ms.date: 05/10/2018
 ms.keywords: PFND3D11DDI_STATE_DS_CONSTBUF_CB, PFND3D11DDI_STATE_DS_CONSTBUF_CB callback, d3d10umddi/pfnStateDsConstBufCb, d3d11state_functions_5672a801-6215-48f3-b107-82281c9e8a9d.xml, display.pfnstatedsconstbufcb, pfnStateDsConstBufCb, pfnStateDsConstBufCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateDsConstBufCb"
 req.header: d3d10umddi.h
@@ -64,24 +63,15 @@ A handle to a context for the core Direct3D runtime. This handle is supplied to 
 
 ### -param Arg2
 
-Base [in]
+*Base* [in]
 
 The beginning constant buffer for which the runtime should refresh state. 
 
 ### -param Arg3
 
-Count [in]
+*Count* [in]
 
 The total number of constant buffers. The number can be -1, which specifies that the Direct3D runtime uses its high watermarks to substitute an optimal value (which is typically less than the maximum valid value for <i>Count</i>). However, no non-NULL binding exists in a slot larger than the optimal <i>Count</i> value.
-
-
-
-## -returns
-
-
-
-None
-
 
 
 

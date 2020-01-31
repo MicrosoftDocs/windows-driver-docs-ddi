@@ -4,7 +4,6 @@ title: IIterableConcept (dbgmodel.h)
 description: The object is a container and can be iterated.
 ms.assetid: 35f78cad-3070-40af-aa8e-f7556609d019
 ms.date: 07/16/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IIterableConcept"
 req.header: dbgmodel.h
@@ -44,36 +43,6 @@ The object is a container and can be iterated.
 
 ## -inheritance
 IIterableConcept interits from IUnknown. 
-## -members
-
-<p>IIterableConcept has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetDefaultIndexDimensionality</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetIterator</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 **Iterable Concept**

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 7dab0240-67c3-4412-a7a5-bb98d84c6bdd
 ms.date: 05/08/2018
 ms.keywords: "*PKSAUDIO_COPY_PROTECTION, KSAUDIO_COPY_PROTECTION, KSAUDIO_COPY_PROTECTION structure [Audio Devices], PKSAUDIO_COPY_PROTECTION, PKSAUDIO_COPY_PROTECTION structure pointer [Audio Devices], aud-prop_94eac763-0c97-406d-b255-686ac82f908c.xml, audio.ksaudio_copy_protection, ksmedia/KSAUDIO_COPY_PROTECTION, ksmedia/PKSAUDIO_COPY_PROTECTION"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSAUDIO_COPY_PROTECTION"
 req.header: ksmedia.h

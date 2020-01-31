@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: f1998d68-1c9e-4527-a174-b22a8c301e63
 ms.date: 04/23/2018
 ms.keywords: AVStrMiniFilterProcess, AVStrMiniFilterProcess routine [Streaming Media Devices], PFNKSFILTERPROCESS, avstclbk_220bff5f-a966-460b-9157-b512cfc9c336.xml, ks/AVStrMiniFilterProcess, stream.avstrminifilterprocess
-ms.topic: callback
 f1_keywords:
  - "ks/AVStrMiniFilterProcess"
 req.header: ks.h

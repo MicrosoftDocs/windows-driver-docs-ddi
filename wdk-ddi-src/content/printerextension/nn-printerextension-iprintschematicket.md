@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 190B0B88-6018-4B43-8699-78427421D6FF
 ms.date: 10/19/2018
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices], IPrintSchemaTicket interface [Print Devices],described, print.iprintschematicket_interface, printerextension/IPrintSchemaTicket
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrintSchemaTicket"
 req.header: printerextension.h
@@ -58,111 +57,6 @@ The **IPrintSchemaTicket** interface inherits from <a href="https://docs.microso
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
-
-## -members
-
-The <b>IPrintSchemaTicket</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-commitasync">CommitAsync</a>
-</td>
-<td align="left" width="63%">
-Gets an  asynchronous PrintTicket commit operation context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getcapabilities">GetCapabilities</a>
-</td>
-<td align="left" width="63%">
-Gets an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemacapabilities">IPrintSchemaCapabilities</a> object that represents the printer capabilities based on the current settings of this <b>IPrintSchemaTicket</b> object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getfeature">GetFeature</a>
-</td>
-<td align="left" width="63%">
-Gets a named feature from the PrintTicket, by name and full namespace URI.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-getfeaturebykeyname">GetFeatureByKeyName</a>
-</td>
-<td align="left" width="63%">
-Gets a feature from the PrintTicket based on the specified key name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-notifyxmlchanged">NotifyXmlChanged</a>
-</td>
-<td align="left" width="63%">
-Notifies the print system that the XML DOM object has changed.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprintschematicket-validateasync">ValidateAsync</a>
-</td>
-<td align="left" width="63%">
-Gets an asynchronous PrintTicket validation operation context.
-
-</td>
-</tr>
-</table> 
-<h3><a id="properties"></a>Properties</h3>The **IPrintSchemaTicket** interface has these properties.
-<table class="members" id="memberListProperties">
-<tr>
-<th align="left" width="27%">Property</th>
-<th align="left" width="10%">Access type</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">JobCopiesAllDocuments</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Gets the copy count.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="https://docs.microsoft.com/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">JobCopiesAllDocuments</a>
-
-
-</td>
-<td align="left" width="10%">
-Write-only
-
-</td>
-<td align="left" width="63%">
-Sets the copy count.
-
-</td>
-</tr>
-</table> 
-
 
 ## -remarks
 

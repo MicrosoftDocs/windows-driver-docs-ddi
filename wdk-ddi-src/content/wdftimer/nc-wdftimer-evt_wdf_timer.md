@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: abe15fd9-620e-4c24-9a82-32d20a7e49cc
 ms.date: 02/26/2018
 ms.keywords: DFTimerObjectRef_adf533a0-e5e3-4036-b1fd-5071d010adb5.xml, EVT_WDF_TIMER, EVT_WDF_TIMER callback, EvtTimerFunc, EvtTimerFunc callback function, kmdf.evttimerfunc, wdf.evttimerfunc, wdftimer/EvtTimerFunc
-ms.topic: callback
 f1_keywords:
  - "wdftimer/EvtTimerFunc"
 req.header: wdftimer.h
@@ -61,15 +60,6 @@ The <i>EvtTimerFunc</i> event callback function is called when a specified time 
 ### -param Timer [in]
 
 A handle to a framework timer object that was obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>. 
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

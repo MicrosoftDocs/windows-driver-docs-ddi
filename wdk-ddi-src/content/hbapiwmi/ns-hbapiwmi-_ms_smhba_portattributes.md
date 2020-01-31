@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: ce967b15-723f-4ab7-8a79-8234291d1950
 ms.date: 03/29/2018
 ms.keywords: "*PMS_SMHBA_PORTATTRIBUTES, MS_SMHBA_PORTATTRIBUTES, MS_SMHBA_PORTATTRIBUTES structure [Storage Devices], PMS_SMHBA_PORTATTRIBUTES, PMS_SMHBA_PORTATTRIBUTES structure pointer [Storage Devices], _MS_SMHBA_PORTATTRIBUTES, hbapiwmi/MS_SMHBA_PORTATTRIBUTES, hbapiwmi/PMS_SMHBA_PORTATTRIBUTES, storage.ms_smhba_portattributes, structs-Fibre_66af1ae7-5db4-4dd3-bacc-0665dd757660.xml"
-ms.topic: struct
 f1_keywords:
  - "hbapiwmi/MS_SMHBA_PORTATTRIBUTES"
 req.header: hbapiwmi.h

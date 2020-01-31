@@ -4,7 +4,6 @@ title: EVT_TR_DISCONNECT_SECURE_SERVICE (trustedruntimeclx.h)
 description: 
 ms.assetid: f0bcdca4-bbbd-4ec5-88ce-dc8b68fcbd31
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "trustedruntimeclx/EVT_TR_DISCONNECT_SECURE_SERVICE"
 req.header: trustedruntimeclx.h
@@ -44,7 +43,7 @@ ms.custom: RS5
 
  
 
-## -prototype
+## -syntax
 
 ```cpp
 //Declaration

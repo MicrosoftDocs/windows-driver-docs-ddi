@@ -5,7 +5,6 @@ description: The SystemAddress method returns the system address of the allocate
 tech.root: audio
 ms.assetid: 90bbf083-1820-4841-9572-4fc6fad6e897
 ms.date: 10/31/2018
-ms.topic: method
 f1_keywords:
  - "portcls/IDmaChannel.SystemAddress"
 ms.keywords: IDmaChannel::SystemAddress, SystemAddress, IDmaChannel.SystemAddress, IDmaChannel::SystemAddress, IDmaChannel.SystemAddress
@@ -46,9 +45,6 @@ targetos: Windows
 ## -description
 
 SystemAddress returns the address in kernel-mode virtual address space of the allocated buffer.
-
-## -parameters
-void
 
 ## -returns
 This method returns PVOID.

@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 6d4b7a25-436f-4547-8969-66dd45fa46fd
 ms.date: 05/03/2018
 ms.keywords: image.wiaugetdrvitemcontext, wiauFncs_3928edcb-8885-456a-a27d-62612fcb2d1a.xml, wiauGetDrvItemContext, wiauGetDrvItemContext function [Imaging Devices], wiautil/wiauGetDrvItemContext
-ms.topic: function
 f1_keywords:
  - "wiautil/wiauGetDrvItemContext"
 req.header: wiautil.h

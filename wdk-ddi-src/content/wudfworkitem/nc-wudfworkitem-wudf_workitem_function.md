@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703
 ms.date: 02/26/2018
 ms.keywords: OnWorkItem, OnWorkItem callback function, PFN_WUDF_WORKITEM, PFN_WUDF_WORKITEM callback function pointer, WUDF_WORKITEM_FUNCTION, WUDF_WORKITEM_FUNCTION callback, umdf.onworkitem, wdf.onworkitem, wudfworkitem/OnWorkItem, wudfworkitem/PFN_WUDF_WORKITEM
-ms.topic: callback
 f1_keywords:
  - "wudfworkitem/WUDF_WORKITEM_FUNCTION"
 req.header: wudfworkitem.h
@@ -61,15 +60,6 @@ A driver's <i>OnWorkItem</i> event callback function performs the work that is a
 ### -param *pWorkItem [in]
 
 A pointer to an  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfworkitem">IWDFWorkItem</a> interface.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

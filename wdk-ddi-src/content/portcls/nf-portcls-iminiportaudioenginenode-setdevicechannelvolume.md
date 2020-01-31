@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 05DA619B-B36A-4E14-9F63-E12E90E0BDCD
 ms.date: 05/08/2018
 ms.keywords: IMiniportAudioEngineNode interface [Audio Devices],SetDeviceChannelVolume method, IMiniportAudioEngineNode.SetDeviceChannelVolume, IMiniportAudioEngineNode::SetDeviceChannelVolume, SetDeviceChannelVolume, SetDeviceChannelVolume method [Audio Devices], SetDeviceChannelVolume method [Audio Devices],IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setdevicechannelvolume, portcls/IMiniportAudioEngineNode::SetDeviceChannelVolume
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.SetDeviceChannelVolume"
 req.header: portcls.h

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 4ED5D2DC-8D31-458A-80F2-F681DC375769
 ms.date: 05/03/2018
 ms.keywords: GetSourceEntryBySourceEntry, GetSourceEntryBySourceEntry method [Windows Debugging], GetSourceEntryBySourceEntry method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntryBySourceEntry method, IDebugSymbols3.GetSourceEntryBySourceEntry, IDebugSymbols3::GetSourceEntryBySourceEntry, dbgeng/IDebugSymbols3::GetSourceEntryBySourceEntry, debugger.idebugsymbols3_getsourceentrybysourceentry
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSourceEntryBySourceEntry"
 req.header: dbgeng.h

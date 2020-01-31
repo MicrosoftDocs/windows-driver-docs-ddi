@@ -4,7 +4,6 @@ title: _D3DKMT_QUERY_MIRACAST_DRIVER_TYPE (d3dkmthk.h)
 description: Used to query for a Miracast (wireless display) driver type.
 ms.assetid: e177965a-69f5-45af-b9b7-9e3807b52f8b
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/_D3DKMT_QUERY_MIRACAST_DRIVER_TYPE"
 ms.keywords: _D3DKMT_QUERY_MIRACAST_DRIVER_TYPE, D3DKMT_QUERY_MIRACAST_DRIVER_TYPE, 

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 329ae226-02fb-438b-b461-da51e3afd6eb
 ms.date: 05/08/2018
 ms.keywords: IServiceSink, IServiceSink interface [Audio Devices], IServiceSink interface [Audio Devices],described, audio.iservicesink, audmp-routines_68a03e77-6246-44e7-acad-6de0fbe10c41.xml, portcls/IServiceSink
-ms.topic: interface
 f1_keywords:
  - "portcls/IServiceSink"
 req.header: portcls.h
@@ -63,23 +62,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceSink</b> interface in
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IServiceSink</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicesink-requestservice">IServiceSink::RequestService</a>
-</td>
-<td align="left" width="63%">
-The <code>RequestService</code> method is called to forward a service request to an <b>IServiceSink</b> object.
-
-</td>
-</tr>
-</table> 
 

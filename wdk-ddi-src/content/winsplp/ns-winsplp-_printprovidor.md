@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: c030cb9d-23c0-4d0e-970f-f447e9af7528
 ms.date: 04/03/2019
 ms.keywords: "*LPPRINTPROVIDOR, LPPRINTPROVIDOR, LPPRINTPROVIDOR structure pointer [Print Devices], PRINTPROVIDOR, PRINTPROVIDOR structure [Print Devices], _PRINTPROVIDOR, print.printprovidor, spoolfnc_4fb8242e-e0a0-47e5-b01f-2a20932d4d84.xml, winsplp/LPPRINTPROVIDOR, winsplp/PRINTPROVIDOR"
-ms.topic: struct
 f1_keywords:
  - "winsplp/PRINTPROVIDOR"
 ms.custom: RS5, 19H1
@@ -148,39 +147,39 @@ The router calls each provider until one of them returns ROUTER_SUCCESS or ROUTE
 
 ### -field fpWritePrinter
 
-(Required.) Pointer to the provider's [WritePrinter](https://docs.microsoft.com/en-us/windows/desktop/printdocs/writeprinter) function.
+(Required.) Pointer to the provider's [WritePrinter](https://docs.microsoft.com/windows/desktop/printdocs/writeprinter) function.
 
 ### -field fpEndPagePrinter
 
-(Optional. Can be NULL.) Pointer to the provider's [EndPagePrinter](https://docs.microsoft.com/en-us/windows/desktop/printdocs/endpageprinter)function.
+(Optional. Can be NULL.) Pointer to the provider's [EndPagePrinter](https://docs.microsoft.com/windows/desktop/printdocs/endpageprinter)function.
 
 ### -field fpAbortPrinter
 
-(Required.) Pointer to the provider's [AbortPrinter](https://docs.microsoft.com/en-us/windows/desktop/printdocs/abortprinter) function.
+(Required.) Pointer to the provider's [AbortPrinter](https://docs.microsoft.com/windows/desktop/printdocs/abortprinter) function.
 
 ### -field fpReadPrinter
 
-(Optional. Can be NULL.) Pointer to the provider's [ReadPrinter](https://docs.microsoft.com/en-us/windows/desktop/printdocs/readprinter) function.
+(Optional. Can be NULL.) Pointer to the provider's [ReadPrinter](https://docs.microsoft.com/windows/desktop/printdocs/readprinter) function.
 
 ### -field fpEndDocPrinter
 
-(Required.) Pointer to the provider's [EndDocPrinter](https://docs.microsoft.com/en-us/windows/desktop/printdocs/enddocprinter) function.
+(Required.) Pointer to the provider's [EndDocPrinter](https://docs.microsoft.com/windows/desktop/printdocs/enddocprinter) function.
 
 ### -field fpAddJob
 
-(Required.) Pointer to the provider's [AddJob](https://docs.microsoft.com/en-us/windows/desktop/printdocs/addjob) function.
+(Required.) Pointer to the provider's [AddJob](https://docs.microsoft.com/windows/desktop/printdocs/addjob) function.
 
 ### -field fpScheduleJob
 
-(Required.) Pointer to the provider's [ScheduleJob](https://docs.microsoft.com/en-us/windows/desktop/printdocs/schedulejob) function.
+(Required.) Pointer to the provider's [ScheduleJob](https://docs.microsoft.com/windows/desktop/printdocs/schedulejob) function.
 
 ### -field fpGetPrinterData
 
-(Optional. Can be NULL.) Pointer to the provider's [GetPrinterData](https://docs.microsoft.com/en-us/windows/desktop/printdocs/getprinterdata) function.
+(Optional. Can be NULL.) Pointer to the provider's [GetPrinterData](https://docs.microsoft.com/windows/desktop/printdocs/getprinterdata) function.
 
 ### -field fpSetPrinterData
 
-(Optional. Can be NULL.) Pointer to the provider's [SetPrinterData](https://docs.microsoft.com/en-us/windows/desktop/printdocs/setprinterdata) function.
+(Optional. Can be NULL.) Pointer to the provider's [SetPrinterData](https://docs.microsoft.com/windows/desktop/printdocs/setprinterdata) function.
 
 ### -field fpWaitForPrinterChange
 
@@ -188,31 +187,31 @@ Obsolete. Must be NULL.
 
 ### -field fpClosePrinter
 
-(Required.) Pointer to the provider's [ClosePrinter](https://docs.microsoft.com/en-us/windows/desktop/printdocs/closeprinter) function. If a printer change notification object has been created, then the router calls the provider's FindClosePrinterChangeNotification function before calling ClosePrinter.
+(Required.) Pointer to the provider's [ClosePrinter](https://docs.microsoft.com/windows/desktop/printdocs/closeprinter) function. If a printer change notification object has been created, then the router calls the provider's FindClosePrinterChangeNotification function before calling ClosePrinter.
 
 ### -field fpAddForm
 
-(Optional. Can be NULL.) Pointer to the provider's [AddForm](https://docs.microsoft.com/en-us/windows/desktop/printdocs/addform) function.
+(Optional. Can be NULL.) Pointer to the provider's [AddForm](https://docs.microsoft.com/windows/desktop/printdocs/addform) function.
 
 ### -field fpDeleteForm
 
-(Optional. Can be NULL.) Pointer to the provider's [DeleteForm](https://docs.microsoft.com/en-us/windows/desktop/printdocs/deleteform) function.
+(Optional. Can be NULL.) Pointer to the provider's [DeleteForm](https://docs.microsoft.com/windows/desktop/printdocs/deleteform) function.
 
 ### -field fpGetForm
 
-(Optional. Can be NULL.) Pointer to the provider's [GetForm](https://docs.microsoft.com/en-us/windows/desktop/printdocs/getform) function.
+(Optional. Can be NULL.) Pointer to the provider's [GetForm](https://docs.microsoft.com/windows/desktop/printdocs/getform) function.
 
 ### -field fpSetForm
 
-(Optional. Can be NULL.) Pointer to the provider's [SetForm](https://docs.microsoft.com/en-us/windows/desktop/printdocs/setform) function.
+(Optional. Can be NULL.) Pointer to the provider's [SetForm](https://docs.microsoft.com/windows/desktop/printdocs/setform) function.
 
 ### -field fpEnumForms
 
-(Optional. Can be NULL.) Pointer to the provider's [EnumForms](https://docs.microsoft.com/en-us/windows/desktop/printdocs/enumforms) function.
+(Optional. Can be NULL.) Pointer to the provider's [EnumForms](https://docs.microsoft.com/windows/desktop/printdocs/enumforms) function.
 
 ### -field fpEnumMonitors
 
-(Optional. Can be NULL.) Pointer to the provider's [EnumMonitors](https://docs.microsoft.com/en-us/windows/desktop/printdocs/enummonitors) function, which is described in the Windows SDK documentation. However, at the provider level this function must supply one of the DWORD return values listed in the following table.
+(Optional. Can be NULL.) Pointer to the provider's [EnumMonitors](https://docs.microsoft.com/windows/desktop/printdocs/enummonitors) function, which is described in the Windows SDK documentation. However, at the provider level this function must supply one of the DWORD return values listed in the following table.
 
 | Return value | Definition |
 | --- | --- |
@@ -230,15 +229,15 @@ Obsolete. Must be NULL.
 
 ### -field fpAddPort
 
-(Optional. Can be NULL.) Pointer to the provider's [AddPort](https://docs.microsoft.com/en-us/windows/desktop/printdocs/addport) function. If the provider does not support the specified port, it must supply ERROR_NOT_SUPPORTED to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's [AddPort](https://docs.microsoft.com/windows/desktop/printdocs/addport) function. If the provider does not support the specified port, it must supply ERROR_NOT_SUPPORTED to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpConfigurePort
 
-(Required.) Pointer to the provider's [ConfigurePort](https://docs.microsoft.com/en-us/windows/desktop/printdocs/configureport) function. If the function supplies ERROR_NOT_SUPPORTED, ERROR_INVALID_NAME, or ERROR_UNKNOWN_PORT to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror), the router will attempt to call another provider.
+(Required.) Pointer to the provider's [ConfigurePort](https://docs.microsoft.com/windows/desktop/printdocs/configureport) function. If the function supplies ERROR_NOT_SUPPORTED, ERROR_INVALID_NAME, or ERROR_UNKNOWN_PORT to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror), the router will attempt to call another provider.
 
 ### -field fpDeletePort
 
-(Required.) Pointer to the provider's [DeletePort](https://docs.microsoft.com/en-us/windows/desktop/printdocs/deleteport) function. If the provider does not support the specified port, it must supply ERROR_NOT_SUPPORTED to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Required.) Pointer to the provider's [DeletePort](https://docs.microsoft.com/windows/desktop/printdocs/deleteport) function. If the provider does not support the specified port, it must supply ERROR_NOT_SUPPORTED to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpCreatePrinterIC
 
@@ -254,11 +253,11 @@ For internal use only. Must be NULL.
 
 ### -field fpAddPrinterConnection
 
-(Optional. Can be NULL.) Pointer to the provider's [AddPrinterConnection](https://docs.microsoft.com/en-us/windows/desktop/printdocs/addprinterconnection) function.
+(Optional. Can be NULL.) Pointer to the provider's [AddPrinterConnection](https://docs.microsoft.com/windows/desktop/printdocs/addprinterconnection) function.
 
 ### -field fpDeletePrinterConnection
 
-(Optional. Can be NULL.) Pointer to the provider's [DeletePrinterConnection](https://docs.microsoft.com/en-us/windows/desktop/printdocs/deleteprinterconnection) function.
+(Optional. Can be NULL.) Pointer to the provider's [DeletePrinterConnection](https://docs.microsoft.com/windows/desktop/printdocs/deleteprinterconnection) function.
 
 ### -field fpPrinterMessageBox
 
@@ -266,27 +265,27 @@ Not used. Must be NULL.
 
 ### -field fpAddMonitor
 
-(Optional. Can be NULL.) Pointer to the provider's [AddMonitor](https://docs.microsoft.com/en-us/windows/desktop/printdocs/addmonitor) function. If the provider does not support the specified monitor, it must supply ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's [AddMonitor](https://docs.microsoft.com/windows/desktop/printdocs/addmonitor) function. If the provider does not support the specified monitor, it must supply ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpDeleteMonitor
 
-(Optional. Can be NULL.) Pointer to the provider's [DeleteMonitor](https://docs.microsoft.com/en-us/windows/desktop/printdocs/addmonitor) function. If the provider does not support the specified monitor, it must supply ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's [DeleteMonitor](https://docs.microsoft.com/windows/desktop/printdocs/addmonitor) function. If the provider does not support the specified monitor, it must supply ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpResetPrinter
 
-(Optional. Can be NULL.) Pointer to the provider's [ResetPrinter](https://docs.microsoft.com/en-us/windows/desktop/printdocs/resetprinter) function.
+(Optional. Can be NULL.) Pointer to the provider's [ResetPrinter](https://docs.microsoft.com/windows/desktop/printdocs/resetprinter) function.
 
 ### -field fpGetPrinterDriverEx
 
-(Optional. Can be NULL.) Pointer to the provider's **GetPrinterDriverEx** function. If **GetPrinterDriverEx** is not supported, the router attempts to call [GetPrinterDriver](https://docs.microsoft.com/en-us/windows/desktop/printdocs/getprinterdriver).
+(Optional. Can be NULL.) Pointer to the provider's **GetPrinterDriverEx** function. If **GetPrinterDriverEx** is not supported, the router attempts to call [GetPrinterDriver](https://docs.microsoft.com/windows/desktop/printdocs/getprinterdriver).
 
 ### -field fpFindFirstPrinterChangeNotification
 
-(Optional. Can be NULL.) Pointer to the provider's [FindFirstPrinterChangeNotification](https://docs.microsoft.com/en-us/windows/desktop/printdocs/findfirstprinterchangenotification) function.
+(Optional. Can be NULL.) Pointer to the provider's [FindFirstPrinterChangeNotification](https://docs.microsoft.com/windows/desktop/printdocs/findfirstprinterchangenotification) function.
 
 ### -field fpFindClosePrinterChangeNotification
 
-(Optional. Can be NULL.) Pointer to the provider's [FindClosePrinterChangeNotification](https://docs.microsoft.com/en-us/windows/desktop/printdocs/findcloseprinterchangenotification) function.
+(Optional. Can be NULL.) Pointer to the provider's [FindClosePrinterChangeNotification](https://docs.microsoft.com/windows/desktop/printdocs/findcloseprinterchangenotification) function.
 
 ### -field fpAddPortEx
 
@@ -310,15 +309,15 @@ For internal use only. Must be NULL.
 
 ### -field fpSetPort
 
-(Optional. Can be NULL.) Pointer to the provider's [SetPort](https://docs.microsoft.com/en-us/windows/desktop/printdocs/setport) function. If the function supplies ERROR_NOT_SUPPORTED, ERROR_INVALID_NAME, or ERROR_UNKNOWN_PORT to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror), the router will attempt to call another provider.
+(Optional. Can be NULL.) Pointer to the provider's [SetPort](https://docs.microsoft.com/windows/desktop/printdocs/setport) function. If the function supplies ERROR_NOT_SUPPORTED, ERROR_INVALID_NAME, or ERROR_UNKNOWN_PORT to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror), the router will attempt to call another provider.
 
 ### -field fpEnumPrinterData
 
-(Optional. Can be NULL.) Pointer to the provider's [EnumPrinterData](https://docs.microsoft.com/en-us/windows/desktop/printdocs/enumprinterdata) function.
+(Optional. Can be NULL.) Pointer to the provider's [EnumPrinterData](https://docs.microsoft.com/windows/desktop/printdocs/enumprinterdata) function.
 
 ### -field fpDeletePrinterData
 
-(Optional. Can be NULL.) Pointer to the provider's [DeletePrinterData](https://docs.microsoft.com/en-us/windows/desktop/printdocs/deleteprinterdata) function.
+(Optional. Can be NULL.) Pointer to the provider's [DeletePrinterData](https://docs.microsoft.com/windows/desktop/printdocs/deleteprinterdata) function.
 
 ### -field fpClusterSplOpen
 
@@ -334,27 +333,27 @@ For internal use only. Must be NULL.
 
 ### -field fpSetPrinterDataEx
 
-(Optional. Can be NULL.) Pointer to the provider's [SetPrinterDataEx](https://docs.microsoft.com/en-us/windows/desktop/printdocs/setprinterdataex) function.
+(Optional. Can be NULL.) Pointer to the provider's [SetPrinterDataEx](https://docs.microsoft.com/windows/desktop/printdocs/setprinterdataex) function.
 
 ### -field fpGetPrinterDataEx
 
-(Optional. Can be NULL.) Pointer to the provider's [GetPrinterDataEx](https://docs.microsoft.com/en-us/windows/desktop/printdocs/getprinterdataex) function.
+(Optional. Can be NULL.) Pointer to the provider's [GetPrinterDataEx](https://docs.microsoft.com/windows/desktop/printdocs/getprinterdataex) function.
 
 ### -field fpEnumPrinterDataEx
 
-(Optional. Can be NULL.) Pointer to the provider's [EnumPrinterDataEx](https://docs.microsoft.com/en-us/windows/desktop/printdocs/enumprinterdataex) function.
+(Optional. Can be NULL.) Pointer to the provider's [EnumPrinterDataEx](https://docs.microsoft.com/windows/desktop/printdocs/enumprinterdataex) function.
 
 ### -field fpEnumPrinterKey
 
-(Optional. Can be NULL.) Pointer to the provider's [EnumPrinterKey](https://docs.microsoft.com/en-us/windows/desktop/printdocs/enumprinterkey) function.
+(Optional. Can be NULL.) Pointer to the provider's [EnumPrinterKey](https://docs.microsoft.com/windows/desktop/printdocs/enumprinterkey) function.
 
 ### -field fpDeletePrinterDataEx
 
-(Optional. Can be NULL.) Pointer to the provider's [DeletePrinterDataEx](https://docs.microsoft.com/en-us/windows/desktop/printdocs/deleteprinterdataex) function.
+(Optional. Can be NULL.) Pointer to the provider's [DeletePrinterDataEx](https://docs.microsoft.com/windows/desktop/printdocs/deleteprinterdataex) function.
 
 ### -field fpDeletePrinterKey
 
-(Optional. Can be NULL.) Pointer to the provider's [DeletePrinterKey](https://docs.microsoft.com/en-us/windows/desktop/printdocs/deleteprinterkey) function.
+(Optional. Can be NULL.) Pointer to the provider's [DeletePrinterKey](https://docs.microsoft.com/windows/desktop/printdocs/deleteprinterkey) function.
 
 ### -field fpSeekPrinter
 
@@ -362,7 +361,7 @@ For internal use only. Must be NULL.
 
 ### -field fpDeletePrinterDriverEx
 
-(Optional. Can be NULL.) Pointer to the provider's [DeletePrinterDriverEx](https://docs.microsoft.com/en-us/windows/desktop/printdocs/deleteprinterdriverex) function. If the provider does not support the specified server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's [DeletePrinterDriverEx](https://docs.microsoft.com/windows/desktop/printdocs/deleteprinterdriverex) function. If the provider does not support the specified server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpAddPerMachineConnection
 
@@ -378,11 +377,11 @@ For internal use only. Must be NULL.
 
 ### -field fpXcvData
 
-(Optional. Can be NULL.) Pointer to the provider's [XcvData](https://docs.microsoft.com/en-us/previous-versions/ff564255(v=vs.85)) function.
+(Optional. Can be NULL.) Pointer to the provider's [XcvData](https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)) function.
 
 ### -field fpAddPrinterDriverEx
 
-(Optional. Can be NULL.) Pointer to the provider's [AddPrinterDriverEx](https://docs.microsoft.com/en-us/windows/desktop/printdocs/addprinterdriverex) function. If the provider does not support the specified server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
+(Optional. Can be NULL.) Pointer to the provider's [AddPrinterDriverEx](https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriverex) function. If the provider does not support the specified server, it should specify ERROR_INVALID_NAME to [SetLastError](https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror) before returning **FALSE**.
 
 ### -field fpSplReadPrinter
 
@@ -410,7 +409,7 @@ For internal use only. Must be NULL.
 
 ### -field fpSendRecvBidiData
 
-(Optional. Can be NULL.) Pointer to the provider's [SendRecvBidiData](https://docs.microsoft.com/en-us/previous-versions//ff562068(v=vs.85)) function. If this parameter is NULL, it means that the provider does not support bidi communication.
+(Optional. Can be NULL.) Pointer to the provider's [SendRecvBidiData](https://docs.microsoft.com/previous-versions//ff562068(v=vs.85)) function. If this parameter is NULL, it means that the provider does not support bidi communication.
 
 ### -field fpAddPrinterConnection2
 
@@ -484,6 +483,6 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 
 [RefreshPrinterChangeNotification](https://docs.microsoft.com/previous-versions/ff561930(v=vs.85))
 
-[SendRecvBidiData](https://docs.microsoft.com/en-us/previous-versions//ff562068(v=vs.85))
+[SendRecvBidiData](https://docs.microsoft.com/previous-versions//ff562068(v=vs.85))
 
-[XcvData](https://docs.microsoft.com/en-us/previous-versions/ff564255(v=vs.85))
+[XcvData](https://docs.microsoft.com/previous-versions/ff564255(v=vs.85))

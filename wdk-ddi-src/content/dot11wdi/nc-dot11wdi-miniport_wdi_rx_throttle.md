@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: A5985C6D-3768-4ACE-B52B-3D3494334114
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_RX_THROTTLE, MINIPORT_WDI_RX_THROTTLE callback, MiniportWdiRxThrottle, MiniportWdiRxThrottle callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxThrottle, netvista.miniportwdirxthrottle
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiRxThrottle"
 req.header: dot11wdi.h
@@ -68,15 +67,6 @@ TAL device handle returned by the IHV miniport in <a href="https://docs.microsof
 ### -param RxThrottleLevel [in]
 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_rx_throttle_level">WDI_RX_THROTTLE_LEVEL</a> enumeration value that specifies the throttle level.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

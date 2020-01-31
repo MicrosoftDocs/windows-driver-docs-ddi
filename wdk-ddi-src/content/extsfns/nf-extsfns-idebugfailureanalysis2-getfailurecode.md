@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: E407482E-26DD-40C6-9405-DF5CA8996B91
 ms.date: 05/03/2018
 ms.keywords: GetFailureCode, GetFailureCode method [Windows Debugging], GetFailureCode method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureCode method, IDebugFailureAnalysis2.GetFailureCode, IDebugFailureAnalysis2::GetFailureCode, debugger.idebugfailureanalysis2_getfailurecode, extsfns/IDebugFailureAnalysis2::GetFailureCode
-ms.topic: method
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.GetFailureCode"
 req.header: extsfns.h
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>GetFailureCode</b> method gets the bug check code or exception code of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

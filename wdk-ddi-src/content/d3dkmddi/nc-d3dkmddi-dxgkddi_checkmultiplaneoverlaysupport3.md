@@ -6,7 +6,6 @@ old-location: display\dxgkddi_checkmultiplaneoverlaysupport3.htm
 ms.assetid: 2EA7E8C4-51E0-4BDE-B69B-1A40FEB82952
 ms.date: 04/16/2018
 ms.keywords: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3, DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3 callback, DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3 callback function [Display Devices], d3dkmddi/DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3, display.dxgkddi_checkmultiplaneoverlaysupport3
-ms.topic: callback
 f1_keywords:
  - "d3dkmddi/DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3"
 req.header: d3dkmddi.h
@@ -64,7 +63,7 @@ Identifies the adapter containing the overlay hardware.
 ### -param pCheckMultiPlaneOverlaySupport
 
 
-A pointer to a DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 structure that describes the surfaces and display options to present.
+A pointer to a [DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3](ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport3.MD) structure that describes the surfaces and display options to present.
 
 
 ## -returns

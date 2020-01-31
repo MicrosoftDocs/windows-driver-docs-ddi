@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: ec844b92-7cff-4b99-82cc-afa5ff022b7b
 ms.author: windowsdriverdev
 ms.date: 10/21/2019
-ms.topic: struct
 f1_keywords:
  - "netadapter/NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES"
 ms.keywords: NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES, NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES, 
 req.header: netadapter.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

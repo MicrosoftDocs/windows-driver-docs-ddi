@@ -6,7 +6,6 @@ old-location: display\d3d11_1ddi_video_processor_caps.htm
 ms.assetid: d825a0d1-fa58-4525-bf90-eb7eaee0cfba
 ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_CAPS, D3D11_1DDI_VIDEO_PROCESSOR_CAPS structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_CAPS, display.d3d11_1ddi_video_processor_caps
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_CAPS"
 req.header: d3d10umddi.h

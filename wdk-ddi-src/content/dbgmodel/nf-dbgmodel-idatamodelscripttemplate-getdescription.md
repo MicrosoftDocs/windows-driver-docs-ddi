@@ -4,7 +4,6 @@ title: IDataModelScriptTemplate::GetDescription (dbgmodel.h)
 description: The GetDescription method returns a description of the template. 
 ms.assetid: 1335191d-ca6c-4f68-80c1-a0116944f8c8
 ms.date: 08/21/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelScriptTemplate.GetDescription"
 ms.keywords: IDataModelScriptTemplate::GetDescription, GetDescription, IDataModelScriptTemplate.GetDescription, IDataModelScriptTemplate::GetDescription, IDataModelScriptTemplate.GetDescription

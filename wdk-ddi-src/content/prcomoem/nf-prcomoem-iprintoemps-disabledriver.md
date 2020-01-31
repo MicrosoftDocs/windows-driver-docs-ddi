@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 4fa25706-dc79-45fd-a805-7b9d110213ed
 ms.date: 04/20/2018
 ms.keywords: DisableDriver, DisableDriver method [Print Devices], DisableDriver method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],DisableDriver method, IPrintOemPS.DisableDriver, IPrintOemPS::DisableDriver, prcomoem/IPrintOemPS::DisableDriver, print.iprintoemps_disabledriver, print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemPS.DisableDriver"
 req.header: prcomoem.h
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <code>IPrintOemPS::DisableDriver</code> method allows a rendering plug-in for <a href="https://docs.microsoft.com/windows-hardware/drivers/">Pscript</a> to free resources that were allocated by the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemps-enabledriver">IPrintOemPS::EnableDriver</a> method.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: C7A2792C-FDAE-4525-A8B1-7F8F6BA8249A
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_CREATE_COMPLETION, NDK_FN_CREATE_COMPLETION callback, NdkCreateCompletion, NdkCreateCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateCompletion, netvista.ndk_fn_create_completion
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkCreateCompletion"
 req.header: ndkpi.h
@@ -69,15 +68,6 @@ The asynchronous completion status for the create request. See the object creati
 ### -param *pNdkObject [in]
 
 A pointer to an NDK object header (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>).
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

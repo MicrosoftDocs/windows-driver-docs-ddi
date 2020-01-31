@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: a97c86e9-4fd9-4e2f-9787-4fa19c38a69b
 ms.date: 05/02/2018
 ms.keywords: FILTER_DIRECT_OID_REQUEST_COMPLETE, FILTER_DIRECT_OID_REQUEST_COMPLETE callback, FilterDirectOidRequestComplete, FilterDirectOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/FilterDirectOidRequestComplete, ndis_request_direct_ref_7c57d5c9-2a37-4602-b94e-df700652b1a9.xml, netvista.filterdirectoidrequestcomplete
-ms.topic: callback
 f1_keywords:
  - "ndis/FilterDirectOidRequestComplete"
 req.header: ndis.h
@@ -82,15 +81,6 @@ The final status of the request that an underlying driver or NDIS set. This para
      <i>FilterDirectOidRequestComplete</i> does with the information at 
      <i>OidRequest</i> . For a list of the possible status values, see the return values of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfdirectoidrequest">NdisFDirectOidRequest</a>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

@@ -6,7 +6,6 @@ old-location: display\videoprocessorsetstreamalpha.htm
 ms.assetid: 9208bcd7-c030-4c2f-b3bc-e1bff3839cef
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA callback, d3d10umddi/pfnVideoProcessorSetStreamAlpha, display.videoprocessorsetstreamalpha, pfnVideoProcessorSetStreamAlpha, pfnVideoProcessorSetStreamAlpha callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetStreamAlpha"
 req.header: d3d10umddi.h
@@ -92,15 +91,6 @@ A pointer to a <b>FLOAT</b> value that specifies the planar alpha value. The val
 
 </div>
 <div> </div>
-
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
 
 
 

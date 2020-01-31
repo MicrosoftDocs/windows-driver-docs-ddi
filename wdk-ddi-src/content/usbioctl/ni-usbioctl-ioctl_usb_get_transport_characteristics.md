@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 36CF2034-C816-421A-8B59-A4DC4EFFEB70
 ms.date: 05/07/2018
 ms.keywords: IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS, IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS control, IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS control code [Buses], buses.ioctl_usb_get_transport_characteristics, usbioctl/IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS
-ms.topic: ioctl
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS"
 req.header: usbioctl.h

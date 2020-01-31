@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: 096314c3-db04-4d4d-bab4-697ce4edd6fe
 ms.author: windowsdriverdev
 ms.date: 10/07/2019
-ms.topic: function
 f1_keywords:
  - "netwakesource/NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT"
 ms.keywords: NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT
 req.header: netwakesource.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

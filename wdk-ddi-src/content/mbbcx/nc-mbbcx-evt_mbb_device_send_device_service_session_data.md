@@ -5,7 +5,6 @@ description: A client driver's EvtMbbDeviceSendServiceSessionData event callback
 tech.root: netvista
 ms.assetid: ce977d52-cc00-472c-84f9-e3d7e9fe9778
 ms.date: 07/02/2018
-ms.topic: callback
 f1_keywords:
  - "mbbcx/EVT_MBB_DEVICE_SEND_DEVICE_SERVICE_SESSION_DATA"
 req.header: mbbcx.h
@@ -79,10 +78,6 @@ The ID of the device service session obtained from a previous call to [**MbbAdap
 ### -param Data
 
 A WDFMEMORY object containing the data to pass to the device.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

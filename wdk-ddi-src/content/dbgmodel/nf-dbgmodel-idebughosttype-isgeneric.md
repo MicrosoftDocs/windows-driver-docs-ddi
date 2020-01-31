@@ -4,7 +4,6 @@ title: IDebugHostType::IsGeneric (dbgmodel.h)
 description: Returns whether the type is a generic or template.
 ms.assetid: 2bf3a854-e0e4-44cc-adca-61d8c07e47a0
 ms.date: 09/11/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDebugHostType.IsGeneric"
 ms.keywords: IDebugHostType::IsGeneric, IsGeneric, IDebugHostType.IsGeneric, IDebugHostType::IsGeneric, IDebugHostType.IsGeneric

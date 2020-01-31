@@ -6,7 +6,6 @@ old-location: display\encryptionblt1.htm
 ms.assetid: ea6f1b8c-d65a-4d6d-a7ae-998374bf5bfb
 ms.date: 05/10/2018
 ms.keywords: EncryptionBlt, EncryptionBlt callback function [Display Devices], PFND3D11_1DDI_ENCRYPTIONBLT, PFND3D11_1DDI_ENCRYPTIONBLT callback, d3d10umddi/EncryptionBlt, display.encryptionblt1, display.pfnencryptionblt1
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -79,10 +78,6 @@ A pointer to a block of memory that contains the initialization vector that is r
 
 </div>
 <div> </div>
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

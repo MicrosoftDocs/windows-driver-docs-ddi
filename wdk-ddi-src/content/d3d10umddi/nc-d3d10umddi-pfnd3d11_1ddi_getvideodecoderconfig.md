@@ -6,7 +6,6 @@ old-location: display\getvideodecoderconfig.htm
 ms.assetid: e13cb42b-258e-4fa6-8dc0-8983b118af3c
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERCONFIG, PFND3D11_1DDI_GETVIDEODECODERCONFIG callback, d3d10umddi/pfnGetVideoDecoderConfig, display.getvideodecoderconfig, pfnGetVideoDecoderConfig, pfnGetVideoDecoderConfig callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnGetVideoDecoderConfig"
 req.header: d3d10umddi.h
@@ -84,15 +83,6 @@ The zero-based index of the video decoder configuration that is used for the spe
 *pConfig* [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_decoder_config">D3D11_1DDI_VIDEO_DECODER_CONFIG</a> structure that describes the video decoder configuration.
-
-
-
-
-## -returns
-
-
-
-This callback function does not return a value.
 
 
 

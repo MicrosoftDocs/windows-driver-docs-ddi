@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 1C08937A-2B0C-4A6C-ACDF-1A751BF0D6F6
 ms.date: 04/27/2018
 ms.keywords: BluetoothPortIndicationCallbackEnhanced, BluetoothPortIndicationCallbackEnhanced callback function [Bluetooth Devices], PFNBTHPORT_INDICATION_CALLBACK_ENHANCED, PFNBTHPORT_INDICATION_CALLBACK_ENHANCED callback, bltooth.enhanced_l2cap_callback_function, bthddi/BluetoothPortIndicationCallbackEnhanced
-ms.topic: callback
 f1_keywords:
  - "bthddi/BluetoothPortIndicationCallbackEnhanced"
 req.header: bthddi.h
@@ -77,15 +76,6 @@ An
 An 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_indication_parameters_enhanced">INDICATION_PARAMETERS_ENHANCED</a> structure that
      contains event-specific parameters.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

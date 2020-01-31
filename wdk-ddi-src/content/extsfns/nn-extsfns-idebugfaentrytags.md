@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: B52DFB0E-0035-40C2-B2F5-5E16B16931C2
 ms.date: 05/03/2018
 ms.keywords: IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging],described, debugger.idebugfaentrytags, extsfns/IDebugFAEntryTags
-ms.topic: interface
 f1_keywords:
  - "extsfns/IDebugFAEntryTags"
 req.header: extsfns.h

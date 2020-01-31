@@ -4,7 +4,6 @@ title: D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW (d3d12umddi.h)
 description: Describes a three-dimensional (3-D) texture that is used to create a shader resource view.
 ms.assetid: 869a8703-5fe7-42be-bbec-771703f7d843
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW"
 ms.keywords: D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW, D3D12DDIARG_TEX3D_SHADER_RESOURCE_VIEW, 

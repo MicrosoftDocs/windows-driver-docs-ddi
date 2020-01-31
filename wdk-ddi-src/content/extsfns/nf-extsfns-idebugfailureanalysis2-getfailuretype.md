@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 3BE85B65-DAE0-41E7-AB24-B5E8E7073E1A
 ms.date: 05/03/2018
 ms.keywords: GetFailureType, GetFailureType method [Windows Debugging], GetFailureType method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureType method, IDebugFailureAnalysis2.GetFailureType, IDebugFailureAnalysis2::GetFailureType, debugger.idebugfailureanalysis2_getfailuretype, extsfns/IDebugFailureAnalysis2::GetFailureType
-ms.topic: method
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.GetFailureType"
 req.header: extsfns.h
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>GetFailureType</b> method gets the failure type of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object. The failure type indicates whether the code being analyzed was running in kernel mode or user mode.
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

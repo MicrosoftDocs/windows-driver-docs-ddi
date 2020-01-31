@@ -5,7 +5,6 @@ description: The EvtNetAdapterReceiveScalingEnable callback function is implemen
 tech.root: netvista
 ms.assetid: 3c249ff6-2a88-4b73-9f04-b3be1a2996d9
 ms.date: 03/08/2018
-ms.topic: callback
 f1_keywords:
  - "netreceivescaling/EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE"
 req.header: netreceivescaling.h
@@ -67,9 +66,6 @@ typedef EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE *PFN_NET_ADAPTER_RECEIVE_SCALING
 
 ### -param Adapter 
 The **NETADAPTER** object the client driver obtained in a previous call to [NetAdapterCreate](../netadapter/nf-netadapter-netadaptercreate.md).
-
-## -returns
-This callback function does not return a value.
 
 ## -remarks
 Register your implementation of this callback function by setting the appropriate member of the [NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES](ns-netreceivescaling-_net_adapter_receive_scaling_capabilities.md) structure and then calling [NetAdapterSetReceiveScalingCapabilities](nf-netreceivescaling-netadaptersetreceivescalingcapabilities.md).Client drivers typically call **NetAdapterSetReceiveScalingCapabilities** when starting a net adapter, before calling [**NetAdapterStart**](../netadapter/nf-netadapter-netadapterstart.md).

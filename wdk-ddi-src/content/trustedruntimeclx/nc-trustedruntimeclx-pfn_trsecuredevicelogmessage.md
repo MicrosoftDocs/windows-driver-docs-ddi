@@ -4,7 +4,6 @@ title: PFN_TRSECUREDEVICELOGMESSAGE (trustedruntimeclx.h)
 description: 
 ms.assetid: 796ac627-fd80-4074-bcf3-a7c23108d518
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "trustedruntimeclx/*PFN_TRSECUREDEVICELOGMESSAGE"
 req.header: trustedruntimeclx.h
@@ -44,7 +43,7 @@ ms.custom: RS5
 
  
 
-## -prototype
+## -syntax
 
 ```cpp
 //Declaration

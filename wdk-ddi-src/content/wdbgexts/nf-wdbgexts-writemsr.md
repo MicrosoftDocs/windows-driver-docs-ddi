@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: a88c2c74-ab9a-4d9a-aeb7-d08bfe497da4
 ms.date: 05/03/2018
 ms.keywords: WdbgExts_Ref_faeb78e1-24a2-4210-94f9-4e468ba69181.xml, WriteMsr, WriteMsr function [Windows Debugging], dbgeng/WriteMsr, debugger.writemsr
-ms.topic: function
 f1_keywords:
  - "wdbgexts/WriteMsr"
 req.header: wdbgexts.h

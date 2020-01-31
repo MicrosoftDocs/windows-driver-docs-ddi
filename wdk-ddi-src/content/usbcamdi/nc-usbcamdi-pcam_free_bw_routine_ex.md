@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: ef6aa2bf-8b45-4048-ac21-b069e28b556f
 ms.date: 04/23/2018
 ms.keywords: CamFreeBandwidthEx, CamFreeBandwidthEx routine [Streaming Media Devices], PCAM_FREE_BW_ROUTINE_EX, stream.camfreebandwidthex, usbcamdi/CamFreeBandwidthEx, usbcmdpr_bf3efd8f-3320-469c-a358-85cf2d896caf.xml
-ms.topic: callback
 f1_keywords:
  - "usbcamdi/CamFreeBandwidthEx"
 req.header: usbcamdi.h

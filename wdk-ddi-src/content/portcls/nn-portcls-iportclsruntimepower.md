@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 8D03B2A0-6C8C-4EBE-86F4-70C8DE179947
 ms.date: 05/08/2018
 ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], IPortClsRuntimePower interface [Audio Devices],described, audio.iportclsruntimepower, portcls/IPortClsRuntimePower
-ms.topic: interface
 f1_keywords:
  - "portcls/IPortClsRuntimePower"
 req.header: portcls.h
@@ -57,41 +56,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsRuntimePower</b> inte
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IPortClsRuntimePower</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsruntimepower-registerpowercontrolcallback">RegisterPowerControlCallback</a>
-</td>
-<td align="left" width="63%">
-The port class driver (PortCls) uses the <code>RegisterPowerControlCallback</code>  method to register a power control callback.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsruntimepower-sendpowercontrol">SendPowerControl</a>
-</td>
-<td align="left" width="63%">
-The port class driver (PortCls) uses the <code>SendPowerControl</code>  method to send power control codes to the audio adapter.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsruntimepower-unregisterpowercontrolcallback">UnregisterPowerControlCallback</a>
-</td>
-<td align="left" width="63%">
-The port class driver (PortCls) uses the <code>UnregisterPowerControlCallback</code>  method to unregister a power control callback.
-
-</td>
-</tr>
-</table> 
 

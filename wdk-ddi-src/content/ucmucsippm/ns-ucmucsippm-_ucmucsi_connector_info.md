@@ -5,7 +5,6 @@ tech.root: usbref
 description: Stores information about connectors that cannot be obtained by sending UCSI commands such as “Get Connector Capability”. 
 ms.assetid: 074f3d8d-a2b6-4c80-b3f7-7610672bfd6f
 ms.date: 09/30/2018
-ms.topic: struct
 f1_keywords:
  - "ucmucsippm/_UCMUCSI_CONNECTOR_INFO"
 ms.keywords: _UCMUCSI_CONNECTOR_INFO, UCMUCSI_CONNECTOR_INFO, *PUCMUCSI_CONNECTOR_INFO, 

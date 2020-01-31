@@ -4,7 +4,6 @@ title: IIndexableConcept::GetDimensionality (dbgmodel.h)
 description: The GetDimensionality method returns the number of dimensions that the object is indexed in.
 ms.assetid: 6ae1e5d9-4b46-4129-a78a-aab2c60ba49c
 ms.date: 09/19/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IIndexableConcept.GetDimensionality"
 ms.keywords: IIndexableConcept::GetDimensionality, GetDimensionality, IIndexableConcept.GetDimensionality, IIndexableConcept::GetDimensionality, IIndexableConcept.GetDimensionality

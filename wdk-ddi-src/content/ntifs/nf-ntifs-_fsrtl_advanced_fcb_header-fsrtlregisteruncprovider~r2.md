@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 25bd13de-cbac-408f-b985-e131499f05f0
 ms.date: 03/29/2018
 ms.keywords: FsRtlRegisterUncProvider, FsRtlRegisterUncProvider routine [Installable File System Drivers], fsrtlref_275d75b9-0033-4cfc-bb22-5ebfcab8d6ba.xml, ifsk.fsrtlregisteruncprovider, ntifs/FsRtlRegisterUncProvider
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlRegisterUncProvider"
 req.header: ntifs.h

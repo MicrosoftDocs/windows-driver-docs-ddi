@@ -6,7 +6,6 @@ old-location: display\startsessionkeyrefresh1.htm
 ms.assetid: 0973cef3-41a8-495e-aa8a-ce64df53b892
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_STARTSESSIONKEYREFRESH, PFND3D11_1DDI_STARTSESSIONKEYREFRESH callback, d3d10umddi/pfnStartSessionKeyRefresh, display.startsessionkeyrefresh1, pfnStartSessionKeyRefresh, pfnStartSessionKeyRefresh callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -65,10 +64,6 @@ The size, in bytes, of the number in the buffer that is referenced by the <i>pRa
 ### -param pRandomNumber
 
 A pointer to a buffer that contains the status sequence number for the random start.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

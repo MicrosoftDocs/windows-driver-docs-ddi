@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: d75bec3d-b427-40d2-bec3-95b7409f31bb
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_VPORT_PARAMETERS, NDIS_NIC_SWITCH_VPORT_PARAMETERS, NDIS_NIC_SWITCH_VPORT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_PARAMETERS, PNDIS_NIC_SWITCH_VPORT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VPORT_PARAMETERS, netvista.ndis_nic_switch_vport_parameters, ntddndis/NDIS_NIC_SWITCH_VPORT_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_VPORT_PARAMETERS"
-ms.topic: struct
 f1_keywords:
  - "ntddndis/NDIS_NIC_SWITCH_VPORT_PARAMETERS"
 req.header: ntddndis.h

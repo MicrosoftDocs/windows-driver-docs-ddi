@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 1a88138f-aada-410a-a985-249de793aa51
 ms.date: 02/16/2018
 ms.keywords: DOT11EXT_GET_PROFILE_CUSTOM_USER_DATA, Dot11ExtGetProfileCustomUserData, Dot11ExtGetProfileCustomUserData callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_ee7fad1d-d3c2-400d-bf87-b2bdccd61f58.xml, netvista.dot11extgetprofilecustomuserdata, wlanihv/Dot11ExtGetProfileCustomUserData
-ms.topic: callback
 f1_keywords:
  - "wlanihv/Dot11ExtGetProfileCustomUserData"
 req.header: wlanihv.h

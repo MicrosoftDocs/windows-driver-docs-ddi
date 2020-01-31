@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: a92d8c2e-52b5-4941-b49e-42e067e56e91
 ms.date: 04/20/2018
 ms.keywords: DisableDriver, DisableDriver method [Print Devices], DisableDriver method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],DisableDriver method, IPrintOemUni.DisableDriver, IPrintOemUni::DisableDriver, prcomoem/IPrintOemUni::DisableDriver, print.iprintoemuni_disabledriver, print_unidrv-pscript_rendering_033d3e0c-4d60-4925-a5b4-1fb47aa42cc9.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemUni.DisableDriver"
 req.header: prcomoem.h
@@ -49,16 +48,6 @@ req.typenames:
 
 
 The <code>IPrintOemuNI::DisableDriver</code> method allows a rendering plug-in for <a href="https://docs.microsoft.com/windows-hardware/drivers/">Unidrv</a> to free resources that were allocated by the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemuni-enabledriver">IPrintOemUni::EnableDriver</a> method.
-
-
-## -parameters
-
-
-
-
-
-
-#### - None
 
 
 ## -returns

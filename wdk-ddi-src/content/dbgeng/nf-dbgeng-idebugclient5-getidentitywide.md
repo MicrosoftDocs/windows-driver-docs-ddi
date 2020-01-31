@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 8e55f829-2f55-4b83-8e0d-2554246a5d59
 ms.date: 05/03/2018
 ms.keywords: GetIdentityWide, GetIdentityWide method [Windows Debugging], GetIdentityWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetIdentityWide method, IDebugClient5.GetIdentityWide, IDebugClient5::GetIdentityWide, dbgeng/IDebugClient5::GetIdentityWide, debugger.getidentitywide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugClient5.GetIdentityWide"
 req.header: dbgeng.h

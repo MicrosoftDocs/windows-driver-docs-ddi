@@ -5,7 +5,6 @@ description: Implemented by the client driver as the default handler for set obj
 tech.root: netvista
 ms.assetid: 28db8bbf-199f-4724-a6a0-3a31a8e71313
 ms.date: 02/01/2019
-ms.topic: callback
 f1_keywords:
  - "netrequestqueue/NetRequestWdmGetNdisOidRequest"
 req.header: netrequestqueue.h
@@ -86,10 +85,6 @@ A pointer to a caller-supplied buffer.
 
 ### -param InputBufferLength 
 The size of the buffer pointed to by *InputBuffer*.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 Register your implementation of this callback function by setting the appropriate member of [NET_REQUEST_QUEUE_CONFIG](ns-netrequestqueue-_net_request_queue_config.md) and then calling [NetRequestQueueCreate](nf-netrequestqueue-netrequestqueuecreate.md).

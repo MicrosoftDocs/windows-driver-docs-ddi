@@ -4,7 +4,6 @@ title: IDataModelScriptDebugStack::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: d950f193-b2af-4e7c-900a-0d6ec2b7c154
 ms.date: 09/10/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugStack.Release"
 ms.keywords: IDataModelScriptDebugStack::Release, Release, IDataModelScriptDebugStack.Release, IDataModelScriptDebugStack::Release, IDataModelScriptDebugStack.Release
@@ -49,10 +48,6 @@ Decrements the reference count for an interface on an object.
 
 For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
-## -parameters
-
-None
 
 ## -returns
 

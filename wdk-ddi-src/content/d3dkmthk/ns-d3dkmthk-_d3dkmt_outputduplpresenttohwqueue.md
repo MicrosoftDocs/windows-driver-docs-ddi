@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: f970fcdd-e98a-4ad5-9536-7b08bbd19645
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/_D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE"
 ms.prod: windows-hardware

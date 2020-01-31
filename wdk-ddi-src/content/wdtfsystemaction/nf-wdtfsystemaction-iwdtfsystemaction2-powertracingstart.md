@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: b82ebd99-289e-4761-9717-ce09cf5c40f0
 ms.date: 04/04/2018
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],PowerTracingStart method, IWDTFSystemAction2.PowerTracingStart, IWDTFSystemAction2::PowerTracingStart, Microsoft.WDTF.IWDTFSystemAction2.PowerTracingStart, Microsoft::WDTF::IWDTFSystemAction2::PowerTracingStart, PowerTracingStart, PowerTracingStart method [Windows Device Testing Framework], PowerTracingStart method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_powertracingstart, wdtfsystemaction/IWDTFSystemAction2::PowerTracingStart
-ms.topic: method
 f1_keywords:
  - "wdtfsystemaction/IWDTFSystemAction2.PowerTracingStart"
 req.header: wdtfsystemaction.h
@@ -53,13 +52,6 @@ Starts a trace session for power state transitions and saves the trace message f
 
 
 Starts a trace for power state transitions and saves an .etl file in the current working directory
-
-
-## -parameters
-
-
-
-
 
 
 ## -returns

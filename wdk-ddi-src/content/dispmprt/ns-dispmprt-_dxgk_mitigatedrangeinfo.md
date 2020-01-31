@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 291b4503-2e32-4128-980a-c556632a8e81
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
 f1_keywords:
  - "dispmprt/_DXGK_MITIGATEDRANGEINFO"
 ms.prod: windows-hardware

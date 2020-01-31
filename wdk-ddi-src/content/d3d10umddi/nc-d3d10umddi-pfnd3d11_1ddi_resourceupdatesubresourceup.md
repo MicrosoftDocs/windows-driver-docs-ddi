@@ -6,7 +6,6 @@ old-location: display\defaultconstantbufferupdatesubresourceup_d3d11_1_.htm
 ms.assetid: 67FCC9A4-B3C5-46FC-83ED-CFFB8186328F
 ms.date: 05/10/2018
 ms.keywords: DefaultConstantBufferUpdateSubresourceUP(D3D11_1), DefaultConstantBufferUpdateSubresourceUP(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP, PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP callback, d3d10umddi/DefaultConstantBufferUpdateSubresourceUP(D3D11_1), display.defaultconstantbufferupdatesubresourceup_d3d11_1_
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/DefaultConstantBufferUpdateSubresourceUP(D3D11_1)"
 req.header: d3d10umddi.h
@@ -105,18 +104,15 @@ A value that specifies characteristics of copy operation as a bitwise <b>OR</b> 
 
 
 
-## -returns
-
-
-
-None.
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
-
-
-
-
 ## -remarks
+
+
+
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code.
+
+
+
 
 
 

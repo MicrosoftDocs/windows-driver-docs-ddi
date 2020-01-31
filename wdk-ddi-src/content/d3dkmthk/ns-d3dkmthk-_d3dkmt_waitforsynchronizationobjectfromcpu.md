@@ -6,7 +6,6 @@ old-location: display\d3dkmt_waitforsynchronizationobjectfromcpu.htm
 ms.assetid: 76091965-D87B-4429-85A8-EC8085C773D7
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], WaitAny, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dkmt_waitforsynchronizationobjectfromcpu
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU"
 req.header: d3dkmthk.h

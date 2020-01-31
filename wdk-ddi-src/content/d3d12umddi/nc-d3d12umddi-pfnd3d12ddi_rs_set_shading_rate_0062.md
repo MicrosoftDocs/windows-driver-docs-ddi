@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 4bae80db-d024-4820-a82b-3b06730e5426
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -62,10 +61,6 @@ A [D3D12DDI_SHADING_RATE_0062](ne-d3d12umddi-d3d12ddi_shading_rate_0062.md) enum
 ### -param Combiners
 
 Pointer to a [D3D12DDI_SHADING_RATE_COMBINER_0062](ne-d3d12umddi-d3d12ddi_shading_rate_combiner_0062.md) enum that indicates the combined shading rate.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

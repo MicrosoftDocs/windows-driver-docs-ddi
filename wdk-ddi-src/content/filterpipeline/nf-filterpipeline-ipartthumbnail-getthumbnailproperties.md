@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: 4255bdea-4d6e-4e69-ae76-6562a3f07678
 ms.date: 04/20/2018
 ms.keywords: GetThumbnailProperties, GetThumbnailProperties method [Print Devices], GetThumbnailProperties method [Print Devices],IPartThumbnail interface, IPartThumbnail interface [Print Devices],GetThumbnailProperties method, IPartThumbnail.GetThumbnailProperties, IPartThumbnail::GetThumbnailProperties, filterpipeline/IPartThumbnail::GetThumbnailProperties, filterpipeline_efcc2b07-7b10-4599-b03b-e031883c119e.xml, print.ipartthumbnail_getthumbnailproperties
-ms.topic: method
 f1_keywords:
  - "filterpipeline/IPartThumbnail.GetThumbnailProperties"
 req.header: filterpipeline.h

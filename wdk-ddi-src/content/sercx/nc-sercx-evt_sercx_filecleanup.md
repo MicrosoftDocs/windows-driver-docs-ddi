@@ -7,7 +7,6 @@ tech.root: serports
 ms.assetid: D9E19BD1-2C44-4F86-9AEB-F50443FAE8DC
 ms.date: 04/23/2018
 ms.keywords: 1/EvtSerCxFileCleanup, EVT_SERCX_FILECLEANUP, EVT_SERCX_FILECLEANUP callback, EvtSerCxFileCleanup, EvtSerCxFileCleanup callback function [Serial Ports], serports.evtsercxfilecleanup
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCxFileCleanup"
 req.header: sercx.h
@@ -59,15 +58,6 @@ The <i>EvtSerCxFileCleanup</i> event callback function notifies the serial contr
 ### -param Device [in]
 
 A WDFDEVICE handle to the framework device object that represents the serial controller.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

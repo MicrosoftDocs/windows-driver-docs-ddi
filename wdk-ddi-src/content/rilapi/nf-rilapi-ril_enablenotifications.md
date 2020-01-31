@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 560cb5a3-ac15-4a11-977a-b66caefc2f6b
 ms.date: 05/02/2018
 ms.keywords: RIL_EnableNotifications, RIL_EnableNotifications method [Network Drivers Starting with Windows Vista], netvista.ril_enablenotifications, rilapi/RIL_EnableNotifications
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_EnableNotifications"
 req.header: rilapi.h

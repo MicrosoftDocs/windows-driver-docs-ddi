@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 06E7FC94-628D-4601-8173-F118043A13FB
 ms.date: 05/02/2018
 ms.keywords: NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS, NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS callback, ReportFilteredNetBufferLists, ReportFilteredNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/ReportFilteredNetBufferLists, netvista.reportfilterednetbufferlists
-ms.topic: callback
 f1_keywords:
  - "ndis/ReportFilteredNetBufferLists"
 req.header: ndis.h
@@ -100,15 +99,6 @@ A pointer to a linked list of <a href="https://docs.microsoft.com/windows-hardwa
 ### -param FilterReason [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains a user-friendly description of the reason for the drop or exclusion of the packets. For more information, see the Remarks section.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

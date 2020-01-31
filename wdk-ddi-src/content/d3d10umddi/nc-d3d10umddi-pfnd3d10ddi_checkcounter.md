@@ -6,7 +6,6 @@ old-location: display\checkcounter.htm
 ms.assetid: 592a5146-a2fe-41d1-854b-df27a97bd513
 ms.date: 05/10/2018
 ms.keywords: CheckCounter, CheckCounter callback function [Display Devices], PFND3D10DDI_CHECKCOUNTER, PFND3D10DDI_CHECKCOUNTER callback, UserModeDisplayDriverDx10_Functions_450a0976-fc56-4a5a-8a01-9c9d1041b628.xml, d3d10umddi/CheckCounter, display.checkcounter
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/CheckCounter"
 req.header: d3d10umddi.h
@@ -118,18 +117,9 @@ A pointer to a variable that receives the size, in bytes, of the NULL-terminated
 
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
-
-
-
-
 ## -remarks
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 2f0c10f7-009a-4108-ad23-d6b6e2e1257e
 ms.date: 05/03/2018
 ms.keywords: IDebugOutputCallbacksWide, IDebugOutputCallbacksWide interface [Windows Debugging], IDebugOutputCallbacksWide interface [Windows Debugging],described, dbgeng/IDebugOutputCallbacksWide, debugger.idebugoutputcallbackswide
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugOutputCallbacksWide"
 req.header: dbgeng.h
@@ -56,26 +55,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugOutputCallbacksWide</b>
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDebugOutputCallbacksWide</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
-</td>
-<td align="left" width="63%">
-This method is called by the engine to send output from the client to the <b>IDebugOutputCallbacksWide</b> object that is registered with the client.
-
-</td>
-</tr>
-</table> 
-
 
 ## -see-also
 

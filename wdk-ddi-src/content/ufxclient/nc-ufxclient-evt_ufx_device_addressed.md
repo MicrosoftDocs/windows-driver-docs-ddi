@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 99120A01-4674-465A-BA75-58F1871BB820
 ms.date: 05/07/2018
 ms.keywords: EVT_UFX_DEVICE_ADDRESSED, EVT_UFX_DEVICE_ADDRESSED callback, EvtUfxDeviceAddressed, EvtUfxDeviceAddressed callback function [Buses], PFN_UFX_DEVICE_ADDRESSED, PFN_UFX_DEVICE_ADDRESSED callback function pointer [Buses], buses.evt_ufx_device_addressed, ufxclient/EvtUfxDeviceAddressed
-ms.topic: callback
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_ADDRESSED"
 req.header: ufxclient.h
@@ -72,15 +71,6 @@ New USB device address to assign.
 #### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

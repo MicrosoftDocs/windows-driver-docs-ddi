@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: 04e24520-1ccd-4c27-8bad-ff4cac890e2e
 ms.author: windowsdriverdev
 ms.date: 10/03/2019
-ms.topic: function
 f1_keywords:
  - "netpoweroffload/NetPowerOffloadGetType"
 ms.keywords: NetPowerOffloadGetType
 req.header: netpoweroffload.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

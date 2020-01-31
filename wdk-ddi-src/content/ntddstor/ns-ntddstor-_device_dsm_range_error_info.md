@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 23b635e6-0e49-4207-a46f-5b632de643bf
 ms.author: windowsdriverdev
 ms.date: 08/23/2019
-ms.topic: struct
 ms.keywords: DEVICE_DSM_RANGE_ERROR_INFO, DEVICE_DSM_RANGE_ERROR_INFO, *PDEVICE_DSM_RANGE_ERROR_INFO, DEVICE_DSM_RANGE_ERROR_OUTPUT, *PDEVICE_DSM_RANGE_ERROR_OUTPUT, 
 req.header: ntddstor.h
 req.include-header:

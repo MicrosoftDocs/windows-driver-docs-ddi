@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 4caf59d4-262a-49e3-8b66-9cf29ed5cee5
 ms.date: 03/29/2018
 ms.keywords: "*PCDROM_TOC_ATIP_DATA, CDROM_TOC_ATIP_DATA, CDROM_TOC_ATIP_DATA structure [Storage Devices], PCDROM_TOC_ATIP_DATA, PCDROM_TOC_ATIP_DATA structure pointer [Storage Devices], _CDROM_TOC_ATIP_DATA, ntddcdrm/CDROM_TOC_ATIP_DATA, ntddcdrm/PCDROM_TOC_ATIP_DATA, storage.cdrom_toc_atip_data, structs-CD-ROM_57534148-0c2f-4182-8b0e-3fe4ed10505e.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddcdrm/CDROM_TOC_ATIP_DATA"
 req.header: ntddcdrm.h

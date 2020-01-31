@@ -6,7 +6,6 @@ old-location: display\dxgk_deviceinfo.htm
 ms.assetid: 8d941bee-2473-43f8-a157-002708b247aa
 ms.date: 05/10/2018
 ms.keywords: DXGK_DEVICEINFO, DXGK_DEVICEINFO structure [Display Devices], DmStructs_9e654caa-e4d0-4f2f-bb1a-07bee305f8f6.xml, _DXGK_DEVICEINFO, d3dkmddi/DXGK_DEVICEINFO, display.dxgk_deviceinfo
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_DEVICEINFO"
 req.header: d3dkmddi.h

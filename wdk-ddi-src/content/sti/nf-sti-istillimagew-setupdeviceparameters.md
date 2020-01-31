@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 8fbbe6c8-bf65-42df-a4e4-cb683b567bf7
 ms.date: 05/03/2018
 ms.keywords: IStillImageW interface [Imaging Devices],SetupDeviceParameters method, IStillImageW.SetupDeviceParameters, IStillImageW::SetupDeviceParameters, SetupDeviceParameters, SetupDeviceParameters method [Imaging Devices], SetupDeviceParameters method [Imaging Devices],IStillImageW interface, image.istillimage_setupdeviceparameters, sti/IStillImageW::SetupDeviceParameters, stifnc_08d945b1-ff61-4018-ae0b-5b134fc4f112.xml
-ms.topic: method
 f1_keywords:
  - "sti/IStillImageW.SetupDeviceParameters"
 req.header: sti.h
@@ -49,18 +48,6 @@ req.typenames:
 
 
 The <b>IStillImage::SetupDeviceParameters</b> method allows clients of the <b>IStillImage</b> COM interface to modify a still image device's stored characteristics, if the device's bus type is unknown.
-
-
-## -parameters
-
-
-
-
-
-
-#### - pDevInfo [in, out]
-
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_device_informationw">STI_DEVICE_INFORMATION</a> structure describing a still image device.
 
 
 ## -returns

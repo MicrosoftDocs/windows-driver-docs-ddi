@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: 1df09a2f-d816-407a-8759-142f569f0f57
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: function
 f1_keywords:
  - "netadapteroffload/NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT
 req.header: netadapteroffload.h
 req.include-header:
 req.target-type: Universal
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

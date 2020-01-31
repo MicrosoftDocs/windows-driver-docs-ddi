@@ -4,7 +4,6 @@ title: IIterableConcept::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 82e6678e-82e1-43fa-965a-73877c476f83
 ms.date: 09/19/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IIterableConcept.Release"
 ms.keywords: IIterableConcept::Release, Release, IIterableConcept.Release, IIterableConcept::Release, IIterableConcept.Release
@@ -48,10 +47,6 @@ Decrements the reference count for an interface on an object.
 
 For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
-## -parameters
-
-None
 
 ## -returns
 

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: c1eca20b-eda1-442c-8644-798fa864d5d7
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_MESSAGE_INTERRUPT_DPC, MINIPORT_MESSAGE_INTERRUPT_DPC callback, MiniportMessageInterruptDPC, MiniportMessageInterruptDPC callback function [Network Drivers Starting with Windows Vista], ndis/MiniportMessageInterruptDPC, ndis_interrupts_miniport_functions_ref_eb463565-15ab-4751-be20-4239e6ccb987.xml, netvista.miniportmessageinterruptdpc
-ms.topic: callback
 f1_keywords:
  - "ndis/MiniportMessageInterruptDPC"
 req.header: ndis.h
@@ -115,15 +114,6 @@ Reserved for NDIS.
 
 <div class="alert"><b>Note</b>  In NDIS 6.1 and earlier, this parameter's datatype is <b>PULONG</b>.</div>
 <div> </div>
-
-## -returns
-
-
-
-None
-
-
-
 
 ## -remarks
 

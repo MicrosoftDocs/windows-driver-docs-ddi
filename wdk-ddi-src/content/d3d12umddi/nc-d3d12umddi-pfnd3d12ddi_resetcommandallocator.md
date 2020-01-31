@@ -4,7 +4,6 @@ title: PFND3D12DDI_RESETCOMMANDALLOCATOR (d3d12umddi.h)
 description: Implemented by the client driver to reset the command allocator.
 ms.assetid: f706c981-a156-4fa1-96c1-7bb823f6d2d9
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -52,10 +51,6 @@ Implemented by the client driver to reset the command allocator.
 ### -param Arg1
 
 A handle to the command allocator.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

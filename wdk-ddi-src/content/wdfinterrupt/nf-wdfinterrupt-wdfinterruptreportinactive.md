@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 322E70AA-5825-4199-B822-B48B12E62393
 ms.date: 02/26/2018
 ms.keywords: WdfInterruptReportInactive, WdfInterruptReportInactive method, kmdf._wdfinterruptreportinactive, kmdf.wdfinterruptreportinactive, wdf.wdfinterruptreportinactive, wdfinterrupt/WdfInterruptReportInactive
-ms.topic: function
 f1_keywords:
  - "wdfinterrupt/WdfInterruptReportInactive"
 req.header: wdfinterrupt.h

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 2122d970-1d1c-4ef0-b8f7-92ef6e4f0731
 ms.date: 05/03/2018
 ms.keywords: ComCallbacks_9dd6d3d2-e92d-41bc-8276-fa8b7818a372.xml, IDebugInputCallbacks, IDebugInputCallbacks interface [Windows Debugging], IDebugInputCallbacks interface [Windows Debugging],described, dbgeng/IDebugInputCallbacks, debugger.idebuginputcallbacks
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugInputCallbacks"
 req.header: dbgeng.h
@@ -56,34 +55,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugInputCallbacks</b> inte
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDebugInputCallbacks</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebuginputcallbacks-endinput">EndInput</a>
-</td>
-<td align="left" width="63%">
-This method is called by the engine to indicate that it is no longer waiting for input.
-
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebuginputcallbacks-startinput">StartInput</a>
-</td>
-<td align="left" width="63%">
-This method is called by the engine to indicate that it is waiting for a line of input.
-
-
-</td>
-</tr>
-</table> 
 

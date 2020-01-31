@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: a3489a6a-e993-4f89-9242-714323ec64ec
 ms.date: 05/08/2018
 ms.keywords: IPortWavePci, IPortWavePci interface [Audio Devices], IPortWavePci interface [Audio Devices],described, audio.iportwavepci, audmp-routines_4948783a-44c9-42c3-ba67-c3c66a0a2951.xml, portcls/IPortWavePci
-ms.topic: interface
 f1_keywords:
  - "portcls/IPortWavePci"
 req.header: portcls.h
@@ -59,32 +58,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortWavePci</b> interface in
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IPortWavePci</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavepci-newmasterdmachannel">IPortWavePci::NewMasterDmaChannel</a>
-</td>
-<td align="left" width="63%">
-The <code>NewMasterDmaChannel</code> method creates a new instance of a bus-master DMA channel.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportwavepci-notify">IPortWavePci::Notify</a>
-</td>
-<td align="left" width="63%">
-The <code>Notify</code> method notifies the port driver that an interrupt indicating the progress of the DMA pointer has occurred.
-
-</td>
-</tr>
-</table> 
 

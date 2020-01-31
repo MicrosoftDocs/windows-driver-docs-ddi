@@ -6,7 +6,6 @@ old-location: display\d3dkmtsetcontextinprocessschedulingpriority.htm
 ms.assetid: ebac0d06-53cb-4a84-9af9-f8aa9a6eccb6
 ms.date: 05/10/2018
 ms.keywords: D3DKMTSetContextInProcessSchedulingPriority, D3DKMTSetContextInProcessSchedulingPriority function [Display Devices], d3dkmthk/D3DKMTSetContextInProcessSchedulingPriority, display.d3dkmtsetcontextinprocessschedulingpriority
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTSetContextInProcessSchedulingPriority"
 req.header: d3dkmthk.h

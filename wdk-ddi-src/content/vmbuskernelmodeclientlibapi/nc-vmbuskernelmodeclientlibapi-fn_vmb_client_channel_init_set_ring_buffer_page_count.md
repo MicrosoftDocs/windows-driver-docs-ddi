@@ -5,7 +5,6 @@ description: The VmbClientChannelInitSetRingBufferPageCount function sets the nu
 tech.root: netvista
 ms.assetid: 895902d8-e337-4e24-aac1-621c578fc259
 ms.date: 05/22/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CLIENT_CHANNEL_INIT_SET_RING_BUFFER_PAGE_COUNT"
 req.header: vmbuskernelmodeclientlibapi.h

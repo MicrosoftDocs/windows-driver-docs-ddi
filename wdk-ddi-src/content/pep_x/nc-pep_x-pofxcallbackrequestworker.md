@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: A77277D2-B644-469D-A668-78C23BF41367
 ms.date: 04/30/2018
 ms.keywords: POFXCALLBACKREQUESTWORKER, RequestWorker, RequestWorker routine [Kernel-Mode Driver Architecture], kernel.requestworker, pepfx/RequestWorker
-ms.topic: callback
 f1_keywords:
  - "pep_x/RequestWorker"
 req.header: pep_x.h
@@ -59,15 +58,6 @@ The <b>RequestWorker</b> routine is called by a platform extension plug-in (PEP)
 ### -param PluginHandle [in]
 
 A POHANDLE value that represents the registration of the device with PoFx. The PEP previously received this handle from PoFx during the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification that informed the PEP that the device's driver stack registered the device with PoFx.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

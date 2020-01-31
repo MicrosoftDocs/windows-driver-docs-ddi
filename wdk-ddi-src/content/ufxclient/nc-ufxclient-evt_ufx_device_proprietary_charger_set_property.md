@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 7ED9D607-2F7A-4835-9D1E-FC33EF594974
 ms.date: 05/07/2018
 ms.keywords: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback, EvtUfxDeviceProprietaryChargerSetProperty, EvtUfxDeviceProprietaryChargerSetProperty callback function [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], buses.evt_ufx_device_proprietary_charger_set_property, ufxclient/EvtUfxDeviceProprietaryChargerSetProperty
-ms.topic: callback
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY"
 req.header: ufxclient.h
@@ -72,15 +71,6 @@ The handle to a  USB device object that the client driver received in a previous
 #### - WdfRequest [in]
 
 The handle framework request object that for an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/charging/ni-charging-ioctl_internal_configure_charger_property">IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY</a> request from the battery minidriver. 
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

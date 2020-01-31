@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 724a6c17-e020-44e1-9d00-332daa5dbdfb
 ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_VALIDATE_PROFILE, Dot11ExtIhvValidateProfile, Dot11ExtIhvValidateProfile callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_14df716f-4572-424e-8bee-a19b5b3d6e68.xml, netvista.dot11extihvvalidateprofile, wlanihv/Dot11ExtIhvValidateProfile
-ms.topic: callback
 f1_keywords:
  - "wlanihv/Dot11ExtIhvValidateProfile"
 req.header: wlanihv.h

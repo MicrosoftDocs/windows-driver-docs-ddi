@@ -4,7 +4,6 @@ title: IDebugHostSymbol (dbgmodel.h)
 description: An interface to a particular symbol.
 ms.assetid: 9170580b-516a-49c6-ba3a-f5af85a20242
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol"
 req.header: dbgmodel.h
@@ -44,56 +43,6 @@ An interface to a particular symbol.
 
 ## -inheritance
 IDebugHostSymbol interits from IUnknown. 
-
-## -members
-
-<p>IDebugHostSymbol has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContext</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateChildren</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetSymbolKind</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetName</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetType</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContainingModule</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>CompareAgainst</td>
-		<td>TBD</td>
-	</tr>
-</table>
 
 ## -remarks
 

@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: f89dd322-520b-41b0-bbe2-6eab0f8a6b70
 ms.date: 05/07/2018
 ms.keywords: UcmTcpciDeviceInitialize, UcmTcpciDeviceInitialize method [Buses], buses.ucmtcpcideviceinitialize, ucmtcpcidevice/UcmTcpciDeviceInitialize
-ms.topic: function
 f1_keywords:
  - "ucmtcpcidevice/UcmTcpciDeviceInitialize"
 req.header: ucmtcpcidevice.h

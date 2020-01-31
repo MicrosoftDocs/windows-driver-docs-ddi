@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: e9b04da0-31d8-41e0-8b30-f22ba71d1ec8
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: ioctl
 f1_keywords:
  - "ntddvdeo/IOCTL_COLORSPACE_TRANSFORM_SET"
 req.header: ntddvdeo.h
@@ -40,7 +39,7 @@ ms.custom: 19H1
 
 # IOCTL_COLORSPACE_TRANSFORM_SET IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -76,7 +75,7 @@ A colorspace transform control IOCTL that must be handled by the monitor, OEM-pa
 
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

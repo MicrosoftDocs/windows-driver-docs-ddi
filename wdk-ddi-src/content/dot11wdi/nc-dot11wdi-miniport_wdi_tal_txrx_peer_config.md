@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 48BB554D-A19E-46C0-8278-690A686A731D
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TAL_TXRX_PEER_CONFIG, MINIPORT_WDI_TAL_TXRX_PEER_CONFIG callback, MiniportWdiTalTxRxPeerConfig, MiniportWdiTalTxRxPeerConfig callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxPeerConfig, netvista.miniportwditaltxrxpeerconfig
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiTalTxRxPeerConfig"
 req.header: dot11wdi.h
@@ -78,15 +77,6 @@ Peer ID for the peer.
 ### -param pPeerCfg [in]
 
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ns-dot11wdi-_wdi_txrx_peer_cfg">WDI_TXRX_PEER_CFG</a> structure that contains negotiated QoS settings.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

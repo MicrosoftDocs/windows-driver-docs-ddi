@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: be3972af-1c62-4d4d-95f7-00f894ae7f21
 ms.date: 04/23/2018
 ms.keywords: PHW_REQUEST_TIMEOUT_HANDLER, StrMiniRequestTimeout, StrMiniRequestTimeout routine [Streaming Media Devices], stream.strminirequesttimeout, strmini-routines_74b67060-d244-452f-a5a5-217fd4c65614.xml, strmini/StrMiniRequestTimeout
-ms.topic: callback
 f1_keywords:
  - "strmini/StrMiniRequestTimeout"
 req.header: strmini.h
@@ -68,15 +67,6 @@ The stream class driver calls the minidriver's <i>StrMiniRequestTimeout</i> rout
 #### - pSrb [in]
 
 Pointer to the stream request that has timed out.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

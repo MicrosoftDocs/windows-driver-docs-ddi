@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 394343A5-10E4-4F64-AD3C-1D2114422B39
 ms.date: 05/07/2018
 ms.keywords: EVT_UDECX_WDF_DEVICE_RESET, EVT_UDECX_WDF_DEVICE_RESET callback, EvtUdecxWdfDeviceReset, EvtUdecxWdfDeviceReset callback function [Buses], buses.evt_udecx_wdf_device_reset, udecxwdfdevice/EvtUdecxWdfDeviceReset
-ms.topic: callback
 f1_keywords:
  - "udecxwdfdevice/EvtUdecxWdfDeviceReset"
 req.header: udecxwdfdevice.h
@@ -59,15 +58,6 @@ The UDE client driver's implementation to reset the emulated host controller or 
 ### -param UdecxWdfDevice [in]
 
 A handle to a framework device object that represents the controller. The client driver initialized this object in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

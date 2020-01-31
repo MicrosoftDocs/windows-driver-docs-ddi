@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 8c6a3766-c959-4979-8dc9-3b5234003272
 ms.date: 05/08/2018
 ms.keywords: IPreFetchOffset, IPreFetchOffset interface [Audio Devices], IPreFetchOffset interface [Audio Devices],described, audio.iprefetchoffset, audmp-routines_71e52125-c3a2-4434-96f3-e3a66b482a3a.xml, portcls/IPreFetchOffset
-ms.topic: interface
 f1_keywords:
  - "portcls/IPreFetchOffset"
 req.header: portcls.h
@@ -59,23 +58,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPreFetchOffset</b> interface
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IPreFetchOffset</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iprefetchoffset-setprefetchoffset">IPreFetchOffset::SetPreFetchOffset</a>
-</td>
-<td align="left" width="63%">
-The <code>SetPreFetchOffset</code> method sets the prefetch offset, which is the number of bytes of data separating the write cursor from the play cursor in a DirectSound output stream.
-
-</td>
-</tr>
-</table> 
 

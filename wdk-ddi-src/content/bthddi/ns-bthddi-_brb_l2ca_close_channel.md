@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 0a9f3720-8ae4-4219-a8b3-f1b88126f176
 ms.date: 04/27/2018
 ms.keywords: "_BRB_L2CA_CLOSE_CHANNEL, _BRB_L2CA_CLOSE_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_close_channel, bth_structs_97d7dc1f-eb95-4cf3-8d21-a814622a0b81.xml, bthddi/_BRB_L2CA_CLOSE_CHANNEL"
-ms.topic: struct
 f1_keywords:
  - "bthddi/_BRB_L2CA_CLOSE_CHANNEL"
 req.header: bthddi.h

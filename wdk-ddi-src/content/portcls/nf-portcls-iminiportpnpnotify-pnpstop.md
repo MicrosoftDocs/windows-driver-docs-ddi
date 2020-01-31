@@ -5,7 +5,6 @@ description: An optional interface to allow miniport drivers to receive PnP stat
 tech.root: audio
 ms.assetid: 567f50c1-26e4-448f-8db4-95dd5a1f2206
 ms.date: 10/31/2018 
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportPnpNotify.PnpStop"
 ms.keywords: IMiniportPnpNotify::PnpStop, PnpStop, IMiniportPnpNotify.PnpStop, IMiniportPnpNotify::PnpStop, IMiniportPnpNotify.PnpStop
@@ -46,9 +45,6 @@ targetos: Windows
 ## -description
 
 An optional interface to allow miniport drivers to receive PnP state change notifications.
-
-## -parameters
-
 
 ## -remarks
 Available in Windows 10, version 1511 and later versions of Windows. 

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 4a3bcbda-58e8-4b40-bcc2-fe7b1e624973
 ms.date: 05/02/2018
 ms.keywords: "*LPRILLINECONTROLINFO, RILLINECONTROLINFO, RILLINECONTROLINFO structure [Network Drivers Starting with Windows Vista], netvista.rillinecontrolinfo, ntddrilapitypes/RILLINECONTROLINFO"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILLINECONTROLINFO"
 req.header: rilapitypes.h

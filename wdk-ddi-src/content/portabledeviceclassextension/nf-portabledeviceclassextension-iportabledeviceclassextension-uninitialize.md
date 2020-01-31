@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: 51ef2b62-8933-4b59-9deb-8220df1fd285
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceClassExtension interface,Uninitialize method, IPortableDeviceClassExtension.Uninitialize, IPortableDeviceClassExtension::Uninitialize, IPortableDeviceClassExtensionUninitialize, Uninitialize, Uninitialize method, Uninitialize method,IPortableDeviceClassExtension interface, portabledeviceclassextension/IPortableDeviceClassExtension::Uninitialize, wpddk.iportabledeviceclassextension_uninitialize
-ms.topic: method
 f1_keywords:
  - "portabledeviceclassextension/IPortableDeviceClassExtension.Uninitialize"
 req.header: portabledeviceclassextension.h
@@ -51,13 +50,6 @@ ms.custom: RS5
 
 
 The Uninitialize interface disables the WPD interface, any private interfaces, and device service interfaces that were initialized by the given driver. This method also disables the WIA or WMDM compatibility layers if they are enabled.
-
-
-
-
-## -parameters
-
-
 
 
 

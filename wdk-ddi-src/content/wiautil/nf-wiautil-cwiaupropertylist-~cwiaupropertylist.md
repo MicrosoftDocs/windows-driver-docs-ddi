@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 8b847c3e-f773-44d0-a033-3e40bc2e01fc
 ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],~CWiauPropertyList method, CWiauPropertyList.~CWiauPropertyList, CWiauPropertyList::~CWiauPropertyList, image.cwiaupropertylist__cwiaupropertylist, wiauFncs_9b543f56-a533-4f51-8266-cd710b8192a5.xml, wiautil/CWiauPropertyList::~CWiauPropertyList, ~CWiauPropertyList, ~CWiauPropertyList method [Imaging Devices], ~CWiauPropertyList method [Imaging Devices],CWiauPropertyList interface
-ms.topic: method
 f1_keywords:
  - "wiautil/CWiauPropertyList.~CWiauPropertyList"
 req.header: wiautil.h
@@ -47,9 +46,6 @@ req.typenames:
 ## -description
 
 The **CWiauPropertyList::~CWiauPropertyList** method is the destructor for the **CWiauPropertyList** class.
-
-## -parameters
-
 
 ## -see-also
 

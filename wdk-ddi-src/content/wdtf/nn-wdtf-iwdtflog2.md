@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: e09d0c3d-28a0-4c8d-ac70-9575968cbea1
 ms.date: 04/04/2018
 ms.keywords: IWDTFLOG2, IWDTFLOG2 interface [Windows Device Testing Framework], IWDTFLOG2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFLOG2, dtf.iwdtflog2, wdtf/IWDTFLOG2
-ms.topic: interface
 f1_keywords:
  - "wdtf/IWDTFLOG2"
 req.header: wdtf.h
@@ -57,53 +56,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFLOG2</b> interface inher
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWDTFLOG2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtflog2-endtestcase">EndTestCase</a>
-</td>
-<td align="left" width="63%">
-Marks the end of a test case.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtflog2-outputerror">OutputError</a>
-</td>
-<td align="left" width="63%">
-Writes an error entry to the test case log.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtflog2-outputinfo">OutputInfo</a>
-</td>
-<td align="left" width="63%">
-Writes an informational entry to the test case log.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtflog2-starttestcase">StartTestCase</a>
-</td>
-<td align="left" width="63%">
-Marks the start of a test case.
-
-</td>
-</tr>
-</table> 
-
 
 ## -remarks
 

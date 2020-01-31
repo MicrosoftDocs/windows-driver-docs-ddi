@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: c5bdedee-dacd-4f4d-a3d1-f1cb71a68001
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE, PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE callback, ProtocolCmNotifyCloseAfComplete, ProtocolCmNotifyCloseAfComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_f10e7b00-20f8-4bb0-a4c0-94855572fc08.xml, ndis/ProtocolCmNotifyCloseAfComplete, netvista.protocolcmnotifycloseafcomplete
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolCmNotifyCloseAfComplete"
 req.header: ndis.h
@@ -88,15 +87,6 @@ The client successfully closed its address family.
 #### NDIS_STATUS_XXX
 
 The client failed the request for some driver-determined reason.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

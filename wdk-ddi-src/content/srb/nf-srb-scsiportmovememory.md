@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: c4ed9551-3dc8-4f76-9bcb-26030f76c244
 ms.date: 03/29/2018
 ms.keywords: ScsiPortMoveMemory, ScsiPortMoveMemory routine [Storage Devices], scsiprt_88a58a03-0663-4aad-b048-2a2d3641e94e.xml, srb/ScsiPortMoveMemory, storage.scsiportmovememory
-ms.topic: function
 f1_keywords:
  - "srb/ScsiPortMoveMemory"
 req.header: srb.h

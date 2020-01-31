@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 5469c6aa-90df-4379-b670-23aaa6919055
 ms.date: 05/02/2018
 ms.keywords: NdisGetHypervisorInfo, NdisGetHypervisorInfo function [Network Drivers Starting with Windows Vista], ndis/NdisGetHypervisorInfo, netvista.ndisgethypervisorinfo, virtual_machine_queue_ref_afe96cc4-b307-4953-9587-65b6bec35b18.xml
-ms.topic: function
 f1_keywords:
  - "ndis/NdisGetHypervisorInfo"
 req.header: ndis.h

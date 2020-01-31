@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 1A473A08-EA23-4DFE-8B58-EBB4AC977891
 ms.date: 02/26/2018
 ms.keywords: EVT_WDF_INTERRUPT_WORKITEM, EVT_WDF_INTERRUPT_WORKITEM callback, EvtInterruptWorkItem, EvtInterruptWorkItem callback function, kmdf.evtinterruptworkitem, wdf.evtinterruptworkitem, wdfinterrupt/EvtInterruptWorkItem
-ms.topic: callback
 f1_keywords:
  - "wdfinterrupt/EvtInterruptWorkItem"
 req.header: wdfinterrupt.h
@@ -66,15 +65,6 @@ A handle to a framework interrupt object.
 ### -param AssociatedObject [in]
 
 A handle to the framework device object that the driver passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfinterrupt/nf-wdfinterrupt-wdfinterruptcreate">WdfInterruptCreate</a>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

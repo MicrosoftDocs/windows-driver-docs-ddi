@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: 5f882f37-0554-48c0-b4a0-026d42452f56
 ms.date: 02/23/2018
 ms.keywords: PosDeviceBasicsType, PosDeviceBasicsType structure, _PosDeviceBasicsType, pointofservicedriverinterface/PosDeviceBasicsType, pos.posdevicebasicstype
-ms.topic: struct
 f1_keywords:
  - "pointofservicedriverinterface/PosDeviceBasicsType"
 req.header: pointofservicedriverinterface.h

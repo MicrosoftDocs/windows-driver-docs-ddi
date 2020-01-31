@@ -4,7 +4,6 @@ title: IModelPropertyAccessor (dbgmodel.h)
 description: The data model representation of a  property accessor (get/set).
 ms.assetid: 719a97dc-26eb-4b5a-9f68-50c4a9069bae
 ms.date: 07/16/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IModelPropertyAccessor"
 req.header: dbgmodel.h
@@ -44,36 +43,6 @@ The data model representation of a  property accessor (get/set).
 
 ## -inheritance
 IModelPropertyAccessor interits from IUnknown. 
-## -members
-
-<p>IModelPropertyAccessor has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetValue</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>SetValue</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 A property accessor in the data model is an implementation of the IModelPropertyAccessor interface which is boxed into an [IModelObject](nn-dbgmodel-imodelobject.md). The model object will return a kind of ObjectPropertyAccessor when queried and the intrinsic value is a VT_UNKNOWN which is guaranteed to be queryable for IModelPropertyAccessor. In process, it is guaranteed to be statically castable to IModelPropertyAccessor. 

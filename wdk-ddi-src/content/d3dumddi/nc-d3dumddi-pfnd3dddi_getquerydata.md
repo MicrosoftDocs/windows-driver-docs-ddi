@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 64daec14-8e16-4df3-bb0c-27760223b86c
 ms.date: 05/10/2018
 ms.keywords: GetQueryData, GetQueryData callback function [Display Devices], PFND3DDDI_GETQUERYDATA, PFND3DDDI_GETQUERYDATA callback, UserModeDisplayDriver_Functions_05870f6b-5971-4201-9910-c8c8c548878a.xml, d3dumddi/GetQueryData, display.getquerydata
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

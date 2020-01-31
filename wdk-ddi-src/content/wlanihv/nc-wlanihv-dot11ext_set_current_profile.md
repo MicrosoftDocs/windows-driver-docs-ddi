@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 2fcf4f93-8d50-44e1-a657-d98b7b00bcfc
 ms.date: 02/16/2018
 ms.keywords: DOT11EXT_SET_CURRENT_PROFILE, Dot11ExtSetCurrentProfile, Dot11ExtSetCurrentProfile callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_0a4afb35-a806-47f0-8f52-76c88ba5ffac.xml, netvista.dot11extsetcurrentprofile, wlanihv/Dot11ExtSetCurrentProfile
-ms.topic: callback
 f1_keywords:
  - "wlanihv/Dot11ExtSetCurrentProfile"
 req.header: wlanihv.h

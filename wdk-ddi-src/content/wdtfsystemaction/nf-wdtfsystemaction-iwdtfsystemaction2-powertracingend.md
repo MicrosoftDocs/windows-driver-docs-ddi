@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: d27678cb-8aad-4cbe-a65e-64828ff4944a
 ms.date: 04/04/2018
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],PowerTracingEnd method, IWDTFSystemAction2.PowerTracingEnd, IWDTFSystemAction2::PowerTracingEnd, Microsoft.WDTF.IWDTFSystemAction2.PowerTracingEnd, Microsoft::WDTF::IWDTFSystemAction2::PowerTracingEnd, PowerTracingEnd, PowerTracingEnd method [Windows Device Testing Framework], PowerTracingEnd method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_powertracingend, wdtfsystemaction/IWDTFSystemAction2::PowerTracingEnd
-ms.topic: method
 f1_keywords:
  - "wdtfsystemaction/IWDTFSystemAction2.PowerTracingEnd"
 req.header: wdtfsystemaction.h
@@ -51,13 +50,6 @@ req.typenames:
 This method ends a power trace session. Any power state events that occurred between the last <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-powertracingstart">PowerTracingStart</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-powertracingstartbyfile">PowerTracingStartByFile</a>  method and this
     end method will be captured in the associated trace message (.etl) log file. In addition, the related namespace and fields for the system and any applicable devices
     can be queried.
-
-
-
-## -parameters
-
-
-
 
 
 

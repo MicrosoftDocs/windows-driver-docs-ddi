@@ -4,7 +4,6 @@ title: PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO (d3d12umddi.h)
 description: The pfnCheckExistingResourceAllocationInfo callback function supports checking existing resource allocation information.
 ms.assetid: d93b90b4-3509-42bf-8ec2-2fc0bd47b2f9
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -64,10 +63,6 @@ Pointer to a D3D12DDI_RESOURCE_ALLOCATION_INFO.
 ### -param phAllocation
 
 Pointer to an array of handles.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

@@ -6,7 +6,6 @@ old-location: display\pfnd3d12ddi_destroyprotectedresourcesession_0030.htm
 ms.assetid: B247AB7B-D133-43FE-A208-CF5E3C7F7DBE
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030, PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030 callback, PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030, display.pfnd3d12ddi_destroyprotectedresourcesession_0030
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030"
 req.header: d3d12umddi.h
@@ -64,13 +63,5 @@ The hardware device being processed.
 ### -param hDrvProtectedResourceSession
 
 The protected resource session.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
 
 

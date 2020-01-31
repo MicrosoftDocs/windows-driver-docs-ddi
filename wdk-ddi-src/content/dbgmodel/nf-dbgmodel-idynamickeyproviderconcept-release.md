@@ -4,7 +4,6 @@ title: IDynamicKeyProviderConcept::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 104da76b-51a4-4b86-8255-9b395091e169
 ms.date: 09/19/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDynamicKeyProviderConcept.Release"
 ms.keywords: IDynamicKeyProviderConcept::Release, Release, IDynamicKeyProviderConcept.Release, IDynamicKeyProviderConcept::Release, IDynamicKeyProviderConcept.Release
@@ -49,10 +48,6 @@ Decrements the reference count for an interface on an object.
 
 For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
-## -parameters
-
-None
 
 ## -returns
 

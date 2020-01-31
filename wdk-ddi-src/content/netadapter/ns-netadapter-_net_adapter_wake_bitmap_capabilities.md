@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: 0d68d5a2-5d25-4f33-96b5-57774a6f441e
 ms.author: windowsdriverdev
 ms.date: 10/24/2019
-ms.topic: struct
 f1_keywords:
  - "netadapter/NET_ADAPTER_WAKE_BITMAP_CAPABILITIES"
 ms.keywords: NET_ADAPTER_WAKE_BITMAP_CAPABILITIES, NET_ADAPTER_WAKE_BITMAP_CAPABILITIES, 
 req.header: netadapter.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

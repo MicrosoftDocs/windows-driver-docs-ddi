@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 42cf6592-345c-4e4c-8614-37dc82ed6470
 ms.date: 02/26/2018
 ms.keywords: "*LPRILTDSCDMAMRL, RILTDSCDMAMRL, RILTDSCDMAMRL structure [Network Drivers Starting with Windows Vista], netvista.riltdscdmamrl_2, rilapitypes/RILTDSCDMAMRL"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILTDSCDMAMRL"
 req.header: rilapitypes.h

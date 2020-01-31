@@ -4,7 +4,6 @@ title: IDebugHostEvaluator2 (dbgmodel.h)
 description: The expression evaluator interface to the underlying debugger.
 ms.assetid: 12192b1b-57b6-4a5b-b2a9-2de8e13ea5c3
 ms.date: 06/11/2019
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDebugHostEvaluator2"
 req.header: dbgmodel.h
@@ -46,40 +45,6 @@ This version 2 of the interface supports all of the previous methods with identi
 
 ## -inheritance
 IDebugHostEvaluator2 interits from [IDebugHostEvaluator](nn-dbgmodel-idebughostevaluator.md). 
-## -members
-
-<p>IDebugHostEvaluator2 has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EvaluateExpression</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EvaluateExtendedExpression</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AssignTo</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 One of the most important pieces of functionality which the debug host provides to clients is access to its language based expression evaluator. The [IDebugHostEvaluator](nn-dbgmodel-idebughostevaluator.md) and IDebugHostEvaluator2 interfaces are the means to access that functionality from the debug host. 

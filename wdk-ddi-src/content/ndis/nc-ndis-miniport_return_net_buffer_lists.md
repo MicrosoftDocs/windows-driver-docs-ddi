@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 0f33ae87-164e-40dc-a915-28211a0d74b7
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_RETURN_NET_BUFFER_LISTS, MINIPORT_RETURN_NET_BUFFER_LISTS callback, MiniportReturnNetBufferLists, MiniportReturnNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/MiniportReturnNetBufferLists, ndis_sendrcv_ref_dfe745f1-643d-4834-827c-687aa6404cf2.xml, netvista.miniportreturnnetbufferlists
-ms.topic: callback
 f1_keywords:
  - "ndis/MiniportReturnNetBufferLists"
 req.header: ndis.h
@@ -83,15 +82,6 @@ A pointer to a linked list of
 NDIS flags that can be combined with an OR operation. This function supports the NDIS_RETURN_FLAGS_DISPATCH_LEVEL flag which, if set, indicates that the
      current IRQL is DISPATCH_LEVEL. For more information about this flag, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dispatch-irql-tracking">Dispatch IRQL Tracking</a>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

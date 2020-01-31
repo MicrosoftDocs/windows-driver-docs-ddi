@@ -7,7 +7,6 @@ tech.root: devtest
 ms.assetid: 041761dd-ce52-4018-a226-c5181858326c
 ms.date: 02/23/2018
 ms.keywords: PcwAddInstance, PcwAddInstance function [Driver Development Tools], devtest.pcwaddinstance, km_pcw_1819c4ec-a951-4069-a8ff-24cf11f1b68c.xml, wdm/PcwAddInstance
-ms.topic: function
 f1_keywords:
  - "wdm/PcwAddInstance"
 req.header: wdm.h

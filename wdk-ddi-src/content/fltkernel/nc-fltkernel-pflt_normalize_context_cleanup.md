@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 968cfc99-4862-41f7-bf7e-d579a3e8061f
 ms.date: 04/16/2018
 ms.keywords: FltCallbacks_3391a3bd-55a2-4f87-b116-78c2e4f93b88.xml, NormalizeContextCleanupCallback, NormalizeContextCleanupCallback routine [Installable File System Drivers], PFLT_NORMALIZE_CONTEXT_CLEANUP, fltkernel/NormalizeContextCleanupCallback, ifsk.pflt_normalize_context_cleanup
-ms.topic: callback
 f1_keywords:
  - "fltkernel/NormalizeContextCleanupCallback"
 req.header: fltkernel.h
@@ -59,15 +58,6 @@ A minifilter driver that provides file names for the filter manager's name cache
 ### -param *NormalizationContext [in, optional]
 
 Pointer to minifilter driver-provided context information to be passed in any calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_normalize_name_component">PFLT_NORMALIZE_NAME_COMPONENT</a> callback routine that are made to normalize multiple components in the same file name path. 
-
-
-## -returns
-
-
-
-None. 
-
-
 
 
 ## -remarks

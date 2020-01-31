@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: eef2741e-e1a3-471b-a756-d89990929738
 ms.date: 09/17/2018
 ms.keywords: IServiceGroup, IServiceGroup interface [Audio Devices], IServiceGroup interface [Audio Devices],described, audio.iservicegroup, audmp-routines_10cfd005-be11-47a2-a929-f338f40e6f79.xml, portcls/IServiceGroup
-ms.topic: interface
 f1_keywords:
  - "portcls/IServiceGroup"
 req.header: portcls.h
@@ -59,68 +58,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceGroup</b> interface i
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IServiceGroup</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicegroup-addmember">IServiceGroup::AddMember</a>
-</td>
-<td align="left" width="63%">
-The <code>AddMember</code> method adds a member to the service group.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicegroup-canceldelayedservice">IServiceGroup::CancelDelayedService</a>
-</td>
-<td align="left" width="63%">
-The <code>CancelDelayedService</code> method cancels the previously requested delayed service.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicegroup-removemember">IServiceGroup::RemoveMember</a>
-</td>
-<td align="left" width="63%">
-The <code>RemoveMember</code> method removes the specified member from the service group.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicegroup-requestdelayedservice">IServiceGroup::RequestDelayedService</a>
-</td>
-<td align="left" width="63%">
-The <code>RequestDelayedService</code> method requests service after the specified delay.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9CB0CE26-2F26-424E-9EF5-C6780F521E09">IServiceGroup::RequestService</a>
-</td>
-<td align="left" width="63%">
-The RequestService method is called to forward a service request to an IServiceSink object.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iservicegroup-supportdelayedservice">IServiceGroup::SupportDelayedService</a>
-</td>
-<td align="left" width="63%">
-The <code>SupportDelayedService</code> method indicates that the service group should prepare to support delayed service.
-
-</td>
-</tr>
-</table> 
 

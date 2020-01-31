@@ -4,7 +4,6 @@ title: PFND3D12DDI_COPY_DESCRIPTORS_0003 (d3d12umddi.h)
 description: Copy descriptors.
 ms.assetid: 0409bbc2-7e61-4dd0-bfa6-6309565741e6
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -80,10 +79,6 @@ Pointer to the descriptor range sizes in the destination.
 ### -param DescriptorHeapsType
 
 The descriptor heap type.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

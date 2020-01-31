@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 61a60e77-387c-42d6-b56b-694ce0c86570
 ms.date: 03/29/2018
 ms.keywords: DUID_MATCH_STATUS, DUID_MATCH_STATUS enumeration [Storage Devices], DuidErrorGeneral, DuidErrorInvalidDeviceDescSize, DuidErrorInvalidDeviceIdDescSize, DuidErrorInvalidDuid, DuidErrorInvalidLayoutSigSize, DuidErrorInvalidLayoutSigVersion, DuidErrorMaximum, DuidErrorMissingDuid, DuidErrorVersionMismatch, DuidExactMatch, DuidNoMatch, DuidSubIdMatch, _DUID_MATCH_STATUS, storage.duid_match_status, storduid/DUID_MATCH_STATUS, storduid/DuidErrorGeneral, storduid/DuidErrorInvalidDeviceDescSize, storduid/DuidErrorInvalidDeviceIdDescSize, storduid/DuidErrorInvalidDuid, storduid/DuidErrorInvalidLayoutSigSize, storduid/DuidErrorInvalidLayoutSigVersion, storduid/DuidErrorMaximum, storduid/DuidErrorMissingDuid, storduid/DuidErrorVersionMismatch, storduid/DuidExactMatch, storduid/DuidNoMatch, storduid/DuidSubIdMatch, structs-general_8e33f54f-7115-42c2-aa06-112c79f9c392.xml
-ms.topic: enum
 f1_keywords:
  - "storduid/DUID_MATCH_STATUS"
 req.header: storduid.h

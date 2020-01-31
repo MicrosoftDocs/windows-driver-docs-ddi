@@ -7,7 +7,6 @@ tech.root: print
 ms.assetid: cec2122d-17b3-407c-b374-be475024afc2
 ms.author: windowsdriverdev
 ms.date: 04/03/2019
-ms.topic: ioctl
 f1_keywords:
  - "usbprint/IOCTL_USBPRINT_GET_INTERFACE_TYPE"
 ms.custom: 19H1
@@ -38,7 +37,7 @@ targetos: Windows
 
 # IOCTL_USBPRINT_GET_INTERFACE_TYPE IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/irp-mj-device-control)
+### Major Code:  [IRP_MJ_DEVICE_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ## -description
 
@@ -67,7 +66,7 @@ sizeof(DWORD)
 Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
 Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

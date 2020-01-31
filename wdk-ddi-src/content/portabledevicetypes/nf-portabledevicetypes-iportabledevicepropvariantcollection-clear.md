@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: 5d663753-963a-474e-ab35-25a2cefd8b5e
 ms.date: 02/15/2018
 ms.keywords: Clear, Clear method, Clear method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,Clear method, IPortableDevicePropVariantCollection.Clear, IPortableDevicePropVariantCollection::Clear, IPortableDevicePropVariantCollectionClear, portabledevicetypes/IPortableDevicePropVariantCollection::Clear, wpddk.iportabledevicepropvariantcollection_clear
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IPortableDevicePropVariantCollection.Clear"
 req.header: portabledevicetypes.h
@@ -51,13 +50,6 @@ ms.custom: RS5
 
 
 Removes or frees all items in the collection. The collection is considered empty after calling this method.
-
-
-
-
-## -parameters
-
-
 
 
 

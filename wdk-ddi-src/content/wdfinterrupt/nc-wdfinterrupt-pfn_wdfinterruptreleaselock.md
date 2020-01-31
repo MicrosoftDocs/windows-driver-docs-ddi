@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: a3b68f6f-d482-4350-a5b8-9fe6afdefb69
 ms.date: 01/11/2018
 ms.keywords: wdf.wdfinterruptreleaselock, PFN_WDFINTERRUPTRELEASELOCK, WdfInterruptReleaseLock callback function, WdfInterruptReleaseLock, wdfinterrupt/WdfInterruptReleaseLock, DFInterruptObjectRef_70637f8b-a7d9-4637-b02c-1ebed3e363c7.xml, kmdf.wdfinterruptreleaselock
-ms.topic: callback
 f1_keywords:
  - "wdfinterrupt/WdfInterruptReleaseLock"
 req.header: wdfinterrupt.h
@@ -87,19 +86,10 @@ VOID WdfInterruptReleaseLock(
 A handle to a framework interrupt object.
 
 
-## -returns
-
-
-None.
-
-A bug check occurs if the driver supplies an invalid object handle.
-
-
-
-
 
 ## -remarks
 
+A bug check occurs if the driver supplies an invalid object handle.
 
 The <b>WdfInterruptReleaseLock</b> method releases the specified interrupt object's spin lock or wait lock and returns the processor's IRQL to the level that it was set to before the driver called <a href="https://msdn.microsoft.com/library/windows/hardware/ff547340">WdfInterruptAcquireLock</a>.
 

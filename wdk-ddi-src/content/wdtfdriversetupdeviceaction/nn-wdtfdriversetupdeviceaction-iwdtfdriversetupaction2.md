@@ -7,7 +7,6 @@ tech.root: dtf
 ms.assetid: 474590f9-f737-4b9a-9a63-8cce8a35c538
 ms.date: 04/04/2018
 ms.keywords: IWDTFDriverSetupAction2, IWDTFDriverSetupAction2 interface [Windows Device Testing Framework], IWDTFDriverSetupAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFDriverSetupAction2, dtf.iwdtfdriversetupaction2, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2
-ms.topic: interface
 f1_keywords:
  - "wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2"
 req.header: wdtfdriversetupdeviceaction.h
@@ -57,32 +56,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDriverSetupAction2</b> i
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWDTFDriverSetupAction2</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriversetupdeviceaction/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-uninstalldriverpermanently">UnInstallDriverPermanently</a>
-</td>
-<td align="left" width="63%">
-Uninstalls the current driver for the target device.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfdriversetupdeviceaction/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-updatedriver">UpdateDriver</a>
-</td>
-<td align="left" width="63%">
-Updates the target device with a driver from the driver package.
-
-</td>
-</tr>
-</table> 
 

@@ -5,7 +5,6 @@ description: The VmbChannelSaveEnd function cleans up any resources that were al
 tech.root: netvista
 ms.assetid: 9de0f0e0-edee-4f91-be92-a4d7a439ec5a
 ms.date: 05/21/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SAVE_END"
 req.header: vmbuskernelmodeclientlibapi.h
@@ -69,10 +68,6 @@ VOID FnVmbChannelSaveEnd
 ### -param Channel
 
 A handle of the channel that was saved. 
-
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

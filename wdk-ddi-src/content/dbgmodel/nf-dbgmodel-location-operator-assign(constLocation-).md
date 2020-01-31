@@ -4,7 +4,6 @@ title: operator= function (dbgmodel.h)
 description: The assignment operator for the location function.
 ms.assetid: 34b62c89-11e9-4221-8cd8-2b599608e719
 ms.date: 09/28/2018
-ms.topic: function
 f1_keywords:
  - "dbgmodel/operator="
 ms.keywords: operator=

@@ -6,7 +6,6 @@ old-location: display\d3dkmt_createhwqueue.htm
 ms.assetid: DBD99353-4798-4540-89DB-EA08521B276E
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_CREATEHWQUEUE, D3DKMT_CREATEHWQUEUE structure [Display Devices], _D3DKMT_CREATEHWQUEUE, d3dkmthk/D3DKMT_CREATEHWQUEUE, display.d3dkmt_createhwqueue
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEHWQUEUE"
 req.header: d3dkmthk.h

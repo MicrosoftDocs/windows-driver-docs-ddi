@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 59d18822-8ce2-4506-90d7-9f1cdc7a9e10
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_OPEN_ADAPTER_COMPLETE_EX, PROTOCOL_OPEN_ADAPTER_COMPLETE_EX callback, ProtocolOpenAdapterCompleteEx, ProtocolOpenAdapterCompleteEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolOpenAdapterCompleteEx, netvista.protocolopenadaptercompleteex, protocol_functions_ref_d47f5a23-aa11-4fc8-9dec-a1ecb3184d9a.xml
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolOpenAdapterCompleteEx"
 req.header: ndis.h
@@ -73,15 +72,6 @@ A handle to a context area allocated by the protocol driver. The protocol driver
 The final status of the open operation for the underlying miniport driver. This status value is
      NDIS_STATUS_SUCCESS if the binding was established or any error status that the underlying driver
      determines.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

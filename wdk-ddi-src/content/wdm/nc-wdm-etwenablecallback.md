@@ -7,7 +7,6 @@ tech.root: devtest
 ms.assetid: 5953a3ae-b130-42fd-9dc8-974d15c6dfc5
 ms.date: 02/23/2018
 ms.keywords: EtwEnableCallback, EtwEnableCallback callback function [Driver Development Tools], PETWENABLECALLBACK, PETWENABLECALLBACK callback, devtest.etwenablecallback, etw_km_6405d4d5-382c-4950-9b91-0cb224a3d069.xml, wdm/EtwEnableCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/EtwEnableCallback"
 req.header: wdm.h
@@ -98,15 +97,6 @@ The context of the callback function that is defined when the provider called <a
 #### - IsEnabled [in]
 
 The parameter indicates whether the provider is being enabled or disabled. The value is <b>TRUE</b> if the session enabled the provider; otherwise, it is <b>FALSE</b>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

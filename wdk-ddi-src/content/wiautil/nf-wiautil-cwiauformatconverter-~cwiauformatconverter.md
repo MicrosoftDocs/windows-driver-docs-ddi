@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 2bdf9564-70b0-4936-95e5-4470b731ac3b
 ms.date: 05/03/2018
 ms.keywords: CWiauFormatConverter interface [Imaging Devices],~CWiauFormatConverter method, CWiauFormatConverter.~CWiauFormatConverter, CWiauFormatConverter::~CWiauFormatConverter, image.cwiauformatconverter__cwiauformatconverter, wiauFncs_9e90093a-c28a-4cbb-a4be-55750e309940.xml, wiautil/CWiauFormatConverter::~CWiauFormatConverter, ~CWiauFormatConverter, ~CWiauFormatConverter method [Imaging Devices], ~CWiauFormatConverter method [Imaging Devices],CWiauFormatConverter interface
-ms.topic: method
 f1_keywords:
  - "wiautil/CWiauFormatConverter.~CWiauFormatConverter"
 req.header: wiautil.h
@@ -49,13 +48,6 @@ req.typenames:
 
 
 The <b>CWiauFormatConverter::~CWiauFormatConverter</b> method is the destructor for the <b>CWiauFormatConverter</b> class.
-
-
-## -parameters
-
-
-
-
 
 
 ## -see-also

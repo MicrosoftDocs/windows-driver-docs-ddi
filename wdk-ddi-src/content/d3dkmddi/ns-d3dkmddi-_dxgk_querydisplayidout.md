@@ -6,7 +6,6 @@ old-location: display\dxgk_querydisplayidout.htm
 ms.assetid: BF528089-0194-4A3F-B8BA-85F80974C4C2
 ms.date: 05/10/2018
 ms.keywords: DXGK_QUERYDISPLAYIDOUT, DXGK_QUERYDISPLAYIDOUT structure [Display Devices], _DXGK_QUERYDISPLAYIDOUT, d3dkmddi/DXGK_QUERYDISPLAYIDOUT, display.dxgk_querydisplayidout
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYDISPLAYIDOUT"
 req.header: d3dkmddi.h

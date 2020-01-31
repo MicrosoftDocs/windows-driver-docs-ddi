@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 03F65E4E-C942-4748-8D3E-938A6AC51B2A
 ms.date: 05/08/2018
 ms.keywords: IPortClsNotifications, IPortClsNotifications interface [Audio Devices], IPortClsNotifications interface [Audio Devices],described, audio.iportclsnotifications, portcls/IPortClsNotifications
-ms.topic: interface
 f1_keywords:
  - "portcls/IPortClsNotifications"
 req.header: portcls.h
@@ -64,41 +63,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsNotifications</b> int
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IPortClsNotifications</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsnotifications-allocnotificationbuffer">IPortClsNotifications::AllocNotificationBuffer</a>
-</td>
-<td align="left" width="63%">
-Allocates a buffer of the specified size, in the specified memory pool, for use in sending notifications, to allow for communications between audio modules and UWP apps. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsnotifications-freenotificationbuffer">IPortClsNotifications::FreeNotificationBuffer</a>
-</td>
-<td align="left" width="63%">
-Frees a previously allocated IPortClsNotifications buffer. The buffer is used in sending notifications, to allow for communications between audio modules and UWP apps. 
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iportclsnotifications-sendnotification">IPortClsNotifications::SendNotification</a>
-</td>
-<td align="left" width="63%">
-Sends a notification to the listening UWP apps, to allow for communications between audio modules and UWP apps. 
-
-</td>
-</tr>
-</table> 
 

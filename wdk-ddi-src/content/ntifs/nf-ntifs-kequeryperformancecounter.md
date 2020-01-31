@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: ee1dbd20-5502-4448-b39a-4629ddc73d01
 ms.date: 04/30/2018
 ms.keywords: KeQueryPerformanceCounter, KeQueryPerformanceCounter routine [Kernel-Mode Driver Architecture], k105_39f70923-56fe-42b1-bec3-fe23ae62904d.xml, kernel.kequeryperformancecounter, wdm/KeQueryPerformanceCounter
-ms.topic: function
 f1_keywords:
  - "ntifs/KeQueryPerformanceCounter"
 req.header: ntifs.h
@@ -80,7 +79,7 @@ A pointer to a variable to which **KeQueryPerformanceCounter** writes the perfor
 
 To obtain the frequency of the performance counter, specify a non-**NULL** pointer value for the *PerformanceFrequency* parameter. The frequency of the performance counter is fixed at system boot and is consistent across all processors. Therefore, a driver can cache the frequency of the performance counter during initialization.  
 
-For more info about this function and its usage, see [Acquiring high-resolution time stamps](https://docs.microsoft.com/en-us/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps). 
+For more info about this function and its usage, see [Acquiring high-resolution time stamps](https://docs.microsoft.com/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps). 
 
 
 

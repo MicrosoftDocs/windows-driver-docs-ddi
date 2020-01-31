@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: e62855a0-284b-434b-88a4-1f21f1b77cf2
 ms.date: 04/16/2018
 ms.keywords: RtlDestroyHeap, RtlDestroyHeap routine [Installable File System Drivers], ifsk.rtldestroyheap, ntifs/RtlDestroyHeap, rtlref_c1cb90f1-932d-46ab-badc-d960503def9c.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlDestroyHeap"
 req.header: ntifs.h

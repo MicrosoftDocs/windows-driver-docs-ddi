@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: CBBB1350-66BE-4F74-A0CE-0400245352F3
 ms.date: 03/29/2018
 ms.keywords: HW_WORKITEM, HwStorWorkItem, HwStorWorkItem routine [Storage Devices], storage.hwstorworkitem, storport/HwStorWorkItem
-ms.topic: callback
 f1_keywords:
  - "storport/HwStorWorkItem"
 req.header: storport.h
@@ -69,15 +68,6 @@ Optional context provided by the miniport in the <i>Callback</i> parameter of <a
 ### -param Worker [in]
 
 A pointer to an opaque buffer that holds context information for the work item returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitializeworker">StorPortInitializeWorker</a>.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

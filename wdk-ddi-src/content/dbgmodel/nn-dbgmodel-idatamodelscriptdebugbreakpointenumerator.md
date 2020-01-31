@@ -4,7 +4,6 @@ title: IDataModelScriptDebugBreakpointEnumerator (dbgmodel.h)
 description: An enumerator of breakpoints within the script.
 ms.assetid: 98079ec9-c73a-4d88-8016-8fb53c461d91
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpointEnumerator"
 req.header: dbgmodel.h
@@ -46,36 +45,6 @@ The script provider implements this to enumerate all of the breakpoints which cu
 
 ## -inheritance
 IDataModelScriptDebugBreakpointEnumerator interits from IUnknown. 
-## -members
-
-<p>IDataModelScriptDebugBreakpointEnumerator has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Reset</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetNext</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 If a script provider supports debugging, it must also keep track of all breakpoints associated with each and every script and be capable of enumerating those breakpoints to the debug interface. The enumerator for breakpoints is acquired via the EnumerateBreakpoints method on the debug interface for a given script.

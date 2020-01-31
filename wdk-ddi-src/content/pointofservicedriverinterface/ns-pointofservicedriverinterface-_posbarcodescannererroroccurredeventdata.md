@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: c9e18ed0-bc34-49ed-a31e-20c82d43860f
 ms.date: 02/23/2018
 ms.keywords: PosBarcodeScannerErrorOccurredEventData, PosBarcodeScannerErrorOccurredEventData structure, _PosBarcodeScannerErrorOccurredEventData, pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData, pos.posbarcodescannererroroccurredeventdata
-ms.topic: struct
 f1_keywords:
  - "pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData"
 req.header: pointofservicedriverinterface.h

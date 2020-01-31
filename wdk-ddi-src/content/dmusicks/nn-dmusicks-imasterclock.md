@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 754aad8a-834c-4197-8505-dbf1cd74c697
 ms.date: 05/08/2018
 ms.keywords: IMasterClock, IMasterClock interface [Audio Devices], IMasterClock interface [Audio Devices],described, audio.imasterclock, audmp-routines_b8172e0e-55ac-4abd-8b62-39be5d708f9b.xml, dmusicks/IMasterClock
-ms.topic: interface
 f1_keywords:
  - "dmusicks/IMasterClock"
 req.header: dmusicks.h
@@ -57,23 +56,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMasterClock</b> interface in
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IMasterClock</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-imasterclock-gettime">IMasterClock::GetTime</a>
-</td>
-<td align="left" width="63%">
-The <code>GetTime</code> method retrieves the current reference time read from the master clock.
-
-</td>
-</tr>
-</table> 
 

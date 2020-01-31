@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 87f3b66a-0fcb-4325-ae23-7f89d6b389e6
 ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_PRESENT_FLAGS, DXGI_DDI_PRESENT_FLAGS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_75234d4d-acce-4f1f-804c-f7128d885c2f.xml, display.dxgi_ddi_present_flags, dxgiddi/DXGI_DDI_PRESENT_FLAGS
-ms.topic: struct
 f1_keywords:
  - "dxgiddi/DXGI_DDI_PRESENT_FLAGS"
 req.header: dxgiddi.h

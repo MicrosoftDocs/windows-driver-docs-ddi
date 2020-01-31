@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 4cbf6d29-bccd-4629-b282-eb5314f9b4f4
 ms.date: 02/26/2018
 ms.keywords: FormatUsingCurrentType, FormatUsingCurrentType method, FormatUsingCurrentType method,IWDFIoRequest interface, IWDFIoRequest interface,FormatUsingCurrentType method, IWDFIoRequest.FormatUsingCurrentType, IWDFIoRequest::FormatUsingCurrentType, UMDFRequestObjectRef_e16e60fe-557d-413c-a483-6bbe602986dc.xml, umdf.iwdfiorequest_formatusingcurrenttype, wdf.iwdfiorequest_formatusingcurrenttype, wudfddi/IWDFIoRequest::FormatUsingCurrentType
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoRequest.FormatUsingCurrentType"
 req.header: wudfddi.h
@@ -51,13 +50,6 @@ req.typenames:
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 The <b>FormatUsingCurrentType</b> method formats an I/O request so that the driver can forward it, unmodified, to the next-lower driver.
-
-
-## -parameters
-
-
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: c41b7489-afd2-4ddf-b296-6d42e3ff6cbf
 ms.date: 04/30/2018
 ms.keywords: DrvrRtns_e0e54c40-37d6-41b3-8374-b1a7763d54ed.xml, IO_TIMER_ROUTINE, IoTimer, IoTimer routine [Kernel-Mode Driver Architecture], kernel.iotimer, wdm/IoTimer
-ms.topic: callback
 f1_keywords:
  - "wdm/IoTimer"
 req.header: wdm.h
@@ -64,15 +63,6 @@ Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardwar
 ### -param Context [in, optional]
 
 Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinitializetimer">IoInitializeTimer</a>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

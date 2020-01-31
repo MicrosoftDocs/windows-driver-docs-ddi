@@ -7,7 +7,6 @@ tech.root: hid
 ms.assetid: C42174FE-202F-405D-840B-8613762F43AC
 ms.date: 04/30/2018
 ms.keywords: EVT_VHF_ASYNC_OPERATION, EVT_VHF_ASYNC_OPERATION callback, EvtVhfAsyncOperation, EvtVhfAsyncOperation callback function [Human Input Devices], hid.evtvhfasyncoperation, vhf/EvtVhfAsyncOperation
-ms.topic: callback
 f1_keywords:
  - "vhf/EvtVhfAsyncOperation"
 req.header: vhf.h
@@ -74,15 +73,6 @@ Pointer to a buffer that can be used by the HID source driver for servicing the 
 ### -param HidTransferPacket [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ns-hidclass-_hid_xfer_packet">HID_XFER_PACKET</a> structure. Contains information about a HID Report and is used by the HID source driver and the HID class/mini driver pair for I/O requests to get or set a report.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 8C03A1A3-1757-4622-9652-0D84DC0AFE59
 ms.date: 02/26/2018
 ms.keywords: IWDFCmResourceList, IWDFCmResourceList interface, IWDFCmResourceList interface,described, umdf.iwdfcmresourcelist, wdf.iwdfcmresourcelist, wudfddi/IWDFCmResourceList
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IWDFCmResourceList"
 req.header: wudfddi.h
@@ -59,35 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFCmResourceList</b> interf
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWDFCmResourceList</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getcount">GetCount</a>
-</td>
-<td align="left" width="63%">
-Returns the number of resource descriptors that are contained in a specified resource list.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfcmresourcelist-getdescriptor">GetDescriptor</a>
-</td>
-<td align="left" width="63%">
-Returns a pointer to a resource descriptor that is contained in a specified resource list.
-
-</td>
-</tr>
-</table> 
-
 
 ## -remarks
 

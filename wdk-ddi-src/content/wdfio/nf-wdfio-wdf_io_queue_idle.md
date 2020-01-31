@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 9ad3be79-13ca-4bcb-b686-09e7563610f9
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_f836bf9d-8d2c-48db-92cd-fbcef2a0faf6.xml, WDF_IO_QUEUE_IDLE, WDF_IO_QUEUE_IDLE function, kmdf.wdf_io_queue_idle, wdf.wdf_io_queue_idle, wdfio/WDF_IO_QUEUE_IDLE
-ms.topic: function
 f1_keywords:
  - "wdfio/WDF_IO_QUEUE_IDLE"
 req.header: wdfio.h

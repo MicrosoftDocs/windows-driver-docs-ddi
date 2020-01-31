@@ -5,7 +5,6 @@ description: The VmbChannelSetIncomingProcessingAtPassive function sets the requ
 tech.root: netvista
 ms.assetid: 8bdd8690-6c8e-4764-91da-5a35922dae65
 ms.date: 05/22/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SET_INCOMING_PROCESSING_AT_PASSIVE"
 req.header: vmbuskernelmodeclientlibapi.h
@@ -75,10 +74,6 @@ A handle for a channel.
 ### -param RequirePassive
 
 If true, the channel requires PASSIVE_LEVEL. If false, packets may arrive at either DISPATCH_LEVEL or PASSIVE_LEVEL.
-
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

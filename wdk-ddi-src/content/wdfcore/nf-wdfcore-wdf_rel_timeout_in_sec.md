@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 40d0f5bf-609e-4609-8785-261b087fa372
 ms.date: 02/26/2018
 ms.keywords: DFTimerObjectRef_2c5d8c96-3c4d-484d-9d60-656c4c4a7cc5.xml, WDF_REL_TIMEOUT_IN_SEC, WDF_REL_TIMEOUT_IN_SEC function, kmdf.wdf_rel_timeout_in_sec, wdf.wdf_rel_timeout_in_sec, wdfcore/WDF_REL_TIMEOUT_IN_SEC
-ms.topic: function
 f1_keywords:
  - "wdfcore/WDF_REL_TIMEOUT_IN_SEC"
 req.header: wdfcore.h

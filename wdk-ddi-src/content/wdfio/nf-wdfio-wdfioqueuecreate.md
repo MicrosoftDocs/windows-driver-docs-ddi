@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: cd7e993e-1381-4b0c-b046-716e839dbb62
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_97b06453-cf79-4944-85d7-530b83211353.xml, WdfIoQueueCreate, WdfIoQueueCreate method, kmdf.wdfioqueuecreate, wdf.wdfioqueuecreate, wdfio/WdfIoQueueCreate
-ms.topic: function
 f1_keywords:
  - "wdfio/WdfIoQueueCreate"
 req.header: wdfio.h

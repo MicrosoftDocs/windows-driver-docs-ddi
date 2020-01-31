@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 3e3c4c53-e557-4bd1-8b7d-be59dde4b9ce
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_90eafb20-dd9c-49ca-b435-fdee9b13e4e1.xml, EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL, EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL callback, EvtIoDeviceControl, EvtIoDeviceControl callback function, kmdf.evtiodevicecontrol, wdf.evtiodevicecontrol, wdfio/EvtIoDeviceControl
-ms.topic: callback
 f1_keywords:
  - "wdfio/EvtIoDeviceControl"
 req.header: wdfio.h
@@ -81,15 +80,6 @@ The length, in bytes, of the request's input buffer, if an input buffer is avail
 ### -param IoControlCode [in]
 
 The driver-defined or system-defined I/O control code (IOCTL) that is associated with the request.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

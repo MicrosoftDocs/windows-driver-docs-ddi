@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: e4ceb597-ebfe-4016-ba83-e5246a70f566
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_ENDPOINT_PURGE, EVT_UCX_ENDPOINT_PURGE callback, EvtUcxEndpointPurge, EvtUcxEndpointPurge callback function [Buses], PEVT_UCX_ENDPOINT_PURGE, PEVT_UCX_ENDPOINT_PURGE callback function pointer [Buses], buses.evt_ucx_endpoint_purge, ucxendpoint/EvtUcxEndpointPurge
-ms.topic: callback
 f1_keywords:
  - "ucxendpoint/PEVT_UCX_ENDPOINT_PURGE"
 req.header: ucxendpoint.h
@@ -73,15 +72,6 @@ The client driver's implementation that completes all outstanding I/O requests o
 #### - Endpoint [in]
 
 A handle to a UCXENDPOINT object that represents the endpoint.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

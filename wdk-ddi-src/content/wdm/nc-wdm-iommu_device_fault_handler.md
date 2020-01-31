@@ -4,7 +4,6 @@ title: IOMMU_DEVICE_FAULT_HANDLER (wdm.h)
 description: Reports fault from a specific device and domain.
 ms.assetid: 6efa32ef-39c2-43f3-8808-d7649cfc493d
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "wdm/IOMMU_DEVICE_FAULT_HANDLER"
 req.header: wdm.h
@@ -70,10 +69,6 @@ A pointer to the opaque driver-supplied fault context.
 ### -param FaultInformation
 A pointer to a [**FAULT_INFORMATION**](ns-wdm-_fault_information.md) structure that contains fault information.
 
-
-## -returns
-
-.
 
 ## -remarks
 

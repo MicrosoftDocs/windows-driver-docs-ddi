@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: dea4ab30-ba1d-4c9c-9f00-e48cc3cc0b46
 ms.date: 05/02/2018
 ms.keywords: FILTER_DEVICE_PNP_EVENT_NOTIFY, FILTER_DEVICE_PNP_EVENT_NOTIFY callback, FilterDevicePnPEventNotify, FilterDevicePnPEventNotify callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_3e688903-ea36-44b3-bd06-533f7e573478.xml, ndis/FilterDevicePnPEventNotify, netvista.filterdevicepnpeventnotify
-ms.topic: callback
 f1_keywords:
  - "ndis/FilterDevicePnPEventNotify"
 req.header: ndis.h
@@ -71,15 +70,6 @@ A handle to the context area for the filter module. The filter driver created an
 A pointer to a 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_device_pnp_event">NET_DEVICE_PNP_EVENT</a> structure that
      describes a device Plug and Play event.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

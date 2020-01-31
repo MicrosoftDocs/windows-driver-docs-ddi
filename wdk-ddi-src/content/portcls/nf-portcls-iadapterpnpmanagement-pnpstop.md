@@ -5,7 +5,6 @@ description: The PnpStop method provides a notification after stopping all Ioctl
 tech.root: audio
 ms.assetid: 7ad59aef-fc02-4102-a5b8-5349209bd65d
 ms.date: 10/31/2018
-ms.topic: method
 f1_keywords:
  - "portcls/IAdapterPnpManagement.PnpStop"
 ms.keywords: IAdapterPnpManagement::PnpStop, PnpStop, IAdapterPnpManagement.PnpStop, IAdapterPnpManagement::PnpStop, IAdapterPnpManagement.PnpStop
@@ -46,9 +45,6 @@ targetos: Windows
 ## -description
 
 The PnpStop method provides a notification after stopping all Ioctl operations and moving active streams from run|pause|acquire state to stop state.
-
-## -parameters
-
 
 ## -remarks
 

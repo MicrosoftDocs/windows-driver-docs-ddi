@@ -6,7 +6,6 @@ old-location: display\dispatch.htm
 ms.assetid: 6fbbf05a-efb0-4f24-8811-b87141cf2daa
 ms.date: 05/10/2018
 ms.keywords: Dispatch, Dispatch callback function [Display Devices], PFND3D11DDI_DISPATCH, PFND3D11DDI_DISPATCH callback, UserModeDisplayDriverDx11_Functions_1b4b62fc-3cc5-4506-9a61-30ee65f8ffcd.xml, d3d10umddi/Dispatch, display.dispatch
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/Dispatch"
 req.header: d3d10umddi.h
@@ -81,18 +80,9 @@ A handle to the display device (graphics context).
  The size, in thread groups, of the z-dimension of the thread-group grid.  The maximum size is 65535. 
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
-
-
-
-
 ## -remarks
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 

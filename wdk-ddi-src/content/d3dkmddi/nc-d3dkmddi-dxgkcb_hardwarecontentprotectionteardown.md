@@ -6,7 +6,6 @@ old-location: display\dxgkcbhardwarecontentprotectionteardown.htm
 ms.assetid: 7B12B9AD-2288-4CE0-A4D8-F1C96150CE45
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN, DXGKCB_HARDWARECONTENTPROTECTIONTEARDOWN callback, DxgkCbHardwareContentProtectionTeardown, DxgkCbHardwareContentProtectionTeardown callback function [Display Devices], d3dkmddi/DxgkCbHardwareContentProtectionTeardown, display.dxgkcbhardwarecontentprotectionteardown
-ms.topic: callback
 f1_keywords:
  - "d3dkmddi/DxgkCbHardwareContentProtectionTeardown"
 req.header: d3dkmddi.h
@@ -64,15 +63,6 @@ A handle to the graphics adapter where the tear-down event is occurring.
 ### -param Flags
 
 Additional flags defined by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_hardware_content_protection_teardown_flags">DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</a> enumeration.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 443fb3c0-0e75-4abc-b44f-047752b3cab7
 ms.date: 05/08/2018
 ms.keywords: "*PKSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES, KSAUDIO_MICROPHONE_COORDINATES structure [Audio Devices], PKSAUDIO_MICROPHONE_COORDINATES, PKSAUDIO_MICROPHONE_COORDINATES structure pointer [Audio Devices], aud-prop_85a5f68f-13f2-4465-bb16-4d30e9c9d731.xml, audio.ksaudio_microphone_coordinates, ksmedia/KSAUDIO_MICROPHONE_COORDINATES, ksmedia/PKSAUDIO_MICROPHONE_COORDINATES"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSAUDIO_MICROPHONE_COORDINATES"
 req.header: ksmedia.h

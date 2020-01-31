@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 46398050-7f06-4d64-8b27-12e529884cb2
 ms.date: 04/30/2018
 ms.keywords: IoAcquireRemoveLock, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, kernel.ioacquireremovelock, wdm/IoAcquireRemoveLock
-ms.topic: macro
 f1_keywords:
  - "wdm/IoAcquireRemoveLock"
 req.header: wdm.h
@@ -87,7 +86,6 @@ If a driver specifies a <i>Tag</i> on a call to
 The <i>Tag</i> does not have to be unique, but should be something meaningful during 
        debugging.
 
-The I/O system uses this parameter on checked builds only.
 
 ## -remarks
 

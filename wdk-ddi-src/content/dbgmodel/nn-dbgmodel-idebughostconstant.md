@@ -4,7 +4,6 @@ title: IDebugHostConstant (dbgmodel.h)
 description: Represents a constant within symbolic information (a non-type template argument in C++).
 ms.assetid: 87e25e99-ea64-4cda-8cae-fd38ec9c3343
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDebugHostConstant"
 req.header: dbgmodel.h
@@ -44,56 +43,6 @@ Represents a constant within symbolic information (e.g.: a non-type template arg
 
 ## -inheritance
 IDebugHostConstant interits from [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md). 
-## -members
-
-<p>IDebugHostConstant has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContext</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateChildren</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetSymbolKind</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetName</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetType</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContainingModule</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetValue</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 For locations where constant values are present in symbolic information (where a particular value is a symbol which may or may not be a constant value), the IDebugHostConstant interface expresses the notion of such a constant. This is typically used in places like template arguments where a given argument is typically a type but may instead be a non-type template argument (e.g.: a constant). 

@@ -6,7 +6,6 @@ old-location: display\resourceresolvesubresource.htm
 ms.assetid: f9f4a6e2-bc01-477f-a919-ec71871f665b
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_RESOURCERESOLVESUBRESOURCE, PFND3D10DDI_RESOURCERESOLVESUBRESOURCE callback, ResourceResolveSubresource, ResourceResolveSubresource callback function [Display Devices], UserModeDisplayDriverDx10_Functions_bddd44ef-1872-4285-9b04-fdd509e84527.xml, d3d10umddi/ResourceResolveSubresource, display.resourceresolvesubresource
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/ResourceResolveSubresource"
 req.header: d3d10umddi.h
@@ -94,18 +93,16 @@ A DXGI_FORMAT-typed value that indicates how to interpret the contents of the re
 
 
 
-## -returns
+## -remarks
 
 
 
-None
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 
 
-## -remarks
 
 
 

@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 16FBD831-D7AE-4B10-B76E-6CA42C9CABEB
 ms.date: 05/03/2018
 ms.keywords: IDebugClient7, IDebugClient7 interface [Windows Debugging], IDebugClient7 interface [Windows Debugging],described, dbgeng/IDebugClient7, debugger.idebugclient7
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugClient7"
 req.header: dbgeng.h
@@ -57,23 +56,4 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient7</b> interface i
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IDebugClient7</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient7-setclientcontext">SetClientContext</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient7-setclientcontext">SetClientContext</a> method is reserved for internal use.
-
-</td>
-</tr>
-</table> 
 

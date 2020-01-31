@@ -7,7 +7,6 @@ tech.root: whea
 ms.assetid: 66189a9a-241f-4457-87cd-d5d583a46f14
 ms.date: 02/20/2018
 ms.keywords: "*PWHEA_ERROR_PACKET, *PWHEA_ERROR_PACKET_V2, PWHEA_ERROR_PACKET_V1, PWHEA_ERROR_PACKET_V1 structure pointer [WHEA Drivers and Applications], WHEA_ERROR_PACKET, WHEA_ERROR_PACKET_V1, WHEA_ERROR_PACKET_V1 structure [WHEA Drivers and Applications], WHEA_ERROR_PACKET_V2, _WHEA_ERROR_PACKET_V2, ntddk/PWHEA_ERROR_PACKET_V1, ntddk/WHEA_ERROR_PACKET_V1, whea.whea_error_packet_v1, whearef_d65ca9a6-c7ff-42f0-b7d5-763b6a34b924.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_ERROR_PACKET_V1"
 req.header: ntddk.h

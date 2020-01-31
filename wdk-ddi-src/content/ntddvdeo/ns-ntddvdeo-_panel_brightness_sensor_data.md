@@ -5,7 +5,6 @@ description: Used to set the level of optimization to control the brightness of 
 tech.root: display
 ms.assetid: 228da293-6f46-4a8f-b916-0e3e9baaf237
 ms.date: 10/19/2018
-ms.topic: struct
 f1_keywords:
  - "ntddvdeo/_PANEL_BRIGHTNESS_SENSOR_DATA"
 ms.keywords: _PANEL_BRIGHTNESS_SENSOR_DATA, PANEL_BRIGHTNESS_SENSOR_DATA,

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 40976CC1-89A4-420F-867F-99F857670DAE
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_TX_SEND_RESTART_IND, NDIS_WDI_TX_SEND_RESTART_IND callback, NdisWdiTxSendRestartIndication, NdisWdiTxSendRestartIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendRestartIndication, netvista.ndiswditxsendrestartindication
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/NdisWdiTxSendRestartIndication"
 req.header: dot11wdi.h
@@ -90,15 +89,6 @@ The Extended TID bitmask. See <i>Remarks</i> section for more information.
 #### - TxPauseReason [in]
 
 TX pause reason bitmask, specified as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dot11wdi/ne-dot11wdi-_wdi_tx_pause_reason">WDI_TX_PAUSE_REASON</a> value(s). See <i>Remarks</i> section for more information.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

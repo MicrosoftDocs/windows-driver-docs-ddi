@@ -4,7 +4,6 @@ title: PFND3D12DDI_RESETCOMMANDLIST_0040 (d3d12umddi.h)
 description: Implemented by the client driver to reset a command list back to its initial state as if a new command list was just created.
 ms.assetid: 06059203-b498-4b6a-9896-f7971d428ac3
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -53,10 +52,6 @@ A handle to the driver's data for the command list. The driver uses this region 
 ### -param Arg2
 
 A pointer to the D3D12DDIARG_RESETCOMMANDLIST_0040 structure that contains arguments to reset the command list.
-
-## -returns
-
-Returns VOID on completion.
 
 ## -prototype
 

@@ -7,7 +7,6 @@ tech.root: image
 ms.assetid: 5bf56435-df81-4555-91ca-5419883bb1e8
 ms.date: 05/03/2018
 ms.keywords: image.wiausetimageitemsize, wiauFncs_9def0e29-20fe-4e9b-b473-a2dbca9088da.xml, wiauSetImageItemSize, wiauSetImageItemSize function [Imaging Devices], wiautil/wiauSetImageItemSize
-ms.topic: function
 f1_keywords:
  - "wiautil/wiauSetImageItemSize"
 req.header: wiautil.h

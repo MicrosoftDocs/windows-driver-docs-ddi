@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 9F79816F-866F-4B68-898F-87D310EFBBE7
 ms.date: 04/23/2018
 ms.keywords: IKsAllocator interface [Streaming Media Devices],KsGetAllocatorHandle method, IKsAllocator.KsGetAllocatorHandle, IKsAllocator::KsGetAllocatorHandle, KsGetAllocatorHandle, KsGetAllocatorHandle method [Streaming Media Devices], KsGetAllocatorHandle method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsGetAllocatorHandle, stream.iksallocator_ksgetallocatorhandle
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsAllocator.KsGetAllocatorHandle"
 req.header: ksproxy.h
@@ -53,18 +52,11 @@ req.typenames:
 Retrieves a file handle to an allocator.
 
 
-## -parameters
-
-
-
-
-
-
 ## -returns
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

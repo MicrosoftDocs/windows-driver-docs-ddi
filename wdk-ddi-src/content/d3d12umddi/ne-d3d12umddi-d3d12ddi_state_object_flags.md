@@ -4,7 +4,6 @@ title: D3D12DDI_STATE_OBJECT_FLAGS (d3d12umddi.h)
 description: The state object flags.
 ms.assetid: 6dbef5b3-6e77-46e7-b9d2-20554a3535ff
 ms.date: 10/19/2018
-ms.topic: enum
 f1_keywords:
  - "d3d12umddi/D3D12DDI_STATE_OBJECT_FLAGS"
 ms.keywords: D3D12DDI_STATE_OBJECT_FLAGS, D3D12DDI_STATE_OBJECT_FLAGS, 

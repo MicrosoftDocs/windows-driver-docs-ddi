@@ -6,7 +6,6 @@ old-location: display\dxgkarg_submitcommand.htm
 ms.assetid: f0b5c7aa-855e-419a-ac27-c9f4edefd648
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_SUBMITCOMMAND, DXGKARG_SUBMITCOMMAND structure [Display Devices], DmStructs_04cbfdbf-3b43-4b70-8964-75eb9f9c4128.xml, _DXGKARG_SUBMITCOMMAND, d3dkmddi/DXGKARG_SUBMITCOMMAND, display.dxgkarg_submitcommand
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_SUBMITCOMMAND"
 req.header: d3dkmddi.h

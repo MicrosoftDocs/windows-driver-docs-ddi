@@ -7,7 +7,6 @@ tech.root:
 ms.assetid: d017ad63-f9d5-413f-9dc6-aba5fb873c93
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: function
 f1_keywords:
  - "ntddk/WheaHighIrqlLogSelEventHandlerUnregister"
 ms.keywords: WheaHighIrqlLogSelEventHandlerUnregister
@@ -49,9 +48,6 @@ ms.custom: 19H1
 ## -description
 
 Reserved for system use.
-
-
-## -parameters
 
 
 ## -remarks

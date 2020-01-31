@@ -5,7 +5,6 @@ description: The AllocatedBufferSize method returns the size of the allocated bu
 tech.root: audio
 ms.assetid: 81a39c45-7ff4-488a-87f9-ed6b3120df35
 ms.date: 10/31/2018
-ms.topic: method
 f1_keywords:
  - "portcls/IDmaChannel.AllocatedBufferSize"
 ms.keywords: IDmaChannel::AllocatedBufferSize, AllocatedBufferSize, IDmaChannel.AllocatedBufferSize, IDmaChannel::AllocatedBufferSize, IDmaChannel.AllocatedBufferSize
@@ -46,9 +45,6 @@ targetos: Windows
 ## -description
 
 The AllocatedBufferSize method returns the size of the allocated buffer.
-
-## -parameters
-
 
 ## -returns
 This method returns ULONG which is the size in bytes of the allocated buffer.

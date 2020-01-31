@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: da85c8d6-a74c-4a87-88b3-fb6dc01dd0f9
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_f4ac8b0d-55c2-45b1-8f3b-3a09bee7bb23.xml, FltAttachVolume, FltAttachVolume function [Installable File System Drivers], fltkernel/FltAttachVolume, ifsk.fltattachvolume
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltAttachVolume"
 req.header: fltkernel.h

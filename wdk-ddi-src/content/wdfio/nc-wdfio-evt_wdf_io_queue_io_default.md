@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 0b834d01-5603-43e8-9b74-9292610cc06d
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_aca0c34e-8d7d-4eba-b1ac-c91928db896e.xml, EVT_WDF_IO_QUEUE_IO_DEFAULT, EVT_WDF_IO_QUEUE_IO_DEFAULT callback, EvtIoDefault, EvtIoDefault callback function, kmdf.evtiodefault, wdf.evtiodefault, wdfio/EvtIoDefault
-ms.topic: callback
 f1_keywords:
  - "wdfio/EvtIoDefault"
 req.header: wdfio.h
@@ -66,15 +65,6 @@ A handle to the framework queue object that is associated with the I/O request.
 ### -param Request [in]
 
 A handle to a framework request object.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 84ced2d3-43a9-42ef-b8fb-592dc960b01b
 ms.date: 05/02/2018
 ms.keywords: "*LPRILUICCATRINFO, RILUICCATRINFO, RILUICCATRINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccatrinfo, ntddrilapitypes/RILUICCATRINFO"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILUICCATRINFO"
 req.header: ntddrilapitypes.h

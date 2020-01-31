@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: F2F92DAE-6C13-4EE6-9DE7-B77F5FAFAE60
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_RX_INORDER_DATA_IND, NDIS_WDI_RX_INORDER_DATA_IND callback, NdisWdiRxInorderDataIndication, NdisWdiRxInorderDataIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxInorderDataIndication, netvista.ndiswdirxinorderdataindication
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/NdisWdiRxInorderDataIndication"
 req.header: dot11wdi.h
@@ -87,15 +86,6 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nd
 ### -param *pWifiStatus [out]
 
 Status from WDI for the <i>NdisWdiRxInorderDataIndication</i>.  See the <i>Remarks</i> section for more information.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

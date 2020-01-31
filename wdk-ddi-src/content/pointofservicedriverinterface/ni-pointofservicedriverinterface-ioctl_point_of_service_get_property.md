@@ -7,7 +7,6 @@ tech.root: pos
 ms.assetid: 7d0231b3-4db7-47b3-8208-70d2cd337005
 ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_GET_PROPERTY, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY, pos.ioctl_point_of_service_get_property
-ms.topic: ioctl
 f1_keywords:
  - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY"
 req.header: pointofservicedriverinterface.h
@@ -98,27 +97,10 @@ Size, in bytes, of the buffer pointed to by <i>lpOutBuffer</i>.
 
 Returns <b>TRUE</b> if successful; otherwise, returns <b>FALSE</b>.
 
-To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values (other status values may be returned as defined by your GET property callback implementation):
-
-
-
-
-#### -STATUS_ACCESS_DENIED
-
-The calling thread does not have a claim on the device.
-
-
-#### -STATUS_BUFFER_OVERFLOW
-
-The output buffer is not large enough to contain the output value. The driver will copy as much data into the output buffer as possible.
-
-
 ## -remarks
 
+To get extended error information, call <a href="https://go.microsoft.com/fwlink/p/?LinkId=316871">GetLastError</a>. The following list shows common error values (other status values may be returned as defined by your GET property callback implementation):
 
+- STATUS_ACCESS_DENIED: The calling thread does not have a claim on the device.
 
-<h3><a id="Parameters"></a><a id="parameters"></a><a id="PARAMETERS"></a>Parameters</h3>
-
-
-
-
+- STATUS_BUFFER_OVERFLOW: The output buffer is not large enough to contain the output value. The driver will copy as much data into the output buffer as possible.

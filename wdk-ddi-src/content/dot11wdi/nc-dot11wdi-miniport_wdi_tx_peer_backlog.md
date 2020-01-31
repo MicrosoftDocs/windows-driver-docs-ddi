@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 49DC9034-9A50-4B0F-B7F7-A06147D1046F
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TX_PEER_BACKLOG, MINIPORT_WDI_TX_PEER_BACKLOG callback, MiniportWdiTxPeerBacklog, MiniportWdiTxPeerBacklog callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxPeerBacklog, netvista.miniportwditxpeerbacklog
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiTxPeerBacklog"
 req.header: dot11wdi.h
@@ -80,15 +79,6 @@ The peer ID.
 ### -param bBacklogged [in]
 
 The backlog state.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -see-also

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 5e9f9ef1-e86e-49a7-be76-a31595da28e6
 ms.date: 05/02/2018
 ms.keywords: "*LPRILSETEXECUTORFOCUSPARAMS, RILSETEXECUTORFOCUSPARAMS, RILSETEXECUTORFOCUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetexecutorfocusparams, ntddrilapitypes/RILSETEXECUTORFOCUSPARAMS"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILSETEXECUTORFOCUSPARAMS"
 req.header: ntddrilapitypes.h

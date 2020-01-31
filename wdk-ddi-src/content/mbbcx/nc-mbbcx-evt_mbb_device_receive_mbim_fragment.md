@@ -5,7 +5,6 @@ description: A client driver's EvtMbbDeviceReceiveMbimFragment event callback fu
 tech.root: netvista
 ms.assetid: aaf0e1ca-600d-4912-93ae-10dc6d04dd7e
 ms.date: 07/02/2018
-ms.topic: callback
 f1_keywords:
  - "mbbcx/EVT_MBB_DEVICE_RECEIVE_MBIM_FRAGMENT"
 req.header: mbbcx.h
@@ -74,10 +73,6 @@ A handle to a framework device object the client driver obtained from a previous
 ### -param ReceiveRequest 
 
 A handle to the framework object which represents the request to receive a fragemented MBIM message from the device.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

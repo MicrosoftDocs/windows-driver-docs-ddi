@@ -7,7 +7,6 @@ tech.root: audio
 ms.assetid: 453c5313-24a0-4009-98bd-9bba2a546a75
 ms.author: windowsdriverdev
 ms.date: 04/08/2019 
-ms.topic: callback
 f1_keywords:
  - "hdaudio/PUNREGISTER_NOTIFICATION_CALLBACK"
 ms.prod: windows-hardware
@@ -92,7 +91,7 @@ Driver-specific context value for the callback routine.
 
 PUNREGISTER_NOTIFICATION_CALLBACK returns STATUS_SUCCESS if the call successfully unregisters the notification event. Otherwise, the routine returns STATUS_INVALID_PARAMETER to indicate that the specified callback routine and context are not valid.
 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 

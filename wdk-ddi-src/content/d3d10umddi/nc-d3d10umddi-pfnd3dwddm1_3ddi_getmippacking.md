@@ -6,7 +6,6 @@ old-location: display\getmippacking.htm
 ms.assetid: 8AF361B5-279D-4525-AD98-843A4A746201
 ms.date: 05/10/2018
 ms.keywords: GetMipPacking, GetMipPacking callback function [Display Devices], PFND3DWDDM1_3DDI_GETMIPPACKING, PFND3DWDDM1_3DDI_GETMIPPACKING callback, d3d10umddi/GetMipPacking, display.getmippacking
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -70,13 +69,12 @@ A pointer to a variable that receives the number of tiles that the packed mips f
 
 This parameter is ignored if *<i>pNumPackedMips</i> returns zero.
 
-## -returns
+## -remarks
 
-None
+
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. The driver can set <b>E_INVALIDARG</b> if an input parameter does not exist or is <b>NULL</b>.
 
-## -remarks
 
 Packed mips include cases where multiple small mips share tile(s) and also mips for which a given device cannot use standard tile shapes.  It's possible for an entire resource to be considered packed.
 

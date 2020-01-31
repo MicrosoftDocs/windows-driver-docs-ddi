@@ -7,7 +7,6 @@ tech.root: SPB
 ms.assetid: C56F1528-5FDA-4BC9-AB32-7882FB0F7713
 ms.date: 04/30/2018
 ms.keywords: EVT_SPB_CONTROLLER_SEQUENCE, EVT_SPB_CONTROLLER_SEQUENCE callback, EvtSpbControllerIoSequence, EvtSpbControllerIoSequence callback function [Buses], SPB.evtspbcontrolleriosequence, spbcx/EvtSpbControllerIoSequence
-ms.topic: callback
 f1_keywords:
  - "spbcx/EvtSpbControllerIoSequence"
 req.header: spbcx.h
@@ -74,15 +73,6 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/spbcx-objec
 ### -param TransferCount [in]
 
 The number of individual transfers in this I/O transfer sequence. Each individual transfer is a simple read or write operation.
-
-
-## -returns
-
-
-
-None.
-
-
 
 
 ## -remarks

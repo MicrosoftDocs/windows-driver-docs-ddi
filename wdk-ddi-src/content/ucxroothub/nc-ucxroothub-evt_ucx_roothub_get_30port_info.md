@@ -7,7 +7,6 @@ tech.root: usbref
 ms.assetid: 35eb22aa-3158-48ad-a20c-909604f9b4b1
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_ROOTHUB_GET_30PORT_INFO, EVT_UCX_ROOTHUB_GET_30PORT_INFO callback, EvtUcxRootHubGet30PortInfo, EvtUcxRootHubGet30PortInfo callback function [Buses], PEVT_UCX_ROOTHUB_GET_30PORT_INFO, PEVT_UCX_ROOTHUB_GET_30PORT_INFO callback function pointer [Buses], buses.evt_ucx_roothub_get_30port_info, ucxroothub/EvtUcxRootHubGet30PortInfo
-ms.topic: callback
 f1_keywords:
  - "ucxroothub/PEVT_UCX_ROOTHUB_GET_30PORT_INFO"
 req.header: ucxroothub.h
@@ -64,15 +63,6 @@ A handle to a UCX object that represents the root hub.
 ### -param Request [in]
 
 A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_30port_info">_ROOTHUB_30PORT_INFO</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

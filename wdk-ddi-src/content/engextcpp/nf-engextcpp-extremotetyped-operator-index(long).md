@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: b75a0cec-fda6-45a3-ac60-915fc5862456
 ms.date: 05/03/2018
 ms.keywords: ExtRemoteTyped class [Windows Debugging],operator[] method, ExtRemoteTyped.operator[], ExtRemoteTyped.operator[](LONG), ExtRemoteTyped::Operator[], ExtRemoteTyped::operator[], ExtRemoteTyped::operator[](LONG), debugger.extremotetyped_operatorarray_long, operator[], operator[] method [Windows Debugging], operator[] method [Windows Debugging],ExtRemoteTyped class
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.operator[]"
 req.header: engextcpp.hpp
@@ -93,7 +92,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/n
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-operator-index(ulong)">ExtRemoteTyped::Operator[] (ULONG)</a>
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-operator-index(ulong64)">ExtRemoteTyped::Operator[] (ULONG64)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-operator-index(ulong64)">ExtRemoteTyped::Operator[] (ULONG64)</a>
  
 
  

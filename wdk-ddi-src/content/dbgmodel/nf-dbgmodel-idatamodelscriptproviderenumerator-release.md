@@ -4,7 +4,6 @@ title: IDataModelScriptProviderEnumerator::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object.
 ms.assetid: 18d5e8ee-c6ea-4ca0-8c5e-51c5f0be5ff9
 ms.date: 09/21/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelScriptProviderEnumerator.Release"
 ms.keywords: IDataModelScriptProviderEnumerator::Release, Release, IDataModelScriptProviderEnumerator.Release, IDataModelScriptProviderEnumerator::Release, IDataModelScriptProviderEnumerator.Release
@@ -49,10 +48,6 @@ Decrements the reference count for an interface on an object.
 
 For more information, see [IUnknown::Release](https://docs.microsoft.com/windows/desktop/api/Unknwn/nf-unknwn-iunknown-release) and [Introduction to COM](https://docs.microsoft.com/cpp/atl/introduction-to-com).
 
-
-## -parameters
-
-None
 
 ## -returns
 

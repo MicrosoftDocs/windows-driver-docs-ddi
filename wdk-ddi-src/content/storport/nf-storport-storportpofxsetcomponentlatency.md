@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: F175ED42-3DB6-4568-96CA-EFC283B14887
 ms.date: 03/29/2018
 ms.keywords: StorPortPoFxSetComponentLatency, StorPortPoFxSetComponentLatency routine [Storage Devices], storage.storportpofxsetcomponentlatency, storport/StorPortPoFxSetComponentLatency
-ms.topic: function
 f1_keywords:
  - "storport/StorPortPoFxSetComponentLatency"
 req.header: storport.h

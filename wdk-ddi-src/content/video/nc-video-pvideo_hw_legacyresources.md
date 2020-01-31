@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 015086e9-70b4-4756-9945-c9da17829e90
 ms.date: 05/10/2018
 ms.keywords: HwVidLegacyResources, HwVidLegacyResources callback function [Display Devices], PVIDEO_HW_LEGACYRESOURCES, PVIDEO_HW_LEGACYRESOURCES callback, VideoMiniport_Functions_a629bf4d-8f16-4d71-ab88-c691160a5df7.xml, display.hwvidlegacyresources, video/HwVidLegacyResources
-ms.topic: callback
 f1_keywords:
  - "video/HwVidLegacyResources"
 req.header: video.h
@@ -74,15 +73,6 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/driv
 ### -param LegacyResourceCount [in, out]
 
 Is the number of elements in the array to which <i>LegacyResourceList</i> points.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

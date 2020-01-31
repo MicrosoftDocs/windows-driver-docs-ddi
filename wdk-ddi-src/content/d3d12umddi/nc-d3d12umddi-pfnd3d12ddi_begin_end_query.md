@@ -5,7 +5,6 @@ description: The pfnBeginEndQuery callback function defines the beginning of the
 tech.root: display
 ms.assetid: 2032148a-3b57-4fce-be81-c91bef88fd51
 ms.date: 11/28/2018
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_BEGIN_END_QUERY"
 ms.prod: windows-hardware
@@ -91,10 +90,6 @@ The value of the start element.
 *QueryType*
 
 The type of query. Resolve is used by applications to transform a query result previously stored in a query heap into the API defined format.  The resolved data is stored in a D3D12 buffer.  The results can then be consumed by a shader, predication, or mapped and read on the CPU.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

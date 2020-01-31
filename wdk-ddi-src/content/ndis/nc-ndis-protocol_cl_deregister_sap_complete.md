@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 93f8f74a-8ad4-42ea-83cf-ddfcd7f55ce6
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CL_DEREGISTER_SAP_COMPLETE, PROTOCOL_CL_DEREGISTER_SAP_COMPLETE callback, ProtocolClDeregisterSapComplete, ProtocolClDeregisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_7f2820e8-9dcb-494c-80f6-eac5aa96d869.xml, ndis/ProtocolClDeregisterSapComplete, netvista.protocolclderegistersapcomplete
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolClDeregisterSapComplete"
 req.header: ndis.h
@@ -105,15 +104,6 @@ The call manager failed the request to close the SAP for some CM-determined reas
 Specifies the client-supplied handle to its per-SAP context area, originally passed to NDIS with 
      <b>NdisClRegisterSap</b>. After the call manager has successfully deregistered this SAP, the client can
      release its context area or prepare this context area for reuse.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

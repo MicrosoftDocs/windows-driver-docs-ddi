@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: FA3FE0C0-57EC-4761-991B-49CA65A79BDD
 ms.date: 02/26/2018
 ms.keywords: EVT_WDF_REQUEST_IMPERSONATE, EVT_WDF_REQUEST_IMPERSONATE callback, EvtRequestImpersonate, EvtRequestImpersonate callback function, wdf.evtrequestimpersonate, wdfrequest/EvtRequestImpersonate
-ms.topic: callback
 f1_keywords:
  - "wdfrequest/EvtRequestImpersonate"
 req.header: wdfrequest.h
@@ -66,15 +65,6 @@ A handle to a framework request object that represents the I/O request that requ
 ### -param Context [in, optional]
 
 A pointer to a context that was previously supplied in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestimpersonate">WdfRequestImpersonate</a> method. This parameter is optional and can be NULL if a context is not required. 
-
-
-
-
-## -returns
-
-
-
-This callback function does not return a value.
 
 
 

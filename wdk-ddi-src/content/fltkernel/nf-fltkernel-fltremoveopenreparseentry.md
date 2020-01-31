@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: FD8C3A32-E578-47E9-9B2A-E1809D62F7B8
 ms.date: 04/16/2018
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltRemoveOpenReparseEntry, fltkernel/FltAddOpenReparseEntry, ifsk.fltremoveopenreparseentry
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltAddOpenReparseEntry"
 req.header: fltkernel.h

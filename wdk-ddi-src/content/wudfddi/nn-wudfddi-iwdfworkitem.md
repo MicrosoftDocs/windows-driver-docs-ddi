@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: F9EDA26E-92E0-4936-87B7-E1E2A02A9D96
 ms.date: 02/26/2018
 ms.keywords: IWDFWorkItem, IWDFWorkItem interface, IWDFWorkItem interface,described, umdf.iwdfworkitem, wdf.iwdfworkitem, wudfddi/IWDFWorkItem
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IWDFWorkItem"
 req.header: wudfddi.h
@@ -59,46 +58,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFWorkItem</b> interface in
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IWDFWorkItem</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfworkitem-enqueue">Enqueue</a>
-</td>
-<td align="left" width="63%">
-
-   The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfworkitem-enqueue">Enqueue</a> method adds this interface's framework work-item object to the system's work-item queue.
-  
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfworkitem-flush">Flush</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfworkitem-flush">Flush</a> method returns after this interface's work item has been serviced.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfworkitem-getparentobject">GetParentObject</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfworkitem-getparentobject">GetParentObject</a> method returns the parent framework object of this interface's  work item.
-
-</td>
-</tr>
-</table> 
-
 
 ## -see-also
 

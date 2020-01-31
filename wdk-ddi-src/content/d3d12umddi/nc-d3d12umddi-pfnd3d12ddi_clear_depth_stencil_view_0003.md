@@ -5,7 +5,6 @@ description: The pfnClearDepthStencilView function clears the specified currentl
 tech.root: display
 ms.assetid: f927db61-5d0c-4e5b-a3c1-811e2acf7f4d
 ms.date: 11/28/2018
-ms.topic: callback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h
@@ -75,10 +74,6 @@ The number of rectangles in the array that the *pRects* parameter specifies.
 ### -param pRects
 
 An array of D3D12DDI_RECT structures for the rectangles in the resource view to clear.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

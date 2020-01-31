@@ -5,7 +5,6 @@ description: This routine gets the nth ULONG value from a PROPVARIANT within a c
 ms.assetid: d5e82a5a-0b6f-4246-9f4e-de40b1a5ce6c
 ms.date: 08/08/2018
 tech.root: sensors
-ms.topic: function
 f1_keywords:
  - "sensorsutils/PropKeyFindKeyGetNthUlong"
 ms.keywords: PropKeyFindKeyGetNthUlong

@@ -6,7 +6,6 @@ old-location: display\dxgkddi_postmultiplaneoverlaypresent.htm
 ms.assetid: C420DDE8-73D4-4D43-861C-A7B31B4C7DEC
 ms.date: 04/16/2018
 ms.keywords: DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback, DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback function [Display Devices], d3dkmddi/DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, display.dxgkddi_postmultiplaneoverlaypresent
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

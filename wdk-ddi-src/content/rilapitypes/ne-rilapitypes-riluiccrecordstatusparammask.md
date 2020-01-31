@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: d0aad2bc-9b14-4468-92cf-b5757e43fde0
 ms.date: 02/26/2018
 ms.keywords: RILUICCRECORDSTATUSPARAMMASK, RILUICCRECORDSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_URS_ALL, RIL_PARAM_URS_FILELOCKSTATUS, RIL_PARAM_URS_ITEMCOUNT, RIL_PARAM_URS_SIZE, netvista.riluiccrecordstatusparammask_2, rilapitypes/RILUICCRECORDSTATUSPARAMMASK, rilapitypes/RIL_PARAM_URS_ALL, rilapitypes/RIL_PARAM_URS_FILELOCKSTATUS, rilapitypes/RIL_PARAM_URS_ITEMCOUNT, rilapitypes/RIL_PARAM_URS_SIZE
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILUICCRECORDSTATUSPARAMMASK"
 req.header: rilapitypes.h

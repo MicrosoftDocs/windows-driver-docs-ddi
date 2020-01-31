@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 0fa0eb7e-7fbb-4838-b1d7-ef5a9d5024d4
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_3623a2b6-f452-4e7d-98a3-d9e42d815f35.xml, EVT_WDF_DEVICE_SURPRISE_REMOVAL, EVT_WDF_DEVICE_SURPRISE_REMOVAL callback, EvtDeviceSurpriseRemoval, EvtDeviceSurpriseRemoval callback function, kmdf.evtdevicesurpriseremoval, wdf.evtdevicesurpriseremoval, wdfdevice/EvtDeviceSurpriseRemoval
-ms.topic: callback
 f1_keywords:
  - "wdfdevice/EvtDeviceSurpriseRemoval"
 req.header: wdfdevice.h
@@ -61,15 +60,6 @@ A driver's <i>EvtDeviceSurpriseRemoval</i> event callback function performs any 
 ### -param Device [in]
 
 A handle to a framework device object.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: f1e96d8a-910e-4808-b9a3-e8c530158872
 ms.date: 05/10/2018
 ms.keywords: IddCxSwapChainSetDevice, IddCxSwapChainSetDevice method [Display Devices], display.iddcxswapchainsetdevice, iddcx/IddCxSwapChainSetDevice
-ms.topic: function
 f1_keywords:
  - "iddcx/IddCxSwapChainSetDevice"
 req.header: iddcx.h

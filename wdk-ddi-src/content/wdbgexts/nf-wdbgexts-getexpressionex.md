@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 07525217-afa5-4fbf-8c84-847ded9556d8
 ms.date: 05/03/2018
 ms.keywords: GetExpressionEx, GetExpressionEx function [Windows Debugging], WdbgExts_Ref_74af8a17-694a-46ec-827c-fdd2aecbf15c.xml, debugger.getexpressionex, wdbgexts/GetExpressionEx
-ms.topic: function
 f1_keywords:
  - "wdbgexts/GetExpressionEx"
 req.header: wdbgexts.h

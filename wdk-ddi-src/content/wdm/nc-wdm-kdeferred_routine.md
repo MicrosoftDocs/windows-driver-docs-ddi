@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 4b94690a-cac9-4e36-ac51-34b02b4be28a
 ms.date: 04/30/2018
 ms.keywords: CustomDpc, CustomThreadedDpc, CustomTimerDpc, DrvrRtns_977bffb4-a7ff-4b2b-80c6-181d00462d69.xml, KDEFERRED_ROUTINE, MyDpc, MyDpc routine [Kernel-Mode Driver Architecture], kernel.customdpc, wdm/MyDpc
-ms.topic: callback
 f1_keywords:
  - "wdm/MyDpc"
 req.header: wdm.h
@@ -88,15 +87,6 @@ For <i>CustomTimerDpc</i>,  this value is not used.
 Specifies driver-defined context information. When it added the DPC to the DPC queue, the driver supplied this value as the <i>SystemArgument2</i> parameter to <b>KeInsertQueueDpc</b>.
 
 For <i>CustomTimerDpc</i>,  this value is not used.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

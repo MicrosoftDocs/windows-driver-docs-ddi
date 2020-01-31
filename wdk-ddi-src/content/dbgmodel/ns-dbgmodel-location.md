@@ -4,7 +4,6 @@ title: Location (dbgmodel.h)
 description: Defines the location for an object.  This particular variant of Location is the C-COM access struct.
 ms.assetid: 9ab3c521-e5c9-48ad-977e-d95954f5064b
 ms.date: 10/02/2018
-ms.topic: struct
 f1_keywords:
  - "dbgmodel/Location"
 ms.keywords: Location, , 

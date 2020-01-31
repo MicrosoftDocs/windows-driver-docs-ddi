@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 86ec9f67-346d-4ace-8bf0-a15dd57f0a89
 ms.date: 04/30/2018
 ms.keywords: DRIVER_STARTIO, DrvrRtns_3227d9e5-10b6-449f-af47-48574e7a00d5.xml, StartIo, StartIo routine [Kernel-Mode Driver Architecture], kernel.startio, wdm/StartIo
-ms.topic: callback
 f1_keywords:
  - "wdm/StartIo"
 req.header: wdm.h
@@ -64,15 +63,6 @@ Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardwar
 ### -param *Irp [in, out]
 
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that describes the requested I/O operation.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

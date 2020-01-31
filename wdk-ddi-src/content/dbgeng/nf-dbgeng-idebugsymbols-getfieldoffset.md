@@ -7,7 +7,6 @@ tech.root: debugger
 ms.assetid: 4081ddf9-673d-4df6-8698-726a70d32c03
 ms.date: 05/03/2018
 ms.keywords: GetFieldOffset, GetFieldOffset method [Windows Debugging], GetFieldOffset method [Windows Debugging],IDebugSymbols interface, GetFieldOffset method [Windows Debugging],IDebugSymbols2 interface, GetFieldOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetFieldOffset method, IDebugSymbols.GetFieldOffset, IDebugSymbols2 interface [Windows Debugging],GetFieldOffset method, IDebugSymbols2::GetFieldOffset, IDebugSymbols3 interface [Windows Debugging],GetFieldOffset method, IDebugSymbols3::GetFieldOffset, IDebugSymbols::GetFieldOffset, IDebugSymbols_3e5be57a-3af9-4fe3-a7cc-4f31fb9b54f0.xml, dbgeng/IDebugSymbols2::GetFieldOffset, dbgeng/IDebugSymbols3::GetFieldOffset, dbgeng/IDebugSymbols::GetFieldOffset, debugger.getfieldoffset2
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetFieldOffset"
 req.header: dbgeng.h

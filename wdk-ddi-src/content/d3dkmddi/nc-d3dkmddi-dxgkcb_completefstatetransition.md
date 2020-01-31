@@ -6,7 +6,6 @@ old-location: display\dxgkcbcompletefstatetransition.htm
 ms.assetid: 69a6d9bc-44a9-4204-988e-e11c80f67f28
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_COMPLETEFSTATETRANSITION, DXGKCB_COMPLETEFSTATETRANSITION callback, DxgkCbCompleteFStateTransition, DxgkCbCompleteFStateTransition callback function [Display Devices], PDXGKCB_COMPLETEFSTATETRANSITION, d3dkmddi/DxgkCbCompleteFStateTransition, display.dxgkcbcompletefstatetransition
-ms.topic: callback
 f1_keywords:
  - "d3dkmddi/DxgkCbCompleteFStateTransition"
 req.header: d3dkmddi.h
@@ -64,15 +63,6 @@ Called by a Windows Display Driver Model (WDDM) 1.2 or later display miniport dr
 ### -param ComponentIndex
 
 The power component index specified by  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo">DXGKARG_QUERYADAPTERINFO</a>.<b>pInputData</b> in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

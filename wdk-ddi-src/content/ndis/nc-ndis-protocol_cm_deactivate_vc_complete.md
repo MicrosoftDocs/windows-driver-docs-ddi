@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 44ee0e3c-aee9-4e24-9e54-c57248b568b6
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CM_DEACTIVATE_VC_COMPLETE, PROTOCOL_CM_DEACTIVATE_VC_COMPLETE callback, ProtocolCmDeactivateVcComplete, ProtocolCmDeactivateVcComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_ecf43479-8006-4170-9422-604236ede43a.xml, ndis/ProtocolCmDeactivateVcComplete, netvista.protocolcmdeactivatevccomplete
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolCmDeactivateVcComplete"
 req.header: ndis.h
@@ -72,15 +71,6 @@ Specifies the final status of the deactivation.
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle to NDIS from its 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

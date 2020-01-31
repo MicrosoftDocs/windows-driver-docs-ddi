@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: e11c6e8d-a338-4427-af04-bdb07b9e9a73
 ms.date: 04/23/2018
 ms.keywords: "*PKSPIN_PHYSICALCONNECTION, KSPIN_PHYSICALCONNECTION, KSPIN_PHYSICALCONNECTION structure [Streaming Media Devices], PKSPIN_PHYSICALCONNECTION, PKSPIN_PHYSICALCONNECTION structure pointer [Streaming Media Devices], ks-struct_7b9a3e0f-2cd9-4822-8e8a-03355dc522ed.xml, ks/KSPIN_PHYSICALCONNECTION, ks/PKSPIN_PHYSICALCONNECTION, stream.kspin_physicalconnection"
-ms.topic: struct
 f1_keywords:
  - "ks/KSPIN_PHYSICALCONNECTION"
 req.header: ks.h

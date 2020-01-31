@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 5C0F9878-522C-4DDE-A790-54C94880F119
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_SYSTEM_DISPLAY_WRITE, DXGKDDI_SYSTEM_DISPLAY_WRITE callback, DxgkDdiSystemDisplayWrite, DxgkDdiSystemDisplayWrite callback function [Display Devices], display.dxgkddisystemdisplaywrite, dispmprt/DxgkDdiSystemDisplayWrite
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiSystemDisplayWrite"
 req.header: dispmprt.h
@@ -93,15 +92,6 @@ A UINT value that specifies the starting X coordinate that the specified source 
 ### -param PositionY [in]
 
 A UINT value that specifies the starting Y coordinate that the specified source image should be written to on the display device.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
-
 
 
 ## -remarks

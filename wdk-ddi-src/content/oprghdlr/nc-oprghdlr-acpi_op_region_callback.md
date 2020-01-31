@@ -4,7 +4,6 @@ title: ACPI_OP_REGION_CALLBACK (oprghdlr.h)
 description: 
 ms.assetid: 1549e0f0-69cd-4ee4-abf4-92e5da9d7903
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "oprghdlr/ACPI_OP_REGION_CALLBACK"
 req.header: oprghdlr.h
@@ -42,18 +41,18 @@ ms.custom: RS5
 
 ## -description
 
-## -prototype
+## -syntax
 
 ```cpp
 //Declaration
 
-ACPI_OP_REGION_CALLBACK AcpiOpRegionCallback; 
+ACPI_OP_REGION_CALLBACK AcpiOpRegionCallback;
 
 // Definition
 
-VOID AcpiOpRegionCallback 
+VOID AcpiOpRegionCallback
 (
-	PVOID Context
+    PVOID Context
 )
 {...}
 
@@ -61,9 +60,7 @@ VOID AcpiOpRegionCallback
 
 ## -parameters
 
-### -param Context: 
-
-## -returns
+### -param Context
 
 ## -remarks
 

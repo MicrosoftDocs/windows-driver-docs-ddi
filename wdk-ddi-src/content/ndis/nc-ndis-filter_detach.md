@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 49dfbbb3-74e7-4904-8370-36d589276653
 ms.date: 05/02/2018
 ms.keywords: FILTER_DETACH, FILTER_DETACH callback, FilterDetach, FilterDetach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_dec15a06-93c1-4da8-9dc6-b66be9c6f8eb.xml, ndis/FilterDetach, netvista.filterdetach
-ms.topic: callback
 f1_keywords:
  - "ndis/FilterDetach"
 req.header: ndis.h
@@ -63,15 +62,6 @@ NDIS calls a filter driver's
 A handle to the context area for the filter module that NDIS will remove from the driver stack.
      The filter driver created and initialized this context area in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-filter_attach">FilterAttach</a> function.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

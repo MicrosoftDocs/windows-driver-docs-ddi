@@ -5,7 +5,6 @@ description: The NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY macro is us
 tech.root: netvista
 ms.assetid: f9c4f535-b11c-45b5-b81f-f50b33a77987
 ms.date: 04/17/2018
-ms.topic: macro
 f1_keywords:
  - "ntddndis/NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY"
 ms.keywords: NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY

@@ -6,7 +6,6 @@ old-location: display\d3dkmt-queryprotectedsessioninfofromnthandle.htm
 ms.assetid: e08d27e7-e9b7-45e7-9bbd-dcb9aa8f85ed
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE structure [Display Devices], _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, display.d3dkmt-queryprotectedsessioninfofromnthandle
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE"
 req.header: d3dkmthk.h

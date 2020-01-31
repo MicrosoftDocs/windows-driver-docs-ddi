@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: da3f5f28-2794-491b-a359-be8508b050bf
 ms.date: 05/02/2018
 ms.keywords: NdisInitializeListHead, NdisInitializeListHead macro [Network Drivers Starting with Windows Vista], ndis/NdisInitializeListHead, ndis_interlocked_ref_35d40751-6f2b-43db-801d-40479f3e0b6b.xml, netvista.ndisinitializelisthead
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisInitializeListHead"
 req.header: ndis.h

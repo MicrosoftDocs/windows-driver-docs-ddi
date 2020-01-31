@@ -4,7 +4,6 @@ title: IDataModelScriptDebug::GetDebugState (dbgmodel.h)
 description: The GetDebugState method returns the current state of the script (whether it is executing or not). 
 ms.assetid: 718209b9-68ab-43eb-a944-6aad95db4e3d
 ms.date: 08/21/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug.GetDebugState"
 ms.keywords: IDataModelScriptDebug::GetDebugState, GetDebugState, IDataModelScriptDebug.GetDebugState, IDataModelScriptDebug::GetDebugState, IDataModelScriptDebug.GetDebugState
@@ -54,9 +53,6 @@ ScriptDebugNotExecuting |	Indicates that no code within the script is actively e
 ScriptDebugExecuting |	Indicates that the script is actively executing code and is not broken into the debugger.
 ScriptDebugBreak |	Indicates that the script is broken into the debugger during the execution of code within the script
 
-
-
-## -parameters
 
 
 ## -returns

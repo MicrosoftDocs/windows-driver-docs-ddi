@@ -6,7 +6,6 @@ old-location: display\iasettopology.htm
 ms.assetid: c2ee9c8b-7e33-4fc9-9bd3-2b2984e94390
 ms.date: 05/10/2018
 ms.keywords: IaSetTopology, IaSetTopology callback function [Display Devices], PFND3D10DDI_IA_SETTOPOLOGY, PFND3D10DDI_IA_SETTOPOLOGY callback, UserModeDisplayDriverDx10_Functions_9c7ceca5-4745-4550-832d-d85cdcfecf81.xml, d3d10umddi/IaSetTopology, display.iasettopology
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/IaSetTopology"
 req.header: d3d10umddi.h
@@ -71,18 +70,9 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ne
 
 
 
-## -returns
-
-
-
-None
-
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
-
-
-
-
 ## -remarks
+
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. 
 
 
 

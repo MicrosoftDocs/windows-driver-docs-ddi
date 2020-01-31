@@ -4,7 +4,6 @@ title: IRawEnumerator::GetNext (dbgmodel.h)
 description: Moves the iterator forward and fetches the name of the raw element and, optionally, its value (or a reference to it) and what kind of element it is.
 ms.assetid: 64162d89-113d-4383-ba11-d984a16c801b
 ms.date: 12/21/2018
-ms.topic: method
 f1_keywords:
  - "dbgmodel/IRawEnumerator.GetNext"
 ms.keywords: IRawEnumerator::GetNext, GetNext, IRawEnumerator.GetNext, IRawEnumerator::GetNext, IRawEnumerator.GetNext

@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: 76dc75fa-90ee-4fe7-b8f2-45e1a08a061f
 ms.date: 03/29/2018
 ms.keywords: FilterCallbacks_afe97c84-8818-4577-ad94-8f8fdf044570.xml, PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK, PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK function pointer [Installable File System Drivers], ifsk.pfsrtl_extra_create_parameter_cleanup_callback, ntifs/PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK
-ms.topic: callback
 f1_keywords:
  - "ntifs/PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK"
 req.header: ntifs.h
@@ -64,15 +63,6 @@ An ECP context pointer that was returned by the routine that allocated the ECP c
 ### -param EcpType [in]
 
 A pointer to a GUID that was passed to the routine that allocated the ECP context structure, that indicates the extra create parameter type.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-guids-in-drivers">Using GUIDs in Drivers</a>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

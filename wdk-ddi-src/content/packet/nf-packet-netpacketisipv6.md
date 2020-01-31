@@ -5,7 +5,6 @@ description: The NetPacketIsIpv6 method determines if a NET_PACKET is an IPv6 pa
 tech.root: netvista
 ms.assetid: dfb23a00-13fb-4c66-a950-8ec080dee7a5
 ms.date: 01/30/2019
-ms.topic: function
 f1_keywords:
  - "packet/RegisterOpRegionHandler"
 ms.keywords: NetPacketIsIpv6

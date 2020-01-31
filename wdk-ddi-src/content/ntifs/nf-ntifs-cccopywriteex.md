@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: A8945F1C-56CF-494F-9E50-11C7A713E5F0
 ms.date: 04/16/2018
 ms.keywords: CcCopyWriteEx, CcCopyWriteEx routine [Installable File System Drivers], ifsk.cccopywriteex, ntifs/CcCopyWriteEx
-ms.topic: function
 f1_keywords:
  - "ntifs/CcCopyWriteEx"
 req.header: ntifs.h

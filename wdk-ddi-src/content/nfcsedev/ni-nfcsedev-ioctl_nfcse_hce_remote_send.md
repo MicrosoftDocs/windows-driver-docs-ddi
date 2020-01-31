@@ -7,7 +7,6 @@ tech.root: nfpdrivers
 ms.assetid: 5BA627C9-747D-493A-B568-B2912BBB622F
 ms.date: 02/15/2018
 ms.keywords: IOCTL_NFCSE_HCE_REMOTE_SEND, IOCTL_NFCSE_HCE_REMOTE_SEND control, IOCTL_NFCSE_HCE_REMOTE_SEND control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_HCE_REMOTE_SEND, nfpdrivers.ioctl_nfcse_hce_remote_send
-ms.topic: ioctl
 f1_keywords:
  - "nfcsedev/IOCTL_NFCSE_HCE_REMOTE_SEND"
 req.header: nfcsedev.h

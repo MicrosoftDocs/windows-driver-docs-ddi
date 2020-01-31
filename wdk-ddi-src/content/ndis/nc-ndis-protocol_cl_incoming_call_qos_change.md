@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: ca9953f4-35db-4acb-b0ea-887156b4f6ee
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE, PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE callback, ProtocolClIncomingCallQoSChange, ProtocolClIncomingCallQoSChange callback function [Network Drivers Starting with Windows Vista], condis_client_ref_09f3fdc8-cdc0-4b49-82c2-bd5816c9d5a9.xml, ndis/ProtocolClIncomingCallQoSChange, netvista.protocolclincomingcallqoschange
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolClIncomingCallQoSChange"
 req.header: ndis.h
@@ -72,15 +71,6 @@ Specifies the handle to the client's per-VC context area for the VC on which a r
 Pointer to a buffer, formatted as a 
      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> structure, that contains
      the new QoS specification.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

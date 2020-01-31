@@ -5,7 +5,6 @@ description: The EvtNetAdapterOffloadSetLso callback function is implemented by 
 tech.root: netvista
 ms.assetid: 7c11be49-4d85-49c4-9416-47da1214fc1b
 ms.date: 01/17/2019
-ms.topic: callback
 f1_keywords:
  - "netadapteroffload/EVT_NET_ADAPTER_OFFLOAD_SET_LSO"
 req.header: netadapteroffload.h
@@ -74,10 +73,6 @@ A handle to a NETADAPTER object the client driver previously created with a call
 ### -param Offload 
 
 A handle to a NETOFFLOAD object that describes the adapter's offload capabilities.
-
-## -returns
-
-This callback function does not return a value.
 
 ## -remarks
 

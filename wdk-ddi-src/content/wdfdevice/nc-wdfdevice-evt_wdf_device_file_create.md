@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: ee44c0bf-1fca-442d-8871-df6079e89ced
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_74ee41b0-ed8c-4028-8f82-d747a4d916bb.xml, EVT_WDF_DEVICE_FILE_CREATE, EVT_WDF_DEVICE_FILE_CREATE callback, EvtDeviceFileCreate, EvtDeviceFileCreate callback function, kmdf.evtdevicefilecreate, wdf.evtdevicefilecreate, wdfdevice/EvtDeviceFileCreate
-ms.topic: callback
 f1_keywords:
  - "wdfdevice/EvtDeviceFileCreate"
 req.header: wdfdevice.h
@@ -71,15 +70,6 @@ A handle to a framework request object that represents a file creation request.
 ### -param FileObject [in]
 
 A handle to a framework file object that describes a file that is being opened for the specified request. This parameter is <b>NULL</b> if the driver has specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ne-wdfdevice-_wdf_fileobject_class">WdfFileObjectNotRequired</a> for the <b>FileObjectClass </b>member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/ns-wdfdevice-_wdf_fileobject_config">WDF_FILEOBJECT_CONFIG</a> structure.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 452E63E8-DFBB-43AF-81F4-0405C3EF74CE
 ms.date: 04/30/2018
 ms.keywords: CleanupCallback, CleanupCallback callback function [Kernel-Mode Driver Architecture], SILO_CONTEXT_CLEANUP_CALLBACK, SILO_CONTEXT_CLEANUP_CALLBACK callback, kernel.silo_context_cleanup_callback, ntddk/CleanupCallback
-ms.topic: callback
 f1_keywords:
  - "ntddk/CleanupCallback"
 req.header: ntddk.h
@@ -59,13 +58,5 @@ This callback is invoked when the context object reaches a reference count of ze
 ### -param SiloContext [in]
 
 A pointer provided by the user with the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a>.
-
-
-## -returns
-
-
-
-This callback function does not return a value.
-
 
 

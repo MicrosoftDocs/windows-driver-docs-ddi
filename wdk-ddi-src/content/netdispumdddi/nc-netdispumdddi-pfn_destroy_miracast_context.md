@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 1b155e15-1e4e-45bb-98cc-f1c19923ed2c
 ms.date: 05/10/2018
 ms.keywords: DestroyMiracastContext, DestroyMiracastContext callback function [Display Devices], PFN_DESTROY_MIRACAST_CONTEXT, PFN_DESTROY_MIRACAST_CONTEXT callback, display.destroymiracastcontext, netdispumdddi/DestroyMiracastContext
-ms.topic: callback
 f1_keywords:
  - "netdispumdddi/DestroyMiracastContext"
 req.header: netdispumdddi.h
@@ -61,15 +60,6 @@ Called by the operating system to destroy a user-mode Miracast context.
 A pointer to a context associated with a display adapter.
 
 The operating system obtained the context when it called the Miracast user-mode driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a> function.
-
-
-## -returns
-
-
-
-Does not return a value.
-
-
 
 
 ## -remarks

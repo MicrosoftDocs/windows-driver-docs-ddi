@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: 70ebee95-c44c-4db8-b5ea-71b5e1236a7c
 ms.author: windowsdriverdev
 ms.date: 10/04/2019
-ms.topic: enum
 f1_keywords:
  - "netwakesource/NET_WAKE_SOURCE_TYPE"
 ms.keywords: NET_WAKE_SOURCE_TYPE, NET_WAKE_SOURCE_TYPE, 
 req.header: netwakesource.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

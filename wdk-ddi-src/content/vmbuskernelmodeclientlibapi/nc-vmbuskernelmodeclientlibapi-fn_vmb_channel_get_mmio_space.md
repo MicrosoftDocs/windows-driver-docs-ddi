@@ -5,7 +5,6 @@ description: The VmbChannelGetMmioSpace function retrieves the kernel virtual ad
 tech.root: netvista
 ms.assetid: c34ca88d-10bb-49c5-bddc-606367926b0c
 ms.date: 05/21/2018
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_GET_MMIO_SPACE"
 req.header: vmbuskernelmodeclientlibapi.h
@@ -79,10 +78,6 @@ A pointer to a **PVOID** to fill with the MMIO physical address.
 ### -param *MmioSize
 
 A pointer to the returned size of the MMIO space.
-
-## -returns
-
-This function does not return a value.
 
 ## -remarks
 

@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 559a98e0-61fd-4234-a595-e533e7eaafe8
 ms.date: 05/02/2018
 ms.keywords: "*PWSK_CLIENT_DATAGRAM_DISPATCH, PWSK_CLIENT_DATAGRAM_DISPATCH, PWSK_CLIENT_DATAGRAM_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_CLIENT_DATAGRAM_DISPATCH, WSK_CLIENT_DATAGRAM_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_CLIENT_DATAGRAM_DISPATCH, netvista.wsk_client_datagram_dispatch, wsk/PWSK_CLIENT_DATAGRAM_DISPATCH, wsk/WSK_CLIENT_DATAGRAM_DISPATCH, wskref_131878e6-5665-47e1-9b84-0dcbdecb9444.xml"
-ms.topic: struct
 f1_keywords:
  - "wsk/WSK_CLIENT_DATAGRAM_DISPATCH"
 req.header: wsk.h

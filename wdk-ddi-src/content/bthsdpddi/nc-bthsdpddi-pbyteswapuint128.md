@@ -7,7 +7,6 @@ tech.root: bltooth
 ms.assetid: 04a3400a-e526-47d2-a602-6ecaa7ee7fcf
 ms.date: 04/27/2018
 ms.keywords: PBYTESWAPUINT128, PBYTESWAPUINT128 callback, SdpByteSwapUint128, SdpByteSwapUint128 callback function [Bluetooth Devices], bltooth.sdpbyteswapuint128, bth_funcs_48f64465-c4dd-4cf2-8655-b55d5f0c89ba.xml, sdplib/SdpByteSwapUint128
-ms.topic: callback
 f1_keywords:
  - "bthsdpddi/SdpByteSwapUint128"
 req.header: bthsdpddi.h
@@ -65,15 +64,6 @@ A pointer to an unsigned 128-bit integer for which to reverse the byte order.
 ### -param pOutUint128
 
 A pointer to a variable that receives the converted 128-bit integer.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

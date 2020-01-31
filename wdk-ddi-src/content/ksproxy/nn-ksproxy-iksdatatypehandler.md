@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: ef08d375-1ac6-489f-9fd4-f791ce82c553
 ms.date: 04/23/2018
 ms.keywords: IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], IKsDataTypeHandler interface [Streaming Media Devices],described, ksproxy/IKsDataTypeHandler, ksproxy_fd2ab182-1556-438e-bc5e-fe1339d0d865.xml, stream.iksdatatypehandler
-ms.topic: interface
 f1_keywords:
  - "ksproxy/IKsDataTypeHandler"
 req.header: ksproxy.h
@@ -55,66 +54,10 @@ The IID for this interface is IID_IKsDataTypeHandler.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsDataTypeHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsDataTypeHandler</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsDataTypeHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsDataTypeHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
-
-## -members
-
-The <b>IKsDataTypeHandler</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-kscompleteiooperation">KsCompleteIoOperation</a>
-</td>
-<td align="left" width="63%">
-Cleans up the extended header and completes the I/O operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksismediatypeinranges">KsIsMediaTypeInRanges</a>
-</td>
-<td align="left" width="63%">
-Validates that a media type is within specific data ranges.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksprepareiooperation">KsPrepareIoOperation</a>
-</td>
-<td align="left" width="63%">
-Initializes the extended header and prepares the media sample for an I/O operation.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksqueryextendedsize">KsQueryExtendedSize</a>
-</td>
-<td align="left" width="63%">
-Retrieves extended header information required for I/O operations.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-kssetmediatype">KsSetMediaType</a>
-</td>
-<td align="left" width="63%">
-Sets the media type for a data handler.
-
-</td>
-</tr>
-</table> 
-
 
 ## -remarks
 

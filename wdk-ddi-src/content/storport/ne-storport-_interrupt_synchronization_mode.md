@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: 964009ab-5f90-4f23-b22a-4c3e03d2449e
 ms.date: 03/29/2018
 ms.keywords: INTERRUPT_SYNCHRONIZATION_MODE, INTERRUPT_SYNCHRONIZATION_MODE enumeration [Storage Devices], InterruptSupportNone, InterruptSynchronizeAll, InterruptSynchronizePerMessage, _INTERRUPT_SYNCHRONIZATION_MODE, storage.interrupt_synchronization_mode, storport/INTERRUPT_SYNCHRONIZATION_MODE, storport/InterruptSupportNone, storport/InterruptSynchronizeAll, storport/InterruptSynchronizePerMessage, structs-storport_036aa424-5b04-4bf5-8418-8da008834c5b.xml
-ms.topic: enum
 f1_keywords:
  - "storport/INTERRUPT_SYNCHRONIZATION_MODE"
 req.header: storport.h

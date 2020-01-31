@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 62955CA4-8631-4A85-8E78-5A91A9DA0069
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_GET_SLOT_INFO, PWWAN_GET_SLOT_INFO, PWWAN_GET_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_GET_SLOT_INFO, WWAN_GET_SLOT_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_GET_SLOT_INFO, netvista.wwan_get_slot_info_status, wwan/PWWAN_GET_SLOT_INFO, wwan/WWAN_GET_SLOT_INFO"
-ms.topic: struct
 f1_keywords:
  - "wwan/WWAN_GET_SLOT_INFO"
 req.header: wwan.h

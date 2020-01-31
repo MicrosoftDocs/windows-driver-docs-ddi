@@ -5,7 +5,6 @@ description:  Writes a data byte to the UART device.
 tech.root: serports
 ms.assetid: d4db9a6d-b9ef-4b88-9f12-b4fe437eaa4b
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "uart/UART_PUT_BYTE"
 req.header: uart.h

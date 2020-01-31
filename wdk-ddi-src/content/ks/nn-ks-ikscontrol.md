@@ -7,7 +7,6 @@ tech.root: stream
 ms.assetid: 33eb0244-e0f3-4db7-b6df-2668e826fbd8
 ms.date: 04/23/2018
 ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices],described, avintfc_fc0ad706-c416-40f7-b213-5467fcebeb72.xml, ks/IKsControl, stream.ikscontrol8
-ms.topic: interface
 f1_keywords:
  - "ks/IKsControl"
 req.header: ks.h
@@ -54,16 +53,6 @@ See the [IKsControl (ksproxy.h)](https://docs.microsoft.com/windows-hardware/dri
 ## -inheritance
 
 The **IKsControl** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
-
-## -members
-
-The **IKsControl** interface has these methods.
-
-| Method | Description  |
-| --- | --- |
-| KsEvent | Enables or disables an event. |
-| KsMethod | Sends a method to a KS object. |
-| KsProperty | Sets a property or retrieves property information. |
 
 ## -remarks
 

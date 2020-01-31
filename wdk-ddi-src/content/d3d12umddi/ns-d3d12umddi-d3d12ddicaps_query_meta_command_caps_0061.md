@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 71d5c68e-abfa-40bf-92d1-774577f65818
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061"
 ms.keywords: D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061, D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061, 

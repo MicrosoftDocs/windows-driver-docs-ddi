@@ -4,7 +4,6 @@ title: IDebugHostModule (dbgmodel.h)
 description: An (IDebugHostSymbol derived) interface to a particular module.
 ms.assetid: 5203121c-1bb5-4c2a-8a3e-6379470e3c26
 ms.date: 07/13/2018
-ms.topic: interface
 f1_keywords:
  - "dbgmodel/IDebugHostModule"
 req.header: dbgmodel.h
@@ -44,76 +43,6 @@ An ([IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md) derived) interface to a 
 
 ## -inheritance
 IDebugHostModule interits from [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md). 
-## -members
-
-<p>IDebugHostModule has these methods.</p>
-<table>
-	<tr>
-		<td>Method</td>
-		<td>Description</td>
-	</tr>
-	<tr>
-		<td>QueryInterface</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>AddRef</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>Release</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContext</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>EnumerateChildren</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetSymbolKind</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetName</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetType</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetContainingModule</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetImageName</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetBaseLocation</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>GetVersion</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>FindTypeByName</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>FindSymbolByRVA</td>
-		<td>TBD</td>
-	</tr>
-	<tr>
-		<td>FindSymbolByName</td>
-		<td>TBD</td>
-	</tr>
-</table>
-
 ## -remarks
 
 The debugger's notion of a module that is loaded within some address space is represented in two distinct ways in the data model: 

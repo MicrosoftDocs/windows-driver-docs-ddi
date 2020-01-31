@@ -7,7 +7,6 @@ tech.root: display
 ms.assetid: 13e1afa2-5552-468f-ac6b-3458dedd9b76
 ms.date: 05/10/2018
 ms.keywords: PFN_REPORT_STATISTIC, PFN_REPORT_STATISTIC callback, ReportStatistic, ReportStatistic callback function [Display Devices], display.reportstatistic, netdispumdddi/ReportStatistic
-ms.topic: callback
 f1_keywords:
  - "netdispumdddi/ReportStatistic"
 req.header: netdispumdddi.h
@@ -66,15 +65,6 @@ A handle that represents a Miracast device. The Miracast user-mode driver previo
 ### -param *pStatistics [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_statistic_data">MIRACAST_STATISTIC_DATA</a> structure that contains the statistics data.
-
-
-## -returns
-
-
-
-Does not return a value.
-
-
 
 
 ## -remarks

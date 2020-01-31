@@ -4,7 +4,6 @@ title: PFND3D12DDI_DESTROYDEPTHSTENCILSTATE (d3d12umddi.h)
 description: Destroy depth stencil state.
 ms.assetid: 36db022f-0740-4864-9f13-9bce157fdb3a
 ms.date: 10/19/2018
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -56,10 +55,6 @@ A handle to the display device (graphics context).
 ### -param Arg2
 
 A depth stencil state handle.
-
-## -returns
-
-Returns VOID.
 
 ## -prototype
 

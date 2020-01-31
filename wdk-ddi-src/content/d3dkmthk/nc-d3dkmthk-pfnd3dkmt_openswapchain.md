@@ -4,7 +4,6 @@ title: PFND3DKMT_OPENSWAPCHAIN (d3dkmthk.h)
 description: PfnOpenSwapChain opens a swap chain.
 ms.assetid: 540df885-7b52-4ebd-ac36-5c3d1920919a
 ms.date: 10/19/2018
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_OPENSWAPCHAIN"
 req.header: d3dkmthk.h

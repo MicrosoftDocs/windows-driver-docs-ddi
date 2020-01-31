@@ -7,7 +7,6 @@ tech.root: netvista
 ms.assetid: 1416ad56-548c-4f12-9922-9ab9a7e4fd3a
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CO_STATUS_EX, PROTOCOL_CO_STATUS_EX callback, ProtocolCoStatusEx, ProtocolCoStatusEx callback function [Network Drivers Starting with Windows Vista], condis_status_ref_683f5893-6979-4335-966b-41d48bd0fda3.xml, ndis/ProtocolCoStatusEx, netvista.protocolcostatusex
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolCoStatusEx"
 req.header: ndis.h
@@ -82,15 +81,6 @@ A handle to a protocol driver-allocated context area in which the protocol drive
 A pointer to an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_status_indication">NDIS_STATUS_INDICATION</a> structure
      that contains the status information.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

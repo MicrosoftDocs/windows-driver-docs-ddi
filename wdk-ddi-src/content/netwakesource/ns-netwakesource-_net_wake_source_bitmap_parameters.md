@@ -7,14 +7,13 @@ tech.root: netvista
 ms.assetid: 2ebc685c-02ef-4640-955f-17b032f4b46a
 ms.author: windowsdriverdev
 ms.date: 10/07/2019
-ms.topic: struct
 f1_keywords:
  - "netwakesource/NET_WAKE_SOURCE_BITMAP_PARAMETERS"
 ms.keywords: NET_WAKE_SOURCE_BITMAP_PARAMETERS, NET_WAKE_SOURCE_BITMAP_PARAMETERS, 
 req.header: netwakesource.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

@@ -7,7 +7,6 @@ tech.root: kernel
 ms.assetid: 7b33a311-7f00-4936-b4a9-727f66c12ef0
 ms.date: 04/30/2018
 ms.keywords: RtlUnicodeStringCopyString, RtlUnicodeStringCopyString function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcopystring, ntstrsafe/RtlUnicodeStringCopyString, safestrings_6c994257-53af-4692-88a9-41b38ffd6bcd.xml
-ms.topic: function
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringCopyString"
 req.header: ntstrsafe.h

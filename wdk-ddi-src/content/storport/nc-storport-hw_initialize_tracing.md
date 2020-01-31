@@ -7,7 +7,6 @@ tech.root: storage
 ms.assetid: e0d4ea58-415b-4ea4-9001-8a23ab44a1bf
 ms.date: 03/29/2018
 ms.keywords: HW_INITIALIZE_TRACING, HwStorInitializeTracing, HwStorInitializeTracing routine [Storage Devices], storage.hwstorinitializetracing, storport/HwStorInitializeTracing, storvmini_0c53c6e6-7c5c-4400-b923-c03a7756614f.xml
-ms.topic: callback
 f1_keywords:
  - "storport/HwStorInitializeTracing"
 req.header: storport.h
@@ -64,15 +63,6 @@ The first parameter that is passed to <a href="https://docs.microsoft.com/window
 ### -param Arg2
 
 The second parameter that is passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize">StorPortInitialize</a>.
-
-
-## -returns
-
-
-
-None
-
-
 
 
 ## -remarks

@@ -7,7 +7,6 @@ tech.root: wdf
 ms.assetid: 9a6aca10-f0b2-4476-93c7-b3670d239b15
 ms.date: 01/11/2018
 ms.keywords: wdf.wdfobjectacquirelock, PFN_WDFOBJECTACQUIRELOCK, WdfObjectAcquireLock callback function, WdfObjectAcquireLock, wdfsync/WdfObjectAcquireLock, DFSynchroRef_d6a841c3-cbcb-4072-861a-5666dc2b4b02.xml, kmdf.wdfobjectacquirelock
-ms.topic: callback
 f1_keywords:
  - "wdfsync/WdfObjectAcquireLock"
 req.header: wdfsync.h
@@ -85,19 +84,11 @@ VOID WdfObjectAcquireLock(
 A handle to a framework device object or a framework queue object.
 
 
-## -returns
-
-
-None.
-
-A bug check occurs if the driver supplies an invalid object handle.
-
-
-
 
 
 ## -remarks
 
+A bug check occurs if the driver supplies an invalid object handle.
 
 A driver can call the <b>WdfObjectAcquireLock</b> method to acquire the synchronization lock that is associated with a specified framework device object or framework queue object. The method does not return until the lock has been acquired.
 

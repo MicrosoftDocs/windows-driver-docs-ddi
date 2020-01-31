@@ -7,7 +7,6 @@ tech.root: wpd_dk
 ms.assetid: ee477e82-124e-46ca-8aef-02357f67bb8f
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetStringValue method, IPortableDeviceValues.SetStringValue, IPortableDeviceValues::SetStringValue, IPortableDeviceValuesSetStringValue, SetStringValue, SetStringValue method, SetStringValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetStringValue, wpddk.iportabledevicevalues_setstringvalue
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetStringValue"
 req.header: portabledevicetypes.h

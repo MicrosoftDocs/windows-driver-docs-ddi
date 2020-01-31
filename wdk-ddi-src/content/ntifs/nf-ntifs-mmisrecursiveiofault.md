@@ -7,7 +7,6 @@ tech.root: ifsk
 ms.assetid: c445c016-2781-4a82-ac2d-4c6eaff3b4c8
 ms.date: 04/16/2018
 ms.keywords: MmIsRecursiveIoFault, MmIsRecursiveIoFault routine [Installable File System Drivers], ifsk.mmisrecursiveiofault, mmref_2f97ee70-0e70-4607-841e-e9d5b3ae74c8.xml, ntifs/MmIsRecursiveIoFault
-ms.topic: function
 f1_keywords:
  - "ntifs/MmIsRecursiveIoFault"
 req.header: ntifs.h
@@ -49,15 +48,6 @@ req.typenames:
 
 
 The <b>MmIsRecursiveIoFault</b> routine determines whether the current page fault is occurring during an I/O operation.
-
-
-## -parameters
-
-
-
-
-
-
 
 
 ## -returns

@@ -6,7 +6,6 @@ old-location: display\d3d11_1ddi_video_processor_color_space.htm
 ms.assetid: 2878b36e-3850-4af8-aeca-9c5d2da717f9
 ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE, D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE, display.d3d11_1ddi_video_processor_color_space
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE"
 req.header: d3d10umddi.h
