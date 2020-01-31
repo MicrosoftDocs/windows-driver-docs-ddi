@@ -43,40 +43,18 @@ req.typenames:
 
 # IPrinterExtensionAsyncOperation interface
 
-
 ## -description
-
 
 Provides the context associated with an asynchronous operation.
 
-
 ## -inheritance
-
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterExtensionAsyncOperation</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterExtensionAsyncOperation</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 
-
-
-<b>IPrinterExtensionAsyncOperation</b> also helps to make it possible to perform device maintenance from a UWP device app or from a printer extension. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/device-maintenance">Device Maintenance</a>.
-
-
-
+**IPrinterExtensionAsyncOperation** also helps to make it possible to perform device maintenance from a UWP device app or from a printer extension. For more information, see [Device Maintenance](https://docs.microsoft.com/windows-hardware/drivers/print/device-maintenance).
 
 ## -see-also
 
+[Device Maintenance](https://docs.microsoft.com/windows-hardware/drivers/print/device-maintenance)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/device-maintenance">Device Maintenance</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue2-sendbidisetrequestasync">SendBidiSetRequestAsync</a>
- 
-
- 
-
+[SendBidiSetRequestAsync](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueue2-sendbidisetrequestasync)

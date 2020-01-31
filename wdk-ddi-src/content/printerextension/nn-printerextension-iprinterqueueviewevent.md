@@ -43,36 +43,16 @@ req.typenames:
 
 # IPrinterQueueViewEvent interface
 
-
 ## -description
-
 
 Provides the signature of the event handler.
 
-
 ## -inheritance
-
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterQueueViewEvent</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IPrinterQueueViewEvent</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -remarks
 
-
-
-<b>IPrinterQueueViewEvent</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/job-management">Job Management</a>.
-
-
-
+**IPrinterQueueViewEvent** also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see [Job Management](https://docs.microsoft.com/windows-hardware/drivers/print/job-management).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/print/job-management">Job Management</a>
- 
-
- 
-
+[Job Management](https://docs.microsoft.com/windows-hardware/drivers/print/job-management)
