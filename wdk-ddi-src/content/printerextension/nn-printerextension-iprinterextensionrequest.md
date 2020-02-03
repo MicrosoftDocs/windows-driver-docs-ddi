@@ -43,31 +43,14 @@ req.typenames:
 
 # IPrinterExtensionRequest interface
 
-
 ## -description
-
 
 Completes the given extension event with either a cancellation  or success.
 
-
 ## -inheritance
-
-The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterExtensionRequest</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IPrinterExtensionRequest</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -see-also
 
+[IPrinterExtensionEventArgs](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioneventargs-get_request">IPrinterExtensionEventArgs::Request</a>
- 
-
- 
-
+[IPrinterExtensionEventArgs::Request](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioneventargs-get_request)

@@ -63,7 +63,7 @@ Identifies the adapter containing the overlay hardware.
 ### -param pCheckMultiPlaneOverlaySupport
 
 
-A pointer to a DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3 structure that describes the surfaces and display options to present.
+A pointer to a [DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3](ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport3.MD) structure that describes the surfaces and display options to present.
 
 
 ## -returns
