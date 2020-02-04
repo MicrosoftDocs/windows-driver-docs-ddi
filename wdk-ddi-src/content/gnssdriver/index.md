@@ -22,4 +22,4 @@ For more information, see:
 
 - [Global Navigation Satellite System (GNSS) driver design guide](https://docs.microsoft.com/windows-hardware/drivers/gnss)
 
-- [Global Navigation Satellite System (GNSS) DDI reference](../_gnss/index.md)
+- [Global Navigation Satellite System (GNSS) DDI reference](../_gnss/index.md)<br><br>
