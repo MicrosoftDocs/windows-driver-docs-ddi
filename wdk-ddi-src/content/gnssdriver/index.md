@@ -14,10 +14,12 @@ tech.root: sensors
 
 # Gnssdriver.h header
 
-
 ## -description
 
+This header is used by Global Navigation Satellite System (GNSS) drivers.
 
-This header is used by gnss. For more information, see:
+For more information, see:
 
-- [Global Navigation Satellite System (GNSS)](../_gnss/index.md)
+- [Global Navigation Satellite System (GNSS) driver design guide](https://docs.microsoft.com/en-us/windows-hardware/drivers/gnss)
+
+- [Global Navigation Satellite System (GNSS) DDI reference](../_gnss/index.md)
