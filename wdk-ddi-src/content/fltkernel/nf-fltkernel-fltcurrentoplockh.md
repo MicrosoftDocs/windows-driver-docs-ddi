@@ -90,7 +90,7 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcurrentoplockh">FsRtlCurrentOplockH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlcurrentoplockh">FsRtlCurrentOplockH</a>
  
 
  

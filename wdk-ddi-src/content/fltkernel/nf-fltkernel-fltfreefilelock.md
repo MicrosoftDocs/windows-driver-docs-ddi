@@ -112,7 +112,7 @@ It is a programming error to call <b>FltFreeFileLock</b> for a FILE_LOCK structu
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlfreefilelock">FsRtlFreeFileLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlfreefilelock">FsRtlFreeFileLock</a>
  
 
  

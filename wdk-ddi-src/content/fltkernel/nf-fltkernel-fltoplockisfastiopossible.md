@@ -147,7 +147,7 @@ For detailed information about opportunistic locks, see the Windows SDK document
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockisfastiopossible">FsRtlOplockIsFastIoPossible</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtloplockisfastiopossible">FsRtlOplockIsFastIoPossible</a>
  
 
  

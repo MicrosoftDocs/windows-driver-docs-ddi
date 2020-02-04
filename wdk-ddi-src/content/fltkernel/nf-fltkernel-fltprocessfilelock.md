@@ -183,7 +183,7 @@ To free an initialized<a href="https://docs.microsoft.com/windows-hardware/drive
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlprocessfilelock">FsRtlProcessFileLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlprocessfilelock">FsRtlProcessFileLock</a>
 
 
 

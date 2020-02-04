@@ -96,7 +96,7 @@ Pointer to a variable that receives a pointer to the newly created [DEVICE_OBJEC
 
 Be careful to specify the *DeviceType* and *DeviceCharacteristics* values in the correct parameters. Both parameters use system-defined FILE_*XXX* constants and some driver writers specify the values in the wrong parameters by mistake.
 
-A remote file system that creates a named device object for a network redirector, and that registers using [FsRtlRegisterUncProvider](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider), must specify FILE_REMOTE_DEVICE as one of the options in the *DeviceCharacteristics* parameter of **IoCreateDevice**.
+A remote file system that creates a named device object for a network redirector, and that registers using [FsRtlRegisterUncProvider](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlregisteruncprovider), must specify FILE_REMOTE_DEVICE as one of the options in the *DeviceCharacteristics* parameter of **IoCreateDevice**.
 
 Device objects for disks, tapes, CD-ROMs, and RAM disks are given a Volume Parameter Block (VPB) that is initialized to indicate that the volume has never been mounted on the device.
 
@@ -106,7 +106,7 @@ If a driver's call to **IoCreateDevice** returns an error, the driver should rel
 
 [DEVICE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object)
 
-[FsRtlRegisterUncProvider](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider)
+[FsRtlRegisterUncProvider](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlregisteruncprovider)
 
 [IoAttachDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevice)
 

@@ -125,7 +125,7 @@ When the <i>CallbackData</i> parameter passed to <a href="https://docs.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
 
 
 

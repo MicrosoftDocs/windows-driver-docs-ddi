@@ -107,7 +107,7 @@ For detailed information about opportunistic locks, see the Microsoft Windows SD
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlinitializeoplock">FsRtlInitializeOplock</a>
  
 
  

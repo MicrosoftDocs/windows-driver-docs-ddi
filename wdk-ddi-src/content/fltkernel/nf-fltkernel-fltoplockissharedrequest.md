@@ -74,7 +74,7 @@ A pointer to the callback data (<a href="https://docs.microsoft.com/windows-hard
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockissharedrequest">FsRtlOplockIsSharedRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtloplockissharedrequest">FsRtlOplockIsSharedRequest</a>
  
 
  

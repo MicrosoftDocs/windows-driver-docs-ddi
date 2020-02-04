@@ -72,7 +72,7 @@ Specifies that **FltCheckOplockEx** should only check for an opportunistic lock 
 
 #### OPLOCK_FLAG_BACK_OUT_ATOMIC_OPLOCK (0x00000004)
 
-Specifies that [FsRtlCheckOplockEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex) should revert any state that was previously set up through a call to the [FltOplockFsctrl](nf-fltkernel-fltoplockfsctrl.md) routine. **FltOplockFsctrl** is called when an IRP_MJ_CREATE request is processed. This IRP_MJ_CREATE request specifies the FILE_OPEN_REQUIRING_OPLOCK flag in the create options parameter. The OPLOCK_FLAG_BACK_OUT_ATOMIC_OPLOCK flag is typically used in final processing of such a create request when it previously failed.
+Specifies that [FsRtlCheckOplockEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlcheckoplockex) should revert any state that was previously set up through a call to the [FltOplockFsctrl](nf-fltkernel-fltoplockfsctrl.md) routine. **FltOplockFsctrl** is called when an IRP_MJ_CREATE request is processed. This IRP_MJ_CREATE request specifies the FILE_OPEN_REQUIRING_OPLOCK flag in the create options parameter. The OPLOCK_FLAG_BACK_OUT_ATOMIC_OPLOCK flag is typically used in final processing of such a create request when it previously failed.
 
 #### OPLOCK_FLAG_IGNORE_OPLOCK_KEYS (0x00000008)
 
@@ -214,7 +214,7 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 [FltOplockFsctrl](nf-fltkernel-fltoplockfsctrl.md)
 
-[FsRtlCheckOplockEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex)
+[FsRtlCheckOplockEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlcheckoplockex)
 
 [IO_STATUS_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block)
 
