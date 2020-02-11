@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: WhitePoint
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	icm.h
+- icm.h
 api_name: 
--	WhitePoint
+- WhitePoint
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 
@@ -41,14 +41,13 @@ targetos: Windows
 
 The Whitepoint structure encapsulates a display whitepoint in various ways:
 
-    - **CHROMATICITY**: An xyY point, populate xyY member
+- **CHROMATICITY**: An xyY point, populate xyY member
 
-    - **TEMPERATURE**: A CCT point, populate CCT member
+- **TEMPERATURE**: A CCT point, populate CCT member
 
-    - **D65**: The standard D65 s[c]RGB whitepoint.
+- **D65**: The standard D65 s[c]RGB whitepoint.
 
 ## -struct-fields
-
 
 ## -remarks
 

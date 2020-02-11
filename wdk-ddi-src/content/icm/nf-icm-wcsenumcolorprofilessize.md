@@ -26,14 +26,14 @@ req.lib: Mscms.lib
 req.dll: Mscms.dll
 req.irql:
 topic_type:
--   APIRef
--   kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--   DllExport
+- DllExport
 api_location:
--   Mscms.dll
+- Mscms.dll
 api_name:
--   WcsEnumColorProfilesSize
+- WcsEnumColorProfilesSize
 product:
 - Windows
 targetos: Windows
@@ -44,13 +44,11 @@ req.typenames:
 
 ## -description
 
-The <code>WcsEnumColorProfilesSize</code> function returns the size, in bytes, of the buffer required by the [WcsEnumColorProfiles](nf-icm-wcsenumcolorprofiles.md) function to enumerate color profiles.
-
+The `WcsEnumColorProfilesSize` function returns the size, in bytes, of the buffer required by the [WcsEnumColorProfiles](nf-icm-wcsenumcolorprofiles.md) function to enumerate color profiles.
 
 ## -parameters
 
 ### -param scope
-
 
 ### -param pEnumRecord [in]
 
@@ -58,18 +56,16 @@ A pointer to a structure that specifies the enumeration criteria.
 
 ### -param pdwSize [out]
 
-A pointer to a variable that receives the size of the buffer that is required to receive all enumerated profile names. This value is used by the <i>dwSize</i> parameter of the [WcsEnumColorProfiles](nf-icm-wcsenumcolorprofiles.md) function.
+A pointer to a variable that receives the size of the buffer that is required to receive all enumerated profile names. This value is used by the *dwSize* parameter of the [WcsEnumColorProfiles](nf-icm-wcsenumcolorprofiles.md) function.
 
 #### - profileManagementScope [in]
 
-A [WCS_PROFILE_MANAGEMENT_SCOPE](ne-icm-wcs_profile_management_scope.md) value that specifies the scope of the profile management operation performed by this function.
+A **WCS_PROFILE_MANAGEMENT_SCOPE** value that specifies the scope of the profile management operation performed by this function.
 
 ## -remarks
 
 This function is executable in Least-Privileged User Account (LUA) context.
 
 ## -see-also
-
-[WCS_PROFILE_MANAGEMENT_SCOPE](ne-icm-wcs_profile_management_scope.md)
 
 [WcsEnumColorProfiles](nf-icm-wcsenumcolorprofiles.md)

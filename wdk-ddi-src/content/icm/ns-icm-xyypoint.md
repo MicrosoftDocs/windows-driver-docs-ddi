@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: XYYPoint
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	icm.h
+- icm.h
 api_name: 
--	XYYPoint
+- XYYPoint
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 
@@ -44,11 +44,10 @@ The XYYPoint structure describes a CIE xyY chromaticity point.
 ## -struct-fields
 
 ### -field x
- 
+
 ### -field y
- 
+
 ### -field Y
- 
 
 ## -remarks
 

@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DisplayTransformLut
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	icm.h
+- icm.h
 api_name: 
--	DisplayTransformLut
+- DisplayTransformLut
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 
@@ -44,11 +44,10 @@ The DisplayTransformLut structure defines a 16-bit, 3-channel lookup table used 
 ## -struct-fields
 
 ### -field red
- 
+
 ### -field green
- 
+
 ### -field blue
- 
 
 ## -remarks
 

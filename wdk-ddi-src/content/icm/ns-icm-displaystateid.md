@@ -20,15 +20,15 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: DisplayStateID
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	icm.h
+- icm.h
 api_name: 
--	DisplayStateID
+- DisplayStateID
 product:
--	Windows
+- Windows
 targetos: Windows
 ---
 
@@ -46,11 +46,11 @@ The DisplayStateID structure holds the current color state IDs for a display. Th
 ### -field profileID
 
 Identifies the currently set color profile.
- 
+
 ### -field transformID
 
 Identifies the current lookup table transform.
- 
+
 ### -field whitepointID
 
 Identifies the current target whitepoint.
