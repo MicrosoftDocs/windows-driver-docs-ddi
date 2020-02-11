@@ -33,7 +33,7 @@ api_type:
 api_location:
 - d3dkmthk.h
 api_name:
-- *PDXGK_REMOVAL_NOTIFICATION
+- PDXGK_REMOVAL_NOTIFICATION
 product:
 - Windows
 targetos: Windows
