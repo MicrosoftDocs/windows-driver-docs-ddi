@@ -2,7 +2,7 @@
 UID: TP:print
 title: Print devices
 ms.assetid: fc0e0b85-603b-35c9-9d94-fc5cb18ea7c1
-ms.date: 01/31/2019
+ms.date: 02/11/2020
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -31,6 +31,7 @@ To develop printer device drivers, you need these headers:
 * [d4iface.h](../d4iface/index.md)
 * [filterpipeline.h](../filterpipeline/index.md)
 * [mxdc.h](../mxdc/index.md)
+* [icm.h](../icm/index.md)
 * [prcomoem.h](../prcomoem/index.md)
 * [prdrvcom.h](../prdrvcom/index.md)
 * [printerextension.h](../printerextension/index.md)
