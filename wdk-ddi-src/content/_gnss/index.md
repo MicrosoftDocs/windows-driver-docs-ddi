@@ -16,10 +16,10 @@ product:
 
 ## -description
 
-Overview of the GNSS device driver technology.
+Overview of the Global Navigation Satellite System (GNSS) device driver technology.
 
 To develop GNSS drivers, you need these headers:
 
 - [gnssdriver.h](../gnssdriver/index.md)
 
-For the programming guide, see the [GNSS driver design guide](https://docs.microsoft.com/windows-hardware/drivers/gnss).
+For the programming guide, see the [Global Navigation Satellite System (GNSS) driver design guide](https://docs.microsoft.com/windows-hardware/drivers/gnss).
