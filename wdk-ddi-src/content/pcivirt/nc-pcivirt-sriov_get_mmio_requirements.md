@@ -34,7 +34,7 @@ api_type:
 api_location:
 - Pcivirt.h
 api_name:
-- *PSRIOV_GET_MMIO_REQUIREMENTS
+- PSRIOV_GET_MMIO_REQUIREMENTS
 product:
 - Windows
 targetos: Windows
