@@ -51,11 +51,11 @@ Called to retrieve multiplane overlay capabilities. Support for this DDI is requ
 
 ### -param hAdapter
 
-Identifies the adapter containing the overlay hardware.
+[in] Identifies the adapter containing the overlay hardware.
 
 ### -param pGetMultiPlaneOverlayCaps
 
-A pointer to a DXGKARG_GETMULTIPLANEOVERLAYCAPS structure that receives the driver capabilities.
+[in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getmultiplaneoverlaycaps">DXGKARG_GETMULTIPLANEOVERLAYCAPS</a> structure that receives the driver capabilities.
 
 ## -returns
 
