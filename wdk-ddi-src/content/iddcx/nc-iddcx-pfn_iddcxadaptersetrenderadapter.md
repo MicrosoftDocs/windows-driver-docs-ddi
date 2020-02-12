@@ -35,7 +35,7 @@ api_type:
 api_location: 
  - iddcx.h
 api_name: 
- - *PFN_IDDCXADAPTERSETRENDERADAPTER
+ - PFN_IDDCXADAPTERSETRENDERADAPTER
 product: 
  - Windows
 targetos: Windows

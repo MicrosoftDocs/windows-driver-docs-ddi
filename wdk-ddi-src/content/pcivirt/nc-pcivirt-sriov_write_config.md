@@ -34,7 +34,7 @@ api_type:
 api_location:
 - Pcivirt.h
 api_name:
-- *PSRIOV_WRITE_CONFIG
+- PSRIOV_WRITE_CONFIG
 product:
 - Windows
 targetos: Windows

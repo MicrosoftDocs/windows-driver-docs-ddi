@@ -34,7 +34,7 @@ api_type:
 api_location:
 - Hwnclx.h
 api_name:
-- *PHWN_CLIENT_GET_STATE
+- PHWN_CLIENT_GET_STATE
 product:
 - Windows
 targetos: Windows

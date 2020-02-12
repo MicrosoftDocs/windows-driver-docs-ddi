@@ -34,7 +34,7 @@ api_type:
 api_location:
 - Pcivirt.h
 api_name:
-- *PSRIOV_QUERY_PROBED_BARS
+- PSRIOV_QUERY_PROBED_BARS
 product:
 - Windows
 targetos: Windows

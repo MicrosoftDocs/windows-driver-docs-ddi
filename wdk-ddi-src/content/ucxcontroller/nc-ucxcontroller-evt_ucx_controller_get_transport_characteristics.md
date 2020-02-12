@@ -34,7 +34,7 @@ api_type:
 api_location:
 - UcxController.h
 api_name:
-- *PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
+- PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS
 product:
 - Windows
 targetos: Windows

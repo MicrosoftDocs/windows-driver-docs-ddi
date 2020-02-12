@@ -30,7 +30,7 @@ api_type:
 api_location: 
 - sensorscx.h
 api_name: 
-- *PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED
+- PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED
 product:
 - Windows
 targetos: Windows

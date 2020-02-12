@@ -34,7 +34,7 @@ api_type:
 api_location:
 - Pcivirt.h
 api_name:
-- *PSRIOV_GET_DEVICE_LOCATION
+- PSRIOV_GET_DEVICE_LOCATION
 product:
 - Windows
 targetos: Windows
