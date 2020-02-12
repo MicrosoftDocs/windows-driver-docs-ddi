@@ -55,7 +55,7 @@ Identifies the adapter containing the overlay hardware.
 
 ### -param pGetPostCompositionCaps
 
-[in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getpostcompositioncaps">DXGKARG_GETPOSTCOMPOSITIONCAPS<a> structure that receives the driver capabilities.
+[in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_getpostcompositioncaps">DXGKARG_GETPOSTCOMPOSITIONCAPS</a> structure that receives the driver capabilities.
 
 ## -returns
 
