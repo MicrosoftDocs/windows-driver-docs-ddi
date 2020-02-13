@@ -35,7 +35,7 @@ api_type:
 api_location: 
  - iddcx.h
 api_name: 
- - *PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE
+ - PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE
 product: 
  - Windows
 targetos: Windows

@@ -34,7 +34,7 @@ api_type:
 api_location:
 - Pcivirt.h
 api_name:
-- *PSRIOV_READ_BLOCK
+- PSRIOV_READ_BLOCK
 product:
 - Windows
 targetos: Windows

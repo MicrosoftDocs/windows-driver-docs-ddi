@@ -33,7 +33,7 @@ api_type:
 api_location:
 - d3dkmthk.h
 api_name:
-- *PDXGK_POWER_NOTIFICATION
+- PDXGK_POWER_NOTIFICATION
 product:
 - Windows
 targetos: Windows

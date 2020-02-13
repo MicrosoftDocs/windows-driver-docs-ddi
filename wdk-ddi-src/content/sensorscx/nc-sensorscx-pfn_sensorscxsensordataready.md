@@ -30,7 +30,7 @@ api_type:
 api_location: 
 - sensorscx.h
 api_name: 
-- *PFN_SENSORSCXSENSORDATAREADY
+- PFN_SENSORSCXSENSORDATAREADY
 product:
 - Windows
 targetos: Windows

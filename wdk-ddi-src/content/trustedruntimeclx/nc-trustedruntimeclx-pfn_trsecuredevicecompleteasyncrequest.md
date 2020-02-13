@@ -30,7 +30,7 @@ api_type:
 api_location: 
 - trustedruntimeclx.h
 api_name: 
-- *PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
+- PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
 product:
 - Windows
 targetos: Windows
