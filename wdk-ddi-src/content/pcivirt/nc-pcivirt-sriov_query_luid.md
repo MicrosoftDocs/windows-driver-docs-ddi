@@ -34,7 +34,7 @@ api_type:
 api_location:
 - Pcivirt.h
 api_name:
-- *PSRIOV_QUERY_LUID
+- PSRIOV_QUERY_LUID
 product:
 - Windows
 targetos: Windows

@@ -34,7 +34,7 @@ api_type:
 api_location:
 - Hwnclx.h
 api_name:
-- *PHWN_CLIENT_INITIALIZE_DEVICE
+- PHWN_CLIENT_INITIALIZE_DEVICE
 product:
 - Windows
 targetos: Windows

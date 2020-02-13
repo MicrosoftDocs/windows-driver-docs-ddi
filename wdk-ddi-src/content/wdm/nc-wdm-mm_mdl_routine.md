@@ -34,7 +34,7 @@ api_type:
 api_location:
 - Wdm.h
 api_name:
-- *PMM_MDL_ROUTINE
+- PMM_MDL_ROUTINE
 product:
 - Windows
 targetos: Windows

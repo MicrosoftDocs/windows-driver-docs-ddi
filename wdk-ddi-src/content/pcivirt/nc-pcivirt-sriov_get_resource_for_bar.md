@@ -34,7 +34,7 @@ api_type:
 api_location:
 - pcivirt.h
 api_name:
-- *PSRIOV_GET_RESOURCE_FOR_BAR
+- PSRIOV_GET_RESOURCE_FOR_BAR
 product:
 - Windows
 targetos: Windows
