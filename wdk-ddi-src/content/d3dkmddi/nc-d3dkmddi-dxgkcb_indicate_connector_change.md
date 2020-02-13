@@ -36,7 +36,7 @@ api_type:
 api_location:
  - d3dkmddi.h
 api_name:
- - *DXGKCB_INDICATE_CONNECTOR_CHANGE
+ - DXGKCB_INDICATE_CONNECTOR_CHANGE
 product:
  - Windows
 ---

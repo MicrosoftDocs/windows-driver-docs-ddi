@@ -34,7 +34,7 @@ api_type:
 api_location:
 - Pcivirt.h
 api_name:
-- *PSRIOV_RESET_FUNCTION
+- PSRIOV_RESET_FUNCTION
 product:
 - Windows
 targetos: Windows

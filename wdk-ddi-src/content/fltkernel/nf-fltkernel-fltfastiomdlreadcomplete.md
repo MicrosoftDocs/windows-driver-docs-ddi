@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>FltFastIoMdlReadComplete</b> routine completes the read operation that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a> routine initiated.
+The <b>FltFastIoMdlReadComplete</b> routine completes the read operation that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a> routine initiated.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ None
 
 
 
-The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a> routine allocated.
+The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a> routine allocated.
 
 
 
@@ -93,7 +93,7 @@ The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a>
  
 
  

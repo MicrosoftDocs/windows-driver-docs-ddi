@@ -43,43 +43,31 @@ req.typenames:
 
 # FsRtlChangeBackingFileObject function
 
-
 ## -description
 
-
-The <b>FsRtlChangeBackingFileObject</b> routine replaces the current file object with a new file object.
-
+The **FsRtlChangeBackingFileObject** routine replaces the current file object with a new file object.
 
 ## -parameters
-
-
-
 
 ### -param CurrentFileObject [in, optional]
 
 The current file object. If this object does not belong to the stream, the operation fails.
 
-
 ### -param NewFileObject [in]
 
 The new file object.
 
-
 ### -param ChangeBackingType [in]
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff547341">FSRTL_CHANGE_BACKING_TYPE</a> enumeration value that indicates which internal memory area the new file object will designate.
-
+An [FSRTL_CHANGE_BACKING_TYPE](ne-ntifs-_fsrtl_change_backing_type.md) enumeration value that indicates which internal memory area the new file object will designate.
 
 ### -param Flags [in]
 
 Reserved for future use.
 
-
 ## -returns
 
-
-
-The <b>FsRtlChangeBackingFileObject</b> routine returns STATUS_SUCCESS if the operation succeeds. Otherwise, <b>FsRtlChangeBackingFileObject</b> returns the appropriate error code.The following table contains error codes that <b>FsRtlChangeBackingFileObject</b> might return.
+The **FsRtlChangeBackingFileObject** routine returns STATUS_SUCCESS if the operation succeeds. Otherwise, **FsRtlChangeBackingFileObject** returns the appropriate error code.The following table contains error codes that **FsRtlChangeBackingFileObject** might return.
 
 <table>
 <tr>
@@ -122,7 +110,7 @@ The change operation failed because the caller specified an invalid value in <i>
 <tr>
 <td width="40%">
 <dl>
-<dt><b>STATUS_NOT_SUPPORT</b></dt>
+<dt>**STATUS_NOT_SUPPORT**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -131,47 +119,23 @@ The change operation failed because the caller obtained the file object in a way
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+The **FsRtlChangeBackingFileObject** routine changes the file object for one of the following:
 
+- One of the memory manager's image control areas for the stream
 
-The <b>FsRtlChangeBackingFileObject</b> routine changes the file object for one of the following:
+- The memory manager's data control area for the stream
 
-<ul>
-<li>
-One of the memory manager's image control areas for the stream
+- The cache manager's shared cache map for the stream
 
-</li>
-<li>
-The memory manager's data control area for the stream
+The **FsRtlChangeBackingFileObject** routine is not synchronous. It processes the request for a change of file object and returns immediately. The cache manager and the memory manager synchronize the change of the file object and will not free the old file object until all incomplete operations that are associated with the old file object have finished. A return status of STATUS_SUCCESS from **FsRtlChangeBackingFileObject** does not mean that the operating system has already changed the file object.
 
-</li>
-<li>
-The cache manager's shared cache map for the stream
+However, after **FsRtlChangeBackingFileObject** runs successfully, the operating system associates all future operations with the new file object.
 
-</li>
-</ul>
-The <b>FsRtlChangeBackingFileObject</b> routine is not synchronous. It processes the request for a change of file object and returns immediately. The cache manager and the memory manager synchronize the change of the file object and will not free the old file object until all incomplete operations that are associated with the old file object have finished. A return status of STATUS_SUCCESS from <b>FsRtlChangeBackingFileObject</b> does not mean that the operating system has already changed the file object.
-
-However, after <b>FsRtlChangeBackingFileObject</b> runs successfully, the operating system associates all future operations with the new file object.
-
-To change the file object for more than one backing type, the caller must call <b>FsRtlChangeBackingFileObject</b> multiple times, one time for each backing type to change.
-
-
-
+To change the file object for more than one backing type, the caller must call **FsRtlChangeBackingFileObject** multiple times, one time for each backing type to change.
 
 ## -see-also
 
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547341">FSRTL_CHANGE_BACKING_TYPE</a>
- 
-
- 
-
+[FSRTL_CHANGE_BACKING_TYPE](ne-ntifs-_fsrtl_change_backing_type.md)
