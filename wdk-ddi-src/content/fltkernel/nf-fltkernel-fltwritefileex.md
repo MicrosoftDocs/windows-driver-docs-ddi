@@ -83,8 +83,7 @@ If the file object that <i>FileObject</i> points to was opened for asynchronous 
 
 ### -param Length [in]
 
-The size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. 
-
+The length, in bytes, of the data to be written to the file.
 
 ### -param Buffer [in]
 
