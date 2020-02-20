@@ -103,7 +103,7 @@ Specifies that NDIS should check for loopback. By default, NDIS does not loop ba
        driver that submitted the send request. An overlying driver can override this behavior by setting this
        flag. When this flag is set, NDIS identifies all the NET_BUFFER structures that contain data that
        matches the receive criteria for the binding. NDIS indicates NET_BUFFER structures that match the
-       criteria to the overlying driver. This flag has no affect on checking for loopback, or looping back,
+       criteria to the overlying driver. This flag has no effect on checking for loopback, or looping back,
        on other bindings.
 
 

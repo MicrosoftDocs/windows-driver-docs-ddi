@@ -34,7 +34,7 @@ api_type:
 api_location:
 - Pcivirt.h
 api_name:
-- *PREAD_WRITE_MITIGATED_REGISTER
+- PREAD_WRITE_MITIGATED_REGISTER
 product:
 - Windows
 targetos: Windows

@@ -30,7 +30,7 @@ api_type:
 api_location: 
 - sensorscx.h
 api_name: 
-- *PFN_SENSORSCXSENSORINITIALIZE
+- PFN_SENSORSCXSENSORINITIALIZE
 product:
 - Windows
 targetos: Windows
