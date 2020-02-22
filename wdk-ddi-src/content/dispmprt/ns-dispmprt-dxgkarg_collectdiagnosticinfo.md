@@ -6,7 +6,7 @@ description: Used by the DXGKDDI_COLLECTDIAGNOSTICINFO callback function to coll
 tech.root: display
 ms.assetid: 04b03acc-2025-4e79-bb7b-46adb7492256
 ms.author: windowsdriverdev
-ms.date: 04/04/2019
+ms.date: 03/24/2020
 f1_keywords:
  - "dispmprt/DXGKARG_COLLECTDIAGNOSTICINFO"
 ms.keywords: DXGKARG_COLLECTDIAGNOSTICINFO, DXGKARG_COLLECTDIAGNOSTICINFO, *INOUT_PDXGKARG_COLLECTDIAGNOSTICINFO
@@ -43,15 +43,15 @@ ms.custom: 19H1
 
 ## -description
 
-Used by the [DXGKDDI_COLLECTDIAGNOSTICINFO](nc-dispmprt-dxgkddi_collectdiagnosticinfo.md) callback function to collect private driver information for a variety of reasons. 
+Used by the [DXGKDDI_COLLECTDIAGNOSTICINFO](nc-dispmprt-dxgkddi_collectdiagnosticinfo.md) callback function to collect private driver information for a variety of reasons.
 
-For example, the OS will call the DXGKDDI_COLLECTDIAGNOSTICINFO callback function when diagnostic is needed, while providing the type of information being requested ([DXGK_DIAGNOSTICINFO_TYPE](ne-dispmprt-dxgk_diagnosticinfo_type.md)). The driver should collect all private information to investigate the issue and submit it to the OS.
+For example, the OS will call the DXGKDDI_COLLECTDIAGNOSTICINFO callback function when diagnostic information is needed, while providing the type of information being requested ([DXGK_DIAGNOSTICINFO_TYPE](ne-dispmprt-dxgk_diagnosticinfo_type.md)). The driver should collect all private information to investigate the issue and submit it to the OS.
 
 ## -struct-fields
 
 ### -field hAdapter
 
-[in, optional] A handle to a context block associated with a display adapter. 
+[in, optional] A handle to a context block associated with a display adapter.
 
 Prior to WDDM 2.6, the display miniport driver's [DxgkDdiAddDevice](../dispmprt/nc-dispmprt-dxgkddi_add_device.md) function provided this handle to the DirectX graphics kernel subsystem. This parameter is optional and can be NULL if the driver failed to provide the handle to the OS.
 
@@ -86,3 +86,13 @@ Prior to WDDM 2.6, the display miniport driver's [DxgkDdiAddDevice](../dispmprt/
 ## -remarks
 
 ## -see-also
+
+[DXGK_DIAGNOSTICINFO_TYPE](ne-dispmprt-dxgk_diagnosticinfo_type.md)
+
+[DXGKDDI_COLLECTDIAGNOSTICINFO](nc-dispmprt-dxgkddi_collectdiagnosticinfo.md)
+
+[DxgkDdiAddDevice](../dispmprt/nc-dispmprt-dxgkddi_add_device.md)
+
+[**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md)
+
+[**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md)
