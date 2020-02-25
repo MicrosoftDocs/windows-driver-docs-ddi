@@ -53,7 +53,7 @@ The <b>KeAcquireSpinLock</b> routine acquires a spin lock so the caller can sync
 ## -syntax
 
 ```cpp
-KIRQL
+void
 KeAcquireSpinLock (
     _Inout_ PKSPIN_LOCK SpinLock
     _Out_ KIRQL OldIrql
