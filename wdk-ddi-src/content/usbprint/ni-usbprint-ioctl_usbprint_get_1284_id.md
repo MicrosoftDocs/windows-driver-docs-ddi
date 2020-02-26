@@ -59,14 +59,14 @@ Not used in this operation; set this parameter to 0.
 
 ### -output-buffer
 
-The output buffer will contain UCHAR data. On success this buffer can hold the following: a two-byte prefix that specifies the size, in bytes, of the device's IEEE 1284 device ID; the device ID; and a null terminator. An IEEE 1284 device ID can be up to 64 KB in size. On failure, if **GetLastError**returns the error code **STATUS_BUFFER_TOO_SMALL**, the output buffer was not large enough to hold the data intended for it.
+The output buffer will contain UCHAR data. On success this buffer can hold the following: a two-byte prefix that specifies the size, in bytes, of the device's IEEE 1284 device ID; the device ID; and a null terminator. An IEEE 1284 device ID can be up to 64 KB in size. On failure, if **GetLastError** returns the error code **STATUS_BUFFER_TOO_SMALL**, the output buffer was not large enough to hold the data intended for it.
 
 ### -output-buffer-length
 
 The output buffer must be large enough to contain a two-byte quantity holding the length of the device's IEEE 1284 device ID, the device ID (up to 64 KB in size), and a terminating null.
 
-> [!IMPORTANT]
-> The IOCTL_USBPRINT_GET_1284_ID IOCTL output buffer length is placed directly into the USB packet. On some USB print devices, using the maximum 65535 bytes can cause the call to fail with error 23. Reduce the buffer to 4094 bytes or less to resolve this issue.
+> [!NOTE]
+> The IOCTL_USBPRINT_GET_1284_ID output buffer length is placed directly into the USB packet. On some USB print devices, using the maximum 65535 bytes can cause the call to fail with error 23. Reduce the buffer to 4094 bytes or less to resolve this issue.
 
 ### -in-out-buffer
 
