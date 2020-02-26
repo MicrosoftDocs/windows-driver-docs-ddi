@@ -1,7 +1,7 @@
 ---
 UID: NS:acpitabl._PCC_REDUCED_1_SUBSPACE
 title: PCC_REDUCED_1_SUBSPACE
-ms.date: 11/8/2019
+ms.date: 02/26/2020
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -34,6 +34,9 @@ f1_keywords:
  - acpitabl/PCC_REDUCED_1_SUBSPACE
 dev_langs:
  - c++
+product:
+- Windows
+targetos: Windows
 ---
 
 ## -description
@@ -73,4 +76,3 @@ dev_langs:
 ## -remarks
 
 ## -see-also
-
