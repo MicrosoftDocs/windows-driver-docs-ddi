@@ -77,9 +77,7 @@ An [**EX_POOL_PRIORITY**](ne-wdm-ex_pool_priority.md) enumeration value specifyi
 
 ## -remarks
 
-To run on versions of Windows prior to Windows 10 version 2004, the driver must define **POOL_ZERO_DOWN_LEVEL_SUPPORT**.
-
-Drivers must call [**ExInitializeDriverRuntime**](nf-wdm-exinitializedriverruntime.md) before calling this function. 
+To run on versions of Windows prior to Windows 10 version 2004, the driver must define **POOL_ZERO_DOWN_LEVEL_SUPPORT** and call [**ExInitializeDriverRuntime**](nf-wdm-exinitializedriverruntime.md) before calling this function.
 
 See the Remarks section of [**ExAllocatePoolWithTagPriority**](nf-wdm-exallocatepoolwithtagpriority.md) for additional guidance.
 
