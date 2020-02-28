@@ -32,6 +32,9 @@ f1_keywords:
  - gnssdriver/GNSS_CHIPSETINFO
 dev_langs:
  - c++
+ product:
+- Windows
+targetos: Windows
 ---
 
 ## -description
@@ -53,4 +56,3 @@ dev_langs:
 ## -remarks
 
 ## -see-also
-

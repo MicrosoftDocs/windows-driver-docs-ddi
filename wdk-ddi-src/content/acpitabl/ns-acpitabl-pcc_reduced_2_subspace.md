@@ -34,6 +34,9 @@ f1_keywords:
  - acpitabl/PCC_REDUCED_2_SUBSPACE
 dev_langs:
  - c++
+ product:
+- Windows
+targetos: Windows
 ---
 
 ## -description
@@ -79,4 +82,3 @@ dev_langs:
 ## -remarks
 
 ## -see-also
-

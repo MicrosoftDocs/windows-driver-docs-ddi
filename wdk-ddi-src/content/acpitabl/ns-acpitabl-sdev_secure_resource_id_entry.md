@@ -34,6 +34,9 @@ f1_keywords:
  - acpitabl/SDEV_SECURE_RESOURCE_ID_ENTRY
 dev_langs:
  - c++
+ product:
+- Windows
+targetos: Windows
 ---
 
 ## -description

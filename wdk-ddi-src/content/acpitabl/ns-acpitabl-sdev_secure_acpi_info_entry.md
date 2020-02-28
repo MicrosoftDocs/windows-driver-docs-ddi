@@ -34,6 +34,9 @@ f1_keywords:
  - acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY
 dev_langs:
  - c++
+ product:
+- Windows
+targetos: Windows
 ---
 
 ## -description
@@ -57,4 +60,3 @@ dev_langs:
 ## -remarks
 
 ## -see-also
-
