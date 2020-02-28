@@ -71,7 +71,7 @@ The pool tag to use for the allocated memory. Specify the pool tag as a non-zero
 
 This routine is used for the general pool allocation of memory. 
 
-Drivers must call [**ExInitializeDriverRuntime**](nf-wdm-exinitializedriverruntime.md) before calling this function. 
+To run on versions of Windows prior to Windows 10 version 2004, the driver must define **POOL_ZERO_DOWN_LEVEL_SUPPORT** and call [**ExInitializeDriverRuntime**](nf-wdm-exinitializedriverruntime.md) before calling this function.
 
 The only difference between this function and [**ExAllocatePoolWithTag**](nf-wdm-exallocatepoolwithtag.md) is that memory is zero initialized. If this is not desired, use [**ExAllocatePoolUninitialized**](nf-wdm-exallocatepooluninitialized.md) instead, which is a wrapper for **ExAllocatePoolWithTag**. 
 
