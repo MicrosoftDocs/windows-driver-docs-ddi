@@ -67,7 +67,7 @@ A pointer to the file object.
 
 ### -param MdlChain [in]
 
-On return, a pointer to a linked list of one or more MDLs that point to the cached file data.
+A pointer to a linked list of memory descriptor lists (MDLs) that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a> routine allocated.
 
 
 ## -returns
