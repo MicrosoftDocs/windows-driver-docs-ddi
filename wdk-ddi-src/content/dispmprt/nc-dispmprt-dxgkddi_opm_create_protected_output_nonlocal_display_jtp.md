@@ -1,7 +1,7 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY_JTP
 title: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY_JTP
-ms.date: 01/30/2020
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -43,6 +43,8 @@ dev_langs:
 
 ## -description
 
+Use [*DxgkDdiOPMCreateProtectedOutputNonlocalDisplay*](nc-dispmprt-dxgkddi_opm_create_protected_output_nonlocal_display.md) (JTP = January Technical Preview).
+
 ## -parameters
 
 ### -param MiniportDeviceContext
@@ -62,4 +64,3 @@ dev_langs:
 ## -remarks
 
 ## -see-also
-

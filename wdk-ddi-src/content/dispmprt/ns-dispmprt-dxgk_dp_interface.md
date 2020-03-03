@@ -1,10 +1,10 @@
 ---
 UID: NS:dispmprt._DXGK_DP_INTERFACE
 title: DXGK_DP_INTERFACE
-ms.date: 01/30/2020
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: A kernel-mode component that needs to use the DXGK_DP_INTERFACE DisplayPort (DP) interface calls the display miniport driver's DxgkDdiQueryInterface function.
 tech.root: display
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: DXGK_DP_INTERFACE, *PDXGK_DP_INTERFACE
@@ -65,7 +65,7 @@ Pointer to a private context block provided by the display miniport driver.
 
 [**PINTERFACE_DEREFERENCE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pinterface_dereference) interface dereference function that is implemented by the display miniport driver.
 
-### -field DxgkDdiQueryDPCaps
+### -field DsiQueryCaps
 
 Pointer to the display miniport driver's [DXGKDDI_QUERYDPCAPS](nc-dispmprt-dxgkddi_querydpcaps.md) function.
 
