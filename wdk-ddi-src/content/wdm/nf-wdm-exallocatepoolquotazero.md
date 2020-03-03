@@ -72,7 +72,7 @@ If the request cannot be satisfied, <b>ExAllocatePoolQuotaZero</b> raises an exc
 
 ## -remarks
 
-Drivers must call [**ExInitializeDriverRuntime**](nf-wdm-exinitializedriverruntime.md) before calling this function. 
+To run on versions of Windows prior to Windows 10 version 2004, the driver must define **POOL_ZERO_DOWN_LEVEL_SUPPORT** and call [**ExInitializeDriverRuntime**](nf-wdm-exinitializedriverruntime.md) before calling this function.
 
 This routine is called by highest-level drivers that allocate memory to satisfy a request in the context of the process that originally made the I/O request. Lower-level drivers call [**ExAllocatePoolZero**](nf-wdm-exallocatepoolzero.md) instead. 
 
