@@ -1,10 +1,10 @@
 ---
 UID: NC:dispmprt.DXGKDDI_OPM_SET_SRM_LIST
 title: DXGKDDI_OPM_SET_SRM_LIST
-ms.date: 01/30/2020
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The DxgkDdiOPMSetSrmList function sets the output protection manager (OPM) system renewability message (SRM) list.
 tech.root: display
 req.assembly: 
 req.construct-type: function
@@ -43,17 +43,30 @@ dev_langs:
 
 ## -description
 
+The *DxgkDdiOPMSetSrmList* function sets the output protection manager (OPM) system renewability message (SRM) list.
+
 ## -parameters
 
 ### -param MiniportDeviceContext
 
+Handle to a context block associated with a display adapter. Previously, the display miniport driver's [*DxgkDdiAddDevice*](..\dispmprt\nc-dispmprt-dxgkddi_add_device.md) function provided this handle to the DirectX graphics kernel subsystem.
+
 ### -param SrmListSize
+
+The size, in bytes, of the buffer that **SrmListBuffer** points to.
 
 ### -param SrmListBuffer
 
+Pointer to a buffer containing the updated SRM list.
+
 ## -returns
+
+*DxgkDdiOPMSetSrmList* returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes that are defined in *Ntstatus.h*.
 
 ## -remarks
 
 ## -see-also
 
+[**DXGK_OPM_INTERFACE_3**](ns-dispmprt-_dxgk_opm_interface_3)
+
+[*DxgkDdiOPMGetSrmListVersion*](nc-dispmprt-dxgkddi_opm_get_srm_list_version.md)

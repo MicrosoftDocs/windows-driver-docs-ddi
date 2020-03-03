@@ -1,10 +1,10 @@
 ---
 UID: NS:dispmprt._DXGKARG_GETDISPLAYSTATE_NONINTRUSIVE
 title: DXGKARG_GETDISPLAYSTATENONINTRUSIVE
-ms.date: 11/8/2019
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The DXGKARG_GETDISPLAYSTATENONINTRUSIVE structure is passed to DxgkDdiGetDisplayStateNonIntrusive during diagnostic data collection.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: DXGKARG_GETDISPLAYSTATENONINTRUSIVE, *PDXGKARG_GETDISPLAYSTATENONINTRUSIVE
@@ -40,15 +40,28 @@ dev_langs:
 
 ## -description
 
+The **DXGKARG_GETDISPLAYSTATENONINTRUSIVE** structure is passed to [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md) during diagnostic data collection.
+
 ## -struct-fields
 
 ### -field NumOfTargets
 
+The number of targets on which the operating system believes there is a monitor connected with a corresponding VidPnTargetId filled in.
+
 ### -field SizeOfDisplayStateNonIntrusiveElement
+
+Size of a [**DXGK_DISPLAYSTATE_NONINTRUSIVE**](ns-dispmprt-dxgk_displaystate_nonintrusive.md) structure, in bytes. Set to ```sizeof(DXGK_DISPLAYSTATE_NONINTRUSIVE)```.
 
 ### -field ppDisplayStateNonIntrusive
 
+Pointer to an array of pointers to [**DXGK_DISPLAYSTATE_NONINTRUSIVE**](ns-dispmprt-dxgk_displaystate_nonintrusive.md) structures.
+
 ## -remarks
+
+DXGKRNL passes **DXGKARG_GETDISPLAYSTATENONINTRUSIVE** in calls to [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md) during diagnostic data collection.
 
 ## -see-also
 
+[**DXGK_DISPLAYSTATE_NONINTRUSIVE**](ns-dispmprt-dxgk_displaystate_nonintrusive.md)
+
+[**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md)

@@ -1,10 +1,10 @@
 ---
 UID: NS:dispmprt._DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
 title: DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
-ms.date: 01/30/2020
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS is reserved for system use.
 tech.root: display
 req.construct-type: structure
 req.ddi-compliance: 
@@ -41,6 +41,8 @@ dev_langs:
 
 ## -description
 
+**DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS** is reserved for system use.
+
 ## -struct-fields
 
 ### -field Reserved
@@ -51,3 +53,4 @@ dev_langs:
 
 ## -see-also
 
+[**DxgkddiSystemDisplayEnable**](https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_enable)

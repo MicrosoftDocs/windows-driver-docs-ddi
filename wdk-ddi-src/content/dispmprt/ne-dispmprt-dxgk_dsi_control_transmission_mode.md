@@ -1,7 +1,7 @@
 ---
 UID: NE:dispmprt._DXGK_DSI_CONTROL_TRANSMISSION_MODE
 title: DXGK_DSI_CONTROL_TRANSMISSION_MODE
-ms.date: 01/30/2020
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
 description: Describes an override for the transmission mode, allowing the OEM panel driver to specify whether low power or high performance mode should be used for write packets in the transmission to mitigate cases where a panel only supports one of the modes.
@@ -12,7 +12,7 @@ req.header: dispmprt.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 

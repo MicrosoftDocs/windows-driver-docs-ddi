@@ -1,7 +1,7 @@
 ---
 UID: NC:dispmprt.DXGKDDI_DSITRANSMISSION
 title: DXGKDDI_DSITRANSMISSION
-ms.date: 01/30/2020
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
 description: The DxgkddiDsiTransmission callback function performs a Display Serial Interface (DSI) transmission.
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 

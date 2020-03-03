@@ -1,7 +1,7 @@
 ---
 UID: NS:dispmprt._DXGK_MIPI_DSI_INTERFACE
 title: DXGK_MIPI_DSI_INTERFACE
-ms.date: 01/30/2020
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
 description: DXGK_MIPI_DSI_INTERFACE allows the OS to request Display Serial Interface (DSI) operations to be performed on a target using a control interface to the target owned by the graphics adapter.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: DXGK_MIPI_DSI_INTERFACE, *PDXGK_MIPI_DSI_INTERFACE
@@ -65,17 +65,17 @@ DXGK_MIPI_DSI_INTERFACE allows the OS to request Display Serial Interface (DSI) 
 
 [out] Pointer to an interface dereference function that is implemented by the display miniport driver.
 
-### -field DxgkDdiDsiCaps
+### -field DsiQueryCaps
 
-[out] Pointer to a display miniport driver [DxgkddiDsiCaps](nc-dispmprt-dxgkddi_dsicaps.md) function to query capabilities for a particular target. `pArgs` is a [DXGI_DSI_CAPS](ns-dispmprt-dxgk_dsi_caps.md) structure.
+[out] Pointer to a display miniport driver [DsiCaps](nc-dispmprt-dxgkddi_dsicaps.md) function to query capabilities for a particular target. `pArgs` is a [DXGI_DSI_CAPS](ns-dispmprt-dxgk_dsi_caps.md) structure.
 
-### -field DxgkDdiDsiTransmission
+### -field DsiTransmission
 
-[out] Pointer to a display miniport driver [DxgkddiDsiTransmission](nc-dispmprt-dxgkddi_dsitransmission.md) function to perform a DSI transmission. `pArgs` is a [DXGI_DSI_TRANSMISSION](ns-dispmprt-dxgk_dsi_transmission.md) structure.
+[out] Pointer to a display miniport driver [DsiTransmission](nc-dispmprt-dxgkddi_dsitransmission.md) function to perform a DSI transmission. `pArgs` is a [DXGI_DSI_TRANSMISSION](ns-dispmprt-dxgk_dsi_transmission.md) structure.
 
-### -field DxgkDdiDsiReset
+### -field DsiReset
 
-[out] Pointer to a display miniport driver [DxgkddiDsiReset](nc-dispmprt-dxgkddi_dsireset.md) function to perform a DSI reset. `pArgs` is a [DXGI_DSI_RESET](ns-dispmprt-dxgk_dsi_reset.md) structure.
+[out] Pointer to a display miniport driver [DsiReset](nc-dispmprt-dxgkddi_dsireset.md) function to perform a DSI reset. `pArgs` is a [DXGI_DSI_RESET](ns-dispmprt-dxgk_dsi_reset.md) structure.
 
 ## -remarks
 
@@ -89,10 +89,10 @@ A kernel-mode component that needs to use the MIPI DSI Display Control interface
 
 [DXGI_DSI_TRANSMISSION](ns-dispmprt-dxgk_dsi_transmission.md)
 
-[DxgkddiDsiCaps](nc-dispmprt-dxgkddi_dsicaps.md)
+[DsiCaps](nc-dispmprt-dxgkddi_dsicaps.md)
 
 [DxgkDdiQueryInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_query_interface)
 
-[DxgkddiDsiReset](nc-dispmprt-dxgkddi_dsireset.md)
+[DsiReset](nc-dispmprt-dxgkddi_dsireset.md)
 
-[DxgkddiDsiTransmission](nc-dispmprt-dxgkddi_dsitransmission.md)
+[DsiTransmission](nc-dispmprt-dxgkddi_dsitransmission.md)

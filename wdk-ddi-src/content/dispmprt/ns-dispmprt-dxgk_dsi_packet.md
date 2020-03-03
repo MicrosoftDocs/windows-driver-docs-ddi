@@ -1,10 +1,10 @@
 ---
 UID: NS:dispmprt._DXGK_DSI_PACKET
 title: DXGK_DSI_PACKET
-ms.date: 01/30/2020
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: An OEM panel driver uses DXGK_DSI_PACKET structures to transmit Digital Serial Interface (DSI) packets to the bus driver (graphics kernel).
 tech.root: display
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: DXGK_DSI_PACKET, *PDXGK_DSI_PACKET
@@ -40,6 +40,8 @@ dev_langs:
 # DXGK_DSI_PACKET structure
 
 ## -description
+
+An OEM panel driver uses **DXGK_DSI_PACKET** structures to transmit Digital Serial Interface (DSI) packets to the bus driver (graphics kernel).
 
 ## -struct-fields
 
@@ -77,4 +79,12 @@ Array of 8 bytes which allows for sequences of small writes to be sent as an arr
 
 ## -remarks
 
+The panel driver calls [**IOCTL_MIPI_DSI_TRANSMISSION**](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_transmission.md) with an array of **DSI_PACKET** structures in a [**DXGK_DSI_TRANSMISSION**](ns-dispmprt-dxgk_dsi_transmission.md) structure.
+
 ## -see-also
+
+[**IOCTL_MIPI_DSI_QUERY_CAPS](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_query_caps.md)
+
+[**IOCTL_MIPI_DSI_RESET**](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_reset.md)
+
+[**IOCTL_MIPI_DSI_TRANSMISSION**](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_transmission.md)
