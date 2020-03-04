@@ -6,7 +6,7 @@ description: The STOR_DEVICE_RESET_TYPE enum specifies the type of device reset 
 tech.root: storage
 ms.assetid: b0c412bb-9354-4599-9078-8b8656185d15
 ms.author: windowsdriverdev
-ms.date: 12/15/2019
+ms.date: 03/20/2020
 ms.topic: enum
 ms.keywords: STOR_DEVICE_RESET_TYPE, STOR_DEVICE_RESET_TYPE, 
 req.header: storport.h
@@ -14,7 +14,7 @@ f1_keywords:
  - "storport/STOR_DEVICE_RESET_TYPE"
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-The STOR_DEVICE_RESET_TYPE enum specifies the type of device reset being requested in a call to [**StorPortHardwareReset**](nf-storport-storporthardwarereset.md).
+The **STOR_DEVICE_RESET_TYPE** enum specifies the type of device reset being requested in a call to [**StorPortHardwareReset**](nf-storport-storporthardwarereset.md).
 
 ## -enum-fields
 
@@ -48,9 +48,12 @@ The reset operation request is for a function-level device reset. In this case, 
 
 ### -field StorPlatformLevelReset
 
-The reset operation request is for a platform-level device reset. In this case, the reset operation causes the device to be reported as missing from the bus. <!-- Should I copy more from this page? https://docs.microsoft.com/windows-hardware/drivers/kernel/resetting-and-recovering-a-device -->
+The reset operation request is for a platform-level device reset. In this case, the reset operation causes the device to be reported as missing from the bus. The reset operation affects a specific device and all other devices that are connected to it via the same power rail or reset line. This type of reset has the most impact on the system. The OS will tear down and rebuild the stacks of all affected devices to ensure that everything restarts from a blank state.
 
 ## -remarks
+
+See [Resetting and recovering a device](https://docs.microsoft.com/windows-hardware/drivers/kernel/resetting-and-recovering-a-device
+) for more details.
 
 ## -see-also
 

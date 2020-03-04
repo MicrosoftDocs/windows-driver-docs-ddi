@@ -2,11 +2,11 @@
 UID: NS:storport._STOR_DISPATCHER_HEADER
 title: STOR_DISPATCHER_HEADER
 author: windows-driver-content
-description: 
+description: The STOR_DISPATCHER_HEADER structure is an opaque structure that describes a dispatcher object.
 tech.root: storage
 ms.assetid: f6864a1e-ea64-4daa-bbe6-d658d03f37cf
 ms.author: windowsdriverdev
-ms.date: 12/15/2019
+ms.date: 03/24/2020
 ms.topic: struct
 ms.keywords: STOR_DISPATCHER_HEADER, STOR_DISPATCHER_HEADER, *PSTOR_DISPATCHER_HEADER, 
 req.header: storport.h
@@ -14,7 +14,7 @@ f1_keywords:
  - "storport/STOR_DISPATCHER_HEADER"
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -41,44 +41,53 @@ targetos: Windows
 
 ## -description
 
-The STOR_DISPATCHER_HEADER structure ??????????????????????????????
+The **STOR_DISPATCHER_HEADER** structure is an opaque structure that describes a dispatcher object.
 
 ## -struct-fields
 
 ### -field Data
 
+Reserved for system use.
 
 ### -field Data.Type
 
+Reserved for system use.
 
 ### -field Data.Flags
 
+Reserved for system use.
 
 ### -field Data.Size
 
+Reserved for system use.
 
 ### -field Data.Inserted
 
+Reserved for system use.
 
 ### -field Data.DebugActive
 
+Reserved for system use.
 
 ### -field Lock
 
+Reserved for system use.
 
 ### -field SignalState
 
+Reserved for system use.
 
 ### -field WaitListHead
 
+Reserved for system use.
+
 ## -remarks
 
-STOR_DISPATCHER_HEADER is a member of the [STOR_EVENT](ns-storport-stor_event.md) structure that is passed to [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md) and [**StorPortSetEvent**](nf-storport-storportsetevent.md).
-
-<!-- how is it initialized? -->
+**STOR_DISPATCHER_HEADER** is a member of the [**STOR_EVENT**](ns-storport-stor_event.md) structure that is passed to [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md) and [**StorPortSetEvent**](nf-storport-storportsetevent.md).
 
 ## -see-also
 
+[**KeInitializeEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent)
 [STOR_EVENT](ns-storport-stor_event.md)
 
 [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)

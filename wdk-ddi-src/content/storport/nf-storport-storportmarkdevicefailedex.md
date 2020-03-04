@@ -6,7 +6,7 @@ description: The StorPortMarkDeviceFailedEx routine marks a device with failed s
 tech.root: storage
 ms.assetid: b3a300c1-7c14-4c6c-90c6-2fd8b89a1de8
 ms.author: windowsdriverdev
-ms.date: 12/15/2019
+ms.date: 03/24/2020
 ms.topic: function
 f1_keywords:
  - "storport/StorPortMarkDeviceFailedEx"
@@ -14,7 +14,7 @@ ms.keywords: StorPortMarkDeviceFailedEx
 req.header: storport.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -97,7 +97,7 @@ Pointer to a buffer containing critical data associated with the fault condition
 
 ## -remarks
 
-A miniport driver can call this function to mark a failed device or to indicate that the device has potentially failed. 
+A miniport driver can call this function to mark a failed device or to indicate that the device has potentially failed.
 
 If no flags are set in *Flags*, Storport will only log the event.
 
@@ -105,6 +105,6 @@ The PnP manager will send an IRP to query the failed device's PnP state. If *Fla
 
 ## -see-also
 
-[IoInvalidateDeviceState](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinvalidatedevicestate)
+[**IoInvalidateDeviceState**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioinvalidatedevicestate)
 
 [**StorPortMarkDeviceFailed**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportmarkdevicefailed)
