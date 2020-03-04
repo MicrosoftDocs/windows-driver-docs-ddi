@@ -6,7 +6,7 @@ description: The STOR_EVENT_TYPE enum identifies the type of event object initia
 tech.root: storage
 ms.assetid: f9733b74-5773-4d29-b488-656064403e6a
 ms.author: windowsdriverdev
-ms.date: 12/15/2019
+ms.date: 03/24/2020
 ms.topic: enum
 ms.keywords: STOR_EVENT_TYPE, STOR_EVENT_TYPE, *PSTOR_EVENT_TYPE, 
 req.header: storport.h
@@ -14,7 +14,7 @@ f1_keywords:
  - "storport/STOR_EVENT_TYPE"
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -38,7 +38,7 @@ targetos: Windows
 
 ## -description
 
-The STOR_EVENT_TYPE enum identifies the type of event object initialized by a miniport.
+The **STOR_EVENT_TYPE** enum identifies the type of event object initialized by a miniport.
 
 ## -enum-fields
 
@@ -52,7 +52,7 @@ The event is a synchronization event.
 
 ## -remarks
 
-A miniport initializes an event object by calling [**StorPortInitializeEvent**](nf-storport-storport_initialize_event.md), passing in a STOR_EVENT_TYPE enum to identify the type of the event object.
+A miniport initializes an event object by calling [**StorPortInitializeEvent**](nf-storport-storport_initialize_event.md), passing in a **STOR_EVENT_TYPE** enum to identify the type of the event object.
 
 ## -see-also
 

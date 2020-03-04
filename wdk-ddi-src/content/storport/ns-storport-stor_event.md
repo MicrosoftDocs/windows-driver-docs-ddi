@@ -6,7 +6,7 @@ description: The STOR_EVENT structure describes an event object.
 tech.root: storage
 ms.assetid: e97bff93-6b37-4ecb-9b3a-9a0be475ae87
 ms.author: windowsdriverdev
-ms.date: 12/15/2019
+ms.date: 03/24/2020
 ms.topic: struct
 ms.keywords: STOR_EVENT, STOR_EVENT, *PSTOR_EVENT, *PRSTOR_EVENT, 
 req.header: storport.h
@@ -14,7 +14,7 @@ f1_keywords:
  - "storport/STOR_EVENT"
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -41,21 +41,24 @@ targetos: Windows
 
 ## -description
 
-The STOR_EVENT structure describes an event object.
+The **STOR_EVENT** structure describes an event object.
 
 ## -struct-fields
 
 ### -field Header
 
-A [STOR_DISPATCHER_HEADER](ns-storport-stor_dispatcher_event.md) structure that describes <!-- is this opaque? if so, how does miniport get one that is initialized?????????????????? -->
+An opaque [**STOR_DISPATCHER_HEADER**](ns-storport-stor_dispatcher_event.md) structure that describes an event object.
 
 ## -remarks
 
-<!-- ??? -->
+Callers of [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md) must first allocate space for a **STOR_EVENT** structure.
 
 ## -see-also
 
-[STOR_DISPATCHER_HEADER](ns-storport-stor_dispatcher_event.md)
+[**KeInitializeEvent**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializeevent)
+[STOR_EVENT](ns-storport-stor_event.md)
+
+[**STOR_DISPATCHER_HEADER**](ns-storport-stor_dispatcher_event.md)
 
 [**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)
 
