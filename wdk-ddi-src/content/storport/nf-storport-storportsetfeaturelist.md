@@ -2,11 +2,11 @@
 UID: NF:storport.StorPortSetFeatureList
 title: StorPortSetFeatureList function
 author: windows-driver-content
-description: A miniport can call StorPortSetFeatureList to set the Storport features that it supports.
+description: A miniport can call StorPortSetFeatureList to set the Storport feature list that it supports.
 tech.root: storage
 ms.assetid: 1426766a-5575-42ba-8a64-53d2e6c23be7
 ms.author: windowsdriverdev
-ms.date: 12/15/2019
+ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: StorPortSetFeatureList
 req.header: storport.h
@@ -14,7 +14,7 @@ f1_keywords:
  - "storport/StorPortSetFeatureList"
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -46,7 +46,7 @@ targetos: Windows
 
 ## -description
 
-A miniport can call **StorPortSetFeatureList** to set the *StorPort* features that it supports.
+A miniport can call **StorPortSetFeatureList** to set the *StorPort* feature list that it supports.
 
 ## -parameters
 
@@ -60,11 +60,11 @@ Number of features in *FeatureList*.
 
 ### -param FeatureList
 
-List of *StorPort* features supported by the miniport. This value is based on [STORPORT_FEATURE_TYPE](ne-storport-storport_feature_type.md) enum values.
+List of *StorPort* features supported by the miniport. This value is based on [**STORPORT_FEATURE_TYPE**](ne-storport-storport_feature_type.md) enum values.
 
 ## -returns
 
-**StorPortSetFeatureList** returns one of the following status codes:
+**StorPortSetFeatureList** returns a status code such as one of the following:
 
 | Return code | Description |
 | ----------- | ----------- |
@@ -80,4 +80,4 @@ A miniport should call **StorPortSetFeatureList** for each adapter in the beginn
 
 [*HwFindAdapter*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize)
 
-[STORPORT_FEATURE_TYPE](ne-storport-storport_feature_type.md)
+[**STORPORT_FEATURE_TYPE**](ne-storport-storport_feature_type.md)

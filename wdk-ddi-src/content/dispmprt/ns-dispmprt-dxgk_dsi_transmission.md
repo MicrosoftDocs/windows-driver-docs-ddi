@@ -1,10 +1,10 @@
 ---
 UID: NS:dispmprt._DXGK_DSI_TRANSMISSION
 title: DXGK_DSI_TRANSMISSION
-ms.date: 01/30/2020
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: The DXGK_DSI_TRANSMISSION structure is used to transmit Display Serial Interface (DSI) packets to the bus driver (graphics kernel).
 tech.root: display
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: DXGK_DSI_TRANSMISSION, *PDXGK_DSI_TRANSMISSION
@@ -41,10 +41,7 @@ dev_langs:
 
 ## -description
 
-The DXGK_DSI_TRANSMISSION structure 
-
-The DXGK_DSI_CAPS structure is used to identify the MIPI Display Serial Interface (DSI) capabilities of a device.
-
+The DXGK_DSI_TRANSMISSION structure is used to transmit Display Serial Interface (DSI) packets to the bus driver (graphics kernel).
 
 ## -struct-fields
 
@@ -54,7 +51,7 @@ Number of bytes in the entire structure including header, commands and payload.
 
 ### -field PacketCount
 
-Number of [DXGK_DSI_PACKET](ns-dispmprt-dxgk_dsi_packet.md) elements in the Packets array.
+Number of [DXGK_DSI_PACKET](ns-dispmprt-dxgk_dsi_packet.md) elements in the **Packets** array.
 
 ### -field FailedPacket
 
@@ -127,10 +124,18 @@ A combination of the DXGK_HOST_DSI_* indicating the errors reported by the graph
 
 ### -field Packets
 
+Array of [**DSI_PACKET**](ns-dispmprt-dxgk_dsi_packet.md) structures.
+
 ## -remarks
 
 A DXGK_DSI_TRANSMISSION structure is provided to a graphics driver's [*DxgkDsiTransmission*](nc-dispmprt-dxgkddi_dsitransmission.md) callback function.
 
 ## -see-also
 
-[DXGK_DSI_PACKET](ns-dispmprt-dxgk_dsi_packet.md)
+[**DXGK_DSI_PACKET**](ns-dispmprt-dxgk_dsi_packet.md)
+
+[**IOCTL_MIPI_DSI_QUERY_CAPS](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_query_caps.md)
+
+[**IOCTL_MIPI_DSI_RESET**](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_reset.md)
+
+[**IOCTL_MIPI_DSI_TRANSMISSION**](..\ntddvdeo\ni-ntddvdeo-ioctl_mipi_dsi_transmission.md)

@@ -1,7 +1,7 @@
 ---
 UID: NS:dispmprt._DXGK_OPM_INTERFACE_2_JTP
 title: DXGK_OPM_INTERFACE_2_JTP
-ms.date: 01/30/2020
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -41,6 +41,8 @@ dev_langs:
 
 ## -description
 
+Use [**DXGK_OPM_INTERFACE_2**](ns-dispmprt_opm_interface_2.md) (JTP = January Technical Preview).
+
 ## -struct-fields
 
 ### -field Size
@@ -78,4 +80,3 @@ dev_langs:
 ## -remarks
 
 ## -see-also
-

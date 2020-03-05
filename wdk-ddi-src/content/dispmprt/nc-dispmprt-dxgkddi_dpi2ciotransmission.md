@@ -1,7 +1,7 @@
 ---
 UID: NC:dispmprt.DXGKDDI_DPI2CIOTRANSMISSION
 title: DXGKDDI_DPI2CIOTRANSMISSION
-ms.date: 01/30/2020
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
 description: The DXGKDDI_DPI2CIOTRANSMISSION callback performs DP I2C over AUX read/write operations on devices directly attached on GPU.
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 

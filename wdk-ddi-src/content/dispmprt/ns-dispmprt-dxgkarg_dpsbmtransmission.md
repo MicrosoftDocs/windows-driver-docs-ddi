@@ -1,7 +1,7 @@
 ---
 UID: NS:dispmprt._DXGKARG_DPSBMTRANSMISSION
 title: DXGKARG_DPSBMTRANSMISSION
-ms.date: 01/30/2020
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
 description: The DXGKARG_DPSBMTRANSMISSION structure is a parameter for the DXGKDDI_DPSBMTRANSMISSION callback.
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: DXGKARG_DPSBMTRANSMISSION, *PDXGKARG_DPSBMTRANSMISSION

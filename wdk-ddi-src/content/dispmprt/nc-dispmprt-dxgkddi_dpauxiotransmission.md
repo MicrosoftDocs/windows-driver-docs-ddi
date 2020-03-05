@@ -1,7 +1,7 @@
 ---
 UID: NC:dispmprt.DXGKDDI_DPAUXIOTRANSMISSION
 title: DXGKDDI_DPAUXIOTRANSMISSION
-ms.date: 01/30/2020
+ms.date: 03/24/2020
 ms.topic: language-reference
 tech.root: display
 targetos: Windows
@@ -13,7 +13,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -65,7 +65,7 @@ Pointer to a [DXGKARG_DPAUXIOTRANSMISSION](ns-dispmprt-dxgkarg_dpauxiotransmissi
 
 ## -remarks
 
-The write operation is not supported in Windows 10, version 2004 and should be blocked.
+Write operations are not supported in Windows 10, version 2004 and should be blocked.
 
 ## -see-also
 

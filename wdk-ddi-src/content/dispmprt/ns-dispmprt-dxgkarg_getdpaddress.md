@@ -1,7 +1,7 @@
 ---
 UID: NS:dispmprt._DXGKARG_GETDPADDRESS
 title: DXGKARG_GETDPADDRESS
-ms.date: 01/30/2020
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
 description: The DXGKARG_GETDPADDRESS structure is a parameter for the DXGKDDI_GETDPADDRESS callback.
@@ -14,7 +14,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: DXGKARG_GETDPADDRESS, *PDXGKARG_GETDPADDRESS
