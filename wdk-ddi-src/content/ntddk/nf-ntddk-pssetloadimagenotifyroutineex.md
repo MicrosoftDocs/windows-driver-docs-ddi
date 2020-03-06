@@ -117,3 +117,12 @@ The routine failed allocate a callback block due to lack of resources.
 
 
 
+## -remarks
+
+
+
+Highest-level system-profiling drivers can call <b>PsSetLoadImageNotifyRoutineEx</b> to set up their load-image notify routines (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-pload_image_notify_routine">PLOAD_IMAGE_NOTIFY_ROUTINE</a>).
+
+The maximum number of drivers that can be simultaneously registered to receive load-image notifications is 64. If the maximum number of load-image notify routines is already registered when a driver calls <b>PsSetLoadImageNotifyRoutineEx</b> to try to register an additional notify routine, <b>PsSetLoadImageNotifyRoutineEx</b> fails and returns STATUS_INSUFFICIENT_RESOURCES.
+
+A driver must remove any callbacks it registers before it unloads. You can remove the callback by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-psremoveloadimagenotifyroutine">PsRemoveLoadImageNotifyRoutine</a> routine.
