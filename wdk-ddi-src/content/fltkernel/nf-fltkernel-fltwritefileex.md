@@ -83,7 +83,7 @@ If the file object that <i>FileObject</i> points to was opened for asynchronous 
 
 ### -param Length [in]
 
-The size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. 
+The size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. If an MDL is provided in <i>Mdl</i>, then <i>Length</i> is the size of the data that MDL describes.
 
 
 ### -param Buffer [in]
