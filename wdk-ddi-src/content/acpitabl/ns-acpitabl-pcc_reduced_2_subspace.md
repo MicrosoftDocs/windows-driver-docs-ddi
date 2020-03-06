@@ -1,10 +1,10 @@
 ---
 UID: NS:acpitabl._PCC_REDUCED_2_SUBSPACE
-title: PCC_REDUCED_2_SUBSPACE
-ms.date: 11/8/2019
+title: PCC_REDUCED_2_SUBSPACE (acpitabl.h)
+ms.date: 03/06/2019
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: TBD
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -16,30 +16,32 @@ req.max-support:
 req.redist: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.target-type: 
+req.target-type: Windows
 req.typenames: PCC_REDUCED_2_SUBSPACE, *PPCC_REDUCED_2_SUBSPACE
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - acpitabl.h
+- acpitabl.h
 api_name:
- - _PCC_REDUCED_2_SUBSPACE
- - PCC_REDUCED_2_SUBSPACE
+- _PCC_REDUCED_2_SUBSPACE
+- PCC_REDUCED_2_SUBSPACE
 f1_keywords:
- - acpitabl/_PCC_REDUCED_2_SUBSPACE
- - acpitabl/PCC_REDUCED_2_SUBSPACE
+- acpitabl/_PCC_REDUCED_2_SUBSPACE
+- acpitabl/PCC_REDUCED_2_SUBSPACE
 dev_langs:
- - c++
+- c++
  product:
 - Windows
 targetos: Windows
 ---
 
 ## -description
+
+TBD
 
 ## -struct-fields
 
@@ -53,9 +55,13 @@ targetos: Windows
 
 ### -field Reserved1
 
+Reserved for future use.
+
 ### -field PlatformInterruptFlags
 
 ### -field Reserved2
+
+Reserved for future use.
 
 ### -field BaseAddress
 

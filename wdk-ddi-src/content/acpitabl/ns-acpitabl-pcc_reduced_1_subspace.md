@@ -1,10 +1,10 @@
 ---
 UID: NS:acpitabl._PCC_REDUCED_1_SUBSPACE
-title: PCC_REDUCED_1_SUBSPACE
-ms.date: 02/26/2020
+title: PCC_REDUCED_1_SUBSPACE (acpitabl.h)
+ms.date: 03/06/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+description: TBD
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -16,7 +16,7 @@ req.max-support:
 req.redist: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
-req.target-type: 
+req.target-type: Windows
 req.typenames: PCC_REDUCED_1_SUBSPACE, *PPCC_REDUCED_1_SUBSPACE
 req.umdf-ver: 
 req.unicode-ansi: 
@@ -41,6 +41,8 @@ targetos: Windows
 
 ## -description
 
+TBD
+
 ## -struct-fields
 
 ### -field Header
@@ -53,9 +55,13 @@ targetos: Windows
 
 ### -field Reserved1
 
+Reserved for future use.
+
 ### -field PlatformInterruptFlags
 
 ### -field Reserved2
+
+Reserved for future use.
 
 ### -field BaseAddress
 

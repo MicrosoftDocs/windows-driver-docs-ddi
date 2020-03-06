@@ -5,10 +5,13 @@ description: Defines an information entry for a secure ACPI device for use in a 
 old-location: acpi\sdev_secure_acpi_info_entry.htm
 tech.root: acpi
 ms.assetid: A3FDE9B0-DD6E-4FF5-AD9A-7DF7BF276EFA
-ms.date: 02/15/2018
+ms.date: 03/06/2020
 ms.keywords: "*PSDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY structure pointer [ACPI Devices], SDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY structure [ACPI Devices], _SDEV_SECURE_ACPI_INFO_ENTRY, acpi.sdev_secure_acpi_info_entry, acpitabl/PSDEV_SECURE_ACPI_INFO_ENTRY, acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY"
 f1_keywords:
- - "acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY"
+ - acpitabl/_SDEV_SECURE_ACPI_INFO_ENTRY
+ - acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY
+dev_langs:
+ - c++
 req.header: acpitabl.h
 req.include-header: Acpitabl.h
 req.target-type: Windows
@@ -34,7 +37,8 @@ api_type:
 api_location:
 - acpitabl.h
 api_name:
-- SDEV_SECURE_ACPI_INFO_ENTRY
+ - _SDEV_SECURE_ACPI_INFO_ENTRY
+ - SDEV_SECURE_ACPI_INFO_ENTRY
 product:
 - Windows
 targetos: Windows
@@ -43,39 +47,40 @@ req.typenames: SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY
 
 # _SDEV_SECURE_ACPI_INFO_ENTRY structure
 
-
 ## -description
-
 
 Defines an information entry for a secure ACPI device for use in a secure device table.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Header
 
-A header. 
-
+A header.
 
 ### -field IdentifierOffset
 
 An identifier offset value.
 
-
 ### -field IdentifierLength
 
 The length of the identifier.
-
 
 ### -field VendorInfoOffset
 
 A vendor information offset value.
 
-
 ### -field VendorInfoLength
 
-The length of the vendor information. 
+The length of the vendor information.
 
+### -field SecureResourcesOffset
+
+TBD
+
+### -field SecureResourcesLength
+
+TBD
+
+## -remarks
+
+## -see-also
