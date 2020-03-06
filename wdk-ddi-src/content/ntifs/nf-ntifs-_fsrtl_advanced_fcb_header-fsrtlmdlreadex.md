@@ -80,7 +80,7 @@ A value that is associated with the byte range to lock. If the range to lock ove
 
 ### -param MdlChain [out]
 
-On output, a pointer to a linked list of memory descriptor lists (MDLs).
+An address of a variable that receives a pointer to a linked list of memory descriptor lists (MDLs). *MdlChain* must be initialized to **NULL** before the call to **FsRtlMdlReadEx**.
 
 
 ### -param IoStatus [out]
