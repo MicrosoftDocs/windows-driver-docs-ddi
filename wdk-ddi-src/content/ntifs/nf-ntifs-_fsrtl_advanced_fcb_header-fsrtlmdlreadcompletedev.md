@@ -1,12 +1,12 @@
 ---
 UID: NF:ntifs.FsRtlMdlReadCompleteDev
 title: FsRtlMdlReadCompleteDev function (ntifs.h)
-description: The FltFastIoMdlReadComplete routine completes the read operation that the FltFastIoMdlRead routine initiated.
-old-location: ifsk\fltfastiomdlreadcomplete.htm
+description: The FsRtlMdlReadCompleteDev routine completes the read operation that the FsRtlMdlReadDev routine initiated.
+old-location: ifsk\fsrtlmdlreadcompletedev.htm
 tech.root: ifsk
 ms.assetid: 6F5E808C-9E35-4BE8-AE67-FDD354D6FD0E
 ms.date: 04/16/2018
-ms.keywords: FltFastIoMdlReadComplete, FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadCompleteDev, ifsk.fltfastiomdlreadcomplete
+ms.keywords: FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], ntifs/FsRtlMdlReadCompleteDev, ifsk.fsrtlmdlreadcompletedev
 f1_keywords:
  - "ntifs/FsRtlMdlReadCompleteDev"
 req.header: ntifs.h
@@ -50,7 +50,7 @@ ms.custom: RS5
 ## -description
 
 
-The <b>FltFastIoMdlReadComplete</b> routine completes the read operation that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a> routine initiated.
+The <b>FsRtlMdlReadCompleteDev</b> routine completes the read operation that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FsRtlMdlReadDev</a> routine initiated.
 
 
 ## -parameters
@@ -68,9 +68,9 @@ A pointer to the file object.
 On return, a pointer to a linked list of one or more MDLs that point to the cached file data.
 
 
-### -param DeviceObject
+### -param DeviceObject [ in, optional ]
 
-<p>On return, a pointer to a linked list of one or more MDLs that point to the cached file data.</p>
+A pointer to a device object on which the file is opened.
 
 
 
@@ -88,7 +88,7 @@ None
 
 
 
-The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a> routine allocated.
+The <b>FsRtlMdlReadCompleteDev</b> routine unlocks the pages in cache memory that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FsRtlMdlReadDev</a> routine allocated.
 
 
 
@@ -98,7 +98,7 @@ The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FsRtlMdlReadDev</a>
  
 
  
