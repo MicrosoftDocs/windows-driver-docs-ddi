@@ -86,6 +86,13 @@ Defines values for power transitions reasons for a monitor.
 ### -field MonitorRequestReasonPdcSignalFingerprint : 
 ### -field MonitorRequestReasonDirectedDrips :
 ### -field MonitorRequestReasonMax : 
+### -field MonitorRequestReasonDim :
+### -field MonitorRequestReasonBuiltinPanel :
+### -field MonitorRequestReasonDisplayRequiredUnDim :
+### -field MonitorRequestReasonBatteryCountChangeSuppressed :
+### -field MonitorRequestReasonResumeModernStandby :
+### -field MonitorRequestReasonTerminalInit :
+
 
 ## -remarks
 
