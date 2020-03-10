@@ -1,9 +1,8 @@
 ---
 UID: NS:acpitabl._PCC_REDUCED_1_SUBSPACE
-title: PCC_REDUCED_1_SUBSPACE (acpitabl.h)
-ms.date: 03/06/2020
+title: _PCC_REDUCED_1_SUBSPACE (acpitabl.h)
+ms.date: 03/10/2020
 ms.topic: language-reference
-targetos: Windows
 description: TBD
 req.construct-type: structure
 req.ddi-compliance: 
