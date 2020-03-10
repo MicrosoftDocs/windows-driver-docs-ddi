@@ -3,36 +3,38 @@ UID: NS:acpitabl._PCC_REDUCED_1_SUBSPACE
 title: _PCC_REDUCED_1_SUBSPACE (acpitabl.h)
 ms.date: 03/10/2020
 ms.topic: language-reference
-description: TBD
+ms.keywords: _PCC_REDUCED_1_SUBSPACE, PCC_REDUCED_1_SUBSPACE, *PPCC_REDUCED_1_SUBSPACE
+description:
+tech.root: acpi
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: acpitabl.h
-req.include-header: 
+req.include-header: Acpitabl.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: Windows
 req.typenames: PCC_REDUCED_1_SUBSPACE, *PPCC_REDUCED_1_SUBSPACE
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - acpitabl.h
+- acpitabl.h
 api_name:
- - _PCC_REDUCED_1_SUBSPACE
- - PCC_REDUCED_1_SUBSPACE
+- _PCC_REDUCED_1_SUBSPACE
+- PCC_REDUCED_1_SUBSPACE
 f1_keywords:
- - acpitabl/_PCC_REDUCED_1_SUBSPACE
- - acpitabl/PCC_REDUCED_1_SUBSPACE
+- acpitabl/_PCC_REDUCED_1_SUBSPACE
+- acpitabl/PCC_REDUCED_1_SUBSPACE
 dev_langs:
- - c++
+- c++
 product:
 - Windows
 targetos: Windows

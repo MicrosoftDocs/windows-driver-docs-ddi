@@ -1,19 +1,21 @@
 ---
 UID: NS:acpitabl._PCC_REDUCED_2_SUBSPACE
-title: PCC_REDUCED_2_SUBSPACE (acpitabl.h)
+title: _PCC_REDUCED_2_SUBSPACE (acpitabl.h)
 ms.date: 03/10/2019
 ms.topic: language-reference
-description: TBD
+ms.keywords: _PCC_REDUCED_2_SUBSPACE, PCC_REDUCED_2_SUBSPACE, *PPCC_REDUCED_2_SUBSPACE
+description:
+tech.root: acpi
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: acpitabl.h
-req.include-header: 
+req.include-header: Acpitabl.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: Windows
 req.typenames: PCC_REDUCED_2_SUBSPACE, *PPCC_REDUCED_2_SUBSPACE

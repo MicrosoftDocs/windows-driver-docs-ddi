@@ -15,7 +15,7 @@ dev_langs:
 req.header: acpitabl.h
 req.include-header: Acpitabl.h
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -37,8 +37,8 @@ api_type:
 api_location:
 - acpitabl.h
 api_name:
- - _SDEV_SECURE_ACPI_INFO_ENTRY
- - SDEV_SECURE_ACPI_INFO_ENTRY
+- _SDEV_SECURE_ACPI_INFO_ENTRY
+- SDEV_SECURE_ACPI_INFO_ENTRY
 product:
 - Windows
 targetos: Windows

@@ -1,22 +1,23 @@
 ---
 UID: NS:acpitabl._SDEV_SECURE_RESOURCE_ID_ENTRY
-title: SDEV_SECURE_RESOURCE_ID_ENTRY (acpitabl.h)
-ms.date: 03/06/2020
+title: _SDEV_SECURE_RESOURCE_ID_ENTRY (acpitabl.h)
+ms.date: 03/10/2020
 ms.topic: language-reference
-targetos: Windows
-description: TBD
+ms.keywords: _SDEV_SECURE_RESOURCE_ID_ENTRY, SDEV_SECURE_RESOURCE_ID_ENTRY, *PSDEV_SECURE_RESOURCE_ID_ENTRY
+description:
+tech.root: acpi
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: acpitabl.h
-req.include-header: 
+req.include-header: Acpitabl.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
-req.target-type: 
+req.target-type: Windows
 req.typenames: SDEV_SECURE_RESOURCE_ID_ENTRY, *PSDEV_SECURE_RESOURCE_ID_ENTRY
 req.umdf-ver: 
 req.unicode-ansi: 
@@ -34,7 +35,7 @@ f1_keywords:
 - acpitabl/SDEV_SECURE_RESOURCE_ID_ENTRY
 dev_langs:
 - c++
- product:
+product:
 - Windows
 targetos: Windows
 ---
