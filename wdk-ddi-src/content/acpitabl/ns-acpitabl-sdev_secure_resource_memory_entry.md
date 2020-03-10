@@ -1,9 +1,8 @@
 ---
 UID: NS:acpitabl._SDEV_SECURE_RESOURCE_MEMORY_ENTRY
 title: SDEV_SECURE_RESOURCE_MEMORY_ENTRY (acpitabl.h)
-ms.date: 03/06/2020
+ms.date: 03/10/2020
 ms.topic: language-reference
-targetos: Windows
 description: TBD
 req.construct-type: structure
 req.ddi-compliance: 
@@ -34,7 +33,7 @@ f1_keywords:
 - acpitabl/SDEV_SECURE_RESOURCE_MEMORY_ENTRY
 dev_langs:
 - c++
- product:
+product:
 - Windows
 targetos: Windows
 ---

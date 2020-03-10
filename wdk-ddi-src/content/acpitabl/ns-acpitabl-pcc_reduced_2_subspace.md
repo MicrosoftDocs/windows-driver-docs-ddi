@@ -1,9 +1,8 @@
 ---
 UID: NS:acpitabl._PCC_REDUCED_2_SUBSPACE
 title: PCC_REDUCED_2_SUBSPACE (acpitabl.h)
-ms.date: 03/06/2019
+ms.date: 03/10/2019
 ms.topic: language-reference
-targetos: Windows
 description: TBD
 req.construct-type: structure
 req.ddi-compliance: 
@@ -34,7 +33,7 @@ f1_keywords:
 - acpitabl/PCC_REDUCED_2_SUBSPACE
 dev_langs:
 - c++
- product:
+product:
 - Windows
 targetos: Windows
 ---
