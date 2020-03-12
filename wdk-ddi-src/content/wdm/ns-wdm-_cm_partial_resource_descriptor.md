@@ -1117,6 +1117,8 @@ Contains the upper 32 bits of the 64-bit connection ID.
 
 A <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure can describe either a raw (bus-relative) resource or a translated (system physical) resource, depending on the routine or IRP with which it is being used. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/raw-and-translated-resources">Raw and Translated Resources</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a>.
 
+There can only be *1* **DeviceSpecificData** block. It must be located at the end of all resource descriptors in a full descriptor block.
+
 
 
 
