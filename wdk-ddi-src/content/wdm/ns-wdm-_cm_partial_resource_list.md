@@ -81,6 +81,10 @@ The first element in an array of one or more <a href="https://docs.microsoft.com
 
 This structure is the header for an array of <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structures. The <b>PartialDescriptors</b> member contains the first element in this array, and the <b>Count</b> member specifies the total number of array elements. If the array contains more than one element, the remaining elements in the array immediately follow the <b>CM_PARTIAL_RESOURCE_LIST</b> structure in memory. The total number of bytes occupied by the <b>CM_PARTIAL_RESOURCE_LIST</b> structure and any array elements that follow this structure is <b>sizeof</b>(<b>CM_PARTIAL_RESOURCE_LIST</b>) + (<b>Count</b> - 1) * <b>sizeof</b>(<b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b>).
 
+> [!NOTE]
+> If the last <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> in the <b>CM_PARTIAL_RESOURCE_LIST</b> has a Type of **CmResourceTypeDeviceSpecific**, then you need to add the size of the device specific data block to the total above.
+> 
+
 
 
 
