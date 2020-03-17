@@ -426,7 +426,7 @@ Type of page protection requested for the section. Must be zero if <i>SyncType</
 
 </td>
 <td>
-A [FS_FILTER_SECTION_SYNC_OUTPUT](ns-ntifs-_fs_filter_section_sync_output.md) structure that contains the extended output information for the section.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fs_filter_section_sync_output">FS_FILTER_SECTION_SYNC_OUTPUT</a> structure that contains the extended output information for the section.
 </ul>
 
 
