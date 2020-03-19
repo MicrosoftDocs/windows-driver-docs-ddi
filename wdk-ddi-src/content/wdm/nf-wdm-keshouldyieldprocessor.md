@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# KeShouldYieldProcessor function
+
 ## -description
 
 This function advises the caller if it should break out of a work loop running at DISPATCH_LEVEL or higher to allow other processing to take place.

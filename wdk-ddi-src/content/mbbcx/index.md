@@ -12,3 +12,5 @@ product:
 - Windows
 ms.custom: RS5
 ---
+
+# Mbbcx.h header

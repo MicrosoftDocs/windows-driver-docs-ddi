@@ -12,3 +12,5 @@ product:
 - Windows
 ms.custom: RS5
 ---
+
+# Math3dhelper.h header
