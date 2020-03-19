@@ -6,6 +6,7 @@ old-location: stream\kstrallocateframe.htm
 tech.root: stream
 ms.assetid: 1b6eec23-82b4-4e8f-89d0-e76d6449906e
 ms.date: 04/23/2018
+keywords: ["PFNALLOCATOR_ALLOCATEFRAME callback function"]
 ms.keywords: KStrAllocateFrame, KStrAllocateFrame routine [Streaming Media Devices], PFNALLOCATOR_ALLOCATEFRAME, ks/KStrAllocateFrame, ksfunc_a90af96e-53df-43f5-b847-ba1876b788fd.xml, stream.kstrallocateframe
 f1_keywords:
  - "ks/KStrAllocateFrame"

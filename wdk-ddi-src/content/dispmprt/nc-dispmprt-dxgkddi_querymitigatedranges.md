@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 80e889c4-cf80-4556-b3c8-643cdf21995e
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["DXGKDDI_QUERYMITIGATEDRANGES callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_QUERYMITIGATEDRANGES"
 req.header: dispmprt.h

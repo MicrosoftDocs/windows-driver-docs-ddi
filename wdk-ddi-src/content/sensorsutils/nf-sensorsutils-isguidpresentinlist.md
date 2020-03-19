@@ -4,6 +4,7 @@ title: IsGUIDPresentInList function (sensorsutils.h)
 description: This routine looks for a GUID in a list of GUIDs.
 ms.assetid: e6209d36-e01c-4922-9dfa-c3e41eb0285e
 ms.date: 08/08/2018
+keywords: ["IsGUIDPresentInList function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/IsGUIDPresentInList"

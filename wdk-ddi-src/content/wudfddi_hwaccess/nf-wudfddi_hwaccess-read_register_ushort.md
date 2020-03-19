@@ -6,6 +6,7 @@ old-location: wdf\read_register_ushort.htm
 tech.root: wdf
 ms.assetid: 75DDFC2A-EF7F-4652-B0D0-8BF1583B3679
 ms.date: 02/26/2018
+keywords: ["READ_REGISTER_USHORT function"]
 ms.keywords: READ_REGISTER_USHORT, READ_REGISTER_USHORT function, umdf.read_register_ushort, wdf.read_register_ushort, wudfddi_hwaccess/READ_REGISTER_USHORT
 f1_keywords:
  - "wudfddi_hwaccess/READ_REGISTER_USHORT"

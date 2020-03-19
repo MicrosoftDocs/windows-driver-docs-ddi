@@ -5,6 +5,7 @@ description: Specifies a tiled region.
 old-location: display\d3dwddm1_3ddi_tile_region_size.htm
 ms.assetid: 276ED4AC-15D9-4550-AC51-83320DE9D5B2
 ms.date: 05/10/2018
+keywords: ["D3DWDDM1_3DDI_TILE_REGION_SIZE structure"]
 ms.keywords: D3DWDDM1_3DDI_TILE_REGION_SIZE, D3DWDDM1_3DDI_TILE_REGION_SIZE structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_TILE_REGION_SIZE, display.d3dwddm1_3ddi_tile_region_size
 f1_keywords:
  - "d3d10umddi/D3DWDDM1_3DDI_TILE_REGION_SIZE"

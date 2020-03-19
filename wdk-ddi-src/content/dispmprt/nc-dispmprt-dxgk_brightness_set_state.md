@@ -6,6 +6,7 @@ old-location: display\dxgkddisetbrightnessstate.htm
 tech.root: display
 ms.assetid: 804046ff-0cc7-4ff0-be07-b574cb40fd2b
 ms.date: 05/10/2018
+keywords: ["DXGK_BRIGHTNESS_SET_STATE callback function"]
 ms.keywords: DXGK_BRIGHTNESS_SET_STATE, DXGK_BRIGHTNESS_SET_STATE callback, DxgkDdiSetBrightnessState, DxgkDdiSetBrightnessState callback function [Display Devices], display.dxgkddisetbrightnessstate, dispmprt/DxgkDdiSetBrightnessState
 f1_keywords:
  - "dispmprt/DxgkDdiSetBrightnessState"

@@ -6,6 +6,7 @@ old-location: kernel\dma_adapter_info_v1.htm
 tech.root: kernel
 ms.assetid: 5BB089B8-4384-450D-BC81-9D9D068CF4EB
 ms.date: 04/30/2018
+keywords: ["_DMA_ADAPTER_INFO_V1 structure"]
 ms.keywords: "*PDMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1 structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO_V1, PDMA_ADAPTER_INFO_V1 structure pointer [Kernel-Mode Driver Architecture], _DMA_ADAPTER_INFO_V1, kernel.dma_adapter_info_v1, wdm/DMA_ADAPTER_INFO_V1, wdm/PDMA_ADAPTER_INFO_V1"
 f1_keywords:
  - "wdm/DMA_ADAPTER_INFO_V1"

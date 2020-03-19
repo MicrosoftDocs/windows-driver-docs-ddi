@@ -6,6 +6,7 @@ old-location: storage\ataportrequestpowerstatechange.htm
 tech.root: storage
 ms.assetid: 37cf1552-2cbe-4b80-b220-cfa853674e1b
 ms.date: 03/29/2018
+keywords: ["AtaPortRequestPowerStateChange function"]
 ms.keywords: AtaPortRequestPowerStateChange, AtaPortRequestPowerStateChange routine [Storage Devices], irb/AtaPortRequestPowerStateChange, storage.ataportrequestpowerstatechange
 f1_keywords:
  - "irb/AtaPortRequestPowerStateChange"

@@ -6,6 +6,7 @@ old-location: kernel\psgetcurrentsilo.htm
 tech.root: kernel
 ms.assetid: 535D7611-8C86-44CF-964C-731882A3AF69
 ms.date: 04/30/2018
+keywords: ["PsGetCurrentSilo function"]
 ms.keywords: PsGetCurrentSilo, PsGetCurrentSilo routine [Kernel-Mode Driver Architecture], kernel.psgetcurrentsilo, ntddk/PsGetCurrentSilo
 f1_keywords:
  - "ntddk/PsGetCurrentSilo"

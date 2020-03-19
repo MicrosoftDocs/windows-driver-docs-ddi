@@ -6,6 +6,7 @@ old-location: devtest\wpprecordergettriageinfo.htm
 tech.root: devtest
 ms.assetid: D2790496-1F86-4EF0-8AFE-77AC0C89EE05
 ms.date: 02/23/2018
+keywords: ["imp_WppRecorderGetTriageInfo function"]
 ms.keywords: devtest.wpprecordergettriageinfo, imp_WppRecorderGetTriageInfo, imp_WppRecorderGetTriageInfo function [Driver Development Tools], wpprecorder/imp_WppRecorderGetTriageInfo
 f1_keywords:
  - "wpprecorder/imp_WppRecorderGetTriageInfo"

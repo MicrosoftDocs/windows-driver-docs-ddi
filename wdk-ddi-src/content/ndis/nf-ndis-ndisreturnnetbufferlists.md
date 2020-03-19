@@ -6,6 +6,7 @@ old-location: netvista\ndisreturnnetbufferlists.htm
 tech.root: netvista
 ms.assetid: 1a45bc5c-cdc1-46d2-905b-3d5eea3645c1
 ms.date: 05/02/2018
+keywords: ["NdisReturnNetBufferLists function"]
 ms.keywords: NdisReturnNetBufferLists, NdisReturnNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisReturnNetBufferLists, ndis_sendrcv_ref_9c5a4908-356f-4e7c-9351-4fec4358180d.xml, netvista.ndisreturnnetbufferlists
 f1_keywords:
  - "ndis/NdisReturnNetBufferLists"

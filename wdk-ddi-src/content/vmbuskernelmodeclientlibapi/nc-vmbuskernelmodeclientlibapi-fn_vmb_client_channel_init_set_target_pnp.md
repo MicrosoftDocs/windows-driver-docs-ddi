@@ -5,6 +5,7 @@ description: The VmbClientChannelInitSetTargetPnp function sets a client channel
 tech.root: netvista
 ms.assetid: 0c201a5e-9e06-4cab-a062-b6c9aab7ec40
 ms.date: 05/22/2018
+keywords: ["FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CLIENT_CHANNEL_INIT_SET_TARGET_PNP"
 req.header: vmbuskernelmodeclientlibapi.h

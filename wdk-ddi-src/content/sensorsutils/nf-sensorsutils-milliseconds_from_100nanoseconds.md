@@ -4,6 +4,7 @@ title: MILLISECONDS_FROM_100NANOSECONDS macro (sensorsutils.h)
 description: This macro converts time, provided as 100 nanosecond units, to milliseconds.
 ms.assetid: a66ce3f6-0106-4f9b-8bd0-599d51e53fe6
 ms.date: 11/13/2018
+keywords: ["MILLISECONDS_FROM_100NANOSECONDS macro"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/MILLISECONDS_FROM_100NANOSECONDS"

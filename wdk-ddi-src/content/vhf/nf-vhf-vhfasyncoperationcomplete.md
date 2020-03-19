@@ -6,6 +6,7 @@ old-location: hid\_vhfasyncoperationcomplete.htm
 tech.root: hid
 ms.assetid: F28E6FC0-C2FE-4119-82D9-C38289340D3D
 ms.date: 04/30/2018
+keywords: ["VhfAsyncOperationComplete function"]
 ms.keywords: VhfAsyncOperationComplete, VhfAsyncOperationComplete method [Human Input Devices], hid._vhfasyncoperationcomplete, vhf/VhfAsyncOperationComplete
 f1_keywords:
  - "vhf/VhfAsyncOperationComplete"

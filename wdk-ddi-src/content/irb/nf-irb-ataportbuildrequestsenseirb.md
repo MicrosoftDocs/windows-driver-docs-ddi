@@ -6,6 +6,7 @@ old-location: storage\ataportbuildrequestsenseirb.htm
 tech.root: storage
 ms.assetid: f5083841-a6d7-4437-9941-bd7dca2f1771
 ms.date: 03/29/2018
+keywords: ["AtaPortBuildRequestSenseIrb function"]
 ms.keywords: AtaPortBuildRequestSenseIrb, AtaPortBuildRequestSenseIrb routine [Storage Devices], atartns_82b5c3cd-1956-47a0-9c05-cd18dbb2e2b6.xml, irb/AtaPortBuildRequestSenseIrb, storage.ataportbuildrequestsenseirb
 f1_keywords:
  - "irb/AtaPortBuildRequestSenseIrb"

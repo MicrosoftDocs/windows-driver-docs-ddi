@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_extensionexecute.htm
 tech.root: display
 ms.assetid: adc3e8a0-b261-47dc-ada2-bd21cb3ca954
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_EXTENSIONEXECUTE structure"]
 ms.keywords: D3DDDIARG_EXTENSIONEXECUTE, D3DDDIARG_EXTENSIONEXECUTE structure [Display Devices], UMDisplayDriver_param_Structs_99780923-fb21-4c84-bced-973ebfe44b1a.xml, _D3DDDIARG_EXTENSIONEXECUTE, d3dumddi/D3DDDIARG_EXTENSIONEXECUTE, display.d3dddiarg_extensionexecute
 f1_keywords:
  - "d3dumddi/D3DDDIARG_EXTENSIONEXECUTE"

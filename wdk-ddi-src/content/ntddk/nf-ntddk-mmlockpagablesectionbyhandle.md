@@ -6,6 +6,7 @@ old-location: kernel\mmlockpagablesectionbyhandle.htm
 tech.root: kernel
 ms.assetid: d2e50d98-1c25-4ed6-98eb-0fb7e71fda55
 ms.date: 04/30/2018
+keywords: ["MmLockPagableSectionByHandle function"]
 ms.keywords: MmLockPagableSectionByHandle, MmLockPagableSectionByHandle routine [Kernel-Mode Driver Architecture], k106_9c5e1e9c-8382-4082-a3ac-5985224c8b2a.xml, kernel.mmlockpagablesectionbyhandle, ntddk/MmLockPagableSectionByHandle
 f1_keywords:
  - "ntddk/MmLockPagableSectionByHandle"

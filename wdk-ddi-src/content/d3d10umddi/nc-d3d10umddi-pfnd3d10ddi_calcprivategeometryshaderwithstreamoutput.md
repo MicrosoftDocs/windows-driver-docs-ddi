@@ -5,6 +5,7 @@ description: The CalcPrivateGeometryShaderWithStreamOutput function determines t
 old-location: display\calcprivategeometryshaderwithstreamoutput.htm
 ms.assetid: 3e760b93-e859-4175-a24a-6bf3648db6db
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT callback function"]
 ms.keywords: CalcPrivateGeometryShaderWithStreamOutput, CalcPrivateGeometryShaderWithStreamOutput callback function [Display Devices], PFND3D10DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT, PFND3D10DDI_CALCPRIVATEGEOMETRYSHADERWITHSTREAMOUTPUT callback, UserModeDisplayDriverDx10_Functions_f35bbbad-dd97-4149-9bb6-75c6ea2b7cdc.xml, d3d10umddi/CalcPrivateGeometryShaderWithStreamOutput, display.calcprivategeometryshaderwithstreamoutput
 f1_keywords:
  - "d3d10umddi/CalcPrivateGeometryShaderWithStreamOutput"

@@ -6,6 +6,7 @@ old-location: netvista\npdbrokeracquirewithtimeout.htm
 tech.root: netvista
 ms.assetid: D2067A72-0FF5-4D77-A1F6-0A6984A1735A
 ms.date: 05/02/2018
+keywords: ["NpdBrokerAcquireWithTimeout function"]
 ms.keywords: NpdBrokerAcquireWithTimeout, NpdBrokerAcquireWithTimeout function [Network Drivers Starting with Windows Vista], knetpwrdepbroker/NpdBrokerAcquireWithTimeout, netvista.npdbrokeracquirewithtimeout
 f1_keywords:
  - "knetpwrdepbroker/NpdBrokerAcquireWithTimeout"

@@ -6,6 +6,7 @@ old-location: image\istidevice_rawreaddata.htm
 tech.root: image
 ms.assetid: b4510fac-839b-4744-9525-2bf96c5c724e
 ms.date: 05/03/2018
+keywords: ["IStiDevice::RawReadData"]
 ms.keywords: IStiDevice interface [Imaging Devices],RawReadData method, IStiDevice.RawReadData, IStiDevice::RawReadData, RawReadData, RawReadData method [Imaging Devices], RawReadData method [Imaging Devices],IStiDevice interface, image.istidevice_rawreaddata, sti/IStiDevice::RawReadData, stifnc_cbd37004-cf03-4a49-9422-374e01abe376.xml
 f1_keywords:
  - "sti/IStiDevice.RawReadData"

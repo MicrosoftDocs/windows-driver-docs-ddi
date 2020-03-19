@@ -4,6 +4,7 @@ title: IDebugHostEvaluator2::EvaluateExpression (dbgmodel.h)
 description: The EvaluateExpression method allows requests the debug host to evaluate a language (e.g C++) expression and return the resulting value of that expression evaluation boxed as an IModelObject.
 ms.assetid: ef3b0ddd-cc66-468a-a793-f47329be68ee
 ms.date: 09/12/2018
+keywords: ["IDebugHostEvaluator2::EvaluateExpression"]
 f1_keywords:
  - "dbgmodel/IDebugHostEvaluator2.EvaluateExpression"
 ms.keywords: IDebugHostEvaluator2::EvaluateExpression, EvaluateExpression, IDebugHostEvaluator2.EvaluateExpression, IDebugHostEvaluator2::EvaluateExpression, IDebugHostEvaluator2.EvaluateExpression

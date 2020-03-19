@@ -6,6 +6,7 @@ old-location: kernel\iogetcurrentirpstacklocation.htm
 tech.root: kernel
 ms.assetid: 75144188-728b-4613-ac69-8cadf0f60233
 ms.date: 04/30/2018
+keywords: ["IoGetCurrentIrpStackLocation function"]
 ms.keywords: IoGetCurrentIrpStackLocation, IoGetCurrentIrpStackLocation routine [Kernel-Mode Driver Architecture], k104_f92e53c7-8a26-4cb0-859b-b0a7be4dce6a.xml, kernel.iogetcurrentirpstacklocation, wdm/IoGetCurrentIrpStackLocation
 f1_keywords:
  - "wdm/IoGetCurrentIrpStackLocation"

@@ -6,6 +6,7 @@ old-location: netvista\ndismgetvirtualfunctionlocation.htm
 tech.root: netvista
 ms.assetid: 772A7763-67C0-4218-8C5F-23972475D2C9
 ms.date: 05/02/2018
+keywords: ["NdisMGetVirtualFunctionLocation function"]
 ms.keywords: NdisMGetVirtualFunctionLocation, NdisMGetVirtualFunctionLocation function [Network Drivers Starting with Windows Vista], ndis/NdisMGetVirtualFunctionLocation, netvista.ndismgetvirtualfunctionlocation
 f1_keywords:
  - "ndis/NdisMGetVirtualFunctionLocation"

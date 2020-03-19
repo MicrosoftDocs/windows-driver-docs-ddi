@@ -6,6 +6,7 @@ old-location: image\wia_property_context.htm
 tech.root: image
 ms.assetid: afe92cb5-519a-46a3-a66d-c01b6a2c780b
 ms.date: 05/03/2018
+keywords: ["_WIA_PROPERTY_CONTEXT structure"]
 ms.keywords: "*PWIA_PROPERTY_CONTEXT, PWIA_PROPERTY_CONTEXT, PWIA_PROPERTY_CONTEXT structure pointer [Imaging Devices], WIA_PROPERTY_CONTEXT, WIA_PROPERTY_CONTEXT structure [Imaging Devices], _WIA_PROPERTY_CONTEXT, image.wia_property_context, wiamindr_lh/PWIA_PROPERTY_CONTEXT, wiamindr_lh/WIA_PROPERTY_CONTEXT, wiastrct_044e9a49-3276-42f5-a903-d21969cf6168.xml"
 f1_keywords:
  - "wiamindr_lh/WIA_PROPERTY_CONTEXT"

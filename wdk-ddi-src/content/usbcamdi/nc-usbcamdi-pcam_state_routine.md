@@ -6,6 +6,7 @@ old-location: stream\camrestorestate.htm
 tech.root: stream
 ms.assetid: 9a69cace-11cc-4671-9e7c-df510cbdd16d
 ms.date: 04/23/2018
+keywords: ["PCAM_STATE_ROUTINE callback function"]
 ms.keywords: CamRestoreState, CamSaveState, MyCamState, MyCamState callback function [Streaming Media Devices], PCAM_STATE_ROUTINE, PCAM_STATE_ROUTINE callback, stream.camrestorestate, usbcamdi/MyCamState, usbcmdpr_74c8ba54-9be6-4512-a498-b49635db1760.xml
 f1_keywords:
  - "usbcamdi/MyCamState"

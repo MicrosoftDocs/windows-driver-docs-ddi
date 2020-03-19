@@ -5,6 +5,7 @@ description: The DxgkDdiRecommendMonitorModes function inspects the monitor sour
 old-location: display\dxgkddirecommendmonitormodes.htm
 ms.assetid: 1fa29ab6-1faa-4be6-ae87-4cac9057471d
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_RECOMMENDMONITORMODES callback function"]
 ms.keywords: DXGKDDI_RECOMMENDMONITORMODES, DXGKDDI_RECOMMENDMONITORMODES callback, DmFunctions_0e8f1382-ec41-4953-8e1e-f2a5121acc0c.xml, DxgkDdiRecommendMonitorModes, DxgkDdiRecommendMonitorModes callback function [Display Devices], d3dkmddi/DxgkDdiRecommendMonitorModes, display.dxgkddirecommendmonitormodes
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

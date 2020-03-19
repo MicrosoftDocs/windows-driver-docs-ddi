@@ -6,6 +6,7 @@ old-location: netvista\rildisplayinfotype.htm
 tech.root: netvista
 ms.assetid: 0da424f5-2970-497c-8965-af627fd582ff
 ms.date: 05/02/2018
+keywords: ["RILDISPLAYINFOTYPE enumeration"]
 ms.keywords: RILDISPLAYINFOTYPE, RILDISPLAYINFOTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rildisplayinfotype, ntddrilapitypes/RILDISPLAYINFOTYPE
 f1_keywords:
  - "ntddrilapitypes/RILDISPLAYINFOTYPE"

@@ -5,6 +5,7 @@ description: The GetClockRegister method retrieves the information that the port
 tech.root: audio
 ms.assetid: d580f894-d73b-4dd5-aab6-e659988b9bbe
 ms.date: 10/31/2018
+keywords: ["IMiniportWaveRTStream::GetClockRegister"]
 f1_keywords:
  - "portcls/IMiniportWaveRTStream.GetClockRegister"
 ms.keywords: IMiniportWaveRTStream::GetClockRegister, GetClockRegister, IMiniportWaveRTStream.GetClockRegister, IMiniportWaveRTStream::GetClockRegister, IMiniportWaveRTStream.GetClockRegister

@@ -6,6 +6,7 @@ old-location: ifsk\rtlsetthreadplaceholdercompatibilitymode.htm
 tech.root: ifsk
 ms.assetid: 0EA209B7-20B9-418F-AD29-83520ED27DAB
 ms.date: 04/16/2018
+keywords: ["RtlSetThreadPlaceholderCompatibilityMode function"]
 ms.keywords: RtlSetThreadPlaceholderCompatibilityMode, RtlSetThreadPlaceholderCompatibilityMode routine [Installable File System Drivers], ifsk.rtlsetthreadplaceholdercompatibilitymode, ntifs/RtlSetThreadPlaceholderCompatibilityMode
 f1_keywords:
  - "ntifs/RtlSetThreadPlaceholderCompatibilityMode"

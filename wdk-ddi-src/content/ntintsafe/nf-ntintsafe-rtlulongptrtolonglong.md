@@ -6,6 +6,7 @@ old-location: kernel\rtlulongptrtolonglong.htm
 tech.root: kernel
 ms.assetid: 55DB2888-8427-4714-A72C-1F0C2804C3EA
 ms.date: 04/30/2018
+keywords: ["RtlULongPtrToLongLong function"]
 ms.keywords: RtlULongPtrToLongLong, RtlULongPtrToLongLong function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtolonglong, ntintsafe/RtlULongPtrToLongLong
 f1_keywords:
  - "ntintsafe/RtlULongPtrToLongLong"

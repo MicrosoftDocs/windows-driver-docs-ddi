@@ -6,6 +6,7 @@ old-location: wpddk\iportabledevicevalues_getiunknownvalue.htm
 tech.root: wpd_dk
 ms.assetid: ae66a86c-bf63-4bc7-87db-9d464004519a
 ms.date: 02/15/2018
+keywords: ["IPortableDeviceValues::GetIUnknownValue"]
 ms.keywords: GetIUnknownValue, GetIUnknownValue method, GetIUnknownValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetIUnknownValue method, IPortableDeviceValues.GetIUnknownValue, IPortableDeviceValues::GetIUnknownValue, IPortableDeviceValuesGetIUnknownValue, portabledevicetypes/IPortableDeviceValues::GetIUnknownValue, wpddk.iportabledevicevalues_getiunknownvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetIUnknownValue"

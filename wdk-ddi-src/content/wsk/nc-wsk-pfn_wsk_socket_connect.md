@@ -6,6 +6,7 @@ old-location: netvista\wsksocketconnect.htm
 tech.root: netvista
 ms.assetid: b1482160-49db-4490-b347-ff9396abf2ff
 ms.date: 05/02/2018
+keywords: ["PFN_WSK_SOCKET_CONNECT callback function"]
 ms.keywords: PFN_WSK_SOCKET_CONNECT, PFN_WSK_SOCKET_CONNECT callback, WskSocketConnect, WskSocketConnect callback function [Network Drivers Starting with Windows Vista], netvista.wsksocketconnect, wsk/WskSocketConnect, wskref_326c63cb-233d-4b6e-9c36-15e7f2cb1f1c.xml
 f1_keywords:
  - "wsk/WskSocketConnect"

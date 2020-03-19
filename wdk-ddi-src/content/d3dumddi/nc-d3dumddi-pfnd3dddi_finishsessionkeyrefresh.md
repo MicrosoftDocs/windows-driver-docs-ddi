@@ -6,6 +6,7 @@ old-location: display\finishsessionkeyrefresh.htm
 tech.root: display
 ms.assetid: e245f6f9-f4ea-429d-8421-be4fef1bf17e
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_FINISHSESSIONKEYREFRESH callback function"]
 ms.keywords: FinishSessionKeyRefresh, FinishSessionKeyRefresh callback function [Display Devices], PFND3DDDI_FINISHSESSIONKEYREFRESH, PFND3DDDI_FINISHSESSIONKEYREFRESH callback, UserModeDisplayDriver_Functions_6b7be711-8539-4b49-99d0-efbd424b33cc.xml, d3dumddi/FinishSessionKeyRefresh, display.finishsessionkeyrefresh
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

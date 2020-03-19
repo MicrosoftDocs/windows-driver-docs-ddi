@@ -6,6 +6,7 @@ old-location: debugger\debug_read_user_minidump_stream.htm
 tech.root: debugger
 ms.assetid: 07005D52-E851-4AE8-95D8-ED8E26C43DC6
 ms.date: 05/03/2018
+keywords: ["_DEBUG_READ_USER_MINIDUMP_STREAM structure"]
 ms.keywords: "*PDEBUG_READ_USER_MINIDUMP_STREAM, DEBUG_READ_USER_MINIDUMP_STREAM, DEBUG_READ_USER_MINIDUMP_STREAM structure [Windows Debugging], PDEBUG_READ_USER_MINIDUMP_STREAM, PDEBUG_READ_USER_MINIDUMP_STREAM structure pointer [Windows Debugging], _DEBUG_READ_USER_MINIDUMP_STREAM, dbgeng/DEBUG_READ_USER_MINIDUMP_STREAM, dbgeng/PDEBUG_READ_USER_MINIDUMP_STREAM, debugger.debug_read_user_minidump_stream"
 f1_keywords:
  - "dbgeng/DEBUG_READ_USER_MINIDUMP_STREAM"

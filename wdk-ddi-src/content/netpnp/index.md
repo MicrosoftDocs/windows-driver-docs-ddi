@@ -3,6 +3,7 @@ UID: NA:netpnp
 title: Netpnp.h header
 ms.assetid: 8b9b2e69-3b4f-376d-9787-e03a6f3437ec
 ms.date: 05/09/2018
+keywords: ["Netpnp.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

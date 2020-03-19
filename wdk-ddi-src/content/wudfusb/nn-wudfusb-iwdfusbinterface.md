@@ -6,6 +6,7 @@ old-location: wdf\iwdfusbinterface.htm
 tech.root: wdf
 ms.assetid: 90770016-1267-437e-af70-99741231dc29
 ms.date: 02/26/2018
+keywords: ["IWDFUsbInterface interface"]
 ms.keywords: IWDFUsbInterface, IWDFUsbInterface interface, IWDFUsbInterface interface,described, UMDFUSBref_d505d36b-9a59-452d-b35f-ceeff7a0b818.xml, umdf.iwdfusbinterface, wdf.iwdfusbinterface, wudfusb/IWDFUsbInterface
 f1_keywords:
  - "wudfusb/IWDFUsbInterface"

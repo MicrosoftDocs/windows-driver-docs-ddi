@@ -5,6 +5,7 @@ description: Indicates info about the precision of history buffer data used by t
 old-location: display\dxgkarg_historybufferprecision.htm
 ms.assetid: D55A8B5A-4133-4CE8-AD08-F551A3AEA42C
 ms.date: 05/10/2018
+keywords: ["_DXGKARG_HISTORYBUFFERPRECISION structure"]
 ms.keywords: DXGKARG_HISTORYBUFFERPRECISION, DXGKARG_HISTORYBUFFERPRECISION structure [Display Devices], _DXGKARG_HISTORYBUFFERPRECISION, d3dkmddi/DXGKARG_HISTORYBUFFERPRECISION, display.dxgkarg_historybufferprecision
 f1_keywords:
  - "d3dkmddi/DXGKARG_HISTORYBUFFERPRECISION"

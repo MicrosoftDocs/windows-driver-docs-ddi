@@ -7,6 +7,7 @@ tech.root: ifsk
 ms.assetid: ca975b09-cf73-4768-a314-3ff0e5ba211c
 ms.author: windowsdriverdev
 ms.date: 03/12/2019
+keywords: ["FltTagFileEx function"]
 f1_keywords:
  - "fltkernel/FltTagFileEx"
 ms.keywords: FltTagFileEx, FltTagFile

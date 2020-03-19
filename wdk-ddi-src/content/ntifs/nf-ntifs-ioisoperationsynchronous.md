@@ -6,6 +6,7 @@ old-location: ifsk\ioisoperationsynchronous.htm
 tech.root: ifsk
 ms.assetid: b233dfab-6a99-4f2f-930e-cafd01dc4bb5
 ms.date: 04/16/2018
+keywords: ["IoIsOperationSynchronous function"]
 ms.keywords: IoIsOperationSynchronous, IoIsOperationSynchronous routine [Installable File System Drivers], ifsk.ioisoperationsynchronous, ioref_259181c2-f6d9-4fe6-8d4b-594e7cf8db09.xml, ntifs/IoIsOperationSynchronous
 f1_keywords:
  - "ntifs/IoIsOperationSynchronous"

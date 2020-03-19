@@ -6,6 +6,7 @@ old-location: stream\ks_truecolorinfo.htm
 tech.root: stream
 ms.assetid: 8297a687-1c8f-4c19-913d-2796e7ef3a60
 ms.date: 04/23/2018
+keywords: ["tag_KS_TRUECOLORINFO structure"]
 ms.keywords: "*PKS_TRUECOLORINFO, KS_TRUECOLORINFO, KS_TRUECOLORINFO structure [Streaming Media Devices], PKS_TRUECOLORINFO, PKS_TRUECOLORINFO structure pointer [Streaming Media Devices], ksmedia/KS_TRUECOLORINFO, ksmedia/PKS_TRUECOLORINFO, stream.ks_truecolorinfo, tag_KS_TRUECOLORINFO, vidcapstruct_02efd829-b75a-4a08-864d-cd80570d0f3a.xml"
 f1_keywords:
  - "ksmedia/KS_TRUECOLORINFO"

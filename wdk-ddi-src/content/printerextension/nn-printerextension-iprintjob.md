@@ -6,6 +6,7 @@ old-location: print\iprintjob.htm
 tech.root: print
 ms.assetid: 068E53EC-26B8-48E7-A605-081709C94043
 ms.date: 04/20/2018
+keywords: ["IPrintJob interface"]
 ms.keywords: IPrintJob, IPrintJob interface [Print Devices], IPrintJob interface [Print Devices],described, print.iprintjob, printerextension/IPrintJob
 f1_keywords:
  - "printerextension/IPrintJob"

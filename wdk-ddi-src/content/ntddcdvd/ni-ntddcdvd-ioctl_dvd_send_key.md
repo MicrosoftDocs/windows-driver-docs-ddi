@@ -6,6 +6,7 @@ old-location: storage\ioctl_dvd_send_key.htm
 tech.root: storage
 ms.assetid: 8db0e6fe-1dfc-4f26-8fd7-7d170c33da0a
 ms.date: 03/29/2018
+keywords: ["IOCTL_DVD_SEND_KEY IOCTL"]
 ms.keywords: IOCTL_DVD_SEND_KEY, IOCTL_DVD_SEND_KEY control, IOCTL_DVD_SEND_KEY control code [Storage Devices], k307_9c0512f6-da79-4da0-a779-5a870ffe4b91.xml, ntddcdvd/IOCTL_DVD_SEND_KEY, storage.ioctl_dvd_send_key
 f1_keywords:
  - "ntddcdvd/IOCTL_DVD_SEND_KEY"

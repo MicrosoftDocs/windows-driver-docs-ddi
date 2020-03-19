@@ -6,6 +6,7 @@ old-location: stream\ksgetbusenumidentifier.htm
 tech.root: stream
 ms.assetid: 50e14e01-5879-4a84-a8c2-f03c953dbeec
 ms.date: 04/23/2018
+keywords: ["KsGetBusEnumIdentifier function"]
 ms.keywords: KsGetBusEnumIdentifier, KsGetBusEnumIdentifier function [Streaming Media Devices], ksfunc_c001aace-8c97-48cb-ae8b-9e7075d51960.xml, stream.ksgetbusenumidentifier, swenum/KsGetBusEnumIdentifier
 f1_keywords:
  - "swenum/KsGetBusEnumIdentifier"

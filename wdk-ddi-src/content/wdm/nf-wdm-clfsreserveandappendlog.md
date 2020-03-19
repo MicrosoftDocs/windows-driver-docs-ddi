@@ -6,6 +6,7 @@ old-location: kernel\clfsreserveandappendlog.htm
 tech.root: kernel
 ms.assetid: e3ffbf18-151b-42da-8fc1-ae07c152738c
 ms.date: 04/30/2018
+keywords: ["ClfsReserveAndAppendLog function"]
 ms.keywords: ClfsReserveAndAppendLog, ClfsReserveAndAppendLog routine [Kernel-Mode Driver Architecture], Clfs_4378f8c9-0765-48af-9309-2bc0a1af1da5.xml, kernel.clfsreserveandappendlog, wdm/ClfsReserveAndAppendLog
 f1_keywords:
  - "wdm/ClfsReserveAndAppendLog"

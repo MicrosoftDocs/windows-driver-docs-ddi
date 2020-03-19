@@ -6,6 +6,7 @@ old-location: display\videoportgetaccessranges.htm
 tech.root: display
 ms.assetid: 7a858b32-408e-4926-9aba-44046b0266e2
 ms.date: 05/10/2018
+keywords: ["VideoPortGetAccessRanges function"]
 ms.keywords: VideoPortGetAccessRanges, VideoPortGetAccessRanges function [Display Devices], VideoPort_Functions_a0db7d5d-01be-4c3c-9ea2-2ebd9b8aaca3.xml, display.videoportgetaccessranges, video/VideoPortGetAccessRanges
 f1_keywords:
  - "video/VideoPortGetAccessRanges"

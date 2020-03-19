@@ -6,6 +6,7 @@ old-location: kernel\rtlssizetmult.htm
 tech.root: kernel
 ms.assetid: 43FFE47F-C8A3-49B4-B61A-3EAF3841037D
 ms.date: 04/30/2018
+keywords: ["RtlSSIZETMult function"]
 ms.keywords: RtlSSIZETMult, RtlSSIZETMult function [Kernel-Mode Driver Architecture], kernel.rtlssizetmult, ntintsafe/RtlSSIZETMult
 f1_keywords:
  - "ntintsafe/RtlSSIZETMult"

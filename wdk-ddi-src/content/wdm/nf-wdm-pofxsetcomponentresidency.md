@@ -6,6 +6,7 @@ old-location: kernel\pofxsetcomponentresidency.htm
 tech.root: kernel
 ms.assetid: B4216BA1-FC5C-4A3B-BB74-E071BD2048F8
 ms.date: 04/30/2018
+keywords: ["PoFxSetComponentResidency function"]
 ms.keywords: PoFxSetComponentResidency, PoFxSetComponentResidency routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentresidency, wdm/PoFxSetComponentResidency
 f1_keywords:
  - "wdm/PoFxSetComponentResidency"

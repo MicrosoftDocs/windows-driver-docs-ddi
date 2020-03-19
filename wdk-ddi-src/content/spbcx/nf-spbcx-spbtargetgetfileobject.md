@@ -6,6 +6,7 @@ old-location: spb\spbtargetgetfileobject.htm
 tech.root: SPB
 ms.assetid: A89635EC-F5B8-4427-9AFD-9F71339595DF
 ms.date: 04/30/2018
+keywords: ["SpbTargetGetFileObject function"]
 ms.keywords: SPB.spbtargetgetfileobject, SpbTargetGetFileObject, SpbTargetGetFileObject method [Buses], spbcx/SpbTargetGetFileObject
 f1_keywords:
  - "spbcx/SpbTargetGetFileObject"

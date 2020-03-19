@@ -6,6 +6,7 @@ old-location: print\controlprintprocessor.htm
 tech.root: print
 ms.assetid: a0a19747-ab39-4606-a49b-78e5e056da32
 ms.date: 04/20/2018
+keywords: ["ControlPrintProcessor function"]
 ms.keywords: ControlPrintProcessor, ControlPrintProcessor function [Print Devices], print.controlprintprocessor, spoolfnc_203120f1-7819-448e-9813-3aa2b24bfd7f.xml, winsplp/ControlPrintProcessor
 f1_keywords:
  - "winsplp/ControlPrintProcessor"

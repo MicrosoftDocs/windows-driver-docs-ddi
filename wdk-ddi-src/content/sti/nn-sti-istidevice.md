@@ -6,6 +6,7 @@ old-location: image\istidevice_interface_methods.htm
 tech.root: image
 ms.assetid: 86ce412e-007b-4ea9-9c09-766eee543852
 ms.date: 05/03/2018
+keywords: ["IStiDevice interface"]
 ms.keywords: IStiDevice, IStiDevice interface [Imaging Devices], IStiDevice interface [Imaging Devices],described, image.istidevice_interface_methods, sti/IStiDevice, stifnc_ef9e9c06-e918-462c-92c0-f4b1605a0847.xml
 f1_keywords:
  - "sti/IStiDevice"

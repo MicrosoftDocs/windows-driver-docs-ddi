@@ -5,6 +5,7 @@ description: The D3DKMT_FLIPOVERLAY structure describes a new allocation to disp
 old-location: display\d3dkmt_flipoverlay.htm
 ms.assetid: 7e224009-dccb-41e5-99e8-01f1479aa79f
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_FLIPOVERLAY structure"]
 ms.keywords: D3DKMT_FLIPOVERLAY, D3DKMT_FLIPOVERLAY structure [Display Devices], OpenGL_Structs_a7694ad8-b12e-41ad-b7e3-159d26fe2f41.xml, _D3DKMT_FLIPOVERLAY, d3dkmthk/D3DKMT_FLIPOVERLAY, display.d3dkmt_flipoverlay
 f1_keywords:
  - "d3dkmthk/D3DKMT_FLIPOVERLAY"

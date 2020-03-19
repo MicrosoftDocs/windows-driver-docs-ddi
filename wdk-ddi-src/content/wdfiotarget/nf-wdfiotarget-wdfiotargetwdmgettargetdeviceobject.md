@@ -6,6 +6,7 @@ old-location: wdf\wdfiotargetwdmgettargetdeviceobject.htm
 tech.root: wdf
 ms.assetid: 199c2fd6-ecff-4b72-b55d-086687989485
 ms.date: 02/26/2018
+keywords: ["WdfIoTargetWdmGetTargetDeviceObject function"]
 ms.keywords: DFIOTargetRef_82d5005b-ced0-4ae5-8a73-8714d2895ead.xml, WdfIoTargetWdmGetTargetDeviceObject, WdfIoTargetWdmGetTargetDeviceObject method, kmdf.wdfiotargetwdmgettargetdeviceobject, wdf.wdfiotargetwdmgettargetdeviceobject, wdfiotarget/WdfIoTargetWdmGetTargetDeviceObject
 f1_keywords:
  - "wdfiotarget/WdfIoTargetWdmGetTargetDeviceObject"

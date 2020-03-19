@@ -6,6 +6,7 @@ old-location: stream\ikstopology.htm
 tech.root: stream
 ms.assetid: 418a415c-b4db-41a1-825e-66704c45e134
 ms.date: 04/23/2018
+keywords: ["IKsTopology interface"]
 ms.keywords: IKsTopology, IKsTopology interface [Streaming Media Devices], IKsTopology interface [Streaming Media Devices],described, ksproxy/IKsTopology, ksproxy_521e5b73-c9cc-4cb2-acf5-746e470678cd.xml, stream.ikstopology
 f1_keywords:
  - "ksproxy/IKsTopology"

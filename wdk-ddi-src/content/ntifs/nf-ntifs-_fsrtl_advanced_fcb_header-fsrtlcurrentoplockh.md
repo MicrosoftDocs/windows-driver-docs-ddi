@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlcurrentoplockh.htm
 tech.root: ifsk
 ms.assetid: 98eb2bef-18ac-449f-b180-7b0f768cc093
 ms.date: 04/16/2018
+keywords: ["FsRtlCurrentOplockH function"]
 ms.keywords: FsRtlCurrentOplockH, FsRtlCurrentOplockH function [Installable File System Drivers], fsrtlref_4997ca62-379d-45d8-bc22-32efd2076692.xml, ifsk.fsrtlcurrentoplockh, ntifs/FsRtlCurrentOplockH
 f1_keywords:
  - "ntifs/FsRtlCurrentOplockH"

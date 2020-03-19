@@ -6,6 +6,7 @@ old-location: kernel\pcreate_process_notify_routine_ex.htm
 tech.root: kernel
 ms.assetid: 071BD24F-AA58-4A39-8059-CEF6D7105DB6
 ms.date: 04/30/2018
+keywords: ["PCREATE_PROCESS_NOTIFY_ROUTINE_EX callback function"]
 ms.keywords: PCREATE_PROCESS_NOTIFY_ROUTINE_EX, PCREATE_PROCESS_NOTIFY_ROUTINE_EX callback, SetCreateProcessNotifyRoutineEx, SetCreateProcessNotifyRoutineEx callback function [Kernel-Mode Driver Architecture], kernel.pcreate_process_notify_routine_ex, ntddk/SetCreateProcessNotifyRoutineEx
 f1_keywords:
  - "ntddk/SetCreateProcessNotifyRoutineEx"

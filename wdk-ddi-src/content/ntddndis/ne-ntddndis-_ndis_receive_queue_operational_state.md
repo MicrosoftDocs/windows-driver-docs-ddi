@@ -6,6 +6,7 @@ old-location: netvista\ndis_receive_queue_operational_state.htm
 tech.root: netvista
 ms.assetid: a8ae7b19-9dc8-4ccc-b71e-62ec0be1fa99
 ms.date: 05/02/2018
+keywords: ["_NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration"]
 ms.keywords: "*PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration [Network Drivers Starting with Windows Vista], NdisReceiveQueueOperationalStateDmaStopped, NdisReceiveQueueOperationalStateMaximum, NdisReceiveQueueOperationalStatePaused, NdisReceiveQueueOperationalStateRunning, NdisReceiveQueueOperationalStateUndefined, PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, netvista.ndis_receive_queue_operational_state, ntddndis/NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, ntddndis/NdisReceiveQueueOperationalStateDmaStopped, ntddndis/NdisReceiveQueueOperationalStateMaximum, ntddndis/NdisReceiveQueueOperationalStatePaused, ntddndis/NdisReceiveQueueOperationalStateRunning, ntddndis/NdisReceiveQueueOperationalStateUndefined, ntddndis/PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, virtual_machine_queue_ref_db0b16e1-5367-4a29-8a24-474aa09c07f5.xml"
 f1_keywords:
  - "ntddndis/NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE"

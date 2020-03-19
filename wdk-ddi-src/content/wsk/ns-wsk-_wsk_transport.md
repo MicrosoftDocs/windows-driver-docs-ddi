@@ -6,6 +6,7 @@ old-location: netvista\wsk_transport.htm
 tech.root: netvista
 ms.assetid: aaf7b5ac-0401-4b6a-a478-3d50559817db
 ms.date: 05/02/2018
+keywords: ["_WSK_TRANSPORT structure"]
 ms.keywords: "*PWSK_TRANSPORT, PWSK_TRANSPORT, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], WSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], _WSK_TRANSPORT, netvista.wsk_transport, wsk/PWSK_TRANSPORT, wsk/WSK_TRANSPORT, wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml"
 f1_keywords:
  - "wsk/WSK_TRANSPORT"

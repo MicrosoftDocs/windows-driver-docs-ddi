@@ -6,6 +6,7 @@ old-location: debugger\extremotelist_extremotelist_extremotedata.htm
 tech.root: debugger
 ms.assetid: db670175-ad3b-4bed-b9ad-625494319256
 ms.date: 05/03/2018
+keywords: ["ExtRemoteList::ExtRemoteList(ExtRemoteData &,ULONG,bool)"]
 ms.keywords: ExtRemoteList, ExtRemoteList class [Windows Debugging],ExtRemoteList constructor, ExtRemoteList constructor [Windows Debugging], ExtRemoteList constructor [Windows Debugging],ExtRemoteList class, ExtRemoteList.ExtRemoteList, ExtRemoteList.ExtRemoteList(ExtRemoteData &,ULONG,bool), ExtRemoteList.ExtRemoteList(ExtRemoteData&,ULONG,bool), ExtRemoteList::ExtRemoteList, ExtRemoteList::ExtRemoteList(ExtRemoteData &,ULONG,bool), debugger.extremotelist_extremotelist_extremotedata
 f1_keywords:
  - "engextcpp/ExtRemoteList.ExtRemoteList"

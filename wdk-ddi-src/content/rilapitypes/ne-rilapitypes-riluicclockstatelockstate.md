@@ -6,6 +6,7 @@ old-location: netvista\riluicclockstatelockstate_2.htm
 tech.root: netvista
 ms.assetid: e97ef5bc-e3da-46ca-b593-59dc93e9cb8e
 ms.date: 02/26/2018
+keywords: ["RILUICCLOCKSTATELOCKSTATE enumeration"]
 ms.keywords: RILUICCLOCKSTATELOCKSTATE, RILUICCLOCKSTATELOCKSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCLOCKSTATE_ALL, RIL_UICCLOCKSTATE_BLOCKED, RIL_UICCLOCKSTATE_ENABLED, RIL_UICCLOCKSTATE_VERIFIED, netvista.riluicclockstatelockstate_2, rilapitypes/RILUICCLOCKSTATELOCKSTATE, rilapitypes/RIL_UICCLOCKSTATE_ALL, rilapitypes/RIL_UICCLOCKSTATE_BLOCKED, rilapitypes/RIL_UICCLOCKSTATE_ENABLED, rilapitypes/RIL_UICCLOCKSTATE_VERIFIED
 f1_keywords:
  - "rilapitypes/RILUICCLOCKSTATELOCKSTATE"

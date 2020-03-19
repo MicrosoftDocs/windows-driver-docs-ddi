@@ -6,6 +6,7 @@ old-location: print\iprinterscriptablepropertybag.htm
 tech.root: print
 ms.assetid: E6F48895-7ED6-479B-BF16-42192461C56D
 ms.date: 04/20/2018
+keywords: ["IPrinterScriptablePropertyBag interface"]
 ms.keywords: IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], IPrinterScriptablePropertyBag interface [Print Devices],described, print.iprinterscriptablepropertybag, printerextension/IPrinterScriptablePropertyBag
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag"

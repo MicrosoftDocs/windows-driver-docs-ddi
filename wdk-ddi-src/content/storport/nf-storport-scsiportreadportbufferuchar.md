@@ -6,6 +6,7 @@ old-location: storage\scsiportreadportbufferuchar.htm
 tech.root: storage
 ms.assetid: 9444670d-5b9f-4d77-b867-ac5608c24e02
 ms.date: 03/29/2018
+keywords: ["ScsiPortReadPortBufferUchar macro"]
 ms.keywords: ScsiPortReadPortBufferUchar, ScsiPortReadPortBufferUchar routine [Storage Devices], scsiprt_db25989e-3b44-4f45-b768-b1b11c2ed25a.xml, srb/ScsiPortReadPortBufferUchar, storage.scsiportreadportbufferuchar
 f1_keywords:
  - "storport/ScsiPortReadPortBufferUchar"

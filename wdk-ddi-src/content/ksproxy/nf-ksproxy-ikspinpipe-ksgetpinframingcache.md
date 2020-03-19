@@ -6,6 +6,7 @@ old-location: stream\ikspinpipe_ksgetpinframingcache.htm
 tech.root: stream
 ms.assetid: 981596AB-0E39-49B3-8586-B2D9C2762D80
 ms.date: 04/23/2018
+keywords: ["IKsPinPipe::KsGetPinFramingCache"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPinFramingCache method, IKsPinPipe.KsGetPinFramingCache, IKsPinPipe::KsGetPinFramingCache, KsGetPinFramingCache, KsGetPinFramingCache method [Streaming Media Devices], KsGetPinFramingCache method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPinFramingCache, stream.ikspinpipe_ksgetpinframingcache
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsGetPinFramingCache"

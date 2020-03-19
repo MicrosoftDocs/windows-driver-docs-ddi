@@ -4,6 +4,7 @@ title: PFN_IDDCXMONITORSETSRMLIST (iddcx.h)
 description: Implemented by the client driver to pass a HDCP SRM list to the GPU driver associated with the rendering of the specified monitor.
 ms.assetid: 38dfb1cf-f2fd-462f-bce0-a95505cead96
 ms.date: 10/19/2018
+keywords: ["*PFN_IDDCXMONITORSETSRMLIST callback function"]
 f1_keywords:
  - "iddcx/PFN_IDDCXMONITORSETSRMLIST"
 req.header: iddcx.h

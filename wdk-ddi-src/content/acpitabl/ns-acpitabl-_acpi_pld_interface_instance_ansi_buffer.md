@@ -4,6 +4,7 @@ title: _ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER structure (acpitabl.h)
 description: Describes the ACPI PLD interface instance ANSI descriptor buffers, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: 07cfe6a5-2680-4d04-8628-701e5a1af0dd
 ms.date: 10/02/2018
+keywords: ["_ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER structure"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER"
 ms.keywords: _ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER, ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER, *PACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER, 

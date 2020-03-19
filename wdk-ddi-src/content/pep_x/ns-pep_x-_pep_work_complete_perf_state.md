@@ -6,6 +6,7 @@ old-location: kernel\pep_work_complete_perf_state.htm
 tech.root: kernel
 ms.assetid: B28BE626-5DF1-4B55-8D1A-04B1FF2245EA
 ms.date: 04/30/2018
+keywords: ["_PEP_WORK_COMPLETE_PERF_STATE structure"]
 ms.keywords: "*PPEP_WORK_COMPLETE_PERF_STATE, PEP_WORK_COMPLETE_PERF_STATE, PEP_WORK_COMPLETE_PERF_STATE structure [Kernel-Mode Driver Architecture], PPEP_WORK_COMPLETE_PERF_STATE, PPEP_WORK_COMPLETE_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_COMPLETE_PERF_STATE, kernel.pep_work_complete_perf_state, pepfx/PEP_WORK_COMPLETE_PERF_STATE, pepfx/PPEP_WORK_COMPLETE_PERF_STATE"
 f1_keywords:
  - "pep_x/PEP_WORK_COMPLETE_PERF_STATE"

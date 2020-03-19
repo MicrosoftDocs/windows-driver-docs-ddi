@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: eddf63a3-ba27-4a75-b093-cc0de866eb3c
 ms.author: windowsdriverdev
 ms.date: 02/01/2019
+keywords: ["_DXGK_NODEMETADATA structure"]
 f1_keywords:
  - "d3dkmdt/_DXGK_NODEMETADATA"
 ms.prod: windows-hardware

@@ -6,6 +6,7 @@ old-location: stream\kscreatedefaultallocatorex.htm
 tech.root: stream
 ms.assetid: 63b2d9a3-7f8e-4c03-8c0c-a4555c27e39c
 ms.date: 04/23/2018
+keywords: ["KsCreateDefaultAllocatorEx function"]
 ms.keywords: KsCreateDefaultAllocatorEx, KsCreateDefaultAllocatorEx function [Streaming Media Devices], ks/KsCreateDefaultAllocatorEx, ksfunc_99b91933-c8d3-4580-bd51-a6620defcf30.xml, stream.kscreatedefaultallocatorex
 f1_keywords:
  - "ks/KsCreateDefaultAllocatorEx"

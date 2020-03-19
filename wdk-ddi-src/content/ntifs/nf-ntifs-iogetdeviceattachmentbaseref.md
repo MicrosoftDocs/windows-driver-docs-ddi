@@ -6,6 +6,7 @@ old-location: ifsk\iogetdeviceattachmentbaseref.htm
 tech.root: ifsk
 ms.assetid: e1d31fdd-de4f-4e57-a8e8-0468ab4242f8
 ms.date: 04/16/2018
+keywords: ["IoGetDeviceAttachmentBaseRef function"]
 ms.keywords: IoGetDeviceAttachmentBaseRef, IoGetDeviceAttachmentBaseRef routine [Installable File System Drivers], ifsk.iogetdeviceattachmentbaseref, ioref_ab9c898e-74be-48aa-9462-d78d0e34c435.xml, ntifs/IoGetDeviceAttachmentBaseRef
 f1_keywords:
  - "ntifs/IoGetDeviceAttachmentBaseRef"

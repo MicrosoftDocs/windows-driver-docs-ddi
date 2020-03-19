@@ -6,6 +6,7 @@ old-location: display\i2cread.htm
 tech.root: display
 ms.assetid: 1418ec29-be67-46af-b6db-0b534ecafb37
 ms.date: 05/10/2018
+keywords: ["PI2C_READ callback function"]
 ms.keywords: I2CRead, I2CRead callback function [Display Devices], PI2C_READ, PI2C_READ callback, VideoPort_Functions_cb73b3b1-1646-43ef-ac61-5a14c9a53b9b.xml, display.i2cread, video/I2CRead
 f1_keywords:
  - "video/I2CRead"

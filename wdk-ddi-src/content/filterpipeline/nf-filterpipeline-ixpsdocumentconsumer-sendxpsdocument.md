@@ -6,6 +6,7 @@ old-location: print\ixpsdocumentconsumer_sendxpsdocument.htm
 tech.root: print
 ms.assetid: ad9f0f6b-19a6-4c99-9350-7ca249cf4774
 ms.date: 04/20/2018
+keywords: ["IXpsDocumentConsumer::SendXpsDocument"]
 ms.keywords: IXpsDocumentConsumer interface [Print Devices],SendXpsDocument method, IXpsDocumentConsumer.SendXpsDocument, IXpsDocumentConsumer::SendXpsDocument, SendXpsDocument, SendXpsDocument method [Print Devices], SendXpsDocument method [Print Devices],IXpsDocumentConsumer interface, filterpipeline/IXpsDocumentConsumer::SendXpsDocument, filterpipeline_f8816c77-a8d0-4d44-bd12-adaf9194c34c.xml, print.ixpsdocumentconsumer_sendxpsdocument
 f1_keywords:
  - "filterpipeline/IXpsDocumentConsumer.SendXpsDocument"

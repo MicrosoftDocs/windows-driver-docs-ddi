@@ -6,6 +6,7 @@ old-location: debugger\gettypesize.htm
 tech.root: debugger
 ms.assetid: 5532799d-5c3b-41ba-ab62-dca9c9d9eb56
 ms.date: 05/03/2018
+keywords: ["GetTypeSize function"]
 ms.keywords: GetTypeSize, GetTypeSize function [Windows Debugging], WdbgExts_Ref_f3c7edf8-5c3b-440f-ace7-2081f9923d6f.xml, debugger.gettypesize, wdbgexts/GetTypeSize
 f1_keywords:
  - "wdbgexts/GetTypeSize"

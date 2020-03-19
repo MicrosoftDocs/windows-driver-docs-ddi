@@ -6,6 +6,7 @@ old-location: pci\enablevirtualization.htm
 tech.root: PCI
 ms.assetid: BC833231-CA7B-4E68-9498-46F1D4B32B88
 ms.date: 02/24/2018
+keywords: ["ENABLE_VIRTUALIZATION callback"]
 ms.keywords: ENABLE_VIRTUALIZATION, EnableVirtualization, EnableVirtualization routine, PCI.enablevirtualization, wdm/EnableVirtualization
 f1_keywords:
  - "wdm/EnableVirtualization"

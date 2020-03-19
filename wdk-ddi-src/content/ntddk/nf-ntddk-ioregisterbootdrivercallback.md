@@ -6,6 +6,7 @@ old-location: kernel\ioregisterbootdrivercallback.htm
 tech.root: kernel
 ms.assetid: 28BA4B54-F493-4D79-89DF-D890EBCF1E9C
 ms.date: 04/30/2018
+keywords: ["IoRegisterBootDriverCallback function"]
 ms.keywords: IoRegisterBootDriverCallback, IoRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], kernel.ioregisterbootdrivercallback, ntddk/IoRegisterBootDriverCallback
 f1_keywords:
  - "ntddk/IoRegisterBootDriverCallback"

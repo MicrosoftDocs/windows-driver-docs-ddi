@@ -6,6 +6,7 @@ old-location: netvista\fwpsqueryconnectionredirectstate0.htm
 tech.root: netvista
 ms.assetid: 6db0a5ac-edab-4e84-b378-30ed0c23cd4b
 ms.date: 05/02/2018
+keywords: ["FwpsQueryConnectionRedirectState0 function"]
 ms.keywords: FwpsQueryConnectionRedirectState0, FwpsQueryConnectionRedirectState0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryConnectionRedirectState0, netvista.fwpsqueryconnectionredirectstate0
 f1_keywords:
  - "fwpsk/FwpsQueryConnectionRedirectState0"

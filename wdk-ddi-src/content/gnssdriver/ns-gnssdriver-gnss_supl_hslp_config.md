@@ -6,6 +6,7 @@ old-location: gnss\gnss_supl_hslp_config.htm
 tech.root: gnss
 ms.assetid: 08CCC4A8-2D85-436D-B18E-77C91A24F59C
 ms.date: 02/15/2018
+keywords: ["GNSS_SUPL_HSLP_CONFIG structure"]
 ms.keywords: "*PGNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG structure [Sensor Devices], PGNSS_SUPL_HSLP_CONFIG, PGNSS_SUPL_HSLP_CONFIG structure pointer [Sensor Devices], gnss.gnss_supl_hslp_config, gnssdriver/GNSS_SUPL_HSLP_CONFIG, gnssdriver/PGNSS_SUPL_HSLP_CONFIG"
 f1_keywords:
  - "gnssdriver/GNSS_SUPL_HSLP_CONFIG"

@@ -6,6 +6,7 @@ old-location: stream\ksrecalculatestackdepth.htm
 tech.root: stream
 ms.assetid: 0b8f23a5-af8a-4b99-8f17-092076523914
 ms.date: 04/23/2018
+keywords: ["KsRecalculateStackDepth function"]
 ms.keywords: KsRecalculateStackDepth, KsRecalculateStackDepth , KsRecalculateStackDepth function [Streaming Media Devices], ks/KsRecalculateStackDepth, ksfunc_745f6176-dc53-467f-885e-028da49b81a1.xml, stream.ksrecalculatestackdepth
 f1_keywords:
  - "ks/KsRecalculateStackDepth"

@@ -5,6 +5,7 @@ description: Sets the target rectangle for the video processor.
 old-location: display\videoprocessorsetoutputtargetrect.htm
 ms.assetid: ac1ba2e0-a289-4dee-b739-d3c1ad0970e1
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTTARGETRECT callback, d3d10umddi/pfnVideoProcessorSetOutputTargetRect, display.videoprocessorsetoutputtargetrect, pfnVideoProcessorSetOutputTargetRect, pfnVideoProcessorSetOutputTargetRect callback function [Display Devices]
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

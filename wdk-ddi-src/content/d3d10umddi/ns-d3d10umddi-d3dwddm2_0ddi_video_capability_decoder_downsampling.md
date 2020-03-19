@@ -5,6 +5,7 @@ description: D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLING describes the d
 old-location: display\d3dwddm2_0ddi_video_capability_decoder_downsampling.htm
 ms.assetid: 8D12F2AC-2A64-4FEF-813C-15899FBCA108
 ms.date: 05/10/2018
+keywords: ["D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLING structure"]
 ms.keywords: D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLING, D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLING structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLING, display.d3dwddm2_0ddi_video_capability_decoder_downsampling
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_DOWNSAMPLING"

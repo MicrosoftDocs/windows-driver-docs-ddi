@@ -5,6 +5,7 @@ description: This structure contains the user mode device function table for Win
 old-location: display\d3dwddm2_0ddi_devicefuncs.htm
 ms.assetid: 9A41512A-91C4-4053-9C60-5B485E93D14B
 ms.date: 05/10/2018
+keywords: ["D3DWDDM2_0DDI_DEVICEFUNCS structure"]
 ms.keywords: D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_DEVICEFUNCS, display.d3dwddm2_0ddi_devicefuncs
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_0DDI_DEVICEFUNCS"

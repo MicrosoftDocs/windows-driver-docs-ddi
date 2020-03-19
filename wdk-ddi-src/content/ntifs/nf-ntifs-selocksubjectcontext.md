@@ -6,6 +6,7 @@ old-location: ifsk\selocksubjectcontext.htm
 tech.root: ifsk
 ms.assetid: 032e203a-9cb0-4232-91fc-883528e15a81
 ms.date: 04/16/2018
+keywords: ["SeLockSubjectContext function"]
 ms.keywords: SeLockSubjectContext, SeLockSubjectContext routine [Installable File System Drivers], ifsk.selocksubjectcontext, ntifs/SeLockSubjectContext, seref_ea4696ab-8343-4d15-866c-15720d009db8.xml
 f1_keywords:
  - "ntifs/SeLockSubjectContext"

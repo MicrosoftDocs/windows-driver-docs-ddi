@@ -6,6 +6,7 @@ old-location: kernel\rtlintptrtouint8.htm
 tech.root: kernel
 ms.assetid: E51696DD-17CE-41F1-AD30-30AB93C81D05
 ms.date: 04/30/2018
+keywords: ["RtlIntPtrToUInt8 function"]
 ms.keywords: RtlIntPtrToUInt8, RtlIntPtrToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlintptrtouint8, ntintsafe/RtlIntPtrToUInt8
 f1_keywords:
  - "ntintsafe/RtlIntPtrToUInt8"

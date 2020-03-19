@@ -6,6 +6,7 @@ old-location: buses\ioctl_ucmtcpci_port_controller_get_status.htm
 tech.root: usbref
 ms.assetid: F265D0F7-AA3C-4E75-A648-EDD90E8B8BE2
 ms.date: 05/07/2018
+keywords: ["IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS IOCTL"]
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS, IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS control, IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS control code [Buses], buses.ioctl_ioctl_ucmtcpci_port_controller_get_status, buses.ioctl_ucmtcpci_port_controller_get_status, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS
 f1_keywords:
  - "ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS"

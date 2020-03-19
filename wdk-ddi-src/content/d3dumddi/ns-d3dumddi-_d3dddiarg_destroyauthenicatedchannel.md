@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_destroyauthenticatedchannel.htm
 tech.root: display
 ms.assetid: 3b953c73-a033-465a-a041-7c21ee307c32
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_DESTROYAUTHENICATEDCHANNEL structure"]
 ms.keywords: D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL, D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL structure [Display Devices], UMDisplayDriver_param_Structs_be6187b3-2d01-450e-90a7-d01a97aba764.xml, _D3DDDIARG_DESTROYAUTHENICATEDCHANNEL, d3dumddi/D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL, display.d3dddiarg_destroyauthenticatedchannel
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL"

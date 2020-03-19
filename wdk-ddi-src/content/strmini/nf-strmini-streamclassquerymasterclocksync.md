@@ -6,6 +6,7 @@ old-location: stream\streamclassquerymasterclocksync.htm
 tech.root: stream
 ms.assetid: db58103d-8862-4be1-bca2-9d59d392591c
 ms.date: 04/23/2018
+keywords: ["StreamClassQueryMasterClockSync function"]
 ms.keywords: StreamClassQueryMasterClockSync, StreamClassQueryMasterClockSync routine [Streaming Media Devices], strclass-routines_32944030-bbcb-4f21-98cd-09c77ad3cd53.xml, stream.streamclassquerymasterclocksync, strmini/StreamClassQueryMasterClockSync
 f1_keywords:
  - "strmini/StreamClassQueryMasterClockSync"

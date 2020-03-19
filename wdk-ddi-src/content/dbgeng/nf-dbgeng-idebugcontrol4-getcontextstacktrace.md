@@ -6,6 +6,7 @@ old-location: debugger\getcontextstacktrace.htm
 tech.root: debugger
 ms.assetid: 8d7a461e-46bf-4556-b13c-805bb5af572e
 ms.date: 05/03/2018
+keywords: ["IDebugControl4::GetContextStackTrace"]
 ms.keywords: GetContextStackTrace, GetContextStackTrace method [Windows Debugging], GetContextStackTrace method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetContextStackTrace method, IDebugControl4.GetContextStackTrace, IDebugControl4::GetContextStackTrace, IDebugControl_ae12ec1a-8839-49cc-8082-c328a570188b.xml, dbgeng/IDebugControl4::GetContextStackTrace, debugger.getcontextstacktrace
 f1_keywords:
  - "dbgeng/IDebugControl4.GetContextStackTrace"

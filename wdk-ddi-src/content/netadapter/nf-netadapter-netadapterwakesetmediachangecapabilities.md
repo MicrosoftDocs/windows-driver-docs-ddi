@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 1814a1fc-1e1e-4b73-8104-3e7991ffa64f
 ms.author: windowsdriverdev
 ms.date: 10/25/2019
+keywords: ["NetAdapterWakeSetMediaChangeCapabilities function"]
 f1_keywords:
  - "netadapter/NetAdapterWakeSetMediaChangeCapabilities"
 ms.keywords: NetAdapterWakeSetMediaChangeCapabilities

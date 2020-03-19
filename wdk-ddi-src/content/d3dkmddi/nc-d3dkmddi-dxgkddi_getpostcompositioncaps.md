@@ -5,6 +5,7 @@ description: Called to retrieve post composition capabilities. Support for this 
 old-location: display\dxgkddi_getpostcompositioncaps.htm
 ms.assetid: B79959EC-A064-4B35-98EF-5B032AF5D4B4
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_GETPOSTCOMPOSITIONCAPS callback function"]
 ms.keywords: DXGKDDI_GETPOSTCOMPOSITIONCAPS, DXGKDDI_GETPOSTCOMPOSITIONCAPS callback, DXGKDDI_GETPOSTCOMPOSITIONCAPS callback function [Display Devices], d3dkmddi/DXGKDDI_GETPOSTCOMPOSITIONCAPS, display.dxgkddi_getpostcompositioncaps
 req.header: d3dkmddi.h
 req.include-header: 

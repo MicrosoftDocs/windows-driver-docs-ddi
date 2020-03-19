@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: fda0e3e5-cb78-480c-a885-14d412755af9
 ms.author: windowsdriverdev
 ms.date: 09/24/2019
+keywords: ["NET_PACKET_RSC structure"]
 f1_keywords:
  - "rsctypes/NET_PACKET_RSC"
 ms.keywords: NET_PACKET_RSC, NET_PACKET_RSC, 

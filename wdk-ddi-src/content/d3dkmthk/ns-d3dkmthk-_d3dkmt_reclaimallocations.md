@@ -5,6 +5,7 @@ description: Describes video memory resources that are to be reclaimed and that 
 old-location: display\d3dkmt_reclaimallocations.htm
 ms.assetid: 7fc9295b-90b4-4fa7-abcb-3e3e6a165203
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_RECLAIMALLOCATIONS structure"]
 ms.keywords: D3DKMT_RECLAIMALLOCATIONS, D3DKMT_RECLAIMALLOCATIONS structure [Display Devices], _D3DKMT_RECLAIMALLOCATIONS, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS, display.d3dkmt_reclaimallocations
 f1_keywords:
  - "d3dkmthk/D3DKMT_RECLAIMALLOCATIONS"

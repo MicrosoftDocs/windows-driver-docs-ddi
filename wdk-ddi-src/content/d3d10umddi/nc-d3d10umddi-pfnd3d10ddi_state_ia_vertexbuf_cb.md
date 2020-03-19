@@ -5,6 +5,7 @@ description: The pfnStateIaVertexBufCb function causes the Microsoft Direct3D 10
 old-location: display\pfnstateiavertexbufcb.htm
 ms.assetid: 15068932-b769-4027-986f-195b569a23eb
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_STATE_IA_VERTEXBUF_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_IA_VERTEXBUF_CB, PFND3D10DDI_STATE_IA_VERTEXBUF_CB callback, d3d10state_functions_b08135a0-2a61-4823-9153-bf89ea24e0fa.xml, d3d10umddi/pfnStateIaVertexBufCb, display.pfnstateiavertexbufcb, pfnStateIaVertexBufCb, pfnStateIaVertexBufCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateIaVertexBufCb"

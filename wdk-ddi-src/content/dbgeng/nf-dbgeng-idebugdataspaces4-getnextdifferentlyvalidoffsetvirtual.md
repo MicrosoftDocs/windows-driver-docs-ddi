@@ -6,6 +6,7 @@ old-location: debugger\getnextdifferentlyvalidoffsetvirtual.htm
 tech.root: debugger
 ms.assetid: 1f55cc21-606d-4c7c-8650-51cb686700b3
 ms.date: 05/03/2018
+keywords: ["IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual"]
 ms.keywords: GetNextDifferentlyValidOffsetVirtual, GetNextDifferentlyValidOffsetVirtual method [Windows Debugging], GetNextDifferentlyValidOffsetVirtual method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging],GetNextDifferentlyValidOffsetVirtual method, IDebugDataSpaces4.GetNextDifferentlyValidOffsetVirtual, IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, IDebugDataSpaces_9308b61e-2e9a-4e17-a918-8af4c1b132b8.xml, dbgeng/IDebugDataSpaces4::GetNextDifferentlyValidOffsetVirtual, debugger.getnextdifferentlyvalidoffsetvirtual
 f1_keywords:
  - "dbgeng/IDebugDataSpaces4.GetNextDifferentlyValidOffsetVirtual"

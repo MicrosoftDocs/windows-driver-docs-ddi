@@ -6,6 +6,7 @@ old-location: stream\avstrminipinpower.htm
 tech.root: stream
 ms.assetid: 6362ca08-cf8d-4e54-b144-10b2252f05c5
 ms.date: 04/23/2018
+keywords: ["PFNKSPINPOWER callback function"]
 ms.keywords: AVStrMiniPinPower, AVStrMiniPinPower routine [Streaming Media Devices], PFNKSPINPOWER, avstclbk_fd047ae3-b574-4dad-a16b-2152193fb2cd.xml, ks/AVStrMiniPinPower, stream.avstrminipinpower
 f1_keywords:
  - "ks/AVStrMiniPinPower"

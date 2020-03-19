@@ -6,6 +6,7 @@ old-location: stream\ks_videodecoder_flags.htm
 tech.root: stream
 ms.assetid: 120d7714-8c32-4b83-adc2-c9a933e541e5
 ms.date: 04/29/2019
+keywords: ["KS_VIDEODECODER_FLAGS enumeration"]
 ms.keywords: KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS enumeration [Streaming Media Devices], KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, ksmedia/KS_VIDEODECODER_FLAGS, ksmedia/KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, ksmedia/KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, ksmedia/KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, stream.ks_videodecoder_flags, vidcapstruct_061ba371-f4a8-44b0-8940-bc90b15dbfed.xml
 f1_keywords:
  - "ksmedia/KS_VIDEODECODER_FLAGS"

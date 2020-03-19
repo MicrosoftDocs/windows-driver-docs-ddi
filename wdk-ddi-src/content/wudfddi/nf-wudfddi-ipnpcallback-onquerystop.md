@@ -6,6 +6,7 @@ old-location: wdf\ipnpcallback_onquerystop.htm
 tech.root: wdf
 ms.assetid: e0cb14fa-82d0-4ce3-8672-801e7f04d522
 ms.date: 02/26/2018
+keywords: ["IPnpCallback::OnQueryStop"]
 ms.keywords: IPnpCallback interface,OnQueryStop method, IPnpCallback.OnQueryStop, IPnpCallback::OnQueryStop, OnQueryStop, OnQueryStop method, OnQueryStop method,IPnpCallback interface, UMDFDeviceObjectRef_9215c39e-2cb9-4de6-9fb3-f228dad51f6d.xml, umdf.ipnpcallback_onquerystop, wdf.ipnpcallback_onquerystop, wudfddi/IPnpCallback::OnQueryStop
 f1_keywords:
  - "wudfddi/IPnpCallback.OnQueryStop"

@@ -6,6 +6,7 @@ old-location: kernel\tminitializetransactionmanager_.htm
 tech.root: kernel
 ms.assetid: A44B4B93-4EC7-4FC3-B64F-BF1FF19D067E
 ms.date: 04/30/2018
+keywords: ["TmInitializeTransactionManager function"]
 ms.keywords: TmInitializeTransactionManager, TmInitializeTransactionManager , TmInitializeTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tminitializetransactionmanager_, wdm/TmInitializeTransactionManager
 f1_keywords:
  - "wdm/TmInitializeTransactionManager"

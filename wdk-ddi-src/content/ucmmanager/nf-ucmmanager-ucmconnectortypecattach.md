@@ -6,6 +6,7 @@ old-location: buses\ucmconnectortypecattach.htm
 tech.root: usbref
 ms.assetid: D778E6B6-B245-41D5-B25B-1CF183146BA9
 ms.date: 05/07/2018
+keywords: ["UcmConnectorTypeCAttach function"]
 ms.keywords: UcmConnectorTypeCAttach, UcmConnectorTypeCAttach method [Buses], buses.ucmconnectortypecattach, ucmmanager/UcmConnectorTypeCAttach
 f1_keywords:
  - "ucmmanager/UcmConnectorTypeCAttach"

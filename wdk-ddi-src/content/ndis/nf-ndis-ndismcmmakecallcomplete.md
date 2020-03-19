@@ -6,6 +6,7 @@ old-location: netvista\ndismcmmakecallcomplete.htm
 tech.root: netvista
 ms.assetid: b518f36e-5937-4a74-a1d4-9e1709750843
 ms.date: 05/02/2018
+keywords: ["NdisMCmMakeCallComplete macro"]
 ms.keywords: NdisMCmMakeCallComplete, NdisMCmMakeCallComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_685b4f14-92ef-4c46-a11f-19b34d59734c.xml, ndis/NdisMCmMakeCallComplete, netvista.ndismcmmakecallcomplete
 f1_keywords:
  - "ndis/NdisMCmMakeCallComplete"

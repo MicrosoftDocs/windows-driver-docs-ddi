@@ -6,6 +6,7 @@ old-location: print\uff_fontdirectory.htm
 tech.root: print
 ms.assetid: d1cde8a4-f27b-440c-bfb1-c9a564c59c04
 ms.date: 04/20/2018
+keywords: ["_UFF_FONTDIRECTORY structure"]
 ms.keywords: "*PUFF_FONTDIRECTORY, PUFF_FONTDIRECTORY, PUFF_FONTDIRECTORY structure pointer [Print Devices], UFF_FONTDIRECTORY, UFF_FONTDIRECTORY structure [Print Devices], _UFF_FONTDIRECTORY, print.uff_fontdirectory, print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, prntfont/PUFF_FONTDIRECTORY, prntfont/UFF_FONTDIRECTORY"
 f1_keywords:
  - "prntfont/UFF_FONTDIRECTORY"

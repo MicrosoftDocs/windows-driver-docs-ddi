@@ -6,6 +6,7 @@ old-location: kernel\pssetcreatethreadnotifyroutineex.htm
 tech.root: kernel
 ms.assetid: 586688EC-51B1-488E-BFC6-7796C37593BF
 ms.date: 04/30/2018
+keywords: ["PsSetCreateThreadNotifyRoutineEx function"]
 ms.keywords: PsSetCreateThreadNotifyRoutineEx, PsSetCreateThreadNotifyRoutineEx routine [Kernel-Mode Driver Architecture], kernel.pssetcreatethreadnotifyroutineex, ntddk/PsSetCreateThreadNotifyRoutineEx
 f1_keywords:
  - "ntddk/PsSetCreateThreadNotifyRoutineEx"

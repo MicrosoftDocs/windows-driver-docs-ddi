@@ -6,6 +6,7 @@ old-location: wdf\wdfusbtargetdevicecreatewithparameters.htm
 tech.root: wdf
 ms.assetid: E93A944E-81D5-4059-ADA6-2760A091C30B
 ms.date: 06/24/2019
+keywords: ["WdfUsbTargetDeviceCreateWithParameters function"]
 ms.keywords: WdfUsbTargetDeviceCreateWithParameters, WdfUsbTargetDeviceCreateWithParameters method, kmdf.wdfusbtargetdevicecreatewithconfig, kmdf.wdfusbtargetdevicecreatewithparameters, wdf.wdfusbtargetdevicecreatewithparameters, wdfusb/WdfUsbTargetDeviceCreateWithParameters
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceCreateWithParameters"

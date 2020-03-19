@@ -6,6 +6,7 @@ old-location: kernel\ioreportinterruptactive.htm
 tech.root: kernel
 ms.assetid: 41C3AC04-14AF-4C37-9557-F9FF494F234B
 ms.date: 04/30/2018
+keywords: ["IoReportInterruptActive function"]
 ms.keywords: IoReportInterruptActive, IoReportInterruptActive routine [Kernel-Mode Driver Architecture], kernel.ioreportinterruptactive, wdm/IoReportInterruptActive
 f1_keywords:
  - "wdm/IoReportInterruptActive"

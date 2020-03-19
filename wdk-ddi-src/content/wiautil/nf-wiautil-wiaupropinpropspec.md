@@ -6,6 +6,7 @@ old-location: image\wiaupropinpropspec.htm
 tech.root: image
 ms.assetid: 5ab82378-ff12-46cc-814b-dc533db15a37
 ms.date: 05/03/2018
+keywords: ["wiauPropInPropSpec function"]
 ms.keywords: image.wiaupropinpropspec, wiauFncs_8f694518-d3a5-4636-aae5-046ae519ce0e.xml, wiauPropInPropSpec, wiauPropInPropSpec function [Imaging Devices], wiautil/wiauPropInPropSpec
 f1_keywords:
  - "wiautil/wiauPropInPropSpec"

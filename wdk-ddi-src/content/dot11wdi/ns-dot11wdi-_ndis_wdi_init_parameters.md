@@ -6,6 +6,7 @@ old-location: netvista\ndis_wdi_init_parameters.htm
 tech.root: netvista
 ms.assetid: 871D266C-55DF-4113-9714-92AB129303E5
 ms.date: 05/02/2018
+keywords: ["_NDIS_WDI_INIT_PARAMETERS structure"]
 ms.keywords: "*PNDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_WDI_INIT_PARAMETERS, PNDIS_WDI_INIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WDI_INIT_PARAMETERS, dot11wdi/NDIS_WDI_INIT_PARAMETERS, dot11wdi/PNDIS_WDI_INIT_PARAMETERS, netvista.ndis_wdi_init_parameters"
 f1_keywords:
  - "dot11wdi/NDIS_WDI_INIT_PARAMETERS"

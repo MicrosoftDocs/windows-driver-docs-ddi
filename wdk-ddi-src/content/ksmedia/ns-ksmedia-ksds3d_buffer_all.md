@@ -6,6 +6,7 @@ old-location: audio\ksds3d_buffer_all.htm
 tech.root: audio
 ms.assetid: c94e2189-62a6-44d6-9a29-4fd32c72437a
 ms.date: 05/08/2018
+keywords: ["KSDS3D_BUFFER_ALL structure"]
 ms.keywords: "*PKSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL structure [Audio Devices], PKSDS3D_BUFFER_ALL, PKSDS3D_BUFFER_ALL structure pointer [Audio Devices], aud-prop_46bd2b81-3d2a-49e1-93e6-867e84ae4c04.xml, audio.ksds3d_buffer_all, ksmedia/KSDS3D_BUFFER_ALL, ksmedia/PKSDS3D_BUFFER_ALL"
 f1_keywords:
  - "ksmedia/KSDS3D_BUFFER_ALL"

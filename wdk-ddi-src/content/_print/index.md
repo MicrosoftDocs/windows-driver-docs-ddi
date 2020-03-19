@@ -3,6 +3,7 @@ UID: TP:print
 title: Print devices
 ms.assetid: fc0e0b85-603b-35c9-9d94-fc5cb18ea7c1
 ms.date: 02/11/2020
+keywords: ["Print devices"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

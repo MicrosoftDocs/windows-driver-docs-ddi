@@ -6,6 +6,7 @@ old-location: wdf\wdfdriverisversionavailable.htm
 tech.root: wdf
 ms.assetid: 5635b99d-c58d-4a17-bb51-2dc38e51421a
 ms.date: 02/26/2018
+keywords: ["WdfDriverIsVersionAvailable function"]
 ms.keywords: DFDriverObjectRef_56291c91-1c81-486d-89ce-948d037b8bc4.xml, WdfDriverIsVersionAvailable, WdfDriverIsVersionAvailable method, kmdf.wdfdriverisversionavailable, wdf.wdfdriverisversionavailable, wdfdriver/WdfDriverIsVersionAvailable
 f1_keywords:
  - "wdfdriver/WdfDriverIsVersionAvailable"

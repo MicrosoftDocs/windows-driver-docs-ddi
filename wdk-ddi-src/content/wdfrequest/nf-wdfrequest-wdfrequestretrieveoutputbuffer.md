@@ -6,6 +6,7 @@ old-location: wdf\wdfrequestretrieveoutputbuffer.htm
 tech.root: wdf
 ms.assetid: 5f12dd97-d8e7-4fef-91bf-00243c0cdd52
 ms.date: 02/26/2018
+keywords: ["WdfRequestRetrieveOutputBuffer function"]
 ms.keywords: DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml, WdfRequestRetrieveOutputBuffer, WdfRequestRetrieveOutputBuffer method, kmdf.wdfrequestretrieveoutputbuffer, wdf.wdfrequestretrieveoutputbuffer, wdfrequest/WdfRequestRetrieveOutputBuffer
 f1_keywords:
  - "wdfrequest/WdfRequestRetrieveOutputBuffer"

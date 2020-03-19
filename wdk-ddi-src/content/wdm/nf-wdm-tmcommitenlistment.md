@@ -6,6 +6,7 @@ old-location: kernel\tmcommitenlistment.htm
 tech.root: kernel
 ms.assetid: f1f0c337-9567-4def-b0fb-09dabfdf294d
 ms.date: 04/30/2018
+keywords: ["TmCommitEnlistment function"]
 ms.keywords: TmCommitEnlistment, TmCommitEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmcommitenlistment, ktm_ref_c34bfdb9-5d62-448c-a82f-a8df21f05371.xml, wdm/TmCommitEnlistment
 f1_keywords:
  - "wdm/TmCommitEnlistment"

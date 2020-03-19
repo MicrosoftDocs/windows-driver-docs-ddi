@@ -4,6 +4,7 @@ title: USBC_PD_POWER_DATA_OBJECT_GET_TYPE function (usbctypes.h)
 description: Retrieves the type of Power Data Object (PDO).
 ms.assetid: 5953ae1b-9880-4200-bc7a-3666396fb4d5
 ms.date: 09/30/2018
+keywords: ["USBC_PD_POWER_DATA_OBJECT_GET_TYPE function"]
 f1_keywords:
  - "usbctypes/USBC_PD_POWER_DATA_OBJECT_GET_TYPE"
 ms.keywords: USBC_PD_POWER_DATA_OBJECT_GET_TYPE

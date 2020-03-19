@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 33f7e458-2da9-43e4-a335-4e27e2ef1ac6
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
+keywords: ["DlGetRegistryParameters function"]
 f1_keywords:
  - "dispmprt/DlGetRegistryParameters"
 ms.keywords: DlGetRegistryParameters

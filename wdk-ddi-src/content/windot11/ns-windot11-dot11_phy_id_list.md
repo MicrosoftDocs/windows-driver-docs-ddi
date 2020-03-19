@@ -6,6 +6,7 @@ old-location: netvista\dot11_phy_id_list.htm
 tech.root: netvista
 ms.assetid: f5b2da7f-69b2-4c3d-85dc-2f616c282c5d
 ms.date: 02/16/2018
+keywords: ["DOT11_PHY_ID_LIST structure"]
 ms.keywords: "*PDOT11_PHY_ID_LIST, DOT11_PHY_ID_LIST, DOT11_PHY_ID_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e6b82eab-cd00-460f-8956-9b1c8cf86be1.xml, PDOT11_PHY_ID_LIST, PDOT11_PHY_ID_LIST structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_phy_id_list, windot11/DOT11_PHY_ID_LIST, windot11/PDOT11_PHY_ID_LIST"
 f1_keywords:
  - "windot11/DOT11_PHY_ID_LIST"

@@ -6,6 +6,7 @@ old-location: stream\kscreatepin2.htm
 tech.root: stream
 ms.assetid: 43408247-0c34-46bd-a36b-b11540a10c55
 ms.date: 04/23/2018
+keywords: ["KsCreatePin2 function"]
 ms.keywords: KsCreatePin2, KsCreatePin2 function [Streaming Media Devices], ks/KsCreatePin2, stream.kscreatepin2
 f1_keywords:
  - "ks/KsCreatePin2"

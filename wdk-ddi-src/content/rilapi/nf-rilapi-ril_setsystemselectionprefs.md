@@ -6,6 +6,7 @@ old-location: netvista\ril_setsystemselectionprefs.htm
 tech.root: netvista
 ms.assetid: 57384690-9fe0-4fee-a578-5451e57cfc6b
 ms.date: 05/02/2018
+keywords: ["RIL_SetSystemSelectionPrefs function"]
 ms.keywords: RIL_SetSystemSelectionPrefs, RIL_SetSystemSelectionPrefs method [Network Drivers Starting with Windows Vista], netvista.ril_setsystemselectionprefs, rilapi/RIL_SetSystemSelectionPrefs
 f1_keywords:
  - "rilapi/RIL_SetSystemSelectionPrefs"

@@ -4,6 +4,7 @@ title: D3D12DDIARG_TEX2D_DEPTH_STENCIL_VIEW (d3d12umddi.h)
 description: Describes a two-dimensional (2-D) texture that is used to create a depth stencil view.
 ms.assetid: 192371ec-7764-4001-bf6b-3ef10f249f06
 ms.date: 10/19/2018
+keywords: ["D3D12DDIARG_TEX2D_DEPTH_STENCIL_VIEW structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_TEX2D_DEPTH_STENCIL_VIEW"
 ms.keywords: D3D12DDIARG_TEX2D_DEPTH_STENCIL_VIEW, D3D12DDIARG_TEX2D_DEPTH_STENCIL_VIEW, 

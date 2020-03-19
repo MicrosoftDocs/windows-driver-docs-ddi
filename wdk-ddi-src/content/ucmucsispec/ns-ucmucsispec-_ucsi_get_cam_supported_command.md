@@ -5,6 +5,7 @@ tech.root: usbref
 description: Used in the GET_CAM_SUPPORTED command. See Table 4-27. 
 ms.assetid: 0bec638b-c295-43ac-b35b-267f22f8f561
 ms.date: 09/30/2018
+keywords: ["_UCSI_GET_CAM_SUPPORTED_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_CAM_SUPPORTED_COMMAND"
 ms.keywords: _UCSI_GET_CAM_SUPPORTED_COMMAND, UCSI_GET_CAM_SUPPORTED_COMMAND, *PUCSI_GET_CAM_SUPPORTED_COMMAND, 

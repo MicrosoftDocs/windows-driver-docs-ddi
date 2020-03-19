@@ -6,6 +6,7 @@ old-location: debugger\idebugclient5_pushoutputlineprefix.htm
 tech.root: debugger
 ms.assetid: 20446E2D-94D3-43D6-ABBF-2FA15F089659
 ms.date: 05/03/2018
+keywords: ["IDebugClient5::PushOutputLinePrefix"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],PushOutputLinePrefix method, IDebugClient5.PushOutputLinePrefix, IDebugClient5::PushOutputLinePrefix, PushOutputLinePrefix, PushOutputLinePrefix method [Windows Debugging], PushOutputLinePrefix method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::PushOutputLinePrefix, debugger.idebugclient5_pushoutputlineprefix
 f1_keywords:
  - "dbgeng/IDebugClient5.PushOutputLinePrefix"

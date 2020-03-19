@@ -4,6 +4,7 @@ title: IOCTL_SBAUD_SET_DEVICE_CLAIMED (sidebandaudio.h)
 description: 
 ms.assetid: dd8715ec-a4ef-4269-9ce8-bad347270df7
 ms.date: 10/05/2018
+keywords: ["IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL"]
 f1_keywords:
  - "sidebandaudio/IOCTL_SBAUD_SET_DEVICE_CLAIMED"
 req.header: sidebandaudio.h

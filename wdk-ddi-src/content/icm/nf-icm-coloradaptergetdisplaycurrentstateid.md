@@ -4,6 +4,7 @@ title: ColorAdapterGetDisplayCurrentStateID function (icm.h)
 description: This DDI construct is intended for OEM use only.
 ms.assetid: ae9901b7-e040-47c5-a9fa-a9c031ed5550
 ms.date: 09/10/2018
+keywords: ["ColorAdapterGetDisplayCurrentStateID function"]
 ms.topic: function
 ms.keywords: ColorAdapterGetDisplayCurrentStateID
 req.header: icm.h

@@ -3,6 +3,7 @@ UID: NA:winsplp
 title: winsplp.h header
 ms.assetid: e65d4581-0840-38bd-9afe-5a9d19c9769b
 ms.date: 05/09/2018
+keywords: ["Winsplp.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

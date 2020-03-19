@@ -6,6 +6,7 @@ old-location: kernel\silo_monitor_registration.htm
 tech.root: kernel
 ms.assetid: F99F6346-3FEE-4889-A058-C7540A4CBFC8
 ms.date: 04/30/2018
+keywords: ["_SILO_MONITOR_REGISTRATION structure"]
 ms.keywords: "*PSILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], SILO_MONITOR_REGISTRATION, SILO_MONITOR_REGISTRATION structure [Kernel-Mode Driver Architecture], _SILO_MONITOR_REGISTRATION, kernel.silo_monitor_registration, ntddk/PSILO_MONITOR_REGISTRATION, ntddk/SILO_MONITOR_REGISTRATION"
 f1_keywords:
  - "ntddk/SILO_MONITOR_REGISTRATION"

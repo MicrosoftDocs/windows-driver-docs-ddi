@@ -6,6 +6,7 @@ old-location: ifsk\fltregisterfilter.htm
 tech.root: ifsk
 ms.assetid: 46e96f85-d368-40cd-9530-81959d20b750
 ms.date: 04/16/2018
+keywords: ["FltRegisterFilter function"]
 ms.keywords: FltApiRef_p_to_z_41e3002c-d720-4e0f-81cb-36cbc215cdba.xml, FltRegisterFilter, FltRegisterFilter function [Installable File System Drivers], fltkernel/FltRegisterFilter, ifsk.fltregisterfilter
 f1_keywords:
  - "fltkernel/FltRegisterFilter"

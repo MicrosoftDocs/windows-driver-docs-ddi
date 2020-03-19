@@ -6,6 +6,7 @@ old-location: netvista\ril_getsignalquality.htm
 tech.root: netvista
 ms.assetid: 2a708c1a-c4a5-4ccc-b762-3e0310d2a148
 ms.date: 05/02/2018
+keywords: ["RIL_GetSignalQuality function"]
 ms.keywords: RIL_GetSignalQuality, RIL_GetSignalQuality method [Network Drivers Starting with Windows Vista], netvista.ril_getsignalquality, rilapi/RIL_GetSignalQuality
 f1_keywords:
  - "rilapi/RIL_GetSignalQuality"

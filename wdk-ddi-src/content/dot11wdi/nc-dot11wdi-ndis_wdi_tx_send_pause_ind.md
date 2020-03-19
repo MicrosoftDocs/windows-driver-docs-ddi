@@ -6,6 +6,7 @@ old-location: netvista\ndiswditxsendpauseindication.htm
 tech.root: netvista
 ms.assetid: A8001D08-36B8-4557-A763-103BDC807CA4
 ms.date: 05/02/2018
+keywords: ["NDIS_WDI_TX_SEND_PAUSE_IND callback function"]
 ms.keywords: NDIS_WDI_TX_SEND_PAUSE_IND, NDIS_WDI_TX_SEND_PAUSE_IND callback, NdisWdiTxSendPauseIndication, NdisWdiTxSendPauseIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxSendPauseIndication, netvista.ndiswditxsendpauseindication
 f1_keywords:
  - "dot11wdi/NdisWdiTxSendPauseIndication"

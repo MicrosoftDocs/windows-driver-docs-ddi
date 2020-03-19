@@ -5,6 +5,7 @@ description: Provides the full shader binary that is available after shader crea
 old-location: display\assigndebugbinary.htm
 ms.assetid: eb1e3c27-71c1-4920-9aa4-3253306fa3f4
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_ASSIGNDEBUGBINARY callback function"]
 ms.keywords: AssignDebugBinary, AssignDebugBinary callback function [Display Devices], PFND3D11_1DDI_ASSIGNDEBUGBINARY, PFND3D11_1DDI_ASSIGNDEBUGBINARY callback, d3d10umddi/AssignDebugBinary, display.assigndebugbinary, display.assigndebugbinary_d3d11_1_, display.pfnassigndebugbinary
 f1_keywords:
  - "d3d10umddi/AssignDebugBinary"

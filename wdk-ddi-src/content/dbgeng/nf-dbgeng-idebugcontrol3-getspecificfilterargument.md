@@ -6,6 +6,7 @@ old-location: debugger\getspecificfilterargument.htm
 tech.root: debugger
 ms.assetid: a6e32ca9-ebae-482c-808c-6302ccd48db0
 ms.date: 05/03/2018
+keywords: ["IDebugControl3::GetSpecificFilterArgument"]
 ms.keywords: GetSpecificFilterArgument, GetSpecificFilterArgument method [Windows Debugging], GetSpecificFilterArgument method [Windows Debugging],IDebugControl interface, GetSpecificFilterArgument method [Windows Debugging],IDebugControl2 interface, GetSpecificFilterArgument method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetSpecificFilterArgument method, IDebugControl2 interface [Windows Debugging],GetSpecificFilterArgument method, IDebugControl2::GetSpecificFilterArgument, IDebugControl3 interface [Windows Debugging],GetSpecificFilterArgument method, IDebugControl3.GetSpecificFilterArgument, IDebugControl3::GetSpecificFilterArgument, IDebugControl::GetSpecificFilterArgument, IDebugControl_ab3a5161-b3e1-47fe-bc97-1f75af363cff.xml, dbgeng/IDebugControl2::GetSpecificFilterArgument, dbgeng/IDebugControl3::GetSpecificFilterArgument, dbgeng/IDebugControl::GetSpecificFilterArgument, debugger.getspecificfilterargument
 f1_keywords:
  - "dbgeng/IDebugControl.GetSpecificFilterArgument"

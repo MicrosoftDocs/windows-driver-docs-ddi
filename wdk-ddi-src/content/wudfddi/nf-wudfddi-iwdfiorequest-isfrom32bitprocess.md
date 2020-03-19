@@ -6,6 +6,7 @@ old-location: wdf\iwdfiorequest_isfrom32bitprocess.htm
 tech.root: wdf
 ms.assetid: 80e43bd7-9ab9-46b0-a7f3-08c3577be4bc
 ms.date: 02/26/2018
+keywords: ["IWDFIoRequest::IsFrom32BitProcess"]
 ms.keywords: IWDFIoRequest interface,IsFrom32BitProcess method, IWDFIoRequest.IsFrom32BitProcess, IWDFIoRequest::IsFrom32BitProcess, IsFrom32BitProcess, IsFrom32BitProcess method, IsFrom32BitProcess method,IWDFIoRequest interface, UMDFRequestObjectRef_728bc611-2c40-4a49-b967-77e388072860.xml, umdf.iwdfiorequest_isfrom32bitprocess, wdf.iwdfiorequest_isfrom32bitprocess, wudfddi/IWDFIoRequest::IsFrom32BitProcess
 f1_keywords:
  - "wudfddi/IWDFIoRequest.IsFrom32BitProcess"

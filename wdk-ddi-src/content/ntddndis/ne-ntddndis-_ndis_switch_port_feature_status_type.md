@@ -6,6 +6,7 @@ old-location: netvista\ndis_switch_port_feature_status_type.htm
 tech.root: netvista
 ms.assetid: bdf19090-5688-4496-8f9a-3a1c422ede60
 ms.date: 05/02/2018
+keywords: ["_NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration"]
 ms.keywords: "*PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortFeatureStatusTypeCustom, NdisSwitchPortFeatureStatusTypeMaximum, NdisSwitchPortFeatureStatusTypeUndefined, PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, netvista.ndis_switch_port_feature_status_type, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, ntddndis/NdisSwitchPortFeatureStatusTypeCustom, ntddndis/NdisSwitchPortFeatureStatusTypeMaximum, ntddndis/NdisSwitchPortFeatureStatusTypeUndefined, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE"
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE"

@@ -6,6 +6,7 @@ old-location: ifsk\rtldeleteace.htm
 tech.root: ifsk
 ms.assetid: 2bf90d1d-887f-4d0c-8d79-e102a14dfe71
 ms.date: 04/16/2018
+keywords: ["RtlDeleteAce function"]
 ms.keywords: RtlDeleteAce, RtlDeleteAce routine [Installable File System Drivers], ifsk.rtldeleteace, ntifs/RtlDeleteAce, rtlref_68fe46f1-318a-48c6-9004-c338f52f41a5.xml
 f1_keywords:
  - "ntifs/RtlDeleteAce"

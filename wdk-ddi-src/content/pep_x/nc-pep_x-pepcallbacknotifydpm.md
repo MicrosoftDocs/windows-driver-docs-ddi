@@ -6,6 +6,7 @@ old-location: kernel\acceptdevicenotification.htm
 tech.root: kernel
 ms.assetid: 56446DA9-EAE9-4EEF-9299-892B7384D506
 ms.date: 04/30/2018
+keywords: ["PEPCALLBACKNOTIFYDPM callback function"]
 ms.keywords: AcceptDeviceNotification, AcceptDeviceNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYDPM, kernel.acceptdevicenotification, pepfx/AcceptDeviceNotification
 f1_keywords:
  - "pep_x/AcceptDeviceNotification"

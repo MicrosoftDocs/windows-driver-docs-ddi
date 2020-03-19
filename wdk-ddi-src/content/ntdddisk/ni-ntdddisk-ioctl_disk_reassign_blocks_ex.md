@@ -6,6 +6,7 @@ old-location: storage\ioctl_disk_reassign_blocks_ex.htm
 tech.root: storage
 ms.assetid: 885CC365-A730-4C1E-AD74-89D47DC17407
 ms.date: 03/29/2018
+keywords: ["IOCTL_DISK_REASSIGN_BLOCKS_EX IOCTL"]
 ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS_EX, IOCTL_DISK_REASSIGN_BLOCKS_EX control, IOCTL_DISK_REASSIGN_BLOCKS_EX control code [Storage Devices], ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS_EX, storage.ioctl_disk_reassign_blocks_ex
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS_EX"

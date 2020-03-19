@@ -5,6 +5,7 @@ description: The DXGK_PATCHFLAGS structure identifies, in bit-field flags, infor
 old-location: display\dxgk_patchflags.htm
 ms.assetid: 4052b760-70b0-4418-84f9-1e520a551a03
 ms.date: 05/10/2018
+keywords: ["_DXGK_PATCHFLAGS structure"]
 ms.keywords: DXGK_PATCHFLAGS, DXGK_PATCHFLAGS structure [Display Devices], DmStructs_e798cfa4-1915-42c8-87ad-709df6a5555f.xml, _DXGK_PATCHFLAGS, d3dkmddi/DXGK_PATCHFLAGS, display.dxgk_patchflags
 f1_keywords:
  - "d3dkmddi/DXGK_PATCHFLAGS"

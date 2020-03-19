@@ -4,6 +4,7 @@ title: IDebugHostExtensibility::DestroyFunctionAlias (dbgmodel.h)
 description: The DestroyFunctionAlias method undoes a prior call to the CreateFunctionAlias method. 
 ms.assetid: 804810be-bb3a-41e8-b239-919625eb6f0c
 ms.date: 09/12/2018
+keywords: ["IDebugHostExtensibility::DestroyFunctionAlias"]
 f1_keywords:
  - "dbgmodel/IDebugHostExtensibility.DestroyFunctionAlias"
 ms.keywords: IDebugHostExtensibility::DestroyFunctionAlias, DestroyFunctionAlias, IDebugHostExtensibility.DestroyFunctionAlias, IDebugHostExtensibility::DestroyFunctionAlias, IDebugHostExtensibility.DestroyFunctionAlias

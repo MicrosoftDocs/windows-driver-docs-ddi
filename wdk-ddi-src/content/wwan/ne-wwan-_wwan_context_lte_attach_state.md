@@ -5,6 +5,7 @@ description: The WWAN_CONTEXT_LTE_ATTACH_STATE enumeration indicates whether a m
 tech.root: netvista
 ms.assetid: 175870ff-079c-4111-97e5-30b2cea7b43e
 ms.date: 08/23/2018
+keywords: ["_WWAN_CONTEXT_LTE_ATTACH_STATE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_CONTEXT_LTE_ATTACH_STATE"
 ms.keywords: _WWAN_CONTEXT_LTE_ATTACH_STATE, WWAN_CONTEXT_LTE_ATTACH_STATE, *PWWAN_CONTEXT_LTE_ATTACH_STATE, 

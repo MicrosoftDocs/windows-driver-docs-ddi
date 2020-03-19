@@ -6,6 +6,7 @@ old-location: display\iddcxmonitorqueryhardwarecursor.htm
 tech.root: display
 ms.assetid: e954b7e7-9e4a-47ae-9b0f-8c7e051cc00e
 ms.date: 05/10/2018
+keywords: ["IddCxMonitorQueryHardwareCursor function"]
 ms.keywords: IddCxMonitorQueryHardwareCursor, IddCxMonitorQueryHardwareCursor method [Display Devices], display.iddcxmonitorqueryhardwarecursor, iddcx/IddCxMonitorQueryHardwareCursor
 f1_keywords:
  - "iddcx/IddCxMonitorQueryHardwareCursor"

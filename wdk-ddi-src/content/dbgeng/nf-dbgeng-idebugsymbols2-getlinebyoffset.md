@@ -6,6 +6,7 @@ old-location: debugger\getlinebyoffset.htm
 tech.root: debugger
 ms.assetid: 1b470ae8-49d3-467d-aa08-08bd9c9e9466
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols2::GetLineByOffset"]
 ms.keywords: GetLineByOffset, GetLineByOffset method [Windows Debugging], GetLineByOffset method [Windows Debugging],IDebugSymbols interface, GetLineByOffset method [Windows Debugging],IDebugSymbols2 interface, GetLineByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetLineByOffset method, IDebugSymbols2 interface [Windows Debugging],GetLineByOffset method, IDebugSymbols2.GetLineByOffset, IDebugSymbols2::GetLineByOffset, IDebugSymbols3 interface [Windows Debugging],GetLineByOffset method, IDebugSymbols3::GetLineByOffset, IDebugSymbols::GetLineByOffset, IDebugSymbols_2ed557af-4f84-46d7-be40-fd37a87cd960.xml, dbgeng/IDebugSymbols2::GetLineByOffset, dbgeng/IDebugSymbols3::GetLineByOffset, dbgeng/IDebugSymbols::GetLineByOffset, debugger.getlinebyoffset
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetLineByOffset"

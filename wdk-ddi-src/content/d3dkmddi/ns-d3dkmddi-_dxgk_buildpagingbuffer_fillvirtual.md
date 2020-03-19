@@ -5,6 +5,7 @@ description: DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL is used as part of an operation 
 old-location: display\dxgk_buildpagingbuffer_fillvirtual.htm
 ms.assetid: 373065F6-C754-4517-905E-86A974866120
 ms.date: 05/10/2018
+keywords: ["_DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL structure"]
 ms.keywords: DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, d3dkmddi/DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL, display.dxgk_buildpagingbuffer_fillvirtual
 f1_keywords:
  - "d3dkmddi/DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL"

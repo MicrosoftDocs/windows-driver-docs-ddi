@@ -6,6 +6,7 @@ old-location: display\createauthenticatedchannel.htm
 tech.root: display
 ms.assetid: 0a565bff-fc6f-41c1-a6fd-3a82dd0d7889
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_CREATEAUTHENTICATEDCHANNEL callback function"]
 ms.keywords: CreateAuthenticatedChannel, CreateAuthenticatedChannel callback function [Display Devices], PFND3DDDI_CREATEAUTHENTICATEDCHANNEL, PFND3DDDI_CREATEAUTHENTICATEDCHANNEL callback, UserModeDisplayDriver_Functions_5645674c-e4e5-4b9c-9cbf-588b829df423.xml, d3dumddi/CreateAuthenticatedChannel, display.createauthenticatedchannel
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: ec713591-4ac2-4f68-888d-e29c8784d8b6
 ms.author: windowsdriverdev
 ms.date: 10/08/2019
+keywords: ["NET_WAKE_SOURCE_LIST_INIT function"]
 f1_keywords:
  - "netwakesourcelist/NET_WAKE_SOURCE_LIST_INIT"
 ms.keywords: NET_WAKE_SOURCE_LIST_INIT

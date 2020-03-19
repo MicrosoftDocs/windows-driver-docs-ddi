@@ -6,6 +6,7 @@ old-location: print\printdocumentonprintprocessor.htm
 tech.root: print
 ms.assetid: 1360a699-e312-40be-bf2f-b73b1419cfc5
 ms.date: 04/20/2018
+keywords: ["PrintDocumentOnPrintProcessor function"]
 ms.keywords: PrintDocumentOnPrintProcessor, PrintDocumentOnPrintProcessor function [Print Devices], print.printdocumentonprintprocessor, spoolfnc_38f81d3c-62d9-4804-ad89-120c9a333a09.xml, winsplp/PrintDocumentOnPrintProcessor
 f1_keywords:
  - "winsplp/PrintDocumentOnPrintProcessor"

@@ -6,6 +6,7 @@ old-location: kernel\rtluintptradd.htm
 tech.root: kernel
 ms.assetid: 9106CE96-A26F-4358-9668-2C0E331BB793
 ms.date: 04/30/2018
+keywords: ["RtlUIntPtrAdd function"]
 ms.keywords: RtlUIntPtrAdd, RtlUIntPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtluintptradd, ntintsafe/RtlUIntPtrAdd
 f1_keywords:
  - "ntintsafe/RtlUIntPtrAdd"

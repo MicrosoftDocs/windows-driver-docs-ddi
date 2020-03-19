@@ -6,6 +6,7 @@ old-location: kernel\rtllonglongtouchar.htm
 tech.root: kernel
 ms.assetid: 58380931-F16E-478D-8C1B-690CF90C4BD0
 ms.date: 04/30/2018
+keywords: ["RtlLongLongToUChar function"]
 ms.keywords: RtlLongLongToUChar, RtlLongLongToUChar function [Kernel-Mode Driver Architecture], kernel.rtllonglongtouchar, ntintsafe/RtlLongLongToUChar
 f1_keywords:
  - "ntintsafe/RtlLongLongToUChar"

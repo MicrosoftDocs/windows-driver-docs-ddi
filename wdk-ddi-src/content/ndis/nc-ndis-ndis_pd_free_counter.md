@@ -6,6 +6,7 @@ old-location: netvista\ndispdfreecounter.htm
 tech.root: netvista
 ms.assetid: 60C47437-A999-4F82-B144-6F77410E5C07
 ms.date: 05/02/2018
+keywords: ["NDIS_PD_FREE_COUNTER callback function"]
 ms.keywords: NDIS_PD_FREE_COUNTER, NDIS_PD_FREE_COUNTER callback, NdisPDFreeCounter, NdisPDFreeCounter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDFreeCounter, netvista.ndispdfreecounter
 f1_keywords:
  - "ndis/NdisPDFreeCounter"

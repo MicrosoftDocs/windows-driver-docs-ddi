@@ -6,6 +6,7 @@ old-location: kernel\freemapregisters.htm
 tech.root: kernel
 ms.assetid: 0326229f-cf02-4368-bc32-7fbed118714b
 ms.date: 04/30/2018
+keywords: ["PFREE_MAP_REGISTERS callback function"]
 ms.keywords: FreeMapRegisters, FreeMapRegisters callback function [Kernel-Mode Driver Architecture], PFREE_MAP_REGISTERS, PFREE_MAP_REGISTERS callback, kdma_039f59c4-101e-40c2-bf2e-a0faa7c11032.xml, kernel.freemapregisters, wdm/FreeMapRegisters
 f1_keywords:
  - "wdm/FreeMapRegisters"

@@ -5,6 +5,7 @@ description: The MbbDeviceSendServiceSessionDataComplete method frees memory pre
 tech.root: netvista
 ms.assetid: 31c3aa3b-87ac-47bc-95e3-918a569b1dff
 ms.date: 06/29/2018
+keywords: ["MbbDeviceSendDeviceServiceSessionDataComplete function"]
 f1_keywords:
  - "mbbcx/MbbDeviceSendDeviceServiceSessionDataComplete"
 ms.keywords: MbbDeviceSendDeviceServiceSessionDataComplete

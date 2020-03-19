@@ -6,6 +6,7 @@ old-location: netvista\dot11_wfd_device_type.htm
 tech.root: netvista
 ms.assetid: 4AE7C35B-D2EA-4987-8195-EDD472C39681
 ms.date: 02/16/2018
+keywords: ["_DOT11_WFD_DEVICE_TYPE structure"]
 ms.keywords: "*PDOT11_WFD_DEVICE_TYPE, DOT11_WFD_DEVICE_TYPE, DOT11_WFD_DEVICE_TYPE structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DEVICE_TYPE, PDOT11_WFD_DEVICE_TYPE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DEVICE_TYPE, netvista.dot11_wfd_device_type, windot11/DOT11_WFD_DEVICE_TYPE, windot11/PDOT11_WFD_DEVICE_TYPE"
 f1_keywords:
  - "windot11/DOT11_WFD_DEVICE_TYPE"

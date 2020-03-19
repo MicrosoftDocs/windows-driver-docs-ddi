@@ -6,6 +6,7 @@ old-location: kernel\iogetinitialstack.htm
 tech.root: kernel
 ms.assetid: 0d0d793f-c2c1-48ff-9e7f-ef2697255bfa
 ms.date: 04/30/2018
+keywords: ["IoGetInitialStack function"]
 ms.keywords: IoGetInitialStack, IoGetInitialStack routine [Kernel-Mode Driver Architecture], k104_5e1ac4e5-b51e-4840-86e3-2ce67c634489.xml, kernel.iogetinitialstack, wdm/IoGetInitialStack
 f1_keywords:
  - "wdm/IoGetInitialStack"

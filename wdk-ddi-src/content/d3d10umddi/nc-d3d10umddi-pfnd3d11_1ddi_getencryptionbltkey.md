@@ -5,6 +5,7 @@ description: Queries the key that is used to decrypt the data returned by the En
 old-location: display\getencryptionbltkey1.htm
 ms.assetid: f1d3a443-7980-4894-b6a9-04c0886c6996
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_GETENCRYPTIONBLTKEY callback function"]
 ms.keywords: PFND3D11_1DDI_GETENCRYPTIONBLTKEY, PFND3D11_1DDI_GETENCRYPTIONBLTKEY callback, d3d10umddi/pfnGetEncryptionBltKey, display.getencryptionbltkey1, pfnGetEncryptionBltKey, pfnGetEncryptionBltKey callback function [Display Devices]
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

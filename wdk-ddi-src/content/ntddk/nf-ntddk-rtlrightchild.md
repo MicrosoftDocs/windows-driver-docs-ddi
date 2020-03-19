@@ -6,6 +6,7 @@ old-location: ifsk\rtlrightchild.htm
 tech.root: ifsk
 ms.assetid: 1b906983-b000-449b-8e82-46ade5384168
 ms.date: 04/16/2018
+keywords: ["RtlRightChild macro"]
 ms.keywords: RtlRightChild, RtlRightChild routine [Installable File System Drivers], ifsk.rtlrightchild, ntddk/RtlRightChild, rtlref_be516cb5-c4a7-4eb7-8faa-eac591b0902d.xml
 f1_keywords:
  - "ntddk/RtlRightChild"

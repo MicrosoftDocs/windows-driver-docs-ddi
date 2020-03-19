@@ -6,6 +6,7 @@ old-location: storage\sendrps_out.htm
 tech.root: storage
 ms.assetid: 5d243704-7424-4738-b122-6b9467eb5916
 ms.date: 03/29/2018
+keywords: ["_SendRPS_OUT structure"]
 ms.keywords: "*PSendRPS_OUT, SendRPS_OUT, SendRPS_OUT structure [Storage Devices], _SendRPS_OUT, hbapiwmi/SendRPS_OUT, storage.sendrps_out, structs-Fibre_0c81817b-666f-4b2b-8ae2-2342894d7c46.xml"
 f1_keywords:
  - "hbapiwmi/SendRPS_OUT"

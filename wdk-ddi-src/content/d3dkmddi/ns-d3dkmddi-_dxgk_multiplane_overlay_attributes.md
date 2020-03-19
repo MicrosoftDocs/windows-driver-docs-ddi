@@ -5,6 +5,7 @@ description: Used by the display miniport driver to specify overlay plane attrib
 old-location: display\dxgk_multiplane_overlay_attributes.htm
 ms.assetid: 1f48a08f-138c-44b4-b13f-efa9b448ce4f
 ms.date: 05/10/2018
+keywords: ["_DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES, display.dxgk_multiplane_overlay_attributes
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES"

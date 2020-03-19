@@ -6,6 +6,7 @@ old-location: storage\scsiportreadportulong.htm
 tech.root: storage
 ms.assetid: 2b45d62f-1e0c-4445-a8ad-e8d263f7d43c
 ms.date: 03/29/2018
+keywords: ["ScsiPortReadPortUlong function"]
 ms.keywords: ScsiPortReadPortUlong, ScsiPortReadPortUlong routine [Storage Devices], scsiprt_af6cc9e1-eaa8-4c05-a695-ed54690d0f3b.xml, srb/ScsiPortReadPortUlong, storage.scsiportreadportulong
 f1_keywords:
  - "srb/ScsiPortReadPortUlong"

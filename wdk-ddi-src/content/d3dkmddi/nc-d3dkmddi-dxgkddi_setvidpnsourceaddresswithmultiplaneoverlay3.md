@@ -5,6 +5,7 @@ description: Called to change the overlay configuration being displayed.
 old-location: display\dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.htm
 ms.assetid: B4B6C5F0-AB67-4D30-B6A5-76B7596D22B6
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3 callback function"]
 ms.keywords: DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3, DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3 callback, DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3 callback function [Display Devices], d3dkmddi/DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3, display.dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3
 req.header: d3dkmddi.h
 req.include-header: 

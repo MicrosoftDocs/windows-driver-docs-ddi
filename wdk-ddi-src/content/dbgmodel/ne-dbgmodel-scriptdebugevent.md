@@ -4,6 +4,7 @@ title: ScriptDebugEvent (dbgmodel.h)
 description: Defines what debug event occurred.
 ms.assetid: 79741ba7-a920-4f0e-a953-9ff6a0a8ee85
 ms.date: 07/16/2018
+keywords: ["ScriptDebugEvent enumeration"]
 f1_keywords:
  - "dbgmodel/ScriptDebugEvent"
 ms.keywords: ScriptDebugEvent, , 

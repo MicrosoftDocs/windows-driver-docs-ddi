@@ -6,6 +6,7 @@ old-location: display\dxgkmdt_opm_random_number.htm
 tech.root: display
 ms.assetid: 40b3217f-2529-4551-ad72-7e1600b58351
 ms.date: 05/10/2018
+keywords: ["_DXGKMDT_OPM_RANDOM_NUMBER structure"]
 ms.keywords: "*PDXGKMDT_OPM_RANDOM_NUMBER, DXGKMDT_OPM_RANDOM_NUMBER, DXGKMDT_OPM_RANDOM_NUMBER structure [Display Devices], DmStructs_904ac539-a89e-4192-b520-29837016633d.xml, PDXGKMDT_OPM_RANDOM_NUMBER, PDXGKMDT_OPM_RANDOM_NUMBER structure pointer [Display Devices], _DXGKMDT_OPM_RANDOM_NUMBER, d3dkmdt/DXGKMDT_OPM_RANDOM_NUMBER, d3dkmdt/PDXGKMDT_OPM_RANDOM_NUMBER, display.dxgkmdt_opm_random_number"
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_RANDOM_NUMBER"

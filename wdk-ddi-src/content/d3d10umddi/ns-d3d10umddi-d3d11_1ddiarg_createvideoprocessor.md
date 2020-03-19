@@ -5,6 +5,7 @@ description: Specifies the attributes of a video processor object.
 old-location: display\d3d11_1ddiarg_createvideoprocessor.htm
 ms.assetid: 957cfebe-4cd9-4a35-822e-ebde4cd9e84c
 ms.date: 05/10/2018
+keywords: ["D3D11_1DDIARG_CREATEVIDEOPROCESSOR structure"]
 ms.keywords: D3D11_1DDIARG_CREATEVIDEOPROCESSOR, D3D11_1DDIARG_CREATEVIDEOPROCESSOR structure [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSOR, display.d3d11_1ddiarg_createvideoprocessor
 f1_keywords:
  - "d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSOR"

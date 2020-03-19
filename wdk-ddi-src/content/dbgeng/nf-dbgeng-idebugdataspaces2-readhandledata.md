@@ -6,6 +6,7 @@ old-location: debugger\readhandledata.htm
 tech.root: debugger
 ms.assetid: 9ad8e8c1-6aee-4eac-93e6-5997212c63d0
 ms.date: 05/03/2018
+keywords: ["IDebugDataSpaces2::ReadHandleData"]
 ms.keywords: IDebugDataSpaces2 interface [Windows Debugging],ReadHandleData method, IDebugDataSpaces2.ReadHandleData, IDebugDataSpaces2::ReadHandleData, IDebugDataSpaces3 interface [Windows Debugging],ReadHandleData method, IDebugDataSpaces3::ReadHandleData, IDebugDataSpaces4 interface [Windows Debugging],ReadHandleData method, IDebugDataSpaces4::ReadHandleData, IDebugDataSpaces_cbad043a-7b6e-4c5c-8a14-9a7b20a0b125.xml, ReadHandleData, ReadHandleData method [Windows Debugging], ReadHandleData method [Windows Debugging],IDebugDataSpaces2 interface, ReadHandleData method [Windows Debugging],IDebugDataSpaces3 interface, ReadHandleData method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadHandleData, dbgeng/IDebugDataSpaces3::ReadHandleData, dbgeng/IDebugDataSpaces4::ReadHandleData, debugger.readhandledata
 f1_keywords:
  - "dbgeng/IDebugDataSpaces2.ReadHandleData"

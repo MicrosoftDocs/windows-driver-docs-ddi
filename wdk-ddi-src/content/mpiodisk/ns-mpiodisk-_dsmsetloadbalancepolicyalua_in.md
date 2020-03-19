@@ -6,6 +6,7 @@ old-location: storage\dsmsetloadbalancepolicyalua_in.htm
 tech.root: storage
 ms.assetid: d46cfba0-a749-436a-99ad-d3606aea9a4d
 ms.date: 03/29/2018
+keywords: ["_DsmSetLoadBalancePolicyALUA_IN structure"]
 ms.keywords: "*PDsmSetLoadBalancePolicyALUA_IN, DsmSetLoadBalancePolicyALUA_IN, DsmSetLoadBalancePolicyALUA_IN structure [Storage Devices], PDsmSetLoadBalancePolicyALUA_IN, PDsmSetLoadBalancePolicyALUA_IN structure pointer [Storage Devices], _DsmSetLoadBalancePolicyALUA_IN, mpiodisk/DsmSetLoadBalancePolicyALUA_IN, mpiodisk/PDsmSetLoadBalancePolicyALUA_IN, storage.dsmsetloadbalancepolicyalua_in, structs-scsibus_898bd48b-e522-4a78-ac0a-a7ae10d0c1d0.xml"
 f1_keywords:
  - "mpiodisk/DsmSetLoadBalancePolicyALUA_IN"

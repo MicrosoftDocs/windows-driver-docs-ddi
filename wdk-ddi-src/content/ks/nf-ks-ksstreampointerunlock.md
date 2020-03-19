@@ -6,6 +6,7 @@ old-location: stream\ksstreampointerunlock.htm
 tech.root: stream
 ms.assetid: 1d03b97f-5c01-48b2-a0e4-2dc6bf732813
 ms.date: 04/23/2018
+keywords: ["KsStreamPointerUnlock function"]
 ms.keywords: KsStreamPointerUnlock, KsStreamPointerUnlock function [Streaming Media Devices], avfunc_71260371-8ee2-45e1-ad72-7eba8212d081.xml, ks/KsStreamPointerUnlock, stream.ksstreampointerunlock
 f1_keywords:
  - "ks/KsStreamPointerUnlock"

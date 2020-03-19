@@ -6,6 +6,7 @@ old-location: display\agpreservephysical.htm
 tech.root: display
 ms.assetid: b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa
 ms.date: 05/10/2018
+keywords: ["PAGP_RESERVE_PHYSICAL callback function"]
 ms.keywords: AgpReservePhysical, AgpReservePhysical callback function [Display Devices], PAGP_RESERVE_PHYSICAL, PAGP_RESERVE_PHYSICAL callback, VideoPort_Functions_9ce9c724-b077-4821-9b9a-adb3d16f5671.xml, display.agpreservephysical, videoagp/AgpReservePhysical
 f1_keywords:
  - "videoagp/AgpReservePhysical"

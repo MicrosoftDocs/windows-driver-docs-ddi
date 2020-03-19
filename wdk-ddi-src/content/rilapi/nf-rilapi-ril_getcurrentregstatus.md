@@ -6,6 +6,7 @@ old-location: netvista\ril_getcurrentregstatus.htm
 tech.root: netvista
 ms.assetid: 4a605fb6-484a-442f-9bf4-673f00a64a36
 ms.date: 05/02/2018
+keywords: ["RIL_GetCurrentRegStatus function"]
 ms.keywords: RIL_GetCurrentRegStatus, RIL_GetCurrentRegStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getcurrentregstatus, rilapi/RIL_GetCurrentRegStatus
 f1_keywords:
  - "rilapi/RIL_GetCurrentRegStatus"

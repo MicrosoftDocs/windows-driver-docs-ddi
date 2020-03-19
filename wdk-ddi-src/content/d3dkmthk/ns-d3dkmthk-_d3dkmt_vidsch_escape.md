@@ -5,6 +5,7 @@ description: The D3DKMT_VIDSCH_ESCAPE structure describes how to control the gra
 old-location: display\d3dkmt_vidsch_escape.htm
 ms.assetid: 8e19e8a1-0cb6-4d57-862c-2e3a785b949b
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_VIDSCH_ESCAPE structure"]
 ms.keywords: D3DKMT_VIDSCH_ESCAPE, D3DKMT_VIDSCH_ESCAPE structure [Display Devices], OpenGL_Structs_d668addb-7c4a-4f07-bf9b-71ccd4a216fa.xml, _D3DKMT_VIDSCH_ESCAPE, d3dkmthk/D3DKMT_VIDSCH_ESCAPE, display.d3dkmt_vidsch_escape
 f1_keywords:
  - "d3dkmthk/D3DKMT_VIDSCH_ESCAPE"

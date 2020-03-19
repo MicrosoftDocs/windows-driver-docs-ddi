@@ -5,6 +5,7 @@ description: Used to query information on the protected session.
 old-location: display\d3dkmt-queryprotectedsessioninfofromnthandle.htm
 ms.assetid: e08d27e7-e9b7-45e7-9bbd-dcb9aa8f85ed
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE structure"]
 ms.keywords: D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE structure [Display Devices], _D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE, display.d3dkmt-queryprotectedsessioninfofromnthandle
 f1_keywords:
  - "d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE"

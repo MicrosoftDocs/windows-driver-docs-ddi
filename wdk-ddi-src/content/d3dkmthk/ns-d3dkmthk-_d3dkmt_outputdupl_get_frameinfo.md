@@ -4,6 +4,7 @@ title: _D3DKMT_OUTPUTDUPL_GET_FRAMEINFO (d3dkmthk.h)
 description: Gets frame info for duplicate outputs.
 ms.assetid: 9a7faac4-a557-4e2b-83c1-211c8863480f
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_OUTPUTDUPL_GET_FRAMEINFO structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_OUTPUTDUPL_GET_FRAMEINFO"
 ms.keywords: _D3DKMT_OUTPUTDUPL_GET_FRAMEINFO, D3DKMT_OUTPUTDUPL_GET_FRAMEINFO, 

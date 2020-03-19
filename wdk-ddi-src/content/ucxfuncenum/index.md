@@ -3,6 +3,7 @@ UID: NA:ucxfuncenum
 title: Ucxfuncenum.h header
 ms.assetid: eb7af97f-bf0f-3ebe-a6b2-317ec758e414
 ms.date: 05/09/2018
+keywords: ["Ucxfuncenum.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

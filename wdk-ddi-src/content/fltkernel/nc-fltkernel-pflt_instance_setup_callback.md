@@ -6,6 +6,7 @@ old-location: ifsk\pflt_instance_setup_callback.htm
 tech.root: ifsk
 ms.assetid: bbdd393d-3f0f-4bbd-8a74-ed75d20b0433
 ms.date: 05/10/2019
+keywords: ["PFLT_INSTANCE_SETUP_CALLBACK callback function"]
 ms.keywords: FltCallbacks_c32f2452-6198-4e87-8566-6e219dcf2f28.xml, InstanceSetupCallback, InstanceSetupCallback routine [Installable File System Drivers], PFLT_INSTANCE_SETUP_CALLBACK, fltkernel/InstanceSetupCallback, ifsk.pflt_instance_setup_callback
 f1_keywords:
  - "fltkernel/InstanceSetupCallback"

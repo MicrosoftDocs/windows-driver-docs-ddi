@@ -6,6 +6,7 @@ old-location: wdf\wdfusbtargetdevicegetnuminterfaces.htm
 tech.root: wdf
 ms.assetid: d81bdeeb-07de-483d-9803-3577f1076e28
 ms.date: 02/26/2018
+keywords: ["WdfUsbTargetDeviceGetNumInterfaces function"]
 ms.keywords: DFUsbRef_8819241f-cfcd-49de-8775-4f415ab63593.xml, WdfUsbTargetDeviceGetNumInterfaces, WdfUsbTargetDeviceGetNumInterfaces method, kmdf.wdfusbtargetdevicegetnuminterfaces, wdf.wdfusbtargetdevicegetnuminterfaces, wdfusb/WdfUsbTargetDeviceGetNumInterfaces
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceGetNumInterfaces"

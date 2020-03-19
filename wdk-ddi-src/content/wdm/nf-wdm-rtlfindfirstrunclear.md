@@ -6,6 +6,7 @@ old-location: kernel\rtlfindfirstrunclear.htm
 tech.root: kernel
 ms.assetid: 21e7e65c-b549-4997-b6dd-a95577edaa26
 ms.date: 04/30/2018
+keywords: ["RtlFindFirstRunClear function"]
 ms.keywords: RtlFindFirstRunClear, RtlFindFirstRunClear routine [Kernel-Mode Driver Architecture], k109_9ccc7e63-f136-4625-83c1-bf38a534307e.xml, kernel.rtlfindfirstrunclear, wdm/RtlFindFirstRunClear
 f1_keywords:
  - "wdm/RtlFindFirstRunClear"

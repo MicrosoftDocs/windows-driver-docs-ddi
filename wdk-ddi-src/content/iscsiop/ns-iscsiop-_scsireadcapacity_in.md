@@ -6,6 +6,7 @@ old-location: storage\scsireadcapacity_in.htm
 tech.root: storage
 ms.assetid: 7a9d6f43-88f7-490e-9446-e707b6497a38
 ms.date: 03/29/2018
+keywords: ["_ScsiReadCapacity_IN structure"]
 ms.keywords: "*PScsiReadCapacity_IN, PScsiReadCapacity_IN, PScsiReadCapacity_IN structure pointer [Storage Devices], ScsiReadCapacity_IN, ScsiReadCapacity_IN structure [Storage Devices], _ScsiReadCapacity_IN, iscsiop/PScsiReadCapacity_IN, iscsiop/ScsiReadCapacity_IN, storage.scsireadcapacity_in, structs-iSCSI_6363c086-0475-4bd2-bc15-5e49091e710b.xml"
 f1_keywords:
  - "iscsiop/ScsiReadCapacity_IN"

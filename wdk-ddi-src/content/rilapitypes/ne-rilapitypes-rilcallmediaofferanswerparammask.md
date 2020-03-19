@@ -6,6 +6,7 @@ old-location: netvista\rilcallmediaofferanswerparammask.htm
 tech.root: netvista
 ms.assetid: d11eb8f7-b670-45f3-8f90-6ea4db19bb20
 ms.date: 05/02/2018
+keywords: ["RILCALLMEDIAOFFERANSWERPARAMMASK enumeration"]
 ms.keywords: RILCALLMEDIAOFFERANSWERPARAMMASK, RILCALLMEDIAOFFERANSWERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CMOA_ACTION, RIL_PARAM_CMOA_ALL, RIL_PARAM_CMOA_CHANGE, RIL_PARAM_CMOA_NEW_STATE, RIL_PARAM_CMOA_OLD_STATE, netvista.rilcallmediaofferanswerparammask, ntddrilapitypes/RILCALLMEDIAOFFERANSWERPARAMMASK, ntddrilapitypes/RIL_PARAM_CMOA_ACTION, ntddrilapitypes/RIL_PARAM_CMOA_ALL, ntddrilapitypes/RIL_PARAM_CMOA_CHANGE, ntddrilapitypes/RIL_PARAM_CMOA_NEW_STATE, ntddrilapitypes/RIL_PARAM_CMOA_OLD_STATE
 f1_keywords:
  - "rilapitypes/RILCALLMEDIAOFFERANSWERPARAMMASK"

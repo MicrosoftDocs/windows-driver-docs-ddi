@@ -5,6 +5,7 @@ description: Retrieves the request type in an OID request.
 tech.root: netvista
 ms.assetid: 3f9225b2-a6d3-41ca-abe3-97ed30620e14
 ms.date: 02/08/2018
+keywords: ["NetRequestGetType function"]
 f1_keywords:
  - "netrequest/NetRequestGetType"
 ms.keywords: NetRequestGetType

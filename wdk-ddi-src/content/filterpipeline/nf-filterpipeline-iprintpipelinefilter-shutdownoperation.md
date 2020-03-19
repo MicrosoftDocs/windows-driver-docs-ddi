@@ -6,6 +6,7 @@ old-location: print\iprintpipelinefilter_shutdownoperation.htm
 tech.root: print
 ms.assetid: 4df9721f-19d1-4070-92dd-45d41b7c5374
 ms.date: 04/20/2018
+keywords: ["IPrintPipelineFilter::ShutdownOperation"]
 ms.keywords: IPrintPipelineFilter interface [Print Devices],ShutdownOperation method, IPrintPipelineFilter.ShutdownOperation, IPrintPipelineFilter::ShutdownOperation, ShutdownOperation, ShutdownOperation method [Print Devices], ShutdownOperation method [Print Devices],IPrintPipelineFilter interface, filterpipeline/IPrintPipelineFilter::ShutdownOperation, filterpipeline_5635f15b-3779-42ef-8b8d-3afeab1bab17.xml, print.iprintpipelinefilter_shutdownoperation
 f1_keywords:
  - "filterpipeline/IPrintPipelineFilter.ShutdownOperation"

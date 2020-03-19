@@ -6,6 +6,7 @@ old-location: pci\sriov_read_block.htm
 tech.root: PCI
 ms.assetid: af0d3465-2854-47d9-a6a4-06f510229a59
 ms.date: 02/24/2018
+keywords: ["SRIOV_READ_BLOCK callback"]
 ms.keywords: "*PSRIOV_READ_BLOCK, *PSRIOV_READ_BLOCK callback function pointer [Buses], PCI.sriov_read_block, SRIOV_READ_BLOCK, SriovReadBlock, SriovReadBlock callback function [Buses], pcivirt/SriovReadBlock"
 f1_keywords:
  - "pcivirt/*PSRIOV_READ_BLOCK"

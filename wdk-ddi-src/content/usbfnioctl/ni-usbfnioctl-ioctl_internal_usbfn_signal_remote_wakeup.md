@@ -6,6 +6,7 @@ old-location: buses\ioctl_usbfn_internal_signal_remote_wakeup.htm
 tech.root: usbref
 ms.assetid: 052D16D1-E7E9-4237-B9F5-1D52D28444F0
 ms.date: 05/07/2018
+keywords: ["IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP, IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP control, IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP control code [Buses], buses.ioctl_usbfn_internal_signal_remote_wakeup, usbfnioctl/IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_SIGNAL_REMOTE_WAKEUP"

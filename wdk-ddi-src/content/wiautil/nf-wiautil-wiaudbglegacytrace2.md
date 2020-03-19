@@ -6,6 +6,7 @@ old-location: image\wiaudbglegacytrace2.htm
 tech.root: image
 ms.assetid: 911a7089-d4ac-4da0-8be6-a3a36567635c
 ms.date: 05/03/2018
+keywords: ["wiauDbgLegacyTrace2 function"]
 ms.keywords: image.wiaudbglegacytrace2, wiauDbgLegacyTrace2, wiauDbgLegacyTrace2 function [Imaging Devices], wiauFncs_8fbdcd6b-cb2b-461b-81f0-880675d0124b.xml, wiautil/wiauDbgLegacyTrace2
 f1_keywords:
  - "wiautil/wiauDbgLegacyTrace2"

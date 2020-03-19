@@ -5,6 +5,7 @@ description: RtlSetProcessPlaceholderCompatibilityMode sets the placeholder comp
 tech.root: ifsk
 ms.assetid: afde9bc1-5529-4ddf-8839-853599c832d0
 ms.date: 10/19/2018
+keywords: ["RtlSetProcessPlaceholderCompatibilityMode function"]
 f1_keywords:
  - "ntifs/RtlSetProcessPlaceholderCompatibilityMode"
 ms.keywords: RtlSetProcessPlaceholderCompatibilityMode

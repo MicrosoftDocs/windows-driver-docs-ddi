@@ -4,6 +4,7 @@ title: D3D12DDI_GLOBAL_ROOT_SIGNATURE_0054 (d3d12umddi.h)
 description: Describes a named root signature that can be used globally in a ray tracing pipeline, or associated with shaders by name.
 ms.assetid: 5d47f8e0-8fa0-4ab1-abac-858d0396e5d6
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_GLOBAL_ROOT_SIGNATURE_0054 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_GLOBAL_ROOT_SIGNATURE_0054"
 ms.keywords: D3D12DDI_GLOBAL_ROOT_SIGNATURE_0054, D3D12DDI_GLOBAL_ROOT_SIGNATURE_0054, 

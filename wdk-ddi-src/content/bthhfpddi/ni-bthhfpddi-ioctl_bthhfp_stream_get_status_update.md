@@ -6,6 +6,7 @@ old-location: audio\ioctl_bthhfp_stream_get_status_update.htm
 tech.root: audio
 ms.assetid: 1D591422-4ED4-41B9-92E0-189A5EABE7D0
 ms.date: 05/08/2018
+keywords: ["IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE IOCTL"]
 ms.keywords: IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE, IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE control, IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_stream_get_status_update, bthhfpddi/IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE
 f1_keywords:
  - "bthhfpddi/IOCTL_BTHHFP_STREAM_GET_STATUS_UPDATE"

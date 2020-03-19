@@ -6,6 +6,7 @@ old-location: netvista\ndiscosendnetbufferlists.htm
 tech.root: netvista
 ms.assetid: 8284fdd4-26de-4622-b164-f33aee1d8742
 ms.date: 05/02/2018
+keywords: ["NdisCoSendNetBufferLists function"]
 ms.keywords: NdisCoSendNetBufferLists, NdisCoSendNetBufferLists function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_6d1dfac7-b538-402c-ae8b-04f74bd188e9.xml, ndis/NdisCoSendNetBufferLists, netvista.ndiscosendnetbufferlists
 f1_keywords:
  - "ndis/NdisCoSendNetBufferLists"

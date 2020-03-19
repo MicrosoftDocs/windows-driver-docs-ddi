@@ -6,6 +6,7 @@ old-location: storage\ioctl_cdrom_seek_audio_msf.htm
 tech.root: storage
 ms.assetid: 081a5d8d-7cc7-4499-9360-dfaa5a7c436b
 ms.date: 03/29/2018
+keywords: ["IOCTL_CDROM_SEEK_AUDIO_MSF IOCTL"]
 ms.keywords: IOCTL_CDROM_SEEK_AUDIO_MSF, IOCTL_CDROM_SEEK_AUDIO_MSF control, IOCTL_CDROM_SEEK_AUDIO_MSF control code [Storage Devices], k307_4c88dbd2-30ef-41aa-9330-57319605ec88.xml, ntddcdrm/IOCTL_CDROM_SEEK_AUDIO_MSF, storage.ioctl_cdrom_seek_audio_msf
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_SEEK_AUDIO_MSF"

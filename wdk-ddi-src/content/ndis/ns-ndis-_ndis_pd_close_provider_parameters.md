@@ -6,6 +6,7 @@ old-location: netvista\ndis_pd_close_provider_parameters.htm
 tech.root: netvista
 ms.assetid: 9C33CA12-E725-4634-A1EC-0A919987BA6E
 ms.date: 05/02/2018
+keywords: ["_NDIS_PD_CLOSE_PROVIDER_PARAMETERS structure"]
 ms.keywords: NDIS_PD_CLOSE_PROVIDER_PARAMETERS, NDIS_PD_CLOSE_PROVIDER_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CLOSE_PROVIDER_PARAMETERS, ndis/NDIS_PD_CLOSE_PROVIDER_PARAMETERS, netvista.ndis_pd_close_provider_parameters
 f1_keywords:
  - "ndis/NDIS_PD_CLOSE_PROVIDER_PARAMETERS"

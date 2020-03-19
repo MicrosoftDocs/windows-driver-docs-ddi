@@ -5,6 +5,7 @@ description: The NdisTestNblFlags macro tests the setting of a set of flags in a
 tech.root: netvista
 ms.assetid: 09d45f00-d0b1-4e2f-9190-bc4cacdb67a0
 ms.date: 04/16/2018
+keywords: ["NdisTestNblFlags macro"]
 f1_keywords:
  - "ndis/NdisTestNblFlags"
 ms.keywords: NdisTestNblFlags

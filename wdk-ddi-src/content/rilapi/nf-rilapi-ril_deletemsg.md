@@ -6,6 +6,7 @@ old-location: netvista\ril_deletemsg.htm
 tech.root: netvista
 ms.assetid: bda4663b-0aae-481a-8bd6-f242c6e6b1de
 ms.date: 05/02/2018
+keywords: ["RIL_DeleteMsg function"]
 ms.keywords: RIL_DeleteMsg, RIL_DeleteMsg method [Network Drivers Starting with Windows Vista], netvista.ril_deletemsg, rilapi/RIL_DeleteMsg
 f1_keywords:
  - "rilapi/RIL_DeleteMsg"

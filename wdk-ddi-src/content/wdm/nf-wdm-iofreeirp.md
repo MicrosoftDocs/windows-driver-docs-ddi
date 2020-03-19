@@ -6,6 +6,7 @@ old-location: kernel\iofreeirp.htm
 tech.root: kernel
 ms.assetid: 4a032d44-c6c2-4dce-97ea-28ac47f6ad6c
 ms.date: 04/30/2018
+keywords: ["IoFreeIrp function"]
 ms.keywords: IoFreeIrp, IoFreeIrp routine [Kernel-Mode Driver Architecture], k104_fc262cc4-a482-4a92-9f8e-1e5765c9b1d4.xml, kernel.iofreeirp, wdm/IoFreeIrp
 f1_keywords:
  - "wdm/IoFreeIrp"

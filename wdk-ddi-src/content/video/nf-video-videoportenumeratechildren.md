@@ -6,6 +6,7 @@ old-location: display\videoportenumeratechildren.htm
 tech.root: display
 ms.assetid: 41f081f3-4079-46f8-9d22-76a2d9e992b5
 ms.date: 05/10/2018
+keywords: ["VideoPortEnumerateChildren function"]
 ms.keywords: VideoPortEnumerateChildren, VideoPortEnumerateChildren function [Display Devices], VideoPort_Functions_8bc790f2-319f-41a6-9bf7-02a8605d2cc1.xml, display.videoportenumeratechildren, video/VideoPortEnumerateChildren
 f1_keywords:
  - "video/VideoPortEnumerateChildren"

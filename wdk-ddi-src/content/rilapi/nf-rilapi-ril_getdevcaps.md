@@ -6,6 +6,7 @@ old-location: netvista\ril_getdevcaps.htm
 tech.root: netvista
 ms.assetid: eb239b03-7e46-4091-adff-86ed95a06704
 ms.date: 05/02/2018
+keywords: ["RIL_GetDevCaps function"]
 ms.keywords: RIL_GetDevCaps, RIL_GetDevCaps method [Network Drivers Starting with Windows Vista], netvista.ril_getdevcaps, rilapi/RIL_GetDevCaps
 f1_keywords:
  - "rilapi/RIL_GetDevCaps"

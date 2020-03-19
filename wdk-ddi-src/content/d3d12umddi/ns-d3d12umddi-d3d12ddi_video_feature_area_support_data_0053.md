@@ -4,6 +4,7 @@ title: D3D12DDI_VIDEO_FEATURE_AREA_SUPPORT_DATA_0053 (d3d12umddi.h)
 description: The data used in the video capability check for feature area support.
 ms.assetid: 5c1ad079-62fd-41cd-95d5-58b22985a808
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_VIDEO_FEATURE_AREA_SUPPORT_DATA_0053 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_FEATURE_AREA_SUPPORT_DATA_0053"
 ms.keywords: D3D12DDI_VIDEO_FEATURE_AREA_SUPPORT_DATA_0053, D3D12DDI_VIDEO_FEATURE_AREA_SUPPORT_DATA_0053, 

@@ -6,6 +6,7 @@ old-location: hid\hidd_gethidguid.htm
 tech.root: hid
 ms.assetid: 552b607e-65c7-4595-9adb-b9c2f4301afd
 ms.date: 04/30/2018
+keywords: ["HidD_GetHidGuid function"]
 ms.keywords: HidD_GetHidGuid, HidD_GetHidGuid routine [Human Input Devices], hid.hidd_gethidguid, hidfunc_61242b6f-b794-48c7-84b8-ef8d0d4e69af.xml, hidsdi/HidD_GetHidGuid
 f1_keywords:
  - "hidsdi/HidD_GetHidGuid"

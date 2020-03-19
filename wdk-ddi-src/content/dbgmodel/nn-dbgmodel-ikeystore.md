@@ -4,6 +4,7 @@ title: IKeyStore (dbgmodel.h)
 description: A key/value store.  Typically used for metadata.
 ms.assetid: 434182b4-c9ee-4ca0-b092-f60098df5d16
 ms.date: 07/16/2018
+keywords: ["IKeyStore interface"]
 f1_keywords:
  - "dbgmodel/IKeyStore"
 req.header: dbgmodel.h

@@ -6,6 +6,7 @@ old-location: hid\hidp_usageandpagelistdifference.htm
 tech.root: hid
 ms.assetid: 80be9231-365d-4a38-8aa6-7da383bdcc40
 ms.date: 04/30/2018
+keywords: ["HidP_UsageAndPageListDifference function"]
 ms.keywords: HidP_UsageAndPageListDifference, HidP_UsageAndPageListDifference function [Human Input Devices], hid.hidp_usageandpagelistdifference, hidfunc_0c86a540-d046-449f-a6ee-a122141fe6a3.xml, hidpi/HidP_UsageAndPageListDifference
 f1_keywords:
  - "hidpi/HidP_UsageAndPageListDifference"

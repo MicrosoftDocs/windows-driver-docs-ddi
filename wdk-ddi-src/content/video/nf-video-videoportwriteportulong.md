@@ -6,6 +6,7 @@ old-location: display\videoportwriteportulong.htm
 tech.root: display
 ms.assetid: 395e4a37-ea14-4dc0-926d-2b2336aa5221
 ms.date: 05/10/2018
+keywords: ["VideoPortWritePortUlong function"]
 ms.keywords: VideoPortWritePortUlong, VideoPortWritePortUlong function [Display Devices], VideoPort_Functions_83cb0bbd-0dba-4cd6-b9f5-b8b0091371cd.xml, display.videoportwriteportulong, video/VideoPortWritePortUlong
 f1_keywords:
  - "video/VideoPortWritePortUlong"

@@ -6,6 +6,7 @@ old-location: netvista\ndisunicodestringtoansistring.htm
 tech.root: netvista
 ms.assetid: 37ac55b8-093e-4bf4-9c66-05ab5fc7ebc9
 ms.date: 05/02/2018
+keywords: ["NdisUnicodeStringToAnsiString macro"]
 ms.keywords: NdisUnicodeStringToAnsiString, NdisUnicodeStringToAnsiString macro [Network Drivers Starting with Windows Vista], ndis/NdisUnicodeStringToAnsiString, ndis_string_ref_31235ece-f64c-4806-af32-e3ffffdb7904.xml, netvista.ndisunicodestringtoansistring
 f1_keywords:
  - "ndis/NdisUnicodeStringToAnsiString"

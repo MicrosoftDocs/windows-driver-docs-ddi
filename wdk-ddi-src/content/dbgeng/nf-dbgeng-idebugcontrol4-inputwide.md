@@ -6,6 +6,7 @@ old-location: debugger\inputwide.htm
 tech.root: debugger
 ms.assetid: 79997d8c-4641-4953-a1a2-e5bde88cbc3f
 ms.date: 05/03/2018
+keywords: ["IDebugControl4::InputWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],InputWide method, IDebugControl4.InputWide, IDebugControl4::InputWide, InputWide, InputWide method [Windows Debugging], InputWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::InputWide, debugger.inputwide
 f1_keywords:
  - "dbgeng/IDebugControl4.InputWide"

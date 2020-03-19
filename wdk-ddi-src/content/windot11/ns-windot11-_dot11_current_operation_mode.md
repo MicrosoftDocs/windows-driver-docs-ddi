@@ -6,6 +6,7 @@ old-location: netvista\dot11_current_operation_mode.htm
 tech.root: netvista
 ms.assetid: 085ee8f4-7e96-416a-a59f-f35c8ad0dbf4
 ms.date: 02/16/2018
+keywords: ["_DOT11_CURRENT_OPERATION_MODE structure"]
 ms.keywords: "*PDOT11_CURRENT_OPERATION_MODE, DOT11_CURRENT_OPERATION_MODE, DOT11_CURRENT_OPERATION_MODE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_d2f0f1a7-3e89-4ac1-acbd-a032909837a2.xml, PDOT11_CURRENT_OPERATION_MODE, PDOT11_CURRENT_OPERATION_MODE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_CURRENT_OPERATION_MODE, netvista.dot11_current_operation_mode, windot11/DOT11_CURRENT_OPERATION_MODE, windot11/PDOT11_CURRENT_OPERATION_MODE"
 f1_keywords:
  - "windot11/DOT11_CURRENT_OPERATION_MODE"

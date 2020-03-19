@@ -5,6 +5,7 @@ description: This structure contains device functions for core features in video
 old-location: display\d3d12ddi_device_funcs_core_video_0020.htm
 ms.assetid: E880F758-A872-4B59-BF7D-602C3ACDA490
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020 structure"]
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020, D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020, display.d3d12ddi_device_funcs_core_video_0020
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_VIDEO_0020"

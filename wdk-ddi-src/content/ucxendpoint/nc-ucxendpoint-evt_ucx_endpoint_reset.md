@@ -6,6 +6,7 @@ old-location: buses\evt_ucx_endpoint_reset.htm
 tech.root: usbref
 ms.assetid: 927fdd48-416e-4e8f-a29c-c2799952197e
 ms.date: 05/07/2018
+keywords: ["EVT_UCX_ENDPOINT_RESET callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_RESET, EVT_UCX_ENDPOINT_RESET callback, EvtUcxEndpointReset, EvtUcxEndpointReset callback function [Buses], PEVT_UCX_ENDPOINT_RESET, PEVT_UCX_ENDPOINT_RESET callback function pointer [Buses], buses.evt_ucx_endpoint_reset, ucxendpoint/EvtUcxEndpointReset
 f1_keywords:
  - "ucxendpoint/PEVT_UCX_ENDPOINT_RESET"

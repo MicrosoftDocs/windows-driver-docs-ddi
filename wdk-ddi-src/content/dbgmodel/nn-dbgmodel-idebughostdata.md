@@ -4,6 +4,7 @@ title: IDebugHostData (dbgmodel.h)
 description: An (IDebugHostSymbol derived) interface to data.
 ms.assetid: d5d3a8dd-885d-46c5-89ab-e3dc6b221654
 ms.date: 07/13/2018
+keywords: ["IDebugHostData interface"]
 f1_keywords:
  - "dbgmodel/IDebugHostData"
 req.header: dbgmodel.h

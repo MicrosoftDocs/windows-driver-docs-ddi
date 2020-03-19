@@ -6,6 +6,7 @@ old-location: print\iprintschemaasyncoperation_cancel.htm
 tech.root: print
 ms.assetid: 08DC764B-4410-4D7C-B199-29E38BA09CA6
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaAsyncOperation::Cancel"]
 ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrintSchemaAsyncOperation interface, IPrintSchemaAsyncOperation interface [Print Devices],Cancel method, IPrintSchemaAsyncOperation.Cancel, IPrintSchemaAsyncOperation::Cancel, print.iprintschemaasyncoperation_cancel, printerextension/IPrintSchemaAsyncOperation::Cancel
 f1_keywords:
  - "printerextension/IPrintSchemaAsyncOperation.Cancel"

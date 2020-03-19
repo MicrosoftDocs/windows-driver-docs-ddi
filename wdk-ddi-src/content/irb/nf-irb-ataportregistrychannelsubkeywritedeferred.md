@@ -6,6 +6,7 @@ old-location: storage\ataportregistrychannelsubkeywritedeferred.htm
 tech.root: storage
 ms.assetid: 332f6921-1ad2-42ae-9728-001f243b8cff
 ms.date: 03/29/2018
+keywords: ["AtaPortRegistryChannelSubkeyWriteDeferred function"]
 ms.keywords: AtaPortRegistryChannelSubKeyWriteDeferred, AtaPortRegistryChannelSubkeyWriteDeferred, AtaPortRegistryChannelSubkeyWriteDeferred routine [Storage Devices], atartns_ddf14e05-c641-4382-88b4-18abb54e0f17.xml, irb/AtaPortRegistryChannelSubkeyWriteDeferred, storage.ataportregistrychannelsubkeywritedeferred
 f1_keywords:
  - "irb/AtaPortRegistryChannelSubkeyWriteDeferred"

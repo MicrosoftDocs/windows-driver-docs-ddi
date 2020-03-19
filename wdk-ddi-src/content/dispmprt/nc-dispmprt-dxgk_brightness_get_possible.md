@@ -6,6 +6,7 @@ old-location: display\dxgkddigetpossiblebrightness.htm
 tech.root: display
 ms.assetid: aed565f5-a9c1-4130-a192-68bb699b4bd1
 ms.date: 05/10/2018
+keywords: ["DXGK_BRIGHTNESS_GET_POSSIBLE callback function"]
 ms.keywords: DXGK_BRIGHTNESS_GET_POSSIBLE, DXGK_BRIGHTNESS_GET_POSSIBLE callback, DmFunctions_b14a6b62-e156-4548-9a0d-0a256cf84069.xml, DxgkDdiGetPossibleBrightness, DxgkDdiGetPossibleBrightness callback function [Display Devices], display.dxgkddigetpossiblebrightness, dispmprt/DxgkDdiGetPossibleBrightness
 f1_keywords:
  - "dispmprt/DxgkDdiGetPossibleBrightness"

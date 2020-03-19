@@ -6,6 +6,7 @@ old-location: display\drawindexedprimitive2.htm
 tech.root: display
 ms.assetid: f12af70c-a6f2-42da-be62-1cfeb90b6239
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_DRAWINDEXEDPRIMITIVE2 callback function"]
 ms.keywords: DrawIndexedPrimitive2, DrawIndexedPrimitive2 callback function [Display Devices], PFND3DDDI_DRAWINDEXEDPRIMITIVE2, PFND3DDDI_DRAWINDEXEDPRIMITIVE2 callback, UserModeDisplayDriver_Functions_55bb1ac5-49e3-428b-9737-ffe0577e6bba.xml, d3dumddi/DrawIndexedPrimitive2, display.drawindexedprimitive2
 f1_keywords:
  - "d3dumddi/DrawIndexedPrimitive2"

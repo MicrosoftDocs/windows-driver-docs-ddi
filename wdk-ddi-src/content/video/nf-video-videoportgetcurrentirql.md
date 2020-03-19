@@ -6,6 +6,7 @@ old-location: display\videoportgetcurrentirql.htm
 tech.root: display
 ms.assetid: 04cbc86b-a977-43bd-a736-3a7258c671fd
 ms.date: 05/10/2018
+keywords: ["VideoPortGetCurrentIrql function"]
 ms.keywords: VideoPortGetCurrentIrql, VideoPortGetCurrentIrql function [Display Devices], VideoPort_Functions_acfcf9f4-819a-4fc5-ae4f-214a78059e7a.xml, display.videoportgetcurrentirql, video/VideoPortGetCurrentIrql
 f1_keywords:
  - "video/VideoPortGetCurrentIrql"

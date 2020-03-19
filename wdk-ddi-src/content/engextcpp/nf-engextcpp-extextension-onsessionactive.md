@@ -6,6 +6,7 @@ old-location: debugger\onsessionactive.htm
 tech.root: debugger
 ms.assetid: 356675af-cc2e-4295-bb44-dc0a9377f701
 ms.date: 05/03/2018
+keywords: ["ExtExtension::OnSessionActive"]
 ms.keywords: EngExtCpp_Ref_251ac958-396c-414a-92a5-e1b02e453a69.xml, ExtExtension class [Windows Debugging],OnSessionActive method, ExtExtension.OnSessionActive, ExtExtension::OnSessionActive, OnSessionActive, OnSessionActive method [Windows Debugging], OnSessionActive method [Windows Debugging],ExtExtension class, debugger.onsessionactive
 f1_keywords:
  - "engextcpp/ExtExtension.OnSessionActive"

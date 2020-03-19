@@ -6,6 +6,7 @@ old-location: stream\ksstream_uvc_metadata.htm
 tech.root: stream
 ms.assetid: 99ED5E06-23C7-4B24-BD9B-E6713B1D58D2
 ms.date: 04/23/2018
+keywords: ["KSSTREAM_UVC_METADATA structure"]
 ms.keywords: "*PKSSTREAM_UVC_METADATA, KSSTREAM_UVC_METADATA, KSSTREAM_UVC_METADATA structure [Streaming Media Devices], PKSSTREAM_UVC_METADATA, PKSSTREAM_UVC_METADATA structure pointer [Streaming Media Devices], ks/KSSTREAM_UVC_METADATA, ks/PKSSTREAM_UVC_METADATA, stream.ksstream_uvc_metadata"
 f1_keywords:
  - "ks/KSSTREAM_UVC_METADATA"

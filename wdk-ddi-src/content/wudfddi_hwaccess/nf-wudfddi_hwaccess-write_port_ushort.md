@@ -6,6 +6,7 @@ old-location: wdf\write_port_ushort.htm
 tech.root: wdf
 ms.assetid: 5AA1C8E1-A73B-47D1-A866-9F190CFD4597
 ms.date: 02/26/2018
+keywords: ["WRITE_PORT_USHORT function"]
 ms.keywords: WRITE_PORT_USHORT, WRITE_PORT_USHORT function, umdf.write_port_ushort, wdf.write_port_ushort, wudfddi_hwaccess/WRITE_PORT_USHORT
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_PORT_USHORT"

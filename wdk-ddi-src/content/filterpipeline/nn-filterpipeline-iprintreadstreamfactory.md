@@ -6,6 +6,7 @@ old-location: print\iprintreadstreamfactory.htm
 tech.root: print
 ms.assetid: 91f82cab-64c4-4f25-bf9a-b0757b1a83ca
 ms.date: 04/20/2018
+keywords: ["IPrintReadStreamFactory interface"]
 ms.keywords: IPrintReadStreamFactory, IPrintReadStreamFactory interface [Print Devices], IPrintReadStreamFactory interface [Print Devices],described, filterpipeline/IPrintReadStreamFactory, filterpipeline_6e71f042-ebb2-4a81-91ac-2dbfb8fd2161.xml, print.iprintreadstreamfactory
 f1_keywords:
  - "filterpipeline/IPrintReadStreamFactory"

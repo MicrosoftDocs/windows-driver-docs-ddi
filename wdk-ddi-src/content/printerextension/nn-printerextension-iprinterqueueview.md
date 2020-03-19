@@ -6,6 +6,7 @@ old-location: print\iprinterqueueview.htm
 tech.root: print
 ms.assetid: 81B3D4A3-7176-4656-B23D-04F0F84D9000
 ms.date: 04/20/2018
+keywords: ["IPrinterQueueView interface"]
 ms.keywords: IPrinterQueueView, IPrinterQueueView interface [Print Devices], IPrinterQueueView interface [Print Devices],described, print.iprinterqueueview, printerextension/IPrinterQueueView
 f1_keywords:
  - "printerextension/IPrinterQueueView"

@@ -6,6 +6,7 @@ old-location: storage\feature_data_sector_erasable.htm
 tech.root: storage
 ms.assetid: 6f714e13-a844-4afa-9002-52a5318a7659
 ms.date: 03/29/2018
+keywords: ["_FEATURE_DATA_SECTOR_ERASABLE structure"]
 ms.keywords: "*PFEATURE_DATA_SECTOR_ERASABLE, FEATURE_DATA_SECTOR_ERASABLE, FEATURE_DATA_SECTOR_ERASABLE structure [Storage Devices], PFEATURE_DATA_SECTOR_ERASABLE, PFEATURE_DATA_SECTOR_ERASABLE structure pointer [Storage Devices], _FEATURE_DATA_SECTOR_ERASABLE, ntddmmc/FEATURE_DATA_SECTOR_ERASABLE, ntddmmc/PFEATURE_DATA_SECTOR_ERASABLE, storage.feature_data_sector_erasable, structs-CD-ROM_e48f2e10-1b6d-4d5a-9e8d-b1fc45fd8509.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_SECTOR_ERASABLE"

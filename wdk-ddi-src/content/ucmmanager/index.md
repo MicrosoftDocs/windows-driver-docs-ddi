@@ -3,6 +3,7 @@ UID: NA:ucmmanager
 title: Ucmmanager.h header
 ms.assetid: 3e459ad2-db6c-372c-95bd-d836bce39752
 ms.date: 05/09/2018
+keywords: ["Ucmmanager.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

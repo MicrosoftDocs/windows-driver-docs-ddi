@@ -5,6 +5,7 @@ description: Used to process a video frame.
 old-location: display\pfnd3d12ddi_video_process_frame_0032.htm
 ms.assetid: C7923B09-FBA2-43EE-A56B-0B8B6C3403A0
 ms.date: 04/16/2018
+keywords: ["PFND3D12DDI_VIDEO_PROCESS_FRAME_0032 callback function"]
 ms.keywords: PFND3D12DDI_VIDEO_PROCESS_FRAME_0032, PFND3D12DDI_VIDEO_PROCESS_FRAME_0032 callback, PFND3D12DDI_VIDEO_PROCESS_FRAME_0032 callback function [Display Devices], d3d12umddi/PFND3D12DDI_VIDEO_PROCESS_FRAME_0032, display.pfnd3d12ddi_video_process_frame_0032
 req.header: d3d12umddi.h
 req.include-header: 

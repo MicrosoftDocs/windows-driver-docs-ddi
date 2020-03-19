@@ -6,6 +6,7 @@ old-location: wdf\evtinterruptenable.htm
 tech.root: wdf
 ms.assetid: 981195e6-6f62-4a6f-9c84-d98f6cd7bab3
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_INTERRUPT_ENABLE callback function"]
 ms.keywords: DFInterruptObjectRef_eb3a90f0-712a-43fe-8d5c-5a29d1df0a62.xml, EVT_WDF_INTERRUPT_ENABLE, EVT_WDF_INTERRUPT_ENABLE callback, EvtInterruptEnable, EvtInterruptEnable callback function, kmdf.evtinterruptenable, wdf.evtinterruptenable, wdfinterrupt/EvtInterruptEnable
 f1_keywords:
  - "wdfinterrupt/EvtInterruptEnable"

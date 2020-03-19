@@ -6,6 +6,7 @@ old-location: ieee\cmp_notify_info.htm
 tech.root: IEEE
 ms.assetid: 7451B01F-D925-4882-9E6B-EEA79F54C55B
 ms.date: 02/15/2018
+keywords: ["_CMP_NOTIFY_INFO structure"]
 ms.keywords: "*PCMP_NOTIFY_INFO, 61883/CMP_NOTIFY_INFO, 61883/PCMP_NOTIFY_INFO, CMP_NOTIFY_INFO, CMP_NOTIFY_INFO structure [Buses], IEEE.cmp_notify_info, PCMP_NOTIFY_INFO, PCMP_NOTIFY_INFO structure pointer [Buses], _CMP_NOTIFY_INFO"
 f1_keywords:
  - "61883/CMP_NOTIFY_INFO"

@@ -6,6 +6,7 @@ old-location: wdf\wdfwmiinstancefireevent.htm
 tech.root: wdf
 ms.assetid: 7bef79ab-78d6-47b6-a3f4-d9733ffcb53d
 ms.date: 02/26/2018
+keywords: ["WdfWmiInstanceFireEvent function"]
 ms.keywords: DFWMIRef_1062330c-9a9b-4bd3-a039-e1373c07ceee.xml, WdfWmiInstanceFireEvent, WdfWmiInstanceFireEvent method, kmdf.wdfwmiinstancefireevent, wdf.wdfwmiinstancefireevent, wdfwmi/WdfWmiInstanceFireEvent
 f1_keywords:
  - "wdfwmi/WdfWmiInstanceFireEvent"

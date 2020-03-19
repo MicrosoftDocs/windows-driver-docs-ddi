@@ -4,6 +4,7 @@ title: MmUnmapViewInSystemSpace function (ntddk.h)
 description:
 ms.assetid: 0fabae76-0497-4d17-a684-fade48708a57
 ms.date: 10/19/2018
+keywords: ["MmUnmapViewInSystemSpace function"]
 f1_keywords:
  - "ntddk/MmUnmapViewInSystemSpace"
 ms.keywords: MmUnmapViewInSystemSpace

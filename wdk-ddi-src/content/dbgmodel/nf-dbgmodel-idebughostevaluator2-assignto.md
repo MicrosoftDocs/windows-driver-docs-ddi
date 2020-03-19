@@ -4,6 +4,7 @@ title: IDebugHostEvaluator2::AssignTo (dbgmodel.h)
 description: The AssignTo method performs assignment according to the semantics of the language being debugged.
 ms.assetid: 945088b8-9914-4b46-8d08-1d48f97c8f23
 ms.date: 09/12/2018
+keywords: ["IDebugHostEvaluator2::AssignTo"]
 f1_keywords:
  - "dbgmodel/IDebugHostEvaluator2.AssignTo"
 ms.keywords: IDebugHostEvaluator2::AssignTo, AssignTo, IDebugHostEvaluator2.AssignTo, IDebugHostEvaluator2::AssignTo, IDebugHostEvaluator2.AssignTo

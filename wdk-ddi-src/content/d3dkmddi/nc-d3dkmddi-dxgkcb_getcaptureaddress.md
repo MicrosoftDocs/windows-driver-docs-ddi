@@ -5,6 +5,7 @@ description: The DxgkCbGetCaptureAddress function retrieves the physical address
 old-location: display\dxgkcbgetcaptureaddress.htm
 ms.assetid: f87a5a5f-20d3-48cb-93f0-114eafe7238b
 ms.date: 05/10/2018
+keywords: ["DXGKCB_GETCAPTUREADDRESS callback function"]
 ms.keywords: DXGKCB_GETCAPTUREADDRESS, DXGKCB_GETCAPTUREADDRESS callback, DpFunctions_a8e4882c-a196-4cdf-826f-fa4cf44ba8f8.xml, DxgkCbGetCaptureAddress, DxgkCbGetCaptureAddress callback function [Display Devices], d3dkmddi/DxgkCbGetCaptureAddress, display.dxgkcbgetcaptureaddress
 f1_keywords:
  - "d3dkmddi/DxgkCbGetCaptureAddress"

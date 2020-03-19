@@ -6,6 +6,7 @@ old-location: devtest\vdbgprintexwithprefix.htm
 tech.root: devtest
 ms.assetid: bd7acc4e-9941-45a1-ad90-996e80c1937b
 ms.date: 02/23/2018
+keywords: ["vDbgPrintExWithPrefix function"]
 ms.keywords: DebugFns_483dc845-dd53-48a5-b879-cf69158016aa.xml, devtest.vdbgprintexwithprefix, vDbgPrintExWithPrefix, vDbgPrintExWithPrefix routine [Driver Development Tools], wdm/vDbgPrintExWithPrefix
 f1_keywords:
  - "wdm/vDbgPrintExWithPrefix"

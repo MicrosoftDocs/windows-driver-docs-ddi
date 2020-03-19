@@ -5,6 +5,7 @@ description: Copies a source subresource region to a location on a destination s
 old-location: display\resourcecopyregion_d3d11_1_.htm
 ms.assetid: CA26FB37-1A4C-4057-90A5-64FFBE289E39
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_RESOURCECOPYREGION callback function"]
 ms.keywords: PFND3D11_1DDI_RESOURCECOPYREGION, PFND3D11_1DDI_RESOURCECOPYREGION callback, ResourceConvertRegion(D3D11_1), ResourceCopyRegion(D3D11_1), ResourceCopyRegion(D3D11_1) callback function [Display Devices], d3d10umddi/ResourceCopyRegion(D3D11_1), display.resourcecopyregion_d3d11_1_, pfnResourceConvertRegion
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

@@ -6,6 +6,7 @@ old-location: stream\ioctl_ks_disable_event.htm
 tech.root: stream
 ms.assetid: 4e451d0c-6548-4735-833a-3972cf5e59c6
 ms.date: 04/23/2018
+keywords: ["IOCTL_KS_DISABLE_EVENT IOCTL"]
 ms.keywords: IOCTL_KS_DISABLE_EVENT, IOCTL_KS_DISABLE_EVENT control, IOCTL_KS_DISABLE_EVENT control code [Streaming Media Devices], ks-ioctl_8b6cd750-3003-49b2-9b91-3edc1da6cf11.xml, ks/IOCTL_KS_DISABLE_EVENT, stream.ioctl_ks_disable_event
 f1_keywords:
  - "ks/IOCTL_KS_DISABLE_EVENT"

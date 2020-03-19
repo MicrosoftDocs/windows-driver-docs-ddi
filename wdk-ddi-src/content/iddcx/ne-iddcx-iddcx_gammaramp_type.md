@@ -6,6 +6,7 @@ old-location: display\iddcx_gammaramp_type.htm
 tech.root: display
 ms.assetid: 40fa5169-e295-429c-a63d-3e4ab9c14672
 ms.date: 05/10/2018
+keywords: ["IDDCX_GAMMARAMP_TYPE enumeration"]
 ms.keywords: IDDCX_GAMMARAMP_TYPE, IDDCX_GAMMARAMP_TYPE enumeration [Display Devices], IDDCX_GAMMARAMP_TYPE_DEFAULT, IDDCX_GAMMARAMP_TYPE_RGB256x3x16, IDDCX_GAMMARAMP_TYPE_UNINITIALIZED, display.iddcx_gammaramp_type, iddcx/IDDCX_GAMMARAMP_TYPE, iddcx/IDDCX_GAMMARAMP_TYPE_DEFAULT, iddcx/IDDCX_GAMMARAMP_TYPE_RGB256x3x16, iddcx/IDDCX_GAMMARAMP_TYPE_UNINITIALIZED
 f1_keywords:
  - "iddcx/IDDCX_GAMMARAMP_TYPE"

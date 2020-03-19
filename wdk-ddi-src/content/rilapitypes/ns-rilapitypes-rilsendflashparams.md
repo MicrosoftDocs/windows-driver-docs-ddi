@@ -6,6 +6,7 @@ old-location: netvista\rilsendflashparams.htm
 tech.root: netvista
 ms.assetid: e45b8f47-4e46-4265-9c56-055e753eb6e6
 ms.date: 05/02/2018
+keywords: ["RILSENDFLASHPARAMS structure"]
 ms.keywords: "*LPRILSENDFLASHPARAMS, RILSENDFLASHPARAMS, RILSENDFLASHPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendflashparams, ntddrilapitypes/RILSENDFLASHPARAMS"
 f1_keywords:
  - "rilapitypes/RILSENDFLASHPARAMS"

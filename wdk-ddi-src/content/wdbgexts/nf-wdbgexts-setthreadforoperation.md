@@ -6,6 +6,7 @@ old-location: debugger\setthreadforoperation.htm
 tech.root: debugger
 ms.assetid: b5bae644-6c8d-4346-87bd-211efcf27748
 ms.date: 05/03/2018
+keywords: ["SetThreadForOperation function"]
 ms.keywords: SetThreadForOperation, SetThreadForOperation function [Windows Debugging], WdbgExts_Ref_62cb59e2-5a16-4bee-936c-6eeaa5126fbc.xml, debugger.setthreadforoperation, wdbgexts/SetThreadForOperation
 f1_keywords:
  - "wdbgexts/SetThreadForOperation"

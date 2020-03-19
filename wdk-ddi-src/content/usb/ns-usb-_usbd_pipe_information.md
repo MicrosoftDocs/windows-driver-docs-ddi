@@ -6,6 +6,7 @@ old-location: buses\usbd_pipe_information.htm
 tech.root: usbref
 ms.assetid: 92e4e960-fd74-42e1-8448-a07676507427
 ms.date: 05/07/2018
+keywords: ["_USBD_PIPE_INFORMATION structure"]
 ms.keywords: "*PUSBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION structure pointer [Buses], USBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION structure [Buses], _USBD_PIPE_INFORMATION, buses.usbd_pipe_information, usb/PUSBD_PIPE_INFORMATION, usb/USBD_PIPE_INFORMATION, usbstrct_79d986fc-2853-4179-8a41-cc438582b317.xml"
 f1_keywords:
  - "usb/USBD_PIPE_INFORMATION"

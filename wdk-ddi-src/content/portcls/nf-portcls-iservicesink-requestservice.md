@@ -6,6 +6,7 @@ old-location: audio\iservicesink_requestservice.htm
 tech.root: audio
 ms.assetid: c5035dee-3523-4b0d-9baa-e30720115499
 ms.date: 05/08/2018
+keywords: ["IServiceSink::RequestService"]
 ms.keywords: IServiceSink interface [Audio Devices],RequestService method, IServiceSink.RequestService, IServiceSink::RequestService, RequestService, RequestService method [Audio Devices], RequestService method [Audio Devices],IServiceSink interface, audio.iservicesink_requestservice, audmp-routines_c59de1c6-446e-489b-ba96-c2b24f74576a.xml, portcls/IServiceSink::RequestService
 f1_keywords:
  - "portcls/IServiceSink.RequestService"

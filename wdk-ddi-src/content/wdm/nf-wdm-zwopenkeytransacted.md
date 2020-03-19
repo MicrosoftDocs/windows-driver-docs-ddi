@@ -6,6 +6,7 @@ old-location: kernel\zwopenkeytransacted.htm
 tech.root: kernel
 ms.assetid: 9fd9aabd-3452-461d-b051-c3130b22ef5c
 ms.date: 04/30/2018
+keywords: ["ZwOpenKeyTransacted function"]
 ms.keywords: ZwOpenKeyTransacted, ZwOpenKeyTransacted routine [Kernel-Mode Driver Architecture], k111_e4192ee9-7dba-48d2-81be-38b33ff0b1d6.xml, kernel.zwopenkeytransacted, wdm/ZwOpenKeyTransacted
 f1_keywords:
  - "wdm/ZwOpenKeyTransacted"

@@ -6,6 +6,7 @@ old-location: netvista\ndisifderegisterprovider.htm
 tech.root: netvista
 ms.assetid: 90e921e3-b384-495b-8cb6-74596d060ec0
 ms.date: 05/02/2018
+keywords: ["NdisIfDeregisterProvider function"]
 ms.keywords: NdisIfDeregisterProvider, NdisIfDeregisterProvider function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeregisterProvider, net_if_functions_ref_7e9c9d72-3b55-4001-9848-c79608608c82.xml, netvista.ndisifderegisterprovider
 f1_keywords:
  - "ndis/NdisIfDeregisterProvider"

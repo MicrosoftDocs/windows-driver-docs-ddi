@@ -6,6 +6,7 @@ old-location: serports\evtsercxapplyconfig.htm
 tech.root: serports
 ms.assetid: DC0AB4E3-AA73-4DD5-B91D-95F9D3792321
 ms.date: 04/23/2018
+keywords: ["EVT_SERCX_APPLY_CONFIG callback function"]
 ms.keywords: 1/EvtSerCxApplyConfig, EVT_SERCX_APPLY_CONFIG, EVT_SERCX_APPLY_CONFIG callback, EvtSerCxApplyConfig, EvtSerCxApplyConfig callback function [Serial Ports], serports.evtsercxapplyconfig
 f1_keywords:
  - "sercx/EvtSerCxApplyConfig"

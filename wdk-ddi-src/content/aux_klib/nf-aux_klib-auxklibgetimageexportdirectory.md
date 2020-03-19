@@ -6,6 +6,7 @@ old-location: kernel\auxklibgetimageexportdirectory.htm
 tech.root: kernel
 ms.assetid: 994ba853-88b6-4456-8fdb-3199979df05e
 ms.date: 04/30/2018
+keywords: ["AuxKlibGetImageExportDirectory function"]
 ms.keywords: AuxKlibGetImageExportDirectory, AuxKlibGetImageExportDirectory routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetImageExportDirectory, aux_klib_266e4e59-eaf6-47a4-a5d0-27fc55426273.xml, kernel.auxklibgetimageexportdirectory
 f1_keywords:
  - "aux_klib/AuxKlibGetImageExportDirectory"

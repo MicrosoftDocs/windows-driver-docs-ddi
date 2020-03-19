@@ -6,6 +6,7 @@ old-location: debugger\extremotetyped_extremotetyped_extremotetyped.htm
 tech.root: debugger
 ms.assetid: 8a5ee124-d5ce-431d-9f7f-ff7894f0c28c
 ms.date: 05/03/2018
+keywords: ["ExtRemoteTyped::ExtRemoteTyped(const ExtRemoteTyped &)"]
 ms.keywords: ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging],ExtRemoteTyped constructor, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped.ExtRemoteTyped(ExtRemoteTyped&), ExtRemoteTyped.ExtRemoteTyped(const ExtRemoteTyped &), ExtRemoteTyped::ExtRemoteTyped, ExtRemoteTyped::ExtRemoteTyped(const ExtRemoteTyped &), debugger.extremotetyped_extremotetyped_extremotetyped
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.ExtRemoteTyped"

@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 7ee49626-79b4-46e3-a98f-0b9990cb4a2d
 ms.author: windowsdriverdev
 ms.date: 11/06/2019
+keywords: ["NetAdapterPowerOffloadSetNSCapabilities function"]
 f1_keywords:
  - "netadapter/NetAdapterPowerOffloadSetNSCapabilities"
 ms.keywords: NetAdapterPowerOffloadSetNSCapabilities

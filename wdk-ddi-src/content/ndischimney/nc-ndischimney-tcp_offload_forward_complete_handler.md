@@ -6,6 +6,7 @@ old-location: netvista\protocoltcpoffloadforwardcomplete.htm
 tech.root: netvista
 ms.assetid: 02a11841-d98a-4c74-8922-458826e2911e
 ms.date: 05/02/2018
+keywords: ["TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER callback function"]
 ms.keywords: ProtocolTcpOffloadForwardComplete, ProtocolTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER, TCP_OFFLOAD_FORWARD_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadForwardComplete, netvista.protocoltcpoffloadforwardcomplete, tcp_chim_protocol_func_18981e3f-fec9-483d-b60e-54017ebd57d1.xml
 f1_keywords:
  - "ndischimney/ProtocolTcpOffloadForwardComplete"

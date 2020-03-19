@@ -6,6 +6,7 @@ old-location: wdf\wdf_write_register_buffer_ulong.htm
 tech.root: wdf
 ms.assetid: D52888A2-4CC1-4C5A-890E-5585424339E0
 ms.date: 02/26/2018
+keywords: ["WDF_WRITE_REGISTER_BUFFER_ULONG function"]
 ms.keywords: WDF_WRITE_REGISTER_BUFFER_ULONG, WDF_WRITE_REGISTER_BUFFER_ULONG function, wdf.wdf_write_register_buffer_ulong, wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_ULONG
 f1_keywords:
  - "wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_ULONG"

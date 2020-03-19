@@ -4,6 +4,7 @@ title: D3D12DDI_ROOT_SIGNATURE_FLAGS (d3d12umddi.h)
 description: Specifies options for root signature layout.
 ms.assetid: 1fa06ada-622f-4b03-b370-1d1ca98d3b04
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_ROOT_SIGNATURE_FLAGS enumeration"]
 ms.keywords: D3D12DDI_ROOT_SIGNATURE_FLAGS, D3D12DDI_ROOT_SIGNATURE_FLAGS,
 req.header: d3d12umddi.h
 req.include-header: 

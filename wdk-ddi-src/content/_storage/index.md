@@ -3,6 +3,7 @@ UID: TP:storage
 title: Storage
 ms.assetid: 2c8add25-915b-3bb1-957b-a04df40081fc
 ms.date: 05/09/2018
+keywords: ["Storage"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

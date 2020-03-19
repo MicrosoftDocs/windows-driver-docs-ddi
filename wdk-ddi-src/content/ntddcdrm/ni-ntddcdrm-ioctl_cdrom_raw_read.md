@@ -6,6 +6,7 @@ old-location: storage\ioctl_cdrom_raw_read.htm
 tech.root: storage
 ms.assetid: b7791cf7-476c-4319-976d-9da3d96b6a76
 ms.date: 03/29/2018
+keywords: ["IOCTL_CDROM_RAW_READ IOCTL"]
 ms.keywords: IOCTL_CDROM_RAW_READ, IOCTL_CDROM_RAW_READ control, IOCTL_CDROM_RAW_READ control code [Storage Devices], k307_1c2f1a05-940c-40f8-a280-3a23d3bb4171.xml, ntddcdrm/IOCTL_CDROM_RAW_READ, storage.ioctl_cdrom_raw_read
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_RAW_READ"

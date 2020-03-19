@@ -6,6 +6,7 @@ old-location: ifsk\ccwaitforcurrentlazywriteractivity.htm
 tech.root: ifsk
 ms.assetid: eda2198d-d9c9-498a-b94f-5ebdaae417be
 ms.date: 04/16/2018
+keywords: ["CcWaitForCurrentLazyWriterActivity function"]
 ms.keywords: CcWaitForCurrentLazyWriterActivity, CcWaitForCurrentLazyWriterActivity routine [Installable File System Drivers], ccref_a216c467-24be-4ea5-9c53-71cf1fe1c47d.xml, ifsk.ccwaitforcurrentlazywriteractivity, ntifs/CcWaitForCurrentLazyWriterActivity
 f1_keywords:
  - "ntifs/CcWaitForCurrentLazyWriterActivity"

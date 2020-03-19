@@ -6,6 +6,7 @@ old-location: kernel\cm_partial_resource_list.htm
 tech.root: kernel
 ms.assetid: f16b26f5-1f32-4c2e-83ec-0a0f79a4be85
 ms.date: 04/30/2018
+keywords: ["_CM_PARTIAL_RESOURCE_LIST structure"]
 ms.keywords: "*PCM_PARTIAL_RESOURCE_LIST, CM_PARTIAL_RESOURCE_LIST, CM_PARTIAL_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PCM_PARTIAL_RESOURCE_LIST, PCM_PARTIAL_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], _CM_PARTIAL_RESOURCE_LIST, kernel.cm_partial_resource_list, kstruct_a_26d7ed25-e580-41e2-ae9d-5e06eb263e3d.xml, wdm/CM_PARTIAL_RESOURCE_LIST, wdm/PCM_PARTIAL_RESOURCE_LIST"
 f1_keywords:
  - "wdm/CM_PARTIAL_RESOURCE_LIST"

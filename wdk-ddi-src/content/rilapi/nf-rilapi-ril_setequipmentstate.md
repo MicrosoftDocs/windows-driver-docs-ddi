@@ -6,6 +6,7 @@ old-location: netvista\ril_setequipmentstate.htm
 tech.root: netvista
 ms.assetid: 52b76027-5562-403b-9993-40d3d9a33e35
 ms.date: 05/02/2018
+keywords: ["RIL_SetEquipmentState function"]
 ms.keywords: RIL_SetEquipmentState, RIL_SetEquipmentState method [Network Drivers Starting with Windows Vista], netvista.ril_setequipmentstate, rilapi/RIL_SetEquipmentState
 f1_keywords:
  - "rilapi/RIL_SetEquipmentState"

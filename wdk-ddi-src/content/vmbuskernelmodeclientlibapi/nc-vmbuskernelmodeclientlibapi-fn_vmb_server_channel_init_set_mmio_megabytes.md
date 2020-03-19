@@ -4,6 +4,7 @@ title: FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES (vmbuskernelmodeclientlibap
 description: The VmbServerChannelInitSetMmioMegabytes function specifies the amount, megabytes, of guest memory-mapped I/O (MMIO) space to reserve for the device. 
 ms.assetid: d08cc2fd-2418-4047-b34c-09519ae0b531
 ms.date: 09/13/2018
+keywords: ["FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES"
 req.header: vmbuskernelmodeclientlibapi.h

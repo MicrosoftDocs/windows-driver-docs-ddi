@@ -6,6 +6,7 @@ old-location: kernel\iowithinstacklimits.htm
 tech.root: kernel
 ms.assetid: af182cd5-23b5-4d5b-b3d4-ec65ec087d0b
 ms.date: 04/30/2018
+keywords: ["IoWithinStackLimits function"]
 ms.keywords: IoWithinStackLimits, IoWithinStackLimits routine [Kernel-Mode Driver Architecture], k104_631648cb-6ba2-47b1-8745-e6314e17be30.xml, kernel.iowithinstacklimits, wdm/IoWithinStackLimits
 f1_keywords:
  - "wdm/IoWithinStackLimits"

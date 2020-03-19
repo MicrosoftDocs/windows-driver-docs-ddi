@@ -5,6 +5,7 @@ description: The D3DKMT_WORKINGSETFLAGS structure identifies working-set propert
 old-location: display\d3dkmt_workingsetflags.htm
 ms.assetid: 05dddebc-2a30-4cc5-b905-9ee4ebf8d00e
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_WORKINGSETFLAGS structure"]
 ms.keywords: D3DKMT_WORKINGSETFLAGS, D3DKMT_WORKINGSETFLAGS structure [Display Devices], OpenGL_Structs_4ce8b8d1-7f35-45b4-8b01-154a9a8eda00.xml, _D3DKMT_WORKINGSETFLAGS, d3dkmthk/D3DKMT_WORKINGSETFLAGS, display.d3dkmt_workingsetflags
 f1_keywords:
  - "d3dkmthk/D3DKMT_WORKINGSETFLAGS"

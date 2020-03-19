@@ -6,6 +6,7 @@ old-location: print\oemfontinstallerdlgproc.htm
 tech.root: print
 ms.assetid: 6007723b-c7db-42da-bc50-328e19f80448
 ms.date: 04/20/2018
+keywords: ["OEMFontInstallerDlgProc function"]
 ms.keywords: OEMFontInstallerDlgProc, OEMFontInstallerDlgProc function [Print Devices], print.oemfontinstallerdlgproc, print_obsoletefunctions_63eb736f-a9cd-4caf-823e-87b927d09c7a.xml, printoem/OEMFontInstallerDlgProc
 f1_keywords:
  - "printoem/OEMFontInstallerDlgProc"

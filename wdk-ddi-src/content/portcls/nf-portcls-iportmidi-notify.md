@@ -6,6 +6,7 @@ old-location: audio\iportmidi_notify.htm
 tech.root: audio
 ms.assetid: eeec5e45-4db2-4a81-b773-0f9cbf86f593
 ms.date: 05/08/2018
+keywords: ["IPortMidi::Notify"]
 ms.keywords: IPortMidi interface [Audio Devices],Notify method, IPortMidi.Notify, IPortMidi::Notify, Notify, Notify method [Audio Devices], Notify method [Audio Devices],IPortMidi interface, audio.iportmidi_notify, audmp-routines_33df6b8a-0ebf-4544-8ad4-17fb93edf0c9.xml, portcls/IPortMidi::Notify
 f1_keywords:
  - "portcls/IPortMidi.Notify"

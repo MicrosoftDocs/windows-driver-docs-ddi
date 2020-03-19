@@ -5,6 +5,7 @@ tech.root: usbref
 description: Stores configuration information required to create a Platform Policy Manager (PPM). 
 ms.assetid: bb47ac45-b623-4512-89ff-cb434ca4d2ef
 ms.date: 09/30/2018
+keywords: ["_UCMUCSI_PPM_CONFIG structure"]
 f1_keywords:
  - "ucmucsippm/_UCMUCSI_PPM_CONFIG"
 ms.keywords: _UCMUCSI_PPM_CONFIG, UCMUCSI_PPM_CONFIG, *PUCMUCSI_PPM_CONFIG, 

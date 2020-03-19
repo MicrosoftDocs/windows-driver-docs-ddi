@@ -6,6 +6,7 @@ old-location: ifsk\rxmakelatedeviceavailable.htm
 tech.root: ifsk
 ms.assetid: 0818907f-3346-42a2-b123-3298ea8f9a1d
 ms.date: 04/16/2018
+keywords: ["RxMakeLateDeviceAvailable function"]
 ms.keywords: RxMakeLateDeviceAvailable, RxMakeLateDeviceAvailable routine [Installable File System Drivers], ifsk.rxmakelatedeviceavailable, mrx/RxMakeLateDeviceAvailable, rxref_7586550f-6abe-4e18-8154-09936c3f0488.xml
 f1_keywords:
  - "mrx/RxMakeLateDeviceAvailable"

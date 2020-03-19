@@ -6,6 +6,7 @@ old-location: ifsk\rtlfreeoemstring.htm
 tech.root: ifsk
 ms.assetid: cd9bc03d-1f57-420c-9430-d2d742f654e1
 ms.date: 04/16/2018
+keywords: ["RtlFreeOemString function"]
 ms.keywords: RtlFreeOemString, RtlFreeOemString routine [Installable File System Drivers], ifsk.rtlfreeoemstring, ntifs/RtlFreeOemString, rtlref_ffc98e3c-a96f-4250-a527-bcd1ba2ce506.xml
 f1_keywords:
  - "ntifs/RtlFreeOemString"

@@ -4,6 +4,7 @@ title: ExInitializePushLock function (wdm.h)
 description: Initializes a push lock variable.
 ms.assetid: fe5e8448-38e2-4317-99a7-1483649d5aeb
 ms.date: 09/30/2018
+keywords: ["ExInitializePushLock function"]
 f1_keywords:
  - "wdm/ExInitializePushLock"
 ms.keywords: ExInitializePushLock

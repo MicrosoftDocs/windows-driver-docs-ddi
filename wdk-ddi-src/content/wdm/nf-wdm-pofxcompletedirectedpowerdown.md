@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: c4ce7279-b8d7-4215-a9d2-e09b73d3ecfd
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
+keywords: ["PoFxCompleteDirectedPowerDown function"]
 f1_keywords:
  - "wdm/PoFxCompleteDirectedPowerDown"
 ms.keywords: PoFxCompleteDirectedPowerDown

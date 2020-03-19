@@ -4,6 +4,7 @@ title: IDataModelConcept::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 62f5dc8e-319e-4243-b66c-c1a53bd9adf5
 ms.date: 09/21/2018
+keywords: ["IDataModelConcept::AddRef"]
 f1_keywords:
  - "dbgmodel/IDataModelConcept.AddRef"
 ms.keywords: IDataModelConcept::AddRef, AddRef, IDataModelConcept.AddRef, IDataModelConcept::AddRef, IDataModelConcept.AddRef

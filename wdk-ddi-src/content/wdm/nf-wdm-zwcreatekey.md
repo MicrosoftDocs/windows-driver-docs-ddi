@@ -6,6 +6,7 @@ old-location: kernel\zwcreatekey.htm
 tech.root: kernel
 ms.assetid: 333f54e8-738e-4d1f-8fd7-93f282d9b9d8
 ms.date: 04/30/2018
+keywords: ["ZwCreateKey function"]
 ms.keywords: NtCreateKey, ZwCreateKey, ZwCreateKey routine [Kernel-Mode Driver Architecture], k111_1ab9fba3-0c39-45b8-9a79-d33ad73c0642.xml, kernel.zwcreatekey, wdm/NtCreateKey, wdm/ZwCreateKey
 f1_keywords:
  - "wdm/ZwCreateKey"

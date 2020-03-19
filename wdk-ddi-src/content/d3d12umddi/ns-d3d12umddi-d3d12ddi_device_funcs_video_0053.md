@@ -4,6 +4,7 @@ title: D3D12DDI_DEVICE_FUNCS_VIDEO_0053 (d3d12umddi.h)
 description: The device functions of video.
 ms.assetid: d32a1690-546d-4c00-b30c-7646ced2117d
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_DEVICE_FUNCS_VIDEO_0053 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0053"
 ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0053, D3D12DDI_DEVICE_FUNCS_VIDEO_0053, 

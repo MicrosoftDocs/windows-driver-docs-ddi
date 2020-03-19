@@ -6,6 +6,7 @@ old-location: ifsk\rxcreatesrvcall.htm
 tech.root: ifsk
 ms.assetid: 0eda9724-686f-4681-a1f0-92bdc36e695d
 ms.date: 04/16/2018
+keywords: ["RxCreateSrvCall function"]
 ms.keywords: RxCreateSrvCall, RxCreateSrvCall function [Installable File System Drivers], fcb/RxCreateSrvCall, ifsk.rxcreatesrvcall, rxref_ff4d3641-1ae5-43f1-9c49-0456d11f69b2.xml
 f1_keywords:
  - "fcb/RxCreateSrvCall"

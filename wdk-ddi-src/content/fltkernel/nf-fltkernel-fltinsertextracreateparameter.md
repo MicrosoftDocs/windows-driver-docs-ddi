@@ -6,6 +6,7 @@ old-location: ifsk\fltinsertextracreateparameter.htm
 tech.root: ifsk
 ms.assetid: b4cc03e9-225f-491f-97df-064fdedc8182
 ms.date: 04/16/2018
+keywords: ["FltInsertExtraCreateParameter function"]
 ms.keywords: FltApiRef_e_to_o_70a06c18-83e1-45cc-be8c-87945a2a320e.xml, FltInsertExtraCreateParameter, FltInsertExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltInsertExtraCreateParameter, ifsk.fltinsertextracreateparameter
 f1_keywords:
  - "fltkernel/FltInsertExtraCreateParameter"

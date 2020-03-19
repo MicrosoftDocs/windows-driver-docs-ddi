@@ -6,6 +6,7 @@ old-location: gnss\gnss_errorinfo.htm
 tech.root: gnss
 ms.assetid: 754CD1DD-88E6-4E02-8E24-1939222FE326
 ms.date: 02/15/2018
+keywords: ["GNSS_ERRORINFO structure"]
 ms.keywords: "*PGNSS_ERRORINFO, GNSS_ERRORINFO, GNSS_ERRORINFO structure [Sensor Devices], PGNSS_ERRORINFO, PGNSS_ERRORINFO structure pointer [Sensor Devices], gnss.gnss_errorinfo, gnssdriver/GNSS_ERRORINFO, gnssdriver/PGNSS_ERRORINFO"
 f1_keywords:
  - "gnssdriver/GNSS_ERRORINFO"

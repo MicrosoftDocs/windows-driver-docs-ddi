@@ -6,6 +6,7 @@ old-location: wdf\wdfpdoinitseteventcallbacks.htm
 tech.root: wdf
 ms.assetid: 7ce47eab-c1d7-4a0d-accb-c8a925aa3d1d
 ms.date: 02/26/2018
+keywords: ["WdfPdoInitSetEventCallbacks function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_00002737-467e-4449-8c6c-498860a18747.xml, WdfPdoInitSetEventCallbacks, WdfPdoInitSetEventCallbacks method, kmdf.wdfpdoinitseteventcallbacks, wdf.wdfpdoinitseteventcallbacks, wdfpdo/WdfPdoInitSetEventCallbacks
 f1_keywords:
  - "wdfpdo/WdfPdoInitSetEventCallbacks"

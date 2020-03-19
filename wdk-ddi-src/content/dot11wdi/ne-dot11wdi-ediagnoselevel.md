@@ -6,6 +6,7 @@ old-location: netvista\wdiediagnoselevel.htm
 tech.root: netvista
 ms.assetid: C19C250D-3C8D-4855-A8B3-82E139CE09BB
 ms.date: 05/02/2018
+keywords: ["eDiagnoseLevel enumeration"]
 ms.keywords: DiagnoseLevelDriverStateDump, DiagnoseLevelFirmwareImageDump, DiagnoseLevelHardwareRegisters, DiagnoseLevelNone, dot11wdi/DiagnoseLevelDriverStateDump, dot11wdi/DiagnoseLevelFirmwareImageDump, dot11wdi/DiagnoseLevelHardwareRegisters, dot11wdi/DiagnoseLevelNone, dot11wdi/eDiagnoseLevel, eDiagnoseLevel, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], netvista.wdiediagnoselevel
 f1_keywords:
  - "dot11wdi/eDiagnoseLevel"

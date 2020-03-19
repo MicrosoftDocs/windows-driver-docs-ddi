@@ -4,6 +4,7 @@ title: PDXGK_FSTATE_NOTIFICATION (d3dkmthk.h)
 description: Implemented by the client driver to issue a state notification.
 ms.assetid: a6d6baab-576b-407d-bfb3-91b0e8f6453d
 ms.date: 10/19/2018
+keywords: ["PDXGK_FSTATE_NOTIFICATION callback function"]
 f1_keywords:
  - "d3dkmthk/PDXGK_FSTATE_NOTIFICATION"
 req.header: d3dkmthk.h

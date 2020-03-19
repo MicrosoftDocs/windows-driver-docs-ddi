@@ -5,6 +5,7 @@ description: Called after a new multi-plane overlay configuration has taken effe
 old-location: display\dxgkddi_postmultiplaneoverlaypresent.htm
 ms.assetid: C420DDE8-73D4-4D43-861C-A7B31B4C7DEC
 ms.date: 04/16/2018
+keywords: ["DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback function"]
 ms.keywords: DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback, DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback function [Display Devices], d3dkmddi/DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, display.dxgkddi_postmultiplaneoverlaypresent
 req.header: d3dkmddi.h
 req.include-header: 

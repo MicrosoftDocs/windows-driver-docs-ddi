@@ -5,6 +5,7 @@ description: The NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT macro is used to access the 
 tech.root: netvista
 ms.assetid: d40e45ee-b7f7-40b4-8152-af1b31c1e971
 ms.date: 04/17/2018
+keywords: ["NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT macro"]
 f1_keywords:
  - "ntddndis/NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT"
 ms.keywords: NDIS_ROUTING_DOMAIN_ENTRY_GET_NEXT

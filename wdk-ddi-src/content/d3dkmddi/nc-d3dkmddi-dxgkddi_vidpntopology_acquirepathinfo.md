@@ -5,6 +5,7 @@ description: The pfnAcquirePathInfo function returns a descriptor of the video p
 old-location: display\dxgk_vidpntopology_interface_pfnacquirepathinfo.htm
 ms.assetid: 27a03106-a5b5-489c-968a-81b3ea9940cb
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_VIDPNTOPOLOGY_ACQUIREPATHINFO callback function"]
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_ACQUIREPATHINFO, DXGKDDI_VIDPNTOPOLOGY_ACQUIREPATHINFO callback, VidPnFunctions_fb690a8a-fc98-4f8f-bfe5-14168a5fdb6a.xml, d3dkmddi/pfnAcquirePathInfo, display.dxgk_vidpntopology_interface_pfnacquirepathinfo, pfnAcquirePathInfo, pfnAcquirePathInfo callback function [Display Devices]
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

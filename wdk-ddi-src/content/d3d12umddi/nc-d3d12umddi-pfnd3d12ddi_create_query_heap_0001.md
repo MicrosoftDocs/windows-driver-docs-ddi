@@ -4,6 +4,7 @@ title: PFND3D12DDI_CREATE_QUERY_HEAP_0001 (d3d12umddi.h)
 description: Creates a query heap.
 ms.assetid: e41fa597-73da-4498-a59d-9fd1249e4020
 ms.date: 10/19/2018
+keywords: ["PFND3D12DDI_CREATE_QUERY_HEAP_0001 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

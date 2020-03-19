@@ -6,6 +6,7 @@ old-location: ifsk\fltquerysecurityobject.htm
 tech.root: ifsk
 ms.assetid: 388dc11d-79cc-4e6b-bce0-b99cca556342
 ms.date: 04/16/2018
+keywords: ["FltQuerySecurityObject function"]
 ms.keywords: FltApiRef_p_to_z_6fa8f026-1268-4a97-b1e3-a2773e0a1784.xml, FltQuerySecurityObject, FltQuerySecurityObject function [Installable File System Drivers], fltkernel/FltQuerySecurityObject, ifsk.fltquerysecurityobject
 f1_keywords:
  - "fltkernel/FltQuerySecurityObject"

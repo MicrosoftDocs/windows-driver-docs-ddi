@@ -6,6 +6,7 @@ old-location: kernel\zwflushbuffersfileex.htm
 tech.root: kernel
 ms.assetid: C081CCF5-D13C-405C-A430-31805A16724A
 ms.date: 04/30/2018
+keywords: ["ZwFlushBuffersFileEx function"]
 ms.keywords: FLUSH_FLAGS_FILE_DATA_ONLY, FLUSH_FLAGS_NO_SYNC, NtFlushBuffersFileEx, ZwFlushBuffersFileEx, ZwFlushBuffersFileEx routine [Kernel-Mode Driver Architecture], kernel.zwflushbuffersfileex, ntifs/NtFlushBuffersFileEx, ntifs/ZwFlushBuffersFileEx
 f1_keywords:
  - "ntifs/ZwFlushBuffersFileEx"

@@ -3,6 +3,7 @@ UID: NA:nfccxbugcodes
 title: Nfccxbugcodes.h header
 ms.assetid: 36d00c14-c653-3deb-af94-a36239ee48de
 ms.date: 05/09/2018
+keywords: ["Nfccxbugcodes.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

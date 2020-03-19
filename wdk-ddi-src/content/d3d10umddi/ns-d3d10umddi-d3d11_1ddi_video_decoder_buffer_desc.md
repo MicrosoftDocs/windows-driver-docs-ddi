@@ -5,6 +5,7 @@ description: Describes a compressed buffer for Microsoft DirectX Video Accelerat
 old-location: display\d3d11_1ddi_video_decoderr_buffer_desc.htm
 ms.assetid: aff44ad9-7ade-4b01-8e41-11d686728faa
 ms.date: 02/20/2018
+keywords: ["D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC structure"]
 ms.keywords: D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC, D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC structure [Display Devices], display.d3d11_1ddi_video_decoderr_buffer_desc, d3d10umddi/D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC, D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC, D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC structure [Display Devices]
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC"

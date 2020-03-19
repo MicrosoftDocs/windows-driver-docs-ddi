@@ -4,6 +4,7 @@ title: IDataModelScriptDebug2::GetCurrentPosition (dbgmodel.h)
 description: The GetCurrentPosition' method returns the current position within the script. 
 ms.assetid: 3e84abeb-e856-4b29-a6ae-ea0a1ab31b27
 ms.date: 08/21/2018
+keywords: ["IDataModelScriptDebug2::GetCurrentPosition"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug2.GetCurrentPosition"
 ms.keywords: IDataModelScriptDebug2::GetCurrentPosition, GetCurrentPosition, IDataModelScriptDebug2.GetCurrentPosition, IDataModelScriptDebug2::GetCurrentPosition, IDataModelScriptDebug2.GetCurrentPosition

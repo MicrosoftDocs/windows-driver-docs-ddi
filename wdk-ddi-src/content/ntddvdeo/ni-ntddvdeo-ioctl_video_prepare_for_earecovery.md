@@ -6,6 +6,7 @@ old-location: display\ioctl_video_prepare_for_earecovery.htm
 tech.root: display
 ms.assetid: 71cd4559-9cb3-468e-a53e-fb40b97a90b6
 ms.date: 05/10/2018
+keywords: ["IOCTL_VIDEO_PREPARE_FOR_EARECOVERY IOCTL"]
 ms.keywords: IOCTL_VIDEO_PREPARE_FOR_EARECOVERY, IOCTL_VIDEO_PREPARE_FOR_EARECOVERY control, IOCTL_VIDEO_PREPARE_FOR_EARECOVERY control code [Display Devices], Video_IOCTLs_72bcebdd-6335-4953-9a23-00061760b4a4.xml, display.ioctl_video_prepare_for_earecovery, ntddvdeo/IOCTL_VIDEO_PREPARE_FOR_EARECOVERY
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_PREPARE_FOR_EARECOVERY"

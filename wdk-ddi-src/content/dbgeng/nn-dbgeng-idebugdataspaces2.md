@@ -6,6 +6,7 @@ old-location: debugger\idebugdataspaces2.htm
 tech.root: debugger
 ms.assetid: a8548f9c-5cb6-4a13-b37c-da28d316b8e1
 ms.date: 05/03/2018
+keywords: ["IDebugDataSpaces2 interface"]
 ms.keywords: IDebugDataSpaces2, IDebugDataSpaces2 interface [Windows Debugging], IDebugDataSpaces2 interface [Windows Debugging],described, dbgeng/IDebugDataSpaces2, debugger.idebugdataspaces2
 f1_keywords:
  - "dbgeng/IDebugDataSpaces2"

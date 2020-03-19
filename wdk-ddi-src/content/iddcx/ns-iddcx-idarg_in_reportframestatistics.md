@@ -6,6 +6,7 @@ old-location: display\idarg_in_reportframestatistics.htm
 tech.root: display
 ms.assetid: 3d3e0dca-bb05-4e5c-aa4a-76bb178f60bf
 ms.date: 05/10/2018
+keywords: ["IDARG_IN_REPORTFRAMESTATISTICS structure"]
 ms.keywords: IDARG_IN_REPORTFRAMESTATISTICS, IDARG_IN_REPORTFRAMESTATISTICS structure [Display Devices], display.idarg_in_reportframestatistics, iddcx/IDARG_IN_REPORTFRAMESTATISTICS
 f1_keywords:
  - "iddcx/IDARG_IN_REPORTFRAMESTATISTICS"

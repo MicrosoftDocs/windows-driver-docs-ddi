@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 0c6cdccd-9423-4640-bd8d-d7595589d598
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["PFND3D12DDI_CALCPRIVATEVIDEOEXTENSIONCOMMANDSIZE_0061 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

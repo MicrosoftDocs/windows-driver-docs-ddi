@@ -6,6 +6,7 @@ old-location: buses\ursreporthardwareevent.htm
 tech.root: usbref
 ms.assetid: 2BC80D99-5265-4D0C-A447-5CC2112F53F8
 ms.date: 05/07/2018
+keywords: ["UrsReportHardwareEvent function"]
 ms.keywords: UrsReportHardwareEvent, UrsReportHardwareEvent function [Buses], buses.ursreporthardwareevent, ursdevice/UrsReportHardwareEvent
 f1_keywords:
  - "ursdevice/UrsReportHardwareEvent"

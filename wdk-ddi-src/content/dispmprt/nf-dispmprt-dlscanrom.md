@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 62e855f9-d066-44b6-a104-eec2c079b315
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
+keywords: ["DlScanRom function"]
 f1_keywords:
  - "dispmprt/DlScanRom"
 ms.keywords: DlScanRom

@@ -6,6 +6,7 @@ old-location: pci\sriov_pnp_event_complete.htm
 tech.root: PCI
 ms.assetid: 3b40d780-8084-4c19-bb8e-9d1ab3dadc95
 ms.date: 02/24/2018
+keywords: ["_SRIOV_PNP_EVENT_COMPLETE structure"]
 ms.keywords: "*PSRIOV_PNP_EVENT_COMPLETE, PCI.sriov_pnp_event_complete, SRIOV_PNP_EVENT_COMPLETE, SRIOV_PNP_EVENT_COMPLETE structure [Buses], _SRIOV_PNP_EVENT_COMPLETE, pcivirt/SRIOV_PNP_EVENT_COMPLETE"
 f1_keywords:
  - "pcivirt/SRIOV_PNP_EVENT_COMPLETE"

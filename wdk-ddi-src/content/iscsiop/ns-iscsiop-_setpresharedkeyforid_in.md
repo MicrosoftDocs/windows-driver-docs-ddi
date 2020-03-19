@@ -6,6 +6,7 @@ old-location: storage\setpresharedkeyforid_in.htm
 tech.root: storage
 ms.assetid: f941bc28-f906-4399-be54-09e2bc12e443
 ms.date: 03/29/2018
+keywords: ["_SetPresharedKeyForId_IN structure"]
 ms.keywords: "*PSetPresharedKeyForId_IN, PSetPresharedKeyForId_IN, PSetPresharedKeyForId_IN structure pointer [Storage Devices], SetPresharedKeyForId_IN, SetPresharedKeyForId_IN structure [Storage Devices], _SetPresharedKeyForId_IN, iscsiop/PSetPresharedKeyForId_IN, iscsiop/SetPresharedKeyForId_IN, storage.setpresharedkeyforid_in, structs-iSCSI_610ad061-d9c5-4557-88c0-e7d9a20236a2.xml"
 f1_keywords:
  - "iscsiop/SetPresharedKeyForId_IN"

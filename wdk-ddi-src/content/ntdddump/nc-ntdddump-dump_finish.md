@@ -6,6 +6,7 @@ old-location: storage\dump_finish.htm
 tech.root: storage
 ms.assetid: 6e267810-a7ad-4407-8d01-4a2cad7a37bc
 ms.date: 03/29/2018
+keywords: ["DUMP_FINISH callback function"]
 ms.keywords: Dump_Finish, Dump_Finish routine [Storage Devices], PDUMP_FINISH, filter_rtns_7d5c92a4-19b6-4ef1-9b86-a9ec250106ef.xml, ntdddump/Dump_Finish, storage.dump_finish
 f1_keywords:
  - "ntdddump/Dump_Finish"

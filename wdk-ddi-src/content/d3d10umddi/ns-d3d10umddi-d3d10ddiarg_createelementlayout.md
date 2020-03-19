@@ -5,6 +5,7 @@ description: The D3D10DDIARG_CREATEELEMENTLAYOUT structure describes the element
 old-location: display\d3d10ddiarg_createelementlayout.htm
 ms.assetid: 3eb1555b-3274-496d-b6af-9cb0a6083ee4
 ms.date: 05/10/2018
+keywords: ["D3D10DDIARG_CREATEELEMENTLAYOUT structure"]
 ms.keywords: D3D10DDIARG_CREATEELEMENTLAYOUT, D3D10DDIARG_CREATEELEMENTLAYOUT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_8c912e61-9cff-46ad-963f-16d3b9a13b10.xml, d3d10umddi/D3D10DDIARG_CREATEELEMENTLAYOUT, display.d3d10ddiarg_createelementlayout
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_CREATEELEMENTLAYOUT"

@@ -6,6 +6,7 @@ old-location: image\iwiatransfercallback_transfercallback.htm
 tech.root: image
 ms.assetid: dc6c2057-9617-4c69-ac79-2a8f910a1ee2
 ms.date: 05/03/2018
+keywords: ["IWiaTransferCallback::TransferCallback"]
 ms.keywords: IWiaTransferCallback interface [Imaging Devices],TransferCallback method, IWiaTransferCallback.TransferCallback, IWiaTransferCallback::TransferCallback, IWiaTransfercallback_8e8bdc78-ce93-4fe1-98aa-91ffe608ee52.xml, TransferCallback, TransferCallback method [Imaging Devices], TransferCallback method [Imaging Devices],IWiaTransferCallback interface, image.iwiatransfercallback_transfercallback, wia_lh/IWiaTransferCallback::TransferCallback
 f1_keywords:
  - "wia_lh/IWiaTransferCallback.TransferCallback"

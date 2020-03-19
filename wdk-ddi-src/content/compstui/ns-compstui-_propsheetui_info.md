@@ -6,6 +6,7 @@ old-location: print\propsheetui_info.htm
 tech.root: print
 ms.assetid: b21c3ee1-13e8-4796-af45-6ba60e84df4e
 ms.date: 04/20/2018
+keywords: ["_PROPSHEETUI_INFO structure"]
 ms.keywords: "*PPROPSHEETUI_INFO, PPROPSHEETUI_INFO, PPROPSHEETUI_INFO structure pointer [Print Devices], PROPSHEETUI_INFO, PROPSHEETUI_INFO structure [Print Devices], _PROPSHEETUI_INFO, compstui/PPROPSHEETUI_INFO, compstui/PROPSHEETUI_INFO, cpsuifnc_0afe9ac8-ca1f-4984-acc5-04a8955b4b30.xml, print.propsheetui_info"
 f1_keywords:
  - "compstui/PROPSHEETUI_INFO"

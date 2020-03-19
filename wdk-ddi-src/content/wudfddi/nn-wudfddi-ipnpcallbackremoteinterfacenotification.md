@@ -6,6 +6,7 @@ old-location: wdf\ipnpcallbackremoteinterfacenotification.htm
 tech.root: wdf
 ms.assetid: 99d670dd-2358-4f1a-b111-72484bf3132c
 ms.date: 02/26/2018
+keywords: ["IPnpCallbackRemoteInterfaceNotification interface"]
 ms.keywords: IPnpCallbackRemoteInterfaceNotification, IPnpCallbackRemoteInterfaceNotification interface, IPnpCallbackRemoteInterfaceNotification interface,described, UMDFDeviceObjectRef_4701eb20-04aa-412f-8511-f44a2590ee5b.xml, umdf.ipnpcallbackremoteinterfacenotification, wdf.ipnpcallbackremoteinterfacenotification, wudfddi/IPnpCallbackRemoteInterfaceNotification
 f1_keywords:
  - "wudfddi/IPnpCallbackRemoteInterfaceNotification"

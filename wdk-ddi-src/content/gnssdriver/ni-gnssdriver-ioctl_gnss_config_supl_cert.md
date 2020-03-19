@@ -6,6 +6,7 @@ old-location: gnss\ioctl_gnss_config_supl_cert.htm
 tech.root: gnss
 ms.assetid: 34095934-26C1-4855-9ED9-71627E88A903
 ms.date: 02/15/2018
+keywords: ["IOCTL_GNSS_CONFIG_SUPL_CERT IOCTL"]
 ms.keywords: IOCTL_GNSS_CONFIG_SUPL_CERT, IOCTL_GNSS_CONFIG_SUPL_CERT control, IOCTL_GNSS_CONFIG_SUPL_CERT control code [Sensor Devices], gnss.ioctl_gnss_config_supl_cert, gnssdriver/IOCTL_GNSS_CONFIG_SUPL_CERT
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_CONFIG_SUPL_CERT"

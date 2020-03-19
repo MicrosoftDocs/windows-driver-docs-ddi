@@ -6,6 +6,7 @@ old-location: netvista\ndisgetdatabuffer.htm
 tech.root: netvista
 ms.assetid: 784d4c32-a517-4219-8e22-a998e0e66d69
 ms.date: 05/02/2018
+keywords: ["NdisGetDataBuffer function"]
 ms.keywords: NdisGetDataBuffer, NdisGetDataBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisGetDataBuffer, ndis_netbuf_functions_ref_b4ffded6-13c9-417d-bb03-a6421f718deb.xml, netvista.ndisgetdatabuffer
 f1_keywords:
  - "ndis/NdisGetDataBuffer"

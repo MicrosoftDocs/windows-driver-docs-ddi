@@ -5,6 +5,7 @@ description: Contains the response to a QueryAuthenticatedChannel(D3D11_1) query
 old-location: display\d3d11_1ddi_authenticated_query_output_id_count_input.htm
 ms.assetid: 4ea0fd1b-9b4a-456d-aa6e-720d419bfe86
 ms.date: 05/10/2018
+keywords: ["D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT structure"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT, display.d3d11_1ddi_authenticated_query_output_id_count_input
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_COUNT_INPUT"

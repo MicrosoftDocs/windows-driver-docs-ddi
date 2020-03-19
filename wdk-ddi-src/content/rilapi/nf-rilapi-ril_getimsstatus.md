@@ -6,6 +6,7 @@ old-location: netvista\ril_getimsstatus.htm
 tech.root: netvista
 ms.assetid: 78b2621e-e969-48ba-b742-ca6e52518874
 ms.date: 05/02/2018
+keywords: ["RIL_GetIMSStatus function"]
 ms.keywords: RIL_GetIMSStatus, RIL_GetIMSStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getimsstatus, rilapi/RIL_GetIMSStatus
 f1_keywords:
  - "rilapi/RIL_GetIMSStatus"

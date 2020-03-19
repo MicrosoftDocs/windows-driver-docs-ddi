@@ -6,6 +6,7 @@ old-location: netvista\ndiscmnotifycloseaddressfamily.htm
 tech.root: netvista
 ms.assetid: 1967f663-86ce-4e9d-9498-61951bdf4db0
 ms.date: 05/02/2018
+keywords: ["NdisCmNotifyCloseAddressFamily function"]
 ms.keywords: NdisCmNotifyCloseAddressFamily, NdisCmNotifyCloseAddressFamily function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_91b51137-6a26-4b90-a83c-c06a9463bf97.xml, ndis/NdisCmNotifyCloseAddressFamily, netvista.ndiscmnotifycloseaddressfamily
 f1_keywords:
  - "ndis/NdisCmNotifyCloseAddressFamily"

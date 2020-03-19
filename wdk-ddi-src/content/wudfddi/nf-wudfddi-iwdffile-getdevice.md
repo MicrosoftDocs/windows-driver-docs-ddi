@@ -6,6 +6,7 @@ old-location: wdf\iwdffile_getdevice.htm
 tech.root: wdf
 ms.assetid: 914cc125-076e-40e1-baef-a12cba427b37
 ms.date: 02/26/2018
+keywords: ["IWDFFile::GetDevice"]
 ms.keywords: GetDevice, GetDevice method, GetDevice method,IWDFFile interface, IWDFFile interface,GetDevice method, IWDFFile.GetDevice, IWDFFile::GetDevice, UMDFFileObjectRef_67417dd5-53be-487b-a93f-711bbcd6b0dd.xml, umdf.iwdffile_getdevice, wdf.iwdffile_getdevice, wudfddi/IWDFFile::GetDevice
 f1_keywords:
  - "wudfddi/IWDFFile.GetDevice"

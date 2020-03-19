@@ -5,6 +5,7 @@ description: The DXGK_VIDPN_INTERFACE_VERSION enumeration indicates the version 
 old-location: display\dxgk_vidpn_interface_version.htm
 ms.assetid: 819261a5-bec0-49a8-942a-9313d3b793ca
 ms.date: 05/10/2018
+keywords: ["_DXGK_VIDPN_INTERFACE_VERSION enumeration"]
 ms.keywords: DXGK_VIDPN_INTERFACE_VERSION, DXGK_VIDPN_INTERFACE_VERSION enumeration [Display Devices], DXGK_VIDPN_INTERFACE_VERSION_UNINITIALIZED, DXGK_VIDPN_INTERFACE_VERSION_V1, DmEnums_69c4e28b-70fe-4576-b726-6fa6d78c97d0.xml, _DXGK_VIDPN_INTERFACE_VERSION, d3dkmddi/DXGK_VIDPN_INTERFACE_VERSION, d3dkmddi/DXGK_VIDPN_INTERFACE_VERSION_UNINITIALIZED, d3dkmddi/DXGK_VIDPN_INTERFACE_VERSION_V1, display.dxgk_vidpn_interface_version
 f1_keywords:
  - "d3dkmddi/DXGK_VIDPN_INTERFACE_VERSION"

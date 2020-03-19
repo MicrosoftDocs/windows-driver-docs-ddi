@@ -5,6 +5,7 @@ description: The pfnStateCsSamplerCb function causes the Microsoft Direct3D 11 r
 old-location: display\pfnstatecssamplercb.htm
 ms.assetid: f041a99b-73d7-4fc4-8530-c94d6bbd1f03
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_STATE_CS_SAMPLER_CB callback function"]
 ms.keywords: PFND3D11DDI_STATE_CS_SAMPLER_CB, PFND3D11DDI_STATE_CS_SAMPLER_CB callback, d3d10umddi/pfnStateCsSamplerCb, d3d11state_functions_5a300b32-e958-46be-b13b-89dee7d81b39.xml, display.pfnstatecssamplercb, pfnStateCsSamplerCb, pfnStateCsSamplerCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateCsSamplerCb"

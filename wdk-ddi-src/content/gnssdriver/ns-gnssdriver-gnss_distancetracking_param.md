@@ -6,6 +6,7 @@ old-location: gnss\gnss_distancetracking_param.htm
 tech.root: gnss
 ms.assetid: B37B3C59-225C-40BC-BCA4-9ABF2500AFC0
 ms.date: 02/15/2018
+keywords: ["GNSS_DISTANCETRACKING_PARAM structure"]
 ms.keywords: "*PGNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM structure [Sensor Devices], PGNSS_DISTANCETRACKING_PARAM, PGNSS_DISTANCETRACKING_PARAM structure pointer [Sensor Devices], gnss.gnss_distancetracking_param, gnssdriver/GNSS_DISTANCETRACKING_PARAM, gnssdriver/PGNSS_DISTANCETRACKING_PARAM"
 f1_keywords:
  - "gnssdriver/GNSS_DISTANCETRACKING_PARAM"

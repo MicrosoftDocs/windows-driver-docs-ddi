@@ -6,6 +6,7 @@ old-location: wdf\evtdevicepowerstatechange.htm
 tech.root: wdf
 ms.assetid: 9f54c7e2-0c8a-46ee-9318-6db934c1aab6
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_fc945165-b31d-4d35-b3be-5586c280d8ca.xml, EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION, EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION callback, EvtDevicePowerStateChange, EvtDevicePowerStateChange callback function, kmdf.evtdevicepowerstatechange, wdf.evtdevicepowerstatechange, wdfdevice/EvtDevicePowerStateChange
 f1_keywords:
  - "wdfdevice/EvtDevicePowerStateChange"

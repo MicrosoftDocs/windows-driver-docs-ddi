@@ -6,6 +6,7 @@ old-location: ifsk\rtllookupelementgenerictablefullavl.htm
 tech.root: ifsk
 ms.assetid: fddb2e23-ddb3-48bc-a94e-0ca9a8580b78
 ms.date: 04/16/2018
+keywords: ["RtlLookupElementGenericTableFullAvl function"]
 ms.keywords: RtlLookupElementGenericTableFullAvl, RtlLookupElementGenericTableFullAvl routine [Installable File System Drivers], ifsk.rtllookupelementgenerictablefullavl, ntddk/RtlLookupElementGenericTableFullAvl, rtlref_12eb0cb8-ea58-45a8-a88b-ceddc5af12c6.xml
 f1_keywords:
  - "ntddk/RtlLookupElementGenericTableFullAvl"

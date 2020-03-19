@@ -6,6 +6,7 @@ old-location: netvista\ril_verifyuicclock.htm
 tech.root: netvista
 ms.assetid: e32e4b7d-715b-4eae-832f-314980ab89b3
 ms.date: 05/02/2018
+keywords: ["RIL_VerifyUiccLock function"]
 ms.keywords: RIL_VerifyUiccLock, RIL_VerifyUiccLock method [Network Drivers Starting with Windows Vista], netvista.ril_verifyuicclock, rilapi/RIL_VerifyUiccLock
 f1_keywords:
  - "rilapi/RIL_VerifyUiccLock"

@@ -6,6 +6,7 @@ old-location: kernel\pep_register_component_perf_states.htm
 tech.root: kernel
 ms.assetid: 063ADC0A-3455-4966-A11C-BDD5BA08A685
 ms.date: 04/30/2018
+keywords: ["_PEP_REGISTER_COMPONENT_PERF_STATES structure"]
 ms.keywords: "*PPEP_REGISTER_COMPONENT_PERF_STATES, PEP_REGISTER_COMPONENT_PERF_STATES, PEP_REGISTER_COMPONENT_PERF_STATES structure [Kernel-Mode Driver Architecture], PPEP_REGISTER_COMPONENT_PERF_STATES, PPEP_REGISTER_COMPONENT_PERF_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_COMPONENT_PERF_STATES, kernel.pep_register_component_perf_states, pepfx/PEP_REGISTER_COMPONENT_PERF_STATES, pepfx/PPEP_REGISTER_COMPONENT_PERF_STATES"
 f1_keywords:
  - "pep_x/PEP_REGISTER_COMPONENT_PERF_STATES"

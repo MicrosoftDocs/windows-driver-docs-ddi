@@ -4,6 +4,7 @@ title: EVT_TR_CONNECT_SECURE_SERVICE (trustedruntimeclx.h)
 description: 
 ms.assetid: 68fa7c1e-e03f-46b5-8373-391bb6dd330d
 ms.date: 10/19/2018
+keywords: ["EVT_TR_CONNECT_SECURE_SERVICE callback function"]
 f1_keywords:
  - "trustedruntimeclx/EVT_TR_CONNECT_SECURE_SERVICE"
 req.header: trustedruntimeclx.h

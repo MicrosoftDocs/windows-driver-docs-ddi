@@ -6,6 +6,7 @@ old-location: stream\bdapropertynodedescriptors.htm
 tech.root: stream
 ms.assetid: 46e38460-9284-4305-997d-bf72b308f301
 ms.date: 04/23/2018
+keywords: ["BdaPropertyNodeDescriptors function"]
 ms.keywords: BdaPropertyNodeDescriptors, BdaPropertyNodeDescriptors function [Streaming Media Devices], bdaref_67976a51-5f21-4369-be96-ab6a2b758e85.xml, bdasup/BdaPropertyNodeDescriptors, stream.bdapropertynodedescriptors
 f1_keywords:
  - "bdasup/BdaPropertyNodeDescriptors"

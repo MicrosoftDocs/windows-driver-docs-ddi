@@ -6,6 +6,7 @@ old-location: display\dxvahdddi_custom_rate_data.htm
 tech.root: display
 ms.assetid: 828c4c42-a74f-4737-b850-5c8299e5afd6
 ms.date: 05/10/2018
+keywords: ["_DXVAHDDDI_CUSTOM_RATE_DATA structure"]
 ms.keywords: DXVA2_Structs_98dcb947-954a-4e8d-adea-3451814e89f9.xml, DXVAHDDDI_CUSTOM_RATE_DATA, DXVAHDDDI_CUSTOM_RATE_DATA structure [Display Devices], _DXVAHDDDI_CUSTOM_RATE_DATA, d3dumddi/DXVAHDDDI_CUSTOM_RATE_DATA, display.dxvahdddi_custom_rate_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_CUSTOM_RATE_DATA"

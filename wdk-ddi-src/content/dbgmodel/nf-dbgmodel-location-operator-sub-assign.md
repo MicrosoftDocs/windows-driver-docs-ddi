@@ -4,6 +4,7 @@ title: operator-= function (dbgmodel.h)
 description: The subtraction assignment operator for the location function.
 ms.assetid: 77948015-8e09-4f07-b04a-85a868bb8359
 ms.date: 09/28/2018
+keywords: ["operator-= function"]
 f1_keywords:
  - "dbgmodel/operator-="
 ms.keywords: operator-=

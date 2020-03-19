@@ -6,6 +6,7 @@ old-location: netvista\ndisunmapfile.htm
 tech.root: netvista
 ms.assetid: 20ba1eef-2377-4e17-a2ff-002f1bbe15f0
 ms.date: 05/02/2018
+keywords: ["NdisUnmapFile function"]
 ms.keywords: NdisUnmapFile, NdisUnmapFile function [Network Drivers Starting with Windows Vista], ndis/NdisUnmapFile, ndis_file_ref_5be88800-5866-4969-8534-2d76953bf4de.xml, netvista.ndisunmapfile
 f1_keywords:
  - "ndis/NdisUnmapFile"

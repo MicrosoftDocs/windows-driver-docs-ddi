@@ -6,6 +6,7 @@ old-location: netvista\wdi_p2p_listen_state.htm
 tech.root: netvista
 ms.assetid: 68798F3D-B708-4DCD-AB3F-D8DE4A8A0CF2
 ms.date: 05/02/2018
+keywords: ["_WDI_P2P_LISTEN_STATE enumeration"]
 ms.keywords: WDI_P2P_LISTEN_STATE, WDI_P2P_LISTEN_STATE enumeration [Device and Driver Installation], WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY, WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY, WDI_P2P_LISTEN_STATE_OFF, WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY, _WDI_P2P_LISTEN_STATE, netvista.wdi_p2p_listen_state, netvista.wifi_p2p_listen_state, wditypes/WDI_P2P_LISTEN_STATE, wditypes/WDI_P2P_LISTEN_STATE_AUTOMATIC_AVAILABILITY, wditypes/WDI_P2P_LISTEN_STATE_HIGH_AVAILABILITY, wditypes/WDI_P2P_LISTEN_STATE_OFF, wditypes/WDI_P2P_LISTEN_STATE_PASSIVE_AVAILABILITY
 f1_keywords:
  - "wditypes/WDI_P2P_LISTEN_STATE"

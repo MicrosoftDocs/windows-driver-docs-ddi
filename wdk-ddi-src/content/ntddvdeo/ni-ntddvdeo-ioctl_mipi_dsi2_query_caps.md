@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 8472c449-74ee-4590-a94b-7d726e1707db
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["IOCTL_MIPI_DSI2_QUERY_CAPS IOCTL"]
 f1_keywords:
  - "ntddvdeo/IOCTL_MIPI_DSI2_QUERY_CAPS"
 req.header: ntddvdeo.h

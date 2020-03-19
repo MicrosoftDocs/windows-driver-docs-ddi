@@ -5,6 +5,7 @@ description: The FPB Vector Access Control Register. See section 7.y.8.
 tech.root: pci 
 ms.assetid: 18203808-fb82-474e-8471-ab492914c0db
 ms.date: 09/30/2018
+keywords: ["_PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER structure"]
 f1_keywords:
  - "ntddk/_PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER"
 ms.keywords: _PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER, PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER, *PPCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER, 

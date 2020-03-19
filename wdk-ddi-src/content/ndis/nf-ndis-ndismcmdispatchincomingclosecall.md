@@ -6,6 +6,7 @@ old-location: netvista\ndismcmdispatchincomingclosecall.htm
 tech.root: netvista
 ms.assetid: 843050e1-a1ec-4313-b527-529c4ff6ca07
 ms.date: 05/02/2018
+keywords: ["NdisMCmDispatchIncomingCloseCall macro"]
 ms.keywords: NdisMCmDispatchIncomingCloseCall, NdisMCmDispatchIncomingCloseCall macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_b5a94c5f-7483-44dd-8167-6e64f52cada6.xml, ndis/NdisMCmDispatchIncomingCloseCall, netvista.ndismcmdispatchincomingclosecall
 f1_keywords:
  - "ndis/NdisMCmDispatchIncomingCloseCall"

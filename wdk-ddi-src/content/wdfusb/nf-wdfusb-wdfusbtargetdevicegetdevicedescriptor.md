@@ -6,6 +6,7 @@ old-location: wdf\wdfusbtargetdevicegetdevicedescriptor.htm
 tech.root: wdf
 ms.assetid: b2c70976-00ce-4563-af60-0bbdd1a65540
 ms.date: 02/26/2018
+keywords: ["WdfUsbTargetDeviceGetDeviceDescriptor function"]
 ms.keywords: DFUsbRef_a59d2f05-4ecf-400f-823e-b2d2533020a2.xml, WdfUsbTargetDeviceGetDeviceDescriptor, WdfUsbTargetDeviceGetDeviceDescriptor method, kmdf.wdfusbtargetdevicegetdevicedescriptor, wdf.wdfusbtargetdevicegetdevicedescriptor, wdfusb/WdfUsbTargetDeviceGetDeviceDescriptor
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceGetDeviceDescriptor"

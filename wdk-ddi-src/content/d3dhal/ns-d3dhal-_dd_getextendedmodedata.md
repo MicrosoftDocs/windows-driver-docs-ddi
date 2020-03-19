@@ -6,6 +6,7 @@ old-location: display\dd_getextendedmodedata.htm
 tech.root: display
 ms.assetid: 50b2a1fd-4214-4ad8-b087-f48c14dbe587
 ms.date: 05/10/2018
+keywords: ["_DD_GETEXTENDEDMODEDATA structure"]
 ms.keywords: DD_GETEXTENDEDMODEDATA, DD_GETEXTENDEDMODEDATA structure [Display Devices], _DD_GETEXTENDEDMODEDATA, d3dhal/DD_GETEXTENDEDMODEDATA, d3dstrct_a39e1e5a-9b07-48eb-a7c6-40bcac8a21d6.xml, display.dd_getextendedmodedata
 f1_keywords:
  - "d3dhal/DD_GETEXTENDEDMODEDATA"

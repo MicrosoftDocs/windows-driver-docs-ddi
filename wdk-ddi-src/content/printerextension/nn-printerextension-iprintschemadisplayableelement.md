@@ -6,6 +6,7 @@ old-location: print\iprintschemadisplayableelement_interface.htm
 tech.root: print
 ms.assetid: A1ACF7C4-2DEE-405E-AEEE-BC03B9D5FAD2
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaDisplayableElement interface"]
 ms.keywords: IPrintSchemaDisplayableElement, IPrintSchemaDisplayableElement interface [Print Devices], IPrintSchemaDisplayableElement interface [Print Devices],described, print.iprintschemadisplayableelement_interface, printerextension/IPrintSchemaDisplayableElement
 f1_keywords:
  - "printerextension/IPrintSchemaDisplayableElement"

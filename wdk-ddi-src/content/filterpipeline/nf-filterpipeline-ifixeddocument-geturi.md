@@ -6,6 +6,7 @@ old-location: print\ifixeddocument_geturi.htm
 tech.root: print
 ms.assetid: ed19deff-ecb3-4c6c-bbf5-a82a27b5934e
 ms.date: 04/20/2018
+keywords: ["IFixedDocument::GetUri"]
 ms.keywords: GetUri, GetUri method [Print Devices], GetUri method [Print Devices],IFixedDocument interface, IFixedDocument interface [Print Devices],GetUri method, IFixedDocument.GetUri, IFixedDocument::GetUri, filterpipeline/IFixedDocument::GetUri, filterpipeline_278b5027-10e2-4564-a404-143f84e0123c.xml, print.ifixeddocument_geturi
 f1_keywords:
  - "filterpipeline/IFixedDocument.GetUri"

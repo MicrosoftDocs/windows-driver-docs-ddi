@@ -6,6 +6,7 @@ old-location: hid\hidd_getmanufacturerstring.htm
 tech.root: hid
 ms.assetid: 21253ed7-d98d-4b97-8d83-01dd18b3c4f9
 ms.date: 06/19/2019
+keywords: ["HidD_GetManufacturerString function"]
 ms.keywords: HidD_GetManufacturerString, HidD_GetManufacturerString routine [Human Input Devices], hid.hidd_getmanufacturerstring, hidfunc_c0e9df6e-0aab-49ac-9a72-196a9b3ceec5.xml, hidsdi/HidD_GetManufacturerString
 f1_keywords:
  - "hidsdi/HidD_GetManufacturerString"

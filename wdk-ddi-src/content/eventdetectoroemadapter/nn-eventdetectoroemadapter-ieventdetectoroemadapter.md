@@ -7,6 +7,7 @@ tech.root: audio
 ms.assetid: c8b85e0b-cf91-4e9d-895f-66208b5493a7
 ms.author: windowsdriverdev
 ms.date: 02/22/2019
+keywords: ["IEventDetectorOemAdapter interface"]
 f1_keywords:
  - "eventdetectoroemadapter/IEventDetectorOemAdapter"
 req.header: eventdetectoroemadapter.h

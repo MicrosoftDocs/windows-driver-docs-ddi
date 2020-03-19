@@ -6,6 +6,7 @@ old-location: print\drvdevicepropertysheets.htm
 tech.root: print
 ms.assetid: 46f39e36-8915-4ccf-97ef-45dbacdfbe0a
 ms.date: 04/20/2018
+keywords: ["DrvDevicePropertySheets function"]
 ms.keywords: DrvDevicePropertySheets, DrvDevicePropertySheets function [Print Devices], print.drvdevicepropertysheets, print_interface-graphics_f7a16b0a-c0f3-48c8-83a0-ce44a80ff546.xml, winddiui/DrvDevicePropertySheets
 f1_keywords:
  - "winddiui/DrvDevicePropertySheets"

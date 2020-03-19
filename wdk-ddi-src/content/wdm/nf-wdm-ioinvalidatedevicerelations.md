@@ -6,6 +6,7 @@ old-location: kernel\ioinvalidatedevicerelations.htm
 tech.root: kernel
 ms.assetid: f312afec-10b3-4049-a4c1-154c11b4a869
 ms.date: 04/30/2018
+keywords: ["IoInvalidateDeviceRelations function"]
 ms.keywords: IoInvalidateDeviceRelations, IoInvalidateDeviceRelations routine [Kernel-Mode Driver Architecture], k104_c839e20b-2be6-4586-86c9-57c773bf755f.xml, kernel.ioinvalidatedevicerelations, wdm/IoInvalidateDeviceRelations
 f1_keywords:
  - "wdm/IoInvalidateDeviceRelations"

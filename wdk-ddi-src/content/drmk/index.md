@@ -3,6 +3,7 @@ UID: NA:drmk
 title: Drmk.h header
 ms.assetid: d0869a59-50dc-35f9-a3cc-2e955c1a9812
 ms.date: 05/09/2018
+keywords: ["Drmk.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

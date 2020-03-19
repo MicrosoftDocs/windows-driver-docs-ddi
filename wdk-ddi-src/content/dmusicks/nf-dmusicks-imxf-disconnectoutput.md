@@ -5,6 +5,7 @@ description: The DisconnectOutput method disconnects this IMXF interface from th
 tech.root: audio
 ms.assetid: 65b18277-7b28-455c-ae39-81d97a09e21b
 ms.date: 10/31/2018
+keywords: ["IMXF::DisconnectOutput"]
 f1_keywords:
  - "dmusicks/IMXF.DisconnectOutput"
 ms.keywords: IMXF::DisconnectOutput, DisconnectOutput, IMXF.DisconnectOutput, IMXF::DisconnectOutput, IMXF.DisconnectOutput

@@ -6,6 +6,7 @@ old-location: stream\ksdeviceregisteradapterobject.htm
 tech.root: stream
 ms.assetid: 6e3c33fe-eb28-4985-98f3-cafa85543d68
 ms.date: 04/23/2018
+keywords: ["KsDeviceRegisterAdapterObject function"]
 ms.keywords: KsDeviceRegisterAdapterObject, KsDeviceRegisterAdapterObject function [Streaming Media Devices], avfunc_59ad20f2-ca31-4fbb-808e-48df3a0c87a8.xml, ks/KsDeviceRegisterAdapterObject, stream.ksdeviceregisteradapterobject
 f1_keywords:
  - "ks/KsDeviceRegisterAdapterObject"

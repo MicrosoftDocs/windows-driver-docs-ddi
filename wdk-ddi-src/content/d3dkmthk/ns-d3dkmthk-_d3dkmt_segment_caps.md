@@ -4,6 +4,7 @@ title: _D3DKMT_SEGMENT_CAPS (d3dkmthk.h)
 description: Contains segment capabilities.
 ms.assetid: cf294dd9-efc3-41fd-94ce-da55be3d584e
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_SEGMENT_CAPS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_SEGMENT_CAPS"
 ms.keywords: _D3DKMT_SEGMENT_CAPS, D3DKMT_SEGMENT_CAPS, 

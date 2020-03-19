@@ -6,6 +6,7 @@ old-location: stream\kstrfasthandler.htm
 tech.root: stream
 ms.assetid: 9a72cdb5-2b57-4331-9836-82653732decf
 ms.date: 04/23/2018
+keywords: ["PFNKSFASTHANDLER callback function"]
 ms.keywords: KStrFastHandler, KStrFastHandler routine [Streaming Media Devices], PFNKSFASTHANDLER, ks/KStrFastHandler, ksfunc_e78a76eb-b3e6-4864-bae2-49536d3a9d52.xml, stream.kstrfasthandler
 f1_keywords:
  - "ks/KStrFastHandler"

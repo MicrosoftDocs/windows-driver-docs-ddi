@@ -6,6 +6,7 @@ old-location: spb\spbrequestcomplete.htm
 tech.root: SPB
 ms.assetid: 356BC81E-8FE9-4BC7-83E5-20A64D149A0D
 ms.date: 04/30/2018
+keywords: ["SpbRequestComplete function"]
 ms.keywords: SPB.spbrequestcomplete, SpbRequestComplete, SpbRequestComplete method [Buses], spbcx/SpbRequestComplete
 f1_keywords:
  - "spbcx/SpbRequestComplete"

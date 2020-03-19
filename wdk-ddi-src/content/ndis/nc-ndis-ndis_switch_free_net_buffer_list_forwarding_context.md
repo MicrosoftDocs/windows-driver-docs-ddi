@@ -6,6 +6,7 @@ old-location: netvista\FreeNetBufferListForwardingContext.htm
 tech.root: netvista
 ms.assetid: 08AE3160-276F-4D1F-9D02-AD5AF38CDED2
 ms.date: 05/02/2018
+keywords: ["NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT callback function"]
 ms.keywords: FreeNetBufferListForwardingContext, FreeNetBufferListForwardingContext callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT, NDIS_SWITCH_FREE_NET_BUFFER_LIST_FORWARDING_CONTEXT callback, ndis/FreeNetBufferListForwardingContext, netvista.FreeNetBufferListForwardingContext
 f1_keywords:
  - "ndis/FreeNetBufferListForwardingContext"

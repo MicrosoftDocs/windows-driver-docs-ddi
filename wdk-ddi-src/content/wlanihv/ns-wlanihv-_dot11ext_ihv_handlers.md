@@ -6,6 +6,7 @@ old-location: netvista\dot11ext_ihv_handlers.htm
 tech.root: netvista
 ms.assetid: 6dacd330-45f1-46f8-b2bf-2006c89f664f
 ms.date: 02/16/2018
+keywords: ["_DOT11EXT_IHV_HANDLERS structure"]
 ms.keywords: "*PDOT11EXT_IHV_HANDLERS, DOT11EXT_IHV_HANDLERS, DOT11EXT_IHV_HANDLERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e072dcd6-e41c-4c08-b958-9302f62f02c1.xml, PDOT11EXT_IHV_HANDLERS, PDOT11EXT_IHV_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_HANDLERS, netvista.dot11ext_ihv_handlers, wlanihv/DOT11EXT_IHV_HANDLERS, wlanihv/PDOT11EXT_IHV_HANDLERS"
 f1_keywords:
  - "wlanihv/DOT11EXT_IHV_HANDLERS"

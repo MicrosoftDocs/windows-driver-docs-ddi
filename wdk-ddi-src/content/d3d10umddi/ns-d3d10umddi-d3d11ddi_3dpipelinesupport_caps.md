@@ -5,6 +5,7 @@ description: The D3D11DDI_3DPIPELINESUPPORT_CAPS structure contains display devi
 old-location: display\d3d11ddi_3dpipelinesupport_caps.htm
 ms.assetid: 69bafa36-2f99-4c6f-b5ed-99a7030b22e6
 ms.date: 05/10/2018
+keywords: ["D3D11DDI_3DPIPELINESUPPORT_CAPS structure"]
 ms.keywords: D3D11DDI_3DPIPELINESUPPORT_CAPS, D3D11DDI_3DPIPELINESUPPORT_CAPS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_dc9a2de4-8fcf-4cd4-9c59-cc57941cab00.xml, d3d10umddi/D3D11DDI_3DPIPELINESUPPORT_CAPS, display.d3d11ddi_3dpipelinesupport_caps
 f1_keywords:
  - "d3d10umddi/D3D11DDI_3DPIPELINESUPPORT_CAPS"

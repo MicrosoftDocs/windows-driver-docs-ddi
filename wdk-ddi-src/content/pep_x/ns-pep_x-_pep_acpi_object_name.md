@@ -6,6 +6,7 @@ old-location: kernel\pep_acpi_object_name.htm
 tech.root: kernel
 ms.assetid: 55D8A977-DA91-4CB5-8549-E1CB1731256C
 ms.date: 04/30/2018
+keywords: ["_PEP_ACPI_OBJECT_NAME structure"]
 ms.keywords: "*PPEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME union [Kernel-Mode Driver Architecture], _PEP_ACPI_OBJECT_NAME, kernel.pep_acpi_object_name, pepfx/PEP_ACPI_OBJECT_NAME"
 f1_keywords:
  - "pep_x/PEP_ACPI_OBJECT_NAME"

@@ -4,6 +4,7 @@ title: _UDECX_WDF_DEVICE_RESET_TYPE (udecxwdfdevice.h)
 description: Defines values that indicates the type of reset for a UDE device.
 ms.assetid: 2b446cd7-66fd-4a5a-9062-fc4667d1eaa2
 ms.date: 09/30/2018
+keywords: ["_UDECX_WDF_DEVICE_RESET_TYPE enumeration"]
 f1_keywords:
  - "udecxwdfdevice/_UDECX_WDF_DEVICE_RESET_TYPE"
 ms.keywords: _UDECX_WDF_DEVICE_RESET_TYPE, UDECX_WDF_DEVICE_RESET_TYPE, *PUDECX_WDF_DEVICE_RESET_TYPE, 

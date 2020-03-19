@@ -4,6 +4,7 @@ title: IDebugHostData::GetValue (dbgmodel.h)
 description: Returns the value of the constant in a VARIANT data structure.
 ms.assetid: f36dd267-59f8-41aa-99ae-455ae6e98c1e
 ms.date: 09/10/2018
+keywords: ["IDebugHostData::GetValue"]
 f1_keywords:
  - "dbgmodel/IDebugHostData.GetValue"
 ms.keywords: IDebugHostData::GetValue, GetValue, IDebugHostData.GetValue, IDebugHostData::GetValue, IDebugHostData.GetValue

@@ -6,6 +6,7 @@ old-location: buses\evt_ucx_controller_usbdevice_add.htm
 tech.root: usbref
 ms.assetid: 0f89b57a-3374-4f40-88b5-43d233ba0e47
 ms.date: 05/07/2018
+keywords: ["EVT_UCX_CONTROLLER_USBDEVICE_ADD callback function"]
 ms.keywords: EVT_UCX_CONTROLLER_USBDEVICE_ADD, EVT_UCX_CONTROLLER_USBDEVICE_ADD callback, EvtUcxControllerUsbDeviceAdd, EvtUcxControllerUsbDeviceAdd callback function [Buses], PEVT_UCX_CONTROLLER_USBDEVICE_ADD, PEVT_UCX_CONTROLLER_USBDEVICE_ADD callback function pointer [Buses], buses.evt_ucx_controller_usbdevice_add, ucxcontroller/EvtUcxControllerUsbDeviceAdd
 f1_keywords:
  - "ucxcontroller/PEVT_UCX_CONTROLLER_USBDEVICE_ADD"

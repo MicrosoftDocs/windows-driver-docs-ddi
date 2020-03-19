@@ -6,6 +6,7 @@ old-location: display\checkpresentdurationsupport.htm
 tech.root: display
 ms.assetid: 4D3FC503-A502-41D3-AB76-5A2BEBE4C551
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_CHECKPRESENTDURATIONSUPPORT callback function"]
 ms.keywords: CheckPresentDurationSupport, CheckPresentDurationSupport callback function [Display Devices], PFND3DDDI_CHECKPRESENTDURATIONSUPPORT, PFND3DDDI_CHECKPRESENTDURATIONSUPPORT callback, d3dumddi/CheckPresentDurationSupport, display.checkpresentdurationsupport
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h

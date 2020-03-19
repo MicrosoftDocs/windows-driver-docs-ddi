@@ -6,6 +6,7 @@ old-location: netvista\ndk_fn_modify_srq.htm
 tech.root: netvista
 ms.assetid: ABB42AC6-8483-420C-B9A9-063C91E4FB13
 ms.date: 05/02/2018
+keywords: ["NDK_FN_MODIFY_SRQ callback function"]
 ms.keywords: NDK_FN_MODIFY_SRQ, NDK_FN_MODIFY_SRQ callback, NdkModifySrq, NdkModifySrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkModifySrq, netvista.ndk_fn_modify_srq
 f1_keywords:
  - "ndkpi/NdkModifySrq"

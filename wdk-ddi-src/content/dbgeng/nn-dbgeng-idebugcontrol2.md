@@ -6,6 +6,7 @@ old-location: debugger\idebugcontrol2.htm
 tech.root: debugger
 ms.assetid: c8371bbc-cbd1-4ff4-a055-99cc6cd6f8c6
 ms.date: 05/03/2018
+keywords: ["IDebugControl2 interface"]
 ms.keywords: IDebugControl2, IDebugControl2 interface [Windows Debugging], IDebugControl2 interface [Windows Debugging],described, dbgeng/IDebugControl2, debugger.idebugcontrol2
 f1_keywords:
  - "dbgeng/IDebugControl2"

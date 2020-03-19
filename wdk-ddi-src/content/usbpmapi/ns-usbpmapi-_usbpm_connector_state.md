@@ -4,6 +4,7 @@ title: _USBPM_CONNECTOR_STATE (usbpmapi.h)
 description: Describes the state of a connector.
 ms.assetid: 5430de09-aae7-49da-ae7f-50fd996e4386
 ms.date: 09/30/2018
+keywords: ["_USBPM_CONNECTOR_STATE structure"]
 f1_keywords:
  - "usbpmapi/_USBPM_CONNECTOR_STATE"
 tech.root: usbref

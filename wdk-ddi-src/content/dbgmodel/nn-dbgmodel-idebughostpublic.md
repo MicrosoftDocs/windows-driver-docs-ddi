@@ -4,6 +4,7 @@ title: IDebugHostPublic (dbgmodel.h)
 description: An (IDebugHostSymbol derived) interface to a public symbol (address/name only).
 ms.assetid: 18775b1d-4efc-422c-8920-21de383fb5b9
 ms.date: 07/13/2018
+keywords: ["IDebugHostPublic interface"]
 f1_keywords:
  - "dbgmodel/IDebugHostPublic"
 req.header: dbgmodel.h

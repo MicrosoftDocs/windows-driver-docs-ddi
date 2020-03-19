@@ -6,6 +6,7 @@ old-location: print\unidrvinfo.htm
 tech.root: print
 ms.assetid: f57514ed-33b2-4895-aaba-5866b6fc01d2
 ms.date: 04/20/2018
+keywords: ["_UNIDRVINFO structure"]
 ms.keywords: "*PUNIDRVINFO, PUNIDRVINFO, PUNIDRVINFO structure pointer [Print Devices], UNIDRVINFO, UNIDRVINFO structure [Print Devices], _UNIDRVINFO, print.unidrvinfo, print_unidrv-pscript_fonts_b956aa02-1966-47c6-aec1-8ef8b98f4e57.xml, prntfont/PUNIDRVINFO, prntfont/UNIDRVINFO"
 f1_keywords:
  - "prntfont/UNIDRVINFO"

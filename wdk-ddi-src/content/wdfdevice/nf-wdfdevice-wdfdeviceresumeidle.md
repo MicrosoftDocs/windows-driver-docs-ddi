@@ -6,6 +6,7 @@ old-location: wdf\wdfdeviceresumeidle.htm
 tech.root: wdf
 ms.assetid: d63848e8-0e6a-4ad7-a147-8804869b9c9b
 ms.date: 02/26/2018
+keywords: ["WdfDeviceResumeIdle macro"]
 ms.keywords: DFDeviceObjectGeneralRef_6078e8e8-7d4e-4714-a1b4-74fc973a678c.xml, WdfDeviceResumeIdle, WdfDeviceResumeIdle method, kmdf.wdfdeviceresumeidle, wdf.wdfdeviceresumeidle, wdfdevice/WdfDeviceResumeIdle
 f1_keywords:
  - "wdfdevice/WdfDeviceResumeIdle"

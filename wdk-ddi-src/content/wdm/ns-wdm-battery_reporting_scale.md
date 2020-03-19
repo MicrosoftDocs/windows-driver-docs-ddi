@@ -6,6 +6,7 @@ old-location: battery\battery_reporting_scale.htm
 tech.root: battery
 ms.assetid: aea1d82d-39b8-4535-a5c3-fb987be1e43c
 ms.date: 02/15/2018
+keywords: ["BATTERY_REPORTING_SCALE structure"]
 ms.keywords: "*PBATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE, BATTERY_REPORTING_SCALE structure [Battery Devices], PBATTERY_REPORTING_SCALE, PBATTERY_REPORTING_SCALE structure pointer [Battery Devices], bat-struct_6ecc4955-56b0-4c92-9ce2-46bcd7d6b273.xml, battery.battery_reporting_scale, ntpoapi/BATTERY_REPORTING_SCALE, ntpoapi/PBATTERY_REPORTING_SCALE"
 f1_keywords:
  - "wdm/BATTERY_REPORTING_SCALE"

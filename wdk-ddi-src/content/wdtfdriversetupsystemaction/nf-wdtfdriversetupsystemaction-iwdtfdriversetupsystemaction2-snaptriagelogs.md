@@ -6,6 +6,7 @@ old-location: dtf\iwdtfdriversetupsystemaction2_snaptriagelogs.htm
 tech.root: dtf
 ms.assetid: 52f1e529-e1fe-4a08-a0cf-dc08e18d11b5
 ms.date: 04/04/2018
+keywords: ["IWDTFDriverSetupSystemAction2::SnapTriageLogs"]
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],SnapTriageLogs method, IWDTFDriverSetupSystemAction2.SnapTriageLogs, IWDTFDriverSetupSystemAction2::SnapTriageLogs, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.SnapTriageLogs, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::SnapTriageLogs, SnapTriageLogs, SnapTriageLogs method [Windows Device Testing Framework], SnapTriageLogs method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_snaptriagelogs, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::SnapTriageLogs
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2.SnapTriageLogs"

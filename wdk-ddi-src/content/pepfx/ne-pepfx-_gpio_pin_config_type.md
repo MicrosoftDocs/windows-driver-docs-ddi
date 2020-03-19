@@ -6,6 +6,7 @@ old-location: kernel\gpio_pin_config_type.htm
 tech.root: kernel
 ms.assetid: 76509992-E5A7-4C2F-84D3-B3FD06ACEFE1
 ms.date: 04/30/2018
+keywords: ["_GPIO_PIN_CONFIG_TYPE enumeration"]
 ms.keywords: GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE enumeration [Kernel-Mode Driver Architecture], PullDefault, PullDown, PullNone, PullUp, _GPIO_PIN_CONFIG_TYPE, kernel.gpio_pin_config_type, pepfx/GPIO_PIN_CONFIG_TYPE, pepfx/PullDefault, pepfx/PullDown, pepfx/PullNone, pepfx/PullUp
 f1_keywords:
  - "pepfx/GPIO_PIN_CONFIG_TYPE"

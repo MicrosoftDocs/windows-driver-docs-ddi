@@ -6,6 +6,7 @@ old-location: buses\_usbdevice_abortio.htm
 tech.root: usbref
 ms.assetid: 69720940-4D3E-43E6-B587-427ED2049FCC
 ms.date: 05/07/2018
+keywords: ["_USBDEVICE_ABORTIO structure"]
 ms.keywords: "*PUSBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO structure pointer [Buses], USBDEVICE_ABORTIO, USBDEVICE_ABORTIO structure [Buses], _USBDEVICE_ABORTIO, buses._usbdevice_abortio, ucxusbdevice/P_USBDEVICE_ABORTIO, ucxusbdevice/_USBDEVICE_ABORTIO"
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_ABORTIO"

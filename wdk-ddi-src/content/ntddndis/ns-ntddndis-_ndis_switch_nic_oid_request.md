@@ -6,6 +6,7 @@ old-location: netvista\ndis_switch_nic_oid_request.htm
 tech.root: netvista
 ms.assetid: 0a097769-0c74-4465-b339-13696b4dbb6b
 ms.date: 05/02/2018
+keywords: ["_NDIS_SWITCH_NIC_OID_REQUEST structure"]
 ms.keywords: "*PNDIS_SWITCH_NIC_OID_REQUEST, NDIS_SWITCH_NIC_OID_REQUEST, NDIS_SWITCH_NIC_OID_REQUEST structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_OID_REQUEST, PNDIS_SWITCH_NIC_OID_REQUEST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_OID_REQUEST, netvista.ndis_switch_nic_oid_request, ntddndis/NDIS_SWITCH_NIC_OID_REQUEST, ntddndis/PNDIS_SWITCH_NIC_OID_REQUEST"
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_NIC_OID_REQUEST"

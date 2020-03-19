@@ -6,6 +6,7 @@ old-location: kernel\iogetdevicepropertydata.htm
 tech.root: kernel
 ms.assetid: 3ca026b8-abed-409c-8be4-01553cfadca3
 ms.date: 04/30/2018
+keywords: ["IoGetDevicePropertyData function"]
 ms.keywords: IoGetDevicePropertyData, IoGetDevicePropertyData routine [Kernel-Mode Driver Architecture], k104_85cb50ca-43cc-401a-8ed1-32ff0c381ed8.xml, kernel.iogetdevicepropertydata, wdm/IoGetDevicePropertyData
 f1_keywords:
  - "wdm/IoGetDevicePropertyData"

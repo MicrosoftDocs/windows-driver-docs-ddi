@@ -6,6 +6,7 @@ old-location: netvista\ndisinitializeslisthead.htm
 tech.root: netvista
 ms.assetid: 4f9a5f8c-5c7f-4ac5-a6ce-118de2b4a304
 ms.date: 05/02/2018
+keywords: ["NdisInitializeSListHead macro"]
 ms.keywords: NdisInitializeSListHead, NdisInitializeSListHead macro [Network Drivers Starting with Windows Vista], ndis/NdisInitializeSListHead, ndis_interlocked_ref_f27e10a0-22f5-48b2-a7d9-c5b4ffc85617.xml, netvista.ndisinitializeslisthead
 f1_keywords:
  - "ndis/NdisInitializeSListHead"

@@ -6,6 +6,7 @@ old-location: kernel\wmifireevent.htm
 tech.root: kernel
 ms.assetid: 600391ef-f4bb-479b-ad73-305e365ed70d
 ms.date: 04/30/2018
+keywords: ["WmiFireEvent function"]
 ms.keywords: WmiFireEvent, WmiFireEvent routine [Kernel-Mode Driver Architecture], k902_bae3b7d7-89d9-4ab9-8f26-2bd12e6b6caa.xml, kernel.wmifireevent, wmilib/WmiFireEvent
 f1_keywords:
  - "wmilib/WmiFireEvent"

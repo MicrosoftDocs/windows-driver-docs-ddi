@@ -6,6 +6,7 @@ old-location: ifsk\sequeryauthenticationidtoken.htm
 tech.root: ifsk
 ms.assetid: 4679415f-63d2-48b5-a6d4-edc54e8b3b0c
 ms.date: 04/16/2018
+keywords: ["SeQueryAuthenticationIdToken function"]
 ms.keywords: SeQueryAuthenticationIdToken, SeQueryAuthenticationIdToken routine [Installable File System Drivers], ifsk.sequeryauthenticationidtoken, ntifs/SeQueryAuthenticationIdToken, seref_cc55425d-99c0-4fbe-a7ce-06d75ae74586.xml
 f1_keywords:
  - "ntifs/SeQueryAuthenticationIdToken"

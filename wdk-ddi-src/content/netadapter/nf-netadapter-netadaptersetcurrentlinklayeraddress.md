@@ -5,6 +5,7 @@ description: The NetAdapterSetCurrentLinkLayerAddress method sets the current li
 tech.root: netvista
 ms.assetid: bc19abdf-be00-4cbb-bc8b-5a2d59919907
 ms.date: 02/06/2018
+keywords: ["NetAdapterSetCurrentLinkLayerAddress function"]
 f1_keywords:
  - "netadapter/NetAdapterSetCurrentLinkLayerAddress"
 ms.keywords: NetAdapterSetCurrentLinkLayerAddress

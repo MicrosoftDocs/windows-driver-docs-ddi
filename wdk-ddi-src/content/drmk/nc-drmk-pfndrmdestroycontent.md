@@ -6,6 +6,7 @@ old-location: audio\pfndrmdestroycontent.htm
 tech.root: audio
 ms.assetid: 24B98C91-9EB3-4D00-8D58-F6C96610946A
 ms.date: 05/08/2018
+keywords: ["PFNDRMDESTROYCONTENT callback function"]
 ms.keywords: DRMDestroyContent, DRMDestroyContent callback function [Audio Devices], PFNDRMDESTROYCONTENT, PFNDRMDESTROYCONTENT callback, PfnDRMDestroyContent, PfnDRMDestroyContent callback function [Audio Devices], audio.pfndrmdestroycontent, drmk/PfnDRMDestroyContent
 f1_keywords:
  - "drmk/DRMDestroyContent"

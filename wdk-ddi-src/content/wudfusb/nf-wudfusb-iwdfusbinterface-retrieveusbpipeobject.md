@@ -6,6 +6,7 @@ old-location: wdf\iwdfusbinterface_retrieveusbpipeobject.htm
 tech.root: wdf
 ms.assetid: abfaad6b-be42-4547-aa26-5b44e53118bc
 ms.date: 02/26/2018
+keywords: ["IWDFUsbInterface::RetrieveUsbPipeObject"]
 ms.keywords: IWDFUsbInterface interface,RetrieveUsbPipeObject method, IWDFUsbInterface.RetrieveUsbPipeObject, IWDFUsbInterface::RetrieveUsbPipeObject, RetrieveUsbPipeObject, RetrieveUsbPipeObject method, RetrieveUsbPipeObject method,IWDFUsbInterface interface, UMDFUSBref_84f2ac72-965e-4fd4-a127-f153a5fc54f7.xml, umdf.iwdfusbinterface_retrieveusbpipeobject, wdf.iwdfusbinterface_retrieveusbpipeobject, wudfusb/IWDFUsbInterface::RetrieveUsbPipeObject
 f1_keywords:
  - "wudfusb/IWDFUsbInterface.RetrieveUsbPipeObject"

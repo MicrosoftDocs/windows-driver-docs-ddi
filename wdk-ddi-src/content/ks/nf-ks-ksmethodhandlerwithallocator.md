@@ -6,6 +6,7 @@ old-location: stream\ksmethodhandlerwithallocator.htm
 tech.root: stream
 ms.assetid: 3a4c2eaa-167a-406a-a792-612c3e624f89
 ms.date: 04/23/2018
+keywords: ["KsMethodHandlerWithAllocator function"]
 ms.keywords: KsMethodHandlerWithAllocator, KsMethodHandlerWithAllocator function [Streaming Media Devices], ks/KsMethodHandlerWithAllocator, ksfunc_b8089a49-086b-4695-bebd-6fc3817ed7e0.xml, stream.ksmethodhandlerwithallocator
 f1_keywords:
  - "ks/KsMethodHandlerWithAllocator"

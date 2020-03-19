@@ -6,6 +6,7 @@ old-location: kernel\iounregisterplugplaynotification.htm
 tech.root: kernel
 ms.assetid: 55eca513-030c-47f8-9ce9-ab36183cbaf2
 ms.date: 04/30/2018
+keywords: ["IoUnregisterPlugPlayNotification function"]
 ms.keywords: IoUnregisterPlugPlayNotification, IoUnregisterPlugPlayNotification routine [Kernel-Mode Driver Architecture], k104_7235d17c-b6f8-406a-b896-36478354ca73.xml, kernel.iounregisterplugplaynotification, wdm/IoUnregisterPlugPlayNotification
 f1_keywords:
  - "wdm/IoUnregisterPlugPlayNotification"

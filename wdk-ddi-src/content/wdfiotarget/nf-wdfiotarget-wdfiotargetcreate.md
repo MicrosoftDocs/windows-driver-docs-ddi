@@ -6,6 +6,7 @@ old-location: wdf\wdfiotargetcreate.htm
 tech.root: wdf
 ms.assetid: 21a2fa9c-24c1-4964-aaa7-96ac86b8c078
 ms.date: 02/26/2018
+keywords: ["WdfIoTargetCreate function"]
 ms.keywords: DFIOTargetRef_3de8d750-e0e1-4a74-8e2b-977a27db024f.xml, WdfIoTargetCreate, WdfIoTargetCreate method, kmdf.wdfiotargetcreate, wdf.wdfiotargetcreate, wdfiotarget/WdfIoTargetCreate
 f1_keywords:
  - "wdfiotarget/WdfIoTargetCreate"

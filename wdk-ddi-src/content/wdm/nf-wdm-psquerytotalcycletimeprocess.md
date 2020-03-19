@@ -6,6 +6,7 @@ old-location: kernel\psquerytotalcycletimeprocess.htm
 tech.root: kernel
 ms.assetid: 4DA34F96-A69A-46BE-B3D8-D542794052DE
 ms.date: 04/30/2018
+keywords: ["PsQueryTotalCycleTimeProcess function"]
 ms.keywords: PsQueryTotalCycleTimeProcess, PsQueryTotalCycleTimeProcess routine [Kernel-Mode Driver Architecture], kernel.psquerytotalcycletimeprocess, wdm/PsQueryTotalCycleTimeProcess
 f1_keywords:
  - "wdm/PsQueryTotalCycleTimeProcess"

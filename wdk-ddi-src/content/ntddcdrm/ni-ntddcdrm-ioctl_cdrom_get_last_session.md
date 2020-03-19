@@ -6,6 +6,7 @@ old-location: storage\ioctl_cdrom_get_last_session.htm
 tech.root: storage
 ms.assetid: a05da124-f486-4658-87d8-6c1b423694b3
 ms.date: 03/29/2018
+keywords: ["IOCTL_CDROM_GET_LAST_SESSION IOCTL"]
 ms.keywords: IOCTL_CDROM_GET_LAST_SESSION, IOCTL_CDROM_GET_LAST_SESSION control, IOCTL_CDROM_GET_LAST_SESSION control code [Storage Devices], k307_f2597708-18cf-4f97-87f8-2d1c2e9a75ea.xml, ntddcdrm/IOCTL_CDROM_GET_LAST_SESSION, storage.ioctl_cdrom_get_last_session
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_GET_LAST_SESSION"

@@ -6,6 +6,7 @@ old-location: wpddk\wpd_power_sources.htm
 tech.root: wpd_dk
 ms.assetid: 191c75af-1e67-4293-ab62-383d84874688
 ms.date: 02/15/2018
+keywords: ["tagWPD_POWER_SOURCES enumeration"]
 ms.keywords: WPD_POWER_SOURCES, WPD_POWER_SOURCES enumeration, WPD_POWER_SOURCE_BATTERY, WPD_POWER_SOURCE_EXTERNAL, enumeration, portabledevice/WPD_POWER_SOURCES, portabledevice/WPD_POWER_SOURCE_BATTERY, portabledevice/WPD_POWER_SOURCE_EXTERNAL, tagWPD_POWER_SOURCES, wpddk.wpd_power_sources
 f1_keywords:
  - "portabledevice/WPD_POWER_SOURCES"

@@ -6,6 +6,7 @@ old-location: wdf\wdf_request_completion_params_init.htm
 tech.root: wdf
 ms.assetid: f13e9474-7805-4c58-983d-4cfea4f005cc
 ms.date: 02/26/2018
+keywords: ["WDF_REQUEST_COMPLETION_PARAMS_INIT function"]
 ms.keywords: DFRequestObjectRef_f92844e3-5003-45db-9684-608301b1ec32.xml, WDF_REQUEST_COMPLETION_PARAMS_INIT, WDF_REQUEST_COMPLETION_PARAMS_INIT function, kmdf.wdf_request_completion_params_init, wdf.wdf_request_completion_params_init, wdfrequest/WDF_REQUEST_COMPLETION_PARAMS_INIT
 f1_keywords:
  - "wdfrequest/WDF_REQUEST_COMPLETION_PARAMS_INIT"

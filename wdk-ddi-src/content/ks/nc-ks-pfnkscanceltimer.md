@@ -6,6 +6,7 @@ old-location: stream\kstrcanceltimer.htm
 tech.root: stream
 ms.assetid: bdfe0fc3-1b25-493f-9d70-3b6d680fde50
 ms.date: 04/23/2018
+keywords: ["PFNKSCANCELTIMER callback function"]
 ms.keywords: KStrCancelTimer, KStrCancelTimer routine [Streaming Media Devices], PFNKSCANCELTIMER, ks/KStrCancelTimer, ksfunc_10ed86a1-d424-45d1-a420-3e4ce3a95a05.xml, stream.kstrcanceltimer
 f1_keywords:
  - "ks/KStrCancelTimer"

@@ -5,6 +5,7 @@ description: The D3D10DDIARG_OPENADAPTER structure describes the graphics adapte
 old-location: display\d3d10ddiarg_openadapter.htm
 ms.assetid: ac1bf173-8c18-4bb4-9a85-79b59f27ee55
 ms.date: 05/10/2018
+keywords: ["D3D10DDIARG_OPENADAPTER structure"]
 ms.keywords: D3D10DDIARG_OPENADAPTER, D3D10DDIARG_OPENADAPTER structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3dd9df89-1d5e-4eab-bbe5-c6585543c093.xml, d3d10umddi/D3D10DDIARG_OPENADAPTER, display.d3d10ddiarg_openadapter
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_OPENADAPTER"

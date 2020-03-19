@@ -5,6 +5,7 @@ description: Used to set the VidPN source owner.
 old-location: display\d3dkmt-setvidpnsourceowner2.htm
 ms.assetid: 6a6477db-23ad-42ad-b1cb-d81c7be4cf38
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_SETVIDPNSOURCEOWNER2 structure"]
 ms.keywords: D3DKMT_SETVIDPNSOURCEOWNER2, D3DKMT_SETVIDPNSOURCEOWNER2 structure [Display Devices], _D3DKMT_SETVIDPNSOURCEOWNER2, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER2, display.d3dkmt-setvidpnsourceowner2
 f1_keywords:
  - "d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER2"

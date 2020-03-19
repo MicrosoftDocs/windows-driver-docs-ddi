@@ -6,6 +6,7 @@ old-location: debugger\extremotetyped_outsimplevalue.htm
 tech.root: debugger
 ms.assetid: e9c11c07-bd4a-4d49-a820-4617be691c80
 ms.date: 05/03/2018
+keywords: ["ExtRemoteTyped::OutSimpleValue"]
 ms.keywords: EngExtCpp_Ref_8592b96c-7253-42f9-a704-739e539bad66.xml, ExtRemoteTyped interface [Windows Debugging],OutSimpleValue method, ExtRemoteTyped.OutSimpleValue, ExtRemoteTyped::OutSimpleValue, OutSimpleValue, OutSimpleValue method [Windows Debugging], OutSimpleValue method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_outsimplevalue
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.OutSimpleValue"

@@ -6,6 +6,7 @@ old-location: kernel\pscreateprocessnotifytype.htm
 tech.root: kernel
 ms.assetid: 5DD02CF1-50E8-45F2-9035-E0AA48F1470C
 ms.date: 04/30/2018
+keywords: ["_PSCREATEPROCESSNOTIFYTYPE enumeration"]
 ms.keywords: PSCREATEPROCESSNOTIFYTYPE, PSCREATEPROCESSNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], PsCreateProcessNotifySubsystems, _PSCREATEPROCESSNOTIFYTYPE, kernel.pscreateprocessnotifytype, ntddk/PSCREATEPROCESSNOTIFYTYPE, ntddk/PsCreateProcessNotifySubsystems
 f1_keywords:
  - "ntddk/PSCREATEPROCESSNOTIFYTYPE"

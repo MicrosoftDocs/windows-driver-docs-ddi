@@ -6,6 +6,7 @@ old-location: kernel\iowriteerrorlogentry.htm
 tech.root: kernel
 ms.assetid: 1259c344-584c-410a-a152-5de1f433082c
 ms.date: 04/30/2018
+keywords: ["IoWriteErrorLogEntry function"]
 ms.keywords: IoWriteErrorLogEntry, IoWriteErrorLogEntry routine [Kernel-Mode Driver Architecture], k104_1822a499-059a-41c8-b97b-aa3a5bfd22e3.xml, kernel.iowriteerrorlogentry, wdm/IoWriteErrorLogEntry
 f1_keywords:
  - "ntifs/IoWriteErrorLogEntry"

@@ -3,6 +3,7 @@ UID: TP:parports
 title: Parallel Ports
 ms.assetid: 38f4cf0c-2fc1-3909-83b7-bf354cf904c1
 ms.date: 05/09/2018
+keywords: ["Parallel Ports"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

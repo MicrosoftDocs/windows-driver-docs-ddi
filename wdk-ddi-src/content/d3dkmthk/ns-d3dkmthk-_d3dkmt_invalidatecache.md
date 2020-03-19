@@ -4,6 +4,7 @@ title: _D3DKMT_INVALIDATECACHE (d3dkmthk.h)
 description: Contains information used to invalidate cache.
 ms.assetid: 30cb35da-baa8-4612-932d-b0b7bf59530e
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_INVALIDATECACHE structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_INVALIDATECACHE"
 ms.keywords: _D3DKMT_INVALIDATECACHE, D3DKMT_INVALIDATECACHE, 

@@ -6,6 +6,7 @@ old-location: audio\iminiportaudiosignalprocessing.htm
 tech.root: audio
 ms.assetid: 6C520509-347F-4E01-95C4-0D3306031E51
 ms.date: 05/08/2018
+keywords: ["IMiniportAudioSignalProcessing interface"]
 ms.keywords: IMiniportAudioSignalProcessing, IMiniportAudioSignalProcessing interface [Audio Devices], IMiniportAudioSignalProcessing interface [Audio Devices],described, audio.iminiportaudiosignalprocessing, portcls/IMiniportAudioSignalProcessing
 f1_keywords:
  - "portcls/IMiniportAudioSignalProcessing"

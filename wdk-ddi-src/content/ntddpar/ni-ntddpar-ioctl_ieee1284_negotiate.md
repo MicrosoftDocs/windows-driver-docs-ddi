@@ -6,6 +6,7 @@ old-location: parports\ioctl_ieee1284_negotiate.htm
 tech.root: parports
 ms.assetid: 893af02d-ba26-4367-b2cc-b35d5baa9473
 ms.date: 02/15/2018
+keywords: ["IOCTL_IEEE1284_NEGOTIATE IOCTL"]
 ms.keywords: IOCTL_IEEE1284_NEGOTIATE, IOCTL_IEEE1284_NEGOTIATE control code [Parallel Ports], cisspd_7d757685-3a5b-47cf-bba9-e7051956ae78.xml, ntddpar/IOCTL_IEEE1284_NEGOTIATE, parports.ioctl_ieee1284_negotiate
 f1_keywords:
  - "ntddpar/IOCTL_IEEE1284_NEGOTIATE"

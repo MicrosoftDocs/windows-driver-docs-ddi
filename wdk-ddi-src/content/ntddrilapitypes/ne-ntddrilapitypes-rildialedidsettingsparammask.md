@@ -6,6 +6,7 @@ old-location: netvista\rildialedidsettingsparammask.htm
 tech.root: netvista
 ms.assetid: 8883e9fc-9f2a-4367-ae2d-30260f2d2de6
 ms.date: 05/02/2018
+keywords: ["RILDIALEDIDSETTINGSPARAMMASK enumeration"]
 ms.keywords: RILDIALEDIDSETTINGSPARAMMASK, RILDIALEDIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_DIDS_ALL, RIL_PARAM_DIDS_PROVISIONING, RIL_PARAM_DIDS_STATUS, netvista.rildialedidsettingsparammask, ntddrilapitypes/RILDIALEDIDSETTINGSPARAMMASK, ntddrilapitypes/RIL_PARAM_DIDS_ALL, ntddrilapitypes/RIL_PARAM_DIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_DIDS_STATUS
 f1_keywords:
  - "ntddrilapitypes/RILDIALEDIDSETTINGSPARAMMASK"

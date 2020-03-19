@@ -6,6 +6,7 @@ old-location: wdf\wdfdeviceinitsetiotype.htm
 tech.root: wdf
 ms.assetid: fcad4b8e-4273-43ff-8077-a96d1bd4640a
 ms.date: 02/26/2018
+keywords: ["WdfDeviceInitSetIoType function"]
 ms.keywords: DFDeviceObjectGeneralRef_4c821466-f1d7-46fa-a1f0-e8fefd20caab.xml, WdfDeviceInitSetIoType, WdfDeviceInitSetIoType method, kmdf.wdfdeviceinitsetiotype, wdf.wdfdeviceinitsetiotype, wdfdevice/WdfDeviceInitSetIoType
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetIoType"

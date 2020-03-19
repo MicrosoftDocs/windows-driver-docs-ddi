@@ -5,6 +5,7 @@ description: The display port driver's GPU scheduler calls this function to rese
 old-location: display\dxgkddiresetengine.htm
 ms.assetid: 9c2097b2-5742-422c-a650-7efff2484970
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_RESETENGINE callback function"]
 ms.keywords: DXGKDDI_RESETENGINE, DXGKDDI_RESETENGINE callback, DxgkDdiResetEngine, DxgkDdiResetEngine callback function [Display Devices], d3dkmddi/DxgkDdiResetEngine, display.dxgkddiresetengine
 req.header: d3dkmddi.h
 req.include-header: 

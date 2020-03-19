@@ -4,6 +4,7 @@ title: GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro (printoem.h)
 description: 
 ms.assetid: c77fb1c5-d713-4d66-ae3c-27609731314c
 ms.date: 10/19/2018
+keywords: ["GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro"]
 f1_keywords:
  - "printoem/GET_UNIDRV_PRIVATE_DEVMODE_SIZE"
 ms.keywords: GET_UNIDRV_PRIVATE_DEVMODE_SIZE

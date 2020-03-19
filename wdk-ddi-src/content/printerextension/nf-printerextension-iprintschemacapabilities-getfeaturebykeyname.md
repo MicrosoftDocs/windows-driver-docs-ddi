@@ -6,6 +6,7 @@ old-location: print\iprintschemacapabilities_getfeaturebykeyname.htm
 tech.root: print
 ms.assetid: 053BFE59-FDC6-42F3-BE14-CE63D5637D62
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaCapabilities::GetFeatureByKeyName"]
 ms.keywords: GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], GetFeatureByKeyName method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetFeatureByKeyName method, IPrintSchemaCapabilities.GetFeatureByKeyName, IPrintSchemaCapabilities::GetFeatureByKeyName, print.iprintschemacapabilities_getfeaturebykeyname, printerextension/IPrintSchemaCapabilities::GetFeatureByKeyName
 f1_keywords:
  - "printerextension/IPrintSchemaCapabilities.GetFeatureByKeyName"

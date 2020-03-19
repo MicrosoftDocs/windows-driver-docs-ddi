@@ -6,6 +6,7 @@ old-location: kernel\file_all_information.htm
 tech.root: kernel
 ms.assetid: 1b5f314c-6918-4cb8-a4e2-9ca0f4c5ea54
 ms.date: 04/30/2018
+keywords: ["_FILE_ALL_INFORMATION structure"]
 ms.keywords: "*PFILE_ALL_INFORMATION, FILE_ALL_INFORMATION, FILE_ALL_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ALL_INFORMATION, PFILE_ALL_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_ALL_INFORMATION, kernel.file_all_information, kstruct_b_24c6b1da-76d1-46a9-838d-bb19af21d6f8.xml, ntifs/FILE_ALL_INFORMATION, ntifs/PFILE_ALL_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_ALL_INFORMATION"

@@ -4,6 +4,7 @@ title: D3DKMTSetFSEBlock function (d3dkmthk.h)
 description: Sets FSE block.
 ms.assetid: cd4f0f39-21f6-4c38-a396-2385b03ffb65
 ms.date: 10/19/2018
+keywords: ["D3DKMTSetFSEBlock function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTSetFSEBlock"
 ms.keywords: D3DKMTSetFSEBlock

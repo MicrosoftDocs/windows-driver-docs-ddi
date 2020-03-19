@@ -4,6 +4,7 @@ title: DXGKCB_MAPFRAMEBUFFERPOINTER (d3dkmddi.h)
 description: Implemented by the client driver to obtain a pointer to a subregion of the section object that was created for each physical adapter.
 ms.assetid: 86a95724-5522-4075-a1c6-9c0ccfe1193e
 ms.date: 10/19/2018
+keywords: ["DXGKCB_MAPFRAMEBUFFERPOINTER callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKCB_MAPFRAMEBUFFERPOINTER"
 req.header: d3dkmddi.h

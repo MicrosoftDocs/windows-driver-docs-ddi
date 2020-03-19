@@ -6,6 +6,7 @@ old-location: stream\ksfilteraddtopologyconnections.htm
 tech.root: stream
 ms.assetid: 32a61103-5f2f-4b73-a299-bf6a14c3bec9
 ms.date: 04/23/2018
+keywords: ["KsFilterAddTopologyConnections function"]
 ms.keywords: KsFilterAddTopologyConnections, KsFilterAddTopologyConnections function [Streaming Media Devices], avfunc_99b8984f-5ca2-460b-ab20-230fd09b6d13.xml, ks/KsFilterAddTopologyConnections, stream.ksfilteraddtopologyconnections
 f1_keywords:
  - "ks/KsFilterAddTopologyConnections"

@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 054DB38D-7496-424F-A521-A2368878F690
 ms.author: windowsdriverdev
 ms.date: 09/26/2019
+keywords: ["NetExtensionGetFragmentVirtualAddress function"]
 f1_keywords:
  - "virtualaddress/NetExtensionGetFragmentVirtualAddress"
 ms.keywords: NetExtensionGetFragmentVirtualAddress

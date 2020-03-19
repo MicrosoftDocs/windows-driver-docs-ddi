@@ -6,6 +6,7 @@ old-location: display\pfnpresentcb.htm
 tech.root: display
 ms.assetid: 460b9be5-5817-4225-9089-f86ad64f4554
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_PRESENTCB callback function"]
 ms.keywords: D3Druntime_Functions_0c10afaf-9bcf-42d9-9bdf-0be67780875c.xml, PFND3DDDI_PRESENTCB, PFND3DDDI_PRESENTCB callback, d3dumddi/pfnPresentCb, display.pfnpresentcb, pfnPresentCb, pfnPresentCb callback function [Display Devices]
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

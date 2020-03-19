@@ -4,6 +4,7 @@ title: DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION_3 (dispmprt.h)
 description: Implemented by the client driver to set the level of optimization used to control the brightness of a panel.
 ms.assetid: 07bffb8b-08d5-4f24-bdf3-c3a4648e8724
 ms.date: 10/19/2018
+keywords: ["DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION_3 callback function"]
 f1_keywords:
  - "dispmprt/DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION_3"
 req.header: dispmprt.h

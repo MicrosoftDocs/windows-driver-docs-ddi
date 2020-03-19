@@ -6,6 +6,7 @@ old-location: storage\ataportrequestsynchronizedroutine.htm
 tech.root: storage
 ms.assetid: fc4faca4-4d44-4b3e-bace-718fc8774f54
 ms.date: 03/29/2018
+keywords: ["AtaPortRequestSynchronizedRoutine function"]
 ms.keywords: AtaPortRequestSynchronizedRoutine, AtaPortRequestSynchronizedRoutine routine [Storage Devices], atartns_612d4956-589d-4404-b3d3-f72eb6119e65.xml, irb/AtaPortRequestSynchronizedRoutine, storage.ataportrequestsynchronizedroutine
 f1_keywords:
  - "irb/AtaPortRequestSynchronizedRoutine"

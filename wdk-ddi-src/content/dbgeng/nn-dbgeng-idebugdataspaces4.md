@@ -6,6 +6,7 @@ old-location: debugger\idebugdataspaces4.htm
 tech.root: debugger
 ms.assetid: e03202a5-2e4a-43f8-8183-fdd26df6ff8f
 ms.date: 05/03/2018
+keywords: ["IDebugDataSpaces4 interface"]
 ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging],described, dbgeng/IDebugDataSpaces4, debugger.idebugdataspaces4
 f1_keywords:
  - "dbgeng/IDebugDataSpaces4"

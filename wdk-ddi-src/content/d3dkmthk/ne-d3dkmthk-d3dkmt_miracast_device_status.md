@@ -4,6 +4,7 @@ title: D3DKMT_MIRACAST_DEVICE_STATUS (d3dkmthk.h)
 description: Miracast (wireless display) device status.
 ms.assetid: bf6c74a4-ace8-4fbe-bc61-5066211e9e51
 ms.date: 10/19/2018
+keywords: ["D3DKMT_MIRACAST_DEVICE_STATUS enumeration"]
 f1_keywords:
  - "d3dkmthk/D3DKMT_MIRACAST_DEVICE_STATUS"
 ms.keywords: D3DKMT_MIRACAST_DEVICE_STATUS, D3DKMT_MIRACAST_DEVICE_STATUS, 

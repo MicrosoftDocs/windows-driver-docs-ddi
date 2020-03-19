@@ -6,6 +6,7 @@ old-location: image\wiassetpropchanged.htm
 tech.root: image
 ms.assetid: f17f6935-02ad-44f4-a82a-0d51802fde6f
 ms.date: 05/03/2018
+keywords: ["wiasSetPropChanged function"]
 ms.keywords: image.wiassetpropchanged, wiamdef/wiasSetPropChanged, wiasFncs_8ad54c6e-3a20-4099-a139-1a05f6ee1e5e.xml, wiasSetPropChanged, wiasSetPropChanged function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasSetPropChanged"

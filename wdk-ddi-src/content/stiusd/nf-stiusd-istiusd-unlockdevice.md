@@ -6,6 +6,7 @@ old-location: image\istiusd_unlockdevice.htm
 tech.root: image
 ms.assetid: ae19ae38-3bca-42c8-8713-68bb161104b8
 ms.date: 05/03/2018
+keywords: ["IStiUSD::UnLockDevice"]
 ms.keywords: IStiUSD interface [Imaging Devices],UnLockDevice method, IStiUSD.UnLockDevice, IStiUSD::UnLockDevice, UnLockDevice, UnLockDevice method [Imaging Devices], UnLockDevice method [Imaging Devices],IStiUSD interface, image.istiusd_unlockdevice, stifnc_8c11e0a0-68ec-4556-ae40-6bed6b5b4831.xml, stiusd/IStiUSD::UnLockDevice
 f1_keywords:
  - "stiusd/IStiUSD.UnLockDevice"

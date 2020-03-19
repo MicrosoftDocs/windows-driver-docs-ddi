@@ -6,6 +6,7 @@ old-location: wdf\wdfregistryassignunicodestring.htm
 tech.root: wdf
 ms.assetid: 3a614b58-8230-4137-aae9-5c50e94bea5e
 ms.date: 02/26/2018
+keywords: ["WdfRegistryAssignUnicodeString function"]
 ms.keywords: DFRegKeyObjectRef_83d456aa-06de-47c9-94df-b5b9684a95ac.xml, WdfRegistryAssignUnicodeString, WdfRegistryAssignUnicodeString method, kmdf.wdfregistryassignunicodestring, wdf.wdfregistryassignunicodestring, wdfregistry/WdfRegistryAssignUnicodeString
 f1_keywords:
  - "wdfregistry/WdfRegistryAssignUnicodeString"

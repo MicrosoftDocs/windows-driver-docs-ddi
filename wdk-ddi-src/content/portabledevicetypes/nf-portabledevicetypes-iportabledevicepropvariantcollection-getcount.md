@@ -6,6 +6,7 @@ old-location: wpddk\iportabledevicepropvariantcollection_getcount.htm
 tech.root: wpd_dk
 ms.assetid: a9eecbc4-c461-4c13-99e0-3132bd0f6b9c
 ms.date: 02/15/2018
+keywords: ["IPortableDevicePropVariantCollection::GetCount"]
 ms.keywords: GetCount, GetCount method, GetCount method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,GetCount method, IPortableDevicePropVariantCollection.GetCount, IPortableDevicePropVariantCollection::GetCount, IPortableDevicePropVariantCollectionGetCount, portabledevicetypes/IPortableDevicePropVariantCollection::GetCount, wpddk.iportabledevicepropvariantcollection_getcount
 f1_keywords:
  - "portabledevicetypes/IPortableDevicePropVariantCollection.GetCount"

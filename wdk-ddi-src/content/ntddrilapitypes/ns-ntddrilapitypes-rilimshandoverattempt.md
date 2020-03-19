@@ -6,6 +6,7 @@ old-location: netvista\rilimshandoverattempt.htm
 tech.root: netvista
 ms.assetid: 22491e3c-fa23-473d-b3e6-92c776b81204
 ms.date: 05/02/2018
+keywords: ["RILIMSHANDOVERATTEMPT structure"]
 ms.keywords: "*LPRILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT structure [Network Drivers Starting with Windows Vista], netvista.rilimshandoverattempt, ntddrilapitypes/RILIMSHANDOVERATTEMPT"
 f1_keywords:
  - "ntddrilapitypes/RILIMSHANDOVERATTEMPT"

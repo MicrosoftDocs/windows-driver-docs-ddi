@@ -4,6 +4,7 @@ title: IEquatableConcept::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 1e78ef6c-0494-423e-81ee-c01691dc40be
 ms.date: 09/21/2018
+keywords: ["IEquatableConcept::Release"]
 f1_keywords:
  - "dbgmodel/IEquatableConcept.Release"
 ms.keywords: IEquatableConcept::Release, Release, IEquatableConcept.Release, IEquatableConcept::Release, IEquatableConcept.Release

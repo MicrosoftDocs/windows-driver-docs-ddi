@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_createquery.htm
 tech.root: display
 ms.assetid: f80224c6-9046-4471-b6c6-eb14f02fc51f
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_CREATEQUERY structure"]
 ms.keywords: D3DDDIARG_CREATEQUERY, D3DDDIARG_CREATEQUERY structure [Display Devices], UMDisplayDriver_param_Structs_37293319-c280-4363-936a-65a8a5af4c45.xml, _D3DDDIARG_CREATEQUERY, d3dumddi/D3DDDIARG_CREATEQUERY, display.d3dddiarg_createquery
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CREATEQUERY"

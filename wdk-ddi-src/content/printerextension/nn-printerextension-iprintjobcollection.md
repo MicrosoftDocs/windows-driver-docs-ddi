@@ -6,6 +6,7 @@ old-location: print\iprintjobcollection.htm
 tech.root: print
 ms.assetid: 757328A6-DD2C-4057-820B-39EB83277194
 ms.date: 04/20/2018
+keywords: ["IPrintJobCollection interface"]
 ms.keywords: IPrintJobCollection, IPrintJobCollection interface [Print Devices], IPrintJobCollection interface [Print Devices],described, print.iprintjobcollection, printerextension/IPrintJobCollection
 f1_keywords:
  - "printerextension/IPrintJobCollection"

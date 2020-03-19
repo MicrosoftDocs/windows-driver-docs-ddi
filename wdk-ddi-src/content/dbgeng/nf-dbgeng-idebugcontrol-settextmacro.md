@@ -6,6 +6,7 @@ old-location: debugger\settextmacro.htm
 tech.root: debugger
 ms.assetid: 8319ab12-bb23-4de4-b3dc-afd3cd13d03e
 ms.date: 05/03/2018
+keywords: ["IDebugControl::SetTextMacro"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetTextMacro method, IDebugControl.SetTextMacro, IDebugControl2 interface [Windows Debugging],SetTextMacro method, IDebugControl2::SetTextMacro, IDebugControl3 interface [Windows Debugging],SetTextMacro method, IDebugControl3::SetTextMacro, IDebugControl::SetTextMacro, IDebugControl_5eac09ea-004d-4231-b865-d191790880fc.xml, SetTextMacro, SetTextMacro method [Windows Debugging], SetTextMacro method [Windows Debugging],IDebugControl interface, SetTextMacro method [Windows Debugging],IDebugControl2 interface, SetTextMacro method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetTextMacro, dbgeng/IDebugControl3::SetTextMacro, dbgeng/IDebugControl::SetTextMacro, debugger.settextmacro
 f1_keywords:
  - "dbgeng/IDebugControl.SetTextMacro"

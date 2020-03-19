@@ -6,6 +6,7 @@ old-location: print\oemstretchblt.htm
 tech.root: print
 ms.assetid: 5a533a68-6bdb-45dc-b5d3-04fa8d3e7129
 ms.date: 04/20/2018
+keywords: ["OEMStretchBlt function"]
 ms.keywords: OEMStretchBlt, OEMStretchBlt function [Print Devices], print.oemstretchblt, print_unidrv-pscript_rendering_cbbd51bd-2201-4fd4-9b3e-1e86f3962be8.xml, printoem/OEMStretchBlt
 f1_keywords:
  - "printoem/OEMStretchBlt"

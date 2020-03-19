@@ -6,6 +6,7 @@ old-location: display\videoportmovememory.htm
 tech.root: display
 ms.assetid: 32b754ef-2a85-4ba7-9d4f-3c2de2501319
 ms.date: 05/10/2018
+keywords: ["VideoPortMoveMemory function"]
 ms.keywords: VideoPortMoveMemory, VideoPortMoveMemory function [Display Devices], VideoPort_Functions_ab574585-85be-48ea-9713-25867812699a.xml, display.videoportmovememory, video/VideoPortMoveMemory
 f1_keywords:
  - "video/VideoPortMoveMemory"

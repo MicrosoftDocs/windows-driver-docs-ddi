@@ -6,6 +6,7 @@ old-location: image\wiaudbglegacyhresult2.htm
 tech.root: image
 ms.assetid: 1b73c94b-07a8-4b65-8ed7-d5f1a073c3b2
 ms.date: 05/03/2018
+keywords: ["wiauDbgLegacyHresult2 function"]
 ms.keywords: image.wiaudbglegacyhresult2, wiauDbgLegacyHresult2, wiauDbgLegacyHresult2 function [Imaging Devices], wiauFncs_b980cd55-047b-4870-9bad-928253d0ce77.xml, wiautil/wiauDbgLegacyHresult2
 f1_keywords:
  - "wiautil/wiauDbgLegacyHresult2"

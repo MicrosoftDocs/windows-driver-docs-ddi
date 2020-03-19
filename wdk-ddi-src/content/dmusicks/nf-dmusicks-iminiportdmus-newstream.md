@@ -6,6 +6,7 @@ old-location: audio\iminiportdmus_newstream.htm
 tech.root: audio
 ms.assetid: aa221279-8d59-4f6f-8fc6-ad09e36a12a9
 ms.date: 05/08/2018
+keywords: ["IMiniportDMus::NewStream"]
 ms.keywords: IMiniportDMus interface [Audio Devices],NewStream method, IMiniportDMus.NewStream, IMiniportDMus::NewStream, NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices],IMiniportDMus interface, audio.iminiportdmus_newstream, audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml, dmusicks/IMiniportDMus::NewStream
 f1_keywords:
  - "dmusicks/IMiniportDMus.NewStream"

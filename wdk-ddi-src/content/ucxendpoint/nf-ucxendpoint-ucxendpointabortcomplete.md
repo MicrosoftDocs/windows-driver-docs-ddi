@@ -6,6 +6,7 @@ old-location: buses\_ucxendpointabortcomplete.htm
 tech.root: usbref
 ms.assetid: 754BCC74-1EC2-429E-A711-E8958665A5A8
 ms.date: 05/07/2018
+keywords: ["UcxEndpointAbortComplete function"]
 ms.keywords: UcxEndpointAbortComplete, UcxEndpointAbortComplete method [Buses], buses._ucxendpointabortcomplete, ucxendpoint/UcxEndpointAbortComplete
 f1_keywords:
  - "ucxendpoint/UcxEndpointAbortComplete"

@@ -6,6 +6,7 @@ old-location: debugger\idebugfaentrytags_settype.htm
 tech.root: debugger
 ms.assetid: F507864B-B20C-4F71-B068-802780243106
 ms.date: 05/03/2018
+keywords: ["IDebugFAEntryTags::SetType"]
 ms.keywords: IDebugFAEntryTags interface [Windows Debugging],SetType method, IDebugFAEntryTags.SetType, IDebugFAEntryTags::SetType, SetType, SetType method [Windows Debugging], SetType method [Windows Debugging],IDebugFAEntryTags interface, debugger.idebugfaentrytags_settype, extsfns/IDebugFAEntryTags::SetType
 f1_keywords:
  - "extsfns/IDebugFAEntryTags.SetType"

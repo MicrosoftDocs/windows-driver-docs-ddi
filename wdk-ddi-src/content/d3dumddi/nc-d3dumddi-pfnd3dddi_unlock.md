@@ -6,6 +6,7 @@ old-location: display\unlock.htm
 tech.root: display
 ms.assetid: 23cc9c64-99d4-4602-a1b0-234fe7fcc3da
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_UNLOCK callback function"]
 ms.keywords: PFND3DDDI_UNLOCK, PFND3DDDI_UNLOCK callback, Unlock, Unlock callback function [Display Devices], UserModeDisplayDriver_Functions_20b0d6f7-4bda-4d0f-9c3a-27d4011d2591.xml, d3dumddi/Unlock, display.unlock
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

@@ -5,6 +5,7 @@ description: The client driver calls the MbbRequestGetBuffer method to get the m
 tech.root: netvista
 ms.assetid: a6d7477e-6107-4bef-bd0a-2759284dc72a
 ms.date: 06/29/2018
+keywords: ["MbbRequestGetBuffer function"]
 f1_keywords:
  - "mbbcx/MbbRequestGetBuffer"
 ms.keywords: MbbRequestGetBuffer

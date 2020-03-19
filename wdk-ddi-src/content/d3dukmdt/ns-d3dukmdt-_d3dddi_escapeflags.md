@@ -6,6 +6,7 @@ old-location: display\d3dddi_escapeflags.htm
 tech.root: display
 ms.assetid: 40648f6a-3393-4374-beff-e097c299f9e9
 ms.date: 05/10/2018
+keywords: ["_D3DDDI_ESCAPEFLAGS structure"]
 ms.keywords: D3DDDI_ESCAPEFLAGS, D3DDDI_ESCAPEFLAGS structure [Display Devices], D3D_other_Structs_5ff9ad07-6a44-4a53-a70c-5abdbe84065a.xml, _D3DDDI_ESCAPEFLAGS, d3dukmdt/D3DDDI_ESCAPEFLAGS, display.d3dddi_escapeflags
 f1_keywords:
  - "d3dukmdt/D3DDDI_ESCAPEFLAGS"

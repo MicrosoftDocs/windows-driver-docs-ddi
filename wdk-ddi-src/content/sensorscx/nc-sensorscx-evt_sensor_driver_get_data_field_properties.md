@@ -6,6 +6,7 @@ old-location: sensors\evtsensorgetdatafieldproperties.htm
 tech.root: sensors
 ms.assetid: E3BE0351-724E-4407-AA5B-D7AAEFE508D4
 ms.date: 05/03/2018
+keywords: ["EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES, EVT_SENSOR_DRIVER_GET_DATA_FIELD_PROPERTIES callback, EvtSensorGetDataFieldProperties, EvtSensorGetDataFieldProperties callback function [Sensor Devices], sensors.evtsensorgetdatafieldproperties, sensorscx/EvtSensorGetDataFieldProperties
 f1_keywords:
  - "sensorscx/EvtSensorGetDataFieldProperties"

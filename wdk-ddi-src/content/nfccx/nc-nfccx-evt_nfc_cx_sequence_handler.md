@@ -6,6 +6,7 @@ old-location: nfpdrivers\evtnfccxsequencehandler.htm
 tech.root: nfpdrivers
 ms.assetid: 6EB96A37-06B9-4655-AD69-375EE770F4DF
 ms.date: 02/15/2018
+keywords: ["EVT_NFC_CX_SEQUENCE_HANDLER callback function"]
 ms.keywords: "*PFN_NFC_CX_SEQUENCE_HANDLER, EVT_NFC_CX_SEQUENCE_HANDLER, EVT_NFC_CX_SEQUENCE_HANDLER callback, EvtNfcCxSequenceHandler, EvtNfcCxSequenceHandler callback function [Near-Field Proximity Drivers], nfccx/ EvtNfcCxSequenceHandler, nfpdrivers.evtnfccxsequencehandler"
 f1_keywords:
  - "nfccx/EvtNfcCxSequenceHandler"

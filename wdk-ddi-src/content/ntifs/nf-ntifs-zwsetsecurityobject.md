@@ -6,6 +6,7 @@ old-location: kernel\zwsetsecurityobject.htm
 tech.root: kernel
 ms.assetid: fbf6291e-9602-45d7-a620-702491a1d7de
 ms.date: 04/30/2018
+keywords: ["ZwSetSecurityObject function"]
 ms.keywords: NtSetSecurityObject, ZwSetSecurityObject, ZwSetSecurityObject routine [Kernel-Mode Driver Architecture], k111_38d4fa7c-4fc6-467c-9be2-ca997d739f44.xml, kernel.zwsetsecurityobject, ntifs/NtSetSecurityObject, ntifs/ZwSetSecurityObject
 f1_keywords:
  - "ntifs/ZwSetSecurityObject"

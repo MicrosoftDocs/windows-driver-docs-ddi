@@ -6,6 +6,7 @@ old-location: buses\usbd_getcapability.htm
 tech.root: usbref
 ms.assetid: 982B52A2-5BC1-4390-AE44-C3D31E2FC3DB
 ms.date: 05/07/2018
+keywords: ["USBD_QueryUsbCapability function"]
 ms.keywords: USBD_QueryUsbCapability, USBD_QueryUsbCapability routine [Buses], buses.usbd_getcapability, usbdlib/USBD_QueryUsbCapability
 f1_keywords:
  - "usbdlib/USBD_QueryUsbCapability"

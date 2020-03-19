@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: e989f10f-a6db-41f3-ab44-d3c748e2103e
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
+keywords: ["WheaUnconfigureErrorSource function"]
 f1_keywords:
  - "ntddk/WheaUnconfigureErrorSource"
 ms.keywords: WheaUnconfigureErrorSource

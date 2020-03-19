@@ -6,6 +6,7 @@ old-location: netvista\dot11extihvreceiveindication.htm
 tech.root: netvista
 ms.assetid: b4d5c33e-563d-459c-90da-a2912c82d1cd
 ms.date: 02/16/2018
+keywords: ["DOT11EXTIHV_RECEIVE_INDICATION callback"]
 ms.keywords: DOT11EXTIHV_RECEIVE_INDICATION, Dot11ExtIhvReceiveIndication, Dot11ExtIhvReceiveIndication callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_f3bf018e-2849-4abc-af5b-4edb3438339f.xml, netvista.dot11extihvreceiveindication, wlanihv/Dot11ExtIhvReceiveIndication
 f1_keywords:
  - "wlanihv/Dot11ExtIhvReceiveIndication"

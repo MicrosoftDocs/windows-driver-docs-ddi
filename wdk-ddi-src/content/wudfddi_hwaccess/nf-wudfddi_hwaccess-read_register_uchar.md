@@ -6,6 +6,7 @@ old-location: wdf\read_register_uchar.htm
 tech.root: wdf
 ms.assetid: 149DE843-937C-4A6F-AB2D-ACC8895D5E91
 ms.date: 02/26/2018
+keywords: ["READ_REGISTER_UCHAR function"]
 ms.keywords: READ_REGISTER_UCHAR, READ_REGISTER_UCHAR function, umdf.read_register_uchar, wdf.read_register_uchar, wudfddi_hwaccess/READ_REGISTER_UCHAR
 f1_keywords:
  - "wudfddi_hwaccess/READ_REGISTER_UCHAR"

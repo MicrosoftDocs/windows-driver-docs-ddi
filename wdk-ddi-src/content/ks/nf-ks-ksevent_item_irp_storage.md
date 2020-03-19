@@ -6,6 +6,7 @@ old-location: stream\ksevent_item_irp_storage.htm
 tech.root: stream
 ms.assetid: c23fc5f4-2546-4330-bcdd-8fef59c8219a
 ms.date: 04/23/2018
+keywords: ["KSEVENT_ITEM_IRP_STORAGE macro"]
 ms.keywords: KSEVENT_ITEM_IRP_STORAGE, KSEVENT_ITEM_IRP_STORAGE macro [Streaming Media Devices], ks/KSEVENT_ITEM_IRP_STORAGE, ksfunc_dc3f2f9e-fe47-46ac-9f51-9d07b42e5daf.xml, stream.ksevent_item_irp_storage
 f1_keywords:
  - "ks/KSEVENT_ITEM_IRP_STORAGE"

@@ -6,6 +6,7 @@ old-location: display\dxgk_miracast_display_interface.htm
 tech.root: display
 ms.assetid: 39DCDA28-D32F-4755-91FB-0D42822D7B54
 ms.date: 10/12/2018
+keywords: ["_DXGK_MIRACAST_INTERFACE structure"]
 ms.keywords: "*PDXGK_MIRACAST_DISPLAY_INTERFACE, DXGK_MIRACAST_DISPLAY_INTERFACE, DXGK_MIRACAST_DISPLAY_INTERFACE structure [Display Devices], PDXGK_MIRACAST_DISPLAY_INTERFACE, PDXGK_MIRACAST_DISPLAY_INTERFACE structure pointer [Display Devices], _DXGK_MIRACAST_INTERFACE, display.dxgk_miracast_display_interface, dispmprt/DXGK_MIRACAST_DISPLAY_INTERFACE, dispmprt/PDXGK_MIRACAST_DISPLAY_INTERFACE"
 f1_keywords:
  - "dispmprt/DXGK_MIRACAST_DISPLAY_INTERFACE"

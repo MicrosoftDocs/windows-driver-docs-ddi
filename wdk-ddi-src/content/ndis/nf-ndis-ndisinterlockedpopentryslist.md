@@ -6,6 +6,7 @@ old-location: netvista\ndisinterlockedpopentryslist.htm
 tech.root: netvista
 ms.assetid: 22f79bc7-49e1-43ba-8dff-8847b9a9bcca
 ms.date: 05/02/2018
+keywords: ["NdisInterlockedPopEntrySList macro"]
 ms.keywords: NdisInterlockedPopEntrySList, NdisInterlockedPopEntrySList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedPopEntrySList, ndis_interlocked_ref_5e66ef00-4498-4599-be50-f21ef676d032.xml, netvista.ndisinterlockedpopentryslist
 f1_keywords:
  - "ndis/NdisInterlockedPopEntrySList"

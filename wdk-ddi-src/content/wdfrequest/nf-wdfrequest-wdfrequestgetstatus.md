@@ -6,6 +6,7 @@ old-location: wdf\wdfrequestgetstatus.htm
 tech.root: wdf
 ms.assetid: 82f922a1-34c1-475b-b12a-210ae602a4bd
 ms.date: 02/26/2018
+keywords: ["WdfRequestGetStatus function"]
 ms.keywords: DFRequestObjectRef_60149f5d-5523-4b88-9bba-464be280b2b7.xml, WdfRequestGetStatus, WdfRequestGetStatus method, kmdf.wdfrequestgetstatus, wdf.wdfrequestgetstatus, wdfrequest/WdfRequestGetStatus
 f1_keywords:
  - "wdfrequest/WdfRequestGetStatus"

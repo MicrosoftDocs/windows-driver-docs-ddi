@@ -4,6 +4,7 @@ title: IsKeyPresentInPropertyList function (sensorsutils.h)
 description: This routine determine if a key is present in a property list.
 ms.assetid: 4a565915-3f6d-45ff-8912-0a4e80910a8b
 ms.date: 08/08/2018
+keywords: ["IsKeyPresentInPropertyList function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/IsKeyPresentInPropertyList"

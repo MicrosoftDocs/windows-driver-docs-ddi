@@ -6,6 +6,7 @@ old-location: ifsk\ccschedulereadaheadex.htm
 tech.root: ifsk
 ms.assetid: 8549DAA9-3BD3-4CED-AC2A-EFADF317EF5A
 ms.date: 04/16/2018
+keywords: ["CcScheduleReadAheadEx function"]
 ms.keywords: CcScheduleReadAheadEx, CcScheduleReadAheadEx routine [Installable File System Drivers], ifsk.ccschedulereadaheadex, ntifs/CcScheduleReadAheadEx
 f1_keywords:
  - "ntifs/CcScheduleReadAheadEx"

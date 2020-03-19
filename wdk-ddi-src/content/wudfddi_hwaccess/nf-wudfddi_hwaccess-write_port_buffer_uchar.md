@@ -6,6 +6,7 @@ old-location: wdf\write_port_buffer_uchar.htm
 tech.root: wdf
 ms.assetid: E0E0BD93-6A5B-4D60-B08C-8862D9F2670D
 ms.date: 02/26/2018
+keywords: ["WRITE_PORT_BUFFER_UCHAR function"]
 ms.keywords: WRITE_PORT_BUFFER_UCHAR, WRITE_PORT_BUFFER_UCHAR function, umdf.write_port_buffer_uchar, wdf.write_port_buffer_uchar, wudfddi_hwaccess/WRITE_PORT_BUFFER_UCHAR
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_PORT_BUFFER_UCHAR"

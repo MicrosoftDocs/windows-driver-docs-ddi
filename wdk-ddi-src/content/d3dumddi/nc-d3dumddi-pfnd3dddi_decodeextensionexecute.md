@@ -6,6 +6,7 @@ old-location: display\decodeextensionexecute.htm
 tech.root: display
 ms.assetid: 522a552a-4588-4dd1-b81f-73ccd4a1c0aa
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_DECODEEXTENSIONEXECUTE callback function"]
 ms.keywords: DecodeExtensionExecute, DecodeExtensionExecute callback function [Display Devices], PFND3DDDI_DECODEEXTENSIONEXECUTE, PFND3DDDI_DECODEEXTENSIONEXECUTE callback, UserModeDisplayDriver_Functions_426d4fa5-389b-4aca-a1c9-233d3a54b949.xml, d3dumddi/DecodeExtensionExecute, display.decodeextensionexecute
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

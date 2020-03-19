@@ -5,6 +5,7 @@ description: Structure passed to the driver in the pPrivateDriverData argument o
 old-location: display\dxgk_inherited_timing_info.htm
 ms.assetid: 8A5CB3A6-970C-448D-8808-F072EE67BCA3
 ms.date: 05/10/2018
+keywords: ["_DXGK_INHERITED_TIMING_INFO structure"]
 ms.keywords: "*PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO structure [Display Devices], PDXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO structure pointer [Display Devices], _DXGK_INHERITED_TIMING_INFO, d3dkmddi/DXGK_INHERITED_TIMING_INFO, d3dkmddi/PDXGK_INHERITED_TIMING_INFO, display.dxgk_inherited_timing_info"
 f1_keywords:
  - "d3dkmddi/DXGK_INHERITED_TIMING_INFO"

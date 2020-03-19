@@ -6,6 +6,7 @@ old-location: netvista\ril_getuiccatr.htm
 tech.root: netvista
 ms.assetid: 7518f018-5ece-43e6-8aad-02038c0e94fc
 ms.date: 05/02/2018
+keywords: ["RIL_GetUiccATR function"]
 ms.keywords: RIL_GetUiccATR, RIL_GetUiccATR method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccatr, rilapi/RIL_GetUiccATR
 f1_keywords:
  - "rilapi/RIL_GetUiccATR"

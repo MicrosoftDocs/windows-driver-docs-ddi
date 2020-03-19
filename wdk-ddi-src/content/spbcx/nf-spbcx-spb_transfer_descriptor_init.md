@@ -6,6 +6,7 @@ old-location: spb\spb_transfer_descriptor_init.htm
 tech.root: SPB
 ms.assetid: 96A069B5-BD89-4B8E-88D9-57944F4C9DB8
 ms.date: 04/30/2018
+keywords: ["SPB_TRANSFER_DESCRIPTOR_INIT function"]
 ms.keywords: SPB.spb_transfer_descriptor_init, SPB_TRANSFER_DESCRIPTOR_INIT, SPB_TRANSFER_DESCRIPTOR_INIT function [Buses], spbcx/SPB_TRANSFER_DESCRIPTOR_INIT
 f1_keywords:
  - "spbcx/SPB_TRANSFER_DESCRIPTOR_INIT"

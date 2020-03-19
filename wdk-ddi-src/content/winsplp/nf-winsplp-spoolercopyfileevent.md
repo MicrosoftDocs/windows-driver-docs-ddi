@@ -6,6 +6,7 @@ old-location: print\spoolercopyfileevent.htm
 tech.root: print
 ms.assetid: 39e9b596-7726-439c-8ad9-a987fdfd3860
 ms.date: 04/20/2018
+keywords: ["SpoolerCopyFileEvent function"]
 ms.keywords: SpoolerCopyFileEvent, SpoolerCopyFileEvent function [Print Devices], poprfnc_e85f9707-18cf-4cd5-aece-ebcd5fd09270.xml, print.spoolercopyfileevent, winsplp/SpoolerCopyFileEvent
 f1_keywords:
  - "winsplp/SpoolerCopyFileEvent"

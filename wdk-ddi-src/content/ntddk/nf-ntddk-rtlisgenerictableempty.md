@@ -6,6 +6,7 @@ old-location: ifsk\rtlisgenerictableempty.htm
 tech.root: ifsk
 ms.assetid: 9d032bd1-3ee7-4044-951f-c6730a28f3a1
 ms.date: 04/16/2018
+keywords: ["RtlIsGenericTableEmpty function"]
 ms.keywords: RtlIsGenericTableEmpty, RtlIsGenericTableEmpty routine [Installable File System Drivers], ifsk.rtlisgenerictableempty, ntddk/RtlIsGenericTableEmpty, rtlref_07ea645e-b497-445c-a872-34947a2f7e54.xml
 f1_keywords:
  - "ntddk/RtlIsGenericTableEmpty"

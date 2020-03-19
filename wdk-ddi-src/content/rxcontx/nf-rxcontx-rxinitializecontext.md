@@ -6,6 +6,7 @@ old-location: ifsk\rxinitializecontext.htm
 tech.root: ifsk
 ms.assetid: 71b595be-61ac-4a8f-af5e-d504e5091e0c
 ms.date: 04/16/2018
+keywords: ["RxInitializeContext function"]
 ms.keywords: RxInitializeContext, RxInitializeContext function [Installable File System Drivers], ifsk.rxinitializecontext, rxcontx/RxInitializeContext, rxref_4092dc37-eda5-4293-ab39-bec3ed2753f6.xml
 f1_keywords:
  - "rxcontx/RxInitializeContext"

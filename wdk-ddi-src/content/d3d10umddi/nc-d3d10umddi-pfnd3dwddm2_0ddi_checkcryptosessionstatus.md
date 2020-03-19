@@ -5,6 +5,7 @@ description: CheckCryptoSessionStatus returns the status of a CryptoSession obje
 old-location: display\checkcryptosessionstatus.htm
 ms.assetid: C7BA5CE0-F89E-4C4B-9976-B9CB6BF8DA81
 ms.date: 05/10/2018
+keywords: ["PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS callback function"]
 ms.keywords: CheckCryptoSessionStatus, CheckCryptoSessionStatus callback function [Display Devices], PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS, PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS callback, d3d10umddi/CheckCryptoSessionStatus, display.checkcryptosessionstatus
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

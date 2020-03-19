@@ -4,6 +4,7 @@ title: DXGKCB_FREECONTIGUOUSMEMORY (d3dkmddi.h)
 description: Implemented by the client driver to release a range of physically contiguous memory that was allocated by DXGKCB_ALLOCATECONTIGUOUSMEMORY.
 ms.assetid: da301608-4cfa-4247-9f91-84a633ab87af
 ms.date: 10/19/2018
+keywords: ["DXGKCB_FREECONTIGUOUSMEMORY callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKCB_FREECONTIGUOUSMEMORY"
 req.header: d3dkmddi.h

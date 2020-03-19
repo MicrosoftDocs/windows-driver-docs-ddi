@@ -5,6 +5,7 @@ description: D3DKMTWaitForSynchronizationObjectFromGpu waits for a monitored fen
 old-location: display\d3dkmtwaitforsynchronizationobjectfromgpu.htm
 ms.assetid: 93705446-8B87-46DD-9CFE-DD0473DEE6B6
 ms.date: 05/10/2018
+keywords: ["D3DKMTWaitForSynchronizationObjectFromGpu function"]
 ms.keywords: D3DKMTWaitForSynchronizationObjectFromGpu, D3DKMTWaitForSynchronizationObjectFromGpu function [Display Devices], d3dkmthk/D3DKMTWaitForSynchronizationObjectFromGpu, display.d3dkmtwaitforsynchronizationobjectfromgpu
 f1_keywords:
  - "d3dkmthk/D3DKMTWaitForSynchronizationObjectFromGpu"

@@ -5,6 +5,7 @@ description: The NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration is used as an i
 tech.root: netvista
 ms.assetid: fd0f43ac-4895-4fe7-9eb3-7b4d7a8c052e
 ms.date: 02/07/2018
+keywords: ["_NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration"]
 f1_keywords:
  - "netconfiguration/NET_CONFIGURATION_QUERY_ULONG_FLAGS"
 ms.keywords: _NET_CONFIGURATION_QUERY_ULONG_FLAGS, NET_CONFIGURATION_QUERY_ULONG_FLAGS, 

@@ -6,6 +6,7 @@ old-location: debugger\idebugclient5_pushoutputlineprefixwide.htm
 tech.root: debugger
 ms.assetid: B3D4AE97-9CDB-425D-A04B-E164852FDF19
 ms.date: 05/03/2018
+keywords: ["IDebugClient5::PushOutputLinePrefixWide"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],PushOutputLinePrefixWide method, IDebugClient5.PushOutputLinePrefixWide, IDebugClient5::PushOutputLinePrefixWide, PushOutputLinePrefixWide, PushOutputLinePrefixWide method [Windows Debugging], PushOutputLinePrefixWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::PushOutputLinePrefixWide, debugger.idebugclient5_pushoutputlineprefixwide
 f1_keywords:
  - "dbgeng/IDebugClient5.PushOutputLinePrefixWide"

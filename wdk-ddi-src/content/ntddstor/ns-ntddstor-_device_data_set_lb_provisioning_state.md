@@ -6,6 +6,7 @@ old-location: storage\device_data_set_lb_provisioning_state.htm
 tech.root: storage
 ms.assetid: 99FBD363-0999-4AEE-A222-69C0FB71D248
 ms.date: 08/23/2019
+keywords: ["_DEVICE_DATA_SET_LB_PROVISIONING_STATE structure"]
 ms.keywords: "*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure [Storage Devices], PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer [Storage Devices], _DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/PDEVICE_DATA_SET_LB_PROVISIONING_STATE, storage.device_data_set_lb_provisioning_state"
 f1_keywords:
  - "ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE"

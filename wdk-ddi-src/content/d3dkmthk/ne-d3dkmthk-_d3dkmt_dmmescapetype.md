@@ -4,6 +4,7 @@ title: _D3DKMT_DMMESCAPETYPE (d3dkmthk.h)
 description: DMM (display mode manager) escape type.
 ms.assetid: eb63950b-5d9b-4a4f-ba22-04549e57f886
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_DMMESCAPETYPE enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_DMMESCAPETYPE"
 ms.keywords: _D3DKMT_DMMESCAPETYPE, D3DKMT_DMMESCAPETYPE, 

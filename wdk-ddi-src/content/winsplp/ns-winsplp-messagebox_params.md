@@ -6,6 +6,7 @@ old-location: print\messagebox_params.htm
 tech.root: print
 ms.assetid: 28a94e25-9beb-46a1-9e9d-9fe4823372be
 ms.date: 04/20/2018
+keywords: ["MESSAGEBOX_PARAMS structure"]
 ms.keywords: "*PMESSAGEBOX_PARAMS, MESSAGEBOX_PARAMS, MESSAGEBOX_PARAMS structure [Print Devices], PMESSAGEBOX_PARAMS, PMESSAGEBOX_PARAMS structure pointer [Print Devices], print.messagebox_params, spoolfnc_c70908b4-e8de-4e3e-810d-d76cf2104d91.xml, winsplp/MESSAGEBOX_PARAMS, winsplp/PMESSAGEBOX_PARAMS"
 f1_keywords:
  - "winsplp/MESSAGEBOX_PARAMS"

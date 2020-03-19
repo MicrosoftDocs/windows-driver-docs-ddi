@@ -4,6 +4,7 @@ title: D3D12DDI_COMMAND_LIST_FUNCS_3D_0052 (d3d12umddi.h)
 description: The command list functions for 3D.
 ms.assetid: df545526-5eef-4def-b54f-aa45214b597a
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_COMMAND_LIST_FUNCS_3D_0052 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0052"
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_3D_0052, D3D12DDI_COMMAND_LIST_FUNCS_3D_0052, 

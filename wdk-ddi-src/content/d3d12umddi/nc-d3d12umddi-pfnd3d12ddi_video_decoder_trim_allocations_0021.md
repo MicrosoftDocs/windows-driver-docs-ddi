@@ -5,6 +5,7 @@ description: The pfnDecoderTrimAllocations callback function trims allocations f
 old-location: display\pfnd3d12ddi_video_decoder_trim_allocations.htm
 ms.assetid: 2E90B365-8C5D-4586-AAA8-D49CC9BBCF70
 ms.date: 05/10/2018
+keywords: ["PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021 callback function"]
 ms.keywords: PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021, PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021 callback, d3d12umddi/pfnDecoderTrimAllocations, display.pfnd3d12ddi_video_decoder_trim_allocations, pfnDecoderTrimAllocations, pfnDecoderTrimAllocations callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnDecoderTrimAllocations"

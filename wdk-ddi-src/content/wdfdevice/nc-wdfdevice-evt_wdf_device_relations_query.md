@@ -6,6 +6,7 @@ old-location: wdf\evtdevicerelationsquery.htm
 tech.root: wdf
 ms.assetid: 3a156696-1dd5-4383-a0cc-8d07ec92bdbf
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_DEVICE_RELATIONS_QUERY callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_b34ffaf4-1e73-4463-87fd-31350656a7a5.xml, EVT_WDF_DEVICE_RELATIONS_QUERY, EVT_WDF_DEVICE_RELATIONS_QUERY callback, EvtDeviceRelationsQuery, EvtDeviceRelationsQuery callback function, kmdf.evtdevicerelationsquery, wdf.evtdevicerelationsquery, wdfdevice/EvtDeviceRelationsQuery
 f1_keywords:
  - "wdfdevice/EvtDeviceRelationsQuery"

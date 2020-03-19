@@ -5,6 +5,7 @@ description: Contains information for a transform.
 old-location: display\d3d12ddi_video_process_transform.htm
 ms.assetid: E463BD7F-F89C-4D82-ABCA-4AF48EC21655
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020 structure"]
 ms.keywords: D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020, D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020, display.d3d12ddi_video_process_transform
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_PROCESS_TRANSFORM_0020"

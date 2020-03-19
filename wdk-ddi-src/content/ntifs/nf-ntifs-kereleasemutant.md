@@ -6,6 +6,7 @@ old-location: ifsk\kereleasemutant.htm
 tech.root: ifsk
 ms.assetid: f5dc0f1b-3287-410d-97be-6d4f65466e65
 ms.date: 04/16/2018
+keywords: ["KeReleaseMutant function"]
 ms.keywords: KeReleaseMutant, KeReleaseMutant function [Installable File System Drivers], ifsk.kereleasemutant, keref_3bfd3822-4bbe-4d79-844e-afc6511d1bbb.xml, ntifs/KeReleaseMutant
 f1_keywords:
  - "ntifs/KeReleaseMutant"

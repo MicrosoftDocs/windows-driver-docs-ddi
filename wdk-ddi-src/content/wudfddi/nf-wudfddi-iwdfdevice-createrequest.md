@@ -6,6 +6,7 @@ old-location: wdf\iwdfdevice_createrequest.htm
 tech.root: wdf
 ms.assetid: 031ce604-9d6f-4fdd-bacc-d1897f260a14
 ms.date: 02/26/2018
+keywords: ["IWDFDevice::CreateRequest"]
 ms.keywords: CreateRequest, CreateRequest method, CreateRequest method,IWDFDevice interface, IWDFDevice interface,CreateRequest method, IWDFDevice.CreateRequest, IWDFDevice::CreateRequest, UMDFDeviceObjectRef_9eb18b05-e5fc-48cf-907b-ed7d188eac4b.xml, umdf.iwdfdevice_createrequest, wdf.iwdfdevice_createrequest, wudfddi/IWDFDevice::CreateRequest
 f1_keywords:
  - "wudfddi/IWDFDevice.CreateRequest"

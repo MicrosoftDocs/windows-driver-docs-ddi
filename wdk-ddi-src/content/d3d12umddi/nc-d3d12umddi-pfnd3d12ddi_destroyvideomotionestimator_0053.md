@@ -4,6 +4,7 @@ title: PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053 (d3d12umddi.h)
 description: Destroys the video motion estimator.
 ms.assetid: 6d142a01-4ba6-4d72-b5ae-19a5117f4448
 ms.date: 10/19/2018
+keywords: ["PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053 callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053"
 req.header: d3d12umddi.h

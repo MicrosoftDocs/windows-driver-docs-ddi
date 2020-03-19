@@ -4,6 +4,7 @@ title: PFND3D12DDI_CALCPRIVATESCHEDULINGGROUPSIZE_0050 (d3d12umddi.h)
 description: The pfnCalcPrivateSchedulingGroupSize callback function returns the size of the hardware scheduling group.
 ms.assetid: d4bfbddb-cced-45f8-9950-4c9e03388987
 ms.date: 10/19/2018
+keywords: ["PFND3D12DDI_CALCPRIVATESCHEDULINGGROUPSIZE_0050 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

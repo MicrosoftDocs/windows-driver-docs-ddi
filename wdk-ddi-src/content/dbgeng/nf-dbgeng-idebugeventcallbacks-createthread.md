@@ -6,6 +6,7 @@ old-location: debugger\idebugeventcallbacks_createthread.htm
 tech.root: debugger
 ms.assetid: c3b2cbaa-33b9-4784-922d-d1209fc23dfd
 ms.date: 05/03/2018
+keywords: ["IDebugEventCallbacks::CreateThread"]
 ms.keywords: ComCallbacks_db1fe5dc-8392-4c79-a1ed-9752170eed3c.xml, CreateThread, CreateThread method [Windows Debugging], CreateThread method [Windows Debugging],IDebugEventCallbacks interface, IDebugEventCallbacks interface [Windows Debugging],CreateThread method, IDebugEventCallbacks.CreateThread, IDebugEventCallbacks::CreateThread, dbgeng/IDebugEventCallbacks::CreateThread, debugger.idebugeventcallbacks_createthread
 f1_keywords:
  - "dbgeng/IDebugEventCallbacks.CreateThread"

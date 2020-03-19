@@ -6,6 +6,7 @@ old-location: netvista\pdflushqueue.htm
 tech.root: netvista
 ms.assetid: 885EC5F7-1C7E-473F-BA2A-B4DDD54A59D2
 ms.date: 05/02/2018
+keywords: ["NDIS_PD_FLUSH_QUEUE callback function"]
 ms.keywords: "*NDIS_PD_FLUSH_QUEUE_HANDLER, *NDIS_PD_FLUSH_QUEUE_HANDLER callback function [Network Drivers Starting with Windows Vista], NDIS_PD_FLUSH_QUEUE, NDIS_PD_FLUSH_QUEUE callback, PDFlushQueue, PDFlushQueue callback function [Network Drivers Starting with Windows Vista], ndis/PDFlushQueue, netvista.pdflushqueue"
 f1_keywords:
  - "ndis/*NDIS_PD_FLUSH_QUEUE_HANDLER"

@@ -6,6 +6,7 @@ old-location: netvista\ril_addcallforwarding.htm
 tech.root: netvista
 ms.assetid: 86b08757-bbc0-4f19-8153-c6ecae158cf2
 ms.date: 05/02/2018
+keywords: ["RIL_AddCallForwarding function"]
 ms.keywords: RIL_AddCallForwarding, RIL_AddCallForwarding method [Network Drivers Starting with Windows Vista], netvista.ril_addcallforwarding, rilapi/RIL_AddCallForwarding
 f1_keywords:
  - "rilapi/RIL_AddCallForwarding"

@@ -6,6 +6,7 @@ old-location: netvista\ril_setmsgmemorystatus.htm
 tech.root: netvista
 ms.assetid: 23be30ba-3999-4e40-b0c5-30f0b37ff8c4
 ms.date: 05/02/2018
+keywords: ["RIL_SetMsgMemoryStatus function"]
 ms.keywords: RIL_SetMsgMemoryStatus, RIL_SetMsgMemoryStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setmsgmemorystatus, rilapi/RIL_SetMsgMemoryStatus
 f1_keywords:
  - "rilapi/RIL_SetMsgMemoryStatus"

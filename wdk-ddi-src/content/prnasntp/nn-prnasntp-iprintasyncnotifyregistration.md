@@ -6,6 +6,7 @@ old-location: print\iprintasyncnotifyregistration.htm
 tech.root: print
 ms.assetid: DF6A3FD2-22B4-452D-8D43-1EB25E2CEEA5
 ms.date: 04/20/2018
+keywords: ["IPrintAsyncNotifyRegistration interface"]
 ms.keywords: IPrintAsyncNotifyRegistration, IPrintAsyncNotifyRegistration interface [Print Devices], IPrintAsyncNotifyRegistration interface [Print Devices],described, print.iprintasyncnotifyregistration, prnasntp/IPrintAsyncNotifyRegistration
 f1_keywords:
  - "prnasntp/IPrintAsyncNotifyRegistration"

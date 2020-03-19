@@ -4,6 +4,7 @@ title: PropKeyFindKeyGetInt64 function (sensorsutils.h)
 description: This routine gets a INT64 value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 61811522-9d31-4246-8cdd-71be1a8ff43e
 ms.date: 08/08/2018
+keywords: ["PropKeyFindKeyGetInt64 function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/PropKeyFindKeyGetInt64"

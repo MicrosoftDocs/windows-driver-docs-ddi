@@ -4,6 +4,7 @@ title: IDebugHostField::GetLocationKind (dbgmodel.h)
 description: The GetLocationKind method returns what kind of location the symbol is at according to the LocationKind enumeration. 
 ms.assetid: 34e162cb-39d8-4d70-88f6-99fa71da87d5
 ms.date: 09/12/2018
+keywords: ["IDebugHostField::GetLocationKind"]
 f1_keywords:
  - "dbgmodel/IDebugHostField.GetLocationKind"
 ms.keywords: IDebugHostField::GetLocationKind, GetLocationKind, IDebugHostField.GetLocationKind, IDebugHostField::GetLocationKind, IDebugHostField.GetLocationKind

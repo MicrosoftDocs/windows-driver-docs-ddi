@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 84b01acb-e1cb-4ed4-b82c-5dfc427ac05d
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["PFND3DWDDM2_6DDI_PREPARE_SCANOUT_TRANSFORMATION callback function"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d10umddi.h

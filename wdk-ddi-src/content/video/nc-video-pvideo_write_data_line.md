@@ -6,6 +6,7 @@ old-location: display\writedataline.htm
 tech.root: display
 ms.assetid: 3f860619-a479-4291-b3f3-ea4d309beee7
 ms.date: 05/10/2018
+keywords: ["PVIDEO_WRITE_DATA_LINE callback function"]
 ms.keywords: PVIDEO_WRITE_DATA_LINE, PVIDEO_WRITE_DATA_LINE callback, VideoMiniport_Functions_35effeac-fbe1-44b9-905f-111460800d86.xml, WriteDataLine, WriteDataLine callback function [Display Devices], display.writedataline, video/WriteDataLine
 f1_keywords:
  - "video/WriteDataLine"

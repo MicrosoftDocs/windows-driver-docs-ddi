@@ -6,6 +6,7 @@ old-location: kernel\rtlbytetoint8.htm
 tech.root: kernel
 ms.assetid: 865E62CA-0D73-4957-88AA-EEF5910AD916
 ms.date: 04/30/2018
+keywords: ["RtlByteToInt8 function"]
 ms.keywords: RtlByteToInt8, RtlByteToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlbytetoint8, ntintsafe/RtlByteToInt8
 f1_keywords:
  - "ntintsafe/RtlByteToInt8"

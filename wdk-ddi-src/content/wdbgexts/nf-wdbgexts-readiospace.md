@@ -6,6 +6,7 @@ old-location: debugger\readiospace.htm
 tech.root: debugger
 ms.assetid: 31118f7f-fcc4-45f9-a248-a1d6f929f3a2
 ms.date: 05/03/2018
+keywords: ["ReadIoSpace function"]
 ms.keywords: ReadIoSpace, ReadIoSpace function [Windows Debugging], WdbgExts_Ref_e34c76a6-de5d-4347-90a7-959d5392680e.xml, debugger.readiospace, wdbgexts/ReadIoSpace
 f1_keywords:
  - "wdbgexts/ReadIoSpace"

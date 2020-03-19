@@ -6,6 +6,7 @@ old-location: wdf\wdffdoinitsetfilter.htm
 tech.root: wdf
 ms.assetid: 6e195025-4e70-44fa-a12d-0a98417381a0
 ms.date: 02/26/2018
+keywords: ["WdfFdoInitSetFilter function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_d1040c41-d94a-489d-ab74-9b3ae1e900bb.xml, WdfFdoInitSetFilter, WdfFdoInitSetFilter method, kmdf.wdffdoinitsetfilter, wdf.wdffdoinitsetfilter, wdffdo/WdfFdoInitSetFilter
 f1_keywords:
  - "wdffdo/WdfFdoInitSetFilter"

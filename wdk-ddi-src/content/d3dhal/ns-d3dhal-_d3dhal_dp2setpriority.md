@@ -6,6 +6,7 @@ old-location: display\d3dhal_dp2setpriority.htm
 tech.root: display
 ms.assetid: 5101c150-b294-4bf4-b33c-f0fe0f54d727
 ms.date: 05/10/2018
+keywords: ["_D3DHAL_DP2SETPRIORITY structure"]
 ms.keywords: "*LPD3DHAL_DP2SETPRIORITY, D3DHAL_DP2SETPRIORITY, D3DHAL_DP2SETPRIORITY structure [Display Devices], LPD3DHAL_DP2SETPRIORITY, LPD3DHAL_DP2SETPRIORITY structure pointer [Display Devices], _D3DHAL_DP2SETPRIORITY, d3dhal/D3DHAL_DP2SETPRIORITY, d3dhal/LPD3DHAL_DP2SETPRIORITY, d3dstrct_e6462000-a8f1-4181-ba23-4cda08b1edce.xml, display.d3dhal_dp2setpriority"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2SETPRIORITY"

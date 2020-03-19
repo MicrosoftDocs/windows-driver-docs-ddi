@@ -6,6 +6,7 @@ old-location: debugger\debug_specific_filter_parameters.htm
 tech.root: debugger
 ms.assetid: 06926380-aae5-4d9f-94e0-43098f8a0423
 ms.date: 05/03/2018
+keywords: ["_DEBUG_SPECIFIC_FILTER_PARAMETERS structure"]
 ms.keywords: "*PDEBUG_SPECIFIC_FILTER_PARAMETERS, DEBUG_SPECIFIC_FILTER_PARAMETERS, DEBUG_SPECIFIC_FILTER_PARAMETERS structure [Windows Debugging], PDEBUG_SPECIFIC_FILTER_PARAMETERS, PDEBUG_SPECIFIC_FILTER_PARAMETERS structure pointer [Windows Debugging], Structures_b0152b9b-4809-46c8-81a7-5f571720eca1.xml, _DEBUG_SPECIFIC_FILTER_PARAMETERS, dbgeng/DEBUG_SPECIFIC_FILTER_PARAMETERS, dbgeng/PDEBUG_SPECIFIC_FILTER_PARAMETERS, debugger.debug_specific_filter_parameters"
 f1_keywords:
  - "dbgeng/DEBUG_SPECIFIC_FILTER_PARAMETERS"

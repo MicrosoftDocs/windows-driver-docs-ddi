@@ -6,6 +6,7 @@ old-location: wdf\wdfdmatransactiongettransferinfo.htm
 tech.root: wdf
 ms.assetid: 9EE04529-D322-4498-B802-BB6A53FBC716
 ms.date: 02/26/2018
+keywords: ["WdfDmaTransactionGetTransferInfo function"]
 ms.keywords: WdfDmaTransactionGetTransferInfo, WdfDmaTransactionGetTransferInfo method, kmdf.wdfdmatransactiongettransferinfo, wdf.wdfdmatransactiongettransferinfo, wdfdmatransaction/WdfDmaTransactionGetTransferInfo
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionGetTransferInfo"

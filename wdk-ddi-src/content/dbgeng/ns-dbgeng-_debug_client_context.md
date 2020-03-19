@@ -6,6 +6,7 @@ old-location: debugger\debug_client_context.htm
 tech.root: debugger
 ms.assetid: 69CE0535-3ADD-481C-A016-695A7303BBA5
 ms.date: 05/03/2018
+keywords: ["_DEBUG_CLIENT_CONTEXT structure"]
 ms.keywords: "*PDEBUG_CLIENT_CONTEXT, DEBUG_CLIENT_CONTEXT, DEBUG_CLIENT_CONTEXT structure [Windows Debugging], PDEBUG_CLIENT_CONTEXT, PDEBUG_CLIENT_CONTEXT structure pointer [Windows Debugging], _DEBUG_CLIENT_CONTEXT, dbgeng/DEBUG_CLIENT_CONTEXT, dbgeng/PDEBUG_CLIENT_CONTEXT, debugger.debug_client_context"
 f1_keywords:
  - "dbgeng/DEBUG_CLIENT_CONTEXT"

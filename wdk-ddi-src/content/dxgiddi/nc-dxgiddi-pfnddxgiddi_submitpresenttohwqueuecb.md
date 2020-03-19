@@ -4,6 +4,7 @@ title: PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB (dxgiddi.h)
 description: pfnSubmitPresentToHwQueueCb submits a Present operation to a hardware queue.
 ms.assetid: 8201a3f6-ea2f-4dd3-ba74-9f45bbe5bbad
 ms.date: 10/19/2018
+keywords: ["PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB callback function"]
 f1_keywords:
  - "dxgiddi/PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB"
 req.header: dxgiddi.h

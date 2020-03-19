@@ -6,6 +6,7 @@ old-location: netvista\ndisfreestring.htm
 tech.root: netvista
 ms.assetid: 62b4318a-b883-44fc-a2a5-86a7a884f039
 ms.date: 05/02/2018
+keywords: ["NdisFreeString macro"]
 ms.keywords: NdisFreeString, NdisFreeString macro [Network Drivers Starting with Windows Vista], ndis/NdisFreeString, ndis_string_ref_fbe6ac9f-c6a6-457e-a427-71e9739f3809.xml, netvista.ndisfreestring
 f1_keywords:
  - "ndis/NdisFreeString"

@@ -6,6 +6,7 @@ old-location: stream\iksallocator_ksgetallocatorhandle.htm
 tech.root: stream
 ms.assetid: 9F79816F-866F-4B68-898F-87D310EFBBE7
 ms.date: 04/23/2018
+keywords: ["IKsAllocator::KsGetAllocatorHandle"]
 ms.keywords: IKsAllocator interface [Streaming Media Devices],KsGetAllocatorHandle method, IKsAllocator.KsGetAllocatorHandle, IKsAllocator::KsGetAllocatorHandle, KsGetAllocatorHandle, KsGetAllocatorHandle method [Streaming Media Devices], KsGetAllocatorHandle method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsGetAllocatorHandle, stream.iksallocator_ksgetallocatorhandle
 f1_keywords:
  - "ksproxy/IKsAllocator.KsGetAllocatorHandle"

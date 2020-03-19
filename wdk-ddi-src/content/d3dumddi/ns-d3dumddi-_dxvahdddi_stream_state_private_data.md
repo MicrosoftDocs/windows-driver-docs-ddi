@@ -6,6 +6,7 @@ old-location: display\dxvahdddi_stream_state_private_data.htm
 tech.root: display
 ms.assetid: 1352392f-62d4-46aa-aa59-651309c36e6f
 ms.date: 05/10/2018
+keywords: ["_DXVAHDDDI_STREAM_STATE_PRIVATE_DATA structure"]
 ms.keywords: DXVA2_Structs_4c06fc77-dcae-41fa-b831-c3918ddbf467.xml, DXVAHDDDI_STREAM_STATE_PRIVATE_DATA, DXVAHDDDI_STREAM_STATE_PRIVATE_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_PRIVATE_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE_DATA, display.dxvahdddi_stream_state_private_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE_DATA"

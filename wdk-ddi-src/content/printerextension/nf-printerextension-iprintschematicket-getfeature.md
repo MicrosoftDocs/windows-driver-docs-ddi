@@ -6,6 +6,7 @@ old-location: print\iprintschematicket_getfeature.htm
 tech.root: print
 ms.assetid: 2E65BDF2-9539-402B-AF19-8CBC84F9C018
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaTicket::GetFeature"]
 ms.keywords: GetFeature, GetFeature method [Print Devices], GetFeature method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],GetFeature method, IPrintSchemaTicket.GetFeature, IPrintSchemaTicket::GetFeature, print.iprintschematicket_getfeature, printerextension/IPrintSchemaTicket::GetFeature
 f1_keywords:
  - "printerextension/IPrintSchemaTicket.GetFeature"

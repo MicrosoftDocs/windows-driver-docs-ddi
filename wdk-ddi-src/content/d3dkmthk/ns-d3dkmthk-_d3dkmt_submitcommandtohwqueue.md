@@ -5,6 +5,7 @@ description: A structure that holds information to submit a command to the hardw
 old-location: display\d3dkmt_submitcommandtohwqueue.htm
 ms.assetid: 3807BD27-FAE4-4E12-A825-A9FAFB7A6ACA
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_SUBMITCOMMANDTOHWQUEUE structure"]
 ms.keywords: D3DKMT_SUBMITCOMMANDTOHWQUEUE, D3DKMT_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], _D3DKMT_SUBMITCOMMANDTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITCOMMANDTOHWQUEUE, display.d3dkmt_submitcommandtohwqueue
 f1_keywords:
  - "d3dkmthk/D3DKMT_SUBMITCOMMANDTOHWQUEUE"

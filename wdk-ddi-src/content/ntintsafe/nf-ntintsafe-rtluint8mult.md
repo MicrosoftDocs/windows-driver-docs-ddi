@@ -6,6 +6,7 @@ old-location: kernel\rtluint8mult.htm
 tech.root: kernel
 ms.assetid: 3F9E47F5-1DE3-4949-BE92-8C8F571BFD3D
 ms.date: 04/30/2018
+keywords: ["RtlUInt8Mult function"]
 ms.keywords: RtlUInt8Mult, RtlUInt8Mult function [Kernel-Mode Driver Architecture], kernel.rtluint8mult, ntintsafe/RtlUInt8Mult
 f1_keywords:
  - "ntintsafe/RtlUInt8Mult"

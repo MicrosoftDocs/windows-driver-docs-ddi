@@ -6,6 +6,7 @@ old-location: gnss\gnss_cwtestdata.htm
 tech.root: gnss
 ms.assetid: 7F1C8574-8891-4ACB-BB25-2666148E3D02
 ms.date: 02/15/2018
+keywords: ["GNSS_CWTESTDATA structure"]
 ms.keywords: "*PGNSS_CWTESTDATA, GNSS_CWTESTDATA, GNSS_CWTESTDATA structure [Sensor Devices], PGNSS_CWTESTDATA, PGNSS_CWTESTDATA structure pointer [Sensor Devices], gnss.gnss_cwtestdata, gnssdriver/GNSS_CWTESTDATA, gnssdriver/PGNSS_CWTESTDATA"
 f1_keywords:
  - "gnssdriver/GNSS_CWTESTDATA"

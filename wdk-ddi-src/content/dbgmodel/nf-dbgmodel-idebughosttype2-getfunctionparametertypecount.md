@@ -4,6 +4,7 @@ title: IDebugHostType2::GetFunctionParameterTypeCount (dbgmodel.h)
 description: The GetFunctionParameterTypeCount method returns the number of arguments that the function takes.
 ms.assetid: 262bfb7d-2a10-49f0-860a-f885bbe184e9
 ms.date: 09/20/2018
+keywords: ["IDebugHostType2::GetFunctionParameterTypeCount"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetFunctionParameterTypeCount"
 ms.keywords: IDebugHostType2::GetFunctionParameterTypeCount, GetFunctionParameterTypeCount, IDebugHostType2.GetFunctionParameterTypeCount, IDebugHostType2::GetFunctionParameterTypeCount, IDebugHostType2.GetFunctionParameterTypeCount

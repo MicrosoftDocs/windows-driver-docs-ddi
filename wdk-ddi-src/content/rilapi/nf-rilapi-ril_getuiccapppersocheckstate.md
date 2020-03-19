@@ -6,6 +6,7 @@ old-location: netvista\ril_getuiccapppersocheckstate.htm
 tech.root: netvista
 ms.assetid: 328f6ac4-e045-4197-a74c-607e98ba606c
 ms.date: 05/02/2018
+keywords: ["RIL_GetUiccAppPersoCheckState function"]
 ms.keywords: RIL_GetUiccAppPersoCheckState, RIL_GetUiccAppPersoCheckState method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccapppersocheckstate, rilapi/RIL_GetUiccAppPersoCheckState
 f1_keywords:
  - "rilapi/RIL_GetUiccAppPersoCheckState"

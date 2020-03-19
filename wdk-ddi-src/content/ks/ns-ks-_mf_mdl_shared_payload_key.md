@@ -6,6 +6,7 @@ old-location: stream\mf_mdl_shared_payload_key.htm
 tech.root: stream
 ms.assetid: 3EA093AB-1D23-4744-997E-8C7072934628
 ms.date: 04/23/2018
+keywords: ["_MF_MDL_SHARED_PAYLOAD_KEY structure"]
 ms.keywords: "*PMF_MDL_SHARED_PAYLOAD_KEY, MF_MDL_SHARED_PAYLOAD_KEY, MF_MDL_SHARED_PAYLOAD_KEY union [Streaming Media Devices], PMF_MDL_SHARED_PAYLOAD_KEY, PMF_MDL_SHARED_PAYLOAD_KEY union [Streaming Media Devices], _MF_MDL_SHARED_PAYLOAD_KEY, ks/MF_MDL_SHARED_PAYLOAD_KEY, ks/PMF_MDL_SHARED_PAYLOAD_KEY, stream.mf_mdl_shared_payload_key"
 f1_keywords:
  - "ks/MF_MDL_SHARED_PAYLOAD_KEY"

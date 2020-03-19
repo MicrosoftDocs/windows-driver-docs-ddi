@@ -5,6 +5,7 @@ description: The D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure identifies a GDI 
 old-location: display\d3dkmt_gdimodel_presenthistorytoken.htm
 ms.assetid: 4f602b68-7170-4e76-8875-0a0c0634caa2
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure"]
 ms.keywords: D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_02351828-bca4-4a37-bb61-57224a125ee5.xml, _D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN, display.d3dkmt_gdimodel_presenthistorytoken
 f1_keywords:
  - "d3dkmthk/D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN"

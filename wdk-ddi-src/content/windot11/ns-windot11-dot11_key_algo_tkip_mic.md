@@ -6,6 +6,7 @@ old-location: netvista\dot11_key_algo_tkip_mic.htm
 tech.root: netvista
 ms.assetid: 2f6e08e3-50cf-4d2e-aac8-185a5c0b38ed
 ms.date: 02/16/2018
+keywords: ["DOT11_KEY_ALGO_TKIP_MIC structure"]
 ms.keywords: "*PDOT11_KEY_ALGO_TKIP_MIC, DOT11_KEY_ALGO_TKIP_MIC, DOT11_KEY_ALGO_TKIP_MIC structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_09def77d-63b7-4db5-8689-8be14e166738.xml, PDOT11_KEY_ALGO_TKIP_MIC, PDOT11_KEY_ALGO_TKIP_MIC structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_key_algo_tkip_mic, windot11/DOT11_KEY_ALGO_TKIP_MIC, windot11/PDOT11_KEY_ALGO_TKIP_MIC"
 f1_keywords:
  - "windot11/DOT11_KEY_ALGO_TKIP_MIC"

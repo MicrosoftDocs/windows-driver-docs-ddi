@@ -4,6 +4,7 @@ title: IComparableConcept::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: b3628482-1c1e-4a01-94d9-4e357b20b87a
 ms.date: 09/21/2018
+keywords: ["IComparableConcept::Release"]
 f1_keywords:
  - "dbgmodel/IComparableConcept.Release"
 ms.keywords: IComparableConcept::Release, Release, IComparableConcept.Release, IComparableConcept::Release, IComparableConcept.Release

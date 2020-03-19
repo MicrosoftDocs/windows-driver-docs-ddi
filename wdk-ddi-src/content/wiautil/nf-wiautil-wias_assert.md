@@ -6,6 +6,7 @@ old-location: image\wias_assert.htm
 tech.root: image
 ms.assetid: 74dac8e1-a909-4c22-a650-af8a43421c5c
 ms.date: 05/03/2018
+keywords: ["WIAS_ASSERT macro"]
 ms.keywords: IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml, WIAS_ASSERT, WIAS_ASSERT macro [Imaging Devices], image.wias_assert, wiamdef/WIAS_ASSERT
 f1_keywords:
  - "wiautil/WIAS_ASSERT"

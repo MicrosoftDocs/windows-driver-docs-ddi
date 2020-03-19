@@ -6,6 +6,7 @@ old-location: netvista\ndis_pd_capabilities.htm
 tech.root: netvista
 ms.assetid: A31D3F92-FB03-489B-894D-5E2F76AC3A99
 ms.date: 05/02/2018
+keywords: ["_NDIS_PD_CAPABILITIES structure"]
 ms.keywords: NDIS_PD_CAPABILITIES, NDIS_PD_CAPABILITIES structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CAPABILITIES, netvista.ndis_pd_capabilities, ntddndis/NDIS_PD_CAPABILITIES
 f1_keywords:
  - "ntddndis/NDIS_PD_CAPABILITIES"

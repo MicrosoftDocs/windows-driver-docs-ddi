@@ -6,6 +6,7 @@ old-location: kernel\kesetsystemgroupaffinitythread.htm
 tech.root: kernel
 ms.assetid: 8ccc097d-f997-43c1-a068-f2f532afa0d6
 ms.date: 04/30/2018
+keywords: ["KeSetSystemGroupAffinityThread function"]
 ms.keywords: KeSetSystemGroupAffinityThread, KeSetSystemGroupAffinityThread routine [Kernel-Mode Driver Architecture], k105_3930c7d1-9295-4f62-867e-5e68729c45f3.xml, kernel.kesetsystemgroupaffinitythread, wdm/KeSetSystemGroupAffinityThread
 f1_keywords:
  - "wdm/KeSetSystemGroupAffinityThread"

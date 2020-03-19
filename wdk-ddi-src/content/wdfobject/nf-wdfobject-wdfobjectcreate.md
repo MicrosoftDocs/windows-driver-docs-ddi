@@ -6,6 +6,7 @@ old-location: wdf\wdfobjectcreate.htm
 tech.root: wdf
 ms.assetid: fd56c529-c7ad-4fc4-8fcc-950a1e8e21e5
 ms.date: 02/26/2018
+keywords: ["WdfObjectCreate function"]
 ms.keywords: DFGenObjectRef_6d84af32-c9c6-4327-be42-cda437dc80a1.xml, WdfObjectCreate, WdfObjectCreate method, kmdf.wdfobjectcreate, wdf.wdfobjectcreate, wdfobject/WdfObjectCreate
 f1_keywords:
  - "wdfobject/WdfObjectCreate"

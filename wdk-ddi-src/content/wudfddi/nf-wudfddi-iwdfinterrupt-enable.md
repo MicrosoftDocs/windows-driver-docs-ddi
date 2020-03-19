@@ -6,6 +6,7 @@ old-location: wdf\iwdfinterrupt_enable.htm
 tech.root: wdf
 ms.assetid: 605C58C2-9A4F-4185-BB5C-95C9F5180C05
 ms.date: 02/26/2018
+keywords: ["IWDFInterrupt::Enable"]
 ms.keywords: Enable, Enable method, Enable method,IWDFInterrupt interface, IWDFInterrupt interface,Enable method, IWDFInterrupt.Enable, IWDFInterrupt::Enable, umdf.iwdfinterrupt_enable, wdf.iwdfinterrupt_enable, wudfddi/IWDFInterrupt::Enable
 f1_keywords:
  - "wudfddi/IWDFInterrupt.Enable"

@@ -6,6 +6,7 @@ old-location: wdf\wdfpdomarkmissing.htm
 tech.root: wdf
 ms.assetid: f35e1ed4-eaa9-423c-95cb-5eb96231d592
 ms.date: 02/26/2018
+keywords: ["WdfPdoMarkMissing function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_a4198313-bd10-4b8a-a032-f253cdaccc7b.xml, WdfPdoMarkMissing, WdfPdoMarkMissing method, kmdf.wdfpdomarkmissing, wdf.wdfpdomarkmissing, wdfpdo/WdfPdoMarkMissing
 f1_keywords:
  - "wdfpdo/WdfPdoMarkMissing"

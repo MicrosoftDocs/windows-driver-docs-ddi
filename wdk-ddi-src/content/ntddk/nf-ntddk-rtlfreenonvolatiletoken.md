@@ -6,6 +6,7 @@ old-location: ifsk\rtlfreenonvolatiletoken.htm
 tech.root: ifsk
 ms.assetid: 8E083814-7408-47D2-A811-2DCBDCD13097
 ms.date: 04/16/2018
+keywords: ["RtlFreeNonVolatileToken function"]
 ms.keywords: RtlFreeNonVolatileToken, RtlFreeNonVolatileToken routine [Installable File System Drivers], ifsk.rtlfreenonvolatiletoken, ntddk/RtlFreeNonVolatileToken
 f1_keywords:
  - "ntddk/RtlFreeNonVolatileToken"

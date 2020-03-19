@@ -6,6 +6,7 @@ old-location: buses\ioctl_usb_hcd_enable_port.htm
 tech.root: usbref
 ms.assetid: bba3b9f4-cabb-496b-80c6-cdb51bd71ace
 ms.date: 05/07/2018
+keywords: ["IOCTL_USB_HCD_ENABLE_PORT IOCTL"]
 ms.keywords: IOCTL_USB_HCD_ENABLE_PORT, IOCTL_USB_HCD_ENABLE_PORT control, IOCTL_USB_HCD_ENABLE_PORT control code [Buses], buses.ioctl_usb_hcd_enable_port, usbioctl/IOCTL_USB_HCD_ENABLE_PORT, usbirp_fc5909f4-17b5-455c-b635-5c53b9de816e.xml
 f1_keywords:
  - "usbioctl/IOCTL_USB_HCD_ENABLE_PORT"

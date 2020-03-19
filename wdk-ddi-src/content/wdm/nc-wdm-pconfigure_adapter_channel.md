@@ -6,6 +6,7 @@ old-location: kernel\configureadapterchannel.htm
 tech.root: kernel
 ms.assetid: 964B305F-5B9E-4705-89BA-DBAE43464FB1
 ms.date: 04/30/2018
+keywords: ["PCONFIGURE_ADAPTER_CHANNEL callback function"]
 ms.keywords: ConfigureAdapterChannel, ConfigureAdapterChannel callback function [Kernel-Mode Driver Architecture], PCONFIGURE_ADAPTER_CHANNEL, PCONFIGURE_ADAPTER_CHANNEL callback, kernel.configureadapterchannel, wdm/ConfigureAdapterChannel
 f1_keywords:
  - "wdm/ConfigureAdapterChannel"

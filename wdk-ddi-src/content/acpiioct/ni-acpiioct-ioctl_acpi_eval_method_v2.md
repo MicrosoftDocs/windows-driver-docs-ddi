@@ -6,6 +6,7 @@ old-location: acpi\ioctl_acpi_eval_method_v2.htm
 tech.root: acpi
 ms.assetid: 4B8211D5-9D75-413A-8F14-CA90FD434ABD
 ms.date: 02/15/2018
+keywords: ["IOCTL_ACPI_EVAL_METHOD_V2 IOCTL"]
 ms.keywords: IOCTL_ACPI_EVAL_METHOD_V2, IOCTL_ACPI_EVAL_METHOD_V2 control, IOCTL_ACPI_EVAL_METHOD_V2 control code [ACPI Devices], acpi.ioctl_acpi_eval_method_v2, acpiioct/IOCTL_ACPI_EVAL_METHOD_V2
 f1_keywords:
  - "acpiioct/IOCTL_ACPI_EVAL_METHOD_V2"

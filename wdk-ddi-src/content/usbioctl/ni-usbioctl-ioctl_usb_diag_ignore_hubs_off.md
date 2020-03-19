@@ -6,6 +6,7 @@ old-location: buses\ioctl_usb_diag_ignore_hubs_off.htm
 tech.root: usbref
 ms.assetid: e81b096b-273e-48ca-acff-3e4df5a607f4
 ms.date: 05/07/2018
+keywords: ["IOCTL_USB_DIAG_IGNORE_HUBS_OFF IOCTL"]
 ms.keywords: IOCTL_USB_DIAG_IGNORE_HUBS_OFF, IOCTL_USB_DIAG_IGNORE_HUBS_OFF control, IOCTL_USB_DIAG_IGNORE_HUBS_OFF control code [Buses], buses.ioctl_usb_diag_ignore_hubs_off, usbioctl/IOCTL_USB_DIAG_IGNORE_HUBS_OFF, usbirp_5a21e20d-60c5-411a-a01d-3a5d143e076f.xml
 f1_keywords:
  - "usbioctl/IOCTL_USB_DIAG_IGNORE_HUBS_OFF"

@@ -6,6 +6,7 @@ old-location: netvista\rilmessagein_v2.htm
 tech.root: netvista
 ms.assetid: 44d4f693-4aab-4023-88b7-19c1bfcc7e5a
 ms.date: 05/02/2018
+keywords: ["RILMESSAGEIN_V2 structure"]
 ms.keywords: "*LPRILMESSAGEIN, RILMESSAGEIN, RILMESSAGEIN_V2, RILMESSAGEIN_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilmessagein_v2, ntddrilapitypes/RILMESSAGEIN_V2"
 f1_keywords:
  - "rilapitypes/RILMESSAGEIN_V2"

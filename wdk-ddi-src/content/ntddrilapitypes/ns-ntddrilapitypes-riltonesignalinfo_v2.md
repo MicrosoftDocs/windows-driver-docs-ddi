@@ -6,6 +6,7 @@ old-location: netvista\riltonesignalinfo_v2.htm
 tech.root: netvista
 ms.assetid: e0c40d65-d290-4fae-9fa7-57a9bf047f13
 ms.date: 05/02/2018
+keywords: ["RILTONESIGNALINFO_V2 structure"]
 ms.keywords: "*LPRILTONESIGNALINFO, *LPRILTONESIGNALINFO_V2, RILTONESIGNALINFO, RILTONESIGNALINFO_V2, RILTONESIGNALINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.riltonesignalinfo_v2, ntddrilapitypes/RILTONESIGNALINFO_V2"
 f1_keywords:
  - "ntddrilapitypes/RILTONESIGNALINFO_V2"

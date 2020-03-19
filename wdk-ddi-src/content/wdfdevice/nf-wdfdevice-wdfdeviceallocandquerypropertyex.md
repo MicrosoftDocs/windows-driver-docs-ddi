@@ -6,6 +6,7 @@ old-location: wdf\wdfdeviceallocandquerypropertyex.htm
 tech.root: wdf
 ms.assetid: 1C1AE0F6-2CAB-4983-B1A7-E6C8BA822754
 ms.date: 02/26/2018
+keywords: ["WdfDeviceAllocAndQueryPropertyEx function"]
 ms.keywords: WdfDeviceAllocAndQueryPropertyEx, WdfDeviceAllocAndQueryPropertyEx method, wdf.wdfdeviceallocandquerypropertyex, wdfdevice/WdfDeviceAllocAndQueryPropertyEx
 f1_keywords:
  - "wdfdevice/WdfDeviceAllocAndQueryPropertyEx"

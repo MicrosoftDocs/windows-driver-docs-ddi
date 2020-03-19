@@ -6,6 +6,7 @@ old-location: kernel\reg_save_key_information.htm
 tech.root: kernel
 ms.assetid: 911e1035-4415-43c1-9e9c-cc8feab2bd97
 ms.date: 04/30/2018
+keywords: ["_REG_SAVE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_SAVE_KEY_INFORMATION, PREG_SAVE_KEY_INFORMATION, PREG_SAVE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_SAVE_KEY_INFORMATION, REG_SAVE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_SAVE_KEY_INFORMATION, kernel.reg_save_key_information, kstruct_d_7da1ebfa-ae75-4b84-8941-87004f965404.xml, wdm/PREG_SAVE_KEY_INFORMATION, wdm/REG_SAVE_KEY_INFORMATION"
 f1_keywords:
  - "wdm/REG_SAVE_KEY_INFORMATION"

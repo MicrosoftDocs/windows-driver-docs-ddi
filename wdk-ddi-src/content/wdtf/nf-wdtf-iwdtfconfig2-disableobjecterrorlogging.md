@@ -6,6 +6,7 @@ old-location: dtf\iwdtfconfig2_disableobjecterrorlogging.htm
 tech.root: dtf
 ms.assetid: eda100d6-30df-4240-989f-d7d92b6ef334
 ms.date: 04/04/2018
+keywords: ["IWDTFCONFIG2::DisableObjectErrorLogging"]
 ms.keywords: DisableObjectErrorLogging, DisableObjectErrorLogging method [Windows Device Testing Framework], DisableObjectErrorLogging method [Windows Device Testing Framework],IWDTFCONFIG2 interface, IWDTFCONFIG2 interface [Windows Device Testing Framework],DisableObjectErrorLogging method, IWDTFCONFIG2.DisableObjectErrorLogging, IWDTFCONFIG2::DisableObjectErrorLogging, Microsoft.WDTF.IWDTFCONFIG2.DisableObjectErrorLogging, Microsoft::WDTF::IWDTFCONFIG2::DisableObjectErrorLogging, dtf.iwdtfconfig2_disableobjecterrorlogging, wdtf/IWDTFCONFIG2::DisableObjectErrorLogging
 f1_keywords:
  - "wdtf/IWDTFCONFIG2.DisableObjectErrorLogging"

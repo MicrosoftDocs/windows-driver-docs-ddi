@@ -6,6 +6,7 @@ old-location: ifsk\sequerysecuritydescriptorinfo.htm
 tech.root: ifsk
 ms.assetid: 4803e816-c59a-42b2-adc1-7a197ae16d42
 ms.date: 04/16/2018
+keywords: ["SeQuerySecurityDescriptorInfo function"]
 ms.keywords: SeQuerySecurityDescriptorInfo, SeQuerySecurityDescriptorInfo routine [Installable File System Drivers], ifsk.sequerysecuritydescriptorinfo, ntifs/SeQuerySecurityDescriptorInfo, seref_c8ecba25-bc67-4314-a262-3dbae1407205.xml
 f1_keywords:
  - "ntifs/SeQuerySecurityDescriptorInfo"

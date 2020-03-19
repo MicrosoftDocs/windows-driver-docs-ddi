@@ -6,6 +6,7 @@ old-location: netvista\rilsetcallwaitingstatusparams.htm
 tech.root: netvista
 ms.assetid: 1ba8d745-96bf-4d9d-8784-e6594360c632
 ms.date: 05/02/2018
+keywords: ["RILSETCALLWAITINGSTATUSPARAMS structure"]
 ms.keywords: "*LPRILSETCALLWAITINGSTATUSPARAMS, RILSETCALLWAITINGSTATUSPARAMS, RILSETCALLWAITINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallwaitingstatusparams, ntddrilapitypes/RILSETCALLWAITINGSTATUSPARAMS"
 f1_keywords:
  - "rilapitypes/RILSETCALLWAITINGSTATUSPARAMS"

@@ -6,6 +6,7 @@ old-location: audio\iunregisterphysicalconnection.htm
 tech.root: audio
 ms.assetid: 876a457e-8774-4c51-bd23-6451b3e3a7b7
 ms.date: 05/08/2018
+keywords: ["IUnregisterPhysicalConnection interface"]
 ms.keywords: IUnregisterPhysicalConnection, IUnregisterPhysicalConnection interface [Audio Devices], IUnregisterPhysicalConnection interface [Audio Devices],described, audio.iunregisterphysicalconnection, audmp-routines_b26d005c-70d9-4df0-80ae-446907f22fd4.xml, portcls/IUnregisterPhysicalConnection
 f1_keywords:
  - "portcls/IUnregisterPhysicalConnection"

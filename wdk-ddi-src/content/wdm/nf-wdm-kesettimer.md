@@ -6,6 +6,7 @@ old-location: kernel\kesettimer.htm
 tech.root: kernel
 ms.assetid: 81a205cd-a641-4f85-a217-7febf203b62d
 ms.date: 04/30/2018
+keywords: ["KeSetTimer function"]
 ms.keywords: KeSetTimer, KeSetTimer routine [Kernel-Mode Driver Architecture], k105_9cd3cb17-0067-4340-8226-ee75392cfdd1.xml, kernel.kesettimer, wdm/KeSetTimer
 f1_keywords:
  - "wdm/KeSetTimer"

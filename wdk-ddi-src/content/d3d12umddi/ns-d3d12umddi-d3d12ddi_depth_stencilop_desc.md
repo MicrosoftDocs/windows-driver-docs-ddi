@@ -4,6 +4,7 @@ title: D3D12DDI_DEPTH_STENCILOP_DESC (d3d12umddi.h)
 description: Describes stencil operations that can be performed based on the results of stencil test.
 ms.assetid: e906c6d4-e4eb-42ad-b983-0fe3e4b8c498
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_DEPTH_STENCILOP_DESC structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEPTH_STENCILOP_DESC"
 ms.keywords: D3D12DDI_DEPTH_STENCILOP_DESC, D3D12DDI_DEPTH_STENCILOP_DESC, 

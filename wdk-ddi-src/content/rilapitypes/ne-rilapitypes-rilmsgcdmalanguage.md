@@ -6,6 +6,7 @@ old-location: netvista\rilmsgcdmalanguage.htm
 tech.root: netvista
 ms.assetid: b774fed4-533e-47ec-9e0a-da0e8fe2cfb0
 ms.date: 05/02/2018
+keywords: ["RILMSGCDMALANGUAGE enumeration"]
 ms.keywords: RILMSGCDMALANGUAGE, RILMSGCDMALANGUAGE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCDMALANG_CHINESE, RIL_MSGCDMALANG_ENGLISH, RIL_MSGCDMALANG_FRENCH, RIL_MSGCDMALANG_HEBREW, RIL_MSGCDMALANG_JAPANESE, RIL_MSGCDMALANG_KOREAN, RIL_MSGCDMALANG_MAX, RIL_MSGCDMALANG_SPANISH, netvista.rilmsgcdmalanguage, ntddrilapitypes/RILMSGCDMALANGUAGE, ntddrilapitypes/RIL_MSGCDMALANG_CHINESE, ntddrilapitypes/RIL_MSGCDMALANG_ENGLISH, ntddrilapitypes/RIL_MSGCDMALANG_FRENCH, ntddrilapitypes/RIL_MSGCDMALANG_HEBREW, ntddrilapitypes/RIL_MSGCDMALANG_JAPANESE, ntddrilapitypes/RIL_MSGCDMALANG_KOREAN, ntddrilapitypes/RIL_MSGCDMALANG_MAX, ntddrilapitypes/RIL_MSGCDMALANG_SPANISH
 f1_keywords:
  - "rilapitypes/RILMSGCDMALANGUAGE"

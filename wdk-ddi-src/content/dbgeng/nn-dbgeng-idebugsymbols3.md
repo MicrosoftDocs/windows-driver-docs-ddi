@@ -6,6 +6,7 @@ old-location: debugger\idebugsymbols3.htm
 tech.root: debugger
 ms.assetid: 3fce9384-93f3-4d81-b6ae-bda7a94da24a
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3 interface"]
 ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], IDebugSymbols3 interface [Windows Debugging],described, dbgeng/IDebugSymbols3, debugger.idebugsymbols3
 f1_keywords:
  - "dbgeng/IDebugSymbols3"

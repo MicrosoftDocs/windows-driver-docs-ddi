@@ -6,6 +6,7 @@ old-location: ifsk\rtlfillmemoryulonglong.htm
 tech.root: ifsk
 ms.assetid: b5604cdb-084e-431a-b413-020e8213a18f
 ms.date: 04/16/2018
+keywords: ["RtlFillMemoryUlonglong macro"]
 ms.keywords: RtlFillMemoryUlonglong, RtlFillMemoryUlonglong routine [Installable File System Drivers], ifsk.rtlfillmemoryulonglong, ntifs/RtlFillMemoryUlonglong, rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml
 f1_keywords:
  - "ntifs/RtlFillMemoryUlonglong"

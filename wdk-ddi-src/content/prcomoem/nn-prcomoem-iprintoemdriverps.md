@@ -6,6 +6,7 @@ old-location: print\iprintoemdriverps_interface.htm
 tech.root: print
 ms.assetid: 39f791e6-aae3-46f6-8195-c165761d0df5
 ms.date: 04/20/2018
+keywords: ["IPrintOemDriverPS interface"]
 ms.keywords: IPrintOemDriverPS, IPrintOemDriverPS interface [Print Devices], IPrintOemDriverPS interface [Print Devices],described, prcomoem/IPrintOemDriverPS, print.iprintoemdriverps_interface, print_unidrv-pscript_rendering_a44b8943-0472-41da-9e5b-2f82d34e1f9a.xml
 f1_keywords:
  - "prcomoem/IPrintOemDriverPS"

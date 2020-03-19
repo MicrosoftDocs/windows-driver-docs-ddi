@@ -6,6 +6,7 @@ old-location: debugger\setassemblyoptions.htm
 tech.root: debugger
 ms.assetid: ec86ac71-212c-4edd-94c6-bab1cb5fa660
 ms.date: 05/03/2018
+keywords: ["IDebugControl3::SetAssemblyOptions"]
 ms.keywords: IDebugControl3 interface [Windows Debugging],SetAssemblyOptions method, IDebugControl3.SetAssemblyOptions, IDebugControl3::SetAssemblyOptions, IDebugControl_b39768e8-fb98-4056-b548-c568316279e1.xml, SetAssemblyOptions, SetAssemblyOptions method [Windows Debugging], SetAssemblyOptions method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl3::SetAssemblyOptions, debugger.setassemblyoptions
 f1_keywords:
  - "dbgeng/IDebugControl3.SetAssemblyOptions"

@@ -6,6 +6,7 @@ old-location: stream\ksproperty_positions.htm
 tech.root: stream
 ms.assetid: 869d3a3f-e2f8-4c23-864b-d40f3e67a9ec
 ms.date: 04/23/2018
+keywords: ["KSPROPERTY_POSITIONS structure"]
 ms.keywords: "*PKSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS structure [Streaming Media Devices], PKSPROPERTY_POSITIONS, PKSPROPERTY_POSITIONS structure pointer [Streaming Media Devices], ks-struct_97829290-4c01-4a03-b56b-3e5915941094.xml, ks/KSPROPERTY_POSITIONS, ks/PKSPROPERTY_POSITIONS, stream.ksproperty_positions"
 f1_keywords:
  - "ks/KSPROPERTY_POSITIONS"

@@ -6,6 +6,7 @@ old-location: audio\iminiportaudioenginenode_getdevicechannelcount.htm
 tech.root: audio
 ms.assetid: 978193AE-55CD-4255-8722-A1E008E98F08
 ms.date: 05/08/2018
+keywords: ["IMiniportAudioEngineNode::GetDeviceChannelCount"]
 ms.keywords: GetDeviceChannelCount, GetDeviceChannelCount method [Audio Devices], GetDeviceChannelCount method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceChannelCount method, IMiniportAudioEngineNode.GetDeviceChannelCount, IMiniportAudioEngineNode::GetDeviceChannelCount, audio.iminiportaudioenginenode_getdevicechannelcount, portcls/IMiniportAudioEngineNode::GetDeviceChannelCount
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetDeviceChannelCount"

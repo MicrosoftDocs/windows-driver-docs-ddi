@@ -6,6 +6,7 @@ old-location: print\iprintoemps_interface.htm
 tech.root: print
 ms.assetid: 14c545b7-8080-424f-9164-f97ef8a1acc2
 ms.date: 04/20/2018
+keywords: ["IPrintOemPS interface"]
 ms.keywords: IPrintOemPS, IPrintOemPS interface [Print Devices], IPrintOemPS interface [Print Devices],described, prcomoem/IPrintOemPS, print.iprintoemps_interface, print_unidrv-pscript_rendering_f48d01c9-e49f-40b6-90ab-6904f0081305.xml
 f1_keywords:
  - "prcomoem/IPrintOemPS"

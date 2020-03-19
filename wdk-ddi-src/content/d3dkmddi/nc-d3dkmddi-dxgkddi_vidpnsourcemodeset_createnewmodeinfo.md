@@ -5,6 +5,7 @@ description: The pfnCreateNewModeInfo function returns a pointer to a D3DKMDT_VI
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfncreatenewmodeinfo.htm
 ms.assetid: b18aab68-7457-45eb-8641-0b6180cfa70e
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_VIDPNSOURCEMODESET_CREATENEWMODEINFO callback function"]
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_CREATENEWMODEINFO, DXGKDDI_VIDPNSOURCEMODESET_CREATENEWMODEINFO callback, VidPnFunctions_f3f37645-c80f-4bde-81b4-3e4fef145e38.xml, d3dkmddi/pfnCreateNewModeInfo, display.dxgk_vidpnsourcemodeset_interface_pfncreatenewmodeinfo, pfnCreateNewModeInfo, pfnCreateNewModeInfo callback function [Display Devices]
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

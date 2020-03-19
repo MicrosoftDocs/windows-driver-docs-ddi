@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 74d6ba64-7825-488f-818d-e54994d56930
 ms.author: windowsdriverdev
 ms.date: 01/17/2019
+keywords: ["NetOffloadIsLsoIPv6Enabled function"]
 f1_keywords:
  - "netadapteroffload/NetOffloadIsLsoIPv6Enabled"
 ms.keywords: NetOffloadIsLsoIPv6Enabled

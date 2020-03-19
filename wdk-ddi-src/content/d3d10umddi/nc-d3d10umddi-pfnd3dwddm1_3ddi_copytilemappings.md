@@ -5,6 +5,7 @@ description: Copies mappings from a source tiled resource to a destination tiled
 old-location: display\copytilemappings.htm
 ms.assetid: CB2CE5E7-DDD4-4782-BB91-67A2C562A975
 ms.date: 05/10/2018
+keywords: ["PFND3DWDDM1_3DDI_COPYTILEMAPPINGS callback function"]
 ms.keywords: CopyTileMappings, CopyTileMappings callback function [Display Devices], PFND3DWDDM1_3DDI_COPYTILEMAPPINGS, PFND3DWDDM1_3DDI_COPYTILEMAPPINGS callback, d3d10umddi/CopyTileMappings, display.copytilemappings
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

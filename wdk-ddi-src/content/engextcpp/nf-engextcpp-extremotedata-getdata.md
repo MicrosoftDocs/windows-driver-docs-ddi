@@ -6,6 +6,7 @@ old-location: debugger\extremotedata_getdata.htm
 tech.root: debugger
 ms.assetid: a68e528a-c456-4bf2-8e6b-fb5c060c58fb
 ms.date: 05/03/2018
+keywords: ["ExtRemoteData::GetData"]
 ms.keywords: EngExtCpp_Ref_a440fb76-5d7c-4e77-9d1e-61c0b7002493.xml, ExtRemoteData class [Windows Debugging],GetData method, ExtRemoteData.GetData, ExtRemoteData::GetData, GetData, GetData method [Windows Debugging], GetData method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getdata
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetData"

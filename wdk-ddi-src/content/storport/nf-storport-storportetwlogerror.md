@@ -7,6 +7,7 @@ tech.root: storage
 ms.assetid: 02e3820a-c2f3-45bf-87a9-09d00ab8193e
 ms.author: windowsdriverdev
 ms.date: 03/05/2019
+keywords: ["StorPortEtwLogError function"]
 f1_keywords:
  - "storport/StorPortEtwLogError"
 ms.keywords: StorPortEtwLogError

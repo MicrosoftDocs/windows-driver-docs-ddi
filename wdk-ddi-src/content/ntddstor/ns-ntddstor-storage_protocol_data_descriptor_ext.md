@@ -7,6 +7,7 @@ tech.root: storage
 ms.assetid: 30dd37a2-037c-4805-898e-5d98f5e6c00d
 ms.author: windowsdriverdev
 ms.date: 03/20/2019
+keywords: ["STORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT structure"]
 f1_keywords:
  - "ntddstor/STORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT"
 ms.keywords: STORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT, STORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT, *PSTORAGE_PROTOCOL_DATA_DESCRIPTOR_EXT, 

@@ -6,6 +6,7 @@ old-location: kernel\csqreleaselock.htm
 tech.root: kernel
 ms.assetid: 484cbb69-0adc-4d31-94c2-930ae747a431
 ms.date: 04/30/2018
+keywords: ["IO_CSQ_RELEASE_LOCK callback function"]
 ms.keywords: CsqReleaseLock, CsqReleaseLock routine [Kernel-Mode Driver Architecture], DrvrRtns_054ce175-3354-4b0e-9578-19bab44d39ca.xml, IO_CSQ_RELEASE_LOCK, kernel.csqreleaselock, wdm/CsqReleaseLock
 f1_keywords:
  - "wdm/CsqReleaseLock"

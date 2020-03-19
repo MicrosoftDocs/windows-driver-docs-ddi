@@ -6,6 +6,7 @@ old-location: display\pfncreateoverlaycb.htm
 tech.root: display
 ms.assetid: fbd5b3af-0963-4e41-8be3-41e3e1ecf8bc
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_CREATEOVERLAYCB callback function"]
 ms.keywords: D3Druntime_Functions_d30fc7c1-55b2-4444-9ac1-34baabc073f6.xml, PFND3DDDI_CREATEOVERLAYCB, PFND3DDDI_CREATEOVERLAYCB callback, d3dumddi/pfnCreateOverlayCb, display.pfncreateoverlaycb, pfnCreateOverlayCb, pfnCreateOverlayCb callback function [Display Devices]
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

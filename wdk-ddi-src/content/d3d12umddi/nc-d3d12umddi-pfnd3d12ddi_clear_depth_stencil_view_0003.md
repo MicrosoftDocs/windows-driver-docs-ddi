@@ -5,6 +5,7 @@ description: The pfnClearDepthStencilView function clears the specified currentl
 tech.root: display
 ms.assetid: f927db61-5d0c-4e5b-a3c1-811e2acf7f4d
 ms.date: 11/28/2018
+keywords: ["PFND3D12DDI_CLEAR_DEPTH_STENCIL_VIEW_0003 callback function"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

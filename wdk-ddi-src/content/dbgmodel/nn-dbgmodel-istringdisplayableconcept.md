@@ -4,6 +4,7 @@ title: IStringDisplayableConcept (dbgmodel.h)
 description: Interface which clients must implement on any object which is convertible to a display string.
 ms.assetid: 108b4841-40cd-4771-ac66-953c9910b143
 ms.date: 10/05/2018
+keywords: ["IStringDisplayableConcept interface"]
 f1_keywords:
  - "dbgmodel/IStringDisplayableConcept"
 req.header: dbgmodel.h

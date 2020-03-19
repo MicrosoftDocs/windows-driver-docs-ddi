@@ -6,6 +6,7 @@ old-location: netvista\nmrwaitforclientderegistercomplete.htm
 tech.root: netvista
 ms.assetid: aed0a69e-868c-4c7d-b601-003ff357da38
 ms.date: 05/02/2018
+keywords: ["NmrWaitForClientDeregisterComplete function"]
 ms.keywords: NmrWaitForClientDeregisterComplete, NmrWaitForClientDeregisterComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrWaitForClientDeregisterComplete, netvista.nmrwaitforclientderegistercomplete, nmrref_577f5784-0136-480d-bc2d-d9b8740bdf3a.xml
 f1_keywords:
  - "netioddk/NmrWaitForClientDeregisterComplete"

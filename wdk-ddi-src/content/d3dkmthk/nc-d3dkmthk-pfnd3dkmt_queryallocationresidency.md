@@ -4,6 +4,7 @@ title: PFND3DKMT_QUERYALLOCATIONRESIDENCY (d3dkmthk.h)
 description: The PFND3DKMT_QUERYALLOCATIONRESIDENCY callback function retrieves the residency status of a resource or list of allocations.
 ms.assetid: 3648f3f2-bb95-44af-9dc1-ee169cc03dfc
 ms.date: 10/19/2018
+keywords: ["PFND3DKMT_QUERYALLOCATIONRESIDENCY callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_QUERYALLOCATIONRESIDENCY"
 req.header: d3dkmthk.h

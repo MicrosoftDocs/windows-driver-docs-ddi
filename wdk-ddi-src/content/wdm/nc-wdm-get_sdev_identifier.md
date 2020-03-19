@@ -6,6 +6,7 @@ old-location: kernel\get_sdev_identifier.htm
 tech.root: kernel
 ms.assetid: aaa149d8-f08d-442c-980a-9390ac8bc7f6
 ms.date: 04/30/2018
+keywords: ["GET_SDEV_IDENTIFIER callback function"]
 ms.keywords: GET_SDEV_IDENTIFIER, GET_SDEV_IDENTIFIER callback, GetSDevIdentifier, GetSDevIdentifier callback function [Kernel-Mode Driver Architecture], kernel.get_sdev_identifier, wdm/GetSDevIdentifier
 f1_keywords:
  - "wdm/GET_SDEV_IDENTIFIER callback"

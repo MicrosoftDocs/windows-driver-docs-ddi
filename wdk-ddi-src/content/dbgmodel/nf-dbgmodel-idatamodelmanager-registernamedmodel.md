@@ -4,6 +4,7 @@ title: IDataModelManager::RegisterNamedModel (dbgmodel.h)
 description: The RegisterNamedModel method registers a given data model under a well known name so that it can be found by clients wishing to extend it.
 ms.assetid: 77495094-e485-4c10-b7b6-a53c18180610
 ms.date: 07/19/2018
+keywords: ["IDataModelManager::RegisterNamedModel"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.RegisterNamedModel"
 ms.keywords: IDataModelManager::RegisterNamedModel, RegisterNamedModel, IDataModelManager.RegisterNamedModel, IDataModelManager::RegisterNamedModel, IDataModelManager.RegisterNamedModel

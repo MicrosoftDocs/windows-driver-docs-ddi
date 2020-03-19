@@ -6,6 +6,7 @@ old-location: audio\iminiportstreamaudioenginenode_setstreamchannelmute.htm
 tech.root: audio
 ms.assetid: AAD0101E-13FB-48A2-8834-799472B93931
 ms.date: 05/08/2018
+keywords: ["IMiniportStreamAudioEngineNode::SetStreamChannelMute"]
 ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetStreamChannelMute method, IMiniportStreamAudioEngineNode.SetStreamChannelMute, IMiniportStreamAudioEngineNode::SetStreamChannelMute, SetStreamChannelMute, SetStreamChannelMute method [Audio Devices], SetStreamChannelMute method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamchannelmute, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelMute
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.SetStreamChannelMute"

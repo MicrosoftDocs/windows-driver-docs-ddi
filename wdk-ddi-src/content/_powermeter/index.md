@@ -3,6 +3,7 @@ UID: TP:powermeter
 title: Power metering
 ms.assetid: 87d19931-d859-3aff-b7ce-1b0060d965a5
 ms.date: 07/10/2018
+keywords: ["Power metering"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

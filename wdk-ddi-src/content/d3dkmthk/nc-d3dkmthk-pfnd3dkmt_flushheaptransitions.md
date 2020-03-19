@@ -4,6 +4,7 @@ title: PFND3DKMT_FLUSHHEAPTRANSITIONS (d3dkmthk.h)
 description: The Pfnd3dkmtFlushheaptransitions callback function flushes heap transitions.
 ms.assetid: a8ed0fbd-f4c0-48f9-94e7-e3ad531b59e0
 ms.date: 10/19/2018
+keywords: ["PFND3DKMT_FLUSHHEAPTRANSITIONS callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_FLUSHHEAPTRANSITIONS"
 req.header: d3dkmthk.h

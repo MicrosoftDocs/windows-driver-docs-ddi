@@ -6,6 +6,7 @@ old-location: kernel\ioallocateirp.htm
 tech.root: kernel
 ms.assetid: 40abbdf8-3712-4724-8aef-16c247780c86
 ms.date: 04/30/2018
+keywords: ["IoAllocateIrp function"]
 ms.keywords: IoAllocateIrp, IoAllocateIrp routine [Kernel-Mode Driver Architecture], k104_326eb80d-9bc3-4a91-9f33-710f7975808a.xml, kernel.ioallocateirp, wdm/IoAllocateIrp
 f1_keywords:
  - "wdm/IoAllocateIrp"

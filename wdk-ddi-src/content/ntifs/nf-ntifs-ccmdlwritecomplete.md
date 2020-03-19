@@ -6,6 +6,7 @@ old-location: ifsk\ccmdlwritecomplete.htm
 tech.root: ifsk
 ms.assetid: dcd13afa-1467-407c-b843-ff88bd6526c3
 ms.date: 04/16/2018
+keywords: ["CcMdlWriteComplete function"]
 ms.keywords: CcMdlWriteComplete, CcMdlWriteComplete routine [Installable File System Drivers], ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml, ifsk.ccmdlwritecomplete, ntifs/CcMdlWriteComplete
 f1_keywords:
  - "ntifs/CcMdlWriteComplete"

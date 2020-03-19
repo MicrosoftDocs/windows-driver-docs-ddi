@@ -6,6 +6,7 @@ old-location: netvista\wwan_device_caps_ex.htm
 tech.root: netvista
 ms.assetid: 91F62BFF-C26A-422A-B138-1E8D9A5146B3
 ms.date: 05/02/2018
+keywords: ["_WWAN_DEVICE_CAPS_EX structure"]
 ms.keywords: "*PWWAN_DEVICE_CAPS_EX, PWWAN_DEVICE_CAPS_EX, PWWAN_DEVICE_CAPS_EX structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_CAPS_EX, WWAN_DEVICE_CAPS_EX structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_CAPS_EX, netvista.wwan_device_caps_ex, wwan/PWWAN_DEVICE_CAPS_EX, wwan/WWAN_DEVICE_CAPS_EX"
 f1_keywords:
  - "wwan/WWAN_DEVICE_CAPS_EX"

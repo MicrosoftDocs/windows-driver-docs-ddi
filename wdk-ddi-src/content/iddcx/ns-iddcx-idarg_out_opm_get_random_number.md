@@ -6,6 +6,7 @@ old-location: display\idarg_out_opm_get_random_number.htm
 tech.root: display
 ms.assetid: eb5efb8b-2c7b-493e-ba22-a599958b52a5
 ms.date: 05/10/2018
+keywords: ["IDARG_OUT_OPM_GET_RANDOM_NUMBER structure"]
 ms.keywords: IDARG_OUT_OPM_GET_RANDOM_NUMBER, IDARG_OUT_OPM_GET_RANDOM_NUMBER structure [Display Devices], display.idarg_out_opm_get_random_number, iddcx/IDARG_OUT_OPM_GET_RANDOM_NUMBER
 f1_keywords:
  - "iddcx/IDARG_OUT_OPM_GET_RANDOM_NUMBER"

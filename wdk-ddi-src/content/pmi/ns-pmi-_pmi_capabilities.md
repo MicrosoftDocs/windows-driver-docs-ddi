@@ -6,6 +6,7 @@ old-location: powermeter\pmi_capabilities.htm
 tech.root: powermeter
 ms.assetid: 7e564512-ff57-4bce-93c1-76e6034ec061
 ms.date: 05/08/2018
+keywords: ["_PMI_CAPABILITIES structure"]
 ms.keywords: "*PPMI_CAPABILITIES, PMI_CAPABILITIES, PMI_CAPABILITIES structure [Power Metering and Budgeting Devices], PPMI_CAPABILITIES, PPMI_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_14d27676-6523-4aca-8ce7-c6c3e8794171.xml, _PMI_CAPABILITIES, pmi/PMI_CAPABILITIES, pmi/PPMI_CAPABILITIES, powermeter.pmi_capabilities"
 f1_keywords:
  - "pmi/PMI_CAPABILITIES"

@@ -6,6 +6,7 @@ old-location: dtf\iwdtftarget2_getvaluestring.htm
 tech.root: dtf
 ms.assetid: 430de835-6301-40db-b4fe-4eabff0c9b58
 ms.date: 04/04/2018
+keywords: ["IWDTFTarget2::GetValueString"]
 ms.keywords: GetValueString, GetValueString method [Windows Device Testing Framework], GetValueString method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValueString method, IWDTFTarget2.GetValueString, IWDTFTarget2::GetValueString, Microsoft.WDTF.IWDTFTarget2.GetValueString, Microsoft::WDTF::IWDTFTarget2::GetValueString, dtf.iwdtftarget2_getvaluestring, wdtf/IWDTFTarget2::GetValueString
 f1_keywords:
  - "wdtf/IWDTFTarget2.GetValueString"

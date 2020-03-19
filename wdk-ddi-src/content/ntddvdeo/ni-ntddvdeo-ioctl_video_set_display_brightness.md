@@ -6,6 +6,7 @@ old-location: display\ioctl_video_set_display_brightness.htm
 tech.root: display
 ms.assetid: 485119b4-90f8-44dc-89d7-afb536442719
 ms.date: 05/10/2018
+keywords: ["IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS IOCTL"]
 ms.keywords: IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS, IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS control, IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS control code [Display Devices], Video_IOCTLs_3dc31eac-247b-400e-8202-c0708086326c.xml, display.ioctl_video_set_display_brightness, ntddvdeo/IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_SET_DISPLAY_BRIGHTNESS"

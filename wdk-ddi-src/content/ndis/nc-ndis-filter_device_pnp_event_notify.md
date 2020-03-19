@@ -6,6 +6,7 @@ old-location: netvista\filterdevicepnpeventnotify.htm
 tech.root: netvista
 ms.assetid: dea4ab30-ba1d-4c9c-9f00-e48cc3cc0b46
 ms.date: 05/02/2018
+keywords: ["FILTER_DEVICE_PNP_EVENT_NOTIFY callback function"]
 ms.keywords: FILTER_DEVICE_PNP_EVENT_NOTIFY, FILTER_DEVICE_PNP_EVENT_NOTIFY callback, FilterDevicePnPEventNotify, FilterDevicePnPEventNotify callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_3e688903-ea36-44b3-bd06-533f7e573478.xml, ndis/FilterDevicePnPEventNotify, netvista.filterdevicepnpeventnotify
 f1_keywords:
  - "ndis/FilterDevicePnPEventNotify"

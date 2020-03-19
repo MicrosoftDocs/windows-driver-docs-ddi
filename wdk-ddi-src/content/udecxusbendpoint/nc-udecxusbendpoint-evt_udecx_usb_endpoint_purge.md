@@ -6,6 +6,7 @@ old-location: buses\evt_udecx_usb_endpoint_purge.htm
 tech.root: usbref
 ms.assetid: FAC021F0-CF37-4A28-BE89-D6BD77B8B708
 ms.date: 05/07/2018
+keywords: ["EVT_UDECX_USB_ENDPOINT_PURGE callback function"]
 ms.keywords: EVT_UDECX_USB_ENDPOINT_PURGE, EVT_UDECX_USB_ENDPOINT_PURGE callback, EvtUsbEndpointPurge, EvtUsbEndpointPurge callback function [Buses], buses.evt_udecx_usb_endpoint_purge, udecxusbendpoint/EvtUsbEndpointPurge
 f1_keywords:
  - "udecxusbendpoint/EvtUsbEndpointPurge"

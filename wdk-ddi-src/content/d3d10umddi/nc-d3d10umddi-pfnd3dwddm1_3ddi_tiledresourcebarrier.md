@@ -5,6 +5,7 @@ description: Specifies a data access ordering constraint between multiple tiled 
 old-location: display\tiledresourcebarrier.htm
 ms.assetid: 9A2E9B3F-13E4-48D7-A3F3-E7CDCDD1E0CC
 ms.date: 05/10/2018
+keywords: ["PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER callback function"]
 ms.keywords: PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER, PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER callback, TiledResourceBarrier, TiledResourceBarrier callback function [Display Devices], d3d10umddi/TiledResourceBarrier, display.tiledresourcebarrier
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

@@ -6,6 +6,7 @@ old-location: storage\storportgetrequestcryptoinfo.htm
 tech.root: storage
 ms.assetid: B8D1E882-FBFA-4CB1-83D3-CB817F111F20
 ms.date: 03/29/2018
+keywords: ["StorPortGetRequestCryptoInfo function"]
 ms.keywords: StorPortGetRequestCryptoInfo, StorPortGetRequestCryptoInfo routine [Storage Devices], storage.storportgetrequestcryptoinfo, storport/StorPortGetRequestCryptoInfo
 f1_keywords:
  - "storport/StorPortGetRequestCryptoInfo"

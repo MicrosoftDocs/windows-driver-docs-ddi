@@ -6,6 +6,7 @@ old-location: wdf\wdfdevicegetdevicestackiotype.htm
 tech.root: wdf
 ms.assetid: E697F53C-2642-4E3F-AA8C-D0802B39D187
 ms.date: 02/26/2018
+keywords: ["WdfDeviceGetDeviceStackIoType function"]
 ms.keywords: WdfDeviceGetDeviceStackIoType, WdfDeviceGetDeviceStackIoType method, wdf.wdfdevicegetdevicestackiotype, wdfdevice/WdfDeviceGetDeviceStackIoType
 f1_keywords:
  - "wdfdevice/WdfDeviceGetDeviceStackIoType"

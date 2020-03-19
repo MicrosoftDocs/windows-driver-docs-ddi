@@ -6,6 +6,7 @@ old-location: kernel\kinterrupt_mode.htm
 tech.root: kernel
 ms.assetid: 2f00fe3f-d73d-4f0f-a1dd-ae72fa57e55d
 ms.date: 04/30/2018
+keywords: ["_KINTERRUPT_MODE enumeration"]
 ms.keywords: KINTERRUPT_MODE, KINTERRUPT_MODE enumeration [Kernel-Mode Driver Architecture], Latched, LevelSensitive, _KINTERRUPT_MODE, kernel.kinterrupt_mode, sysenum_35275927-b863-496a-8193-579f9d1d3a22.xml, wdm/KINTERRUPT_MODE, wdm/Latched, wdm/LevelSensitive
 f1_keywords:
  - "wdm/KINTERRUPT_MODE"

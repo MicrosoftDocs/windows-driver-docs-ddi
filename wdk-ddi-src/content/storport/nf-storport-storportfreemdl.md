@@ -6,6 +6,7 @@ old-location: storage\storportfreemdl.htm
 tech.root: storage
 ms.assetid: 5cbdda76-c02d-4fd4-8fa9-a783375ea292
 ms.date: 03/29/2018
+keywords: ["StorPortFreeMdl function"]
 ms.keywords: StorPortFreeMdl, StorPortFreeMdl routine [Storage Devices], storage.storportfreemdl, storport/StorPortFreeMdl, storprt_c7f2c49d-a04e-428c-8c94-4ba20526a1fe.xml
 f1_keywords:
  - "storport/StorPortFreeMdl"

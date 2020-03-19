@@ -6,6 +6,7 @@ old-location: wdf\iwdfinterrupt_getdevice.htm
 tech.root: wdf
 ms.assetid: 71C4E02F-B58A-46BA-A6A7-133D6CAF2A85
 ms.date: 02/26/2018
+keywords: ["IWDFInterrupt::GetDevice"]
 ms.keywords: GetDevice, GetDevice method, GetDevice method,IWDFInterrupt interface, IWDFInterrupt interface,GetDevice method, IWDFInterrupt.GetDevice, IWDFInterrupt::GetDevice, umdf.iwdfinterrupt_getdevice, wdf.iwdfinterrupt_getdevice, wudfddi/IWDFInterrupt::GetDevice
 f1_keywords:
  - "wudfddi/IWDFInterrupt.GetDevice"

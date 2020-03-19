@@ -4,6 +4,7 @@ title: D3D12DDI_RESOURCE_BINDING_TIER (d3d12umddi.h)
 description: The resource binding tiers.
 ms.assetid: 88746c8f-6378-4cbc-878f-ca54f661d4aa
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_RESOURCE_BINDING_TIER enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RESOURCE_BINDING_TIER"
 ms.keywords: D3D12DDI_RESOURCE_BINDING_TIER, D3D12DDI_RESOURCE_BINDING_TIER, 

@@ -3,6 +3,7 @@ UID: NA:pepevents
 title: Pepevents.h header
 ms.assetid: b704bc36-d339-3df2-861b-e176c09e32c4
 ms.date: 05/09/2018
+keywords: ["Pepevents.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

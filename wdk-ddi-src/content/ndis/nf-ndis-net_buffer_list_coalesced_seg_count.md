@@ -5,6 +5,7 @@ description: The NET_BUFFER_LIST_COALESCED_SEG_COUNT is a macro that NDIS driver
 tech.root: netvista
 ms.assetid: 14659885-72c9-4050-bfa4-cd94328c294e
 ms.date: 04/12/2018
+keywords: ["NET_BUFFER_LIST_COALESCED_SEG_COUNT macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_COALESCED_SEG_COUNT"
 ms.keywords: NET_BUFFER_LIST_COALESCED_SEG_COUNT

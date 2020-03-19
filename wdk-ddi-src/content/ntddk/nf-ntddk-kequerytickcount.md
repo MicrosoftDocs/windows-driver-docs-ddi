@@ -6,6 +6,7 @@ old-location: kernel\kequerytickcount.htm
 tech.root: kernel
 ms.assetid: 7cd0ed27-a056-4ed9-8ff4-e917b31b0dd6
 ms.date: 04/30/2018
+keywords: ["KeQueryTickCount macro"]
 ms.keywords: KeQueryTickCount, KeQueryTickCount routine [Kernel-Mode Driver Architecture], k105_a6a22896-6f3e-4e58-b443-4a06ff67b0ce.xml, kernel.kequerytickcount, wdm/KeQueryTickCount
 f1_keywords:
  - "ntddk/KeQueryTickCount"

@@ -6,6 +6,7 @@ old-location: nfpdrivers\_nfccxsetrfdiscoveryconfig.htm
 tech.root: nfpdrivers
 ms.assetid: D0190BA1-196D-4F8B-A367-80272F094B6B
 ms.date: 02/15/2018
+keywords: ["NfcCxSetRfDiscoveryConfig function"]
 ms.keywords: NfcCxSetRfDiscoveryConfig, NfcCxSetRfDiscoveryConfig method [Near-Field Proximity Drivers], nfccx/NfcCxSetRfDiscoveryConfig, nfpdrivers._nfccxsetrfdiscoveryconfig
 f1_keywords:
  - "nfccx/NfcCxSetRfDiscoveryConfig"

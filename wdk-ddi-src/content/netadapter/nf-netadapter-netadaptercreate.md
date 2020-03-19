@@ -5,6 +5,7 @@ description: Creates a NETADAPTER object.
 tech.root: netvista
 ms.assetid: cc03535e-1e57-483f-93af-950f5fc08d36
 ms.date: 01/18/2019
+keywords: ["NetAdapterCreate function"]
 f1_keywords:
  - "netadapter/NetAdapterCreate"
 ms.keywords: NetAdapterCreate

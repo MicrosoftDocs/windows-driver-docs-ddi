@@ -5,6 +5,7 @@ tech.root: usbref
 description: Intializes the **WDFDEVICE_INIT** provided by the framework.
 ms.assetid: 83e766bc-b500-44d0-bc15-270d0cb3e31d
 ms.date: 09/30/2018
+keywords: ["UcmUcsiDeviceInitInitialize function"]
 f1_keywords:
  - "ucmucsidevice/UcmUcsiDeviceInitialize"
 ms.keywords: UcmUcsiDeviceInitInitialize

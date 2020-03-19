@@ -6,6 +6,7 @@ old-location: display\dxvahdddi_blt_state_output_color_space_data.htm
 tech.root: display
 ms.assetid: 411246a5-9486-4194-9fb1-4ec0ba1dd47b
 ms.date: 05/10/2018
+keywords: ["_DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure"]
 ms.keywords: DXVA2_Structs_87da73df-e65e-4c01-8294-1201215a8d7c.xml, DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, display.dxvahdddi_blt_state_output_color_space_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA"

@@ -6,6 +6,7 @@ old-location: serports\sercxretrievereceivemdl.htm
 tech.root: serports
 ms.assetid: 7BC76F62-CA51-4C3F-BBF0-0B192EE871E6
 ms.date: 04/23/2018
+keywords: ["SerCxRetrieveReceiveMdl function"]
 ms.keywords: 1/SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl method [Serial Ports], serports.sercxretrievereceivemdl
 f1_keywords:
  - "sercx/SerCxRetrieveReceiveMdl"

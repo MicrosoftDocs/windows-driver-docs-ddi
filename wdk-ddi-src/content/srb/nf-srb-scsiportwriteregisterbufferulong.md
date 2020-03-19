@@ -6,6 +6,7 @@ old-location: storage\scsiportwriteregisterbufferulong.htm
 tech.root: storage
 ms.assetid: d77b188e-45b2-47c3-bee5-557886925d3f
 ms.date: 03/29/2018
+keywords: ["ScsiPortWriteRegisterBufferUlong function"]
 ms.keywords: ScsiPortWriteRegisterBufferUlong, ScsiPortWriteRegisterBufferUlong routine [Storage Devices], scsiprt_f6ce8fd2-0d06-4bda-9673-983af38f08e9.xml, srb/ScsiPortWriteRegisterBufferUlong, storage.scsiportwriteregisterbufferulong
 f1_keywords:
  - "srb/ScsiPortWriteRegisterBufferUlong"

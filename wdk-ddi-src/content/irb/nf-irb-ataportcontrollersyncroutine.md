@@ -6,6 +6,7 @@ old-location: storage\ataportcontrollersyncroutine.htm
 tech.root: storage
 ms.assetid: 6b39e89e-21cc-404f-b9fc-6cad0b5c8d22
 ms.date: 03/29/2018
+keywords: ["AtaPortControllerSyncRoutine function"]
 ms.keywords: AtaPortControllerSyncRoutine, AtaPortControllerSyncRoutine routine [Storage Devices], atartns_1fdbc2cb-49db-4121-aaaa-8a50c2a6cbde.xml, irb/AtaPortControllerSyncRoutine, storage.ataportcontrollersyncroutine
 f1_keywords:
  - "irb/AtaPortControllerSyncRoutine"

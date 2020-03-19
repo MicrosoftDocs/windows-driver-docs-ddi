@@ -6,6 +6,7 @@ old-location: display\iddcxswapchainsetdevice.htm
 tech.root: display
 ms.assetid: f1e96d8a-910e-4808-b9a3-e8c530158872
 ms.date: 05/10/2018
+keywords: ["IddCxSwapChainSetDevice function"]
 ms.keywords: IddCxSwapChainSetDevice, IddCxSwapChainSetDevice method [Display Devices], display.iddcxswapchainsetdevice, iddcx/IddCxSwapChainSetDevice
 f1_keywords:
  - "iddcx/IddCxSwapChainSetDevice"

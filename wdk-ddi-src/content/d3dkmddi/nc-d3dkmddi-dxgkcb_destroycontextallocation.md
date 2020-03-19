@@ -5,6 +5,7 @@ description: Called by a WDDM 1.2 or later display miniport driver to free a res
 old-location: display\dxgkcbdestroycontextallocation.htm
 ms.assetid: f613e019-0b6d-43fc-a802-a6cd3803a00d
 ms.date: 05/10/2018
+keywords: ["DXGKCB_DESTROYCONTEXTALLOCATION callback function"]
 ms.keywords: DXGKCB_DESTROYCONTEXTALLOCATION, DXGKCB_DESTROYCONTEXTALLOCATION callback, DxgkCbDestroyContextAllocation, DxgkCbDestroyContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbDestroyContextAllocation, display.dxgkcbdestroycontextallocation
 f1_keywords:
  - "d3dkmddi/DxgkCbDestroyContextAllocation"

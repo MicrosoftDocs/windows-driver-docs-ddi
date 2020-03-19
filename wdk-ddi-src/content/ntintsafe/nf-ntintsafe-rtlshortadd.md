@@ -6,6 +6,7 @@ old-location: kernel\rtlshortadd.htm
 tech.root: kernel
 ms.assetid: 6CCBDECB-D52A-409D-91CA-6635E6D02545
 ms.date: 04/30/2018
+keywords: ["RtlShortAdd function"]
 ms.keywords: RtlShortAdd, RtlShortAdd function [Kernel-Mode Driver Architecture], kernel.rtlshortadd, ntintsafe/RtlShortAdd
 f1_keywords:
  - "ntintsafe/RtlShortAdd"

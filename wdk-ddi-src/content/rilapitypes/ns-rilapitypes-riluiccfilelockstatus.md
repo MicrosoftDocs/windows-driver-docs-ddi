@@ -6,6 +6,7 @@ old-location: netvista\riluiccfilelockstatus_2.htm
 tech.root: netvista
 ms.assetid: a06cba0a-9ab6-4125-a506-5cc1d0c1055c
 ms.date: 02/26/2018
+keywords: ["RILUICCFILELOCKSTATUS structure"]
 ms.keywords: "*LPRILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccfilelockstatus_2, rilapitypes/RILUICCFILELOCKSTATUS"
 f1_keywords:
  - "rilapitypes/RILUICCFILELOCKSTATUS"

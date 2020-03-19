@@ -6,6 +6,7 @@ old-location: kernel\zwcreatekeytransacted.htm
 tech.root: kernel
 ms.assetid: c0cf38f4-2820-4177-93e6-2e20524d0353
 ms.date: 04/30/2018
+keywords: ["ZwCreateKeyTransacted function"]
 ms.keywords: ZwCreateKeyTransacted, ZwCreateKeyTransacted routine [Kernel-Mode Driver Architecture], k111_7063495c-2357-4c51-b708-f72ed52bc166.xml, kernel.zwcreatekeytransacted, wdm/ZwCreateKeyTransacted
 f1_keywords:
  - "wdm/ZwCreateKeyTransacted"

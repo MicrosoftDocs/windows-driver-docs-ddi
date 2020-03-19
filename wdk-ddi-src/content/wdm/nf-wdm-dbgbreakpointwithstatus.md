@@ -6,6 +6,7 @@ old-location: devtest\dbgbreakpointwithstatus.htm
 tech.root: devtest
 ms.assetid: d508c9de-5fae-47c1-88fa-df9048662419
 ms.date: 02/23/2018
+keywords: ["DbgBreakPointWithStatus function"]
 ms.keywords: DbgBreakPointWithStatus, DbgBreakPointWithStatus routine [Driver Development Tools], DebugFns_d958e007-b135-46b0-a407-1843da2e61c0.xml, devtest.dbgbreakpointwithstatus, ntddk/DbgBreakPointWithStatus
 f1_keywords:
  - "wdm/DbgBreakPointWithStatus"

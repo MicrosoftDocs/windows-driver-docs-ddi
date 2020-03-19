@@ -4,6 +4,7 @@ title: ClfsCreateMarshallingAreaEx function (wdm.h)
 description: Initalizes a marshalling area for a physical or client log file stream.
 ms.assetid: 00a9624d-0cc9-4429-8050-74934176bbdd
 ms.date: 10/19/2018
+keywords: ["ClfsCreateMarshallingAreaEx function"]
 f1_keywords:
  - "wdm/ClfsCreateMarshallingAreaEx"
 ms.keywords: ClfsCreateMarshallingAreaEx

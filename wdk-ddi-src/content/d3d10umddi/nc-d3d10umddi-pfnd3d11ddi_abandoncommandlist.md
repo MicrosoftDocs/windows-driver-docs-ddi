@@ -5,6 +5,7 @@ description: The AbandonCommandList function abandons the command list.
 old-location: display\abandoncommandlist.htm
 ms.assetid: fc8347da-25ac-47ea-b482-61b7873ca5bc
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_ABANDONCOMMANDLIST callback function"]
 ms.keywords: AbandonCommandList, AbandonCommandList callback function [Display Devices], PFND3D11DDI_ABANDONCOMMANDLIST, PFND3D11DDI_ABANDONCOMMANDLIST callback, UserModeDisplayDriverDx11_Functions_1f9b5b27-499e-41a0-adf3-7b1c2f0021c7.xml, d3d10umddi/AbandonCommandList, display.abandoncommandlist
 f1_keywords:
  - "d3d10umddi/AbandonCommandList"

@@ -6,6 +6,7 @@ old-location: audio\pcgettimeinterval.htm
 tech.root: audio
 ms.assetid: 22afd9b9-9bed-45b0-afd8-1a5a34b9e6ad
 ms.date: 05/08/2018
+keywords: ["PcGetTimeInterval function"]
 ms.keywords: PcGetTimeInterval, PcGetTimeInterval function [Audio Devices], audio.pcgettimeinterval, audpc-routines_a68c0cf5-01b7-4e01-a719-f0bdea2d367f.xml, portcls/PcGetTimeInterval
 f1_keywords:
  - "portcls/PcGetTimeInterval"

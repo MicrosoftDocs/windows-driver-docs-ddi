@@ -5,6 +5,7 @@ tech.root: usbref
 description: Initializes a UCMUCSI_PPM_CONFIG structure.
 ms.assetid: 3e8ee8c9-22e6-42dd-9299-b33f1d9b68f9
 ms.date: 09/30/2018
+keywords: ["UCMUCSI_PPM_CONFIG_INIT function"]
 f1_keywords:
  - "ucmucsippm/UCMUCSI_PPM_CONFIG_INIT"
 ms.keywords: UCMUCSI_PPM_CONFIG_INIT

@@ -6,6 +6,7 @@ old-location: display\encryptionblt.htm
 tech.root: display
 ms.assetid: a92bfff7-8af6-48c3-9e7f-95b9426aaaf2
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_ENCRYPTIONBLT callback function"]
 ms.keywords: EncryptionBlt, EncryptionBlt callback function [Display Devices], PFND3DDDI_ENCRYPTIONBLT, PFND3DDDI_ENCRYPTIONBLT callback, UserModeDisplayDriver_Functions_49cc68db-1210-44e5-80f1-347210dc6cf3.xml, d3dumddi/EncryptionBlt, display.encryptionblt
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

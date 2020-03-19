@@ -6,6 +6,7 @@ old-location: display\emulator_access_entry.htm
 tech.root: display
 ms.assetid: 966922b6-fa83-491e-bf03-848f798ebc69
 ms.date: 05/10/2018
+keywords: ["_EMULATOR_ACCESS_ENTRY structure"]
 ms.keywords: "*PEMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY structure [Display Devices], PEMULATOR_ACCESS_ENTRY, PEMULATOR_ACCESS_ENTRY structure pointer [Display Devices], Video_Structs_8a00f589-ff5c-489b-b49b-abdcf9f42cf2.xml, _EMULATOR_ACCESS_ENTRY, display.emulator_access_entry, dispmprt/EMULATOR_ACCESS_ENTRY, dispmprt/PEMULATOR_ACCESS_ENTRY"
 f1_keywords:
  - "dispmprt/EMULATOR_ACCESS_ENTRY"

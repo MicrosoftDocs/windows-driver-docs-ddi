@@ -6,6 +6,7 @@ old-location: netvista\dot11extihvperformpostassociate.htm
 tech.root: netvista
 ms.assetid: a6e9af7d-4c33-4dea-92fe-e2cd8eed6697
 ms.date: 02/16/2018
+keywords: ["DOT11EXTIHV_PERFORM_POST_ASSOCIATE callback"]
 ms.keywords: DOT11EXTIHV_PERFORM_POST_ASSOCIATE, Dot11ExtIhvPerformPostAssociate, Dot11ExtIhvPerformPostAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_ecc5c19e-9fde-48a4-b3a7-6a1f94a20765.xml, netvista.dot11extihvperformpostassociate, wlanihv/Dot11ExtIhvPerformPostAssociate
 f1_keywords:
  - "wlanihv/Dot11ExtIhvPerformPostAssociate"

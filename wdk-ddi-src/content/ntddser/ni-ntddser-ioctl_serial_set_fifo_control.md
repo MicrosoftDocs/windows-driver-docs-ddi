@@ -6,6 +6,7 @@ old-location: serports\ioctl_serial_set_fifo_control.htm
 tech.root: serports
 ms.assetid: b41a13a6-4573-495f-8dfd-9405917d8e66
 ms.date: 04/23/2018
+keywords: ["IOCTL_SERIAL_SET_FIFO_CONTROL IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_FIFO_CONTROL, IOCTL_SERIAL_SET_FIFO_CONTROL control, IOCTL_SERIAL_SET_FIFO_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_FIFO_CONTROL, serports.ioctl_serial_set_fifo_control, serref_5e21a668-7fca-4d1e-baf2-3356ba2087d9.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_FIFO_CONTROL"

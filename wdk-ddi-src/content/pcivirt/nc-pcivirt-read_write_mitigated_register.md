@@ -6,6 +6,7 @@ old-location: pci\read_write_mitigated_registers.htm
 tech.root: PCI
 ms.assetid: 7cd45484-0fee-4b8e-aa35-4142883c146e
 ms.date: 02/24/2018
+keywords: ["READ_WRITE_MITIGATED_REGISTER callback"]
 ms.keywords: "*PREAD_WRITE_MITIGATED_REGISTER, *PREAD_WRITE_MITIGATED_REGISTER callback function pointer [Buses], PCI.read_write_mitigated_registers, READ_WRITE_MITIGATED_REGISTER, ReadWriteMitigatedRegister, ReadWriteMitigatedRegister callback function [Buses], pcivirt/ReadWriteMitigatedRegister"
 f1_keywords:
  - "pcivirt/*PREAD_WRITE_MITIGATED_REGISTER"

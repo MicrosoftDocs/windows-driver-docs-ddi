@@ -6,6 +6,7 @@ old-location: netvista\wwan_auth_challenge.htm
 tech.root: netvista
 ms.assetid: A31B9E91-B5F9-4EF3-AD9E-A5E26CBD4B35
 ms.date: 05/02/2018
+keywords: ["_WWAN_AUTH_CHALLENGE structure"]
 ms.keywords: "*PWWAN_AUTH_CHALLENGE, PWWAN_AUTH_CHALLENGE, PWWAN_AUTH_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_CHALLENGE, WWAN_AUTH_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_CHALLENGE, netvista.wwan_auth_challenge, wwan/PWWAN_AUTH_CHALLENGE, wwan/WWAN_AUTH_CHALLENGE"
 f1_keywords:
  - "wwan/WWAN_AUTH_CHALLENGE"

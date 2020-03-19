@@ -6,6 +6,7 @@ old-location: print\publisherinfo.htm
 tech.root: print
 ms.assetid: 6749b2e8-a9db-48a3-96e1-8592bcfa580d
 ms.date: 04/20/2018
+keywords: ["_PUBLISHERINFO structure"]
 ms.keywords: "*PPUBLISHERINFO, PPUBLISHERINFO, PPUBLISHERINFO structure pointer [Print Devices], PUBLISHERINFO, PUBLISHERINFO structure [Print Devices], _PUBLISHERINFO, print.publisherinfo, print_unidrv-pscript_rendering_dbd3e74a-00bd-4c21-80e5-80b788f83bb2.xml, printoem/PPUBLISHERINFO, printoem/PUBLISHERINFO"
 f1_keywords:
  - "printoem/PUBLISHERINFO"

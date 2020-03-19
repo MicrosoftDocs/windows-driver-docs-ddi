@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 417d0da7-26f1-4a81-a9ea-0413facffa1d
 ms.author: windowsdriverdev
 ms.date: 10/11/2019
+keywords: ["NetDeviceInitSetPowerPolicyEventCallbacks function"]
 f1_keywords:
  - "netdevice/NetDeviceInitSetPowerPolicyEventCallbacks"
 ms.keywords: NetDeviceInitSetPowerPolicyEventCallbacks

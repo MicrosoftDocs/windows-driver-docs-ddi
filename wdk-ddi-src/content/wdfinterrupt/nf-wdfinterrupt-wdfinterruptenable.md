@@ -6,6 +6,7 @@ old-location: wdf\wdfinterruptenable.htm
 tech.root: wdf
 ms.assetid: e2ffab7f-b6bf-4707-9a3d-9619330b2af1
 ms.date: 02/26/2018
+keywords: ["WdfInterruptEnable function"]
 ms.keywords: DFInterruptObjectRef_4fa737c9-fae4-4d3c-9a27-165f5348c66c.xml, WdfInterruptEnable, WdfInterruptEnable method, kmdf.wdfinterruptenable, wdf.wdfinterruptenable, wdfinterrupt/WdfInterruptEnable
 f1_keywords:
  - "wdfinterrupt/WdfInterruptEnable"

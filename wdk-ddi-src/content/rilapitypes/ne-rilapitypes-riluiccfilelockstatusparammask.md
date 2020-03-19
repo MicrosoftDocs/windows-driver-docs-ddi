@@ -6,6 +6,7 @@ old-location: netvista\riluiccfilelockstatusparammask_2.htm
 tech.root: netvista
 ms.assetid: 238bf0cc-c9ad-4a1a-aa91-b746b0fc5d9b
 ms.date: 02/26/2018
+keywords: ["RILUICCFILELOCKSTATUSPARAMMASK enumeration"]
 ms.keywords: RILUICCFILELOCKSTATUSPARAMMASK, RILUICCFILELOCKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UFLS_ALL, RIL_PARAM_UFLS_PINREFERENCE, netvista.riluiccfilelockstatusparammask_2, rilapitypes/RILUICCFILELOCKSTATUSPARAMMASK, rilapitypes/RIL_PARAM_UFLS_ALL, rilapitypes/RIL_PARAM_UFLS_PINREFERENCE
 f1_keywords:
  - "rilapitypes/RILUICCFILELOCKSTATUSPARAMMASK"

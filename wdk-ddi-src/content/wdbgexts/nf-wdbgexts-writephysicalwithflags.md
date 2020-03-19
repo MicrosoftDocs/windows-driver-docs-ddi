@@ -6,6 +6,7 @@ old-location: debugger\writephysicalwithflags.htm
 tech.root: debugger
 ms.assetid: ae679f76-2e26-43f2-a097-1e158fbc0cc7
 ms.date: 05/03/2018
+keywords: ["WritePhysicalWithFlags function"]
 ms.keywords: WdbgExts_Ref_7ef1e63e-87e2-4bf3-a432-78639684a18c.xml, WritePhysicalWithFlags, WritePhysicalWithFlags function [Windows Debugging], debugger.writephysicalwithflags, wdbgexts/WritePhysicalWithFlags
 f1_keywords:
  - "wdbgexts/WritePhysicalWithFlags"

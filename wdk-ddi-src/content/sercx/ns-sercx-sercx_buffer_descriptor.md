@@ -6,6 +6,7 @@ old-location: serports\sercx_buffer_descriptor.htm
 tech.root: serports
 ms.assetid: 0F13A5B2-CD35-4127-B2E3-F4027D098CB2
 ms.date: 04/23/2018
+keywords: ["SERCX_BUFFER_DESCRIPTOR structure"]
 ms.keywords: "*PSERCX_BUFFER_DESCRIPTOR, 1/PSERCX_BUFFER_DESCRIPTOR, 1/SERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR structure pointer [Serial Ports], SERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR structure [Serial Ports], serports.sercx_buffer_descriptor"
 f1_keywords:
  - "sercx/SERCX_BUFFER_DESCRIPTOR"

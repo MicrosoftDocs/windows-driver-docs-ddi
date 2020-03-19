@@ -5,6 +5,7 @@ description: The pfnAcquireMonitorSourceModeSet function returns a handle to the
 old-location: display\dxgk_monitor_interface_pfnacquiremonitorsourcemodeset.htm
 ms.assetid: a64197c0-a61f-4989-9b68-4e06b1a69fd4
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET callback function"]
 ms.keywords: DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET, DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET callback, VidPnFunctions_b540037c-9f98-4160-aeb3-ded9723e09fa.xml, d3dkmddi/pfnAcquireMonitorSourceModeSet, display.dxgk_monitor_interface_pfnacquiremonitorsourcemodeset, pfnAcquireMonitorSourceModeSet, pfnAcquireMonitorSourceModeSet callback function [Display Devices]
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

@@ -5,6 +5,7 @@ description: D3DKMTSignalSynchronizationObjectFromGpu2 is used to signal a monit
 old-location: display\d3dkmtsignalsynchronizationobjectfromgpu2.htm
 ms.assetid: 813193DC-8066-4B98-BC24-7688630AAC1C
 ms.date: 05/10/2018
+keywords: ["D3DKMTSignalSynchronizationObjectFromGpu2 function"]
 ms.keywords: D3DKMTSignalSynchronizationObjectFromGpu2, D3DKMTSignalSynchronizationObjectFromGpu2 function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromGpu2, display.d3dkmtsignalsynchronizationobjectfromgpu2
 f1_keywords:
  - "d3dkmthk/D3DKMTSignalSynchronizationObjectFromGpu2"

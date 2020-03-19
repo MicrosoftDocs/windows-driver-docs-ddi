@@ -6,6 +6,7 @@ old-location: buses\usbd_isusbdinterfaceversionsupported.htm
 tech.root: usbref
 ms.assetid: AEA5B6AA-8EEA-4D82-9991-1DE32BAE7DCE
 ms.date: 05/07/2018
+keywords: ["USBD_IsInterfaceVersionSupported function"]
 ms.keywords: USBD_IsInterfaceVersionSupported, USBD_IsInterfaceVersionSupported routine [Buses], buses.usbd_isusbdinterfaceversionsupported, usbdlib/USBD_IsInterfaceVersionSupported
 f1_keywords:
  - "usbdlib/USBD_IsInterfaceVersionSupported"

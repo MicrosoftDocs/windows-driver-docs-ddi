@@ -6,6 +6,7 @@ old-location: debugger\outputpromptwide.htm
 tech.root: debugger
 ms.assetid: c9b2eecf-fa9d-442e-9875-d068add25289
 ms.date: 05/03/2018
+keywords: ["IDebugControl4::OutputPromptWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],OutputPromptWide method, IDebugControl4.OutputPromptWide, IDebugControl4::OutputPromptWide, OutputPromptWide, OutputPromptWide method [Windows Debugging], OutputPromptWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OutputPromptWide, debugger.outputpromptwide
 f1_keywords:
  - "dbgeng/IDebugControl4.OutputPromptWide"

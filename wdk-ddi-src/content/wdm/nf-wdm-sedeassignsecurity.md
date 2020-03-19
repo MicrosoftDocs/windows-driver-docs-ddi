@@ -6,6 +6,7 @@ old-location: kernel\sedeassignsecurity.htm
 tech.root: kernel
 ms.assetid: c7060b86-8ff6-4229-94e0-7965ae59aa90
 ms.date: 04/30/2018
+keywords: ["SeDeassignSecurity function"]
 ms.keywords: SeDeassignSecurity, SeDeassignSecurity routine [Kernel-Mode Driver Architecture], k110_9c1ca048-addd-4343-bfee-34e905b143b3.xml, kernel.sedeassignsecurity, wdm/SeDeassignSecurity
 f1_keywords:
  - "wdm/SeDeassignSecurity"

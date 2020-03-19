@@ -4,6 +4,7 @@ title: IDataModelScriptProviderEnumerator::GetNext (dbgmodel.h)
 description: Gets the next script provider which is being enumerated and moves the enumerator to the next position. 
 ms.assetid: d405006e-12bd-4540-be64-48e98a8651c1
 ms.date: 10/05/2018
+keywords: ["IDataModelScriptProviderEnumerator::GetNext"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptProviderEnumerator.GetNext"
 ms.keywords: IDataModelScriptProviderEnumerator::GetNext, GetNext, IDataModelScriptProviderEnumerator.GetNext, IDataModelScriptProviderEnumerator::GetNext, IDataModelScriptProviderEnumerator.GetNext

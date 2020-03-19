@@ -6,6 +6,7 @@ old-location: storage\mountmgr_drive_letter_target.htm
 tech.root: storage
 ms.assetid: 3bbfd3f8-9530-4c9f-99e3-a1fcbb956b51
 ms.date: 03/29/2018
+keywords: ["_MOUNTMGR_DRIVE_LETTER_TARGET structure"]
 ms.keywords: "*PMOUNTMGR_DRIVE_LETTER_TARGET, MOUNTMGR_DRIVE_LETTER_TARGET, MOUNTMGR_DRIVE_LETTER_TARGET structure [Storage Devices], PMOUNTMGR_DRIVE_LETTER_TARGET, PMOUNTMGR_DRIVE_LETTER_TARGET structure pointer [Storage Devices], _MOUNTMGR_DRIVE_LETTER_TARGET, mountmgr/MOUNTMGR_DRIVE_LETTER_TARGET, mountmgr/PMOUNTMGR_DRIVE_LETTER_TARGET, storage.mountmgr_drive_letter_target, structs-mntmgr_66751bbf-3c3a-407d-9faf-1ef190c9c7a2.xml"
 f1_keywords:
  - "mountmgr/MOUNTMGR_DRIVE_LETTER_TARGET"

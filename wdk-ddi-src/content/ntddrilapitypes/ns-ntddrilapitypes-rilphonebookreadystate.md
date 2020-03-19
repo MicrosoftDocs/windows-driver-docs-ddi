@@ -6,6 +6,7 @@ old-location: netvista\rilphonebookreadystate.htm
 tech.root: netvista
 ms.assetid: cd71234b-4b46-4b7b-953b-32e6f014af03
 ms.date: 05/02/2018
+keywords: ["RILPHONEBOOKREADYSTATE structure"]
 ms.keywords: "*LPRILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookreadystate, ntddrilapitypes/RILPHONEBOOKREADYSTATE"
 f1_keywords:
  - "ntddrilapitypes/RILPHONEBOOKREADYSTATE"

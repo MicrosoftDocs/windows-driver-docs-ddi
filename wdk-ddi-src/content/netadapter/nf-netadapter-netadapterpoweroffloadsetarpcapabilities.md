@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 213f7654-fb2a-4160-b1db-3d36d8e119f2
 ms.author: windowsdriverdev
 ms.date: 10/22/2019
+keywords: ["NetAdapterPowerOffloadSetArpCapabilities function"]
 f1_keywords:
  - "netadapter/NetAdapterPowerOffloadSetArpCapabilities"
 ms.keywords: NetAdapterPowerOffloadSetArpCapabilities

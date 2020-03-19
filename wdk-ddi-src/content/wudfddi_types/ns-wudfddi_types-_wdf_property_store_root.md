@@ -6,6 +6,7 @@ old-location: wdf\wdf_property_store_root.htm
 tech.root: wdf
 ms.assetid: 431ae991-35e0-4cf7-a3e0-57591abfe5c5
 ms.date: 02/26/2018
+keywords: ["_WDF_PROPERTY_STORE_ROOT structure"]
 ms.keywords: "*PWDF_PROPERTY_STORE_ROOT, PWDF_PROPERTY_STORE_ROOT, PWDF_PROPERTY_STORE_ROOT structure pointer, WDF_PROPERTY_STORE_ROOT, WDF_PROPERTY_STORE_ROOT structure, _WDF_PROPERTY_STORE_ROOT, umdf.wdf_property_store_root, umdfstructs_7024c360-9ab7-4eea-ba66-c45c5912dfaa.xml, wdf.wdf_property_store_root, wudfddi_types/PWDF_PROPERTY_STORE_ROOT, wudfddi_types/WDF_PROPERTY_STORE_ROOT"
 f1_keywords:
  - "wudfddi_types/WDF_PROPERTY_STORE_ROOT"

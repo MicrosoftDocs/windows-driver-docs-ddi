@@ -6,6 +6,7 @@ old-location: debugger\setcodelevel.htm
 tech.root: debugger
 ms.assetid: b2f318d2-9ee2-4b4b-86ff-4561f1bbe084
 ms.date: 05/03/2018
+keywords: ["IDebugControl::SetCodeLevel"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetCodeLevel method, IDebugControl.SetCodeLevel, IDebugControl2 interface [Windows Debugging],SetCodeLevel method, IDebugControl2::SetCodeLevel, IDebugControl3 interface [Windows Debugging],SetCodeLevel method, IDebugControl3::SetCodeLevel, IDebugControl::SetCodeLevel, IDebugControl_40aa5eed-ef3f-4ec4-84eb-0cfec638bc4a.xml, SetCodeLevel, SetCodeLevel method [Windows Debugging], SetCodeLevel method [Windows Debugging],IDebugControl interface, SetCodeLevel method [Windows Debugging],IDebugControl2 interface, SetCodeLevel method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetCodeLevel, dbgeng/IDebugControl3::SetCodeLevel, dbgeng/IDebugControl::SetCodeLevel, debugger.setcodelevel
 f1_keywords:
  - "dbgeng/IDebugControl.SetCodeLevel"
