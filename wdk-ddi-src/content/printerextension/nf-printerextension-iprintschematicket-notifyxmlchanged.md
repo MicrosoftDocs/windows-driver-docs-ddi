@@ -6,6 +6,7 @@ old-location: print\iprintschematicket_notifyxmlchanged.htm
 tech.root: print
 ms.assetid: B9A0C9EC-6C37-4C42-A10A-8CEE028C5998
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaTicket::NotifyXmlChanged"]
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],NotifyXmlChanged method, IPrintSchemaTicket.NotifyXmlChanged, IPrintSchemaTicket::NotifyXmlChanged, NotifyXmlChanged, NotifyXmlChanged method [Print Devices], NotifyXmlChanged method [Print Devices],IPrintSchemaTicket interface, print.iprintschematicket_notifyxmlchanged, printerextension/IPrintSchemaTicket::NotifyXmlChanged
 f1_keywords:
  - "printerextension/IPrintSchemaTicket.NotifyXmlChanged"

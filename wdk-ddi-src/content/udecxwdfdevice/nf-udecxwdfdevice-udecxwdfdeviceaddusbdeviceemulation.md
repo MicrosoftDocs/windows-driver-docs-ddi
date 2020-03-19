@@ -6,6 +6,7 @@ old-location: buses\udecxwdfdeviceaddusbdeviceemulation.htm
 tech.root: usbref
 ms.assetid: EE7644A9-AA57-4C53-9FA5-F844F2BFB0D7
 ms.date: 05/07/2018
+keywords: ["UdecxWdfDeviceAddUsbDeviceEmulation function"]
 ms.keywords: UdecxWdfDeviceAddUsbDeviceEmulation, UdecxWdfDeviceAddUsbDeviceEmulation function [Buses], buses.udecxwdfdeviceaddusbdeviceemulation, udecxwdfdevice/UdecxWdfDeviceAddUsbDeviceEmulation
 f1_keywords:
  - "udecxwdfdevice/UdecxWdfDeviceAddUsbDeviceEmulation"

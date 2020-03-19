@@ -6,6 +6,7 @@ old-location: image\cwiauformatconverter_cwiauformatconverter.htm
 tech.root: image
 ms.assetid: 0a575614-38a7-484c-909c-2e762dc7cbb4
 ms.date: 05/03/2018
+keywords: ["CWiauFormatConverter::CWiauFormatConverter"]
 ms.keywords: CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices],CWiauFormatConverter method, CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter method [Imaging Devices],CWiauFormatConverter interface, CWiauFormatConverter.CWiauFormatConverter, CWiauFormatConverter::CWiauFormatConverter, image.cwiauformatconverter_cwiauformatconverter, wiauFncs_6da3d902-58a2-4507-b565-8dcb0a85cbd7.xml, wiautil/CWiauFormatConverter::CWiauFormatConverter
 f1_keywords:
  - "wiautil/CWiauFormatConverter.CWiauFormatConverter"

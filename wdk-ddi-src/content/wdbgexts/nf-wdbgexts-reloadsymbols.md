@@ -6,6 +6,7 @@ old-location: debugger\reloadsymbols.htm
 tech.root: debugger
 ms.assetid: 5778f57c-52dd-43f4-b0f7-d07e0c40512b
 ms.date: 05/03/2018
+keywords: ["ReloadSymbols function"]
 ms.keywords: ReloadSymbols, ReloadSymbols function [Windows Debugging], WdbgExts_Ref_c48c63b8-6c59-42f7-8a44-78462cbf653f.xml, debugger.reloadsymbols, wdbgexts/ReloadSymbols
 f1_keywords:
  - "wdbgexts/ReloadSymbols"

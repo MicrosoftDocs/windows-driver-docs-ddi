@@ -6,6 +6,7 @@ old-location: stream\ksdispatchspecificproperty.htm
 tech.root: stream
 ms.assetid: 3ea9a473-606d-4021-89af-5f895020d054
 ms.date: 04/23/2018
+keywords: ["KsDispatchSpecificProperty function"]
 ms.keywords: KsDispatchSpecificProperty, KsDispatchSpecificProperty function [Streaming Media Devices], ks/KsDispatchSpecificProperty, ksfunc_b12751b9-b486-4b57-809b-1f3daa8a1c30.xml, stream.ksdispatchspecificproperty
 f1_keywords:
  - "ks/KsDispatchSpecificProperty"

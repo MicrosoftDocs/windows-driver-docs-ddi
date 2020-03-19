@@ -6,6 +6,7 @@ old-location: netvista\protocolcmmakecall.htm
 tech.root: netvista
 ms.assetid: ede0a18a-cd3b-4fbb-a16b-e7493940d633
 ms.date: 05/02/2018
+keywords: ["PROTOCOL_CM_MAKE_CALL callback function"]
 ms.keywords: PROTOCOL_CM_MAKE_CALL, PROTOCOL_CM_MAKE_CALL callback, ProtocolCmMakeCall, ProtocolCmMakeCall callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_4f72c0f7-470b-496c-adbb-ea465246fb48.xml, ndis/ProtocolCmMakeCall, netvista.protocolcmmakecall
 f1_keywords:
  - "ndis/ProtocolCmMakeCall"

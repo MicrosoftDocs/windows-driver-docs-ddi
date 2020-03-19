@@ -6,6 +6,7 @@ old-location: whea\clearerrorrecord.htm
 tech.root: whea
 ms.assetid: e9893f9c-7fbd-4a02-8c2d-d7c480ed5198
 ms.date: 02/20/2018
+keywords: ["PSHED_PI_CLEAR_ERROR_RECORD callback function"]
 ms.keywords: ClearErrorRecord, ClearErrorRecord callback function [WHEA Drivers and Applications], PSHED_PI_CLEAR_ERROR_RECORD, PSHED_PI_CLEAR_ERROR_RECORD callback, ntddk/ClearErrorRecord, whea.clearerrorrecord, whearef_1644b60c-c232-4cca-805b-d6a061425f61.xml
 f1_keywords:
  - "ntddk/ClearErrorRecord"

@@ -6,6 +6,7 @@ old-location: wdf\wdf_dpc_config_init.htm
 tech.root: wdf
 ms.assetid: 12b34b79-0154-4b25-83e7-b15642154b05
 ms.date: 02/26/2018
+keywords: ["WDF_DPC_CONFIG_INIT function"]
 ms.keywords: DFDpcObjectRef_ba15c593-3f2a-4e7f-9a58-a550ca47ccc1.xml, WDF_DPC_CONFIG_INIT, WDF_DPC_CONFIG_INIT function, kmdf.wdf_dpc_config_init, wdf.wdf_dpc_config_init, wdfdpc/WDF_DPC_CONFIG_INIT
 f1_keywords:
  - "wdfdpc/WDF_DPC_CONFIG_INIT"

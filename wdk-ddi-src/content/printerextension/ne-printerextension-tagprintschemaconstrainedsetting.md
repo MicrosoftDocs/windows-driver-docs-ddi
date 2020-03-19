@@ -6,6 +6,7 @@ old-location: print\printschemaconstrainedsetting.htm
 tech.root: print
 ms.assetid: 637A210F-9FD7-49BD-AF71-8A77E07D5C20
 ms.date: 04/20/2018
+keywords: ["tagPrintSchemaConstrainedSetting enumeration"]
 ms.keywords: PrintSchemaConstrainedSetting, PrintSchemaConstrainedSetting enumeration [Print Devices], PrintSchemaConstrainedSetting_Admin, PrintSchemaConstrainedSetting_Device, PrintSchemaConstrainedSetting_None, PrintSchemaConstrainedSetting_PrintTicket, print.printschemaconstrainedsetting, printerextension/PrintSchemaConstrainedSetting, printerextension/PrintSchemaConstrainedSetting_Admin, printerextension/PrintSchemaConstrainedSetting_Device, printerextension/PrintSchemaConstrainedSetting_None, printerextension/PrintSchemaConstrainedSetting_PrintTicket, tagPrintSchemaConstrainedSetting
 f1_keywords:
  - "printerextension/PrintSchemaConstrainedSetting"

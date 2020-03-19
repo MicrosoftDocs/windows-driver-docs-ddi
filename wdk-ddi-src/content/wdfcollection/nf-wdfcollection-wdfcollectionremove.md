@@ -6,6 +6,7 @@ old-location: wdf\wdfcollectionremove.htm
 tech.root: wdf
 ms.assetid: 3a708949-3d4e-49b2-bef2-7151aec2b84b
 ms.date: 02/26/2018
+keywords: ["WdfCollectionRemove function"]
 ms.keywords: DFCollectionObjectRef_ec848e8e-f64b-4f17-997a-0d9b6c509eb0.xml, WdfCollectionRemove, WdfCollectionRemove method, kmdf.wdfcollectionremove, wdf.wdfcollectionremove, wdfcollection/WdfCollectionRemove
 f1_keywords:
  - "wdfcollection/WdfCollectionRemove"

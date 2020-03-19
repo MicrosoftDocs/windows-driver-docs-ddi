@@ -6,6 +6,7 @@ old-location: netvista\ndis_wwan_enumerate_device_service_commands.htm
 tech.root: netvista
 ms.assetid: 9D30F8BE-C376-48FD-A76C-6069F332BC11
 ms.date: 05/02/2018
+keywords: ["_NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure"]
 ms.keywords: "*PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, ndiswwan/NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, ndiswwan/PNDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS, netvista.ndis_wwan_enumerate_device_service_commands"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_ENUMERATE_DEVICE_SERVICE_COMMANDS"

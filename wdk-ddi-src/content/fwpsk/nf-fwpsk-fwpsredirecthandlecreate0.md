@@ -6,6 +6,7 @@ old-location: netvista\fwpsredirecthandlecreate0.htm
 tech.root: netvista
 ms.assetid: 841f3885-509a-457e-854d-e8ead657de54
 ms.date: 05/02/2018
+keywords: ["FwpsRedirectHandleCreate0 function"]
 ms.keywords: FwpsRedirectHandleCreate0, FwpsRedirectHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleCreate0, netvista.fwpsredirecthandlecreate0
 f1_keywords:
  - "fwpsk/FwpsRedirectHandleCreate0"

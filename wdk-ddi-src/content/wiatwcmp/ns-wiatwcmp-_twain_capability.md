@@ -6,6 +6,7 @@ old-location: image\twain_capability.htm
 tech.root: image
 ms.assetid: 79a2155d-eb06-4095-9fe6-b95d93e46211
 ms.date: 05/03/2018
+keywords: ["_TWAIN_CAPABILITY structure"]
 ms.keywords: "*PTWAIN_CAPABILITY, PTWAIN_CAPABILITY, PTWAIN_CAPABILITY structure pointer [Imaging Devices], TWAIN_CAPABILITY, TWAIN_CAPABILITY structure [Imaging Devices], _TWAIN_CAPABILITY, image.twain_capability, wiastrct_12204cb8-d0ad-46d5-a741-4522ba28006b.xml, wiatwcmp/PTWAIN_CAPABILITY, wiatwcmp/TWAIN_CAPABILITY"
 f1_keywords:
  - "wiatwcmp/TWAIN_CAPABILITY"

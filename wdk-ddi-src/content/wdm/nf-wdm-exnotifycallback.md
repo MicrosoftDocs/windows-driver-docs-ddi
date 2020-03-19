@@ -6,6 +6,7 @@ old-location: kernel\exnotifycallback.htm
 tech.root: kernel
 ms.assetid: 5c126639-494d-45b4-81c2-1af6dc773db6
 ms.date: 04/30/2018
+keywords: ["ExNotifyCallback function"]
 ms.keywords: ExNotifyCallback, ExNotifyCallback routine [Kernel-Mode Driver Architecture], k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml, kernel.exnotifycallback, wdm/ExNotifyCallback
 f1_keywords:
  - "wdm/ExNotifyCallback"

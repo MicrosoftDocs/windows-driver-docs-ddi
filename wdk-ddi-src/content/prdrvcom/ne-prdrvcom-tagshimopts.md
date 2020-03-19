@@ -6,6 +6,7 @@ old-location: print\shimopts.htm
 tech.root: print
 ms.assetid: 7A00F51A-E8EB-4D8F-B130-08834BF741C6
 ms.date: 04/20/2018
+keywords: ["tagSHIMOPTS enumeration"]
 ms.keywords: "*PSHIMOPTS, PSHIMOPTS, PSHIMOPTS enumeration pointer [Print Devices], PTSHIM_DEFAULT, PTSHIM_NOSNAPSHOT, SHIMOPTS, SHIMOPTS enumeration [Print Devices], prdrvcom/PSHIMOPTS, prdrvcom/PTSHIM_DEFAULT, prdrvcom/PTSHIM_NOSNAPSHOT, prdrvcom/SHIMOPTS, print.shimopts, tagSHIMOPTS"
 f1_keywords:
  - "prdrvcom/SHIMOPTS"

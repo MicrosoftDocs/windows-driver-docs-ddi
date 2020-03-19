@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 431cdc87-473f-40f1-9ade-14e3e7459cbd
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
+keywords: ["NetOffloadIsRscIPv4Enabled function"]
 f1_keywords:
  - "netadapteroffload/NetOffloadIsRscIPv4Enabled"
 ms.keywords: NetOffloadIsRscIPv4Enabled

@@ -6,6 +6,7 @@ old-location: storage\scsiportgetphysicaladdress.htm
 tech.root: storage
 ms.assetid: 4a0d0b10-9773-40d7-962c-cf2acffcee47
 ms.date: 03/29/2018
+keywords: ["ScsiPortGetPhysicalAddress function"]
 ms.keywords: ScsiPortGetPhysicalAddress, ScsiPortGetPhysicalAddress routine [Storage Devices], scsiprt_946bea8c-eb6d-4614-9dc0-004ee2501457.xml, srb/ScsiPortGetPhysicalAddress, storage.scsiportgetphysicaladdress
 f1_keywords:
  - "srb/ScsiPortGetPhysicalAddress"

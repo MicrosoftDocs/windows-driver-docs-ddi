@@ -6,6 +6,7 @@ old-location: hid\ioctl_hid_get_report_descriptor.htm
 tech.root: hid
 ms.assetid: 7f0e6295-9c96-4167-8414-6f7b7b171f37
 ms.date: 04/30/2018
+keywords: ["IOCTL_HID_GET_REPORT_DESCRIPTOR IOCTL"]
 ms.keywords: IOCTL_HID_GET_REPORT_DESCRIPTOR, IOCTL_HID_GET_REPORT_DESCRIPTOR control, IOCTL_HID_GET_REPORT_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_report_descriptor, hidioreq_01b638bd-f2d5-4acc-8527-9fd98bde8144.xml, hidport/IOCTL_HID_GET_REPORT_DESCRIPTOR
 f1_keywords:
  - "hidport/IOCTL_HID_GET_REPORT_DESCRIPTOR"

@@ -6,6 +6,7 @@ old-location: debugger\getnumbertextreplacements.htm
 tech.root: debugger
 ms.assetid: d15400a8-3d8d-48dd-86f0-4e53f8b04add
 ms.date: 05/03/2018
+keywords: ["IDebugControl3::GetNumberTextReplacements"]
 ms.keywords: GetNumberTextReplacements, GetNumberTextReplacements method [Windows Debugging], GetNumberTextReplacements method [Windows Debugging],IDebugControl2 interface, GetNumberTextReplacements method [Windows Debugging],IDebugControl3 interface, IDebugControl2 interface [Windows Debugging],GetNumberTextReplacements method, IDebugControl2::GetNumberTextReplacements, IDebugControl3 interface [Windows Debugging],GetNumberTextReplacements method, IDebugControl3.GetNumberTextReplacements, IDebugControl3::GetNumberTextReplacements, IDebugControl_34139b78-b8a1-4096-a54c-7fdfac7024ce.xml, dbgeng/IDebugControl2::GetNumberTextReplacements, dbgeng/IDebugControl3::GetNumberTextReplacements, debugger.getnumbertextreplacements
 f1_keywords:
  - "dbgeng/IDebugControl2.GetNumberTextReplacements"

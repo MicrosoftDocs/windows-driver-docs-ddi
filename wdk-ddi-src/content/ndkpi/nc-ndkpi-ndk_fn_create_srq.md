@@ -6,6 +6,7 @@ old-location: netvista\ndk_fn_create_srq.htm
 tech.root: netvista
 ms.assetid: 83125C65-021F-4EEE-8819-B73752908DE7
 ms.date: 05/02/2018
+keywords: ["NDK_FN_CREATE_SRQ callback function"]
 ms.keywords: NDK_FN_CREATE_SRQ, NDK_FN_CREATE_SRQ callback, NdkCreateSrq, NdkCreateSrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateSrq, netvista.ndk_fn_create_srq
 f1_keywords:
  - "ndkpi/NdkCreateSrq"

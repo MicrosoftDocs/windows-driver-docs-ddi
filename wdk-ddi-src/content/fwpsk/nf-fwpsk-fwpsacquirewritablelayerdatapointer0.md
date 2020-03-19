@@ -6,6 +6,7 @@ old-location: netvista\fwpsacquirewritablelayerdatapointer0.htm
 tech.root: netvista
 ms.assetid: 79816d01-bf27-49d0-b6f1-083b7e87cc4e
 ms.date: 05/02/2018
+keywords: ["FwpsAcquireWritableLayerDataPointer0 function"]
 ms.keywords: FwpsAcquireWritableLayerDataPointer0, FwpsAcquireWritableLayerDataPointer0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAcquireWritableLayerDataPointer0, netvista.fwpsacquirewritablelayerdatapointer0, wfp_ref_2_funct_3_fwps_A-B_adf2c5a7-ebcb-4c05-aa5a-3b794b60dc74.xml
 f1_keywords:
  - "fwpsk/FwpsAcquireWritableLayerDataPointer0"

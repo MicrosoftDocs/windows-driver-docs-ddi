@@ -6,6 +6,7 @@ old-location: kernel\iostartpacket.htm
 tech.root: kernel
 ms.assetid: b1fa148e-73e2-437f-bd3a-e879bd457c76
 ms.date: 04/30/2018
+keywords: ["IoStartPacket function"]
 ms.keywords: IoStartPacket, IoStartPacket routine [Kernel-Mode Driver Architecture], k104_d27461b9-32fe-4d7b-853d-fd110fcdb644.xml, kernel.iostartpacket, wdm/IoStartPacket
 f1_keywords:
  - "ntifs/IoStartPacket"

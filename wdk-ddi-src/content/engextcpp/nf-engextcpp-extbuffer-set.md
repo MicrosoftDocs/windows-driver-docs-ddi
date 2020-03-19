@@ -6,6 +6,7 @@ old-location: debugger\extremotetyped_set_bool.htm
 tech.root: debugger
 ms.assetid: e75c17d2-fdf7-4dba-9892-74c764956924
 ms.date: 01/19/2018
+keywords: ["ExtBuffer::Set method"]
 ms.keywords: Set method [Windows Debugging], Set, ExtBuffer::Set, ExtRemoteTyped class [Windows Debugging], Set method, ExtBuffer, debugger.extremotetyped_set_bool, Set method [Windows Debugging], ExtRemoteTyped class
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.Set"

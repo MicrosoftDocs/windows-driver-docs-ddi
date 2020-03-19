@@ -6,6 +6,7 @@ old-location: display\d3dddi_multiplane_allocation_info.htm
 tech.root: display
 ms.assetid: ce3610ab-a927-45e7-8ceb-3f38b5f50f00
 ms.date: 05/10/2018
+keywords: ["D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure"]
 ms.keywords: D3DDDI_MULTIPLANE_ALLOCATION_INFO, D3DDDI_MULTIPLANE_ALLOCATION_INFO structure [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, d3dumddi/D3DDDI_MULTIPLANE_ALLOCATION_INFO, display.d3dddi_multiplane_allocation_info
 f1_keywords:
  - "d3dumddi/D3DDDI_MULTIPLANE_ALLOCATION_INFO"

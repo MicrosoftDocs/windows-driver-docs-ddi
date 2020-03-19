@@ -7,6 +7,7 @@ tech.root: storage
 ms.assetid: ad3a4a08-b060-4979-86ca-35d8b868b7f2
 ms.author: windowsdriverdev
 ms.date: 03/06/2019
+keywords: ["STOR_TELEMETRY_CATEGORY enumeration"]
 f1_keywords:
  - "storport/STOR_TELEMETRY_CATEGORY"
 ms.keywords: STOR_TELEMETRY_CATEGORY, STOR_TELEMETRY_CATEGORY, *PSTOR_TELEMETRY_CATEGORY, StorPortLogTelemetryEx, STORPORT_TELEMETRY_EVENT

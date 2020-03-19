@@ -6,6 +6,7 @@ old-location: pos\posstringtype.htm
 tech.root: pos
 ms.assetid: 26cf79d7-1df3-40a3-8536-b672f9bf13a8
 ms.date: 02/23/2018
+keywords: ["_PosStringType structure"]
 ms.keywords: PosStringType, PosStringType structure, _PosStringType, pointofservicedriverinterface/PosStringType, pos.posstringtype
 f1_keywords:
  - "pointofservicedriverinterface/PosStringType"

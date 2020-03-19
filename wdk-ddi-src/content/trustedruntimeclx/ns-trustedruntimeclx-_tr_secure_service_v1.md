@@ -4,6 +4,7 @@ title: _TR_SECURE_SERVICE_V1 (trustedruntimeclx.h)
 description: 
 ms.assetid: e1799150-6d8d-40ca-9235-94762db4cc45
 ms.date: 10/19/2018
+keywords: ["_TR_SECURE_SERVICE_V1 structure"]
 f1_keywords:
  - "trustedruntimeclx/_TR_SECURE_SERVICE_V1"
 ms.keywords: _TR_SECURE_SERVICE_V1, TR_SECURE_SERVICE_V1, *PTR_SECURE_SERVICE_V1, TR_SECURE_SERVICE, *PTR_SECURE_SERVICE

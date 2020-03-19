@@ -6,6 +6,7 @@ old-location: debugger\gettype.htm
 tech.root: debugger
 ms.assetid: c6aa6560-3183-4e3a-a625-80d1c5072af5
 ms.date: 05/03/2018
+keywords: ["IDebugBreakpoint::GetType"]
 ms.keywords: ComOther_3305c400-f816-463b-a643-4495bf546460.xml, GetType, GetType method [Windows Debugging], GetType method [Windows Debugging],IDebugBreakpoint interface, GetType method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetType method, IDebugBreakpoint.GetType, IDebugBreakpoint2 interface [Windows Debugging],GetType method, IDebugBreakpoint2::GetType, IDebugBreakpoint::GetType, dbgeng/IDebugBreakpoint2::GetType, dbgeng/IDebugBreakpoint::GetType, debugger.gettype
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.GetType"

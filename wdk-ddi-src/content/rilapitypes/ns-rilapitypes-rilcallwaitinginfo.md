@@ -6,6 +6,7 @@ old-location: netvista\rilcallwaitinginfo.htm
 tech.root: netvista
 ms.assetid: 526ce708-93bb-43f2-9d78-b3e8360e01da
 ms.date: 05/02/2018
+keywords: ["RILCALLWAITINGINFO structure"]
 ms.keywords: "*LPRILCALLWAITINGINFO, RILCALLWAITINGINFO, RILCALLWAITINGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcallwaitinginfo, ntddrilapitypes/RILCALLWAITINGINFO"
 f1_keywords:
  - "rilapitypes/RILCALLWAITINGINFO"

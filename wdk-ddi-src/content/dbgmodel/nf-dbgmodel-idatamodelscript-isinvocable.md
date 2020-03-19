@@ -4,6 +4,7 @@ title: IDataModelScript::IsInvocable (dbgmodel.h)
 description: The IsInvocable method returns whether or not the script is invocable -- that is, whether it has a "main function" as defined by its language or provider. 
 ms.assetid: ff8dc281-89db-4ef5-afaa-f022015a6247
 ms.date: 08/20/2018
+keywords: ["IDataModelScript::IsInvocable"]
 f1_keywords:
  - "dbgmodel/IDataModelScript.IsInvocable"
 ms.keywords: IDataModelScript::IsInvocable, IsInvocable, IDataModelScript.IsInvocable, IDataModelScript::IsInvocable, IDataModelScript.IsInvocable

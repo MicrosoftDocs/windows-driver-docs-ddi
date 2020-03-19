@@ -6,6 +6,7 @@ old-location: stream\ksfiltergetchildpincount.htm
 tech.root: stream
 ms.assetid: 29e78bc3-0dc2-4e76-b683-c1e9a2d454d4
 ms.date: 04/23/2018
+keywords: ["KsFilterGetChildPinCount function"]
 ms.keywords: KsFilterGetChildPinCount, KsFilterGetChildPinCount function [Streaming Media Devices], avfunc_cddbf6bc-da19-47a6-96d5-0d4151e70ff8.xml, ks/KsFilterGetChildPinCount, stream.ksfiltergetchildpincount
 f1_keywords:
  - "ks/KsFilterGetChildPinCount"

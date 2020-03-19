@@ -6,6 +6,7 @@ old-location: debugger\idebugclient_setoutputwidth.htm
 tech.root: debugger
 ms.assetid: E2FAEBDD-336D-4E11-933B-88A6EA3BBDF9
 ms.date: 05/03/2018
+keywords: ["IDebugClient::SetOutputWidth"]
 ms.keywords: IDebugClient interface [Windows Debugging],SetOutputWidth method, IDebugClient.SetOutputWidth, IDebugClient::SetOutputWidth, SetOutputWidth, SetOutputWidth method [Windows Debugging], SetOutputWidth method [Windows Debugging],IDebugClient interface, dbgeng/IDebugClient::SetOutputWidth, debugger.idebugclient_setoutputwidth
 f1_keywords:
  - "dbgeng/IDebugClient.SetOutputWidth"

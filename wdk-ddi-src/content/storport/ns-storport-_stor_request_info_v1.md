@@ -6,6 +6,7 @@ old-location: storage\stor_request_info.htm
 tech.root: storage
 ms.assetid: CCC429B7-88BB-4DC3-86BC-6A5FCD405A5D
 ms.date: 03/29/2018
+keywords: ["_STOR_REQUEST_INFO_V1 structure"]
 ms.keywords: "*PSTOR_REQUEST_INFO_V1, PSTOR_REQUEST_INFO_V1, PSTOR_REQUEST_INFO_V1 structure pointer [Storage Devices], REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_PAGING_IO_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_WRITE_THROUGH_FLAG, STOR_REQUEST_INFO_V1, STOR_REQUEST_INFO_V1 structure [Storage Devices], StorIoPriorityCritical, StorIoPriorityHigh, StorIoPriorityLow, StorIoPriorityNormal, StorIoPriorityVeryLow, _STOR_REQUEST_INFO_V1, _STOR_REQUEST_INFO_V1 structure [Storage Devices], storage.stor_request_info, storport/PSTOR_REQUEST_INFO_V1, storport/_STOR_REQUEST_INFO_V1"
 f1_keywords:
  - "storport/STOR_REQUEST_INFO_V1"

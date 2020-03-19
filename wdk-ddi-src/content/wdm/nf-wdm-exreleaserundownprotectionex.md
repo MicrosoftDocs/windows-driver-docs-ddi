@@ -6,6 +6,7 @@ old-location: kernel\exreleaserundownprotectionex.htm
 tech.root: kernel
 ms.assetid: 9CF77F14-93E5-4742-A01C-770BC814507C
 ms.date: 04/30/2018
+keywords: ["ExReleaseRundownProtectionEx function"]
 ms.keywords: ExReleaseRundownProtectionEx, ExReleaseRundownProtectionEx routine [Kernel-Mode Driver Architecture], kernel.exreleaserundownprotectionex, wdm/ExReleaseRundownProtectionEx
 f1_keywords:
  - "wdm/ExReleaseRundownProtectionEx"

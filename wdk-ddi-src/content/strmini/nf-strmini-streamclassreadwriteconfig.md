@@ -6,6 +6,7 @@ old-location: stream\streamclassreadwriteconfig.htm
 tech.root: stream
 ms.assetid: ae8c1478-b429-4af1-a36d-96145696a990
 ms.date: 04/23/2018
+keywords: ["StreamClassReadWriteConfig function"]
 ms.keywords: StreamClassReadWriteConfig, StreamClassReadWriteConfig routine [Streaming Media Devices], strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, stream.streamclassreadwriteconfig, strmini/StreamClassReadWriteConfig
 f1_keywords:
  - "strmini/StreamClassReadWriteConfig"

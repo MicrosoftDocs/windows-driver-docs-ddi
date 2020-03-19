@@ -6,6 +6,7 @@ old-location: storage\ioctl_storage_check_verify.htm
 tech.root: storage
 ms.assetid: 12e98642-2ed5-47d6-9461-9d6c52149749
 ms.date: 03/29/2018
+keywords: ["IOCTL_STORAGE_CHECK_VERIFY IOCTL"]
 ms.keywords: IOCTL_STORAGE_CHECK_VERIFY, IOCTL_STORAGE_CHECK_VERIFY control, IOCTL_STORAGE_CHECK_VERIFY control code [Storage Devices], k307_5ec9ef19-a741-4fb9-876e-7cfc35699dbe.xml, ntddstor/IOCTL_STORAGE_CHECK_VERIFY, storage.ioctl_storage_check_verify
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_CHECK_VERIFY"

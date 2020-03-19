@@ -6,6 +6,7 @@ old-location: display\destroyoverlay.htm
 tech.root: display
 ms.assetid: 63004d19-e2cd-462c-8fa5-ea4dd6e29735
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_DESTROYOVERLAY callback function"]
 ms.keywords: DestroyOverlay, DestroyOverlay callback function [Display Devices], PFND3DDDI_DESTROYOVERLAY, PFND3DDDI_DESTROYOVERLAY callback, UserModeDisplayDriver_Functions_e3dd8286-aff0-40c0-8cf2-84ecc706df90.xml, d3dumddi/DestroyOverlay, display.destroyoverlay
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

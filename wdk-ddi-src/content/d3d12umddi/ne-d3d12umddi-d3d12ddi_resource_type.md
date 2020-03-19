@@ -4,6 +4,7 @@ title: D3D12DDI_RESOURCE_TYPE (d3d12umddi.h)
 description: Specifies the resource type.
 ms.assetid: 69738fad-d739-48dc-8a90-6de962594210
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_RESOURCE_TYPE enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RESOURCE_TYPE"
 ms.keywords: D3D12DDI_RESOURCE_TYPE, D3D12DDI_RESOURCE_TYPE, 

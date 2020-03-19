@@ -6,6 +6,7 @@ old-location: storage\mpio_adapter_information.htm
 tech.root: storage
 ms.assetid: bcf159a7-75a5-46aa-897a-2c5eb00f51d8
 ms.date: 03/29/2018
+keywords: ["_MPIO_ADAPTER_INFORMATION structure"]
 ms.keywords: "*PMPIO_ADAPTER_INFORMATION, MPIO_ADAPTER_INFORMATION, MPIO_ADAPTER_INFORMATION structure [Storage Devices], PMPIO_ADAPTER_INFORMATION, PMPIO_ADAPTER_INFORMATION structure pointer [Storage Devices], _MPIO_ADAPTER_INFORMATION, mpiowmi/MPIO_ADAPTER_INFORMATION, mpiowmi/PMPIO_ADAPTER_INFORMATION, storage.mpio_adapter_information, structs-scsibus_bcdbb143-5a91-4a69-83e5-82e32c23b404.xml"
 f1_keywords:
  - "mpiowmi/MPIO_ADAPTER_INFORMATION"

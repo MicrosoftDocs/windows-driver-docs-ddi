@@ -6,6 +6,7 @@ old-location: netvista\rilmsgcdmamsgstatustype.htm
 tech.root: netvista
 ms.assetid: 60365fd7-3897-4948-a251-098e5a91c959
 ms.date: 05/02/2018
+keywords: ["RILMSGCDMAMSGSTATUSTYPE enumeration"]
 ms.keywords: RILMSGCDMAMSGSTATUSTYPE, RILMSGCDMAMSGSTATUSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGSTATUSTYPE_DELIVERYACK, RIL_MSGSTATUSTYPE_MAX, RIL_MSGSTATUSTYPE_READACK, RIL_MSGSTATUSTYPE_USERACK, netvista.rilmsgcdmamsgstatustype, ntddrilapitypes/RILMSGCDMAMSGSTATUSTYPE, ntddrilapitypes/RIL_MSGSTATUSTYPE_DELIVERYACK, ntddrilapitypes/RIL_MSGSTATUSTYPE_MAX, ntddrilapitypes/RIL_MSGSTATUSTYPE_READACK, ntddrilapitypes/RIL_MSGSTATUSTYPE_USERACK
 f1_keywords:
  - "ntddrilapitypes/RILMSGCDMAMSGSTATUSTYPE"

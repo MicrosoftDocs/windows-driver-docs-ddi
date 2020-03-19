@@ -5,6 +5,7 @@ description: The CreateRenderTargetView function creates a render target view.
 old-location: display\createrendertargetview.htm
 ms.assetid: bf9fc732-5f9a-4fee-8ea0-19b140789463
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CREATERENDERTARGETVIEW callback function"]
 ms.keywords: CreateRenderTargetView, CreateRenderTargetView callback function [Display Devices], PFND3D10DDI_CREATERENDERTARGETVIEW, PFND3D10DDI_CREATERENDERTARGETVIEW callback, UserModeDisplayDriverDx10_Functions_abef4fc8-0aac-40a9-9f45-de2160c347af.xml, d3d10umddi/CreateRenderTargetView, display.createrendertargetview
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

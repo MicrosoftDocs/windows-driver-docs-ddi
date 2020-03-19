@@ -6,6 +6,7 @@ old-location: battery\ioctl_internal_configure_charger_property.htm
 tech.root: battery
 ms.assetid: B4D10667-29D6-45BF-87CA-D2F59DF78797
 ms.date: 02/15/2018
+keywords: ["IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY IOCTL"]
 ms.keywords: IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY, IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control, IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control code [Battery Devices], battery.ioctl_internal_configure_charger_property, charging/IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
 f1_keywords:
  - "charging/IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY"

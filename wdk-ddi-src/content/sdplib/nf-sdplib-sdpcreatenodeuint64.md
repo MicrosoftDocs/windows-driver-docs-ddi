@@ -6,6 +6,7 @@ old-location: bltooth\sdpcreatenodeuint64.htm
 tech.root: bltooth
 ms.assetid: 17ec2944-084b-4c10-b4d2-7d291e6307bb
 ms.date: 04/27/2018
+keywords: ["SdpCreateNodeUInt64 function"]
 ms.keywords: SdpCreateNodeUInt64, SdpCreateNodeUInt64 function [Bluetooth Devices], bltooth.sdpcreatenodeuint64, bth_funcs_400a6371-a0cf-4930-800b-adaf373b34e5.xml, sdplib/SdpCreateNodeUInt64
 f1_keywords:
  - "sdplib/SdpCreateNodeUInt64"

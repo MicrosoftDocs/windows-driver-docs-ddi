@@ -6,6 +6,7 @@ old-location: kernel\iocompletion.htm
 tech.root: kernel
 ms.assetid: 53fc5265-5d8e-4794-942b-de81b93e81da
 ms.date: 04/30/2018
+keywords: ["IO_COMPLETION_ROUTINE callback function"]
 ms.keywords: DrvrRtns_aa2b6363-e3c1-4243-87d8-8a1bb575974b.xml, IO_COMPLETION_ROUTINE, IoCompletion, IoCompletion routine [Kernel-Mode Driver Architecture], kernel.iocompletion, wdm/IoCompletion
 f1_keywords:
  - "wdm/IoCompletion"

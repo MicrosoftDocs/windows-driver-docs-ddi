@@ -5,6 +5,7 @@ description: Used to calculate a session policy size.
 old-location: display\pfnd3d12ddi_calcprivatecryptosessionpolicysize_0030_.htm
 ms.assetid: 5FAF1FBE-DCCA-4D92-BB8D-C014D488353B
 ms.date: 05/10/2018
+keywords: ["PFND3D12DDI_CALCPRIVATECRYPTOSESSIONPOLICYSIZE_0030 callback function"]
 ms.keywords: PFND3D12DDI_CALCPRIVATECRYPTOSESSIONPOLICYSIZE_0030, PFND3D12DDI_CALCPRIVATECRYPTOSESSIONPOLICYSIZE_0030  entry, PFND3D12DDI_CALCPRIVATECRYPTOSESSIONPOLICYSIZE_0030 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATECRYPTOSESSIONPOLICYSIZE_0030, display.pfnd3d12ddi_calcprivatecryptosessionpolicysize_0030_
 req.header: d3d12umddi.h
 req.include-header: 

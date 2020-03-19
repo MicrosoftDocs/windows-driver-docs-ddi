@@ -6,6 +6,7 @@ old-location: netvista\ril_removecallforwarding.htm
 tech.root: netvista
 ms.assetid: d2ac3147-fe34-4643-b735-c795b6ba4768
 ms.date: 05/02/2018
+keywords: ["RIL_RemoveCallForwarding function"]
 ms.keywords: RIL_RemoveCallForwarding, RIL_RemoveCallForwarding method [Network Drivers Starting with Windows Vista], netvista.ril_removecallforwarding, rilapi/RIL_RemoveCallForwarding
 f1_keywords:
  - "rilapi/RIL_RemoveCallForwarding"

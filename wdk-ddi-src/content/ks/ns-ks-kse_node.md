@@ -6,6 +6,7 @@ old-location: stream\kse_node.htm
 tech.root: stream
 ms.assetid: 89446165-cdc3-414d-bcce-f2c978d94547
 ms.date: 04/23/2018
+keywords: ["KSE_NODE structure"]
 ms.keywords: "*PKSE_NODE, KSE_NODE, KSE_NODE structure [Streaming Media Devices], PKSE_NODE, PKSE_NODE structure pointer [Streaming Media Devices], ks-struct_701a51ab-90d7-47d6-8e40-bd30d0ddd7b9.xml, ks/KSE_NODE, ks/PKSE_NODE, stream.kse_node"
 f1_keywords:
  - "ks/KSE_NODE"

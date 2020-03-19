@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlchecklockforreadaccess.htm
 tech.root: ifsk
 ms.assetid: 3734b286-b5cb-4906-9947-3ad23ef54267
 ms.date: 03/29/2018
+keywords: ["FsRtlCheckLockForReadAccess function"]
 ms.keywords: FsRtlCheckLockForReadAccess, FsRtlCheckLockForReadAccess routine [Installable File System Drivers], fsrtlref_6ec3721a-c748-40c2-8469-336a56fd9eb6.xml, ifsk.fsrtlchecklockforreadaccess, ntifs/FsRtlCheckLockForReadAccess
 f1_keywords:
  - "ntifs/FsRtlCheckLockForReadAccess"

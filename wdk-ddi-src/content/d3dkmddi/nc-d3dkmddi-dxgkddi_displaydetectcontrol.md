@@ -5,6 +5,7 @@ description: Used to turn hot plug detection on and off and to initiate status p
 old-location: display\dxgkddi_displaydetectcontrol.htm
 ms.assetid: 6F10EA4D-BCDE-475E-9937-414CB83F6F2F
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_DISPLAYDETECTCONTROL callback function"]
 ms.keywords: DXGKDDI_DISPLAYDETECTCONTROL, DXGKDDI_DISPLAYDETECTCONTROL callback, DXGKDDI_DISPLAYDETECTCONTROL callback function [Display Devices], d3dkmddi/DXGKDDI_DISPLAYDETECTCONTROL, display.dxgkddi_displaydetectcontrol
 req.header: d3dkmddi.h
 req.include-header: 

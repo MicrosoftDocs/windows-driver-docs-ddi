@@ -6,6 +6,7 @@ old-location: wdf\wdfdeviceinitfree.htm
 tech.root: wdf
 ms.assetid: 61540bd2-8496-4972-854c-968b53c90788
 ms.date: 02/26/2018
+keywords: ["WdfDeviceInitFree function"]
 ms.keywords: DFDeviceObjectGeneralRef_c2bdf168-0e3f-40c9-9e88-77faf7241bcb.xml, WdfDeviceInitFree, WdfDeviceInitFree method, kmdf.wdfdeviceinitfree, wdf.wdfdeviceinitfree, wdfdevice/WdfDeviceInitFree
 f1_keywords:
  - "wdfdevice/WdfDeviceInitFree"

@@ -5,6 +5,7 @@ description: The WWAN_NETWORK_BLACKLIST_PROVIDER structure represents a network 
 tech.root: netvista
 ms.assetid: ee770094-bb4c-44eb-a232-2de76de9ef6e
 ms.date: 08/21/2018
+keywords: ["_WWAN_NETWORK_BLACKLIST_PROVIDER structure"]
 f1_keywords:
  - "wwan/_WWAN_NETWORK_BLACKLIST_PROVIDER"
 ms.keywords: _WWAN_NETWORK_BLACKLIST_PROVIDER, WWAN_NETWORK_BLACKLIST_PROVIDER, *PWWAN_NETWORK_BLACKLIST_PROVIDER, 

@@ -6,6 +6,7 @@ old-location: wdf\wdf_interrupt_config_init.htm
 tech.root: wdf
 ms.assetid: e81ec3da-a863-467f-82ec-1fa7ee6401b1
 ms.date: 02/26/2018
+keywords: ["WDF_INTERRUPT_CONFIG_INIT function"]
 ms.keywords: DFInterruptObjectRef_eb73ee25-bee4-4c0a-a070-7893bd5b699a.xml, WDF_INTERRUPT_CONFIG_INIT, WDF_INTERRUPT_CONFIG_INIT function, kmdf.wdf_interrupt_config_init, wdf.wdf_interrupt_config_init, wdfinterrupt/WDF_INTERRUPT_CONFIG_INIT
 f1_keywords:
  - "wdfinterrupt/WDF_INTERRUPT_CONFIG_INIT"

@@ -6,6 +6,7 @@ old-location: hid\hidp_device_desc.htm
 tech.root: hid
 ms.assetid: C51D645B-5DF2-4F23-904B-AB56F97520CB
 ms.date: 04/30/2018
+keywords: ["_HIDP_DEVICE_DESC structure"]
 ms.keywords: "*PHIDP_DEVICE_DESC, HIDP_DEVICE_DESC, HIDP_DEVICE_DESC structure [Human Input Devices], PHIDP_DEVICE_DESC, PHIDP_DEVICE_DESC structure pointer [Human Input Devices], _HIDP_DEVICE_DESC, hid.hidp_device_desc, hidpddi/HIDP_DEVICE_DESC, hidpddi/PHIDP_DEVICE_DESC"
 f1_keywords:
  - "hidpddi/HIDP_DEVICE_DESC"

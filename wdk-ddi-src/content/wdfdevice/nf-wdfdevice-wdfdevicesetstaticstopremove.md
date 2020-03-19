@@ -6,6 +6,7 @@ old-location: wdf\wdfdevicesetstaticstopremove.htm
 tech.root: wdf
 ms.assetid: b2776618-2585-4a7a-9f8f-536f1d28745b
 ms.date: 02/26/2018
+keywords: ["WdfDeviceSetStaticStopRemove function"]
 ms.keywords: DFDeviceObjectGeneralRef_9874b784-6344-4336-9753-0b172563f981.xml, WdfDeviceSetStaticStopRemove, WdfDeviceSetStaticStopRemove method, kmdf.wdfdevicesetstaticstopremove, wdf.wdfdevicesetstaticstopremove, wdfdevice/WdfDeviceSetStaticStopRemove
 f1_keywords:
  - "wdfdevice/WdfDeviceSetStaticStopRemove"

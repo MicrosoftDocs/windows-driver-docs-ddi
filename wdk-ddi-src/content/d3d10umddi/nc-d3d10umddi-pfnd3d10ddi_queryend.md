@@ -5,6 +5,7 @@ description: The QueryEnd function marks the end of a sequence of graphics comma
 old-location: display\queryend.htm
 ms.assetid: 5a231d7e-7e47-40ad-99d1-82661dec41d0
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_QUERYEND callback function"]
 ms.keywords: PFND3D10DDI_QUERYEND, PFND3D10DDI_QUERYEND callback, QueryEnd, QueryEnd callback function [Display Devices], UserModeDisplayDriverDx10_Functions_9897bbe4-a58c-430b-815a-eb4360ce8043.xml, d3d10umddi/QueryEnd, display.queryend
 f1_keywords:
  - "d3d10umddi/QueryEnd"

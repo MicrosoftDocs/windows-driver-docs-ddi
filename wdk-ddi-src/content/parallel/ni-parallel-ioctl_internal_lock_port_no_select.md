@@ -6,6 +6,7 @@ old-location: parports\ioctl_internal_lock_port_no_select.htm
 tech.root: parports
 ms.assetid: 4ff7fb02-707f-49a3-a1eb-dcf3353f2803
 ms.date: 02/15/2018
+keywords: ["IOCTL_INTERNAL_LOCK_PORT_NO_SELECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_LOCK_PORT_NO_SELECT, IOCTL_INTERNAL_LOCK_PORT_NO_SELECT control code [Parallel Ports], cisspd_a8b5a024-9169-47ef-843d-706a0322247b.xml, parallel/IOCTL_INTERNAL_LOCK_PORT_NO_SELECT, parports.ioctl_internal_lock_port_no_select
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_LOCK_PORT_NO_SELECT"

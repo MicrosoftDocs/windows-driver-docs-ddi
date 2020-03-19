@@ -6,6 +6,7 @@ old-location: kernel\poregistersystemstate.htm
 tech.root: kernel
 ms.assetid: 851c694f-6c47-498c-8035-132a63c0fa62
 ms.date: 04/30/2018
+keywords: ["PoRegisterSystemState function"]
 ms.keywords: PoRegisterSystemState, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], kernel.poregistersystemstate, portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, wdm/PoRegisterSystemState
 f1_keywords:
  - "ntifs/PoRegisterSystemState"

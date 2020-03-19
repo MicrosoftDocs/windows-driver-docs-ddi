@@ -6,6 +6,7 @@ old-location: ifsk\fltfastiomdlreadcomplete.htm
 tech.root: ifsk
 ms.assetid: 6F5E808C-9E35-4BE8-AE67-FDD354D6FD0E
 ms.date: 03/29/2018
+keywords: ["FsRtlMdlReadCompleteDev function"]
 ms.keywords: FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadCompleteDev, ifsk.fltfastiomdlreadcomplete
 f1_keywords:
  - "ntifs/FsRtlMdlReadCompleteDev"

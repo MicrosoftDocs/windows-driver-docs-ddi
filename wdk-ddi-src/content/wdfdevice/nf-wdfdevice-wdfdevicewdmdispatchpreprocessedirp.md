@@ -6,6 +6,7 @@ old-location: wdf\wdfdevicewdmdispatchpreprocessedirp.htm
 tech.root: wdf
 ms.assetid: 83b18680-0b58-4278-87ff-757eb6e76178
 ms.date: 02/26/2018
+keywords: ["WdfDeviceWdmDispatchPreprocessedIrp function"]
 ms.keywords: DFDeviceObjectGeneralRef_e861729e-006d-413c-9f7e-60e2fae72c1f.xml, WdfDeviceWdmDispatchPreprocessedIrp, WdfDeviceWdmDispatchPreprocessedIrp method, kmdf.wdfdevicewdmdispatchpreprocessedirp, wdf.wdfdevicewdmdispatchpreprocessedirp, wdfdevice/WdfDeviceWdmDispatchPreprocessedIrp
 f1_keywords:
  - "wdfdevice/WdfDeviceWdmDispatchPreprocessedIrp"

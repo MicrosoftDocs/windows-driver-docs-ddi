@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 06e0c073-325b-4069-9202-836cfebf5f62
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
+keywords: ["_DXGKARG_RESUMEVIRTUALGPU structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_RESUMEVIRTUALGPU"
 ms.prod: windows-hardware

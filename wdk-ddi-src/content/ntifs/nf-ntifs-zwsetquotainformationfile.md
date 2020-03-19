@@ -6,6 +6,7 @@ old-location: kernel\zwsetquotainformationfile.htm
 tech.root: kernel
 ms.assetid: 40c7a74c-eace-4d01-8a55-2c3c8bace8fb
 ms.date: 04/30/2018
+keywords: ["ZwSetQuotaInformationFile function"]
 ms.keywords: NtSetQuotaInformationFile, ZwSetQuotaInformationFile, ZwSetQuotaInformationFile routine [Kernel-Mode Driver Architecture], k111_87b6e79e-ecd9-47ff-8f0c-7502fc82b8af.xml, kernel.zwsetquotainformationfile, ntifs/NtSetQuotaInformationFile, ntifs/ZwSetQuotaInformationFile
 f1_keywords:
  - "ntifs/ZwSetQuotaInformationFile"

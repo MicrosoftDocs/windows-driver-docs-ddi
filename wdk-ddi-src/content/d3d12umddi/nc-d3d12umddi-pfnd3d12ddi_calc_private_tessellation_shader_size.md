@@ -4,6 +4,7 @@ title: PFND3D12DDI_CALC_PRIVATE_TESSELLATION_SHADER_SIZE (d3d12umddi.h)
 description: Determines the size of the user-mode display driver's private region of memory for a hull or domain shader.
 ms.assetid: 40bbfdfa-e310-4e77-9e8c-2800a64f6bcb
 ms.date: 10/19/2018
+keywords: ["PFND3D12DDI_CALC_PRIVATE_TESSELLATION_SHADER_SIZE callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

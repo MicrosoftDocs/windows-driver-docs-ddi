@@ -6,6 +6,7 @@ old-location: ifsk\iogetattacheddevice.htm
 tech.root: ifsk
 ms.assetid: 18083431-37b5-49e9-9c69-8b6cd7b5f736
 ms.date: 04/16/2018
+keywords: ["IoGetAttachedDevice function"]
 ms.keywords: IoGetAttachedDevice, IoGetAttachedDevice routine [Installable File System Drivers], ifsk.iogetattacheddevice, ioref_5a77f51f-2bea-4991-bf10-965e6b72e9ab.xml, ntifs/IoGetAttachedDevice
 f1_keywords:
  - "ntifs/IoGetAttachedDevice"

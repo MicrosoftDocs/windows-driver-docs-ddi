@@ -6,6 +6,7 @@ old-location: stream\avccommandtype.htm
 tech.root: stream
 ms.assetid: 18bf43bd-3499-4494-839b-9bc07de83644
 ms.date: 04/23/2018
+keywords: ["_tagAvcCommandType enumeration"]
 ms.keywords: AVC_CTYPE_CONTROL, AVC_CTYPE_GEN_INQ, AVC_CTYPE_NOTIFY, AVC_CTYPE_SPEC_INQ, AVC_CTYPE_STATUS, AvcCommandType, AvcCommandType enumeration [Streaming Media Devices], _tagAvcCommandType, avc/AVC_CTYPE_CONTROL, avc/AVC_CTYPE_GEN_INQ, avc/AVC_CTYPE_NOTIFY, avc/AVC_CTYPE_SPEC_INQ, avc/AVC_CTYPE_STATUS, avc/AvcCommandType, avcref_08c9f0bb-efe0-412d-9a49-ba497bcc6e25.xml, stream.avccommandtype
 f1_keywords:
  - "avc/AvcCommandType"

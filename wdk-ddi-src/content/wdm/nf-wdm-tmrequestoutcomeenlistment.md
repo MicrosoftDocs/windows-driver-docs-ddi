@@ -6,6 +6,7 @@ old-location: kernel\tmrequestoutcomeenlistment.htm
 tech.root: kernel
 ms.assetid: 1e58be94-7a10-4708-a658-9de28e26a465
 ms.date: 04/30/2018
+keywords: ["TmRequestOutcomeEnlistment function"]
 ms.keywords: TmRequestOutcomeEnlistment, TmRequestOutcomeEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmrequestoutcomeenlistment, ktm_ref_9be6bea7-eae4-4621-8155-f8a06285bb97.xml, wdm/TmRequestOutcomeEnlistment
 f1_keywords:
  - "wdm/TmRequestOutcomeEnlistment"

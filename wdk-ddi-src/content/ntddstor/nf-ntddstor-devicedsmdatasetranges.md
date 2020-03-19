@@ -5,6 +5,7 @@ description: The DeviceDsmDataSetRanges function function gets a pointer to the 
 tech.root: storage
 ms.assetid: 0a7044a8-4cf1-4e40-92e1-c0dacea99ea9
 ms.date: 08/23/2019
+keywords: ["DeviceDsmDataSetRanges function"]
 f1_keywords:
  - "ntddstor/DeviceDsmDataSetRanges"
 ms.keywords: DeviceDsmDataSetRanges

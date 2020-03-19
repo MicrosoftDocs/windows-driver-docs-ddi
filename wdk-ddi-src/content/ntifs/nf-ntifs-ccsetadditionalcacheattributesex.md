@@ -6,6 +6,7 @@ old-location: ifsk\ccsetadditionalcacheattributesex.htm
 tech.root: ifsk
 ms.assetid: 187719CD-5F0C-4AFD-BC00-ECD3C29A118F
 ms.date: 04/16/2018
+keywords: ["CcSetAdditionalCacheAttributesEx function"]
 ms.keywords: CcSetAdditionalCacheAttributesEx, CcSetAdditionalCacheAttributesEx routine [Installable File System Drivers], ifsk.ccsetadditionalcacheattributesex, ntifs/CcSetAdditionalCacheAttributesEx
 f1_keywords:
  - "ntifs/CcSetAdditionalCacheAttributesEx"

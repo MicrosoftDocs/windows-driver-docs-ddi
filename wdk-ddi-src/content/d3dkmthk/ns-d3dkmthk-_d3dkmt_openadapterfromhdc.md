@@ -5,6 +5,7 @@ description: The D3DKMT_OPENADAPTERFROMHDC structure describes the mapping of a 
 old-location: display\d3dkmt_openadapterfromhdc.htm
 ms.assetid: db425b8c-4abd-4998-89bb-f6d9f066a3f6
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_OPENADAPTERFROMHDC structure"]
 ms.keywords: D3DKMT_OPENADAPTERFROMHDC, D3DKMT_OPENADAPTERFROMHDC structure [Display Devices], OpenGL_Structs_a4c2aa1b-b17c-4e81-a0d2-9776cec61112.xml, _D3DKMT_OPENADAPTERFROMHDC, d3dkmthk/D3DKMT_OPENADAPTERFROMHDC, display.d3dkmt_openadapterfromhdc
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENADAPTERFROMHDC"

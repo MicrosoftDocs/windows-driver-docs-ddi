@@ -6,6 +6,7 @@ old-location: print\xpsrasterizationfactory1_createrasterizer1.htm
 tech.root: print
 ms.assetid: 00F1C6B7-9AD8-4E42-B433-4BD73E85CFA3
 ms.date: 04/20/2018
+keywords: ["IXpsRasterizationFactory1::CreateRasterizer"]
 ms.keywords: CreateRasterizer, CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices],IXPSRasterizationFactory1 interface, IXPSRasterizationFactory1 interface [Print Devices],CreateRasterizer method, IXPSRasterizationFactory1::CreateRasterizer, IXpsRasterizationFactory1.CreateRasterizer, IXpsRasterizationFactory1::CreateRasterizer, print.xpsrasterizationfactory1_createrasterizer1, xpsrassvc/IXPSRasterizationFactory1::CreateRasterizer
 f1_keywords:
  - "xpsrassvc/IXPSRasterizationFactory1.CreateRasterizer"

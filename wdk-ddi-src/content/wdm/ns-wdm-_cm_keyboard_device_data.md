@@ -6,6 +6,7 @@ old-location: kernel\cm_keyboard_device_data.htm
 tech.root: kernel
 ms.assetid: 928cc1b6-4569-4ca1-9410-d864b5556b86
 ms.date: 04/30/2018
+keywords: ["_CM_KEYBOARD_DEVICE_DATA structure"]
 ms.keywords: "*PCM_KEYBOARD_DEVICE_DATA, CM_KEYBOARD_DEVICE_DATA, CM_KEYBOARD_DEVICE_DATA structure [Kernel-Mode Driver Architecture], PCM_KEYBOARD_DEVICE_DATA, PCM_KEYBOARD_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], _CM_KEYBOARD_DEVICE_DATA, kernel.cm_keyboard_device_data, kstruct_a_db7af30d-3698-4c1a-b1ee-9b7e95e7b5fd.xml, wdm/CM_KEYBOARD_DEVICE_DATA, wdm/PCM_KEYBOARD_DEVICE_DATA"
 f1_keywords:
  - "wdm/CM_KEYBOARD_DEVICE_DATA"

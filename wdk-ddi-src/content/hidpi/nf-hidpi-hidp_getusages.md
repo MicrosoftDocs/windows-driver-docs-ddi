@@ -6,6 +6,7 @@ old-location: hid\hidp_getusages.htm
 tech.root: hid
 ms.assetid: e35ae7c6-2cf4-4f20-bb00-7f33ae133118
 ms.date: 04/30/2018
+keywords: ["HidP_GetUsages function"]
 ms.keywords: HidP_GetUsages, HidP_GetUsages routine [Human Input Devices], hid.hidp_getusages, hidfunc_ed08f7c0-5435-417a-958f-34a6cbb1f541.xml, hidpi/HidP_GetUsages
 f1_keywords:
  - "hidpi/HidP_GetUsages"

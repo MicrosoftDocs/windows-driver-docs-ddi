@@ -6,6 +6,7 @@ old-location: wdf\iusbtargetpipecontinuousreadercallbackreadcomplete.htm
 tech.root: wdf
 ms.assetid: 953048ab-872c-4b94-8aef-bcfcb86ea4d8
 ms.date: 02/26/2018
+keywords: ["IUsbTargetPipeContinuousReaderCallbackReadComplete interface"]
 ms.keywords: IUsbTargetPipeContinuousReaderCallbackReadComplete, IUsbTargetPipeContinuousReaderCallbackReadComplete interface, IUsbTargetPipeContinuousReaderCallbackReadComplete interface,described, UMDFUSBref_bb387411-90fe-4347-910f-4c0fa535a309.xml, umdf.iusbtargetpipecontinuousreadercallbackreadcomplete, wdf.iusbtargetpipecontinuousreadercallbackreadcomplete, wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete
 f1_keywords:
  - "wudfusb/IUsbTargetPipeContinuousReaderCallbackReadComplete"

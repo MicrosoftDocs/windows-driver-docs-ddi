@@ -6,6 +6,7 @@ old-location: dtf\iwdtfsimpleiostressaction2_stop.htm
 tech.root: dtf
 ms.assetid: d813b9f4-95f7-49cd-97c0-08a04dbd362e
 ms.date: 04/04/2018
+keywords: ["IWDTFSimpleIOStressAction2::Stop"]
 ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],Stop method, IWDTFSimpleIOStressAction2.Stop, IWDTFSimpleIOStressAction2::Stop, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Stop, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Stop, Stop, Stop method [Windows Device Testing Framework], Stop method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_stop, wdtfinterfaces/IWDTFSimpleIOStressAction2::Stop
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOStressAction2.Stop"

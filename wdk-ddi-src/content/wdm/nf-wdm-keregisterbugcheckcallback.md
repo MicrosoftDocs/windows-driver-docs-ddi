@@ -6,6 +6,7 @@ old-location: kernel\keregisterbugcheckcallback.htm
 tech.root: kernel
 ms.assetid: 6a4ab5a4-4d09-4fd5-bc7b-0a8e5a634eb3
 ms.date: 04/30/2018
+keywords: ["KeRegisterBugCheckCallback function"]
 ms.keywords: KeRegisterBugCheckCallback, KeRegisterBugCheckCallback routine [Kernel-Mode Driver Architecture], k105_42736e68-1f5a-47df-976a-df3bfa9a356e.xml, kernel.keregisterbugcheckcallback, wdm/KeRegisterBugCheckCallback
 f1_keywords:
  - "wdm/KeRegisterBugCheckCallback"

@@ -6,6 +6,7 @@ old-location: netvista\miniportwdirxthrottle.htm
 tech.root: netvista
 ms.assetid: A5985C6D-3768-4ACE-B52B-3D3494334114
 ms.date: 05/02/2018
+keywords: ["MINIPORT_WDI_RX_THROTTLE callback function"]
 ms.keywords: MINIPORT_WDI_RX_THROTTLE, MINIPORT_WDI_RX_THROTTLE callback, MiniportWdiRxThrottle, MiniportWdiRxThrottle callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxThrottle, netvista.miniportwdirxthrottle
 f1_keywords:
  - "dot11wdi/MiniportWdiRxThrottle"

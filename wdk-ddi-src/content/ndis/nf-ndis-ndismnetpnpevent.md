@@ -6,6 +6,7 @@ old-location: netvista\ndismnetpnpevent.htm
 tech.root: netvista
 ms.assetid: cbb097c1-dd20-4c6d-b23a-1e7683ac3e94
 ms.date: 05/02/2018
+keywords: ["NdisMNetPnPEvent function"]
 ms.keywords: NdisMNetPnPEvent, NdisMNetPnPEvent function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_0f39567c-b58c-438e-936e-36323bbc2ea6.xml, ndis/NdisMNetPnPEvent, netvista.ndismnetpnpevent
 f1_keywords:
  - "ndis/NdisMNetPnPEvent"

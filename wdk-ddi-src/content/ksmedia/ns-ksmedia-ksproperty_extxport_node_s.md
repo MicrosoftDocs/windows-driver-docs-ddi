@@ -6,6 +6,7 @@ old-location: stream\ksproperty_extxport_node_s.htm
 tech.root: stream
 ms.assetid: e0321fa8-610b-4920-8be8-dd91a3452beb
 ms.date: 04/30/2019
+keywords: ["KSPROPERTY_EXTXPORT_NODE_S structure"]
 ms.keywords: "*PKSPROPERTY_EXTXPORT_NODE_S, KSPROPERTY_EXTXPORT_NODE_S, KSPROPERTY_EXTXPORT_NODE_S structure [Streaming Media Devices], PKSPROPERTY_EXTXPORT_NODE_S, PKSPROPERTY_EXTXPORT_NODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_EXTXPORT_NODE_S, ksmedia/PKSPROPERTY_EXTXPORT_NODE_S, stream.ksproperty_extxport_node_s, vidcapstruct_06823ca7-5d41-494c-879e-0835ab0b447f.xml"
 f1_keywords:
  - "ksmedia/KSPROPERTY_EXTXPORT_NODE_S"

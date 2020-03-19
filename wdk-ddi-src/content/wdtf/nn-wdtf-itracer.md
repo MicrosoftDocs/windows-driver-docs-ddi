@@ -6,6 +6,7 @@ old-location: dtf\itracer.htm
 tech.root: dtf
 ms.assetid: 3873ed15-cb68-4442-8b4d-e4b370d29728
 ms.date: 04/04/2018
+keywords: ["ITracer interface"]
 ms.keywords: ITracer, ITracer interface [Windows Device Testing Framework], ITracer interface [Windows Device Testing Framework],described, ITracer_dcaa8d23-ed67-4084-b214-0e2506076e77.xml, dtf.itracer, wdtf/ITracer
 f1_keywords:
  - "wdtf/ITracer"

@@ -6,6 +6,7 @@ old-location: pci\pci_express_root_error_command.htm
 tech.root: PCI
 ms.assetid: 659c0612-5623-4615-b9c5-6d2656097b89
 ms.date: 02/24/2018
+keywords: ["_PCI_EXPRESS_ROOT_ERROR_COMMAND structure"]
 ms.keywords: "*PPCI_EXPRESS_ROOT_ERROR_COMMAND, PCI.pci_express_root_error_command, PCI_EXPRESS_ROOT_ERROR_COMMAND, PCI_EXPRESS_ROOT_ERROR_COMMAND union [Buses], PPCI_EXPRESS_ROOT_ERROR_COMMAND, PPCI_EXPRESS_ROOT_ERROR_COMMAND union pointer [Buses], _PCI_EXPRESS_ROOT_ERROR_COMMAND, pci_struct_f7834746-d8b5-4765-8434-8f7837a47871.xml, wdm/PCI_EXPRESS_ROOT_ERROR_COMMAND, wdm/PPCI_EXPRESS_ROOT_ERROR_COMMAND"
 f1_keywords:
  - "wdm/PCI_EXPRESS_ROOT_ERROR_COMMAND"

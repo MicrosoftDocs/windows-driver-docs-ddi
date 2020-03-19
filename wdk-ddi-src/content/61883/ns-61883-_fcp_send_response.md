@@ -6,6 +6,7 @@ old-location: ieee\fcp_send_response.htm
 tech.root: IEEE
 ms.assetid: 65C76CA1-F7F2-4DFD-B928-0595A137BF28
 ms.date: 02/15/2018
+keywords: ["_FCP_SEND_RESPONSE structure"]
 ms.keywords: "*PFCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE, 61883/PFCP_SEND_RESPONSE, FCP_SEND_RESPONSE, FCP_SEND_RESPONSE structure [Buses], IEEE.fcp_send_response, PFCP_SEND_RESPONSE, PFCP_SEND_RESPONSE structure pointer [Buses], _FCP_SEND_RESPONSE"
 f1_keywords:
  - "61883/FCP_SEND_RESPONSE"

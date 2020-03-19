@@ -6,6 +6,7 @@ old-location: debugger\idebugeventcallbackswide_breakpoint.htm
 tech.root: debugger
 ms.assetid: ee9b9b6c-c76e-4979-9f23-c411fe1b002a
 ms.date: 05/03/2018
+keywords: ["IDebugEventCallbacksWide::Breakpoint"]
 ms.keywords: Breakpoint, Breakpoint method [Windows Debugging], Breakpoint method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],Breakpoint method, IDebugEventCallbacksWide.Breakpoint, IDebugEventCallbacksWide::Breakpoint, dbgeng/IDebugEventCallbacksWide::Breakpoint, debugger.idebugeventcallbackswide_breakpoint
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.Breakpoint"

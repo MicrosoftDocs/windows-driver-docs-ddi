@@ -6,6 +6,7 @@ old-location: audio\iportwavertstream_allocatepagesformdl.htm
 tech.root: audio
 ms.assetid: 44839b9e-f206-49e6-a9f6-14e79d1e0ae2
 ms.date: 05/08/2018
+keywords: ["IPortWaveRTStream::AllocatePagesForMdl"]
 ms.keywords: AllocatePagesForMdl, AllocatePagesForMdl method [Audio Devices], AllocatePagesForMdl method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],AllocatePagesForMdl method, IPortWaveRTStream.AllocatePagesForMdl, IPortWaveRTStream::AllocatePagesForMdl, audio.iportwavertstream_allocatepagesformdl, audmp-routines_2722e5c2-7fd2-4b72-acbf-474313bca229.xml, portcls/IPortWaveRTStream::AllocatePagesForMdl
 f1_keywords:
  - "portcls/IPortWaveRTStream.AllocatePagesForMdl"

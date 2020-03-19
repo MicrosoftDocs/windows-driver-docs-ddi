@@ -6,6 +6,7 @@ old-location: netvista\ndisgetpoolfromnetbuffer.htm
 tech.root: netvista
 ms.assetid: 64bb049a-6b8a-470f-8269-8a168761e388
 ms.date: 05/02/2018
+keywords: ["NdisGetPoolFromNetBuffer function"]
 ms.keywords: NdisGetPoolFromNetBuffer, NdisGetPoolFromNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisGetPoolFromNetBuffer, ndis_netbuf_functions_ref_ae9f36c7-ab1c-4ea4-9721-2fd15aabc667.xml, netvista.ndisgetpoolfromnetbuffer
 f1_keywords:
  - "ndis/NdisGetPoolFromNetBuffer"

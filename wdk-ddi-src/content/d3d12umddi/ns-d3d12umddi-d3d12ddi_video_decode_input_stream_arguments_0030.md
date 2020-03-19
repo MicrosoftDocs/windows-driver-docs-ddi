@@ -5,6 +5,7 @@ description: Video decode input stream arguments.
 old-location: display\d3d12ddi-video-decode-input-stream-arguments-0030.htm
 ms.assetid: 186115c0-14ed-4ca0-9f47-fdcf8f0b586c
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030, display.d3d12ddi-video-decode-input-stream-arguments-0030
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030"

@@ -5,6 +5,7 @@ description: The CalcPrivateOpenedResourceSize function determines the size of t
 old-location: display\calcprivateopenedresourcesize.htm
 ms.assetid: 000688fb-6475-4dab-bb65-91c899a592a7
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE callback function"]
 ms.keywords: CalcPrivateOpenedResourceSize, CalcPrivateOpenedResourceSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE, PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE callback, UserModeDisplayDriverDx10_Functions_1be7ba80-5ffc-4871-b687-f12b4a81fad0.xml, d3d10umddi/CalcPrivateOpenedResourceSize, display.calcprivateopenedresourcesize
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

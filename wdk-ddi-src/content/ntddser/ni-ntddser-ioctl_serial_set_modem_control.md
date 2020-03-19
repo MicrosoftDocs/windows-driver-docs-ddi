@@ -6,6 +6,7 @@ old-location: serports\ioctl_serial_set_modem_control.htm
 tech.root: serports
 ms.assetid: 3ec5c4ab-d5da-44c7-9a62-c25d04dbef41
 ms.date: 04/23/2018
+keywords: ["IOCTL_SERIAL_SET_MODEM_CONTROL IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_MODEM_CONTROL, IOCTL_SERIAL_SET_MODEM_CONTROL control, IOCTL_SERIAL_SET_MODEM_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_MODEM_CONTROL, serports.ioctl_serial_set_modem_control, serref_a7d7db4d-c889-4a99-b21b-9efb533901a9.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_MODEM_CONTROL"

@@ -6,6 +6,7 @@ old-location: ifsk\keremovequeue.htm
 tech.root: ifsk
 ms.assetid: 475e352a-b6ea-4e37-ad46-e94284caa105
 ms.date: 04/16/2018
+keywords: ["KeRemoveQueue function"]
 ms.keywords: KeRemoveQueue, KeRemoveQueue routine [Installable File System Drivers], ifsk.keremovequeue, keref_99014b0b-5ca1-4cda-8422-fc3819f42d8b.xml, ntifs/KeRemoveQueue
 f1_keywords:
  - "ntifs/KeRemoveQueue"

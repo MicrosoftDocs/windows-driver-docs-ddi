@@ -6,6 +6,7 @@ old-location: debugger\getlogmask.htm
 tech.root: debugger
 ms.assetid: 32d36b6d-9887-43ac-9314-fc682705131e
 ms.date: 05/03/2018
+keywords: ["IDebugControl2::GetLogMask"]
 ms.keywords: GetLogMask, GetLogMask method [Windows Debugging], GetLogMask method [Windows Debugging],IDebugControl interface, GetLogMask method [Windows Debugging],IDebugControl2 interface, GetLogMask method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetLogMask method, IDebugControl2 interface [Windows Debugging],GetLogMask method, IDebugControl2.GetLogMask, IDebugControl2::GetLogMask, IDebugControl3 interface [Windows Debugging],GetLogMask method, IDebugControl3::GetLogMask, IDebugControl::GetLogMask, IDebugControl_a3ef306a-5134-49c7-b589-65a4afaa90ac.xml, dbgeng/IDebugControl2::GetLogMask, dbgeng/IDebugControl3::GetLogMask, dbgeng/IDebugControl::GetLogMask, debugger.getlogmask
 f1_keywords:
  - "dbgeng/IDebugControl.GetLogMask"

@@ -6,6 +6,7 @@ old-location: netvista\riluiccapppersocheckstatusstate.htm
 tech.root: netvista
 ms.assetid: d41d5559-b9ec-4ae5-b658-8f75e8af13e4
 ms.date: 05/02/2018
+keywords: ["RILUICCAPPPERSOCHECKSTATUSSTATE enumeration"]
 ms.keywords: RILUICCAPPPERSOCHECKSTATUSSTATE, RILUICCAPPPERSOCHECKSTATUSSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_PERSOCHECKSTATE_FAIL, RIL_PERSOCHECKSTATE_MAX, RIL_PERSOCHECKSTATE_PASS, netvista.riluiccapppersocheckstatusstate, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUSSTATE, ntddrilapitypes/RIL_PERSOCHECKSTATE_FAIL, ntddrilapitypes/RIL_PERSOCHECKSTATE_MAX, ntddrilapitypes/RIL_PERSOCHECKSTATE_PASS
 f1_keywords:
  - "ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUSSTATE"

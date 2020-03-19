@@ -6,6 +6,7 @@ old-location: parports\pparallel_free_routine.htm
 tech.root: parports
 ms.assetid: 730872ee-3dfd-48c7-a86e-1a420e59471f
 ms.date: 02/15/2018
+keywords: ["PPARALLEL_FREE_ROUTINE callback"]
 ms.keywords: "(*PPARALLEL_FREE_ROUTINE), (*PPARALLEL_FREE_ROUTINE) callback function [Parallel Ports], cisspd_5f5bcbed-0df6-4b2a-ab88-a26f48976ad7.xml, parallel/(*PPARALLEL_FREE_ROUTINE), parports.pparallel_free_routine"
 f1_keywords:
  - "parallel/(*PPARALLEL_FREE_ROUTINE)"

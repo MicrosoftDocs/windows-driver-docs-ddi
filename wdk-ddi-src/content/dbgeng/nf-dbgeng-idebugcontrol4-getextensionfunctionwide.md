@@ -6,6 +6,7 @@ old-location: debugger\getextensionfunctionwide.htm
 tech.root: debugger
 ms.assetid: 351859d5-89fb-4756-a75b-fd4048cb20ef
 ms.date: 05/03/2018
+keywords: ["IDebugControl4::GetExtensionFunctionWide"]
 ms.keywords: GetExtensionFunctionWide, GetExtensionFunctionWide method [Windows Debugging], GetExtensionFunctionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExtensionFunctionWide method, IDebugControl4.GetExtensionFunctionWide, IDebugControl4::GetExtensionFunctionWide, dbgeng/IDebugControl4::GetExtensionFunctionWide, debugger.getextensionfunctionwide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetExtensionFunctionWide"

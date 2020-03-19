@@ -4,6 +4,7 @@ title: _ENCRYPTION_KEY_CTRL_INPUT (ntifs.h)
 description: 
 ms.assetid: 33f076b8-ade2-4a34-b3ca-92baf4dcd416
 ms.date: 10/19/2018
+keywords: ["_ENCRYPTION_KEY_CTRL_INPUT structure"]
 f1_keywords:
  - "ntifs/_ENCRYPTION_KEY_CTRL_INPUT"
 ms.keywords: _ENCRYPTION_KEY_CTRL_INPUT, ENCRYPTION_KEY_CTRL_INPUT, *PENCRYPTION_KEY_CTRL_INPUT, 

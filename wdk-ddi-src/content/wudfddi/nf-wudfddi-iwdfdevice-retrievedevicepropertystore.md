@@ -6,6 +6,7 @@ old-location: wdf\iwdfdevice_retrievedevicepropertystore.htm
 tech.root: wdf
 ms.assetid: be47a1f0-03ff-432c-a3ef-5978c9b48183
 ms.date: 02/26/2018
+keywords: ["IWDFDevice::RetrieveDevicePropertyStore"]
 ms.keywords: IWDFDevice interface,RetrieveDevicePropertyStore method, IWDFDevice.RetrieveDevicePropertyStore, IWDFDevice::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method,IWDFDevice interface, UMDFDeviceObjectRef_daa1a135-2ca7-4d59-92b0-b44c917af73d.xml, umdf.iwdfdevice_retrievedevicepropertystore, wdf.iwdfdevice_retrievedevicepropertystore, wudfddi/IWDFDevice::RetrieveDevicePropertyStore
 f1_keywords:
  - "wudfddi/IWDFDevice.RetrieveDevicePropertyStore"

@@ -6,6 +6,7 @@ old-location: audio\sysaudio_select_graph.htm
 tech.root: audio
 ms.assetid: f114e8ef-4fb7-4fdd-9c83-d8e74c91190e
 ms.date: 04/30/2019
+keywords: ["SYSAUDIO_SELECT_GRAPH structure"]
 ms.keywords: "*PSYSAUDIO_SELECT_GRAPH, PSYSAUDIO_SELECT_GRAPH, PSYSAUDIO_SELECT_GRAPH structure pointer [Audio Devices], SYSAUDIO_SELECT_GRAPH, SYSAUDIO_SELECT_GRAPH structure [Audio Devices], aud-prop_9dd94d88-2ed4-4908-ac6e-eb1a82ea152d.xml, audio.sysaudio_select_graph, ksmedia/PSYSAUDIO_SELECT_GRAPH, ksmedia/SYSAUDIO_SELECT_GRAPH"
 f1_keywords:
  - "ksmedia/SYSAUDIO_SELECT_GRAPH"

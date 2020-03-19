@@ -5,6 +5,7 @@ description: The D3D10_2DDIARG_GETCAPS structure contains display device capabil
 old-location: display\d3d10_2ddiarg_getcaps.htm
 ms.assetid: 3a22464f-4e0b-4b14-bdbf-b34b3abf9780
 ms.date: 05/10/2018
+keywords: ["D3D10_2DDIARG_GETCAPS structure"]
 ms.keywords: D3D10_2DDIARG_GETCAPS, D3D10_2DDIARG_GETCAPS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_0d9c80db-e29f-4e2f-b697-bcf87f29034c.xml, d3d10umddi/D3D10_2DDIARG_GETCAPS, display.d3d10_2ddiarg_getcaps
 f1_keywords:
  - "d3d10umddi/D3D10_2DDIARG_GETCAPS"

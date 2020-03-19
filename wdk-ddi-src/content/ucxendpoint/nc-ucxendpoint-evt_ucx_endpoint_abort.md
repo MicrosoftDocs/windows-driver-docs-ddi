@@ -6,6 +6,7 @@ old-location: buses\evt_ucx_endpoint_abort.htm
 tech.root: usbref
 ms.assetid: b457d0b5-30a2-42f9-9194-8c60af790f75
 ms.date: 05/07/2018
+keywords: ["EVT_UCX_ENDPOINT_ABORT callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_ABORT, EVT_UCX_ENDPOINT_ABORT callback, EvtUcxEndpointAbort, EvtUcxEndpointAbort callback function [Buses], PEVT_UCX_ENDPOINT_ABORT, PEVT_UCX_ENDPOINT_ABORT callback function pointer [Buses], buses.evt_ucx_endpoint_abort, ucxendpoint/EvtUcxEndpointAbort
 f1_keywords:
  - "ucxendpoint/PEVT_UCX_ENDPOINT_ABORT"

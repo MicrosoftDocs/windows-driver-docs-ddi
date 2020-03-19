@@ -6,6 +6,7 @@ old-location: display\pfnsetmarker.htm
 tech.root: display
 ms.assetid: 6D4DB988-D339-4B2F-A9B8-41B4FD21FE66
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_SETMARKER callback function"]
 ms.keywords: PFND3DDDI_SETMARKER, PFND3DDDI_SETMARKER callback, d3dumddi/pfnSetMarker, display.pfnsetmarker, pfnSetMarker, pfnSetMarker callback function [Display Devices]
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h

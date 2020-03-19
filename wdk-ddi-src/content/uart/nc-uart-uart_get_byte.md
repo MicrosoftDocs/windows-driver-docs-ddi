@@ -5,6 +5,7 @@ description: Reads a data byte from the UART device.
 tech.root: serports
 ms.assetid: d0b97aa3-4e93-498d-8afc-44588fd21388
 ms.date: 10/19/2018
+keywords: ["UART_GET_BYTE callback function"]
 f1_keywords:
  - "uart/UART_GET_BYTE"
 req.header: uart.h

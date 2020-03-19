@@ -6,6 +6,7 @@ old-location: ifsk\rxstopminirdr.htm
 tech.root: ifsk
 ms.assetid: 059d2a99-f4da-45f1-8d91-0e57930595d2
 ms.date: 04/16/2018
+keywords: ["RxStopMinirdr function"]
 ms.keywords: RxStopMinirdr, RxStopMinirdr function [Installable File System Drivers], ifsk.rxstopminirdr, mrx/RxStopMinirdr, rxref_3ec6b643-e13c-4aa6-879b-fdb2076e549d.xml
 f1_keywords:
  - "mrx/RxStopMinirdr"

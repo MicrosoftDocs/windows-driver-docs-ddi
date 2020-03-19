@@ -6,6 +6,7 @@ old-location: kernel\clfsreadrestartarea.htm
 tech.root: kernel
 ms.assetid: d391a7ed-220e-412a-8e32-22b206c7a062
 ms.date: 04/30/2018
+keywords: ["ClfsReadRestartArea function"]
 ms.keywords: ClfsReadRestartArea, ClfsReadRestartArea routine [Kernel-Mode Driver Architecture], Clfs_bce9c012-cc19-472e-a1b3-c2d83435c6c0.xml, kernel.clfsreadrestartarea, wdm/ClfsReadRestartArea
 f1_keywords:
  - "wdm/ClfsReadRestartArea"

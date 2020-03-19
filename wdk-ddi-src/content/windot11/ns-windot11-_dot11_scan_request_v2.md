@@ -6,6 +6,7 @@ old-location: netvista\dot11_scan_request_v2.htm
 tech.root: netvista
 ms.assetid: fd6dd2f4-ee58-46da-ba87-5aecaff35dd0
 ms.date: 02/16/2018
+keywords: ["_DOT11_SCAN_REQUEST_V2 structure"]
 ms.keywords: "*PDOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2, DOT11_SCAN_REQUEST_V2 structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e7a02ffc-ecf6-4159-ab3d-85c87d844785.xml, PDOT11_SCAN_REQUEST_V2, PDOT11_SCAN_REQUEST_V2 structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SCAN_REQUEST_V2, netvista.dot11_scan_request_v2, windot11/DOT11_SCAN_REQUEST_V2, windot11/PDOT11_SCAN_REQUEST_V2"
 f1_keywords:
  - "windot11/DOT11_SCAN_REQUEST_V2"

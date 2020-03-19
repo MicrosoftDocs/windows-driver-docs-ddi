@@ -6,6 +6,7 @@ old-location: print\ibidirequest_ibidirequest__getresult.htm
 tech.root: print
 ms.assetid: d3d37fd2-b3fa-4664-ba4b-c355197d9b40
 ms.date: 04/20/2018
+keywords: ["IBidiRequest::GetResult"]
 ms.keywords: GetResult, GetResult method [Print Devices], GetResult method [Print Devices],IBidiRequest interface, IBidiRequest interface [Print Devices],GetResult method, IBidiRequest.GetResult, IBidiRequest::GetResult, _win32_IBidiRequest_GetResult, bidispl/IBidiRequest::GetResult, gdi.ibidirequest_ibidirequest__getresult, print.ibidirequest_ibidirequest__getresult
 f1_keywords:
  - "bidispl/IBidiRequest.GetResult"

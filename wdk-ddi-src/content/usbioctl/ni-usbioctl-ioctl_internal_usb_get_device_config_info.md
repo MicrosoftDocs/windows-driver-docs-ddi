@@ -6,6 +6,7 @@ old-location: buses\ioctl_internal_usb_get_device_config_info.htm
 tech.root: usbref
 ms.assetid: 518de598-6281-4838-b453-9f699524cbf4
 ms.date: 05/07/2018
+keywords: ["IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO, IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO control, IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO control code [Buses], buses.ioctl_internal_usb_get_device_config_info, usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO"

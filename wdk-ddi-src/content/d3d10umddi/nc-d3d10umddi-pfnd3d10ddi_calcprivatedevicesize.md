@@ -5,6 +5,7 @@ description: The CalcPrivateDeviceSize function determines the size of a memory 
 old-location: display\calcprivatedevicesize.htm
 ms.assetid: 8221a99a-1b46-48ba-8930-ac973e009eee
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CALCPRIVATEDEVICESIZE callback function"]
 ms.keywords: CalcPrivateDeviceSize, CalcPrivateDeviceSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEDEVICESIZE, PFND3D10DDI_CALCPRIVATEDEVICESIZE callback, UserModeDisplayDriverDx10_Functions_0de51abc-5fe3-4d65-bd0a-cc4f32f08d81.xml, d3d10umddi/CalcPrivateDeviceSize, display.calcprivatedevicesize
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

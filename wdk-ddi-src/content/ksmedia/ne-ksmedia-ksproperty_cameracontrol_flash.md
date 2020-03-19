@@ -6,6 +6,7 @@ old-location: stream\ksproperty_cameracontrol_flash.htm
 tech.root: stream
 ms.assetid: 7d5de6db-70a1-4d4a-b563-4a281cd0d68d
 ms.date: 04/23/2018
+keywords: ["KSPROPERTY_CAMERACONTROL_FLASH enumeration"]
 ms.keywords: KSPROPERTY_CAMERACONTROL_FLASH, KSPROPERTY_CAMERACONTROL_FLASH enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_FLASH, ksmedia/KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID, stream.ksproperty_cameracontrol_flash
 f1_keywords:
  - "ksmedia/KSPROPERTY_CAMERACONTROL_FLASH"

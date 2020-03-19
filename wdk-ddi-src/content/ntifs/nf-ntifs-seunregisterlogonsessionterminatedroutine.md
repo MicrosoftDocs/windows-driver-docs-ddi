@@ -6,6 +6,7 @@ old-location: ifsk\seunregisterlogonsessionterminatedroutine.htm
 tech.root: ifsk
 ms.assetid: 74f24296-cd42-402b-a61f-0199c4a07fd0
 ms.date: 04/16/2018
+keywords: ["SeUnregisterLogonSessionTerminatedRoutine function"]
 ms.keywords: SeUnregisterLogonSessionTerminatedRoutine, SeUnregisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], ifsk.seunregisterlogonsessionterminatedroutine, ntifs/SeUnregisterLogonSessionTerminatedRoutine, seref_dbf0d7bc-c252-4805-99e1-075ce9e08ddc.xml
 f1_keywords:
  - "ntifs/SeUnregisterLogonSessionTerminatedRoutine"

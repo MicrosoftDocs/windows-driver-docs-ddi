@@ -6,6 +6,7 @@ old-location: storage\ataportmovememory.htm
 tech.root: storage
 ms.assetid: c9d724bb-cc65-428c-ad48-21b227f3c8b1
 ms.date: 03/29/2018
+keywords: ["AtaPortMoveMemory function"]
 ms.keywords: AtaPortMoveMemory, AtaPortMoveMemory routine [Storage Devices], atartns_9ecea2c5-892f-4d04-9865-30598ac4e5d6.xml, irb/AtaPortMoveMemory, storage.ataportmovememory
 f1_keywords:
  - "irb/AtaPortMoveMemory"

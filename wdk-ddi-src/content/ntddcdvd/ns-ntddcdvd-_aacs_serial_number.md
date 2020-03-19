@@ -6,6 +6,7 @@ old-location: storage\aacs_serial_number.htm
 tech.root: storage
 ms.assetid: 1436c8a5-9160-41d8-acc1-0af6acadfdba
 ms.date: 03/29/2018
+keywords: ["_AACS_SERIAL_NUMBER structure"]
 ms.keywords: "*PAACS_SERIAL_NUMBER, AACS_SERIAL_NUMBER, AACS_SERIAL_NUMBER structure [Storage Devices], PAACS_SERIAL_NUMBER, PAACS_SERIAL_NUMBER structure pointer [Storage Devices], _AACS_SERIAL_NUMBER, ntddcdvd/AACS_SERIAL_NUMBER, ntddcdvd/PAACS_SERIAL_NUMBER, storage.aacs_serial_number, structs-DVD_baba43db-de96-4f55-9d26-46cc56dce390.xml"
 f1_keywords:
  - "ntddcdvd/AACS_SERIAL_NUMBER"

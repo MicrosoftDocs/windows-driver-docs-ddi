@@ -6,6 +6,7 @@ old-location: wdf\wdfdeviceinitassignwdmirppreprocesscallback.htm
 tech.root: wdf
 ms.assetid: 9c17a5e2-dcf2-493a-9851-11d47adbfc82
 ms.date: 02/26/2018
+keywords: ["WdfDeviceInitAssignWdmIrpPreprocessCallback function"]
 ms.keywords: DFDeviceObjectGeneralRef_ff2869f4-a557-4d3a-bd4d-67b8e1720ba9.xml, WdfDeviceInitAssignWdmIrpPreprocessCallback, WdfDeviceInitAssignWdmIrpPreprocessCallback method, kmdf.wdfdeviceinitassignwdmirppreprocesscallback, wdf.wdfdeviceinitassignwdmirppreprocesscallback, wdfdevice/WdfDeviceInitAssignWdmIrpPreprocessCallback
 f1_keywords:
  - "wdfdevice/WdfDeviceInitAssignWdmIrpPreprocessCallback"

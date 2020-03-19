@@ -6,6 +6,7 @@ old-location: ifsk\fltcreatesectionfordatascan.htm
 tech.root: ifsk
 ms.assetid: D1215495-C737-45B6-BECD-8CB430C71DE8
 ms.date: 04/16/2018
+keywords: ["FltCreateSectionForDataScan function"]
 ms.keywords: FltCreateSectionForDataScan, FltCreateSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCreateSectionForDataScan, ifsk.fltcreatesectionfordatascan
 f1_keywords:
  - "fltkernel/FltCreateSectionForDataScan"

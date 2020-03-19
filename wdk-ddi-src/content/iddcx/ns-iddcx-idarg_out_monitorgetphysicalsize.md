@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 2f76bdfa-1d47-4304-98ef-1323cdce51dd
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["IDARG_OUT_MONITORGETPHYSICALSIZE structure"]
 f1_keywords:
  - "iddcx/IDARG_OUT_MONITORGETPHYSICALSIZE"
 ms.prod: windows-hardware

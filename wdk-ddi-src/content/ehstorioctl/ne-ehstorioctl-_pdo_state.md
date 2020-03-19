@@ -6,6 +6,7 @@ old-location: storage\pdo_state.htm
 tech.root: storage
 ms.assetid: 006e2cef-4e49-4819-bfce-d9bf5983643e
 ms.date: 03/29/2018
+keywords: ["_PDO_STATE enumeration"]
 ms.keywords: PDO_STATE, PDO_STATE enumeration [Storage Devices], PDO_STATE_NOT_STARTED, PDO_STATE_STARTED, PDO_STATE_UNDEFINED, _PDO_STATE, ehstorioctl/PDO_STATE, ehstorioctl/PDO_STATE_NOT_STARTED, ehstorioctl/PDO_STATE_STARTED, ehstorioctl/PDO_STATE_UNDEFINED, storage.pdo_state, structs-silo_257b3a10-590b-4e1e-a66a-c84b4ea3b125.xml
 f1_keywords:
  - "ehstorioctl/PDO_STATE"

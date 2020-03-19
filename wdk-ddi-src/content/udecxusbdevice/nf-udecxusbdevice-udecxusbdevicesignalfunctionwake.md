@@ -6,6 +6,7 @@ old-location: buses\udecxusbdevicesignalfunctionwake.htm
 tech.root: usbref
 ms.assetid: 82B3B3BD-CEAC-427E-A89E-84CBE85BDBE7
 ms.date: 05/07/2018
+keywords: ["UdecxUsbDeviceSignalFunctionWake function"]
 ms.keywords: UdecxUsbDeviceSignalFunctionWake, UdecxUsbDeviceSignalFunctionWake function [Buses], buses.udecxusbdevicesignalfunctionwake, udecxusbdevice/UdecxUsbDeviceSignalFunctionWake
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceSignalFunctionWake"

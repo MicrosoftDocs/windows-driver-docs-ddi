@@ -6,6 +6,7 @@ old-location: ifsk\rtlfreeheap.htm
 tech.root: ifsk
 ms.assetid: 5e8b6bd7-71e7-45ad-985c-fe197693ce05
 ms.date: 04/16/2018
+keywords: ["RtlFreeHeap function"]
 ms.keywords: RtlFreeHeap, RtlFreeHeap routine [Installable File System Drivers], ifsk.rtlfreeheap, ntifs/RtlFreeHeap, rtlref_02e7cb93-ec45-41c9-8e58-72c221cece37.xml
 f1_keywords:
  - "ntifs/RtlFreeHeap"

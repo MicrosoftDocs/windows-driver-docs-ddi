@@ -6,6 +6,7 @@ old-location: audio\imxf.htm
 tech.root: audio
 ms.assetid: 97e24c86-a97d-42ed-9402-4c387c7cec5b
 ms.date: 03/19/2018
+keywords: ["IMXF interface"]
 ms.keywords: IMXF, IMXF interface [Audio Devices], IMXF interface [Audio Devices], described, audio.imxf, audmp-routines_41562676-678d-48c5-8a19-2c8699420a51.xml, dmusicks/IMXF
 f1_keywords:
  - "dmusicks/IMXF"

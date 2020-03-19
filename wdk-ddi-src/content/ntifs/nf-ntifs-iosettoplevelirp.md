@@ -6,6 +6,7 @@ old-location: ifsk\iosettoplevelirp.htm
 tech.root: ifsk
 ms.assetid: 10d1889b-d79c-4c06-a012-77414c88ce17
 ms.date: 04/16/2018
+keywords: ["IoSetTopLevelIrp function"]
 ms.keywords: IoSetTopLevelIrp, IoSetTopLevelIrp routine [Installable File System Drivers], ifsk.iosettoplevelirp, ioref_1c046677-97df-4f46-956c-108a203f83f2.xml, ntifs/IoSetTopLevelIrp
 f1_keywords:
  - "ntifs/IoSetTopLevelIrp"

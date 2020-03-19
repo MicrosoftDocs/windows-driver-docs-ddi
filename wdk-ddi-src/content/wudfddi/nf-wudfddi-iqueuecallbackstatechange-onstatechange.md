@@ -6,6 +6,7 @@ old-location: wdf\iqueuecallbackstatechange_onstatechange.htm
 tech.root: wdf
 ms.assetid: 69a422a1-b878-496e-b1b9-e04b7c3db121
 ms.date: 02/26/2018
+keywords: ["IQueueCallbackStateChange::OnStateChange"]
 ms.keywords: IQueueCallbackStateChange interface,OnStateChange method, IQueueCallbackStateChange.OnStateChange, IQueueCallbackStateChange::OnStateChange, OnStateChange, OnStateChange method, OnStateChange method,IQueueCallbackStateChange interface, UMDFQueueObjectRef_194f5013-22a2-40c4-8913-9371aa281009.xml, umdf.iqueuecallbackstatechange_onstatechange, wdf.iqueuecallbackstatechange_onstatechange, wudfddi/IQueueCallbackStateChange::OnStateChange
 f1_keywords:
  - "wudfddi/IQueueCallbackStateChange.OnStateChange"

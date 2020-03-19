@@ -6,6 +6,7 @@ old-location: display\dxgkddi_exchangeprestartinfo.htm
 tech.root: display
 ms.assetid: B23EDC08-18E4-4826-AC51-163C706D4F43
 ms.date: 04/16/2018
+keywords: ["DXGKDDI_EXCHANGEPRESTARTINFO callback function"]
 ms.keywords: DXGKDDI_EXCHANGEPRESTARTINFO, DXGKDDI_EXCHANGEPRESTARTINFO callback, DXGKDDI_EXCHANGEPRESTARTINFO callback function [Display Devices], display.dxgkddi_exchangeprestartinfo, dispmprt/DXGKDDI_EXCHANGEPRESTARTINFO
 f1_keywords:
  - "dispmprt/DXGKDDI_EXCHANGEPRESTARTINFO"

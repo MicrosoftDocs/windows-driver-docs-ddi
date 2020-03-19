@@ -6,6 +6,7 @@ old-location: ifsk\fltpreparetoreuseecp.htm
 tech.root: ifsk
 ms.assetid: E08E2ED1-047B-4190-8A54-79ECC75E860F
 ms.date: 04/16/2018
+keywords: ["FltPrepareToReuseEcp function"]
 ms.keywords: FltPrepareToReuseEcp, FltPrepareToReuseEcp routine [Installable File System Drivers], fltkernel/FltPrepareToReuseEcp, ifsk.fltpreparetoreuseecp
 f1_keywords:
  - "fltkernel/FltPrepareToReuseEcp"

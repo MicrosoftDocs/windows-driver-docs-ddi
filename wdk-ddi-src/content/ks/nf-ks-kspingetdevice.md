@@ -6,6 +6,7 @@ old-location: stream\kspingetdevice.htm
 tech.root: stream
 ms.assetid: 965aa806-90cc-4c82-a126-42ae433cba3b
 ms.date: 04/23/2018
+keywords: ["KsPinGetDevice function"]
 ms.keywords: KsPinGetDevice, KsPinGetDevice function [Streaming Media Devices], avfunc_09495aa3-2bed-4093-a989-2ae444f1c372.xml, ks/KsPinGetDevice, stream.kspingetdevice
 f1_keywords:
  - "ks/KsPinGetDevice"

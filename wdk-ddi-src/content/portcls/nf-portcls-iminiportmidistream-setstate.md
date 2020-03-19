@@ -6,6 +6,7 @@ old-location: audio\iminiportmidistream_setstate.htm
 tech.root: audio
 ms.assetid: ee78013c-7660-4017-97ec-eff9068b707a
 ms.date: 05/08/2018
+keywords: ["IMiniportMidiStream::SetState"]
 ms.keywords: IMiniportMidiStream interface [Audio Devices],SetState method, IMiniportMidiStream.SetState, IMiniportMidiStream::SetState, SetState, SetState method [Audio Devices], SetState method [Audio Devices],IMiniportMidiStream interface, audio.iminiportmidistream_setstate, audmp-routines_23f064df-faef-4c45-a58e-c5e3e1d7d7a5.xml, portcls/IMiniportMidiStream::SetState
 f1_keywords:
  - "portcls/IMiniportMidiStream.SetState"

@@ -4,6 +4,7 @@ title: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR (sidebandaudio.h)
 description: Describes the characteristics of the audio Endpoint driver. 
 ms.assetid: cd266b60-42df-4655-9d71-d35ddaa6c9a7
 ms.date: 09/06/2018
+keywords: ["_SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR"
 ms.keywords: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, *PSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, 

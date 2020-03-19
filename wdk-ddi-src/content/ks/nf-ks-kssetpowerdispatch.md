@@ -6,6 +6,7 @@ old-location: stream\kssetpowerdispatch.htm
 tech.root: stream
 ms.assetid: 77ceaebe-ded1-4fbb-bc10-593ff62fcbe2
 ms.date: 04/23/2018
+keywords: ["KsSetPowerDispatch function"]
 ms.keywords: KsSetPowerDispatch, KsSetPowerDispatch routine [Streaming Media Devices], ks/KsSetPowerDispatch, ksfunc_b561e4ba-dadd-4e9c-a8e3-1d9b182cdd4f.xml, stream.kssetpowerdispatch
 f1_keywords:
  - "ks/KsSetPowerDispatch"

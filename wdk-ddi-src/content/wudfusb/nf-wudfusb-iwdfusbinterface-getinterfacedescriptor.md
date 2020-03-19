@@ -6,6 +6,7 @@ old-location: wdf\iwdfusbinterface_getinterfacedescriptor.htm
 tech.root: wdf
 ms.assetid: ae4cffc8-65db-452c-9b85-19752c32c421
 ms.date: 02/26/2018
+keywords: ["IWDFUsbInterface::GetInterfaceDescriptor"]
 ms.keywords: GetInterfaceDescriptor, GetInterfaceDescriptor method, GetInterfaceDescriptor method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetInterfaceDescriptor method, IWDFUsbInterface.GetInterfaceDescriptor, IWDFUsbInterface::GetInterfaceDescriptor, UMDFUSBref_2d9877fd-47c4-4629-8656-d5d513260b2d.xml, umdf.iwdfusbinterface_getinterfacedescriptor, wdf.iwdfusbinterface_getinterfacedescriptor, wudfusb/IWDFUsbInterface::GetInterfaceDescriptor
 f1_keywords:
  - "wudfusb/IWDFUsbInterface.GetInterfaceDescriptor"

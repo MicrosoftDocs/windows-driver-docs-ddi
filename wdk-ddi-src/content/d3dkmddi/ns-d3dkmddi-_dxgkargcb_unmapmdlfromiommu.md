@@ -4,6 +4,7 @@ title: _DXGKARGCB_UNMAPMDLFROMIOMMU (d3dkmddi.h)
 description: Arguments used by the DxgkcbUnmapmdlFromIommu callback function to release the mapping that was set by DXGKCB_MAPMDLTOIOMMU.
 ms.assetid: 39dc2658-d3dc-43fa-a29d-806db351d4d7
 ms.date: 10/19/2018
+keywords: ["_DXGKARGCB_UNMAPMDLFROMIOMMU structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARGCB_UNMAPMDLFROMIOMMU"
 ms.keywords: _DXGKARGCB_UNMAPMDLFROMIOMMU, DXGKARGCB_UNMAPMDLFROMIOMMU,

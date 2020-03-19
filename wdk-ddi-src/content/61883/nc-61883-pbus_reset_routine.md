@@ -6,6 +6,7 @@ old-location: ieee\pbus_reset_routine.htm
 tech.root: IEEE
 ms.assetid: 99555765-A58F-45A1-B146-3742C390E666
 ms.date: 02/15/2018
+keywords: ["PBUS_RESET_ROUTINE callback function"]
 ms.keywords: 61883/BusResetRoutine, BusResetRoutine, BusResetRoutine callback function [Buses], IEEE.pbus_reset_routine, PBUS_RESET_ROUTINE, PBUS_RESET_ROUTINE callback
 f1_keywords:
  - "61883/BusResetRoutine"

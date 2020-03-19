@@ -6,6 +6,7 @@ old-location: netvista\ndis_pd_filter_counter.htm
 tech.root: netvista
 ms.assetid: 74660B47-0219-4724-AD7E-B20A2BB520EB
 ms.date: 05/02/2018
+keywords: ["_NDIS_PD_FILTER_COUNTER structure"]
 ms.keywords: NDIS_PD_FILTER_COUNTER, NDIS_PD_FILTER_COUNTER structure [Network Drivers Starting with Windows Vista], PNDIS_PD_FILTER_COUNTER, PNDIS_PD_FILTER_COUNTER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_FILTER_COUNTER, ndis/NDIS_PD_FILTER_COUNTER, ndis/PNDIS_PD_FILTER_COUNTER, netvista.ndis_pd_filter_counter
 f1_keywords:
  - "ndis/NDIS_PD_FILTER_COUNTER"

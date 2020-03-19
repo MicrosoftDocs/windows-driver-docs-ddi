@@ -4,6 +4,7 @@ title: D3DKMTPresentRedirected function (d3dkmthk.h)
 description: Redirects the present command.
 ms.assetid: 1811b73a-c33f-4fd5-add5-4e6986ceb539
 ms.date: 10/19/2018
+keywords: ["D3DKMTPresentRedirected function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTPresentRedirected"
 ms.keywords: D3DKMTPresentRedirected

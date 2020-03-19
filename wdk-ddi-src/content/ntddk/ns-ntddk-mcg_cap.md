@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: ce0130b9-d5aa-4f43-96c6-f639eed5805e
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
+keywords: ["MCG_CAP structure"]
 f1_keywords:
  - "ntddk/MCG_CAP"
 ms.keywords: MCG_CAP, MCG_CAP, *PMCG_CAP, 

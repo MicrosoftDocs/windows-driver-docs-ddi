@@ -4,6 +4,7 @@ title: D3D12DDI_RESOURCE_COORDINATE_0053 (d3d12umddi.h)
 description: The resource coordinates of the video motion estimation operation.
 ms.assetid: c26f4161-09ce-43a0-a75b-61b5dffe4c3b
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_RESOURCE_COORDINATE_0053 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RESOURCE_COORDINATE_0053"
 ms.keywords: D3D12DDI_RESOURCE_COORDINATE_0053, D3D12DDI_RESOURCE_COORDINATE_0053, 

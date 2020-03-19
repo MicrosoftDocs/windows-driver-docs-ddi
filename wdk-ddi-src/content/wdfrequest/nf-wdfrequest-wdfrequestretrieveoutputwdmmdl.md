@@ -6,6 +6,7 @@ old-location: wdf\wdfrequestretrieveoutputwdmmdl.htm
 tech.root: wdf
 ms.assetid: 3f95caad-92e5-4d0f-bd9e-8873b05f2aaa
 ms.date: 02/26/2018
+keywords: ["WdfRequestRetrieveOutputWdmMdl function"]
 ms.keywords: DFRequestObjectRef_e3ef5371-4d09-406c-9a72-c420822e9fdd.xml, WdfRequestRetrieveOutputWdmMdl, WdfRequestRetrieveOutputWdmMdl method, kmdf.wdfrequestretrieveoutputwdmmdl, wdf.wdfrequestretrieveoutputwdmmdl, wdfrequest/WdfRequestRetrieveOutputWdmMdl
 f1_keywords:
  - "wdfrequest/WdfRequestRetrieveOutputWdmMdl"

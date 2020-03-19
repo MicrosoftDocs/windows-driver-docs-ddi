@@ -6,6 +6,7 @@ old-location: ifsk\rtlnextunicodeprefix.htm
 tech.root: ifsk
 ms.assetid: c4f43f4c-a598-4bda-9325-21440f56ab17
 ms.date: 04/16/2018
+keywords: ["RtlNextUnicodePrefix function"]
 ms.keywords: RtlNextUnicodePrefix, RtlNextUnicodePrefix routine [Installable File System Drivers], ifsk.rtlnextunicodeprefix, ntifs/RtlNextUnicodePrefix, rtlref_75c728f8-96b0-4e46-b47a-7d30ac61872c.xml
 f1_keywords:
  - "ntifs/RtlNextUnicodePrefix"

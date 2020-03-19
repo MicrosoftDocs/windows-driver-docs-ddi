@@ -6,6 +6,7 @@ old-location: storage\ioctl_mountmgr_query_points.htm
 tech.root: storage
 ms.assetid: 2b7f947c-2fb1-4b59-bf73-a6f0e1478be2
 ms.date: 03/29/2018
+keywords: ["IOCTL_MOUNTMGR_QUERY_POINTS IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_QUERY_POINTS, IOCTL_MOUNTMGR_QUERY_POINTS control, IOCTL_MOUNTMGR_QUERY_POINTS control code [Storage Devices], k307_2d7b44e3-c40f-4626-aad0-5e1cf8843685.xml, mountmgr/IOCTL_MOUNTMGR_QUERY_POINTS, storage.ioctl_mountmgr_query_points
 f1_keywords:
  - "mountmgr/IOCTL_MOUNTMGR_QUERY_POINTS"

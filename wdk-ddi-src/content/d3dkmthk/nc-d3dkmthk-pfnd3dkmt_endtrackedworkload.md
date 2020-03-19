@@ -4,6 +4,7 @@ title: PFND3DKMT_ENDTRACKEDWORKLOAD (d3dkmthk.h)
 description: Indicates that the tracked workload commands are done.
 ms.assetid: ebd36bfd-86a7-45f1-8b3f-2f9f639aa334
 ms.date: 10/19/2018
+keywords: ["PFND3DKMT_ENDTRACKEDWORKLOAD callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_ENDTRACKEDWORKLOAD"
 req.header: d3dkmthk.h

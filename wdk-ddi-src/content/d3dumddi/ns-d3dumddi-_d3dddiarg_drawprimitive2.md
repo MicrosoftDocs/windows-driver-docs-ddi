@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_drawprimitive2.htm
 tech.root: display
 ms.assetid: fb9668a8-54b5-4d07-8682-af2b593308a5
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_DRAWPRIMITIVE2 structure"]
 ms.keywords: D3DDDIARG_DRAWPRIMITIVE2, D3DDDIARG_DRAWPRIMITIVE2 structure [Display Devices], UMDisplayDriver_param_Structs_76f6de24-fe57-4907-a84a-692ab80e2dab.xml, _D3DDDIARG_DRAWPRIMITIVE2, d3dumddi/D3DDDIARG_DRAWPRIMITIVE2, display.d3dddiarg_drawprimitive2
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DRAWPRIMITIVE2"

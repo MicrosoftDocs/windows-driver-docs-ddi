@@ -6,6 +6,7 @@ old-location: wdf\wdf_read_port_buffer_uchar.htm
 tech.root: wdf
 ms.assetid: 1A205DD3-FCE2-4EA1-A6B3-CE60300EC651
 ms.date: 02/26/2018
+keywords: ["WDF_READ_PORT_BUFFER_UCHAR function"]
 ms.keywords: WDF_READ_PORT_BUFFER_UCHAR, WDF_READ_PORT_BUFFER_UCHAR function, wdf.wdf_read_port_buffer_uchar, wdfhwaccess/WDF_READ_PORT_BUFFER_UCHAR
 f1_keywords:
  - "wdfhwaccess/WDF_READ_PORT_BUFFER_UCHAR"

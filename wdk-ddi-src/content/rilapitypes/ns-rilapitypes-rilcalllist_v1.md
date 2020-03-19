@@ -6,6 +6,7 @@ old-location: netvista\rilcalllist_v1.htm
 tech.root: netvista
 ms.assetid: 09b4f4e7-2688-4d6e-8512-a94c5ce25a79
 ms.date: 05/02/2018
+keywords: ["RILCALLLIST_V1 structure"]
 ms.keywords: "*LPRILCALLLIST_V1, RILCALLLIST_V1, RILCALLLIST_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilcalllist_v1, ntddrilapitypes/RILCALLLIST_V1"
 f1_keywords:
  - "rilapitypes/RILCALLLIST_V1"

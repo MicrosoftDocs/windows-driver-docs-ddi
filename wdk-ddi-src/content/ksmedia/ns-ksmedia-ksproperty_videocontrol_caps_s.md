@@ -6,6 +6,7 @@ old-location: stream\ksproperty_videocontrol_caps_s.htm
 tech.root: stream
 ms.assetid: e651202a-d0da-4147-9439-6cf0731c4886
 ms.date: 04/30/2019
+keywords: ["KSPROPERTY_VIDEOCONTROL_CAPS_S structure"]
 ms.keywords: "*PKSPROPERTY_VIDEOCONTROL_CAPS_S, KSPROPERTY_VIDEOCONTROL_CAPS_S, KSPROPERTY_VIDEOCONTROL_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOCONTROL_CAPS_S, PKSPROPERTY_VIDEOCONTROL_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOCONTROL_CAPS_S, ksmedia/PKSPROPERTY_VIDEOCONTROL_CAPS_S, stream.ksproperty_videocontrol_caps_s, vidcapstruct_5b6a48da-ae8f-488c-8c9d-73de960df710.xml"
 f1_keywords:
  - "ksmedia/KSPROPERTY_VIDEOCONTROL_CAPS_S"

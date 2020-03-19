@@ -6,6 +6,7 @@ old-location: ifsk\fltenumerateinstanceinformationbydeviceobject.htm
 tech.root: ifsk
 ms.assetid: 3E7754A3-3A7A-4036-B524-CBA40EF22048
 ms.date: 04/16/2018
+keywords: ["FltEnumerateInstanceInformationByDeviceObject function"]
 ms.keywords: FltEnumerateInstanceInformationByDeviceObject, FltEnumerateInstanceInformationByDeviceObject routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByDeviceObject, ifsk.fltenumerateinstanceinformationbydeviceobject
 f1_keywords:
  - "fltkernel/FltEnumerateInstanceInformationByDeviceObject"

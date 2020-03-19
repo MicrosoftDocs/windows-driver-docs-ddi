@@ -6,6 +6,7 @@ old-location: ifsk\fltacquirepushlockshared.htm
 tech.root: ifsk
 ms.assetid: ee85e9fb-2112-4b36-af7f-7d142159bd2d
 ms.date: 04/16/2018
+keywords: ["FltAcquirePushLockShared macro"]
 ms.keywords: FltAcquirePushLockShared, FltAcquirePushLockShared routine [Installable File System Drivers], FltApiRef_a_to_d_329cb1e6-2fb5-45fa-a533-71a60ce341cf.xml, fltkernel/FltAcquirePushLockShared, ifsk.fltacquirepushlockshared
 f1_keywords:
  - "fltkernel/FltAcquirePushLockShared"

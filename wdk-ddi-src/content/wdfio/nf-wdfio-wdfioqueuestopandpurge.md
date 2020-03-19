@@ -6,6 +6,7 @@ old-location: wdf\wdfioqueuestopandpurge.htm
 tech.root: wdf
 ms.assetid: 3A9CF1BD-77F1-4F4C-AEB5-0E77B67C45D3
 ms.date: 02/26/2018
+keywords: ["WdfIoQueueStopAndPurge function"]
 ms.keywords: WdfIoQueueStopAndPurge, WdfIoQueueStopAndPurge method, kmdf.wdfioqueuestopandpurge, wdf.wdfioqueuestopandpurge, wdfio/WdfIoQueueStopAndPurge
 f1_keywords:
  - "wdfio/WdfIoQueueStopAndPurge"

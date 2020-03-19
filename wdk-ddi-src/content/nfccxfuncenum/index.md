@@ -3,6 +3,7 @@ UID: NA:nfccxfuncenum
 title: Nfccxfuncenum.h header
 ms.assetid: 4d67df28-5dc6-36c4-a50f-ccd779cebaea
 ms.date: 05/09/2018
+keywords: ["Nfccxfuncenum.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -6,6 +6,7 @@ old-location: print\iprintoemui_interface.htm
 tech.root: print
 ms.assetid: 0ef635dd-9598-4356-94fc-7e5237df9bd9
 ms.date: 04/20/2018
+keywords: ["IPrintOemUI interface"]
 ms.keywords: IPrintOemUI, IPrintOemUI interface [Print Devices], IPrintOemUI interface [Print Devices],described, prcomoem/IPrintOemUI, print.iprintoemui_interface, print_unidrv-pscript_ui_d2e42772-2604-4ef1-a667-70139ac8a62a.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI"

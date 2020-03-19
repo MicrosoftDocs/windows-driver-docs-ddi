@@ -6,6 +6,7 @@ old-location: wdf\wdf_request_forward_options_flags.htm
 tech.root: wdf
 ms.assetid: 6161bfd3-482c-4571-bd88-2e25d32b34a0
 ms.date: 02/26/2018
+keywords: ["_WDF_REQUEST_FORWARD_OPTIONS_FLAGS enumeration"]
 ms.keywords: DFRequestObjectRef_cad8f6c6-9c76-4dc3-ac3f-3938e5174563.xml, WDF_REQUEST_FORWARD_OPTIONS_FLAGS, WDF_REQUEST_FORWARD_OPTIONS_FLAGS enumeration, WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET, _WDF_REQUEST_FORWARD_OPTIONS_FLAGS, kmdf.wdf_request_forward_options_flags, wdf.wdf_request_forward_options_flags, wdfrequest/WDF_REQUEST_FORWARD_OPTIONS_FLAGS, wdfrequest/WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET
 f1_keywords:
  - "wdfrequest/WDF_REQUEST_FORWARD_OPTIONS_FLAGS"

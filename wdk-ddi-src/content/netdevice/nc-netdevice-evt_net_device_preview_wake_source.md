@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: d227adc8-0a5f-4cc7-967f-555336f05ef2
 ms.author: windowsdriverdev
 ms.date: 10/11/2019
+keywords: ["EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE callback function"]
 f1_keywords:
  - "netdevice/EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE"
 req.header: netdevice.h

@@ -6,6 +6,7 @@ old-location: kernel\keacquirespinlockatdpclevel.htm
 tech.root: kernel
 ms.assetid: 010b5e42-26c7-433f-b67b-1afdc0ec564c
 ms.date: 04/30/2018
+keywords: ["KeAcquireSpinLockAtDpcLevel macro"]
 ms.keywords: KeAcquireSpinLockAtDpcLevel, KeAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture], KefAcquireSpinLockAtDpcLevel, k105_4b7eb718-f04d-42de-9dfc-92355cd2ebc9.xml, kernel.keacquirespinlockatdpclevel, wdm/KeAcquireSpinLockAtDpcLevel, wdm/KefAcquireSpinLockAtDpcLevel
 f1_keywords:
  - "wdm/KeAcquireSpinLockAtDpcLevel"

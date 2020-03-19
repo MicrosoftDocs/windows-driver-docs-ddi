@@ -6,6 +6,7 @@ old-location: netvista\ndismsleep.htm
 tech.root: netvista
 ms.assetid: 5b6c3fc5-4220-4a4b-9412-8bfc8141ea90
 ms.date: 05/02/2018
+keywords: ["NdisMSleep function"]
 ms.keywords: NdisMSleep, NdisMSleep function [Network Drivers Starting with Windows Vista], ndis/NdisMSleep, ndis_delay_ref_81af917a-626a-493f-97ed-c4ce48999b12.xml, netvista.ndismsleep
 f1_keywords:
  - "ndis/NdisMSleep"

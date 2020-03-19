@@ -6,6 +6,7 @@ old-location: netvista\rilmessageinfoparammask.htm
 tech.root: netvista
 ms.assetid: 70e0f22c-14d4-43e6-bfb6-66523706ba52
 ms.date: 05/02/2018
+keywords: ["RILMESSAGEINFOPARAMMASK enumeration"]
 ms.keywords: RILMESSAGEINFOPARAMMASK, RILMESSAGEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MI_ALL, RIL_PARAM_MI_MESSAGE, RIL_PARAM_MI_STATUS, netvista.rilmessageinfoparammask, ntddrilapitypes/RILMESSAGEINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_MI_ALL, ntddrilapitypes/RIL_PARAM_MI_MESSAGE, ntddrilapitypes/RIL_PARAM_MI_STATUS
 f1_keywords:
  - "rilapitypes/RILMESSAGEINFOPARAMMASK"

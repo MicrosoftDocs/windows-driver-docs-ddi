@@ -6,6 +6,7 @@ old-location: wdf\iwdfremotetarget_openfilebyname.htm
 tech.root: wdf
 ms.assetid: 7f0cef78-3edc-434b-af70-39694776e8a7
 ms.date: 02/26/2018
+keywords: ["IWDFRemoteTarget::OpenFileByName"]
 ms.keywords: IWDFRemoteTarget interface,OpenFileByName method, IWDFRemoteTarget.OpenFileByName, IWDFRemoteTarget::OpenFileByName, OpenFileByName, OpenFileByName method, OpenFileByName method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_909b78ee-2d3a-46b2-bfca-f72063ca62f8.xml, umdf.iwdfremotetarget_openfilebyname, wdf.iwdfremotetarget_openfilebyname, wudfddi/IWDFRemoteTarget::OpenFileByName
 f1_keywords:
  - "wudfddi/IWDFRemoteTarget.OpenFileByName"

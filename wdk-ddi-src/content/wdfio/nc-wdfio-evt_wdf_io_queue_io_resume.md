@@ -6,6 +6,7 @@ old-location: wdf\evtioresume.htm
 tech.root: wdf
 ms.assetid: 97731224-bf08-4578-958e-729acbb5a628
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_IO_QUEUE_IO_RESUME callback function"]
 ms.keywords: DFQueueObjectRef_1ecb2f86-9461-47b7-967d-6cb14edbbe82.xml, EVT_WDF_IO_QUEUE_IO_RESUME, EVT_WDF_IO_QUEUE_IO_RESUME callback, EvtIoResume, EvtIoResume callback function, kmdf.evtioresume, wdf.evtioresume, wdfio/EvtIoResume
 f1_keywords:
  - "wdfio/EvtIoResume"

@@ -6,6 +6,7 @@ old-location: wdf\iwdfiorequest_send.htm
 tech.root: wdf
 ms.assetid: f916b414-9cd9-4745-a021-07c810d0d68b
 ms.date: 02/26/2018
+keywords: ["IWDFIoRequest::Send"]
 ms.keywords: IWDFIoRequest interface,Send method, IWDFIoRequest.Send, IWDFIoRequest::Send, Send, Send method, Send method,IWDFIoRequest interface, UMDFRequestObjectRef_f3a8e812-392d-478c-8234-8125bec14f1d.xml, umdf.iwdfiorequest_send, wdf.iwdfiorequest_send, wudfddi/IWDFIoRequest::Send
 f1_keywords:
  - "wudfddi/IWDFIoRequest.Send"

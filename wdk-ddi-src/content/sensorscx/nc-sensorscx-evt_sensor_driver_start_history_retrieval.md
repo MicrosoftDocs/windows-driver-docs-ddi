@@ -4,6 +4,7 @@ title: EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL (sensorscx.h)
 description: Starts retrieving the history recorded so far in the sensor.
 ms.assetid: 97eccb93-e184-4350-a47e-2072bf368893
 ms.date: 10/19/2018
+keywords: ["EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL callback function"]
 f1_keywords:
  - "sensorscx/EVT_SENSOR_DRIVER_START_HISTORY_RETRIEVAL"
 req.header: sensorscx.h

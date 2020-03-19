@@ -5,6 +5,7 @@ description: VideoDecoderSubmitBuffers1 submits one or more buffers for decoding
 old-location: display\videodecodersubmitbuffers1.htm
 ms.assetid: 708A7F64-F8A8-4D0B-A824-CC8DD158216A
 ms.date: 05/10/2018
+keywords: ["PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1 callback function"]
 ms.keywords: PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1, PFND3DWDDM2_0DDI_VIDEODECODERSUBMITBUFFERS1 callback, d3d10umddi/pfnVideoDecoderSubmitBuffers1, display.videodecodersubmitbuffers1, pfnVideoDecoderSubmitBuffers1, pfnVideoDecoderSubmitBuffers1 callback function [Display Devices]
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

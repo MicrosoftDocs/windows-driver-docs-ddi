@@ -6,6 +6,7 @@ old-location: kernel\removetaillist.htm
 tech.root: kernel
 ms.assetid: 67942bf7-28f6-4b2d-a880-9439afaf0bb2
 ms.date: 04/30/2018
+keywords: ["RemoveTailList function"]
 ms.keywords: RemoveTailList, RemoveTailList routine [Kernel-Mode Driver Architecture], k109_b9ce310f-ead1-46ee-a591-ae018f61f536.xml, kernel.removetaillist, wdm/RemoveTailList
 f1_keywords:
  - "wdm/RemoveTailList"

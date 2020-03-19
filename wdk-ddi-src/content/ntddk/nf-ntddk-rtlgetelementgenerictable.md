@@ -6,6 +6,7 @@ old-location: ifsk\rtlgetelementgenerictable.htm
 tech.root: ifsk
 ms.assetid: 85b5fce8-eac4-4cd8-9a24-22564aae915a
 ms.date: 04/16/2018
+keywords: ["RtlGetElementGenericTable function"]
 ms.keywords: RtlGetElementGenericTable, RtlGetElementGenericTable routine [Installable File System Drivers], ifsk.rtlgetelementgenerictable, ntddk/RtlGetElementGenericTable, rtlref_5127995d-65ea-4a8b-8b5b-ad64c7cc4c0d.xml
 f1_keywords:
  - "ntddk/RtlGetElementGenericTable"

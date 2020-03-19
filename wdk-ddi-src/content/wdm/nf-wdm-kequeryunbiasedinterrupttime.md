@@ -6,6 +6,7 @@ old-location: kernel\kequeryunbiasedinterrupttime.htm
 tech.root: kernel
 ms.assetid: 2a041946-0335-466e-b2f9-b486031e777a
 ms.date: 04/30/2018
+keywords: ["KeQueryUnbiasedInterruptTime function"]
 ms.keywords: KeQueryUnbiasedInterruptTime, KeQueryUnbiasedInterruptTime routine [Kernel-Mode Driver Architecture], k105_34119e3c-6e9a-4e27-9d0e-3d9eb579df46.xml, kernel.kequeryunbiasedinterrupttime, wdm/KeQueryUnbiasedInterruptTime
 f1_keywords:
  - "wdm/KeQueryUnbiasedInterruptTime"

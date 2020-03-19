@@ -6,6 +6,7 @@ old-location: wdf\wdf_wmi_provider_flags.htm
 tech.root: wdf
 ms.assetid: 85b1a4b4-53e0-4663-b813-18801f8b639b
 ms.date: 02/26/2018
+keywords: ["_WDF_WMI_PROVIDER_FLAGS enumeration"]
 ms.keywords: DFWMIRef_e093a379-bdc9-4b69-90e8-294b9d55eeea.xml, WDF_WMI_PROVIDER_FLAGS, WDF_WMI_PROVIDER_FLAGS enumeration, WdfWmiProviderEventOnly, WdfWmiProviderExpensive, WdfWmiProviderTracing, WdfWmiProviderValidFlags, _WDF_WMI_PROVIDER_FLAGS, kmdf.wdf_wmi_provider_flags, wdf.wdf_wmi_provider_flags, wdfwmi/WDF_WMI_PROVIDER_FLAGS, wdfwmi/WdfWmiProviderEventOnly, wdfwmi/WdfWmiProviderExpensive, wdfwmi/WdfWmiProviderTracing, wdfwmi/WdfWmiProviderValidFlags
 f1_keywords:
  - "wdfwmi/WDF_WMI_PROVIDER_FLAGS"

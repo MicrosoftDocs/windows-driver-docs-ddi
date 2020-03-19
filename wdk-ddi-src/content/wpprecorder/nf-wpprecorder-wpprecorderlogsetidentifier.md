@@ -6,6 +6,7 @@ old-location: devtest\wpprecorderlogsetidentifier.htm
 tech.root: devtest
 ms.assetid: E2687B3C-2BCF-4764-99E0-4495296F14C4
 ms.date: 02/23/2018
+keywords: ["WppRecorderLogSetIdentifier macro"]
 ms.keywords: WppRecorderLogSetIdentifier, devtest.wpprecorderlogsetidentifier, imp_WppRecorderLogSetIdentifier, imp_WppRecorderLogSetIdentifier function [Driver Development Tools], wpprecorder/imp_WppRecorderLogSetIdentifier
 f1_keywords:
  - "wpprecorder/imp_WppRecorderLogSetIdentifier"

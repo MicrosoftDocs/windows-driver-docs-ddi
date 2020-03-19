@@ -6,6 +6,7 @@ old-location: powermeter\ioctl_pmi_register_event_notify.htm
 tech.root: powermeter
 ms.assetid: 0d79a25b-846d-490d-9e04-d319fa860761
 ms.date: 05/08/2018
+keywords: ["IOCTL_PMI_REGISTER_EVENT_NOTIFY IOCTL"]
 ms.keywords: IOCTL_PMI_REGISTER_EVENT_NOTIFY, IOCTL_PMI_REGISTER_EVENT_NOTIFY control, IOCTL_PMI_REGISTER_EVENT_NOTIFY control code [Power Metering and Budgeting Devices], PowerMeterRef_9132445e-2195-4f6a-933d-0dc858128c4d.xml, pmi/IOCTL_PMI_REGISTER_EVENT_NOTIFY, powermeter.ioctl_pmi_register_event_notify
 f1_keywords:
  - "pmi/IOCTL_PMI_REGISTER_EVENT_NOTIFY"

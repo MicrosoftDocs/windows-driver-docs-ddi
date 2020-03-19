@@ -6,6 +6,7 @@ old-location: wdf\evtdeviced0entrypostinterruptsenabled.htm
 tech.root: wdf
 ms.assetid: 38d74ce1-9d9d-4da5-a2b3-579048850b28
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_DEVICE_D0_ENTRY_POST_INTERRUPTS_ENABLED callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_e37cc70a-3e3e-4268-afda-8b802cc72461.xml, EVT_WDF_DEVICE_D0_ENTRY_POST_INTERRUPTS_ENABLED, EVT_WDF_DEVICE_D0_ENTRY_POST_INTERRUPTS_ENABLED callback, EvtDeviceD0EntryPostInterruptsEnabled, EvtDeviceD0EntryPostInterruptsEnabled callback function, kmdf.evtdeviced0entrypostinterruptsenabled, wdf.evtdeviced0entrypostinterruptsenabled, wdfdevice/EvtDeviceD0EntryPostInterruptsEnabled
 f1_keywords:
  - "wdfdevice/EvtDeviceD0EntryPostInterruptsEnabled"

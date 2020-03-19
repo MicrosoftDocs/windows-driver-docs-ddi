@@ -6,6 +6,7 @@ old-location: netvista\ndis_rss_profile.htm
 tech.root: netvista
 ms.assetid: 41A58C2C-8A25-41AC-9CBE-59AB38603A73
 ms.date: 05/02/2018
+keywords: ["_NDIS_RSS_PROFILE enumeration"]
 ms.keywords: "*PNDIS_RSS_PROFILE, NDIS_RSS_PROFILE, NDIS_RSS_PROFILE enumeration [Network Drivers Starting with Windows Vista], NdisRssProfileClosest, NdisRssProfileClosestStatic, NdisRssProfileConservative, NdisRssProfileMaximum, NdisRssProfileNuma, NdisRssProfileNumaStatic, _NDIS_RSS_PROFILE, netvista.ndis_rss_profile, ntddndis/NDIS_RSS_PROFILE, ntddndis/NdisRssProfileClosest, ntddndis/NdisRssProfileClosestStatic, ntddndis/NdisRssProfileConservative, ntddndis/NdisRssProfileMaximum, ntddndis/NdisRssProfileNuma, ntddndis/NdisRssProfileNumaStatic"
 f1_keywords:
  - "ntddndis/NDIS_RSS_PROFILE"

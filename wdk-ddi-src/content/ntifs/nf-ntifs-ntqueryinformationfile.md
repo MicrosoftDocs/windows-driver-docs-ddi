@@ -6,6 +6,7 @@ old-location: kernel\zwqueryinformationfile.htm
 tech.root: kernel
 ms.assetid: 007df07e-685b-4224-b9d6-55e87cf0bd5c
 ms.date: 04/24/2019
+keywords: ["NtQueryInformationFile function"]
 ms.keywords: NtQueryInformationFile, ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, kernel.zwqueryinformationfile, wdm/NtQueryInformationFile, wdm/ZwQueryInformationFile
 f1_keywords:
  - "ntifs/ZwQueryInformationFile"

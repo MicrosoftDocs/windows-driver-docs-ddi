@@ -6,6 +6,7 @@ old-location: debugger\getimagepath.htm
 tech.root: debugger
 ms.assetid: 9310dc82-b80f-45bb-9d8a-1239330bc799
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::GetImagePath"]
 ms.keywords: GetImagePath, GetImagePath method [Windows Debugging], GetImagePath method [Windows Debugging],IDebugSymbols interface, GetImagePath method [Windows Debugging],IDebugSymbols2 interface, GetImagePath method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetImagePath method, IDebugSymbols2 interface [Windows Debugging],GetImagePath method, IDebugSymbols2::GetImagePath, IDebugSymbols3 interface [Windows Debugging],GetImagePath method, IDebugSymbols3.GetImagePath, IDebugSymbols3::GetImagePath, IDebugSymbols::GetImagePath, IDebugSymbols_9d38f509-e800-4090-901b-6dc78710c15f.xml, dbgeng/IDebugSymbols2::GetImagePath, dbgeng/IDebugSymbols3::GetImagePath, dbgeng/IDebugSymbols::GetImagePath, debugger.getimagepath
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetImagePath"

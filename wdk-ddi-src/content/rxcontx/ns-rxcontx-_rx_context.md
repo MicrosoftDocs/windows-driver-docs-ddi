@@ -6,6 +6,7 @@ old-location: ifsk\rx_context.htm
 tech.root: ifsk
 ms.assetid: 5eb83a7a-d6dd-445f-89a8-91cdf67512af
 ms.date: 04/16/2018
+keywords: ["_RX_CONTEXT structure"]
 ms.keywords: "*PRX_CONTEXT, PRX_CONTEXT, PRX_CONTEXT structure pointer [Installable File System Drivers], RX_CONTEXT, RX_CONTEXT structure [Installable File System Drivers], _RX_CONTEXT, ifsk.rx_context, rxcontx/PRX_CONTEXT, rxcontx/RX_CONTEXT, rxstructures_29a918c5-d689-4e7d-84fe-dfd8901ee484.xml"
 f1_keywords:
  - "rxcontx/RX_CONTEXT"

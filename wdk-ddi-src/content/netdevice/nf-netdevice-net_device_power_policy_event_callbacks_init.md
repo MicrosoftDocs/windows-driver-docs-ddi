@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: adf5b2fc-1b9a-4dad-97ad-e23f382acb8c
 ms.author: windowsdriverdev
 ms.date: 10/11/2019
+keywords: ["NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT function"]
 f1_keywords:
  - "netdevice/NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT"
 ms.keywords: NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT

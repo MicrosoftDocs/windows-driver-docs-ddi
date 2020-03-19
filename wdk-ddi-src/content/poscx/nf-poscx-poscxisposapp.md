@@ -6,6 +6,7 @@ old-location: pos\poscxisposapp.htm
 tech.root: pos
 ms.assetid: 890A0ACB-9717-4BF8-87B5-A6C1FAD661C2
 ms.date: 02/23/2018
+keywords: ["PosCxIsPosApp function"]
 ms.keywords: PosCxIsPosApp, PosCxIsPosApp function, pos.poscxisposapp, poscx/PosCxIsPosApp
 f1_keywords:
  - "poscx/PosCxIsPosApp"

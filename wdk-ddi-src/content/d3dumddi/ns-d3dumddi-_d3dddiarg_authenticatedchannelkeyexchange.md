@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_authenticatedchannelkeyexchange.htm
 tech.root: display
 ms.assetid: 99a86339-62ce-48fd-a1f4-5c3061e624b5
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE structure"]
 ms.keywords: D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE structure [Display Devices], UMDisplayDriver_param_Structs_2b02df7d-1bae-446f-b52a-0a9353114504.xml, _D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, d3dumddi/D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE, display.d3dddiarg_authenticatedchannelkeyexchange
 f1_keywords:
  - "d3dumddi/D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE"

@@ -6,6 +6,7 @@ old-location: devtest\etwactivityidcontrol.htm
 tech.root: devtest
 ms.assetid: dd2e1558-db5d-4d48-a55e-fbdf2838ec55
 ms.date: 02/23/2018
+keywords: ["EtwActivityIdControl function"]
 ms.keywords: EVENT_ACTIVITY_CTRL_CREATE_ID, EVENT_ACTIVITY_CTRL_CREATE_SET_ID, EVENT_ACTIVITY_CTRL_GET_ID, EVENT_ACTIVITY_CTRL_GET_SET_ID, EVENT_ACTIVITY_CTRL_SET_ID, EtwActivityIdControl, EtwActivityIdControl function [Driver Development Tools], devtest.etwactivityidcontrol, etw_km_ecbfd65a-dd05-422b-9039-bb2a307d5978.xml, wdm/EtwActivityIdControl
 f1_keywords:
  - "wdm/EtwActivityIdControl"

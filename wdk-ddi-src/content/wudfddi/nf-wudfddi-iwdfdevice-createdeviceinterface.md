@@ -6,6 +6,7 @@ old-location: wdf\iwdfdevice_createdeviceinterface.htm
 tech.root: wdf
 ms.assetid: 0a88cbb6-66be-4ef7-93da-27d7ce169779
 ms.date: 02/26/2018
+keywords: ["IWDFDevice::CreateDeviceInterface"]
 ms.keywords: CreateDeviceInterface, CreateDeviceInterface method, CreateDeviceInterface method,IWDFDevice interface, IWDFDevice interface,CreateDeviceInterface method, IWDFDevice.CreateDeviceInterface, IWDFDevice::CreateDeviceInterface, UMDFDeviceObjectRef_11606922-8b72-434f-a739-fd0c653ea026.xml, umdf.iwdfdevice_createdeviceinterface, wdf.iwdfdevice_createdeviceinterface, wudfddi/IWDFDevice::CreateDeviceInterface
 f1_keywords:
  - "wudfddi/IWDFDevice.CreateDeviceInterface"

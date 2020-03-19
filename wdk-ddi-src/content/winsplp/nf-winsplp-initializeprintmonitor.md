@@ -6,6 +6,7 @@ old-location: print\initializeprintmonitor.htm
 tech.root: print
 ms.assetid: 825ae98b-74d7-4e41-944b-0dc77cc0cc51
 ms.date: 04/20/2018
+keywords: ["InitializePrintMonitor function"]
 ms.keywords: InitializePrintMonitor, InitializePrintMonitor function [Print Devices], print.initializeprintmonitor, spoolfnc_ff45a3d4-a007-4ebd-b120-582f23ccaffb.xml, winsplp/InitializePrintMonitor
 f1_keywords:
  - "winsplp/InitializePrintMonitor"

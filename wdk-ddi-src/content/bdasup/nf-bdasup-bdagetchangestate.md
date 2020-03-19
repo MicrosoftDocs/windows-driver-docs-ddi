@@ -6,6 +6,7 @@ old-location: stream\bdagetchangestate.htm
 tech.root: stream
 ms.assetid: fd111e80-fc3e-4f21-97cb-1f75ae34d1e9
 ms.date: 04/23/2018
+keywords: ["BdaGetChangeState function"]
 ms.keywords: BdaGetChangeState, BdaGetChangeState function [Streaming Media Devices], bdaref_52b39183-4a62-47b2-91d1-41fb76b31606.xml, bdasup/BdaGetChangeState, stream.bdagetchangestate
 f1_keywords:
  - "bdasup/BdaGetChangeState"

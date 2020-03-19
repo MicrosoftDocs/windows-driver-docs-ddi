@@ -4,6 +4,7 @@ title: EvaluateActivityThresholds function (sensorsutils.h)
 description: This routine determines whether the new incoming activity data meets the threshold.
 ms.assetid: f2a211f5-90ab-4665-856a-cd9b007c8efa
 ms.date: 08/08/2018
+keywords: ["EvaluateActivityThresholds function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/EvaluateActivityThresholds"

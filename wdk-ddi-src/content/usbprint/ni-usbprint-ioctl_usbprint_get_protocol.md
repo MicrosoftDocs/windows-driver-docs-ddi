@@ -7,6 +7,7 @@ tech.root: print
 ms.assetid: c81c957c-7fa8-46f3-83df-05827a72c94c
 ms.author: windowsdriverdev
 ms.date: 04/03/2019
+keywords: ["IOCTL_USBPRINT_GET_PROTOCOL IOCTL"]
 f1_keywords:
  - "usbprint/IOCTL_USBPRINT_GET_PROTOCOL"
 ms.custom: 19H1 

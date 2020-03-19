@@ -5,6 +5,7 @@ tech.root: usbref
 description: Defines I/O control codes handled by the client driver.
 ms.assetid: 8ef6d1a5-c204-48ea-b889-367118a87c8a
 ms.date: 09/30/2018
+keywords: ["_UCMUCSI_PPM_IOCTL enumeration"]
 f1_keywords:
  - "ucmucsippmrequests/_UCMUCSI_PPM_IOCTL"
 ms.keywords: _UCMUCSI_PPM_IOCTL, UCMUCSI_PPM_IOCTL, 

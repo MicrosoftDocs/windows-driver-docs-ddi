@@ -5,6 +5,7 @@ description: The VmbPacketFree function releases a packet allocated by using the
 tech.root: netvista
 ms.assetid: 9fd81789-09b7-43ac-bcfc-452b1feca9ce
 ms.date: 05/22/2018
+keywords: ["FN_VMB_PACKET_FREE callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_FREE"
 req.header: vmbuskernelmodeclientlibapi.h

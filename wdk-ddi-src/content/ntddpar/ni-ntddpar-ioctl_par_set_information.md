@@ -6,6 +6,7 @@ old-location: parports\ioctl_par_set_information.htm
 tech.root: parports
 ms.assetid: a54902d0-aa07-4cd0-8ef1-a3c17dff2ac9
 ms.date: 02/15/2018
+keywords: ["IOCTL_PAR_SET_INFORMATION IOCTL"]
 ms.keywords: IOCTL_PAR_SET_INFORMATION, IOCTL_PAR_SET_INFORMATION control code [Parallel Ports], cisspd_950d6397-7eff-4966-a734-0497f1a84257.xml, ntddpar/IOCTL_PAR_SET_INFORMATION, parports.ioctl_par_set_information
 f1_keywords:
  - "ntddpar/IOCTL_PAR_SET_INFORMATION"

@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_setvertexshaderconst.htm
 tech.root: display
 ms.assetid: ac3c4609-094d-4003-a5ee-b609f7ec13e1
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_SETVERTEXSHADERCONST structure"]
 ms.keywords: D3DDDIARG_SETVERTEXSHADERCONST, D3DDDIARG_SETVERTEXSHADERCONST structure [Display Devices], D3DDDIARG_SETVERTEXSHADERCONSTB, D3DDDIARG_SETVERTEXSHADERCONSTI, UMDisplayDriver_param_Structs_1d6878e5-ecbe-493c-bcbc-58eabc4b0972.xml, _D3DDDIARG_SETVERTEXSHADERCONST, d3dumddi/D3DDDIARG_SETVERTEXSHADERCONST, display.d3dddiarg_setvertexshaderconst
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETVERTEXSHADERCONST"

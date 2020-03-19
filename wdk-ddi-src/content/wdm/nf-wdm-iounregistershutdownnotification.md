@@ -6,6 +6,7 @@ old-location: kernel\iounregistershutdownnotification.htm
 tech.root: kernel
 ms.assetid: b48a38ff-60b9-4c01-ac71-4ae07010db1f
 ms.date: 04/30/2018
+keywords: ["IoUnregisterShutdownNotification function"]
 ms.keywords: IoUnregisterShutdownNotification, IoUnregisterShutdownNotification routine [Kernel-Mode Driver Architecture], k104_f242a3dc-8338-4d64-bad7-0cca78c30a45.xml, kernel.iounregistershutdownnotification, wdm/IoUnregisterShutdownNotification
 f1_keywords:
  - "wdm/IoUnregisterShutdownNotification"

@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlinitializeoplock.htm
 tech.root: ifsk
 ms.assetid: bfa6f6fd-ce50-40e0-9e98-81519260cc86
 ms.date: 04/16/2018
+keywords: ["FsRtlInitializeOplock function"]
 ms.keywords: FsRtlInitializeOplock, FsRtlInitializeOplock function [Installable File System Drivers], fsrtlref_e9d22a89-79a8-4aae-9b5c-fca644d5f972.xml, ifsk.fsrtlinitializeoplock, ntifs/FsRtlInitializeOplock
 f1_keywords:
  - "ntifs/FsRtlInitializeOplock"

@@ -6,6 +6,7 @@ old-location: kernel\ioallocatedriverobjectextension.htm
 tech.root: kernel
 ms.assetid: e4e4e721-5b5c-48e8-99cb-d04c6b0eb807
 ms.date: 04/30/2018
+keywords: ["IoAllocateDriverObjectExtension function"]
 ms.keywords: IoAllocateDriverObjectExtension, IoAllocateDriverObjectExtension routine [Kernel-Mode Driver Architecture], k104_f7b420f3-bcd3-4be4-8f0d-e8d61314e880.xml, kernel.ioallocatedriverobjectextension, wdm/IoAllocateDriverObjectExtension
 f1_keywords:
  - "wdm/IoAllocateDriverObjectExtension"

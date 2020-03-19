@@ -6,6 +6,7 @@ old-location: sensors\evtsensorstart.htm
 tech.root: sensors
 ms.assetid: F7107D84-1963-4107-90B9-3BB4A0238530
 ms.date: 05/03/2018
+keywords: ["EVT_SENSOR_DRIVER_START_SENSOR callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_START_SENSOR, EVT_SENSOR_DRIVER_START_SENSOR callback, EvtSensorStart, EvtSensorStart callback function [Sensor Devices], sensors.evtsensorstart, sensorscx/EvtSensorStart
 f1_keywords:
  - "sensorscx/EvtSensorStart"

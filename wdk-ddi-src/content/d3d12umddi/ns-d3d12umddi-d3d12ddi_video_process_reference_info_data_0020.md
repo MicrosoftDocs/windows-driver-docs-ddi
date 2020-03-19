@@ -5,6 +5,7 @@ description: Data structure for D3D12DDICAPS_VIDEO_PROCESS_REFERENCE_INFO capabi
 old-location: display\d3d12ddi_video_process_reference_info_data.htm
 ms.assetid: 3711ACBD-482E-4BB8-8530-C92DA610CA5B
 ms.date: 04/16/2018
+keywords: ["D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020 structure"]
 ms.keywords: D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020, D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020, display.d3d12ddi_video_process_reference_info_data
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA_0020"

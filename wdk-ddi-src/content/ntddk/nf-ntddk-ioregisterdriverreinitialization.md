@@ -6,6 +6,7 @@ old-location: kernel\ioregisterdriverreinitialization.htm
 tech.root: kernel
 ms.assetid: bdee26f9-e108-4753-b2e5-a1427212bce9
 ms.date: 04/30/2018
+keywords: ["IoRegisterDriverReinitialization function"]
 ms.keywords: IoRegisterDriverReinitialization, IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml, kernel.ioregisterdriverreinitialization, ntddk/IoRegisterDriverReinitialization
 f1_keywords:
  - "ntddk/IoRegisterDriverReinitialization"

@@ -5,6 +5,7 @@ description: Enum used to express the orientation of an integrated panel.
 old-location: display\dxgk_displaypanelorientation.htm
 ms.assetid: 49758A57-EFCE-4E9C-9BF6-74F6EFD356D9
 ms.date: 05/10/2018
+keywords: ["_DXGK_DISPLAYPANELORIENTATION enumeration"]
 ms.keywords: DXGK_DISPLAYPANELORIENTATION, DXGK_DISPLAYPANELORIENTATION enumeration [Display Devices], DXGK_DPO_0, DXGK_DPO_180, DXGK_DPO_270, DXGK_DPO_90, _DXGK_DISPLAYPANELORIENTATION, d3dkmddi/DXGK_DISPLAYPANELORIENTATION, d3dkmddi/DXGK_DPO_0, d3dkmddi/DXGK_DPO_180, d3dkmddi/DXGK_DPO_270, d3dkmddi/DXGK_DPO_90, display.dxgk_displaypanelorientation
 f1_keywords:
  - "d3dkmddi/DXGK_DISPLAYPANELORIENTATION"

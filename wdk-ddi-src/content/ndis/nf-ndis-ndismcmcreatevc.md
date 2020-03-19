@@ -6,6 +6,7 @@ old-location: netvista\ndismcmcreatevc.htm
 tech.root: netvista
 ms.assetid: b1d9ce90-9926-4ff8-a5bb-54c1a88d84dc
 ms.date: 05/02/2018
+keywords: ["NdisMCmCreateVc function"]
 ms.keywords: NdisMCmCreateVc, NdisMCmCreateVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_eab0d24d-ee49-457d-9475-e4d7c3a50023.xml, ndis/NdisMCmCreateVc, netvista.ndismcmcreatevc
 f1_keywords:
  - "ndis/NdisMCmCreateVc"

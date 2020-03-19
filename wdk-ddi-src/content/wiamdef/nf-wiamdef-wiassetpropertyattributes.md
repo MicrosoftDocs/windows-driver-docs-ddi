@@ -6,6 +6,7 @@ old-location: image\wiassetpropertyattributes.htm
 tech.root: image
 ms.assetid: 210e69e7-b3b8-43b5-a0d3-f023c7256438
 ms.date: 05/03/2018
+keywords: ["wiasSetPropertyAttributes function"]
 ms.keywords: image.wiassetpropertyattributes, wiamdef/wiasSetPropertyAttributes, wiasFncs_630b9e1f-49f8-433e-b0f0-19e7e6c32460.xml, wiasSetPropertyAttributes, wiasSetPropertyAttributes function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasSetPropertyAttributes"

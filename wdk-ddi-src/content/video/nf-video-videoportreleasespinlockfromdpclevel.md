@@ -6,6 +6,7 @@ old-location: display\videoportreleasespinlockfromdpclevel.htm
 tech.root: display
 ms.assetid: 375158e7-3fb5-4e49-a7cf-ee9a1e5c07ca
 ms.date: 03/29/2018
+keywords: ["VideoPortReleaseSpinLockFromDpcLevel function"]
 ms.keywords: VideoPortReleaseSpinLockFromDpcLevel, VideoPortReleaseSpinLockFromDpcLevel function [Display Devices], VideoPort_Functions_2c3a3aa1-4ef4-4b7f-8cdf-b658a1128c35.xml, display.videoportreleasespinlockfromdpclevel, video/VideoPortReleaseSpinLockFromDpcLevel
 f1_keywords:
  - "video/VideoPortReleaseSpinLockFromDpcLevel"

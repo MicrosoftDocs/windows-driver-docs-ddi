@@ -6,6 +6,7 @@ old-location: display\d3dddicb_createpagingqueue.htm
 tech.root: display
 ms.assetid: 9E36B02F-2292-416C-AA09-1968EECE5A3D
 ms.date: 05/10/2018
+keywords: ["D3DDDICB_CREATEPAGINGQUEUE structure"]
 ms.keywords: D3DDDICB_CREATEPAGINGQUEUE, D3DDDICB_CREATEPAGINGQUEUE structure [Display Devices], d3dumddi/D3DDDICB_CREATEPAGINGQUEUE, display.d3dddicb_createpagingqueue
 f1_keywords:
  - "d3dumddi/D3DDDICB_CREATEPAGINGQUEUE"

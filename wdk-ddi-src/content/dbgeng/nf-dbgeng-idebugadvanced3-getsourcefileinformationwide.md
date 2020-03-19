@@ -6,6 +6,7 @@ old-location: debugger\getsourcefileinformationwide.htm
 tech.root: debugger
 ms.assetid: 1b7b26be-b7be-4dc7-9863-413f7293707c
 ms.date: 05/03/2018
+keywords: ["IDebugAdvanced3::GetSourceFileInformationWide"]
 ms.keywords: GetSourceFileInformationWide, GetSourceFileInformationWide method [Windows Debugging], GetSourceFileInformationWide method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging],GetSourceFileInformationWide method, IDebugAdvanced3.GetSourceFileInformationWide, IDebugAdvanced3::GetSourceFileInformationWide, dbgeng/IDebugAdvanced3::GetSourceFileInformationWide, debugger.getsourcefileinformationwide
 f1_keywords:
  - "dbgeng/IDebugAdvanced3.GetSourceFileInformationWide"

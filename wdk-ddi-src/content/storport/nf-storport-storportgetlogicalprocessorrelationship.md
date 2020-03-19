@@ -6,6 +6,7 @@ old-location: storage\storportgetlogicalprocessorrelationship.htm
 tech.root: storage
 ms.assetid: 32b92771-7f23-492c-a3b0-b10032c9f80a
 ms.date: 03/29/2018
+keywords: ["StorPortGetLogicalProcessorRelationship function"]
 ms.keywords: StorPortGetLogicalProcessorRelationship, StorPortGetLogicalProcessorRelationship routine [Storage Devices], storage.storportgetlogicalprocessorrelationship, storport/StorPortGetLogicalProcessorRelationship, storprt_65b00469-41a4-446b-aaa5-fee877aaff3c.xml
 f1_keywords:
  - "storport/StorPortGetLogicalProcessorRelationship"

@@ -6,6 +6,7 @@ old-location: storage\storportreadregisterbufferushort.htm
 tech.root: storage
 ms.assetid: 169f1089-ac17-4d4c-b989-018ff087aa39
 ms.date: 03/29/2018
+keywords: ["StorPortReadRegisterBufferUshort macro"]
 ms.keywords: StorPortReadRegisterBufferUshort, StorPortReadRegisterBufferUshort routine [Storage Devices], storage.storportreadregisterbufferushort, storport/StorPortReadRegisterBufferUshort, storprt_9ba740e5-78b0-464d-903c-6bb4c22788fd.xml
 f1_keywords:
  - "storport/StorPortReadRegisterBufferUshort"

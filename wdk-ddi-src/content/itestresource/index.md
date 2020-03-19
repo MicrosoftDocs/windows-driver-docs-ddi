@@ -3,6 +3,7 @@ UID: NA:itestresource
 title: Itestresource.h header
 ms.assetid: b0234b9f-eb9f-3e71-9094-5db01b4443fa
 ms.date: 05/09/2018
+keywords: ["Itestresource.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

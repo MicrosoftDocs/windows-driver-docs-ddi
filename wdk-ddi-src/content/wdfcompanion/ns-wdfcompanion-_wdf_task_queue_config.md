@@ -6,6 +6,7 @@ old-location: wdf\wdf_task_queue_config.htm
 tech.root: wdf
 ms.assetid: a58dd106-dec8-4444-9783-eb16e969ea42
 ms.date: 02/26/2018
+keywords: ["_WDF_TASK_QUEUE_CONFIG structure"]
 ms.keywords: "*PWDF_TASK_QUEUE_CONFIG, PWDF_TASK_QUEUE_CONFIG, PWDF_TASK_QUEUE_CONFIG structure pointer, WDF_TASK_QUEUE_CONFIG, WDF_TASK_QUEUE_CONFIG structure, _WDF_TASK_QUEUE_CONFIG, wdf.wdf_task_queue_config, wdfcompanion/PWDF_TASK_QUEUE_CONFIG, wdfcompanion/WDF_TASK_QUEUE_CONFIG"
 f1_keywords:
  - "wdfcompanion/WDF_TASK_QUEUE_CONFIG"

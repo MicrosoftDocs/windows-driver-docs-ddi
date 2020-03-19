@@ -6,6 +6,7 @@ old-location: netvista\ndis_qos_classification_element.htm
 tech.root: netvista
 ms.assetid: 2677dc3a-7685-40bf-94c3-2efecf21e9a8
 ms.date: 05/02/2018
+keywords: ["_NDIS_QOS_CLASSIFICATION_ELEMENT structure"]
 ms.keywords: NDIS_QOS_CLASSIFICATION_ELEMENT, NDIS_QOS_CLASSIFICATION_ELEMENT structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_CLASSIFICATION_ELEMENT, PNDIS_QOS_CLASSIFICATION_ELEMENT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_CLASSIFICATION_ELEMENT, netvista.ndis_qos_classification_element, ntddndis/NDIS_QOS_CLASSIFICATION_ELEMENT, ntddndis/PNDIS_QOS_CLASSIFICATION_ELEMENT
 f1_keywords:
  - "ntddndis/NDIS_QOS_CLASSIFICATION_ELEMENT"

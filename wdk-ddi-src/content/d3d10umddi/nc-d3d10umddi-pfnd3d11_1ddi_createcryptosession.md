@@ -5,6 +5,7 @@ description: Creates a cryptographic session to encrypt video content that is se
 old-location: display\createcryptosession1.htm
 ms.assetid: 3c31efc3-b844-4e51-947d-b48f36020766
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_CREATECRYPTOSESSION callback function"]
 ms.keywords: CreateCryptoSession, CreateCryptoSession callback function [Display Devices], PFND3D11_1DDI_CREATECRYPTOSESSION, PFND3D11_1DDI_CREATECRYPTOSESSION callback, d3d10umddi/CreateCryptoSession, display.createcryptosession1
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

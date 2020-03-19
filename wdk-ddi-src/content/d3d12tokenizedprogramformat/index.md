@@ -3,6 +3,7 @@ UID: NA:d3d12tokenizedprogramformat
 title: D3D12Tokenizedprogramformat.h header
 ms.assetid: a922ca90-8089-3aaa-ab30-ad6672a77596
 ms.date: 05/09/2018
+keywords: ["D3D12Tokenizedprogramformat.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

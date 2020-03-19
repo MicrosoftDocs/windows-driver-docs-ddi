@@ -4,6 +4,7 @@ title: D3D12DDI_DEVICE_FUNCS_CORE_0043 (d3d12umddi.h)
 description: Core device functions.
 ms.assetid: 5e7bb4ce-834d-4026-9936-51faa7935fbf
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_DEVICE_FUNCS_CORE_0043 structure"]
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0043, D3D12DDI_DEVICE_FUNCS_CORE_0043,
 req.header: d3d12umddi.h
 req.include-header: 

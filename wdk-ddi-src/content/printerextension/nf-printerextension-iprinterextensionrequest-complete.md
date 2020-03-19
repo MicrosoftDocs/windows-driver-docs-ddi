@@ -6,6 +6,7 @@ old-location: print\iprinterextensionrequest_complete.htm
 tech.root: print
 ms.assetid: 2182A3E0-6CFD-4B29-BE78-EE38CA630FA1
 ms.date: 04/20/2018
+keywords: ["IPrinterExtensionRequest::Complete"]
 ms.keywords: Complete, Complete method [Print Devices], Complete method [Print Devices],IPrinterExtensionRequest interface, IPrinterExtensionRequest interface [Print Devices],Complete method, IPrinterExtensionRequest.Complete, IPrinterExtensionRequest::Complete, print.iprinterextensionrequest_complete, printerextension/IPrinterExtensionRequest::Complete
 f1_keywords:
  - "printerextension/IPrinterExtensionRequest.Complete"

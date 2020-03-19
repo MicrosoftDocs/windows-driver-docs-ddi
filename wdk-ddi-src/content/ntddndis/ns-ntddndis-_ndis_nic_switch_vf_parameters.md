@@ -6,6 +6,7 @@ old-location: netvista\ndis_nic_switch_vf_parameters.htm
 tech.root: netvista
 ms.assetid: 9e75bb9a-e266-4321-8862-4bdfab300421
 ms.date: 05/02/2018
+keywords: ["_NDIS_NIC_SWITCH_VF_PARAMETERS structure"]
 ms.keywords: "*PNDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS, NDIS_NIC_SWITCH_VF_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VF_PARAMETERS, PNDIS_NIC_SWITCH_VF_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VF_PARAMETERS, netvista.ndis_nic_switch_vf_parameters, ntddndis/NDIS_NIC_SWITCH_VF_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_VF_PARAMETERS"
 f1_keywords:
  - "ntddndis/NDIS_NIC_SWITCH_VF_PARAMETERS"

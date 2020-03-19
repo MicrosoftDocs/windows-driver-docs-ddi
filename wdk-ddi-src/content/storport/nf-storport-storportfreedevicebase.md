@@ -6,6 +6,7 @@ old-location: storage\storportfreedevicebase.htm
 tech.root: storage
 ms.assetid: 4feb3bde-c243-493c-a6f9-4accd545955c
 ms.date: 03/29/2018
+keywords: ["StorPortFreeDeviceBase function"]
 ms.keywords: StorPortFreeDeviceBase, StorPortFreeDeviceBase function [Storage Devices], storage.storportfreedevicebase, storport/StorPortFreeDeviceBase, storprt_f8c3e4c6-8f38-4189-bdac-70c0c61e0f18.xml
 f1_keywords:
  - "storport/StorPortFreeDeviceBase"

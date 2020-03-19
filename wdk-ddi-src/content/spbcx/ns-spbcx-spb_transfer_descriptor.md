@@ -6,6 +6,7 @@ old-location: spb\spb_transfer_descriptor.htm
 tech.root: SPB
 ms.assetid: 3D370646-3879-4415-8D80-04D0B23839B0
 ms.date: 04/30/2018
+keywords: ["SPB_TRANSFER_DESCRIPTOR structure"]
 ms.keywords: "*PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR structure pointer [Buses], SPB.spb_transfer_descriptor, SPB_TRANSFER_DESCRIPTOR, SPB_TRANSFER_DESCRIPTOR structure [Buses], spbcx/PSPB_TRANSFER_DESCRIPTOR, spbcx/SPB_TRANSFER_DESCRIPTOR"
 f1_keywords:
  - "spbcx/SPB_TRANSFER_DESCRIPTOR"

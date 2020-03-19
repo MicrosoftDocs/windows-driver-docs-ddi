@@ -5,6 +5,7 @@ description: NET_BUFFER_DATA_LENGTH is a macro that NDIS drivers use to get the 
 tech.root: netvista
 ms.assetid: becba604-f2cd-49f4-bf64-ec8055047669
 ms.date: 04/12/2018
+keywords: ["NET_BUFFER_DATA_LENGTH macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_DATA_LENGTH"
 ms.keywords: NET_BUFFER_DATA_LENGTH

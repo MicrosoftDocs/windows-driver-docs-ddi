@@ -4,6 +4,7 @@ title: _ACPI_PLD_ORIENTATION enumeration (acpitabl.h)
 description: Describes orientation bit 78.
 ms.assetid: b58d55f1-47b4-4f2d-93f6-85bc2dee4426
 ms.date: 10/02/2018
+keywords: ["_ACPI_PLD_ORIENTATION enumeration"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_ORIENTATION"
 ms.keywords: _ACPI_PLD_ORIENTATION, ACPI_PLD_ORIENTATION, *PACPI_PLD_ORIENTATION, 

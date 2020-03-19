@@ -5,6 +5,7 @@ description: Adds a caller-provided handler for a specific OID query data reques
 tech.root: netvista
 ms.assetid: d448093c-29c5-4517-bb33-9055e5694ebc
 ms.date: 02/09/2018
+keywords: ["NET_REQUEST_QUEUE_CONFIG_ADD_QUERY_DATA_HANDLER function"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_CONFIG_ADD_QUERY_DATA_HANDLER"
 ms.keywords: NET_REQUEST_QUEUE_CONFIG_ADD_QUERY_DATA_HANDLER

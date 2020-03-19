@@ -6,6 +6,7 @@ old-location: storage\storage_medium_product_type_descriptor.htm
 tech.root: storage
 ms.assetid: AC0C09DF-EFD4-457B-8ABC-C60890D3AF6A
 ms.date: 03/29/2018
+keywords: ["_STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure"]
 ms.keywords: PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Storage Devices], STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Storage Devices], _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, ntddstor/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, ntddstor/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, storage.storage_medium_product_type_descriptor
 f1_keywords:
  - "ntddstor/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR"

@@ -6,6 +6,7 @@ old-location: wdf\wdfdevicequeryinterfaceproperty.htm
 tech.root: wdf
 ms.assetid: 0A09990B-DAB9-41D3-80BF-38CD6AF39625
 ms.date: 02/26/2018
+keywords: ["WdfDeviceQueryInterfaceProperty function"]
 ms.keywords: WdfDeviceQueryInterfaceProperty, WdfDeviceQueryInterfaceProperty method, wdf.wdfdevicequeryinterfaceproperty, wdfdevice/WdfDeviceQueryInterfaceProperty
 f1_keywords:
  - "wdfdevice/WdfDeviceQueryInterfaceProperty"

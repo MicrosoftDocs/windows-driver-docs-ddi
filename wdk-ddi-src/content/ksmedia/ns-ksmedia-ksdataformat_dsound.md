@@ -6,6 +6,7 @@ old-location: audio\ksdataformat_dsound.htm
 tech.root: audio
 ms.assetid: 2b620e4f-8c26-479a-8b06-4e558b0813e5
 ms.date: 05/08/2018
+keywords: ["KSDATAFORMAT_DSOUND structure"]
 ms.keywords: "*PKSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND, KSDATAFORMAT_DSOUND structure [Audio Devices], PKSDATAFORMAT_DSOUND, PKSDATAFORMAT_DSOUND structure pointer [Audio Devices], aud-prop_2e782d9c-dfeb-4797-b902-e32e947d2542.xml, audio.ksdataformat_dsound, ksmedia/KSDATAFORMAT_DSOUND, ksmedia/PKSDATAFORMAT_DSOUND"
 f1_keywords:
  - "ksmedia/KSDATAFORMAT_DSOUND"

@@ -5,6 +5,7 @@ description: Video size range.
 old-location: display\d3d12ddi-video-size-range-0032.htm
 ms.assetid: a4781fea-4efc-442d-8503-12be17afa9b1
 ms.date: 04/16/2018
+keywords: ["D3D12DDI_VIDEO_SIZE_RANGE_0032 structure"]
 ms.keywords: D3D12DDI_VIDEO_SIZE_RANGE_0032, D3D12DDI_VIDEO_SIZE_RANGE_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_SIZE_RANGE_0032, display.d3d12ddi-video-size-range-0032
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_SIZE_RANGE_0032"

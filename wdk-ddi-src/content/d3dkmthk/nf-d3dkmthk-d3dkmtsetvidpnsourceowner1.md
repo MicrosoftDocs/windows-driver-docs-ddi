@@ -5,6 +5,7 @@ description: Sets and releases the video present source in the path of a video p
 old-location: display\d3dkmtsetvidpnsourceowner1.htm
 ms.assetid: ccee5459-f156-41c3-b9a1-8bd7d16c8d19
 ms.date: 05/10/2018
+keywords: ["D3DKMTSetVidPnSourceOwner1 function"]
 ms.keywords: D3DKMTSetVidPnSourceOwner1, D3DKMTSetVidPnSourceOwner1 callback function [Display Devices], PFND3DKMT_SETVIDPNSOURCEOWNER1, PFND3DKMT_SETVIDPNSOURCEOWNER1 callback, d3dkmthk/D3DKMTSetVidPnSourceOwner1, display.d3dkmtsetvidpnsourceowner1
 f1_keywords:
  - "d3dkmthk/D3DKMTSetVidPnSourceOwner1"

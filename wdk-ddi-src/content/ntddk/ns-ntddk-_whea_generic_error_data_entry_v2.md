@@ -6,6 +6,7 @@ old-location: whea\whea_generic_error_data_entry.htm
 tech.root: whea
 ms.assetid: 86834d99-34bd-487a-bbd4-4c0143d849a0
 ms.date: 02/20/2018
+keywords: ["_WHEA_GENERIC_ERROR_DATA_ENTRY_V2 structure"]
 ms.keywords: "*PWHEA_GENERIC_ERROR_DATA_ENTRY, *PWHEA_GENERIC_ERROR_DATA_ENTRY_V2, PWHEA_GENERIC_ERROR_DATA_ENTRY, PWHEA_GENERIC_ERROR_DATA_ENTRY structure pointer [WHEA Drivers and Applications], WHEA_GENERIC_ERROR_DATA_ENTRY, WHEA_GENERIC_ERROR_DATA_ENTRY structure [WHEA Drivers and Applications], WHEA_GENERIC_ERROR_DATA_ENTRY_V2, _WHEA_GENERIC_ERROR_DATA_ENTRY_V2, ntddk/PWHEA_GENERIC_ERROR_DATA_ENTRY, ntddk/WHEA_GENERIC_ERROR_DATA_ENTRY, whea.whea_generic_error_data_entry, whearef_9e532654-fd5a-4936-8465-f9d6f9eafad2.xml"
 f1_keywords:
  - "ntddk/WHEA_GENERIC_ERROR_DATA_ENTRY"

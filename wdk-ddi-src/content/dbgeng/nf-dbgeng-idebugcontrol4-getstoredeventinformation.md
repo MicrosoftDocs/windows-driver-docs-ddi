@@ -6,6 +6,7 @@ old-location: debugger\getstoredeventinformation.htm
 tech.root: debugger
 ms.assetid: 94cc33bf-cd44-4892-a4e1-991eb6339cc3
 ms.date: 05/03/2018
+keywords: ["IDebugControl4::GetStoredEventInformation"]
 ms.keywords: GetStoredEventInformation, GetStoredEventInformation method [Windows Debugging], GetStoredEventInformation method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetStoredEventInformation method, IDebugControl4.GetStoredEventInformation, IDebugControl4::GetStoredEventInformation, IDebugControl_2d615fc9-52f1-4169-9265-430a1ce0f940.xml, dbgeng/IDebugControl4::GetStoredEventInformation, debugger.getstoredeventinformation
 f1_keywords:
  - "dbgeng/IDebugControl4.GetStoredEventInformation"

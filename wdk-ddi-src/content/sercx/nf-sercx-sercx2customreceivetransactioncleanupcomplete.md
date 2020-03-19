@@ -6,6 +6,7 @@ old-location: serports\sercx2customreceivetransactioncleanupcomplete.htm
 tech.root: serports
 ms.assetid: 45CCCD97-94FD-457B-8315-06DC701B22A2
 ms.date: 04/23/2018
+keywords: ["SerCx2CustomReceiveTransactionCleanupComplete function"]
 ms.keywords: 2/SerCx2CustomReceiveTransactionCleanupComplete, SerCx2CustomReceiveTransactionCleanupComplete, SerCx2CustomReceiveTransactionCleanupComplete method [Serial Ports], serports.sercx2customreceivetransactioncleanupcomplete
 f1_keywords:
  - "sercx/SerCx2CustomReceiveTransactionCleanupComplete"

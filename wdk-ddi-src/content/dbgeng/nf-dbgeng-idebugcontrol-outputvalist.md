@@ -6,6 +6,7 @@ old-location: debugger\outputvalist.htm
 tech.root: debugger
 ms.assetid: 6b2c0c43-26a3-4e66-aa9f-45b431ce6516
 ms.date: 05/03/2018
+keywords: ["IDebugControl::OutputVaList"]
 ms.keywords: IDebugControl interface [Windows Debugging],OutputVaList method, IDebugControl.OutputVaList, IDebugControl2 interface [Windows Debugging],OutputVaList method, IDebugControl2::OutputVaList, IDebugControl3 interface [Windows Debugging],OutputVaList method, IDebugControl3::OutputVaList, IDebugControl::OutputVaList, IDebugControl_4c0f8057-9e61-4a89-a2e8-be15bd49e5fc.xml, OutputVaList, OutputVaList method [Windows Debugging], OutputVaList method [Windows Debugging],IDebugControl interface, OutputVaList method [Windows Debugging],IDebugControl2 interface, OutputVaList method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputVaList, dbgeng/IDebugControl3::OutputVaList, dbgeng/IDebugControl::OutputVaList, debugger.outputvalist
 f1_keywords:
  - "dbgeng/IDebugControl.OutputVaList"

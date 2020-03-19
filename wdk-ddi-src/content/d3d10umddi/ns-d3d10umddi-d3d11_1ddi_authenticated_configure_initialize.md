@@ -5,6 +5,7 @@ description: Contains input data for a call to the ConfigureAuthenticatedChannel
 old-location: display\d3d11_1ddi_authenticated_configure_initialize.htm
 ms.assetid: 7a087c7b-3ce7-4054-9880-9940ce589fa4
 ms.date: 05/10/2018
+keywords: ["D3D11_1DDI_AUTHENTICATED_CONFIGURE_INITIALIZE structure"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_CONFIGURE_INITIALIZE, D3D11_1DDI_AUTHENTICATED_CONFIGURE_INITIALIZE structure [Display Devices], D3D11_DDI_AUTHENTICATED_CONFIGURE_INITIALIZE, D3D11_DDI_AUTHENTICATED_CONFIGURE_INITIALIZE structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_CONFIGURE_INITIALIZE, display.d3d11_1ddi_authenticated_configure_initialize
 f1_keywords:
  - "d3d10umddi/D3D11_DDI_AUTHENTICATED_CONFIGURE_INITIALIZE"

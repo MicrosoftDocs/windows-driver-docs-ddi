@@ -6,6 +6,7 @@ old-location: image\wiaugetvalidformats.htm
 tech.root: image
 ms.assetid: 8bf1d76a-2e5b-4e9a-85fc-187fea72d38c
 ms.date: 05/03/2018
+keywords: ["wiauGetValidFormats function"]
 ms.keywords: image.wiaugetvalidformats, wiauFncs_f311862b-03fe-4fe6-8b30-46cd9a53513b.xml, wiauGetValidFormats, wiauGetValidFormats function [Imaging Devices], wiautil/wiauGetValidFormats
 f1_keywords:
  - "wiautil/wiauGetValidFormats"

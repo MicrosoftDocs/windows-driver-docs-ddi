@@ -6,6 +6,7 @@ old-location: print\iprintoemuni_getinfo.htm
 tech.root: print
 ms.assetid: 8c4ab4a0-387f-49f8-bb9e-4851c5079cff
 ms.date: 04/20/2018
+keywords: ["IPrintOemUni::GetInfo"]
 ms.keywords: GetInfo, GetInfo method [Print Devices], GetInfo method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],GetInfo method, IPrintOemUni.GetInfo, IPrintOemUni::GetInfo, prcomoem/IPrintOemUni::GetInfo, print.iprintoemuni_getinfo, print_unidrv-pscript_rendering_67919d6c-27a7-4f53-b558-9a6d6b391dad.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.GetInfo"

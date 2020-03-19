@@ -6,6 +6,7 @@ old-location: wdf\iwdfobject_assigncontext.htm
 tech.root: wdf
 ms.assetid: 9b543d5d-ed6d-4440-b5ad-aefca69dd489
 ms.date: 02/26/2018
+keywords: ["IWDFObject::AssignContext"]
 ms.keywords: AssignContext, AssignContext method, AssignContext method,IWDFObject interface, IWDFObject interface,AssignContext method, IWDFObject.AssignContext, IWDFObject::AssignContext, UMDFBaseObjectRef_1cc8c14a-66bd-487c-a58d-00f22f52adcc.xml, umdf.iwdfobject_assigncontext, wdf.iwdfobject_assigncontext, wudfddi/IWDFObject::AssignContext
 f1_keywords:
  - "wudfddi/IWDFObject.AssignContext"

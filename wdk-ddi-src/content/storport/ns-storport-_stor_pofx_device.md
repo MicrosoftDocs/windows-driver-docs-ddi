@@ -6,6 +6,7 @@ old-location: storage\stor_pofx_device.htm
 tech.root: storage
 ms.assetid: 5453CF25-D753-4FED-85E3-D990FAB46626
 ms.date: 03/29/2018
+keywords: ["_STOR_POFX_DEVICE structure"]
 ms.keywords: "*PSTOR_POFX_DEVICE, PSTOR_POFX_DEVICE, PSTOR_POFX_DEVICE structure pointer [Storage Devices], STOR_POFX_DEVICE, STOR_POFX_DEVICE structure [Storage Devices], STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, _STOR_POFX_DEVICE, storage.stor_pofx_device, storport/PSTOR_POFX_DEVICE, storport/STOR_POFX_DEVICE"
 f1_keywords:
  - "storport/STOR_POFX_DEVICE"

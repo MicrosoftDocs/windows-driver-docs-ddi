@@ -3,6 +3,7 @@ UID: TP:ifsk
 title: Installable file system
 ms.assetid: c842e40c-3483-3721-b6bf-4da6e333af1a
 ms.date: 05/09/2018
+keywords: ["Installable file system"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_setpalette.htm
 tech.root: display
 ms.assetid: 265912e2-2076-4435-811f-70a3dd1a0bd7
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_SETPALETTE structure"]
 ms.keywords: D3DDDIARG_SETPALETTE, D3DDDIARG_SETPALETTE structure [Display Devices], UMDisplayDriver_param_Structs_6fb950bf-0a0f-4d87-950d-7030251ed074.xml, _D3DDDIARG_SETPALETTE, d3dumddi/D3DDDIARG_SETPALETTE, display.d3dddiarg_setpalette
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETPALETTE"

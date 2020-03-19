@@ -6,6 +6,7 @@ old-location: display\getnextchunkdata.htm
 tech.root: display
 ms.assetid: 24b1d89a-4200-41ec-aa73-15b37e4cca6d
 ms.date: 05/10/2018
+keywords: ["PFN_GET_NEXT_CHUNK_DATA callback function"]
 ms.keywords: GetNextChunkData, GetNextChunkData callback function [Display Devices], PFN_GET_NEXT_CHUNK_DATA, PFN_GET_NEXT_CHUNK_DATA callback, display.getnextchunkdata, netdispumdddi/GetNextChunkData
 f1_keywords:
  - "netdispumdddi/GetNextChunkData"

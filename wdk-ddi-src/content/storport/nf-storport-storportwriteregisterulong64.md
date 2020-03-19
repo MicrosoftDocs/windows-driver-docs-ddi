@@ -6,6 +6,7 @@ old-location: storage\storportwriteregisterulong64.htm
 tech.root: storage
 ms.assetid: FFBC7A27-B980-49AF-9207-237E0F0292FA
 ms.date: 03/29/2018
+keywords: ["StorPortWriteRegisterUlong64 macro"]
 ms.keywords: StorPortWriteRegisterUlong64, StorPortWriteRegisterUlong64 routine [Storage Devices], storage.storportwriteregisterulong64, storport/StorPortWriteRegisterUlong64
 f1_keywords:
  - "storport/StorPortWriteRegisterUlong64"

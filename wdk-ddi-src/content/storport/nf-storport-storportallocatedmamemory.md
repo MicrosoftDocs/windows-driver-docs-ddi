@@ -5,6 +5,7 @@ description: This function is the extended version of the StorPortAllocateContig
 tech.root: storage
 ms.assetid: f56640ac-4a31-4384-86bf-423fb7c5cd21
 ms.date: 10/19/2018
+keywords: ["StorPortAllocateDmaMemory function"]
 f1_keywords:
  - "storport/StorPortAllocateDmaMemory"
 ms.keywords: StorPortAllocateDmaMemory

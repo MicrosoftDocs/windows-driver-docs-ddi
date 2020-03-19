@@ -6,6 +6,7 @@ old-location: display\dxvaddi_videoprocessbltflags.htm
 tech.root: display
 ms.assetid: 790a18fa-5481-432a-921b-6310a0ab78d7
 ms.date: 05/10/2018
+keywords: ["_DXVADDI_VIDEOPROCESSBLTFLAGS structure"]
 ms.keywords: DXVA2_Structs_8c40b10b-d3f4-420b-986a-455b20b01288.xml, DXVADDI_VIDEOPROCESSBLTFLAGS, DXVADDI_VIDEOPROCESSBLTFLAGS structure [Display Devices], _DXVADDI_VIDEOPROCESSBLTFLAGS, d3dumddi/DXVADDI_VIDEOPROCESSBLTFLAGS, display.dxvaddi_videoprocessbltflags
 f1_keywords:
  - "d3dumddi/DXVADDI_VIDEOPROCESSBLTFLAGS"

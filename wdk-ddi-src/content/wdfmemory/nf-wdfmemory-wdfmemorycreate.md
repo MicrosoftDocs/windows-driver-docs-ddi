@@ -6,6 +6,7 @@ old-location: wdf\wdfmemorycreate.htm
 tech.root: wdf
 ms.assetid: d2071ea0-737d-4a61-90d6-614d77983f0b
 ms.date: 02/26/2018
+keywords: ["WdfMemoryCreate function"]
 ms.keywords: DFMemoryObjectRef_53623d93-01bb-4062-b066-e884beed3f32.xml, WdfMemoryCreate, WdfMemoryCreate method, kmdf.wdfmemorycreate, wdf.wdfmemorycreate, wdfmemory/WdfMemoryCreate
 f1_keywords:
  - "wdfmemory/WdfMemoryCreate"

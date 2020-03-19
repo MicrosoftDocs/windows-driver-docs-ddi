@@ -6,6 +6,7 @@ old-location: ifsk\fltquerydirectoryfile.htm
 tech.root: ifsk
 ms.assetid: d77dfcc7-a7a7-4027-9831-42b1b79738d0
 ms.date: 04/16/2018
+keywords: ["FltQueryDirectoryFile function"]
 ms.keywords: FltQueryDirectoryFile, FltQueryDirectoryFile routine [Installable File System Drivers], fltkernel/FltQueryDirectoryFile, ifsk.fltquerydirectoryfile, FltQueryDirectoryFileEx
 f1_keywords:
  - "fltkernel/FltQueryDirectoryFile"

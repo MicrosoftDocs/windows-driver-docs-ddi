@@ -5,6 +5,7 @@ description: The CreateDepthStencilState function creates a depth stencil state.
 old-location: display\createdepthstencilstate.htm
 ms.assetid: ed2da104-c4e8-43eb-80e0-10273b575020
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CREATEDEPTHSTENCILSTATE callback function"]
 ms.keywords: CreateDepthStencilState, CreateDepthStencilState callback function [Display Devices], PFND3D10DDI_CREATEDEPTHSTENCILSTATE, PFND3D10DDI_CREATEDEPTHSTENCILSTATE callback, UserModeDisplayDriverDx10_Functions_1d472cf5-dd58-4989-afa5-12243f6c9301.xml, d3d10umddi/CreateDepthStencilState, display.createdepthstencilstate
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

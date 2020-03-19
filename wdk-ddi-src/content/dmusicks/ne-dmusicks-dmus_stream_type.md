@@ -6,6 +6,7 @@ old-location: audio\dmus_stream_type.htm
 tech.root: audio
 ms.assetid: C4218B83-6D6D-4F3B-A90F-B92D08D80E24
 ms.date: 05/08/2018
+keywords: ["DMUS_STREAM_TYPE enumeration"]
 ms.keywords: DMUS_STREAM_MIDI_CAPTURE, DMUS_STREAM_MIDI_INVALID, DMUS_STREAM_MIDI_RENDER, DMUS_STREAM_TYPE, DMUS_STREAM_TYPE enumeration [Audio Devices], DMUS_STREAM_WAVE_SINK, audio.dmus_stream_type, dmusicks/DMUS_STREAM_MIDI_CAPTURE, dmusicks/DMUS_STREAM_MIDI_INVALID, dmusicks/DMUS_STREAM_MIDI_RENDER, dmusicks/DMUS_STREAM_TYPE, dmusicks/DMUS_STREAM_WAVE_SINK
 f1_keywords:
  - "dmusicks/DMUS_STREAM_TYPE"

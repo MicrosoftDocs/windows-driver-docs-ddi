@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: b34b6dcd-588f-4cc7-8044-62fd58897f8b
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
+keywords: ["NetOffloadIsRscIPv6Enabled function"]
 f1_keywords:
  - "netadapteroffload/NetOffloadIsRscIPv6Enabled"
 ms.keywords: NetOffloadIsRscIPv6Enabled

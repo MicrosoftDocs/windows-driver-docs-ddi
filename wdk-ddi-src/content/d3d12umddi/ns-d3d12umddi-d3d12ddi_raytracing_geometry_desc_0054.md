@@ -4,6 +4,7 @@ title: D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054 (d3d12umddi.h)
 description: Describes a ray tracing geometry.
 ms.assetid: a1950a04-049f-41c2-99ab-46d44a0b1cd6
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054"
 ms.keywords: D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054, D3D12DDI_RAYTRACING_GEOMETRY_DESC_0054, 

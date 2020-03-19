@@ -5,6 +5,7 @@ description: D3DKMT_UNLOCK2 describes an allocation to unlock.
 old-location: display\d3dkmt_unlock2.htm
 ms.assetid: 8651297B-BCF7-42A2-9175-D9D072E052D6
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_UNLOCK2 structure"]
 ms.keywords: D3DKMT_UNLOCK2, D3DKMT_UNLOCK2 structure [Display Devices], _D3DKMT_UNLOCK2, d3dkmthk/D3DKMT_UNLOCK2, display.d3dkmt_unlock2
 f1_keywords:
  - "d3dkmthk/D3DKMT_UNLOCK2"

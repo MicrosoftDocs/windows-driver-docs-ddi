@@ -6,6 +6,7 @@ old-location: ifsk\fltreadfile.htm
 tech.root: ifsk
 ms.assetid: 3ceacb96-1c60-4310-b96f-6fb396c1d6ce
 ms.date: 04/16/2018
+keywords: ["FltReadFile function"]
 ms.keywords: FltApiRef_p_to_z_83c0167c-78df-4692-980b-7a55f531a9db.xml, FltReadFile, FltReadFile function [Installable File System Drivers], fltkernel/FltReadFile, ifsk.fltreadfile
 f1_keywords:
  - "fltkernel/FltReadFile"

@@ -5,6 +5,7 @@ description: Hyper-V extensible switch extensions use the NDIS_SWITCH_PROPERTY_C
 tech.root: netvista
 ms.assetid: b4581a05-fdc8-446a-b6d3-05d02a1f48c8
 ms.date: 04/17/2018
+keywords: ["NDIS_SWITCH_PROPERTY_CUSTOM_GET_BUFFER macro"]
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PROPERTY_CUSTOM_GET_BUFFER"
 ms.keywords: NDIS_SWITCH_PROPERTY_CUSTOM_GET_BUFFER

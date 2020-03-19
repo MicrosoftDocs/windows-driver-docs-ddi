@@ -6,6 +6,7 @@ old-location: storage\cdrom_streaming_control.htm
 tech.root: storage
 ms.assetid: 71D4008C-1F04-408B-93DF-DDE6FD352701
 ms.date: 03/29/2018
+keywords: ["_CDROM_STREAMING_CONTROL structure"]
 ms.keywords: "*PCDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL structure [Storage Devices], PCDROM_STREAMING_CONTROL, PCDROM_STREAMING_CONTROL structure pointer [Storage Devices], _CDROM_STREAMING_CONTROL, ntddcdrm/CDROM_STREAMING_CONTROL, ntddcdrm/PCDROM_STREAMING_CONTROL, storage.cdrom_streaming_control"
 f1_keywords:
  - "ntddcdrm/CDROM_STREAMING_CONTROL"

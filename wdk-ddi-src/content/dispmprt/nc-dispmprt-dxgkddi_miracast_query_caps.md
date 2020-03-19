@@ -6,6 +6,7 @@ old-location: display\dxgkddimiracastquerycaps.htm
 tech.root: display
 ms.assetid: C10CAA33-C407-4183-9090-B9D78B07CD12
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_MIRACAST_QUERY_CAPS callback function"]
 ms.keywords: DXGKDDI_MIRACAST_QUERY_CAPS, DXGKDDI_MIRACAST_QUERY_CAPS callback, DxgkDdiMiracastQueryCaps, DxgkDdiMiracastQueryCaps callback function [Display Devices], display.dxgkddimiracastquerycaps, dispmprt/DxgkDdiMiracastQueryCaps
 f1_keywords:
  - "dispmprt/DxgkDdiMiracastQueryCaps"

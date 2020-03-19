@@ -6,6 +6,7 @@ old-location: buses\udecx_wdf_device_config.htm
 tech.root: usbref
 ms.assetid: 54853C39-FA6C-4F9B-A202-F116C43D3A4E
 ms.date: 05/07/2018
+keywords: ["_UDECX_WDF_DEVICE_CONFIG structure"]
 ms.keywords: "*PUDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG structure pointer [Buses], UDECX_WDF_DEVICE_CONFIG, UDECX_WDF_DEVICE_CONFIG structure [Buses], _UDECX_WDF_DEVICE_CONFIG, buses.udecx_wdf_device_config, udecxwdfdevice/PUDECX_WDF_DEVICE_CONFIG, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG"
 f1_keywords:
  - "udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG"

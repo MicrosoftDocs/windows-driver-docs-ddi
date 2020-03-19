@@ -6,6 +6,7 @@ old-location: print\iprintschemapageimageablesize_extentwidthinmicrons.htm
 tech.root: print
 ms.assetid: B30CD277-ADE2-45F7-BE73-CF738843D9B9
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons"]
 ms.keywords: ExtentWidthInMicrons property [Print Devices], ExtentWidthInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, IPrintSchemaPageImageableSize interface [Print Devices],ExtentWidthInMicrons property, IPrintSchemaPageImageableSize.ExtentWidthInMicrons, IPrintSchemaPageImageableSize.get_ExtentWidthInMicrons, IPrintSchemaPageImageableSize::ExtentWidthInMicrons, IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons, get_ExtentWidthInMicrons, print.iprintschemapageimageablesize_extentwidthinmicrons, printerextension/IPrintSchemaPageImageableSize::ExtentWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentWidthInMicrons
 f1_keywords:
  - "printerextension/IPrintSchemaPageImageableSize.ExtentWidthInMicrons"

@@ -5,6 +5,7 @@ description: The DXGK_DISCARDCONTENTFLAGS structure identifies the type of disca
 old-location: display\dxgk_discardcontentflags.htm
 ms.assetid: 0a93d3a2-0274-4b14-9c4b-9ed31a48e600
 ms.date: 05/10/2018
+keywords: ["_DXGK_DISCARDCONTENTFLAGS structure"]
 ms.keywords: DXGK_DISCARDCONTENTFLAGS, DXGK_DISCARDCONTENTFLAGS structure [Display Devices], DmStructs_9ff479c6-8592-4ebd-b001-c0a7d58772f2.xml, _DXGK_DISCARDCONTENTFLAGS, d3dkmddi/DXGK_DISCARDCONTENTFLAGS, display.dxgk_discardcontentflags
 f1_keywords:
  - "d3dkmddi/DXGK_DISCARDCONTENTFLAGS"

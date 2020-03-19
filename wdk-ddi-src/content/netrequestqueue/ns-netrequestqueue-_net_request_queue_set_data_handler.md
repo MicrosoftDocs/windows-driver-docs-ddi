@@ -5,6 +5,7 @@ description: Reserved for internal use. Call NET_REQUEST_QUEUE_CONFIG_ADD_SET_DA
 tech.root: netvista
 ms.assetid: c5af08b7-0733-481d-a6ba-32a21dd7990f
 ms.date: 02/09/2018
+keywords: ["_NET_REQUEST_QUEUE_SET_DATA_HANDLER structure"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_SET_DATA_HANDLER"
 ms.keywords: _NET_REQUEST_QUEUE_SET_DATA_HANDLER, *PNET_REQUEST_QUEUE_SET_DATA_HANDLER, NET_REQUEST_QUEUE_SET_DATA_HANDLER, 

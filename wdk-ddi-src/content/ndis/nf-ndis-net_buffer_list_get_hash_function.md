@@ -5,6 +5,7 @@ description: The NET_BUFFER_LIST_GET_HASH_FUNCTION macro gets the hash function 
 tech.root: netvista
 ms.assetid: 6ad6ab88-31e3-471a-9c21-a87c76b6654a
 ms.date: 04/13/2018
+keywords: ["NET_BUFFER_LIST_GET_HASH_FUNCTION macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_GET_HASH_FUNCTION"
 ms.keywords: NET_BUFFER_LIST_GET_HASH_FUNCTION

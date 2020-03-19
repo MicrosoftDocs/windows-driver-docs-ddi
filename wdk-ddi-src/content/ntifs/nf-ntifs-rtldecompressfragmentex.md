@@ -6,6 +6,7 @@ old-location: ifsk\rtldecompressfragmentex.htm
 tech.root: ifsk
 ms.assetid: A4FE108D-85CE-4F6A-A17A-E81684764FD3
 ms.date: 04/16/2018
+keywords: ["RtlDecompressFragmentEx function"]
 ms.keywords: RtlDecompressFragmentEx, RtlDecompressFragmentEx routine [Installable File System Drivers], ifsk.rtldecompressfragmentex, ntifs/RtlDecompressFragmentEx
 f1_keywords:
  - "ntifs/RtlDecompressFragmentEx"

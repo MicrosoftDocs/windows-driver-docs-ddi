@@ -6,6 +6,7 @@ old-location: wdf\iqueuecallbackread.htm
 tech.root: wdf
 ms.assetid: ccae49a2-2081-44f2-b1f6-cb1e98b74e5d
 ms.date: 02/26/2018
+keywords: ["IQueueCallbackRead interface"]
 ms.keywords: IQueueCallbackRead, IQueueCallbackRead interface, IQueueCallbackRead interface,described, UMDFQueueObjectRef_ea1187c2-6bd1-43a0-aeeb-6d9e1ee48cd7.xml, umdf.iqueuecallbackread, wdf.iqueuecallbackread, wudfddi/IQueueCallbackRead
 f1_keywords:
  - "wudfddi/IQueueCallbackRead"

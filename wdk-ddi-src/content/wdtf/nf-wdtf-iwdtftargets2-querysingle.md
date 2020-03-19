@@ -6,6 +6,7 @@ old-location: dtf\iwdtftargets2_querysingle.htm
 tech.root: dtf
 ms.assetid: d9aa36b6-8ce4-41dd-96a8-104fa9094405
 ms.date: 04/04/2018
+keywords: ["IWDTFTargets2::QuerySingle"]
 ms.keywords: IWDTFTargets2 interface [Windows Device Testing Framework],QuerySingle method, IWDTFTargets2.QuerySingle, IWDTFTargets2::QuerySingle, Microsoft.WDTF.IWDTFTargets2.QuerySingle, Microsoft::WDTF::IWDTFTargets2::QuerySingle, QuerySingle, QuerySingle method [Windows Device Testing Framework], QuerySingle method [Windows Device Testing Framework],IWDTFTargets2 interface, dtf.iwdtftargets2_querysingle, wdtf/IWDTFTargets2::QuerySingle
 f1_keywords:
  - "wdtf/IWDTFTargets2.QuerySingle"

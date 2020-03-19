@@ -6,6 +6,7 @@ old-location: storage\ide_power_state.htm
 tech.root: storage
 ms.assetid: b54655ac-b7ac-4026-9d9d-75dd139ac059
 ms.date: 03/29/2018
+keywords: ["IDE_POWER_STATE enumeration"]
 ms.keywords: IDE_POWER_STATE, IDE_POWER_STATE enumeration [Storage Devices], IdePowerD0, IdePowerD3, IdePowerUnSpecified, irb/IDE_POWER_STATE, irb/IdePowerD0, irb/IdePowerD3, irb/IdePowerUnSpecified, storage.ide_power_state, structs-ATA_82594916-763d-46c4-9a40-e1e4f0c32e13.xml
 f1_keywords:
  - "irb/IDE_POWER_STATE"

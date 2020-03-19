@@ -6,6 +6,7 @@ old-location: display\dxgi_ddi_arg_setresourcepriority.htm
 tech.root: display
 ms.assetid: 9d3f5687-bc49-4831-bf56-5d4201ed45de
 ms.date: 05/10/2018
+keywords: ["DXGI_DDI_ARG_SETRESOURCEPRIORITY structure"]
 ms.keywords: DXGI_DDI_ARG_SETRESOURCEPRIORITY, DXGI_DDI_ARG_SETRESOURCEPRIORITY structure [Display Devices], UMDisplayDriver_Dx10param_Structs_fda8895f-9cc7-496b-ae2e-bf6b076fc0b3.xml, display.dxgi_ddi_arg_setresourcepriority, dxgiddi/DXGI_DDI_ARG_SETRESOURCEPRIORITY
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_SETRESOURCEPRIORITY"

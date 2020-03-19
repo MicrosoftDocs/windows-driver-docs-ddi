@@ -6,6 +6,7 @@ old-location: netvista\ndis_ndk_performance_counters.htm
 tech.root: netvista
 ms.assetid: DA752989-B49B-4832-8821-8B45AB3304CD
 ms.date: 05/02/2018
+keywords: ["_NDIS_NDK_PERFORMANCE_COUNTERS structure"]
 ms.keywords: "*PNDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS, NDIS_NDK_PERFORMANCE_COUNTERS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_PERFORMANCE_COUNTERS, PNDIS_NDK_PERFORMANCE_COUNTERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_PERFORMANCE_COUNTERS, netvista.ndis_ndk_performance_counters, ntddndis/NDIS_NDK_PERFORMANCE_COUNTERS, ntddndis/PNDIS_NDK_PERFORMANCE_COUNTERS"
 f1_keywords:
  - "ntddndis/NDIS_NDK_PERFORMANCE_COUNTERS"

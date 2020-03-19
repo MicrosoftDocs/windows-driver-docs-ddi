@@ -6,6 +6,7 @@ old-location: display\videoportreadportbufferuchar.htm
 tech.root: display
 ms.assetid: 7eda10df-56f8-4bb5-8f36-6246e51c1638
 ms.date: 05/10/2018
+keywords: ["VideoPortReadPortBufferUchar function"]
 ms.keywords: VideoPortReadPortBufferUchar, VideoPortReadPortBufferUchar function [Display Devices], VideoPort_Functions_b3c67bc0-e12c-4625-bba6-d7fb64e0c824.xml, display.videoportreadportbufferuchar, video/VideoPortReadPortBufferUchar
 f1_keywords:
  - "video/VideoPortReadPortBufferUchar"

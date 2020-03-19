@@ -6,6 +6,7 @@ old-location: kernel\exreleasespinlockshared_.htm
 tech.root: kernel
 ms.assetid: D79FD160-1A03-43F0-B9AB-D74C6176565A
 ms.date: 03/28/2018
+keywords: ["ExReleaseSpinLockShared function"]
 ms.keywords: ExReleaseSpinLockShared, ExReleaseSpinLockShared routine [Kernel-Mode Driver Architecture], kernel.exreleasespinlockshared_, wdm/ExReleaseSpinLockShared
 f1_keywords:
  - "wdm/ExReleaseSpinLockShared"

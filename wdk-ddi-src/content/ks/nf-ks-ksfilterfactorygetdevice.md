@@ -6,6 +6,7 @@ old-location: stream\ksfilterfactorygetdevice.htm
 tech.root: stream
 ms.assetid: e5b7b014-3e06-49f2-8ccd-45d74592e349
 ms.date: 04/23/2018
+keywords: ["KsFilterFactoryGetDevice function"]
 ms.keywords: KsFilterFactoryGetDevice, KsFilterFactoryGetDevice function [Streaming Media Devices], avfunc_1e2ec536-69a1-4606-9d99-ebdebd25c89a.xml, ks/KsFilterFactoryGetDevice, stream.ksfilterfactorygetdevice
 f1_keywords:
  - "ks/KsFilterFactoryGetDevice"

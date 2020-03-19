@@ -6,6 +6,7 @@ old-location: kernel\pssetcreateprocessnotifyroutineex.htm
 tech.root: kernel
 ms.assetid: e982200c-f30c-423e-bd85-03365850c996
 ms.date: 04/30/2018
+keywords: ["PsSetCreateProcessNotifyRoutineEx function"]
 ms.keywords: PsSetCreateProcessNotifyRoutineEx, PsSetCreateProcessNotifyRoutineEx routine [Kernel-Mode Driver Architecture], k108_b68156fb-55d5-4192-a4d0-d74603647f42.xml, kernel.pssetcreateprocessnotifyroutineex, ntddk/PsSetCreateProcessNotifyRoutineEx
 f1_keywords:
  - "ntddk/PsSetCreateProcessNotifyRoutineEx"

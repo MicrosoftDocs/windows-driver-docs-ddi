@@ -6,6 +6,7 @@ old-location: netvista\ril_setnotificationfilterstate.htm
 tech.root: netvista
 ms.assetid: eb7c2318-2658-46ee-bd34-477b29e1b435
 ms.date: 05/02/2018
+keywords: ["RIL_SetNotificationFilterState function"]
 ms.keywords: RIL_SetNotificationFilterState, RIL_SetNotificationFilterState method [Network Drivers Starting with Windows Vista], netvista.ril_setnotificationfilterstate, rilapi/RIL_SetNotificationFilterState
 f1_keywords:
  - "rilapi/RIL_SetNotificationFilterState"

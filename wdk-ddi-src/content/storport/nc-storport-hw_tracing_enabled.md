@@ -6,6 +6,7 @@ old-location: storage\hwstortracingenabled.htm
 tech.root: storage
 ms.assetid: 2B56A2D3-1FA6-4212-A83C-3C20D826353B
 ms.date: 03/29/2018
+keywords: ["HW_TRACING_ENABLED callback function"]
 ms.keywords: HW_TRACING_ENABLED, HwStorTracingEnabled, HwStorTracingEnabled routine [Storage Devices], storage.hwstortracingenabled, storport/HwStorTracingEnabled
 f1_keywords:
  - "storport/HwStorTracingEnabled"

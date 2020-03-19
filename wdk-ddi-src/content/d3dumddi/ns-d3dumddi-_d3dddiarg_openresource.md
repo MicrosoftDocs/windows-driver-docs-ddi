@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_openresource.htm
 tech.root: display
 ms.assetid: eb1b7317-2e54-4e61-a3e5-b5ac0c09064e
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_OPENRESOURCE structure"]
 ms.keywords: D3DDDIARG_OPENRESOURCE, D3DDDIARG_OPENRESOURCE structure [Display Devices], UMDisplayDriver_param_Structs_d0d23672-9994-4fad-b104-4eef57b3b03e.xml, _D3DDDIARG_OPENRESOURCE, d3dumddi/D3DDDIARG_OPENRESOURCE, display.d3dddiarg_openresource
 f1_keywords:
  - "d3dumddi/D3DDDIARG_OPENRESOURCE"

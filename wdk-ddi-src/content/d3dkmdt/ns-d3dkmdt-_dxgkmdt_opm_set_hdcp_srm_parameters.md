@@ -6,6 +6,7 @@ old-location: display\dxgkmdt_opm_set_hdcp_srm_parameters.htm
 tech.root: display
 ms.assetid: fd069b0c-9af3-4442-aba0-1d81465e7eb0
 ms.date: 05/10/2018
+keywords: ["_DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure"]
 ms.keywords: DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS structure [Display Devices], DmStructs_6e80579a-8a17-47c0-b877-1e7712de2f04.xml, _DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, d3dkmdt/DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS, display.dxgkmdt_opm_set_hdcp_srm_parameters
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS"

@@ -6,6 +6,7 @@ old-location: netvista\rilcbgwlconfiginfo.htm
 tech.root: netvista
 ms.assetid: b92f6639-bf6a-4c1b-a0a6-57e310251591
 ms.date: 05/02/2018
+keywords: ["RILCBGWLCONFIGINFO structure"]
 ms.keywords: "*LPRILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcbgwlconfiginfo, ntddrilapitypes/RILCBGWLCONFIGINFO"
 f1_keywords:
  - "rilapitypes/RILCBGWLCONFIGINFO"

@@ -5,6 +5,7 @@ description: The command list functions for 3D.
 old-location: display\d3d12ddi-command-list-funcs-3d-0033.htm
 ms.assetid: 421e0623-0679-4068-b8e0-f0278abd2caf
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_COMMAND_LIST_FUNCS_3D_0033 structure"]
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_3D_0033, D3D12DDI_COMMAND_LIST_FUNCS_3D_0033 structure [Display Devices], d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0033, display.d3d12ddi-command-list-funcs-3d-0033
 f1_keywords:
  - "d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0033"

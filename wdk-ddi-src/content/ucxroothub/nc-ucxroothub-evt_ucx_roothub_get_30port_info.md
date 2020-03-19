@@ -6,6 +6,7 @@ old-location: buses\evt_ucx_roothub_get_30port_info.htm
 tech.root: usbref
 ms.assetid: 35eb22aa-3158-48ad-a20c-909604f9b4b1
 ms.date: 05/07/2018
+keywords: ["EVT_UCX_ROOTHUB_GET_30PORT_INFO callback function"]
 ms.keywords: EVT_UCX_ROOTHUB_GET_30PORT_INFO, EVT_UCX_ROOTHUB_GET_30PORT_INFO callback, EvtUcxRootHubGet30PortInfo, EvtUcxRootHubGet30PortInfo callback function [Buses], PEVT_UCX_ROOTHUB_GET_30PORT_INFO, PEVT_UCX_ROOTHUB_GET_30PORT_INFO callback function pointer [Buses], buses.evt_ucx_roothub_get_30port_info, ucxroothub/EvtUcxRootHubGet30PortInfo
 f1_keywords:
  - "ucxroothub/PEVT_UCX_ROOTHUB_GET_30PORT_INFO"

@@ -6,6 +6,7 @@ old-location: wdf\wdfchildlistgetdevice.htm
 tech.root: wdf
 ms.assetid: 5d51ec82-4891-47f1-8fc1-b20cb611d7fe
 ms.date: 02/26/2018
+keywords: ["WdfChildListGetDevice function"]
 ms.keywords: DFDeviceObjectChildListRef_3126e6d6-e0d4-4ad1-865e-e7ec36e3c593.xml, WdfChildListGetDevice, WdfChildListGetDevice method, kmdf.wdfchildlistgetdevice, wdf.wdfchildlistgetdevice, wdfchildlist/WdfChildListGetDevice
 f1_keywords:
  - "wdfchildlist/WdfChildListGetDevice"

@@ -6,6 +6,7 @@ old-location: display\iddcx_path.htm
 tech.root: display
 ms.assetid: c0126718-6bb0-493c-9fdd-78ae372f8fd4
 ms.date: 05/10/2018
+keywords: ["IDDCX_PATH structure"]
 ms.keywords: IDDCX_PATH, IDDCX_PATH structure, IDDCX_PATH structure [Display Devices], IDDCX_PATH structure pointer [Display Devices], IDDCX_PATH structure structure [Display Devices], display.iddcx_path, iddcx/IDDCX_PATH
 f1_keywords:
  - "iddcx/IDDCX_PATH"

@@ -6,6 +6,7 @@ old-location: netvista\rilimssipreason.htm
 tech.root: netvista
 ms.assetid: bb3269d5-1e42-4e18-9d93-ad7f3f4de3f9
 ms.date: 05/02/2018
+keywords: ["RILIMSSIPREASON enumeration"]
 ms.keywords: RILIMSSIPREASON, RILIMSSIPREASON enumeration [Network Drivers Starting with Windows Vista], RIL_IMSSIPREASON_MAX, RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE, netvista.rilimssipreason, ntddrilapitypes/RILIMSSIPREASON, ntddrilapitypes/RIL_IMSSIPREASON_MAX, ntddrilapitypes/RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE
 f1_keywords:
  - "ntddrilapitypes/RILIMSSIPREASON"

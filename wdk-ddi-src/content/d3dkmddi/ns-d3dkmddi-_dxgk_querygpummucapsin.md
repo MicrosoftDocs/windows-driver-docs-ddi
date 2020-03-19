@@ -5,6 +5,7 @@ description: The DXGK_QUERYGPUMMUCAPSIN structure holds the index of the adapter
 old-location: display\dxgk_querygpummucapsin.htm
 ms.assetid: 8DFD307F-DD4E-4321-AD97-78A5D67687B0
 ms.date: 05/10/2018
+keywords: ["_DXGK_QUERYGPUMMUCAPSIN structure"]
 ms.keywords: DXGK_QUERYGPUMMUCAPSIN, DXGK_QUERYGPUMMUCAPSIN structure [Display Devices], _DXGK_QUERYGPUMMUCAPSIN, d3dkmddi/DXGK_QUERYGPUMMUCAPSIN, display.dxgk_querygpummucapsin
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYGPUMMUCAPSIN"

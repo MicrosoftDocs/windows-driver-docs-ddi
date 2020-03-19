@@ -6,6 +6,7 @@ old-location: kernel\iogetdevicenumanode.htm
 tech.root: kernel
 ms.assetid: a36e9d57-c820-43db-a6e0-e935bffca254
 ms.date: 04/30/2018
+keywords: ["IoGetDeviceNumaNode function"]
 ms.keywords: IoGetDeviceNumaNode, IoGetDeviceNumaNode routine [Kernel-Mode Driver Architecture], k104_5a8419d1-9b77-4461-bdc4-9cf5022fb508.xml, kernel.iogetdevicenumanode, wdm/IoGetDeviceNumaNode
 f1_keywords:
  - "wdm/IoGetDeviceNumaNode"

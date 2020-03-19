@@ -6,6 +6,7 @@ old-location: kernel\rtlstringcbvprintf.htm
 tech.root: kernel
 ms.assetid: 9dfd1894-c9b5-43c2-8377-c28577898754
 ms.date: 04/30/2018
+keywords: ["RtlStringCbVPrintfW function"]
 ms.keywords: RtlStringCbVPrintf, RtlStringCbVPrintfA, RtlStringCbVPrintfW, RtlStringCbVPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbvprintf, ntstrsafe/RtlStringCbVPrintfA, ntstrsafe/RtlStringCbVPrintfW, safestrings_8b0897a4-24fb-4375-80aa-4148ca6815ce.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCbVPrintfW"

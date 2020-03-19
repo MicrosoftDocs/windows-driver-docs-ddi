@@ -6,6 +6,7 @@ old-location: netvista\ndismcmoidrequest.htm
 tech.root: netvista
 ms.assetid: c5523dff-4957-4265-82ef-2fbc009e6bef
 ms.date: 05/02/2018
+keywords: ["NdisMCmOidRequest function"]
 ms.keywords: NdisMCmOidRequest, NdisMCmOidRequest function [Network Drivers Starting with Windows Vista], condis_request_ref_951cd477-8d0a-4882-921d-f394ac04f9cc.xml, ndis/NdisMCmOidRequest, netvista.ndismcmoidrequest
 f1_keywords:
  - "ndis/NdisMCmOidRequest"

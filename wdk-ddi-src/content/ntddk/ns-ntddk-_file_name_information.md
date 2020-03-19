@@ -6,6 +6,7 @@ old-location: kernel\file_name_information.htm
 tech.root: kernel
 ms.assetid: 04ec8e82-d74d-4827-8533-aa57e3638a45
 ms.date: 04/30/2018
+keywords: ["_FILE_NAME_INFORMATION structure"]
 ms.keywords: "*PFILE_NAME_INFORMATION, FILE_NAME_INFORMATION, FILE_NAME_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_NAME_INFORMATION, PFILE_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_NAME_INFORMATION, kernel.file_name_information, kstruct_b_075348cd-50d6-450f-9a9d-a5ad8fd985e3.xml, ntddk/FILE_NAME_INFORMATION, ntddk/PFILE_NAME_INFORMATION"
 f1_keywords:
  - "ntddk/FILE_NAME_INFORMATION"

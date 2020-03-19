@@ -6,6 +6,7 @@ old-location: hid\ioctl_hid_get_string.htm
 tech.root: hid
 ms.assetid: 0812f27f-f38c-487d-9e92-98e16ddde21c
 ms.date: 04/30/2018
+keywords: ["IOCTL_HID_GET_STRING IOCTL"]
 ms.keywords: IOCTL_HID_GET_STRING, IOCTL_HID_GET_STRING control, IOCTL_HID_GET_STRING control code [Human Input Devices], hid.ioctl_hid_get_string, hidioreq_987af494-0ac9-4b86-ab66-63dad179cec5.xml, hidport/IOCTL_HID_GET_STRING
 f1_keywords:
  - "hidport/IOCTL_HID_GET_STRING"

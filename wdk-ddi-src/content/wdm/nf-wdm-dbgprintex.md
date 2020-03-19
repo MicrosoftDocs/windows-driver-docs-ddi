@@ -6,6 +6,7 @@ old-location: devtest\dbgprintex.htm
 tech.root: devtest
 ms.assetid: 0fe82f72-e3dd-49de-a12a-1997e9651bac
 ms.date: 02/23/2018
+keywords: ["DbgPrintEx function"]
 ms.keywords: DbgPrintEx, DbgPrintEx routine [Driver Development Tools], DebugFns_0c93bbeb-9eb9-4c73-944f-565401dbb073.xml, devtest.dbgprintex, wdm/DbgPrintEx
 f1_keywords:
  - "wdm/DbgPrintEx"

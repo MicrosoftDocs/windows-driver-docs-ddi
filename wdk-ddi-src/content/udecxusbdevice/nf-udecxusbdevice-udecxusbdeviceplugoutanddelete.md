@@ -6,6 +6,7 @@ old-location: buses\udecxusbdeviceplugoutanddelete.htm
 tech.root: usbref
 ms.assetid: 27816655-1FE9-44A0-81BB-59808FE6F064
 ms.date: 05/07/2018
+keywords: ["UdecxUsbDevicePlugOutAndDelete function"]
 ms.keywords: UdecxUsbDevicePlugOutAndDelete, UdecxUsbDevicePlugOutAndDelete function [Buses], buses.udecxusbdeviceplugoutanddelete, udecxusbdevice/UdecxUsbDevicePlugOutAndDelete
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDevicePlugOutAndDelete"

@@ -6,6 +6,7 @@ old-location: buses\urs_config.htm
 tech.root: usbref
 ms.assetid: 3857CA53-6992-410A-96D1-EEA9CC586EDF
 ms.date: 05/07/2018
+keywords: ["_URS_CONFIG structure"]
 ms.keywords: "*PURS_CONFIG, PURS_CONFIG, PURS_CONFIG structure pointer [Buses], URS_CONFIG, URS_CONFIG structure [Buses], _URS_CONFIG, buses.urs_config, ursdevice/PURS_CONFIG, ursdevice/URS_CONFIG"
 f1_keywords:
  - "ursdevice/URS_CONFIG"

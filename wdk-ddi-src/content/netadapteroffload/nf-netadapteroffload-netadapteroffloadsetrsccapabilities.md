@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: d3e3c034-55cc-4324-8e03-b158f1ed8b03
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
+keywords: ["NetAdapterOffloadSetRscCapabilities function"]
 f1_keywords:
  - "netadapteroffload/NetAdapterOffloadSetRscCapabilities"
 ms.keywords: NetAdapterOffloadSetRscCapabilities

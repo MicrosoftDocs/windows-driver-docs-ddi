@@ -6,6 +6,7 @@ old-location: display\hwvidgetpowerstate.htm
 tech.root: display
 ms.assetid: 747cfbfb-2a38-4a0d-b8c6-662d0c3967ba
 ms.date: 05/10/2018
+keywords: ["PVIDEO_HW_POWER_GET callback function"]
 ms.keywords: HwVidGetPowerState, HwVidGetPowerState callback function [Display Devices], PVIDEO_HW_POWER_GET, PVIDEO_HW_POWER_GET callback, VideoMiniport_Functions_b47b2224-5e0b-44af-9d04-107ff1299381.xml, display.hwvidgetpowerstate, video/HwVidGetPowerState
 f1_keywords:
  - "video/HwVidGetPowerState"

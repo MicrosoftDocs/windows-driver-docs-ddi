@@ -6,6 +6,7 @@ old-location: kernel\kesettargetprocessordpc.htm
 tech.root: kernel
 ms.assetid: 9fd86250-a495-4628-a07b-f5c44df69c0e
 ms.date: 04/30/2018
+keywords: ["KeSetTargetProcessorDpc function"]
 ms.keywords: KeSetTargetProcessorDpc, KeSetTargetProcessorDpc routine [Kernel-Mode Driver Architecture], k105_a7931e50-ba41-47a0-9056-e9479ac46808.xml, kernel.kesettargetprocessordpc, wdm/KeSetTargetProcessorDpc
 f1_keywords:
  - "ntddk/KeSetTargetProcessorDpc"

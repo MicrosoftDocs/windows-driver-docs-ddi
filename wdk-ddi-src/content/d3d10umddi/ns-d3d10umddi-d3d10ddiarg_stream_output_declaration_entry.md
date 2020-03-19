@@ -5,6 +5,7 @@ description: The D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure describes
 old-location: display\d3d10ddiarg_stream_output_declaration_entry.htm
 ms.assetid: 42d01b63-ca3b-4348-bf50-a1d648548266
 ms.date: 05/10/2018
+keywords: ["D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure"]
 ms.keywords: D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure [Display Devices], UMDisplayDriver_Dx10param_Structs_bdfafade-cf99-4cbb-9ae1-d1bd57997dac.xml, d3d10umddi/D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, display.d3d10ddiarg_stream_output_declaration_entry
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY"

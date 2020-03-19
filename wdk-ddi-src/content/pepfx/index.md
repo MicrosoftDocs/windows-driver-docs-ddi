@@ -3,6 +3,7 @@ UID: NA:pepfx
 title: Pepfx.h header
 ms.assetid: 49d516fa-79a0-3209-8812-5b701f4a9c52
 ms.date: 05/09/2018
+keywords: ["Pepfx.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -5,6 +5,7 @@ description: Used to create a video decoder heap.
 old-location: display\pfnd3d12ddi_createvideodecoderheap_0033_.htm
 ms.assetid: BCCDBC42-FE6B-49C6-9E95-F0CF7F5CCB2E
 ms.date: 05/10/2018
+keywords: ["PFND3D12DDI_CREATEVIDEODECODERHEAP_0033 callback function"]
 ms.keywords: PFND3D12DDI_CREATEVIDEODECODERHEAP_0033, PFND3D12DDI_CREATEVIDEODECODERHEAP_0033  callback, PFND3D12DDI_CREATEVIDEODECODERHEAP_0033 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEVIDEODECODERHEAP_0033, display.pfnd3d12ddi_createvideodecoderheap_0033_
 req.header: d3d12umddi.h
 req.include-header: 

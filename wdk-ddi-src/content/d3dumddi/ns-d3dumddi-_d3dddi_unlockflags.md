@@ -6,6 +6,7 @@ old-location: display\d3dddi_unlockflags.htm
 tech.root: display
 ms.assetid: f3c3356c-ec7b-4869-896d-9d3b285f0e87
 ms.date: 05/10/2018
+keywords: ["_D3DDDI_UNLOCKFLAGS structure"]
 ms.keywords: D3DDDI_UNLOCKFLAGS, D3DDDI_UNLOCKFLAGS structure [Display Devices], D3D_other_Structs_c1133d3b-9330-4278-85c7-4083436278cf.xml, _D3DDDI_UNLOCKFLAGS, d3dumddi/D3DDDI_UNLOCKFLAGS, display.d3dddi_unlockflags
 f1_keywords:
  - "d3dumddi/D3DDDI_UNLOCKFLAGS"

@@ -6,6 +6,7 @@ old-location: kernel\rtlint8touchar.htm
 tech.root: kernel
 ms.assetid: 3E8BF45A-D968-4C9F-8C38-65B39665496B
 ms.date: 04/30/2018
+keywords: ["RtlInt8ToUChar function"]
 ms.keywords: RtlInt8ToUChar, RtlInt8ToUChar function [Kernel-Mode Driver Architecture], kernel.rtlint8touchar, ntintsafe/RtlInt8ToUChar
 f1_keywords:
  - "ntintsafe/RtlInt8ToUChar"

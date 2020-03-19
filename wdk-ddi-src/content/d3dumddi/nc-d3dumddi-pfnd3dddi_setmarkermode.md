@@ -6,6 +6,7 @@ old-location: display\pfnsetmarkermode.htm
 tech.root: display
 ms.assetid: D45750D9-F722-4208-8D00-E14FD9C009CB
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_SETMARKERMODE callback function"]
 ms.keywords: PFND3DDDI_SETMARKERMODE, PFND3DDDI_SETMARKERMODE callback, d3dumddi/pfnSetMarkerMode, display.pfnsetmarkermode, pfnSetMarkerMode, pfnSetMarkerMode callback function [Display Devices]
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h

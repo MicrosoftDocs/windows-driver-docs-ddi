@@ -6,6 +6,7 @@ old-location: parports\ioctl_par_query_device_id.htm
 tech.root: parports
 ms.assetid: 3f87558a-5c56-46c0-a983-2db2057fcc81
 ms.date: 02/15/2018
+keywords: ["IOCTL_PAR_QUERY_DEVICE_ID IOCTL"]
 ms.keywords: IOCTL_PAR_QUERY_DEVICE_ID, IOCTL_PAR_QUERY_DEVICE_ID control code [Parallel Ports], cisspd_29c73c7d-a6fb-4307-b766-ef8b098a1e6f.xml, ntddpar/IOCTL_PAR_QUERY_DEVICE_ID, parports.ioctl_par_query_device_id
 f1_keywords:
  - "ntddpar/IOCTL_PAR_QUERY_DEVICE_ID"

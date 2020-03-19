@@ -6,6 +6,7 @@ old-location: print\ifixedpage_getwritestream.htm
 tech.root: print
 ms.assetid: 1a095d51-b727-4d89-aa7c-f43998db4c2e
 ms.date: 04/20/2018
+keywords: ["IFixedPage::GetWriteStream"]
 ms.keywords: GetWriteStream, GetWriteStream method [Print Devices], GetWriteStream method [Print Devices],IFixedPage interface, IFixedPage interface [Print Devices],GetWriteStream method, IFixedPage.GetWriteStream, IFixedPage::GetWriteStream, filterpipeline/IFixedPage::GetWriteStream, filterpipeline_f253c020-8d3d-44c1-a9fb-e5093c29a637.xml, print.ifixedpage_getwritestream
 f1_keywords:
  - "filterpipeline/IFixedPage.GetWriteStream"

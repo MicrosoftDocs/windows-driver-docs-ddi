@@ -6,6 +6,7 @@ old-location: ifsk\rxcreatevnetroot.htm
 tech.root: ifsk
 ms.assetid: 852cc319-4bcd-427d-802f-3c82c72901f0
 ms.date: 04/16/2018
+keywords: ["RxCreateVNetRoot function"]
 ms.keywords: RxCreateVNetRoot, RxCreateVNetRoot function [Installable File System Drivers], fcb/RxCreateVNetRoot, ifsk.rxcreatevnetroot, rxref_adf9e6de-8b07-488e-86de-0d42036c3d7c.xml
 f1_keywords:
  - "fcb/RxCreateVNetRoot"

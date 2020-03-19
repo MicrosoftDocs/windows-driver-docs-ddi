@@ -3,6 +3,7 @@ UID: NA:wdtfdriverpackageaction
 title: Wdtfdriverpackageaction.h header
 ms.assetid: 3b7d1682-5abf-3f29-aa0b-4c77e50e2a62
 ms.date: 05/09/2018
+keywords: ["Wdtfdriverpackageaction.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

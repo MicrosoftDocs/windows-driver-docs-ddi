@@ -6,6 +6,7 @@ old-location: display\videoportreadregisteruchar.htm
 tech.root: display
 ms.assetid: 53270599-7e8e-491a-8d7b-05f550f100d3
 ms.date: 05/10/2018
+keywords: ["VideoPortReadRegisterUchar function"]
 ms.keywords: VideoPortReadRegisterUchar, VideoPortReadRegisterUchar function [Display Devices], VideoPort_Functions_c8fea131-5f84-4f77-ab18-2ca8de12e598.xml, display.videoportreadregisteruchar, video/VideoPortReadRegisterUchar
 f1_keywords:
  - "video/VideoPortReadRegisterUchar"

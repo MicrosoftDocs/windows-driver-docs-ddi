@@ -6,6 +6,7 @@ old-location: kernel\file_end_of_file_information.htm
 tech.root: kernel
 ms.assetid: 9af172d9-2309-4731-82bf-55ec99c475a6
 ms.date: 04/30/2018
+keywords: ["_FILE_END_OF_FILE_INFORMATION structure"]
 ms.keywords: "*PFILE_END_OF_FILE_INFORMATION, FILE_END_OF_FILE_INFORMATION, FILE_END_OF_FILE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_END_OF_FILE_INFORMATION, PFILE_END_OF_FILE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_END_OF_FILE_INFORMATION, kernel.file_end_of_file_information, kstruct_b_6c41bbd0-64be-4765-b79c-09e2dd86fa6f.xml, ntddk/FILE_END_OF_FILE_INFORMATION, ntddk/PFILE_END_OF_FILE_INFORMATION"
 f1_keywords:
  - "ntddk/FILE_END_OF_FILE_INFORMATION"

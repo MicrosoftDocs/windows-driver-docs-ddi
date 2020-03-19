@@ -6,6 +6,7 @@ old-location: wdf\iqueuecallbackiocanceledonqueue_oniocanceledonqueue.htm
 tech.root: wdf
 ms.assetid: 901ff312-d1bb-46bf-b8e6-6abc47fa3c7f
 ms.date: 02/26/2018
+keywords: ["IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue"]
 ms.keywords: IQueueCallbackIoCanceledOnQueue interface,OnIoCanceledOnQueue method, IQueueCallbackIoCanceledOnQueue.OnIoCanceledOnQueue, IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue, OnIoCanceledOnQueue, OnIoCanceledOnQueue method, OnIoCanceledOnQueue method,IQueueCallbackIoCanceledOnQueue interface, UMDFQueueObjectRef_e80a1257-b51e-46f8-8e9f-0fff3b830587.xml, umdf.iqueuecallbackiocanceledonqueue_oniocanceledonqueue, wdf.iqueuecallbackiocanceledonqueue_oniocanceledonqueue, wudfddi/IQueueCallbackIoCanceledOnQueue::OnIoCanceledOnQueue
 f1_keywords:
  - "wudfddi/IQueueCallbackIoCanceledOnQueue.OnIoCanceledOnQueue"

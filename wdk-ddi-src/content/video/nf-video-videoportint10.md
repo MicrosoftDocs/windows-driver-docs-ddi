@@ -6,6 +6,7 @@ old-location: display\videoportint10.htm
 tech.root: display
 ms.assetid: 5743d84c-6132-4058-b517-250b5de9a6b5
 ms.date: 05/10/2018
+keywords: ["VideoPortInt10 function"]
 ms.keywords: VideoPortInt10, VideoPortInt10 function [Display Devices], VideoPort_Functions_681fc4cc-f8f5-4d26-b3eb-8f4098339470.xml, display.videoportint10, video/VideoPortInt10
 f1_keywords:
  - "video/VideoPortInt10"

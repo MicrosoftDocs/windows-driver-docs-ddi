@@ -5,6 +5,7 @@ description: The DxgkDdiFlipOverlay function displays a new allocation by using 
 old-location: display\dxgkddiflipoverlay.htm
 ms.assetid: 9e35a48b-1741-4ee2-8e15-6ce51ad4c0ad
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_FLIPOVERLAY callback function"]
 ms.keywords: DXGKDDI_FLIPOVERLAY, DXGKDDI_FLIPOVERLAY callback, DmFunctions_fac1657b-03ec-4d63-93d6-3458423a1fe9.xml, DxgkDdiFlipOverlay, DxgkDdiFlipOverlay callback function [Display Devices], d3dkmddi/DxgkDdiFlipOverlay, display.dxgkddiflipoverlay
 req.header: d3dkmddi.h
 req.include-header: 

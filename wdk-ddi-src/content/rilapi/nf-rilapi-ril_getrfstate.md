@@ -6,6 +6,7 @@ old-location: netvista\ril_getrfstate.htm
 tech.root: netvista
 ms.assetid: a73cd67e-839a-403c-9968-313417eac25a
 ms.date: 05/02/2018
+keywords: ["RIL_GetRFState function"]
 ms.keywords: RIL_GetRFState, RIL_GetRFState method [Network Drivers Starting with Windows Vista], netvista.ril_getrfstate, rilapi/RIL_GetRFState
 f1_keywords:
  - "rilapi/RIL_GetRFState"

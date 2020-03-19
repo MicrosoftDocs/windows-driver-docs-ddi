@@ -3,6 +3,7 @@ UID: NA:rxdata
 title: Rxdata.h header
 ms.assetid: 3479e19c-0aaf-38d9-940a-fe884948a8b1
 ms.date: 05/09/2018
+keywords: ["Rxdata.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

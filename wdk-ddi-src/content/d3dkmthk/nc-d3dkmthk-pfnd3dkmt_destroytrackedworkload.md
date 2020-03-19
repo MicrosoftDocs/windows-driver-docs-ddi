@@ -4,6 +4,7 @@ title: PFND3DKMT_DESTROYTRACKEDWORKLOAD (d3dkmthk.h)
 description: Destroys a tracked workload.
 ms.assetid: 0b1d1f0b-bb03-45d5-9c8d-3e1b0354c074
 ms.date: 10/19/2018
+keywords: ["PFND3DKMT_DESTROYTRACKEDWORKLOAD callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_DESTROYTRACKEDWORKLOAD"
 req.header: d3dkmthk.h

@@ -4,6 +4,7 @@ title: pHalSetSystemInformation (ntddk.h)
 description: Register MCA driver with the HAL. 
 ms.assetid: fb9491a9-7fbe-4a7f-9794-06d5020540ef
 ms.date: 10/19/2018
+keywords: ["pHalSetSystemInformation callback function"]
 f1_keywords:
  - "ntddk/pHalSetSystemInformation"
 req.header: ntddk.h

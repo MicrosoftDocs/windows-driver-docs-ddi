@@ -6,6 +6,7 @@ old-location: print\iprintcorehelper_getoption.htm
 tech.root: print
 ms.assetid: 515eed09-d386-4908-9d76-4e64930af5ab
 ms.date: 04/20/2018
+keywords: ["IPrintCoreHelper::GetOption"]
 ms.keywords: GetOption, GetOption method [Print Devices], GetOption method [Print Devices],IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices],GetOption method, IPrintCoreHelper.GetOption, IPrintCoreHelper::GetOption, prcomoem/IPrintCoreHelper::GetOption, print.iprintcorehelper_getoption, print_unidrv-pscript_allplugins_38a01e42-9d70-47d1-9d3d-2b488af4c3f3.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelper.GetOption"

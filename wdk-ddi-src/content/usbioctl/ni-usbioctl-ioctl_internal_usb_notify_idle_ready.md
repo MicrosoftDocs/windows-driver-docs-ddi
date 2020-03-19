@@ -6,6 +6,7 @@ old-location: buses\ioctl_internal_usb_notify_idle_ready.htm
 tech.root: usbref
 ms.assetid: ed013cd2-27b3-4f40-b8a7-536384c6bbac
 ms.date: 05/07/2018
+keywords: ["IOCTL_INTERNAL_USB_NOTIFY_IDLE_READY IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_NOTIFY_IDLE_READY, IOCTL_INTERNAL_USB_NOTIFY_IDLE_READY control, IOCTL_INTERNAL_USB_NOTIFY_IDLE_READY control code [Buses], buses.ioctl_internal_usb_notify_idle_ready, usbioctl/IOCTL_INTERNAL_USB_NOTIFY_IDLE_READY
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_NOTIFY_IDLE_READY"

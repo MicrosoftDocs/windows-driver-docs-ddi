@@ -6,6 +6,7 @@ old-location: netvista\dot11_ssid.htm
 tech.root: netvista
 ms.assetid: f032b0db-92a0-40ff-a80d-e263d7b2dc67
 ms.date: 02/16/2018
+keywords: ["_DOT11_SSID structure"]
 ms.keywords: "*PDOT11_SSID, DOT11_SSID, DOT11_SSID structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_e25f30a3-b1f8-43ca-a685-6bc4909028d1.xml, PDOT11_SSID, PDOT11_SSID structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SSID, netvista.dot11_ssid, wlantypes/DOT11_SSID, wlantypes/PDOT11_SSID"
 f1_keywords:
  - "wlantypes/DOT11_SSID"

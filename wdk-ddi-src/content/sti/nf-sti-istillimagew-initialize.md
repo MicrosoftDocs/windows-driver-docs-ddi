@@ -6,6 +6,7 @@ old-location: image\istillimage_initialize.htm
 tech.root: image
 ms.assetid: 2410f27f-f880-4870-a86a-2d6000b651fd
 ms.date: 05/03/2018
+keywords: ["IStillImageW::Initialize"]
 ms.keywords: IStillImageW interface [Imaging Devices],Initialize method, IStillImageW.Initialize, IStillImageW::Initialize, Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices],IStillImageW interface, image.istillimage_initialize, sti/IStillImageW::Initialize, stifnc_31e54f97-84af-47bf-a1b1-17ab697caef3.xml
 f1_keywords:
  - "sti/IStillImageW.Initialize"

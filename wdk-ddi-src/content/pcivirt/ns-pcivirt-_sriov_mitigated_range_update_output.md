@@ -6,6 +6,7 @@ old-location: pci\sriov_mitigated_range_update_output.htm
 tech.root: PCI
 ms.assetid: bd72ac9a-2985-4f2d-8b72-4039c9d3f896
 ms.date: 02/24/2018
+keywords: ["_SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT structure"]
 ms.keywords: "*PSRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, PCI.sriov_mitigated_range_update_output, SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT structure [Buses], _SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT"
 f1_keywords:
  - "pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT"

@@ -6,6 +6,7 @@ old-location: debugger\returninputwide.htm
 tech.root: debugger
 ms.assetid: 6e7f0995-14d0-4dd3-b598-2f988a2ec4fd
 ms.date: 05/03/2018
+keywords: ["IDebugControl4::ReturnInputWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],ReturnInputWide method, IDebugControl4.ReturnInputWide, IDebugControl4::ReturnInputWide, ReturnInputWide, ReturnInputWide method [Windows Debugging], ReturnInputWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::ReturnInputWide, debugger.returninputwide
 f1_keywords:
  - "dbgeng/IDebugControl4.ReturnInputWide"

@@ -6,6 +6,7 @@ old-location: netvista\rilmsgmwisummary.htm
 tech.root: netvista
 ms.assetid: 5a718c4d-21c9-4dfd-844a-0053a379196d
 ms.date: 05/02/2018
+keywords: ["RILMSGMWISUMMARY structure"]
 ms.keywords: "*LPRILMSGMWISUMMARY, RILMSGMWISUMMARY, RILMSGMWISUMMARY structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwisummary, ntddrilapitypes/RILMSGMWISUMMARY"
 f1_keywords:
  - "ntddrilapitypes/RILMSGMWISUMMARY"

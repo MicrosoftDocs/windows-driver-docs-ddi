@@ -6,6 +6,7 @@ old-location: ifsk\ioctl_volsnap_flush_and_hold_writes.htm
 tech.root: ifsk
 ms.assetid: c9189ca4-8b0e-470b-b027-f629ed243534
 ms.date: 04/16/2018
+keywords: ["IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES IOCTL"]
 ms.keywords: IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES, IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES control, IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES control code [Installable File System Drivers], ifsk.ioctl_volsnap_flush_and_hold_writes, ioctl_ref_f21aed38-5d6d-4b8c-ac8a-6cd1738a3de7.xml, ntifs/IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES
 f1_keywords:
  - "ntifs/IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES"

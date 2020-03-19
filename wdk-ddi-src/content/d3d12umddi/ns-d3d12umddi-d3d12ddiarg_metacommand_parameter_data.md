@@ -4,6 +4,7 @@ title: D3D12DDIARG_METACOMMAND_PARAMETER_DATA (d3d12umddi.h)
 description: Contains the data for a meta-command's parameter.
 ms.assetid: 04c29d9e-641a-4757-a50a-dae8da63d964
 ms.date: 10/19/2018
+keywords: ["D3D12DDIARG_METACOMMAND_PARAMETER_DATA structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_METACOMMAND_PARAMETER_DATA"
 ms.keywords: D3D12DDIARG_METACOMMAND_PARAMETER_DATA, D3D12DDIARG_METACOMMAND_PARAMETER_DATA,

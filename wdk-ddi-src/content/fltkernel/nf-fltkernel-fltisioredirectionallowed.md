@@ -6,6 +6,7 @@ old-location: ifsk\fltisioredirectionallowed.htm
 tech.root: ifsk
 ms.assetid: 79a59e86-9ee2-4cfa-b495-5248f227d24b
 ms.date: 04/16/2018
+keywords: ["FltIsIoRedirectionAllowed function"]
 ms.keywords: FltIsIoRedirectionAllowed, FltIsIoRedirectionAllowed routine [Installable File System Drivers], fltkernel/FltIsIoRedirectionAllowed, ifsk.fltisioredirectionallowed
 f1_keywords:
  - "fltkernel/FltIsIoRedirectionAllowed"

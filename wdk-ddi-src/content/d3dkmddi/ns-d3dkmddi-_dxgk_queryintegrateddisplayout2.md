@@ -4,6 +4,7 @@ title: _DXGK_QUERYINTEGRATEDDISPLAYOUT2 (d3dkmddi.h)
 description: Used during a query for the integrated display output.
 ms.assetid: f40c9cdf-92f4-40c4-b7c4-52109b8494ef
 ms.date: 10/19/2018
+keywords: ["_DXGK_QUERYINTEGRATEDDISPLAYOUT2 structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_QUERYINTEGRATEDDISPLAYOUT2"
 ms.keywords: _DXGK_QUERYINTEGRATEDDISPLAYOUT2, DXGK_QUERYINTEGRATEDDISPLAYOUT2, *PDXGK_QUERYINTEGRATEDDISPLAYOUT2,

@@ -6,6 +6,7 @@ old-location: display\registerfordataratenotifications.htm
 tech.root: display
 ms.assetid: 81500bb9-27f1-4688-b244-37dfd766f3c8
 ms.date: 05/10/2018
+keywords: ["PFN_REGISTER_DATARATE_NOTIFICATIONS callback function"]
 ms.keywords: PFN_REGISTER_DATARATE_NOTIFICATIONS, PFN_REGISTER_DATARATE_NOTIFICATIONS callback, RegisterForDataRateNotifications, RegisterForDataRateNotifications callback function [Display Devices], display.registerfordataratenotifications, netdispumdddi/RegisterForDataRateNotifications
 f1_keywords:
  - "netdispumdddi/RegisterForDataRateNotifications"

@@ -6,6 +6,7 @@ old-location: print\branchofficelogofflinefilefull.htm
 tech.root: print
 ms.assetid: 41190CE8-8779-477C-BFB0-6410DF096EFD
 ms.date: 04/20/2018
+keywords: ["BranchOfficeLogOfflineFileFull structure"]
 ms.keywords: "*PBranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull structure [Print Devices], PBranchOfficeLogOfflineFileFull, PBranchOfficeLogOfflineFileFull structure pointer [Print Devices], print.branchofficelogofflinefilefull, winsplp/BranchOfficeLogOfflineFileFull, winsplp/PBranchOfficeLogOfflineFileFull"
 f1_keywords:
  - "winsplp/BranchOfficeLogOfflineFileFull"

@@ -6,6 +6,7 @@ old-location: display\pfnpresentmultiplaneoverlay__d3d_.htm
 tech.root: display
 ms.assetid: 3AC47977-A5F3-44A6-8F89-A1EA5E0BB6E4
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_PRESENTMULTIPLANEOVERLAY callback function"]
 ms.keywords: PFND3DDDI_PRESENTMULTIPLANEOVERLAY, PFND3DDDI_PRESENTMULTIPLANEOVERLAY (D3D) callback, d3dumddi/pfnPresentMultiPlaneOverlay, display.pfnpresentmultiplaneoverlay__d3d_, pfnPresentMultiPlaneOverlay, pfnPresentMultiPlaneOverlay callback function [Display Devices]
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

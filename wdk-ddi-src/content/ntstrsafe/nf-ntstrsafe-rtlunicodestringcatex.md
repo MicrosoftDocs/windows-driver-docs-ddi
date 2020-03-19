@@ -6,6 +6,7 @@ old-location: kernel\rtlunicodestringcatex.htm
 tech.root: kernel
 ms.assetid: 9894863c-89e9-491e-b958-874ac8ee8c30
 ms.date: 04/30/2018
+keywords: ["RtlUnicodeStringCatEx function"]
 ms.keywords: RtlUnicodeStringCatEx, RtlUnicodeStringCatEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcatex, ntstrsafe/RtlUnicodeStringCatEx, safestrings_6b13f3af-ca18-4b2a-b5f0-04f0f2330701.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringCatEx"

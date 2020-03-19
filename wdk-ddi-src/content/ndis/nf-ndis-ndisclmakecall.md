@@ -6,6 +6,7 @@ old-location: netvista\ndisclmakecall.htm
 tech.root: netvista
 ms.assetid: 69775220-71d8-497c-aaf7-9bc3ec90d00f
 ms.date: 05/02/2018
+keywords: ["NdisClMakeCall function"]
 ms.keywords: NdisClMakeCall, NdisClMakeCall function [Network Drivers Starting with Windows Vista], condis_client_ref_bd9f0a4a-c8f7-418e-aa80-e97fad7e4ab1.xml, ndis/NdisClMakeCall, netvista.ndisclmakecall
 f1_keywords:
  - "ndis/NdisClMakeCall"

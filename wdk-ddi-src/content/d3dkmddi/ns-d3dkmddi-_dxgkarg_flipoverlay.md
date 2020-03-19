@@ -5,6 +5,7 @@ description: The DXGKARG_FLIPOVERLAY structure describes a new allocation to dis
 old-location: display\dxgkarg_flipoverlay.htm
 ms.assetid: c5396581-e9f2-47eb-bb82-1e54f5def4d0
 ms.date: 05/10/2018
+keywords: ["_DXGKARG_FLIPOVERLAY structure"]
 ms.keywords: DXGKARG_FLIPOVERLAY, DXGKARG_FLIPOVERLAY structure [Display Devices], DmStructs_8ff06344-e7f5-44b1-95fc-d3b363428d43.xml, _DXGKARG_FLIPOVERLAY, d3dkmddi/DXGKARG_FLIPOVERLAY, display.dxgkarg_flipoverlay
 f1_keywords:
  - "d3dkmddi/DXGKARG_FLIPOVERLAY"

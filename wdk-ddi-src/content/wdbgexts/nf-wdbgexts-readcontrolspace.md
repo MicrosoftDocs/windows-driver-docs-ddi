@@ -6,6 +6,7 @@ old-location: debugger\readcontrolspace.htm
 tech.root: debugger
 ms.assetid: 4b6955a5-ca03-418d-9eba-fdbe48599922
 ms.date: 05/03/2018
+keywords: ["ReadControlSpace function"]
 ms.keywords: ReadControlSpace, ReadControlSpace function [Windows Debugging], WdbgExts_Ref_8337344a-4a97-4f74-9be4-8fdd771d8bbf.xml, debugger.readcontrolspace, wdbgexts/ReadControlSpace
 f1_keywords:
  - "wdbgexts/ReadControlSpace"

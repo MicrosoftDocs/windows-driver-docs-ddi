@@ -6,6 +6,7 @@ old-location: kernel\kegetcurrentprocessornumber.htm
 tech.root: kernel
 ms.assetid: 24de4374-fa73-4891-b212-6f5c7ed53407
 ms.date: 04/30/2018
+keywords: ["KeGetCurrentProcessorNumber function"]
 ms.keywords: KeGetCurrentProcessorNumber, KeGetCurrentProcessorNumber routine [Kernel-Mode Driver Architecture], k105_3faba96b-e6d9-40d2-a543-6ea95ce67c73.xml, kernel.kegetcurrentprocessornumber, ntddk/KeGetCurrentProcessorNumber
 f1_keywords:
  - "ntddk/KeGetCurrentProcessorNumber"

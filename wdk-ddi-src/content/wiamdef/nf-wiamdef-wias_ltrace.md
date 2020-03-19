@@ -6,6 +6,7 @@ old-location: image\wias_ltrace.htm
 tech.root: image
 ms.assetid: 513fd718-3d35-4a7b-be28-b002a8108e86
 ms.date: 05/03/2018
+keywords: ["WIAS_LTRACE macro"]
 ms.keywords: IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml, WIAS_LTRACE, WIAS_LTRACE macro [Imaging Devices], image.wias_ltrace, wiamdef/WIAS_LTRACE
 f1_keywords:
  - "wiamdef/WIAS_LTRACE"

@@ -6,6 +6,7 @@ old-location: audio\iportclspower.htm
 tech.root: audio
 ms.assetid: bebd704b-2824-4bea-aae8-d77c66830715
 ms.date: 05/08/2018
+keywords: ["IPortClsPower interface"]
 ms.keywords: IPortClsPower, IPortClsPower interface [Audio Devices], IPortClsPower interface [Audio Devices],described, audio.iportclspower, audmp-routines_d6815c8f-a34f-423a-a58d-e45a1292d22d.xml, portcls/IPortClsPower
 f1_keywords:
  - "portcls/IPortClsPower"

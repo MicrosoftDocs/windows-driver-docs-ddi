@@ -7,6 +7,7 @@ tech.root: storage
 ms.assetid: e40dd10a-adae-480c-a820-6a9b0b3b776e
 ms.author: windowsdriverdev
 ms.date: 03/19/2019
+keywords: ["StorPortCancelDpc function"]
 f1_keywords:
  - "storport/StorPortCancelDpc"
 ms.keywords: StorPortCancelDpc

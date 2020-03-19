@@ -4,6 +4,7 @@ title: PFND3D12DDI_DISPATCH_RAYS_0054 (d3d12umddi.h)
 description: Launch threads of a ray generation shader.
 ms.assetid: 89f29b62-d9da-4afb-a6d9-6c3584354f81
 ms.date: 10/19/2018
+keywords: ["PFND3D12DDI_DISPATCH_RAYS_0054 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

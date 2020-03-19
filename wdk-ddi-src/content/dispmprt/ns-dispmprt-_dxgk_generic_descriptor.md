@@ -6,6 +6,7 @@ old-location: display\dxgk_generic_descriptor.htm
 tech.root: display
 ms.assetid: 181df1a6-044d-406d-bc6d-1b35b3d744fc
 ms.date: 05/10/2018
+keywords: ["_DXGK_GENERIC_DESCRIPTOR structure"]
 ms.keywords: "*PDXGK_GENERIC_DESCRIPTOR, DXGK_GENERIC_DESCRIPTOR, DXGK_GENERIC_DESCRIPTOR structure [Display Devices], DmStructs_f77c03e6-d887-43ba-9499-ce1740cb6c9e.xml, PDXGK_GENERIC_DESCRIPTOR, PDXGK_GENERIC_DESCRIPTOR structure pointer [Display Devices], _DXGK_GENERIC_DESCRIPTOR, display.dxgk_generic_descriptor, dispmprt/DXGK_GENERIC_DESCRIPTOR, dispmprt/PDXGK_GENERIC_DESCRIPTOR"
 f1_keywords:
  - "dispmprt/DXGK_GENERIC_DESCRIPTOR"

@@ -6,6 +6,7 @@ old-location: audio\pcgetdeviceproperty.htm
 tech.root: audio
 ms.assetid: 75d66965-ab97-4f67-b62f-e7fedbf524a6
 ms.date: 05/08/2018
+keywords: ["PcGetDeviceProperty function"]
 ms.keywords: PcGetDeviceProperty, PcGetDeviceProperty function [Audio Devices], audio.pcgetdeviceproperty, audpc-routines_c95326e5-dc8f-4a04-b31d-6c4e79cc6771.xml, portcls/PcGetDeviceProperty
 f1_keywords:
  - "portcls/PcGetDeviceProperty"

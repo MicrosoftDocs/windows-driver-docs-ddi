@@ -5,6 +5,7 @@ description: Creates a net request queue object.
 tech.root: netvista
 ms.assetid: 43552ec5-82e4-4ba8-af21-900c32c782b7
 ms.date: 02/01/2019
+keywords: ["NetRequestQueueCreate function"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_TYPE"
 ms.keywords: NetRequestQueueCreate

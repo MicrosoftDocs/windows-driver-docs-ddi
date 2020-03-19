@@ -5,6 +5,7 @@ description: The NDIS_INIT_MUTEX macro initializes a mutex object and sets it to
 tech.root: netvista
 ms.assetid: b55ee6e6-ae83-43fb-af92-1f005057d4ae
 ms.date: 04/16/2018
+keywords: ["NDIS_INIT_MUTEX macro"]
 f1_keywords:
  - "ndis/NDIS_INIT_MUTEX"
 ms.keywords: NDIS_INIT_MUTEX

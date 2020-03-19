@@ -6,6 +6,7 @@ old-location: netvista\wskcaptureprovidernpi.htm
 tech.root: netvista
 ms.assetid: b5c6667e-33b4-4482-8817-c01d9d314c3a
 ms.date: 05/02/2018
+keywords: ["WskCaptureProviderNPI function"]
 ms.keywords: WskCaptureProviderNPI, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskcaptureprovidernpi, wsk/WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml
 f1_keywords:
  - "wsk/WskCaptureProviderNPI"

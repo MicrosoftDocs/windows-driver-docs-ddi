@@ -4,6 +4,7 @@ title: Location function (dbgmodel.h)
 description: Constructs a location from an offset into the virtual address space of the target.
 ms.assetid: 51c5c136-c904-4883-852b-d4a284443d8a
 ms.date: 09/28/2018
+keywords: ["Location function"]
 f1_keywords:
  - "dbgmodel/Location"
 ms.keywords: Location

@@ -3,6 +3,7 @@ UID: NA:tlvgeneratorparser
 title: Tlvgeneratorparser.h header
 ms.assetid: 3cb7d3b4-9217-314c-90e2-e4ec9647ec69
 ms.date: 05/09/2018
+keywords: ["Tlvgeneratorparser.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

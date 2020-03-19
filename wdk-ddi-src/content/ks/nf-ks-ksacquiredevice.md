@@ -6,6 +6,7 @@ old-location: stream\ksacquiredevice.htm
 tech.root: stream
 ms.assetid: c486351a-b5a6-4a67-826d-6f66d04518b3
 ms.date: 04/23/2018
+keywords: ["KsAcquireDevice function"]
 ms.keywords: KsAcquireDevice, KsAcquireDevice function [Streaming Media Devices], avfunc_396e6da2-9423-43ae-8a2b-24655a43037b.xml, ks/KsAcquireDevice, stream.ksacquiredevice
 f1_keywords:
  - "ks/KsAcquireDevice"

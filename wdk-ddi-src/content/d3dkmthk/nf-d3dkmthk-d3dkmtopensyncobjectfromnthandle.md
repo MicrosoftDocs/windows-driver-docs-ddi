@@ -5,6 +5,7 @@ description: Maps an NT process handle to a graphics processing unit (GPU) synch
 old-location: display\d3dkmtopensyncobjectfromnthandle.htm
 ms.assetid: 202695a2-cfe3-423f-b4da-a9ad312c5168
 ms.date: 05/10/2018
+keywords: ["D3DKMTOpenSyncObjectFromNtHandle function"]
 ms.keywords: D3DKMTOpenSyncObjectFromNtHandle, D3DKMTOpenSyncObjectFromNtHandle function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle, display.d3dkmtopensyncobjectfromnthandle
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle"

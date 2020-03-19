@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: aa646d1b-2a8c-4d5a-9cdd-2d7fc4ae68c8
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
+keywords: ["_DXGK_VIRTUALGPUENGINEINFO structure"]
 f1_keywords:
  - "dispmprt/_DXGK_VIRTUALGPUENGINEINFO"
 ms.prod: windows-hardware

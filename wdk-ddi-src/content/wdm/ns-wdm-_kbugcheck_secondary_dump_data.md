@@ -6,6 +6,7 @@ old-location: kernel\kbugcheck_secondary_dump_data.htm
 tech.root: kernel
 ms.assetid: dacb98cd-46bc-49d0-8ebd-29bb2dd5b713
 ms.date: 05/08/2019
+keywords: ["_KBUGCHECK_SECONDARY_DUMP_DATA structure"]
 ms.keywords: "*PKBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA structure [Kernel-Mode Driver Architecture], PKBUGCHECK_SECONDARY_DUMP_DATA, PKBUGCHECK_SECONDARY_DUMP_DATA structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_SECONDARY_DUMP_DATA, kernel.kbugcheck_secondary_dump_data, kstruct_c_a9e0d726-41eb-4cf2-b2d4-c977be8750bb.xml, wdm/KBUGCHECK_SECONDARY_DUMP_DATA, wdm/PKBUGCHECK_SECONDARY_DUMP_DATA"
 f1_keywords:
  - "wdm/KBUGCHECK_SECONDARY_DUMP_DATA"

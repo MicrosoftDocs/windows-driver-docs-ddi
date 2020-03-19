@@ -6,6 +6,7 @@ old-location: wdf\wdfdmatransactionsetimmediateexecution.htm
 tech.root: wdf
 ms.assetid: BC260058-1E33-43BA-B75E-79540E36A08D
 ms.date: 02/26/2018
+keywords: ["WdfDmaTransactionSetImmediateExecution function"]
 ms.keywords: WdfDmaTransactionSetImmediateExecution, WdfDmaTransactionSetImmediateExecution method, kmdf.wdfdmatransactionsetimmediateexecution, wdf.wdfdmatransactionsetimmediateexecution, wdfdmatransaction/WdfDmaTransactionSetImmediateExecution
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionSetImmediateExecution"

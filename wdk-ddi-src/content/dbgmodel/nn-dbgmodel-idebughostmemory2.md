@@ -4,6 +4,7 @@ title: IDebugHostMemory2 (dbgmodel.h)
 description: The memory access interface to the underlying debugger.
 ms.assetid: f34471dc-175b-46e3-aeec-18841184e940
 ms.date: 06/11/2019
+keywords: ["IDebugHostMemory2 interface"]
 f1_keywords:
  - "dbgmodel/IDebugHostMemory2"
 req.header: dbgmodel.h

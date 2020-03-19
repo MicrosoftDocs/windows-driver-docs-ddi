@@ -6,6 +6,7 @@ old-location: nfpdrivers\ioctl_nfp_get_kilo_bytes_per_second.htm
 tech.root: nfpdrivers
 ms.assetid: 7FAF7D15-1D3A-4F90-BD98-344ECF294E0F
 ms.date: 02/15/2018
+keywords: ["IOCTL_NFP_GET_KILO_BYTES_PER_SECOND IOCTL"]
 ms.keywords: IOCTL_NFP_GET_KILO_BYTES_PER_SECOND, IOCTL_NFP_GET_KILO_BYTES_PER_SECOND control, IOCTL_NFP_GET_KILO_BYTES_PER_SECOND control code [Near-Field Proximity Drivers], _IOCTL_NFP_GET_KILO_BYTES_PER_SECOND, nfpdev/IOCTL_NFP_GET_KILO_BYTES_PER_SECOND, nfpdrivers.ioctl_nfp_get_kilo_bytes_per_second
 f1_keywords:
  - "nfpdev/IOCTL_NFP_GET_KILO_BYTES_PER_SECOND"

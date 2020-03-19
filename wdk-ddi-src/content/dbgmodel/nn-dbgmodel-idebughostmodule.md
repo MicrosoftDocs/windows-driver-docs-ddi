@@ -4,6 +4,7 @@ title: IDebugHostModule (dbgmodel.h)
 description: An (IDebugHostSymbol derived) interface to a particular module.
 ms.assetid: 5203121c-1bb5-4c2a-8a3e-6379470e3c26
 ms.date: 07/13/2018
+keywords: ["IDebugHostModule interface"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule"
 req.header: dbgmodel.h

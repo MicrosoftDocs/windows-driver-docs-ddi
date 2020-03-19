@@ -6,6 +6,7 @@ old-location: debugger\setoutputcallbackswide.htm
 tech.root: debugger
 ms.assetid: cd6f68b2-2a62-4607-8c70-11a94fd75ecb
 ms.date: 05/03/2018
+keywords: ["IDebugClient5::SetOutputCallbacksWide"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],SetOutputCallbacksWide method, IDebugClient5.SetOutputCallbacksWide, IDebugClient5::SetOutputCallbacksWide, SetOutputCallbacksWide, SetOutputCallbacksWide method [Windows Debugging], SetOutputCallbacksWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetOutputCallbacksWide, debugger.setoutputcallbackswide
 f1_keywords:
  - "dbgeng/IDebugClient5.SetOutputCallbacksWide"

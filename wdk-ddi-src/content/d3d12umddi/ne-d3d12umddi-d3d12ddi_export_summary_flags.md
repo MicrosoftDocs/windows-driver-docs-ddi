@@ -4,6 +4,7 @@ title: D3D12DDI_EXPORT_SUMMARY_FLAGS (d3d12umddi.h)
 description: Flags indicating properties the runtime has determined about a given shader export.
 ms.assetid: 3b2c93b4-4ec7-4208-8cdc-dba1bda085a9
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_EXPORT_SUMMARY_FLAGS enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_EXPORT_SUMMARY_FLAGS"
 ms.keywords: D3D12DDI_EXPORT_SUMMARY_FLAGS, D3D12DDI_EXPORT_SUMMARY_FLAGS, 

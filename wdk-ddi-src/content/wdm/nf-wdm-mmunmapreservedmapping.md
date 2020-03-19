@@ -6,6 +6,7 @@ old-location: kernel\mmunmapreservedmapping.htm
 tech.root: kernel
 ms.assetid: 5f2bb0ef-af54-48e7-a2f5-8c8877bedb4a
 ms.date: 04/30/2018
+keywords: ["MmUnmapReservedMapping function"]
 ms.keywords: MmUnmapReservedMapping, MmUnmapReservedMapping routine [Kernel-Mode Driver Architecture], k106_48bc7719-e11c-4c70-a976-c7fbecbff464.xml, kernel.mmunmapreservedmapping, wdm/MmUnmapReservedMapping
 f1_keywords:
  - "wdm/MmUnmapReservedMapping"

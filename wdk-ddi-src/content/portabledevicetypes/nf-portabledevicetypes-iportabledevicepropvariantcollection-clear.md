@@ -6,6 +6,7 @@ old-location: wpddk\iportabledevicepropvariantcollection_clear.htm
 tech.root: wpd_dk
 ms.assetid: 5d663753-963a-474e-ab35-25a2cefd8b5e
 ms.date: 02/15/2018
+keywords: ["IPortableDevicePropVariantCollection::Clear"]
 ms.keywords: Clear, Clear method, Clear method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,Clear method, IPortableDevicePropVariantCollection.Clear, IPortableDevicePropVariantCollection::Clear, IPortableDevicePropVariantCollectionClear, portabledevicetypes/IPortableDevicePropVariantCollection::Clear, wpddk.iportabledevicepropvariantcollection_clear
 f1_keywords:
  - "portabledevicetypes/IPortableDevicePropVariantCollection.Clear"

@@ -5,6 +5,7 @@ description: D3DKMTSignalSynchronizationObjectFromCpu enables a driver to signal
 old-location: display\d3dkmtsignalsynchronizationobjectfromcpu.htm
 ms.assetid: 23DC5EB1-E606-499D-B78A-AFF95E6B00A3
 ms.date: 05/10/2018
+keywords: ["D3DKMTSignalSynchronizationObjectFromCpu function"]
 ms.keywords: D3DKMTSignalSynchronizationObjectFromCpu, D3DKMTSignalSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu, display.d3dkmtsignalsynchronizationobjectfromcpu
 f1_keywords:
  - "d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu"

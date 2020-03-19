@@ -6,6 +6,7 @@ old-location: kernel\rtlcreateregistrykey.htm
 tech.root: kernel
 ms.assetid: 2214acc8-b24a-4db4-9ce3-f639291428f2
 ms.date: 04/30/2018
+keywords: ["RtlCreateRegistryKey function"]
 ms.keywords: RtlCreateRegistryKey, RtlCreateRegistryKey routine [Kernel-Mode Driver Architecture], k109_9a163bcc-501d-453b-b426-a4267d04135c.xml, kernel.rtlcreateregistrykey, wdm/RtlCreateRegistryKey
 f1_keywords:
  - "wdm/RtlCreateRegistryKey"

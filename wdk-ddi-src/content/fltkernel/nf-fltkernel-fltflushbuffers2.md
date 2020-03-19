@@ -7,6 +7,7 @@ tech.root: ifsk
 ms.assetid: 183306c4-79fc-4356-81b3-658b307c7200
 ms.author: windowsdriverdev
 ms.date: 01/02/2020
+keywords: ["FltFlushBuffers2 function"]
 f1_keywords:
  - "fltkernel/FltFlushBuffers2"
 ms.keywords: FltFlushBuffers2, FltFlushBuffers, IRP_MJ_FLUSH_BUFFERS

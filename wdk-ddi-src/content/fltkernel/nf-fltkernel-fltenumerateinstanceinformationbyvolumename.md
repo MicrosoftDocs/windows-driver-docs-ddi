@@ -6,6 +6,7 @@ old-location: ifsk\fltenumerateinstanceinformationbyvolumename.htm
 tech.root: ifsk
 ms.assetid: BBABE50B-98FF-440E-B5B0-11C8F901D8FE
 ms.date: 04/16/2018
+keywords: ["FltEnumerateInstanceInformationByVolumeName function"]
 ms.keywords: FltEnumerateInstanceInformationByVolumeName, FltEnumerateInstanceInformationByVolumeName routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByVolumeName, ifsk.fltenumerateinstanceinformationbyvolumename
 f1_keywords:
  - "fltkernel/FltEnumerateInstanceInformationByVolumeName"

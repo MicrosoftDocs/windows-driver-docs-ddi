@@ -6,6 +6,7 @@ old-location: ifsk\fsrtloplockfsctrl.htm
 tech.root: ifsk
 ms.assetid: e456189e-9513-47a7-b5b0-384b531dbda9
 ms.date: 04/16/2018
+keywords: ["FsRtlOplockFsctrl function"]
 ms.keywords: FsRtlOplockFsctrl, FsRtlOplockFsctrl function [Installable File System Drivers], fsrtlref_74e6bade-f196-4117-9e94-c33776c4f9cd.xml, ifsk.fsrtloplockfsctrl, ntifs/FsRtlOplockFsctrl
 f1_keywords:
  - "ntifs/FsRtlOplockFsctrl"

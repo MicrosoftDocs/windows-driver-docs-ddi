@@ -6,6 +6,7 @@ old-location: kernel\psgeteffectiveserversilo.htm
 tech.root: kernel
 ms.assetid: 60FCFF5B-4040-423F-A9B6-2DFE7DDD9DD0
 ms.date: 04/30/2018
+keywords: ["PsGetEffectiveServerSilo function"]
 ms.keywords: PsGetEffectiveServerSilo, PsGetEffectiveServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgeteffectiveserversilo, ntddk/PsGetEffectiveServerSilo
 f1_keywords:
  - "ntddk/PsGetEffectiveServerSilo"

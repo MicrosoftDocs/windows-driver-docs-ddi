@@ -5,6 +5,7 @@ description: For display adapters that support GDI hardware acceleration, the Dx
 old-location: display\dxgkddirenderkm.htm
 ms.assetid: 5841934d-7e0a-4bb8-a7f8-17d8c0af351f
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_RENDERKM callback function"]
 ms.keywords: DXGKDDI_RENDERKM, DXGKDDI_RENDERKM callback, DmFunctions_f8138753-f755-410c-b0a0-4422dee9bfb6.xml, DxgkDdiRenderKm, DxgkDdiRenderKm callback function [Display Devices], d3dkmddi/DxgkDdiRenderKm, display.dxgkddirenderkm
 req.header: d3dkmddi.h
 req.include-header: 

@@ -6,6 +6,7 @@ old-location: netvista\riluicclockstate_2.htm
 tech.root: netvista
 ms.assetid: 18b933e6-cff3-49de-94ec-731a168c9d23
 ms.date: 02/26/2018
+keywords: ["RILUICCLOCKSTATE structure"]
 ms.keywords: "*LPRILUICCLOCKSTATE, RILUICCLOCKSTATE, RILUICCLOCKSTATE structure [Network Drivers Starting with Windows Vista], netvista.riluicclockstate_2, rilapitypes/RILUICCLOCKSTATE"
 f1_keywords:
  - "rilapitypes/RILUICCLOCKSTATE"

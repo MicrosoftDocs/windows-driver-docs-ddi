@@ -6,6 +6,7 @@ old-location: sensors\isensordriver_ongetsupportedevents.htm
 tech.root: sensors
 ms.assetid: b323f803-56fb-44db-9b88-be25062c08ff
 ms.date: 05/03/2018
+keywords: ["ISensorDriver::OnGetSupportedEvents"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetSupportedEvents method, ISensorDriver.OnGetSupportedEvents, ISensorDriver::OnGetSupportedEvents, OnGetSupportedEvents, OnGetSupportedEvents method [Sensor Devices], OnGetSupportedEvents method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetsupportedevents, sensorsclassextension/ISensorDriver::OnGetSupportedEvents
 f1_keywords:
  - "sensorsclassextension/OnGetSupportedEvents"

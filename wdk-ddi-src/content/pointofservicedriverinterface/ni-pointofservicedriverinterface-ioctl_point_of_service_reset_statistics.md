@@ -6,6 +6,7 @@ old-location: pos\ioctl_point_of_service_reset_statistics.htm
 tech.root: pos
 ms.assetid: dfa6a460-ea80-4aa4-9948-2fd290f6616b
 ms.date: 02/23/2018
+keywords: ["IOCTL_POINT_OF_SERVICE_RESET_STATISTICS IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_RESET_STATISTICS, IOCTL_POINT_OF_SERVICE_RESET_STATISTICS control, IOCTL_POINT_OF_SERVICE_RESET_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RESET_STATISTICS, pos.ioctl_point_of_service_reset_statistics
 f1_keywords:
  - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RESET_STATISTICS"

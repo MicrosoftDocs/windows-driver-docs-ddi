@@ -4,6 +4,7 @@ title: PFND3D12DDI_VIDEO_DECODE_FRAME_0041_1 (d3d12umddi.h)
 description: Implemented by the client driver to decode a video frame.
 ms.assetid: 9cb62916-22cb-42c6-925d-16cc320ddb5a
 ms.date: 10/19/2018
+keywords: ["PFND3D12DDI_VIDEO_DECODE_FRAME_0041_1 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

@@ -6,6 +6,7 @@ old-location: ifsk\obinsertobject.htm
 tech.root: ifsk
 ms.assetid: 2984b246-3e3c-4121-b7a0-d9509a1717a3
 ms.date: 04/16/2018
+keywords: ["ObInsertObject function"]
 ms.keywords: ObInsertObject, ObInsertObject function [Installable File System Drivers], ifsk.obinsertobject, ntifs/ObInsertObject, obref_9ecb8aa6-496e-4daf-96cf-d68ec5863e94.xml
 f1_keywords:
  - "ntifs/ObInsertObject"

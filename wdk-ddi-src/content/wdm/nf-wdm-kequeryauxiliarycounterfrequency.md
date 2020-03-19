@@ -6,6 +6,7 @@ old-location: kernel\kequeryauxiliarycounterfrequency.htm
 tech.root: kernel
 ms.assetid: E7F9549D-F222-42BF-B82B-B0DA0F6BC60F
 ms.date: 04/30/2018
+keywords: ["KeQueryAuxiliaryCounterFrequency function"]
 ms.keywords: KeQueryAuxiliaryCounterFrequency, KeQueryAuxiliaryCounterFrequency routine [Kernel-Mode Driver Architecture], kernel.kequeryauxiliarycounterfrequency, wdm/KeQueryAuxiliaryCounterFrequency
 f1_keywords:
  - "wdm/KeQueryAuxiliaryCounterFrequency"

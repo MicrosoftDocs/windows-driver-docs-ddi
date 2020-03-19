@@ -6,6 +6,7 @@ old-location: kernel\rtllongptrsub.htm
 tech.root: kernel
 ms.assetid: 3F95CA04-3CE1-4298-B3B6-5D111AB4F3D3
 ms.date: 04/30/2018
+keywords: ["RtlLongPtrSub function"]
 ms.keywords: RtlLongPtrSub, RtlLongPtrSub function [Kernel-Mode Driver Architecture], kernel.rtllongptrsub, ntintsafe/RtlLongPtrSub
 f1_keywords:
  - "ntintsafe/RtlLongPtrSub"

@@ -5,6 +5,7 @@ description: Sets the current link state of the of the network adapter.
 tech.root: netvista
 ms.assetid: 5c06c275-4eb8-46ba-9b90-50ca192c9a47
 ms.date: 01/18/2019
+keywords: ["NetAdapterSetLinkState function"]
 f1_keywords:
  - "netadapter/NetAdapterSetLinkLayerMtuSize"
 ms.keywords: NetAdapterSetLinkState

@@ -6,6 +6,7 @@ old-location: stream\avc_multifunc_irb.htm
 tech.root: stream
 ms.assetid: cd8090b1-47d7-4d82-86b3-757b0642c5fe
 ms.date: 04/23/2018
+keywords: ["_AVC_MULTIFUNC_IRB structure"]
 ms.keywords: "*PAVC_MULTIFUNC_IRB, AVC_MULTIFUNC_IRB, AVC_MULTIFUNC_IRB structure [Streaming Media Devices], PAVC_MULTIFUNC_IRB, PAVC_MULTIFUNC_IRB structure pointer [Streaming Media Devices], _AVC_MULTIFUNC_IRB, avc/AVC_MULTIFUNC_IRB, avc/PAVC_MULTIFUNC_IRB, avcref_99cf5d79-48d7-4b86-80a7-9de22cc2f29e.xml, stream.avc_multifunc_irb"
 f1_keywords:
  - "avc/AVC_MULTIFUNC_IRB"

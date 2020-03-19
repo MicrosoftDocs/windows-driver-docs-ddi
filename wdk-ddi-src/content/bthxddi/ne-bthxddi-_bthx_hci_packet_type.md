@@ -6,6 +6,7 @@ old-location: bltooth\bthx_hci_packet_type.htm
 tech.root: bltooth
 ms.assetid: 87265ABB-C2B7-468F-83FC-411AD9769517
 ms.date: 04/27/2018
+keywords: ["_BTHX_HCI_PACKET_TYPE enumeration"]
 ms.keywords: BTHX_HCI_PACKET_TYPE, BTHX_HCI_PACKET_TYPE enumeration [Bluetooth Devices], HciPacketAclData, HciPacketCommand, HciPacketEvent, _BTHX_HCI_PACKET_TYPE, bltooth.bthx_hci_packet_type, bthxddi/BTHX_HCI_PACKET_TYPE, bthxddi/HciPacketAclData, bthxddi/HciPacketCommand, bthxddi/HciPacketEvent
 f1_keywords:
  - "bthxddi/BTHX_HCI_PACKET_TYPE"

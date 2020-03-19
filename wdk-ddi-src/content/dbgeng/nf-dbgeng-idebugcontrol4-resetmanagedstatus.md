@@ -6,6 +6,7 @@ old-location: debugger\idebugcontrol4_resetmanagedstatus.htm
 tech.root: debugger
 ms.assetid: 6A9F8963-54F2-4AD7-AB98-C3215E1F7839
 ms.date: 05/03/2018
+keywords: ["IDebugControl4::ResetManagedStatus"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],ResetManagedStatus method, IDebugControl4.ResetManagedStatus, IDebugControl4::ResetManagedStatus, ResetManagedStatus, ResetManagedStatus method [Windows Debugging], ResetManagedStatus method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::ResetManagedStatus, debugger.idebugcontrol4_resetmanagedstatus
 f1_keywords:
  - "dbgeng/IDebugControl4.ResetManagedStatus"

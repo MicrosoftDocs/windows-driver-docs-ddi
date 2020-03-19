@@ -4,6 +4,7 @@ title: D3DKMTSetVidPnSourceHwProtection function (d3dkmthk.h)
 description: Sets VidPn source hardware protection.
 ms.assetid: 33f3062e-347a-43ad-b261-4ef6505dbd31
 ms.date: 10/19/2018
+keywords: ["D3DKMTSetVidPnSourceHwProtection function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTSetVidPnSourceHwProtection"
 ms.keywords: D3DKMTSetVidPnSourceHwProtection

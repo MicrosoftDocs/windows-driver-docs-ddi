@@ -6,6 +6,7 @@ old-location: acpi\acpi_eval_output_buffer.htm
 tech.root: acpi
 ms.assetid: 3bfb43dd-b4e1-49ee-9be6-c9861341daa1
 ms.date: 02/15/2018
+keywords: ["_ACPI_EVAL_OUTPUT_BUFFER_V1 structure"]
 ms.keywords: "*PACPI_EVAL_OUTPUT_BUFFER, *PACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER, ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER_V1 structure [ACPI Devices], _ACPI_EVAL_OUTPUT_BUFFER_V1, acpi-meth-eval-ref_438f3766-37fd-449b-8084-26f08c2f82a0.xml, acpi.acpi_eval_output_buffer, acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V1"
 f1_keywords:
  - "acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V1"

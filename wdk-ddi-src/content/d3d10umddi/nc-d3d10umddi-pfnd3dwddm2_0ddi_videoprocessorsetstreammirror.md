@@ -5,6 +5,7 @@ description: Indicates whether the stream should be flipped vertically or horizo
 old-location: display\videoprocessorsetstreammirror.htm
 ms.assetid: 945BD212-7B48-41FD-B11F-FB03DB073BD4
 ms.date: 05/10/2018
+keywords: ["PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR callback function"]
 ms.keywords: PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR, PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR callback, d3d10umddi/pfnVideoProcessorSetStreamMirror, display.videoprocessorsetstreammirror, pfnVideoProcessorSetStreamMirror, pfnVideoProcessorSetStreamMirror callback function [Display Devices]
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

@@ -5,6 +5,7 @@ description: The DxgkDdiUpdateOverlay function modifies the overlay hardware.
 old-location: display\dxgkddiupdateoverlay.htm
 ms.assetid: b131dbb9-1e11-4d04-97cb-e15ec2b025c7
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_UPDATEOVERLAY callback function"]
 ms.keywords: DXGKDDI_UPDATEOVERLAY, DXGKDDI_UPDATEOVERLAY callback, DmFunctions_cc73fb5c-c4b9-476a-9227-fe2d15e288ea.xml, DxgkDdiUpdateOverlay, DxgkDdiUpdateOverlay callback function [Display Devices], d3dkmddi/DxgkDdiUpdateOverlay, display.dxgkddiupdateoverlay
 req.header: d3dkmddi.h
 req.include-header: 

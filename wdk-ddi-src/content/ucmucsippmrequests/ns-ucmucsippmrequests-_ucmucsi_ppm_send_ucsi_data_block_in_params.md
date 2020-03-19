@@ -5,6 +5,7 @@ tech.root: usbref
 description: Contains a USCI data block for input to IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK.
 ms.assetid: b52e3688-b7d0-4a31-9769-706ea2ac0e17
 ms.date: 09/30/2018
+keywords: ["_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK_IN_PARAMS structure"]
 f1_keywords:
  - "ucmucsippmrequests/_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK_IN_PARAMS"
 ms.keywords: _UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK_IN_PARAMS, UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK_IN_PARAMS, *PUCMUCSI_PPM_SEND_UCSI_DATA_BLOCK_IN_PARAMS, 

@@ -4,6 +4,7 @@ title: _PPTT (acpitabl.h)
 description: Defines the Processor Properties Topology Table (PPTT) structure.
 ms.assetid: 7d62f635-3e42-4e31-8849-b0452b21caff
 ms.date: 10/01/2018
+keywords: ["_PPTT structure"]
 f1_keywords:
  - "acpitabl/_PPTT"
 ms.keywords: _PPTT, PPTT, *PPPTT, 

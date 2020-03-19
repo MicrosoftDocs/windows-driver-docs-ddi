@@ -6,6 +6,7 @@ old-location: stream\kssetinformationfile.htm
 tech.root: stream
 ms.assetid: 878c6565-99f9-4f45-abba-ba4ece5b5743
 ms.date: 04/23/2018
+keywords: ["KsSetInformationFile function"]
 ms.keywords: KsSetInformationFile, KsSetInformationFile function [Streaming Media Devices], ks/KsSetInformationFile, ksfunc_338e56fe-b32d-4c9e-920f-9a5af1c5fdf3.xml, stream.kssetinformationfile
 f1_keywords:
  - "ks/KsSetInformationFile"

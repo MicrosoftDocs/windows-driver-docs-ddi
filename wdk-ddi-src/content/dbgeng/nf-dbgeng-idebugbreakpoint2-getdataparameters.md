@@ -6,6 +6,7 @@ old-location: debugger\getdataparameters.htm
 tech.root: debugger
 ms.assetid: e281c67a-df97-464e-9996-b15c18172dc4
 ms.date: 05/03/2018
+keywords: ["IDebugBreakpoint2::GetDataParameters"]
 ms.keywords: ComOther_297fe316-4a1a-476b-a804-056bb56b6e77.xml, GetDataParameters, GetDataParameters method [Windows Debugging], GetDataParameters method [Windows Debugging],IDebugBreakpoint interface, GetDataParameters method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetDataParameters method, IDebugBreakpoint2 interface [Windows Debugging],GetDataParameters method, IDebugBreakpoint2.GetDataParameters, IDebugBreakpoint2::GetDataParameters, IDebugBreakpoint::GetDataParameters, dbgeng/IDebugBreakpoint2::GetDataParameters, dbgeng/IDebugBreakpoint::GetDataParameters, debugger.getdataparameters
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.GetDataParameters"

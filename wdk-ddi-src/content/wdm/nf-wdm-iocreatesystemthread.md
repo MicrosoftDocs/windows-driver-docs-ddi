@@ -6,6 +6,7 @@ old-location: kernel\iocreatesystemthread.htm
 tech.root: kernel
 ms.assetid: B2879353-3917-46AA-89CC-A20F0BB78BC4
 ms.date: 04/30/2018
+keywords: ["IoCreateSystemThread function"]
 ms.keywords: IoCreateSystemThread, IoCreateSystemThread routine [Kernel-Mode Driver Architecture], kernel.iocreatesystemthread, wdm/IoCreateSystemThread
 f1_keywords:
  - "wdm/IoCreateSystemThread"

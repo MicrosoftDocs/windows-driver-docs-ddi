@@ -4,6 +4,7 @@ title: _D3DKMT_QUERYPROCESSOFFERINFO (d3dkmthk.h)
 description: Used to query the process offer info.
 ms.assetid: 321a6f3d-7375-42a3-b17f-9b7362df44af
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_QUERYPROCESSOFFERINFO structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_QUERYPROCESSOFFERINFO"
 ms.keywords: _D3DKMT_QUERYPROCESSOFFERINFO, D3DKMT_QUERYPROCESSOFFERINFO, 

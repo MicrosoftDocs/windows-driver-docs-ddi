@@ -6,6 +6,7 @@ old-location: debugger\getexceptionfiltersecondcommand.htm
 tech.root: debugger
 ms.assetid: 1ea607e2-76a2-4f78-87ca-bf3242f39433
 ms.date: 05/03/2018
+keywords: ["IDebugControl2::GetExceptionFilterSecondCommand"]
 ms.keywords: GetExceptionFilterSecondCommand, GetExceptionFilterSecondCommand method [Windows Debugging], GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl interface, GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl2 interface, GetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl2 interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl2.GetExceptionFilterSecondCommand, IDebugControl2::GetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging],GetExceptionFilterSecondCommand method, IDebugControl3::GetExceptionFilterSecondCommand, IDebugControl::GetExceptionFilterSecondCommand, IDebugControl_fba6b716-8dba-4581-87c3-b808d3ab40a1.xml, dbgeng/IDebugControl2::GetExceptionFilterSecondCommand, dbgeng/IDebugControl3::GetExceptionFilterSecondCommand, dbgeng/IDebugControl::GetExceptionFilterSecondCommand, debugger.getexceptionfiltersecondcommand
 f1_keywords:
  - "dbgeng/IDebugControl.GetExceptionFilterSecondCommand"

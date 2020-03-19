@@ -6,6 +6,7 @@ old-location: kernel\ioacquireremovelock.htm
 tech.root: kernel
 ms.assetid: 46398050-7f06-4d64-8b27-12e529884cb2
 ms.date: 04/30/2018
+keywords: ["IoAcquireRemoveLock macro"]
 ms.keywords: IoAcquireRemoveLock, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, kernel.ioacquireremovelock, wdm/IoAcquireRemoveLock
 f1_keywords:
  - "wdm/IoAcquireRemoveLock"

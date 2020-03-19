@@ -3,6 +3,7 @@ UID: NA:throw
 title: Throw.h header
 ms.assetid: 471f2bcd-c4a0-35e4-8165-a749ccc6826d
 ms.date: 05/09/2018
+keywords: ["Throw.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

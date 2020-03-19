@@ -6,6 +6,7 @@ old-location: ifsk\fltflushbuffers.htm
 tech.root: ifsk
 ms.assetid: 269be3a9-7dd8-45e2-8687-99f8ca8f9b8b
 ms.date: 04/16/2018
+keywords: ["FltFlushBuffers function"]
 ms.keywords: FltApiRef_e_to_o_cd194ce5-6afd-49f2-84c5-aa93ede9309a.xml, FltFlushBuffers, FltFlushBuffers routine [Installable File System Drivers], fltkernel/FltFlushBuffers, ifsk.fltflushbuffers
 f1_keywords:
  - "fltkernel/FltFlushBuffers"

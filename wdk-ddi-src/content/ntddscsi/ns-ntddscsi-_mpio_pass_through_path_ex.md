@@ -6,6 +6,7 @@ old-location: storage\mpio_pass_through_path_ex.htm
 tech.root: storage
 ms.assetid: DAEA7A9C-3ACD-49E5-A634-A844D9694412
 ms.date: 03/29/2018
+keywords: ["_MPIO_PASS_THROUGH_PATH_EX structure"]
 ms.keywords: "*PMPIO_PASS_THROUGH_PATH_EX, MPIO_PASS_THROUGH_PATH_EX, MPIO_PASS_THROUGH_PATH_EX structure [Storage Devices], PMPIO_PASS_THROUGH_PATH_EX, PMPIO_PASS_THROUGH_PATH_EX structure pointer [Storage Devices], _MPIO_PASS_THROUGH_PATH_EX, ntddscsi/MPIO_PASS_THROUGH_PATH_EX, ntddscsi/PMPIO_PASS_THROUGH_PATH_EX, storage.mpio_pass_through_path_ex"
 f1_keywords:
  - "ntddscsi/MPIO_PASS_THROUGH_PATH_EX"

@@ -6,6 +6,7 @@ old-location: display\handlekernelmodemessage.htm
 tech.root: display
 ms.assetid: 9DE4F3B0-915A-4C66-85F8-AE248B8471B5
 ms.date: 05/10/2018
+keywords: ["PFN_HANDLE_KMD_MESSAGE callback function"]
 ms.keywords: HandleKernelModeMessage, HandleKernelModeMessage callback function [Display Devices], PFN_HANDLE_KMD_MESSAGE, PFN_HANDLE_KMD_MESSAGE callback, display.handlekernelmodemessage, netdispumdddi/HandleKernelModeMessage
 f1_keywords:
  - "netdispumdddi/HandleKernelModeMessage"

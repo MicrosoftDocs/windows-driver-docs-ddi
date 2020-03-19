@@ -4,6 +4,7 @@ title: D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0054 (d3d12umddi.h)
 description: Describes a ray tracing pipeline configuration.
 ms.assetid: 6b313ba9-39e5-4b7b-837f-2dbf919fe4ea
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0054 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0054"
 ms.keywords: D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0054, D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0054, 

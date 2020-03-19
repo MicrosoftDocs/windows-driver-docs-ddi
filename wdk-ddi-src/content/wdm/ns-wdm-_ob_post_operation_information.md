@@ -6,6 +6,7 @@ old-location: kernel\ob_post_operation_information.htm
 tech.root: kernel
 ms.assetid: fc52e06d-c826-43c2-ac61-4f56fd808d43
 ms.date: 04/30/2018
+keywords: ["_OB_POST_OPERATION_INFORMATION structure"]
 ms.keywords: "*POB_POST_OPERATION_INFORMATION, OB_POST_OPERATION_INFORMATION, OB_POST_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], POB_POST_OPERATION_INFORMATION, POB_POST_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_POST_OPERATION_INFORMATION, kernel.ob_post_operation_information, kstruct_c_6ef8c6e1-d537-47e0-875f-08f884362459.xml, wdm/OB_POST_OPERATION_INFORMATION, wdm/POB_POST_OPERATION_INFORMATION"
 f1_keywords:
  - "wdm/OB_POST_OPERATION_INFORMATION"

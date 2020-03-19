@@ -5,6 +5,7 @@ description: The WWAN_5G_FREQUENCY_RANGE enumeration specifies the frequency ran
 tech.root: netvista
 ms.assetid: 63C14301-2D71-4F19-937E-4FBC1A43DFBC
 ms.date: 04/05/2019
+keywords: ["_WWAN_5G_FREQUENCY_RANGE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_5G_FREQUENCY_RANGE"
 ms.keywords: _WWAN_5G_FREQUENCY_RANGE, WWAN_5G_FREQUENCY_RANGE, *PWWAN_5G_FREQUENCY_RANGE, 

@@ -6,6 +6,7 @@ old-location: kernel\exinterlockedpushentrylist.htm
 tech.root: kernel
 ms.assetid: 7a932f69-c5dd-4844-b461-b986c00a08c7
 ms.date: 04/30/2018
+keywords: ["ExInterlockedPushEntryList function"]
 ms.keywords: ExInterlockedPushEntryList, ExInterlockedPushEntryList routine [Kernel-Mode Driver Architecture], k102_dbf9c23d-8c9a-47e6-a923-cdb4d247148c.xml, kernel.exinterlockedpushentrylist, wdm/ExInterlockedPushEntryList
 f1_keywords:
  - "wdm/ExInterlockedPushEntryList"

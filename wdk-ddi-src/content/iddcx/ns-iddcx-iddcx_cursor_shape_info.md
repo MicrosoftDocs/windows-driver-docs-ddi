@@ -6,6 +6,7 @@ old-location: display\iddcx_cursor_shape_info.htm
 tech.root: display
 ms.assetid: 58ed8f04-616f-4eea-b6e1-07f322c37dbb
 ms.date: 05/10/2018
+keywords: ["IDDCX_CURSOR_SHAPE_INFO structure"]
 ms.keywords: IDDCX_CURSOR_SHAPE_INFO, IDDCX_CURSOR_SHAPE_INFO structure [Display Devices], display.iddcx_cursor_shape_info, iddcx/IDDCX_CURSOR_SHAPE_INFO
 f1_keywords:
  - "iddcx/IDDCX_CURSOR_SHAPE_INFO"

@@ -4,6 +4,7 @@ title: IDebugHostMemory2::WriteBytes (dbgmodel.h)
 description: Writes a number of bytes to the address space of the target as defined by the inpassed context and location.
 ms.assetid: 63704020-5225-47dd-a388-151b5b02885f
 ms.date: 09/28/2018
+keywords: ["IDebugHostMemory2::WriteBytes"]
 f1_keywords:
  - "dbgmodel/IDebugHostMemory2.WriteBytes"
 ms.keywords: IDebugHostMemory2::WriteBytes, WriteBytes, IDebugHostMemory2.WriteBytes, IDebugHostMemory2::WriteBytes, IDebugHostMemory2.WriteBytes

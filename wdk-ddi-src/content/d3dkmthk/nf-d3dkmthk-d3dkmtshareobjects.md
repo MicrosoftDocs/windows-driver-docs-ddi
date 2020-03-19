@@ -5,6 +5,7 @@ description: Shares resource objects that were created with the D3DKMTCreateAllo
 old-location: display\d3dkmtshareobjects.htm
 ms.assetid: 853c4e73-b571-4b68-8690-bbef7a726c8e
 ms.date: 05/10/2018
+keywords: ["D3DKMTShareObjects function"]
 ms.keywords: D3DKMTShareObjects, D3DKMTShareObjects function [Display Devices], d3dkmthk/D3DKMTShareObjects, display.d3dkmtshareobjects
 f1_keywords:
  - "d3dkmthk/D3DKMTShareObjects"

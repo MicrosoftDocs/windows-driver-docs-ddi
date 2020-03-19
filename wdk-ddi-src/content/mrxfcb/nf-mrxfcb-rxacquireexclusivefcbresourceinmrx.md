@@ -6,6 +6,7 @@ old-location: ifsk\rxacquireexclusivefcbresourceinmrx.htm
 tech.root: ifsk
 ms.assetid: 417c3ffd-5c40-430d-9aec-169203dba685
 ms.date: 04/16/2018
+keywords: ["RxAcquireExclusiveFcbResourceInMRx function"]
 ms.keywords: RxAcquireExclusiveFcbResourceInMRx, RxAcquireExclusiveFcbResourceInMRx routine [Installable File System Drivers], ifsk.rxacquireexclusivefcbresourceinmrx, mrxfcb/RxAcquireExclusiveFcbResourceInMRx, rxref_54a3508a-7d99-487a-9363-a13500540230.xml
 f1_keywords:
  - "mrxfcb/RxAcquireExclusiveFcbResourceInMRx"

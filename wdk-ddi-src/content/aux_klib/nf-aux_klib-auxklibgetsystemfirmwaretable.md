@@ -6,6 +6,7 @@ old-location: kernel\auxklibgetsystemfirmwaretable.htm
 tech.root: kernel
 ms.assetid: 548C850F-87AF-43E0-BD87-5531D9874D4D
 ms.date: 04/30/2018
+keywords: ["AuxKlibGetSystemFirmwareTable function"]
 ms.keywords: AuxKlibGetSystemFirmwareTable, AuxKlibGetSystemFirmwareTable routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetSystemFirmwareTable, kernel.auxklibgetsystemfirmwaretable
 f1_keywords:
  - "aux_klib/AuxKlibGetSystemFirmwareTable"

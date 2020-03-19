@@ -6,6 +6,7 @@ old-location: print\iprintasyncnotify_finishasynccall.htm
 tech.root: print
 ms.assetid: 4E2D11E9-9399-48C5-8EA8-B17FBB6625FF
 ms.date: 04/20/2018
+keywords: ["IPrintAsyncCookie::FinishAsyncCall"]
 ms.keywords: FinishAsyncCall, FinishAsyncCall method [Print Devices], FinishAsyncCall method [Print Devices],IPrintAsyncCookie interface, IPrintAsyncCookie interface [Print Devices],FinishAsyncCall method, IPrintAsyncCookie.FinishAsyncCall, IPrintAsyncCookie::FinishAsyncCall, print.iprintasyncnotify_finishasynccall, prnasntp/IPrintAsyncCookie::FinishAsyncCall
 f1_keywords:
  - "prnasntp/IPrintAsyncCookie.FinishAsyncCall"

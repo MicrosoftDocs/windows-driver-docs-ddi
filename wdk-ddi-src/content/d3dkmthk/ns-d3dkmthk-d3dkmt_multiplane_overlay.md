@@ -4,6 +4,7 @@ title: D3DKMT_MULTIPLANE_OVERLAY (d3dkmthk.h)
 description: Multiplane overlay structure.
 ms.assetid: 91038ee5-1da1-49dc-bd26-3416dd550cd4
 ms.date: 10/19/2018
+keywords: ["D3DKMT_MULTIPLANE_OVERLAY structure"]
 f1_keywords:
  - "d3dkmthk/D3DKMT_MULTIPLANE_OVERLAY"
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY, D3DKMT_MULTIPLANE_OVERLAY, 

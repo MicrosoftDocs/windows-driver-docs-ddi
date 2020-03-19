@@ -6,6 +6,7 @@ old-location: audio\iportmidi_registerservicegroup.htm
 tech.root: audio
 ms.assetid: 8e6b967f-7114-4231-bcfc-23637cd83268
 ms.date: 05/08/2018
+keywords: ["IPortMidi::RegisterServiceGroup"]
 ms.keywords: IPortMidi interface [Audio Devices],RegisterServiceGroup method, IPortMidi.RegisterServiceGroup, IPortMidi::RegisterServiceGroup, RegisterServiceGroup, RegisterServiceGroup method [Audio Devices], RegisterServiceGroup method [Audio Devices],IPortMidi interface, audio.iportmidi_registerservicegroup, audmp-routines_ff2228bf-489d-4980-a317-e9cb89e4f394.xml, portcls/IPortMidi::RegisterServiceGroup
 f1_keywords:
  - "portcls/IPortMidi.RegisterServiceGroup"

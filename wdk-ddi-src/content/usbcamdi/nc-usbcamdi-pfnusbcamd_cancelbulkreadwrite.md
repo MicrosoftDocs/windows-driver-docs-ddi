@@ -6,6 +6,7 @@ old-location: stream\usbcamd_cancelbulkreadwrite.htm
 tech.root: stream
 ms.assetid: e63a56d8-fdd8-468d-b0f9-2c46c5ff7a00
 ms.date: 04/23/2018
+keywords: ["PFNUSBCAMD_CancelBulkReadWrite callback function"]
 ms.keywords: PFNUSBCAMD_CancelBulkReadWrite, USBCAMD_CancelBulkReadWrite, USBCAMD_CancelBulkReadWrite routine [Streaming Media Devices], stream.usbcamd_cancelbulkreadwrite, usbcamdi/USBCAMD_CancelBulkReadWrite, usbcmdpr_ba242b77-cda6-4b16-a7a1-297701108cd8.xml
 f1_keywords:
  - "usbcamdi/USBCAMD_CancelBulkReadWrite"

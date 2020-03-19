@@ -6,6 +6,7 @@ old-location: wdf\wdfdevicesetdeviceinterfacestate.htm
 tech.root: wdf
 ms.assetid: 345003fc-fdc3-4529-bb15-c9e380e77bba
 ms.date: 02/26/2018
+keywords: ["WdfDeviceSetDeviceInterfaceState function"]
 ms.keywords: DFDeviceObjectGeneralRef_bfed99aa-ad4c-4339-aeb9-f7d73039f0b9.xml, WdfDeviceSetDeviceInterfaceState, WdfDeviceSetDeviceInterfaceState method, kmdf.wdfdevicesetdeviceinterfacestate, wdf.wdfdevicesetdeviceinterfacestate, wdfdevice/WdfDeviceSetDeviceInterfaceState
 f1_keywords:
  - "wdfdevice/WdfDeviceSetDeviceInterfaceState"

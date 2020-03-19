@@ -6,6 +6,7 @@ old-location: buses\_ucxendpointpurgecomplete.htm
 tech.root: usbref
 ms.assetid: F640D54B-277F-4382-9478-8A7AFAD242E2
 ms.date: 05/07/2018
+keywords: ["UcxEndpointPurgeComplete function"]
 ms.keywords: UcxEndpointPurgeComplete, UcxEndpointPurgeComplete method [Buses], buses._ucxendpointpurgecomplete, ucxendpoint/UcxEndpointPurgeComplete
 f1_keywords:
  - "ucxendpoint/UcxEndpointPurgeComplete"

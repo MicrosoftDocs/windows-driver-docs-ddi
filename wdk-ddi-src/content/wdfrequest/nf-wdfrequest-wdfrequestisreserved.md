@@ -6,6 +6,7 @@ old-location: wdf\wdfrequestisreserved.htm
 tech.root: wdf
 ms.assetid: 8cbf75c4-d54c-45e0-9abb-bef8e76fb9fe
 ms.date: 02/26/2018
+keywords: ["WdfRequestIsReserved function"]
 ms.keywords: DFRequestObjectRef_286c4c9a-cbec-48f1-9d78-516cbaab2d45.xml, WdfRequestIsReserved, WdfRequestIsReserved method, kmdf.wdfrequestisreserved, wdf.wdfrequestisreserved, wdfrequest/WdfRequestIsReserved
 f1_keywords:
  - "wdfrequest/WdfRequestIsReserved"

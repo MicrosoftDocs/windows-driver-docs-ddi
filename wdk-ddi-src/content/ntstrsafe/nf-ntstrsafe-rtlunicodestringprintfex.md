@@ -6,6 +6,7 @@ old-location: kernel\rtlunicodestringprintfex.htm
 tech.root: kernel
 ms.assetid: 8a08cb8d-d933-4dc6-8bf2-8f435ffc9eb1
 ms.date: 04/30/2018
+keywords: ["RtlUnicodeStringPrintfEx function"]
 ms.keywords: RtlUnicodeStringPrintfEx, RtlUnicodeStringPrintfEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringprintfex, ntstrsafe/RtlUnicodeStringPrintfEx, safestrings_06495952-554e-4e33-8610-dc34b7f1b879.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringPrintfEx"

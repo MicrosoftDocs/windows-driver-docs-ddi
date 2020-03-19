@@ -6,6 +6,7 @@ old-location: netvista\fwpsfreeclonenetbufferlist0.htm
 tech.root: netvista
 ms.assetid: 0d0dea63-de0d-4421-b123-ce31ac6af1d9
 ms.date: 05/02/2018
+keywords: ["FwpsFreeCloneNetBufferList0 function"]
 ms.keywords: FwpsFreeCloneNetBufferList0, FwpsFreeCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFreeCloneNetBufferList0, netvista.fwpsfreeclonenetbufferlist0, wfp_ref_2_funct_3_fwps_D-H_23efae1d-62cd-4559-b332-08ff843c3ab6.xml
 f1_keywords:
  - "fwpsk/FwpsFreeCloneNetBufferList0"

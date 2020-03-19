@@ -6,6 +6,7 @@ old-location: buses\_usbdevice_mgmt_header.htm
 tech.root: usbref
 ms.assetid: E3CDED41-FE83-4CBC-9FF8-4858125F7108
 ms.date: 05/07/2018
+keywords: ["_USBDEVICE_MGMT_HEADER structure"]
 ms.keywords: "*PUSBDEVICE_MGMT_HEADER, P_USBDEVICE_MGMT_HEADER, P_USBDEVICE_MGMT_HEADER structure pointer [Buses], USBDEVICE_MGMT_HEADER, USBDEVICE_MGMT_HEADER structure [Buses], _USBDEVICE_MGMT_HEADER, buses._usbdevice_mgmt_header, ucxusbdevice/P_USBDEVICE_MGMT_HEADER, ucxusbdevice/_USBDEVICE_MGMT_HEADER"
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_MGMT_HEADER"

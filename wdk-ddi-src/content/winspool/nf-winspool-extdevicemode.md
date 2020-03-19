@@ -6,6 +6,7 @@ old-location: print\extdevicemode.htm
 tech.root: print
 ms.assetid: dade9d25-7143-4566-adc1-0c97cb508c07
 ms.date: 04/20/2018
+keywords: ["ExtDeviceMode function"]
 ms.keywords: ExtDeviceMode, ExtDeviceMode function [Print Devices], print.extdevicemode, spoolfnc_56c49c94-99f4-43b9-90eb-189041a1dd3a.xml, winspool/ExtDeviceMode
 f1_keywords:
  - "winspool/ExtDeviceMode"

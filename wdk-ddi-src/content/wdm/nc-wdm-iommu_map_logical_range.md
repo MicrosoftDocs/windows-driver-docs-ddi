@@ -4,6 +4,7 @@ title: IOMMU_MAP_LOGICAL_RANGE (wdm.h)
 description: Maps a range of pages into the address space of a domain.
 ms.assetid: 670390f9-15c9-4fa2-bba2-227a6bd7c803
 ms.date: 10/19/2018
+keywords: ["IOMMU_MAP_LOGICAL_RANGE callback function"]
 f1_keywords:
  - "wdm/IOMMU_MAP_LOGICAL_RANGE"
 req.header: wdm.h

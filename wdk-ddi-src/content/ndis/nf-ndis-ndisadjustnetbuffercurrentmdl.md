@@ -6,6 +6,7 @@ old-location: netvista\ndisadjustnetbuffercurrentmdl.htm
 tech.root: netvista
 ms.assetid: 5d05793b-cb35-435d-aa59-6ac380668d91
 ms.date: 05/02/2018
+keywords: ["NdisAdjustNetBufferCurrentMdl function"]
 ms.keywords: NdisAdjustNetBufferCurrentMdl, NdisAdjustNetBufferCurrentMdl function [Network Drivers Starting with Windows Vista], ndis/NdisAdjustNetBufferCurrentMdl, ndis_netbuf_functions_ref_a555c8dc-ed71-46b9-8922-32bfad03f2a1.xml, netvista.ndisadjustnetbuffercurrentmdl
 f1_keywords:
  - "ndis/NdisAdjustNetBufferCurrentMdl"

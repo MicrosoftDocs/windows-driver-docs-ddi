@@ -6,6 +6,7 @@ old-location: ifsk\fltgetactivityidcallbackdata.htm
 tech.root: ifsk
 ms.assetid: 3DAA2135-768E-4A37-B2FD-9915F16D8A66
 ms.date: 04/16/2018
+keywords: ["FltGetActivityIdCallbackData function"]
 ms.keywords: FltGetActivityIdCallbackData, FltGetActivityIdCallbackData routine [Installable File System Drivers], fltkernel/FltGetActivityIdCallbackData, ifsk.fltgetactivityidcallbackdata
 f1_keywords:
  - "fltkernel/FltGetActivityIdCallbackData"

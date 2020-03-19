@@ -5,6 +5,7 @@ description: The NetAdapterOffloadSetChecksumCapabilities method sets the hardwa
 tech.root: netvista
 ms.assetid: 03dd8b75-0284-4c7a-8102-6ab0e12f3163
 ms.date: 01/17/2019
+keywords: ["NetAdapterOffloadSetLsoCapabilities function"]
 f1_keywords:
  - "netadapteroffload/NetAdapterOffloadSetLsoCapabilities"
 ms.keywords: NetAdapterOffloadSetLsoCapabilities

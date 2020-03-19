@@ -6,6 +6,7 @@ old-location: storage\storage_read_capacity.htm
 tech.root: storage
 ms.assetid: 891F04C5-277B-4197-942E-68ED21019950
 ms.date: 03/29/2018
+keywords: ["_STORAGE_READ_CAPACITY structure"]
 ms.keywords: PSTORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY structure pointer [Storage Devices], STORAGE_READ_CAPACITY, STORAGE_READ_CAPACITY structure [Storage Devices], _STORAGE_READ_CAPACITY, ntddstor/PSTORAGE_READ_CAPACITY, ntddstor/STORAGE_READ_CAPACITY, storage.storage_read_capacity
 f1_keywords:
  - "ntddstor/STORAGE_READ_CAPACITY"

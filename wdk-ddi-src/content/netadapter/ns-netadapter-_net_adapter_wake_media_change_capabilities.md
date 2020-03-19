@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 0f6ef6ae-6ba0-4ce1-a780-b18825fb5998
 ms.author: windowsdriverdev
 ms.date: 10/25/2019
+keywords: ["NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES structure"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES"
 ms.keywords: NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES, NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES, 

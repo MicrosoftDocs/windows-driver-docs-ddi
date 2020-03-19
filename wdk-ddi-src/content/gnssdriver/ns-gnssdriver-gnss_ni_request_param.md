@@ -6,6 +6,7 @@ old-location: gnss\gnss_ni_request_param.htm
 tech.root: gnss
 ms.assetid: 0528EEE6-31D6-4CF6-8192-3557C28B4D10
 ms.date: 02/15/2018
+keywords: ["GNSS_NI_REQUEST_PARAM structure"]
 ms.keywords: "*PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM structure [Sensor Devices], PGNSS_NI_REQUEST_PARAM, PGNSS_NI_REQUEST_PARAM structure pointer [Sensor Devices], gnss.gnss_ni_request_param, gnssdriver/GNSS_NI_REQUEST_PARAM, gnssdriver/PGNSS_NI_REQUEST_PARAM"
 f1_keywords:
  - "gnssdriver/GNSS_NI_REQUEST_PARAM"

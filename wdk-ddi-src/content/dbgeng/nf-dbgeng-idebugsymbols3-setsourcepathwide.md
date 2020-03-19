@@ -6,6 +6,7 @@ old-location: debugger\setsourcepathwide.htm
 tech.root: debugger
 ms.assetid: 1fdb4e2c-ece7-407e-840c-fbd6dfe46d78
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::SetSourcePathWide"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetSourcePathWide method, IDebugSymbols3.SetSourcePathWide, IDebugSymbols3::SetSourcePathWide, SetSourcePathWide, SetSourcePathWide method [Windows Debugging], SetSourcePathWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetSourcePathWide, debugger.setsourcepathwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.SetSourcePathWide"

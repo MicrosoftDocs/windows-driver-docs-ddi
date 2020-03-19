@@ -6,6 +6,7 @@ old-location: buses\usbbuildinterruptorbulktransferrequest.htm
 tech.root: usbref
 ms.assetid: 2500fa22-b3f9-419d-9e37-5060b83403fb
 ms.date: 05/07/2018
+keywords: ["UsbBuildInterruptOrBulkTransferRequest macro"]
 ms.keywords: UsbBuildInterruptOrBulkTransferRequest, UsbBuildInterruptOrBulkTransferRequest routine [Buses], buses.usbbuildinterruptorbulktransferrequest, usbdlib/UsbBuildInterruptOrBulkTransferRequest, usbfunc_ecc1d157-942d-4d0e-9c07-9fef00cd5faf.xml
 f1_keywords:
  - "usbdlib/UsbBuildInterruptOrBulkTransferRequest"

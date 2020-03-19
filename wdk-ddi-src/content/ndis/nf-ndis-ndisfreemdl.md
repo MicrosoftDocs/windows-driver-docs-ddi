@@ -6,6 +6,7 @@ old-location: netvista\ndisfreemdl.htm
 tech.root: netvista
 ms.assetid: 612a66fa-0e0c-4eee-99b0-9bc09437b026
 ms.date: 05/02/2018
+keywords: ["NdisFreeMdl function"]
 ms.keywords: NdisFreeMdl, NdisFreeMdl function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMdl, ndis_netbuf_functions_ref_0631fdd9-0961-43a9-a7a8-7d41e9d17220.xml, netvista.ndisfreemdl
 f1_keywords:
  - "ndis/NdisFreeMdl"

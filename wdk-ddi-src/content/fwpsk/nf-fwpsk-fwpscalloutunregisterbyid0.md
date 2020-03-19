@@ -6,6 +6,7 @@ old-location: netvista\fwpscalloutunregisterbyid0.htm
 tech.root: netvista
 ms.assetid: 81e7e704-c387-48a0-a222-cae751bba1d3
 ms.date: 05/02/2018
+keywords: ["FwpsCalloutUnregisterById0 function"]
 ms.keywords: FwpsCalloutUnregisterById0, FwpsCalloutUnregisterById0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutUnregisterById0, netvista.fwpscalloutunregisterbyid0, wfp_ref_2_funct_3_fwps_C_7bfae7f1-e5f2-4361-bbc0-6c5fef63a267.xml
 f1_keywords:
  - "fwpsk/FwpsCalloutUnregisterById0"

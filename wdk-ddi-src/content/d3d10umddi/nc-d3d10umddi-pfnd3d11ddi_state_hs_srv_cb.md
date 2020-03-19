@@ -5,6 +5,7 @@ description: The pfnStateHsSrvCb function causes the Microsoft Direct3D 11 runti
 old-location: display\pfnstatehssrvcb.htm
 ms.assetid: 93a0a6b2-6a1a-4cef-ad7e-c5b606d11c17
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_STATE_HS_SRV_CB callback function"]
 ms.keywords: PFND3D11DDI_STATE_HS_SRV_CB, PFND3D11DDI_STATE_HS_SRV_CB callback, d3d10umddi/pfnStateHsSrvCb, d3d11state_functions_dfb556c1-522f-40b1-b5dd-ddfa4a4fc557.xml, display.pfnstatehssrvcb, pfnStateHsSrvCb, pfnStateHsSrvCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateHsSrvCb"

@@ -6,6 +6,7 @@ old-location: wdf\wdfrequestgetioqueue.htm
 tech.root: wdf
 ms.assetid: 9b7d67a3-2899-47b1-9652-d3696d37ec2d
 ms.date: 02/26/2018
+keywords: ["WdfRequestGetIoQueue function"]
 ms.keywords: DFRequestObjectRef_5ac140be-04cf-480c-a917-9942d23b550f.xml, WdfRequestGetIoQueue, WdfRequestGetIoQueue method, kmdf.wdfrequestgetioqueue, wdf.wdfrequestgetioqueue, wdfrequest/WdfRequestGetIoQueue
 f1_keywords:
  - "wdfrequest/WdfRequestGetIoQueue"

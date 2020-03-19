@@ -4,6 +4,7 @@ title: DisplayID structure (icm.h)
 description: The DisplayID structure defines an identifier for a particular display, using the DXGK target and source IDs.
 ms.assetid: e510b96d-263a-4cc5-b1c9-69845429f06c
 ms.date: 09/10/2018
+keywords: ["DisplayID structure"]
 ms.topic: struct
 ms.keywords: DisplayID, DisplayID, 
 req.header: icm.h

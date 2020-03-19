@@ -6,6 +6,7 @@ old-location: netvista\riloperatornames_2.htm
 tech.root: netvista
 ms.assetid: 5a066e35-1e8c-431e-897f-9d864991b15f
 ms.date: 02/26/2018
+keywords: ["RILOPERATORNAMES structure"]
 ms.keywords: "*LPRILOPERATORNAMES, RILOPERATORNAMES, RILOPERATORNAMES structure [Network Drivers Starting with Windows Vista], netvista.riloperatornames_2, rilapitypes/RILOPERATORNAMES"
 f1_keywords:
  - "rilapitypes/RILOPERATORNAMES"

@@ -6,6 +6,7 @@ old-location: kernel\kequerysystemtime.htm
 tech.root: kernel
 ms.assetid: de271bd2-93cf-444d-889d-09c7e654e688
 ms.date: 04/30/2018
+keywords: ["KeQuerySystemTime function"]
 ms.keywords: KeQuerySystemTime, KeQuerySystemTime routine [Kernel-Mode Driver Architecture], k105_0eaf1b30-c365-45ac-828c-fbcc7cd71ff3.xml, kernel.kequerysystemtime, wdm/KeQuerySystemTime
 f1_keywords:
  - "wdm/KeQuerySystemTime"

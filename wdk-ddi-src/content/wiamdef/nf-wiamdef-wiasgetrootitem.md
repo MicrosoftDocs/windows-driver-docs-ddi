@@ -6,6 +6,7 @@ old-location: image\wiasgetrootitem.htm
 tech.root: image
 ms.assetid: 09885782-2293-49a3-af48-6450dbc6a24e
 ms.date: 05/03/2018
+keywords: ["wiasGetRootItem function"]
 ms.keywords: image.wiasgetrootitem, wiamdef/wiasGetRootItem, wiasFncs_4e991723-5462-456e-b56f-82a38e5cf556.xml, wiasGetRootItem, wiasGetRootItem function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasGetRootItem"

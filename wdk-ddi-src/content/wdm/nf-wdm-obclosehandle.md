@@ -6,6 +6,7 @@ old-location: kernel\obclosehandle.htm
 tech.root: kernel
 ms.assetid: 15D6A09F-2AEC-431F-91F4-D1571DB56E81
 ms.date: 04/30/2018
+keywords: ["ObCloseHandle function"]
 ms.keywords: ObCloseHandle, ObCloseHandle routine [Kernel-Mode Driver Architecture], kernel.obclosehandle, wdm/ObCloseHandle
 f1_keywords:
  - "wdm/ObCloseHandle"

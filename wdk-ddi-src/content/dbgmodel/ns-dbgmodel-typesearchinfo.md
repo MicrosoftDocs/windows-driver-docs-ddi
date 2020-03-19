@@ -4,6 +4,7 @@ title: TypeSearchInfo (dbgmodel.h)
 description: The search record passed to EnumerateChildrenEx specifically for SymbolType searches.
 ms.assetid: 351db58e-2652-4cc9-adeb-2905b21e58aa
 ms.date: 07/16/2018
+keywords: ["TypeSearchInfo structure"]
 f1_keywords:
  - "dbgmodel/TypeSearchInfo"
 ms.keywords: TypeSearchInfo, , 

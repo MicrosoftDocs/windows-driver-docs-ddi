@@ -6,6 +6,7 @@ old-location: ifsk\rtlisroot.htm
 tech.root: ifsk
 ms.assetid: 74b3894e-972f-430b-bb8f-20fa46bf8b7d
 ms.date: 04/16/2018
+keywords: ["RtlIsRoot macro"]
 ms.keywords: RtlIsRoot, RtlIsRoot routine [Installable File System Drivers], ifsk.rtlisroot, ntddk/RtlIsRoot, rtlref_d7c73e66-d8b8-4a18-a987-d61f13f48dc4.xml
 f1_keywords:
  - "ntddk/RtlIsRoot"

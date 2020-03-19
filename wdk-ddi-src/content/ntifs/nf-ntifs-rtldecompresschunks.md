@@ -6,6 +6,7 @@ old-location: ifsk\rtldecompresschunks.htm
 tech.root: ifsk
 ms.assetid: 1bc13892-a7fb-43f9-8e65-70c11baca9ce
 ms.date: 04/16/2018
+keywords: ["RtlDecompressChunks function"]
 ms.keywords: RtlDecompressChunks, RtlDecompressChunks function [Installable File System Drivers], ifsk.rtldecompresschunks, ntifs/RtlDecompressChunks, rtlref_0fadf009-d363-4001-9981-7eb646be1a8b.xml
 f1_keywords:
  - "ntifs/RtlDecompressChunks"

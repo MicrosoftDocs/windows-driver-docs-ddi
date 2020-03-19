@@ -6,6 +6,7 @@ old-location: stream\ioctl_lamp_get_capabilities_color.htm
 tech.root: stream
 ms.assetid: CC7B1824-E397-414A-8EB6-130AEC031304
 ms.date: 04/23/2018
+keywords: ["IOCTL_LAMP_GET_CAPABILITIES_COLOR IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_CAPABILITIES_COLOR, IOCTL_LAMP_GET_CAPABILITIES_COLOR control, IOCTL_LAMP_GET_CAPABILITIES_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_CAPABILITIES_COLOR, stream.ioctl_lamp_get_capabilities_color
 f1_keywords:
  - "lamp/IOCTL_LAMP_GET_CAPABILITIES_COLOR"

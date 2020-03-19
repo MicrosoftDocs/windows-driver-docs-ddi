@@ -6,6 +6,7 @@ old-location: display\d3dddi_multiplane_overlay_group_caps_input.htm
 tech.root: display
 ms.assetid: 0AF66863-A1C0-4BCF-A677-BAF7F2961390
 ms.date: 05/10/2018
+keywords: ["D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure"]
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure [Display Devices], PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure pointer [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, d3dumddi/PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, display.d3dddi_multiplane_overlay_group_caps_input
 f1_keywords:
  - "d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT"

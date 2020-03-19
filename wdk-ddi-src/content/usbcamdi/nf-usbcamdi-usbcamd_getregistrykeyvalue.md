@@ -6,6 +6,7 @@ old-location: stream\usbcamd_getregistrykeyvalue.htm
 tech.root: stream
 ms.assetid: c3512a79-884f-4f38-9942-63a4a464585c
 ms.date: 04/23/2018
+keywords: ["USBCAMD_GetRegistryKeyValue function"]
 ms.keywords: USBCAMD_GetRegistryKeyValue, USBCAMD_GetRegistryKeyValue function [Streaming Media Devices], stream.usbcamd_getregistrykeyvalue, usbcamdi/USBCAMD_GetRegistryKeyValue, usbcmdpr_f93ab3a6-f063-4c69-819d-1aed77b8efe6.xml
 f1_keywords:
  - "usbcamdi/USBCAMD_GetRegistryKeyValue"

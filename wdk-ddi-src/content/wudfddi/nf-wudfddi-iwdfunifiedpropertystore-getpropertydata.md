@@ -6,6 +6,7 @@ old-location: wdf\iwdfunifiedpropertystore_getpropertydata.htm
 tech.root: wdf
 ms.assetid: 0AAEB2F1-0449-4F0E-807A-1D2420CF6858
 ms.date: 02/26/2018
+keywords: ["IWDFUnifiedPropertyStore::GetPropertyData"]
 ms.keywords: GetPropertyData, GetPropertyData method, GetPropertyData method,IWDFUnifiedPropertyStore interface, IWDFUnifiedPropertyStore interface,GetPropertyData method, IWDFUnifiedPropertyStore.GetPropertyData, IWDFUnifiedPropertyStore::GetPropertyData, umdf.iwdfunifiedpropertystore_getpropertydata, wdf.iwdfunifiedpropertystore_getpropertydata, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData
 f1_keywords:
  - "wudfddi/IWDFUnifiedPropertyStore.GetPropertyData"

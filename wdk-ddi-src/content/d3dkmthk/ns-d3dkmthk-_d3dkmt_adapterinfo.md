@@ -5,6 +5,7 @@ description: Supplies configuration information about a graphics adapter.
 old-location: display\d3dkmt_adapterinfo.htm
 ms.assetid: 4b780fb7-f6d4-4248-882c-d0cc96106724
 ms.date: 11/21/2018
+keywords: ["_D3DKMT_ADAPTERINFO structure"]
 ms.keywords: D3DKMT_ADAPTERINFO, D3DKMT_ADAPTERINFO structure [Display Devices], _D3DKMT_ADAPTERINFO, d3dkmthk/D3DKMT_ADAPTERINFO, display.d3dkmt_adapterinfo
 f1_keywords:
  - "d3dkmthk/D3DKMT_ADAPTERINFO"

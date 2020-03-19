@@ -5,6 +5,7 @@ description: DxgkDdiUnmapCpuHostAperture is used to unmap a previously mapped ra
 old-location: display\dxgkddiunmapcpuhostaperture.htm
 ms.assetid: AFE6B92F-49DB-47F9-90BC-F75B5F37178D
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_UNMAPCPUHOSTAPERTURE callback function"]
 ms.keywords: DXGKDDI_UNMAPCPUHOSTAPERTURE, DXGKDDI_UNMAPCPUHOSTAPERTURE callback, DxgkDdiUnmapCpuHostAperture, DxgkDdiUnmapCpuHostAperture callback function [Display Devices], d3dkmddi/DxgkDdiUnmapCpuHostAperture, display.dxgkddiunmapcpuhostaperture
 f1_keywords:
  - "d3dkmddi/DxgkDdiUnmapCpuHostAperture"

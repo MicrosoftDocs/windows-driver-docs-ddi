@@ -6,6 +6,7 @@ old-location: ifsk\fltapplypriorityinfothread.htm
 tech.root: ifsk
 ms.assetid: 62fd46a8-ee34-4c61-8e87-7fbe1a4622be
 ms.date: 04/16/2018
+keywords: ["FltApplyPriorityInfoThread function"]
 ms.keywords: FltApiRef_a_to_d_446351ed-afa7-4548-8197-f9bf92d671e5.xml, FltApplyPriorityInfoThread, FltApplyPriorityInfoThread routine [Installable File System Drivers], fltkernel/FltApplyPriorityInfoThread, ifsk.fltapplypriorityinfothread
 f1_keywords:
  - "fltkernel/FltApplyPriorityInfoThread"

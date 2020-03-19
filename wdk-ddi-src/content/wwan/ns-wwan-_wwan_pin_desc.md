@@ -6,6 +6,7 @@ old-location: netvista\wwan_pin_desc.htm
 tech.root: netvista
 ms.assetid: a88f56eb-b527-4c7c-8f59-650dd10c671e
 ms.date: 05/02/2018
+keywords: ["_WWAN_PIN_DESC structure"]
 ms.keywords: "*PWWAN_PIN_DESC, PWWAN_PIN_DESC, PWWAN_PIN_DESC structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_DESC, WWAN_PIN_DESC structure [Network Drivers Starting with Windows Vista], WwanRef_a0c1c3f2-0fcd-465f-bab6-5fa4887159b8.xml, _WWAN_PIN_DESC, netvista.wwan_pin_desc, wwan/PWWAN_PIN_DESC, wwan/WWAN_PIN_DESC"
 f1_keywords:
  - "wwan/WWAN_PIN_DESC"

@@ -6,6 +6,7 @@ old-location: kernel\cmcallbackgetkeyobjectidex.htm
 tech.root: kernel
 ms.assetid: E55CDAF9-2711-4DC6-8BED-EDB0D78D9158
 ms.date: 04/30/2018
+keywords: ["CmCallbackGetKeyObjectIDEx function"]
 ms.keywords: CmCallbackGetKeyObjectIDEx, CmCallbackGetKeyObjectIDEx routine [Kernel-Mode Driver Architecture], kernel.cmcallbackgetkeyobjectidex, wdm/CmCallbackGetKeyObjectIDEx
 f1_keywords:
  - "wdm/CmCallbackGetKeyObjectIDEx"

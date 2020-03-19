@@ -6,6 +6,7 @@ old-location: stream\kscreatebusenumobject.htm
 tech.root: stream
 ms.assetid: bb117f9d-a288-4db6-8f28-96ab5152289c
 ms.date: 04/23/2018
+keywords: ["KsCreateBusEnumObject function"]
 ms.keywords: KsCreateBusEnumObject, KsCreateBusEnumObject function [Streaming Media Devices], ksfunc_c2f2d2fb-fea1-40af-8a0b-358b96bae705.xml, stream.kscreatebusenumobject, swenum/KsCreateBusEnumObject
 f1_keywords:
  - "swenum/KsCreateBusEnumObject"

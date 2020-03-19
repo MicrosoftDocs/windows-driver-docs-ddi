@@ -6,6 +6,7 @@ old-location: debugger\getexitcode.htm
 tech.root: debugger
 ms.assetid: faa5cc0f-a99c-42fb-ab8f-a37c31bc4dde
 ms.date: 05/03/2018
+keywords: ["IDebugClient2::GetExitCode"]
 ms.keywords: GetExitCode, GetExitCode method [Windows Debugging], GetExitCode method [Windows Debugging],IDebugClient interface, GetExitCode method [Windows Debugging],IDebugClient2 interface, GetExitCode method [Windows Debugging],IDebugClient3 interface, GetExitCode method [Windows Debugging],IDebugClient4 interface, GetExitCode method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetExitCode method, IDebugClient2 interface [Windows Debugging],GetExitCode method, IDebugClient2.GetExitCode, IDebugClient2::GetExitCode, IDebugClient3 interface [Windows Debugging],GetExitCode method, IDebugClient3::GetExitCode, IDebugClient4 interface [Windows Debugging],GetExitCode method, IDebugClient4::GetExitCode, IDebugClient5 interface [Windows Debugging],GetExitCode method, IDebugClient5::GetExitCode, IDebugClient::GetExitCode, IDebugClient_c0198b4c-b627-42c9-80eb-15db22156293.xml, dbgeng/IDebugClient2::GetExitCode, dbgeng/IDebugClient3::GetExitCode, dbgeng/IDebugClient4::GetExitCode, dbgeng/IDebugClient5::GetExitCode, dbgeng/IDebugClient::GetExitCode, debugger.getexitcode
 f1_keywords:
  - "dbgeng/IDebugClient.GetExitCode"

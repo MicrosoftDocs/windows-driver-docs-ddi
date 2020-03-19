@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: b1540828-63bb-491d-b0e0-c54089ffd85f
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["DXGKDDI_GETVIRTUALGPUPROFILE callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_GETVIRTUALGPUPROFILE"
 req.header: dispmprt.h

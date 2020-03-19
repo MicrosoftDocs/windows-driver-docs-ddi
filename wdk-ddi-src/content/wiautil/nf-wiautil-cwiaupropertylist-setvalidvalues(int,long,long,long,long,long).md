@@ -6,6 +6,7 @@ old-location: image\cwiaupropertylist_setvalidvalues_long__range_.htm
 tech.root: image
 ms.assetid: da84a381-b564-4356-bd08-dd145b3dcc0b
 ms.date: 09/07/2018
+keywords: ["CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG,LONG,LONG)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,LONG,LONG,LONG,LONG,LONG), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,LONG  ,LONG  ,LONG  ,LONG  ,LONG  ), CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG,LONG,LONG), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, SetValidValues(LONG,(CWiauPropertyList), image.cwiaupropertylist_setvalidvalues_long__range_, wiauFncs_49a3f9ad-d74b-436c-ba14-8047889431ea.xml, wiautil/CWiauPropertyList::SetValidValues
 f1_keywords:
  - "wiautil/CWiauPropertyList.SetValidValues"

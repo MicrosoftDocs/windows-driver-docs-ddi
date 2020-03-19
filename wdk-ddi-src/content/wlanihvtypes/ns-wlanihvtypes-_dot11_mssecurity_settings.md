@@ -6,6 +6,7 @@ old-location: netvista\dot11_mssecurity_settings.htm
 tech.root: netvista
 ms.assetid: b80a06f0-7774-4bf1-9101-a466999246d6
 ms.date: 02/16/2018
+keywords: ["_DOT11_MSSECURITY_SETTINGS structure"]
 ms.keywords: "*PDOT11_MSSECURITY_SETTINGS, DOT11_MSSECURITY_SETTINGS, DOT11_MSSECURITY_SETTINGS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_5a71d8b6-a359-4eb3-9e1c-59327d0ca67c.xml, PDOT11_MSSECURITY_SETTINGS, PDOT11_MSSECURITY_SETTINGS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_MSSECURITY_SETTINGS, netvista.dot11_mssecurity_settings, wlanihvtypes/DOT11_MSSECURITY_SETTINGS, wlanihvtypes/PDOT11_MSSECURITY_SETTINGS"
 f1_keywords:
  - "wlanihvtypes/DOT11_MSSECURITY_SETTINGS"

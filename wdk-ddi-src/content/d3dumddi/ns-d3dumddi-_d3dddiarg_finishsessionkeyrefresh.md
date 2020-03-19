@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_finishsessionkeyrefresh.htm
 tech.root: display
 ms.assetid: 5d262012-c4f4-4f86-a3a2-48c2fd7d5216
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_FINISHSESSIONKEYREFRESH structure"]
 ms.keywords: D3DDDIARG_FINISHSESSIONKEYREFRESH, D3DDDIARG_FINISHSESSIONKEYREFRESH structure [Display Devices], UMDisplayDriver_param_Structs_ac18e377-42c2-4c4a-9625-1b0bf29375c2.xml, _D3DDDIARG_FINISHSESSIONKEYREFRESH, d3dumddi/D3DDDIARG_FINISHSESSIONKEYREFRESH, display.d3dddiarg_finishsessionkeyrefresh
 f1_keywords:
  - "d3dumddi/D3DDDIARG_FINISHSESSIONKEYREFRESH"

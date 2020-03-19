@@ -6,6 +6,7 @@ old-location: netvista\rilc2kmrl.htm
 tech.root: netvista
 ms.assetid: e2c289de-fff7-4e21-8ef5-2ff3006a4ea5
 ms.date: 02/16/2018
+keywords: ["RILC2KMRL structure"]
 ms.keywords: "*LPRILC2KMRL, RILC2KMRL, RILC2KMRL structure [Network Drivers Starting with Windows Vista], netvista.rilc2kmrl, rilapitypes/RILC2KMRL"
 f1_keywords:
  - "ntddrilapitypes/RILC2KMRL"

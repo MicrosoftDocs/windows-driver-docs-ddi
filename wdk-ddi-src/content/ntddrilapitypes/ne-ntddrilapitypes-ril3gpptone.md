@@ -6,6 +6,7 @@ old-location: netvista\ril3gpptone.htm
 tech.root: netvista
 ms.assetid: 3dd7c317-b77f-4cc1-8513-ed305418e76f
 ms.date: 05/02/2018
+keywords: ["RIL3GPPTONE enumeration"]
 ms.keywords: RIL3GPPTONE, RIL3GPPTONE enumeration [Network Drivers Starting with Windows Vista], RIL_3GPPTONE_AUTHENTICATIONFAILURE, RIL_3GPPTONE_BUSY, RIL_3GPPTONE_CALLDROPPED, RIL_3GPPTONE_CONGESTION, RIL_3GPPTONE_MAX, RIL_3GPPTONE_NUMBERUNOBTAINABLE, RIL_3GPPTONE_RINGBACK, netvista.ril3gpptone, ntddrilapitypes/RIL3GPPTONE, ntddrilapitypes/RIL_3GPPTONE_AUTHENTICATIONFAILURE, ntddrilapitypes/RIL_3GPPTONE_BUSY, ntddrilapitypes/RIL_3GPPTONE_CALLDROPPED, ntddrilapitypes/RIL_3GPPTONE_CONGESTION, ntddrilapitypes/RIL_3GPPTONE_MAX, ntddrilapitypes/RIL_3GPPTONE_NUMBERUNOBTAINABLE, ntddrilapitypes/RIL_3GPPTONE_RINGBACK
 f1_keywords:
  - "ntddrilapitypes/RIL3GPPTONE"

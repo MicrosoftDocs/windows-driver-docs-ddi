@@ -4,6 +4,7 @@ title: PFND3DDDI_QUERYADAPTERINFOCB2 (d3dumddi.h)
 description: Implemented by the client driver to retrieve graphics adapter information.
 ms.assetid: f60b6167-b294-4f6e-9338-4f937a838712
 ms.date: 10/19/2018
+keywords: ["PFND3DDDI_QUERYADAPTERINFOCB2 callback function"]
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: 

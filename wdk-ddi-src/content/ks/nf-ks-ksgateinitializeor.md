@@ -6,6 +6,7 @@ old-location: stream\ksgateinitializeor.htm
 tech.root: stream
 ms.assetid: a02a3b53-03fa-49d4-835c-88623c2f4d8b
 ms.date: 04/23/2018
+keywords: ["KsGateInitializeOr function"]
 ms.keywords: KsGateInitializeOr, KsGateInitializeOr function [Streaming Media Devices], avfunc_6741b878-dfae-4d40-9040-ab78d32243e2.xml, ks/KsGateInitializeOr, stream.ksgateinitializeor
 f1_keywords:
  - "ks/KsGateInitializeOr"

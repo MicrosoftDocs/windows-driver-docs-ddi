@@ -4,6 +4,7 @@ title: IOMMU_FLUSH_DOMAIN_VA_LIST (wdm.h)
 description: Flushes the TLB for all entries that match the specified domain's ASID and one of the addresses in the provided list. 
 ms.assetid: 3ae0eb66-ed0d-4232-9294-4037ae48ce3e
 ms.date: 10/19/2018
+keywords: ["IOMMU_FLUSH_DOMAIN_VA_LIST callback function"]
 f1_keywords:
  - "wdm/IOMMU_FLUSH_DOMAIN_VA_LIST"
 req.header: wdm.h

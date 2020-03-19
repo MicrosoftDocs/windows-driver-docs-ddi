@@ -6,6 +6,7 @@ old-location: kernel\rtlprefixunicodestring.htm
 tech.root: kernel
 ms.assetid: 9b26f4ed-6621-4dc5-8b60-9e4d3bf8d898
 ms.date: 04/30/2018
+keywords: ["RtlPrefixUnicodeString function"]
 ms.keywords: RtlPrefixUnicodeString, RtlPrefixUnicodeString routine [Kernel-Mode Driver Architecture], k109_b6130d6d-1a25-460b-a962-3b9353626768.xml, kernel.rtlprefixunicodestring, ntddk/RtlPrefixUnicodeString
 f1_keywords:
  - "ntddk/RtlPrefixUnicodeString"

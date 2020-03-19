@@ -6,6 +6,7 @@ old-location: ifsk\mmisrecursiveiofault.htm
 tech.root: ifsk
 ms.assetid: c445c016-2781-4a82-ac2d-4c6eaff3b4c8
 ms.date: 04/16/2018
+keywords: ["MmIsRecursiveIoFault function"]
 ms.keywords: MmIsRecursiveIoFault, MmIsRecursiveIoFault routine [Installable File System Drivers], ifsk.mmisrecursiveiofault, mmref_2f97ee70-0e70-4607-841e-e9d5b3ae74c8.xml, ntifs/MmIsRecursiveIoFault
 f1_keywords:
  - "ntifs/MmIsRecursiveIoFault"

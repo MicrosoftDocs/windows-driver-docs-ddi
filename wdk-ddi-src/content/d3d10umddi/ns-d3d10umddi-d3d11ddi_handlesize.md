@@ -5,6 +5,7 @@ description: The D3D11DDI_HANDLESIZE structure describes a handle.
 old-location: display\d3d11ddi_handlesize.htm
 ms.assetid: 9b785bee-289f-4f91-8183-c1dc2fa1fa6d
 ms.date: 05/10/2018
+keywords: ["D3D11DDI_HANDLESIZE structure"]
 ms.keywords: D3D11DDI_HANDLESIZE, D3D11DDI_HANDLESIZE structure [Display Devices], UMDisplayDriver_Dx11param_Structs_4eedfbd5-b87d-42bb-9ec9-2efc75ad3464.xml, d3d10umddi/D3D11DDI_HANDLESIZE, display.d3d11ddi_handlesize
 f1_keywords:
  - "d3d10umddi/D3D11DDI_HANDLESIZE"

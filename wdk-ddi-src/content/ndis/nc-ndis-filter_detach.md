@@ -6,6 +6,7 @@ old-location: netvista\filterdetach.htm
 tech.root: netvista
 ms.assetid: 49dfbbb3-74e7-4904-8370-36d589276653
 ms.date: 05/02/2018
+keywords: ["FILTER_DETACH callback function"]
 ms.keywords: FILTER_DETACH, FILTER_DETACH callback, FilterDetach, FilterDetach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_dec15a06-93c1-4da8-9dc6-b66be9c6f8eb.xml, ndis/FilterDetach, netvista.filterdetach
 f1_keywords:
  - "ndis/FilterDetach"

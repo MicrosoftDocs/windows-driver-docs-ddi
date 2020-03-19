@@ -6,6 +6,7 @@ old-location: buses\ucmconnectorpowerdirectionchanged.htm
 tech.root: usbref
 ms.assetid: D1DB20DF-C0FD-4215-8227-CBBB18AF8BE3
 ms.date: 05/07/2018
+keywords: ["UcmConnectorPowerDirectionChanged function"]
 ms.keywords: UcmConnectorPowerDirectionChanged, UcmConnectorPowerDirectionChanged method [Buses], buses.ucmconnectorpowerdirectionchanged, ucmmanager/UcmConnectorPowerDirectionChanged
 f1_keywords:
  - "ucmmanager/UcmConnectorPowerDirectionChanged"

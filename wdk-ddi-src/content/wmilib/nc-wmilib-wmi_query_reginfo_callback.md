@@ -6,6 +6,7 @@ old-location: kernel\dpwmiqueryreginfo.htm
 tech.root: kernel
 ms.assetid: 6e450788-445f-4d0a-b99b-913100a54259
 ms.date: 04/30/2018
+keywords: ["WMI_QUERY_REGINFO_CALLBACK callback function"]
 ms.keywords: DpWmiQueryReginfo, DpWmiQueryReginfo callback function [Kernel-Mode Driver Architecture], WMI_QUERY_REGINFO_CALLBACK, WMI_QUERY_REGINFO_CALLBACK callback, k903_61d9ad7d-1bdf-49d5-8a12-5bf0d6912ccc.xml, kernel.dpwmiqueryreginfo, wmilib/DpWmiQueryReginfo
 f1_keywords:
  - "wmilib/DpWmiQueryReginfo"

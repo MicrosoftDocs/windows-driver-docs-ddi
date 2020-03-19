@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: a8980669-310f-48fa-81b7-f998aae11c98
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
+keywords: ["PO_FX_DIRECTED_POWER_UP_CALLBACK callback function"]
 f1_keywords:
  - "wdm/PO_FX_DIRECTED_POWER_UP_CALLBACK"
 req.header: wdm.h

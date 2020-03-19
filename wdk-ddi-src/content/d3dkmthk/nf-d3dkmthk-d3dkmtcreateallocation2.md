@@ -5,6 +5,7 @@ description: Reserved for system use. Do not use in your driver.
 old-location: display\d3dkmtcreateallocation2.htm
 ms.assetid: 416DE730-44A6-4BA3-BFC2-C11A179AD422
 ms.date: 05/10/2018
+keywords: ["D3DKMTCreateAllocation2 function"]
 ms.keywords: D3DKMTCreateAllocation2, D3DKMTCreateAllocation2 callback function [Display Devices], PFND3DKMT_CREATEALLOCATION2, PFND3DKMT_CREATEALLOCATION2 callback, d3dkmthk/D3DKMTCreateAllocation2, display.d3dkmtcreateallocation2
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateAllocation2"

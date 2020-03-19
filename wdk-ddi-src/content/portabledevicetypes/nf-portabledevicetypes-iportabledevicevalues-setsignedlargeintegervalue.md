@@ -6,6 +6,7 @@ old-location: wpddk\iportabledevicevalues_setsignedlargeintegervalue.htm
 tech.root: wpd_dk
 ms.assetid: 9a27e7c3-73fe-4875-83e2-94fd4929ce9c
 ms.date: 02/15/2018
+keywords: ["IPortableDeviceValues::SetSignedLargeIntegerValue"]
 ms.keywords: IPortableDeviceValues interface,SetSignedLargeIntegerValue method, IPortableDeviceValues.SetSignedLargeIntegerValue, IPortableDeviceValues::SetSignedLargeIntegerValue, IPortableDeviceValuesSetSignedLargeIntegerValue, SetSignedLargeIntegerValue, SetSignedLargeIntegerValue method, SetSignedLargeIntegerValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetSignedLargeIntegerValue, wpddk.iportabledevicevalues_setsignedlargeintegervalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetSignedLargeIntegerValue"

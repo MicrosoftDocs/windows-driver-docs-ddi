@@ -6,6 +6,7 @@ old-location: ifsk\ioverifyvolume.htm
 tech.root: ifsk
 ms.assetid: 46e29607-ee09-4db4-a501-68a3bc678e16
 ms.date: 04/16/2018
+keywords: ["IoVerifyVolume function"]
 ms.keywords: IoVerifyVolume, IoVerifyVolume routine [Installable File System Drivers], ifsk.ioverifyvolume, ioref_b55e7a87-a18d-4ccd-ab32-061676c9dde4.xml, ntifs/IoVerifyVolume
 f1_keywords:
  - "ntifs/IoVerifyVolume"

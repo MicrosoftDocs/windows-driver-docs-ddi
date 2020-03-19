@@ -6,6 +6,7 @@ old-location: wdf\wdfdevicecreatedeviceinterface.htm
 tech.root: wdf
 ms.assetid: cdfe1932-ee3d-41ea-8d7b-85c17c0f1722
 ms.date: 02/26/2018
+keywords: ["WdfDeviceCreateDeviceInterface function"]
 ms.keywords: DFDeviceObjectGeneralRef_467c4866-4ba7-4450-9aec-e63c3172d604.xml, WdfDeviceCreateDeviceInterface, WdfDeviceCreateDeviceInterface method, kmdf.wdfdevicecreatedeviceinterface, wdf.wdfdevicecreatedeviceinterface, wdfdevice/WdfDeviceCreateDeviceInterface
 f1_keywords:
  - "wdfdevice/WdfDeviceCreateDeviceInterface"

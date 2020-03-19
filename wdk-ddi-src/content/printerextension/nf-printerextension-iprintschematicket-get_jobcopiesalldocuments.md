@@ -6,6 +6,7 @@ old-location: print\iprintschematicket_jobcopiesalldocuments.htm
 tech.root: print
 ms.assetid: 592753D2-9121-4935-B966-390B3E7778C7
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaTicket::get_JobCopiesAllDocuments"]
 ms.keywords: IPrintSchemaTicket interface [Print Devices],JobCopiesAllDocuments property, IPrintSchemaTicket.JobCopiesAllDocuments, IPrintSchemaTicket.get_JobCopiesAllDocuments, IPrintSchemaTicket::JobCopiesAllDocuments, IPrintSchemaTicket::get_JobCopiesAllDocuments, JobCopiesAllDocuments property [Print Devices], JobCopiesAllDocuments property [Print Devices],IPrintSchemaTicket interface, get_JobCopiesAllDocuments, print.iprintschematicket_jobcopiesalldocuments, printerextension/IPrintSchemaTicket::JobCopiesAllDocuments, printerextension/IPrintSchemaTicket::get_JobCopiesAllDocuments
 f1_keywords:
  - "printerextension/IPrintSchemaTicket.JobCopiesAllDocuments"

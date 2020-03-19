@@ -6,6 +6,7 @@ old-location: wdf\wdfregistryassignmultistring.htm
 tech.root: wdf
 ms.assetid: 2b54949b-807e-47fe-a304-872500b41212
 ms.date: 02/26/2018
+keywords: ["WdfRegistryAssignMultiString function"]
 ms.keywords: DFRegKeyObjectRef_b96025c1-d241-4e63-9f1f-f394311d0706.xml, WdfRegistryAssignMultiString, WdfRegistryAssignMultiString method, kmdf.wdfregistryassignmultistring, wdf.wdfregistryassignmultistring, wdfregistry/WdfRegistryAssignMultiString
 f1_keywords:
  - "wdfregistry/WdfRegistryAssignMultiString"

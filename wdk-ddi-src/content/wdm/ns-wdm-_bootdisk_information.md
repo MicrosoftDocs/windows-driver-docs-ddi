@@ -6,6 +6,7 @@ old-location: kernel\bootdisk_information.htm
 tech.root: kernel
 ms.assetid: dd2a525d-fb9d-4fea-b9d7-64b1f498550c
 ms.date: 04/30/2018
+keywords: ["_BOOTDISK_INFORMATION structure"]
 ms.keywords: "*PBOOTDISK_INFORMATION, BOOTDISK_INFORMATION, BOOTDISK_INFORMATION structure [Kernel-Mode Driver Architecture], PBOOTDISK_INFORMATION, PBOOTDISK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _BOOTDISK_INFORMATION, kernel.bootdisk_information, kstruct_a_61cd1024-0bb4-4601-a458-4bf52a2339d5.xml, wdm/BOOTDISK_INFORMATION, wdm/PBOOTDISK_INFORMATION"
 f1_keywords:
  - "wdm/BOOTDISK_INFORMATION"

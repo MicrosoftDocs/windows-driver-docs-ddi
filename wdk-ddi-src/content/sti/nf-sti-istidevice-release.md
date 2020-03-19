@@ -6,6 +6,7 @@ old-location: image\istidevice_release.htm
 tech.root: image
 ms.assetid: cff05099-cf27-4cc6-a820-1d8a5c3ef88e
 ms.date: 05/03/2018
+keywords: ["IStiDevice::Release"]
 ms.keywords: IStiDevice interface [Imaging Devices],Release method, IStiDevice.Release, IStiDevice::Release, Release, Release method [Imaging Devices], Release method [Imaging Devices],IStiDevice interface, image.istidevice_release, sti/IStiDevice::Release, stifnc_70352bce-ba09-45c1-97a8-add180942d05.xml
 f1_keywords:
  - "sti/IStiDevice.Release"

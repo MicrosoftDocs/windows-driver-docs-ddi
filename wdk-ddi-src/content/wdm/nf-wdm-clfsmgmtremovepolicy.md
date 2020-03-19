@@ -6,6 +6,7 @@ old-location: kernel\clfsmgmtremovepolicy.htm
 tech.root: kernel
 ms.assetid: 6f0ae6fc-4f2f-4a1a-ac2f-93689f6b7d50
 ms.date: 04/30/2018
+keywords: ["ClfsMgmtRemovePolicy function"]
 ms.keywords: ClfsMgmtRemovePolicy, ClfsMgmtRemovePolicy routine [Kernel-Mode Driver Architecture], Clfs_management_70e3d576-6891-4379-a25b-d880222db235.xml, kernel.clfsmgmtremovepolicy, wdm/ClfsMgmtRemovePolicy
 f1_keywords:
  - "wdm/ClfsMgmtRemovePolicy"

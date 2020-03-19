@@ -4,6 +4,7 @@ title: _ACPI_PLD_SHAPE enumeration (acpitabl.h)
 description: Describes shape bits 74:77.
 ms.assetid: d53643a3-b52d-4e8d-b238-d09e5f727148
 ms.date: 10/02/2018
+keywords: ["_ACPI_PLD_SHAPE enumeration"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_SHAPE"
 ms.keywords: _ACPI_PLD_SHAPE, ACPI_PLD_SHAPE, *PACPI_PLD_SHAPE, AcpiPldShape

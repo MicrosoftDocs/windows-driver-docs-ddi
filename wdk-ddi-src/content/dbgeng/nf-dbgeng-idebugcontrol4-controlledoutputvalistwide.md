@@ -6,6 +6,7 @@ old-location: debugger\controlledoutputvalistwide.htm
 tech.root: debugger
 ms.assetid: 8576a20b-bdb8-47d9-a21e-689a315c6886
 ms.date: 05/03/2018
+keywords: ["IDebugControl4::ControlledOutputVaListWide"]
 ms.keywords: ControlledOutputVaListWide, ControlledOutputVaListWide method [Windows Debugging], ControlledOutputVaListWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ControlledOutputVaListWide method, IDebugControl4.ControlledOutputVaListWide, IDebugControl4::ControlledOutputVaListWide, dbgeng/IDebugControl4::ControlledOutputVaListWide, debugger.controlledoutputvalistwide
 f1_keywords:
  - "dbgeng/IDebugControl4.ControlledOutputVaListWide"

@@ -6,6 +6,7 @@ old-location: ifsk\rtladdaccessallowedaceex.htm
 tech.root: ifsk
 ms.assetid: aeef74d8-d4a5-4ce4-b7f8-e2a2d263a678
 ms.date: 04/16/2018
+keywords: ["RtlAddAccessAllowedAceEx function"]
 ms.keywords: RtlAddAccessAllowedAceEx, RtlAddAccessAllowedAceEx routine [Installable File System Drivers], ifsk.rtladdaccessallowedaceex, ntifs/RtlAddAccessAllowedAceEx, rtlref_c28640a5-62e2-462a-9c30-b59faedc8386.xml
 f1_keywords:
  - "ntifs/RtlAddAccessAllowedAceEx"

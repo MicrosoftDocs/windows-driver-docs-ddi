@@ -6,6 +6,7 @@ old-location: kernel\mmisdriververifyingbyaddress.htm
 tech.root: kernel
 ms.assetid: ccc20b5b-0f16-422d-8900-03b57f08b1bc
 ms.date: 04/30/2018
+keywords: ["MmIsDriverVerifyingByAddress function"]
 ms.keywords: MmIsDriverVerifyingByAddress, MmIsDriverVerifyingByAddress routine [Kernel-Mode Driver Architecture], k106_37d22f13-de6a-4423-b148-9a7481570aaf.xml, kernel.mmisdriververifyingbyaddress, wdm/MmIsDriverVerifyingByAddress
 f1_keywords:
  - "wdm/MmIsDriverVerifyingByAddress"

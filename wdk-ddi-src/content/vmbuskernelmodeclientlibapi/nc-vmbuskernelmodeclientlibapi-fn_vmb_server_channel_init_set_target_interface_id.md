@@ -4,6 +4,7 @@ title: FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_INTERFACE_ID (vmbuskernelmodeclient
 description: The VmbServerChannelInitSetTargetInterfaceId function sets the target interface type GUID and instance GUID of the channel offer.
 ms.assetid: 895117ce-880e-4f45-95bc-a283087490d1
 ms.date: 09/13/2018
+keywords: ["FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_INTERFACE_ID callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_INTERFACE_ID"
 req.header: vmbuskernelmodeclientlibapi.h

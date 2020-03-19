@@ -4,6 +4,7 @@ title: _DXGK_ADAPTER_PERFDATA (d3dkmdt.h)
 description: Contains the display adapter performance data.
 ms.assetid: 2c419e37-47ba-4b85-9994-2b3a5769c903
 ms.date: 10/19/2018
+keywords: ["_DXGK_ADAPTER_PERFDATA structure"]
 f1_keywords:
  - "d3dkmdt/_DXGK_ADAPTER_PERFDATA"
 ms.keywords: _DXGK_ADAPTER_PERFDATA, DXGK_ADAPTER_PERFDATA,

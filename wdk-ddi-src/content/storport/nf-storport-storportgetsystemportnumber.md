@@ -6,6 +6,7 @@ old-location: storage\storportgetsystemportnumber.htm
 tech.root: storage
 ms.assetid: D1205C85-6F23-4D08-A146-2FA8C00FD6E9
 ms.date: 03/29/2018
+keywords: ["StorPortGetSystemPortNumber function"]
 ms.keywords: StorPortGetSystemPortNumber, StorPortGetSystemPortNumber routine [Storage Devices], storage.storportgetsystemportnumber, storport/StorPortGetSystemPortNumber
 f1_keywords:
  - "storport/StorPortGetSystemPortNumber"

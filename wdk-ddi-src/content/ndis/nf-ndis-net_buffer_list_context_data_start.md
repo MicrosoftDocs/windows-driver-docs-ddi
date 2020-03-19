@@ -5,6 +5,7 @@ description: NET_BUFFER_LIST_CONTEXT_DATA_START is a macro that NDIS drivers use
 tech.root: netvista
 ms.assetid: 138860cc-9b85-4772-9a99-cb0de66e4bdb
 ms.date: 04/12/2018
+keywords: ["NET_BUFFER_LIST_CONTEXT_DATA_START macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_CONTEXT_DATA_START"
 ms.keywords: NET_BUFFER_LIST_CONTEXT_DATA_START

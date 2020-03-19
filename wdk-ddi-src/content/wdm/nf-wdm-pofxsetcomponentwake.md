@@ -6,6 +6,7 @@ old-location: kernel\pofxsetcomponentwake.htm
 tech.root: kernel
 ms.assetid: BE2E35B0-1C34-4740-ABED-4E96F8908174
 ms.date: 04/30/2018
+keywords: ["PoFxSetComponentWake function"]
 ms.keywords: PoFxSetComponentWake, PoFxSetComponentWake routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentwake, wdm/PoFxSetComponentWake
 f1_keywords:
  - "wdm/PoFxSetComponentWake"

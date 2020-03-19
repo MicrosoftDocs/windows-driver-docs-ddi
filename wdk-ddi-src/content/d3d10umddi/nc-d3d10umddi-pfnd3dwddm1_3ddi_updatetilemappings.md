@@ -5,6 +5,7 @@ description: Updates mappings of tile locations in tiled resources to memory loc
 old-location: display\updatetilemappings.htm
 ms.assetid: 1C8FC920-145F-4AE9-B049-F6BDAE29D1F1
 ms.date: 05/10/2018
+keywords: ["PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS callback function"]
 ms.keywords: PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS, PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS callback, UpdateTileMappings, UpdateTileMappings callback function [Display Devices], d3d10umddi/UpdateTileMappings, display.updatetilemappings
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

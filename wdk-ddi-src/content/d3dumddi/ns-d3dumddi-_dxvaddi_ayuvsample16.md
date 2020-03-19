@@ -6,6 +6,7 @@ old-location: display\dxvaddi_ayuvsample16.htm
 tech.root: display
 ms.assetid: 9cd2e943-dc20-4c5c-ab5c-090463e0a88c
 ms.date: 05/10/2018
+keywords: ["_DXVADDI_AYUVSAMPLE16 structure"]
 ms.keywords: DXVA2_Structs_9e7fc230-f50c-4a07-b1cb-358694dc207d.xml, DXVADDI_AYUVSAMPLE16, DXVADDI_AYUVSAMPLE16 structure [Display Devices], _DXVADDI_AYUVSAMPLE16, d3dumddi/DXVADDI_AYUVSAMPLE16, display.dxvaddi_ayuvsample16
 f1_keywords:
  - "d3dumddi/DXVADDI_AYUVSAMPLE16"

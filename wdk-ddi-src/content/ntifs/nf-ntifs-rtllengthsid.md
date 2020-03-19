@@ -6,6 +6,7 @@ old-location: ifsk\rtllengthsid.htm
 tech.root: ifsk
 ms.assetid: 5d96061d-f1a2-4e45-b76e-5ada61d8accd
 ms.date: 04/16/2018
+keywords: ["RtlLengthSid function"]
 ms.keywords: RtlLengthSid, RtlLengthSid routine [Installable File System Drivers], ifsk.rtllengthsid, ntifs/RtlLengthSid, rtlref_8bbf6a04-413c-4f50-9f51-1ddd8bce58ff.xml
 f1_keywords:
  - "ntifs/RtlLengthSid"

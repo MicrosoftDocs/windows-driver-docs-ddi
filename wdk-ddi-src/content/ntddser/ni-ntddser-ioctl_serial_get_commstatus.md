@@ -6,6 +6,7 @@ old-location: serports\ioctl_serial_get_commstatus.htm
 tech.root: serports
 ms.assetid: 70d0efe3-5ba1-4552-8c58-83c3f14e2264
 ms.date: 04/23/2018
+keywords: ["IOCTL_SERIAL_GET_COMMSTATUS IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_COMMSTATUS, IOCTL_SERIAL_GET_COMMSTATUS control, IOCTL_SERIAL_GET_COMMSTATUS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_COMMSTATUS, serports.ioctl_serial_get_commstatus, serref_4c26c2fc-2285-4b46-8791-0fb613e1c05a.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_GET_COMMSTATUS"

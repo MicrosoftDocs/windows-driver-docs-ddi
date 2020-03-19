@@ -6,6 +6,7 @@ old-location: display\pfnreservegpuvirtualaddresscb.htm
 tech.root: display
 ms.assetid: CEDE03E1-4B0D-4839-B7D6-0826CC103C5E
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB callback function"]
 ms.keywords: PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB, PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB callback, d3dumddi/pfnReserveGpuVirtualAddressCb, display.pfnreservegpuvirtualaddresscb, pfnReserveGpuVirtualAddressCb, pfnReserveGpuVirtualAddressCb callback function [Display Devices]
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

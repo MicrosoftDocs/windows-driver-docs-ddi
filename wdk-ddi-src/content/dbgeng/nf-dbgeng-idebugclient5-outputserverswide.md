@@ -6,6 +6,7 @@ old-location: debugger\outputserverswide.htm
 tech.root: debugger
 ms.assetid: ce4b52af-17c6-41ed-95cb-09418137f049
 ms.date: 05/03/2018
+keywords: ["IDebugClient5::OutputServersWide"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],OutputServersWide method, IDebugClient5.OutputServersWide, IDebugClient5::OutputServersWide, OutputServersWide, OutputServersWide method [Windows Debugging], OutputServersWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::OutputServersWide, debugger.outputserverswide
 f1_keywords:
  - "dbgeng/IDebugClient5.OutputServersWide"

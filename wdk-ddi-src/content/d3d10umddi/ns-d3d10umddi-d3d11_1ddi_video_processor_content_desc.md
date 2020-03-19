@@ -5,6 +5,7 @@ description: Describes a video stream for a video processor.
 old-location: display\d3d11_1ddi_video_processor_content_desc.htm
 ms.assetid: f624ffc4-3313-46a3-9231-15a54c3f2791
 ms.date: 05/10/2018
+keywords: ["D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC structure"]
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC, D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC, display.d3d11_1ddi_video_processor_content_desc
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_CONTENT_DESC"

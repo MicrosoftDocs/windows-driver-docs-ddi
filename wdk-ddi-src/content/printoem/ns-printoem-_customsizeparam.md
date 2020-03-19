@@ -6,6 +6,7 @@ old-location: print\customsizeparam.htm
 tech.root: print
 ms.assetid: 7ec0c38a-8614-417b-9ec3-678c7d80841f
 ms.date: 04/20/2018
+keywords: ["_CUSTOMSIZEPARAM structure"]
 ms.keywords: "*PCUSTOMSIZEPARAM, CUSTOMSIZEPARAM, CUSTOMSIZEPARAM structure [Print Devices], PCUSTOMSIZEPARAM, PCUSTOMSIZEPARAM structure pointer [Print Devices], _CUSTOMSIZEPARAM, print.customsizeparam, print_unidrv-pscript_ui_ca016241-b74a-43d1-9b45-4deece484d10.xml, printoem/CUSTOMSIZEPARAM, printoem/PCUSTOMSIZEPARAM"
 f1_keywords:
  - "printoem/CUSTOMSIZEPARAM"

@@ -5,6 +5,7 @@ description: The SetBufferSize method sets the DMA channel's current buffer size
 tech.root: audio
 ms.assetid: 5adce14a-0791-49a2-9afa-8d7421a39d05
 ms.date: 10/31/2018
+keywords: ["IDmaChannel::SetBufferSize"]
 f1_keywords:
  - "portcls/IDmaChannel.SetBufferSize"
 ms.keywords: IDmaChannel::SetBufferSize, SetBufferSize, IDmaChannel.SetBufferSize, IDmaChannel::SetBufferSize, IDmaChannel.SetBufferSize

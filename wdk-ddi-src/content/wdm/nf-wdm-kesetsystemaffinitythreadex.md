@@ -6,6 +6,7 @@ old-location: kernel\kesetsystemaffinitythreadex.htm
 tech.root: kernel
 ms.assetid: db7980c1-3da6-408e-a3a4-509bc9c0ef2e
 ms.date: 04/30/2018
+keywords: ["KeSetSystemAffinityThreadEx function"]
 ms.keywords: KeSetSystemAffinityThreadEx, KeSetSystemAffinityThreadEx routine [Kernel-Mode Driver Architecture], k105_7718d4aa-a4f5-44ff-9663-c5f91810644f.xml, kernel.kesetsystemaffinitythreadex, wdm/KeSetSystemAffinityThreadEx
 f1_keywords:
  - "wdm/KeSetSystemAffinityThreadEx"

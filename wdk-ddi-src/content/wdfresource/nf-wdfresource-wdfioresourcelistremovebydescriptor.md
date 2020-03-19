@@ -6,6 +6,7 @@ old-location: wdf\wdfioresourcelistremovebydescriptor.htm
 tech.root: wdf
 ms.assetid: c4968449-eba0-4f7a-98e6-6955d3333495
 ms.date: 02/26/2018
+keywords: ["WdfIoResourceListRemoveByDescriptor function"]
 ms.keywords: DFResourceObjectRef_4bd88d52-ea6d-43c1-9477-8338e6bf1cdb.xml, WdfIoResourceListRemoveByDescriptor, WdfIoResourceListRemoveByDescriptor method, kmdf.wdfioresourcelistremovebydescriptor, wdf.wdfioresourcelistremovebydescriptor, wdfresource/WdfIoResourceListRemoveByDescriptor
 f1_keywords:
  - "wdfresource/WdfIoResourceListRemoveByDescriptor"

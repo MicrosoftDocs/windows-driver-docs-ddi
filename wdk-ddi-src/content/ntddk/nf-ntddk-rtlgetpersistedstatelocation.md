@@ -4,6 +4,7 @@ title: RtlGetPersistedStateLocation function (ntddk.h)
 description: Retrieves the redirected location for the specified SourceID from the redirection map.
 ms.assetid: 028aab59-4047-484e-a06b-5ef03b5d0cdb
 ms.date: 10/19/2018
+keywords: ["RtlGetPersistedStateLocation function"]
 f1_keywords:
  - "ntddk/RtlGetPersistedStateLocation"
 ms.keywords: RtlGetPersistedStateLocation

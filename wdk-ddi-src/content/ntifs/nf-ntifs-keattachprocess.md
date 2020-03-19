@@ -6,6 +6,7 @@ old-location: ifsk\keattachprocess.htm
 tech.root: ifsk
 ms.assetid: 1261e65b-c862-4c99-89ed-c222b017272a
 ms.date: 04/16/2018
+keywords: ["KeAttachProcess function"]
 ms.keywords: KeAttachProcess, KeAttachProcess function [Installable File System Drivers], ifsk.keattachprocess, keref_ee648ca5-3597-4caf-9a8c-5e6cc4543964.xml, ntifs/KeAttachProcess
 f1_keywords:
  - "ntifs/KeAttachProcess"

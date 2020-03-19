@@ -6,6 +6,7 @@ old-location: pos\barcodesymbologyattributesdata.htm
 tech.root: pos
 ms.assetid: 0682B3AA-13F5-4686-AD78-D45DA85398B7
 ms.date: 02/23/2018
+keywords: ["_BarcodeSymbologyAttributesData structure"]
 ms.keywords: BarcodeSymbologyAttributesData, BarcodeSymbologyAttributesData structure, _BarcodeSymbologyAttributesData, pointofservicecommontypes/BarcodeSymbologyAttributesData, pos.barcodesymbologyattributesdata
 f1_keywords:
  - "pointofservicecommontypes/BarcodeSymbologyAttributesData"

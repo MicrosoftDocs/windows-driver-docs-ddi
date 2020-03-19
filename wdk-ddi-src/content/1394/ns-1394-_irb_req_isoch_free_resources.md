@@ -6,6 +6,7 @@ old-location: ieee\irb_req_isoch_free_resources.htm
 tech.root: IEEE
 ms.assetid: 28699952-FC15-46A2-96EC-F5F8BD2391D7
 ms.date: 02/15/2018
+keywords: ["_IRB_REQ_ISOCH_FREE_RESOURCES structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_FREE_RESOURCES, IEEE.irb_req_isoch_free_resources, IRB_REQ_ISOCH_FREE_RESOURCES, IRB_REQ_ISOCH_FREE_RESOURCES structure [Buses], _IRB_REQ_ISOCH_FREE_RESOURCES
 f1_keywords:
  - "1394/IRB_REQ_ISOCH_FREE_RESOURCES"

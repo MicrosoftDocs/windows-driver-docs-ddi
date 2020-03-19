@@ -5,6 +5,7 @@ description: The DXGK_POINTERFLAGS structure identifies mouse pointer capabiliti
 old-location: display\dxgk_pointerflags.htm
 ms.assetid: 0d49a089-700e-42c0-a1f3-7b181b8aef96
 ms.date: 05/10/2018
+keywords: ["_DXGK_POINTERFLAGS structure"]
 ms.keywords: DXGK_POINTERFLAGS, DXGK_POINTERFLAGS structure [Display Devices], DmStructs_e2e2d800-cf64-44f9-95a2-a5eca8b8c303.xml, _DXGK_POINTERFLAGS, d3dkmddi/DXGK_POINTERFLAGS, display.dxgk_pointerflags
 f1_keywords:
  - "d3dkmddi/DXGK_POINTERFLAGS"

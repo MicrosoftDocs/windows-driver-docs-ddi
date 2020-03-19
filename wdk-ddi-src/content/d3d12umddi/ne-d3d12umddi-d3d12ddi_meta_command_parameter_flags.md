@@ -4,6 +4,7 @@ title: D3D12DDI_META_COMMAND_PARAMETER_FLAGS (d3d12umddi.h)
 description: The available meta-command parameter flags.
 ms.assetid: ea52d577-cd40-48f1-a630-4fa1070551d5
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_META_COMMAND_PARAMETER_FLAGS enumeration"]
 ms.keywords: D3D12DDI_META_COMMAND_PARAMETER_FLAGS, D3D12DDI_META_COMMAND_PARAMETER_FLAGS,
 req.header: d3d12umddi.h
 req.include-header: 

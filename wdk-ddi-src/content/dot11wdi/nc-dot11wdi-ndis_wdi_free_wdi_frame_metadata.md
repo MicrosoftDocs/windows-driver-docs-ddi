@@ -6,6 +6,7 @@ old-location: netvista\ndiswdifreewdiframemetadata.htm
 tech.root: netvista
 ms.assetid: 828C181F-918A-4674-B6CE-FCB9750948E0
 ms.date: 05/02/2018
+keywords: ["NDIS_WDI_FREE_WDI_FRAME_METADATA callback function"]
 ms.keywords: NDIS_WDI_FREE_WDI_FRAME_METADATA, NDIS_WDI_FREE_WDI_FRAME_METADATA callback, NdisWdiFreeWiFiFrameMetaData, NdisWdiFreeWiFiFrameMetaData callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiFreeWiFiFrameMetaData, netvista.ndiswdifreewdiframemetadata
 f1_keywords:
  - "dot11wdi/NdisWdiFreeWiFiFrameMetaData"

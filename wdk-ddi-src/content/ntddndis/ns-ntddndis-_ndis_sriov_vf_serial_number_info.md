@@ -6,6 +6,7 @@ old-location: netvista\ndis_sriov_vf_serial_number_info.htm
 tech.root: netvista
 ms.assetid: ff20b137-4b3c-4e7b-b464-81e15b536081
 ms.date: 05/02/2018
+keywords: ["_NDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure"]
 ms.keywords: "*PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, NDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, netvista.ndis_sriov_vf_serial_number_info, ntddndis/NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, ntddndis/PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO"
 f1_keywords:
  - "ntddndis/NDIS_SRIOV_VF_SERIAL_NUMBER_INFO"

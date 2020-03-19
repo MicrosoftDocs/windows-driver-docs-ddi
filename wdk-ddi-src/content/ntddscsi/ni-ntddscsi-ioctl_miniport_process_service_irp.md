@@ -6,6 +6,7 @@ old-location: storage\ioctl_miniport_process_service_irp.htm
 tech.root: storage
 ms.assetid: 5d9f695c-9a9f-4af9-8bf6-2096f3278852
 ms.date: 03/29/2018
+keywords: ["IOCTL_MINIPORT_PROCESS_SERVICE_IRP IOCTL"]
 ms.keywords: IOCTL_MINIPORT_PROCESS_SERVICE_IRP, IOCTL_MINIPORT_PROCESS_SERVICE_IRP control, IOCTL_MINIPORT_PROCESS_SERVICE_IRP control code [Storage Devices], k307_8997b602-e4ce-4b15-be19-77ba863de295.xml, ntddscsi/IOCTL_MINIPORT_PROCESS_SERVICE_IRP, storage.ioctl_miniport_process_service_irp
 f1_keywords:
  - "ntddscsi/IOCTL_MINIPORT_PROCESS_SERVICE_IRP"

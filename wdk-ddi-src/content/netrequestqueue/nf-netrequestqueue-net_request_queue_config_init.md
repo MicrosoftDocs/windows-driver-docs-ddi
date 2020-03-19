@@ -5,6 +5,7 @@ description: Initializes a caller-allocated NET_REQUEST_QUEUE_CONFIG structure.
 tech.root: netvista
 ms.assetid: 4eaf1360-d120-4585-8792-8a2c632e744f
 ms.date: 02/09/2018
+keywords: ["NET_REQUEST_QUEUE_CONFIG_INIT function"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_CONFIG_INIT"
 ms.keywords: NET_REQUEST_QUEUE_CONFIG_INIT

@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlcancellablewaitformultipleobjects.htm
 tech.root: ifsk
 ms.assetid: 9fb5805c-bb12-41ba-8c72-526b4193b6b5
 ms.date: 04/16/2018
+keywords: ["FsRtlCancellableWaitForMultipleObjects function"]
 ms.keywords: FsRtlCancellableWaitForMultipleObjects, FsRtlCancellableWaitForMultipleObjects routine [Installable File System Drivers], fsrtlref_8a221e67-4344-401f-9e56-8fac66bb03b7.xml, ifsk.fsrtlcancellablewaitformultipleobjects, ntifs/FsRtlCancellableWaitForMultipleObjects
 f1_keywords:
  - "ntifs/FsRtlCancellableWaitForMultipleObjects"

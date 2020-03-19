@@ -6,6 +6,7 @@ old-location: netvista\dot11_rate_set.htm
 tech.root: netvista
 ms.assetid: 943ae1dc-cc42-4d6d-b2fb-9af25505e561
 ms.date: 02/16/2018
+keywords: ["_DOT11_RATE_SET structure"]
 ms.keywords: "*PDOT11_RATE_SET, DOT11_RATE_SET, DOT11_RATE_SET structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b2c617a6-b974-4b67-9f33-2ff5a99b55e9.xml, PDOT11_RATE_SET, PDOT11_RATE_SET structure pointer [Network Drivers Starting with Windows Vista], _DOT11_RATE_SET, netvista.dot11_rate_set, windot11/DOT11_RATE_SET, windot11/PDOT11_RATE_SET"
 f1_keywords:
  - "windot11/DOT11_RATE_SET"

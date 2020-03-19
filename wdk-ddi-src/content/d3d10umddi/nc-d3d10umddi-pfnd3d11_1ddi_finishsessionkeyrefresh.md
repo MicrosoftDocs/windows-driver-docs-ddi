@@ -5,6 +5,7 @@ description: Completes the switch to a new session key.
 old-location: display\finishsessionkeyrefresh1.htm
 ms.assetid: 95c0433f-e4da-4566-b128-34cb758b8001
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_FINISHSESSIONKEYREFRESH callback function"]
 ms.keywords: PFND3D11_1DDI_FINISHSESSIONKEYREFRESH, PFND3D11_1DDI_FINISHSESSIONKEYREFRESH callback, d3d10umddi/pfnFinishSessionKeyRefresh, display.finishsessionkeyrefresh1, pfnFinishSessionKeyRefresh, pfnFinishSessionKeyRefresh callback function [Display Devices]
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

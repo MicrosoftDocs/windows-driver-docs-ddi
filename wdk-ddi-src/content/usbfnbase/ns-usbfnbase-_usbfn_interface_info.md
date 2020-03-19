@@ -6,6 +6,7 @@ old-location: buses\usbfn_interface_info.htm
 tech.root: usbref
 ms.assetid: 54647A9E-E0AB-4DE7-93FB-D0232D6AC646
 ms.date: 05/07/2018
+keywords: ["_USBFN_INTERFACE_INFO structure"]
 ms.keywords: "*PUSBFN_INTERFACE_INFO, PUSBFN_INTERFACE_INFO, PUSBFN_INTERFACE_INFO structure pointer [Buses], USBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO structure [Buses], _USBFN_INTERFACE_INFO, buses.usbfn_interface_info, usbfnbase/PUSBFN_INTERFACE_INFO, usbfnbase/USBFN_INTERFACE_INFO"
 f1_keywords:
  - "usbfnbase/USBFN_INTERFACE_INFO"

@@ -5,6 +5,7 @@ description: The ResourceUnmap function unmaps a subresource of a resource.
 old-location: display\resourceunmap.htm
 ms.assetid: fb2b714e-232d-40b2-88ad-ee8dcd70a057
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_RESOURCEUNMAP callback function"]
 ms.keywords: PFND3D10DDI_RESOURCEUNMAP, PFND3D10DDI_RESOURCEUNMAP callback, ResourceUnmap, ResourceUnmap callback function [Display Devices], UserModeDisplayDriverDx10_Functions_473ebdfc-f365-4194-9d52-6338e19ca0d5.xml, d3d10umddi/ResourceUnmap, display.resourceunmap
 f1_keywords:
  - "d3d10umddi/ResourceUnmap"

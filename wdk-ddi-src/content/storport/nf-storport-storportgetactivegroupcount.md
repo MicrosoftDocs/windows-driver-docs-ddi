@@ -6,6 +6,7 @@ old-location: storage\storportgetactivegroupcount.htm
 tech.root: storage
 ms.assetid: 640dd836-a5f9-4a88-b2a3-038a66a50868
 ms.date: 03/29/2018
+keywords: ["StorPortGetActiveGroupCount function"]
 ms.keywords: StorPortGetActiveGroupCount, StorPortGetActiveGroupCount routine [Storage Devices], storage.storportgetactivegroupcount, storport/StorPortGetActiveGroupCount, storprt_d26e001f-a43e-4d7e-9278-9ba48a74574a.xml
 f1_keywords:
  - "storport/StorPortGetActiveGroupCount"

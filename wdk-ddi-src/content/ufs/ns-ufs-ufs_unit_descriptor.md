@@ -6,6 +6,7 @@ old-location: storage\ufs_unit_descriptor.htm
 tech.root: storage
 ms.assetid: 5D76C266-875A-40AC-9B26-F17978971783
 ms.date: 03/29/2018
+keywords: ["UFS_UNIT_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR, PUFS_UNIT_DESCRIPTOR structure pointer [Storage Devices], UFS_UNIT_DESCRIPTOR, UFS_UNIT_DESCRIPTOR structure [Storage Devices], storage.ufs_unit_descriptor, ufs/PUFS_UNIT_DESCRIPTOR, ufs/UFS_UNIT_DESCRIPTOR"
 f1_keywords:
  - "ufs/UFS_UNIT_DESCRIPTOR"

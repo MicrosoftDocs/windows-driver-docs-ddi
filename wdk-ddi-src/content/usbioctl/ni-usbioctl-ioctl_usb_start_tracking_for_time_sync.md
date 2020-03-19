@@ -6,6 +6,7 @@ old-location: buses\ioctl_usb_start_tracking_for_time_sync.htm
 tech.root: usbref
 ms.assetid: C9EA7A04-3B53-46D4-BC1B-A2766577095F
 ms.date: 05/07/2018
+keywords: ["IOCTL_USB_START_TRACKING_FOR_TIME_SYNC IOCTL"]
 ms.keywords: IOCTL_USB_START_TRACKING_FOR_TIME_SYNC, IOCTL_USB_START_TRACKING_FOR_TIME_SYNC control, IOCTL_USB_START_TRACKING_FOR_TIME_SYNC control code [Buses], buses.ioctl_usb_start_tracking_for_time_sync, usbioctl/IOCTL_USB_START_TRACKING_FOR_TIME_SYNC
 f1_keywords:
  - "usbioctl/IOCTL_USB_START_TRACKING_FOR_TIME_SYNC"

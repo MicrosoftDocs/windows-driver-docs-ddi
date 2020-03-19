@@ -6,6 +6,7 @@ old-location: display\evt_idd_cx_monitor_opm_get_random_number.htm
 tech.root: display
 ms.assetid: 330dc0a1-d9a9-44c1-9d29-752c2567e745
 ms.date: 05/10/2018
+keywords: ["EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER, EVT_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER callback, EvtIddCxMonitorOpmGetRandomNumber, EvtIddCxMonitorOpmGetRandomNumber callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER, PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_random_number, iddcx/EvtIddCxMonitorOpmGetRandomNumber
 f1_keywords:
  - "iddcx/PFN_IDD_CX_MONITOR_OPM_GET_RANDOM_NUMBER"

@@ -6,6 +6,7 @@ old-location: ifsk\setokensetnochildprocessrestricted.htm
 tech.root: ifsk
 ms.assetid: FCFCBF4C-CBAA-4284-A6F4-67630608CF19
 ms.date: 04/16/2018
+keywords: ["SeTokenSetNoChildProcessRestricted function"]
 ms.keywords: SeTokenSetNoChildProcessRestricted, SeTokenSetNoChildProcessRestricted function [Installable File System Drivers], ifsk.setokensetnochildprocessrestricted, ntifs/SeTokenSetNoChildProcessRestricted
 f1_keywords:
  - "ntifs/SeTokenSetNoChildProcessRestricted"

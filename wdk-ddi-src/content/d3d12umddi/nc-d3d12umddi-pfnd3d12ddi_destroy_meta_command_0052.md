@@ -6,6 +6,7 @@ ms.assetid: 20edf110-f620-4d1d-a495-589b50fbaf6f
 author: mimisasouvanh
 ms.author: misaso
 ms.date: 10/19/2018
+keywords: ["PFND3D12DDI_DESTROY_META_COMMAND_0052 callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_DESTROY_META_COMMAND_0052"
 req.header: d3d12umddi.h

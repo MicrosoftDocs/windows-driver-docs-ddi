@@ -5,6 +5,7 @@ description: The VmbChannelCreateGpadlFromMdl function creates a Guest Physical 
 tech.root: netvista
 ms.assetid: 910ee2ef-69af-448c-b911-b9cfe782eb74
 ms.date: 05/21/2018
+keywords: ["FN_VMB_CHANNEL_CREATE_GPADL_FROM_MDL callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_CREATE_GPADL_FROM_MDL"
 req.header: vmbuskernelmodeclientlibapi.h

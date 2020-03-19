@@ -6,6 +6,7 @@ old-location: debugger\setinterrupttimeout.htm
 tech.root: debugger
 ms.assetid: 93bc2a07-a6f7-45df-945d-81c6c53adb47
 ms.date: 05/03/2018
+keywords: ["IDebugControl3::SetInterruptTimeout"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetInterruptTimeout method, IDebugControl2 interface [Windows Debugging],SetInterruptTimeout method, IDebugControl2::SetInterruptTimeout, IDebugControl3 interface [Windows Debugging],SetInterruptTimeout method, IDebugControl3.SetInterruptTimeout, IDebugControl3::SetInterruptTimeout, IDebugControl::SetInterruptTimeout, IDebugControl_c16219f4-97b7-451d-8f04-30aa262667f6.xml, SetInterruptTimeout, SetInterruptTimeout method [Windows Debugging], SetInterruptTimeout method [Windows Debugging],IDebugControl interface, SetInterruptTimeout method [Windows Debugging],IDebugControl2 interface, SetInterruptTimeout method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetInterruptTimeout, dbgeng/IDebugControl3::SetInterruptTimeout, dbgeng/IDebugControl::SetInterruptTimeout, debugger.setinterrupttimeout
 f1_keywords:
  - "dbgeng/IDebugControl.SetInterruptTimeout"

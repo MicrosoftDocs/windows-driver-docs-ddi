@@ -4,6 +4,7 @@ title: EVT_TR_CANCEL_SECURE_SERVICE_REQUEST (trustedruntimeclx.h)
 description: 
 ms.assetid: 5a3bb56d-cde5-4776-84af-ed1264577a51
 ms.date: 10/19/2018
+keywords: ["EVT_TR_CANCEL_SECURE_SERVICE_REQUEST callback function"]
 f1_keywords:
  - "trustedruntimeclx/EVT_TR_CANCEL_SECURE_SERVICE_REQUEST"
 req.header: trustedruntimeclx.h

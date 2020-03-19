@@ -6,6 +6,7 @@ old-location: print\ioctl_ioctl_dot4_add_activity_broadcast.htm
 tech.root: print
 ms.assetid: 5B4E96FB-3214-4303-B8EB-9AB5CB42D8C7
 ms.date: 04/20/2018
+keywords: ["IOCTL_DOT4_ADD_ACTIVITY_BROADCAST IOCTL"]
 ms.keywords: IOCTL_DOT4_ADD_ACTIVITY_BROADCAST, IOCTL_DOT4_ADD_ACTIVITY_BROADCAST control, IOCTL_DOT4_ADD_ACTIVITY_BROADCAST control code [Print Devices], d4drvif/IOCTL_DOT4_ADD_ACTIVITY_BROADCAST, print.ioctl_ioctl_dot4_add_activity_broadcast
 f1_keywords:
  - "d4drvif/IOCTL_DOT4_ADD_ACTIVITY_BROADCAST"

@@ -6,6 +6,7 @@ old-location: buses\ucmtcpci_port_controller_config_init.htm
 tech.root: usbref
 ms.assetid: 8e9718e1-2f7c-4322-a34d-2faa45f4f97e
 ms.date: 05/07/2018
+keywords: ["UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT function"]
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT, UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT method [Buses], buses.ucmtcpci_port_controller_config_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT
 f1_keywords:
  - "ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CONFIG_INIT"

@@ -6,6 +6,7 @@ old-location: storage\ioctl_scsi_miniport_nvcache.htm
 tech.root: storage
 ms.assetid: 6331e850-34a7-4d03-a87b-527f3e38f735
 ms.date: 03/29/2018
+keywords: ["IOCTL_SCSI_MINIPORT_NVCACHE IOCTL"]
 ms.keywords: IOCTL_SCSI_MINIPORT_NVCACHE, IOCTL_SCSI_MINIPORT_NVCACHE control, IOCTL_SCSI_MINIPORT_NVCACHE control code [Storage Devices], k307_0a3946a8-c611-4499-b62c-25f920eeec1e.xml, ntddscsi/IOCTL_SCSI_MINIPORT_NVCACHE, storage.ioctl_scsi_miniport_nvcache
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_MINIPORT_NVCACHE"

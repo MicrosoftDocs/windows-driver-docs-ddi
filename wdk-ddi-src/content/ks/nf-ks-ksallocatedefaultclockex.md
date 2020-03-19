@@ -6,6 +6,7 @@ old-location: stream\ksallocatedefaultclockex.htm
 tech.root: stream
 ms.assetid: cad04f59-5312-4241-9524-aeabc27df92d
 ms.date: 04/23/2018
+keywords: ["KsAllocateDefaultClockEx function"]
 ms.keywords: KsAllocateDefaultClockEx, KsAllocateDefaultClockEx function [Streaming Media Devices], ks/KsAllocateDefaultClockEx, ksfunc_bace76db-468b-4d8e-bbc4-5a64f238308f.xml, stream.ksallocatedefaultclockex
 f1_keywords:
  - "ks/KsAllocateDefaultClockEx"

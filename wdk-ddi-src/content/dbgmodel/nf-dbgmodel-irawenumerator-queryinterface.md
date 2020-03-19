@@ -4,6 +4,7 @@ title: IRawEnumerator::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. 
 ms.assetid: e98eeb95-89ff-4112-8562-8cf0d6f13050
 ms.date: 08/13/2018
+keywords: ["IRawEnumerator::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IRawEnumerator.QueryInterface"
 ms.keywords: IRawEnumerator::QueryInterface, QueryInterface, IRawEnumerator.QueryInterface, IRawEnumerator::QueryInterface, IRawEnumerator.QueryInterface

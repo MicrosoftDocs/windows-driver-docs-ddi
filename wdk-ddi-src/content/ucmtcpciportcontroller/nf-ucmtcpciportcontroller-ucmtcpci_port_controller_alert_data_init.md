@@ -6,6 +6,7 @@ old-location: buses\ucmtcpci_port_controller_alert_data_init.htm
 tech.root: usbref
 ms.assetid: 7c3276cc-9194-4c18-b1d8-2795efbeb357
 ms.date: 05/07/2018
+keywords: ["UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT function"]
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT, UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT method [Buses], buses.ucmtcpci_port_controller_alert_data_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT
 f1_keywords:
  - "ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA_INIT"

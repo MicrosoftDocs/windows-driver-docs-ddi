@@ -6,6 +6,7 @@ old-location: stream\ksunregisterworker.htm
 tech.root: stream
 ms.assetid: 789b12db-7f51-426f-8f43-d3a3e43d85b3
 ms.date: 04/23/2018
+keywords: ["KsUnregisterWorker function"]
 ms.keywords: KsUnregisterWorker, KsUnregisterWorker function [Streaming Media Devices], ks/KsUnregisterWorker, ksfunc_9b3f2185-8ab0-484d-91d7-3b822ce1c4aa.xml, stream.ksunregisterworker
 f1_keywords:
  - "ks/KsUnregisterWorker"

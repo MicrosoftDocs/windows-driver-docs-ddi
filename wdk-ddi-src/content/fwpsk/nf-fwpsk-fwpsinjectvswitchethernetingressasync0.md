@@ -6,6 +6,7 @@ old-location: netvista\fwpsinjectvswitchingressasync0.htm
 tech.root: netvista
 ms.assetid: ccb22035-08fe-44a6-88d5-bf9db7c2f499
 ms.date: 05/02/2018
+keywords: ["FwpsInjectvSwitchEthernetIngressAsync0 function"]
 ms.keywords: FwpsInjectvSwitchEthernetIngressAsync0, FwpsInjectvSwitchEthernetIngressAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectvSwitchEthernetIngressAsync0, netvista.fwpsinjectvswitchingressasync0
 f1_keywords:
  - "fwpsk/FwpsInjectvSwitchEthernetIngressAsync0"

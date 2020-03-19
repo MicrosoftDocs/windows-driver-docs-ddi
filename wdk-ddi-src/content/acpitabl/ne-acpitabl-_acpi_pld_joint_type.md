@@ -4,6 +4,7 @@ title: _ACPI_PLD_JOINT_TYPE enumeration (acpitabl.h)
 description: Describes joint type bits 6:9.
 ms.assetid: 908bbaeb-3dd4-4dbb-a5d4-c2356d9ea0e7
 ms.date: 10/02/2018
+keywords: ["_ACPI_PLD_JOINT_TYPE enumeration"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_JOINT_TYPE"
 ms.keywords: _ACPI_PLD_JOINT_TYPE, ACPI_PLD_JOINT_TYPE, *PACPI_PLD_JOINT_TYPE, 

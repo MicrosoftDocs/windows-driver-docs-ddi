@@ -6,6 +6,7 @@ old-location: ifsk\fsrtldissectdbcs.htm
 tech.root: ifsk
 ms.assetid: c5c400af-9e59-4cf0-b66f-985fcdcbc75c
 ms.date: 03/29/2018
+keywords: ["FsRtlDissectDbcs function"]
 ms.keywords: FsRtlDissectDbcs, FsRtlDissectDbcs routine [Installable File System Drivers], fsrtlref_95d6ca19-1a11-4fc9-85a5-ea3cf307d2d0.xml, ifsk.fsrtldissectdbcs, ntifs/FsRtlDissectDbcs
 f1_keywords:
  - "ntifs/FsRtlDissectDbcs"

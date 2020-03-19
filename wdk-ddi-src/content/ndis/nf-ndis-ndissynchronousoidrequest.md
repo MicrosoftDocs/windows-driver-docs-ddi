@@ -6,6 +6,7 @@ old-location: netvista\ndissynchronousoidrequest.htm
 tech.root: netvista
 ms.assetid: BF539DDA-59ED-4010-88BC-3C7D8DC475EF
 ms.date: 05/02/2018
+keywords: ["NdisSynchronousOidRequest function"]
 ms.keywords: NdisSynchronousOidRequest, NdisSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisSynchronousOidRequest, netvista.ndissynchronousoidrequest
 f1_keywords:
  - "ndis/NdisSynchronousOidRequest"

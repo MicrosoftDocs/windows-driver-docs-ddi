@@ -6,6 +6,7 @@ old-location: buses\evt_ucx_usbdevice_reset.htm
 tech.root: usbref
 ms.assetid: 6876e35c-f293-4849-915f-c686a9d91dd1
 ms.date: 05/07/2018
+keywords: ["EVT_UCX_USBDEVICE_RESET callback function"]
 ms.keywords: EVT_UCX_USBDEVICE_RESET, EVT_UCX_USBDEVICE_RESET callback, EvtUcxUsbDeviceReset, EvtUcxUsbDeviceReset callback function [Buses], PEVT_UCX_USBDEVICE_RESET, PEVT_UCX_USBDEVICE_RESET callback function pointer [Buses], buses.evt_ucx_usbdevice_reset, ucxusbdevice/EvtUcxUsbDeviceReset
 f1_keywords:
  - "ucxusbdevice/PEVT_UCX_USBDEVICE_RESET"

@@ -6,6 +6,7 @@ old-location: serports\evtsercx2systemdmatransmitcleanuptransaction.htm
 tech.root: serports
 ms.assetid: DAC33D61-F85C-43A7-9F4D-AA31F8CA4430
 ms.date: 04/23/2018
+keywords: ["EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION callback function"]
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitCleanupTransaction, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION callback, EvtSerCx2SystemDmaTransmitCleanupTransaction, EvtSerCx2SystemDmaTransmitCleanupTransaction callback function [Serial Ports], serports.evtsercx2systemdmatransmitcleanuptransaction
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaTransmitCleanupTransaction"

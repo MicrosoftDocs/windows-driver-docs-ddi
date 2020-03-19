@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: 161a7a07-a498-4e45-b356-4083179c71d6
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
+keywords: ["_WHEA_ERROR_SOURCE_CREATE_RECORD callback function"]
 f1_keywords:
  - "ntddk/_WHEA_ERROR_SOURCE_CREATE_RECORD"
 req.header: ntddk.h

@@ -6,6 +6,7 @@ old-location: audio\pcmethod_item.htm
 tech.root: audio
 ms.assetid: 588d2f0e-0f87-46c7-b2fa-f14f29f6a9f0
 ms.date: 05/08/2018
+keywords: ["PCMETHOD_ITEM structure"]
 ms.keywords: "*PPCMETHOD_ITEM, PCMETHOD_ITEM, PCMETHOD_ITEM structure [Audio Devices], PPCMETHOD_ITEM, PPCMETHOD_ITEM structure pointer [Audio Devices], audio.pcmethod_item, audpc-struct_58edb038-1bae-4846-8ce9-d0c0c052730c.xml, portcls/PCMETHOD_ITEM, portcls/PPCMETHOD_ITEM"
 f1_keywords:
  - "portcls/PCMETHOD_ITEM"

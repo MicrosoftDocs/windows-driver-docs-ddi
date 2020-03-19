@@ -6,6 +6,7 @@ old-location: kernel\clfsmgmtquerypolicy.htm
 tech.root: kernel
 ms.assetid: c9cc9124-ee15-40df-b149-a9f3b26d7c24
 ms.date: 04/30/2018
+keywords: ["ClfsMgmtQueryPolicy function"]
 ms.keywords: ClfsMgmtQueryPolicy, ClfsMgmtQueryPolicy routine [Kernel-Mode Driver Architecture], Clfs_management_6f3ccba5-05e5-4022-9849-220aeefbde77.xml, kernel.clfsmgmtquerypolicy, wdm/ClfsMgmtQueryPolicy
 f1_keywords:
  - "wdm/ClfsMgmtQueryPolicy"

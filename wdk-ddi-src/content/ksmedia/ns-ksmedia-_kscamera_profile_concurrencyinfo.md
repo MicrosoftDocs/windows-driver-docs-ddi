@@ -6,6 +6,7 @@ old-location: stream\kscamera_profile_concurrencyinfo.htm
 tech.root: stream
 ms.assetid: 4E0A9CE6-2FA0-46A5-B478-C088E5FF1BAD
 ms.date: 04/23/2018
+keywords: ["_KSCAMERA_PROFILE_CONCURRENCYINFO structure"]
 ms.keywords: "*PKSCAMERA_PROFILE_CONCURRENCYINFO, KSCAMERA_PROFILE_CONCURRENCYINFO, KSCAMERA_PROFILE_CONCURRENCYINFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_CONCURRENCYINFO, PKSCAMERA_PROFILE_CONCURRENCYINFO structure pointer [Streaming Media Devices], _KSCAMERA_PROFILE_CONCURRENCYINFO, ksmedia/KSCAMERA_PROFILE_CONCURRENCYINFO, ksmedia/PKSCAMERA_PROFILE_CONCURRENCYINFO, stream.kscamera_profile_concurrencyinfo"
 f1_keywords:
  - "ksmedia/KSCAMERA_PROFILE_CONCURRENCYINFO"

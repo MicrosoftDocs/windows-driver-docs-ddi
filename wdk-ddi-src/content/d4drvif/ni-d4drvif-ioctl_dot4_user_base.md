@@ -6,6 +6,7 @@ old-location: print\ioctl_ioctl_dot4_user_base.htm
 tech.root: print
 ms.assetid: 600AF104-C80B-4ECE-A662-68CF38235078
 ms.date: 04/20/2018
+keywords: ["IOCTL_DOT4_USER_BASE IOCTL"]
 ms.keywords: IOCTL_DOT4_USER_BASE, IOCTL_DOT4_USER_BASE control, IOCTL_DOT4_USER_BASE control code [Print Devices], d4drvif/IOCTL_DOT4_USER_BASE, print.ioctl_ioctl_dot4_user_base
 f1_keywords:
  - "d4drvif/IOCTL_DOT4_USER_BASE"

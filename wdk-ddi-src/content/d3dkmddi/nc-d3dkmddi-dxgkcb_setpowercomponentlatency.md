@@ -5,6 +5,7 @@ description: Called by the display miniport driver to set the latency tolerance 
 old-location: display\dxgkcbsetpowercomponentlatency.htm
 ms.assetid: 8FF86746-15A2-4BDF-98AF-23B5F9960DB9
 ms.date: 05/10/2018
+keywords: ["DXGKCB_SETPOWERCOMPONENTLATENCY callback function"]
 ms.keywords: DXGKCB_SETPOWERCOMPONENTLATENCY, DXGKCB_SETPOWERCOMPONENTLATENCY callback, DxgkCbSetPowerComponentLatency, DxgkCbSetPowerComponentLatency callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentLatency, display.dxgkcbsetpowercomponentlatency
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

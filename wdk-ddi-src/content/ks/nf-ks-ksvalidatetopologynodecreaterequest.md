@@ -6,6 +6,7 @@ old-location: stream\ksvalidatetopologynodecreaterequest.htm
 tech.root: stream
 ms.assetid: a7d69bf8-7aa8-46c2-98f9-769ee174757b
 ms.date: 04/23/2018
+keywords: ["KsValidateTopologyNodeCreateRequest function"]
 ms.keywords: KsValidateTopologyNodeCreateRequest, KsValidateTopologyNodeCreateRequest function [Streaming Media Devices], ks/KsValidateTopologyNodeCreateRequest, ksfunc_f2b7fc56-1bca-4de5-981b-68364aa96fa7.xml, stream.ksvalidatetopologynodecreaterequest
 f1_keywords:
  - "ks/KsValidateTopologyNodeCreateRequest"

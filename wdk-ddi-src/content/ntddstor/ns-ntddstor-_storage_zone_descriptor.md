@@ -6,6 +6,7 @@ old-location: storage\storage_zone_descriptor.htm
 tech.root: storage
 ms.assetid: 33AE6D40-F54D-427D-B811-2188EA623A26
 ms.date: 03/29/2018
+keywords: ["_STORAGE_ZONE_DESCRIPTOR structure"]
 ms.keywords: "*PSTORAGE_ZONE_DESCRIPTOR, PSTORAGE_ZONE_DESCRIPTOR, PSTORAGE_ZONE_DESCRIPTOR structure pointer [Storage Devices], STORAGE_ZONE_DESCRIPTOR, STORAGE_ZONE_DESCRIPTOR structure [Storage Devices], _STORAGE_ZONE_DESCRIPTOR, ntddstor/PSTORAGE_ZONE_DESCRIPTOR, ntddstor/STORAGE_ZONE_DESCRIPTOR, storage.storage_zone_descriptor"
 f1_keywords:
  - "ntddstor/STORAGE_ZONE_DESCRIPTOR"

@@ -6,6 +6,7 @@ old-location: display\DxgkCbAcquirePostDisplayOwnership.htm
 tech.root: display
 ms.assetid: 6454adb3-c958-467b-acbc-b8937b98cd57
 ms.date: 05/10/2018
+keywords: ["DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP callback function"]
 ms.keywords: DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP, DXGKCB_ACQUIRE_POST_DISPLAY_OWNERSHIP callback, DxgkCbAcquirePostDisplayOwnership, DxgkCbAcquirePostDisplayOwnership callback function [Display Devices], display.DxgkCbAcquirePostDisplayOwnership, dispmprt/DxgkCbAcquirePostDisplayOwnership
 f1_keywords:
  - "dispmprt/DxgkCbAcquirePostDisplayOwnership"

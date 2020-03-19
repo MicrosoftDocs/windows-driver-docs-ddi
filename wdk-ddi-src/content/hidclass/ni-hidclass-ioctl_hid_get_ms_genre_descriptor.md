@@ -6,6 +6,7 @@ old-location: hid\ioctl_hid_get_ms_genre_descriptor.htm
 tech.root: hid
 ms.assetid: C83C6086-369D-41DB-BEB5-33B3A0C1C0AE
 ms.date: 04/30/2018
+keywords: ["IOCTL_HID_GET_MS_GENRE_DESCRIPTOR IOCTL"]
 ms.keywords: IOCTL_HID_GET_MS_GENRE_DESCRIPTOR, IOCTL_HID_GET_MS_GENRE_DESCRIPTOR control, IOCTL_HID_GET_MS_GENRE_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_ms_genre_descriptor, hidclass/IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
 f1_keywords:
  - "hidclass/IOCTL_HID_GET_MS_GENRE_DESCRIPTOR"

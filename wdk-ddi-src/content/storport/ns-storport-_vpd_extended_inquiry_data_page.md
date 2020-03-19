@@ -5,6 +5,7 @@ description:
 tech.root: storage
 ms.assetid: d5b25cbf-a20a-48fe-92b5-a54d0f1e5561
 ms.date: 10/19/2018
+keywords: ["_VPD_EXTENDED_INQUIRY_DATA_PAGE structure"]
 f1_keywords:
  - "storport/_VPD_EXTENDED_INQUIRY_DATA_PAGE"
 ms.keywords: _VPD_EXTENDED_INQUIRY_DATA_PAGE, VPD_EXTENDED_INQUIRY_DATA_PAGE, *PVPD_EXTENDED_INQUIRY_DATA_PAGE, 

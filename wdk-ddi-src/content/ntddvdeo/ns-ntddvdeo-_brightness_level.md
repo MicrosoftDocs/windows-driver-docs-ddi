@@ -5,6 +5,7 @@ description: Contains information about the brightness level.
 tech.root: display
 ms.assetid: 81351bc7-68af-4cfe-962f-725793c052fe
 ms.date: 08/03/2018
+keywords: ["_BRIGHTNESS_LEVEL structure"]
 f1_keywords:
  - "ntddvdeo/_BRIGHTNESS_LEVEL"
 ms.keywords: _BRIGHTNESS_LEVEL, *PBRIGHTNESS_LEVEL, BRIGHTNESS_LEVEL,

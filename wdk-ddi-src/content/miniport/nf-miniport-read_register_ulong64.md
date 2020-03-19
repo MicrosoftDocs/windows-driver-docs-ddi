@@ -6,6 +6,7 @@ old-location: wdf\read_register_ulong64.htm
 tech.root: wdf
 ms.assetid: D8AB8735-8909-463E-B10E-1FE5FD557FBB
 ms.date: 02/26/2018
+keywords: ["READ_REGISTER_ULONG64 function"]
 ms.keywords: READ_REGISTER_ULONG64, READ_REGISTER_ULONG64 function, umdf.read_register_ulong64, wdf.read_register_ulong64, wudfddi_hwaccess/READ_REGISTER_ULONG64
 f1_keywords:
  - "miniport/READ_REGISTER_ULONG64"

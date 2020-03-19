@@ -3,6 +3,7 @@ UID: NA:comtracing
 title: Comtracing.h header
 ms.assetid: b1de749d-1c2a-3e0a-8af5-aef7d487a883
 ms.date: 05/09/2018
+keywords: ["Comtracing.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -6,6 +6,7 @@ old-location: stream\avstrminifiltercreate.htm
 tech.root: stream
 ms.assetid: c654e822-a932-4da0-ab11-4669bd8ba4b4
 ms.date: 04/23/2018
+keywords: ["PFNKSFILTERIRP callback function"]
 ms.keywords: AVStrMiniFilterClose, AVStrMiniFilterCreate, MyAVStrMiniFilterIRPHandler, MyAVStrMiniFilterIRPHandler routine [Streaming Media Devices], PFNKSFILTERIRP, avstclbk_76b73509-587e-47bd-9de7-92eac4237706.xml, ks/MyAVStrMiniFilterIRPHandler, stream.avstrminifiltercreate
 f1_keywords:
  - "ks/MyAVStrMiniFilterIRPHandler"

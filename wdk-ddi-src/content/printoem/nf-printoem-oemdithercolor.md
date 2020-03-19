@@ -6,6 +6,7 @@ old-location: print\oemdithercolor.htm
 tech.root: print
 ms.assetid: bf8c2140-8917-42af-86bf-c2f25b0c42b7
 ms.date: 04/20/2018
+keywords: ["OEMDitherColor function"]
 ms.keywords: OEMDitherColor, OEMDitherColor function [Print Devices], print.oemdithercolor, print_unidrv-pscript_rendering_e220d80f-83d4-4f4a-9fdc-ca25b48dd718.xml, printoem/OEMDitherColor
 f1_keywords:
  - "printoem/OEMDitherColor"

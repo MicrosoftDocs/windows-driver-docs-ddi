@@ -6,6 +6,7 @@ old-location: wdf\wdfworkitemenqueue.htm
 tech.root: wdf
 ms.assetid: b264fac0-61d9-4789-b60b-c0b309eb25f1
 ms.date: 02/26/2018
+keywords: ["WdfWorkItemEnqueue function"]
 ms.keywords: DFWorkItemObjectRef_f2f5dbe5-20e0-4cb8-aeca-663934d0fc92.xml, WdfWorkItemEnqueue, WdfWorkItemEnqueue method, kmdf.wdfworkitemenqueue, wdf.wdfworkitemenqueue, wdfworkitem/WdfWorkItemEnqueue
 f1_keywords:
  - "wdfworkitem/WdfWorkItemEnqueue"

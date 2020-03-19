@@ -6,6 +6,7 @@ old-location: display\dxgk_brightness_caps.htm
 tech.root: display
 ms.assetid: e01ef4c9-1374-4d60-9307-32d878759c72
 ms.date: 05/10/2018
+keywords: ["_DXGK_BRIGHTNESS_CAPS structure"]
 ms.keywords: DXGK_BRIGHTNESS_CAPS, DXGK_BRIGHTNESS_CAPS structure [Display Devices], _DXGK_BRIGHTNESS_CAPS, d3dkmdt/DXGK_BRIGHTNESS_CAPS, display.dxgk_brightness_caps
 f1_keywords:
  - "d3dkmdt/DXGK_BRIGHTNESS_CAPS"

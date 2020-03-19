@@ -5,6 +5,7 @@ description: The Flush(D3D10) function submits outstanding hardware commands tha
 old-location: display\flush_d3d10_.htm
 ms.assetid: 846f8539-4cb3-41d5-836d-563b7eb0d70b
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_FLUSH callback function"]
 ms.keywords: Flush, Flush callback function [Display Devices], PFND3D10DDI_FLUSH, PFND3D10DDI_FLUSH callback, UserModeDisplayDriverDx10_Functions_35acd3a9-af32-4a8f-b2d6-a4b12f3aebc4.xml, d3d10umddi/Flush, display.flush_d3d10_
 f1_keywords:
  - "d3d10umddi/Flush"

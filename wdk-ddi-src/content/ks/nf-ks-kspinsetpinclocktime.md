@@ -6,6 +6,7 @@ old-location: stream\kspinsetpinclocktime.htm
 tech.root: stream
 ms.assetid: 85dac103-c729-4202-96b1-661891c6a531
 ms.date: 04/23/2018
+keywords: ["KsPinSetPinClockTime function"]
 ms.keywords: KsPinSetPinClockTime, KsPinSetPinClockTime function [Streaming Media Devices], avfunc_8f1c1b04-c5eb-4aa1-9cdf-84b86da388e9.xml, ks/KsPinSetPinClockTime, stream.kspinsetpinclocktime
 f1_keywords:
  - "ks/KsPinSetPinClockTime"

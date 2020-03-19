@@ -6,6 +6,7 @@ old-location: ifsk\security_subject_context.htm
 tech.root: ifsk
 ms.assetid: c9879df5-38e9-4a9f-8196-8485e85b2933
 ms.date: 04/16/2018
+keywords: ["_SECURITY_SUBJECT_CONTEXT structure"]
 ms.keywords: "*PSECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT, PSECURITY_SUBJECT_CONTEXT structure pointer [Installable File System Drivers], SECURITY_SUBJECT_CONTEXT, SECURITY_SUBJECT_CONTEXT structure [Installable File System Drivers], _SECURITY_SUBJECT_CONTEXT, ifsk.security_subject_context, securitystructures_e91a762f-82dc-4319-a479-8de15bce2bfd.xml, wdm/PSECURITY_SUBJECT_CONTEXT, wdm/SECURITY_SUBJECT_CONTEXT"
 f1_keywords:
  - "wdm/SECURITY_SUBJECT_CONTEXT"

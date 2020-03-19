@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlbalancereads.htm
 tech.root: ifsk
 ms.assetid: 06d55d5d-1b2e-43f9-8d01-2f81489cc861
 ms.date: 04/16/2018
+keywords: ["FsRtlBalanceReads function"]
 ms.keywords: FsRtlBalanceReads, FsRtlBalanceReads routine [Installable File System Drivers], fsrtlref_9785018d-4a2f-44e8-a533-85ab1878e855.xml, ifsk.fsrtlbalancereads, ntifs/FsRtlBalanceReads
 f1_keywords:
  - "ntifs/FsRtlBalanceReads"

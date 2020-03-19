@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: 73dfdcdd-d131-44ec-b32e-8c0eaeac33d8
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
+keywords: ["PFREE_COMMON_BUFFER_VECTOR callback function"]
 f1_keywords:
  - "wdm/PFREE_COMMON_BUFFER_VECTOR"
 req.header: wdm.h

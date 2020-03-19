@@ -6,6 +6,7 @@ old-location: display\destroydevice.htm
 tech.root: display
 ms.assetid: a3c158c2-6c0d-4da0-80f4-569971b10673
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_DESTROYDEVICE callback function"]
 ms.keywords: DestroyDevice, DestroyDevice callback function [Display Devices], PFND3DDDI_DESTROYDEVICE, PFND3DDDI_DESTROYDEVICE callback, UserModeDisplayDriver_Functions_4d34f924-8742-4957-b3f0-d4a63d338ada.xml, d3dumddi/DestroyDevice, display.destroydevice
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

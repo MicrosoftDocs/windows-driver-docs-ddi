@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 00d56e84-4997-4ea5-868b-bd85fa6d3926
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["DXGKDDI_RESUMEVIRTUALGPU callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_RESUMEVIRTUALGPU"
 req.header: dispmprt.h

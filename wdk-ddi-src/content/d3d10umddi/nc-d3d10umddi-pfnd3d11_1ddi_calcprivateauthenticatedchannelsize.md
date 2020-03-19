@@ -5,6 +5,7 @@ description: Returns the number of bytes that the driver requires to store priva
 old-location: display\calcprivateauthenticatedchannelsize.htm
 ms.assetid: f22dee75-a7e3-4ad4-a0d1-584adff3230e
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_CALCPRIVATEAUTHENTICATEDCHANNELSIZE callback function"]
 ms.keywords: CalcPrivateAuthenticatedChannelSize, CalcPrivateAuthenticatedChannelSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEAUTHENTICATEDCHANNELSIZE, PFND3D11_1DDI_CALCPRIVATEAUTHENTICATEDCHANNELSIZE callback, d3d10umddi/CalcPrivateAuthenticatedChannelSize, display.calcprivateauthenticatedchannelsize
 f1_keywords:
  - "d3d10umddi/CalcPrivateAuthenticatedChannelSize"

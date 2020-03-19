@@ -5,6 +5,7 @@ description: Specifies the properties of the context to be allocated.
 old-location: display\dxgk_createcontextallocationflags.htm
 ms.assetid: e80a314d-cef1-4289-84db-0a6b6531ae5f
 ms.date: 05/10/2018
+keywords: ["_DXGK_CREATECONTEXTALLOCATIONFLAGS structure"]
 ms.keywords: DXGK_CREATECONTEXTALLOCATIONFLAGS, DXGK_CREATECONTEXTALLOCATIONFLAGS structure [Display Devices], _DXGK_CREATECONTEXTALLOCATIONFLAGS, d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS, display.dxgk_createcontextallocationflags
 f1_keywords:
  - "d3dkmddi/DXGK_CREATECONTEXTALLOCATIONFLAGS"

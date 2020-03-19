@@ -6,6 +6,7 @@ old-location: storage\ioctl_ehstor_bandmgmt_activate.htm
 tech.root: storage
 ms.assetid: 10C3077A-1A6A-4AA1-BC9B-829353A8A895
 ms.date: 03/29/2018
+keywords: ["IOCTL_EHSTOR_BANDMGMT_ACTIVATE IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_ACTIVATE, IOCTL_EHSTOR_BANDMGMT_ACTIVATE control, IOCTL_EHSTOR_BANDMGMT_ACTIVATE control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ACTIVATE, storage.ioctl_ehstor_bandmgmt_activate
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ACTIVATE"

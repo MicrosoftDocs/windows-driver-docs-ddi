@@ -5,6 +5,7 @@ description: Indicates a particular version of the Monitor interface.
 old-location: display\dxgk_monitor_interface_version.htm
 ms.assetid: 76af0d70-f9bb-4768-9bfd-f2aaeb212db0
 ms.date: 05/10/2018
+keywords: ["_DXGK_MONITOR_INTERFACE_VERSION enumeration"]
 ms.keywords: DXGK_MONITOR_INTERFACE_VERSION, DXGK_MONITOR_INTERFACE_VERSION enumeration [Display Devices], DXGK_MONITOR_INTERFACE_VERSION_UNINITIALIZED, DXGK_MONITOR_INTERFACE_VERSION_V1, DXGK_MONITOR_INTERFACE_VERSION_V2, DmEnums_4ec3a10c-c04f-431b-851d-908a5ff972a1.xml, _DXGK_MONITOR_INTERFACE_VERSION, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_UNINITIALIZED, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_V1, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_V2, display.dxgk_monitor_interface_version
 f1_keywords:
  - "d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION"

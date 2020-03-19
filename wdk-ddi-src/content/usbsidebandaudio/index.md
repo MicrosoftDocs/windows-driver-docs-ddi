@@ -3,6 +3,7 @@ UID: NA:usbsidebandaudio
 title: Usbsidebandaudio.h header
 ms.assetid: a245e760-fd7d-3efa-9b5f-09303bd40240
 ms.date: 09/06/2018
+keywords: ["Usbsidebandaudio.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

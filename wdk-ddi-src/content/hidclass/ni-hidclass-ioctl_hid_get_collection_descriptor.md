@@ -6,6 +6,7 @@ old-location: hid\ioctl_hid_get_collection_descriptor.htm
 tech.root: hid
 ms.assetid: 93684a1a-788d-4b90-b9cc-58a3c4f7b25e
 ms.date: 04/30/2018
+keywords: ["IOCTL_HID_GET_COLLECTION_DESCRIPTOR IOCTL"]
 ms.keywords: IOCTL_HID_GET_COLLECTION_DESCRIPTOR, IOCTL_HID_GET_COLLECTION_DESCRIPTOR control, IOCTL_HID_GET_COLLECTION_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_collection_descriptor, hidclass/IOCTL_HID_GET_COLLECTION_DESCRIPTOR, hidioreq_3b297887-5287-463a-9a31-46b8bd7761b3.xml
 f1_keywords:
  - "hidclass/IOCTL_HID_GET_COLLECTION_DESCRIPTOR"

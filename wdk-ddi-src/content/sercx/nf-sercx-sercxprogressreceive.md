@@ -6,6 +6,7 @@ old-location: serports\sercxprogressreceive.htm
 tech.root: serports
 ms.assetid: A1773CCB-971E-4439-A11F-82761FF8AF71
 ms.date: 04/23/2018
+keywords: ["SerCxProgressReceive function"]
 ms.keywords: 1/SerCxProgressReceive, SerCxProgressReceive, SerCxProgressReceive method [Serial Ports], serports.sercxprogressreceive
 f1_keywords:
  - "sercx/SerCxProgressReceive"

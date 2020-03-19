@@ -6,6 +6,7 @@ old-location: storage\scsidebugprint.htm
 tech.root: storage
 ms.assetid: bbf3ea14-1802-4433-9043-73bfc0c447bf
 ms.date: 03/29/2018
+keywords: ["ScsiDebugPrint function"]
 ms.keywords: ScsiDebugPrint, ScsiDebugPrint routine [Storage Devices], scsiprt_ef011e55-85be-4ec8-8ba3-3838417bcd15.xml, srb/ScsiDebugPrint, storage.scsidebugprint
 f1_keywords:
  - "minitape/ScsiDebugPrint"

@@ -6,6 +6,7 @@ old-location: buses\usbd_parseconfigurationdescriptorex.htm
 tech.root: usbref
 ms.assetid: c14b3cde-b501-4d07-96ae-f0e0e6320966
 ms.date: 05/07/2018
+keywords: ["USBD_ParseConfigurationDescriptorEx function"]
 ms.keywords: USBD_ParseConfigurationDescriptorEx, USBD_ParseConfigurationDescriptorEx routine [Buses], buses.usbd_parseconfigurationdescriptorex, usbdlib/USBD_ParseConfigurationDescriptorEx, usbfunc_c493d121-9821-4381-b756-fa417c8f5f93.xml
 f1_keywords:
  - "usbdlib/USBD_ParseConfigurationDescriptorEx"

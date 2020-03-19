@@ -6,6 +6,7 @@ old-location: serports\evtsercx2customreceivetransactioncleanup.htm
 tech.root: serports
 ms.assetid: 72AF3D52-D109-42A7-9F25-14A3F5EDC94A
 ms.date: 04/23/2018
+keywords: ["EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_CLEANUP callback function"]
 ms.keywords: 2/EvtSerCx2CustomReceiveTransactionCleanup, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_CLEANUP, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_CLEANUP callback, EvtSerCx2CustomReceiveTransactionCleanup, EvtSerCx2CustomReceiveTransactionCleanup callback function [Serial Ports], serports.evtsercx2customreceivetransactioncleanup
 f1_keywords:
  - "sercx/EvtSerCx2CustomReceiveTransactionCleanup"

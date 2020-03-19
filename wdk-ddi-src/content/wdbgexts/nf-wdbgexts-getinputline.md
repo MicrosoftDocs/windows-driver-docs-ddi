@@ -6,6 +6,7 @@ old-location: debugger\getinputline.htm
 tech.root: debugger
 ms.assetid: 18d4aae5-dd11-4c3a-8088-52121f46d208
 ms.date: 05/03/2018
+keywords: ["GetInputLine function"]
 ms.keywords: GetInputLine, GetInputLine function [Windows Debugging], WdbgExts_Ref_ed42718c-5e3e-4fe6-a2d6-f553b6c58800.xml, debugger.getinputline, wdbgexts/GetInputLine
 f1_keywords:
  - "wdbgexts/GetInputLine"

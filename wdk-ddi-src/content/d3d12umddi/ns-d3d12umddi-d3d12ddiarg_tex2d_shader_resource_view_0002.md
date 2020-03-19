@@ -4,6 +4,7 @@ title: D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002 (d3d12umddi.h)
 description: Describes a two-dimensional (2-D) texture that is used to create a shader resource view.
 ms.assetid: bc3135d7-ca2c-4f3d-aafd-87247af0d440
 ms.date: 10/19/2018
+keywords: ["D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002"
 ms.keywords: D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002, D3D12DDIARG_TEX2D_SHADER_RESOURCE_VIEW_0002, 

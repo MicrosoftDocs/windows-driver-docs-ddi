@@ -6,6 +6,7 @@ old-location: kernel\iocsqremovenextirp.htm
 tech.root: kernel
 ms.assetid: db92bbc1-7257-4e84-af69-ce09c1fd998e
 ms.date: 04/30/2018
+keywords: ["IoCsqRemoveNextIrp function"]
 ms.keywords: IoCsqRemoveNextIrp, IoCsqRemoveNextIrp routine [Kernel-Mode Driver Architecture], k104_da0b9a4a-daa7-4085-ab2a-77b81856820f.xml, kernel.iocsqremovenextirp, wdm/IoCsqRemoveNextIrp
 f1_keywords:
  - "wdm/IoCsqRemoveNextIrp"

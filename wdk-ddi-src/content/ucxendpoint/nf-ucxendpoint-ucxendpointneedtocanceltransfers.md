@@ -6,6 +6,7 @@ old-location: buses\_ucxendpointneedtocanceltransfers.htm
 tech.root: usbref
 ms.assetid: 4DA3FB63-D2D3-43E1-9420-29303176B837
 ms.date: 05/07/2018
+keywords: ["UcxEndpointNeedToCancelTransfers function"]
 ms.keywords: UcxEndpointNeedToCancelTransfers, UcxEndpointNeedToCancelTransfers method [Buses], buses._ucxendpointneedtocanceltransfers, ucxendpoint/UcxEndpointNeedToCancelTransfers
 f1_keywords:
  - "ucxendpoint/UcxEndpointNeedToCancelTransfers"

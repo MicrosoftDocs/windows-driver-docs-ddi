@@ -6,6 +6,7 @@ old-location: netvista\rilalphaidentifidertype.htm
 tech.root: netvista
 ms.assetid: e7be6f28-b6f0-4b95-9145-abbb98e7f5a5
 ms.date: 05/02/2018
+keywords: ["RILALPHAIDENTIFIDERTYPE enumeration"]
 ms.keywords: RILALPHAIDENTIFIDERTYPE, RILALPHAIDENTIFIDERTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_ALPHAIDENTIFIERTYPE_MAX, RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT, RIL_ALPHAIDENTIFIERTYPE_PRESENT, netvista.rilalphaidentifidertype, ntddrilapitypes/RILALPHAIDENTIFIDERTYPE, ntddrilapitypes/RIL_ALPHAIDENTIFIERTYPE_MAX, ntddrilapitypes/RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT, ntddrilapitypes/RIL_ALPHAIDENTIFIERTYPE_PRESENT
 f1_keywords:
  - "rilapitypes/RILALPHAIDENTIFIDERTYPE"

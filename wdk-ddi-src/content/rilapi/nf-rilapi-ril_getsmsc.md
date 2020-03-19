@@ -6,6 +6,7 @@ old-location: netvista\ril_getsmsc.htm
 tech.root: netvista
 ms.assetid: 07181f26-8fcc-4a0d-8ce6-bfaaea785ef6
 ms.date: 05/02/2018
+keywords: ["RIL_GetSMSC function"]
 ms.keywords: RIL_GetSMSC, RIL_GetSMSC method [Network Drivers Starting with Windows Vista], netvista.ril_getsmsc, rilapi/RIL_GetSMSC
 f1_keywords:
  - "rilapi/RIL_GetSMSC"

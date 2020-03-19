@@ -6,6 +6,7 @@ old-location: netvista\rildevsspecificclasses.htm
 tech.root: netvista
 ms.assetid: 21fcd199-b2bb-4ba0-9a22-33ef6579cd7a
 ms.date: 05/02/2018
+keywords: ["RILDEVSSPECIFICCLASSES enumeration"]
 ms.keywords: RILDEVSSPECIFICCLASSES, RILDEVSSPECIFICCLASSES enumeration [Network Drivers Starting with Windows Vista], RIL_DSCLASS_OEM_GBA, netvista.rildevsspecificclasses, oemrilapitypes/RILDEVSSPECIFICCLASSES, oemrilapitypes/RIL_DSCLASS_OEM_GBA
 f1_keywords:
  - "oemrilapitypes/RILDEVSSPECIFICCLASSES"

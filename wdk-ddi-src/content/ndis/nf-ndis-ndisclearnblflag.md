@@ -5,6 +5,7 @@ description: The NdisClearNblFlag macro clears a flag in a NET_BUFFER_LIST struc
 tech.root: netvista
 ms.assetid: 244839a5-cdc2-4b05-8a96-37c477313238
 ms.date: 04/16/2018
+keywords: ["NdisClearNblFlag macro"]
 f1_keywords:
  - "ndis/NdisClearNblFlag"
 ms.keywords: NdisClearNblFlag

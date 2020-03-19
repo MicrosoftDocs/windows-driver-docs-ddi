@@ -6,6 +6,7 @@ old-location: wpddk\iportabledevicekeycollection_clear.htm
 tech.root: wpd_dk
 ms.assetid: 53a37ac6-a410-452e-bed8-3ea23b1a2330
 ms.date: 02/15/2018
+keywords: ["IPortableDeviceKeyCollection::Clear"]
 ms.keywords: Clear, Clear method, Clear method,IPortableDeviceKeyCollection interface, IPortableDeviceKeyCollection interface,Clear method, IPortableDeviceKeyCollection.Clear, IPortableDeviceKeyCollection::Clear, IPortableDeviceKeyCollectionClear, portabledevicetypes/IPortableDeviceKeyCollection::Clear, wpddk.iportabledevicekeycollection_clear
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceKeyCollection.Clear"

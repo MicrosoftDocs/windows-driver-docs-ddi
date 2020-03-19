@@ -4,6 +4,7 @@ title: _FAULT_INFORMATION_ARM64 (wdm.h)
 description: Contains fault information for an ARM64 system. 
 ms.assetid: 13ff621d-7cda-4440-91bc-9184a3b44bf2
 ms.date: 10/19/2018
+keywords: ["_FAULT_INFORMATION_ARM64 structure"]
 f1_keywords:
  - "wdm/_FAULT_INFORMATION_ARM64"
 ms.keywords: _FAULT_INFORMATION_ARM64, FAULT_INFORMATION_ARM64, *PFAULT_INFORMATION_ARM64, 

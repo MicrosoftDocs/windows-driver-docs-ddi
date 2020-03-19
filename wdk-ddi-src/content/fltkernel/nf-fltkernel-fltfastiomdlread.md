@@ -6,6 +6,7 @@ old-location: ifsk\fltfastiomdlread.htm
 tech.root: ifsk
 ms.assetid: 1DF810B5-D4C3-4F67-B913-C2B2132DFDE2
 ms.date: 04/16/2018
+keywords: ["FltFastIoMdlRead function"]
 ms.keywords: FltFastIoMdlRead, FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadDev, ifsk.fltfastiomdlread
 f1_keywords:
  - "fltkernel/FsRtlMdlReadDev"

@@ -6,6 +6,7 @@ old-location: netvista\riladdress.htm
 tech.root: netvista
 ms.assetid: d329069d-5455-4c37-b190-02a7bd1e789a
 ms.date: 02/16/2018
+keywords: ["RILADDRESS structure"]
 ms.keywords: "*LPRILADDRESS, RILADDRESS, RILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.riladdress, rilapitypes/RILADDRESS"
 f1_keywords:
  - "ntddrilapitypes/RILADDRESS"

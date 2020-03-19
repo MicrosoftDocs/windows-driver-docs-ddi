@@ -5,6 +5,7 @@ description: Used in the DXGKARG_DESCRIBEALLOCATION.Flags member to describe whe
 old-location: display\dxgk_describeallocationflags.htm
 ms.assetid: f5cab74a-19ce-45d1-9c6f-461a98c4506c
 ms.date: 05/10/2018
+keywords: ["_DXGK_DESCRIBEALLOCATIONFLAGS structure"]
 ms.keywords: DXGK_DESCRIBEALLOCATIONFLAGS, DXGK_DESCRIBEALLOCATIONFLAGS structure [Display Devices], _DXGK_DESCRIBEALLOCATIONFLAGS, d3dkmddi/DXGK_DESCRIBEALLOCATIONFLAGS, display.dxgk_describeallocationflags
 f1_keywords:
  - "d3dkmddi/DXGK_DESCRIBEALLOCATIONFLAGS"

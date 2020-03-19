@@ -6,6 +6,7 @@ old-location: ifsk\rtl_splay_links.htm
 tech.root: ifsk
 ms.assetid: b035b101-2667-4962-ae49-781ddd30e0be
 ms.date: 04/16/2018
+keywords: ["_RTL_SPLAY_LINKS structure"]
 ms.keywords: "*PRTL_SPLAY_LINKS, PRTL_SPLAY_LINKS, PRTL_SPLAY_LINKS structure pointer [Installable File System Drivers], RTL_SPLAY_LINKS, RTL_SPLAY_LINKS structure [Installable File System Drivers], _RTL_SPLAY_LINKS, ifsk.rtl_splay_links, ntddk/PRTL_SPLAY_LINKS, ntddk/RTL_SPLAY_LINKS, othersystemstructures_3a91f0e3-8f7c-4f45-8707-2392d2637cf4.xml"
 f1_keywords:
  - "ntddk/RTL_SPLAY_LINKS"

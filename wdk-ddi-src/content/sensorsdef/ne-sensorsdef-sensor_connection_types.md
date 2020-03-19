@@ -4,6 +4,7 @@ title: SENSOR_CONNECTION_TYPES (sensorsdef.h)
 description: Defines the types of sensor device connections.
 ms.assetid: a2db361a-04a1-40d7-b8f3-ce8e554621f7
 ms.date: 08/03/2018
+keywords: ["SENSOR_CONNECTION_TYPES enumeration"]
 f1_keywords:
  - "sensorsdef/SENSOR_CONNECTION_TYPES"
 ms.keywords: SENSOR_CONNECTION_TYPES, SENSOR_CONNECTION_TYPES,

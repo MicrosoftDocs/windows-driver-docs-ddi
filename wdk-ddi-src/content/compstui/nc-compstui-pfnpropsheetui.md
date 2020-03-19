@@ -6,6 +6,7 @@ old-location: print\pfnpropsheetui.htm
 tech.root: print
 ms.assetid: b78d0dd7-1fe9-4b7e-8f51-4b5dc5fa2571
 ms.date: 04/20/2018
+keywords: ["PFNPROPSHEETUI callback function"]
 ms.keywords: PFNPROPSHEETUI, PFNPROPSHEETUI callback, PFNPROPSHEETUI callback function [Print Devices], compstui/PFNPROPSHEETUI, cpsuifnc_a30dfbce-634a-4eb9-b86c-fdd14d8333fd.xml, print.pfnpropsheetui
 f1_keywords:
  - "compstui/PFNPROPSHEETUI"

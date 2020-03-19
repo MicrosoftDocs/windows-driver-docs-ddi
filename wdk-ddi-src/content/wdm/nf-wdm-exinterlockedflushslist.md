@@ -6,6 +6,7 @@ old-location: kernel\exinterlockedflushslist.htm
 tech.root: kernel
 ms.assetid: 98fcada7-5160-4eb2-ac7c-0ab1192340a9
 ms.date: 04/30/2018
+keywords: ["ExInterlockedFlushSList macro"]
 ms.keywords: ExInterlockedFlushSList, ExInterlockedFlushSList routine [Kernel-Mode Driver Architecture], k102_493935e2-44c7-471b-807f-ca6f110d8155.xml, kernel.exinterlockedflushslist, wdm/ExInterlockedFlushSList
 f1_keywords:
  - "wdm/ExInterlockedFlushSList"

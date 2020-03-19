@@ -6,6 +6,7 @@ old-location: wdf\iwdfdevice_postevent.htm
 tech.root: wdf
 ms.assetid: 3df25c91-d421-48fe-958c-48bce3bc78b8
 ms.date: 02/26/2018
+keywords: ["IWDFDevice::PostEvent"]
 ms.keywords: IWDFDevice interface,PostEvent method, IWDFDevice.PostEvent, IWDFDevice::PostEvent, PostEvent, PostEvent method, PostEvent method,IWDFDevice interface, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, umdf.iwdfdevice_postevent, wdf.iwdfdevice_postevent, wudfddi/IWDFDevice::PostEvent
 f1_keywords:
  - "wudfddi/IWDFDevice.PostEvent"

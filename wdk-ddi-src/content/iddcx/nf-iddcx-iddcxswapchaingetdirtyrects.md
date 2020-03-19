@@ -6,6 +6,7 @@ old-location: display\iddcxswapchaingetdirtyrects.htm
 tech.root: display
 ms.assetid: 4ffe3c46-f729-4088-b69e-f39bc00f40a6
 ms.date: 05/10/2018
+keywords: ["IddCxSwapChainGetDirtyRects function"]
 ms.keywords: IddCxSwapChainGetDirtyRects, IddCxSwapChainGetDirtyRects method [Display Devices], display.iddcxswapchaingetdirtyrects, iddcx/IddCxSwapChainGetDirtyRects
 f1_keywords:
  - "iddcx/IddCxSwapChainGetDirtyRects"

@@ -6,6 +6,7 @@ old-location: wdf\wdfdeviceassignsxwakesettings.htm
 tech.root: wdf
 ms.assetid: af25d03f-32c5-4e2c-930f-1b905edc566b
 ms.date: 02/26/2018
+keywords: ["WdfDeviceAssignSxWakeSettings function"]
 ms.keywords: DFDeviceObjectGeneralRef_1a9b9467-862d-422a-9cf6-501d1ddefe5e.xml, WdfDeviceAssignSxWakeSettings, WdfDeviceAssignSxWakeSettings method, kmdf.wdfdeviceassignsxwakesettings, wdf.wdfdeviceassignsxwakesettings, wdfdevice/WdfDeviceAssignSxWakeSettings
 f1_keywords:
  - "wdfdevice/WdfDeviceAssignSxWakeSettings"

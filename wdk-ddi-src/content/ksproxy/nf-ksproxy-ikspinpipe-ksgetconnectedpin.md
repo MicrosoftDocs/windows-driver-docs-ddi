@@ -6,6 +6,7 @@ old-location: stream\ikspinpipe_ksgetconnectedpin.htm
 tech.root: stream
 ms.assetid: 9025E49D-A12B-4617-9441-13B61137853E
 ms.date: 04/23/2018
+keywords: ["IKsPinPipe::KsGetConnectedPin"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetConnectedPin method, IKsPinPipe.KsGetConnectedPin, IKsPinPipe::KsGetConnectedPin, KsGetConnectedPin, KsGetConnectedPin method [Streaming Media Devices], KsGetConnectedPin method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetConnectedPin, stream.ikspinpipe_ksgetconnectedpin
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsGetConnectedPin"

@@ -6,6 +6,7 @@ old-location: ifsk\fltoplockfsctrlex.htm
 tech.root: ifsk
 ms.assetid: 02adb7a7-0c1d-4dd4-bde2-f2e700a7ee76
 ms.date: 04/16/2018
+keywords: ["FltOplockFsctrlEx function"]
 ms.keywords: FltApiRef_e_to_o_fbf1fd08-c50d-41f9-8d13-5bd8f1265625.xml, FltOplockFsctrlEx, FltOplockFsctrlEx routine [Installable File System Drivers], fltkernel/FltOplockFsctrlEx, ifsk.fltoplockfsctrlex
 f1_keywords:
  - "fltkernel/FltOplockFsctrlEx"

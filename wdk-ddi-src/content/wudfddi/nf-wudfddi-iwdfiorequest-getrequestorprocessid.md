@@ -6,6 +6,7 @@ old-location: wdf\iwdfiorequest_getrequestorprocessid.htm
 tech.root: wdf
 ms.assetid: 8bad169a-3a89-460d-9e6e-e8c1994970a8
 ms.date: 02/26/2018
+keywords: ["IWDFIoRequest::GetRequestorProcessId"]
 ms.keywords: GetRequestorProcessId, GetRequestorProcessId method, GetRequestorProcessId method,IWDFIoRequest interface, IWDFIoRequest interface,GetRequestorProcessId method, IWDFIoRequest.GetRequestorProcessId, IWDFIoRequest::GetRequestorProcessId, UMDFRequestObjectRef_9464f328-c7a7-4126-896c-69bc4ab0b5ba.xml, umdf.iwdfiorequest_getrequestorprocessid, wdf.iwdfiorequest_getrequestorprocessid, wudfddi/IWDFIoRequest::GetRequestorProcessId
 f1_keywords:
  - "wudfddi/IWDFIoRequest.GetRequestorProcessId"

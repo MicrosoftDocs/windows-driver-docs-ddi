@@ -6,6 +6,7 @@ old-location: storage\ioctl_disk_get_cache_information.htm
 tech.root: storage
 ms.assetid: fc651954-2048-4358-91b0-4d99e38e9a67
 ms.date: 03/29/2018
+keywords: ["IOCTL_DISK_GET_CACHE_INFORMATION IOCTL"]
 ms.keywords: IOCTL_DISK_GET_CACHE_INFORMATION, IOCTL_DISK_GET_CACHE_INFORMATION control, IOCTL_DISK_GET_CACHE_INFORMATION control code [Storage Devices], k307_1471eb7a-169f-4653-9bfe-01714d6299b7.xml, ntdddisk/IOCTL_DISK_GET_CACHE_INFORMATION, storage.ioctl_disk_get_cache_information
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_GET_CACHE_INFORMATION"

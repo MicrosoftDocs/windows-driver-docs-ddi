@@ -5,6 +5,7 @@ description: The NdisTestNblFlag macro retrieves the current setting of a flag i
 tech.root: netvista
 ms.assetid: 39001bdc-f751-4c77-983c-3495efd46c87
 ms.date: 04/16/2018
+keywords: ["NdisTestNblFlag macro"]
 f1_keywords:
  - "ndis/NdisTestNblFlag"
 ms.keywords: NdisTestNblFlag

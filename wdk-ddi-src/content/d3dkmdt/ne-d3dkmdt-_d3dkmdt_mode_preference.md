@@ -6,6 +6,7 @@ old-location: display\d3dkmdt_mode_preference.htm
 tech.root: display
 ms.assetid: 5d18431d-ca35-4757-8bbe-9397abd31568
 ms.date: 05/10/2018
+keywords: ["_D3DKMDT_MODE_PREFERENCE enumeration"]
 ms.keywords: D3DKMDT_MODE_PREFERENCE, D3DKMDT_MODE_PREFERENCE enumeration [Display Devices], D3DKMDT_MP_NOTPREFERRED, D3DKMDT_MP_PREFERRED, D3DKMDT_MP_UNINITIALIZED, DmEnums_b5bdbc2e-4abe-4db7-8700-e34fc0125472.xml, _D3DKMDT_MODE_PREFERENCE, d3dkmdt/D3DKMDT_MODE_PREFERENCE, d3dkmdt/D3DKMDT_MP_NOTPREFERRED, d3dkmdt/D3DKMDT_MP_PREFERRED, d3dkmdt/D3DKMDT_MP_UNINITIALIZED, display.d3dkmdt_mode_preference
 f1_keywords:
  - "d3dkmdt/D3DKMDT_MODE_PREFERENCE"

@@ -6,6 +6,7 @@ old-location: netvista\rilresetmodemparams.htm
 tech.root: netvista
 ms.assetid: 6fde91f1-375e-4eaa-af48-67099b3e3227
 ms.date: 05/02/2018
+keywords: ["RILRESETMODEMPARAMS structure"]
 ms.keywords: "*LPRILRESETMODEMPARAMS, RILRESETMODEMPARAMS, RILRESETMODEMPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilresetmodemparams, ntddrilapitypes/RILRESETMODEMPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILRESETMODEMPARAMS"

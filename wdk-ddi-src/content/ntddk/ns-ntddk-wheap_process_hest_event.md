@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: 35c15ccb-8d4d-4247-b7db-ec0bd0864605
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
+keywords: ["WHEAP_PROCESS_HEST_EVENT structure"]
 f1_keywords:
  - "ntddk/WHEAP_PROCESS_HEST_EVENT"
 ms.keywords: WHEAP_PROCESS_HEST_EVENT, WHEAP_PROCESS_HEST_EVENT, *PWHEAP_PROCESS_HEST_EVENT, 

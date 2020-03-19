@@ -6,6 +6,7 @@ old-location: kernel\setd3coldsupport.htm
 tech.root: kernel
 ms.assetid: 423C621D-0AE3-468A-94A0-AA3922B410F0
 ms.date: 04/30/2018
+keywords: ["SET_D3COLD_SUPPORT callback function"]
 ms.keywords: SET_D3COLD_SUPPORT, SetD3ColdSupport, SetD3ColdSupport routine [Kernel-Mode Driver Architecture], kernel.setd3coldsupport, wdm/SetD3ColdSupport
 f1_keywords:
  - "wdm/SetD3ColdSupport"

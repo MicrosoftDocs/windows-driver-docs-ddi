@@ -6,6 +6,7 @@ old-location: storage\ioctl_disk_check_verify.htm
 tech.root: storage
 ms.assetid: bf2604fe-e7d3-43af-916e-b03979ee71aa
 ms.date: 03/29/2018
+keywords: ["IOCTL_DISK_CHECK_VERIFY IOCTL"]
 ms.keywords: IOCTL_DISK_CHECK_VERIFY, IOCTL_DISK_CHECK_VERIFY control, IOCTL_DISK_CHECK_VERIFY control code [Storage Devices], k307_6a32996e-8526-466a-bcbe-b79b8bacadc6.xml, ntdddisk/IOCTL_DISK_CHECK_VERIFY, storage.ioctl_disk_check_verify
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_CHECK_VERIFY"

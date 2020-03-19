@@ -6,6 +6,7 @@ old-location: wdf\evtdeviceremoveaddedresources.htm
 tech.root: wdf
 ms.assetid: b18c2b34-db6d-4553-9340-556da1fd7991
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES callback function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_c1020fff-8895-4ece-ae27-ef33d3a65de6.xml, EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES, EVT_WDF_DEVICE_REMOVE_ADDED_RESOURCES callback, EvtDeviceRemoveAddedResources, EvtDeviceRemoveAddedResources callback function, kmdf.evtdeviceremoveaddedresources, wdf.evtdeviceremoveaddedresources, wdffdo/EvtDeviceRemoveAddedResources
 f1_keywords:
  - "wdffdo/EvtDeviceRemoveAddedResources"

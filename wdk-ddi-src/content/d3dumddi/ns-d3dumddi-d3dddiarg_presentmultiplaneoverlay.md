@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_presentmultiplaneoverlay.htm
 tech.root: display
 ms.assetid: 862441ee-8a6e-4ddc-8dba-d3d990f45cfc
 ms.date: 05/10/2018
+keywords: ["D3DDDIARG_PRESENTMULTIPLANEOVERLAY structure"]
 ms.keywords: D3DDDIARG_PRESENTMULTIPLANEOVERLAY, D3DDDIARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices], d3dumddi/D3DDDIARG_PRESENTMULTIPLANEOVERLAY, display.d3dddiarg_presentmultiplaneoverlay
 f1_keywords:
  - "d3dumddi/D3DDDIARG_PRESENTMULTIPLANEOVERLAY"

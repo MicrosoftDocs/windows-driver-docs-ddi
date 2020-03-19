@@ -4,6 +4,7 @@ title: IDataModelManager2::CreateSyntheticObject (dbgmodel.h)
 description: The CreateSyntheticObject method creates an empty data model object -- a dictionary of key/value/metadata tuples and concepts.
 ms.assetid: 039a1b6e-6b9d-47fd-9c18-c65640daca3a
 ms.date: 09/11/2018
+keywords: ["IDataModelManager2::CreateSyntheticObject"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.CreateSyntheticObject"
 ms.keywords: IDataModelManager2::CreateSyntheticObject, CreateSyntheticObject, IDataModelManager2.CreateSyntheticObject, IDataModelManager2::CreateSyntheticObject, IDataModelManager2.CreateSyntheticObject

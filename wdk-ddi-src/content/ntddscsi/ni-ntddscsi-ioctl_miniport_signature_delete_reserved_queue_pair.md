@@ -6,6 +6,7 @@ ms.author: misaso
 description: 
 ms.assetid: 50e2ad9f-3bb1-49e8-a694-6e0b28201aec
 ms.date: 10/19/2018
+keywords: ["IOCTL_MINIPORT_SIGNATURE_DELETE_RESERVED_QUEUE_PAIR IOCTL"]
 f1_keywords:
  - "ntddscsi/IOCTL_MINIPORT_SIGNATURE_DELETE_RESERVED_QUEUE_PAIR"
 req.header: ntddscsi.h

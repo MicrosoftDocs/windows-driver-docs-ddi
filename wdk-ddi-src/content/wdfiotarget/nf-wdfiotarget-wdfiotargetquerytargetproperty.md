@@ -6,6 +6,7 @@ old-location: wdf\wdfiotargetquerytargetproperty.htm
 tech.root: wdf
 ms.assetid: 00987914-9fe2-4245-b463-ef362e31679d
 ms.date: 02/26/2018
+keywords: ["WdfIoTargetQueryTargetProperty function"]
 ms.keywords: DFIOTargetRef_33739a99-4af2-4e90-92e5-b75e785f1c2c.xml, WdfIoTargetQueryTargetProperty, WdfIoTargetQueryTargetProperty method, kmdf.wdfiotargetquerytargetproperty, wdf.wdfiotargetquerytargetproperty, wdfiotarget/WdfIoTargetQueryTargetProperty
 f1_keywords:
  - "wdfiotarget/WdfIoTargetQueryTargetProperty"

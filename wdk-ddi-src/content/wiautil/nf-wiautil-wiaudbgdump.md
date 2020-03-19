@@ -6,6 +6,7 @@ old-location: image\wiaudbgdump.htm
 tech.root: image
 ms.assetid: 5df074ff-572d-47f7-9c5c-4423b200cddc
 ms.date: 05/03/2018
+keywords: ["wiauDbgDump function"]
 ms.keywords: image.wiaudbgdump, wiauDbgDump, wiauDbgDump function [Imaging Devices], wiauFncs_dbe56add-64ef-442d-9824-ed0b26aba9ac.xml, wiautil/wiauDbgDump
 f1_keywords:
  - "wiautil/wiauDbgDump"

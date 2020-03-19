@@ -5,6 +5,7 @@ description: Contains the compressed bitstream from which to decode.
 old-location: display\d3d12ddi_video_decode_compressed_bitstream.htm
 ms.assetid: 24A1D8C7-E432-45CB-8DEA-C1137159E319
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020, D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020, display.d3d12ddi_video_decode_compressed_bitstream
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0020"

@@ -6,6 +6,7 @@ old-location: display\videoportwriteregisterbufferuchar.htm
 tech.root: display
 ms.assetid: 43ceb589-e90f-4090-88ed-ada813ac6a6f
 ms.date: 05/10/2018
+keywords: ["VideoPortWriteRegisterBufferUchar function"]
 ms.keywords: VideoPortWriteRegisterBufferUchar, VideoPortWriteRegisterBufferUchar function [Display Devices], VideoPort_Functions_5a9ee1e8-744e-4141-993d-1a1710599431.xml, display.videoportwriteregisterbufferuchar, video/VideoPortWriteRegisterBufferUchar
 f1_keywords:
  - "video/VideoPortWriteRegisterBufferUchar"

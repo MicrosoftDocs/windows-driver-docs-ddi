@@ -6,6 +6,7 @@ old-location: kernel\rtlisservicepackversioninstalled.htm
 tech.root: kernel
 ms.assetid: 1314ffb5-e6e2-4c22-bc67-388da3bcbe79
 ms.date: 04/30/2018
+keywords: ["RtlIsServicePackVersionInstalled function"]
 ms.keywords: RtlIsServicePackVersionInstalled, RtlIsServicePackVersionInstalled routine [Kernel-Mode Driver Architecture], k109_1552acd9-7036-45d2-bd1c-57b7a2154ecb.xml, kernel.rtlisservicepackversioninstalled, wdm/RtlIsServicePackVersionInstalled
 f1_keywords:
  - "wdm/RtlIsServicePackVersionInstalled"

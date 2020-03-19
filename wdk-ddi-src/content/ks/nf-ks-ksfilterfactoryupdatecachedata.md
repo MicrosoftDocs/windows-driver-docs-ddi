@@ -6,6 +6,7 @@ old-location: stream\ksfilterfactoryupdatecachedata.htm
 tech.root: stream
 ms.assetid: a5c868a5-0e79-482b-9694-02cae2de99ca
 ms.date: 04/23/2018
+keywords: ["KsFilterFactoryUpdateCacheData function"]
 ms.keywords: KsFilterFactoryUpdateCacheData, KsFilterFactoryUpdateCacheData function [Streaming Media Devices], avfunc_2fdbd12c-b074-415e-8de3-bfbe61ef198a.xml, ks/KsFilterFactoryUpdateCacheData, stream.ksfilterfactoryupdatecachedata
 f1_keywords:
  - "ks/KsFilterFactoryUpdateCacheData"

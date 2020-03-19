@@ -5,6 +5,7 @@ description: Used to extract the bundle object.
 old-location: display\d3dkmtextractbundleobject.htm
 ms.assetid: f3193d5b-084f-4df1-9688-26ba5a964cca
 ms.date: 05/10/2018
+keywords: ["D3DKMTExtractBundleObject function"]
 ms.keywords: D3DKMTExtractBundleObject, D3DKMTExtractBundleObject method [Display Devices], d3dkmthk/D3DKMTExtractBundleObject, display.d3dkmtextractbundleobject
 f1_keywords:
  - "d3dkmthk/D3DKMTExtractBundleObject"

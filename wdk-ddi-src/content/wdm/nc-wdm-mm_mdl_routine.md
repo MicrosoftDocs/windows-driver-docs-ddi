@@ -6,6 +6,7 @@ old-location: kernel\mm_mdl_routine.htm
 tech.root: kernel
 ms.assetid: D8D946C9-8642-4D31-B983-DAF88B46B97B
 ms.date: 04/30/2018
+keywords: ["MM_MDL_ROUTINE callback function"]
 ms.keywords: "*PMM_MDL_ROUTINE, *PMM_MDL_ROUTINE callback function [Kernel-Mode Driver Architecture], MM_MDL_ROUTINE, MM_MDL_ROUTINE callback, MmMdlRoutine, MmMdlRoutine callback function [Kernel-Mode Driver Architecture], kernel.mm_mdl_routine, wdm/MmMdlRoutine"
 f1_keywords:
  - "wdm/*PMM_MDL_ROUTINE"

@@ -6,6 +6,7 @@ old-location: wdf\wdf_interrupt_info_umdf.htm
 tech.root: wdf
 ms.assetid: 37B997D1-6F5D-4685-BF46-2C33685C157F
 ms.date: 02/26/2018
+keywords: ["_WDF_INTERRUPT_INFO structure"]
 ms.keywords: "*PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, WDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure, _WDF_INTERRUPT_INFO, umdf.wdf_interrupt_info, wdf.wdf_interrupt_info_umdf, wudfinterrupt/PWDF_INTERRUPT_INFO, wudfinterrupt/WDF_INTERRUPT_INFO"
 f1_keywords:
  - "wudfinterrupt/WDF_INTERRUPT_INFO"

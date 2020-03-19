@@ -3,6 +3,7 @@ UID: NA:wudfddi_types
 title: Wudfddi_Types.h header
 ms.assetid: 4b61f22a-ca30-3fe9-9635-a2872e82d5dd
 ms.date: 05/09/2018
+keywords: ["Wudfddi_Types.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

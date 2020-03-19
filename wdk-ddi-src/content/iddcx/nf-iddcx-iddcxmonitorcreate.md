@@ -6,6 +6,7 @@ old-location: display\iddcxmonitorcreate.htm
 tech.root: display
 ms.assetid: 2e089827-dd50-43cb-9e1a-34c439780831
 ms.date: 05/10/2018
+keywords: ["IddCxMonitorCreate function"]
 ms.keywords: IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], display.iddcxmonitorcreate, iddcx/IddCxMonitorCreate
 f1_keywords:
  - "iddcx/IddCxMonitorCreate"

@@ -4,6 +4,7 @@ title: IDebugHostData::GetSymbolKind (dbgmodel.h)
 description: Gets the kind of symbol that this is (that is a field, a base class, a type, etc...)
 ms.assetid: d4eb760e-3030-41b4-b83d-809bb2da8f3e
 ms.date: 09/10/2018
+keywords: ["IDebugHostData::GetSymbolKind"]
 f1_keywords:
  - "dbgmodel/IDebugHostData.GetSymbolKind"
 ms.keywords: IDebugHostData::GetSymbolKind, GetSymbolKind, IDebugHostData.GetSymbolKind, IDebugHostData::GetSymbolKind, IDebugHostData.GetSymbolKind

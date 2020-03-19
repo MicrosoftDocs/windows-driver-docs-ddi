@@ -5,6 +5,7 @@ description: DXGKARG_CREATEPROCESS is used with DxgkDdiCreateProcess to create a
 old-location: display\dxgkarg_createprocess.htm
 ms.assetid: F4FDF254-1C36-43DC-B1FD-376AD7658E61
 ms.date: 05/10/2018
+keywords: ["_DXGKARG_CREATEPROCESS structure"]
 ms.keywords: "*INOUT_PDXGKARG_CREATEPROCESS, DXGKARG_CREATEPROCESS, DXGKARG_CREATEPROCESS structure [Display Devices], _DXGKARG_CREATEPROCESS, d3dkmddi/DXGKARG_CREATEPROCESS, display.dxgkarg_createprocess"
 f1_keywords:
  - "d3dkmddi/DXGKARG_CREATEPROCESS"

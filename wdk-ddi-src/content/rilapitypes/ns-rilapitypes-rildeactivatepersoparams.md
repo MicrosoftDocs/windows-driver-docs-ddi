@@ -6,6 +6,7 @@ old-location: netvista\rildeactivatepersoparams.htm
 tech.root: netvista
 ms.assetid: 408ae5d4-f83f-4e4a-9850-a7bae70a2da2
 ms.date: 05/02/2018
+keywords: ["RILDEACTIVATEPERSOPARAMS structure"]
 ms.keywords: "*LPRILDEACTIVATEPERSOPARAMS, RILDEACTIVATEPERSOPARAMS, RILDEACTIVATEPERSOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeactivatepersoparams, ntddrilapitypes/RILDEACTIVATEPERSOPARAMS"
 f1_keywords:
  - "rilapitypes/RILDEACTIVATEPERSOPARAMS"

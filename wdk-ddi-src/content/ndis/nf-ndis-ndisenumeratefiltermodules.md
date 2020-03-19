@@ -6,6 +6,7 @@ old-location: netvista\ndisenumeratefiltermodules.htm
 tech.root: netvista
 ms.assetid: cab7609e-cf87-46f6-af23-891e19ef1b80
 ms.date: 05/02/2018
+keywords: ["NdisEnumerateFilterModules function"]
 ms.keywords: NdisEnumerateFilterModules, NdisEnumerateFilterModules function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_3caad0fd-b579-4787-bebb-b1a93726cbf0.xml, ndis/NdisEnumerateFilterModules, netvista.ndisenumeratefiltermodules
 f1_keywords:
  - "ndis/NdisEnumerateFilterModules"

@@ -6,6 +6,7 @@ old-location: print\wcsenumcolorprofilessize.htm
 tech.root: print
 ms.assetid: bcd9c781-aa44-4e90-9290-c9f13b192cae
 ms.date: 04/20/2018
+keywords: ["WcsEnumColorProfilesSize function"]
 ms.keywords: WcsEnumColorProfilesSize, WcsEnumColorProfilesSize function [Print Devices], colorfnc_dec9b73e-e492-4fed-841f-bbc0c8a5f225.xml, icm/WcsEnumColorProfilesSize, print.wcsenumcolorprofilessize
 ms.topic: function
 req.header: icm.h

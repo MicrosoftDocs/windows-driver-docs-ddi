@@ -6,6 +6,7 @@ old-location: dtf\iwdtftargets2_getinterfaces.htm
 tech.root: dtf
 ms.assetid: 8e9735b2-23d3-4fe6-8184-31e7707b6400
 ms.date: 04/04/2018
+keywords: ["IWDTFTargets2::GetInterfaces"]
 ms.keywords: GetInterfaces, GetInterfaces method [Windows Device Testing Framework], GetInterfaces method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],GetInterfaces method, IWDTFTargets2.GetInterfaces, IWDTFTargets2::GetInterfaces, Microsoft.WDTF.IWDTFTargets2.GetInterfaces, Microsoft::WDTF::IWDTFTargets2::GetInterfaces, dtf.iwdtftargets2_getinterfaces, wdtf/IWDTFTargets2::GetInterfaces
 f1_keywords:
  - "wdtf/IWDTFTargets2.GetInterfaces"

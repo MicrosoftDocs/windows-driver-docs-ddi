@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 95c6bbed-9ae6-44cf-93ae-492d939e7d54
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
+keywords: ["DlQueryServices function"]
 f1_keywords:
  - "dispmprt/DlQueryServices"
 ms.keywords: DlQueryServices

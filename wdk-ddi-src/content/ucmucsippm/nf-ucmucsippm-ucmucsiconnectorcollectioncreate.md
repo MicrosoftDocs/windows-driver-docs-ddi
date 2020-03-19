@@ -5,6 +5,7 @@ tech.root: usbref
 description: Creates a connector collection object with UcmUcsiCx.
 ms.assetid: 60a87133-87f2-4f4a-92b7-78c2562b88f5
 ms.date: 09/30/2018
+keywords: ["UcmUcsiConnectorCollectionCreate function"]
 f1_keywords:
  - "ucmucsippm/UcmUcsiConnectorCollectionCreate"
 ms.keywords: UcmUcsiConnectorCollectionCreate

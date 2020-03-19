@@ -6,6 +6,7 @@ old-location: kernel\mmallocatecontiguousnodememory.htm
 tech.root: kernel
 ms.assetid: 08960797-4846-46D4-8DD9-3A935EAD7D48
 ms.date: 04/30/2018
+keywords: ["MmAllocateContiguousNodeMemory function"]
 ms.keywords: MmAllocateContiguousNodeMemory, MmAllocateContiguousNodeMemory routine [Kernel-Mode Driver Architecture], kernel.mmallocatecontiguousnodememory, wdm/MmAllocateContiguousNodeMemory
 f1_keywords:
  - "ntddk/MmAllocateContiguousNodeMemory"

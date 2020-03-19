@@ -6,6 +6,7 @@ old-location: wdf\iwdfcmresourcelist_getdescriptor.htm
 tech.root: wdf
 ms.assetid: 5E870D10-A03B-4CD8-A2DD-54A6AB527DB2
 ms.date: 02/26/2018
+keywords: ["IWDFCmResourceList::GetDescriptor"]
 ms.keywords: GetDescriptor, GetDescriptor method, GetDescriptor method,IWDFCmResourceList interface, IWDFCmResourceList interface,GetDescriptor method, IWDFCmResourceList.GetDescriptor, IWDFCmResourceList::GetDescriptor, umdf.iwdfcmresourcelist_getdescriptor, wdf.iwdfcmresourcelist_getdescriptor, wudfddi/IWDFCmResourceList::GetDescriptor
 f1_keywords:
  - "wudfddi/IWDFCmResourceList.GetDescriptor"

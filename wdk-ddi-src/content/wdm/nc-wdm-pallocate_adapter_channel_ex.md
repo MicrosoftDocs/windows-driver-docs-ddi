@@ -6,6 +6,7 @@ old-location: kernel\allocateadapterchannelex.htm
 tech.root: kernel
 ms.assetid: BF255782-0C3E-4F36-BD38-79CE88E7F37D
 ms.date: 04/30/2018
+keywords: ["PALLOCATE_ADAPTER_CHANNEL_EX callback function"]
 ms.keywords: AllocateAdapterChannelEx, AllocateAdapterChannelEx callback function [Kernel-Mode Driver Architecture], DMA_SYNCHRONOUS_CALLBACK, PALLOCATE_ADAPTER_CHANNEL_EX, PALLOCATE_ADAPTER_CHANNEL_EX callback, kernel.allocateadapterchannelex, wdm/AllocateAdapterChannelEx
 f1_keywords:
  - "wdm/AllocateAdapterChannelEx"

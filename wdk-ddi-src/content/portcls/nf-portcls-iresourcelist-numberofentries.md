@@ -6,6 +6,7 @@ old-location: audio\iresourcelist_numberofentries.htm
 tech.root: audio
 ms.assetid: cb882170-5c8e-455d-89a6-b09ca77e63fb
 ms.date: 05/08/2018
+keywords: ["IResourceList::NumberOfEntries"]
 ms.keywords: IResourceList interface [Audio Devices],NumberOfEntries method, IResourceList.NumberOfEntries, IResourceList::NumberOfEntries, NumberOfEntries, NumberOfEntries method [Audio Devices], NumberOfEntries method [Audio Devices],IResourceList interface, audio.iresourcelist_numberofentries, audmp-routines_65fc1416-83e5-4cb6-b362-3133affd5448.xml, portcls/IResourceList::NumberOfEntries
 f1_keywords:
  - "portcls/IResourceList.NumberOfEntries"

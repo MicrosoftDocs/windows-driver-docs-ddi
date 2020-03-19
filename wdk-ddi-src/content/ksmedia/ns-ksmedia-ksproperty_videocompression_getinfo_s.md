@@ -6,6 +6,7 @@ old-location: stream\ksproperty_videocompression_getinfo_s.htm
 tech.root: stream
 ms.assetid: a34f051e-9769-427e-b1a7-2718a023e9d1
 ms.date: 04/30/2019
+keywords: ["KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S structure"]
 ms.keywords: "*PKSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, PKSPROPERTY_VIDEOCOMPRESSION_GETINFO_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, ksmedia/PKSPROPERTY_VIDEOCOMPRESSION_GETINFO_S, stream.ksproperty_videocompression_getinfo_s, vidcapstruct_28f47a4f-d28e-40b4-acc5-42835ec89b40.xml"
 f1_keywords:
  - "ksmedia/KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S"

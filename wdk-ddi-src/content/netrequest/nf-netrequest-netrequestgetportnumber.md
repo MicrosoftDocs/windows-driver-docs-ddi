@@ -5,6 +5,7 @@ description: Retrieves the port number for the network request object.
 tech.root: netvista
 ms.assetid: edf2d400-bfde-4cec-8164-7908cc008cf2
 ms.date: 02/08/2018
+keywords: ["NetRequestGetPortNumber function"]
 f1_keywords:
  - "netrequest/NetRequestGetPortNumber"
 ms.keywords: NetRequestGetPortNumber

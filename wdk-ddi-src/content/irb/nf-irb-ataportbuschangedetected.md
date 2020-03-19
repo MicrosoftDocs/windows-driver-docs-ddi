@@ -6,6 +6,7 @@ old-location: storage\ataportbuschangedetected.htm
 tech.root: storage
 ms.assetid: e5a3d4dc-7446-49c1-985a-9d3a9d43dc15
 ms.date: 03/29/2018
+keywords: ["AtaPortBusChangeDetected function"]
 ms.keywords: AtaPortBusChangeDetected, AtaPortBusChangeDetected routine [Storage Devices], irb/AtaPortBusChangeDetected, storage.ataportbuschangedetected
 f1_keywords:
  - "irb/AtaPortBusChangeDetected"

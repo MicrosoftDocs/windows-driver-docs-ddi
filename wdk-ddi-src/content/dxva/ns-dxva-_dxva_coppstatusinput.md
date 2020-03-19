@@ -6,6 +6,7 @@ old-location: display\dxva_coppstatusinput.htm
 tech.root: display
 ms.assetid: 693411e9-16d1-42eb-9848-d28876a91b38
 ms.date: 05/10/2018
+keywords: ["_DXVA_COPPStatusInput structure"]
 ms.keywords: "*LPDXVA_COPPStatusInput, DXVA_COPPStatusInput, DXVA_COPPStatusInput structure [Display Devices], LPDXVA_COPPStatusInput, LPDXVA_COPPStatusInput structure pointer [Display Devices], _DXVA_COPPStatusInput, display.dxva_coppstatusinput, dxva/DXVA_COPPStatusInput, dxva/LPDXVA_COPPStatusInput, dxvaref_d6441478-0fb0-4643-97ec-dbd1ecd90e92.xml"
 f1_keywords:
  - "dxva/DXVA_COPPStatusInput"

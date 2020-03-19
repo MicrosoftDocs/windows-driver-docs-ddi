@@ -6,6 +6,7 @@ old-location: buses\ioctl_internal_usbfn_set_power_filter_state.htm
 tech.root: usbref
 ms.assetid: 2C010516-500A-4CA2-B6FE-20333E7CCC39
 ms.date: 05/07/2018
+keywords: ["IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE, IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE control, IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE control code [Buses], buses.ioctl_internal_usbfn_set_power_filter_state, usbfnioctl/IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE"

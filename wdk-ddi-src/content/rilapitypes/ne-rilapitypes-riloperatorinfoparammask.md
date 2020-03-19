@@ -6,6 +6,7 @@ old-location: netvista\riloperatorinfoparammask.htm
 tech.root: netvista
 ms.assetid: 5ea7bf77-2069-4335-862e-7f805f3a7491
 ms.date: 05/02/2018
+keywords: ["RILOPERATORINFOPARAMMASK enumeration"]
 ms.keywords: RILOPERATORINFOPARAMMASK, RILOPERATORINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_OI_ALL, RIL_PARAM_OI_NAMES, RIL_PARAM_OI_STATUS, netvista.riloperatorinfoparammask, ntddrilapitypes/RILOPERATORINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_OI_ALL, ntddrilapitypes/RIL_PARAM_OI_NAMES, ntddrilapitypes/RIL_PARAM_OI_STATUS
 f1_keywords:
  - "rilapitypes/RILOPERATORINFOPARAMMASK"

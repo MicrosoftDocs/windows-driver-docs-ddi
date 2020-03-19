@@ -6,6 +6,7 @@ old-location: stream\ksdereferencebusobject.htm
 tech.root: stream
 ms.assetid: 5520685c-c438-460b-aac5-791098e14044
 ms.date: 04/23/2018
+keywords: ["KsDereferenceBusObject function"]
 ms.keywords: KsDereferenceBusObject, KsDereferenceBusObject function [Streaming Media Devices], ks/KsDereferenceBusObject, ksfunc_e3b1ab42-bb78-44f7-bc34-64edcf843471.xml, stream.ksdereferencebusobject
 f1_keywords:
  - "ks/KsDereferenceBusObject"

@@ -6,6 +6,7 @@ old-location: display\updatewinfo.htm
 tech.root: display
 ms.assetid: e9cd87b9-3958-4b10-895d-480e03ebea76
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_UPDATEWINFO callback function"]
 ms.keywords: PFND3DDDI_UPDATEWINFO, PFND3DDDI_UPDATEWINFO callback, UpdateWInfo, UpdateWInfo callback function [Display Devices], UserModeDisplayDriver_Functions_c829f8ef-b1fd-49ef-a9f0-cf92232bdb4f.xml, d3dumddi/UpdateWInfo, display.updatewinfo
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

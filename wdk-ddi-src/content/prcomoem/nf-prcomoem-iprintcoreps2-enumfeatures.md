@@ -6,6 +6,7 @@ old-location: print\iprintcoreps2_enumfeatures.htm
 tech.root: print
 ms.assetid: 0a8d1b25-da39-4bdc-a7d7-0d472e94e165
 ms.date: 04/20/2018
+keywords: ["IPrintCorePS2::EnumFeatures"]
 ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],EnumFeatures method, IPrintCorePS2.EnumFeatures, IPrintCorePS2::EnumFeatures, prcomoem/IPrintCorePS2::EnumFeatures, print.iprintcoreps2_enumfeatures, print_unidrv-pscript_rendering_18d27b1c-4ccd-4fba-afe4-e50a1b97910b.xml
 f1_keywords:
  - "prcomoem/IPrintCorePS2.EnumFeatures"

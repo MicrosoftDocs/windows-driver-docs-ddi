@@ -6,6 +6,7 @@ old-location: storage\device_dsm_offload_write_parameters.htm
 tech.root: storage
 ms.assetid: B0E9DABD-0D5B-4F5D-8CB0-470AC126F9C0
 ms.date: 08/23/2019
+keywords: ["_DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure"]
 ms.keywords: "*PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure [Storage Devices], PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure pointer [Storage Devices], _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, ntddstor/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, ntddstor/PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, storage.device_dsm_offload_write_parameters"
 f1_keywords:
  - "ntddstor/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS"

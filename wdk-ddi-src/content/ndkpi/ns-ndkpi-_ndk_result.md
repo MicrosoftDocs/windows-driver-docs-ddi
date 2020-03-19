@@ -6,6 +6,7 @@ old-location: netvista\ndk_result.htm
 tech.root: netvista
 ms.assetid: B7898C81-E90D-4210-BEAE-1E629FCD7195
 ms.date: 05/02/2018
+keywords: ["_NDK_RESULT structure"]
 ms.keywords: NDK_RESULT, NDK_RESULT structure [Network Drivers Starting with Windows Vista], _NDK_RESULT, ndkpi/NDK_RESULT, netvista.ndk_result
 f1_keywords:
  - "ndkpi/NDK_RESULT"

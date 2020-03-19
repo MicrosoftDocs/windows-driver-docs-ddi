@@ -6,6 +6,7 @@ old-location: ifsk\fltgetsectioncontext.htm
 tech.root: ifsk
 ms.assetid: 0B5C1BF9-59C3-4AC9-B545-FD7260B75E90
 ms.date: 04/16/2018
+keywords: ["FltGetSectionContext function"]
 ms.keywords: FltGetSectionContext, FltGetSectionContext routine [Installable File System Drivers], fltkernel/FltGetSectionContext, ifsk.fltgetsectioncontext
 f1_keywords:
  - "fltkernel/FltGetSectionContext"
