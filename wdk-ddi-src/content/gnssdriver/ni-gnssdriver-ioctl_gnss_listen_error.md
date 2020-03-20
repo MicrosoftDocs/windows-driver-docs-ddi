@@ -69,7 +69,7 @@ Set to 0.
 
 ### -output-buffer
 
-A pointer to a GNSS_EVENT structure.
+A pointer to a [GNSS_EVENT](https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_event) structure.
 
 The EventType must be set to GNSS_Event_Error and the ErrorCode, IsRecoverable and ErrorDescription members of ErrorInformation filled in.
 
