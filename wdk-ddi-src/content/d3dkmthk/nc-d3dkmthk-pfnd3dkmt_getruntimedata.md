@@ -5,6 +5,7 @@ description: The D3DKMTGetRuntimeData function is for system use only.
 old-location: display\d3dkmtgetruntimedata.htm
 ms.assetid: a73ebde8-a1d5-4f97-8457-1f01244bb266
 ms.date: 05/10/2018
+keywords: ["PFND3DKMT_GETRUNTIMEDATA callback function"]
 ms.keywords: D3DKMTGetRuntimeData, D3DKMTGetRuntimeData callback function [Display Devices], OpenGL_Functions_c2273a4f-9a28-41b5-97c2-daa8eaa9f128.xml, PFND3DKMT_GETRUNTIMEDATA, PFND3DKMT_GETRUNTIMEDATA callback, d3dkmthk/D3DKMTGetRuntimeData, display.d3dkmtgetruntimedata
 f1_keywords:
  - "d3dkmthk/D3DKMTGetRuntimeData"

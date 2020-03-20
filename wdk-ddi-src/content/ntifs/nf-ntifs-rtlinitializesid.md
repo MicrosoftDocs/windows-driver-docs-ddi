@@ -6,6 +6,7 @@ old-location: ifsk\rtlinitializesid.htm
 tech.root: ifsk
 ms.assetid: 6b87483f-8d5e-4e1d-839d-2271990dcbaa
 ms.date: 04/16/2018
+keywords: ["RtlInitializeSid function"]
 ms.keywords: RtlInitializeSid, RtlInitializeSid routine [Installable File System Drivers], ifsk.rtlinitializesid, ntifs/RtlInitializeSid, rtlref_fbcc1ed7-4929-415f-9644-b8d9521a5c1a.xml
 f1_keywords:
  - "ntifs/RtlInitializeSid"

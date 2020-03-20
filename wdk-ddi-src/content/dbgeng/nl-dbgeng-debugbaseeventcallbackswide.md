@@ -6,6 +6,7 @@ old-location: debugger\debugbaseeventcallbackswide.htm
 tech.root: debugger
 ms.assetid: 38AD8472-1BA3-42EA-99CE-E91098A5B334
 ms.date: 05/03/2018
+keywords: ["DebugBaseEventCallbacksWide class"]
 ms.keywords: DebugBaseEventCallbacksWide, DebugBaseEventCallbacksWide class [Windows Debugging], DebugBaseEventCallbacksWide class [Windows Debugging],described, dbgeng/DebugBaseEventCallbacksWide, debugger.debugbaseeventcallbackswide
 f1_keywords:
  - "dbgeng/DebugBaseEventCallbacksWide"

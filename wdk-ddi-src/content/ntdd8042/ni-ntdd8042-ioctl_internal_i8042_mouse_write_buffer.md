@@ -6,6 +6,7 @@ old-location: hid\ioctl_internal_i8042_mouse_write_buffer.htm
 tech.root: hid
 ms.assetid: 40f6fd0b-8c18-408b-b1f7-5b280b9aa67d
 ms.date: 04/30/2018
+keywords: ["IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER IOCTL"]
 ms.keywords: IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER, IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER control, IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER control code [Human Input Devices], hid.ioctl_internal_i8042_mouse_write_buffer, i8042ref_660499b1-32f5-4343-b0a2-176d03d0270c.xml, ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER
 f1_keywords:
  - "ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER"

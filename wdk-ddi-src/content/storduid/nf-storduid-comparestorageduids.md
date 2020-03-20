@@ -6,6 +6,7 @@ old-location: storage\comparestorageduids.htm
 tech.root: storage
 ms.assetid: bf66a04d-0892-4813-9615-845054526125
 ms.date: 03/29/2018
+keywords: ["CompareStorageDuids function"]
 ms.keywords: CompareStorageDuids, CompareStorageDuids routine [Storage Devices], storage.comparestorageduids, storduid/CompareStorageDuids, storertns-general_86f18b5a-ed33-48e8-b13c-76bd2422418d.xml
 f1_keywords:
  - "storduid/CompareStorageDuids"

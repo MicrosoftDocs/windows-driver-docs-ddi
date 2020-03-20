@@ -6,6 +6,7 @@ old-location: image\wiassetvalidflag.htm
 tech.root: image
 ms.assetid: 86690e6f-4b30-4de9-b380-8939ed983027
 ms.date: 05/03/2018
+keywords: ["wiasSetValidFlag function"]
 ms.keywords: image.wiassetvalidflag, wiamdef/wiasSetValidFlag, wiasFncs_4c84b6c9-20fe-4894-b3fc-f7d84742827a.xml, wiasSetValidFlag, wiasSetValidFlag function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasSetValidFlag"

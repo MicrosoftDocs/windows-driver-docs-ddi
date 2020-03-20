@@ -5,6 +5,7 @@ description: The DXGKARG_CREATEOVERLAY structure describes parameters to create 
 old-location: display\dxgkarg_createoverlay.htm
 ms.assetid: f95ef083-2b2f-4e13-ad60-6bc7da0fec33
 ms.date: 05/10/2018
+keywords: ["_DXGKARG_CREATEOVERLAY structure"]
 ms.keywords: "*INOUT_PDXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY structure [Display Devices], DmStructs_935ab2cb-070a-4700-8ace-62c4c44c42b5.xml, _DXGKARG_CREATEOVERLAY, d3dkmddi/DXGKARG_CREATEOVERLAY, display.dxgkarg_createoverlay"
 f1_keywords:
  - "d3dkmddi/DXGKARG_CREATEOVERLAY"

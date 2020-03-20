@@ -6,6 +6,7 @@ old-location: gnss\gnss_stopfixsession_param.htm
 tech.root: gnss
 ms.assetid: 37D56DC0-C35B-4651-93E9-28AF76041D5D
 ms.date: 02/15/2018
+keywords: ["GNSS_STOPFIXSESSION_PARAM structure"]
 ms.keywords: "*PGNSS_STOPFIXSESSION_PARAM, GNSS_STOPFIXSESSION_PARAM, GNSS_STOPFIXSESSION_PARAM structure [Sensor Devices], PGNSS_STOPFIXSESSION_PARAM, PGNSS_STOPFIXSESSION_PARAM structure pointer [Sensor Devices], gnss.gnss_stopfixsession_param, gnssdriver/GNSS_STOPFIXSESSION_PARAM, gnssdriver/PGNSS_STOPFIXSESSION_PARAM"
 f1_keywords:
  - "gnssdriver/GNSS_STOPFIXSESSION_PARAM"

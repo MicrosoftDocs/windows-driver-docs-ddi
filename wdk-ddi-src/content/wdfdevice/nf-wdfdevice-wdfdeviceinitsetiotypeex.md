@@ -6,6 +6,7 @@ old-location: wdf\wdfdeviceinitsetiotypeex.htm
 tech.root: wdf
 ms.assetid: 3746D618-C92C-43AB-A45A-2188D572105D
 ms.date: 02/26/2018
+keywords: ["WdfDeviceInitSetIoTypeEx function"]
 ms.keywords: WdfDeviceInitSetIoTypeEx, WdfDeviceInitSetIoTypeEx method, wdf.wdfdeviceinitassigniotype, wdf.wdfdeviceinitsetiotypeex, wdfdevice/WdfDeviceInitSetIoTypeEx
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetIoTypeEx"

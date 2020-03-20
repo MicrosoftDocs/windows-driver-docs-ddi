@@ -6,6 +6,7 @@ old-location: display\d3dkmdt_2dregion.htm
 tech.root: display
 ms.assetid: 24f703c5-d025-4233-a32d-7cb8bcb5c6b7
 ms.date: 05/10/2018
+keywords: ["_D3DKMDT_2DREGION structure"]
 ms.keywords: D3DKMDT_2DOFFSET, D3DKMDT_2DREGION, D3DKMDT_2DREGION structure [Display Devices], DmStructs_8f1640ee-c790-4617-a1fe-913510b2cfad.xml, _D3DKMDT_2DREGION, d3dkmdt/D3DKMDT_2DREGION, display.d3dkmdt_2dregion
 f1_keywords:
  - "d3dkmdt/D3DKMDT_2DREGION"

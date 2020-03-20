@@ -5,6 +5,7 @@ description: In calls to the Flush(D3D11_1) function, indicates whether the driv
 old-location: display\d3d11_1_ddi_flush_flags.htm
 ms.assetid: 0786c63d-ce4e-47c1-b54f-47f1da90cb64
 ms.date: 05/10/2018
+keywords: ["D3D11_1_DDI_FLUSH_FLAGS enumeration"]
 ms.keywords: D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, D3D11_1_DDI_FLUSH_FLAGS, D3D11_1_DDI_FLUSH_FLAGS enumeration [Display Devices], D3DWDDM1_3DDI_TRIM_MEMORY, d3d10umddi/D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, d3d10umddi/D3D11_1_DDI_FLUSH_FLAGS, d3d10umddi/D3DWDDM1_3DDI_TRIM_MEMORY, display.d3d11_1_ddi_flush_flags
 f1_keywords:
  - "d3d10umddi/D3D11_1_DDI_FLUSH_FLAGS"

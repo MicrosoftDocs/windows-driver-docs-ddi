@@ -6,6 +6,7 @@ old-location: display\d3dddi_multiplane_overlay_group_caps.htm
 tech.root: display
 ms.assetid: 6909579F-5387-4A35-B65B-EF77CC50DCC4
 ms.date: 05/10/2018
+keywords: ["D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure"]
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS, display.d3dddi_multiplane_overlay_group_caps
 f1_keywords:
  - "d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS"

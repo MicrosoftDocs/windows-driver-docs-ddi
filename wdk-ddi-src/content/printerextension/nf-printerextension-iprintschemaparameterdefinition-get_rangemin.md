@@ -6,6 +6,7 @@ old-location: print\_iprintschemaparameterdefinition_rangemin.htm
 tech.root: print
 ms.assetid: ED8A29D9-84CE-4FB5-BCEE-C31DA9AB3D00
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaParameterDefinition::get_RangeMin"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],RangeMin property, IPrintSchemaParameterDefinition.RangeMin, IPrintSchemaParameterDefinition.get_RangeMin, IPrintSchemaParameterDefinition::RangeMin, IPrintSchemaParameterDefinition::get_RangeMin, RangeMin property [Print Devices], RangeMin property [Print Devices],IPrintSchemaParameterDefinition interface, get_RangeMin, print._iprintschemaparameterdefinition_rangemin, printerextension/IPrintSchemaParameterDefinition::RangeMin, printerextension/IPrintSchemaParameterDefinition::get_RangeMin
 f1_keywords:
  - "printerextension/IPrintSchemaParameterDefinition.RangeMin"

@@ -6,6 +6,7 @@ old-location: netvista\rilnotificationparams.htm
 tech.root: netvista
 ms.assetid: c89c7df3-7ccb-46db-adcc-22c49cae5108
 ms.date: 05/02/2018
+keywords: ["RILNOTIFICATIONPARAMS structure"]
 ms.keywords: "*LPRILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS, RILNOTIFICATIONPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilnotificationparams, ntddrilapitypes/RILNOTIFICATIONPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILNOTIFICATIONPARAMS"

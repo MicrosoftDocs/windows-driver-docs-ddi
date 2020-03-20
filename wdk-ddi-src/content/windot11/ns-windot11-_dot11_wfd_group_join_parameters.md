@@ -6,6 +6,7 @@ old-location: netvista\dot11_wfd_group_join_parameters.htm
 tech.root: netvista
 ms.assetid: 7E526179-97B6-4BA3-8F78-C4C04FFF9085
 ms.date: 02/16/2018
+keywords: ["_DOT11_WFD_GROUP_JOIN_PARAMETERS structure"]
 ms.keywords: "*PDOT11_WFD_GROUP_JOIN_PARAMETERS, DOT11_WFD_GROUP_JOIN_PARAMETERS, DOT11_WFD_GROUP_JOIN_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_GROUP_JOIN_PARAMETERS, PDOT11_WFD_GROUP_JOIN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_GROUP_JOIN_PARAMETERS, netvista.dot11_wfd_group_join_parameters, windot11/DOT11_WFD_GROUP_JOIN_PARAMETERS, windot11/PDOT11_WFD_GROUP_JOIN_PARAMETERS"
 f1_keywords:
  - "windot11/DOT11_WFD_GROUP_JOIN_PARAMETERS"

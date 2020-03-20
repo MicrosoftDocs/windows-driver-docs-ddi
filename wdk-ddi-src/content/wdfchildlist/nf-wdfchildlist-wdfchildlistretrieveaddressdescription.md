@@ -6,6 +6,7 @@ old-location: wdf\wdfchildlistretrieveaddressdescription.htm
 tech.root: wdf
 ms.assetid: 0c551de0-970a-4733-b904-27c40cf7b42f
 ms.date: 02/26/2018
+keywords: ["WdfChildListRetrieveAddressDescription function"]
 ms.keywords: DFDeviceObjectChildListRef_bd30cd1e-b7ac-40cd-b96f-4071d08bafc1.xml, WdfChildListRetrieveAddressDescription, WdfChildListRetrieveAddressDescription method, kmdf.wdfchildlistretrieveaddressdescription, wdf.wdfchildlistretrieveaddressdescription, wdfchildlist/WdfChildListRetrieveAddressDescription
 f1_keywords:
  - "wdfchildlist/WdfChildListRetrieveAddressDescription"

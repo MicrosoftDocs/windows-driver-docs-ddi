@@ -6,6 +6,7 @@ old-location: pos\posstatusupdatedeventdata.htm
 tech.root: pos
 ms.assetid: 382e5441-dce1-428b-90af-d57b5f930abb
 ms.date: 02/23/2018
+keywords: ["_PosStatusUpdatedEventData structure"]
 ms.keywords: PosStatusUpdatedEventData, PosStatusUpdatedEventData structure, _PosStatusUpdatedEventData, pointofservicedriverinterface/PosStatusUpdatedEventData, pos.posstatusupdatedeventdata
 f1_keywords:
  - "pointofservicedriverinterface/PosStatusUpdatedEventData"

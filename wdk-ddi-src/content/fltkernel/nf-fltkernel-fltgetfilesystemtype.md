@@ -6,6 +6,7 @@ old-location: ifsk\fltgetfilesystemtype.htm
 tech.root: ifsk
 ms.assetid: 9e603d0f-74e7-4715-b3dc-4a9623f98dde
 ms.date: 04/16/2018
+keywords: ["FltGetFileSystemType function"]
 ms.keywords: FltApiRef_e_to_o_00fe70b3-cc15-4272-a4df-653c05abfeb1.xml, FltGetFileSystemType, FltGetFileSystemType function [Installable File System Drivers], fltkernel/FltGetFileSystemType, ifsk.fltgetfilesystemtype
 f1_keywords:
  - "fltkernel/FltGetFileSystemType"

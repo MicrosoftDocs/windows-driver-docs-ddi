@@ -6,6 +6,7 @@ old-location: gpio\gpio_clx_acquireinterruptlock.htm
 tech.root: GPIO
 ms.assetid: E0332415-1028-489B-AA81-DF8AEE0A28E8
 ms.date: 02/15/2018
+keywords: ["GPIO_CLX_AcquireInterruptLock function"]
 ms.keywords: GPIO.gpio_clx_acquireinterruptlock, GPIO_CLX_AcquireInterruptLock, GPIO_CLX_AcquireInterruptLock method [Parallel Ports], gpioclx/GPIO_CLX_AcquireInterruptLock
 f1_keywords:
  - "gpioclx/GPIO_CLX_AcquireInterruptLock"

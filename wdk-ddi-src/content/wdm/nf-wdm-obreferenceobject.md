@@ -6,6 +6,7 @@ old-location: kernel\obreferenceobject.htm
 tech.root: kernel
 ms.assetid: d911089a-f23a-4d0e-a333-c01ec3ac89dc
 ms.date: 04/30/2018
+keywords: ["ObReferenceObject macro"]
 ms.keywords: ObReferenceObject, ObReferenceObject routine [Kernel-Mode Driver Architecture], ObfReferenceObject, k107_97bb0a8c-e445-484c-959a-03f1c41ab3fe.xml, kernel.obreferenceobject, wdm/ObReferenceObject, wdm/ObfReferenceObject
 f1_keywords:
  - "wdm/ObReferenceObject"

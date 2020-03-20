@@ -6,6 +6,7 @@ old-location: stream\kstrdereferencedeviceobject.htm
 tech.root: stream
 ms.assetid: 8d220b69-122c-4019-9c70-4c744503481d
 ms.date: 04/23/2018
+keywords: ["PFNDEREFERENCEDEVICEOBJECT callback function"]
 ms.keywords: KStrDereferenceDeviceObject, KStrDereferenceDeviceObject routine [Streaming Media Devices], PFNDEREFERENCEDEVICEOBJECT, ks/KStrDereferenceDeviceObject, ksfunc_521a642c-7a09-416b-a883-09ec5af4f026.xml, stream.kstrdereferencedeviceobject
 f1_keywords:
  - "ks/KStrDereferenceDeviceObject"

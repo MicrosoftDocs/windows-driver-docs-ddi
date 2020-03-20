@@ -6,6 +6,7 @@ old-location: print\iprintschemaoptioncollection.htm
 tech.root: print
 ms.assetid: ED0FD042-EB42-4F4B-AF9C-B8F56909ED66
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaOptionCollection interface"]
 ms.keywords: IPrintSchemaOptionCollection, IPrintSchemaOptionCollection interface [Print Devices], IPrintSchemaOptionCollection interface [Print Devices],described, print.iprintschemaoptioncollection, printerextension/IPrintSchemaOptionCollection
 f1_keywords:
  - "printerextension/IPrintSchemaOptionCollection"

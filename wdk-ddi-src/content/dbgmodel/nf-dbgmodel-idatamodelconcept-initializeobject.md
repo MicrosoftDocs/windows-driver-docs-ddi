@@ -4,6 +4,7 @@ title: IDataModelConcept::InitializeObject (dbgmodel.h)
 description: A data model can be registered as the canonical visualizer or as an extension for a given native type through the data model manager's RegisterModelForTypeSignature or RegisterExtensionForTypeSignature methods.
 ms.assetid: 39dd2497-1650-4bf4-9aa1-71ed154182ba
 ms.date: 09/11/2018
+keywords: ["IDataModelConcept::InitializeObject"]
 f1_keywords:
  - "dbgmodel/IDataModelConcept.InitializeObject"
 ms.keywords: IDataModelConcept::InitializeObject, InitializeObject, IDataModelConcept.InitializeObject, IDataModelConcept::InitializeObject, IDataModelConcept.InitializeObject

@@ -6,6 +6,7 @@ old-location: storage\ioctl_ehstor_tcgdrv_relinquish_silo.htm
 tech.root: storage
 ms.assetid: 4D3DA81A-D79A-4299-A743-AFB0118DDF3F
 ms.date: 03/29/2018
+keywords: ["IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO IOCTL"]
 ms.keywords: IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO, IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO control, IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO, storage.ioctl_ehstor_tcgdrv_relinquish_silo
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO"

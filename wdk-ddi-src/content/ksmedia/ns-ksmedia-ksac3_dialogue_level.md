@@ -6,6 +6,7 @@ old-location: audio\ksac3_dialogue_level.htm
 tech.root: audio
 ms.assetid: c29d5cbc-ddcc-42e9-ac2d-e442a489adfd
 ms.date: 04/30/2019
+keywords: ["KSAC3_DIALOGUE_LEVEL structure"]
 ms.keywords: "*PKSAC3_DIALOGUE_LEVEL, KSAC3_DIALOGUE_LEVEL, KSAC3_DIALOGUE_LEVEL structure [Audio Devices], PKSAC3_DIALOGUE_LEVEL, PKSAC3_DIALOGUE_LEVEL structure pointer [Audio Devices], aud-prop_223d9fe5-3b60-46b4-a157-7ddab97a75f8.xml, audio.ksac3_dialogue_level, ksmedia/KSAC3_DIALOGUE_LEVEL, ksmedia/PKSAC3_DIALOGUE_LEVEL"
 f1_keywords:
  - "ksmedia/KSAC3_DIALOGUE_LEVEL"

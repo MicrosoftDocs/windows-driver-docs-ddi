@@ -6,6 +6,7 @@ old-location: netvista\protocolclincomingdropparty.htm
 tech.root: netvista
 ms.assetid: 3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8
 ms.date: 05/02/2018
+keywords: ["PROTOCOL_CL_INCOMING_DROP_PARTY callback function"]
 ms.keywords: PROTOCOL_CL_INCOMING_DROP_PARTY, PROTOCOL_CL_INCOMING_DROP_PARTY callback, ProtocolClIncomingDropParty, ProtocolClIncomingDropParty callback function [Network Drivers Starting with Windows Vista], condis_client_ref_ac4b9f43-23f6-4300-8110-1589cecffe21.xml, ndis/ProtocolClIncomingDropParty, netvista.protocolclincomingdropparty
 f1_keywords:
  - "ndis/ProtocolClIncomingDropParty"

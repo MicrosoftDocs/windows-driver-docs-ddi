@@ -4,6 +4,7 @@ title: PFND3D12DDI_CREATE_COMPUTE_SHADER_0003 (d3d12umddi.h)
 description: Create a compute shader.
 ms.assetid: bd3eb1b9-3238-4e2a-89ed-f0fdf2f841bc
 ms.date: 10/19/2018
+keywords: ["PFND3D12DDI_CREATE_COMPUTE_SHADER_0003 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

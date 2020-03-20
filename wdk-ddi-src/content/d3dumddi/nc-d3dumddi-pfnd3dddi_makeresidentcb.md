@@ -6,6 +6,7 @@ old-location: display\pfnmakeresidentcb.htm
 tech.root: display
 ms.assetid: 8D65C3F7-3D07-4341-A989-A1438F821802
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_MAKERESIDENTCB callback function"]
 ms.keywords: PFND3DDDI_MAKERESIDENTCB, PFND3DDDI_MAKERESIDENTCB callback, d3dumddi/pfnMakeResidentCb, display.pfnmakeresidentcb, pfnMakeResidentCb, pfnMakeResidentCb callback function [Display Devices]
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

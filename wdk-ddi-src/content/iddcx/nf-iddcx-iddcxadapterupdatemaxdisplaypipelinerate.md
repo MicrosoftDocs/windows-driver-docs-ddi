@@ -6,6 +6,7 @@ old-location: display\iddcxadapterupdatemaxdisplaypipelinerate.htm
 tech.root: display
 ms.assetid: 5d8e6b87-6cfd-48ec-ac38-a75cb94cf5ac
 ms.date: 05/10/2018
+keywords: ["IddCxAdapterUpdateMaxDisplayPipelineRate function"]
 ms.keywords: IddCxAdapterUpdateMaxDisplayPipelineRate, IddCxAdapterUpdateMaxDisplayPipelineRate method [Display Devices], display.iddcxadapterupdatemaxdisplaypipelinerate, iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate
 f1_keywords:
  - "iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate"

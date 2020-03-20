@@ -6,6 +6,7 @@ old-location: kernel\acceptacpinotification.htm
 tech.root: kernel
 ms.assetid: 7BC27FD1-CCD8-4ABC-B973-C2242D6C243B
 ms.date: 04/30/2018
+keywords: ["PEPCALLBACKNOTIFYACPI callback function"]
 ms.keywords: AcceptAcpiNotification, AcceptAcpiNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYACPI, kernel.acceptacpinotification, pepfx/AcceptAcpiNotification
 f1_keywords:
  - "pepfx/AcceptAcpiNotification"

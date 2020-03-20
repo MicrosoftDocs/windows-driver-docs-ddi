@@ -6,6 +6,7 @@ old-location: serports\sercx2customreceivetransactioncreate.htm
 tech.root: serports
 ms.assetid: 3E01268B-69DB-4713-841B-8B27D24F8431
 ms.date: 04/23/2018
+keywords: ["SerCx2CustomReceiveTransactionCreate function"]
 ms.keywords: 2/SerCx2CustomReceiveTransactionCreate, SerCx2CustomReceiveTransactionCreate, SerCx2CustomReceiveTransactionCreate method [Serial Ports], serports.sercx2customreceivetransactioncreate
 f1_keywords:
  - "sercx/SerCx2CustomReceiveTransactionCreate"

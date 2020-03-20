@@ -6,6 +6,7 @@ old-location: netvista\ril_gethideidsettings.htm
 tech.root: netvista
 ms.assetid: 0ffc34ca-ef55-4d14-b100-2f19606a6d55
 ms.date: 05/02/2018
+keywords: ["RIL_GetHideIdSettings function"]
 ms.keywords: RIL_GetHideIdSettings, RIL_GetHideIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_gethideidsettings, rilapi/RIL_GetHideIdSettings
 f1_keywords:
  - "rilapi/RIL_GetHideIdSettings"

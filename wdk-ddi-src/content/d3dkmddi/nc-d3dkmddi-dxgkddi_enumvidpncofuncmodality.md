@@ -5,6 +5,7 @@ description: The DxgkDdiEnumVidPnCofuncModality function makes the source and ta
 old-location: display\dxgkddienumvidpncofuncmodality.htm
 ms.assetid: 6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_ENUMVIDPNCOFUNCMODALITY callback function"]
 ms.keywords: DXGKDDI_ENUMVIDPNCOFUNCMODALITY, DXGKDDI_ENUMVIDPNCOFUNCMODALITY callback, DmFunctions_e8c49ebf-a4af-4a36-a32b-0ab6874e660a.xml, DxgkDdiEnumVidPnCofuncModality, DxgkDdiEnumVidPnCofuncModality callback function [Display Devices], d3dkmddi/DxgkDdiEnumVidPnCofuncModality, display.dxgkddienumvidpncofuncmodality
 req.header: d3dkmddi.h
 req.include-header: 

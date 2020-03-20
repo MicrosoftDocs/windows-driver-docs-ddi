@@ -6,6 +6,7 @@ old-location: netvista\ndis_receive_queue_allocation_complete_parameters.htm
 tech.root: netvista
 ms.assetid: 1aae1bc7-24c6-46a3-be0e-f028d6b70774
 ms.date: 05/02/2018
+keywords: ["_NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, netvista.ndis_receive_queue_allocation_complete_parameters, ntddndis/NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, virtual_machine_queue_ref_6427710d-2634-40e1-bd03-a93fdedfd5a3.xml"
 f1_keywords:
  - "ntddndis/NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS"

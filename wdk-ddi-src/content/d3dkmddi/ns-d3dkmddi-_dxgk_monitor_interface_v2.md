@@ -5,6 +5,7 @@ description: The DXGK_MONITOR_INTERFACE_V2 structure, available beginning with W
 old-location: display\dxgk_monitor_interface_v2.htm
 ms.assetid: 5c08b988-2cc0-46e1-a8b5-66de840650e4
 ms.date: 05/10/2018
+keywords: ["_DXGK_MONITOR_INTERFACE_V2 structure"]
 ms.keywords: DXGK_MONITOR_INTERFACE_V2, DXGK_MONITOR_INTERFACE_V2 structure [Display Devices], DmStructs_8af61532-16df-472d-abb7-c8f9a677e968.xml, _DXGK_MONITOR_INTERFACE_V2, d3dkmddi/DXGK_MONITOR_INTERFACE_V2, display.dxgk_monitor_interface_v2
 f1_keywords:
  - "d3dkmddi/DXGK_MONITOR_INTERFACE_V2"

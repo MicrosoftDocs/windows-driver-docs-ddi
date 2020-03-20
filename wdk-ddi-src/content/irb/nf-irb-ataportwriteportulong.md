@@ -6,6 +6,7 @@ old-location: storage\ataportwriteportulong.htm
 tech.root: storage
 ms.assetid: 49c01a7c-4e09-4ad2-9157-ab75b1a23d66
 ms.date: 03/29/2018
+keywords: ["AtaPortWritePortUlong function"]
 ms.keywords: AtaPortWritePortUlong, AtaPortWritePortUlong routine [Storage Devices], atartns_4930ccb8-61a2-415e-897a-6e3ef573e623.xml, irb/AtaPortWritePortUlong, storage.ataportwriteportulong
 f1_keywords:
  - "irb/AtaPortWritePortUlong"

@@ -6,6 +6,7 @@ old-location: wdf\iwdfusbtargetpipe_reset.htm
 tech.root: wdf
 ms.assetid: 8d42dd60-a032-4486-87e0-2204e833035b
 ms.date: 02/26/2018
+keywords: ["IWDFUsbTargetPipe::Reset"]
 ms.keywords: IWDFUsbTargetPipe interface,Reset method, IWDFUsbTargetPipe.Reset, IWDFUsbTargetPipe::Reset, Reset, Reset method, Reset method,IWDFUsbTargetPipe interface, UMDFUSBref_510f6831-e75f-41b6-9637-7400fe89e4d3.xml, umdf.iwdfusbtargetpipe_reset, wdf.iwdfusbtargetpipe_reset, wudfusb/IWDFUsbTargetPipe::Reset
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe.Reset"

@@ -6,6 +6,7 @@ old-location: dtf\iwdtfdevicedepot2_query.htm
 tech.root: dtf
 ms.assetid: f8b0cb77-828a-43c7-b0f3-34eca0da49bf
 ms.date: 04/04/2018
+keywords: ["IWDTFDeviceDepot2::Query"]
 ms.keywords: IWDTFDeviceDepot2 interface [Windows Device Testing Framework],Query method, IWDTFDeviceDepot2.Query, IWDTFDeviceDepot2::Query, Microsoft.WDTF.IWDTFDeviceDepot2.Query, Microsoft::WDTF::IWDTFDeviceDepot2::Query, Query, Query method [Windows Device Testing Framework], Query method [Windows Device Testing Framework],IWDTFDeviceDepot2 interface, dtf.iwdtfdevicedepot2_query, wdtf/IWDTFDeviceDepot2::Query
 f1_keywords:
  - "wdtf/IWDTFDeviceDepot2.Query"

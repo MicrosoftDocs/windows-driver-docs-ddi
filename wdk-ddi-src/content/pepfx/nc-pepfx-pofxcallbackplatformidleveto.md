@@ -6,6 +6,7 @@ old-location: kernel\platformidleveto.htm
 tech.root: kernel
 ms.assetid: 61D637E6-316D-49A5-B1B1-C89415C7D0B8
 ms.date: 04/30/2018
+keywords: ["POFXCALLBACKPLATFORMIDLEVETO callback function"]
 ms.keywords: POFXCALLBACKPLATFORMIDLEVETO, PlatformIdleVeto, PlatformIdleVeto routine [Kernel-Mode Driver Architecture], kernel.platformidleveto, pepfx/PlatformIdleVeto
 f1_keywords:
  - "pepfx/PlatformIdleVeto"

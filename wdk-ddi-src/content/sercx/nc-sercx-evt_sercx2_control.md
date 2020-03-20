@@ -6,6 +6,7 @@ old-location: serports\evtsercx2control.htm
 tech.root: serports
 ms.assetid: C7032B34-5912-48B1-8D59-BAE6C0FEFB2C
 ms.date: 04/23/2018
+keywords: ["EVT_SERCX2_CONTROL callback function"]
 ms.keywords: 2/EvtSerCx2Control, EVT_SERCX2_CONTROL, EVT_SERCX2_CONTROL callback, EvtSerCx2Control, EvtSerCx2Control callback function [Serial Ports], serports.evtsercx2control
 f1_keywords:
  - "sercx/EvtSerCx2Control"

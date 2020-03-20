@@ -6,6 +6,7 @@ old-location: ifsk\fltallocatecallbackdataex.htm
 tech.root: ifsk
 ms.assetid: f03851a4-e1e9-4fee-b264-c2f91c6e8180
 ms.date: 04/16/2018
+keywords: ["FltAllocateCallbackDataEx function"]
 ms.keywords: FltAllocateCallbackDataEx, FltAllocateCallbackDataEx routine [Installable File System Drivers], FltApiRef_a_to_d_9ef78123-712f-465a-8c8a-efc3d64b7001.xml, fltkernel/FltAllocateCallbackDataEx, ifsk.fltallocatecallbackdataex
 f1_keywords:
  - "fltkernel/FltAllocateCallbackDataEx"

@@ -6,6 +6,7 @@ old-location: kernel\zwsetinformationvirtualmemory.htm
 tech.root: kernel
 ms.assetid: 1D53D6C6-7546-439F-818C-85E65901B5DC
 ms.date: 04/30/2018
+keywords: ["ZwSetInformationVirtualMemory function"]
 ms.keywords: ZwSetInformationVirtualMemory, ZwSetInformationVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationvirtualmemory, ntifs/ZwSetInformationVirtualMemory
 f1_keywords:
  - "ntifs/ZwSetInformationVirtualMemory"

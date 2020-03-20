@@ -6,6 +6,7 @@ old-location: debugger\getkdcontext.htm
 tech.root: debugger
 ms.assetid: cf795629-cf62-45fa-ad5e-e2eef576bcfd
 ms.date: 11/13/2018
+keywords: ["GetKdContext macro"]
 ms.keywords: GetKdContext, GetKdContext function [Windows Debugging], WdbgExts_Ref_951ca10a-3a73-433c-bd95-f054967f0df6.xml, debugger.getkdcontext, wdbgexts/GetKdContext
 f1_keywords:
  - "wdbgexts/GetKdContext"

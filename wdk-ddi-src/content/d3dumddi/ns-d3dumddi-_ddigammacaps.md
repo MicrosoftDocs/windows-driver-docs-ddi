@@ -6,6 +6,7 @@ old-location: display\ddigammacaps.htm
 tech.root: display
 ms.assetid: 4db605f8-a1ed-4b75-8c72-f4846ae7007e
 ms.date: 05/10/2018
+keywords: ["_DDIGAMMACAPS structure"]
 ms.keywords: D3D_other_Structs_7aa0b131-f7e5-4208-b3bb-7a35fa0d5ef1.xml, DDIGAMMACAPS, DDIGAMMACAPS structure [Display Devices], _DDIGAMMACAPS, d3dumddi/DDIGAMMACAPS, display.ddigammacaps
 f1_keywords:
  - "d3dumddi/DDIGAMMACAPS"

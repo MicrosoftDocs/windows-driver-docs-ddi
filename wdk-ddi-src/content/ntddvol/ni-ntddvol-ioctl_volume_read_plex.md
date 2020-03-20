@@ -6,6 +6,7 @@ old-location: storage\ioctl_volume_read_plex.htm
 tech.root: storage
 ms.assetid: 187e15d2-b527-4dab-81ea-498663363f8b
 ms.date: 03/29/2018
+keywords: ["IOCTL_VOLUME_READ_PLEX IOCTL"]
 ms.keywords: IOCTL_VOLUME_READ_PLEX, IOCTL_VOLUME_READ_PLEX control, IOCTL_VOLUME_READ_PLEX control code [Storage Devices], k307_9f88e325-8c32-4be3-acaa-5df77ee023c2.xml, ntddvol/IOCTL_VOLUME_READ_PLEX, storage.ioctl_volume_read_plex
 f1_keywords:
  - "ntddvol/IOCTL_VOLUME_READ_PLEX"

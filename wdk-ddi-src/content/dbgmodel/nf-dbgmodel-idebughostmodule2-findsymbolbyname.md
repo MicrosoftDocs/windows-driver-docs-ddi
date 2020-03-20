@@ -4,6 +4,7 @@ title: IDebugHostModule2::FindSymbolByName (dbgmodel.h)
 description: The FindSymbolByName method will find a single global symbol of the given name within the module.
 ms.assetid: 74ce0a4b-7079-469d-b769-e47eae4123ed
 ms.date: 09/18/2018
+keywords: ["IDebugHostModule2::FindSymbolByName"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule2.FindSymbolByName"
 ms.keywords: IDebugHostModule2::FindSymbolByName, FindSymbolByName, IDebugHostModule2.FindSymbolByName, IDebugHostModule2::FindSymbolByName, IDebugHostModule2.FindSymbolByName

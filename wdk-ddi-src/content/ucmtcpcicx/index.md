@@ -3,6 +3,7 @@ UID: NA:ucmtcpcicx
 title: Ucmtcpcicx.h header
 ms.assetid: d6ab7d16-ff29-3431-a014-319c69398b67
 ms.date: 05/09/2018
+keywords: ["Ucmtcpcicx.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

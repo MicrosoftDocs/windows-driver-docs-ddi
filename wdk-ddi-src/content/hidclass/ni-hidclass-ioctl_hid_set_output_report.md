@@ -6,6 +6,7 @@ old-location: hid\ioctl_hid_set_output_report.htm
 tech.root: hid
 ms.assetid: f5c0f3a7-5d90-4a95-9ba0-01aea98d8c79
 ms.date: 04/30/2018
+keywords: ["IOCTL_HID_SET_OUTPUT_REPORT IOCTL"]
 ms.keywords: IOCTL_HID_SET_OUTPUT_REPORT, IOCTL_HID_SET_OUTPUT_REPORT control, IOCTL_HID_SET_OUTPUT_REPORT control code [Human Input Devices], hid.ioctl_hid_set_output_report, hidclass/IOCTL_HID_SET_OUTPUT_REPORT, hidioreq_1b4d06b6-4e28-4465-8b88-356d70bf1dee.xml
 f1_keywords:
  - "hidclass/IOCTL_HID_SET_OUTPUT_REPORT"

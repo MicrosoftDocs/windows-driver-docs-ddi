@@ -6,6 +6,7 @@ old-location: kernel\rtlstringcbcatnex.htm
 tech.root: kernel
 ms.assetid: 76842444-e733-4dee-b83b-db4ef22f697e
 ms.date: 04/30/2018
+keywords: ["RtlStringCbCatNExA function"]
 ms.keywords: RtlStringCbCatNEx, RtlStringCbCatNExA, RtlStringCbCatNExW, RtlStringCbCatNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcatnex, ntstrsafe/RtlStringCbCatNExA, ntstrsafe/RtlStringCbCatNExW, safestrings_9e639754-980b-4a6d-9760-b826a8e09351.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCbCatNExW"

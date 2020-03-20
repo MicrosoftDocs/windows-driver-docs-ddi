@@ -6,6 +6,7 @@ old-location: netvista\protocolcodeletevc.htm
 tech.root: netvista
 ms.assetid: d761270f-bf77-441e-834c-9ac7fb3d350f
 ms.date: 05/02/2018
+keywords: ["PROTOCOL_CO_DELETE_VC callback function"]
 ms.keywords: PROTOCOL_CO_DELETE_VC, PROTOCOL_CO_DELETE_VC callback, ProtocolCoDeleteVc, ProtocolCoDeleteVc callback function [Network Drivers Starting with Windows Vista], condis_protocol_ref_bd593797-8284-4b3e-980e-c5401776014f.xml, ndis/ProtocolCoDeleteVc, netvista.protocolcodeletevc
 f1_keywords:
  - "ndis/ProtocolCoDeleteVc"

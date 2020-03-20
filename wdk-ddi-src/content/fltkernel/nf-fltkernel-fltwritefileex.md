@@ -6,6 +6,7 @@ old-location: ifsk\fltwritefileex.htm
 tech.root: ifsk
 ms.assetid: 18B2B486-5525-4132-96E8-EEA74342E0EA
 ms.date: 04/16/2018
+keywords: ["FltWriteFileEx function"]
 ms.keywords: FltWriteFileEx, FltWriteFileEx function [Installable File System Drivers], fltkernel/FltWriteFileEx, ifsk.fltwritefileex
 f1_keywords:
  - "fltkernel/FltWriteFileEx"

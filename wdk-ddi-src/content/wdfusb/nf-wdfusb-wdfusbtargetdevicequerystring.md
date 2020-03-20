@@ -6,6 +6,7 @@ old-location: wdf\wdfusbtargetdevicequerystring.htm
 tech.root: wdf
 ms.assetid: e7b25a47-e197-4670-9907-409d5aeb5462
 ms.date: 02/26/2018
+keywords: ["WdfUsbTargetDeviceQueryString function"]
 ms.keywords: DFUsbRef_ea603209-6043-48e6-b8ff-4795f572dea6.xml, WdfUsbTargetDeviceQueryString, WdfUsbTargetDeviceQueryString method, kmdf.wdfusbtargetdevicequerystring, wdf.wdfusbtargetdevicequerystring, wdfusb/WdfUsbTargetDeviceQueryString
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceQueryString"

@@ -5,6 +5,7 @@ description: The DestroyDepthStencilState function destroys the specified depth 
 old-location: display\destroydepthstencilstate.htm
 ms.assetid: 5fc537f6-2507-4edd-bfa0-c011dd834a22
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_DESTROYDEPTHSTENCILSTATE callback function"]
 ms.keywords: DestroyDepthStencilState, DestroyDepthStencilState callback function [Display Devices], PFND3D10DDI_DESTROYDEPTHSTENCILSTATE, PFND3D10DDI_DESTROYDEPTHSTENCILSTATE callback, UserModeDisplayDriverDx10_Functions_0d9deca1-62e7-4caa-9bfd-9c42bdd85c2c.xml, d3d10umddi/DestroyDepthStencilState, display.destroydepthstencilstate
 f1_keywords:
  - "d3d10umddi/DestroyDepthStencilState"

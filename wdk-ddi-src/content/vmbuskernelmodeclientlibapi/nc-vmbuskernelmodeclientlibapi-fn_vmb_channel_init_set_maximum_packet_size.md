@@ -5,6 +5,7 @@ description: The VmbChannelInitSetMaximumPacketSize function sets the maximum pa
 tech.root: netvista
 ms.assetid: 88bb4032-3349-485a-a276-48f993c68a88
 ms.date: 05/21/2018
+keywords: ["FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_MAXIMUM_PACKET_SIZE"
 req.header: vmbuskernelmodeclientlibapi.h

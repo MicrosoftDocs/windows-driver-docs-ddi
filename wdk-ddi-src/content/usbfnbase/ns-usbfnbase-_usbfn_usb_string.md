@@ -6,6 +6,7 @@ old-location: buses\usbfn_usb_string.htm
 tech.root: usbref
 ms.assetid: 1169A369-0E6D-4308-ABF6-0724FED73AF9
 ms.date: 05/07/2018
+keywords: ["_USBFN_USB_STRING structure"]
 ms.keywords: "*PUSBFN_USB_STRING, PUSBFN_USB_STRING, PUSBFN_USB_STRING structure pointer [Buses], USBFN_USB_STRING, USBFN_USB_STRING structure [Buses], _USBFN_USB_STRING, buses.usbfn_usb_string, usbfnbase/PUSBFN_USB_STRING, usbfnbase/USBFN_USB_STRING"
 f1_keywords:
  - "usbfnbase/USBFN_USB_STRING"

@@ -6,6 +6,7 @@ old-location: wdf\evtprogramdma.htm
 tech.root: wdf
 ms.assetid: c01b94b2-aabf-47dd-952a-06e481579614
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_PROGRAM_DMA callback function"]
 ms.keywords: DFDmaObjectRef_972816f8-bfd1-487d-8ac4-7ef75dcdfa97.xml, EVT_WDF_PROGRAM_DMA, EVT_WDF_PROGRAM_DMA callback, EvtProgramDma, EvtProgramDma callback function, kmdf.evtprogramdma, wdf.evtprogramdma, wdfdmatransaction/EvtProgramDma
 f1_keywords:
  - "wdfdmatransaction/EvtProgramDma"

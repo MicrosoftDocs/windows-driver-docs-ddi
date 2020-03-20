@@ -6,6 +6,7 @@ old-location: audio\iportclspower_unregisteradapterpowermanagement.htm
 tech.root: audio
 ms.assetid: 4c8734b1-d7f5-476b-a85f-1d3f4df888b9
 ms.date: 05/08/2018
+keywords: ["IPortClsPower::UnregisterAdapterPowerManagement"]
 ms.keywords: IPortClsPower interface [Audio Devices],UnregisterAdapterPowerManagement method, IPortClsPower.UnregisterAdapterPowerManagement, IPortClsPower::UnregisterAdapterPowerManagement, UnregisterAdapterPowerManagement, UnregisterAdapterPowerManagement method [Audio Devices], UnregisterAdapterPowerManagement method [Audio Devices],IPortClsPower interface, audio.iportclspower_unregisteradapterpowermanagement, audmp-routines_3dca5fa9-542d-437d-a2d9-9eef51b5f2ea.xml, portcls/IPortClsPower::UnregisterAdapterPowerManagement
 f1_keywords:
  - "portcls/IPortClsPower.UnregisterAdapterPowerManagement"

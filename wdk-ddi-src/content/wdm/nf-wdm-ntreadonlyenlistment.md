@@ -6,6 +6,7 @@ old-location: kernel\zwreadonlyenlistment.htm
 tech.root: kernel
 ms.assetid: 4178d9ad-5dd1-40c2-ba23-7625d424cd6d
 ms.date: 04/30/2018
+keywords: ["NtReadOnlyEnlistment function"]
 ms.keywords: NtReadOnlyEnlistment, ZwReadOnlyEnlistment, ZwReadOnlyEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwreadonlyenlistment, ktm_ref_d6e64da8-cb5c-4564-be5d-65073fc17375.xml, wdm/NtReadOnlyEnlistment, wdm/ZwReadOnlyEnlistment
 f1_keywords:
  - "wdm/ZwReadOnlyEnlistment"

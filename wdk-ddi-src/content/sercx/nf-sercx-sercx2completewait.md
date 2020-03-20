@@ -6,6 +6,7 @@ old-location: serports\sercx2completewait.htm
 tech.root: serports
 ms.assetid: 7A3DC90E-628C-4FFC-807D-8F23BDC97742
 ms.date: 04/23/2018
+keywords: ["SerCx2CompleteWait function"]
 ms.keywords: 2/SerCx2CompleteWait, SerCx2CompleteWait, SerCx2CompleteWait method [Serial Ports], serports.sercx2completewait
 f1_keywords:
  - "sercx/SerCx2CompleteWait"

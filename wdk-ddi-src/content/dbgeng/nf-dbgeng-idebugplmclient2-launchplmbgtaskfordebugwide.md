@@ -6,6 +6,7 @@ old-location: debugger\idebugplmclient2_launchplmbgtaskfordebugwide.htm
 tech.root: debugger
 ms.assetid: 47793815-F7AC-4E0D-809C-DBB7497BDA30
 ms.date: 05/03/2018
+keywords: ["IDebugPlmClient2::LaunchPlmBgTaskForDebugWide"]
 ms.keywords: IDebugPlmClient2 interface [Windows Debugging],LaunchPlmBgTaskForDebugWide method, IDebugPlmClient2.LaunchPlmBgTaskForDebugWide, IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide, LaunchPlmBgTaskForDebugWide method [Windows Debugging], LaunchPlmBgTaskForDebugWide method [Windows Debugging],IDebugPlmClient2 interface, dbgeng/IDebugPlmClient2::LaunchPlmBgTaskForDebugWide, debugger.idebugplmclient2_launchplmbgtaskfordebugwide
 f1_keywords:
  - "dbgeng/IDebugPlmClient2.LaunchPlmBgTaskForDebugWide"

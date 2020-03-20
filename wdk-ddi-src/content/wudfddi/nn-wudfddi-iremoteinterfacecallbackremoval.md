@@ -6,6 +6,7 @@ old-location: wdf\iremoteinterfacecallbackremoval.htm
 tech.root: wdf
 ms.assetid: f4cbad57-922f-4265-b436-847feeca853c
 ms.date: 02/26/2018
+keywords: ["IRemoteInterfaceCallbackRemoval interface"]
 ms.keywords: IRemoteInterfaceCallbackRemoval, IRemoteInterfaceCallbackRemoval interface, IRemoteInterfaceCallbackRemoval interface,described, UMDFIoTargetObjectRef_7eeb5a11-5f99-4b2c-a36f-0fd72466e278.xml, umdf.iremoteinterfacecallbackremoval, wdf.iremoteinterfacecallbackremoval, wudfddi/IRemoteInterfaceCallbackRemoval
 f1_keywords:
  - "wudfddi/IRemoteInterfaceCallbackRemoval"

@@ -6,6 +6,7 @@ old-location: netvista\ndisopenadapterex.htm
 tech.root: netvista
 ms.assetid: 2dc356e6-a2ef-4b43-abe5-7c5058c15cf5
 ms.date: 05/02/2018
+keywords: ["NdisOpenAdapterEx function"]
 ms.keywords: NdisOpenAdapterEx, NdisOpenAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisOpenAdapterEx, netvista.ndisopenadapterex, protocol_ndis_functions_ref_7ea04244-bfbb-460d-86f3-35e908850c6a.xml
 f1_keywords:
  - "ndis/NdisOpenAdapterEx"

@@ -6,6 +6,7 @@ old-location: display\videoportcheckfordeviceexistence.htm
 tech.root: display
 ms.assetid: 2e0480a5-39d3-4977-9c0f-508bcf6c29a8
 ms.date: 05/10/2018
+keywords: ["VideoPortCheckForDeviceExistence function"]
 ms.keywords: VideoPortCheckForDeviceExistence, VideoPortCheckForDeviceExistence function [Display Devices], VideoPort_Functions_3cb7198b-a2fe-423c-b0f3-11a154d087af.xml, display.videoportcheckfordeviceexistence, video/VideoPortCheckForDeviceExistence
 f1_keywords:
  - "video/VideoPortCheckForDeviceExistence"

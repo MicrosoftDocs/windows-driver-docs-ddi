@@ -6,6 +6,7 @@ old-location: image\wiaustrc2w.htm
 tech.root: image
 ms.assetid: 66d90248-c496-44c8-98f4-5eb3e2cae130
 ms.date: 05/03/2018
+keywords: ["wiauStrC2W function"]
 ms.keywords: image.wiaustrc2w, wiauFncs_acd27425-a431-42a0-8317-514ea7904ace.xml, wiauStrC2W, wiauStrC2W function [Imaging Devices], wiautil/wiauStrC2W
 f1_keywords:
  - "wiautil/wiauStrC2W"

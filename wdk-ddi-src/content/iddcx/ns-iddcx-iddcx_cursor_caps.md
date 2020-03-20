@@ -6,6 +6,7 @@ old-location: display\iddcx_cursor_caps.htm
 tech.root: display
 ms.assetid: 3bd92999-07f3-43bb-a826-4fea3e19168a
 ms.date: 05/10/2018
+keywords: ["IDDCX_CURSOR_CAPS structure"]
 ms.keywords: IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS structure [Display Devices], display.iddcx_cursor_caps, iddcx/IDDCX_CURSOR_CAPS
 f1_keywords:
  - "iddcx/IDDCX_CURSOR_CAPS"

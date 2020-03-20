@@ -6,6 +6,7 @@ old-location: storage\msiscsi_nicconfig.htm
 tech.root: storage
 ms.assetid: ee40ea1f-fe9b-4126-b5b1-83f60cf51909
 ms.date: 03/29/2018
+keywords: ["_MSiSCSI_NICConfig structure"]
 ms.keywords: "*PMSiSCSI_NICConfig, MSiSCSI_NICConfig, MSiSCSI_NICConfig structure [Storage Devices], PMSiSCSI_NICConfig, PMSiSCSI_NICConfig structure pointer [Storage Devices], _MSiSCSI_NICConfig, iscsicfg/MSiSCSI_NICConfig, iscsicfg/PMSiSCSI_NICConfig, storage.msiscsi_nicconfig, structs-iSCSI_2cddeb4e-7df2-4eda-ae9f-ca79c6005279.xml"
 f1_keywords:
  - "iscsicfg/MSiSCSI_NICConfig"

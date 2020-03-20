@@ -6,6 +6,7 @@ old-location: storage\ioctl_disk_get_media_types.htm
 tech.root: storage
 ms.assetid: d6e6cd4c-680d-4885-b910-3de8de143e2b
 ms.date: 03/29/2018
+keywords: ["IOCTL_DISK_GET_MEDIA_TYPES IOCTL"]
 ms.keywords: IOCTL_DISK_GET_MEDIA_TYPES, IOCTL_DISK_GET_MEDIA_TYPES control, IOCTL_DISK_GET_MEDIA_TYPES control code [Storage Devices], k307_692b21f7-7d14-4ba9-9d56-381606f5f5b1.xml, ntdddisk/IOCTL_DISK_GET_MEDIA_TYPES, storage.ioctl_disk_get_media_types
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_GET_MEDIA_TYPES"

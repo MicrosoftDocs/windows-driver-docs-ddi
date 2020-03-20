@@ -6,6 +6,7 @@ old-location: kernel\pep_device_platform_constraints.htm
 tech.root: kernel
 ms.assetid: C9CC652F-16D4-4F88-BE8F-6CC7008F65DB
 ms.date: 04/30/2018
+keywords: ["_PEP_DEVICE_PLATFORM_CONSTRAINTS structure"]
 ms.keywords: "*PPEP_DEVICE_PLATFORM_CONSTRAINTS, PEP_DEVICE_PLATFORM_CONSTRAINTS, PEP_DEVICE_PLATFORM_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_PLATFORM_CONSTRAINTS, PPEP_DEVICE_PLATFORM_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_PLATFORM_CONSTRAINTS, kernel.pep_device_platform_constraints, pepfx/PEP_DEVICE_PLATFORM_CONSTRAINTS, pepfx/PPEP_DEVICE_PLATFORM_CONSTRAINTS"
 f1_keywords:
  - "pepfx/PEP_DEVICE_PLATFORM_CONSTRAINTS"

@@ -6,6 +6,7 @@ old-location: stream\kspinreleasecontrol.htm
 tech.root: stream
 ms.assetid: ead50a69-fe33-4e6c-84f9-98491d188140
 ms.date: 04/23/2018
+keywords: ["KsPinReleaseControl function"]
 ms.keywords: KsPinReleaseControl, KsPinReleaseControl function [Streaming Media Devices], avfunc_24f35b7d-4ecc-4a64-8b78-9972ba7bab5c.xml, ks/KsPinReleaseControl, stream.kspinreleasecontrol
 f1_keywords:
  - "ks/KsPinReleaseControl"

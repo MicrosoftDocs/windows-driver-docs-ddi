@@ -6,6 +6,7 @@ old-location: debugger\outputastypewide.htm
 tech.root: debugger
 ms.assetid: f43b702d-37a7-484d-8a18-fa190e9189b2
 ms.date: 05/03/2018
+keywords: ["IDebugSymbolGroup2::OutputAsTypeWide"]
 ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging],OutputAsTypeWide method, IDebugSymbolGroup2.OutputAsTypeWide, IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide, OutputAsTypeWide method [Windows Debugging], OutputAsTypeWide method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, debugger.outputastypewide
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.OutputAsTypeWide"

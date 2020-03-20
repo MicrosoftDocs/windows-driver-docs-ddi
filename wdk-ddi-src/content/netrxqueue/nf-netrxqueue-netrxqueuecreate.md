@@ -5,6 +5,7 @@ description: Creates a net receive queue object.
 tech.root: netvista
 ms.assetid: 2f5e886c-10c8-42bf-83d3-1902ef628b5a
 ms.date: 11/12/2018
+keywords: ["NetRxQueueCreate function"]
 f1_keywords:
  - "netrxqueue/NetRxQueueCreate"
 ms.keywords: NetRxQueueCreate

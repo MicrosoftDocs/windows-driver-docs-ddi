@@ -3,6 +3,7 @@ UID: NA:hidsdi
 title: Hidsdi.h header
 ms.assetid: 7d4500a3-b1b0-3eb9-a3be-1c32ed7651ce
 ms.date: 05/09/2018
+keywords: ["Hidsdi.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -6,6 +6,7 @@ old-location: wdf\wdfdeviceretrievedevicename.htm
 tech.root: wdf
 ms.assetid: 26fdc802-e28b-47a0-b248-5403d024fea3
 ms.date: 02/26/2018
+keywords: ["WdfDeviceRetrieveDeviceName function"]
 ms.keywords: DFDeviceObjectGeneralRef_8c3bab28-12f1-456b-a972-37444e81c847.xml, WdfDeviceRetrieveDeviceName, WdfDeviceRetrieveDeviceName method, kmdf.wdfdeviceretrievedevicename, wdf.wdfdeviceretrievedevicename, wdfdevice/WdfDeviceRetrieveDeviceName
 f1_keywords:
  - "wdfdevice/WdfDeviceRetrieveDeviceName"

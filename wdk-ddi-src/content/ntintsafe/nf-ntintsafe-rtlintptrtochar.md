@@ -6,6 +6,7 @@ old-location: kernel\rtlintptrtochar.htm
 tech.root: kernel
 ms.assetid: 96FC52D7-E383-451A-BB30-9C677F254DE2
 ms.date: 04/30/2018
+keywords: ["RtlIntPtrToChar function"]
 ms.keywords: RtlIntPtrToChar, RtlIntPtrToChar function [Kernel-Mode Driver Architecture], kernel.rtlintptrtochar, ntintsafe/RtlIntPtrToChar
 f1_keywords:
  - "ntintsafe/RtlIntPtrToChar"

@@ -5,6 +5,7 @@ description: Core device functions.
 old-location: display\d3d12ddi-device-funcs-core-0033.htm
 ms.assetid: c771f360-3641-4e3e-9536-86b31af97932
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_DEVICE_FUNCS_CORE_0033 structure"]
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0033, D3D12DDI_DEVICE_FUNCS_CORE_0033 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0033, display.d3d12ddi-device-funcs-core-0033
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0033"

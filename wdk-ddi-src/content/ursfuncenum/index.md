@@ -3,6 +3,7 @@ UID: NA:ursfuncenum
 title: Ursfuncenum.h header
 ms.assetid: 5e19e699-cac1-3a13-9484-6f3ffa8db2f1
 ms.date: 05/09/2018
+keywords: ["Ursfuncenum.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

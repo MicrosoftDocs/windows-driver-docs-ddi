@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 2e3bef22-76f6-40e1-9df2-550a68f9a61d
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
+keywords: ["DlIndicateChildStatus function"]
 f1_keywords:
  - "dispmprt/DlIndicateChildStatus"
 ms.keywords: DlIndicateChildStatus

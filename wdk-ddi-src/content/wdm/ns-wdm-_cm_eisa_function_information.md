@@ -6,6 +6,7 @@ old-location: kernel\cm_eisa_function_information.htm
 tech.root: kernel
 ms.assetid: 06034776-4faf-4918-b9ec-bc095455cf14
 ms.date: 04/30/2018
+keywords: ["_CM_EISA_FUNCTION_INFORMATION structure"]
 ms.keywords: "*PCM_EISA_FUNCTION_INFORMATION, CM_EISA_FUNCTION_INFORMATION, CM_EISA_FUNCTION_INFORMATION structure [Kernel-Mode Driver Architecture], PCM_EISA_FUNCTION_INFORMATION, PCM_EISA_FUNCTION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CM_EISA_FUNCTION_INFORMATION, kernel.cm_eisa_function_information, kstruct_a_0ecf5914-f26d-415f-b410-ff2f131b2b08.xml, wdm/CM_EISA_FUNCTION_INFORMATION, wdm/PCM_EISA_FUNCTION_INFORMATION"
 f1_keywords:
  - "wdm/CM_EISA_FUNCTION_INFORMATION"

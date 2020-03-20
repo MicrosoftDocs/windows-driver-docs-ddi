@@ -4,6 +4,7 @@ title: _D3DKMT_DEVICEPAGEFAULT_STATE (d3dkmthk.h)
 description: Contains information about the device page fault state.
 ms.assetid: e2b07b4c-6826-4fde-8a6e-ad5647f5c4b8
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_DEVICEPAGEFAULT_STATE structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_DEVICEPAGEFAULT_STATE"
 ms.keywords: _D3DKMT_DEVICEPAGEFAULT_STATE, D3DKMT_DEVICEPAGEFAULT_STATE, 

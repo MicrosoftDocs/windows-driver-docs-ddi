@@ -6,6 +6,7 @@ old-location: kernel\rtlulonglongtouint.htm
 tech.root: kernel
 ms.assetid: CC69FD37-27DE-47AD-B509-DB659B906248
 ms.date: 04/30/2018
+keywords: ["RtlULongLongToUInt function"]
 ms.keywords: RtlULongLongToUInt, RtlULongLongToUInt function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtouint, ntintsafe/RtlULongLongToUInt
 f1_keywords:
  - "ntintsafe/RtlULongLongToUInt"

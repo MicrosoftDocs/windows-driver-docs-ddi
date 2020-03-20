@@ -6,6 +6,7 @@ old-location: print\iinterfiltercommunicator_requestreader.htm
 tech.root: print
 ms.assetid: 2b38b1b7-0d65-4457-bc7d-c52ff11aba48
 ms.date: 04/20/2018
+keywords: ["IInterFilterCommunicator::RequestReader"]
 ms.keywords: IInterFilterCommunicator interface [Print Devices],RequestReader method, IInterFilterCommunicator.RequestReader, IInterFilterCommunicator::RequestReader, RequestReader, RequestReader method [Print Devices], RequestReader method [Print Devices],IInterFilterCommunicator interface, filterpipeline/IInterFilterCommunicator::RequestReader, filterpipeline_dba6ebe4-7acb-471e-80e4-cedc8c2523b0.xml, print.iinterfiltercommunicator_requestreader
 f1_keywords:
  - "filterpipeline/IInterFilterCommunicator.RequestReader"

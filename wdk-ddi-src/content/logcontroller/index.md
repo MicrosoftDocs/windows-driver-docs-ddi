@@ -3,6 +3,7 @@ UID: NA:logcontroller
 title: Logcontroller.h header
 ms.assetid: 1340ae74-450b-374a-9168-e1dbd27b4be7
 ms.date: 05/09/2018
+keywords: ["Logcontroller.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

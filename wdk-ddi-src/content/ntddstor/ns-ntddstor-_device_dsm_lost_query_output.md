@@ -5,6 +5,7 @@ description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: 566bbd9e-4f8e-49d9-915d-901c4495bbe8
 ms.date: 08/23/2019
+keywords: ["_DEVICE_DSM_LOST_QUERY_OUTPUT structure"]
 f1_keywords:
  - "ntddstor/_DEVICE_DSM_LOST_QUERY_OUTPUT"
 ms.keywords: _DEVICE_DSM_LOST_QUERY_OUTPUT, DEVICE_DSM_LOST_QUERY_OUTPUT, *PDEVICE_DSM_LOST_QUERY_OUTPUT, 

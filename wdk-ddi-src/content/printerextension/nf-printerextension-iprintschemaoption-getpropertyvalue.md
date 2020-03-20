@@ -6,6 +6,7 @@ old-location: print\iprintschemaoption_getpropertyvalue.htm
 tech.root: print
 ms.assetid: 6CD5202C-7852-46AA-90ED-3477E6654188
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaOption::GetPropertyValue"]
 ms.keywords: GetPropertyValue, GetPropertyValue method [Print Devices], GetPropertyValue method [Print Devices],IPrintSchemaOption interface, IPrintSchemaOption, IPrintSchemaOption interface [Print Devices],GetPropertyValue method, IPrintSchemaOption.GetPropertyValue, IPrintSchemaOption::GetPropertyValue, print.iprintschemaoption_getpropertyvalue, printerextension/IPrintSchemaOption::GetPropertyValue
 f1_keywords:
  - "printerextension/IPrintSchemaOption.GetPropertyValue"

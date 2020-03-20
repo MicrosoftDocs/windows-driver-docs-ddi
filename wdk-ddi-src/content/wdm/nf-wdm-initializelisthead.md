@@ -6,6 +6,7 @@ old-location: kernel\initializelisthead.htm
 tech.root: kernel
 ms.assetid: 123434fd-4e83-4042-834b-1eb4cf13dd10
 ms.date: 04/30/2018
+keywords: ["InitializeListHead function"]
 ms.keywords: InitializeListHead, InitializeListHead routine [Kernel-Mode Driver Architecture], k109_2e5e02a0-26d3-4c8a-b712-ee3d515b8a23.xml, kernel.initializelisthead, wdm/InitializeListHead
 f1_keywords:
  - "wdm/InitializeListHead"

@@ -4,6 +4,7 @@ title: TrSecureDeviceCompleteAsyncRequest function (trustedruntimeclx.h)
 description: 
 ms.assetid: c41603ac-2509-4a88-920a-ec379c818ba4
 ms.date: 10/19/2018
+keywords: ["TrSecureDeviceCompleteAsyncRequest function"]
 f1_keywords:
  - "trustedruntimeclx/TrSecureDeviceCompleteAsyncRequest"
 ms.keywords: TrSecureDeviceCompleteAsyncRequest

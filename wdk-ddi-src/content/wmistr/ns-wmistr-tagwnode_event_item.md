@@ -6,6 +6,7 @@ old-location: kernel\wnode_event_item.htm
 tech.root: kernel
 ms.assetid: 1805d174-ac10-4e76-9e3f-e9e156b769ec
 ms.date: 04/30/2018
+keywords: ["tagWNODE_EVENT_ITEM structure"]
 ms.keywords: "*PWNODE_EVENT_ITEM, PWNODE_EVENT_ITEM, PWNODE_EVENT_ITEM structure pointer [Kernel-Mode Driver Architecture], WNODE_EVENT_ITEM, WNODE_EVENT_ITEM structure [Kernel-Mode Driver Architecture], kernel.wnode_event_item, kstruct_d_f4a86459-f5b4-4c9f-a266-d73c9bcba0ac.xml, tagWNODE_EVENT_ITEM, wmistr/PWNODE_EVENT_ITEM, wmistr/WNODE_EVENT_ITEM"
 f1_keywords:
  - "wmistr/WNODE_EVENT_ITEM"

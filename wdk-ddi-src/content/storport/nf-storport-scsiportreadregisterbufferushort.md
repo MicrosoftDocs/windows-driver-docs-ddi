@@ -6,6 +6,7 @@ old-location: storage\scsiportreadregisterbufferushort.htm
 tech.root: storage
 ms.assetid: 6db90186-a663-4710-8209-abd5ef2b361a
 ms.date: 03/29/2018
+keywords: ["ScsiPortReadRegisterBufferUshort macro"]
 ms.keywords: ScsiPortReadRegisterBufferUshort, ScsiPortReadRegisterBufferUshort routine [Storage Devices], scsiprt_f6e36a20-066b-4b3e-bf94-9182e84dc2eb.xml, srb/ScsiPortReadRegisterBufferUshort, storage.scsiportreadregisterbufferushort
 f1_keywords:
  - "storport/ScsiPortReadRegisterBufferUshort"

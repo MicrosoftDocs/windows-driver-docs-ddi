@@ -5,6 +5,7 @@ description: The NetConfigurationAssignUnicodeString method assigns a specified 
 tech.root: netvista
 ms.assetid: 4b225e21-abf7-4b9b-91f3-349b4fbd60d2
 ms.date: 02/07/2018
+keywords: ["NetConfigurationAssignUnicodeString function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationAssignUnicodeString"
 ms.keywords: NetConfigurationAssignUnicodeString

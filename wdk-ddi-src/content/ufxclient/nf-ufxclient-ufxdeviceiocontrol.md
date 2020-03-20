@@ -6,6 +6,7 @@ old-location: buses\ufxdeviceiocontrol.htm
 tech.root: usbref
 ms.assetid: 18D4C334-1AD9-4CBF-8BF1-063A8E837A21
 ms.date: 05/07/2018
+keywords: ["UfxDeviceIoControl function"]
 ms.keywords: UfxDeviceIoControl, UfxDeviceIoControl method [Buses], buses.ufxdeviceiocontrol, ufxclient/UfxDeviceIoControl
 f1_keywords:
  - "ufxclient/UfxDeviceIoControl"

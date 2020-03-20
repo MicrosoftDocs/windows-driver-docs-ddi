@@ -3,6 +3,7 @@ UID: NA:struchdr
 title: Struchdr.h header
 ms.assetid: a061d852-61ca-3101-a67d-11194d2c20f1
 ms.date: 05/09/2018
+keywords: ["Struchdr.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

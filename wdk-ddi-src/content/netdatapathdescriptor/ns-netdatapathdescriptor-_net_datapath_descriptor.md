@@ -5,6 +5,7 @@ description: The NET_DATAPATH_DESCRIPTOR structure describes a datapath queue's 
 tech.root: netvista
 ms.assetid: 9b156fe0-5746-4628-9bc1-5973bf55710a
 ms.date: 02/27/2018
+keywords: ["_NET_DATAPATH_DESCRIPTOR structure"]
 f1_keywords:
  - "netdatapathdescriptor/_NET_DATAPATH_DESCRIPTOR"
 ms.keywords: _NET_DATAPATH_DESCRIPTOR, NET_DATAPATH_DESCRIPTOR, *PCNET_DATAPATH_DESCRIPTOR, 

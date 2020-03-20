@@ -5,6 +5,7 @@ description: DXGKARGCB_UPDATECONTEXTALLOCATION contains the data used to call Dx
 old-location: display\dxgkargcb_updatecontextallocation.htm
 ms.assetid: 07BFCA6C-4E75-4BB5-9F6A-22E1FFAFFF6F
 ms.date: 05/10/2018
+keywords: ["_DXGKARGCB_UPDATECONTEXTALLOCATION structure"]
 ms.keywords: DXGKARGCB_UPDATECONTEXTALLOCATION, DXGKARGCB_UPDATECONTEXTALLOCATION structure [Display Devices], _DXGKARGCB_UPDATECONTEXTALLOCATION, d3dkmddi/DXGKARGCB_UPDATECONTEXTALLOCATION, display.dxgkargcb_updatecontextallocation
 f1_keywords:
  - "d3dkmddi/DXGKARGCB_UPDATECONTEXTALLOCATION"

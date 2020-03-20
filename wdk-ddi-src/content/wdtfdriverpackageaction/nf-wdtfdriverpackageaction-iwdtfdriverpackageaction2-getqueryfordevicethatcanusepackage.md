@@ -6,6 +6,7 @@ old-location: dtf\iwdtfdriverpackageaction2_getqueryfordevicethatcanusepackage.h
 tech.root: dtf
 ms.assetid: 218146e6-c94a-455a-ab87-1e77da3152f2
 ms.date: 03/29/2018
+keywords: ["IWDTFDriverPackageAction2::GetQueryForDeviceThatCanUsePackage method"]
 ms.keywords: GetQueryForDeviceThatCanUsePackage,IWDTFDriverPackageAction2.GetQueryForDeviceThatCanUsePackage, GetQueryForDevicesThatCanUsePackage method [Windows Device Testing Framework], GetQueryForDevicesThatCanUsePackage method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], GetQueryForDevicesThatCanUsePackage method, IWDTFDriverPackageAction2::GetQueryForDeviceThatCanUsePackage, IWDTFDriverPackageAction2::GetQueryForDevicesThatCanUsePackage, Microsoft.WDTF.IWDTFDriverPackageAction2.GetQueryForDevicesThatCanUsePackage, Microsoft::WDTF::IWDTFDriverPackageAction2::GetQueryForDevicesThatCanUsePackage, dtf.iwdtfdriverpackageaction2_getqueryfordevicethatcanusepackage, wdtfdriverpackageaction/IWDTFDriverPackageAction2::GetQueryForDevicesThatCanUsePackage
 f1_keywords:
  - "wdtfdriverpackageaction/IWDTFDriverPackageAction2.GetQueryForDevicesThatCanUsePackage"

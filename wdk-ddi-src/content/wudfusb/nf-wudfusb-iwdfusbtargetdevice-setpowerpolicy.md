@@ -6,6 +6,7 @@ old-location: wdf\iwdfusbtargetdevice_setpowerpolicy.htm
 tech.root: wdf
 ms.assetid: e1b31df0-d383-43a3-bf9f-8874689cbf58
 ms.date: 02/26/2018
+keywords: ["IWDFUsbTargetDevice::SetPowerPolicy"]
 ms.keywords: IWDFUsbTargetDevice interface,SetPowerPolicy method, IWDFUsbTargetDevice.SetPowerPolicy, IWDFUsbTargetDevice::SetPowerPolicy, SetPowerPolicy, SetPowerPolicy method, SetPowerPolicy method,IWDFUsbTargetDevice interface, UMDFUSBref_fb6e31cc-0db6-4733-baea-d73514fb5160.xml, umdf.iwdfusbtargetdevice_setpowerpolicy, wdf.iwdfusbtargetdevice_setpowerpolicy, wudfusb/IWDFUsbTargetDevice::SetPowerPolicy
 f1_keywords:
  - "wudfusb/IWDFUsbTargetDevice.SetPowerPolicy"

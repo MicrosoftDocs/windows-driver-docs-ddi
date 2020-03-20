@@ -6,6 +6,7 @@ old-location: netvista\classifyfn2.htm
 tech.root: netvista
 ms.assetid: de8220de-cf71-4718-876e-ef02c15fc948
 ms.date: 10/28/2019
+keywords: ["FWPS_CALLOUT_CLASSIFY_FN2 callback function"]
 ms.keywords: FWPS_CALLOUT_CLASSIFY_FN2, FWPS_CALLOUT_CLASSIFY_FN2 callback, classifyFn2, classifyFn2 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn2, netvista.classifyfn2
 f1_keywords:
  - "fwpsk/classifyFn2"

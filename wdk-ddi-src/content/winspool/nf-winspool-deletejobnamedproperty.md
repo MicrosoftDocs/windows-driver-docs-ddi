@@ -6,6 +6,7 @@ old-location: print\deletejobnamedproperty.htm
 tech.root: print
 ms.assetid: 14F8C0A2-0D19-446E-8C2B-530A3AEDA879
 ms.date: 04/20/2018
+keywords: ["DeleteJobNamedProperty function"]
 ms.keywords: DeleteJobNamedProperty, DeleteJobNamedProperty function [Print Devices], print.deletejobnamedproperty, winspool/DeleteJobNamedProperty
 f1_keywords:
  - "winspool/DeleteJobNamedProperty"

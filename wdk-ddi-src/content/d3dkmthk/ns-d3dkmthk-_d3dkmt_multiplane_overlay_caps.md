@@ -4,6 +4,7 @@ title: _D3DKMT_MULTIPLANE_OVERLAY_CAPS (d3dkmthk.h)
 description: Contains multiplane overlay capabilities.
 ms.assetid: 15844fc5-e933-45dc-bbed-e57ed1a26668
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_MULTIPLANE_OVERLAY_CAPS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_MULTIPLANE_OVERLAY_CAPS"
 ms.keywords: _D3DKMT_MULTIPLANE_OVERLAY_CAPS, D3DKMT_MULTIPLANE_OVERLAY_CAPS, 

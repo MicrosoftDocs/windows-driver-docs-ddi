@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 275f7fe2-1bfc-4a88-b3c7-b78840b34930
 ms.author: windowsdriverdev
 ms.date: 10/25/2019
+keywords: ["NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES structure"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES"
 ms.keywords: NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES, NET_ADAPTER_WAKE_MAGIC_PACKET_CAPABILITIES, 

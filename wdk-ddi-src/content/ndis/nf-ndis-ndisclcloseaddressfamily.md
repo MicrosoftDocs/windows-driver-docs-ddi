@@ -6,6 +6,7 @@ old-location: netvista\ndisclcloseaddressfamily.htm
 tech.root: netvista
 ms.assetid: ae6b9133-bb98-4858-bef5-1cbe0ae0dd4f
 ms.date: 05/02/2018
+keywords: ["NdisClCloseAddressFamily function"]
 ms.keywords: NdisClCloseAddressFamily, NdisClCloseAddressFamily function [Network Drivers Starting with Windows Vista], condis_client_ref_6aa6db12-2ebe-444a-a239-46542dd1be4a.xml, ndis/NdisClCloseAddressFamily, netvista.ndisclcloseaddressfamily
 f1_keywords:
  - "ndis/NdisClCloseAddressFamily"

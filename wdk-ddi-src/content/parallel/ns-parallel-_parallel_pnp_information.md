@@ -6,6 +6,7 @@ old-location: parports\parallel_pnp_information.htm
 tech.root: parports
 ms.assetid: 9288fc11-e19b-46dd-95e4-6de8c7cdc61d
 ms.date: 02/15/2018
+keywords: ["_PARALLEL_PNP_INFORMATION structure"]
 ms.keywords: "*PPARALLEL_PNP_INFORMATION, PARALLEL_PNP_INFORMATION, PARALLEL_PNP_INFORMATION structure [Parallel Ports], PPARALLEL_PNP_INFORMATION, PPARALLEL_PNP_INFORMATION structure pointer [Parallel Ports], _PARALLEL_PNP_INFORMATION, cisspd_71ac405c-ab56-434c-a945-9afee36c0972.xml, parallel/PARALLEL_PNP_INFORMATION, parallel/PPARALLEL_PNP_INFORMATION, parports.parallel_pnp_information"
 f1_keywords:
  - "parallel/PARALLEL_PNP_INFORMATION"

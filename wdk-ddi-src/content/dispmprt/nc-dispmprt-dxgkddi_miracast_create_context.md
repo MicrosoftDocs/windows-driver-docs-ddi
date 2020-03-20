@@ -6,6 +6,7 @@ old-location: display\dxgkddimiracastcreatecontext.htm
 tech.root: display
 ms.assetid: BFF952CE-AA0F-4622-BBFC-946A45859FB7
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_MIRACAST_CREATE_CONTEXT callback function"]
 ms.keywords: DXGKDDI_MIRACAST_CREATE_CONTEXT, DXGKDDI_MIRACAST_CREATE_CONTEXT callback, DxgkDdiMiracastCreateContext, DxgkDdiMiracastCreateContext callback function [Display Devices], display.dxgkddimiracastcreatecontext, dispmprt/DxgkDdiMiracastCreateContext
 f1_keywords:
  - "dispmprt/DxgkDdiMiracastCreateContext"

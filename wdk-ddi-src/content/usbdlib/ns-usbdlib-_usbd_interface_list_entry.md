@@ -6,6 +6,7 @@ old-location: buses\usbd_interface_list_entry.htm
 tech.root: usbref
 ms.assetid: 9b729c52-b03b-4b53-ae1a-9a025585ba7b
 ms.date: 05/07/2018
+keywords: ["_USBD_INTERFACE_LIST_ENTRY structure"]
 ms.keywords: "*PUSBD_INTERFACE_LIST_ENTRY, PUSBD_INTERFACE_LIST_ENTRY, PUSBD_INTERFACE_LIST_ENTRY structure pointer [Buses], USBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY structure [Buses], _USBD_INTERFACE_LIST_ENTRY, buses.usbd_interface_list_entry, usbdlib/PUSBD_INTERFACE_LIST_ENTRY, usbdlib/USBD_INTERFACE_LIST_ENTRY, usbstrct_f42a04be-c6c2-44c6-ae18-725929020420.xml"
 f1_keywords:
  - "usbdlib/USBD_INTERFACE_LIST_ENTRY"

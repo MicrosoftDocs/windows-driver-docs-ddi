@@ -6,6 +6,7 @@ old-location: wdf\wdf_interrupt_info_init_umdf.htm
 tech.root: wdf
 ms.assetid: CFFE19FB-289C-4002-AB07-AE342D855B20
 ms.date: 02/26/2018
+keywords: ["WDF_INTERRUPT_INFO_INIT function"]
 ms.keywords: WDF_INTERRUPT_INFO_INIT, WDF_INTERRUPT_INFO_INIT function, umdf.wdf_interrupt_info_init, wdf.wdf_interrupt_info_init_umdf, wudfinterrupt/WDF_INTERRUPT_INFO_INIT
 f1_keywords:
  - "wudfinterrupt/WDF_INTERRUPT_INFO_INIT"

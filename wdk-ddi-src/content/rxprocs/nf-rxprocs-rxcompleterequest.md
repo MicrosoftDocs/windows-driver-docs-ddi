@@ -6,6 +6,7 @@ old-location: ifsk\rxcompleterequest.htm
 tech.root: ifsk
 ms.assetid: f5e9219b-0697-427e-b92e-7cd647a0e0b6
 ms.date: 04/16/2018
+keywords: ["RxCompleteRequest function"]
 ms.keywords: RxCompleteRequest, RxCompleteRequest function [Installable File System Drivers], ifsk.rxcompleterequest, rxprocs/RxCompleteRequest, rxref_12eec336-4619-430c-a36c-ddbe855b8865.xml
 f1_keywords:
  - "rxprocs/RxCompleteRequest"

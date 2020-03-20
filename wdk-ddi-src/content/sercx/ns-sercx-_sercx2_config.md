@@ -6,6 +6,7 @@ old-location: serports\sercx2_config.htm
 tech.root: serports
 ms.assetid: 9F33E535-21C1-446F-93AA-B86157904F68
 ms.date: 04/23/2018
+keywords: ["_SERCX2_CONFIG structure"]
 ms.keywords: "*PSERCX2_CONFIG, 2/PSERCX2_CONFIG, 2/SERCX2_CONFIG, PSERCX2_CONFIG, PSERCX2_CONFIG structure pointer [Serial Ports], SERCX2_CONFIG, SERCX2_CONFIG structure [Serial Ports], _SERCX2_CONFIG, serports.sercx2_config"
 f1_keywords:
  - "sercx/SERCX2_CONFIG"

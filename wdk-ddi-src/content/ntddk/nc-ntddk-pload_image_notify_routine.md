@@ -6,6 +6,7 @@ old-location: kernel\pload_image_notify_routine.htm
 tech.root: kernel
 ms.assetid: 613962D6-DF27-4AAE-BD8F-6BC0A538D7F8
 ms.date: 04/30/2018
+keywords: ["PLOAD_IMAGE_NOTIFY_ROUTINE callback function"]
 ms.keywords: PLOAD_IMAGE_NOTIFY_ROUTINE, PLOAD_IMAGE_NOTIFY_ROUTINE callback, SetLoadImageNotifyRoutine, SetLoadImageNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pload_image_notify_routine, ntddk/SetLoadImageNotifyRoutine
 f1_keywords:
  - "ntddk/SetLoadImageNotifyRoutine"

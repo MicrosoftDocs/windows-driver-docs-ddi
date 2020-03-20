@@ -6,6 +6,7 @@ old-location: netvista\netdmaproviderstart.htm
 tech.root: netvista
 ms.assetid: e99ebbe8-8605-4bf2-9ec0-d7cde25058f7
 ms.date: 05/02/2018
+keywords: ["NetDmaProviderStart function"]
 ms.keywords: NetDmaProviderStart, NetDmaProviderStart function [Network Drivers Starting with Windows Vista], netdma/NetDmaProviderStart, netdma_ref_bdb7c400-1c73-4dcb-8eb2-4121172302ad.xml, netvista.netdmaproviderstart
 f1_keywords:
  - "netdma/NetDmaProviderStart"

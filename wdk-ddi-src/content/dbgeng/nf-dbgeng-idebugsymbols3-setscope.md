@@ -6,6 +6,7 @@ old-location: debugger\setscope.htm
 tech.root: debugger
 ms.assetid: 78a32ba6-5546-486a-aede-9a597b27f9fb
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::SetScope"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],SetScope method, IDebugSymbols2 interface [Windows Debugging],SetScope method, IDebugSymbols2::SetScope, IDebugSymbols3 interface [Windows Debugging],SetScope method, IDebugSymbols3.SetScope, IDebugSymbols3::SetScope, IDebugSymbols::SetScope, IDebugSymbols_20e96a86-b9c3-481f-9a26-319bac975e15.xml, SetScope, SetScope method [Windows Debugging], SetScope method [Windows Debugging],IDebugSymbols interface, SetScope method [Windows Debugging],IDebugSymbols2 interface, SetScope method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::SetScope, dbgeng/IDebugSymbols3::SetScope, dbgeng/IDebugSymbols::SetScope, debugger.setscope
 f1_keywords:
  - "dbgeng/IDebugSymbols.SetScope"

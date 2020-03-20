@@ -6,6 +6,7 @@ old-location: print\xpsras_pixel_format.htm
 tech.root: print
 ms.assetid: 54EA7ED6-BBE1-4110-8405-DEC0C5EA1C27
 ms.date: 04/20/2018
+keywords: ["__MIDL___MIDL_itf_xpsrassvc_0000_0003_0001 enumeration"]
 ms.keywords: XPSRAS_PIXEL_FORMAT, XPSRAS_PIXEL_FORMAT enumeration [Print Devices], XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB, XPSRAS_PIXEL_FORMAT_32BPP_PBGRA_UINT_SRGB, XPSRAS_PIXEL_FORMAT_64BPP_PRGBA_HALF_SCRGB, __MIDL___MIDL_itf_xpsrassvc_0000_0003_0001, print.xpsras_pixel_format, xpsrassvc/XPSRAS_PIXEL_FORMAT, xpsrassvc/XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB, xpsrassvc/XPSRAS_PIXEL_FORMAT_32BPP_PBGRA_UINT_SRGB, xpsrassvc/XPSRAS_PIXEL_FORMAT_64BPP_PRGBA_HALF_SCRGB
 f1_keywords:
  - "xpsrassvc/XPSRAS_PIXEL_FORMAT"

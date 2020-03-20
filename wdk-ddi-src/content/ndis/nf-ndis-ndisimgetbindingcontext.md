@@ -6,6 +6,7 @@ old-location: netvista\ndisimgetbindingcontext.htm
 tech.root: netvista
 ms.assetid: fc0668b3-9242-4d30-9dc9-820f6d596d6c
 ms.date: 05/02/2018
+keywords: ["NdisIMGetBindingContext function"]
 ms.keywords: NdisIMGetBindingContext, NdisIMGetBindingContext function [Network Drivers Starting with Windows Vista], intermediate_ref_ef5b6cf4-209a-4e51-be20-2e0e7bcc1ac8.xml, ndis/NdisIMGetBindingContext, netvista.ndisimgetbindingcontext
 f1_keywords:
  - "ndis/NdisIMGetBindingContext"

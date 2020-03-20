@@ -6,6 +6,7 @@ old-location: hid\hidp_getusagevalue.htm
 tech.root: hid
 ms.assetid: 5f2d1536-4676-4afe-aa5c-08e7c74d1dd2
 ms.date: 04/30/2018
+keywords: ["HidP_GetUsageValue function"]
 ms.keywords: HidP_GetUsageValue, HidP_GetUsageValue routine [Human Input Devices], hid.hidp_getusagevalue, hidfunc_d046d7e6-bd4c-4d80-80a8-f8e2d000eeee.xml, hidpi/HidP_GetUsageValue
 f1_keywords:
  - "hidpi/HidP_GetUsageValue"

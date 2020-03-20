@@ -6,6 +6,7 @@ old-location: netvista\rilsystemselectionprefs_v2.htm
 tech.root: netvista
 ms.assetid: 0734fac3-9327-4765-a50b-57be45ce2817
 ms.date: 05/02/2018
+keywords: ["RILSYSTEMSELECTIONPREFS_V2 structure"]
 ms.keywords: "*LPRILSYSTEMSELECTIONPREFS, *LPRILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS, RILSYSTEMSELECTIONPREFS_V2, RILSYSTEMSELECTIONPREFS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsystemselectionprefs_v2, ntddrilapitypes/RILSYSTEMSELECTIONPREFS_V2"
 f1_keywords:
  - "rilapitypes/RILSYSTEMSELECTIONPREFS_V2"

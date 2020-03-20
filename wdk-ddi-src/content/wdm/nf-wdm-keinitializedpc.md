@@ -6,6 +6,7 @@ old-location: kernel\keinitializedpc.htm
 tech.root: kernel
 ms.assetid: 5dd82086-d39c-4ebc-9e2a-73ef504f873c
 ms.date: 04/30/2018
+keywords: ["KeInitializeDpc function"]
 ms.keywords: KeInitializeDpc, KeInitializeDpc routine [Kernel-Mode Driver Architecture], k105_069c115c-3a05-442e-8fc4-56dcb635a473.xml, kernel.keinitializedpc, wdm/KeInitializeDpc
 f1_keywords:
  - "wdm/KeInitializeDpc"

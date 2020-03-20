@@ -5,6 +5,7 @@ description: Specifies the type of Microsoft Direct3D authenticated channel.
 old-location: display\d3d11_1ddi_authenticated_channel_type.htm
 ms.assetid: da04ef5d-c3e4-4321-8cc8-e20763c5a7db
 ms.date: 05/10/2018
+keywords: ["D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE enumeration"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE, D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE, D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE, D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE enumeration [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE, display.d3d11_1ddi_authenticated_channel_type
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE"

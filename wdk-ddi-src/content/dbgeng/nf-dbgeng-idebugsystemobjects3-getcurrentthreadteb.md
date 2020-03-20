@@ -6,6 +6,7 @@ old-location: debugger\getcurrentthreadteb.htm
 tech.root: debugger
 ms.assetid: f5acd64c-c5a8-4977-8059-cc0bd12ef0c0
 ms.date: 05/03/2018
+keywords: ["IDebugSystemObjects3::GetCurrentThreadTeb"]
 ms.keywords: GetCurrentThreadTeb, GetCurrentThreadTeb method [Windows Debugging], GetCurrentThreadTeb method [Windows Debugging],IDebugSystemObjects interface, GetCurrentThreadTeb method [Windows Debugging],IDebugSystemObjects2 interface, GetCurrentThreadTeb method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentThreadTeb method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetCurrentThreadTeb method, IDebugSystemObjects2 interface [Windows Debugging],GetCurrentThreadTeb method, IDebugSystemObjects2::GetCurrentThreadTeb, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentThreadTeb method, IDebugSystemObjects3.GetCurrentThreadTeb, IDebugSystemObjects3::GetCurrentThreadTeb, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentThreadTeb method, IDebugSystemObjects4::GetCurrentThreadTeb, IDebugSystemObjects::GetCurrentThreadTeb, IDebugSystemObjects_d496c1cf-524f-469f-9cb6-1476f972ae9a.xml, dbgeng/IDebugSystemObjects2::GetCurrentThreadTeb, dbgeng/IDebugSystemObjects3::GetCurrentThreadTeb, dbgeng/IDebugSystemObjects4::GetCurrentThreadTeb, dbgeng/IDebugSystemObjects::GetCurrentThreadTeb, debugger.getcurrentthreadteb
 f1_keywords:
  - "dbgeng/IDebugSystemObjects.GetCurrentThreadTeb"

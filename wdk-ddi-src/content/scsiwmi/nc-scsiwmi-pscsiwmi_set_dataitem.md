@@ -6,6 +6,7 @@ old-location: storage\hwscsiwmisetdataitem.htm
 tech.root: storage
 ms.assetid: 24b8415e-4326-4aef-bcbb-fabffa25c7d6
 ms.date: 03/29/2018
+keywords: ["PSCSIWMI_SET_DATAITEM callback function"]
 ms.keywords: HwScsiWmiSetDataItem, HwScsiWmiSetDataItem callback function [Storage Devices], PSCSIWMI_SET_DATAITEM, PSCSIWMI_SET_DATAITEM callback, Scsimini_6cc9b791-9522-4839-b60b-776c73b04d38.xml, scsiwmi/HwScsiWmiSetDataItem, storage.hwscsiwmisetdataitem
 f1_keywords:
  - "scsiwmi/HwScsiWmiSetDataItem"

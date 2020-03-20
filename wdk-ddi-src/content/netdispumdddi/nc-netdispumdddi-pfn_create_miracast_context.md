@@ -6,6 +6,7 @@ old-location: display\createmiracastcontext.htm
 tech.root: display
 ms.assetid: 3b10ddd9-a48d-4f96-b35e-db017d1f9583
 ms.date: 05/10/2018
+keywords: ["PFN_CREATE_MIRACAST_CONTEXT callback function"]
 ms.keywords: CreateMiracastContext, CreateMiracastContext callback function [Display Devices], PFN_CREATE_MIRACAST_CONTEXT, PFN_CREATE_MIRACAST_CONTEXT callback, display.createmiracastcontext, netdispumdddi/CreateMiracastContext
 f1_keywords:
  - "netdispumdddi/CreateMiracastContext"

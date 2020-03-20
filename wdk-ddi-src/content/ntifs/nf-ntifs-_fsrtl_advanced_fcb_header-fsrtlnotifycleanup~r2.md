@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlnotifycleanup.htm
 tech.root: ifsk
 ms.assetid: 90cc2c3b-8fb2-4450-9c20-06e1e4d1fe47
 ms.date: 03/29/2018
+keywords: ["FsRtlNotifyCleanup function"]
 ms.keywords: FsRtlNotifyCleanup, FsRtlNotifyCleanup routine [Installable File System Drivers], fsrtlref_7b5eea13-55d3-48de-baf3-4e16fcc1a755.xml, ifsk.fsrtlnotifycleanup, ntifs/FsRtlNotifyCleanup
 f1_keywords:
  - "ntifs/FsRtlNotifyCleanup"

@@ -4,6 +4,7 @@ title: D3DKMTGetSetSwapChainMetadata function (d3dkmthk.h)
 description: Gets swap chain metadata.
 ms.assetid: 78b32c6e-3d01-4be2-90b7-8aa9f37aee61
 ms.date: 10/19/2018
+keywords: ["D3DKMTGetSetSwapChainMetadata function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTGetSetSwapChainMetadata"
 ms.keywords: D3DKMTGetSetSwapChainMetadata

@@ -6,6 +6,7 @@ old-location: netvista\ndis_switch_port_feature_status_parameters.htm
 tech.root: netvista
 ms.assetid: 117ba27f-812a-406d-8120-99ba89551164
 ms.date: 05/02/2018
+keywords: ["_NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, netvista.ndis_switch_port_feature_status_parameters, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS"
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS"

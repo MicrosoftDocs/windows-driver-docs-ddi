@@ -4,6 +4,7 @@ title: EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT (trustedruntimeclx.h)
 description: 
 ms.assetid: 398accdf-300c-43d5-b460-f87f83c6edfc
 ms.date: 10/19/2018
+keywords: ["EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT callback function"]
 f1_keywords:
  - "trustedruntimeclx/EVT_TR_CREATE_SECURE_SERVICE_SESSION_CONTEXT"
 req.header: trustedruntimeclx.h

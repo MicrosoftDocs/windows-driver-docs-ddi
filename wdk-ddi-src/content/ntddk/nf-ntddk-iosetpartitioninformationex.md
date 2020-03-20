@@ -6,6 +6,7 @@ old-location: storage\iosetpartitioninformationex.htm
 tech.root: storage
 ms.assetid: e663a9aa-ed83-4d85-b110-390f0c03a724
 ms.date: 03/29/2018
+keywords: ["IoSetPartitionInformationEx function"]
 ms.keywords: IoSetPartitionInformationEx, IoSetPartitionInformationEx routine [Storage Devices], ntddk/IoSetPartitionInformationEx, rtns-disk_7fd49999-70b3-4d59-b281-ff24b8a22a30.xml, storage.iosetpartitioninformationex
 f1_keywords:
  - "ntddk/IoSetPartitionInformationEx"

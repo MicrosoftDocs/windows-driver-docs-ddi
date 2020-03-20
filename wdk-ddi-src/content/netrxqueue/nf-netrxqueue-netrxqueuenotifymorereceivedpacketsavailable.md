@@ -5,6 +5,7 @@ description: The client driver calls NetRxQueueNotifyMoreReceivedPacketsAvailabl
 tech.root: netvista
 ms.assetid: 81463460-f494-4265-a557-134a50a91d52
 ms.date: 11/06/2018
+keywords: ["NetRxQueueNotifyMoreReceivedPacketsAvailable function"]
 f1_keywords:
  - "netrxqueue/NetRxQueueInitGetQueueId"
 ms.keywords: NetRxQueueNotifyMoreReceivedPacketsAvailable

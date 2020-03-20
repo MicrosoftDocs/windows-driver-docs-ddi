@@ -6,6 +6,7 @@ old-location: display\dxvahdddi_stream_state_alpha_data.htm
 tech.root: display
 ms.assetid: 0cd14f0c-5b7b-443b-ab37-c455b4accacb
 ms.date: 05/10/2018
+keywords: ["_DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure"]
 ms.keywords: DXVA2_Structs_33a16800-e101-40e7-b776-36161a8a984a.xml, DXVAHDDDI_STREAM_STATE_ALPHA_DATA, DXVAHDDDI_STREAM_STATE_ALPHA_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_ALPHA_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ALPHA_DATA, display.dxvahdddi_stream_state_alpha_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_STREAM_STATE_ALPHA_DATA"

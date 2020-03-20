@@ -5,6 +5,7 @@ description: The NET_ADAPTER_DMA_CAPABILITIES_INIT method initializes a NET_ADAP
 tech.root: netvista
 ms.assetid: 7e1a1622-4479-445e-8672-3dcc9b402679
 ms.date: 02/14/2018
+keywords: ["NET_ADAPTER_DMA_CAPABILITIES_INIT function"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_DMA_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_DMA_CAPABILITIES_INIT

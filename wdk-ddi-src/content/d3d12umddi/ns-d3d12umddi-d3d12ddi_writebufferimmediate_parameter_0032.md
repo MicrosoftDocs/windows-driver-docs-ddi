@@ -5,6 +5,7 @@ description: Write buffer immediate parameter.
 old-location: display\d3d12ddi-writebufferimmediate-parameter-0032.htm
 ms.assetid: 84b0f28d-2157-492e-bafa-ea97956d66f2
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 structure"]
 ms.keywords: D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032 structure [Display Devices], d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032, display.d3d12ddi-writebufferimmediate-parameter-0032
 f1_keywords:
  - "d3d12umddi/D3D12DDI_WRITEBUFFERIMMEDIATE_PARAMETER_0032"

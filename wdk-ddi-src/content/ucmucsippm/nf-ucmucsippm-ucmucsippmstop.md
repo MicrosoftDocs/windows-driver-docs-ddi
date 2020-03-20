@@ -5,6 +5,7 @@ tech.root: usbref
 description: Instructs the class extension to stop sending requests to the client driver.
 ms.assetid: 851fee56-96fc-4ec0-b9e6-7933463eac61
 ms.date: 09/30/2018
+keywords: ["UcmUcsiPpmStop function"]
 f1_keywords:
  - "ucmucsippm/UcmUcsiPpmStop"
 ms.keywords: UcmUcsiPpmStop

@@ -6,6 +6,7 @@ old-location: debugger\idebugadvanced4.htm
 tech.root: debugger
 ms.assetid: 1AB058ED-F0FC-47AC-9C0B-152CFE612F03
 ms.date: 05/03/2018
+keywords: ["IDebugAdvanced4 interface"]
 ms.keywords: IDebugAdvanced4, IDebugAdvanced4 interface [Windows Debugging], IDebugAdvanced4 interface [Windows Debugging],described, dbgeng/IDebugAdvanced4, debugger.idebugadvanced4
 f1_keywords:
  - "dbgeng/IDebugAdvanced4"

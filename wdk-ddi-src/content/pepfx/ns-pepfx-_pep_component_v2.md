@@ -6,6 +6,7 @@ old-location: kernel\pep_component_v2.htm
 tech.root: kernel
 ms.assetid: 6C7AB917-1A98-471C-BA6C-B7C6BFF1AC3F
 ms.date: 04/30/2018
+keywords: ["_PEP_COMPONENT_V2 structure"]
 ms.keywords: "*PPEP_COMPONENT, *PPEP_COMPONENT_V2, PEP_COMPONENT, PEP_COMPONENT_V2, PEP_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_V2, PPEP_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_V2, kernel.pep_component_v2, pepfx/PEP_COMPONENT_V2, pepfx/PPEP_COMPONENT_V2"
 f1_keywords:
  - "pepfx/PEP_COMPONENT_V2"

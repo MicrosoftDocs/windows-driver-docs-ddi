@@ -5,6 +5,7 @@ description: Queries the number of video decoder configurations that are support
 old-location: display\getvideodecoderconfigcount.htm
 ms.assetid: 5b4cc185-8579-4c13-932f-23065697c4ee
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT callback function"]
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT, PFND3D11_1DDI_GETVIDEODECODERCONFIGCOUNT callback, d3d10umddi/pfnGetVideoDecoderConfigCount, display.getvideodecoderconfigcount, pfnGetVideoDecoderConfigCount, pfnGetVideoDecoderConfigCount callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnGetVideoDecoderConfigCount"

@@ -5,6 +5,7 @@ description: The DXGKARG_SETVIDPNSOURCEADDRESS structure contains arguments for 
 old-location: display\dxgkarg_setvidpnsourceaddress.htm
 ms.assetid: b83736b6-17c5-43b8-9204-d165fe07853b
 ms.date: 05/10/2018
+keywords: ["_DXGKARG_SETVIDPNSOURCEADDRESS structure"]
 ms.keywords: DXGKARG_SETVIDPNSOURCEADDRESS, DXGKARG_SETVIDPNSOURCEADDRESS structure [Display Devices], DmStructs_f179199a-3747-4086-8e77-5434a3e287a1.xml, _DXGKARG_SETVIDPNSOURCEADDRESS, d3dkmddi/DXGKARG_SETVIDPNSOURCEADDRESS, display.dxgkarg_setvidpnsourceaddress
 f1_keywords:
  - "d3dkmddi/DXGKARG_SETVIDPNSOURCEADDRESS"

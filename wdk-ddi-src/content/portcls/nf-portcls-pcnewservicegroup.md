@@ -6,6 +6,7 @@ old-location: audio\pcnewservicegroup.htm
 tech.root: audio
 ms.assetid: 9fcc8cee-61a1-417c-9e69-5c658dab80b2
 ms.date: 05/08/2018
+keywords: ["PcNewServiceGroup function"]
 ms.keywords: PcNewServiceGroup, PcNewServiceGroup function [Audio Devices], audio.pcnewservicegroup, audpc-routines_2164b9cd-1bb5-4e51-aa07-6ed9cb40e3fb.xml, portcls/PcNewServiceGroup
 f1_keywords:
  - "portcls/PcNewServiceGroup"

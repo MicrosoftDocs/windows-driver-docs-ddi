@@ -5,6 +5,7 @@ description: The DestroyShaderResourceView function destroys the specified shade
 old-location: display\destroyshaderresourceview.htm
 ms.assetid: dcdfe76e-a392-4a76-91fe-03648fec1278
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_DESTROYSHADERRESOURCEVIEW callback function"]
 ms.keywords: DestroyShaderResourceView, DestroyShaderResourceView callback function [Display Devices], PFND3D10DDI_DESTROYSHADERRESOURCEVIEW, PFND3D10DDI_DESTROYSHADERRESOURCEVIEW callback, UserModeDisplayDriverDx10_Functions_3ca479b5-d0f1-484f-9411-1b03c3308e11.xml, d3d10umddi/DestroyShaderResourceView, display.destroyshaderresourceview
 f1_keywords:
  - "d3d10umddi/DestroyShaderResourceView"

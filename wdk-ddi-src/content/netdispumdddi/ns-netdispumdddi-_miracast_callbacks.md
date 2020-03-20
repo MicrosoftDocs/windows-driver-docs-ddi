@@ -6,6 +6,7 @@ old-location: display\miracast_callbacks.htm
 tech.root: display
 ms.assetid: 2168a4d8-a33d-4534-b4e8-126a41e528f5
 ms.date: 05/10/2018
+keywords: ["_MIRACAST_CALLBACKS structure"]
 ms.keywords: "*PMIRACAST_CALLBACKS, MIRACAST_CALLBACKS, MIRACAST_CALLBACKS structure [Display Devices], PMIRACAST_CALLBACKS, PMIRACAST_CALLBACKS structure pointer [Display Devices], _MIRACAST_CALLBACKS, display.miracast_callbacks, netdispumdddi/MIRACAST_CALLBACKS, netdispumdddi/PMIRACAST_CALLBACKS"
 f1_keywords:
  - "netdispumdddi/MIRACAST_CALLBACKS"

@@ -6,6 +6,7 @@ old-location: storage\ataportdevicebusy.htm
 tech.root: storage
 ms.assetid: 919f30b1-025d-4526-a1f6-2d14c482e474
 ms.date: 03/29/2018
+keywords: ["AtaPortDeviceBusy function"]
 ms.keywords: AtaPortDeviceBusy, AtaPortDeviceBusy routine [Storage Devices], atartns_22d36e2a-804e-4d24-910e-051e6dccdeaa.xml, irb/AtaPortDeviceBusy, storage.ataportdevicebusy
 f1_keywords:
  - "irb/AtaPortDeviceBusy"

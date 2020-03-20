@@ -4,6 +4,7 @@ title: IModelKeyReference2::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 5ed42151-5fe3-461d-afca-90905752ad97
 ms.date: 08/14/2018
+keywords: ["IModelKeyReference2::Release"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference2.Release"
 ms.keywords: IModelKeyReference2::Release, Release, IModelKeyReference2.Release, IModelKeyReference2::Release, IModelKeyReference2.Release

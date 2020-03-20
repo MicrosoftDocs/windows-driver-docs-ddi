@@ -4,6 +4,7 @@ title: IIndexableConcept::GetAt (dbgmodel.h)
 description: The GetAt method retrieves the value at a particular N-dimensional index from within the indexed object.
 ms.assetid: a2ad86e3-55ea-49ad-88a5-745a69741e17
 ms.date: 09/19/2018
+keywords: ["IIndexableConcept::GetAt"]
 f1_keywords:
  - "dbgmodel/IIndexableConcept.GetAt"
 ms.keywords: IIndexableConcept::GetAt, GetAt, IIndexableConcept.GetAt, IIndexableConcept::GetAt, IIndexableConcept.GetAt

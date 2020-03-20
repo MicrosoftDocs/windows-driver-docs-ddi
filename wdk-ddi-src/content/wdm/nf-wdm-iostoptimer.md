@@ -6,6 +6,7 @@ old-location: kernel\iostoptimer.htm
 tech.root: kernel
 ms.assetid: 4b903046-8f96-4299-94e7-85900be1bbd4
 ms.date: 04/30/2018
+keywords: ["IoStopTimer function"]
 ms.keywords: IoStopTimer, IoStopTimer routine [Kernel-Mode Driver Architecture], k104_dfedf779-1137-44c1-ab06-223c3ce6e9c6.xml, kernel.iostoptimer, wdm/IoStopTimer
 f1_keywords:
  - "wdm/IoStopTimer"

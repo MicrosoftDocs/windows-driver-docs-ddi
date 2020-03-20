@@ -6,6 +6,7 @@ old-location: netvista\wskaccept.htm
 tech.root: netvista
 ms.assetid: 9fa8bb07-7ee5-400b-aaca-33db3911d79f
 ms.date: 05/02/2018
+keywords: ["PFN_WSK_ACCEPT callback function"]
 ms.keywords: PFN_WSK_ACCEPT, PFN_WSK_ACCEPT callback, WskAccept, WskAccept callback function [Network Drivers Starting with Windows Vista], netvista.wskaccept, wsk/WskAccept, wskref_22de82fc-18c4-4fed-b0fe-7e048ba7cfeb.xml
 f1_keywords:
  - "wsk/WskAccept"

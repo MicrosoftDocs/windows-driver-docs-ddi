@@ -5,6 +5,7 @@ author: windows-driver-content
 description: The HDAUDIO_DEVICE_INFORMATION_V2 structure specifies the hardware capabilities of the HD Audio bus controller.
 tech.root: audio
 ms.date: 02/01/2019
+keywords: ["_HDAUDIO_DEVICE_INFORMATION_V2 structure"]
 ms.keywords: "*PHDAUDIO_DEVICE_INFORMATION_V2, HDAUDIO_DEVICE_INFORMATION_V2, HDAUDIO_DEVICE_INFORMATION_V2 structure [Audio Devices], PHDAUDIO_DEVICE_INFORMATION_V2, PHDAUDIO_DEVICE_INFORMATION_V2 structure pointer [Audio Devices], _HDAUDIO_DEVICE_INFORMATION_V2, aud-prop2_3350e3d4-dfbe-4002-b237-2395f4a07c7f.xml, audio.HDAUDIO_DEVICE_INFORMATION_V2, hdaudio/HDAUDIO_DEVICE_INFORMATION_V2, hdaudio/PHDAUDIO_DEVICE_INFORMATION_V2"
 f1_keywords:
  - "hdaudio/HDAUDIO_DEVICE_INFORMATION_V2"

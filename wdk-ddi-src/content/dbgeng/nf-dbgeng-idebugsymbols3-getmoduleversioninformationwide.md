@@ -6,6 +6,7 @@ old-location: debugger\getmoduleversioninformationwide.htm
 tech.root: debugger
 ms.assetid: 60bb493c-81a2-45d7-8c2c-939afeda8a14
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::GetModuleVersionInformationWide"]
 ms.keywords: GetModuleVersionInformationWide, GetModuleVersionInformationWide method [Windows Debugging], GetModuleVersionInformationWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleVersionInformationWide method, IDebugSymbols3.GetModuleVersionInformationWide, IDebugSymbols3::GetModuleVersionInformationWide, dbgeng/IDebugSymbols3::GetModuleVersionInformationWide, debugger.getmoduleversioninformationwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetModuleVersionInformationWide"

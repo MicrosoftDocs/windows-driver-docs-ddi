@@ -6,6 +6,7 @@ old-location: print\iprinterextensioncontext_interface.htm
 tech.root: print
 ms.assetid: DD0B5E6F-8E16-48E1-967B-D188535E1320
 ms.date: 04/20/2018
+keywords: ["IPrinterExtensionContext interface"]
 ms.keywords: IPrinterExtensionContext, IPrinterExtensionContext interface [Print Devices], IPrinterExtensionContext interface [Print Devices],described, print.iprinterextensioncontext_interface, printerextension/IPrinterExtensionContext
 f1_keywords:
  - "printerextension/IPrinterExtensionContext"

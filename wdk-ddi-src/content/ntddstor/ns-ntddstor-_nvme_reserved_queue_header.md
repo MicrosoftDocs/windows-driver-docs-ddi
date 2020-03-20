@@ -5,6 +5,7 @@ description:
 tech.root: storage
 ms.assetid: 4f43013e-3c15-499d-a49b-2d2fd6384a57
 ms.date: 10/19/2018
+keywords: ["_NVME_RESERVED_QUEUE_HEADER structure"]
 f1_keywords:
  - "ntddstor/_NVME_RESERVED_QUEUE_HEADER"
 ms.keywords: _NVME_RESERVED_QUEUE_HEADER, NVME_RESERVED_QUEUE_HEADER, *PNVME_RESERVED_QUEUE_HEADER, 

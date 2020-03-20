@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 2e552374-3964-49e4-9fc1-3befeebaced1
 ms.author: windowsdriverdev
 ms.date: 02/13/2019
+keywords: ["WDI_LCI_REPORT_STATUS enumeration"]
 f1_keywords:
  - "wditypes/WDI_LCI_REPORT_STATUS"
 ms.keywords: WDI_LCI_REPORT_STATUS, WDI_LCI_REPORT_STATUS, 

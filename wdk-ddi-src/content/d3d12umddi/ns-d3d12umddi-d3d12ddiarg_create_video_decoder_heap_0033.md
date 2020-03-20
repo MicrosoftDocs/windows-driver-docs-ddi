@@ -5,6 +5,7 @@ description: Create a video decoder heap.
 old-location: display\d3d12ddiarg-create-video-decoder-heap-0033.htm
 ms.assetid: 158411ee-6cc1-466d-b772-fe380b55baef
 ms.date: 04/16/2018
+keywords: ["D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033 structure"]
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033, D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033, display.d3d12ddiarg-create-video-decoder-heap-0033
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0033"

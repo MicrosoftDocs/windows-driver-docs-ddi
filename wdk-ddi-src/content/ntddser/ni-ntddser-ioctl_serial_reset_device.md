@@ -6,6 +6,7 @@ old-location: serports\ioctl_serial_reset_device.htm
 tech.root: serports
 ms.assetid: af7482b4-4622-40b7-af7a-c952813e7095
 ms.date: 04/23/2018
+keywords: ["IOCTL_SERIAL_RESET_DEVICE IOCTL"]
 ms.keywords: IOCTL_SERIAL_RESET_DEVICE, IOCTL_SERIAL_RESET_DEVICE control, IOCTL_SERIAL_RESET_DEVICE control code [Serial Ports], ntddser/IOCTL_SERIAL_RESET_DEVICE, serports.ioctl_serial_reset_device, serref_8c489e42-94d9-4a10-9336-dae4adea904a.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_RESET_DEVICE"

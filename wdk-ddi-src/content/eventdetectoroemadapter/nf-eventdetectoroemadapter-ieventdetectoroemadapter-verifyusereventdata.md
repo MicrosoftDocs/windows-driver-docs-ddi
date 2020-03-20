@@ -7,6 +7,7 @@ tech.root: audio
 ms.assetid: 7f4bf4e4-d635-4738-9ce3-45d55eda52ac
 ms.author: windowsdriverdev
 ms.date: 02/25/2019
+keywords: ["IEventDetectorOemAdapter::VerifyUserEventData"]
 f1_keywords:
  - "eventdetectoroemadapter/IEventDetectorOemAdapter.VerifyUserEventData"
 ms.keywords: IEventDetectorOemAdapter::VerifyUserEventData, VerifyUserEventData, IEventDetectorOemAdapter.VerifyUserEventData, IEventDetectorOemAdapter::VerifyUserEventData, IEventDetectorOemAdapter.VerifyUserEventData

@@ -6,6 +6,7 @@ old-location: buses\ufx_device_callbacks.htm
 tech.root: usbref
 ms.assetid: 71D83E2C-8557-45FC-9769-DB71F5FF61FF
 ms.date: 05/07/2018
+keywords: ["_UFX_DEVICE_CALLBACKS structure"]
 ms.keywords: "*PUFX_DEVICE_CALLBACKS, PUFX_DEVICE_CALLBACKS, PUFX_DEVICE_CALLBACKS structure pointer [Buses], UFX_DEVICE_CALLBACKS, UFX_DEVICE_CALLBACKS structure [Buses], _UFX_DEVICE_CALLBACKS, buses.ufx_device_callbacks, ufxclient/PUFX_DEVICE_CALLBACKS, ufxclient/UFX_DEVICE_CALLBACKS"
 f1_keywords:
  - "ufxclient/UFX_DEVICE_CALLBACKS"

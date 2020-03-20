@@ -6,6 +6,7 @@ old-location: kernel\iobuilddeviceiocontrolrequest.htm
 tech.root: kernel
 ms.assetid: dde2a45d-9257-4d94-928a-e25f112b2773
 ms.date: 04/30/2018
+keywords: ["IoBuildDeviceIoControlRequest function"]
 ms.keywords: IoBuildDeviceIoControlRequest, IoBuildDeviceIoControlRequest routine [Kernel-Mode Driver Architecture], k104_dca88c92-682a-437e-963b-6fac4e9c39bf.xml, kernel.iobuilddeviceiocontrolrequest, wdm/IoBuildDeviceIoControlRequest
 f1_keywords:
  - "wdm/IoBuildDeviceIoControlRequest"

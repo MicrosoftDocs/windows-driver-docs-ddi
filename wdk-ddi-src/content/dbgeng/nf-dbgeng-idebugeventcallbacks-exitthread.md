@@ -6,6 +6,7 @@ old-location: debugger\idebugeventcallbacks_exitthread.htm
 tech.root: debugger
 ms.assetid: 03ff46cb-dfc5-409a-b652-bef8f2b37b59
 ms.date: 05/03/2018
+keywords: ["IDebugEventCallbacks::ExitThread"]
 ms.keywords: ComCallbacks_554f76a8-5f15-4bcc-b3ec-070ecc836ba9.xml, ExitThread, ExitThread method [Windows Debugging], ExitThread method [Windows Debugging],IDebugEventCallbacks interface, IDebugEventCallbacks interface [Windows Debugging],ExitThread method, IDebugEventCallbacks.ExitThread, IDebugEventCallbacks::ExitThread, dbgeng/IDebugEventCallbacks::ExitThread, debugger.idebugeventcallbacks_exitthread
 f1_keywords:
  - "dbgeng/IDebugEventCallbacks.ExitThread"

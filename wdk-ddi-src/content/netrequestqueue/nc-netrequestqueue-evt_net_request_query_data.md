@@ -5,6 +5,7 @@ description: Implemented by the client driver to handle a specific OID query req
 tech.root: netvista
 ms.assetid: 1ae913de-77da-4622-9a79-72a34e4705ab
 ms.date: 02/08/2018
+keywords: ["EVT_NET_REQUEST_QUERY_DATA callback function"]
 f1_keywords:
  - "netrequestqueue/NetRequestWdmGetNdisOidRequest"
 req.header: netrequestqueue.h

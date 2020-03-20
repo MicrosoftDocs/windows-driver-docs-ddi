@@ -6,6 +6,7 @@ old-location: storage\mpio_path_health_info.htm
 tech.root: storage
 ms.assetid: efb49852-3c0a-4dab-9d50-c103ba4a136b
 ms.date: 03/29/2018
+keywords: ["_MPIO_PATH_HEALTH_INFO structure"]
 ms.keywords: "*PMPIO_PATH_HEALTH_INFO, MPIO_PATH_HEALTH_INFO, MPIO_PATH_HEALTH_INFO structure [Storage Devices], PMPIO_PATH_HEALTH_INFO, PMPIO_PATH_HEALTH_INFO structure pointer [Storage Devices], _MPIO_PATH_HEALTH_INFO, mpiowmi/MPIO_PATH_HEALTH_INFO, mpiowmi/PMPIO_PATH_HEALTH_INFO, storage.mpio_path_health_info, structs-scsibus_482617c5-3ed9-4a17-ab14-15fc65057062.xml"
 f1_keywords:
  - "mpiowmi/MPIO_PATH_HEALTH_INFO"

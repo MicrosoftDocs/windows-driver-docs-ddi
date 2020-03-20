@@ -6,6 +6,7 @@ old-location: kernel\rtlunicodetoutf8n.htm
 tech.root: kernel
 ms.assetid: fdbb5d74-25d5-4920-849c-8d4adce1d216
 ms.date: 04/30/2018
+keywords: ["RtlUnicodeToUTF8N function"]
 ms.keywords: RtlUnicodeToUTF8N, RtlUnicodeToUTF8N routine [Kernel-Mode Driver Architecture], k109_8c33089a-9b47-4c33-9468-56a16caea229.xml, kernel.rtlunicodetoutf8n, wdm/RtlUnicodeToUTF8N
 f1_keywords:
  - "ntifs/RtlUnicodeToUTF8N"

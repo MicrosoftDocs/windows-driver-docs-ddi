@@ -6,6 +6,7 @@ old-location: audio\kstelephony_callcontrol.htm
 tech.root: audio
 ms.assetid: 44CA5D9D-EF6E-4681-93EB-B803638896F9
 ms.date: 05/08/2018
+keywords: ["_tagKSTELEPHONY_CALLCONTROL structure"]
 ms.keywords: "*PKSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL structure [Audio Devices], PKSTELEPHONY_CALLCONTROL, PKSTELEPHONY_CALLCONTROL structure pointer [Audio Devices], _tagKSTELEPHONY_CALLCONTROL, audio.kstelephony_callcontrol, ksmedia/KSTELEPHONY_CALLCONTROL, ksmedia/PKSTELEPHONY_CALLCONTROL"
 f1_keywords:
  - "ksmedia/KSTELEPHONY_CALLCONTROL"

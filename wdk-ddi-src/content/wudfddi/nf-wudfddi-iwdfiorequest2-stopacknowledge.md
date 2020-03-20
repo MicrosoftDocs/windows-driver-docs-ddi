@@ -6,6 +6,7 @@ old-location: wdf\iwdfiorequest2_stopacknowledge.htm
 tech.root: wdf
 ms.assetid: af4ae2c0-b1e1-45af-bd0e-3b9a91566caa
 ms.date: 02/26/2018
+keywords: ["IWDFIoRequest2::StopAcknowledge"]
 ms.keywords: IWDFIoRequest2 interface,StopAcknowledge method, IWDFIoRequest2.StopAcknowledge, IWDFIoRequest2::StopAcknowledge, StopAcknowledge, StopAcknowledge method, StopAcknowledge method,IWDFIoRequest2 interface, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, umdf.iwdfiorequest2_stopacknowledge, wdf.iwdfiorequest2_stopacknowledge, wudfddi/IWDFIoRequest2::StopAcknowledge
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.StopAcknowledge"

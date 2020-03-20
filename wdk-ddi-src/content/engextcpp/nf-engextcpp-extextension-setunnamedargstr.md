@@ -6,6 +6,7 @@ old-location: debugger\setunnamedargstr.htm
 tech.root: debugger
 ms.assetid: 96e309ca-1267-4a5d-97c6-1b15de9190d5
 ms.date: 05/03/2018
+keywords: ["ExtExtension::SetUnnamedArgStr"]
 ms.keywords: EngExtCpp_Ref_0d8a550a-c727-47e5-a5fe-10971e373a9d.xml, ExtExtension class [Windows Debugging],SetUnnamedArgStr method, ExtExtension.SetUnnamedArgStr, ExtExtension::SetUnnamedArgStr, SetUnnamedArgStr, SetUnnamedArgStr method [Windows Debugging], SetUnnamedArgStr method [Windows Debugging],ExtExtension class, debugger.setunnamedargstr
 f1_keywords:
  - "engextcpp/ExtExtension.SetUnnamedArgStr"

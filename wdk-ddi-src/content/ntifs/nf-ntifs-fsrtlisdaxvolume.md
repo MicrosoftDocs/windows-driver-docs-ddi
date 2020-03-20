@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlisdaxvolume.htm
 tech.root: ifsk
 ms.assetid: FFCD2329-FD6A-48AE-8E9D-56AA7D79B174
 ms.date: 04/16/2018
+keywords: ["FsRtlIsDaxVolume function"]
 ms.keywords: FsRtlIsDaxVolume, FsRtlIsDaxVolume routine [Installable File System Drivers], ifsk.fsrtlisdaxvolume, ntifs/FsRtlIsDaxVolume
 f1_keywords:
  - "ntifs/FsRtlIsDaxVolume"

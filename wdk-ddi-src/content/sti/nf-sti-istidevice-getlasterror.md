@@ -6,6 +6,7 @@ old-location: image\istidevice_getlasterror.htm
 tech.root: image
 ms.assetid: 20ad609d-454a-4d43-a58e-184cbb8e8da7
 ms.date: 05/03/2018
+keywords: ["IStiDevice::GetLastError"]
 ms.keywords: GetLastError, GetLastError method [Imaging Devices], GetLastError method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],GetLastError method, IStiDevice.GetLastError, IStiDevice::GetLastError, image.istidevice_getlasterror, sti/IStiDevice::GetLastError, stifnc_9c8050a1-8e9a-4b24-a461-bc567602900d.xml
 f1_keywords:
  - "sti/IStiDevice.GetLastError"

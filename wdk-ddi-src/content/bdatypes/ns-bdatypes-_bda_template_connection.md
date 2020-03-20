@@ -6,6 +6,7 @@ old-location: stream\bda_template_connection.htm
 tech.root: stream
 ms.assetid: f3b5d06d-0557-49a8-9c0d-be964203108a
 ms.date: 04/23/2018
+keywords: ["_BDA_TEMPLATE_CONNECTION structure"]
 ms.keywords: "*PBDA_TEMPLATE_CONNECTION, BDA_TEMPLATE_CONNECTION, BDA_TEMPLATE_CONNECTION structure [Streaming Media Devices], PBDA_TEMPLATE_CONNECTION, PBDA_TEMPLATE_CONNECTION structure pointer [Streaming Media Devices], _BDA_TEMPLATE_CONNECTION, bdaref_fbba4f2e-dd43-4f5c-b057-f1fbc52cfbe9.xml, bdatypes/BDA_TEMPLATE_CONNECTION, bdatypes/PBDA_TEMPLATE_CONNECTION, stream.bda_template_connection"
 f1_keywords:
  - "bdatypes/BDA_TEMPLATE_CONNECTION"

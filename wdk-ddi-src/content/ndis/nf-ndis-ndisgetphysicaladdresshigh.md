@@ -6,6 +6,7 @@ old-location: netvista\ndisgetphysicaladdresshigh.htm
 tech.root: netvista
 ms.assetid: 17f8c6dd-7235-4ad0-bc3a-e801b53956ce
 ms.date: 05/02/2018
+keywords: ["NdisGetPhysicalAddressHigh macro"]
 ms.keywords: NdisGetPhysicalAddressHigh, NdisGetPhysicalAddressHigh macro [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_911e11c6-b90a-4805-83b9-0d75225917e0.xml, ndis/NdisGetPhysicalAddressHigh, netvista.ndisgetphysicaladdresshigh
 f1_keywords:
  - "ndis/NdisGetPhysicalAddressHigh"

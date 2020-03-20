@@ -6,6 +6,7 @@ old-location: display\dxva_procampcontrolblt.htm
 tech.root: display
 ms.assetid: 93f321e1-a38b-43a2-bfbd-35411a62194e
 ms.date: 05/10/2018
+keywords: ["_DXVA_ProcAmpControlBlt structure"]
 ms.keywords: DXVA_ProcAmpControlBlt, DXVA_ProcAmpControlBlt structure [Display Devices], _DXVA_ProcAmpControlBlt, display.dxva_procampcontrolblt, dxva/DXVA_ProcAmpControlBlt, dxvaref_aaac59e6-334e-49a3-a599-facef11960e3.xml
 f1_keywords:
  - "dxva/DXVA_ProcAmpControlBlt"

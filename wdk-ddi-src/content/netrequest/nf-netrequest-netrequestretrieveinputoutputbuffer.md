@@ -5,6 +5,7 @@ description: Retrieves the input/output buffer associated with a NETREQUEST obje
 tech.root: netvista
 ms.assetid: 1ad27440-ca21-4600-a115-285cd72baf2c
 ms.date: 02/08/2018
+keywords: ["NetRequestRetrieveInputOutputBuffer function"]
 f1_keywords:
  - "netrequest/NetRequestRetrieveInputOutputBuffer"
 ms.keywords: NetRequestRetrieveInputOutputBuffer

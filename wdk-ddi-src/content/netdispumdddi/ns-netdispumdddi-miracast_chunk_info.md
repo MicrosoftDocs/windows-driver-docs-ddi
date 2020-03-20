@@ -6,6 +6,7 @@ old-location: display\miracast_chunk_info.htm
 tech.root: display
 ms.assetid: 7015cbc5-f8d1-4e06-bb02-2706a26877f0
 ms.date: 05/10/2018
+keywords: ["MIRACAST_CHUNK_INFO structure"]
 ms.keywords: MIRACAST_CHUNK_INFO, MIRACAST_CHUNK_INFO structure [Display Devices], display.miracast_chunk_info, netdispumdddi/MIRACAST_CHUNK_INFO
 f1_keywords:
  - "netdispumdddi/MIRACAST_CHUNK_INFO"

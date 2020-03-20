@@ -3,6 +3,7 @@ UID: NA:wexdebug
 title: Wexdebug.h header
 ms.assetid: 9ceaed67-9a74-39cf-b6d6-1c159739a1cd
 ms.date: 05/09/2018
+keywords: ["Wexdebug.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

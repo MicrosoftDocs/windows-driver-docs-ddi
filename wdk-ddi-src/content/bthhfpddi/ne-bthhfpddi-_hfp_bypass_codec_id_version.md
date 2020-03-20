@@ -6,6 +6,7 @@ old-location: audio\hfp_bypass_codec_id_version.htm
 tech.root: audio
 ms.assetid: A16980CD-3F2F-4A67-902A-F3D72AA042D9
 ms.date: 05/08/2018
+keywords: ["_HFP_BYPASS_CODEC_ID_VERSION enumeration"]
 ms.keywords: "*PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION enumeration [Audio Devices], REQ_HFP_BYPASS_CODEC_ID_V1, _HFP_BYPASS_CODEC_ID_VERSION, audio.hfp_bypass_codec_id_version, bthhfpddi/HFP_BYPASS_CODEC_ID_VERSION, bthhfpddi/REQ_HFP_BYPASS_CODEC_ID_V1"
 f1_keywords:
  - "bthhfpddi/HFP_BYPASS_CODEC_ID_VERSION"

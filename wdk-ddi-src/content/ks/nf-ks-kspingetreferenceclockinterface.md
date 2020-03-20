@@ -6,6 +6,7 @@ old-location: stream\kspingetreferenceclockinterface.htm
 tech.root: stream
 ms.assetid: 49c78b4e-aa3a-4c4b-8720-0302a537c84c
 ms.date: 04/23/2018
+keywords: ["KsPinGetReferenceClockInterface function"]
 ms.keywords: KsPinGetReferenceClockInterface, KsPinGetReferenceClockInterface function [Streaming Media Devices], avfunc_7434698b-f441-4d80-91db-8fa5d7d10c60.xml, ks/KsPinGetReferenceClockInterface, stream.kspingetreferenceclockinterface
 f1_keywords:
  - "ks/KsPinGetReferenceClockInterface"

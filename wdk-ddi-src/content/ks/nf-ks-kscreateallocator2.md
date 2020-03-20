@@ -6,6 +6,7 @@ old-location: stream\kscreateallocator2.htm
 tech.root: stream
 ms.assetid: f0efa17c-9318-46a4-bc08-d4d372cc07ba
 ms.date: 04/23/2018
+keywords: ["KsCreateAllocator2 function"]
 ms.keywords: KsCreateAllocator2, KsCreateAllocator2 function [Streaming Media Devices], ks/KsCreateAllocator2, stream.kscreateallocator2
 f1_keywords:
  - "ks/KsCreateAllocator2"

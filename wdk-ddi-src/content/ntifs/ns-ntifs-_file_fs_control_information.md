@@ -6,6 +6,7 @@ old-location: ifsk\file_fs_control_information.htm
 tech.root: ifsk
 ms.assetid: 8a7e136a-fc87-481c-bb35-270408cb5071
 ms.date: 04/16/2018
+keywords: ["_FILE_FS_CONTROL_INFORMATION structure"]
 ms.keywords: "*PFILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION structure [Installable File System Drivers], PFILE_FS_CONTROL_INFORMATION, PFILE_FS_CONTROL_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_CONTROL_INFORMATION, fileinformationstructures_387e4fd0-c3a2-4472-b29d-79f8a5d876f8.xml, ifsk.file_fs_control_information, ntifs/FILE_FS_CONTROL_INFORMATION, ntifs/PFILE_FS_CONTROL_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_FS_CONTROL_INFORMATION"

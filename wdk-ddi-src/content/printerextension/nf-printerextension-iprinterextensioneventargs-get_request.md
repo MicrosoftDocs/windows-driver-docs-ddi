@@ -6,6 +6,7 @@ old-location: print\iprinterextensioneventargs_request.htm
 tech.root: print
 ms.assetid: 2F11C510-B649-4DC6-B0BC-89C4159E464C
 ms.date: 04/20/2018
+keywords: ["IPrinterExtensionEventArgs::get_Request"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],Request property, IPrinterExtensionEventArgs.Request, IPrinterExtensionEventArgs.get_Request, IPrinterExtensionEventArgs::Request, IPrinterExtensionEventArgs::get_Request, Request property [Print Devices], Request property [Print Devices],IPrinterExtensionEventArgs interface, get_Request, print.iprinterextensioneventargs_request, printerextension/IPrinterExtensionEventArgs::Request, printerextension/IPrinterExtensionEventArgs::get_Request
 f1_keywords:
  - "printerextension/IPrinterExtensionEventArgs.Request"

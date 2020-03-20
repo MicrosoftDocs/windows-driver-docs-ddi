@@ -6,6 +6,7 @@ old-location: wdf\iobjectcleanup.htm
 tech.root: wdf
 ms.assetid: 5e465c90-3290-4c89-bf47-521280c0fe5c
 ms.date: 02/26/2018
+keywords: ["IObjectCleanup interface"]
 ms.keywords: IObjectCleanup, IObjectCleanup interface, IObjectCleanup interface,described, UMDFBaseObjectRef_4e434f46-a62e-4410-b8ed-663ab59c89dd.xml, umdf.iobjectcleanup, wdf.iobjectcleanup, wudfddi/IObjectCleanup
 f1_keywords:
  - "wudfddi/IObjectCleanup"

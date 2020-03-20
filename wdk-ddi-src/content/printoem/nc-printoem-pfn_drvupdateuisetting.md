@@ -6,6 +6,7 @@ old-location: print\drvupdateuisetting.htm
 tech.root: print
 ms.assetid: 37f8ab73-ff81-4150-b1f6-faec5ca76908
 ms.date: 04/20/2018
+keywords: ["PFN_DrvUpdateUISetting callback function"]
 ms.keywords: DrvUpdateUISetting, DrvUpdateUISetting callback function [Print Devices], PFN_DrvUpdateUISetting, PFN_DrvUpdateUISetting callback, print.drvupdateuisetting, print_obsoletefunctions_8982b302-4efb-4a54-a3ae-a27c2dd0baa9.xml, printoem/DrvUpdateUISetting
 f1_keywords:
  - "printoem/DrvUpdateUISetting"

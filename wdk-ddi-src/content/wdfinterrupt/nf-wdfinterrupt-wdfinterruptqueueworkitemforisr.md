@@ -6,6 +6,7 @@ old-location: wdf\wdfinterruptqueueworkitemforisr.htm
 tech.root: wdf
 ms.assetid: 1E88E9D9-B564-43B4-9A83-F621FF23437F
 ms.date: 02/26/2018
+keywords: ["WdfInterruptQueueWorkItemForIsr function"]
 ms.keywords: WdfInterruptQueueWorkItemForIsr, WdfInterruptQueueWorkItemForIsr method, kmdf.wdfinterruptqueueworkitemforisr, wdf.wdfinterruptqueueworkitemforisr, wdfinterrupt/WdfInterruptQueueWorkItemForIsr
 f1_keywords:
  - "wdfinterrupt/WdfInterruptQueueWorkItemForIsr"

@@ -6,6 +6,7 @@ old-location: netvista\fwpsreleaseclassifyhandle0.htm
 tech.root: netvista
 ms.assetid: d61f9e04-e308-4844-9d46-d15faee04e75
 ms.date: 05/02/2018
+keywords: ["FwpsReleaseClassifyHandle0 function"]
 ms.keywords: FwpsReleaseClassifyHandle0, FwpsReleaseClassifyHandle0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReleaseClassifyHandle0, netvista.fwpsreleaseclassifyhandle0, wfp_ref_2_funct_3_fwps_R-Z_a488d8fc-0c0f-4580-a934-7dba9e2f98b9.xml
 f1_keywords:
  - "fwpsk/FwpsReleaseClassifyHandle0"

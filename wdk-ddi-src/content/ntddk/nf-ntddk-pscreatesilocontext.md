@@ -6,6 +6,7 @@ old-location: kernel\pscreatesilocontext.htm
 tech.root: kernel
 ms.assetid: 54FD0308-7E40-40C7-BA3A-FF1EFFBE0DB6
 ms.date: 04/30/2018
+keywords: ["PsCreateSiloContext function"]
 ms.keywords: PsCreateSiloContext, PsCreateSiloContext routine [Kernel-Mode Driver Architecture], kernel.pscreatesilocontext, ntddk/PsCreateSiloContext
 f1_keywords:
  - "ntddk/PsCreateSiloContext"

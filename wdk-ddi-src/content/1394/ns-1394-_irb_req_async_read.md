@@ -6,6 +6,7 @@ old-location: ieee\irb_req_async_read.htm
 tech.root: IEEE
 ms.assetid: C88A1F30-FC6B-4EC4-8F10-F507E17CF01D
 ms.date: 02/15/2018
+keywords: ["_IRB_REQ_ASYNC_READ structure"]
 ms.keywords: 1394/IRB_REQ_ASYNC_READ, IEEE.irb_req_async_read, IRB_REQ_ASYNC_READ, IRB_REQ_ASYNC_READ structure [Buses], _IRB_REQ_ASYNC_READ
 f1_keywords:
  - "1394/IRB_REQ_ASYNC_READ"

@@ -6,6 +6,7 @@ old-location: serports\sercx2systemdmatransmitpurgefifocomplete.htm
 tech.root: serports
 ms.assetid: E1F0BB4A-17FB-4C35-9373-CD648553A738
 ms.date: 04/23/2018
+keywords: ["SerCx2SystemDmaTransmitPurgeFifoComplete function"]
 ms.keywords: 2/SerCx2SystemDmaTransmitPurgeFifoComplete, SerCx2SystemDmaTransmitPurgeFifoComplete, SerCx2SystemDmaTransmitPurgeFifoComplete method [Serial Ports], serports.sercx2systemdmatransmitpurgefifocomplete
 f1_keywords:
  - "sercx/SerCx2SystemDmaTransmitPurgeFifoComplete"

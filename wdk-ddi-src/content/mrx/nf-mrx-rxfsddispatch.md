@@ -6,6 +6,7 @@ old-location: ifsk\rxfsddispatch.htm
 tech.root: ifsk
 ms.assetid: 92b9b22a-0fe7-4c95-a4fc-5f5f5558b4cf
 ms.date: 04/16/2018
+keywords: ["RxFsdDispatch function"]
 ms.keywords: RxFsdDispatch, RxFsdDispatch routine [Installable File System Drivers], ifsk.rxfsddispatch, mrx/RxFsdDispatch, rxref_23ec1489-9629-4aef-b0b0-d844364b67a7.xml
 f1_keywords:
  - "mrx/RxFsdDispatch"

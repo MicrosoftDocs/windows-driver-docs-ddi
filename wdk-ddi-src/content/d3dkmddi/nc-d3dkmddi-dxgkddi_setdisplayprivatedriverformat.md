@@ -5,6 +5,7 @@ description: The DxgkDdiSetDisplayPrivateDriverFormat function changes the priva
 old-location: display\dxgkddisetdisplayprivatedriverformat.htm
 ms.assetid: 053fdf22-20c3-4b57-94f4-0613857abfa7
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT callback function"]
 ms.keywords: DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT, DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT callback, DmFunctions_4171835f-0a79-4161-9bcd-c7311c9905ac.xml, DxgkDdiSetDisplayPrivateDriverFormat, DxgkDdiSetDisplayPrivateDriverFormat callback function [Display Devices], d3dkmddi/DxgkDdiSetDisplayPrivateDriverFormat, display.dxgkddisetdisplayprivatedriverformat
 req.header: d3dkmddi.h
 req.include-header: 

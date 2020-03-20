@@ -6,6 +6,7 @@ old-location: display\openresource.htm
 tech.root: display
 ms.assetid: e3f5cec2-391b-40f9-8a4b-afe6b8de2954
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_OPENRESOURCE callback function"]
 ms.keywords: OpenResource, OpenResource callback function [Display Devices], PFND3DDDI_OPENRESOURCE, PFND3DDDI_OPENRESOURCE callback, UserModeDisplayDriver_Functions_57f3d196-70e6-475e-86ca-bb6d20aca568.xml, d3dumddi/OpenResource, display.openresource
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

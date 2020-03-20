@@ -4,6 +4,7 @@ title: IOCTL_GPUP_DRIVER_ESCAPE (d3dukmdt.h)
 description: The user mode emulation DLL calls this IOCTL to exchange information with the kernel mode driver.
 ms.assetid: 02ba7385-fda9-45a9-820d-311fc35258dc
 ms.date: 10/19/2018
+keywords: ["IOCTL_GPUP_DRIVER_ESCAPE IOCTL"]
 f1_keywords:
  - "d3dukmdt/IOCTL_GPUP_DRIVER_ESCAPE"
 req.header: d3dukmdt.h

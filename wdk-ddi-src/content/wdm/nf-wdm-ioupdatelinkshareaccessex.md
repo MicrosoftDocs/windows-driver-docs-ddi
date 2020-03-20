@@ -7,6 +7,7 @@ tech.root: kernel
 ms.assetid: c7670aa5-9deb-4337-be70-6116ed5c798f
 ms.author: windowsdriverdev
 ms.date: 03/12/2019
+keywords: ["IoUpdateLinkShareAccessEx function"]
 f1_keywords:
  - "wdm/IoUpdateLinkShareAccessEx"
 ms.keywords: IoUpdateLinkShareAccessEx, IoUpdateLinkShareAccessEx function [Kernel-Mode Driver Architecture], kernel.IoUpdateLinkShareAccessEx, wdm/IoUpdateLinkShareAccessEx

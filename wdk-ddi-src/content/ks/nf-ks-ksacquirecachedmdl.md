@@ -6,6 +6,7 @@ old-location: stream\ksacquirecachedmdl.htm
 tech.root: stream
 ms.assetid: C6C693CC-D9C0-4EE8-9F8C-07D8665C673D
 ms.date: 04/23/2018
+keywords: ["KsAcquireCachedMdl function"]
 ms.keywords: GUID, KsAcquireCachedMdl, KsAcquireCachedMdl function [Streaming Media Devices], PVOID, ks/KsAcquireCachedMdl, stream.ksacquirecachedmdl
 f1_keywords:
  - "ks/KsAcquireCachedMdl"

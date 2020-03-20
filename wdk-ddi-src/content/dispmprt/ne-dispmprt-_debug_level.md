@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 87404085-816f-4ca3-abf7-ae5955b54a99
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
+keywords: ["_DEBUG_LEVEL enumeration"]
 f1_keywords:
  - "dispmprt/_DEBUG_LEVEL"
 ms.keywords: _DEBUG_LEVEL, DEBUG_LEVEL, 

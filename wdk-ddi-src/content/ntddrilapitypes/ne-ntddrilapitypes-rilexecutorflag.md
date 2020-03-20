@@ -6,6 +6,7 @@ old-location: netvista\rilexecutorflag.htm
 tech.root: netvista
 ms.assetid: b388a5d9-3549-472d-8ebe-b618751626ed
 ms.date: 05/02/2018
+keywords: ["RILEXECUTORFLAG enumeration"]
 ms.keywords: RILEXECUTORFLAG, RILEXECUTORFLAG enumeration [Network Drivers Starting with Windows Vista], RIL_EXECUTORFLAG_ALL, RIL_EXECUTORFLAG_HIGHPRIORITY, netvista.rilexecutorflag, ntddrilapitypes/RILEXECUTORFLAG, ntddrilapitypes/RIL_EXECUTORFLAG_ALL, ntddrilapitypes/RIL_EXECUTORFLAG_HIGHPRIORITY
 f1_keywords:
  - "ntddrilapitypes/RILEXECUTORFLAG"

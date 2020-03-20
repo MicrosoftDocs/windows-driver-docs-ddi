@@ -6,6 +6,7 @@ old-location: kernel\rtlulongptrtointptr.htm
 tech.root: kernel
 ms.assetid: 41687454-5468-4351-BEAF-2FB6BD80BEFC
 ms.date: 04/30/2018
+keywords: ["RtlULongPtrToIntPtr function"]
 ms.keywords: RtlULongPtrToIntPtr, RtlULongPtrToIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtointptr, ntintsafe/RtlULongPtrToIntPtr
 f1_keywords:
  - "ntintsafe/RtlULongPtrToIntPtr"

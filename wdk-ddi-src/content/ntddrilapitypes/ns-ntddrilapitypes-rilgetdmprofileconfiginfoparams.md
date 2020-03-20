@@ -6,6 +6,7 @@ old-location: netvista\rilgetdmprofileconfiginfoparams.htm
 tech.root: netvista
 ms.assetid: df62bc19-81c7-4d80-88ed-5e8a8438d269
 ms.date: 05/02/2018
+keywords: ["RILGETDMPROFILECONFIGINFOPARAMS structure"]
 ms.keywords: "*LPRILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdmprofileconfiginfoparams, ntddrilapitypes/RILGETDMPROFILECONFIGINFOPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILGETDMPROFILECONFIGINFOPARAMS"

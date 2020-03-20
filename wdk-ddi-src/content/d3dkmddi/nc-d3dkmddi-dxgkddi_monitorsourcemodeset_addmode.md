@@ -5,6 +5,7 @@ description: The pfnAddMode function adds a monitor source mode to a specified m
 old-location: display\dxgk_monitorsourcemodeset_interface_pfnaddmode.htm
 ms.assetid: 88fe5a2d-d140-4ebc-846d-acea39b8bc73
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_MONITORSOURCEMODESET_ADDMODE callback function"]
 ms.keywords: DXGKDDI_MONITORSOURCEMODESET_ADDMODE, DXGKDDI_MONITORSOURCEMODESET_ADDMODE callback, VidPnFunctions_1b037d93-a615-41e1-bc22-bf9565050062.xml, d3dkmddi/pfnAddMode, display.dxgk_monitorsourcemodeset_interface_pfnaddmode, pfnAddMode, pfnAddMode callback function [Display Devices]
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

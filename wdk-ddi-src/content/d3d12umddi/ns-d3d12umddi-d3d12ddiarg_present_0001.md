@@ -4,6 +4,7 @@ title: D3D12DDIARG_PRESENT_0001 (d3d12umddi.h)
 description: Describes a resource to display.
 ms.assetid: 25bbfe02-c536-4b74-b9b1-ee7a585db027
 ms.date: 10/19/2018
+keywords: ["D3D12DDIARG_PRESENT_0001 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_PRESENT_0001"
 ms.keywords: D3D12DDIARG_PRESENT_0001, D3D12DDIARG_PRESENT_0001, 

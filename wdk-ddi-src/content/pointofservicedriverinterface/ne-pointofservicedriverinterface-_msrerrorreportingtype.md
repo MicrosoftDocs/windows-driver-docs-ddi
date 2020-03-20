@@ -6,6 +6,7 @@ old-location: pos\msrerrorreportingtype.htm
 tech.root: pos
 ms.assetid: 86b0845b-28fc-47d3-add8-dd3e8b8f631c
 ms.date: 02/23/2018
+keywords: ["_MsrErrorReportingType enumeration"]
 ms.keywords: MsrErrorReportingType, MsrErrorReportingType enumeration, MsrErrorReportingType_CardLevel, MsrErrorReportingType_TrackLevel, _MsrErrorReportingType, pointofservicedriverinterface/MsrErrorReportingType, pointofservicedriverinterface/MsrErrorReportingType_CardLevel, pointofservicedriverinterface/MsrErrorReportingType_TrackLevel, pos.msrerrorreportingtype
 f1_keywords:
  - "pointofservicedriverinterface/MsrErrorReportingType"

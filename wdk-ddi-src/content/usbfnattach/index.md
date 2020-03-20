@@ -3,6 +3,7 @@ UID: NA:usbfnattach
 title: Usbfnattach.h header
 ms.assetid: f153fba1-6817-3150-8868-0ae60962b0ac
 ms.date: 05/09/2018
+keywords: ["Usbfnattach.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

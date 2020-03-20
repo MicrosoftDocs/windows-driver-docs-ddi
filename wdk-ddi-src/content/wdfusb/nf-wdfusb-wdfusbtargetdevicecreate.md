@@ -6,6 +6,7 @@ old-location: wdf\wdfusbtargetdevicecreate.htm
 tech.root: wdf
 ms.assetid: 5a2d3430-ca94-42f0-bfeb-fd38d9d4958a
 ms.date: 02/26/2018
+keywords: ["WdfUsbTargetDeviceCreate function"]
 ms.keywords: DFUsbRef_be9c210e-6cf0-4e0b-a5d5-f0b02d7a2141.xml, WdfUsbTargetDeviceCreate, WdfUsbTargetDeviceCreate method, kmdf.wdfusbtargetdevicecreate, wdf.wdfusbtargetdevicecreate, wdfusb/WdfUsbTargetDeviceCreate
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceCreate"

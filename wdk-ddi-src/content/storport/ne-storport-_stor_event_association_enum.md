@@ -6,6 +6,7 @@ old-location: storage\stor_event_association_enum.htm
 tech.root: storage
 ms.assetid: 2e0672b6-e692-43c8-8a20-7947c854c4c9
 ms.date: 03/29/2018
+keywords: ["_STOR_EVENT_ASSOCIATION_ENUM enumeration"]
 ms.keywords: STOR_EVENT_ASSOCIATION_ENUM, STOR_EVENT_ASSOCIATION_ENUM enumeration [Storage Devices], StorEventAdapterAssociation, StorEventInvalidAssociation, StorEventLunAssociation, StorEventTargetAssociation, _STOR_EVENT_ASSOCIATION_ENUM, storage.stor_event_association_enum, storport/STOR_EVENT_ASSOCIATION_ENUM, storport/StorEventAdapterAssociation, storport/StorEventInvalidAssociation, storport/StorEventLunAssociation, storport/StorEventTargetAssociation, structs-storport_2aea4a7c-1734-45e0-9aeb-09ffa8923641.xml
 f1_keywords:
  - "storport/STOR_EVENT_ASSOCIATION_ENUM"

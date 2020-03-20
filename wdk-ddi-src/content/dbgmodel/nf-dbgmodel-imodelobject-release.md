@@ -4,6 +4,7 @@ title: IModelObject::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 6bbcf701-5108-4df4-b1f2-478d80956a5f
 ms.date: 07/20/2018
+keywords: ["IModelObject::Release"]
 f1_keywords:
  - "dbgmodel/IModelObject.Release"
 ms.keywords: IModelObject::Release, Release, IModelObject.Release, IModelObject::Release, IModelObject.Release

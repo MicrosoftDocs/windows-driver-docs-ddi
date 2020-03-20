@@ -4,6 +4,7 @@ title: SerializationBufferAllocate function (sensorsutils.h)
 description: Exported memory allocation function for allocating a serialized buffer.
 ms.assetid: de91ea34-86fb-42fc-896f-45b2e164b81b
 ms.date: 08/08/2018
+keywords: ["SerializationBufferAllocate function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/SerializationBufferAllocate"

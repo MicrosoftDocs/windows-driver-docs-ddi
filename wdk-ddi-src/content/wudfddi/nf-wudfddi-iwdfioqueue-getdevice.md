@@ -6,6 +6,7 @@ old-location: wdf\iwdfioqueue_getdevice.htm
 tech.root: wdf
 ms.assetid: e1c1a67e-a18d-4eef-88ce-cd7edd371f54
 ms.date: 02/26/2018
+keywords: ["IWDFIoQueue::GetDevice"]
 ms.keywords: GetDevice, GetDevice method, GetDevice method,IWDFIoQueue interface, IWDFIoQueue interface,GetDevice method, IWDFIoQueue.GetDevice, IWDFIoQueue::GetDevice, UMDFQueueObjectRef_ecef922c-aff2-49ac-84bd-17e7e2e784a1.xml, umdf.iwdfioqueue_getdevice, wdf.iwdfioqueue_getdevice, wudfddi/IWDFIoQueue::GetDevice
 f1_keywords:
  - "wudfddi/IWDFIoQueue.GetDevice"

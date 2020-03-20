@@ -6,6 +6,7 @@ old-location: ifsk\iocheckquerysetfileinformation.htm
 tech.root: ifsk
 ms.assetid: c68cbdb4-bdf8-4c18-8f96-7274021f9ac2
 ms.date: 05/30/2019
+keywords: ["IoCheckQuerySetFileInformation function"]
 ms.keywords: IoCheckQuerySetFileInformation, IoCheckQuerySetFileInformation function [Installable File System Drivers], ifsk.iocheckquerysetfileinformation, ioref_22478455-1bd1-46cb-8ac2-05e4857c9524.xml, ntifs/IoCheckQuerySetFileInformation
 f1_keywords:
  - "ntifs/IoCheckQuerySetFileInformation"

@@ -6,6 +6,7 @@ old-location: netvista\ril_cancelgetoperatorlist.htm
 tech.root: netvista
 ms.assetid: 421f2b2f-9cc7-4a33-b253-e442fa112d13
 ms.date: 05/02/2018
+keywords: ["RIL_CancelGetOperatorList function"]
 ms.keywords: RIL_CancelGetOperatorList, RIL_CancelGetOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_cancelgetoperatorlist, rilapi/RIL_CancelGetOperatorList
 f1_keywords:
  - "rilapi/RIL_CancelGetOperatorList"

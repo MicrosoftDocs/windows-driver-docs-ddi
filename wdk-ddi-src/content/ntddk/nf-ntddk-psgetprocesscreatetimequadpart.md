@@ -6,6 +6,7 @@ old-location: kernel\psgetprocesscreatetimequadpart.htm
 tech.root: kernel
 ms.assetid: d202b6d9-9964-4c95-acd3-f641e8f9d879
 ms.date: 04/30/2018
+keywords: ["PsGetProcessCreateTimeQuadPart function"]
 ms.keywords: PsGetProcessCreateTimeQuadPart, PsGetProcessCreateTimeQuadPart routine [Kernel-Mode Driver Architecture], k108_57bcfbb5-501b-41bf-964c-14c2b90548ea.xml, kernel.psgetprocesscreatetimequadpart, ntddk/PsGetProcessCreateTimeQuadPart
 f1_keywords:
  - "ntddk/PsGetProcessCreateTimeQuadPart"

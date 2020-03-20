@@ -6,6 +6,7 @@ old-location: dtf\iwdtfsystemaction2_connectedstandby.htm
 tech.root: dtf
 ms.assetid: 11d774b1-2af9-453e-b53e-c232d84bcbee
 ms.date: 04/04/2018
+keywords: ["IWDTFSystemAction2::ConnectedStandby"]
 ms.keywords: ConnectedStandby, ConnectedStandby method [Windows Device Testing Framework], ConnectedStandby method [Windows Device Testing Framework],IWDTFSystemAction2 interface, IWDTFSystemAction2 interface [Windows Device Testing Framework],ConnectedStandby method, IWDTFSystemAction2.ConnectedStandby, IWDTFSystemAction2::ConnectedStandby, Microsoft.WDTF.IWDTFSystemAction2.ConnectedStandby, Microsoft::WDTF::IWDTFSystemAction2::ConnectedStandby, dtf.iwdtfsystemaction2_connectedstandby, wdtfsystemaction/IWDTFSystemAction2::ConnectedStandby
 f1_keywords:
  - "wdtfsystemaction/IWDTFSystemAction2.ConnectedStandby"

@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlchangebackingfileobject.htm
 tech.root: ifsk
 ms.assetid: a3ef4644-8e17-4f67-ba7f-61d62c534c26
 ms.date: 04/16/2018
+keywords: ["FsRtlChangeBackingFileObject function"]
 ms.keywords: FsRtlChangeBackingFileObject, FsRtlChangeBackingFileObject routine [Installable File System Drivers], fsrtlref_4dd83ba3-8d9b-4c5b-a4ea-d7a0ceaaa9f2.xml, ifsk.fsrtlchangebackingfileobject, ntifs/FsRtlChangeBackingFileObject
 f1_keywords:
  - "ntifs/FsRtlChangeBackingFileObject"

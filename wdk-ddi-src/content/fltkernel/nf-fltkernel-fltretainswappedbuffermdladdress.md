@@ -6,6 +6,7 @@ old-location: ifsk\fltretainswappedbuffermdladdress.htm
 tech.root: ifsk
 ms.assetid: 80498410-9617-414d-997c-0d55f891ba3c
 ms.date: 04/16/2018
+keywords: ["FltRetainSwappedBufferMdlAddress function"]
 ms.keywords: FltApiRef_p_to_z_3832baaa-37bc-47cc-9df4-12c92fd0ddd8.xml, FltRetainSwappedBufferMdlAddress, FltRetainSwappedBufferMdlAddress function [Installable File System Drivers], fltkernel/FltRetainSwappedBufferMdlAddress, ifsk.fltretainswappedbuffermdladdress
 f1_keywords:
  - "fltkernel/FltRetainSwappedBufferMdlAddress"

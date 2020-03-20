@@ -6,6 +6,7 @@ old-location: display\videoportqueryservices.htm
 tech.root: display
 ms.assetid: 88d54fbc-e865-4a59-bb1c-75adfb49c355
 ms.date: 05/10/2018
+keywords: ["VideoPortQueryServices function"]
 ms.keywords: VideoPortQueryServices, VideoPortQueryServices function [Display Devices], VideoPort_Functions_4f9cc677-4c65-4577-a289-92b8fb01c787.xml, display.videoportqueryservices, video/VideoPortQueryServices
 f1_keywords:
  - "video/VideoPortQueryServices"

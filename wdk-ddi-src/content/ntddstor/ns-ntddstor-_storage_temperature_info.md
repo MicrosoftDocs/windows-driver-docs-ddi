@@ -6,6 +6,7 @@ old-location: storage\storage_temperature_info.htm
 tech.root: storage
 ms.assetid: 1B7C68BF-78AE-4427-B5DC-E388CB5FAC0C
 ms.date: 03/29/2018
+keywords: ["_STORAGE_TEMPERATURE_INFO structure"]
 ms.keywords: "*PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO structure pointer [Storage Devices], STORAGE_TEMPERATURE_INFO, STORAGE_TEMPERATURE_INFO structure [Storage Devices], _STORAGE_TEMPERATURE_INFO, ntddstor/PSTORAGE_TEMPERATURE_INFO, ntddstor/STORAGE_TEMPERATURE_INFO, storage.storage_temperature_info"
 f1_keywords:
  - "ntddstor/STORAGE_TEMPERATURE_INFO"

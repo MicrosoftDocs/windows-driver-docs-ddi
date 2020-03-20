@@ -5,6 +5,7 @@ description: D3DKMTCreatePagingQueue is used to create a device paging queue tha
 old-location: display\d3dkmtcreatepagingqueue.htm
 ms.assetid: B95ADBC5-35CC-486D-A5C7-0950ABF4B70A
 ms.date: 05/10/2018
+keywords: ["D3DKMTCreatePagingQueue function"]
 ms.keywords: D3DKMTCreatePagingQueue, D3DKMTCreatePagingQueue function [Display Devices], d3dkmthk/D3DKMTCreatePagingQueue, display.d3dkmtcreatepagingqueue
 f1_keywords:
  - "d3dkmthk/D3DKMTCreatePagingQueue"

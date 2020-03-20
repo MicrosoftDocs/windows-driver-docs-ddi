@@ -6,6 +6,7 @@ old-location: hid\vhfdelete.htm
 tech.root: hid
 ms.assetid: 85252A53-E653-4D14-B1FE-72CA9AFA1F10
 ms.date: 04/30/2018
+keywords: ["VhfDelete function"]
 ms.keywords: VhfDelete, VhfDelete method [Human Input Devices], hid.vhfdelete, vhf/VhfDelete
 f1_keywords:
  - "vhf/VhfDelete"

@@ -6,6 +6,7 @@ old-location: ifsk\_file_memory_partition_information.htm
 tech.root: ifsk
 ms.assetid: 1d74aec3-dbc5-4494-ba52-135e3f545c1b
 ms.date: 04/16/2018
+keywords: ["_FILE_MEMORY_PARTITION_INFORMATION structure"]
 ms.keywords: "*PFILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_MEMORY_PARTITION_INFORMATION, ifsk._file_memory_partition_information, wdm/FILE_MEMORY_PARTITION_INFORMATION"
 f1_keywords:
  - "wdm/FILE_MEMORY_PARTITION_INFORMATION"

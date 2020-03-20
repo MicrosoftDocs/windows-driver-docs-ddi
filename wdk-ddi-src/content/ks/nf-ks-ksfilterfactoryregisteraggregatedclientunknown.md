@@ -6,6 +6,7 @@ old-location: stream\ksfilterfactoryregisteraggregatedclientunknown.htm
 tech.root: stream
 ms.assetid: 7750a0f5-f38d-4530-81dc-589a1c2009ca
 ms.date: 04/23/2018
+keywords: ["KsFilterFactoryRegisterAggregatedClientUnknown function"]
 ms.keywords: KsFilterFactoryRegisterAggregatedClientUnknown, KsFilterFactoryRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_03ec0abd-d481-4b97-b8ab-6be504e95a55.xml, ks/KsFilterFactoryRegisterAggregatedClientUnknown, stream.ksfilterfactoryregisteraggregatedclientunknown
 f1_keywords:
  - "ks/KsFilterFactoryRegisterAggregatedClientUnknown"

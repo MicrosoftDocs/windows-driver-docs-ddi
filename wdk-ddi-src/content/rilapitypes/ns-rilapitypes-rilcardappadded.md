@@ -6,6 +6,7 @@ old-location: netvista\rilcardappadded.htm
 tech.root: netvista
 ms.assetid: f0488502-8c0c-4e2d-81d0-98b206c74d78
 ms.date: 05/02/2018
+keywords: ["RILCARDAPPADDED structure"]
 ms.keywords: "*LPRILCARDAPPADDED, RILCARDAPPADDED, RILCARDAPPADDED structure [Network Drivers Starting with Windows Vista], netvista.rilcardappadded, ntddrilapitypes/RILCARDAPPADDED"
 f1_keywords:
  - "rilapitypes/RILCARDAPPADDED"

@@ -5,6 +5,7 @@ description:  The VmbChannelInitSetFriendlyName function sets the friendly name 
 tech.root: netvista
 ms.assetid: a5ee22a8-d216-48ba-925a-498b912ddc67
 ms.date: 05/21/2018
+keywords: ["FN_VMB_CHANNEL_INIT_SET_FRIENDLY_NAME callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_FRIENDLY_NAME"
 req.header: vmbuskernelmodeclientlibapi.h

@@ -6,6 +6,7 @@ old-location: kernel\psreferencesilocontext.htm
 tech.root: kernel
 ms.assetid: 04867D53-DB36-482A-93BF-C91D13998B3F
 ms.date: 04/30/2018
+keywords: ["PsReferenceSiloContext function"]
 ms.keywords: PsReferenceSiloContext, PsReferenceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psreferencesilocontext, ntddk/PsReferenceSiloContext
 f1_keywords:
  - "ntddk/PsReferenceSiloContext"

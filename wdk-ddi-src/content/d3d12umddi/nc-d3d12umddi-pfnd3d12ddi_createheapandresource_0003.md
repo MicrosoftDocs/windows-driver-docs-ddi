@@ -4,6 +4,7 @@ title: PFND3D12DDI_CREATEHEAPANDRESOURCE_0003 (d3d12umddi.h)
 description: Used to simultaneously create a heap and resource.
 ms.assetid: 478dfbcd-4472-4469-bd6e-66d6f7b45a3a
 ms.date: 10/19/2018
+keywords: ["PFND3D12DDI_CREATEHEAPANDRESOURCE_0003 callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CREATEHEAPANDRESOURCE_0003"
 req.header: d3d12umddi.h

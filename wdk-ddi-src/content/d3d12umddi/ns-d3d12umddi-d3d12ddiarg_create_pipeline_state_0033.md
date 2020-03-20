@@ -5,6 +5,7 @@ description: Creates a pipeline state.
 old-location: display\d3d12ddiarg-create-pipeline-state-0033.htm
 ms.assetid: 2a9108ab-5852-4053-9a7a-266ae1b1dced
 ms.date: 05/10/2018
+keywords: ["D3D12DDIARG_CREATE_PIPELINE_STATE_0033 structure"]
 ms.keywords: D3D12DDIARG_CREATE_PIPELINE_STATE_0033, D3D12DDIARG_CREATE_PIPELINE_STATE_0033 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_PIPELINE_STATE_0033, display.d3d12ddiarg-create-pipeline-state-0033
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_CREATE_PIPELINE_STATE_0033"

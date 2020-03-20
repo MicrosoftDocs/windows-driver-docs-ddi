@@ -5,6 +5,7 @@ description: DxgkDdiSubmitCommandVirtual is used to submit a direct memory acces
 old-location: display\dxgkddisubmitcommandvirtual.htm
 ms.assetid: 7A55FB51-BDC2-4215-895E-3250579BEAF0
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_SUBMITCOMMANDVIRTUAL callback function"]
 ms.keywords: DXGKDDI_SUBMITCOMMANDVIRTUAL, DXGKDDI_SUBMITCOMMANDVIRTUAL callback, DxgkDdiSubmitCommandVirtual, DxgkDdiSubmitCommandVirtual callback function [Display Devices], d3dkmddi/DxgkDdiSubmitCommandVirtual, display.dxgkddisubmitcommandvirtual
 req.header: d3dkmddi.h
 req.include-header: 

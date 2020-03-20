@@ -6,6 +6,7 @@ old-location: netvista\ndis_ndk_provider_characteristics.htm
 tech.root: netvista
 ms.assetid: 40F07AC8-80F7-4DBC-BDC9-236530B011D4
 ms.date: 05/02/2018
+keywords: ["_NDIS_NDK_PROVIDER_CHARACTERISTICS structure"]
 ms.keywords: "*PNDIS_NDK_PROVIDER_CHARACTERISTICS, NDIS_NDK_PROVIDER_CHARACTERISTICS, NDIS_NDK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_PROVIDER_CHARACTERISTICS, PNDIS_NDK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_PROVIDER_CHARACTERISTICS, ndisndk/NDIS_NDK_PROVIDER_CHARACTERISTICS, ndisndk/PNDIS_NDK_PROVIDER_CHARACTERISTICS, netvista.ndis_ndk_provider_characteristics"
 f1_keywords:
  - "ndisndk/NDIS_NDK_PROVIDER_CHARACTERISTICS"

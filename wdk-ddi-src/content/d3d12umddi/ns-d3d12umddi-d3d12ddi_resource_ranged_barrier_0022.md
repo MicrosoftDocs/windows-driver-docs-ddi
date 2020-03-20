@@ -5,6 +5,7 @@ description: Describes a resource ranged barrier.
 old-location: display\d3d12ddi_resource_ranged_barrier_0022.htm
 ms.assetid: 759BA42A-2F38-42D3-A245-8DEA2919DC39
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_RESOURCE_RANGED_BARRIER_0022 structure"]
 ms.keywords: D3D12DDI_RESOURCE_RANGED_BARRIER_0022, D3D12DDI_RESOURCE_RANGED_BARRIER_0022 structure [Display Devices], d3d12umddi/D3D12DDI_RESOURCE_RANGED_BARRIER_0022, display.d3d12ddi_resource_ranged_barrier_0022
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RESOURCE_RANGED_BARRIER_0022"

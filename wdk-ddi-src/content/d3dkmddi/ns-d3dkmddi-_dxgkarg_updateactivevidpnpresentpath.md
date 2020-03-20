@@ -5,6 +5,7 @@ description: The DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH structure contains a D3DKM
 old-location: display\dxgkarg_updateactivevidpnpresentpath.htm
 ms.assetid: 6a4d43fd-f118-4424-93e8-57f72b56f929
 ms.date: 05/10/2018
+keywords: ["_DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH structure"]
 ms.keywords: DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH, DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH structure [Display Devices], DmStructs_b8d80ff5-189d-4bd2-8b3f-f5ebeadee78f.xml, _DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH, d3dkmddi/DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH, display.dxgkarg_updateactivevidpnpresentpath
 f1_keywords:
  - "d3dkmddi/DXGKARG_UPDATEACTIVEVIDPNPRESENTPATH"

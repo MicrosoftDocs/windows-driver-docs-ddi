@@ -6,6 +6,7 @@ old-location: ifsk\rtlunicodetooemn.htm
 tech.root: ifsk
 ms.assetid: bb9ec3d9-89cd-4c56-8020-f8f97c2ce69b
 ms.date: 04/16/2018
+keywords: ["RtlUnicodeToOemN function"]
 ms.keywords: RtlUnicodeToOemN, RtlUnicodeToOemN routine [Installable File System Drivers], ifsk.rtlunicodetooemn, ntifs/RtlUnicodeToOemN, rtlref_f78dd2e1-13f7-4622-ac13-9207c040b782.xml
 f1_keywords:
  - "ntifs/RtlUnicodeToOemN"

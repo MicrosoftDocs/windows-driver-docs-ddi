@@ -5,6 +5,7 @@ description: The DxgkDdiCreateAllocation function creates allocations of system 
 old-location: display\dxgkddicreateallocation.htm
 ms.assetid: a28287d6-4dfa-4db4-92df-bbcd9379a5b2
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_CREATEALLOCATION callback function"]
 ms.keywords: DXGKDDI_CREATEALLOCATION, DXGKDDI_CREATEALLOCATION callback, DmFunctions_fa00d14b-b5f1-4dde-8283-cc7b71911f76.xml, DxgkDdiCreateAllocation, DxgkDdiCreateAllocation callback function [Display Devices], d3dkmddi/DxgkDdiCreateAllocation, display.dxgkddicreateallocation
 req.header: d3dkmddi.h
 req.include-header: 

@@ -5,6 +5,7 @@ description: The WWAN_CONTEXT_ROAMING_CONTROL enumeration specifies which roamin
 tech.root: netvista
 ms.assetid: e692e8ff-7106-4b58-9046-8a7c98d24e2d
 ms.date: 08/22/2018
+keywords: ["_WWAN_CONTEXT_ROAMING_CONTROL enumeration"]
 f1_keywords:
  - "wwan/_WWAN_CONTEXT_ROAMING_CONTROL"
 ms.keywords: _WWAN_CONTEXT_ROAMING_CONTROL, WWAN_CONTEXT_ROAMING_CONTROL, *PWWAN_CONTEXT_ROAMING_CONTROL, 

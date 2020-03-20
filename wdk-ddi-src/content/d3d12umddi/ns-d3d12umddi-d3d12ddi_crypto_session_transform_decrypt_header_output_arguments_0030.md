@@ -5,6 +5,7 @@ description: Crypto session transform decrypt header output arguments.
 old-location: display\d3d12ddi-crypto-session-transform-decrypt-header-output-arguments-0030.htm
 ms.assetid: 15f4ea26-3a76-4c81-82cc-1abd5f95c63e
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_OUTPUT_ARGUMENTS_0030 structure"]
 ms.keywords: D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_OUTPUT_ARGUMENTS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_OUTPUT_ARGUMENTS_0030 structure [Display Devices], d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_OUTPUT_ARGUMENTS_0030, display.d3d12ddi-crypto-session-transform-decrypt-header-output-arguments-0030
 f1_keywords:
  - "d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_DECRYPT_HEADER_OUTPUT_ARGUMENTS_0030"

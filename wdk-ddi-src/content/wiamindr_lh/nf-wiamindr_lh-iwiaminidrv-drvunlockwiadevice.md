@@ -6,6 +6,7 @@ old-location: image\iwiaminidrv_drvunlockwiadevice.htm
 tech.root: image
 ms.assetid: 134d224a-d472-4d74-be3e-069dbb46a65c
 ms.date: 05/03/2018
+keywords: ["IWiaMiniDrv::drvUnLockWiaDevice"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvUnLockWiaDevice method, IWiaMiniDrv.drvUnLockWiaDevice, IWiaMiniDrv::drvUnLockWiaDevice, MiniDrv_596d3499-1e4a-4147-838f-db4f56f30716.xml, drvUnLockWiaDevice, drvUnLockWiaDevice method [Imaging Devices], drvUnLockWiaDevice method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvunlockwiadevice, wiamindr_lh/IWiaMiniDrv::drvUnLockWiaDevice
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv.drvUnLockWiaDevice"

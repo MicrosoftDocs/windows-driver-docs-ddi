@@ -6,6 +6,7 @@ old-location: sensors\location_desired_accuracy.htm
 tech.root: sensors
 ms.assetid: 21eefb20-b5ad-43c7-a1aa-92731c856363
 ms.date: 05/03/2018
+keywords: ["LOCATION_DESIRED_ACCURACY enumeration"]
 ms.keywords: LOCATION_DESIRED_ACCURACY, LOCATION_DESIRED_ACCURACY enumeration [Sensor Devices], LOCATION_DESIRED_ACCURACY_DEFAULT, LOCATION_DESIRED_ACCURACY_HIGH, Sensor_Enums_a794ec29-a465-4d6a-b32e-c5eb890c95ae.xml, sensors.location_desired_accuracy, sensorsclassextension/LOCATION_DESIRED_ACCURACY, sensorsclassextension/LOCATION_DESIRED_ACCURACY_DEFAULT, sensorsclassextension/LOCATION_DESIRED_ACCURACY_HIGH
 f1_keywords:
  - "sensorsclassextension/LOCATION_DESIRED_ACCURACY"

@@ -6,6 +6,7 @@ old-location: whea\wheaisvaliderrorrecordsignature.htm
 tech.root: whea
 ms.assetid: 35149395-4238-41fd-ae96-6491534e3cc1
 ms.date: 02/20/2018
+keywords: ["WheaIsValidErrorRecordSignature function"]
 ms.keywords: WheaIsValidErrorRecordSignature, WheaIsValidErrorRecordSignature function [WHEA Drivers and Applications], ntddk/WheaIsValidErrorRecordSignature, whea.wheaisvaliderrorrecordsignature, whearef2_6ba74e00-cc1f-49e9-b6ee-b300571eb412.xml
 f1_keywords:
  - "ntddk/WheaIsValidErrorRecordSignature"

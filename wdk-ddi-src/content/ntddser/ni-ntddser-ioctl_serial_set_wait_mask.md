@@ -6,6 +6,7 @@ old-location: serports\ioctl_serial_set_wait_mask.htm
 tech.root: serports
 ms.assetid: 78d7fca7-d705-407f-95f1-670a417e2202
 ms.date: 04/23/2018
+keywords: ["IOCTL_SERIAL_SET_WAIT_MASK IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_WAIT_MASK, IOCTL_SERIAL_SET_WAIT_MASK control, IOCTL_SERIAL_SET_WAIT_MASK control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_WAIT_MASK, serports.ioctl_serial_set_wait_mask, serref_8aa3f08e-f48b-44b2-91aa-849890097cef.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_WAIT_MASK"

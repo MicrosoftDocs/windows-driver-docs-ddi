@@ -6,6 +6,7 @@ old-location: netvista\ndk_fn_get_peer_address.htm
 tech.root: netvista
 ms.assetid: 7015FBC6-BACD-4154-A6E5-15A949BA5906
 ms.date: 05/02/2018
+keywords: ["NDK_FN_GET_PEER_ADDRESS callback function"]
 ms.keywords: NDK_FN_GET_PEER_ADDRESS, NDK_FN_GET_PEER_ADDRESS callback, NdkGetPeerAddress, NdkGetPeerAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetPeerAddress, netvista.ndk_fn_get_peer_address
 f1_keywords:
  - "ndkpi/NdkGetPeerAddress"

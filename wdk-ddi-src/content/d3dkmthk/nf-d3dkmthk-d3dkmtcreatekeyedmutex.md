@@ -5,6 +5,7 @@ description: The D3DKMTCreateKeyedMutex function creates a keyed mutex object.
 old-location: display\d3dkmtcreatekeyedmutex.htm
 ms.assetid: ae9e4771-ba8d-4472-aeb8-04c3f3c59efa
 ms.date: 05/10/2018
+keywords: ["D3DKMTCreateKeyedMutex function"]
 ms.keywords: D3DKMTCreateKeyedMutex, D3DKMTCreateKeyedMutex callback function [Display Devices], OpenGL_Functions_a8475da1-40bf-4669-9da8-f6bb09c3f905.xml, PFND3DKMT_CREATEKEYEDMUTEX, PFND3DKMT_CREATEKEYEDMUTEX callback, d3dkmthk/D3DKMTCreateKeyedMutex, display.d3dkmtcreatekeyedmutex
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateKeyedMutex"

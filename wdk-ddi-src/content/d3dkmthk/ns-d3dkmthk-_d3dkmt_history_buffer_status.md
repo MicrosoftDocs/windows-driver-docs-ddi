@@ -4,6 +4,7 @@ title: _D3DKMT_HISTORY_BUFFER_STATUS (d3dkmthk.h)
 description: Contains history buffer status.
 ms.assetid: 4c8c2589-85e5-4238-a69f-40fd23f70a28
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_HISTORY_BUFFER_STATUS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_HISTORY_BUFFER_STATUS"
 ms.keywords: _D3DKMT_HISTORY_BUFFER_STATUS, D3DKMT_HISTORY_BUFFER_STATUS, 

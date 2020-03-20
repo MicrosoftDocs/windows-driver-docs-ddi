@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: 55ddbb93-e790-4e5b-b891-d0b563d62af3
 ms.author: windowsdriverdev
 ms.date: 
+keywords: ["NET_IPV6_ADDRESS structure"]
 f1_keywords:
  - "netadaptercxtypes/NET_IPV6_ADDRESS"
 ms.keywords: NET_IPV6_ADDRESS, NET_IPV6_ADDRESS, 

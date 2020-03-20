@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: 468fe430-d8d6-4736-956a-7639abd9c12b
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
+keywords: ["MCI_STATUS structure"]
 f1_keywords:
  - "ntddk/MCI_STATUS"
 ms.keywords: MCI_STATUS, MCI_STATUS, *PMCI_STATUS, 

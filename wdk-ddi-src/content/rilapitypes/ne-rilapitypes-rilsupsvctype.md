@@ -6,6 +6,7 @@ old-location: netvista\rilsupsvctype.htm
 tech.root: netvista
 ms.assetid: 3d9415f7-cc28-4e45-8d88-b8693aa57116
 ms.date: 05/02/2018
+keywords: ["RILSUPSVCTYPE enumeration"]
 ms.keywords: RILSUPSVCTYPE, RILSUPSVCTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCTYPE_CLIP, RIL_SUPSVCTYPE_CLIR, RIL_SUPSVCTYPE_CNAP, RIL_SUPSVCTYPE_COLP, RIL_SUPSVCTYPE_COLR, RIL_SUPSVCTYPE_MAX, netvista.rilsupsvctype, ntddrilapitypes/RILSUPSVCTYPE, ntddrilapitypes/RIL_SUPSVCTYPE_CLIP, ntddrilapitypes/RIL_SUPSVCTYPE_CLIR, ntddrilapitypes/RIL_SUPSVCTYPE_CNAP, ntddrilapitypes/RIL_SUPSVCTYPE_COLP, ntddrilapitypes/RIL_SUPSVCTYPE_COLR, ntddrilapitypes/RIL_SUPSVCTYPE_MAX
 f1_keywords:
  - "rilapitypes/RILSUPSVCTYPE"

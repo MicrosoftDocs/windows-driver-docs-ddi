@@ -6,6 +6,7 @@ old-location: stream\iksallocator_ksgetallocatormode.htm
 tech.root: stream
 ms.assetid: 47B51B6F-555A-4A1E-AA25-7E94DC0060CC
 ms.date: 04/23/2018
+keywords: ["IKsAllocator::KsGetAllocatorMode"]
 ms.keywords: IKsAllocator interface [Streaming Media Devices],KsGetAllocatorMode method, IKsAllocator.KsGetAllocatorMode, IKsAllocator::KsGetAllocatorMode, KsGetAllocatorMode, KsGetAllocatorMode method [Streaming Media Devices], KsGetAllocatorMode method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsGetAllocatorMode, stream.iksallocator_ksgetallocatormode
 f1_keywords:
  - "ksproxy/IKsAllocator.KsGetAllocatorMode"

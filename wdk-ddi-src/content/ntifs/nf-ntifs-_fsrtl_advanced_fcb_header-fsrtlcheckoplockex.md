@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlcheckoplockex.htm
 tech.root: ifsk
 ms.assetid: e06ae137-fbd8-47cc-8102-9fe21993f1ca
 ms.date: 04/16/2018
+keywords: ["FsRtlCheckOplockEx function"]
 ms.keywords: FsRtlCheckOplockEx, FsRtlCheckOplockEx routine [Installable File System Drivers], fsrtlref_8c9699aa-3c4e-4095-9eee-4caef21f4709.xml, ifsk.fsrtlcheckoplockex, ntifs/FsRtlCheckOplockEx
 f1_keywords:
  - "ntifs/FsRtlCheckOplockEx"

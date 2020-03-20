@@ -6,6 +6,7 @@ old-location: netvista\evt_vmb_channel_save_packet.htm
 tech.root: netvista
 ms.assetid: 92CC3C36-D10C-4C6B-8BB4-476E72AD684C
 ms.date: 05/02/2018
+keywords: ["EVT_VMB_CHANNEL_SAVE_PACKET callback function"]
 ms.keywords: EVT_VMB_CHANNEL_SAVE_PACKET, EVT_VMB_CHANNEL_SAVE_PACKET callback, EvtVmbChannelSavePacket, EvtVmbChannelSavePacket callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_SAVE_PACKET, PFN_VMB_CHANNEL_SAVE_PACKET callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_save_packet, vmbuskernelmodeclientlibapi/EvtVmbChannelSavePacket
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/PFN_VMB_CHANNEL_SAVE_PACKET"

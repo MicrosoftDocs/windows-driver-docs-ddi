@@ -6,6 +6,7 @@ old-location: kernel\rtlptrdifftadd.htm
 tech.root: kernel
 ms.assetid: 3B4C0CF0-8153-446E-A834-C1FE28651718
 ms.date: 04/30/2018
+keywords: ["RtlPtrdiffTAdd function"]
 ms.keywords: RtlPtrdiffTAdd, RtlPtrdiffTAdd function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftadd, ntintsafe/RtlPtrdiffTAdd
 f1_keywords:
  - "ntintsafe/RtlPtrdiffTAdd"

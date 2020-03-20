@@ -6,6 +6,7 @@ old-location: storage\scsiportwriteportuchar.htm
 tech.root: storage
 ms.assetid: aba28a55-d7bc-4f75-ac87-4148cb1b4cfb
 ms.date: 03/29/2018
+keywords: ["ScsiPortWritePortUchar macro"]
 ms.keywords: ScsiPortWritePortUchar, ScsiPortWritePortUchar routine [Storage Devices], scsiprt_4dfda130-8e22-44b3-a57a-0656cd2a70f2.xml, srb/ScsiPortWritePortUchar, storage.scsiportwriteportuchar
 f1_keywords:
  - "storport/ScsiPortWritePortUchar"

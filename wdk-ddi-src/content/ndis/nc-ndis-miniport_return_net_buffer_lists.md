@@ -6,6 +6,7 @@ old-location: netvista\miniportreturnnetbufferlists.htm
 tech.root: netvista
 ms.assetid: 0f33ae87-164e-40dc-a915-28211a0d74b7
 ms.date: 05/02/2018
+keywords: ["MINIPORT_RETURN_NET_BUFFER_LISTS callback function"]
 ms.keywords: MINIPORT_RETURN_NET_BUFFER_LISTS, MINIPORT_RETURN_NET_BUFFER_LISTS callback, MiniportReturnNetBufferLists, MiniportReturnNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/MiniportReturnNetBufferLists, ndis_sendrcv_ref_dfe745f1-643d-4834-827c-687aa6404cf2.xml, netvista.miniportreturnnetbufferlists
 f1_keywords:
  - "ndis/MiniportReturnNetBufferLists"

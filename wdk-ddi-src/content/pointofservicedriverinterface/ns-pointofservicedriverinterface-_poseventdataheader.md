@@ -6,6 +6,7 @@ old-location: pos\posbarcodescannerimageprevieweventdata.htm
 tech.root: pos
 ms.assetid: dc542e81-9078-4e14-8c8d-9cfaeb5b5495
 ms.date: 02/23/2018
+keywords: ["_PosEventDataHeader structure"]
 ms.keywords: PosBarcodeScannerImagePreviewEventData, PosBarcodeScannerImagePreviewEventData structure, PosEventDataHeader, PosEventDataHeader structure, _PosEventDataHeader, pointofservicedriverinterface/PosBarcodeScannerImagePreviewEventData, pointofservicedriverinterface/PosEventDataHeader, pos.posbarcodescannerimageprevieweventdata
 f1_keywords:
  - "pointofservicedriverinterface/PosEventDataHeader"

@@ -6,6 +6,7 @@ old-location: buses\udecxurbsetbytescompleted.htm
 tech.root: usbref
 ms.assetid: 86C320B0-F679-4A8E-9015-D2BD8059A6CD
 ms.date: 05/07/2018
+keywords: ["UdecxUrbSetBytesCompleted function"]
 ms.keywords: UdecxUrbSetBytesCompleted, UdecxUrbSetBytesCompleted function [Buses], buses.udecxurbsetbytescompleted, udecxurb/UdecxUrbSetBytesCompleted
 f1_keywords:
  - "udecxurb/UdecxUrbSetBytesCompleted"

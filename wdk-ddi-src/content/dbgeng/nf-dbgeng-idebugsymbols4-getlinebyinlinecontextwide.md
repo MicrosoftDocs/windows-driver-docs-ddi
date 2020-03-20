@@ -6,6 +6,7 @@ old-location: debugger\idebugsymbols4_getlinebyinlinecontextwide.htm
 tech.root: debugger
 ms.assetid: 5DCD8407-1C30-475F-9741-62DB9C86297B
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols4::GetLineByInlineContextWide"]
 ms.keywords: GetLineByInlineContextWide, GetLineByInlineContextWide method [Windows Debugging], GetLineByInlineContextWide method [Windows Debugging],IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging],GetLineByInlineContextWide method, IDebugSymbols4.GetLineByInlineContextWide, IDebugSymbols4::GetLineByInlineContextWide, dbgeng/IDebugSymbols4::GetLineByInlineContextWide, debugger.idebugsymbols4_getlinebyinlinecontextwide
 f1_keywords:
  - "dbgeng/IDebugSymbols4.GetLineByInlineContextWide"

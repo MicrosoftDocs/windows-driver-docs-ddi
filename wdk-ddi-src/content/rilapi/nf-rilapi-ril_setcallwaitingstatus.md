@@ -6,6 +6,7 @@ old-location: netvista\ril_setcallwaitingstatus.htm
 tech.root: netvista
 ms.assetid: e511db5d-3544-45a4-9ed4-72bb3f2572ec
 ms.date: 05/02/2018
+keywords: ["RIL_SetCallWaitingStatus function"]
 ms.keywords: RIL_SetCallWaitingStatus, RIL_SetCallWaitingStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setcallwaitingstatus, rilapi/RIL_SetCallWaitingStatus
 f1_keywords:
  - "rilapi/RIL_SetCallWaitingStatus"

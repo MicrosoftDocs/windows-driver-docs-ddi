@@ -4,6 +4,7 @@ title: PropKeyFindKeyGetNthUshort function (sensorsutils.h)
 description: This routine gets the nth USHORT value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: 74a78f9f-10a9-4e19-98ac-ac118d3631b9
 ms.date: 08/08/2018
+keywords: ["PropKeyFindKeyGetNthUshort function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/PropKeyFindKeyGetNthUshort"

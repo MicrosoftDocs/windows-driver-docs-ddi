@@ -6,6 +6,7 @@ old-location: storage\changerclassdebugprint.htm
 tech.root: storage
 ms.assetid: 452377f1-a926-4f43-8168-bea11622902e
 ms.date: 03/29/2018
+keywords: ["ChangerClassDebugPrint function"]
 ms.keywords: ChangerClassDebugPrint, ChangerClassDebugPrint function [Storage Devices], chgrclas_3372885c-482b-4dab-87ae-e59668e91950.xml, mcd/ChangerClassDebugPrint, storage.changerclassdebugprint
 f1_keywords:
  - "mcd/ChangerClassDebugPrint"

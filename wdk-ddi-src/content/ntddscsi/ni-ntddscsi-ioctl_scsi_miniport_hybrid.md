@@ -6,6 +6,7 @@ old-location: storage\ioctl_scsi_miniport_hybrid.htm
 tech.root: storage
 ms.assetid: 57DA022A-FAC6-4727-94E1-BCF6FEF1E945
 ms.date: 03/29/2018
+keywords: ["IOCTL_SCSI_MINIPORT_HYBRID IOCTL"]
 ms.keywords: IOCTL_SCSI_MINIPORT_HYBRID, IOCTL_SCSI_MINIPORT_HYBRID control, IOCTL_SCSI_MINIPORT_HYBRID control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID, storage.ioctl_scsi_miniport_hybrid
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID"

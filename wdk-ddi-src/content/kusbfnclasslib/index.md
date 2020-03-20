@@ -3,6 +3,7 @@ UID: NA:kusbfnclasslib
 title: Kusbfnclasslib.h header
 ms.assetid: e96da8f7-4968-3170-b9b0-7a75c68f7233
 ms.date: 05/09/2018
+keywords: ["Kusbfnclasslib.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

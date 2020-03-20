@@ -5,6 +5,7 @@ description: The DxgkDdiSetPointerShape function sets the appearance and locatio
 old-location: display\dxgkddisetpointershape.htm
 ms.assetid: 36b462f7-5bad-4716-8138-af00d20e945b
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_SETPOINTERSHAPE callback function"]
 ms.keywords: DXGKDDI_SETPOINTERSHAPE, DXGKDDI_SETPOINTERSHAPE callback, DmFunctions_39ac69a2-f8dc-4704-b5ab-d57d83685071.xml, DxgkDdiSetPointerShape, DxgkDdiSetPointerShape callback function [Display Devices], d3dkmddi/DxgkDdiSetPointerShape, display.dxgkddisetpointershape
 req.header: d3dkmddi.h
 req.include-header: 

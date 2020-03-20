@@ -6,6 +6,7 @@ old-location: stream\ikspinpipe_kssetpipeallocatorflag.htm
 tech.root: stream
 ms.assetid: 0587E952-8B51-44C3-8E23-2981C00ADB43
 ms.date: 04/23/2018
+keywords: ["IKsPinPipe::KsSetPipeAllocatorFlag"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPipeAllocatorFlag method, IKsPinPipe.KsSetPipeAllocatorFlag, IKsPinPipe::KsSetPipeAllocatorFlag, KsSetPipeAllocatorFlag, KsSetPipeAllocatorFlag method [Streaming Media Devices], KsSetPipeAllocatorFlag method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPipeAllocatorFlag, stream.ikspinpipe_kssetpipeallocatorflag
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsSetPipeAllocatorFlag"

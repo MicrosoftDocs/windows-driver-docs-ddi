@@ -6,6 +6,7 @@ old-location: kernel\iogetrelateddeviceobject.htm
 tech.root: kernel
 ms.assetid: 70427fad-6a3d-40bb-9523-787c14fa1e39
 ms.date: 04/30/2018
+keywords: ["IoGetRelatedDeviceObject function"]
 ms.keywords: IoGetRelatedDeviceObject, IoGetRelatedDeviceObject routine [Kernel-Mode Driver Architecture], k104_22abf9c6-81f5-497e-9bca-8a00b2c871df.xml, kernel.iogetrelateddeviceobject, wdm/IoGetRelatedDeviceObject
 f1_keywords:
  - "wdm/IoGetRelatedDeviceObject"

@@ -6,6 +6,7 @@ old-location: kernel\iosetdeviceinterfacepropertydata.htm
 tech.root: kernel
 ms.assetid: 346F6FEC-7E06-4DF0-A304-88BD830C591B
 ms.date: 04/30/2018
+keywords: ["IoSetDeviceInterfacePropertyData function"]
 ms.keywords: IoSetDeviceInterfacePropertyData, IoSetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], kernel.iosetdeviceinterfacepropertydata, wdm/IoSetDeviceInterfacePropertyData
 f1_keywords:
  - "wdm/IoSetDeviceInterfacePropertyData"

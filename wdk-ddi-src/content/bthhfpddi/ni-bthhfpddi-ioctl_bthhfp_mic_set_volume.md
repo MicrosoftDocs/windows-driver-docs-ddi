@@ -6,6 +6,7 @@ old-location: audio\ioctl_bthhfp_mic_set_volume.htm
 tech.root: audio
 ms.assetid: 438BB68B-9E09-4033-B38E-C1C28D00D43C
 ms.date: 05/08/2018
+keywords: ["IOCTL_BTHHFP_MIC_SET_VOLUME IOCTL"]
 ms.keywords: IOCTL_BTHHFP_MIC_SET_VOLUME, IOCTL_BTHHFP_MIC_SET_VOLUME control, IOCTL_BTHHFP_MIC_SET_VOLUME control code [Audio Devices], audio.ioctl_bthhfp_mic_set_volume, bthhfpddi/IOCTL_BTHHFP_MIC_SET_VOLUME
 f1_keywords:
  - "bthhfpddi/IOCTL_BTHHFP_MIC_SET_VOLUME"

@@ -5,6 +5,7 @@ description: The SetRenderTargets(D3D11) function sets render target surfaces.
 old-location: display\setrendertargets_d3d11_.htm
 ms.assetid: cfe5f570-4e53-43ee-942d-56da8dfcfe80
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_SETRENDERTARGETS callback function"]
 ms.keywords: PFND3D11DDI_SETRENDERTARGETS, PFND3D11DDI_SETRENDERTARGETS callback, SetRenderTargets, SetRenderTargets callback function [Display Devices], UserModeDisplayDriverDx11_Functions_a24d5500-fe0a-4d17-a3fb-acb6ed9e4698.xml, d3d10umddi/SetRenderTargets, display.setrendertargets_d3d11_
 f1_keywords:
  - "d3d10umddi/SetRenderTargets"

@@ -3,6 +3,7 @@ UID: NA:wdffdo
 title: Wdffdo.h header
 ms.assetid: 3b4b9cb8-8139-3f49-a13d-762e25571789
 ms.date: 05/09/2018
+keywords: ["Wdffdo.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

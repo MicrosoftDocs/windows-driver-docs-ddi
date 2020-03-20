@@ -4,6 +4,7 @@ title: FsRtlIsNameInUnUpcasedExpression function (ntifs.h)
 description: The FsRtlIsNameInUnUpcasedExpression routine determines whether a Unicode string matches the specified pattern.
 ms.assetid: e7d84543-f480-4d05-9555-d9c4696dfe39
 ms.date: 10/19/2018
+keywords: ["FsRtlIsNameInUnUpcasedExpression function"]
 f1_keywords:
  - "ntifs/FsRtlIsNameInUnUpcasedExpression"
 ms.keywords: FsRtlIsNameInUnUpcasedExpression

@@ -6,6 +6,7 @@ old-location: netvista\_dot11_wfd_device_capability_config.htm
 tech.root: netvista
 ms.assetid: 918307D4-0952-4FF0-8591-522C7E92194A
 ms.date: 02/16/2018
+keywords: ["_DOT11_WFD_DEVICE_CAPABILITY_CONFIG structure"]
 ms.keywords: "*PDOT11_WFD_DEVICE_CAPABILITY_CONFIG, DOT11_WFD_DEVICE_CAPABILITY_CONFIG, DOT11_WFD_DEVICE_CAPABILITY_CONFIG structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DEVICE_CAPABILITY_CONFIG, PDOT11_WFD_DEVICE_CAPABILITY_CONFIG structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DEVICE_CAPABILITY_CONFIG, netvista._dot11_wfd_device_capability_config, windot11/ DOT11_WFD_DEVICE_CAPABILITY_CONFIG, windot11/PDOT11_WFD_DEVICE_CAPABILITY_CONFIG"
 f1_keywords:
  - "windot11/DOT11_WFD_DEVICE_CAPABILITY_CONFIG"

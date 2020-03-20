@@ -6,6 +6,7 @@ old-location: image\iwiadrvitem_additemtofolder.htm
 tech.root: image
 ms.assetid: 3f1cd0bf-13ce-49bc-a48e-dc3d89f3c7d7
 ms.date: 05/03/2018
+keywords: ["IWiaDrvItem::AddItemToFolder"]
 ms.keywords: AddItemToFolder, AddItemToFolder method [Imaging Devices], AddItemToFolder method [Imaging Devices],IWiaDrvItem interface, DrvItem_7979b3e5-dfd3-41bb-ae55-266cbb74866c.xml, IWiaDrvItem interface [Imaging Devices],AddItemToFolder method, IWiaDrvItem.AddItemToFolder, IWiaDrvItem::AddItemToFolder, image.iwiadrvitem_additemtofolder, wiamindr_lh/IWiaDrvItem::AddItemToFolder
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.AddItemToFolder"

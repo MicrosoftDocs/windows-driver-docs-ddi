@@ -6,6 +6,7 @@ old-location: netvista\rilltekind.htm
 tech.root: netvista
 ms.assetid: e7457252-0ca9-4cea-bc06-283573e49331
 ms.date: 05/02/2018
+keywords: ["RILLTEKIND enumeration"]
 ms.keywords: RILLTEKIND, RILLTEKIND enumeration [Network Drivers Starting with Windows Vista], RIL_LTEKIND_FDD, RIL_LTEKIND_FDD_CA, RIL_LTEKIND_MAX, RIL_LTEKIND_RESERVED, RIL_LTEKIND_TDD, RIL_LTEKIND_TDD_CA, RIL_LTEKIND_UNKNOWN_CA, netvista.rilltekind, ntddrilapitypes/RILLTEKIND, ntddrilapitypes/RIL_LTEKIND_FDD, ntddrilapitypes/RIL_LTEKIND_FDD_CA, ntddrilapitypes/RIL_LTEKIND_MAX, ntddrilapitypes/RIL_LTEKIND_RESERVED, ntddrilapitypes/RIL_LTEKIND_TDD, ntddrilapitypes/RIL_LTEKIND_TDD_CA, ntddrilapitypes/RIL_LTEKIND_UNKNOWN_CA
 f1_keywords:
  - "rilapitypes/RILLTEKIND"

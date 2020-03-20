@@ -6,6 +6,7 @@ old-location: gpiobtn\_hwn_client_registration_packet.htm
 tech.root: gpiobtn
 ms.assetid: bf8ac72b-c3d6-4965-a1e9-2408d2fa2196
 ms.date: 02/15/2018
+keywords: ["_HWN_CLIENT_REGISTRATION_PACKET structure"]
 ms.keywords: "*PHWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET structure, _HWN_CLIENT_REGISTRATION_PACKET, gpiobtn._hwn_client_registration_packet, hwnclx/HWN_CLIENT_REGISTRATION_PACKET"
 f1_keywords:
  - "hwnclx/HWN_CLIENT_REGISTRATION_PACKET"

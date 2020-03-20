@@ -6,6 +6,7 @@ old-location: print\drvgetdriversetting.htm
 tech.root: print
 ms.assetid: 04473567-42ac-4d99-947d-6ec7b3bde90b
 ms.date: 04/20/2018
+keywords: ["PFN_DrvGetDriverSetting callback function"]
 ms.keywords: DrvGetDriverSetting, DrvGetDriverSetting callback function [Print Devices], PFN_DrvGetDriverSetting, PFN_DrvGetDriverSetting callback, print.drvgetdriversetting, print_obsoletefunctions_655cde75-fc70-4d6c-a7b4-8eb1e068ebd9.xml, printoem/DrvGetDriverSetting
 f1_keywords:
  - "printoem/DrvGetDriverSetting"

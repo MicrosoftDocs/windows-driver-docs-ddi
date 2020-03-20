@@ -6,6 +6,7 @@ old-location: storage\ioctl_ehstor_bandmgmt_query_capabilities.htm
 tech.root: storage
 ms.assetid: 16D035EF-2234-4D5A-8D19-8CF3BA8B3590
 ms.date: 03/29/2018
+keywords: ["IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES, IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES control, IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES, storage.ioctl_ehstor_bandmgmt_query_capabilities
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES"

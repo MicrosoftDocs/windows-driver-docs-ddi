@@ -6,6 +6,7 @@ old-location: sd\sdcmd_descriptor.htm
 tech.root: SD
 ms.assetid: 7c49c394-d0b3-4594-a623-0a13825bdcec
 ms.date: 02/15/2018
+keywords: ["_SDCMD_DESCRIPTOR structure"]
 ms.keywords: "*PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR structure pointer [Buses], SD.sdcmd_descriptor, SDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR structure [Buses], _SDCMD_DESCRIPTOR, sd-structs_20a7faa8-4e91-49cc-94eb-13bd584a25a3.xml, sddef/PSDCMD_DESCRIPTOR, sddef/SDCMD_DESCRIPTOR"
 f1_keywords:
  - "sddef/SDCMD_DESCRIPTOR"

@@ -6,6 +6,7 @@ old-location: stream\kssetdevicepnpandbaseobject.htm
 tech.root: stream
 ms.assetid: 269bbb79-c730-4b78-bf46-d502f23f039b
 ms.date: 04/23/2018
+keywords: ["KsSetDevicePnpAndBaseObject function"]
 ms.keywords: KsSetDevicePnpAndBaseObject, KsSetDevicePnpAndBaseObject function [Streaming Media Devices], ks/KsSetDevicePnpAndBaseObject, ksfunc_eff06a34-a458-4426-972c-6a0fbf0f7846.xml, stream.kssetdevicepnpandbaseobject
 f1_keywords:
  - "ks/KsSetDevicePnpAndBaseObject"

@@ -6,6 +6,7 @@ old-location: netvista\ndismsetvirtualfunctionbusdata.htm
 tech.root: netvista
 ms.assetid: 74c6789e-22a6-42e9-bc14-8b9f93da668b
 ms.date: 05/02/2018
+keywords: ["NdisMSetVirtualFunctionBusData function"]
 ms.keywords: NdisMSetVirtualFunctionBusData, NdisMSetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMSetVirtualFunctionBusData, netvista.ndismsetvirtualfunctionbusdata
 f1_keywords:
  - "ndis/NdisMSetVirtualFunctionBusData"

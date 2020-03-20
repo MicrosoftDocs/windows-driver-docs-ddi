@@ -4,6 +4,7 @@ title: IRawEnumerator (dbgmodel.h)
 description: An interface which enumerates the raw children (base classes, fields, etc...) of an object (and their values and associated metadata). 
 ms.assetid: 9ffd4c68-726e-41a9-a5d7-523d039dc72f
 ms.date: 07/16/2018
+keywords: ["IRawEnumerator interface"]
 f1_keywords:
  - "dbgmodel/IRawEnumerator"
 req.header: dbgmodel.h

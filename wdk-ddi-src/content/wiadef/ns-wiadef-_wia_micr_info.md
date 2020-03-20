@@ -6,6 +6,7 @@ old-location: image\wia_micr_info.htm
 tech.root: image
 ms.assetid: E91F5D6F-40F9-4CE2-8C51-4CA7FB27F2C3
 ms.date: 05/03/2018
+keywords: ["_WIA_MICR_INFO structure"]
 ms.keywords: WIA_MICR_INFO, WIA_MICR_INFO structure [Imaging Devices], _WIA_MICR_INFO, image.wia_micr_info, wiadef/WIA_MICR_INFO
 f1_keywords:
  - "wiadef/WIA_MICR_INFO"

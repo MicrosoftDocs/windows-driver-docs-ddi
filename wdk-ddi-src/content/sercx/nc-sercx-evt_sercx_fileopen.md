@@ -6,6 +6,7 @@ old-location: serports\evtsercxfileopen.htm
 tech.root: serports
 ms.assetid: 90D08857-69E0-4DD9-9588-86900466E8DE
 ms.date: 04/23/2018
+keywords: ["EVT_SERCX_FILEOPEN callback function"]
 ms.keywords: 1/EvtSerCxFileOpen, EVT_SERCX_FILEOPEN, EVT_SERCX_FILEOPEN callback, EvtSerCxFileOpen, EvtSerCxFileOpen callback function [Serial Ports], serports.evtsercxfileopen
 f1_keywords:
  - "sercx/EvtSerCxFileOpen"

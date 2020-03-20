@@ -6,6 +6,7 @@ old-location: netvista\ndisregisterprotocoldriver.htm
 tech.root: netvista
 ms.assetid: b48571eb-13a2-4541-80ac-c8d31f378d37
 ms.date: 05/02/2018
+keywords: ["NdisRegisterProtocolDriver function"]
 ms.keywords: NdisRegisterProtocolDriver, NdisRegisterProtocolDriver function [Network Drivers Starting with Windows Vista], ndis/NdisRegisterProtocolDriver, netvista.ndisregisterprotocoldriver, protocol_ndis_functions_ref_023b338a-65cf-4ccb-bce8-d1506f37f632.xml
 f1_keywords:
  - "ndis/NdisRegisterProtocolDriver"

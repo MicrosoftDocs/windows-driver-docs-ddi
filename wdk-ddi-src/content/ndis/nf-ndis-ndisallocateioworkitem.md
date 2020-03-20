@@ -6,6 +6,7 @@ old-location: netvista\ndisallocateioworkitem.htm
 tech.root: netvista
 ms.assetid: 54977838-381e-4c86-a6ca-646202fdc619
 ms.date: 05/02/2018
+keywords: ["NdisAllocateIoWorkItem function"]
 ms.keywords: NdisAllocateIoWorkItem, NdisAllocateIoWorkItem function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateIoWorkItem, ndis_work_items_ref_c227456a-4847-40db-b530-a772f4fd4dc3.xml, netvista.ndisallocateioworkitem
 f1_keywords:
  - "ndis/NdisAllocateIoWorkItem"

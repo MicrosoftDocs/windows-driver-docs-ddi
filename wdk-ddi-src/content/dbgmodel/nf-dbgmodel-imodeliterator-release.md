@@ -4,6 +4,7 @@ title: IModelIterator::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: a05761bf-cbb7-405a-9e8d-4bf096281488
 ms.date: 08/13/2018
+keywords: ["IModelIterator::Release"]
 f1_keywords:
  - "dbgmodel/IModelIterator.Release"
 ms.keywords: IModelIterator::Release, Release, IModelIterator.Release, IModelIterator::Release, IModelIterator.Release

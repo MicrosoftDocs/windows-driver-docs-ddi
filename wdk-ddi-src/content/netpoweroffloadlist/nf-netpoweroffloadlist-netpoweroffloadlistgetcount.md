@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 30c4d484-07c2-42ab-bce7-42d2f73968e4
 ms.author: windowsdriverdev
 ms.date: 10/03/2019
+keywords: ["NetPowerOffloadListGetCount function"]
 f1_keywords:
  - "netpoweroffloadlist/NetPowerOffloadListGetCount"
 ms.keywords: NetPowerOffloadListGetCount

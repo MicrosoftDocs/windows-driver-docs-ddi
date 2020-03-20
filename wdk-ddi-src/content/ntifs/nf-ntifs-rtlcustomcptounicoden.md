@@ -6,6 +6,7 @@ old-location: ifsk\rtlcustomcptounicoden.htm
 tech.root: ifsk
 ms.assetid: 8f29aca1-9d38-4c28-976f-64549767b303
 ms.date: 04/16/2018
+keywords: ["RtlCustomCPToUnicodeN function"]
 ms.keywords: RtlCustomCPToUnicodeN, RtlCustomCPToUnicodeN function [Installable File System Drivers], ifsk.rtlcustomcptounicoden, ntifs/RtlCustomCPToUnicodeN, rtlref_9b39575d-4ba4-49fa-9281-2858d3e2631d.xml
 f1_keywords:
  - "ntifs/RtlCustomCPToUnicodeN"

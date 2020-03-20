@@ -6,6 +6,7 @@ old-location: bltooth\_brb_psm.htm
 tech.root: bltooth
 ms.assetid: 893edad2-8419-4c93-bf0b-2cca8ca5a2f6
 ms.date: 04/27/2018
+keywords: ["_BRB_PSM structure"]
 ms.keywords: "_BRB_PSM, _BRB_PSM structure [Bluetooth Devices], bltooth._brb_psm, bth_structs_f40af07e-a5ad-4654-9ff6-4d162a46ea58.xml, bthddi/_BRB_PSM"
 f1_keywords:
  - "bthddi/_BRB_PSM"

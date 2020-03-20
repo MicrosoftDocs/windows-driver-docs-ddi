@@ -6,6 +6,7 @@ old-location: stream\init_avcstrm_header.htm
 tech.root: stream
 ms.assetid: 744d6e49-9321-4cba-a4e7-48a4abb02319
 ms.date: 04/23/2018
+keywords: ["INIT_AVCSTRM_HEADER macro"]
 ms.keywords: INIT_AVCSTRM_HEADER, INIT_AVCSTRM_HEADER macro [Streaming Media Devices], avcsref_97f7d983-5637-4ac4-ad1c-53328adca831.xml, avcstrm/INIT_AVCSTRM_HEADER, stream.init_avcstrm_header
 f1_keywords:
  - "avcstrm/INIT_AVCSTRM_HEADER"

@@ -5,6 +5,7 @@ description: DxgkDdiRenderGdi is used when submitting Windows Graphics Device In
 old-location: display\dxgkddirendergdi.htm
 ms.assetid: 90C34125-FC32-46E3-81F7-6B2AACED9BAC
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_RENDERGDI callback function"]
 ms.keywords: DXGKDDI_RENDERGDI, DXGKDDI_RENDERGDI callback, DxgkDdiRenderGdi, DxgkDdiRenderGdi callback function [Display Devices], d3dkmddi/DxgkDdiRenderGdi, display.dxgkddirendergdi
 req.header: d3dkmddi.h
 req.include-header: 

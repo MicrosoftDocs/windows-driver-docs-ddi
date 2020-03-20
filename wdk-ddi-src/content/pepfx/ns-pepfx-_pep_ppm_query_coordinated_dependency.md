@@ -6,6 +6,7 @@ old-location: kernel\pep_ppm_query_coordinated_dependency.htm
 tech.root: kernel
 ms.assetid: B7E857ED-66FF-4A4D-849B-A15663106507
 ms.date: 04/30/2018
+keywords: ["_PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure"]
 ms.keywords: "*PPEP_PPM_QUERY_COORDINATED_DEPENDENCY, PEP_PPM_QUERY_COORDINATED_DEPENDENCY, PEP_PPM_QUERY_COORDINATED_DEPENDENCY structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_COORDINATED_DEPENDENCY, PPEP_PPM_QUERY_COORDINATED_DEPENDENCY structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_COORDINATED_DEPENDENCY, kernel.pep_ppm_query_coordinated_dependency, pepfx/PEP_PPM_QUERY_COORDINATED_DEPENDENCY, pepfx/PPEP_PPM_QUERY_COORDINATED_DEPENDENCY"
 f1_keywords:
  - "pepfx/PEP_PPM_QUERY_COORDINATED_DEPENDENCY"

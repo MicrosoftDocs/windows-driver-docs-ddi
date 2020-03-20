@@ -4,6 +4,7 @@ title: GET_UPDATED_BUS_RESOURCE (wdm.h)
 description: Reports the latest resource lists.
 ms.assetid: d2624b1d-c2db-4240-ae78-1bda7efb8c7f
 ms.date: 10/19/2018
+keywords: ["GET_UPDATED_BUS_RESOURCE callback function"]
 f1_keywords:
  - "wdm/GET_UPDATED_BUS_RESOURCE"
 req.header: wdm.h

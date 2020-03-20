@@ -6,6 +6,7 @@ old-location: print\spldeletespoolerportstart.htm
 tech.root: print
 ms.assetid: E66C34E2-2540-4BBC-82E4-6B5267D0EA7F
 ms.date: 04/20/2018
+keywords: ["SplDeleteSpoolerPortStart function"]
 ms.keywords: SplDeleteSpoolerPortStart, SplDeleteSpoolerPortStart function [Print Devices], print.spldeletespoolerportstart, winsplp/SplDeleteSpoolerPortStart
 f1_keywords:
  - "winsplp/SplDeleteSpoolerPortStart"

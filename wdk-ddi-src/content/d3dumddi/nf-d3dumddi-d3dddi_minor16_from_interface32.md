@@ -4,6 +4,7 @@ title: D3DDDI_MINOR16_FROM_INTERFACE32 macro (d3dumddi.h)
 description: Converts a 16 bit minor from a 32 bit interface.
 ms.assetid: a099608b-ab54-40a8-ab69-956144f68d4c
 ms.date: 10/19/2018
+keywords: ["D3DDDI_MINOR16_FROM_INTERFACE32 macro"]
 f1_keywords:
  - "d3dumddi/D3DDDI_MINOR16_FROM_INTERFACE32"
 ms.keywords: D3DDDI_MINOR16_FROM_INTERFACE32

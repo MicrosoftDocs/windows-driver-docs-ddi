@@ -6,6 +6,7 @@ old-location: netvista\rilpositioninfo_v2.htm
 tech.root: netvista
 ms.assetid: 881e85a2-4ba2-4940-94c0-61a2d335e52a
 ms.date: 02/16/2018
+keywords: ["RILPOSITIONINFO_V2 structure"]
 ms.keywords: "*LPRILPOSITIONINFO, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO, RILPOSITIONINFO_V2, RILPOSITIONINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfo_v2, rilapitypes/RILPOSITIONINFO_V2"
 f1_keywords:
  - "ntddrilapitypes/RILPOSITIONINFO_V2"

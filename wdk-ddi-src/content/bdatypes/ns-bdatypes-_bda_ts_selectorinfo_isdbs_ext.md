@@ -6,6 +6,7 @@ old-location: stream\bda_ts_selectorinfo_isdbs_ext.htm
 tech.root: stream
 ms.assetid: F56D4984-B159-4068-8081-3E2457E50998
 ms.date: 04/23/2018
+keywords: ["_BDA_TS_SELECTORINFO_ISDBS_EXT structure"]
 ms.keywords: "*PBDA_TS_SELECTORINFO_ISDBS_EXT, BDA_TS_SELECTORINFO_ISDBS_EXT, BDA_TS_SELECTORINFO_ISDBS_EXT structure [Streaming Media Devices], PBDA_TS_SELECTORINFO_ISDBS_EXT, PBDA_TS_SELECTORINFO_ISDBS_EXT structure pointer [Streaming Media Devices], _BDA_TS_SELECTORINFO_ISDBS_EXT, bdatypes/BDA_TS_SELECTORINFO_ISDBS_EXT, bdatypes/PBDA_TS_SELECTORINFO_ISDBS_EXT, stream.bda_ts_selectorinfo_isdbs_ext"
 f1_keywords:
  - "bdatypes/BDA_TS_SELECTORINFO_ISDBS_EXT"

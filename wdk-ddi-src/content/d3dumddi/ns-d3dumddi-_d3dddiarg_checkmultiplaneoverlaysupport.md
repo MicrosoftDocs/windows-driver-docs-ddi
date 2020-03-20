@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_checkmultiplaneoverlaysupport.htm
 tech.root: display
 ms.assetid: e5b6c24a-a3a5-4736-b9ee-ebb992070a83
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT structure"]
 ms.keywords: D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT, D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT structure [Display Devices], _D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT, d3dumddi/D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT, display.d3dddiarg_checkmultiplaneoverlaysupport
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT"

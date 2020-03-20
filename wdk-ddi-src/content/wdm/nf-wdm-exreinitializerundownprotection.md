@@ -6,6 +6,7 @@ old-location: kernel\exreinitializerundownprotection.htm
 tech.root: kernel
 ms.assetid: 41B7CE15-8702-49C8-9FD0-450DF6E4798C
 ms.date: 04/30/2018
+keywords: ["ExReInitializeRundownProtection function"]
 ms.keywords: ExReInitializeRundownProtection, ExReInitializeRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exreinitializerundownprotection, wdm/ExReInitializeRundownProtection
 f1_keywords:
  - "wdm/ExReInitializeRundownProtection"

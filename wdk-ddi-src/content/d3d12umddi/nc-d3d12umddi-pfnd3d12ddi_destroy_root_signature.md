@@ -4,6 +4,7 @@ title: PFND3D12DDI_DESTROY_ROOT_SIGNATURE (d3d12umddi.h)
 description: Destroys a root signature.
 ms.assetid: 3d30b10e-1cfe-4fbf-ba6b-b1bd3173e9f1
 ms.date: 10/19/2018
+keywords: ["PFND3D12DDI_DESTROY_ROOT_SIGNATURE callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

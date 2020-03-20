@@ -6,6 +6,7 @@ old-location: buses\evt_ucx_controller_start_tracking_for_time_sync.htm
 tech.root: usbref
 ms.assetid: 8465B255-E36E-481D-B063-597B9C861DCD
 ms.date: 05/07/2018
+keywords: ["EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC callback function"]
 ms.keywords: EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC callback, EvUcxControllerStartTrackingForTimeSync, EvUcxControllerStartTrackingForTimeSync callback function [Buses], buses.evt_ucx_controller_start_tracking_for_time_sync, ucxcontroller/EvUcxControllerStartTrackingForTimeSync
 f1_keywords:
  - "ucxcontroller/EvUcxControllerStartTrackingForTimeSync"

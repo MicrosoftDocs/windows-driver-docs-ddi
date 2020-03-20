@@ -6,6 +6,7 @@ old-location: kernel\auxklibenumeratesystemfirmwaretables.htm
 tech.root: kernel
 ms.assetid: EEAB636B-5565-4C2A-9EC7-4DC63EBB286F
 ms.date: 04/30/2018
+keywords: ["AuxKlibEnumerateSystemFirmwareTables function"]
 ms.keywords: AuxKlibEnumerateSystemFirmwareTables, AuxKlibEnumerateSystemFirmwareTables routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibEnumerateSystemFirmwareTables, kernel.auxklibenumeratesystemfirmwaretables
 f1_keywords:
  - "aux_klib/AuxKlibEnumerateSystemFirmwareTables"

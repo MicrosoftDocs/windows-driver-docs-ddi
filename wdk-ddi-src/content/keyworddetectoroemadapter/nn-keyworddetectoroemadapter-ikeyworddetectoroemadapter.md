@@ -6,6 +6,7 @@ old-location: audio\ikeyworddetectoroemadapter.htm
 tech.root: audio
 ms.assetid: FB243792-C0B0-4BCA-B4C4-B6E17FDB615C
 ms.date: 05/08/2018
+keywords: ["IKeywordDetectorOemAdapter interface"]
 ms.keywords: IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter interface [Audio Devices], IKeywordDetectorOemAdapter interface [Audio Devices],described, audio.ikeyworddetectoroemadapter, keyworddetectoroemadapter/IKeywordDetectorOemAdapter
 f1_keywords:
  - "keyworddetectoroemadapter/IKeywordDetectorOemAdapter"

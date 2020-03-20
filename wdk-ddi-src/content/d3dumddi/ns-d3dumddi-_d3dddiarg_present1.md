@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_present1.htm
 tech.root: display
 ms.assetid: 17EBEEF1-4C86-4948-AADA-669B2952755A
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_PRESENT1 structure"]
 ms.keywords: D3DDDIARG_PRESENT1, D3DDDIARG_PRESENT1 structure [Display Devices], _D3DDDIARG_PRESENT1, d3dumddi/D3DDDIARG_PRESENT1, display.d3dddiarg_present1
 f1_keywords:
  - "d3dumddi/D3DDDIARG_PRESENT1"

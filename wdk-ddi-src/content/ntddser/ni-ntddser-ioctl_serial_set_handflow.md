@@ -6,6 +6,7 @@ old-location: serports\ioctl_serial_set_handflow.htm
 tech.root: serports
 ms.assetid: f281eab9-f724-4bdb-9dc4-2577ef2840f0
 ms.date: 04/23/2018
+keywords: ["IOCTL_SERIAL_SET_HANDFLOW IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_HANDFLOW, IOCTL_SERIAL_SET_HANDFLOW control, IOCTL_SERIAL_SET_HANDFLOW control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_HANDFLOW, serports.ioctl_serial_set_handflow, serref_732613c0-4ff9-46a8-929d-e5d02be9a57c.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_HANDFLOW"

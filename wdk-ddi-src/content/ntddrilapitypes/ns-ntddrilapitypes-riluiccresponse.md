@@ -6,6 +6,7 @@ old-location: netvista\riluiccresponse.htm
 tech.root: netvista
 ms.assetid: c584e508-b0f1-4809-808e-089e9a7fbcf9
 ms.date: 05/02/2018
+keywords: ["RILUICCRESPONSE structure"]
 ms.keywords: "*LPRILUICCRESPONSE, RILUICCRESPONSE, RILUICCRESPONSE structure [Network Drivers Starting with Windows Vista], netvista.riluiccresponse, ntddrilapitypes/RILUICCRESPONSE"
 f1_keywords:
  - "ntddrilapitypes/RILUICCRESPONSE"

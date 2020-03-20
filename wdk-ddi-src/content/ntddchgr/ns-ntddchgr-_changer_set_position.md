@@ -6,6 +6,7 @@ old-location: storage\changer_set_position.htm
 tech.root: storage
 ms.assetid: 1c71473a-98db-41a1-9ca5-ce59f345b5f7
 ms.date: 03/29/2018
+keywords: ["_CHANGER_SET_POSITION structure"]
 ms.keywords: "*PCHANGER_SET_POSITION, CHANGER_SET_POSITION, CHANGER_SET_POSITION structure [Storage Devices], PCHANGER_SET_POSITION, PCHANGER_SET_POSITION structure pointer [Storage Devices], _CHANGER_SET_POSITION, ntddchgr/CHANGER_SET_POSITION, ntddchgr/PCHANGER_SET_POSITION, storage.changer_set_position, structs-changer_ab07ca33-813d-4b35-b5ce-809c63633ce5.xml"
 f1_keywords:
  - "ntddchgr/CHANGER_SET_POSITION"

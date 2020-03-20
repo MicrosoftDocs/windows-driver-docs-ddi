@@ -6,6 +6,7 @@ old-location: buses\_ioctl_internal_usbfn_control_status_handshake_in.htm
 tech.root: usbref
 ms.assetid: 5839C1A8-6638-4A42-B7C1-168071C99800
 ms.date: 05/07/2018
+keywords: ["IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN, IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN control, IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN control code [Buses], buses._ioctl_internal_usbfn_control_status_handshake_in, usbfnioctl/IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_CONTROL_STATUS_HANDSHAKE_IN"

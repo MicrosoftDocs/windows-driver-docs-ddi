@@ -6,6 +6,7 @@ old-location: debugger\getnumbermodules.htm
 tech.root: debugger
 ms.assetid: e74a4e51-0e3b-4d16-b39c-379dfb3905ad
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols2::GetNumberModules"]
 ms.keywords: GetNumberModules, GetNumberModules method [Windows Debugging], GetNumberModules method [Windows Debugging],IDebugSymbols interface, GetNumberModules method [Windows Debugging],IDebugSymbols2 interface, GetNumberModules method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNumberModules method, IDebugSymbols2 interface [Windows Debugging],GetNumberModules method, IDebugSymbols2.GetNumberModules, IDebugSymbols2::GetNumberModules, IDebugSymbols3 interface [Windows Debugging],GetNumberModules method, IDebugSymbols3::GetNumberModules, IDebugSymbols::GetNumberModules, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, dbgeng/IDebugSymbols2::GetNumberModules, dbgeng/IDebugSymbols3::GetNumberModules, dbgeng/IDebugSymbols::GetNumberModules, debugger.getnumbermodules
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetNumberModules"

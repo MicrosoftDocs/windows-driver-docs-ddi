@@ -6,6 +6,7 @@ old-location: print\branchofficejobdataprinted.htm
 tech.root: print
 ms.assetid: 77737A33-9592-43A3-B12A-5BFDCA0209BE
 ms.date: 04/20/2018
+keywords: ["BranchOfficeJobDataPrinted structure"]
 ms.keywords: "*PBranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted structure [Print Devices], PBranchOfficeJobDataPrinted, PBranchOfficeJobDataPrinted structure pointer [Print Devices], print.branchofficejobdataprinted, winsplp/BranchOfficeJobDataPrinted, winsplp/PBranchOfficeJobDataPrinted"
 f1_keywords:
  - "winsplp/BranchOfficeJobDataPrinted"

@@ -6,6 +6,7 @@ old-location: buses\evt_ucx_usbdevice_update.htm
 tech.root: usbref
 ms.assetid: 5dbf3560-9968-4996-8bce-fb43e3918d72
 ms.date: 05/07/2018
+keywords: ["EVT_UCX_USBDEVICE_UPDATE callback function"]
 ms.keywords: EVT_UCX_USBDEVICE_UPDATE, EVT_UCX_USBDEVICE_UPDATE callback, EvtUcxUsbDeviceUpdate, EvtUcxUsbDeviceUpdate callback function [Buses], PEVT_UCX_USBDEVICE_UPDATE, PEVT_UCX_USBDEVICE_UPDATE callback function pointer [Buses], buses.evt_ucx_usbdevice_update, ucxusbdevice/EvtUcxUsbDeviceUpdate
 f1_keywords:
  - "ucxusbdevice/PEVT_UCX_USBDEVICE_UPDATE"

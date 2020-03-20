@@ -6,6 +6,7 @@ old-location: kernel\kewaitforsingleobject.htm
 tech.root: kernel
 ms.assetid: 65a1aa46-571b-46f7-b60e-ef8c6dc14d39
 ms.date: 04/30/2018
+keywords: ["KeWaitForSingleObject function"]
 ms.keywords: KeWaitForMutexObject, KeWaitForSingleObject, KeWaitForSingleObject routine [Kernel-Mode Driver Architecture], k105_de338bec-f7ef-4780-85e6-592a24314145.xml, kernel.kewaitforsingleobject, wdm/KeWaitForSingleObject
 f1_keywords:
  - "wdm/KeWaitForSingleObject"

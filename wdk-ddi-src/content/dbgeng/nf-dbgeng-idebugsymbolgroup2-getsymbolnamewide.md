@@ -6,6 +6,7 @@ old-location: debugger\getsymbolnamewide.htm
 tech.root: debugger
 ms.assetid: b5de2450-8003-4866-86e8-1fd251e1552c
 ms.date: 05/03/2018
+keywords: ["IDebugSymbolGroup2::GetSymbolNameWide"]
 ms.keywords: GetSymbolNameWide, GetSymbolNameWide method [Windows Debugging], GetSymbolNameWide method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolNameWide method, IDebugSymbolGroup2.GetSymbolNameWide, IDebugSymbolGroup2::GetSymbolNameWide, dbgeng/IDebugSymbolGroup2::GetSymbolNameWide, debugger.getsymbolnamewide
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.GetSymbolNameWide"

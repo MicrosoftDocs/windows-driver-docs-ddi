@@ -6,6 +6,7 @@ old-location: netvista\riluiccappdatachangeenum.htm
 tech.root: netvista
 ms.assetid: 6960080f-03dc-4c5f-8cd8-b96d030f2bd3
 ms.date: 05/02/2018
+keywords: ["RILUICCAPPDATACHANGEENUM enumeration"]
 ms.keywords: RILUICCAPPDATACHANGEENUM, RILUICCAPPDATACHANGEENUM enumeration [Network Drivers Starting with Windows Vista], RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, RIL_UICCAPP_DATACHANGE_ESNME, RIL_UICCAPP_DATACHANGE_MAX, RIL_UICCAPP_DATACHANGE_MBDN, netvista.riluiccappdatachangeenum, ntddrilapitypes/RILUICCAPPDATACHANGEENUM, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_SET, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_EF_CSP_PLMN_UNSET, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_ESNME, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_MAX, ntddrilapitypes/RIL_UICCAPP_DATACHANGE_MBDN
 f1_keywords:
  - "rilapitypes/RILUICCAPPDATACHANGEENUM"

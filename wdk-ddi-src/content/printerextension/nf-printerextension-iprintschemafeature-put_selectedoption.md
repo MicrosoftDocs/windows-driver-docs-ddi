@@ -6,6 +6,7 @@ old-location: print\iprintschemafeature_put_selectedoption.htm
 tech.root: print
 ms.assetid: DEFA0559-9946-4F4D-B5DC-A0E5E872114A
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaFeature::put_SelectedOption"]
 ms.keywords: IPrintSchemaFeature interface [Print Devices],SelectedOption property, IPrintSchemaFeature.SelectedOption, IPrintSchemaFeature.put_SelectedOption, IPrintSchemaFeature::SelectedOption, IPrintSchemaFeature::put_SelectedOption, SelectedOption property [Print Devices], SelectedOption property [Print Devices],IPrintSchemaFeature interface, get_SelectedOption, print.iprintschemafeature_put_selectedoption, printerextension/IPrintSchemaFeature::SelectedOption, printerextension/IPrintSchemaFeature::put_SelectedOption, put_SelectedOption
 f1_keywords:
  - "printerextension/IPrintSchemaFeature.SelectedOption"

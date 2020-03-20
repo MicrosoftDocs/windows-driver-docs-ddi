@@ -4,6 +4,7 @@ title: _DEBUG_TRANSPORT_DATA (ntddk.h)
 description: Describes debug-transport specific data for use by the transport.
 ms.assetid: 6a091719-3ec5-41e4-be56-b93112daef19
 ms.date: 09/30/2018
+keywords: ["_DEBUG_TRANSPORT_DATA structure"]
 f1_keywords:
  - "ntddk/_DEBUG_TRANSPORT_DATA"
 ms.keywords: _DEBUG_TRANSPORT_DATA, DEBUG_TRANSPORT_DATA, *PDEBUG_TRANSPORT_DATA, 

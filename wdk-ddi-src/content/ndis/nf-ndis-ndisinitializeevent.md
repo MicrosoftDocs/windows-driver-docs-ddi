@@ -6,6 +6,7 @@ old-location: netvista\ndisinitializeevent.htm
 tech.root: netvista
 ms.assetid: 7f7eac7e-f512-4446-a83b-92d313c14420
 ms.date: 05/02/2018
+keywords: ["NdisInitializeEvent function"]
 ms.keywords: NdisInitializeEvent, NdisInitializeEvent function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeEvent, ndis_event_ref_35523d4a-3084-43ea-9dc0-6e9017b9ed22.xml, netvista.ndisinitializeevent
 f1_keywords:
  - "ndis/NdisInitializeEvent"

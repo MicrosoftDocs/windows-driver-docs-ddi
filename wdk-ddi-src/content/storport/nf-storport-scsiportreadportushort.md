@@ -6,6 +6,7 @@ old-location: storage\scsiportreadportushort.htm
 tech.root: storage
 ms.assetid: eb21d8ef-4ad5-48b3-8619-3ed5040652b0
 ms.date: 03/29/2018
+keywords: ["ScsiPortReadPortUshort macro"]
 ms.keywords: ScsiPortReadPortUshort, ScsiPortReadPortUshort routine [Storage Devices], scsiprt_3b90fdff-db04-43ca-9c62-8552eed87feb.xml, srb/ScsiPortReadPortUshort, storage.scsiportreadportushort
 f1_keywords:
  - "storport/ScsiPortReadPortUshort"

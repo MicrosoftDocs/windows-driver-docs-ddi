@@ -5,6 +5,7 @@ description: Retrieves a value entry for a registry key by using, a primary hand
 tech.root: kernel
 ms.assetid: 5da678a5-2619-423d-9749-522a235b3da4
 ms.date: 09/30/2018
+keywords: ["RtlQueryRegistryValueWithFallback function"]
 f1_keywords:
  - "ntddk/RtlQueryRegistryValueWithFallback"
 ms.keywords: RtlQueryRegistryValueWithFallback

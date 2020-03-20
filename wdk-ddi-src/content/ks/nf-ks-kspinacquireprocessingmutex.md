@@ -6,6 +6,7 @@ old-location: stream\kspinacquireprocessingmutex.htm
 tech.root: stream
 ms.assetid: ce1fb470-6fee-4de0-a5db-15875a14e581
 ms.date: 04/23/2018
+keywords: ["KsPinAcquireProcessingMutex function"]
 ms.keywords: KsPinAcquireProcessingMutex, KsPinAcquireProcessingMutex function [Streaming Media Devices], avfunc_d06d3037-45b0-4931-86e4-ef7c586bcdf1.xml, ks/KsPinAcquireProcessingMutex, stream.kspinacquireprocessingmutex
 f1_keywords:
  - "ks/KsPinAcquireProcessingMutex"

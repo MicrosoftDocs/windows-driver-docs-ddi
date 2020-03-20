@@ -6,6 +6,7 @@ old-location: buses\ioctl_internal_usbfn_bus_event_notification.htm
 tech.root: usbref
 ms.assetid: 737EDB43-FAFF-4EFD-A7A1-206D646F23E1
 ms.date: 05/07/2018
+keywords: ["IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION, IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control, IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control code [Buses], buses.ioctl_internal_usbfn_bus_event_notification, usbfnioctl/IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION"

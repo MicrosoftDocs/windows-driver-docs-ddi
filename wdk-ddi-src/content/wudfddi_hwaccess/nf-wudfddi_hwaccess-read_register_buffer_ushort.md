@@ -6,6 +6,7 @@ old-location: wdf\read_register_buffer_ushort.htm
 tech.root: wdf
 ms.assetid: 0CA07C11-7E46-4225-AC61-5183C322604E
 ms.date: 02/26/2018
+keywords: ["READ_REGISTER_BUFFER_USHORT function"]
 ms.keywords: READ_REGISTER_BUFFER_USHORT, READ_REGISTER_BUFFER_USHORT function, umdf.read_register_buffer_ushort, wdf.read_register_buffer_ushort, wudfddi_hwaccess/READ_REGISTER_BUFFER_USHORT
 f1_keywords:
  - "wudfddi_hwaccess/READ_REGISTER_BUFFER_USHORT"

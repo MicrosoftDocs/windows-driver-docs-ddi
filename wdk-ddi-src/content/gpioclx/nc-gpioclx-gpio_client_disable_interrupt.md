@@ -6,6 +6,7 @@ old-location: gpio\client_disableinterrupt.htm
 tech.root: GPIO
 ms.assetid: D9EBBE6D-BB2C-4D38-963D-1BA5E67A5420
 ms.date: 02/15/2018
+keywords: ["GPIO_CLIENT_DISABLE_INTERRUPT callback function"]
 ms.keywords: CLIENT_DisableInterrupt, CLIENT_DisableInterrupt callback, CLIENT_DisableInterrupt callback function [Parallel Ports], GPIO.client_disableinterrupt, GPIO_CLIENT_DISABLE_INTERRUPT, gpioclx/CLIENT_DisableInterrupt
 f1_keywords:
  - "gpioclx/CLIENT_DisableInterrupt"

@@ -6,6 +6,7 @@ old-location: print\ioctl_ioctl_dot4_wait_for_channel.htm
 tech.root: print
 ms.assetid: 4FFC0BE7-A095-4229-A713-566815B53EAF
 ms.date: 04/20/2018
+keywords: ["IOCTL_DOT4_WAIT_FOR_CHANNEL IOCTL"]
 ms.keywords: IOCTL_DOT4_WAIT_FOR_CHANNEL, IOCTL_DOT4_WAIT_FOR_CHANNEL control, IOCTL_DOT4_WAIT_FOR_CHANNEL control code [Print Devices], d4drvif/IOCTL_DOT4_WAIT_FOR_CHANNEL, print.ioctl_ioctl_dot4_wait_for_channel
 f1_keywords:
  - "d4drvif/IOCTL_DOT4_WAIT_FOR_CHANNEL"

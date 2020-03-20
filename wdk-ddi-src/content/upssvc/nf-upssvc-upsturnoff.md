@@ -6,6 +6,7 @@ old-location: battery\upsturnoff.htm
 tech.root: battery
 ms.assetid: 17ae946a-e57e-48bd-9213-cf47db2cba64
 ms.date: 02/15/2018
+keywords: ["UPSTurnOff function"]
 ms.keywords: UPSTurnOff, UPSTurnOff function [Battery Devices], UPS_fns_ab585909-7eee-470f-b33f-6045f839ceed.xml, battery.upsturnoff, upssvc/UPSTurnOff
 f1_keywords:
  - "upssvc/UPSTurnOff"

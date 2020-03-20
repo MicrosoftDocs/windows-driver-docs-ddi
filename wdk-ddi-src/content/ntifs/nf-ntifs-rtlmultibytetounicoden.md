@@ -6,6 +6,7 @@ old-location: ifsk\rtlmultibytetounicoden.htm
 tech.root: ifsk
 ms.assetid: c0cc4fba-01ba-4745-8dee-fc4c43f570cf
 ms.date: 04/16/2018
+keywords: ["RtlMultiByteToUnicodeN function"]
 ms.keywords: RtlMultiByteToUnicodeN, RtlMultiByteToUnicodeN routine [Installable File System Drivers], ifsk.rtlmultibytetounicoden, ntifs/RtlMultiByteToUnicodeN, rtlref_c9245403-e17c-479b-ac16-07deb29a56d1.xml
 f1_keywords:
  - "ntifs/RtlMultiByteToUnicodeN"

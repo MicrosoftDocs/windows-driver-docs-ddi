@@ -6,6 +6,7 @@ old-location: ifsk\fltreferencecontext.htm
 tech.root: ifsk
 ms.assetid: 3e49f80e-3c30-4796-b2f3-7df37746d97b
 ms.date: 04/16/2018
+keywords: ["FltReferenceContext function"]
 ms.keywords: FltApiRef_p_to_z_bb2ded16-77d3-4fb3-a6c6-870b0112df7a.xml, FltReferenceContext, FltReferenceContext function [Installable File System Drivers], fltkernel/FltReferenceContext, ifsk.fltreferencecontext
 f1_keywords:
  - "fltkernel/FltReferenceContext"

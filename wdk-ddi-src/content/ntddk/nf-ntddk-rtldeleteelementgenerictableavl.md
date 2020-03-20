@@ -6,6 +6,7 @@ old-location: ifsk\rtldeleteelementgenerictableavl.htm
 tech.root: ifsk
 ms.assetid: 700412A3-5905-4401-BA65-C2DE1613398D
 ms.date: 04/16/2018
+keywords: ["RtlDeleteElementGenericTableAvl function"]
 ms.keywords: RtlDeleteElementGenericTableAvl, RtlDeleteElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtldeleteelementgenerictableavl, ntddk/RtlDeleteElementGenericTableAvl
 f1_keywords:
  - "ntddk/RtlDeleteElementGenericTableAvl"

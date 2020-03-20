@@ -6,6 +6,7 @@ old-location: storage\setfc3mgmtinfo_out.htm
 tech.root: storage
 ms.assetid: 00e6eb1a-3302-46ac-b859-9c22ad6cee22
 ms.date: 03/29/2018
+keywords: ["_SetFC3MgmtInfo_OUT structure"]
 ms.keywords: "*PSetFC3MgmtInfo_OUT, PSetFC3MgmtInfo_OUT, PSetFC3MgmtInfo_OUT structure pointer [Storage Devices], SetFC3MgmtInfo_OUT, SetFC3MgmtInfo_OUT structure [Storage Devices], _SetFC3MgmtInfo_OUT, hbapiwmi/PSetFC3MgmtInfo_OUT, hbapiwmi/SetFC3MgmtInfo_OUT, storage.setfc3mgmtinfo_out, structs-Fibre_86907ae9-a0a0-4836-a822-d07cd2adfdb0.xml"
 f1_keywords:
  - "hbapiwmi/SetFC3MgmtInfo_OUT"

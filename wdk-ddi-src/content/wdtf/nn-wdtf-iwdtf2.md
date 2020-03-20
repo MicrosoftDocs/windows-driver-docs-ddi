@@ -6,6 +6,7 @@ old-location: dtf\iwdtf2.htm
 tech.root: dtf
 ms.assetid: c6ac7f2b-e68e-47ed-89b7-d7704110c606
 ms.date: 04/04/2018
+keywords: ["IWDTF2 interface"]
 ms.keywords: IWDTF2, IWDTF2 interface [Windows Device Testing Framework], IWDTF2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTF2, dtf.iwdtf2, wdtf/IWDTF2
 f1_keywords:
  - "wdtf/IWDTF2"

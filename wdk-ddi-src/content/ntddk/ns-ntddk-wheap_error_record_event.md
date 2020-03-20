@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: d2786911-c3c1-4660-8876-ec68ecc94e4f
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
+keywords: ["WHEAP_ERROR_RECORD_EVENT structure"]
 f1_keywords:
  - "ntddk/WHEAP_ERROR_RECORD_EVENT"
 ms.keywords: WHEAP_ERROR_RECORD_EVENT, WHEAP_ERROR_RECORD_EVENT, *PWHEAP_ERROR_RECORD_EVENT, 

@@ -6,6 +6,7 @@ old-location: wdf\wdfrequestretrieveunsafeuseroutputbuffer.htm
 tech.root: wdf
 ms.assetid: 7969f683-3426-4863-8afe-d9cbe490a4b5
 ms.date: 02/26/2018
+keywords: ["WdfRequestRetrieveUnsafeUserOutputBuffer function"]
 ms.keywords: DFRequestObjectRef_3f483887-e2fa-413d-b147-9f18fc092800.xml, WdfRequestRetrieveUnsafeUserOutputBuffer, WdfRequestRetrieveUnsafeUserOutputBuffer method, kmdf.wdfrequestretrieveunsafeuseroutputbuffer, wdf.wdfrequestretrieveunsafeuseroutputbuffer, wdfrequest/WdfRequestRetrieveUnsafeUserOutputBuffer
 f1_keywords:
  - "wdfrequest/WdfRequestRetrieveUnsafeUserOutputBuffer"

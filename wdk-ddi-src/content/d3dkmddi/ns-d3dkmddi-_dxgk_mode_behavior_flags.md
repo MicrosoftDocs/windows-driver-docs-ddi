@@ -4,6 +4,7 @@ title: _DXGK_MODE_BEHAVIOR_FLAGS (d3dkmddi.h)
 description: The high-level mode and setting behaviors which the OS may request.
 ms.assetid: 309de6f3-d699-475b-a667-9d16cdf779d9
 ms.date: 10/14/2019
+keywords: ["_DXGK_MODE_BEHAVIOR_FLAGS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_MODE_BEHAVIOR_FLAGS"
 ms.keywords: _DXGK_MODE_BEHAVIOR_FLAGS, DXGK_MODE_BEHAVIOR_FLAGS,

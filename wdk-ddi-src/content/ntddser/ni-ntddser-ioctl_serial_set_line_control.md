@@ -6,6 +6,7 @@ old-location: serports\ioctl_serial_set_line_control.htm
 tech.root: serports
 ms.assetid: 0883b10c-1900-42b1-afc9-1e61effed111
 ms.date: 04/23/2018
+keywords: ["IOCTL_SERIAL_SET_LINE_CONTROL IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_LINE_CONTROL, IOCTL_SERIAL_SET_LINE_CONTROL control, IOCTL_SERIAL_SET_LINE_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_LINE_CONTROL, serports.ioctl_serial_set_line_control, serref_70796be3-dbb8-4918-899d-d3750813aad3.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_LINE_CONTROL"

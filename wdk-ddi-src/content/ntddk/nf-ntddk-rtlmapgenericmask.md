@@ -6,6 +6,7 @@ old-location: kernel\rtlmapgenericmask.htm
 tech.root: kernel
 ms.assetid: dd3a5f87-21a9-4186-bb74-a49e6751622e
 ms.date: 04/30/2018
+keywords: ["RtlMapGenericMask function"]
 ms.keywords: RtlMapGenericMask, RtlMapGenericMask routine [Kernel-Mode Driver Architecture], k109_f0e498a8-0b75-4fb8-a9c6-3f1ce3eb71f3.xml, kernel.rtlmapgenericmask, ntddk/RtlMapGenericMask
 f1_keywords:
  - "ntddk/RtlMapGenericMask"

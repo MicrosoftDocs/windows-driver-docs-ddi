@@ -6,6 +6,7 @@ old-location: hid\ioctl_hid_activate_device.htm
 tech.root: hid
 ms.assetid: 5d2f218c-a9a5-4149-8fde-898171dfc9a7
 ms.date: 04/30/2018
+keywords: ["IOCTL_HID_ACTIVATE_DEVICE IOCTL"]
 ms.keywords: IOCTL_HID_ACTIVATE_DEVICE, IOCTL_HID_ACTIVATE_DEVICE control, IOCTL_HID_ACTIVATE_DEVICE control code [Human Input Devices], hid.ioctl_hid_activate_device, hidioreq_031bb843-02fe-4859-acf2-4bcbfaaea657.xml, hidport/IOCTL_HID_ACTIVATE_DEVICE
 f1_keywords:
  - "hidport/IOCTL_HID_ACTIVATE_DEVICE"

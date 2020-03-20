@@ -6,6 +6,7 @@ old-location: print\printermessageboxw.htm
 tech.root: print
 ms.assetid: F5E7FB7C-A38F-4DBA-9C98-9554FA80CC07
 ms.date: 04/20/2018
+keywords: ["PrinterMessageBoxW function"]
 ms.keywords: PrinterMessageBoxW, PrinterMessageBoxW function [Print Devices], print.printermessageboxw, winspool/PrinterMessageBoxW
 f1_keywords:
  - "winspool/PrinterMessageBoxW"

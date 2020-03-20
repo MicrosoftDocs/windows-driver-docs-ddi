@@ -6,6 +6,7 @@ old-location: netvista\ril_setpreferredoperatorlist.htm
 tech.root: netvista
 ms.assetid: e61e9e3f-b70f-4b0a-8e64-4c7c4c086130
 ms.date: 05/02/2018
+keywords: ["RIL_SetPreferredOperatorList function"]
 ms.keywords: RIL_SetPreferredOperatorList, RIL_SetPreferredOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_setpreferredoperatorlist, rilapi/RIL_SetPreferredOperatorList
 f1_keywords:
  - "rilapi/RIL_SetPreferredOperatorList"

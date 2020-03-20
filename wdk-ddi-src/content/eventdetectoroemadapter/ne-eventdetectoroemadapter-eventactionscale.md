@@ -7,6 +7,7 @@ tech.root: audio
 ms.assetid: 27155e81-f33f-4342-9847-c5f4326c72fe
 ms.author: windowsdriverdev
 ms.date: 03/22/2019
+keywords: ["EVENTACTIONSCALE enumeration"]
 f1_keywords:
  - "eventdetectoroemadapter/EVENTACTIONSCALE"
 ms.keywords: EVENTACTIONSCALE, EVENTACTIONSCALE, 

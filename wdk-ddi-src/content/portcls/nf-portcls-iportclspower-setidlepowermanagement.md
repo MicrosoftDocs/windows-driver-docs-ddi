@@ -6,6 +6,7 @@ old-location: audio\iportclspower_setidlepowermanagement.htm
 tech.root: audio
 ms.assetid: ccef350c-7c46-43fa-8834-b0d712d9cf38
 ms.date: 05/08/2018
+keywords: ["IPortClsPower::SetIdlePowerManagement"]
 ms.keywords: IPortClsPower interface [Audio Devices],SetIdlePowerManagement method, IPortClsPower.SetIdlePowerManagement, IPortClsPower::SetIdlePowerManagement, SetIdlePowerManagement, SetIdlePowerManagement method [Audio Devices], SetIdlePowerManagement method [Audio Devices],IPortClsPower interface, audio.iportclspower_setidlepowermanagement, audmp-routines_909c6232-f96f-4487-a51e-a127dc9ad317.xml, portcls/IPortClsPower::SetIdlePowerManagement
 f1_keywords:
  - "portcls/IPortClsPower.SetIdlePowerManagement"

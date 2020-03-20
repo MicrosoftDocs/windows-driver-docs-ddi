@@ -6,6 +6,7 @@ old-location: wdf\evtdeviceselfmanagediosuspend.htm
 tech.root: wdf
 ms.assetid: 85a569ea-eb14-4453-9591-fc44afbd3a59
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_10625e27-0ff8-47fa-aff0-ddca49c7f326.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND, EVT_WDF_DEVICE_SELF_MANAGED_IO_SUSPEND callback, EvtDeviceSelfManagedIoSuspend, EvtDeviceSelfManagedIoSuspend callback function, kmdf.evtdeviceselfmanagediosuspend, wdf.evtdeviceselfmanagediosuspend, wdfdevice/EvtDeviceSelfManagedIoSuspend
 f1_keywords:
  - "wdfdevice/EvtDeviceSelfManagedIoSuspend"

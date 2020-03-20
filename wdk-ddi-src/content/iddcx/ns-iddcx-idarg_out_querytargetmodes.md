@@ -6,6 +6,7 @@ old-location: display\idarg_out_querytargetmodes.htm
 tech.root: display
 ms.assetid: 427af891-1fb7-4042-89bc-a40191ec5a31
 ms.date: 05/10/2018
+keywords: ["IDARG_OUT_QUERYTARGETMODES structure"]
 ms.keywords: IDARG_OUT_QUERYTARGETMODES, IDARG_OUT_QUERYTARGETMODES structure [Display Devices], display.idarg_out_querytargetmodes, iddcx/IDARG_OUT_QUERYTARGETMODES
 f1_keywords:
  - "iddcx/IDARG_OUT_QUERYTARGETMODES"

@@ -6,6 +6,7 @@ old-location: debugger\idebugeventcallbackswide_changedebuggeestate.htm
 tech.root: debugger
 ms.assetid: ffb5925a-6bbd-41f5-b8b8-e8c7189d57ac
 ms.date: 05/03/2018
+keywords: ["IDebugEventCallbacksWide::ChangeDebuggeeState"]
 ms.keywords: ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], ChangeDebuggeeState method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ChangeDebuggeeState method, IDebugEventCallbacksWide.ChangeDebuggeeState, IDebugEventCallbacksWide::ChangeDebuggeeState, dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, debugger.idebugeventcallbackswide_changedebuggeestate
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.ChangeDebuggeeState"

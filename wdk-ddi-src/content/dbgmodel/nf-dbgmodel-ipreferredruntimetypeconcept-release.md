@@ -4,6 +4,7 @@ title: IPreferredRuntimeTypeConcept::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 0b78ff0e-e679-47e2-8e24-455437f54334
 ms.date: 09/20/2018
+keywords: ["IPreferredRuntimeTypeConcept::Release"]
 f1_keywords:
  - "dbgmodel/IPreferredRuntimeTypeConcept.Release"
 ms.keywords: IPreferredRuntimeTypeConcept::Release, Release, IPreferredRuntimeTypeConcept.Release, IPreferredRuntimeTypeConcept::Release, IPreferredRuntimeTypeConcept.Release

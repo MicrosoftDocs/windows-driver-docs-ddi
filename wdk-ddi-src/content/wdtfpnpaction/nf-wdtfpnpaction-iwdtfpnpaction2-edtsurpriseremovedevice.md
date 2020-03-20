@@ -6,6 +6,7 @@ old-location: dtf\iwdtfpnpaction2_edtsurpriseremovedevice.htm
 tech.root: dtf
 ms.assetid: 96bc080b-1ee2-4a32-be98-c58f6649e120
 ms.date: 04/04/2018
+keywords: ["IWDTFPNPAction2::EDTSurpriseRemoveDevice"]
 ms.keywords: EDTSurpriseRemoveDevice, EDTSurpriseRemoveDevice method [Windows Device Testing Framework], EDTSurpriseRemoveDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework],EDTSurpriseRemoveDevice method, IWDTFPNPAction2.EDTSurpriseRemoveDevice, IWDTFPNPAction2::EDTSurpriseRemoveDevice, Microsoft.WDTF.IWDTFPNPAction2.EDTSurpriseRemoveDevice, Microsoft::WDTF::IWDTFPNPAction2::EDTSurpriseRemoveDevice, dtf.iwdtfpnpaction2_edtsurpriseremovedevice, wdtfpnpaction/IWDTFPNPAction2::EDTSurpriseRemoveDevice
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPAction2.EDTSurpriseRemoveDevice"

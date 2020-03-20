@@ -6,6 +6,7 @@ old-location: stream\kscreateclock.htm
 tech.root: stream
 ms.assetid: a125161d-c086-45a4-9b66-4c13d9ed5f11
 ms.date: 04/23/2018
+keywords: ["KsCreateClock function"]
 ms.keywords: KsCreateClock, KsCreateClock function [Streaming Media Devices], ks/KsCreateClock, ksfunc_ba840ce8-a1c9-4ede-8d2e-6e2829ad9b11.xml, stream.kscreateclock
 f1_keywords:
  - "ks/KsCreateClock"

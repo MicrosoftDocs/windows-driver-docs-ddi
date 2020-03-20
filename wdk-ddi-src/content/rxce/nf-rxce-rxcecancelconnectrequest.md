@@ -6,6 +6,7 @@ old-location: ifsk\rxcecancelconnectrequest.htm
 tech.root: ifsk
 ms.assetid: 32893a68-68ac-4bac-ab0f-1d07a1e873f3
 ms.date: 04/16/2018
+keywords: ["RxCeCancelConnectRequest function"]
 ms.keywords: RxCeCancelConnectRequest, RxCeCancelConnectRequest routine [Installable File System Drivers], ifsk.rxcecancelconnectrequest, rxce/RxCeCancelConnectRequest, rxref_b7978600-a1ca-4713-b170-bc1f365f2f96.xml
 f1_keywords:
  - "rxce/RxCeCancelConnectRequest"

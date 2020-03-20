@@ -6,6 +6,7 @@ old-location: kernel\dpwmisetdataitem.htm
 tech.root: kernel
 ms.assetid: 409adf29-7f2b-465b-aa2d-28bbcc31a574
 ms.date: 04/30/2018
+keywords: ["WMI_SET_DATAITEM_CALLBACK callback function"]
 ms.keywords: DpWmiSetDataItem, DpWmiSetDataItem callback function [Kernel-Mode Driver Architecture], WMI_SET_DATAITEM_CALLBACK, WMI_SET_DATAITEM_CALLBACK callback, k903_d7afb1fc-f867-4c63-b0d6-8280a41d60f5.xml, kernel.dpwmisetdataitem, wmilib/DpWmiSetDataItem
 f1_keywords:
  - "wmilib/DpWmiSetDataItem"

@@ -6,6 +6,7 @@ old-location: storage\ioctl_scsi_pass_through_direct_ex.htm
 tech.root: storage
 ms.assetid: FB210147-9CF3-4D32-884E-256BEAFAE6C4
 ms.date: 03/29/2018
+keywords: ["IOCTL_SCSI_PASS_THROUGH_DIRECT_EX IOCTL"]
 ms.keywords: IOCTL_SCSI_PASS_THROUGH_DIRECT_EX, IOCTL_SCSI_PASS_THROUGH_DIRECT_EX control, IOCTL_SCSI_PASS_THROUGH_DIRECT_EX control code [Storage Devices], ntddscsi/IOCTL_SCSI_PASS_THROUGH_DIRECT_EX, storage.ioctl_scsi_pass_through_direct_ex
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_PASS_THROUGH_DIRECT_EX"

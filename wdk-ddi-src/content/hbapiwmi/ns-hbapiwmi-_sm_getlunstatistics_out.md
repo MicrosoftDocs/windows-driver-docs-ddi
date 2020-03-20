@@ -6,6 +6,7 @@ old-location: storage\sm_getlunstatistics_out.htm
 tech.root: storage
 ms.assetid: 5b7e4eb2-d6e9-49c9-b84f-72dd4198c0ce
 ms.date: 03/29/2018
+keywords: ["_SM_GetLUNStatistics_OUT structure"]
 ms.keywords: "*PSM_GetLUNStatistics_OUT, PSM_GetLUNStatistics_OUT, PSM_GetLUNStatistics_OUT structure pointer [Storage Devices], SM_GetLUNStatistics_OUT, SM_GetLUNStatistics_OUT structure [Storage Devices], _SM_GetLUNStatistics_OUT, hbapiwmi/PSM_GetLUNStatistics_OUT, hbapiwmi/SM_GetLUNStatistics_OUT, storage.sm_getlunstatistics_out, structs-Fibre_3f322627-9c44-4675-9166-32860aa954a3.xml"
 f1_keywords:
  - "hbapiwmi/SM_GetLUNStatistics_OUT"

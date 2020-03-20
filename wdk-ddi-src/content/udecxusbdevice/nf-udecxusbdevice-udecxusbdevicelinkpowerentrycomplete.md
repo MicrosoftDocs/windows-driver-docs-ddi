@@ -6,6 +6,7 @@ old-location: buses\udecxusbdevicelinkpowerentrycomplete.htm
 tech.root: usbref
 ms.assetid: 0B8FF9EB-63E5-4532-B13C-CF0FF04D9A53
 ms.date: 05/07/2018
+keywords: ["UdecxUsbDeviceLinkPowerEntryComplete function"]
 ms.keywords: UdecxUsbDeviceLinkPowerEntryComplete, UdecxUsbDeviceLinkPowerEntryComplete function [Buses], buses.udecxusbdevicelinkpowerentrycomplete, udecxusbdevice/UdecxUsbDeviceLinkPowerEntryComplete
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceLinkPowerEntryComplete"

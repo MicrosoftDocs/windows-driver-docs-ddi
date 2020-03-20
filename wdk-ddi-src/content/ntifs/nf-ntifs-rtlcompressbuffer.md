@@ -6,6 +6,7 @@ old-location: ifsk\rtlcompressbuffer.htm
 tech.root: ifsk
 ms.assetid: 49fb1062-9709-4691-9655-8cbf3c5055fb
 ms.date: 04/16/2018
+keywords: ["RtlCompressBuffer function"]
 ms.keywords: COMPRESSION_ENGINE_HIBER, COMPRESSION_ENGINE_MAXIMUM, COMPRESSION_ENGINE_STANDARD, COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS, COMPRESSION_FORMAT_XPRESS_HUFF, RtlCompressBuffer, RtlCompressBuffer function [Installable File System Drivers], ifsk.rtlcompressbuffer, ntifs/RtlCompressBuffer, rtlref_5d0857eb-eefe-4e85-8f89-fcbfe37ce41f.xml
 f1_keywords:
  - "ntifs/RtlCompressBuffer"

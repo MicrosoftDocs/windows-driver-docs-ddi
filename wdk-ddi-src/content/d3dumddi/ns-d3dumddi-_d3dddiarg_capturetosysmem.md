@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_capturetosysmem.htm
 tech.root: display
 ms.assetid: 8cf42c60-655a-4deb-9351-4a3505b49593
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_CAPTURETOSYSMEM structure"]
 ms.keywords: D3DDDIARG_CAPTURETOSYSMEM, D3DDDIARG_CAPTURETOSYSMEM structure [Display Devices], UMDisplayDriver_param_Structs_497b7e52-066f-4078-b673-0f9cd3b6f4c1.xml, _D3DDDIARG_CAPTURETOSYSMEM, d3dumddi/D3DDDIARG_CAPTURETOSYSMEM, display.d3dddiarg_capturetosysmem
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CAPTURETOSYSMEM"

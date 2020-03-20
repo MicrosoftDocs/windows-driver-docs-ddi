@@ -6,6 +6,7 @@ old-location: stream\bda_cas_openmmidata.htm
 tech.root: stream
 ms.assetid: FAF30768-5DE4-4284-8CB5-2E518A2E37E7
 ms.date: 04/23/2018
+keywords: ["_BDA_CAS_OPENMMIDATA structure"]
 ms.keywords: "*PBDA_CAS_OPENMMIDATA, BDA_CAS_OPENMMIDATA, BDA_CAS_OPENMMIDATA structure [Streaming Media Devices], PBDA_CAS_OPENMMIDATA, PBDA_CAS_OPENMMIDATA structure pointer [Streaming Media Devices], _BDA_CAS_OPENMMIDATA, bdatypes/BDA_CAS_OPENMMIDATA, bdatypes/PBDA_CAS_OPENMMIDATA, stream.bda_cas_openmmidata"
 f1_keywords:
  - "bdatypes/BDA_CAS_OPENMMIDATA"

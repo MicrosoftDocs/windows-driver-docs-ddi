@@ -6,6 +6,7 @@ old-location: netvista\ril_openuicclogicalchannel.htm
 tech.root: netvista
 ms.assetid: 8e77d55d-62f5-450c-9d9a-41acfece84c0
 ms.date: 05/02/2018
+keywords: ["RIL_OpenUiccLogicalChannel function"]
 ms.keywords: RIL_OpenUiccLogicalChannel, RIL_OpenUiccLogicalChannel method [Network Drivers Starting with Windows Vista], netvista.ril_openuicclogicalchannel, rilapi/RIL_OpenUiccLogicalChannel
 f1_keywords:
  - "rilapi/RIL_OpenUiccLogicalChannel"

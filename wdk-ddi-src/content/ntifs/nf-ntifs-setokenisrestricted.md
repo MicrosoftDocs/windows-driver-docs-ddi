@@ -6,6 +6,7 @@ old-location: ifsk\setokenisrestricted.htm
 tech.root: ifsk
 ms.assetid: 111ba3a7-1321-4c69-9aae-f1ff5df9fab6
 ms.date: 04/16/2018
+keywords: ["SeTokenIsRestricted function"]
 ms.keywords: SeTokenIsRestricted, SeTokenIsRestricted routine [Installable File System Drivers], ifsk.setokenisrestricted, ntifs/SeTokenIsRestricted, seref_f16e3f4e-1fcb-4232-8fe2-e46ef238b7e4.xml
 f1_keywords:
  - "ntifs/SeTokenIsRestricted"

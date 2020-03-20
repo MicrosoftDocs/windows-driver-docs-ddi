@@ -6,6 +6,7 @@ old-location: ieee\address_offset.htm
 tech.root: IEEE
 ms.assetid: e1ee536f-40e4-48b7-b2d0-6ead22520ec8
 ms.date: 02/15/2018
+keywords: ["_ADDRESS_OFFSET structure"]
 ms.keywords: "*PADDRESS_OFFSET, 1394/ADDRESS_OFFSET, 1394/PADDRESS_OFFSET, 1394stct_7b2efd3c-fcd3-4a01-8ece-8a70975787b1.xml, ADDRESS_OFFSET, ADDRESS_OFFSET structure [Buses], IEEE.address_offset, PADDRESS_OFFSET, PADDRESS_OFFSET structure pointer [Buses], _ADDRESS_OFFSET"
 f1_keywords:
  - "1394/ADDRESS_OFFSET"

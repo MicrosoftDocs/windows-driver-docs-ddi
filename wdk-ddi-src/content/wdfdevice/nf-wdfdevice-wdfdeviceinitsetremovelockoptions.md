@@ -6,6 +6,7 @@ old-location: wdf\wdfdeviceinitsetremovelockoptions.htm
 tech.root: wdf
 ms.assetid: 0BCF4141-BE4E-42C0-8986-BE039B27F5D5
 ms.date: 02/26/2018
+keywords: ["WdfDeviceInitSetRemoveLockOptions function"]
 ms.keywords: WdfDeviceInitSetRemoveLockOptions, WdfDeviceInitSetRemoveLockOptions method, kmdf.wdfdeviceinitsetremovelockoptions, wdf.wdfdeviceinitsetremovelockoptions, wdfdevice/WdfDeviceInitSetRemoveLockOptions
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetRemoveLockOptions"

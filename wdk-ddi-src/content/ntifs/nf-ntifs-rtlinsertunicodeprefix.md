@@ -6,6 +6,7 @@ old-location: ifsk\rtlinsertunicodeprefix.htm
 tech.root: ifsk
 ms.assetid: d8a2fa19-8f44-4088-b515-69c9f2119714
 ms.date: 04/16/2018
+keywords: ["RtlInsertUnicodePrefix function"]
 ms.keywords: RtlInsertUnicodePrefix, RtlInsertUnicodePrefix routine [Installable File System Drivers], ifsk.rtlinsertunicodeprefix, ntifs/RtlInsertUnicodePrefix, rtlref_5c8e1a42-5c73-4029-9c1f-5426e43e123c.xml
 f1_keywords:
  - "ntifs/RtlInsertUnicodePrefix"

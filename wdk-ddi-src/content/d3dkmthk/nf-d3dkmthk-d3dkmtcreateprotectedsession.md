@@ -5,6 +5,7 @@ description: Used to create a protected session.
 old-location: display\d3dkmtcreateprotectedsession.htm
 ms.assetid: f6967f07-564b-4730-9950-4703b541165b
 ms.date: 05/10/2018
+keywords: ["D3DKMTCreateProtectedSession function"]
 ms.keywords: D3DKMTCreateProtectedSession, D3DKMTCreateProtectedSession method [Display Devices], d3dkmthk/D3DKMTCreateProtectedSession, display.d3dkmtcreateprotectedsession
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateProtectedSession"

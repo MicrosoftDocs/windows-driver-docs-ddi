@@ -6,6 +6,7 @@ old-location: netvista\ril_deletephonebookentry.htm
 tech.root: netvista
 ms.assetid: 110c542a-c98a-450d-b943-d8449dcac668
 ms.date: 05/02/2018
+keywords: ["RIL_DeletePhonebookEntry function"]
 ms.keywords: RIL_DeletePhonebookEntry, RIL_DeletePhonebookEntry method [Network Drivers Starting with Windows Vista], netvista.ril_deletephonebookentry, rilapi/RIL_DeletePhonebookEntry
 f1_keywords:
  - "rilapi/RIL_DeletePhonebookEntry"

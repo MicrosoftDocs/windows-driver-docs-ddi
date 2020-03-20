@@ -4,6 +4,7 @@ title: SIDEBANDAUDIO_IO_PARAM_HEADER (sidebandaudio.h)
 description: Describes the size and type of parameter.
 ms.assetid: e2f0fc99-4a73-44de-97f3-24f3a3d13b18
 ms.date: 09/07/2018
+keywords: ["SIDEBANDAUDIO_IO_PARAM_HEADER structure"]
 f1_keywords:
  - "sidebandaudio/SIDEBANDAUDIO_IO_PARAM_HEADER"
 ms.keywords: SIDEBANDAUDIO_IO_PARAM_HEADER, SIDEBANDAUDIO_IO_PARAM_HEADER, *PSIDEBANDAUDIO_IO_PARAM_HEADER, 

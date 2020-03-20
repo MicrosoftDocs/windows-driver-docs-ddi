@@ -6,6 +6,7 @@ old-location: debugger\idebugsymbolgroup2.htm
 tech.root: debugger
 ms.assetid: d702fe69-966c-4b9a-aa0e-b8376288cb79
 ms.date: 05/03/2018
+keywords: ["IDebugSymbolGroup2 interface"]
 ms.keywords: IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging],described, dbgeng/IDebugSymbolGroup2, debugger.idebugsymbolgroup2
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2"

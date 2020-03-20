@@ -6,6 +6,7 @@ old-location: image\istidevicecontrol_getmydeviceopenmode.htm
 tech.root: image
 ms.assetid: 814e739f-6147-4287-876e-db6fc41c5aa1
 ms.date: 05/03/2018
+keywords: ["IStiDeviceControl::GetMyDeviceOpenMode"]
 ms.keywords: GetMyDeviceOpenMode, GetMyDeviceOpenMode method [Imaging Devices], GetMyDeviceOpenMode method [Imaging Devices],IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices],GetMyDeviceOpenMode method, IStiDeviceControl.GetMyDeviceOpenMode, IStiDeviceControl::GetMyDeviceOpenMode, image.istidevicecontrol_getmydeviceopenmode, stifnc_a3082d9f-d152-4494-b11f-e9d2bd1efe63.xml, stiusd/IStiDeviceControl::GetMyDeviceOpenMode
 f1_keywords:
  - "stiusd/IStiDeviceControl.GetMyDeviceOpenMode"

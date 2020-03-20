@@ -6,6 +6,7 @@ old-location: serports\evtsercx2customtransmittransactioninitialize.htm
 tech.root: serports
 ms.assetid: CFC577D6-747F-4752-8CB6-7410C21487B6
 ms.date: 04/23/2018
+keywords: ["EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE callback function"]
 ms.keywords: 2/EvtSerCx2CustomTransmitTransactionInitialize, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_INITIALIZE callback, EvtSerCx2CustomTransmitTransactionInitialize, EvtSerCx2CustomTransmitTransactionInitialize callback function [Serial Ports], serports.evtsercx2customtransmittransactioninitialize
 f1_keywords:
  - "sercx/EvtSerCx2CustomTransmitTransactionInitialize"

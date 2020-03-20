@@ -4,6 +4,7 @@ title: IIndexableConcept (dbgmodel.h)
 description: Any object which is a container that supports random access retrieval of elements from given N-dimensional indexers implements IIndexableConcept.
 ms.assetid: 8d92fead-7ccb-40f5-9eb7-b7d6ef5cec45
 ms.date: 10/04/2018
+keywords: ["IIndexableConcept interface"]
 f1_keywords:
  - "dbgmodel/IIndexableConcept"
 req.header: dbgmodel.h

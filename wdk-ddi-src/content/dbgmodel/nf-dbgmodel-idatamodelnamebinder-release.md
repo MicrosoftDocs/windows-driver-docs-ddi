@@ -4,6 +4,7 @@ title: IDataModelNameBinder::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 13f662d0-27ba-4760-b23e-c822a0b03c6f
 ms.date: 09/12/2018
+keywords: ["IDataModelNameBinder::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelNameBinder.Release"
 ms.keywords: IDataModelNameBinder::Release, Release, IDataModelNameBinder.Release, IDataModelNameBinder::Release, IDataModelNameBinder.Release

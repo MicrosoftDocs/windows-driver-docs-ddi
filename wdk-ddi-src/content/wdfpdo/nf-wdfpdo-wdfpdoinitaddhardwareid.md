@@ -6,6 +6,7 @@ old-location: wdf\wdfpdoinitaddhardwareid.htm
 tech.root: wdf
 ms.assetid: 2b5c853d-8548-419e-bd41-be9e8364fb57
 ms.date: 02/26/2018
+keywords: ["WdfPdoInitAddHardwareID function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml, WdfPdoInitAddHardwareID, WdfPdoInitAddHardwareID method, kmdf.wdfpdoinitaddhardwareid, wdf.wdfpdoinitaddhardwareid, wdfpdo/WdfPdoInitAddHardwareID
 f1_keywords:
  - "wdfpdo/WdfPdoInitAddHardwareID"

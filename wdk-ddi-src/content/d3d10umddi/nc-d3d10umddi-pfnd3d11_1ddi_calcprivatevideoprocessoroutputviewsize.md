@@ -5,6 +5,7 @@ description: Returns the number of bytes that the driver requires to store priva
 old-location: display\calcprivatevideoprocessoroutputviewsize.htm
 ms.assetid: 2cf09e91-e83b-47ae-bf34-037dc01d7e80
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSOROUTPUTVIEWSIZE callback function"]
 ms.keywords: CalcPrivateVideoProcessorOutputViewSize, CalcPrivateVideoProcessorOutputViewSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSOROUTPUTVIEWSIZE, PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSOROUTPUTVIEWSIZE callback, d3d10umddi/CalcPrivateVideoProcessorOutputViewSize, display.calcprivatevideoprocessoroutputviewsize
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

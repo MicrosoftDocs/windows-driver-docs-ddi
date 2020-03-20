@@ -6,6 +6,7 @@ old-location: buses\ufx_device_callbacks_init.htm
 tech.root: usbref
 ms.assetid: D9E7D359-5FC8-44C8-ACA2-641DEFF17616
 ms.date: 05/07/2018
+keywords: ["UFX_DEVICE_CALLBACKS_INIT function"]
 ms.keywords: UFX_DEVICE_CALLBACKS_INIT, UFX_DEVICE_CALLBACKS_INIT function [Buses], buses.ufx_device_callbacks_init, ufxclient/UFX_DEVICE_CALLBACKS_INIT
 f1_keywords:
  - "ufxclient/UFX_DEVICE_CALLBACKS_INIT"

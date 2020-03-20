@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: dbdc4d6d-06fb-45aa-8792-1bef0538b0d1
 ms.author: windowsdriverdev
 ms.date: 09/23/2019
+keywords: ["NET_PACKET_LSO structure"]
 f1_keywords:
  - "lsotypes/_NET_PACKET_LSO"
 ms.keywords: NET_PACKET_LSO, NET_PACKET_LSO, 

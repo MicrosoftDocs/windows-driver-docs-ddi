@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlpoststackoverflow.htm
 tech.root: ifsk
 ms.assetid: fbd6f3b5-ecf7-438e-8e28-a06eaa141fc3
 ms.date: 03/29/2018
+keywords: ["FsRtlPostStackOverflow function"]
 ms.keywords: FsRtlPostStackOverflow, FsRtlPostStackOverflow routine [Installable File System Drivers], fsrtlref_c2a888d0-ecfc-4b50-b6f0-753ef43375de.xml, ifsk.fsrtlpoststackoverflow, ntifs/FsRtlPostStackOverflow
 f1_keywords:
  - "ntifs/FsRtlPostStackOverflow"

@@ -6,6 +6,7 @@ old-location: display\pfnmapgpuvirtualaddresscb.htm
 tech.root: display
 ms.assetid: DA67A98C-BE9C-412D-9382-CAC5B05FEE3B
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_MAPGPUVIRTUALADDRESSCB callback function"]
 ms.keywords: PFND3DDDI_MAPGPUVIRTUALADDRESSCB, PFND3DDDI_MAPGPUVIRTUALADDRESSCB callback, d3dumddi/pfnMapGpuVirtualAddressCb, display.pfnmapgpuvirtualaddresscb, pfnMapGpuVirtualAddressCb, pfnMapGpuVirtualAddressCb callback function [Display Devices]
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

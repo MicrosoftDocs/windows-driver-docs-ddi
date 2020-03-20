@@ -6,6 +6,7 @@ old-location: wdf\ifilecallbackclose_onclosefile.htm
 tech.root: wdf
 ms.assetid: ca3bd7af-b270-497e-a90a-6d79ce66d968
 ms.date: 02/26/2018
+keywords: ["IFileCallbackClose::OnCloseFile"]
 ms.keywords: IFileCallbackClose interface,OnCloseFile method, IFileCallbackClose.OnCloseFile, IFileCallbackClose::OnCloseFile, OnCloseFile, OnCloseFile method, OnCloseFile method,IFileCallbackClose interface, UMDFFileObjectRef_8aa60206-80e0-4c49-b2fd-c79f5e703c18.xml, umdf.ifilecallbackclose_onclosefile, wdf.ifilecallbackclose_onclosefile, wudfddi/IFileCallbackClose::OnCloseFile
 f1_keywords:
  - "wudfddi/IFileCallbackClose.OnCloseFile"

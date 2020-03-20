@@ -6,6 +6,7 @@ old-location: kernel\power_throttling_thread_state.htm
 tech.root: kernel
 ms.assetid: 85659694-f93a-42dc-9fa4-f6fea6ad71d0
 ms.date: 04/30/2018
+keywords: ["_POWER_THROTTLING_THREAD_STATE structure"]
 ms.keywords: "*PPOWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE, POWER_THROTTLING_THREAD_STATE structure [Kernel-Mode Driver Architecture], _POWER_THROTTLING_THREAD_STATE, kernel.power_throttling_thread_state, ntddk/POWER_THROTTLING_THREAD_STATE"
 f1_keywords:
  - "ntddk/POWER_THROTTLING_THREAD_STATE"

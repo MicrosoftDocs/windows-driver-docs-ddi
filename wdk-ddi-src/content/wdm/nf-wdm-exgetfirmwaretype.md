@@ -6,6 +6,7 @@ old-location: kernel\exgetfirmwaretype.htm
 tech.root: kernel
 ms.assetid: b8a420d5-7741-4676-9956-dcf996125c6d
 ms.date: 04/30/2018
+keywords: ["ExGetFirmwareType function"]
 ms.keywords: ExGetFirmwareType, ExGetFirmwareType function [Kernel-Mode Driver Architecture], kernel.exgetfirmwaretype, wdm/ExGetFirmwareType
 f1_keywords:
  - "wdm/ExGetFirmwareType"

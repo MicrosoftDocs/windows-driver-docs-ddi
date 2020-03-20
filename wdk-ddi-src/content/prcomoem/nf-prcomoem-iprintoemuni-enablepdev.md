@@ -6,6 +6,7 @@ old-location: print\iprintoemuni_enablepdev.htm
 tech.root: print
 ms.assetid: 93028b21-7995-42cd-af14-97e74ae75092
 ms.date: 04/20/2018
+keywords: ["IPrintOemUni::EnablePDEV"]
 ms.keywords: EnablePDEV, EnablePDEV method [Print Devices], EnablePDEV method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],EnablePDEV method, IPrintOemUni.EnablePDEV, IPrintOemUni::EnablePDEV, prcomoem/IPrintOemUni::EnablePDEV, print.iprintoemuni_enablepdev, print_unidrv-pscript_rendering_ec7d7a16-5eae-4d4e-8596-7463d967120e.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.EnablePDEV"

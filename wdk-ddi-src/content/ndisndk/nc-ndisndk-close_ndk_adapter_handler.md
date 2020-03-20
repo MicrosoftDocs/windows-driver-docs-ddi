@@ -6,6 +6,7 @@ old-location: netvista\close_ndk_adapter_handler.htm
 tech.root: netvista
 ms.assetid: 9D5980F1-A244-4C5C-B032-68C10BF9D6E7
 ms.date: 05/02/2018
+keywords: ["CLOSE_NDK_ADAPTER_HANDLER callback function"]
 ms.keywords: CLOSE_NDK_ADAPTER_HANDLER, CLOSE_NDK_ADAPTER_HANDLER callback, CloseNdkAdapterHandler, CloseNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], ndisndk/CloseNdkAdapterHandler, netvista.close_ndk_adapter_handler
 f1_keywords:
  - "ndisndk/CloseNdkAdapterHandler"

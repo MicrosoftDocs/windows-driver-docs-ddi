@@ -6,6 +6,7 @@ old-location: wdf\wdfmemory_offset_umdf.htm
 tech.root: wdf
 ms.assetid: 960710f7-15b1-4815-a33a-0e903d0a4193
 ms.date: 02/26/2018
+keywords: ["_WDFMEMORY_OFFSET structure"]
 ms.keywords: "*PWDFMEMORY_OFFSET, PWDFMEMORY_OFFSET, PWDFMEMORY_OFFSET structure pointer, WDFMEMORY_OFFSET, WDFMEMORY_OFFSET structure, _WDFMEMORY_OFFSET, umdf.wdfmemory_offset, umdfstructs_919b5e02-39d3-4f06-867d-43133c008e85.xml, wdf.wdfmemory_offset_umdf, wudfddi_types/PWDFMEMORY_OFFSET, wudfddi_types/WDFMEMORY_OFFSET"
 f1_keywords:
  - "wudfddi_types/WDFMEMORY_OFFSET"

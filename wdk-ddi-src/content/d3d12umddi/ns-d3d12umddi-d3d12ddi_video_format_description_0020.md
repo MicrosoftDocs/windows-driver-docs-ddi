@@ -5,6 +5,7 @@ description: Defines the combination of a pixel format and color space for a res
 old-location: display\d3d12ddi_video_format_description.htm
 ms.assetid: 47C0C369-B31B-4291-A420-A1E75BA990CF
 ms.date: 04/16/2018
+keywords: ["D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 structure"]
 ms.keywords: D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020, display.d3d12ddi_video_format_description
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_FORMAT_DESCRIPTION_0020"

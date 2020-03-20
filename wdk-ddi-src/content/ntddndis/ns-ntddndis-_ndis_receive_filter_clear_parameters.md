@@ -6,6 +6,7 @@ old-location: netvista\ndis_receive_filter_clear_parameters.htm
 tech.root: netvista
 ms.assetid: 101f9fea-cfc2-4ea5-82ee-a260d10b5a96
 ms.date: 05/02/2018
+keywords: ["_NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure"]
 ms.keywords: "*PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, netvista.ndis_receive_filter_clear_parameters, ntddndis/NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, ntddndis/PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, virtual_machine_queue_ref_c0ec4d22-f248-4fe1-855e-99cfe6b2cd1f.xml"
 f1_keywords:
  - "ntddndis/NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS"

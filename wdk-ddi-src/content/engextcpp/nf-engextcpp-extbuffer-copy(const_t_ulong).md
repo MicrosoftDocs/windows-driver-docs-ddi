@@ -6,6 +6,7 @@ old-location: debugger\extremotetyped_copy_debug_typed_data.htm
 tech.root: debugger
 ms.assetid: bfeafa09-49b7-45b3-84d8-afad5f43b78e
 ms.date: 01/19/2018
+keywords: ["ExtBuffer::Copy method"]
 ms.keywords: Copy method [Windows Debugging], Copy, ExtBuffer, Copy method [Windows Debugging], ExtRemoteTyped class, ExtBuffer::Copy, debugger.extremotetyped_copy_debug_typed_data, ExtRemoteTyped class [Windows Debugging], Copy method
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.Copy"

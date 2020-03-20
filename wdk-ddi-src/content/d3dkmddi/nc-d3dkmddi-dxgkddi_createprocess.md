@@ -5,6 +5,7 @@ description: DxgkDdiCreateProcess creates a graphics kernel process object.
 old-location: display\dxgkddicreateprocess.htm
 ms.assetid: E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_CREATEPROCESS callback function"]
 ms.keywords: DXGKDDI_CREATEPROCESS, DXGKDDI_CREATEPROCESS callback, DxgkDdiCreateProcess, DxgkDdiCreateProcess callback function [Display Devices], d3dkmddi/DxgkDdiCreateProcess, display.dxgkddicreateprocess, dispmprt/DxgkDdiCreateProcess
 req.header: d3dkmddi.h
 req.include-header: 

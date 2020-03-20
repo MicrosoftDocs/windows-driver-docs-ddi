@@ -6,6 +6,7 @@ old-location: stream\ksdevicegetouterunknown.htm
 tech.root: stream
 ms.assetid: a63cdc50-6bbb-4bff-8536-0bf31fed01de
 ms.date: 04/23/2018
+keywords: ["KsDeviceGetOuterUnknown function"]
 ms.keywords: KsDeviceGetOuterUnknown, KsDeviceGetOuterUnknown function [Streaming Media Devices], avfunc_c1b85ab7-92b9-4c7c-a9c8-0cf1f9e93458.xml, ks/KsDeviceGetOuterUnknown, stream.ksdevicegetouterunknown
 f1_keywords:
  - "ks/KsDeviceGetOuterUnknown"

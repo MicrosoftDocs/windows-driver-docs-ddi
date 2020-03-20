@@ -6,6 +6,7 @@ old-location: serports\evtsercx2systemdmatransmitcanceldrainfifo.htm
 tech.root: serports
 ms.assetid: 00B17CBC-FE0E-4611-A41B-42AD833731D3
 ms.date: 04/23/2018
+keywords: ["EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO callback function"]
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitCancelDrainFifo, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CANCEL_DRAIN_FIFO callback, EvtSerCx2SystemDmaTransmitCancelDrainFifo, EvtSerCx2SystemDmaTransmitCancelDrainFifo callback function [Serial Ports], serports.evtsercx2systemdmatransmitcanceldrainfifo
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaTransmitCancelDrainFifo"

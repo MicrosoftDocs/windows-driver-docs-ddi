@@ -6,6 +6,7 @@ old-location: print\iprintschemapageimageablesize_interface.htm
 tech.root: print
 ms.assetid: C8E9278D-D24A-4EEC-8F68-D77C76ECCC40
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaPageImageableSize interface"]
 ms.keywords: IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], IPrintSchemaPageImageableSize interface [Print Devices],described, print.iprintschemapageimageablesize_interface, printerextension/IPrintSchemaPageImageableSize
 f1_keywords:
  - "printerextension/IPrintSchemaPageImageableSize"

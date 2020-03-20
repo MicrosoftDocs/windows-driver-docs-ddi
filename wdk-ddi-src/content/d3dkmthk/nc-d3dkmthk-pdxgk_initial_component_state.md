@@ -4,6 +4,7 @@ title: PDXGK_INITIAL_COMPONENT_STATE (d3dkmthk.h)
 description: The InitialComponentStateCb callback function is implemented by the client driver to initialize the component state.
 ms.assetid: 98b7dfae-6112-4d88-8580-ac3314187e22
 ms.date: 10/19/2018
+keywords: ["PDXGK_INITIAL_COMPONENT_STATE callback function"]
 f1_keywords:
  - "d3dkmthk/PDXGK_INITIAL_COMPONENT_STATE"
 req.header: d3dkmthk.h

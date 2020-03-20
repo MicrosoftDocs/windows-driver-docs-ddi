@@ -6,6 +6,7 @@ old-location: serports\ioctl_serial_set_break_on.htm
 tech.root: serports
 ms.assetid: bee9cb3c-0ccd-4304-ba7e-7896a16ab123
 ms.date: 04/23/2018
+keywords: ["IOCTL_SERIAL_SET_BREAK_ON IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_BREAK_ON, IOCTL_SERIAL_SET_BREAK_ON control, IOCTL_SERIAL_SET_BREAK_ON control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_BREAK_ON, serports.ioctl_serial_set_break_on, serref_47487a08-4b73-4e3a-be2e-4343dd678b44.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_BREAK_ON"

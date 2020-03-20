@@ -5,6 +5,7 @@ description: The NetExtensionGetPacketChecksum method retrieves checksum informa
 tech.root: netvista
 ms.assetid: 75774f8a-eeea-4bcd-a15b-2d28a7938e42
 ms.date: 01/30/2019
+keywords: ["NetExtensionGetPacketChecksum function"]
 f1_keywords:
  - "checksum/BATTERY_INFORMATION"
 ms.keywords: NetExtensionGetPacketChecksum

@@ -6,6 +6,7 @@ old-location: whea\writeerrorrecord.htm
 tech.root: whea
 ms.assetid: 4800a0f9-29ee-4631-aee8-5a4924a08f55
 ms.date: 02/20/2018
+keywords: ["PSHED_PI_WRITE_ERROR_RECORD callback function"]
 ms.keywords: PSHED_PI_WRITE_ERROR_RECORD, PSHED_PI_WRITE_ERROR_RECORD callback, WriteErrorRecord, WriteErrorRecord callback function [WHEA Drivers and Applications], ntddk/WriteErrorRecord, whea.writeerrorrecord, whearef_3a405d7d-3427-4c22-919e-7cbab5ea4f19.xml
 f1_keywords:
  - "ntddk/WriteErrorRecord"

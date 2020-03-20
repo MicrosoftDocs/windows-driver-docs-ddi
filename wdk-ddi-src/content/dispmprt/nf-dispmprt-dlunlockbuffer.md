@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 7292373a-8c56-438a-a0e1-4b217a359d2b
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
+keywords: ["DlUnlockBuffer function"]
 f1_keywords:
  - "dispmprt/DlUnlockBuffer"
 ms.keywords: DlUnlockBuffer

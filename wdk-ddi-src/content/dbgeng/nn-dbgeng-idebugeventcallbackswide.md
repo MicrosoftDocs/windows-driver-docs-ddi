@@ -6,6 +6,7 @@ old-location: debugger\idebugeventcallbackswide.htm
 tech.root: debugger
 ms.assetid: 717fad3a-91b1-41c8-ac71-e9ea52533efd
 ms.date: 05/03/2018
+keywords: ["IDebugEventCallbacksWide interface"]
 ms.keywords: IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging],described, dbgeng/IDebugEventCallbacksWide, debugger.idebugeventcallbackswide
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide"

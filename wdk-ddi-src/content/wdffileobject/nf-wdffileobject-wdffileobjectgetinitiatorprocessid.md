@@ -6,6 +6,7 @@ old-location: wdf\wdffileobjectgetinitiatorprocessid.htm
 tech.root: wdf
 ms.assetid: 59E15EAA-4934-48D9-A9E3-7CDEEAE01985
 ms.date: 02/26/2018
+keywords: ["WdfFileObjectGetInitiatorProcessId function"]
 ms.keywords: WdfFileObjectGetInitiatorProcessId, WdfFileObjectGetInitiatorProcessId function, wdf.wdffileobjectgetinitiatorprocessid, wdffileobject/WdfFileObjectGetInitiatorProcessId
 f1_keywords:
  - "wdffileobject/WdfFileObjectGetInitiatorProcessId"

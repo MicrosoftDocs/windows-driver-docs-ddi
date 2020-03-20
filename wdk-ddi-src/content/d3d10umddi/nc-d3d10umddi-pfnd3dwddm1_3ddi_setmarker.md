@@ -5,6 +5,7 @@ description: Notifies the user-mode display driver that it must generate a new t
 old-location: display\setmarker.htm
 ms.assetid: BE618B0C-18E7-4B2B-87EB-172DAD9BCE15
 ms.date: 05/10/2018
+keywords: ["PFND3DWDDM1_3DDI_SETMARKER callback function"]
 ms.keywords: PFND3DWDDM1_3DDI_SETMARKER, PFND3DWDDM1_3DDI_SETMARKER callback, SetMarker, SetMarker callback function [Display Devices], d3d10umddi/SetMarker, display.setmarker
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

@@ -6,6 +6,7 @@ old-location: stream\ksevent_volumelimit.htm
 tech.root: stream
 ms.assetid: B03477A0-B7ED-491F-9D6F-B32A0E719475
 ms.date: 04/23/2018
+keywords: ["KSEVENT_VOLUMELIMIT enumeration"]
 ms.keywords: KSEVENT_VOLUMELIMIT, KSEVENT_VOLUMELIMIT enumeration [Streaming Media Devices], KSEVENT_VOLUMELIMIT_CHANGED, ks/KSEVENT_VOLUMELIMIT, ks/KSEVENT_VOLUMELIMIT_CHANGED, stream.ksevent_volumelimit
 f1_keywords:
  - "ks/KSEVENT_VOLUMELIMIT"

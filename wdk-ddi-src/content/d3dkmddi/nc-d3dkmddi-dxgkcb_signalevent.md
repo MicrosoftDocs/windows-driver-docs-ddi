@@ -4,6 +4,7 @@ title: DXGKCB_SIGNALEVENT (d3dkmddi.h)
 description: Allows the kernel mode on the host to signal an event, which is created in the guest during paravirtualization.
 ms.assetid: fbb456a6-4ffc-4d65-a3d6-e3d78b573ae3
 ms.date: 10/19/2018
+keywords: ["DXGKCB_SIGNALEVENT callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKCB_SIGNALEVENT"
 req.header: d3dkmddi.h

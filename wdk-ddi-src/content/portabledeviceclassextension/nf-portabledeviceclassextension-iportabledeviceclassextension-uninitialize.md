@@ -6,6 +6,7 @@ old-location: wpddk\iportabledeviceclassextension_uninitialize.htm
 tech.root: wpd_dk
 ms.assetid: 51ef2b62-8933-4b59-9deb-8220df1fd285
 ms.date: 02/15/2018
+keywords: ["IPortableDeviceClassExtension::Uninitialize"]
 ms.keywords: IPortableDeviceClassExtension interface,Uninitialize method, IPortableDeviceClassExtension.Uninitialize, IPortableDeviceClassExtension::Uninitialize, IPortableDeviceClassExtensionUninitialize, Uninitialize, Uninitialize method, Uninitialize method,IPortableDeviceClassExtension interface, portabledeviceclassextension/IPortableDeviceClassExtension::Uninitialize, wpddk.iportabledeviceclassextension_uninitialize
 f1_keywords:
  - "portabledeviceclassextension/IPortableDeviceClassExtension.Uninitialize"

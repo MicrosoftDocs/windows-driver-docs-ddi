@@ -5,6 +5,7 @@ description: RemoveStreamResource removes an existing stream resource. The Remov
 tech.root: audio
 ms.assetid: c271b9da-9d55-47fa-8939-fab0e02f2c64
 ms.date: 10/31/2018
+keywords: ["IPortClsStreamResourceManager::RemoveStreamResource"]
 f1_keywords:
  - "portcls/IPortClsStreamResourceManager.RemoveStreamResource"
 ms.keywords: IPortClsStreamResourceManager::RemoveStreamResource, RemoveStreamResource, IPortClsStreamResourceManager.RemoveStreamResource, IPortClsStreamResourceManager::RemoveStreamResource, IPortClsStreamResourceManager.RemoveStreamResource

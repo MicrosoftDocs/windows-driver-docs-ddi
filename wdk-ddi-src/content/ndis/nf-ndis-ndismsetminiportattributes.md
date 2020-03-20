@@ -6,6 +6,7 @@ old-location: netvista\ndismsetminiportattributes.htm
 tech.root: netvista
 ms.assetid: 861626af-23ea-40dc-a91a-7da42d4b0a1c
 ms.date: 05/02/2018
+keywords: ["NdisMSetMiniportAttributes function"]
 ms.keywords: NdisMSetMiniportAttributes, NdisMSetMiniportAttributes function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_2fc47304-466b-4ae0-8450-44c636cecf64.xml, ndis/NdisMSetMiniportAttributes, netvista.ndismsetminiportattributes
 f1_keywords:
  - "ndis/NdisMSetMiniportAttributes"

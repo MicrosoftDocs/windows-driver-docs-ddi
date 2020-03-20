@@ -6,6 +6,7 @@ old-location: netvista\ndis_miniport_restart_parameters.htm
 tech.root: netvista
 ms.assetid: 4e005245-ed98-47fd-aaae-421940edf2dc
 ms.date: 05/02/2018
+keywords: ["_NDIS_MINIPORT_RESTART_PARAMETERS structure"]
 ms.keywords: "*PNDIS_MINIPORT_RESTART_PARAMETERS, NDIS_MINIPORT_RESTART_PARAMETERS, NDIS_MINIPORT_RESTART_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_RESTART_PARAMETERS, PNDIS_MINIPORT_RESTART_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_RESTART_PARAMETERS, miniport_structures_ref_618076bd-9d88-4104-89fd-c2ccddf32b02.xml, ndis/NDIS_MINIPORT_RESTART_PARAMETERS, ndis/PNDIS_MINIPORT_RESTART_PARAMETERS, netvista.ndis_miniport_restart_parameters"
 f1_keywords:
  - "ndis/NDIS_MINIPORT_RESTART_PARAMETERS"

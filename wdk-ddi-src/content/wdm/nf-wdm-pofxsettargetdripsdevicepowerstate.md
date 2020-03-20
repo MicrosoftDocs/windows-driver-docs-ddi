@@ -6,6 +6,7 @@ old-location: kernel\pofxsettargetdripsdevicepowerstate.htm
 tech.root: kernel
 ms.assetid: 435c0731-101c-498b-9041-904001be3f2c
 ms.date: 04/30/2018
+keywords: ["PoFxSetTargetDripsDevicePowerState function"]
 ms.keywords: PoFxSetTargetDripsDevicePowerState, PoFxSetTargetDripsDevicePowerState function [Kernel-Mode Driver Architecture], kernel.pofxsettargetdripsdevicepowerstate, wdm/PoFxSetTargetDripsDevicePowerState
 f1_keywords:
  - "wdm/PoFxSetTargetDripsDevicePowerState"

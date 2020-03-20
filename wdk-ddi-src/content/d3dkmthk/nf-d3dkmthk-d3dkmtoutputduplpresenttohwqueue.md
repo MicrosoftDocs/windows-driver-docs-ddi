@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: abea8c16-a9c8-49ea-8809-4589b9d2eaa8
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["D3DKMTOutputDuplPresentToHwQueue function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTOutputDuplPresentToHwQueue"
 ms.keywords: D3DKMTOutputDuplPresentToHwQueue

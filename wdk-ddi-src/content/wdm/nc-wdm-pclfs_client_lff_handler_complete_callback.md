@@ -6,6 +6,7 @@ old-location: kernel\clfsloggrowthcompletecallback.htm
 tech.root: kernel
 ms.assetid: f8ebeaa9-e487-461b-8d95-50094bcc2bf5
 ms.date: 04/30/2018
+keywords: ["PCLFS_CLIENT_LFF_HANDLER_COMPLETE_CALLBACK callback function"]
 ms.keywords: ClfsLogGrowthCompleteCallback, ClfsLogGrowthCompleteCallback callback function [Kernel-Mode Driver Architecture], Clfs_management_656d5a55-7a42-48c3-a788-d1eec6b5e11e.xml, PCLFS_CLIENT_LFF_HANDLER_COMPLETE_CALLBACK, PCLFS_CLIENT_LFF_HANDLER_COMPLETE_CALLBACK callback, kernel.clfsloggrowthcompletecallback, wdm/ClfsLogGrowthCompleteCallback
 f1_keywords:
  - "wdm/ClfsLogGrowthCompleteCallback"

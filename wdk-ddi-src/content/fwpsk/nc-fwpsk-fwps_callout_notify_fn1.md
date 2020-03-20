@@ -6,6 +6,7 @@ old-location: netvista\notifyfn1.htm
 tech.root: netvista
 ms.assetid: 3f377049-cc5f-427d-9b09-5e49e4b305c5
 ms.date: 10/29/2019
+keywords: ["FWPS_CALLOUT_NOTIFY_FN1 callback function"]
 ms.keywords: FWPS_CALLOUT_NOTIFY_FN1, FWPS_CALLOUT_NOTIFY_FN1 callback, fwpsk/notifyFn1, netvista.notifyfn1, notifyFn1, notifyFn1 callback function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_4_callout_0cbdb762-b5f8-4c14-a361-a44589e1d663.xml
 f1_keywords:
  - "fwpsk/notifyFn1"

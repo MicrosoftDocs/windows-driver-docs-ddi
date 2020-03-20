@@ -6,6 +6,7 @@ old-location: buses\udecxusbendpointcreate.htm
 tech.root: usbref
 ms.assetid: F97642A2-FE77-41D0-A194-8DE6F9B17BB0
 ms.date: 05/07/2018
+keywords: ["UdecxUsbEndpointCreate function"]
 ms.keywords: UdecxUsbEndpointCreate, UdecxUsbEndpointCreate function [Buses], buses.udecxusbendpointcreate, udecxusbendpoint/UdecxUsbEndpointCreate
 f1_keywords:
  - "udecxusbendpoint/UdecxUsbEndpointCreate"

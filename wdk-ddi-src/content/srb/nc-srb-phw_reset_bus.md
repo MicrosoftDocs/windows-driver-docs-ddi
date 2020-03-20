@@ -6,6 +6,7 @@ old-location: storage\phw_reset_bus.htm
 tech.root: storage
 ms.assetid: 8c41ca6d-4b55-4858-b8bb-d7b2e682a8f7
 ms.date: 03/29/2018
+keywords: ["PHW_RESET_BUS callback"]
 ms.keywords: "(*PHW_RESET_BUS), (*PHW_RESET_BUS) callback function [Storage Devices], ide_minikr_6cda3e23-0fa6-48dd-a0c0-3d47287eb829.xml, srb/(*PHW_RESET_BUS), storage.phw_reset_bus"
 f1_keywords:
  - "srb/(*PHW_RESET_BUS)"

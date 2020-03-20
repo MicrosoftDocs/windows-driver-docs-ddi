@@ -3,6 +3,7 @@ UID: NA:ntpoapi
 title: Ntpoapi.h header
 ms.assetid: 05cffe50-bcb4-3779-8086-d9ec44f199f9
 ms.date: 05/09/2018
+keywords: ["Ntpoapi.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

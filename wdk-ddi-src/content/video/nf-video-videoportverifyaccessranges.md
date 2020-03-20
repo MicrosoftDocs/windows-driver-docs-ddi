@@ -6,6 +6,7 @@ old-location: display\videoportverifyaccessranges.htm
 tech.root: display
 ms.assetid: 067ecebb-e63c-4161-9e8f-3746ecad3259
 ms.date: 05/10/2018
+keywords: ["VideoPortVerifyAccessRanges function"]
 ms.keywords: VideoPortVerifyAccessRanges, VideoPortVerifyAccessRanges function [Display Devices], VideoPort_Functions_be1c2439-0fde-4d2e-a892-9a64e19f9970.xml, display.videoportverifyaccessranges, video/VideoPortVerifyAccessRanges
 f1_keywords:
  - "video/VideoPortVerifyAccessRanges"

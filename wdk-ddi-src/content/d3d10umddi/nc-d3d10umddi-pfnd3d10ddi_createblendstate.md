@@ -5,6 +5,7 @@ description: The CreateBlendState function creates a blend state.
 old-location: display\createblendstate.htm
 ms.assetid: f203a83c-0108-4e20-9972-06857099378c
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CREATEBLENDSTATE callback function"]
 ms.keywords: CreateBlendState, CreateBlendState callback function [Display Devices], PFND3D10DDI_CREATEBLENDSTATE, PFND3D10DDI_CREATEBLENDSTATE callback, UserModeDisplayDriverDx10_Functions_5c67ddaf-f8a2-4529-8684-1f0298221a8d.xml, d3d10umddi/CreateBlendState, display.createblendstate
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

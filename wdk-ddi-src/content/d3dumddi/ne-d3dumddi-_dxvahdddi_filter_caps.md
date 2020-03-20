@@ -4,6 +4,7 @@ title: _DXVAHDDDI_FILTER_CAPS (d3dumddi.h)
 description: DirectX video acceleration filter capabilities.
 ms.assetid: c26f7a01-1e3b-48b3-b012-17334daa8ee3
 ms.date: 10/19/2018
+keywords: ["_DXVAHDDDI_FILTER_CAPS enumeration"]
 ms.keywords: _DXVAHDDDI_FILTER_CAPS, DXVAHDDDI_FILTER_CAPS,
 req.header: d3dumddi.h
 req.include-header: 

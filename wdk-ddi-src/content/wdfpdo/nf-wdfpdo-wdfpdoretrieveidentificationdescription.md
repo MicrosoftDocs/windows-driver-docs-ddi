@@ -6,6 +6,7 @@ old-location: wdf\wdfpdoretrieveidentificationdescription.htm
 tech.root: wdf
 ms.assetid: fac29ced-7acc-4c2a-ac8a-171b8dd1d45e
 ms.date: 02/26/2018
+keywords: ["WdfPdoRetrieveIdentificationDescription function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_fe883ca1-8b36-4ac1-b7ff-8c38bf098148.xml, WdfPdoRetrieveIdentificationDescription, WdfPdoRetrieveIdentificationDescription method, kmdf.wdfpdoretrieveidentificationdescription, wdf.wdfpdoretrieveidentificationdescription, wdfpdo/WdfPdoRetrieveIdentificationDescription
 f1_keywords:
  - "wdfpdo/WdfPdoRetrieveIdentificationDescription"

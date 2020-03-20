@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_destroylight.htm
 tech.root: display
 ms.assetid: d019a940-5735-4b35-af99-3aac3dc4270b
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_DESTROYLIGHT structure"]
 ms.keywords: D3DDDIARG_DESTROYLIGHT, D3DDDIARG_DESTROYLIGHT structure [Display Devices], UMDisplayDriver_param_Structs_497b7bc8-b2ca-4ead-9c3e-365673b2058f.xml, _D3DDDIARG_DESTROYLIGHT, d3dumddi/D3DDDIARG_DESTROYLIGHT, display.d3dddiarg_destroylight
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DESTROYLIGHT"

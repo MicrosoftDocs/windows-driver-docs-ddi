@@ -6,6 +6,7 @@ old-location: display\idarg_out_parsemonitordescription.htm
 tech.root: display
 ms.assetid: 30f4c178-5ef8-4650-b396-1e4bc9cc9125
 ms.date: 05/10/2018
+keywords: ["IDARG_OUT_PARSEMONITORDESCRIPTION structure"]
 ms.keywords: IDARG_OUT_PARSEMONITORDESCRIPTION, IDARG_OUT_PARSEMONITORDESCRIPTION structure [Display Devices], display.idarg_out_parsemonitordescription, iddcx/IDARG_OUT_PARSEMONITORDESCRIPTION
 f1_keywords:
  - "iddcx/IDARG_OUT_PARSEMONITORDESCRIPTION"

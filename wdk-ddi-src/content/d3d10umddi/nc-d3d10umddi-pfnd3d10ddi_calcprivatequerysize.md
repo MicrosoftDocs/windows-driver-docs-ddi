@@ -5,6 +5,7 @@ description: The CalcPrivateQuerySize function determines the size of the user-m
 old-location: display\calcprivatequerysize.htm
 ms.assetid: 59a59aa8-085e-4bf8-8a6f-e08f2aecd894
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CALCPRIVATEQUERYSIZE callback function"]
 ms.keywords: CalcPrivateQuerySize, CalcPrivateQuerySize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEQUERYSIZE, PFND3D10DDI_CALCPRIVATEQUERYSIZE callback, UserModeDisplayDriverDx10_Functions_79c9e2a9-e27e-4bd8-bc45-20dd14f0627a.xml, d3d10umddi/CalcPrivateQuerySize, display.calcprivatequerysize
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

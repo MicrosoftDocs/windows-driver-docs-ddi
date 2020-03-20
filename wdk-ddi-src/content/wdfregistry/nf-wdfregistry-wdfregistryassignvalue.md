@@ -6,6 +6,7 @@ old-location: wdf\wdfregistryassignvalue.htm
 tech.root: wdf
 ms.assetid: 3c7592ad-f4ed-496f-90bb-638f68efe4f7
 ms.date: 02/26/2018
+keywords: ["WdfRegistryAssignValue function"]
 ms.keywords: DFRegKeyObjectRef_b585a896-046f-4730-8f1d-bba4a2479772.xml, WdfRegistryAssignValue, WdfRegistryAssignValue method, kmdf.wdfregistryassignvalue, wdf.wdfregistryassignvalue, wdfregistry/WdfRegistryAssignValue
 f1_keywords:
  - "wdfregistry/WdfRegistryAssignValue"

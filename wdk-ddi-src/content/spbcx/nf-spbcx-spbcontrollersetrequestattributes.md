@@ -6,6 +6,7 @@ old-location: spb\spbcontrollersetrequestattributes.htm
 tech.root: SPB
 ms.assetid: 9BE790DB-DB7A-44A3-8A89-673CBFCF4D65
 ms.date: 04/30/2018
+keywords: ["SpbControllerSetRequestAttributes function"]
 ms.keywords: SPB.spbcontrollersetrequestattributes, SpbControllerSetRequestAttributes, SpbControllerSetRequestAttributes method [Buses], spbcx/SpbControllerSetRequestAttributes
 f1_keywords:
  - "spbcx/SpbControllerSetRequestAttributes"

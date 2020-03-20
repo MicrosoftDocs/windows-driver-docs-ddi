@@ -6,6 +6,7 @@ old-location: buses\usbd_getinterfacelength.htm
 tech.root: usbref
 ms.assetid: bcfc2b11-d89c-40f8-95ce-07a599e2a2bb
 ms.date: 05/07/2018
+keywords: ["USBD_GetInterfaceLength function"]
 ms.keywords: USBD_GetInterfaceLength, USBD_GetInterfaceLength routine [Buses], buses.usbd_getinterfacelength, usbdlib/USBD_GetInterfaceLength, usbfunc_d462af93-f7ec-429f-9719-4b09af55236c.xml
 f1_keywords:
  - "usbdlib/USBD_GetInterfaceLength"

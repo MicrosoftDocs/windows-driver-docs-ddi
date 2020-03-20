@@ -6,6 +6,7 @@ old-location: devtest\wpprecorderisdefaultlogavailable.htm
 tech.root: devtest
 ms.assetid: 5685540F-B4C4-4ED9-B783-85A898EC5A62
 ms.date: 02/23/2018
+keywords: ["imp_WppRecorderIsDefaultLogAvailable function"]
 ms.keywords: WppRecorderIsDefaultLogAvailable, devtest.wpprecorderisdefaultlogavailable, imp_WppRecorderIsDefaultLogAvailable, imp_WppRecorderIsDefaultLogAvailable function [Driver Development Tools], wpprecorder/imp_WppRecorderIsDefaultLogAvailable
 f1_keywords:
  - "wpprecorder/imp_WppRecorderIsDefaultLogAvailable"

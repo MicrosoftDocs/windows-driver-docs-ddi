@@ -6,6 +6,7 @@ old-location: wdf\oninterruptisr.htm
 tech.root: wdf
 ms.assetid: D4B8182A-67A5-4D64-A95C-5EB6A1C1E4F0
 ms.date: 02/26/2018
+keywords: ["WUDF_INTERRUPT_ISR callback function"]
 ms.keywords: OnInterruptIsr, OnInterruptIsr callback function, WUDF_INTERRUPT_ISR, WUDF_INTERRUPT_ISR callback, umdf.oninterruptisr, wdf.oninterruptisr, wudfinterrupt/OnInterruptIsr
 f1_keywords:
  - "wudfinterrupt/OnInterruptIsr"

@@ -6,6 +6,7 @@ old-location: display\evt_idd_cx_monitor_opm_configure_protected_output.htm
 tech.root: display
 ms.assetid: 5314c5e3-bbc7-4179-bb59-4bd58110aee1
 ms.date: 05/10/2018
+keywords: ["EVT_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT, EVT_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT callback, EvtIddCxMonitorOpmConfigureProtectedOutput, EvtIddCxMonitorOpmConfigureProtectedOutput callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT, PFN_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_configure_protected_output, iddcx/EvtIddCxMonitorOpmConfigureProtectedOutput
 f1_keywords:
  - "iddcx/PFN_IDD_CX_MONITOR_OPM_CONFIGURE_PROTECTED_OUTPUT"

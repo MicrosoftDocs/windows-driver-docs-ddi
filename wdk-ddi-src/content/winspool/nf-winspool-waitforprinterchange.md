@@ -6,6 +6,7 @@ old-location: print\waitforprinterchange.htm
 tech.root: print
 ms.assetid: BD9DD9C4-D736-42DC-A55F-7F299351FA65
 ms.date: 04/20/2018
+keywords: ["WaitForPrinterChange function"]
 ms.keywords: WaitForPrinterChange, WaitForPrinterChange function [Print Devices], print.waitforprinterchange, winspool/WaitForPrinterChange
 f1_keywords:
  - "winspool/WaitForPrinterChange"

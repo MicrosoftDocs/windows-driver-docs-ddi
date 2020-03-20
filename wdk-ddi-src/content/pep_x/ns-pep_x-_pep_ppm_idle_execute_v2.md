@@ -6,6 +6,7 @@ old-location: kernel\pep_ppm_idle_execute_v2.htm
 tech.root: kernel
 ms.assetid: 28CF8291-E7C3-4289-909C-C89D350A9D83
 ms.date: 04/30/2018
+keywords: ["_PEP_PPM_IDLE_EXECUTE_V2 structure"]
 ms.keywords: "*PPEP_PPM_IDLE_EXECUTE_V2, PEP_PPM_IDLE_EXECUTE_V2, PEP_PPM_IDLE_EXECUTE_V2 structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_EXECUTE_V2, PPEP_PPM_IDLE_EXECUTE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_EXECUTE_V2, kernel.pep_ppm_idle_execute_v2, pepfx/PEP_PPM_IDLE_EXECUTE_V2, pepfx/PPEP_PPM_IDLE_EXECUTE_V2"
 f1_keywords:
  - "pep_x/PEP_PPM_IDLE_EXECUTE_V2"

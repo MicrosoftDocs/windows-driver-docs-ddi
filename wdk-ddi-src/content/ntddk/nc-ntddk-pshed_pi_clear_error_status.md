@@ -6,6 +6,7 @@ old-location: whea\clearerrorstatus.htm
 tech.root: whea
 ms.assetid: 8b29edf3-be7f-4a8d-af96-2b1e985ba061
 ms.date: 02/20/2018
+keywords: ["PSHED_PI_CLEAR_ERROR_STATUS callback function"]
 ms.keywords: ClearErrorStatus, ClearErrorStatus callback function [WHEA Drivers and Applications], PSHED_PI_CLEAR_ERROR_STATUS, PSHED_PI_CLEAR_ERROR_STATUS callback, ntddk/ClearErrorStatus, whea.clearerrorstatus, whearef_022b6321-f051-4d35-ad0c-e6528d03a411.xml
 f1_keywords:
  - "ntddk/ClearErrorStatus"

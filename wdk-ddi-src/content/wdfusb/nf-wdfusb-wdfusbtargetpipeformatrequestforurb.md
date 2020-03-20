@@ -6,6 +6,7 @@ old-location: wdf\wdfusbtargetpipeformatrequestforurb.htm
 tech.root: wdf
 ms.assetid: 15df601c-6daf-4db1-8c80-678d6c43ac55
 ms.date: 02/26/2018
+keywords: ["WdfUsbTargetPipeFormatRequestForUrb function"]
 ms.keywords: DFUsbRef_243c98bc-1bef-4da4-8f04-aa9055fb6351.xml, WdfUsbTargetPipeFormatRequestForUrb, WdfUsbTargetPipeFormatRequestForUrb method, kmdf.wdfusbtargetpipeformatrequestforurb, wdf.wdfusbtargetpipeformatrequestforurb, wdfusb/WdfUsbTargetPipeFormatRequestForUrb
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeFormatRequestForUrb"

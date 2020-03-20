@@ -5,6 +5,7 @@ description: The pfnDisableDeferredStagingResourceDestruction function disables 
 old-location: display\pfndisabledeferredstagingresourcedestruction.htm
 ms.assetid: f0328782-9b5b-44e6-ac58-7eb72685aa52
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_DISABLE_DEFERRED_STAGING_RESOURCE_DESTRUCTION_CB callback function"]
 ms.keywords: PFND3D10DDI_DISABLE_DEFERRED_STAGING_RESOURCE_DESTRUCTION_CB, PFND3D10DDI_DISABLE_DEFERRED_STAGING_RESOURCE_DESTRUCTION_CB callback, d3d10state_functions_2a17cecf-fe42-4058-85d8-524e4ef4d207.xml, d3d10umddi/pfnDisableDeferredStagingResourceDestruction, display.pfndisabledeferredstagingresourcedestruction, pfnDisableDeferredStagingResourceDestruction, pfnDisableDeferredStagingResourceDestruction callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnDisableDeferredStagingResourceDestruction"

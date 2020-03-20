@@ -6,6 +6,7 @@ old-location: netvista\fwps_vswitch_port_event_callback0.htm
 tech.root: netvista
 ms.assetid: CE4B14BE-5ECA-4C2F-809C-B0DC27EC2FF2
 ms.date: 05/02/2018
+keywords: ["FWPS_VSWITCH_PORT_EVENT_CALLBACK0 callback function"]
 ms.keywords: FWPS_VSWITCH_PORT_EVENT_CALLBACK0, FWPS_VSWITCH_PORT_EVENT_CALLBACK0 callback, fwpsk/vSwitchPortEventNotifyFn, netvista.fwps_vswitch_port_event_callback0, vSwitchPortEventNotifyFn, vSwitchPortEventNotifyFn callback function [Network Drivers Starting with Windows Vista]
 f1_keywords:
  - "fwpsk/vSwitchPortEventNotifyFn"

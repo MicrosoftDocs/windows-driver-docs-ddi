@@ -6,6 +6,7 @@ old-location: storage\sm_setpersistentbinding_in.htm
 tech.root: storage
 ms.assetid: 33a8c609-aa65-4629-b4ee-3723e614d400
 ms.date: 03/29/2018
+keywords: ["_SM_SetPersistentBinding_IN structure"]
 ms.keywords: "*PSM_SetPersistentBinding_IN, PSM_SetPersistentBinding_IN, PSM_SetPersistentBinding_IN structure pointer [Storage Devices], SM_SetPersistentBinding_IN, SM_SetPersistentBinding_IN structure [Storage Devices], _SM_SetPersistentBinding_IN, hbapiwmi/PSM_SetPersistentBinding_IN, hbapiwmi/SM_SetPersistentBinding_IN, storage.sm_setpersistentbinding_in, structs-Fibre_9af25c8f-f9de-482d-8103-f372405d7771.xml"
 f1_keywords:
  - "hbapiwmi/SM_SetPersistentBinding_IN"

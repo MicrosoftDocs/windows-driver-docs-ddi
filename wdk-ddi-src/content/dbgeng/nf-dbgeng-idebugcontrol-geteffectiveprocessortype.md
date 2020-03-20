@@ -6,6 +6,7 @@ old-location: debugger\geteffectiveprocessortype.htm
 tech.root: debugger
 ms.assetid: 66a5aa3d-fe35-4c30-951f-f25de75dacb0
 ms.date: 05/03/2018
+keywords: ["IDebugControl::GetEffectiveProcessorType"]
 ms.keywords: GetEffectiveProcessorType, GetEffectiveProcessorType method [Windows Debugging], GetEffectiveProcessorType method [Windows Debugging],IDebugControl interface, GetEffectiveProcessorType method [Windows Debugging],IDebugControl2 interface, GetEffectiveProcessorType method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetEffectiveProcessorType method, IDebugControl.GetEffectiveProcessorType, IDebugControl2 interface [Windows Debugging],GetEffectiveProcessorType method, IDebugControl2::GetEffectiveProcessorType, IDebugControl3 interface [Windows Debugging],GetEffectiveProcessorType method, IDebugControl3::GetEffectiveProcessorType, IDebugControl::GetEffectiveProcessorType, IDebugControl_9e0db836-17eb-4df1-a298-f8d54282d188.xml, dbgeng/IDebugControl2::GetEffectiveProcessorType, dbgeng/IDebugControl3::GetEffectiveProcessorType, dbgeng/IDebugControl::GetEffectiveProcessorType, debugger.geteffectiveprocessortype
 f1_keywords:
  - "dbgeng/IDebugControl.GetEffectiveProcessorType"

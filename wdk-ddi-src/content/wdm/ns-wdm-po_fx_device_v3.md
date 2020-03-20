@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: d3c6749b-2661-40a6-b4a7-937710bc36fe
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
+keywords: ["PO_FX_DEVICE_V3 structure"]
 f1_keywords:
  - "wdm/PO_FX_DEVICE_V3"
 ms.keywords: PO_FX_DEVICE_V3, PO_FX_DEVICE_V3, *PPO_FX_DEVICE_V3, *PPO_FX_DEVICE, PO_FX_DEVICE

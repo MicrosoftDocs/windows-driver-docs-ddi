@@ -6,6 +6,7 @@ old-location: stream\ksrate.htm
 tech.root: stream
 ms.assetid: dc8f23d5-14bb-43be-807a-041ca9c30a76
 ms.date: 04/23/2018
+keywords: ["KSRATE structure"]
 ms.keywords: "*PKSRATE, KSRATE, KSRATE structure [Streaming Media Devices], PKSRATE, PKSRATE structure pointer [Streaming Media Devices], ks-struct_a47aa4cc-ff36-4a02-bd68-63c7ed450279.xml, ks/KSRATE, ks/PKSRATE, stream.ksrate"
 f1_keywords:
  - "ks/KSRATE"

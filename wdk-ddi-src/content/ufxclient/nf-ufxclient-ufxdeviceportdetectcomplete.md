@@ -6,6 +6,7 @@ old-location: buses\ufxdeviceportdetectcomplete.htm
 tech.root: usbref
 ms.assetid: D5F65152-54CD-45FA-99CE-F5B4DF444BB8
 ms.date: 05/07/2018
+keywords: ["UfxDevicePortDetectComplete function"]
 ms.keywords: UfxDevicePortDetectComplete, UfxDevicePortDetectComplete method [Buses], buses.ufxdeviceportdetectcomplete, ufxclient/UfxDevicePortDetectComplete
 f1_keywords:
  - "ufxclient/UfxDevicePortDetectComplete"

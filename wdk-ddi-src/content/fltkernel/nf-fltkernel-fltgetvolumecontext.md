@@ -6,6 +6,7 @@ old-location: ifsk\fltgetvolumecontext.htm
 tech.root: ifsk
 ms.assetid: daa7d15f-580a-4668-9159-834e18b28c1f
 ms.date: 04/16/2018
+keywords: ["FltGetVolumeContext function"]
 ms.keywords: FltApiRef_e_to_o_8cec5d5c-18c3-4ffe-be18-fffcfc8d0c14.xml, FltGetVolumeContext, FltGetVolumeContext routine [Installable File System Drivers], fltkernel/FltGetVolumeContext, ifsk.fltgetvolumecontext
 f1_keywords:
  - "fltkernel/FltGetVolumeContext"

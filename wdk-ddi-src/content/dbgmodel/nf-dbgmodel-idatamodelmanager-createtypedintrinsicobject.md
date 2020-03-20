@@ -4,6 +4,7 @@ title: IDataModelManager::CreateTypedIntrinsicObject (dbgmodel.h)
 description: The CreateTypedintrinsicObject method is similar to the CreateIntrinsicObject method excepting that it allows a native/language type to be associated with the data and carried along with the boxed value.
 ms.assetid: 389a450e-6cea-408e-aeaa-ff90b572158c
 ms.date: 07/17/2018
+keywords: ["IDataModelManager::CreateTypedIntrinsicObject"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.CreateTypedIntrinsicObject"
 ms.keywords: IDataModelManager::CreateTypedIntrinsicObject, CreateTypedIntrinsicObject, IDataModelManager.CreateTypedIntrinsicObject, IDataModelManager::CreateTypedIntrinsicObject, IDataModelManager.CreateTypedIntrinsicObject

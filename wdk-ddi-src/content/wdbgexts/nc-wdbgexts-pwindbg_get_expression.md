@@ -6,6 +6,7 @@ old-location: debugger\getexpression.htm
 tech.root: debugger
 ms.assetid: 20d75838-6dbf-49a2-a0c9-a0c1ae74d7a6
 ms.date: 05/03/2018
+keywords: ["PWINDBG_GET_EXPRESSION callback function"]
 ms.keywords: GetExpression, GetExpression callback function [Windows Debugging], PWINDBG_GET_EXPRESSION, PWINDBG_GET_EXPRESSION callback, WdbgExts_Ref_666ae7de-7842-4ba8-9352-e79aefe24ba7.xml, debugger.getexpression, wdbgexts/GetExpression
 f1_keywords:
  - "wdbgexts/GetExpression"

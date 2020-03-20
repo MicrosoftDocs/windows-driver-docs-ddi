@@ -6,6 +6,7 @@ old-location: netvista\ndis_pm_wake_packet.htm
 tech.root: netvista
 ms.assetid: b3d7adcf-79cd-42f4-ada2-c57de6310020
 ms.date: 05/02/2018
+keywords: ["_NDIS_PM_WAKE_PACKET structure"]
 ms.keywords: "*PNDIS_PM_WAKE_PACKET, NDIS_PM_WAKE_PACKET, NDIS_PM_WAKE_PACKET structure [Network Drivers Starting with Windows Vista], PNDIS_PM_WAKE_PACKET, PNDIS_PM_WAKE_PACKET structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WAKE_PACKET, netvista.ndis_pm_wake_packet, ntddndis/NDIS_PM_WAKE_PACKET, ntddndis/PNDIS_PM_WAKE_PACKET"
 f1_keywords:
  - "ntddndis/NDIS_PM_WAKE_PACKET"

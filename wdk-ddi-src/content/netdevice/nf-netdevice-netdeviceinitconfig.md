@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 578116d2-0dcf-4ebb-a42f-db9f456a0f38
 ms.author: windowsdriverdev
 ms.date: 10/11/2019
+keywords: ["NetDeviceInitConfig function"]
 f1_keywords:
  - "netdevice/NetDeviceInitConfig"
 ms.keywords: NetDeviceInitConfig

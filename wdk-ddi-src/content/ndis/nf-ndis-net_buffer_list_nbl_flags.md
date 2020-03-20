@@ -5,6 +5,7 @@ description: The NET_BUFFER_LIST_NBL_FLAGS macro retrieves the NblFlags member o
 tech.root: netvista
 ms.assetid: dee43a1e-5815-4324-8d8e-f928fdffdae6
 ms.date: 04/13/2018
+keywords: ["NET_BUFFER_LIST_NBL_FLAGS macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_NBL_FLAGS"
 ms.keywords: NET_BUFFER_LIST_NBL_FLAGS

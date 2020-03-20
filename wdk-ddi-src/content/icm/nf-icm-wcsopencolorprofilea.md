@@ -6,6 +6,7 @@ old-location: print\wcsopencolorprofile.htm
 tech.root: print
 ms.assetid: ecc573e6-c83c-4cf2-9dad-c3c75d9578eb
 ms.date: 04/20/2018
+keywords: ["WcsOpenColorProfileA function"]
 ms.keywords: WcsOpenColorProfile, WcsOpenColorProfile function [Print Devices], WcsOpenColorProfileA, WcsOpenColorProfileW, colorfnc_d9a9eca5-5559-4579-a892-c75499627912.xml, icm/WcsOpenColorProfile, print.wcsopencolorprofile
 ms.topic: function
 req.header: icm.h

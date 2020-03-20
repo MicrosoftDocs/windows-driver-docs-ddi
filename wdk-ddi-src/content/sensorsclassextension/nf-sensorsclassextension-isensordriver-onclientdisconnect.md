@@ -6,6 +6,7 @@ old-location: sensors\isensordriver_onclientdisconnect.htm
 tech.root: sensors
 ms.assetid: 9484610b-4cbd-4c4e-9e60-ef052702325c
 ms.date: 05/03/2018
+keywords: ["ISensorDriver::OnClientDisconnect"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnClientDisconnect method, ISensorDriver.OnClientDisconnect, ISensorDriver::OnClientDisconnect, OnClientDisconnect, OnClientDisconnect method [Sensor Devices], OnClientDisconnect method [Sensor Devices],ISensorDriver interface, Sensor_IFaces_f5f91a04-84b3-4302-9c26-845281651ed9.xml, sensors.isensordriver_onclientdisconnect, sensorsclassextension/ISensorDriver::OnClientDisconnect
 f1_keywords:
  - "sensorsclassextension/ISensorDriver.OnClientDisconnect"

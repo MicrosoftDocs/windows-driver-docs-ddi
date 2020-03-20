@@ -6,6 +6,7 @@ old-location: ifsk\iogetrequestorsessionid.htm
 tech.root: ifsk
 ms.assetid: 9e13cf62-d71e-4878-becd-d34beb2f59b3
 ms.date: 04/16/2018
+keywords: ["IoGetRequestorSessionId function"]
 ms.keywords: IoGetRequestorSessionId, IoGetRequestorSessionId routine [Installable File System Drivers], ifsk.iogetrequestorsessionid, ioref_fe60ee3b-1b5b-4d9c-a4f2-456e05575349.xml, ntifs/IoGetRequestorSessionId
 f1_keywords:
  - "ntifs/IoGetRequestorSessionId"

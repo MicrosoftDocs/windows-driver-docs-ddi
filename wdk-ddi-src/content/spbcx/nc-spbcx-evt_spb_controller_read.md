@@ -6,6 +6,7 @@ old-location: spb\evtspbcontrollerioread.htm
 tech.root: SPB
 ms.assetid: 2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43
 ms.date: 04/30/2018
+keywords: ["EVT_SPB_CONTROLLER_READ callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_READ, EVT_SPB_CONTROLLER_READ callback, EvtSpbControllerIoRead, EvtSpbControllerIoRead callback function [Buses], SPB.evtspbcontrollerioread, spbcx/EvtSpbControllerIoRead
 f1_keywords:
  - "spbcx/EvtSpbControllerIoRead"

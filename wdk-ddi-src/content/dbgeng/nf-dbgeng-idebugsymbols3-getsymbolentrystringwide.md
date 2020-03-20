@@ -6,6 +6,7 @@ old-location: debugger\getsymbolentrystringwide.htm
 tech.root: debugger
 ms.assetid: 65a8d959-98f5-4545-8865-d6d81a752d48
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::GetSymbolEntryStringWide"]
 ms.keywords: GetSymbolEntryStringWide, GetSymbolEntryStringWide method [Windows Debugging], GetSymbolEntryStringWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryStringWide method, IDebugSymbols3.GetSymbolEntryStringWide, IDebugSymbols3::GetSymbolEntryStringWide, dbgeng/IDebugSymbols3::GetSymbolEntryStringWide, debugger.getsymbolentrystringwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSymbolEntryStringWide"

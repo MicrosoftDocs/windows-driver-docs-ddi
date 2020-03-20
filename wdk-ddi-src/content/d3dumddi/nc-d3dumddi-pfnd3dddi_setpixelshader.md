@@ -6,6 +6,7 @@ old-location: display\setpixelshader.htm
 tech.root: display
 ms.assetid: b7ffd96d-086e-445a-89cf-6f34a5b8a5d4
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_SETPIXELSHADER callback function"]
 ms.keywords: PFND3DDDI_SETPIXELSHADER, PFND3DDDI_SETPIXELSHADER callback, SetPixelShader, SetPixelShader callback function [Display Devices], UserModeDisplayDriver_Functions_dd7fa75c-0753-4786-b04a-2fdd0d0e7071.xml, d3dumddi/SetPixelShader, display.setpixelshader
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

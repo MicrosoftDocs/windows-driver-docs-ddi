@@ -6,6 +6,7 @@ old-location: wdf\iwdfusbtargetpipe_retrievepipepolicy.htm
 tech.root: wdf
 ms.assetid: 578f7633-307e-4cda-b8fe-ae73a095976f
 ms.date: 02/26/2018
+keywords: ["IWDFUsbTargetPipe::RetrievePipePolicy"]
 ms.keywords: IWDFUsbTargetPipe interface,RetrievePipePolicy method, IWDFUsbTargetPipe.RetrievePipePolicy, IWDFUsbTargetPipe::RetrievePipePolicy, RetrievePipePolicy, RetrievePipePolicy method, RetrievePipePolicy method,IWDFUsbTargetPipe interface, UMDFUSBref_97c7b2db-213f-4cdd-8901-547af39b087e.xml, umdf.iwdfusbtargetpipe_retrievepipepolicy, wdf.iwdfusbtargetpipe_retrievepipepolicy, wudfusb/IWDFUsbTargetPipe::RetrievePipePolicy
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe.RetrievePipePolicy"

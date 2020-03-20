@@ -6,6 +6,7 @@ old-location: display\dd_deferred_agp_aware_data.htm
 tech.root: display
 ms.assetid: df36008a-2ee4-4e3e-8bad-7da1f27a695d
 ms.date: 05/10/2018
+keywords: ["_DD_DEFERRED_AGP_AWARE_DATA structure"]
 ms.keywords: DD_DEFERRED_AGP_AWARE_DATA, DD_DEFERRED_AGP_AWARE_DATA structure [Display Devices], _DD_DEFERRED_AGP_AWARE_DATA, d3dhal/DD_DEFERRED_AGP_AWARE_DATA, d3dstrct_f07b3180-3442-4c3f-974b-eaf58a3a03df.xml, display.dd_deferred_agp_aware_data
 f1_keywords:
  - "d3dhal/DD_DEFERRED_AGP_AWARE_DATA"

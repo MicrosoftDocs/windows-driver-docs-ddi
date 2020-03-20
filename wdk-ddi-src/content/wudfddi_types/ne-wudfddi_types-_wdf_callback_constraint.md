@@ -6,6 +6,7 @@ old-location: wdf\wdf_callback_constraint.htm
 tech.root: wdf
 ms.assetid: 118a9dcc-8dd4-454a-bab2-1558821781a7
 ms.date: 02/26/2018
+keywords: ["_WDF_CALLBACK_CONSTRAINT enumeration"]
 ms.keywords: None, WDF_CALLBACK_CONSTRAINT, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, WdfDeviceLevel, WdfLevelReserved, _WDF_CALLBACK_CONSTRAINT, wdf.wdf_callback_constraint, wudfddi_types/None, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/WdfDeviceLevel, wudfddi_types/WdfLevelReserved
 f1_keywords:
  - "wudfddi_types/WDF_CALLBACK_CONSTRAINT"

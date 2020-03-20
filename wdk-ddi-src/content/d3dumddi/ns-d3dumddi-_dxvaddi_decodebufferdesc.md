@@ -6,6 +6,7 @@ old-location: display\dxvaddi_decodebufferdesc.htm
 tech.root: display
 ms.assetid: 809b4cf8-e4c5-4cb6-b58f-8b6b98111361
 ms.date: 05/10/2018
+keywords: ["_DXVADDI_DECODEBUFFERDESC structure"]
 ms.keywords: DXVA2_Structs_0946584e-3d1f-4bb4-95d5-7ae2c669814a.xml, DXVADDI_DECODEBUFFERDESC, DXVADDI_DECODEBUFFERDESC structure [Display Devices], _DXVADDI_DECODEBUFFERDESC, d3dumddi/DXVADDI_DECODEBUFFERDESC, display.dxvaddi_decodebufferdesc
 f1_keywords:
  - "d3dumddi/DXVADDI_DECODEBUFFERDESC"

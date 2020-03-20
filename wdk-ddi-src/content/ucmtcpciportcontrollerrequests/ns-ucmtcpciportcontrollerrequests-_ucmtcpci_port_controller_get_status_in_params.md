@@ -6,6 +6,7 @@ old-location: buses\ucmtcpci_port_controller_get_status_in_params.htm
 tech.root: usbref
 ms.assetid: 1b57413b-e1cf-4ec4-80f4-aedffc015b46
 ms.date: 05/07/2018
+keywords: ["_UCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS structure"]
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS, PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS, PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS, UCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS structure [Buses], _UCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS, buses.ucmtcpci_port_controller_get_status_in_params, ucmtcpciportcontrollerrequests/PUCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS"
 f1_keywords:
  - "ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_GET_STATUS_IN_PARAMS"

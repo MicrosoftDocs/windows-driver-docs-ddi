@@ -6,6 +6,7 @@ old-location: netvista\ril_enablemodemfilters.htm
 tech.root: netvista
 ms.assetid: 11fc231e-4b65-4cbb-8c0f-58b1165c08dd
 ms.date: 05/02/2018
+keywords: ["RIL_EnableModemFilters function"]
 ms.keywords: RIL_EnableModemFilters, RIL_EnableModemFilters method [Network Drivers Starting with Windows Vista], netvista.ril_enablemodemfilters, rilapi/RIL_EnableModemFilters
 f1_keywords:
  - "rilapi/RIL_EnableModemFilters"

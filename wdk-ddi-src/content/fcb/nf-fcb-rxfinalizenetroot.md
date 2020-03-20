@@ -6,6 +6,7 @@ old-location: ifsk\rxfinalizenetroot.htm
 tech.root: ifsk
 ms.assetid: f0566902-b85b-4676-9f8f-67749ce2060a
 ms.date: 04/16/2018
+keywords: ["RxFinalizeNetRoot function"]
 ms.keywords: RxFinalizeNetRoot, RxFinalizeNetRoot function [Installable File System Drivers], fcb/RxFinalizeNetRoot, ifsk.rxfinalizenetroot, rxref_66fb454b-96a0-401b-b184-0c24510bfaf6.xml
 f1_keywords:
  - "fcb/RxFinalizeNetRoot"

@@ -6,6 +6,7 @@ old-location: wdf\wdfchildlistretrievenextdevice.htm
 tech.root: wdf
 ms.assetid: 925807ff-e445-4ccf-ace6-fd913439799b
 ms.date: 02/26/2018
+keywords: ["WdfChildListRetrieveNextDevice function"]
 ms.keywords: DFDeviceObjectChildListRef_c7ac1028-c3a3-4189-ae63-510bd199fcb2.xml, WdfChildListRetrieveNextDevice, WdfChildListRetrieveNextDevice method, kmdf.wdfchildlistretrievenextdevice, wdf.wdfchildlistretrievenextdevice, wdfchildlist/WdfChildListRetrieveNextDevice
 f1_keywords:
  - "wdfchildlist/WdfChildListRetrieveNextDevice"

@@ -6,6 +6,7 @@ old-location: netvista\ndisresetevent.htm
 tech.root: netvista
 ms.assetid: fba29b92-5735-4050-b690-3c25e4f57cd1
 ms.date: 05/02/2018
+keywords: ["NdisResetEvent function"]
 ms.keywords: NdisResetEvent, NdisResetEvent function [Network Drivers Starting with Windows Vista], ndis/NdisResetEvent, ndis_event_ref_2970c5ca-b236-41e4-b156-c283f4f637f9.xml, netvista.ndisresetevent
 f1_keywords:
  - "ndis/NdisResetEvent"

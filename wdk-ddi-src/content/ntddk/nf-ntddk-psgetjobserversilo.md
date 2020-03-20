@@ -6,6 +6,7 @@ old-location: kernel\psgetjobserversilo.htm
 tech.root: kernel
 ms.assetid: 8EBCBC06-8373-43EA-91F5-6C8A439C0EAD
 ms.date: 04/30/2018
+keywords: ["PsGetJobServerSilo function"]
 ms.keywords: PsGetJobServerSilo, PsGetJobServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgetjobserversilo, ntddk/PsGetJobServerSilo
 f1_keywords:
  - "ntddk/PsGetJobServerSilo"

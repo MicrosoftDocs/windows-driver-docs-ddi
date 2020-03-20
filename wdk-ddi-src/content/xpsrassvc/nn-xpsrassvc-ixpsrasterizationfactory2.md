@@ -6,6 +6,7 @@ old-location: print\ixpsrasterizationfactory2.htm
 tech.root: print
 ms.assetid: 23994CD9-A65B-4BD7-9070-3F575D011953
 ms.date: 04/20/2018
+keywords: ["IXpsRasterizationFactory2 interface"]
 ms.keywords: IXpsRasterizationFactory2, IXpsRasterizationFactory2 interface [Print Devices], IXpsRasterizationFactory2 interface [Print Devices],described, print.ixpsrasterizationfactory2, xpsrassvc/IXpsRasterizationFactory2
 f1_keywords:
  - "xpsrassvc/IXpsRasterizationFactory2"

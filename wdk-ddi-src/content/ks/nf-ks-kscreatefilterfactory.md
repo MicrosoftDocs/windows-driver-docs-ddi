@@ -6,6 +6,7 @@ old-location: stream\kscreatefilterfactory.htm
 tech.root: stream
 ms.assetid: ebfdae87-febc-4383-93f4-5d613df273a9
 ms.date: 04/23/2018
+keywords: ["KsCreateFilterFactory function"]
 ms.keywords: KsCreateFilterFactory, KsCreateFilterFactory function [Streaming Media Devices], avfunc_0867c824-52e2-475a-9f36-05e6fba4cdd9.xml, ks/KsCreateFilterFactory, stream.kscreatefilterfactory
 f1_keywords:
  - "ks/KsCreateFilterFactory"

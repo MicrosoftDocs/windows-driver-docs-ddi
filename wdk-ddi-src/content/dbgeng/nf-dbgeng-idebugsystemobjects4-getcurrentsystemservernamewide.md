@@ -6,6 +6,7 @@ old-location: debugger\idebugsystemobjects4_getcurrentsystemservernamewide.htm
 tech.root: debugger
 ms.assetid: 44BAB9BF-76E6-42C2-B8DD-EB1A960C429C
 ms.date: 05/03/2018
+keywords: ["IDebugSystemObjects4::GetCurrentSystemServerNameWide"]
 ms.keywords: GetCurrentSystemServerNameWide, GetCurrentSystemServerNameWide method [Windows Debugging], GetCurrentSystemServerNameWide method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentSystemServerNameWide method, IDebugSystemObjects4.GetCurrentSystemServerNameWide, IDebugSystemObjects4::GetCurrentSystemServerNameWide, dbgeng/IDebugSystemObjects4::GetCurrentSystemServerNameWide, debugger.idebugsystemobjects4_getcurrentsystemservernamewide
 f1_keywords:
  - "dbgeng/IDebugSystemObjects4.GetCurrentSystemServerNameWide"

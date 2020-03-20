@@ -6,6 +6,7 @@ old-location: buses\ufxdevicecreate.htm
 tech.root: usbref
 ms.assetid: BA86280E-8324-4D98-B16C-504D427A6A4B
 ms.date: 05/07/2018
+keywords: ["UfxDeviceCreate function"]
 ms.keywords: UfxDeviceCreate, UfxDeviceCreate method [Buses], buses.ufxdevicecreate, ufxclient/UfxDeviceCreate
 f1_keywords:
  - "ufxclient/UfxDeviceCreate"

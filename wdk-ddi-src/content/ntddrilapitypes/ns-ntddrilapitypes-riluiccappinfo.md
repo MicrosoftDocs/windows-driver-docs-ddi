@@ -6,6 +6,7 @@ old-location: netvista\riluiccappinfo.htm
 tech.root: netvista
 ms.assetid: b3a688fe-928c-458e-ac47-59a9ae61bc5e
 ms.date: 05/02/2018
+keywords: ["RILUICCAPPINFO structure"]
 ms.keywords: "*LPRILUICCAPPINFO, RILUICCAPPINFO, RILUICCAPPINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccappinfo, ntddrilapitypes/RILUICCAPPINFO"
 f1_keywords:
  - "ntddrilapitypes/RILUICCAPPINFO"

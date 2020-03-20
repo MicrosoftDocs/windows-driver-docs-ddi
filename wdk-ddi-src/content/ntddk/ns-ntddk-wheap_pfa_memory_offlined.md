@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: 930541d1-adbb-41d0-a0dd-c20a54165506
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
+keywords: ["WHEAP_PFA_MEMORY_OFFLINED structure"]
 f1_keywords:
  - "ntddk/WHEAP_PFA_MEMORY_OFFLINED"
 ms.keywords: WHEAP_PFA_MEMORY_OFFLINED, WHEAP_PFA_MEMORY_OFFLINED, *PWHEAP_PFA_MEMORY_OFFLINED, 

@@ -6,6 +6,7 @@ old-location: debugger\outputregisters.htm
 tech.root: debugger
 ms.assetid: d1354ab7-4d7d-4cc2-8e30-763d8b881a11
 ms.date: 05/03/2018
+keywords: ["IDebugRegisters2::OutputRegisters"]
 ms.keywords: IDebugRegisters interface [Windows Debugging],OutputRegisters method, IDebugRegisters2 interface [Windows Debugging],OutputRegisters method, IDebugRegisters2.OutputRegisters, IDebugRegisters2::OutputRegisters, IDebugRegisters::OutputRegisters, IDebugRegisters_65d62961-afc5-4609-86d2-c55757fe6ce1.xml, OutputRegisters, OutputRegisters method [Windows Debugging], OutputRegisters method [Windows Debugging],IDebugRegisters interface, OutputRegisters method [Windows Debugging],IDebugRegisters2 interface, dbgeng/IDebugRegisters2::OutputRegisters, dbgeng/IDebugRegisters::OutputRegisters, debugger.outputregisters
 f1_keywords:
  - "dbgeng/IDebugRegisters.OutputRegisters"

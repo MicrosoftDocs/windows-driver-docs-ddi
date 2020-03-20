@@ -6,6 +6,7 @@ old-location: debugger\idebugclient_getoutputlineprefix.htm
 tech.root: debugger
 ms.assetid: FE836B10-1782-4B0E-9D4B-2740FE94B6E1
 ms.date: 05/03/2018
+keywords: ["IDebugClient::GetOutputLinePrefix"]
 ms.keywords: GetOutputLinePrefix, GetOutputLinePrefix method [Windows Debugging], GetOutputLinePrefix method [Windows Debugging],IDebugClient interface, IDebugClient interface [Windows Debugging],GetOutputLinePrefix method, IDebugClient.GetOutputLinePrefix, IDebugClient::GetOutputLinePrefix, dbgeng/IDebugClient::GetOutputLinePrefix, debugger.idebugclient_getoutputlineprefix
 f1_keywords:
  - "dbgeng/IDebugClient.GetOutputLinePrefix"

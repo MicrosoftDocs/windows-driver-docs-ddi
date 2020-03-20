@@ -6,6 +6,7 @@ old-location: kernel\obreferenceobjectbyhandlewithtag.htm
 tech.root: kernel
 ms.assetid: f36beac8-e4fb-49ce-b49d-a1a8f32f19a5
 ms.date: 04/30/2018
+keywords: ["ObReferenceObjectByHandleWithTag function"]
 ms.keywords: ObReferenceObjectByHandleWithTag, ObReferenceObjectByHandleWithTag routine [Kernel-Mode Driver Architecture], k107_431c6c60-e2bd-4d90-9054-b950195bbec3.xml, kernel.obreferenceobjectbyhandlewithtag, wdm/ObReferenceObjectByHandleWithTag
 f1_keywords:
  - "wdm/ObReferenceObjectByHandleWithTag"

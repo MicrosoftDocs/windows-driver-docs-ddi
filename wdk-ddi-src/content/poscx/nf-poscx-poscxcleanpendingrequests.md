@@ -6,6 +6,7 @@ old-location: pos\poscxcleanpendingrequests.htm
 tech.root: pos
 ms.assetid: FD6036D5-C316-43E6-8C37-067F5705BCB6
 ms.date: 02/23/2018
+keywords: ["PosCxCleanPendingRequests function"]
 ms.keywords: PosCxCleanPendingRequests, PosCxCleanPendingRequests function, pos.poscxcleanpendingrequests, poscx/PosCxCleanPendingRequests
 f1_keywords:
  - "poscx/PosCxCleanPendingRequests"

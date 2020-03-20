@@ -6,6 +6,7 @@ old-location: bltooth\ioctl_bth_sdp_connect.htm
 tech.root: bltooth
 ms.assetid: 8bfe92c9-6049-4d68-80a9-3a8f8dda3bcc
 ms.date: 04/27/2018
+keywords: ["IOCTL_BTH_SDP_CONNECT IOCTL"]
 ms.keywords: IOCTL_BTH_SDP_CONNECT, IOCTL_BTH_SDP_CONNECT control, IOCTL_BTH_SDP_CONNECT control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_connect, bth_ioctls_e03c93b3-b2af-40d0-a296-bb76f33c38a2.xml, bthioctl/IOCTL_BTH_SDP_CONNECT
 f1_keywords:
  - "bthioctl/IOCTL_BTH_SDP_CONNECT"

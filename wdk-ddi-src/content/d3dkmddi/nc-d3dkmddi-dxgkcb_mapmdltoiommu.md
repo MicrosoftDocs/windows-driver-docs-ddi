@@ -4,6 +4,7 @@ title: DXGKCB_MAPMDLTOIOMMU (d3dkmddi.h)
 description: Implemented by the client driver to map physical pages described by a memory descriptor list (MDL) into the system virtual address space, and use them with the IoMmu.
 ms.assetid: 8badbe56-f46c-442c-8918-5e99db889278
 ms.date: 10/19/2018
+keywords: ["DXGKCB_MAPMDLTOIOMMU callback function"]
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 

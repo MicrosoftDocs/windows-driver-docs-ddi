@@ -6,6 +6,7 @@ old-location: kernel\rtluintptrmult.htm
 tech.root: kernel
 ms.assetid: E484AB83-DEA6-4FC7-9896-26984D998661
 ms.date: 04/30/2018
+keywords: ["RtlUIntPtrMult function"]
 ms.keywords: RtlUIntPtrMult, RtlUIntPtrMult function [Kernel-Mode Driver Architecture], kernel.rtluintptrmult, ntintsafe/RtlUIntPtrMult
 f1_keywords:
  - "ntintsafe/RtlUIntPtrMult"

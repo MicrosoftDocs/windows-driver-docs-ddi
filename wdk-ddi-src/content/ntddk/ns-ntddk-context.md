@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: 19fd27ee-f755-4dab-843e-1aa1beb9448d
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
+keywords: ["CONTEXT structure"]
 f1_keywords:
  - "ntddk/CONTEXT"
 ms.keywords: CONTEXT, CONTEXT, *PCONTEXT, *PCONTEXT

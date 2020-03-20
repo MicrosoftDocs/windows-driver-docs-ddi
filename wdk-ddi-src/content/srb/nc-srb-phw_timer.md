@@ -6,6 +6,7 @@ old-location: storage\phw_timer.htm
 tech.root: storage
 ms.assetid: 8f537ddb-ba94-4423-95a8-6497710d234f
 ms.date: 03/29/2018
+keywords: ["PHW_TIMER callback"]
 ms.keywords: "(*PHW_TIMER), (*PHW_TIMER) callback function [Storage Devices], ide_minikr_55cc9012-04fa-434c-b2b9-d24bbd1d1404.xml, srb/(*PHW_TIMER), storage.phw_timer"
 f1_keywords:
  - "srb/(*PHW_TIMER)"

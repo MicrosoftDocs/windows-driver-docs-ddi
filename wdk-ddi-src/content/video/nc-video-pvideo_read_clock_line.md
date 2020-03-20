@@ -6,6 +6,7 @@ old-location: display\readclockline.htm
 tech.root: display
 ms.assetid: 1051a234-ef63-454e-8957-292e86f4efcd
 ms.date: 05/10/2018
+keywords: ["PVIDEO_READ_CLOCK_LINE callback function"]
 ms.keywords: PVIDEO_READ_CLOCK_LINE, PVIDEO_READ_CLOCK_LINE callback, ReadClockLine, ReadClockLine callback function [Display Devices], VideoMiniport_Functions_5e7bcadb-43ea-4a1b-81b7-666cabd66aa0.xml, display.readclockline, video/ReadClockLine
 f1_keywords:
  - "video/ReadClockLine"

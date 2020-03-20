@@ -6,6 +6,7 @@ old-location: netvista\netdmaproviderstop.htm
 tech.root: netvista
 ms.assetid: 992fcdbd-200f-465d-b4be-922132d51d97
 ms.date: 05/02/2018
+keywords: ["NetDmaProviderStop function"]
 ms.keywords: NetDmaProviderStop, NetDmaProviderStop function [Network Drivers Starting with Windows Vista], netdma/NetDmaProviderStop, netdma_ref_3d99732a-b6db-4d07-a5f0-0e79f82dac32.xml, netvista.netdmaproviderstop
 f1_keywords:
  - "netdma/NetDmaProviderStop"

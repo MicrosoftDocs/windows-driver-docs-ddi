@@ -6,6 +6,7 @@ old-location: image\ioctl_scsiscan_lockdevice.htm
 tech.root: image
 ms.assetid: 93e5d446-4f18-4468-9591-8951d3c85dd3
 ms.date: 05/03/2018
+keywords: ["IOCTL_SCSISCAN_LOCKDEVICE IOCTL"]
 ms.keywords: IOCTL_SCSISCAN_LOCKDEVICE, IOCTL_SCSISCAN_LOCKDEVICE control, IOCTL_SCSISCAN_LOCKDEVICE control code [Imaging Devices], image.ioctl_scsiscan_lockdevice, scsiscan/IOCTL_SCSISCAN_LOCKDEVICE, stifnc_9a61e56c-42e9-4b97-89cb-8cf983582168.xml
 f1_keywords:
  - "scsiscan/IOCTL_SCSISCAN_LOCKDEVICE"

@@ -6,6 +6,7 @@ old-location: hid\hidp_getcoldesc_dbg.htm
 tech.root: hid
 ms.assetid: 65EEEDED-14FE-4275-9314-276E544427DE
 ms.date: 04/30/2018
+keywords: ["_HIDP_GETCOLDESC_DBG structure"]
 ms.keywords: "*PHIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG structure [Human Input Devices], PHIDP_GETCOLDESC_DBG, PHIDP_GETCOLDESC_DBG structure pointer [Human Input Devices], _HIDP_GETCOLDESC_DBG, hid.hidp_getcoldesc_dbg, hidpddi/HIDP_GETCOLDESC_DBG, hidpddi/PHIDP_GETCOLDESC_DBG"
 f1_keywords:
  - "hidpddi/HIDP_GETCOLDESC_DBG"

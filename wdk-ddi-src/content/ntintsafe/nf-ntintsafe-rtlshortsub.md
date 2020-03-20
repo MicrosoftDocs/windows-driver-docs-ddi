@@ -6,6 +6,7 @@ old-location: kernel\rtlshortsub.htm
 tech.root: kernel
 ms.assetid: F94435C2-A2FC-44F4-8A21-E56CBEB8CC37
 ms.date: 04/30/2018
+keywords: ["RtlShortSub function"]
 ms.keywords: RtlShortSub, RtlShortSub function [Kernel-Mode Driver Architecture], kernel.rtlshortsub, ntintsafe/RtlShortSub
 f1_keywords:
  - "ntintsafe/RtlShortSub"

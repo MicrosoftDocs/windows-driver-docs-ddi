@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 37aeff80-0eed-4a18-a387-c83c57b4b9d3
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["_DXGKDDI_GPU_PARTITION_INTERFACE structure"]
 f1_keywords:
  - "dispmprt/_DXGKDDI_GPU_PARTITION_INTERFACE"
 ms.prod: windows-hardware

@@ -6,6 +6,7 @@ old-location: netvista\rilsignalquality.htm
 tech.root: netvista
 ms.assetid: b2edfcdb-28b9-4322-8bfb-4d5d2c2d1519
 ms.date: 05/02/2018
+keywords: ["RILSIGNALQUALITY structure"]
 ms.keywords: "*LPRILSIGNALQUALITY, RILSIGNALQUALITY, RILSIGNALQUALITY structure [Network Drivers Starting with Windows Vista], netvista.rilsignalquality, ntddrilapitypes/RILSIGNALQUALITY"
 f1_keywords:
  - "rilapitypes/RILSIGNALQUALITY"

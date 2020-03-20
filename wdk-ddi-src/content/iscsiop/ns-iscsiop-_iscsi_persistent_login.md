@@ -6,6 +6,7 @@ old-location: storage\iscsi_persistent_login.htm
 tech.root: storage
 ms.assetid: c43ee3dd-552a-41ab-9b4f-01611e44f453
 ms.date: 03/29/2018
+keywords: ["_ISCSI_Persistent_Login structure"]
 ms.keywords: "*PISCSI_Persistent_Login, ISCSI_Persistent_Login, ISCSI_Persistent_Login structure [Storage Devices], PISCSI_Persistent_Login, PISCSI_Persistent_Login structure pointer [Storage Devices], _ISCSI_Persistent_Login, iscsiop/ISCSI_Persistent_Login, iscsiop/PISCSI_Persistent_Login, storage.iscsi_persistent_login, structs-iSCSI_86b54cb5-df75-47c0-8dc4-337a5f46bea0.xml"
 f1_keywords:
  - "iscsiop/ISCSI_Persistent_Login"

@@ -6,6 +6,7 @@ old-location: netvista\ril_setexecutorrfstate.htm
 tech.root: netvista
 ms.assetid: 4543671c-222f-4913-9f88-682af3e54273
 ms.date: 05/02/2018
+keywords: ["RIL_SetExecutorRFState function"]
 ms.keywords: RIL_SetExecutorRFState, RIL_SetExecutorRFState method [Network Drivers Starting with Windows Vista], netvista.ril_setexecutorrfstate, rilapi/RIL_SetExecutorRFState
 f1_keywords:
  - "rilapi/RIL_SetExecutorRFState"

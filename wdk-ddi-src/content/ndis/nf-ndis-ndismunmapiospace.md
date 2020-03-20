@@ -6,6 +6,7 @@ old-location: netvista\ndismunmapiospace.htm
 tech.root: netvista
 ms.assetid: 068232d3-b160-4090-b72c-63d9a31c1567
 ms.date: 05/02/2018
+keywords: ["NdisMUnmapIoSpace function"]
 ms.keywords: NdisMUnmapIoSpace, NdisMUnmapIoSpace function [Network Drivers Starting with Windows Vista], miniport_memory_mapped_ref_b10c4068-0218-4349-8d87-5a9d9a32aac7.xml, ndis/NdisMUnmapIoSpace, netvista.ndismunmapiospace
 f1_keywords:
  - "ndis/NdisMUnmapIoSpace"

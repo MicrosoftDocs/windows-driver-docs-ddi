@@ -6,6 +6,7 @@ old-location: storage\storportsetbusdatabyoffset.htm
 tech.root: storage
 ms.assetid: ec1db013-b630-421b-8d22-385a2d9b9510
 ms.date: 03/29/2018
+keywords: ["StorPortSetBusDataByOffset function"]
 ms.keywords: StorPortSetBusDataByOffset, StorPortSetBusDataByOffset routine [Storage Devices], storage.storportsetbusdatabyoffset, storport/StorPortSetBusDataByOffset, storprt_ebb2afc1-b190-4674-8ee7-bd61953565ab.xml
 f1_keywords:
  - "storport/StorPortSetBusDataByOffset"

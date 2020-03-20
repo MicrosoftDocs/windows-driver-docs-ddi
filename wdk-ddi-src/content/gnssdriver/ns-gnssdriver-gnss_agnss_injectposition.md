@@ -6,6 +6,7 @@ old-location: gnss\gnss_agnss_injectposition.htm
 tech.root: gnss
 ms.assetid: 1FB73F94-F8F3-409F-8B34-3CD303512AD0
 ms.date: 02/15/2018
+keywords: ["GNSS_AGNSS_INJECTPOSITION structure"]
 ms.keywords: "*PGNSS_AGNSS_INJECTPOSITION, GNSS_AGNSS_INJECTPOSITION, GNSS_AGNSS_INJECTPOSITION structure [Sensor Devices], PGNSS_AGNSS_INJECTPOSITION, PGNSS_AGNSS_INJECTPOSITION structure pointer [Sensor Devices], gnss.gnss_agnss_injectposition, gnssdriver/GNSS_AGNSS_INJECTPOSITION, gnssdriver/PGNSS_AGNSS_INJECTPOSITION"
 f1_keywords:
  - "gnssdriver/GNSS_AGNSS_INJECTPOSITION"

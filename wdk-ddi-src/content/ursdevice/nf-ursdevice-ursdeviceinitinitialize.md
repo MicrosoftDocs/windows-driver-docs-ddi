@@ -6,6 +6,7 @@ old-location: buses\ursdeviceinitinitialize.htm
 tech.root: usbref
 ms.assetid: EFA83238-77DF-474D-8F8F-2400C9B23A00
 ms.date: 05/07/2018
+keywords: ["UrsDeviceInitInitialize function"]
 ms.keywords: UrsDeviceInitInitialize, UrsDeviceInitInitialize method [Buses], buses.ursdeviceinitinitialize, ursdevice/UrsDeviceInitInitialize
 f1_keywords:
  - "ursdevice/UrsDeviceInitInitialize"

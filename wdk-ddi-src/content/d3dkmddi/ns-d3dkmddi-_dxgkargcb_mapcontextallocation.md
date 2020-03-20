@@ -5,6 +5,7 @@ description: DXGKARGCB_MAPCONTEXTALLOCATION is used with DxgkCbMapContextAllocat
 old-location: display\dxgkargcb_mapcontextallocation.htm
 ms.assetid: F26E382F-D9F8-4452-983E-4523A77ADC35
 ms.date: 05/10/2018
+keywords: ["_DXGKARGCB_MAPCONTEXTALLOCATION structure"]
 ms.keywords: DXGKARGCB_MAPCONTEXTALLOCATION, DXGKARGCB_MAPCONTEXTALLOCATION structure [Display Devices], _DXGKARGCB_MAPCONTEXTALLOCATION, d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION, display.dxgkargcb_mapcontextallocation
 f1_keywords:
  - "d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION"

@@ -6,6 +6,7 @@ old-location: audio\iportclsstreamresourcemanager.htm
 tech.root: audio
 ms.assetid: FC13CB2E-2027-4BCE-AEEE-346CB0784819
 ms.date: 03/19/2018
+keywords: ["IPortClsStreamResourceManager interface"]
 ms.keywords: IPortClsStreamResourceManager, IPortClsStreamResourceManager interface [Audio Devices], IPortClsStreamResourceManager interface [Audio Devices], described, audio.iportclsstreamresourcemanager, portcls/IPortClsStreamResourceManager
 f1_keywords:
  - "portcls/IPortClsStreamResourceManager"

@@ -6,6 +6,7 @@ old-location: kernel\file_basic_information.htm
 tech.root: kernel
 ms.assetid: 8f79a3cf-9bc7-4135-a90e-d9dce86cf5f6
 ms.date: 01/22/2019
+keywords: ["FILE_BASIC_INFORMATION structure"]
 ms.keywords: "*PFILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_BASIC_INFORMATION, PFILE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_BASIC_INFORMATION, kernel.file_basic_information, kstruct_b_3de98e8c-d842-45e9-a9bd-948276ef1b87.xml, wdm/FILE_BASIC_INFORMATION, wdm/PFILE_BASIC_INFORMATION"
 f1_keywords:
  - "wdm/FILE_BASIC_INFORMATION"

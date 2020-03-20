@@ -6,6 +6,7 @@ old-location: ifsk\fltprepreparecomplete.htm
 tech.root: ifsk
 ms.assetid: f4049af3-3a6f-40fc-a2a7-fd081b27170e
 ms.date: 04/16/2018
+keywords: ["FltPrePrepareComplete function"]
 ms.keywords: FltApiRef_p_to_z_d0d56c7a-abff-4cd2-a1c7-a511d1ac8903.xml, FltPrePrepareComplete, FltPrePrepareComplete routine [Installable File System Drivers], fltkernel/FltPrePrepareComplete, ifsk.fltprepreparecomplete
 f1_keywords:
  - "fltkernel/FltPrePrepareComplete"

@@ -6,6 +6,7 @@ old-location: devtest\wpprecorderdumplivedriverdata.htm
 tech.root: devtest
 ms.assetid: FE3DE2A8-8EE5-4F34-BEE6-731987E5F5BD
 ms.date: 02/23/2018
+keywords: ["imp_WppRecorderDumpLiveDriverData function"]
 ms.keywords: WppRecorderDumpLiveDriverData, devtest.wpprecorderdumplivedriverdata, imp_WppRecorderDumpLiveDriverData, imp_WppRecorderDumpLiveDriverData function [Driver Development Tools], wpprecorder/imp_WppRecorderDumpLiveDriverData
 f1_keywords:
  - "wpprecorder/imp_WppRecorderDumpLiveDriverData"

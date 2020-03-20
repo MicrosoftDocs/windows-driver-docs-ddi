@@ -6,6 +6,7 @@ old-location: netvista\ndisquerydepthslist.htm
 tech.root: netvista
 ms.assetid: 76b076d1-640b-4378-bf6d-36d87a8a5042
 ms.date: 05/02/2018
+keywords: ["NdisQueryDepthSList macro"]
 ms.keywords: NdisQueryDepthSList, NdisQueryDepthSList macro [Network Drivers Starting with Windows Vista], ndis/NdisQueryDepthSList, ndis_interlocked_ref_f44c64cf-029a-408e-84a0-a8c09bc91592.xml, netvista.ndisquerydepthslist
 f1_keywords:
  - "ndis/NdisQueryDepthSList"

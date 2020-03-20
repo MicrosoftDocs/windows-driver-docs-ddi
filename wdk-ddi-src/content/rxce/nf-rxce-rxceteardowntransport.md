@@ -6,6 +6,7 @@ old-location: ifsk\rxceteardowntransport.htm
 tech.root: ifsk
 ms.assetid: 61376532-c78f-4a22-b8b7-ee55ddcb4b57
 ms.date: 04/16/2018
+keywords: ["RxCeTearDownTransport function"]
 ms.keywords: RxCeTearDownTransport, RxCeTearDownTransport function [Installable File System Drivers], ifsk.rxceteardowntransport, rxce/RxCeTearDownTransport, rxref_12c54611-8bbf-46bf-9ee9-35072b9322c1.xml
 f1_keywords:
  - "rxce/RxCeTearDownTransport"

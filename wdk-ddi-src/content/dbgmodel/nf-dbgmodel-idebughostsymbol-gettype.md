@@ -4,6 +4,7 @@ title: IDebugHostSymbol::GetType (dbgmodel.h)
 description: Returns the type e.g. int * of the symbol if the symbol has a type.  If the symbol does not have a type, an error is returned.
 ms.assetid: a47a6b5b-e3e6-4aad-8eaf-eb092390b0de
 ms.date: 08/14/2018
+keywords: ["IDebugHostSymbol::GetType"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol.GetType"
 ms.keywords: IDebugHostSymbol::GetType, GetType, IDebugHostSymbol.GetType, IDebugHostSymbol::GetType, IDebugHostSymbol.GetType

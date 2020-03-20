@@ -6,6 +6,7 @@ old-location: display\updatepalette.htm
 tech.root: display
 ms.assetid: 7c22e0c9-cc24-4398-88b7-c91855cbc731
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_UPDATEPALETTE callback function"]
 ms.keywords: PFND3DDDI_UPDATEPALETTE, PFND3DDDI_UPDATEPALETTE callback, UpdatePalette, UpdatePalette callback function [Display Devices], UserModeDisplayDriver_Functions_d3b21e65-68dc-44d9-b5b3-96f37588965e.xml, d3dumddi/UpdatePalette, display.updatepalette
 f1_keywords:
  - "d3dumddi/UpdatePalette"

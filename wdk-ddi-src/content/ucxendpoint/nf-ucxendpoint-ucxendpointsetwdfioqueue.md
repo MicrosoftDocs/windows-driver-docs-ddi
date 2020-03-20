@@ -6,6 +6,7 @@ old-location: buses\_ucxendpointsetwdfioqueue.htm
 tech.root: usbref
 ms.assetid: DC23B286-8A52-4642-B345-D76802C83C55
 ms.date: 05/07/2018
+keywords: ["UcxEndpointSetWdfIoQueue function"]
 ms.keywords: UcxEndpointSetWdfIoQueue, UcxEndpointSetWdfIoQueue method [Buses], buses._ucxendpointsetwdfioqueue
 f1_keywords:
  - "ucxendpoint/UcxEndpointSetWdfIoQueue"

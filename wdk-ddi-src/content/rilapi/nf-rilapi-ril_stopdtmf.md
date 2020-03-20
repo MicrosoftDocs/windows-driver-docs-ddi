@@ -6,6 +6,7 @@ old-location: netvista\ril_stopdtmf.htm
 tech.root: netvista
 ms.assetid: d7f70ecd-0a11-48bf-9a8b-d2e08c280f51
 ms.date: 05/02/2018
+keywords: ["RIL_StopDTMF function"]
 ms.keywords: RIL_StopDTMF, RIL_StopDTMF method [Network Drivers Starting with Windows Vista], netvista.ril_stopdtmf, rilapi/RIL_StopDTMF
 f1_keywords:
  - "rilapi/RIL_StopDTMF"

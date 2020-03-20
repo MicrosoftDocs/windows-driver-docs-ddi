@@ -6,6 +6,7 @@ old-location: stream\ksfilterfactorygetsymboliclink.htm
 tech.root: stream
 ms.assetid: db657820-75b7-49fe-904d-05f8bc45b8c5
 ms.date: 04/23/2018
+keywords: ["KsFilterFactoryGetSymbolicLink function"]
 ms.keywords: KsFilterFactoryGetSymbolicLink, KsFilterFactoryGetSymbolicLink function [Streaming Media Devices], avfunc_066ba440-b7d8-4c75-99bd-7b7cb38e4d70.xml, ks/KsFilterFactoryGetSymbolicLink, stream.ksfilterfactorygetsymboliclink
 f1_keywords:
  - "ks/KsFilterFactoryGetSymbolicLink"

@@ -3,6 +3,7 @@ UID: NA:tdi
 title: Tdi.h header
 ms.assetid: 93346acb-d6ba-3f68-bb0b-d5d1f2cd2e12
 ms.date: 05/09/2018
+keywords: ["Tdi.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

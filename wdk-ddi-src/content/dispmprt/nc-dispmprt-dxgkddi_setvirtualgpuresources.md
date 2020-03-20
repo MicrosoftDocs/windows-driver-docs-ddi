@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: fd5896b3-0db1-497d-a984-5e05a293626d
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["DXGKDDI_SETVIRTUALGPURESOURCES callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_SETVIRTUALGPURESOURCES"
 req.header: dispmprt.h

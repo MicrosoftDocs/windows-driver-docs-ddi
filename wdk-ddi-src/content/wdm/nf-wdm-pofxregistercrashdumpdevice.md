@@ -6,6 +6,7 @@ old-location: kernel\pofxregistercrashdumpdevice.htm
 tech.root: kernel
 ms.assetid: 3237B68F-838A-4443-89FD-DC7815EAB403
 ms.date: 04/30/2018
+keywords: ["PoFxRegisterCrashdumpDevice function"]
 ms.keywords: PoFxRegisterCrashdumpDevice, PoFxRegisterCrashdumpDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregistercrashdumpdevice, wdm/PoFxRegisterCrashdumpDevice
 f1_keywords:
  - "wdm/PoFxRegisterCrashdumpDevice"

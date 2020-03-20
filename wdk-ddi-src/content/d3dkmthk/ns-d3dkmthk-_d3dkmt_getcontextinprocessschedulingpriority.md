@@ -5,6 +5,7 @@ description: Describes information that is required for an in-process (in-proc) 
 old-location: display\d3dkmt_getcontextinprocessschedulingpriority.htm
 ms.assetid: a72dd755-efd9-4950-8400-179eb1d63e9a
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY structure"]
 ms.keywords: D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY structure [Display Devices], _D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, d3dkmthk/D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, display.d3dkmt_getcontextinprocessschedulingpriority
 f1_keywords:
  - "d3dkmthk/D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY"

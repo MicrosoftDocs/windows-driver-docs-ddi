@@ -6,6 +6,7 @@ old-location: spb\spbrequestgettarget.htm
 tech.root: SPB
 ms.assetid: 2F89C886-99FF-4D6C-B52F-6422DB9E76AE
 ms.date: 04/30/2018
+keywords: ["SpbRequestGetTarget function"]
 ms.keywords: SPB.spbrequestgettarget, SpbRequestGetTarget, SpbRequestGetTarget method [Buses], spbcx/SpbRequestGetTarget
 f1_keywords:
  - "spbcx/SpbRequestGetTarget"

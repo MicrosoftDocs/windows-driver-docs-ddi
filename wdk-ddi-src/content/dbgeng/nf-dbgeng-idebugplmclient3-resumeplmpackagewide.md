@@ -6,6 +6,7 @@ old-location: debugger\idebugplmclient3_resumeplmpackagewide.htm
 tech.root: debugger
 ms.assetid: CC69357E-425B-440B-93D0-918E8586D5DF
 ms.date: 05/03/2018
+keywords: ["IDebugPlmClient3::ResumePlmPackageWide"]
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],ResumePlmPackageWide method, IDebugPlmClient3.ResumePlmPackageWide, IDebugPlmClient3::ResumePlmPackageWide, ResumePlmPackageWide, ResumePlmPackageWide method [Windows Debugging], ResumePlmPackageWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::ResumePlmPackageWide, debugger.idebugplmclient3_resumeplmpackagewide
 f1_keywords:
  - "dbgeng/IDebugPlmClient3.ResumePlmPackageWide"

@@ -6,6 +6,7 @@ ms.author: misaso
 description: The available meta-command bind point parameter types.
 ms.assetid: bad015e6-e95f-43e4-b139-4e8b4555a089
 ms.date: 10/19/2018
+keywords: ["D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE"
 ms.keywords: D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE, D3D12DDIARG_METACOMMAND_BINDPOINT_PARAMETER_TYPE,

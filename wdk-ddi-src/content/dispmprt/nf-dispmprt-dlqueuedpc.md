@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: cae84d83-2c83-4b91-98f5-7daff6a14973
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
+keywords: ["DlQueueDpc function"]
 f1_keywords:
  - "dispmprt/DlQueueDpc"
 ms.keywords: DlQueueDpc

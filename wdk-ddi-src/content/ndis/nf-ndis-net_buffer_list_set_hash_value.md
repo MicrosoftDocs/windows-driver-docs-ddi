@@ -5,6 +5,7 @@ description: The NET_BUFFER_LIST_SET_HASH_VALUE macro sets the hash value inform
 tech.root: netvista
 ms.assetid: 4c72d349-dc74-42b5-ae97-2e68f18285fa
 ms.date: 04/13/2018
+keywords: ["NET_BUFFER_LIST_SET_HASH_VALUE macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_SET_HASH_VALUE"
 ms.keywords: NET_BUFFER_LIST_SET_HASH_VALUE

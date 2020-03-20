@@ -5,6 +5,7 @@ description: The D3DKMTGetPresentHistory function retrieves copying history.
 old-location: display\d3dkmtgetpresenthistory.htm
 ms.assetid: e00af04e-4770-4505-a06c-c44405dcaab5
 ms.date: 05/10/2018
+keywords: ["D3DKMTGetPresentHistory function"]
 ms.keywords: D3DKMTGetPresentHistory, D3DKMTGetPresentHistory function [Display Devices], OpenGL_Functions_9070e169-207c-478d-8eab-b0bcfad65362.xml, d3dkmthk/D3DKMTGetPresentHistory, display.d3dkmtgetpresenthistory
 f1_keywords:
  - "d3dkmthk/D3DKMTGetPresentHistory"

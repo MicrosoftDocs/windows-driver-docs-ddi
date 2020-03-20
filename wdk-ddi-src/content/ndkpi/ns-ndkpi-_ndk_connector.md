@@ -6,6 +6,7 @@ old-location: netvista\ndk_connector.htm
 tech.root: netvista
 ms.assetid: B2E4D369-CCCF-4654-875F-69E90FEA1FF9
 ms.date: 05/02/2018
+keywords: ["_NDK_CONNECTOR structure"]
 ms.keywords: NDK_CONNECTOR, NDK_CONNECTOR structure [Network Drivers Starting with Windows Vista], PNDK_CONNECTOR, PNDK_CONNECTOR structure pointer [Network Drivers Starting with Windows Vista], _NDK_CONNECTOR, ndkpi/NDK_CONNECTOR, ndkpi/PNDK_CONNECTOR, netvista.ndk_connector
 f1_keywords:
  - "ndkpi/NDK_CONNECTOR"

@@ -6,6 +6,7 @@ old-location: buses\evt_ufx_device_super_speed_power_feature.htm
 tech.root: usbref
 ms.assetid: 5A2B787B-13B8-48E9-B53E-7F6409820B88
 ms.date: 05/07/2018
+keywords: ["EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback function"]
 ms.keywords: EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, EVT_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback, EvtUfxDeviceSuperSpeedPowerFeature, EvtUfxDeviceSuperSpeedPowerFeature callback function [Buses], PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE, PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE callback function pointer [Buses], buses.evt_ufx_device_super_speed_power_feature, ufxclient/EvtUfxDeviceSuperSpeedPowerFeature
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_SUPER_SPEED_POWER_FEATURE"

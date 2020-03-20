@@ -6,6 +6,7 @@ old-location: audio\ksnodeproperty_audio_channel.htm
 tech.root: audio
 ms.assetid: f76f5552-725b-4d8c-ab29-1f2de7bdc81f
 ms.date: 04/30/2019
+keywords: ["KSNODEPROPERTY_AUDIO_CHANNEL structure"]
 ms.keywords: "*PKSNODEPROPERTY_AUDIO_CHANNEL, KSNODEPROPERTY_AUDIO_CHANNEL, KSNODEPROPERTY_AUDIO_CHANNEL structure [Audio Devices], PKSNODEPROPERTY_AUDIO_CHANNEL, PKSNODEPROPERTY_AUDIO_CHANNEL structure pointer [Audio Devices], aud-prop_a804d95b-c793-43c0-9579-af759c3c007f.xml, audio.ksnodeproperty_audio_channel, ksmedia/KSNODEPROPERTY_AUDIO_CHANNEL, ksmedia/PKSNODEPROPERTY_AUDIO_CHANNEL"
 f1_keywords:
  - "ksmedia/KSNODEPROPERTY_AUDIO_CHANNEL"

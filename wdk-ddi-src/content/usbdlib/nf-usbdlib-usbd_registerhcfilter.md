@@ -6,6 +6,7 @@ old-location: buses\usbd_registerhcfilter.htm
 tech.root: usbref
 ms.assetid: 2cc24024-75ec-45ba-867c-efc8e7da7587
 ms.date: 05/07/2018
+keywords: ["USBD_RegisterHcFilter function"]
 ms.keywords: USBD_RegisterHcFilter, USBD_RegisterHcFilter routine [Buses], buses.usbd_registerhcfilter, usbdlib/USBD_RegisterHcFilter, usbfunc_de494163-188c-4356-bd91-c6fa38693d55.xml
 f1_keywords:
  - "usbdlib/USBD_RegisterHcFilter"

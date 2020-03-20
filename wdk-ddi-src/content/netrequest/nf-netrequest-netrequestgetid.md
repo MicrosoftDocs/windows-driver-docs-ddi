@@ -5,6 +5,7 @@ description: Retrieves the NDIS_OID identifier associated with the specified net
 tech.root: netvista
 ms.assetid: 9e3bbfd8-0cc1-4d71-b648-c937b9e6b762
 ms.date: 02/08/2018
+keywords: ["NetRequestGetId function"]
 f1_keywords:
  - "netrequest/NetRequestGetId"
 ms.keywords: NetRequestGetId

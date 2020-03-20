@@ -6,6 +6,7 @@ old-location: netvista\dot11extsetmulticastcipheralgorithm.htm
 tech.root: netvista
 ms.assetid: af023bc5-af3e-429c-b9c4-c06e5598cfaf
 ms.date: 02/16/2018
+keywords: ["DOT11EXT_SET_MULTICAST_CIPHER_ALGORITHM callback"]
 ms.keywords: DOT11EXT_SET_MULTICAST_CIPHER_ALGORITHM, Dot11ExtSetMulticastCipherAlgorithm, Dot11ExtSetMulticastCipherAlgorithm callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_67af4c54-7246-4d6e-a82f-35a7b23c8200.xml, netvista.dot11extsetmulticastcipheralgorithm, wlanihv/Dot11ExtSetMulticastCipherAlgorithm
 f1_keywords:
  - "wlanihv/Dot11ExtSetMulticastCipherAlgorithm"

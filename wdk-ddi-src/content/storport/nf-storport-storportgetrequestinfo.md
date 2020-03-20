@@ -6,6 +6,7 @@ old-location: storage\storportgetrequestinfo.htm
 tech.root: storage
 ms.assetid: 3B0A25E8-6DBC-4AA9-A0D0-DDB36B402F43
 ms.date: 03/29/2018
+keywords: ["StorPortGetRequestInfo function"]
 ms.keywords: StorPortGetRequestInfo, StorPortGetRequestInfo routine [Storage Devices], storage.storportgetrequestinfo, storport/StorPortGetRequestInfo
 f1_keywords:
  - "storport/StorPortGetRequestInfo"

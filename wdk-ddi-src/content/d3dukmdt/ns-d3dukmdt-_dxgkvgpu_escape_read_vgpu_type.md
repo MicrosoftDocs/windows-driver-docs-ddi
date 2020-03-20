@@ -6,6 +6,7 @@ old-location: display\dxgkvgpu_escape_read_vgpu_type.htm
 tech.root: display
 ms.assetid: 2D3D8927-74E3-438F-94CF-63456C7C7BBC
 ms.date: 05/10/2018
+keywords: ["_DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure"]
 ms.keywords: DXGKVGPU_ESCAPE_READ_VGPU_TYPE, DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure [Display Devices], _DXGKVGPU_ESCAPE_READ_VGPU_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_READ_VGPU_TYPE, display.dxgkvgpu_escape_read_vgpu_type
 f1_keywords:
  - "d3dukmdt/DXGKVGPU_ESCAPE_READ_VGPU_TYPE"

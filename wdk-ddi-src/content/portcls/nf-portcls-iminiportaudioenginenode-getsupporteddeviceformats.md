@@ -6,6 +6,7 @@ old-location: audio\iminiportaudioenginenode_getsupporteddeviceformats.htm
 tech.root: audio
 ms.assetid: 2B27E92C-8781-4499-A1E0-7C1BBFFAA2DF
 ms.date: 05/08/2018
+keywords: ["IMiniportAudioEngineNode::GetSupportedDeviceFormats"]
 ms.keywords: GetSupportedDeviceFormats, GetSupportedDeviceFormats method [Audio Devices], GetSupportedDeviceFormats method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetSupportedDeviceFormats method, IMiniportAudioEngineNode.GetSupportedDeviceFormats, IMiniportAudioEngineNode::GetSupportedDeviceFormats, audio.iminiportaudioenginenode_getsupporteddeviceformats, portcls/IMiniportAudioEngineNode::GetSupportedDeviceFormats
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetSupportedDeviceFormats"

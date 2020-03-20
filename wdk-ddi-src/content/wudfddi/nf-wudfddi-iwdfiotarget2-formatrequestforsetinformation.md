@@ -6,6 +6,7 @@ old-location: wdf\iwdfiotarget2_formatrequestforsetinformation.htm
 tech.root: wdf
 ms.assetid: 2bfdc5c6-da5a-43c1-9165-02d6c448a690
 ms.date: 02/26/2018
+keywords: ["IWDFIoTarget2::FormatRequestForSetInformation"]
 ms.keywords: FormatRequestForSetInformation, FormatRequestForSetInformation method, FormatRequestForSetInformation method,IWDFIoTarget2 interface, IWDFIoTarget2 interface,FormatRequestForSetInformation method, IWDFIoTarget2.FormatRequestForSetInformation, IWDFIoTarget2::FormatRequestForSetInformation, UMDFIoTargetObjectRef_234ebe5b-1d13-47e5-873d-feb45b12c850.xml, umdf.iwdfiotarget2_formatrequestforsetinformation, wdf.iwdfiotarget2_formatrequestforsetinformation, wudfddi/IWDFIoTarget2::FormatRequestForSetInformation
 f1_keywords:
  - "wudfddi/IWDFIoTarget2.FormatRequestForSetInformation"

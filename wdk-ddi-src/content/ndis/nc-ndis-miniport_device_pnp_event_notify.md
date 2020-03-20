@@ -6,6 +6,7 @@ old-location: netvista\miniportdevicepnpeventnotify.htm
 tech.root: netvista
 ms.assetid: e41240c0-17be-42ef-a72c-c5311115cf64
 ms.date: 05/02/2018
+keywords: ["MINIPORT_DEVICE_PNP_EVENT_NOTIFY callback function"]
 ms.keywords: MINIPORT_DEVICE_PNP_EVENT_NOTIFY, MINIPORT_DEVICE_PNP_EVENT_NOTIFY callback, MiniportDevicePnPEventNotify, MiniportDevicePnPEventNotify callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_5f503cae-149c-447c-b3f5-cb09d2c47ad7.xml, ndis/MiniportDevicePnPEventNotify, netvista.miniportdevicepnpeventnotify
 f1_keywords:
  - "ndis/MiniportDevicePnPEventNotify"

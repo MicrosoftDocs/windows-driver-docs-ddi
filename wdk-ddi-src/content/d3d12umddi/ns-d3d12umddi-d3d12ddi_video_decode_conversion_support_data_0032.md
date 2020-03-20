@@ -5,6 +5,7 @@ description: Video decode conversion support data.
 old-location: display\d3d12ddi-video-decode-conversion-support-data-0032.htm
 ms.assetid: 1395fe30-9bbf-433c-8696-a0f842bad10e
 ms.date: 04/16/2018
+keywords: ["D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032, display.d3d12ddi-video-decode-conversion-support-data-0032
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032"

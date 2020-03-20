@@ -6,6 +6,7 @@ old-location: wdf\wdfverifierkebugcheck.htm
 tech.root: wdf
 ms.assetid: 3fa8ea3d-cca0-402d-a3a8-1281ad4231d4
 ms.date: 02/26/2018
+keywords: ["WdfVerifierKeBugCheck function"]
 ms.keywords: DFDebugRef_05774709-97ed-4fcc-b0b2-9fdac9a34094.xml, WdfVerifierKeBugCheck, WdfVerifierKeBugCheck function, kmdf.wdfverifierkebugcheck, wdf.wdfverifierkebugcheck, wdfverifier/WdfVerifierKeBugCheck
 f1_keywords:
  - "wdfverifier/WdfVerifierKeBugCheck"

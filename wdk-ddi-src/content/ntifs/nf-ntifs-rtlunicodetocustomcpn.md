@@ -6,6 +6,7 @@ old-location: ifsk\rtlunicodetocustomcpn.htm
 tech.root: ifsk
 ms.assetid: db4335c1-b6c9-4afd-b30f-95b736be696b
 ms.date: 04/16/2018
+keywords: ["RtlUnicodeToCustomCPN function"]
 ms.keywords: RtlUnicodeToCustomCPN, RtlUnicodeToCustomCPN function [Installable File System Drivers], ifsk.rtlunicodetocustomcpn, ntifs/RtlUnicodeToCustomCPN, rtlref_0c9942bd-a950-4d59-8fc7-58c41cfe78d4.xml
 f1_keywords:
  - "ntifs/RtlUnicodeToCustomCPN"

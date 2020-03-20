@@ -6,6 +6,7 @@ old-location: hid\hidp_getusagevaluearray.htm
 tech.root: hid
 ms.assetid: afc92692-c665-44a7-b268-d29adc42f5bd
 ms.date: 04/30/2018
+keywords: ["HidP_GetUsageValueArray function"]
 ms.keywords: HidP_GetUsageValueArray, HidP_GetUsageValueArray routine [Human Input Devices], hid.hidp_getusagevaluearray, hidfunc_4e641f34-d016-4b2f-b472-069334d3e461.xml, hidpi/HidP_GetUsageValueArray
 f1_keywords:
  - "hidpi/HidP_GetUsageValueArray"

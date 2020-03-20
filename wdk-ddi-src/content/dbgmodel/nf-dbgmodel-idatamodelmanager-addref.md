@@ -4,6 +4,7 @@ title: IDataModelManager::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object.
 ms.assetid: 99772ad4-1a6d-4611-81c9-c83ce12d3d30
 ms.date: 07/20/2018
+keywords: ["IDataModelManager::AddRef"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.AddRef"
 ms.keywords: IDataModelManager::AddRef, AddRef, IDataModelManager.AddRef, IDataModelManager::AddRef, IDataModelManager.AddRef

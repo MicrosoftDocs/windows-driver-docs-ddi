@@ -6,6 +6,7 @@ old-location: display\dxgk_pte_page_size.htm
 tech.root: display
 ms.assetid: 54ADAD37-C479-4F07-B0DD-CDF25AA4390C
 ms.date: 05/10/2018
+keywords: ["_DXGK_PTE_PAGE_SIZE enumeration"]
 ms.keywords: DXGK_PTE_PAGE_SIZE, DXGK_PTE_PAGE_SIZE enumeration [Display Devices], DXGK_PTE_PAGE_TABLE_PAGE_4KB, DXGK_PTE_PAGE_TABLE_PAGE_64KB, _DXGK_PTE_PAGE_SIZE, d3dukmdt/DXGK_PTE_PAGE_SIZE, d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_4KB, d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_64KB, display.dxgk_pte_page_size
 f1_keywords:
  - "d3dukmdt/DXGK_PTE_PAGE_SIZE"

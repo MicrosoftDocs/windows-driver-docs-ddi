@@ -6,6 +6,7 @@ old-location: stream\iksnotifyevent.htm
 tech.root: stream
 ms.assetid: 1de4db64-be4c-4a9b-b1ab-29f703e17959
 ms.date: 04/23/2018
+keywords: ["IKsNotifyEvent interface"]
 ms.keywords: IKsNotifyEvent, IKsNotifyEvent interface [Streaming Media Devices], IKsNotifyEvent interface [Streaming Media Devices],described, ksproxy/IKsNotifyEvent, ksproxy_1ef13fd1-5ccb-410c-8b0e-4942d9ba790e.xml, stream.iksnotifyevent
 f1_keywords:
  - "ksproxy/IKsNotifyEvent"

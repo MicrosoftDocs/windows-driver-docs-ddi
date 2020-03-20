@@ -6,6 +6,7 @@ old-location: wpddk\iportabledevicevalues.htm
 tech.root: wpd_dk
 ms.assetid: 4a97301a-12cc-442f-a080-446ec9e1e245
 ms.date: 02/15/2018
+keywords: ["IPortableDeviceValues interface"]
 ms.keywords: IPortableDeviceValues, IPortableDeviceValues interface, IPortableDeviceValues interface,described, IPortableDeviceValuesInterface, portabledevicetypes/IPortableDeviceValues, wpddk.iportabledevicevalues
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues"

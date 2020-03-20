@@ -6,6 +6,7 @@ old-location: storage\hwscsiwmiqueryreginfo.htm
 tech.root: storage
 ms.assetid: 416f8629-324f-4698-bbe9-699f5d53011e
 ms.date: 03/29/2018
+keywords: ["PSCSIWMI_QUERY_REGINFO callback function"]
 ms.keywords: HwScsiWmiQueryReginfo, HwScsiWmiQueryReginfo callback function [Storage Devices], PSCSIWMI_QUERY_REGINFO, PSCSIWMI_QUERY_REGINFO callback, Scsimini_16dc5cef-69cd-488a-b941-9819951a3652.xml, scsiwmi/HwScsiWmiQueryReginfo, storage.hwscsiwmiqueryreginfo
 f1_keywords:
  - "scsiwmi/HwScsiWmiQueryReginfo"

@@ -6,6 +6,7 @@ old-location: netvista\ndk_fn_get_privileged_memory_region_token.htm
 tech.root: netvista
 ms.assetid: A6295FEE-3633-42E7-A2EA-BA0D3C9E4101
 ms.date: 05/02/2018
+keywords: ["NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN callback function"]
 ms.keywords: NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN, NDK_FN_GET_PRIVILEGED_MEMORY_REGION_TOKEN callback, NdkGetPrivilegedMemoryRegionToken, NdkGetPrivilegedMemoryRegionToken callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetPrivilegedMemoryRegionToken, netvista.ndk_fn_get_privileged_memory_region_token
 f1_keywords:
  - "ndkpi/NdkGetPrivilegedMemoryRegionToken"

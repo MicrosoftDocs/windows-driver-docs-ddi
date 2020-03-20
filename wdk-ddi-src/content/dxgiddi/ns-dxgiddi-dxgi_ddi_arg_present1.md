@@ -6,6 +6,7 @@ old-location: display\dxgi_ddi_arg_present1.htm
 tech.root: display
 ms.assetid: F8575652-CA6D-472E-A314-91B07C48558B
 ms.date: 05/10/2018
+keywords: ["DXGI_DDI_ARG_PRESENT1 structure"]
 ms.keywords: DXGI_DDI_ARG_PRESENT1, DXGI_DDI_ARG_PRESENT1 structure [Display Devices], display.dxgi_ddi_arg_present1, dxgiddi/DXGI_DDI_ARG_PRESENT1
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_PRESENT1"

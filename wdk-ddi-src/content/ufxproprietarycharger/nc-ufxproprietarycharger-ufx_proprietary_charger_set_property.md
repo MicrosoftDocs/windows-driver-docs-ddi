@@ -6,6 +6,7 @@ old-location: buses\ufx_proprietary_charger_set_property.htm
 tech.root: usbref
 ms.assetid: 504878FA-3234-4BE7-95D9-6CCE08DB4D8A
 ms.date: 05/07/2018
+keywords: ["UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function"]
 ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY, PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_SET_PROPERTY, UFX_PROPRIETARY_CHARGER_SET_PROPERTY callback, UfxProprietaryChargerSetProperty, UfxProprietaryChargerSetProperty callback function [Buses], buses.ufx_proprietary_charger_set_property, ufxproprietarycharger/UfxProprietaryChargerSetProperty
 f1_keywords:
  - "ufxproprietarycharger/PFN_UFX_PROPRIETARY_CHARGER_SET_PROPERTY"

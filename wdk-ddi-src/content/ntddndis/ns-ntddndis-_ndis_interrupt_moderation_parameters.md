@@ -6,6 +6,7 @@ old-location: netvista\ndis_interrupt_moderation_parameters.htm
 tech.root: netvista
 ms.assetid: e2270dbc-0bc3-4bef-9e11-26006d8f0d71
 ms.date: 05/02/2018
+keywords: ["_NDIS_INTERRUPT_MODERATION_PARAMETERS structure"]
 ms.keywords: "*PNDIS_INTERRUPT_MODERATION_PARAMETERS, NDIS_INTERRUPT_MODERATION_PARAMETERS, NDIS_INTERRUPT_MODERATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_INTERRUPT_MODERATION_PARAMETERS, PNDIS_INTERRUPT_MODERATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_INTERRUPT_MODERATION_PARAMETERS, netvista.ndis_interrupt_moderation_parameters, ntddndis/NDIS_INTERRUPT_MODERATION_PARAMETERS, ntddndis/PNDIS_INTERRUPT_MODERATION_PARAMETERS, oid_structures_ref_448cef08-e024-4e5b-a370-fb6e8d78c9cd.xml"
 f1_keywords:
  - "ntddndis/NDIS_INTERRUPT_MODERATION_PARAMETERS"

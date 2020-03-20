@@ -6,6 +6,7 @@ old-location: netvista\ndisallocatenetbufferpool.htm
 tech.root: netvista
 ms.assetid: bc27758a-a793-48a1-a6ab-bd193aa9c61a
 ms.date: 05/02/2018
+keywords: ["NdisAllocateNetBufferPool function"]
 ms.keywords: NdisAllocateNetBufferPool, NdisAllocateNetBufferPool function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferPool, ndis_netbuf_functions_ref_f12d38a1-161d-4209-95ea-6e66fcbef255.xml, netvista.ndisallocatenetbufferpool
 f1_keywords:
  - "ndis/NdisAllocateNetBufferPool"

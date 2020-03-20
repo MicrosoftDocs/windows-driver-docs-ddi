@@ -5,6 +5,7 @@ description: The CreateComputeShader function creates a compute shader.
 old-location: display\createcomputeshader.htm
 ms.assetid: e62ad086-f652-4e2c-bc2d-f1ccb197f01e
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_CREATECOMPUTESHADER callback function"]
 ms.keywords: CreateComputeShader, CreateComputeShader callback function [Display Devices], PFND3D11DDI_CREATECOMPUTESHADER, PFND3D11DDI_CREATECOMPUTESHADER callback, UserModeDisplayDriverDx11_Functions_37f002b7-445e-4a89-8c3d-586c8072773d.xml, d3d10umddi/CreateComputeShader, display.createcomputeshader
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

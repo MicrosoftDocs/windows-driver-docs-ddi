@@ -5,6 +5,7 @@ description: The D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure contains informa
 old-location: display\d3dkmt_waitforsynchronizationobject2.htm
 ms.assetid: 934bfe32-b54b-477c-a5f8-714caa97f233
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure"]
 ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure [Display Devices], OpenGL_Structs_fb1ca5e1-799c-49c7-844d-25954fd0db64.xml, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, display.d3dkmt_waitforsynchronizationobject2
 f1_keywords:
  - "d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2"

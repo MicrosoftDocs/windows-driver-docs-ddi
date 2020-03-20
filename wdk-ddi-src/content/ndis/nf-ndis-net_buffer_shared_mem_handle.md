@@ -5,6 +5,7 @@ description: The NET_BUFFER_SHARED_MEM_HANDLE macro gets the shared memory handl
 tech.root: netvista
 ms.assetid: c990458a-27a6-4a03-9660-9514bb0da9b9
 ms.date: 04/13/2018
+keywords: ["NET_BUFFER_SHARED_MEM_HANDLE macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_SHARED_MEM_HANDLE"
 ms.keywords: NET_BUFFER_SHARED_MEM_HANDLE

@@ -5,6 +5,7 @@ description: The pfnDestroyVideoProcessor callback function destroys a video pro
 old-location: display\pfnd3d12ddi_destroyvideoprocessor.htm
 ms.assetid: 93C1FA5F-064F-41AC-B854-FF59A5CC172C
 ms.date: 05/10/2018
+keywords: ["PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021 callback function"]
 ms.keywords: PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021, PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021 callback, d3d12umddi/pfnDestroyVideoProcessor, display.pfnd3d12ddi_destroyvideoprocessor, pfnDestroyVideoProcessor, pfnDestroyVideoProcessor callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnDestroyVideoProcessor"

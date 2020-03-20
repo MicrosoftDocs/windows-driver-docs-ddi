@@ -6,6 +6,7 @@ old-location: wdf\wdfdevicewdmassignpowerframeworksettings.htm
 tech.root: wdf
 ms.assetid: 676A458E-A6E0-4F09-AAF2-21EA122EF74D
 ms.date: 02/26/2018
+keywords: ["WdfDeviceWdmAssignPowerFrameworkSettings function"]
 ms.keywords: WdfDeviceWdmAssignPowerFrameworkSettings, WdfDeviceWdmAssignPowerFrameworkSettings method, kmdf.wdfdevicewdmassignpowerframeworksettings, wdf.wdfdevicewdmassignpowerframeworksettings, wdfdevice/WdfDeviceWdmAssignPowerFrameworkSettings
 f1_keywords:
  - "wdfdevice/WdfDeviceWdmAssignPowerFrameworkSettings"

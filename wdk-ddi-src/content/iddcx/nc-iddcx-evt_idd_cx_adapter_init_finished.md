@@ -6,6 +6,7 @@ old-location: display\evt_idd_cx_adapter_init_finished.htm
 tech.root: display
 ms.assetid: cbce9e1b-2f84-4653-8d3d-e5243a1f0eee
 ms.date: 05/10/2018
+keywords: ["EVT_IDD_CX_ADAPTER_INIT_FINISHED callback function"]
 ms.keywords: EVT_IDD_CX_ADAPTER_INIT_FINISHED, EVT_IDD_CX_ADAPTER_INIT_FINISHED callback, EvtIddCxAdapterInitFinished, EvtIddCxAdapterInitFinished callback function [Display Devices], PFN_IDD_CX_ADAPTER_INIT_FINISHED, PFN_IDD_CX_ADAPTER_INIT_FINISHED callback function pointer [Display Devices], display.evt_idd_cx_adapter_init_finished, iddcx/EvtIddCxAdapterInitFinished
 f1_keywords:
  - "iddcx/PFN_IDD_CX_ADAPTER_INIT_FINISHED"

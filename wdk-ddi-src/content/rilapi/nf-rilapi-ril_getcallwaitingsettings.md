@@ -6,6 +6,7 @@ old-location: netvista\ril_getcallwaitingsettings.htm
 tech.root: netvista
 ms.assetid: 5506dd53-ac15-44c6-aded-a71451a1c15d
 ms.date: 05/02/2018
+keywords: ["RIL_GetCallWaitingSettings function"]
 ms.keywords: RIL_GetCallWaitingSettings, RIL_GetCallWaitingSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getcallwaitingsettings, rilapi/RIL_GetCallWaitingSettings
 f1_keywords:
  - "rilapi/RIL_GetCallWaitingSettings"

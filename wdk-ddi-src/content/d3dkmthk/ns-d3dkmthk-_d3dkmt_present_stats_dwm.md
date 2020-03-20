@@ -4,6 +4,7 @@ title: _D3DKMT_PRESENT_STATS_DWM (d3dkmthk.h)
 description: The present status of the desktop windows manager (DWM).
 ms.assetid: 8bd41296-e5b2-440b-a871-a644af659790
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_PRESENT_STATS_DWM structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_PRESENT_STATS_DWM"
 ms.keywords: _D3DKMT_PRESENT_STATS_DWM, D3DKMT_PRESENT_STATS_DWM, 

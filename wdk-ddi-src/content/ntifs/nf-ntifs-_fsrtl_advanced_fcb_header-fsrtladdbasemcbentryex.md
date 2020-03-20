@@ -4,6 +4,7 @@ title: FsRtlAddBaseMcbEntryEx function (ntifs.h)
 description:
 ms.assetid: a99ea591-5af1-410a-9aa3-89839b4330bc
 ms.date: 10/19/2018
+keywords: ["FsRtlAddBaseMcbEntryEx function"]
 f1_keywords:
  - "ntifs/FsRtlAddBaseMcbEntryEx"
 ms.keywords: FsRtlAddBaseMcbEntryEx

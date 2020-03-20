@@ -6,6 +6,7 @@ old-location: stream\ikspinex.htm
 tech.root: stream
 ms.assetid: 9e6fd96d-c78e-44f3-ae4c-3688da48a494
 ms.date: 04/23/2018
+keywords: ["IKsPinEx interface"]
 ms.keywords: IKsPinEx, IKsPinEx interface [Streaming Media Devices], IKsPinEx interface [Streaming Media Devices],described, ksproxy/IKsPinEx, ksproxy_3c92d570-f22f-4165-bafd-9a22f5516137.xml, stream.ikspinex
 f1_keywords:
  - "ksproxy/IKsPinEx"

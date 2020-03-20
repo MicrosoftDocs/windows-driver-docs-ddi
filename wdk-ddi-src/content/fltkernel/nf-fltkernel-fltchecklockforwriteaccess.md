@@ -6,6 +6,7 @@ old-location: ifsk\fltchecklockforwriteaccess.htm
 tech.root: ifsk
 ms.assetid: a98cbb3c-d2cb-4a60-8c5f-c637790db916
 ms.date: 04/16/2018
+keywords: ["FltCheckLockForWriteAccess function"]
 ms.keywords: FltApiRef_a_to_d_c9957537-90d0-4830-bba1-1043f450c367.xml, FltCheckLockForWriteAccess, FltCheckLockForWriteAccess routine [Installable File System Drivers], fltkernel/FltCheckLockForWriteAccess, ifsk.fltchecklockforwriteaccess
 f1_keywords:
  - "fltkernel/FltCheckLockForWriteAccess"

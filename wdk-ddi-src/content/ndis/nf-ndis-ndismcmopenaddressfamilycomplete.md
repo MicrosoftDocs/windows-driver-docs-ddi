@@ -6,6 +6,7 @@ old-location: netvista\ndismcmopenaddressfamilycomplete.htm
 tech.root: netvista
 ms.assetid: e2d6c7db-09b3-4e5a-a6da-607c67e03054
 ms.date: 05/02/2018
+keywords: ["NdisMCmOpenAddressFamilyComplete macro"]
 ms.keywords: NdisMCmOpenAddressFamilyComplete, NdisMCmOpenAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_b03ae7ee-6f52-4d98-a7ff-f8b5840b6472.xml, ndis/NdisMCmOpenAddressFamilyComplete, netvista.ndismcmopenaddressfamilycomplete
 f1_keywords:
  - "ndis/NdisMCmOpenAddressFamilyComplete"

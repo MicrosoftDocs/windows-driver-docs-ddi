@@ -6,6 +6,7 @@ old-location: wdf\wdfdmatransactiongetrequest.htm
 tech.root: wdf
 ms.assetid: 879bae2e-f608-4678-92ae-6100e59b6d52
 ms.date: 02/26/2018
+keywords: ["WdfDmaTransactionGetRequest function"]
 ms.keywords: DFDmaObjectRef_2564dedd-7db9-4c5d-905d-0939dc8cf24b.xml, WdfDmaTransactionGetRequest, WdfDmaTransactionGetRequest method, kmdf.wdfdmatransactiongetrequest, wdf.wdfdmatransactiongetrequest, wdfdmatransaction/WdfDmaTransactionGetRequest
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionGetRequest"

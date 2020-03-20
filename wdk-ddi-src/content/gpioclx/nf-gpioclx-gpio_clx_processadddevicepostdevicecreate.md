@@ -6,6 +6,7 @@ old-location: gpio\gpio_clx_processadddevicepostdevicecreate.htm
 tech.root: GPIO
 ms.assetid: 4B88820F-32B9-4AA2-867A-316A3796BE86
 ms.date: 02/15/2018
+keywords: ["GPIO_CLX_ProcessAddDevicePostDeviceCreate function"]
 ms.keywords: GPIO.gpio_clx_processadddevicepostdevicecreate, GPIO_CLX_ProcessAddDevicePostDeviceCreate, GPIO_CLX_ProcessAddDevicePostDeviceCreate method [Parallel Ports], gpioclx/GPIO_CLX_ProcessAddDevicePostDeviceCreate
 f1_keywords:
  - "gpioclx/GPIO_CLX_ProcessAddDevicePostDeviceCreate"

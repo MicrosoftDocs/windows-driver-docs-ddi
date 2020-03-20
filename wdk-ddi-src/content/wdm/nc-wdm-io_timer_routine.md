@@ -6,6 +6,7 @@ old-location: kernel\iotimer.htm
 tech.root: kernel
 ms.assetid: c41b7489-afd2-4ddf-b296-6d42e3ff6cbf
 ms.date: 04/30/2018
+keywords: ["IO_TIMER_ROUTINE callback function"]
 ms.keywords: DrvrRtns_e0e54c40-37d6-41b3-8374-b1a7763d54ed.xml, IO_TIMER_ROUTINE, IoTimer, IoTimer routine [Kernel-Mode Driver Architecture], kernel.iotimer, wdm/IoTimer
 f1_keywords:
  - "wdm/IoTimer"

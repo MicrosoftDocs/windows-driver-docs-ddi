@@ -6,6 +6,7 @@ old-location: stream\kspindataintersectionex.htm
 tech.root: stream
 ms.assetid: 4d471d91-7b2c-441d-a640-4f66ef7f1b2f
 ms.date: 04/23/2018
+keywords: ["KsPinDataIntersectionEx function"]
 ms.keywords: KsPinDataIntersectionEx, KsPinDataIntersectionEx function [Streaming Media Devices], ks/KsPinDataIntersectionEx, ksfunc_22cbace6-b96b-44d7-9c30-24580f37dd58.xml, stream.kspindataintersectionex
 f1_keywords:
  - "ks/KsPinDataIntersectionEx"

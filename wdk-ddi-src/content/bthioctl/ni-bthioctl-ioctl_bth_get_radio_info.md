@@ -6,6 +6,7 @@ old-location: bltooth\ioctl_bth_get_radio_info.htm
 tech.root: bltooth
 ms.assetid: 45803e80-6090-4b64-8c92-6b5efebd1cfc
 ms.date: 04/27/2018
+keywords: ["IOCTL_BTH_GET_RADIO_INFO IOCTL"]
 ms.keywords: IOCTL_BTH_GET_RADIO_INFO, IOCTL_BTH_GET_RADIO_INFO control, IOCTL_BTH_GET_RADIO_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_radio_info, bth_ioctls_ed6699c7-3a05-46bd-ba8b-d138ce1ad751.xml, bthioctl/IOCTL_BTH_GET_RADIO_INFO
 f1_keywords:
  - "bthioctl/IOCTL_BTH_GET_RADIO_INFO"

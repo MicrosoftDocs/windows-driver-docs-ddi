@@ -6,6 +6,7 @@ old-location: display\pfnfreegpuvirtualaddresscb.htm
 tech.root: display
 ms.assetid: 92F2A43C-699B-4580-8A56-472D837A76E2
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_FREEGPUVIRTUALADDRESSCB callback function"]
 ms.keywords: PFND3DDDI_FREEGPUVIRTUALADDRESSCB, PFND3DDDI_FREEGPUVIRTUALADDRESSCB callback, d3dumddi/pfnFreeGpuVirtualAddressCb, display.pfnfreegpuvirtualaddresscb, pfnFreeGpuVirtualAddressCb, pfnFreeGpuVirtualAddressCb callback function [Display Devices]
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

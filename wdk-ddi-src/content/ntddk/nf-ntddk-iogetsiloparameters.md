@@ -6,6 +6,7 @@ old-location: ifsk\iogetsiloparameters.htm
 tech.root: ifsk
 ms.assetid: C8F42E83-2122-4871-972B-9FD06379C271
 ms.date: 04/16/2018
+keywords: ["IoGetSiloParameters function"]
 ms.keywords: IoGetSiloParameters, IoGetSiloParameters function [Installable File System Drivers], PIO_FOEXT_SILO_PARAMETERS, ifsk.iogetsiloparameters, ntddk/IoGetSiloParameters
 f1_keywords:
  - "ntddk/IoGetSiloParameters"

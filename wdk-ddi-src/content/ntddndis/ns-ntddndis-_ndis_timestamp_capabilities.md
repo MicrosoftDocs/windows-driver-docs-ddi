@@ -5,6 +5,7 @@ description: This structure is reserved for system use and should not be used in
 tech.root: netvista
 ms.assetid: 6d8bbe05-2855-42b1-89d1-79a5db9bd27c
 ms.date: 08/08/2018
+keywords: ["_NDIS_TIMESTAMP_CAPABILITIES structure"]
 f1_keywords:
  - "ntddndis/_NDIS_TIMESTAMP_CAPABILITIES"
 ms.keywords: _NDIS_TIMESTAMP_CAPABILITIES, NDIS_TIMESTAMP_CAPABILITIES, *PNDIS_TIMESTAMP_CAPABILITIES, 

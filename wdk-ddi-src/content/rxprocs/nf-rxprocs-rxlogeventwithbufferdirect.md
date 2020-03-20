@@ -6,6 +6,7 @@ old-location: ifsk\rxlogeventwithbufferdirect.htm
 tech.root: ifsk
 ms.assetid: 09a7d452-efa1-4846-8077-1f6ce60515e7
 ms.date: 04/16/2018
+keywords: ["RxLogEventWithBufferDirect function"]
 ms.keywords: RxLogEventWithBufferDirect, RxLogEventWithBufferDirect function [Installable File System Drivers], ifsk.rxlogeventwithbufferdirect, rxprocs/RxLogEventWithBufferDirect, rxref_95cd6139-10e2-4cf1-bfd9-51b3d6dd1119.xml
 f1_keywords:
  - "rxprocs/RxLogEventWithBufferDirect"

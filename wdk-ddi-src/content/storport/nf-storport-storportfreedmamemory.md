@@ -5,6 +5,7 @@ description:  This function is the extended version of the StorPortFreeContiguou
 tech.root: storage
 ms.assetid: c32b4578-c75b-45ec-82f7-ff8081346aa8
 ms.date: 10/19/2018
+keywords: ["StorPortFreeDmaMemory function"]
 f1_keywords:
  - "storport/StorPortFreeDmaMemory"
 ms.keywords: StorPortFreeDmaMemory

@@ -6,6 +6,7 @@ old-location: kernel\kesetbaseprioritythread.htm
 tech.root: kernel
 ms.assetid: 7070070c-a953-4120-bddf-c1a7f080ef50
 ms.date: 04/30/2018
+keywords: ["KeSetBasePriorityThread function"]
 ms.keywords: KeSetBasePriorityThread, KeSetBasePriorityThread routine [Kernel-Mode Driver Architecture], k105_6c558266-e459-447c-9586-4b327e24d7dd.xml, kernel.kesetbaseprioritythread, ntddk/KeSetBasePriorityThread
 f1_keywords:
  - "ntddk/KeSetBasePriorityThread"

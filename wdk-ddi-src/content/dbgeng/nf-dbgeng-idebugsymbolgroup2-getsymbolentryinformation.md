@@ -6,6 +6,7 @@ old-location: debugger\getsymbolentryinformation2.htm
 tech.root: debugger
 ms.assetid: ee8ea970-04ee-4bf5-9e81-7d5baf0eac0d
 ms.date: 05/03/2018
+keywords: ["IDebugSymbolGroup2::GetSymbolEntryInformation"]
 ms.keywords: ComOther_b34e6d42-3da1-43bd-954d-0aaf0da5a3a8.xml, GetSymbolEntryInformation, GetSymbolEntryInformation method [Windows Debugging], GetSymbolEntryInformation method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolEntryInformation method, IDebugSymbolGroup2.GetSymbolEntryInformation, IDebugSymbolGroup2::GetSymbolEntryInformation, dbgeng/IDebugSymbolGroup2::GetSymbolEntryInformation, debugger.getsymbolentryinformation2
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.GetSymbolEntryInformation"

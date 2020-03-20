@@ -6,6 +6,7 @@ old-location: netvista\rilmsgbcgeneral.htm
 tech.root: netvista
 ms.assetid: d1570dc0-1587-4d02-a655-724c999d10a2
 ms.date: 05/02/2018
+keywords: ["RILMSGBCGENERAL structure"]
 ms.keywords: "*LPRILMSGBCGENERAL, RILMSGBCGENERAL, RILMSGBCGENERAL structure [Network Drivers Starting with Windows Vista], netvista.rilmsgbcgeneral, ntddrilapitypes/RILMSGBCGENERAL"
 f1_keywords:
  - "ntddrilapitypes/RILMSGBCGENERAL"

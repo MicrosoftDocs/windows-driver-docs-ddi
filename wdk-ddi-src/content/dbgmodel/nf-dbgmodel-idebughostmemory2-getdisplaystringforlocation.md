@@ -4,6 +4,7 @@ title: IDebugHostMemory2::GetDisplayStringForLocation (dbgmodel.h)
 description: For a given location within the address space of the target as defined by context and location, convert the location to a displayable string (according to whatever format the host chooses).
 ms.assetid: 0b7327dc-22ae-4bc3-b222-fa2f3210c453
 ms.date: 09/28/2018
+keywords: ["IDebugHostMemory2::GetDisplayStringForLocation"]
 f1_keywords:
  - "dbgmodel/IDebugHostMemory2.GetDisplayStringForLocation"
 ms.keywords: IDebugHostMemory2::GetDisplayStringForLocation, GetDisplayStringForLocation, IDebugHostMemory2.GetDisplayStringForLocation, IDebugHostMemory2::GetDisplayStringForLocation, IDebugHostMemory2.GetDisplayStringForLocation

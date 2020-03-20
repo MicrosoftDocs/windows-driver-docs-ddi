@@ -3,6 +3,7 @@ UID: TP:gpiobtn
 title: Hardware notifications
 ms.assetid: 44f18b04-69c6-3937-b9a0-04797d713edc
 ms.date: 05/09/2018
+keywords: ["Hardware notifications"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

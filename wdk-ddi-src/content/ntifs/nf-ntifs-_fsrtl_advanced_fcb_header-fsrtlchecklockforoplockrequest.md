@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlchecklockforoplockrequest.htm
 tech.root: ifsk
 ms.assetid: 67056CD0-EBFB-4E34-9613-98ECBB858810
 ms.date: 04/16/2018
+keywords: ["FsRtlCheckLockForOplockRequest function"]
 ms.keywords: FsRtlCheckLockForOplockRequest, FsRtlCheckLockForOplockRequest routine [Installable File System Drivers], ifsk.fsrtlchecklockforoplockrequest, ntifs/FsRtlCheckLockForOplockRequest
 f1_keywords:
  - "ntifs/FsRtlCheckLockForOplockRequest"

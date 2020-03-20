@@ -6,6 +6,7 @@ old-location: storage\sendrpl_in.htm
 tech.root: storage
 ms.assetid: 0c084258-2bd6-47a8-a060-d4ba2734ebed
 ms.date: 03/29/2018
+keywords: ["_SendRPL_IN structure"]
 ms.keywords: "*PSendRPL_IN, PSendRPL_IN, PSendRPL_IN structure pointer [Storage Devices], SendRPL_IN, SendRPL_IN structure [Storage Devices], _SendRPL_IN, hbapiwmi/PSendRPL_IN, hbapiwmi/SendRPL_IN, storage.sendrpl_in, structs-Fibre_3babb7ed-9d87-4154-b038-8e503750eed4.xml"
 f1_keywords:
  - "hbapiwmi/SendRPL_IN"

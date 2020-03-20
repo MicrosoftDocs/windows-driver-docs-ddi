@@ -6,6 +6,7 @@ old-location: netvista\ndisacquirereadwritelock.htm
 tech.root: netvista
 ms.assetid: 563b4bff-36ee-4597-ae6e-7d3811592549
 ms.date: 05/02/2018
+keywords: ["NdisAcquireReadWriteLock function"]
 ms.keywords: NdisAcquireReadWriteLock, NdisAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisAcquireReadWriteLock, ndis_read_write_lock_ref_6a27c811-da37-410d-8ca6-d982832b1d09.xml, netvista.ndisacquirereadwritelock
 f1_keywords:
  - "ndis/NdisAcquireReadWriteLock"

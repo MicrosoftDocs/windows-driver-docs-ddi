@@ -6,6 +6,7 @@ old-location: netvista\ril_setrfstate.htm
 tech.root: netvista
 ms.assetid: 0020b136-ba18-4dd6-83c4-742c49e624b5
 ms.date: 05/02/2018
+keywords: ["RIL_SetRFState function"]
 ms.keywords: RIL_SetRFState, RIL_SetRFState method [Network Drivers Starting with Windows Vista], netvista.ril_setrfstate, rilapi/RIL_SetRFState
 f1_keywords:
  - "rilapi/RIL_SetRFState"

@@ -6,6 +6,7 @@ old-location: stream\ksevent_time_mark.htm
 tech.root: stream
 ms.assetid: c1e756a8-4850-4ddc-9bbf-97146a798554
 ms.date: 04/23/2018
+keywords: ["KSEVENT_TIME_MARK structure"]
 ms.keywords: "*PKSEVENT_TIME_MARK, KSEVENT_TIME_MARK, KSEVENT_TIME_MARK structure [Streaming Media Devices], PKSEVENT_TIME_MARK, PKSEVENT_TIME_MARK structure pointer [Streaming Media Devices], ks-struct_66e60015-261c-4e6d-a58f-dab8d50cf4d6.xml, ks/KSEVENT_TIME_MARK, ks/PKSEVENT_TIME_MARK, stream.ksevent_time_mark"
 f1_keywords:
  - "ks/KSEVENT_TIME_MARK"

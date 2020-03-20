@@ -6,6 +6,7 @@ old-location: netvista\ndisinterlockedaddulong.htm
 tech.root: netvista
 ms.assetid: d2e31f3c-7152-4df9-8206-a15dee9b641f
 ms.date: 05/02/2018
+keywords: ["NdisInterlockedAddUlong macro"]
 ms.keywords: NdisInterlockedAddUlong, NdisInterlockedAddUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddUlong, ndis_interlocked_ref_0b4862c9-6897-4b73-ab23-5cd2ede3e82a.xml, netvista.ndisinterlockedaddulong
 f1_keywords:
  - "ndis/NdisInterlockedAddUlong"

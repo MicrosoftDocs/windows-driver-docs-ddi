@@ -6,6 +6,7 @@ old-location: stream\kspinaddevent.htm
 tech.root: stream
 ms.assetid: 1bb34062-f092-41a4-8d59-6937be7b5639
 ms.date: 04/23/2018
+keywords: ["KsPinAddEvent function"]
 ms.keywords: KsPinAddEvent, KsPinAddEvent function [Streaming Media Devices], avfunc_2291126f-31dd-4e37-a082-97f24e8b5bd9.xml, ks/KsPinAddEvent, stream.kspinaddevent
 f1_keywords:
  - "ks/KsPinAddEvent"

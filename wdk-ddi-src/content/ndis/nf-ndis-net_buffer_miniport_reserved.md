@@ -5,6 +5,7 @@ description: NET_BUFFER_MINIPORT_RESERVED is a macro that NDIS drivers use to ac
 tech.root: netvista
 ms.assetid: 584b901d-9e3c-4bdc-a5b6-5f0670de6c1e
 ms.date: 04/13/2018
+keywords: ["NET_BUFFER_MINIPORT_RESERVED macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_MINIPORT_RESERVED"
 ms.keywords: NET_BUFFER_MINIPORT_RESERVED

@@ -5,6 +5,7 @@ description: Used to create a new hardware queue.
 old-location: display\d3dkmtcreatehwqueue.htm
 ms.assetid: FD4E892F-DDC6-449A-B77F-6C7F8240E467
 ms.date: 05/10/2018
+keywords: ["D3DKMTCreateHwQueue function"]
 ms.keywords: D3DKMTCreateHwQueue, D3DKMTCreateHwQueue method [Display Devices], d3dkmthk/D3DKMTCreateHwQueue, display.d3dkmtcreatehwqueue
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateHwQueue"

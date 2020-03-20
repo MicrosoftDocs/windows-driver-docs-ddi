@@ -4,6 +4,7 @@ title: _D3DKMT_MIRACAST_DRIVER_TYPE (d3dkmthk.h)
 description: Miracast (wireless display) driver types.
 ms.assetid: 13caa7c0-4374-4e8a-a590-517591d3b8d7
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_MIRACAST_DRIVER_TYPE enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_MIRACAST_DRIVER_TYPE"
 ms.keywords: _D3DKMT_MIRACAST_DRIVER_TYPE, D3DKMT_MIRACAST_DRIVER_TYPE, 

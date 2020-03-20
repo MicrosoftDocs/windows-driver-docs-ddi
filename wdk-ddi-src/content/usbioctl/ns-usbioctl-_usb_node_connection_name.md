@@ -6,6 +6,7 @@ old-location: buses\usb_node_connection_name.htm
 tech.root: usbref
 ms.assetid: f38248fb-b2aa-417a-9d9b-36ff069bf78f
 ms.date: 05/07/2018
+keywords: ["_USB_NODE_CONNECTION_NAME structure"]
 ms.keywords: "*PUSB_NODE_CONNECTION_NAME, PUSB_NODE_CONNECTION_NAME, PUSB_NODE_CONNECTION_NAME structure pointer [Buses], USB_NODE_CONNECTION_NAME, USB_NODE_CONNECTION_NAME structure [Buses], _USB_NODE_CONNECTION_NAME, buses.usb_node_connection_name, usbioctl/PUSB_NODE_CONNECTION_NAME, usbioctl/USB_NODE_CONNECTION_NAME, usbstrct_51cb29d4-aac8-4138-bddd-908f9859bad3.xml"
 f1_keywords:
  - "usbioctl/USB_NODE_CONNECTION_NAME"

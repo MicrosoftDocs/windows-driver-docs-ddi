@@ -5,6 +5,7 @@ description: A driver can use IOCTL_STORAGE_SET_PROPERTY to set the properties o
 tech.root: storage
 ms.assetid: 93fb0e92-a17b-4aa5-af19-05c510d66388
 ms.date: 07/12/2019
+keywords: ["IOCTL_STORAGE_SET_PROPERTY IOCTL"]
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_SET_PROPERTY"
 req.header: ntddstor.h

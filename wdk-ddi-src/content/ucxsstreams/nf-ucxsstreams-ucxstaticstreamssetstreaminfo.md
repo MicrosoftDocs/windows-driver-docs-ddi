@@ -6,6 +6,7 @@ old-location: buses\_ucxstaticstreamssetstreaminfo.htm
 tech.root: usbref
 ms.assetid: 40AE9327-ABB7-4A63-AC90-494E2BC26C08
 ms.date: 05/07/2018
+keywords: ["UcxStaticStreamsSetStreamInfo function"]
 ms.keywords: UcxStaticStreamsSetStreamInfo, UcxStaticStreamsSetStreamInfo method [Buses], buses._ucxstaticstreamssetstreaminfo
 f1_keywords:
  - "ucxsstreams/UcxStaticStreamsSetStreamInfo"

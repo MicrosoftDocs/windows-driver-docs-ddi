@@ -6,6 +6,7 @@ old-location: display\pfnqueryresidencycb.htm
 tech.root: display
 ms.assetid: 707ba050-e70c-49f8-aac0-0bcc8fe9bf8b
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_QUERYRESIDENCYCB callback function"]
 ms.keywords: D3Druntime_Functions_9c92da7d-b114-4aab-adfe-13b5afebb4c8.xml, PFND3DDDI_QUERYRESIDENCYCB, PFND3DDDI_QUERYRESIDENCYCB callback, d3dumddi/pfnQueryResidencyCb, display.pfnqueryresidencycb, pfnQueryResidencyCb, pfnQueryResidencyCb callback function [Display Devices]
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

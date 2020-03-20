@@ -4,6 +4,7 @@ title: _D3DKMT_GPU_PREFERENCE_QUERY_STATE (d3dkmthk.h)
 description: Specifies the GPU preference query state.
 ms.assetid: ff9a92ba-1cc6-4814-941d-33c829de7ca2
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_GPU_PREFERENCE_QUERY_STATE enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GPU_PREFERENCE_QUERY_STATE"
 ms.keywords: _D3DKMT_GPU_PREFERENCE_QUERY_STATE, D3DKMT_GPU_PREFERENCE_QUERY_STATE, 

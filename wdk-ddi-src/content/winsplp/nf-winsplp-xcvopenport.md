@@ -6,6 +6,7 @@ old-location: print\xcvopenport.htm
 tech.root: print
 ms.assetid: ba0f5820-08eb-40c7-9593-7434ee0e29c6
 ms.date: 02/02/2018
+keywords: ["XcvOpenPort function"]
 ms.keywords: print.xcvopenport, spoolfnc_d2e14d20-1b34-49f5-a627-7b08ccc79ccf.xml, winsplp/XcvOpenPort, XcvOpenPort function [Print Devices], XcvOpenPort
 f1_keywords:
  - "winsplp/XcvOpenPort"

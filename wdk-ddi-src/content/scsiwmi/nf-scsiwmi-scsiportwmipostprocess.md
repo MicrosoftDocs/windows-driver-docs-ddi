@@ -6,6 +6,7 @@ old-location: storage\scsiportwmipostprocess.htm
 tech.root: storage
 ms.assetid: da1770bc-2233-47ef-afab-cfcb34edb4b9
 ms.date: 03/29/2018
+keywords: ["ScsiPortWmiPostProcess function"]
 ms.keywords: ScsiPortWmiPostProcess, ScsiPortWmiPostProcess routine [Storage Devices], scsiprt_e10d02e1-18d2-4152-ac11-83bdcbb2ce49.xml, scsiwmi/ScsiPortWmiPostProcess, storage.scsiportwmipostprocess
 f1_keywords:
  - "scsiwmi/ScsiPortWmiPostProcess"

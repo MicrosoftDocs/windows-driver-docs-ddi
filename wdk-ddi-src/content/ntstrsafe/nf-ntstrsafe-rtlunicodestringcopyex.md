@@ -6,6 +6,7 @@ old-location: kernel\rtlunicodestringcopyex.htm
 tech.root: kernel
 ms.assetid: 9ec11e1e-8a9e-4cb4-8ca8-2cfa54d46cc2
 ms.date: 04/30/2018
+keywords: ["RtlUnicodeStringCopyEx function"]
 ms.keywords: RtlUnicodeStringCopyEx, RtlUnicodeStringCopyEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcopyex, ntstrsafe/RtlUnicodeStringCopyEx, safestrings_76d1f326-317e-4feb-967c-8fdcb40e9061.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringCopyEx"

@@ -6,6 +6,7 @@ old-location: buses\usbd_buildregistercompositedriver.htm
 tech.root: usbref
 ms.assetid: 6683C688-CCDD-498B-AA60-81430DC3BCA4
 ms.date: 05/07/2018
+keywords: ["USBD_BuildRegisterCompositeDevice function"]
 ms.keywords: USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice routine [Buses], buses.usbd_buildregistercompositedriver, usbdlib/ USBD_BuildRegisterCompositeDevice
 f1_keywords:
  - "usbdlib/USBD_BuildRegisterCompositeDevice"

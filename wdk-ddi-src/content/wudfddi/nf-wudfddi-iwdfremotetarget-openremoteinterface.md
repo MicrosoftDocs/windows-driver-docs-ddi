@@ -6,6 +6,7 @@ old-location: wdf\iwdfremotetarget_openremoteinterface.htm
 tech.root: wdf
 ms.assetid: 5d278cde-3ebe-4fee-86fd-1ec4e79bd837
 ms.date: 02/26/2018
+keywords: ["IWDFRemoteTarget::OpenRemoteInterface"]
 ms.keywords: IWDFRemoteTarget interface,OpenRemoteInterface method, IWDFRemoteTarget.OpenRemoteInterface, IWDFRemoteTarget::OpenRemoteInterface, OpenRemoteInterface, OpenRemoteInterface method, OpenRemoteInterface method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_e8287a4e-9f63-40e6-9a85-fb881a27d292.xml, umdf.iwdfremotetarget_openremoteinterface, wdf.iwdfremotetarget_openremoteinterface, wudfddi/IWDFRemoteTarget::OpenRemoteInterface
 f1_keywords:
  - "wudfddi/IWDFRemoteTarget.OpenRemoteInterface"

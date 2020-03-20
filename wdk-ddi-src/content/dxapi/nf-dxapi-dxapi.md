@@ -6,6 +6,7 @@ old-location: display\dxapi.htm
 tech.root: display
 ms.assetid: c4b38376-b54f-4fbb-b305-5951a1ea76a1
 ms.date: 05/10/2018
+keywords: ["DxApi function"]
 ms.keywords: DxApi, DxApi function [Display Devices], ddfncs_b76158a1-30ff-4874-b527-a201c5a67fc5.xml, display.dxapi, dxapi/DxApi
 f1_keywords:
  - "dxapi/DxApi"
