@@ -68,7 +68,7 @@ Set to 0.
 
 ### -output-buffer
 
-Pointer to a GNSS_DEVICE_CAPABILITY structure.
+Pointer to a [GNSS_DEVICE_CAPABILITY](https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_device_capability) structure.
 
 
 ### -output-buffer-length
