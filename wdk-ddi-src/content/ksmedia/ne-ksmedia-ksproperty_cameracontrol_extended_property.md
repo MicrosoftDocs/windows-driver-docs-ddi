@@ -207,6 +207,8 @@ This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOTEMPORALDENOISING](h
 
 This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_IRTORCHMODE](https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-irtorchmode) control.
 
+### -field KSPROPERTY_CAMERACONTROL_EXTENDED_RELATIVEPANELOPTIMIZATION
+
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_END
 
 This represents the end of the control enumerations.

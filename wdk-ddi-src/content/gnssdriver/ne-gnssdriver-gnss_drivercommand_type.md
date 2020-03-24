@@ -249,6 +249,8 @@ This command sets how much time the device must wait for input from a user befor
 
 This command resets the geofence tracking operation. The GNSS driver must delete all geofences from the GNSS engine, stop geofence tracking and stop monitoring for signal conditions. The geofence tracking operation will begin as usual only when the HLOS creates one or more new geofences.
 
+### -field GNSS_SetSuplVersion2
+
 ### -field GNSS_CustomCommand
 
 Range for custom IHV-specific GNSS commands:  0x0100 – 0x01FF
