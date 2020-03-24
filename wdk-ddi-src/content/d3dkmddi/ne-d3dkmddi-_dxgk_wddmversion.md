@@ -66,7 +66,8 @@ typedef enum _DXGK_WDDMVERSION {
   DXGKDDI_WDDMv2_3   = 0x2300,
   DXGKDDI_WDDMv2_4   = 0x2400,
   DXGKDDI_WDDMv2_5   = 0x2500,
-  DXGKDDI_WDDMv2_6   = 0x2600
+  DXGKDDI_WDDMv2_6   = 0x2600,
+  DXGKDDI_WDDMv2_7   = 0x2700
 } DXGK_WDDMVERSION;
 ```
 
@@ -115,6 +116,10 @@ WDDM version for Windows 10, version 1809.
 ### -field DXGKDDI_WDDMv2_6
 
 WDDM version for Windows 10, version 1903.
+
+### -field DXGKDDI_WDDMv2_7
+
+WDDM version for Windows 10, version 2004.
 
 ## -see-also
 

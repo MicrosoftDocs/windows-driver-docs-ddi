@@ -1,10 +1,12 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_MIP_REGION_0075
 title: D3D12DDI_MIP_REGION_0075
-ms.date: 11/8/2019
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+tech.root: display
+ms.assetid: 46883cc8-38b1-4444-a51b-9dd196966b6e
+description: D3D12DDI_MIP_REGION_0075 describes the size of a MIP region.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -14,7 +16,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: D3D12DDI_MIP_REGION_0075
@@ -36,15 +38,24 @@ dev_langs:
 
 ## -description
 
+**D3D12DDI_MIP_REGION_0075** describes the size of a MIP region.
+
 ## -struct-fields
 
 ### -field Width
 
+Width of the MIP region, in texels.
+
 ### -field Height
+
+Height of the MIP region, in texels.
 
 ### -field Depth
 
+Depth of the MIP region, in texels.
+
 ## -remarks
 
-## -see-also
+See the [Sampler Feedback](https://microsoft.github.io/DirectX-Specs/d3d/SamplerFeedback.html) document for more information.
 
+## -see-also

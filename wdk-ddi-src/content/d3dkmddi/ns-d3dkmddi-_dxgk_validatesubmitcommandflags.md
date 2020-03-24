@@ -44,6 +44,10 @@ ms.custom: RS5
 
 Contains information needed to validate submit commands.
 
+### -field Value
+
+This value is used to operate over the members collectively.
+
 ## -struct-fields
 
 ### -field HardwareQueueSubmission
@@ -54,9 +58,10 @@ The number of hardware queue submissions.
 
 Reserved.
 
-### -field Value
- 
-
 ## -remarks
 
 ## -see-also
+
+[**DXGKARG_VALIDATESUBMITCOMMAND**](ns-d3dkmddi-_dxgkarg_validatesubmitcommand.md)
+
+[**DXGKDDI_VALIDATESUBMITCOMMAND**](nc-d3dkmddi-dxgkddi_validatesubmitcommand.md)
