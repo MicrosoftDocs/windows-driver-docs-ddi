@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 5ce7e415-c589-4d8e-b53a-d4bc8625f9c1
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["DXGKCB_SAVEMEMORYFORHOTUPDATE callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKCB_SAVEMEMORYFORHOTUPDATE"
 req.header: d3dkmddi.h

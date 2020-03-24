@@ -6,6 +6,7 @@ old-location: print\routerallocbidimem.htm
 tech.root: print
 ms.assetid: 39042c66-3db1-41bd-b06d-12aefcb007d3
 ms.date: 04/20/2018
+keywords: ["RouterAllocBidiMem function"]
 ms.keywords: RouterAllocBidiMem, RouterAllocBidiMem function [Print Devices], print.routerallocbidimem, spoolfnc_ed433d21-ccfa-4061-9fbd-3bf333e12b31.xml, winsplp/RouterAllocBidiMem
 f1_keywords:
  - "winsplp/RouterAllocBidiMem"

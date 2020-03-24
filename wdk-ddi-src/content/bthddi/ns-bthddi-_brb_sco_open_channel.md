@@ -6,6 +6,7 @@ old-location: bltooth\_brb_sco_open_channel.htm
 tech.root: bltooth
 ms.assetid: 7f73aaec-09fb-45f2-bff0-daef9fdb9b90
 ms.date: 04/27/2018
+keywords: ["_BRB_SCO_OPEN_CHANNEL structure"]
 ms.keywords: "_BRB_SCO_OPEN_CHANNEL, _BRB_SCO_OPEN_CHANNEL structure [Bluetooth Devices], bltooth._brb_sco_open_channel, bth_structs_f852010d-7117-48fe-bd65-f4e4f17e8706.xml, bthddi/_BRB_SCO_OPEN_CHANNEL"
 f1_keywords:
  - "bthddi/_BRB_SCO_OPEN_CHANNEL"

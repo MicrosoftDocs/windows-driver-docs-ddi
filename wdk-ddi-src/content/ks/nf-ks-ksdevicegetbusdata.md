@@ -6,6 +6,7 @@ old-location: stream\ksdevicegetbusdata.htm
 tech.root: stream
 ms.assetid: 40971ff3-6fd3-480b-aba9-7f572d6e1ce2
 ms.date: 04/23/2018
+keywords: ["KsDeviceGetBusData function"]
 ms.keywords: KsDeviceGetBusData, KsDeviceGetBusData function [Streaming Media Devices], avfunc_3106cd50-9e8c-407c-bcb0-c5e9c86d8dc7.xml, ks/KsDeviceGetBusData, stream.ksdevicegetbusdata
 f1_keywords:
  - "ks/KsDeviceGetBusData"

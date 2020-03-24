@@ -6,6 +6,7 @@ old-location: storage\ioctl_tape_erase.htm
 tech.root: storage
 ms.assetid: 75ec5c40-1ac2-472a-9923-26018eb6267c
 ms.date: 03/29/2018
+keywords: ["IOCTL_TAPE_ERASE IOCTL"]
 ms.keywords: IOCTL_TAPE_ERASE, IOCTL_TAPE_ERASE control, IOCTL_TAPE_ERASE control code [Storage Devices], k307_cdbe0ea5-0d23-4ab0-9d37-2832d2367b81.xml, ntddtape/IOCTL_TAPE_ERASE, storage.ioctl_tape_erase
 f1_keywords:
  - "ntddtape/IOCTL_TAPE_ERASE"

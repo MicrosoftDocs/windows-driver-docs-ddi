@@ -5,6 +5,7 @@ description: The GetPositionRegister method retrieves the information that the p
 tech.root: audio
 ms.assetid: 84877d13-e24a-4c17-ac95-092e0e03e596
 ms.date: 10/31/2018
+keywords: ["IMiniportWaveRTStream::GetPositionRegister"]
 f1_keywords:
  - "portcls/IMiniportWaveRTStream.GetPositionRegister"
 ms.keywords: IMiniportWaveRTStream::GetPositionRegister, GetPositionRegister, IMiniportWaveRTStream.GetPositionRegister, IMiniportWaveRTStream::GetPositionRegister, IMiniportWaveRTStream.GetPositionRegister

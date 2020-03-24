@@ -6,6 +6,7 @@ old-location: buses\evt_ufx_device_controller_reset.htm
 tech.root: usbref
 ms.assetid: 37CE6358-68F8-49E2-8B3E-126D5D135ADF
 ms.date: 05/07/2018
+keywords: ["EVT_UFX_DEVICE_CONTROLLER_RESET callback function"]
 ms.keywords: EVT_UFX_DEVICE_CONTROLLER_RESET, EVT_UFX_DEVICE_CONTROLLER_RESET callback, EvtUfxDeviceControllerReset, EvtUfxDeviceControllerReset callback function [Buses], PFN_UFX_DEVICE_CONTROLLER_RESET, PFN_UFX_DEVICE_CONTROLLER_RESET callback function pointer [Buses], buses.evt_ufx_device_controller_reset, ufxclient/EvtUfxDeviceControllerReset
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_CONTROLLER_RESET"

@@ -4,6 +4,7 @@ title: PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU (d3dkmthk.h)
 description: The PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU callback function waits for a monitored fence to reach a certain value before processing subsequent context commands.
 ms.assetid: 4f71fab2-4776-42bc-b329-aa31ada29550
 ms.date: 10/19/2018
+keywords: ["PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU"
 req.header: d3dkmthk.h

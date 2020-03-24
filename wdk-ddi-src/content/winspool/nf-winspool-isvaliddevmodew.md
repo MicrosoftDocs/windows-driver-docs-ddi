@@ -6,6 +6,7 @@ old-location: print\isvaliddevmode.htm
 tech.root: print
 ms.assetid: 74da159d-7edc-44fc-abd9-aa068c4de7f2
 ms.date: 04/20/2018
+keywords: ["IsValidDevmodeW function"]
 ms.keywords: IsValidDevmode, IsValidDevmode function [Print Devices], IsValidDevmodeA, IsValidDevmodeW, print.isvaliddevmode, spoolfnc_ea9b6cc1-6f0b-42a7-835b-df561588691a.xml, winspool/IsValidDevmode
 f1_keywords:
  - "winspool/IsValidDevmode"

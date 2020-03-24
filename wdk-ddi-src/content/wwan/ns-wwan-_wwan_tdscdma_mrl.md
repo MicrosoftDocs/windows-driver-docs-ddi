@@ -6,6 +6,7 @@ old-location: netvista\wwan_tdscdma_mrl.htm
 tech.root: netvista
 ms.assetid: D919EF5E-502C-4983-AFC5-F3F6E6CC8C3B
 ms.date: 05/02/2018
+keywords: ["_WWAN_TDSCDMA_MRL structure"]
 ms.keywords: "*PWWAN_TDSCDMA_MRL, PWWAN_TDSCDMA_MRL, PWWAN_TDSCDMA_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_TDSCDMA_MRL, WWAN_TDSCDMA_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_TDSCDMA_MRL, netvista.wwan_tdscdma_mrl, wwan/PWWAN_TDSCDMA_MRL, wwan/WWAN_TDSCDMA_MRL"
 f1_keywords:
  - "wwan/WWAN_TDSCDMA_MRL"

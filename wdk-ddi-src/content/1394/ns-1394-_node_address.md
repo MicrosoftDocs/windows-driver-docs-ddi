@@ -6,6 +6,7 @@ old-location: ieee\node_address.htm
 tech.root: IEEE
 ms.assetid: ecafa166-356e-48d6-84c4-0f0c339289ac
 ms.date: 02/15/2018
+keywords: ["_NODE_ADDRESS structure"]
 ms.keywords: "*PNODE_ADDRESS, 1394/NODE_ADDRESS, 1394/PNODE_ADDRESS, 1394stct_4b87009c-620b-4840-aea3-52e059d388cd.xml, IEEE.node_address, NODE_ADDRESS, NODE_ADDRESS structure [Buses], PNODE_ADDRESS, PNODE_ADDRESS structure pointer [Buses], _NODE_ADDRESS"
 f1_keywords:
  - "1394/NODE_ADDRESS"

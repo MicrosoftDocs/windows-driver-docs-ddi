@@ -6,6 +6,7 @@ old-location: buses\_ucxendpointgetstaticstreamsreferenced.htm
 tech.root: usbref
 ms.assetid: A9AB43A9-1409-4AA4-99DE-66D558F2303C
 ms.date: 05/07/2018
+keywords: ["UcxEndpointGetStaticStreamsReferenced function"]
 ms.keywords: UcxEndpointGetStaticStreamsReferenced, UcxEndpointGetStaticStreamsReferenced method [Buses], buses._ucxendpointgetstaticstreamsreferenced, ucxendpoint/UcxEndpointGetStaticStreamsReferenced
 f1_keywords:
  - "ucxendpoint/UcxEndpointGetStaticStreamsReferenced"

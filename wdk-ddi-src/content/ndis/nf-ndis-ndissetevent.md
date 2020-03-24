@@ -6,6 +6,7 @@ old-location: netvista\ndissetevent.htm
 tech.root: netvista
 ms.assetid: 3f45b8d0-2d5b-4601-a307-48257cdcb4ba
 ms.date: 05/02/2018
+keywords: ["NdisSetEvent function"]
 ms.keywords: NdisSetEvent, NdisSetEvent function [Network Drivers Starting with Windows Vista], ndis/NdisSetEvent, ndis_event_ref_3abf6ebc-6dcf-4b3e-8e39-2902b9b00adf.xml, netvista.ndissetevent
 f1_keywords:
  - "ndis/NdisSetEvent"

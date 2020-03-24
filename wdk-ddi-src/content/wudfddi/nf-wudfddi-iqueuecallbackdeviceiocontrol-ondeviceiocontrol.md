@@ -6,6 +6,7 @@ old-location: wdf\iqueuecallbackdeviceiocontrol_ondeviceiocontrol.htm
 tech.root: wdf
 ms.assetid: ed0eac1a-8e41-44c3-a538-9ec48492425f
 ms.date: 02/26/2018
+keywords: ["IQueueCallbackDeviceIoControl::OnDeviceIoControl"]
 ms.keywords: IQueueCallbackDeviceIoControl interface,OnDeviceIoControl method, IQueueCallbackDeviceIoControl.OnDeviceIoControl, IQueueCallbackDeviceIoControl::OnDeviceIoControl, OnDeviceIoControl, OnDeviceIoControl method, OnDeviceIoControl method,IQueueCallbackDeviceIoControl interface, UMDFQueueObjectRef_2dd692cd-27fb-41fc-ab9d-2bb9db9b32bb.xml, umdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, wdf.iqueuecallbackdeviceiocontrol_ondeviceiocontrol, wudfddi/IQueueCallbackDeviceIoControl::OnDeviceIoControl
 f1_keywords:
  - "wudfddi/IQueueCallbackDeviceIoControl.OnDeviceIoControl"

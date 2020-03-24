@@ -6,6 +6,7 @@ old-location: print\iprintpipelinefilter.htm
 tech.root: print
 ms.assetid: e8841091-1d62-4770-aa85-993b49efbd48
 ms.date: 04/20/2018
+keywords: ["IPrintPipelineFilter interface"]
 ms.keywords: IPrintPipelineFilter, IPrintPipelineFilter interface [Print Devices], IPrintPipelineFilter interface [Print Devices],described, filterpipeline/IPrintPipelineFilter, filterpipeline_67beec81-fbba-43d2-af2f-ddbc32c68fce.xml, print.iprintpipelinefilter
 f1_keywords:
  - "filterpipeline/IPrintPipelineFilter"

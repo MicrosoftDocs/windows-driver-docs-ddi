@@ -6,6 +6,7 @@ old-location: gnss\ioctl_gnss_respond_ni.htm
 tech.root: gnss
 ms.assetid: AEEB014C-653F-459A-A04A-6E0732E8E5B0
 ms.date: 02/15/2018
+keywords: ["IOCTL_GNSS_RESPOND_NI IOCTL"]
 ms.keywords: IOCTL_GNSS_RESPOND_NI, IOCTL_GNSS_RESPOND_NI control, IOCTL_GNSS_RESPOND_NI control code [Sensor Devices], gnss.ioctl_gnss_respond_ni, gnssdriver/IOCTL_GNSS_RESPOND_NI
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_RESPOND_NI"

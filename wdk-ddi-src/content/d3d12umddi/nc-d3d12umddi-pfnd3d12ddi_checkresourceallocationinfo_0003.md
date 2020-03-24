@@ -4,6 +4,7 @@ title: PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003 (d3d12umddi.h)
 description: The pfnCheckResourceAllocationInfo callback function supports checking resource allocation information.
 ms.assetid: 88c3cb14-acf1-4391-a8f0-059a2533a183
 ms.date: 10/19/2018
+keywords: ["PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003 callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003"
 req.header: d3d12umddi.h

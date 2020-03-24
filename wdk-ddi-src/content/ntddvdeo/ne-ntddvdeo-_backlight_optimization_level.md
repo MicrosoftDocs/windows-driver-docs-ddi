@@ -4,6 +4,7 @@ title: _BACKLIGHT_OPTIMIZATION_LEVEL (ntddvdeo.h)
 description: Specifies the type of backlight optimization.
 ms.assetid: df927641-352a-472c-b4ca-dc02abdd5b0d
 ms.date: 10/19/2018
+keywords: ["_BACKLIGHT_OPTIMIZATION_LEVEL enumeration"]
 f1_keywords:
  - "ntddvdeo/_BACKLIGHT_OPTIMIZATION_LEVEL"
 ms.keywords: _BACKLIGHT_OPTIMIZATION_LEVEL, BACKLIGHT_OPTIMIZATION_LEVEL,

@@ -6,6 +6,7 @@ old-location: stream\lamp_intensity_white.htm
 tech.root: stream
 ms.assetid: BDE53311-589F-4458-9510-1B02F1BD0289
 ms.date: 04/23/2018
+keywords: ["LAMP_INTENSITY_WHITE structure"]
 ms.keywords: LAMP_INTENSITY_WHITE, LAMP_INTENSITY_WHITE structure [Streaming Media Devices], lamp/LAMP_INTENSITY_WHITE, stream.lamp_intensity_white
 f1_keywords:
  - "lamp/LAMP_INTENSITY_WHITE"

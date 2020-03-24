@@ -6,6 +6,7 @@ old-location: print\dot4_dc_destroy_data.htm
 tech.root: print
 ms.assetid: 1AA00E3C-C6FB-49A4-9EFB-DFFEEFF4C0A0
 ms.date: 04/20/2018
+keywords: ["_DOT4_DC_DESTROY_DATA structure"]
 ms.keywords: "*PDOT4_DC_DESTROY_DATA, DOT4_DC_DESTROY_DATA, DOT4_DC_DESTROY_DATA structure [Print Devices], PDOT4_DC_DESTROY_DATA, PDOT4_DC_DESTROY_DATA structure pointer [Print Devices], _DOT4_DC_DESTROY_DATA, d4drvif/DOT4_DC_DESTROY_DATA, d4drvif/PDOT4_DC_DESTROY_DATA, print.dot4_dc_destroy_data"
 f1_keywords:
  - "d4drvif/DOT4_DC_DESTROY_DATA"

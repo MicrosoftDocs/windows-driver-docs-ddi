@@ -6,6 +6,7 @@ old-location: image\istillimage_enablehwnotifications.htm
 tech.root: image
 ms.assetid: 54b4468a-7823-4afe-8845-696c4a534367
 ms.date: 05/03/2018
+keywords: ["IStillImageW::EnableHwNotifications"]
 ms.keywords: EnableHwNotifications, EnableHwNotifications method [Imaging Devices], EnableHwNotifications method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],EnableHwNotifications method, IStillImageW.EnableHwNotifications, IStillImageW::EnableHwNotifications, image.istillimage_enablehwnotifications, sti/IStillImageW::EnableHwNotifications, stifnc_50df840a-7fa2-4235-864f-dee8ce5ce849.xml
 f1_keywords:
  - "sti/IStillImageW.EnableHwNotifications"

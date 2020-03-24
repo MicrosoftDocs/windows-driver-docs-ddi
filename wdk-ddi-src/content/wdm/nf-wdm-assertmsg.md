@@ -6,6 +6,7 @@ old-location: devtest\assertmsg.htm
 tech.root: devtest
 ms.assetid: 88c0cd30-607b-48f4-b2b6-3c21be1ce31a
 ms.date: 02/23/2018
+keywords: ["ASSERTMSG macro"]
 ms.keywords: ASSERTMSG, ASSERTMSG function [Driver Development Tools], DebugFns_998b520e-90e6-440f-94d4-55ff0b6e102f.xml, devtest.assertmsg, ntddk/ASSERTMSG
 f1_keywords:
  - "wdm/ASSERTMSG"

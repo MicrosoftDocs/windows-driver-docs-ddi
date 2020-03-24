@@ -6,6 +6,7 @@ old-location: storage\addradiusserver_out.htm
 tech.root: storage
 ms.assetid: 512e66f6-d91f-4351-ba55-02ae3e84102e
 ms.date: 03/29/2018
+keywords: ["_AddRADIUSServer_OUT structure"]
 ms.keywords: "*PAddRADIUSServer_OUT, AddRADIUSServer_OUT, AddRADIUSServer_OUT structure [Storage Devices], PAddRADIUSServer_OUT, PAddRADIUSServer_OUT structure pointer [Storage Devices], _AddRADIUSServer_OUT, iscsiop/AddRADIUSServer_OUT, iscsiop/PAddRADIUSServer_OUT, storage.addradiusserver_out, structs-iSCSI_4dd737cb-21a3-4f49-acbe-d40b5b172f3f.xml"
 f1_keywords:
  - "iscsiop/AddRADIUSServer_OUT"

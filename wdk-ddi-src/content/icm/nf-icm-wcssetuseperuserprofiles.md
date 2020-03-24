@@ -6,6 +6,7 @@ old-location: print\wcssetuseperuserprofiles.htm
 tech.root: print
 ms.assetid: e14f944f-67fe-4eb8-85b2-9ba262e2e549
 ms.date: 04/20/2018
+keywords: ["WcsSetUsePerUserProfiles function"]
 ms.keywords: WcsSetUsePerUserProfiles, WcsSetUsePerUserProfiles function [Print Devices], colorfnc_e56a2693-0dec-4b5a-96be-2934ec336d2b.xml, icm/WcsSetUsePerUserProfiles, print.wcssetuseperuserprofiles
 ms.topic: function
 req.header: icm.h

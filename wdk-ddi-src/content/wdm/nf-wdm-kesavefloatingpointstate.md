@@ -6,6 +6,7 @@ old-location: kernel\kesavefloatingpointstate.htm
 tech.root: kernel
 ms.assetid: 2ab1b2dd-4848-4eb0-9836-e3be987535a6
 ms.date: 04/30/2018
+keywords: ["KeSaveFloatingPointState function"]
 ms.keywords: KeSaveFloatingPointState, KeSaveFloatingPointState routine [Kernel-Mode Driver Architecture], k105_f004bc61-7a09-46d1-a9c3-dc2a76a03c43.xml, kernel.kesavefloatingpointstate, wdm/KeSaveFloatingPointState
 f1_keywords:
  - "wdm/KeSaveFloatingPointState"

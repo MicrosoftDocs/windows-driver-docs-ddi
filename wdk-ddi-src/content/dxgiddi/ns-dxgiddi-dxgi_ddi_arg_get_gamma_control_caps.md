@@ -6,6 +6,7 @@ old-location: display\dxgi_ddi_arg_get_gamma_control_caps.htm
 tech.root: display
 ms.assetid: 1e7930e4-ab3e-4981-9533-ed1da8c777dc
 ms.date: 05/10/2018
+keywords: ["DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS structure"]
 ms.keywords: DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS, DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_770eb1ba-2972-4133-b899-a096a53fc1de.xml, display.dxgi_ddi_arg_get_gamma_control_caps, dxgiddi/DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS"

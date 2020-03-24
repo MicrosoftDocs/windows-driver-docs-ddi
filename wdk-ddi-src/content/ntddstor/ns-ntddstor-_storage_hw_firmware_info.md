@@ -6,6 +6,7 @@ old-location: storage\storage_hw_firmware_info.htm
 tech.root: storage
 ms.assetid: 5A85A7EC-2333-4161-A1E7-55D3420E730C
 ms.date: 03/29/2018
+keywords: ["_STORAGE_HW_FIRMWARE_INFO structure"]
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_INFO, PSTORAGE_HW_FIRMWARE_INFO, PSTORAGE_HW_FIRMWARE_INFO structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_INFO, STORAGE_HW_FIRMWARE_INFO structure [Storage Devices], _STORAGE_HW_FIRMWARE_INFO, ntddstor/PSTORAGE_HW_FIRMWARE_INFO, ntddstor/STORAGE_HW_FIRMWARE_INFO, storage.storage_hw_firmware_info"
 f1_keywords:
  - "ntddstor/STORAGE_HW_FIRMWARE_INFO"

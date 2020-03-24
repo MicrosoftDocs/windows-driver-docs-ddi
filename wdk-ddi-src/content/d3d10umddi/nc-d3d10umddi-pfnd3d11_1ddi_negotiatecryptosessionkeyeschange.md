@@ -5,6 +5,7 @@ description: Establishes a session key for a cryptographic session object.
 old-location: display\negotiatecryptosessionkeyexchange.htm
 ms.assetid: a48dcbae-3236-4523-bc14-4be694da9a7b
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE callback function"]
 ms.keywords: NegotiateCryptoSessionKeyExchange, NegotiateCryptoSessionKeyExchange callback function [Display Devices], PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE, PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE callback, d3d10umddi/NegotiateCryptoSessionKeyExchange, display.negotiatecryptosessionkeyexchange
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

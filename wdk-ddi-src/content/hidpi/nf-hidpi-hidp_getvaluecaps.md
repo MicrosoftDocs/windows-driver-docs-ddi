@@ -6,6 +6,7 @@ old-location: hid\hidp_getvaluecaps.htm
 tech.root: hid
 ms.assetid: 74c26072-3b41-4d5c-96a1-d9c5b37ed97a
 ms.date: 04/30/2018
+keywords: ["HidP_GetValueCaps function"]
 ms.keywords: HidP_GetValueCaps, HidP_GetValueCaps routine [Human Input Devices], hid.hidp_getvaluecaps, hidfunc_e600ab99-103c-43dd-b37b-fe35a96b2482.xml, hidpi/HidP_GetValueCaps
 f1_keywords:
  - "hidpi/HidP_GetValueCaps"

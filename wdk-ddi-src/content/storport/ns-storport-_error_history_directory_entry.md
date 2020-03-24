@@ -5,6 +5,7 @@ description:
 tech.root: storage
 ms.assetid: e6add652-526e-47e3-afd2-6350a0440413
 ms.date: 10/19/2018
+keywords: ["_ERROR_HISTORY_DIRECTORY_ENTRY structure"]
 f1_keywords:
  - "storport/_ERROR_HISTORY_DIRECTORY_ENTRY"
 ms.keywords: _ERROR_HISTORY_DIRECTORY_ENTRY, ERROR_HISTORY_DIRECTORY_ENTRY, *PERROR_HISTORY_DIRECTORY_ENTRY, 

@@ -6,6 +6,7 @@ old-location: kernel\iopropagateactivityidtothread.htm
 tech.root: kernel
 ms.assetid: 8E824793-53DF-4573-81B0-6FE925CCB4C4
 ms.date: 04/30/2018
+keywords: ["IoPropagateActivityIdToThread function"]
 ms.keywords: IoPropagateActivityIdToThread, IoPropagateActivityIdToThread routine [Kernel-Mode Driver Architecture], kernel.iopropagateactivityidtothread, ntddk/IoPropagateActivityIdToThread
 f1_keywords:
  - "ntddk/IoPropagateActivityIdToThread"

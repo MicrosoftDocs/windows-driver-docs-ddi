@@ -6,6 +6,7 @@ old-location: print\iprintoemuni_enabledriver.htm
 tech.root: print
 ms.assetid: 7d7cd1de-569a-4083-8d4c-e073645941e6
 ms.date: 04/20/2018
+keywords: ["IPrintOemUni::EnableDriver"]
 ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],EnableDriver method, IPrintOemUni.EnableDriver, IPrintOemUni::EnableDriver, prcomoem/IPrintOemUni::EnableDriver, print.iprintoemuni_enabledriver, print_unidrv-pscript_rendering_804d9469-6ac6-4220-b123-25a2d226b609.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.EnableDriver"

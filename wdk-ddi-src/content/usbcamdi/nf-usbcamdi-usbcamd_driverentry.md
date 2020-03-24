@@ -6,6 +6,7 @@ old-location: stream\usbcamd_driverentry.htm
 tech.root: stream
 ms.assetid: ac77b121-2495-4739-8c8f-96d6c48e4dc6
 ms.date: 04/23/2018
+keywords: ["USBCAMD_DriverEntry function"]
 ms.keywords: USBCAMD_DriverEntry, USBCAMD_DriverEntry function [Streaming Media Devices], stream.usbcamd_driverentry, usbcamdi/USBCAMD_DriverEntry, usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml
 f1_keywords:
  - "usbcamdi/USBCAMD_DriverEntry"

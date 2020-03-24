@@ -6,6 +6,7 @@ old-location: stream\ksproperty_tuner_mode_caps_s.htm
 tech.root: stream
 ms.assetid: e2376cde-7e13-475d-a118-0cf48ba8a742
 ms.date: 04/30/2019
+keywords: ["KSPROPERTY_TUNER_MODE_CAPS_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_MODE_CAPS_S, KSPROPERTY_TUNER_MODE_CAPS_S, KSPROPERTY_TUNER_MODE_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_MODE_CAPS_S, PKSPROPERTY_TUNER_MODE_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_MODE_CAPS_S, ksmedia/PKSPROPERTY_TUNER_MODE_CAPS_S, stream.ksproperty_tuner_mode_caps_s, vidcapstruct_d80882b8-2962-48c3-b2e9-393deec31ccc.xml"
 f1_keywords:
  - "ksmedia/KSPROPERTY_TUNER_MODE_CAPS_S"

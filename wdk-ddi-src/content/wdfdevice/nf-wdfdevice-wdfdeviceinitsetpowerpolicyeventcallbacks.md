@@ -6,6 +6,7 @@ old-location: wdf\wdfdeviceinitsetpowerpolicyeventcallbacks.htm
 tech.root: wdf
 ms.assetid: ae74d58c-3b36-4298-aa6f-4c272e7ff61c
 ms.date: 02/26/2018
+keywords: ["WdfDeviceInitSetPowerPolicyEventCallbacks function"]
 ms.keywords: DFDeviceObjectGeneralRef_7a73b769-9408-4349-b269-53dff2261d3d.xml, WdfDeviceInitSetPowerPolicyEventCallbacks, WdfDeviceInitSetPowerPolicyEventCallbacks method, kmdf.wdfdeviceinitsetpowerpolicyeventcallbacks, wdf.wdfdeviceinitsetpowerpolicyeventcallbacks, wdfdevice/WdfDeviceInitSetPowerPolicyEventCallbacks
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetPowerPolicyEventCallbacks"

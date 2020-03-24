@@ -6,6 +6,7 @@ old-location: serports\sercxdeviceinitconfig.htm
 tech.root: serports
 ms.assetid: 13466A7E-D39B-4E60-AD02-2E6EFE27495A
 ms.date: 04/23/2018
+keywords: ["SerCxDeviceInitConfig function"]
 ms.keywords: 1/SerCxDeviceInitConfig, SerCxDeviceInitConfig, SerCxDeviceInitConfig method [Serial Ports], serports.sercxdeviceinitconfig
 f1_keywords:
  - "sercx/SerCxDeviceInitConfig"

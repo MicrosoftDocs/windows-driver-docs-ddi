@@ -6,6 +6,7 @@ old-location: display\setviewport.htm
 tech.root: display
 ms.assetid: ef0847a3-d4f5-4a9e-a041-1b8f8523fdf7
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_SETVIEWPORT callback function"]
 ms.keywords: PFND3DDDI_SETVIEWPORT, PFND3DDDI_SETVIEWPORT callback, SetViewport, SetViewport callback function [Display Devices], UserModeDisplayDriver_Functions_6b0d00a2-6316-4ac0-878c-e8554e92ef57.xml, d3dumddi/SetViewport, display.setviewport
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

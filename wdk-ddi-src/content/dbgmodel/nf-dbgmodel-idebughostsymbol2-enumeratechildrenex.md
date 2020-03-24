@@ -4,6 +4,7 @@ title: IDebugHostSymbol2::EnumerateChildrenEx (dbgmodel.h)
 description: Enumerates all child symbols of the given type, name, and extended information which is present.
 ms.assetid: 8479d24b-be5f-4c21-adea-699af64adeb2
 ms.date: 06/10/2019
+keywords: ["IDebugHostSymbol2::EnumerateChildrenEx"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol2.EnumerateChildrenEx"
 ms.keywords: IDebugHostSymbol2::EnumerateChildrenEx, EnumerateChildrenEx, IDebugHostSymbol2.EnumerateChildrenEx, IDebugHostSymbol2::EnumerateChildrenEx, IDebugHostSymbol2.EnumerateChildrenEx

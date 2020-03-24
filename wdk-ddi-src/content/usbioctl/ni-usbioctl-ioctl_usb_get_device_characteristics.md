@@ -6,6 +6,7 @@ old-location: buses\_ioctl_usb_get_device_characteristics.htm
 tech.root: usbref
 ms.assetid: FEEF13FE-E7CF-4513-8E16-B1E46283883C
 ms.date: 05/07/2018
+keywords: ["IOCTL_USB_GET_DEVICE_CHARACTERISTICS IOCTL"]
 ms.keywords: IOCTL_USB_GET_DEVICE_CHARACTERISTICS, IOCTL_USB_GET_DEVICE_CHARACTERISTICS control, IOCTL_USB_GET_DEVICE_CHARACTERISTICS control code [Buses], buses._ioctl_usb_get_device_characteristics, usbioctl/ IOCTL_USB_GET_DEVICE_CHARACTERISTICS
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_DEVICE_CHARACTERISTICS"

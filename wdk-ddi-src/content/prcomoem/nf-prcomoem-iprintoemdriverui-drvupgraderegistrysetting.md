@@ -6,6 +6,7 @@ old-location: print\iprintoemdriverui_drvupgraderegistrysetting.htm
 tech.root: print
 ms.assetid: 9249dd75-7d90-414a-b6b5-4be0fc4f3170
 ms.date: 04/20/2018
+keywords: ["IPrintOemDriverUI::DrvUpgradeRegistrySetting"]
 ms.keywords: DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting method [Print Devices], DrvUpgradeRegistrySetting method [Print Devices],IPrintOemDriverUI interface, IPrintOemDriverUI interface [Print Devices],DrvUpgradeRegistrySetting method, IPrintOemDriverUI.DrvUpgradeRegistrySetting, IPrintOemDriverUI::DrvUpgradeRegistrySetting, prcomoem/IPrintOemDriverUI::DrvUpgradeRegistrySetting, print.iprintoemdriverui_drvupgraderegistrysetting, print_unidrv-pscript_ui_f87ff21a-a7c2-49b5-857a-2ef201c2f13f.xml
 f1_keywords:
  - "prcomoem/IPrintOemDriverUI.DrvUpgradeRegistrySetting"

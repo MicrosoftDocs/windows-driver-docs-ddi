@@ -4,6 +4,7 @@ title: IModelKeyReference2::OverrideContextObject (dbgmodel.h)
 description: The OverrideContextObject method is an method which is used to permanently alter the context object which this key reference will pass to any underlying property accessor's GetValue or SetValue methods.
 ms.assetid: bb28b47c-7311-4572-9d87-0331a5cc728a
 ms.date: 08/14/2018
+keywords: ["IModelKeyReference2::OverrideContextObject"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference2.OverrideContextObject"
 ms.keywords: IModelKeyReference2::OverrideContextObject, OverrideContextObject, IModelKeyReference2.OverrideContextObject, IModelKeyReference2::OverrideContextObject, IModelKeyReference2.OverrideContextObject

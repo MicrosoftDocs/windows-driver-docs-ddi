@@ -6,6 +6,7 @@ old-location: kernel\pofxcompletedevicepowernotrequired.htm
 tech.root: kernel
 ms.assetid: 7DCAFA7C-6F13-4020-BCB6-D36EE164BDAA
 ms.date: 04/30/2018
+keywords: ["PoFxCompleteDevicePowerNotRequired function"]
 ms.keywords: PoFxCompleteDevicePowerNotRequired, PoFxCompleteDevicePowerNotRequired routine [Kernel-Mode Driver Architecture], kernel.pofxcompletedevicepowernotrequired, wdm/PoFxCompleteDevicePowerNotRequired
 f1_keywords:
  - "wdm/PoFxCompleteDevicePowerNotRequired"

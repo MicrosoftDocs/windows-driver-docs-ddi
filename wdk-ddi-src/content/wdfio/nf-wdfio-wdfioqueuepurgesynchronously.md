@@ -6,6 +6,7 @@ old-location: wdf\wdfioqueuepurgesynchronously.htm
 tech.root: wdf
 ms.assetid: 705faf80-79c4-4f2a-a399-d9a26bde54cf
 ms.date: 02/26/2018
+keywords: ["WdfIoQueuePurgeSynchronously function"]
 ms.keywords: DFQueueObjectRef_3630b28a-48ff-4b9d-9359-9b88771e5104.xml, WdfIoQueuePurgeSynchronously, WdfIoQueuePurgeSynchronously method, kmdf.wdfioqueuepurgesynchronously, wdf.wdfioqueuepurgesynchronously, wdfio/WdfIoQueuePurgeSynchronously
 f1_keywords:
  - "wdfio/WdfIoQueuePurgeSynchronously"

@@ -6,6 +6,7 @@ old-location: display\iddcx_monitor_description.htm
 tech.root: display
 ms.assetid: 3ef7ffca-9192-4578-8397-c7fbb2ea2239
 ms.date: 05/10/2018
+keywords: ["IDDCX_MONITOR_DESCRIPTION structure"]
 ms.keywords: IDDCX_MONITOR_DESCRIPTION, IDDCX_MONITOR_DESCRIPTION structure [Display Devices], display.iddcx_monitor_description, iddcx/IDDCX_MONITOR_DESCRIPTION
 f1_keywords:
  - "iddcx/IDDCX_MONITOR_DESCRIPTION"

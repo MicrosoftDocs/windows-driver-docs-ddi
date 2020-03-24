@@ -4,6 +4,7 @@ title: _NETWORK_APP_INSTANCE_EA (ntifs.h)
 description: 
 ms.assetid: d9763ddb-d0c3-4ed5-b157-4a85503fba3b
 ms.date: 10/19/2018
+keywords: ["_NETWORK_APP_INSTANCE_EA structure"]
 f1_keywords:
  - "ntifs/_NETWORK_APP_INSTANCE_EA"
 ms.keywords: _NETWORK_APP_INSTANCE_EA, NETWORK_APP_INSTANCE_EA, *PNETWORK_APP_INSTANCE_EA, 

@@ -6,6 +6,7 @@ old-location: spb\spbtargetgetconnectionparameters.htm
 tech.root: SPB
 ms.assetid: 0692D8A3-CA43-4D27-9E8E-EB104DB1651F
 ms.date: 04/30/2018
+keywords: ["SpbTargetGetConnectionParameters function"]
 ms.keywords: SPB.spbtargetgetconnectionparameters, SpbTargetGetConnectionParameters, SpbTargetGetConnectionParameters method [Buses], spbcx/SpbTargetGetConnectionParameters
 f1_keywords:
  - "spbcx/SpbTargetGetConnectionParameters"

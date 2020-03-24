@@ -6,6 +6,7 @@ old-location: netvista\providersuspenddma.htm
 tech.root: netvista
 ms.assetid: b020b0c6-eb69-44d0-a374-b39eb2f536f1
 ms.date: 05/02/2018
+keywords: ["DMA_SUSPEND_HANDLER callback function"]
 ms.keywords: DMA_SUSPEND_HANDLER, DMA_SUSPEND_HANDLER callback, ProviderSuspendDma, ProviderSuspendDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderSuspendDma, netdma_ref_f194d9b0-083c-46a1-9e39-aa33c62af512.xml, netvista.providersuspenddma
 f1_keywords:
  - "netdma/ProviderSuspendDma"

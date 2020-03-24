@@ -6,6 +6,7 @@ old-location: display\querydlistforapplication1.htm
 tech.root: display
 ms.assetid: 4F27E884-D21C-483D-9E53-02D405D02F10
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_QUERYDLISTFORAPPLICATION1 callback function"]
 ms.keywords: PFND3DDDI_QUERYDLISTFORAPPLICATION1, PFND3DDDI_QUERYDLISTFORAPPLICATION1 callback, QueryDListForApplication, QueryDListForApplication callback function [Display Devices], d3dumddi/QueryDListForApplication, display.querydlistforapplication1
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h

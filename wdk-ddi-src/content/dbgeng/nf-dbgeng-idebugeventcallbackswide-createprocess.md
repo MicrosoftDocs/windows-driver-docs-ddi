@@ -6,6 +6,7 @@ old-location: debugger\idebugeventcallbackswide_createprocess.htm
 tech.root: debugger
 ms.assetid: d5378b35-da27-419f-a161-0c542aa4a9f9
 ms.date: 05/03/2018
+keywords: ["IDebugEventCallbacksWide::CreateProcess"]
 ms.keywords: CreateProcess, CreateProcess method [Windows Debugging], CreateProcess method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],CreateProcess method, IDebugEventCallbacksWide.CreateProcess, IDebugEventCallbacksWide::CreateProcess, dbgeng/IDebugEventCallbacksWide::CreateProcess, debugger.idebugeventcallbackswide_createprocess
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.CreateProcess"

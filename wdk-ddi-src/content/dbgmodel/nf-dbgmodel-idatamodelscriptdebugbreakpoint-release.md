@@ -4,6 +4,7 @@ title: IDataModelScriptDebugBreakpoint::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 533b1b9d-7061-4e53-882e-92ab7f8cb1f9
 ms.date: 09/10/2018
+keywords: ["IDataModelScriptDebugBreakpoint::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpoint.Release"
 ms.keywords: IDataModelScriptDebugBreakpoint::Release, Release, IDataModelScriptDebugBreakpoint.Release, IDataModelScriptDebugBreakpoint::Release, IDataModelScriptDebugBreakpoint.Release

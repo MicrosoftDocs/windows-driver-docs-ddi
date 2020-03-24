@@ -2,6 +2,7 @@
 UID: NF:wdm.KeShouldYieldProcessor
 title: KeShouldYieldProcessor
 ms.date: 11/8/2019
+keywords: ["KeShouldYieldProcessor function"]
 ms.topic: language-reference
 targetos: Windows
 description: 
@@ -37,6 +38,8 @@ f1_keywords:
 dev_langs:
  - c++
 ---
+
+# KeShouldYieldProcessor function
 
 ## -description
 

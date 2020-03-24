@@ -5,6 +5,7 @@ description: Creates a resource view for a video processor. This view defines th
 old-location: display\createvideoprocessoroutputview.htm
 ms.assetid: 619695dc-8525-4200-a0c2-8ce0fb1010ed
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW callback function"]
 ms.keywords: CreateVideoProcessorOutputView, CreateVideoProcessorOutputView callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW, PFND3D11_1DDI_CREATEVIDEOPROCESSOROUTPUTVIEW callback, d3d10umddi/CreateVideoProcessorOutputView, display.createvideoprocessoroutputview
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

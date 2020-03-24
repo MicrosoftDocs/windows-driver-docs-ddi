@@ -6,6 +6,7 @@ old-location: storage\setloadbalancepolicy_in.htm
 tech.root: storage
 ms.assetid: e1895fed-a006-45f6-a38a-1767202cbf4f
 ms.date: 03/29/2018
+keywords: ["_SetLoadBalancePolicy_IN structure"]
 ms.keywords: "*PSetLoadBalancePolicy_IN, PSetLoadBalancePolicy_IN, PSetLoadBalancePolicy_IN structure pointer [Storage Devices], SetLoadBalancePolicy_IN, SetLoadBalancePolicy_IN structure [Storage Devices], _SetLoadBalancePolicy_IN, iscsimgt/PSetLoadBalancePolicy_IN, iscsimgt/SetLoadBalancePolicy_IN, storage.setloadbalancepolicy_in, structs-iSCSI_d4d805d0-4c3c-4f5e-90ee-9c6bf881dfcf.xml"
 f1_keywords:
  - "iscsimgt/SetLoadBalancePolicy_IN"

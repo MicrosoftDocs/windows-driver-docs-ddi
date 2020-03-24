@@ -6,6 +6,7 @@ old-location: kernel\exinitializedeletetimerparameters.htm
 tech.root: kernel
 ms.assetid: 2AD23AE1-05FF-44AF-807F-1ABD9D0D24DA
 ms.date: 04/30/2018
+keywords: ["ExInitializeDeleteTimerParameters function"]
 ms.keywords: ExInitializeDeleteTimerParameters, ExInitializeDeleteTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializedeletetimerparameters, wdm/ExInitializeDeleteTimerParameters
 f1_keywords:
  - "wdm/ExInitializeDeleteTimerParameters"

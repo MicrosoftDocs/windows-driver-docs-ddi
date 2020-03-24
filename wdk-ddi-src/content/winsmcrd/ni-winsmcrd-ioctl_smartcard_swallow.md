@@ -6,6 +6,7 @@ old-location: smartcrd\ioctl_smartcard_swallow.htm
 tech.root: smartcrd
 ms.assetid: c229769d-8798-436e-bd26-9dfd507fba9c
 ms.date: 02/22/2018
+keywords: ["IOCTL_SMARTCARD_SWALLOW IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_SWALLOW, IOCTL_SMARTCARD_SWALLOW control, IOCTL_SMARTCARD_SWALLOW control code [Smart Card Reader Devices], scioctls_71a14048-5e68-45c7-ad72-03c6350b9072.xml, smartcrd.ioctl_smartcard_swallow, winsmcrd/IOCTL_SMARTCARD_SWALLOW
 f1_keywords:
  - "winsmcrd/IOCTL_SMARTCARD_SWALLOW"

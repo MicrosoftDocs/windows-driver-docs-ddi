@@ -6,6 +6,7 @@ old-location: pos\posdeviceinformation.htm
 tech.root: pos
 ms.assetid: 9ae1cfd1-1ef8-4f27-b6e1-f593bdc020e8
 ms.date: 02/23/2018
+keywords: ["_PosDeviceInformation structure"]
 ms.keywords: PosDeviceInformation, PosDeviceInformation structure, _PosDeviceInformation, pointofservicecommontypes/PosDeviceInformation, pos.posdeviceinformation
 f1_keywords:
  - "pointofservicecommontypes/PosDeviceInformation"

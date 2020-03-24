@@ -6,6 +6,7 @@ old-location: print\iprinterscriptablestream.htm
 tech.root: print
 ms.assetid: AD3CDF90-76ED-498B-8DE1-B191504EB415
 ms.date: 04/20/2018
+keywords: ["IPrinterScriptableStream interface"]
 ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], IPrinterScriptableStream interface [Print Devices],described, print.iprinterscriptablestream, printerextension/IPrinterScriptableStream
 f1_keywords:
  - "printerextension/IPrinterScriptableStream"

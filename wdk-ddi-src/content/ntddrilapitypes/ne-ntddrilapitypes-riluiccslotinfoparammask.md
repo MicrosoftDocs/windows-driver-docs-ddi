@@ -6,6 +6,7 @@ old-location: netvista\riluiccslotinfoparammask.htm
 tech.root: netvista
 ms.assetid: f99fc76e-a569-4a7e-9f8d-3f604ccfa6a3
 ms.date: 05/02/2018
+keywords: ["RILUICCSLOTINFOPARAMMASK enumeration"]
 ms.keywords: RILUICCSLOTINFOPARAMMASK, RILUICCSLOTINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SLOTINFO_ALL, RIL_PARAM_SLOTINFO_SLOTSTATE, netvista.riluiccslotinfoparammask, ntddrilapitypes/RILUICCSLOTINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_SLOTINFO_ALL, ntddrilapitypes/RIL_PARAM_SLOTINFO_SLOTSTATE
 f1_keywords:
  - "ntddrilapitypes/RILUICCSLOTINFOPARAMMASK"

@@ -6,6 +6,7 @@ old-location: nfpdrivers\ioctl_nfp_enable.htm
 tech.root: nfpdrivers
 ms.assetid: 25D4C7BB-782D-4BDB-9E07-F152E3705705
 ms.date: 02/15/2018
+keywords: ["IOCTL_NFP_ENABLE IOCTL"]
 ms.keywords: IOCTL_NFP_ENABLE, IOCTL_NFP_ENABLE control, IOCTL_NFP_ENABLE control code [Near-Field Proximity Drivers], _IOCTL_NFP_ENABLE, nfpdev/IOCTL_NFP_ENABLE, nfpdrivers.ioctl_nfp_enable
 f1_keywords:
  - "nfpdev/IOCTL_NFP_ENABLE"

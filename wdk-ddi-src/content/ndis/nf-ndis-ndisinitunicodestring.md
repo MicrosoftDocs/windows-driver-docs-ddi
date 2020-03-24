@@ -6,6 +6,7 @@ old-location: netvista\ndisinitunicodestring.htm
 tech.root: netvista
 ms.assetid: 073feb91-48ae-4ad5-9061-117e6541021c
 ms.date: 05/02/2018
+keywords: ["NdisInitUnicodeString macro"]
 ms.keywords: NdisInitUnicodeString, NdisInitUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisInitUnicodeString, ndis_string_ref_a25a98b2-f88b-4a56-9bb7-77a4e6dc10a6.xml, netvista.ndisinitunicodestring
 f1_keywords:
  - "ndis/NdisInitUnicodeString"

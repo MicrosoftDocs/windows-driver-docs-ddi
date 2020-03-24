@@ -6,6 +6,7 @@ old-location: wdf\wdf_remove_lock_options.htm
 tech.root: wdf
 ms.assetid: 0A50C1FB-D0C6-47C4-AD71-AD0B7486AA2E
 ms.date: 02/26/2018
+keywords: ["_WDF_REMOVE_LOCK_OPTIONS structure"]
 ms.keywords: "*PWDF_REMOVE_LOCK_OPTIONS, PWDF_REMOVE_LOCK_OPTIONS, PWDF_REMOVE_LOCK_OPTIONS structure pointer, WDF_REMOVE_LOCK_OPTIONS, WDF_REMOVE_LOCK_OPTIONS structure, _WDF_REMOVE_LOCK_OPTIONS, kmdf.wdf_remove_lock_options, wdf.wdf_remove_lock_options, wdfdevice/PWDF_REMOVE_LOCK_OPTIONS, wdfdevice/WDF_REMOVE_LOCK_OPTIONS"
 f1_keywords:
  - "wdfdevice/WDF_REMOVE_LOCK_OPTIONS"

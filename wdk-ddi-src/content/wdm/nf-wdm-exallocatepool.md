@@ -6,6 +6,7 @@ old-location: kernel\exallocatepool.htm
 tech.root: kernel
 ms.assetid: b5b88a14-3d60-45bf-8340-b78175a55e01
 ms.date: 04/30/2018
+keywords: ["ExAllocatePool function"]
 ms.keywords: ExAllocatePool, ExAllocatePool routine [Kernel-Mode Driver Architecture], k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, kernel.exallocatepool, wdm/ExAllocatePool
 f1_keywords:
  - "wdm/ExAllocatePool"

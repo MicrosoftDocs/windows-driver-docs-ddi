@@ -6,6 +6,7 @@ old-location: kernel\rtlintadd.htm
 tech.root: kernel
 ms.assetid: DF556961-D5BA-4A50-9E6A-DACE96D13B50
 ms.date: 04/30/2018
+keywords: ["RtlIntAdd function"]
 ms.keywords: RtlIntAdd, RtlIntAdd function [Kernel-Mode Driver Architecture], kernel.rtlintadd, ntintsafe/RtlIntAdd
 f1_keywords:
  - "ntintsafe/RtlIntAdd"

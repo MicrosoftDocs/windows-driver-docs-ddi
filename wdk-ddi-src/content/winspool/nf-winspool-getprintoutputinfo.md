@@ -6,6 +6,7 @@ old-location: print\getprintoutputinfo.htm
 tech.root: print
 ms.assetid: 0EC09215-48B1-4B71-9B4C-99A25C35269F
 ms.date: 04/20/2018
+keywords: ["GetPrintOutputInfo function"]
 ms.keywords: GetPrintOutputInfo, GetPrintOutputInfo function [Print Devices], print.getprintoutputinfo, winspool/GetPrintOutputInfo
 f1_keywords:
  - "winspool/GetPrintOutputInfo"

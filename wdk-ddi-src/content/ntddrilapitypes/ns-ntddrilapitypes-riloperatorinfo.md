@@ -6,6 +6,7 @@ old-location: netvista\riloperatorinfo.htm
 tech.root: netvista
 ms.assetid: 213a4d4e-d19a-40c4-9bc4-8cf6f8aa2d07
 ms.date: 05/02/2018
+keywords: ["RILOPERATORINFO structure"]
 ms.keywords: "*LPRILOPERATORINFO, RILOPERATORINFO, RILOPERATORINFO structure [Network Drivers Starting with Windows Vista], netvista.riloperatorinfo, ntddrilapitypes/RILOPERATORINFO"
 f1_keywords:
  - "ntddrilapitypes/RILOPERATORINFO"

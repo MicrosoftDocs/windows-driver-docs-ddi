@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: 36c92190-6c01-43a7-99d5-c858c3ee321f
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
+keywords: ["WHEA_ERROR_SOURCE_CONFIGURATION structure"]
 f1_keywords:
  - "ntddk/WHEA_ERROR_SOURCE_CONFIGURATION"
 ms.keywords: WHEA_ERROR_SOURCE_CONFIGURATION, WHEA_ERROR_SOURCE_CONFIGURATION, *PWHEA_ERROR_SOURCE_CONFIGURATION, 

@@ -6,6 +6,7 @@ old-location: display\setstreamsourceum.htm
 tech.root: display
 ms.assetid: 75a70801-0338-45ed-a691-5f84202575d5
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_SETSTREAMSOURCEUM callback function"]
 ms.keywords: PFND3DDDI_SETSTREAMSOURCEUM, PFND3DDDI_SETSTREAMSOURCEUM callback, SetStreamSourceUM, SetStreamSourceUM callback function [Display Devices], UserModeDisplayDriver_Functions_0bea09c2-3bd9-4c60-9688-1c5a687e0dc9.xml, d3dumddi/SetStreamSourceUM, display.setstreamsourceum
 f1_keywords:
  - "d3dumddi/SetStreamSourceUM"

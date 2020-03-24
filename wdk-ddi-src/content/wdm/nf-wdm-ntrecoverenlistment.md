@@ -6,6 +6,7 @@ old-location: kernel\zwrecoverenlistment.htm
 tech.root: kernel
 ms.assetid: 0f34d2d1-bb3a-4529-9ced-d9bed998c4ce
 ms.date: 04/30/2018
+keywords: ["NtRecoverEnlistment function"]
 ms.keywords: NtRecoverEnlistment, ZwRecoverEnlistment, ZwRecoverEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwrecoverenlistment, ktm_ref_0a6564fb-c6d1-4b4b-a278-a1d78395c1b4.xml, wdm/NtRecoverEnlistment, wdm/ZwRecoverEnlistment
 f1_keywords:
  - "wdm/ZwRecoverEnlistment"

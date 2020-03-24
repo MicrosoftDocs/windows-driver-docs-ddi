@@ -6,6 +6,7 @@ old-location: kernel\enumerateinterruptsource.htm
 tech.root: kernel
 ms.assetid: 1E6841D8-88A0-4EDB-89EF-3878AF8B0072
 ms.date: 02/24/2018
+keywords: ["PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK callback"]
 ms.keywords: EnumerateInterruptSource, EnumerateInterruptSource routine [Kernel-Mode Driver Architecture], PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK, kernel.enumerateinterruptsource, pepfx/EnumerateInterruptSource
 f1_keywords:
  - "pepfx/EnumerateInterruptSource"

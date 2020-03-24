@@ -6,6 +6,7 @@ old-location: ifsk\fltgetfilterinformation.htm
 tech.root: ifsk
 ms.assetid: d3ffe93c-4fe8-4a2e-9448-8488d2ff909e
 ms.date: 04/16/2018
+keywords: ["FltGetFilterInformation function"]
 ms.keywords: FltApiRef_e_to_o_96d634cd-87a8-49a8-a34b-ad2a1352c677.xml, FltGetFilterInformation, FltGetFilterInformation routine [Installable File System Drivers], fltkernel/FltGetFilterInformation, ifsk.fltgetfilterinformation
 f1_keywords:
  - "fltkernel/FltGetFilterInformation"

@@ -6,6 +6,7 @@ old-location: sensors\isensordriver.htm
 tech.root: sensors
 ms.assetid: 4f468f1e-598e-46ae-b50e-28f73e73afda
 ms.date: 05/03/2018
+keywords: ["ISensorDriver interface"]
 ms.keywords: ISensorDriver, ISensorDriver interface [Sensor Devices], ISensorDriver interface [Sensor Devices],described, Sensor_IFaces_014342f2-5466-426b-bb11-cb4e89a7691a.xml, sensors.isensordriver, sensorsclassextension/ISensorDriver
 f1_keywords:
  - "sensorsclassextension/ISensorDriver"

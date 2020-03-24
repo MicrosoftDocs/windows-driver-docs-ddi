@@ -5,6 +5,7 @@ description: The WWAN_NETWORK_BLACKLIST_INFO structure contains a list of networ
 tech.root: netvista
 ms.assetid: 3506024c-79e1-4603-a7a8-a9ed1aae0372
 ms.date: 08/21/2018
+keywords: ["_WWAN_NETWORK_BLACKLIST_INFO structure"]
 f1_keywords:
  - "wwan/_WWAN_NETWORK_BLACKLIST_INFO"
 ms.keywords: _WWAN_NETWORK_BLACKLIST_INFO, WWAN_NETWORK_BLACKLIST_INFO, *PWWAN_NETWORK_BLACKLIST_INFO, 

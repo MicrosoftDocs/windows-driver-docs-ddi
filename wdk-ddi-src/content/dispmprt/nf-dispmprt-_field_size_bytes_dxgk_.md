@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: c77b775c-7027-44ea-a4d1-e48fc9faecb3
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
+keywords: ["_Field_size_bytes_DXGK_ macro"]
 f1_keywords:
  - "dispmprt/_Field_size_bytes_DXGK_"
 ms.keywords: _Field_size_bytes_DXGK_

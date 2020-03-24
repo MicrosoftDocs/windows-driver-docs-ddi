@@ -6,6 +6,7 @@ old-location: netvista\wdi_p2p_discover_type.htm
 tech.root: netvista
 ms.assetid: AE9910F7-A3B8-4C13-A5DC-7B9600C8C873
 ms.date: 05/02/2018
+keywords: ["_WDI_P2P_DISCOVER_TYPE enumeration"]
 ms.keywords: WDI_P2P_DISCOVER_TYPE, WDI_P2P_DISCOVER_TYPE enumeration [Device and Driver Installation], WDI_P2P_DISCOVER_TYPE_AUTO, WDI_P2P_DISCOVER_TYPE_FIND_ONLY, WDI_P2P_DISCOVER_TYPE_SCAN_ONLY, WDI_P2P_DISCOVER_TYPE_SCAN_SOCIAL_CHANNELS, _WDI_P2P_DISCOVER_TYPE, netvista.wdi_p2p_discover_type, netvista.wifi_p2p_discover_type, wditypes/WDI_P2P_DISCOVER_TYPE, wditypes/WDI_P2P_DISCOVER_TYPE_AUTO, wditypes/WDI_P2P_DISCOVER_TYPE_FIND_ONLY, wditypes/WDI_P2P_DISCOVER_TYPE_SCAN_ONLY, wditypes/WDI_P2P_DISCOVER_TYPE_SCAN_SOCIAL_CHANNELS
 f1_keywords:
  - "wditypes/WDI_P2P_DISCOVER_TYPE"

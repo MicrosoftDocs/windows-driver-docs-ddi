@@ -6,6 +6,7 @@ old-location: battery\ioctl_cad_power_source_update_ex.htm
 tech.root: battery
 ms.assetid: 8D582EF9-B9D1-498B-AE20-337F3A33250C
 ms.date: 02/15/2018
+keywords: ["IOCTL_CAD_POWER_SOURCE_UPDATE_EX IOCTL"]
 ms.keywords: IOCTL_CAD_POWER_SOURCE_UPDATE_EX, IOCTL_CAD_POWER_SOURCE_UPDATE_EX control, IOCTL_CAD_POWER_SOURCE_UPDATE_EX control code [Battery Devices], battery.ioctl_cad_power_source_update_ex, charging/IOCTL_CAD_POWER_SOURCE_UPDATE_EX
 f1_keywords:
  - "charging/IOCTL_CAD_POWER_SOURCE_UPDATE_EX"

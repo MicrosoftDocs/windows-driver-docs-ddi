@@ -6,6 +6,7 @@ old-location: bltooth\sdpvalidatestream.htm
 tech.root: bltooth
 ms.assetid: cd119590-b910-487f-b611-5ef59204a798
 ms.date: 04/27/2018
+keywords: ["PVALIDATESTREAM callback function"]
 ms.keywords: PVALIDATESTREAM, PVALIDATESTREAM callback, SdpValidateStream, SdpValidateStream callback function [Bluetooth Devices], bltooth.sdpvalidatestream, bth_funcs_1ba1d0ff-b873-4a38-8c5d-71e8afa35861.xml, bthsdpddi/SdpValidateStream
 f1_keywords:
  - "bthsdpddi/SdpValidateStream"

@@ -4,6 +4,7 @@ title: D3DKMTSetDodIndirectSwapchain function (d3dkmthk.h)
 description: Sets indirect swap chain resources.
 ms.assetid: 56978aab-ffe8-4f72-b702-1106de3698e7
 ms.date: 10/19/2018
+keywords: ["D3DKMTSetDodIndirectSwapchain function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTSetDodIndirectSwapchain"
 ms.keywords: D3DKMTSetDodIndirectSwapchain

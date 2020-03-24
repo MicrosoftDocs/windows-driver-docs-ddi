@@ -6,6 +6,7 @@ old-location: wdf\iwdfusbtargetpipe.htm
 tech.root: wdf
 ms.assetid: 16364b13-d902-4ba3-8d0a-c044946afa1e
 ms.date: 02/26/2018
+keywords: ["IWDFUsbTargetPipe interface"]
 ms.keywords: IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,described, UMDFUSBref_985f9453-7475-4e9b-894c-5d4e7b8d3971.xml, umdf.iwdfusbtargetpipe, wdf.iwdfusbtargetpipe, wudfusb/IWDFUsbTargetPipe
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe"

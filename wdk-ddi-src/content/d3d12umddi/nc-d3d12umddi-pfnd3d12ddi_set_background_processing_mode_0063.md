@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 2f87c644-756d-4fcf-b3a5-7b0a636e8203
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["PFND3D12DDI_SET_BACKGROUND_PROCESSING_MODE_0063 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

@@ -6,6 +6,7 @@ old-location: ifsk\rxscavengefobxsfornetroot.htm
 tech.root: ifsk
 ms.assetid: 2a2320e6-b114-4ea7-9f2f-27fd47fef770
 ms.date: 04/16/2018
+keywords: ["RxScavengeFobxsForNetRoot function"]
 ms.keywords: RxScavengeFobxsForNetRoot, RxScavengeFobxsForNetRoot function [Installable File System Drivers], ifsk.rxscavengefobxsfornetroot, rxref_9fac9a87-f068-4ee4-909c-85a41c9884d6.xml, scavengr/RxScavengeFobxsForNetRoot
 f1_keywords:
  - "scavengr/RxScavengeFobxsForNetRoot"

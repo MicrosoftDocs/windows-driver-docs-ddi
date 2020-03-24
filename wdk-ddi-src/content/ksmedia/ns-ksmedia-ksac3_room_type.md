@@ -6,6 +6,7 @@ old-location: audio\ksac3_room_type.htm
 tech.root: audio
 ms.assetid: adf514e1-5413-4552-b676-7567e8fa9954
 ms.date: 04/30/2019
+keywords: ["KSAC3_ROOM_TYPE structure"]
 ms.keywords: "*PKSAC3_ROOM_TYPE, KSAC3_ROOM_TYPE, KSAC3_ROOM_TYPE structure [Audio Devices], PKSAC3_ROOM_TYPE, PKSAC3_ROOM_TYPE structure pointer [Audio Devices], aud-prop_cfc30aae-0335-42d9-bd6d-7888fed060af.xml, audio.ksac3_room_type, ksmedia/KSAC3_ROOM_TYPE, ksmedia/PKSAC3_ROOM_TYPE"
 f1_keywords:
  - "ksmedia/KSAC3_ROOM_TYPE"

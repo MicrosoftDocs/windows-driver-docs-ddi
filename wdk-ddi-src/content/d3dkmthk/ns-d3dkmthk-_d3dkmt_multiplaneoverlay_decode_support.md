@@ -4,6 +4,7 @@ title: _D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT (d3dkmthk.h)
 description: Used to indicate whether multiplane overly decode is supported.
 ms.assetid: 28782ed4-c9d9-44d7-bc78-724349b7c1c4
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT"
 ms.keywords: _D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT, D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT, 

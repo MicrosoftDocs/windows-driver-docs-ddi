@@ -6,6 +6,7 @@ old-location: wpddk\iportabledevicekeycollection.htm
 tech.root: wpd_dk
 ms.assetid: 50ce4946-18a7-4b63-ba5a-c5684dd0b79c
 ms.date: 02/15/2018
+keywords: ["IPortableDeviceKeyCollection interface"]
 ms.keywords: IPortableDeviceKeyCollection, IPortableDeviceKeyCollection interface, IPortableDeviceKeyCollection interface,described, IPortableDeviceKeyCollectionInterface, portabledevicetypes/IPortableDeviceKeyCollection, wpddk.iportabledevicekeycollection
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceKeyCollection"

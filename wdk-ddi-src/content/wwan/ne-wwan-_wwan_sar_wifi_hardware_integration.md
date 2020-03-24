@@ -5,6 +5,7 @@ description: The WWAN_SAR_WIFI_HARDWARE_INTEGRATION enumeration specifies whethe
 tech.root: netvista
 ms.assetid: 87721dbb-a9af-456f-b452-14cb0e11c0b9
 ms.date: 08/20/2018
+keywords: ["_WWAN_SAR_WIFI_HARDWARE_INTEGRATION enumeration"]
 f1_keywords:
  - "wwan/_WWAN_SAR_WIFI_HARDWARE_INTEGRATION"
 ms.keywords: _WWAN_SAR_WIFI_HARDWARE_INTEGRATION, WWAN_SAR_WIFI_HARDWARE_INTEGRATION, *PWWAN_SAR_WIFI_HARDWARE_INTEGRATION, 

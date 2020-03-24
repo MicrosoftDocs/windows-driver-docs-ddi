@@ -6,6 +6,7 @@ old-location: spb\spb_transfer_list.htm
 tech.root: SPB
 ms.assetid: DC4E165B-4D3A-4C5F-9B6F-8CB825BAF4FD
 ms.date: 04/30/2018
+keywords: ["SPB_TRANSFER_LIST structure"]
 ms.keywords: "*PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST structure pointer [Buses], SPB.spb_transfer_list, SPB_TRANSFER_LIST, SPB_TRANSFER_LIST structure [Buses], spb/PSPB_TRANSFER_LIST, spb/SPB_TRANSFER_LIST"
 f1_keywords:
  - "spb/SPB_TRANSFER_LIST"

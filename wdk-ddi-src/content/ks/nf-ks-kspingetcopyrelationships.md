@@ -6,6 +6,7 @@ old-location: stream\kspingetcopyrelationships.htm
 tech.root: stream
 ms.assetid: 7f74cbf1-2382-471c-ab07-fdb7e615cb0b
 ms.date: 04/23/2018
+keywords: ["KsPinGetCopyRelationships function"]
 ms.keywords: KsPinGetCopyRelationships, KsPinGetCopyRelationships function [Streaming Media Devices], avfunc_d44ce272-9171-4a32-89c6-023d9688fdfd.xml, ks/KsPinGetCopyRelationships, stream.kspingetcopyrelationships
 f1_keywords:
  - "ks/KsPinGetCopyRelationships"

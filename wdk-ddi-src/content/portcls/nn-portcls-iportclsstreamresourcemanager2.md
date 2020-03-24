@@ -6,6 +6,7 @@ old-location: audio\iportclsstreamresourcemanager2.htm
 tech.root: audio
 ms.assetid: B37310B5-3C74-428A-B8DF-C39B85A521C0
 ms.date: 05/08/2018
+keywords: ["IPortClsStreamResourceManager2 interface"]
 ms.keywords: IPortClsStreamResourceManager2, IPortClsStreamResourceManager2 interface [Audio Devices], IPortClsStreamResourceManager2 interface [Audio Devices],described, audio.iportclsstreamresourcemanager2, portcls/IPortClsStreamResourceManager2
 f1_keywords:
  - "portcls/IPortClsStreamResourceManager2"

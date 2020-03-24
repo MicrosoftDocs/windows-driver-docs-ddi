@@ -6,6 +6,7 @@ old-location: stream\iksclockpropertyset_kssettime.htm
 tech.root: stream
 ms.assetid: b1489593-9458-4e78-b59d-c8a780a3a3f1
 ms.date: 04/23/2018
+keywords: ["IKsClockPropertySet::KsSetTime"]
 ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsSetTime method, IKsClockPropertySet.KsSetTime, IKsClockPropertySet::KsSetTime, KsSetTime, KsSetTime method [Streaming Media Devices], KsSetTime method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsSetTime, ksproxy_6d169c35-dd1b-4ccb-b028-f6a8d19e51ea.xml, stream.iksclockpropertyset_kssettime
 f1_keywords:
  - "ksproxy/IKsClockPropertySet.KsSetTime"

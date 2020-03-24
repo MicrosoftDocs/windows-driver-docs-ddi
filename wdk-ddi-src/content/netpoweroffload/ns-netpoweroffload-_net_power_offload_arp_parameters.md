@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: bec3ab2b-5884-4c7d-895a-76b8a44126bf
 ms.author: windowsdriverdev
 ms.date: 09/30/2019
+keywords: ["NET_POWER_OFFLOAD_ARP_PARAMETERS structure"]
 f1_keywords:
  - "netpoweroffload/NET_POWER_OFFLOAD_ARP_PARAMETERS"
 ms.keywords: NET_POWER_OFFLOAD_ARP_PARAMETERS, NET_POWER_OFFLOAD_ARP_PARAMETERS, 

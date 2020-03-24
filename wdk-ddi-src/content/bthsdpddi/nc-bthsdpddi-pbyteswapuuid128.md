@@ -6,6 +6,7 @@ old-location: bltooth\sdpbyteswapuuid128.htm
 tech.root: bltooth
 ms.assetid: 2598ebb3-1c9c-4ec1-b172-8c6d53415c9d
 ms.date: 04/27/2018
+keywords: ["PBYTESWAPUUID128 callback function"]
 ms.keywords: PBYTESWAPUUID128, PBYTESWAPUUID128 callback, SdpByteSwapUuid128, SdpByteSwapUuid128 callback function [Bluetooth Devices], bltooth.sdpbyteswapuuid128, bth_funcs_b14ffa6d-3cad-4683-94fe-367272b9afb1.xml, sdplib/SdpByteSwapUuid128
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h

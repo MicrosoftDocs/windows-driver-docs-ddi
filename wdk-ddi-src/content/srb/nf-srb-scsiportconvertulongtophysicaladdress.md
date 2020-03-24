@@ -6,6 +6,7 @@ old-location: storage\scsiportconvertulongtophysicaladdress.htm
 tech.root: storage
 ms.assetid: 98d491f8-eeb5-4152-9bb6-fffabcba0360
 ms.date: 03/29/2018
+keywords: ["ScsiPortConvertUlongToPhysicalAddress function"]
 ms.keywords: ScsiPortConvertUlongToPhysicalAddress, ScsiPortConvertUlongToPhysicalAddress routine [Storage Devices], scsiprt_9dc27865-55c2-4599-913c-babe77c62af9.xml, srb/ScsiPortConvertUlongToPhysicalAddress, storage.scsiportconvertulongtophysicaladdress
 f1_keywords:
  - "srb/ScsiPortConvertUlongToPhysicalAddress"

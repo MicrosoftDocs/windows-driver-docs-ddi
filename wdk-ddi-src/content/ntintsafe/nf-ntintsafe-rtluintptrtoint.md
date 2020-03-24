@@ -6,6 +6,7 @@ old-location: kernel\rtluintptrtoint.htm
 tech.root: kernel
 ms.assetid: C33B717D-0874-47AB-8503-D6F82F713CBF
 ms.date: 04/30/2018
+keywords: ["RtlUIntPtrToInt function"]
 ms.keywords: RtlUIntPtrToInt, RtlUIntPtrToInt function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoint, ntintsafe/RtlUIntPtrToInt
 f1_keywords:
  - "ntintsafe/RtlUIntPtrToInt"

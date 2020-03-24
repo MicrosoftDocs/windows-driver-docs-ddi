@@ -6,6 +6,7 @@ old-location: netvista\ndismregisterscattergatherdma.htm
 tech.root: netvista
 ms.assetid: 90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f
 ms.date: 05/02/2018
+keywords: ["NdisMRegisterScatterGatherDma function"]
 ms.keywords: NdisMRegisterScatterGatherDma, NdisMRegisterScatterGatherDma function [Network Drivers Starting with Windows Vista], ndis/NdisMRegisterScatterGatherDma, ndis_sgdma_ref_4c89dae9-d6bc-44a5-9b8b-8efcb69ecc75.xml, netvista.ndismregisterscattergatherdma
 f1_keywords:
  - "ndis/NdisMRegisterScatterGatherDma"

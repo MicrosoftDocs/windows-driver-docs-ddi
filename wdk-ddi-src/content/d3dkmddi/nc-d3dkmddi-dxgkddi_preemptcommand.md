@@ -5,6 +5,7 @@ description: The DxgkDdiPreemptCommand function preempts a direct memory access 
 old-location: display\dxgkddipreemptcommand.htm
 ms.assetid: 8cea02d4-f25e-4ff4-8c9e-aa360a764c4b
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_PREEMPTCOMMAND callback function"]
 ms.keywords: DXGKDDI_PREEMPTCOMMAND, DXGKDDI_PREEMPTCOMMAND callback, DmFunctions_a378e47e-622c-41bf-95e7-21e4088d7026.xml, DxgkDdiPreemptCommand, DxgkDdiPreemptCommand callback function [Display Devices], d3dkmddi/DxgkDdiPreemptCommand, display.dxgkddipreemptcommand
 req.header: d3dkmddi.h
 req.include-header: 

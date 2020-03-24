@@ -5,6 +5,7 @@ description: The CsSetConstantBuffers function sets constant buffers for a compu
 old-location: display\cssetconstantbuffers.htm
 ms.assetid: 159ee0ac-7ddf-4ffd-a07f-3d58130b90e8
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_SETCONSTANTBUFFERS callback function"]
 ms.keywords: CsSetConstantBuffers, CsSetConstantBuffers callback function [Display Devices], PFND3D10DDI_SETCONSTANTBUFFERS, PFND3D10DDI_SETCONSTANTBUFFERS callback, UserModeDisplayDriverDx11_Functions_ae0b7e35-f8c5-428d-97d0-e22d5b609c72.xml, d3d10umddi/CsSetConstantBuffers, display.cssetconstantbuffers
 f1_keywords:
  - "d3d10umddi/CsSetConstantBuffers"

@@ -3,6 +3,7 @@ UID: NA:usbioctl
 title: Usbioctl.h header
 ms.assetid: 0cb01349-16ee-3a58-babe-fd5b85e93d9f
 ms.date: 05/09/2018
+keywords: ["Usbioctl.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -5,6 +5,7 @@ description: The D3DKMTSetContextSchedulingPriority function sets the scheduling
 old-location: display\d3dkmtsetcontextschedulingpriority.htm
 ms.assetid: 781d5a78-a3e2-4cac-868d-c4ae8b39b2fc
 ms.date: 05/10/2018
+keywords: ["D3DKMTSetContextSchedulingPriority function"]
 ms.keywords: D3DKMTSetContextSchedulingPriority, D3DKMTSetContextSchedulingPriority function [Display Devices], OpenGL_Functions_f9314ed6-8aad-4c55-b42a-f1223dada5bc.xml, d3dkmthk/D3DKMTSetContextSchedulingPriority, display.d3dkmtsetcontextschedulingpriority
 f1_keywords:
  - "d3dkmthk/D3DKMTSetContextSchedulingPriority"

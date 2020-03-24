@@ -6,6 +6,7 @@ old-location: buses\udecxurbretrievecontrolsetuppacket.htm
 tech.root: usbref
 ms.assetid: 09D9AB68-12DB-442F-897B-6C6BD8B5F030
 ms.date: 05/07/2018
+keywords: ["UdecxUrbRetrieveControlSetupPacket function"]
 ms.keywords: UdecxUrbRetrieveControlSetupPacket, UdecxUrbRetrieveControlSetupPacket function [Buses], buses.udecxurbretrievecontrolsetuppacket, udecxurb/UdecxUrbRetrieveControlSetupPacket
 f1_keywords:
  - "udecxurb/UdecxUrbRetrieveControlSetupPacket"

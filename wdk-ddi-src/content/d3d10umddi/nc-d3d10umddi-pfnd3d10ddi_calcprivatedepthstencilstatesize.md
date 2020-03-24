@@ -5,6 +5,7 @@ description: The CalcPrivateDepthStencilStateSize function determines the size o
 old-location: display\calcprivatedepthstencilstatesize.htm
 ms.assetid: dcc02e1e-97e0-4ccd-8329-8219cad5d09a
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE callback function"]
 ms.keywords: CalcPrivateDepthStencilStateSize, CalcPrivateDepthStencilStateSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE, PFND3D10DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE callback, UserModeDisplayDriverDx10_Functions_9eb00c77-fbc0-443d-848b-b7e254de4efe.xml, d3d10umddi/CalcPrivateDepthStencilStateSize, display.calcprivatedepthstencilstatesize
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

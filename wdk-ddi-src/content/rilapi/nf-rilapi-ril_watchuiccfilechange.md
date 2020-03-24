@@ -6,6 +6,7 @@ old-location: netvista\ril_watchuiccfilechange.htm
 tech.root: netvista
 ms.assetid: 45bda979-8f89-41cf-a0c9-3d8777cd5a56
 ms.date: 05/02/2018
+keywords: ["RIL_WatchUiccFileChange function"]
 ms.keywords: RIL_WatchUiccFileChange, RIL_WatchUiccFileChange method [Network Drivers Starting with Windows Vista], netvista.ril_watchuiccfilechange, rilapi/RIL_WatchUiccFileChange
 f1_keywords:
  - "rilapi/RIL_WatchUiccFileChange"

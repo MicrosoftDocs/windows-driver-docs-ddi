@@ -6,6 +6,7 @@ old-location: gnss\ioctl_gnss_inject_agnss.htm
 tech.root: gnss
 ms.assetid: 68EC4397-1983-4D02-BF6E-599DC987E7E9
 ms.date: 02/15/2018
+keywords: ["IOCTL_GNSS_INJECT_AGNSS IOCTL"]
 ms.keywords: IOCTL_GNSS_INJECT_AGNSS, IOCTL_GNSS_INJECT_AGNSS control, IOCTL_GNSS_INJECT_AGNSS control code [Sensor Devices], gnss.ioctl_gnss_inject_agnss, gnssdriver/IOCTL_GNSS_INJECT_AGNSS
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_INJECT_AGNSS"

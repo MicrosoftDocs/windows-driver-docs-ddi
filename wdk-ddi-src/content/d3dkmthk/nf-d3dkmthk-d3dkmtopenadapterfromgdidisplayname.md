@@ -5,6 +5,7 @@ description: The D3DKMTOpenAdapterFromGdiDisplayName function maps a GDI device 
 old-location: display\d3dkmtopenadapterfromgdidisplayname.htm
 ms.assetid: 56656fc2-785c-4021-9864-e4c152551973
 ms.date: 05/10/2018
+keywords: ["D3DKMTOpenAdapterFromGdiDisplayName function"]
 ms.keywords: D3DKMTOpenAdapterFromGdiDisplayName, D3DKMTOpenAdapterFromGdiDisplayName function [Display Devices], OpenGL_Functions_74419d9d-cd33-4fed-8103-3be487c3c7a1.xml, d3dkmthk/D3DKMTOpenAdapterFromGdiDisplayName, display.d3dkmtopenadapterfromgdidisplayname
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenAdapterFromGdiDisplayName"

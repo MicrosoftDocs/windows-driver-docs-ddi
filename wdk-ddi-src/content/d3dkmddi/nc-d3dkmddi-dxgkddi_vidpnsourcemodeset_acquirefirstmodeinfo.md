@@ -5,6 +5,7 @@ description: The pfnAcquireFirstModeInfo function returns a descriptor of the fi
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfnacquirefirstmodeinfo.htm
 ms.assetid: 3af816e0-f1a4-4477-8735-6400aadfb57b
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_VIDPNSOURCEMODESET_ACQUIREFIRSTMODEINFO callback function"]
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_ACQUIREFIRSTMODEINFO, DXGKDDI_VIDPNSOURCEMODESET_ACQUIREFIRSTMODEINFO callback, VidPnFunctions_14a2da15-5fde-4701-b3e6-9e60c84f381b.xml, d3dkmddi/pfnAcquireFirstModeInfo, display.dxgk_vidpnsourcemodeset_interface_pfnacquirefirstmodeinfo, pfnAcquireFirstModeInfo, pfnAcquireFirstModeInfo callback function [Display Devices]
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

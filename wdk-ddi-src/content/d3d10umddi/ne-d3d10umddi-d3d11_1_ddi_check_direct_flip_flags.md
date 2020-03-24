@@ -5,6 +5,7 @@ description: Used by the CheckDirectFlipFlags parameter of the CheckDirectFlipSu
 old-location: display\d3d11_1_ddi_check_direct_flip_flags.htm
 ms.assetid: beead760-8f93-48da-b2fc-2f8a0031019c
 ms.date: 05/10/2018
+keywords: ["D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS enumeration"]
 ms.keywords: D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE, D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS, D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS enumeration [Display Devices], d3d10umddi/D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE, d3d10umddi/D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS, display.d3d11_1_ddi_check_direct_flip_flags
 f1_keywords:
  - "d3d10umddi/D3D11_1_DDI_CHECK_DIRECT_FLIP_FLAGS"

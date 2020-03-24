@@ -4,6 +4,7 @@ title: IDataModelManager::CreateDataModelObject (dbgmodel.h)
 description: The CreateDataModelObject method is a simple helper wrapper to create objects which are data models -- that is objects which are going to be attached as parent models to other objects. 
 ms.assetid: f1c18662-fe30-45ad-b71d-6776f64d3dc9
 ms.date: 06/10/2019
+keywords: ["IDataModelManager::CreateDataModelObject"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.CreateDataModelObject"
 ms.keywords: IDataModelManager::CreateDataModelObject, CreateDataModelObject, IDataModelManager.CreateDataModelObject, IDataModelManager::CreateDataModelObject, IDataModelManager.CreateDataModelObject

@@ -5,6 +5,7 @@ description: The device functions of video.
 old-location: display\d3d12ddi-device-funcs-video-0033.htm
 ms.assetid: faaaf6e5-9f4d-4051-a656-92c1394cda24
 ms.date: 04/16/2018
+keywords: ["D3D12DDI_DEVICE_FUNCS_VIDEO_0033 structure"]
 ms.keywords: D3D12DDI_DEVICE_FUNCS_VIDEO_0033, D3D12DDI_DEVICE_FUNCS_VIDEO_0033 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0033, display.d3d12ddi-device-funcs-video-0033
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0033"

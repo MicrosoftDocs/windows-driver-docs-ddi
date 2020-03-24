@@ -6,6 +6,7 @@ old-location: ifsk\rtlequalsid.htm
 tech.root: ifsk
 ms.assetid: 4976fc27-c28a-46ec-ac07-19505cda8f14
 ms.date: 04/16/2018
+keywords: ["RtlEqualSid function"]
 ms.keywords: RtlEqualSid, RtlEqualSid routine [Installable File System Drivers], ifsk.rtlequalsid, ntifs/RtlEqualSid, rtlref_bc81c0ad-e0e6-4133-a423-4f6c4c264286.xml
 f1_keywords:
  - "ntifs/RtlEqualSid"

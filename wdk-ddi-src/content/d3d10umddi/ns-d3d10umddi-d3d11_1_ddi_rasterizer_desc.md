@@ -5,6 +5,7 @@ description: Describes a rasterizer state. Used by Windows Display Driver Model 
 old-location: display\d3d11_1_ddi_rasterizer_desc.htm
 ms.assetid: a78655b3-3ca3-4632-9ac4-3efae6b10a0c
 ms.date: 05/10/2018
+keywords: ["D3D11_1_DDI_RASTERIZER_DESC structure"]
 ms.keywords: D3D11_1_DDI_RASTERIZER_DESC, D3D11_1_DDI_RASTERIZER_DESC structure [Display Devices], d3d10umddi/D3D11_1_DDI_RASTERIZER_DESC, display.d3d11_1_ddi_rasterizer_desc
 f1_keywords:
  - "d3d10umddi/D3D11_1_DDI_RASTERIZER_DESC"

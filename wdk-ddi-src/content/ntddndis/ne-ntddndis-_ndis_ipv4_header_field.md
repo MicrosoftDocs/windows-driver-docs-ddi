@@ -6,6 +6,7 @@ old-location: netvista\ndis_ipv4_header_field.htm
 tech.root: netvista
 ms.assetid: 5B7C4107-1724-473C-8F36-C345A056F3DC
 ms.date: 05/02/2018
+keywords: ["_NDIS_IPV4_HEADER_FIELD enumeration"]
 ms.keywords: "*PNDIS_IPV4_HEADER_FIELD, NDIS_IPV4_HEADER_FIELD, NDIS_IPV4_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NdisIPv4HeaderFieldMaximum, NdisIPv4HeaderFieldProtocol, NdisIPv4HeaderFieldUndefined, PNDIS_IPV4_HEADER_FIELD, PNDIS_IPV4_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_IPV4_HEADER_FIELD, netvista.ndis_ipv4_header_field, ntddndis/NDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldMaximum, ntddndis/NdisIPv4HeaderFieldProtocol, ntddndis/NdisIPv4HeaderFieldUndefined, ntddndis/PNDIS_IPV4_HEADER_FIELD"
 f1_keywords:
  - "ntddndis/NDIS_IPV4_HEADER_FIELD"

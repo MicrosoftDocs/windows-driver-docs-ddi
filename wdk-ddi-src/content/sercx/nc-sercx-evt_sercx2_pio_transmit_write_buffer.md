@@ -6,6 +6,7 @@ old-location: serports\evtsercx2piotransmitwritebuffer.htm
 tech.root: serports
 ms.assetid: 28DD175B-9869-4CFC-9BDD-172DA7E015DE
 ms.date: 04/23/2018
+keywords: ["EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER callback function"]
 ms.keywords: 2/EvtSerCx2PioTransmitWriteBuffer, EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER, EVT_SERCX2_PIO_TRANSMIT_WRITE_BUFFER callback, EvtSerCx2PioTransmitWriteBuffer, EvtSerCx2PioTransmitWriteBuffer callback function [Serial Ports], serports.evtsercx2piotransmitwritebuffer
 f1_keywords:
  - "sercx/EvtSerCx2PioTransmitWriteBuffer"

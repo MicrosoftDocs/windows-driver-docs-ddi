@@ -6,6 +6,7 @@ old-location: image\sti_usd_caps.htm
 tech.root: image
 ms.assetid: 24dda069-5f93-469d-8ce3-87b488019b88
 ms.date: 05/03/2018
+keywords: ["_STI_USD_CAPS structure"]
 ms.keywords: "*PSTI_USD_CAPS, PSTI_USD_CAPS, PSTI_USD_CAPS structure pointer [Imaging Devices], STI_USD_CAPS, STI_USD_CAPS structure [Imaging Devices], _STI_USD_CAPS, image.sti_usd_caps, stifnc_4f136561-e3a7-467d-b8be-a60db8534126.xml, stiusd/PSTI_USD_CAPS, stiusd/STI_USD_CAPS"
 f1_keywords:
  - "stiusd/STI_USD_CAPS"

@@ -4,6 +4,7 @@ title: _D3DMATERIALCOLORSOURCE (d3d9types.h)
 description: 
 ms.assetid: 46d90afd-3ec6-41b8-aae6-f8b9daddd121
 ms.date: 10/19/2018
+keywords: ["_D3DMATERIALCOLORSOURCE enumeration"]
 f1_keywords:
  - "d3d9types/_D3DMATERIALCOLORSOURCE"
 ms.keywords: _D3DMATERIALCOLORSOURCE, D3DMATERIALCOLORSOURCE, 

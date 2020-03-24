@@ -6,6 +6,7 @@ old-location: kernel\pep_register_crashdump_device.htm
 tech.root: kernel
 ms.assetid: 207EEFBF-289F-4973-9183-7D87C0BAE09A
 ms.date: 04/30/2018
+keywords: ["_PEP_REGISTER_CRASHDUMP_DEVICE structure"]
 ms.keywords: "*PPEP_REGISTER_CRASHDUMP_DEVICE, PEP_REGISTER_CRASHDUMP_DEVICE, PEP_REGISTER_CRASHDUMP_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_REGISTER_CRASHDUMP_DEVICE, PPEP_REGISTER_CRASHDUMP_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_CRASHDUMP_DEVICE, kernel.pep_register_crashdump_device, pepfx/PEP_REGISTER_CRASHDUMP_DEVICE, pepfx/PPEP_REGISTER_CRASHDUMP_DEVICE"
 f1_keywords:
  - "pep_x/PEP_REGISTER_CRASHDUMP_DEVICE"

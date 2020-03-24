@@ -6,6 +6,7 @@ old-location: ifsk\ccfastcopyread.htm
 tech.root: ifsk
 ms.assetid: 725ede16-5fc6-4465-bcdc-da7702779d68
 ms.date: 04/16/2018
+keywords: ["CcFastCopyRead function"]
 ms.keywords: CcFastCopyRead, CcFastCopyRead routine [Installable File System Drivers], ccref_7198ef60-5199-4597-9809-ddacc59e6223.xml, ifsk.ccfastcopyread, ntifs/CcFastCopyRead
 f1_keywords:
  - "ntifs/CcFastCopyRead"

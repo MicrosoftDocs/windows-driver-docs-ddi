@@ -6,6 +6,7 @@ old-location: netvista\dot11_available_channel_list.htm
 tech.root: netvista
 ms.assetid: 11fee366-5853-4702-8179-d5b764174dce
 ms.date: 02/16/2018
+keywords: ["_DOT11_AVAILABLE_CHANNEL_LIST structure"]
 ms.keywords: "*PDOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c36ff4d6-283a-484c-8d68-0109c6150f4f.xml, PDOT11_AVAILABLE_CHANNEL_LIST, PDOT11_AVAILABLE_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_AVAILABLE_CHANNEL_LIST, netvista.dot11_available_channel_list, windot11/DOT11_AVAILABLE_CHANNEL_LIST, windot11/PDOT11_AVAILABLE_CHANNEL_LIST"
 f1_keywords:
  - "windot11/DOT11_AVAILABLE_CHANNEL_LIST"

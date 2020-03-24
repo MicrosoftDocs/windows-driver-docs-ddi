@@ -6,6 +6,7 @@ old-location: buses\usb_device_characteristics.htm
 tech.root: usbref
 ms.assetid: D4A8DE43-3E81-4A1C-B1C0-ABE6000D9F11
 ms.date: 05/07/2018
+keywords: ["_USB_DEVICE_CHARACTERISTICS structure"]
 ms.keywords: "*PUSB_DEVICE_CHARACTERISTICS, PUSB_DEVICE_CHARACTERISTICS, PUSB_DEVICE_CHARACTERISTICS structure pointer [Buses], USB_DEVICE_CHARACTERISTICS, USB_DEVICE_CHARACTERISTICS structure [Buses], _USB_DEVICE_CHARACTERISTICS, buses.usb_device_characteristics, usbioctl/PUSB_DEVICE_CHARACTERISTICS, usbioctl/USB_DEVICE_CHARACTERISTICS"
 f1_keywords:
  - "usbioctl/USB_DEVICE_CHARACTERISTICS"

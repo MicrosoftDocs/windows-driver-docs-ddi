@@ -6,6 +6,7 @@ old-location: nfpdrivers\_secure_element_hce_data_packet.htm
 tech.root: nfpdrivers
 ms.assetid: A287CBC7-BB22-487E-8E06-47702DF29DCE
 ms.date: 02/15/2018
+keywords: ["_SECURE_ELEMENT_HCE_DATA_PACKET structure"]
 ms.keywords: "*PSECURE_ELEMENT_HCE_DATA_PACKET, PSECURE_ELEMENT_HCE_DATA_PACKET, PSECURE_ELEMENT_HCE_DATA_PACKET structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_HCE_DATA_PACKET, SECURE_ELEMENT_HCE_DATA_PACKET structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_HCE_DATA_PACKET, nfcsedev/PSECURE_ELEMENT_HCE_DATA_PACKET, nfcsedev/_SECURE_ELEMENT_HCE_DATA_PACKET, nfpdrivers._secure_element_hce_data_packet"
 f1_keywords:
  - "nfcsedev/SECURE_ELEMENT_HCE_DATA_PACKET"

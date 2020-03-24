@@ -6,6 +6,7 @@ old-location: buses\urssetpohandle.htm
 tech.root: usbref
 ms.assetid: 87B34452-DC2C-4FD4-B0F8-51EFAF2D4AA6
 ms.date: 05/07/2018
+keywords: ["UrsSetPoHandle function"]
 ms.keywords: UrsSetPoHandle, UrsSetPoHandle function [Buses], buses.urssetpohandle, ursdevice/UrsSetPoHandle
 f1_keywords:
  - "ursdevice/UrsSetPoHandle"

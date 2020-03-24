@@ -5,6 +5,7 @@ description: The pfnGetCaps callback function defines an entry point for video s
 old-location: display\pfnd3d12ddi_video_getcaps.htm
 ms.assetid: 6875B754-115F-481D-8D46-2A383BA6B5E7
 ms.date: 04/16/2018
+keywords: ["PFND3D12DDI_VIDEO_GETCAPS callback function"]
 ms.keywords: PFND3D12DDI_VIDEO_GETCAPS, PFND3D12DDI_VIDEO_GETCAPS callback, d3d12umddi/pfnGetCaps, display.pfnd3d12ddi_video_getcaps, pfnGetCaps, pfnGetCaps callback function [Display Devices]
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h

@@ -4,6 +4,7 @@ title: IDataModelScriptManager::FindProviderForScriptType (dbgmodel.h)
 description: The FindProviderForScriptExtension method searches the script manager for a provider which has claims to support a given file extension as indicated by the scriptExtension argument. 
 ms.assetid: e71aa49e-bb3d-4faf-a455-139888ff6e55
 ms.date: 08/20/2018
+keywords: ["IDataModelScriptManager::FindProviderForScriptType"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptManager.FindProviderForScriptType"
 ms.keywords: IDataModelScriptManager::FindProviderForScriptType, FindProviderForScriptType, IDataModelScriptManager.FindProviderForScriptType, IDataModelScriptManager::FindProviderForScriptType, IDataModelScriptManager.FindProviderForScriptType

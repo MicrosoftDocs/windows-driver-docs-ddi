@@ -6,6 +6,7 @@ old-location: netvista\ndis_switch_port_property_enum_parameters.htm
 tech.root: netvista
 ms.assetid: 026b86e0-dd71-4073-93f0-2f93777b1af1
 ms.date: 05/02/2018
+keywords: ["_NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, PNDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, netvista.ndis_switch_port_property_enum_parameters, ntddndis/NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS"
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS"

@@ -3,6 +3,7 @@ UID: NA:wdfio
 title: Wdfio.h header
 ms.assetid: 4c6275da-4fdc-3a43-85f1-9db048bee025
 ms.date: 05/09/2018
+keywords: ["Wdfio.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

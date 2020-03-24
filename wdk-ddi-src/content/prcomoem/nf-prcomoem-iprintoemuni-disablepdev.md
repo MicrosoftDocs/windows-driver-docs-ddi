@@ -6,6 +6,7 @@ old-location: print\iprintoemuni_disablepdev.htm
 tech.root: print
 ms.assetid: bdceeb23-5d4a-4a1c-98b2-014a4126ca5f
 ms.date: 04/20/2018
+keywords: ["IPrintOemUni::DisablePDEV"]
 ms.keywords: DisablePDEV, DisablePDEV method [Print Devices], DisablePDEV method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],DisablePDEV method, IPrintOemUni.DisablePDEV, IPrintOemUni::DisablePDEV, prcomoem/IPrintOemUni::DisablePDEV, print.iprintoemuni_disablepdev, print_unidrv-pscript_rendering_e904ec4d-9153-4427-a98a-1bd4dc381530.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.DisablePDEV"

@@ -6,6 +6,7 @@ old-location: netvista\path_offload_state_delegated.htm
 tech.root: netvista
 ms.assetid: 3a1603ec-639f-4899-8889-3c7ed2cfe375
 ms.date: 05/02/2018
+keywords: ["_PATH_OFFLOAD_STATE_DELEGATED structure"]
 ms.keywords: "*PPATH_OFFLOAD_STATE_DELEGATED, PATH_OFFLOAD_STATE_DELEGATED, PATH_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], PPATH_OFFLOAD_STATE_DELEGATED, PPATH_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], _PATH_OFFLOAD_STATE_DELEGATED, ndischimney/PATH_OFFLOAD_STATE_DELEGATED, ndischimney/PPATH_OFFLOAD_STATE_DELEGATED, netvista.path_offload_state_delegated, tcp_chim_struct_63dab32f-c9a5-428f-94e1-7b534d83fd50.xml"
 f1_keywords:
  - "ndischimney/PATH_OFFLOAD_STATE_DELEGATED"

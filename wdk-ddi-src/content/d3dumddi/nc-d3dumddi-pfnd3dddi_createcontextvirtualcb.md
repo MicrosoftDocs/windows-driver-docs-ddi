@@ -6,6 +6,7 @@ old-location: display\pfncreatecontextvirtualcb.htm
 tech.root: display
 ms.assetid: 7787FEDF-E18C-4120-A073-A13933856F57
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_CREATECONTEXTVIRTUALCB callback function"]
 ms.keywords: PFND3DDDI_CREATECONTEXTVIRTUALCB, PFND3DDDI_CREATECONTEXTVIRTUALCB callback, d3dumddi/pfnCreateContextVirtualCb, display.pfncreatecontextvirtualcb, pfnCreateContextVirtualCb, pfnCreateContextVirtualCb callback function [Display Devices]
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

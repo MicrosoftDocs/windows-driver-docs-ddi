@@ -6,6 +6,7 @@ old-location: netvista\protocoltcpoffloadreceivecomplete.htm
 tech.root: netvista
 ms.assetid: 78201512-6b70-4b4b-9016-0f42fed41ac6
 ms.date: 05/02/2018
+keywords: ["TCP_OFFLOAD_RECV_COMPLETE_HANDLER callback function"]
 ms.keywords: ProtocolTcpOffloadReceiveComplete, ProtocolTcpOffloadReceiveComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_RECV_COMPLETE_HANDLER, TCP_OFFLOAD_RECV_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadReceiveComplete, netvista.protocoltcpoffloadreceivecomplete, tcp_chim_protocol_func_3f02ff3b-3b86-4a30-8022-2c540b5e9484.xml
 f1_keywords:
  - "ndischimney/ProtocolTcpOffloadReceiveComplete"

@@ -6,6 +6,7 @@ old-location: serports\sercx2systemdmareceivecleanuptransactioncomplete.htm
 tech.root: serports
 ms.assetid: B56FEA86-E171-43DA-8207-148298E72313
 ms.date: 04/23/2018
+keywords: ["SerCx2SystemDmaReceiveCleanupTransactionComplete function"]
 ms.keywords: 2/SerCx2SystemDmaReceiveCleanupTransactionComplete, SerCx2SystemDmaReceiveCleanupTransactionComplete, SerCx2SystemDmaReceiveCleanupTransactionComplete method [Serial Ports], serports.sercx2systemdmareceivecleanuptransactioncomplete
 f1_keywords:
  - "sercx/SerCx2SystemDmaReceiveCleanupTransactionComplete"

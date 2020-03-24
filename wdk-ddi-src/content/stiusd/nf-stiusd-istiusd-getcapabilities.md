@@ -6,6 +6,7 @@ old-location: image\istiusd_getcapabilities.htm
 tech.root: image
 ms.assetid: baec1e38-360e-4f4f-82bd-bc89e3f8483d
 ms.date: 05/03/2018
+keywords: ["IStiUSD::GetCapabilities"]
 ms.keywords: GetCapabilities, GetCapabilities method [Imaging Devices], GetCapabilities method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetCapabilities method, IStiUSD.GetCapabilities, IStiUSD::GetCapabilities, image.istiusd_getcapabilities, stifnc_e0343c50-7695-417f-9742-1acd66f2791f.xml, stiusd/IStiUSD::GetCapabilities
 f1_keywords:
  - "stiusd/IStiUSD.GetCapabilities"

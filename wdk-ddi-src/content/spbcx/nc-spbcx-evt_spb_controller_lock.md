@@ -6,6 +6,7 @@ old-location: spb\evtspbcontrollerlock.htm
 tech.root: SPB
 ms.assetid: E08674F1-CE63-464B-9C70-96F93C574753
 ms.date: 04/30/2018
+keywords: ["EVT_SPB_CONTROLLER_LOCK callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_LOCK, EVT_SPB_CONTROLLER_LOCK callback, EvtSpbControllerLock, EvtSpbControllerLock callback function [Buses], SPB.evtspbcontrollerlock, spbcx/EvtSpbControllerLock
 f1_keywords:
  - "spbcx/EvtSpbControllerLock"

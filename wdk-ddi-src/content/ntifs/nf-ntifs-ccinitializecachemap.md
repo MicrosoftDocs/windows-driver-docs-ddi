@@ -6,6 +6,7 @@ old-location: ifsk\ccinitializecachemap.htm
 tech.root: ifsk
 ms.assetid: a76027d9-b486-4596-bbe4-0a801ed73256
 ms.date: 04/16/2018
+keywords: ["CcInitializeCacheMap function"]
 ms.keywords: CcInitializeCacheMap, CcInitializeCacheMap routine [Installable File System Drivers], ccref_8a69cf72-ebb8-499d-8b15-8b0e0b912c95.xml, ifsk.ccinitializecachemap, ntifs/CcInitializeCacheMap
 f1_keywords:
  - "ntifs/CcInitializeCacheMap"

@@ -6,6 +6,7 @@ old-location: stream\bda_wmdrm_renewlicense.htm
 tech.root: stream
 ms.assetid: 73AB73F1-CB9B-46A3-8ECC-19E93210D30E
 ms.date: 04/23/2018
+keywords: ["_BDA_WMDRM_RENEWLICENSE structure"]
 ms.keywords: "*PBDA_WMDRM_RENEWLICENSE, BDA_WMDRM_RENEWLICENSE, BDA_WMDRM_RENEWLICENSE structure [Streaming Media Devices], PBDA_WMDRM_RENEWLICENSE, PBDA_WMDRM_RENEWLICENSE structure pointer [Streaming Media Devices], _BDA_WMDRM_RENEWLICENSE, bdatypes/BDA_WMDRM_RENEWLICENSE, bdatypes/PBDA_WMDRM_RENEWLICENSE, stream.bda_wmdrm_renewlicense"
 f1_keywords:
  - "bdatypes/BDA_WMDRM_RENEWLICENSE"

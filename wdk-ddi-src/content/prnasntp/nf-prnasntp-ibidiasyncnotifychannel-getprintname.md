@@ -6,6 +6,7 @@ old-location: print\ibidiasyncnotifychannel_getprintname.htm
 tech.root: print
 ms.assetid: DE84073F-8D87-4C72-B820-4CBCF1B9DF2F
 ms.date: 04/20/2018
+keywords: ["IBidiAsyncNotifyChannel::GetPrintName"]
 ms.keywords: GetPrintName, GetPrintName method [Print Devices], GetPrintName method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],GetPrintName method, IBidiAsyncNotifyChannel.GetPrintName, IBidiAsyncNotifyChannel::GetPrintName, print.ibidiasyncnotifychannel_getprintname, prnasntp/IBidiAsyncNotifyChannel::GetPrintName
 f1_keywords:
  - "prnasntp/IBidiAsyncNotifyChannel.GetPrintName"

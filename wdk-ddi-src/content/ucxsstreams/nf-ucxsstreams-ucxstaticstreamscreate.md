@@ -6,6 +6,7 @@ old-location: buses\_ucxstaticstreamscreate.htm
 tech.root: usbref
 ms.assetid: F7AA10E3-5F56-4751-A603-54A0BFB00927
 ms.date: 05/07/2018
+keywords: ["UcxStaticStreamsCreate function"]
 ms.keywords: UcxStaticStreamsCreate, UcxStaticStreamsCreate method [Buses], buses._ucxstaticstreamscreate, ucxsstreams/UcxStaticStreamsCreate
 f1_keywords:
  - "ucxsstreams/UcxStaticStreamsCreate"

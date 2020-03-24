@@ -6,6 +6,7 @@ old-location: netvista\ndis_scatter_gather_list_parameters.htm
 tech.root: netvista
 ms.assetid: 5c14a6ed-3180-41d6-a09a-b3ae0a0c8b36
 ms.date: 05/02/2018
+keywords: ["_NDIS_SCATTER_GATHER_LIST_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SCATTER_GATHER_LIST_PARAMETERS, NDIS_SCATTER_GATHER_LIST_PARAMETERS, NDIS_SCATTER_GATHER_LIST_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SCATTER_GATHER_LIST_PARAMETERS, PNDIS_SCATTER_GATHER_LIST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SCATTER_GATHER_LIST_PARAMETERS, ndis/NDIS_SCATTER_GATHER_LIST_PARAMETERS, ndis/PNDIS_SCATTER_GATHER_LIST_PARAMETERS, ndis_shared_memory_ref_b74a7da6-25c0-4ede-8540-d8fd5ee88ca2.xml, netvista.ndis_scatter_gather_list_parameters"
 f1_keywords:
  - "ndis/NDIS_SCATTER_GATHER_LIST_PARAMETERS"

@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: 3b597044-e02a-48ed-9172-83644f0ef44e
 ms.author: windowsdriverdev
 ms.date: 05/08/2019
+keywords: ["KBUGCHECK_REMOVE_PAGES structure"]
 f1_keywords:
  - "wdm/_KBUGCHECK_REMOVE_PAGES"
 ms.keywords: KBUGCHECK_REMOVE_PAGES, KBUGCHECK_REMOVE_PAGES, *PKBUGCHECK_REMOVE_PAGES, 

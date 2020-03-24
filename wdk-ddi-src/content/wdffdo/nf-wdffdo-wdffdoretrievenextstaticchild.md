@@ -6,6 +6,7 @@ old-location: wdf\wdffdoretrievenextstaticchild.htm
 tech.root: wdf
 ms.assetid: ee0f458b-c8b3-46e7-87bd-25599d39203d
 ms.date: 02/26/2018
+keywords: ["WdfFdoRetrieveNextStaticChild function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_013cf620-08fe-4c72-8a5e-c7e38a37b503.xml, WdfFdoRetrieveNextStaticChild, WdfFdoRetrieveNextStaticChild method, kmdf.wdffdoretrievenextstaticchild, wdf.wdffdoretrievenextstaticchild, wdffdo/WdfFdoRetrieveNextStaticChild
 f1_keywords:
  - "wdffdo/WdfFdoRetrieveNextStaticChild"

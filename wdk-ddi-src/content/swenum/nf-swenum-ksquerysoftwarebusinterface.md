@@ -6,6 +6,7 @@ old-location: stream\ksquerysoftwarebusinterface.htm
 tech.root: stream
 ms.assetid: 2a4dd5a8-e9cc-4404-8031-5091ff2aa50d
 ms.date: 04/23/2018
+keywords: ["KsQuerySoftwareBusInterface function"]
 ms.keywords: KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, stream.ksquerysoftwarebusinterface, swenum/KsQuerySoftwareBusInterface
 f1_keywords:
  - "swenum/KsQuerySoftwareBusInterface"

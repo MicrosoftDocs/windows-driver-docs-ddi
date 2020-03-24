@@ -6,6 +6,7 @@ old-location: debugger\windbgextensiondllinit.htm
 tech.root: debugger
 ms.assetid: 1c97ac8c-9b40-44e8-b669-6b7d4ee2d671
 ms.date: 05/03/2018
+keywords: ["PWINDBG_EXTENSION_DLL_INIT callback function"]
 ms.keywords: PWINDBG_EXTENSION_DLL_INIT, PWINDBG_EXTENSION_DLL_INIT callback, WdbgExts_Callbacks_18383848-27f2-4d4e-a5b0-c6ce27377687.xml, WinDbgExtensionDllInit, WinDbgExtensionDllInit callback function [Windows Debugging], debugger.windbgextensiondllinit, wdbgexts/WinDbgExtensionDllInit
 f1_keywords:
  - "wdbgexts/WinDbgExtensionDllInit"

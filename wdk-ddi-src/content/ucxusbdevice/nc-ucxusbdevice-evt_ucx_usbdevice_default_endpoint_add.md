@@ -6,6 +6,7 @@ old-location: buses\evt_ucx_usbdevice_default_endpoint_add.htm
 tech.root: usbref
 ms.assetid: b9c38199-810a-462b-a805-9751de2a419e
 ms.date: 05/07/2018
+keywords: ["EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function"]
 ms.keywords: EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback, EvtUcxUsbDeviceDefaultEndpointAdd, EvtUcxUsbDeviceDefaultEndpointAdd callback function [Buses], PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ucx_usbdevice_default_endpoint_add, ucxusbdevice/EvtUcxUsbDeviceDefaultEndpointAdd
 f1_keywords:
  - "ucxusbdevice/PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD"

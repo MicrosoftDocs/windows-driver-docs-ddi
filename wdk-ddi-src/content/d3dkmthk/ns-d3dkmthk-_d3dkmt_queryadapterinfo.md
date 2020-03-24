@@ -5,6 +5,7 @@ description: The D3DKMT_QUERYADAPTERINFO structure contains information that des
 old-location: display\d3dkmt_queryadapterinfo.htm
 ms.assetid: 2bc9afc3-2fcf-4f62-85d4-67f824733904
 ms.date: 11/21/2018
+keywords: ["_D3DKMT_QUERYADAPTERINFO structure"]
 ms.keywords: D3DKMT_QUERYADAPTERINFO, D3DKMT_QUERYADAPTERINFO structure [Display Devices], OpenGL_Structs_10a338e9-c5a8-44e0-9ad7-87d5a3ab742e.xml, _D3DKMT_QUERYADAPTERINFO, d3dkmthk/D3DKMT_QUERYADAPTERINFO, display.d3dkmt_queryadapterinfo
 f1_keywords:
  - "d3dkmthk/D3DKMT_QUERYADAPTERINFO"

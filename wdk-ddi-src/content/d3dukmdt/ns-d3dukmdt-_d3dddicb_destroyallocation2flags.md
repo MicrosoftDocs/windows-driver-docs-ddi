@@ -6,6 +6,7 @@ old-location: display\d3dddicb_destroyallocation2flags.htm
 tech.root: display
 ms.assetid: 50D4BFB7-B5AC-4202-B426-F152B06C9F46
 ms.date: 05/10/2018
+keywords: ["_D3DDDICB_DESTROYALLOCATION2FLAGS structure"]
 ms.keywords: D3DDDICB_DESTROYALLOCATION2FLAGS, D3DDDICB_DESTROYALLOCATION2FLAGS structure [Display Devices], _D3DDDICB_DESTROYALLOCATION2FLAGS, d3dukmdt/D3DDDICB_DESTROYALLOCATION2FLAGS, display.d3dddicb_destroyallocation2flags
 f1_keywords:
  - "d3dukmdt/D3DDDICB_DESTROYALLOCATION2FLAGS"

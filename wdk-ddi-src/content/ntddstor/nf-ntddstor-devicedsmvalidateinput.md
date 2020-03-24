@@ -5,6 +5,7 @@ description: The DeviceDsmValidateInput function validates whether a DEVICE_DSM_
 tech.root: storage
 ms.assetid: dab84969-6432-4730-b06e-b7bbf7a07f2d
 ms.date: 08/23/2019
+keywords: ["DeviceDsmValidateInput function"]
 f1_keywords:
  - "ntddstor/DeviceDsmValidateInput"
 ms.keywords: DeviceDsmValidateInput

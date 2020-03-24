@@ -6,6 +6,7 @@ old-location: netvista\ndk_fn_send.htm
 tech.root: netvista
 ms.assetid: 6EDF95F1-AE00-4931-9B18-E316D56D57AF
 ms.date: 05/02/2018
+keywords: ["NDK_FN_SEND callback function"]
 ms.keywords: NDK_FN_SEND, NDK_FN_SEND callback, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_INLINE, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SEND_AND_SOLICIT_EVENT, NDK_OP_FLAG_SILENT_SUCCESS, NdkSend, NdkSend callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkSend, netvista.ndk_fn_send
 f1_keywords:
  - "ndkpi/NdkSend"

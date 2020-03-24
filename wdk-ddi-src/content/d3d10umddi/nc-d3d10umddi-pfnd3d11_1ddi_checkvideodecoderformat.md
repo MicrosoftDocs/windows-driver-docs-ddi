@@ -5,6 +5,7 @@ description: Determines whether a specified format can be used as a video decode
 old-location: display\checkvideodecoderformat.htm
 ms.assetid: 6bde6e00-70ba-4fa5-9cc0-9884ce7381ed
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback function"]
 ms.keywords: CheckVideoDecoderFormat, CheckVideoDecoderFormat callback function [Display Devices], PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback, d3d10umddi/CheckVideoDecoderFormat, display.checkvideodecoderformat
 f1_keywords:
  - "d3d10umddi/CheckVideoDecoderFormat"

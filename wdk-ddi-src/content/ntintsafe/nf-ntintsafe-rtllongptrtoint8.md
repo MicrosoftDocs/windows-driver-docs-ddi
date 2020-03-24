@@ -6,6 +6,7 @@ old-location: kernel\rtllongptrtoint8.htm
 tech.root: kernel
 ms.assetid: 1C8FA483-3713-464E-91B7-0A8D754F5D16
 ms.date: 04/30/2018
+keywords: ["RtlLongPtrToInt8 function"]
 ms.keywords: RtlLongPtrToInt8, RtlLongPtrToInt8 function [Kernel-Mode Driver Architecture], kernel.rtllongptrtoint8, ntintsafe/RtlLongPtrToInt8
 f1_keywords:
  - "ntintsafe/RtlLongPtrToInt8"

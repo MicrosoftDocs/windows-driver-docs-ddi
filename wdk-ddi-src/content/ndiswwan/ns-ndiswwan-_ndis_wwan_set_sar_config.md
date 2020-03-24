@@ -5,6 +5,7 @@ description: The NDIS_WWAN_SET_SAR_CONFIG structure describes Specific Absorptio
 tech.root: netvista
 ms.assetid: 1d92e287-b6d5-4eb6-9d34-963331b04a00
 ms.date: 08/20/2018
+keywords: ["_NDIS_WWAN_SET_SAR_CONFIG structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_SET_SAR_CONFIG"
 ms.keywords: _NDIS_WWAN_SET_SAR_CONFIG, NDIS_WWAN_SET_SAR_CONFIG, *PNDIS_WWAN_SET_SAR_CONFIG, 

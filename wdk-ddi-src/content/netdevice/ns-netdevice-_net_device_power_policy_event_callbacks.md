@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 883af9ab-2f90-4e0f-bb01-3358e568eb17
 ms.author: windowsdriverdev
 ms.date: 10/11/2019
+keywords: ["NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS structure"]
 f1_keywords:
  - "netdevice/NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS"
 ms.keywords: NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS, NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS, 

@@ -6,6 +6,7 @@ old-location: pos\posstatisticsheader.htm
 tech.root: pos
 ms.assetid: 75567f14-07fe-4861-9f78-e4de6d0bb023
 ms.date: 02/23/2018
+keywords: ["_PosStatisticsHeader structure"]
 ms.keywords: PosStatisticsHeader, PosStatisticsHeader structure, _PosStatisticsHeader, pointofservicedriverinterface/PosStatisticsHeader, pos.posstatisticsheader
 f1_keywords:
  - "pointofservicedriverinterface/PosStatisticsHeader"

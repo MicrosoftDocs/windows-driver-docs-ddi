@@ -6,6 +6,7 @@ old-location: wdf\wdfrequestretrieveinputbuffer.htm
 tech.root: wdf
 ms.assetid: fa02a787-502c-48a3-a5e1-710d7513c42e
 ms.date: 02/26/2018
+keywords: ["WdfRequestRetrieveInputBuffer function"]
 ms.keywords: DFRequestObjectRef_7b0c1902-f3a3-4b89-8a9d-3e05e1639fd3.xml, WdfRequestRetrieveInputBuffer, WdfRequestRetrieveInputBuffer method, kmdf.wdfrequestretrieveinputbuffer, wdf.wdfrequestretrieveinputbuffer, wdfrequest/WdfRequestRetrieveInputBuffer
 f1_keywords:
  - "wdfrequest/WdfRequestRetrieveInputBuffer"

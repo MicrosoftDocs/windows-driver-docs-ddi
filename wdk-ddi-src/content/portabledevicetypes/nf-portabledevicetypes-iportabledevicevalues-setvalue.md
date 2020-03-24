@@ -6,6 +6,7 @@ old-location: wpddk\iportabledevicevalues_setvalue.htm
 tech.root: wpd_dk
 ms.assetid: 43670b44-7554-4cef-9b8d-aa66c16edf13
 ms.date: 02/15/2018
+keywords: ["IPortableDeviceValues::SetValue"]
 ms.keywords: IPortableDeviceValues interface,SetValue method, IPortableDeviceValues.SetValue, IPortableDeviceValues::SetValue, IPortableDeviceValuesSetValue, SetValue, SetValue method, SetValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetValue, wpddk.iportabledevicevalues_setvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetValue"

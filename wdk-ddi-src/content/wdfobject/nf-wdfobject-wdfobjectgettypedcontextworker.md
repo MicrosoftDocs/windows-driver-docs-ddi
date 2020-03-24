@@ -6,6 +6,7 @@ old-location: wdf\wdfobjectgettypedcontextworker.htm
 tech.root: wdf
 ms.assetid: 1d95084b-16c4-468e-84af-47650292c5a1
 ms.date: 02/26/2018
+keywords: ["WdfObjectGetTypedContextWorker function"]
 ms.keywords: DFGenObjectRef_d932d163-5341-45b3-b896-bb3adb5831a6.xml, WdfObjectGetTypedContextWorker, WdfObjectGetTypedContextWorker method, kmdf.wdfobjectgettypedcontextworker, wdf.wdfobjectgettypedcontextworker, wdfobject/WdfObjectGetTypedContextWorker
 f1_keywords:
  - "wdfobject/WdfObjectGetTypedContextWorker"

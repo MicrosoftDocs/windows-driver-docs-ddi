@@ -6,6 +6,7 @@ old-location: ifsk\rtlconvertsidtounicodestring.htm
 tech.root: ifsk
 ms.assetid: 5dea6764-9ca0-4d38-9900-174637c4f648
 ms.date: 04/16/2018
+keywords: ["RtlConvertSidToUnicodeString function"]
 ms.keywords: RtlConvertSidToUnicodeString, RtlConvertSidToUnicodeString routine [Installable File System Drivers], ifsk.rtlconvertsidtounicodestring, ntifs/RtlConvertSidToUnicodeString, rtlref_4b2b8867-c248-49e9-9b38-de3f9449a504.xml
 f1_keywords:
  - "ntifs/RtlConvertSidToUnicodeString"

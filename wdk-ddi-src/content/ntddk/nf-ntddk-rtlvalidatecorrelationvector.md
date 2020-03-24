@@ -6,6 +6,7 @@ old-location: kernel\rtlvalidatecorrelationvector.htm
 tech.root: kernel
 ms.assetid: a73ab33b-3e8c-43d8-8547-1483bcd2af52
 ms.date: 04/30/2018
+keywords: ["RtlValidateCorrelationVector function"]
 ms.keywords: RtlValidateCorrelationVector, RtlValidateCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlvalidatecorrelationvector, ntddk/RtlValidateCorrelationVector
 f1_keywords:
  - "ntddk/RtlValidateCorrelationVector"

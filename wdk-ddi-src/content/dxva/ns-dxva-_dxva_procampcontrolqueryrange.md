@@ -6,6 +6,7 @@ old-location: display\dxva_procampcontrolqueryrange.htm
 tech.root: display
 ms.assetid: 934b69cd-f54d-4706-bcb6-8d9e25ea3367
 ms.date: 05/10/2018
+keywords: ["_DXVA_ProcAmpControlQueryRange structure"]
 ms.keywords: "*LPDXVA_ProcAmpControlQueryRange, DXVA_ProcAmpControlQueryRange, DXVA_ProcAmpControlQueryRange structure [Display Devices], LPDXVA_ProcAmpControlQueryRange, LPDXVA_ProcAmpControlQueryRange structure pointer [Display Devices], _DXVA_ProcAmpControlQueryRange, display.dxva_procampcontrolqueryrange, dxva/DXVA_ProcAmpControlQueryRange, dxva/LPDXVA_ProcAmpControlQueryRange, dxvaref_5122c77d-0d7a-42a4-be26-f03993fb52db.xml"
 f1_keywords:
  - "dxva/DXVA_ProcAmpControlQueryRange"

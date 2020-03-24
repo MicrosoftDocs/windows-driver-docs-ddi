@@ -6,6 +6,7 @@ old-location: debugger\removeflags.htm
 tech.root: debugger
 ms.assetid: 60538544-6baf-4d23-a65f-5c5e82bd6f11
 ms.date: 05/03/2018
+keywords: ["IDebugBreakpoint::RemoveFlags"]
 ms.keywords: ComOther_15793582-5533-4f63-8278-9556b160e6d2.xml, IDebugBreakpoint interface [Windows Debugging],RemoveFlags method, IDebugBreakpoint.RemoveFlags, IDebugBreakpoint2 interface [Windows Debugging],RemoveFlags method, IDebugBreakpoint2::RemoveFlags, IDebugBreakpoint::RemoveFlags, RemoveFlags, RemoveFlags method [Windows Debugging], RemoveFlags method [Windows Debugging],IDebugBreakpoint interface, RemoveFlags method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::RemoveFlags, dbgeng/IDebugBreakpoint::RemoveFlags, debugger.removeflags
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.RemoveFlags"

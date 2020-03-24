@@ -6,6 +6,7 @@ old-location: parports\ioctl_par_set_write_address.htm
 tech.root: parports
 ms.assetid: ea4a071e-aa6b-4c9f-b497-523af7e42430
 ms.date: 02/15/2018
+keywords: ["IOCTL_PAR_SET_WRITE_ADDRESS IOCTL"]
 ms.keywords: IOCTL_PAR_SET_WRITE_ADDRESS, IOCTL_PAR_SET_WRITE_ADDRESS control code [Parallel Ports], cisspd_396ff93f-623f-48a5-925e-9338672fa974.xml, ntddpar/IOCTL_PAR_SET_WRITE_ADDRESS, parports.ioctl_par_set_write_address
 f1_keywords:
  - "ntddpar/IOCTL_PAR_SET_WRITE_ADDRESS"

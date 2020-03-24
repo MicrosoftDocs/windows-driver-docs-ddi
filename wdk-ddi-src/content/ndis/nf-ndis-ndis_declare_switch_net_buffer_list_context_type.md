@@ -5,6 +5,7 @@ description: Hyper-V extensible switch extensions use the NDIS_DECLARE_SWITCH_NE
 tech.root: netvista
 ms.assetid: bde251f3-a9b1-4f9f-b7ff-4a7ac71be99d
 ms.date: 04/17/2018
+keywords: ["NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE macro"]
 f1_keywords:
  - "ndis/NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE"
 ms.keywords: NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE

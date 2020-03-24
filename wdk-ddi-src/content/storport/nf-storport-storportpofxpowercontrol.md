@@ -6,6 +6,7 @@ old-location: storage\storportpofxpowercontrol.htm
 tech.root: storage
 ms.assetid: 1EBEBD5D-E0E5-48A3-8CDA-C336575E53C6
 ms.date: 03/29/2018
+keywords: ["StorPortPoFxPowerControl function"]
 ms.keywords: StorPortPoFxPowerControl, StorPortPoFxPowerControl routine [Storage Devices], storage.storportpofxpowercontrol, storport/StorPortPoFxPowerControl
 f1_keywords:
  - "storport/StorPortPoFxPowerControl"

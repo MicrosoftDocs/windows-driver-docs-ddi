@@ -5,6 +5,7 @@ description: The DXGKARG_COLLECTDBGINFO_EXT structure describes extension inform
 old-location: display\dxgkarg_collectdbginfo_ext.htm
 ms.assetid: cbde31fe-06c1-44af-8940-b66e8044a5cd
 ms.date: 05/10/2018
+keywords: ["_DXGKARG_COLLECTDBGINFO_EXT structure"]
 ms.keywords: DXGKARG_COLLECTDBGINFO_EXT, DXGKARG_COLLECTDBGINFO_EXT structure [Display Devices], DmStructs_3c280734-d3c8-4970-a6d8-8ad2b3dce913.xml, _DXGKARG_COLLECTDBGINFO_EXT, d3dkmddi/DXGKARG_COLLECTDBGINFO_EXT, display.dxgkarg_collectdbginfo_ext
 f1_keywords:
  - "d3dkmddi/DXGKARG_COLLECTDBGINFO_EXT"

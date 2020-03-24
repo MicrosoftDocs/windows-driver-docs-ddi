@@ -4,6 +4,7 @@ title: D3D12DDI_NODE_MASK_0054 (d3d12umddi.h)
 description: The node mask of the command list.
 ms.assetid: ec3059ab-d65a-482c-8401-872438e53a07
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_NODE_MASK_0054 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_NODE_MASK_0054"
 ms.keywords: D3D12DDI_NODE_MASK_0054, D3D12DDI_NODE_MASK_0054, 

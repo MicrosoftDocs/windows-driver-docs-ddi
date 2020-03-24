@@ -6,6 +6,7 @@ old-location: hid\evtvhfcleanup.htm
 tech.root: hid
 ms.assetid: 1D477E7B-E4EA-46E7-872C-3BEBFBD31702
 ms.date: 04/30/2018
+keywords: ["EVT_VHF_CLEANUP callback function"]
 ms.keywords: EVT_VHF_CLEANUP, EVT_VHF_CLEANUP callback, EvtVhfCleanup, EvtVhfCleanup callback function [Human Input Devices], hid.evtvhfcleanup, vhf/EvtVhfCleanup
 f1_keywords:
  - "vhf/EvtVhfCleanup"

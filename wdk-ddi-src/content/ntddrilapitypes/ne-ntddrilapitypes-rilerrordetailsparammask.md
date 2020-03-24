@@ -6,6 +6,7 @@ old-location: netvista\rilerrordetailsparammask.htm
 tech.root: netvista
 ms.assetid: 5890ea36-73af-4d64-bea3-12b75d479e6e
 ms.date: 05/02/2018
+keywords: ["RILERRORDETAILSPARAMMASK enumeration"]
 ms.keywords: RILERRORDETAILSPARAMMASK, RILERRORDETAILSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilerrordetailsparammask, ntddrilapitypes/RILERRORDETAILSPARAMMASK
 f1_keywords:
  - "ntddrilapitypes/RILERRORDETAILSPARAMMASK"

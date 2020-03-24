@@ -6,6 +6,7 @@ old-location: display\d3dddicaps_simple_instancing_support.htm
 tech.root: display
 ms.assetid: CF75EBC8-D756-49B5-BC1F-1DBE8DC04137
 ms.date: 05/10/2018
+keywords: ["D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure"]
 ms.keywords: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure [Display Devices], d3dumddi/D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, display.d3dddicaps_simple_instancing_support
 f1_keywords:
  - "d3dumddi/D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT"

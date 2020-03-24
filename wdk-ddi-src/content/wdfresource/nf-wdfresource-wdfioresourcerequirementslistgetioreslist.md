@@ -6,6 +6,7 @@ old-location: wdf\wdfioresourcerequirementslistgetioreslist.htm
 tech.root: wdf
 ms.assetid: b15c0ccf-0863-4415-b31f-b4217f249feb
 ms.date: 02/26/2018
+keywords: ["WdfIoResourceRequirementsListGetIoResList function"]
 ms.keywords: DFResourceObjectRef_a90ce2a4-5690-49c8-ac63-6ccf89f4e5f3.xml, WdfIoResourceRequirementsListGetIoResList, WdfIoResourceRequirementsListGetIoResList method, kmdf.wdfioresourcerequirementslistgetioreslist, wdf.wdfioresourcerequirementslistgetioreslist, wdfresource/WdfIoResourceRequirementsListGetIoResList
 f1_keywords:
  - "wdfresource/WdfIoResourceRequirementsListGetIoResList"

@@ -6,6 +6,7 @@ old-location: print\xcvdataport.htm
 tech.root: print
 ms.assetid: 2d0e3509-27d9-439f-9d47-e0e500e8907f
 ms.date: 02/02/2018
+keywords: ["XcvDataPort function"]
 ms.keywords: print.xcvdataport, winsplp/XcvDataPort, XcvDataPort, spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml, XcvDataPort function [Print Devices]
 f1_keywords:
  - "winsplp/XcvDataPort"

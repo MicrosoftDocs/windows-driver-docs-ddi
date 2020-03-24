@@ -3,6 +3,7 @@ UID: NA:virtualaddresstypes
 title: Virtualaddresstypes.h header
 ms.assetid: B2465637-3BF3-4862-A214-7E495F0FF8F0
 ms.date: 09/20/2019
+keywords: ["Virtualaddresstypes.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

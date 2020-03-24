@@ -5,6 +5,7 @@ description: The pfnGetNumPathsFromSource function returns the number of video p
 old-location: display\dxgk_vidpntopology_interface_pfngetnumpathsfromsource.htm
 ms.assetid: 6c5ee84d-e106-47fc-88bd-b184e9cdd561
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE callback function"]
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE, DXGKDDI_VIDPNTOPOLOGY_GETNUMPATHSFROMSOURCE callback, VidPnFunctions_6c0bd823-4803-474c-9948-22282c5b1e66.xml, d3dkmddi/pfnGetNumPathsFromSource, display.dxgk_vidpntopology_interface_pfngetnumpathsfromsource, pfnGetNumPathsFromSource, pfnGetNumPathsFromSource callback function [Display Devices]
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h

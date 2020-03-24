@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 06db3e7f-0840-4ec8-8111-37802903d213
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
+keywords: ["MbbDeviceSetWakeCapabilities function"]
 f1_keywords:
  - "mbbcx/MbbDeviceSetWakeCapabilities"
 ms.keywords: MbbDeviceSetWakeCapabilities

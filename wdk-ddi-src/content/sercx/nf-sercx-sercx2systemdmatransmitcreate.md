@@ -6,6 +6,7 @@ old-location: serports\sercx2systemdmatransmitcreate.htm
 tech.root: serports
 ms.assetid: CD0FA4A2-9E09-4F76-A332-858CC5D61651
 ms.date: 04/23/2018
+keywords: ["SerCx2SystemDmaTransmitCreate function"]
 ms.keywords: 2/SerCx2SystemDmaTransmitCreate, SerCx2SystemDmaTransmitCreate, SerCx2SystemDmaTransmitCreate method [Serial Ports], serports.sercx2systemdmatransmitcreate
 f1_keywords:
  - "sercx/SerCx2SystemDmaTransmitCreate"

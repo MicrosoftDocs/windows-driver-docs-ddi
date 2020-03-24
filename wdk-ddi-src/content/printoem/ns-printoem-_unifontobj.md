@@ -6,6 +6,7 @@ old-location: print\unifontobj.htm
 tech.root: print
 ms.assetid: ff3ecef2-abf2-4ecb-b4af-81e6c6d8fb4c
 ms.date: 04/20/2018
+keywords: ["_UNIFONTOBJ structure"]
 ms.keywords: "*PUNIFONTOBJ, PUNIFONTOBJ, PUNIFONTOBJ structure pointer [Print Devices], UNIFONTOBJ, UNIFONTOBJ structure [Print Devices], _UNIFONTOBJ, print.unifontobj, print_unidrv-pscript_rendering_05a25ef3-5ce2-43f5-ae35-790691bda143.xml, printoem/PUNIFONTOBJ, printoem/UNIFONTOBJ"
 f1_keywords:
  - "printoem/UNIFONTOBJ"

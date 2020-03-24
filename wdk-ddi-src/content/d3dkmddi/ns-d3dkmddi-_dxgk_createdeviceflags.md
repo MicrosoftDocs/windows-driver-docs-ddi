@@ -5,6 +5,7 @@ description: The DXGK_CREATEDEVICEFLAGS structure identifies how to create devic
 old-location: display\dxgk_createdeviceflags.htm
 ms.assetid: 31dc1493-a7c9-4ca0-b718-98224d9c5675
 ms.date: 05/10/2018
+keywords: ["_DXGK_CREATEDEVICEFLAGS structure"]
 ms.keywords: DXGK_CREATEDEVICEFLAGS, DXGK_CREATEDEVICEFLAGS structure [Display Devices], DmStructs_f8513fe3-ce39-4555-a667-20ff383583fc.xml, _DXGK_CREATEDEVICEFLAGS, d3dkmddi/DXGK_CREATEDEVICEFLAGS, display.dxgk_createdeviceflags
 f1_keywords:
  - "d3dkmddi/DXGK_CREATEDEVICEFLAGS"

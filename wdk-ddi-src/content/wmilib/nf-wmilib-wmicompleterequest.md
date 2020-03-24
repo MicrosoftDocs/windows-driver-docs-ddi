@@ -6,6 +6,7 @@ old-location: kernel\wmicompleterequest.htm
 tech.root: kernel
 ms.assetid: c6377dcc-a83b-4766-b882-25d228a26efe
 ms.date: 04/30/2018
+keywords: ["WmiCompleteRequest function"]
 ms.keywords: WmiCompleteRequest, WmiCompleteRequest routine [Kernel-Mode Driver Architecture], k902_08bc200c-67e2-4806-b744-621f31ec6af3.xml, kernel.wmicompleterequest, wmilib/WmiCompleteRequest
 f1_keywords:
  - "wmilib/WmiCompleteRequest"

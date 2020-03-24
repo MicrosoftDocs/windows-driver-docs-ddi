@@ -3,6 +3,7 @@ UID: NA:wwan
 title: Wwan.h header
 ms.assetid: 5d64f71a-37de-3e02-bd8a-2f870aefdc5b
 ms.date: 05/09/2018
+keywords: ["Wwan.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

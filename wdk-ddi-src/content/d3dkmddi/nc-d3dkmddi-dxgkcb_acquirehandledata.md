@@ -4,6 +4,7 @@ title: DXGKCB_ACQUIREHANDLEDATA (d3dkmddi.h)
 description: Acquires a resource handle.
 ms.assetid: e4ac45bd-29c0-4114-a68c-a43978c37b89
 ms.date: 10/19/2018
+keywords: ["DXGKCB_ACQUIREHANDLEDATA callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKCB_ACQUIREHANDLEDATA"
 req.header: d3dkmddi.h

@@ -6,6 +6,7 @@ old-location: buses\evt_ufx_device_proprietary_charger_set_property.htm
 tech.root: usbref
 ms.assetid: 7ED9D607-2F7A-4835-9D1E-FC33EF594974
 ms.date: 05/07/2018
+keywords: ["EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback function"]
 ms.keywords: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback, EvtUfxDeviceProprietaryChargerSetProperty, EvtUfxDeviceProprietaryChargerSetProperty callback function [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY callback function pointer [Buses], buses.evt_ufx_device_proprietary_charger_set_property, ufxclient/EvtUfxDeviceProprietaryChargerSetProperty
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_PROPRIETARY_CHARGER_SET_PROPERTY"

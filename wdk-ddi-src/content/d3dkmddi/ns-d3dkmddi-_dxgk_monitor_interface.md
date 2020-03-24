@@ -5,6 +5,7 @@ description: The DXGK_MONITOR_INTERFACE structure contains pointers to functions
 old-location: display\dxgk_monitor_interface.htm
 ms.assetid: edb6df63-7354-4da3-b641-2ce7f28ca7e8
 ms.date: 05/10/2018
+keywords: ["_DXGK_MONITOR_INTERFACE structure"]
 ms.keywords: DXGK_MONITOR_INTERFACE, DXGK_MONITOR_INTERFACE structure [Display Devices], DmStructs_23906e50-4f65-4483-a54c-915f9fd3c433.xml, _DXGK_MONITOR_INTERFACE, d3dkmddi/DXGK_MONITOR_INTERFACE, display.dxgk_monitor_interface
 f1_keywords:
  - "d3dkmddi/DXGK_MONITOR_INTERFACE"

@@ -6,6 +6,7 @@ old-location: netvista\ndismcmderegistersapcomplete.htm
 tech.root: netvista
 ms.assetid: 69524144-fc55-4721-a753-6452566a8b26
 ms.date: 05/02/2018
+keywords: ["NdisMCmDeregisterSapComplete macro"]
 ms.keywords: NdisMCmDeregisterSapComplete, NdisMCmDeregisterSapComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_c7c4035b-8227-418a-895d-9b14027ce4c4.xml, ndis/NdisMCmDeregisterSapComplete, netvista.ndismcmderegistersapcomplete
 f1_keywords:
  - "ndis/NdisMCmDeregisterSapComplete"

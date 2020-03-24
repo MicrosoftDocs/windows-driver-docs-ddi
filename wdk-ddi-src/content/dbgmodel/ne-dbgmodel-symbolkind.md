@@ -4,6 +4,7 @@ title: SymbolKind (dbgmodel.h)
 description: Defines the kind of a symbol.
 ms.assetid: 6c1562a7-d1fb-4418-99dd-a6391cb4163d
 ms.date: 07/16/2018
+keywords: ["SymbolKind enumeration"]
 f1_keywords:
  - "dbgmodel/SymbolKind"
 ms.keywords: SymbolKind, , 

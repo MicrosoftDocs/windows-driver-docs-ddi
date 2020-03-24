@@ -5,6 +5,7 @@ description: Used in the GET_CURRENT_CAM command. See Table 4-29.
 ms.assetid: a3ea2dac-94ef-444f-8003-f3be5cb865b3
 tech.root: usbref
 ms.date: 09/30/2018
+keywords: ["_UCSI_GET_CURRENT_CAM_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_CURRENT_CAM_COMMAND"
 ms.keywords: _UCSI_GET_CURRENT_CAM_COMMAND, UCSI_GET_CURRENT_CAM_COMMAND, *PUCSI_GET_CURRENT_CAM_COMMAND, 

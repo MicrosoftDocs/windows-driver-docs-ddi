@@ -6,6 +6,7 @@ old-location: storage\ufs_power_descriptor.htm
 tech.root: storage
 ms.assetid: FCF9DCD1-2C04-47E3-97C5-7ACC28B28C6C
 ms.date: 03/29/2018
+keywords: ["UFS_POWER_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR structure pointer [Storage Devices], UFS_POWER_DESCRIPTOR, UFS_POWER_DESCRIPTOR structure [Storage Devices], storage.ufs_power_descriptor, ufs/PUFS_POWER_DESCRIPTOR, ufs/UFS_POWER_DESCRIPTOR"
 f1_keywords:
  - "ufs/UFS_POWER_DESCRIPTOR"

@@ -6,6 +6,7 @@ old-location: ifsk\ioregisterfilesystem.htm
 tech.root: ifsk
 ms.assetid: 19d53afd-b63c-4fd3-9b08-c51e2a1247af
 ms.date: 04/16/2018
+keywords: ["IoRegisterFileSystem function"]
 ms.keywords: IoRegisterFileSystem, IoRegisterFileSystem routine [Installable File System Drivers], ifsk.ioregisterfilesystem, ioref_42200300-9ef6-4be9-8fee-bf42b027a809.xml, ntifs/IoRegisterFileSystem
 f1_keywords:
  - "ntifs/IoRegisterFileSystem"

@@ -6,6 +6,7 @@ old-location: netvista\protocolcldroppartycomplete.htm
 tech.root: netvista
 ms.assetid: c916f379-393c-41d7-ab30-2f3181c3ada6
 ms.date: 05/02/2018
+keywords: ["PROTOCOL_CL_DROP_PARTY_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_DROP_PARTY_COMPLETE, PROTOCOL_CL_DROP_PARTY_COMPLETE callback, ProtocolClDropPartyComplete, ProtocolClDropPartyComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_6586ee1a-9f7f-4125-966e-1f6df74b75df.xml, ndis/ProtocolClDropPartyComplete, netvista.protocolcldroppartycomplete
 f1_keywords:
  - "ndis/ProtocolClDropPartyComplete"

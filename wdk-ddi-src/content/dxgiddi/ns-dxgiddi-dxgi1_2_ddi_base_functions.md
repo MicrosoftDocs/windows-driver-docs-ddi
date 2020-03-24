@@ -6,6 +6,7 @@ old-location: display\dxgi1_2_ddi_base_functions.htm
 tech.root: display
 ms.assetid: 7A1CD16A-4B7A-40FE-8650-AAD8CAC10FB0
 ms.date: 05/10/2018
+keywords: ["DXGI1_2_DDI_BASE_FUNCTIONS structure"]
 ms.keywords: DXGI1_2_DDI_BASE_FUNCTIONS, DXGI1_2_DDI_BASE_FUNCTIONS structure [Display Devices], display.dxgi1_2_ddi_base_functions, dxgiddi/DXGI1_2_DDI_BASE_FUNCTIONS
 f1_keywords:
  - "dxgiddi/DXGI1_2_DDI_BASE_FUNCTIONS"

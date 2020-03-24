@@ -6,6 +6,7 @@ old-location: audio\iminiportstreamaudioenginenode_setlfxstate.htm
 tech.root: audio
 ms.assetid: 90EED6A9-F25D-4EF9-8523-CFFC90185588
 ms.date: 05/08/2018
+keywords: ["IMiniportStreamAudioEngineNode::SetLfxState"]
 ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetLfxState method, IMiniportStreamAudioEngineNode.SetLfxState, IMiniportStreamAudioEngineNode::SetLfxState, SetLfxState, SetLfxState method [Audio Devices], SetLfxState method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setlfxstate, portcls/IMiniportStreamAudioEngineNode::SetLfxState
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.SetLfxState"

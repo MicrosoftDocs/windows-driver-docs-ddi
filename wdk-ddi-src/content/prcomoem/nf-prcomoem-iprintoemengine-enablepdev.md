@@ -6,6 +6,7 @@ old-location: print\iprintoemengine_enablepdev.htm
 tech.root: print
 ms.assetid: F84B7A8F-5B75-4E2F-93EB-AFFE24637647
 ms.date: 04/20/2018
+keywords: ["IPrintOemEngine::EnablePDEV"]
 ms.keywords: EnablePDEV, EnablePDEV method [Print Devices], EnablePDEV method [Print Devices],IPrintOemEngine interface, IPrintOemEngine interface [Print Devices],EnablePDEV method, IPrintOemEngine.EnablePDEV, IPrintOemEngine::EnablePDEV, prcomoem/IPrintOemEngine::EnablePDEV, print.iprintoemengine_enablepdev
 f1_keywords:
  - "prcomoem/IPrintOemEngine.EnablePDEV"

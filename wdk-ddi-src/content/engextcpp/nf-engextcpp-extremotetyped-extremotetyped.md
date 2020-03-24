@@ -6,6 +6,7 @@ old-location: debugger\extremotetyped_extremotetyped.htm
 tech.root: debugger
 ms.assetid: 8ae4c301-5001-467f-8821-f51cdb0ff303
 ms.date: 05/03/2018
+keywords: ["ExtRemoteTyped::ExtRemoteTyped"]
 ms.keywords: EngExtCpp_Ref_b3699ec7-ccc8-4f98-985d-cd8bad0c0e23.xml, ExtRemoteTyped, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging],ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging],ExtRemoteTyped constructor, ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped.ExtRemoteTyped(), ExtRemoteTyped::ExtRemoteTyped, debugger.extremotetyped_extremotetyped
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.ExtRemoteTyped"

@@ -6,6 +6,7 @@ old-location: netvista\miniportwditaltxrxdeleteport.htm
 tech.root: netvista
 ms.assetid: 3DB6AC6F-2A6F-43E1-B98D-B4E5C8A87845
 ms.date: 05/02/2018
+keywords: ["MINIPORT_WDI_TAL_TXRX_DELETE_PORT callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_DELETE_PORT, MINIPORT_WDI_TAL_TXRX_DELETE_PORT callback, MiniportWdiTalTxRxDeletePort, MiniportWdiTalTxRxDeletePort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxDeletePort, netvista.miniportwditaltxrxdeleteport
 f1_keywords:
  - "dot11wdi/MiniportWdiTalTxRxDeletePort"

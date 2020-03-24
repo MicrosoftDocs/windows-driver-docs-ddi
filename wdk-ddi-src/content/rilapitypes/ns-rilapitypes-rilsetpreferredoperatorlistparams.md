@@ -6,6 +6,7 @@ old-location: netvista\rilsetpreferredoperatorlistparams.htm
 tech.root: netvista
 ms.assetid: cec1db47-640c-467a-ba7d-270659ebbba2
 ms.date: 05/02/2018
+keywords: ["RILSETPREFERREDOPERATORLISTPARAMS structure"]
 ms.keywords: "*LPRILSETPREFERREDOPERATORLISTPARAMS, RILSETPREFERREDOPERATORLISTPARAMS, RILSETPREFERREDOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetpreferredoperatorlistparams, ntddrilapitypes/RILSETPREFERREDOPERATORLISTPARAMS"
 f1_keywords:
  - "rilapitypes/RILSETPREFERREDOPERATORLISTPARAMS"

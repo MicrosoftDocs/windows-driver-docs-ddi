@@ -4,6 +4,7 @@ title: _D3DKMT_DEFRAG_ESCAPE_OPERATION (d3dkmthk.h)
 description: Defragmentation escape operations.
 ms.assetid: 50c09c88-672c-492c-bbd6-6f25ecb2ed50
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_DEFRAG_ESCAPE_OPERATION enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_DEFRAG_ESCAPE_OPERATION"
 ms.keywords: _D3DKMT_DEFRAG_ESCAPE_OPERATION, D3DKMT_DEFRAG_ESCAPE_OPERATION, 

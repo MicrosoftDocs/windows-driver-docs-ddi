@@ -5,6 +5,7 @@ description: Indicates the progress of a node within an active physical display 
 old-location: display\dxgk_enginestatus.htm
 ms.assetid: e052e3bc-688e-4aa8-b987-88ed6963774a
 ms.date: 05/10/2018
+keywords: ["_DXGK_ENGINESTATUS structure"]
 ms.keywords: DXGK_ENGINESTATUS, DXGK_ENGINESTATUS structure [Display Devices], _DXGK_ENGINESTATUS, d3dkmddi/DXGK_ENGINESTATUS, display.dxgk_enginestatus
 f1_keywords:
  - "d3dkmddi/DXGK_ENGINESTATUS"

@@ -5,6 +5,7 @@ description: The D3DKMTGetDeviceState function retrieves the state of a device.
 old-location: display\d3dkmtgetdevicestate.htm
 ms.assetid: 8ea84934-63a7-40bf-8523-ccd2b9e5aceb
 ms.date: 05/10/2018
+keywords: ["D3DKMTGetDeviceState function"]
 ms.keywords: D3DKMTGetDeviceState, D3DKMTGetDeviceState function [Display Devices], OpenGL_Functions_396da637-bbc6-478c-8ec9-534d82691c45.xml, d3dkmthk/D3DKMTGetDeviceState, display.d3dkmtgetdevicestate
 f1_keywords:
  - "d3dkmthk/D3DKMTGetDeviceState"

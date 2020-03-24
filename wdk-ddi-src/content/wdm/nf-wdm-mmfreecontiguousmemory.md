@@ -6,6 +6,7 @@ old-location: kernel\mmfreecontiguousmemory.htm
 tech.root: kernel
 ms.assetid: 485c9b03-eb45-4c86-9292-ccd51ba7b080
 ms.date: 04/30/2018
+keywords: ["MmFreeContiguousMemory function"]
 ms.keywords: MmFreeContiguousMemory, MmFreeContiguousMemory routine [Kernel-Mode Driver Architecture], k106_1b930a75-7382-4a6c-a638-3e7675f43f83.xml, kernel.mmfreecontiguousmemory, wdm/MmFreeContiguousMemory
 f1_keywords:
  - "wdm/MmFreeContiguousMemory"

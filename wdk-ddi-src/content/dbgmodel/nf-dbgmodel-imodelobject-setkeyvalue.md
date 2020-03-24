@@ -4,6 +4,7 @@ title: IModelObject::SetKeyValue (dbgmodel.h)
 description: The SetKeyValue method is the first method a client will turn to in order to set the value of a key. This method cannot be used to create a new key on an object.
 ms.assetid: ea5bb8e0-a226-4dd2-90e3-0fc7cebf9cd5
 ms.date: 08/13/2018
+keywords: ["IModelObject::SetKeyValue"]
 f1_keywords:
  - "dbgmodel/IModelObject.SetKeyValue"
 ms.keywords: IModelObject::SetKeyValue, SetKeyValue, IModelObject.SetKeyValue, IModelObject::SetKeyValue, IModelObject.SetKeyValue

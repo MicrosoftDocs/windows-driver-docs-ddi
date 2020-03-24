@@ -6,6 +6,7 @@ old-location: stream\strminirequesttimeout.htm
 tech.root: stream
 ms.assetid: be3972af-1c62-4d4d-95f7-00f894ae7f21
 ms.date: 04/23/2018
+keywords: ["PHW_REQUEST_TIMEOUT_HANDLER callback function"]
 ms.keywords: PHW_REQUEST_TIMEOUT_HANDLER, StrMiniRequestTimeout, StrMiniRequestTimeout routine [Streaming Media Devices], stream.strminirequesttimeout, strmini-routines_74b67060-d244-452f-a5a5-217fd4c65614.xml, strmini/StrMiniRequestTimeout
 f1_keywords:
  - "strmini/StrMiniRequestTimeout"

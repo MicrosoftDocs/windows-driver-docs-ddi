@@ -6,6 +6,7 @@ old-location: ifsk\fsrtloplockbreaktononeex.htm
 tech.root: ifsk
 ms.assetid: 229d4f31-7c3f-4ae2-bb67-d31c67121f61
 ms.date: 03/29/2018
+keywords: ["FsRtlOplockBreakToNoneEx function"]
 ms.keywords: FsRtlOplockBreakToNoneEx, FsRtlOplockBreakToNoneEx routine [Installable File System Drivers], fsrtlref_df3afc17-e57b-43b5-8281-4128854d2064.xml, ifsk.fsrtloplockbreaktononeex, ntifs/FsRtlOplockBreakToNoneEx
 f1_keywords:
  - "ntifs/FsRtlOplockBreakToNoneEx"

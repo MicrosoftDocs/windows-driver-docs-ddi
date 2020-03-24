@@ -5,6 +5,7 @@ description: The D3DKMTReleaseKeyedMutex function releases a keyed mutex object.
 old-location: display\d3dkmtreleasekeyedmutex.htm
 ms.assetid: c2a50621-fa84-4525-86f7-845e886203fe
 ms.date: 05/10/2018
+keywords: ["D3DKMTReleaseKeyedMutex function"]
 ms.keywords: D3DKMTReleaseKeyedMutex, D3DKMTReleaseKeyedMutex function [Display Devices], OpenGL_Functions_16fd3037-2615-49c0-8500-7c93bcda3c9f.xml, d3dkmthk/D3DKMTReleaseKeyedMutex, display.d3dkmtreleasekeyedmutex
 f1_keywords:
  - "d3dkmthk/D3DKMTReleaseKeyedMutex"

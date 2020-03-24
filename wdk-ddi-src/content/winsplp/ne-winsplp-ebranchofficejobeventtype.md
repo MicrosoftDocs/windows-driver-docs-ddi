@@ -4,6 +4,7 @@ title: EBranchOfficeJobEventType (winsplp.h)
 description: 
 ms.assetid: ebdd9f97-f005-4eb7-bb36-34fe7965829e
 ms.date: 10/19/2018
+keywords: ["EBranchOfficeJobEventType enumeration"]
 f1_keywords:
  - "winsplp/EBranchOfficeJobEventType"
 ms.keywords: EBranchOfficeJobEventType, EBranchOfficeJobEventType, 

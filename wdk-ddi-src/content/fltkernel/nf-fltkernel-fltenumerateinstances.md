@@ -6,6 +6,7 @@ old-location: ifsk\fltenumerateinstances.htm
 tech.root: ifsk
 ms.assetid: d09b95d9-4b45-4da5-9c61-8e30ed4fa1d5
 ms.date: 04/16/2018
+keywords: ["FltEnumerateInstances function"]
 ms.keywords: FltApiRef_e_to_o_3875fd52-c8b1-4d79-9f90-83297dbbb44c.xml, FltEnumerateInstances, FltEnumerateInstances routine [Installable File System Drivers], fltkernel/FltEnumerateInstances, ifsk.fltenumerateinstances
 f1_keywords:
  - "fltkernel/FltEnumerateInstances"

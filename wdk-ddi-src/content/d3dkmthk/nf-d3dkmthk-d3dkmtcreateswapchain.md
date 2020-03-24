@@ -4,6 +4,7 @@ title: D3DKMTCreateSwapChain function (d3dkmthk.h)
 description: Creates swap chain resources.
 ms.assetid: 0d40686e-8a64-4bb3-afa0-83719a597e61
 ms.date: 10/19/2018
+keywords: ["D3DKMTCreateSwapChain function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateSwapChain"
 ms.keywords: D3DKMTCreateSwapChain

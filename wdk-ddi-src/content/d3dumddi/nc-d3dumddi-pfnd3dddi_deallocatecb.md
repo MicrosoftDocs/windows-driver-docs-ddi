@@ -6,6 +6,7 @@ old-location: display\pfndeallocatecb.htm
 tech.root: display
 ms.assetid: 2ffa0367-0451-45d2-be05-e450c45be116
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_DEALLOCATECB callback function"]
 ms.keywords: D3Druntime_Functions_0162df86-f479-45d9-887b-75f05de150f9.xml, PFND3DDDI_DEALLOCATECB, PFND3DDDI_DEALLOCATECB callback, d3dumddi/pfnDeallocateCb, display.pfndeallocatecb, pfnDeallocateCb, pfnDeallocateCb callback function [Display Devices]
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

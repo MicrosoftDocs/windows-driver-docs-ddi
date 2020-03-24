@@ -6,6 +6,7 @@ old-location: print\ifixedpage.htm
 tech.root: print
 ms.assetid: e9e309ed-42e5-40cc-a230-6ca001f9fb1b
 ms.date: 04/20/2018
+keywords: ["IFixedPage interface"]
 ms.keywords: IFixedPage, IFixedPage interface [Print Devices], IFixedPage interface [Print Devices],described, filterpipeline/IFixedPage, filterpipeline_4070fd54-c1df-432a-b586-a93854bf7aee.xml, print.ifixedpage
 f1_keywords:
  - "filterpipeline/IFixedPage"

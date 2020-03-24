@@ -5,6 +5,7 @@ description: Reserved for internal use. Call NET_REQUEST_QUEUE_CONFIG_ADD_METHOD
 tech.root: netvista
 ms.assetid: 70770bd2-4ab6-42c5-abd4-88a41ad8553a
 ms.date: 02/09/2018
+keywords: ["_NET_REQUEST_QUEUE_METHOD_HANDLER structure"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_METHOD_HANDLER"
 ms.keywords: _NET_REQUEST_QUEUE_METHOD_HANDLER, *PNET_REQUEST_QUEUE_METHOD_HANDLER, NET_REQUEST_QUEUE_METHOD_HANDLER, 

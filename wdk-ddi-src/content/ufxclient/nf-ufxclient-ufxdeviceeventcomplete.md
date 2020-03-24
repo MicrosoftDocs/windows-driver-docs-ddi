@@ -6,6 +6,7 @@ old-location: buses\ufxdeviceeventcomplete.htm
 tech.root: usbref
 ms.assetid: DAC18721-5747-4D5E-8A25-24B80DE77C99
 ms.date: 05/07/2018
+keywords: ["UfxDeviceEventComplete function"]
 ms.keywords: UfxDeviceEventComplete, UfxDeviceEventComplete method [Buses], buses.ufxdeviceeventcomplete, ufxclient/UfxDeviceEventComplete
 f1_keywords:
  - "ufxclient/UfxDeviceEventComplete"

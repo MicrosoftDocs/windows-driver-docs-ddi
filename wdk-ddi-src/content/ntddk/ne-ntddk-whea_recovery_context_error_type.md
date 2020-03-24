@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: cae5ce3d-64b2-4422-a681-1b7652387df7
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
+keywords: ["WHEA_RECOVERY_CONTEXT_ERROR_TYPE enumeration"]
 f1_keywords:
  - "ntddk/WHEA_RECOVERY_CONTEXT_ERROR_TYPE"
 ms.keywords: WHEA_RECOVERY_CONTEXT_ERROR_TYPE, WHEA_RECOVERY_CONTEXT_ERROR_TYPE, *PWHEA_RECOVERY_CONTEXT_ERROR_TYPE, 

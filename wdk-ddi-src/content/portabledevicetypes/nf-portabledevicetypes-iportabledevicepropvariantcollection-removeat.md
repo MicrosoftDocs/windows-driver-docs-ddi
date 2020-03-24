@@ -6,6 +6,7 @@ old-location: wpddk\iportabledevicepropvariantcollection_removeat.htm
 tech.root: wpd_dk
 ms.assetid: 655e263c-23c9-44f0-8d52-fa8dc0619fee
 ms.date: 02/15/2018
+keywords: ["IPortableDevicePropVariantCollection::RemoveAt"]
 ms.keywords: IPortableDevicePropVariantCollection interface,RemoveAt method, IPortableDevicePropVariantCollection.RemoveAt, IPortableDevicePropVariantCollection::RemoveAt, IPortableDevicePropVariantCollectionRemoveAt, RemoveAt, RemoveAt method, RemoveAt method,IPortableDevicePropVariantCollection interface, portabledevicetypes/IPortableDevicePropVariantCollection::RemoveAt, wpddk.iportabledevicepropvariantcollection_removeat
 f1_keywords:
  - "portabledevicetypes/IPortableDevicePropVariantCollection.RemoveAt"

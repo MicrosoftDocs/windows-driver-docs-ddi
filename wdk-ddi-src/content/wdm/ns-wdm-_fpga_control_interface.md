@@ -4,6 +4,7 @@ title: _FPGA_CONTROL_INTERFACE (wdm.h)
 description: Reserved for future use.
 ms.assetid: e0dae56e-1f6c-4695-8168-58c1a5439e37
 ms.date: 10/19/2018
+keywords: ["_FPGA_CONTROL_INTERFACE structure"]
 f1_keywords:
  - "wdm/_FPGA_CONTROL_INTERFACE"
 ms.keywords: _FPGA_CONTROL_INTERFACE, FPGA_CONTROL_INTERFACE, *PFPGA_CONTROL_INTERFACE, 

@@ -6,6 +6,7 @@ old-location: netvista\rilrequestgeolocationdata.htm
 tech.root: netvista
 ms.assetid: 814e00c5-7248-4853-a61b-e70be86bca0e
 ms.date: 05/02/2018
+keywords: ["RILREQUESTGEOLOCATIONDATA structure"]
 ms.keywords: "*LPRILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA, RILREQUESTGEOLOCATIONDATA structure [Network Drivers Starting with Windows Vista], netvista.rilrequestgeolocationdata, ntddrilapitypes/RILREQUESTGEOLOCATIONDATA"
 f1_keywords:
  - "rilapitypes/RILREQUESTGEOLOCATIONDATA"

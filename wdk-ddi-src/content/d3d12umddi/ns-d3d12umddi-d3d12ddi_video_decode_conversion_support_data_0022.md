@@ -5,6 +5,7 @@ description: Specifies information used to check whether a color space conversio
 old-location: display\d3d12ddi_video_decode_conversion_support_data.htm
 ms.assetid: E9FA4CEB-84D3-42A6-B36A-B411922F19AE
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022, D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022, display.d3d12ddi_video_decode_conversion_support_data
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0022"

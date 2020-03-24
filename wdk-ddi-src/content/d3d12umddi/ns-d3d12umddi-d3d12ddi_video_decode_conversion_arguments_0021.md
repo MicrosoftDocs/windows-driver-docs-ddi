@@ -5,6 +5,7 @@ description: Specifies the arguments for decode output conversion.
 old-location: display\d3d12ddi_video_decode_conversion_arguments.htm
 ms.assetid: 01288B0F-4095-4642-9DA9-4E14B0BCBB18
 ms.date: 04/16/2018
+keywords: ["D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021, D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021, display.d3d12ddi_video_decode_conversion_arguments
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0021"

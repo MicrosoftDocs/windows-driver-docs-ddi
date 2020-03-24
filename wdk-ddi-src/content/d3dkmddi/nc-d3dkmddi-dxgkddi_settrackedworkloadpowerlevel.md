@@ -4,6 +4,7 @@ title: DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL (d3dkmddi.h)
 description: Called by the workload tracker to modify the power level on a context.
 ms.assetid: 57ba5418-457e-4859-adf7-1c3d842de2bc
 ms.date: 10/19/2018
+keywords: ["DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL"
 req.header: d3dkmddi.h

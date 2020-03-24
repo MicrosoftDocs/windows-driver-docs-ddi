@@ -6,6 +6,7 @@ old-location: serports\sercxretrievetransmitmdl.htm
 tech.root: serports
 ms.assetid: C0FF3667-9641-4032-826E-7E297F57CDFA
 ms.date: 04/23/2018
+keywords: ["SerCxRetrieveTransmitMdl function"]
 ms.keywords: 1/SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl, SerCxRetrieveTransmitMdl method [Serial Ports], serports.sercxretrievetransmitmdl
 f1_keywords:
  - "sercx/SerCxRetrieveTransmitMdl"

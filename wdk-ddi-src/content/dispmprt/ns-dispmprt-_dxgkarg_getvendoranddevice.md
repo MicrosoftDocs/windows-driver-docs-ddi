@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: bbe8ab64-b48d-44f6-b79b-6b90d3b33c1f
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
+keywords: ["_DXGKARG_GETVENDORANDDEVICE structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_GETVENDORANDDEVICE"
 ms.prod: windows-hardware

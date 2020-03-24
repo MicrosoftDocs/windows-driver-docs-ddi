@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlallocateresource.htm
 tech.root: ifsk
 ms.assetid: a02f87ea-e7e5-48ff-94a2-a76b4f0cd04a
 ms.date: 04/16/2018
+keywords: ["FsRtlAllocateResource function"]
 ms.keywords: FsRtlAllocateResource, FsRtlAllocateResource function [Installable File System Drivers], fsrtlref_7c0e205b-9e67-4fba-a70d-67e441cdcddf.xml, ifsk.fsrtlallocateresource, ntifs/FsRtlAllocateResource
 f1_keywords:
  - "ntifs/FsRtlAllocateResource"

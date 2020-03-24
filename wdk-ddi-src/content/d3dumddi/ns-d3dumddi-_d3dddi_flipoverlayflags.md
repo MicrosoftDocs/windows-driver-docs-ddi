@@ -6,6 +6,7 @@ old-location: display\d3dddi_flipoverlayflags.htm
 tech.root: display
 ms.assetid: 09146e6b-3ac0-422a-addb-831394a15c08
 ms.date: 05/10/2018
+keywords: ["_D3DDDI_FLIPOVERLAYFLAGS structure"]
 ms.keywords: D3DDDI_FLIPOVERLAYFLAGS, D3DDDI_FLIPOVERLAYFLAGS structure [Display Devices], D3D_other_Structs_a62b399d-d553-4325-9f5a-ceb08287d4f4.xml, _D3DDDI_FLIPOVERLAYFLAGS, d3dumddi/D3DDDI_FLIPOVERLAYFLAGS, display.d3dddi_flipoverlayflags
 f1_keywords:
  - "d3dumddi/D3DDDI_FLIPOVERLAYFLAGS"

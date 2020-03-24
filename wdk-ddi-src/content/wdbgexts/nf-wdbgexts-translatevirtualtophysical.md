@@ -6,6 +6,7 @@ old-location: debugger\translatevirtualtophysical.htm
 tech.root: debugger
 ms.assetid: 803f766a-e02f-4b9c-bfe0-6197e0f2855c
 ms.date: 05/03/2018
+keywords: ["TranslateVirtualToPhysical function"]
 ms.keywords: TranslateVirtualToPhysical, TranslateVirtualToPhysical function [Windows Debugging], WdbgExts_Ref_ec3ff314-8800-4f77-a40e-e127e6cf0133.xml, debugger.translatevirtualtophysical, wdbgexts/TranslateVirtualToPhysical
 f1_keywords:
  - "wdbgexts/TranslateVirtualToPhysical"

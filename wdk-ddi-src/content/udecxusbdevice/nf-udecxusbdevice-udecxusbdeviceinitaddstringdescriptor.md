@@ -6,6 +6,7 @@ old-location: buses\udecxusbdeviceinitaddstringdescriptor.htm
 tech.root: usbref
 ms.assetid: 05971A19-4B66-41F6-9043-DA9C81FA92E5
 ms.date: 05/07/2018
+keywords: ["UdecxUsbDeviceInitAddStringDescriptor function"]
 ms.keywords: UdecxUsbDeviceInitAddStringDescriptor, UdecxUsbDeviceInitAddStringDescriptor function [Buses], buses.udecxusbdeviceinitaddstringdescriptor, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptor
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptor"

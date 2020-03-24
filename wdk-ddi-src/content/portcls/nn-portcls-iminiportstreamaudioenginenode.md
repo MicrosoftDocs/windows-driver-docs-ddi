@@ -6,6 +6,7 @@ old-location: audio\iminiportstreamaudioenginenode.htm
 tech.root: audio
 ms.assetid: B3F7D3AC-C756-47D2-9E7C-7930621753C3
 ms.date: 05/08/2018
+keywords: ["IMiniportStreamAudioEngineNode interface"]
 ms.keywords: IMiniportStreamAudioEngineNode, IMiniportStreamAudioEngineNode interface [Audio Devices], IMiniportStreamAudioEngineNode interface [Audio Devices],described, audio.iminiportstreamaudioenginenode, portcls/IMiniportStreamAudioEngineNode
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode"

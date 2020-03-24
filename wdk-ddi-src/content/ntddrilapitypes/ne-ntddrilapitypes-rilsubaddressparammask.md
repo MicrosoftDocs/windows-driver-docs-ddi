@@ -6,6 +6,7 @@ old-location: netvista\rilsubaddressparammask.htm
 tech.root: netvista
 ms.assetid: 12684719-f263-4909-bcb7-b75381cc7e43
 ms.date: 05/02/2018
+keywords: ["RILSUBADDRESSPARAMMASK enumeration"]
 ms.keywords: RILSUBADDRESSPARAMMASK, RILSUBADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SA_ALL, RIL_PARAM_SA_SUBADDRESS, netvista.rilsubaddressparammask, ntddrilapitypes/RILSUBADDRESSPARAMMASK, ntddrilapitypes/RIL_PARAM_SA_ALL, ntddrilapitypes/RIL_PARAM_SA_SUBADDRESS
 f1_keywords:
  - "ntddrilapitypes/RILSUBADDRESSPARAMMASK"

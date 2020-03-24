@@ -6,6 +6,7 @@ old-location: buses\ioctl_usb_get_node_connection_name.htm
 tech.root: usbref
 ms.assetid: c4374b79-5143-4a35-aa4f-07fee7ea4fd3
 ms.date: 05/07/2018
+keywords: ["IOCTL_USB_GET_NODE_CONNECTION_NAME IOCTL"]
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_NAME, IOCTL_USB_GET_NODE_CONNECTION_NAME control, IOCTL_USB_GET_NODE_CONNECTION_NAME control code [Buses], buses.ioctl_usb_get_node_connection_name, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_NAME, usbirp_d571c9e6-0caf-4746-bd69-b55fa6a3a407.xml
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_NODE_CONNECTION_NAME"

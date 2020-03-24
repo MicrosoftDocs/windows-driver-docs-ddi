@@ -6,6 +6,7 @@ old-location: sd\sdbussubmitrequest.htm
 tech.root: SD
 ms.assetid: 8f794681-afa9-474b-a3b9-bc7c21c7c423
 ms.date: 02/15/2018
+keywords: ["SdBusSubmitRequest function"]
 ms.keywords: SD.sdbussubmitrequest, SdBusSubmitRequest, SdBusSubmitRequest function [Buses], ntddsd/SdBusSubmitRequest, sd-rtns_2709a5bb-0cc9-42b0-9fd1-2b8206a383d5.xml
 f1_keywords:
  - "ntddsd/SdBusSubmitRequest"

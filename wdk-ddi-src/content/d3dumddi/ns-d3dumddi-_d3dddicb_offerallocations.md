@@ -6,6 +6,7 @@ old-location: display\d3dddicb_offerallocations.htm
 tech.root: display
 ms.assetid: 26f3cd7b-ae2e-4632-bfb2-e62839346f83
 ms.date: 05/10/2018
+keywords: ["_D3DDDICB_OFFERALLOCATIONS structure"]
 ms.keywords: D3DDDICB_OFFERALLOCATIONS, D3DDDICB_OFFERALLOCATIONS structure [Display Devices], _D3DDDICB_OFFERALLOCATIONS, d3dumddi/D3DDDICB_OFFERALLOCATIONS, display.d3dddicb_offerallocations
 f1_keywords:
  - "d3dumddi/D3DDDICB_OFFERALLOCATIONS"

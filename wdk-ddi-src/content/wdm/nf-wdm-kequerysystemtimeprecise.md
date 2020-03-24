@@ -6,6 +6,7 @@ old-location: kernel\kequerysystemtimeprecise.htm
 tech.root: kernel
 ms.assetid: 4f5df2b5-e896-4519-aec9-5699155bb142
 ms.date: 04/30/2018
+keywords: ["KeQuerySystemTimePrecise function"]
 ms.keywords: KeQuerySystemTimePrecise, KeQuerySystemTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequerysystemtimeprecise, wdm/KeQuerySystemTimePrecise
 f1_keywords:
  - "wdm/KeQuerySystemTimePrecise"

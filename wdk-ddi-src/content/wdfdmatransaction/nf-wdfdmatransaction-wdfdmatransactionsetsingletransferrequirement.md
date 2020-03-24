@@ -6,6 +6,7 @@ old-location: wdf\wdfdmatransactionsetsingletransferrequirement.htm
 tech.root: wdf
 ms.assetid: 988c7e70-3b2a-4a0f-91cf-dfab3ea07f05
 ms.date: 02/26/2018
+keywords: ["WdfDmaTransactionSetSingleTransferRequirement function"]
 ms.keywords: WdfDmaTransactionSetSingleTransferRequirement, WdfDmaTransactionSetSingleTransferRequirement method, wdf.wdfdmatransactionsetsingletransferrequirement, wdfdmatransaction/WdfDmaTransactionSetSingleTransferRequirement
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionSetSingleTransferRequirement"

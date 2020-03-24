@@ -6,6 +6,7 @@ old-location: ifsk\fltcopyopenreparselist.htm
 tech.root: ifsk
 ms.assetid: 07C39363-559A-4B55-850E-052BA78E869D
 ms.date: 04/16/2018
+keywords: ["FltCopyOpenReparseList function"]
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltCopyOpenReparseList, fltkernel/FltAddOpenReparseEntry, ifsk.fltcopyopenreparselist
 f1_keywords:
  - "fltkernel/FltAddOpenReparseEntry"

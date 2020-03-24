@@ -6,6 +6,7 @@ old-location: debugger\writeiospaceex64.htm
 tech.root: debugger
 ms.assetid: 4fc874ab-b31d-41ae-baeb-18819c4e3970
 ms.date: 05/03/2018
+keywords: ["WriteIoSpaceEx64 function"]
 ms.keywords: WdbgExts_Ref_378f5c2e-fcbc-4401-8527-f6e98bfa6257.xml, WriteIoSpaceEx64, WriteIoSpaceEx64 function [Windows Debugging], debugger.writeiospaceex64, wdbgexts/WriteIoSpaceEx64
 f1_keywords:
  - "wdbgexts/WriteIoSpaceEx64"

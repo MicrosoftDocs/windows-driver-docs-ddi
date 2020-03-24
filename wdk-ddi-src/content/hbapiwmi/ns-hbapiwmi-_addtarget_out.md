@@ -6,6 +6,7 @@ old-location: storage\addtarget_out.htm
 tech.root: storage
 ms.assetid: 1e0f19df-1705-4a70-a47c-0569907330a4
 ms.date: 03/29/2018
+keywords: ["_AddTarget_OUT structure"]
 ms.keywords: "*PAddTarget_OUT, AddTarget_OUT, AddTarget_OUT structure [Storage Devices], PAddTarget_OUT, PAddTarget_OUT structure pointer [Storage Devices], _AddTarget_OUT, hbapiwmi/AddTarget_OUT, hbapiwmi/PAddTarget_OUT, storage.addtarget_out, structs-Fibre_b3dd963b-2fd1-4fbe-bfe3-b363a95f1a51.xml"
 f1_keywords:
  - "hbapiwmi/AddTarget_OUT"

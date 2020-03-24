@@ -6,6 +6,7 @@ old-location: kernel\pofxregisterdevice.htm
 tech.root: kernel
 ms.assetid: 41A8B278-3735-41CB-B8D1-45FBF04465AD
 ms.date: 04/30/2018
+keywords: ["PoFxRegisterDevice function"]
 ms.keywords: PoFxRegisterDevice, PoFxRegisterDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregisterdevice, wdm/PoFxRegisterDevice
 f1_keywords:
  - "wdm/PoFxRegisterDevice"

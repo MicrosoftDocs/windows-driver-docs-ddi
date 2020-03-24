@@ -6,6 +6,7 @@ old-location: netvista\rilgbatoken.htm
 tech.root: netvista
 ms.assetid: f842d945-1d1e-4f0b-9cc9-82a8401c170a
 ms.date: 05/02/2018
+keywords: ["RILGBATOKEN structure"]
 ms.keywords: "*LPRILGBATOKEN, LPRILGBATOKEN, LPRILGBATOKEN structure pointer [Network Drivers Starting with Windows Vista], RILGBATOKEN, RILGBATOKEN structure [Network Drivers Starting with Windows Vista], netvista.rilgbatoken, oemrilapitypes/LPRILGBATOKEN, oemrilapitypes/RILGBATOKEN"
 f1_keywords:
  - "oemrilapitypes/RILGBATOKEN"

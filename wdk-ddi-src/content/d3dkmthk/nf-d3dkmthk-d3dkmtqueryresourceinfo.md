@@ -5,6 +5,7 @@ description: The D3DKMTQueryResourceInfo function retrieves information about a 
 old-location: display\d3dkmtqueryresourceinfo.htm
 ms.assetid: d195634e-d626-43c9-8212-f32b95c1f526
 ms.date: 05/10/2018
+keywords: ["D3DKMTQueryResourceInfo function"]
 ms.keywords: D3DKMTQueryResourceInfo, D3DKMTQueryResourceInfo function [Display Devices], OpenGL_Functions_77dad2ba-a352-4b1a-b2be-53c41589bf90.xml, d3dkmthk/D3DKMTQueryResourceInfo, display.d3dkmtqueryresourceinfo
 f1_keywords:
  - "d3dkmthk/D3DKMTQueryResourceInfo"

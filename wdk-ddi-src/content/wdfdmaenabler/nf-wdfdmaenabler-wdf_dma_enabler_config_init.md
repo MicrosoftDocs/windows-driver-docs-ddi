@@ -6,6 +6,7 @@ old-location: wdf\wdf_dma_enabler_config_init.htm
 tech.root: wdf
 ms.assetid: b01efb50-a3b2-4ffd-83e6-daa0ebbc6484
 ms.date: 02/26/2018
+keywords: ["WDF_DMA_ENABLER_CONFIG_INIT function"]
 ms.keywords: DFDmaObjectRef_2d577e59-2038-4850-a67c-6e7f3b795387.xml, WDF_DMA_ENABLER_CONFIG_INIT, WDF_DMA_ENABLER_CONFIG_INIT function, kmdf.wdf_dma_enabler_config_init, wdf.wdf_dma_enabler_config_init, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_INIT
 f1_keywords:
  - "wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_INIT"

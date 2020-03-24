@@ -6,6 +6,7 @@ old-location: stream\iksallocatorex.htm
 tech.root: stream
 ms.assetid: 42abaf2b-8ee9-450e-aef3-fa29d1b558e5
 ms.date: 04/23/2018
+keywords: ["IKsAllocatorEx interface"]
 ms.keywords: IKsAllocatorEx, IKsAllocatorEx interface [Streaming Media Devices], IKsAllocatorEx interface [Streaming Media Devices],described, ksproxy/IKsAllocatorEx, ksproxy_58c9c83a-1a11-4e08-bf7f-e0694bf2eda5.xml, stream.iksallocatorex
 f1_keywords:
  - "ksproxy/IKsAllocatorEx"

@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlincrementccfastmdlreadwait.htm
 tech.root: ifsk
 ms.assetid: a3a811dc-1dbf-4656-b7ec-bad818f6d1f1
 ms.date: 04/16/2018
+keywords: ["FsRtlIncrementCcFastMdlReadWait function"]
 ms.keywords: FsRtlIncrementCcFastMdlReadWait, FsRtlIncrementCcFastMdlReadWait routine [Installable File System Drivers], fsrtlref_6ab13976-a131-41bf-970c-f2a554d87d92.xml, ifsk.fsrtlincrementccfastmdlreadwait, ntifs/FsRtlIncrementCcFastMdlReadWait
 f1_keywords:
  - "ntifs/FsRtlIncrementCcFastMdlReadWait"

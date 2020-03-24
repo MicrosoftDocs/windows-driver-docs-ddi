@@ -6,6 +6,7 @@ old-location: buses\ucmtcpciportcontrollerstart.htm
 tech.root: usbref
 ms.assetid: 94e7c36a-e45c-4d98-aeb7-f23769347ca5
 ms.date: 05/07/2018
+keywords: ["UcmTcpciPortControllerStart function"]
 ms.keywords: UcmTcpciPortControllerStart, UcmTcpciPortControllerStart method [Buses], buses.ucmtcpciportcontrollerstart, ucmtcpciportcontroller/UcmTcpciPortControllerStart
 f1_keywords:
  - "ucmtcpciportcontroller/UcmTcpciPortControllerStart"

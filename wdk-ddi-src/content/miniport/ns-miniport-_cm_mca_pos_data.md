@@ -6,6 +6,7 @@ old-location: kernel\cm_mca_pos_data.htm
 tech.root: kernel
 ms.assetid: 2b14eef2-dac4-48c8-b2a2-96bf085171aa
 ms.date: 04/30/2018
+keywords: ["_CM_MCA_POS_DATA structure"]
 ms.keywords: "*PCM_MCA_POS_DATA, CM_MCA_POS_DATA, CM_MCA_POS_DATA structure [Kernel-Mode Driver Architecture], PCM_MCA_POS_DATA, PCM_MCA_POS_DATA structure pointer [Kernel-Mode Driver Architecture], _CM_MCA_POS_DATA, kernel.cm_mca_pos_data, kstruct_a_a0edcef2-abf9-4660-8f40-76a2f8ff1193.xml, wdm/CM_MCA_POS_DATA, wdm/PCM_MCA_POS_DATA"
 f1_keywords:
  - "miniport/CM_MCA_POS_DATA"

@@ -5,6 +5,7 @@ description: The SoSetTargets function sets stream output target resources.
 old-location: display\sosettargets.htm
 ms.assetid: 96f1c439-7323-456e-8c9c-793d8e0973d9
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_SO_SETTARGETS callback function"]
 ms.keywords: PFND3D10DDI_SO_SETTARGETS, PFND3D10DDI_SO_SETTARGETS callback, SoSetTargets, SoSetTargets callback function [Display Devices], UserModeDisplayDriverDx10_Functions_02cc8776-273f-4442-93da-34c2df9746ee.xml, d3d10umddi/SoSetTargets, display.sosettargets
 f1_keywords:
  - "d3d10umddi/SoSetTargets"

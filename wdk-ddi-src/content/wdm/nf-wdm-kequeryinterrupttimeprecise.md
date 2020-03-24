@@ -6,6 +6,7 @@ old-location: kernel\kequeryinterrupttimeprecise.htm
 tech.root: kernel
 ms.assetid: CCA03E61-6FEF-42BC-9407-A02432C50542
 ms.date: 04/30/2018
+keywords: ["KeQueryInterruptTimePrecise function"]
 ms.keywords: KeQueryInterruptTimePrecise, KeQueryInterruptTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequeryinterrupttimeprecise, wdm/KeQueryInterruptTimePrecise
 f1_keywords:
  - "wdm/KeQueryInterruptTimePrecise"

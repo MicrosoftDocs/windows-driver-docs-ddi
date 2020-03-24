@@ -6,6 +6,7 @@ old-location: kernel\rtlunicodestringcat.htm
 tech.root: kernel
 ms.assetid: 15b9ff74-5ca7-4459-af02-b6dc7cd201bf
 ms.date: 04/30/2018
+keywords: ["RtlUnicodeStringCat function"]
 ms.keywords: RtlUnicodeStringCat, RtlUnicodeStringCat function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcat, ntstrsafe/RtlUnicodeStringCat, safestrings_5d3ef5c7-f2cd-4de8-a043-5474c803183c.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringCat"

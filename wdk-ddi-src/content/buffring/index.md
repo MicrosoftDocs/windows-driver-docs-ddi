@@ -3,6 +3,7 @@ UID: NA:buffring
 title: Buffring.h header
 ms.assetid: b6808d44-1971-3a86-9707-48bf1276b802
 ms.date: 05/09/2018
+keywords: ["Buffring.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

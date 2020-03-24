@@ -5,6 +5,7 @@ description: The D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure desc
 old-location: display\d3d11ddiarg_creategeometryshaderwithstreamoutput.htm
 ms.assetid: 07ad9fdb-16f0-4752-9b35-e69d6a7b8815
 ms.date: 05/10/2018
+keywords: ["D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure"]
 ms.keywords: D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT structure [Display Devices], UMDisplayDriver_Dx11param_Structs_6b81cccd-92f9-4135-8bcc-d523b514c45c.xml, d3d10umddi/D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, display.d3d11ddiarg_creategeometryshaderwithstreamoutput
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT"

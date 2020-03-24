@@ -6,6 +6,7 @@ old-location: debugger\getsymbolvaluetext.htm
 tech.root: debugger
 ms.assetid: 587b8769-86b6-48bd-b238-84aeb5611668
 ms.date: 05/03/2018
+keywords: ["IDebugSymbolGroup2::GetSymbolValueText"]
 ms.keywords: ComOther_2a064ea0-63f4-441f-a79c-e6fc1e9688c7.xml, GetSymbolValueText, GetSymbolValueText method [Windows Debugging], GetSymbolValueText method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolValueText method, IDebugSymbolGroup2.GetSymbolValueText, IDebugSymbolGroup2::GetSymbolValueText, dbgeng/IDebugSymbolGroup2::GetSymbolValueText, debugger.getsymbolvaluetext
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.GetSymbolValueText"

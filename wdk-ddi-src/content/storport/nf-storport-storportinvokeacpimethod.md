@@ -6,6 +6,7 @@ old-location: storage\storportinvokeacpimethod.htm
 tech.root: storage
 ms.assetid: 2A8EF694-B699-46A0-9B1D-B7D0831F3944
 ms.date: 03/29/2018
+keywords: ["StorPortInvokeAcpiMethod function"]
 ms.keywords: StorPortInvokeAcpiMethod, StorPortInvokeAcpiMethod routine [Storage Devices], storage.storportinvokeacpimethod, storport/StorPortInvokeAcpiMethod
 f1_keywords:
  - "storport/StorPortInvokeAcpiMethod"

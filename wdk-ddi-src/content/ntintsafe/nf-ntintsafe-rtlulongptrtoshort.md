@@ -6,6 +6,7 @@ old-location: kernel\rtlulongptrtoshort.htm
 tech.root: kernel
 ms.assetid: 37C4A2B0-6FB4-431D-8FB2-0B13EE1F00F1
 ms.date: 04/30/2018
+keywords: ["RtlULongPtrToShort function"]
 ms.keywords: RtlULongPtrToShort, RtlULongPtrToShort function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtoshort, ntintsafe/RtlULongPtrToShort
 f1_keywords:
  - "ntintsafe/RtlULongPtrToShort"

@@ -6,6 +6,7 @@ old-location: kernel\csqinsertirpex.htm
 tech.root: kernel
 ms.assetid: 1e407bcc-0a2b-42fa-982d-8ab0f12f082b
 ms.date: 04/30/2018
+keywords: ["IO_CSQ_INSERT_IRP_EX callback function"]
 ms.keywords: CsqInsertIrpEx, CsqInsertIrpEx routine [Kernel-Mode Driver Architecture], DrvrRtns_8914d2b4-6049-4d81-8f5f-4458b8bff2ed.xml, IO_CSQ_INSERT_IRP_EX, kernel.csqinsertirpex, wdm/CsqInsertIrpEx
 f1_keywords:
  - "wdm/CsqInsertIrpEx"

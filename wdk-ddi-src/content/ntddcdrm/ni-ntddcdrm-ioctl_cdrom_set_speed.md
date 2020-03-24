@@ -6,6 +6,7 @@ old-location: storage\ioctl_cdrom_set_speed.htm
 tech.root: storage
 ms.assetid: 14acc5f4-1346-4da4-b692-01396cff776e
 ms.date: 03/29/2018
+keywords: ["IOCTL_CDROM_SET_SPEED IOCTL"]
 ms.keywords: IOCTL_CDROM_SET_SPEED, IOCTL_CDROM_SET_SPEED control, IOCTL_CDROM_SET_SPEED control code [Storage Devices], k307_df26ae09-2af1-4290-812a-b0f279112d97.xml, ntddcdrm/IOCTL_CDROM_SET_SPEED, storage.ioctl_cdrom_set_speed
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_SET_SPEED"

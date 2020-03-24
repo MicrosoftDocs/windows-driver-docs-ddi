@@ -6,6 +6,7 @@ old-location: print\wcsgetdefaultcolorprofile.htm
 tech.root: print
 ms.assetid: a5ace7f3-dc61-4799-b129-3c25c392ebf6
 ms.date: 08/20/2018
+keywords: ["WcsGetDefaultColorProfile function"]
 ms.keywords: WcsGetDefaultColorProfile, WcsGetDefaultColorProfile function [Print Devices], colorfnc_c7de4cff-ebfb-4392-a2a2-1229a6b08aa1.xml, icm/WcsGetDefaultColorProfile, print.wcsgetdefaultcolorprofile
 ms.topic: function
 req.header: icm.h

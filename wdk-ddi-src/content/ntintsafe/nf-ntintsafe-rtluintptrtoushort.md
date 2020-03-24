@@ -6,6 +6,7 @@ old-location: kernel\rtluintptrtoushort.htm
 tech.root: kernel
 ms.assetid: 7C65771B-B60E-459F-AB71-1091B45C5A1A
 ms.date: 04/30/2018
+keywords: ["RtlUIntPtrToUShort function"]
 ms.keywords: RtlUIntPtrToUShort, RtlUIntPtrToUShort function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoushort, ntintsafe/RtlUIntPtrToUShort
 f1_keywords:
  - "ntintsafe/RtlUIntPtrToUShort"

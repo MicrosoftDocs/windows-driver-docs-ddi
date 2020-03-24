@@ -6,6 +6,7 @@ old-location: audio\iportclsnotifications.htm
 tech.root: audio
 ms.assetid: 03F65E4E-C942-4748-8D3E-938A6AC51B2A
 ms.date: 05/08/2018
+keywords: ["IPortClsNotifications interface"]
 ms.keywords: IPortClsNotifications, IPortClsNotifications interface [Audio Devices], IPortClsNotifications interface [Audio Devices],described, audio.iportclsnotifications, portcls/IPortClsNotifications
 f1_keywords:
  - "portcls/IPortClsNotifications"

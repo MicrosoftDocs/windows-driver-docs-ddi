@@ -6,6 +6,7 @@ old-location: image\istidevicecontrol_rawdevicecontrol.htm
 tech.root: image
 ms.assetid: 107C7EB4-9C72-49CF-A330-7D517CC67F35
 ms.date: 05/03/2018
+keywords: ["IStiDeviceControl::RawDeviceControl"]
 ms.keywords: IStiDeviceControl interface [Imaging Devices],RawDeviceControl method, IStiDeviceControl.RawDeviceControl, IStiDeviceControl::RawDeviceControl, RawDeviceControl, RawDeviceControl method [Imaging Devices], RawDeviceControl method [Imaging Devices],IStiDeviceControl interface, image.istidevicecontrol_rawdevicecontrol, stiusd/IStiDeviceControl::RawDeviceControl
 f1_keywords:
  - "stiusd/IStiDeviceControl.RawDeviceControl"

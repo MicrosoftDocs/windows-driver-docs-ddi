@@ -6,6 +6,7 @@ old-location: wdf\evtwmiinstancesetinstance.htm
 tech.root: wdf
 ms.assetid: defd33c5-90ae-40c9-9123-7c3de2c77f35
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_WMI_INSTANCE_SET_INSTANCE callback function"]
 ms.keywords: DFWMIRef_28837d36-7a7e-4468-adbc-826bf4c75ef0.xml, EVT_WDF_WMI_INSTANCE_SET_INSTANCE, EVT_WDF_WMI_INSTANCE_SET_INSTANCE callback, EvtWmiInstanceSetInstance, EvtWmiInstanceSetInstance callback function, kmdf.evtwmiinstancesetinstance, wdf.evtwmiinstancesetinstance, wdfwmi/EvtWmiInstanceSetInstance
 f1_keywords:
  - "wdfwmi/EvtWmiInstanceSetInstance"

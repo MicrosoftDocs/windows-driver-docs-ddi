@@ -6,6 +6,7 @@ old-location: audio\synth_buffer.htm
 tech.root: audio
 ms.assetid: 51b16308-47a8-42e0-9393-fd93045e4e47
 ms.date: 05/08/2018
+keywords: ["_SYNTH_BUFFER structure"]
 ms.keywords: "*PSYNTH_BUFFER, PSYNTH_BUFFER, PSYNTH_BUFFER structure pointer [Audio Devices], SYNTH_BUFFER, SYNTH_BUFFER structure [Audio Devices], _SYNTH_BUFFER, aud-prop_297e165a-cb0d-4ea1-b69c-b65bcb4ee69a.xml, audio.synth_buffer, dmusprop/PSYNTH_BUFFER, dmusprop/SYNTH_BUFFER"
 f1_keywords:
  - "dmusprop/SYNTH_BUFFER"

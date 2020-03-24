@@ -6,6 +6,7 @@ old-location: kernel\rtlunicodestringcbcopynex.htm
 tech.root: kernel
 ms.assetid: 08b2e13c-bbd6-4344-83cb-3bb911c5da70
 ms.date: 04/30/2018
+keywords: ["RtlUnicodeStringCbCopyNEx function"]
 ms.keywords: RtlUnicodeStringCbCopyNEx, RtlUnicodeStringCbCopyNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcopynex, ntstrsafe/RtlUnicodeStringCbCopyNEx, safestrings_d890ac48-9708-4149-a023-cc5198393084.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringCbCopyNEx"

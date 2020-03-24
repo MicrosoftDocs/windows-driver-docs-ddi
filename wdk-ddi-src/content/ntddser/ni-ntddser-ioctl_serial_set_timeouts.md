@@ -6,6 +6,7 @@ old-location: serports\ioctl_serial_set_timeouts.htm
 tech.root: serports
 ms.assetid: c73627e1-12fc-465d-9ed9-d241a1c0db8e
 ms.date: 04/23/2018
+keywords: ["IOCTL_SERIAL_SET_TIMEOUTS IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_TIMEOUTS, IOCTL_SERIAL_SET_TIMEOUTS control, IOCTL_SERIAL_SET_TIMEOUTS control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_TIMEOUTS, serports.ioctl_serial_set_timeouts, serref_5aac4101-9b7e-4bff-a61c-108ef9cb76f3.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_TIMEOUTS"

@@ -6,6 +6,7 @@ old-location: ifsk\ioqueryvolumeinformation.htm
 tech.root: ifsk
 ms.assetid: f8226351-4a40-4c71-9ab4-4609ae7e0470
 ms.date: 04/16/2018
+keywords: ["IoQueryVolumeInformation function"]
 ms.keywords: IoQueryVolumeInformation, IoQueryVolumeInformation function [Installable File System Drivers], ifsk.ioqueryvolumeinformation, ioref_c048e59e-2f1e-4327-9f7f-b18e9a8e5724.xml, ntifs/IoQueryVolumeInformation
 f1_keywords:
  - "ntifs/IoQueryVolumeInformation"

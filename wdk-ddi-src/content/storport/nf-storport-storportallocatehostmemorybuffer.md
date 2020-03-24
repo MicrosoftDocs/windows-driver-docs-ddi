@@ -6,6 +6,7 @@ old-location: storage\storportallocatehostmemorybuffer.htm
 tech.root: storage
 ms.assetid: B8413B02-32A6-40AE-9DD2-C25AD2D2D45C
 ms.date: 03/29/2018
+keywords: ["StorPortAllocateHostMemoryBuffer function"]
 ms.keywords: StorPortAllocateHostMemoryBuffer, StorPortAllocateHostMemoryBuffer routine [Storage Devices], storage.storportallocatehostmemorybuffer, storport/StorPortAllocateHostMemoryBuffer
 f1_keywords:
  - "storport/StorPortAllocateHostMemoryBuffer"

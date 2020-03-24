@@ -6,6 +6,7 @@ old-location: netvista\riluiccrecordstatus_2.htm
 tech.root: netvista
 ms.assetid: 5f6ff5b1-cd13-4bf6-b4ef-e9b6f4fd54e0
 ms.date: 02/26/2018
+keywords: ["RILUICCRECORDSTATUS structure"]
 ms.keywords: "*LPRILUICCRECORDSTATUS, RILUICCRECORDSTATUS, RILUICCRECORDSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccrecordstatus_2, rilapitypes/RILUICCRECORDSTATUS"
 f1_keywords:
  - "rilapitypes/RILUICCRECORDSTATUS"

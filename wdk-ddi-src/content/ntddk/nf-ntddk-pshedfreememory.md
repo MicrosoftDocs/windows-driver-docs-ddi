@@ -6,6 +6,7 @@ old-location: whea\pshedfreememory.htm
 tech.root: whea
 ms.assetid: e0784b46-9929-480c-88d0-9983d80fd753
 ms.date: 02/20/2018
+keywords: ["PshedFreeMemory function"]
 ms.keywords: PshedFreeMemory, PshedFreeMemory function [WHEA Drivers and Applications], ntddk/PshedFreeMemory, whea.pshedfreememory, whearef_e17812c6-f817-490d-b1f7-bf5fa16d769b.xml
 f1_keywords:
  - "ntddk/PshedFreeMemory"

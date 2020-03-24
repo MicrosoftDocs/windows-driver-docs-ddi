@@ -6,6 +6,7 @@ old-location: audio\iportwavecyclic.htm
 tech.root: audio
 ms.assetid: de241c4c-2012-4d57-b069-d169b1e0aec3
 ms.date: 05/08/2018
+keywords: ["IPortWaveCyclic interface"]
 ms.keywords: IPortWaveCyclic, IPortWaveCyclic interface [Audio Devices], IPortWaveCyclic interface [Audio Devices],described, audio.iportwavecyclic, audmp-routines_079bd398-d9f2-4a35-9ee0-6ced8fecdeb4.xml, portcls/IPortWaveCyclic
 f1_keywords:
  - "portcls/IPortWaveCyclic"

@@ -4,6 +4,7 @@ title: IModelKeyReference::GetKey (dbgmodel.h)
 description: The GetKey method on a key reference behaves as the GetKey method on IModelObject would.
 ms.assetid: b5aa7480-e169-4b85-b20f-f90711d39fa4
 ms.date: 08/14/2018
+keywords: ["IModelKeyReference::GetKey"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference.GetKey"
 ms.keywords: IModelKeyReference::GetKey, GetKey, IModelKeyReference.GetKey, IModelKeyReference::GetKey, IModelKeyReference.GetKey

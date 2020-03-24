@@ -4,6 +4,7 @@ title: EntropyUnregisterSource function (systemrng.h)
 description: 
 ms.assetid: f1574fd7-3511-40cb-a4dd-5fdc8adb6f61
 ms.date: 10/19/2018
+keywords: ["EntropyUnregisterSource function"]
 f1_keywords:
  - "systemrng/EntropyUnregisterSource"
 ms.keywords: EntropyUnregisterSource

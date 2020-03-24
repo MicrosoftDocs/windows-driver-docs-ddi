@@ -6,6 +6,7 @@ old-location: pci\sriov_read_config.htm
 tech.root: PCI
 ms.assetid: 0fef9d53-b8af-4c9b-9914-982bcfc26517
 ms.date: 02/24/2018
+keywords: ["SRIOV_READ_CONFIG callback"]
 ms.keywords: "*PSRIOV_READ_CONFIG, *PSRIOV_READ_CONFIG callback function [Buses], PCI.sriov_read_config, SRIOV_READ_CONFIG, SRIOV_READ_CONFIG callback function [Buses], pcivirt/SRIOV_READ_CONFIG"
 f1_keywords:
  - "pcivirt/*PSRIOV_READ_CONFIG"

@@ -6,6 +6,7 @@ old-location: nfpdrivers\ioctl_smartcard_set_protocol.htm
 tech.root: nfpdrivers
 ms.assetid: 9A54D427-128F-41C1-B6BD-EE09B0402C32
 ms.date: 02/15/2018
+keywords: ["IOCTL_SMARTCARD_SET_PROTOCOL IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_SET_PROTOCOL, IOCTL_SMARTCARD_SET_PROTOCOL control, IOCTL_SMARTCARD_SET_PROTOCOL control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_set_protocol, winsmcrd/IOCTL_SMARTCARD_SET_PROTOCOL
 f1_keywords:
  - "winsmcrd/IOCTL_SMARTCARD_SET_PROTOCOL"

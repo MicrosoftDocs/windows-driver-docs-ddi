@@ -6,6 +6,7 @@ old-location: storage\ioctl_ehstor_bandmgmt_enumerate_bands.htm
 tech.root: storage
 ms.assetid: 80F7546C-3683-460B-A0D9-AD41386E6195
 ms.date: 03/29/2018
+keywords: ["IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS control, IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, storage.ioctl_ehstor_bandmgmt_enumerate_bands
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS"

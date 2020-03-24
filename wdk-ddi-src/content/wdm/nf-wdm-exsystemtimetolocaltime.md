@@ -6,6 +6,7 @@ old-location: kernel\exsystemtimetolocaltime.htm
 tech.root: kernel
 ms.assetid: d77ce60e-7b23-4f60-af63-d613ceba281e
 ms.date: 04/30/2018
+keywords: ["ExSystemTimeToLocalTime function"]
 ms.keywords: ExSystemTimeToLocalTime, ExSystemTimeToLocalTime routine [Kernel-Mode Driver Architecture], k102_9cf20274-70ae-41f6-b56f-2dc8aa7fd0e3.xml, kernel.exsystemtimetolocaltime, wdm/ExSystemTimeToLocalTime
 f1_keywords:
  - "wdm/ExSystemTimeToLocalTime"

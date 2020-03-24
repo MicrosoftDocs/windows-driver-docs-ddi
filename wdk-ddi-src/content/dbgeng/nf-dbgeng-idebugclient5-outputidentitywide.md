@@ -6,6 +6,7 @@ old-location: debugger\outputidentitywide.htm
 tech.root: debugger
 ms.assetid: e8f91713-ea1d-4262-bc0b-dd4e39d1c2c3
 ms.date: 05/03/2018
+keywords: ["IDebugClient5::OutputIdentityWide"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],OutputIdentityWide method, IDebugClient5.OutputIdentityWide, IDebugClient5::OutputIdentityWide, OutputIdentityWide, OutputIdentityWide method [Windows Debugging], OutputIdentityWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::OutputIdentityWide, debugger.outputidentitywide
 f1_keywords:
  - "dbgeng/IDebugClient5.OutputIdentityWide"

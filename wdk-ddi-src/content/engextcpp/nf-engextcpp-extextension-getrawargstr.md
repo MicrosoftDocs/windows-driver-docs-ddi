@@ -6,6 +6,7 @@ old-location: debugger\getrawargstr.htm
 tech.root: debugger
 ms.assetid: 677b56ee-3758-4f47-9f8e-fc8878d00136
 ms.date: 05/03/2018
+keywords: ["ExtExtension::GetRawArgStr"]
 ms.keywords: EngExtCpp_Ref_1072b281-ece3-4641-93e8-60866c1e3ef4.xml, ExtExtension class [Windows Debugging],GetRawArgStr method, ExtExtension.GetRawArgStr, ExtExtension::GetRawArgStr, GetRawArgStr, GetRawArgStr method [Windows Debugging], GetRawArgStr method [Windows Debugging],ExtExtension class, debugger.getrawargstr
 f1_keywords:
  - "engextcpp/ExtExtension.GetRawArgStr"

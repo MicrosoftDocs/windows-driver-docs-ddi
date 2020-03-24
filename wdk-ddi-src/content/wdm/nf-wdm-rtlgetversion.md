@@ -6,6 +6,7 @@ old-location: kernel\rtlgetversion.htm
 tech.root: kernel
 ms.assetid: b6e6fbc0-a35b-4086-9d7a-98dab516a816
 ms.date: 04/30/2018
+keywords: ["RtlGetVersion function"]
 ms.keywords: RtlGetVersion, RtlGetVersion routine [Kernel-Mode Driver Architecture], k109_7e44c42c-d5c6-4727-b529-7e55b308fddd.xml, kernel.rtlgetversion, wdm/RtlGetVersion
 f1_keywords:
  - "wdm/RtlGetVersion"

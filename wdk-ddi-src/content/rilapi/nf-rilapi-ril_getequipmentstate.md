@@ -6,6 +6,7 @@ old-location: netvista\ril_getequipmentstate.htm
 tech.root: netvista
 ms.assetid: cf7f1572-b967-4aaf-8705-99ede231484a
 ms.date: 05/02/2018
+keywords: ["RIL_GetEquipmentState function"]
 ms.keywords: RIL_GetEquipmentState, RIL_GetEquipmentState method [Network Drivers Starting with Windows Vista], netvista.ril_getequipmentstate, rilapi/RIL_GetEquipmentState
 f1_keywords:
  - "rilapi/RIL_GetEquipmentState"

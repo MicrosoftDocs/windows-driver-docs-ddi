@@ -6,6 +6,7 @@ old-location: kernel\write_port_ushort.htm
 tech.root: kernel
 ms.assetid: 60145cf3-62cb-4165-8536-f1546b9623dd
 ms.date: 04/30/2018
+keywords: ["WRITE_PORT_USHORT function"]
 ms.keywords: WRITE_PORT_USHORT, WRITE_PORT_USHORT routine [Kernel-Mode Driver Architecture], k103_28fd826b-359f-4111-91d0-426fb2d2a62b.xml, kernel.write_port_ushort, wdm/WRITE_PORT_USHORT
 f1_keywords:
  - "miniport/WRITE_PORT_USHORT"

@@ -6,6 +6,7 @@ old-location: storage\removepersistentlogin_in.htm
 tech.root: storage
 ms.assetid: 94dc7a87-83a0-419d-914c-008d797fec87
 ms.date: 03/29/2018
+keywords: ["_RemovePersistentLogin_IN structure"]
 ms.keywords: "*PRemovePersistentLogin_IN, PRemovePersistentLogin_IN, PRemovePersistentLogin_IN structure pointer [Storage Devices], RemovePersistentLogin_IN, RemovePersistentLogin_IN structure [Storage Devices], _RemovePersistentLogin_IN, iscsiop/PRemovePersistentLogin_IN, iscsiop/RemovePersistentLogin_IN, storage.removepersistentlogin_in, structs-iSCSI_4972aa6c-a6a5-4409-a714-49693f679fa2.xml"
 f1_keywords:
  - "iscsiop/RemovePersistentLogin_IN"

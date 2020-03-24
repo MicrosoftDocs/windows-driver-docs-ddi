@@ -6,6 +6,7 @@ old-location: netvista\ndisinterlockedincrement.htm
 tech.root: netvista
 ms.assetid: 246ded7a-4f75-469d-bdba-860ce3cd6b44
 ms.date: 05/02/2018
+keywords: ["NdisInterlockedIncrement macro"]
 ms.keywords: NdisInterlockedIncrement, NdisInterlockedIncrement macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedIncrement, ndis_interlocked_ref_1f82d382-098a-489c-8c9b-ea0bb34d352a.xml, netvista.ndisinterlockedincrement
 f1_keywords:
  - "ndis/NdisInterlockedIncrement"

@@ -4,6 +4,7 @@ title: D3DKMT_MIRACAST_CHUNK_DATA (d3dkmthk.h)
 description: Contains wireless display (Miracast) chunk data.
 ms.assetid: a92c33e2-4939-4800-9d6e-f10b75bbc152
 ms.date: 10/19/2018
+keywords: ["D3DKMT_MIRACAST_CHUNK_DATA structure"]
 f1_keywords:
  - "d3dkmthk/D3DKMT_MIRACAST_CHUNK_DATA"
 ms.keywords: D3DKMT_MIRACAST_CHUNK_DATA, D3DKMT_MIRACAST_CHUNK_DATA, 

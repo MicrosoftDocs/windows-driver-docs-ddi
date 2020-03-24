@@ -6,6 +6,7 @@ old-location: wpddk\iportabledevicevalues_setsignedintegervalue.htm
 tech.root: wpd_dk
 ms.assetid: f86a5e41-5040-4374-96a5-c405f68f62fe
 ms.date: 02/15/2018
+keywords: ["IPortableDeviceValues::SetSignedIntegerValue"]
 ms.keywords: IPortableDeviceValues interface,SetSignedIntegerValue method, IPortableDeviceValues.SetSignedIntegerValue, IPortableDeviceValues::SetSignedIntegerValue, IPortableDeviceValuesSetSignedIntegerValue, SetSignedIntegerValue, SetSignedIntegerValue method, SetSignedIntegerValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetSignedIntegerValue, wpddk.iportabledevicevalues_setsignedintegervalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetSignedIntegerValue"

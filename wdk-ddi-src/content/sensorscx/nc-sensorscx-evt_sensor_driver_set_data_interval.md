@@ -6,6 +6,7 @@ old-location: sensors\evtsensorsetdatainterval.htm
 tech.root: sensors
 ms.assetid: 56A1D005-C060-4C6E-8CA4-0BAC4FBADABE
 ms.date: 05/03/2018
+keywords: ["EVT_SENSOR_DRIVER_SET_DATA_INTERVAL callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_SET_DATA_INTERVAL, EVT_SENSOR_DRIVER_SET_DATA_INTERVAL callback, EvtSensorSetDataInterval, EvtSensorSetDataInterval callback function [Sensor Devices], sensors.evtsensorsetdatainterval, sensorscx/EvtSensorSetDataInterval
 f1_keywords:
  - "sensorscx/EvtSensorSetDataInterval"

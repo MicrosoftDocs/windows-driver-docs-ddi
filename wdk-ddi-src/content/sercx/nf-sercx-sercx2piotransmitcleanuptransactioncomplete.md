@@ -6,6 +6,7 @@ old-location: serports\sercx2piotransmitcleanuptransactioncomplete.htm
 tech.root: serports
 ms.assetid: 44ADAAB7-E0EE-4908-A0D8-366EC1C3AC2E
 ms.date: 04/23/2018
+keywords: ["SerCx2PioTransmitCleanupTransactionComplete function"]
 ms.keywords: 2/SerCx2PioTransmitCleanupTransactionComplete, SerCx2PioTransmitCleanupTransactionComplete, SerCx2PioTransmitCleanupTransactionComplete method [Serial Ports], serports.sercx2piotransmitcleanuptransactioncomplete
 f1_keywords:
  - "sercx/SerCx2PioTransmitCleanupTransactionComplete"

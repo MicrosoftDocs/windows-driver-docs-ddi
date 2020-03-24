@@ -6,6 +6,7 @@ old-location: pos\poscxisdeviceowner.htm
 tech.root: pos
 ms.assetid: 48D30A9D-3BA2-4929-865A-D9A34DC6E497
 ms.date: 02/23/2018
+keywords: ["PosCxIsDeviceOwner function"]
 ms.keywords: PosCxIsDeviceOwner, PosCxIsDeviceOwner function, pos.poscxisdeviceowner, poscx/PosCxIsDeviceOwner
 f1_keywords:
  - "poscx/PosCxIsDeviceOwner"

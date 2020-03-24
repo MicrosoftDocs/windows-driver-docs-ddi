@@ -6,6 +6,7 @@ old-location: print\oemdevicepropertysheets.htm
 tech.root: print
 ms.assetid: 7042a08d-b45e-49f2-acd2-1f5b6146c1da
 ms.date: 04/20/2018
+keywords: ["OEMDevicePropertySheets function"]
 ms.keywords: OEMDevicePropertySheets, OEMDevicePropertySheets function [Print Devices], print.oemdevicepropertysheets, print_obsoletefunctions_50e101c3-3bd4-4966-b29d-4a10f7295835.xml, printoem/OEMDevicePropertySheets
 f1_keywords:
  - "printoem/OEMDevicePropertySheets"

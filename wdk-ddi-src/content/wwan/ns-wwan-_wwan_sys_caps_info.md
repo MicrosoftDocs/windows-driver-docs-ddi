@@ -6,6 +6,7 @@ old-location: netvista\wwan_sys_caps.htm
 tech.root: netvista
 ms.assetid: EBD9D4CA-E032-4BB3-A802-D2D7A39E9A42
 ms.date: 05/02/2018
+keywords: ["_WWAN_SYS_CAPS_INFO structure"]
 ms.keywords: "*PWWAN_SYS_CAPS_INFO, PWWAN_SYS_CAPS_INFO, PWWAN_SYS_CAPS_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_SYS_CAPS_INFO, WWAN_SYS_CAPS_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_SYS_CAPS_INFO, netvista.wwan_sys_caps, wwan/PWWAN_SYS_CAPS_INFO, wwan/WWAN_SYS_CAPS_INFO"
 f1_keywords:
  - "wwan/WWAN_SYS_CAPS_INFO"

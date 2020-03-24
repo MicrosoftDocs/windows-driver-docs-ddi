@@ -6,6 +6,7 @@ old-location: display\d3dddi_mapgpuvirtualaddress.htm
 tech.root: display
 ms.assetid: A23F5847-0DA9-4F3F-B1C1-DACCA35DBC53
 ms.date: 05/10/2018
+keywords: ["D3DDDI_MAPGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DDDI_MAPGPUVIRTUALADDRESS, D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices], Execute, NoAccess, Write, Zero, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS, display.d3dddi_mapgpuvirtualaddress
 f1_keywords:
  - "d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS"

@@ -6,6 +6,7 @@ old-location: netvista\miniportinitializeex.htm
 tech.root: netvista
 ms.assetid: b146fa81-005b-4a6c-962d-4cb023ea790e
 ms.date: 05/02/2018
+keywords: ["MINIPORT_INITIALIZE callback function"]
 ms.keywords: MINIPORT_INITIALIZE, MINIPORT_INITIALIZE callback, MiniportInitializeEx, MiniportInitializeEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_d98605bf-4032-4cfe-8529-2d0bebc9e29e.xml, ndis/MiniportInitializeEx, netvista.miniportinitializeex
 f1_keywords:
  - "ndis/MiniportInitializeEx"

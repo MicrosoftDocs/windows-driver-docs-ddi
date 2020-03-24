@@ -6,6 +6,7 @@ old-location: display\hwvidexecutedma.htm
 tech.root: display
 ms.assetid: 262c4b9b-fdca-4899-a635-fb273bbf4cc8
 ms.date: 05/10/2018
+keywords: ["PEXECUTE_DMA callback function"]
 ms.keywords: HwVidExecuteDma, HwVidExecuteDma callback function [Display Devices], PEXECUTE_DMA, PEXECUTE_DMA callback, VideoMiniport_Functions_5819a796-9dfd-41fe-9158-6ec09ac14760.xml, display.hwvidexecutedma, video/HwVidExecuteDma
 f1_keywords:
  - "video/HwVidExecuteDma"

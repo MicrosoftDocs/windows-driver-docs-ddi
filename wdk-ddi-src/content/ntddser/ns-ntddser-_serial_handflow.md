@@ -6,6 +6,7 @@ old-location: serports\serial_handflow.htm
 tech.root: serports
 ms.assetid: E13148B7-8FCE-4407-80F6-286F0EF65B5C
 ms.date: 04/23/2018
+keywords: ["_SERIAL_HANDFLOW structure"]
 ms.keywords: "*PSERIAL_HANDFLOW, PSERIAL_HANDFLOW, PSERIAL_HANDFLOW structure pointer [Serial Ports], SERIAL_HANDFLOW, SERIAL_HANDFLOW structure [Serial Ports], _SERIAL_HANDFLOW, ntddser/PSERIAL_HANDFLOW, ntddser/SERIAL_HANDFLOW, serports.serial_handflow"
 f1_keywords:
  - "ntddser/SERIAL_HANDFLOW"

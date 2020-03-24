@@ -6,6 +6,7 @@ old-location: print\iprintschemacapabilities_getselectedoptioninprintticket.htm
 tech.root: print
 ms.assetid: 6FAAEDFA-BABC-4406-8A8E-CACFCE3A38B5
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket"]
 ms.keywords: GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket method [Print Devices], GetSelectedOptionInPrintTicket method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetSelectedOptionInPrintTicket method, IPrintSchemaCapabilities.GetSelectedOptionInPrintTicket, IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, print.iprintschemacapabilities_getselectedoptioninprintticket, printerextension/IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket
 f1_keywords:
  - "printerextension/IPrintSchemaCapabilities.GetSelectedOptionInPrintTicket"

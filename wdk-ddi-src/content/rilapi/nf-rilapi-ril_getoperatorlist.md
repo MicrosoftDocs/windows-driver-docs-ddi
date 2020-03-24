@@ -6,6 +6,7 @@ old-location: netvista\ril_getoperatorlist.htm
 tech.root: netvista
 ms.assetid: 34894a89-73ba-4744-97b9-7c1f124431f4
 ms.date: 05/02/2018
+keywords: ["RIL_GetOperatorList function"]
 ms.keywords: RIL_GetOperatorList, RIL_GetOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_getoperatorlist, rilapi/RIL_GetOperatorList
 f1_keywords:
  - "rilapi/RIL_GetOperatorList"

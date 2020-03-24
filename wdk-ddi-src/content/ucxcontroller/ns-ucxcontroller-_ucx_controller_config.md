@@ -6,6 +6,7 @@ old-location: buses\_ucx_controller_config.htm
 tech.root: usbref
 ms.assetid: 9A4249B6-BFC2-42B4-BBA6-094BD78C98DE
 ms.date: 05/07/2018
+keywords: ["_UCX_CONTROLLER_CONFIG structure"]
 ms.keywords: "*PUCX_CONTROLLER_CONFIG, P_UCX_CONTROLLER_CONFIG, P_UCX_CONTROLLER_CONFIG structure pointer [Buses], UCX_CONTROLLER_CONFIG, UCX_CONTROLLER_CONFIG structure [Buses], _UCX_CONTROLLER_CONFIG, buses._ucx_controller_config, ucxcontroller/P_UCX_CONTROLLER_CONFIG, ucxcontroller/_UCX_CONTROLLER_CONFIG"
 f1_keywords:
  - "ucxcontroller/UCX_CONTROLLER_CONFIG"

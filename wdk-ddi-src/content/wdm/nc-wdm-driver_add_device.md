@@ -6,6 +6,7 @@ old-location: kernel\adddevice.htm
 tech.root: kernel
 ms.assetid: e6552c34-9310-4e26-9bcb-7b78d9e24480
 ms.date: 04/30/2018
+keywords: ["DRIVER_ADD_DEVICE callback function"]
 ms.keywords: AddDevice, AddDevice routine [Kernel-Mode Driver Architecture], DRIVER_ADD_DEVICE, DrvrRtns_a1c3dd70-7910-44e8-bca8-44b48cf6db04.xml, kernel.adddevice, wdm/AddDevice
 f1_keywords:
  - "wdm/AddDevice"

@@ -6,6 +6,7 @@ old-location: kernel\iogetnextirpstacklocation.htm
 tech.root: kernel
 ms.assetid: 44d38686-7a66-4e27-9dc7-9b3b4dbdffd6
 ms.date: 04/30/2018
+keywords: ["IoGetNextIrpStackLocation function"]
 ms.keywords: IoGetNextIrpStackLocation, IoGetNextIrpStackLocation routine [Kernel-Mode Driver Architecture], k104_28da61f1-a732-4336-a14a-90a5bd2682c3.xml, kernel.iogetnextirpstacklocation, wdm/IoGetNextIrpStackLocation
 f1_keywords:
  - "wdm/IoGetNextIrpStackLocation"

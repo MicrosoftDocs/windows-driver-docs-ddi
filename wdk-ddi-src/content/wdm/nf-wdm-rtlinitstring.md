@@ -6,6 +6,7 @@ old-location: kernel\rtlinitstring.htm
 tech.root: kernel
 ms.assetid: 954498b6-f611-4c88-99e1-a1812d512866
 ms.date: 04/30/2018
+keywords: ["RtlInitString function"]
 ms.keywords: RtlInitString, RtlInitString routine [Kernel-Mode Driver Architecture], k109_c0bd87a9-811c-4312-b2b4-e82bdbfa5b8c.xml, kernel.rtlinitstring, wdm/RtlInitString
 f1_keywords:
  - "wdm/RtlInitString"

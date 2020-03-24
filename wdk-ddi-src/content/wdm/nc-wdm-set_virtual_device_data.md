@@ -6,6 +6,7 @@ old-location: pci\setvirtualfunctiondata.htm
 tech.root: PCI
 ms.assetid: 12CC6973-E691-425E-A8E8-839F83116D29
 ms.date: 02/24/2018
+keywords: ["SET_VIRTUAL_DEVICE_DATA callback"]
 ms.keywords: PCI.setvirtualfunctiondata, SET_VIRTUAL_DEVICE_DATA, SetVirtualFunctionData, SetVirtualFunctionData routine, wdm/SetVirtualFunctionData
 f1_keywords:
  - "wdm/SetVirtualFunctionData"

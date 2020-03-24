@@ -6,6 +6,7 @@ old-location: wdf\wdfioqueuestopsynchronously.htm
 tech.root: wdf
 ms.assetid: b92072a6-fa6e-4b8d-83c3-b2844443f5c8
 ms.date: 02/26/2018
+keywords: ["WdfIoQueueStopSynchronously function"]
 ms.keywords: DFQueueObjectRef_9f415317-56ca-4c4f-9f33-560258351999.xml, WdfIoQueueStopSynchronously, WdfIoQueueStopSynchronously method, kmdf.wdfioqueuestopsynchronously, wdf.wdfioqueuestopsynchronously, wdfio/WdfIoQueueStopSynchronously
 f1_keywords:
  - "wdfio/WdfIoQueueStopSynchronously"

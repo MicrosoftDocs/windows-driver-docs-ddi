@@ -6,6 +6,7 @@ old-location: stream\kscamera_extendedprop_photomode.htm
 tech.root: stream
 ms.assetid: 96F920FC-43CE-4ACC-B880-9AD03B5D6009
 ms.date: 04/23/2018
+keywords: ["tagKSCAMERA_EXTENDEDPROP_PHOTOMODE structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_PHOTOMODE, KSCAMERA_EXTENDEDPROP_PHOTOMODE, KSCAMERA_EXTENDEDPROP_PHOTOMODE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_PHOTOMODE, PKSCAMERA_EXTENDEDPROP_PHOTOMODE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_PHOTOMODE, ksmedia/PKSCAMERA_EXTENDEDPROP_PHOTOMODE, stream.kscamera_extendedprop_photomode, tagKSCAMERA_EXTENDEDPROP_PHOTOMODE"
 f1_keywords:
  - "ksmedia/KSCAMERA_EXTENDEDPROP_PHOTOMODE"

@@ -4,6 +4,7 @@ title: PFN_TRSECUREDEVICEQUERYOSSERVICE (trustedruntimeclx.h)
 description: 
 ms.assetid: 28894ef9-7e17-4955-a4c9-6297d1f9fb30
 ms.date: 10/19/2018
+keywords: ["*PFN_TRSECUREDEVICEQUERYOSSERVICE callback function"]
 f1_keywords:
  - "trustedruntimeclx/*PFN_TRSECUREDEVICEQUERYOSSERVICE"
 req.header: trustedruntimeclx.h

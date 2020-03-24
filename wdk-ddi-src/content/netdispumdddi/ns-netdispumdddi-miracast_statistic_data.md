@@ -6,6 +6,7 @@ old-location: display\miracast_statistic_data.htm
 tech.root: display
 ms.assetid: 94D5C260-4076-4DB7-8ED3-E0549A872FEE
 ms.date: 05/10/2018
+keywords: ["MIRACAST_STATISTIC_DATA structure"]
 ms.keywords: MIRACAST_STATISTIC_DATA, MIRACAST_STATISTIC_DATA structure [Display Devices], display.miracast_statistic_data, netdispumdddi/MIRACAST_STATISTIC_DATA
 f1_keywords:
  - "netdispumdddi/MIRACAST_STATISTIC_DATA"

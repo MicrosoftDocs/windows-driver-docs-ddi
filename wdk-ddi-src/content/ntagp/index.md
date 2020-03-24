@@ -3,6 +3,7 @@ UID: NA:ntagp
 title: Ntagp.h header
 ms.assetid: 5fdb216f-d472-3f85-896e-105544ba76d0
 ms.date: 05/09/2018
+keywords: ["Ntagp.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

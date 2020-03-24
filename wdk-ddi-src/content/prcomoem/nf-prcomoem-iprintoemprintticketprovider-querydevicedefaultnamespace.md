@@ -6,6 +6,7 @@ old-location: print\iprintoemprintticketprovider_querydevicedefaultnamespace.htm
 tech.root: print
 ms.assetid: 1af15e59-8796-48e2-ab18-a450db3086d3
 ms.date: 04/20/2018
+keywords: ["IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace"]
 ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices],QueryDeviceDefaultNamespace method, IPrintOemPrintTicketProvider.QueryDeviceDefaultNamespace, IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace method [Print Devices], QueryDeviceDefaultNamespace method [Print Devices],IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, print.iprintoemprintticketprovider_querydevicedefaultnamespace, print_ticket-package_9b7bc4a4-a8db-4bef-b592-b6774c8d9fb2.xml
 f1_keywords:
  - "prcomoem/IPrintOemPrintTicketProvider.QueryDeviceDefaultNamespace"

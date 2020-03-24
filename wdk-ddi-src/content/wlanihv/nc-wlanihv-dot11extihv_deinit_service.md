@@ -6,6 +6,7 @@ old-location: netvista\dot11extihvdeinitservice.htm
 tech.root: netvista
 ms.assetid: 5ee52306-4229-4d81-af1f-6eb37f41ad41
 ms.date: 02/16/2018
+keywords: ["DOT11EXTIHV_DEINIT_SERVICE callback"]
 ms.keywords: DOT11EXTIHV_DEINIT_SERVICE, Dot11ExtIhvDeinitService, Dot11ExtIhvDeinitService callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_02e9e301-f950-47e3-9a1f-4212ae55387e.xml, netvista.dot11extihvdeinitservice, wlanihv/Dot11ExtIhvDeinitService
 f1_keywords:
  - "wlanihv/Dot11ExtIhvDeinitService"

@@ -6,6 +6,7 @@ old-location: storage\storportinterlockedremoveheadlist.htm
 tech.root: storage
 ms.assetid: 6B99D78A-B582-4114-9472-D01D39FDD4C9
 ms.date: 03/29/2018
+keywords: ["StorPortInterlockedRemoveHeadList function"]
 ms.keywords: StorPortInterlockedRemoveHeadList, StorPortInterlockedRemoveHeadList routine [Storage Devices], storage.storportinterlockedremoveheadlist, storport/StorPortInterlockedRemoveHeadList
 f1_keywords:
  - "storport/StorPortInterlockedRemoveHeadList"

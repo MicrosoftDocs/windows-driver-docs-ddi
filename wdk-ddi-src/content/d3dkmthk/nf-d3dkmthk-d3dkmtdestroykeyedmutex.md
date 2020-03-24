@@ -5,6 +5,7 @@ description: The D3DKMTDestroyKeyedMutex function destroys a keyed mutex object.
 old-location: display\d3dkmtdestroykeyedmutex.htm
 ms.assetid: 5905035f-25e1-49df-bf59-bef81e724c49
 ms.date: 05/10/2018
+keywords: ["D3DKMTDestroyKeyedMutex function"]
 ms.keywords: D3DKMTDestroyKeyedMutex, D3DKMTDestroyKeyedMutex function [Display Devices], OpenGL_Functions_de5400f1-6ef8-431c-a838-8c82cb03d7f1.xml, d3dkmthk/D3DKMTDestroyKeyedMutex, display.d3dkmtdestroykeyedmutex
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyKeyedMutex"

@@ -3,6 +3,7 @@ UID: NA:screencapture
 title: Screencapture.h header
 ms.assetid: cf555117-86c5-3158-b7f9-ad31dd048904
 ms.date: 05/09/2018
+keywords: ["Screencapture.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

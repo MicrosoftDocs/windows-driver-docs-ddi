@@ -6,6 +6,7 @@ old-location: stream\ksidefaultclock.htm
 tech.root: stream
 ms.assetid: 08509C28-DDD4-4060-A16A-857A6BF6F6E1
 ms.date: 04/23/2018
+keywords: ["KSIDEFAULTCLOCK structure"]
 ms.keywords: "*PKSIDEFAULTCLOCK, KSIDEFAULTCLOCK, KSIDEFAULTCLOCK structure [Streaming Media Devices], PKSIDEFAULTCLOCK, PKSIDEFAULTCLOCK structure pointer [Streaming Media Devices], ksi/KSIDEFAULTCLOCK, ksi/PKSIDEFAULTCLOCK, stream.ksidefaultclock"
 f1_keywords:
  - "ksi/KSIDEFAULTCLOCK"

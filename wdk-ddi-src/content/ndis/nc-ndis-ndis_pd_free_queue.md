@@ -6,6 +6,7 @@ old-location: netvista\ndispdfreequeue.htm
 tech.root: netvista
 ms.assetid: 1DE8582C-AF11-4CBA-8F4C-159266A7F3BA
 ms.date: 05/02/2018
+keywords: ["NDIS_PD_FREE_QUEUE callback function"]
 ms.keywords: NDIS_PD_FREE_QUEUE, NDIS_PD_FREE_QUEUE callback, NdisPDFreeQueue, NdisPDFreeQueue callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDFreeQueue, netvista.ndispdfreequeue
 f1_keywords:
  - "ndis/NdisPDFreeQueue"

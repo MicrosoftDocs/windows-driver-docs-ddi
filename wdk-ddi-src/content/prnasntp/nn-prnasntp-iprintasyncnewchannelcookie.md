@@ -6,6 +6,7 @@ old-location: print\iprintasyncnewchannelcookie.htm
 tech.root: print
 ms.assetid: 48C5F80F-64AB-415A-AAF5-8B06505B02BF
 ms.date: 04/20/2018
+keywords: ["IPrintAsyncNewChannelCookie interface"]
 ms.keywords: IPrintAsyncNewChannelCookie, IPrintAsyncNewChannelCookie interface [Print Devices], IPrintAsyncNewChannelCookie interface [Print Devices],described, print.iprintasyncnewchannelcookie, prnasntp/IPrintAsyncNewChannelCookie
 f1_keywords:
  - "prnasntp/IPrintAsyncNewChannelCookie"

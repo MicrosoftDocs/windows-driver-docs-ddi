@@ -6,6 +6,7 @@ old-location: print\iprintoemui_querycolorprofile.htm
 tech.root: print
 ms.assetid: ce1131f9-4b9c-4f20-afc9-514ccbc7ecf7
 ms.date: 04/20/2018
+keywords: ["IPrintOemUI::QueryColorProfile"]
 ms.keywords: IPrintOemUI interface [Print Devices],QueryColorProfile method, IPrintOemUI.QueryColorProfile, IPrintOemUI::QueryColorProfile, QueryColorProfile, QueryColorProfile method [Print Devices], QueryColorProfile method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::QueryColorProfile, print.iprintoemui_querycolorprofile, print_unidrv-pscript_ui_7541a49f-f14c-4c73-88d7-80f316ae3602.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI.QueryColorProfile"

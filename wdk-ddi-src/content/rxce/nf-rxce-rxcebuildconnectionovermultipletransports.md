@@ -6,6 +6,7 @@ old-location: ifsk\rxcebuildconnectionovermultipletransports.htm
 tech.root: ifsk
 ms.assetid: 9ef9a5a5-e0ad-46c0-8193-8d2a18a21ea0
 ms.date: 04/16/2018
+keywords: ["RxCeBuildConnectionOverMultipleTransports function"]
 ms.keywords: RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers], ifsk.rxcebuildconnectionovermultipletransports, rxce/RxCeBuildConnectionOverMultipleTransports, rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml
 f1_keywords:
  - "rxce/RxCeBuildConnectionOverMultipleTransports"

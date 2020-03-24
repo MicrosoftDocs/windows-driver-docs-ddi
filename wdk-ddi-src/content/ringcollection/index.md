@@ -3,6 +3,7 @@ UID: NA:ringcollection
 title: Ringcollection.h header
 ms.assetid: DC43C490-9458-4378-8F88-0917FA0C5047
 ms.date: 02/04/19
+keywords: ["Ringcollection.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

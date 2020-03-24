@@ -6,6 +6,7 @@ old-location: ifsk\rxpreparetoreparsesymboliclink.htm
 tech.root: ifsk
 ms.assetid: 6a05b25f-e529-469a-8bfc-e75c0f7a9a8a
 ms.date: 04/16/2018
+keywords: ["RxPrepareToReparseSymbolicLink function"]
 ms.keywords: RxPrepareToReparseSymbolicLink, RxPrepareToReparseSymbolicLink routine [Installable File System Drivers], ifsk.rxpreparetoreparsesymboliclink, rxprocs/RxPrepareToReparseSymbolicLink, rxref_6726dffd-ccae-43e0-98da-14dc0d11c7c2.xml
 f1_keywords:
  - "rxprocs/RxPrepareToReparseSymbolicLink"

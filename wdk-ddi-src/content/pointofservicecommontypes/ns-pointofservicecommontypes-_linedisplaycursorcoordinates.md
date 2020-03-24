@@ -6,6 +6,7 @@ old-location: pos\linedisplaycursorcoordinates.htm
 tech.root: pos
 ms.assetid: 70770FEA-9E5F-4D0F-8AD2-25DAA0E4E1D9
 ms.date: 04/30/2018
+keywords: ["_LineDisplayCursorCoordinates structure"]
 ms.keywords: LineDisplayCursorCoordinates, LineDisplayCursorCoordinates structure, PLineDisplayCursorCoordinates, PLineDisplayCursorCoordinates structure pointer, _LineDisplayCursorCoordinates, pointofservicecommontypes/LineDisplayCursorCoordinates, pointofservicecommontypes/PLineDisplayCursorCoordinates, pos.linedisplaycursorcoordinates
 f1_keywords:
  - "pointofservicecommontypes/LineDisplayCursorCoordinates"

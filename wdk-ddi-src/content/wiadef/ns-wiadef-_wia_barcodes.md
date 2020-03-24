@@ -6,6 +6,7 @@ old-location: image\wia_barcodes.htm
 tech.root: image
 ms.assetid: 2B89FF49-4376-49A7-B7CC-1C67D89C7E7A
 ms.date: 05/03/2018
+keywords: ["_WIA_BARCODES structure"]
 ms.keywords: WIA_BARCODES, WIA_BARCODES structure [Imaging Devices], _WIA_BARCODES, image.wia_barcodes, wiadef/WIA_BARCODES
 f1_keywords:
  - "wiadef/WIA_BARCODES"

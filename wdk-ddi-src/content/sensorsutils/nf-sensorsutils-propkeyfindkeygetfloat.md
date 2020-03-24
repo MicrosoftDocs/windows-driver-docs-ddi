@@ -4,6 +4,7 @@ title: PropKeyFindKeyGetFloat function (sensorsutils.h)
 description: This routine gets a single precision floating point value from a PROPVARIANT within a collection list based on the PROPERTYKEY.
 ms.assetid: ce0f82e3-6537-4423-b7d5-7c440657d245
 ms.date: 08/08/2018
+keywords: ["PropKeyFindKeyGetFloat function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/PropKeyFindKeyGetFloat"

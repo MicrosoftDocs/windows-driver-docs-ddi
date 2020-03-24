@@ -6,6 +6,7 @@ old-location: wdf\iwdfrequestcompletionparams_getinformation.htm
 tech.root: wdf
 ms.assetid: 6dd47575-0da3-4038-81aa-ac955c00f08d
 ms.date: 02/26/2018
+keywords: ["IWDFRequestCompletionParams::GetInformation"]
 ms.keywords: GetInformation, GetInformation method, GetInformation method,IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface,GetInformation method, IWDFRequestCompletionParams.GetInformation, IWDFRequestCompletionParams::GetInformation, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, umdf.iwdfrequestcompletionparams_getinformation, wdf.iwdfrequestcompletionparams_getinformation, wudfddi/IWDFRequestCompletionParams::GetInformation
 f1_keywords:
  - "wudfddi/IWDFRequestCompletionParams.GetInformation"

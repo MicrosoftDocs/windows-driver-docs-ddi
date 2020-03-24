@@ -6,6 +6,7 @@ old-location: kernel\pofxsetdeviceidletimeout.htm
 tech.root: kernel
 ms.assetid: 8378D5F1-92AC-4C59-BA66-68246C011199
 ms.date: 04/30/2018
+keywords: ["PoFxSetDeviceIdleTimeout function"]
 ms.keywords: PoFxSetDeviceIdleTimeout, PoFxSetDeviceIdleTimeout routine [Kernel-Mode Driver Architecture], kernel.pofxsetdeviceidletimeout, wdm/PoFxSetDeviceIdleTimeout
 f1_keywords:
  - "wdm/PoFxSetDeviceIdleTimeout"

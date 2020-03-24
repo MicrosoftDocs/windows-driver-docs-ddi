@@ -6,6 +6,7 @@ old-location: print\iprintunidiasyncnotifyregistration.htm
 tech.root: print
 ms.assetid: A1CC714A-CDD5-494F-8157-9D95DF738CBE
 ms.date: 04/20/2018
+keywords: ["IPrintUnidiAsyncNotifyRegistration interface"]
 ms.keywords: IPrintUnidiAsyncNotifyRegistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], IPrintUnidiAsyncNotifyRegistration interface [Print Devices],described, print.iprintunidiasyncnotifyregistration, prnasntp/IPrintUnidiAsyncNotifyRegistration
 f1_keywords:
  - "prnasntp/IPrintUnidiAsyncNotifyRegistration"

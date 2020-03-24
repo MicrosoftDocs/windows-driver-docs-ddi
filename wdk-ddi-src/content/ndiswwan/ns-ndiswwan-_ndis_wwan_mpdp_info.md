@@ -5,6 +5,7 @@ description: The NDIS_WWAN_MPDP_INFO structure contains information for an opera
 tech.root: netvista
 ms.assetid: d55a038d-2f2e-45f4-b306-afe5703c5357
 ms.date: 06/25/2018
+keywords: ["_NDIS_WWAN_MPDP_INFO structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_MPDP_INFO"
 ms.keywords: _NDIS_WWAN_MPDP_INFO, NDIS_WWAN_MPDP_INFO, *PNDIS_WWAN_MPDP_INFO, 

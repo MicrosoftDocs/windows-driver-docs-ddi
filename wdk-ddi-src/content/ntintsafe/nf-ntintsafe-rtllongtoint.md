@@ -6,6 +6,7 @@ old-location: kernel\rtllongtoint.htm
 tech.root: kernel
 ms.assetid: 9C35B77E-FFEC-42A0-9D2C-9E52E210C941
 ms.date: 04/30/2018
+keywords: ["RtlLongToInt function"]
 ms.keywords: RtlLongToInt, RtlLongToInt function [Kernel-Mode Driver Architecture], kernel.rtllongtoint, ntintsafe/RtlLongToInt
 f1_keywords:
  - "ntintsafe/RtlLongToInt"

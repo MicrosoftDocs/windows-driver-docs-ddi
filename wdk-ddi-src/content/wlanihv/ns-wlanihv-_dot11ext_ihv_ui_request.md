@@ -6,6 +6,7 @@ old-location: netvista\dot11ext_ihv_ui_request.htm
 tech.root: netvista
 ms.assetid: 028e3445-320a-41c8-9577-219f9fbabe40
 ms.date: 02/16/2018
+keywords: ["_DOT11EXT_IHV_UI_REQUEST structure"]
 ms.keywords: "*PDOT11EXT_IHV_UI_REQUEST, DOT11EXT_IHV_UI_REQUEST, DOT11EXT_IHV_UI_REQUEST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_2d145576-2a7d-4fff-ae75-a99e27ebbb18.xml, PDOT11EXT_IHV_UI_REQUEST, PDOT11EXT_IHV_UI_REQUEST structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_UI_REQUEST, netvista.dot11ext_ihv_ui_request, wlanihv/DOT11EXT_IHV_UI_REQUEST, wlanihv/PDOT11EXT_IHV_UI_REQUEST"
 f1_keywords:
  - "wlanihv/DOT11EXT_IHV_UI_REQUEST"

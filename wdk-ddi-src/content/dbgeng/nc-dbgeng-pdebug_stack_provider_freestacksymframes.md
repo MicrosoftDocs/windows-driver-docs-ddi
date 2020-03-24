@@ -6,6 +6,7 @@ old-location: debugger\freestacksymframes.htm
 tech.root: debugger
 ms.assetid: E66742D4-A972-4096-8DDC-E8F42E8B8D25
 ms.date: 05/03/2018
+keywords: ["PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES callback function"]
 ms.keywords: FreeStackSymFrames, FreeStackSymFrames callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES, PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES callback, dbgeng/FreeStackSymFrames, debugger.freestacksymframes
 f1_keywords:
  - "dbgeng/FreeStackSymFrames"

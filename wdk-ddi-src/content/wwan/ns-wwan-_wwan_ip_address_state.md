@@ -6,6 +6,7 @@ old-location: netvista\wwan_ip_address_state.htm
 tech.root: netvista
 ms.assetid: 63D3B055-A3B0-4A76-B53C-C5E87C40A52C
 ms.date: 05/02/2018
+keywords: ["_WWAN_IP_ADDRESS_STATE structure"]
 ms.keywords: "*PWWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_IP_ADDRESS_STATE, WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], _WWAN_IP_ADDRESS_STATE, netvista.wwan_ip_address_state, wwan/PWWAN_IP_ADDRESS_STATE, wwan/WWAN_IP_ADDRESS_STATE"
 f1_keywords:
  - "wwan/WWAN_IP_ADDRESS_STATE"

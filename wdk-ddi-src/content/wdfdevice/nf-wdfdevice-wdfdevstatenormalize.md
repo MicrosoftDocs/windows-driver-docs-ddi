@@ -6,6 +6,7 @@ old-location: wdf\wdfdevstatenormalize.htm
 tech.root: wdf
 ms.assetid: 0243de8b-0f47-4f0a-af25-beb6365386dd
 ms.date: 02/26/2018
+keywords: ["WdfDevStateNormalize function"]
 ms.keywords: DFDeviceObjectGeneralRef_24d4e166-f4b0-4696-b775-62d0df565a8a.xml, WdfDevStateNormalize, WdfDevStateNormalize method, kmdf.wdfdevstatenormalize, wdf.wdfdevstatenormalize, wdfdevice/WdfDevStateNormalize
 f1_keywords:
  - "wdfdevice/WdfDevStateNormalize"

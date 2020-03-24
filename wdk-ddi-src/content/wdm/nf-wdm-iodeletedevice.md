@@ -6,6 +6,7 @@ old-location: kernel\iodeletedevice.htm
 tech.root: kernel
 ms.assetid: 973549c3-c570-48ab-9a82-9398c920dbd9
 ms.date: 04/30/2018
+keywords: ["IoDeleteDevice function"]
 ms.keywords: IoDeleteDevice, IoDeleteDevice routine [Kernel-Mode Driver Architecture], k104_246c1fe6-75cc-434e-a1d4-7e573eff96de.xml, kernel.iodeletedevice, wdm/IoDeleteDevice
 f1_keywords:
  - "wdm/IoDeleteDevice"

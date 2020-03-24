@@ -6,6 +6,7 @@ old-location: spb\spbdeviceinitconfig.htm
 tech.root: SPB
 ms.assetid: 7B62C0B0-F90A-41B1-B903-5C9F905F4A08
 ms.date: 04/30/2018
+keywords: ["SpbDeviceInitConfig function"]
 ms.keywords: SPB.spbdeviceinitconfig, SpbDeviceInitConfig, SpbDeviceInitConfig method [Buses], spbcx/SpbDeviceInitConfig
 f1_keywords:
  - "spbcx/SpbDeviceInitConfig"

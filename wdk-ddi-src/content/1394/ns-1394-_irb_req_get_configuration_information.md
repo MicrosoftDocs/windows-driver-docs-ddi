@@ -6,6 +6,7 @@ old-location: ieee\irb_req_get_configuration_information.htm
 tech.root: IEEE
 ms.assetid: 639B72C4-F99D-4983-8539-00A93398465F
 ms.date: 02/15/2018
+keywords: ["_IRB_REQ_GET_CONFIGURATION_INFORMATION structure"]
 ms.keywords: 1394/IRB_REQ_GET_CONFIGURATION_INFORMATION, IEEE.irb_req_get_configuration_information, IRB_REQ_GET_CONFIGURATION_INFORMATION, IRB_REQ_GET_CONFIGURATION_INFORMATION structure [Buses], _IRB_REQ_GET_CONFIGURATION_INFORMATION
 f1_keywords:
  - "1394/IRB_REQ_GET_CONFIGURATION_INFORMATION"

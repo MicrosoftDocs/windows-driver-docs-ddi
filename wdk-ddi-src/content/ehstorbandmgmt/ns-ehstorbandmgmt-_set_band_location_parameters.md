@@ -6,6 +6,7 @@ old-location: storage\set_band_location_parameters.htm
 tech.root: storage
 ms.assetid: 43F60B45-A587-49FE-BB59-DC1215A46F04
 ms.date: 03/29/2018
+keywords: ["_SET_BAND_LOCATION_PARAMETERS structure"]
 ms.keywords: "*PSET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS structure pointer [Storage Devices], SET_BAND_LOCATION_PARAMETERS, SET_BAND_LOCATION_PARAMETERS structure [Storage Devices], _SET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/PSET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/SET_BAND_LOCATION_PARAMETERS, storage.set_band_location_parameters"
 f1_keywords:
  - "ehstorbandmgmt/SET_BAND_LOCATION_PARAMETERS"

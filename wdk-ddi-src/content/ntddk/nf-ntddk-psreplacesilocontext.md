@@ -6,6 +6,7 @@ old-location: kernel\psreplacesilocontext.htm
 tech.root: kernel
 ms.assetid: C2A8F7FF-7DBA-4725-A64C-7F694C8001C0
 ms.date: 04/30/2018
+keywords: ["PsReplaceSiloContext function"]
 ms.keywords: PsReplaceSiloContext, PsReplaceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psreplacesilocontext, ntddk/PsReplaceSiloContext
 f1_keywords:
  - "ntddk/PsReplaceSiloContext"

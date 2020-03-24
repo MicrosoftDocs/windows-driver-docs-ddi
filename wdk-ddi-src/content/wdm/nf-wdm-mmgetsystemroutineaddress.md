@@ -6,6 +6,7 @@ old-location: kernel\mmgetsystemroutineaddress.htm
 tech.root: kernel
 ms.assetid: 87e20abc-eb65-40c0-943e-eb194022a2de
 ms.date: 04/30/2018
+keywords: ["MmGetSystemRoutineAddress function"]
 ms.keywords: MmGetSystemRoutineAddress, MmGetSystemRoutineAddress routine [Kernel-Mode Driver Architecture], k106_4cd56243-e8f4-428a-95f2-4e7a1d2a7396.xml, kernel.mmgetsystemroutineaddress, wdm/MmGetSystemRoutineAddress
 f1_keywords:
  - "wdm/MmGetSystemRoutineAddress"

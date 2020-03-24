@@ -4,6 +4,7 @@ title: D3D12DDI_DEPTH_STENCIL_VALUES (d3d12umddi.h)
 description: The D3D12DDI_DEPTH_STENCIL_VALUES structure contains the context's depth and stencil buffers.
 ms.assetid: 64172998-1183-4a68-b4f1-9b4be6e33188
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_DEPTH_STENCIL_VALUES structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEPTH_STENCIL_VALUES"
 ms.keywords: D3D12DDI_DEPTH_STENCIL_VALUES, D3D12DDI_DEPTH_STENCIL_VALUES, 

@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: bbbe9027-3e2f-499d-aa96-2b0a90349e9d
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063 enumeration"]
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063,
 req.header: d3d12umddi.h
 req.include-header: 

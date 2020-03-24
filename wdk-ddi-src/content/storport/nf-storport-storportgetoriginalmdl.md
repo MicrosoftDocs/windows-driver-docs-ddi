@@ -6,6 +6,7 @@ old-location: storage\storportgetoriginalmdl.htm
 tech.root: storage
 ms.assetid: 48042e9d-ed83-4326-931d-ded753deb1a7
 ms.date: 03/29/2018
+keywords: ["StorPortGetOriginalMdl function"]
 ms.keywords: StorPortGetOriginalMdl, StorPortGetOriginalMdl routine [Storage Devices], storage.storportgetoriginalmdl, storport/StorPortGetOriginalMdl, storprt_4617200d-18b4-4ee2-aa43-92fc5f3a7b66.xml
 f1_keywords:
  - "storport/StorPortGetOriginalMdl"

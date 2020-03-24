@@ -6,6 +6,7 @@ old-location: debugger\getexpressionsyntax.htm
 tech.root: debugger
 ms.assetid: e04e4567-5ae6-4349-9876-0c2b55c340e0
 ms.date: 05/03/2018
+keywords: ["IDebugControl3::GetExpressionSyntax"]
 ms.keywords: GetExpressionSyntax, GetExpressionSyntax method [Windows Debugging], GetExpressionSyntax method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetExpressionSyntax method, IDebugControl3.GetExpressionSyntax, IDebugControl3::GetExpressionSyntax, IDebugControl_9eae3270-fd1f-4d50-875b-3bd9908ba76d.xml, dbgeng/IDebugControl3::GetExpressionSyntax, debugger.getexpressionsyntax
 f1_keywords:
  - "dbgeng/IDebugControl3.GetExpressionSyntax"

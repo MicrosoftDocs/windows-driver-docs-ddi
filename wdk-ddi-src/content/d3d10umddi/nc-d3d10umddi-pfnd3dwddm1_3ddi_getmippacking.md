@@ -5,6 +5,7 @@ description: For a given tiled resource, returns how many mips are packed, and h
 old-location: display\getmippacking.htm
 ms.assetid: 8AF361B5-279D-4525-AD98-843A4A746201
 ms.date: 05/10/2018
+keywords: ["PFND3DWDDM1_3DDI_GETMIPPACKING callback function"]
 ms.keywords: GetMipPacking, GetMipPacking callback function [Display Devices], PFND3DWDDM1_3DDI_GETMIPPACKING, PFND3DWDDM1_3DDI_GETMIPPACKING callback, d3d10umddi/GetMipPacking, display.getmippacking
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

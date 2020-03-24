@@ -6,6 +6,7 @@ old-location: display\d3dddi_trimresidencyset_flags.htm
 tech.root: display
 ms.assetid: B063561B-FA79-44B4-A058-71DB9CBF4804
 ms.date: 05/10/2018
+keywords: ["D3DDDI_TRIMRESIDENCYSET_FLAGS structure"]
 ms.keywords: D3DDDI_TRIMRESIDENCYSET_FLAGS, D3DDDI_TRIMRESIDENCYSET_FLAGS structure [Display Devices], d3dukmdt/D3DDDI_TRIMRESIDENCYSET_FLAGS, display.d3dddi_trimresidencyset_flags
 f1_keywords:
  - "d3dukmdt/D3DDDI_TRIMRESIDENCYSET_FLAGS"

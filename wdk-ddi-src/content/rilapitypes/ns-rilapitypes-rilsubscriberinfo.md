@@ -6,6 +6,7 @@ old-location: netvista\rilsubscriberinfo_2.htm
 tech.root: netvista
 ms.assetid: 4afb3184-0534-43b1-9b88-4aac04d26c4a
 ms.date: 02/26/2018
+keywords: ["RILSUBSCRIBERINFO structure"]
 ms.keywords: "*LPRILSUBSCRIBERINFO, RILSUBSCRIBERINFO, RILSUBSCRIBERINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsubscriberinfo_2, rilapitypes/RILSUBSCRIBERINFO"
 f1_keywords:
  - "rilapitypes/RILSUBSCRIBERINFO"

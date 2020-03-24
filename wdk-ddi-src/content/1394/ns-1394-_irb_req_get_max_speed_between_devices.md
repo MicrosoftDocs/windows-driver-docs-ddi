@@ -6,6 +6,7 @@ old-location: ieee\irb_req_get_max_speed_between_devices.htm
 tech.root: IEEE
 ms.assetid: 7B296D94-32DB-4190-935F-F1CC5F566706
 ms.date: 02/15/2018
+keywords: ["_IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES structure"]
 ms.keywords: 1394/IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, IEEE.irb_req_get_max_speed_between_devices, IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES structure [Buses], _IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES
 f1_keywords:
  - "1394/IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES"

@@ -6,6 +6,7 @@ old-location: display\dxgkmdt_opm_requested_information.htm
 tech.root: display
 ms.assetid: c483786a-be8c-4ae3-a48c-45064ce81939
 ms.date: 05/10/2018
+keywords: ["_DXGKMDT_OPM_REQUESTED_INFORMATION structure"]
 ms.keywords: "*PDXGKMDT_OPM_REQUESTED_INFORMATION, DXGKMDT_OPM_REQUESTED_INFORMATION, DXGKMDT_OPM_REQUESTED_INFORMATION structure [Display Devices], DmStructs_671b07eb-3d44-4c06-863a-8bd74f10ee4b.xml, PDXGKMDT_OPM_REQUESTED_INFORMATION, PDXGKMDT_OPM_REQUESTED_INFORMATION structure pointer [Display Devices], _DXGKMDT_OPM_REQUESTED_INFORMATION, d3dkmdt/DXGKMDT_OPM_REQUESTED_INFORMATION, d3dkmdt/PDXGKMDT_OPM_REQUESTED_INFORMATION, display.dxgkmdt_opm_requested_information"
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_REQUESTED_INFORMATION"

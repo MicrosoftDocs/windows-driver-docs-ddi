@@ -5,6 +5,7 @@ description: Establishes a session key for an authenticated channel.
 old-location: display\negotiateauthenticatedchannelkeyexchange.htm
 ms.assetid: a54a26d2-d38c-4e82-a3e9-7a17c0afff27
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE callback function"]
 ms.keywords: PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE, PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE callback, d3d10umddi/pfnNegotiateAuthenticatedChannelKeyExchange, display.negotiateauthenticatedchannelkeyexchange, pfnNegotiateAuthenticatedChannelKeyExchange, pfnNegotiateAuthenticatedChannelKeyExchange callback function [Display Devices]
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

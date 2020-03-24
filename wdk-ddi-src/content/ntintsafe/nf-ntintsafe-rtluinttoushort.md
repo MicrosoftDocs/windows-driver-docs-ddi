@@ -6,6 +6,7 @@ old-location: kernel\rtluinttoushort.htm
 tech.root: kernel
 ms.assetid: 3A9DB44E-ABAB-4808-9322-8ADA5AD39F75
 ms.date: 04/30/2018
+keywords: ["RtlUIntToUShort function"]
 ms.keywords: RtlUIntToUShort, RtlUIntToUShort function [Kernel-Mode Driver Architecture], kernel.rtluinttoushort, ntintsafe/RtlUIntToUShort
 f1_keywords:
  - "ntintsafe/RtlUIntToUShort"

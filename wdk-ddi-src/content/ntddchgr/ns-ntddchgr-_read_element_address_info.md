@@ -6,6 +6,7 @@ old-location: storage\read_element_address_info.htm
 tech.root: storage
 ms.assetid: 5fc5b38e-8eef-4ba0-9f29-025df55e4525
 ms.date: 03/29/2018
+keywords: ["_READ_ELEMENT_ADDRESS_INFO structure"]
 ms.keywords: "*PREAD_ELEMENT_ADDRESS_INFO, PREAD_ELEMENT_ADDRESS_INFO, PREAD_ELEMENT_ADDRESS_INFO structure pointer [Storage Devices], READ_ELEMENT_ADDRESS_INFO, READ_ELEMENT_ADDRESS_INFO structure [Storage Devices], _READ_ELEMENT_ADDRESS_INFO, ntddchgr/PREAD_ELEMENT_ADDRESS_INFO, ntddchgr/READ_ELEMENT_ADDRESS_INFO, storage.read_element_address_info, structs-changer_5137d1a1-82bb-4333-b555-45bc1c8cc0bf.xml"
 f1_keywords:
  - "ntddchgr/READ_ELEMENT_ADDRESS_INFO"

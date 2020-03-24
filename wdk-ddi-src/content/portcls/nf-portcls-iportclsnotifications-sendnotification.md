@@ -6,6 +6,7 @@ old-location: audio\iportclsnotifications_sendnotification.htm
 tech.root: audio
 ms.assetid: 0683C30D-0AAD-4859-BA30-908FA747CC35
 ms.date: 05/08/2018
+keywords: ["IPortClsNotifications::SendNotification"]
 ms.keywords: IPortClsNotifications interface [Audio Devices],SendNotification method, IPortClsNotifications.SendNotification, IPortClsNotifications::SendNotification, SendNotification, SendNotification method [Audio Devices], SendNotification method [Audio Devices],IPortClsNotifications interface, audio.iportclsnotifications_sendnotification, portcls/IPortClsNotifications::SendNotification
 f1_keywords:
  - "portcls/IPortClsNotifications.SendNotification"

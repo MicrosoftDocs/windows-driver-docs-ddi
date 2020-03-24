@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 9E757066-6A96-41DF-8185-3264E5076651
 ms.author: windowsdriverdev
 ms.date: 09/26/2019
+keywords: ["NET_FRAGMENT_LOGICAL_ADDRESS structure"]
 f1_keywords:
  - "logicaladdresstypes/NET_FRAGMENT_LOGICAL_ADDRESS"
 ms.keywords: NET_FRAGMENT_LOGICAL_ADDRESS, NET_FRAGMENT_LOGICAL_ADDRESS, 

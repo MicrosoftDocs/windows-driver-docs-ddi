@@ -6,6 +6,7 @@ old-location: stream\streamclassscheduletimer.htm
 tech.root: stream
 ms.assetid: 83271c19-911b-481a-bc25-c0b3816cf800
 ms.date: 04/23/2018
+keywords: ["StreamClassScheduleTimer function"]
 ms.keywords: StreamClassScheduleTimer, StreamClassScheduleTimer routine [Streaming Media Devices], strclass-routines_73f92fc4-e9bf-40af-8dff-9c2e740dba20.xml, stream.streamclassscheduletimer, strmini/StreamClassScheduleTimer
 f1_keywords:
  - "strmini/StreamClassScheduleTimer"

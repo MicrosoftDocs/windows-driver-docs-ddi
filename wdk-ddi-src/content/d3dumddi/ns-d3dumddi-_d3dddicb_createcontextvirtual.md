@@ -6,6 +6,7 @@ old-location: display\d3dddicb_createcontextvirtual.htm
 tech.root: display
 ms.assetid: 451D1CE2-A50D-4E42-BD93-879503EDE4B5
 ms.date: 05/10/2018
+keywords: ["_D3DDDICB_CREATECONTEXTVIRTUAL structure"]
 ms.keywords: D3DDDICB_CREATECONTEXTVIRTUAL, D3DDDICB_CREATECONTEXTVIRTUAL structure [Display Devices], _D3DDDICB_CREATECONTEXTVIRTUAL, d3dumddi/D3DDDICB_CREATECONTEXTVIRTUAL, display.d3dddicb_createcontextvirtual
 f1_keywords:
  - "d3dumddi/D3DDDICB_CREATECONTEXTVIRTUAL"

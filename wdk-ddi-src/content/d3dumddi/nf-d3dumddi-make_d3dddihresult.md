@@ -4,6 +4,7 @@ title: MAKE_D3DDDIHRESULT macro (d3dumddi.h)
 description: Makes a Direct3D handle to a result.
 ms.assetid: bd4249ac-2083-4b01-94f3-e92e5b3b096e
 ms.date: 10/19/2018
+keywords: ["MAKE_D3DDDIHRESULT macro"]
 f1_keywords:
  - "d3dumddi/MAKE_D3DDDIHRESULT"
 ms.keywords: MAKE_D3DDDIHRESULT

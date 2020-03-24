@@ -6,6 +6,7 @@ old-location: kernel\clfsterminatereadlog.htm
 tech.root: kernel
 ms.assetid: 47633903-0314-4d50-8dd5-ddb0eb934e09
 ms.date: 04/30/2018
+keywords: ["ClfsTerminateReadLog function"]
 ms.keywords: ClfsTerminateReadLog, ClfsTerminateReadLog routine [Kernel-Mode Driver Architecture], Clfs_691e308a-56d7-498f-af11-8908cc13b1b7.xml, kernel.clfsterminatereadlog, wdm/ClfsTerminateReadLog
 f1_keywords:
  - "wdm/ClfsTerminateReadLog"

@@ -6,6 +6,7 @@ old-location: stream\kscamera_extendedprop_fieldofview.htm
 tech.root: stream
 ms.assetid: CC3FFC63-8404-4EA6-9738-F0A3C52585B8
 ms.date: 04/23/2018
+keywords: ["tagKSCAMERA_EXTENDEDPROP_FIELDOFVIEW structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW, KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, KSCAMERA_EXTENDEDPROP_FIELDOFVIEW structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW, PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_FIELDOFVIEW, ksmedia/PKSCAMERA_EXTENDEDPROP_FIELDOFVIEW, stream.kscamera_extendedprop_fieldofview, tagKSCAMERA_EXTENDEDPROP_FIELDOFVIEW"
 f1_keywords:
  - "ksmedia/KSCAMERA_EXTENDEDPROP_FIELDOFVIEW"

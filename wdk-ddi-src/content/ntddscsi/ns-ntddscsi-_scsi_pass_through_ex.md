@@ -6,6 +6,7 @@ old-location: storage\scsi_pass_through_ex.htm
 tech.root: storage
 ms.assetid: 3D00B42C-7320-4044-BA7D-71A9BD05B30E
 ms.date: 03/29/2018
+keywords: ["_SCSI_PASS_THROUGH_EX structure"]
 ms.keywords: "*PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX structure pointer [Storage Devices], SCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX structure [Storage Devices], _SCSI_PASS_THROUGH_EX, ntddscsi/PSCSI_PASS_THROUGH_EX, ntddscsi/SCSI_PASS_THROUGH_EX, storage.scsi_pass_through_ex"
 f1_keywords:
  - "ntddscsi/SCSI_PASS_THROUGH_EX"

@@ -6,6 +6,7 @@ old-location: wdf\wdfrequestsend.htm
 tech.root: wdf
 ms.assetid: a0f4d4a4-f636-44df-911f-e3a615144fa9
 ms.date: 02/26/2018
+keywords: ["WdfRequestSend function"]
 ms.keywords: DFRequestObjectRef_3104cf0d-01d0-4299-a123-ba7a8cc0ada9.xml, WdfRequestSend, WdfRequestSend method, kmdf.wdfrequestsend, wdf.wdfrequestsend, wdfrequest/WdfRequestSend
 f1_keywords:
  - "wdfrequest/WdfRequestSend"

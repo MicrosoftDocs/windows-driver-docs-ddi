@@ -6,6 +6,7 @@ old-location: wdf\wdfrequestcompletewithinformation.htm
 tech.root: wdf
 ms.assetid: dc8f5570-5bdd-492a-a830-e166f146879a
 ms.date: 02/26/2018
+keywords: ["WdfRequestCompleteWithInformation function"]
 ms.keywords: DFRequestObjectRef_29eec73c-aa09-4814-85f9-61979df03412.xml, WdfRequestCompleteWithInformation, WdfRequestCompleteWithInformation method, kmdf.wdfrequestcompletewithinformation, wdf.wdfrequestcompletewithinformation, wdfrequest/WdfRequestCompleteWithInformation
 f1_keywords:
  - "wdfrequest/WdfRequestCompleteWithInformation"

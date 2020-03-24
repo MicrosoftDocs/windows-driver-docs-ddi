@@ -6,6 +6,7 @@ old-location: kernel\pep_perf_state_type.htm
 tech.root: kernel
 ms.assetid: 8DF40988-995E-4C37-8864-0C405DE885C9
 ms.date: 04/30/2018
+keywords: ["_PEP_PERF_STATE_TYPE enumeration"]
 ms.keywords: "*PPEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE, PEP_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PepPerfStateTypeDiscrete, PepPerfStateTypeMax, PepPerfStateTypeRange, _PEP_PERF_STATE_TYPE, kernel.pep_perf_state_type, pepfx/PEP_PERF_STATE_TYPE, pepfx/PepPerfStateTypeDiscrete, pepfx/PepPerfStateTypeMax, pepfx/PepPerfStateTypeRange"
 f1_keywords:
  - "pepfx/PEP_PERF_STATE_TYPE"

@@ -6,6 +6,7 @@ old-location: image\ioctl_reset_pipe.htm
 tech.root: image
 ms.assetid: aeca126a-449a-4a10-a4ce-1cd3939ac076
 ms.date: 05/03/2018
+keywords: ["IOCTL_RESET_PIPE IOCTL"]
 ms.keywords: IOCTL_RESET_PIPE, IOCTL_RESET_PIPE control, IOCTL_RESET_PIPE control code [Imaging Devices], image.ioctl_reset_pipe, stifnc_907d0aea-158a-4219-9235-85a16d6da30f.xml, usbscan/IOCTL_RESET_PIPE
 f1_keywords:
  - "usbscan/IOCTL_RESET_PIPE"

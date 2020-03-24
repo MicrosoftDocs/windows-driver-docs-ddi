@@ -6,6 +6,7 @@ old-location: netvista\ndis_frame_header.htm
 tech.root: netvista
 ms.assetid: 8897ae0c-6068-4fea-8944-1340595dbff3
 ms.date: 05/02/2018
+keywords: ["_NDIS_FRAME_HEADER enumeration"]
 ms.keywords: "*PNDIS_FRAME_HEADER, NDIS_FRAME_HEADER, NDIS_FRAME_HEADER enumeration [Network Drivers Starting with Windows Vista], NdisFrameHeaderArp, NdisFrameHeaderIPv4, NdisFrameHeaderIPv6, NdisFrameHeaderMac, NdisFrameHeaderMaximum, NdisFrameHeaderUdp, NdisFrameHeaderUndefined, PNDIS_FRAME_HEADER, PNDIS_FRAME_HEADER enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_FRAME_HEADER, netvista.ndis_frame_header, ntddndis/NDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderArp, ntddndis/NdisFrameHeaderIPv4, ntddndis/NdisFrameHeaderIPv6, ntddndis/NdisFrameHeaderMac, ntddndis/NdisFrameHeaderMaximum, ntddndis/NdisFrameHeaderUdp, ntddndis/NdisFrameHeaderUndefined, ntddndis/PNDIS_FRAME_HEADER, virtual_machine_queue_ref_0ee94de6-7791-4a6e-b3da-2c8639843130.xml"
 f1_keywords:
  - "ntddndis/NDIS_FRAME_HEADER"

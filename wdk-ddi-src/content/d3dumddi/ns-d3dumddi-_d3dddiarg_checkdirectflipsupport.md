@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_checkdirectflipsupport.htm
 tech.root: display
 ms.assetid: 70df85b6-286a-45a2-813d-adb54daee122
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure"]
 ms.keywords: D3DDDIARG_CHECKDIRECTFLIPSUPPORT, D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure [Display Devices], _D3DDDIARG_CHECKDIRECTFLIPSUPPORT, d3dumddi/D3DDDIARG_CHECKDIRECTFLIPSUPPORT, display.d3dddiarg_checkdirectflipsupport
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CHECKDIRECTFLIPSUPPORT"

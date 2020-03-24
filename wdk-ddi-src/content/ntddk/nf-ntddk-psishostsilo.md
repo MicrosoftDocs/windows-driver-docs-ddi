@@ -6,6 +6,7 @@ old-location: kernel\psishostsilo.htm
 tech.root: kernel
 ms.assetid: 4C6D85F2-C9B8-425D-A307-5609E1C1465B
 ms.date: 04/30/2018
+keywords: ["PsIsHostSilo function"]
 ms.keywords: PsIsHostSilo, PsIsHostSilo routine [Kernel-Mode Driver Architecture], kernel.psishostsilo, ntddk/PsIsHostSilo
 f1_keywords:
  - "ntddk/PsIsHostSilo"

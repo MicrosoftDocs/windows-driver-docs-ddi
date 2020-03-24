@@ -5,6 +5,7 @@ description: Implemented by the client driver as the default handler for set obj
 tech.root: netvista
 ms.assetid: 28db8bbf-199f-4724-a6a0-3a31a8e71313
 ms.date: 02/01/2019
+keywords: ["EVT_NET_REQUEST_DEFAULT_SET_DATA callback function"]
 f1_keywords:
  - "netrequestqueue/NetRequestWdmGetNdisOidRequest"
 req.header: netrequestqueue.h

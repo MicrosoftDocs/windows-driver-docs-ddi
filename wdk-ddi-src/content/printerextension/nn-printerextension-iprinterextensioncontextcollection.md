@@ -6,6 +6,7 @@ old-location: print\iprinterextensioncontextcollection.htm
 tech.root: print
 ms.assetid: 693DAA13-70B3-48A7-9BC2-6369691539FD
 ms.date: 04/20/2018
+keywords: ["IPrinterExtensionContextCollection interface"]
 ms.keywords: IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], IPrinterExtensionContextCollection interface [Print Devices],described, print.iprinterextensioncontextcollection, printerextension/IPrinterExtensionContextCollection
 f1_keywords:
  - "printerextension/IPrinterExtensionContextCollection"

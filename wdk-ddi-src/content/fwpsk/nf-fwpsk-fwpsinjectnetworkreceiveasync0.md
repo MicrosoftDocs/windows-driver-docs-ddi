@@ -6,6 +6,7 @@ old-location: netvista\fwpsinjectnetworkreceiveasync0.htm
 tech.root: netvista
 ms.assetid: c34b2be1-fe1c-4a99-ac9c-ddd40b97d8d0
 ms.date: 05/02/2018
+keywords: ["FwpsInjectNetworkReceiveAsync0 function"]
 ms.keywords: FwpsInjectNetworkReceiveAsync0, FwpsInjectNetworkReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectNetworkReceiveAsync0, netvista.fwpsinjectnetworkreceiveasync0, wfp_ref_2_funct_3_fwps_I_fb65a452-e8f0-4160-8366-90a1925644da.xml
 f1_keywords:
  - "fwpsk/FwpsInjectNetworkReceiveAsync0"

@@ -6,6 +6,7 @@ old-location: netvista\rilmanagecallsparams_v4.htm
 tech.root: netvista
 ms.assetid: 8e38c6d5-bd61-455e-a628-b4e6ef9c936c
 ms.date: 05/02/2018
+keywords: ["RILMANAGECALLSPARAMS_V4 structure"]
 ms.keywords: "*LPRILMANAGECALLSPARAMS, *LPRILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS, RILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS_V4 structure [Network Drivers Starting with Windows Vista], netvista.rilmanagecallsparams_v4, ntddrilapitypes/RILMANAGECALLSPARAMS_V4"
 f1_keywords:
  - "ntddrilapitypes/RILMANAGECALLSPARAMS_V4"

@@ -6,6 +6,7 @@ old-location: buses\tristate.htm
 tech.root: usbref
 ms.assetid: 16D8981B-53D3-4886-A85F-B487701ED172
 ms.date: 05/07/2018
+keywords: ["_TRISTATE enumeration"]
 ms.keywords: TRISTATE, TRISTATE enumeration [Buses], TriStateFalse, TriStateTrue, TriStateUnknown, _TRISTATE, buses.tristate, ucxroothub/TRISTATE, ucxroothub/TriStateFalse, ucxroothub/TriStateTrue, ucxroothub/TriStateUnknown
 f1_keywords:
  - "ucxroothub/TRISTATE"

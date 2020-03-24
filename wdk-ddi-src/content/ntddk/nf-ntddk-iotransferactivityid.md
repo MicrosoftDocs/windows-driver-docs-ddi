@@ -6,6 +6,7 @@ old-location: kernel\iotransferactivityid.htm
 tech.root: kernel
 ms.assetid: BA6EBD60-B7D8-4EDE-A655-2F18F27E6299
 ms.date: 04/30/2018
+keywords: ["IoTransferActivityId function"]
 ms.keywords: IoTransferActivityId, IoTransferActivityId routine [Kernel-Mode Driver Architecture], kernel.iotransferactivityid, ntddk/IoTransferActivityId
 f1_keywords:
  - "ntddk/IoTransferActivityId"

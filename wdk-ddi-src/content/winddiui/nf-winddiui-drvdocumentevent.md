@@ -6,6 +6,7 @@ old-location: print\drvdocumentevent.htm
 tech.root: print
 ms.assetid: 09229774-14db-448b-bd49-2d39a848c9a6
 ms.date: 04/20/2018
+keywords: ["DrvDocumentEvent function"]
 ms.keywords: DrvDocumentEvent, DrvDocumentEvent function [Print Devices], print.drvdocumentevent, print_interface-graphics_ffc39ed1-d1b8-4e3d-b0a3-515b90cd6c8f.xml, winddiui/DrvDocumentEvent
 f1_keywords:
  - "winddiui/DrvDocumentEvent"

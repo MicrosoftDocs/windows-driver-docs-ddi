@@ -6,6 +6,7 @@ old-location: stream\ks_datarange_analogvideo.htm
 tech.root: stream
 ms.assetid: e89e9108-28a1-46ac-8694-047a656dcb74
 ms.date: 04/23/2018
+keywords: ["tagKS_DATARANGE_ANALOGVIDEO structure"]
 ms.keywords: "*PKS_DATARANGE_ANALOGVIDEO, KS_DATARANGE_ANALOGVIDEO, KS_DATARANGE_ANALOGVIDEO structure [Streaming Media Devices], PKS_DATARANGE_ANALOGVIDEO, PKS_DATARANGE_ANALOGVIDEO structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_ANALOGVIDEO, ksmedia/PKS_DATARANGE_ANALOGVIDEO, stream.ks_datarange_analogvideo, tagKS_DATARANGE_ANALOGVIDEO, vidcapstruct_43f72b11-2ac7-4b68-b595-c37022d956c7.xml"
 f1_keywords:
  - "ksmedia/KS_DATARANGE_ANALOGVIDEO"

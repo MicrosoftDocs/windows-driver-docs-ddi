@@ -6,6 +6,7 @@ old-location: stream\camconfigureex.htm
 tech.root: stream
 ms.assetid: ec9fd207-4ed8-4bc9-b240-b5214e8c7f67
 ms.date: 04/23/2018
+keywords: ["PCAM_CONFIGURE_ROUTINE_EX callback function"]
 ms.keywords: CamConfigureEx, CamConfigureEx routine [Streaming Media Devices], PCAM_CONFIGURE_ROUTINE_EX, stream.camconfigureex, usbcamdi/CamConfigureEx, usbcmdpr_79d31303-32b2-493e-87b6-d6e1a9ad292d.xml
 f1_keywords:
  - "usbcamdi/CamConfigureEx"

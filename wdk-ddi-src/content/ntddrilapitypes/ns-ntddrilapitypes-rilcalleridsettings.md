@@ -6,6 +6,7 @@ old-location: netvista\rilcalleridsettings.htm
 tech.root: netvista
 ms.assetid: 3ba2cd72-4678-4ada-9777-12cbb6032628
 ms.date: 05/02/2018
+keywords: ["RILCALLERIDSETTINGS structure"]
 ms.keywords: "*LPRILCALLERIDSETTINGS, RILCALLERIDSETTINGS, RILCALLERIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilcalleridsettings, ntddrilapitypes/RILCALLERIDSETTINGS"
 f1_keywords:
  - "ntddrilapitypes/RILCALLERIDSETTINGS"

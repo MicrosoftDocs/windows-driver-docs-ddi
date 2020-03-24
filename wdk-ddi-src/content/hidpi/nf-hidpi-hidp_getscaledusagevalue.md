@@ -6,6 +6,7 @@ old-location: hid\hidp_getscaledusagevalue.htm
 tech.root: hid
 ms.assetid: 0af1a3f2-b933-4232-865c-cccca53fd32e
 ms.date: 04/30/2018
+keywords: ["HidP_GetScaledUsageValue function"]
 ms.keywords: HidP_GetScaledUsageValue, HidP_GetScaledUsageValue routine [Human Input Devices], hid.hidp_getscaledusagevalue, hidfunc_7fa22086-ab66-4c6b-a7de-65adce226b10.xml, hidpi/HidP_GetScaledUsageValue
 f1_keywords:
  - "hidpi/HidP_GetScaledUsageValue"

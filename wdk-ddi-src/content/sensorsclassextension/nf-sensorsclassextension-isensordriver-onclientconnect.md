@@ -6,6 +6,7 @@ old-location: sensors\isensordriver_onclientconnect.htm
 tech.root: sensors
 ms.assetid: 0f64288b-5100-4529-af2f-3e867375da39
 ms.date: 05/03/2018
+keywords: ["ISensorDriver::OnClientConnect"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnClientConnect method, ISensorDriver.OnClientConnect, ISensorDriver::OnClientConnect, OnClientConnect, OnClientConnect method [Sensor Devices], OnClientConnect method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onclientconnect, sensorsclassextension/ISensorDriver::OnClientConnect
 f1_keywords:
  - "sensorsclassextension/OnClientConnect"

@@ -6,6 +6,7 @@ old-location: display\dxvaddi_nominalrange.htm
 tech.root: display
 ms.assetid: f3f5fac9-013c-4739-a29e-c781b34e5289
 ms.date: 05/10/2018
+keywords: ["_DXVADDI_NOMINALRANGE enumeration"]
 ms.keywords: DXVA2_Structs_fee8e221-64df-474a-a178-439365c683fd.xml, DXVADDI_NOMINALRANGE, DXVADDI_NOMINALRANGE enumeration [Display Devices], DXVADDI_NominalRangeMask, DXVADDI_NominalRange_0_255, DXVADDI_NominalRange_16_235, DXVADDI_NominalRange_48_208, DXVADDI_NominalRange_Normal, DXVADDI_NominalRange_Unknown, DXVADDI_NominalRange_Wide, _DXVADDI_NOMINALRANGE, d3dumddi/DXVADDI_NOMINALRANGE, d3dumddi/DXVADDI_NominalRangeMask, d3dumddi/DXVADDI_NominalRange_0_255, d3dumddi/DXVADDI_NominalRange_16_235, d3dumddi/DXVADDI_NominalRange_48_208, d3dumddi/DXVADDI_NominalRange_Normal, d3dumddi/DXVADDI_NominalRange_Unknown, d3dumddi/DXVADDI_NominalRange_Wide, display.dxvaddi_nominalrange
 f1_keywords:
  - "d3dumddi/DXVADDI_NOMINALRANGE"

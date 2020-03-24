@@ -6,6 +6,7 @@ old-location: storage\volume_disk_extents.htm
 tech.root: storage
 ms.assetid: 227846c2-8794-4859-89af-c139ead32143
 ms.date: 03/29/2018
+keywords: ["_VOLUME_DISK_EXTENTS structure"]
 ms.keywords: "*PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS structure pointer [Storage Devices], VOLUME_DISK_EXTENTS, VOLUME_DISK_EXTENTS structure [Storage Devices], _VOLUME_DISK_EXTENTS, ntddvol/PVOLUME_DISK_EXTENTS, ntddvol/VOLUME_DISK_EXTENTS, storage.volume_disk_extents, structs-volumemgr_148847d4-324c-4767-8247-7d286e496d42.xml"
 f1_keywords:
  - "ntddvol/VOLUME_DISK_EXTENTS"

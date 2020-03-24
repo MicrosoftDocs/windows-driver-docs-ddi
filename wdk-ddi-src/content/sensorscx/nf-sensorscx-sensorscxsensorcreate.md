@@ -6,6 +6,7 @@ old-location: sensors\sensorscxsensorcreate.htm
 tech.root: sensors
 ms.assetid: A365381B-3456-47B6-93C7-81C8963CB183
 ms.date: 05/03/2018
+keywords: ["SensorsCxSensorCreate function"]
 ms.keywords: SensorsCxSensorCreate, SensorsCxSensorCreate function [Sensor Devices], sensors.sensorscxsensorcreate, sensorscx/SensorsCxSensorCreate
 f1_keywords:
  - "sensorscx/SensorsCxSensorCreate"

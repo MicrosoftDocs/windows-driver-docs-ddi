@@ -6,6 +6,7 @@ old-location: netvista\ndisinterlockedinserttaillist.htm
 tech.root: netvista
 ms.assetid: cc455bb1-3574-4dfb-9462-f2c67632132b
 ms.date: 05/02/2018
+keywords: ["NdisInterlockedInsertTailList macro"]
 ms.keywords: NdisInterlockedInsertTailList, NdisInterlockedInsertTailList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedInsertTailList, ndis_interlocked_ref_1fd860e3-2f63-41a0-9231-7e50a9b87e36.xml, netvista.ndisinterlockedinserttaillist
 f1_keywords:
  - "ndis/NdisInterlockedInsertTailList"

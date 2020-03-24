@@ -5,6 +5,7 @@ description: Creates a rasterizer state.
 old-location: display\createrasterizerstate_d3d11_1_.htm
 ms.assetid: 5640e1c9-6a38-4eca-9048-0bc9ff66c43c
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_CREATERASTERIZERSTATE callback function"]
 ms.keywords: CreateRasterizerState(D3D11_1), CreateRasterizerState(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATERASTERIZERSTATE, PFND3D11_1DDI_CREATERASTERIZERSTATE callback, d3d10umddi/CreateRasterizerState(D3D11_1), display.createrasterizerstate_d3d11_1_, display.pfncreaterasterizerstate
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h

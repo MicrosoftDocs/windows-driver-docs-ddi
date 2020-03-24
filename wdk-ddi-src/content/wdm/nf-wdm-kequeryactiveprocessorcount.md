@@ -6,6 +6,7 @@ old-location: kernel\kequeryactiveprocessorcount.htm
 tech.root: kernel
 ms.assetid: 4369ad33-ba4a-45db-9a41-e77d6c55da53
 ms.date: 04/30/2018
+keywords: ["KeQueryActiveProcessorCount function"]
 ms.keywords: KeQueryActiveProcessorCount, KeQueryActiveProcessorCount routine [Kernel-Mode Driver Architecture], k105_23574ace-ab66-43bb-976f-ca7310cece9a.xml, kernel.kequeryactiveprocessorcount, wdm/KeQueryActiveProcessorCount
 f1_keywords:
  - "wdm/KeQueryActiveProcessorCount"

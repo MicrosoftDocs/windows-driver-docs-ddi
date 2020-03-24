@@ -6,6 +6,7 @@ old-location: serports\evtsercxfilecleanup.htm
 tech.root: serports
 ms.assetid: D9E19BD1-2C44-4F86-9AEB-F50443FAE8DC
 ms.date: 04/23/2018
+keywords: ["EVT_SERCX_FILECLEANUP callback function"]
 ms.keywords: 1/EvtSerCxFileCleanup, EVT_SERCX_FILECLEANUP, EVT_SERCX_FILECLEANUP callback, EvtSerCxFileCleanup, EvtSerCxFileCleanup callback function [Serial Ports], serports.evtsercxfilecleanup
 f1_keywords:
  - "sercx/EvtSerCxFileCleanup"

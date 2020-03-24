@@ -6,6 +6,7 @@ old-location: storage\ms_smhba_portlun.htm
 tech.root: storage
 ms.assetid: cf62685f-7b4d-4671-a755-d59a593bf5d6
 ms.date: 03/29/2018
+keywords: ["_MS_SMHBA_PORTLUN structure"]
 ms.keywords: "*PMS_SMHBA_PORTLUN, MS_SMHBA_PORTLUN, MS_SMHBA_PORTLUN structure [Storage Devices], PMS_SMHBA_PORTLUN, PMS_SMHBA_PORTLUN structure pointer [Storage Devices], _MS_SMHBA_PORTLUN, hbapiwmi/MS_SMHBA_PORTLUN, hbapiwmi/PMS_SMHBA_PORTLUN, storage.ms_smhba_portlun, structs-Fibre_a0363ae3-80ce-4efd-8409-826d1810190c.xml"
 f1_keywords:
  - "hbapiwmi/MS_SMHBA_PORTLUN"

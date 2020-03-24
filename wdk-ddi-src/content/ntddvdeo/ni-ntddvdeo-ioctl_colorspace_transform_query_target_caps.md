@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 7e6fa172-48c2-436a-a990-08089568ce76
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["IOCTL_COLORSPACE_TRANSFORM_QUERY_TARGET_CAPS IOCTL"]
 f1_keywords:
  - "ntddvdeo/IOCTL_COLORSPACE_TRANSFORM_QUERY_TARGET_CAPS"
 req.header: ntddvdeo.h

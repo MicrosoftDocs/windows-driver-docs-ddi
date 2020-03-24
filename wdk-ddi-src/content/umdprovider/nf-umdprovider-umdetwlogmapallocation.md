@@ -6,6 +6,7 @@ old-location: display\umdetwlogmapallocation.htm
 tech.root: display
 ms.assetid: 60456f6a-3de7-46ae-b486-f53041ce1508
 ms.date: 05/10/2018
+keywords: ["UMDEtwLogMapAllocation function"]
 ms.keywords: UMDEtwLogMapAllocation, UMDEtwLogMapAllocation function [Display Devices], display.umdetwlogmapallocation, umdprovider/UMDEtwLogMapAllocation
 f1_keywords:
  - "umdprovider/UMDEtwLogMapAllocation"

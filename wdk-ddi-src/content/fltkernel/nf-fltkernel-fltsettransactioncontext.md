@@ -6,6 +6,7 @@ old-location: ifsk\fltsettransactioncontext.htm
 tech.root: ifsk
 ms.assetid: bb68ee38-1726-4493-9c3b-71a1352dd9f2
 ms.date: 04/16/2018
+keywords: ["FltSetTransactionContext function"]
 ms.keywords: FLT_SET_CONTEXT_KEEP_IF_EXISTS, FLT_SET_CONTEXT_REPLACE_IF_EXISTS, FltApiRef_p_to_z_ac2c79a4-ca14-417d-a394-24a38d89f3bf.xml, FltSetTransactionContext, FltSetTransactionContext routine [Installable File System Drivers], fltkernel/FltSetTransactionContext, ifsk.fltsettransactioncontext
 f1_keywords:
  - "fltkernel/FltSetTransactionContext"

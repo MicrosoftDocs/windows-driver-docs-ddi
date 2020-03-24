@@ -5,6 +5,7 @@ description: Used by new drivers to report per-plane flip completion after a VSY
 old-location: display\dxgk_multiplane_overlay_vsync_info2.htm
 ms.assetid: CC1371C5-1BAB-458C-BC7F-9844B2BBEA3A
 ms.date: 05/10/2018
+keywords: ["_DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, display.dxgk_multiplane_overlay_vsync_info2
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2"

@@ -6,6 +6,7 @@ old-location: debugger\debug_last_event_info_unload_module.htm
 tech.root: debugger
 ms.assetid: D569C1DD-0ACB-41AA-8589-BD4332006CA2
 ms.date: 05/03/2018
+keywords: ["_DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure"]
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, dbgeng/DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, dbgeng/PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, debugger.debug_last_event_info_unload_module"
 f1_keywords:
  - "dbgeng/DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE"

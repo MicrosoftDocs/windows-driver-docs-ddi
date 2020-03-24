@@ -6,6 +6,7 @@ old-location: storage\storage_device_power_cap_units.htm
 tech.root: storage
 ms.assetid: 199900F4-90A7-4F2E-B85E-25BF3593D50B
 ms.date: 03/29/2018
+keywords: ["_STORAGE_DEVICE_POWER_CAP_UNITS enumeration"]
 ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Storage Devices], StorageDevicePowerCapUnitsMilliwatts, StorageDevicePowerCapUnitsPercent, _STORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/STORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/StorageDevicePowerCapUnitsMilliwatts, ntddstor/StorageDevicePowerCapUnitsPercent, storage.storage_device_power_cap_units"
 f1_keywords:
  - "ntddstor/STORAGE_DEVICE_POWER_CAP_UNITS"

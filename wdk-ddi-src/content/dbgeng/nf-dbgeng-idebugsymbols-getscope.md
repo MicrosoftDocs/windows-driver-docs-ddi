@@ -6,6 +6,7 @@ old-location: debugger\getscope.htm
 tech.root: debugger
 ms.assetid: 59eb490e-66d5-4108-8d00-5503fa56665d
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols::GetScope"]
 ms.keywords: GetScope, GetScope method [Windows Debugging], GetScope method [Windows Debugging],IDebugSymbols interface, GetScope method [Windows Debugging],IDebugSymbols2 interface, GetScope method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetScope method, IDebugSymbols.GetScope, IDebugSymbols2 interface [Windows Debugging],GetScope method, IDebugSymbols2::GetScope, IDebugSymbols3 interface [Windows Debugging],GetScope method, IDebugSymbols3::GetScope, IDebugSymbols::GetScope, IDebugSymbols_500f523a-22d9-468e-8d7c-36f49bda089c.xml, dbgeng/IDebugSymbols2::GetScope, dbgeng/IDebugSymbols3::GetScope, dbgeng/IDebugSymbols::GetScope, debugger.getscope
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetScope"

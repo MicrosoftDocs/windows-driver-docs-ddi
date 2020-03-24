@@ -6,6 +6,7 @@ old-location: wdf\evtdmatransactiondmatransfercomplete.htm
 tech.root: wdf
 ms.assetid: C638A505-AAE1-48FC-B06B-F2F161ADC948
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE callback function"]
 ms.keywords: EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE, EVT_WDF_DMA_TRANSACTION_DMA_TRANSFER_COMPLETE callback, EvtDmaTransactionDmaTransferComplete, EvtDmaTransactionDmaTransferComplete callback function, kmdf.evtdmatransactiondmatransfercomplete, wdf.evtdmatransactiondmatransfercomplete, wdfdmatransaction/EvtDmaTransactionDmaTransferComplete
 f1_keywords:
  - "wdfdmatransaction/EvtDmaTransactionDmaTransferComplete"

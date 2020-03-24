@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlsetupadvancedheaderex.htm
 tech.root: ifsk
 ms.assetid: 41e5d9f2-ac0b-4834-bca8-88ed872f2f70
 ms.date: 04/16/2018
+keywords: ["FsRtlSetupAdvancedHeaderEx macro"]
 ms.keywords: FsRtlSetupAdvancedHeaderEx, FsRtlSetupAdvancedHeaderEx function [Installable File System Drivers], fsrtlref_9214990b-2568-43d9-801a-c43514a6448f.xml, ifsk.fsrtlsetupadvancedheaderex, ntifs/FsRtlSetupAdvancedHeaderEx
 f1_keywords:
  - "ntifs/FsRtlSetupAdvancedHeaderEx"

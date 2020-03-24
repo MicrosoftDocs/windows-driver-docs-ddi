@@ -6,6 +6,7 @@ old-location: storage\ioctl_mountmgr_volume_mount_point_deleted.htm
 tech.root: storage
 ms.assetid: 8a436053-87c2-4fa2-9280-7035a990d0b4
 ms.date: 03/29/2018
+keywords: ["IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED, IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED control, IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED control code [Storage Devices], k307_fce8de67-6c3d-4e89-8259-a7058c968c62.xml, mountmgr/IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED, storage.ioctl_mountmgr_volume_mount_point_deleted
 f1_keywords:
  - "mountmgr/IOCTL_MOUNTMGR_VOLUME_MOUNT_POINT_DELETED"

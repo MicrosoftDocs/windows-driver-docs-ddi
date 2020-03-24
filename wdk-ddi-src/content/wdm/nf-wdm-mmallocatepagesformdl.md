@@ -6,6 +6,7 @@ old-location: kernel\mmallocatepagesformdl.htm
 tech.root: kernel
 ms.assetid: 06b52af0-c2d3-444e-8714-4fce4181dddc
 ms.date: 04/30/2018
+keywords: ["MmAllocatePagesForMdl function"]
 ms.keywords: MmAllocatePagesForMdl, MmAllocatePagesForMdl routine [Kernel-Mode Driver Architecture], k106_bb9bac91-62a6-45f8-9133-0d23eda07b1e.xml, kernel.mmallocatepagesformdl, wdm/MmAllocatePagesForMdl
 f1_keywords:
  - "wdm/MmAllocatePagesForMdl"

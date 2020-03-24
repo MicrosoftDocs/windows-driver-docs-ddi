@@ -4,6 +4,7 @@ title: PFND3DKMT_FLIPOVERLAY (d3dkmthk.h)
 description: The Pfnd3dkmtFlipoverlay callback function displays a new allocation by using the specified overlay.
 ms.assetid: 29cd8d93-c162-47a4-9ac3-808e705819c0
 ms.date: 10/19/2018
+keywords: ["PFND3DKMT_FLIPOVERLAY callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_FLIPOVERLAY"
 req.header: d3dkmthk.h

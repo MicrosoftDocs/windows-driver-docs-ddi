@@ -6,6 +6,7 @@ old-location: netvista\ndiswdiallocatewdiframemetadata.htm
 tech.root: netvista
 ms.assetid: 6C565DAF-3363-466F-AC4A-9DB534E581FC
 ms.date: 05/02/2018
+keywords: ["NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA callback function"]
 ms.keywords: NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA, NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA callback, NdisWdiAllocateWiFiFrameMetaData, NdisWdiAllocateWiFiFrameMetaData callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiAllocateWiFiFrameMetaData, netvista.ndiswdiallocatewdiframemetadata
 f1_keywords:
  - "dot11wdi/NdisWdiAllocateWiFiFrameMetaData"

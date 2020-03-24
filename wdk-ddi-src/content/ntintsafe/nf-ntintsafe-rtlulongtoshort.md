@@ -6,6 +6,7 @@ old-location: kernel\rtlulongtoshort.htm
 tech.root: kernel
 ms.assetid: CF44513A-8BFE-453F-A3C1-BF50C86A663E
 ms.date: 04/30/2018
+keywords: ["RtlULongToShort function"]
 ms.keywords: RtlULongToShort, RtlULongToShort function [Kernel-Mode Driver Architecture], kernel.rtlulongtoshort, ntintsafe/RtlULongToShort
 f1_keywords:
  - "ntintsafe/RtlULongToShort"

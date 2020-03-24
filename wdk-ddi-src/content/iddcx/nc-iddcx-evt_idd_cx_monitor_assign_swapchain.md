@@ -6,6 +6,7 @@ old-location: display\evt_idd_cx_monitor_assign_swapchain.htm
 tech.root: display
 ms.assetid: ae3b4101-d006-48ad-91c9-d9b3ee9a4674
 ms.date: 05/10/2018
+keywords: ["EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN, EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN callback, EvtIddCxMonitorAssignSwapchain, EvtIddCxMonitorAssignSwapchain callback function [Display Devices], PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN, PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN callback function pointer [Display Devices], display.evt_idd_cx_monitor_assign_swapchain, iddcx/EvtIddCxMonitorAssignSwapchain
 f1_keywords:
  - "iddcx/PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN"

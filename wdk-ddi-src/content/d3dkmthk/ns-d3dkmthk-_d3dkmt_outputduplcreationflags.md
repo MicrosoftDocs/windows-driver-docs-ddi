@@ -4,6 +4,7 @@ title: _D3DKMT_OUTPUTDUPLCREATIONFLAGS (d3dkmthk.h)
 description: The output creation flags.
 ms.assetid: 6aea34d1-19c8-4900-a626-519dd50a50f4
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_OUTPUTDUPLCREATIONFLAGS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_OUTPUTDUPLCREATIONFLAGS"
 ms.keywords: _D3DKMT_OUTPUTDUPLCREATIONFLAGS, D3DKMT_OUTPUTDUPLCREATIONFLAGS, 

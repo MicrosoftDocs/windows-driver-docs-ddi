@@ -6,6 +6,7 @@ old-location: display\dxgiddi_multiplane_overlay_allocation_info.htm
 tech.root: display
 ms.assetid: 2736b955-1b25-4ded-a75a-19a1c47f61ee
 ms.date: 05/10/2018
+keywords: ["DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure"]
 ms.keywords: DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure [Display Devices], display.dxgiddi_multiplane_overlay_allocation_info, dxgiddi/DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
 f1_keywords:
  - "dxgiddi/DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO"

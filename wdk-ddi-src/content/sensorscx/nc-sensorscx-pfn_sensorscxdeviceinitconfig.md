@@ -4,6 +4,7 @@ title: PFN_SENSORSCXDEVICEINITCONFIG (sensorscx.h)
 description: Configures the sensor device.
 ms.assetid: 995a8d23-3a2c-4c7a-9b53-118c6ef0e403
 ms.date: 10/19/2018
+keywords: ["*PFN_SENSORSCXDEVICEINITCONFIG callback function"]
 f1_keywords:
  - "sensorscx/*PFN_SENSORSCXDEVICEINITCONFIG"
 req.header: sensorscx.h

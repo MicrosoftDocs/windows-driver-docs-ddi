@@ -6,6 +6,7 @@ old-location: kernel\zwopenenlistment.htm
 tech.root: kernel
 ms.assetid: b70d524f-2341-4b19-9c4a-f5095cb7f412
 ms.date: 04/30/2018
+keywords: ["ZwOpenEnlistment function"]
 ms.keywords: NtOpenEnlistment, ZwOpenEnlistment, ZwOpenEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwopenenlistment, ktm_ref_cc7719f5-a9a2-42be-9961-01f910f864bc.xml, wdm/NtOpenEnlistment, wdm/ZwOpenEnlistment
 f1_keywords:
  - "wdm/ZwOpenEnlistment"

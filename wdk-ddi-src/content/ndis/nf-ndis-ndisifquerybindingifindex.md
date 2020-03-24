@@ -6,6 +6,7 @@ old-location: netvista\ndisifquerybindingifindex.htm
 tech.root: netvista
 ms.assetid: 08f31584-b3ea-4e6e-b8ce-17813ca7c06b
 ms.date: 05/02/2018
+keywords: ["NdisIfQueryBindingIfIndex function"]
 ms.keywords: NdisIfQueryBindingIfIndex, NdisIfQueryBindingIfIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfQueryBindingIfIndex, net_if_functions_ref_eacdb959-2a12-4688-9e83-7454c579e2d3.xml, netvista.ndisifquerybindingifindex
 f1_keywords:
  - "ndis/NdisIfQueryBindingIfIndex"

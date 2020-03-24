@@ -6,6 +6,7 @@ old-location: debugger\debugextensionprovidevalue.htm
 tech.root: debugger
 ms.assetid: b4b1953c-dc1b-495a-ab58-5cfaa6064b23
 ms.date: 05/03/2018
+keywords: ["PDEBUG_EXTENSION_PROVIDE_VALUE callback function"]
 ms.keywords: DEBUG_EXT_PVTYPE_IS_POINTER, DEBUG_EXT_PVTYPE_IS_VALUE, DebugExtensionProvideValue, DebugExtensionProvideValue callback function [Windows Debugging], Extensions_Ref_fa822b69-6941-46e9-8b68-d57dd8d19d14.xml, PDEBUG_EXTENSION_PROVIDE_VALUE, PDEBUG_EXTENSION_PROVIDE_VALUE callback, dbgeng/DebugExtensionProvideValue, debugger.debugextensionprovidevalue
 f1_keywords:
  - "dbgeng/DebugExtensionProvideValue"

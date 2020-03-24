@@ -6,6 +6,7 @@ old-location: netvista\dot11extsetexcludeunencrypted.htm
 tech.root: netvista
 ms.assetid: b6482124-0d65-4953-8a8f-a09c0a88d830
 ms.date: 02/16/2018
+keywords: ["DOT11EXT_SET_EXCLUDE_UNENCRYPTED callback"]
 ms.keywords: DOT11EXT_SET_EXCLUDE_UNENCRYPTED, Dot11ExtSetExcludeUnencrypted, Dot11ExtSetExcludeUnencrypted callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_aa6f594d-e5b7-4ba0-9ad8-deb42f6c23ad.xml, netvista.dot11extsetexcludeunencrypted, wlanihv/Dot11ExtSetExcludeUnencrypted
 f1_keywords:
  - "wlanihv/Dot11ExtSetExcludeUnencrypted"

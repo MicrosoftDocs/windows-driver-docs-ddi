@@ -6,6 +6,7 @@ old-location: debugger\getnexttagged.htm
 tech.root: debugger
 ms.assetid: 529ef33a-adad-4242-96a8-01cdd273cc35
 ms.date: 05/03/2018
+keywords: ["IDebugDataSpaces4::GetNextTagged"]
 ms.keywords: GetNextTagged, GetNextTagged method [Windows Debugging], GetNextTagged method [Windows Debugging],IDebugDataSpaces3 interface, GetNextTagged method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces3 interface [Windows Debugging],GetNextTagged method, IDebugDataSpaces3::GetNextTagged, IDebugDataSpaces4 interface [Windows Debugging],GetNextTagged method, IDebugDataSpaces4.GetNextTagged, IDebugDataSpaces4::GetNextTagged, IDebugDataSpaces_24254a63-1fcd-4ad9-a370-6b0760ed37cd.xml, dbgeng/IDebugDataSpaces3::GetNextTagged, dbgeng/IDebugDataSpaces4::GetNextTagged, debugger.getnexttagged
 f1_keywords:
  - "dbgeng/IDebugDataSpaces3.GetNextTagged"

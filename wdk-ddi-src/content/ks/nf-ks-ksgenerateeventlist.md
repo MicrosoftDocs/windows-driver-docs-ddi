@@ -6,6 +6,7 @@ old-location: stream\ksgenerateeventlist.htm
 tech.root: stream
 ms.assetid: 336dbbc1-0f3c-4a3f-b3b4-017f4d158bda
 ms.date: 04/23/2018
+keywords: ["KsGenerateEventList function"]
 ms.keywords: KsGenerateEventList, KsGenerateEventList function [Streaming Media Devices], ks/KsGenerateEventList, ksfunc_d4a351ab-f750-4486-99ae-72c42794bee0.xml, stream.ksgenerateeventlist
 f1_keywords:
  - "ks/KsGenerateEventList"

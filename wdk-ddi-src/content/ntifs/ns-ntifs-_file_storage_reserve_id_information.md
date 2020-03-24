@@ -4,6 +4,7 @@ title: _FILE_STORAGE_RESERVE_ID_INFORMATION (ntifs.h)
 description: Queries and sets the storage reserve ID on a file or directory.
 ms.assetid: 3114a6fb-3728-41a7-b4f4-d4463eec019b
 ms.date: 09/30/2018
+keywords: ["_FILE_STORAGE_RESERVE_ID_INFORMATION structure"]
 f1_keywords:
  - "ntifs/_FILE_STORAGE_RESERVE_ID_INFORMATION"
 ms.keywords: _FILE_STORAGE_RESERVE_ID_INFORMATION, FILE_STORAGE_RESERVE_ID_INFORMATION, *PFILE_STORAGE_RESERVE_ID_INFORMATION, 

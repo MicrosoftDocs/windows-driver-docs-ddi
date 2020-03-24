@@ -4,6 +4,7 @@ title: IDebugHostSymbol2::CompareAgainst (dbgmodel.h)
 description: Compares two symbols for equality. 
 ms.assetid: abdc73ad-ae24-43cd-9b66-9f063a554cda
 ms.date: 09/20/2018
+keywords: ["IDebugHostSymbol2::CompareAgainst"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol2.CompareAgainst"
 ms.keywords: IDebugHostSymbol2::CompareAgainst, CompareAgainst, IDebugHostSymbol2.CompareAgainst, IDebugHostSymbol2::CompareAgainst, IDebugHostSymbol2.CompareAgainst

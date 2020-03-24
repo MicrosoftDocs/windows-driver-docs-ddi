@@ -5,6 +5,7 @@ description: The D3D10DDIARG_SIGNATURE_ENTRY structure describes an entry for a 
 old-location: display\d3d10ddiarg_signature_entry.htm
 ms.assetid: 9a7a595e-59b1-4cc2-ab09-ba22aebae9ca
 ms.date: 05/10/2018
+keywords: ["D3D10DDIARG_SIGNATURE_ENTRY structure"]
 ms.keywords: D3D10DDIARG_SIGNATURE_ENTRY, D3D10DDIARG_SIGNATURE_ENTRY structure [Display Devices], UMDisplayDriver_Dx10param_Structs_8f54c330-f382-4bae-939f-7b96fd9b1a46.xml, d3d10umddi/D3D10DDIARG_SIGNATURE_ENTRY, display.d3d10ddiarg_signature_entry
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_SIGNATURE_ENTRY"

@@ -3,6 +3,7 @@ UID: NA:wppdefs
 title: Wppdefs.h header
 ms.assetid: 39ff1a50-f8af-39f2-b3af-65214dea3b9d
 ms.date: 05/09/2018
+keywords: ["Wppdefs.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

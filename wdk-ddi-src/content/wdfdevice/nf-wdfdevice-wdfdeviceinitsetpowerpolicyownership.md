@@ -6,6 +6,7 @@ old-location: wdf\wdfdeviceinitsetpowerpolicyownership.htm
 tech.root: wdf
 ms.assetid: 4db198f5-9472-476d-bb0c-4858a3f98672
 ms.date: 02/26/2018
+keywords: ["WdfDeviceInitSetPowerPolicyOwnership function"]
 ms.keywords: DFDeviceObjectGeneralRef_0c94f8f0-3b23-404a-83c2-1742785ff17d.xml, WdfDeviceInitSetPowerPolicyOwnership, WdfDeviceInitSetPowerPolicyOwnership method, kmdf.wdfdeviceinitsetpowerpolicyownership, wdf.wdfdeviceinitsetpowerpolicyownership, wdfdevice/WdfDeviceInitSetPowerPolicyOwnership
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetPowerPolicyOwnership"

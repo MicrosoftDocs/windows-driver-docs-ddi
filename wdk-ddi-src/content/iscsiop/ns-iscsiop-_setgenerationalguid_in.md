@@ -6,6 +6,7 @@ old-location: storage\setgenerationalguid_in.htm
 tech.root: storage
 ms.assetid: 24568c37-9641-4e3e-b788-f71db4f3f70f
 ms.date: 03/29/2018
+keywords: ["_SetGenerationalGuid_IN structure"]
 ms.keywords: "*PSetGenerationalGuid_IN, PSetGenerationalGuid_IN, PSetGenerationalGuid_IN structure pointer [Storage Devices], SetGenerationalGuid_IN, SetGenerationalGuid_IN structure [Storage Devices], _SetGenerationalGuid_IN, iscsiop/PSetGenerationalGuid_IN, iscsiop/SetGenerationalGuid_IN, storage.setgenerationalguid_in, structs-iSCSI_e40eec29-19af-4f5a-8c5f-11b40c76ae0c.xml"
 f1_keywords:
  - "iscsiop/SetGenerationalGuid_IN"

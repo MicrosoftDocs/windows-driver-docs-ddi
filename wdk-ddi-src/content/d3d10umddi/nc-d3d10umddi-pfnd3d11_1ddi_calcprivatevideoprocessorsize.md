@@ -5,6 +5,7 @@ description: Returns the number of bytes that the driver requires to store priva
 old-location: display\calcprivatevideoprocessorsize.htm
 ms.assetid: a30d98b2-3d39-456a-8363-44ccc71e58ff
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE callback function"]
 ms.keywords: CalcPrivateVideoProcessorSize, CalcPrivateVideoProcessorSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE, PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE callback, d3d10umddi/CalcPrivateVideoProcessorSize, display.calcprivatevideoprocessorsize
 f1_keywords:
  - "d3d10umddi/CalcPrivateVideoProcessorSize"

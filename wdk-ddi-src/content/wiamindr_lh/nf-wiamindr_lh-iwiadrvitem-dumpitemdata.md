@@ -6,6 +6,7 @@ old-location: image\iwiadrvitem_dumpitemdata.htm
 tech.root: image
 ms.assetid: e17da654-60a7-4942-99f9-f55df87a1ca3
 ms.date: 05/03/2018
+keywords: ["IWiaDrvItem::DumpItemData"]
 ms.keywords: DrvItem_fae1b45f-719d-4bce-92fd-d43844178800.xml, DumpItemData, DumpItemData method [Imaging Devices], DumpItemData method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],DumpItemData method, IWiaDrvItem.DumpItemData, IWiaDrvItem::DumpItemData, image.iwiadrvitem_dumpitemdata, wiamindr_lh/IWiaDrvItem::DumpItemData
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.DumpItemData"

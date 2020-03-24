@@ -3,6 +3,7 @@ UID: NA:ucxglobals
 title: Ucxglobals.h header
 ms.assetid: 4ed6354e-1da0-3905-a8eb-66f4d6f00c04
 ms.date: 05/09/2018
+keywords: ["Ucxglobals.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

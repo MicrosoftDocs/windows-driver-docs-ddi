@@ -5,6 +5,7 @@ description: The NET_BUFFER_LIST_SET_HASH_FUNCTION macro sets the hash function 
 tech.root: netvista
 ms.assetid: e586100e-39f4-4ecf-8f50-65470bc6d9d3
 ms.date: 04/13/2018
+keywords: ["NET_BUFFER_LIST_SET_HASH_FUNCTION function"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_SET_HASH_FUNCTION"
 ms.keywords: NET_BUFFER_LIST_SET_HASH_FUNCTION

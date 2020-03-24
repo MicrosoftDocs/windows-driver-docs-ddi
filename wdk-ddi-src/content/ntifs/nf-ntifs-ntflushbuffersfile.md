@@ -6,6 +6,7 @@ old-location: kernel\ZwFlushBuffersFile.htm
 tech.root: kernel
 ms.assetid: C081CCF5-D13C-405C-A430-31805A16724A
 ms.date: 11/26/2019
+keywords: ["NtFlushBuffersFile function"]
 ms.keywords: FLUSH_FLAGS_FILE_DATA_ONLY, FLUSH_FLAGS_NO_SYNC, NtFlushBuffersFile, ZwFlushBuffersFile, ZwFlushBuffersFile routine [Kernel-Mode Driver Architecture], kernel.ZwFlushBuffersFile, ntifs/NtFlushBuffersFile, ntifs/ZwFlushBuffersFile
 f1_keywords:
  - "ntifs/NtFlushBuffersFile"

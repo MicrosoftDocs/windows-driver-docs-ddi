@@ -6,6 +6,7 @@ old-location: kernel\rtlupperstring.htm
 tech.root: kernel
 ms.assetid: 3a120831-deac-4075-9aa7-8ae39ac29363
 ms.date: 04/30/2018
+keywords: ["RtlUpperString function"]
 ms.keywords: RtlUpperString, RtlUpperString routine [Kernel-Mode Driver Architecture], k109_07df2cdb-0d52-4094-bcdf-62977c15e098.xml, kernel.rtlupperstring, ntddk/RtlUpperString
 f1_keywords:
  - "ntddk/RtlUpperString"

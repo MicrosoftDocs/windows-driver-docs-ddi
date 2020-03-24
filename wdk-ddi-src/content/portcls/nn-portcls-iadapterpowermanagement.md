@@ -6,6 +6,7 @@ old-location: audio\iadapterpowermanagement.htm
 tech.root: audio
 ms.assetid: 20c898fd-a782-4d73-bf1b-a25db4440632
 ms.date: 05/08/2018
+keywords: ["IAdapterPowerManagement interface"]
 ms.keywords: IAdapterPowerManagement, IAdapterPowerManagement interface [Audio Devices], IAdapterPowerManagement interface [Audio Devices],described, audio.iadapterpowermanagement, audmp-routines_9daec120-c61d-426c-b30f-80484e1fb652.xml, portcls/IAdapterPowerManagement
 f1_keywords:
  - "portcls/IAdapterPowerManagement"

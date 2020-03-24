@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlissystempagingfile.htm
 tech.root: ifsk
 ms.assetid: BF92ADEA-4A9F-41E0-BE52-0794D1D827A1
 ms.date: 04/16/2018
+keywords: ["FsRtlIsSystemPagingFile function"]
 ms.keywords: FsRtlIsPagingFile, FsRtlIsPagingFile routine [Installable File System Drivers], FsRtlIsSystemPagingFile, ifsk.fsrtlissystempagingfile, ntifs/FsRtlIsPagingFile
 f1_keywords:
  - "ntifs/FsRtlIsPagingFile"

@@ -5,6 +5,7 @@ description: Initializes a caller-allocated NET_REQUEST_QUEUE_CONFIG structure t
 tech.root: netvista
 ms.assetid: cee1dccc-cbe6-49ca-b640-01dd7c0192b0
 ms.date: 02/09/2018
+keywords: ["NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_SEQUENTIAL function"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_SEQUENTIAL"
 ms.keywords: NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_SEQUENTIAL

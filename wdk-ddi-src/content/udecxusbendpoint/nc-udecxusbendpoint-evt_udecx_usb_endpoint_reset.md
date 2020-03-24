@@ -6,6 +6,7 @@ old-location: buses\evt_udecx_usb_endpoint_reset.htm
 tech.root: usbref
 ms.assetid: 4220509B-A378-47F4-8E71-0290EDED89EB
 ms.date: 05/07/2018
+keywords: ["EVT_UDECX_USB_ENDPOINT_RESET callback function"]
 ms.keywords: EVT_UDECX_USB_ENDPOINT_RESET, EVT_UDECX_USB_ENDPOINT_RESET callback, EvtUsbEndpointReset, EvtUsbEndpointReset callback function [Buses], buses.evt_udecx_usb_endpoint_reset, udecxusbendpoint/EvtUsbEndpointReset
 f1_keywords:
  - "udecxusbendpoint/EvtUsbEndpointReset"

@@ -6,6 +6,7 @@ old-location: kernel\rtlint8sub.htm
 tech.root: kernel
 ms.assetid: 3648668C-65CD-45F9-80E0-490AE2FE405E
 ms.date: 04/30/2018
+keywords: ["RtlInt8Sub function"]
 ms.keywords: RtlInt8Sub, RtlInt8Sub function [Kernel-Mode Driver Architecture], kernel.rtlint8sub, ntintsafe/RtlInt8Sub
 f1_keywords:
  - "ntintsafe/RtlInt8Sub"

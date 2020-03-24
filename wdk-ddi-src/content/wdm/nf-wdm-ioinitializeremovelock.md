@@ -6,6 +6,7 @@ old-location: kernel\ioinitializeremovelock.htm
 tech.root: kernel
 ms.assetid: d85bab78-0e9e-4e71-a09b-40954df81c87
 ms.date: 04/30/2018
+keywords: ["IoInitializeRemoveLock macro"]
 ms.keywords: IoInitializeRemoveLock, IoInitializeRemoveLock routine [Kernel-Mode Driver Architecture], k104_b9b844b1-4bb4-4a52-8274-c5a3441f6267.xml, kernel.ioinitializeremovelock, wdm/IoInitializeRemoveLock
 f1_keywords:
  - "wdm/IoInitializeRemoveLock"

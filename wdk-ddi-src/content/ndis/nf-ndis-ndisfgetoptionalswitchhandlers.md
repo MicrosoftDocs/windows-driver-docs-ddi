@@ -6,6 +6,7 @@ old-location: netvista\ndisfgetoptionalswitchhandlers.htm
 tech.root: netvista
 ms.assetid: bf034ecd-5c1b-4117-a7b0-bcca3971386b
 ms.date: 05/02/2018
+keywords: ["NdisFGetOptionalSwitchHandlers function"]
 ms.keywords: NdisFGetOptionalSwitchHandlers, NdisFGetOptionalSwitchHandlers function [Network Drivers Starting with Windows Vista], ndis/NdisFGetOptionalSwitchHandlers, netvista.ndisfgetoptionalswitchhandlers
 f1_keywords:
  - "ndis/NdisFGetOptionalSwitchHandlers"

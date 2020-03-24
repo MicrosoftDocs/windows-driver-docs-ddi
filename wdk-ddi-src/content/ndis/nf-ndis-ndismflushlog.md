@@ -6,6 +6,7 @@ old-location: netvista\ndismflushlog.htm
 tech.root: netvista
 ms.assetid: a681b704-80cc-406a-b60f-31ef5f953164
 ms.date: 05/02/2018
+keywords: ["NdisMFlushLog function"]
 ms.keywords: NdisMFlushLog, NdisMFlushLog function [Network Drivers Starting with Windows Vista], miniport_logging_ref_9de3f5b8-80d8-4f98-82ac-c4b490a3c8a4.xml, ndis/NdisMFlushLog, netvista.ndismflushlog
 f1_keywords:
  - "ndis/NdisMFlushLog"

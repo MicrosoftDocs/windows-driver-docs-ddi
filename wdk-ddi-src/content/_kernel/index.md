@@ -3,6 +3,7 @@ UID: TP:kernel
 title: Windows kernel
 ms.assetid: f7c71d77-9a5b-3320-80a1-302b75314d1e
 ms.date: 05/09/2018
+keywords: ["Windows kernel"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

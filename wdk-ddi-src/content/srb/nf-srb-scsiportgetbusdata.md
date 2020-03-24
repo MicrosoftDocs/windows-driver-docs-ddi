@@ -6,6 +6,7 @@ old-location: storage\scsiportgetbusdata.htm
 tech.root: storage
 ms.assetid: 43d30c99-9f9e-4516-8c50-e096f760a774
 ms.date: 03/29/2018
+keywords: ["ScsiPortGetBusData function"]
 ms.keywords: ScsiPortGetBusData, ScsiPortGetBusData routine [Storage Devices], scsiprt_85566dfe-b1b6-4b6d-9f80-69fbdd82904a.xml, srb/ScsiPortGetBusData, storage.scsiportgetbusdata
 f1_keywords:
  - "srb/ScsiPortGetBusData"

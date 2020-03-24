@@ -6,6 +6,7 @@ old-location: kernel\iochecklinkshareaccess.htm
 tech.root: kernel
 ms.assetid: 1C34237E-D4AF-4F12-9FF2-9382BADCC9D3
 ms.date: 04/30/2018
+keywords: ["IoCheckLinkShareAccess function"]
 ms.keywords: IoCheckLinkShareAccess, IoCheckLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.iochecklinkshareaccess, wdm/IoCheckLinkShareAccess
 f1_keywords:
  - "wdm/IoCheckLinkShareAccess"

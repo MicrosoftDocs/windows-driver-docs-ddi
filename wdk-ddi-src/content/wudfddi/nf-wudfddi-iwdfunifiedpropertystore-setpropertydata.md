@@ -6,6 +6,7 @@ old-location: wdf\iwdfunifiedpropertystore_setpropertydata.htm
 tech.root: wdf
 ms.assetid: 07A79E40-6C49-4AF8-90B8-26652C46B6F1
 ms.date: 02/26/2018
+keywords: ["IWDFUnifiedPropertyStore::SetPropertyData"]
 ms.keywords: IWDFUnifiedPropertyStore interface,SetPropertyData method, IWDFUnifiedPropertyStore.SetPropertyData, IWDFUnifiedPropertyStore::SetPropertyData, SetPropertyData, SetPropertyData method, SetPropertyData method,IWDFUnifiedPropertyStore interface, umdf.iwdfunifiedpropertystore_setpropertydata, wdf.iwdfunifiedpropertystore_setpropertydata, wudfddi/IWDFUnifiedPropertyStore::SetPropertyData
 f1_keywords:
  - "wudfddi/IWDFUnifiedPropertyStore.SetPropertyData"

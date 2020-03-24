@@ -6,6 +6,7 @@ old-location: ifsk\fltloadfilter.htm
 tech.root: ifsk
 ms.assetid: aecf5f5f-c0b7-487a-9db0-d01212aef094
 ms.date: 04/16/2018
+keywords: ["FltLoadFilter function"]
 ms.keywords: FltApiRef_e_to_o_3cdd26c1-dc25-4fa0-8ea1-a1458742cd45.xml, FltLoadFilter, FltLoadFilter routine [Installable File System Drivers], fltkernel/FltLoadFilter, ifsk.fltloadfilter
 f1_keywords:
  - "fltkernel/FltLoadFilter"

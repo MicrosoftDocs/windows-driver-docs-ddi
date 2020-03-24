@@ -5,6 +5,7 @@ description: The QueryBegin function marks the beginning of a sequence of graphi
 old-location: display\querybegin.htm
 ms.assetid: 2f0a7462-83a6-47df-b5f6-b3706b875349
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_QUERYBEGIN callback function"]
 ms.keywords: PFND3D10DDI_QUERYBEGIN, PFND3D10DDI_QUERYBEGIN callback, QueryBegin, QueryBegin callback function [Display Devices], UserModeDisplayDriverDx10_Functions_d456daf9-09b9-4174-8eba-7591ec45cd20.xml, d3d10umddi/QueryBegin, display.querybegin
 f1_keywords:
  - "d3d10umddi/QueryBegin"

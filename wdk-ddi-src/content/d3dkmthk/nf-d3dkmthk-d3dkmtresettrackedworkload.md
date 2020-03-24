@@ -4,6 +4,7 @@ title: D3DKMTResetTrackedWorkload function (d3dkmthk.h)
 description: Resets the tracked workload to its initial state and resets all the rolling statistics.
 ms.assetid: 4c219825-093b-4cf9-998d-7b8363ba2b45
 ms.date: 10/19/2018
+keywords: ["D3DKMTResetTrackedWorkload function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTResetTrackedWorkload"
 ms.keywords: D3DKMTResetTrackedWorkload

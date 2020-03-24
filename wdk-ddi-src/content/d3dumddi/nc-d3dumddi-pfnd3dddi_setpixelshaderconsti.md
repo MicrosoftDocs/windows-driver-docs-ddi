@@ -6,6 +6,7 @@ old-location: display\setpixelshaderconsti.htm
 tech.root: display
 ms.assetid: fafc046e-0595-4901-bfb1-70bd980388bc
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_SETPIXELSHADERCONSTI callback function"]
 ms.keywords: PFND3DDDI_SETPIXELSHADERCONSTI, PFND3DDDI_SETPIXELSHADERCONSTI callback, SetPixelShaderConstI, SetPixelShaderConstI callback function [Display Devices], UserModeDisplayDriver_Functions_409d06ae-2fdf-4c27-9f12-abd91a179bcb.xml, d3dumddi/SetPixelShaderConstI, display.setpixelshaderconsti
 f1_keywords:
  - "d3dumddi/SetPixelShaderConstI"

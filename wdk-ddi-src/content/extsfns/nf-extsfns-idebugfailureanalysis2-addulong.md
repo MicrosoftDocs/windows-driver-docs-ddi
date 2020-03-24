@@ -6,6 +6,7 @@ old-location: debugger\idebugfailureanalysis2_addulong.htm
 tech.root: debugger
 ms.assetid: 22F56E3F-9ED4-464D-B97C-1B322E1F8D66
 ms.date: 05/03/2018
+keywords: ["IDebugFailureAnalysis2::AddUlong"]
 ms.keywords: AddUlong, AddUlong method [Windows Debugging], AddUlong method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],AddUlong method, IDebugFailureAnalysis2.AddUlong, IDebugFailureAnalysis2::AddUlong, debugger.idebugfailureanalysis2_addulong, extsfns/IDebugFailureAnalysis2::AddUlong
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.AddUlong"

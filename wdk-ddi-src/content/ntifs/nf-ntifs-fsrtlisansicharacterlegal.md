@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlisansicharacterlegal.htm
 tech.root: ifsk
 ms.assetid: e270e4a9-90dc-4e9b-abdf-079c331ad71c
 ms.date: 04/16/2018
+keywords: ["FsRtlIsAnsiCharacterLegal macro"]
 ms.keywords: FsRtlIsAnsiCharacterLegal, FsRtlIsAnsiCharacterLegal function [Installable File System Drivers], fsrtlref_dad0349c-b705-4a0a-a1ea-359517e65eae.xml, ifsk.fsrtlisansicharacterlegal, ntifs/FsRtlIsAnsiCharacterLegal
 f1_keywords:
  - "ntifs/FsRtlIsAnsiCharacterLegal"

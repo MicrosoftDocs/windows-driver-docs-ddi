@@ -4,6 +4,7 @@ title: FsRtlRemoveBaseMcbEntry function (ntifs.h)
 description: The FsRtlRemoveBaseMcbEntry function is the work routine for removing a large mcb entry.  It does so without taking out the mcb GuardedMutex.
 ms.assetid: 36eaff6e-2bb7-4264-bef1-58ec28ef2ace
 ms.date: 10/19/2018
+keywords: ["FsRtlRemoveBaseMcbEntry function"]
 f1_keywords:
  - "ntifs/FsRtlRemoveBaseMcbEntry"
 ms.keywords: FsRtlRemoveBaseMcbEntry

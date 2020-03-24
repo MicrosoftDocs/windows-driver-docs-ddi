@@ -4,6 +4,7 @@ title: _D3DKMT_ADAPTER_VERIFIER_OPTION_DATA (d3dkmthk.h)
 description: The adapter verifier option data.
 ms.assetid: 6f85d09b-d0d0-45e0-8bcf-f2a94d80ecc9
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_ADAPTER_VERIFIER_OPTION_DATA structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ADAPTER_VERIFIER_OPTION_DATA"
 ms.keywords: _D3DKMT_ADAPTER_VERIFIER_OPTION_DATA, D3DKMT_ADAPTER_VERIFIER_OPTION_DATA, 

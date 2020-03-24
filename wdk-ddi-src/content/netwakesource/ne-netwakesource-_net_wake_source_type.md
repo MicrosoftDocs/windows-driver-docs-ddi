@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 70ebee95-c44c-4db8-b5ea-71b5e1236a7c
 ms.author: windowsdriverdev
 ms.date: 10/04/2019
+keywords: ["NET_WAKE_SOURCE_TYPE enumeration"]
 f1_keywords:
  - "netwakesource/NET_WAKE_SOURCE_TYPE"
 ms.keywords: NET_WAKE_SOURCE_TYPE, NET_WAKE_SOURCE_TYPE, 

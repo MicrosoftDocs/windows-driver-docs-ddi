@@ -6,6 +6,7 @@ old-location: dtf\iwdtfpnpaction2_rescandevice.htm
 tech.root: dtf
 ms.assetid: 83288eab-020b-4870-9c99-b3215d52658c
 ms.date: 04/04/2018
+keywords: ["IWDTFPNPAction2::RescanDevice"]
 ms.keywords: IWDTFPNPAction2 interface [Windows Device Testing Framework],RescanDevice method, IWDTFPNPAction2.RescanDevice, IWDTFPNPAction2::RescanDevice, Microsoft.WDTF.IWDTFPNPAction2.RescanDevice, Microsoft::WDTF::IWDTFPNPAction2::RescanDevice, RescanDevice, RescanDevice method [Windows Device Testing Framework], RescanDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, dtf.iwdtfpnpaction2_rescandevice, wdtfpnpaction/IWDTFPNPAction2::RescanDevice
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPAction2.RescanDevice"

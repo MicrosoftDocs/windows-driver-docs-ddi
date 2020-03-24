@@ -6,6 +6,7 @@ old-location: netvista\riladdressparammask_2.htm
 tech.root: netvista
 ms.assetid: a9eaf2ec-5224-48e3-837b-279c1a44da68
 ms.date: 02/26/2018
+keywords: ["RILADDRESSPARAMMASK enumeration"]
 ms.keywords: RILADDRESSPARAMMASK, RILADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_A_ADDRESS, RIL_PARAM_A_ALL, RIL_PARAM_A_NUMPLAN, RIL_PARAM_A_TYPE, netvista.riladdressparammask_2, rilapitypes/RILADDRESSPARAMMASK, rilapitypes/RIL_PARAM_A_ADDRESS, rilapitypes/RIL_PARAM_A_ALL, rilapitypes/RIL_PARAM_A_NUMPLAN, rilapitypes/RIL_PARAM_A_TYPE
 f1_keywords:
  - "rilapitypes/RILADDRESSPARAMMASK"

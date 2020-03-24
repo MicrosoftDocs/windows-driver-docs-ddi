@@ -6,6 +6,7 @@ old-location: image\wiasgetpropertyattributes.htm
 tech.root: image
 ms.assetid: b12ff158-73e7-4fdf-b7b1-2969d161ed93
 ms.date: 05/03/2018
+keywords: ["wiasGetPropertyAttributes function"]
 ms.keywords: image.wiasgetpropertyattributes, wiamdef/wiasGetPropertyAttributes, wiasFncs_d1a6ee77-54bc-400f-a670-e39889c71835.xml, wiasGetPropertyAttributes, wiasGetPropertyAttributes function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasGetPropertyAttributes"

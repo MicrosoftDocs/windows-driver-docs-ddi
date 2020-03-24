@@ -5,6 +5,7 @@ description: The DXGK_ALLOCATIONUSAGEHINT structure contains allocation usage an
 old-location: display\dxgk_allocationusagehint.htm
 ms.assetid: 04cceb5e-d185-4f43-a627-71a61a45b8aa
 ms.date: 05/10/2018
+keywords: ["_DXGK_ALLOCATIONUSAGEHINT structure"]
 ms.keywords: DXGK_ALLOCATIONUSAGEHINT, DXGK_ALLOCATIONUSAGEHINT structure [Display Devices], DmStructs_9597c610-bb79-496c-b7b3-9fb5abb30a46.xml, _DXGK_ALLOCATIONUSAGEHINT, d3dkmddi/DXGK_ALLOCATIONUSAGEHINT, display.dxgk_allocationusagehint
 f1_keywords:
  - "d3dkmddi/DXGK_ALLOCATIONUSAGEHINT"

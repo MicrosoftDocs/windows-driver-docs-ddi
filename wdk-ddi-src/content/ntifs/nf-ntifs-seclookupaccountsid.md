@@ -6,6 +6,7 @@ old-location: ifsk\seclookupaccountsid.htm
 tech.root: ifsk
 ms.assetid: 7237a041-46e0-4211-97c1-96d309ada602
 ms.date: 04/16/2018
+keywords: ["SecLookupAccountSid function"]
 ms.keywords: SecLookupAccountSid, SecLookupAccountSid function [Installable File System Drivers], ifsk.seclookupaccountsid, ksecddref_ba65e59c-5c9a-47bb-bf2c-9b3b8c727bb6.xml, ntifs/SecLookupAccountSid
 f1_keywords:
  - "ntifs/SecLookupAccountSid"

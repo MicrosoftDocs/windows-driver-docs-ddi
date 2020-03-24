@@ -6,6 +6,7 @@ old-location: wdf\wdfcompaniontargetsendtasksynchronously.htm
 tech.root: wdf
 ms.assetid: d58a275a-aaaa-4159-ba00-6998b7a63434
 ms.date: 02/26/2018
+keywords: ["WdfCompanionTargetSendTaskSynchronously function"]
 ms.keywords: WdfCompanionTargetSendTaskSynchronously, WdfCompanionTargetSendTaskSynchronously method, wdf.wdfcompaniontargetsendtasksynchronously, wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously
 f1_keywords:
  - "wdfcompaniontarget/WdfCompanionTargetSendTaskSynchronously"

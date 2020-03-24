@@ -6,6 +6,7 @@ old-location: kernel\rtlint8toulong.htm
 tech.root: kernel
 ms.assetid: 2C5FA0DA-5517-4BB6-A106-D8A20EDB5D46
 ms.date: 04/30/2018
+keywords: ["RtlInt8ToULong function"]
 ms.keywords: RtlInt8ToULong, RtlInt8ToULong function [Kernel-Mode Driver Architecture], kernel.rtlint8toulong, ntintsafe/RtlInt8ToULong
 f1_keywords:
  - "ntintsafe/RtlInt8ToULong"

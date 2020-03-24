@@ -3,6 +3,7 @@ UID: NA:usbcamdi
 title: Usbcamdi.h header
 ms.assetid: 7f3b551e-5a01-3632-882a-60b6c21fdc36
 ms.date: 05/09/2018
+keywords: ["Usbcamdi.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

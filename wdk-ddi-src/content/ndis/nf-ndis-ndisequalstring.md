@@ -6,6 +6,7 @@ old-location: netvista\ndisequalstring.htm
 tech.root: netvista
 ms.assetid: cc5da07d-fcd2-40f9-8ba9-d7ddf35e7b7f
 ms.date: 05/02/2018
+keywords: ["NdisEqualString macro"]
 ms.keywords: NdisEqualString, NdisEqualString macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualString, ndis_string_ref_31191521-4693-40f9-a6e7-0c9b09bc6298.xml, netvista.ndisequalstring
 f1_keywords:
  - "ndis/NdisEqualString"

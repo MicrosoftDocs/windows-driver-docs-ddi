@@ -6,6 +6,7 @@ old-location: wdf\wdfchildlistupdateallchilddescriptionsaspresent.htm
 tech.root: wdf
 ms.assetid: 598d2b4f-9b49-480a-9cf8-25661c24483f
 ms.date: 02/26/2018
+keywords: ["WdfChildListUpdateAllChildDescriptionsAsPresent function"]
 ms.keywords: DFDeviceObjectChildListRef_55956590-2843-4486-acfb-0e85c01702a0.xml, WdfChildListUpdateAllChildDescriptionsAsPresent, WdfChildListUpdateAllChildDescriptionsAsPresent method, kmdf.wdfchildlistupdateallchilddescriptionsaspresent, wdf.wdfchildlistupdateallchilddescriptionsaspresent, wdfchildlist/WdfChildListUpdateAllChildDescriptionsAsPresent
 f1_keywords:
  - "wdfchildlist/WdfChildListUpdateAllChildDescriptionsAsPresent"

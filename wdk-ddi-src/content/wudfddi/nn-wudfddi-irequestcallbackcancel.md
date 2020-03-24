@@ -6,6 +6,7 @@ old-location: wdf\irequestcallbackcancel.htm
 tech.root: wdf
 ms.assetid: d6aec38c-6cbb-494c-9fa4-10b6f4a30ae0
 ms.date: 02/26/2018
+keywords: ["IRequestCallbackCancel interface"]
 ms.keywords: IRequestCallbackCancel, IRequestCallbackCancel interface, IRequestCallbackCancel interface,described, UMDFRequestObjectRef_6f54b76d-812d-437c-8c02-7d9e3e177b90.xml, umdf.irequestcallbackcancel, wdf.irequestcallbackcancel, wudfddi/IRequestCallbackCancel
 f1_keywords:
  - "wudfddi/IRequestCallbackCancel"

@@ -5,6 +5,7 @@ description: The NET_BUFFER_LIST_GET_HASH_VALUE macro gets the hash value inform
 tech.root: netvista
 ms.assetid: 22d65cb6-9a5a-4b75-bbca-49216988dba0
 ms.date: 04/13/2018
+keywords: ["NET_BUFFER_LIST_GET_HASH_VALUE macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_GET_HASH_VALUE"
 ms.keywords: NET_BUFFER_LIST_GET_HASH_VALUE

@@ -6,6 +6,7 @@ old-location: stream\ksgateremoveoninputfromor.htm
 tech.root: stream
 ms.assetid: e7226684-afbf-46e1-aeb2-6b0c60c12680
 ms.date: 04/23/2018
+keywords: ["KsGateRemoveOnInputFromOr function"]
 ms.keywords: KsGateRemoveOnInputFromOr, KsGateRemoveOnInputFromOr function [Streaming Media Devices], avfunc_6f131d80-de01-44e6-a17d-eb7f9b0b968f.xml, ks/KsGateRemoveOnInputFromOr, stream.ksgateremoveoninputfromor
 f1_keywords:
  - "ks/KsGateRemoveOnInputFromOr"

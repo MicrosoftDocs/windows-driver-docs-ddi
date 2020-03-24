@@ -6,6 +6,7 @@ old-location: print\configureportui.htm
 tech.root: print
 ms.assetid: fef58485-db4e-4bad-a21b-376e8d83f243
 ms.date: 02/02/2018
+keywords: ["ConfigurePortUI function"]
 ms.keywords: pfnConfigurePortUI function [Print Devices], winsplp/pfnConfigurePortUI, ConfigurePortUI, print.configureportui, spoolfnc_5b799b7f-667a-4c5a-855e-554daa2695ea.xml, pfnConfigurePortUI
 f1_keywords:
  - "winsplp/pfnConfigurePortUI"

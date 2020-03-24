@@ -4,6 +4,7 @@ title: _DXVAHDDDI_FEATURE_CAPS (d3dumddi.h)
 description: DirectX video acceleration feature capabilities.
 ms.assetid: b17b8f35-7700-4c7b-9507-31f56f8b9b50
 ms.date: 10/19/2018
+keywords: ["_DXVAHDDDI_FEATURE_CAPS enumeration"]
 ms.keywords: _DXVAHDDDI_FEATURE_CAPS, DXVAHDDDI_FEATURE_CAPS,
 req.header: d3dumddi.h
 req.include-header: 

@@ -6,6 +6,7 @@ old-location: dtf\iwdtflog2_endtestcase.htm
 tech.root: dtf
 ms.assetid: 1932a0f0-bf76-4a8e-8b2a-e2ba2c81dc2b
 ms.date: 04/04/2018
+keywords: ["IWDTFLOG2::EndTestCase"]
 ms.keywords: EndTestCase, EndTestCase method [Windows Device Testing Framework], EndTestCase method [Windows Device Testing Framework],IWDTFLOG2 interface, IWDTFLOG2 interface [Windows Device Testing Framework],EndTestCase method, IWDTFLOG2.EndTestCase, IWDTFLOG2::EndTestCase, Microsoft.WDTF.IWDTFLOG2.EndTestCase, Microsoft::WDTF::IWDTFLOG2::EndTestCase, dtf.iwdtflog2_endtestcase, wdtf/IWDTFLOG2::EndTestCase
 f1_keywords:
  - "wdtf/IWDTFLOG2.EndTestCase"

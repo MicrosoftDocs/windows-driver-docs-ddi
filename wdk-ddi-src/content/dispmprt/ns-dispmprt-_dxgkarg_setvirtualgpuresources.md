@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 1adf321c-b791-4dee-a948-78bfd07a6d38
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
+keywords: ["_DXGKARG_SETVIRTUALGPURESOURCES structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_SETVIRTUALGPURESOURCES"
 ms.prod: windows-hardware

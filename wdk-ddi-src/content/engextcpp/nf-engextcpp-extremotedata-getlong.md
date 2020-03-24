@@ -6,6 +6,7 @@ old-location: debugger\extremotedata_getlong.htm
 tech.root: debugger
 ms.assetid: 064f50e7-bae8-4c29-9802-47efdb749652
 ms.date: 05/03/2018
+keywords: ["ExtRemoteData::GetLong"]
 ms.keywords: EngExtCpp_Ref_10a1810d-2e15-490a-baeb-8881106f41a6.xml, ExtRemoteData class [Windows Debugging],GetLong method, ExtRemoteData.GetLong, ExtRemoteData::GetLong, GetLong, GetLong method [Windows Debugging], GetLong method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getlong
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetLong"

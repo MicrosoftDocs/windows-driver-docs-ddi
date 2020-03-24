@@ -6,6 +6,7 @@ old-location: wdf\wdf_read_port_buffer_ushort.htm
 tech.root: wdf
 ms.assetid: 74784405-8435-4305-A630-255D7BB24157
 ms.date: 02/26/2018
+keywords: ["WDF_READ_PORT_BUFFER_USHORT function"]
 ms.keywords: WDF_READ_PORT_BUFFER_USHORT, WDF_READ_PORT_BUFFER_USHORT function, wdf.wdf_read_port_buffer_ushort, wdfhwaccess/WDF_READ_PORT_BUFFER_USHORT
 f1_keywords:
  - "wdfhwaccess/WDF_READ_PORT_BUFFER_USHORT"

@@ -6,6 +6,7 @@ old-location: gpio\ioctl_gpio_controller_specific_function.htm
 tech.root: GPIO
 ms.assetid: 9B62BF0B-A172-4131-9196-590188C747AD
 ms.date: 02/15/2018
+keywords: ["IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION IOCTL"]
 ms.keywords: GPIO.ioctl_gpio_controller_specific_function, IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION, IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION control, IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION control code [Parallel Ports], gpio/IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION
 f1_keywords:
  - "gpio/IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION"

@@ -5,6 +5,7 @@ description: A structure holding information to destroy a hardware context.
 old-location: display\d3dkmt_destroyhwcontext.htm
 ms.assetid: DFFFE90A-C505-466A-B415-AA6C6352421B
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_DESTROYHWCONTEXT structure"]
 ms.keywords: D3DKMT_DESTROYHWCONTEXT, D3DKMT_DESTROYHWCONTEXT structure [Display Devices], _D3DKMT_DESTROYHWCONTEXT, d3dkmthk/D3DKMT_DESTROYHWCONTEXT, display.d3dkmt_destroyhwcontext
 f1_keywords:
  - "d3dkmthk/D3DKMT_DESTROYHWCONTEXT"

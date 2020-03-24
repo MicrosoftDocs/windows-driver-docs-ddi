@@ -6,6 +6,7 @@ old-location: audio\audio_curve_type.htm
 tech.root: audio
 ms.assetid: E3CE3385-8744-4E3F-A5EF-41AC4E3E4375
 ms.date: 05/21/2018
+keywords: ["AUDIO_CURVE_TYPE enumeration"]
 ms.keywords: AUDIO_CURVE_TYPE, AUDIO_CURVE_TYPE enumeration [Audio Devices], AUDIO_CURVE_TYPE_NONE, AUDIO_CURVE_TYPE_WINDOWS_FADE, audio.audio_curve_type, ksmedia/AUDIO_CURVE_TYPE, ksmedia/AUDIO_CURVE_TYPE_NONE, ksmedia/AUDIO_CURVE_TYPE_WINDOWS_FADE
 f1_keywords:
  - "ksmedia/AUDIO_CURVE_TYPE"

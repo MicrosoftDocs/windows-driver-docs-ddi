@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlfastunlockallbykey.htm
 tech.root: ifsk
 ms.assetid: 57214e6a-cd29-4576-894a-9523ca3c7e7d
 ms.date: 03/29/2018
+keywords: ["FsRtlFastUnlockAllByKey function"]
 ms.keywords: FsRtlFastUnlockAllByKey, FsRtlFastUnlockAllByKey routine [Installable File System Drivers], fsrtlref_193afe01-52f3-4dbc-8a33-bd058beb10ce.xml, ifsk.fsrtlfastunlockallbykey, ntifs/FsRtlFastUnlockAllByKey
 f1_keywords:
  - "ntifs/FsRtlFastUnlockAllByKey"

@@ -5,6 +5,7 @@ description: Releases resources for the video decoder object that were created t
 old-location: display\destroyvideodecoder.htm
 ms.assetid: 541f4c9b-3193-46a8-9979-74456168988e
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_DESTROYVIDEODECODER callback function"]
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEODECODER, PFND3D11_1DDI_DESTROYVIDEODECODER callback, d3d10umddi/pfnDestroyVideoDecoder, display.destroyvideodecoder, pfnDestroyVideoDecoder, pfnDestroyVideoDecoder callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnDestroyVideoDecoder"

@@ -6,6 +6,7 @@ old-location: debugger\getsymbolentriesbynamewide.htm
 tech.root: debugger
 ms.assetid: 90f02bfa-58dc-4499-985f-a60336eee341
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::GetSymbolEntriesByNameWide"]
 ms.keywords: GetSymbolEntriesByNameWide, GetSymbolEntriesByNameWide method [Windows Debugging], GetSymbolEntriesByNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntriesByNameWide method, IDebugSymbols3.GetSymbolEntriesByNameWide, IDebugSymbols3::GetSymbolEntriesByNameWide, dbgeng/IDebugSymbols3::GetSymbolEntriesByNameWide, debugger.getsymbolentriesbynamewide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSymbolEntriesByNameWide"

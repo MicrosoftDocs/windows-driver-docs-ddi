@@ -4,6 +4,7 @@ title: _D3DKMT_CPDRIVERNAME (d3dkmthk.h)
 description: The CPU driver name.
 ms.assetid: d7ad1d6d-e908-4460-9236-a47e3fef7d52
 ms.date: 10/19/2018
+keywords: ["_D3DKMT_CPDRIVERNAME structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_CPDRIVERNAME"
 ms.keywords: _D3DKMT_CPDRIVERNAME, D3DKMT_CPDRIVERNAME, 

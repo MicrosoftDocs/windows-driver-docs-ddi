@@ -6,6 +6,7 @@ old-location: print\routerregisterforprintasyncnotifications.htm
 tech.root: print
 ms.assetid: 87966827-72b2-4be7-859a-628c1accca48
 ms.date: 04/20/2018
+keywords: ["RouterRegisterForPrintAsyncNotifications function"]
 ms.keywords: RouterRegisterForPrintAsyncNotifications, RouterRegisterForPrintAsyncNotifications function [Print Devices], print.routerregisterforprintasyncnotifications, prnasntp/RouterRegisterForPrintAsyncNotifications, spoolfnc_c39b58f9-b714-437d-86c0-89f2d922c920.xml
 f1_keywords:
  - "prnasntp/RouterRegisterForPrintAsyncNotifications"

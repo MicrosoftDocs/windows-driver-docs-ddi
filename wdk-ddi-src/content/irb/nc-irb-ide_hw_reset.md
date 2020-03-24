@@ -6,6 +6,7 @@ old-location: storage\idehwreset.htm
 tech.root: storage
 ms.assetid: 722810c8-ddf2-4910-8cf3-af3511d8c167
 ms.date: 03/29/2018
+keywords: ["IDE_HW_RESET callback function"]
 ms.keywords: IDE_HW_RESET, IdeHwReset, IdeHwReset routine [Storage Devices], atartns_c3c999ac-3737-48ab-be9b-99c83013b878.xml, irb/IdeHwReset, storage.idehwreset
 f1_keywords:
  - "irb/IdeHwReset"

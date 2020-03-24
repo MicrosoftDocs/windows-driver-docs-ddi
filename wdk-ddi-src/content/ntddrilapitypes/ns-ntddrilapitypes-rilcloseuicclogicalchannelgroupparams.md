@@ -6,6 +6,7 @@ old-location: netvista\rilcloseuicclogicalchannelgroupparams.htm
 tech.root: netvista
 ms.assetid: 9442df60-7280-4c09-bea0-45ed2ac70694
 ms.date: 05/02/2018
+keywords: ["RILCLOSEUICCLOGICALCHANNELGROUPPARAMS structure"]
 ms.keywords: "*LPRILCLOSEUICCLOGICALCHANNELGROUPPARAMS, RILCLOSEUICCLOGICALCHANNELGROUPPARAMS, RILCLOSEUICCLOGICALCHANNELGROUPPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilcloseuicclogicalchannelgroupparams, ntddrilapitypes/RILCLOSEUICCLOGICALCHANNELGROUPPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILCLOSEUICCLOGICALCHANNELGROUPPARAMS"

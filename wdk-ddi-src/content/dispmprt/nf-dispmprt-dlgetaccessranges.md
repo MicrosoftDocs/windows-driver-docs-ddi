@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: c430c0a1-e9a2-49f8-b578-7cdd1c30cec4
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
+keywords: ["DlGetAccessRanges function"]
 f1_keywords:
  - "dispmprt/DlGetAccessRanges"
 ms.keywords: DlGetAccessRanges

@@ -6,6 +6,7 @@ old-location: bltooth\ioctl_internal_bth_submit_brb.htm
 tech.root: bltooth
 ms.assetid: 60e4ee90-81d4-47a1-aed4-ee39b9fe3174
 ms.date: 04/27/2018
+keywords: ["IOCTL_INTERNAL_BTH_SUBMIT_BRB IOCTL"]
 ms.keywords: IOCTL_INTERNAL_BTH_SUBMIT_BRB, IOCTL_INTERNAL_BTH_SUBMIT_BRB control, IOCTL_INTERNAL_BTH_SUBMIT_BRB control code [Bluetooth Devices], bltooth.ioctl_internal_bth_submit_brb, bth_ioctls_4b5e6ea0-3c6d-4453-9822-df845ebc2038.xml, bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB
 f1_keywords:
  - "bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB"

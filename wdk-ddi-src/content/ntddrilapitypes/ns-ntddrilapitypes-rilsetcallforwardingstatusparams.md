@@ -6,6 +6,7 @@ old-location: netvista\rilsetcallforwardingstatusparams.htm
 tech.root: netvista
 ms.assetid: 7863a72d-e3cc-4627-a956-7e5a080c4aad
 ms.date: 05/02/2018
+keywords: ["RILSETCALLFORWARDINGSTATUSPARAMS structure"]
 ms.keywords: "*LPRILSETCALLFORWARDINGSTATUSPARAMS, RILSETCALLFORWARDINGSTATUSPARAMS, RILSETCALLFORWARDINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallforwardingstatusparams, ntddrilapitypes/RILSETCALLFORWARDINGSTATUSPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILSETCALLFORWARDINGSTATUSPARAMS"

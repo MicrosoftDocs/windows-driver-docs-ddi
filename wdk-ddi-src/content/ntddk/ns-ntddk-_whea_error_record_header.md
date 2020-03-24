@@ -6,6 +6,7 @@ old-location: whea\whea_error_record_header.htm
 tech.root: whea
 ms.assetid: 2e6476c7-d096-4756-bebb-56fe559dce6d
 ms.date: 02/20/2018
+keywords: ["_WHEA_ERROR_RECORD_HEADER structure"]
 ms.keywords: "*PWHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], _WHEA_ERROR_RECORD_HEADER, ntddk/PWHEA_ERROR_RECORD_HEADER, ntddk/WHEA_ERROR_RECORD_HEADER, whea.whea_error_record_header, whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml"
 f1_keywords:
  - "ntddk/WHEA_ERROR_RECORD_HEADER"

@@ -6,6 +6,7 @@ old-location: print\iprinterbidisetrequestcallback_completed.htm
 tech.root: print
 ms.assetid: F086903F-2FCA-4B9F-948B-0F40F114E11D
 ms.date: 04/20/2018
+keywords: ["IPrinterBidiSetRequestCallback::Completed"]
 ms.keywords: Completed, Completed method [Print Devices], Completed method [Print Devices],IPrinterBidiSetRequestCallback interface, IPrinterBidiSetRequestCallback interface [Print Devices],Completed method, IPrinterBidiSetRequestCallback.Completed, IPrinterBidiSetRequestCallback::Completed, print.iprinterbidisetrequestcallback_completed, printerextension/IPrinterBidiSetRequestCallback::Completed
 f1_keywords:
  - "printerextension/IPrinterBidiSetRequestCallback.Completed"

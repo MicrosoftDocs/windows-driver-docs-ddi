@@ -4,6 +4,7 @@ title: EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO (trustedruntimeclx.h)
 description: 
 ms.assetid: 73774bab-6134-40b9-97f7-5ee28aa0929f
 ms.date: 10/19/2018
+keywords: ["EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO callback function"]
 f1_keywords:
  - "trustedruntimeclx/EVT_TR_PROCESS_OTHER_SECURE_SERVICE_IO"
 req.header: trustedruntimeclx.h

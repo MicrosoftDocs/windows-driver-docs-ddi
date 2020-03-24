@@ -6,6 +6,7 @@ old-location: netvista\ril_getdialedidsettings.htm
 tech.root: netvista
 ms.assetid: 088fd502-a209-4fec-bec0-9f47f61022ee
 ms.date: 05/02/2018
+keywords: ["RIL_GetDialedIdSettings function"]
 ms.keywords: RIL_GetDialedIdSettings, RIL_GetDialedIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getdialedidsettings, rilapi/RIL_GetDialedIdSettings
 f1_keywords:
  - "rilapi/RIL_GetDialedIdSettings"

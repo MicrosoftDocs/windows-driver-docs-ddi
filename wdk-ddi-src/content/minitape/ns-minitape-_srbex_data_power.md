@@ -6,6 +6,7 @@ old-location: storage\srbex_data_power.htm
 tech.root: storage
 ms.assetid: 61F5C316-5214-45A6-B4BA-DEE6A224E811
 ms.date: 03/29/2018
+keywords: ["_SRBEX_DATA_POWER structure"]
 ms.keywords: "*PSRBEX_DATA_POWER, PSRBEX_DATA_POWER, PSRBEX_DATA_POWER structure pointer [Storage Devices], SRBEX_DATA_POWER, SRBEX_DATA_POWER structure [Storage Devices], _SRBEX_DATA_POWER, storage.srbex_data_power, storport/PSRBEX_DATA_POWER, storport/SRBEX_DATA_POWER"
 f1_keywords:
  - "minitape/SRBEX_DATA_POWER"

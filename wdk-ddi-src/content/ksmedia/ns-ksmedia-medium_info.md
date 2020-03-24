@@ -6,6 +6,7 @@ old-location: stream\medium_info.htm
 tech.root: stream
 ms.assetid: 1dd7415d-bfbc-4dea-bac9-bc5b8531a47f
 ms.date: 04/30/2019
+keywords: ["MEDIUM_INFO structure"]
 ms.keywords: "*PMEDIUM_INFO, MEDIUM_INFO, MEDIUM_INFO structure [Streaming Media Devices], PMEDIUM_INFO, PMEDIUM_INFO structure pointer [Streaming Media Devices], ksmedia/MEDIUM_INFO, ksmedia/PMEDIUM_INFO, stream.medium_info, vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml"
 f1_keywords:
  - "ksmedia/MEDIUM_INFO"

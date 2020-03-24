@@ -6,6 +6,7 @@ old-location: buses\ioctl_usb_get_port_connector_properties.htm
 tech.root: usbref
 ms.assetid: 23B2A4AF-1255-4332-83A9-EEEB0007B966
 ms.date: 05/07/2018
+keywords: ["IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES IOCTL"]
 ms.keywords: IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code [Buses], buses.ioctl_usb_get_port_connector_properties, usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES"

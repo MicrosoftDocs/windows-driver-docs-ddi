@@ -6,6 +6,7 @@ old-location: display\setconvolutionkernelmono.htm
 tech.root: display
 ms.assetid: b560352f-ca4e-4f03-88ac-13ec080834aa
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_SETCONVOLUTIONKERNELMONO callback function"]
 ms.keywords: PFND3DDDI_SETCONVOLUTIONKERNELMONO, PFND3DDDI_SETCONVOLUTIONKERNELMONO callback, SetConvolutionKernelMono, SetConvolutionKernelMono callback function [Display Devices], UserModeDisplayDriver_Functions_488a5fdd-562a-475b-a86d-23d05f35c6dc.xml, d3dumddi/SetConvolutionKernelMono, display.setconvolutionkernelmono
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h

@@ -6,6 +6,7 @@ old-location: wdf\wdfdevicegetiotarget.htm
 tech.root: wdf
 ms.assetid: a0749324-8b4e-4b82-8c51-b1b8883d521e
 ms.date: 02/26/2018
+keywords: ["WdfDeviceGetIoTarget function"]
 ms.keywords: DFDeviceObjectGeneralRef_df48e631-f54d-4985-bc74-05c220b735f5.xml, WdfDeviceGetIoTarget, WdfDeviceGetIoTarget method, kmdf.wdfdevicegetiotarget, wdf.wdfdevicegetiotarget, wdfdevice/WdfDeviceGetIoTarget
 f1_keywords:
  - "wdfdevice/WdfDeviceGetIoTarget"

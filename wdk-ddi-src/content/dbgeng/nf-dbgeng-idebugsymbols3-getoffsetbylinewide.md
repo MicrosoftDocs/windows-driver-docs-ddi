@@ -6,6 +6,7 @@ old-location: debugger\getoffsetbylinewide.htm
 tech.root: debugger
 ms.assetid: ba09333e-84a5-4166-a859-e09c0cf74347
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::GetOffsetByLineWide"]
 ms.keywords: GetOffsetByLineWide, GetOffsetByLineWide method [Windows Debugging], GetOffsetByLineWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetOffsetByLineWide method, IDebugSymbols3.GetOffsetByLineWide, IDebugSymbols3::GetOffsetByLineWide, dbgeng/IDebugSymbols3::GetOffsetByLineWide, debugger.getoffsetbylinewide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetOffsetByLineWide"

@@ -6,6 +6,7 @@ old-location: wdf\wdfgetdriver.htm
 tech.root: wdf
 ms.assetid: 423d4407-9e30-4625-bbe8-5465af29cfaa
 ms.date: 02/26/2018
+keywords: ["WdfGetDriver function"]
 ms.keywords: DFDriverObjectRef_7419a365-e5ee-49cd-8d85-4db65cd27645.xml, WdfGetDriver, WdfGetDriver method, kmdf.wdfgetdriver, wdf.wdfgetdriver, wdfdriver/WdfGetDriver
 f1_keywords:
  - "wdfdriver/WdfGetDriver"

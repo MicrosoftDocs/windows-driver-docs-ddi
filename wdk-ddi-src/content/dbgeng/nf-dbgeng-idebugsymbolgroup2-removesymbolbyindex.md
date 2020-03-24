@@ -6,6 +6,7 @@ old-location: debugger\removesymbolbyindex.htm
 tech.root: debugger
 ms.assetid: 1903d454-02d1-4528-9b8f-3c2eab8c6a6a
 ms.date: 05/03/2018
+keywords: ["IDebugSymbolGroup2::RemoveSymbolByIndex"]
 ms.keywords: ComOther_d532b37e-11c9-4cff-a619-0b9dffef0af1.xml, IDebugSymbolGroup interface [Windows Debugging],RemoveSymbolByIndex method, IDebugSymbolGroup2 interface [Windows Debugging],RemoveSymbolByIndex method, IDebugSymbolGroup2.RemoveSymbolByIndex, IDebugSymbolGroup2::RemoveSymbolByIndex, IDebugSymbolGroup::RemoveSymbolByIndex, RemoveSymbolByIndex, RemoveSymbolByIndex method [Windows Debugging], RemoveSymbolByIndex method [Windows Debugging],IDebugSymbolGroup interface, RemoveSymbolByIndex method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::RemoveSymbolByIndex, dbgeng/IDebugSymbolGroup::RemoveSymbolByIndex, debugger.removesymbolbyindex
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup.RemoveSymbolByIndex"

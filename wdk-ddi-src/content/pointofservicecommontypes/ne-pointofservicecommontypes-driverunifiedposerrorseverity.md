@@ -6,6 +6,7 @@ old-location: pos\unifiedposerrorseverity.htm
 tech.root: pos
 ms.assetid: a8c592fa-2736-49e4-8d4d-8729baef9c49
 ms.date: 02/23/2018
+keywords: ["DriverUnifiedPosErrorSeverity enumeration"]
 ms.keywords: AssistanceRequired, DriverUnifiedPosErrorSeverity, DriverUnifiedPosErrorSeverity enumeration, Fatal, Recoverable, UnknownErrorSeverity, Unrecoverable, Warning, pointofservicecommontypes/ AssistanceRequired, pointofservicecommontypes/DriverUnifiedPosErrorSeverity, pointofservicecommontypes/Fatal, pointofservicecommontypes/Recoverable, pointofservicecommontypes/UnknownErrorSeverity, pointofservicecommontypes/Unrecoverable, pointofservicecommontypes/Warning, pos.unifiedposerrorseverity
 f1_keywords:
  - "pointofservicecommontypes/DriverUnifiedPosErrorSeverity"

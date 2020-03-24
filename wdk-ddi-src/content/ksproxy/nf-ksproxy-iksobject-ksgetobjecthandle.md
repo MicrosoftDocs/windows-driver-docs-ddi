@@ -6,6 +6,7 @@ old-location: stream\iksobject_ksgetobjecthandle.htm
 tech.root: stream
 ms.assetid: 55c4f362-eb3c-4c4f-a048-7abdd270f67f
 ms.date: 04/23/2018
+keywords: ["IKsObject::KsGetObjectHandle"]
 ms.keywords: IKsObject interface [Streaming Media Devices],KsGetObjectHandle method, IKsObject.KsGetObjectHandle, IKsObject::KsGetObjectHandle, KsGetObjectHandle, KsGetObjectHandle method [Streaming Media Devices], KsGetObjectHandle method [Streaming Media Devices],IKsObject interface, ksproxy/IKsObject::KsGetObjectHandle, ksproxy_37998df5-a529-4f73-95a3-88ff3fdfcf2a.xml, stream.iksobject_ksgetobjecthandle
 f1_keywords:
  - "ksproxy/IKsObject.KsGetObjectHandle"

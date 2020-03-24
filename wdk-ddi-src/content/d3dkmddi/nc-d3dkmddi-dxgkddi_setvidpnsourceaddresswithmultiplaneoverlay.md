@@ -5,6 +5,7 @@ description: Sets the addresses of multiple surfaces, including the Desktop Wind
 old-location: display\dxgkddisetvidpnsourceaddresswithmultiplaneoverlay.htm
 ms.assetid: 95108e45-1a3a-4a75-8719-0caadb911469
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY callback function"]
 ms.keywords: DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY, DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY callback, DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay, DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay callback function [Display Devices], d3dkmddi/DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay, display.dxgkddisetvidpnsourceaddresswithmultiplaneoverlay
 req.header: d3dkmddi.h
 req.include-header: 

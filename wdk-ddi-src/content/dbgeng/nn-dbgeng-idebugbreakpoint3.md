@@ -6,6 +6,7 @@ old-location: debugger\idebugbreakpoint3.htm
 tech.root: debugger
 ms.assetid: 42A31C23-9C02-48F6-83CC-CA017F76DE18
 ms.date: 11/13/2018
+keywords: ["IDebugBreakpoint3 interface"]
 ms.keywords: IDebugBreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], IDebugBreakpoint3 interface [Windows Debugging],described, dbgeng/IDebugBreakpoint3, debugger.idebugbreakpoint3
 f1_keywords:
  - "dbgeng/IDebugBreakpoint3"

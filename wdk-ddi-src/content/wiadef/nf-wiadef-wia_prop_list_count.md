@@ -4,6 +4,7 @@ title: WIA_PROP_LIST_COUNT macro (wiadef.h)
 description: 
 ms.assetid: 874022ef-dff3-4f88-be23-a7165723b934
 ms.date: 10/19/2018
+keywords: ["WIA_PROP_LIST_COUNT macro"]
 f1_keywords:
  - "wiadef/WIA_PROP_LIST_COUNT"
 ms.keywords: WIA_PROP_LIST_COUNT

@@ -6,6 +6,7 @@ old-location: hid\hidd_getpreparseddata.htm
 tech.root: hid
 ms.assetid: e5c550f0-a466-4d0b-ac6f-bcdce600245f
 ms.date: 06/19/2019
+keywords: ["HidD_GetPreparsedData function"]
 ms.keywords: HidD_GetPreparsedData, HidD_GetPreparsedData routine [Human Input Devices], hid.hidd_getpreparseddata, hidfunc_e728f2ff-69e2-46d0-8266-7ff011fb8bd5.xml, hidsdi/HidD_GetPreparsedData
 f1_keywords:
  - "hidsdi/HidD_GetPreparsedData"

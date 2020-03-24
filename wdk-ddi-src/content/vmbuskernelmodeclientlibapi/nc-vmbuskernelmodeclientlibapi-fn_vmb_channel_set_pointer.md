@@ -5,6 +5,7 @@ description: The VmbChannelSetPointer function saves an arbitrary pointer in a c
 tech.root: netvista
 ms.assetid: aa582790-1277-4516-89fb-bff16ed3b8e7
 ms.date: 05/22/2018
+keywords: ["FN_VMB_CHANNEL_SET_POINTER callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SET_POINTER"
 req.header: vmbuskernelmodeclientlibapi.h

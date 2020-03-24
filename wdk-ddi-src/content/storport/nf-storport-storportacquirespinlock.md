@@ -6,6 +6,7 @@ old-location: storage\storportacquirespinlock.htm
 tech.root: storage
 ms.assetid: 52a877c7-b274-4bec-b948-edb0585a09e1
 ms.date: 03/29/2018
+keywords: ["StorPortAcquireSpinLock function"]
 ms.keywords: StorPortAcquireSpinLock, StorPortAcquireSpinLock routine [Storage Devices], storage.storportacquirespinlock, storport/StorPortAcquireSpinLock, storprt_a5092ef5-d8ab-4175-8799-df23cfcd4dc8.xml
 f1_keywords:
  - "storport/StorPortAcquireSpinLock"

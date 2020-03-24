@@ -5,6 +5,7 @@ description: The pfnCalcPrivateVideoProcessorSize callback function calculates t
 old-location: display\pfnd3d12ddi_calcprivatevideoprocessorsize.htm
 ms.assetid: F1ED5176-4F50-44DA-96B3-5E133A236461
 ms.date: 05/10/2018
+keywords: ["PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021 callback function"]
 ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021, PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021 callback, d3d12umddi/pfnCalcPrivateVideoProcessorSize, display.pfnd3d12ddi_calcprivatevideoprocessorsize, pfnCalcPrivateVideoProcessorSize, pfnCalcPrivateVideoProcessorSize callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnCalcPrivateVideoProcessorSize"

@@ -6,6 +6,7 @@ old-location: netvista\ndisgetrssprocessorinformation.htm
 tech.root: netvista
 ms.assetid: 0da022d5-7294-4780-bab8-119ff6385abf
 ms.date: 05/02/2018
+keywords: ["NdisGetRssProcessorInformation function"]
 ms.keywords: NdisGetRssProcessorInformation, NdisGetRssProcessorInformation function [Network Drivers Starting with Windows Vista], ndis/NdisGetRssProcessorInformation, ndis_processor_group_ref_167a091b-01dd-4e5d-bee8-01f5aa9f56fd.xml, netvista.ndisgetrssprocessorinformation
 f1_keywords:
  - "ndis/NdisGetRssProcessorInformation"

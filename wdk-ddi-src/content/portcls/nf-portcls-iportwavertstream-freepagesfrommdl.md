@@ -6,6 +6,7 @@ old-location: audio\iportwavertstream_freepagesfrommdl.htm
 tech.root: audio
 ms.assetid: 8839c0ab-08c5-4cc7-a526-aa1ebe2fde15
 ms.date: 05/08/2018
+keywords: ["IPortWaveRTStream::FreePagesFromMdl"]
 ms.keywords: FreePagesFromMdl, FreePagesFromMdl method [Audio Devices], FreePagesFromMdl method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],FreePagesFromMdl method, IPortWaveRTStream.FreePagesFromMdl, IPortWaveRTStream::FreePagesFromMdl, audio.iportwavertstream_freepagesfrommdl, audmp-routines_7e3477c5-08b8-4e7c-bfb9-36945bf765c4.xml, portcls/IPortWaveRTStream::FreePagesFromMdl
 f1_keywords:
  - "portcls/IPortWaveRTStream.FreePagesFromMdl"

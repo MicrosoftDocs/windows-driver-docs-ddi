@@ -6,6 +6,7 @@ ms.author: misaso
 description: 
 ms.assetid: c6c13e86-2973-4294-a531-aec524a07598
 ms.date: 10/19/2018
+keywords: ["ENTROPY_SOURCE_TYPE enumeration"]
 f1_keywords:
  - "systemrng/ENTROPY_SOURCE_TYPE"
 ms.keywords: ENTROPY_SOURCE_TYPE, ENTROPY_SOURCE_TYPE, 

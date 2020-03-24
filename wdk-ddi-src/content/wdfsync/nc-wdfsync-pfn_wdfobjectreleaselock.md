@@ -6,6 +6,7 @@ old-location: wdf\wdfobjectreleaselock.htm
 tech.root: wdf
 ms.assetid: a2fe9393-1525-47d7-94e1-1886ea54e270
 ms.date: 01/11/2018
+keywords: ["PFN_WDFOBJECTRELEASELOCK callback"]
 ms.keywords: wdf.wdfobjectreleaselock, PFN_WDFOBJECTRELEASELOCK, WdfObjectReleaseLock callback function, WdfObjectReleaseLock, wdfsync/WdfObjectReleaseLock, DFSynchroRef_14ab9c69-1eb8-4a83-b1fb-cb8db7a67d06.xml, kmdf.wdfobjectreleaselock
 f1_keywords:
  - "wdfsync/WdfObjectReleaseLock"

@@ -6,6 +6,7 @@ old-location: netvista\ndis_wwan_ip_address_state.htm
 tech.root: netvista
 ms.assetid: 114EDC8D-2FD2-4602-827E-9737638E49AC
 ms.date: 05/02/2018
+keywords: ["_NDIS_WWAN_IP_ADDRESS_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_IP_ADDRESS_STATE, NDIS_WWAN_IP_ADDRESS_STATE, NDIS_WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_IP_ADDRESS_STATE, PNDIS_WWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_IP_ADDRESS_STATE, ndiswwan/NDIS_WWAN_IP_ADDRESS_STATE, ndiswwan/PNDIS_WWAN_IP_ADDRESS_STATE, netvista.ndis_wwan_ip_address_state"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_IP_ADDRESS_STATE"

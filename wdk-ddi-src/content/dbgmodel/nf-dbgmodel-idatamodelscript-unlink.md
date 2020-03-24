@@ -4,6 +4,7 @@ title: IDataModelScript::Unlink (dbgmodel.h)
 description: The Unlink method undoes the Execute operation. Any object model manipulations or extensibility points established during the execution of the script are undone.
 ms.assetid: 356a8c0b-5ece-4968-9117-fbb146264aa3
 ms.date: 08/20/2018
+keywords: ["IDataModelScript::Unlink"]
 f1_keywords:
  - "dbgmodel/IDataModelScript.Unlink"
 ms.keywords: IDataModelScript::Unlink, Unlink, IDataModelScript.Unlink, IDataModelScript::Unlink, IDataModelScript.Unlink

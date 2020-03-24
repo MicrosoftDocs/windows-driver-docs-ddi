@@ -6,6 +6,7 @@ old-location: netvista\rilnitzinfo_v1.htm
 tech.root: netvista
 ms.assetid: 88664809-b5ce-466a-894b-529443cb1b0e
 ms.date: 05/02/2018
+keywords: ["RILNITZINFO_V1 structure"]
 ms.keywords: "*LPRILNITZINFO_V1, RILNITZINFO_V1, RILNITZINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilnitzinfo_v1, ntddrilapitypes/RILNITZINFO_V1"
 f1_keywords:
  - "rilapitypes/RILNITZINFO_V1"

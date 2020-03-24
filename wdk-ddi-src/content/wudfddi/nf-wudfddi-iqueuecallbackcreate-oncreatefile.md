@@ -6,6 +6,7 @@ old-location: wdf\iqueuecallbackcreate_oncreatefile.htm
 tech.root: wdf
 ms.assetid: f569d306-4e1e-44b7-acb0-6b46abc26b37
 ms.date: 02/26/2018
+keywords: ["IQueueCallbackCreate::OnCreateFile"]
 ms.keywords: IQueueCallbackCreate interface,OnCreateFile method, IQueueCallbackCreate.OnCreateFile, IQueueCallbackCreate::OnCreateFile, OnCreateFile, OnCreateFile method, OnCreateFile method,IQueueCallbackCreate interface, UMDFQueueObjectRef_db0b57a0-6086-4e2a-87bd-71e5a1e4f46d.xml, umdf.iqueuecallbackcreate_oncreatefile, wdf.iqueuecallbackcreate_oncreatefile, wudfddi/IQueueCallbackCreate::OnCreateFile
 f1_keywords:
  - "wudfddi/IQueueCallbackCreate.OnCreateFile"

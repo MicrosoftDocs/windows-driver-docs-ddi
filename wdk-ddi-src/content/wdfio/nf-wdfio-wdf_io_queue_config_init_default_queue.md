@@ -6,6 +6,7 @@ old-location: wdf\wdf_io_queue_config_init_default_queue.htm
 tech.root: wdf
 ms.assetid: c7d0c483-b534-471b-8172-174abdbb3c6a
 ms.date: 02/26/2018
+keywords: ["WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function"]
 ms.keywords: DFQueueObjectRef_e566e464-d9a3-44bf-a5a6-bb9b741ffe0f.xml, WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE, WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function, kmdf.wdf_io_queue_config_init_default_queue, wdf.wdf_io_queue_config_init_default_queue, wdfio/WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE
 f1_keywords:
  - "wdfio/WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE"

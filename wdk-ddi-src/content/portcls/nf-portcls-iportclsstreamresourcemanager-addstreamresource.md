@@ -5,6 +5,7 @@ description: AddStreamResource adds a stream resource. Two type of stream resour
 tech.root: audio
 ms.assetid: 2a050202-f31d-4e12-976e-8881407a6c32
 ms.date: 10/31/2018
+keywords: ["IPortClsStreamResourceManager::AddStreamResource"]
 f1_keywords:
  - "portcls/IPortClsStreamResourceManager.AddStreamResource"
 ms.keywords: IPortClsStreamResourceManager::AddStreamResource, AddStreamResource, IPortClsStreamResourceManager.AddStreamResource, IPortClsStreamResourceManager::AddStreamResource, IPortClsStreamResourceManager.AddStreamResource

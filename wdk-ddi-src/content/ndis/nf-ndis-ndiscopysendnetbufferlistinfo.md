@@ -6,6 +6,7 @@ old-location: netvista\ndiscopysendnetbufferlistinfo.htm
 tech.root: netvista
 ms.assetid: 9c8227ea-53e4-47c9-ab74-84e42b0cbbe5
 ms.date: 05/02/2018
+keywords: ["NdisCopySendNetBufferListInfo function"]
 ms.keywords: NdisCopySendNetBufferListInfo, NdisCopySendNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis/NdisCopySendNetBufferListInfo, ndis_netbuf_functions_ref_6bea2e25-d488-4bf2-879b-1ace04c66b68.xml, netvista.ndiscopysendnetbufferlistinfo
 f1_keywords:
  - "ndis/NdisCopySendNetBufferListInfo"

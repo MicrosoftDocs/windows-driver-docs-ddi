@@ -4,6 +4,7 @@ title: PFND3D12DDI_CALC_PRIVATE_DESCRIPTOR_HEAP_SIZE_0001 (d3d12umddi.h)
 description: Calculates the size of the descriptor heap.
 ms.assetid: 89ec24a0-5787-430b-9bc2-6adfbd6570a4
 ms.date: 10/19/2018
+keywords: ["PFND3D12DDI_CALC_PRIVATE_DESCRIPTOR_HEAP_SIZE_0001 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

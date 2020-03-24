@@ -6,6 +6,7 @@ old-location: buses\ufxdevicenotifyreset.htm
 tech.root: usbref
 ms.assetid: FD88E645-7CBB-4998-BEBA-5BBE2FF167FC
 ms.date: 05/07/2018
+keywords: ["UfxDeviceNotifyReset function"]
 ms.keywords: UfxDeviceNotifyReset, UfxDeviceNotifyReset method [Buses], buses.ufxdevicenotifyreset, ufxclient/UfxDeviceNotifyReset
 f1_keywords:
  - "ufxclient/UfxDeviceNotifyReset"

@@ -6,6 +6,7 @@ old-location: parports\pparallel_clear_chip_mode.htm
 tech.root: parports
 ms.assetid: 398d38a0-2337-4f8e-bd30-d6546516b945
 ms.date: 02/15/2018
+keywords: ["PPARALLEL_CLEAR_CHIP_MODE callback"]
 ms.keywords: "(*PPARALLEL_CLEAR_CHIP_MODE), (*PPARALLEL_CLEAR_CHIP_MODE) callback function [Parallel Ports], cisspd_d5564f9d-0941-4f80-9fa7-5acacaaf47a9.xml, parallel/(*PPARALLEL_CLEAR_CHIP_MODE), parports.pparallel_clear_chip_mode"
 f1_keywords:
  - "parallel/(*PPARALLEL_CLEAR_CHIP_MODE)"

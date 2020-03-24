@@ -6,6 +6,7 @@ old-location: netvista\rilgpp2cause.htm
 tech.root: netvista
 ms.assetid: 40981ad1-9a3e-47c5-a3d2-e980659b8ca4
 ms.date: 05/02/2018
+keywords: ["RILGPP2CAUSE structure"]
 ms.keywords: "*LPRILGPP2CAUSE, RILGPP2CAUSE, RILGPP2CAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgpp2cause, ntddrilapitypes/RILGPP2CAUSE"
 f1_keywords:
  - "rilapitypes/RILGPP2CAUSE"

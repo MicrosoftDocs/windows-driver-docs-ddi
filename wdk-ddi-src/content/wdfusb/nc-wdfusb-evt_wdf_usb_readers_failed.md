@@ -6,6 +6,7 @@ old-location: wdf\evtusbtargetpipereadersfailed.htm
 tech.root: wdf
 ms.assetid: a9e21f47-1a60-419a-839e-8869f9fd4dd7
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_USB_READERS_FAILED callback function"]
 ms.keywords: DFUsbRef_ba1b1293-cdd5-481e-8dd1-3633eb9084b9.xml, EVT_WDF_USB_READERS_FAILED, EVT_WDF_USB_READERS_FAILED callback, EvtUsbTargetPipeReadersFailed, EvtUsbTargetPipeReadersFailed callback function, kmdf.evtusbtargetpipereadersfailed, wdf.evtusbtargetpipereadersfailed, wdfusb/EvtUsbTargetPipeReadersFailed
 f1_keywords:
  - "wdfusb/EvtUsbTargetPipeReadersFailed"

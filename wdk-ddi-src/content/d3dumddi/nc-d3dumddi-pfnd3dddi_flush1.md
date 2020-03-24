@@ -6,6 +6,7 @@ old-location: display\pfnflush1.htm
 tech.root: display
 ms.assetid: 6BAC104A-85CE-42FC-AE30-969B2FF6AFEF
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_FLUSH1 callback function"]
 ms.keywords: PFND3DDDI_FLUSH1, PFND3DDDI_FLUSH1 callback, d3dumddi/pfnFlush1, display.pfnflush1, pfnFlush1, pfnFlush1 callback function [Display Devices]
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h

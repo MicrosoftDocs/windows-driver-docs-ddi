@@ -6,6 +6,7 @@ old-location: kernel\requestinterrupt.htm
 tech.root: kernel
 ms.assetid: B999405D-D6A5-4DFF-A902-F9C938C29063
 ms.date: 04/30/2018
+keywords: ["POFXCALLBACKREQUESTINTERRUPT callback function"]
 ms.keywords: POFXCALLBACKREQUESTINTERRUPT, RequestInterrupt, RequestInterrupt routine [Kernel-Mode Driver Architecture], kernel.requestinterrupt, pepfx/RequestInterrupt
 f1_keywords:
  - "pep_x/RequestInterrupt"

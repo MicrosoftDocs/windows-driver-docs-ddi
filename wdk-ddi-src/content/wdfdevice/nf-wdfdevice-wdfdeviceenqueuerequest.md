@@ -6,6 +6,7 @@ old-location: wdf\wdfdeviceenqueuerequest.htm
 tech.root: wdf
 ms.assetid: f669790f-0370-46a0-ba38-05e35cdf23b3
 ms.date: 02/26/2018
+keywords: ["WdfDeviceEnqueueRequest function"]
 ms.keywords: DFDeviceObjectGeneralRef_f97fc280-163f-4931-a222-6a8ccf3251d2.xml, WdfDeviceEnqueueRequest, WdfDeviceEnqueueRequest method, kmdf.wdfdeviceenqueuerequest, wdf.wdfdeviceenqueuerequest, wdfdevice/WdfDeviceEnqueueRequest
 f1_keywords:
  - "wdfdevice/WdfDeviceEnqueueRequest"

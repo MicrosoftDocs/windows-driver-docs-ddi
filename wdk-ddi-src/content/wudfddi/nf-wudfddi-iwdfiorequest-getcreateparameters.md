@@ -6,6 +6,7 @@ old-location: wdf\iwdfiorequest_getcreateparameters.htm
 tech.root: wdf
 ms.assetid: 1bc6eed2-c6bd-448f-8f78-630cca4cd29a
 ms.date: 02/26/2018
+keywords: ["IWDFIoRequest::GetCreateParameters"]
 ms.keywords: GetCreateParameters, GetCreateParameters method, GetCreateParameters method,IWDFIoRequest interface, IWDFIoRequest interface,GetCreateParameters method, IWDFIoRequest.GetCreateParameters, IWDFIoRequest::GetCreateParameters, UMDFRequestObjectRef_ac352dd9-a9e0-4741-abfe-92482dd25112.xml, umdf.iwdfiorequest_getcreateparameters, wdf.iwdfiorequest_getcreateparameters, wudfddi/IWDFIoRequest::GetCreateParameters
 f1_keywords:
  - "wudfddi/IWDFIoRequest.GetCreateParameters"

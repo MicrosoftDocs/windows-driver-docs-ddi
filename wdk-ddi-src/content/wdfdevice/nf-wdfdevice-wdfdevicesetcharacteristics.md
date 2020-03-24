@@ -6,6 +6,7 @@ old-location: wdf\wdfdevicesetcharacteristics.htm
 tech.root: wdf
 ms.assetid: 07b5d7ed-fc4c-45e5-8748-2630c91d912a
 ms.date: 02/26/2018
+keywords: ["WdfDeviceSetCharacteristics function"]
 ms.keywords: DFDeviceObjectGeneralRef_a5d23cdb-a42e-48ef-9158-174354e13ca6.xml, WdfDeviceSetCharacteristics, WdfDeviceSetCharacteristics method, kmdf.wdfdevicesetcharacteristics, wdf.wdfdevicesetcharacteristics, wdfdevice/WdfDeviceSetCharacteristics
 f1_keywords:
  - "wdfdevice/WdfDeviceSetCharacteristics"

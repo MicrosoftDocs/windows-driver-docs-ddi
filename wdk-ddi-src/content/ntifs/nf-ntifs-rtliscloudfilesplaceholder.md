@@ -6,6 +6,7 @@ old-location: ifsk\rtliscloudfilesplaceholder.htm
 tech.root: ifsk
 ms.assetid: 9FF2EC69-0844-4FD7-A2BC-F16C42922212
 ms.date: 04/16/2018
+keywords: ["RtlIsCloudFilesPlaceholder function"]
 ms.keywords: RtlIsCloudFilesPlaceholder, RtlIsCloudFilesPlaceholder routine [Installable File System Drivers], ifsk.rtliscloudfilesplaceholder, ntifs/RtlIsCloudFilesPlaceholder
 f1_keywords:
  - "ntifs/RtlIsCloudFilesPlaceholder"

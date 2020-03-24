@@ -6,6 +6,7 @@ old-location: stream\ksproperty_droppedframes_current_s.htm
 tech.root: stream
 ms.assetid: 966af529-1725-4e80-9e67-cdb8666673f2
 ms.date: 04/30/2019
+keywords: ["KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure"]
 ms.keywords: "*PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, KSPROPERTY_DROPPEDFRAMES_CURRENT_S, KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure [Streaming Media Devices], PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, PKSPROPERTY_DROPPEDFRAMES_CURRENT_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_DROPPEDFRAMES_CURRENT_S, ksmedia/PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, stream.ksproperty_droppedframes_current_s, vidcapstruct_ee78d2f2-c142-4d17-855d-7dc35589f271.xml"
 f1_keywords:
  - "ksmedia/KSPROPERTY_DROPPEDFRAMES_CURRENT_S"

@@ -6,6 +6,7 @@ old-location: image\wiaswritepropstr.htm
 tech.root: image
 ms.assetid: 542e4196-164b-4ae1-87ad-2d6adb9c8904
 ms.date: 05/03/2018
+keywords: ["wiasWritePropStr function"]
 ms.keywords: image.wiaswritepropstr, wiamdef/wiasWritePropStr, wiasFncs_f1b2ee2f-f9a1-4d10-9ffa-47a6c10c4a92.xml, wiasWritePropStr, wiasWritePropStr function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasWritePropStr"

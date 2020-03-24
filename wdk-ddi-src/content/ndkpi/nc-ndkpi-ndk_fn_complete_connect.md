@@ -6,6 +6,7 @@ old-location: netvista\ndk_fn_complete_connect.htm
 tech.root: netvista
 ms.assetid: 85AD83CE-C00F-4D5A-BCDE-22D1B83201A8
 ms.date: 05/02/2018
+keywords: ["NDK_FN_COMPLETE_CONNECT callback function"]
 ms.keywords: NDK_FN_COMPLETE_CONNECT, NDK_FN_COMPLETE_CONNECT callback, NdkCompleteConnect, NdkCompleteConnect callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCompleteConnect, netvista.ndk_fn_complete_connect
 f1_keywords:
  - "ndkpi/NdkCompleteConnect"

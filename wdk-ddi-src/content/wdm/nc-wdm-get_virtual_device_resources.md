@@ -6,6 +6,7 @@ old-location: pci\getresources.htm
 tech.root: PCI
 ms.assetid: 4F29E9BD-F534-45EC-99C3-F006A0E03B31
 ms.date: 02/24/2018
+keywords: ["GET_VIRTUAL_DEVICE_RESOURCES callback"]
 ms.keywords: GET_VIRTUAL_DEVICE_RESOURCES, GetResources, GetResources routine, PCI.getresources, wdm/GetResources
 f1_keywords:
  - "wdm/GetResources"

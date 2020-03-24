@@ -6,6 +6,7 @@ old-location: debugger\idebugfailureanalysis2_addbuffer.htm
 tech.root: debugger
 ms.assetid: E6510000-E390-4631-9D47-5A57AB845EF6
 ms.date: 05/03/2018
+keywords: ["IDebugFailureAnalysis2::AddBuffer"]
 ms.keywords: AddBuffer, AddBuffer method [Windows Debugging], AddBuffer method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],AddBuffer method, IDebugFailureAnalysis2.AddBuffer, IDebugFailureAnalysis2::AddBuffer, debugger.idebugfailureanalysis2_addbuffer, extsfns/IDebugFailureAnalysis2::AddBuffer
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.AddBuffer"

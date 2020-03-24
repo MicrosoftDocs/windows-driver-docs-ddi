@@ -4,6 +4,7 @@ title: IModelObject::RemoveParentModel (dbgmodel.h)
 description: The RemoveParentModel will remove a specified parent model from the parent search chain of the given object.
 ms.assetid: 2a3fb86c-b9f4-4275-82e6-c6ff24f2fc4c
 ms.date: 08/13/2018
+keywords: ["IModelObject::RemoveParentModel"]
 f1_keywords:
  - "dbgmodel/IModelObject.RemoveParentModel"
 ms.keywords: IModelObject::RemoveParentModel, RemoveParentModel, IModelObject.RemoveParentModel, IModelObject::RemoveParentModel, IModelObject.RemoveParentModel

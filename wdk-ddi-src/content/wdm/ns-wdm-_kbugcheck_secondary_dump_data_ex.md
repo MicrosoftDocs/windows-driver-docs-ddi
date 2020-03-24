@@ -7,6 +7,7 @@ tech.root:
 ms.assetid: 85ff55ca-e626-4214-9844-2eac78b9dcc5
 ms.author: windowsdriverdev
 ms.date: 06/03/2019
+keywords: ["_KBUGCHECK_SECONDARY_DUMP_DATA_EX structure"]
 f1_keywords:
  - "wdm/_KBUGCHECK_SECONDARY_DUMP_DATA_EX"
 ms.keywords: KBUGCHECK_SECONDARY_DUMP_DATA_EX, KBUGCHECK_SECONDARY_DUMP_DATA_EX, *PKBUGCHECK_SECONDARY_DUMP_DATA_EX, 

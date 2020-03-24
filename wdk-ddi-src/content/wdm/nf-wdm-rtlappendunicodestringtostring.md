@@ -6,6 +6,7 @@ old-location: kernel\rtlappendunicodestringtostring.htm
 tech.root: kernel
 ms.assetid: fb076688-ae8e-430b-ac06-dfef7284591d
 ms.date: 04/30/2018
+keywords: ["RtlAppendUnicodeStringToString function"]
 ms.keywords: RtlAppendUnicodeStringToString, RtlAppendUnicodeStringToString routine [Kernel-Mode Driver Architecture], k109_4c17620f-086f-4a0d-aa7a-6bc46d0a0f21.xml, kernel.rtlappendunicodestringtostring, wdm/RtlAppendUnicodeStringToString
 f1_keywords:
  - "wdm/RtlAppendUnicodeStringToString"

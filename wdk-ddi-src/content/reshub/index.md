@@ -3,6 +3,7 @@ UID: NA:reshub
 title: Reshub.h header
 ms.assetid: 9a7ab989-5fce-3d9d-8e4e-202e0218e137
 ms.date: 05/09/2018
+keywords: ["Reshub.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

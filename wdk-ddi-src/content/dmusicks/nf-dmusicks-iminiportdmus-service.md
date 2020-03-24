@@ -6,6 +6,7 @@ old-location: audio\iminiportdmus_service.htm
 tech.root: audio
 ms.assetid: a3f8d3f2-180c-454b-8e15-57c479c00db9
 ms.date: 05/08/2018
+keywords: ["IMiniportDMus::Service"]
 ms.keywords: IMiniportDMus interface [Audio Devices],Service method, IMiniportDMus.Service, IMiniportDMus::Service, Service, Service method [Audio Devices], Service method [Audio Devices],IMiniportDMus interface, audio.iminiportdmus_service, audmp-routines_0c872bc5-12b7-4e9d-b6ea-0da47cd41483.xml, dmusicks/IMiniportDMus::Service
 f1_keywords:
  - "dmusicks/IMiniportDMus.Service"

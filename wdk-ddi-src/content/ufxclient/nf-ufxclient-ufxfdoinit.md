@@ -6,6 +6,7 @@ old-location: buses\ufxfdoinit.htm
 tech.root: usbref
 ms.assetid: 11CDA6DA-6B26-41BC-8F0B-2F18FC03B3C2
 ms.date: 05/07/2018
+keywords: ["UfxFdoInit function"]
 ms.keywords: UfxFdoInit, UfxFdoInit method [Buses], buses.ufxfdoinit, ufxclient/UfxFdoInit
 f1_keywords:
  - "ufxclient/UfxFdoInit"

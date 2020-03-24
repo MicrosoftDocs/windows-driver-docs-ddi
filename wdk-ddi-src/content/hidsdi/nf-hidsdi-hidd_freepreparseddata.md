@@ -6,6 +6,7 @@ old-location: hid\hidd_freepreparseddata.htm
 tech.root: hid
 ms.assetid: 71e2f946-706d-41bc-9d9c-d63230877e48
 ms.date: 06/19/2019
+keywords: ["HidD_FreePreparsedData function"]
 ms.keywords: HidD_FreePreparsedData, HidD_FreePreparsedData routine [Human Input Devices], hid.hidd_freepreparseddata, hidfunc_2ca8b6ee-b391-40ac-bd0e-491089d7ed06.xml, hidsdi/HidD_FreePreparsedData
 f1_keywords:
  - "hidsdi/HidD_FreePreparsedData"

@@ -5,6 +5,7 @@ description: The pfnGetPageableSize callback function gets the pageable size.
 old-location: display\pfnd3d12ddi_getpageablesize.htm
 ms.assetid: DC215186-A216-4C34-AE9A-A487178B34C0
 ms.date: 05/10/2018
+keywords: ["PFND3D12DDI_GETPAGEABLESIZE_0020 callback function"]
 ms.keywords: PFND3D12DDI_GETPAGEABLESIZE_0020, PFND3D12DDI_GETPAGEABLESIZE_0020 callback, d3d12umddi/pfnGetPageableSize, display.pfnd3d12ddi_getpageablesize, pfnGetPageableSize, pfnGetPageableSize callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnGetPageableSize"

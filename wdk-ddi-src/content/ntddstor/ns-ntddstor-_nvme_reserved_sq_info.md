@@ -5,6 +5,7 @@ description:
 tech.root: storage
 ms.assetid: 2c3f58f1-7bb2-4a32-b4da-b23eeae3fb86
 ms.date: 10/19/2018
+keywords: ["_NVME_RESERVED_SQ_INFO structure"]
 f1_keywords:
  - "ntddstor/_NVME_RESERVED_SQ_INFO"
 ms.keywords: _NVME_RESERVED_SQ_INFO, NVME_RESERVED_SQ_INFO, *PNVME_RESERVED_SQ_INFO, 

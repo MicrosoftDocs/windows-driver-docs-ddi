@@ -4,6 +4,7 @@ title: _USBPM_CONNECTOR_PROPERTIES (usbpmapi.h)
 description: Describes the properties of a connector.
 ms.assetid: f07a2985-d569-4fe2-9a37-c95e7d664d28
 ms.date: 09/30/2018
+keywords: ["_USBPM_CONNECTOR_PROPERTIES structure"]
 f1_keywords:
  - "usbpmapi/USBPM_CONNECTOR_PROPERTIES"
 tech.root: usbref

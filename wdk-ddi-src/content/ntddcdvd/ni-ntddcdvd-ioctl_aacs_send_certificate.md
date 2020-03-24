@@ -6,6 +6,7 @@ old-location: storage\ioctl_aacs_send_certificate.htm
 tech.root: storage
 ms.assetid: e56b2d31-cb59-489d-ab12-7657406ba67a
 ms.date: 03/29/2018
+keywords: ["IOCTL_AACS_SEND_CERTIFICATE IOCTL"]
 ms.keywords: IOCTL_AACS_SEND_CERTIFICATE, IOCTL_AACS_SEND_CERTIFICATE control, IOCTL_AACS_SEND_CERTIFICATE control code [Storage Devices], k307_c275c772-8b16-4397-ba4d-3ff3ebc5eb40.xml, ntddcdvd/IOCTL_AACS_SEND_CERTIFICATE, storage.ioctl_aacs_send_certificate
 f1_keywords:
  - "ntddcdvd/IOCTL_AACS_SEND_CERTIFICATE"

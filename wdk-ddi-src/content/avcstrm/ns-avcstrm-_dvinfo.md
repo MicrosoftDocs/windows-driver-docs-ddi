@@ -6,6 +6,7 @@ old-location: stream\dvinfo.htm
 tech.root: stream
 ms.assetid: 3afd372f-556f-4c3a-804b-9bf7a8c9a438
 ms.date: 04/23/2018
+keywords: ["_DVINFO structure"]
 ms.keywords: "*PDVINFO, DVINFO, DVINFO structure [Streaming Media Devices], PDVINFO, PDVINFO structure pointer [Streaming Media Devices], _DVINFO, avcsref_9e5ce103-400a-4cfd-b160-5eb99906a80d.xml, avcstrm/DVINFO, avcstrm/PDVINFO, stream.dvinfo"
 f1_keywords:
  - "avcstrm/DVINFO"

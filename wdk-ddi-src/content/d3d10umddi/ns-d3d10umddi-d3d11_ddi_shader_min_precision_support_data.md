@@ -5,6 +5,7 @@ description: Describes precision support options for shaders in the user-mode di
 old-location: display\d3d11_ddi_shader_min_precision_support_data.htm
 ms.assetid: e93649d1-4ad0-4873-99c7-b2f3ed48aac6
 ms.date: 05/10/2018
+keywords: ["D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA structure"]
 ms.keywords: D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA, D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA structure [Display Devices], d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA, display.d3d11_ddi_shader_min_precision_support_data
 f1_keywords:
  - "d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_SUPPORT_DATA"

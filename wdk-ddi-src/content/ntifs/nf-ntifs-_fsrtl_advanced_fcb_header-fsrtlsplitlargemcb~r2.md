@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlsplitlargemcb.htm
 tech.root: ifsk
 ms.assetid: c48b978e-8519-41c0-b711-013c5ccf4abe
 ms.date: 03/29/2018
+keywords: ["FsRtlSplitLargeMcb function"]
 ms.keywords: FsRtlSplitLargeMcb, FsRtlSplitLargeMcb routine [Installable File System Drivers], fsrtlref_f8b7262b-59e2-442d-9525-faa934101bd8.xml, ifsk.fsrtlsplitlargemcb, ntifs/FsRtlSplitLargeMcb
 f1_keywords:
  - "ntifs/FsRtlSplitLargeMcb"

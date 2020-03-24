@@ -6,6 +6,7 @@ old-location: serports\evtsercx2piotransmitcancelreadynotification.htm
 tech.root: serports
 ms.assetid: 2483F6A6-67FE-4C75-9872-53F66B4BD658
 ms.date: 04/23/2018
+keywords: ["EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION callback function"]
 ms.keywords: 2/EvtSerCx2PioTransmitCancelReadyNotification, EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION, EVT_SERCX2_PIO_TRANSMIT_CANCEL_READY_NOTIFICATION callback, EvtSerCx2PioTransmitCancelReadyNotification, EvtSerCx2PioTransmitCancelReadyNotification callback function [Serial Ports], serports.evtsercx2piotransmitcancelreadynotification
 f1_keywords:
  - "sercx/EvtSerCx2PioTransmitCancelReadyNotification"

@@ -6,6 +6,7 @@ old-location: kernel\mmprotectmdlsystemaddress.htm
 tech.root: kernel
 ms.assetid: e0ccc6e8-9351-4440-808b-e0b8eef48bc2
 ms.date: 04/30/2018
+keywords: ["MmProtectMdlSystemAddress function"]
 ms.keywords: MmProtectMdlSystemAddress, MmProtectMdlSystemAddress routine [Kernel-Mode Driver Architecture], k106_b2a56ec8-cfee-4547-b1c2-6f817ecbfaad.xml, kernel.mmprotectmdlsystemaddress, wdm/MmProtectMdlSystemAddress
 f1_keywords:
  - "wdm/MmProtectMdlSystemAddress"

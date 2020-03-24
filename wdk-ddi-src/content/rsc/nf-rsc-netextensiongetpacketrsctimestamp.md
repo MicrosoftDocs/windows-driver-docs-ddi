@@ -7,6 +7,7 @@ tech.root: netvista
 ms.assetid: 7562250c-17c0-4d59-9b0f-74f856752469
 ms.author: windowsdriverdev
 ms.date: 09/24/2019
+keywords: ["NetExtensionGetPacketRscTimestamp function"]
 f1_keywords:
  - "rsc/NetExtensionGetPacketRscTimestamp"
 ms.keywords: NetExtensionGetPacketRscTimestamp

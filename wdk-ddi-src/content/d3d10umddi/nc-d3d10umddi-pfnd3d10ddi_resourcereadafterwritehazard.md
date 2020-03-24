@@ -5,6 +5,7 @@ description: The ResourceReadAfterWriteHazard function informs the user-mode dis
 old-location: display\resourcereadafterwritehazard.htm
 ms.assetid: 4d7dd4f5-9792-48cb-bf69-3903ac9dda75
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD callback function"]
 ms.keywords: PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD, PFND3D10DDI_RESOURCEREADAFTERWRITEHAZARD callback, ResourceReadAfterWriteHazard, ResourceReadAfterWriteHazard callback function [Display Devices], UserModeDisplayDriverDx10_Functions_6a240dd4-86e0-4876-b4c3-8dd2d3f086e8.xml, d3d10umddi/ResourceReadAfterWriteHazard, display.resourcereadafterwritehazard
 f1_keywords:
  - "d3d10umddi/ResourceReadAfterWriteHazard"

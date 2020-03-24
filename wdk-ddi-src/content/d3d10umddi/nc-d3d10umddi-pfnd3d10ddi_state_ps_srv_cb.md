@@ -5,6 +5,7 @@ description: The pfnStatePsSrvCb function causes the Microsoft Direct3D 10 runti
 old-location: display\pfnstatepssrvcb.htm
 ms.assetid: ed49ce47-c56d-4d38-8f2c-562841b8e804
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_STATE_PS_SRV_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_PS_SRV_CB, PFND3D10DDI_STATE_PS_SRV_CB callback, d3d10state_functions_39451a84-f247-4325-bcc0-b9ee23c2cfe3.xml, d3d10umddi/pfnStatePsSrvCb, display.pfnstatepssrvcb, pfnStatePsSrvCb, pfnStatePsSrvCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStatePsSrvCb"

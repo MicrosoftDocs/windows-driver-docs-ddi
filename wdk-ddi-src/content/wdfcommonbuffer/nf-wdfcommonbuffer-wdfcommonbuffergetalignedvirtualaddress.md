@@ -6,6 +6,7 @@ old-location: wdf\wdfcommonbuffergetalignedvirtualaddress.htm
 tech.root: wdf
 ms.assetid: 6874a1bc-e16e-4052-85a4-dba617a69ccd
 ms.date: 02/26/2018
+keywords: ["WdfCommonBufferGetAlignedVirtualAddress function"]
 ms.keywords: DFCommonBufferObjectRef_469df6c0-51ef-480a-93fe-dee452eaf216.xml, WdfCommonBufferGetAlignedVirtualAddress, WdfCommonBufferGetAlignedVirtualAddress method, kmdf.wdfcommonbuffergetalignedvirtualaddress, wdf.wdfcommonbuffergetalignedvirtualaddress, wdfcommonbuffer/WdfCommonBufferGetAlignedVirtualAddress
 f1_keywords:
  - "wdfcommonbuffer/WdfCommonBufferGetAlignedVirtualAddress"

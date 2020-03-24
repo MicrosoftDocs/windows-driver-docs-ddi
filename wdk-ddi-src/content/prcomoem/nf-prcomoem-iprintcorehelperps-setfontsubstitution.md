@@ -6,6 +6,7 @@ old-location: print\iprintcorehelperps_setfontsubstitution.htm
 tech.root: print
 ms.assetid: 2f3b47db-8e4e-4a76-a08a-acd2b903247e
 ms.date: 04/20/2018
+keywords: ["IPrintCoreHelperPS::SetFontSubstitution"]
 ms.keywords: IPrintCoreHelperPS interface [Print Devices],SetFontSubstitution method, IPrintCoreHelperPS.SetFontSubstitution, IPrintCoreHelperPS::SetFontSubstitution, SetFontSubstitution, SetFontSubstitution method [Print Devices], SetFontSubstitution method [Print Devices],IPrintCoreHelperPS interface, prcomoem/IPrintCoreHelperPS::SetFontSubstitution, print.iprintcorehelperps_setfontsubstitution, print_unidrv-pscript_allplugins_53cc5ca8-5c27-4fd8-b316-58753a996bda.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelperPS.SetFontSubstitution"

@@ -4,6 +4,7 @@ title: IDataModelConcept::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 932cbd0c-97e5-4cf1-8f6c-2dc0f6893d4a
 ms.date: 09/11/2018
+keywords: ["IDataModelConcept::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDataModelConcept.QueryInterface"
 ms.keywords: IDataModelConcept::QueryInterface, QueryInterface, IDataModelConcept.QueryInterface, IDataModelConcept::QueryInterface, IDataModelConcept.QueryInterface

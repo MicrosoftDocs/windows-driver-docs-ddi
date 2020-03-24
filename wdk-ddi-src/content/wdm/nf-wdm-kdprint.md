@@ -6,6 +6,7 @@ old-location: devtest\kdprint.htm
 tech.root: devtest
 ms.assetid: 4a2ab12b-ee89-462d-821a-0a2db20cc36c
 ms.date: 02/23/2018
+keywords: ["KdPrint macro"]
 ms.keywords: DebugFns_630aea64-3f51-4c73-8575-00a507846ab9.xml, KdPrint, KdPrint function [Driver Development Tools], devtest.kdprint, wdm/KdPrint
 f1_keywords:
  - "wdm/KdPrint"

@@ -6,6 +6,7 @@ old-location: debugger\extremotedata.htm
 tech.root: debugger
 ms.assetid: d645867c-3264-45ae-b0bd-4d21e388fb97
 ms.date: 01/19/2018
+keywords: ["ExtRemoteData::SetLongPtr method"]
 ms.keywords: ExtRemoteData::SetChar, SetLong64, ExtRemoteData::SetData, SetLongPtr, SetBoolean, SetLong, ExtRemoteData::SetFloat, SetDouble, ExtRemoteData, ExtRemoteData::SetLong64, SetChar, ExtRemoteData::SetLong, ExtRemoteData::SetBoolean, ExtRemoteData class [Windows Debugging], described, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, Clear, ExtRemoteData::SetLongPtr, SetFloat, debugger.extremotedata, ExtRemoteData class [Windows Debugging], engextcpp/ExtRemoteData, ExtRemoteData::SetDouble, ExtRemoteData::Clear, SetData
 f1_keywords:
  - "engextcpp/ExtRemoteData"

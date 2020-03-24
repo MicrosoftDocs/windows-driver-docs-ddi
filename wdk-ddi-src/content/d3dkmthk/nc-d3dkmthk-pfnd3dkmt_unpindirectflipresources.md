@@ -4,6 +4,7 @@ title: PFND3DKMT_UNPINDIRECTFLIPRESOURCES (d3dkmthk.h)
 description: The PFND3DKMT_UNPINDIRECTFLIPRESOURCES callback function unpins direct flip resources.
 ms.assetid: 4b2692d3-7747-490e-9f90-45f8d4cfbf72
 ms.date: 10/19/2018
+keywords: ["PFND3DKMT_UNPINDIRECTFLIPRESOURCES callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_UNPINDIRECTFLIPRESOURCES"
 req.header: d3dkmthk.h

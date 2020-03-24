@@ -6,6 +6,7 @@ old-location: wdf\iwdfusbtargetdevice_retrievepowerpolicy.htm
 tech.root: wdf
 ms.assetid: e15561e3-ba3d-4c65-bb6e-d90f3fab22af
 ms.date: 02/26/2018
+keywords: ["IWDFUsbTargetDevice::RetrievePowerPolicy"]
 ms.keywords: IWDFUsbTargetDevice interface,RetrievePowerPolicy method, IWDFUsbTargetDevice.RetrievePowerPolicy, IWDFUsbTargetDevice::RetrievePowerPolicy, RetrievePowerPolicy, RetrievePowerPolicy method, RetrievePowerPolicy method,IWDFUsbTargetDevice interface, UMDFUSBref_50da7595-0735-475b-863e-33a689f4fc2b.xml, umdf.iwdfusbtargetdevice_retrievepowerpolicy, wdf.iwdfusbtargetdevice_retrievepowerpolicy, wudfusb/IWDFUsbTargetDevice::RetrievePowerPolicy
 f1_keywords:
  - "wudfusb/IWDFUsbTargetDevice.RetrievePowerPolicy"

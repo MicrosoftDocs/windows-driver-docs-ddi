@@ -6,6 +6,7 @@ old-location: display\videoportmapdmamemory.htm
 tech.root: display
 ms.assetid: 51148c26-c10d-4c57-9e3e-c7d82d6a1c79
 ms.date: 05/10/2018
+keywords: ["VideoPortMapDmaMemory function"]
 ms.keywords: VideoPortMapDmaMemory, VideoPortMapDmaMemory function [Display Devices], VideoPort_Functions_f2a97e55-d165-4884-a121-52e98f8f46cd.xml, display.videoportmapdmamemory, video/VideoPortMapDmaMemory
 f1_keywords:
  - "video/VideoPortMapDmaMemory"

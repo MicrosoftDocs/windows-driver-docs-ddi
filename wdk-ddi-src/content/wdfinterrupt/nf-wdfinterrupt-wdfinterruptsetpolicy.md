@@ -6,6 +6,7 @@ old-location: wdf\wdfinterruptsetpolicy.htm
 tech.root: wdf
 ms.assetid: f61bef13-d9b5-4e6a-8657-995a1fcbf7b1
 ms.date: 02/26/2018
+keywords: ["WdfInterruptSetPolicy function"]
 ms.keywords: DFInterruptObjectRef_86b7a562-3aee-4c0b-9a68-f98a2b76588f.xml, WdfInterruptSetPolicy, WdfInterruptSetPolicy method, kmdf.wdfinterruptsetpolicy, wdf.wdfinterruptsetpolicy, wdfinterrupt/WdfInterruptSetPolicy
 f1_keywords:
  - "wdfinterrupt/WdfInterruptSetPolicy"

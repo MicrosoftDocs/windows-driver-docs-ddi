@@ -6,6 +6,7 @@ old-location: ifsk\fltgetfilterfromname.htm
 tech.root: ifsk
 ms.assetid: 95224198-e86e-4005-b50f-6775e6b8b749
 ms.date: 04/16/2018
+keywords: ["FltGetFilterFromName function"]
 ms.keywords: FltApiRef_e_to_o_f0bda010-8549-4e0d-b86a-ce200745ac5a.xml, FltGetFilterFromName, FltGetFilterFromName routine [Installable File System Drivers], fltkernel/FltGetFilterFromName, ifsk.fltgetfilterfromname
 f1_keywords:
  - "fltkernel/FltGetFilterFromName"

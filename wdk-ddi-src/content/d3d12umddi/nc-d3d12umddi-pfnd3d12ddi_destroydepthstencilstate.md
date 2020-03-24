@@ -4,6 +4,7 @@ title: PFND3D12DDI_DESTROYDEPTHSTENCILSTATE (d3d12umddi.h)
 description: Destroy depth stencil state.
 ms.assetid: 36db022f-0740-4864-9f13-9bce157fdb3a
 ms.date: 10/19/2018
+keywords: ["PFND3D12DDI_DESTROYDEPTHSTENCILSTATE callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

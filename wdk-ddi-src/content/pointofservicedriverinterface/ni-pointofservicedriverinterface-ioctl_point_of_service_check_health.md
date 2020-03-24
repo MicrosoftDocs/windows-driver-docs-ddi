@@ -6,6 +6,7 @@ old-location: pos\ioctl_point_of_service_check_health.htm
 tech.root: pos
 ms.assetid: b11be48b-e791-4599-80da-2446791f3816
 ms.date: 02/23/2018
+keywords: ["IOCTL_POINT_OF_SERVICE_CHECK_HEALTH IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, pos.ioctl_point_of_service_check_health
 f1_keywords:
  - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CHECK_HEALTH"

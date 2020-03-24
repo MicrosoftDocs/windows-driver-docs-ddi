@@ -6,6 +6,7 @@ old-location: parports\parallel_try_allocate_routine__isr_.htm
 tech.root: parports
 ms.assetid: bc69e347-8ef7-4a80-9ef4-bbc03f5586c4
 ms.date: 02/15/2018
+keywords: ["PPARALLEL_TRY_ALLOCATE_ROUTINE callback"]
 ms.keywords: PPARALLEL_TRY_ALLOCATE_ROUTINE, ParallelTryAllocateRoutine, ParallelTryAllocateRoutine callback function [Parallel Ports], cisspd_737cb583-bcc9-46e9-915b-e073da2c11bf.xml, parallel/ParallelTryAllocateRoutine, parports.parallel_try_allocate_routine__isr_
 f1_keywords:
  - "parallel/ParallelTryAllocateRoutine"

@@ -4,6 +4,7 @@ title: D3D12DDI_DEPTH_STENCIL_DESC (d3d12umddi.h)
 description: The D3D12DDI_DEPTH_STENCIL_DESC structure describes a depth stencil state.
 ms.assetid: a894e69c-692b-4783-8265-14eae56c9264
 ms.date: 10/19/2018
+keywords: ["D3D12DDI_DEPTH_STENCIL_DESC structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEPTH_STENCIL_DESC"
 ms.keywords: D3D12DDI_DEPTH_STENCIL_DESC, D3D12DDI_DEPTH_STENCIL_DESC, 

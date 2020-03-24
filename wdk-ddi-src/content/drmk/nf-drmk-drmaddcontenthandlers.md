@@ -6,6 +6,7 @@ old-location: audio\drmaddcontenthandlers.htm
 tech.root: audio
 ms.assetid: da2ec371-052a-4ea1-9336-9e32df936227
 ms.date: 05/08/2018
+keywords: ["DrmAddContentHandlers function"]
 ms.keywords: DrmAddContentHandlers, DrmAddContentHandlers function [Audio Devices], aud-prop2_94f530fb-9766-4d61-a002-b1c7bd5183d5.xml, audio.drmaddcontenthandlers, drmk/DrmAddContentHandlers
 f1_keywords:
  - "drmk/DrmAddContentHandlers"

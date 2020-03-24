@@ -6,6 +6,7 @@ old-location: kernel\rtlinitializebitmap.htm
 tech.root: kernel
 ms.assetid: 1e196ad1-5804-4d41-a273-18eb40e8f265
 ms.date: 04/30/2018
+keywords: ["RtlInitializeBitMap function"]
 ms.keywords: RtlInitializeBitMap, RtlInitializeBitMap routine [Kernel-Mode Driver Architecture], k109_2c98c30e-fc9f-422d-bfa8-e0d765677664.xml, kernel.rtlinitializebitmap, wdm/RtlInitializeBitMap
 f1_keywords:
  - "wdm/RtlInitializeBitMap"

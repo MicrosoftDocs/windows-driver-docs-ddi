@@ -6,6 +6,7 @@ old-location: storage\storportinitializelisthead.htm
 tech.root: storage
 ms.assetid: E37C54C1-209F-4944-940B-2247E86C8130
 ms.date: 03/29/2018
+keywords: ["StorPortInitializeListHead function"]
 ms.keywords: StorPortInitializeListHead, StorPortInitializeListHead routine [Storage Devices], storage.storportinitializelisthead, storport/StorPortInitializeListHead
 f1_keywords:
  - "storport/StorPortInitializeListHead"

@@ -6,6 +6,7 @@ old-location: stream\streamclasscompleterequestandmarkqueueready.htm
 tech.root: stream
 ms.assetid: 10d08fe7-13ab-4bdb-ab91-bac3822de8ee
 ms.date: 04/23/2018
+keywords: ["StreamClassCompleteRequestAndMarkQueueReady function"]
 ms.keywords: StreamClassCompleteRequestAndMarkQueueReady, StreamClassCompleteRequestAndMarkQueueReady routine [Streaming Media Devices], strclass-routines_c94691a3-a806-4b2a-a566-7a4a9d209a6c.xml, stream.streamclasscompleterequestandmarkqueueready, strmini/StreamClassCompleteRequestAndMarkQueueReady
 f1_keywords:
  - "strmini/StreamClassCompleteRequestAndMarkQueueReady"

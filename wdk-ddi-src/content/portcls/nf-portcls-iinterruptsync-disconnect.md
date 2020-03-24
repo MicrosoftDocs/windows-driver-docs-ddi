@@ -6,6 +6,7 @@ old-location: audio\iinterruptsync_disconnect.htm
 tech.root: audio
 ms.assetid: 799273eb-0ff6-4815-ac32-8fbb01f457e2
 ms.date: 05/08/2018
+keywords: ["IInterruptSync::Disconnect"]
 ms.keywords: Disconnect, Disconnect method [Audio Devices], Disconnect method [Audio Devices],IInterruptSync interface, IInterruptSync interface [Audio Devices],Disconnect method, IInterruptSync.Disconnect, IInterruptSync::Disconnect, audio.iinterruptsync_disconnect, audmp-routines_f25f0c99-96e2-4f1b-9930-e736a6394759.xml, portcls/IInterruptSync::Disconnect
 f1_keywords:
  - "portcls/IInterruptSync.Disconnect"

@@ -4,6 +4,7 @@ title: IDebugHostType::GetArrayDimensions (dbgmodel.h)
 description: The GetArrayDimensions method returns a set of descriptors, one for each dimension of the array as indicated by the GetArrayDimensionality method.
 ms.assetid: a5950b75-3dea-4076-bcff-71d530899c98
 ms.date: 09/07/2018
+keywords: ["IDebugHostType::GetArrayDimensions"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.GetArrayDimensions"
 ms.keywords: IDebugHostType::GetArrayDimensions, GetArrayDimensions, IDebugHostType.GetArrayDimensions, IDebugHostType::GetArrayDimensions, IDebugHostType.GetArrayDimensions

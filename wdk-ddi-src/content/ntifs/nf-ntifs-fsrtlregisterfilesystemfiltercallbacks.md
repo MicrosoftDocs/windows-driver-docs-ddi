@@ -6,6 +6,7 @@ old-location: ifsk\fsrtlregisterfilesystemfiltercallbacks.htm
 tech.root: ifsk
 ms.assetid: cd6d2ab6-ce17-47db-b5d0-4f9543e15487
 ms.date: 12/15/2019
+keywords: ["FsRtlRegisterFileSystemFilterCallbacks function"]
 ms.keywords: FsRtlRegisterFileSystemFilterCallbacks, FsRtlRegisterFileSystemFilterCallbacks routine [Installable File System Drivers], fsrtlref_a831a0f3-f819-45e3-9121-ae50ef1b95bf.xml, ifsk.fsrtlregisterfilesystemfiltercallbacks, ntifs/FsRtlRegisterFileSystemFilterCallbacks
 f1_keywords:
  - "ntifs/FsRtlRegisterFileSystemFilterCallbacks"
@@ -420,7 +421,11 @@ Type of page protection requested for the section. Must be zero if <i>SyncType</
 
 </td>
 <td>
+<<<<<<< HEAD
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fs_filter_section_sync_output">FS_FILTER_SECTION_SYNC_OUTPUT</a href> structure that contains the extended output information for the section.
+=======
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_fs_filter_section_sync_output">FS_FILTER_SECTION_SYNC_OUTPUT</a> structure that contains the extended output information for the section.
+>>>>>>> master
 </ul>
 
 </td>

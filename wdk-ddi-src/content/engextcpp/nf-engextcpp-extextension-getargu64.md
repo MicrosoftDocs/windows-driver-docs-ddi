@@ -6,6 +6,7 @@ old-location: debugger\getargu64.htm
 tech.root: debugger
 ms.assetid: 44a02c77-f4a2-499f-9555-99ce6f49fac8
 ms.date: 05/03/2018
+keywords: ["ExtExtension::GetArgU64"]
 ms.keywords: EngExtCpp_Ref_02971a20-02b8-4655-a1e5-8f287b4b0182.xml, ExtExtension class [Windows Debugging],GetArgU64 method, ExtExtension.GetArgU64, ExtExtension::GetArgU64, GetArgU64, GetArgU64 method [Windows Debugging], GetArgU64 method [Windows Debugging],ExtExtension class, debugger.getargu64
 f1_keywords:
  - "engextcpp/ExtExtension.GetArgU64"

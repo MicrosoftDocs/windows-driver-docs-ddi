@@ -5,6 +5,7 @@ description: Display options data.
 old-location: display\d3d12ddi-d3d12-options-data-0032.htm
 ms.assetid: 23b2a512-9828-4d1c-9282-2df6a1a80d85
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_D3D12_OPTIONS_DATA_0032 structure"]
 ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0032, D3D12DDI_D3D12_OPTIONS_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0032, display.d3d12ddi-d3d12-options-data-0032
 f1_keywords:
  - "d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0032"

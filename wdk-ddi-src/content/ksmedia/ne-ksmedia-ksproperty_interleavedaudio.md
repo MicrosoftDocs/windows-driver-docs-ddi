@@ -7,6 +7,7 @@ tech.root: audio
 ms.assetid: 02e92c82-7254-4003-88a2-642626dbcfb2
 ms.author: windowsdriverdev
 ms.date: 07/11/2019
+keywords: ["KSPROPERTY_INTERLEAVEDAUDIO enumeration"]
 f1_keywords:
  - "ksmedia/KSPROPERTY_INTERLEAVEDAUDIO"
 ms.keywords: KSPROPERTY_INTERLEAVEDAUDIO, KSPROPERTY_INTERLEAVEDAUDIO, 

@@ -6,6 +6,7 @@ old-location: dtf\iwdtflongnumbers2_remove.htm
 tech.root: dtf
 ms.assetid: b566eedc-2a04-497b-9491-7bd5768f0dce
 ms.date: 04/04/2018
+keywords: ["IWDTFLongNumbers2::Remove"]
 ms.keywords: IWDTFLongNumbers2 interface [Windows Device Testing Framework],Remove method, IWDTFLongNumbers2.Remove, IWDTFLongNumbers2::Remove, Microsoft.WDTF.IWDTFLongNumbers2.Remove, Microsoft::WDTF::IWDTFLongNumbers2::Remove, Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework],IWDTFLongNumbers2 interface, dtf.iwdtflongnumbers2_remove, wdtf/IWDTFLongNumbers2::Remove
 f1_keywords:
  - "wdtf/IWDTFLongNumbers2.Remove"

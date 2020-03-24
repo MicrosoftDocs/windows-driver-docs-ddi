@@ -6,6 +6,7 @@ old-location: netvista\ndis_net_buffer_list_media_specific_info.htm
 tech.root: netvista
 ms.assetid: cae95c4f-0af3-49de-a312-83958896006a
 ms.date: 05/02/2018
+keywords: ["_NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure"]
 ms.keywords: "*PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, ndis/NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, ndis/PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, netvista.ndis_net_buffer_list_media_specific_info"
 f1_keywords:
  - "ndis/NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO"

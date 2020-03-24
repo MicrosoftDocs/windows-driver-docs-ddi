@@ -6,6 +6,7 @@ old-location: wdf\wdfcompanioncreatetaskqueue.htm
 tech.root: wdf
 ms.assetid: 05298ffe-75e5-444e-9843-54dd063f59f5
 ms.date: 02/26/2018
+keywords: ["WdfCompanionCreateTaskQueue function"]
 ms.keywords: WdfCompanionCreateTaskQueue, WdfCompanionCreateTaskQueue method, wdf.wdfcompanioncreatetaskqueue, wdfcompanion/WdfCompanionCreateTaskQueue
 f1_keywords:
  - "wdfcompanion/WdfCompanionCreateTaskQueue"

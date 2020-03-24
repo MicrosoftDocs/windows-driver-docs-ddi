@@ -6,6 +6,7 @@ old-location: pos\magneticstripereaderauthenticationlevel_handheld_blue_autogen.
 tech.root: pos
 ms.assetid: 779e750a-70c6-41f3-b680-a9fe833014b5
 ms.date: 02/23/2018
+keywords: ["DriverMagneticStripeReaderAuthenticationLevel enumeration"]
 ms.keywords: DriverMagneticStripeReaderAuthenticationLevel, DriverMagneticStripeReaderAuthenticationLevel enumeration, NotSupported, Optional, Required, pointofservicecommontypes/DriverMagneticStripeReaderAuthenticationLevel, pointofservicecommontypes/NotSupported, pointofservicecommontypes/Optional, pointofservicecommontypes/Required, pos.magneticstripereaderauthenticationlevel_handheld_blue_autogen
 f1_keywords:
  - "pointofservicecommontypes/DriverMagneticStripeReaderAuthenticationLevel"

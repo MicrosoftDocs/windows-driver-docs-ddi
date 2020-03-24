@@ -6,6 +6,7 @@ old-location: parports\ioctl_internal_parclass_disconnect.htm
 tech.root: parports
 ms.assetid: 05dae212-62b8-4cd3-9fd1-495ae56dfada
 ms.date: 02/15/2018
+keywords: ["IOCTL_INTERNAL_PARCLASS_DISCONNECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_PARCLASS_DISCONNECT, IOCTL_INTERNAL_PARCLASS_DISCONNECT control code [Parallel Ports], cisspd_6459be75-4a0e-4a38-9bc4-b862766951fb.xml, parallel/IOCTL_INTERNAL_PARCLASS_DISCONNECT, parports.ioctl_internal_parclass_disconnect
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_PARCLASS_DISCONNECT"

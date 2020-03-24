@@ -6,6 +6,7 @@ old-location: wdf\iwdfnamedpropertystore.htm
 tech.root: wdf
 ms.assetid: f31a88c1-468f-4756-a5fa-b4aa0b8fe51d
 ms.date: 02/26/2018
+keywords: ["IWDFNamedPropertyStore interface"]
 ms.keywords: IWDFNamedPropertyStore, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore interface,described, UMDFPropertyStoreObjectRef_139eb19f-8bb7-42ba-ab86-44f5f35e0faf.xml, umdf.iwdfnamedpropertystore, wdf.iwdfnamedpropertystore, wudfddi/IWDFNamedPropertyStore
 f1_keywords:
  - "wudfddi/IWDFNamedPropertyStore"

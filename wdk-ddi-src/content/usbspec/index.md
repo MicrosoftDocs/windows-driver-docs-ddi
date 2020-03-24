@@ -3,6 +3,7 @@ UID: NA:usbspec
 title: Usbspec.h header
 ms.assetid: 399eedeb-abab-3fb2-9a78-c323c5ecb8ef
 ms.date: 05/09/2018
+keywords: ["Usbspec.h header"]
 ms.keywords: USB specification data structures
 ms.prod: windows-hardware
 ms.technology: windows-devices

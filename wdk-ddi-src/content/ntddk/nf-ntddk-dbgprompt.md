@@ -6,6 +6,7 @@ old-location: devtest\dbgprompt.htm
 tech.root: devtest
 ms.assetid: 4bb44aab-7032-4cc7-89e3-6ac3bee233d3
 ms.date: 02/23/2018
+keywords: ["DbgPrompt function"]
 ms.keywords: DbgPrompt, DbgPrompt routine [Driver Development Tools], DebugFns_bf0bb6f5-3664-4f8d-811e-5d55fbb94081.xml, devtest.dbgprompt, ntddk/DbgPrompt
 f1_keywords:
  - "ntddk/DbgPrompt"

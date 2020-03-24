@@ -6,6 +6,7 @@ old-location: debugger\debugconnectwide.htm
 tech.root: debugger
 ms.assetid: B25AD9E0-FBDA-4E4F-A268-92C9AA761191
 ms.date: 05/03/2018
+keywords: ["DebugConnectWide function"]
 ms.keywords: DebugConnectWide, DebugConnectWide function [Windows Debugging], dbgeng/DebugConnectWide, debugger.debugconnectwide
 f1_keywords:
  - "dbgeng/DebugConnectWide"

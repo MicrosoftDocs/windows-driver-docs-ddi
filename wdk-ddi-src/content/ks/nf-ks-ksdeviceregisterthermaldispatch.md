@@ -6,6 +6,7 @@ old-location: stream\ksdeviceregisterthermaldispatch.htm
 tech.root: stream
 ms.assetid: 7998B753-8E43-471F-9BDE-729D0E38E022
 ms.date: 04/23/2018
+keywords: ["KsDeviceRegisterThermalDispatch function"]
 ms.keywords: KsDeviceRegisterThermalDispatch, KsDeviceRegisterThermalDispatch function [Streaming Media Devices], ks/KsDeviceRegisterThermalDispatch, stream.ksdeviceregisterthermaldispatch
 f1_keywords:
  - "ks/KsDeviceRegisterThermalDispatch"

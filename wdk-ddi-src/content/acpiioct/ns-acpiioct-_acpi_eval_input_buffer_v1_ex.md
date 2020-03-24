@@ -6,6 +6,7 @@ old-location: acpi\acpi_eval_input_buffer_ex.htm
 tech.root: acpi
 ms.assetid: 3a5d4572-0455-4fd0-aeff-fc99d72433b6
 ms.date: 02/15/2018
+keywords: ["_ACPI_EVAL_INPUT_BUFFER_V1_EX structure"]
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_EX, *PACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX, ACPI_EVAL_INPUT_BUFFER_V1_EX structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_V1_EX, PACPI_EVAL_INPUT_BUFFER_V1_EX structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_V1_EX, acpi-meth-eval-ref_13d68b28-6366-40cb-84d0-b6dcb7520c93.xml, acpi.acpi_eval_input_buffer_ex, acpiioct/ACPI_EVAL_INPUT_BUFFER_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_V1_EX"
 f1_keywords:
  - "acpiioct/ACPI_EVAL_INPUT_BUFFER_V1_EX"

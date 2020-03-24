@@ -6,6 +6,7 @@ old-location: netvista\dot11_privacy_exemption.htm
 tech.root: netvista
 ms.assetid: ee4499d0-3275-419d-9ab2-89edd77e0374
 ms.date: 02/16/2018
+keywords: ["DOT11_PRIVACY_EXEMPTION structure"]
 ms.keywords: "*PDOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_8dd63374-57b1-4dc8-9dca-76dcc5ade9fd.xml, PDOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_privacy_exemption, windot11/DOT11_PRIVACY_EXEMPTION, windot11/PDOT11_PRIVACY_EXEMPTION"
 f1_keywords:
  - "windot11/DOT11_PRIVACY_EXEMPTION"

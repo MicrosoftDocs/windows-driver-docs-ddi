@@ -4,6 +4,7 @@ title: IDebugHostType2::GetFunctionParameterTypeAt (dbgmodel.h)
 description: The GetFunctionParameterTypeAt method returns the type of the i-th argument to the function. 
 ms.assetid: 7e0e1d0c-519b-4acf-ba48-8231f5235058
 ms.date: 09/20/2018
+keywords: ["IDebugHostType2::GetFunctionParameterTypeAt"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetFunctionParameterTypeAt"
 ms.keywords: IDebugHostType2::GetFunctionParameterTypeAt, GetFunctionParameterTypeAt, IDebugHostType2.GetFunctionParameterTypeAt, IDebugHostType2::GetFunctionParameterTypeAt, IDebugHostType2.GetFunctionParameterTypeAt

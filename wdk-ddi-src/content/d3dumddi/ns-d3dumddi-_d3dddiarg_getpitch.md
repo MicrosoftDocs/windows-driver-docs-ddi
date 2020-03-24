@@ -6,6 +6,7 @@ old-location: display\d3dddiarg_getpitch.htm
 tech.root: display
 ms.assetid: 59661cfe-4a1f-4805-9421-7f694e82f8d2
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_GETPITCH structure"]
 ms.keywords: D3DDDIARG_GETPITCH, D3DDDIARG_GETPITCH structure [Display Devices], UMDisplayDriver_param_Structs_02e95329-8eba-41a3-ae4e-d8830b47ada6.xml, _D3DDDIARG_GETPITCH, d3dumddi/D3DDDIARG_GETPITCH, display.d3dddiarg_getpitch
 f1_keywords:
  - "d3dumddi/D3DDDIARG_GETPITCH"

@@ -6,6 +6,7 @@ old-location: audio\iminiportwavepci_init.htm
 tech.root: audio
 ms.assetid: 0796a1a2-1aaa-4e07-a8f1-7a3c895643e7
 ms.date: 05/08/2018
+keywords: ["IMiniportWavePci::Init"]
 ms.keywords: IMiniportWavePci interface [Audio Devices],Init method, IMiniportWavePci.Init, IMiniportWavePci::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IMiniportWavePci interface, audio.iminiportwavepci_init, audmp-routines_fd2d7813-ebe8-4cf3-8a6c-4ebfccca5826.xml, portcls/IMiniportWavePci::Init
 f1_keywords:
  - "portcls/IMiniportWavePci.Init"

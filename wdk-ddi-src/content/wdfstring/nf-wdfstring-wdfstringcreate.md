@@ -6,6 +6,7 @@ old-location: wdf\wdfstringcreate.htm
 tech.root: wdf
 ms.assetid: 491b99c6-5531-4d24-83a4-c404b58d111c
 ms.date: 02/26/2018
+keywords: ["WdfStringCreate function"]
 ms.keywords: DFStringObjectRef_1c460976-7e49-45c8-9fdb-c6651048d387.xml, WdfStringCreate, WdfStringCreate method, kmdf.wdfstringcreate, wdf.wdfstringcreate, wdfstring/WdfStringCreate
 f1_keywords:
  - "wdfstring/WdfStringCreate"

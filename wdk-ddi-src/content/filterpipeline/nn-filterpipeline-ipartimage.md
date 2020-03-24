@@ -6,6 +6,7 @@ old-location: print\ipartimage.htm
 tech.root: print
 ms.assetid: 7bb39a5b-7519-47a6-82ca-440942ae2c84
 ms.date: 04/20/2018
+keywords: ["IPartImage interface"]
 ms.keywords: IPartImage, IPartImage interface [Print Devices], IPartImage interface [Print Devices],described, filterpipeline/IPartImage, filterpipeline_faed49d4-60d1-4063-a4aa-c9ec8c56655d.xml, print.ipartimage
 f1_keywords:
  - "filterpipeline/IPartImage"

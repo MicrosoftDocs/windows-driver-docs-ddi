@@ -6,6 +6,7 @@ old-location: print\iprintoemuni_downloadfontheader.htm
 tech.root: print
 ms.assetid: 3d660d04-2872-44e6-ab76-719f5262bdd8
 ms.date: 04/20/2018
+keywords: ["IPrintOemUni::DownloadFontHeader"]
 ms.keywords: DownloadFontHeader, DownloadFontHeader method [Print Devices], DownloadFontHeader method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],DownloadFontHeader method, IPrintOemUni.DownloadFontHeader, IPrintOemUni::DownloadFontHeader, prcomoem/IPrintOemUni::DownloadFontHeader, print.iprintoemuni_downloadfontheader, print_unidrv-pscript_rendering_7ed24461-70a3-4446-9b3e-1fda13b0a29a.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.DownloadFontHeader"

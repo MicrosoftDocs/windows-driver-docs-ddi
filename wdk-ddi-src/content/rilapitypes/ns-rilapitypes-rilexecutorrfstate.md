@@ -6,6 +6,7 @@ old-location: netvista\rilexecutorrfstate.htm
 tech.root: netvista
 ms.assetid: b56f71c3-3c24-4f6b-ba50-203e17374c81
 ms.date: 05/02/2018
+keywords: ["RILEXECUTORRFSTATE structure"]
 ms.keywords: "*LPRILEXECUTORRFSTATE, RILEXECUTORRFSTATE, RILEXECUTORRFSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorrfstate, ntddrilapitypes/RILEXECUTORRFSTATE"
 f1_keywords:
  - "rilapitypes/RILEXECUTORRFSTATE"

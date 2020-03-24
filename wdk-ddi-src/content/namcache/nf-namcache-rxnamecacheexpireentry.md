@@ -6,6 +6,7 @@ old-location: ifsk\rxnamecacheexpireentry.htm
 tech.root: ifsk
 ms.assetid: cd763f88-0ff6-4938-ac6e-88ed3da2022b
 ms.date: 04/16/2018
+keywords: ["RxNameCacheExpireEntry function"]
 ms.keywords: RxNameCacheExpireEntry, RxNameCacheExpireEntry function [Installable File System Drivers], ifsk.rxnamecacheexpireentry, namcache/RxNameCacheExpireEntry, rxref_d516a8aa-e7f8-48d4-8619-6b59a862ca0c.xml
 f1_keywords:
  - "namcache/RxNameCacheExpireEntry"

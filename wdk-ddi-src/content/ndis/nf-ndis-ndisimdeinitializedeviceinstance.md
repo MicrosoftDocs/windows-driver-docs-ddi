@@ -6,6 +6,7 @@ old-location: netvista\ndisimdeinitializedeviceinstance.htm
 tech.root: netvista
 ms.assetid: badfab43-ba58-4711-a181-af87dcfeba4d
 ms.date: 05/02/2018
+keywords: ["NdisIMDeInitializeDeviceInstance function"]
 ms.keywords: NdisIMDeInitializeDeviceInstance, NdisIMDeInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], intermediate_ref_6e10d8e6-4dd7-4d92-9c22-949dabac84f9.xml, ndis/NdisIMDeInitializeDeviceInstance, netvista.ndisimdeinitializedeviceinstance
 f1_keywords:
  - "ndis/NdisIMDeInitializeDeviceInstance"

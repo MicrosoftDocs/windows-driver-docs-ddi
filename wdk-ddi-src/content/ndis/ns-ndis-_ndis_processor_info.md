@@ -6,6 +6,7 @@ old-location: netvista\ndis_processor_info.htm
 tech.root: netvista
 ms.assetid: 55c7044e-20db-4245-a644-93cbeb9cd512
 ms.date: 05/02/2018
+keywords: ["_NDIS_PROCESSOR_INFO structure"]
 ms.keywords: "*PNDIS_PROCESSOR_INFO, NDIS_PROCESSOR_INFO, NDIS_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_PROCESSOR_INFO, PNDIS_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROCESSOR_INFO, ndis/NDIS_PROCESSOR_INFO, ndis/PNDIS_PROCESSOR_INFO, ndis_sysinfo_ref_87f00f3b-dc88-4f7d-be9e-39a649aa87a6.xml, netvista.ndis_processor_info"
 f1_keywords:
  - "ndis/NDIS_PROCESSOR_INFO"

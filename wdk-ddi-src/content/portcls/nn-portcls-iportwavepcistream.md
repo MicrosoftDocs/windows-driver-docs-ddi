@@ -6,6 +6,7 @@ old-location: audio\iportwavepcistream.htm
 tech.root: audio
 ms.assetid: c59ea7d7-17f1-4751-a948-387d7568b832
 ms.date: 05/08/2018
+keywords: ["IPortWavePciStream interface"]
 ms.keywords: IPortWavePciStream, IPortWavePciStream interface [Audio Devices], IPortWavePciStream interface [Audio Devices],described, audio.iportwavepcistream, audmp-routines_2ccb79d5-48b9-4b7b-8656-0d427ae99c22.xml, portcls/IPortWavePciStream
 f1_keywords:
  - "portcls/IPortWavePciStream"

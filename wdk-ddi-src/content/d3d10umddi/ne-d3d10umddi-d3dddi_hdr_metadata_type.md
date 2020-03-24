@@ -7,6 +7,7 @@ tech.root: display
 ms.assetid: 5cd041de-f15e-40a8-854b-7a32a6952734
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
+keywords: ["D3DDDI_HDR_METADATA_TYPE enumeration"]
 ms.keywords: D3DDDI_HDR_METADATA_TYPE, ,
 ms.prod: windows-hardware
 ms.technology: windows-devices

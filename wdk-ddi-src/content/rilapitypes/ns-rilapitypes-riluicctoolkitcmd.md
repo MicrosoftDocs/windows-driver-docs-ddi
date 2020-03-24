@@ -6,6 +6,7 @@ old-location: netvista\riluicctoolkitcmd.htm
 tech.root: netvista
 ms.assetid: f5fc28df-ee06-4efd-8509-a05ed0ebf322
 ms.date: 05/02/2018
+keywords: ["RILUICCTOOLKITCMD structure"]
 ms.keywords: "*LPRILUICCTOOLKITCMD, RILUICCTOOLKITCMD, RILUICCTOOLKITCMD structure [Network Drivers Starting with Windows Vista], netvista.riluicctoolkitcmd, ntddrilapitypes/RILUICCTOOLKITCMD"
 f1_keywords:
  - "rilapitypes/RILUICCTOOLKITCMD"

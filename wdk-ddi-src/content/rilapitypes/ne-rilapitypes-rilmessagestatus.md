@@ -6,6 +6,7 @@ old-location: netvista\rilmessagestatus.htm
 tech.root: netvista
 ms.assetid: 8c111231-f94b-4e52-9887-59d07fe70937
 ms.date: 05/02/2018
+keywords: ["RILMESSAGESTATUS enumeration"]
 ms.keywords: RILMESSAGESTATUS, RILMESSAGESTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_MSGSTATUS_MAX, RIL_MSGSTATUS_RECREAD, RIL_MSGSTATUS_RECUNREAD, RIL_MSGSTATUS_STOSENT, RIL_MSGSTATUS_STOUNSENT, netvista.rilmessagestatus, ntddrilapitypes/RILMESSAGESTATUS, ntddrilapitypes/RIL_MSGSTATUS_MAX, ntddrilapitypes/RIL_MSGSTATUS_RECREAD, ntddrilapitypes/RIL_MSGSTATUS_RECUNREAD, ntddrilapitypes/RIL_MSGSTATUS_STOSENT, ntddrilapitypes/RIL_MSGSTATUS_STOUNSENT
 f1_keywords:
  - "rilapitypes/RILMESSAGESTATUS"

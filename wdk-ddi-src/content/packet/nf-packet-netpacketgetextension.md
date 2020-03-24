@@ -5,6 +5,7 @@ description: The NetPacketGetExtension method retrieves information stored in on
 tech.root: netvista
 ms.assetid: 209d7b54-a5f0-435f-84c6-3ba7ac0dec53
 ms.date: 01/30/2019
+keywords: ["NetPacketGetExtension function"]
 f1_keywords:
  - "packet/RegisterOpRegionHandler"
 ms.keywords: NetPacketGetExtension

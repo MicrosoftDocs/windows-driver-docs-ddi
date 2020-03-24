@@ -5,6 +5,7 @@ description: Enables or disables automatic processing features for an input stre
 old-location: display\videoprocessorsetstreamautoprocessingmode.htm
 ms.assetid: 85c504e3-46b4-434a-8ab9-5c866eafe05a
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMAUTOPROCESSINGMODE callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMAUTOPROCESSINGMODE, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMAUTOPROCESSINGMODE callback, d3d10umddi/pfnVideoProcessorSetStreamAutoProcessingMode, display.videoprocessorsetstreamautoprocessingmode, pfnVideoProcessorSetStreamAutoProcessingMode, pfnVideoProcessorSetStreamAutoProcessingMode callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetStreamAutoProcessingMode"

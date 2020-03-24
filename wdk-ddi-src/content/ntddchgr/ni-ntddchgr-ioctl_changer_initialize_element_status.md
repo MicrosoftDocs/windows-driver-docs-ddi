@@ -6,6 +6,7 @@ old-location: storage\ioctl_changer_initialize_element_status.htm
 tech.root: storage
 ms.assetid: 25cbb42a-7263-47b7-84c7-cfcb41a858c8
 ms.date: 03/29/2018
+keywords: ["IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS IOCTL"]
 ms.keywords: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS, IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS control, IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS control code [Storage Devices], k307_c36a7809-093c-4172-8443-58d178e9dd87.xml, ntddchgr/IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS, storage.ioctl_changer_initialize_element_status
 f1_keywords:
  - "ntddchgr/IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS"

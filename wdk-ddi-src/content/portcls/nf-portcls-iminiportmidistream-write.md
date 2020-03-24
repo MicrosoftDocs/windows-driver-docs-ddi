@@ -6,6 +6,7 @@ old-location: audio\iminiportmidistream_write.htm
 tech.root: audio
 ms.assetid: 6ff4e4d7-3ba4-4e4b-98fa-62f269aee69f
 ms.date: 05/08/2018
+keywords: ["IMiniportMidiStream::Write"]
 ms.keywords: IMiniportMidiStream interface [Audio Devices],Write method, IMiniportMidiStream.Write, IMiniportMidiStream::Write, Write, Write method [Audio Devices], Write method [Audio Devices],IMiniportMidiStream interface, audio.iminiportmidistream_write, audmp-routines_523fd287-5380-4259-ba2c-4d9adef4fe4b.xml, portcls/IMiniportMidiStream::Write
 f1_keywords:
  - "portcls/IMiniportMidiStream.Write"

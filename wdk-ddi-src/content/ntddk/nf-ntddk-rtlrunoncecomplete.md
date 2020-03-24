@@ -6,6 +6,7 @@ old-location: kernel\rtlrunoncecomplete.htm
 tech.root: kernel
 ms.assetid: 1cdc4fde-2370-4e58-9e67-dec731cdb935
 ms.date: 04/30/2018
+keywords: ["RtlRunOnceComplete function"]
 ms.keywords: RtlRunOnceComplete, RtlRunOnceComplete routine [Kernel-Mode Driver Architecture], k109_00290091-7130-4217-8098-0baa7309223c.xml, kernel.rtlrunoncecomplete, ntddk/RtlRunOnceComplete
 f1_keywords:
  - "ntddk/RtlRunOnceComplete"
