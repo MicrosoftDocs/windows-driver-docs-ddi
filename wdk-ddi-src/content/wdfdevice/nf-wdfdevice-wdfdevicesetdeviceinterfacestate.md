@@ -5,7 +5,7 @@ description: The WdfDeviceSetDeviceInterfaceState method enables or disables a d
 old-location: wdf\wdfdevicesetdeviceinterfacestate.htm
 tech.root: wdf
 ms.assetid: 345003fc-fdc3-4529-bb15-c9e380e77bba
-ms.date: 02/26/2018
+ms.date: 03/24/2020
 keywords: ["WdfDeviceSetDeviceInterfaceState function"]
 ms.keywords: DFDeviceObjectGeneralRef_bfed99aa-ad4c-4339-aeb9-f7d73039f0b9.xml, WdfDeviceSetDeviceInterfaceState, WdfDeviceSetDeviceInterfaceState method, kmdf.wdfdevicesetdeviceinterfacestate, wdf.wdfdevicesetdeviceinterfacestate, wdfdevice/WdfDeviceSetDeviceInterfaceState
 f1_keywords:
@@ -55,6 +55,9 @@ req.typenames:
 
 The <b>WdfDeviceSetDeviceInterfaceState</b> method enables or disables a device interface for a specified device.
 
+> [!NOTE]
+> The driver should only call this function after the device has started. To change interface state from device add, call [**WdfDeviceSetDeviceInterfaceStateEx**](/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestateex) instead. 
+
 
 ## -parameters
 
@@ -82,6 +85,7 @@ A Boolean value that, if <b>TRUE</b>, enables the specified device interface ins
 
 
 ## -remarks
+
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -117,6 +121,6 @@ WdfDeviceSetDeviceInterfaceState (
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreatedeviceinterface">WdfDeviceCreateDeviceInterface</a>
  
-
+[**WdfDeviceSetDeviceInterfaceStateEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestateex)
  
 
