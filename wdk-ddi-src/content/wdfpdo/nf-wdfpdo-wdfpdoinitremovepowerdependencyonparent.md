@@ -17,7 +17,7 @@ req.lib: Wdf01000.sys (KMDF)
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
