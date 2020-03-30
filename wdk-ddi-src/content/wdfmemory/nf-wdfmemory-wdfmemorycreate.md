@@ -152,9 +152,9 @@ The default parent object for each memory object is the framework driver object 
 
 A driver can also delete a memory object and its buffer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectdelete">WdfObjectDelete</a>.
 
-If <i>BufferSize</i> is less than PAGE_SIZE, the operating system gives the caller exactly the number of requested bytes of memory. The buffer is not necessarily page-aligned, but it is aligned by the number of bytes that the MEMORY_ALLOCATION_ALIGNMENT constant specifies in <i>Ntdef.h</i>. Buffers of PAGE_SIZE or less do not cross page boundaries. 
+If <i>BufferSize</i> is less than PAGE_SIZE, the operating system gives the caller exactly the number of requested bytes of memory. The buffer is not necessarily page-aligned, but it is aligned by the number of bytes that the MEMORY_ALLOCATION_ALIGNMENT constant specifies in <i>Ntdef.h</i>.
 
-If <i>BufferSize</i> is PAGE_SIZE or greater, the system allocates a page-aligned buffer. If the <i>PoolType</i> parameter is <b>NonPagedPool</b>, the system allocates the number of pages that are necessary to hold all of the bytes. Any unused bytes on the last-allocated page are essentially wasted.
+If <i>BufferSize</i> is PAGE_SIZE or greater, for KMDF only the system allocates a page-aligned buffer. If the <i>PoolType</i> parameter is <b>NonPagedPool</b>, the system allocates the number of pages that are necessary to hold all of the bytes. Any unused bytes on the last-allocated page are essentially wasted.
 
 For more information about framework memory objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
 
