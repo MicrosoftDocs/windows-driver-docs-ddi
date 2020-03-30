@@ -4,7 +4,7 @@ title: FsRtlMdlReadDev function (ntifs.h)
 description: The FsRtlMdlReadDev routine returns a memory descriptor list (MDL) that points directly to the specified byte range in the file cache.
 old-location: ifsk\fsrtlmdlreaddev.htm
 tech.root: ifsk
-ms.assetid: 1DF810B5-D4C3-4F67-B913-C2B2132DFDE2
+ms.assetid: e8f60c13-e965-4e19-819d-cdd1bd349d68
 ms.date: 04/16/2018
 keywords: ["FsRtlMdlReadDev function"]
 ms.keywords: FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers], ntifs/FsRtlMdlReadDev, ifsk.fsrtlmdlreaddev
