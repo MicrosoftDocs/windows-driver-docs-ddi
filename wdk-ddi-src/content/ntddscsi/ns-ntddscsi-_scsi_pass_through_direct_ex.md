@@ -49,7 +49,7 @@ req.typenames: SCSI_PASS_THROUGH_DIRECT_EX, *PSCSI_PASS_THROUGH_DIRECT_EX
 The **SCSI_PASS_THROUGH_DIRECT_EX** structure is used in conjunction with an [IOCTL_SCSI_PASS_THROUGH_DIRECT_EX](ni-ntddscsi-ioctl_scsi_pass_through_direct_ex.md) request to instruct the port driver to send an embedded SCSI command to the target device. **SCSI_PASS_THROUGH_DIRECT_EX** can contain a bi-directional data transfers and a variable length command data block.
   
 > [!NOTE]
-> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -struct-fields
 

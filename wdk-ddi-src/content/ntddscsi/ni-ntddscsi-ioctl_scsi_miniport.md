@@ -51,7 +51,7 @@ Sends a special control function to a host bus adapter-specific (HBA) miniport d
 The prescribed way to open the HBA is use the [SetupDi*Xxx* APIs](https://docs.microsoft.com/windows-hardware/drivers/install/using-device-installation-functions#ddk-setupdi-setup-class-functions-dg) to get all the ScsiAdapter class devices that are running. Get the properties of each for their device instance name and open the HBA directly. SCSI%d (for example, \\\\.\Scsi0:) is a symbolic link and not ALL storage drivers create the link.
 
 > [!NOTE]
-> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -ioctlparameters
 
