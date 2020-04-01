@@ -49,15 +49,24 @@ ms.custom: 19H1
 
 ## -description
 
-The DXGK_WDDMVERSION enumeration is reserved for system use. Except for the case noted below, do not use it in your driver.
+The DXGK_WDDMVERSION enumeration identifies the Windows Display Driver Model (WDDM) version. It is reserved for system use. Except for the case noted below, do not use it in your driver.
 
 ## -syntax
 
 ```cpp
 typedef enum _DXGK_WDDMVERSION {
-  DXGKDDI_WDDMv1    = 0x1000,
-  DXGKDDI_WDDMv1_2  = 0x1200,
-  DXGKDDI_WDDMv2    = 0x2000
+  DXGKDDI_WDDMv1     = 0x1000,
+  DXGKDDI_WDDMv1_2   = 0x1200,
+  DXGKDDI_WDDMv1_3   = 0x1300,
+  DXGKDDI_WDDMv2     = 0x2000,
+  DXGKDDI_WDDMv2_1   = 0x2100,
+  DXGKDDI_WDDMv2_1_5 = 0x2105,
+  DXGKDDI_WDDMv2_1_6 = 0x2106,
+  DXGKDDI_WDDMv2_2   = 0x2200,
+  DXGKDDI_WDDMv2_3   = 0x2300,
+  DXGKDDI_WDDMv2_4   = 0x2400,
+  DXGKDDI_WDDMv2_5   = 0x2500,
+  DXGKDDI_WDDMv2_6   = 0x2600
 } DXGK_WDDMVERSION;
 ```
 
@@ -76,15 +85,15 @@ Reserved for system use. Supported beginning with Windows 8.
 
 ### -field DXGKDDI_WDDMv1_3
 
-Windows Display Driver Model for Windows 8.1.
+WDDM version for Windows 8.1.
 
 ### -field DXGKDDI_WDDMv2
 
-Windows Display Driver Model for Windows 10, version 1507.
+WDDM version for Windows 10, version 1507.
 
 ### -field DXGKDDI_WDDMv2_1
 
-Windows Display Driver Model for Windows 10, version 1607.
+WDDM version for Windows 10, version 1607.
 
 ### -field DXGKDDI_WDDMv2_1_5
 
@@ -92,23 +101,23 @@ Windows Display Driver Model for Windows 10, version 1607.
 
 ### -field DXGKDDI_WDDMv2_2
 
-Windows Display Driver Model for Windows 10, version 1703.
+WDDM version for Windows 10, version 1703.
 
 ### -field DXGKDDI_WDDMv2_3
 
-Windows Display Driver Model for Windows 10, version 1709.
+WDDM version for Windows 10, version 1709.
 
 ### -field DXGKDDI_WDDMv2_4
 
-Windows Display Driver Model for Windows 10, version 1803.
+WDDM version for Windows 10, version 1803.
 
 ### -field DXGKDDI_WDDMv2_5
 
-Windows Display Driver Model for Windows 10, version 1809.
+WDDM version for Windows 10, version 1809.
 
 ### -field DXGKDDI_WDDMv2_6
 
-Windows Display Driver Model for Windows 10, version 1903.
+WDDM version for Windows 10, version 1903.
 
 ## -see-also
 
