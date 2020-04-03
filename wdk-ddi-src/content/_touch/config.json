@@ -1,8 +1,6 @@
 {
   "tech": "touch",
   "headers": [
-    "manipulations.h",
     "manipulations_i.c",
-    "uxtheme.h"
   ]
 }

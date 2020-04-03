@@ -2,12 +2,10 @@
   "tech": "debugger",
   "headers": [
     "dbgeng.h",
-    "dbghelp.h",
     "dbgmodel.h",
     "engextcpp.h",
     "engextcpp.hpp",
     "extsfns.h",
-    "ksdebug.h",
     "wdbgexts.h"
   ],
   "displayName": "Debugger"
