@@ -10,8 +10,6 @@
     "keyworddetectoroemadapter.h",
     "ksmedia.h",
     "portcls.h",
-    "punknown.h",
-    "unknown.h",
     "sidebandaudio.h",
     "usbsidebandaudio.h"
   ],

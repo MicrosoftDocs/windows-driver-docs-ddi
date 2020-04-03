@@ -3,9 +3,6 @@
   "headers": [
     "ntddser.h",
     "sercx.h",
-    "sercxfuncenum.h",
-    "serfuncenum.h",
-    "sertraceenums.h",
     "uart.h"
   ],
   "displayName": "Serial port"

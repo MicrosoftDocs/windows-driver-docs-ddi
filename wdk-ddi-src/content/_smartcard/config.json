@@ -1,10 +1,6 @@
 {
   "tech": "smartcard",
   "headers": [
-    "cardmod.h",
-    "scutil.h",
-    "smccx.h",
-    "smcdbg.h",
     "smclib.h",
     "smcnt.h"
   ]
