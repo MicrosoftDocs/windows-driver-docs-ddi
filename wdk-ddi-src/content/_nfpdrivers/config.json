@@ -1,13 +1,9 @@
 {
   "tech": "nfpdrivers",
   "headers": [
-    "ncidef.h",
     "nfccx.h",
-    "nfccxbugcodes.h",
-    "nfccxfuncenum.h",
     "nfcradiodev.h",
     "nfcsedev.h",
-    "nfcsedevp.h",
     "nfpdev.h",
     "winsmcrd.h"
   ],
