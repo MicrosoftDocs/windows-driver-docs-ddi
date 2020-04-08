@@ -1,6 +1,6 @@
 ---
-UID: NS:ntddk._PCI_EXPRESS_LINK_CONTROL3
-title: PCI_EXPRESS_LINK_CONTROL3
+UID: NS:ntddk._WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER_V1
+title: WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER_V1
 ms.date: 04/28/2020
 ms.topic: language-reference
 targetos: Windows
@@ -17,7 +17,7 @@ req.redist:
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
-req.typenames: PCI_EXPRESS_LINK_CONTROL3, *PPCI_EXPRESS_LINK_CONTROL3
+req.typenames: WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER_V1, *PWHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER_V1
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
@@ -27,28 +27,32 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
- - _PCI_EXPRESS_LINK_CONTROL3
- - PCI_EXPRESS_LINK_CONTROL3
+ - _WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER_V1
+ - WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER_V1
 f1_keywords:
- - ntddk/_PCI_EXPRESS_LINK_CONTROL3
- - ntddk/PCI_EXPRESS_LINK_CONTROL3
+ - ntddk/_WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER_V1
+ - ntddk/WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER_V1
 dev_langs:
  - c++
 ---
 
 ## -description
 
-Defined in the PCI Express Base Specification Revision 4.0.  Reserved for system use.
+Reserved for system use.
 
 ## -struct-fields
 
-### -field PerformEq
+### -field Version
 
-### -field LinkEqIntEn
+### -field SourceGuid
+
+### -field LogTag
 
 ### -field Reserved
 
-### -field AsULONG
+### -field Initialize
+
+### -field Uninitialize
 
 ## -remarks
 

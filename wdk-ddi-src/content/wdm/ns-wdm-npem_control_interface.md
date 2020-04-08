@@ -1,6 +1,6 @@
 ---
-UID: NS:ntddk._PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
-title: PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
+UID: NS:wdm._NPEM_CONTROL_INTERFACE
+title: NPEM_CONTROL_INTERFACE
 ms.date: 04/28/2020
 ms.topic: language-reference
 targetos: Windows
@@ -8,7 +8,7 @@ description:
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
-req.header: ntddk.h
+req.header: wdm.h
 req.include-header: 
 req.kmdf-ver: 
 req.lib: 
@@ -17,7 +17,7 @@ req.redist:
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
-req.typenames: PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER, *PPCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
+req.typenames: NPEM_CONTROL_INTERFACE, *PNPEM_CONTROL_INTERFACE
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
@@ -25,24 +25,38 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - ntddk.h
+ - wdm.h
 api_name:
- - _PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
- - PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
+ - _NPEM_CONTROL_INTERFACE
+ - NPEM_CONTROL_INTERFACE
 f1_keywords:
- - ntddk/_PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
- - ntddk/PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
+ - wdm/_NPEM_CONTROL_INTERFACE
+ - wdm/NPEM_CONTROL_INTERFACE
 dev_langs:
  - c++
 ---
 
 ## -description
 
-Defined in the PCI Express Base Specification Revision 4.0.  Reserved for system use.
+Reserved for system use.
 
 ## -struct-fields
 
-### -field PioHeaderLogRegister
+### -field Size
+
+### -field Version
+
+### -field Context
+
+### -field InterfaceReference
+
+### -field InterfaceDereference
+
+### -field SetNpemSupportState
+
+### -field QueryStandardCapabilities
+
+### -field SetStandardControl
 
 ## -remarks
 

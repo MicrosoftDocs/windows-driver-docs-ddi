@@ -1,6 +1,6 @@
 ---
-UID: NS:ntddk._PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
-title: PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
+UID: NS:ntddk._WHEA_SEL_BUGCHECK_RECOVERY_STATUS_PHASE2_EVENT
+title: WHEA_SEL_BUGCHECK_RECOVERY_STATUS_PHASE2_EVENT
 ms.date: 04/28/2020
 ms.topic: language-reference
 targetos: Windows
@@ -17,7 +17,7 @@ req.redist:
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
-req.typenames: PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER, *PPCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
+req.typenames: WHEA_SEL_BUGCHECK_RECOVERY_STATUS_PHASE2_EVENT, *PWHEA_SEL_BUGCHECK_RECOVERY_STATUS_PHASE2_EVENT
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
@@ -27,22 +27,26 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
- - _PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
- - PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
+ - _WHEA_SEL_BUGCHECK_RECOVERY_STATUS_PHASE2_EVENT
+ - WHEA_SEL_BUGCHECK_RECOVERY_STATUS_PHASE2_EVENT
 f1_keywords:
- - ntddk/_PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
- - ntddk/PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
+ - ntddk/_WHEA_SEL_BUGCHECK_RECOVERY_STATUS_PHASE2_EVENT
+ - ntddk/WHEA_SEL_BUGCHECK_RECOVERY_STATUS_PHASE2_EVENT
 dev_langs:
  - c++
 ---
 
 ## -description
 
-Defined in the PCI Express Base Specification Revision 4.0.  Reserved for system use.
+Reserved for system use.
 
 ## -struct-fields
 
-### -field PioHeaderLogRegister
+### -field WheaEventLogEntry
+
+### -field BootId
+
+### -field Success
 
 ## -remarks
 

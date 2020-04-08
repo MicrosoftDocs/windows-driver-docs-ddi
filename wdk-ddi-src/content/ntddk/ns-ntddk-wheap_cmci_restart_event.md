@@ -1,6 +1,6 @@
 ---
-UID: NS:ntddk._PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
-title: PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
+UID: NS:ntddk._WHEAP_CMCI_RESTART_EVENT
+title: WHEAP_CMCI_RESTART_EVENT
 ms.date: 04/28/2020
 ms.topic: language-reference
 targetos: Windows
@@ -17,7 +17,7 @@ req.redist:
 req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
-req.typenames: PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER, *PPCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
+req.typenames: WHEAP_CMCI_RESTART_EVENT, *PWHEAP_CMCI_RESTART_EVENT
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
@@ -27,22 +27,30 @@ api_type:
 api_location:
  - ntddk.h
 api_name:
- - _PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
- - PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
+ - _WHEAP_CMCI_RESTART_EVENT
+ - WHEAP_CMCI_RESTART_EVENT
 f1_keywords:
- - ntddk/_PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
- - ntddk/PCI_EXPRESS_DPC_RP_PIO_HEADERLOG_REGISTER
+ - ntddk/_WHEAP_CMCI_RESTART_EVENT
+ - ntddk/WHEAP_CMCI_RESTART_EVENT
 dev_langs:
  - c++
 ---
 
 ## -description
 
-Defined in the PCI Express Base Specification Revision 4.0.  Reserved for system use.
-
 ## -struct-fields
 
-### -field PioHeaderLogRegister
+Reserved for system use.
+
+### -field WheaEventLogEntry
+
+### -field CmciRestoreAttempts
+
+### -field MaxCmciRestoreLimit
+
+### -field MaxCorrectedErrorsFound
+
+### -field MaxCorrectedErrorLimit
 
 ## -remarks
 

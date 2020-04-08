@@ -38,7 +38,7 @@ dev_langs:
 
 ## -description
 
-Reserved for system use.
+Defined in the PCI Express Base Specification Revision 4.0.  Reserved for system use.
 
 ## -struct-fields
 
