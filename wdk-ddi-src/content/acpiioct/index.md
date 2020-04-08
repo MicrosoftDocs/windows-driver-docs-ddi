@@ -15,10 +15,8 @@ tech.root: acpi
 
 # Acpiioct.h header
 
-
 ## -description
-
 
 This header is used by acpi. For more information, see:
 
-- [ACPI](../_acpi/index.md)
+- [ACPI](../_acpi/index.md)<br><br>

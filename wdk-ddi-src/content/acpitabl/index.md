@@ -19,4 +19,4 @@ tech.root: acpi
 
 This header is used by acpi. For more information, see:
 
-- [ACPI](../_acpi/index.md)<br>,br>
+- [ACPI](../_acpi/index.md)<br><br>
