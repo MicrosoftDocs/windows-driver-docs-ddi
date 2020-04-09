@@ -1,7 +1,7 @@
 ---
 UID: NS:acpitabl._SDEV_SECURE_RESOURCE_MEMORY_ENTRY
 title: _SDEV_SECURE_RESOURCE_MEMORY_ENTRY (acpitabl.h)
-ms.date: 03/10/2020
+ms.date: 04/06/2020
 ms.topic: language-reference
 ms.keywords: _SDEV_SECURE_RESOURCE_MEMORY_ENTRY, SDEV_SECURE_RESOURCE_MEMORY_ENTRY, *PSDEV_SECURE_RESOURCE_MEMORY_ENTRY
 description:
@@ -48,13 +48,19 @@ TBD
 
 ### -field Header
 
+TBD
+
 ### -field Reserved
 
 Reserved for future use.
 
 ### -field MemoryAddressBase
 
+TBD
+
 ### -field MemoryAddressLength
+
+TBD
 
 ## -remarks
 

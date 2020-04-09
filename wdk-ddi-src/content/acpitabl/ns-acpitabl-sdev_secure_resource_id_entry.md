@@ -1,7 +1,7 @@
 ---
 UID: NS:acpitabl._SDEV_SECURE_RESOURCE_ID_ENTRY
 title: _SDEV_SECURE_RESOURCE_ID_ENTRY (acpitabl.h)
-ms.date: 03/10/2020
+ms.date: 04/06/2020
 ms.topic: language-reference
 ms.keywords: _SDEV_SECURE_RESOURCE_ID_ENTRY, SDEV_SECURE_RESOURCE_ID_ENTRY, *PSDEV_SECURE_RESOURCE_ID_ENTRY
 description:
@@ -48,17 +48,31 @@ TBD
 
 ### -field Header
 
+TBD
+
 ### -field HardwareIdentifierOffset
+
+TBD
 
 ### -field HardwareIdentifierLength
 
+TBD
+
 ### -field SubsystemIdentifierOffset
+
+TBD
 
 ### -field SubsystemIdentifierLength
 
+TBD
+
 ### -field HardwareRevision
 
+TBD
+
 ### -field HardwareRevisionPresent
+
+TBD
 
 ## -remarks
 

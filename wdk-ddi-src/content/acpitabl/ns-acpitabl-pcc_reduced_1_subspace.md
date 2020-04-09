@@ -1,7 +1,7 @@
 ---
 UID: NS:acpitabl._PCC_REDUCED_1_SUBSPACE
 title: _PCC_REDUCED_1_SUBSPACE (acpitabl.h)
-ms.date: 03/10/2020
+ms.date: 04/06/2020
 ms.topic: language-reference
 ms.keywords: _PCC_REDUCED_1_SUBSPACE, PCC_REDUCED_1_SUBSPACE, *PPCC_REDUCED_1_SUBSPACE
 description:
@@ -48,11 +48,19 @@ TBD
 
 ### -field Header
 
+TBD
+
 ### -field PlatformInterruptGsiv
+
+TBD
 
 ### -field PlatformInterruptPolarity
 
+TBD
+
 ### -field PlatformInterruptMode
+
+TBD
 
 ### -field Reserved1
 
@@ -60,25 +68,43 @@ Reserved for future use.
 
 ### -field PlatformInterruptFlags
 
+TBD
+
 ### -field Reserved2
 
 Reserved for future use.
 
 ### -field BaseAddress
 
+TBD
+
 ### -field Length
+
+TBD
 
 ### -field DoorbellRegister
 
+TBD
+
 ### -field DoorbellPreserve
+
+TBD
 
 ### -field DoorbellWrite
 
+TBD
+
 ### -field NominalLatency
+
+TBD
 
 ### -field MaximumPeriodicAccessRate
 
+TBD
+
 ### -field MinimumRequestTurnaroundTime
+
+TBD
 
 ## -remarks
 

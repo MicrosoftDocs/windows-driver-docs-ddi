@@ -5,7 +5,7 @@ description: Defines an information entry for a secure ACPI device for use in a 
 old-location: acpi\sdev_secure_acpi_info_entry.htm
 tech.root: acpi
 ms.assetid: A3FDE9B0-DD6E-4FF5-AD9A-7DF7BF276EFA
-ms.date: 02/15/2018
+ms.date: 04/06/2020
 keywords: ["_SDEV_SECURE_ACPI_INFO_ENTRY structure"]
 ms.keywords: "*PSDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY structure pointer [ACPI Devices], SDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY structure [ACPI Devices], _SDEV_SECURE_ACPI_INFO_ENTRY, acpi.sdev_secure_acpi_info_entry, acpitabl/PSDEV_SECURE_ACPI_INFO_ENTRY, acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY"
 f1_keywords:
