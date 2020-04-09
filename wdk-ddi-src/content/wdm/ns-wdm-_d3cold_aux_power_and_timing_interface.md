@@ -54,7 +54,7 @@ A pointer to interface-specific context information.
 A pointer to an [InterfaceReference](nc-wdm-pinterface_reference.md) routine that increments the interface's reference count. 
  
 ### -field InterfaceDereference
-A pointer to an [InterfaceDereference]nc-wdm-pinterface_dereference.md) routine that decrements the interface's reference count.
+A pointer to an [InterfaceDereference](nc-wdm-pinterface_dereference.md) routine that decrements the interface's reference count.
  
 ### -field RequestCorePowerRail
 A pointer to a [_D3COLD_REQUEST_CORE_POWER_RAIL_](nc-wdm-d3cold_request_core_power_rail.md) callback function that enables the function device object (FDO) to indicate whether the core power rail is needed.
