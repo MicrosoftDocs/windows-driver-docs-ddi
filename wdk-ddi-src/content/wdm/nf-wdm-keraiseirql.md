@@ -25,7 +25,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Hal.lib
-req.dll: 
+req.dll: NtosKrnl.exe
 req.irql: Any level (see Remarks section)
 topic_type:
 - APIRef
@@ -33,8 +33,7 @@ topic_type:
 api_type:
 - LibDef
 api_location:
-- Hal.lib
-- Hal.dll
+- NtosKrnl.exe
 api_name:
 - KeRaiseIrql
 product:
