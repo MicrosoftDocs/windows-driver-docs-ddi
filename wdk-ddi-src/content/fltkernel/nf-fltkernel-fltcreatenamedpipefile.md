@@ -413,7 +413,7 @@ All operations on the pipe are performed synchronously. Waits in the system to s
 
 ### -param NamedPipeType [in]
 
-The mode to read from the pipe.
+The mode to write to the pipe.
 
 <table>
 <tr>
