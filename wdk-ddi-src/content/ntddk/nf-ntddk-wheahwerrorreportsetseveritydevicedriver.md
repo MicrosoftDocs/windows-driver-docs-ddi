@@ -52,7 +52,7 @@ The handle returned by [**WheaCreateHwErrorReportDeviceDriver**](nf-ntddk-wheacr
 
 ### -param ErrorSeverity
 
-An enumeration value from [**WHEA_ERROR_SEVERITY**](ne-ntddk-_whea_error_severity.md) representing the new severity for the error.
+Supplies the new severity for the error.
 
 ## -returns
 
