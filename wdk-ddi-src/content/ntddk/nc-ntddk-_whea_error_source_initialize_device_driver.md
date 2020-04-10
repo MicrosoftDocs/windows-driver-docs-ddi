@@ -67,11 +67,11 @@ NTSTATUS WheaErrorSourceInitializeDeviceDriver
 
 ## -parameters
 
-### -param Context: 
+### -param Context
 
 A pointer to the context that the driver supplied when it called [**WheaAddErrorSourceDeviceDriver**](nf-ntddk-wheaadderrorsourcedevicedriver.md).
 
-### -param ErrorSourceId: 
+### -param ErrorSourceId
 
 A ULONG value that uniquely identifies this driver as an error source.
 
