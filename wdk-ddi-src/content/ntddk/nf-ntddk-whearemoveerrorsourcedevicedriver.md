@@ -6,7 +6,7 @@ description: To remove a previously added error source, a device driver calls Wh
 tech.root:
 ms.assetid: 9b631fc8-da91-4d04-b84f-b9c40497db55
 ms.author: windowsdriverdev
-ms.date: 03/05/2019
+ms.date: 04/28/2020
 keywords: ["WheaRemoveErrorSourceDeviceDriver function"]
 f1_keywords:
  - "ntddk/WheaRemoveErrorSourceDeviceDriver"
@@ -14,7 +14,7 @@ ms.keywords: WheaRemoveErrorSourceDeviceDriver
 req.header: ntddk.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: Windows 10, version 1903
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -58,7 +58,11 @@ The error source ID WHEA provided when it called the [*_WHEA_ERROR_SOURCE_INITIA
 
 
 ## -returns
-This function returns VOID.
+
+This function returns STATUS_SUCCESS or an error code.
+
+STATUS_RESOURCE_IN_USE is returned if error handles are still in use.
+
 ## -remarks
 This routine must be called at PASSIVE_LEVEL as it synchronously removes the device driver's error source. 
 ## -see-also

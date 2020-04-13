@@ -62,7 +62,7 @@ Return STATUS_SUCCESS or an error code.
 
 ## -remarks
 
-Sections in CPERs have Field Replaceable Unit (FRU) text, or FRUText.
+Sections in a Common Platform Error Record (CPER) have Field Replaceable Unit (FRU) text, or *FRUText*. For details on CPER, see [Error Records](/windows-hardware/drivers/whea/error-records).
 
 First call [**WheaAddHwErrorReportSectionDeviceDriver**](nf-ntddk-wheaaddhwerrorreportsectiondevicedriver.md).
 
