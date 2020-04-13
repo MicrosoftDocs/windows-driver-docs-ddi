@@ -4,7 +4,6 @@ title: GNSS_SUPL_VERSION_2
 tech.root: gnss
 ms.date: 04/06/2020
 ms.topic: language-reference
-targetos: Windows
 description: 
 req.construct-type: structure
 req.ddi-compliance: 
