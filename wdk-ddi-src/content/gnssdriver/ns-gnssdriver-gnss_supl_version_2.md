@@ -4,7 +4,7 @@ title: GNSS_SUPL_VERSION_2
 tech.root: gnss
 ms.date: 04/06/2020
 ms.topic: language-reference
-description: 
+description: This structure contains Secure User Plane Location (SUPL) 2 version information.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -40,7 +40,7 @@ req.typenames: GNSS_SUPL_VERSION_2, *PGNSS_SUPL_VERSION_2
 
 ## -description
 
-The **GNSS_SUPL_VERSION_2** structure contains the Secure User Plane Location (SUPL) 2 version information.
+The **GNSS_SUPL_VERSION_2** structure contains Secure User Plane Location (SUPL) 2 version information.
 
 ## -struct-fields
 
