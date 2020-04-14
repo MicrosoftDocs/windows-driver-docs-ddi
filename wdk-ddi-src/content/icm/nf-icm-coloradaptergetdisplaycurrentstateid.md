@@ -33,7 +33,7 @@ api_location:
 api_name:
 -   ColorAdapterGetDisplayCurrentStateID
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---

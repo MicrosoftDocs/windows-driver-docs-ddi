@@ -1,15 +1,15 @@
 ---
 UID: NC:iddcx.PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE
-title: *PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE
+title: PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE
 author: windows-driver-content
 description: Pointer to the indirect display function IddCxAdapterDisplayConfigUpdate.
 tech.root: display
 ms.assetid: 8c2076ea-c798-4d19-8e1f-ffc8fea44237
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-keywords: ["*PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE callback function"]
+keywords: ["PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE callback function"]
 f1_keywords:
- - "iddcx/*PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE"
+ - "iddcx/PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: iddcx.h

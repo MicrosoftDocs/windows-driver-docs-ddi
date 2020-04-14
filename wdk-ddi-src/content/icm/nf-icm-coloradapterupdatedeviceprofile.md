@@ -33,7 +33,7 @@ api_location:
 api_name:
 -   ColorAdapterUpdateDeviceProfile
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---
