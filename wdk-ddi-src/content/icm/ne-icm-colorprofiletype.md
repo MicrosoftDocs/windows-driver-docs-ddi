@@ -27,14 +27,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
--	APIRef
--	kbSyntax
+- APIRef
+- kbSyntax
 api_type:
--	HeaderDef
+- HeaderDef
 api_location:
--	icm.h
+- icm.h
 api_name:
--	COLORPROFILETYPE
+- COLORPROFILETYPE
 product:
 - Windows
 targetos: Windows
