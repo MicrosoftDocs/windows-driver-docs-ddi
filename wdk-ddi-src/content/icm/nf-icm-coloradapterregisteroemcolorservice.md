@@ -33,7 +33,7 @@ api_location:
 api_name:
 -   ColorAdapterRegisterOEMColorService
 product:
--	Windows
+- Windows
 targetos: Windows
 
 ---
