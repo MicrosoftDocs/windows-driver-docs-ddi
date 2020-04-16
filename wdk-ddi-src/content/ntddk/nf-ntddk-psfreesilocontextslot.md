@@ -6,8 +6,8 @@ old-location: kernel\psfreesilocontextslot.htm
 tech.root: kernel
 ms.assetid: 659B92A6-8582-468F-8CDD-119832A95230
 ms.date: 04/30/2018
+keywords: ["PsFreeSiloContextSlot function"]
 ms.keywords: PsFreeSiloContextSlot, PsFreeSiloContextSlot routine [Kernel-Mode Driver Architecture], kernel.psfreesilocontextslot, ntddk/PsFreeSiloContextSlot
-ms.topic: function
 f1_keywords:
  - "ntddk/PsFreeSiloContextSlot"
 req.header: ntddk.h

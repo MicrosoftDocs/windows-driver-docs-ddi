@@ -6,8 +6,8 @@ old-location: sensors\evtsensorgetdatainterval.htm
 tech.root: sensors
 ms.assetid: 2C53ABFD-127C-42E6-86B6-EB0DC6FC62F1
 ms.date: 05/03/2018
+keywords: ["EVT_SENSOR_DRIVER_GET_DATA_INTERVAL callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_GET_DATA_INTERVAL, EVT_SENSOR_DRIVER_GET_DATA_INTERVAL callback, EvtSensorGetDataInterval, EvtSensorGetDataInterval callback function [Sensor Devices], sensors.evtsensorgetdatainterval, sensorscx/EvtSensorGetDataInterval
-ms.topic: callback
 f1_keywords:
  - "sensorscx/EvtSensorGetDataInterval"
 req.header: sensorscx.h

@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlisansicharacterlegalntfs.htm
 tech.root: ifsk
 ms.assetid: 05d03799-752d-4f59-b96e-1a6d91bee8c4
 ms.date: 04/16/2018
+keywords: ["FsRtlIsAnsiCharacterLegalNtfs macro"]
 ms.keywords: FsRtlIsAnsiCharacterLegalNtfs, FsRtlIsAnsiCharacterLegalNtfs function [Installable File System Drivers], fsrtlref_9150101b-7411-4de2-afd5-0b928ed0e6b1.xml, ifsk.fsrtlisansicharacterlegalntfs, ntifs/FsRtlIsAnsiCharacterLegalNtfs
-ms.topic: macro
 f1_keywords:
  - "ntifs/FsRtlIsAnsiCharacterLegalNtfs"
 req.header: ntifs.h

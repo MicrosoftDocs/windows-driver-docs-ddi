@@ -6,8 +6,8 @@ old-location: print\optcombo.htm
 tech.root: print
 ms.assetid: B1F5A79A-8F64-4B7B-ADB4-BDD8EC17F22E
 ms.date: 04/20/2018
+keywords: ["_OPTCOMBO structure"]
 ms.keywords: "*POPTCOMBO, OPTCOMBO, OPTCOMBO structure [Print Devices], POPTCOMBO, POPTCOMBO structure pointer [Print Devices], _OPTCOMBO, compstui/OPTCOMBO, compstui/POPTCOMBO, print.optcombo"
-ms.topic: struct
 f1_keywords:
  - "compstui/OPTCOMBO"
 req.header: compstui.h

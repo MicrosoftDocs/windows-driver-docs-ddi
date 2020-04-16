@@ -6,8 +6,8 @@ old-location: wdf\iwdfdevice_getpnpstate.htm
 tech.root: wdf
 ms.assetid: 7214a0e9-5519-4daa-bd2f-cc3c697dd867
 ms.date: 02/26/2018
+keywords: ["IWDFDevice::GetPnpState"]
 ms.keywords: GetPnpState, GetPnpState method, GetPnpState method,IWDFDevice interface, IWDFDevice interface,GetPnpState method, IWDFDevice.GetPnpState, IWDFDevice::GetPnpState, UMDFDeviceObjectRef_6fe8971d-2af6-4fc0-a902-74edb5d45f39.xml, umdf.iwdfdevice_getpnpstate, wdf.iwdfdevice_getpnpstate, wudfddi/IWDFDevice::GetPnpState
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFDevice.GetPnpState"
 req.header: wudfddi.h

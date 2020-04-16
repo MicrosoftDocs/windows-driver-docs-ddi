@@ -6,8 +6,8 @@ old-location: display\setdecoderendertarget.htm
 tech.root: display
 ms.assetid: d522b0f3-ca9c-4e79-96ad-ea9477858ef4
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_SETDECODERENDERTARGET callback function"]
 ms.keywords: PFND3DDDI_SETDECODERENDERTARGET, PFND3DDDI_SETDECODERENDERTARGET callback, SetDecodeRenderTarget, SetDecodeRenderTarget callback function [Display Devices], UserModeDisplayDriver_Functions_e5c55218-5663-4689-a696-6b9b1c0a7cce.xml, d3dumddi/SetDecodeRenderTarget, display.setdecoderendertarget
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

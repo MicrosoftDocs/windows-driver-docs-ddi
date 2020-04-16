@@ -6,8 +6,8 @@ old-location: ifsk\lock_operation.htm
 tech.root: ifsk
 ms.assetid: 25b2dd6a-2e20-4221-bef4-0001bbaae1d5
 ms.date: 04/16/2018
+keywords: ["_LOCK_OPERATION enumeration"]
 ms.keywords: IoModifyAccess, IoReadAccess, IoWriteAccess, LOCK_OPERATION, LOCK_OPERATION enumeration [Installable File System Drivers], _LOCK_OPERATION, ifsk.lock_operation, wdm/IoModifyAccess, wdm/IoReadAccess, wdm/IoWriteAccess, wdm/LOCK_OPERATION
-ms.topic: enum
 f1_keywords:
  - "wdm/LOCK_OPERATION"
 req.header: wdm.h

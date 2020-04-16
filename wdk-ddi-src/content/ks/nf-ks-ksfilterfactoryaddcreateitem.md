@@ -6,8 +6,8 @@ old-location: stream\ksfilterfactoryaddcreateitem.htm
 tech.root: stream
 ms.assetid: c09840fb-8195-4ac5-a164-ba4d82615344
 ms.date: 04/23/2018
+keywords: ["KsFilterFactoryAddCreateItem function"]
 ms.keywords: KsFilterFactoryAddCreateItem, KsFilterFactoryAddCreateItem function [Streaming Media Devices], avfunc_f4a42084-1d8f-49f8-a6d3-d09304e11049.xml, ks/KsFilterFactoryAddCreateItem, stream.ksfilterfactoryaddcreateitem
-ms.topic: function
 f1_keywords:
  - "ks/KsFilterFactoryAddCreateItem"
 req.header: ks.h

@@ -5,7 +5,7 @@ description: The NetTxQueueGetRingCollection method retrieves the NET_DATAPATH_D
 tech.root: netvista
 ms.assetid: 0767d0c0-d648-4dca-a664-a514de495c3d
 ms.date: 01/31/2019
-ms.topic: function
+keywords: ["NetTxQueueGetRingCollection function"]
 f1_keywords:
  - "nettxqueue/NetTxQueueCreate"
 ms.keywords: NetTxQueueGetRingCollection

@@ -6,8 +6,8 @@ old-location: netvista\dot11_received_invitation_request_parameters.htm
 tech.root: netvista
 ms.assetid: B0937809-1C8D-45E0-AA33-5997563E894C
 ms.date: 02/16/2018
+keywords: ["_DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS structure"]
 ms.keywords: "*PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, netvista.dot11_received_invitation_request_parameters, windot11/DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS, windot11/PDOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS"
-ms.topic: struct
 f1_keywords:
  - "windot11/DOT11_RECEIVED_INVITATION_REQUEST_PARAMETERS"
 req.header: windot11.h

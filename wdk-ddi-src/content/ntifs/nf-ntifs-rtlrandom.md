@@ -6,8 +6,8 @@ old-location: ifsk\rtlrandom.htm
 tech.root: ifsk
 ms.assetid: f3975ad7-8eb8-4f46-8024-6a1decc21c77
 ms.date: 04/16/2018
+keywords: ["RtlRandom function"]
 ms.keywords: RtlRandom, RtlRandom routine [Installable File System Drivers], ifsk.rtlrandom, ntifs/RtlRandom, rtlref_c9c196b4-7335-4320-ae7f-7c565b6f73e6.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlRandom"
 req.header: ntifs.h

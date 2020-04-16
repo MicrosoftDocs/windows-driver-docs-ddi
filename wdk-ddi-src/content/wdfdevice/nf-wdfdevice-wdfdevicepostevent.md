@@ -6,8 +6,8 @@ old-location: wdf\wdfdevicepostevent.htm
 tech.root: wdf
 ms.assetid: A482CCB8-D7C6-48B6-900D-73CD0EF3B296
 ms.date: 02/26/2018
+keywords: ["WdfDevicePostEvent function"]
 ms.keywords: WdfDevicePostEvent, WdfDevicePostEvent function, wdf.wdfdevicepostevent, wdfdevice/WdfDevicePostEvent
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDevicePostEvent"
 req.header: wdfdevice.h

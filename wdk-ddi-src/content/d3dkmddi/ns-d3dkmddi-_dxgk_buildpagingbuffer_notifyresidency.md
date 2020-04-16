@@ -5,8 +5,8 @@ description: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY describes a residency alloca
 old-location: display\dxgk_buildpagingbuffer_notifyresidency.htm
 ms.assetid: 0E70F621-03CD-4593-88C7-DF6F2ADC902A
 ms.date: 05/10/2018
+keywords: ["_DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure"]
 ms.keywords: DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY, display.dxgk_buildpagingbuffer_notifyresidency
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY"
 req.header: d3dkmddi.h

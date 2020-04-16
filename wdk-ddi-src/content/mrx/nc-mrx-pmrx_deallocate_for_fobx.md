@@ -6,8 +6,8 @@ old-location: ifsk\mrxdeallocateforfobx.htm
 tech.root: ifsk
 ms.assetid: 3b33df22-7757-4270-8cb0-59e8f5d5a80a
 ms.date: 04/16/2018
+keywords: ["PMRX_DEALLOCATE_FOR_FOBX callback function"]
 ms.keywords: MRxDeallocateForFobx, MRxDeallocateForFobx routine [Installable File System Drivers], PMRX_DEALLOCATE_FOR_FOBX, ifsk.mrxdeallocateforfobx, mrx/MRxDeallocateForFobx, mrxref_2b2fa1f1-19f9-4a9b-9105-7c5946428b88.xml
-ms.topic: callback
 f1_keywords:
  - "mrx/MRxDeallocateForFobx"
 req.header: mrx.h

@@ -6,8 +6,8 @@ old-location: netvista\ndisfreeioworkitem.htm
 tech.root: netvista
 ms.assetid: ddc2f96b-fa2c-43c1-960f-7f8e06a5b22d
 ms.date: 05/02/2018
+keywords: ["NdisFreeIoWorkItem function"]
 ms.keywords: NdisFreeIoWorkItem, NdisFreeIoWorkItem function [Network Drivers Starting with Windows Vista], ndis/NdisFreeIoWorkItem, ndis_work_items_ref_50b3859f-f34b-4cae-b7ef-935f1aae82cb.xml, netvista.ndisfreeioworkitem
-ms.topic: function
 f1_keywords:
  - "ndis/NdisFreeIoWorkItem"
 req.header: ndis.h

@@ -5,8 +5,8 @@ description: The pfnStatePsConstBufCb function causes the Microsoft Direct3D 10 
 old-location: display\pfnstatepsconstbufcb.htm
 ms.assetid: f4670f69-5154-4f6b-ba98-2b91a16e7b2f
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_STATE_PS_CONSTBUF_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_PS_CONSTBUF_CB, PFND3D10DDI_STATE_PS_CONSTBUF_CB callback, d3d10state_functions_edcff973-6c62-4cd9-a21f-c40a6afd9548.xml, d3d10umddi/pfnStatePsConstBufCb, display.pfnstatepsconstbufcb, pfnStatePsConstBufCb, pfnStatePsConstBufCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStatePsConstBufCb"
 req.header: d3d10umddi.h

@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlinsertextracreateparameter.htm
 tech.root: ifsk
 ms.assetid: 77ac37eb-9750-4c56-8e1c-41b8a1f50a61
 ms.date: 04/16/2018
+keywords: ["FsRtlInsertExtraCreateParameter function"]
 ms.keywords: FsRtlInsertExtraCreateParameter, FsRtlInsertExtraCreateParameter routine [Installable File System Drivers], fsrtlref_25aa9ff1-4921-4f96-98dc-04230d450e98.xml, ifsk.fsrtlinsertextracreateparameter, ntifs/FsRtlInsertExtraCreateParameter
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlInsertExtraCreateParameter"
 req.header: ntifs.h

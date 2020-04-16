@@ -6,8 +6,8 @@ old-location: netvista\rildeleteadditionalnumberstringparams.htm
 tech.root: netvista
 ms.assetid: 89ae70b9-56d9-4169-8bbd-0eb2d916a928
 ms.date: 05/02/2018
+keywords: ["RILDELETEADDITIONALNUMBERSTRINGPARAMS structure"]
 ms.keywords: "*LPRILDELETEADDITIONALNUMBERSTRINGPARAMS, RILDELETEADDITIONALNUMBERSTRINGPARAMS, RILDELETEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeleteadditionalnumberstringparams, ntddrilapitypes/RILDELETEADDITIONALNUMBERSTRINGPARAMS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILDELETEADDITIONALNUMBERSTRINGPARAMS"
 req.header: rilapitypes.h

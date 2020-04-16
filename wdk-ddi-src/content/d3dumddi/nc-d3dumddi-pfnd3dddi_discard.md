@@ -6,8 +6,8 @@ old-location: display\discard.htm
 tech.root: display
 ms.assetid: F3EC7AAE-9DB8-43A1-B756-5F5C91F8372E
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_DISCARD callback function"]
 ms.keywords: Discard, Discard callback function [Display Devices], PFND3DDDI_DISCARD, PFND3DDDI_DISCARD callback, d3dumddi/Discard, display.discard
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

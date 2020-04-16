@@ -4,7 +4,7 @@ title: operator!= function (dbgmodel.h)
 description: Not equal to comparison operator for the location function.
 ms.assetid: a2206ed4-c0a8-4b21-84ba-87ecd6693f5b
 ms.date: 09/28/2018
-ms.topic: function
+keywords: ["operator!= function"]
 f1_keywords:
  - "dbgmodel/operator!="
 ms.keywords: operator!=

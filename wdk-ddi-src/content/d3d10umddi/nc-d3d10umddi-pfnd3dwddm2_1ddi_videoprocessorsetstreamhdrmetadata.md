@@ -4,7 +4,7 @@ title: PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA (d3d10umddi.h)
 description: Sets stream HDR metadata to optimize video for display.
 ms.assetid: 7f8e5e1b-ba6a-4ac7-b1c4-6d3ee54bc822
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA callback function"]
 req.header: d3d10umddi.h
 req.include-header: 
 req.target-type: 

@@ -5,8 +5,8 @@ description: D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION is used with 
 old-location: display\d3dwddm2_0ddi_check_video_processor_format_conversion.htm
 ms.assetid: 3259CEB7-E902-4040-B99E-D0609935E804
 ms.date: 05/10/2018
+keywords: ["D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION structure"]
 ms.keywords: D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION, D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION, display.d3dwddm2_0ddi_check_video_processor_format_conversion
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION"
 req.header: d3d10umddi.h

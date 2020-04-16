@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlcheckupperoplock.htm
 tech.root: ifsk
 ms.assetid: 36439793-DEE4-48A8-87C4-25BB11BA9CE5
 ms.date: 04/16/2018
+keywords: ["FsRtlCheckUpperOplock function"]
 ms.keywords: FsRtlCheckUpperOplock, FsRtlCheckUpperOplock routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, ifsk.fsrtlcheckupperoplock, ntifs/FsRtlCheckUpperOplock
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlCheckUpperOplock"
 req.header: ntifs.h

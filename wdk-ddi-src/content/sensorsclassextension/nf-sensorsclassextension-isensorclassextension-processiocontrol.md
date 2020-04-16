@@ -6,8 +6,8 @@ old-location: sensors\isensorclassextension_processiocontrol.htm
 tech.root: sensors
 ms.assetid: bd886086-4e23-47c0-ae58-9234399e5a79
 ms.date: 05/03/2018
+keywords: ["ISensorClassExtension::ProcessIoControl"]
 ms.keywords: ISensorClassExtension interface [Sensor Devices],ProcessIoControl method, ISensorClassExtension.ProcessIoControl, ISensorClassExtension::ProcessIoControl, ProcessIoControl, ProcessIoControl method [Sensor Devices], ProcessIoControl method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_processiocontrol, sensorsclassextension/ISensorClassExtension::ProcessIoControl
-ms.topic: method
 f1_keywords:
  - "sensorsclassextension/ProcessIoControl"
 req.header: sensorsclassextension.h

@@ -6,8 +6,8 @@ old-location: buses\_usbdevice_update_failure_flags.htm
 tech.root: usbref
 ms.assetid: D01F8C2D-4E17-4FB7-A3C6-4B7EEDF07E0D
 ms.date: 05/07/2018
+keywords: ["_USBDEVICE_UPDATE_FAILURE_FLAGS structure"]
 ms.keywords: P_USBDEVICE_UPDATE_FAILURE_FLAGS, P_USBDEVICE_UPDATE_FAILURE_FLAGS structure pointer [Buses], USBDEVICE_UPDATE_FAILURE_FLAGS, USBDEVICE_UPDATE_FAILURE_FLAGS structure [Buses], _USBDEVICE_UPDATE_FAILURE_FLAGS, buses._usbdevice_update_failure_flags, ucxusbdevice/P_USBDEVICE_UPDATE_FAILURE_FLAGS, ucxusbdevice/_USBDEVICE_UPDATE_FAILURE_FLAGS
-ms.topic: struct
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_UPDATE_FAILURE_FLAGS"
 req.header: ucxusbdevice.h

@@ -7,7 +7,7 @@ tech.root: audio
 ms.assetid: d2da5ce0-d894-42d8-a538-bab7e9196384
 ms.author: windowsdriverdev
 ms.date: 02/26/2019
-ms.topic: enum
+keywords: ["EVENTACTIONTYPE enumeration"]
 f1_keywords:
  - "eventdetectoroemadapter/EVENTACTIONTYPE"
 ms.keywords: EVENTACTIONTYPE, EVENTACTIONTYPE, 

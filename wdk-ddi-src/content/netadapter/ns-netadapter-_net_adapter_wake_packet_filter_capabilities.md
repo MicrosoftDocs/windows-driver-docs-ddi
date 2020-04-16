@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: 4c04cbbb-a926-4371-a717-bfe6bf0742c4
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: struct
+keywords: ["NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES structure"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES"
 ms.keywords: NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES, NET_ADAPTER_WAKE_PACKET_FILTER_CAPABILITIES, 

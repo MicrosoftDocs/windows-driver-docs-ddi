@@ -6,8 +6,8 @@ old-location: debugger\getprompttext.htm
 tech.root: debugger
 ms.assetid: 8d828cf1-991b-4c2d-882b-de56512a6737
 ms.date: 05/03/2018
+keywords: ["IDebugControl3::GetPromptText"]
 ms.keywords: GetPromptText, GetPromptText method [Windows Debugging], GetPromptText method [Windows Debugging],IDebugControl interface, GetPromptText method [Windows Debugging],IDebugControl2 interface, GetPromptText method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetPromptText method, IDebugControl2 interface [Windows Debugging],GetPromptText method, IDebugControl2::GetPromptText, IDebugControl3 interface [Windows Debugging],GetPromptText method, IDebugControl3.GetPromptText, IDebugControl3::GetPromptText, IDebugControl::GetPromptText, IDebugControl_1f566e74-8920-43ce-8e5f-3c467ddb8d8a.xml, dbgeng/IDebugControl2::GetPromptText, dbgeng/IDebugControl3::GetPromptText, dbgeng/IDebugControl::GetPromptText, debugger.getprompttext
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl.GetPromptText"
 req.header: dbgeng.h

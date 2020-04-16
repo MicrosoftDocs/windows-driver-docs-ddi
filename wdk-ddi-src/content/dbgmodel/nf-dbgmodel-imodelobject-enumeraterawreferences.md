@@ -4,7 +4,7 @@ title: IModelObject::EnumerateRawReferences (dbgmodel.h)
 description: The EnumerateRawReferences method enumerates references to all native children (fields, base classes, etc...) of the given object.
 ms.assetid: fe0e5bc3-e852-4755-81b5-e169365b3064
 ms.date: 08/08/2018
-ms.topic: method
+keywords: ["IModelObject::EnumerateRawReferences"]
 f1_keywords:
  - "dbgmodel/IModelObject.EnumerateRawReferences"
 ms.keywords: IModelObject::EnumerateRawReferences, EnumerateRawReferences, IModelObject.EnumerateRawReferences, IModelObject::EnumerateRawReferences, IModelObject.EnumerateRawReferences

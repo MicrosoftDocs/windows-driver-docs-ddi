@@ -6,8 +6,8 @@ old-location: stream\ikspinpipe_ksgetpinbuscache.htm
 tech.root: stream
 ms.assetid: 4F38C7D7-E350-4FCB-A89B-CA87BA638AD3
 ms.date: 04/23/2018
+keywords: ["IKsPinPipe::KsGetPinBusCache"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPinBusCache method, IKsPinPipe.KsGetPinBusCache, IKsPinPipe::KsGetPinBusCache, KsGetPinBusCache, KsGetPinBusCache method [Streaming Media Devices], KsGetPinBusCache method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPinBusCache, stream.ikspinpipe_ksgetpinbuscache
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsGetPinBusCache"
 req.header: ksproxy.h
@@ -57,7 +57,7 @@ Not recommended for application use.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

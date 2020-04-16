@@ -6,8 +6,8 @@ old-location: buses\ioctl_internal_usbfn_get_pipe_state.htm
 tech.root: usbref
 ms.assetid: CFBFC5E4-852C-4287-A85E-2EF3C89FE474
 ms.date: 05/07/2018
+keywords: ["IOCTL_INTERNAL_USBFN_GET_PIPE_STATE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_GET_PIPE_STATE, IOCTL_INTERNAL_USBFN_GET_PIPE_STATE control, IOCTL_INTERNAL_USBFN_GET_PIPE_STATE control code [Buses], buses.ioctl_internal_usbfn_get_pipe_state, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_PIPE_STATE
-ms.topic: ioctl
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_GET_PIPE_STATE"
 req.header: usbfnioctl.h

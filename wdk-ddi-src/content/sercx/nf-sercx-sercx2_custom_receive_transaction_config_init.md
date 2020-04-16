@@ -6,8 +6,8 @@ old-location: serports\sercx2_custom_receive_transaction_config_init.htm
 tech.root: serports
 ms.assetid: DB8A5E89-771C-45E8-8F90-708CDAD50BBF
 ms.date: 04/23/2018
+keywords: ["SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT function"]
 ms.keywords: 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT function [Serial Ports], serports.sercx2_custom_receive_transaction_config_init
-ms.topic: function
 f1_keywords:
  - "sercx/SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT"
 req.header: sercx.h

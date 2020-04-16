@@ -6,8 +6,8 @@ old-location: storage\ioctl_storage_get_physical_element_status.htm
 tech.root: storage
 ms.assetid: ED46241E-1A71-447A-8D96-E81B4500E070
 ms.date: 03/29/2018
+keywords: ["IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS IOCTL"]
 ms.keywords: IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS, IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS control, IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS, storage.ioctl_storage_get_physical_element_status
-ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS"
 req.header: ntddstor.h

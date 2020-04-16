@@ -5,7 +5,7 @@ description: The NDIS_WWAN_UICC_ACCESS_BINARY structure describes information ab
 tech.root: netvista
 ms.assetid: E1DD7E29-CBD3-4262-9C5C-716AAA7518FE
 ms.date: 04/10/2019
-ms.topic: struct
+keywords: ["_NDIS_WWAN_UICC_ACCESS_BINARY structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_UICC_ACCESS_BINARY"
 ms.keywords: _NDIS_WWAN_UICC_ACCESS_BINARY, NDIS_WWAN_UICC_ACCESS_BINARY, *PNDIS_WWAN_UICC_ACCESS_BINARY, 

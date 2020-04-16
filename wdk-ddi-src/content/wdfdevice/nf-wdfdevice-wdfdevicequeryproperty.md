@@ -6,8 +6,8 @@ old-location: wdf\wdfdevicequeryproperty.htm
 tech.root: wdf
 ms.assetid: be05a5b5-e895-402b-bf0a-cbdb75fdef1d
 ms.date: 02/26/2018
+keywords: ["WdfDeviceQueryProperty function"]
 ms.keywords: DFDeviceObjectGeneralRef_e3f58989-ddd0-4402-94bf-418481869972.xml, WdfDeviceQueryProperty, WdfDeviceQueryProperty method, kmdf.wdfdevicequeryproperty, wdf.wdfdevicequeryproperty, wdfdevice/WdfDeviceQueryProperty
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceQueryProperty"
 req.header: wdfdevice.h
@@ -68,7 +68,7 @@ A handle to a framework device object.
 
 ### -param DeviceProperty [in]
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ne-wudfwdm-device_registry_property">DEVICE_REGISTRY_PROPERTY</a>-typed enumerator that identifies the device property to be retrieved.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-device_registry_property">DEVICE_REGISTRY_PROPERTY</a>-typed enumerator that identifies the device property to be retrieved.
 
 
 ### -param BufferLength [in]

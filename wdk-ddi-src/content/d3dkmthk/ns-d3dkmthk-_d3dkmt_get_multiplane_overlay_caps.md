@@ -4,7 +4,7 @@ title: _D3DKMT_GET_MULTIPLANE_OVERLAY_CAPS (d3dkmthk.h)
 description: Used to get multiplane overlay capabilities.
 ms.assetid: 350738c4-0d00-4fcf-ba92-511e1ba2c113
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DKMT_GET_MULTIPLANE_OVERLAY_CAPS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GET_MULTIPLANE_OVERLAY_CAPS"
 ms.keywords: _D3DKMT_GET_MULTIPLANE_OVERLAY_CAPS, D3DKMT_GET_MULTIPLANE_OVERLAY_CAPS, 

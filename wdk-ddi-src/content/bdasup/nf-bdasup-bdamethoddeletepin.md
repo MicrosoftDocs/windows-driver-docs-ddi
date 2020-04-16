@@ -6,8 +6,8 @@ old-location: stream\bdamethoddeletepin.htm
 tech.root: stream
 ms.assetid: 179419ee-2a99-4c03-9afb-a9bb34f3efb6
 ms.date: 04/23/2018
+keywords: ["BdaMethodDeletePin function"]
 ms.keywords: BdaMethodDeletePin, BdaMethodDeletePin function [Streaming Media Devices], bdaref_6d81ac60-26e8-4cdb-ba9c-05f73cea187d.xml, bdasup/BdaMethodDeletePin, stream.bdamethoddeletepin
-ms.topic: function
 f1_keywords:
  - "bdasup/BdaMethodDeletePin"
 req.header: bdasup.h

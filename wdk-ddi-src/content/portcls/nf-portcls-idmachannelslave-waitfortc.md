@@ -5,7 +5,7 @@ description: The WaitForTC method waits for the DMA-transfer terminal count to c
 tech.root: audio
 ms.assetid: 9e022d50-5bdd-4eb9-a6b4-86c93eca8527
 ms.date: 10/30/2018
-ms.topic: method
+keywords: ["IDmaChannelSlave::WaitForTC"]
 f1_keywords:
  - "portcls/IDmaChannelSlave.WaitForTC"
 ms.keywords: IDmaChannelSlave::WaitForTC, WaitForTC, IDmaChannelSlave.WaitForTC, IDmaChannelSlave::WaitForTC, IDmaChannelSlave.WaitForTC

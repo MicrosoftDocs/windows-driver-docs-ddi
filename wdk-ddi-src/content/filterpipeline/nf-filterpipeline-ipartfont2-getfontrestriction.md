@@ -6,8 +6,8 @@ old-location: print\ipartfont2_getfontrestriction.htm
 tech.root: print
 ms.assetid: C6289E38-281A-46A2-8E28-138A20BF6684
 ms.date: 04/20/2018
+keywords: ["IPartFont2::GetFontRestriction"]
 ms.keywords: GetFontRestriction, GetFontRestriction method [Print Devices], GetFontRestriction method [Print Devices],IPartFont2 interface, IPartFont2 interface [Print Devices],GetFontRestriction method, IPartFont2.GetFontRestriction, IPartFont2::GetFontRestriction, filterpipeline/IPartFont2::GetFontRestriction, print.ipartfont2_getfontrestriction
-ms.topic: method
 f1_keywords:
  - "filterpipeline/IPartFont2.GetFontRestriction"
 req.header: filterpipeline.h
@@ -63,7 +63,7 @@ req.typenames:
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

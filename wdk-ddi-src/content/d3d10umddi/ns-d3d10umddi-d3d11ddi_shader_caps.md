@@ -5,8 +5,8 @@ description: The D3D11DDI_SHADER_CAPS structure contains display device shader c
 old-location: display\d3d11ddi_shader_caps.htm
 ms.assetid: 07ad70b0-9af2-4fbd-baff-aa91dd583a20
 ms.date: 05/10/2018
+keywords: ["D3D11DDI_SHADER_CAPS structure"]
 ms.keywords: D3D11DDICAPS_SHADER_COMPUTE_PLUS_RAW_AND_STRUCTURED_BUFFERS_IN_SHADER_4_X (0x2), D3D11DDICAPS_SHADER_DOUBLES (0x1), D3D11DDI_SHADER_CAPS, D3D11DDI_SHADER_CAPS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_e0026993-2d6d-4478-8796-c423c841f7f8.xml, d3d10umddi/D3D11DDI_SHADER_CAPS, display.d3d11ddi_shader_caps
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11DDI_SHADER_CAPS"
 req.header: d3d10umddi.h

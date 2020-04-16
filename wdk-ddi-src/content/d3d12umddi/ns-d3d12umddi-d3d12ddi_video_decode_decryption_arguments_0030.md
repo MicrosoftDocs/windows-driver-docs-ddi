@@ -5,8 +5,8 @@ description: Video decode decryption arguments.
 old-location: display\d3d12ddi-video-decode-decryption-arguments-0030.htm
 ms.assetid: cdd89f48-1b27-4362-81b3-ed3b89b80b6e
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030, D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030, display.d3d12ddi-video-decode-decryption-arguments-0030
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODE_DECRYPTION_ARGUMENTS_0030"
 req.header: d3d12umddi.h

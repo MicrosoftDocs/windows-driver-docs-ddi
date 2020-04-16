@@ -5,8 +5,8 @@ description: The DXGK_GDIARG_COLORFILL structure describes the characteristics o
 old-location: display\dxgk_gdiarg_colorfill.htm
 ms.assetid: f7dad933-31e6-4de2-9753-67c054f44c4a
 ms.date: 05/10/2018
+keywords: ["_DXGK_GDIARG_COLORFILL structure"]
 ms.keywords: DXGK_GDIARG_COLORFILL, DXGK_GDIARG_COLORFILL structure [Display Devices], DmStructs_d80a1a76-a7d1-4c7e-b9b1-3c6986124f77.xml, _DXGK_GDIARG_COLORFILL, d3dkmddi/DXGK_GDIARG_COLORFILL, display.dxgk_gdiarg_colorfill
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_GDIARG_COLORFILL"
 req.header: d3dkmddi.h

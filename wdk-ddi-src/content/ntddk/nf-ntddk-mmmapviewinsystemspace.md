@@ -4,7 +4,7 @@ title: MmMapViewInSystemSpace function (ntddk.h)
 description: The MmMapViewInSystemSpace function maps the specified section into the system's address space.
 ms.assetid: d7329479-9e00-4acc-81df-0e9a3ae212c0
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["MmMapViewInSystemSpace function"]
 f1_keywords:
  - "ntddk/MmMapViewInSystemSpace"
 ms.keywords: MmMapViewInSystemSpace

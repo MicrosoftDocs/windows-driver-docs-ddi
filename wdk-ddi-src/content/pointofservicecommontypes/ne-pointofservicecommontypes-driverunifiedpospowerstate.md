@@ -6,8 +6,8 @@ old-location: pos\driverunifiedpospowerstate.htm
 tech.root: pos
 ms.assetid: D782F879-A016-46CA-AF96-1230C22A71C1
 ms.date: 02/23/2018
+keywords: ["DriverUnifiedPosPowerState enumeration"]
 ms.keywords: DriverUnifiedPosPowerState, DriverUnifiedPosPowerState enumeration, pointofservicecommontypes/, pointofservicecommontypes/DriverUnifiedPosPowerState, pos.driverunifiedpospowerstate
-ms.topic: enum
 f1_keywords:
  - "pointofservicecommontypes/DriverUnifiedPosPowerState"
 req.header: pointofservicecommontypes.h

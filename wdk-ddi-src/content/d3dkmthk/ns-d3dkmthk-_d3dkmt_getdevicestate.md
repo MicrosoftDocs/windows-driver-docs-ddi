@@ -5,8 +5,8 @@ description: The D3DKMT_GETDEVICESTATE structure describes parameters for retrie
 old-location: display\d3dkmt_getdevicestate.htm
 ms.assetid: b90f8b63-51d3-4de4-9d8b-91926150fd30
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_GETDEVICESTATE structure"]
 ms.keywords: D3DKMT_GETDEVICESTATE, D3DKMT_GETDEVICESTATE structure [Display Devices], OpenGL_Structs_39a99244-3951-4a2f-a92d-4aec50589cde.xml, _D3DKMT_GETDEVICESTATE, d3dkmthk/D3DKMT_GETDEVICESTATE, display.d3dkmt_getdevicestate
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_GETDEVICESTATE"
 req.header: d3dkmthk.h

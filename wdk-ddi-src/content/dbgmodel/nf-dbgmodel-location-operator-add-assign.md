@@ -4,7 +4,7 @@ title: operator+= function (dbgmodel.h)
 description: The addition assignment operator for the location function.
 ms.assetid: c94bdf64-3532-4f4e-bad7-0c4665132de1
 ms.date: 09/28/2018
-ms.topic: function
+keywords: ["operator+= function"]
 f1_keywords:
  - "dbgmodel/operator+="
 ms.keywords: operator+=

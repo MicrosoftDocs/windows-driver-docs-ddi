@@ -4,7 +4,7 @@ title: _D3DDDICB_INVALIDATECACHE (d3dumddi.h)
 description: Arguments used to invalidate cache.
 ms.assetid: aede0439-69e6-473b-8845-d9c21ec682a4
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DDDICB_INVALIDATECACHE structure"]
 f1_keywords:
  - "d3dumddi/_D3DDDICB_INVALIDATECACHE"
 ms.keywords: _D3DDDICB_INVALIDATECACHE, D3DDDICB_INVALIDATECACHE, 

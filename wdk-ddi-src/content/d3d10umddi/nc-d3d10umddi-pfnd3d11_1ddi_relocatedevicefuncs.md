@@ -5,8 +5,8 @@ description: Notifies the user-mode display driver about the new location of the
 old-location: display\relocatedevicefuncs_d3d11_1_.htm
 ms.assetid: 5d9f964e-5d7a-4b6c-977e-c718e3424f84
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_RELOCATEDEVICEFUNCS callback function"]
 ms.keywords: PFND3D11_1DDI_RELOCATEDEVICEFUNCS, PFND3D11_1DDI_RELOCATEDEVICEFUNCS callback, RelocateDeviceFuncs(D3D11_1), RelocateDeviceFuncs(D3D11_1) callback function [Display Devices], d3d10umddi/RelocateDeviceFuncs(D3D11_1), display.pfnrelocatedevicefuncs, display.relocatedevicefuncs_d3d11_1_
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -58,7 +58,9 @@ A handle to the display device (graphics context).
 
 ### -param Arg2
 
-[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_devicefuncs">D3D11_1DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver.
+*pDeviceFunctions* [in]
+
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_devicefuncs">D3D11_1DDI_DEVICEFUNCS</a> structure that contains pointers to the functions of the user-mode display driver.
 
 ## -remarks
 

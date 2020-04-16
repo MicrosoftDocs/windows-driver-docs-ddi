@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlgetnextfilelock.htm
 tech.root: ifsk
 ms.assetid: 175fa4a7-a8e0-4fb1-8103-e513ea8c0778
 ms.date: 04/16/2018
+keywords: ["FsRtlGetNextFileLock function"]
 ms.keywords: FsRtlGetNextFileLock, FsRtlGetNextFileLock routine [Installable File System Drivers], fsrtlref_d34dc7b6-7bdd-47a8-a35e-302c621bf93d.xml, ifsk.fsrtlgetnextfilelock, ntifs/FsRtlGetNextFileLock
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlGetNextFileLock"
 req.header: ntifs.h

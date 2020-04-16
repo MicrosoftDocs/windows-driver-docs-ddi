@@ -4,7 +4,7 @@ title: PFND3DKMT_ESCAPE (d3dkmthk.h)
 description: The Pfnd3dkmtEscape callback function shares info with the kernel mode display driver.
 ms.assetid: a23f8430-f752-440b-a7bf-f07eede5e889
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DKMT_ESCAPE callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_ESCAPE"
 req.header: d3dkmthk.h

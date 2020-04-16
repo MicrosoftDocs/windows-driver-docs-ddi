@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_FLAGS_0053 (d3d12umddi
 description: Indicates the differences metric flags to capture during video motion estimation.
 ms.assetid: 2e95acd3-35d2-4fdf-b7f0-765350b976fb
 ms.date: 10/19/2018
-ms.topic: enum
+keywords: ["D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_FLAGS_0053 enumeration"]
 ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_FLAGS_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_FLAGS_0053,
 req.header: d3d12umddi.h
 req.include-header: 

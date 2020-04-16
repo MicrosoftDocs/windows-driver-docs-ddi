@@ -5,7 +5,7 @@ description: Client drivers call the MbbRequestCompleteWithInformation method to
 tech.root: netvista
 ms.assetid: 2704f13e-4e9d-4118-aa41-e9840bdf61ff
 ms.date: 06/29/2018
-ms.topic: function
+keywords: ["MbbRequestCompleteWithInformation function"]
 f1_keywords:
  - "mbbcx/MbbRequestCompleteWithInformation"
 ms.keywords: MbbRequestCompleteWithInformation

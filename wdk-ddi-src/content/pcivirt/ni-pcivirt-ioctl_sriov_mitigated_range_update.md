@@ -6,8 +6,8 @@ old-location: pci\ioctl-sriov-mitigated-range-update.htm
 tech.root: PCI
 ms.assetid: f49e6d9e-0b62-4742-9868-1717f8482d9a
 ms.date: 02/24/2018
+keywords: ["IOCTL_SRIOV_MITIGATED_RANGE_UPDATE IOCTL"]
 ms.keywords: IOCTL_SRIOV_MITIGATED_RANGE_UPDATE, IOCTL_SRIOV_MITIGATED_RANGE_UPDATE control code [Buses], PCI.ioctl-sriov-mitigated-range-update, pcivirt/IOCTL_SRIOV_MITIGATED_RANGE_UPDATE
-ms.topic: ioctl
 f1_keywords:
  - "pcivirt/IOCTL_SRIOV_MITIGATED_RANGE_UPDATE"
 req.header: pcivirt.h

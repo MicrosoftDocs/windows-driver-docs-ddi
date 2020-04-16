@@ -4,7 +4,7 @@ title: DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2 (dispmprt.h)
 description: Reports the colorimetry values selected by the OS for a target.
 ms.assetid: 6177791c-0854-4902-bcbb-d5a58676dbb4
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2 callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2"
 req.header: dispmprt.h

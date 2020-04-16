@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: 75706f44-2e82-420d-a435-73ee32e5090a
 ms.author: windowsdriverdev
 ms.date: 10/07/2019
-ms.topic: function
+keywords: ["NetWakeSourceGetAdapter function"]
 f1_keywords:
  - "netwakesource/NetWakeSourceGetAdapter"
 ms.keywords: NetWakeSourceGetAdapter

@@ -6,8 +6,8 @@ old-location: display\d3dddiarg_checkpresentdurationsupport.htm
 tech.root: display
 ms.assetid: D72D6C06-DD6A-4051-9AD0-FD1E240C164A
 ms.date: 05/10/2018
+keywords: ["D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure"]
 ms.keywords: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, display.d3dddiarg_checkpresentdurationsupport
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT"
 req.header: d3dumddi.h

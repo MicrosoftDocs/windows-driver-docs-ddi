@@ -6,8 +6,8 @@ old-location: netvista\ndismovememory.htm
 tech.root: netvista
 ms.assetid: 1be08720-be44-4e1b-b0ec-b4eb0a2718a0
 ms.date: 05/02/2018
+keywords: ["NdisMoveMemory macro"]
 ms.keywords: NdisMoveMemory, NdisMoveMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisMoveMemory, ndis_memory_ref_19f420d5-3747-48fa-a6c6-d1088449075b.xml, netvista.ndismovememory
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisMoveMemory"
 req.header: ndis.h

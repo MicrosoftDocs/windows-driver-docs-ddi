@@ -6,8 +6,8 @@ old-location: dtf\iwdtftarget2_eval.htm
 tech.root: dtf
 ms.assetid: 468cb35d-f816-4233-ba07-8dc47b77d442
 ms.date: 04/04/2018
+keywords: ["IWDTFTarget2::Eval"]
 ms.keywords: Eval, Eval method [Windows Device Testing Framework], Eval method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],Eval method, IWDTFTarget2.Eval, IWDTFTarget2::Eval, Microsoft.WDTF.IWDTFTarget2.Eval, Microsoft::WDTF::IWDTFTarget2::Eval, dtf.iwdtftarget2_eval, wdtf/IWDTFTarget2::Eval
-ms.topic: method
 f1_keywords:
  - "wdtf/IWDTFTarget2.Eval"
 req.header: wdtf.h

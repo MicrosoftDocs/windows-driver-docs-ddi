@@ -5,8 +5,8 @@ description: Used in a call to the DxgkDdiCheckMultiPlaneOverlaySupport3 functio
 old-location: display\dxgk_multiplane_overlay_post_composition_with_source.htm
 ms.assetid: F997E3DB-630D-41C8-B659-36376E05A6B7
 ms.date: 05/10/2018
+keywords: ["_DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, display.dxgk_multiplane_overlay_post_composition_with_source
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE"
 req.header: d3dkmddi.h

@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: a93ff9b6-6415-4d3f-8443-9a2479d88453
 ms.author: windowsdriverdev
 ms.date: 10/03/2019
-ms.topic: function
+keywords: ["NetPowerOffloadListGetElement function"]
 f1_keywords:
  - "netpoweroffloadlist/NetPowerOffloadListGetElement"
 ms.keywords: NetPowerOffloadListGetElement

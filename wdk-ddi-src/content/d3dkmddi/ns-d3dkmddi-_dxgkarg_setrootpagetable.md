@@ -5,8 +5,8 @@ description: DXGKARG_SETROOTPAGETABLE is used by the DxgkDdiSetRootPageTabledevi
 old-location: display\dxgkarg_setrootpagetable.htm
 ms.assetid: D3863924-29EE-4886-B8DC-F9020A7C85A4
 ms.date: 05/10/2018
+keywords: ["_DXGKARG_SETROOTPAGETABLE structure"]
 ms.keywords: DXGKARG_SETROOTPAGETABLE, DXGKARG_SETROOTPAGETABLE structure [Display Devices], _DXGKARG_SETROOTPAGETABLE, d3dkmddi/DXGKARG_SETROOTPAGETABLE, display.dxgkarg_setrootpagetable
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_SETROOTPAGETABLE"
 req.header: d3dkmddi.h

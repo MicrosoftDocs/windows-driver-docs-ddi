@@ -6,8 +6,8 @@ old-location: display\d3dddiarg_volumeblt1.htm
 tech.root: display
 ms.assetid: 685aad54-03f5-4e3c-83a7-a44745acc4fb
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_VOLUMEBLT1 structure"]
 ms.keywords: D3DDDIARG_VOLUMEBLT1, D3DDDIARG_VOLUMEBLT1 structure [Display Devices], _D3DDDIARG_VOLUMEBLT1, d3dumddi/D3DDDIARG_VOLUMEBLT1, display.d3dddiarg_volumeblt1
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_VOLUMEBLT1"
 req.header: d3dumddi.h

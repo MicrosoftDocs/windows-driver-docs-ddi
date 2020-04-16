@@ -6,8 +6,8 @@ old-location: netvista\rilsetcellbroadcastmsgconfigparams.htm
 tech.root: netvista
 ms.assetid: bfaad47a-44eb-471d-9ed9-e1adf845ab9c
 ms.date: 05/02/2018
+keywords: ["RILSETCELLBROADCASTMSGCONFIGPARAMS structure"]
 ms.keywords: "*LPRILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS, RILSETCELLBROADCASTMSGCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcellbroadcastmsgconfigparams, ntddrilapitypes/RILSETCELLBROADCASTMSGCONFIGPARAMS"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILSETCELLBROADCASTMSGCONFIGPARAMS"
 req.header: ntddrilapitypes.h

@@ -6,8 +6,8 @@ old-location: netvista\ndisoffloadtcpreceivereturn.htm
 tech.root: netvista
 ms.assetid: 39f541be-c514-4cd4-bf7d-03b7a318b663
 ms.date: 05/02/2018
+keywords: ["NdisOffloadTcpReceiveReturn function"]
 ms.keywords: NdisOffloadTcpReceiveReturn, NdisOffloadTcpReceiveReturn function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpReceiveReturn, netvista.ndisoffloadtcpreceivereturn, tcp_chim_ndis_func_2fe6d15f-5e88-4aec-9c5b-281b0e002d8f.xml
-ms.topic: function
 f1_keywords:
  - "ndischimney/NdisOffloadTcpReceiveReturn"
 req.header: ndischimney.h

@@ -5,8 +5,8 @@ description: The DxgkDdiSetVidPnSourceVisibility function programs the video out
 old-location: display\dxgkddisetvidpnsourcevisibility.htm
 ms.assetid: c94473b4-b898-456d-944d-8879adea16d1
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_SETVIDPNSOURCEVISIBILITY callback function"]
 ms.keywords: DXGKDDI_SETVIDPNSOURCEVISIBILITY, DXGKDDI_SETVIDPNSOURCEVISIBILITY callback, DmFunctions_6a3bb1aa-8bc1-4672-8028-ea3299809a37.xml, DxgkDdiSetVidPnSourceVisibility, DxgkDdiSetVidPnSourceVisibility callback function [Display Devices], d3dkmddi/DxgkDdiSetVidPnSourceVisibility, display.dxgkddisetvidpnsourcevisibility
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

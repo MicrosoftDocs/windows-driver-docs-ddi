@@ -6,8 +6,8 @@ old-location: display\dxgkcbreportchunkinfo.htm
 tech.root: display
 ms.assetid: 94A99749-EF80-4593-B03C-54A7AA2BDFC8
 ms.date: 05/10/2018
+keywords: ["DXGKCB_MIRACAST_REPORT_CHUNK_INFO callback function"]
 ms.keywords: DXGKCB_MIRACAST_REPORT_CHUNK_INFO, DXGKCB_MIRACAST_REPORT_CHUNK_INFO callback, DxgkCbReportChunkInfo, DxgkCbReportChunkInfo callback function [Display Devices], display.dxgkcbreportchunkinfo, dispmprt/DxgkCbReportChunkInfo
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkCbReportChunkInfo"
 req.header: dispmprt.h

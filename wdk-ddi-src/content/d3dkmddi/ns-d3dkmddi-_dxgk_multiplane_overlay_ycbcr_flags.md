@@ -5,8 +5,8 @@ description: Identifies YUV range and conversion info that describes a multiplan
 old-location: display\dxgk_multiplane_overlay_ycbcr_flags.htm
 ms.assetid: c3a463b1-fc6f-4834-87e5-1d694f2823f9
 ms.date: 05/10/2018
+keywords: ["_DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, display.dxgk_multiplane_overlay_ycbcr_flags
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS"
 req.header: d3dkmddi.h

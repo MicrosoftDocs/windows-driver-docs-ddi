@@ -6,8 +6,8 @@ old-location: kernel\mmmapmdl.htm
 tech.root: kernel
 ms.assetid: 4272f7a2-9379-40dd-a0a1-784dd25bc8bc
 ms.date: 04/30/2018
+keywords: ["MmMapMdl function"]
 ms.keywords: MmMapMdl, MmMapMdl function [Kernel-Mode Driver Architecture], kernel.mmmapmdl, wdm/MmMapMdl
-ms.topic: function
 f1_keywords:
  - "wdm/MmMapMdl"
 req.header: wdm.h

@@ -6,8 +6,8 @@ old-location: storage\ioctl_ehstor_bandmgmt_delete_band.htm
 tech.root: storage
 ms.assetid: CA0002E6-D9E7-417B-AD48-32E25E24EC32
 ms.date: 03/29/2018
+keywords: ["IOCTL_EHSTOR_BANDMGMT_DELETE_BAND IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_DELETE_BAND, IOCTL_EHSTOR_BANDMGMT_DELETE_BAND control, IOCTL_EHSTOR_BANDMGMT_DELETE_BAND control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_DELETE_BAND, storage.ioctl_ehstor_bandmgmt_delete_band
-ms.topic: ioctl
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_DELETE_BAND"
 req.header: ehstorbandmgmt.h

@@ -6,8 +6,8 @@ old-location: netvista\rilresetmodemconfigparameter.htm
 tech.root: netvista
 ms.assetid: 8cf95185-3935-4434-b9d5-c2a63a9f3eba
 ms.date: 05/02/2018
+keywords: ["RILRESETMODEMCONFIGPARAMETER enumeration"]
 ms.keywords: RILRESETMODEMCONFIGPARAMETER, RILRESETMODEMCONFIGPARAMETER enumeration [Network Drivers Starting with Windows Vista], RIL_RESETMODEMCONFIGPARAMETER_MAX, netvista.rilresetmodemconfigparameter, ntddrilapitypes/RILRESETMODEMCONFIGPARAMETER, ntddrilapitypes/RIL_RESETMODEMCONFIGPARAMETER_MAX
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILRESETMODEMCONFIGPARAMETER"
 req.header: rilapitypes.h

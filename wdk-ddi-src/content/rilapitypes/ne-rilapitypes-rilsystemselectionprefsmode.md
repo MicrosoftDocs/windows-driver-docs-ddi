@@ -6,8 +6,8 @@ old-location: netvista\rilsystemselectionprefsmode.htm
 tech.root: netvista
 ms.assetid: f2d9bb70-cb0c-4e4b-be7a-11a89df739be
 ms.date: 05/02/2018
+keywords: ["RILSYSTEMSELECTIONPREFSMODE enumeration"]
 ms.keywords: RILSYSTEMSELECTIONPREFSMODE, RILSYSTEMSELECTIONPREFSMODE enumeration [Network Drivers Starting with Windows Vista], RIL_OPSELMODE_MANUAL, RIL_OPSELMODE_MAX, netvista.rilsystemselectionprefsmode, ntddrilapitypes/RILSYSTEMSELECTIONPREFSMODE, ntddrilapitypes/RIL_OPSELMODE_MANUAL, ntddrilapitypes/RIL_OPSELMODE_MAX
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILSYSTEMSELECTIONPREFSMODE"
 req.header: rilapitypes.h

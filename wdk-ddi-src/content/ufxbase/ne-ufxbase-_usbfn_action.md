@@ -6,8 +6,8 @@ old-location: buses\usbfn_action.htm
 tech.root: usbref
 ms.assetid: 9E9AB3E0-EBDC-4EC3-BFBF-C78EE56BD699
 ms.date: 05/07/2018
+keywords: ["_USBFN_ACTION enumeration"]
 ms.keywords: "*PUSBFN_ACTION, USBFN_ACTION, USBFN_ACTION enumeration [Buses], UsbfnActionDetectProprietaryCharger, UsbfnActionNoCad, UsbfnActionNone, _USBFN_ACTION, buses.usbfn_action, ufxbase/USBFN_ACTION, ufxbase/UsbfnActionDetectProprietaryCharger, ufxbase/UsbfnActionNoCad, ufxbase/UsbfnActionNone"
-ms.topic: enum
 f1_keywords:
  - "ufxbase/USBFN_ACTION"
 req.header: ufxbase.h

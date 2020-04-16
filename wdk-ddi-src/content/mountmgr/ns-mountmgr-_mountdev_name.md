@@ -6,8 +6,8 @@ old-location: storage\mountdev_name.htm
 tech.root: storage
 ms.assetid: 26f5e98d-0709-403a-abcf-776c117d4f38
 ms.date: 03/29/2018
+keywords: ["_MOUNTDEV_NAME structure"]
 ms.keywords: "*PMOUNTDEV_NAME, MOUNTDEV_NAME, MOUNTDEV_NAME structure [Storage Devices], PMOUNTDEV_NAME, PMOUNTDEV_NAME structure pointer [Storage Devices], _MOUNTDEV_NAME, mountmgr/MOUNTDEV_NAME, mountmgr/PMOUNTDEV_NAME, storage.mountdev_name, structs-mntmgr_b7eec4f5-e4fc-4931-82e5-c6ac5cd4b48f.xml"
-ms.topic: struct
 f1_keywords:
  - "mountmgr/MOUNTDEV_NAME"
 req.header: mountmgr.h

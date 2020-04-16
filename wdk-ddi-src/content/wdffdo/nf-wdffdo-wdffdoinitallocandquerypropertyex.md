@@ -6,8 +6,8 @@ old-location: wdf\wdffdoinitallocandquerypropertyex.htm
 tech.root: wdf
 ms.assetid: 8F338F5B-2F18-4D7D-AF96-7F80A48D37FB
 ms.date: 02/26/2018
+keywords: ["WdfFdoInitAllocAndQueryPropertyEx function"]
 ms.keywords: WdfFdoInitAllocAndQueryPropertyEx, WdfFdoInitAllocAndQueryPropertyEx method, wdf.wdffdoinitallocandquerypropertyex, wdffdo/WdfFdoInitAllocAndQueryPropertyEx
-ms.topic: function
 f1_keywords:
  - "wdffdo/WdfFdoInitAllocAndQueryPropertyEx"
 req.header: wdffdo.h

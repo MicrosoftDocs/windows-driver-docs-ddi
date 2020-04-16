@@ -4,7 +4,7 @@ title: D3D12DDIARG_EVICT (d3d12umddi.h)
 description: Arguments used in the PFND3D12DDI_EVICT2 callback function to instruct the OS to decrement the residency reference count.
 ms.assetid: 5cd700e6-bd18-4899-ba83-892f87d1ea18
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["D3D12DDIARG_EVICT structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_EVICT"
 ms.keywords: D3D12DDIARG_EVICT, D3D12DDIARG_EVICT, 

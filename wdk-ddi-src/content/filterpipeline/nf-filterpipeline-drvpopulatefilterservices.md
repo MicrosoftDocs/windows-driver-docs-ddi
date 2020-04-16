@@ -6,8 +6,8 @@ old-location: print\drvpopulatefilterservices.htm
 tech.root: print
 ms.assetid: A24DAC54-57FE-419D-8B5D-54B8AFC338DE
 ms.date: 04/20/2018
+keywords: ["DrvPopulateFilterServices function"]
 ms.keywords: DrvPopulateFilterServices, DrvPopulateFilterServices function [Print Devices], filterpipeline/DrvPopulateFilterServices, print.drvpopulatefilterservices
-ms.topic: function
 f1_keywords:
  - "filterpipeline/DrvPopulateFilterServices"
 req.header: filterpipeline.h

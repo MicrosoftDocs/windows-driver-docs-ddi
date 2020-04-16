@@ -6,8 +6,8 @@ old-location: parports\ioctl_par_set_read_address.htm
 tech.root: parports
 ms.assetid: d6ea5ac7-d324-4986-bbfb-4decd278acf7
 ms.date: 02/15/2018
+keywords: ["IOCTL_PAR_SET_READ_ADDRESS IOCTL"]
 ms.keywords: IOCTL_PAR_SET_READ_ADDRESS, IOCTL_PAR_SET_READ_ADDRESS control code [Parallel Ports], cisspd_91a85f87-e3c1-4ccb-aeab-13a484c75224.xml, ntddpar/IOCTL_PAR_SET_READ_ADDRESS, parports.ioctl_par_set_read_address
-ms.topic: ioctl
 f1_keywords:
  - "ntddpar/IOCTL_PAR_SET_READ_ADDRESS"
 req.header: ntddpar.h

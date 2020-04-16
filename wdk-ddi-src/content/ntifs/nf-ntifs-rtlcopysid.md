@@ -6,8 +6,8 @@ old-location: ifsk\rtlcopysid.htm
 tech.root: ifsk
 ms.assetid: adfe720f-695e-49a2-b7b5-940ba11bc83f
 ms.date: 04/16/2018
+keywords: ["RtlCopySid function"]
 ms.keywords: RtlCopySid, RtlCopySid routine [Installable File System Drivers], ifsk.rtlcopysid, ntifs/RtlCopySid, rtlref_598b8f18-6cd2-4714-a2da-8e91f6aba065.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlCopySid"
 req.header: ntifs.h

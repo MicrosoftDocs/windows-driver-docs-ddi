@@ -6,8 +6,8 @@ old-location: ifsk\fltfindextracreateparameter.htm
 tech.root: ifsk
 ms.assetid: bfa38f16-55cf-40a9-b271-65d784d5156e
 ms.date: 04/16/2018
+keywords: ["FltFindExtraCreateParameter function"]
 ms.keywords: FltApiRef_e_to_o_6f7f8d49-a0b3-4a32-9a51-d31ab84baf8a.xml, FltFindExtraCreateParameter, FltFindExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltFindExtraCreateParameter, ifsk.fltfindextracreateparameter
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltFindExtraCreateParameter"
 req.header: fltkernel.h

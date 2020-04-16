@@ -6,8 +6,8 @@ old-location: display\d3dhal_dp2responsequery.htm
 tech.root: display
 ms.assetid: fda36df2-d346-47a5-b391-dd4509446ca1
 ms.date: 05/10/2018
+keywords: ["_D3DHAL_DP2RESPONSEQUERY structure"]
 ms.keywords: "*LPD3DHAL_DP2RESPONSEQUERY, D3DHAL_DP2RESPONSEQUERY, D3DHAL_DP2RESPONSEQUERY structure [Display Devices], LPD3DHAL_DP2RESPONSEQUERY, LPD3DHAL_DP2RESPONSEQUERY structure pointer [Display Devices], _D3DHAL_DP2RESPONSEQUERY, d3dhal/D3DHAL_DP2RESPONSEQUERY, d3dhal/LPD3DHAL_DP2RESPONSEQUERY, d3dstrct_6164398f-06cc-4d18-8793-8dbbbdd63b40.xml, display.d3dhal_dp2responsequery"
-ms.topic: struct
 f1_keywords:
  - "d3dhal/D3DHAL_DP2RESPONSEQUERY"
 req.header: d3dhal.h

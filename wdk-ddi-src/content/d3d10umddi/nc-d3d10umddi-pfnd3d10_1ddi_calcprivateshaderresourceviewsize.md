@@ -5,8 +5,8 @@ description: The CalcPrivateShaderResourceViewSize(D3D10_1) function determines 
 old-location: display\calcprivateshaderresourceviewsize_d3d10_1_.htm
 ms.assetid: 310adb3e-1af4-430e-ba50-bd145ffda361
 ms.date: 05/10/2018
+keywords: ["PFND3D10_1DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE callback function"]
 ms.keywords: CalcPrivateShaderResourceViewSize_d3d10_1_, CalcPrivateShaderResourceViewSize_d3d10_1_ callback function [Display Devices], PFND3D10_1DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE, PFND3D10_1DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE callback, UserModeDisplayDriverDx10_Functions_dc420977-d68c-4e07-b134-fc5540a96e7b.xml, d3d10umddi/CalcPrivateShaderResourceViewSize_d3d10_1_, display.calcprivateshaderresourceviewsize_d3d10_1_
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

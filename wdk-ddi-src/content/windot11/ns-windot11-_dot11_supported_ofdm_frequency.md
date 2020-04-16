@@ -6,8 +6,8 @@ old-location: netvista\dot11_supported_ofdm_frequency.htm
 tech.root: netvista
 ms.assetid: 79017890-c045-4996-b5d3-fa000ffff5a0
 ms.date: 02/16/2018
+keywords: ["_DOT11_SUPPORTED_OFDM_FREQUENCY structure"]
 ms.keywords: "*PDOT11_SUPPORTED_OFDM_FREQUENCY, DOT11_SUPPORTED_OFDM_FREQUENCY, DOT11_SUPPORTED_OFDM_FREQUENCY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_5a7cc235-128d-4209-a250-49ec0b2b8ad7.xml, PDOT11_SUPPORTED_OFDM_FREQUENCY, PDOT11_SUPPORTED_OFDM_FREQUENCY structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_OFDM_FREQUENCY, netvista.dot11_supported_ofdm_frequency, windot11/DOT11_SUPPORTED_OFDM_FREQUENCY, windot11/PDOT11_SUPPORTED_OFDM_FREQUENCY"
-ms.topic: struct
 f1_keywords:
  - "windot11/DOT11_SUPPORTED_OFDM_FREQUENCY"
 req.header: windot11.h

@@ -5,8 +5,8 @@ description: Sets the analog copy protection on the specified target id. This is
 old-location: display\dxgkddi_settargetanalogcopyprotection.htm
 ms.assetid: D41A1867-C654-4747-B804-CAE047025458
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback function"]
 ms.keywords: DXGKDDI_SETTARGETANALOGCOPYPROTECTION, DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback, DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETANALOGCOPYPROTECTION, display.dxgkddi_settargetanalogcopyprotection
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

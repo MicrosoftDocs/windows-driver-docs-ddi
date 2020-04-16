@@ -6,8 +6,8 @@ old-location: netvista\protocolcmopenaf.htm
 tech.root: netvista
 ms.assetid: 7422c205-bc41-4121-b430-ff9e6b49dc2e
 ms.date: 05/02/2018
+keywords: ["PROTOCOL_CM_OPEN_AF callback function"]
 ms.keywords: PROTOCOL_CM_OPEN_AF, PROTOCOL_CM_OPEN_AF callback, ProtocolCmOpenAf, ProtocolCmOpenAf callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_2dbd2a83-f6e5-4324-9419-6a39a8e81f41.xml, ndis/ProtocolCmOpenAf, netvista.protocolcmopenaf
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolCmOpenAf"
 req.header: ndis.h

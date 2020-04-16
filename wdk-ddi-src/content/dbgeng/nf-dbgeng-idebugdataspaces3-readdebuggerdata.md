@@ -6,8 +6,8 @@ old-location: debugger\readdebuggerdata.htm
 tech.root: debugger
 ms.assetid: 54e4d3b9-db9d-4844-938f-c8ca8819d182
 ms.date: 05/03/2018
+keywords: ["IDebugDataSpaces3::ReadDebuggerData"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadDebuggerData method, IDebugDataSpaces2 interface [Windows Debugging],ReadDebuggerData method, IDebugDataSpaces2::ReadDebuggerData, IDebugDataSpaces3 interface [Windows Debugging],ReadDebuggerData method, IDebugDataSpaces3.ReadDebuggerData, IDebugDataSpaces3::ReadDebuggerData, IDebugDataSpaces4 interface [Windows Debugging],ReadDebuggerData method, IDebugDataSpaces4::ReadDebuggerData, IDebugDataSpaces::ReadDebuggerData, IDebugDataSpaces_618b8518-3e32-4518-8e4b-38f66484d554.xml, ReadDebuggerData, ReadDebuggerData method [Windows Debugging], ReadDebuggerData method [Windows Debugging],IDebugDataSpaces interface, ReadDebuggerData method [Windows Debugging],IDebugDataSpaces2 interface, ReadDebuggerData method [Windows Debugging],IDebugDataSpaces3 interface, ReadDebuggerData method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadDebuggerData, dbgeng/IDebugDataSpaces3::ReadDebuggerData, dbgeng/IDebugDataSpaces4::ReadDebuggerData, dbgeng/IDebugDataSpaces::ReadDebuggerData, debugger.readdebuggerdata
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugDataSpaces.ReadDebuggerData"
 req.header: dbgeng.h

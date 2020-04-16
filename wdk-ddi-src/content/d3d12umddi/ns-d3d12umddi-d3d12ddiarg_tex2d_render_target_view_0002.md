@@ -4,7 +4,7 @@ title: D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002 (d3d12umddi.h)
 description: Describes a two-dimensional (2-D) texture that is used to create a render target view.
 ms.assetid: c63c0de8-00c4-4345-8a18-ddaf08baa768
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002"
 ms.keywords: D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002, D3D12DDIARG_TEX2D_RENDER_TARGET_VIEW_0002, 

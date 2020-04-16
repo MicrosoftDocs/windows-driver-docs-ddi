@@ -6,8 +6,8 @@ old-location: image\sti_device_type.htm
 tech.root: image
 ms.assetid: f5ab3aa3-c24e-4716-b94a-525c6b6776dc
 ms.date: 05/03/2018
+keywords: ["_STI_DEVICE_MJ_TYPE enumeration"]
 ms.keywords: STI_DEVICE_MJ_TYPE, STI_DEVICE_MJ_TYPE enumeration [Imaging Devices], STI_DEVICE_TYPE, STI_DEVICE_TYPE enumeration [Imaging Devices], StiDeviceTypeDefault, StiDeviceTypeDigitalCamera, StiDeviceTypeScanner, StiDeviceTypeStreamingVideo, _STI_DEVICE_MJ_TYPE, image.sti_device_type, sti/STI_DEVICE_TYPE, sti/StiDeviceTypeDefault, sti/StiDeviceTypeDigitalCamera, sti/StiDeviceTypeScanner, sti/StiDeviceTypeStreamingVideo, stifnc_1cbf2c9f-0c97-439a-8503-c07c68b7d947.xml
-ms.topic: enum
 f1_keywords:
  - "sti/STI_DEVICE_MJ_TYPE"
 req.header: sti.h

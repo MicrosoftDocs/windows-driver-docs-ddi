@@ -6,8 +6,8 @@ old-location: kernel\rtlverifyversioninfo.htm
 tech.root: kernel
 ms.assetid: 7c0ca9a0-dfa4-44ab-8d3a-ab43f72c806f
 ms.date: 04/30/2018
+keywords: ["RtlVerifyVersionInfo function"]
 ms.keywords: RtlVerifyVersionInfo, RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture], k109_c0301686-a323-499f-ac04-3bc414b016cd.xml, kernel.rtlverifyversioninfo, wdm/RtlVerifyVersionInfo
-ms.topic: function
 f1_keywords:
  - "wdm/RtlVerifyVersionInfo"
 req.header: wdm.h

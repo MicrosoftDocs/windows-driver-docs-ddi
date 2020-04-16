@@ -5,8 +5,8 @@ description: Submits a present command from the Desktop Duplication API swapchai
 old-location: display\d3dkmtoutputduplpresent.htm
 ms.assetid: d5846165-f58d-44a8-9242-02a2f85d3a8d
 ms.date: 05/10/2018
+keywords: ["PFND3DKMT_OUTPUTDUPLPRESENT callback function"]
 ms.keywords: D3DKMTOutputDuplPresent, D3DKMTOutputDuplPresent callback function [Display Devices], PFND3DKMT_OUTPUTDUPLPRESENT, PFND3DKMT_OUTPUTDUPLPRESENT callback, d3dkmthk/D3DKMTOutputDuplPresent, display.d3dkmtoutputduplpresent
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/D3DKMTOutputDuplPresent"
 req.header: d3dkmthk.h

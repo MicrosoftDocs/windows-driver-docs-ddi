@@ -6,8 +6,8 @@ old-location: kernel\kesetimportancedpc.htm
 tech.root: kernel
 ms.assetid: 0feb053b-6b58-4b26-8549-a6cf3996a3e6
 ms.date: 04/30/2018
+keywords: ["KeSetImportanceDpc function"]
 ms.keywords: KeSetImportanceDpc, KeSetImportanceDpc routine [Kernel-Mode Driver Architecture], k105_dc95afd2-5be3-4d48-a99f-0a9f2d8dab9b.xml, kernel.kesetimportancedpc, wdm/KeSetImportanceDpc
-ms.topic: function
 f1_keywords:
  - "wdm/KeSetImportanceDpc"
 req.header: wdm.h

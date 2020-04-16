@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 9940a83c-dc9c-4ac0-94d3-52728a76f870
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
+keywords: ["DXGKDDI_GETDEVICELOCATION callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_GETDEVICELOCATION"
 req.header: dispmprt.h

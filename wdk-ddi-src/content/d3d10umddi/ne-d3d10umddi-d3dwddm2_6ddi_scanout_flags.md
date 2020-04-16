@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 540df0eb-85df-4793-b70a-4035a32cf716
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: enum
+keywords: ["D3DWDDM2_6DDI_SCANOUT_FLAGS enumeration"]
 ms.keywords: D3DWDDM2_6DDI_SCANOUT_FLAGS, D3DWDDM2_6DDI_SCANOUT_FLAGS,
 ms.prod: windows-hardware
 ms.technology: windows-devices

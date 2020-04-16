@@ -4,7 +4,7 @@ title: IStringDisplayableConcept::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 9d3f6d73-6f6b-423a-8832-618cbf57e59c
 ms.date: 10/05/2018
-ms.topic: method
+keywords: ["IStringDisplayableConcept::Release"]
 f1_keywords:
  - "dbgmodel/IStringDisplayableConcept.Release"
 ms.keywords: IStringDisplayableConcept::Release, Release, IStringDisplayableConcept.Release, IStringDisplayableConcept::Release, IStringDisplayableConcept.Release

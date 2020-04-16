@@ -6,8 +6,8 @@ old-location: print\ifixeddocument.htm
 tech.root: print
 ms.assetid: 3f9f64a1-8681-4b70-8cdc-7c944912f767
 ms.date: 04/20/2018
+keywords: ["IFixedDocument interface"]
 ms.keywords: IFixedDocument, IFixedDocument interface [Print Devices], IFixedDocument interface [Print Devices],described, filterpipeline/IFixedDocument, filterpipeline_f295da8e-1444-40c4-8ecf-e3aadc1d324f.xml, print.ifixeddocument
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IFixedDocument"
 req.header: filterpipeline.h
@@ -53,7 +53,7 @@ The <b>IFixedDocument</b> interface represents a fixed document for an XPS docum
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFixedDocument</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFixedDocument</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IFixedDocument</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFixedDocument</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

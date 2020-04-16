@@ -6,8 +6,8 @@ old-location: pci\pci_express_root_capabilities_register.htm
 tech.root: PCI
 ms.assetid: d4e6cc35-f6f1-4983-b4d6-2a524245fd15
 ms.date: 02/24/2018
+keywords: ["_PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER structure"]
 ms.keywords: "*PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI.pci_express_root_capabilities_register, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union [Buses], PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER union pointer [Buses], _PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_ROOT_CAPABILITIES_REGISTER, pci_struct_5b1d9283-10c9-40dc-8dc2-552ab7a2cab5.xml"
-ms.topic: struct
 f1_keywords:
  - "miniport/PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER"
 req.header: miniport.h

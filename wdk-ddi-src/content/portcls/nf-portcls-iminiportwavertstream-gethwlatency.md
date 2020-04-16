@@ -5,7 +5,7 @@ description: The GetHWLatency method retrieves information about sources of stre
 tech.root: audio
 ms.assetid: faddde96-d13f-4f19-9370-ea756e39c6d3
 ms.date: 10/31/2018
-ms.topic: method
+keywords: ["IMiniportWaveRTStream::GetHWLatency"]
 f1_keywords:
  - "portcls/IMiniportWaveRTStream.GetHWLatency"
 ms.keywords: IMiniportWaveRTStream::GetHWLatency, GetHWLatency, IMiniportWaveRTStream.GetHWLatency, IMiniportWaveRTStream::GetHWLatency, IMiniportWaveRTStream.GetHWLatency

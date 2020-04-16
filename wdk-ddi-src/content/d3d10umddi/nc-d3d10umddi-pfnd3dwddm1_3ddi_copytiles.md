@@ -5,8 +5,8 @@ description: Copies tiles from buffer to tiled resource or vice versa.
 old-location: display\copytiles.htm
 ms.assetid: 8DA0FF6C-CA2C-4943-93C3-BFC3773617CC
 ms.date: 05/10/2018
+keywords: ["PFND3DWDDM1_3DDI_COPYTILES callback function"]
 ms.keywords: CopyTiles, CopyTiles callback function [Display Devices], PFND3DWDDM1_3DDI_COPYTILES, PFND3DWDDM1_3DDI_COPYTILES callback, d3d10umddi/CopyTiles, display.copytiles
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

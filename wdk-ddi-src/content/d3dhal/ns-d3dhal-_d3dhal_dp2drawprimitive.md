@@ -6,8 +6,8 @@ old-location: display\d3dhal_dp2drawprimitive.htm
 tech.root: display
 ms.assetid: 1dd56465-e9e8-4a79-8533-a1777cf4d8a2
 ms.date: 05/10/2018
+keywords: ["_D3DHAL_DP2DRAWPRIMITIVE structure"]
 ms.keywords: "*LPD3DHAL_DP2DRAWPRIMITIVE, D3DHAL_DP2DRAWPRIMITIVE, D3DHAL_DP2DRAWPRIMITIVE structure [Display Devices], LPD3DHAL_DP2DRAWPRIMITIVE, LPD3DHAL_DP2DRAWPRIMITIVE structure pointer [Display Devices], _D3DHAL_DP2DRAWPRIMITIVE, d3dhal/D3DHAL_DP2DRAWPRIMITIVE, d3dhal/LPD3DHAL_DP2DRAWPRIMITIVE, d3dstrct_2736a73d-52f8-4647-86c3-2c362dc3f669.xml, display.d3dhal_dp2drawprimitive"
-ms.topic: struct
 f1_keywords:
  - "d3dhal/D3DHAL_DP2DRAWPRIMITIVE"
 req.header: d3dhal.h

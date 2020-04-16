@@ -6,8 +6,8 @@ old-location: netvista\ndiscmdroppartycomplete.htm
 tech.root: netvista
 ms.assetid: 5f4743f6-42b7-4cc0-8dd8-16230b30bb8a
 ms.date: 05/02/2018
+keywords: ["NdisCmDropPartyComplete function"]
 ms.keywords: NdisCmDropPartyComplete, NdisCmDropPartyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_d1773adc-25ef-4544-8ccf-70fe676a862d.xml, ndis/NdisCmDropPartyComplete, netvista.ndiscmdroppartycomplete
-ms.topic: function
 f1_keywords:
  - "ndis/NdisCmDropPartyComplete"
 req.header: ndis.h

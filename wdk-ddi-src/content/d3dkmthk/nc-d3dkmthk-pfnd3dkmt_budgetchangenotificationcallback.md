@@ -4,7 +4,7 @@ title: PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK (d3dkmthk.h)
 description: The PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK callback function notifies of a budget change.
 ms.assetid: 3e6b3195-3008-42aa-b554-654a85d9532e
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK"
 req.header: d3dkmthk.h

@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: c78ed9a8-9e8d-4863-bccd-0bdbf0dac9a2
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: function
+keywords: ["DlMapMemory function"]
 f1_keywords:
  - "dispmprt/DlMapMemory"
 ms.keywords: DlMapMemory

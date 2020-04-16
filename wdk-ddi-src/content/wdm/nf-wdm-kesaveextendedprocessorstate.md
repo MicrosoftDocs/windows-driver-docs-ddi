@@ -6,8 +6,8 @@ old-location: kernel\kesaveextendedprocessorstate.htm
 tech.root: kernel
 ms.assetid: 06be6c3b-cc1a-4e57-8700-03357215d624
 ms.date: 04/30/2018
+keywords: ["KeSaveExtendedProcessorState function"]
 ms.keywords: KeSaveExtendedProcessorState, KeSaveExtendedProcessorState routine [Kernel-Mode Driver Architecture], XSTATE_MASK_GSSE, XSTATE_MASK_LEGACY, XSTATE_MASK_LEGACY_FLOATING_POINT, XSTATE_MASK_LEGACY_SSE, k105_e03ec6f9-5b9b-48dc-ae77-3c27e6edc910.xml, kernel.kesaveextendedprocessorstate, wdm/KeSaveExtendedProcessorState
-ms.topic: function
 f1_keywords:
  - "wdm/KeSaveExtendedProcessorState"
 req.header: wdm.h

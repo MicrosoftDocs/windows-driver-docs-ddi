@@ -6,8 +6,8 @@ old-location: netvista\wskconnectex.htm
 tech.root: netvista
 ms.assetid: 1BC518E9-747C-4406-8A2A-40A3BCB0A3AA
 ms.date: 05/02/2018
+keywords: ["PFN_WSK_CONNECT_EX callback function"]
 ms.keywords: PFN_WSK_CONNECT_EX, PFN_WSK_CONNECT_EX callback, WskConnectEx, WskConnectEx callback function [Network Drivers Starting with Windows Vista], netvista.wskconnectex, wsk/WskConnectEx
-ms.topic: callback
 f1_keywords:
  - "wsk/WskConnectEx"
 req.header: wsk.h

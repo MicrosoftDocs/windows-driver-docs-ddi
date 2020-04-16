@@ -6,8 +6,8 @@ old-location: debugger\idebugoutputcallbacks2_output.htm
 tech.root: debugger
 ms.assetid: 3C1A9993-8E95-455C-BC1D-DD2526A156D9
 ms.date: 05/03/2018
+keywords: ["IDebugOutputCallbacks2::Output"]
 ms.keywords: IDebugOutputCallbacks2 interface [Windows Debugging],Output method, IDebugOutputCallbacks2.Output, IDebugOutputCallbacks2::Output, Output, Output method [Windows Debugging], Output method [Windows Debugging],IDebugOutputCallbacks2 interface, dbgeng/IDebugOutputCallbacks2::Output, debugger.idebugoutputcallbacks2_output
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugOutputCallbacks2.Output"
 req.header: dbgeng.h

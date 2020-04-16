@@ -6,8 +6,8 @@ old-location: ifsk\rxcequerytransportinformation.htm
 tech.root: ifsk
 ms.assetid: 94744af6-0c62-4942-a8a8-3a45a0ab98da
 ms.date: 04/16/2018
+keywords: ["RxCeQueryTransportInformation function"]
 ms.keywords: RxCeQueryTransportInformation, RxCeQueryTransportInformation function [Installable File System Drivers], ifsk.rxcequerytransportinformation, rxce/RxCeQueryTransportInformation, rxref_db01b7e1-b0ea-4d42-99b8-c9b55fc34fb6.xml
-ms.topic: function
 f1_keywords:
  - "rxce/RxCeQueryTransportInformation"
 req.header: rxce.h

@@ -6,8 +6,8 @@ old-location: debugger\debug_processor_identification_alpha.htm
 tech.root: debugger
 ms.assetid: AE0DB2CC-6364-4B50-8CD3-8EF8B495FBED
 ms.date: 05/03/2018
+keywords: ["_DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure"]
 ms.keywords: "*PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure pointer [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, debugger.debug_processor_identification_alpha"
-ms.topic: struct
 f1_keywords:
  - "dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALPHA"
 req.header: dbgeng.h

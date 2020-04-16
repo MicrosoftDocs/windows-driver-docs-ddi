@@ -6,8 +6,8 @@ old-location: ifsk\rtldrainnonvolatileflush.htm
 tech.root: ifsk
 ms.assetid: EA1C2DF3-591C-407A-ABBF-DE615466A498
 ms.date: 04/16/2018
+keywords: ["RtlDrainNonVolatileFlush function"]
 ms.keywords: RtlDrainNonVolatileFlush, RtlDrainNonVolatileFlush routine [Installable File System Drivers], ifsk.rtldrainnonvolatileflush, ntddk/RtlDrainNonVolatileFlush
-ms.topic: function
 f1_keywords:
  - "ntddk/RtlDrainNonVolatileFlush"
 req.header: ntddk.h

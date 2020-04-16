@@ -5,7 +5,7 @@ description: NET_BUFFER_LIST_PROTOCOL_RESERVED is a macro that NDIS drivers use 
 tech.root: netvista
 ms.assetid: 2d6cc00f-2f22-4105-9e01-7cc179a0b851
 ms.date: 04/13/2018
-ms.topic: macro
+keywords: ["NET_BUFFER_LIST_PROTOCOL_RESERVED macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_PROTOCOL_RESERVED"
 ms.keywords: NET_BUFFER_LIST_PROTOCOL_RESERVED

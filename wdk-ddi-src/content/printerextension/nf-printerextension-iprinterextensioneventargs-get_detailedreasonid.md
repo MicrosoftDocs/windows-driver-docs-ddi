@@ -6,8 +6,8 @@ old-location: print\iprinterextensioneventargs_detailedreasonid.htm
 tech.root: print
 ms.assetid: B39DC40A-2B7D-402F-B88C-E6684BF9AA0F
 ms.date: 04/20/2018
+keywords: ["IPrinterExtensionEventArgs::get_DetailedReasonId"]
 ms.keywords: DetailedReasonId property [Print Devices], DetailedReasonId property [Print Devices],IPrinterExtensionEventArgs interface, IPrinterExtensionEventArgs interface [Print Devices],DetailedReasonId property, IPrinterExtensionEventArgs.DetailedReasonId, IPrinterExtensionEventArgs.get_DetailedReasonId, IPrinterExtensionEventArgs::DetailedReasonId, IPrinterExtensionEventArgs::get_DetailedReasonId, get_DetailedReasonId, print.iprinterextensioneventargs_detailedreasonid, printerextension/IPrinterExtensionEventArgs::DetailedReasonId, printerextension/IPrinterExtensionEventArgs::get_DetailedReasonId
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterExtensionEventArgs.DetailedReasonId"
 req.header: printerextension.h

@@ -6,8 +6,8 @@ old-location: pci\pci_pm_capability.htm
 tech.root: PCI
 ms.assetid: 829d4df0-2dc2-4a1f-9606-3d5f25624252
 ms.date: 02/24/2018
+keywords: ["_PCI_PM_CAPABILITY structure"]
 ms.keywords: "*PPCI_PM_CAPABILITY, PCI.pci_pm_capability, PCI_PM_CAPABILITY, PCI_PM_CAPABILITY structure [Buses], PPCI_PM_CAPABILITY, PPCI_PM_CAPABILITY structure pointer [Buses], _PCI_PM_CAPABILITY, pci_struct_041a9702-7b1e-43dc-8b8c-0371bc0eac26.xml, wdm/PCI_PM_CAPABILITY, wdm/PPCI_PM_CAPABILITY"
-ms.topic: struct
 f1_keywords:
  - "miniport/PCI_PM_CAPABILITY"
 req.header: miniport.h

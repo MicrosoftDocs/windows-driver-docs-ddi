@@ -6,8 +6,8 @@ old-location: display\agpallocatepool.htm
 tech.root: display
 ms.assetid: abac76e0-eb8a-450a-a797-3733a8f71990
 ms.date: 05/10/2018
+keywords: ["DXGKCB_AGP_ALLOCATE_POOL callback function"]
 ms.keywords: AgpAllocatePool, AgpAllocatePool callback function [Display Devices], DXGKCB_AGP_ALLOCATE_POOL, DXGKCB_AGP_ALLOCATE_POOL callback, DpFunctions_2bd4981c-c9f1-4b37-a921-9eb33d1b622b.xml, display.agpallocatepool, dispmprt/AgpAllocatePool
-ms.topic: callback
 f1_keywords:
  - "dispmprt/AgpAllocatePool"
 req.header: dispmprt.h

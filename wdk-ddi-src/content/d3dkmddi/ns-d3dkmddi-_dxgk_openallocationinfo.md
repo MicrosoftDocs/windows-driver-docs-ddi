@@ -5,8 +5,8 @@ description: The DXGK_OPENALLOCATIONINFO structure contains handles to nondevice
 old-location: display\dxgk_openallocationinfo.htm
 ms.assetid: e23b7e4e-e670-4421-aa2f-4389a74a7d6d
 ms.date: 05/10/2018
+keywords: ["_DXGK_OPENALLOCATIONINFO structure"]
 ms.keywords: DXGK_OPENALLOCATIONINFO, DXGK_OPENALLOCATIONINFO structure [Display Devices], DmStructs_e03247bd-d6b8-42df-ac22-79d906d7c852.xml, _DXGK_OPENALLOCATIONINFO, d3dkmddi/DXGK_OPENALLOCATIONINFO, display.dxgk_openallocationinfo
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_OPENALLOCATIONINFO"
 req.header: d3dkmddi.h

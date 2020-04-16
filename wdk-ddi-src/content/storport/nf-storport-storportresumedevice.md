@@ -6,8 +6,8 @@ old-location: storage\storportresumedevice.htm
 tech.root: storage
 ms.assetid: 81b979a8-87bb-48f3-b44a-bac9286648fa
 ms.date: 03/29/2018
+keywords: ["StorPortResumeDevice function"]
 ms.keywords: StorPortResumeDevice, StorPortResumeDevice routine [Storage Devices], storage.storportresumedevice, storport/StorPortResumeDevice, storprt_62696d8f-cfb1-43fd-8b23-b14f1ac0d429.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortResumeDevice"
 req.header: storport.h

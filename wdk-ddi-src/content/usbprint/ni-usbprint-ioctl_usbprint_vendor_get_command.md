@@ -6,8 +6,8 @@ old-location: print\ioctl_usbprint_vendor_get_command.htm
 tech.root: print
 ms.assetid: d4e0220b-2efb-4a24-b80a-23225b06dc66
 ms.date: 04/20/2018
+keywords: ["IOCTL_USBPRINT_VENDOR_GET_COMMAND IOCTL"]
 ms.keywords: IOCTL_USBPRINT_VENDOR_GET_COMMAND, IOCTL_USBPRINT_VENDOR_GET_COMMAND control, IOCTL_USBPRINT_VENDOR_GET_COMMAND control code [Print Devices], print.ioctl_usbprint_vendor_get_command, usbioctl_edd39494-a6bb-4e28-a059-7c7884626105.xml, usbprint/IOCTL_USBPRINT_VENDOR_GET_COMMAND
-ms.topic: ioctl
 f1_keywords:
  - "usbprint/IOCTL_USBPRINT_VENDOR_GET_COMMAND"
 req.header: usbprint.h

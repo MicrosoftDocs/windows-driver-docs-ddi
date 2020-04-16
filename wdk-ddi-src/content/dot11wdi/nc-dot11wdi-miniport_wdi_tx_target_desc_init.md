@@ -6,8 +6,8 @@ old-location: netvista\miniportwditxtargetdescinit.htm
 tech.root: netvista
 ms.assetid: EAFE6F7D-6820-4626-863D-C28FBFFCE6A0
 ms.date: 05/02/2018
+keywords: ["MINIPORT_WDI_TX_TARGET_DESC_INIT callback function"]
 ms.keywords: MINIPORT_WDI_TX_TARGET_DESC_INIT, MINIPORT_WDI_TX_TARGET_DESC_INIT callback, MiniportWdiTxTargetDescInit, MiniportWdiTxTargetDescInit callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxTargetDescInit, netvista.miniportwditxtargetdescinit
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiTxTargetDescInit"
 req.header: dot11wdi.h

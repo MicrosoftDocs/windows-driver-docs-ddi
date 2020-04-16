@@ -6,8 +6,8 @@ old-location: netvista\ndismcodeactivatevccomplete.htm
 tech.root: netvista
 ms.assetid: 8ea36895-4728-45ad-84f7-3517afd2327d
 ms.date: 05/02/2018
+keywords: ["NdisMCoDeactivateVcComplete function"]
 ms.keywords: NdisMCoDeactivateVcComplete, NdisMCoDeactivateVcComplete function [Network Drivers Starting with Windows Vista], condis_miniport_ref_b4ad1f67-6e33-45ca-9d55-323aed8820be.xml, ndis/NdisMCoDeactivateVcComplete, netvista.ndismcodeactivatevccomplete
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMCoDeactivateVcComplete"
 req.header: ndis.h

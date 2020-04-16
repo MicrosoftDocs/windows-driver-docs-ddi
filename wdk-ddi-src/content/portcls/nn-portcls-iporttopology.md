@@ -6,8 +6,8 @@ old-location: audio\iporttopology.htm
 tech.root: audio
 ms.assetid: 820b00e8-a917-4bef-ac36-e8103f59d998
 ms.date: 03/19/2018
+keywords: ["IPortTopology interface"]
 ms.keywords: IPortTopology, IPortTopology interface [Audio Devices], IPortTopology interface [Audio Devices], described, audio.iporttopology, audmp-routines_88974b5c-4520-41ed-b0c7-75cceff72e0f.xml, portcls/IPortTopology
-ms.topic: interface
 f1_keywords:
  - "portcls/IPortTopology"
 req.header: portcls.h

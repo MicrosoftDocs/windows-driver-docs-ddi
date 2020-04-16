@@ -6,8 +6,8 @@ old-location: wdf\wdfioqueuegetstate.htm
 tech.root: wdf
 ms.assetid: 83bfddd5-fc4d-4f5c-9904-7564810f5b4c
 ms.date: 02/26/2018
+keywords: ["WdfIoQueueGetState function"]
 ms.keywords: DFQueueObjectRef_756666e1-e5eb-4bcc-907e-65b10e580396.xml, WdfIoQueueGetState, WdfIoQueueGetState method, kmdf.wdfioqueuegetstate, wdf.wdfioqueuegetstate, wdfio/WdfIoQueueGetState
-ms.topic: function
 f1_keywords:
  - "wdfio/WdfIoQueueGetState"
 req.header: wdfio.h

@@ -5,8 +5,8 @@ description: The D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure describes a b
 old-location: display\d3d11ddiarg_bufferex_shaderresourceview.htm
 ms.assetid: b3585a06-fdb0-4fe9-8d5c-63680039a789
 ms.date: 05/10/2018
+keywords: ["D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure"]
 ms.keywords: D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_49ef78b9-8a6f-4b67-bf2f-bae79086b6c7.xml, d3d10umddi/D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, display.d3d11ddiarg_bufferex_shaderresourceview
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW"
 req.header: d3d10umddi.h

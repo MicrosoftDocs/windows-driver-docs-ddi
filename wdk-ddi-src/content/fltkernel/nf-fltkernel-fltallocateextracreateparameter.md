@@ -6,8 +6,8 @@ old-location: ifsk\fltallocateextracreateparameter.htm
 tech.root: ifsk
 ms.assetid: 85751db5-7a73-4aa5-baf8-0173e9a8f495
 ms.date: 04/16/2018
+keywords: ["FltAllocateExtraCreateParameter function"]
 ms.keywords: FltAllocateExtraCreateParameter, FltAllocateExtraCreateParameter routine [Installable File System Drivers], FltApiRef_a_to_d_937e6c81-7251-4f94-a868-88f65e219c73.xml, fltkernel/FltAllocateExtraCreateParameter, ifsk.fltallocateextracreateparameter
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltAllocateExtraCreateParameter"
 req.header: fltkernel.h

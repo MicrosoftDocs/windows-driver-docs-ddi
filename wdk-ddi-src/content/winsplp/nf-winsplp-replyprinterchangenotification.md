@@ -6,8 +6,8 @@ old-location: print\replyprinterchangenotification.htm
 tech.root: print
 ms.assetid: 0b5378fa-ab1d-453f-b976-f6cd0d4247de
 ms.date: 04/20/2018
+keywords: ["ReplyPrinterChangeNotification function"]
 ms.keywords: ReplyPrinterChangeNotification, ReplyPrinterChangeNotification function [Print Devices], print.replyprinterchangenotification, spoolfnc_524073df-9320-46d6-b4fe-6d3b73ccbe5b.xml, winsplp/ReplyPrinterChangeNotification
-ms.topic: function
 f1_keywords:
  - "winsplp/ReplyPrinterChangeNotification"
 req.header: winsplp.h

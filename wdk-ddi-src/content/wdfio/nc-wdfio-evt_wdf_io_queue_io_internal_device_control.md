@@ -6,8 +6,8 @@ old-location: wdf\evtiointernaldevicecontrol.htm
 tech.root: wdf
 ms.assetid: 268d2323-57a3-4674-90e6-d7142804175b
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL callback function"]
 ms.keywords: DFQueueObjectRef_6b883c59-a84e-4735-8dec-2b0123b0d61f.xml, EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL, EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL callback, EvtIoInternalDeviceControl, EvtIoInternalDeviceControl callback function, kmdf.evtiointernaldevicecontrol, wdf.evtiointernaldevicecontrol, wdfio/EvtIoInternalDeviceControl
-ms.topic: callback
 f1_keywords:
  - "wdfio/EvtIoInternalDeviceControl"
 req.header: wdfio.h

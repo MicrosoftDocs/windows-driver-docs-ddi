@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: c6e2a5ee-45e5-4cd3-82e9-64b74f092799
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
+keywords: ["DXGKDDI_SETGPUPARTITIONCOUNT callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_SETGPUPARTITIONCOUNT"
 req.header: dispmprt.h

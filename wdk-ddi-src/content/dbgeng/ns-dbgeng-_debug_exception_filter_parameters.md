@@ -6,8 +6,8 @@ old-location: debugger\debug_exception_filter_parameters.htm
 tech.root: debugger
 ms.assetid: 26a101c5-0866-44e3-948b-8d3ca4dd9d00
 ms.date: 05/03/2018
+keywords: ["_DEBUG_EXCEPTION_FILTER_PARAMETERS structure"]
 ms.keywords: "*PDEBUG_EXCEPTION_FILTER_PARAMETERS, DEBUG_EXCEPTION_FILTER_PARAMETERS, DEBUG_EXCEPTION_FILTER_PARAMETERS structure [Windows Debugging], PDEBUG_EXCEPTION_FILTER_PARAMETERS, PDEBUG_EXCEPTION_FILTER_PARAMETERS structure pointer [Windows Debugging], Structures_f3f2b1ac-e10c-439e-9de9-6b4161bf3c28.xml, _DEBUG_EXCEPTION_FILTER_PARAMETERS, dbgeng/DEBUG_EXCEPTION_FILTER_PARAMETERS, dbgeng/PDEBUG_EXCEPTION_FILTER_PARAMETERS, debugger.debug_exception_filter_parameters"
-ms.topic: struct
 f1_keywords:
  - "dbgeng/DEBUG_EXCEPTION_FILTER_PARAMETERS"
 req.header: dbgeng.h

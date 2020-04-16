@@ -6,8 +6,8 @@ old-location: wdf\iwdfusbinterface_getconfiguredsettingindex.htm
 tech.root: wdf
 ms.assetid: 0deccfee-34e3-47ee-b141-9758cffcd0c2
 ms.date: 02/26/2018
+keywords: ["IWDFUsbInterface::GetConfiguredSettingIndex"]
 ms.keywords: GetConfiguredSettingIndex, GetConfiguredSettingIndex method, GetConfiguredSettingIndex method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetConfiguredSettingIndex method, IWDFUsbInterface.GetConfiguredSettingIndex, IWDFUsbInterface::GetConfiguredSettingIndex, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, umdf.iwdfusbinterface_getconfiguredsettingindex, wdf.iwdfusbinterface_getconfiguredsettingindex, wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex
-ms.topic: method
 f1_keywords:
  - "wudfusb/IWDFUsbInterface.GetConfiguredSettingIndex"
 req.header: wudfusb.h

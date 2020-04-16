@@ -4,7 +4,7 @@ title: _SIDEBANDAUDIO_SIDETONE_PARAMS (sidebandaudio.h)
 description: Describes the endpoint index and sidetone value.
 ms.assetid: baeba68b-d15f-469f-97f8-bd53e38fe1ea
 ms.date: 09/06/2018
-ms.topic: struct
+keywords: ["_SIDEBANDAUDIO_SIDETONE_PARAMS structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_SIDETONE_PARAMS"
 ms.keywords: _SIDEBANDAUDIO_SIDETONE_PARAMS, SIDEBANDAUDIO_SIDETONE_PARAMS, *PSIDEBANDAUDIO_SIDETONE_PARAMS, 

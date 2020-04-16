@@ -7,7 +7,7 @@ tech.root:
 ms.assetid: 2412af5a-0dd6-4fe6-86f4-dcd298fbfd63
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: struct
+keywords: ["WHEAP_DEFERRED_EVENT structure"]
 f1_keywords:
  - "ntddk/WHEAP_DEFERRED_EVENT"
 ms.keywords: WHEAP_DEFERRED_EVENT, WHEAP_DEFERRED_EVENT, *PWHEAP_DEFERRED_EVENT, 

@@ -6,8 +6,8 @@ old-location: ifsk\ketrytoacquirequeuedspinlock.htm
 tech.root: ifsk
 ms.assetid: e598c402-ef60-4f6c-924d-fc37114c3432
 ms.date: 04/16/2018
+keywords: ["KeTryToAcquireQueuedSpinLock function"]
 ms.keywords: KeTryToAcquireQueuedSpinLock, KeTryToAcquireQueuedSpinLock function [Installable File System Drivers], ifsk.ketrytoacquirequeuedspinlock, keref_754b75bd-31a8-4447-8ebe-3d24855150bf.xml, ntifs/KeTryToAcquireQueuedSpinLock
-ms.topic: function
 f1_keywords:
  - "ntifs/KeTryToAcquireQueuedSpinLock"
 req.header: ntifs.h

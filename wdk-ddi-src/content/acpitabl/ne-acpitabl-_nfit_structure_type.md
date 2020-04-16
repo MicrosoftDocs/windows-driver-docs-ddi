@@ -4,7 +4,7 @@ title: _NFIT_STRUCTURE_TYPE enumeration (acpitabl.h)
 description: Describes NVDIMM Firmware Interface Table (NFIT) structure types.
 ms.assetid: a9645635-eb52-45a3-9deb-32a278337646
 ms.date: 10/02/2018
-ms.topic: enum
+keywords: ["_NFIT_STRUCTURE_TYPE enumeration"]
 f1_keywords:
  - "acpitabl/_NFIT_STRUCTURE_TYPE"
 ms.keywords: _NFIT_STRUCTURE_TYPE, NFIT_STRUCTURE_TYPE, *PNFIT_STRUCTURE_TYPE, 

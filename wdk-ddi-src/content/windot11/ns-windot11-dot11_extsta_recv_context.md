@@ -6,8 +6,8 @@ old-location: netvista\dot11_extsta_recv_context.htm
 tech.root: netvista
 ms.assetid: 517be11b-a15d-43ac-aefd-f425fa6f63e7
 ms.date: 02/16/2018
+keywords: ["DOT11_EXTSTA_RECV_CONTEXT structure"]
 ms.keywords: "*PDOT11_EXTAP_RECV_CONTEXT, *PDOT11_EXTSTA_RECV_CONTEXT, DOT11_EXTAP_RECV_CONTEXT, DOT11_EXTSTA_RECV_CONTEXT, DOT11_EXTSTA_RECV_CONTEXT structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c3f69d82-f4b2-4a2a-b864-9b4eebc9e3ff.xml, PDOT11_EXTSTA_RECV_CONTEXT, PDOT11_EXTSTA_RECV_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_recv_context, windot11/DOT11_EXTSTA_RECV_CONTEXT, windot11/PDOT11_EXTSTA_RECV_CONTEXT"
-ms.topic: struct
 f1_keywords:
  - "windot11/DOT11_EXTSTA_RECV_CONTEXT"
 req.header: windot11.h

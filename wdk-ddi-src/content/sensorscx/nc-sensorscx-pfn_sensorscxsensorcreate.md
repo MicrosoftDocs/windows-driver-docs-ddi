@@ -4,7 +4,7 @@ title: PFN_SENSORSCXSENSORCREATE (sensorscx.h)
 description: Creates an instance of a sensor in the class extension.
 ms.assetid: 5a5df8e4-11e9-4958-b622-64e15bcd8023
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["*PFN_SENSORSCXSENSORCREATE callback function"]
 f1_keywords:
  - "sensorscx/*PFN_SENSORSCXSENSORCREATE"
 req.header: sensorscx.h
@@ -31,7 +31,7 @@ api_type:
 api_location: 
 - sensorscx.h
 api_name: 
-- *PFN_SENSORSCXSENSORCREATE
+- PFN_SENSORSCXSENSORCREATE
 product:
 - Windows
 targetos: Windows

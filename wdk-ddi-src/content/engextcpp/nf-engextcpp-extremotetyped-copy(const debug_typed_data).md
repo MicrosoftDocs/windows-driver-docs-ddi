@@ -6,8 +6,8 @@ old-location: debugger\extremotetyped_copy_debug_typed_data.htm
 tech.root: debugger
 ms.assetid: bfeafa09-49b7-45b3-84d8-afad5f43b78e
 ms.date: 05/03/2018
+keywords: ["ExtRemoteTyped::Copy(const DEBUG_TYPED_DATA)"]
 ms.keywords: Copy, Copy method [Windows Debugging], Copy method [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped class [Windows Debugging],Copy method, ExtRemoteTyped.Copy, ExtRemoteTyped.Copy(const DEBUG_TYPED_DATA), ExtRemoteTyped.Copy(const DEBUG_TYPED_DATA*), ExtRemoteTyped::Copy, ExtRemoteTyped::Copy(const DEBUG_TYPED_DATA), debugger.extremotetyped_copy_debug_typed_data
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.Copy"
 req.header: engextcpp.hpp

@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The HidNotifyPresence function is reserved for the HID driver internal framework
 tech.root:
 ms.date: 02/05/2019
-ms.topic: function
+keywords: ["HidNotifyPresence function"]
 f1_keywords:
  - "hidport/HidNotifyPresence"
 ms.keywords: HidNotifyPresence

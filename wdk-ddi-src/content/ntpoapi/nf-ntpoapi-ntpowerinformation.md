@@ -6,8 +6,8 @@ old-location: kernel\zwpowerinformation.htm
 tech.root: kernel
 ms.assetid: BA1D5AD2-E3E5-42CB-8E77-627B23078F80
 ms.date: 04/30/2018
+keywords: ["NtPowerInformation function"]
 ms.keywords: NtPowerInformation, PlatformInformation, ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], kernel.zwpowerinformation, wdm/NtPowerInformation, wdm/ZwPowerInformation
-ms.topic: function
 f1_keywords:
  - "ntpoapi/ZwPowerInformation"
 req.header: ntpoapi.h

@@ -6,8 +6,8 @@ old-location: print\iprintcoreui2_drvupgraderegistrysetting.htm
 tech.root: print
 ms.assetid: c9fa1506-ffef-44a8-9b25-9033280e0c33
 ms.date: 04/20/2018
+keywords: ["IPrintCoreUI2::DrvUpgradeRegistrySetting"]
 ms.keywords: DrvUpgradeRegistrySetting, DrvUpgradeRegistrySetting method [Print Devices], DrvUpgradeRegistrySetting method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],DrvUpgradeRegistrySetting method, IPrintCoreUI2.DrvUpgradeRegistrySetting, IPrintCoreUI2::DrvUpgradeRegistrySetting, prcomoem/IPrintCoreUI2::DrvUpgradeRegistrySetting, print.iprintcoreui2_drvupgraderegistrysetting, print_unidrv-pscript_ui_e7337077-8ed0-4c41-a182-99764e17b55c.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintCoreUI2.DrvUpgradeRegistrySetting"
 req.header: prcomoem.h

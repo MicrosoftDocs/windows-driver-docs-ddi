@@ -6,8 +6,8 @@ old-location: wdf\iwdfrequestcompletionparams_getcompletedrequesttype.htm
 tech.root: wdf
 ms.assetid: 1977828d-61bb-4649-bfa6-e5e82775258e
 ms.date: 02/26/2018
+keywords: ["IWDFRequestCompletionParams::GetCompletedRequestType"]
 ms.keywords: GetCompletedRequestType, GetCompletedRequestType method, GetCompletedRequestType method,IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface,GetCompletedRequestType method, IWDFRequestCompletionParams.GetCompletedRequestType, IWDFRequestCompletionParams::GetCompletedRequestType, UMDFRequestObjectRef_97c61d1b-059f-44d7-9d3a-7c031099d669.xml, umdf.iwdfrequestcompletionparams_getcompletedrequesttype, wdf.iwdfrequestcompletionparams_getcompletedrequesttype, wudfddi/IWDFRequestCompletionParams::GetCompletedRequestType
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFRequestCompletionParams.GetCompletedRequestType"
 req.header: wudfddi.h

@@ -6,8 +6,8 @@ old-location: print\readport.htm
 tech.root: print
 ms.assetid: ab1fb259-edcb-4e19-9afb-18aa6688764a
 ms.date: 02/02/2018
+keywords: ["ReadPort function"]
 ms.keywords: ReadPort, spoolfnc_f4b817ce-afeb-4d3f-b8ce-e060b8de8143.xml, ReadPort function [Print Devices], print.readport, winsplp/ReadPort
-ms.topic: function
 f1_keywords:
  - "winsplp/ReadPort"
 req.header: winsplp.h

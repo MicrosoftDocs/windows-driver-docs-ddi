@@ -6,8 +6,8 @@ old-location: audio\bthhfp_audio_device_capabilties_init.htm
 tech.root: audio
 ms.assetid: c00b8f19-6708-4ec2-928b-610158850247
 ms.date: 05/08/2018
+keywords: ["BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT function"]
 ms.keywords: BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT, BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT method [Audio Devices], audio.bthhfp_audio_device_capabilties_init, bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
-ms.topic: function
 f1_keywords:
  - "bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT"
 req.header: bthhfpddi.h

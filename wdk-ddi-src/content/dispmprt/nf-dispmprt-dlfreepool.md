@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: d925a8ec-9878-4089-985d-cc58863dbd96
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: function
+keywords: ["DlFreePool function"]
 f1_keywords:
  - "dispmprt/DlFreePool"
 ms.keywords: DlFreePool

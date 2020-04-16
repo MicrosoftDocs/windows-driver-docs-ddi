@@ -6,8 +6,8 @@ old-location: pci\getvirtualfunctionprobedbars.htm
 tech.root: PCI
 ms.assetid: 02A86A3E-D543-4F0F-9985-7D42F381F8F1
 ms.date: 02/24/2018
+keywords: ["GET_VIRTUAL_FUNCTION_PROBED_BARS callback"]
 ms.keywords: GET_VIRTUAL_FUNCTION_PROBED_BARS, GetVirtualFunctionProbedBars, GetVirtualFunctionProbedBars routine, PCI.getvirtualfunctionprobedbars, wdm/GetVirtualFunctionProbedBars
-ms.topic: callback
 f1_keywords:
  - "wdm/GetVirtualFunctionProbedBars"
 req.header: wdm.h

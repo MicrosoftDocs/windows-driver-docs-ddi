@@ -6,8 +6,8 @@ old-location: kernel\rtlunicodestringvprintfex.htm
 tech.root: kernel
 ms.assetid: da14f93d-c3db-4c54-8378-7492b79a5e18
 ms.date: 04/30/2018
+keywords: ["RtlUnicodeStringVPrintfEx function"]
 ms.keywords: RtlUnicodeStringVPrintfEx, RtlUnicodeStringVPrintfEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvprintfex, ntstrsafe/RtlUnicodeStringVPrintfEx, safestrings_293f1ca7-b9e4-4502-9d04-e656bac17288.xml
-ms.topic: function
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringVPrintfEx"
 req.header: ntstrsafe.h

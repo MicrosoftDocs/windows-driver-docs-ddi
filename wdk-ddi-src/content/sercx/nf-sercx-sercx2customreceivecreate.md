@@ -6,8 +6,8 @@ old-location: serports\sercx2customreceivecreate.htm
 tech.root: serports
 ms.assetid: EC2DBC18-C3F6-4663-891E-AFF43A6D1CE3
 ms.date: 04/23/2018
+keywords: ["SerCx2CustomReceiveCreate function"]
 ms.keywords: 2/SerCx2CustomReceiveCreate, SerCx2CustomReceiveCreate, SerCx2CustomReceiveCreate method [Serial Ports], serports.sercx2customreceivecreate
-ms.topic: function
 f1_keywords:
  - "sercx/SerCx2CustomReceiveCreate"
 req.header: sercx.h

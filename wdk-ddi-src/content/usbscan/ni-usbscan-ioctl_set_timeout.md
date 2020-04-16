@@ -6,8 +6,8 @@ old-location: image\ioctl_set_timeout.htm
 tech.root: image
 ms.assetid: 90403ef3-d86c-4e2b-842d-c121cce07a47
 ms.date: 05/03/2018
+keywords: ["IOCTL_SET_TIMEOUT IOCTL"]
 ms.keywords: IOCTL_SET_TIMEOUT, IOCTL_SET_TIMEOUT control, IOCTL_SET_TIMEOUT control code [Imaging Devices], image.ioctl_set_timeout, stifnc_942a0b21-7e68-444d-8bf2-7f8388a8a8fc.xml, usbscan/IOCTL_SET_TIMEOUT
-ms.topic: ioctl
 f1_keywords:
  - "usbscan/IOCTL_SET_TIMEOUT"
 req.header: usbscan.h

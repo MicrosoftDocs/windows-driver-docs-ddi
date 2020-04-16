@@ -6,8 +6,8 @@ old-location: netvista\ndk_srq.htm
 tech.root: netvista
 ms.assetid: BDD2E8A6-D233-4581-AC1D-B6E33919898E
 ms.date: 05/02/2018
+keywords: ["_NDK_SRQ structure"]
 ms.keywords: NDK_SRQ, NDK_SRQ structure [Network Drivers Starting with Windows Vista], PNDK_SRQ, PNDK_SRQ structure pointer [Network Drivers Starting with Windows Vista], _NDK_SRQ, ndkpi/NDK_SRQ, ndkpi/PNDK_SRQ, netvista.ndk_srq
-ms.topic: struct
 f1_keywords:
  - "ndkpi/NDK_SRQ"
 req.header: ndkpi.h

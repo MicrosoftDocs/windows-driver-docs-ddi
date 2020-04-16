@@ -4,7 +4,7 @@ title: SIDEBANDAUDIO_SIOP_REQUEST_PARAM (sidebandaudio.h)
 description: Describes the variable I/O parameter.
 ms.assetid: 02dcc788-480c-44d9-811f-56ac20077ffa
 ms.date: 09/07/2018
-ms.topic: struct
+keywords: ["SIDEBANDAUDIO_SIOP_REQUEST_PARAM structure"]
 f1_keywords:
  - "sidebandaudio/SIDEBANDAUDIO_SIOP_REQUEST_PARAM"
 ms.keywords: SIDEBANDAUDIO_SIOP_REQUEST_PARAM, SIDEBANDAUDIO_SIOP_REQUEST_PARAM, *PSIDEBANDAUDIO_SIOP_REQUEST_PARAM, 

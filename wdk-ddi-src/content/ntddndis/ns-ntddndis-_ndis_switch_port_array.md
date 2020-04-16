@@ -6,8 +6,8 @@ old-location: netvista\ndis_switch_port_array.htm
 tech.root: netvista
 ms.assetid: f753694a-f31b-4bb5-8388-bc20d12cb423
 ms.date: 05/02/2018
+keywords: ["_NDIS_SWITCH_PORT_ARRAY structure"]
 ms.keywords: "*PNDIS_SWITCH_PORT_ARRAY, NDIS_SWITCH_PORT_ARRAY, NDIS_SWITCH_PORT_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_ARRAY, PNDIS_SWITCH_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_ARRAY, netvista.ndis_switch_port_array, ntddndis/NDIS_SWITCH_PORT_ARRAY, ntddndis/PNDIS_SWITCH_PORT_ARRAY"
-ms.topic: struct
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_ARRAY"
 req.header: ntddndis.h

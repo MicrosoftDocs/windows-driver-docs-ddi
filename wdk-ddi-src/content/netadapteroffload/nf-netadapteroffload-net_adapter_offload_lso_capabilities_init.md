@@ -5,7 +5,7 @@ description: The NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT method initializes a 
 tech.root: netvista
 ms.assetid: cc94cd92-487e-4a09-9852-e1c9a3315088
 ms.date: 01/17/2019
-ms.topic: function
+keywords: ["NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT function"]
 f1_keywords:
  - "netadapteroffload/NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT

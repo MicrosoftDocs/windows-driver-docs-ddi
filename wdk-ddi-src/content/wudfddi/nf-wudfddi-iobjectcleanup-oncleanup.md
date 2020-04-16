@@ -6,8 +6,8 @@ old-location: wdf\iobjectcleanup_oncleanup.htm
 tech.root: wdf
 ms.assetid: 6b66c496-d1cc-4b7a-ae50-f18fffa7275a
 ms.date: 02/26/2018
+keywords: ["IObjectCleanup::OnCleanup"]
 ms.keywords: IObjectCleanup interface,OnCleanup method, IObjectCleanup.OnCleanup, IObjectCleanup::OnCleanup, OnCleanup, OnCleanup method, OnCleanup method,IObjectCleanup interface, UMDFBaseObjectRef_1798eedf-b083-487c-b137-24d9caf1e7a7.xml, umdf.iobjectcleanup_oncleanup, wdf.iobjectcleanup_oncleanup, wudfddi/IObjectCleanup::OnCleanup
-ms.topic: method
 f1_keywords:
  - "wudfddi/IObjectCleanup.OnCleanup"
 req.header: wudfddi.h

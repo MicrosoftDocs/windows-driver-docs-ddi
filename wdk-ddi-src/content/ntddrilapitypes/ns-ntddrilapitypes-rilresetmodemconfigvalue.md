@@ -6,8 +6,8 @@ old-location: netvista\rilresetmodemconfigvalue.htm
 tech.root: netvista
 ms.assetid: 48068d1d-3fe7-4bd6-8c91-094e4187ca1f
 ms.date: 05/02/2018
+keywords: ["RILRESETMODEMCONFIGVALUE structure"]
 ms.keywords: "*LPRILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE, RILRESETMODEMCONFIGVALUE structure [Network Drivers Starting with Windows Vista], netvista.rilresetmodemconfigvalue, ntddrilapitypes/RILRESETMODEMCONFIGVALUE"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILRESETMODEMCONFIGVALUE"
 req.header: ntddrilapitypes.h

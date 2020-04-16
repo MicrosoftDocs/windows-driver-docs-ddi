@@ -6,8 +6,8 @@ old-location: dtf\iwdtfdriversetupaction2_updatedriver.htm
 tech.root: dtf
 ms.assetid: 4eb49aae-a7de-4038-9d57-003bb30d7ea8
 ms.date: 04/04/2018
+keywords: ["IWDTFDriverSetupAction2::UpdateDriver"]
 ms.keywords: IWDTFDriverSetupAction2 interface [Windows Device Testing Framework],UpdateDriver method, IWDTFDriverSetupAction2.UpdateDriver, IWDTFDriverSetupAction2::UpdateDriver, Microsoft.WDTF.IWDTFDriverSetupAction2.UpdateDriver, Microsoft::WDTF::IWDTFDriverSetupAction2::UpdateDriver, UpdateDriver, UpdateDriver method [Windows Device Testing Framework], UpdateDriver method [Windows Device Testing Framework],IWDTFDriverSetupAction2 interface, dtf.iwdtfdriversetupaction2_updatedriver, wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2::UpdateDriver
-ms.topic: method
 f1_keywords:
  - "wdtfdriversetupdeviceaction/IWDTFDriverSetupAction2.UpdateDriver"
 req.header: wdtfdriversetupdeviceaction.h

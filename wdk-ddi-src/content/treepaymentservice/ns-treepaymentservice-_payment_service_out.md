@@ -4,7 +4,7 @@ title: _PAYMENT_SERVICE_OUT structure (treepaymentservice.h)
 description: Output structure for PAYMENT_SERVICE_OUT.
 ms.assetid: 3d13bd2a-ca37-43e5-b555-b858aed687ee
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_PAYMENT_SERVICE_OUT structure"]
 f1_keywords:
  - "treepaymentservice/_PAYMENT_SERVICE_OUT"
 ms.keywords: _PAYMENT_SERVICE_OUT, PAYMENT_SERVICE_OUT, *PPAYMENT_SERVICE_OUT, 

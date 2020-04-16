@@ -6,8 +6,8 @@ old-location: netvista\ndismoidrequestcomplete.htm
 tech.root: netvista
 ms.assetid: 30d060d0-05a3-42b5-b5ff-2f2b12873ca9
 ms.date: 05/02/2018
+keywords: ["NdisMOidRequestComplete function"]
 ms.keywords: NdisMOidRequestComplete, NdisMOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMOidRequestComplete, ndis_request_ref_b5524732-acaf-4d0d-a261-3f8a8b739ecc.xml, netvista.ndismoidrequestcomplete
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMOidRequestComplete"
 req.header: ndis.h

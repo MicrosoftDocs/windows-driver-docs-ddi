@@ -4,7 +4,7 @@ title: IModelKeyReference2::GetKeyName (dbgmodel.h)
 description: The GetKeyName method returns the name of the key to which this key reference is a handle. 
 ms.assetid: bfb61278-8eac-47e5-9900-aed8b31370c5
 ms.date: 08/14/2018
-ms.topic: method
+keywords: ["IModelKeyReference2::GetKeyName"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference2.GetKeyName"
 ms.keywords: IModelKeyReference2::GetKeyName, GetKeyName, IModelKeyReference2.GetKeyName, IModelKeyReference2::GetKeyName, IModelKeyReference2.GetKeyName

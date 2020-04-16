@@ -6,8 +6,8 @@ old-location: ifsk\rtlfindunicodeprefix.htm
 tech.root: ifsk
 ms.assetid: 525db78d-b25c-4325-ac71-b992564a19c0
 ms.date: 04/16/2018
+keywords: ["RtlFindUnicodePrefix function"]
 ms.keywords: RtlFindUnicodePrefix, RtlFindUnicodePrefix routine [Installable File System Drivers], ifsk.rtlfindunicodeprefix, ntifs/RtlFindUnicodePrefix, rtlref_55dbfa12-5de6-44e0-8488-6e83abfaad84.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlFindUnicodePrefix"
 req.header: ntifs.h

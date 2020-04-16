@@ -4,7 +4,7 @@ title: D3DKMTMarkDeviceAsError function (d3dkmthk.h)
 description: Marks a device as error.
 ms.assetid: 4f9096f9-20a2-4312-a4a4-7bc62899e3ce
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["D3DKMTMarkDeviceAsError function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTMarkDeviceAsError"
 ms.keywords: D3DKMTMarkDeviceAsError

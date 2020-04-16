@@ -5,7 +5,7 @@ description: The EvtPacketQueueStart callback function is implemented by the cli
 tech.root: netvista
 ms.assetid: 0B5CB7F0-C840-4138-8B22-4FE35120C7A5
 ms.date: 07/17/2018
-ms.topic: callback
+keywords: ["EVT_PACKET_QUEUE_START callback function"]
 f1_keywords:
  - "netpacketqueue/EVT_PACKET_QUEUE_START"
 req.header: netpacketqueue.h

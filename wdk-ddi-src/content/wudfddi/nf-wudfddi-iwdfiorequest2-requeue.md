@@ -6,8 +6,8 @@ old-location: wdf\iwdfiorequest2_requeue.htm
 tech.root: wdf
 ms.assetid: 1e33f284-6cb9-426f-a900-76b827341927
 ms.date: 02/26/2018
+keywords: ["IWDFIoRequest2::Requeue"]
 ms.keywords: IWDFIoRequest2 interface,Requeue method, IWDFIoRequest2.Requeue, IWDFIoRequest2::Requeue, Requeue, Requeue method, Requeue method,IWDFIoRequest2 interface, UMDFRequestObjectRef_e86bd6e8-ed4b-42e8-a32f-29c4415e1384.xml, umdf.iwdfiorequest2_requeue, wdf.iwdfiorequest2_requeue, wudfddi/IWDFIoRequest2::Requeue
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.Requeue"
 req.header: wudfddi.h

@@ -4,7 +4,7 @@ title: PFND3DDDI_SYNCTOKENCB (d3dumddi.h)
 description: The PFND3DDDI_SYNCTOKENCB callback creates a sync token.
 ms.assetid: 17b9c997-6db5-40a3-9b08-8a689e276f45
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DDDI_SYNCTOKENCB callback function"]
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: 

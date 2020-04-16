@@ -6,8 +6,8 @@ old-location: kernel\ioiserroruserinduced.htm
 tech.root: kernel
 ms.assetid: 6f5e54e8-c127-44d9-b1a6-e6f7ac3b3b51
 ms.date: 04/30/2018
+keywords: ["IoIsErrorUserInduced macro"]
 ms.keywords: IoIsErrorUserInduced, IoIsErrorUserInduced routine [Kernel-Mode Driver Architecture], k104_860a6f10-e6c0-44cd-9386-c09e356f3472.xml, kernel.ioiserroruserinduced, wdm/IoIsErrorUserInduced
-ms.topic: macro
 f1_keywords:
  - "wdm/IoIsErrorUserInduced"
 req.header: wdm.h

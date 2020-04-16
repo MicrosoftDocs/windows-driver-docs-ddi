@@ -6,8 +6,8 @@ old-location: print\splclient_info_3_vista.htm
 tech.root: print
 ms.assetid: 076ECB20-CFAD-4A16-9B01-6936E0DD7E50
 ms.date: 04/20/2018
+keywords: ["_SPLCLIENT_INFO_3_VISTA structure"]
 ms.keywords: "*LPSPLCLIENT_INFO_3, *PSPLCLIENT_INFO_3, SPLCLIENT_INFO_3, SPLCLIENT_INFO_3_VISTA, SPLCLIENT_INFO_3_VISTA structure [Print Devices], _SPLCLIENT_INFO_3_VISTA, print.splclient_info_3_vista, winsplp/SPLCLIENT_INFO_3_VISTA"
-ms.topic: struct
 f1_keywords:
  - "winsplp/SPLCLIENT_INFO_3_VISTA"
 req.header: winsplp.h

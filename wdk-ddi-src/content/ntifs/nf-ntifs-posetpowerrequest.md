@@ -6,8 +6,8 @@ old-location: kernel\posetpowerrequest.htm
 tech.root: kernel
 ms.assetid: 5670a4dd-3804-4532-8765-2fdffe1c4a0b
 ms.date: 04/30/2018
+keywords: ["PoSetPowerRequest function"]
 ms.keywords: PoSetPowerRequest, PoSetPowerRequest routine [Kernel-Mode Driver Architecture], kernel.posetpowerrequest, portn_8f3abb03-a324-4841-b630-b62344d656ce.xml, wdm/PoSetPowerRequest
-ms.topic: function
 f1_keywords:
  - "ntifs/PoSetPowerRequest"
 req.header: ntifs.h

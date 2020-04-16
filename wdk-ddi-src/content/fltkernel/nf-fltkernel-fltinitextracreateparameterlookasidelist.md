@@ -6,8 +6,8 @@ old-location: ifsk\fltinitextracreateparameterlookasidelist.htm
 tech.root: ifsk
 ms.assetid: bec492df-86ac-4e1b-8623-5656aa20c4c5
 ms.date: 04/16/2018
+keywords: ["FltInitExtraCreateParameterLookasideList function"]
 ms.keywords: FltApiRef_e_to_o_b9cff240-0f03-4756-86d0-a44612df8e58.xml, FltInitExtraCreateParameterLookasideList, FltInitExtraCreateParameterLookasideList routine [Installable File System Drivers], fltkernel/FltInitExtraCreateParameterLookasideList, ifsk.fltinitextracreateparameterlookasidelist
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltInitExtraCreateParameterLookasideList"
 req.header: fltkernel.h

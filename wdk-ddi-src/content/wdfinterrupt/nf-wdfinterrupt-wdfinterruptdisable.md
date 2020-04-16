@@ -6,8 +6,8 @@ old-location: wdf\wdfinterruptdisable.htm
 tech.root: wdf
 ms.assetid: 8ece6a3f-2f25-4143-8f0e-c65c02794cc4
 ms.date: 02/26/2018
+keywords: ["WdfInterruptDisable function"]
 ms.keywords: DFInterruptObjectRef_05ca577a-87b3-419a-a3f8-ee57b0765701.xml, WdfInterruptDisable, WdfInterruptDisable method, kmdf.wdfinterruptdisable, wdf.wdfinterruptdisable, wdfinterrupt/WdfInterruptDisable
-ms.topic: function
 f1_keywords:
  - "wdfinterrupt/WdfInterruptDisable"
 req.header: wdfinterrupt.h

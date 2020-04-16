@@ -6,8 +6,8 @@ old-location: hid\ioctl_internal_keyboard_disconnect.htm
 tech.root: hid
 ms.assetid: ec1c2267-b92c-4d4c-86fa-f2b3ccb6aa40
 ms.date: 04/30/2018
+keywords: ["IOCTL_INTERNAL_KEYBOARD_DISCONNECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_KEYBOARD_DISCONNECT, IOCTL_INTERNAL_KEYBOARD_DISCONNECT control, IOCTL_INTERNAL_KEYBOARD_DISCONNECT control code [Human Input Devices], hid.ioctl_internal_keyboard_disconnect, kbdmou/IOCTL_INTERNAL_KEYBOARD_DISCONNECT, kfilref_fd52cb0d-fbdd-44fb-9c71-ec829387a88b.xml
-ms.topic: ioctl
 f1_keywords:
  - "kbdmou/IOCTL_INTERNAL_KEYBOARD_DISCONNECT"
 req.header: kbdmou.h

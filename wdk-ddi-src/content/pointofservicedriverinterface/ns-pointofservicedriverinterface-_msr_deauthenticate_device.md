@@ -6,8 +6,8 @@ old-location: pos\msr_deauthenticate_device.htm
 tech.root: pos
 ms.assetid: 7174a342-de02-4a3c-8bb9-9c86e7f4b5e1
 ms.date: 02/23/2018
+keywords: ["_MSR_DEAUTHENTICATE_DEVICE structure"]
 ms.keywords: "*PMSR_DEAUTHENTICATE_DEVICE, MSR_DEAUTHENTICATE_DEVICE, MSR_DEAUTHENTICATE_DEVICE structure, PMSR_DEAUTHENTICATE_DEVICE, PMSR_DEAUTHENTICATE_DEVICE structure pointer, _MSR_DEAUTHENTICATE_DEVICE, pointofservicedriverinterface/MSR_DEAUTHENTICATE_DEVICE, pointofservicedriverinterface/PMSR_DEAUTHENTICATE_DEVICE, pos.msr_deauthenticate_device"
-ms.topic: struct
 f1_keywords:
  - "pointofservicedriverinterface/MSR_DEAUTHENTICATE_DEVICE"
 req.header: pointofservicedriverinterface.h

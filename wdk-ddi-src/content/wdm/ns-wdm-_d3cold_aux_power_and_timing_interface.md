@@ -4,7 +4,7 @@ title: _D3COLD_AUX_POWER_AND_TIMING_INTERFACE (wdm.h)
 description: Allows device drivers to negotiate a higher auxiliary power for their PCI devices while in D3Cold state. 
 ms.assetid: a69dbe9e-ea7d-4b71-8fa8-eb92abb3447b
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3COLD_AUX_POWER_AND_TIMING_INTERFACE structure"]
 f1_keywords:
  - "wdm/_D3COLD_AUX_POWER_AND_TIMING_INTERFACE"
 ms.keywords: _D3COLD_AUX_POWER_AND_TIMING_INTERFACE, *PD3COLD_AUX_POWER_AND_TIMING_INTERFACE, D3COLD_AUX_POWER_AND_TIMING_INTERFACE, 
@@ -54,7 +54,7 @@ A pointer to interface-specific context information.
 A pointer to an [InterfaceReference](nc-wdm-pinterface_reference.md) routine that increments the interface's reference count. 
  
 ### -field InterfaceDereference
-A pointer to an [InterfaceDereference]nc-wdm-pinterface_dereference.md) routine that decrements the interface's reference count.
+A pointer to an [InterfaceDereference](nc-wdm-pinterface_dereference.md) routine that decrements the interface's reference count.
  
 ### -field RequestCorePowerRail
 A pointer to a [_D3COLD_REQUEST_CORE_POWER_RAIL_](nc-wdm-d3cold_request_core_power_rail.md) callback function that enables the function device object (FDO) to indicate whether the core power rail is needed.

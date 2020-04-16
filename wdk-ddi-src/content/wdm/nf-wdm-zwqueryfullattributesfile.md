@@ -6,8 +6,8 @@ old-location: kernel\zwqueryfullattributesfile.htm
 tech.root: kernel
 ms.assetid: 896ea6aa-54e8-4109-8597-58d8d2cd75ce
 ms.date: 04/30/2018
+keywords: ["ZwQueryFullAttributesFile function"]
 ms.keywords: NtQueryFullAttributesFile, ZwQueryFullAttributesFile, ZwQueryFullAttributesFile routine [Kernel-Mode Driver Architecture], k111_58eefadc-2aff-4252-82a6-6f0c9ab43a19.xml, kernel.zwqueryfullattributesfile, wdm/NtQueryFullAttributesFile, wdm/ZwQueryFullAttributesFile
-ms.topic: function
 f1_keywords:
  - "wdm/ZwQueryFullAttributesFile"
 req.header: wdm.h

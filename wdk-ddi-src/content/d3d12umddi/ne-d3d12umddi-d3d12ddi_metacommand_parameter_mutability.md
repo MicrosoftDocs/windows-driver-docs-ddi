@@ -4,7 +4,7 @@ title: D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY (d3d12umddi.h)
 description: Describes the mutability of the meta-command parameter.
 ms.assetid: e059a4e1-7f65-452a-83b8-4f8565ecb267
 ms.date: 10/19/2018
-ms.topic: enum
+keywords: ["D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY"
 ms.keywords: D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY, D3D12DDI_METACOMMAND_PARAMETER_MUTABILITY,

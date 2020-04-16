@@ -6,8 +6,8 @@ old-location: debugger\idebugsystemobjects3_getcurrentsystemserver.htm
 tech.root: debugger
 ms.assetid: 7956E4F6-7FB5-4349-81D2-4953108557D2
 ms.date: 05/03/2018
+keywords: ["IDebugSystemObjects3::GetCurrentSystemServer"]
 ms.keywords: GetCurrentSystemServer, GetCurrentSystemServer method [Windows Debugging], GetCurrentSystemServer method [Windows Debugging],IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentSystemServer method, IDebugSystemObjects3.GetCurrentSystemServer, IDebugSystemObjects3::GetCurrentSystemServer, dbgeng/IDebugSystemObjects3::GetCurrentSystemServer, debugger.idebugsystemobjects3_getcurrentsystemserver
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSystemObjects3.GetCurrentSystemServer"
 req.header: dbgeng.h

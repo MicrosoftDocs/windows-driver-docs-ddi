@@ -6,8 +6,8 @@ old-location: storage\sm_removelink_out.htm
 tech.root: storage
 ms.assetid: f3b82d62-8596-4bb9-b20b-39f232527d7a
 ms.date: 03/29/2018
+keywords: ["_SM_RemoveLink_OUT structure"]
 ms.keywords: "*PSM_RemoveLink_OUT, PSM_RemoveLink_OUT, PSM_RemoveLink_OUT structure pointer [Storage Devices], SM_RemoveLink_OUT, SM_RemoveLink_OUT structure [Storage Devices], _SM_RemoveLink_OUT, hbapiwmi/PSM_RemoveLink_OUT, hbapiwmi/SM_RemoveLink_OUT, storage.sm_removelink_out, structs-Fibre_5355f5b8-47ea-4c71-880d-08891533bf29.xml"
-ms.topic: struct
 f1_keywords:
  - "hbapiwmi/SM_RemoveLink_OUT"
 req.header: hbapiwmi.h

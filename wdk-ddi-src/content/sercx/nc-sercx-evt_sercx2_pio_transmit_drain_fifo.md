@@ -6,8 +6,8 @@ old-location: serports\evtsercx2piotransmitdrainfifo.htm
 tech.root: serports
 ms.assetid: A21E14DA-0B76-4DA2-B628-C3A4DE843FA9
 ms.date: 04/23/2018
+keywords: ["EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO callback function"]
 ms.keywords: 2/EvtSerCx2PioTransmitDrainFifo, EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO, EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO callback, EvtSerCx2PioTransmitDrainFifo, EvtSerCx2PioTransmitDrainFifo callback function [Serial Ports], serports.evtsercx2piotransmitdrainfifo
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2PioTransmitDrainFifo"
 req.header: sercx.h

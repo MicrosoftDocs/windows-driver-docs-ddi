@@ -6,8 +6,8 @@ old-location: storage\hwstorinterrupt.htm
 tech.root: storage
 ms.assetid: 3c61d947-3e05-4750-a50c-be9b2dc573f0
 ms.date: 03/29/2018
+keywords: ["HW_INTERRUPT callback function"]
 ms.keywords: HW_INTERRUPT, HwStorInterrupt, HwStorInterrupt routine [Storage Devices], storage.hwstorinterrupt, stormini_17f68641-1cfd-47b3-a52f-be98f96e693f.xml, storport/HwStorInterrupt
-ms.topic: callback
 f1_keywords:
  - "storport/HwStorInterrupt"
 req.header: storport.h

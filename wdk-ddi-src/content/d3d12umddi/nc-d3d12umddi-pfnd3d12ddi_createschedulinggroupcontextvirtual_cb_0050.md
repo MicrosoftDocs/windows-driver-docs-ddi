@@ -4,7 +4,7 @@ title: PFND3D12DDI_CREATESCHEDULINGGROUPCONTEXTVIRTUAL_CB_0050 (d3d12umddi.h)
 description: Creates a virtual context associated with a scheduling group.
 ms.assetid: 2f9548d8-0cde-42f4-9eee-ce1af049265b
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_CREATESCHEDULINGGROUPCONTEXTVIRTUAL_CB_0050 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

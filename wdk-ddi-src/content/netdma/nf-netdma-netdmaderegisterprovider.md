@@ -6,8 +6,8 @@ old-location: netvista\netdmaderegisterprovider.htm
 tech.root: netvista
 ms.assetid: 8832adbc-c2ab-4742-94a0-4e33d03eaaf1
 ms.date: 05/02/2018
+keywords: ["NetDmaDeregisterProvider function"]
 ms.keywords: NetDmaDeregisterProvider, NetDmaDeregisterProvider function [Network Drivers Starting with Windows Vista], netdma/NetDmaDeregisterProvider, netdma_ref_0fac8a7e-7721-4854-8d0e-6926243ff2ea.xml, netvista.netdmaderegisterprovider
-ms.topic: function
 f1_keywords:
  - "netdma/NetDmaDeregisterProvider"
 req.header: netdma.h

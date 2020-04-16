@@ -7,7 +7,7 @@ tech.root: storage
 ms.assetid: 0eb514dd-588f-41ee-bd30-5dad00c19141
 ms.author: windowsdriverdev
 ms.date: 08/23/2019
-ms.topic: struct
+keywords: ["DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT structure"]
 f1_keywords:
  - "ntddstor/DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT"
 ms.keywords: DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT, DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT, *PDEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT, 

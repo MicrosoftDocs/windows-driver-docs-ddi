@@ -6,8 +6,8 @@ old-location: storage\iscsi_redirectportalinfo.htm
 tech.root: storage
 ms.assetid: 90d9c5e9-4bdf-4c7a-b5ac-54e1f94818bf
 ms.date: 03/29/2018
+keywords: ["_ISCSI_RedirectPortalInfo structure"]
 ms.keywords: "*PISCSI_RedirectPortalInfo, ISCSI_RedirectPortalInfo, ISCSI_RedirectPortalInfo structure [Storage Devices], PISCSI_RedirectPortalInfo, PISCSI_RedirectPortalInfo structure pointer [Storage Devices], _ISCSI_RedirectPortalInfo, iscsimgt/ISCSI_RedirectPortalInfo, iscsimgt/PISCSI_RedirectPortalInfo, storage.iscsi_redirectportalinfo, structs-iSCSI_6b7dc6ac-b421-4454-aa8f-48f52c9b4350.xml"
-ms.topic: struct
 f1_keywords:
  - "iscsimgt/ISCSI_RedirectPortalInfo"
 req.header: iscsimgt.h

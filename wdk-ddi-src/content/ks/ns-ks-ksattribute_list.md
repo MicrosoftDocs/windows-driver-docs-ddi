@@ -6,8 +6,8 @@ old-location: stream\ksattribute_list.htm
 tech.root: stream
 ms.assetid: 4E533E77-9288-45DF-8C93-2A6EACADF9FF
 ms.date: 04/23/2018
+keywords: ["KSATTRIBUTE_LIST structure"]
 ms.keywords: "*PKSATTRIBUTE_LIST, KSATTRIBUTE_LIST, KSATTRIBUTE_LIST structure [Streaming Media Devices], PKSATTRIBUTE_LIST, PKSATTRIBUTE_LIST structure pointer [Streaming Media Devices], ks/KSATTRIBUTE_LIST, ks/PKSATTRIBUTE_LIST, stream.ksattribute_list"
-ms.topic: struct
 f1_keywords:
  - "ks/KSATTRIBUTE_LIST"
 req.header: ks.h

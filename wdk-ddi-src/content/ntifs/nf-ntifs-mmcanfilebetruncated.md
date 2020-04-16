@@ -6,8 +6,8 @@ old-location: ifsk\mmcanfilebetruncated.htm
 tech.root: ifsk
 ms.assetid: 219ecf09-54eb-4972-ae71-0eb3e7ea8ea9
 ms.date: 04/16/2018
+keywords: ["MmCanFileBeTruncated function"]
 ms.keywords: MmCanFileBeTruncated, MmCanFileBeTruncated routine [Installable File System Drivers], ifsk.mmcanfilebetruncated, mmref_7d6c86f9-4a26-4d2c-bf55-9352044e9339.xml, ntifs/MmCanFileBeTruncated
-ms.topic: function
 f1_keywords:
  - "ntifs/MmCanFileBeTruncated"
 req.header: ntifs.h

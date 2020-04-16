@@ -6,8 +6,8 @@ old-location: storage\storportinterlockedpopentryslist.htm
 tech.root: storage
 ms.assetid: 9DA0A057-1472-4B42-9149-A961F7D84B2E
 ms.date: 03/29/2018
+keywords: ["StorPortInterlockedPopEntrySList function"]
 ms.keywords: StorPortInterlockedPopEntrySList, StorPortInterlockedPopEntrySList routine [Storage Devices], storage.storportinterlockedpopentryslist, storport/StorPortInterlockedPopEntrySList
-ms.topic: function
 f1_keywords:
  - "storport/StorPortInterlockedPopEntrySList"
 req.header: storport.h

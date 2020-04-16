@@ -6,8 +6,8 @@ old-location: display\pfndestroycontextcb.htm
 tech.root: display
 ms.assetid: 6b65d75b-544b-4153-b821-d59d6f85673d
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_DESTROYCONTEXTCB callback function"]
 ms.keywords: D3Druntime_Functions_61661c25-9c5c-4ca1-8015-a32ed840fd0a.xml, PFND3DDDI_DESTROYCONTEXTCB, PFND3DDDI_DESTROYCONTEXTCB callback, d3dumddi/pfnDestroyContextCb, display.pfndestroycontextcb, pfnDestroyContextCb, pfnDestroyContextCb callback function [Display Devices]
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

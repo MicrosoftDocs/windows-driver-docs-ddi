@@ -4,7 +4,7 @@ title: PFND3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE (d3dkmthk.h)
 description: Implemented by the client driver to submit a wait on the hardware queue.
 ms.assetid: 0f4b3b58-85e3-420f-9e14-9eca73c391b5
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE"
 req.header: d3dkmthk.h

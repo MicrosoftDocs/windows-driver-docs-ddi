@@ -6,8 +6,8 @@ old-location: gpio\client_reconfigureinterrupt.htm
 tech.root: GPIO
 ms.assetid: 2F654D79-7DB6-45C4-8E6D-2EBAEF2DA7F5
 ms.date: 02/15/2018
+keywords: ["GPIO_CLIENT_RECONFIGURE_INTERRUPT callback function"]
 ms.keywords: CLIENT_ReconfigureInterrupt, CLIENT_ReconfigureInterrupt callback, CLIENT_ReconfigureInterrupt callback function [Parallel Ports], GPIO.client_reconfigureinterrupt, GPIO_CLIENT_RECONFIGURE_INTERRUPT, gpioclx/CLIENT_ReconfigureInterrupt
-ms.topic: callback
 f1_keywords:
  - "gpioclx/CLIENT_ReconfigureInterrupt"
 req.header: gpioclx.h

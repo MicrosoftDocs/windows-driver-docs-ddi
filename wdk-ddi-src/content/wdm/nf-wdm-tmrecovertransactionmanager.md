@@ -6,8 +6,8 @@ old-location: kernel\tmrecovertransactionmanager.htm
 tech.root: kernel
 ms.assetid: 67b18170-a17f-44fd-a5ab-12bccf2082fe
 ms.date: 04/30/2018
+keywords: ["TmRecoverTransactionManager function"]
 ms.keywords: TmRecoverTransactionManager, TmRecoverTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrecovertransactionmanager, ktm_ref_1917a36a-c7bd-4a00-b054-bb710b7c0e93.xml, wdm/TmRecoverTransactionManager
-ms.topic: function
 f1_keywords:
  - "wdm/TmRecoverTransactionManager"
 req.header: wdm.h

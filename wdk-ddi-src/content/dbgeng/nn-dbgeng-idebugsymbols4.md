@@ -6,8 +6,8 @@ old-location: debugger\idebugsymbols4.htm
 tech.root: debugger
 ms.assetid: BE2734B5-1E67-4E38-B4DF-0C353BFB1F0B
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols4 interface"]
 ms.keywords: IDebugSymbols4, IDebugSymbols4 interface [Windows Debugging], IDebugSymbols4 interface [Windows Debugging],described, dbgeng/IDebugSymbols4, debugger.idebugsymbols4
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugSymbols4"
 req.header: dbgeng.h

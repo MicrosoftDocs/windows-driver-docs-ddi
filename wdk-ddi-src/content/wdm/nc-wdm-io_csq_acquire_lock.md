@@ -6,8 +6,8 @@ old-location: kernel\csqacquirelock.htm
 tech.root: kernel
 ms.assetid: 8981e2f9-b456-48de-b31c-25a6884bcf12
 ms.date: 04/30/2018
+keywords: ["IO_CSQ_ACQUIRE_LOCK callback function"]
 ms.keywords: CsqAcquireLock, CsqAcquireLock routine [Kernel-Mode Driver Architecture], DrvrRtns_02339dc6-f9f2-47b0-a0c9-df36f862b5d6.xml, IO_CSQ_ACQUIRE_LOCK, kernel.csqacquirelock, wdm/CsqAcquireLock
-ms.topic: callback
 f1_keywords:
  - "wdm/CsqAcquireLock"
 req.header: wdm.h

@@ -6,8 +6,8 @@ old-location: wdf\wdf_device_power_capabilities.htm
 tech.root: wdf
 ms.assetid: 56bb271f-d69c-4523-87cb-4922b405f808
 ms.date: 02/26/2018
+keywords: ["_WDF_DEVICE_POWER_CAPABILITIES structure"]
 ms.keywords: "*PWDF_DEVICE_POWER_CAPABILITIES, DFDeviceObjectGeneralRef_6678d7f5-5de1-473f-a2db-777405225add.xml, PWDF_DEVICE_POWER_CAPABILITIES, PWDF_DEVICE_POWER_CAPABILITIES structure pointer, WDF_DEVICE_POWER_CAPABILITIES, WDF_DEVICE_POWER_CAPABILITIES structure, _WDF_DEVICE_POWER_CAPABILITIES, kmdf.wdf_device_power_capabilities, wdf.wdf_device_power_capabilities, wdfdevice/PWDF_DEVICE_POWER_CAPABILITIES, wdfdevice/WDF_DEVICE_POWER_CAPABILITIES"
-ms.topic: struct
 f1_keywords:
  - "wdfdevice/WDF_DEVICE_POWER_CAPABILITIES"
 req.header: wdfdevice.h

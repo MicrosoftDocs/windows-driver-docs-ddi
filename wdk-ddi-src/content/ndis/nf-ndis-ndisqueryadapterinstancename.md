@@ -6,8 +6,8 @@ old-location: netvista\ndisqueryadapterinstancename.htm
 tech.root: netvista
 ms.assetid: bd6fade6-9b9b-4b38-8e53-c70c40c1165f
 ms.date: 05/02/2018
+keywords: ["NdisQueryAdapterInstanceName function"]
 ms.keywords: NdisQueryAdapterInstanceName, NdisQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], ndis/NdisQueryAdapterInstanceName, netvista.ndisqueryadapterinstancename, protocol_ndis_functions_ref_e9e2070d-3b82-43a6-8964-92296de4c896.xml
-ms.topic: function
 f1_keywords:
  - "ndis/NdisQueryAdapterInstanceName"
 req.header: ndis.h

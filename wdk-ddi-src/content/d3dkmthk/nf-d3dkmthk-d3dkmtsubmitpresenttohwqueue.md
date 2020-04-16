@@ -4,7 +4,7 @@ title: D3DKMTSubmitPresentToHwQueue function (d3dkmthk.h)
 description: SubmitPresentToHwQueue submits a Blt Present operation to a hardware queue.
 ms.assetid: d43c7da0-ce52-408c-8b74-5941ecde7898
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["D3DKMTSubmitPresentToHwQueue function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTSubmitPresentToHwQueue"
 ms.keywords: D3DKMTSubmitPresentToHwQueue

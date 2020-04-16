@@ -6,8 +6,8 @@ old-location: storage\hwstorworkitem.htm
 tech.root: storage
 ms.assetid: CBBB1350-66BE-4F74-A0CE-0400245352F3
 ms.date: 03/29/2018
+keywords: ["HW_WORKITEM callback function"]
 ms.keywords: HW_WORKITEM, HwStorWorkItem, HwStorWorkItem routine [Storage Devices], storage.hwstorworkitem, storport/HwStorWorkItem
-ms.topic: callback
 f1_keywords:
  - "storport/HwStorWorkItem"
 req.header: storport.h

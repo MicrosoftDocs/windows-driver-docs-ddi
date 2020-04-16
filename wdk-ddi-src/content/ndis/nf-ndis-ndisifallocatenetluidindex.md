@@ -6,8 +6,8 @@ old-location: netvista\ndisifallocatenetluidindex.htm
 tech.root: netvista
 ms.assetid: bc62da04-242a-4d9a-8a85-2342a1b3e628
 ms.date: 05/02/2018
+keywords: ["NdisIfAllocateNetLuidIndex function"]
 ms.keywords: NdisIfAllocateNetLuidIndex, NdisIfAllocateNetLuidIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfAllocateNetLuidIndex, net_if_functions_ref_3ffcc5c8-7475-475d-8732-dc59ee632285.xml, netvista.ndisifallocatenetluidindex
-ms.topic: function
 f1_keywords:
  - "ndis/NdisIfAllocateNetLuidIndex"
 req.header: ndis.h

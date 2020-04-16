@@ -6,8 +6,8 @@ old-location: display\startmiracastsession.htm
 tech.root: display
 ms.assetid: 2778d9d0-7f97-416f-a5ae-3754b17e8a29
 ms.date: 05/10/2018
+keywords: ["PFN_START_MIRACAST_SESSION callback function"]
 ms.keywords: PFN_START_MIRACAST_SESSION, PFN_START_MIRACAST_SESSION callback, StartMiracastSession, StartMiracastSession callback function [Display Devices], display.startmiracastsession, netdispumdddi/StartMiracastSession
-ms.topic: callback
 f1_keywords:
  - "netdispumdddi/StartMiracastSession"
 req.header: netdispumdddi.h

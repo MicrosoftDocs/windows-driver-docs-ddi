@@ -6,8 +6,8 @@ old-location: display\d3dddicb_updateoverlay.htm
 tech.root: display
 ms.assetid: efa54d23-99bc-49ea-b8a3-7ea5b00e36d8
 ms.date: 05/10/2018
+keywords: ["_D3DDDICB_UPDATEOVERLAY structure"]
 ms.keywords: D3DDDICB_UPDATEOVERLAY, D3DDDICB_UPDATEOVERLAY structure [Display Devices], D3D_param_Structs_b9e39db9-44ba-45d5-9500-dd9d5d8cc4bb.xml, _D3DDDICB_UPDATEOVERLAY, d3dumddi/D3DDDICB_UPDATEOVERLAY, display.d3dddicb_updateoverlay
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDICB_UPDATEOVERLAY"
 req.header: d3dumddi.h

@@ -6,8 +6,8 @@ old-location: display\settexturestagestate.htm
 tech.root: display
 ms.assetid: 56b9d7bf-1036-4ad1-a0fb-4d7154b50b27
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_SETTEXTURESTAGESTATE callback function"]
 ms.keywords: PFND3DDDI_SETTEXTURESTAGESTATE, PFND3DDDI_SETTEXTURESTAGESTATE callback, SetTextureStageState, SetTextureStageState callback function [Display Devices], UserModeDisplayDriver_Functions_b84233ed-861a-4d59-a1b0-5b475f5019d5.xml, d3dumddi/SetTextureStageState, display.settexturestagestate
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

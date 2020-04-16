@@ -6,8 +6,8 @@ old-location: display\miracast_datarate_stats.htm
 tech.root: display
 ms.assetid: d4249b81-0ee7-49dd-9886-cdc5842f02d8
 ms.date: 05/10/2018
+keywords: ["MIRACAST_DATARATE_STATS structure"]
 ms.keywords: MIRACAST_DATARATE_STATS, MIRACAST_DATARATE_STATS structure [Display Devices], display.miracast_datarate_stats, netdispumdddi/MIRACAST_DATARATE_STATS
-ms.topic: struct
 f1_keywords:
  - "netdispumdddi/MIRACAST_DATARATE_STATS"
 req.header: netdispumdddi.h

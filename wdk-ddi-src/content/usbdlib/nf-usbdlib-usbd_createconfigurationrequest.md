@@ -6,8 +6,8 @@ old-location: buses\usbd_createconfigurationrequest.htm
 tech.root: usbref
 ms.assetid: e1f397f6-2f33-4352-9bbc-2b2a49dcd067
 ms.date: 05/07/2018
+keywords: ["USBD_CreateConfigurationRequest function"]
 ms.keywords: USBD_CreateConfigurationRequest, USBD_CreateConfigurationRequest routine [Buses], buses.usbd_createconfigurationrequest, usbdlib/USBD_CreateConfigurationRequest, usbfunc_d2701cb6-8159-48e0-b668-bb3b02226a7d.xml
-ms.topic: function
 f1_keywords:
  - "usbdlib/USBD_CreateConfigurationRequest"
 req.header: usbdlib.h

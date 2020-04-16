@@ -6,8 +6,8 @@ old-location: wdf\iwdfdevice3_writetohardware.htm
 tech.root: wdf
 ms.assetid: 55FBE72C-E74E-4116-9602-6D491592350F
 ms.date: 02/26/2018
+keywords: ["IWDFDevice3::WriteToHardware"]
 ms.keywords: IWDFDevice3 interface,WriteToHardware method, IWDFDevice3.WriteToHardware, IWDFDevice3::WriteToHardware, WriteToHardware, WriteToHardware method, WriteToHardware method,IWDFDevice3 interface, umdf.iwdfdevice3_writetohardware, wdf.iwdfdevice3_writetohardware, wudfddi/IWDFDevice3::WriteToHardware
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFDevice3.WriteToHardware"
 req.header: wudfddi.h

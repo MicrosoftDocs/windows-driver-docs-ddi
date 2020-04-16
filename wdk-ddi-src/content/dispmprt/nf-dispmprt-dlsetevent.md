@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 7c8103ff-2ba6-43be-b9eb-595e510cad84
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: function
+keywords: ["DlSetEvent function"]
 f1_keywords:
  - "dispmprt/DlSetEvent"
 ms.keywords: DlSetEvent

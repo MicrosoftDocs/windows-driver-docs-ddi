@@ -6,8 +6,8 @@ old-location: storage\feature_data_dvd_cprm.htm
 tech.root: storage
 ms.assetid: 060c1e9a-14d3-4f9b-b898-d8042f5efd7e
 ms.date: 03/29/2018
+keywords: ["_FEATURE_DATA_DVD_CPRM structure"]
 ms.keywords: "*PFEATURE_DATA_DVD_CPRM, FEATURE_DATA_DVD_CPRM, FEATURE_DATA_DVD_CPRM structure [Storage Devices], PFEATURE_DATA_DVD_CPRM, PFEATURE_DATA_DVD_CPRM structure pointer [Storage Devices], _FEATURE_DATA_DVD_CPRM, ntddmmc/FEATURE_DATA_DVD_CPRM, ntddmmc/PFEATURE_DATA_DVD_CPRM, storage.feature_data_dvd_cprm, structs-CD-ROM_376d4f99-5d92-48ad-b126-d1f6858e7fac.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_DVD_CPRM"
 req.header: ntddmmc.h

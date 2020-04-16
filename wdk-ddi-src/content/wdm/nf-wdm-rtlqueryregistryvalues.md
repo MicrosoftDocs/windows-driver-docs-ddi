@@ -6,8 +6,8 @@ old-location: kernel\rtlqueryregistryvalues.htm
 tech.root: kernel
 ms.assetid: 6c6d0664-0c00-461b-bcac-13070511430c
 ms.date: 04/30/2018
+keywords: ["RtlQueryRegistryValues function"]
 ms.keywords: RtlQueryRegistryValues, RtlQueryRegistryValues routine [Kernel-Mode Driver Architecture], k109_5a8cb907-8c49-4a88-9494-ff137cf6507d.xml, kernel.rtlqueryregistryvalues, wdm/RtlQueryRegistryValues
-ms.topic: function
 f1_keywords:
  - "wdm/RtlQueryRegistryValues"
 req.header: wdm.h

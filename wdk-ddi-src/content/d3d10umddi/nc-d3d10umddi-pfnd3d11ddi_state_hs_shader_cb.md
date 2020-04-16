@@ -5,8 +5,8 @@ description: The pfnStateHsShaderCb function causes the Microsoft Direct3D 11 ru
 old-location: display\pfnstatehsshadercb.htm
 ms.assetid: 74b243a2-722b-4eec-b382-936a6f2f990e
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_STATE_HS_SHADER_CB callback function"]
 ms.keywords: PFND3D11DDI_STATE_HS_SHADER_CB, PFND3D11DDI_STATE_HS_SHADER_CB callback, d3d10umddi/pfnStateHsShaderCb, d3d11state_functions_b16162bf-d379-49de-bc4a-85d7df7e95bf.xml, display.pfnstatehsshadercb, pfnStateHsShaderCb, pfnStateHsShaderCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateHsShaderCb"
 req.header: d3d10umddi.h

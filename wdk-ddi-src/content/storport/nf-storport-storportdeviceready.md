@@ -6,8 +6,8 @@ old-location: storage\storportdeviceready.htm
 tech.root: storage
 ms.assetid: 6dd3abdb-9037-4cf5-abe7-7776dcf67bd5
 ms.date: 03/29/2018
+keywords: ["StorPortDeviceReady function"]
 ms.keywords: StorPortDeviceReady, StorPortDeviceReady routine [Storage Devices], storage.storportdeviceready, storport/StorPortDeviceReady, storprt_18a6f185-17dd-446c-9bbe-3937e1003a6b.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortDeviceReady"
 req.header: storport.h

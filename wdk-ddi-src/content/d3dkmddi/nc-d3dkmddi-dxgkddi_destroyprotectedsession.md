@@ -5,8 +5,8 @@ description: Used to destroy a protected session.
 old-location: display\dxgkddi_destroyprotectedsession.htm
 ms.assetid: 42D4064A-1697-4772-8450-6D217C526347
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_DESTROYPROTECTEDSESSION callback function"]
 ms.keywords: DXGKDDI_DESTROYPROTECTEDSESSION, DXGKDDI_DESTROYPROTECTEDSESSION callback, DXGKDDI_DESTROYPROTECTEDSESSION callback function [Display Devices], d3dkmddi/DXGKDDI_DESTROYPROTECTEDSESSION, display.dxgkddi_destroyprotectedsession
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

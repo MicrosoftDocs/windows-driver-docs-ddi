@@ -6,8 +6,8 @@ old-location: ifsk\rxlowiogetbufferaddress.htm
 tech.root: ifsk
 ms.assetid: a4d78135-38bc-4a34-98ce-d2712829124a
 ms.date: 04/16/2018
+keywords: ["RxLowIoGetBufferAddress function"]
 ms.keywords: RxLowIoGetBufferAddress, RxLowIoGetBufferAddress function [Installable File System Drivers], ifsk.rxlowiogetbufferaddress, lowio/RxLowIoGetBufferAddress, rxref_b45afb50-cf03-4450-9e96-3d8f08392eb6.xml
-ms.topic: function
 f1_keywords:
  - "lowio/RxLowIoGetBufferAddress"
 req.header: lowio.h
@@ -44,68 +44,34 @@ req.typenames:
 
 # RxLowIoGetBufferAddress function
 
-
 ## -description
 
-
-<b>RxLowIoGetBufferAddress</b> returns the buffer corresponding to the MDL from LowIoContext structure of an RX_CONTEXT structure.
-
+**RxLowIoGetBufferAddress** returns the buffer corresponding to the MDL from LowIoContext structure of an RX_CONTEXT structure.
 
 ## -parameters
-
-
-
 
 ### -param RxContext [in]
 
 A pointer to the RX_CONTEXT structure for this request.
 
-
 ## -returns
 
-
-
-<b>RxLowIoGetBufferAddress </b>returns a mapped address pointer on success or a <b>NULL</b> on failure. 
-
-
-
+**RxLowIoGetBufferAddress **returns a mapped address pointer on success or a **NULL** on failure.
 
 ## -remarks
 
+**RxLowIoGetBufferAddress** checks that the **ParamsFor.ReadWrite.ByteCount** member of the **LowIoContext** member of the *RxContext* variable is greater than zero and returns a **NULL** pointer if this is not the case.
 
-
-<b>RxLowIoGetBufferAddress</b> checks that the <b>ParamsFor.ReadWrite.ByteCount</b> member of the <b>LowIoContext</b> member of the <i>RxContext</i> variable is greater than zero and returns a <b>NULL</b> pointer if this is not the case. 
-
-<b>RxLowIoGetBufferAddress</b> causes the system to ASSERT on checked builds if the <b>ParamsFor.ReadWrite.Buffer</b> member of the LowIoContext is <b>NULL</b>. 
-
-<b>RxLowIoGetBufferAddress</b> calls <b>MmGetSystemAddressForMdlSafe</b> to retrieve the mapped address.
-
-
-
+**RxLowIoGetBufferAddress** calls **MmGetSystemAddressForMdlSafe** to retrieve the mapped address.
 
 ## -see-also
 
+[MmGetSystemAddressForMdlSafe](https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer)
 
+[RX_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/rxcontx/ns-rxcontx-_rx_context)
 
+[RxLowIoCompletion](https://docs.microsoft.com/windows-hardware/drivers/ddi/lowio/nf-lowio-rxlowiocompletion)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetSystemAddressForMdlSafe</a>
+[RxMapSystemBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxmapsystembuffer)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxcontx/ns-rxcontx-_rx_context">RX_CONTEXT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/lowio/nf-lowio-rxlowiocompletion">RxLowIoCompletion</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxmapsystembuffer">RxMapSystemBuffer</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/rxnewmapuserbuffer">RxNewMapUserBuffer</a>
- 
-
- 
-
+[RxNewMapUserBuffer](https://docs.microsoft.com/windows-hardware/drivers/ifs/rxnewmapuserbuffer)

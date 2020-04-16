@@ -6,8 +6,8 @@ old-location: storage\storportinterlockedflushslist.htm
 tech.root: storage
 ms.assetid: C686ABA7-BC44-45CE-A35B-63E76961A032
 ms.date: 03/29/2018
+keywords: ["StorPortInterlockedFlushSList function"]
 ms.keywords: StorPortInterlockedFlushSList, StorPortInterlockedFlushSList routine [Storage Devices], storage.storportinterlockedflushslist, storport/StorPortInterlockedFlushSList
-ms.topic: function
 f1_keywords:
  - "storport/StorPortInterlockedFlushSList"
 req.header: storport.h

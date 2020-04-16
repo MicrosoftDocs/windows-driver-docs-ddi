@@ -6,8 +6,8 @@ old-location: debugger\getcurrentsystemid.htm
 tech.root: debugger
 ms.assetid: 2ff5091b-7cf8-4972-b87b-b18d25bb23e9
 ms.date: 05/03/2018
+keywords: ["IDebugSystemObjects4::GetCurrentSystemId"]
 ms.keywords: GetCurrentSystemId, GetCurrentSystemId method [Windows Debugging], GetCurrentSystemId method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentSystemId method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentSystemId method, IDebugSystemObjects3::GetCurrentSystemId, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentSystemId method, IDebugSystemObjects4.GetCurrentSystemId, IDebugSystemObjects4::GetCurrentSystemId, IDebugSystemObjects_02c8ff30-b552-465a-9be3-4e0526e1d6e1.xml, dbgeng/IDebugSystemObjects3::GetCurrentSystemId, dbgeng/IDebugSystemObjects4::GetCurrentSystemId, debugger.getcurrentsystemid
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSystemObjects3.GetCurrentSystemId"
 req.header: dbgeng.h

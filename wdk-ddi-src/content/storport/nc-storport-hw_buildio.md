@@ -6,8 +6,8 @@ old-location: storage\hwstorbuildio.htm
 tech.root: storage
 ms.assetid: ebbb8289-5996-4d99-98b6-e95fd9dc7ec9
 ms.date: 03/29/2018
+keywords: ["HW_BUILDIO callback function"]
 ms.keywords: HW_BUILDIO, HwStorBuildIo, HwStorBuildIo routine [Storage Devices], storage.hwstorbuildio, stormini_3411fed2-32e6-4a3a-a9c3-0bbe0bb514ca.xml, storport/HwStorBuildIo
-ms.topic: callback
 f1_keywords:
  - "storport/HwStorBuildIo"
 req.header: storport.h

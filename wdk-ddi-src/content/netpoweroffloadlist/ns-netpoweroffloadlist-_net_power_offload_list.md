@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: a8cc5703-68a3-4adf-97b5-ec3271c1fdc3
 ms.author: windowsdriverdev
 ms.date: 10/03/2019
-ms.topic: struct
+keywords: ["NET_POWER_OFFLOAD_LIST structure"]
 f1_keywords:
  - "netpoweroffloadlist/NET_POWER_OFFLOAD_LIST"
 ms.keywords: NET_POWER_OFFLOAD_LIST, NET_POWER_OFFLOAD_LIST, 

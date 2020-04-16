@@ -6,8 +6,8 @@ old-location: gnss\gnss_ni_request_type.htm
 tech.root: gnss
 ms.assetid: 79AFC7D8-5A51-49CC-8ADA-7D21C6859254
 ms.date: 02/15/2018
+keywords: ["GNSS_NI_REQUEST_TYPE enumeration"]
 ms.keywords: GNSS_NI_REQUEST_TYPE, GNSS_NI_REQUEST_TYPE enumeration [Sensor Devices], GNSS_NI_Request_AreaTrigger, GNSS_NI_Request_SingleShot, gnss.gnss_ni_request_type, gnssdriver/GNSS_NI_REQUEST_TYPE, gnssdriver/GNSS_NI_Request_AreaTrigger, gnssdriver/GNSS_NI_Request_SingleShot
-ms.topic: enum
 f1_keywords:
  - "gnssdriver/GNSS_NI_REQUEST_TYPE"
 req.header: gnssdriver.h

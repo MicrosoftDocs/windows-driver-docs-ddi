@@ -6,8 +6,8 @@ old-location: display\iddcx_path_flags.htm
 tech.root: display
 ms.assetid: f7a9b20a-753c-487d-a2d5-3e1c08317519
 ms.date: 05/10/2018
+keywords: ["IDDCX_PATH_FLAGS enumeration"]
 ms.keywords: IDDCX_PATH_FLAGS, IDDCX_PATH_FLAGS enumeration [Display Devices], IDDCX_PATH_FLAGS_ACTIVE, IDDCX_PATH_FLAGS_CHANGED, IDDCX_PATH_FLAGS_NONE, display.iddcx_path_flags, iddcx/IDDCX_PATH_FLAGS, iddcx/IDDCX_PATH_FLAGS_ACTIVE, iddcx/IDDCX_PATH_FLAGS_CHANGED, iddcx/IDDCX_PATH_FLAGS_NONE
-ms.topic: enum
 f1_keywords:
  - "iddcx/IDDCX_PATH_FLAGS"
 req.header: iddcx.h

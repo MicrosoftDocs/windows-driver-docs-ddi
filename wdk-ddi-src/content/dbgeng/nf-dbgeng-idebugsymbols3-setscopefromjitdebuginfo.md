@@ -6,8 +6,8 @@ old-location: debugger\idebugsymbols3_setscopefromjitdebuginfo.htm
 tech.root: debugger
 ms.assetid: 75417373-AA1B-4297-863A-00EA97069573
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::SetScopeFromJitDebugInfo"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetScopeFromJitDebugInfo method, IDebugSymbols3.SetScopeFromJitDebugInfo, IDebugSymbols3::SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo method [Windows Debugging], SetScopeFromJitDebugInfo method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetScopeFromJitDebugInfo, debugger.idebugsymbols3_setscopefromjitdebuginfo
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols3.SetScopeFromJitDebugInfo"
 req.header: dbgeng.h

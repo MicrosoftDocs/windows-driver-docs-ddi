@@ -4,7 +4,7 @@ title: EntropyRegisterCallback function (systemrng.h)
 description: 
 ms.assetid: 3bb67a7b-ea22-4df5-8008-469786d3ef82
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["EntropyRegisterCallback function"]
 f1_keywords:
  - "systemrng/EntropyRegisterCallback"
 ms.keywords: EntropyRegisterCallback

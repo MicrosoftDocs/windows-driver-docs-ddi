@@ -4,7 +4,7 @@ title: IDynamicConceptProviderConcept::NotifyParent (dbgmodel.h)
 description: The NotifyParent call is used by the core data model to inform the dynamic provider of the single parent model which is created to allow for bridging the "multiple parent models" paradigm.
 ms.assetid: 200f5925-57bf-4b7d-b187-39b5daab0992
 ms.date: 09/19/2018
-ms.topic: method
+keywords: ["IDynamicConceptProviderConcept::NotifyParent"]
 f1_keywords:
  - "dbgmodel/IDynamicConceptProviderConcept.NotifyParent"
 ms.keywords: IDynamicConceptProviderConcept::NotifyParent, NotifyParent, IDynamicConceptProviderConcept.NotifyParent, IDynamicConceptProviderConcept::NotifyParent, IDynamicConceptProviderConcept.NotifyParent

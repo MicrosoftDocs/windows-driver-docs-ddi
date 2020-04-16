@@ -6,8 +6,8 @@ old-location: buses\_ucxcontrollersetfailed.htm
 tech.root: usbref
 ms.assetid: 76B7F24C-5376-4DE1-86E7-D2D688B86BCF
 ms.date: 05/07/2018
+keywords: ["UcxControllerSetFailed function"]
 ms.keywords: UcxControllerSetFailed, UcxControllerSetFailed method [Buses], buses._ucxcontrollersetfailed, ucxcontroller/UcxControllerSetFailed
-ms.topic: function
 f1_keywords:
  - "ucxcontroller/UcxControllerSetFailed"
 req.header: ucxcontroller.h

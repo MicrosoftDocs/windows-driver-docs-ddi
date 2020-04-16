@@ -6,8 +6,8 @@ old-location: parports\parallel_interrupt_information.htm
 tech.root: parports
 ms.assetid: aa4baa12-c349-4961-9694-b8fb3cd8dc50
 ms.date: 02/15/2018
+keywords: ["_PARALLEL_INTERRUPT_INFORMATION structure"]
 ms.keywords: "*PPARALLEL_INTERRUPT_INFORMATION, PARALLEL_INTERRUPT_INFORMATION, PARALLEL_INTERRUPT_INFORMATION structure [Parallel Ports], PPARALLEL_INTERRUPT_INFORMATION, PPARALLEL_INTERRUPT_INFORMATION structure pointer [Parallel Ports], _PARALLEL_INTERRUPT_INFORMATION, cisspd_3912e608-5549-4b0a-a48d-fdc34af7bc04.xml, parallel/PARALLEL_INTERRUPT_INFORMATION, parallel/PPARALLEL_INTERRUPT_INFORMATION, parports.parallel_interrupt_information"
-ms.topic: struct
 f1_keywords:
  - "parallel/PARALLEL_INTERRUPT_INFORMATION"
 req.header: parallel.h

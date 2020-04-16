@@ -6,8 +6,8 @@ old-location: hid\hidd_setnuminputbuffers.htm
 tech.root: hid
 ms.assetid: da2d2b10-c02a-4786-9658-957271e9ba58
 ms.date: 06/19/2019
+keywords: ["HidD_SetNumInputBuffers function"]
 ms.keywords: HidD_SetNumInputBuffers, HidD_SetNumInputBuffers routine [Human Input Devices], hid.hidd_setnuminputbuffers, hidfunc_d091d988-7b9d-44ef-ae48-e00af69c12f5.xml, hidsdi/HidD_SetNumInputBuffers
-ms.topic: function
 f1_keywords:
  - "hidsdi/HidD_SetNumInputBuffers"
 req.header: hidsdi.h

@@ -6,8 +6,8 @@ old-location: buses\evt_ufx_device_default_endpoint_add.htm
 tech.root: usbref
 ms.assetid: 37AF38A2-F761-4DBC-A7E7-FC4BDA544A31
 ms.date: 05/07/2018
+keywords: ["EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback function"]
 ms.keywords: EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD, EVT_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback, EvtUfxDeviceDefaultEndpointAdd, EvtUfxDeviceDefaultEndpointAdd callback function [Buses], PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD, PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ufx_device_default_endpoint_add, ufxclient/EvtUfxDeviceDefaultEndpointAdd
-ms.topic: callback
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_DEFAULT_ENDPOINT_ADD"
 req.header: ufxclient.h

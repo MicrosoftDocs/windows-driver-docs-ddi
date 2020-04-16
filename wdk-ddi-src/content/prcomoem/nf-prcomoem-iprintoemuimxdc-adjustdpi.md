@@ -6,8 +6,8 @@ old-location: print\iprintoemuimxdc_adjustdpi.htm
 tech.root: print
 ms.assetid: d725d917-08fb-4e11-824c-795e35782a06
 ms.date: 04/20/2018
+keywords: ["IPrintOemUIMXDC::AdjustDPI"]
 ms.keywords: AdjustDPI, AdjustDPI method [Print Devices], AdjustDPI method [Print Devices],IPrintOemUIMXDC interface, IPrintOemUIMXDC interface [Print Devices],AdjustDPI method, IPrintOemUIMXDC.AdjustDPI, IPrintOemUIMXDC::AdjustDPI, prcomoem/IPrintOemUIMXDC::AdjustDPI, print.iprintoemuimxdc_adjustdpi, print_unidrv-pscript_ui_cd41d40c-f5a8-467f-be0d-00453886ebd1.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemUIMXDC.AdjustDPI"
 req.header: prcomoem.h

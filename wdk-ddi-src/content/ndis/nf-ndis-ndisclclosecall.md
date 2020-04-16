@@ -6,8 +6,8 @@ old-location: netvista\ndisclclosecall.htm
 tech.root: netvista
 ms.assetid: 4d1a7451-8c0f-4df8-85c5-14aaaa9afd94
 ms.date: 05/02/2018
+keywords: ["NdisClCloseCall function"]
 ms.keywords: NdisClCloseCall, NdisClCloseCall function [Network Drivers Starting with Windows Vista], condis_client_ref_6d047338-0482-4d26-8dfa-4c07502fb8a2.xml, ndis/NdisClCloseCall, netvista.ndisclclosecall
-ms.topic: function
 f1_keywords:
  - "ndis/NdisClCloseCall"
 req.header: ndis.h

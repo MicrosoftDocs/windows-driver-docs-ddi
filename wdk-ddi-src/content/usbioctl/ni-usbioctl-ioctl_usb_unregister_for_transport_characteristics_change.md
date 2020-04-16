@@ -6,8 +6,8 @@ old-location: buses\ioctl_usb_unregister_for_transport_characteristics_change.ht
 tech.root: usbref
 ms.assetid: A6D17761-4E5F-42FC-AB40-C2BCE7769243
 ms.date: 05/07/2018
+keywords: ["IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE IOCTL"]
 ms.keywords: IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE, IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE control, IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE control code [Buses], buses.ioctl_usb_unregister_for_transport_characteristics_change, usbioctl/IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE
-ms.topic: ioctl
 f1_keywords:
  - "usbioctl/IOCTL_USB_UNREGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE"
 req.header: usbioctl.h

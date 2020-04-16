@@ -4,7 +4,7 @@ title: _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3 (d3dkmthk.h)
 description: Check for multiplane overlay support.
 ms.assetid: 864fba9e-5cdf-440f-8177-33beed94030e
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3 structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3"
 ms.keywords: _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3, D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3, 

@@ -6,8 +6,8 @@ old-location: wdf\wdf_memory_descriptor_init_buffer.htm
 tech.root: wdf
 ms.assetid: 16e1b0cb-8543-4700-8f8c-d7301c6de622
 ms.date: 02/26/2018
+keywords: ["WDF_MEMORY_DESCRIPTOR_INIT_BUFFER function"]
 ms.keywords: DFMemoryObjectRef_706a9ee6-c0f1-4cb4-a887-cbb535d94d17.xml, WDF_MEMORY_DESCRIPTOR_INIT_BUFFER, WDF_MEMORY_DESCRIPTOR_INIT_BUFFER function, kmdf.wdf_memory_descriptor_init_buffer, wdf.wdf_memory_descriptor_init_buffer, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_BUFFER
-ms.topic: function
 f1_keywords:
  - "wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_BUFFER"
 req.header: wdfmemory.h

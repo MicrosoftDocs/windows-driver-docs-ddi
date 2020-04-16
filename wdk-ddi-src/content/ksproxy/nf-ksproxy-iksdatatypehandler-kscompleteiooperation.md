@@ -6,8 +6,8 @@ old-location: stream\iksdatatypehandler_kscompleteiooperation.htm
 tech.root: stream
 ms.assetid: 46a58007-16bf-422b-8408-30a7b65dbee6
 ms.date: 04/23/2018
+keywords: ["IKsDataTypeHandler::KsCompleteIoOperation"]
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsCompleteIoOperation method, IKsDataTypeHandler.KsCompleteIoOperation, IKsDataTypeHandler::KsCompleteIoOperation, KsCompleteIoOperation, KsCompleteIoOperation method [Streaming Media Devices], KsCompleteIoOperation method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsCompleteIoOperation, ksproxy_04136093-03d0-4490-bf5c-5e83bddc23c7.xml, stream.iksdatatypehandler_kscompleteiooperation
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsDataTypeHandler.KsCompleteIoOperation"
 req.header: ksproxy.h

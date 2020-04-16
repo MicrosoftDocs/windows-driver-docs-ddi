@@ -6,8 +6,8 @@ old-location: kernel\flushadapterbuffers.htm
 tech.root: kernel
 ms.assetid: cd6cf9af-c600-465c-b8f3-ca0f972780a5
 ms.date: 04/30/2018
+keywords: ["PFLUSH_ADAPTER_BUFFERS callback function"]
 ms.keywords: FlushAdapterBuffers, FlushAdapterBuffers callback function [Kernel-Mode Driver Architecture], PFLUSH_ADAPTER_BUFFERS, PFLUSH_ADAPTER_BUFFERS callback, kdma_97ac2c04-7f7e-495d-b846-d4f0ea27bdac.xml, kernel.flushadapterbuffers, wdm/FlushAdapterBuffers
-ms.topic: callback
 f1_keywords:
  - "wdm/FlushAdapterBuffers"
 req.header: wdm.h

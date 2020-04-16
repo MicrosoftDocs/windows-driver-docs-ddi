@@ -6,8 +6,8 @@ old-location: display\d3dddicb_waitforsynchronizationobjectfromcpu.htm
 tech.root: display
 ms.assetid: 0F5BEDBF-6871-4343-88D1-85E7620171EF
 ms.date: 05/10/2018
+keywords: ["D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure"]
 ms.keywords: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], WaitAny, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dddicb_waitforsynchronizationobjectfromcpu
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMCPU"
 req.header: d3dumddi.h

@@ -6,8 +6,8 @@ old-location: dtf\iwdtfdriversetupsystemaction2.htm
 tech.root: dtf
 ms.assetid: d825c8de-7565-494a-ae49-be404493945e
 ms.date: 04/04/2018
+keywords: ["IWDTFDriverSetupSystemAction2 interface"]
 ms.keywords: IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFDriverSetupSystemAction2, dtf.iwdtfdriversetupsystemaction2, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2
-ms.topic: interface
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2"
 req.header: wdtfdriversetupsystemaction.h

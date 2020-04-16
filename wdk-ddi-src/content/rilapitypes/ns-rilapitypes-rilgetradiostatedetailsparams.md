@@ -6,8 +6,8 @@ old-location: netvista\rilgetradiostatedetailsparams.htm
 tech.root: netvista
 ms.assetid: faee1991-a183-4285-af14-402094dc6694
 ms.date: 05/02/2018
+keywords: ["RILGETRADIOSTATEDETAILSPARAMS structure"]
 ms.keywords: "*LPRILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetradiostatedetailsparams, ntddrilapitypes/RILGETRADIOSTATEDETAILSPARAMS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILGETRADIOSTATEDETAILSPARAMS"
 req.header: rilapitypes.h

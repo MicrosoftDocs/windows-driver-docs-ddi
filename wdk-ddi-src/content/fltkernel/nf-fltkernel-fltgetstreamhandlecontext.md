@@ -6,8 +6,8 @@ old-location: ifsk\fltgetstreamhandlecontext.htm
 tech.root: ifsk
 ms.assetid: c6e7c0d8-8005-4a40-a13b-ee58feeabbf0
 ms.date: 04/16/2018
+keywords: ["FltGetStreamHandleContext function"]
 ms.keywords: FltApiRef_e_to_o_4a329c48-3a48-47bc-b998-3aaee454fbef.xml, FltGetStreamHandleContext, FltGetStreamHandleContext routine [Installable File System Drivers], fltkernel/FltGetStreamHandleContext, ifsk.fltgetstreamhandlecontext
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltGetStreamHandleContext"
 req.header: fltkernel.h

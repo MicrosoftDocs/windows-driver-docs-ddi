@@ -6,8 +6,8 @@ old-location: storage\ioctl_dvd_get_region.htm
 tech.root: storage
 ms.assetid: 2c3d6962-1d72-47e7-aa7c-226e5a3aa3d4
 ms.date: 03/29/2018
+keywords: ["IOCTL_DVD_GET_REGION IOCTL"]
 ms.keywords: IOCTL_DVD_GET_REGION, IOCTL_DVD_GET_REGION control, IOCTL_DVD_GET_REGION control code [Storage Devices], k307_74494f73-c80e-4ca6-adec-03d4ca6d335e.xml, ntddcdvd/IOCTL_DVD_GET_REGION, storage.ioctl_dvd_get_region
-ms.topic: ioctl
 f1_keywords:
  - "ntddcdvd/IOCTL_DVD_GET_REGION"
 req.header: ntddcdvd.h

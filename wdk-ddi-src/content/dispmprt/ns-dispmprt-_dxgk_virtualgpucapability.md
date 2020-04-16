@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 660eb862-90b5-4b23-abc5-b520202f3a71
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
+keywords: ["_DXGK_VIRTUALGPUCAPABILITY structure"]
 f1_keywords:
  - "dispmprt/_DXGK_VIRTUALGPUCAPABILITY"
 ms.prod: windows-hardware

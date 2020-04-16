@@ -5,8 +5,8 @@ description: Specifies input stream arguments.
 old-location: display\d3d12ddi_video_decode_input_stream_arguments.htm
 ms.assetid: B956626C-B5D7-4217-A90A-EC7E436DF6C0
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS, display.d3d12ddi_video_decode_input_stream_arguments
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0020"
 req.header: d3d12umddi.h

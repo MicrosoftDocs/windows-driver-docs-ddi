@@ -5,8 +5,8 @@ description: Discards (evicts) an allocation from video display memory. Implemen
 old-location: display\discard_d3d11_1_.htm
 ms.assetid: d94234ab-712b-4449-96de-16b9e310d250
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_DISCARD callback function"]
 ms.keywords: Discard(D3D11_1), Discard(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_DISCARD, PFND3D11_1DDI_DISCARD callback, d3d10umddi/Discard(D3D11_1), display.discard_d3d11_1_, display.pfndiscard
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

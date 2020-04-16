@@ -5,7 +5,7 @@ description: The NetConfigurationAssignBinary method writes caller-supplied bina
 tech.root: netvista
 ms.assetid: 55f386f7-0327-4cd2-96bc-bb666a2b3465
 ms.date: 02/07/2018
-ms.topic: function
+keywords: ["NetConfigurationAssignBinary function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationAssignBinary"
 ms.keywords: NetConfigurationAssignBinary

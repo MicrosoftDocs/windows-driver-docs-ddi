@@ -5,9 +5,9 @@ description: The NtFlushBuffersFileEx routine is called by a file system legacy 
 old-location: kernel\zwflushbuffersfileex.htm
 tech.root: kernel
 ms.assetid: C081CCF5-D13C-405C-A430-31805A16724A
-ms.date: 11/26/2019
+ms.date: 01/02/2020
+keywords: ["NtFlushBuffersFileEx function"]
 ms.keywords: FLUSH_FLAGS_FILE_DATA_ONLY, FLUSH_FLAGS_NO_SYNC, NtFlushBuffersFileEx, ZwFlushBuffersFileEx, ZwFlushBuffersFileEx routine [Kernel-Mode Driver Architecture], kernel.zwflushbuffersfileex, ntifs/NtFlushBuffersFileEx, ntifs/ZwFlushBuffersFileEx
-ms.topic: function
 f1_keywords:
  - "ntifs/NtFlushBuffersFileEx"
 req.header: ntifs.h
@@ -57,12 +57,13 @@ Handle returned by [**NtCreateFile**](https://docs.microsoft.com/windows-hardwar
 
 ### -param Flags [in]
 
-Flush operation flags. *Flags* can be 0 or one of the following values.
+Flush operation flags. *Flags* can be 0 or one of the following values *if the file is on an NTFS file system*.
 
 | Value | Meaning |
 | ----- | ------- |
-| FLUSH_FLAGS_FILE_DATA_ONLY | If the file is on an NTFS file system, file data in the file cache will be written. No metadata is written and the underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles. |
-| FLUSH_FLAGS_NO_SYNC | If the file is on an NTFS file system, file data and metadata in the file cache will be written. The underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles. |
+| FLUSH_FLAGS_FILE_DATA_ONLY | File data in the file cache will be written. No metadata is written and the underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles. |
+| FLUSH_FLAGS_NO_SYNC | File data and metadata in the file cache will be written. The underlying storage is not synchronized to flush its cache. This flag is not valid with volume handles. |
+| FLUSH_FLAGS_FILE_DATA_SYNC_ONLY | Data from the given file will be written from the Windows in-memory cache. Timestamp updating will be skipped as much as possible. The underlying storage is synchronized to flush its cache. This flag is not valid with volume or directory handles. |
 
 ### -param Parameters
 

@@ -6,8 +6,8 @@ old-location: print\addprintdeviceobject.htm
 tech.root: print
 ms.assetid: C01071FD-7D1D-4D6F-AFDD-355FFDA699EA
 ms.date: 04/20/2018
+keywords: ["AddPrintDeviceObject function"]
 ms.keywords: AddPrintDeviceObject, AddPrintDeviceObject function [Print Devices], print.addprintdeviceobject, winsplp/AddPrintDeviceObject
-ms.topic: function
 f1_keywords:
  - "winsplp/AddPrintDeviceObject"
 req.header: winsplp.h

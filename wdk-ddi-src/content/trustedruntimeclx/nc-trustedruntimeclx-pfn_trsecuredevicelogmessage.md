@@ -4,7 +4,7 @@ title: PFN_TRSECUREDEVICELOGMESSAGE (trustedruntimeclx.h)
 description: 
 ms.assetid: 796ac627-fd80-4074-bcf3-a7c23108d518
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["*PFN_TRSECUREDEVICELOGMESSAGE callback function"]
 f1_keywords:
  - "trustedruntimeclx/*PFN_TRSECUREDEVICELOGMESSAGE"
 req.header: trustedruntimeclx.h
@@ -31,7 +31,7 @@ api_type:
 api_location: 
 - trustedruntimeclx.h
 api_name: 
-- *PFN_TRSECUREDEVICELOGMESSAGE
+- PFN_TRSECUREDEVICELOGMESSAGE
 product:
 - Windows
 targetos: Windows

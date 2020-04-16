@@ -6,8 +6,8 @@ old-location: kernel\rtlulongtochar.htm
 tech.root: kernel
 ms.assetid: 43BD3798-0FCA-4A44-8EE1-DE252636CC95
 ms.date: 04/30/2018
+keywords: ["RtlULongToChar function"]
 ms.keywords: RtlULongToChar, RtlULongToChar function [Kernel-Mode Driver Architecture], kernel.rtlulongtochar, ntintsafe/RtlULongToChar
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlULongToChar"
 req.header: ntintsafe.h

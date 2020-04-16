@@ -6,8 +6,8 @@ old-location: storage\ioctl_scsi_pass_through_ex.htm
 tech.root: storage
 ms.assetid: BDF4375D-660D-4AF0-A692-16EEA59954B3
 ms.date: 03/29/2018
+keywords: ["IOCTL_SCSI_PASS_THROUGH_EX IOCTL"]
 ms.keywords: IOCTL_SCSI_PASS_THROUGH_EX, IOCTL_SCSI_PASS_THROUGH_EX control, IOCTL_SCSI_PASS_THROUGH_EX control code [Storage Devices], ntddscsi/IOCTL_SCSI_PASS_THROUGH_EX, storage.ioctl_scsi_pass_through_ex
-ms.topic: ioctl
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_PASS_THROUGH_EX"
 req.header: ntddscsi.h
@@ -82,7 +82,7 @@ This request is typically used for transferring small amounts of data (<16K).
 Applications can send this request by means of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a> request. 
 
 Storage class drivers set the minor IRP number to IRP_MN_SCSI_CLASS to indicate that the request has been processed by a storage class driver. 
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver-overview">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -ioctlparameters
 

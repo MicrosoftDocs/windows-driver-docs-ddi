@@ -5,8 +5,8 @@ description: Enumerates all graphics adapters on the system.
 old-location: display\d3dkmtenumadapters.htm
 ms.assetid: 07c0aeac-0f82-492a-aa98-0ba5a962b9cf
 ms.date: 05/10/2018
+keywords: ["D3DKMTEnumAdapters function"]
 ms.keywords: D3DKMTEnumAdapters, D3DKMTEnumAdapters callback function [Display Devices], PFND3DKMT_ENUMADAPTERS, PFND3DKMT_ENUMADAPTERS callback, d3dkmthk/D3DKMTEnumAdapters, display.d3dkmtenumadapters
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTEnumAdapters"
 req.header: d3dkmthk.h

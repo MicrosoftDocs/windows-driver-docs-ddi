@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlcreatesectionfordatascan.htm
 tech.root: ifsk
 ms.assetid: 2bf6fb1b-e2d6-496d-808e-e739951cc7c5
 ms.date: 04/16/2018
+keywords: ["FsRtlCreateSectionForDataScan function"]
 ms.keywords: FsRtlCreateSectionForDataScan, FsRtlCreateSectionForDataScan routine [Installable File System Drivers], fsrtlref_5117d865-19da-4ec5-8b20-cccab94eb013.xml, ifsk.fsrtlcreatesectionfordatascan, ntifs/FsRtlCreateSectionForDataScan
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlCreateSectionForDataScan"
 req.header: ntifs.h

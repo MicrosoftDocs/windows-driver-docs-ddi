@@ -6,8 +6,8 @@ old-location: whea\whea_xpf_ms_check.htm
 tech.root: whea
 ms.assetid: aa446b31-ac53-4623-bacd-72ab72e94618
 ms.date: 02/20/2018
+keywords: ["_WHEA_XPF_MS_CHECK structure"]
 ms.keywords: "*PWHEA_XPF_MS_CHECK, PWHEA_XPF_MS_CHECK, PWHEA_XPF_MS_CHECK union pointer [WHEA Drivers and Applications], WHEA_XPF_MS_CHECK, WHEA_XPF_MS_CHECK union [WHEA Drivers and Applications], _WHEA_XPF_MS_CHECK, ntddk/PWHEA_XPF_MS_CHECK, ntddk/WHEA_XPF_MS_CHECK, whea.whea_xpf_ms_check, whearef_ebbe0f28-499b-41ad-9e2b-c533c391c154.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_XPF_MS_CHECK"
 req.header: ntddk.h

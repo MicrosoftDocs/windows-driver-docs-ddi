@@ -4,7 +4,7 @@ title: _STATE_LOCATION_TYPE (ntddk.h)
 description: Defines values for persisted state locations for device and driver files. 
 ms.assetid: b1f859c2-ea58-4c37-9451-4521b83e3e8b
 ms.date: 10/19/2018
-ms.topic: enum
+keywords: ["_STATE_LOCATION_TYPE enumeration"]
 f1_keywords:
  - "ntddk/_STATE_LOCATION_TYPE"
 ms.keywords: _STATE_LOCATION_TYPE, STATE_LOCATION_TYPE, 

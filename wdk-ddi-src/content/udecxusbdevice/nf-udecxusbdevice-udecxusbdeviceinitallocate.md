@@ -6,8 +6,8 @@ old-location: buses\udecxusbdeviceinitallocate.htm
 tech.root: usbref
 ms.assetid: 127D132B-6A40-4F6F-BCDA-473F89A1A747
 ms.date: 05/07/2018
+keywords: ["UdecxUsbDeviceInitAllocate function"]
 ms.keywords: UdecxUsbDeviceInitAllocate, UdecxUsbDeviceInitAllocate function [Buses], buses.udecxusbdeviceinitallocate, udecxusbdevice/UdecxUsbDeviceInitAllocate
-ms.topic: function
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceInitAllocate"
 req.header: udecxusbdevice.h

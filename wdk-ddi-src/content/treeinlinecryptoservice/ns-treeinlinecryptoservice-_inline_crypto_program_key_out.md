@@ -4,7 +4,7 @@ title: _INLINE_CRYPTO_PROGRAM_KEY_OUT (treeinlinecryptoservice.h)
 description: 
 ms.assetid: 81c7cd3a-1e68-4903-9a1f-6b7263e1857f
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_INLINE_CRYPTO_PROGRAM_KEY_OUT structure"]
 f1_keywords:
  - "treeinlinecryptoservice/_INLINE_CRYPTO_PROGRAM_KEY_OUT"
 ms.keywords: _INLINE_CRYPTO_PROGRAM_KEY_OUT, INLINE_CRYPTO_PROGRAM_KEY_OUT, *PINLINE_CRYPTO_PROGRAM_KEY_OUT, 

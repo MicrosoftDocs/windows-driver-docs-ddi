@@ -6,8 +6,8 @@ old-location: bltooth\bthallocatebrb.htm
 tech.root: bltooth
 ms.assetid: e1ac9d4c-75e2-4d37-86d7-3c3f1486222e
 ms.date: 04/27/2018
+keywords: ["PFNBTH_ALLOCATE_BRB callback function"]
 ms.keywords: BthAllocateBrb, BthAllocateBrb callback function [Bluetooth Devices], PFNBTH_ALLOCATE_BRB, PFNBTH_ALLOCATE_BRB callback, bltooth.bthallocatebrb, bth_funcs_db0aa96f-62de-40f5-bcce-2aa7e930af3d.xml, bthddi/BthAllocateBrb
-ms.topic: callback
 f1_keywords:
  - "bthddi/BthAllocateBrb"
 req.header: bthddi.h

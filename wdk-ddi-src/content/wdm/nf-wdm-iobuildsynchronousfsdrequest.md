@@ -6,8 +6,8 @@ old-location: kernel\iobuildsynchronousfsdrequest.htm
 tech.root: kernel
 ms.assetid: b6d257cb-5384-44fe-bcff-67c67439ad08
 ms.date: 04/30/2018
+keywords: ["IoBuildSynchronousFsdRequest function"]
 ms.keywords: IoBuildSynchronousFsdRequest, IoBuildSynchronousFsdRequest routine [Kernel-Mode Driver Architecture], k104_94704d64-ce8d-4a4d-82e3-974cda66dd54.xml, kernel.iobuildsynchronousfsdrequest, wdm/IoBuildSynchronousFsdRequest
-ms.topic: function
 f1_keywords:
  - "wdm/IoBuildSynchronousFsdRequest"
 req.header: wdm.h

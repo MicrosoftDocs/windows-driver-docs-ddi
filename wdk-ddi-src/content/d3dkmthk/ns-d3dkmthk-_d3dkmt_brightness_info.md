@@ -5,8 +5,8 @@ description: Contains information about the brightness of an integrated display 
 old-location: display\d3dkmt_brightness_info.htm
 ms.assetid: a620b0b2-85ce-4373-a50c-299d8ce7a91c
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_BRIGHTNESS_INFO structure"]
 ms.keywords: D3DKMT_BRIGHTNESS_INFO, D3DKMT_BRIGHTNESS_INFO structure [Display Devices], _D3DKMT_BRIGHTNESS_INFO, d3dkmthk/D3DKMT_BRIGHTNESS_INFO, display.d3dkmt_brightness_info
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_BRIGHTNESS_INFO"
 req.header: d3dkmthk.h

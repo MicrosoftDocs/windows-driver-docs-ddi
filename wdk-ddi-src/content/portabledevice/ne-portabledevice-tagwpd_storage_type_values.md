@@ -6,8 +6,8 @@ old-location: wpddk\wpd_storage_type_values.htm
 tech.root: wpd_dk
 ms.assetid: 709d8ead-5d10-4451-ac3a-09a38ebaa46f
 ms.date: 02/15/2018
+keywords: ["tagWPD_STORAGE_TYPE_VALUES enumeration"]
 ms.keywords: WPD_STORAGE_TYPE_FIXED_RAM, WPD_STORAGE_TYPE_FIXED_ROM, WPD_STORAGE_TYPE_REMOVABLE_RAM, WPD_STORAGE_TYPE_REMOVABLE_ROM, WPD_STORAGE_TYPE_UNDEFINED, WPD_STORAGE_TYPE_VALUES, WPD_STORAGE_TYPE_VALUES enumeration, portabledevice/WPD_STORAGE_TYPE_FIXED_RAM, portabledevice/WPD_STORAGE_TYPE_FIXED_ROM, portabledevice/WPD_STORAGE_TYPE_REMOVABLE_RAM, portabledevice/WPD_STORAGE_TYPE_REMOVABLE_ROM, portabledevice/WPD_STORAGE_TYPE_UNDEFINED, portabledevice/WPD_STORAGE_TYPE_VALUES, tagWPD_STORAGE_TYPE_VALUES, wpddk.wpd_storage_type_values
-ms.topic: enum
 f1_keywords:
  - "portabledevice/WPD_STORAGE_TYPE_VALUES"
 req.header: portabledevice.h

@@ -4,7 +4,7 @@ title: _D3DKMT_DESTROY_OUTPUTDUPL (d3dkmthk.h)
 description: Used to destroy output duplicate.
 ms.assetid: 18f80d41-3bdb-4e7d-9232-dbbcbd8e9a0e
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DKMT_DESTROY_OUTPUTDUPL structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_DESTROY_OUTPUTDUPL"
 ms.keywords: _D3DKMT_DESTROY_OUTPUTDUPL, D3DKMT_DESTROY_OUTPUTDUPL, 

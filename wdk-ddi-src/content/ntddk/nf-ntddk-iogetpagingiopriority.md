@@ -6,8 +6,8 @@ old-location: kernel\iogetpagingiopriority.htm
 tech.root: kernel
 ms.assetid: 3b0f4fc9-58fd-46ba-be17-2e1b36b16caa
 ms.date: 04/30/2018
+keywords: ["IoGetPagingIoPriority function"]
 ms.keywords: IoGetPagingIoPriority, IoGetPagingIoPriority routine [Kernel-Mode Driver Architecture], k104_cde35790-d059-44bb-85c5-abde7cb36319.xml, kernel.iogetpagingiopriority, wdm/IoGetPagingIoPriority
-ms.topic: function
 f1_keywords:
  - "ntddk/IoGetPagingIoPriority"
 req.header: ntddk.h

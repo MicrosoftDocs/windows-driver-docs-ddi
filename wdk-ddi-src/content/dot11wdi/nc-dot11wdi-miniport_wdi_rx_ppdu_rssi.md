@@ -6,8 +6,8 @@ old-location: netvista\miniportwdirxppdurssi.htm
 tech.root: netvista
 ms.assetid: 34C34C42-E5E1-44F6-AC81-ADC77206DED0
 ms.date: 05/02/2018
+keywords: ["MINIPORT_WDI_RX_PPDU_RSSI callback function"]
 ms.keywords: MINIPORT_WDI_RX_PPDU_RSSI, MINIPORT_WDI_RX_PPDU_RSSI callback, MiniportWdiRxPpduRssi, MiniportWdiRxPpduRssi callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxPpduRssi, netvista.miniportwdirxppdurssi
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiRxPpduRssi"
 req.header: dot11wdi.h

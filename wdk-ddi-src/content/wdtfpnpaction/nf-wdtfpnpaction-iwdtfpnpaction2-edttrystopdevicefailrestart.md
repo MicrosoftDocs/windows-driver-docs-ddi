@@ -6,8 +6,8 @@ old-location: dtf\iwdtfpnpaction2_edttrystopdevicefailrestart.htm
 tech.root: dtf
 ms.assetid: f451f97d-ff56-47ae-b9c6-4f5e3a1dd4bf
 ms.date: 04/04/2018
+keywords: ["IWDTFPNPAction2::EDTTryStopDeviceFailRestart"]
 ms.keywords: EDTTryStopDeviceFailRestart, EDTTryStopDeviceFailRestart method [Windows Device Testing Framework], EDTTryStopDeviceFailRestart method [Windows Device Testing Framework],IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework],EDTTryStopDeviceFailRestart method, IWDTFPNPAction2.EDTTryStopDeviceFailRestart, IWDTFPNPAction2::EDTTryStopDeviceFailRestart, Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDeviceFailRestart, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDeviceFailRestart, dtf.iwdtfpnpaction2_edttrystopdevicefailrestart, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceFailRestart
-ms.topic: method
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPAction2.EDTTryStopDeviceFailRestart"
 req.header: wdtfpnpaction.h

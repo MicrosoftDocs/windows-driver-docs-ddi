@@ -6,8 +6,8 @@ old-location: kernel\transaction_basic_information.htm
 tech.root: kernel
 ms.assetid: 79dd9ff3-2a5f-457a-8a8a-4963a799055c
 ms.date: 04/30/2018
+keywords: ["_TRANSACTION_BASIC_INFORMATION structure"]
 ms.keywords: "*PTRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTION_BASIC_INFORMATION, TRANSACTION_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTION_BASIC_INFORMATION, kernel.transaction_basic_information, ktm_ref_3246b7cb-244e-4772-b3ca-bfd69e973f12.xml, wdm/PTRANSACTION_BASIC_INFORMATION, wdm/TRANSACTION_BASIC_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "wdm/TRANSACTION_BASIC_INFORMATION"
 req.header: wdm.h

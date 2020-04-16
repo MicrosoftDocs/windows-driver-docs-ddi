@@ -4,7 +4,7 @@ title: D3D12DDIARG_CREATECOMMANDQUEUE_0050 (d3d12umddi.h)
 description: Arguments used to create a hardware command queue.
 ms.assetid: ff28c67f-17f9-417c-bdb3-bdaf00056b37
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["D3D12DDIARG_CREATECOMMANDQUEUE_0050 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_CREATECOMMANDQUEUE_0050"
 ms.keywords: D3D12DDIARG_CREATECOMMANDQUEUE_0050, D3D12DDIARG_CREATECOMMANDQUEUE_0050, 

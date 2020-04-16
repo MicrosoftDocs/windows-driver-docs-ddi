@@ -6,8 +6,8 @@ old-location: wdf\wdfdevicewdmgetattacheddevice.htm
 tech.root: wdf
 ms.assetid: 216fe649-18c0-4782-8040-21ce87fbd888
 ms.date: 02/26/2018
+keywords: ["WdfDeviceWdmGetAttachedDevice function"]
 ms.keywords: DFDeviceObjectGeneralRef_cfd9610b-28f6-4c5c-a532-9c5fae3576fc.xml, WdfDeviceWdmGetAttachedDevice, WdfDeviceWdmGetAttachedDevice method, kmdf.wdfdevicewdmgetattacheddevice, wdf.wdfdevicewdmgetattacheddevice, wdfdevice/WdfDeviceWdmGetAttachedDevice
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceWdmGetAttachedDevice"
 req.header: wdfdevice.h

@@ -6,8 +6,8 @@ old-location: kernel\kequeryprioritythread.htm
 tech.root: kernel
 ms.assetid: 69a8ad3f-641d-4aaf-9184-e56dee6ca347
 ms.date: 04/30/2018
+keywords: ["KeQueryPriorityThread function"]
 ms.keywords: KeQueryPriorityThread, KeQueryPriorityThread routine [Kernel-Mode Driver Architecture], k105_6a330d84-aa5a-4822-a4d3-7b68aa9e8882.xml, kernel.kequeryprioritythread, wdm/KeQueryPriorityThread
-ms.topic: function
 f1_keywords:
  - "wdm/KeQueryPriorityThread"
 req.header: wdm.h

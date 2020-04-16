@@ -6,8 +6,8 @@ old-location: wdf\wdfchildlistendscan.htm
 tech.root: wdf
 ms.assetid: 73891793-e59f-4c67-af93-07929d7c7326
 ms.date: 02/26/2018
+keywords: ["WdfChildListEndScan function"]
 ms.keywords: DFDeviceObjectChildListRef_ffd03c13-6074-4679-bb87-b2c028fc8ded.xml, WdfChildListEndScan, WdfChildListEndScan method, kmdf.wdfchildlistendscan, wdf.wdfchildlistendscan, wdfchildlist/WdfChildListEndScan
-ms.topic: function
 f1_keywords:
  - "wdfchildlist/WdfChildListEndScan"
 req.header: wdfchildlist.h

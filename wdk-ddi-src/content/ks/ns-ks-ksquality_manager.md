@@ -6,8 +6,8 @@ old-location: stream\ksquality_manager.htm
 tech.root: stream
 ms.assetid: 33e66fa0-53d6-400a-a03b-6d7b3fd01ace
 ms.date: 04/23/2018
+keywords: ["KSQUALITY_MANAGER structure"]
 ms.keywords: "*PKSQUALITY_MANAGER, KSQUALITY_MANAGER, KSQUALITY_MANAGER structure [Streaming Media Devices], PKSQUALITY_MANAGER, PKSQUALITY_MANAGER structure pointer [Streaming Media Devices], ks-struct_97f36a6a-6d00-4cec-b13d-8f039b54c5a8.xml, ks/KSQUALITY_MANAGER, ks/PKSQUALITY_MANAGER, stream.ksquality_manager"
-ms.topic: struct
 f1_keywords:
  - "ks/KSQUALITY_MANAGER"
 req.header: ks.h

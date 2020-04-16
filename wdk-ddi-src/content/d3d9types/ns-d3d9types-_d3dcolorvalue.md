@@ -4,7 +4,7 @@ title: _D3DCOLORVALUE (d3d9types.h)
 description: 
 ms.assetid: fcd9bc0c-b625-4e74-a007-77ffe7866571
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DCOLORVALUE structure"]
 f1_keywords:
  - "d3d9types/_D3DCOLORVALUE"
 ms.keywords: _D3DCOLORVALUE, D3DCOLORVALUE, 

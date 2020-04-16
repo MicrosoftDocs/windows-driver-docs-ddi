@@ -6,8 +6,8 @@ old-location: netvista\rilcalllist_v2.htm
 tech.root: netvista
 ms.assetid: 4cf94a04-dbb4-4e24-954b-3a5a720ef963
 ms.date: 05/02/2018
+keywords: ["RILCALLLIST_V2 structure"]
 ms.keywords: "*LPRILCALLLIST_V2, RILCALLLIST_V2, RILCALLLIST_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilcalllist_v2, ntddrilapitypes/RILCALLLIST_V2"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILCALLLIST_V2"
 req.header: rilapitypes.h

@@ -6,8 +6,8 @@ old-location: netvista\filtercanceloidrequest.htm
 tech.root: netvista
 ms.assetid: e7e3f67e-5353-4355-bf19-8a8041cafc84
 ms.date: 05/02/2018
+keywords: ["FILTER_CANCEL_OID_REQUEST callback function"]
 ms.keywords: FILTER_CANCEL_OID_REQUEST, FILTER_CANCEL_OID_REQUEST callback, FilterCancelOidRequest, FilterCancelOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/FilterCancelOidRequest, ndis_request_ref_495c5b9b-651d-4255-bf88-30789153314f.xml, netvista.filtercanceloidrequest
-ms.topic: callback
 f1_keywords:
  - "ndis/FilterCancelOidRequest"
 req.header: ndis.h

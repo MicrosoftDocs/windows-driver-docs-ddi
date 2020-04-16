@@ -6,8 +6,8 @@ old-location: netvista\rilsupsvcaction.htm
 tech.root: netvista
 ms.assetid: 14c9b97d-7f3f-45ef-9be2-c36495c69081
 ms.date: 05/02/2018
+keywords: ["RILSUPSVCACTION enumeration"]
 ms.keywords: RILSUPSVCACTION, RILSUPSVCACTION enumeration [Network Drivers Starting with Windows Vista], RIL_SUPSVCACTION_DEACTIVATE, RIL_SUPSVCACTION_ERASE, RIL_SUPSVCACTION_INTERROGATE, RIL_SUPSVCACTION_MAX, RIL_SUPSVCACTION_REGISTER, RIL_SUPSVCACTION_REGISTER_PW, RIL_SUPSVCACTION_USSD, netvista.rilsupsvcaction, ntddrilapitypes/RILSUPSVCACTION, ntddrilapitypes/RIL_SUPSVCACTION_DEACTIVATE, ntddrilapitypes/RIL_SUPSVCACTION_ERASE, ntddrilapitypes/RIL_SUPSVCACTION_INTERROGATE, ntddrilapitypes/RIL_SUPSVCACTION_MAX, ntddrilapitypes/RIL_SUPSVCACTION_REGISTER, ntddrilapitypes/RIL_SUPSVCACTION_REGISTER_PW, ntddrilapitypes/RIL_SUPSVCACTION_USSD
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILSUPSVCACTION"
 req.header: rilapitypes.h

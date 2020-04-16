@@ -6,8 +6,8 @@ old-location: gnss\ioctl_gnss_listen_driver_request.htm
 tech.root: gnss
 ms.assetid: 204D6F80-A458-45F8-B25F-4F5D3C33EB75
 ms.date: 02/15/2018
+keywords: ["IOCTL_GNSS_LISTEN_DRIVER_REQUEST IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_DRIVER_REQUEST, IOCTL_GNSS_LISTEN_DRIVER_REQUEST control, IOCTL_GNSS_LISTEN_DRIVER_REQUEST control code [Sensor Devices], gnss.ioctl_gnss_listen_driver_request, gnssdriver/IOCTL_GNSS_LISTEN_DRIVER_REQUEST
-ms.topic: ioctl
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_LISTEN_DRIVER_REQUEST"
 req.header: gnssdriver.h

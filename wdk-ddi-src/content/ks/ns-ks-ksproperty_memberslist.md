@@ -6,8 +6,8 @@ old-location: stream\ksproperty_memberslist.htm
 tech.root: stream
 ms.assetid: 2354da98-8663-4758-add7-3ac4350f563c
 ms.date: 04/23/2018
+keywords: ["KSPROPERTY_MEMBERSLIST structure"]
 ms.keywords: "*PKSPROPERTY_MEMBERSLIST, KSPROPERTY_MEMBERSLIST, KSPROPERTY_MEMBERSLIST structure [Streaming Media Devices], PKSPROPERTY_MEMBERSLIST, PKSPROPERTY_MEMBERSLIST structure pointer [Streaming Media Devices], ks-struct_44a818f7-bffd-4aa5-aa30-b6376c0593ca.xml, ks/KSPROPERTY_MEMBERSLIST, ks/PKSPROPERTY_MEMBERSLIST, stream.ksproperty_memberslist"
-ms.topic: struct
 f1_keywords:
  - "ks/KSPROPERTY_MEMBERSLIST"
 req.header: ks.h

@@ -6,8 +6,8 @@ old-location: netvista\binary_data.htm
 tech.root: netvista
 ms.assetid: 2d629905-49aa-4b66-83f3-0aecb72b73ea
 ms.date: 05/02/2018
+keywords: ["BINARY_DATA structure"]
 ms.keywords: BINARY_DATA, BINARY_DATA structure [Network Drivers Starting with Windows Vista], ndis/BINARY_DATA, ndis_configuration_ref_50fc50e5-52d2-4e25-a03b-6c581e50fef1.xml, netvista.binary_data
-ms.topic: struct
 f1_keywords:
  - "ndis/BINARY_DATA"
 req.header: ndis.h

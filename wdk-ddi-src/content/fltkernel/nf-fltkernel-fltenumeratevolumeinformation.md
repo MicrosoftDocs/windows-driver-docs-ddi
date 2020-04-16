@@ -6,8 +6,8 @@ old-location: ifsk\fltenumeratevolumeinformation.htm
 tech.root: ifsk
 ms.assetid: cdec7faa-299c-4a4e-a037-9900bc3cffa1
 ms.date: 04/16/2018
+keywords: ["FltEnumerateVolumeInformation function"]
 ms.keywords: FltApiRef_e_to_o_2fec9273-857a-4c22-b970-27882f88d58d.xml, FltEnumerateVolumeInformation, FltEnumerateVolumeInformation routine [Installable File System Drivers], fltkernel/FltEnumerateVolumeInformation, ifsk.fltenumeratevolumeinformation
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltEnumerateVolumeInformation"
 req.header: fltkernel.h

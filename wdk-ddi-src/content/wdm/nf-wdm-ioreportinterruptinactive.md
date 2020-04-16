@@ -6,8 +6,8 @@ old-location: kernel\ioreportinterruptinactive.htm
 tech.root: kernel
 ms.assetid: 614ECB39-E1D0-4BF0-B3C8-635BADD05508
 ms.date: 04/30/2018
+keywords: ["IoReportInterruptInactive function"]
 ms.keywords: IoReportInterruptInactive, IoReportInterruptInactive routine [Kernel-Mode Driver Architecture], kernel.ioreportinterruptinactive, wdm/IoReportInterruptInactive
-ms.topic: function
 f1_keywords:
  - "wdm/IoReportInterruptInactive"
 req.header: wdm.h

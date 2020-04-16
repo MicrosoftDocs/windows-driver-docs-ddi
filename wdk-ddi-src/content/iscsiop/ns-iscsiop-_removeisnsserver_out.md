@@ -6,8 +6,8 @@ old-location: storage\removeisnsserver_out.htm
 tech.root: storage
 ms.assetid: 42866b25-280c-492c-8e98-1a04a46561a4
 ms.date: 03/29/2018
+keywords: ["_RemoveiSNSServer_OUT structure"]
 ms.keywords: "*PRemoveiSNSServer_OUT, PRemoveiSNSServer_OUT, PRemoveiSNSServer_OUT structure pointer [Storage Devices], RemoveiSNSServer_OUT, RemoveiSNSServer_OUT structure [Storage Devices], _RemoveiSNSServer_OUT, iscsiop/PRemoveiSNSServer_OUT, iscsiop/RemoveiSNSServer_OUT, storage.removeisnsserver_out, structs-iSCSI_8d8df1a1-3b89-42a1-9ef8-3e749a94b531.xml"
-ms.topic: struct
 f1_keywords:
  - "iscsiop/RemoveiSNSServer_OUT"
 req.header: iscsiop.h

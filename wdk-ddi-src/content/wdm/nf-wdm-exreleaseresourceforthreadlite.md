@@ -6,8 +6,8 @@ old-location: kernel\exreleaseresourceforthreadlite.htm
 tech.root: kernel
 ms.assetid: 840e7f50-644c-49b9-a40b-d504e19b0db2
 ms.date: 03/28/2018
+keywords: ["ExReleaseResourceForThreadLite function"]
 ms.keywords: ExReleaseResourceForThreadLite, ExReleaseResourceForThreadLite routine [Kernel-Mode Driver Architecture], k102_799a8ff7-3996-470d-97b2-e1c18bbcb486.xml, kernel.exreleaseresourceforthreadlite, wdm/ExReleaseResourceForThreadLite
-ms.topic: function
 f1_keywords:
  - "wdm/ExReleaseResourceForThreadLite"
 req.header: wdm.h

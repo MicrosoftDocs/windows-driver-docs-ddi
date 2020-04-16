@@ -4,7 +4,7 @@ title: _TRFUNCENUM (trustedruntimeclx.h)
 description: 
 ms.assetid: c7d03bb5-7c9e-4a6c-92f1-5c109061aaa7
 ms.date: 10/19/2018
-ms.topic: enum
+keywords: ["_TRFUNCENUM enumeration"]
 f1_keywords:
  - "trustedruntimeclx/_TRFUNCENUM"
 ms.keywords: _TRFUNCENUM, TRFUNCENUM, 

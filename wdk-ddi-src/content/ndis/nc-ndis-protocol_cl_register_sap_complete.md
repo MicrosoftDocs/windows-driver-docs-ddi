@@ -6,8 +6,8 @@ old-location: netvista\protocolclregistersapcomplete.htm
 tech.root: netvista
 ms.assetid: b0a2a224-3353-4f20-b14f-ed5d633a6ead
 ms.date: 05/02/2018
+keywords: ["PROTOCOL_CL_REGISTER_SAP_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_REGISTER_SAP_COMPLETE, PROTOCOL_CL_REGISTER_SAP_COMPLETE callback, ProtocolClRegisterSapComplete, ProtocolClRegisterSapComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_6f2cf710-53e9-43ce-8b9a-46ec76d1146d.xml, ndis/ProtocolClRegisterSapComplete, netvista.protocolclregistersapcomplete
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolClRegisterSapComplete"
 req.header: ndis.h

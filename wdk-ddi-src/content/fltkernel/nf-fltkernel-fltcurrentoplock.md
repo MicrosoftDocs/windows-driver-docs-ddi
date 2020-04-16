@@ -6,8 +6,8 @@ old-location: ifsk\fltcurrentoplock.htm
 tech.root: ifsk
 ms.assetid: e503b016-3271-4cce-a7fc-09c04b56716d
 ms.date: 04/16/2018
+keywords: ["FltCurrentOplock function"]
 ms.keywords: FltApiRef_a_to_d_cda1ee2b-1ce2-40a3-8e55-25846f59f611.xml, FltCurrentOplock, FltCurrentOplock routine [Installable File System Drivers], fltkernel/FltCurrentOplock, ifsk.fltcurrentoplock
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltCurrentOplock"
 req.header: fltkernel.h

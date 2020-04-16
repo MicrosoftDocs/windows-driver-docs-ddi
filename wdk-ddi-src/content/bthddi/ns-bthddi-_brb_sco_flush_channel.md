@@ -6,8 +6,8 @@ old-location: bltooth\_brb_sco_flush_channel.htm
 tech.root: bltooth
 ms.assetid: 17ee1a71-2aaf-421d-9ae9-019fe0d2f595
 ms.date: 04/27/2018
+keywords: ["_BRB_SCO_FLUSH_CHANNEL structure"]
 ms.keywords: "_BRB_SCO_FLUSH_CHANNEL, _BRB_SCO_FLUSH_CHANNEL structure [Bluetooth Devices], bltooth._brb_sco_flush_channel, bth_structs_d2a9941d-7091-402d-87bc-a5da139dfc1f.xml, bthddi/_BRB_SCO_FLUSH_CHANNEL"
-ms.topic: struct
 f1_keywords:
  - "bthddi/_BRB_SCO_FLUSH_CHANNEL"
 req.header: bthddi.h

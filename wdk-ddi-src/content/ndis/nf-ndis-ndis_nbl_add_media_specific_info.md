@@ -5,7 +5,7 @@ description: The NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO macro adds a media-specific in
 tech.root: netvista
 ms.assetid: 75402d57-bc10-44c4-8074-da8f69729cbd
 ms.date: 04/13/2018
-ms.topic: macro
+keywords: ["NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO macro"]
 f1_keywords:
  - "ndis/NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO"
 ms.keywords: NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO

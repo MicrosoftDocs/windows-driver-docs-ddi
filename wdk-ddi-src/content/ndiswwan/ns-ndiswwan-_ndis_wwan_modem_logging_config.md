@@ -5,7 +5,7 @@ description: The NDIS_WWAN_MODEM_LOGGING_CONFIG structure describes the current 
 tech.root: netvista
 ms.assetid: 04E5AFB1-0280-4862-B147-579B064AFF31
 ms.date: 04/11/2019
-ms.topic: struct
+keywords: ["_NDIS_WWAN_MODEM_LOGGING_CONFIG structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_MODEM_LOGGING_CONFIG"
 ms.keywords: _NDIS_WWAN_MODEM_LOGGING_CONFIG, NDIS_WWAN_MODEM_LOGGING_CONFIG, *PNDIS_WWAN_MODEM_LOGGING_CONFIG, 

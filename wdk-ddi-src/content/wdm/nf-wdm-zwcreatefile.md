@@ -6,8 +6,8 @@ old-location: kernel\zwcreatefile.htm
 tech.root: kernel
 ms.assetid: c40b99be-5627-44f3-9853-c3ae31a8035c
 ms.date: 04/30/2018
+keywords: ["ZwCreateFile function"]
 ms.keywords: NtCreateFile, ZwCreateFile, ZwCreateFile routine [Kernel-Mode Driver Architecture], k111_80b1882a-8617-45d4-a783-dbc3bfc9aad4.xml, kernel.zwcreatefile, wdm/NtCreateFile, wdm/ZwCreateFile
-ms.topic: function
 f1_keywords:
  - "wdm/ZwCreateFile"
 req.header: wdm.h

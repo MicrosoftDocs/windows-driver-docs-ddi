@@ -6,8 +6,8 @@ old-location: ifsk\fltclearcallbackdatadirty.htm
 tech.root: ifsk
 ms.assetid: c53ec6e5-83f8-4262-b832-1a206e6652e6
 ms.date: 04/16/2018
+keywords: ["FltClearCallbackDataDirty function"]
 ms.keywords: FltApiRef_a_to_d_04cd5e96-3277-4afa-b3cb-07c0f418fe42.xml, FltClearCallbackDataDirty, FltClearCallbackDataDirty routine [Installable File System Drivers], fltkernel/FltClearCallbackDataDirty, ifsk.fltclearcallbackdatadirty
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltClearCallbackDataDirty"
 req.header: fltkernel.h

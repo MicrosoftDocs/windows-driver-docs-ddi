@@ -6,8 +6,8 @@ old-location: debugger\writephysical2.htm
 tech.root: debugger
 ms.assetid: 15a83343-b95b-4f79-b4f2-ed2ad60d170e
 ms.date: 05/03/2018
+keywords: ["IDebugDataSpaces4::WritePhysical2"]
 ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],WritePhysical2 method, IDebugDataSpaces4.WritePhysical2, IDebugDataSpaces4::WritePhysical2, IDebugDataSpaces_bc084790-b047-4257-b7fd-578fd4454747.xml, WritePhysical2, WritePhysical2 method [Windows Debugging], WritePhysical2 method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::WritePhysical2, debugger.writephysical2
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugDataSpaces4.WritePhysical2"
 req.header: dbgeng.h

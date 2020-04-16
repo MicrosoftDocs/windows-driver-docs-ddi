@@ -6,8 +6,8 @@ old-location: stream\iksaggregatecontrol.htm
 tech.root: stream
 ms.assetid: ed239516-bbaf-4e16-a3b8-4f9f34cab4ef
 ms.date: 04/23/2018
+keywords: ["IKsAggregateControl interface"]
 ms.keywords: IKsAggregateControl, IKsAggregateControl interface [Streaming Media Devices], IKsAggregateControl interface [Streaming Media Devices],described, ksproxy/IKsAggregateControl, ksproxy_ccd980b0-abd1-4354-9f2c-3c0613b18d07.xml, stream.iksaggregatecontrol
-ms.topic: interface
 f1_keywords:
  - "ksproxy/IKsAggregateControl"
 req.header: ksproxy.h

@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 808fcdad-be79-4863-a1ca-a1d1dea3c5d0
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: function
+keywords: ["DlGetAssociatedDeviceExtension function"]
 f1_keywords:
  - "dispmprt/DlGetAssociatedDeviceExtension"
 ms.keywords: DlGetAssociatedDeviceExtension

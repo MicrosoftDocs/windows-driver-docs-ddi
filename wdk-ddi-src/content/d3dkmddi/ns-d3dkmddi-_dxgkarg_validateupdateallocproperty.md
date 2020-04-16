@@ -5,8 +5,8 @@ description: The DXGARG_VALIDATEUPDATEALLOCPROPERTY structure holds the informat
 old-location: display\dxgkarg_validateupdateallocproperty.htm
 ms.assetid: EC9654B8-06AA-43C8-A159-F176BDE4E015
 ms.date: 05/10/2018
+keywords: ["_DXGKARG_VALIDATEUPDATEALLOCPROPERTY structure"]
 ms.keywords: DXGKARG_VALIDATEUPDATEALLOCPROPERTY, DXGKARG_VALIDATEUPDATEALLOCPROPERTY structure [Display Devices], _DXGKARG_VALIDATEUPDATEALLOCPROPERTY, d3dkmddi/DXGKARG_VALIDATEUPDATEALLOCPROPERTY, display.dxgkarg_validateupdateallocproperty
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_VALIDATEUPDATEALLOCPROPERTY"
 req.header: d3dkmddi.h

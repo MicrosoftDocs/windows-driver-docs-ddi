@@ -6,8 +6,8 @@ old-location: wdf\evtiostop.htm
 tech.root: wdf
 ms.assetid: 71a789f1-4f10-44c3-8bd0-a0ea74ec28ab
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_IO_QUEUE_IO_STOP callback function"]
 ms.keywords: DFQueueObjectRef_b9df4689-1de5-4c08-b2a2-c9f126a7d0bc.xml, EVT_WDF_IO_QUEUE_IO_STOP, EVT_WDF_IO_QUEUE_IO_STOP callback, EvtIoStop, EvtIoStop callback function, kmdf.evtiostop, wdf.evtiostop, wdfio/EvtIoStop
-ms.topic: callback
 f1_keywords:
  - "wdfio/EvtIoStop"
 req.header: wdfio.h

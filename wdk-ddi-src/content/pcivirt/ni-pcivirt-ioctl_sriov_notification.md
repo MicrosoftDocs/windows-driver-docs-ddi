@@ -6,8 +6,8 @@ old-location: pci\ioctl-sriov-notification.htm
 tech.root: PCI
 ms.assetid: 3f2d67e0-abab-40a1-b4a9-cb65e81884e9
 ms.date: 02/24/2018
+keywords: ["IOCTL_SRIOV_NOTIFICATION IOCTL"]
 ms.keywords: IOCTL_SRIOV_NOTIFICATION, IOCTL_SRIOV_NOTIFICATION control code [Buses], PCI.ioctl-sriov-notification, pcivirt/IOCTL_SRIOV_NOTIFICATION
-ms.topic: ioctl
 f1_keywords:
  - "pcivirt/IOCTL_SRIOV_NOTIFICATION"
 req.header: pcivirt.h

@@ -6,8 +6,8 @@ old-location: print\iprintcorehelperuni_enumconstrainedoptions.htm
 tech.root: print
 ms.assetid: 362d858a-5087-4cd2-8778-e6564297bc8f
 ms.date: 04/20/2018
+keywords: ["IPrintCoreHelperUni::EnumConstrainedOptions"]
 ms.keywords: EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],EnumConstrainedOptions method, IPrintCoreHelperUni.EnumConstrainedOptions, IPrintCoreHelperUni::EnumConstrainedOptions, prcomoem/IPrintCoreHelperUni::EnumConstrainedOptions, print.iprintcorehelperuni_enumconstrainedoptions, print_unidrv-pscript_allplugins_1acbff6a-b43d-4504-b2dc-69713a61261f.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintCoreHelperUni.EnumConstrainedOptions"
 req.header: prcomoem.h

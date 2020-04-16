@@ -6,8 +6,8 @@ old-location: debugger\getpossibleexecutingprocessortypes.htm
 tech.root: debugger
 ms.assetid: fb11b655-2528-447f-9f5e-3c9e4e040156
 ms.date: 05/03/2018
+keywords: ["IDebugControl3::GetPossibleExecutingProcessorTypes"]
 ms.keywords: GetPossibleExecutingProcessorTypes, GetPossibleExecutingProcessorTypes method [Windows Debugging], GetPossibleExecutingProcessorTypes method [Windows Debugging],IDebugControl interface, GetPossibleExecutingProcessorTypes method [Windows Debugging],IDebugControl2 interface, GetPossibleExecutingProcessorTypes method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetPossibleExecutingProcessorTypes method, IDebugControl2 interface [Windows Debugging],GetPossibleExecutingProcessorTypes method, IDebugControl2::GetPossibleExecutingProcessorTypes, IDebugControl3 interface [Windows Debugging],GetPossibleExecutingProcessorTypes method, IDebugControl3.GetPossibleExecutingProcessorTypes, IDebugControl3::GetPossibleExecutingProcessorTypes, IDebugControl::GetPossibleExecutingProcessorTypes, IDebugControl_582811e7-4eb0-4b94-a5d0-8c903ea8c2fe.xml, dbgeng/IDebugControl2::GetPossibleExecutingProcessorTypes, dbgeng/IDebugControl3::GetPossibleExecutingProcessorTypes, dbgeng/IDebugControl::GetPossibleExecutingProcessorTypes, debugger.getpossibleexecutingprocessortypes
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl.GetPossibleExecutingProcessorTypes"
 req.header: dbgeng.h

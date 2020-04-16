@@ -6,8 +6,8 @@ old-location: kernel\rtlcopystring.htm
 tech.root: kernel
 ms.assetid: 5295be15-b42e-4e5b-8257-434fb9ed6c83
 ms.date: 04/30/2018
+keywords: ["RtlCopyString function"]
 ms.keywords: RtlCopyString, RtlCopyString routine [Kernel-Mode Driver Architecture], k109_c68983f1-ec02-405f-a3a6-d1f3884fe303.xml, kernel.rtlcopystring, ntddk/RtlCopyString
-ms.topic: function
 f1_keywords:
  - "ntddk/RtlCopyString"
 req.header: ntddk.h

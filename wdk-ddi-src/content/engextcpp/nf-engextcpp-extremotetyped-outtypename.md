@@ -6,8 +6,8 @@ old-location: debugger\extremotetyped_outtypename.htm
 tech.root: debugger
 ms.assetid: fda88a3d-4cdf-4be1-87a7-29e312453686
 ms.date: 05/03/2018
+keywords: ["ExtRemoteTyped::OutTypeName"]
 ms.keywords: EngExtCpp_Ref_1dd0e308-16ca-4b91-8ad6-7c2d4c7d8da8.xml, ExtRemoteTyped interface [Windows Debugging],OutTypeName method, ExtRemoteTyped.OutTypeName, ExtRemoteTyped::OutTypeName, OutTypeName, OutTypeName method [Windows Debugging], OutTypeName method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_outtypename
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.OutTypeName"
 req.header: engextcpp.hpp

@@ -6,8 +6,8 @@ old-location: netvista\fwpscompleteoperation0.htm
 tech.root: netvista
 ms.assetid: e0d584c4-ec58-4d5f-bddf-86bcfbfa6b97
 ms.date: 05/02/2018
+keywords: ["FwpsCompleteOperation0 function"]
 ms.keywords: FwpsCompleteOperation0, FwpsCompleteOperation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCompleteOperation0, netvista.fwpscompleteoperation0, wfp_ref_2_funct_3_fwps_C_bfabbf4d-812a-411f-b9ef-c2e6f145404d.xml
-ms.topic: function
 f1_keywords:
  - "fwpsk/FwpsCompleteOperation0"
 req.header: fwpsk.h

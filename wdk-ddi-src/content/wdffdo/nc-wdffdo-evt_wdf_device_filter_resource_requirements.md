@@ -6,8 +6,8 @@ old-location: wdf\evtdevicefilteraddresourcerequirements.htm
 tech.root: wdf
 ms.assetid: 7d9b38b5-989d-45a3-8771-57a8d1f98725
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_7a176cba-5c3b-42b7-81e5-0a6a9b49f55c.xml, EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS, EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback, EvtDeviceFilterXxxResourceRequirements, EvtDeviceFilterXxxResourceRequirements callback function, kmdf.evtdevicefilteraddresourcerequirements, wdf.evtdevicefilteraddresourcerequirements, wdf.evtdevicefilterremoveresourcerequirements, wdffdo/EvtDeviceFilterXxxResourceRequirements
-ms.topic: callback
 f1_keywords:
  - "wdffdo/EvtDeviceFilterXxxResourceRequirements"
 req.header: wdffdo.h

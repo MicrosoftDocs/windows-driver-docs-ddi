@@ -4,7 +4,7 @@ title: IDebugHost::GetDefaultMetadata (dbgmodel.h)
 description: The GetDefaultMetadata method returns a default metadata store that may be used for certain operations (that is string conversion) when no explicit metadata has been passed. 
 ms.assetid: e624b7fe-b691-4e1a-93d5-f62747d929ac
 ms.date: 08/14/2018
-ms.topic: method
+keywords: ["IDebugHost::GetDefaultMetadata"]
 f1_keywords:
  - "dbgmodel/IDebugHost.GetDefaultMetadata"
 ms.keywords: IDebugHost::GetDefaultMetadata, GetDefaultMetadata, IDebugHost.GetDefaultMetadata, IDebugHost::GetDefaultMetadata, IDebugHost.GetDefaultMetadata

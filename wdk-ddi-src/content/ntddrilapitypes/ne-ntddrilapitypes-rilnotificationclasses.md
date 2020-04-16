@@ -6,8 +6,8 @@ old-location: netvista\rilnotificationclasses.htm
 tech.root: netvista
 ms.assetid: f61fc609-40ca-40eb-a877-88c73cf3506e
 ms.date: 02/16/2018
+keywords: ["RILNOTIFICATIONCLASSES enumeration"]
 ms.keywords: RILNOTIFICATIONCLASSES, RILNOTIFICATIONCLASSES enumeration [Network Drivers Starting with Windows Vista], RIL_NCLASS_FUNCRESULT, RIL_NCLASS_NOTIFICATIONS, netvista.rilnotificationclasses, rilapitypes/RILNOTIFICATIONCLASSES, rilapitypes/RIL_NCLASS_FUNCRESULT, rilapitypes/RIL_NCLASS_NOTIFICATIONS
-ms.topic: enum
 f1_keywords:
  - "ntddrilapitypes/RILNOTIFICATIONCLASSES"
 req.header: ntddrilapitypes.h

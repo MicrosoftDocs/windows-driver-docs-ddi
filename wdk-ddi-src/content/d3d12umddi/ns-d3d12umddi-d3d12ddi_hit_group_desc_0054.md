@@ -4,7 +4,7 @@ title: D3D12DDI_HIT_GROUP_DESC_0054 (d3d12umddi.h)
 description: Describes a hit group.
 ms.assetid: 026710fe-8976-4d56-a86e-1284581c3f70
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["D3D12DDI_HIT_GROUP_DESC_0054 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_HIT_GROUP_DESC_0054"
 ms.keywords: D3D12DDI_HIT_GROUP_DESC_0054, D3D12DDI_HIT_GROUP_DESC_0054, 

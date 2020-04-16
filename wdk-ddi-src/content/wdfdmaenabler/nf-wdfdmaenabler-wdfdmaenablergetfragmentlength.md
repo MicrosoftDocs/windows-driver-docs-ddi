@@ -6,8 +6,8 @@ old-location: wdf\wdfdmaenablergetfragmentlength.htm
 tech.root: wdf
 ms.assetid: f7481655-4413-4937-8a0a-99ca07d5b7b0
 ms.date: 02/26/2018
+keywords: ["WdfDmaEnablerGetFragmentLength function"]
 ms.keywords: DFDmaObjectRef_7c147fef-46f6-49aa-b8a9-9ef1a82ef963.xml, WdfDmaEnablerGetFragmentLength, WdfDmaEnablerGetFragmentLength method, kmdf.wdfdmaenablergetfragmentlength, wdf.wdfdmaenablergetfragmentlength, wdfdmaenabler/WdfDmaEnablerGetFragmentLength
-ms.topic: function
 f1_keywords:
  - "wdfdmaenabler/WdfDmaEnablerGetFragmentLength"
 req.header: wdfdmaenabler.h

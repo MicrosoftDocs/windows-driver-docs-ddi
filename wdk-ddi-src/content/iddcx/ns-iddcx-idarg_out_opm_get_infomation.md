@@ -6,8 +6,8 @@ old-location: display\idarg_out_opm_get_infomation.htm
 tech.root: display
 ms.assetid: 7c51b228-480d-4e19-aa70-4fcc44ffae16
 ms.date: 05/10/2018
+keywords: ["IDARG_OUT_OPM_GET_INFOMATION structure"]
 ms.keywords: IDARG_OUT_OPM_GET_INFOMATION, IDARG_OUT_OPM_GET_INFOMATION structure [Display Devices], display.idarg_out_opm_get_infomation, iddcx/IDARG_OUT_OPM_GET_INFOMATION
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDARG_OUT_OPM_GET_INFOMATION"
 req.header: iddcx.h

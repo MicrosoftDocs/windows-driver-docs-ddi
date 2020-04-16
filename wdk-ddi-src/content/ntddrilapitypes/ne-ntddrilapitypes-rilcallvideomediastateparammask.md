@@ -6,8 +6,8 @@ old-location: netvista\rilcallvideomediastateparammask.htm
 tech.root: netvista
 ms.assetid: e36617c0-8471-417d-9135-bdd29c586172
 ms.date: 05/02/2018
+keywords: ["RILCALLVIDEOMEDIASTATEPARAMMASK enumeration"]
 ms.keywords: RILCALLVIDEOMEDIASTATEPARAMMASK, RILCALLVIDEOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CALLVIDEO_ALL, RIL_PARAM_CALLVIDEO_CONTEXTID, RIL_PARAM_CALLVIDEO_FLAGS, netvista.rilcallvideomediastateparammask, ntddrilapitypes/RILCALLVIDEOMEDIASTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_CALLVIDEO_ALL, ntddrilapitypes/RIL_PARAM_CALLVIDEO_CONTEXTID, ntddrilapitypes/RIL_PARAM_CALLVIDEO_FLAGS
-ms.topic: enum
 f1_keywords:
  - "ntddrilapitypes/RILCALLVIDEOMEDIASTATEPARAMMASK"
 req.header: ntddrilapitypes.h

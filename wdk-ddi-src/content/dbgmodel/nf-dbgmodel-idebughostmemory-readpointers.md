@@ -4,7 +4,7 @@ title: IDebugHostMemory::ReadPointers (dbgmodel.h)
 description: Reads a number of pointer sized objects from the address space of the target as defined by the inpassed context and location.
 ms.assetid: 8c1d7ea2-97cf-421c-ac85-9030eb6cf582
 ms.date: 09/28/2018
-ms.topic: method
+keywords: ["IDebugHostMemory::ReadPointers"]
 f1_keywords:
  - "dbgmodel/IDebugHostMemory.ReadPointers"
 ms.keywords: IDebugHostMemory::ReadPointers, ReadPointers, IDebugHostMemory.ReadPointers, IDebugHostMemory::ReadPointers, IDebugHostMemory.ReadPointers

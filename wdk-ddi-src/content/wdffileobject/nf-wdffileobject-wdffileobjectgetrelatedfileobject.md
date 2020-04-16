@@ -6,8 +6,8 @@ old-location: wdf\wdffileobjectgetrelatedfileobject.htm
 tech.root: wdf
 ms.assetid: EB00FF6B-144B-4256-A362-D593FD4CFC98
 ms.date: 02/26/2018
+keywords: ["WdfFileObjectGetRelatedFileObject function"]
 ms.keywords: WdfFileObjectGetRelatedFileObject, WdfFileObjectGetRelatedFileObject method, wdf.wdffileobjectgetrelatedfileobject, wdffileobject/WdfFileObjectGetRelatedFileObject
-ms.topic: function
 f1_keywords:
  - "wdffileobject/WdfFileObjectGetRelatedFileObject"
 req.header: wdffileobject.h

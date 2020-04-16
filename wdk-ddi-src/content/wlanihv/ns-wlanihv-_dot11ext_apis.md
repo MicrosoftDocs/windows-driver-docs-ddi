@@ -6,8 +6,8 @@ old-location: netvista\dot11ext_apis.htm
 tech.root: netvista
 ms.assetid: d533acbb-eb3b-4c49-a057-9a99faaacfc1
 ms.date: 02/16/2018
+keywords: ["_DOT11EXT_APIS structure"]
 ms.keywords: "*PDOT11EXT_APIS, DOT11EXT_APIS, DOT11EXT_APIS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_27860ed6-1413-4bc6-9cd0-fb4391dff322.xml, PDOT11EXT_APIS, PDOT11EXT_APIS structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_APIS, netvista.dot11ext_apis, wlanihv/DOT11EXT_APIS, wlanihv/PDOT11EXT_APIS"
-ms.topic: struct
 f1_keywords:
  - "wlanihv/DOT11EXT_APIS"
 req.header: wlanihv.h

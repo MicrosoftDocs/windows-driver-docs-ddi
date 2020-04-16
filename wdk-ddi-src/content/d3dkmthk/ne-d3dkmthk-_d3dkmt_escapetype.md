@@ -4,7 +4,7 @@ title: _D3DKMT_ESCAPETYPE (d3dkmthk.h)
 description: Do not use the D3DKMT_VIDMMESCAPETYPE enumeration; it is for testing purposes only.
 ms.assetid: 6660c74f-4bdb-4c8a-920a-2b67ac3495f7
 ms.date: 10/19/2018
-ms.topic: enum
+keywords: ["_D3DKMT_ESCAPETYPE enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ESCAPETYPE"
 ms.keywords: _D3DKMT_ESCAPETYPE, D3DKMT_ESCAPETYPE,

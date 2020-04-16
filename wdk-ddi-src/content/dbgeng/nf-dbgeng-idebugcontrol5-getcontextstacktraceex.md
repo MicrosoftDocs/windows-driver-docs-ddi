@@ -6,8 +6,8 @@ old-location: debugger\idebugcontrol5_getcontextstacktraceex.htm
 tech.root: debugger
 ms.assetid: 26B191ED-A38B-412D-93C3-E9A55216F91E
 ms.date: 05/03/2018
+keywords: ["IDebugControl5::GetContextStackTraceEx"]
 ms.keywords: GetContextStackTraceEx, GetContextStackTraceEx method [Windows Debugging], GetContextStackTraceEx method [Windows Debugging],IDebugControl5 interface, IDebugControl5 interface [Windows Debugging],GetContextStackTraceEx method, IDebugControl5.GetContextStackTraceEx, IDebugControl5::GetContextStackTraceEx, dbgeng/IDebugControl5::GetContextStackTraceEx, debugger.idebugcontrol5_getcontextstacktraceex
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl5.GetContextStackTraceEx"
 req.header: dbgeng.h

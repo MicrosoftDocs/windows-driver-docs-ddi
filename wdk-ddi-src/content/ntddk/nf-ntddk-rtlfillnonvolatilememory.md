@@ -7,7 +7,7 @@ tech.root:
 ms.assetid: 4126cd43-dfd3-4d78-ba6c-192ece10aa2d
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: function
+keywords: ["RtlFillNonVolatileMemory function"]
 f1_keywords:
  - "ntddk/RtlFillNonVolatileMemory"
 ms.keywords: RtlFillNonVolatileMemory

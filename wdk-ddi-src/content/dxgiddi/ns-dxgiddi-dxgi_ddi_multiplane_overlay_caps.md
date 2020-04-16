@@ -6,8 +6,8 @@ old-location: display\dxgi_ddi_multiplane_overlay_caps.htm
 tech.root: display
 ms.assetid: 269d9a51-bc01-4de4-b160-35c725c174f7
 ms.date: 05/10/2018
+keywords: ["DXGI_DDI_MULTIPLANE_OVERLAY_CAPS structure"]
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_CAPS, DXGI_DDI_MULTIPLANE_OVERLAY_CAPS structure [Display Devices], display.dxgi_ddi_multiplane_overlay_caps, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_CAPS
-ms.topic: struct
 f1_keywords:
  - "dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_CAPS"
 req.header: dxgiddi.h

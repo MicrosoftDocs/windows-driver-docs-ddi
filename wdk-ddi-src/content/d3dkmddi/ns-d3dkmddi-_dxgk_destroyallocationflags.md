@@ -5,8 +5,8 @@ description: The DXGK_DESTROYALLOCATIONFLAGS structure identifies how to release
 old-location: display\dxgk_destroyallocationflags.htm
 ms.assetid: 8f848d68-cef4-45a2-bdda-1bc8c9df6272
 ms.date: 05/10/2018
+keywords: ["_DXGK_DESTROYALLOCATIONFLAGS structure"]
 ms.keywords: DXGK_DESTROYALLOCATIONFLAGS, DXGK_DESTROYALLOCATIONFLAGS structure [Display Devices], DmStructs_acc32f8d-3d16-493e-be05-e739bc635bd0.xml, _DXGK_DESTROYALLOCATIONFLAGS, d3dkmddi/DXGK_DESTROYALLOCATIONFLAGS, display.dxgk_destroyallocationflags
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_DESTROYALLOCATIONFLAGS"
 req.header: d3dkmddi.h

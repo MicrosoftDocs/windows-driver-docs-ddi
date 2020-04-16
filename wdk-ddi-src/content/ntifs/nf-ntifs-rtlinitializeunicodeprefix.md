@@ -6,8 +6,8 @@ old-location: ifsk\rtlinitializeunicodeprefix.htm
 tech.root: ifsk
 ms.assetid: 8891641a-392c-4c2b-aa5a-9464774d8610
 ms.date: 04/16/2018
+keywords: ["RtlInitializeUnicodePrefix function"]
 ms.keywords: RtlInitializeUnicodePrefix, RtlInitializeUnicodePrefix routine [Installable File System Drivers], ifsk.rtlinitializeunicodeprefix, ntifs/RtlInitializeUnicodePrefix, rtlref_cc6170fe-7f41-45ac-909c-75e341ad8d9c.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlInitializeUnicodePrefix"
 req.header: ntifs.h

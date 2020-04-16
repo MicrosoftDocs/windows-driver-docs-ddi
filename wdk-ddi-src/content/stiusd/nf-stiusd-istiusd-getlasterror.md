@@ -6,8 +6,8 @@ old-location: image\istiusd_getlasterror.htm
 tech.root: image
 ms.assetid: a7f265b8-c8a9-4a79-85e2-e3f52bf25f31
 ms.date: 05/03/2018
+keywords: ["IStiUSD::GetLastError"]
 ms.keywords: GetLastError, GetLastError method [Imaging Devices], GetLastError method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetLastError method, IStiUSD.GetLastError, IStiUSD::GetLastError, image.istiusd_getlasterror, stifnc_fad89b49-ff86-4a75-bae4-0aae22d9f5d6.xml, stiusd/IStiUSD::GetLastError
-ms.topic: method
 f1_keywords:
  - "stiusd/IStiUSD.GetLastError"
 req.header: stiusd.h

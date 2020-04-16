@@ -5,7 +5,7 @@ description: The NDIS_WWAN_PIN_APP structure specifies the target application ID
 tech.root: netvista
 ms.assetid: 9E401F36-21E5-482D-A8A6-952046911E20
 ms.date: 04/10/2019
-ms.topic: struct
+keywords: ["_NDIS_WWAN_PIN_APP structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_PIN_APP"
 ms.keywords: _NDIS_WWAN_PIN_APP, NDIS_WWAN_PIN_APP, *PNDIS_WWAN_PIN_APP, 

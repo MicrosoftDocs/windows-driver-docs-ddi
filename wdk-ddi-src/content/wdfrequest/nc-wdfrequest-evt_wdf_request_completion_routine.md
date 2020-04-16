@@ -6,8 +6,8 @@ old-location: wdf\completionroutine.htm
 tech.root: wdf
 ms.assetid: 7d3eb4d6-9fc7-4924-9b95-f5824713049b
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_REQUEST_COMPLETION_ROUTINE callback function"]
 ms.keywords: CompletionRoutine, CompletionRoutine callback function, DFRequestObjectRef_5eed5273-6939-4a56-846a-ee80c92c005a.xml, EVT_WDF_REQUEST_COMPLETION_ROUTINE, EVT_WDF_REQUEST_COMPLETION_ROUTINE callback, kmdf.completionroutine, wdf.completionroutine, wdfrequest/CompletionRoutine
-ms.topic: callback
 f1_keywords:
  - "wdfrequest/CompletionRoutine"
 req.header: wdfrequest.h
@@ -70,7 +70,7 @@ A handle to an I/O target object that represents the I/O target that completed t
 
 ### -param Params [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_completion_params">WDF_REQUEST_COMPLETION_PARAMS</a> structure that contains information about the completed request.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/ns-wdfrequest-_wdf_request_completion_params">WDF_REQUEST_COMPLETION_PARAMS</a> structure that contains information about the completed request. See note below regarding validity of the completion parameters.
 
 
 ### -param Context [in]

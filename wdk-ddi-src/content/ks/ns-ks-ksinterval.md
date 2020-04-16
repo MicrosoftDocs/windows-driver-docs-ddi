@@ -6,8 +6,8 @@ old-location: stream\ksinterval.htm
 tech.root: stream
 ms.assetid: 9e363bd1-3bfd-48cc-adc1-a14d23868a57
 ms.date: 04/23/2018
+keywords: ["KSINTERVAL structure"]
 ms.keywords: "*PKSINTERVAL, KSINTERVAL, KSINTERVAL structure [Streaming Media Devices], PKSINTERVAL, PKSINTERVAL structure pointer [Streaming Media Devices], ks-struct_56fded71-9af4-46a7-b872-1660582179ad.xml, ks/KSINTERVAL, ks/PKSINTERVAL, stream.ksinterval"
-ms.topic: struct
 f1_keywords:
  - "ks/KSINTERVAL"
 req.header: ks.h

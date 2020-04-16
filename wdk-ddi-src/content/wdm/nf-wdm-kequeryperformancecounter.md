@@ -6,8 +6,8 @@ old-location: kernel\kequeryperformancecounter.htm
 tech.root: kernel
 ms.assetid: ee1dbd20-5502-4448-b39a-4629ddc73d01
 ms.date: 04/30/2018
+keywords: ["KeQueryPerformanceCounter function"]
 ms.keywords: KeQueryPerformanceCounter, KeQueryPerformanceCounter routine [Kernel-Mode Driver Architecture], k105_39f70923-56fe-42b1-bec3-fe23ae62904d.xml, kernel.kequeryperformancecounter, wdm/KeQueryPerformanceCounter
-ms.topic: function
 f1_keywords:
  - "wdm/KeQueryPerformanceCounter"
 req.header: wdm.h

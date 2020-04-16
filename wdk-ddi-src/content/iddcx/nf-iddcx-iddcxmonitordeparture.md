@@ -6,8 +6,8 @@ old-location: display\iddcxmonitordeparture.htm
 tech.root: display
 ms.assetid: d23f70ee-a58d-4db1-8f21-b27887d661b9
 ms.date: 05/10/2018
+keywords: ["IddCxMonitorDeparture function"]
 ms.keywords: IddCxMonitorDeparture, IddCxMonitorDeparture method [Display Devices], display.iddcxmonitordeparture, iddcx/IddCxMonitorDeparture
-ms.topic: function
 f1_keywords:
  - "iddcx/IddCxMonitorDeparture"
 req.header: iddcx.h

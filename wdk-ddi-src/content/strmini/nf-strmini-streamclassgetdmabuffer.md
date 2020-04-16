@@ -6,8 +6,8 @@ old-location: stream\streamclassgetdmabuffer.htm
 tech.root: stream
 ms.assetid: 1b778d94-55e6-4a5f-aa77-739bcf9a8041
 ms.date: 04/23/2018
+keywords: ["StreamClassGetDmaBuffer function"]
 ms.keywords: StreamClassGetDmaBuffer, StreamClassGetDmaBuffer routine [Streaming Media Devices], strclass-routines_d010423c-9c48-4dee-8ca3-f4b2854d14c9.xml, stream.streamclassgetdmabuffer, strmini/StreamClassGetDmaBuffer
-ms.topic: function
 f1_keywords:
  - "strmini/StreamClassGetDmaBuffer"
 req.header: strmini.h

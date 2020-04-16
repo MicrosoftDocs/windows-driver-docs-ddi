@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: 47bf0b97-57e3-4f9d-8787-8ff6dfe6075f
 ms.author: windowsdriverdev
 ms.date: 02/13/2019
-ms.topic: enum
+keywords: ["WDI_FTM_RESPONSE_STATUS enumeration"]
 f1_keywords:
  - "wditypes/WDI_FTM_RESPONSE_STATUS"
 ms.keywords: WDI_FTM_RESPONSE_STATUS, WDI_FTM_RESPONSE_STATUS, 

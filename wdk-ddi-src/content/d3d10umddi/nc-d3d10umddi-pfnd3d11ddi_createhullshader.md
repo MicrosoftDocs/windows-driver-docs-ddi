@@ -5,8 +5,8 @@ description: The CreateHullShader function creates a hull shader.
 old-location: display\createhullshader.htm
 ms.assetid: 7fe647cf-37b0-427e-9e16-664bdd365ea6
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_CREATEHULLSHADER callback function"]
 ms.keywords: CreateHullShader, CreateHullShader callback function [Display Devices], PFND3D11DDI_CREATEHULLSHADER, PFND3D11DDI_CREATEHULLSHADER callback, UserModeDisplayDriverDx11_Functions_23b1e1ad-9451-4605-a04a-29dffc006bea.xml, d3d10umddi/CreateHullShader, display.createhullshader
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -69,6 +69,10 @@ An array of CONST UINT tokens that form the shader code. The first token in the 
 A handle to the driver's private data for the hull shader. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11ddi_calcprivatetessellationshadersize">CalcPrivateTessellationShaderSize</a>  function. The handle is just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its tessellation-shader object.
 
 ### -param Arg4
+
+*hRTShader* [in]
+
+A handle to the hull shader that the driver should use, when it calls back into the Direct3D runtime.
 
 ### -param Arg5
 

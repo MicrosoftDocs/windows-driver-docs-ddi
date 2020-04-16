@@ -6,8 +6,8 @@ old-location: stream\bda_diseqc_send.htm
 tech.root: stream
 ms.assetid: C40EAB5C-61AA-45FB-856E-07AB4D0228A6
 ms.date: 04/23/2018
+keywords: ["_BDA_DISEQC_SEND structure"]
 ms.keywords: "*PBDA_DISEQC_SEND, BDA_DISEQC_SEND, BDA_DISEQC_SEND structure [Streaming Media Devices], PBDA_DISEQC_SEND, PBDA_DISEQC_SEND structure pointer [Streaming Media Devices], _BDA_DISEQC_SEND, bdatypes/BDA_DISEQC_SEND, bdatypes/PBDA_DISEQC_SEND, stream.bda_diseqc_send"
-ms.topic: struct
 f1_keywords:
  - "bdatypes/BDA_DISEQC_SEND"
 req.header: bdatypes.h

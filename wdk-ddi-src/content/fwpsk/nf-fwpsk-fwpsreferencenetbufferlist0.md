@@ -6,8 +6,8 @@ old-location: netvista\fwpsreferencenetbufferlist0.htm
 tech.root: netvista
 ms.assetid: ff387b49-fecb-41d0-aac5-0a83eb8835d6
 ms.date: 05/02/2018
+keywords: ["FwpsReferenceNetBufferList0 function"]
 ms.keywords: FwpsReferenceNetBufferList0, FwpsReferenceNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReferenceNetBufferList0, netvista.fwpsreferencenetbufferlist0, wfp_ref_2_funct_3_fwps_R-Z_87b01939-7e75-4049-ae3a-07db074a3e62.xml
-ms.topic: function
 f1_keywords:
  - "fwpsk/FwpsReferenceNetBufferList0"
 req.header: fwpsk.h

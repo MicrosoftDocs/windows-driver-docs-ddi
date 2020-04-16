@@ -6,8 +6,8 @@ old-location: print\iprintschemafeature_selectedoption.htm
 tech.root: print
 ms.assetid: C22BC037-05D2-4F44-8704-D1D56909B603
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaFeature::get_SelectedOption"]
 ms.keywords: IPrintSchemaFeature interface [Print Devices],SelectedOption property, IPrintSchemaFeature.SelectedOption, IPrintSchemaFeature.get_SelectedOption, IPrintSchemaFeature::SelectedOption, IPrintSchemaFeature::get_SelectedOption, SelectedOption property [Print Devices], SelectedOption property [Print Devices],IPrintSchemaFeature interface, get_SelectedOption, print.iprintschemafeature_selectedoption, printerextension/IPrintSchemaFeature::SelectedOption, printerextension/IPrintSchemaFeature::get_SelectedOption
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintSchemaFeature.SelectedOption"
 req.header: printerextension.h

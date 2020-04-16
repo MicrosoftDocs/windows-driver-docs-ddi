@@ -6,8 +6,8 @@ old-location: wdf\iwdfdriver_retrieveversionstring.htm
 tech.root: wdf
 ms.assetid: 2fa320df-bafd-42f4-a0a1-14151c39d68a
 ms.date: 02/26/2018
+keywords: ["IWDFDriver::RetrieveVersionString"]
 ms.keywords: IWDFDriver interface,RetrieveVersionString method, IWDFDriver.RetrieveVersionString, IWDFDriver::RetrieveVersionString, RetrieveVersionString, RetrieveVersionString method, RetrieveVersionString method,IWDFDriver interface, UMDFDriverObjectRef_fea0fb04-a861-44b6-8552-150454f9933d.xml, umdf.iwdfdriver_retrieveversionstring, wdf.iwdfdriver_retrieveversionstring, wudfddi/IWDFDriver::RetrieveVersionString
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFDriver.RetrieveVersionString"
 req.header: wudfddi.h

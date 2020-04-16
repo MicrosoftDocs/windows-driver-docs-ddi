@@ -6,8 +6,8 @@ old-location: audio\pcaddstreamresource.htm
 tech.root: audio
 ms.assetid: CADB17C6-07EA-4497-AA73-4AECCC1D0A45
 ms.date: 05/08/2018
+keywords: ["PcAddStreamResource function"]
 ms.keywords: PcAddStreamResource, PcAddStreamResource function [Audio Devices], audio.pcaddstreamresource, portcls/PcAddStreamResource
-ms.topic: function
 f1_keywords:
  - "portcls/PcAddStreamResource"
 req.header: portcls.h

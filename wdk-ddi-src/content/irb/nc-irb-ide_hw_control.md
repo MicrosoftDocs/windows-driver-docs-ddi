@@ -6,8 +6,8 @@ old-location: storage\idehwcontrol.htm
 tech.root: storage
 ms.assetid: 53f85f8d-3b50-4cfe-8bdd-d41d8c057f3e
 ms.date: 03/29/2018
+keywords: ["IDE_HW_CONTROL callback function"]
 ms.keywords: IDE_HW_CONTROL, IdeHwControl, IdeHwControl routine [Storage Devices], atartns_9c868c08-5470-4940-9067-0aa8a796b191.xml, irb/IdeHwControl, storage.idehwcontrol
-ms.topic: callback
 f1_keywords:
  - "irb/IdeHwControl"
 req.header: irb.h

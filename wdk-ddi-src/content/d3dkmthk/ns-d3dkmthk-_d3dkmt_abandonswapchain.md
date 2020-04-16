@@ -4,7 +4,7 @@ title: _D3DKMT_ABANDONSWAPCHAIN (d3dkmthk.h)
 description: Arguments used to abandon the swap chain effect.
 ms.assetid: 99e22aaa-40a5-4802-8549-322486e680ae
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DKMT_ABANDONSWAPCHAIN structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ABANDONSWAPCHAIN"
 ms.keywords: _D3DKMT_ABANDONSWAPCHAIN, D3DKMT_ABANDONSWAPCHAIN, 

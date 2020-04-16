@@ -4,7 +4,7 @@ title: _PCI_EXPRESS_PTM_CAPABILITY (wdm.h)
 description: Reserved. Do not use.
 ms.assetid: 55500c00-063e-4d11-aef1-ba3fcc45681d
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_PCI_EXPRESS_PTM_CAPABILITY structure"]
 f1_keywords:
  - "wdm/_PCI_EXPRESS_PTM_CAPABILITY"
 ms.keywords: _PCI_EXPRESS_PTM_CAPABILITY, PCI_EXPRESS_PTM_CAPABILITY, *PPCI_EXPRESS_PTM_CAPABILITY, 

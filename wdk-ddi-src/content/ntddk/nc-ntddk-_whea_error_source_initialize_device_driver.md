@@ -7,7 +7,7 @@ tech.root:
 ms.assetid: 67a4d3d0-c449-4878-b201-78b34a958fe8
 ms.author: windowsdriverdev
 ms.date: 03/05/2019
-ms.topic: callback
+keywords: ["_WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER callback function"]
 f1_keywords:
  - "ntddk/_WHEA_ERROR_SOURCE_INITIALIZE_DEVICE_DRIVER"
 req.header: ntddk.h
@@ -67,11 +67,11 @@ NTSTATUS WheaErrorSourceInitializeDeviceDriver
 
 ## -parameters
 
-### -param Context: 
+### -param Context
 
 A pointer to the context that the driver supplied when it called [**WheaAddErrorSourceDeviceDriver**](nf-ntddk-wheaadderrorsourcedevicedriver.md).
 
-### -param ErrorSourceId: 
+### -param ErrorSourceId
 
 A ULONG value that uniquely identifies this driver as an error source.
 

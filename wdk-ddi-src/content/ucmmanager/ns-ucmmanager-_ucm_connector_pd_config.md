@@ -6,8 +6,8 @@ old-location: buses\ucm_connector_pd_config.htm
 tech.root: usbref
 ms.assetid: 9DE2AF2D-D6B5-4FC4-8871-246F3661980F
 ms.date: 05/07/2018
+keywords: ["_UCM_CONNECTOR_PD_CONFIG structure"]
 ms.keywords: "*PUCM_CONNECTOR_PD_CONFIG, PUCM_CONNECTOR_PD_CONFIG, PUCM_CONNECTOR_PD_CONFIG structure pointer [Buses], UCM_CONNECTOR_PD_CONFIG, UCM_CONNECTOR_PD_CONFIG structure [Buses], _UCM_CONNECTOR_PD_CONFIG, buses.ucm_connector_pd_config, ucmmanager/PUCM_CONNECTOR_PD_CONFIG, ucmmanager/UCM_CONNECTOR_PD_CONFIG"
-ms.topic: struct
 f1_keywords:
  - "ucmmanager/UCM_CONNECTOR_PD_CONFIG"
 req.header: ucmmanager.h

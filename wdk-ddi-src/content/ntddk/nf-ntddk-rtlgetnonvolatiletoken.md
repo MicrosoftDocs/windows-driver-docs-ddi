@@ -6,8 +6,8 @@ old-location: ifsk\rtlgetnonvolatiletoken.htm
 tech.root: ifsk
 ms.assetid: A9E866D4-C47F-4926-A838-EDB739CF1185
 ms.date: 04/16/2018
+keywords: ["RtlGetNonVolatileToken function"]
 ms.keywords: RtlGetNonVolatileToken, RtlGetNonVolatileToken routine [Installable File System Drivers], ifsk.rtlgetnonvolatiletoken, ntddk/RtlGetNonVolatileToken
-ms.topic: function
 f1_keywords:
  - "ntddk/RtlGetNonVolatileToken"
 req.header: ntddk.h

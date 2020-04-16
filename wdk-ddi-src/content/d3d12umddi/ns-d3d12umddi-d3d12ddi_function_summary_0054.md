@@ -4,7 +4,7 @@ title: D3D12DDI_FUNCTION_SUMMARY_0054 (d3d12umddi.h)
 description: Contains the summary of a function.
 ms.assetid: 4cc6cf19-479c-4600-8c90-5f6345eece41
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["D3D12DDI_FUNCTION_SUMMARY_0054 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_FUNCTION_SUMMARY_0054"
 ms.keywords: D3D12DDI_FUNCTION_SUMMARY_0054, D3D12DDI_FUNCTION_SUMMARY_0054, 

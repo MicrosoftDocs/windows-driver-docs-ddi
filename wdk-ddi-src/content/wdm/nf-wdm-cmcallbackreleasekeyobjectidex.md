@@ -6,8 +6,8 @@ old-location: kernel\cmcallbackreleasekeyobjectidex.htm
 tech.root: kernel
 ms.assetid: 3361DAEF-AC2A-401B-80E8-0220F191587C
 ms.date: 04/30/2018
+keywords: ["CmCallbackReleaseKeyObjectIDEx function"]
 ms.keywords: CmCallbackReleaseKeyObjectIDEx, CmCallbackReleaseKeyObjectIDEx routine [Kernel-Mode Driver Architecture], kernel.cmcallbackreleasekeyobjectidex, wdm/CmCallbackReleaseKeyObjectIDEx
-ms.topic: function
 f1_keywords:
  - "wdm/CmCallbackReleaseKeyObjectIDEx"
 req.header: wdm.h

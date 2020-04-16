@@ -7,7 +7,7 @@ tech.root: storage
 ms.assetid: 988906ae-fa8c-4370-aedb-c5073766282c
 ms.author: windowsdriverdev
 ms.date: 08/23/2019
-ms.topic: struct
+keywords: ["DEVICE_DSM_REPORT_ZONES_DATA structure"]
 f1_keywords:
  - "ntddstor/DEVICE_DSM_REPORT_ZONES_DATA"
 ms.keywords: DEVICE_DSM_REPORT_ZONES_DATA, DEVICE_DSM_REPORT_ZONES_DATA, *PDEVICE_DSM_REPORT_ZONES_DATA, DEVICE_DSM_REPORT_ZONES_OUTPUT, *PDEVICE_DSM_REPORT_ZONES_OUTPUT, 

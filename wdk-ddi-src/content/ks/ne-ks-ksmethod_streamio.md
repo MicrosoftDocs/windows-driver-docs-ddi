@@ -6,8 +6,8 @@ old-location: stream\ksmethod_streamio.htm
 tech.root: stream
 ms.assetid: BFA53A37-A1EB-4F06-9903-967A94029BC8
 ms.date: 04/23/2018
+keywords: ["KSMETHOD_STREAMIO enumeration"]
 ms.keywords: KSMETHOD_STREAMIO, KSMETHOD_STREAMIO enumeration [Streaming Media Devices], KSMETHOD_STREAMIO_READ, KSMETHOD_STREAMIO_WRITE, ks/KSMETHOD_STREAMIO, ks/KSMETHOD_STREAMIO_READ, ks/KSMETHOD_STREAMIO_WRITE, stream.ksmethod_streamio
-ms.topic: enum
 f1_keywords:
  - "ks/KSMETHOD_STREAMIO"
 req.header: ks.h

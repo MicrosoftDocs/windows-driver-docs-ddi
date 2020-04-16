@@ -6,7 +6,7 @@ ms.author: misaso
 description: Sets the fault report on a device that is already attached to a domain.
 ms.assetid: bf44815d-9a0b-482b-8525-816a98c727f9
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["IOMMU_DOMAIN_FAULT_HANDLER callback function"]
 f1_keywords:
  - "wdm/IOMMU_DOMAIN_FAULT_HANDLER"
 req.header: wdm.h

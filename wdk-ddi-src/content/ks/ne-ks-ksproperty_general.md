@@ -6,8 +6,8 @@ old-location: stream\ksproperty_general.htm
 tech.root: stream
 ms.assetid: 45D94211-4756-4D3C-8512-2AF7953CFADC
 ms.date: 04/23/2018
+keywords: ["KSPROPERTY_GENERAL enumeration"]
 ms.keywords: KSPROPERTY_GENERAL, KSPROPERTY_GENERAL enumeration [Streaming Media Devices], KSPROPERTY_GENERAL_COMPONENTID, ks/KSPROPERTY_GENERAL, ks/KSPROPERTY_GENERAL_COMPONENTID, stream.ksproperty_general
-ms.topic: enum
 f1_keywords:
  - "ks/KSPROPERTY_GENERAL"
 req.header: ks.h

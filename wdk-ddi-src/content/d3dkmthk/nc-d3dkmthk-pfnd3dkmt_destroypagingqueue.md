@@ -4,7 +4,7 @@ title: PFND3DKMT_DESTROYPAGINGQUEUE (d3dkmthk.h)
 description: The PFND3DKMT_DESTROYPAGINGQUEUE callback function destroys paging queue.
 ms.assetid: 7d6d38df-9ec0-4d6e-92f3-aecb8f330161
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DKMT_DESTROYPAGINGQUEUE callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_DESTROYPAGINGQUEUE"
 req.header: d3dkmthk.h

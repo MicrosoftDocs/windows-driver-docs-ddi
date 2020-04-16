@@ -6,8 +6,8 @@ old-location: stream\bda_wmdrmtuner_pidprotection.htm
 tech.root: stream
 ms.assetid: EA2590B0-7EF0-4E5E-A270-A13047BE0F2C
 ms.date: 04/23/2018
+keywords: ["_BDA_WMDRMTUNER_PIDPROTECTION structure"]
 ms.keywords: "*PBDA_WMDRMTUNER_PIDPROTECTION, BDA_WMDRMTUNER_PIDPROTECTION, BDA_WMDRMTUNER_PIDPROTECTION structure [Streaming Media Devices], PBDA_WMDRMTUNER_PIDPROTECTION, PBDA_WMDRMTUNER_PIDPROTECTION structure pointer [Streaming Media Devices], _BDA_WMDRMTUNER_PIDPROTECTION, bdatypes/BDA_WMDRMTUNER_PIDPROTECTION, bdatypes/PBDA_WMDRMTUNER_PIDPROTECTION, stream.bda_wmdrmtuner_pidprotection"
-ms.topic: struct
 f1_keywords:
  - "bdatypes/BDA_WMDRMTUNER_PIDPROTECTION"
 req.header: bdatypes.h

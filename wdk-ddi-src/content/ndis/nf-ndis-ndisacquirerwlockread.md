@@ -6,8 +6,8 @@ old-location: netvista\ndisacquirerwlockread.htm
 tech.root: netvista
 ms.assetid: a9c16537-e344-43d4-bae7-fb11487caa0e
 ms.date: 05/02/2018
+keywords: ["NdisAcquireRWLockRead function"]
 ms.keywords: NdisAcquireRWLockRead, NdisAcquireRWLockRead function [Network Drivers Starting with Windows Vista], ndis/NdisAcquireRWLockRead, ndis_processor_group_ref_0ac3bf44-b94f-4818-af69-79eec8045cc9.xml, netvista.ndisacquirerwlockread
-ms.topic: function
 f1_keywords:
  - "ndis/NdisAcquireRWLockRead"
 req.header: ndis.h

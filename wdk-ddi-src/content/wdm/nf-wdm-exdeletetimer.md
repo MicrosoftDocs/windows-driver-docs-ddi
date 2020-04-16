@@ -6,8 +6,8 @@ old-location: kernel\exdeletetimer.htm
 tech.root: kernel
 ms.assetid: CE0C1D49-1505-464E-90DB-2C6D30C04EC1
 ms.date: 04/30/2018
+keywords: ["ExDeleteTimer function"]
 ms.keywords: ExDeleteTimer, ExDeleteTimer routine [Kernel-Mode Driver Architecture], kernel.exdeletetimer, wdm/ExDeleteTimer
-ms.topic: function
 f1_keywords:
  - "wdm/ExDeleteTimer"
 req.header: wdm.h

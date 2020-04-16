@@ -6,8 +6,8 @@ old-location: stream\ksquerydevicepnpobject.htm
 tech.root: stream
 ms.assetid: 207b776a-8f51-4385-a171-a9d0e84e70b5
 ms.date: 04/23/2018
+keywords: ["KsQueryDevicePnpObject function"]
 ms.keywords: KsQueryDevicePnpObject, KsQueryDevicePnpObject function [Streaming Media Devices], ks/KsQueryDevicePnpObject, ksfunc_dd821abc-bd3b-45e9-a1de-1f9fd201db8e.xml, stream.ksquerydevicepnpobject
-ms.topic: function
 f1_keywords:
  - "ks/KsQueryDevicePnpObject"
 req.header: ks.h

@@ -6,8 +6,8 @@ old-location: audio\iregistrykey_queryvaluekey.htm
 tech.root: audio
 ms.assetid: 6339a8bf-ab32-48bc-aae6-2cce2a6a648d
 ms.date: 05/08/2018
+keywords: ["IRegistryKey::QueryValueKey"]
 ms.keywords: IRegistryKey interface [Audio Devices],QueryValueKey method, IRegistryKey.QueryValueKey, IRegistryKey::QueryValueKey, QueryValueKey, QueryValueKey method [Audio Devices], QueryValueKey method [Audio Devices],IRegistryKey interface, audio.iregistrykey_queryvaluekey, audmp-routines_2b41aa08-8b71-45af-bcfa-c33723c82c13.xml, portcls/IRegistryKey::QueryValueKey
-ms.topic: method
 f1_keywords:
  - "portcls/IRegistryKey.QueryValueKey"
 req.header: portcls.h

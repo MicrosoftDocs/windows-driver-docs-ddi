@@ -4,7 +4,7 @@ title: _DXGKARGCB_PINFRAMEBUFFERFORSAVE (d3dkmddi.h)
 description: Arguments used by the DxgkcbPinFrameBufferForSave callback function, to pin frame buffer for save.
 ms.assetid: 7c151074-7ac1-42b2-84ae-78ae67087b44
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_DXGKARGCB_PINFRAMEBUFFERFORSAVE structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARGCB_PINFRAMEBUFFERFORSAVE"
 ms.keywords: _DXGKARGCB_PINFRAMEBUFFERFORSAVE, DXGKARGCB_PINFRAMEBUFFERFORSAVE, *INOUT_PDXGKARGCB_PINFRAMEBUFFERFORSAVE

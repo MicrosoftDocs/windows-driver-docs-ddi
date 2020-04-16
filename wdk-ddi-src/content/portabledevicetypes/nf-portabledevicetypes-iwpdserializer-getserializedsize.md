@@ -6,8 +6,8 @@ old-location: wpddk\iwpdserializer_getserializedsize.htm
 tech.root: wpd_dk
 ms.assetid: 85b87586-d4aa-4590-9a4b-73439fa8cf6a
 ms.date: 02/15/2018
+keywords: ["IWpdSerializer::GetSerializedSize"]
 ms.keywords: GetSerializedSize, GetSerializedSize method, GetSerializedSize method,IWpdSerializer interface, IWpdSerializer interface,GetSerializedSize method, IWpdSerializer.GetSerializedSize, IWpdSerializer::GetSerializedSize, IWpdSerializerGetSerializedSize, portabledevicetypes/IWpdSerializer::GetSerializedSize, wpddk.iwpdserializer_getserializedsize
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IWpdSerializer.GetSerializedSize"
 req.header: portabledevicetypes.h

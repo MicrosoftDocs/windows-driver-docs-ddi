@@ -4,7 +4,7 @@ title: PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED (sensorscx.h)
 description: Indicates that the history retrieval has completed.
 ms.assetid: 62f81ebc-b081-42d6-a757-44d94b1da693
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["*PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED callback function"]
 f1_keywords:
  - "sensorscx/*PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED"
 req.header: sensorscx.h
@@ -31,7 +31,7 @@ api_type:
 api_location: 
 - sensorscx.h
 api_name: 
-- *PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED
+- PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED
 product:
 - Windows
 targetos: Windows

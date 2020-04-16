@@ -6,8 +6,8 @@ old-location: spb\spbdeviceinitialize.htm
 tech.root: SPB
 ms.assetid: 2EB57066-164F-445C-8621-7B65E6715E97
 ms.date: 04/30/2018
+keywords: ["SpbDeviceInitialize function"]
 ms.keywords: SPB.spbdeviceinitialize, SpbDeviceInitialize, SpbDeviceInitialize method [Buses], spbcx/SpbDeviceInitialize
-ms.topic: function
 f1_keywords:
  - "spbcx/SpbDeviceInitialize"
 req.header: spbcx.h

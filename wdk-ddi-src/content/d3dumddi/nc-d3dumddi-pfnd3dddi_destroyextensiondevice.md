@@ -6,8 +6,8 @@ old-location: display\destroyextensiondevice.htm
 tech.root: display
 ms.assetid: 8c4bcab3-b903-4f39-aab0-7efb3b18d068
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_DESTROYEXTENSIONDEVICE callback function"]
 ms.keywords: DestroyExtensionDevice, DestroyExtensionDevice callback function [Display Devices], PFND3DDDI_DESTROYEXTENSIONDEVICE, PFND3DDDI_DESTROYEXTENSIONDEVICE callback, UserModeDisplayDriver_Functions_6d9ce1e0-efda-4633-83fb-fa6a5aa5f37b.xml, d3dumddi/DestroyExtensionDevice, display.destroyextensiondevice
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

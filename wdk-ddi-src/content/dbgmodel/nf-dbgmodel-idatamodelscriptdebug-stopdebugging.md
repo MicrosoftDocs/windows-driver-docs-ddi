@@ -4,7 +4,7 @@ title: IDataModelScriptDebug::StopDebugging (dbgmodel.h)
 description: The StopDebugging method is called by a client that wants to stop debugging.
 ms.assetid: 92a0f999-c123-4130-afcd-581deae19647
 ms.date: 08/21/2018
-ms.topic: method
+keywords: ["IDataModelScriptDebug::StopDebugging"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug.StopDebugging"
 ms.keywords: IDataModelScriptDebug::StopDebugging, StopDebugging, IDataModelScriptDebug.StopDebugging, IDataModelScriptDebug::StopDebugging, IDataModelScriptDebug.StopDebugging

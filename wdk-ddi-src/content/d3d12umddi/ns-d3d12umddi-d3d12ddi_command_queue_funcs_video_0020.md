@@ -5,8 +5,8 @@ description: Command queue functions for video.
 old-location: display\d3d12ddi_command_queue_funcs_video.htm
 ms.assetid: 3B1FDF51-8B5E-4DF9-BFEC-91FD1A1DEC63
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020 structure"]
 ms.keywords: D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020, D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020 structure [Display Devices], d3d12umddi/D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020, display.d3d12ddi_command_queue_funcs_video
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_COMMAND_QUEUE_FUNCS_VIDEO_0020"
 req.header: d3d12umddi.h

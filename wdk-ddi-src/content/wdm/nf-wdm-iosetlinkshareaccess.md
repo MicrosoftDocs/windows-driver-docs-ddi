@@ -6,8 +6,8 @@ old-location: kernel\iosetlinkshareaccess.htm
 tech.root: kernel
 ms.assetid: 206D74F6-09D5-4C04-8A0A-A7765E64BB27
 ms.date: 04/30/2018
+keywords: ["IoSetLinkShareAccess function"]
 ms.keywords: IoSetLinkShareAccess, IoSetLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.iosetlinkshareaccess, wdm/IoSetLinkShareAccess
-ms.topic: function
 f1_keywords:
  - "wdm/IoSetLinkShareAccess"
 req.header: wdm.h

@@ -5,8 +5,8 @@ description: The DXGK_SEGMENTBANKPREFERENCE structure describes bank preferences
 old-location: display\dxgk_segmentbankpreference.htm
 ms.assetid: ff292137-4d95-4388-aae9-f6436b403c6a
 ms.date: 05/10/2018
+keywords: ["_DXGK_SEGMENTBANKPREFERENCE structure"]
 ms.keywords: DXGK_SEGMENTBANKPREFERENCE, DXGK_SEGMENTBANKPREFERENCE structure [Display Devices], DmStructs_58615e96-0b7c-49a9-8966-0f627d7078f7.xml, _DXGK_SEGMENTBANKPREFERENCE, d3dkmddi/DXGK_SEGMENTBANKPREFERENCE, display.dxgk_segmentbankpreference
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_SEGMENTBANKPREFERENCE"
 req.header: d3dkmddi.h

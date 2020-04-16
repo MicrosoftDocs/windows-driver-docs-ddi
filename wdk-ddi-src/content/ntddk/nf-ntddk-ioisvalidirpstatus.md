@@ -6,8 +6,8 @@ old-location: kernel\ioisvalidirpstatus.htm
 tech.root: kernel
 ms.assetid: 0A995357-A578-41C6-A1B8-ABD251C16C83
 ms.date: 04/30/2018
+keywords: ["IoIsValidIrpStatus function"]
 ms.keywords: IoIsValidIrpStatus, IoIsValidIrpStatus routine [Kernel-Mode Driver Architecture], kernel.ioisvalidirpstatus, ntddk/IoIsValidIrpStatus
-ms.topic: function
 f1_keywords:
  - "ntddk/IoIsValidIrpStatus"
 req.header: ntddk.h

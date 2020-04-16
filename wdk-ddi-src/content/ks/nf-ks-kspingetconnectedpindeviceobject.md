@@ -6,8 +6,8 @@ old-location: stream\kspingetconnectedpindeviceobject.htm
 tech.root: stream
 ms.assetid: 9588ef16-baf7-4e2b-a624-864ae218c385
 ms.date: 04/23/2018
+keywords: ["KsPinGetConnectedPinDeviceObject function"]
 ms.keywords: KsPinGetConnectedPinDeviceObject, KsPinGetConnectedPinDeviceObject function [Streaming Media Devices], avfunc_baa36f5c-d0b9-4c18-9a9d-1a128c7ba8bd.xml, ks/KsPinGetConnectedPinDeviceObject, stream.kspingetconnectedpindeviceobject
-ms.topic: function
 f1_keywords:
  - "ks/KsPinGetConnectedPinDeviceObject"
 req.header: ks.h

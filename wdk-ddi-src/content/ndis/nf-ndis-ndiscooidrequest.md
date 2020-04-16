@@ -6,8 +6,8 @@ old-location: netvista\ndiscooidrequest.htm
 tech.root: netvista
 ms.assetid: 7d46f2c1-7b54-4510-968a-2e35e33cf849
 ms.date: 05/02/2018
+keywords: ["NdisCoOidRequest function"]
 ms.keywords: NdisCoOidRequest, NdisCoOidRequest function [Network Drivers Starting with Windows Vista], condis_request_ref_4f9b0ee3-9096-4f13-9851-edd1f7b4af8b.xml, ndis/NdisCoOidRequest, netvista.ndiscooidrequest
-ms.topic: function
 f1_keywords:
  - "ndis/NdisCoOidRequest"
 req.header: ndis.h

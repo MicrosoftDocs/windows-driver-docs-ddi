@@ -4,7 +4,7 @@ title: _D3DKMT_QUERYCLOCKCALIBRATION (d3dkmdt.h)
 description: Arguments used to query clock calibration information.
 ms.assetid: b58027b5-e51b-4eb2-b8f0-0400be664995
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DKMT_QUERYCLOCKCALIBRATION structure"]
 f1_keywords:
  - "d3dkmdt/_D3DKMT_QUERYCLOCKCALIBRATION"
 ms.keywords: _D3DKMT_QUERYCLOCKCALIBRATION, D3DKMT_QUERYCLOCKCALIBRATION, 

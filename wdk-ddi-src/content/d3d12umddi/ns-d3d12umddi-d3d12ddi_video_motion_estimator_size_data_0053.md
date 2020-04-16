@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053 (d3d12umddi.h)
 description: The video capability check for motion estimation size.
 ms.assetid: 7b0578ac-afde-4356-ac90-c906f8c91487
 ms.date: 10/23/2018
-ms.topic: struct
+keywords: ["D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053"
 ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0053, 

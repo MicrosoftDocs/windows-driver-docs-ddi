@@ -5,8 +5,8 @@ description: Opens a shared resource from an NT handle.
 old-location: display\d3dkmtopenresourcefromnthandle.htm
 ms.assetid: d5a66102-782a-482e-8119-48015820d0c7
 ms.date: 05/10/2018
+keywords: ["D3DKMTOpenResourceFromNtHandle function"]
 ms.keywords: D3DKMTOpenResourceFromNtHandle, D3DKMTOpenResourceFromNtHandle callback function [Display Devices], PFND3DKMT_OPENRESOURCEFROMNTHANDLE, PFND3DKMT_OPENRESOURCEFROMNTHANDLE callback, d3dkmthk/D3DKMTOpenResourceFromNtHandle, display.d3dkmtopenresourcefromnthandle
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenResourceFromNtHandle"
 req.header: d3dkmthk.h

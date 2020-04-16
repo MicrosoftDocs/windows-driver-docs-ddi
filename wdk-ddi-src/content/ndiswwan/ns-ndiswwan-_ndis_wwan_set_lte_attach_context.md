@@ -5,7 +5,7 @@ description: The NDIS_WWAN_SET_LTE_ATTACH_CONTEXT structure describes default LT
 tech.root: netvista
 ms.assetid: f5be330f-e65b-41b5-9c29-e73106f46137
 ms.date: 08/22/2018
-ms.topic: struct
+keywords: ["_NDIS_WWAN_SET_LTE_ATTACH_CONTEXT structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_SET_LTE_ATTACH_CONTEXT"
 ms.keywords: _NDIS_WWAN_SET_LTE_ATTACH_CONTEXT, NDIS_WWAN_SET_LTE_ATTACH_CONTEXT, *PNDIS_WWAN_SET_LTE_ATTACH_CONTEXT, 

@@ -6,8 +6,8 @@ old-location: audio\imasterclock_gettime.htm
 tech.root: audio
 ms.assetid: 9e88a94d-ce25-43ee-8187-30b406e8d9e4
 ms.date: 05/08/2018
+keywords: ["IMasterClock::GetTime"]
 ms.keywords: GetTime, GetTime method [Audio Devices], GetTime method [Audio Devices],IMasterClock interface, IMasterClock interface [Audio Devices],GetTime method, IMasterClock.GetTime, IMasterClock::GetTime, audio.imasterclock_gettime, audmp-routines_08af6e05-c432-4560-91fb-f17687291fc0.xml, dmusicks/IMasterClock::GetTime
-ms.topic: method
 f1_keywords:
  - "dmusicks/IMasterClock.GetTime"
 req.header: dmusicks.h

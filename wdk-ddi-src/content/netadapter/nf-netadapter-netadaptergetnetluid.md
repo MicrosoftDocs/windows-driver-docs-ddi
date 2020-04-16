@@ -5,7 +5,7 @@ description: Retrieves the NET_LUID that is assigned to a network adapter.
 tech.root: netvista
 ms.assetid: 7e4fe2f1-35a4-434f-a499-3cf6917c9350
 ms.date: 02/06/2018
-ms.topic: function
+keywords: ["NetAdapterGetNetLuid function"]
 f1_keywords:
  - "netadapter/NetAdapterGetNetLuid"
 ms.keywords: NetAdapterGetNetLuid

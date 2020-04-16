@@ -5,8 +5,8 @@ description: The SetRenderTargets function sets render target surfaces.
 old-location: display\setrendertargets.htm
 ms.assetid: 852893e6-1f1c-470a-ab72-f52c1e06e0c0
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_SETRENDERTARGETS callback function"]
 ms.keywords: PFND3D10DDI_SETRENDERTARGETS, PFND3D10DDI_SETRENDERTARGETS callback, SetRenderTargets, SetRenderTargets callback function [Display Devices], UserModeDisplayDriverDx10_Functions_6d202eaa-50bb-4ffd-9217-a0c172974e49.xml, d3d10umddi/SetRenderTargets, display.setrendertargets
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -72,7 +72,11 @@ An array of handles to the render target view objects to set. Note that some han
 
 Note that the number that <i>ClearTargets</i> specifies is only an optimization aid because the user-mode display driver could calculate this number.
 
-### -param Arg5
+### -param hDepthStencilView
+
+*hDepthStencilView* [in]
+
+Handle to the depth stencil view.
 
 ## -remarks
 

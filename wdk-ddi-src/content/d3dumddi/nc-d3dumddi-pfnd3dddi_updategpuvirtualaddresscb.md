@@ -6,8 +6,8 @@ old-location: display\pfnupdategpuvirtualaddresscb.htm
 tech.root: display
 ms.assetid: 99D075A0-4483-47D1-BA24-80C45BFF407A
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB callback function"]
 ms.keywords: PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB, PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB callback, d3dumddi/pfnUpdateGpuVirtualAddressCb, display.pfnupdategpuvirtualaddresscb, pfnUpdateGpuVirtualAddressCb, pfnUpdateGpuVirtualAddressCb callback function [Display Devices]
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

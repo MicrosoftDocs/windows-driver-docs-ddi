@@ -6,8 +6,8 @@ old-location: netvista\ndisfoidrequestcomplete.htm
 tech.root: netvista
 ms.assetid: 1d72e8e3-1053-4731-a16c-fc3e4f7460e9
 ms.date: 05/02/2018
+keywords: ["NdisFOidRequestComplete function"]
 ms.keywords: NdisFOidRequestComplete, NdisFOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisFOidRequestComplete, ndis_request_ref_df2bb357-d053-4f02-a828-46a72dc1fee7.xml, netvista.ndisfoidrequestcomplete
-ms.topic: function
 f1_keywords:
  - "ndis/NdisFOidRequestComplete"
 req.header: ndis.h

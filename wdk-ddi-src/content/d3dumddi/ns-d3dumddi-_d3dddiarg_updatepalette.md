@@ -6,8 +6,8 @@ old-location: display\d3dddiarg_updatepalette.htm
 tech.root: display
 ms.assetid: 6637c102-4e77-4030-9bb5-ab9fb4bac2c7
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_UPDATEPALETTE structure"]
 ms.keywords: D3DDDIARG_UPDATEPALETTE, D3DDDIARG_UPDATEPALETTE structure [Display Devices], UMDisplayDriver_param_Structs_abbbfa0f-d2f6-4985-a189-56e4592c1c1e.xml, _D3DDDIARG_UPDATEPALETTE, d3dumddi/D3DDDIARG_UPDATEPALETTE, display.d3dddiarg_updatepalette
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_UPDATEPALETTE"
 req.header: d3dumddi.h

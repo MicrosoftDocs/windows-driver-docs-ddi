@@ -5,7 +5,7 @@ description: Implemented by the client driver as the default handler for method 
 tech.root: netvista
 ms.assetid: b9b871b2-b92a-47f1-9b68-ccfbca6eeeea
 ms.date: 02/01/2019
-ms.topic: callback
+keywords: ["EVT_NET_REQUEST_DEFAULT_METHOD callback function"]
 f1_keywords:
  - "netrequestqueue/NetRequestWdmGetNdisOidRequest"
 req.header: netrequestqueue.h

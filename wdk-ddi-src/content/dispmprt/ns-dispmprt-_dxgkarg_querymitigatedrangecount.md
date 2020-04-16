@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: f9cf3b82-a035-4089-9737-eeb1075a1ff7
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
+keywords: ["_DXGKARG_QUERYMITIGATEDRANGECOUNT structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_QUERYMITIGATEDRANGECOUNT"
 ms.prod: windows-hardware

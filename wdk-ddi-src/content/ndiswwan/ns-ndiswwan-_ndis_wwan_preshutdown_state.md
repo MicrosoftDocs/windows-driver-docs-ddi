@@ -6,8 +6,8 @@ old-location: netvista\ndis_wwan_preshutdown_state.htm
 tech.root: netvista
 ms.assetid: 39653A36-FFED-4F6A-9365-17E9D35DB46E
 ms.date: 05/02/2018
+keywords: ["_NDIS_WWAN_PRESHUTDOWN_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_PRESHUTDOWN_STATE, NDIS_WWAN_PRESHUTDOWN_STATE, NDIS_WWAN_PRESHUTDOWN_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PRESHUTDOWN_STATE, PNDIS_WWAN_PRESHUTDOWN_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PRESHUTDOWN_STATE, ndiswwan/NDIS_WWAN_PRESHUTDOWN_STATE, ndiswwan/PNDIS_WWAN_PRESHUTDOWN_STATE, netvista.ndis_wwan_preshutdown_state"
-ms.topic: struct
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_PRESHUTDOWN_STATE"
 req.header: ndiswwan.h

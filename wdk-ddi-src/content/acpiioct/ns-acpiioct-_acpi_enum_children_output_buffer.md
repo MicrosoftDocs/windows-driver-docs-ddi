@@ -6,8 +6,8 @@ old-location: acpi\acpi_enum_children_output_buffer.htm
 tech.root: acpi
 ms.assetid: e7e9fdae-4951-4878-a5b6-81d681eca472
 ms.date: 02/15/2018
+keywords: ["_ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure"]
 ms.keywords: "*PACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure [ACPI Devices], _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, acpi-meth-eval-ref_cb8acde5-31cb-4b32-9337-e196db32de8b.xml, acpi.acpi_enum_children_output_buffer, acpiioct/ACPI_ENUM_CHILDREN_OUTPUT_BUFFER"
-ms.topic: struct
 f1_keywords:
  - "acpiioct/ACPI_ENUM_CHILDREN_OUTPUT_BUFFER"
 req.header: acpiioct.h

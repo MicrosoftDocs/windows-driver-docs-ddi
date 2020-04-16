@@ -6,8 +6,8 @@ old-location: print\iprintoemdriveruni_drvgetgpddata.htm
 tech.root: print
 ms.assetid: cebe8972-4e5a-4382-ac1b-4c326dea46b1
 ms.date: 04/20/2018
+keywords: ["IPrintOemDriverUni::DrvGetGPDData"]
 ms.keywords: DrvGetGPDData, DrvGetGPDData method [Print Devices], DrvGetGPDData method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvGetGPDData method, IPrintOemDriverUni.DrvGetGPDData, IPrintOemDriverUni::DrvGetGPDData, prcomoem/IPrintOemDriverUni::DrvGetGPDData, print.iprintoemdriveruni_drvgetgpddata, print_unidrv-pscript_rendering_3efd30f6-350c-411f-a036-f6fe3525132d.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemDriverUni.DrvGetGPDData"
 req.header: prcomoem.h

@@ -4,7 +4,7 @@ title: IIterableConcept (dbgmodel.h)
 description: The object is a container and can be iterated.
 ms.assetid: 35f78cad-3070-40af-aa8e-f7556609d019
 ms.date: 07/16/2018
-ms.topic: interface
+keywords: ["IIterableConcept interface"]
 f1_keywords:
  - "dbgmodel/IIterableConcept"
 req.header: dbgmodel.h

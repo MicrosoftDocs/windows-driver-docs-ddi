@@ -5,8 +5,8 @@ description: D3DKMTOpenSyncObjectNtHandleFromName opens an NT handle for a named
 old-location: display\d3dkmtopensyncobjectnthandlefromname.htm
 ms.assetid: 29EF6C90-E25F-4E03-8834-EC2546B670AA
 ms.date: 05/10/2018
+keywords: ["D3DKMTOpenSyncObjectNtHandleFromName function"]
 ms.keywords: D3DKMTOpenSyncObjectNtHandleFromName, D3DKMTOpenSyncObjectNtHandleFromName function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectNtHandleFromName, display.d3dkmtopensyncobjectnthandlefromname
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenSyncObjectNtHandleFromName"
 req.header: d3dkmthk.h

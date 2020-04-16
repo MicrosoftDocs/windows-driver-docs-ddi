@@ -6,8 +6,8 @@ old-location: kernel\ioreportrootdevice.htm
 tech.root: kernel
 ms.assetid: 43063BD3-8F2C-4F27-A304-75FBD5C87674
 ms.date: 04/30/2018
+keywords: ["IoReportRootDevice function"]
 ms.keywords: IoReportRootDevice, IoReportRootDevice routine [Kernel-Mode Driver Architecture], kernel.ioreportrootdevice, ntddk/IoReportRootDevice
-ms.topic: function
 f1_keywords:
  - "ntddk/IoReportRootDevice"
 req.header: ntddk.h

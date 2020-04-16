@@ -4,7 +4,7 @@ title: IDebugHostType::GetFunctionReturnType (dbgmodel.h)
 description: The GetFunctionReturnType method returns the return type of the function. 
 ms.assetid: e3e96ca0-9fb4-41dd-81bf-206d813e9575
 ms.date: 08/22/2018
-ms.topic: method
+keywords: ["IDebugHostType::GetFunctionReturnType"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.GetFunctionReturnType"
 ms.keywords: IDebugHostType::GetFunctionReturnType, GetFunctionReturnType, IDebugHostType.GetFunctionReturnType, IDebugHostType::GetFunctionReturnType, IDebugHostType.GetFunctionReturnType

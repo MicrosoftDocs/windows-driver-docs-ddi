@@ -6,8 +6,8 @@ old-location: serports\sercx2_pio_transmit_config_init.htm
 tech.root: serports
 ms.assetid: B168C2EE-8D27-4A36-8B7F-C8EE719BFAC0
 ms.date: 04/23/2018
+keywords: ["SERCX2_PIO_TRANSMIT_CONFIG_INIT function"]
 ms.keywords: 2/SERCX2_PIO_TRANSMIT_CONFIG_INIT, SERCX2_PIO_TRANSMIT_CONFIG_INIT, SERCX2_PIO_TRANSMIT_CONFIG_INIT function [Serial Ports], serports.sercx2_pio_transmit_config_init
-ms.topic: function
 f1_keywords:
  - "sercx/SERCX2_PIO_TRANSMIT_CONFIG_INIT"
 req.header: sercx.h

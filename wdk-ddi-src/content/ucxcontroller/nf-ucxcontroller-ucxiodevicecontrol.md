@@ -6,8 +6,8 @@ old-location: buses\_ucxiodevicecontrol.htm
 tech.root: usbref
 ms.assetid: 7C1DD018-2EDF-48BB-8DFC-ADAF72A1909D
 ms.date: 05/07/2018
+keywords: ["UcxIoDeviceControl function"]
 ms.keywords: UcxIoDeviceControl, UcxIoDeviceControl method [Buses], buses._ucxiodevicecontrol, ucxcontroller/UcxIoDeviceControl
-ms.topic: function
 f1_keywords:
  - "ucxcontroller/UcxIoDeviceControl"
 req.header: ucxcontroller.h

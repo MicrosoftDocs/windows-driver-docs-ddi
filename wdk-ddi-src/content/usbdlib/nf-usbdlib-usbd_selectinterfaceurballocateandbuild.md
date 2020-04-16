@@ -6,8 +6,8 @@ old-location: buses\usbd_selectinterfaceurballocateandbuild.htm
 tech.root: usbref
 ms.assetid: D0B2E7EA-3D1F-4FD1-AB8D-EAB8406B9127
 ms.date: 05/07/2018
+keywords: ["USBD_SelectInterfaceUrbAllocateAndBuild function"]
 ms.keywords: USBD_SelectInterfaceUrbAllocateAndBuild, USBD_SelectInterfaceUrbAllocateAndBuild routine [Buses], buses.usbd_selectinterfaceurballocateandbuild, usbdlib/USBD_SelectInterfaceUrbAllocateAndBuild
-ms.topic: function
 f1_keywords:
  - "usbdlib/USBD_SelectInterfaceUrbAllocateAndBuild"
 req.header: usbdlib.h

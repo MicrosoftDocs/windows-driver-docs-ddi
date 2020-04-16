@@ -6,8 +6,8 @@ old-location: kernel\silo_monitor_create_callback.htm
 tech.root: kernel
 ms.assetid: C26C5162-4BB0-401E-9AF5-AF1D2D8715F9
 ms.date: 04/30/2018
+keywords: ["SILO_MONITOR_CREATE_CALLBACK callback function"]
 ms.keywords: CreateCallback, CreateCallback callback function [Kernel-Mode Driver Architecture], SILO_MONITOR_CREATE_CALLBACK, SILO_MONITOR_CREATE_CALLBACK callback, kernel.silo_monitor_create_callback, ntddk/CreateCallback
-ms.topic: callback
 f1_keywords:
  - "ntddk/CreateCallback"
 req.header: ntddk.h

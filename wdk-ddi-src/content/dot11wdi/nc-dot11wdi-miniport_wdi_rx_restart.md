@@ -6,8 +6,8 @@ old-location: netvista\miniportwdirxrestart.htm
 tech.root: netvista
 ms.assetid: 465716C7-A157-4B06-BAE2-F18A08126040
 ms.date: 05/02/2018
+keywords: ["MINIPORT_WDI_RX_RESTART callback function"]
 ms.keywords: MINIPORT_WDI_RX_RESTART, MINIPORT_WDI_RX_RESTART callback, MiniportWdiRxRestart, MiniportWdiRxRestart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxRestart, netvista.miniportwdirxrestart
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiRxRestart"
 req.header: dot11wdi.h

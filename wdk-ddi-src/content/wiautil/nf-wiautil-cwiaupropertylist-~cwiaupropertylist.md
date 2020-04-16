@@ -6,8 +6,8 @@ old-location: image\cwiaupropertylist__cwiaupropertylist.htm
 tech.root: image
 ms.assetid: 8b847c3e-f773-44d0-a033-3e40bc2e01fc
 ms.date: 09/07/2018
+keywords: ["CWiauPropertyList::~CWiauPropertyList"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],~CWiauPropertyList method, CWiauPropertyList.~CWiauPropertyList, CWiauPropertyList::~CWiauPropertyList, image.cwiaupropertylist__cwiaupropertylist, wiauFncs_9b543f56-a533-4f51-8266-cd710b8192a5.xml, wiautil/CWiauPropertyList::~CWiauPropertyList, ~CWiauPropertyList, ~CWiauPropertyList method [Imaging Devices], ~CWiauPropertyList method [Imaging Devices],CWiauPropertyList interface
-ms.topic: method
 f1_keywords:
  - "wiautil/CWiauPropertyList.~CWiauPropertyList"
 req.header: wiautil.h

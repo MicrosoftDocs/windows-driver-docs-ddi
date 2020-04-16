@@ -6,8 +6,8 @@ old-location: display\idarg_in_commitmodes.htm
 tech.root: display
 ms.assetid: 242b7573-409a-4fdc-8ebf-596b8e6d41c7
 ms.date: 05/10/2018
+keywords: ["IDARG_IN_COMMITMODES structure"]
 ms.keywords: IDARG_IN_COMMITMODES, IDARG_IN_COMMITMODES structure [Display Devices], display.idarg_in_commitmodes, iddcx/IDARG_IN_COMMITMODES
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDARG_IN_COMMITMODES"
 req.header: iddcx.h

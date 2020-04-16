@@ -6,8 +6,8 @@ old-location: print\iprintpipelineprogressreport_reportprogress.htm
 tech.root: print
 ms.assetid: 989e8888-3494-4355-a41f-2ed774a060d2
 ms.date: 04/20/2018
+keywords: ["IPrintPipelineProgressReport::ReportProgress"]
 ms.keywords: IPrintPipelineProgressReport interface [Print Devices],ReportProgress method, IPrintPipelineProgressReport.ReportProgress, IPrintPipelineProgressReport::ReportProgress, ReportProgress, ReportProgress method [Print Devices], ReportProgress method [Print Devices],IPrintPipelineProgressReport interface, filterpipeline/IPrintPipelineProgressReport::ReportProgress, filterpipeline_3f4798ee-db6e-42ab-9eb8-fb016920fd08.xml, print.iprintpipelineprogressreport_reportprogress
-ms.topic: method
 f1_keywords:
  - "filterpipeline/IPrintPipelineProgressReport.ReportProgress"
 req.header: filterpipeline.h

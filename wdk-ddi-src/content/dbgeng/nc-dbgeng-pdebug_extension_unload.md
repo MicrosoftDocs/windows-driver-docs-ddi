@@ -6,8 +6,8 @@ old-location: debugger\debugextensionunload.htm
 tech.root: debugger
 ms.assetid: 8F83F94E-CF4F-4709-A860-DDF1850A7264
 ms.date: 05/03/2018
+keywords: ["PDEBUG_EXTENSION_UNLOAD callback function"]
 ms.keywords: DebugExtensionUnload, DebugExtensionUnload callback function [Windows Debugging], PDEBUG_EXTENSION_UNLOAD, PDEBUG_EXTENSION_UNLOAD callback, dbgeng/DebugExtensionUnload, debugger.debugextensionunload
-ms.topic: callback
 f1_keywords:
  - "dbgeng/DebugExtensionUnload"
 req.header: dbgeng.h

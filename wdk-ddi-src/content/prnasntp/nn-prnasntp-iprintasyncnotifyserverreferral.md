@@ -6,8 +6,8 @@ old-location: print\iprintasyncnotifyserverreferral.htm
 tech.root: print
 ms.assetid: 46B3C57E-EE02-4821-9D5F-A2005CFC2998
 ms.date: 04/20/2018
+keywords: ["IPrintAsyncNotifyServerReferral interface"]
 ms.keywords: IPrintAsyncNotifyServerReferral, IPrintAsyncNotifyServerReferral interface [Print Devices], IPrintAsyncNotifyServerReferral interface [Print Devices],described, print.iprintasyncnotifyserverreferral, prnasntp/IPrintAsyncNotifyServerReferral
-ms.topic: interface
 f1_keywords:
  - "prnasntp/IPrintAsyncNotifyServerReferral"
 req.header: prnasntp.h
@@ -53,7 +53,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintAsyncNotifyServerReferral</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncNotifyServerReferral</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintAsyncNotifyServerReferral</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncNotifyServerReferral</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

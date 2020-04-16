@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 660bfe14-da4e-400b-92ea-b432a1147346
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: function
+keywords: ["DlLockBuffer function"]
 f1_keywords:
  - "dispmprt/DlLockBuffer"
 ms.keywords: DlLockBuffer

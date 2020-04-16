@@ -4,7 +4,7 @@ title: VarArgsKind (dbgmodel.h)
 description: Defines the style of variable arguments that a function definition takes.
 ms.assetid: a3779feb-72c5-443a-ba30-dabb7fcd2e5d
 ms.date: 07/16/2018
-ms.topic: enum
+keywords: ["VarArgsKind enumeration"]
 f1_keywords:
  - "dbgmodel/VarArgsKind"
 ms.keywords: VarArgsKind, , 

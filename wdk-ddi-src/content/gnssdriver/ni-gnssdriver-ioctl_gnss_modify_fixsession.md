@@ -6,8 +6,8 @@ old-location: gnss\ioctl_gnss_modify_fixsession.htm
 tech.root: gnss
 ms.assetid: AFBD14A5-AEDC-4C8B-AF5F-0F4D8DD61B78
 ms.date: 02/15/2018
+keywords: ["IOCTL_GNSS_MODIFY_FIXSESSION IOCTL"]
 ms.keywords: IOCTL_GNSS_MODIFY_FIXSESSION, IOCTL_GNSS_MODIFY_FIXSESSION control, IOCTL_GNSS_MODIFY_FIXSESSION control code [Sensor Devices], gnss.ioctl_gnss_modify_fixsession, gnssdriver/IOCTL_GNSS_MODIFY_FIXSESSION
-ms.topic: ioctl
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_MODIFY_FIXSESSION"
 req.header: gnssdriver.h

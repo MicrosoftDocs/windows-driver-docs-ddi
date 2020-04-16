@@ -5,8 +5,8 @@ description: Sets the rate at which the video processor produces output frames f
 old-location: display\videoprocessorsetstreamoutputrate.htm
 ms.assetid: fc1236f2-fcbf-4b3f-978f-a34260b78159
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE callback, d3d10umddi/pfnVideoProcessorSetStreamOutputRate, display.videoprocessorsetstreamoutputrate, pfnVideoProcessorSetStreamOutputRate, pfnVideoProcessorSetStreamOutputRate callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

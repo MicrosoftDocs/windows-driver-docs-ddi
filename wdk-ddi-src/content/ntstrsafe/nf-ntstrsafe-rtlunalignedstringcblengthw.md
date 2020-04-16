@@ -6,8 +6,8 @@ old-location: kernel\rtlunalignedstringcblength.htm
 tech.root: kernel
 ms.assetid: 03f49658-ec51-4869-bba8-832c6856c4b0
 ms.date: 04/30/2018
+keywords: ["RtlUnalignedStringCbLengthW function"]
 ms.keywords: RtlUnalignedStringCbLength, RtlUnalignedStringCbLengthW, RtlUnalignedStringCbLengthW function [Kernel-Mode Driver Architecture], kernel.rtlunalignedstringcblength, ntstrsafe/RtlUnalignedStringCbLengthW, safestrings_6724eedb-4d8d-490a-aac8-81c5c95ca3df.xml
-ms.topic: function
 f1_keywords:
  - "ntstrsafe/RtlUnalignedStringCbLengthW"
 req.header: ntstrsafe.h

@@ -6,8 +6,8 @@ old-location: spb\spbrequestgetcontroller.htm
 tech.root: SPB
 ms.assetid: 0CD692E2-B2D6-4786-8C0B-C0DCAFCF6259
 ms.date: 04/30/2018
+keywords: ["SpbRequestGetController function"]
 ms.keywords: SPB.spbrequestgetcontroller, SpbRequestGetController, SpbRequestGetController method [Buses], spbcx/SpbRequestGetController
-ms.topic: function
 f1_keywords:
  - "spbcx/SpbRequestGetController"
 req.header: spbcx.h

@@ -6,8 +6,8 @@ old-location: storage\ide_miniport_resources.htm
 tech.root: storage
 ms.assetid: 867b6152-9846-484f-9eac-07d0f24d55df
 ms.date: 03/29/2018
+keywords: ["_IDE_MINIPORT_RESOURCES structure"]
 ms.keywords: "*PIDE_MINIPORT_RESOURCES, IDE_MINIPORT_RESOURCES, IDE_MINIPORT_RESOURCES structure [Storage Devices], PIDE_MINIPORT_RESOURCES, PIDE_MINIPORT_RESOURCES structure pointer [Storage Devices], _IDE_MINIPORT_RESOURCES, irb/IDE_MINIPORT_RESOURCES, irb/PIDE_MINIPORT_RESOURCES, storage.ide_miniport_resources, structs-ATA_28df7197-d4b0-4279-a4db-e9b1269f6ba7.xml"
-ms.topic: struct
 f1_keywords:
  - "irb/IDE_MINIPORT_RESOURCES"
 req.header: irb.h

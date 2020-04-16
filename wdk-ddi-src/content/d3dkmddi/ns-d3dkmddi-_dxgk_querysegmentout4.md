@@ -5,8 +5,8 @@ description: The DXGK_QUERYSEGMENTOUT4 structure contains memory segment informa
 old-location: display\dxgk_querysegmentout4.htm
 ms.assetid: AE6988E6-81D7-47FB-986A-B5DEE9B7215B
 ms.date: 05/10/2018
+keywords: ["_DXGK_QUERYSEGMENTOUT4 structure"]
 ms.keywords: DXGK_QUERYSEGMENTOUT4, DXGK_QUERYSEGMENTOUT4 structure [Display Devices], _DXGK_QUERYSEGMENTOUT4, d3dkmddi/DXGK_QUERYSEGMENTOUT4, display.dxgk_querysegmentout4
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYSEGMENTOUT4"
 req.header: d3dkmddi.h

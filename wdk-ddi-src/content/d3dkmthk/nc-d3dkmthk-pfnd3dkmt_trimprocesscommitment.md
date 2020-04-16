@@ -4,7 +4,7 @@ title: PFND3DKMT_TRIMPROCESSCOMMITMENT (d3dkmthk.h)
 description: Trim process commitment.
 ms.assetid: f80d916f-aec5-4074-b934-51ec5eced878
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DKMT_TRIMPROCESSCOMMITMENT callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_TRIMPROCESSCOMMITMENT"
 req.header: d3dkmthk.h

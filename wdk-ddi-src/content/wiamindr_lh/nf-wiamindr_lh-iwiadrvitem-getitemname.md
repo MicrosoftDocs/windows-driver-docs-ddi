@@ -6,8 +6,8 @@ old-location: image\iwiadrvitem_getitemname.htm
 tech.root: image
 ms.assetid: 1e731975-13f8-4b5d-93de-714f62e9591f
 ms.date: 05/03/2018
+keywords: ["IWiaDrvItem::GetItemName"]
 ms.keywords: DrvItem_18b6c67e-9d95-45d4-844f-90fcb5c277bd.xml, GetItemName, GetItemName method [Imaging Devices], GetItemName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetItemName method, IWiaDrvItem.GetItemName, IWiaDrvItem::GetItemName, image.iwiadrvitem_getitemname, wiamindr_lh/IWiaDrvItem::GetItemName
-ms.topic: method
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.GetItemName"
 req.header: wiamindr_lh.h

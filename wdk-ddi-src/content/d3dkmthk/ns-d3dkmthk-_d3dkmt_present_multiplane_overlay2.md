@@ -4,7 +4,7 @@ title: _D3DKMT_PRESENT_MULTIPLANE_OVERLAY2 (d3dkmthk.h)
 description: Contains present multiplane overlay information.
 ms.assetid: f0dbe6dc-d060-4322-9b5a-1756b1f59f0c
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DKMT_PRESENT_MULTIPLANE_OVERLAY2 structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_PRESENT_MULTIPLANE_OVERLAY2"
 ms.keywords: _D3DKMT_PRESENT_MULTIPLANE_OVERLAY2, D3DKMT_PRESENT_MULTIPLANE_OVERLAY2, 

@@ -5,8 +5,8 @@ description: Specifies a cryptographic session certificate or authenticated chan
 old-location: display\d3d11_1ddi_certificate_info.htm
 ms.assetid: 9a687c45-2201-483c-b1ad-958b9f651e54
 ms.date: 05/10/2018
+keywords: ["D3D11_1DDI_CERTIFICATE_INFO structure"]
 ms.keywords: D3D11_1DDI_CERTIFICATE_INFO, D3D11_1DDI_CERTIFICATE_INFO structure [Display Devices], d3d10umddi/D3D11_1DDI_CERTIFICATE_INFO, display.d3d11_1ddi_certificate_info
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_CERTIFICATE_INFO"
 req.header: d3d10umddi.h

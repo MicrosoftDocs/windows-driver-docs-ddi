@@ -5,8 +5,8 @@ description: The DxgkDdiRestartFromTimeout function indicates that the driver ca
 old-location: display\dxgkddirestartfromtimeout.htm
 ms.assetid: 433babb7-9a53-4079-9a65-43a5ed0c201a
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_RESTARTFROMTIMEOUT callback function"]
 ms.keywords: DXGKDDI_RESTARTFROMTIMEOUT, DXGKDDI_RESTARTFROMTIMEOUT callback, DmFunctions_ba675ea3-7f25-446f-bf13-af2228aa1e65.xml, DxgkDdiRestartFromTimeout, DxgkDdiRestartFromTimeout callback function [Display Devices], d3dkmddi/DxgkDdiRestartFromTimeout, display.dxgkddirestartfromtimeout
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

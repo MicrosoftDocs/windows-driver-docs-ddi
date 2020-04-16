@@ -6,8 +6,8 @@ old-location: display\dxgi_gamma_control_capabiliites.htm
 tech.root: display
 ms.assetid: 7a91311e-c8b9-4f28-b72e-9f93d459aac2
 ms.date: 05/10/2018
+keywords: ["DXGI_GAMMA_CONTROL_CAPABILITIES structure"]
 ms.keywords: DXGI_GAMMA_CONTROL_CAPABILIITES, DXGI_GAMMA_CONTROL_CAPABILIITES structure [Display Devices], DXGI_GAMMA_CONTROL_CAPABILITIES, DXGI_GAMMA_CONTROL_CAPABILITIES structure [Display Devices], UMDisplayDriver_Dx10param_Structs_002eb4f0-081a-43df-a307-e979017daf6f.xml, display.dxgi_gamma_control_capabiliites, dxgitype/DXGI_GAMMA_CONTROL_CAPABILIITES
-ms.topic: struct
 f1_keywords:
  - "dxgitype/DXGI_GAMMA_CONTROL_CAPABILITIES"
 req.header: dxgitype.h

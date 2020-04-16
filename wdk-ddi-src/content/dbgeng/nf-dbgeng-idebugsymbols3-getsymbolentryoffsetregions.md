@@ -6,8 +6,8 @@ old-location: debugger\idebugsymbols3_getsymbolentryoffsetregions.htm
 tech.root: debugger
 ms.assetid: 986774F6-5256-4703-990A-EAB4AB09AF55
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::GetSymbolEntryOffsetRegions"]
 ms.keywords: GetSymbolEntryOffsetRegions, GetSymbolEntryOffsetRegions method [Windows Debugging], GetSymbolEntryOffsetRegions method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryOffsetRegions method, IDebugSymbols3.GetSymbolEntryOffsetRegions, IDebugSymbols3::GetSymbolEntryOffsetRegions, dbgeng/IDebugSymbols3::GetSymbolEntryOffsetRegions, debugger.idebugsymbols3_getsymbolentryoffsetregions
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSymbolEntryOffsetRegions"
 req.header: dbgeng.h

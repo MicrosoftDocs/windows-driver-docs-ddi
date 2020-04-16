@@ -3,6 +3,7 @@ UID: TP:netvista
 title: Networking drivers for Windows Vista and later
 ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
 ms.date: 10/29/2019
+keywords: ["Networking drivers for Windows Vista and later"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

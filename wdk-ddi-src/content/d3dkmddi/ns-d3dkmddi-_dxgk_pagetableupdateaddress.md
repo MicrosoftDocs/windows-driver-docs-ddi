@@ -5,8 +5,8 @@ description: DXGK_PAGETABLEUPDATEADDRESS contains the address of a page table to
 old-location: display\dxgk_pagetableupdateaddress.htm
 ms.assetid: 39013276-C76A-4E31-80DD-26C17A020BD6
 ms.date: 05/10/2018
+keywords: ["_DXGK_PAGETABLEUPDATEADDRESS structure"]
 ms.keywords: DXGK_PAGETABLEUPDATEADDRESS, DXGK_PAGETABLEUPDATEADDRESS structure [Display Devices], _DXGK_PAGETABLEUPDATEADDRESS, d3dkmddi/DXGK_PAGETABLEUPDATEADDRESS, display.dxgk_pagetableupdateaddress
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_PAGETABLEUPDATEADDRESS"
 req.header: d3dkmddi.h

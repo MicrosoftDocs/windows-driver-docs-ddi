@@ -6,8 +6,8 @@ old-location: buses\usb_hub_type.htm
 tech.root: usbref
 ms.assetid: F7516B20-B30F-47BE-BBF3-AB5758D5CF73
 ms.date: 05/07/2018
+keywords: ["_USB_HUB_TYPE enumeration"]
 ms.keywords: USB_HUB_TYPE, USB_HUB_TYPE enumeration [Buses], Usb20Hub, Usb30Hub, UsbRootHub, _USB_HUB_TYPE, buses.usb_hub_type, usbioctl/USB_HUB_TYPE, usbioctl/Usb20Hub, usbioctl/Usb30Hub, usbioctl/UsbRootHub
-ms.topic: enum
 f1_keywords:
  - "usbioctl/USB_HUB_TYPE"
 req.header: usbioctl.h

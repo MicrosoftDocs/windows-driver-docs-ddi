@@ -6,8 +6,8 @@ old-location: print\spoolerfindcloseprinterchangenotification.htm
 tech.root: print
 ms.assetid: 13C65DAB-04BA-4B19-B810-B484F7C1C4DA
 ms.date: 04/20/2018
+keywords: ["SpoolerFindClosePrinterChangeNotification function"]
 ms.keywords: SpoolerFindClosePrinterChangeNotification, SpoolerFindClosePrinterChangeNotification function [Print Devices], print.spoolerfindcloseprinterchangenotification, winsplp/SpoolerFindClosePrinterChangeNotification
-ms.topic: function
 f1_keywords:
  - "winsplp/SpoolerFindClosePrinterChangeNotification"
 req.header: winsplp.h

@@ -5,8 +5,8 @@ description: D3DKMTUnregisterTrimNotification is used to remove a callback regis
 old-location: display\d3dkmtunregistertrimnotification.htm
 ms.assetid: C90A5200-F6AF-4B7B-BB66-D76D4C3AA8EE
 ms.date: 05/10/2018
+keywords: ["D3DKMTUnregisterTrimNotification function"]
 ms.keywords: D3DKMTUnregisterTrimNotification, D3DKMTUnregisterTrimNotification function [Display Devices], d3dkmthk/D3DKMTUnregisterTrimNotification, display.d3dkmtunregistertrimnotification
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTUnregisterTrimNotification"
 req.header: d3dkmthk.h

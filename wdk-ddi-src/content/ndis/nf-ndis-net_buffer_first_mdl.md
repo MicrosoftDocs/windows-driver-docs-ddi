@@ -5,7 +5,7 @@ description: NET_BUFFER_FIRST_MDL is a macro that NDIS drivers use to get the fi
 tech.root: netvista
 ms.assetid: 64e87615-2466-4f52-adb7-b98bec2f0252
 ms.date: 04/12/2018
-ms.topic: macro
+keywords: ["NET_BUFFER_FIRST_MDL macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_FIRST_MDL"
 ms.keywords: NET_BUFFER_FIRST_MDL

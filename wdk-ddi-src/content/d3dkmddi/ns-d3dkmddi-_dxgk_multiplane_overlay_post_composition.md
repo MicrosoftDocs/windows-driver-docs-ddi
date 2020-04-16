@@ -6,8 +6,8 @@ old-location: display\dxgk_multiplane_overlay_post_composition.htm
 
 ms.assetid: 71D57E42-C1E7-4A0E-80B3-DD39388552C5
 ms.date: 04/16/2018
+keywords: ["_DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, display.dxgk_multiplane_overlay_post_composition
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION"
 req.header: d3dkmddi.h

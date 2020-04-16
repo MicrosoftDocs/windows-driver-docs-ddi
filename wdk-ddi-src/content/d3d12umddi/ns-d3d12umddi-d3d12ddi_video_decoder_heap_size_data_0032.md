@@ -5,8 +5,8 @@ description: Data structure for the D3D12DDICAPS_TYPE_VIDEO_0032_DECODER_HEAP_SI
 old-location: display\d3d12ddi_video_decoder_heap_size_data_0032.htm
 ms.assetid: 5EF65599-65C3-4EA8-A3A7-3849CF01DE87
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0032 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0032, D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0032, display.d3d12ddi_video_decoder_heap_size_data_0032
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0032"
 req.header: d3d12umddi.h

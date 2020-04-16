@@ -5,8 +5,8 @@ description: The QueryGetData function polls for the state of a query operation.
 old-location: display\querygetdata.htm
 ms.assetid: 78ee9813-e23e-4d46-acc4-f2fa88559b03
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_QUERYGETDATA callback function"]
 ms.keywords: PFND3D10DDI_QUERYGETDATA, PFND3D10DDI_QUERYGETDATA callback, QueryGetData, QueryGetData callback function [Display Devices], UserModeDisplayDriverDx10_Functions_c1a88bca-7df5-4640-9134-fc893e5c8a0d.xml, d3d10umddi/QueryGetData, display.querygetdata
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -72,7 +72,9 @@ A pointer to a region of memory that receives the data from a query operation. T
 
 [out] The size, in bytes, of the query data that the <i>pData</i> parameter points to. The user-mode display driver can set <i>DataSize</i> to zero and set <i>pData</i> to <b>NULL</b>. If <i>DataSize</i> is zero, <i>QueryGetData</i> can indicate the state of the query operation (for example, through return codes).
 
-### -param Arg5
+### -param Flags
+
+[in] D3D10_DDI_GET_DATA_FLAG flags.
 
 ## -remarks
 

@@ -6,8 +6,8 @@ old-location: audio\pcmethod_request.htm
 tech.root: audio
 ms.assetid: aa48330b-93f0-4fb2-bb36-4e9050f19be5
 ms.date: 05/08/2018
+keywords: ["_PCMETHOD_REQUEST structure"]
 ms.keywords: "*PPCMETHOD_REQUEST, PCMETHOD_REQUEST, PCMETHOD_REQUEST structure [Audio Devices], PPCMETHOD_REQUEST, PPCMETHOD_REQUEST structure pointer [Audio Devices], _PCMETHOD_REQUEST, audio.pcmethod_request, audpc-struct_08efa6de-5d0e-445b-9402-563604dd8d5d.xml, portcls/PCMETHOD_REQUEST, portcls/PPCMETHOD_REQUEST"
-ms.topic: struct
 f1_keywords:
  - "portcls/PCMETHOD_REQUEST"
 req.header: portcls.h

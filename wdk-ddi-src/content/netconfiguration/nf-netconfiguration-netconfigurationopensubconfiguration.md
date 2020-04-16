@@ -5,7 +5,7 @@ description: Opens a sub configuration of a specified adapter configuration obje
 tech.root: netvista
 ms.assetid: e825d2f8-b8ad-4488-a68e-73d1d6b849bb
 ms.date: 02/07/2018
-ms.topic: function
+keywords: ["NetConfigurationOpenSubConfiguration function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationOpenSubConfiguration"
 ms.keywords: NetConfigurationOpenSubConfiguration

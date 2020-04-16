@@ -6,8 +6,8 @@ old-location: stream\kspinhandshake.htm
 tech.root: stream
 ms.assetid: 31855688-9221-4128-89c5-dbc4f3e6f794
 ms.date: 04/23/2018
+keywords: ["KsPinHandshake function"]
 ms.keywords: KsPinHandshake, KsPinHandshake function [Streaming Media Devices], avfunc_a7b6afa8-acb0-4847-9e86-136100c4dd48.xml, ks/KsPinHandshake, stream.kspinhandshake
-ms.topic: function
 f1_keywords:
  - "ks/KsPinHandshake"
 req.header: ks.h

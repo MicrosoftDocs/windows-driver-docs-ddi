@@ -6,8 +6,8 @@ old-location: ifsk\system_scoped_policy_id_ace.htm
 tech.root: ifsk
 ms.assetid: 2867CA25-B140-4EBA-A8F9-57C12C3700CF
 ms.date: 04/16/2018
+keywords: ["_SYSTEM_SCOPED_POLICY_ID_ACE structure"]
 ms.keywords: "*PSYSTEM_SCOPED_POLICY_ID_ACE, PSYSTEM_SCOPED_POLICY_ID_ACE, PSYSTEM_SCOPED_POLICY_ID_ACE structure pointer [Installable File System Drivers], SYSTEM_SCOPED_POLICY_ID_ACE, SYSTEM_SCOPED_POLICY_ID_ACE structure [Installable File System Drivers], _SYSTEM_SCOPED_POLICY_ID_ACE, ifsk.system_scoped_policy_id_ace, ntifs/PSYSTEM_SCOPED_POLICY_ID_ACE, ntifs/SYSTEM_SCOPED_POLICY_ID_ACE"
-ms.topic: struct
 f1_keywords:
  - "ntifs/SYSTEM_SCOPED_POLICY_ID_ACE"
 req.header: ntifs.h

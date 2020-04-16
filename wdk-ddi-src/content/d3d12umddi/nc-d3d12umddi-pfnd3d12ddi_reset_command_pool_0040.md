@@ -4,7 +4,7 @@ title: PFND3D12DDI_RESET_COMMAND_POOL_0040 (d3d12umddi.h)
 description: Implemented by the client driver to reset a command pool.
 ms.assetid: 1b95c84d-7bde-43c6-9494-aabd25d114ad
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_RESET_COMMAND_POOL_0040 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

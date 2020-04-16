@@ -6,8 +6,8 @@ old-location: print\_iprintschemaparameterdefinition_userinputrequired.htm
 tech.root: print
 ms.assetid: C2BA76C4-CCFB-4F0B-B5DC-3A35BD5A3884
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaParameterDefinition::get_UserInputRequired"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],UserInputRequired property, IPrintSchemaParameterDefinition.UserInputRequired, IPrintSchemaParameterDefinition.get_UserInputRequired, IPrintSchemaParameterDefinition::UserInputRequired, IPrintSchemaParameterDefinition::get_UserInputRequired, UserInputRequired property [Print Devices], UserInputRequired property [Print Devices],IPrintSchemaParameterDefinition interface, get_UserInputRequired, print._iprintschemaparameterdefinition_userinputrequired, printerextension/IPrintSchemaParameterDefinition::UserInputRequired, printerextension/IPrintSchemaParameterDefinition::get_UserInputRequired
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintSchemaParameterDefinition.UserInputRequired"
 req.header: printerextension.h

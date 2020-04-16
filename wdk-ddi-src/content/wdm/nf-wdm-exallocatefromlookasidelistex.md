@@ -6,8 +6,8 @@ old-location: kernel\exallocatefromlookasidelistex.htm
 tech.root: kernel
 ms.assetid: 70782045-7026-4771-8072-9057fc31a642
 ms.date: 04/30/2018
+keywords: ["ExAllocateFromLookasideListEx function"]
 ms.keywords: ExAllocateFromLookasideListEx, ExAllocateFromLookasideListEx routine [Kernel-Mode Driver Architecture], k102_d3c72529-8c0d-48bf-8b5f-dc19d801bf8f.xml, kernel.exallocatefromlookasidelistex, wdm/ExAllocateFromLookasideListEx
-ms.topic: function
 f1_keywords:
  - "wdm/ExAllocateFromLookasideListEx"
 req.header: wdm.h

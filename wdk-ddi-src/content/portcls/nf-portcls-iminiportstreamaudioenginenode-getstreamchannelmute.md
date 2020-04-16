@@ -6,8 +6,8 @@ old-location: audio\iminiportstreamaudioenginenode_getstreamchannelmute.htm
 tech.root: audio
 ms.assetid: 16010297-5B08-466C-AB79-4ED12A9539D9
 ms.date: 05/08/2018
+keywords: ["IMiniportStreamAudioEngineNode::GetStreamChannelMute"]
 ms.keywords: GetStreamChannelMute, GetStreamChannelMute method [Audio Devices], GetStreamChannelMute method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamChannelMute method, IMiniportStreamAudioEngineNode.GetStreamChannelMute, IMiniportStreamAudioEngineNode::GetStreamChannelMute, audio.iminiportstreamaudioenginenode_getstreamchannelmute, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelMute
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.GetStreamChannelMute"
 req.header: portcls.h

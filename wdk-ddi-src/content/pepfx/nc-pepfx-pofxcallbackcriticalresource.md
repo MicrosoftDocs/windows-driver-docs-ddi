@@ -6,8 +6,8 @@ old-location: kernel\transitioncriticalresource.htm
 tech.root: kernel
 ms.assetid: 18CB1032-78CB-4D65-9077-02B89E9C31B4
 ms.date: 04/30/2018
+keywords: ["POFXCALLBACKCRITICALRESOURCE callback function"]
 ms.keywords: POFXCALLBACKCRITICALRESOURCE, TransitionCriticalResource, TransitionCriticalResource routine [Kernel-Mode Driver Architecture], kernel.transitioncriticalresource, pepfx/TransitionCriticalResource
-ms.topic: callback
 f1_keywords:
  - "pepfx/TransitionCriticalResource"
 req.header: pepfx.h

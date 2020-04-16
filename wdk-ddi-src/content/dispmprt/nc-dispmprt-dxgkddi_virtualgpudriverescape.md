@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: ce03171f-a413-409d-8a8e-b80bd7592025
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
+keywords: ["DXGKDDI_VIRTUALGPUDRIVERESCAPE callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_VIRTUALGPUDRIVERESCAPE"
 req.header: dispmprt.h

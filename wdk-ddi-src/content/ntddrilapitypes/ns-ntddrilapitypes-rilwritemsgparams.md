@@ -6,8 +6,8 @@ old-location: netvista\rilwritemsgparams.htm
 tech.root: netvista
 ms.assetid: d66d63cd-ec34-4749-9ed9-38ee6d962ea5
 ms.date: 05/02/2018
+keywords: ["RILWRITEMSGPARAMS structure"]
 ms.keywords: "*LPRILWRITEMSGPARAMS, RILWRITEMSGPARAMS, RILWRITEMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwritemsgparams, ntddrilapitypes/RILWRITEMSGPARAMS"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILWRITEMSGPARAMS"
 req.header: ntddrilapitypes.h

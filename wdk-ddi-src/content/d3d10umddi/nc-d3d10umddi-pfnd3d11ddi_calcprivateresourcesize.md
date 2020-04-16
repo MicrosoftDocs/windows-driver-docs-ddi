@@ -5,8 +5,8 @@ description: The CalcPrivateResourceSize(D3D11) function determines the size of 
 old-location: display\calcprivateresourcesize_d3d11_.htm
 ms.assetid: 3b3a2571-012e-4acd-b836-f52e7b88a2fb
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_CALCPRIVATERESOURCESIZE callback function"]
 ms.keywords: CalcPrivateResourceSize, CalcPrivateResourceSize callback function [Display Devices], PFND3D11DDI_CALCPRIVATERESOURCESIZE, PFND3D11DDI_CALCPRIVATERESOURCESIZE callback, UserModeDisplayDriverDx11_Functions_85fd70d1-91ec-4b9d-b379-18b5d3d43e67.xml, d3d10umddi/CalcPrivateResourceSize, display.calcprivateresourcesize_d3d11_
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

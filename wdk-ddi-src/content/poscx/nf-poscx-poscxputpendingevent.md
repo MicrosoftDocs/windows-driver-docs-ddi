@@ -6,8 +6,8 @@ old-location: pos\poscxputpendingevent.htm
 tech.root: pos
 ms.assetid: 4E2EA8F5-2D4A-4AEB-AF59-97D6C3FB09BC
 ms.date: 02/23/2018
+keywords: ["PosCxPutPendingEvent function"]
 ms.keywords: PosCxPutPendingEvent, PosCxPutPendingEvent function, pos.poscxputpendingevent, poscx/PosCxPutPendingEvent
-ms.topic: function
 f1_keywords:
  - "poscx/PosCxPutPendingEvent"
 req.header: poscx.h

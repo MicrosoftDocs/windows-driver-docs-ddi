@@ -6,8 +6,8 @@ old-location: bltooth\enhanced_l2cap_callback_function.htm
 tech.root: bltooth
 ms.assetid: 1C08937A-2B0C-4A6C-ACDF-1A751BF0D6F6
 ms.date: 04/27/2018
+keywords: ["PFNBTHPORT_INDICATION_CALLBACK_ENHANCED callback function"]
 ms.keywords: BluetoothPortIndicationCallbackEnhanced, BluetoothPortIndicationCallbackEnhanced callback function [Bluetooth Devices], PFNBTHPORT_INDICATION_CALLBACK_ENHANCED, PFNBTHPORT_INDICATION_CALLBACK_ENHANCED callback, bltooth.enhanced_l2cap_callback_function, bthddi/BluetoothPortIndicationCallbackEnhanced
-ms.topic: callback
 f1_keywords:
  - "bthddi/BluetoothPortIndicationCallbackEnhanced"
 req.header: bthddi.h

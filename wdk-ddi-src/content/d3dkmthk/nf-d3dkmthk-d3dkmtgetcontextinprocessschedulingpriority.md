@@ -5,8 +5,8 @@ description: Called by an in-process (in-proc) Microsoft Direct3D composition de
 old-location: display\d3dkmtgetcontextinprocessschedulingpriority.htm
 ms.assetid: e2a662b6-6a16-4e63-b5a8-5701a7180f60
 ms.date: 05/10/2018
+keywords: ["D3DKMTGetContextInProcessSchedulingPriority function"]
 ms.keywords: D3DKMTGetContextInProcessSchedulingPriority, D3DKMTGetContextInProcessSchedulingPriority function [Display Devices], d3dkmthk/D3DKMTGetContextInProcessSchedulingPriority, display.d3dkmtgetcontextinprocessschedulingpriority
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTGetContextInProcessSchedulingPriority"
 req.header: d3dkmthk.h

@@ -5,8 +5,8 @@ description: The CheckCounter function retrieves information that describes a co
 old-location: display\checkcounter.htm
 ms.assetid: 592a5146-a2fe-41d1-854b-df27a97bd513
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CHECKCOUNTER callback function"]
 ms.keywords: CheckCounter, CheckCounter callback function [Display Devices], PFND3D10DDI_CHECKCOUNTER, PFND3D10DDI_CHECKCOUNTER callback, UserModeDisplayDriverDx10_Functions_450a0976-fc56-4a5a-8a01-9c9d1041b628.xml, d3d10umddi/CheckCounter, display.checkcounter
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/CheckCounter"
 req.header: d3d10umddi.h

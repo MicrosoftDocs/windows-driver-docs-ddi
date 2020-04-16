@@ -6,8 +6,8 @@ old-location: netvista\ndissendnetbufferlists.htm
 tech.root: netvista
 ms.assetid: f615acc4-7e3e-4390-8a6a-e68663fcc162
 ms.date: 05/02/2018
+keywords: ["NdisSendNetBufferLists function"]
 ms.keywords: NdisSendNetBufferLists, NdisSendNetBufferLists function [Network Drivers Starting with Windows Vista], ndis/NdisSendNetBufferLists, ndis_sendrcv_ref_c63c443f-ecd0-4ff3-8a60-b25cef2a5cd3.xml, netvista.ndissendnetbufferlists
-ms.topic: function
 f1_keywords:
  - "ndis/NdisSendNetBufferLists"
 req.header: ndis.h
@@ -104,7 +104,7 @@ Specifies that NDIS should check for loopback. By default, NDIS does not loop ba
        driver that submitted the send request. An overlying driver can override this behavior by setting this
        flag. When this flag is set, NDIS identifies all the NET_BUFFER structures that contain data that
        matches the receive criteria for the binding. NDIS indicates NET_BUFFER structures that match the
-       criteria to the overlying driver. This flag has no affect on checking for loopback, or looping back,
+       criteria to the overlying driver. This flag has no effect on checking for loopback, or looping back,
        on other bindings.
 
 

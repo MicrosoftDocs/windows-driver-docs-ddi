@@ -4,7 +4,7 @@ title: IDataModelConcept::GetName (dbgmodel.h)
 description: If a given data model is registered under a default name via the RegisterNamedModel method, the registered data model's IDataModelConcept interface must return that name from this method.
 ms.assetid: 963ade84-243f-419e-979e-6f8aed2ff596
 ms.date: 09/21/2018
-ms.topic: method
+keywords: ["IDataModelConcept::GetName"]
 f1_keywords:
  - "dbgmodel/IDataModelConcept.GetName"
 ms.keywords: IDataModelConcept::GetName, GetName, IDataModelConcept.GetName, IDataModelConcept::GetName, IDataModelConcept.GetName

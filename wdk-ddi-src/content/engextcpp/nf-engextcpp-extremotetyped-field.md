@@ -6,8 +6,8 @@ old-location: debugger\extremotetyped_field.htm
 tech.root: debugger
 ms.assetid: be662551-c4d3-4979-8a9b-c913fb6bd336
 ms.date: 05/03/2018
+keywords: ["ExtRemoteTyped::Field"]
 ms.keywords: EngExtCpp_Ref_a235495d-4e04-4f57-acd4-0e4cdeabee14.xml, ExtRemoteTyped interface [Windows Debugging],Field method, ExtRemoteTyped.Field, ExtRemoteTyped::Field, Field, Field method [Windows Debugging], Field method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_field
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.Field"
 req.header: engextcpp.hpp

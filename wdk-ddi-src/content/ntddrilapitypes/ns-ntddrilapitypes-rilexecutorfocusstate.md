@@ -6,8 +6,8 @@ old-location: netvista\rilexecutorfocusstate.htm
 tech.root: netvista
 ms.assetid: 74fc88c0-3edf-4831-a03b-4ace6ca2ec04
 ms.date: 05/02/2018
+keywords: ["RILEXECUTORFOCUSSTATE structure"]
 ms.keywords: "*LPRILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorfocusstate, ntddrilapitypes/RILEXECUTORFOCUSSTATE"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILEXECUTORFOCUSSTATE"
 req.header: ntddrilapitypes.h

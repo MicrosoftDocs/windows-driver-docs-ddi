@@ -6,8 +6,8 @@ old-location: debugger\idebugfailureanalysis2_setstring.htm
 tech.root: debugger
 ms.assetid: 38B63AFF-BE37-45FB-9FD2-A49F216E1B81
 ms.date: 05/03/2018
+keywords: ["IDebugFailureAnalysis2::SetString"]
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetString method, IDebugFailureAnalysis2.SetString, IDebugFailureAnalysis2::SetString, SetString, SetString method [Windows Debugging], SetString method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setstring, extsfns/IDebugFailureAnalysis2::SetString
-ms.topic: method
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.SetString"
 req.header: extsfns.h

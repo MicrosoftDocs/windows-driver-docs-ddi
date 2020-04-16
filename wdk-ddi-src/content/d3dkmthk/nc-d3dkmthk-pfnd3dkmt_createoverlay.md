@@ -4,7 +4,7 @@ title: PFND3DKMT_CREATEOVERLAY (d3dkmthk.h)
 description: The PFND3DKMT_CREATEOVERLAY callback function enables the overlay hardware if the hardware is capable.
 ms.assetid: 2908f347-a341-4603-95db-3f92b77afc88
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DKMT_CREATEOVERLAY callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_CREATEOVERLAY"
 req.header: d3dkmthk.h

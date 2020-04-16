@@ -6,8 +6,8 @@ old-location: netvista\ndk_fn_listen.htm
 tech.root: netvista
 ms.assetid: 1C3DF31C-500E-456A-B121-48F5945D6999
 ms.date: 05/02/2018
+keywords: ["NDK_FN_LISTEN callback function"]
 ms.keywords: NDK_FN_LISTEN, NDK_FN_LISTEN callback, NdkListen, NdkListen callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkListen, netvista.ndk_fn_listen
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkListen"
 req.header: ndkpi.h

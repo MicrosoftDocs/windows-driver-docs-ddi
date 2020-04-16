@@ -6,8 +6,8 @@ old-location: print\iprintasyncnotify.htm
 tech.root: print
 ms.assetid: 7C12C528-03B2-42B7-A73D-21DF3FEF1505
 ms.date: 04/20/2018
+keywords: ["IPrintAsyncNotify interface"]
 ms.keywords: IPrintAsyncNotify, IPrintAsyncNotify interface [Print Devices], IPrintAsyncNotify interface [Print Devices],described, print.iprintasyncnotify, prnasntp/IPrintAsyncNotify
-ms.topic: interface
 f1_keywords:
  - "prnasntp/IPrintAsyncNotify"
 req.header: prnasntp.h
@@ -53,7 +53,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintAsyncNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncNotify</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintAsyncNotify</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

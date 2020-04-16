@@ -4,7 +4,7 @@ title: _DRIVER_DIRECTORY_TYPE (wdm.h)
 description: 
 ms.assetid: 587aa860-ad2d-4de2-9f84-1ad5cb7b01bf
 ms.date: 10/19/2018
-ms.topic: enum
+keywords: ["_DRIVER_DIRECTORY_TYPE enumeration"]
 f1_keywords:
  - "wdm/_DRIVER_DIRECTORY_TYPE"
 ms.keywords: _DRIVER_DIRECTORY_TYPE, DRIVER_DIRECTORY_TYPE, *PDRIVER_DIRECTORY_TYPE, 

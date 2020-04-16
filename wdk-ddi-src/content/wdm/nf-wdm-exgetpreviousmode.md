@@ -6,8 +6,8 @@ old-location: kernel\exgetpreviousmode.htm
 tech.root: kernel
 ms.assetid: 0f4c7bc2-a29d-4b0c-81c3-01cdfefa1322
 ms.date: 04/30/2018
+keywords: ["ExGetPreviousMode function"]
 ms.keywords: ExGetPreviousMode, ExGetPreviousMode routine [Kernel-Mode Driver Architecture], k102_080fbfa6-6261-453d-a2c7-e08818d34b6f.xml, kernel.exgetpreviousmode, wdm/ExGetPreviousMode
-ms.topic: function
 f1_keywords:
  - "wdm/ExGetPreviousMode"
 req.header: wdm.h

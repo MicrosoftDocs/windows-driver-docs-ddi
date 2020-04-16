@@ -6,8 +6,8 @@ old-location: ifsk\file_level_trim_output.htm
 tech.root: ifsk
 ms.assetid: 28CCE967-E752-4E0E-94D9-3A4243266684
 ms.date: 04/16/2018
+keywords: ["_FILE_LEVEL_TRIM_OUTPUT structure"]
 ms.keywords: "*PFILE_LEVEL_TRIM_OUTPUT, FILE_LEVEL_TRIM_OUTPUT, FILE_LEVEL_TRIM_OUTPUT structure [Installable File System Drivers], FILE_LEVEL_TRIM_RANGE_OUTPUT, FILE_LEVEL_TRIM_RANGE_OUTPUT structure [Installable File System Drivers], PFILE_LEVEL_TRIM_RANGE_OUTPUT, PFILE_LEVEL_TRIM_RANGE_OUTPUT structure pointer [Installable File System Drivers], _FILE_LEVEL_TRIM_OUTPUT, ifsk.file_level_trim_output, ntifs/FILE_LEVEL_TRIM_RANGE, ntifs/PFILE_LEVEL_TRIM_RANGE_OUTPUT"
-ms.topic: struct
 f1_keywords:
  - "ntifs/FILE_LEVEL_TRIM_RANGE_OUTPUT"
 req.header: ntifs.h

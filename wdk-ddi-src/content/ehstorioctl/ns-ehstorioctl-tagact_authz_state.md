@@ -6,8 +6,8 @@ old-location: storage\act_authz_state.htm
 tech.root: storage
 ms.assetid: 32bb774f-b1eb-4198-8e4c-febcac83153d
 ms.date: 03/29/2018
+keywords: ["tagACT_AUTHZ_STATE structure"]
 ms.keywords: "*PACT_AUTHZ_STATE, ACT_AUTHZ_STATE, ACT_AUTHZ_STATE structure [Storage Devices], PACT_AUTHZ_STATE, PACT_AUTHZ_STATE structure pointer [Storage Devices], ehstorioctl/ACT_AUTHZ_STATE, ehstorioctl/PACT_AUTHZ_STATE, storage.act_authz_state, structs-silo_5a83edfd-d997-4f63-bbb9-58ec7cab438f.xml, tagACT_AUTHZ_STATE"
-ms.topic: struct
 f1_keywords:
  - "ehstorioctl/ACT_AUTHZ_STATE"
 req.header: ehstorioctl.h

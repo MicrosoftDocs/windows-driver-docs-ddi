@@ -6,8 +6,8 @@ old-location: sd\ioctl_sffdisk_device_command.htm
 tech.root: SD
 ms.assetid: ccf9e0a2-b891-474c-ac95-7b18112857c0
 ms.date: 02/15/2018
+keywords: ["IOCTL_SFFDISK_DEVICE_COMMAND IOCTL"]
 ms.keywords: IOCTL_SFFDISK_DEVICE_COMMAND, IOCTL_SFFDISK_DEVICE_COMMAND control, IOCTL_SFFDISK_DEVICE_COMMAND control code [Buses], SD.ioctl_sffdisk_device_command, sd-ioctls_27448784-2a0f-484b-a36f-60f3c617ec08.xml, sffdisk/IOCTL_SFFDISK_DEVICE_COMMAND
-ms.topic: ioctl
 f1_keywords:
  - "sffdisk/IOCTL_SFFDISK_DEVICE_COMMAND"
 req.header: sffdisk.h

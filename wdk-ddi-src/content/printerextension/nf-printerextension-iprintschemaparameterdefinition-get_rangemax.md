@@ -6,8 +6,8 @@ old-location: print\_iprintschemaparameterdefinition_rangemax.htm
 tech.root: print
 ms.assetid: 516FADF0-3786-4C41-B38D-4A742AD68719
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaParameterDefinition::get_RangeMax"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],RangeMax property, IPrintSchemaParameterDefinition.RangeMax, IPrintSchemaParameterDefinition.get_RangeMax, IPrintSchemaParameterDefinition::RangeMax, IPrintSchemaParameterDefinition::get_RangeMax, RangeMax property [Print Devices], RangeMax property [Print Devices],IPrintSchemaParameterDefinition interface, get_RangeMax, print._iprintschemaparameterdefinition_rangemax, printerextension/IPrintSchemaParameterDefinition::RangeMax, printerextension/IPrintSchemaParameterDefinition::get_RangeMax
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintSchemaParameterDefinition.RangeMax"
 req.header: printerextension.h

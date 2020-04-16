@@ -5,8 +5,8 @@ description: D3DKMT_EVICT is used with D3DKMTEvict to subtract one from the resi
 old-location: display\d3dkmt_evict.htm
 ms.assetid: 07785939-C3D1-4085-BA1A-91E8FEE52B70
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_EVICT structure"]
 ms.keywords: D3DKMT_EVICT, D3DKMT_EVICT structure [Display Devices], _D3DKMT_EVICT, d3dkmthk/D3DKMT_EVICT, display.d3dkmt_evict
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_EVICT"
 req.header: d3dkmthk.h

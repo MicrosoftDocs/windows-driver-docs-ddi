@@ -6,8 +6,8 @@ old-location: ifsk\fsrtldeletekeyfromtunnelcache.htm
 tech.root: ifsk
 ms.assetid: 01f0d1ab-7c7f-4ee2-89f0-c48b257bafbb
 ms.date: 04/16/2018
+keywords: ["FsRtlDeleteKeyFromTunnelCache function"]
 ms.keywords: FsRtlDeleteKeyFromTunnelCache, FsRtlDeleteKeyFromTunnelCache routine [Installable File System Drivers], fsrtlref_cbb2d1c7-d4c5-4fe0-9e35-d09dac0e7eff.xml, ifsk.fsrtldeletekeyfromtunnelcache, ntifs/FsRtlDeleteKeyFromTunnelCache
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlDeleteKeyFromTunnelCache"
 req.header: ntifs.h

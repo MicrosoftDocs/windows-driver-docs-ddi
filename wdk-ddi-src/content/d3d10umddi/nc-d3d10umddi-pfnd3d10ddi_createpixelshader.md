@@ -5,8 +5,8 @@ description: The CreatePixelShader(D3D10) function creates a pixel shader.
 old-location: display\createpixelshader_d3d10_.htm
 ms.assetid: 67b7cc14-89f5-45f2-b1cf-53316f495c66
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CREATEPIXELSHADER callback function"]
 ms.keywords: CreatePixelShader, CreatePixelShader callback function [Display Devices], PFND3D10DDI_CREATEPIXELSHADER, PFND3D10DDI_CREATEPIXELSHADER callback, UserModeDisplayDriverDx10_Functions_23347d7f-4550-4b9e-a64a-8fcb9b1573c6.xml, d3d10umddi/CreatePixelShader, display.createpixelshader_d3d10_
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -67,6 +67,10 @@ An array of CONST UINT tokens that make up the shader code. The first token in t
 A handle to the driver's private data for the pixel shader. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_calcprivateshadersize">CalcPrivateShaderSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader object.
 
 ### -param Arg4
+
+*hRTShader* [in]
+
+A handle to the pixel shader that the driver should use anytime it calls back into the Direct3D runtime. 
 
 ### -param Arg5
 

@@ -6,8 +6,8 @@ old-location: buses\ucm_pd_power_data_object_init_fixed.htm
 tech.root: usbref
 ms.assetid: AC51EA77-7F5B-42DE-B366-7BCE46AA5097
 ms.date: 05/07/2018
+keywords: ["UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function"]
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_FIXED, UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function [Buses], buses.ucm_pd_power_data_object_init_fixed, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_FIXED
-ms.topic: function
 f1_keywords:
  - "ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_FIXED"
 req.header: ucmtypes.h

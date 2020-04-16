@@ -4,7 +4,7 @@ title: PFND3DKMT_QUERYVIDEOMEMORYINFO (d3dkmthk.h)
 description: The PFND3DKMT_QUERYVIDEOMEMORYINFO callback function queries for video memory info.
 ms.assetid: b7c07313-82cd-4c7e-a659-d649c234f3f7
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DKMT_QUERYVIDEOMEMORYINFO callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_QUERYVIDEOMEMORYINFO"
 req.header: d3dkmthk.h

@@ -6,8 +6,8 @@ old-location: image\istidevice_rawwritedata.htm
 tech.root: image
 ms.assetid: bc64b3d6-8c86-4f99-b3b9-de31f576988c
 ms.date: 05/03/2018
+keywords: ["IStiDevice::RawWriteData"]
 ms.keywords: IStiDevice interface [Imaging Devices],RawWriteData method, IStiDevice.RawWriteData, IStiDevice::RawWriteData, RawWriteData, RawWriteData method [Imaging Devices], RawWriteData method [Imaging Devices],IStiDevice interface, image.istidevice_rawwritedata, sti/IStiDevice::RawWriteData, stifnc_2b8739f4-3ab7-4b25-bae2-7e025cffe72d.xml
-ms.topic: method
 f1_keywords:
  - "sti/IStiDevice.RawWriteData"
 req.header: sti.h

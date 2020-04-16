@@ -6,8 +6,8 @@ old-location: print\iprinterextensionevent_onprinterqueuesenumerated.htm
 tech.root: print
 ms.assetid: 947063C6-563A-4BB7-918E-479941B4583F
 ms.date: 04/20/2018
+keywords: ["IPrinterExtensionEvent::OnPrinterQueuesEnumerated"]
 ms.keywords: IPrinterExtensionEvent interface [Print Devices],OnPrinterQueuesEnumerated method, IPrinterExtensionEvent.OnPrinterQueuesEnumerated, IPrinterExtensionEvent::OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated method [Print Devices], OnPrinterQueuesEnumerated method [Print Devices],IPrinterExtensionEvent interface, print.iprinterextensionevent_onprinterqueuesenumerated, printerextension/IPrinterExtensionEvent::OnPrinterQueuesEnumerated
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterExtensionEvent.OnPrinterQueuesEnumerated"
 req.header: printerextension.h

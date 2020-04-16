@@ -6,8 +6,8 @@ old-location: audio\isynthsinkdmus_sampletoreftime.htm
 tech.root: audio
 ms.assetid: b2d54ee9-78aa-4799-a06d-6c79000d3e32
 ms.date: 05/08/2018
+keywords: ["ISynthSinkDMus::SampleToRefTime"]
 ms.keywords: ISynthSinkDMus interface [Audio Devices],SampleToRefTime method, ISynthSinkDMus.SampleToRefTime, ISynthSinkDMus::SampleToRefTime, SampleToRefTime, SampleToRefTime method [Audio Devices], SampleToRefTime method [Audio Devices],ISynthSinkDMus interface, audio.isynthsinkdmus_sampletoreftime, audmp-routines_acfbec43-3c33-4d78-9d25-57e44afe0033.xml, dmusicks/ISynthSinkDMus::SampleToRefTime
-ms.topic: method
 f1_keywords:
  - "dmusicks/ISynthSinkDMus.SampleToRefTime"
 req.header: dmusicks.h

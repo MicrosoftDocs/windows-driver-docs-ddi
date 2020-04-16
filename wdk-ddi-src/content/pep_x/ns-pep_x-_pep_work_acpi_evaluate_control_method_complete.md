@@ -6,8 +6,8 @@ old-location: kernel\pep_work_acpi_evaluate_control_method_complete.htm
 tech.root: kernel
 ms.assetid: 76D45B13-03C2-4B57-98B5-9E527ADCC72F
 ms.date: 04/30/2018
+keywords: ["_PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure"]
 ms.keywords: "*PPEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, PPEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, kernel.pep_work_acpi_evaluate_control_method_complete, pepfx/PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, pepfx/PPEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE"
-ms.topic: struct
 f1_keywords:
  - "pep_x/PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE"
 req.header: pep_x.h

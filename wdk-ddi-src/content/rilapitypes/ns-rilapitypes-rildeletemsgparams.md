@@ -6,8 +6,8 @@ old-location: netvista\rildeletemsgparams.htm
 tech.root: netvista
 ms.assetid: e87104d2-96e4-4840-8609-8a75247a039a
 ms.date: 05/02/2018
+keywords: ["RILDELETEMSGPARAMS structure"]
 ms.keywords: "*LPRILDELETEMSGPARAMS, RILDELETEMSGPARAMS, RILDELETEMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeletemsgparams, ntddrilapitypes/RILDELETEMSGPARAMS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILDELETEMSGPARAMS"
 req.header: rilapitypes.h

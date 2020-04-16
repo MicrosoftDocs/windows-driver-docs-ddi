@@ -4,7 +4,7 @@ title: IDataModelManager2::UnregisterModelForTypeSignature (dbgmodel.h)
 description: The UnregisterModelForTypeSignature method undoes a prior call to the RegisterModelForTypeSignature method. 
 ms.assetid: 9b378c81-3ed3-4565-98c0-0dfd658c8fcc
 ms.date: 09/11/2018
-ms.topic: method
+keywords: ["IDataModelManager2::UnregisterModelForTypeSignature"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.UnregisterModelForTypeSignature"
 ms.keywords: IDataModelManager2::UnregisterModelForTypeSignature, UnregisterModelForTypeSignature, IDataModelManager2.UnregisterModelForTypeSignature, IDataModelManager2::UnregisterModelForTypeSignature, IDataModelManager2.UnregisterModelForTypeSignature

@@ -6,8 +6,8 @@ old-location: buses\ucm_manager_config_init.htm
 tech.root: usbref
 ms.assetid: 5247D5F0-8422-48C1-81AF-98C8A3537FAD
 ms.date: 05/07/2018
+keywords: ["UCM_MANAGER_CONFIG_INIT function"]
 ms.keywords: UCM_MANAGER_CONFIG_INIT, UCM_MANAGER_CONFIG_INIT function [Buses], buses.ucm_manager_config_init, ucmmanager/UCM_MANAGER_CONFIG_INIT
-ms.topic: function
 f1_keywords:
  - "ucmmanager/UCM_MANAGER_CONFIG_INIT"
 req.header: ucmmanager.h

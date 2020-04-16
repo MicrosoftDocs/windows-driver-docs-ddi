@@ -6,8 +6,8 @@ old-location: ifsk\flt_createfile_target_ecp_context.htm
 tech.root: ifsk
 ms.assetid: 95BDB715-E476-48EF-9867-112CF665B66D
 ms.date: 04/16/2018
+keywords: ["_FLT_CREATEFILE_TARGET_ECP_CONTEXT structure"]
 ms.keywords: "*PFLT_CREATEFILE_TARGET_ECP_CONTEXT, FLTTCFL_AUTO_REPARSE, FLT_CREATEFILE_TARGET_ECP_CONTEXT, FLT_CREATEFILE_TARGET_ECP_CONTEXT structure [Installable File System Drivers], PFLT_CREATEFILE_TARGET_ECP_CONTEXT, PFLT_CREATEFILE_TARGET_ECP_CONTEXT structure pointer [Installable File System Drivers], _FLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/FLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/PFLT_CREATEFILE_TARGET_ECP_CONTEXT, ifsk.flt_createfile_target_ecp_context"
-ms.topic: struct
 f1_keywords:
  - "fltkernel/FLT_CREATEFILE_TARGET_ECP_CONTEXT"
 req.header: fltkernel.h

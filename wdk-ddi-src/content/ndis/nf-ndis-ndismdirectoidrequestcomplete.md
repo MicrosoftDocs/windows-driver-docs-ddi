@@ -6,8 +6,8 @@ old-location: netvista\ndismdirectoidrequestcomplete.htm
 tech.root: netvista
 ms.assetid: 11b8d4ed-54c8-4c64-ba9d-2a6fc1b22724
 ms.date: 05/02/2018
+keywords: ["NdisMDirectOidRequestComplete function"]
 ms.keywords: NdisMDirectOidRequestComplete, NdisMDirectOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMDirectOidRequestComplete, ndis_request_direct_ref_5f09825b-962f-41a9-b25d-e21c20e23249.xml, netvista.ndismdirectoidrequestcomplete
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMDirectOidRequestComplete"
 req.header: ndis.h

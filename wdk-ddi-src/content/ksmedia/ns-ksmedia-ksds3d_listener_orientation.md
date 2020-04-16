@@ -6,8 +6,8 @@ old-location: audio\ksds3d_listener_orientation.htm
 tech.root: audio
 ms.assetid: 3bcb9a6f-aacc-4b42-ba8e-1a1a4898f96d
 ms.date: 05/08/2018
+keywords: ["KSDS3D_LISTENER_ORIENTATION structure"]
 ms.keywords: "*PKSDS3D_LISTENER_ORIENTATION, KSDS3D_LISTENER_ORIENTATION, KSDS3D_LISTENER_ORIENTATION structure [Audio Devices], PKSDS3D_LISTENER_ORIENTATION, PKSDS3D_LISTENER_ORIENTATION structure pointer [Audio Devices], aud-prop_9e525f5b-c264-46e5-84f3-3a7845b61200.xml, audio.ksds3d_listener_orientation, ksmedia/KSDS3D_LISTENER_ORIENTATION, ksmedia/PKSDS3D_LISTENER_ORIENTATION"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSDS3D_LISTENER_ORIENTATION"
 req.header: ksmedia.h

@@ -5,7 +5,7 @@ description: Calculates the geometry shader with stream output.
 tech.root: display
 ms.assetid: 8a3e0549-12b2-449b-bf03-24946246877a
 ms.date: 11/28/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_CALC_PRIVATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALC_PRIVATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT"
 ms.prod: windows-hardware

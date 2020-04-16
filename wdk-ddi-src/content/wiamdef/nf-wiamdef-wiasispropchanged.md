@@ -6,8 +6,8 @@ old-location: image\wiasispropchanged.htm
 tech.root: image
 ms.assetid: 4b8f140c-ca4f-48fd-bee4-35d5a7beea52
 ms.date: 05/03/2018
+keywords: ["wiasIsPropChanged function"]
 ms.keywords: image.wiasispropchanged, wiamdef/wiasIsPropChanged, wiasFncs_11e49124-0147-4140-ba56-879ae3fcbf46.xml, wiasIsPropChanged, wiasIsPropChanged function [Imaging Devices]
-ms.topic: function
 f1_keywords:
  - "wiamdef/wiasIsPropChanged"
 req.header: wiamdef.h

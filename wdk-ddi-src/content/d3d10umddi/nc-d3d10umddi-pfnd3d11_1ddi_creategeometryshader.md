@@ -5,8 +5,8 @@ description: Creates a geometry shader.
 old-location: display\creategeometryshader_d3d11_1_.htm
 ms.assetid: A0C3826D-E4F3-4169-A899-41C11006DE69
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_CREATEGEOMETRYSHADER callback function"]
 ms.keywords: CreateGeometryShader(D3D11_1), CreateGeometryShader(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEGEOMETRYSHADER, PFND3D11_1DDI_CREATEGEOMETRYSHADER callback, d3d10umddi/CreateGeometryShader(D3D11_1), display.creategeometryshader_d3d11_1_
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -67,6 +67,10 @@ A pointer to an array of CONST UINT tokens that make up the shader code. The fir
 A handle to the driver's private data for the geometry shader. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_calcprivateshadersize">CalcPrivateShaderSize(D3D11_1)</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader object.
 
 ### -param Arg4
+
+*hRTShader* [in]
+
+A handle to the geometry shader that the driver should use when it calls back into the Direct3D runtime. 
 
 ### -param Arg5
 

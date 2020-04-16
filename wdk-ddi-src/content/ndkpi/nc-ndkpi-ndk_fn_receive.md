@@ -6,8 +6,8 @@ old-location: netvista\ndk_fn_receive.htm
 tech.root: netvista
 ms.assetid: DC40C6B5-3F52-4A7E-B8FC-917ACDF8309A
 ms.date: 05/02/2018
+keywords: ["NDK_FN_RECEIVE callback function"]
 ms.keywords: NDK_FN_RECEIVE, NDK_FN_RECEIVE callback, NdkReceive, NdkReceive callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReceive, netvista.ndk_fn_receive
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkReceive"
 req.header: ndkpi.h

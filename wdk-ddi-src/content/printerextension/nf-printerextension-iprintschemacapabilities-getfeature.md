@@ -6,8 +6,8 @@ old-location: print\iprintschemacapabilities_getfeature.htm
 tech.root: print
 ms.assetid: AC6434F5-0892-4426-98BB-BC02AD17917B
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaCapabilities::GetFeature"]
 ms.keywords: GetFeature, GetFeature method [Print Devices], GetFeature method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetFeature method, IPrintSchemaCapabilities.GetFeature, IPrintSchemaCapabilities::GetFeature, print.iprintschemacapabilities_getfeature, printerextension/IPrintSchemaCapabilities::GetFeature
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintSchemaCapabilities.GetFeature"
 req.header: printerextension.h
@@ -63,7 +63,7 @@ The base  value of the "name" attribute of the Feature element. For example, for
 
 ### -param bstrNamespaceUri [in]
 
-The namespace URI value of the "name" attribute of the Feature element. For example, for the Print Schema feature, the tag looks like this <psf:Feature name="psk:JobOutputBin">, with a base name value of "JobOutputBin", and the namespace URI of the public Print Schema is "http://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords".
+The namespace URI value of the "name" attribute of the Feature element. For example, for the Print Schema feature, the tag looks like this <psf:Feature name="psk:JobOutputBin">, with a base name value of "JobOutputBin", and the namespace URI of the public Print Schema is "https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords".
 If the feature is not defined in the public Print Schema, then this should be the URI of the private namespace that defines the feature.
 
 

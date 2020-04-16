@@ -6,8 +6,8 @@ old-location: kernel\psmakesilocontextpermanent.htm
 tech.root: kernel
 ms.assetid: 74BE4FF9-0342-4942-A58F-9C6D5F76E5F0
 ms.date: 04/30/2018
+keywords: ["PsMakeSiloContextPermanent function"]
 ms.keywords: PsMakeSiloContextPermanent, PsMakeSiloContextPermanent routine [Kernel-Mode Driver Architecture], kernel.psmakesilocontextpermanent, ntddk/PsMakeSiloContextPermanent
-ms.topic: function
 f1_keywords:
  - "ntddk/PsMakeSiloContextPermanent"
 req.header: ntddk.h

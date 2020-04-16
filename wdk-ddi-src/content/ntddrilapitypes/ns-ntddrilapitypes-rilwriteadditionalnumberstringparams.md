@@ -6,8 +6,8 @@ old-location: netvista\rilwriteadditionalnumberstringparams.htm
 tech.root: netvista
 ms.assetid: 2adcf421-c651-46a5-b82a-db62591e69f0
 ms.date: 05/02/2018
+keywords: ["RILWRITEADDITIONALNUMBERSTRINGPARAMS structure"]
 ms.keywords: "*LPRILWRITEADDITIONALNUMBERSTRINGPARAMS, RILWRITEADDITIONALNUMBERSTRINGPARAMS, RILWRITEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwriteadditionalnumberstringparams, ntddrilapitypes/RILWRITEADDITIONALNUMBERSTRINGPARAMS"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILWRITEADDITIONALNUMBERSTRINGPARAMS"
 req.header: ntddrilapitypes.h

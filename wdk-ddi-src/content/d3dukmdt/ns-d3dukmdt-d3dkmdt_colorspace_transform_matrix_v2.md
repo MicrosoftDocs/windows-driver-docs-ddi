@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 66c5b473-3479-4c68-88ba-cc1974e9af48
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
+keywords: ["D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2 structure"]
 f1_keywords:
  - "d3dukmdt/D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2"
 ms.keywords: D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2, D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2, *PD3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2, 

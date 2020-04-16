@@ -6,8 +6,8 @@ old-location: netvista\rilnitzinfo_v2.htm
 tech.root: netvista
 ms.assetid: 31980e7f-b767-4f63-9dc6-efce582d84ea
 ms.date: 05/02/2018
+keywords: ["RILNITZINFO_V2 structure"]
 ms.keywords: "*LPRILNITZINFO, *LPRILNITZINFO_V2, RILNITZINFO, RILNITZINFO_V2, RILNITZINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilnitzinfo_v2, ntddrilapitypes/RILNITZINFO_V2"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILNITZINFO_V2"
 req.header: ntddrilapitypes.h

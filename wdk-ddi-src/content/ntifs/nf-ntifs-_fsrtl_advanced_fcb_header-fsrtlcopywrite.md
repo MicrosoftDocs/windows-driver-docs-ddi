@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlcopywrite.htm
 tech.root: ifsk
 ms.assetid: badff1ac-ccb2-418d-94be-c30d323f0464
 ms.date: 04/16/2018
+keywords: ["FsRtlCopyWrite function"]
 ms.keywords: FsRtlCopyWrite, FsRtlCopyWrite routine [Installable File System Drivers], fsrtlref_4c9bfba8-1946-430f-b242-7228394923de.xml, ifsk.fsrtlcopywrite, ntifs/FsRtlCopyWrite
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlCopyWrite"
 req.header: ntifs.h

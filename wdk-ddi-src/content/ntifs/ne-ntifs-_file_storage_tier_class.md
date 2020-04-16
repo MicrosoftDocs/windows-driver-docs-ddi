@@ -4,7 +4,7 @@ title: _FILE_STORAGE_TIER_CLASS (ntifs.h)
 description: Defines values for the type of desired storage class.
 ms.assetid: d969fc78-2517-4b9c-b2ce-489af3ff4e5f
 ms.date: 09/30/2018
-ms.topic: enum
+keywords: ["_FILE_STORAGE_TIER_CLASS enumeration"]
 f1_keywords:
  - "ntifs/_FILE_STORAGE_TIER_CLASS"
 ms.keywords: _FILE_STORAGE_TIER_CLASS, FILE_STORAGE_TIER_CLASS, *PFILE_STORAGE_TIER_CLASS, 

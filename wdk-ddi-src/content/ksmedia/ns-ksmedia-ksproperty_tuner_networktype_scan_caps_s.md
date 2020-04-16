@@ -6,8 +6,8 @@ old-location: stream\ksproperty_tuner_networktype_scan_caps_s.htm
 tech.root: stream
 ms.assetid: e6fe9278-d34e-4fba-80f9-84d6ededbfc1
 ms.date: 04/30/2019
+keywords: ["KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, PKSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, ksmedia/PKSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S, stream.ksproperty_tuner_networktype_scan_caps_s, vidcapstruct_7ffc22b0-3a65-449e-a0cb-6816a99738d6.xml"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSPROPERTY_TUNER_NETWORKTYPE_SCAN_CAPS_S"
 req.header: ksmedia.h

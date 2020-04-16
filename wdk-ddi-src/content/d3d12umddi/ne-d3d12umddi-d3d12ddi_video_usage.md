@@ -5,8 +5,8 @@ description: A hint for the graphics driver to optimize for different scenarios.
 old-location: display\d3d12ddi_video_usage.htm
 ms.assetid: 663790EE-A9E3-4EBC-93C7-20DE0D759A26
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_VIDEO_USAGE enumeration"]
 ms.keywords: D3D12DDI_VIDEO_USAGE, D3D12DDI_VIDEO_USAGE enumeration [Display Devices], D3D12DDI_VIDEO_USAGE_NORMAL, D3D12DDI_VIDEO_USAGE_POWER, D3D12_VIDEO_USAGE_QUALITY, d3d12umddi/D3D12DDI_VIDEO_USAGE, d3d12umddi/D3D12DDI_VIDEO_USAGE_NORMAL, d3d12umddi/D3D12DDI_VIDEO_USAGE_POWER, d3d12umddi/D3D12_VIDEO_USAGE_QUALITY, display.d3d12ddi_video_usage
-ms.topic: enum
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_USAGE"
 req.header: d3d12umddi.h

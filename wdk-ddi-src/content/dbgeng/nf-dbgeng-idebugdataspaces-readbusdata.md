@@ -6,8 +6,8 @@ old-location: debugger\readbusdata.htm
 tech.root: debugger
 ms.assetid: 5790b133-dbdc-4f77-a70e-616b0902794e
 ms.date: 05/03/2018
+keywords: ["IDebugDataSpaces::ReadBusData"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadBusData method, IDebugDataSpaces.ReadBusData, IDebugDataSpaces2 interface [Windows Debugging],ReadBusData method, IDebugDataSpaces2::ReadBusData, IDebugDataSpaces3 interface [Windows Debugging],ReadBusData method, IDebugDataSpaces3::ReadBusData, IDebugDataSpaces4 interface [Windows Debugging],ReadBusData method, IDebugDataSpaces4::ReadBusData, IDebugDataSpaces::ReadBusData, IDebugDataSpaces_59d5bf3f-7eb5-452c-ace2-4aed701d34a6.xml, ReadBusData, ReadBusData method [Windows Debugging], ReadBusData method [Windows Debugging],IDebugDataSpaces interface, ReadBusData method [Windows Debugging],IDebugDataSpaces2 interface, ReadBusData method [Windows Debugging],IDebugDataSpaces3 interface, ReadBusData method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadBusData, dbgeng/IDebugDataSpaces3::ReadBusData, dbgeng/IDebugDataSpaces4::ReadBusData, dbgeng/IDebugDataSpaces::ReadBusData, debugger.readbusdata
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugDataSpaces.ReadBusData"
 req.header: dbgeng.h

@@ -5,8 +5,8 @@ description: The D3D10DDIARG_INPUT_ELEMENT_DESC structure describes an element o
 old-location: display\d3d10ddiarg_input_element_desc.htm
 ms.assetid: cc052b73-8837-4756-a192-620dcd5cacb5
 ms.date: 05/10/2018
+keywords: ["D3D10DDIARG_INPUT_ELEMENT_DESC structure"]
 ms.keywords: D3D10DDIARG_INPUT_ELEMENT_DESC, D3D10DDIARG_INPUT_ELEMENT_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_c640f88f-3031-4412-a9bc-a8058cf8dab0.xml, d3d10umddi/D3D10DDIARG_INPUT_ELEMENT_DESC, display.d3d10ddiarg_input_element_desc
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_INPUT_ELEMENT_DESC"
 req.header: d3d10umddi.h

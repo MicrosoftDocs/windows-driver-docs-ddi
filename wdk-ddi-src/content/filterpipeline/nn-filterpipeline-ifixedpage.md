@@ -6,8 +6,8 @@ old-location: print\ifixedpage.htm
 tech.root: print
 ms.assetid: e9e309ed-42e5-40cc-a230-6ca001f9fb1b
 ms.date: 04/20/2018
+keywords: ["IFixedPage interface"]
 ms.keywords: IFixedPage, IFixedPage interface [Print Devices], IFixedPage interface [Print Devices],described, filterpipeline/IFixedPage, filterpipeline_4070fd54-c1df-432a-b586-a93854bf7aee.xml, print.ifixedpage
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IFixedPage"
 req.header: filterpipeline.h
@@ -53,7 +53,7 @@ A filter uses the <b>IFixedPage</b> interface to work with fixed pages in an XPS
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFixedPage</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>. <b>IFixedPage</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IFixedPage</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>. <b>IFixedPage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

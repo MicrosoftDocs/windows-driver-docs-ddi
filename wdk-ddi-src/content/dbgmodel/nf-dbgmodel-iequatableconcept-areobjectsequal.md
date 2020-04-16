@@ -4,7 +4,7 @@ title: IEquatableConcept::AreObjectsEqual (dbgmodel.h)
 description: Compares this object to another (of arbitrary type) for equality.  If the comparison cannot be performed, E_NOT_SET should be returned.
 ms.assetid: 846d56f6-e5e2-411d-ae4b-5dc1e31e3221
 ms.date: 09/26/2018
-ms.topic: method
+keywords: ["IEquatableConcept::AreObjectsEqual"]
 f1_keywords:
  - "dbgmodel/IEquatableConcept.AreObjectsEqual"
 ms.keywords: IEquatableConcept::AreObjectsEqual, AreObjectsEqual, IEquatableConcept.AreObjectsEqual, IEquatableConcept::AreObjectsEqual, IEquatableConcept.AreObjectsEqual

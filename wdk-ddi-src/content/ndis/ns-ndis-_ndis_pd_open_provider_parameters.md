@@ -6,8 +6,8 @@ old-location: netvista\ndis_pd_open_provider_parameters.htm
 tech.root: netvista
 ms.assetid: 38612533-DC8A-4D46-9C95-9F16BD9C27AB
 ms.date: 05/02/2018
+keywords: ["_NDIS_PD_OPEN_PROVIDER_PARAMETERS structure"]
 ms.keywords: NDIS_PD_OPEN_PROVIDER_PARAMETERS, NDIS_PD_OPEN_PROVIDER_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_OPEN_PROVIDER_PARAMETERS, ndis/NDIS_PD_OPEN_PROVIDER_PARAMETERS, netvista.ndis_pd_open_provider_parameters
-ms.topic: struct
 f1_keywords:
  - "ndis/NDIS_PD_OPEN_PROVIDER_PARAMETERS"
 req.header: ndis.h

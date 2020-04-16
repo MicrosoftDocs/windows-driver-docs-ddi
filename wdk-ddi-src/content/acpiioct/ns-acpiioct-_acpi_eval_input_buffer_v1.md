@@ -6,8 +6,8 @@ old-location: acpi\acpi_eval_input_buffer.htm
 tech.root: acpi
 ms.assetid: a911fab9-516f-4ac5-ae33-1b6e218f9349
 ms.date: 02/15/2018
+keywords: ["_ACPI_EVAL_INPUT_BUFFER_V1 structure"]
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER, *PACPI_EVAL_INPUT_BUFFER_V1, ACPI_EVAL_INPUT_BUFFER, ACPI_EVAL_INPUT_BUFFER_V1, ACPI_EVAL_INPUT_BUFFER_V1 structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_V1, PACPI_EVAL_INPUT_BUFFER_V1 structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_V1, acpi-meth-eval-ref_fda162bd-f908-46bf-a5a9-66daeb6b6aaf.xml, acpi.acpi_eval_input_buffer, acpiioct/ACPI_EVAL_INPUT_BUFFER_V1, acpiioct/PACPI_EVAL_INPUT_BUFFER_V1"
-ms.topic: struct
 f1_keywords:
  - "acpiioct/ACPI_EVAL_INPUT_BUFFER_V1"
 req.header: acpiioct.h

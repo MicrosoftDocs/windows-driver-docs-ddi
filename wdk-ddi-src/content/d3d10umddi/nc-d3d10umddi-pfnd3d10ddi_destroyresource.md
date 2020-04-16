@@ -5,8 +5,8 @@ description: The DestroyResource(D3D10) function destroys the specified resource
 old-location: display\destroyresource_d3d10_.htm
 ms.assetid: 3ff77844-eeee-4fda-8798-2e240bc51379
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_DESTROYRESOURCE callback function"]
 ms.keywords: DestroyResource, DestroyResource callback function [Display Devices], PFND3D10DDI_DESTROYRESOURCE, PFND3D10DDI_DESTROYRESOURCE callback, UserModeDisplayDriverDx10_Functions_59a8abb1-fb74-49b0-a6b8-c0e867f9d7d6.xml, d3d10umddi/DestroyResource, display.destroyresource_d3d10_
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/DestroyResource"
 req.header: d3d10umddi.h

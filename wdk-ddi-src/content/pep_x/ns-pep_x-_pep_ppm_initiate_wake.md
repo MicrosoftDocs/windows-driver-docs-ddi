@@ -6,8 +6,8 @@ old-location: kernel\pep_ppm_initiate_wake.htm
 tech.root: kernel
 ms.assetid: 7627521D-4715-47D8-8268-6C9B218FFA6F
 ms.date: 04/30/2018
+keywords: ["_PEP_PPM_INITIATE_WAKE structure"]
 ms.keywords: "*PPEP_PPM_INITIATE_WAKE, PEP_PPM_INITIATE_WAKE, PEP_PPM_INITIATE_WAKE structure [Kernel-Mode Driver Architecture], PPEP_PPM_INITIATE_WAKE, PPEP_PPM_INITIATE_WAKE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_INITIATE_WAKE, kernel.pep_ppm_initiate_wake, pepfx/PEP_PPM_INITIATE_WAKE, pepfx/PPEP_PPM_INITIATE_WAKE"
-ms.topic: struct
 f1_keywords:
  - "pep_x/PEP_PPM_INITIATE_WAKE"
 req.header: pep_x.h

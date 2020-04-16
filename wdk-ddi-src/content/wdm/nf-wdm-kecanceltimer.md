@@ -6,8 +6,8 @@ old-location: kernel\kecanceltimer.htm
 tech.root: kernel
 ms.assetid: aefbf6d6-c107-4bf2-993d-d7ba8ea7ffcd
 ms.date: 04/30/2018
+keywords: ["KeCancelTimer function"]
 ms.keywords: KeCancelTimer, KeCancelTimer routine [Kernel-Mode Driver Architecture], k105_89adf0ea-9f6b-4e21-be3a-7f75f1baec10.xml, kernel.kecanceltimer, wdm/KeCancelTimer
-ms.topic: function
 f1_keywords:
  - "wdm/KeCancelTimer"
 req.header: wdm.h

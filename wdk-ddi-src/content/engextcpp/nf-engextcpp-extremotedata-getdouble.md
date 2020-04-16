@@ -6,8 +6,8 @@ old-location: debugger\extremotedata_getdouble.htm
 tech.root: debugger
 ms.assetid: f8645e92-659f-42b8-a850-49a434ec2a67
 ms.date: 05/03/2018
+keywords: ["ExtRemoteData::GetDouble"]
 ms.keywords: EngExtCpp_Ref_8776e6fd-9e13-4502-a445-da65a8fcfe41.xml, ExtRemoteData class [Windows Debugging],GetDouble method, ExtRemoteData.GetDouble, ExtRemoteData::GetDouble, GetDouble, GetDouble method [Windows Debugging], GetDouble method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getdouble
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetDouble"
 req.header: engextcpp.hpp

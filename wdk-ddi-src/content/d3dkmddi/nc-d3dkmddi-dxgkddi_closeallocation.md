@@ -5,8 +5,8 @@ description: The DxgkDdiCloseAllocation function unbinds device-specific allocat
 old-location: display\dxgkddicloseallocation.htm
 ms.assetid: f9c195d7-debe-495e-a355-e176d06884f8
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_CLOSEALLOCATION callback function"]
 ms.keywords: DXGKDDI_CLOSEALLOCATION, DXGKDDI_CLOSEALLOCATION callback, DmFunctions_357920c4-694d-48f8-97ef-aa367e210a59.xml, DxgkDdiCloseAllocation, DxgkDdiCloseAllocation callback function [Display Devices], d3dkmddi/DxgkDdiCloseAllocation, display.dxgkddicloseallocation
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

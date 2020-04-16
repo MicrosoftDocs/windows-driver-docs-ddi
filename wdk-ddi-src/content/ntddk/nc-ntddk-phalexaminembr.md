@@ -6,8 +6,8 @@ old-location: kernel\halexaminembr.htm
 tech.root: kernel
 ms.assetid: 6db72f2c-af24-4807-b90b-65dc2b309dc7
 ms.date: 04/30/2018
+keywords: ["pHalExamineMBR callback function"]
 ms.keywords: HalExamineMBR, HalExamineMBR callback function [Kernel-Mode Driver Architecture], k103_86ff3079-34b8-4200-a0e9-88c921579b3f.xml, kernel.halexaminembr, ntddk/HalExamineMBR, pHalExamineMBR, pHalExamineMBR callback
-ms.topic: callback
 f1_keywords:
  - "ntddk/HalExamineMBR"
 req.header: ntddk.h

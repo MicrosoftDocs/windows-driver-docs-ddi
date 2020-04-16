@@ -6,8 +6,8 @@ old-location: kernel\iosetmasterirpstatus.htm
 tech.root: kernel
 ms.assetid: 68C7C46B-AFDB-449D-99B5-1F9A5A9AFFA4
 ms.date: 04/30/2018
+keywords: ["IoSetMasterIrpStatus function"]
 ms.keywords: IoSetMasterIrpStatus, IoSetMasterIrpStatus routine [Kernel-Mode Driver Architecture], kernel.iosetmasterirpstatus, ntddk/IoSetMasterIrpStatus
-ms.topic: function
 f1_keywords:
  - "ntddk/IoSetMasterIrpStatus"
 req.header: ntddk.h

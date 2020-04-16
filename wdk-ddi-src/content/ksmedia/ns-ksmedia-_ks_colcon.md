@@ -6,8 +6,8 @@ old-location: stream\ks_colcon.htm
 tech.root: stream
 ms.assetid: 8328c1b1-e72d-4e34-b69e-e02b3f5850bf
 ms.date: 04/23/2018
+keywords: ["_KS_COLCON structure"]
 ms.keywords: "*PKS_COLCON, KS_COLCON, KS_COLCON structure [Streaming Media Devices], PKS_COLCON, PKS_COLCON structure pointer [Streaming Media Devices], _KS_COLCON, dvdref_96e0b7a1-6131-445b-9a4f-9157997338aa.xml, ksmedia/KS_COLCON, ksmedia/PKS_COLCON, stream.ks_colcon"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KS_COLCON"
 req.header: ksmedia.h

@@ -6,8 +6,8 @@ old-location: print\iprintoemuni_ttygetinfo.htm
 tech.root: print
 ms.assetid: 0df8c555-4298-47e7-a6a7-43f101620e04
 ms.date: 04/20/2018
+keywords: ["IPrintOemUni::TTYGetInfo"]
 ms.keywords: IPrintOemUni interface [Print Devices],TTYGetInfo method, IPrintOemUni.TTYGetInfo, IPrintOemUni::TTYGetInfo, TTYGetInfo, TTYGetInfo method [Print Devices], TTYGetInfo method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::TTYGetInfo, print.iprintoemuni_ttygetinfo, print_unidrv-pscript_rendering_d98708b3-8e01-4037-a545-aee0e32a46c6.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemUni.TTYGetInfo"
 req.header: prcomoem.h

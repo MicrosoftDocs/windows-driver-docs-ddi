@@ -6,8 +6,8 @@ old-location: display\dxgkcbexcludeadapteraccess.htm
 tech.root: display
 ms.assetid: e74e79fe-3b36-427e-ae0b-4072a0438c4e
 ms.date: 05/10/2018
+keywords: ["DXGKCB_EXCLUDE_ADAPTER_ACCESS callback function"]
 ms.keywords: DXGKCB_EXCLUDE_ADAPTER_ACCESS, DXGKCB_EXCLUDE_ADAPTER_ACCESS callback, DpFunctions_8ad0a347-3d2f-429c-9b1f-67f000dbfc03.xml, DxgkCbExcludeAdapterAccess, DxgkCbExcludeAdapterAccess callback function [Display Devices], display.dxgkcbexcludeadapteraccess, dispmprt/DxgkCbExcludeAdapterAccess
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkCbExcludeAdapterAccess"
 req.header: dispmprt.h

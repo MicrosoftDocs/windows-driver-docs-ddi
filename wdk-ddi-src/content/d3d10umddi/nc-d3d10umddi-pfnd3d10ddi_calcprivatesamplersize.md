@@ -5,8 +5,8 @@ description: The CalcPrivateSamplerSize function determines the size of the user
 old-location: display\calcprivatesamplersize.htm
 ms.assetid: 7231ba65-f6ed-4b00-a61f-21d8fe26398f
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CALCPRIVATESAMPLERSIZE callback function"]
 ms.keywords: CalcPrivateSamplerSize, CalcPrivateSamplerSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATESAMPLERSIZE, PFND3D10DDI_CALCPRIVATESAMPLERSIZE callback, UserModeDisplayDriverDx10_Functions_66c06423-c710-4b1f-8084-d42c79066909.xml, d3d10umddi/CalcPrivateSamplerSize, display.calcprivatesamplersize
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

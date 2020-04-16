@@ -6,8 +6,8 @@ old-location: display\d3dhal_dp2deletequery.htm
 tech.root: display
 ms.assetid: c125e21f-20be-42c1-ba24-b13f2475f02e
 ms.date: 05/10/2018
+keywords: ["_D3DHAL_DP2DELETEQUERY structure"]
 ms.keywords: "*LPD3DHAL_DP2DELETEQUERY, D3DHAL_DP2DELETEQUERY, D3DHAL_DP2DELETEQUERY structure [Display Devices], LPD3DHAL_DP2DELETEQUERY, LPD3DHAL_DP2DELETEQUERY structure pointer [Display Devices], _D3DHAL_DP2DELETEQUERY, d3dhal/D3DHAL_DP2DELETEQUERY, d3dhal/LPD3DHAL_DP2DELETEQUERY, d3dstrct_3194de0d-21ee-4f44-9be3-2f2ebe6b06e2.xml, display.d3dhal_dp2deletequery"
-ms.topic: struct
 f1_keywords:
  - "d3dhal/D3DHAL_DP2DELETEQUERY"
 req.header: d3dhal.h

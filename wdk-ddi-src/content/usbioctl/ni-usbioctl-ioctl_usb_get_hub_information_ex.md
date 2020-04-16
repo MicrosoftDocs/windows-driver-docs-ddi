@@ -6,8 +6,8 @@ old-location: buses\ioctl_usb_get_hub_information_ex.htm
 tech.root: usbref
 ms.assetid: 518AB292-A1E7-48CE-B967-C6559580E326
 ms.date: 05/07/2018
+keywords: ["IOCTL_USB_GET_HUB_INFORMATION_EX IOCTL"]
 ms.keywords: IOCTL_USB_GET_HUB_INFORMATION_EX, IOCTL_USB_GET_HUB_INFORMATION_EX control, IOCTL_USB_GET_HUB_INFORMATION_EX control code [Buses], buses.ioctl_usb_get_hub_information_ex, usbioctl/IOCTL_USB_GET_HUB_INFORMATION_EX
-ms.topic: ioctl
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_HUB_INFORMATION_EX"
 req.header: usbioctl.h

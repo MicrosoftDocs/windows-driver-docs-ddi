@@ -6,8 +6,8 @@ old-location: nfpdrivers\ioctl_nfp_set_payload.htm
 tech.root: nfpdrivers
 ms.assetid: FF89A868-1289-4D1D-BFA8-17E65ED7F8C4
 ms.date: 02/15/2018
+keywords: ["IOCTL_NFP_SET_PAYLOAD IOCTL"]
 ms.keywords: IOCTL_NFP_SET_PAYLOAD, IOCTL_NFP_SET_PAYLOAD control, IOCTL_NFP_SET_PAYLOAD control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_SET_PAYLOAD, nfpdrivers.ioctl_nfp_set_payload
-ms.topic: ioctl
 f1_keywords:
  - "nfpdev/IOCTL_NFP_SET_PAYLOAD"
 req.header: nfpdev.h

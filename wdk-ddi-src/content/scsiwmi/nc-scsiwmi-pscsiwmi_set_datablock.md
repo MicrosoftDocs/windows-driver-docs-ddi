@@ -6,8 +6,8 @@ old-location: storage\hwscsiwmisetdatablock.htm
 tech.root: storage
 ms.assetid: 5523d4d6-8eb5-48eb-a652-6612101b8422
 ms.date: 03/29/2018
+keywords: ["PSCSIWMI_SET_DATABLOCK callback function"]
 ms.keywords: HwScsiWmiSetDataBlock, HwScsiWmiSetDataBlock callback function [Storage Devices], PSCSIWMI_SET_DATABLOCK, PSCSIWMI_SET_DATABLOCK callback, Scsimini_b75fb6d1-48dc-4fcb-ae05-bf278c382ecf.xml, scsiwmi/HwScsiWmiSetDataBlock, storage.hwscsiwmisetdatablock
-ms.topic: callback
 f1_keywords:
  - "scsiwmi/HwScsiWmiSetDataBlock"
 req.header: scsiwmi.h

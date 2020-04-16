@@ -6,8 +6,8 @@ old-location: debugger\extremotedata_getchar.htm
 tech.root: debugger
 ms.assetid: bf916e7c-f03b-4d02-8260-bc90e8957cc9
 ms.date: 05/03/2018
+keywords: ["ExtRemoteData::GetChar"]
 ms.keywords: EngExtCpp_Ref_98ced053-a952-4c9f-af2b-0aab9d20e311.xml, ExtRemoteData class [Windows Debugging],GetChar method, ExtRemoteData.GetChar, ExtRemoteData::GetChar, GetChar, GetChar method [Windows Debugging], GetChar method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getchar
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetChar"
 req.header: engextcpp.hpp

@@ -6,8 +6,8 @@ old-location: display\d3dddi_waitforsynchronizationobjectfromcpu_flags.htm
 tech.root: display
 ms.assetid: 2283D20F-D256-48E5-BFD2-D3ACACD7BF1C
 ms.date: 05/10/2018
+keywords: ["_D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS structure"]
 ms.keywords: D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS structure [Display Devices], _D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, d3dukmdt/D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS, display.d3dddi_waitforsynchronizationobjectfromcpu_flags
-ms.topic: struct
 f1_keywords:
  - "d3dukmdt/D3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPU_FLAGS"
 req.header: d3dukmdt.h

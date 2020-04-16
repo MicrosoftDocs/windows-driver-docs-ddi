@@ -6,8 +6,8 @@ old-location: powermeter\pmi_measurement_data.htm
 tech.root: powermeter
 ms.assetid: d96e587e-36e2-475a-a139-040034f8e60b
 ms.date: 05/08/2018
+keywords: ["_PMI_MEASUREMENT_DATA structure"]
 ms.keywords: "*PPMI_MEASUREMENT_DATA, PMI_MEASUREMENT_DATA, PMI_MEASUREMENT_DATA structure [Power Metering and Budgeting Devices], PPMI_MEASUREMENT_DATA, PPMI_MEASUREMENT_DATA structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_6a79b3fc-5943-4ac9-aa02-4584269bb970.xml, _PMI_MEASUREMENT_DATA, pmi/PMI_MEASUREMENT_DATA, pmi/PPMI_MEASUREMENT_DATA, powermeter.pmi_measurement_data"
-ms.topic: struct
 f1_keywords:
  - "pmi/PMI_MEASUREMENT_DATA"
 req.header: pmi.h

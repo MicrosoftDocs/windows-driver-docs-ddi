@@ -6,8 +6,8 @@ old-location: kernel\pcreate_thread_notify_routine.htm
 tech.root: kernel
 ms.assetid: AAA62659-D12C-4EEC-8D74-6138B34128CE
 ms.date: 04/30/2018
+keywords: ["PCREATE_THREAD_NOTIFY_ROUTINE callback function"]
 ms.keywords: PCREATE_THREAD_NOTIFY_ROUTINE, PCREATE_THREAD_NOTIFY_ROUTINE callback, SetCreateThreadNotifyRoutine, SetCreateThreadNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pcreate_thread_notify_routine, ntddk/SetCreateThreadNotifyRoutine
-ms.topic: callback
 f1_keywords:
  - "ntddk/SetCreateThreadNotifyRoutine"
 req.header: ntddk.h

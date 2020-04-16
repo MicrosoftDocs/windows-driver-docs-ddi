@@ -6,8 +6,8 @@ old-location: buses\usb_common_descriptor.htm
 tech.root: usbref
 ms.assetid: 1ea51976-c786-4ca3-aaa3-a44fa8697efa
 ms.date: 05/07/2018
+keywords: ["_USB_COMMON_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_COMMON_DESCRIPTOR, PUSB_COMMON_DESCRIPTOR, PUSB_COMMON_DESCRIPTOR structure pointer [Buses], USB_COMMON_DESCRIPTOR, USB_COMMON_DESCRIPTOR structure [Buses], _USB_COMMON_DESCRIPTOR, buses.usb_common_descriptor, usbspec/PUSB_COMMON_DESCRIPTOR, usbspec/USB_COMMON_DESCRIPTOR, usbstrct_be74945b-60a4-44cc-9c7b-e1eb5cc25525.xml"
-ms.topic: struct
 f1_keywords:
  - "usbspec/USB_COMMON_DESCRIPTOR"
 req.header: usbspec.h

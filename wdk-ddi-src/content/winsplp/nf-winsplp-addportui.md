@@ -6,8 +6,8 @@ old-location: print\addportui.htm
 tech.root: print
 ms.assetid: 8305ab0c-0783-4597-9e2c-dfd9cbc843d1
 ms.date: 04/20/2018
+keywords: ["AddPortUI function"]
 ms.keywords: AddPortUI, pfnAddPortUI, pfnAddPortUI function [Print Devices], print.addportui, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, winsplp/pfnAddPortUI
-ms.topic: function
 f1_keywords:
  - "winsplp/pfnAddPortUI"
 req.header: winsplp.h

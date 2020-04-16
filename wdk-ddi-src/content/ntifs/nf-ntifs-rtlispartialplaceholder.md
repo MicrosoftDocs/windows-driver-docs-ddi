@@ -6,8 +6,8 @@ old-location: ifsk\rtlispartialplaceholder.htm
 tech.root: ifsk
 ms.assetid: FB47F5BE-76B4-4A99-A15F-DE3E11D1DA2B
 ms.date: 04/16/2018
+keywords: ["RtlIsPartialPlaceholder function"]
 ms.keywords: RtlIsPartialPlaceholder, RtlIsPartialPlaceholder routine [Installable File System Drivers], ifsk.rtlispartialplaceholder, ntifs/RtlIsPartialPlaceholder
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlIsPartialPlaceholder"
 req.header: ntifs.h

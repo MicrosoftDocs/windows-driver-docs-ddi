@@ -6,8 +6,8 @@ old-location: dtf\iwdtfsimpleiostressactions2.htm
 tech.root: dtf
 ms.assetid: d50bf1d1-fa36-4ab1-9173-bdaf2f5a9f28
 ms.date: 03/29/2018
+keywords: ["IWDTFSimpleIOStressActions2 interface"]
 ms.keywords: IWDTFSimpleIOStressActions2, IWDTFSimpleIOStressActions2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressActions2 interface [Windows Device Testing Framework], described, dtf.iwdtfsimpleiostressactions2, wdtfinterfaces/IWDTFSimpleIOStressActions2
-ms.topic: interface
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOStressActions2"
 req.header: wdtfinterfaces.h

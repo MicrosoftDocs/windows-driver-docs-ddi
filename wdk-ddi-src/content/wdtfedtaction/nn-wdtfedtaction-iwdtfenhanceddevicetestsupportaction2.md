@@ -6,8 +6,8 @@ old-location: dtf\iwdtfenhanceddevicetestsupportaction2.htm
 tech.root: dtf
 ms.assetid: 273eb6e9-10cb-4ed3-86a4-103dea801b77
 ms.date: 04/04/2018
+keywords: ["IWDTFEnhancedDeviceTestSupportAction2 interface"]
 ms.keywords: IWDTFEnhancedDeviceTestSupportAction2, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2, dtf.iwdtfenhanceddevicetestsupportaction2, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2
-ms.topic: interface
 f1_keywords:
  - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2"
 req.header: wdtfedtaction.h

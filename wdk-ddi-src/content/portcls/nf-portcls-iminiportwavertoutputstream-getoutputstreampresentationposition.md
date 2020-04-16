@@ -6,8 +6,8 @@ old-location: audio\iminiportwavertoutputstream_getoutputstreampresentationposit
 tech.root: audio
 ms.assetid: 8E52A10E-5666-41B5-B342-491E5AF9DD38
 ms.date: 05/08/2018
+keywords: ["IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition"]
 ms.keywords: GetOutputStreamPresentationPosition, GetOutputStreamPresentationPosition method [Audio Devices], GetOutputStreamPresentationPosition method [Audio Devices],IMiniportWaveRTOutputStream interface, IMiniportWaveRTOutputStream interface [Audio Devices],GetOutputStreamPresentationPosition method, IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition, IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition, audio.iminiportwavertoutputstream_getoutputstreampresentationposition, portcls/IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition"
 req.header: portcls.h

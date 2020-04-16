@@ -6,8 +6,8 @@ old-location: print\iprintschematicket_getfeaturebykeyname.htm
 tech.root: print
 ms.assetid: 3BD7B8D6-B06F-492F-A73E-DA0799387B2A
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaTicket::GetFeatureByKeyName"]
 ms.keywords: GetFeatureByKeyName, GetFeatureByKeyName method [Print Devices], GetFeatureByKeyName method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],GetFeatureByKeyName method, IPrintSchemaTicket.GetFeatureByKeyName, IPrintSchemaTicket::GetFeatureByKeyName, print.iprintschematicket_getfeaturebykeyname, printerextension/IPrintSchemaTicket::GetFeatureByKeyName
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintSchemaTicket.GetFeatureByKeyName"
 req.header: printerextension.h

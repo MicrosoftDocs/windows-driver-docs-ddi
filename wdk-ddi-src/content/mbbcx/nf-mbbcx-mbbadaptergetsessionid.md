@@ -5,7 +5,7 @@ description: The MbbAdapterGetSessionId method retreives the data session ID rep
 tech.root: netvista
 ms.assetid: 75268612-d362-4f69-921a-8305b7bfe12d
 ms.date: 06/29/2018
-ms.topic: function
+keywords: ["MbbAdapterGetSessionId function"]
 f1_keywords:
  - "mbbcx/MbbAdapterGetSessionId"
 ms.keywords: MbbAdapterGetSessionId

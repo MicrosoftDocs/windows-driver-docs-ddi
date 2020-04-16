@@ -5,7 +5,7 @@ description: The AllocateAudioBuffer method allocates a cyclic buffer for audio 
 tech.root: audio
 ms.assetid: 9da789c4-8f39-4e09-8505-1119df379165
 ms.date: 10/31/2018
-ms.topic: method
+keywords: ["IMiniportWaveRTStream::AllocateAudioBuffer"]
 f1_keywords:
  - "portcls/IMiniportWaveRTStream.AllocateAudioBuffer"
 ms.keywords: IMiniportWaveRTStream::AllocateAudioBuffer, AllocateAudioBuffer, IMiniportWaveRTStream.AllocateAudioBuffer, IMiniportWaveRTStream::AllocateAudioBuffer, IMiniportWaveRTStream.AllocateAudioBuffer

@@ -6,8 +6,8 @@ old-location: ieee\irb_req_get_speed_topology_maps.htm
 tech.root: IEEE
 ms.assetid: 3238BDA7-9C85-405B-B731-DD230B0975F9
 ms.date: 02/15/2018
+keywords: ["_IRB_REQ_GET_SPEED_TOPOLOGY_MAPS structure"]
 ms.keywords: 1394/IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IEEE.irb_req_get_speed_topology_maps, IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IRB_REQ_GET_SPEED_TOPOLOGY_MAPS structure [Buses], _IRB_REQ_GET_SPEED_TOPOLOGY_MAPS
-ms.topic: struct
 f1_keywords:
  - "1394/IRB_REQ_GET_SPEED_TOPOLOGY_MAPS"
 req.header: 1394.h

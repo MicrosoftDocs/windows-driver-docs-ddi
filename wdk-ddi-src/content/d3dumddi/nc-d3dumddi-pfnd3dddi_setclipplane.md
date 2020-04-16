@@ -6,8 +6,8 @@ old-location: display\setclipplane.htm
 tech.root: display
 ms.assetid: 99edfc35-23a5-41e0-8705-7dffba564c10
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_SETCLIPPLANE callback function"]
 ms.keywords: PFND3DDDI_SETCLIPPLANE, PFND3DDDI_SETCLIPPLANE callback, SetClipPlane, SetClipPlane callback function [Display Devices], UserModeDisplayDriver_Functions_695212ed-888d-40c9-8234-305373703b98.xml, d3dumddi/SetClipPlane, display.setclipplane
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

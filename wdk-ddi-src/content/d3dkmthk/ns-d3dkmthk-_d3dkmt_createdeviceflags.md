@@ -5,8 +5,8 @@ description: The D3DKMT_CREATEDEVICEFLAGS structure identifies the type of devic
 old-location: display\d3dkmt_createdeviceflags.htm
 ms.assetid: 90d4ce0a-1f36-4f2e-bdbe-5f80c8dfb92a
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_CREATEDEVICEFLAGS structure"]
 ms.keywords: D3DKMT_CREATEDEVICEFLAGS, D3DKMT_CREATEDEVICEFLAGS structure [Display Devices], OpenGL_Structs_7cb495c3-44aa-46cb-8bca-87b66c5d422f.xml, _D3DKMT_CREATEDEVICEFLAGS, d3dkmthk/D3DKMT_CREATEDEVICEFLAGS, display.d3dkmt_createdeviceflags
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEDEVICEFLAGS"
 req.header: d3dkmthk.h

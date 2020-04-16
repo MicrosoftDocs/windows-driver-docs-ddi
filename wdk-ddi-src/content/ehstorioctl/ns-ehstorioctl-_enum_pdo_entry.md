@@ -6,8 +6,8 @@ old-location: storage\enum_pdo_entry.htm
 tech.root: storage
 ms.assetid: c3f5cc8e-a600-4ca1-8745-d74943feb2c7
 ms.date: 03/29/2018
+keywords: ["_ENUM_PDO_ENTRY structure"]
 ms.keywords: "*PENUM_PDO_ENTRY, ENUM_PDO_ENTRY, ENUM_PDO_ENTRY structure [Storage Devices], PENUM_PDO_ENTRY, PENUM_PDO_ENTRY structure pointer [Storage Devices], _ENUM_PDO_ENTRY, ehstorioctl/ENUM_PDO_ENTRY, ehstorioctl/PENUM_PDO_ENTRY, storage.enum_pdo_entry, structs-silo_8303b6a6-8f4f-4f0c-91ce-9d70ea72f4f2.xml"
-ms.topic: struct
 f1_keywords:
  - "ehstorioctl/ENUM_PDO_ENTRY"
 req.header: ehstorioctl.h

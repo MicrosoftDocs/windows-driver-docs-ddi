@@ -5,8 +5,8 @@ description: DxgkCbReserveGpuVirtualAddressRange allows the kernel mode driver t
 old-location: display\dxgkcbreservegpuvirtualaddressrange.htm
 ms.assetid: 26A827F1-1094-4A7D-9C63-758925EE6273
 ms.date: 05/10/2018
+keywords: ["DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE callback function"]
 ms.keywords: DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE, DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE callback, DxgkCbReserveGpuVirtualAddressRange, DxgkCbReserveGpuVirtualAddressRange callback function [Display Devices], d3dkmddi/DxgkCbReserveGpuVirtualAddressRange, display.dxgkcbreservegpuvirtualaddressrange, dispmprt/DxgkCbReserveGpuVirtualAddressRange
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

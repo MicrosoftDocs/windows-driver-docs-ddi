@@ -6,8 +6,8 @@ old-location: audio\iminiportwavecyclic_init.htm
 tech.root: audio
 ms.assetid: 2f0147d0-9c1d-4f3e-890f-941568220605
 ms.date: 03/19/2018
+keywords: ["IMiniportWaveCyclic::Init method"]
 ms.keywords: IMiniportWaveCyclic, IMiniportWaveCyclic::Init, IMiniportWavweCyclic interface [Audio Devices], Init method, IMiniportWavweCyclic::Init, Init method [Audio Devices], Init method [Audio Devices], IMiniportWavweCyclic interface, Init,IMiniportWaveCyclic.Init, audio.iminiportwavecyclic_init, audmp-routines_d18e9242-160d-4f55-9204-2e425b1f1669.xml, portcls/IMiniportWavweCyclic::Init
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportWavweCyclic.Init"
 req.header: portcls.h

@@ -6,8 +6,8 @@ old-location: buses\usb_port_connector_properties.htm
 tech.root: usbref
 ms.assetid: 93818067-A7EC-4796-B80F-75ADD6315ADF
 ms.date: 05/07/2018
+keywords: ["_USB_PORT_CONNECTOR_PROPERTIES structure"]
 ms.keywords: "*PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES structure pointer [Buses], USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES structure [Buses], _USB_PORT_CONNECTOR_PROPERTIES, buses.usb_port_connector_properties, usbioctl/PUSB_PORT_CONNECTOR_PROPERTIES, usbioctl/USB_PORT_CONNECTOR_PROPERTIES"
-ms.topic: struct
 f1_keywords:
  - "usbioctl/USB_PORT_CONNECTOR_PROPERTIES"
 req.header: usbioctl.h

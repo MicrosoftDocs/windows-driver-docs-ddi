@@ -6,8 +6,8 @@ old-location: pos\unifiedpospowerreportingtype.htm
 tech.root: pos
 ms.assetid: e0263969-1c6a-4805-a647-d4b9df83ef71
 ms.date: 02/23/2018
+keywords: ["DriverUnifiedPosPowerReportingType enumeration"]
 ms.keywords: Advanced, DriverUnifiedPosPowerReportingType, DriverUnifiedPosPowerReportingType enumeration, Standard, UnknownPowerReportingType, pointofservicecommontypes/Advanced, pointofservicecommontypes/DriverUnifiedPosPowerReportingType, pointofservicecommontypes/Standard, pointofservicecommontypes/UnknownPowerReportingType, pos.unifiedpospowerreportingtype
-ms.topic: enum
 f1_keywords:
  - "pointofservicecommontypes/DriverUnifiedPosPowerReportingType"
 req.header: pointofservicecommontypes.h

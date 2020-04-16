@@ -6,8 +6,8 @@ old-location: display\d3dddicb_createhwqueue.htm
 tech.root: display
 ms.assetid: 085CEF61-2C2E-4F9C-B143-2E2D58C51643
 ms.date: 05/10/2018
+keywords: ["_D3DDDICB_CREATEHWQUEUE structure"]
 ms.keywords: D3DDDICB_CREATEHWQUEUE, D3DDDICB_CREATEHWQUEUE structure [Display Devices], _D3DDDICB_CREATEHWQUEUE, d3dumddi/D3DDDICB_CREATEHWQUEUE, display.d3dddicb_createhwqueue
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDICB_CREATEHWQUEUE"
 req.header: d3dumddi.h

@@ -5,8 +5,8 @@ description: Used to destroy a crypto session.
 old-location: display\pfnd3d12ddi_destroycryptosessionpolicy_0030.htm
 ms.assetid: D02ED6F5-1976-4EAE-A648-0F8ED32B77C6
 ms.date: 05/10/2018
+keywords: ["PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030 callback function"]
 ms.keywords: PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030, PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030 callback, PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030, display.pfnd3d12ddi_destroycryptosessionpolicy_0030
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_DESTROYCRYPTOSESSIONPOLICY_0030"
 req.header: d3d12umddi.h

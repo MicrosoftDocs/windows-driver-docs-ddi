@@ -6,8 +6,8 @@ old-location: debugger\getdescriptionwide.htm
 tech.root: debugger
 ms.assetid: e599d960-aefb-4b68-8149-7e93150d90d5
 ms.date: 05/03/2018
+keywords: ["IDebugRegisters2::GetDescriptionWide"]
 ms.keywords: GetDescriptionWide, GetDescriptionWide method [Windows Debugging], GetDescriptionWide method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetDescriptionWide method, IDebugRegisters2.GetDescriptionWide, IDebugRegisters2::GetDescriptionWide, dbgeng/IDebugRegisters2::GetDescriptionWide, debugger.getdescriptionwide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugRegisters2.GetDescriptionWide"
 req.header: dbgeng.h

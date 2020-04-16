@@ -6,8 +6,8 @@ old-location: display\dd_getadaptergroupdata.htm
 tech.root: display
 ms.assetid: 8c427880-f809-4b58-8f69-d81a273d705c
 ms.date: 05/10/2018
+keywords: ["_DD_GETADAPTERGROUPDATA structure"]
 ms.keywords: DD_GETADAPTERGROUPDATA, DD_GETADAPTERGROUPDATA structure [Display Devices], _DD_GETADAPTERGROUPDATA, d3dhal/DD_GETADAPTERGROUPDATA, d3dstrct_6bd570c2-bccf-4c1c-8bfb-ff20d77b7201.xml, display.dd_getadaptergroupdata
-ms.topic: struct
 f1_keywords:
  - "d3dhal/DD_GETADAPTERGROUPDATA"
 req.header: d3dhal.h

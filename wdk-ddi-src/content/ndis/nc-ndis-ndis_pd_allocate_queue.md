@@ -6,8 +6,8 @@ old-location: netvista\ndispdallocatequeue.htm
 tech.root: netvista
 ms.assetid: E9091C69-0E21-40CC-B3D3-1F770ABA0D47
 ms.date: 05/02/2018
+keywords: ["NDIS_PD_ALLOCATE_QUEUE callback function"]
 ms.keywords: NDIS_PD_ALLOCATE_QUEUE, NDIS_PD_ALLOCATE_QUEUE callback, NdisPDAllocateQueue, NdisPDAllocateQueue callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDAllocateQueue, netvista.ndispdallocatequeue
-ms.topic: callback
 f1_keywords:
  - "ndis/NdisPDAllocateQueue"
 req.header: ndis.h

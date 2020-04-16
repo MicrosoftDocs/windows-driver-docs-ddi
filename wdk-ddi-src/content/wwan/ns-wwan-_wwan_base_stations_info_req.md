@@ -6,8 +6,8 @@ old-location: netvista\wwan_base_stations_info_req.htm
 tech.root: netvista
 ms.assetid: 1948F98B-1F0B-4EB3-A2FF-01DA159B5EEB
 ms.date: 05/02/2018
+keywords: ["_WWAN_BASE_STATIONS_INFO_REQ structure"]
 ms.keywords: "*PWWAN_BASE_STATIONS_INFO_REQ, PWWAN_BASE_STATIONS_INFO_REQ, PWWAN_BASE_STATIONS_INFO_REQ structure pointer [Network Drivers Starting with Windows Vista], WWAN_BASE_STATIONS_INFO_REQ, WWAN_BASE_STATIONS_INFO_REQ structure [Network Drivers Starting with Windows Vista], _WWAN_BASE_STATIONS_INFO_REQ, netvista.wwan_base_stations_info_req, wwan/PWWAN_BASE_STATIONS_INFO_REQ, wwan/WWAN_BASE_STATIONS_INFO_REQ"
-ms.topic: struct
 f1_keywords:
  - "wwan/WWAN_BASE_STATIONS_INFO_REQ"
 req.header: wwan.h

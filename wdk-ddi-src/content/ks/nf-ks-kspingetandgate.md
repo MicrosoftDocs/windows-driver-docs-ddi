@@ -6,8 +6,8 @@ old-location: stream\kspingetandgate.htm
 tech.root: stream
 ms.assetid: abd4da69-c0c3-442f-af58-e77362c637da
 ms.date: 04/23/2018
+keywords: ["KsPinGetAndGate function"]
 ms.keywords: KsPinGetAndGate, KsPinGetAndGate function [Streaming Media Devices], avfunc_a4159ef9-1a69-4716-96ce-4fabd1ee6218.xml, ks/KsPinGetAndGate, stream.kspingetandgate
-ms.topic: function
 f1_keywords:
  - "ks/KsPinGetAndGate"
 req.header: ks.h

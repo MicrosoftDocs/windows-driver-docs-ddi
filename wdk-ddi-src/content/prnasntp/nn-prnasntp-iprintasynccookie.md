@@ -6,8 +6,8 @@ old-location: print\iprintasynccookie.htm
 tech.root: print
 ms.assetid: CF323800-F4C3-4CDB-B4EC-13359E262BF3
 ms.date: 04/20/2018
+keywords: ["IPrintAsyncCookie interface"]
 ms.keywords: IPrintAsyncCookie, IPrintAsyncCookie interface [Print Devices], IPrintAsyncCookie interface [Print Devices],described, print.iprintasynccookie, prnasntp/IPrintAsyncCookie
-ms.topic: interface
 f1_keywords:
  - "prnasntp/IPrintAsyncCookie"
 req.header: prnasntp.h
@@ -53,7 +53,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintAsyncCookie</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncCookie</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintAsyncCookie</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncCookie</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

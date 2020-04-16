@@ -6,8 +6,8 @@ old-location: debugger\idebugeventcallbackswide_loadmodule.htm
 tech.root: debugger
 ms.assetid: 03a76d41-3af1-48a9-832a-1c255a8b0cc4
 ms.date: 05/03/2018
+keywords: ["IDebugEventCallbacksWide::LoadModule"]
 ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging],LoadModule method, IDebugEventCallbacksWide.LoadModule, IDebugEventCallbacksWide::LoadModule, LoadModule, LoadModule method [Windows Debugging], LoadModule method [Windows Debugging],IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::LoadModule, debugger.idebugeventcallbackswide_loadmodule
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.LoadModule"
 req.header: dbgeng.h

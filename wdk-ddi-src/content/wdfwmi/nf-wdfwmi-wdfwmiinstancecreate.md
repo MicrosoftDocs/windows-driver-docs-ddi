@@ -6,8 +6,8 @@ old-location: wdf\wdfwmiinstancecreate.htm
 tech.root: wdf
 ms.assetid: ed662d6f-c42f-4dcb-86c5-135a302c59d7
 ms.date: 02/26/2018
+keywords: ["WdfWmiInstanceCreate function"]
 ms.keywords: DFWMIRef_8d75a5ee-d683-46fb-ba16-a2f8a2e892e3.xml, WdfWmiInstanceCreate, WdfWmiInstanceCreate method, kmdf.wdfwmiinstancecreate, wdf.wdfwmiinstancecreate, wdfwmi/WdfWmiInstanceCreate
-ms.topic: function
 f1_keywords:
  - "wdfwmi/WdfWmiInstanceCreate"
 req.header: wdfwmi.h

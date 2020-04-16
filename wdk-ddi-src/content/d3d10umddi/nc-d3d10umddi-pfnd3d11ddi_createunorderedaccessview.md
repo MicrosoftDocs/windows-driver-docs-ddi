@@ -5,8 +5,8 @@ description: The CreateUnorderedAccessView function creates an unordered access 
 old-location: display\createunorderedaccessview.htm
 ms.assetid: c5a258e7-6645-46bb-ab2c-a1c8f5e593b7
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_CREATEUNORDEREDACCESSVIEW callback function"]
 ms.keywords: CreateUnorderedAccessView, CreateUnorderedAccessView callback function [Display Devices], PFND3D11DDI_CREATEUNORDEREDACCESSVIEW, PFND3D11DDI_CREATEUNORDEREDACCESSVIEW callback, UserModeDisplayDriverDx11_Functions_4b9c2d38-c780-47be-a5fa-dec2c860732b.xml, d3d10umddi/CreateUnorderedAccessView, display.createunorderedaccessview
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -64,11 +64,15 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ### -param Arg3
 
+*hUnorderedAccessView* [in]
+
+A handle to the driver's private data for the hull shader.
+
+### -param Arg4
+
 *hRTUnorderedAccessView* [in]
 
 A handle to the unordered access view that the driver should use when it calls back into the Direct3D runtime.
-
-### -param Arg4
 
 ## -remarks
 

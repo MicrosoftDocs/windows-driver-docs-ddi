@@ -6,8 +6,8 @@ old-location: storage\storage_hw_firmware_activate.htm
 tech.root: storage
 ms.assetid: FCE1DE7B-CDFE-4533-90E7-A400EC236007
 ms.date: 03/29/2018
+keywords: ["_STORAGE_HW_FIRMWARE_ACTIVATE structure"]
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE, PSTORAGE_HW_FIRMWARE_ACTIVATE structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_ACTIVATE, STORAGE_HW_FIRMWARE_ACTIVATE structure [Storage Devices], _STORAGE_HW_FIRMWARE_ACTIVATE, ntddstor/PSTORAGE_HW_FIRMWARE_ACTIVATE, ntddstor/STORAGE_HW_FIRMWARE_ACTIVATE, storage.storage_hw_firmware_activate"
-ms.topic: struct
 f1_keywords:
  - "ntddstor/STORAGE_HW_FIRMWARE_ACTIVATE"
 req.header: ntddstor.h

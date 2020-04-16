@@ -5,8 +5,8 @@ description: Specifies information used to retrieve a list of profiles.
 old-location: display\d3d12ddi_video_decode_profiles_data.htm
 ms.assetid: D6615DE8-5103-470D-A895-6663B2CC9261
 ms.date: 04/16/2018
+keywords: ["D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020, D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020, display.d3d12ddi_video_decode_profiles_data
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020"
 req.header: d3d12umddi.h

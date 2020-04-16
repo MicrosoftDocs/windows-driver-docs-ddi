@@ -6,8 +6,8 @@ old-location: display\d3dkmdt_monitor_frequency_range.htm
 tech.root: display
 ms.assetid: 241b0534-593a-4030-9c48-8d463d56b64a
 ms.date: 05/10/2018
+keywords: ["_D3DKMDT_MONITOR_FREQUENCY_RANGE structure"]
 ms.keywords: D3DKMDT_MONITOR_FREQUENCY_RANGE, D3DKMDT_MONITOR_FREQUENCY_RANGE structure [Display Devices], DmStructs_ba8a984e-da56-4f63-a0b8-d94d426df563.xml, _D3DKMDT_MONITOR_FREQUENCY_RANGE, d3dkmdt/D3DKMDT_MONITOR_FREQUENCY_RANGE, display.d3dkmdt_monitor_frequency_range
-ms.topic: struct
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

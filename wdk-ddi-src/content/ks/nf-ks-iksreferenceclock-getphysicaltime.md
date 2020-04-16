@@ -6,8 +6,8 @@ old-location: stream\iksreferenceclock_getphysicaltime.htm
 tech.root: stream
 ms.assetid: 96c8d5ef-e9ab-40a6-88e1-56efdb7157b7
 ms.date: 04/23/2018
+keywords: ["IKsReferenceClock::GetPhysicalTime"]
 ms.keywords: GetPhysicalTime, GetPhysicalTime method [Streaming Media Devices], GetPhysicalTime method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetPhysicalTime method, IKsReferenceClock.GetPhysicalTime, IKsReferenceClock::GetPhysicalTime, avintfc_a80ef73b-383a-48b2-b3ea-49e5469c7bca.xml, ks/IKsReferenceClock::GetPhysicalTime, stream.iksreferenceclock_getphysicaltime
-ms.topic: method
 f1_keywords:
  - "ks/IKsReferenceClock.GetPhysicalTime"
 req.header: ks.h

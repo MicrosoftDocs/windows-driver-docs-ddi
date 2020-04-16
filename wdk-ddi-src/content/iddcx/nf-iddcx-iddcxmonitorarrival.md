@@ -6,8 +6,8 @@ old-location: display\iddcxmonitorarrival.htm
 tech.root: display
 ms.assetid: e73a8111-9e54-4040-a38a-441948e10212
 ms.date: 05/10/2018
+keywords: ["IddCxMonitorArrival function"]
 ms.keywords: IddCxMonitorArrival, IddCxMonitorArrival method [Display Devices], display.iddcxmonitorarrival, iddcx/IddCxMonitorArrival
-ms.topic: function
 f1_keywords:
  - "iddcx/IddCxMonitorArrival"
 req.header: iddcx.h

@@ -6,8 +6,8 @@ old-location: wdf\wdfinterruptreportactive.htm
 tech.root: wdf
 ms.assetid: 9A7B4181-0592-4C40-BC5A-99AFFA57846C
 ms.date: 02/26/2018
+keywords: ["WdfInterruptReportActive function"]
 ms.keywords: WdfInterruptReportActive, WdfInterruptReportActive method, kmdf._wdfinterruptreportactive, kmdf.wdfinterruptreportactive, wdf.wdfinterruptreportactive, wdfinterrupt/WdfInterruptReportActive
-ms.topic: function
 f1_keywords:
  - "wdfinterrupt/WdfInterruptReportActive"
 req.header: wdfinterrupt.h

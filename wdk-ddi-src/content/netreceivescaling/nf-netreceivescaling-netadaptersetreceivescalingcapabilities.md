@@ -5,7 +5,7 @@ description: The NetAdapterSetReceiveScalingCapabilities method sets a net adapt
 tech.root: netvista
 ms.assetid: facda650-4f68-40e4-bfe0-f9b7adae4c7f
 ms.date: 03/08/2018
-ms.topic: function
+keywords: ["NetAdapterSetReceiveScalingCapabilities function"]
 f1_keywords:
  - "netreceivescaling/NetAdapterSetReceiveScalingCapabilities"
 ms.keywords: NetAdapterSetReceiveScalingCapabilities

@@ -4,7 +4,7 @@ title: PFND3DKMT_OPENADAPTERFROMDEVICENAME (d3dkmthk.h)
 description: Pfnd3dkmtOpenadapterfromdevicename maps a device name to a graphics adapter handle and, if the adapter contains multiple monitor outputs, to one of those outputs.
 ms.assetid: 30832e65-d6bd-4d48-bd57-1b29620b47fe
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DKMT_OPENADAPTERFROMDEVICENAME callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_OPENADAPTERFROMDEVICENAME"
 req.header: d3dkmthk.h

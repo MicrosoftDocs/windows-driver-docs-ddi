@@ -6,8 +6,8 @@ old-location: storage\ioctl_cdrom_get_volume.htm
 tech.root: storage
 ms.assetid: 9ca03060-2f2b-4427-a161-fcce2be94b26
 ms.date: 03/29/2018
+keywords: ["IOCTL_CDROM_GET_VOLUME IOCTL"]
 ms.keywords: IOCTL_CDROM_GET_VOLUME, IOCTL_CDROM_GET_VOLUME control, IOCTL_CDROM_GET_VOLUME control code [Storage Devices], k307_40300286-1334-4229-a798-2bfef8866ca7.xml, ntddcdrm/IOCTL_CDROM_GET_VOLUME, storage.ioctl_cdrom_get_volume
-ms.topic: ioctl
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_GET_VOLUME"
 req.header: ntddcdrm.h

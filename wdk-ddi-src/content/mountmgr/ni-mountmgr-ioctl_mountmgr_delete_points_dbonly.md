@@ -6,8 +6,8 @@ old-location: storage\ioctl_mountmgr_delete_points_dbonly.htm
 tech.root: storage
 ms.assetid: 507e42a0-e5f6-4864-a665-d06eb4d1a77b
 ms.date: 03/29/2018
+keywords: ["IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY, IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY control, IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY control code [Storage Devices], k307_5b02ca9a-551e-42d1-a153-39a6f5d94141.xml, mountmgr/IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY, storage.ioctl_mountmgr_delete_points_dbonly
-ms.topic: ioctl
 f1_keywords:
  - "mountmgr/IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY"
 req.header: mountmgr.h

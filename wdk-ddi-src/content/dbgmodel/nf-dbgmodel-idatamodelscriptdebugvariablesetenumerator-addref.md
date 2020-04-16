@@ -4,7 +4,7 @@ title: IDataModelScriptDebugVariableSetEnumerator::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 06d03b66-e01f-437f-9550-6167d9e80ac6
 ms.date: 09/21/2018
-ms.topic: method
+keywords: ["IDataModelScriptDebugVariableSetEnumerator::AddRef"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugVariableSetEnumerator.AddRef"
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::AddRef, AddRef, IDataModelScriptDebugVariableSetEnumerator.AddRef, IDataModelScriptDebugVariableSetEnumerator::AddRef, IDataModelScriptDebugVariableSetEnumerator.AddRef

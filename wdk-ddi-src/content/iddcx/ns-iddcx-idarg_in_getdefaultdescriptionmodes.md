@@ -6,8 +6,8 @@ old-location: display\idarg_in_getdefaultdescriptionmodes.htm
 tech.root: display
 ms.assetid: 4d0a1f81-efc0-40aa-9dde-b9cac64afb8b
 ms.date: 05/10/2018
+keywords: ["IDARG_IN_GETDEFAULTDESCRIPTIONMODES structure"]
 ms.keywords: IDARG_IN_GETDEFAULTDESCRIPTIONMODES, IDARG_IN_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], display.idarg_in_getdefaultdescriptionmodes, iddcx/IDARG_IN_GETDEFAULTDESCRIPTIONMODES
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDARG_IN_GETDEFAULTDESCRIPTIONMODES"
 req.header: iddcx.h

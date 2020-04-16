@@ -6,8 +6,8 @@ old-location: ieee\ioctl_61883_class.htm
 tech.root: IEEE
 ms.assetid: c73472ee-aa27-4256-aa58-9331312ad513
 ms.date: 02/15/2018
+keywords: ["IOCTL_61883_CLASS IOCTL"]
 ms.keywords: 61883/IOCTL_61883_CLASS, 61883_requests_a47ccc46-e231-4e3e-8a71-97e4a79143e4.xml, IEEE.ioctl_61883_class, IOCTL_61883_CLASS, IOCTL_61883_CLASS control, IOCTL_61883_CLASS control code [Buses]
-ms.topic: ioctl
 f1_keywords:
  - "61883/IOCTL_61883_CLASS"
 req.header: 61883.h

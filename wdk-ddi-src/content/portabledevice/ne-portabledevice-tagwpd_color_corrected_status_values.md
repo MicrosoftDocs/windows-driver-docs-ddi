@@ -6,8 +6,8 @@ old-location: wpddk\wpd_color_corrected_status_values.htm
 tech.root: wpd_dk
 ms.assetid: c3a975c7-9598-4b20-8b18-3b457c80467c
 ms.date: 02/15/2018
+keywords: ["tagWPD_COLOR_CORRECTED_STATUS_VALUES enumeration"]
 ms.keywords: WPD_COLOR_CORRECTED_STATUS_CORRECTED, WPD_COLOR_CORRECTED_STATUS_NOT_CORRECTED, WPD_COLOR_CORRECTED_STATUS_SHOULD_NOT_BE_CORRECTED, WPD_COLOR_CORRECTED_STATUS_VALUES, WPD_COLOR_CORRECTED_STATUS_VALUES enumeration, enumeration, portabledevice/WPD_COLOR_CORRECTED_STATUS_CORRECTED, portabledevice/WPD_COLOR_CORRECTED_STATUS_NOT_CORRECTED, portabledevice/WPD_COLOR_CORRECTED_STATUS_SHOULD_NOT_BE_CORRECTED, portabledevice/WPD_COLOR_CORRECTED_STATUS_VALUES, tagWPD_COLOR_CORRECTED_STATUS_VALUES, wpddk.wpd_color_corrected_status_values
-ms.topic: enum
 f1_keywords:
  - "portabledevice/WPD_COLOR_CORRECTED_STATUS_VALUES"
 req.header: portabledevice.h

@@ -6,8 +6,8 @@ old-location: audio\iminiportaudioenginenode_getbuffersizerange.htm
 tech.root: audio
 ms.assetid: 75CBDD4F-618F-4618-9D53-4A8DF40992B0
 ms.date: 05/08/2018
+keywords: ["IMiniportAudioEngineNode::GetBufferSizeRange"]
 ms.keywords: GetBufferSizeRange, GetBufferSizeRange method [Audio Devices], GetBufferSizeRange method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetBufferSizeRange method, IMiniportAudioEngineNode.GetBufferSizeRange, IMiniportAudioEngineNode::GetBufferSizeRange, audio.iminiportaudioenginenode_getbuffersizerange, portcls/IMiniportAudioEngineNode::GetBufferSizeRange
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetBufferSizeRange"
 req.header: portcls.h

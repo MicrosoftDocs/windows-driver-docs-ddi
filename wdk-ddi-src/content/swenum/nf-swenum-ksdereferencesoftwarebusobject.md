@@ -6,8 +6,8 @@ old-location: stream\ksdereferencesoftwarebusobject.htm
 tech.root: stream
 ms.assetid: 11203a5d-1484-4a49-aedc-e11baf22cac9
 ms.date: 04/23/2018
+keywords: ["KsDereferenceSoftwareBusObject function"]
 ms.keywords: KsDereferenceSoftwareBusObject, KsDereferenceSoftwareBusObject function [Streaming Media Devices], ksfunc_e9066001-173a-40e1-a933-2f646a21afad.xml, stream.ksdereferencesoftwarebusobject, swenum/KsDereferenceSoftwareBusObject
-ms.topic: function
 f1_keywords:
  - "swenum/KsDereferenceSoftwareBusObject"
 req.header: swenum.h

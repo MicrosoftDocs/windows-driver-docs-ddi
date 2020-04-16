@@ -6,8 +6,8 @@ old-location: netvista\ril_getcardinfo.htm
 tech.root: netvista
 ms.assetid: d865993b-10cc-4fa2-a00f-34eb1d4e299b
 ms.date: 05/02/2018
+keywords: ["RIL_GetCardInfo function"]
 ms.keywords: RIL_GetCardInfo, RIL_GetCardInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getcardinfo, rilapi/RIL_GetCardInfo
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_GetCardInfo"
 req.header: rilapi.h

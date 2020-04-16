@@ -3,6 +3,7 @@ UID: NA:iointex
 title: Iointex.h header
 ms.assetid: dc0c0187-51c0-3402-8643-c7e2175b1b69
 ms.date: 05/09/2018
+keywords: ["Iointex.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

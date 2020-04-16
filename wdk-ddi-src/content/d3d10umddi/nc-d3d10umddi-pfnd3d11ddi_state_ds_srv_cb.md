@@ -5,8 +5,8 @@ description: The pfnStateDsSrvCb function causes the Microsoft Direct3D 11 runti
 old-location: display\pfnstatedssrvcb.htm
 ms.assetid: 23f92c9a-7f2c-4340-ad5e-101b13883bea
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_STATE_DS_SRV_CB callback function"]
 ms.keywords: PFND3D11DDI_STATE_DS_SRV_CB, PFND3D11DDI_STATE_DS_SRV_CB callback, d3d10umddi/pfnStateDsSrvCb, d3d11state_functions_bbd5c336-5316-47d4-a8c9-f7b79b18b540.xml, display.pfnstatedssrvcb, pfnStateDsSrvCb, pfnStateDsSrvCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateDsSrvCb"
 req.header: d3d10umddi.h
@@ -64,13 +64,13 @@ A handle to a context for the core Direct3D runtime. This handle is supplied to 
 
 ### -param Arg2
 
-Base [in]
+*Base* [in]
 
 The beginning resource view for which the runtime should refresh state.
 
 ### -param Arg3
 
-Count [in]
+*Count* [in]
 
 The total number of resource views. The number can be -1, which specifies that the Direct3D runtime uses its high watermarks to substitute an optimal value (which is typically less than the maximum valid value for <i>Count</i>). However, no non-NULL binding exists in a slot larger than the optimal <i>Count</i> value.
 

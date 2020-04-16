@@ -6,8 +6,8 @@ old-location: stream\ksproperty_selector_node_s.htm
 tech.root: stream
 ms.assetid: 37dc9f4a-1e9c-42f2-8894-4972562f5898
 ms.date: 04/30/2019
+keywords: ["KSPROPERTY_SELECTOR_NODE_S structure"]
 ms.keywords: "*PKSPROPERTY_SELECTOR_NODE_S, KSPROPERTY_SELECTOR_NODE_S, KSPROPERTY_SELECTOR_NODE_S structure [Streaming Media Devices], PKSPROPERTY_SELECTOR_NODE_S, PKSPROPERTY_SELECTOR_NODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_SELECTOR_NODE_S, ksmedia/PKSPROPERTY_SELECTOR_NODE_S, stream.ksproperty_selector_node_s, vidcapstruct_f7f566f9-2eea-44f5-8a4b-33769d99576f.xml"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSPROPERTY_SELECTOR_NODE_S"
 req.header: ksmedia.h

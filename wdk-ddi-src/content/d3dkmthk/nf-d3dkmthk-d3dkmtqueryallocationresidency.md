@@ -5,8 +5,8 @@ description: The D3DKMTQueryAllocationResidency function retrieves the residency
 old-location: display\d3dkmtqueryallocationresidency.htm
 ms.assetid: f9522de0-54cd-4afd-b8cd-06f229ac1325
 ms.date: 05/10/2018
+keywords: ["D3DKMTQueryAllocationResidency function"]
 ms.keywords: D3DKMTQueryAllocationResidency, D3DKMTQueryAllocationResidency function [Display Devices], OpenGL_Functions_4efd6e87-91b6-4cf2-8691-0463a9ab218a.xml, d3dkmthk/D3DKMTQueryAllocationResidency, display.d3dkmtqueryallocationresidency
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTQueryAllocationResidency"
 req.header: d3dkmthk.h

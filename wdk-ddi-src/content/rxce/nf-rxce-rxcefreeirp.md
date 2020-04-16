@@ -6,8 +6,8 @@ old-location: ifsk\rxcefreeirp.htm
 tech.root: ifsk
 ms.assetid: 71e3283c-2dbc-4579-a374-e51e123b852f
 ms.date: 04/16/2018
+keywords: ["RxCeFreeIrp function"]
 ms.keywords: RxCeFreeIrp, RxCeFreeIrp function [Installable File System Drivers], ifsk.rxcefreeirp, rxce/RxCeFreeIrp, rxref_93b8da8d-d9fe-41e3-8423-5b3d8102f7a7.xml
-ms.topic: function
 f1_keywords:
  - "rxce/RxCeFreeIrp"
 req.header: rxce.h

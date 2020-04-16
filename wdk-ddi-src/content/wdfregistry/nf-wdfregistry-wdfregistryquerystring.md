@@ -6,8 +6,8 @@ old-location: wdf\wdfregistryquerystring.htm
 tech.root: wdf
 ms.assetid: 2c1242ea-5d77-464e-9203-ef2236ea4619
 ms.date: 02/26/2018
+keywords: ["WdfRegistryQueryString function"]
 ms.keywords: DFRegKeyObjectRef_d3260d42-afdc-4858-a0b4-e2ae90327066.xml, WdfRegistryQueryString, WdfRegistryQueryString method, kmdf.wdfregistryquerystring, wdf.wdfregistryquerystring, wdfregistry/WdfRegistryQueryString
-ms.topic: function
 f1_keywords:
  - "wdfregistry/WdfRegistryQueryString"
 req.header: wdfregistry.h

@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 3cdf3f26-c2ae-40b9-adba-a765300bfae8
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
+keywords: ["COLORSPACE_TRANSFORM_MATRIX_CAP structure"]
 f1_keywords:
  - "ntddvdeo/COLORSPACE_TRANSFORM_MATRIX_CAP"
 ms.keywords: COLORSPACE_TRANSFORM_MATRIX_CAP, COLORSPACE_TRANSFORM_MATRIX_CAP, *PCOLORSPACE_TRANSFORM_MATRIX_CAP

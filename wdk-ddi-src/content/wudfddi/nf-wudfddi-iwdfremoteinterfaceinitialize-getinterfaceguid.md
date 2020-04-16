@@ -6,8 +6,8 @@ old-location: wdf\iwdfremoteinterfaceinitialize_getinterfaceguid.htm
 tech.root: wdf
 ms.assetid: 3c68d458-9b34-4e45-993a-67f915347637
 ms.date: 02/26/2018
+keywords: ["IWDFRemoteInterfaceInitialize::GetInterfaceGuid"]
 ms.keywords: GetInterfaceGuid, GetInterfaceGuid method, GetInterfaceGuid method,IWDFRemoteInterfaceInitialize interface, IWDFRemoteInterfaceInitialize interface,GetInterfaceGuid method, IWDFRemoteInterfaceInitialize.GetInterfaceGuid, IWDFRemoteInterfaceInitialize::GetInterfaceGuid, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid, wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFRemoteInterfaceInitialize.GetInterfaceGuid"
 req.header: wudfddi.h

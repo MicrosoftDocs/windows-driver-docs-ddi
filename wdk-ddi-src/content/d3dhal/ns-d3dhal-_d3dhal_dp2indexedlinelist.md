@@ -6,8 +6,8 @@ old-location: display\d3dhal_dp2indexedlinelist.htm
 tech.root: display
 ms.assetid: 6205df9f-a6b1-4dd1-97a8-5d0d57a7ddd1
 ms.date: 05/10/2018
+keywords: ["_D3DHAL_DP2INDEXEDLINELIST structure"]
 ms.keywords: "*LPD3DHAL_DP2INDEXEDLINELIST, D3DHAL_DP2INDEXEDLINELIST, D3DHAL_DP2INDEXEDLINELIST structure [Display Devices], LPD3DHAL_DP2INDEXEDLINELIST, LPD3DHAL_DP2INDEXEDLINELIST structure pointer [Display Devices], _D3DHAL_DP2INDEXEDLINELIST, d3dhal/D3DHAL_DP2INDEXEDLINELIST, d3dhal/LPD3DHAL_DP2INDEXEDLINELIST, d3dstrct_895bb4b6-3e98-4275-a61d-38d89ec23a6f.xml, display.d3dhal_dp2indexedlinelist"
-ms.topic: struct
 f1_keywords:
  - "d3dhal/D3DHAL_DP2INDEXEDLINELIST"
 req.header: d3dhal.h

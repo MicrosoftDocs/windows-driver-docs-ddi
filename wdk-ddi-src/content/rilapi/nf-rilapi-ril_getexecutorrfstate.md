@@ -6,8 +6,8 @@ old-location: netvista\ril_getexecutorrfstate.htm
 tech.root: netvista
 ms.assetid: 2ef0961b-4f7c-46a8-8cfa-aabbfc213565
 ms.date: 05/02/2018
+keywords: ["RIL_GetExecutorRFState function"]
 ms.keywords: RIL_GetExecutorRFState, RIL_GetExecutorRFState method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorrfstate, rilapi/RIL_GetExecutorRFState
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_GetExecutorRFState"
 req.header: rilapi.h

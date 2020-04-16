@@ -4,7 +4,7 @@ title: IIterableConcept::GetIterator (dbgmodel.h)
 description: The GetIterator method on the iterable concept returns an iterator interface which can be used to iterate the object.
 ms.assetid: 1060b1b8-8a7c-4548-8e87-0449275bd071
 ms.date: 09/19/2018
-ms.topic: method
+keywords: ["IIterableConcept::GetIterator"]
 f1_keywords:
  - "dbgmodel/IIterableConcept.GetIterator"
 ms.keywords: IIterableConcept::GetIterator, GetIterator, IIterableConcept.GetIterator, IIterableConcept::GetIterator, IIterableConcept.GetIterator

@@ -5,8 +5,8 @@ description: The pfnStateSoTargetsCb function causes the Microsoft Direct3D 10 r
 old-location: display\pfnstatesotargetscb.htm
 ms.assetid: 9000543b-00ab-4378-9fa5-d4fc7cb05b24
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_STATE_SO_TARGETS_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_SO_TARGETS_CB, PFND3D10DDI_STATE_SO_TARGETS_CB callback, d3d10state_functions_2e8ad85a-3bec-41cd-9d43-40b98ffd0e9e.xml, d3d10umddi/pfnStateSoTargetsCb, display.pfnstatesotargetscb, pfnStateSoTargetsCb, pfnStateSoTargetsCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateSoTargetsCb"
 req.header: d3d10umddi.h

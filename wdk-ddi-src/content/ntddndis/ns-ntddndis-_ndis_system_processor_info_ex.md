@@ -6,8 +6,8 @@ old-location: netvista\ndis_system_processor_info_ex.htm
 tech.root: netvista
 ms.assetid: ba3c6641-98bc-4c44-9889-7583c4cf61f0
 ms.date: 05/02/2018
+keywords: ["_NDIS_SYSTEM_PROCESSOR_INFO_EX structure"]
 ms.keywords: "*PNDIS_SYSTEM_PROCESSOR_INFO_EX, NDIS_SYSTEM_PROCESSOR_INFO_EX, NDIS_SYSTEM_PROCESSOR_INFO_EX structure [Network Drivers Starting with Windows Vista], PNDIS_SYSTEM_PROCESSOR_INFO_EX, PNDIS_SYSTEM_PROCESSOR_INFO_EX structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SYSTEM_PROCESSOR_INFO_EX, ndis_processor_group_ref_754737d7-8279-4786-b89d-4326da949464.xml, netvista.ndis_system_processor_info_ex, ntddndis/NDIS_SYSTEM_PROCESSOR_INFO_EX, ntddndis/PNDIS_SYSTEM_PROCESSOR_INFO_EX"
-ms.topic: struct
 f1_keywords:
  - "ntddndis/NDIS_SYSTEM_PROCESSOR_INFO_EX"
 req.header: ntddndis.h

@@ -5,8 +5,8 @@ description: The D3DKMT_PRESENTFLAGS structure identifies how to perform a prese
 old-location: display\d3dkmt_presentflags.htm
 ms.assetid: 2ebee0bd-90f0-4628-8ddf-9e8029b4959a
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_PRESENTFLAGS structure"]
 ms.keywords: D3DKMT_PRESENTFLAGS, D3DKMT_PRESENTFLAGS structure [Display Devices], OpenGL_Structs_bd28ba63-6019-4cc5-b1d0-7275a5a575b3.xml, _D3DKMT_PRESENTFLAGS, d3dkmthk/D3DKMT_PRESENTFLAGS, display.d3dkmt_presentflags
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_PRESENTFLAGS"
 req.header: d3dkmthk.h

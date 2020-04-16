@@ -4,7 +4,7 @@ title: _D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT (d3dkmthk.h)
 description: Used to indicate whether independent flip secondary is supported.
 ms.assetid: 31328ed6-472e-4580-b725-a35ea1160a6a
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT"
 ms.keywords: _D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT, D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT, 

@@ -6,8 +6,8 @@ old-location: display\d3dddiarg_offerresources.htm
 tech.root: display
 ms.assetid: 3c5e5dae-14f6-47b9-8c27-48ecc73a43ef
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_OFFERRESOURCES structure"]
 ms.keywords: D3DDDIARG_OFFERRESOURCES, D3DDDIARG_OFFERRESOURCES structure [Display Devices], _D3DDDIARG_OFFERRESOURCES, d3dumddi/D3DDDIARG_OFFERRESOURCES, display.d3dddiarg_offerresources
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_OFFERRESOURCES"
 req.header: d3dumddi.h

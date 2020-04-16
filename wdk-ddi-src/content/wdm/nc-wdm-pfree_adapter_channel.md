@@ -6,8 +6,8 @@ old-location: kernel\freeadapterchannel.htm
 tech.root: kernel
 ms.assetid: 916531dd-4768-436a-910c-07d49924ac48
 ms.date: 04/30/2018
+keywords: ["PFREE_ADAPTER_CHANNEL callback function"]
 ms.keywords: FreeAdapterChannel, FreeAdapterChannel callback function [Kernel-Mode Driver Architecture], PFREE_ADAPTER_CHANNEL, PFREE_ADAPTER_CHANNEL callback, kdma_f48025a6-96a2-4bdd-8b48-6c939bdf738b.xml, kernel.freeadapterchannel, wdm/FreeAdapterChannel
-ms.topic: callback
 f1_keywords:
  - "wdm/FreeAdapterChannel"
 req.header: wdm.h

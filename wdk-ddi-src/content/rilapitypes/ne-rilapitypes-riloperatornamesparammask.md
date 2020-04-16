@@ -6,8 +6,8 @@ old-location: netvista\riloperatornamesparammask_2.htm
 tech.root: netvista
 ms.assetid: d91e6e66-ff0f-4e36-ba1b-bd7f502739d9
 ms.date: 02/26/2018
+keywords: ["RILOPERATORNAMESPARAMMASK enumeration"]
 ms.keywords: RILOPERATORNAMESPARAMMASK, RILOPERATORNAMESPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_ON_ALL, RIL_PARAM_ON_COUNTRY_CODE, RIL_PARAM_ON_NUMNAME, RIL_PARAM_ON_SHORTNAME, RIL_PARAM_ON_SYSTEMTYPE, netvista.riloperatornamesparammask_2, rilapitypes/RILOPERATORNAMESPARAMMASK, rilapitypes/RIL_PARAM_ON_ALL, rilapitypes/RIL_PARAM_ON_COUNTRY_CODE, rilapitypes/RIL_PARAM_ON_NUMNAME, rilapitypes/RIL_PARAM_ON_SHORTNAME, rilapitypes/RIL_PARAM_ON_SYSTEMTYPE
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILOPERATORNAMESPARAMMASK"
 req.header: rilapitypes.h

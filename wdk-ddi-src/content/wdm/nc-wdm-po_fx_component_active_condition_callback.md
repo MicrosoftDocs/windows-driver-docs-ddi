@@ -6,8 +6,8 @@ old-location: kernel\componentactiveconditioncallback.htm
 tech.root: kernel
 ms.assetid: D9EA3F98-7646-4882-BE07-818280404D6A
 ms.date: 04/30/2018
+keywords: ["PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK callback function"]
 ms.keywords: ComponentActiveConditionCallback, ComponentActiveConditionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_ACTIVE_CONDITION_CALLBACK, kernel.componentactiveconditioncallback, wdm/ComponentActiveConditionCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/ComponentActiveConditionCallback"
 req.header: wdm.h

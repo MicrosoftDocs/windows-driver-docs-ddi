@@ -6,8 +6,8 @@ old-location: buses\evt_ucx_endpoint_static_streams_add.htm
 tech.root: usbref
 ms.assetid: 76f94f19-894a-47af-a407-8e14263f1143
 ms.date: 05/07/2018
+keywords: ["EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD, EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD callback, EvtUcxEndpointStaticStreamsAdd, EvtUcxEndpointStaticStreamsAdd callback function [Buses], PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD, PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_add, ucxendpoint/EvtUcxEndpointStaticStreamsAdd
-ms.topic: callback
 f1_keywords:
  - "ucxendpoint/PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD"
 req.header: ucxendpoint.h

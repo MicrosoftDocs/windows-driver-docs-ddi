@@ -6,8 +6,8 @@ old-location: print\iprinterscriptablepropertybag.htm
 tech.root: print
 ms.assetid: E6F48895-7ED6-479B-BF16-42192461C56D
 ms.date: 04/20/2018
+keywords: ["IPrinterScriptablePropertyBag interface"]
 ms.keywords: IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], IPrinterScriptablePropertyBag interface [Print Devices],described, print.iprinterscriptablepropertybag, printerextension/IPrinterScriptablePropertyBag
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag"
 req.header: printerextension.h
@@ -55,7 +55,7 @@ This interface is the same as <a href="https://docs.microsoft.com/windows-hardwa
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterScriptablePropertyBag</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterScriptablePropertyBag</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterScriptablePropertyBag</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterScriptablePropertyBag</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

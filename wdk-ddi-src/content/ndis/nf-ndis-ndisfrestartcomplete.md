@@ -6,8 +6,8 @@ old-location: netvista\ndisfrestartcomplete.htm
 tech.root: netvista
 ms.assetid: 84685763-e7d8-4184-afa3-83efb4a0d3d7
 ms.date: 05/02/2018
+keywords: ["NdisFRestartComplete function"]
 ms.keywords: NdisFRestartComplete, NdisFRestartComplete function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_592af2b7-2172-4a8d-aa7b-315f7c321705.xml, ndis/NdisFRestartComplete, netvista.ndisfrestartcomplete
-ms.topic: function
 f1_keywords:
  - "ndis/NdisFRestartComplete"
 req.header: ndis.h

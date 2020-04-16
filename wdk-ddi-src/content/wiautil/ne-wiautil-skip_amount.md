@@ -6,8 +6,8 @@ old-location: image\skip_amount.htm
 tech.root: image
 ms.assetid: 4e21b3e9-0383-4464-b87e-beea88123124
 ms.date: 05/03/2018
+keywords: ["SKIP_AMOUNT enumeration"]
 ms.keywords: SKIP_AMOUNT, SKIP_AMOUNT enumeration [Imaging Devices], SKIP_BOTHHDR, SKIP_FILEHDR, SKIP_OFF, image.skip_amount, wiauFncs_8f521aa0-0663-4f84-a9c9-91747fcb13e8.xml, wiautil/SKIP_AMOUNT, wiautil/SKIP_BOTHHDR, wiautil/SKIP_FILEHDR, wiautil/SKIP_OFF
-ms.topic: enum
 f1_keywords:
  - "wiautil/SKIP_AMOUNT"
 req.header: wiautil.h

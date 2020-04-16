@@ -6,8 +6,8 @@ old-location: kernel\rtllongtouint8.htm
 tech.root: kernel
 ms.assetid: 3C2221F8-DD75-4FB7-A28D-B636D2D2394D
 ms.date: 04/30/2018
+keywords: ["RtlLongToUInt8 function"]
 ms.keywords: RtlLongToUInt8, RtlLongToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtllongtouint8, ntintsafe/RtlLongToUInt8
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlLongToUInt8"
 req.header: ntintsafe.h

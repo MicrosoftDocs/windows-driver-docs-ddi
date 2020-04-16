@@ -4,7 +4,7 @@ title: UsbPm_Deregister function (usbpmapi.h)
 description: Unregisters the client driver with the Policy Manager.
 ms.assetid: bdc8b771-1f2d-4cd6-a313-fb8f1771e971
 ms.date: 09/30/2018
-ms.topic: function
+keywords: ["UsbPm_Deregister function"]
 f1_keywords:
  - "usbpmapi/UsbPm_Deregister"
 ms.keywords: UsbPm_Deregister

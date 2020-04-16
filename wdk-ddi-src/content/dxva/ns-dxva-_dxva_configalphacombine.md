@@ -6,8 +6,8 @@ old-location: display\dxva_configalphacombine.htm
 tech.root: display
 ms.assetid: 588d5e73-4ec2-486b-914f-7076949653ad
 ms.date: 05/10/2018
+keywords: ["_DXVA_ConfigAlphaCombine structure"]
 ms.keywords: "*LPDXVA_ConfigAlphaCombine, DXVA_ConfigAlphaCombine, DXVA_ConfigAlphaCombine structure [Display Devices], LPDXVA_ConfigAlphaCombine, LPDXVA_ConfigAlphaCombine structure pointer [Display Devices], _DXVA_ConfigAlphaCombine, display.dxva_configalphacombine, dxva/DXVA_ConfigAlphaCombine, dxva/LPDXVA_ConfigAlphaCombine, dxvaref_3bd67a73-c786-412c-90ad-c546ae2e4645.xml"
-ms.topic: struct
 f1_keywords:
  - "dxva/DXVA_ConfigAlphaCombine"
 req.header: dxva.h

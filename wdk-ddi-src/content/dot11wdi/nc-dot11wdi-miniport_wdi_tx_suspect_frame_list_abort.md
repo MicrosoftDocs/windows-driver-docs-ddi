@@ -5,7 +5,7 @@ description: The TxSuspectFrameListAbort callback function is implemented by the
 tech.root: netvista
 ms.assetid: c6d6e415-4995-4b26-b58e-a3b868ab5398
 ms.date: 04/02/2018
-ms.topic: callback
+keywords: ["MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT callback function"]
 f1_keywords:
  - "dot11wdi/MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT"
 req.header: dot11wdi.h

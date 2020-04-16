@@ -6,8 +6,8 @@ old-location: kernel\psallocsilocontextslot.htm
 tech.root: kernel
 ms.assetid: 835446D1-EB41-47BC-AA0F-54A9C029EFFE
 ms.date: 04/30/2018
+keywords: ["PsAllocSiloContextSlot function"]
 ms.keywords: PsAllocSiloContextSlot, PsAllocSiloContextSlot routine [Kernel-Mode Driver Architecture], kernel.psallocsilocontextslot, ntddk/PsAllocSiloContextSlot
-ms.topic: function
 f1_keywords:
  - "ntddk/PsAllocSiloContextSlot"
 req.header: ntddk.h

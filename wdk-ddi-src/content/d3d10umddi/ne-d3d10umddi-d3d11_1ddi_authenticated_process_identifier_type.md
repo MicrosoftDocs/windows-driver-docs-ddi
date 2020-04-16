@@ -5,8 +5,8 @@ description: Specifies the type of process that is identified in the D3D11_1DDI_
 old-location: display\d3d11_1ddi_authenticated_process_identifier_type.htm
 ms.assetid: 7a8e7641-c946-4feb-b6d7-54ef63de9e76
 ms.date: 05/10/2018
+keywords: ["D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE enumeration"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE enumeration [Display Devices], D3D11_1DDI_PROCESSIDTYPE_DWM, D3D11_1DDI_PROCESSIDTYPE_HANDLE, D3D11_1DDI_PROCESSIDTYPE_UNKNOWN, d3d10umddi/D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_DWM, d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_HANDLE, d3d10umddi/D3D11_1DDI_PROCESSIDTYPE_UNKNOWN, display.d3d11_1ddi_authenticated_process_identifier_type
-ms.topic: enum
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE"
 req.header: d3d10umddi.h

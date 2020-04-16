@@ -6,8 +6,8 @@ old-location: wdf\wdfusbinterfacegetconfiguredsettingindex.htm
 tech.root: wdf
 ms.assetid: ca8f1fae-1655-4e0d-baa4-133f11cf246f
 ms.date: 02/26/2018
+keywords: ["WdfUsbInterfaceGetConfiguredSettingIndex function"]
 ms.keywords: DFUsbRef_720a2078-a35c-491b-a8d1-7a2b3d5c88f1.xml, WdfUsbInterfaceGetConfiguredSettingIndex, WdfUsbInterfaceGetConfiguredSettingIndex method, kmdf.wdfusbinterfacegetconfiguredsettingindex, wdf.wdfusbinterfacegetconfiguredsettingindex, wdfusb/WdfUsbInterfaceGetConfiguredSettingIndex
-ms.topic: function
 f1_keywords:
  - "wdfusb/WdfUsbInterfaceGetConfiguredSettingIndex"
 req.header: wdfusb.h

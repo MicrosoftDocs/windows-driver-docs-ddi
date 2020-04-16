@@ -6,8 +6,8 @@ old-location: display\videoprocessblt.htm
 tech.root: display
 ms.assetid: 719465dd-4547-491c-ab30-ae63bba1b72c
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_VIDEOPROCESSBLT callback function"]
 ms.keywords: PFND3DDDI_VIDEOPROCESSBLT, PFND3DDDI_VIDEOPROCESSBLT callback, UserModeDisplayDriver_Functions_23e47fd3-a838-4b56-82c3-7894d2b173a1.xml, VideoProcessBlt, VideoProcessBlt callback function [Display Devices], d3dumddi/VideoProcessBlt, display.videoprocessblt
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

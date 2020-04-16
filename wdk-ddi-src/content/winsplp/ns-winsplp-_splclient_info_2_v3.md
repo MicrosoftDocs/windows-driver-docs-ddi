@@ -6,8 +6,8 @@ old-location: print\splclient_info_2_longhorn.htm
 tech.root: print
 ms.assetid: D058EF0A-014A-4A91-A8B5-6D4ACB1667E0
 ms.date: 04/20/2018
+keywords: ["_SPLCLIENT_INFO_2_V3 structure"]
 ms.keywords: "*LPSPLCLIENT_INFO_2, *PSPLCLIENT_INFO_2, SPLCLIENT_INFO_2, SPLCLIENT_INFO_2_LONGHORN, SPLCLIENT_INFO_2_LONGHORN structure [Print Devices], _SPLCLIENT_INFO_2_V3, print.splclient_info_2_longhorn, winsplp/SPLCLIENT_INFO_2_LONGHORN"
-ms.topic: struct
 f1_keywords:
  - "winsplp/SPLCLIENT_INFO_2_LONGHORN"
 req.header: winsplp.h

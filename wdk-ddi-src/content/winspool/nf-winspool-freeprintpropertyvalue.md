@@ -6,8 +6,8 @@ old-location: print\freeprintpropertyvalue.htm
 tech.root: print
 ms.assetid: 38B760D9-CB6E-45AD-A83F-3C26D1B31A30
 ms.date: 11/18/2019
+keywords: ["FreePrintPropertyValue function"]
 ms.keywords: FreePrintPropertyValue, FreePrintPropertyValue function [Print Devices], print.freeprintpropertyvalue, winspool/FreePrintPropertyValue
-ms.topic: function
 f1_keywords:
  - "winspool/FreePrintPropertyValue"
 req.header: winspool.h

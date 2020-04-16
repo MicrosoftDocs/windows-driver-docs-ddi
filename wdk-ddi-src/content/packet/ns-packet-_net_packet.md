@@ -5,7 +5,7 @@ description: Represents a single network packet.
 tech.root: netvista
 ms.assetid: c2fc32da-1979-45fe-96ed-0b79a48e58a3
 ms.date: 01/30/2019
-ms.topic: struct
+keywords: ["_NET_PACKET structure"]
 f1_keywords:
  - "packet/RegisterOpRegionHandler"
 ms.keywords: _NET_PACKET, NET_PACKET, *PNET_PACKET, 

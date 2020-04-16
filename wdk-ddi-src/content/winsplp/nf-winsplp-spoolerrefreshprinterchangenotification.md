@@ -6,8 +6,8 @@ old-location: print\spoolerrefreshprinterchangenotification.htm
 tech.root: print
 ms.assetid: 86D8D605-3620-4F43-B4A5-6AF568265E92
 ms.date: 04/20/2018
+keywords: ["SpoolerRefreshPrinterChangeNotification function"]
 ms.keywords: SpoolerRefreshPrinterChangeNotification, SpoolerRefreshPrinterChangeNotification function [Print Devices], print.spoolerrefreshprinterchangenotification, winsplp/SpoolerRefreshPrinterChangeNotification
-ms.topic: function
 f1_keywords:
  - "winsplp/SpoolerRefreshPrinterChangeNotification"
 req.header: winsplp.h

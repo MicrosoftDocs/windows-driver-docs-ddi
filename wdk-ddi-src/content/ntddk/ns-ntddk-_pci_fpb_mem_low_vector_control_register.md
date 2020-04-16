@@ -5,7 +5,7 @@ description: FPB MEM Low Vector Control Register. See section 7.y.5.
 tech.root: pci
 ms.assetid: 86b15870-c6f5-464c-a0b2-7f10e869f383
 ms.date: 09/30/2018
-ms.topic: struct
+keywords: ["_PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER structure"]
 f1_keywords:
  - "ntddk/_PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER"
 ms.keywords: _PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER, PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER, *PPCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER, 

@@ -6,8 +6,8 @@ old-location: image\istiusd_escape.htm
 tech.root: image
 ms.assetid: 9129e776-b5d0-4f53-b2be-67e593369c6c
 ms.date: 05/03/2018
+keywords: ["IStiUSD::Escape"]
 ms.keywords: Escape, Escape method [Imaging Devices], Escape method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],Escape method, IStiUSD.Escape, IStiUSD::Escape, image.istiusd_escape, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, stiusd/IStiUSD::Escape
-ms.topic: method
 f1_keywords:
  - "stiusd/IStiUSD.Escape"
 req.header: stiusd.h

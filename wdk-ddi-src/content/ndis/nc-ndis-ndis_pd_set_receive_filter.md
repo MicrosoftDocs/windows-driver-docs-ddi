@@ -6,8 +6,8 @@ old-location: netvista\ndispdsetreceivefilter.htm
 tech.root: netvista
 ms.assetid: 49587142-9C84-4F73-BE0C-D256A8E6BF4B
 ms.date: 05/02/2018
+keywords: ["NDIS_PD_SET_RECEIVE_FILTER callback function"]
 ms.keywords: NDIS_PD_SET_RECEIVE_FILTER, NDIS_PD_SET_RECEIVE_FILTER callback, NdisPDSetReceiveFilter, NdisPDSetReceiveFilter callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDSetReceiveFilter, netvista.ndispdsetreceivefilter
-ms.topic: callback
 f1_keywords:
  - "ndis/NdisPDSetReceiveFilter"
 req.header: ndis.h

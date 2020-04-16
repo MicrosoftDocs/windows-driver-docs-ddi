@@ -6,8 +6,8 @@ old-location: netvista\rilumtsmrl_2.htm
 tech.root: netvista
 ms.assetid: 38235a1e-c9fd-4d4d-96a2-18559e4cf655
 ms.date: 02/26/2018
+keywords: ["RILUMTSMRL structure"]
 ms.keywords: "*LPRILUMTSMRL, RILUMTSMRL, RILUMTSMRL structure [Network Drivers Starting with Windows Vista], netvista.rilumtsmrl_2, rilapitypes/RILUMTSMRL"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILUMTSMRL"
 req.header: rilapitypes.h

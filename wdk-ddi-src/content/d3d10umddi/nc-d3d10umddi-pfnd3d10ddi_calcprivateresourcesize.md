@@ -5,8 +5,8 @@ description: The CalcPrivateResourceSize function determines the size of the use
 old-location: display\calcprivateresourcesize.htm
 ms.assetid: 2c4eb002-4788-46ab-92b9-3bb2dcb44ee3
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CALCPRIVATERESOURCESIZE callback function"]
 ms.keywords: CalcPrivateResourceSize, CalcPrivateResourceSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATERESOURCESIZE, PFND3D10DDI_CALCPRIVATERESOURCESIZE callback, UserModeDisplayDriverDx10_Functions_bc7bb9a2-6fe2-49fb-b7d2-81297a828418.xml, d3d10umddi/CalcPrivateResourceSize, display.calcprivateresourcesize
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: d37c2805-6f94-48e8-991e-0700b6b0c7fe
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: function
+keywords: ["NetAdapterReportWakeReasonPacket function"]
 f1_keywords:
  - "netadapter/NetAdapterReportWakeReasonPacket"
 ms.keywords: NetAdapterReportWakeReasonPacket

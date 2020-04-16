@@ -6,8 +6,8 @@ old-location: display\dxgkcbevalacpimethod.htm
 tech.root: display
 ms.assetid: ce54cf4e-5b50-4142-b3c7-ff29b7bdbb35
 ms.date: 05/10/2018
+keywords: ["DXGKCB_EVAL_ACPI_METHOD callback function"]
 ms.keywords: DXGKCB_EVAL_ACPI_METHOD, DXGKCB_EVAL_ACPI_METHOD callback, DpFunctions_e18a1463-e8cb-4ecf-a50f-424dd71db4c3.xml, DxgkCbEvalAcpiMethod, DxgkCbEvalAcpiMethod callback function [Display Devices], display.dxgkcbevalacpimethod, dispmprt/DxgkCbEvalAcpiMethod
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkCbEvalAcpiMethod"
 req.header: dispmprt.h

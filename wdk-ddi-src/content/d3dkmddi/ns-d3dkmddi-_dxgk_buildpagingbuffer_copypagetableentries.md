@@ -5,8 +5,8 @@ description: DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES describes the operation
 old-location: display\dxgk_buildpagingbuffer_copypagetableentries.htm
 ms.assetid: 627FB3E6-3C5D-4104-B129-08D3EC0B963E
 ms.date: 05/10/2018
+keywords: ["_DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES structure"]
 ms.keywords: DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES, display.dxgk_buildpagingbuffer_copypagetableentries
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES"
 req.header: d3dkmddi.h

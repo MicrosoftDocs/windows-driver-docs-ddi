@@ -6,8 +6,8 @@ old-location: stream\ksgetobjecttypefromfileobject.htm
 tech.root: stream
 ms.assetid: b963cf53-68ea-49b6-bbda-a93216fb10a5
 ms.date: 04/23/2018
+keywords: ["KsGetObjectTypeFromFileObject function"]
 ms.keywords: KsGetObjectTypeFromFileObject, KsGetObjectTypeFromFileObject function [Streaming Media Devices], avfunc_51a9a4d6-1481-45f9-918e-582907e8513c.xml, ks/KsGetObjectTypeFromFileObject, stream.ksgetobjecttypefromfileobject
-ms.topic: function
 f1_keywords:
  - "ks/KsGetObjectTypeFromFileObject"
 req.header: ks.h

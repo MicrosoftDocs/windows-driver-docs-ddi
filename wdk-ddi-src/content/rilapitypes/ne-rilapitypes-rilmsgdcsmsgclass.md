@@ -6,8 +6,8 @@ old-location: netvista\rilmsgdcsmsgclass.htm
 tech.root: netvista
 ms.assetid: 3190aa21-201a-40d1-b894-dd393e413826
 ms.date: 05/02/2018
+keywords: ["RILMSGDCSMSGCLASS enumeration"]
 ms.keywords: RILMSGDCSMSGCLASS, RILMSGDCSMSGCLASS enumeration [Network Drivers Starting with Windows Vista], RIL_DCSMSGCLASS_1, RIL_DCSMSGCLASS_2, RIL_DCSMSGCLASS_3, RIL_DCSMSGCLASS_MAX, netvista.rilmsgdcsmsgclass, ntddrilapitypes/RILMSGDCSMSGCLASS, ntddrilapitypes/RIL_DCSMSGCLASS_1, ntddrilapitypes/RIL_DCSMSGCLASS_2, ntddrilapitypes/RIL_DCSMSGCLASS_3, ntddrilapitypes/RIL_DCSMSGCLASS_MAX
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILMSGDCSMSGCLASS"
 req.header: rilapitypes.h

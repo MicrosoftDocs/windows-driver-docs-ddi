@@ -4,7 +4,7 @@ title: D3D12DDI_META_COMMAND_PARAMETER_STAGE (d3d12umddi.h)
 description: Indicates the stage of the meta-command.
 ms.assetid: 44b28355-8021-45be-bcde-e8bf33d216f9
 ms.date: 10/19/2018
-ms.topic: enum
+keywords: ["D3D12DDI_META_COMMAND_PARAMETER_STAGE enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_META_COMMAND_PARAMETER_STAGE"
 ms.keywords: D3D12DDI_META_COMMAND_PARAMETER_STAGE, D3D12DDI_META_COMMAND_PARAMETER_STAGE, 

@@ -6,8 +6,8 @@ old-location: print\ipartresourcedictionary.htm
 tech.root: print
 ms.assetid: 96e3d5ab-f5d0-46a8-a797-6ec8a369e522
 ms.date: 02/26/2018
+keywords: ["IPartResourceDictionary interface"]
 ms.keywords: IPartResourceDictionary, IPartResourceDictionary interface [Print Devices], IPartResourceDictionary interface [Print Devices], described, filterpipeline/IPartResourceDictionary, filterpipeline_dd33e272-fbff-4e32-bc38-7c72987ce935.xml, print.ipartresourcedictionary
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IPartResourceDictionary"
 req.header: filterpipeline.h

@@ -5,8 +5,8 @@ description: Called by the display miniport driver to set the expected residency
 old-location: display\dxgkcbsetpowercomponentresidency.htm
 ms.assetid: 9D567380-2E77-4A63-8674-E19A13C7B8BC
 ms.date: 05/10/2018
+keywords: ["DXGKCB_SETPOWERCOMPONENTRESIDENCY callback function"]
 ms.keywords: DXGKCB_SETPOWERCOMPONENTRESIDENCY, DXGKCB_SETPOWERCOMPONENTRESIDENCY callback, DxgkCbSetPowerComponentResidency, DxgkCbSetPowerComponentResidency callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentResidency, display.dxgkcbsetpowercomponentresidency
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

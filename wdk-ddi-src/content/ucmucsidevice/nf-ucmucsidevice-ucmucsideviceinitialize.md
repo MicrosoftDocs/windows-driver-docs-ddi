@@ -5,7 +5,7 @@ tech.root: usbref
 description: Initializes the UCSI extension (UcmUcsiCx).
 ms.assetid: 8ad48691-2cca-4aaf-b61d-3127001c3180
 ms.date: 09/30/2018
-ms.topic: function
+keywords: ["UcmUcsiDeviceInitialize function"]
 f1_keywords:
  - "ucmucsidevice/UcmUcsiDeviceInitialize"
 ms.keywords: UcmUcsiDeviceInitialize

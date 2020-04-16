@@ -5,8 +5,8 @@ description: The D3DKMT_PRESENT_STATS structure describes present status for a r
 old-location: display\d3dkmt_present_stats.htm
 ms.assetid: fd292f3c-2cf7-4f17-999b-a82b2a3a8e0e
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_PRESENT_STATS structure"]
 ms.keywords: D3DKMT_PRESENT_STATS, D3DKMT_PRESENT_STATS structure [Display Devices], OpenGL_Structs_181828f7-c22f-4f23-914d-83a8961cdefe.xml, _D3DKMT_PRESENT_STATS, d3dkmthk/D3DKMT_PRESENT_STATS, display.d3dkmt_present_stats
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_PRESENT_STATS"
 req.header: d3dkmthk.h

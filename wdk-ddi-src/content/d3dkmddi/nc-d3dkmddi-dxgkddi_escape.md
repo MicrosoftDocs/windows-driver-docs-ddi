@@ -5,8 +5,8 @@ description: The DxgkDdiEscape function shares information with the user-mode di
 old-location: display\dxgkddiescape.htm
 ms.assetid: 79a524cd-dec1-4ea8-a660-d9d9c644e162
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_ESCAPE callback function"]
 ms.keywords: DXGKDDI_ESCAPE, DXGKDDI_ESCAPE callback, DmFunctions_41056daa-dfeb-4ba3-b453-b8d5dd94e8a3.xml, DxgkDdiEscape, DxgkDdiEscape callback function [Display Devices], d3dkmddi/DxgkDdiEscape, display.dxgkddiescape
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

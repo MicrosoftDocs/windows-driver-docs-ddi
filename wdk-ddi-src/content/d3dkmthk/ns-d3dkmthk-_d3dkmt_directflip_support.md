@@ -5,8 +5,8 @@ description: Indicates whether the user-mode driver supports Direct Flip operati
 old-location: display\d3dkmt_directflip_support.htm
 ms.assetid: d579d9a3-7db1-47ed-859d-3fed99a4ee9d
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_DIRECTFLIP_SUPPORT structure"]
 ms.keywords: D3DKMT_DIRECTFLIP_SUPPORT, D3DKMT_DIRECTFLIP_SUPPORT structure [Display Devices], _D3DKMT_DIRECTFLIP_SUPPORT, d3dkmthk/D3DKMT_DIRECTFLIP_SUPPORT, display.d3dkmt_directflip_support
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_DIRECTFLIP_SUPPORT"
 req.header: d3dkmthk.h

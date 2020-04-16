@@ -6,8 +6,8 @@ old-location: print\iprinterqueueviewevent_onchanged.htm
 tech.root: print
 ms.assetid: D964A0C4-041A-47BD-87AB-4AF523939DF0
 ms.date: 04/20/2018
+keywords: ["IPrinterQueueViewEvent::OnChanged"]
 ms.keywords: IPrinterQueueViewEvent interface [Print Devices],OnChanged method, IPrinterQueueViewEvent.OnChanged, IPrinterQueueViewEvent::OnChanged, OnChanged, OnChanged method [Print Devices], OnChanged method [Print Devices],IPrinterQueueViewEvent interface, print.iprinterqueueviewevent_onchanged, printerextension/IPrinterQueueViewEvent::OnChanged
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterQueueViewEvent.OnChanged"
 req.header: printerextension.h

@@ -6,8 +6,8 @@ old-location: gpio\client_controller_query_set_request_type.htm
 tech.root: GPIO
 ms.assetid: 050752CC-FBD6-4EB1-A17F-53C5C569E3FB
 ms.date: 02/15/2018
+keywords: ["_CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration"]
 ms.keywords: "*PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], GPIO.client_controller_query_set_request_type, QueryBankInterruptBindingInformation, QueryBankPowerInformation, QueryControllerFunctionBankMappingInformation, QuerySetRequestMaximumType, _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QueryBankInterruptBindingInformation, gpioclx/QueryBankPowerInformation, gpioclx/QueryControllerFunctionBankMappingInformation, gpioclx/QuerySetRequestMaximumType"
-ms.topic: enum
 f1_keywords:
  - "gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE"
 req.header: gpioclx.h

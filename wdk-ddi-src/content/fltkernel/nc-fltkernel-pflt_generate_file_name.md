@@ -6,8 +6,8 @@ old-location: ifsk\pflt_generate_file_name.htm
 tech.root: ifsk
 ms.assetid: 04e7e4db-2cf6-4312-8964-2c69c96953a3
 ms.date: 04/16/2018
+keywords: ["PFLT_GENERATE_FILE_NAME callback function"]
 ms.keywords: FltCallbacks_0075602c-1093-445c-a949-ea282cf736e7.xml, GenerateFileNameCallback, GenerateFileNameCallback routine [Installable File System Drivers], PFLT_GENERATE_FILE_NAME, fltkernel/GenerateFileNameCallback, ifsk.pflt_generate_file_name
-ms.topic: callback
 f1_keywords:
  - "fltkernel/GenerateFileNameCallback"
 req.header: fltkernel.h

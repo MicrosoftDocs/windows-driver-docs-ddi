@@ -6,8 +6,8 @@ old-location: print\oemicmdeletecolortransform.htm
 tech.root: print
 ms.assetid: 820d9e28-fe06-4aa7-91d8-a90340affb94
 ms.date: 04/20/2018
+keywords: ["OEMIcmDeleteColorTransform function"]
 ms.keywords: OEMIcmDeleteColorTransform, OEMIcmDeleteColorTransform function [Print Devices], print.oemicmdeletecolortransform, print_unidrv-pscript_rendering_bbbce51d-2346-4260-ae70-598d38276d69.xml, printoem/OEMIcmDeleteColorTransform
-ms.topic: function
 f1_keywords:
  - "printoem/OEMIcmDeleteColorTransform"
 req.header: printoem.h

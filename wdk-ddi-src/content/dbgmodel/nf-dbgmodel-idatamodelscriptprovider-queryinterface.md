@@ -4,7 +4,7 @@ title: IDataModelScriptProvider::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: f99668cc-65fe-4af0-966f-414959bda9fe
 ms.date: 08/20/2018
-ms.topic: method
+keywords: ["IDataModelScriptProvider::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptProvider.QueryInterface"
 ms.keywords: IDataModelScriptProvider::QueryInterface, QueryInterface, IDataModelScriptProvider.QueryInterface, IDataModelScriptProvider::QueryInterface, IDataModelScriptProvider.QueryInterface

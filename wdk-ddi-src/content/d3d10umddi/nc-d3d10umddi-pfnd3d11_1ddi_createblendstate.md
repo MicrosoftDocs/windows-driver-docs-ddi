@@ -5,8 +5,8 @@ description: Creates a blend state.
 old-location: display\createblendstate_d3d11_1_.htm
 ms.assetid: 5956412e-ae35-4960-afc0-a82c6a2aa9f1
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_CREATEBLENDSTATE callback function"]
 ms.keywords: CreateBlendState(D3D11_1), CreateBlendState(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_CREATEBLENDSTATE, PFND3D11_1DDI_CREATEBLENDSTATE callback, d3d10umddi/CreateBlendState(D3D11_1), display.createblendstate_d3d11_1_, display.pfncreateblendstate
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -64,11 +64,15 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ### -param Arg3
 
+*hBlendState* [in]
+
+A handle to the driver's private data for the blend state.
+
+### -param Arg4
+
 *hRTBlendState* [in]
 
 A handle to the blend state that the driver should use when it calls back into the Direct3D runtime.
-
-### -param Arg4
 
 ## -remarks
 

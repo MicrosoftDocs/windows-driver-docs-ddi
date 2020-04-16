@@ -6,8 +6,8 @@ old-location: ifsk\fltfscontrolfile.htm
 tech.root: ifsk
 ms.assetid: afc72cdf-ea29-4e78-95a0-fc621e3290a7
 ms.date: 04/16/2018
+keywords: ["FltFsControlFile function"]
 ms.keywords: FltApiRef_e_to_o_3cad833f-9ece-410a-896d-1b3fe897c251.xml, FltFsControlFile, FltFsControlFile routine [Installable File System Drivers], fltkernel/FltFsControlFile, ifsk.fltfscontrolfile
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltFsControlFile"
 req.header: fltkernel.h

@@ -6,8 +6,8 @@ old-location: netvista\protocolcmdeactivatevccomplete.htm
 tech.root: netvista
 ms.assetid: 44ee0e3c-aee9-4e24-9e54-c57248b568b6
 ms.date: 05/02/2018
+keywords: ["PROTOCOL_CM_DEACTIVATE_VC_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CM_DEACTIVATE_VC_COMPLETE, PROTOCOL_CM_DEACTIVATE_VC_COMPLETE callback, ProtocolCmDeactivateVcComplete, ProtocolCmDeactivateVcComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_ecf43479-8006-4170-9422-604236ede43a.xml, ndis/ProtocolCmDeactivateVcComplete, netvista.protocolcmdeactivatevccomplete
-ms.topic: callback
 f1_keywords:
  - "ndis/ProtocolCmDeactivateVcComplete"
 req.header: ndis.h

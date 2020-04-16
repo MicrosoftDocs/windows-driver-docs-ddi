@@ -6,8 +6,8 @@ old-location: stream\camprocessusbpacketex.htm
 tech.root: stream
 ms.assetid: 9f69b2f0-6e55-440f-98ab-35d8faddf933
 ms.date: 04/23/2018
+keywords: ["PCAM_PROCESS_PACKET_ROUTINE_EX callback function"]
 ms.keywords: CamProcessUSBPacketEx, CamProcessUSBPacketEx routine [Streaming Media Devices], PCAM_PROCESS_PACKET_ROUTINE_EX, stream.camprocessusbpacketex, usbcamdi/CamProcessUSBPacketEx, usbcmdpr_bd37e77c-386b-4b94-ad7c-8b1c5c26799a.xml
-ms.topic: callback
 f1_keywords:
  - "usbcamdi/CamProcessUSBPacketEx"
 req.header: usbcamdi.h

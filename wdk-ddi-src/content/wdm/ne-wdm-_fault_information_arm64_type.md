@@ -4,7 +4,7 @@ title: _FAULT_INFORMATION_ARM64_TYPE (wdm.h)
 description: Defines values for the type of fault. 
 ms.assetid: a9fee055-614c-4122-a60b-8975d67e771e
 ms.date: 09/30/2018
-ms.topic: enum
+keywords: ["_FAULT_INFORMATION_ARM64_TYPE enumeration"]
 f1_keywords:
  - "wdm/_FAULT_INFORMATION_ARM64_TYPE"
 ms.keywords: _FAULT_INFORMATION_ARM64_TYPE, FAULT_INFORMATION_ARM64_TYPE, *PFAULT_INFORMATION_ARM64_TYPE, 

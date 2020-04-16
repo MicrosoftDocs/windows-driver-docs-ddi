@@ -5,8 +5,8 @@ description: The D3DKMT_PRESENT structure describes the present operation.
 old-location: display\d3dkmt_present.htm
 ms.assetid: 959d17f1-588b-4b65-a3ea-e4609aa84eed
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_PRESENT structure"]
 ms.keywords: D3DKMT_PRESENT, D3DKMT_PRESENT structure [Display Devices], OpenGL_Structs_f3a9c661-7b2d-4f75-864f-c5f2a3c591ad.xml, _D3DKMT_PRESENT, d3dkmthk/D3DKMT_PRESENT, display.d3dkmt_present
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_PRESENT"
 req.header: d3dkmthk.h

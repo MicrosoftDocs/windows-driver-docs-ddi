@@ -6,8 +6,8 @@ old-location: storage\storportqueueworkitem.htm
 tech.root: storage
 ms.assetid: 7B5DD97C-2E3D-4FF7-BF04-36F016B0C6B3
 ms.date: 03/29/2018
+keywords: ["StorPortQueueWorkItem function"]
 ms.keywords: StorPortQueueWorkItem, StorPortQueueWorkItem routine [Storage Devices], storage.storportqueueworkitem, storport/StorPortQueueWorkItem
-ms.topic: function
 f1_keywords:
  - "storport/StorPortQueueWorkItem"
 req.header: storport.h

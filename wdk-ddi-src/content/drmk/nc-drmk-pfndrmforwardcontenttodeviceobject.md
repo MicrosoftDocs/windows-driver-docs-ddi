@@ -6,8 +6,8 @@ old-location: audio\pfndrmforwardcontenttodeviceobject.htm
 tech.root: audio
 ms.assetid: A6256D6D-A952-4E10-B8E7-A28E3D8D9585
 ms.date: 05/08/2018
+keywords: ["PFNDRMFORWARDCONTENTTODEVICEOBJECT callback function"]
 ms.keywords: DRMForwardContentToDeviceObject, DRMForwardContentToDeviceObject callback function [Audio Devices], PFNDRMFORWARDCONTENTTODEVICEOBJECT, PFNDRMFORWARDCONTENTTODEVICEOBJECT callback, PfnDRMForwardContentToDeviceObject, PfnDRMForwardContentToDeviceObject callback function [Audio Devices], audio.pfndrmforwardcontenttodeviceobject, drmk/PfnDRMForwardContentToDeviceObject
-ms.topic: callback
 f1_keywords:
  - "drmk/DRMForwardContentToDeviceObject"
 req.header: drmk.h

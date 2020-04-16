@@ -6,8 +6,8 @@ old-location: battery\batteryprovisioningstatus.htm
 tech.root: battery
 ms.assetid: 4CDDBBC4-2462-41B3-B425-D635B4F1F0C4
 ms.date: 02/15/2018
+keywords: ["_BATTERYPROVISIONINGSTATUS structure"]
 ms.keywords: "*PBATTERYPROVISIONINGSTATUS, BATTERYPROVISIONINGSTATUS, BATTERYPROVISIONINGSTATUS structure [Battery Devices], _BATTERYPROVISIONINGSTATUS, battery.batteryprovisioningstatus, charging/BATTERY_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "charging/BATTERY_INFORMATION"
 req.header: charging.h

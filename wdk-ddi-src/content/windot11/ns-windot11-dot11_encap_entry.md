@@ -6,8 +6,8 @@ old-location: netvista\dot11_encap_entry.htm
 tech.root: netvista
 ms.assetid: d17547c5-47a3-4d10-b27f-6a3bbf7aad03
 ms.date: 02/16/2018
+keywords: ["DOT11_ENCAP_ENTRY structure"]
 ms.keywords: "*PDOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3304c37a-c08f-488e-a75d-d31d59a4a491.xml, PDOT11_ENCAP_ENTRY, PDOT11_ENCAP_ENTRY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_encap_entry, windot11/DOT11_ENCAP_ENTRY, windot11/PDOT11_ENCAP_ENTRY"
-ms.topic: struct
 f1_keywords:
  - "windot11/DOT11_ENCAP_ENTRY"
 req.header: windot11.h

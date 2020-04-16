@@ -6,8 +6,8 @@ old-location: buses\udecxusbdevicelinkpowerexitcomplete.htm
 tech.root: usbref
 ms.assetid: EB41B75C-57E0-4E09-8A7A-2D6BB377ACE7
 ms.date: 05/07/2018
+keywords: ["UdecxUsbDeviceLinkPowerExitComplete function"]
 ms.keywords: UdecxUsbDeviceLinkPowerExitComplete, UdecxUsbDeviceLinkPowerExitComplete function [Buses], buses.udecxusbdevicelinkpowerexitcomplete, udecxusbdevice/UdecxUsbDeviceLinkPowerExitComplete
-ms.topic: function
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceLinkPowerExitComplete"
 req.header: udecxusbdevice.h

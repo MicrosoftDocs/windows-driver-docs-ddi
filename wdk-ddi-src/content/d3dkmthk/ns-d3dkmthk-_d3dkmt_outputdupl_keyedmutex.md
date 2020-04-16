@@ -4,7 +4,7 @@ title: _D3DKMT_OUTPUTDUPL_KEYEDMUTEX (d3dkmthk.h)
 description: Contains output duplicate keyed mutex data.
 ms.assetid: b0150085-ec8f-4290-aab3-03adbbb327e1
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DKMT_OUTPUTDUPL_KEYEDMUTEX structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_OUTPUTDUPL_KEYEDMUTEX"
 ms.keywords: _D3DKMT_OUTPUTDUPL_KEYEDMUTEX, D3DKMT_OUTPUTDUPL_KEYEDMUTEX, 

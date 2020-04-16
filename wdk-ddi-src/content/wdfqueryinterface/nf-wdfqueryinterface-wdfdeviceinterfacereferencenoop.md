@@ -6,8 +6,8 @@ old-location: wdf\wdfdeviceinterfacereferencenoop.htm
 tech.root: wdf
 ms.assetid: 9bb18fd3-e803-4f51-822e-88c06d3385cc
 ms.date: 02/26/2018
+keywords: ["WdfDeviceInterfaceReferenceNoOp function"]
 ms.keywords: DFDeviceObjectDriverDefIntRef_8acb0e5a-ff60-4779-ae97-c6a3c0214365.xml, WdfDeviceInterfaceReferenceNoOp, WdfDeviceInterfaceReferenceNoOp method, kmdf.wdfdeviceinterfacereferencenoop, wdf.wdfdeviceinterfacereferencenoop, wdfqueryinterface/WdfDeviceInterfaceReferenceNoOp
-ms.topic: function
 f1_keywords:
  - "wdfqueryinterface/WdfDeviceInterfaceReferenceNoOp"
 req.header: wdfqueryinterface.h

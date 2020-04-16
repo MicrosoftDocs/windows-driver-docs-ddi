@@ -6,8 +6,8 @@ old-location: netvista\riladdcallforwardingparams.htm
 tech.root: netvista
 ms.assetid: 8918552d-6a7b-414a-ab0c-a5690f109db4
 ms.date: 05/02/2018
+keywords: ["RILADDCALLFORWARDINGPARAMS structure"]
 ms.keywords: "*LPRILADDCALLFORWARDINGPARAMS, RILADDCALLFORWARDINGPARAMS, RILADDCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.riladdcallforwardingparams, ntddrilapitypes/RILADDCALLFORWARDINGPARAMS"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILADDCALLFORWARDINGPARAMS"
 req.header: ntddrilapitypes.h

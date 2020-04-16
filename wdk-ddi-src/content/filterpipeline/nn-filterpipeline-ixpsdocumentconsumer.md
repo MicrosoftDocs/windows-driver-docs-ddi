@@ -6,8 +6,8 @@ old-location: print\ixpsdocumentconsumer.htm
 tech.root: print
 ms.assetid: 98e603e6-2786-4bc8-ad8a-0e91b0d444d8
 ms.date: 04/20/2018
+keywords: ["IXpsDocumentConsumer interface"]
 ms.keywords: IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], IXpsDocumentConsumer interface [Print Devices],described, filterpipeline/IXpsDocumentConsumer, filterpipeline_230eb0f6-427a-4986-b8ad-bc1d41853d67.xml, print.ixpsdocumentconsumer
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IXpsDocumentConsumer"
 req.header: filterpipeline.h
@@ -53,7 +53,7 @@ A filter uses the <code>IXpsDocumentConsumer</code> interface when it generates 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsDocumentConsumer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsDocumentConsumer</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IXpsDocumentConsumer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsDocumentConsumer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -5,8 +5,8 @@ description: The D3DKMT_SETALLOCATIONPRIORITY structure describes the priority l
 old-location: display\d3dkmt_setallocationpriority.htm
 ms.assetid: 3135b9fa-17f0-410a-b563-57fd1548f495
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_SETALLOCATIONPRIORITY structure"]
 ms.keywords: D3DKMT_SETALLOCATIONPRIORITY, D3DKMT_SETALLOCATIONPRIORITY structure [Display Devices], OpenGL_Structs_9afc3b7a-fcd5-4fb4-bfb9-5e752b225a4e.xml, _D3DKMT_SETALLOCATIONPRIORITY, d3dkmthk/D3DKMT_SETALLOCATIONPRIORITY, display.d3dkmt_setallocationpriority
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_SETALLOCATIONPRIORITY"
 req.header: d3dkmthk.h

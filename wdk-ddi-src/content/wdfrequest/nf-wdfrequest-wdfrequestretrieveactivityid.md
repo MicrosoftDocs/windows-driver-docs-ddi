@@ -6,8 +6,8 @@ old-location: wdf\wdfrequestretrieveactivityid.htm
 tech.root: wdf
 ms.assetid: 6E38514E-75BD-4F98-AD12-FA4E31654C3E
 ms.date: 02/26/2018
+keywords: ["WdfRequestRetrieveActivityId function"]
 ms.keywords: WdfRequestRetrieveActivityId, WdfRequestRetrieveActivityId method, wdf.wdfrequestretrieveactivityid, wdfrequest/WdfRequestRetrieveActivityId
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WdfRequestRetrieveActivityId"
 req.header: wdfrequest.h

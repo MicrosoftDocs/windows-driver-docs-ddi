@@ -5,8 +5,8 @@ description: Specifies the (x, y, z) coordinate values below the index tiles of 
 old-location: display\d3dwddm1_3ddi_tiled_resource_coordinate.htm
 ms.assetid: A927CAF9-EF7F-47CC-9BDE-B6E13597368E
 ms.date: 05/10/2018
+keywords: ["D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure"]
 ms.keywords: D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE, D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE, display.d3dwddm1_3ddi_tiled_resource_coordinate
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE"
 req.header: d3d10umddi.h

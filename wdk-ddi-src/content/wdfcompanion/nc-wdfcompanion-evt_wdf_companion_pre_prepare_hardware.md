@@ -6,8 +6,8 @@ old-location: wdf\evt_wdf_companion_pre_prepare_hardware.htm
 tech.root: wdf
 ms.assetid: 36076a28-d3f7-4463-b538-59794a18c4f9
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE callback function"]
 ms.keywords: EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE, EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE callback, EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE callback function, wdf.evt_wdf_companion_pre_prepare_hardware, wdfcompanion/EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE
-ms.topic: callback
 f1_keywords:
  - "wdfcompanion/EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE"
 req.header: wdfcompanion.h

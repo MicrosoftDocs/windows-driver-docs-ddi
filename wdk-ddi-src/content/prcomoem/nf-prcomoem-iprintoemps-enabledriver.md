@@ -6,8 +6,8 @@ old-location: print\iprintoemps_enabledriver.htm
 tech.root: print
 ms.assetid: 12e65e91-f540-49fd-a723-c6b93708b166
 ms.date: 04/20/2018
+keywords: ["IPrintOemPS::EnableDriver"]
 ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],EnableDriver method, IPrintOemPS.EnableDriver, IPrintOemPS::EnableDriver, prcomoem/IPrintOemPS::EnableDriver, print.iprintoemps_enabledriver, print_unidrv-pscript_rendering_2e2fe90b-66ce-4f39-adfa-ebb187700aac.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemPS.EnableDriver"
 req.header: prcomoem.h

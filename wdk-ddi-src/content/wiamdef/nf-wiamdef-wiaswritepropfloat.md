@@ -6,8 +6,8 @@ old-location: image\wiaswritepropfloat.htm
 tech.root: image
 ms.assetid: 097cd455-018e-46ef-8b8f-8eae7ea3eaff
 ms.date: 05/03/2018
+keywords: ["wiasWritePropFloat function"]
 ms.keywords: image.wiaswritepropfloat, wiamdef/wiasWritePropFloat, wiasFncs_49539474-675e-420d-b7a4-67f147017975.xml, wiasWritePropFloat, wiasWritePropFloat function [Imaging Devices]
-ms.topic: function
 f1_keywords:
  - "wiamdef/wiasWritePropFloat"
 req.header: wiamdef.h

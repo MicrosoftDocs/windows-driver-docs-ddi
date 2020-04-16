@@ -5,7 +5,7 @@ description: The VmbChannelMapGpadl function maps a client-side buffer into serv
 tech.root: netvista
 ms.assetid: b71b9fbe-ab6c-41a6-8288-b98ebfc240dc
 ms.date: 05/21/2018
-ms.topic: callback
+keywords: ["FN_VMB_CHANNEL_MAP_GPADL callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_MAP_GPADL"
 req.header: vmbuskernelmodeclientlibapi.h

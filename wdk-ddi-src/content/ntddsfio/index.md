@@ -3,6 +3,7 @@ UID: NA:ntddsfio
 title: Ntddsfio.h header
 ms.assetid: 5d4c34cb-40ca-34ee-8aa4-3727973c1c67
 ms.date: 05/09/2018
+keywords: ["Ntddsfio.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

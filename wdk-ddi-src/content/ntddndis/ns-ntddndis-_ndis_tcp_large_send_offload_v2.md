@@ -6,8 +6,8 @@ old-location: netvista\ndis_tcp_large_send_offload_v2.htm
 tech.root: netvista
 ms.assetid: e53e5771-a3ca-4867-a0ac-65adb66e574c
 ms.date: 05/02/2018
+keywords: ["_NDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure"]
 ms.keywords: "*PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, NDIS_TCP_LARGE_SEND_OFFLOAD_V2, NDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, PNDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_LARGE_SEND_OFFLOAD_V2, netvista.ndis_tcp_large_send_offload_v2, ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V2, ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, tcpip_offload_ref_739d5001-8b37-437f-ad2e-8ad817feb59d.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V2"
 req.header: ntddndis.h

@@ -6,8 +6,8 @@ old-location: ifsk\rtldecompressbuffer.htm
 tech.root: ifsk
 ms.assetid: 4f82d094-e6be-4367-9146-1fa3f200ffa0
 ms.date: 04/16/2018
+keywords: ["RtlDecompressBuffer function"]
 ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS, RtlDecompressBuffer, RtlDecompressBuffer function [Installable File System Drivers], ifsk.rtldecompressbuffer, ntifs/RtlDecompressBuffer, rtlref_d19521fb-b086-4ee4-ae65-6354a89aeff9.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlDecompressBuffer"
 req.header: ntifs.h

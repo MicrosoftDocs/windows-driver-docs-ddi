@@ -6,8 +6,8 @@ old-location: storage\storage_component_health_status.htm
 tech.root: storage
 ms.assetid: 6768C1D7-A964-44A7-A340-98060130FF24
 ms.date: 03/29/2018
+keywords: ["_STORAGE_COMPONENT_HEALTH_STATUS enumeration"]
 ms.keywords: "*PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusDisabled, HealthStatusFailed, HealthStatusNormal, HealthStatusThrottled, HealthStatusUnknown, HealthStatusWarning, PSTORAGE_COMPONENT_HEALTH_STATUS, PSTORAGE_COMPONENT_HEALTH_STATUS enumeration pointer [Storage Devices], STORAGE_COMPONENT_HEALTH_STATUS, STORAGE_COMPONENT_HEALTH_STATUS enumeration [Storage Devices], _STORAGE_COMPONENT_HEALTH_STATUS, ntddstor/HealthStatusDisabled, ntddstor/HealthStatusFailed, ntddstor/HealthStatusNormal, ntddstor/HealthStatusThrottled, ntddstor/HealthStatusUnknown, ntddstor/HealthStatusWarning, ntddstor/PSTORAGE_COMPONENT_HEALTH_STATUS, ntddstor/STORAGE_COMPONENT_HEALTH_STATUS, storage.storage_component_health_status"
-ms.topic: enum
 f1_keywords:
  - "ntddstor/STORAGE_COMPONENT_HEALTH_STATUS"
 req.header: ntddstor.h

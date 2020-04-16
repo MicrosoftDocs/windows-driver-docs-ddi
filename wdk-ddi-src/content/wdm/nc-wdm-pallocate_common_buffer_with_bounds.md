@@ -4,7 +4,7 @@ title: PALLOCATE_COMMON_BUFFER_WITH_BOUNDS (wdm.h)
 description: 
 ms.assetid: c376a156-c7e2-4feb-aa21-4fbce4fe72ed
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PALLOCATE_COMMON_BUFFER_WITH_BOUNDS callback function"]
 f1_keywords:
  - "wdm/PALLOCATE_COMMON_BUFFER_WITH_BOUNDS"
 req.header: wdm.h

@@ -6,8 +6,8 @@ old-location: netvista\ril_getuiccservicestate.htm
 tech.root: netvista
 ms.assetid: 8ce53e64-791d-4e52-a383-b9e407b5b332
 ms.date: 05/02/2018
+keywords: ["RIL_GetUiccServiceState function"]
 ms.keywords: RIL_GetUiccServiceState, RIL_GetUiccServiceState method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccservicestate, rilapi/RIL_GetUiccServiceState
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_GetUiccServiceState"
 req.header: rilapi.h

@@ -5,7 +5,7 @@ description: The NetRxQueueGetRingCollection method retrieves the NET_RING_COLLE
 tech.root: netvista
 ms.assetid: 18ae9b71-b6a3-4a6f-ab70-74332b852338
 ms.date: 01/31/2019
-ms.topic: function
+keywords: ["NetRxQueueGetRingCollection function"]
 f1_keywords:
  - "netrxqueue/NetRxQueueCreate"
 ms.keywords: NetRxQueueGetRingCollection

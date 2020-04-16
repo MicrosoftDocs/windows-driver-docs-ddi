@@ -4,7 +4,7 @@ title: IDataModelScriptDebugVariableSetEnumerator::Release (dbgmodel.h)
 description: Decrements the reference count for an interface on an object. 
 ms.assetid: 2a506a1d-be24-42d9-9a9e-e22452abbfa5
 ms.date: 09/10/2018
-ms.topic: method
+keywords: ["IDataModelScriptDebugVariableSetEnumerator::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugVariableSetEnumerator.Release"
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::Release, Release, IDataModelScriptDebugVariableSetEnumerator.Release, IDataModelScriptDebugVariableSetEnumerator::Release, IDataModelScriptDebugVariableSetEnumerator.Release

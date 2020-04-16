@@ -6,8 +6,8 @@ old-location: serports\ioctl_internal_serenum_remove_self.htm
 tech.root: serports
 ms.assetid: 1607439d-fc94-4ebd-84c8-bb5cabdeaab9
 ms.date: 04/23/2018
+keywords: ["IOCTL_INTERNAL_SERENUM_REMOVE_SELF IOCTL"]
 ms.keywords: IOCTL_INTERNAL_SERENUM_REMOVE_SELF, IOCTL_INTERNAL_SERENUM_REMOVE_SELF control, IOCTL_INTERNAL_SERENUM_REMOVE_SELF control code [Serial Ports], ntddser/IOCTL_INTERNAL_SERENUM_REMOVE_SELF, senumref_e7d31955-3eb4-4769-a7fa-84b55272f47a.xml, serports.ioctl_internal_serenum_remove_self
-ms.topic: ioctl
 f1_keywords:
  - "ntddser/IOCTL_INTERNAL_SERENUM_REMOVE_SELF"
 req.header: ntddser.h

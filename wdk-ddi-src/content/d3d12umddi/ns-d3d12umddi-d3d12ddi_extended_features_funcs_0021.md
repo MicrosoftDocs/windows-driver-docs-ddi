@@ -5,8 +5,8 @@ description: Specifies callback functions for extended features.
 old-location: display\d3d12ddi_extended_features_funcs_0021.htm
 ms.assetid: 9E2D8EF5-18D0-4BC5-ADCA-3D3BE76D3BF1
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_EXTENDED_FEATURES_FUNCS_0021 structure"]
 ms.keywords: D3D12DDI_EXTENDED_FEATURES_FUNCS_0021, D3D12DDI_EXTENDED_FEATURES_FUNCS_0021 structure [Display Devices], d3d12umddi/D3D12DDI_EXTENDED_FEATURES_FUNCS_0021, display.d3d12ddi_extended_features_funcs_0021
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_EXTENDED_FEATURES_FUNCS_0021"
 req.header: d3d12umddi.h

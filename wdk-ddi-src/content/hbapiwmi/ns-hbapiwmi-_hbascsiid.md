@@ -6,8 +6,8 @@ old-location: storage\hbascsiid.htm
 tech.root: storage
 ms.assetid: 654892eb-96eb-49e4-be1e-d5144b146903
 ms.date: 03/29/2018
+keywords: ["_HBAScsiID structure"]
 ms.keywords: "*PHBAScsiID, HBAScsiID, HBAScsiID structure [Storage Devices], PHBAScsiID, PHBAScsiID structure pointer [Storage Devices], _HBAScsiID, hbapiwmi/HBAScsiID, hbapiwmi/PHBAScsiID, storage.hbascsiid, structs-Fibre_11630d2e-f0a6-451d-a0e6-9f3986c0a3f7.xml"
-ms.topic: struct
 f1_keywords:
  - "hbapiwmi/HBAScsiID"
 req.header: hbapiwmi.h

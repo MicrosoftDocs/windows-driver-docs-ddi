@@ -6,8 +6,8 @@ old-location: storage\ioctl_storage_eject_media.htm
 tech.root: storage
 ms.assetid: 094edf6d-276b-4aae-9e60-52e181268e7d
 ms.date: 03/29/2018
+keywords: ["IOCTL_STORAGE_EJECT_MEDIA IOCTL"]
 ms.keywords: IOCTL_STORAGE_EJECT_MEDIA, IOCTL_STORAGE_EJECT_MEDIA control, IOCTL_STORAGE_EJECT_MEDIA control code [Storage Devices], k307_19063683-2dc1-4ce2-ac53-7754eee2562b.xml, ntddstor/IOCTL_STORAGE_EJECT_MEDIA, storage.ioctl_storage_eject_media
-ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_EJECT_MEDIA"
 req.header: ntddstor.h

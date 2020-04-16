@@ -5,7 +5,7 @@ description: This structure is reserved for system use and should not be used in
 tech.root: netvista
 ms.assetid: 6ecc7e27-d8c3-4fdf-aa3c-b7b5fece8200
 ms.date: 08/08/2018
-ms.topic: struct
+keywords: ["_NET_BUFFER_LIST_TIMESTAMP structure"]
 f1_keywords:
  - "ndis/_NET_BUFFER_LIST_TIMESTAMP"
 ms.keywords: _NET_BUFFER_LIST_TIMESTAMP, NET_BUFFER_LIST_TIMESTAMP, *PNET_BUFFER_LIST_TIMESTAMP, 

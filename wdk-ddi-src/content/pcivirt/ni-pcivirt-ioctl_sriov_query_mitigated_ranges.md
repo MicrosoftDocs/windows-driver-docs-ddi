@@ -6,8 +6,8 @@ old-location: pci\ioctl-sriov-query-mitigated-ranges.htm
 tech.root: PCI
 ms.assetid: 58b6e53d-be7a-4563-a27d-db216a12d60d
 ms.date: 02/24/2018
+keywords: ["IOCTL_SRIOV_QUERY_MITIGATED_RANGES IOCTL"]
 ms.keywords: IOCTL_SRIOV_QUERY_MITIGATED_RANGES, IOCTL_SRIOV_QUERY_MITIGATED_RANGES control code [Buses], PCI.ioctl-sriov-query-mitigated-ranges, pcivirt/IOCTL_SRIOV_QUERY_MITIGATED_RANGES
-ms.topic: ioctl
 f1_keywords:
  - "pcivirt/IOCTL_SRIOV_QUERY_MITIGATED_RANGES"
 req.header: pcivirt.h

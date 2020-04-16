@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: 57af271e-cd06-4749-abd1-89f4d3c7075c
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: function
+keywords: ["MbbDeviceReportWakeReason function"]
 f1_keywords:
  - "mbbcx/MbbDeviceReportWakeReason"
 ms.keywords: MbbDeviceReportWakeReason

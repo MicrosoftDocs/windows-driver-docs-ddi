@@ -6,8 +6,8 @@ old-location: display\d3dhal_dp2blt.htm
 tech.root: display
 ms.assetid: 2d0cdc50-a194-4eda-8bba-f6e5c06ff32c
 ms.date: 05/10/2018
+keywords: ["_D3DHAL_DP2BLT structure"]
 ms.keywords: "*LPD3DHAL_DP2BLT, D3DHAL_DP2BLT, D3DHAL_DP2BLT structure [Display Devices], LPD3DHAL_DP2BLT, LPD3DHAL_DP2BLT structure pointer [Display Devices], _D3DHAL_DP2BLT, d3dhal/D3DHAL_DP2BLT, d3dhal/LPD3DHAL_DP2BLT, d3dstrct_cab5e8b8-ec72-4d7d-8aaa-4a1f6da44a9b.xml, display.d3dhal_dp2blt"
-ms.topic: struct
 f1_keywords:
  - "d3dhal/D3DHAL_DP2BLT"
 req.header: d3dhal.h

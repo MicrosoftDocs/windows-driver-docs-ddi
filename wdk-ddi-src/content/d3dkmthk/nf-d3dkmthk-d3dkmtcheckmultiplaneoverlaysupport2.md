@@ -4,7 +4,7 @@ title: D3DKMTCheckMultiPlaneOverlaySupport2 function (d3dkmthk.h)
 description: Checks multiplane overlay support.
 ms.assetid: 9a71194e-0186-4920-89d4-2c658bb1b6ab
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["D3DKMTCheckMultiPlaneOverlaySupport2 function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTCheckMultiPlaneOverlaySupport2"
 ms.keywords: D3DKMTCheckMultiPlaneOverlaySupport2

@@ -4,7 +4,7 @@ title: _D3DDDITEXTUREFILTERTYPE (d3dumddi.h)
 description: The texture filter type.
 ms.assetid: 4219ecb5-c052-4952-b955-4b8f3653744b
 ms.date: 10/19/2018
-ms.topic: enum
+keywords: ["_D3DDDITEXTUREFILTERTYPE enumeration"]
 ms.keywords: _D3DDDITEXTUREFILTERTYPE, D3DDDITEXTUREFILTERTYPE,
 req.header: d3dumddi.h
 req.include-header: 

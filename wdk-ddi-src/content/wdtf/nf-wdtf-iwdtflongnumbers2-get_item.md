@@ -6,8 +6,8 @@ old-location: dtf\iwdtflongnumbers2_item.htm
 tech.root: dtf
 ms.assetid: 52c2a15c-13ec-43a1-ad8e-fc55ef681a60
 ms.date: 04/04/2018
+keywords: ["IWDTFLongNumbers2::get_Item"]
 ms.keywords: IWDTFLongNumbers2 interface [Windows Device Testing Framework],Item property, IWDTFLongNumbers2.Item, IWDTFLongNumbers2.get_Item, IWDTFLongNumbers2::Item, IWDTFLongNumbers2::get_Item, Item property [Windows Device Testing Framework], Item property [Windows Device Testing Framework],IWDTFLongNumbers2 interface, Microsoft.WDTF.IWDTFLongNumbers2.Item, Microsoft::WDTF::IWDTFLongNumbers2::Item, dtf.iwdtflongnumbers2_item, get_Item, wdtf/IWDTFLongNumbers2::Item, wdtf/IWDTFLongNumbers2::get_Item
-ms.topic: method
 f1_keywords:
  - "wdtf/IWDTFLongNumbers2.Item"
 req.header: wdtf.h

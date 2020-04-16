@@ -5,7 +5,7 @@ tech.root: usbref
 description: Used in the GET_CONNECTOR_STATUS command. See Table 4-42, Offset 20.
 ms.assetid: 8104ffb5-299f-4269-970f-0286d83b1884
 ms.date: 09/30/2018
-ms.topic: enum
+keywords: ["_UCSI_POWER_DIRECTION_MODE enumeration"]
 f1_keywords:
  - "ucmucsispec/_UCSI_POWER_DIRECTION_MODE"
 ms.keywords: _UCSI_POWER_DIRECTION_MODE, UCSI_POWER_DIRECTION_MODE, 

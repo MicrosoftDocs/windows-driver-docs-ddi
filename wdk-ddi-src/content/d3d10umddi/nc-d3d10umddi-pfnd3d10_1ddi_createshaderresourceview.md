@@ -5,8 +5,8 @@ description: The CreateShaderResourceView(D3D10_1) function creates a shader res
 old-location: display\createshaderresourceview_d3d10_1_.htm
 ms.assetid: 7a0a92d2-a5df-4bee-a950-8a89aeb3dbb8
 ms.date: 05/10/2018
+keywords: ["PFND3D10_1DDI_CREATESHADERRESOURCEVIEW callback function"]
 ms.keywords: CreateShaderResourceView_d3d10_1_, CreateShaderResourceView_d3d10_1_ callback function [Display Devices], PFND3D10_1DDI_CREATESHADERRESOURCEVIEW, PFND3D10_1DDI_CREATESHADERRESOURCEVIEW callback, UserModeDisplayDriverDx10_Functions_e8a41f3e-a247-4350-aa1d-3967ec2f903d.xml, d3d10umddi/CreateShaderResourceView_d3d10_1_, display.createshaderresourceview_d3d10_1_
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -64,11 +64,15 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ### -param Arg3
 
+*hShaderResourceView* [in]
+
+A handle to the driver's private data for the shader resource view.
+
+### -param Arg4
+
 *hRTShaderResourceView* [in]
 
 A handle to the shader resource view that the driver should use anytime it calls back into the Direct3D runtime.
-
-### -param Arg4
 
 ## -remarks
 

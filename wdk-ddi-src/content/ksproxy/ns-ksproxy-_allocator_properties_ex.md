@@ -6,8 +6,8 @@ old-location: stream\allocator_properties_ex.htm
 tech.root: stream
 ms.assetid: 6edb8af4-a5c9-430f-800a-8a6f47a9cce4
 ms.date: 04/23/2018
+keywords: ["_ALLOCATOR_PROPERTIES_EX structure"]
 ms.keywords: "*PALLOCATOR_PROPERTIES_EX, ALLOCATOR_PROPERTIES_EX, ALLOCATOR_PROPERTIES_EX structure [Streaming Media Devices], PALLOCATOR_PROPERTIES_EX, PALLOCATOR_PROPERTIES_EX structure pointer [Streaming Media Devices], _ALLOCATOR_PROPERTIES_EX, ksproxy/ALLOCATOR_PROPERTIES_EX, ksproxy/PALLOCATOR_PROPERTIES_EX, ksproxy_6d16a85e-e11b-46e1-a9ab-b8f099e32d57.xml, stream.allocator_properties_ex"
-ms.topic: struct
 f1_keywords:
  - "ksproxy/ALLOCATOR_PROPERTIES_EX"
 req.header: ksproxy.h

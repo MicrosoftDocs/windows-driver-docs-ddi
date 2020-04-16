@@ -6,8 +6,8 @@ old-location: kernel\rtlfindsetbits.htm
 tech.root: kernel
 ms.assetid: 35add921-e5a2-4c18-83db-86150c43b034
 ms.date: 04/30/2018
+keywords: ["RtlFindSetBits function"]
 ms.keywords: RtlFindSetBits, RtlFindSetBits routine [Kernel-Mode Driver Architecture], k109_67665139-638f-4dc5-b0b4-db3782c1f294.xml, kernel.rtlfindsetbits, wdm/RtlFindSetBits
-ms.topic: function
 f1_keywords:
  - "wdm/RtlFindSetBits"
 req.header: wdm.h

@@ -4,7 +4,7 @@ title: PFND3D12DDI_CREATEELEMENTLAYOUT_0003 (d3d12umddi.h)
 description: Creates an element layout.
 ms.assetid: 23cc0136-45a0-4eb3-84e6-3c906b2bbca0
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_CREATEELEMENTLAYOUT_0003 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

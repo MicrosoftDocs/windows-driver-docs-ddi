@@ -6,8 +6,8 @@ old-location: bltooth\sdpcreatenodeuint8.htm
 tech.root: bltooth
 ms.assetid: b5ac8079-032f-4d25-ba12-8fdc0622b8b5
 ms.date: 04/27/2018
+keywords: ["SdpCreateNodeUInt8 function"]
 ms.keywords: SdpCreateNodeUInt8, SdpCreateNodeUInt8 function [Bluetooth Devices], bltooth.sdpcreatenodeuint8, bth_funcs_836c7c8c-76a0-4bce-8b30-79550dd5f173.xml, sdplib/SdpCreateNodeUInt8
-ms.topic: function
 f1_keywords:
  - "sdplib/SdpCreateNodeUInt8"
 req.header: sdplib.h

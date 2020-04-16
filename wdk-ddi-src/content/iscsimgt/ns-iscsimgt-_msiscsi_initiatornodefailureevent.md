@@ -6,8 +6,8 @@ old-location: storage\msiscsi_initiatornodefailureevent.htm
 tech.root: storage
 ms.assetid: 0d761b64-d405-4c19-9fd8-e4bf371515a1
 ms.date: 03/29/2018
+keywords: ["_MSiSCSI_InitiatorNodeFailureEvent structure"]
 ms.keywords: "*PMSiSCSI_InitiatorNodeFailureEvent, MSiSCSI_InitiatorNodeFailureEvent, MSiSCSI_InitiatorNodeFailureEvent structure [Storage Devices], PMSiSCSI_InitiatorNodeFailureEvent, PMSiSCSI_InitiatorNodeFailureEvent structure pointer [Storage Devices], _MSiSCSI_InitiatorNodeFailureEvent, iscsimgt/MSiSCSI_InitiatorNodeFailureEvent, iscsimgt/PMSiSCSI_InitiatorNodeFailureEvent, storage.msiscsi_initiatornodefailureevent, structs-iSCSI_0d1bb4bf-74a0-4d99-9bf8-1545faaff14d.xml"
-ms.topic: struct
 f1_keywords:
  - "iscsimgt/MSiSCSI_InitiatorNodeFailureEvent"
 req.header: iscsimgt.h

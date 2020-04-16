@@ -6,8 +6,8 @@ old-location: netvista\miniportwdiallocateadapter.htm
 tech.root: netvista
 ms.assetid: 4CBC7230-6480-40C9-90B7-A286FCEB1FA8
 ms.date: 05/02/2018
+keywords: ["MINIPORT_WDI_ALLOCATE_ADAPTER callback function"]
 ms.keywords: MINIPORT_WDI_ALLOCATE_ADAPTER, MINIPORT_WDI_ALLOCATE_ADAPTER callback, MiniportWdiAllocateAdapter, MiniportWdiAllocateAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiAllocateAdapter, netvista.miniportwdiallocateadapter
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiAllocateAdapter"
 req.header: dot11wdi.h

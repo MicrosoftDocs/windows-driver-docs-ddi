@@ -4,7 +4,7 @@ title: D3D12DDIARG_TEX1D_DEPTH_STENCIL_VIEW (d3d12umddi.h)
 description: Describes a one-dimensional texture (1-D) that is used to create a depth stencil view.
 ms.assetid: f9d781d9-d696-4f1e-963b-54869165f222
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["D3D12DDIARG_TEX1D_DEPTH_STENCIL_VIEW structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_TEX1D_DEPTH_STENCIL_VIEW"
 ms.keywords: D3D12DDIARG_TEX1D_DEPTH_STENCIL_VIEW, D3D12DDIARG_TEX1D_DEPTH_STENCIL_VIEW, 

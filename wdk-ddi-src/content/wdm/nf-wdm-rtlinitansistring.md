@@ -6,8 +6,8 @@ old-location: kernel\rtlinitansistring.htm
 tech.root: kernel
 ms.assetid: 7b535ea0-091f-4a1b-bfb7-db3cfabbe846
 ms.date: 04/30/2018
+keywords: ["RtlInitAnsiString function"]
 ms.keywords: RtlInitAnsiString, RtlInitAnsiString routine [Kernel-Mode Driver Architecture], k109_733e2861-a19a-41ca-92cc-d50caa8beead.xml, kernel.rtlinitansistring, wdm/RtlInitAnsiString
-ms.topic: function
 f1_keywords:
  - "wdm/RtlInitAnsiString"
 req.header: wdm.h

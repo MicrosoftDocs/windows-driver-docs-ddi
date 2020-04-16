@@ -6,8 +6,8 @@ old-location: debugger\setexceptionfiltersecondcommand.htm
 tech.root: debugger
 ms.assetid: c95fa025-9455-4a8e-99ef-84030255575c
 ms.date: 05/03/2018
+keywords: ["IDebugControl2::SetExceptionFilterSecondCommand"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetExceptionFilterSecondCommand method, IDebugControl2 interface [Windows Debugging],SetExceptionFilterSecondCommand method, IDebugControl2.SetExceptionFilterSecondCommand, IDebugControl2::SetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging],SetExceptionFilterSecondCommand method, IDebugControl3::SetExceptionFilterSecondCommand, IDebugControl::SetExceptionFilterSecondCommand, IDebugControl_39380f22-4c68-40fe-b277-f7eace77bcee.xml, SetExceptionFilterSecondCommand, SetExceptionFilterSecondCommand method [Windows Debugging], SetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl interface, SetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl2 interface, SetExceptionFilterSecondCommand method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetExceptionFilterSecondCommand, dbgeng/IDebugControl3::SetExceptionFilterSecondCommand, dbgeng/IDebugControl::SetExceptionFilterSecondCommand, debugger.setexceptionfiltersecondcommand
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl.SetExceptionFilterSecondCommand"
 req.header: dbgeng.h

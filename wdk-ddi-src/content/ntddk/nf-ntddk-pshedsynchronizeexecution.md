@@ -6,8 +6,8 @@ old-location: whea\pshedsynchronizeexecution.htm
 tech.root: whea
 ms.assetid: 299fd2fc-d7f4-4176-addd-d45d010b1056
 ms.date: 02/20/2018
+keywords: ["PshedSynchronizeExecution function"]
 ms.keywords: PshedSynchronizeExecution, PshedSynchronizeExecution function [WHEA Drivers and Applications], ntddk/PshedSynchronizeExecution, whea.pshedsynchronizeexecution, whearef_7a6363f4-466d-498a-97c4-b5f7937005dd.xml
-ms.topic: function
 f1_keywords:
  - "ntddk/PshedSynchronizeExecution"
 req.header: ntddk.h

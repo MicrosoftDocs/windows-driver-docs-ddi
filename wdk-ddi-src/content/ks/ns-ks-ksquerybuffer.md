@@ -6,8 +6,8 @@ old-location: stream\ksquerybuffer.htm
 tech.root: stream
 ms.assetid: 6827df53-f970-4ceb-961d-b4b95fa56cfe
 ms.date: 04/23/2018
+keywords: ["KSQUERYBUFFER structure"]
 ms.keywords: "*PKSQUERYBUFFER, KSQUERYBUFFER, KSQUERYBUFFER structure [Streaming Media Devices], PKSQUERYBUFFER, PKSQUERYBUFFER structure pointer [Streaming Media Devices], ks-struct_aa45ed01-603d-4452-8862-649a73361c48.xml, ks/KSQUERYBUFFER, ks/PKSQUERYBUFFER, stream.ksquerybuffer"
-ms.topic: struct
 f1_keywords:
  - "ks/KSQUERYBUFFER"
 req.header: ks.h

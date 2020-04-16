@@ -6,8 +6,8 @@ old-location: netvista\ndisquerynetbufferphysicalcount.htm
 tech.root: netvista
 ms.assetid: 99869b20-3458-426a-ad64-c2cc54213290
 ms.date: 05/02/2018
+keywords: ["NdisQueryNetBufferPhysicalCount function"]
 ms.keywords: NdisQueryNetBufferPhysicalCount, NdisQueryNetBufferPhysicalCount function [Network Drivers Starting with Windows Vista], ndis/NdisQueryNetBufferPhysicalCount, ndis_netbuf_functions_ref_d041f487-3273-402e-8726-d9a252b1dd45.xml, netvista.ndisquerynetbufferphysicalcount
-ms.topic: function
 f1_keywords:
  - "ndis/NdisQueryNetBufferPhysicalCount"
 req.header: ndis.h

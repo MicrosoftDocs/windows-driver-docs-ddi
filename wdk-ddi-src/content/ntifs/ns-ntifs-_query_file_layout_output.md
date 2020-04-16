@@ -6,8 +6,8 @@ old-location: ifsk\query_file_layout_output.htm
 tech.root: ifsk
 ms.assetid: 204893BE-8B89-4BE4-BEDB-BF28DBAAACE9
 ms.date: 04/16/2018
+keywords: ["_QUERY_FILE_LAYOUT_OUTPUT structure"]
 ms.keywords: "*PQUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT structure pointer [Installable File System Drivers], QUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT structure [Installable File System Drivers], QUERY_FILE_LAYOUT_SINGLE_INSTANCED, _QUERY_FILE_LAYOUT_OUTPUT, ifsk.query_file_layout_output, ntifs/PQUERY_FILE_LAYOUT_OUTPUT, ntifs/QUERY_FILE_LAYOUT_OUTPUT"
-ms.topic: struct
 f1_keywords:
  - "ntifs/QUERY_FILE_LAYOUT_OUTPUT"
 req.header: ntifs.h

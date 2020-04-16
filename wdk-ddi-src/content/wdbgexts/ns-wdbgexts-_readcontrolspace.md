@@ -6,8 +6,8 @@ old-location: debugger\readcontrolspace.htm
 tech.root: debugger
 ms.assetid: 4b6955a5-ca03-418d-9eba-fdbe48599922
 ms.date: 02/27/2018
+keywords: ["_READCONTROLSPACE structure"]
 ms.keywords: "*PREADCONTROLSPACE, READCONTROLSPACE, ReadControlSpace, ReadControlSpace function [Windows Debugging], WdbgExts_Ref_8337344a-4a97-4f74-9be4-8fdd771d8bbf.xml, _READCONTROLSPACE, debugger.readcontrolspace, wdbgexts/ReadControlSpace"
-ms.topic: struct
 f1_keywords:
  - "wdbgexts/ReadControlSpace"
 req.header: wdbgexts.h

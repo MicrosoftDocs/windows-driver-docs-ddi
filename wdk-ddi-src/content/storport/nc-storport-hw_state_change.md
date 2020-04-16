@@ -6,8 +6,8 @@ old-location: storage\hwstorstatechange.htm
 tech.root: storage
 ms.assetid: E7E5E26A-B477-453C-AAFC-9B3572F4FC72
 ms.date: 03/29/2018
+keywords: ["HW_STATE_CHANGE callback function"]
 ms.keywords: HW_STATE_CHANGE, HwStorStateChange, HwStorStateChange routine [Storage Devices], storage.hwstorstatechange, storport/HwStorStateChange
-ms.topic: callback
 f1_keywords:
  - "storport/HwStorStateChange"
 req.header: storport.h

@@ -6,8 +6,8 @@ old-location: wdf\wdffdolockstaticchildlistforiteration.htm
 tech.root: wdf
 ms.assetid: 79ff278c-a30e-49f6-9146-badf24970de2
 ms.date: 02/26/2018
+keywords: ["WdfFdoLockStaticChildListForIteration function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_d20e71b2-fc76-4eb5-9911-bb7014467b4e.xml, WdfFdoLockStaticChildListForIteration, WdfFdoLockStaticChildListForIteration method, kmdf.wdffdolockstaticchildlistforiteration, wdf.wdffdolockstaticchildlistforiteration, wdffdo/WdfFdoLockStaticChildListForIteration
-ms.topic: function
 f1_keywords:
  - "wdffdo/WdfFdoLockStaticChildListForIteration"
 req.header: wdffdo.h

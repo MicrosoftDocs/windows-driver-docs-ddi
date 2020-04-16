@@ -6,8 +6,8 @@ old-location: image\ioctl_get_device_descriptor.htm
 tech.root: image
 ms.assetid: a6946dd4-db72-477f-bf2c-958c363340a0
 ms.date: 05/03/2018
+keywords: ["IOCTL_GET_DEVICE_DESCRIPTOR IOCTL"]
 ms.keywords: IOCTL_GET_DEVICE_DESCRIPTOR, IOCTL_GET_DEVICE_DESCRIPTOR control, IOCTL_GET_DEVICE_DESCRIPTOR control code [Imaging Devices], image.ioctl_get_device_descriptor, stifnc_b84c2743-6548-40c7-8b97-4952867740ad.xml, usbscan/IOCTL_GET_DEVICE_DESCRIPTOR
-ms.topic: ioctl
 f1_keywords:
  - "usbscan/IOCTL_GET_DEVICE_DESCRIPTOR"
 req.header: usbscan.h

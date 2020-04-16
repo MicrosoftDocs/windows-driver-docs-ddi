@@ -6,8 +6,8 @@ old-location: nfpdrivers\evtnfccxdeviceiocontrol_.htm
 tech.root: nfpdrivers
 ms.assetid: 45512F88-D4B8-4488-99EB-B47EE7443425
 ms.date: 02/15/2018
+keywords: ["EVT_NFC_CX_DEVICE_IO_CONTROL callback function"]
 ms.keywords: EVT_NFC_CX_DEVICE_IO_CONTROL, EVT_NFC_CX_DEVICE_IO_CONTROL callback, EvtNfcCxDeviceIoControl, EvtNfcCxDeviceIoControl callback function [Near-Field Proximity Drivers], nfccx/EvtNfcCxDeviceIoControl, nfpdrivers.evtnfccxdeviceiocontrol_
-ms.topic: callback
 f1_keywords:
  - "nfccx/EvtNfcCxDeviceIoControl"
 req.header: nfccx.h

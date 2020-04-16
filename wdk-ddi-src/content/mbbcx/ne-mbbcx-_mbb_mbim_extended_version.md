@@ -5,7 +5,7 @@ description: The MBB_MBIM_EXTENDED_VERSION enumeration defines the version of th
 tech.root: netvista
 ms.assetid: 38F07398-3659-46A3-A0E6-FAD5B18E0934
 ms.date: 09/27/2019
-ms.topic: enum
+keywords: ["_MBB_MBIM_EXTENDED_VERSION enumeration"]
 f1_keywords:
  - "mbbcx/-	_MBB_MBIM_EXTENDED_VERSION"
 ms.keywords: _MBB_MBIM_EXTENDED_VERSION, MBB_MBIM_EXTENDED_VERSION, 

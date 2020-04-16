@@ -6,8 +6,8 @@ old-location: netvista\rilgetpreferencedoperatorlistformat.htm
 tech.root: netvista
 ms.assetid: 77526649-dc98-4c40-b348-6e5620f6e4eb
 ms.date: 05/02/2018
+keywords: ["RILGETPREFERENCEDOPERATORLISTFORMAT enumeration"]
 ms.keywords: RILGETPREFERENCEDOPERATORLISTFORMAT, RILGETPREFERENCEDOPERATORLISTFORMAT enumeration [Network Drivers Starting with Windows Vista], RIL_OPFORMAT_MAX, RIL_OPFORMAT_NUM, RIL_OPFORMAT_SHORT, netvista.rilgetpreferencedoperatorlistformat, ntddrilapitypes/RILGETPREFERENCEDOPERATORLISTFORMAT, ntddrilapitypes/RIL_OPFORMAT_MAX, ntddrilapitypes/RIL_OPFORMAT_NUM, ntddrilapitypes/RIL_OPFORMAT_SHORT
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILGETPREFERENCEDOPERATORLISTFORMAT"
 req.header: rilapitypes.h

@@ -4,7 +4,7 @@ title: IModelMethod::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 8168f869-ff67-4de9-be1c-57274755a230
 ms.date: 08/13/2018
-ms.topic: method
+keywords: ["IModelMethod::AddRef"]
 f1_keywords:
  - "dbgmodel/IModelMethod.AddRef"
 ms.keywords: IModelMethod::AddRef, AddRef, IModelMethod.AddRef, IModelMethod::AddRef, IModelMethod.AddRef

@@ -4,7 +4,7 @@ title: IDebugHostField::GetValue (dbgmodel.h)
 description: For fields which have a constant value defined within the symbolic information, the GetValue method will return the constant value of the field. 
 ms.assetid: 1ecd00e7-869f-4e87-8c2f-3d4abea74698
 ms.date: 09/12/2018
-ms.topic: method
+keywords: ["IDebugHostField::GetValue"]
 f1_keywords:
  - "dbgmodel/IDebugHostField.GetValue"
 ms.keywords: IDebugHostField::GetValue, GetValue, IDebugHostField.GetValue, IDebugHostField::GetValue, IDebugHostField.GetValue

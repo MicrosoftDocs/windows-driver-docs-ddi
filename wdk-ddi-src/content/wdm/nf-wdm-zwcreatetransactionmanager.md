@@ -6,8 +6,8 @@ old-location: kernel\zwcreatetransactionmanager.htm
 tech.root: kernel
 ms.assetid: 9c9f0a8b-7add-4ab1-835d-39f508ce32a9
 ms.date: 04/30/2018
+keywords: ["ZwCreateTransactionManager function"]
 ms.keywords: NtCreateTransactionManager, ZwCreateTransactionManager, ZwCreateTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwcreatetransactionmanager, ktm_ref_56fad0b5-053d-4d65-bdb3-8c2d09fee541.xml, wdm/NtCreateTransactionManager, wdm/ZwCreateTransactionManager
-ms.topic: function
 f1_keywords:
  - "wdm/ZwCreateTransactionManager"
 req.header: wdm.h

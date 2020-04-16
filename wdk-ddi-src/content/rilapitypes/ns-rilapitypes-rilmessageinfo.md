@@ -6,8 +6,8 @@ old-location: netvista\rilmessageinfo.htm
 tech.root: netvista
 ms.assetid: 689b4abc-13ee-4d4a-8b2e-bb0be7cc6672
 ms.date: 05/02/2018
+keywords: ["RILMESSAGEINFO structure"]
 ms.keywords: "*LPRILMESSAGEINFO, RILMESSAGEINFO, RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinfo, ntddrilapitypes/RILMESSAGEINFO"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILMESSAGEINFO"
 req.header: rilapitypes.h

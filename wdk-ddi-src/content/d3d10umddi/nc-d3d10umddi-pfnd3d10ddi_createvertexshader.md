@@ -5,8 +5,8 @@ description: The CreateVertexShader(D3D10) function creates a vertex shader.
 old-location: display\createvertexshader_d3d10_.htm
 ms.assetid: d6e4c3f9-1ee6-4484-913d-9a3dca64e627
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CREATEVERTEXSHADER callback function"]
 ms.keywords: CreateVertexShader, CreateVertexShader callback function [Display Devices], PFND3D10DDI_CREATEVERTEXSHADER, PFND3D10DDI_CREATEVERTEXSHADER callback, UserModeDisplayDriverDx10_Functions_bb19d867-d11f-43bb-8380-2a44f231900a.xml, d3d10umddi/CreateVertexShader, display.createvertexshader_d3d10_
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -67,6 +67,10 @@ An array of CONST UINT tokens that make up the shader code. The first token in t
 A handle to the driver's private data for the vertex shader. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_calcprivateshadersize">CalcPrivateShaderSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader object.
 
 ### -param Arg4
+
+*hRTShader* [in]
+
+A handle to the vertex shader that the driver should use anytime it calls back into the Direct3D runtime. 
 
 ### -param Arg5
 

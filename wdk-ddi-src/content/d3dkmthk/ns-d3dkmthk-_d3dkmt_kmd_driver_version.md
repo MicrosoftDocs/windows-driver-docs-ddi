@@ -4,7 +4,7 @@ title: _D3DKMT_KMD_DRIVER_VERSION (d3dkmthk.h)
 description: Contains the kernel mode driver version.
 ms.assetid: 2c615115-1702-4682-b927-6546f6acd097
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DKMT_KMD_DRIVER_VERSION structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_KMD_DRIVER_VERSION"
 ms.keywords: _D3DKMT_KMD_DRIVER_VERSION, D3DKMT_KMD_DRIVER_VERSION,

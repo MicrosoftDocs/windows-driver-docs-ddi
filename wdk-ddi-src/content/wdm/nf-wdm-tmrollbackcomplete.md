@@ -6,8 +6,8 @@ old-location: kernel\tmrollbackcomplete.htm
 tech.root: kernel
 ms.assetid: 626bae87-8e5c-4d2a-8942-bddb2f6baa6b
 ms.date: 04/30/2018
+keywords: ["TmRollbackComplete function"]
 ms.keywords: TmRollbackComplete, TmRollbackComplete routine [Kernel-Mode Driver Architecture], kernel.tmrollbackcomplete, ktm_ref_57ef03c4-5d49-4871-a1ef-c6083c9680a8.xml, wdm/TmRollbackComplete
-ms.topic: function
 f1_keywords:
  - "wdm/TmRollbackComplete"
 req.header: wdm.h

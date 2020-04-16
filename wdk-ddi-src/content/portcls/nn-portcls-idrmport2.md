@@ -6,8 +6,8 @@ old-location: audio\idrmport2.htm
 tech.root: audio
 ms.assetid: c0fa64cf-bfc7-415c-a30d-50bf6182cc3d
 ms.date: 05/08/2018
+keywords: ["IDrmPort2 interface"]
 ms.keywords: IDrmPort2, IDrmPort2 interface [Audio Devices], IDrmPort2 interface [Audio Devices],described, audio.idrmport2, audmp-routines_93a46344-36f2-49ea-9091-93b4e810f195.xml, portcls/IDrmPort2
-ms.topic: interface
 f1_keywords:
  - "portcls/IDrmPort2"
 req.header: portcls.h

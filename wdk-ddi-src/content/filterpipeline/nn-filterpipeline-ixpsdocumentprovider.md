@@ -6,8 +6,8 @@ old-location: print\ixpsdocumentprovider.htm
 tech.root: print
 ms.assetid: e1fac90f-5c21-4857-a52f-04c5366d7b18
 ms.date: 04/20/2018
+keywords: ["IXpsDocumentProvider interface"]
 ms.keywords: IXpsDocumentProvider, IXpsDocumentProvider interface [Print Devices], IXpsDocumentProvider interface [Print Devices],described, filterpipeline/IXpsDocumentProvider, filterpipeline_5c7b0fb9-f191-47c7-b0fc-96371c21f993.xml, print.ixpsdocumentprovider
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IXpsDocumentProvider"
 req.header: filterpipeline.h
@@ -53,7 +53,7 @@ The <code>IxpsDocumentProvider</code> interface provides interfaces to consume p
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsDocumentProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsDocumentProvider</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IXpsDocumentProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsDocumentProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

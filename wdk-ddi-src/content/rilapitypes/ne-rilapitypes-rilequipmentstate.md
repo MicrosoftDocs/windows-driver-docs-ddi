@@ -6,8 +6,8 @@ old-location: netvista\rilequipmentstate.htm
 tech.root: netvista
 ms.assetid: aa00ebc4-c8de-4a73-ad43-77f4e173e617
 ms.date: 05/02/2018
+keywords: ["RILEQUIPMENTSTATE enumeration"]
 ms.keywords: RILEQUIPMENTSTATE, RILEQUIPMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_EQSTATE_FULL, RIL_EQSTATE_MAX, RIL_EQSTATE_SHUTDOWN, netvista.rilequipmentstate, ntddrilapitypes/RILEQUIPMENTSTATE, ntddrilapitypes/RIL_EQSTATE_FULL, ntddrilapitypes/RIL_EQSTATE_MAX, ntddrilapitypes/RIL_EQSTATE_SHUTDOWN
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILEQUIPMENTSTATE"
 req.header: rilapitypes.h

@@ -4,7 +4,7 @@ title: _EFI_GET_VARIABLE_IN (treevariableservice.h)
 description: 
 ms.assetid: d46c400b-6fa3-459b-96f4-5075269881fa
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_EFI_GET_VARIABLE_IN structure"]
 f1_keywords:
  - "treevariableservice/_EFI_GET_VARIABLE_IN"
 ms.keywords: _EFI_GET_VARIABLE_IN, EFI_GET_VARIABLE_IN, *PEFI_GET_VARIABLE_IN, 

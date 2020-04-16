@@ -6,8 +6,8 @@ old-location: netvista\ndismwritelogdata.htm
 tech.root: netvista
 ms.assetid: 38923308-0268-49b3-9f9d-0fa2b62f7533
 ms.date: 05/02/2018
+keywords: ["NdisMWriteLogData function"]
 ms.keywords: NdisMWriteLogData, NdisMWriteLogData function [Network Drivers Starting with Windows Vista], miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml, ndis/NdisMWriteLogData, netvista.ndismwritelogdata
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMWriteLogData"
 req.header: ndis.h

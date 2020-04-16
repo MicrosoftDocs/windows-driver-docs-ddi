@@ -6,8 +6,8 @@ old-location: wdf\wdfdevicemapiospace.htm
 tech.root: wdf
 ms.assetid: 13ECF87D-13F7-4154-A17E-D49A2BB0F83A
 ms.date: 02/26/2018
+keywords: ["WdfDeviceMapIoSpace function"]
 ms.keywords: WdfDeviceMapIoSpace, WdfDeviceMapIoSpace function, wdf.wdfdevicemapiospace, wdfdevice/WdfDeviceMapIoSpace
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceMapIoSpace"
 req.header: wdfdevice.h

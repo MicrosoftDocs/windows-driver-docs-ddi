@@ -4,7 +4,7 @@ title: _RTL_SEGMENT_HEAP_MEMORY_SOURCE (ntifs.h)
 description: The RTL_SEGMENT_HEAP_MEMORY_SOURCE structure specifies the segment heap memory source.
 ms.assetid: ff6415d1-6ded-4470-99c7-2825c1d01cb3
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_RTL_SEGMENT_HEAP_MEMORY_SOURCE structure"]
 f1_keywords:
  - "ntifs/_RTL_SEGMENT_HEAP_MEMORY_SOURCE"
 ms.keywords: _RTL_SEGMENT_HEAP_MEMORY_SOURCE, RTL_SEGMENT_HEAP_MEMORY_SOURCE, *PRTL_SEGMENT_HEAP_MEMORY_SOURCE, 

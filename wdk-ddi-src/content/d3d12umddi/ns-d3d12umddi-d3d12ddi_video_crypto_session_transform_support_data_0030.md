@@ -5,8 +5,8 @@ description: Video crypto session transform support data.
 old-location: display\d3d12ddi-video-crypto-session-transform-support-data-0030.htm
 ms.assetid: fb83a03e-56d9-4daf-93c1-407744ad134a
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030 structure"]
 ms.keywords: D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030, D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030, display.d3d12ddi-video-crypto-session-transform-support-data-0030
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_CRYPTO_SESSION_TRANSFORM_SUPPORT_DATA_0030"
 req.header: d3d12umddi.h

@@ -5,7 +5,7 @@ description: The NDIS_RFC6877_464XLAT_OFFLOAD structure contains 464XLAT hardwar
 tech.root: netvista
 ms.assetid: d94bee25-3b7f-43d1-8319-abf41e6e4b3c
 ms.date: 05/22/2018
-ms.topic: struct
+keywords: ["_NDIS_RFC6877_464XLAT_OFFLOAD structure"]
 f1_keywords:
  - "ntddndis/_NDIS_RFC6877_464XLAT_OFFLOAD"
 ms.keywords: _NDIS_RFC6877_464XLAT_OFFLOAD, NDIS_RFC6877_464XLAT_OFFLOAD, *PNDIS_RFC6877_464XLAT_OFFLOAD, 

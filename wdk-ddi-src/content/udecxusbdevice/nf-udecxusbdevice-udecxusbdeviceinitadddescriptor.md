@@ -6,8 +6,8 @@ old-location: buses\udecxusbdeviceinitadddescriptor.htm
 tech.root: usbref
 ms.assetid: BC43B6AB-E34C-45A9-B666-1B323104FC48
 ms.date: 05/07/2018
+keywords: ["UdecxUsbDeviceInitAddDescriptor function"]
 ms.keywords: UdecxUsbDeviceInitAddDescriptor, UdecxUsbDeviceInitAddDescriptor function [Buses], buses.udecxusbdeviceinitadddescriptor, udecxusbdevice/UdecxUsbDeviceInitAddDescriptor
-ms.topic: function
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceInitAddDescriptor"
 req.header: udecxusbdevice.h

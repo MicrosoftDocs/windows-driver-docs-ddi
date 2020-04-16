@@ -6,8 +6,8 @@ old-location: storage\disk_int13_info.htm
 tech.root: storage
 ms.assetid: 8a9c335a-1c5f-4379-83bb-21391ae46a3c
 ms.date: 03/29/2018
+keywords: ["_DISK_INT13_INFO structure"]
 ms.keywords: "*PDISK_INT13_INFO, DISK_INT13_INFO, DISK_INT13_INFO structure [Storage Devices], PDISK_INT13_INFO, PDISK_INT13_INFO structure pointer [Storage Devices], _DISK_INT13_INFO, ntdddisk/DISK_INT13_INFO, ntdddisk/PDISK_INT13_INFO, storage.disk_int13_info, structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml"
-ms.topic: struct
 f1_keywords:
  - "ntdddisk/DISK_INT13_INFO"
 req.header: ntdddisk.h

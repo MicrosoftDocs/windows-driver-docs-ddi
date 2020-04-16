@@ -6,8 +6,8 @@ old-location: pci\sriov_query_probed_bars_2.htm
 tech.root: PCI
 ms.assetid: e0c079aa-8adf-42c9-a4ac-bfc623471964
 ms.date: 02/24/2018
+keywords: ["SRIOV_QUERY_PROBED_BARS_2 callback"]
 ms.keywords: "*PSRIOV_QUERY_PROBED_BARS_2, *PSRIOV_QUERY_PROBED_BARS_2 callback function pointer [Buses], PCI.sriov_query_probed_bars_2, SRIOV_QUERY_PROBED_BARS_2, SriovQueryProbedBars2, SriovQueryProbedBars2 callback function [Buses], pcivirt/SriovQueryProbedBars2"
-ms.topic: callback
 f1_keywords:
  - "pcivirt/*PSRIOV_QUERY_PROBED_BARS_2"
 req.header: pcivirt.h
@@ -35,7 +35,7 @@ api_type:
 api_location:
 - Pcivirt.h
 api_name:
-- *PSRIOV_QUERY_PROBED_BARS_2
+- PSRIOV_QUERY_PROBED_BARS_2
 product:
 - Windows
 targetos: Windows

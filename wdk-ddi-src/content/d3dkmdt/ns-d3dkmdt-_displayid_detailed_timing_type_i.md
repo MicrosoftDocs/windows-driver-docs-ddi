@@ -6,8 +6,8 @@ old-location: display\displayid_detailed_timing_type_i.htm
 tech.root: display
 ms.assetid: 7b3fa3a4-a77a-4c5f-b157-1fbdc3a7be33
 ms.date: 05/10/2018
+keywords: ["_DISPLAYID_DETAILED_TIMING_TYPE_I structure"]
 ms.keywords: DISPLAYID_DETAILED_TIMING_TYPE_I, DISPLAYID_DETAILED_TIMING_TYPE_I structure [Display Devices], DmStructs_75d5fd93-c7ae-4a57-9843-427c53a9416f.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I, d3dkmdt/DISPLAYID_DETAILED_TIMING_TYPE_I, display.displayid_detailed_timing_type_i
-ms.topic: struct
 f1_keywords:
  - "d3dkmdt/DISPLAYID_DETAILED_TIMING_TYPE_I"
 req.header: d3dkmdt.h

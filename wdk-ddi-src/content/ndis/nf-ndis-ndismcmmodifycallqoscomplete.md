@@ -6,8 +6,8 @@ old-location: netvista\ndismcmmodifycallqoscomplete.htm
 tech.root: netvista
 ms.assetid: 66157bc7-8094-481f-8aae-a438031b61d0
 ms.date: 05/02/2018
+keywords: ["NdisMCmModifyCallQoSComplete macro"]
 ms.keywords: NdisMCmModifyCallQoSComplete, NdisMCmModifyCallQoSComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_4b742f65-7e96-4e8b-aa3d-64f9c90aa4be.xml, ndis/NdisMCmModifyCallQoSComplete, netvista.ndismcmmodifycallqoscomplete
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisMCmModifyCallQoSComplete"
 req.header: ndis.h

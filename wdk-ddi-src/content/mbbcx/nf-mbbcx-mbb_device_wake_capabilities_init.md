@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: ee266a4a-b7a2-4959-8bea-beb6309d9fed
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: function
+keywords: ["MBB_DEVICE_WAKE_CAPABILITIES_INIT function"]
 f1_keywords:
  - "mbbcx/MBB_DEVICE_WAKE_CAPABILITIES_INIT"
 ms.keywords: MBB_DEVICE_WAKE_CAPABILITIES_INIT

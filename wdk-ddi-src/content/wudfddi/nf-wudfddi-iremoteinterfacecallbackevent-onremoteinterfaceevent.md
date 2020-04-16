@@ -6,8 +6,8 @@ old-location: wdf\iremoteinterfacecallbackevent_onremoteinterfaceevent.htm
 tech.root: wdf
 ms.assetid: 6cee6662-2eef-4caf-ab70-780748521ba9
 ms.date: 02/26/2018
+keywords: ["IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent"]
 ms.keywords: IRemoteInterfaceCallbackEvent interface,OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent, IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, OnRemoteInterfaceEvent, OnRemoteInterfaceEvent method, OnRemoteInterfaceEvent method,IRemoteInterfaceCallbackEvent interface, UMDFIoTargetObjectRef_4adfa540-b8f4-416f-b8c2-f0aec6e87619.xml, umdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, wdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, wudfddi/IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent
-ms.topic: method
 f1_keywords:
  - "wudfddi/IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent"
 req.header: wudfddi.h

@@ -6,8 +6,8 @@ old-location: netvista\wwan_set_uicc_reset.htm
 tech.root: netvista
 ms.assetid: 33711459-70C8-43D2-974D-B90EC0DD8ED6
 ms.date: 05/02/2018
+keywords: ["_WWAN_SET_UICC_RESET structure"]
 ms.keywords: "*PWWAN_SET_UICC_RESET, PWWAN_SET_UICC_RESET, PWWAN_SET_UICC_RESET structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_UICC_RESET, WWAN_SET_UICC_RESET structure [Network Drivers Starting with Windows Vista], _WWAN_SET_UICC_RESET, netvista.wwan_set_uicc_reset, wwan/PWWAN_SET_UICC_RESET, wwan/WWAN_SET_UICC_RESET"
-ms.topic: struct
 f1_keywords:
  - "wwan/WWAN_SET_UICC_RESET"
 req.header: wwan.h

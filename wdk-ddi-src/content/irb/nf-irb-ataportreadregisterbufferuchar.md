@@ -6,8 +6,8 @@ old-location: storage\ataportreadregisterbufferuchar.htm
 tech.root: storage
 ms.assetid: adc6724b-f3dc-4605-8ee1-198c88bc3fcd
 ms.date: 03/29/2018
+keywords: ["AtaPortReadRegisterBufferUchar function"]
 ms.keywords: AtaPortReadRegisterBufferUchar, AtaPortReadRegisterBufferUchar routine [Storage Devices], atartns_5c57e652-3b37-4673-b5cf-fbcdf38853ad.xml, irb/AtaPortReadRegisterBufferUchar, storage.ataportreadregisterbufferuchar
-ms.topic: function
 f1_keywords:
  - "irb/AtaPortReadRegisterBufferUchar"
 req.header: irb.h

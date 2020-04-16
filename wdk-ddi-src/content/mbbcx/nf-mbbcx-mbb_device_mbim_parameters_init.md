@@ -5,7 +5,7 @@ description: The MBB_DEVICE_MBIM_PARAMETERS_INIT method initializes a MBB_DEVICE
 tech.root: netvista
 ms.assetid: 679409cd-b6bd-4eb7-9f15-d8cd8216e785
 ms.date: 02/06/2019
-ms.topic: function
+keywords: ["MBB_DEVICE_MBIM_PARAMETERS_INIT function"]
 f1_keywords:
  - "mbbcx/-	MBB_DEVICE_MBIM_PARAMETERS_INIT"
 ms.keywords: MBB_DEVICE_MBIM_PARAMETERS_INIT

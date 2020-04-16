@@ -6,8 +6,8 @@ old-location: debugger\idebugplmclient_launchplmpackagefordebugwide.htm
 tech.root: debugger
 ms.assetid: DE11B4A5-5AE3-4369-AF6D-6CE34B9AAFAB
 ms.date: 05/03/2018
+keywords: ["IDebugPlmClient::LaunchPlmPackageForDebugWide"]
 ms.keywords: IDebugPlmClient interface [Windows Debugging],LaunchPlmPackageForDebugWide method, IDebugPlmClient.LaunchPlmPackageForDebugWide, IDebugPlmClient::LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide method [Windows Debugging], LaunchPlmPackageForDebugWide method [Windows Debugging],IDebugPlmClient interface, dbgeng/IDebugPlmClient::LaunchPlmPackageForDebugWide, debugger.idebugplmclient_launchplmpackagefordebugwide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugPlmClient.LaunchPlmPackageForDebugWide"
 req.header: dbgeng.h

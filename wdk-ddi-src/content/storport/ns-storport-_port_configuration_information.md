@@ -1,13 +1,12 @@
 ---
 UID: NS:storport._PORT_CONFIGURATION_INFORMATION
 title: _PORT_CONFIGURATION_INFORMATION (storport.h)
-description: PORT_CONFIGURATION_INFORMATION (SCSI) contains configuration information for an HBA.
-old-location: storage\port_configuration_information__scsi_.htm
+description: PORT_CONFIGURATION_INFORMATION contains configuration information for a host bus adapter (HBA).
 tech.root: storage
 ms.assetid: f3c9d851-d30d-4757-82a3-225ee67528c1
-ms.date: 03/29/2018
-ms.keywords: "*PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], _PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices], srb/PPORT_CONFIGURATION_INFORMATION, srb/_PORT_CONFIGURATION_INFORMATION, storage.port_configuration_information__scsi_, structs-scsiport_1a472219-5839-443c-a3a1-26c9708b3b18.xml"
-ms.topic: struct
+ms.date: 04/03/2020
+keywords: ["_PORT_CONFIGURATION_INFORMATION structure"]
+ms.keywords: "*PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], _PORT_CONFIGURATION_INFORMATION, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices]"
 f1_keywords:
  - "storport/PORT_CONFIGURATION_INFORMATION"
 req.header: storport.h
@@ -44,422 +43,372 @@ req.typenames: PORT_CONFIGURATION_INFORMATION, *PPORT_CONFIGURATION_INFORMATION
 
 # _PORT_CONFIGURATION_INFORMATION structure
 
-
 ## -description
 
-
-PORT_CONFIGURATION_INFORMATION (SCSI) contains configuration information for an HBA. The OS-specific port driver allocates and initializes this structure, supplies as much HBA-specific configuration information as possible, and passes the structure to the miniport driver's <i>HwScsiFindAdapter</i> routine. The port driver gets some of the information for this structure from the miniport driver's HW_INITIALIZATION_DATA structure. The miniport driver's <i>HwScsiFindAdapter</i> routine is responsible for determining whether the miniport driver can support the HBA and, if so, for filling in the pertinent remaining information in the PORT_CONFIGURATION_INFORMATION structure.
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+PORT_CONFIGURATION_INFORMATION contains configuration information for a host bus adapter (HBA).
 
 ## -struct-fields
 
-
-
-
 ### -field Length
 
-Specifies the size of this structure in bytes, as returned by <b>sizeof</b>(). In effect, this member, which is always initialized by the OS-specific port driver, indicates the version of this structure used by the port driver.
-
+Size, in bytes, of the **PORT_CONFIGURATION_INFORMATION** structure. Initialized by the Storport driver, this member also serves as the structure version.
 
 ### -field SystemIoBusNumber
 
-Specifies the system-assigned number of the I/O bus to which the HBA is connected. The OS-specific port driver always initializes this member. Its value is system-assigned because the platform might have several I/O buses of the given <b>AdapterInterfaceType</b>.
-
+System-assigned number of the I/O bus to which the HBA is connected. Miniport drivers must not modify this member. Its value is system-assigned because the platform might have several I/O buses of the specified **AdapterInterfaceType**.
 
 ### -field AdapterInterfaceType
 
-Identifies the I/O bus interface. The OS-specific port driver always sets this member to the value specified by the miniport driver in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a> structure.
-
+The I/O bus interface. Storport initializes this member to the value specified by the miniport driver in the [**HW_INITIALIZATION_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data~r1) structure. Miniport drivers must not modify this member.
 
 ### -field BusInterruptLevel
 
-Specifies the bus-relative interrupt request level. The OS-specific port driver makes no assumptions about the HBA's interrupt usage, so the default value is zero. Depending on the given <b>AdapterInterfaceType</b> and HBA, the value set for this member can correspond to the IRQL for the bus, such as for <b>Isa</b> and <b>MicroChannel</b> type buses. Drivers of <b>Eisa</b> HBAs must set this value to the bus-relative IRQL for the HBA if the adapter is configured for level-sensitive interrupts.
-
+The bus-relative interrupt request level. Storport makes no assumptions about the HBA's interrupt usage, so the default value is zero. Storport initializes this member and miniport drivers must not modify it.
 
 ### -field BusInterruptVector
 
-Specifies the bus-relative vector returned by the HBA. The OS-specific port driver makes no assumptions about the HBA's interrupt usage, so the default value is zero. This member is irrelevant to drivers that set up the <b>BusInterruptLevel</b> member for their HBAs. It is pertinent for HBAs on types of I/O buses that use interrupt vectors, such as <b>PCIBus</b>.
-
+The bus-relative vector returned by the HBA. Storport makes no assumptions about the HBA's interrupt usage, so the default value is zero. This member is irrelevant to drivers that set up the **BusInterruptLevel** member for their HBAs. It is pertinent for HBAs on types of I/O buses that use interrupt vectors, such as **PCIBus**. Storport initializes this member and miniport drivers must not modify it.
 
 ### -field InterruptMode
 
-Specifies whether the HBA uses <b>LevelSensitive</b> or <b>Latched</b> (sometimes called "edge-triggered") interrupts. The OS-specific port driver initializes this member to an appropriate value for the bus and the device--for example, <b>LevelSensitive</b> for <b>PCIBus</b>. Drivers of <b>Eisa</b> HBAs must reset this value if the adapter is configured for level-sensitive interrupts, as must drivers of HBAs on I/O buses that use level-sensitive interrupts, such as <b>MicroChannel</b> type buses.
-
+Specifies whether the HBA uses **LevelSensitive** or **Latched** (sometimes called "edge-triggered") interrupts. Storport initializes this member to an appropriate value for the bus and the device--for example, **LevelSensitive** for **PCIBus**. Storport initializes this member and miniport drivers must not modify it.
 
 ### -field MaximumTransferLength
 
-Specifies the maximum number of bytes the HBA can transfer in a single transfer operation. By default, the value of this member is SP_UNINITIALIZED_VALUE, which indicates an unlimited maximum transfer size. If its HBA has more limited transfer support, a miniport driver must reset this member according to the HBA's transfer capacity. If a miniport driver's HwScsiInterrupt routine cannot disable interrupts on the HBA, this member can be adjusted during driver development to ensure that time spent in that miniport driver's ISR does not cause the mouse to "jump" or serial/parallel throughput to drop to a user-noticeable level.
-
+Maximum number of bytes the HBA can transfer in a single transfer operation. By default, the value of this member is SP_UNINITIALIZED_VALUE, which indicates an unlimited maximum transfer size. If its HBA has more limited transfer support, a miniport driver must reset this member according to the HBA's transfer capacity. If a miniport driver's [*HwStorInterrupt*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt) routine cannot disable interrupts on the HBA, this member can be adjusted during driver development to ensure that time spent in that miniport driver's ISR does not degrade overall system performance.
 
 ### -field NumberOfPhysicalBreaks
 
-Specifies the maximum number of breaks between address ranges that a data buffer can have if the HBA supports scatter/gather. In other words, the number of scatter/gather lists minus one. By default, the value of this member is SP_UNINITIALIZED_VALUE, which indicates the HBA can support an unlimited number of physical discontiguities. If the port driver sets a value for this member, the miniport driver can adjust the value lower but no higher. If this member is SP_UNINITIALIZED_VALUE, the miniport driver must reset this member according to the HBA's scatter/gather capacity, with zero representing no scatter/gather support.
-
+Maximum number of physical pages the storage adapter can manage in a single transfer (in other words, the extent of its scatter/gather support). By default, the value of this member is 0x11. The miniport driver must reset this member according to the storage adapter's capability.
 
 ### -field DmaChannel
 
-Specifies the DMA channel used by a subordinate HBA. By default, the value of this member is SP_UNINITIALIZED_VALUE. If the HBA uses a system DMA controller and the given <b>AdapterInterfaceType</b> is any value except <b>MicroChannel</b>, the miniport driver must reset this member.
-
+The DMA channel used by a subordinate HBA. By default, the value of this member is SP_UNINITIALIZED_VALUE. Storport initializes this member and miniport drivers must not modify it.
 
 ### -field DmaPort
 
-Specifies the DMA port used by a subordinate HBA. By default, the value of this member is SP_UNINITIALIZED_VALUE. If the HBA uses a system DMA controller and the given <b>AdapterInterfaceType</b> is <b>MicroChannel</b>, the miniport driver must set this member.
-
+The DMA port used by a subordinate HBA. By default, the value of this member is SP_UNINITIALIZED_VALUE. Storport initializes this member and miniport drivers must not modify it.
 
 ### -field DmaWidth
 
-Specifies the width of DMA transfers if the HBA uses DMA. By default, the value of this member is zero. If its HBA does DMA, the miniport driver must reset this member to one of the following: <b>Width8Bits</b>, <b>Width16Bits</b>, or <b>Width32Bits</b>.
-
+Width of DMA transfers if the HBA uses DMA. By default, the value of this member is zero. Storport initializes this member and miniport drivers must not modify it.
 
 ### -field DmaSpeed
 
-Specifies the DMA data-transfer speed for <b>Eisa</b> HBAs. By default, the value of this member specifies compatibility timing. Acceptable values for this member are any of the following: <b>Compatible</b>, <b>TypeA</b>, <b>TypeB</b>, or <b>TypeC</b>.
-
+The DMA data-transfer speed for **Eisa** HBAs. Storport initializes this member and miniport drivers must not modify it.
 
 ### -field AlignmentMask
 
-Contains a mask indicating the alignment restrictions for buffers required by the HBA for transfer operations. Valid mask values are also restricted by characteristics of the memory managers on different versions of Windows. The mask values that are permitted under Windows 95 or Windows 98 are 0 (byte aligned), 1 (word aligned) or 3 (DWORD aligned). Under Windows NT and Windows 2000 the valid mask values are 0 (byte aligned), 1 (word aligned), 3 (DWORD aligned) and 7 (double DWORD aligned). The miniport driver should set this mask if the HBA supports scatter/gather. 
+Mask indicating the alignment restrictions for buffers required by the HBA for transfer operations. Some example valid mask values are 0 (byte aligned), 1 (word aligned), 3 (DWORD aligned) and 7 (double DWORD aligned). The miniport driver should set this mask if the HBA supports scatter/gather. The following allowed alignment mask values are defined in wdm.h:
 
+| Value | Meaning |
+| ----- | ------- |
+| FILE_BYTE_ALIGNMENT (0x00000000)     | Data is byte aligned (no alignment requirements for the device) |
+| FILE_WORD_ALIGNMENT (0x00000001)     | Data must be aligned on a 2-byte boundary.  |
+| FILE_LONG_ALIGNMENT (0x00000003)     | Data must be aligned on a 4-byte boundary.  |
+| FILE_QUAD_ALIGNMENT (0x00000007)     | Data must be aligned on a 8-byte boundary.  |
+| FILE_OCTA_ALIGNMENT (0x0000000f)     | Data must be aligned on a 16-byte boundary. |
+| FILE_32_BYTE_ALIGNMENT (0x0000001f)  | Data must be aligned on a 32-byte boundary.  |
+| FILE_64_BYTE_ALIGNMENT (0x0000003f)  | Data must be aligned on a 64-byte boundary.  |
+| FILE_128_BYTE_ALIGNMENT (0x0000007f) | Data must be aligned on a 128-byte boundary.  |
+| FILE_256_BYTE_ALIGNMENT (0x000000ff) | Data must be aligned on a 256-byte boundary.  |
+| FILE_512_BYTE_ALIGNMENT (0x000001ff) | Data must be aligned on a 512-byte boundary.  |
 
 ### -field NumberOfAccessRanges
 
-Specifies the number of <b>AccessRanges</b> elements in the array, described next. The OS-specific port driver always sets this member to the value passed in the HW_INITIALIZATION_DATA structure when the miniport driver called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>.
-
+Specifies the number of **AccessRanges** elements in the array.
 
 ### -field AccessRanges
 
- 
-
+Pointer to an array of [**ACCESS_RANGE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_access_range)-type elements. Storport allocates memory for the access ranges and initializes this member. Miniport drivers must not modify this member.
 
 ### -field MiniportDumpData
 
- 
-
-
-### -field Reserved
-
-Reserved for system use and not available for use by miniport drivers.
-
+Pointer to a dump context used during a crashdump or a hibernation.
 
 ### -field NumberOfBuses
 
-Specifies the number of SCSI buses controlled by the HBA. By default, the value of this member is zero.
-
+Number of buses controlled by the adapter. By default, the value of this member is zero. This member has a maximum value of SCSI_MAXIMUM_BUSES_PER_ADAPTER.
 
 ### -field InitiatorBusId
 
-Indicates the initiator bus ID. If the input <b>InitiatorBusId</b>[0] has the value zero, the miniport driver can assign a default value if its HBA does not require the use of particular value(s) determined by querying the HBA. Otherwise, the miniport driver should use any nonzero value assigned by the port driver if possible. Every miniport driver must update <b>InitiatorBusId</b> specifications to match what its HBA uses, if necessary querying the HBA to determine the appropriate values(s).
-
-A miniport driver must set an entry for each SCSI bus supported by the HBA, as indicated by the value of <b>NumberOfBuses</b>.
-
+The initiator bus ID. If the input **InitiatorBusId[0]** has the value SP_UNINITIALIZED_VALUE, the miniport driver can assign a default value if its HBA does not require the use of particular value(s) determined by querying the HBA. Otherwise, the miniport driver should use any nonzero value assigned by the port driver if possible. Typically, this value is bounded by the value set for **MaximumNumberOfTargets**.
 
 ### -field ScatterGather
 
-Indicates when <b>TRUE</b> that the HBA supports scatter/gather. When <b>FALSE</b> the HBA does not support scatter/gather. By default, the value of this member is <b>FALSE</b>.
-
+When **TRUE**, the HBA supports scatter/gather. Storport initializes this member to **TRUE** because its miniport drivers must support scatter/gather. Miniport drivers that work with Storport must not modify this value. (NOTE: in Windows versions prior to Windows Server 2008 R2 and Windows 7, this member is set to FALSE. In this case, miniport drivers must set this member to **TRUE**. Not setting this member to **TRUE** will cause the HBA device to fail to start.)
 
 ### -field Master
 
-Indicates when <b>TRUE</b> that the HBA is a bus master. When <b>FALSE</b>, the HBA is not a bus master. By default, the value of this member is <b>FALSE</b>.
-
+When **TRUE**, the HBA is a master bus. Storport initializes this member to **TRUE** because its miniport drivers must support bus-mastering DMA. Miniport drivers that work with Storport must not modify this value. (NOTE: in Windows versions prior to Windows Server 2008 R2 and Windows 7, this member is set to FALSE. In this case, miniport drivers must set this member to **TRUE**. Not setting this member to **TRUE** will cause the HBA device to fail to start.)
 
 ### -field CachesData
 
-Indicates when <b>TRUE</b> that the HBA caches data or maintains cached state on the peripherals. When <b>FALSE</b> the HBA does not cache data or maintain cached state on the peripherals. By default, the value of this member is <b>FALSE</b>. If this is reset to <b>TRUE</b>, the OS-specific port driver notifies the miniport driver when certain system events occur, such as file system cache flushes and system shutdown. For example, if a controller on the bus mirrors two disks, the miniport driver would normally set this member to <b>TRUE</b>.
-
+When **TRUE**, the HBA caches data or maintains cached state on the peripherals. When **FALSE**, the HBA does not cache data or maintain cached state on the peripherals. By default, the value of this member is **FALSE**. If this is reset to **TRUE**, Storport notifies the miniport driver when certain system events occur, such as file system cache flushes.
 
 ### -field AdapterScansDown
 
-Indicates when <b>TRUE</b> that the BIOS for the HBA scans for SCSI bus targets from seven to zero. When <b>FALSE</b>, the BIOS for the HBA looks for SCSI bus targets, starting with an ID zero and scanning upwards to (but not including) <b>MaximumTargetIds</b>. By default, the value of <b>AdapterScansDown</b> is <b>FALSE</b>.
-
+Storport ignores this member.
 
 ### -field AtdiskPrimaryClaimed
 
-Indicates when <b>TRUE</b> that the primary "AT" (WD1003-compatible) disk address range, 0x1F0 to 0x1FF, has been claimed in the registry by another driver for its device. The OS-specific port driver always initializes this member. If the input value of this member is <b>TRUE</b>, a miniport driver should assume that an already loaded driver has claimed the device range. If the input value is <b>FALSE</b>, a miniport driver can claim the address range for an HBA that emulates an "AT" disk controller and reset this member to <b>TRUE</b>, thereby preventing access to this range by the "AT" disk driver or subsequently loaded miniport drivers.
-
+Storport does not use this member, and its miniport drivers must not set it.
 
 ### -field AtdiskSecondaryClaimed
 
-Indicates when <b>TRUE</b> that the secondary AT disk address range, 0x170 to 0x17F has been claimed in the registry by another driver for its device. When <b>FALSE</b> the secondary AT disk address range has not been claimed in the registry by another driver. The OS-specific port driver always initializes this member. Miniport drivers should treat this member as for <b>AtdiskPrimaryClaimed</b>.
-
+Storport does not use this member, and its miniport drivers must not set it.
 
 ### -field Dma32BitAddresses
 
-Indicates when <b>TRUE</b> that the HBA has 32 address lines and can access memory with physical addresses greater than 0x00FFFFFF. When <b>FALSE</b> the HBA has either a number of DMA address lines other than 32. By default, the value of this member is <b>FALSE</b>. If the miniport driver sets <b>Dma64BitAddresses</b>, this member must be <b>FALSE</b>.
-
+When **TRUE**, the HBA has 32 address lines and can access memory with physical addresses greater than 0x00FFFFFF. Storport initializes this member to **TRUE**, because its miniport drivers must support bus-width DMA. Miniport drivers must not modify this value since this is the default DMA addressing if a value for **Dma64BitAddresses** is not set. NOTE: If only 32-bit addresses are supported by the device hardware, then **Dma64BitAddresses** must be set to 0.
 
 ### -field DemandMode
 
-Indicates when <b>TRUE</b> that the system DMA controller should be programmed for demand-mode rather than single-cycle operations. If the HBA is not a subordinate device, this member should be <b>FALSE</b>.
-
+Indicates whether the system DMA controller should be programmed for demand-mode rather than single-cycle operations. Storport initializes this member to **FALSE**, because it does not support subordinate-mode DMA. Miniport drivers must not modify this value.
 
 ### -field MapBuffers
 
-Indicates when <b>TRUE</b> that data buffers must be mapped to system virtual address ranges. When <b>FALSE</b> the data buffers do not have to be mapped to system virtual addresses. The OS-specific port driver always sets this member to the value passed in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls. If <b>FALSE</b>, the miniport driver must not access <b>Srb.DataBuffer</b> directly.
+Indicates whether Storport maps SRB data buffer addresses to system virtual addresses. The miniport driver sets this member to one of the following values to control mapping for SRB data buffer addresses.
 
+| Value | Meaning |
+| ----- | ------- |
+| STOR_MAP_NO_BUFFERS   | Maps the buffer only for SRB_FUNCTION_IO_CONTROL and SRB_FUNCTION_WMI. |
+| STOR_MAP_ALL_BUFFERS  | Obsolete. This value has the same effect as STOR_MAP_NON_READ_WRITE_BUFFERS. |
+| STOR_MAP_NON_READ_WRITE_BUFFERS | Maps the buffer for all IO except for read and write requests. |
+| STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE | Maps the buffer for all IO including read and write requests. Miniports supporting boot must handle a read or write request of PAGE_SIZE in length. These read or write requests must always complete successfully. Storport may fail to map the buffer under low system memory conditions. In this case, the DataBuffer member in the SRB will be NULL. |
 
 ### -field NeedPhysicalAddresses
 
-Indicates when <b>TRUE</b> that the miniport driver must translate virtual addresses to physical addresses, as required by the HBA. When <b>FALSE</b>, the miniport driver does not have to translate virtual addresses to physical addresses. The OS-specific port driver always sets this member to the value passed in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls.
-
+When **TRUE**, the miniport driver must translate virtual addresses to physical addresses, as required by the HBA. Storport initializes this member to TRUE, because its miniport drivers must support scatter/gather lists. Miniport must not modify this value.
 
 ### -field TaggedQueuing
 
-Indicates when <b>TRUE</b> that the HBA supports queuing of multiple requests with SCSI tags. When <b>FALSE</b>, the HBA does not support SCSI-tagged queuing. The OS-specific port driver always sets this member to the value passed in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls.
-
+When **TRUE**, the HBA supports queuing of multiple requests with SCSI tags. Storport initializes this member to **TRUE** because its miniport drivers must support tagged-queuing. Miniport drivers must not modify this value.
 
 ### -field AutoRequestSense
 
-Indicates when <b>TRUE</b> that the HBA supports auto request sense. When <b>FALSE</b> the HBA does not support auto request sense. The OS-specific port driver always sets this member to the value passed in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls. This member must be set to <b>TRUE</b> before the driver of a bus-master HBA calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetuncachedextension">ScsiPortGetUncachedExtension</a>.
-
+When **TRUE**, the HBA supports auto request sense. Storport initializes this member to **TRUE** because its miniport drivers must support auto-request sense. Miniport drivers must not modify this value.
 
 ### -field MultipleRequestPerLu
 
-Indicates when <b>TRUE</b> that the HBA supports multiple requests per logical unit. When <b>FALSE</b> the HBA does not support multiple requests per logical unit. The mechanism by which the adapter caches the requests is adapter-defined. The OS-specific port driver always sets this member to the value passed in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls.
-
+When **TRUE**, the HBA supports multiple requests per logical unit. Storport initializes this member to **TRUE** because its miniport drivers must support multiple requests issued to a logical unit at time. Miniport drivers must not modify this value.
 
 ### -field ReceiveEvent
 
-Indicates when <b>TRUE</b> that the HBA supports SCSI receive-event operations. When <b>FALSE</b> the HBA does not support SCSI receive-event operations. The OS-specific port driver always sets this member to the value passed in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. A miniport driver can reset this value for any particular HBA it controls.
-
+Storport does not use this member, and its miniport drivers must not set it.
 
 ### -field RealModeInitialized
 
-Indicates when <b>TRUE</b> that an (x86-only) real-mode driver has already initialized the HBA. When <b>FALSE</b> the HBA has not been previously initialized by a real-mode driver. The OS-dependent port driver always initializes this member. If this is set to <b>TRUE</b>, the miniport driver must not initialize its HBA if the driver's initialization sequence is identical to real-mode HBA initialization; not reinitializing the HBA in these circumstances makes the miniport driver load much faster. The value of this member is irrelevant to any miniport driver that always initializes its HBA while running in protected mode on x86-based platforms and to all miniport drivers for which it is immaterial whether they are running on a CISC- or RISC-based platform.
-
+Storport does not use this member, and its miniport drivers must not set it.
 
 ### -field BufferAccessScsiPortControlled
 
-Indicates when <b>TRUE</b> that the miniport driver always calls <b>ScsiPort</b><i>Xxx</i> to access data buffers and/or request-sense information in SRBs, thereby allowing the OS-specific port driver to optimize I/O request processing. When <b>FALSE</b> the miniport driver does not have to call <b>ScsiPort</b><i>Xxx</i> routines to access data buffers or request-sense information. Setting this member to <b>FALSE</b> can degrade the I/O performance of the HBA. Calling routines other than the <b>ScsiPort</b><i>Xxx</i> makes a miniport driver nonportable across Microsoft operating systems.
-
+Storport does not use this member, and its miniport drivers must not set it.
 
 ### -field MaximumNumberOfTargets
 
-Specifies the number of target peripherals the HBA can control. By default, the value of this member is SCSI_MAXIMUM_TARGETS, according to the SCSI standard. A miniport driver can reset this member to a lesser value if the HBA has more limited capabilities or to a greater value, indicating that the HBA has wide-SCSI or Fibre Channel capabilities. This value is limited to SCSI_MAXIMUM_TARGETS_PER_BUS.
-
+Number of target peripherals the adapter can control. By default, the value of this member is SCSI_MAXIMUM_TARGETS_PER_BUS. A miniport driver can reset this member to a lesser value if the HBA has more limited capabilities or to a greater value, indicating that the HBA has extended bus capabilities. The maximum value for this member is 255.
 
 ### -field SrbType
 
- 
+Type of SRBs to be sent to the miniport driver. This is set to one of the following values:
 
+| Value | Meaning |
+| ----- | ------- |
+| SRB_TYPE_SCSI_REQUEST_BLOCK    | The miniport driver receives standard SRBs. |
+| SRB_TYPE_STORAGE_REQUEST_BLOCK | The miniport driver receives extended SRBs. |
 
 ### -field AddressType
 
- 
+Address type used between Storport and the miniport driver. This can be set to the following value:
 
-
-### -field ReservedUchars
-
-Reserved for system use and not available for use by miniport drivers.
-
+| Value | Meaning |
+| ----- | ------- |
+| STORAGE_ADDRESS_TYPE_BTL8 | Bus, Target, and LUN (BTL) 8-bit addressing. |
 
 ### -field SlotNumber
 
-Specifies the slot number of an HBA with matching values to the <b>VendorId</b> and <b>DeviceId</b> that were specified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a> structure when the miniport driver called <b>ScsiPortInitialize</b>.
-
+Reserved for use by Storport. Miniport drivers must not modify this member.
 
 ### -field BusInterruptLevel2
 
-Reserved for system use and not available for use by miniport drivers.
-
+Reserved for use by Storport. Miniport drivers must not modify this member.
 
 ### -field BusInterruptVector2
 
-Reserved for system use and not available for use by miniport drivers.
-
+Reserved for use by Storport. Miniport drivers must not modify this member.
 
 ### -field InterruptMode2
 
-Reserved for system use and not available for use by miniport drivers.
-
+Reserved for use by Storport. Miniport drivers must not modify this member.
 
 ### -field DmaChannel2
 
-Reserved for system use and not available for use by miniport drivers.
-
+Reserved for use by Storport. Miniport drivers must not modify this member.
 
 ### -field DmaPort2
 
-Reserved for system use and not available for use by miniport drivers.
-
+Reserved for use by Storport. Miniport drivers must not modify this member.
 
 ### -field DmaWidth2
 
-Reserved for system use and not available for use by miniport drivers.
-
+Reserved for use by Storport. Miniport drivers must not modify this member.
 
 ### -field DmaSpeed2
 
-Reserved for system use and not available for use by miniport drivers.
-
+Reserved for use by Storport. Miniport drivers must not modify this member.
 
 ### -field DeviceExtensionSize
 
-Specifies the size in bytes required by a miniport driver for its per-HBA device extension to handle data transfers larger than 64K, which might require larger scatter/gather lists than the size defined in the registry for this driver. 
+Size, in bytes, required by the miniport driver for its per-adapter device extension. A miniport driver uses its device extension as storage for driver-determined HBA information. The operating system-specific port driver initializes each device extension one time, when it first allocates the extension, and fills it with zeros. It passes a pointer to the HBA-specific device extension in every call to a miniport driver. The given size does not include any miniport driver-requested per-logical-unit storage. The size of per-logical-unit storage is specified via the **SpecificLuExtensionSize** field, described later in this topic.
 
+Storport does not follow SCSIPort's model (which re-initializes the device extension whenever the adapter is stopped and thus subsequent calls to [*HwScsiFindAdapter*](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557300%28v%3dvs.85%29) receive a zeroed-out device extension). Rather, Storport resets the device extension to zero only when it is first allocated, so only the first call to [*HwStorFindAdapter*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter) for a given adapter receives a zeroed-out device extension. Subsequent calls to *HwStorFindAdapter* and other miniport functions receive the device extension as last modified by the miniport driver. This allows the miniport driver to maintain knowledge about the state of the adapter between Plug and Play (PnP) stops and restarts, possibly enabling the miniport driver to optimize its initialization procedure.
 
 ### -field SpecificLuExtensionSize
 
-Specifies the size in bytes required by the miniport driver for its per-logical-unit-storage, if any, to handle data transfers larger than 64K. Leave this member set to zero if the miniport driver does not maintain per-LU information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetuncachedextension">ScsiPortGetUncachedExtension</a>.
+Size in bytes required by the miniport driver for its per-logical-unit-storage, if any, to handle data transfers larger than 64K. Storport initializes this member to the value in the same member of the [**HW_INITIALIZATION_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data~r1) structure sent in the [**StorPortInitialize**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize) routine.
 
+Set this member to zero if the miniport driver does not maintain per-LU information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as [**StorPortGetUncachedExtension**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetuncachedextension).
 
 ### -field SrbExtensionSize
 
-Specifies the size in bytes required by the miniport driver for its per-request storage, if any, to handle data transfers larger than 64K. Set this member before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetuncachedextension">ScsiPortGetUncachedExtension</a> to change the size of per-request storage based on <b>NumberOfPhysicalBreaks</b>. Leave this member set to zero if the miniport driver does not maintain per-SRB information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as <b>ScsiPortGetUncachedExtension</b>.
+Size in bytes required by the miniport driver for its per-request storage, if any, to handle data transfers larger than 64K. Storport initializes this member to the value in the same member of the [**HW_INITIALIZATION_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data~r1) structure sent in the [**StorPortInitialize**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize) routine.
 
+Set this member before calling [**StorPortGetUncachedExtension**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetuncachedextension) to change the size of per-request storage based on **NumberOfPhysicalBreaks**. Set this member to zero if the miniport driver does not maintain per-SRB information for which it requires storage. This value is based on the assumption that the HBA is able to receive 32-bit addresses, regardless of what the controller can actually support. If additional space is needed in the LUN or SRB extensions to handle 64-bit addresses, then appropriate adjustments must be made to this value before using it with routines such as **ScsiPortGetUncachedExtension**.
 
 ### -field Dma64BitAddresses
 
-Indicates that the HBA is able to access addresses greater than 4 GB, or 0x0FFFFFFFF if <b>Dma64BitAddresses</b> contains a value of SCSI_DMA64_MINIPORT_SUPPORTED. Prior to Windows 2000 the ScsiPort set this value based on the contents of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a>. This is no longer the case. In Windows 2000 the value of <b>Dma64BitAddresses</b> is determined by the miniport driver callback <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)">HwScsiFindAdapter</a> alone. If the operating system supports a 64-bit address space, the port driver passes a value of SCSI_DMA64_SYSTEM_SUPPORTED to the miniport driver in this member. If the HBA described by PORT_CONFIGURATION_INFORMATION also supports address spaces greater than 32-bits then the port/miniport driver is required to support full 64-bit addressing, and the miniport driver's callback <i>HwScsiFindAdapter</i> indicates this by assigning a value of SCSI_DMA64_MINIPORT_SUPPORTED to <b>Dma64BitAddresses</b>, writing over any previous value assigned by the port driver. The correct value must be assigned to the <b>Dma64BitAddresses</b> member before the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetuncachedextension">ScsiPortGetUncachedExtension</a>. 
+If the device hardware supports only 32 bit addresses, then **Dma64BitAddresses** must be set to 0. If the device supports 64 bit addresses, this field indicates whether the HBA is able to access addresses greater than 4 GB.
 
+Storport adapters are required to support bus-width DMA. Therefore, on a 64-bit or PAE machine, Storport initializes **Dma64BitAddresses** to SCSI_DMA64_SYSTEM_SUPPORTED indicating that the adapter can access the full range of addresses. When miniport drivers detect this value, they must return one of the values in the following table in the same member to indicate to the port driver that the miniport driver supports 64-bit DMA. If the miniport fails to do this, it might severely degrade the performance of the adapter.
+
+| Value | Meaning |
+| ----- | ------- |
+| SCSI_DMA64_MINIPORT_SUPPORTED | The miniport driver supports 64-bit physical addresses for I/O transfers. |
+| SCSI_DMA64_MINIPORT_FULL64BIT_SUPPORTED | The miniport driver supports full 64-bit addressing. This indicates that I/O requests may have physical addresses > 4GB. The uncached extension, SenseInfo, and Srb Extension may exist above 4GB. Allocations are restricted to 4GB boundary alignment in order to prevent them from crossing a 4GB boundary. |
+| SCSI_DMA64_MINIPORT_FULL64BIT_NO_BOUNDARY_REQ_SUPPORTED | The miniport driver supports full 64-bit addressing. This indicates that I/O requests may have physical addresses > 4GB. The uncached extension, SenseInfo, and Srb Extension may exist above 4GB. Allocations have no boundary alignment requirement. |
+| SCSI_DMA64_MINIPORT_64BIT_ONE_4GB_SUPPORTED | The miniport driver support 64-bit addressing in a single 4GB region. This indicates that I/O requests, uncached extension, SenseInfo, and Srb Extension may have physical addresses > 4GB in a single 4GB region. |
 
 ### -field ResetTargetSupported
 
-Obsolete. ScsiPort driver no longer sends SRB_FUNCTION_RESET_DEVICE requests to its miniport drivers. Do not use this member.
-
+Obsolete. Do not use this member.
 
 ### -field MaximumNumberOfLogicalUnits
 
-Specifies the maximum number of logical units per target the HBA can control. By default, the value of this member is SCSI_MAXIMUM_LOGICAL_UNITS. A miniport driver can reset this member to a lesser value if the HBA has more limited capabilities or to a greater value, indicating that the HBA has SCSI-3 capabilities. 
-
+Maximum number of logical units per target that the HBA can control. By default, the value of this member is SCSI_MAXIMUM_LOGICAL_UNITS. A miniport driver can reset this member to a lesser value if the HBA has more limited capabilities or to a greater value, indicating that the HBA has extended capabilities. The maximum value for this member is SCSI_MAXIMUM_LUNS_PER_TARGET.
 
 ### -field WmiDataProvider
 
-Indicates when <b>TRUE</b> that the miniport driver responds to Windows Management Instrumentation (WMI) requests. When <b>FALSE</b> the miniport driver does not respond to Windows Management Instrumentation (WMI) requests. By default, the value of this member is <b>FALSE</b>.
+When **TRUE**, the miniport driver responds to Windows Management Instrumentation (WMI) requests. Storport initializes this member to **TRUE** because its miniport drivers must support WMI. Additionally, miniport drivers for fibre channel adapters are expected to support the SAN Management HBA API through WMI, and miniport drivers for host-based RAID adapters are required to support the RAID Management Interface.
 
+Miniport drivers must not modify this value.
 
 ### -field SynchronizationModel
 
- 
+The I/O synchronization model that the miniport driver supports. Possible values are as follows:
 
+| Value | Meaning |
+| ----- | ------- |
+| **StorSynchronizeFullDuplex** | The miniport supports full-duplex mode. |
+| **StorSynchronizeHalfDuplex** | The miniport supports half-duplex mode. |
 
 ### -field HwMSInterruptRoutine
 
- 
-
+Pointer to the miniport driver's [*HwMSInterruptRoutine*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_message_signaled_interrupt_routine) routine, which is required for any miniport driver of an HBA that generates message signaled interrupts (MSIs). A miniport driver sets this member to **NULL** if the HBA does not generate MSIs.
 
 ### -field InterruptSynchronizationMode
 
- 
-
+An [**INTERRUPT_SYNCHRONIZATION_MODE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ne-storport-_interrupt_synchronization_mode) value that specifies the interrupt synchronization mode. The interrupt synchronization mode determines how the port driver synchronizes message signaled interrupts.
 
 ### -field DumpRegion
 
- 
-
+A [**MEMORY_REGION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_memory_region) structure that describes a region of physically contiguous memory that miniport drivers can use during a crash dump or hibernation.
 
 ### -field RequestedDumpBufferSize
 
- 
-
+Size in bytes of the uncached extension to be allocated for use during dump/hibernation.
 
 ### -field VirtualDevice
 
- 
-
+When TRUE, there is no real hardware behind this device (for example, no DMA object, interrupt, I/O ports). Storport behaves differently in some circumstances when it supports a "virtual" miniport instead of a miniport that is controlling real hardware.
 
 ### -field DumpMode
 
- 
+Indicates the use of the miniport during dump mode. It can have one of the following values.
 
+| Value | Meaning |
+| ----- | ------- |
+| DUMP_MODE_CRASH       | The miniport in dump mode is used for a crashdump.   |
+| DUMP_MODE_HIBER       | The miniport in dump mode is used for a hibernation. |
+| DUMP_MODE_MARK_MEMORY | The miniport in dump mode is used for marking required memory. |
+| DUMP_MODE_RESUME      | The miniport in dump mode is used for a resume from hibernation. |
+
+### -field DmaAddressWidth
+
+The width of an adapter's DMA address. Miniports must specify STOR_ADAPTER_DMA_ADDRESS_WIDTH_SPECIFIED in **FeatureSupport** when providing this value. The specified value must be (0 < **DmaAddressWidth** <= 64). This field can be used starting in Windows 10, version 2004.
 
 ### -field ExtendedFlags1
 
- 
-
+Reserved for system use.
 
 ### -field MaxNumberOfIO
 
- 
+Maximum number of outstanding I/O operations supported by the HBA. The default is set to 1000 by Storport. If the HBA does not support 1000 outstanding I/O operations, the miniport should adjust this to an appropriate smaller value.
 
+If the HBA can support more than 1000 outstanding I/O operations, the miniport can increase this member to any value supported by the adapter hardware. To allow more than 1000 outstanding I/O operations, the HBA must support one of the following 64-bit DMA addressing methods, set in the **Dma64BitAddresses** field:
+
+- SCSI_DMA64_MINIPORT_FULL64BIT_SUPPORTED
+- SCSI_DMA64_MINIPORT_FULL64BIT_NO_BOUNDARY_REQ_SUPPORTED
+- SCSI_DMA64_MINIPORT_64BIT_ONE_4GB_SUPPORTED
 
 ### -field MaxIOsPerLun
 
- 
-
+Maximum number of I/O requests supported on a LUN. Storport will set this to a default value of 255. If a LUN does not support 255 outstanding I/O requests, the miniport should adjust this member to an appropriate smaller value. This member must be <= **MaxNumberOfIO**. To support **MaxIOsPerLun** > 255, the **SrbType** field must be set to **SRB_TYPE_STORAGE_REQUEST_BLOCK**.
 
 ### -field InitialLunQueueDepth
 
- 
-
+The initial LUN I/O queue depth. Storport set this to a default value of 20 for physical miniports and to 250 for virtual miniports. This member adjusts the initial queue depth for all LUNs on the adapter. The queue depth for an individual LUN is set by calling [**StorPortSetDeviceQueueDepth**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportsetdevicequeuedepth). This member is typically set to the same value as **MaxIOsPerLun**.
 
 ### -field BusResetHoldTime
 
- 
-
+The amount of time, in microseconds, to pause the adapter after a reset is detected. Set this value to 0 if no wait time is needed after a bus reset.
 
 ### -field FeatureSupport
 
- 
+Storport features requested for the adapter. A miniport driver can set this member to be a bitwise mask of any of the following values:
 
-
-
-
-#### - (*AccessRanges)
-
-Pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_access_range">ACCESS_RANGE</a>-type elements. The given <b>NumberOfAccessRanges</b> determines how many elements must be configured with bus-relative range values. The <b>AccessRanges</b> pointer must be <b>NULL</b> if <b>NumberOfAccessRanges</b> is zero. If possible, the OS-specific port driver initializes this member's elements, possibly from the registry or possibly by interrogating an I/O bus, for an HBA it found by using the miniport driver's specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a>. Otherwise, the port driver initializes all values within array elements to zero.
-
-If any access range element is set to nonzero values on entry to the miniport driver's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)">HwScsiFindAdapter</a> routine, the miniport driver <i>must</i> map the supplied addresses with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetdevicebase">ScsiPortGetDeviceBase</a> and use the corresponding logical addresses to verify whether that HBA is one it supports. If the input <b>AccessRanges</b> have nonzero values supplied, a miniport driver <i>should neverattempt</i> to scan the I/O bus for HBAs it supports using a set of driver-devised port/memory addresses that its HBA(s) might use.
-
+| Value | Meaning |
+| ----- | ------- |
+| STOR_ADAPTER_FEATURE_DEVICE_TELEMETRY             0x00000001    | The miniport driver supports storage device telemetry. |
+| STOR_ADAPTER_FEATURE_STOP_UNIT_DURING_POWER_DOWN  0x00000002    | The miniport requests to receive the STOP_UNIT command during system shutdown. |
+ | STOR_ADAPTER_UNCACHED_EXTENSION_NUMA_NODE_PREFERRED 0x00000004 | The miniport driver wants UncachedExtension to be allocated from adapter NUMA node. |
+ | STOR_ADAPTER_DMA_V3_PREFERRED                    0x00000008    | The miniport driver prefers to use DMA V3 kernel API for the adapter. |
+ | STOR_ADAPTER_FEATURE_ABORT_COMMAND               0x00000010    | The miniport driver supports the ability to abort an outstanding command via SRB_FUNCTION_ABORT_COMMAND. |
+ | STOR_ADAPTER_FEATURE_RICH_TEMPERATURE_THRESHOLD  0x00000020    | The adapter supports richer temperature threshold information than defined in SCSI SPC4 spec. |
+ | STOR_ADAPTER_DMA_ADDRESS_WIDTH_SPECIFIED         0x00000040    | The miniport driver specified the DMA address width in **DmaAddressWidth** for the adapter. This value can be used starting in Windows 10, version 2004.|
 
 ## -remarks
 
-
-
-The specific members initialized depend on the HBA miniport driver and on the configuration information available to the OS-specific port driver. The OS-specific port driver sets default values in all members for which it cannot supply configuration information to the miniport driver's <i>HwScsiFindAdapter</i> routine.
-
-All HBA miniport drivers should have at least one set of defaults to use for relevant members if the OS-specific port driver does not pass in all initialized values. 
-
-The <i>HwScsiFindAdapter</i> routine must update all members relevant to an HBA that the driver supports.
-
-Windows NT storage class drivers, which load later than miniport drivers, depend on the information supplied by each miniport driver's <i>HwScsiFindAdapter</i> routine to set up their subsequent I/O requests. For example, the <b>MaximumTransferLength </b>and <b>NumberOfPhysicalBreaks</b> values supplied by each miniport driver control whether a class driver must split large transfer requests into a set of partial transfers to suit the limits of the HBA.
-
-Prior to Windows 2000, both the PORT_CONFIGURATION_INFORMATION and the HW_INITIALIZATION_DATA structures had a member called <b>Dma64BitAddresses</b>. In Windows 2000, <b>Dma64BitAddresses</b> has been eliminated from the HW_INITIALIZATION_DATA structure, and its definition has changed somewhat in PORT_CONFIGURATION_INFORMATION. The port driver no longer consults HW_INITIALIZATION_DATA in order to initialize <b>Dma64BitAddresses</b> in PORT_CONFIGURATION_INFORMATION.
-
-The <b>Dma64BitAddresses</b> member of PORT_CONFIGURATION_INFORMATION should no longer be thought of as a BOOLEAN value. A value of SCSI_DMA64_SYSTEM_SUPPORTED indicates that the port/miniport driver is required to support 64-bit addressing, but the <b>ScsiPortGetUncachedExtension</b> routine still interprets any nonzero value of <b>Dma64BitAddresses</b> as indicating that 64-bit support is required. This means that <b>ScsiPortGetUncachedExtension</b> still functions properly when called by a legacy driver that assigns BOOLEAN values to <b>Dma64BitAddresses</b>.  
-
-In addition to <b>Dma64BitAddresses</b>, both PORT_CONFIGURATION_INFORMATION and HW_INITIALIZATION_DATA have a pair of members called <b>SpecificLuExtensionSize</b> and <b>SrbExtensionSize</b> whose values must now be handled differently. The miniport driver must calculate the initial values of <b>SpecificLuExtensionSize</b> and <b>SrbExtensionSize</b> in HW_INITIALIZATION_DATA based on the assumption that the HBA is capable of receiving 32-bit addresses, regardless of what the controller can actually support. The default values for <b>SpecificLuExtensionSize</b> and <b>SrbExtensionSize </b>in PORT_CONFIGURATION_INFORMATION will also be based on an assumption of 32-bit addressing, since the values in PORT_CONFIGURATION_INFORMATION are derived from the values in HW_INITIALIZATION_DATA.
-
-This means that if the miniport driver needs additional space in either the LUN extension or the SRB extension in order to handle 64 bit physical addresses, it must modify the values for <b>SpecificLuExtensionSize</b> and <b>SrbExtensionSize</b> in PORT_CONFIGURATION_INFORMATION to account for this before passing PORT_CONFIGURATION_INFORMATION to <b>ScsiPortGetUncachedExtension</b>.
-
-
-
+The Storport driver allocates and initializes this structure, supplies as much HBA-specific configuration information as possible, and passes the structure to the miniport driver's [*HwStorFindAdapter*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter) routine. Storport does not support non-PnP devices, so *HwStorFindAdapter* does not search for the adapter. Its principal function is to initialize **PORT_CONFIGURATION_INFORMATION**.
 
 ## -see-also
 
+[**ACCESS_RANGE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_access_range)
 
+[**HW_INITIALIZATION_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data~r1)
 
+[*HwMSInterruptRoutine*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_message_signaled_interrupt_routine)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_access_range">ACCESS_RANGE</a>
+[*HwStorFindAdapter*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter)
 
+[*HwStorInterrupt*](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt)
 
+[**INTERRUPT_SYNCHRONIZATION_MODE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ne-storport-_interrupt_synchronization_mode)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">DriverEntry of SCSI Miniport Driver</a>
+[**MEMORY_REGION**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_memory_region)
 
+[**StorPortGetUncachedExtension**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportgetuncachedextension)
 
+[**StorPortInitialize**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportinitialize)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)">HwScsiFindAdapter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetdevicebase">ScsiPortGetDeviceBase</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetuncachedextension">ScsiPortGetUncachedExtension</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportvalidaterange">ScsiPortValidateRange</a>
- 
-
- 
-
+[**StorPortSetDeviceQueueDepth**](https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportsetdevicequeuedepth)

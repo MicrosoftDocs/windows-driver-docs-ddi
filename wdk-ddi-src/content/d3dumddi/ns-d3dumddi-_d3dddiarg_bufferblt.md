@@ -6,8 +6,8 @@ old-location: display\d3dddiarg_bufferblt.htm
 tech.root: display
 ms.assetid: 1d638aeb-299a-4707-be5d-99291a1605e0
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_BUFFERBLT structure"]
 ms.keywords: D3DDDIARG_BUFFERBLT, D3DDDIARG_BUFFERBLT structure [Display Devices], UMDisplayDriver_param_Structs_08885ff3-963c-4067-bddc-696b9cc96e1b.xml, _D3DDDIARG_BUFFERBLT, d3dumddi/D3DDDIARG_BUFFERBLT, display.d3dddiarg_bufferblt
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_BUFFERBLT"
 req.header: d3dumddi.h

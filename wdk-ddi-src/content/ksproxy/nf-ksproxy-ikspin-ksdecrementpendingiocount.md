@@ -6,8 +6,8 @@ old-location: stream\ikspin_ksdecrementpendingiocount.htm
 tech.root: stream
 ms.assetid: 92e0355c-b89f-46c2-b406-e3c73fc37000
 ms.date: 04/23/2018
+keywords: ["IKsPin::KsDecrementPendingIoCount"]
 ms.keywords: IKsPin interface [Streaming Media Devices],KsDecrementPendingIoCount method, IKsPin.KsDecrementPendingIoCount, IKsPin::KsDecrementPendingIoCount, KsDecrementPendingIoCount, KsDecrementPendingIoCount method [Streaming Media Devices], KsDecrementPendingIoCount method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsDecrementPendingIoCount, ksproxy_4b423ae2-1256-4ccc-9c8d-4bd6cdb99e42.xml, stream.ikspin_ksdecrementpendingiocount
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPin.KsDecrementPendingIoCount"
 req.header: ksproxy.h

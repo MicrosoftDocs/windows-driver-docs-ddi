@@ -5,7 +5,7 @@ description: Adds a caller-provided handler for a specific OID set data request 
 tech.root: netvista
 ms.assetid: 848816c5-9f7f-4b13-9bb9-df210c4d6e17
 ms.date: 02/09/2018
-ms.topic: function
+keywords: ["NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER function"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER"
 ms.keywords: NET_REQUEST_QUEUE_CONFIG_ADD_SET_DATA_HANDLER

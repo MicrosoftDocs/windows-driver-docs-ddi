@@ -6,8 +6,8 @@ old-location: stream\ksstreamallocator_functiontable.htm
 tech.root: stream
 ms.assetid: 0bc02fa8-41ca-4430-9dff-e98e39b4eeef
 ms.date: 04/23/2018
+keywords: ["KSSTREAMALLOCATOR_FUNCTIONTABLE structure"]
 ms.keywords: "*PKSSTREAMALLOCATOR_FUNCTIONTABLE, KSSTREAMALLOCATOR_FUNCTIONTABLE, KSSTREAMALLOCATOR_FUNCTIONTABLE structure [Streaming Media Devices], PKSSTREAMALLOCATOR_FUNCTIONTABLE, PKSSTREAMALLOCATOR_FUNCTIONTABLE structure pointer [Streaming Media Devices], ks-struct_08e285b4-cd29-4f31-9242-3e4bdc6ccf01.xml, ks/KSSTREAMALLOCATOR_FUNCTIONTABLE, ks/PKSSTREAMALLOCATOR_FUNCTIONTABLE, stream.ksstreamallocator_functiontable"
-ms.topic: struct
 f1_keywords:
  - "ks/KSSTREAMALLOCATOR_FUNCTIONTABLE"
 req.header: ks.h

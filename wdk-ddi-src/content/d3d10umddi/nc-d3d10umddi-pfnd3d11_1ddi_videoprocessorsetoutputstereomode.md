@@ -5,8 +5,8 @@ description: Specifies whether the video processor produces stereo video frames.
 old-location: display\videoprocessorsetoutputstereomode.htm
 ms.assetid: 3e3eaaa6-2725-49de-bca6-df2da1b4324b
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTSTEREOMODE callback, d3d10umddi/pfnVideoProcessorSetOutputStereoMode, display.videoprocessorsetoutputstereomode, pfnVideoProcessorSetOutputStereoMode, pfnVideoProcessorSetOutputStereoMode callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetOutputStereoMode"
 req.header: d3d10umddi.h

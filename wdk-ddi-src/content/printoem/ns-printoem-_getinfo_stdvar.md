@@ -6,8 +6,8 @@ old-location: print\getinfo_stdvar.htm
 tech.root: print
 ms.assetid: 9f2ae88c-34a4-46b3-9571-5f2f023b7d6b
 ms.date: 04/20/2018
+keywords: ["_GETINFO_STDVAR structure"]
 ms.keywords: "*PGETINFO_STDVAR, GETINFO_STDVAR, GETINFO_STDVAR structure [Print Devices], PGETINFO_STDVAR, PGETINFO_STDVAR structure pointer [Print Devices], _GETINFO_STDVAR, print.getinfo_stdvar, print_unidrv-pscript_rendering_3a08d48b-215f-4acc-89ef-849a2b826ce7.xml, printoem/GETINFO_STDVAR, printoem/PGETINFO_STDVAR"
-ms.topic: struct
 f1_keywords:
  - "printoem/GETINFO_STDVAR"
 req.header: printoem.h

@@ -6,8 +6,8 @@ old-location: stream\ksallocatedefaultclock.htm
 tech.root: stream
 ms.assetid: 5ba14903-1519-4edd-bc3c-a05cb040652d
 ms.date: 04/23/2018
+keywords: ["KsAllocateDefaultClock function"]
 ms.keywords: KsAllocateDefaultClock, KsAllocateDefaultClock function [Streaming Media Devices], ks/KsAllocateDefaultClock, ksfunc_448f966b-08aa-4ac5-92db-36d923275754.xml, stream.ksallocatedefaultclock
-ms.topic: function
 f1_keywords:
  - "ks/KsAllocateDefaultClock"
 req.header: ks.h

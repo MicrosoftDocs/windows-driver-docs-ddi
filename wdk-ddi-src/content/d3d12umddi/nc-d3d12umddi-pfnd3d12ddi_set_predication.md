@@ -5,8 +5,8 @@ description: The pfnSetPredication callback function denotes that subsequent vid
 old-location: display\pfnd3d12ddi_set_predication.htm
 ms.assetid: C5830688-4FC6-4D3F-82EB-15354B28C5F1
 ms.date: 05/10/2018
+keywords: ["PFND3D12DDI_SET_PREDICATION callback function"]
 ms.keywords: PFND3D12DDI_SET_PREDICATION, PFND3D12DDI_SET_PREDICATION callback, d3d12umddi/pfnSetPredication, display.pfnd3d12ddi_set_predication, pfnSetPredication, pfnSetPredication callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/pfnSetPredication"
 req.header: d3d12umddi.h

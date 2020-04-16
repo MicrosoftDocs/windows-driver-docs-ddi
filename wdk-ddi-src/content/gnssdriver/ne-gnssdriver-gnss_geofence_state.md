@@ -6,8 +6,8 @@ old-location: gnss\gnss_geofence_state.htm
 tech.root: gnss
 ms.assetid: 881363B2-CF4C-4D18-9F45-829771A2D325
 ms.date: 02/15/2018
+keywords: ["GNSS_GEOFENCE_STATE enumeration"]
 ms.keywords: GNSS_GEOFENCE_STATE, GNSS_GEOFENCE_STATE enumeration [Sensor Devices], GNSS_GeofenceState_Entered, GNSS_GeofenceState_Exited, GNSS_GeofenceState_Unknown, gnss.gnss_geofence_state, gnssdriver/GNSS_GEOFENCE_STATE, gnssdriver/GNSS_GeofenceState_Entered, gnssdriver/GNSS_GeofenceState_Exited, gnssdriver/GNSS_GeofenceState_Unknown
-ms.topic: enum
 f1_keywords:
  - "gnssdriver/GNSS_GEOFENCE_STATE"
 req.header: gnssdriver.h

@@ -6,8 +6,8 @@ old-location: display\d3dkmdt_vidpn_present_path_scaling_support.htm
 tech.root: display
 ms.assetid: 44b7f841-40e5-4d7d-adca-b70b4a8ef55c
 ms.date: 05/10/2018
+keywords: ["_D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT structure"]
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT structure [Display Devices], DmStructs_8a17e0fc-7c6c-4c95-bbdb-471beef9e830.xml, _D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT, display.d3dkmdt_vidpn_present_path_scaling_support
-ms.topic: struct
 f1_keywords:
  - "d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT"
 req.header: d3dkmdt.h

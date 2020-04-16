@@ -6,8 +6,8 @@ old-location: kernel\iosetsystempartition.htm
 tech.root: kernel
 ms.assetid: f1606881-da8b-4034-bbdf-53c75e594032
 ms.date: 04/30/2018
+keywords: ["IoSetSystemPartition function"]
 ms.keywords: IoSetSystemPartition, IoSetSystemPartition routine [Kernel-Mode Driver Architecture], k104_b0beef8e-9d45-4125-a722-0a7189876308.xml, kernel.iosetsystempartition, ntddk/IoSetSystemPartition
-ms.topic: function
 f1_keywords:
  - "ntddk/IoSetSystemPartition"
 req.header: ntddk.h

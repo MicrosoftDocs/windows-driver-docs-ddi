@@ -6,8 +6,8 @@ old-location: serports\evtsercxfileclose.htm
 tech.root: serports
 ms.assetid: C72CA6D0-DD85-46AC-9CE3-BE11233475C0
 ms.date: 04/23/2018
+keywords: ["EVT_SERCX_FILECLOSE callback function"]
 ms.keywords: 1/EvtSerCxFileClose, EVT_SERCX_FILECLOSE, EVT_SERCX_FILECLOSE callback, EvtSerCxFileClose, EvtSerCxFileClose callback function [Serial Ports], serports.evtsercxfileclose
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCxFileClose"
 req.header: sercx.h

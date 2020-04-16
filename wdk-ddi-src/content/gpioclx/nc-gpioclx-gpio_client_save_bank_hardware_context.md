@@ -6,8 +6,8 @@ old-location: gpio\client_savebankhardwarecontext.htm
 tech.root: GPIO
 ms.assetid: D2D2E231-E174-4C9F-96C3-35E744212F18
 ms.date: 02/15/2018
+keywords: ["GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT callback function"]
 ms.keywords: CLIENT_SaveBankHardwareContext, CLIENT_SaveBankHardwareContext callback, CLIENT_SaveBankHardwareContext callback function [Parallel Ports], GPIO.client_savebankhardwarecontext, GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT, gpioclx/CLIENT_SaveBankHardwareContext
-ms.topic: callback
 f1_keywords:
  - "gpioclx/CLIENT_SaveBankHardwareContext"
 req.header: gpioclx.h

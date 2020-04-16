@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlarenamesequal.htm
 tech.root: ifsk
 ms.assetid: 4125e210-c3c2-475c-b516-617fca5d3d0e
 ms.date: 03/29/2018
+keywords: ["FsRtlAreNamesEqual function"]
 ms.keywords: FsRtlAreNamesEqual, FsRtlAreNamesEqual routine [Installable File System Drivers], fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml, ifsk.fsrtlarenamesequal, ntifs/FsRtlAreNamesEqual
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlAreNamesEqual"
 req.header: ntifs.h

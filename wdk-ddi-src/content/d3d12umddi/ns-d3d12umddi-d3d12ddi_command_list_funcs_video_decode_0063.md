@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: da1c6e84-a32d-475a-9917-ffc330be1259
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
+keywords: ["D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0063 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0063"
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0063, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0063, 

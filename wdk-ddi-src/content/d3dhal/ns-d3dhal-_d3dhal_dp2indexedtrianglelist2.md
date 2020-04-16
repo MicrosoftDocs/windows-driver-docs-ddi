@@ -6,8 +6,8 @@ old-location: display\d3dhal_dp2indexedtrianglelist2.htm
 tech.root: display
 ms.assetid: 04d11aef-2766-42d6-abda-f0b25d53ef8f
 ms.date: 05/10/2018
+keywords: ["_D3DHAL_DP2INDEXEDTRIANGLELIST2 structure"]
 ms.keywords: "*LPD3DHAL_DP2INDEXEDTRIANGLELIST2, D3DHAL_DP2INDEXEDTRIANGLELIST2, D3DHAL_DP2INDEXEDTRIANGLELIST2 structure [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLELIST2, LPD3DHAL_DP2INDEXEDTRIANGLELIST2 structure pointer [Display Devices], _D3DHAL_DP2INDEXEDTRIANGLELIST2, d3dhal/D3DHAL_DP2INDEXEDTRIANGLELIST2, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLELIST2, d3dstrct_7f47a0e0-7be5-46bf-89c3-fa69ee6e6230.xml, display.d3dhal_dp2indexedtrianglelist2"
-ms.topic: struct
 f1_keywords:
  - "d3dhal/D3DHAL_DP2INDEXEDTRIANGLELIST2"
 req.header: d3dhal.h

@@ -4,7 +4,7 @@ title: CollectionsListGetSerializedSize function (sensorsutils.h)
 description: This routine returns the larger of the two sizes to provide for sufficient buffer sizes to accommodate passing the collection list across processes that can have different bit-ness values.
 ms.assetid: e5b38220-cc8d-425c-b1a8-d61983d36e2a
 ms.date: 08/08/2018
-ms.topic: function
+keywords: ["CollectionsListGetSerializedSize function"]
 f1_keywords:
  - "sensorsutils/CollectionsListGetSerializedSize"
 tech.root: sensors

@@ -6,8 +6,8 @@ old-location: kernel\zwunlockfile.htm
 tech.root: kernel
 ms.assetid: dca3023b-99d5-471a-a5a2-8453c367ce9b
 ms.date: 04/30/2018
+keywords: ["ZwUnlockFile function"]
 ms.keywords: NtUnlockFile, ZwUnlockFile, ZwUnlockFile routine [Kernel-Mode Driver Architecture], k111_a77fe0ba-5252-4441-aaad-67d2bbae01cb.xml, kernel.zwunlockfile, ntifs/NtUnlockFile, ntifs/ZwUnlockFile
-ms.topic: function
 f1_keywords:
  - "ntifs/ZwUnlockFile"
 req.header: ntifs.h

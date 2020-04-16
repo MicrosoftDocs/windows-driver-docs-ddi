@@ -6,8 +6,8 @@ old-location: netvista\dot11_roaming_start_parameters.htm
 tech.root: netvista
 ms.assetid: 23a0eabc-9eac-4375-b2ca-66b70deaba82
 ms.date: 02/16/2018
+keywords: ["DOT11_ROAMING_START_PARAMETERS structure"]
 ms.keywords: "*PDOT11_ROAMING_START_PARAMETERS, DOT11_ROAMING_START_PARAMETERS, DOT11_ROAMING_START_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_7635397d-74dc-44d0-af58-47048361367d.xml, PDOT11_ROAMING_START_PARAMETERS, PDOT11_ROAMING_START_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_roaming_start_parameters, windot11/DOT11_ROAMING_START_PARAMETERS, windot11/PDOT11_ROAMING_START_PARAMETERS"
-ms.topic: struct
 f1_keywords:
  - "windot11/DOT11_ROAMING_START_PARAMETERS"
 req.header: windot11.h

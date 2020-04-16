@@ -2,12 +2,6 @@
   "tech": "devinst",
   "headers": [
     "avc.h",
-    "devpkey.h",
-    "devpropdef.h",
-    "ioevent.h",
-    "ndisguid.h",
-    "setuapi.h",
-    "wiaintfc.h"
   ],
   "displayName": "Driver installation"
 }

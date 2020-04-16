@@ -6,8 +6,8 @@ old-location: kernel\interlockedcompareexchangepointer.htm
 tech.root: kernel
 ms.assetid: 3b96076f-a7f7-4705-bbee-595ee4d9f789
 ms.date: 04/30/2018
+keywords: ["InterlockedCompareExchangePointer function"]
 ms.keywords: InterlockedCompareExchangePointer, InterlockedCompareExchangePointer routine [Kernel-Mode Driver Architecture], k102_ffaadb46-ece2-40fb-9e87-1c7ea3af275e.xml, kernel.interlockedcompareexchangepointer, wdm/InterlockedCompareExchangePointer
-ms.topic: function
 f1_keywords:
  - "miniport/InterlockedCompareExchangePointer"
 req.header: miniport.h

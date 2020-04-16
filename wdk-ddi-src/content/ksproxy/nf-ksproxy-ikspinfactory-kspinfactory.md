@@ -6,8 +6,8 @@ old-location: stream\ikspinfactory_kspinfactory.htm
 tech.root: stream
 ms.assetid: 939ea77d-f194-4751-b02b-80d5e83c46f4
 ms.date: 04/23/2018
+keywords: ["IKsPinFactory::KsPinFactory"]
 ms.keywords: IKsPinFactory interface [Streaming Media Devices],KsPinFactory method, IKsPinFactory.KsPinFactory, IKsPinFactory::KsPinFactory, KsPinFactory, KsPinFactory method [Streaming Media Devices], KsPinFactory method [Streaming Media Devices],IKsPinFactory interface, ksproxy/IKsPinFactory::KsPinFactory, ksproxy_80504e51-334d-4dd8-a6ce-73de9b3b3729.xml, stream.ikspinfactory_kspinfactory
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPinFactory.KsPinFactory"
 req.header: ksproxy.h

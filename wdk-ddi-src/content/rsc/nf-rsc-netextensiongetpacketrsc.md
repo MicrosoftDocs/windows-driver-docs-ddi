@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: 1798e870-cfaf-44fc-920f-4167de3842ef
 ms.author: windowsdriverdev
 ms.date: 09/24/2019
-ms.topic: function
+keywords: ["NetExtensionGetPacketRsc function"]
 f1_keywords:
  - "rsc/NetExtensionGetPacketRsc"
 ms.keywords: NetExtensionGetPacketRsc

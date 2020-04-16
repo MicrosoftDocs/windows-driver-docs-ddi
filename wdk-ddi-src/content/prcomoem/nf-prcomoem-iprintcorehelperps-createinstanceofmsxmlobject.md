@@ -6,8 +6,8 @@ old-location: print\iprintcorehelperps_createinstanceofmsxmlobject.htm
 tech.root: print
 ms.assetid: 017f6e00-694b-4ada-86be-cf2be047fa88
 ms.date: 04/20/2018
+keywords: ["IPrintCoreHelperPS::CreateInstanceOfMSXMLObject"]
 ms.keywords: CreateInstanceOfMSXMLObject, CreateInstanceOfMSXMLObject method [Print Devices], CreateInstanceOfMSXMLObject method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],CreateInstanceOfMSXMLObject method, IPrintCoreHelperPS.CreateInstanceOfMSXMLObject, IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, prcomoem/IPrintCoreHelperPS::CreateInstanceOfMSXMLObject, print.iprintcorehelperps_createinstanceofmsxmlobject, print_unidrv-pscript_allplugins_c47c4793-f7d9-4688-a50c-3c39b6a9e15c.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintCoreHelperPS.CreateInstanceOfMSXMLObject"
 req.header: prcomoem.h

@@ -5,8 +5,8 @@ description: The D3D10DDIARG_STAGE_IO_SIGNATURES structure describes an I/O sign
 old-location: display\d3d10ddiarg_stage_io_signatures.htm
 ms.assetid: 9639bdc8-9b2f-4911-8a09-d5cf16204cf4
 ms.date: 05/10/2018
+keywords: ["D3D10DDIARG_STAGE_IO_SIGNATURES structure"]
 ms.keywords: D3D10DDIARG_STAGE_IO_SIGNATURES, D3D10DDIARG_STAGE_IO_SIGNATURES structure [Display Devices], UMDisplayDriver_Dx10param_Structs_877fde5f-64e9-455a-b7ed-453e4b6a9e15.xml, d3d10umddi/D3D10DDIARG_STAGE_IO_SIGNATURES, display.d3d10ddiarg_stage_io_signatures
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_STAGE_IO_SIGNATURES"
 req.header: d3d10umddi.h

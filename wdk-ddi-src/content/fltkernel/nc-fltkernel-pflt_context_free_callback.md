@@ -6,8 +6,8 @@ old-location: ifsk\pflt_context_free_callback.htm
 tech.root: ifsk
 ms.assetid: 11c397c2-51a5-4acd-8029-cd002f990366
 ms.date: 04/16/2018
+keywords: ["PFLT_CONTEXT_FREE_CALLBACK callback function"]
 ms.keywords: ContextFreeCallback, ContextFreeCallback routine [Installable File System Drivers], FltCallbacks_c7e2b5e1-5666-431c-9032-59914ef23336.xml, PFLT_CONTEXT_FREE_CALLBACK, fltkernel/ContextFreeCallback, ifsk.pflt_context_free_callback
-ms.topic: callback
 f1_keywords:
  - "fltkernel/ContextFreeCallback"
 req.header: fltkernel.h

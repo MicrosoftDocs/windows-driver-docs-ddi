@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: ebbcca1e-fa42-4441-b5a0-7450937391af
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
+keywords: ["DXGKDDI_GETRESOURCEFORBAR callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_GETRESOURCEFORBAR"
 req.header: dispmprt.h

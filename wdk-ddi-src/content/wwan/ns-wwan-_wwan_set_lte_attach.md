@@ -5,7 +5,7 @@ description: The WWAN_SET_LTE_ATTACH structure describes default LTE attach cont
 tech.root: netvista
 ms.assetid: 33071437-8d4f-45d8-ba61-66ab9776a9e8
 ms.date: 08/22/2018
-ms.topic: struct
+keywords: ["_WWAN_SET_LTE_ATTACH structure"]
 f1_keywords:
  - "wwan/_WWAN_SET_LTE_ATTACH"
 ms.keywords: _WWAN_SET_LTE_ATTACH, WWAN_SET_LTE_ATTACH, *PWWAN_SET_LTE_ATTACH, 

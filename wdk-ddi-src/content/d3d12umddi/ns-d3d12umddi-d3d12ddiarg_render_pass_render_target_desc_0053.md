@@ -4,7 +4,7 @@ title: D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC_0053 (d3d12umddi.h)
 description: Describes the Render Target. This is declared at the start of a Render Pass.
 ms.assetid: e071cb29-be0b-4e26-b307-3e5e55dc0375
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC_0053 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC_0053"
 ms.keywords: D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC_0053, D3D12DDIARG_RENDER_PASS_RENDER_TARGET_DESC_0053, 

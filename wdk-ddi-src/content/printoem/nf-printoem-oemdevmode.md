@@ -6,8 +6,8 @@ old-location: print\oemdevmode.htm
 tech.root: print
 ms.assetid: 491217e9-8cc1-47de-af37-92db377a8c2d
 ms.date: 04/20/2018
+keywords: ["OEMDevMode function"]
 ms.keywords: OEMDevMode, OEMDevMode function [Print Devices], print.oemdevmode, print_obsoletefunctions_7a402f29-f8ab-48cc-951f-89b21f45aebd.xml, printoem/OEMDevMode
-ms.topic: function
 f1_keywords:
  - "printoem/OEMDevMode"
 req.header: printoem.h

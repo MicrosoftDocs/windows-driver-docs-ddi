@@ -6,8 +6,8 @@ old-location: hid\hidp_setscaledusagevalue.htm
 tech.root: hid
 ms.assetid: 0b863b69-b736-49dd-94a9-283480d035be
 ms.date: 04/30/2018
+keywords: ["HidP_SetScaledUsageValue function"]
 ms.keywords: HidP_SetScaledUsageValue, HidP_SetScaledUsageValue routine [Human Input Devices], hid.hidp_setscaledusagevalue, hidfunc_0fcd2d78-aae7-4d56-a930-9bf0e4a417bf.xml, hidpi/HidP_SetScaledUsageValue
-ms.topic: function
 f1_keywords:
  - "hidpi/HidP_SetScaledUsageValue"
 req.header: hidpi.h

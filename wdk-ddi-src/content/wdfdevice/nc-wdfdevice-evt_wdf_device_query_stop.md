@@ -6,8 +6,8 @@ old-location: wdf\evtdevicequerystop.htm
 tech.root: wdf
 ms.assetid: 4f2ed29a-fed0-4286-81db-7a4c8a15a7dd
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_DEVICE_QUERY_STOP callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_06abba34-8d71-46bf-8496-b6f27fe66dce.xml, EVT_WDF_DEVICE_QUERY_STOP, EVT_WDF_DEVICE_QUERY_STOP callback, EvtDeviceQueryStop, EvtDeviceQueryStop callback function, kmdf.evtdevicequerystop, wdf.evtdevicequerystop, wdfdevice/EvtDeviceQueryStop
-ms.topic: callback
 f1_keywords:
  - "wdfdevice/EvtDeviceQueryStop"
 req.header: wdfdevice.h

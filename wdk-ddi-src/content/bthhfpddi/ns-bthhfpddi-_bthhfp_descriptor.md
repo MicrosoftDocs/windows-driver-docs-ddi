@@ -6,8 +6,8 @@ old-location: audio\bthhfp_descriptor.htm
 tech.root: audio
 ms.assetid: A3C1E53B-2E41-437A-8613-C43DCD4768B5
 ms.date: 05/08/2018
+keywords: ["_BTHHFP_DESCRIPTOR structure"]
 ms.keywords: "*PBTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR structure [Audio Devices], PBTHHFP_DESCRIPTOR, PBTHHFP_DESCRIPTOR structure pointer [Audio Devices], _BTHHFP_DESCRIPTOR, audio.bthhfp_descriptor, bthhfpddi/BTHHFP_DESCRIPTOR, bthhfpddi/PBTHHFP_DESCRIPTOR"
-ms.topic: struct
 f1_keywords:
  - "bthhfpddi/BTHHFP_DESCRIPTOR"
 req.header: bthhfpddi.h

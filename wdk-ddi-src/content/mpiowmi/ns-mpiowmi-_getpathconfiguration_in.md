@@ -6,8 +6,8 @@ old-location: storage\getpathconfiguration_in.htm
 tech.root: storage
 ms.assetid: 38396f75-6bcf-493e-9aab-661db59637ae
 ms.date: 03/29/2018
+keywords: ["_GetPathConfiguration_IN structure"]
 ms.keywords: "*PGetPathConfiguration_IN, GetPathConfiguration_IN, GetPathConfiguration_IN structure [Storage Devices], PGetPathConfiguration_IN, PGetPathConfiguration_IN structure pointer [Storage Devices], _GetPathConfiguration_IN, mpiowmi/GetPathConfiguration_IN, mpiowmi/PGetPathConfiguration_IN, storage.getpathconfiguration_in, structs-scsibus_28444162-ae96-47fb-8857-562d52191bfe.xml"
-ms.topic: struct
 f1_keywords:
  - "mpiowmi/GetPathConfiguration_IN"
 req.header: mpiowmi.h

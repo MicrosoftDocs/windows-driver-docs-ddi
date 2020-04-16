@@ -6,8 +6,8 @@ old-location: buses\urssethardwareeventsupport.htm
 tech.root: usbref
 ms.assetid: 905BA306-29A5-4AAB-BA30-6B459E0062F6
 ms.date: 05/07/2018
+keywords: ["UrsSetHardwareEventSupport function"]
 ms.keywords: UrsSetHardwareEventSupport, UrsSetHardwareEventSupport function [Buses], buses.urssethardwareeventsupport, ursdevice/UrsSetHardwareEventSupport
-ms.topic: function
 f1_keywords:
  - "ursdevice/UrsSetHardwareEventSupport"
 req.header: ursdevice.h

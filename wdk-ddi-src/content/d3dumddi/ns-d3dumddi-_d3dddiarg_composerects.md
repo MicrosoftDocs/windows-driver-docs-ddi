@@ -6,8 +6,8 @@ old-location: display\d3dddiarg_composerects.htm
 tech.root: display
 ms.assetid: 9360f9c4-e30e-4fc0-ade7-1d98ff8b1d1b
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_COMPOSERECTS structure"]
 ms.keywords: D3DDDIARG_COMPOSERECTS, D3DDDIARG_COMPOSERECTS structure [Display Devices], UMDisplayDriver_param_Structs_2f10ffa4-f55f-490b-9aa4-08c0c3e3d924.xml, _D3DDDIARG_COMPOSERECTS, d3dumddi/D3DDDIARG_COMPOSERECTS, display.d3dddiarg_composerects
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_COMPOSERECTS"
 req.header: d3dumddi.h

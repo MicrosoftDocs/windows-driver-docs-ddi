@@ -6,8 +6,8 @@ old-location: netvista\rilsetslotpowerparams.htm
 tech.root: netvista
 ms.assetid: 3e3bd3f1-08a2-4b20-b427-85b1236325b9
 ms.date: 05/02/2018
+keywords: ["RILSETSLOTPOWERPARAMS structure"]
 ms.keywords: "*LPRILSETSLOTPOWERPARAMS, RILSETSLOTPOWERPARAMS, RILSETSLOTPOWERPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetslotpowerparams, ntddrilapitypes/RILSETSLOTPOWERPARAMS"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILSETSLOTPOWERPARAMS"
 req.header: ntddrilapitypes.h

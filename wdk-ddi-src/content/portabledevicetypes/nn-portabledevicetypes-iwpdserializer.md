@@ -6,8 +6,8 @@ old-location: wpddk\iwpdserializer.htm
 tech.root: wpd_dk
 ms.assetid: b52a063f-0455-4e49-a355-ea12d68c4835
 ms.date: 02/15/2018
+keywords: ["IWpdSerializer interface"]
 ms.keywords: IWpdSerializer, IWpdSerializer interface, IWpdSerializer interface,described, IWpdSerializerInterface, portabledevicetypes/IWpdSerializer, wpddk.iwpdserializer
-ms.topic: interface
 f1_keywords:
  - "portabledevicetypes/IWpdSerializer"
 req.header: portabledevicetypes.h

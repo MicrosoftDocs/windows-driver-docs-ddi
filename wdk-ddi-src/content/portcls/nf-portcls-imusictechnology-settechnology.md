@@ -6,8 +6,8 @@ old-location: audio\imusictechnology_settechnology.htm
 tech.root: audio
 ms.assetid: 7e32b408-930d-4ef4-960e-1a0da5ef6803
 ms.date: 05/08/2018
+keywords: ["IMusicTechnology::SetTechnology"]
 ms.keywords: IMusicTechnology interface [Audio Devices],SetTechnology method, IMusicTechnology.SetTechnology, IMusicTechnology::SetTechnology, SetTechnology, SetTechnology method [Audio Devices], SetTechnology method [Audio Devices],IMusicTechnology interface, audio.imusictechnology_settechnology, audmp-routines_d1d6abaa-c4b8-4dce-8ce5-9fc12cc87852.xml, portcls/IMusicTechnology::SetTechnology
-ms.topic: method
 f1_keywords:
  - "portcls/IMusicTechnology.SetTechnology"
 req.header: portcls.h

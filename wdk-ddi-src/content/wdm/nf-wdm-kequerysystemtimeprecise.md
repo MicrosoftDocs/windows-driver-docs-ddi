@@ -6,8 +6,8 @@ old-location: kernel\kequerysystemtimeprecise.htm
 tech.root: kernel
 ms.assetid: 4f5df2b5-e896-4519-aec9-5699155bb142
 ms.date: 04/30/2018
+keywords: ["KeQuerySystemTimePrecise function"]
 ms.keywords: KeQuerySystemTimePrecise, KeQuerySystemTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequerysystemtimeprecise, wdm/KeQuerySystemTimePrecise
-ms.topic: function
 f1_keywords:
  - "wdm/KeQuerySystemTimePrecise"
 req.header: wdm.h
@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeQuerySystemTimePrecise</b> routine retrieves the current <a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-time">system time</a>, and is more precise than the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime">KeQuerySystemTime</a> routine.
+The <b>KeQuerySystemTimePrecise</b> routine retrieves the current <a href="https://docs.microsoft.com/windows/desktop/SysInfo/system-time">system time</a>, and is more precise than the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime~r1">KeQuerySystemTime</a> routine.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ Call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime">KeQuerySystemTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime~r1">KeQuerySystemTime</a>
 
 
 

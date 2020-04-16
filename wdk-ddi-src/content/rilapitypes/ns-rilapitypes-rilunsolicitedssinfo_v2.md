@@ -6,8 +6,8 @@ old-location: netvista\rilunsolicitedssinfo_v2.htm
 tech.root: netvista
 ms.assetid: f4b93f1e-8559-4145-a122-74d62b146afa
 ms.date: 05/02/2018
+keywords: ["RILUNSOLICITEDSSINFO_V2 structure"]
 ms.keywords: "*LPRILUNSOLICITEDSSINFO, *LPRILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO, RILUNSOLICITEDSSINFO_V2, RILUNSOLICITEDSSINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilunsolicitedssinfo_v2, ntddrilapitypes/RILUNSOLICITEDSSINFO_V2"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILUNSOLICITEDSSINFO_V2"
 req.header: rilapitypes.h

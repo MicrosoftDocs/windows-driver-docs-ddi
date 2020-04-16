@@ -5,7 +5,7 @@ description: The VmbChannelSaveBegin function initializes the context for saving
 tech.root: netvista
 ms.assetid: 986669ad-e997-4850-a9b1-b45d6f1497cd
 ms.date: 05/21/2018
-ms.topic: callback
+keywords: ["FN_VMB_CHANNEL_SAVE_BEGIN callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SAVE_BEGIN"
 req.header: vmbuskernelmodeclientlibapi.h

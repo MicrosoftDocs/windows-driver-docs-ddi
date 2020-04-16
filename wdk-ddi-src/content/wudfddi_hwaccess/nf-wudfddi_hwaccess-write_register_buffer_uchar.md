@@ -6,8 +6,8 @@ old-location: wdf\write_register_buffer_uchar.htm
 tech.root: wdf
 ms.assetid: 5A124150-44E8-4F95-913A-8ECA29669A24
 ms.date: 02/26/2018
+keywords: ["WRITE_REGISTER_BUFFER_UCHAR function"]
 ms.keywords: WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR function, umdf.write_register_buffer_uchar, wdf.write_register_buffer_uchar, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_UCHAR
-ms.topic: function
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_REGISTER_BUFFER_UCHAR"
 req.header: wudfddi_hwaccess.h

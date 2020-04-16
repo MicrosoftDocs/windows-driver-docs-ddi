@@ -6,8 +6,8 @@ old-location: wdf\wdfioqueuestopandpurgesynchronously.htm
 tech.root: wdf
 ms.assetid: 406044A5-D1C0-4771-8CDB-CCBC0B801281
 ms.date: 02/26/2018
+keywords: ["WdfIoQueueStopAndPurgeSynchronously function"]
 ms.keywords: WdfIoQueueStopAndPurgeSynchronously, WdfIoQueueStopAndPurgeSynchronously method, kmdf.wdfioqueuestopandpurgesynchronously, wdf.wdfioqueuestopandpurgesynchronously, wdfio/WdfIoQueueStopAndPurgeSynchronously
-ms.topic: function
 f1_keywords:
  - "wdfio/WdfIoQueueStopAndPurgeSynchronously"
 req.header: wdfio.h

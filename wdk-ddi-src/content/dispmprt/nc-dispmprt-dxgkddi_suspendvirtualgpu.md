@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: a4433fed-25d6-4002-b4f3-a7bfebcce44d
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
+keywords: ["DXGKDDI_SUSPENDVIRTUALGPU callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_SUSPENDVIRTUALGPU"
 req.header: dispmprt.h

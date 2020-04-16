@@ -6,8 +6,8 @@ old-location: netvista\ndisifregisterprovider.htm
 tech.root: netvista
 ms.assetid: 1624426b-9e67-4aa2-83d8-f1e6fa484858
 ms.date: 05/02/2018
+keywords: ["NdisIfRegisterProvider function"]
 ms.keywords: NdisIfRegisterProvider, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterProvider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml, netvista.ndisifregisterprovider
-ms.topic: function
 f1_keywords:
  - "ndis/NdisIfRegisterProvider"
 req.header: ndis.h

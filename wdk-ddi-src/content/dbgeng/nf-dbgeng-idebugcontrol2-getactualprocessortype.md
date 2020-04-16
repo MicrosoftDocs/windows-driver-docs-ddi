@@ -6,8 +6,8 @@ old-location: debugger\getactualprocessortype.htm
 tech.root: debugger
 ms.assetid: c02be0a4-f82a-4895-bbae-21f6ffdc5466
 ms.date: 05/03/2018
+keywords: ["IDebugControl2::GetActualProcessorType"]
 ms.keywords: GetActualProcessorType, GetActualProcessorType method [Windows Debugging], GetActualProcessorType method [Windows Debugging],IDebugControl interface, GetActualProcessorType method [Windows Debugging],IDebugControl2 interface, GetActualProcessorType method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetActualProcessorType method, IDebugControl2 interface [Windows Debugging],GetActualProcessorType method, IDebugControl2.GetActualProcessorType, IDebugControl2::GetActualProcessorType, IDebugControl3 interface [Windows Debugging],GetActualProcessorType method, IDebugControl3::GetActualProcessorType, IDebugControl::GetActualProcessorType, IDebugControl_5511971f-2155-4ba3-b0f3-9bcd91b29555.xml, dbgeng/IDebugControl2::GetActualProcessorType, dbgeng/IDebugControl3::GetActualProcessorType, dbgeng/IDebugControl::GetActualProcessorType, debugger.getactualprocessortype
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl.GetActualProcessorType"
 req.header: dbgeng.h

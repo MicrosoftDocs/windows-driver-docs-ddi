@@ -6,8 +6,8 @@ old-location: audio\pcevent_request.htm
 tech.root: audio
 ms.assetid: b28bd1c2-9fbe-4427-a4ba-5b79a338e913
 ms.date: 05/08/2018
+keywords: ["_PCEVENT_REQUEST structure"]
 ms.keywords: "*PPCEVENT_REQUEST, PCEVENT_REQUEST, PCEVENT_REQUEST structure [Audio Devices], PPCEVENT_REQUEST, PPCEVENT_REQUEST structure pointer [Audio Devices], _PCEVENT_REQUEST, audio.pcevent_request, audpc-struct_d60c4cf4-11e2-44b7-842a-65d965c8c422.xml, portcls/PCEVENT_REQUEST, portcls/PPCEVENT_REQUEST"
-ms.topic: struct
 f1_keywords:
  - "portcls/PCEVENT_REQUEST"
 req.header: portcls.h

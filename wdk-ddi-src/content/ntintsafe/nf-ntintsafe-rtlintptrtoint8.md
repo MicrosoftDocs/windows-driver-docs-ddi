@@ -6,8 +6,8 @@ old-location: kernel\rtlintptrtoint8.htm
 tech.root: kernel
 ms.assetid: 3AF29469-C376-4EF7-B8A0-88ADCA8FEE4F
 ms.date: 04/30/2018
+keywords: ["RtlIntPtrToInt8 function"]
 ms.keywords: RtlIntPtrToInt8, RtlIntPtrToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlintptrtoint8, ntintsafe/RtlIntPtrToInt8
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlIntPtrToInt8"
 req.header: ntintsafe.h

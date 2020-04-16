@@ -5,8 +5,8 @@ description: The pfnCreateShaderCacheSession callback function creates a shader 
 old-location: display\pfnd3dwddm2_2ddi_create_shadercache_session.htm
 ms.assetid: 14B3AB7A-DB27-412F-9578-5BA44628ECE7
 ms.date: 05/10/2018
+keywords: ["PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION callback function"]
 ms.keywords: PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION, PFND3DWDDM2_2DDI_CREATE_SHADERCACHE_SESSION callback, d3d10umddi/pfnCreateShaderCacheSession, display.pfnd3dwddm2_2ddi_create_shadercache_session, pfnCreateShaderCacheSession, pfnCreateShaderCacheSession callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnCreateShaderCacheSession"
 req.header: d3d10umddi.h
@@ -54,6 +54,8 @@ The <i>pfnCreateShaderCacheSession</i> callback function creates a shader cache 
 ## -parameters
 
 ### -param Arg1
+
+*hDevice* [in]
 
 The handle of a device.
 

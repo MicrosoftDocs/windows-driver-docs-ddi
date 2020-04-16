@@ -4,7 +4,7 @@ title: _DXGKARG_SETSCHEDULINGLOGBUFFER (d3dkmddi.h)
 description: Arguments used in the call to DxgkddiSetSchedulingLogBuffer.
 ms.assetid: 717395a0-86b7-4945-b3bf-c991e1c97406
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_DXGKARG_SETSCHEDULINGLOGBUFFER structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARG_SETSCHEDULINGLOGBUFFER"
 ms.keywords: _DXGKARG_SETSCHEDULINGLOGBUFFER, DXGKARG_SETSCHEDULINGLOGBUFFER,

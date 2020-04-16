@@ -6,8 +6,8 @@ old-location: kernel\pep_acpi_translated_device_control_resources.htm
 tech.root: kernel
 ms.assetid: 1274EF11-6A0D-4464-992D-4E27C981971F
 ms.date: 04/30/2018
+keywords: ["_PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure"]
 ms.keywords: "*PPEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure [Kernel-Mode Driver Architecture], _PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, kernel.pep_acpi_translated_device_control_resources, pepfx/PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES"
-ms.topic: struct
 f1_keywords:
  - "pepfx/PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES"
 req.header: pepfx.h

@@ -6,8 +6,8 @@ old-location: print\devobj.htm
 tech.root: print
 ms.assetid: cdcd0437-e4fc-4041-827f-caa3c435325c
 ms.date: 04/20/2018
+keywords: ["_DEVOBJ structure"]
 ms.keywords: "*PDEVOBJ, DEVOBJ, DEVOBJ structure [Print Devices], _DEVOBJ, print.devobj, print_unidrv-pscript_rendering_defda1bb-3862-4b55-a7bf-38b040667c97.xml, printoem/DEVOBJ"
-ms.topic: struct
 f1_keywords:
  - "printoem/DEVOBJ"
 req.header: printoem.h

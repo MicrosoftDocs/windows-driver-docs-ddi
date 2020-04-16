@@ -6,8 +6,8 @@ old-location: storage\sub_q_channel_data.htm
 tech.root: storage
 ms.assetid: d0304ac7-cb19-499c-81af-98be33312951
 ms.date: 03/29/2018
+keywords: ["_SUB_Q_CHANNEL_DATA structure"]
 ms.keywords: "*PSUB_Q_CHANNEL_DATA, PSUB_Q_CHANNEL_DATA, PSUB_Q_CHANNEL_DATA union pointer [Storage Devices], SUB_Q_CHANNEL_DATA, SUB_Q_CHANNEL_DATA union [Storage Devices], _SUB_Q_CHANNEL_DATA, ntddcdrm/PSUB_Q_CHANNEL_DATA, ntddcdrm/SUB_Q_CHANNEL_DATA, storage.sub_q_channel_data, structs-CD-ROM_f35761c8-b362-48eb-9cfa-6ee5e7232411.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddcdrm/SUB_Q_CHANNEL_DATA"
 req.header: ntddcdrm.h

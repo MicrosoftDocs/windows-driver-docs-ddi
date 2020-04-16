@@ -6,8 +6,8 @@ old-location: kernel\iocsqinsertirpex.htm
 tech.root: kernel
 ms.assetid: b1eb237d-ad4d-428c-beee-5f24677bd0d3
 ms.date: 04/30/2018
+keywords: ["IoCsqInsertIrpEx function"]
 ms.keywords: IoCsqInsertIrpEx, IoCsqInsertIrpEx routine [Kernel-Mode Driver Architecture], k104_5a30f95f-f46d-4f45-a261-a740f33c5327.xml, kernel.iocsqinsertirpex, wdm/IoCsqInsertIrpEx
-ms.topic: function
 f1_keywords:
  - "wdm/IoCsqInsertIrpEx"
 req.header: wdm.h

@@ -6,8 +6,8 @@ old-location: whea\whea_error_record.htm
 tech.root: whea
 ms.assetid: 29ed998c-d833-496f-a728-0eef2cd49ae6
 ms.date: 02/20/2018
+keywords: ["_WHEA_ERROR_RECORD structure"]
 ms.keywords: "*PWHEA_ERROR_RECORD, PWHEA_ERROR_RECORD, PWHEA_ERROR_RECORD structure pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD, WHEA_ERROR_RECORD structure [WHEA Drivers and Applications], _WHEA_ERROR_RECORD, ntddk/PWHEA_ERROR_RECORD, ntddk/WHEA_ERROR_RECORD, whea.whea_error_record, whearef_dc309156-feee-4cc2-ba75-d39f3f05fa5f.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_ERROR_RECORD"
 req.header: ntddk.h

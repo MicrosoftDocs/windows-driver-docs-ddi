@@ -6,8 +6,8 @@ old-location: print\iprintcoreui2_enumoptions.htm
 tech.root: print
 ms.assetid: 9ae20927-6ef4-4566-939c-967ce1d99874
 ms.date: 04/20/2018
+keywords: ["IPrintCoreUI2::EnumOptions"]
 ms.keywords: EnumOptions, EnumOptions method [Print Devices], EnumOptions method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],EnumOptions method, IPrintCoreUI2.EnumOptions, IPrintCoreUI2::EnumOptions, prcomoem/IPrintCoreUI2::EnumOptions, print.iprintcoreui2_enumoptions, print_unidrv-pscript_ui_bacd11be-a1da-4322-b893-6227b5ad1bc1.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintCoreUI2.EnumOptions"
 req.header: prcomoem.h

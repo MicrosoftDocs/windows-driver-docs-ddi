@@ -6,8 +6,8 @@ old-location: stream\ikspropertyset.htm
 tech.root: stream
 ms.assetid: 9999d6ec-977c-4425-ad38-0c5478272c76
 ms.date: 04/23/2018
+keywords: ["IKsPropertySet interface"]
 ms.keywords: IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], IKsPropertySet interface [Streaming Media Devices],described, dsound/IKsPropertySet, ksproxy_5f6316c6-5bcf-4155-b4a5-976a0cee8aa5.xml, stream.ikspropertyset
-ms.topic: interface
 f1_keywords:
  - "ksproxy/IKsPropertySet"
 req.header: ksproxy.h
@@ -57,7 +57,7 @@ The IID for this interface is IID_IKsPropertySet.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPropertySet</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsPropertySet</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsPropertySet</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsPropertySet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

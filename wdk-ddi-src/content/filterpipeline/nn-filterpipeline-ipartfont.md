@@ -6,8 +6,8 @@ old-location: print\ipartfont.htm
 tech.root: print
 ms.assetid: bdb1ad56-de4c-4a9b-96b6-f9faff4abf65
 ms.date: 04/20/2018
+keywords: ["IPartFont interface"]
 ms.keywords: IPartFont, IPartFont interface [Print Devices], IPartFont interface [Print Devices],described, filterpipeline/IPartFont, filterpipeline_def05492-ca27-43bb-9ec4-273aa432536b.xml, print.ipartfont
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IPartFont"
 req.header: filterpipeline.h
@@ -53,7 +53,7 @@ The <b>IPartFont</b> interface is the abstraction for fonts in a part.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPartFont</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>. <b>IPartFont</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPartFont</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>. <b>IPartFont</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

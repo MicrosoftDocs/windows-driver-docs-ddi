@@ -5,8 +5,8 @@ description: The DxgkDdiAcquireSwizzlingRange function makes an allocation acces
 old-location: display\dxgkddiacquireswizzlingrange.htm
 ms.assetid: f861e055-70db-4e0a-9c62-87e2d41f92ae
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_ACQUIRESWIZZLINGRANGE callback function"]
 ms.keywords: DXGKDDI_ACQUIRESWIZZLINGRANGE, DXGKDDI_ACQUIRESWIZZLINGRANGE callback, DmFunctions_6dd5b0ee-666c-45bf-ae39-05e37d74c137.xml, DxgkDdiAcquireSwizzlingRange, DxgkDdiAcquireSwizzlingRange callback function [Display Devices], d3dkmddi/DxgkDdiAcquireSwizzlingRange, display.dxgkddiacquireswizzlingrange
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

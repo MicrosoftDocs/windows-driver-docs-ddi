@@ -6,8 +6,8 @@ old-location: wdf\write_register_buffer_ushort.htm
 tech.root: wdf
 ms.assetid: 45E51355-9570-4548-B056-D1655BED5462
 ms.date: 02/26/2018
+keywords: ["WRITE_REGISTER_BUFFER_USHORT function"]
 ms.keywords: WRITE_REGISTER_BUFFER_USHORT, WRITE_REGISTER_BUFFER_USHORT function, umdf.write_register_buffer_ushort, wdf.write_register_buffer_ushort, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_USHORT
-ms.topic: function
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_REGISTER_BUFFER_USHORT"
 req.header: wudfddi_hwaccess.h

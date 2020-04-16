@@ -4,7 +4,7 @@ title: PFND3D12DDI_MAKERESIDENT_CB (d3d12umddi.h)
 description: pfnMakeResidentCb is used to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
 ms.assetid: 77df8a7f-140c-44f3-ba77-c80c102dbc7e
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_MAKERESIDENT_CB callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

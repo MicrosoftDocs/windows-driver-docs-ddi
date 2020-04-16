@@ -6,8 +6,8 @@ old-location: netvista\rilsendmsgresponse.htm
 tech.root: netvista
 ms.assetid: 64ff0ba7-726e-49ee-bb7c-338b77458fc1
 ms.date: 05/02/2018
+keywords: ["RILSENDMSGRESPONSE structure"]
 ms.keywords: "*LPRILSENDMSGRESPONSE, RILSENDMSGRESPONSE, RILSENDMSGRESPONSE structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgresponse, ntddrilapitypes/RILSENDMSGRESPONSE"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILSENDMSGRESPONSE"
 req.header: ntddrilapitypes.h

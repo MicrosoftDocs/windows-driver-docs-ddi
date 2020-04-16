@@ -6,8 +6,8 @@ old-location: wpddk\iportabledevicevaluescollection.htm
 tech.root: wpd_dk
 ms.assetid: f6115732-00d2-48db-9087-6e33a769ca4b
 ms.date: 02/15/2018
+keywords: ["IPortableDeviceValuesCollection interface"]
 ms.keywords: IPortableDeviceValuesCollection, IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,described, IPortableDeviceValuesCollectionInterface, portabledevicetypes/IPortableDeviceValuesCollection, wpddk.iportabledevicevaluescollection
-ms.topic: interface
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValuesCollection"
 req.header: portabledevicetypes.h

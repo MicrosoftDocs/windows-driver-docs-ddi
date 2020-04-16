@@ -6,8 +6,8 @@ old-location: debugger\extremotetyped.htm
 tech.root: debugger
 ms.assetid: 1f5d71a5-fa60-4819-9838-2b035ef21374
 ms.date: 08/09/2018
+keywords: ["ExtRemoteTyped::ErtIoctl method"]
 ms.keywords: ExtRemoteTyped class [Windows Debugging], described, ExtRemoteTyped::Copy, Copy, ErtIoctl, ExtRemoteTyped, engextcpp/ExtRemoteTyped, debugger.extremotetyped, ExtRemoteTyped class [Windows Debugging], Clear, EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped::ErtIoctl, ExtRemoteTyped::Clear
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteTyped"
 req.header: engextcpp.hpp

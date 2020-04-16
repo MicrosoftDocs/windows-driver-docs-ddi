@@ -6,8 +6,8 @@ old-location: stream\avstrminicancelcallback.htm
 tech.root: stream
 ms.assetid: 4c95ccb6-c796-4bb2-b344-aa8eea28e131
 ms.date: 04/23/2018
+keywords: ["PFNKSSTREAMPOINTER callback function"]
 ms.keywords: AVStrMiniCancelCallback, AVStrMiniCancelCallback routine [Streaming Media Devices], PFNKSSTREAMPOINTER, avstclbk_b23a511e-6e6a-4eaf-a64e-707983534d6f.xml, ks/AVStrMiniCancelCallback, stream.avstrminicancelcallback
-ms.topic: callback
 f1_keywords:
  - "ks/AVStrMiniCancelCallback"
 req.header: ks.h

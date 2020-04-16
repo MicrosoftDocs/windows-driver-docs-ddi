@@ -6,8 +6,8 @@ old-location: kernel\clfsalignreservedlog.htm
 tech.root: kernel
 ms.assetid: b79f58bb-af94-4143-9e30-6f50d85cbb3d
 ms.date: 04/30/2018
+keywords: ["ClfsAlignReservedLog function"]
 ms.keywords: ClfsAlignReservedLog, ClfsAlignReservedLog routine [Kernel-Mode Driver Architecture], Clfs_68de31de-d1f9-4948-ab15-bf8678aebcf2.xml, kernel.clfsalignreservedlog, wdm/ClfsAlignReservedLog
-ms.topic: function
 f1_keywords:
  - "wdm/ClfsAlignReservedLog"
 req.header: wdm.h

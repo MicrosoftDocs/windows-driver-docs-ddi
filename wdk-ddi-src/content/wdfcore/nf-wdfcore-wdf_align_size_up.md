@@ -6,8 +6,8 @@ old-location: wdf\wdf_align_size_up.htm
 tech.root: wdf
 ms.assetid: 68523004-c9f5-4038-985e-702d929cdf04
 ms.date: 02/26/2018
+keywords: ["WDF_ALIGN_SIZE_UP function"]
 ms.keywords: DFMemoryObjectRef_48452ee1-3939-48ba-a485-4d503ee052f3.xml, WDF_ALIGN_SIZE_UP, WDF_ALIGN_SIZE_UP function, kmdf.wdf_align_size_up, wdf.wdf_align_size_up, wdfcore/WDF_ALIGN_SIZE_UP
-ms.topic: function
 f1_keywords:
  - "wdfcore/WDF_ALIGN_SIZE_UP"
 req.header: wdfcore.h

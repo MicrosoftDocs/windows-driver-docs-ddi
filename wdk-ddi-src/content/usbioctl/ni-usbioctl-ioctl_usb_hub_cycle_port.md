@@ -6,8 +6,8 @@ old-location: buses\ioctl_usb_hub_cycle_port.htm
 tech.root: usbref
 ms.assetid: 21d9af73-bd30-43d6-93b1-c29f763a4fcd
 ms.date: 05/07/2018
+keywords: ["IOCTL_USB_HUB_CYCLE_PORT IOCTL"]
 ms.keywords: IOCTL_USB_HUB_CYCLE_PORT, IOCTL_USB_HUB_CYCLE_PORT control, IOCTL_USB_HUB_CYCLE_PORT control code [Buses], buses.ioctl_usb_hub_cycle_port, usbioctl/IOCTL_USB_HUB_CYCLE_PORT, usbirp_8e57d8e6-316b-475d-88cc-87e00b4ee6fb.xml
-ms.topic: ioctl
 f1_keywords:
  - "usbioctl/IOCTL_USB_HUB_CYCLE_PORT"
 req.header: usbioctl.h

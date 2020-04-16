@@ -6,8 +6,8 @@ old-location: wdf\wdf_remove_lock_options_init.htm
 tech.root: wdf
 ms.assetid: 08D0CE94-E37E-4BAE-99C8-FB4EDF7BCDDB
 ms.date: 02/26/2018
+keywords: ["WDF_REMOVE_LOCK_OPTIONS_INIT function"]
 ms.keywords: WDF_REMOVE_LOCK_OPTIONS_INIT, WDF_REMOVE_LOCK_OPTIONS_INIT function, kmdf.wdf_remove_lock_options_init, wdf.wdf_remove_lock_options_init, wdfdevice/WDF_REMOVE_LOCK_OPTIONS_INIT
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WDF_REMOVE_LOCK_OPTIONS_INIT"
 req.header: wdfdevice.h

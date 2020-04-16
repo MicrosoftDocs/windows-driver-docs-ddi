@@ -5,8 +5,8 @@ description: The CalcPrivateRasterizerStateSize function determines the size of 
 old-location: display\calcprivaterasterizerstatesize.htm
 ms.assetid: 8b10b2b8-21b0-451c-9a85-353222d9c288
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE callback function"]
 ms.keywords: CalcPrivateRasterizerStateSize, CalcPrivateRasterizerStateSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE, PFND3D10DDI_CALCPRIVATERASTERIZERSTATESIZE callback, UserModeDisplayDriverDx10_Functions_b5ff2557-347f-4cf5-962b-f41b097de388.xml, d3d10umddi/CalcPrivateRasterizerStateSize, display.calcprivaterasterizerstatesize
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

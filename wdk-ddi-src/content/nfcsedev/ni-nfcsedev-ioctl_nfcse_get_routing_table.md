@@ -6,8 +6,8 @@ old-location: nfpdrivers\ioctl_nfcse_get_routing_table.htm
 tech.root: nfpdrivers
 ms.assetid: 838D31E8-1835-47C7-8201-93910610F5EC
 ms.date: 02/15/2018
+keywords: ["IOCTL_NFCSE_GET_ROUTING_TABLE IOCTL"]
 ms.keywords: IOCTL_NFCSE_GET_ROUTING_TABLE, IOCTL_NFCSE_GET_ROUTING_TABLE control, IOCTL_NFCSE_GET_ROUTING_TABLE control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_GET_ROUTING_TABLE, nfpdrivers.ioctl_nfcse_get_routing_table
-ms.topic: ioctl
 f1_keywords:
  - "nfcsedev/IOCTL_NFCSE_GET_ROUTING_TABLE"
 req.header: nfcsedev.h

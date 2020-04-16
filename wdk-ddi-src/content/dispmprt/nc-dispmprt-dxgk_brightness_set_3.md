@@ -4,7 +4,7 @@ title: DXGK_BRIGHTNESS_SET_3 (dispmprt.h)
 description: DxgkBrightnessSet3 Directs the driver to linearly ramp the brightness from its current brightness level to a target brightness level over a specified length of time.
 ms.assetid: 8466303f-b811-43e0-91e2-4322a5f3fa83
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["DXGK_BRIGHTNESS_SET_3 callback function"]
 f1_keywords:
  - "dispmprt/DXGK_BRIGHTNESS_SET_3"
 req.header: dispmprt.h

@@ -6,8 +6,8 @@ old-location: netvista\fwpsflowassociatecontext0.htm
 tech.root: netvista
 ms.assetid: 0a339457-77df-480b-adb8-9406507ec8d8
 ms.date: 05/02/2018
+keywords: ["FwpsFlowAssociateContext0 function"]
 ms.keywords: FwpsFlowAssociateContext0, FwpsFlowAssociateContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFlowAssociateContext0, netvista.fwpsflowassociatecontext0, wfp_ref_2_funct_3_fwps_D-H_a700b313-fb1e-4b66-a3be-837b1a2d89b3.xml
-ms.topic: function
 f1_keywords:
  - "fwpsk/FwpsFlowAssociateContext0"
 req.header: fwpsk.h

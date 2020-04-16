@@ -6,8 +6,8 @@ old-location: print\iprinterpropertybag_getbytes.htm
 tech.root: print
 ms.assetid: F75E182D-90FA-4597-95E0-60A6326CF68D
 ms.date: 04/20/2018
+keywords: ["IPrinterPropertyBag::GetBytes"]
 ms.keywords: GetBytes, GetBytes method [Print Devices], GetBytes method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetBytes method, IPrinterPropertyBag.GetBytes, IPrinterPropertyBag::GetBytes, print.iprinterpropertybag_getbytes, printerextension/IPrinterPropertyBag::GetBytes
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterPropertyBag.GetBytes"
 req.header: printerextension.h

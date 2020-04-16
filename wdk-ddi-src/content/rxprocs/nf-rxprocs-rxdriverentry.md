@@ -6,8 +6,8 @@ old-location: ifsk\rxdriverentry.htm
 tech.root: ifsk
 ms.assetid: f100f872-6db2-4b6d-a9c0-abbbfee0a621
 ms.date: 04/16/2018
+keywords: ["RxDriverEntry function"]
 ms.keywords: RxDriverEntry, RxDriverEntry routine [Installable File System Drivers], ifsk.rxdriverentry, rxprocs/RxDriverEntry, rxref_a882d71c-b6c3-4454-a45b-37b312af2069.xml
-ms.topic: function
 f1_keywords:
  - "rxprocs/RxDriverEntry"
 req.header: rxprocs.h

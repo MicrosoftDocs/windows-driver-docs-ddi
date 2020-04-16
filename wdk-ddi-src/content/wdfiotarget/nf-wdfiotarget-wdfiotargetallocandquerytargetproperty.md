@@ -6,8 +6,8 @@ old-location: wdf\wdfiotargetallocandquerytargetproperty.htm
 tech.root: wdf
 ms.assetid: 9b66ba25-7723-4805-aa7c-7091a18d749b
 ms.date: 02/26/2018
+keywords: ["WdfIoTargetAllocAndQueryTargetProperty function"]
 ms.keywords: DFIOTargetRef_f92747ac-d6f3-444f-a76b-91503a0db3a3.xml, WdfIoTargetAllocAndQueryTargetProperty, WdfIoTargetAllocAndQueryTargetProperty method, kmdf.wdfiotargetallocandquerytargetproperty, wdf.wdfiotargetallocandquerytargetproperty, wdfiotarget/WdfIoTargetAllocAndQueryTargetProperty
-ms.topic: function
 f1_keywords:
  - "wdfiotarget/WdfIoTargetAllocAndQueryTargetProperty"
 req.header: wdfiotarget.h

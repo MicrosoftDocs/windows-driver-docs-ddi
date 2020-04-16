@@ -6,8 +6,8 @@ old-location: wpddk\sms_message_types.htm
 tech.root: wpd_dk
 ms.assetid: abb3da2b-30c0-44af-b80d-86580610681a
 ms.date: 02/15/2018
+keywords: ["tagSMS_MESSAGE_TYPES enumeration"]
 ms.keywords: SMS_BINARY_MESSAGE, SMS_MESSAGE_TYPES, SMS_MESSAGE_TYPES enumeration, SMS_TEXT_MESSAGE, enumeration, portabledevice/SMS_BINARY_MESSAGE, portabledevice/SMS_MESSAGE_TYPES, portabledevice/SMS_TEXT_MESSAGE, tagSMS_MESSAGE_TYPES, wpddk.sms_message_types
-ms.topic: enum
 f1_keywords:
  - "portabledevice/SMS_MESSAGE_TYPES"
 req.header: portabledevice.h

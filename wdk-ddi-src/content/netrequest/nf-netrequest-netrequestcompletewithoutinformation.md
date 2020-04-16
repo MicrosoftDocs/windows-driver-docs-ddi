@@ -5,7 +5,7 @@ description: Completes a NETREQUEST and supplies a completion status.
 tech.root: netvista
 ms.assetid: 706adc5b-3eb4-4876-ad86-6d335a0860ca
 ms.date: 02/08/2018
-ms.topic: function
+keywords: ["NetRequestCompleteWithoutInformation function"]
 f1_keywords:
  - "netrequest/NetRequestCompleteWithoutInformation"
 ms.keywords: NetRequestCompleteWithoutInformation

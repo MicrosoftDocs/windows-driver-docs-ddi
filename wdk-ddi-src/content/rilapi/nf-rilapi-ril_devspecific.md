@@ -6,8 +6,8 @@ old-location: netvista\ril_devspecific.htm
 tech.root: netvista
 ms.assetid: 2472582a-bade-4dfd-af67-c7c0626160bd
 ms.date: 05/02/2018
+keywords: ["RIL_DevSpecific function"]
 ms.keywords: RIL_DevSpecific, RIL_DevSpecific method [Network Drivers Starting with Windows Vista], netvista.ril_devspecific, rilapi/RIL_DevSpecific
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_DevSpecific"
 req.header: rilapi.h

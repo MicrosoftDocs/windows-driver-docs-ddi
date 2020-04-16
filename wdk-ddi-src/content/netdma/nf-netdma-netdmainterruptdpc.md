@@ -6,8 +6,8 @@ old-location: netvista\netdmainterruptdpc.htm
 tech.root: netvista
 ms.assetid: 93d7e4dd-70ee-4490-bffd-9b07511ee9fe
 ms.date: 05/02/2018
+keywords: ["NetDmaInterruptDpc function"]
 ms.keywords: NetDmaInterruptDpc, NetDmaInterruptDpc function [Network Drivers Starting with Windows Vista], netdma/NetDmaInterruptDpc, netdma_ref_112a0d48-213e-4b5c-a776-11d5dcb83e1b.xml, netvista.netdmainterruptdpc
-ms.topic: function
 f1_keywords:
  - "netdma/NetDmaInterruptDpc"
 req.header: netdma.h

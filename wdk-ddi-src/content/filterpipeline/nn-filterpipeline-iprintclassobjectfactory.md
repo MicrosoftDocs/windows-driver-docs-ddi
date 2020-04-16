@@ -6,8 +6,8 @@ old-location: print\iprintclassobjectfactory.htm
 tech.root: print
 ms.assetid: 09691b81-6488-4972-8cbc-7873e6717287
 ms.date: 04/20/2018
+keywords: ["IPrintClassObjectFactory interface"]
 ms.keywords: IPrintClassObjectFactory, IPrintClassObjectFactory interface [Print Devices], IPrintClassObjectFactory interface [Print Devices],described, filterpipeline/IPrintClassObjectFactory, filterpipeline_dfad10be-6be6-4a74-8efb-e53182e469b7.xml, print.iprintclassobjectfactory
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IPrintClassObjectFactory"
 req.header: filterpipeline.h
@@ -53,7 +53,7 @@ The<b>IPrintClassObjectFactory</b> interface creates print filter-related interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintClassObjectFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintClassObjectFactory</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintClassObjectFactory</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintClassObjectFactory</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -6,8 +6,8 @@ old-location: display\pfnsetdisplaymodecb.htm
 tech.root: display
 ms.assetid: a1f58757-809d-4351-8b1a-fd4420981c24
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_SETDISPLAYMODECB callback function"]
 ms.keywords: D3Druntime_Functions_717329e1-853d-498e-8792-ba6468825cbb.xml, PFND3DDDI_SETDISPLAYMODECB, PFND3DDDI_SETDISPLAYMODECB callback, d3dumddi/pfnSetDisplayModeCb, display.pfnsetdisplaymodecb, pfnSetDisplayModeCb, pfnSetDisplayModeCb callback function [Display Devices]
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

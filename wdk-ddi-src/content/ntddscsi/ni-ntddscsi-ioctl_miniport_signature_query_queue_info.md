@@ -6,7 +6,7 @@ ms.author: misaso
 description: 
 ms.assetid: 04498f2d-a468-4b94-a762-5234e0d220a5
 ms.date: 10/19/2018
-ms.topic: ioctl
+keywords: ["IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO IOCTL"]
 f1_keywords:
  - "ntddscsi/IOCTL_MINIPORT_SIGNATURE_QUERY_QUEUE_INFO"
 req.header: ntddscsi.h

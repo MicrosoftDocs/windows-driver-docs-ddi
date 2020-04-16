@@ -6,8 +6,8 @@ old-location: wdf\wdfdriverwdmgetdriverobject.htm
 tech.root: wdf
 ms.assetid: d9755557-6d5d-4ef0-b868-f05e5b82da78
 ms.date: 02/26/2018
+keywords: ["WdfDriverWdmGetDriverObject function"]
 ms.keywords: DFDriverObjectRef_f196dc43-394e-4839-a64d-8af756f5a374.xml, WdfDriverWdmGetDriverObject, WdfDriverWdmGetDriverObject method, kmdf.wdfdriverwdmgetdriverobject, wdf.wdfdriverwdmgetdriverobject, wdfdriver/WdfDriverWdmGetDriverObject
-ms.topic: function
 f1_keywords:
  - "wdfdriver/WdfDriverWdmGetDriverObject"
 req.header: wdfdriver.h

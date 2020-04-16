@@ -6,8 +6,8 @@ old-location: storage\scsiportvalidaterange.htm
 tech.root: storage
 ms.assetid: a9ad58c2-16fc-410a-abc7-01c3f2354b88
 ms.date: 03/29/2018
+keywords: ["ScsiPortValidateRange function"]
 ms.keywords: ScsiPortValidateRange, ScsiPortValidateRange routine [Storage Devices], scsiprt_a5bae9f5-7912-4607-890d-ca08fda0c19c.xml, srb/ScsiPortValidateRange, storage.scsiportvalidaterange
-ms.topic: function
 f1_keywords:
  - "srb/ScsiPortValidateRange"
 req.header: srb.h

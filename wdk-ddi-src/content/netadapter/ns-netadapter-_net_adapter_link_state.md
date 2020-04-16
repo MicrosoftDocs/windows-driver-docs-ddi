@@ -5,7 +5,7 @@ description: Describes the link state of the adapter.
 tech.root: netvista
 ms.assetid: 0f984325-b393-4b7b-9572-edcef0248b93
 ms.date: 02/06/2018
-ms.topic: struct
+keywords: ["_NET_ADAPTER_LINK_STATE structure"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_LINK_STATE"
 ms.keywords: _NET_ADAPTER_LINK_STATE, NET_ADAPTER_LINK_STATE, *PNET_ADAPTER_LINK_STATE, 

@@ -5,8 +5,8 @@ description: Used to get information on the protected session.
 old-location: display\d3dkmtqueryprotectedsessioninfofromnthandle.htm
 ms.assetid: 04eff7e1-1ac3-4622-a837-1ea6aad97329
 ms.date: 05/10/2018
+keywords: ["D3DKMTQueryProtectedSessionInfoFromNtHandle function"]
 ms.keywords: D3DKMTQueryProtectedSessionInfoFromNtHandle, D3DKMTQueryProtectedSessionInfoFromNtHandle method [Display Devices], d3dkmthk/D3DKMTQueryProtectedSessionInfoFromNtHandle, display.d3dkmtqueryprotectedsessioninfofromnthandle
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTQueryProtectedSessionInfoFromNtHandle"
 req.header: d3dkmthk.h

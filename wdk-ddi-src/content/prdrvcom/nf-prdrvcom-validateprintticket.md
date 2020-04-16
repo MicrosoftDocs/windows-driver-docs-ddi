@@ -6,8 +6,8 @@ old-location: print\iprintoemprintticketprovider_validateprintticket.htm
 tech.root: print
 ms.assetid: 359f1a4b-8bcc-4c4a-97d7-6515993765e3
 ms.date: 02/26/2018
+keywords: ["ValidatePrintTicket function"]
 ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices], ValidatePrintTicket method, IPrintOemPrintTicketProvider::ValidatePrintTicket, ValidatePrintTicket, ValidatePrintTicket method [Print Devices], ValidatePrintTicket method [Print Devices], IPrintOemPrintTicketProvider interface, prdrvcom/IPrintOemPrintTicketProvider::ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml
-ms.topic: function
 f1_keywords:
  - "prdrvcom/IPrintOemPrintTicketProvider.ValidatePrintTicket"
 req.header: prdrvcom.h

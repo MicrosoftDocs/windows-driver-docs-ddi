@@ -4,7 +4,7 @@ title: IDebugHostSymbol2 (dbgmodel.h)
 description: An interface to a particular symbol.
 ms.assetid: 669f0a11-dfd4-4877-a054-bde97ead4387
 ms.date: 06/11/2019
-ms.topic: interface
+keywords: ["IDebugHostSymbol2 interface"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol2"
 req.header: dbgmodel.h

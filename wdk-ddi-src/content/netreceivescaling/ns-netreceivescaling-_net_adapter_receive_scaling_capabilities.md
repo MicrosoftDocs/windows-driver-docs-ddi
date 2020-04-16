@@ -5,7 +5,7 @@ description: The NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure describes a 
 tech.root: netvista
 ms.assetid: d6076d3f-2f62-4b81-88b1-801e1612a28c
 ms.date: 07/13/2018
-ms.topic: struct
+keywords: ["_NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure"]
 f1_keywords:
  - "netreceivescaling/_NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES"
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES, NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES, 

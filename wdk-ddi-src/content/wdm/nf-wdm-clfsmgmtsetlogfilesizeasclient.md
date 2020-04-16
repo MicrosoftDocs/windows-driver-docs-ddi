@@ -6,8 +6,8 @@ old-location: kernel\clfsmgmtsetlogfilesizeasclient_.htm
 tech.root: kernel
 ms.assetid: C049A6BE-6E2B-46F2-B7CF-316E4CDB35E4
 ms.date: 04/30/2018
+keywords: ["ClfsMgmtSetLogFileSizeAsClient function"]
 ms.keywords: ClfsMgmtSetLogFileSizeAsClient, ClfsMgmtSetLogFileSizeAsClient , ClfsMgmtSetLogFileSizeAsClient routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtsetlogfilesizeasclient_, wdm/ClfsMgmtSetLogFileSizeAsClient
-ms.topic: function
 f1_keywords:
  - "wdm/ClfsMgmtSetLogFileSizeAsClient"
 req.header: wdm.h

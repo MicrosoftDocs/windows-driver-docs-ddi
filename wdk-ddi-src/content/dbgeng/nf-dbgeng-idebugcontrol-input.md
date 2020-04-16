@@ -6,8 +6,8 @@ old-location: debugger\input.htm
 tech.root: debugger
 ms.assetid: 8a37bce1-762b-4a08-a677-ed2e484c1bba
 ms.date: 05/03/2018
+keywords: ["IDebugControl::Input"]
 ms.keywords: IDebugControl interface [Windows Debugging],Input method, IDebugControl.Input, IDebugControl::Input, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, Input, Input method [Windows Debugging], Input method [Windows Debugging],IDebugControl interface, dbgeng/IDebugControl::Input, debugger.input
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl.Input"
 req.header: dbgeng.h

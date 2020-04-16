@@ -6,8 +6,8 @@ old-location: ifsk\rxreleasefcbresourceinmrx.htm
 tech.root: ifsk
 ms.assetid: 48308dcd-e423-4c25-9fec-3a423043e988
 ms.date: 04/16/2018
+keywords: ["RxReleaseFcbResourceInMRx function"]
 ms.keywords: RxReleaseFcbResourceInMRx, RxReleaseFcbResourceInMRx function [Installable File System Drivers], ifsk.rxreleasefcbresourceinmrx, mrxfcb/RxReleaseFcbResourceInMRx, rxref_b433f8ba-7bdd-4fd2-baba-346e886a23dc.xml
-ms.topic: function
 f1_keywords:
  - "mrxfcb/RxReleaseFcbResourceInMRx"
 req.header: mrxfcb.h

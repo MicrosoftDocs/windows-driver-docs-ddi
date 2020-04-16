@@ -6,8 +6,8 @@ old-location: sensors\evt_sensor_driver_enable_wake.htm
 tech.root: sensors
 ms.assetid: 969E08D1-0D4A-4FED-9722-4EDA067C522C
 ms.date: 05/03/2018
+keywords: ["EVT_SENSOR_DRIVER_ENABLE_WAKE callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_ENABLE_WAKE, EVT_SENSOR_DRIVER_ENABLE_WAKE callback, EVT_SENSOR_DRIVER_ENABLE_WAKE callback function [Sensor Devices], sensors.evt_sensor_driver_enable_wake, sensorscx/EVT_SENSOR_DRIVER_ENABLE_WAKE
-ms.topic: callback
 f1_keywords:
  - "sensorscx/EVT_SENSOR_DRIVER_ENABLE_WAKE"
 req.header: sensorscx.h

@@ -6,8 +6,8 @@ old-location: netvista\nmrregisterprovider.htm
 tech.root: netvista
 ms.assetid: aac9382c-5177-4216-bf3d-7970b18662eb
 ms.date: 05/02/2018
+keywords: ["NmrRegisterProvider function"]
 ms.keywords: NmrRegisterProvider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterProvider, netvista.nmrregisterprovider, nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml
-ms.topic: function
 f1_keywords:
  - "netioddk/NmrRegisterProvider"
 req.header: netioddk.h

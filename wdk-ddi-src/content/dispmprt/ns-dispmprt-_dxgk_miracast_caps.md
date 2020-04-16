@@ -6,8 +6,8 @@ old-location: display\dxgk_miracast_caps.htm
 tech.root: display
 ms.assetid: 63ED28D9-654F-45CC-BFDC-89C9E73DCF95
 ms.date: 05/10/2018
+keywords: ["_DXGK_MIRACAST_CAPS structure"]
 ms.keywords: "*PDXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS structure [Display Devices], PDXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS structure pointer [Display Devices], _DXGK_MIRACAST_CAPS, display.dxgk_miracast_caps, dispmprt/DXGK_MIRACAST_CAPS, dispmprt/PDXGK_MIRACAST_CAPS"
-ms.topic: struct
 f1_keywords:
  - "dispmprt/DXGK_MIRACAST_CAPS"
 req.header: dispmprt.h

@@ -6,8 +6,8 @@ old-location: bltooth\ioctl_bthx_get_version.htm
 tech.root: bltooth
 ms.assetid: F4FD760B-551C-4738-A13D-444E08215D59
 ms.date: 04/27/2018
+keywords: ["IOCTL_BTHX_GET_VERSION IOCTL"]
 ms.keywords: IOCTL_BTHX_GET_VERSION, IOCTL_BTHX_GET_VERSION control, IOCTL_BTHX_GET_VERSION control code [Bluetooth Devices], bltooth.ioctl_bthx_get_version, bthxddi/IOCTL_BTHX_GET_VERSION
-ms.topic: ioctl
 f1_keywords:
  - "bthxddi/IOCTL_BTHX_GET_VERSION"
 req.header: bthxddi.h

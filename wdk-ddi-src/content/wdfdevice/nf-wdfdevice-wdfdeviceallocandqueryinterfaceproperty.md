@@ -6,8 +6,8 @@ old-location: wdf\wdfdeviceallocandqueryinterfaceproperty.htm
 tech.root: wdf
 ms.assetid: 40516E83-892C-4538-B452-DAB0F5ACBB25
 ms.date: 02/26/2018
+keywords: ["WdfDeviceAllocAndQueryInterfaceProperty function"]
 ms.keywords: WdfDeviceAllocAndQueryInterfaceProperty, WdfDeviceAllocAndQueryInterfaceProperty method, wdf.wdfdeviceallocandqueryinterfaceproperty, wdfdevice/WdfDeviceAllocAndQueryInterfaceProperty
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceAllocAndQueryInterfaceProperty"
 req.header: wdfdevice.h

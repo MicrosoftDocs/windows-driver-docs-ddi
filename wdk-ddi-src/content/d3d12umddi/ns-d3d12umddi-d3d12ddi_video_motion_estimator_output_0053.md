@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053 (d3d12umddi.h)
 description: Describes the output of the motion estimation operation.
 ms.assetid: b818e7ad-8918-41fc-ab43-3d7721bbe733
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053"
 ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053, 

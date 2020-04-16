@@ -4,7 +4,7 @@ title: MAKEFOURCC macro (d3dukmdt.h)
 description: A macro to format and load texture.
 ms.assetid: c87722a0-3f6d-4d67-a303-d5fef4405daf
 ms.date: 10/19/2018
-ms.topic: macro
+keywords: ["MAKEFOURCC macro"]
 f1_keywords:
  - "d3dukmdt/MAKEFOURCC"
 ms.keywords: MAKEFOURCC

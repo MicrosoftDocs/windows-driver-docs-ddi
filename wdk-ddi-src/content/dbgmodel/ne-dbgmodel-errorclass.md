@@ -4,7 +4,7 @@ title: ErrorClass (dbgmodel.h)
 description: Defines the class of error which is being reported to the host.
 ms.assetid: 38a84d5f-14a9-4b7e-b484-a90738241972
 ms.date: 07/13/2018
-ms.topic: enum
+keywords: ["ErrorClass enumeration"]
 f1_keywords:
  - "dbgmodel/ErrorClass"
 ms.keywords: ErrorClass, , 

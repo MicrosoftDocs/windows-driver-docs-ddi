@@ -6,8 +6,8 @@ old-location: ifsk\kedetachprocess.htm
 tech.root: ifsk
 ms.assetid: 25cb0b53-f5b2-460a-bcab-56196f568d12
 ms.date: 04/16/2018
+keywords: ["KeDetachProcess function"]
 ms.keywords: KeDetachProcess, KeDetachProcess function [Installable File System Drivers], ifsk.kedetachprocess, keref_0038ac90-7d97-45db-9a0d-028238af943d.xml, ntifs/KeDetachProcess
-ms.topic: function
 f1_keywords:
  - "ntifs/KeDetachProcess"
 req.header: ntifs.h

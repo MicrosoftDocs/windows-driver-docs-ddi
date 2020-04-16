@@ -5,8 +5,8 @@ description: Queries the size in bytes of the certificate that the display minip
 old-location: display\getcertificatesize.htm
 ms.assetid: 7f9a2a76-ee50-4f72-a588-d7b9145c14a6
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_GETCERTIFICATESIZE callback function"]
 ms.keywords: PFND3D11_1DDI_GETCERTIFICATESIZE, PFND3D11_1DDI_GETCERTIFICATESIZE callback, d3d10umddi/pfnGetCertificateSize, display.getcertificatesize, pfnGetCertificateSize, pfnGetCertificateSize callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

@@ -6,8 +6,8 @@ old-location: kernel\pssetcreatethreadnotifyroutine.htm
 tech.root: kernel
 ms.assetid: 02c5d325-e0b2-4b0f-b964-7befd1b40cb6
 ms.date: 04/30/2018
+keywords: ["PsSetCreateThreadNotifyRoutine function"]
 ms.keywords: PsSetCreateThreadNotifyRoutine, PsSetCreateThreadNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_1fe3d941-1e48-4f07-bf57-ad7b2855947f.xml, kernel.pssetcreatethreadnotifyroutine, ntddk/PsSetCreateThreadNotifyRoutine
-ms.topic: function
 f1_keywords:
  - "ntddk/PsSetCreateThreadNotifyRoutine"
 req.header: ntddk.h

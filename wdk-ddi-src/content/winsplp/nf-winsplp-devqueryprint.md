@@ -6,8 +6,8 @@ old-location: print\devqueryprint.htm
 tech.root: print
 ms.assetid: B3135A43-A328-4103-AB75-A37F02322F70
 ms.date: 04/20/2018
+keywords: ["DevQueryPrint function"]
 ms.keywords: DevQueryPrint, DevQueryPrint function [Print Devices], print.devqueryprint, winsplp/DevQueryPrint
-ms.topic: function
 f1_keywords:
  - "winsplp/DevQueryPrint"
 req.header: winsplp.h

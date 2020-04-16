@@ -5,8 +5,8 @@ description: The D3DKMT_SEGMENTSIZEINFO structure describes the size, in bytes, 
 old-location: display\d3dkmt_segmentsizeinfo.htm
 ms.assetid: 16c7b4bd-efc9-4cce-8677-8046038d1c76
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_SEGMENTSIZEINFO structure"]
 ms.keywords: D3DKMT_SEGMENTSIZEINFO, D3DKMT_SEGMENTSIZEINFO structure [Display Devices], OpenGL_Structs_bdb19184-37f0-4341-b8bb-41011f6cb6b3.xml, _D3DKMT_SEGMENTSIZEINFO, d3dkmthk/D3DKMT_SEGMENTSIZEINFO, display.d3dkmt_segmentsizeinfo
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_SEGMENTSIZEINFO"
 req.header: d3dkmthk.h

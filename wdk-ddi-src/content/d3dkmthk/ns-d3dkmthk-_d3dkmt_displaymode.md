@@ -5,8 +5,8 @@ description: The D3DKMT_DISPLAYMODE structure describes a display mode.
 old-location: display\d3dkmt_displaymode.htm
 ms.assetid: 04d3d4bd-3926-43bf-b64e-0ba0c2589a54
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_DISPLAYMODE structure"]
 ms.keywords: D3DKMT_DISPLAYMODE, D3DKMT_DISPLAYMODE structure [Display Devices], OpenGL_Structs_057de1d2-b55b-4ee8-ad2d-28eb01b3168c.xml, _D3DKMT_DISPLAYMODE, d3dkmthk/D3DKMT_DISPLAYMODE, display.d3dkmt_displaymode
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_DISPLAYMODE"
 req.header: d3dkmthk.h

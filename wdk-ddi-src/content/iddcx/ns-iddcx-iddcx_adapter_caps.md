@@ -6,8 +6,8 @@ old-location: display\iddcx_adapter_caps.htm
 tech.root: display
 ms.assetid: 3a8610e4-22d5-4732-b4be-846449acb5b1
 ms.date: 05/10/2018
+keywords: ["IDDCX_ADAPTER_CAPS structure"]
 ms.keywords: IDDCX_ADAPTER_CAPS, IDDCX_ADAPTER_CAPS structure [Display Devices], display.iddcx_adapter_caps, iddcx/IDDCX_ADAPTER_CAPS
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDDCX_ADAPTER_CAPS"
 req.header: iddcx.h

@@ -6,8 +6,8 @@ old-location: wdf\wdfchildlistbeginiteration.htm
 tech.root: wdf
 ms.assetid: b81dbad8-0e03-4183-a7b3-32c75a656575
 ms.date: 02/26/2018
+keywords: ["WdfChildListBeginIteration function"]
 ms.keywords: DFDeviceObjectChildListRef_98150ed0-3144-4fda-96ca-41573d3013bf.xml, WdfChildListBeginIteration, WdfChildListBeginIteration method, kmdf.wdfchildlistbeginiteration, wdf.wdfchildlistbeginiteration, wdfchildlist/WdfChildListBeginIteration
-ms.topic: function
 f1_keywords:
  - "wdfchildlist/WdfChildListBeginIteration"
 req.header: wdfchildlist.h

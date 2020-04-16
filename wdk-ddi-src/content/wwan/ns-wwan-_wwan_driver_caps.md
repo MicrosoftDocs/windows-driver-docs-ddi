@@ -6,8 +6,8 @@ old-location: netvista\wwan_driver_caps.htm
 tech.root: netvista
 ms.assetid: c0696ac6-d35e-402a-8cb5-d4f23b3b8072
 ms.date: 05/02/2018
+keywords: ["_WWAN_DRIVER_CAPS structure"]
 ms.keywords: "*PWWAN_DRIVER_CAPS, PWWAN_DRIVER_CAPS, PWWAN_DRIVER_CAPS structure pointer [Network Drivers Starting with Windows Vista], WWAN_DRIVER_CAPS, WWAN_DRIVER_CAPS structure [Network Drivers Starting with Windows Vista], WwanRef_6770f91c-0fe7-49a9-97cb-6af43e5b5727.xml, _WWAN_DRIVER_CAPS, netvista.wwan_driver_caps, wwan/PWWAN_DRIVER_CAPS, wwan/WWAN_DRIVER_CAPS"
-ms.topic: struct
 f1_keywords:
  - "wwan/WWAN_DRIVER_CAPS"
 req.header: wwan.h

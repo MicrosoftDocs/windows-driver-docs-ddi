@@ -6,8 +6,8 @@ old-location: stream\kscopyobjectbagitems.htm
 tech.root: stream
 ms.assetid: 5b3ee4f1-5c5a-413f-b927-96293cc87e98
 ms.date: 04/23/2018
+keywords: ["KsCopyObjectBagItems function"]
 ms.keywords: KsCopyObjectBagItems, KsCopyObjectBagItems function [Streaming Media Devices], avfunc_26fe6218-6e9e-4a1a-93c6-f8f2ca10abbb.xml, ks/KsCopyObjectBagItems, stream.kscopyobjectbagitems
-ms.topic: function
 f1_keywords:
  - "ks/KsCopyObjectBagItems"
 req.header: ks.h

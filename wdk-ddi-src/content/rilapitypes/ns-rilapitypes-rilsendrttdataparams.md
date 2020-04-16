@@ -6,8 +6,8 @@ old-location: netvista\rilsendrttdataparams.htm
 tech.root: netvista
 ms.assetid: 733b8ccc-5335-4c7e-bfc0-4618b0b3a4d8
 ms.date: 05/02/2018
+keywords: ["RILSENDRTTDATAPARAMS structure"]
 ms.keywords: "*LPRILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS, RILSENDRTTDATAPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendrttdataparams, ntddrilapitypes/RILSENDRTTDATAPARAMS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILSENDRTTDATAPARAMS"
 req.header: rilapitypes.h

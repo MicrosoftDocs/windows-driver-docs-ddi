@@ -5,7 +5,7 @@ description: Returns the next index value after the specified index value, wrapp
 tech.root: netvista
 ms.assetid: c17368bb-9abd-4d02-a94b-76dfdc344b54
 ms.date: 09/25/2019
-ms.topic: function
+keywords: ["NetRingIncrementIndex function"]
 f1_keywords:
  - "ring/RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: NetRingIncrementIndex

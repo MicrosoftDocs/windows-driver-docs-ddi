@@ -6,8 +6,8 @@ old-location: nfpdrivers\_secure_element_endpoint_info.htm
 tech.root: nfpdrivers
 ms.assetid: C1D812BD-55F0-44F7-BCC8-81CC758EDEF3
 ms.date: 02/15/2018
+keywords: ["_SECURE_ELEMENT_ENDPOINT_INFO structure"]
 ms.keywords: "*PSECURE_ELEMENT_ENDPOINT_INFO, P_SECURE_ELEMENT_ENDPOINT_INFO, P_SECURE_ELEMENT_ENDPOINT_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_ENDPOINT_INFO, SECURE_ELEMENT_ENDPOINT_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_ENDPOINT_INFO, nfcsedev/P_SECURE_ELEMENT_ENDPOINT_INFO, nfcsedev/_SECURE_ELEMENT_ENDPOINT_INFO, nfpdrivers._secure_element_endpoint_info"
-ms.topic: struct
 f1_keywords:
  - "nfcsedev/SECURE_ELEMENT_ENDPOINT_INFO"
 req.header: nfcsedev.h

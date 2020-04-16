@@ -6,8 +6,8 @@ old-location: storage\changermovemedium.htm
 tech.root: storage
 ms.assetid: 7532c8b5-e77b-4fd0-bac2-78254f6eb9f6
 ms.date: 03/29/2018
+keywords: ["ChangerMoveMedium function"]
 ms.keywords: ChangerMoveMedium, ChangerMoveMedium function [Storage Devices], chgrmini_a74d85d9-1b7c-45bc-a826-e60257192a09.xml, mcd/ChangerMoveMedium, storage.changermovemedium
-ms.topic: function
 f1_keywords:
  - "mcd/ChangerMoveMedium"
 req.header: mcd.h

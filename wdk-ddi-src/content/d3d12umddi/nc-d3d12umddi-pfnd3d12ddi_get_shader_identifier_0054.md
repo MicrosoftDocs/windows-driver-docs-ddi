@@ -4,7 +4,7 @@ title: PFND3D12DDI_GET_SHADER_IDENTIFIER_0054 (d3d12umddi.h)
 description: Retrieves the unique identifier for a shader that can be used in a shader record.
 ms.assetid: 8b805532-df68-406b-871b-9022d3d1114c
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_GET_SHADER_IDENTIFIER_0054 callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_GET_SHADER_IDENTIFIER_0054"
 req.header: d3d12umddi.h

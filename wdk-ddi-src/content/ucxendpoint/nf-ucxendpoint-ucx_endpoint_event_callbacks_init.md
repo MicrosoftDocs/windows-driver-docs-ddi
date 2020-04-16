@@ -6,8 +6,8 @@ old-location: buses\_ucx_endpoint_event_callbacks_init.htm
 tech.root: usbref
 ms.assetid: 1890052A-EE98-4749-ACF9-8321148F3828
 ms.date: 05/07/2018
+keywords: ["UCX_ENDPOINT_EVENT_CALLBACKS_INIT function"]
 ms.keywords: UCX_ENDPOINT_EVENT_CALLBACKS_INIT, UCX_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses], buses._ucx_endpoint_event_callbacks_init, ucxendpoint/UCX_ENDPOINT_EVENT_CALLBACKS_INIT
-ms.topic: function
 f1_keywords:
  - "ucxendpoint/UCX_ENDPOINT_EVENT_CALLBACKS_INIT"
 req.header: ucxendpoint.h

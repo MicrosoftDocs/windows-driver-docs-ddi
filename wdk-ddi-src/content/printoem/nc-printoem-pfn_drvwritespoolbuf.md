@@ -6,8 +6,8 @@ old-location: print\drvwritespoolbuf.htm
 tech.root: print
 ms.assetid: a0de6757-3be8-4c8f-bc6f-93c2e097fec7
 ms.date: 04/20/2018
+keywords: ["PFN_DrvWriteSpoolBuf callback function"]
 ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf callback function [Print Devices], PFN_DrvWriteSpoolBuf, PFN_DrvWriteSpoolBuf callback, print.drvwritespoolbuf, print_obsoletefunctions_06e6fe98-5851-4c2e-863a-5afe735321fb.xml, printoem/DrvWriteSpoolBuf
-ms.topic: callback
 f1_keywords:
  - "printoem/DrvWriteSpoolBuf"
 req.header: printoem.h

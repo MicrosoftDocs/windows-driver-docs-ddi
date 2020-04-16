@@ -6,8 +6,8 @@ old-location: stream\ksinitializedeviceprofile.htm
 tech.root: stream
 ms.assetid: E6AD21CE-C218-439F-A8F7-8E1AAF307A57
 ms.date: 04/23/2018
+keywords: ["KsInitializeDeviceProfile function"]
 ms.keywords: KsInitializeDeviceProfile, KsInitializeDeviceProfile function [Streaming Media Devices], ks/KsInitializeDeviceProfile, stream.ksinitializedeviceprofile
-ms.topic: function
 f1_keywords:
  - "ks/KsInitializeDeviceProfile"
 req.header: ks.h

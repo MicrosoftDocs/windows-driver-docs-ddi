@@ -5,8 +5,8 @@ description: Specifies arguments used to create a video processor.
 old-location: display\d3d12ddiarg_create_video_processor.htm
 ms.assetid: 2FA77D7D-E1CC-44BA-8725-7132682A1BD6
 ms.date: 05/10/2018
+keywords: ["D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 structure"]
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021, display.d3d12ddiarg_create_video_processor
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0021"
 req.header: d3d12umddi.h

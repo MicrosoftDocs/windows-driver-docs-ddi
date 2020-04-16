@@ -6,8 +6,8 @@ old-location: display\idarg_in_getmoveregions.htm
 tech.root: display
 ms.assetid: 8534d6bd-c959-4088-8227-51710fe721cf
 ms.date: 05/10/2018
+keywords: ["IDARG_IN_GETMOVEREGIONS structure"]
 ms.keywords: IDARG_IN_GETMOVEREGIONS, IDARG_IN_GETMOVEREGIONS structure [Display Devices], display.idarg_in_getmoveregions, iddcx/IDARG_IN_GETMOVEREGIONS
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDARG_IN_GETMOVEREGIONS"
 req.header: iddcx.h

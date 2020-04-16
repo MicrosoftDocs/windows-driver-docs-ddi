@@ -5,8 +5,8 @@ description: The RecycleCommandList function recycles a command list.
 old-location: display\recyclecommandlist.htm
 ms.assetid: 4cff7f3d-ba13-4389-bafc-edffc0697ce9
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_RECYCLECOMMANDLIST callback function"]
 ms.keywords: PFND3D11DDI_RECYCLECOMMANDLIST, PFND3D11DDI_RECYCLECOMMANDLIST callback, RecycleCommandList, RecycleCommandList callback function [Display Devices], UserModeDisplayDriverDx11_Functions_a917a4c2-4226-46e8-a696-8c51b2960bda.xml, d3d10umddi/RecycleCommandList, display.recyclecommandlist
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/RecycleCommandList"
 req.header: d3d10umddi.h

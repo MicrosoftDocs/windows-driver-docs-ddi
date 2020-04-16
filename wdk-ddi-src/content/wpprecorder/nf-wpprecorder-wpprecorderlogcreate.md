@@ -6,8 +6,8 @@ old-location: devtest\wpprecorderlogcreate.htm
 tech.root: devtest
 ms.assetid: 103796C6-989F-4FE3-A8E6-4B8F5648E521
 ms.date: 02/23/2018
+keywords: ["WppRecorderLogCreate macro"]
 ms.keywords: WppRecorderLogCreate, devtest.wpprecorderlogcreate, imp_WppRecorderLogCreate, imp_WppRecorderLogCreate function [Driver Development Tools], wpprecorder/imp_WppRecorderLogCreate
-ms.topic: macro
 f1_keywords:
  - "wpprecorder/imp_WppRecorderLogCreate"
 req.header: wpprecorder.h

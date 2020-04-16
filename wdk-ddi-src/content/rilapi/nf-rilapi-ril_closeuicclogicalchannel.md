@@ -6,8 +6,8 @@ old-location: netvista\ril_closeuicclogicalchannel.htm
 tech.root: netvista
 ms.assetid: 4cc0c9b0-8ddc-408e-bc49-81e5a19843d2
 ms.date: 05/02/2018
+keywords: ["RIL_CloseUiccLogicalChannel function"]
 ms.keywords: RIL_CloseUiccLogicalChannel, RIL_CloseUiccLogicalChannel method [Network Drivers Starting with Windows Vista], netvista.ril_closeuicclogicalchannel, rilapi/RIL_CloseUiccLogicalChannel
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_CloseUiccLogicalChannel"
 req.header: rilapi.h

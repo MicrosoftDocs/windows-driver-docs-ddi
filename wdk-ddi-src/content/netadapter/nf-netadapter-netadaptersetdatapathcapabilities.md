@@ -5,7 +5,7 @@ description: Sets the data path capabilities of the network adapter.
 tech.root: netvista
 ms.assetid: 00abe85f-5c61-4fc3-b863-ca31a5989376
 ms.date: 02/06/2018
-ms.topic: function
+keywords: ["NetAdapterSetDataPathCapabilities function"]
 f1_keywords:
  - "netadapter/NetAdapterSetDataPathCapabilities"
 ms.keywords: NetAdapterSetDataPathCapabilities

@@ -6,8 +6,8 @@ old-location: display\dxgi_ddi_base_functions.htm
 tech.root: display
 ms.assetid: c9fd9b21-4338-4633-903f-308763cbc301
 ms.date: 05/10/2018
+keywords: ["DXGI_DDI_BASE_FUNCTIONS structure"]
 ms.keywords: DXGI_DDI_BASE_FUNCTIONS, DXGI_DDI_BASE_FUNCTIONS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_f33992c1-f203-4058-a6c4-844b2ff8ffa9.xml, display.dxgi_ddi_base_functions, dxgiddi/DXGI_DDI_BASE_FUNCTIONS
-ms.topic: struct
 f1_keywords:
  - "dxgiddi/DXGI_DDI_BASE_FUNCTIONS"
 req.header: dxgiddi.h

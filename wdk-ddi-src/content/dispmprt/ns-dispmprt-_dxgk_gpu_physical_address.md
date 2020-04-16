@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 8ebb972f-d62f-462b-975b-dbac5d7a647b
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
+keywords: ["_DXGK_GPU_PHYSICAL_ADDRESS structure"]
 f1_keywords:
  - "dispmprt/_DXGK_GPU_PHYSICAL_ADDRESS"
 ms.prod: windows-hardware

@@ -4,7 +4,7 @@ title: GetMethodArgumentFromAcpi function (sensorsdriversutils.h)
 description: The GetMethodArgumentFromAcpi function reads the requested ACPI entry using the supplied method name.
 ms.assetid: 62776cea-ef29-48be-ae0d-ad460c7f910c
 ms.date: 04/19/2018
-ms.topic: function
+keywords: ["GetMethodArgumentFromAcpi function"]
 f1_keywords:
  - "sensorsdriversutils/GetMethodArgumentFromAcpi"
 ms.keywords: GetMethodArgumentFromAcpi

@@ -5,8 +5,8 @@ description: The pfnStateVsSamplerCb function causes the Microsoft Direct3D 10 r
 old-location: display\pfnstatevssamplercb.htm
 ms.assetid: 5f5dd2ee-72fb-450c-850a-f5546401cd96
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_STATE_VS_SAMPLER_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_VS_SAMPLER_CB, PFND3D10DDI_STATE_VS_SAMPLER_CB callback, d3d10state_functions_9573517c-75c9-4923-93a8-15ee5b5c4d70.xml, d3d10umddi/pfnStateVsSamplerCb, display.pfnstatevssamplercb, pfnStateVsSamplerCb, pfnStateVsSamplerCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateVsSamplerCb"
 req.header: d3d10umddi.h

@@ -6,8 +6,8 @@ old-location: storage\wmi_changer_problem_device_error.htm
 tech.root: storage
 ms.assetid: c2c0f2eb-cb35-4f23-beb6-7f0eaeda845a
 ms.date: 02/26/2018
+keywords: ["_WMI_CHANGER_PROBLEM_DEVICE_ERROR structure"]
 ms.keywords: "*PWMI_CHANGER_PROBLEM_DEVICE_ERROR, PWMI_CHANGER_PROBLEM_DEVICE_ERROR, PWMI_CHANGER_PROBLEM_DEVICE_ERROR structure pointer [Storage Devices], WMI_CHANGER_PROBLEM_DEVICE_ERROR, WMI_CHANGER_PROBLEM_DEVICE_ERROR structure [Storage Devices], _WMI_CHANGER_PROBLEM_DEVICE_ERROR, storage.wmi_changer_problem_device_error, structs-changer_0d8bac8e-b24c-4ff8-948e-0dd55b5624f0.xml, wmidata/PWMI_CHANGER_PROBLEM_DEVICE_ERROR, wmidata/WMI_CHANGER_PROBLEM_DEVICE_ERROR"
-ms.topic: struct
 f1_keywords:
  - "wmidata/WMI_CHANGER_PROBLEM_DEVICE_ERROR"
 req.header: wmidata.h

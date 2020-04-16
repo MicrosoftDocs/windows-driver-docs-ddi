@@ -5,8 +5,8 @@ description: DXGKDDI_SETTIMINGSFROMVIDPN is called to set or modify the display 
 old-location: display\dxgkddi_settimingsfromvidpn.htm
 ms.assetid: 7E991251-1738-41AD-83D6-60DD7E183D68
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_SETTIMINGSFROMVIDPN callback function"]
 ms.keywords: DXGKDDI_SETTIMINGSFROMVIDPN, DXGKDDI_SETTIMINGSFROMVIDPN callback, DXGKDDI_SETTIMINGSFROMVIDPN callback function [Display Devices], d3dkmddi/DXGKDDI_SETTIMINGSFROMVIDPN, display.dxgkddi_settimingsfromvidpn
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

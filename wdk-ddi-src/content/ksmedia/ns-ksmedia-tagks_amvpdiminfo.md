@@ -6,8 +6,8 @@ old-location: stream\ks_amvpdiminfo.htm
 tech.root: stream
 ms.assetid: 5b8126ee-ba47-4eaf-887a-764e17a20e03
 ms.date: 04/23/2018
+keywords: ["tagKS_AMVPDIMINFO structure"]
 ms.keywords: "*PKS_AMVPDIMINFO, KS_AMVPDIMINFO, KS_AMVPDIMINFO structure [Streaming Media Devices], PKS_AMVPDIMINFO, PKS_AMVPDIMINFO structure pointer [Streaming Media Devices], dvdref_4c6b6231-a3ef-49a5-8b27-c7ba0062c53a.xml, ksmedia/KS_AMVPDIMINFO, ksmedia/PKS_AMVPDIMINFO, stream.ks_amvpdiminfo, tagKS_AMVPDIMINFO"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KS_AMVPDIMINFO"
 req.header: ksmedia.h

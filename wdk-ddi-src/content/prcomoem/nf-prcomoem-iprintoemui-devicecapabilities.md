@@ -6,8 +6,8 @@ old-location: print\iprintoemui_devicecapabilities.htm
 tech.root: print
 ms.assetid: a3d3e986-41ab-489a-a930-b10e9989553f
 ms.date: 04/20/2018
+keywords: ["IPrintOemUI::DeviceCapabilities"]
 ms.keywords: DeviceCapabilities, DeviceCapabilities method [Print Devices], DeviceCapabilities method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],DeviceCapabilities method, IPrintOemUI.DeviceCapabilities, IPrintOemUI::DeviceCapabilities, prcomoem/IPrintOemUI::DeviceCapabilities, print.iprintoemui_devicecapabilities, print_unidrv-pscript_ui_c484fb57-6990-4a0c-848d-5992051cb71d.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemUI.DeviceCapabilities"
 req.header: prcomoem.h

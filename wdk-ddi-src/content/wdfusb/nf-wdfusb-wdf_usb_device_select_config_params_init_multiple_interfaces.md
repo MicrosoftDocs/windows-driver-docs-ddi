@@ -6,8 +6,8 @@ old-location: wdf\wdf_usb_device_select_config_params_init_multiple_interfaces.h
 tech.root: wdf
 ms.assetid: e8f33c5d-50a4-43ad-a69e-d667500044a7
 ms.date: 02/26/2018
+keywords: ["WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES function"]
 ms.keywords: DFUsbRef_185af305-36be-46f3-85d7-dfb3b3d4d6b8.xml, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES function, kmdf.wdf_usb_device_select_config_params_init_multiple_interfaces, wdf.wdf_usb_device_select_config_params_init_multiple_interfaces, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES
-ms.topic: function
 f1_keywords:
  - "wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES"
 req.header: wdfusb.h

@@ -6,8 +6,8 @@ old-location: display\d3dkmdt_vidpn_target_mode.htm
 tech.root: display
 ms.assetid: 9a20e955-7ef1-4cb7-8081-42fb69b55fb6
 ms.date: 05/10/2018
+keywords: ["_D3DKMDT_VIDPN_TARGET_MODE structure"]
 ms.keywords: D3DKMDT_VIDPN_TARGET_MODE, D3DKMDT_VIDPN_TARGET_MODE structure [Display Devices], DmStructs_a1ac1f39-cd89-458b-95b5-91fd5cbc507e.xml, _D3DKMDT_VIDPN_TARGET_MODE, d3dkmdt/D3DKMDT_VIDPN_TARGET_MODE, display.d3dkmdt_vidpn_target_mode
-ms.topic: struct
 f1_keywords:
  - "d3dkmdt/D3DKMDT_VIDPN_TARGET_MODE"
 req.header: d3dkmdt.h

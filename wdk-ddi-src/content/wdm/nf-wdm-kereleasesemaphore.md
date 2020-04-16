@@ -6,8 +6,8 @@ old-location: kernel\kereleasesemaphore.htm
 tech.root: kernel
 ms.assetid: 357a97e6-cb19-43df-9b90-db199c712878
 ms.date: 04/30/2018
+keywords: ["KeReleaseSemaphore function"]
 ms.keywords: KeReleaseSemaphore, KeReleaseSemaphore routine [Kernel-Mode Driver Architecture], k105_43c9caa4-267a-43c4-8b48-f030e1c2f0d5.xml, kernel.kereleasesemaphore, wdm/KeReleaseSemaphore
-ms.topic: function
 f1_keywords:
  - "wdm/KeReleaseSemaphore"
 req.header: wdm.h

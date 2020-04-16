@@ -6,8 +6,8 @@ old-location: kernel\reg_replace_key_information.htm
 tech.root: kernel
 ms.assetid: bbe60db6-85ae-480c-8852-80935a52697e
 ms.date: 04/30/2018
+keywords: ["_REG_REPLACE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_REPLACE_KEY_INFORMATION, PREG_REPLACE_KEY_INFORMATION, PREG_REPLACE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_REPLACE_KEY_INFORMATION, REG_REPLACE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_REPLACE_KEY_INFORMATION, kernel.reg_replace_key_information, kstruct_d_29e33c32-67fc-48e0-a976-9830278009bc.xml, wdm/PREG_REPLACE_KEY_INFORMATION, wdm/REG_REPLACE_KEY_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "wdm/REG_REPLACE_KEY_INFORMATION"
 req.header: wdm.h

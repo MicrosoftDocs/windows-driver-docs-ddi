@@ -6,8 +6,8 @@ old-location: ifsk\rxceinitiatevcdisconnect.htm
 tech.root: ifsk
 ms.assetid: 978ddc02-9ff0-4798-879c-e4bc99081dcb
 ms.date: 04/16/2018
+keywords: ["RxCeInitiateVCDisconnect function"]
 ms.keywords: RxCeInitiateVCDisconnect, RxCeInitiateVCDisconnect function [Installable File System Drivers], ifsk.rxceinitiatevcdisconnect, rxce/RxCeInitiateVCDisconnect, rxref_1893aa5d-dda4-49f7-b4bb-dc9bdd75154a.xml
-ms.topic: function
 f1_keywords:
  - "rxce/RxCeInitiateVCDisconnect"
 req.header: rxce.h

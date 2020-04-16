@@ -5,8 +5,8 @@ description: The CreateDevice(D3D10) function creates a graphics context that is
 old-location: display\createdevice_d3d10_.htm
 ms.assetid: c69eedb1-c975-412c-aa9f-cf64a702f937
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CREATEDEVICE callback function"]
 ms.keywords: CreateDevice, CreateDevice callback function [Display Devices], PFND3D10DDI_CREATEDEVICE, PFND3D10DDI_CREATEDEVICE callback, UserModeDisplayDriverDx10_Functions_4d3d9d4c-e03b-46a9-a62a-cb49f071c0a2.xml, d3d10umddi/CreateDevice, display.createdevice_d3d10_
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

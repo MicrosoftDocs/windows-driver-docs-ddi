@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: 3af300cf-1518-49bc-8192-9fa3e6c64981
 ms.author: windowsdriverdev
 ms.date: 11/07/2019
-ms.topic: function
+keywords: ["NET_EXTENSION_QUERY_INIT function"]
 f1_keywords:
  - "netadapterpacket/NET_EXTENSION_QUERY_INIT"
 ms.keywords: NET_EXTENSION_QUERY_INIT

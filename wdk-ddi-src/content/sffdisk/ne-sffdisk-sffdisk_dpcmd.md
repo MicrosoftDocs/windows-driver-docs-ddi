@@ -6,8 +6,8 @@ old-location: sd\sffdisk_dpcmd.htm
 tech.root: SD
 ms.assetid: 55a034e7-68fa-4f4a-b7c6-da215405375a
 ms.date: 02/15/2018
+keywords: ["SFFDISK_DPCMD enumeration"]
 ms.keywords: SD.sffdisk_dpcmd, SFFDISK_DPCMD, SFFDISK_DPCMD enumeration [Buses], SFFDISK_DP_IS_SUPPORTED, SFFDISK_DP_LOCK_DEVICE, SFFDISK_DP_RESET_DEVICE_ALL_DATA, SFFDISK_DP_SET_PASSWORD, SFFDISK_DP_UNLOCK_DEVICE, sd-structs_794e7b1e-49e0-4385-ab34-235f00e1a7b2.xml, sffdisk/SFFDISK_DPCMD, sffdisk/SFFDISK_DP_IS_SUPPORTED, sffdisk/SFFDISK_DP_LOCK_DEVICE, sffdisk/SFFDISK_DP_RESET_DEVICE_ALL_DATA, sffdisk/SFFDISK_DP_SET_PASSWORD, sffdisk/SFFDISK_DP_UNLOCK_DEVICE
-ms.topic: enum
 f1_keywords:
  - "sffdisk/SFFDISK_DPCMD"
 req.header: sffdisk.h

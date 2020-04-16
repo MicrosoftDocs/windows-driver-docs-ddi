@@ -6,8 +6,8 @@ old-location: devtest\wpprecorderconfigure.htm
 tech.root: devtest
 ms.assetid: 995E4606-F987-46A7-8310-28E8E9C7682C
 ms.date: 02/23/2018
+keywords: ["WppRecorderConfigure macro"]
 ms.keywords: WppRecorderConfigure, devtest.wpprecorderconfigure, imp_WppRecorderConfigure, imp_WppRecorderConfigure function [Driver Development Tools], wpprecorder/imp_WppRecorderConfigure
-ms.topic: macro
 f1_keywords:
  - "wpprecorder/imp_WppRecorderConfigure"
 req.header: wpprecorder.h

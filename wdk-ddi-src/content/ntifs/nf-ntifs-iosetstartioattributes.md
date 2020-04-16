@@ -6,8 +6,8 @@ old-location: kernel\iosetstartioattributes.htm
 tech.root: kernel
 ms.assetid: 47ae3578-231c-49c8-a851-9f165db27fb1
 ms.date: 04/30/2018
+keywords: ["IoSetStartIoAttributes function"]
 ms.keywords: IoSetStartIoAttributes, IoSetStartIoAttributes routine [Kernel-Mode Driver Architecture], k104_cf8613cc-f891-45f7-816c-224b3294f8dd.xml, kernel.iosetstartioattributes, wdm/IoSetStartIoAttributes
-ms.topic: function
 f1_keywords:
  - "ntifs/IoSetStartIoAttributes"
 req.header: ntifs.h

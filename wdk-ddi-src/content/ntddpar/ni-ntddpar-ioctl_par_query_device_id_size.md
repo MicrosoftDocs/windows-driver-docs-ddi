@@ -6,8 +6,8 @@ old-location: parports\ioctl_par_query_device_id_size.htm
 tech.root: parports
 ms.assetid: f593e36e-8c2b-4cdc-ade1-d1e260f37667
 ms.date: 02/15/2018
+keywords: ["IOCTL_PAR_QUERY_DEVICE_ID_SIZE IOCTL"]
 ms.keywords: IOCTL_PAR_QUERY_DEVICE_ID_SIZE, IOCTL_PAR_QUERY_DEVICE_ID_SIZE control code [Parallel Ports], cisspd_a1c3f5cd-d1bc-40e5-a1e0-dc4306107826.xml, ntddpar/IOCTL_PAR_QUERY_DEVICE_ID_SIZE, parports.ioctl_par_query_device_id_size
-ms.topic: ioctl
 f1_keywords:
  - "ntddpar/IOCTL_PAR_QUERY_DEVICE_ID_SIZE"
 req.header: ntddpar.h

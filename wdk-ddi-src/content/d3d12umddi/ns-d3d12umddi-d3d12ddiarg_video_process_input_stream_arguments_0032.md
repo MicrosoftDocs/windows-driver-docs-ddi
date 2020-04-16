@@ -5,8 +5,8 @@ description: The video process input stream arguments.
 old-location: display\d3d12ddiarg-video-process-input-stream-arguments-0032.htm
 ms.assetid: b6eafa0c-1b5e-4723-9317-60f1507f12ea
 ms.date: 04/16/2018
+keywords: ["D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032 structure"]
 ms.keywords: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032 structure [Display Devices], d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032, display.d3d12ddiarg-video-process-input-stream-arguments-0032
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032"
 req.header: d3d12umddi.h

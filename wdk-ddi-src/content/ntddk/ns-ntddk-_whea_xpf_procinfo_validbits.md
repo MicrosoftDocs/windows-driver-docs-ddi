@@ -6,8 +6,8 @@ old-location: whea\whea_xpf_procinfo_validbits.htm
 tech.root: whea
 ms.assetid: ca0eef79-d990-4a82-b2d6-a51e3790cfc2
 ms.date: 02/20/2018
+keywords: ["_WHEA_XPF_PROCINFO_VALIDBITS structure"]
 ms.keywords: "*PWHEA_XPF_PROCINFO_VALIDBITS, PWHEA_XPF_PROCINFO_VALIDBITS, PWHEA_XPF_PROCINFO_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_XPF_PROCINFO_VALIDBITS, WHEA_XPF_PROCINFO_VALIDBITS union [WHEA Drivers and Applications], _WHEA_XPF_PROCINFO_VALIDBITS, ntddk/PWHEA_XPF_PROCINFO_VALIDBITS, ntddk/WHEA_XPF_PROCINFO_VALIDBITS, whea.whea_xpf_procinfo_validbits, whearef_6ebbdab8-0590-4479-a8ab-ea9bacf69399.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_XPF_PROCINFO_VALIDBITS"
 req.header: ntddk.h

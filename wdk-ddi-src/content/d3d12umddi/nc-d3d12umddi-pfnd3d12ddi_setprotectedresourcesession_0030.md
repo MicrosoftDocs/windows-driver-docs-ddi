@@ -5,8 +5,8 @@ description: Used to set a protected resource session.
 old-location: display\pfnd3d12ddi_setprotectedresourcesession_0030_.htm
 ms.assetid: 1AF1FA8A-3A7E-4277-B6BE-C41A5C4416B6
 ms.date: 05/10/2018
+keywords: ["PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030 callback function"]
 ms.keywords: PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030, PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030  callback, PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030, display.pfnd3d12ddi_setprotectedresourcesession_0030_
-ms.topic: callback
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030"
 req.header: d3d12umddi.h

@@ -4,7 +4,7 @@ title: PFND3D12DDI_RECLAIMRESOURCES_0001 (d3d12umddi.h)
 description: Implemented by the client driver to reclaim resources.
 ms.assetid: 3a8ee9d9-b122-4fe8-8243-70c3872ab95d
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_RECLAIMRESOURCES_0001 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

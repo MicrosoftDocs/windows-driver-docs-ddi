@@ -6,8 +6,8 @@ old-location: ifsk\fltfastiopreparemdlwrite.htm
 tech.root: ifsk
 ms.assetid: 7C48D179-35FA-44E1-B959-BD857AAA28E1
 ms.date: 04/16/2018
+keywords: ["FsRtlPrepareMdlWriteDev function"]
 ms.keywords: FltFastIoPrepareMdlWrite, FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], fltkernel/FsRtlPrepareMdlWriteDev, ifsk.fltfastiopreparemdlwrite
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlPrepareMdlWriteDev"
 req.header: ntifs.h

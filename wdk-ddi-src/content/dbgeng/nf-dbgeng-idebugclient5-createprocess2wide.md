@@ -6,8 +6,8 @@ old-location: debugger\createprocess2wide.htm
 tech.root: debugger
 ms.assetid: b032ca68-5ac5-4a19-84fe-92058905a1d7
 ms.date: 05/03/2018
+keywords: ["IDebugClient5::CreateProcess2Wide"]
 ms.keywords: CreateProcess2Wide, CreateProcess2Wide method [Windows Debugging], CreateProcess2Wide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],CreateProcess2Wide method, IDebugClient5.CreateProcess2Wide, IDebugClient5::CreateProcess2Wide, dbgeng/IDebugClient5::CreateProcess2Wide, debugger.createprocess2wide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugClient5.CreateProcess2Wide"
 req.header: dbgeng.h

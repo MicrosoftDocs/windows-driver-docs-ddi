@@ -6,8 +6,8 @@ old-location: stream\usbcamd_bulkreadwrite.htm
 tech.root: stream
 ms.assetid: 4888e6a7-be44-4ed9-80be-9dd7641653ef
 ms.date: 04/23/2018
+keywords: ["PFNUSBCAMD_BulkReadWrite callback function"]
 ms.keywords: PFNUSBCAMD_BulkReadWrite, USBCAMD_BulkReadWrite, USBCAMD_BulkReadWrite routine [Streaming Media Devices], stream.usbcamd_bulkreadwrite, usbcamdi/USBCAMD_BulkReadWrite, usbcmdpr_6044cfed-1a8c-48a5-ac28-16c8ac151fcc.xml
-ms.topic: callback
 f1_keywords:
  - "usbcamdi/USBCAMD_BulkReadWrite"
 req.header: usbcamdi.h

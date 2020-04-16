@@ -5,7 +5,7 @@ description: The DataRangeIntersection method determines the highest quality int
 tech.root: audio
 ms.assetid: 4426949b-74c5-48b4-8a06-fad96a8ab743
 ms.date: 12/28/2018
-ms.topic: method
+keywords: ["IMiniport::DataRangeIntersection"]
 f1_keywords:
  - "portcls/IMiniport.DataRangeIntersection"
 ms.keywords: IMiniport::DataRangeIntersection, DataRangeIntersection, IMiniport.DataRangeIntersection, IMiniport::DataRangeIntersection, IMiniport.DataRangeIntersection

@@ -6,8 +6,8 @@ old-location: kernel\rtl_osversioninfow.htm
 tech.root: kernel
 ms.assetid: 04e50a2c-eb85-4fc8-9751-798397eddf95
 ms.date: 04/30/2018
+keywords: ["_OSVERSIONINFOW structure"]
 ms.keywords: "*LPOSVERSIONINFOW, *POSVERSIONINFOW, *PRTL_OSVERSIONINFOW, OSVERSIONINFO, OSVERSIONINFOW, PRTL_OSVERSIONINFOW, PRTL_OSVERSIONINFOW structure pointer [Kernel-Mode Driver Architecture], RTL_OSVERSIONINFOW, RTL_OSVERSIONINFOW structure [Kernel-Mode Driver Architecture], _OSVERSIONINFOW, kernel.rtl_osversioninfow, kstruct_d_61d86312-0550-4bce-81c8-bb29551cc586.xml, wdm/PRTL_OSVERSIONINFOW, wdm/RTL_OSVERSIONINFOW"
-ms.topic: struct
 f1_keywords:
  - "wdm/RTL_OSVERSIONINFOW"
 req.header: wdm.h

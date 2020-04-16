@@ -6,8 +6,8 @@ old-location: audio\iservicegroup_addmember.htm
 tech.root: audio
 ms.assetid: 1eddb631-db85-4243-89a4-a4ab042cee28
 ms.date: 05/08/2018
+keywords: ["IServiceGroup::AddMember"]
 ms.keywords: AddMember, AddMember method [Audio Devices], AddMember method [Audio Devices],IServiceGroup interface, IServiceGroup interface [Audio Devices],AddMember method, IServiceGroup.AddMember, IServiceGroup::AddMember, audio.iservicegroup_addmember, audmp-routines_0d318d56-28e9-4e42-84b3-1d0eb4110f71.xml, portcls/IServiceGroup::AddMember
-ms.topic: method
 f1_keywords:
  - "portcls/IServiceGroup.AddMember"
 req.header: portcls.h

@@ -6,8 +6,8 @@ old-location: wdf\ipowerpolicycallbackwakefroms0_ondisarmwakefroms0.htm
 tech.root: wdf
 ms.assetid: 04c1eecd-c87f-45c5-be7b-0fbd8e114594
 ms.date: 02/26/2018
+keywords: ["IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0"]
 ms.keywords: IPowerPolicyCallbackWakeFromS0 interface,OnDisarmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0.OnDisarmWakeFromS0, IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0, OnDisarmWakeFromS0, OnDisarmWakeFromS0 method, OnDisarmWakeFromS0 method,IPowerPolicyCallbackWakeFromS0 interface, UMDFDeviceObjectRef_f12fda31-6979-43bf-af04-e46814728ed4.xml, umdf.ipowerpolicycallbackwakefroms0_ondisarmwakefroms0, wdf.ipowerpolicycallbackwakefroms0_ondisarmwakefroms0, wudfddi/IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0
-ms.topic: method
 f1_keywords:
  - "wudfddi/IPowerPolicyCallbackWakeFromS0.OnDisarmWakeFromS0"
 req.header: wudfddi.h

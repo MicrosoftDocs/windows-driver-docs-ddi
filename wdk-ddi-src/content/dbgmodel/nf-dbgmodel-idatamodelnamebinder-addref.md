@@ -4,7 +4,7 @@ title: IDataModelNameBinder::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: ce08a583-95f5-49b0-aa01-e509e844a7c9
 ms.date: 09/21/2018
-ms.topic: method
+keywords: ["IDataModelNameBinder::AddRef"]
 f1_keywords:
  - "dbgmodel/IDataModelNameBinder.AddRef"
 ms.keywords: IDataModelNameBinder::AddRef, AddRef, IDataModelNameBinder.AddRef, IDataModelNameBinder::AddRef, IDataModelNameBinder.AddRef

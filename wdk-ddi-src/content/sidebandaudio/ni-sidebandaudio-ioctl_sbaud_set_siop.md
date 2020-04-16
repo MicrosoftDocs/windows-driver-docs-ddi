@@ -4,7 +4,7 @@ title: IOCTL_SBAUD_SET_SIOP (sidebandaudio.h)
 description: 
 ms.assetid: 64a9ef57-a054-45de-b6e3-284617747d51
 ms.date: 10/05/2018
-ms.topic: ioctl
+keywords: ["IOCTL_SBAUD_SET_SIOP IOCTL"]
 f1_keywords:
  - "sidebandaudio/IOCTL_SBAUD_SET_SIOP"
 req.header: sidebandaudio.h

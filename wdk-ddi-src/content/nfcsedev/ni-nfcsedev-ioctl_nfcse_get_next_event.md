@@ -6,8 +6,8 @@ old-location: nfpdrivers\ioctl_nfcse_get_next_event.htm
 tech.root: nfpdrivers
 ms.assetid: B142BB21-D70E-4BA2-B2C1-60468FA8378E
 ms.date: 02/15/2018
+keywords: ["IOCTL_NFCSE_GET_NEXT_EVENT IOCTL"]
 ms.keywords: IOCTL_NFCSE_GET_NEXT_EVENT, IOCTL_NFCSE_GET_NEXT_EVENT control, IOCTL_NFCSE_GET_NEXT_EVENT control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_GET_NEXT_EVENT, nfcsedev/IOCTL_NFCSE_GET_NEXT_EVENT, nfpdrivers.ioctl_nfcse_get_next_event
-ms.topic: ioctl
 f1_keywords:
  - "nfcsedev/IOCTL_NFCSE_GET_NEXT_EVENT"
 req.header: nfcsedev.h

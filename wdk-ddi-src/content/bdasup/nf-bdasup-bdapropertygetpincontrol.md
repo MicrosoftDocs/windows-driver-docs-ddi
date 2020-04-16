@@ -6,8 +6,8 @@ old-location: stream\bdapropertygetpincontrol.htm
 tech.root: stream
 ms.assetid: ab240a95-6308-4953-95f6-9baa280ecf99
 ms.date: 04/23/2018
+keywords: ["BdaPropertyGetPinControl function"]
 ms.keywords: BdaPropertyGetPinControl, BdaPropertyGetPinControl function [Streaming Media Devices], bdaref_f2db3de1-bfa0-4ad9-a537-6cc46f972984.xml, bdasup/BdaPropertyGetPinControl, stream.bdapropertygetpincontrol
-ms.topic: function
 f1_keywords:
  - "bdasup/BdaPropertyGetPinControl"
 req.header: bdasup.h

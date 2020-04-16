@@ -6,8 +6,8 @@ old-location: image\istidevice_subscribe.htm
 tech.root: image
 ms.assetid: 6266b311-6846-4615-a686-b68b00001fe7
 ms.date: 05/03/2018
+keywords: ["IStiDevice::Subscribe"]
 ms.keywords: IStiDevice interface [Imaging Devices],Subscribe method, IStiDevice.Subscribe, IStiDevice::Subscribe, Subscribe, Subscribe method [Imaging Devices], Subscribe method [Imaging Devices],IStiDevice interface, image.istidevice_subscribe, sti/IStiDevice::Subscribe, stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml
-ms.topic: method
 f1_keywords:
  - "sti/IStiDevice.Subscribe"
 req.header: sti.h

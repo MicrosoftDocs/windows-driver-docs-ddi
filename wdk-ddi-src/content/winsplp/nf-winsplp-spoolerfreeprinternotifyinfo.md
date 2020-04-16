@@ -6,8 +6,8 @@ old-location: print\spoolerfreeprinternotifyinfo.htm
 tech.root: print
 ms.assetid: 5EA31AC4-FFAF-4AB8-B471-32B823F35D2F
 ms.date: 04/20/2018
+keywords: ["SpoolerFreePrinterNotifyInfo function"]
 ms.keywords: SpoolerFreePrinterNotifyInfo, SpoolerFreePrinterNotifyInfo function [Print Devices], print.spoolerfreeprinternotifyinfo, winsplp/SpoolerFreePrinterNotifyInfo
-ms.topic: function
 f1_keywords:
  - "winsplp/SpoolerFreePrinterNotifyInfo"
 req.header: winsplp.h

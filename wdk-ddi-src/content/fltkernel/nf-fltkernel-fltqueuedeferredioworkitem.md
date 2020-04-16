@@ -6,8 +6,8 @@ old-location: ifsk\fltqueuedeferredioworkitem.htm
 tech.root: ifsk
 ms.assetid: c6a51b9b-544e-4595-842a-76c667928350
 ms.date: 04/16/2018
+keywords: ["FltQueueDeferredIoWorkItem function"]
 ms.keywords: FltApiRef_p_to_z_df42429d-485c-4c28-a9e7-b334d7ad52d7.xml, FltQueueDeferredIoWorkItem, FltQueueDeferredIoWorkItem routine [Installable File System Drivers], fltkernel/FltQueueDeferredIoWorkItem, ifsk.fltqueuedeferredioworkitem
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltQueueDeferredIoWorkItem"
 req.header: fltkernel.h

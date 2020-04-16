@@ -5,7 +5,7 @@ description: The EvtMbbDeviceCreateAdapter callback function is implemented by t
 tech.root: netvista
 ms.assetid: db841566-dd24-4687-b00c-1bf2a22f4243
 ms.date: 02/06/2019
-ms.topic: callback
+keywords: ["EVT_MBB_DEVICE_CREATE_ADAPTER callback function"]
 f1_keywords:
  - "mbbcx/-	EVT_MBB_DEVICE_CREATE_ADAPTER"
 req.header: mbbcx.h

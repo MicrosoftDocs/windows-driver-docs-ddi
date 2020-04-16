@@ -6,8 +6,8 @@ old-location: debugger\extremotetyped_set_bool.htm
 tech.root: debugger
 ms.assetid: e75c17d2-fdf7-4dba-9892-74c764956924
 ms.date: 01/19/2018
+keywords: ["ExtCheckedPointer::Set method"]
 ms.keywords: Set method [Windows Debugging], Set, ExtBuffer::Set, ExtCheckedPointer, ExtRemoteTyped class [Windows Debugging], Set method, ExtCheckedPointer::Set, ExtBuffer, debugger.extremotetyped_set_bool, Set method [Windows Debugging], ExtRemoteTyped class
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.Set"
 req.header: engextcpp.hpp

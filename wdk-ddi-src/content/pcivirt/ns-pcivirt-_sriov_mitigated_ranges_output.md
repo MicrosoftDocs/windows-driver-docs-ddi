@@ -6,8 +6,8 @@ old-location: pci\sriov_mitigated_ranges_output.htm
 tech.root: PCI
 ms.assetid: f33f602e-0bce-4ac2-8bd8-8640b2376278
 ms.date: 02/24/2018
+keywords: ["_SRIOV_MITIGATED_RANGES_OUTPUT structure"]
 ms.keywords: "*PSRIOV_MITIGATED_RANGES_OUTPUT, PCI.sriov_mitigated_ranges_output, SRIOV_MITIGATED_RANGES_OUTPUT, SRIOV_MITIGATED_RANGES_OUTPUT structure [Buses], _SRIOV_MITIGATED_RANGES_OUTPUT, pcivirt/SRIOV_MITIGATED_RANGES_OUTPUT"
-ms.topic: struct
 f1_keywords:
  - "pcivirt/SRIOV_MITIGATED_RANGES_OUTPUT"
 req.header: pcivirt.h

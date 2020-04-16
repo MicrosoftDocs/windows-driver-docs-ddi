@@ -6,8 +6,8 @@ old-location: storage\scsi_wmi_request_block.htm
 tech.root: storage
 ms.assetid: 6dc10c3a-b47e-42c3-a209-34977fb219f1
 ms.date: 03/29/2018
+keywords: ["_SCSI_WMI_REQUEST_BLOCK structure"]
 ms.keywords: "*PSCSI_WMI_REQUEST_BLOCK, PSCSI_WMI_REQUEST_BLOCK, PSCSI_WMI_REQUEST_BLOCK structure pointer [Storage Devices], SCSI_WMI_REQUEST_BLOCK, SCSI_WMI_REQUEST_BLOCK structure [Storage Devices], _SCSI_WMI_REQUEST_BLOCK, srb/PSCSI_WMI_REQUEST_BLOCK, srb/SCSI_WMI_REQUEST_BLOCK, storage.scsi_wmi_request_block, structs-scsibus_6188bca6-990b-4471-b8ea-2cd5b2b27d51.xml"
-ms.topic: struct
 f1_keywords:
  - "minitape/SCSI_WMI_REQUEST_BLOCK"
 req.header: minitape.h

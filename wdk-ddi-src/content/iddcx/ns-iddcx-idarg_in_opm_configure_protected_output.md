@@ -6,8 +6,8 @@ old-location: display\idarg_in_opm_configure_protected_output.htm
 tech.root: display
 ms.assetid: 523b904c-c833-40f2-8173-7ec1c6687b26
 ms.date: 05/10/2018
+keywords: ["IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT structure"]
 ms.keywords: IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT, IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT structure [Display Devices], display.idarg_in_opm_configure_protected_output, iddcx/IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT"
 req.header: iddcx.h

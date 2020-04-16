@@ -6,8 +6,8 @@ old-location: image\sti_diag.htm
 tech.root: image
 ms.assetid: 07caa8b0-849c-4ad9-9adb-b1726edc9234
 ms.date: 05/03/2018
+keywords: ["_STI_DIAG structure"]
 ms.keywords: "*LPSTI_DIAG, DIAG, LPSTI_DIAG, LPSTI_DIAG structure pointer [Imaging Devices], STI_DIAG, STI_DIAG structure [Imaging Devices], _STI_DIAG, image.sti_diag, sti/LPSTI_DIAG, sti/STI_DIAG, stifnc_793c0930-51bf-46b5-89c9-9ddaf91a1fee.xml"
-ms.topic: struct
 f1_keywords:
  - "sti/STI_DIAG"
 req.header: sti.h

@@ -6,8 +6,8 @@ old-location: netvista\ndismcosendnetbufferlistscomplete.htm
 tech.root: netvista
 ms.assetid: c4978122-6d13-4e9b-8eb7-d06cd7372268
 ms.date: 05/02/2018
+keywords: ["NdisMCoSendNetBufferListsComplete function"]
 ms.keywords: NdisMCoSendNetBufferListsComplete, NdisMCoSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_49470611-47cb-4778-8723-4acc2ebbfb81.xml, ndis/NdisMCoSendNetBufferListsComplete, netvista.ndismcosendnetbufferlistscomplete
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMCoSendNetBufferListsComplete"
 req.header: ndis.h

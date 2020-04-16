@@ -6,8 +6,8 @@ old-location: debugger\getfieldtypeandoffsetwide.htm
 tech.root: debugger
 ms.assetid: b4e38b33-2f23-4439-b0bc-ab3524e5180e
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::GetFieldTypeAndOffsetWide"]
 ms.keywords: GetFieldTypeAndOffsetWide, GetFieldTypeAndOffsetWide method [Windows Debugging], GetFieldTypeAndOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFieldTypeAndOffsetWide method, IDebugSymbols3.GetFieldTypeAndOffsetWide, IDebugSymbols3::GetFieldTypeAndOffsetWide, dbgeng/IDebugSymbols3::GetFieldTypeAndOffsetWide, debugger.getfieldtypeandoffsetwide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetFieldTypeAndOffsetWide"
 req.header: dbgeng.h

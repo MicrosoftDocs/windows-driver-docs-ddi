@@ -5,8 +5,8 @@ description: Content protection callbacks.
 old-location: display\d3d12ddi-content-protection-callbacks-0030.htm
 ms.assetid: a3a9b862-872e-4a1e-bb80-1831db983b28
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030 structure"]
 ms.keywords: D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030, D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030 structure [Display Devices], d3d12umddi/D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030, display.d3d12ddi-content-protection-callbacks-0030
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030"
 req.header: d3d12umddi.h

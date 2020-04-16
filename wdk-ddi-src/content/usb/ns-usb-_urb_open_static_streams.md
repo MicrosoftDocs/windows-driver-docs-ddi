@@ -6,8 +6,8 @@ old-location: buses\_urb_open_basic_streams.htm
 tech.root: usbref
 ms.assetid: B3C329D6-541B-410D-A9AB-AF91F1141DFD
 ms.date: 05/07/2018
+keywords: ["_URB_OPEN_STATIC_STREAMS structure"]
 ms.keywords: "_URB_OPEN_STATIC_STREAMS, _URB_OPEN_STATIC_STREAMS structure [Buses], buses._urb_open_basic_streams, usb/_URB_OPEN_STATIC_STREAMS"
-ms.topic: struct
 f1_keywords:
  - "usb/_URB_OPEN_STATIC_STREAMS"
 req.header: usb.h

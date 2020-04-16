@@ -5,8 +5,8 @@ description: The pfnAssignTargetModeSet function assigns a target mode set to a 
 old-location: display\dxgk_vidpn_interface_pfnassigntargetmodeset.htm
 ms.assetid: 846c6dd5-d4f8-4835-83a2-994725deaf36
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_VIDPN_ASSIGNTARGETMODESET callback function"]
 ms.keywords: DXGKDDI_VIDPN_ASSIGNTARGETMODESET, DXGKDDI_VIDPN_ASSIGNTARGETMODESET callback, VidPnFunctions_7051492a-0560-4898-8532-60e66ebcb001.xml, d3dkmddi/pfnAssignTargetModeSet, display.dxgk_vidpn_interface_pfnassigntargetmodeset, pfnAssignTargetModeSet, pfnAssignTargetModeSet callback function [Display Devices]
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

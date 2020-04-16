@@ -6,8 +6,8 @@ old-location: display\iddcx_target_mode.htm
 tech.root: display
 ms.assetid: 10bb23fa-ff1e-4bda-ba64-59a19da5f87e
 ms.date: 05/10/2018
+keywords: ["IDDCX_TARGET_MODE structure"]
 ms.keywords: IDDCX_TARGET_MODE, IDDCX_TARGET_MODE structure [Display Devices], display.iddcx_target_mode, iddcx/IDDCX_TARGET_MODE
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDDCX_TARGET_MODE"
 req.header: iddcx.h

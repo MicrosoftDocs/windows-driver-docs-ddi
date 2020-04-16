@@ -6,8 +6,8 @@ old-location: wdf\iqueuecallbackiostop_oniostop.htm
 tech.root: wdf
 ms.assetid: baa48d1b-b7da-4f89-b2e8-9a9ae2086527
 ms.date: 02/26/2018
+keywords: ["IQueueCallbackIoStop::OnIoStop"]
 ms.keywords: IQueueCallbackIoStop interface,OnIoStop method, IQueueCallbackIoStop.OnIoStop, IQueueCallbackIoStop::OnIoStop, OnIoStop, OnIoStop method, OnIoStop method,IQueueCallbackIoStop interface, UMDFQueueObjectRef_5de69aa4-be79-45c4-9ee4-1628741ca249.xml, umdf.iqueuecallbackiostop_oniostop, wdf.iqueuecallbackiostop_oniostop, wudfddi/IQueueCallbackIoStop::OnIoStop
-ms.topic: method
 f1_keywords:
  - "wudfddi/IQueueCallbackIoStop.OnIoStop"
 req.header: wudfddi.h

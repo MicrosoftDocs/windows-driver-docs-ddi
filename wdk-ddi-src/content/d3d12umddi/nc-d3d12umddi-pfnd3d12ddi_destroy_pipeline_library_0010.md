@@ -4,7 +4,7 @@ title: PFND3D12DDI_DESTROY_PIPELINE_LIBRARY_0010 (d3d12umddi.h)
 description: Destroys the pipeline library.
 ms.assetid: c57be6ff-bfd1-4709-96a1-e4b9552c29b9
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_DESTROY_PIPELINE_LIBRARY_0010 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

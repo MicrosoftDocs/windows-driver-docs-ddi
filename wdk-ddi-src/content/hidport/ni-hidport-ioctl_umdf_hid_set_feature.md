@@ -6,8 +6,8 @@ old-location: hid\ioctl_umdf_hid_set_feature.htm
 tech.root: hid
 ms.assetid: 7FFE7301-1C03-4221-9E3B-412FE89919FB
 ms.date: 04/30/2018
+keywords: ["IOCTL_UMDF_HID_SET_FEATURE IOCTL"]
 ms.keywords: IOCTL_UMDF_HID_SET_FEATURE, IOCTL_UMDF_HID_SET_FEATURE control, IOCTL_UMDF_HID_SET_FEATURE control code, hid.ioctl_umdf_hid_set_feature, hidport/IOCTL_UMDF_HID_SET_FEATURE, umdf.ioctl_umdf_hid_set_feature
-ms.topic: ioctl
 f1_keywords:
  - "hidport/IOCTL_UMDF_HID_SET_FEATURE"
 req.header: hidport.h

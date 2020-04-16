@@ -6,8 +6,8 @@ old-location: netvista\rildialparams_v1.htm
 tech.root: netvista
 ms.assetid: e424808a-8389-43ff-9cd4-cf2668f8d2a3
 ms.date: 05/02/2018
+keywords: ["RILDIALPARAMS_V1 structure"]
 ms.keywords: "*LPRILDIALPARAMS_V1, RILDIALPARAMS_V1, RILDIALPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rildialparams_v1, ntddrilapitypes/RILDIALPARAMS_V1"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILDIALPARAMS_V1"
 req.header: ntddrilapitypes.h

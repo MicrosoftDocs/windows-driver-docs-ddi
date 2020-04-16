@@ -6,8 +6,8 @@ old-location: netvista\ndismsetupdmatransfer.htm
 tech.root: netvista
 ms.assetid: 2a7ebedd-0042-4624-9c9b-721cccfb0c4f
 ms.date: 05/02/2018
+keywords: ["NdisMSetupDmaTransfer macro"]
 ms.keywords: NdisMSetupDmaTransfer, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml, ndis/NdisMSetupDmaTransfer, netvista.ndismsetupdmatransfer
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisMSetupDmaTransfer"
 req.header: ndis.h

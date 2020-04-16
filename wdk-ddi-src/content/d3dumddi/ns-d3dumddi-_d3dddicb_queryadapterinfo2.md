@@ -4,7 +4,7 @@ title: _D3DDDICB_QUERYADAPTERINFO2 (d3dumddi.h)
 description: Contains information that describes the graphics adapter.
 ms.assetid: ee97cc0b-2486-4fae-9950-af4422d9acb0
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DDDICB_QUERYADAPTERINFO2 structure"]
 f1_keywords:
  - "d3dumddi/_D3DDDICB_QUERYADAPTERINFO2"
 ms.keywords: _D3DDDICB_QUERYADAPTERINFO2, D3DDDICB_QUERYADAPTERINFO2,

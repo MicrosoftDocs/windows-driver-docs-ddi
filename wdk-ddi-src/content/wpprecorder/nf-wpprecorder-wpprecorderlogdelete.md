@@ -6,8 +6,8 @@ old-location: devtest\wpprecorderlogdelete.htm
 tech.root: devtest
 ms.assetid: AEE10756-7301-4B55-82A5-27CA595854EA
 ms.date: 02/23/2018
+keywords: ["WppRecorderLogDelete macro"]
 ms.keywords: WppRecorderLogDelete, devtest.wpprecorderlogdelete, imp_WppRecorderLogDelete, imp_WppRecorderLogDelete function [Driver Development Tools], wpprecorder/imp_WppRecorderLogDelete
-ms.topic: macro
 f1_keywords:
  - "wpprecorder/imp_WppRecorderLogDelete"
 req.header: wpprecorder.h

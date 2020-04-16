@@ -6,8 +6,8 @@ old-location: serports\sercx2_system_dma_transmit_config.htm
 tech.root: serports
 ms.assetid: AAC70470-B58E-44F1-9CC5-4E0C25539639
 ms.date: 04/23/2018
+keywords: ["_SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG structure"]
 ms.keywords: "*PSERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, 2/PSERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, 2/SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, PSERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, PSERCX2_SYSTEM_DMA_TRANSMIT_CONFIG structure pointer [Serial Ports], SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG structure [Serial Ports], _SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG, serports.sercx2_system_dma_transmit_config"
-ms.topic: struct
 f1_keywords:
  - "sercx/SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG"
 req.header: sercx.h

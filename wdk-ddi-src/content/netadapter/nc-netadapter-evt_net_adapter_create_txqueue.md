@@ -5,7 +5,7 @@ description: The client driver's implementation of the *EvtNetAdapterCreateTxQue
 tech.root: netvista
 ms.assetid: 50d681dc-8d45-45d4-aef6-149ee53c1284
 ms.date: 01/18/2019
-ms.topic: callback
+keywords: ["EVT_NET_ADAPTER_CREATE_TXQUEUE callback function"]
 f1_keywords:
  - "netadapter/EVT_NET_ADAPTER_CREATE_TXQUEUE"
 req.header: netadapter.h

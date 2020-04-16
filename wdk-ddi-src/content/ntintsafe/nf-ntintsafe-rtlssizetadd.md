@@ -6,8 +6,8 @@ old-location: kernel\rtlssizetadd.htm
 tech.root: kernel
 ms.assetid: 1CBB3CDF-E7DD-4686-8EF6-FBCADE978A16
 ms.date: 04/30/2018
+keywords: ["RtlSSIZETAdd function"]
 ms.keywords: RtlSSIZETAdd, RtlSSIZETAdd function [Kernel-Mode Driver Architecture], kernel.rtlssizetadd, ntintsafe/RtlSSIZETAdd
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlSSIZETAdd"
 req.header: ntintsafe.h

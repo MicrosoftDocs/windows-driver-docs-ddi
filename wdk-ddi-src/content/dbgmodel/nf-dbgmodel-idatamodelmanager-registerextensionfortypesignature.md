@@ -4,7 +4,7 @@ title: IDataModelManager::RegisterExtensionForTypeSignature (dbgmodel.h)
 description: The RegisterExtensionForTypeSignature method is similar to the RegisterModelForTypeSignature method with one key difference.
 ms.assetid: 13839ae7-45c0-4e31-b7b7-7d0cb6f890b7
 ms.date: 07/19/2018
-ms.topic: method
+keywords: ["IDataModelManager::RegisterExtensionForTypeSignature"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.RegisterExtensionForTypeSignature"
 ms.keywords: IDataModelManager::RegisterExtensionForTypeSignature, RegisterExtensionForTypeSignature, IDataModelManager.RegisterExtensionForTypeSignature, IDataModelManager::RegisterExtensionForTypeSignature, IDataModelManager.RegisterExtensionForTypeSignature

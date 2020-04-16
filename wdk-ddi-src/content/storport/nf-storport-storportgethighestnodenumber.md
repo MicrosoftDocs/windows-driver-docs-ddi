@@ -6,8 +6,8 @@ old-location: storage\storportgethighestnodenumber.htm
 tech.root: storage
 ms.assetid: 3e0b85f9-b6e4-4d53-b8dc-7f51e0f74be3
 ms.date: 03/29/2018
+keywords: ["StorPortGetHighestNodeNumber function"]
 ms.keywords: StorPortGetHighestNodeNumber, StorPortGetHighestNodeNumber routine [Storage Devices], storage.storportgethighestnodenumber, storport/StorPortGetHighestNodeNumber, storprt_e9e942e1-6de3-4170-87ec-00660ce9925a.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortGetHighestNodeNumber"
 req.header: storport.h

@@ -6,8 +6,8 @@ old-location: wdf\wdfcontroldeviceinitallocate.htm
 tech.root: wdf
 ms.assetid: 3d423861-4c4d-45f2-bc44-b7cf1b230458
 ms.date: 02/26/2018
+keywords: ["WdfControlDeviceInitAllocate function"]
 ms.keywords: DFDeviceObjectControllerDevObjRef_1450db30-6c2a-4103-99f6-2afe634000bf.xml, WdfControlDeviceInitAllocate, WdfControlDeviceInitAllocate method, kmdf.wdfcontroldeviceinitallocate, wdf.wdfcontroldeviceinitallocate, wdfcontrol/WdfControlDeviceInitAllocate
-ms.topic: function
 f1_keywords:
  - "wdfcontrol/WdfControlDeviceInitAllocate"
 req.header: wdfcontrol.h

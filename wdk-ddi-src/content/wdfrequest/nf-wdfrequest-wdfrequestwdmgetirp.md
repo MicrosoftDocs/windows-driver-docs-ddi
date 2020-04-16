@@ -6,8 +6,8 @@ old-location: wdf\wdfrequestwdmgetirp.htm
 tech.root: wdf
 ms.assetid: 414950c6-b082-4ea9-bba4-f3d12b4d2a9e
 ms.date: 02/26/2018
+keywords: ["WdfRequestWdmGetIrp function"]
 ms.keywords: DFRequestObjectRef_2f8bba17-817e-4edb-98f2-bd56eb3e34ac.xml, WdfRequestWdmGetIrp, WdfRequestWdmGetIrp method, kmdf.wdfrequestwdmgetirp, wdf.wdfrequestwdmgetirp, wdfrequest/WdfRequestWdmGetIrp
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WdfRequestWdmGetIrp"
 req.header: wdfrequest.h

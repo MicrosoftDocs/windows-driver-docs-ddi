@@ -6,8 +6,8 @@ old-location: debugger\getunnamedargu64.htm
 tech.root: debugger
 ms.assetid: 43cda226-1c55-4b55-a9c9-819fb1ea9265
 ms.date: 05/03/2018
+keywords: ["ExtExtension::GetUnnamedArgU64"]
 ms.keywords: EngExtCpp_Ref_94c8c0d8-bc72-4357-bcba-f2e8598aabff.xml, ExtExtension class [Windows Debugging],GetUnnamedArgU64 method, ExtExtension.GetUnnamedArgU64, ExtExtension::GetUnnamedArgU64, GetUnnamedArgU64, GetUnnamedArgU64 method [Windows Debugging], GetUnnamedArgU64 method [Windows Debugging],ExtExtension class, debugger.getunnamedargu64
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtExtension.GetUnnamedArgU64"
 req.header: engextcpp.hpp

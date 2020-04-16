@@ -6,8 +6,8 @@ old-location: display\videoportsetbytesused.htm
 tech.root: display
 ms.assetid: da348cf9-5694-4e66-990e-bd07f259d97c
 ms.date: 05/10/2018
+keywords: ["VideoPortSetBytesUsed function"]
 ms.keywords: VideoPortSetBytesUsed, VideoPortSetBytesUsed function [Display Devices], VideoPort_Functions_5a8a1a59-b9a8-4b5b-b6d8-7139ddb9b474.xml, display.videoportsetbytesused, video/VideoPortSetBytesUsed
-ms.topic: function
 f1_keywords:
  - "video/VideoPortSetBytesUsed"
 req.header: video.h

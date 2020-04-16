@@ -6,8 +6,8 @@ old-location: print\iprintschemaelement_interface.htm
 tech.root: print
 ms.assetid: E6F6F00B-E116-4AEA-AF9A-55209DA20DC6
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaElement interface"]
 ms.keywords: IPrintSchemaElement, IPrintSchemaElement interface [Print Devices], IPrintSchemaElement interface [Print Devices],described, print.iprintschemaelement_interface, printerextension/IPrintSchemaElement
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrintSchemaElement"
 req.header: printerextension.h

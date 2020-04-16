@@ -6,8 +6,8 @@ old-location: ifsk\fltperformsynchronousio.htm
 tech.root: ifsk
 ms.assetid: 14f5260a-b18d-4329-a81e-d24026d9a71d
 ms.date: 04/16/2018
+keywords: ["FltPerformSynchronousIo function"]
 ms.keywords: FltApiRef_p_to_z_02aeeeab-6a33-4336-aaa4-810bd70850bc.xml, FltPerformSynchronousIo, FltPerformSynchronousIo routine [Installable File System Drivers], fltkernel/FltPerformSynchronousIo, ifsk.fltperformsynchronousio
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltPerformSynchronousIo"
 req.header: fltkernel.h

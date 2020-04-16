@@ -6,8 +6,8 @@ old-location: netvista\rilsendmsgoptions.htm
 tech.root: netvista
 ms.assetid: 23f2500f-8b0d-4e52-ab7e-b39d8368f78b
 ms.date: 05/02/2018
+keywords: ["RILSENDMSGOPTIONS enumeration"]
 ms.keywords: RILSENDMSGOPTIONS, RILSENDMSGOPTIONS enumeration [Network Drivers Starting with Windows Vista], RIL_SENDOPT_IMS, RIL_SENDOPT_PERSISTLINK, netvista.rilsendmsgoptions, ntddrilapitypes/RILSENDMSGOPTIONS, ntddrilapitypes/RIL_SENDOPT_IMS, ntddrilapitypes/RIL_SENDOPT_PERSISTLINK
-ms.topic: enum
 f1_keywords:
  - "ntddrilapitypes/RILSENDMSGOPTIONS"
 req.header: ntddrilapitypes.h

@@ -6,8 +6,8 @@ old-location: kernel\getidlewakeinfo.htm
 tech.root: kernel
 ms.assetid: 51DE471E-5409-4ED9-BC50-29D18E8F5A16
 ms.date: 04/30/2018
+keywords: ["GET_IDLE_WAKE_INFO callback function"]
 ms.keywords: GET_IDLE_WAKE_INFO, GetIdleWakeInfo, GetIdleWakeInfo routine [Kernel-Mode Driver Architecture], kernel.getidlewakeinfo, wdm/GetIdleWakeInfo
-ms.topic: callback
 f1_keywords:
  - "wdm/GetIdleWakeInfo"
 req.header: wdm.h

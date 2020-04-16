@@ -6,8 +6,8 @@ old-location: buses\evt_ufx_device_proprietary_charger_reset.htm
 tech.root: usbref
 ms.assetid: 103E60D4-4640-430D-A4AE-E03D8B6E7031
 ms.date: 05/07/2018
+keywords: ["EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback function"]
 ms.keywords: EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, EVT_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback, EvtUfxDeviceProprietaryChargerReset, EvtUfxDeviceProprietaryChargerReset callback function [Buses], PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET, PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET callback function pointer [Buses], buses.evt_ufx_device_proprietary_charger_reset, ufxclient/EvtUfxDeviceProprietaryChargerReset
-ms.topic: callback
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_PROPRIETARY_CHARGER_RESET"
 req.header: ufxclient.h

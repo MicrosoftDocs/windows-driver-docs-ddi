@@ -6,8 +6,8 @@ old-location: display\dxva_highlight.htm
 tech.root: display
 ms.assetid: 62c5f41a-1db2-4777-af86-67d2345a05c0
 ms.date: 05/10/2018
+keywords: ["_DXVA_Highlight structure"]
 ms.keywords: "*LPDXVA_Highlight, DXVA_Highlight, DXVA_Highlight structure [Display Devices], LPDXVA_Highlight, LPDXVA_Highlight structure pointer [Display Devices], _DXVA_Highlight, display.dxva_highlight, dxva/DXVA_Highlight, dxva/LPDXVA_Highlight, dxvaref_509ed85b-59ad-44d2-a686-2b2077542c6d.xml"
-ms.topic: struct
 f1_keywords:
  - "dxva/DXVA_Highlight"
 req.header: dxva.h

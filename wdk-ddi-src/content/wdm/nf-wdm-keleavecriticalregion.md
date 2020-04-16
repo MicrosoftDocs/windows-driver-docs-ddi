@@ -6,8 +6,8 @@ old-location: kernel\keleavecriticalregion.htm
 tech.root: kernel
 ms.assetid: d3e90c3b-5ead-40d1-9143-a2b1fc8c255d
 ms.date: 04/30/2018
+keywords: ["KeLeaveCriticalRegion function"]
 ms.keywords: KeLeaveCriticalRegion, KeLeaveCriticalRegion routine [Kernel-Mode Driver Architecture], k105_f9344044-a57f-4ee4-800c-a03edcc27196.xml, kernel.keleavecriticalregion, wdm/KeLeaveCriticalRegion
-ms.topic: function
 f1_keywords:
  - "wdm/KeLeaveCriticalRegion"
 req.header: wdm.h

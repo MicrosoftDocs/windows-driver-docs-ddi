@@ -6,8 +6,8 @@ old-location: stream\ioctl_lamp_get_capabilities_white.htm
 tech.root: stream
 ms.assetid: F4A7CF9A-023F-42FC-A40C-E95964EC5392
 ms.date: 04/23/2018
+keywords: ["IOCTL_LAMP_GET_CAPABILITIES_WHITE IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_CAPABILITIES_WHITE, IOCTL_LAMP_GET_CAPABILITIES_WHITE control, IOCTL_LAMP_GET_CAPABILITIES_WHITE control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_CAPABILITIES_WHITE, stream.ioctl_lamp_get_capabilities_white
-ms.topic: ioctl
 f1_keywords:
  - "lamp/IOCTL_LAMP_GET_CAPABILITIES_WHITE"
 req.header: lamp.h

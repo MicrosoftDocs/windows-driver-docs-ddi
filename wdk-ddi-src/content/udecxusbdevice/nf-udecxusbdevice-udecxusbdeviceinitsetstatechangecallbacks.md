@@ -6,8 +6,8 @@ old-location: buses\udecxusbdeviceinitsetstatechangecallbacks.htm
 tech.root: usbref
 ms.assetid: A4D0B6BC-56FD-4378-A8F9-0A306D3FF22F
 ms.date: 05/07/2018
+keywords: ["UdecxUsbDeviceInitSetStateChangeCallbacks function"]
 ms.keywords: UdecxUsbDeviceInitSetStateChangeCallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks function [Buses], buses.udecxusbdeviceinitsetstatechangecallbacks, udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks
-ms.topic: function
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks"
 req.header: udecxusbdevice.h

@@ -4,7 +4,7 @@ title: IDataModelScriptDebug2 (dbgmodel.h)
 description: An optional interface on scripts (objects which implement IDataModelScript).
 ms.assetid: 29d61401-a385-4f5e-bda3-81ee79f5c5f8
 ms.date: 06/11/2019
-ms.topic: interface
+keywords: ["IDataModelScriptDebug2 interface"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug2"
 req.header: dbgmodel.h

@@ -5,8 +5,8 @@ description: The D3DKMT_FLIPINFOFLAGS structure identifies flipping capabilities
 old-location: display\d3dkmt_flipinfoflags.htm
 ms.assetid: 61b6d477-5a4c-475c-8605-5ede592e75c1
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_FLIPINFOFLAGS structure"]
 ms.keywords: D3DKMT_FLIPINFOFLAGS, D3DKMT_FLIPINFOFLAGS structure [Display Devices], OpenGL_Structs_2e8d2e1b-7ae8-4ac4-916d-5cace7ef043e.xml, _D3DKMT_FLIPINFOFLAGS, d3dkmthk/D3DKMT_FLIPINFOFLAGS, display.d3dkmt_flipinfoflags
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_FLIPINFOFLAGS"
 req.header: d3dkmthk.h

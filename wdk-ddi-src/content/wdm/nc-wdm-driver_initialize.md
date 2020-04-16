@@ -6,8 +6,8 @@ old-location: kernel\driverentry.htm
 tech.root: kernel
 ms.assetid: b8c14a2d-a2e6-4ed1-9445-3259ec570076
 ms.date: 04/30/2018
+keywords: ["DRIVER_INITIALIZE callback function"]
 ms.keywords: DRIVER_INITIALIZE, DriverEntry, DriverEntry routine [Kernel-Mode Driver Architecture], DrvrRtns_dc503a23-7c31-421d-ac7b-ff6f4651e44e.xml, kernel.driverentry, wdm/DriverEntry
-ms.topic: callback
 f1_keywords:
  - "wdm/DriverEntry"
 req.header: wdm.h
@@ -83,7 +83,7 @@ The <i>DriverObject</i> parameter supplies the <b>DriverEntry</b> routine with a
 
 The <i>DriverObject</i> pointer gives the driver access to <i>DriverObject-</i>><b>HardwareDatabase</b>, which points to a counted Unicode string that specifies a path to the registry's <b>\Registry\Machine\Hardware</b> tree.
 
-The registry path string pointed to by <i>RegistryPath</i> is of the form <b>\Registry\Machine\System\CurrentControlSet\Services\<i>DriverName</i></b>. A driver can use this path to store driver-specific information; see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-registry-trees-and-keys">Registry Keys for Drivers</a>. The <b>DriverEntry</b> routine should save a copy of the Unicode string, not the pointer, since the I/O manager frees the <i>RegistryPath</i> buffer after <b>DriverEntry</b> returns.
+The registry path string pointed to by <i>RegistryPath</i> is of the form <b>\Registry\Machine\System\CurrentControlSet\Services\\<i>DriverName</i></b>. A driver can use this path to store driver-specific information; see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/overview-of-registry-trees-and-keys">Registry Keys for Drivers</a>. The <b>DriverEntry</b> routine should save a copy of the Unicode string, not the pointer, since the I/O manager frees the <i>RegistryPath</i> buffer after <b>DriverEntry</b> returns.
 
 For more information about implementing a <b>DriverEntry</b> routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-driverentry-routine">Writing a DriverEntry Routine</a>.
 

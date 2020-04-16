@@ -6,8 +6,8 @@ old-location: hid\ioctl_umdf_hid_get_feature.htm
 tech.root: hid
 ms.assetid: F22C5B0D-2E8B-4837-AC10-B3CEE56A336D
 ms.date: 04/30/2018
+keywords: ["IOCTL_UMDF_HID_GET_FEATURE IOCTL"]
 ms.keywords: IOCTL_UMDF_HID_GET_FEATURE, IOCTL_UMDF_HID_GET_FEATURE control, IOCTL_UMDF_HID_GET_FEATURE control code, hid.ioctl_umdf_hid_get_feature, hidport/IOCTL_UMDF_HID_GET_FEATURE, umdf.ioctl_umdf_hid_get_feature
-ms.topic: ioctl
 f1_keywords:
  - "hidport/IOCTL_UMDF_HID_GET_FEATURE"
 req.header: hidport.h

@@ -5,8 +5,8 @@ description: Updates a destination subresource region that stores constant buffe
 old-location: display\defaultconstantbufferupdatesubresourceup_d3d11_1_.htm
 ms.assetid: 67FCC9A4-B3C5-46FC-83ED-CFFB8186328F
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP callback function"]
 ms.keywords: DefaultConstantBufferUpdateSubresourceUP(D3D11_1), DefaultConstantBufferUpdateSubresourceUP(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP, PFND3D11_1DDI_RESOURCEUPDATESUBRESOURCEUP callback, d3d10umddi/DefaultConstantBufferUpdateSubresourceUP(D3D11_1), display.defaultconstantbufferupdatesubresourceup_d3d11_1_
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/DefaultConstantBufferUpdateSubresourceUP(D3D11_1)"
 req.header: d3d10umddi.h

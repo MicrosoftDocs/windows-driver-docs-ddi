@@ -6,8 +6,8 @@ old-location: wdf\wdfdeviceinitsetcompanioneventcallbacks.htm
 tech.root: wdf
 ms.assetid: 7320238d-0c7f-423c-8de7-2b22d02d77bd
 ms.date: 02/26/2018
+keywords: ["WdfDeviceInitSetCompanionEventCallbacks function"]
 ms.keywords: WdfDeviceInitSetCompanionEventCallbacks, WdfDeviceInitSetCompanionEventCallbacks method, wdf.wdfdeviceinitsetcompanioneventcallbacks, wdfcompanion/WdfDeviceInitSetCompanionEventCallbacks
-ms.topic: function
 f1_keywords:
  - "wdfcompanion/WdfDeviceInitSetCompanionEventCallbacks"
 req.header: wdfcompanion.h

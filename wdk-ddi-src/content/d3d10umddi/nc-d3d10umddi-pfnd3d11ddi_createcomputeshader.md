@@ -5,8 +5,8 @@ description: The CreateComputeShader function creates a compute shader.
 old-location: display\createcomputeshader.htm
 ms.assetid: e62ad086-f652-4e2c-bc2d-f1ccb197f01e
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_CREATECOMPUTESHADER callback function"]
 ms.keywords: CreateComputeShader, CreateComputeShader callback function [Display Devices], PFND3D11DDI_CREATECOMPUTESHADER, PFND3D11DDI_CREATECOMPUTESHADER callback, UserModeDisplayDriverDx11_Functions_37f002b7-445e-4a89-8c3d-586c8072773d.xml, d3d10umddi/CreateComputeShader, display.createcomputeshader
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -62,11 +62,15 @@ An array of CONST UINT tokens that form the shader code. The first token in the 
 
 ### -param Arg3
 
-hShader [in]
+*hShader* [in]
 
 A handle to the driver's private data for the compute shader. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_calcprivateshadersize">CalcPrivateShaderSize</a> function. The handle is  just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader object.
 
 ### -param Arg4
+
+*hRTShader* [in]
+
+A handle to the compute shader that the driver should use, when it calls back into the Direct3D runtime.
 
 ## -remarks
 

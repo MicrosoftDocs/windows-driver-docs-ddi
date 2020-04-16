@@ -5,7 +5,7 @@ description: The pfnBeginEndQuery callback function defines the beginning of the
 tech.root: display
 ms.assetid: 2032148a-3b57-4fce-be81-c91bef88fd51
 ms.date: 11/28/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_BEGIN_END_QUERY callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_BEGIN_END_QUERY"
 ms.prod: windows-hardware

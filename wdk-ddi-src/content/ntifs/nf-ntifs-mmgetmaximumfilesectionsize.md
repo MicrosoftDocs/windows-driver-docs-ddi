@@ -6,8 +6,8 @@ old-location: ifsk\mmgetmaximumfilesectionsize.htm
 tech.root: ifsk
 ms.assetid: 5B3E5B33-EFED-485A-A62A-7A54322408AC
 ms.date: 04/16/2018
+keywords: ["MmGetMaximumFileSectionSize function"]
 ms.keywords: MmGetMaximumFileSectionSize, MmGetMaximumFileSectionSize routine [Installable File System Drivers], ifsk.mmgetmaximumfilesectionsize, ntifs/MmGetMaximumFileSectionSize
-ms.topic: function
 f1_keywords:
  - "ntifs/MmGetMaximumFileSectionSize"
 req.header: ntifs.h

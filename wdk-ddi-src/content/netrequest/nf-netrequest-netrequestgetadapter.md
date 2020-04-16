@@ -5,7 +5,7 @@ description: The NetRequestGetAdapter method retrieves the NETADAPTER object ass
 tech.root: netvista
 ms.assetid: cdbc6009-26b3-4174-ba3f-d0129c72f98b
 ms.date: 03/12/2018
-ms.topic: function
+keywords: ["NetRequestGetAdapter function"]
 f1_keywords:
  - "netrequest/NetRequestGetAdapter"
 ms.keywords: NetRequestGetAdapter

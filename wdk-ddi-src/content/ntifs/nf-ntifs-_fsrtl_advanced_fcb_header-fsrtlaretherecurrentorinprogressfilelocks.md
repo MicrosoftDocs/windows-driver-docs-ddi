@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlaretherecurrentorinprogressfilelocks.htm
 tech.root: ifsk
 ms.assetid: 9e5e0e37-5f01-4bc3-b660-c65c540af04e
 ms.date: 04/16/2018
+keywords: ["FsRtlAreThereCurrentOrInProgressFileLocks function"]
 ms.keywords: FsRtlAreThereCurrentOrInProgressFileLocks, FsRtlAreThereCurrentOrInProgressFileLocks routine [Installable File System Drivers], fsrtlref_66517730-628e-4aa4-b3c0-b5c0e0fd4d7d.xml, ifsk.fsrtlaretherecurrentorinprogressfilelocks, ntifs/FsRtlAreThereCurrentOrInProgressFileLocks
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlAreThereCurrentOrInProgressFileLocks"
 req.header: ntifs.h

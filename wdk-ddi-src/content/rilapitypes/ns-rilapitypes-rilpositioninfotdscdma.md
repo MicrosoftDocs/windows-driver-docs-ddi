@@ -6,8 +6,8 @@ old-location: netvista\rilpositioninfotdscdma_2.htm
 tech.root: netvista
 ms.assetid: 9b0ba2fc-bf8f-40c0-83a2-a791413e4783
 ms.date: 02/26/2018
+keywords: ["RILPOSITIONINFOTDSCDMA structure"]
 ms.keywords: "*LPRILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfotdscdma_2, rilapitypes/RILPOSITIONINFOTDSCDMA"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILPOSITIONINFOTDSCDMA"
 req.header: rilapitypes.h

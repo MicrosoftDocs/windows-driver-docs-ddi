@@ -6,8 +6,8 @@ old-location: wdf\ipnpcallback_ond0exit.htm
 tech.root: wdf
 ms.assetid: 39eedeca-269d-4966-be1f-7cc5c9228a5c
 ms.date: 02/26/2018
+keywords: ["IPnpCallback::OnD0Exit"]
 ms.keywords: IPnpCallback interface,OnD0Exit method, IPnpCallback.OnD0Exit, IPnpCallback::OnD0Exit, OnD0Exit, OnD0Exit method, OnD0Exit method,IPnpCallback interface, UMDFDeviceObjectRef_4c9ce2f7-92c8-4e0b-80fe-cfb06d1be83a.xml, umdf.ipnpcallback_ond0exit, wdf.ipnpcallback_ond0exit, wudfddi/IPnpCallback::OnD0Exit
-ms.topic: method
 f1_keywords:
  - "wudfddi/IPnpCallback.OnD0Exit"
 req.header: wudfddi.h

@@ -6,8 +6,8 @@ old-location: netvista\rilpositioninfoumts_2.htm
 tech.root: netvista
 ms.assetid: f0603990-d63c-433f-b5ac-c8d0efcc4243
 ms.date: 02/26/2018
+keywords: ["RILPOSITIONINFOUMTS structure"]
 ms.keywords: "*LPRILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS, RILPOSITIONINFOUMTS structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfoumts_2, rilapitypes/RILPOSITIONINFOUMTS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILPOSITIONINFOUMTS"
 req.header: rilapitypes.h

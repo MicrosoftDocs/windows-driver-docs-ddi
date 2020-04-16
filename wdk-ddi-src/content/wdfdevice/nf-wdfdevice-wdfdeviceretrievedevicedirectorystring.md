@@ -4,7 +4,7 @@ title: WdfDeviceRetrieveDeviceDirectoryString function (wdfdevice.h)
 description:
 ms.assetid: 94f803e2-0972-4248-8b55-c02fd096a1e2
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["WdfDeviceRetrieveDeviceDirectoryString function"]
 f1_keywords:
  - "wdfdevice/WdfDeviceRetrieveDeviceDirectoryString"
 ms.keywords: WdfDeviceRetrieveDeviceDirectoryString

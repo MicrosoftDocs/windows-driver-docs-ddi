@@ -5,8 +5,8 @@ description: Offers video memory allocations for reuse.
 old-location: display\d3dkmtofferallocations.htm
 ms.assetid: 3cc84381-fa1e-4c6c-bb5b-459a93676cfd
 ms.date: 05/10/2018
+keywords: ["D3DKMTOfferAllocations function"]
 ms.keywords: D3DKMTOfferAllocations, D3DKMTOfferAllocations callback function [Display Devices], PFND3DKMT_OFFERALLOCATIONS, PFND3DKMT_OFFERALLOCATIONS callback, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTOfferAllocations"
 req.header: d3dkmthk.h

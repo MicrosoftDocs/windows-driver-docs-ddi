@@ -5,8 +5,8 @@ description: Display options data.
 old-location: display\d3d12ddi-d3d12-options-data-0033.htm
 ms.assetid: d2b90ec1-cc4c-4a2b-8f7e-d46cd39d553b
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_D3D12_OPTIONS_DATA_0033 structure"]
 ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0033, D3D12DDI_D3D12_OPTIONS_DATA_0033 structure [Display Devices], d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0033, display.d3d12ddi-d3d12-options-data-0033
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0033"
 req.header: d3d12umddi.h

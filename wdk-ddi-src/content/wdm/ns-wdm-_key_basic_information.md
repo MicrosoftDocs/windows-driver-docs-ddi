@@ -6,8 +6,8 @@ old-location: kernel\key_basic_information.htm
 tech.root: kernel
 ms.assetid: 789c60b6-a5a4-4570-bb0c-acfe1166a302
 ms.date: 04/30/2018
+keywords: ["_KEY_BASIC_INFORMATION structure"]
 ms.keywords: "*PKEY_BASIC_INFORMATION, KEY_BASIC_INFORMATION, KEY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_BASIC_INFORMATION, PKEY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_BASIC_INFORMATION, kernel.key_basic_information, kstruct_c_85ec4926-6fc1-42c1-8992-dd37ee92e5cf.xml, wdm/KEY_BASIC_INFORMATION, wdm/PKEY_BASIC_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "wdm/KEY_BASIC_INFORMATION"
 req.header: wdm.h

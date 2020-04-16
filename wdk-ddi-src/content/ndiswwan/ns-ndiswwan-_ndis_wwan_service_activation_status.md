@@ -6,8 +6,8 @@ old-location: netvista\ndis_wwan_service_activation_status.htm
 tech.root: netvista
 ms.assetid: 669ef35f-0e59-4ec3-b6cc-5cb2156b51a2
 ms.date: 05/02/2018
+keywords: ["_NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure"]
 ms.keywords: "*PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, NDIS_WWAN_SERVICE_ACTIVATION_STATUS, NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, PNDIS_WWAN_SERVICE_ACTIVATION_STATUS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_a1bda142-c89f-4323-a114-0c44948f61b5.xml, _NDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, netvista.ndis_wwan_service_activation_status"
-ms.topic: struct
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION_STATUS"
 req.header: ndiswwan.h

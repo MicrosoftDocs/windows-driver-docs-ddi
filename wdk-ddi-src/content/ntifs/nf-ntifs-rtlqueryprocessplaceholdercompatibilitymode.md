@@ -5,7 +5,7 @@ description: RtlQueryProcessPlaceholderCompatibilityMode returns the placeholder
 tech.root: ifsk
 ms.assetid: 259275e9-2680-4b7a-a291-83ee9a1fb9c9
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["RtlQueryProcessPlaceholderCompatibilityMode function"]
 f1_keywords:
  - "ntifs/RtlQueryProcessPlaceholderCompatibilityMode"
 ms.keywords: RtlQueryProcessPlaceholderCompatibilityMode

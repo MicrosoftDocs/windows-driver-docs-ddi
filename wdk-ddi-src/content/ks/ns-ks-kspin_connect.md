@@ -6,8 +6,8 @@ old-location: stream\kspin_connect.htm
 tech.root: stream
 ms.assetid: 62ce7a36-87ce-40d1-bdd4-8a4f4bc60b00
 ms.date: 04/23/2018
+keywords: ["KSPIN_CONNECT structure"]
 ms.keywords: "*PKSPIN_CONNECT, KSPIN_CONNECT, KSPIN_CONNECT structure [Streaming Media Devices], PKSPIN_CONNECT, PKSPIN_CONNECT structure pointer [Streaming Media Devices], ks-struct_07642f18-c766-4649-b97a-12582aa0fffb.xml, ks/KSPIN_CONNECT, ks/PKSPIN_CONNECT, stream.kspin_connect"
-ms.topic: struct
 f1_keywords:
  - "ks/KSPIN_CONNECT"
 req.header: ks.h

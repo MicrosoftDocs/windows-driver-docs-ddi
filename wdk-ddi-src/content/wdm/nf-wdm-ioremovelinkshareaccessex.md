@@ -7,7 +7,7 @@ tech.root:
 ms.assetid: 27927d21-35cd-4036-b4b0-23d17cc9cde2
 ms.author: windowsdriverdev
 ms.date: 03/12/2019
-ms.topic: function
+keywords: ["IoRemoveLinkShareAccessEx function"]
 f1_keywords:
  - "wdm/IoRemoveLinkShareAccessEx"
 ms.keywords: IoRemoveLinkShareAccessEx, IoRemoveLinkShareAccessEx function [Kernel-Mode Driver Architecture], kernel.IoRemoveLinkShareAccessEx, wdm/IoRemoveLinkShareAccessEx

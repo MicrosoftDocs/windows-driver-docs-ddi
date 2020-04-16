@@ -6,8 +6,8 @@ old-location: stream\kspingetouterunknown.htm
 tech.root: stream
 ms.assetid: 58b14ddd-6698-487a-925d-7d559057e55d
 ms.date: 04/23/2018
+keywords: ["KsPinGetOuterUnknown function"]
 ms.keywords: KsPinGetOuterUnknown, KsPinGetOuterUnknown function [Streaming Media Devices], avfunc_6a9c21cd-38ab-4277-8379-346af4c9c4c9.xml, ks/KsPinGetOuterUnknown, stream.kspingetouterunknown
-ms.topic: function
 f1_keywords:
  - "ks/KsPinGetOuterUnknown"
 req.header: ks.h

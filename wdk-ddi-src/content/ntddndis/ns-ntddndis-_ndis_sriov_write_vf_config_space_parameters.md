@@ -6,8 +6,8 @@ old-location: netvista\ndis_sriov_write_vf_config_space_parameters.htm
 tech.root: netvista
 ms.assetid: f5f8959f-edde-4d45-b93c-8f5acb08ec98
 ms.date: 05/02/2018
+keywords: ["_NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, netvista.ndis_sriov_write_vf_config_space_parameters, ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS, ntddndis/PNDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS"
-ms.topic: struct
 f1_keywords:
  - "ntddndis/NDIS_SRIOV_WRITE_VF_CONFIG_SPACE_PARAMETERS"
 req.header: ntddndis.h

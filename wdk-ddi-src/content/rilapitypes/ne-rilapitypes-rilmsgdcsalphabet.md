@@ -6,8 +6,8 @@ old-location: netvista\rilmsgdcsalphabet.htm
 tech.root: netvista
 ms.assetid: 21886c34-ca8d-4466-a3db-6841b2f59137
 ms.date: 05/02/2018
+keywords: ["RILMSGDCSALPHABET enumeration"]
 ms.keywords: RILMSGDCSALPHABET, RILMSGDCSALPHABET enumeration [Network Drivers Starting with Windows Vista], RIL_DCSALPHABET_8BIT, RIL_DCSALPHABET_MAX, RIL_DCSALPHABET_UCS2, netvista.rilmsgdcsalphabet, ntddrilapitypes/RILMSGDCSALPHABET, ntddrilapitypes/RIL_DCSALPHABET_8BIT, ntddrilapitypes/RIL_DCSALPHABET_MAX, ntddrilapitypes/RIL_DCSALPHABET_UCS2
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILMSGDCSALPHABET"
 req.header: rilapitypes.h

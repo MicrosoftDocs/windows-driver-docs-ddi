@@ -6,8 +6,8 @@ old-location: display\dxgkddidpcroutine.htm
 tech.root: display
 ms.assetid: 2767906a-f084-4ccc-b24f-ba7d66c96477
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_DPC_ROUTINE callback function"]
 ms.keywords: DXGKDDI_DPC_ROUTINE, DXGKDDI_DPC_ROUTINE callback, DmFunctions_12213354-74a5-40a5-a061-fa47d5a8cb03.xml, DxgkDdiDpcRoutine, DxgkDdiDpcRoutine callback function [Display Devices], display.dxgkddidpcroutine, dispmprt/DxgkDdiDpcRoutine
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiDpcRoutine"
 req.header: dispmprt.h

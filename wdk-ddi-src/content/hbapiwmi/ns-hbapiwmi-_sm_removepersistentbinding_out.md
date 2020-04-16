@@ -6,8 +6,8 @@ old-location: storage\sm_removepersistentbinding_out.htm
 tech.root: storage
 ms.assetid: 48d236c4-709d-4a4f-a730-df5f79787fe7
 ms.date: 03/29/2018
+keywords: ["_SM_RemovePersistentBinding_OUT structure"]
 ms.keywords: "*PSM_RemovePersistentBinding_OUT, PSM_RemovePersistentBinding_OUT, PSM_RemovePersistentBinding_OUT structure pointer [Storage Devices], SM_RemovePersistentBinding_OUT, SM_RemovePersistentBinding_OUT structure [Storage Devices], _SM_RemovePersistentBinding_OUT, hbapiwmi/PSM_RemovePersistentBinding_OUT, hbapiwmi/SM_RemovePersistentBinding_OUT, storage.sm_removepersistentbinding_out, structs-Fibre_e35eed9b-725a-4d27-90f9-9c40e49e9415.xml"
-ms.topic: struct
 f1_keywords:
  - "hbapiwmi/SM_RemovePersistentBinding_OUT"
 req.header: hbapiwmi.h

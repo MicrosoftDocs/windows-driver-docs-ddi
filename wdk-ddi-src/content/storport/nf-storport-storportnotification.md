@@ -6,8 +6,8 @@ old-location: storage\storportnotification.htm
 tech.root: storage
 ms.assetid: 3f361f50-3ca2-4fb6-828c-27928b50cf55
 ms.date: 05/09/2019
+keywords: ["StorPortNotification function"]
 ms.keywords: StorPortNotification, StorPortNotification routine [Storage Devices], storage.storportnotification, storport/StorPortNotification, storprt_5915c32e-be1b-4786-b391-67be5e61760f.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortNotification"
 req.header: storport.h

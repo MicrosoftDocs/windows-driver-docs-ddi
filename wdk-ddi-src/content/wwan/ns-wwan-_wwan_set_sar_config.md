@@ -5,7 +5,7 @@ description: The WWAN_SET_SAR_CONFIG structure describes Specific Absorption Rat
 tech.root: netvista
 ms.assetid: a4703e73-677a-42ea-8f8b-dbd77957ef6e
 ms.date: 08/20/2018
-ms.topic: struct
+keywords: ["_WWAN_SET_SAR_CONFIG structure"]
 f1_keywords:
  - "wwan/_WWAN_SET_SAR_CONFIG"
 ms.keywords: _WWAN_SET_SAR_CONFIG, WWAN_SET_SAR_CONFIG, *PWWAN_SET_SAR_CONFIG, 

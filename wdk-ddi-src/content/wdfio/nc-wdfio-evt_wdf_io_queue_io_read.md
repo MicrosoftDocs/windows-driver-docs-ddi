@@ -6,8 +6,8 @@ old-location: wdf\evtioread.htm
 tech.root: wdf
 ms.assetid: d6fbb153-1355-4e94-b5d3-a218bd8c565d
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_IO_QUEUE_IO_READ callback function"]
 ms.keywords: DFQueueObjectRef_d5f59efc-e7db-4c3e-9845-5ba0c4949cd5.xml, EVT_WDF_IO_QUEUE_IO_READ, EVT_WDF_IO_QUEUE_IO_READ callback, EvtIoRead, EvtIoRead callback function, kmdf.evtioread, wdf.evtioread, wdfio/EvtIoRead
-ms.topic: callback
 f1_keywords:
  - "wdfio/EvtIoRead"
 req.header: wdfio.h

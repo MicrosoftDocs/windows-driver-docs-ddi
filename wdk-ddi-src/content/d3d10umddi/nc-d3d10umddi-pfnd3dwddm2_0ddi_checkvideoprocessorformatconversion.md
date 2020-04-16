@@ -5,8 +5,8 @@ description: Indicates whether the driver supports a specific format/color-space
 old-location: display\checkvideoprocessorformatconversion.htm
 ms.assetid: 70A741CC-9D1B-4ECC-BB3A-6ACF6893691A
 ms.date: 05/10/2018
+keywords: ["PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION callback function"]
 ms.keywords: CheckVideoProcessorFormatConversion, CheckVideoProcessorFormatConversion callback function [Display Devices], PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION, PFND3DWDDM2_0DDI_CHECKVIDEOPROCESSORFORMATCONVERSION callback, d3d10umddi/CheckVideoProcessorFormatConversion, display.checkvideoprocessorformatconversion
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

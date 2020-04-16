@@ -6,8 +6,8 @@ old-location: pos\ioctl_point_of_service_update_statistics.htm
 tech.root: pos
 ms.assetid: 94c8d49a-5136-49f3-a313-74c032502f1f
 ms.date: 02/23/2018
+keywords: ["IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, pos.ioctl_point_of_service_update_statistics
-ms.topic: ioctl
 f1_keywords:
  - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS"
 req.header: pointofservicedriverinterface.h

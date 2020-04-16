@@ -6,8 +6,8 @@ old-location: kernel\dmacompletionroutine.htm
 tech.root: kernel
 ms.assetid: 13EC62D0-6C70-46BE-8088-2DEC7012EE1A
 ms.date: 04/30/2018
+keywords: ["DMA_COMPLETION_ROUTINE callback function"]
 ms.keywords: DMA_COMPLETION_ROUTINE, DmaCompletionRoutine, DmaCompletionRoutine routine [Kernel-Mode Driver Architecture], kernel.dmacompletionroutine, wdm/DmaCompletionRoutine
-ms.topic: callback
 f1_keywords:
  - "wdm/DmaCompletionRoutine"
 req.header: wdm.h

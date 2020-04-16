@@ -6,8 +6,8 @@ old-location: display\bufblt1.htm
 tech.root: display
 ms.assetid: 92F2AED7-935F-4E3E-934F-D6DF9AA87495
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_BUFBLT1 callback function"]
 ms.keywords: BufBlt1, BufBlt1 callback function [Display Devices], PFND3DDDI_BUFBLT1, PFND3DDDI_BUFBLT1 callback, d3dumddi/BufBlt1, display.bufblt1
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

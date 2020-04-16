@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlnumberofrunsinmcb.htm
 tech.root: ifsk
 ms.assetid: cb519cb5-5209-4ca6-92bc-860c53d3ca6c
 ms.date: 04/16/2018
+keywords: ["FsRtlNumberOfRunsInMcb function"]
 ms.keywords: FsRtlNumberOfRunsInMcb, FsRtlNumberOfRunsInMcb function [Installable File System Drivers], fsrtlref_2f405315-e2d0-45f0-95de-61b397b20f11.xml, ifsk.fsrtlnumberofrunsinmcb, ntifs/FsRtlNumberOfRunsInMcb
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlNumberOfRunsInMcb"
 req.header: ntifs.h

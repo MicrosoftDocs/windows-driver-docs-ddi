@@ -6,8 +6,8 @@ old-location: audio\ksaudiomodule_property.htm
 tech.root: audio
 ms.assetid: 1DE3F065-6F8E-402F-87EF-F9582E31BFFE
 ms.date: 05/08/2018
+keywords: ["_KSAUDIOMODULE_PROPERTY structure"]
 ms.keywords: "*PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY structure [Audio Devices], PKSAUDIOMODULE_PROPERTY, PKSAUDIOMODULE_PROPERTY structure pointer [Audio Devices], _KSAUDIOMODULE_PROPERTY, audio.ksaudiomodule_property, ksmedia/KSAUDIOMODULE_PROPERTY, ksmedia/PKSAUDIOMODULE_PROPERTY"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSAUDIOMODULE_PROPERTY"
 req.header: ksmedia.h

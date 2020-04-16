@@ -6,8 +6,8 @@ old-location: display\videoprocessendframe.htm
 tech.root: display
 ms.assetid: a5be6834-bb27-4da0-8802-25a9ca58c101
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_VIDEOPROCESSENDFRAME callback function"]
 ms.keywords: PFND3DDDI_VIDEOPROCESSENDFRAME, PFND3DDDI_VIDEOPROCESSENDFRAME callback, UserModeDisplayDriver_Functions_b7ef391b-90b5-49a6-880e-d0c4f287d0ad.xml, VideoProcessEndFrame, VideoProcessEndFrame callback function [Display Devices], d3dumddi/VideoProcessEndFrame, display.videoprocessendframe
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

@@ -6,8 +6,8 @@ old-location: print\logjobinfoforbranchoffice.htm
 tech.root: print
 ms.assetid: 6D1AB299-2E26-42AF-9613-CA321173080D
 ms.date: 04/20/2018
+keywords: ["LogJobInfoForBranchOffice function"]
 ms.keywords: LogJobInfoForBranchOffice, LogJobInfoForBranchOffice function [Print Devices], print.logjobinfoforbranchoffice, winsplp/LogJobInfoForBranchOffice
-ms.topic: function
 f1_keywords:
  - "winsplp/LogJobInfoForBranchOffice"
 req.header: winsplp.h

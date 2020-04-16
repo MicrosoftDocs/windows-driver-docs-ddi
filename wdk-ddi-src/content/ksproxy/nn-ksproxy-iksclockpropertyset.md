@@ -6,8 +6,8 @@ old-location: stream\iksclockpropertyset.htm
 tech.root: stream
 ms.assetid: bf50d4b1-782f-4d15-b6ef-23fa13da68ff
 ms.date: 04/23/2018
+keywords: ["IKsClockPropertySet interface"]
 ms.keywords: IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], IKsClockPropertySet interface [Streaming Media Devices],described, ksproxy/IKsClockPropertySet, ksproxy_0be3eb82-08b7-4afc-a4e5-3815f7499ad0.xml, stream.iksclockpropertyset
-ms.topic: interface
 f1_keywords:
  - "ksproxy/IKsClockPropertySet"
 req.header: ksproxy.h
@@ -54,7 +54,7 @@ The <b>IKsClockPropertySet</b> interface provides methods that let the proxy acc
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsClockPropertySet</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsClockPropertySet</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsClockPropertySet</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsClockPropertySet</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -6,8 +6,8 @@ old-location: debugger\writeiospaceex.htm
 tech.root: debugger
 ms.assetid: fb0ae4bb-6d6b-4772-9dbd-ae43f7728313
 ms.date: 05/03/2018
+keywords: ["WriteIoSpaceEx function"]
 ms.keywords: WdbgExts_Ref_53bdc758-08b1-4103-9732-5b7b72c80fdd.xml, WriteIoSpaceEx, WriteIoSpaceEx function [Windows Debugging], debugger.writeiospaceex, wdbgexts/WriteIoSpaceEx
-ms.topic: function
 f1_keywords:
  - "wdbgexts/WriteIoSpaceEx"
 req.header: wdbgexts.h

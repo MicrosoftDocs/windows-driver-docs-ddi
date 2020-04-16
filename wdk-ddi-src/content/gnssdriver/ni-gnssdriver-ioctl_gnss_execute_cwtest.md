@@ -6,8 +6,8 @@ old-location: gnss\ioctl_gnss_execute_cwtest.htm
 tech.root: gnss
 ms.assetid: 36AFBB03-9F01-4CA7-A5E8-C6F744984B6F
 ms.date: 02/15/2018
+keywords: ["IOCTL_GNSS_EXECUTE_CWTEST IOCTL"]
 ms.keywords: IOCTL_GNSS_EXECUTE_CWTEST, IOCTL_GNSS_EXECUTE_CWTEST control, IOCTL_GNSS_EXECUTE_CWTEST control code [Sensor Devices], gnss.ioctl_gnss_execute_cwtest, gnssdriver/IOCTL_GNSS_EXECUTE_CWTEST
-ms.topic: ioctl
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_EXECUTE_CWTEST"
 req.header: gnssdriver.h

@@ -6,8 +6,8 @@ old-location: wdf\iwdffile2.htm
 tech.root: wdf
 ms.assetid: 49a3defc-d86c-4d70-8c1c-a5abbadda013
 ms.date: 02/26/2018
+keywords: ["IWDFFile2 interface"]
 ms.keywords: IWDFFile2, IWDFFile2 interface, IWDFFile2 interface,described, UMDFFileObjectRef_991af5dd-c654-4afe-9072-0efeb7ab4d57.xml, umdf.iwdffile2, wdf.iwdffile2, wudfddi/IWDFFile2
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IWDFFile2"
 req.header: wudfddi.h

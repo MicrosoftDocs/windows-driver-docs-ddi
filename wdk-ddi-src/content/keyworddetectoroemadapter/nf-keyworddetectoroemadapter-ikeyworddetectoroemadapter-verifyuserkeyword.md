@@ -6,8 +6,8 @@ old-location: audio\ikeyworddetectoroemadapter_verifyuserkeyword.htm
 tech.root: audio
 ms.assetid: AFF679B6-B389-4EA2-8834-9B1B47412B7D
 ms.date: 05/08/2018
+keywords: ["IKeywordDetectorOemAdapter::VerifyUserKeyword"]
 ms.keywords: IKeywordDetectorOemAdapter interface [Audio Devices],VerifyUserKeyword method, IKeywordDetectorOemAdapter.VerifyUserKeyword, IKeywordDetectorOemAdapter::VerifyUserKeyword, VerifyUserKeyword, VerifyUserKeyword method [Audio Devices], VerifyUserKeyword method [Audio Devices],IKeywordDetectorOemAdapter interface, audio.ikeyworddetectoroemadapter_verifyuserkeyword, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::VerifyUserKeyword
-ms.topic: method
 f1_keywords:
  - "keyworddetectoroemadapter/IKeywordDetectorOemAdapter.VerifyUserKeyword"
 req.header: keyworddetectoroemadapter.h

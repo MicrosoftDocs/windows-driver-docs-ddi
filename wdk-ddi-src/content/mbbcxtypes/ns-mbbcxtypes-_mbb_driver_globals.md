@@ -5,7 +5,7 @@ description: Call MBB_DRIVER_GLOBALS_INIT to initialize this structure.
 tech.root: netvista
 ms.assetid: 68caf662-edfa-4ede-b063-3b7589dc8d34
 ms.date: 07/02/2018
-ms.topic: struct
+keywords: ["_MBB_DRIVER_GLOBALS structure"]
 f1_keywords:
  - "mbbcxtypes/_MBB_DRIVER_GLOBALS"
 ms.keywords: _MBB_DRIVER_GLOBALS, MBB_DRIVER_GLOBALS, *PMBB_DRIVER_GLOBALS, 

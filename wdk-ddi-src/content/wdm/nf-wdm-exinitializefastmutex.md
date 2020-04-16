@@ -6,8 +6,8 @@ old-location: kernel\exinitializefastmutex.htm
 tech.root: kernel
 ms.assetid: edd189f9-1089-470f-95a9-670bdba9c210
 ms.date: 04/30/2018
+keywords: ["ExInitializeFastMutex function"]
 ms.keywords: ExInitializeFastMutex, ExInitializeFastMutex routine [Kernel-Mode Driver Architecture], k102_b340d108-2e1c-4fa5-9bd0-d174452b125c.xml, kernel.exinitializefastmutex, wdm/ExInitializeFastMutex
-ms.topic: function
 f1_keywords:
  - "wdm/ExInitializeFastMutex"
 req.header: wdm.h

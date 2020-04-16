@@ -6,8 +6,8 @@ old-location: kernel\keacquirespinlock.htm
 tech.root: kernel
 ms.assetid: 10999175-4793-4045-8a74-a9a491724ec9
 ms.date: 04/30/2018
+keywords: ["KeAcquireSpinLock macro"]
 ms.keywords: KeAcquireSpinLock, KeAcquireSpinLock routine [Kernel-Mode Driver Architecture], k105_387b61b6-b20f-4f17-be47-74c9ed3ac8a1.xml, kernel.keacquirespinlock, wdm/KeAcquireSpinLock
-ms.topic: macro
 f1_keywords:
  - "wdm/KeAcquireSpinLock"
 req.header: wdm.h
@@ -51,15 +51,6 @@ req.typenames:
 
 The <b>KeAcquireSpinLock</b> routine acquires a spin lock so the caller can synchronize access to shared data in a multiprocessor-safe way by raising IRQL.
 
-## -syntax
-
-```cpp
-KIRQL
-KeAcquireSpinLock (
-    _Inout_ PKSPIN_LOCK SpinLock
-    _Out_ KIRQL OldIrql
-    );
-```
 
 ## -parameters
 

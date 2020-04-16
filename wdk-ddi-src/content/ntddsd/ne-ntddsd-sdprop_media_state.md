@@ -6,8 +6,8 @@ old-location: sd\sdprop_media_state.htm
 tech.root: SD
 ms.assetid: b59fd639-f2e2-4765-bcc7-01934df3a0bc
 ms.date: 02/15/2018
+keywords: ["SDPROP_MEDIA_STATE enumeration"]
 ms.keywords: SD.sdprop_media_state, SDPMS_MEDIA_INSERTED, SDPMS_NO_MEDIA, SDPROP_MEDIA_STATE, SDPROP_MEDIA_STATE enumeration [Buses], ntddsd/SDPMS_MEDIA_INSERTED, ntddsd/SDPMS_NO_MEDIA, ntddsd/SDPROP_MEDIA_STATE, sd-structs_a2064f73-cec7-4703-95ec-8ab8adc0b4b2.xml
-ms.topic: enum
 f1_keywords:
  - "ntddsd/SDPROP_MEDIA_STATE"
 req.header: ntddsd.h

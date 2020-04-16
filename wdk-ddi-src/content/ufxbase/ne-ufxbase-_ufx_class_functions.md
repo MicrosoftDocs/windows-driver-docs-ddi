@@ -4,7 +4,7 @@ title: _UFX_CLASS_FUNCTIONS (ufxbase.h)
 description: 
 ms.assetid: 0acaec8d-ed14-4acb-826b-8bd1552dadd6
 ms.date: 10/19/2018
-ms.topic: enum
+keywords: ["_UFX_CLASS_FUNCTIONS enumeration"]
 f1_keywords:
  - "ufxbase/_UFX_CLASS_FUNCTIONS"
 ms.keywords: _UFX_CLASS_FUNCTIONS, UFX_CLASS_FUNCTIONS, 

@@ -6,8 +6,8 @@ old-location: debugger\setunnamedargu64.htm
 tech.root: debugger
 ms.assetid: 27f25bba-8118-47c0-9b9d-6b0a1ceb4b8e
 ms.date: 05/03/2018
+keywords: ["ExtExtension::SetUnnamedArgU64"]
 ms.keywords: EngExtCpp_Ref_65080cf5-2492-440b-a496-869faf8c9c49.xml, ExtExtension class [Windows Debugging],SetUnnamedArgU64 method, ExtExtension.SetUnnamedArgU64, ExtExtension::SetUnnamedArgU64, SetUnnamedArgU64, SetUnnamedArgU64 method [Windows Debugging], SetUnnamedArgU64 method [Windows Debugging],ExtExtension class, debugger.setunnamedargu64
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtExtension.SetUnnamedArgU64"
 req.header: engextcpp.hpp

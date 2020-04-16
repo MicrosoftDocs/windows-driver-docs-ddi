@@ -6,8 +6,8 @@ old-location: storage\tapeclasslidiv.htm
 tech.root: storage
 ms.assetid: 13c449c6-6e2b-434e-8948-62c8af237173
 ms.date: 03/29/2018
+keywords: ["TapeClassLiDiv function"]
 ms.keywords: TapeClassLiDiv, TapeClassLiDiv routine [Storage Devices], minitape/TapeClassLiDiv, storage.tapeclasslidiv, tapeclas_8c5ecef8-fdd0-4889-8e3f-1bd80fe5b5c6.xml
-ms.topic: function
 f1_keywords:
  - "minitape/TapeClassLiDiv"
 req.header: minitape.h

@@ -6,8 +6,8 @@ old-location: wdf\wdfdevicesetbusinformationforchildren.htm
 tech.root: wdf
 ms.assetid: ecfce692-7dac-4f55-8a8a-1f51c27cce41
 ms.date: 02/26/2018
+keywords: ["WdfDeviceSetBusInformationForChildren function"]
 ms.keywords: DFDeviceObjectGeneralRef_76b69a67-0e1e-41d6-be98-3d5f76433d97.xml, WdfDeviceSetBusInformationForChildren, WdfDeviceSetBusInformationForChildren method, kmdf.wdfdevicesetbusinformationforchildren, wdf.wdfdevicesetbusinformationforchildren, wdfdevice/WdfDeviceSetBusInformationForChildren
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceSetBusInformationForChildren"
 req.header: wdfdevice.h

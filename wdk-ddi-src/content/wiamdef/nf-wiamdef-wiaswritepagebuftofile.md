@@ -6,8 +6,8 @@ old-location: image\wiaswritepagebuftofile.htm
 tech.root: image
 ms.assetid: aa04ef8c-5b69-4d7e-8af4-8cbdb680a23a
 ms.date: 05/03/2018
+keywords: ["wiasWritePageBufToFile function"]
 ms.keywords: image.wiaswritepagebuftofile, wiamdef/wiasWritePageBufToFile, wiasFncs_1d5b96b4-4737-481a-ae6a-e1ec4e8affef.xml, wiasWritePageBufToFile, wiasWritePageBufToFile function [Imaging Devices]
-ms.topic: function
 f1_keywords:
  - "wiamdef/wiasWritePageBufToFile"
 req.header: wiamdef.h

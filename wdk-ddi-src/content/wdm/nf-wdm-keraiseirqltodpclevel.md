@@ -6,8 +6,8 @@ old-location: kernel\keraiseirqltodpclevel.htm
 tech.root: kernel
 ms.assetid: ac82e003-ec05-4b8b-a4fb-64498fb17f9b
 ms.date: 04/30/2018
+keywords: ["KeRaiseIrqlToDpcLevel function"]
 ms.keywords: KeRaiseIrqlToDpcLevel, KeRaiseIrqlToDpcLevel routine [Kernel-Mode Driver Architecture], k105_64c33a5b-8efa-4d97-9569-2ea68a227d17.xml, kernel.keraiseirqltodpclevel, wdm/KeRaiseIrqlToDpcLevel
-ms.topic: function
 f1_keywords:
  - "wdm/KeRaiseIrqlToDpcLevel"
 req.header: wdm.h
@@ -25,7 +25,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Hal.lib
-req.dll: 
+req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
 topic_type:
 - APIRef
@@ -33,8 +33,7 @@ topic_type:
 api_type:
 - LibDef
 api_location:
-- Hal.lib
-- Hal.dll
+- NtosKrnl.exe
 api_name:
 - KeRaiseIrqlToDpcLevel
 product:

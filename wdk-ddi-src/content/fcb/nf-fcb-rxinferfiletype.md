@@ -6,8 +6,8 @@ old-location: ifsk\rxinferfiletype.htm
 tech.root: ifsk
 ms.assetid: 340b304c-5484-4d98-9ef4-8814c68443a0
 ms.date: 04/16/2018
+keywords: ["RxInferFileType function"]
 ms.keywords: RxInferFileType, RxInferFileType function [Installable File System Drivers], fcb/RxInferFileType, ifsk.rxinferfiletype, rxref_e020604c-fa08-40f3-895d-425347c73307.xml
-ms.topic: function
 f1_keywords:
  - "fcb/RxInferFileType"
 req.header: fcb.h

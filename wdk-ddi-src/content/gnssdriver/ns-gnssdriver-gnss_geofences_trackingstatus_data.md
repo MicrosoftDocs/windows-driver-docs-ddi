@@ -6,8 +6,8 @@ old-location: gnss\gnss_geofences_trackingstatus_data.htm
 tech.root: gnss
 ms.assetid: 65E59305-B1D9-4255-926A-A72F3B4887AF
 ms.date: 02/15/2018
+keywords: ["GNSS_GEOFENCES_TRACKINGSTATUS_DATA structure"]
 ms.keywords: "*PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, GNSS_GEOFENCES_TRACKINGSTATUS_DATA, GNSS_GEOFENCES_TRACKINGSTATUS_DATA structure [Sensor Devices], PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, PGNSS_GEOFENCES_TRACKINGSTATUS_DATA structure pointer [Sensor Devices], gnss.gnss_geofences_trackingstatus_data, gnssdriver/GNSS_GEOFENCES_TRACKINGSTATUS_DATA, gnssdriver/PGNSS_GEOFENCES_TRACKINGSTATUS_DATA"
-ms.topic: struct
 f1_keywords:
  - "gnssdriver/GNSS_GEOFENCES_TRACKINGSTATUS_DATA"
 req.header: gnssdriver.h

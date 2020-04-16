@@ -6,8 +6,8 @@ old-location: netvista\dot11_supported_dsss_channel.htm
 tech.root: netvista
 ms.assetid: a8c3fe52-2e5f-4212-9b52-10240d1abb86
 ms.date: 02/16/2018
+keywords: ["_DOT11_SUPPORTED_DSSS_CHANNEL structure"]
 ms.keywords: "*PDOT11_SUPPORTED_DSSS_CHANNEL, DOT11_SUPPORTED_DSSS_CHANNEL, DOT11_SUPPORTED_DSSS_CHANNEL structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_2c13b1f6-0b6e-4bc7-a51f-d9c49db8d3df.xml, PDOT11_SUPPORTED_DSSS_CHANNEL, PDOT11_SUPPORTED_DSSS_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_DSSS_CHANNEL, netvista.dot11_supported_dsss_channel, windot11/DOT11_SUPPORTED_DSSS_CHANNEL, windot11/PDOT11_SUPPORTED_DSSS_CHANNEL"
-ms.topic: struct
 f1_keywords:
  - "windot11/DOT11_SUPPORTED_DSSS_CHANNEL"
 req.header: windot11.h

@@ -4,7 +4,7 @@ title: KzRaiseIrql function (wdm.h)
 description: Raises the hardware priority to the specified IRQL value, thereby masking off interrupts of equivalent or lower IRQL on the current processor.
 ms.assetid: 61da4441-a9bd-47dc-bc54-23699213701a
 ms.date: 09/30/2018
-ms.topic: function
+keywords: ["KzRaiseIrql function"]
 f1_keywords:
  - "wdm/KzRaiseIrql"
 ms.keywords: KzRaiseIrql, KeRaiseIrql

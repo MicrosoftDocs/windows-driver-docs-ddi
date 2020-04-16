@@ -6,8 +6,8 @@ old-location: buses\usbd_isochurballocate.htm
 tech.root: usbref
 ms.assetid: 357FB967-C9D8-468C-AA14-4EF071D55D7B
 ms.date: 06/24/2019
+keywords: ["USBD_IsochUrbAllocate function"]
 ms.keywords: USBD_IsochUrbAllocate, USBD_IsochUrbAllocate routine [Buses], buses.usbd_isochurballocate, usbdlib/USBD_IsochUrbAllocate
-ms.topic: function
 f1_keywords:
  - "usbdlib/USBD_IsochUrbAllocate"
 req.header: usbdlib.h

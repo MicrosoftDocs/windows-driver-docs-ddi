@@ -6,8 +6,8 @@ old-location: ifsk\fltsetstreamcontext.htm
 tech.root: ifsk
 ms.assetid: c10e46a5-62e4-4d78-a672-34fc218800eb
 ms.date: 04/16/2018
+keywords: ["FltSetStreamContext function"]
 ms.keywords: FltApiRef_p_to_z_b304d975-533c-4794-aabc-e706fed09893.xml, FltSetStreamContext, FltSetStreamContext routine [Installable File System Drivers], fltkernel/FltSetStreamContext, ifsk.fltsetstreamcontext
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltSetStreamContext"
 req.header: fltkernel.h

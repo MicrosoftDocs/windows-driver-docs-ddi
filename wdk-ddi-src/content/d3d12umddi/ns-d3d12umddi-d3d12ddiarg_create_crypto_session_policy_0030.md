@@ -5,8 +5,8 @@ description: Creates a crypto session policy.
 old-location: display\d3d12ddiarg-create-crypto-session-policy-0030.htm
 ms.assetid: b7574112-2cac-4bec-9039-9afeef4d2f51
 ms.date: 05/10/2018
+keywords: ["D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030 structure"]
 ms.keywords: D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030, D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030, display.d3d12ddiarg-create-crypto-session-policy-0030
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_CREATE_CRYPTO_SESSION_POLICY_0030"
 req.header: d3d12umddi.h

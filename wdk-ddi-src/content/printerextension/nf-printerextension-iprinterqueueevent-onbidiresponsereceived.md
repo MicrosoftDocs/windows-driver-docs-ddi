@@ -6,8 +6,8 @@ old-location: print\iprinterqueueevent_onbidiresponsereceived.htm
 tech.root: print
 ms.assetid: D0CD9950-DF73-4D46-B901-FA45BA88D3CF
 ms.date: 04/20/2018
+keywords: ["IPrinterQueueEvent::OnBidiResponseReceived"]
 ms.keywords: IPrinterQueueEvent interface [Print Devices],OnBidiResponseReceived method, IPrinterQueueEvent.OnBidiResponseReceived, IPrinterQueueEvent::OnBidiResponseReceived, OnBidiResponseReceived, OnBidiResponseReceived method [Print Devices], OnBidiResponseReceived method [Print Devices],IPrinterQueueEvent interface, print.iprinterqueueevent_onbidiresponsereceived, printerextension/IPrinterQueueEvent::OnBidiResponseReceived
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterQueueEvent.OnBidiResponseReceived"
 req.header: printerextension.h

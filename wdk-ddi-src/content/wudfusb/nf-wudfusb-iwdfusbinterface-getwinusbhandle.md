@@ -6,8 +6,8 @@ old-location: wdf\iwdfusbinterface_getwinusbhandle.htm
 tech.root: wdf
 ms.assetid: 31c23596-21b2-4fb2-96bd-5372fe2432ab
 ms.date: 02/26/2018
+keywords: ["IWDFUsbInterface::GetWinUsbHandle"]
 ms.keywords: GetWinUsbHandle, GetWinUsbHandle method, GetWinUsbHandle method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetWinUsbHandle method, IWDFUsbInterface.GetWinUsbHandle, IWDFUsbInterface::GetWinUsbHandle, UMDFUSBref_6c94f0cc-8995-45c9-8101-bc123b0e48bf.xml, umdf.iwdfusbinterface_getwinusbhandle, wdf.iwdfusbinterface_getwinusbhandle, wudfusb/IWDFUsbInterface::GetWinUsbHandle
-ms.topic: method
 f1_keywords:
  - "wudfusb/IWDFUsbInterface.GetWinUsbHandle"
 req.header: wudfusb.h

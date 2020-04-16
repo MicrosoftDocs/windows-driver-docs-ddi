@@ -6,8 +6,8 @@ old-location: ifsk\rxlogeventdirect.htm
 tech.root: ifsk
 ms.assetid: fc0bf8c4-cc0b-4f1e-bd4e-facf8f0d2a96
 ms.date: 04/16/2018
+keywords: ["RxLogEventDirect function"]
 ms.keywords: RxLogEventDirect, RxLogEventDirect routine [Installable File System Drivers], ifsk.rxlogeventdirect, rxprocs/RxLogEventDirect, rxref_654ffecc-ea49-44b8-b454-9f66e9519ddd.xml
-ms.topic: function
 f1_keywords:
  - "rxprocs/RxLogEventDirect"
 req.header: rxprocs.h

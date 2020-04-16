@@ -6,8 +6,8 @@ old-location: ifsk\rtlcreatesystemvolumeinformationfolder.htm
 tech.root: ifsk
 ms.assetid: bcbbddc7-6675-4555-bd05-588762148554
 ms.date: 04/16/2018
+keywords: ["RtlCreateSystemVolumeInformationFolder function"]
 ms.keywords: RtlCreateSystemVolumeInformationFolder, RtlCreateSystemVolumeInformationFolder routine [Installable File System Drivers], ifsk.rtlcreatesystemvolumeinformationfolder, ntifs/RtlCreateSystemVolumeInformationFolder, rtlref_f854cbbb-1aa4-4f0a-8d2d-5b160634a155.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlCreateSystemVolumeInformationFolder"
 req.header: ntifs.h

@@ -6,8 +6,8 @@ old-location: storage\storportgetdeviceobjects.htm
 tech.root: storage
 ms.assetid: e48b5048-5f5f-4efb-b7bf-2dd183074516
 ms.date: 03/29/2018
+keywords: ["StorPortGetDeviceObjects function"]
 ms.keywords: StorPortGetDeviceObjects, StorPortGetDeviceObjects routine [Storage Devices], storage.storportgetdeviceobjects, storport/StorPortGetDeviceObjects, storprt_219d8794-88c3-49c6-82ea-a19f75c3ad1f.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortGetDeviceObjects"
 req.header: storport.h

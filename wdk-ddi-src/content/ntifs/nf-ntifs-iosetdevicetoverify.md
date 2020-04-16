@@ -6,8 +6,8 @@ old-location: ifsk\iosetdevicetoverify.htm
 tech.root: ifsk
 ms.assetid: 509eb91d-7f34-4ebb-bc37-56889c15a1b3
 ms.date: 04/16/2018
+keywords: ["IoSetDeviceToVerify function"]
 ms.keywords: IoSetDeviceToVerify, IoSetDeviceToVerify routine [Installable File System Drivers], ifsk.iosetdevicetoverify, ioref_58eab192-eab0-42ee-8c2b-4fe1ad0fb703.xml, ntifs/IoSetDeviceToVerify
-ms.topic: function
 f1_keywords:
  - "ntifs/IoSetDeviceToVerify"
 req.header: ntifs.h

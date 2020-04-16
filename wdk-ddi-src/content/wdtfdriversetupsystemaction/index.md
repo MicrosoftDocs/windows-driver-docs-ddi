@@ -3,6 +3,7 @@ UID: NA:wdtfdriversetupsystemaction
 title: Wdtfdriversetupsystemaction.h header
 ms.assetid: e463b19f-90ca-388e-8742-9094e47bef38
 ms.date: 05/09/2018
+keywords: ["Wdtfdriversetupsystemaction.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

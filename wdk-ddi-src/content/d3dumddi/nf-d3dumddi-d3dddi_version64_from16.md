@@ -4,7 +4,7 @@ title: D3DDDI_VERSION64_FROM16 macro (d3dumddi.h)
 description: Converts a 64 bit version from a 16 bit.
 ms.assetid: 18ac5a8e-b3cd-435b-98f1-4be487d1a0d4
 ms.date: 10/19/2018
-ms.topic: macro
+keywords: ["D3DDDI_VERSION64_FROM16 macro"]
 f1_keywords:
  - "d3dumddi/D3DDDI_VERSION64_FROM16"
 ms.keywords: D3DDDI_VERSION64_FROM16

@@ -6,8 +6,8 @@ old-location: print\ifixeddocumentsequence.htm
 tech.root: print
 ms.assetid: 8919e2d1-0c39-46b6-b06e-83fe61f67751
 ms.date: 04/20/2018
+keywords: ["IFixedDocumentSequence interface"]
 ms.keywords: IFixedDocumentSequence, IFixedDocumentSequence interface [Print Devices], IFixedDocumentSequence interface [Print Devices],described, filterpipeline/IFixedDocumentSequence, filterpipeline_ed0de3e6-e4c7-43e6-a6cf-c16d3a086838.xml, print.ifixeddocumentsequence
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IFixedDocumentSequence"
 req.header: filterpipeline.h
@@ -53,7 +53,7 @@ The <b>IFixedDocumentSequence</b> interface represents the fixed document sequen
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFixedDocumentSequence</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFixedDocumentSequence</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IFixedDocumentSequence</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFixedDocumentSequence</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

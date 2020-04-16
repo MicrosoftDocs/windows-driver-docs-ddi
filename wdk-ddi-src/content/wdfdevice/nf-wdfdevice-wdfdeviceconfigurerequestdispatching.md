@@ -6,8 +6,8 @@ old-location: wdf\wdfdeviceconfigurerequestdispatching.htm
 tech.root: wdf
 ms.assetid: aba4cccd-267d-48cc-a6ff-be19802adfdc
 ms.date: 02/26/2018
+keywords: ["WdfDeviceConfigureRequestDispatching function"]
 ms.keywords: DFDeviceObjectGeneralRef_d1874c0c-e889-4225-8bbf-e8292edcb716.xml, WdfDeviceConfigureRequestDispatching, WdfDeviceConfigureRequestDispatching method, kmdf.wdfdeviceconfigurerequestdispatching, wdf.wdfdeviceconfigurerequestdispatching, wdfdevice/WdfDeviceConfigureRequestDispatching
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceConfigureRequestDispatching"
 req.header: wdfdevice.h

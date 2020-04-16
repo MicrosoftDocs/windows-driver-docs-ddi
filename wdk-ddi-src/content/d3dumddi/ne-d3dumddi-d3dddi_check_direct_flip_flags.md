@@ -6,8 +6,8 @@ old-location: display\d3dddi_check_direct_flip_flags.htm
 tech.root: display
 ms.assetid: 72b49af8-4d98-4fc0-ab40-72f1e19eef96
 ms.date: 05/10/2018
+keywords: ["D3DDDI_CHECK_DIRECT_FLIP_FLAGS enumeration"]
 ms.keywords: D3DDDI_CHECKDIRECTFLIP_IMMEDIATE, D3DDDI_CHECK_DIRECT_FLIP_FLAGS, D3DDDI_CHECK_DIRECT_FLIP_FLAGS enumeration [Display Devices], d3dumddi/D3DDDI_CHECKDIRECTFLIP_IMMEDIATE, d3dumddi/D3DDDI_CHECK_DIRECT_FLIP_FLAGS, display.d3dddi_check_direct_flip_flags
-ms.topic: enum
 f1_keywords:
  - "d3dumddi/D3DDDI_CHECK_DIRECT_FLIP_FLAGS"
 req.header: d3dumddi.h

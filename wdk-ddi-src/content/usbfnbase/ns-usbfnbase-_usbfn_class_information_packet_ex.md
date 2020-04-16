@@ -6,8 +6,8 @@ old-location: buses\usbfn_class_information_packet_ex.htm
 tech.root: usbref
 ms.assetid: 373D7CA9-AF1B-46E8-AE6A-F693A9214527
 ms.date: 05/07/2018
+keywords: ["_USBFN_CLASS_INFORMATION_PACKET_EX structure"]
 ms.keywords: "*PUSBFN_CLASS_INFORMATION_PACKET_EX, PUSBFN_CLASS_INFORMATION_PACKET_EX, PUSBFN_CLASS_INFORMATION_PACKET_EX structure pointer [Buses], USBFN_CLASS_INFORMATION_PACKET_EX, USBFN_CLASS_INFORMATION_PACKET_EX structure [Buses], _USBFN_CLASS_INFORMATION_PACKET_EX, buses.usbfn_class_information_packet_ex, usbfnbase/PUSBFN_CLASS_INFORMATION_PACKET_EX, usbfnbase/USBFN_CLASS_INFORMATION_PACKET_EX"
-ms.topic: struct
 f1_keywords:
  - "usbfnbase/USBFN_CLASS_INFORMATION_PACKET_EX"
 req.header: usbfnbase.h

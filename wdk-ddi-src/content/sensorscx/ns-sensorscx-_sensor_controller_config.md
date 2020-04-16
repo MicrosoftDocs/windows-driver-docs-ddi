@@ -6,8 +6,8 @@ old-location: sensors\sensor_controller_config.htm
 tech.root: sensors
 ms.assetid: EEAC4D16-D0B8-4147-AD2D-7EE60853EBDD
 ms.date: 05/03/2018
+keywords: ["_SENSOR_CONTROLLER_CONFIG structure"]
 ms.keywords: "*PSENSOR_CONTROLLER_CONFIG, PSENSOR_CONTROLLER_CONFIG, PSENSOR_CONTROLLER_CONFIG structure pointer [Sensor Devices], SENSOR_CONTROLLER_CONFIG, SENSOR_CONTROLLER_CONFIG structure [Sensor Devices], _SENSOR_CONTROLLER_CONFIG, sensors.sensor_controller_config, sensorscx/PSENSOR_CONTROLLER_CONFIG, sensorscx/SENSOR_CONTROLLER_CONFIG"
-ms.topic: struct
 f1_keywords:
  - "sensorscx/SENSOR_CONTROLLER_CONFIG"
 req.header: sensorscx.h

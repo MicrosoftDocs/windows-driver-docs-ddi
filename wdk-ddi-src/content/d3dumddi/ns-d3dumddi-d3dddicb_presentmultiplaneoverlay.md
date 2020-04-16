@@ -6,8 +6,8 @@ old-location: display\d3dddicb_presentmultiplaneoverlay.htm
 tech.root: display
 ms.assetid: 4161418c-4f56-4daf-bf3d-e76899ccd1b2
 ms.date: 05/10/2018
+keywords: ["D3DDDICB_PRESENTMULTIPLANEOVERLAY structure"]
 ms.keywords: D3DDDICB_PRESENTMULTIPLANEOVERLAY, D3DDDICB_PRESENTMULTIPLANEOVERLAY structure [Display Devices], d3dumddi/D3DDDICB_PRESENTMULTIPLANEOVERLAY, display.d3dddicb_presentmultiplaneoverlay
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDICB_PRESENTMULTIPLANEOVERLAY"
 req.header: d3dumddi.h

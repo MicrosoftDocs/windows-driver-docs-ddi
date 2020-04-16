@@ -6,8 +6,8 @@ old-location: debugger\beginthreadstackreconstruction.htm
 tech.root: debugger
 ms.assetid: 50CBBBED-EF1B-485F-90D3-0056AF8984E7
 ms.date: 05/03/2018
+keywords: ["PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION callback function"]
 ms.keywords: BeginThreadStackReconstruction, BeginThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION callback, dbgeng/BeginThreadStackReconstruction, debugger.beginthreadstackreconstruction
-ms.topic: callback
 f1_keywords:
  - "dbgeng/BeginThreadStackReconstruction"
 req.header: dbgeng.h

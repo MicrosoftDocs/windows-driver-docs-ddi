@@ -6,8 +6,8 @@ old-location: wdf\wdfinterruptsynchronize.htm
 tech.root: wdf
 ms.assetid: b41fc37a-d41f-49ca-848f-844e049dd987
 ms.date: 02/26/2018
+keywords: ["WdfInterruptSynchronize function"]
 ms.keywords: DFInterruptObjectRef_d56eadd2-4636-43bb-b842-318243bcf192.xml, WdfInterruptSynchronize, WdfInterruptSynchronize method, kmdf.wdfinterruptsynchronize, wdf.wdfinterruptsynchronize, wdfinterrupt/WdfInterruptSynchronize
-ms.topic: function
 f1_keywords:
  - "wdfinterrupt/WdfInterruptSynchronize"
 req.header: wdfinterrupt.h

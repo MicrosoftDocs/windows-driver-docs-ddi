@@ -5,8 +5,8 @@ description: Creates a video decoder object.
 old-location: display\createvideodecoder.htm
 ms.assetid: 41254f99-1806-428c-8bf3-7e736dbeec84
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_CREATEVIDEODECODER callback function"]
 ms.keywords: CreateVideoDecoder, CreateVideoDecoder callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEODECODER, PFND3D11_1DDI_CREATEVIDEODECODER callback, d3d10umddi/CreateVideoDecoder, display.createvideodecoder
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -64,11 +64,15 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ### -param Arg3
 
+*hDecode* [in]
+
+A handle to the driver's private data for the video decoder object.
+
+### -param Arg4
+
 *hRTDecode* [in]
 
 A handle to the video decoder object that the driver should use when it calls back into the runtime.
-
-### -param Arg4
 
 ## -returns
 

@@ -6,8 +6,8 @@ old-location: print\iprinterextensioneventargs_sourceapplication.htm
 tech.root: print
 ms.assetid: 98A8427B-24F7-43D2-A0AD-76E3BC085BCA
 ms.date: 04/20/2018
+keywords: ["IPrinterExtensionEventArgs::get_SourceApplication"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],SourceApplication property, IPrinterExtensionEventArgs.SourceApplication, IPrinterExtensionEventArgs.get_SourceApplication, IPrinterExtensionEventArgs::SourceApplication, IPrinterExtensionEventArgs::get_SourceApplication, SourceApplication property [Print Devices], SourceApplication property [Print Devices],IPrinterExtensionEventArgs interface, get_SourceApplication, print.iprinterextensioneventargs_sourceapplication, printerextension/IPrinterExtensionEventArgs::SourceApplication, printerextension/IPrinterExtensionEventArgs::get_SourceApplication
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterExtensionEventArgs.SourceApplication"
 req.header: printerextension.h

@@ -6,8 +6,8 @@ old-location: display\idarg_in_setswapchain.htm
 tech.root: display
 ms.assetid: 5b3a4a43-e8d4-4edf-87f3-dd3e6bb7e9dc
 ms.date: 05/10/2018
+keywords: ["IDARG_IN_SETSWAPCHAIN structure"]
 ms.keywords: IDARG_IN_SETSWAPCHAIN, IDARG_IN_SETSWAPCHAIN structure [Display Devices], display.idarg_in_setswapchain, iddcx/IDARG_IN_SETSWAPCHAIN
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDARG_IN_SETSWAPCHAIN"
 req.header: iddcx.h

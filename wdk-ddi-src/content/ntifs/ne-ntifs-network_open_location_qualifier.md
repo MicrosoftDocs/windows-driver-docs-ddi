@@ -6,8 +6,8 @@ old-location: ifsk\network_open_location_qualifier.htm
 tech.root: ifsk
 ms.assetid: 7762bf83-82cc-4eef-9699-d093a8c2b986
 ms.date: 04/16/2018
+keywords: ["NETWORK_OPEN_LOCATION_QUALIFIER enumeration"]
 ms.keywords: ECP_Structures_0e589e5b-5266-429b-acab-236c00a75c1c.xml, NETWORK_OPEN_LOCATION_QUALIFIER, NETWORK_OPEN_LOCATION_QUALIFIER enumeration [Installable File System Drivers], NetworkOpenLocationAny, NetworkOpenLocationLoopback, NetworkOpenLocationRemote, ifsk.network_open_location_qualifier, ntifs/NETWORK_OPEN_LOCATION_QUALIFIER, ntifs/NetworkOpenLocationAny, ntifs/NetworkOpenLocationLoopback, ntifs/NetworkOpenLocationRemote
-ms.topic: enum
 f1_keywords:
  - "ntifs/NETWORK_OPEN_LOCATION_QUALIFIER"
 req.header: ntifs.h

@@ -6,8 +6,8 @@ old-location: sensors\evtsensorsetdatathresholds.htm
 tech.root: sensors
 ms.assetid: 297C0F35-8A18-47CF-8040-BA429963AC5F
 ms.date: 05/03/2018
+keywords: ["EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS callback function"]
 ms.keywords: EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS, EVT_SENSOR_DRIVER_SET_DATA_THRESHOLDS callback, EvtSensorSetDataThresholds, EvtSensorSetDataThresholds callback function [Sensor Devices], sensors.evtsensorsetdatathresholds, sensorscx/EvtSensorSetDataThresholds
-ms.topic: callback
 f1_keywords:
  - "sensorscx/EvtSensorSetDataThresholds"
 req.header: sensorscx.h

@@ -6,8 +6,8 @@ old-location: wpddk\iportabledeviceclassextension_initialize.htm
 tech.root: wpd_dk
 ms.assetid: 8c4c652a-99e8-4ebb-a739-89cb50f9c140
 ms.date: 02/15/2018
+keywords: ["IPortableDeviceClassExtension::Initialize"]
 ms.keywords: IPortableDeviceClassExtension interface,Initialize method, IPortableDeviceClassExtension.Initialize, IPortableDeviceClassExtension::Initialize, IPortableDeviceClassExtensionInitialize, Initialize, Initialize method, Initialize method,IPortableDeviceClassExtension interface, portabledeviceclassextension/IPortableDeviceClassExtension::Initialize, wpddk.iportabledeviceclassextension_initialize
-ms.topic: method
 f1_keywords:
  - "portabledeviceclassextension/IPortableDeviceClassExtension.Initialize"
 req.header: portabledeviceclassextension.h

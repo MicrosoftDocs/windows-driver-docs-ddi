@@ -6,8 +6,8 @@ old-location: wdf\wdf_memory_descriptor_init_handle.htm
 tech.root: wdf
 ms.assetid: e5449684-dd37-4d49-ae9f-372f295cecf8
 ms.date: 02/26/2018
+keywords: ["WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function"]
 ms.keywords: DFMemoryObjectRef_1cec1e9e-7279-4278-a5c2-2eaaaa7a8074.xml, WDF_MEMORY_DESCRIPTOR_INIT_HANDLE, WDF_MEMORY_DESCRIPTOR_INIT_HANDLE function, kmdf.wdf_memory_descriptor_init_handle, wdf.wdf_memory_descriptor_init_handle, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_HANDLE
-ms.topic: function
 f1_keywords:
  - "wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_HANDLE"
 req.header: wdfmemory.h

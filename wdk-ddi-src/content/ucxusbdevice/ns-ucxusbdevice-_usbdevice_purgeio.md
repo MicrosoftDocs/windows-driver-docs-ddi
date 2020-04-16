@@ -6,8 +6,8 @@ old-location: buses\_usbdevice_purgeio.htm
 tech.root: usbref
 ms.assetid: 5E45A5A0-59EE-4A72-9CCA-DD1C9A406EB5
 ms.date: 05/07/2018
+keywords: ["_USBDEVICE_PURGEIO structure"]
 ms.keywords: "*PUSBDEVICE_PURGEIO, P_USBDEVICE_PURGEIO, P_USBDEVICE_PURGEIO structure pointer [Buses], USBDEVICE_PURGEIO, USBDEVICE_PURGEIO structure [Buses], _USBDEVICE_PURGEIO, buses._usbdevice_purgeio, ucxusbdevice/P_USBDEVICE_PURGEIO, ucxusbdevice/_USBDEVICE_PURGEIO"
-ms.topic: struct
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_PURGEIO"
 req.header: ucxusbdevice.h

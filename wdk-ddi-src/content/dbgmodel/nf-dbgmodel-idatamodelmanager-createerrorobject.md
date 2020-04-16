@@ -4,7 +4,7 @@ title: IDataModelManager::CreateErrorObject (dbgmodel.h)
 description: The CreateErrorObject method creates an "error object". The data model does not have the notion of exceptions and exception flow. 
 ms.assetid: a57fdf58-d8f5-4044-be00-5225670ec3ac
 ms.date: 07/17/2018
-ms.topic: method
+keywords: ["IDataModelManager::CreateErrorObject"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.CreateErrorObject"
 ms.keywords: IDataModelManager::CreateErrorObject, CreateErrorObject, IDataModelManager.CreateErrorObject, IDataModelManager::CreateErrorObject, IDataModelManager.CreateErrorObject

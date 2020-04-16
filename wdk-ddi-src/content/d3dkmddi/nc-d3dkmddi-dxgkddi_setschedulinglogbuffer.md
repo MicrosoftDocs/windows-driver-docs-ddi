@@ -4,7 +4,7 @@ title: DXGKDDI_SETSCHEDULINGLOGBUFFER (d3dkmddi.h)
 description: Instruct the GPU to use the passed buffer as a scheduling log for a particular GPU node.
 ms.assetid: b999c9b3-7f29-4dae-9968-86fbcaa9fabb
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["DXGKDDI_SETSCHEDULINGLOGBUFFER callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKDDI_SETSCHEDULINGLOGBUFFER"
 req.header: d3dkmddi.h

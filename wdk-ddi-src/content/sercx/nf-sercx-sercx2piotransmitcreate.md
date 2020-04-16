@@ -6,8 +6,8 @@ old-location: serports\sercx2piotransmitcreate.htm
 tech.root: serports
 ms.assetid: 550A26D0-18A5-47F9-B769-B76FA2EB1734
 ms.date: 04/23/2018
+keywords: ["SerCx2PioTransmitCreate function"]
 ms.keywords: 2/SerCx2PioTransmitCreate, SerCx2PioTransmitCreate, SerCx2PioTransmitCreate method [Serial Ports], serports.sercx2piotransmitcreate
-ms.topic: function
 f1_keywords:
  - "sercx/SerCx2PioTransmitCreate"
 req.header: sercx.h

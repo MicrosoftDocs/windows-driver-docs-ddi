@@ -6,8 +6,8 @@ old-location: devtest\wpprecorderlinkcounters.htm
 tech.root: devtest
 ms.assetid: D8FF1E87-EB3E-491E-9649-076376C272B3
 ms.date: 02/23/2018
+keywords: ["imp_WppRecorderLinkCounters function"]
 ms.keywords: WppRecorderLinkCounters, devtest.wpprecorderlinkcounters, imp_WppRecorderLinkCounters, imp_WppRecorderLinkCounters function [Driver Development Tools], wpprecorder/imp_WppRecorderLinkCounters
-ms.topic: function
 f1_keywords:
  - "wpprecorder/imp_WppRecorderLinkCounters"
 req.header: wpprecorder.h

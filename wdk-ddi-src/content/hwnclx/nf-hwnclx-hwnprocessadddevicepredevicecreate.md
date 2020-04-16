@@ -6,8 +6,8 @@ old-location: gpiobtn\hwnprocessadddevicepredevicecreate.htm
 tech.root: gpiobtn
 ms.assetid: c7bbba08-e9d0-4f78-93d8-e451e4dc2573
 ms.date: 02/15/2018
+keywords: ["HwNProcessAddDevicePreDeviceCreate function"]
 ms.keywords: HwNProcessAddDevicePreDeviceCreate, HwNProcessAddDevicePreDeviceCreate function, gpiobtn.hwnprocessadddevicepredevicecreate, hwnclx/HwNProcessAddDevicePreDeviceCreate
-ms.topic: function
 f1_keywords:
  - "hwnclx/HwNProcessAddDevicePreDeviceCreate"
 req.header: hwnclx.h

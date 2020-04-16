@@ -6,8 +6,8 @@ old-location: buses\ufx_device_capabilities.htm
 tech.root: usbref
 ms.assetid: 896919C9-E72E-4C0F-9E3E-9BEE9F55D27D
 ms.date: 05/07/2018
+keywords: ["_UFX_DEVICE_CAPABILITIES structure"]
 ms.keywords: "*PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES structure pointer [Buses], UFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES structure [Buses], _UFX_DEVICE_CAPABILITIES, buses.ufx_device_capabilities, ufxbase/PUFX_DEVICE_CAPABILITIES, ufxbase/UFX_DEVICE_CAPABILITIES"
-ms.topic: struct
 f1_keywords:
  - "ufxbase/UFX_DEVICE_CAPABILITIES"
 req.header: ufxbase.h

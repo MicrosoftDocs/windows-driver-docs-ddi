@@ -5,8 +5,8 @@ description: Specifies the number of current Desktop Duplication API (DDA) clien
 old-location: display\d3dkmt_outputduplcontextscount.htm
 ms.assetid: db63b984-73da-4b66-8a5e-06704dd7c031
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_OUTPUTDUPLCONTEXTSCOUNT structure"]
 ms.keywords: D3DKMT_OUTPUTDUPLCONTEXTSCOUNT, D3DKMT_OUTPUTDUPLCONTEXTSCOUNT structure [Display Devices], _D3DKMT_OUTPUTDUPLCONTEXTSCOUNT, d3dkmthk/D3DKMT_OUTPUTDUPLCONTEXTSCOUNT, display.d3dkmt_outputduplcontextscount
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_OUTPUTDUPLCONTEXTSCOUNT"
 req.header: d3dkmthk.h

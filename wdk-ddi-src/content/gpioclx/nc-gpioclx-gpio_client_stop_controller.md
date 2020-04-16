@@ -6,8 +6,8 @@ old-location: gpio\client_stopcontroller.htm
 tech.root: GPIO
 ms.assetid: 4B1A33AC-E341-478E-8C1E-94F4473A191C
 ms.date: 02/15/2018
+keywords: ["GPIO_CLIENT_STOP_CONTROLLER callback function"]
 ms.keywords: CLIENT_StopController, CLIENT_StopController callback, CLIENT_StopController callback function [Parallel Ports], GPIO.client_stopcontroller, GPIO_CLIENT_STOP_CONTROLLER, gpioclx/CLIENT_StopController
-ms.topic: callback
 f1_keywords:
  - "gpioclx/CLIENT_StopController"
 req.header: gpioclx.h

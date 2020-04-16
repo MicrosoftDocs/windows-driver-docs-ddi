@@ -6,8 +6,8 @@ old-location: display\d3dddiarg_cryptosessionkeyexchange.htm
 tech.root: display
 ms.assetid: 45ff38bf-7640-4b7c-ab26-ae758c9b4696
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE structure"]
 ms.keywords: D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE, D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE structure [Display Devices], UMDisplayDriver_param_Structs_80a0e3f6-7fa5-444f-9eeb-505a6632af8d.xml, _D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE, d3dumddi/D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE, display.d3dddiarg_cryptosessionkeyexchange
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CRYPTOSESSIONKEYEXCHANGE"
 req.header: d3dumddi.h

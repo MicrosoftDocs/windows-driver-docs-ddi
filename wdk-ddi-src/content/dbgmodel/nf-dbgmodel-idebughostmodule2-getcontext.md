@@ -4,7 +4,7 @@ title: IDebugHostModule2::GetContext (dbgmodel.h)
 description: The GetContext method returns the context where the symbol is valid.
 ms.assetid: 0301f37b-906f-4715-8aeb-55ab05633109
 ms.date: 09/18/2018
-ms.topic: method
+keywords: ["IDebugHostModule2::GetContext"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule2.GetContext"
 ms.keywords: IDebugHostModule2::GetContext, GetContext, IDebugHostModule2.GetContext, IDebugHostModule2::GetContext, IDebugHostModule2.GetContext

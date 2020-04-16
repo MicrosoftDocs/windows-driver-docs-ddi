@@ -4,7 +4,7 @@ title: PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0053 (d3d12umddi.h)
 description: Creates the video motion estimator.
 ms.assetid: 044c1e98-b151-42dc-ab5b-1f137460e9f4
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_CREATEVIDEOMOTIONESTIMATOR_0053 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

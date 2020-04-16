@@ -6,8 +6,8 @@ old-location: kernel\rtlulonglongsub.htm
 tech.root: kernel
 ms.assetid: 3D0161C7-F99F-48EC-BE16-E5B857172C33
 ms.date: 04/30/2018
+keywords: ["RtlULongLongSub function"]
 ms.keywords: RtlULongLongSub, RtlULongLongSub function [Kernel-Mode Driver Architecture], kernel.rtlulonglongsub, ntintsafe/RtlULongLongSub
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlULongLongSub"
 req.header: ntintsafe.h

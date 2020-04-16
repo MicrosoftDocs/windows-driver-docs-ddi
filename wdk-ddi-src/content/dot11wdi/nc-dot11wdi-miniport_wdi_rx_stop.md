@@ -6,8 +6,8 @@ old-location: netvista\miniportwdirxstop.htm
 tech.root: netvista
 ms.assetid: AAFECA64-07D7-43E6-ABFB-C0C85A9C03CD
 ms.date: 05/02/2018
+keywords: ["MINIPORT_WDI_RX_STOP callback function"]
 ms.keywords: MINIPORT_WDI_RX_STOP, MINIPORT_WDI_RX_STOP callback, MiniportWdiRxStop, MiniportWdiRxStop callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxStop, netvista.miniportwdirxstop
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiRxStop"
 req.header: dot11wdi.h

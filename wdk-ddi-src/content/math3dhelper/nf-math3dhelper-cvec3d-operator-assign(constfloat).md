@@ -4,7 +4,7 @@ title: CVEC3D::operator=(const float) (math3dhelper.h)
 description: Assignment operator =.
 ms.assetid: 35f51099-b6ae-49d5-b9ea-82f626ad1172
 ms.date: 08/01/2018
-ms.topic: method
+keywords: ["CVEC3D::operator=(const float)"]
 f1_keywords:
  - "math3dhelper/CVEC3D.operator*="
 tech.root: sensors

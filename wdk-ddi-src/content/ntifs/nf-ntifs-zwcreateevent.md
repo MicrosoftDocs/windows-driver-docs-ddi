@@ -6,8 +6,8 @@ old-location: kernel\zwcreateevent.htm
 tech.root: kernel
 ms.assetid: c11265fb-df9d-405e-ac9f-e868ab392e7b
 ms.date: 04/30/2018
+keywords: ["ZwCreateEvent function"]
 ms.keywords: NtCreateEvent, ZwCreateEvent, ZwCreateEvent routine [Kernel-Mode Driver Architecture], k111_53554a99-3112-4f70-8c00-9d632a74d15b.xml, kernel.zwcreateevent, ntifs/NtCreateEvent, ntifs/ZwCreateEvent
-ms.topic: function
 f1_keywords:
  - "ntifs/ZwCreateEvent"
 req.header: ntifs.h

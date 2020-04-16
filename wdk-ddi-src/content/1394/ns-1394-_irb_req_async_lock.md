@@ -6,8 +6,8 @@ old-location: ieee\irb_req_async_lock.htm
 tech.root: IEEE
 ms.assetid: 735C613E-BEAA-4E95-AF9D-A94A4BD940DE
 ms.date: 02/15/2018
+keywords: ["_IRB_REQ_ASYNC_LOCK structure"]
 ms.keywords: 1394/IRB_REQ_ASYNC_LOCK, IEEE.irb_req_async_lock, IRB_REQ_ASYNC_LOCK, IRB_REQ_ASYNC_LOCK structure [Buses], _IRB_REQ_ASYNC_LOCK
-ms.topic: struct
 f1_keywords:
  - "1394/IRB_REQ_ASYNC_LOCK"
 req.header: 1394.h

@@ -6,8 +6,8 @@ old-location: biometric\winbio_version.htm
 tech.root: biometric
 ms.assetid: 6a89a581-0af4-4a42-be81-fb7cb1f33bdd
 ms.date: 02/20/2018
+keywords: ["_WINBIO_VERSION structure"]
 ms.keywords: "*PWINBIO_VERSION, PWINBIO_VERSION, PWINBIO_VERSION structure pointer [Biometric Devices], WINBIO_VERSION, WINBIO_VERSION structure [Biometric Devices], _WINBIO_VERSION, biometric.winbio_version, biometric_ref_2f55229e-601f-422c-b35c-0fb58605b273.xml, winbio_types/PWINBIO_VERSION, winbio_types/WINBIO_VERSION"
-ms.topic: struct
 f1_keywords:
  - "winbio_types/WINBIO_VERSION"
 req.header: winbio_types.h

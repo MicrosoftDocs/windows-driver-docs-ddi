@@ -6,8 +6,8 @@ old-location: ifsk\fltallocatecontext.htm
 tech.root: ifsk
 ms.assetid: 34be4ca1-9484-41c5-9382-4785c36fca1a
 ms.date: 05/29/2019
+keywords: ["FltAllocateContext function"]
 ms.keywords: FltAllocateContext, FltAllocateContext routine [Installable File System Drivers], FltApiRef_a_to_d_dcc03d8c-1f61-4afb-8774-f98951ebfb1f.xml, fltkernel/FltAllocateContext, ifsk.fltallocatecontext
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltAllocateContext"
 req.header: fltkernel.h

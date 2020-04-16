@@ -6,8 +6,8 @@ old-location: storage\report_zones_data.htm
 tech.root: storage
 ms.assetid: 67785cb0-388c-4348-b32a-99bcd02b7c04
 ms.date: 03/29/2018
+keywords: ["_REPORT_ZONES_DATA structure"]
 ms.keywords: "*PREPORT_ZONES_DATA, PREPORT_ZONES_DATA, PREPORT_ZONES_DATA structure pointer [Storage Devices], REPORT_ZONES_DATA, REPORT_ZONES_DATA structure [Storage Devices], _REPORT_ZONES_DATA, scsi/PREPORT_ZONES_DATA, scsi/REPORT_ZONES_DATA, storage.report_zones_data"
-ms.topic: struct
 f1_keywords:
  - "storport/REPORT_ZONES_DATA"
 req.header: storport.h

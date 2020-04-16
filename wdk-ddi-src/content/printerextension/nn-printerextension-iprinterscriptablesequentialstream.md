@@ -6,8 +6,8 @@ old-location: print\iprinterscriptablesequentialstream_interface.htm
 tech.root: print
 ms.assetid: 85DF7DCB-7AB1-4A46-AD70-6D47D9F98079
 ms.date: 04/20/2018
+keywords: ["IPrinterScriptableSequentialStream interface"]
 ms.keywords: IPrinterScriptableSequentialStream, IPrinterScriptableSequentialStream interface [Print Devices], IPrinterScriptableSequentialStream interface [Print Devices],described, print.iprinterscriptablesequentialstream_interface, printerextension/IPrinterScriptableSequentialStream
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrinterScriptableSequentialStream"
 req.header: printerextension.h
@@ -53,7 +53,7 @@ The IPrinterScriptableSequentialStream interface is an ISequentialStream-like in
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterScriptableSequentialStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterScriptableSequentialStream</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrinterScriptableSequentialStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterScriptableSequentialStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

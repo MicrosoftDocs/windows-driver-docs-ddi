@@ -7,7 +7,7 @@ tech.root: ifsk
 ms.assetid: 5f07dff9-004f-415a-81fb-5d32e44fbc48
 ms.author: windowsdriverdev
 ms.date: 03/08/2019
-ms.topic: function
+keywords: ["FltQueryDirectoryFileEx function"]
 f1_keywords:
  - "fltkernel/FltQueryDirectoryFileEx"
 ms.keywords: FltQueryDirectoryFileEx, FltQueryDirectoryFile

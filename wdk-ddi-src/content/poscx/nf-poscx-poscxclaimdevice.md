@@ -6,8 +6,8 @@ old-location: pos\poscxclaimdevice.htm
 tech.root: pos
 ms.assetid: 16EB583C-FB61-4811-A691-3FBD159F8FD0
 ms.date: 02/23/2018
+keywords: ["PosCxClaimDevice function"]
 ms.keywords: PosCxClaimDevice, PosCxClaimDevice function, pos.poscxclaimdevice, poscx/PosCxClaimDevice
-ms.topic: function
 f1_keywords:
  - "poscx/PosCxClaimDevice"
 req.header: poscx.h

@@ -6,8 +6,8 @@ old-location: netvista\fwps_vswitch_interface_event_callback0.htm
 tech.root: netvista
 ms.assetid: 63EAA278-9CE6-4C75-8221-E1666F143815
 ms.date: 05/02/2018
+keywords: ["FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0 callback function"]
 ms.keywords: FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0, FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0 callback, fwpsk/vSwitchInterfaceEventNotifyFn, netvista.fwps_vswitch_interface_event_callback0, vSwitchInterfaceEventNotifyFn, vSwitchInterfaceEventNotifyFn callback function [Network Drivers Starting with Windows Vista]
-ms.topic: callback
 f1_keywords:
  - "fwpsk/vSwitchInterfaceEventNotifyFn"
 req.header: fwpsk.h

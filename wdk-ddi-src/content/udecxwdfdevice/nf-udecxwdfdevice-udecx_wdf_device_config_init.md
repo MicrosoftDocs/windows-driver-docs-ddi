@@ -6,8 +6,8 @@ old-location: buses\udecx_wdf_device_config_init.htm
 tech.root: usbref
 ms.assetid: EC26EDCA-1C9E-4D06-A970-71FB96FEB0DF
 ms.date: 05/07/2018
+keywords: ["UDECX_WDF_DEVICE_CONFIG_INIT function"]
 ms.keywords: UDECX_WDF_DEVICE_CONFIG_INIT, UDECX_WDF_DEVICE_CONFIG_INIT function [Buses], buses.udecx_wdf_device_config_init, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG_INIT
-ms.topic: function
 f1_keywords:
  - "udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG_INIT"
 req.header: udecxwdfdevice.h

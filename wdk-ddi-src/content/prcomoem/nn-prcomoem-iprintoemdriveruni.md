@@ -6,8 +6,8 @@ old-location: print\iprintoemdriveruni_interface.htm
 tech.root: print
 ms.assetid: efd13e9e-ba25-4d1c-894c-a275374f5266
 ms.date: 04/20/2018
+keywords: ["IPrintOemDriverUni interface"]
 ms.keywords: IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], IPrintOemDriverUni interface [Print Devices],described, prcomoem/IPrintOemDriverUni, print.iprintoemdriveruni_interface, print_unidrv-pscript_rendering_07d60c45-4913-4cac-b65d-31737752b24f.xml
-ms.topic: interface
 f1_keywords:
  - "prcomoem/IPrintOemDriverUni"
 req.header: prcomoem.h
@@ -53,7 +53,7 @@ This section describes the methods defined for the IPrintOemDriverUni COM interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintOemDriverUni</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemDriverUni</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintOemDriverUni</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemDriverUni</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

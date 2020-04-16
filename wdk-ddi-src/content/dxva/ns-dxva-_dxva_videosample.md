@@ -6,8 +6,8 @@ old-location: display\dxva_videosample.htm
 tech.root: display
 ms.assetid: 2fab4993-0b34-44ce-a905-5094e6e3ce47
 ms.date: 05/10/2018
+keywords: ["_DXVA_VideoSample structure"]
 ms.keywords: "*LPDXVA_VideoSample, DXVA_VideoSample, DXVA_VideoSample structure [Display Devices], LPDXVA_VideoSample, LPDXVA_VideoSample structure pointer [Display Devices], _DXVA_VideoSample, display.dxva_videosample, dxva/DXVA_VideoSample, dxva/LPDXVA_VideoSample, dxvaref_08c56205-0793-4556-bb9a-e682eb6ca354.xml"
-ms.topic: struct
 f1_keywords:
  - "dxva/DXVA_VideoSample"
 req.header: dxva.h

@@ -6,8 +6,8 @@ old-location: netvista\rilemergencynumber.htm
 tech.root: netvista
 ms.assetid: 1725c893-1c36-40d2-99d7-e163020fc4fc
 ms.date: 05/02/2018
+keywords: ["RILEMERGENCYNUMBER structure"]
 ms.keywords: "*LPRILEMERGENCYNUMBER, RILEMERGENCYNUMBER, RILEMERGENCYNUMBER structure [Network Drivers Starting with Windows Vista], netvista.rilemergencynumber, ntddrilapitypes/RILEMERGENCYNUMBER"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILEMERGENCYNUMBER"
 req.header: rilapitypes.h

@@ -6,8 +6,8 @@ old-location: print\iprintunidiasyncnotifyregistration.htm
 tech.root: print
 ms.assetid: A1CC714A-CDD5-494F-8157-9D95DF738CBE
 ms.date: 04/20/2018
+keywords: ["IPrintUnidiAsyncNotifyRegistration interface"]
 ms.keywords: IPrintUnidiAsyncNotifyRegistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], IPrintUnidiAsyncNotifyRegistration interface [Print Devices],described, print.iprintunidiasyncnotifyregistration, prnasntp/IPrintUnidiAsyncNotifyRegistration
-ms.topic: interface
 f1_keywords:
  - "prnasntp/IPrintUnidiAsyncNotifyRegistration"
 req.header: prnasntp.h
@@ -53,7 +53,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintUnidiAsyncNotifyRegistration</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintUnidiAsyncNotifyRegistration</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintUnidiAsyncNotifyRegistration</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintUnidiAsyncNotifyRegistration</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -6,8 +6,8 @@ old-location: kernel\keexpandkernelstackandcallout.htm
 tech.root: kernel
 ms.assetid: afa27127-b427-4831-b5f5-3e293738c275
 ms.date: 04/30/2018
+keywords: ["KeExpandKernelStackAndCallout function"]
 ms.keywords: KeExpandKernelStackAndCallout, KeExpandKernelStackAndCallout routine [Kernel-Mode Driver Architecture], k105_37fc85c2-2317-41a2-9daa-766c3ccf343f.xml, kernel.keexpandkernelstackandcallout, ntddk/KeExpandKernelStackAndCallout
-ms.topic: function
 f1_keywords:
  - "ntddk/KeExpandKernelStackAndCallout"
 req.header: ntddk.h

@@ -6,8 +6,8 @@ old-location: ifsk\mrxgetconnectionid.htm
 tech.root: ifsk
 ms.assetid: c994060c-d8b3-4daa-a0dd-a734ffe34229
 ms.date: 04/16/2018
+keywords: ["PMRX_GET_CONNECTION_ID callback function"]
 ms.keywords: MRxGetConnectionId, MRxGetConnectionId routine [Installable File System Drivers], PMRX_GET_CONNECTION_ID, ifsk.mrxgetconnectionid, mrx/MRxGetConnectionId, mrxref_14943242-5da1-4404-bc5b-b86c2a88b347.xml
-ms.topic: callback
 f1_keywords:
  - "mrx/MRxGetConnectionId"
 req.header: mrx.h

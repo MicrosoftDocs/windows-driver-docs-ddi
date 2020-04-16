@@ -6,8 +6,8 @@ old-location: debugger\idebugfailureanalysis2.htm
 tech.root: debugger
 ms.assetid: 0B44FCB9-D23F-4630-9F9A-FBAD46712B14
 ms.date: 05/03/2018
+keywords: ["IDebugFailureAnalysis2 interface"]
 ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], IDebugFailureAnalysis2 interface [Windows Debugging],described, debugger.idebugfailureanalysis2, extsfns/IDebugFailureAnalysis2
-ms.topic: interface
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2"
 req.header: extsfns.h

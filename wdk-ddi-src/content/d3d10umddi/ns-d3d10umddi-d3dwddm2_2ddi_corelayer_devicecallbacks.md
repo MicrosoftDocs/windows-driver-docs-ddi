@@ -5,8 +5,8 @@ description: Specifies core layer device callback functions.
 old-location: display\d3dwddm2_2ddi_corelayer_devicecallbacks.htm
 ms.assetid: B42DA194-690F-41A6-AC11-71224887A2E4
 ms.date: 05/10/2018
+keywords: ["D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS structure"]
 ms.keywords: D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS, D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices], d3d10umddi/D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS, display.d3dwddm2_2ddi_corelayer_devicecallbacks
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_2DDI_CORELAYER_DEVICECALLBACKS"
 req.header: d3d10umddi.h

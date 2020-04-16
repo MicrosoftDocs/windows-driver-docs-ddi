@@ -6,8 +6,8 @@ old-location: display\idarg_in_set_gammaramp.htm
 tech.root: display
 ms.assetid: 1e14bcaf-1454-4930-a3b8-afc044c4be3f
 ms.date: 05/10/2018
+keywords: ["IDARG_IN_SET_GAMMARAMP structure"]
 ms.keywords: IDARG_IN_SET_GAMMARAMP, IDARG_IN_SET_GAMMARAMP structure [Display Devices], display.idarg_in_set_gammaramp, iddcx/IDARG_IN_SET_GAMMARAMP
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDARG_IN_SET_GAMMARAMP"
 req.header: iddcx.h

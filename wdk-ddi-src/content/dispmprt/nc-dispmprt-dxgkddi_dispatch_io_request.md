@@ -6,8 +6,8 @@ old-location: display\dxgkddidispatchiorequest.htm
 tech.root: display
 ms.assetid: e1973aca-cbc2-4780-a3b5-7601e1cc6c90
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_DISPATCH_IO_REQUEST callback function"]
 ms.keywords: DXGKDDI_DISPATCH_IO_REQUEST, DXGKDDI_DISPATCH_IO_REQUEST callback, DmFunctions_17ebc963-6659-4f1b-bd5a-f804c04be8b5.xml, DxgkDdiDispatchIoRequest, DxgkDdiDispatchIoRequest callback function [Display Devices], display.dxgkddidispatchiorequest, dispmprt/DxgkDdiDispatchIoRequest
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiDispatchIoRequest"
 req.header: dispmprt.h

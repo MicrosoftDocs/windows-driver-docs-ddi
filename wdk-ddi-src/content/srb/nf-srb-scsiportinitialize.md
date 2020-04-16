@@ -6,8 +6,8 @@ old-location: storage\scsiportinitialize.htm
 tech.root: storage
 ms.assetid: f6adca68-e016-4725-bd8e-691c71d1d471
 ms.date: 03/29/2018
+keywords: ["ScsiPortInitialize function"]
 ms.keywords: ScsiPortInitialize, ScsiPortInitialize routine [Storage Devices], scsiprt_62fb91f9-a420-4156-9a1e-b58b65067a8b.xml, srb/ScsiPortInitialize, storage.scsiportinitialize
-ms.topic: function
 f1_keywords:
  - "srb/ScsiPortInitialize"
 req.header: srb.h

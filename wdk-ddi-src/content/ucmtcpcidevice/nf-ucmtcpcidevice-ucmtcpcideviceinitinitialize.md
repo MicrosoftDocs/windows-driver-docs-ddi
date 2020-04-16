@@ -6,8 +6,8 @@ old-location: buses\ucmtcpcideviceinitinitialize.htm
 tech.root: usbref
 ms.assetid: a9afbac3-9494-466c-b36b-26a5839913f1
 ms.date: 05/07/2018
+keywords: ["UcmTcpciDeviceInitInitialize function"]
 ms.keywords: UcmTcpciDeviceInitInitialize, UcmTcpciDeviceInitInitialize method [Buses], buses.ucmtcpcideviceinitinitialize, ucmtcpcidevice/UcmTcpciDeviceInitInitialize
-ms.topic: function
 f1_keywords:
  - "ucmtcpcidevice/UcmTcpciDeviceInitInitialize"
 req.header: ucmtcpcidevice.h

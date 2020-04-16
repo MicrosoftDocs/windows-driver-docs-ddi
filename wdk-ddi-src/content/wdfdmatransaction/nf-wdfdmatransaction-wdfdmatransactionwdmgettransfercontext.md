@@ -6,8 +6,8 @@ old-location: wdf\wdfdmatransactionwdmgettransfercontext.htm
 tech.root: wdf
 ms.assetid: EB156381-FC0E-40A3-A4AF-341AE70B97FF
 ms.date: 02/26/2018
+keywords: ["WdfDmaTransactionWdmGetTransferContext function"]
 ms.keywords: WdfDmaTransactionWdmGetTransferContext, WdfDmaTransactionWdmGetTransferContext method, kmdf.wdfdmatransactionwdmgettransfercontext, wdf.wdfdmatransactionwdmgettransfercontext, wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext
-ms.topic: function
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext"
 req.header: wdfdmatransaction.h

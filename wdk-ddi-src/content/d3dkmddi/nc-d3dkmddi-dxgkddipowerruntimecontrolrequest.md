@@ -5,8 +5,8 @@ description: Called by the Power Engine Plug-in (PEP) to exchange information wi
 old-location: display\dxgkddipowerruntimecontrolrequest.htm
 ms.assetid: 56535128-3107-4fb5-b0e1-2e913c386cc2
 ms.date: 05/10/2018
+keywords: ["DXGKDDIPOWERRUNTIMECONTROLREQUEST callback function"]
 ms.keywords: DxgkDdiPowerRuntimeControlRequest, DxgkDdiPowerRuntimeControlRequest callback function [Display Devices], PDXGKDDIPOWERRUNTIMECONTROLREQUEST, PDXGKDDIPOWERRUNTIMECONTROLREQUEST callback, d3dkmddi/DxgkDdiPowerRuntimeControlRequest, display.dxgkddipowerruntimecontrolrequest
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

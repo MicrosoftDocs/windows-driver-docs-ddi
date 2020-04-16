@@ -6,8 +6,8 @@ old-location: kernel\psgetversion.htm
 tech.root: kernel
 ms.assetid: db3d2e34-3d83-423d-b446-2800d53a8220
 ms.date: 04/30/2018
+keywords: ["PsGetVersion function"]
 ms.keywords: PsGetVersion, PsGetVersion function [Kernel-Mode Driver Architecture], k108_3c73c1e7-3f02-4598-adae-43c378dcfb08.xml, kernel.psgetversion, wdm/PsGetVersion
-ms.topic: function
 f1_keywords:
  - "wdm/PsGetVersion"
 req.header: wdm.h

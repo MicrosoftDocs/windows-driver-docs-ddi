@@ -6,8 +6,8 @@ old-location: kernel\keinitializesemaphore.htm
 tech.root: kernel
 ms.assetid: 447a7ba5-8357-4383-987f-51f5b3c9996c
 ms.date: 04/30/2018
+keywords: ["KeInitializeSemaphore function"]
 ms.keywords: KeInitializeSemaphore, KeInitializeSemaphore routine [Kernel-Mode Driver Architecture], k105_a966274e-6afe-4569-ae7c-65dccbb3f1dc.xml, kernel.keinitializesemaphore, wdm/KeInitializeSemaphore
-ms.topic: function
 f1_keywords:
  - "wdm/KeInitializeSemaphore"
 req.header: wdm.h

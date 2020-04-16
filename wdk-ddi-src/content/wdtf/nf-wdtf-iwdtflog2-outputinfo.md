@@ -6,8 +6,8 @@ old-location: dtf\iwdtflog2_outputinfo.htm
 tech.root: dtf
 ms.assetid: bd98186f-5681-4611-9c27-eabfe4412df7
 ms.date: 04/04/2018
+keywords: ["IWDTFLOG2::OutputInfo"]
 ms.keywords: IWDTFLOG2 interface [Windows Device Testing Framework],OutputInfo method, IWDTFLOG2.OutputInfo, IWDTFLOG2::OutputInfo, Microsoft.WDTF.IWDTFLOG2.OutputInfo, Microsoft::WDTF::IWDTFLOG2::OutputInfo, OutputInfo, OutputInfo method [Windows Device Testing Framework], OutputInfo method [Windows Device Testing Framework],IWDTFLOG2 interface, dtf.iwdtflog2_outputinfo, wdtf/IWDTFLOG2::OutputInfo
-ms.topic: method
 f1_keywords:
  - "wdtf/IWDTFLOG2.OutputInfo"
 req.header: wdtf.h

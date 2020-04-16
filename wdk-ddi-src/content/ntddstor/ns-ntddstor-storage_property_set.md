@@ -7,7 +7,7 @@ tech.root: storage
 ms.assetid: c1b43348-1372-4dfd-9ee7-448c35e6a0b6
 ms.author: windowsdriverdev
 ms.date: 03/07/2019
-ms.topic: struct
+keywords: ["STORAGE_PROPERTY_SET structure"]
 f1_keywords:
  - "ntddstor/STORAGE_PROPERTY_SET"
 ms.keywords: STORAGE_PROPERTY_SET, STORAGE_PROPERTY_SET, *PSTORAGE_PROPERTY_SET, 

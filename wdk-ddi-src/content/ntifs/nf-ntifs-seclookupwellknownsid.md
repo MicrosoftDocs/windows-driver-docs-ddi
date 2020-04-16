@@ -6,8 +6,8 @@ old-location: ifsk\seclookupwellknownsid.htm
 tech.root: ifsk
 ms.assetid: fbf06a28-d6f8-424c-95e0-ce24653cac64
 ms.date: 04/16/2018
+keywords: ["SecLookupWellKnownSid function"]
 ms.keywords: SecLookupWellKnownSid, SecLookupWellKnownSid function [Installable File System Drivers], ifsk.seclookupwellknownsid, ksecddref_4c0053b3-cdaa-4cdc-a4d3-6329ccf64f98.xml, ntifs/SecLookupWellKnownSid
-ms.topic: function
 f1_keywords:
  - "ntifs/SecLookupWellKnownSid"
 req.header: ntifs.h

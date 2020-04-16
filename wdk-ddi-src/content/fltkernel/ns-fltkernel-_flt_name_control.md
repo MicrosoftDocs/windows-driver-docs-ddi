@@ -6,8 +6,8 @@ old-location: ifsk\flt_name_control.htm
 tech.root: ifsk
 ms.assetid: 0f796ad1-e4b4-4113-b076-ed6c9ea711c9
 ms.date: 04/16/2018
+keywords: ["_FLT_NAME_CONTROL structure"]
 ms.keywords: "*PFLT_NAME_CONTROL, FLT_NAME_CONTROL, FLT_NAME_CONTROL structure [Installable File System Drivers], FltSystemStructures_691a74ca-7671-44e3-9072-5d081c508a6c.xml, PFLT_NAME_CONTROL, PFLT_NAME_CONTROL structure pointer [Installable File System Drivers], _FLT_NAME_CONTROL, fltkernel/FLT_NAME_CONTROL, fltkernel/PFLT_NAME_CONTROL, ifsk.flt_name_control"
-ms.topic: struct
 f1_keywords:
  - "fltkernel/FLT_NAME_CONTROL"
 req.header: fltkernel.h

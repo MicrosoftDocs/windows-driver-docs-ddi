@@ -6,8 +6,8 @@ old-location: audio\iminiportwavecyclicstream_silence.htm
 tech.root: audio
 ms.assetid: e2acf3f5-d054-44c4-8ab9-ffd1b934f700
 ms.date: 05/08/2018
+keywords: ["IMiniportWaveCyclicStream::Silence"]
 ms.keywords: IMiniportWaveCyclicStream interface [Audio Devices],Silence method, IMiniportWaveCyclicStream.Silence, IMiniportWaveCyclicStream::Silence, Silence, Silence method [Audio Devices], Silence method [Audio Devices],IMiniportWaveCyclicStream interface, audio.iminiportwavecyclicstream_silence, audmp-routines_860013ac-d79b-4b11-91b7-1a7bc3c84a5b.xml, portcls/IMiniportWaveCyclicStream::Silence
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportWaveCyclicStream.Silence"
 req.header: portcls.h

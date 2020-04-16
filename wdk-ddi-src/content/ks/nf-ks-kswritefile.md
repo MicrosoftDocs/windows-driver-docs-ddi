@@ -6,8 +6,8 @@ old-location: stream\kswritefile.htm
 tech.root: stream
 ms.assetid: ed66db40-d159-4660-96c0-da52f752a409
 ms.date: 04/23/2018
+keywords: ["KsWriteFile function"]
 ms.keywords: KsWriteFile, KsWriteFile function [Streaming Media Devices], ks/KsWriteFile, ksfunc_4e15871e-8093-4b8e-a1ec-0eda4588e262.xml, stream.kswritefile
-ms.topic: function
 f1_keywords:
  - "ks/KsWriteFile"
 req.header: ks.h

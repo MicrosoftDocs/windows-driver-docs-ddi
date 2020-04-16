@@ -5,7 +5,7 @@ description: The VmbChannelSizeofPacket function calculates the necessary size f
 tech.root: netvista
 ms.assetid: 05f275dd-cde2-425f-ac13-57b11c8affdf
 ms.date: 05/22/2018
-ms.topic: callback
+keywords: ["FN_VMB_CHANNEL_SIZEOF_PACKET callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SIZEOF_PACKET"
 req.header: vmbuskernelmodeclientlibapi.h

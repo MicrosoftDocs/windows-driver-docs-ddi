@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlallocateextracreateparameterlist.htm
 tech.root: ifsk
 ms.assetid: 93888920-73b2-41e4-8d49-e5235ee93307
 ms.date: 04/16/2018
+keywords: ["FsRtlAllocateExtraCreateParameterList function"]
 ms.keywords: FsRtlAllocateExtraCreateParameterList, FsRtlAllocateExtraCreateParameterList routine [Installable File System Drivers], fsrtlref_2d552d23-4312-4203-91fb-c6cf6fb39681.xml, ifsk.fsrtlallocateextracreateparameterlist, ntifs/FsRtlAllocateExtraCreateParameterList
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlAllocateExtraCreateParameterList"
 req.header: ntifs.h

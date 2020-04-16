@@ -4,7 +4,7 @@ title: _SIDEBANDAUDIO_MUTE_PARAMS (sidebandaudio.h)
 description: Describes the endpoint index and mute value.
 ms.assetid: ae031886-fe99-427e-b24e-a7ae46c33956
 ms.date: 10/05/2018
-ms.topic: struct
+keywords: ["_SIDEBANDAUDIO_MUTE_PARAMS structure"]
 f1_keywords:
  - "sidebandaudio/_SIDEBANDAUDIO_MUTE_PARAMS"
 ms.keywords: _SIDEBANDAUDIO_MUTE_PARAMS, SIDEBANDAUDIO_MUTE_PARAMS, *PSIDEBANDAUDIO_MUTE_PARAMS, 

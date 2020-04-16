@@ -6,8 +6,8 @@ old-location: stream\ikspin.htm
 tech.root: stream
 ms.assetid: 4717300c-bc98-4e1f-83c3-cbd368b45140
 ms.date: 04/23/2018
+keywords: ["IKsPin interface"]
 ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], IKsPin interface [Streaming Media Devices],described, ksproxy/IKsPin, ksproxy_9a020f8a-1271-47ea-816f-1132e44b6f45.xml, stream.ikspin
-ms.topic: interface
 f1_keywords:
  - "ksproxy/IKsPin"
 req.header: ksproxy.h
@@ -58,7 +58,7 @@ The IID for this interface is IID_IKsPin.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsPin</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsPin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsPin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

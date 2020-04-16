@@ -6,8 +6,8 @@ old-location: kernel\poregisterdeviceforidledetection.htm
 tech.root: kernel
 ms.assetid: f786fa36-1faa-4e12-aec1-872b44c01a85
 ms.date: 04/30/2018
+keywords: ["PoRegisterDeviceForIdleDetection function"]
 ms.keywords: PoRegisterDeviceForIdleDetection, PoRegisterDeviceForIdleDetection routine [Kernel-Mode Driver Architecture], kernel.poregisterdeviceforidledetection, portn_be0ccb17-9465-4f61-a8ed-fa945f5340d6.xml, wdm/PoRegisterDeviceForIdleDetection
-ms.topic: function
 f1_keywords:
  - "wdm/PoRegisterDeviceForIdleDetection"
 req.header: wdm.h

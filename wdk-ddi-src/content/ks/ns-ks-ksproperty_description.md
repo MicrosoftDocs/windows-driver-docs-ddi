@@ -6,8 +6,8 @@ old-location: stream\ksproperty_description.htm
 tech.root: stream
 ms.assetid: d3d59dca-7214-493c-bb70-4391696fe017
 ms.date: 04/23/2018
+keywords: ["KSPROPERTY_DESCRIPTION structure"]
 ms.keywords: "*PKSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION structure [Streaming Media Devices], PKSPROPERTY_DESCRIPTION, PKSPROPERTY_DESCRIPTION structure pointer [Streaming Media Devices], ks-struct_37ee8090-f90e-40a9-8731-3521d1d3a157.xml, ks/KSPROPERTY_DESCRIPTION, ks/PKSPROPERTY_DESCRIPTION, stream.ksproperty_description"
-ms.topic: struct
 f1_keywords:
  - "ks/KSPROPERTY_DESCRIPTION"
 req.header: ks.h

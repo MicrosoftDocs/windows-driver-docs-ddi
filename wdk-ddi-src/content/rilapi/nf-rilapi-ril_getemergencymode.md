@@ -6,8 +6,8 @@ old-location: netvista\ril_getemergencymode.htm
 tech.root: netvista
 ms.assetid: 3c95d10b-5db6-40d0-9caa-518235e81d6d
 ms.date: 05/02/2018
+keywords: ["RIL_GetEmergencyMode function"]
 ms.keywords: RIL_GetEmergencyMode, RIL_GetEmergencyMode method [Network Drivers Starting with Windows Vista], netvista.ril_getemergencymode, rilapi/RIL_GetEmergencyMode
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_GetEmergencyMode"
 req.header: rilapi.h

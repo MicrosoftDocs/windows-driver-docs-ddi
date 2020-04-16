@@ -6,8 +6,8 @@ old-location: storage\ioctl_ehstor_device_set_authz_state.htm
 tech.root: storage
 ms.assetid: 8C71F597-2141-4DA6-8A14-8B10CB69E5CC
 ms.date: 03/29/2018
+keywords: ["IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE, IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE control, IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE, storage.ioctl_ehstor_device_set_authz_state
-ms.topic: ioctl
 f1_keywords:
  - "ehstorioctl/IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE"
 req.header: ehstorioctl.h

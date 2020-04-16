@@ -5,8 +5,8 @@ description: The D3D10_DDI_BLEND_DESC structure describes a blend state.
 old-location: display\d3d10_ddi_blend_desc.htm
 ms.assetid: dbb6e5ed-8d24-4b50-826b-f05f44de676a
 ms.date: 05/10/2018
+keywords: ["D3D10_DDI_BLEND_DESC structure"]
 ms.keywords: D3D10_DDI_BLEND_DESC, D3D10_DDI_BLEND_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_8dd04d52-105b-4cc3-be87-5900625dcd6d.xml, d3d10umddi/D3D10_DDI_BLEND_DESC, display.d3d10_ddi_blend_desc
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D10_DDI_BLEND_DESC"
 req.header: d3d10umddi.h

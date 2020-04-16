@@ -6,8 +6,8 @@ old-location: netvista\ril_registeruicctoolkitservice.htm
 tech.root: netvista
 ms.assetid: 1f406818-b81c-4dc8-bfc7-0c977495b285
 ms.date: 05/02/2018
+keywords: ["RIL_RegisterUiccToolkitService function"]
 ms.keywords: RIL_RegisterUiccToolkitService, RIL_RegisterUiccToolkitService method [Network Drivers Starting with Windows Vista], netvista.ril_registeruicctoolkitservice, rilapi/RIL_RegisterUiccToolkitService
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_RegisterUiccToolkitService"
 req.header: rilapi.h

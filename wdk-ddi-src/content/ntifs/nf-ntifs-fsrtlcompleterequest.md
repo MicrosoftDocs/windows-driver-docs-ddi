@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlcompleterequest.htm
 tech.root: ifsk
 ms.assetid: dd53d3c5-3a31-4ea9-9f16-0d1b9397f63e
 ms.date: 04/16/2018
+keywords: ["FsRtlCompleteRequest macro"]
 ms.keywords: FsRtlCompleteRequest, FsRtlCompleteRequest function [Installable File System Drivers], fsrtlref_ae47bec7-1534-4ace-a29b-d5b6a5da292c.xml, ifsk.fsrtlcompleterequest, ntifs/FsRtlCompleteRequest
-ms.topic: macro
 f1_keywords:
  - "ntifs/FsRtlCompleteRequest"
 req.header: ntifs.h

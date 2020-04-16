@@ -4,7 +4,7 @@ title: IOMMU_FLUSH_DOMAIN (wdm.h)
 description: Flushes the TLB for all entries which match this domain.
 ms.assetid: 00bc433e-f306-485e-bc78-cab66cab879e
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["IOMMU_FLUSH_DOMAIN callback function"]
 f1_keywords:
  - "wdm/IOMMU_FLUSH_DOMAIN"
 req.header: wdm.h

@@ -6,8 +6,8 @@ old-location: wdf\wdfdrivergetregistrypath.htm
 tech.root: wdf
 ms.assetid: 5f237d2e-5ffd-40af-8cd8-ea1414807086
 ms.date: 02/26/2018
+keywords: ["WdfDriverGetRegistryPath function"]
 ms.keywords: DFDriverObjectRef_a21bcb6e-2211-4727-bb87-bb912f8a173b.xml, WdfDriverGetRegistryPath, WdfDriverGetRegistryPath method, kmdf.wdfdrivergetregistrypath, wdf.wdfdrivergetregistrypath, wdfdriver/WdfDriverGetRegistryPath
-ms.topic: function
 f1_keywords:
  - "wdfdriver/WdfDriverGetRegistryPath"
 req.header: wdfdriver.h

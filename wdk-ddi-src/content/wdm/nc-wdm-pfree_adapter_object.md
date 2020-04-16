@@ -6,8 +6,8 @@ old-location: kernel\freeadapterobject.htm
 tech.root: kernel
 ms.assetid: 4A63AAEF-8DBD-4969-8D05-EA06A17D4B61
 ms.date: 04/30/2018
+keywords: ["PFREE_ADAPTER_OBJECT callback function"]
 ms.keywords: FreeAdapterObject, FreeAdapterObject callback function [Kernel-Mode Driver Architecture], PFREE_ADAPTER_OBJECT, PFREE_ADAPTER_OBJECT callback, kernel.freeadapterobject, wdm/FreeAdapterObject
-ms.topic: callback
 f1_keywords:
  - "wdm/FreeAdapterObject"
 req.header: wdm.h

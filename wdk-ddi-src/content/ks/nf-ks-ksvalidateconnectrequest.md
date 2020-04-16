@@ -6,8 +6,8 @@ old-location: stream\ksvalidateconnectrequest.htm
 tech.root: stream
 ms.assetid: 64343a8a-9629-469e-95a3-b9c140cdd324
 ms.date: 04/23/2018
+keywords: ["KsValidateConnectRequest function"]
 ms.keywords: KsValidateConnectRequest, KsValidateConnectRequest function [Streaming Media Devices], ks/KsValidateConnectRequest, ksfunc_2df36f34-31c9-48f2-859c-1829b60fbae7.xml, stream.ksvalidateconnectrequest
-ms.topic: function
 f1_keywords:
  - "ks/KsValidateConnectRequest"
 req.header: ks.h

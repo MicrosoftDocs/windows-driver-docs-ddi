@@ -6,8 +6,8 @@ old-location: display\hwvidqueryinterface.htm
 tech.root: display
 ms.assetid: f16a7fa3-3471-4ccb-b1b4-982d33f930d3
 ms.date: 05/10/2018
+keywords: ["PVIDEO_HW_QUERY_INTERFACE callback function"]
 ms.keywords: HwVidQueryInterface, HwVidQueryInterface callback function [Display Devices], PVIDEO_HW_QUERY_INTERFACE, PVIDEO_HW_QUERY_INTERFACE callback, VideoMiniport_Functions_69dec180-d966-4082-b050-0ed2e0e03121.xml, display.hwvidqueryinterface, video/HwVidQueryInterface
-ms.topic: callback
 f1_keywords:
  - "video/HwVidQueryInterface"
 req.header: video.h

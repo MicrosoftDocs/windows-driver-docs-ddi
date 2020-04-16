@@ -6,8 +6,8 @@ old-location: kernel\rtluinttointptr.htm
 tech.root: kernel
 ms.assetid: CCFC8531-4BFB-4CFA-8B57-A4FFD4151900
 ms.date: 04/30/2018
+keywords: ["RtlUIntToIntPtr function"]
 ms.keywords: RtlUIntToIntPtr, RtlUIntToIntPtr function [Kernel-Mode Driver Architecture], kernel.rtluinttointptr, ntintsafe/RtlUIntToIntPtr
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlUIntToIntPtr"
 req.header: ntintsafe.h

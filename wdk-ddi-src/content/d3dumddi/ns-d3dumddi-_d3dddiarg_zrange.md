@@ -6,8 +6,8 @@ old-location: display\d3dddiarg_zrange.htm
 tech.root: display
 ms.assetid: 710683e7-f628-4baa-b485-75b481812b97
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_ZRANGE structure"]
 ms.keywords: D3DDDIARG_ZRANGE, D3DDDIARG_ZRANGE structure [Display Devices], UMDisplayDriver_param_Structs_e1184f4e-5bff-4bdc-bf7a-473039a66ff7.xml, _D3DDDIARG_ZRANGE, d3dumddi/D3DDDIARG_ZRANGE, display.d3dddiarg_zrange
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_ZRANGE"
 req.header: d3dumddi.h

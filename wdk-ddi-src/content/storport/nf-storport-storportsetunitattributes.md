@@ -6,8 +6,8 @@ old-location: storage\storportsetunitattributes.htm
 tech.root: storage
 ms.assetid: 0E05233D-79B0-4FC7-B13C-91B6B1F57E89
 ms.date: 03/29/2018
+keywords: ["StorPortSetUnitAttributes function"]
 ms.keywords: StorPortSetUnitAttributes, StorPortSetUnitAttributes routine [Storage Devices], storage.storportsetunitattributes, storport/StorPortSetUnitAttributes
-ms.topic: function
 f1_keywords:
  - "storport/StorPortSetUnitAttributes"
 req.header: storport.h

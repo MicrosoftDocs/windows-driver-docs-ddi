@@ -6,8 +6,8 @@ old-location: storage\storportfreetimer.htm
 tech.root: storage
 ms.assetid: AF6B1693-6242-4F09-8226-472E75B809F3
 ms.date: 03/29/2018
+keywords: ["StorPortFreeTimer function"]
 ms.keywords: StorPortFreeTimer, StorPortFreeTimer routine [Storage Devices], storage.storportfreetimer, storport/StorPortFreeTimer
-ms.topic: function
 f1_keywords:
  - "storport/StorPortFreeTimer"
 req.header: storport.h

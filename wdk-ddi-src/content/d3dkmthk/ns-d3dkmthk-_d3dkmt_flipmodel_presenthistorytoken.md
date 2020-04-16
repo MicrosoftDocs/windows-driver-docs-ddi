@@ -5,8 +5,8 @@ description: The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure identifies a fli
 old-location: display\d3dkmt_flipmodel_presenthistorytoken.htm
 ms.assetid: dcf844e3-3346-485e-8965-c8cb824e2c78
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure"]
 ms.keywords: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_819c22ef-0bae-476a-9cbc-0169cd7fc82f.xml, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, display.d3dkmt_flipmodel_presenthistorytoken
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN"
 req.header: d3dkmthk.h

@@ -5,8 +5,8 @@ description: The D3DKMTDestroyOverlay function destroys a kernel-mode overlay ob
 old-location: display\d3dkmtdestroyoverlay.htm
 ms.assetid: 8a5eef07-97b7-43ca-b8e0-15af89aa7d82
 ms.date: 05/10/2018
+keywords: ["D3DKMTDestroyOverlay function"]
 ms.keywords: D3DKMTDestroyOverlay, D3DKMTDestroyOverlay function [Display Devices], OpenGL_Functions_57efc2f4-dbbe-4f91-b724-036b5231c058.xml, d3dkmthk/D3DKMTDestroyOverlay, display.d3dkmtdestroyoverlay
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyOverlay"
 req.header: d3dkmthk.h

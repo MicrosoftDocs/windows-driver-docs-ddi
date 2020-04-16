@@ -4,7 +4,7 @@ title: _DXGKDDI_FLEXIOV_DEVICE_INTERFACE (dispmprt.h)
 description: 
 ms.assetid: 03ceba62-6439-4a5e-b15b-38dd06a6a924
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_DXGKDDI_FLEXIOV_DEVICE_INTERFACE structure"]
 f1_keywords:
  - "dispmprt/_DXGKDDI_FLEXIOV_DEVICE_INTERFACE"
 ms.keywords: _DXGKDDI_FLEXIOV_DEVICE_INTERFACE, DXGKDDI_FLEXIOV_DEVICE_INTERFACE, *PDXGKDDI_FLEXIOV_DEVICE_INTERFACE, 

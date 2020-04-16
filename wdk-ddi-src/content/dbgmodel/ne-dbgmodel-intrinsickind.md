@@ -4,7 +4,7 @@ title: IntrinsicKind (dbgmodel.h)
 description: Defines the kind of an intrinsic (basic) type.  This is distinct from the variant type which carries the type.
 ms.assetid: c1a4180d-3606-46d5-811c-ee0e7cd5a96c
 ms.date: 07/16/2018
-ms.topic: enum
+keywords: ["IntrinsicKind enumeration"]
 f1_keywords:
  - "dbgmodel/IntrinsicKind"
 ms.keywords: IntrinsicKind, , 

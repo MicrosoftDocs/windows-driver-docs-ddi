@@ -6,8 +6,8 @@ old-location: stream\ksfilterreleaseprocessingmutex.htm
 tech.root: stream
 ms.assetid: 8ccf24a4-f087-4d61-8a9e-4bc05d7ec7bf
 ms.date: 04/23/2018
+keywords: ["KsFilterReleaseProcessingMutex function"]
 ms.keywords: KsFilterReleaseProcessingMutex, KsFilterReleaseProcessingMutex function [Streaming Media Devices], avfunc_35026563-e7aa-4305-a4fc-2558c1b21aa7.xml, ks/KsFilterReleaseProcessingMutex, stream.ksfilterreleaseprocessingmutex
-ms.topic: function
 f1_keywords:
  - "ks/KsFilterReleaseProcessingMutex"
 req.header: ks.h

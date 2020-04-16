@@ -6,8 +6,8 @@ old-location: stream\kstime.htm
 tech.root: stream
 ms.assetid: e026a539-7aa5-4205-970d-cf452e4471da
 ms.date: 04/23/2018
+keywords: ["KSTIME structure"]
 ms.keywords: "*PKSTIME, KSTIME, KSTIME structure [Streaming Media Devices], PKSTIME, PKSTIME structure pointer [Streaming Media Devices], ks-struct_9db70ddb-ae2c-464b-a481-6927adef449c.xml, ks/KSTIME, ks/PKSTIME, stream.kstime"
-ms.topic: struct
 f1_keywords:
  - "ks/KSTIME"
 req.header: ks.h

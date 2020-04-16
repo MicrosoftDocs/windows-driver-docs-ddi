@@ -6,8 +6,8 @@ old-location: display\d3dddiarg_validatetexturestagestate.htm
 tech.root: display
 ms.assetid: 28d2efa5-a7bf-4b85-a0f3-a4bad705a874
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_VALIDATETEXTURESTAGESTATE structure"]
 ms.keywords: D3DDDIARG_VALIDATETEXTURESTAGESTATE, D3DDDIARG_VALIDATETEXTURESTAGESTATE structure [Display Devices], UMDisplayDriver_param_Structs_dde6cce2-f21e-4a16-8238-6956d9a465f5.xml, _D3DDDIARG_VALIDATETEXTURESTAGESTATE, d3dumddi/D3DDDIARG_VALIDATETEXTURESTAGESTATE, display.d3dddiarg_validatetexturestagestate
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_VALIDATETEXTURESTAGESTATE"
 req.header: d3dumddi.h

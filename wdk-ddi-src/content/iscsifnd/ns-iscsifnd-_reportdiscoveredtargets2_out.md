@@ -6,8 +6,8 @@ old-location: storage\reportdiscoveredtargets2_out.htm
 tech.root: storage
 ms.assetid: 24e47733-14c2-4d2c-8b0a-8cdfd68c8b3b
 ms.date: 03/29/2018
+keywords: ["_ReportDiscoveredTargets2_OUT structure"]
 ms.keywords: "*PReportDiscoveredTargets2_OUT, PReportDiscoveredTargets2_OUT, PReportDiscoveredTargets2_OUT structure pointer [Storage Devices], ReportDiscoveredTargets2_OUT, ReportDiscoveredTargets2_OUT structure [Storage Devices], _ReportDiscoveredTargets2_OUT, iscsifnd/PReportDiscoveredTargets2_OUT, iscsifnd/ReportDiscoveredTargets2_OUT, storage.reportdiscoveredtargets2_out, structs-iSCSI_b6c57e31-b994-4873-97e5-87499d4ce120.xml"
-ms.topic: struct
 f1_keywords:
  - "iscsifnd/ReportDiscoveredTargets2_OUT"
 req.header: iscsifnd.h

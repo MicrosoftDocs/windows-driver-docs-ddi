@@ -6,8 +6,8 @@ old-location: kernel\mmallocatecontiguousmemoryspecifycachenode.htm
 tech.root: kernel
 ms.assetid: ce54870e-80af-4588-a0ca-1ad115739256
 ms.date: 04/30/2018
+keywords: ["MmAllocateContiguousMemorySpecifyCacheNode function"]
 ms.keywords: MmAllocateContiguousMemorySpecifyCacheNode, MmAllocateContiguousMemorySpecifyCacheNode routine [Kernel-Mode Driver Architecture], k106_0ccc75e1-5d61-4f89-b576-1c709b50609f.xml, kernel.mmallocatecontiguousmemoryspecifycachenode, wdm/MmAllocateContiguousMemorySpecifyCacheNode
-ms.topic: function
 f1_keywords:
  - "ntddk/MmAllocateContiguousMemorySpecifyCacheNode"
 req.header: ntddk.h

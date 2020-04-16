@@ -6,8 +6,8 @@ old-location: storage\msiscsi_eventlog.htm
 tech.root: storage
 ms.assetid: a31a8688-6002-4ad7-b135-0a8111e2c849
 ms.date: 03/29/2018
+keywords: ["_MSiSCSI_Eventlog structure"]
 ms.keywords: "*PMSiSCSI_Eventlog, MSiSCSI_EventLog, MSiSCSI_EventLog structure [Storage Devices], MSiSCSI_Eventlog, PMSiSCSI_EventLog, PMSiSCSI_EventLog structure pointer [Storage Devices], _MSiSCSI_Eventlog, iscsimgt/MSiSCSI_EventLog, iscsimgt/PMSiSCSI_EventLog, storage.msiscsi_eventlog, structs-iSCSI_d2419ba1-4f36-42c6-8a21-164dadb50263.xml"
-ms.topic: struct
 f1_keywords:
  - "iscsimgt/MSiSCSI_EventLog"
 req.header: iscsimgt.h

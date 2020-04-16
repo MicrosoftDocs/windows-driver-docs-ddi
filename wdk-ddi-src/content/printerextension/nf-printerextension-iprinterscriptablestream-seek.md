@@ -6,8 +6,8 @@ old-location: print\iprinterscriptablestream__seek.htm
 tech.root: print
 ms.assetid: 82080353-2252-4BF2-B7F4-F297DCA99FA0
 ms.date: 04/20/2018
+keywords: ["IPrinterScriptableStream::Seek"]
 ms.keywords: IPrinterScriptableStream interface [Print Devices],Seek method, IPrinterScriptableStream.Seek, IPrinterScriptableStream::Seek, Seek, Seek method [Print Devices], Seek method [Print Devices],IPrinterScriptableStream interface, print.iprinterscriptablestream__seek, printerextension/IPrinterScriptableStream::Seek
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterScriptableStream.Seek"
 req.header: printerextension.h

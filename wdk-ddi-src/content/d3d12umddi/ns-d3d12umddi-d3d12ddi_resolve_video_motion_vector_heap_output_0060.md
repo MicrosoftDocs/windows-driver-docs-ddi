@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 6e40d600-52b8-41be-929c-bf02163dac98
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
+keywords: ["D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_OUTPUT_0060 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_OUTPUT_0060"
 ms.prod: windows-hardware

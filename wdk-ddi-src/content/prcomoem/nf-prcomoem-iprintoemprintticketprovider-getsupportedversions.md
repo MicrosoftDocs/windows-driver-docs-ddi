@@ -6,8 +6,8 @@ old-location: print\iprintoemprintticketprovider_getsupportedversions.htm
 tech.root: print
 ms.assetid: bd1ca076-5007-4e38-8e90-4017d7dc8b3f
 ms.date: 04/20/2018
+keywords: ["IPrintOemPrintTicketProvider::GetSupportedVersions"]
 ms.keywords: GetSupportedVersions, GetSupportedVersions method [Print Devices], GetSupportedVersions method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],GetSupportedVersions method, IPrintOemPrintTicketProvider.GetSupportedVersions, IPrintOemPrintTicketProvider::GetSupportedVersions, prcomoem/IPrintOemPrintTicketProvider::GetSupportedVersions, print.iprintoemprintticketprovider_getsupportedversions, print_ticket-package_f20858fb-a11d-45b4-a8db-6a492b761cfc.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemPrintTicketProvider.GetSupportedVersions"
 req.header: prcomoem.h

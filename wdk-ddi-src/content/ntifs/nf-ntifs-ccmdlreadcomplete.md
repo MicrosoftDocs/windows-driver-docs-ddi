@@ -6,8 +6,8 @@ old-location: ifsk\ccmdlreadcomplete.htm
 tech.root: ifsk
 ms.assetid: c1525604-3aee-464d-a7f5-a6a4739a2aa4
 ms.date: 04/16/2018
+keywords: ["CcMdlReadComplete function"]
 ms.keywords: CcMdlReadComplete, CcMdlReadComplete routine [Installable File System Drivers], ccref_9739ef62-748c-43c6-ae79-ae54f2358368.xml, ifsk.ccmdlreadcomplete, ntifs/CcMdlReadComplete
-ms.topic: function
 f1_keywords:
  - "ntifs/CcMdlReadComplete"
 req.header: ntifs.h

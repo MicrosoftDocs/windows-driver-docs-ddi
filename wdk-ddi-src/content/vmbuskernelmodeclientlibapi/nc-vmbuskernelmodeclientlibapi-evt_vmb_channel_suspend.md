@@ -6,8 +6,8 @@ old-location: netvista\evt_vmb_channel_suspend.htm
 tech.root: netvista
 ms.assetid: 31FED6BE-2E89-4D36-A833-9144AD61B885
 ms.date: 05/02/2018
+keywords: ["EVT_VMB_CHANNEL_SUSPEND callback function"]
 ms.keywords: EVT_VMB_CHANNEL_SUSPEND, EVT_VMB_CHANNEL_SUSPEND callback, EvtVmbChannelSuspend, EvtVmbChannelSuspend callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_SUSPEND, PFN_VMB_CHANNEL_SUSPEND callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_suspend, vmbuskernelmodeclientlibapi/EvtVmbChannelSuspend
-ms.topic: callback
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/PFN_VMB_CHANNEL_SUSPEND"
 req.header: vmbuskernelmodeclientlibapi.h

@@ -6,8 +6,8 @@ old-location: netvista\rilregstatusinfo.htm
 tech.root: netvista
 ms.assetid: 12471d22-4d5d-411e-bfde-4d13d7a3bcca
 ms.date: 05/02/2018
+keywords: ["RILREGSTATUSINFO structure"]
 ms.keywords: "*LPRILREGSTATUSINFO, RILREGSTATUSINFO, RILREGSTATUSINFO structure [Network Drivers Starting with Windows Vista], netvista.rilregstatusinfo, ntddrilapitypes/RILREGSTATUSINFO"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILREGSTATUSINFO"
 req.header: ntddrilapitypes.h

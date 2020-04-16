@@ -6,8 +6,8 @@ old-location: audio\setupdmaenginewithbdl.htm
 tech.root: audio
 ms.assetid: 2760579b-9922-4709-a049-a73f3abd5043
 ms.date: 05/08/2018
+keywords: ["PSETUP_DMA_ENGINE_WITH_BDL callback function"]
 ms.keywords: PSETUP_DMA_ENGINE_WITH_BDL, PSETUP_DMA_ENGINE_WITH_BDL callback, SetupDmaEngineWithBdl, SetupDmaEngineWithBdl callback function [Audio Devices], aud-prop2_7d264dff-4f47-4a5a-a587-636c57a12a9d.xml, audio.setupdmaenginewithbdl, hdaudio/SetupDmaEngineWithBdl
-ms.topic: callback
 f1_keywords:
  - "hdaudio/SetupDmaEngineWithBdl"
 req.header: hdaudio.h

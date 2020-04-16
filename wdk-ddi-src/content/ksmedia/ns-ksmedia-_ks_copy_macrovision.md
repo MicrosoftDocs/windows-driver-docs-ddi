@@ -6,8 +6,8 @@ old-location: stream\ks_copy_macrovision.htm
 tech.root: stream
 ms.assetid: 86c6ee78-ae4e-4b96-be83-a5960f36a363
 ms.date: 04/23/2018
+keywords: ["_KS_COPY_MACROVISION structure"]
 ms.keywords: "*PKS_COPY_MACROVISION, KS_COPY_MACROVISION, KS_COPY_MACROVISION structure [Streaming Media Devices], PKS_COPY_MACROVISION, PKS_COPY_MACROVISION structure pointer [Streaming Media Devices], _KS_COPY_MACROVISION, dvdref_42184498-7ac6-48d2-9f26-5bf69ececabb.xml, ksmedia/KS_COPY_MACROVISION, ksmedia/PKS_COPY_MACROVISION, stream.ks_copy_macrovision"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KS_COPY_MACROVISION"
 req.header: ksmedia.h

@@ -6,8 +6,8 @@ old-location: print\iprintoemdriverps_drvwritespoolbuf.htm
 tech.root: print
 ms.assetid: 91eb36b3-ea05-4a5e-8bba-47c262a4fa4a
 ms.date: 04/20/2018
+keywords: ["IPrintOemDriverPS::DrvWriteSpoolBuf"]
 ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices],IPrintOemDriverPS interface, IPrintOemDriverPS interface [Print Devices],DrvWriteSpoolBuf method, IPrintOemDriverPS.DrvWriteSpoolBuf, IPrintOemDriverPS::DrvWriteSpoolBuf, prcomoem/IPrintOemDriverPS::DrvWriteSpoolBuf, print.iprintoemdriverps_drvwritespoolbuf, print_unidrv-pscript_rendering_aa71a302-dc97-4bc2-8cbb-fd32c6237e74.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemDriverPS.DrvWriteSpoolBuf"
 req.header: prcomoem.h

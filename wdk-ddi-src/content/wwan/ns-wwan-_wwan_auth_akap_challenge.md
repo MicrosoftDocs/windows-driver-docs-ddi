@@ -6,8 +6,8 @@ old-location: netvista\wwan_auth_akap_challenge.htm
 tech.root: netvista
 ms.assetid: 0C1862D6-1252-4CF7-926A-C4647D545255
 ms.date: 05/02/2018
+keywords: ["_WWAN_AUTH_AKAP_CHALLENGE structure"]
 ms.keywords: "*PWWAN_AUTH_AKAP_CHALLENGE, PWWAN_AUTH_AKAP_CHALLENGE, PWWAN_AUTH_AKAP_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKAP_CHALLENGE, WWAN_AUTH_AKAP_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKAP_CHALLENGE, netvista.wwan_auth_akap_challenge, wwan/PWWAN_AUTH_AKAP_CHALLENGE, wwan/WWAN_AUTH_AKAP_CHALLENGE"
-ms.topic: struct
 f1_keywords:
  - "wwan/WWAN_AUTH_AKAP_CHALLENGE"
 req.header: wwan.h

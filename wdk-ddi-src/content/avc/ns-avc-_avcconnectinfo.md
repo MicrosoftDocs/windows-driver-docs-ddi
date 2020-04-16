@@ -6,8 +6,8 @@ old-location: stream\avcconnectinfo.htm
 tech.root: stream
 ms.assetid: ed6e01f0-fa30-4a42-8271-70afb2fde8c9
 ms.date: 04/23/2018
+keywords: ["_AVCCONNECTINFO structure"]
 ms.keywords: "*PAVCCONNECTINFO, AVCCONNECTINFO, AVCCONNECTINFO structure [Streaming Media Devices], PAVCCONNECTINFO, PAVCCONNECTINFO structure pointer [Streaming Media Devices], _AVCCONNECTINFO, avc/AVCCONNECTINFO, avc/PAVCCONNECTINFO, avcref_41c8705a-5735-4ab2-87f0-02b55b128c23.xml, stream.avcconnectinfo"
-ms.topic: struct
 f1_keywords:
  - "avc/AVCCONNECTINFO"
 req.header: avc.h

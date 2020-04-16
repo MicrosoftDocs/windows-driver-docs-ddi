@@ -6,8 +6,8 @@ old-location: ifsk\fltisoperationsynchronous.htm
 tech.root: ifsk
 ms.assetid: 44594383-9f07-4b6a-8ea3-eaf84c9fefda
 ms.date: 04/16/2018
+keywords: ["FltIsOperationSynchronous function"]
 ms.keywords: FltApiRef_e_to_o_f80a8dfd-53b1-42cf-9d7c-18fc4af6ff4e.xml, FltIsOperationSynchronous, FltIsOperationSynchronous routine [Installable File System Drivers], fltkernel/FltIsOperationSynchronous, ifsk.fltisoperationsynchronous
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltIsOperationSynchronous"
 req.header: fltkernel.h

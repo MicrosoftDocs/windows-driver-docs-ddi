@@ -6,8 +6,8 @@ old-location: ieee\topology_map.htm
 tech.root: IEEE
 ms.assetid: 0a4c7ffc-94f9-4068-b650-1da43e45d0ad
 ms.date: 02/15/2018
+keywords: ["_TOPOLOGY_MAP structure"]
 ms.keywords: "*PTOPOLOGY_MAP, 1394/PTOPOLOGY_MAP, 1394/TOPOLOGY_MAP, 1394stct_4afaf64f-e60c-4521-91c7-82abefd49b55.xml, IEEE.topology_map, PTOPOLOGY_MAP, PTOPOLOGY_MAP structure pointer [Buses], TOPOLOGY_MAP, TOPOLOGY_MAP structure [Buses], _TOPOLOGY_MAP"
-ms.topic: struct
 f1_keywords:
  - "1394/TOPOLOGY_MAP"
 req.header: 1394.h

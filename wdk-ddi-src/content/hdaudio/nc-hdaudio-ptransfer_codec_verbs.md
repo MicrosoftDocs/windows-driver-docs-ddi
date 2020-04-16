@@ -6,8 +6,8 @@ old-location: audio\transfercodecverbs.htm
 tech.root: audio
 ms.assetid: 0ba92f5c-c4a3-48de-b8af-9c444b2e65b5
 ms.date: 05/08/2018
+keywords: ["PTRANSFER_CODEC_VERBS callback function"]
 ms.keywords: PTRANSFER_CODEC_VERBS, PTRANSFER_CODEC_VERBS callback, TransferCodecVerbs, TransferCodecVerbs callback function [Audio Devices], aud-prop2_120467b8-2871-49f5-9e5a-0715505e786e.xml, audio.transfercodecverbs, hdaudio/TransferCodecVerbs
-ms.topic: callback
 f1_keywords:
  - "hdaudio/TransferCodecVerbs"
 req.header: hdaudio.h

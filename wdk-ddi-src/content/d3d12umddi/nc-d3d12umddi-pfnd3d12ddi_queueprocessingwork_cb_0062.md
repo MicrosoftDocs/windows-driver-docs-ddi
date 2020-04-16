@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: aa77a30e-13f8-457e-a04e-255b1c3b9398
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
+keywords: ["PFND3D12DDI_QUEUEPROCESSINGWORK_CB_0062 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

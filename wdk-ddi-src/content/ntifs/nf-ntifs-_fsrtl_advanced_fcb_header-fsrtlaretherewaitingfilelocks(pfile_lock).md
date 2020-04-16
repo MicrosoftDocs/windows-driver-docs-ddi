@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlaretherewaitingfilelocks.htm
 tech.root: ifsk
 ms.assetid: 92093588-DD44-4503-8803-7E47F178A728
 ms.date: 03/29/2018
+keywords: ["FsRtlAreThereWaitingFileLocks function"]
 ms.keywords: FsRtlAreThereWaitingFileLocks, FsRtlAreThereWaitingFileLocks routine [Installable File System Drivers], ifsk.fsrtlaretherewaitingfilelocks, ntifs/FsRtlAreThereWaitingFileLocks
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlAreThereWaitingFileLocks"
 req.header: ntifs.h

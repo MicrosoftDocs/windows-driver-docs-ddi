@@ -5,7 +5,7 @@ description: The NET_DATAPATH_RING_BUFFER_INDEX enumeration defines indices in a
 tech.root: netvista
 ms.assetid: 19cc4a99-3419-4710-85f0-c7b9932f6daa
 ms.date: 02/27/2018
-ms.topic: enum
+keywords: ["_NET_DATPATH_RING_BUFFER_INDEX enumeration"]
 f1_keywords:
  - "netdatapathdescriptor/_NET_DATPATH_RING_BUFFER_INDEX"
 ms.keywords: _NET_DATPATH_RING_BUFFER_INDEX, NET_DATPATH_RING_BUFFER_INDEX, 

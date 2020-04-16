@@ -4,7 +4,7 @@ title: PFND3D12DDI_DESTROYVIDEOMOTIONVECTORHEAP_0053 (d3d12umddi.h)
 description: Destroys the video motion vector heap.
 ms.assetid: e49d4848-dd80-46b9-91b9-cfdf0eda3311
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_DESTROYVIDEOMOTIONVECTORHEAP_0053 callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_DESTROYVIDEOMOTIONVECTORHEAP_0053"
 req.header: d3d12umddi.h

@@ -5,8 +5,8 @@ description: D3DKMTDestroyPagingQueue waits for a paging queue to finish all ope
 old-location: display\d3dkmtdestroypagingqueue.htm
 ms.assetid: 470563BD-F185-4CA2-B4AD-06E1AABD36AD
 ms.date: 05/10/2018
+keywords: ["D3DKMTDestroyPagingQueue function"]
 ms.keywords: D3DKMTDestroyPagingQueue, D3DKMTDestroyPagingQueue function [Display Devices], d3dkmthk/D3DKMTDestroyPagingQueue, display.d3dkmtdestroypagingqueue
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyPagingQueue"
 req.header: d3dkmthk.h

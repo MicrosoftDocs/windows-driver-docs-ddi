@@ -4,7 +4,7 @@ title: _INLINE_CRYPTO_DATA_UNIT_SIZE (treeinlinecryptoservice.h)
 description: 
 ms.assetid: 7e994576-5ad2-49d3-9784-14587bbd25cc
 ms.date: 10/19/2018
-ms.topic: enum
+keywords: ["_INLINE_CRYPTO_DATA_UNIT_SIZE enumeration"]
 f1_keywords:
  - "treeinlinecryptoservice/_INLINE_CRYPTO_DATA_UNIT_SIZE"
 ms.keywords: _INLINE_CRYPTO_DATA_UNIT_SIZE, INLINE_CRYPTO_DATA_UNIT_SIZE, *PINLINE_CRYPTO_DATA_UNIT_SIZE, 

@@ -6,8 +6,8 @@ old-location: buses\_ucxusbdevicecreate.htm
 tech.root: usbref
 ms.assetid: 36883440-805F-4588-AA04-3A7BCBEB6D76
 ms.date: 05/07/2018
+keywords: ["UcxUsbDeviceCreate function"]
 ms.keywords: UcxUsbDeviceCreate, UcxUsbDeviceCreate method [Buses], buses._ucxusbdevicecreate, ucxusbdevice/UcxUsbDeviceCreate
-ms.topic: function
 f1_keywords:
  - "ucxusbdevice/UcxUsbDeviceCreate"
 req.header: ucxusbdevice.h

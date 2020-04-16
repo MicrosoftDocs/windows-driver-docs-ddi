@@ -6,8 +6,8 @@ old-location: display\dxgiddicb_present_multiplane_overlay1.htm
 tech.root: display
 ms.assetid: AA716307-C235-47B2-BEB6-586FD6013280
 ms.date: 05/10/2018
+keywords: ["DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure"]
 ms.keywords: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure [Display Devices], display.dxgiddicb_present_multiplane_overlay1, dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
-ms.topic: struct
 f1_keywords:
  - "dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1"
 req.header: dxgiddi.h

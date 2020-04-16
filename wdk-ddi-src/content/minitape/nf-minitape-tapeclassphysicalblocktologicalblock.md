@@ -6,8 +6,8 @@ old-location: storage\tapeclassphysicalblocktologicalblock.htm
 tech.root: storage
 ms.assetid: fc95f5c8-2892-479d-ac25-32c07e9c7aab
 ms.date: 03/29/2018
+keywords: ["TapeClassPhysicalBlockToLogicalBlock function"]
 ms.keywords: TapeClassPhysicalBlockToLogicalBlock, TapeClassPhysicalBlockToLogicalBlock routine [Storage Devices], minitape/TapeClassPhysicalBlockToLogicalBlock, storage.tapeclassphysicalblocktologicalblock, tapeclas_94d20234-ee4d-4096-b856-f5196b606e2d.xml
-ms.topic: function
 f1_keywords:
  - "minitape/TapeClassPhysicalBlockToLogicalBlock"
 req.header: minitape.h

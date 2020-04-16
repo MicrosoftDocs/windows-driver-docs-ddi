@@ -6,8 +6,8 @@ old-location: netvista\ndk_fn_create_pd.htm
 tech.root: netvista
 ms.assetid: 18698FAC-1BE6-45E4-911E-661D63607B3F
 ms.date: 05/02/2018
+keywords: ["NDK_FN_CREATE_PD callback function"]
 ms.keywords: NDK_FN_CREATE_PD, NDK_FN_CREATE_PD callback, NdkCreatePd, NdkCreatePd callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreatePd, netvista.ndk_fn_create_pd
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkCreatePd"
 req.header: ndkpi.h

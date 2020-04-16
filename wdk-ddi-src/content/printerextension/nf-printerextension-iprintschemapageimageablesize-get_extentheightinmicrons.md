@@ -6,8 +6,8 @@ old-location: print\iprintschemapageimageablesize_extentheightinmicrons.htm
 tech.root: print
 ms.assetid: AA305230-B194-465F-936E-24FDE9929EAC
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons"]
 ms.keywords: ExtentHeightInMicrons property [Print Devices], ExtentHeightInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, IPrintSchemaPageImageableSize interface [Print Devices],ExtentHeightInMicrons property, IPrintSchemaPageImageableSize.ExtentHeightInMicrons, IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons, IPrintSchemaPageImageableSize::ExtentHeightInMicrons, IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons, get_ExtentHeightInMicrons, print.iprintschemapageimageablesize_extentheightinmicrons, printerextension/IPrintSchemaPageImageableSize::ExtentHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintSchemaPageImageableSize.ExtentHeightInMicrons"
 req.header: printerextension.h

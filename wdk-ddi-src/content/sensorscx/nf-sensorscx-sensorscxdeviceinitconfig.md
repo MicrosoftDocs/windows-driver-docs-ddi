@@ -6,8 +6,8 @@ old-location: sensors\sensorscxdeviceinitconfig.htm
 tech.root: sensors
 ms.assetid: E347F2E1-5AF5-411A-8F05-DA4826240E02
 ms.date: 05/03/2018
+keywords: ["SensorsCxDeviceInitConfig function"]
 ms.keywords: SensorsCxDeviceInitConfig, SensorsCxDeviceInitConfig function [Sensor Devices], sensors.sensorscxdeviceinitconfig, sensorscx/SensorsCxDeviceInitConfig
-ms.topic: function
 f1_keywords:
  - "sensorscx/SensorsCxDeviceInitConfig"
 req.header: sensorscx.h

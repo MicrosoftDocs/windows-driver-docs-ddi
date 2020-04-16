@@ -6,8 +6,8 @@ old-location: stream\kstrintersecthandler.htm
 tech.root: stream
 ms.assetid: ec4ca8b0-5386-4a03-8cf8-46852c168732
 ms.date: 04/23/2018
+keywords: ["PFNKSINTERSECTHANDLER callback function"]
 ms.keywords: KStrIntersectHandler, KStrIntersectHandler routine [Streaming Media Devices], PFNKSINTERSECTHANDLER, ks/KStrIntersectHandler, ksfunc_25fa087e-9d66-4479-aa4c-632a63ee6779.xml, stream.kstrintersecthandler
-ms.topic: callback
 f1_keywords:
  - "ks/KStrIntersectHandler"
 req.header: ks.h

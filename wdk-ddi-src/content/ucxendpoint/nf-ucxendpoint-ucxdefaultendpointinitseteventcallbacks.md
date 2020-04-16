@@ -6,8 +6,8 @@ old-location: buses\_ucxdefaultendpointinitseteventcallbacks.htm
 tech.root: usbref
 ms.assetid: 5CE3F1B5-9C6D-4061-ADF4-B388C81C0674
 ms.date: 05/07/2018
+keywords: ["UcxDefaultEndpointInitSetEventCallbacks function"]
 ms.keywords: UcxDefaultEndpointInitSetEventCallbacks, UcxDefaultEndpointInitSetEventCallbacks method [Buses], buses._ucxdefaultendpointinitseteventcallbacks
-ms.topic: function
 f1_keywords:
  - "ucxendpoint/UcxDefaultEndpointInitSetEventCallbacks"
 req.header: ucxendpoint.h

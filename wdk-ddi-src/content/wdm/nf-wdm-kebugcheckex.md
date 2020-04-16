@@ -6,8 +6,8 @@ old-location: kernel\kebugcheckex.htm
 tech.root: kernel
 ms.assetid: 2330fda2-71f5-4a8b-8124-775a40926bc1
 ms.date: 04/30/2018
+keywords: ["KeBugCheckEx function"]
 ms.keywords: KeBugCheckEx, KeBugCheckEx routine [Kernel-Mode Driver Architecture], k105_17af10bb-b21d-408e-bf73-421ce705d117.xml, kernel.kebugcheckex, wdm/KeBugCheckEx
-ms.topic: function
 f1_keywords:
  - "wdm/KeBugCheckEx"
 req.header: wdm.h

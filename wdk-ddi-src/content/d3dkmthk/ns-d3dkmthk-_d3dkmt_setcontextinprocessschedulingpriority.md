@@ -5,8 +5,8 @@ description: Describes parameters for an in-process (in-proc) Microsoft Direct3D
 old-location: display\d3dkmt_setcontextinprocessschedulingpriority.htm
 ms.assetid: 3e016793-8c31-4349-a8f5-e5a0cb3b353e
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY structure"]
 ms.keywords: D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY structure [Display Devices], _D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, d3dkmthk/D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, display.d3dkmt_setcontextinprocessschedulingpriority
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY"
 req.header: d3dkmthk.h

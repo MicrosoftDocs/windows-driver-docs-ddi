@@ -6,8 +6,8 @@ old-location: netvista\pd_buffer.htm
 tech.root: netvista
 ms.assetid: 91555FBA-30F5-4CED-BA0D-2F0BE40BFF9E
 ms.date: 05/02/2018
+keywords: ["_PD_BUFFER structure"]
 ms.keywords: PD_BUFFER, PD_BUFFER structure [Network Drivers Starting with Windows Vista], PPD_BUFFER, PPD_BUFFER structure pointer [Network Drivers Starting with Windows Vista], _PD_BUFFER, ndis/PD_BUFFER, ndis/PPD_BUFFER, netvista.pd_buffer
-ms.topic: struct
 f1_keywords:
  - "ndis/PD_BUFFER"
 req.header: ndis.h

@@ -6,8 +6,8 @@ old-location: storage\erase_band_parameters.htm
 tech.root: storage
 ms.assetid: CD7388DD-84CD-4158-91F3-9DB0559DFC2F
 ms.date: 03/29/2018
+keywords: ["_ERASE_BAND_PARAMETERS structure"]
 ms.keywords: "*PERASE_BAND_PARAMETERS, ERASEBAND_AUTHKEY_CACHING_ENABLED, ERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS structure [Storage Devices], PERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS structure pointer [Storage Devices], _ERASE_BAND_PARAMETERS, ehstorbandmgmt/ERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS, storage.erase_band_parameters"
-ms.topic: struct
 f1_keywords:
  - "ehstorbandmgmt/ERASE_BAND_PARAMETERS"
 req.header: ehstorbandmgmt.h

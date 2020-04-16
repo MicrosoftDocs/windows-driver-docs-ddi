@@ -6,8 +6,8 @@ old-location: netvista\dot11_offload_network.htm
 tech.root: netvista
 ms.assetid: 75DC558F-801B-42ED-9282-127E86E78923
 ms.date: 02/16/2018
+keywords: ["DOT11_OFFLOAD_NETWORK structure"]
 ms.keywords: "*PDOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK structure [Network Drivers Starting with Windows Vista], PDOT11_OFFLOAD_NETWORK, PDOT11_OFFLOAD_NETWORK structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_offload_network, windot11/DOT11_OFFLOAD_NETWORK, windot11/PDOT11_OFFLOAD_NETWORK"
-ms.topic: struct
 f1_keywords:
  - "windot11/DOT11_OFFLOAD_NETWORK"
 req.header: windot11.h

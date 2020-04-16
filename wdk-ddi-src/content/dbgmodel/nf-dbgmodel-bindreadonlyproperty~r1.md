@@ -4,7 +4,7 @@ title: BindReadOnlyProperty function (dbgmodel.h)
 description: TA binder which converts one instance method on a class to a read-only property accessor.
 ms.assetid: c59ee365-d2da-4352-8311-a4a1d27fabdc
 ms.date: 09/28/2018
-ms.topic: function
+keywords: ["BindReadOnlyProperty function"]
 f1_keywords:
  - "dbgmodel/BindReadOnlyProperty"
 ms.keywords: BindReadOnlyProperty

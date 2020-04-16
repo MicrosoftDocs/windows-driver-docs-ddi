@@ -6,8 +6,8 @@ old-location: print\devqueryprint_info.htm
 tech.root: print
 ms.assetid: c46193f2-4c69-4aed-a063-2225faba9ee1
 ms.date: 04/20/2018
+keywords: ["_DEVQUERYPRINT_INFO structure"]
 ms.keywords: "*PDEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO, DEVQUERYPRINT_INFO structure [Print Devices], PDEVQUERYPRINT_INFO, PDEVQUERYPRINT_INFO structure pointer [Print Devices], _DEVQUERYPRINT_INFO, print.devqueryprint_info, print_interface-graphics_f968cd94-5290-4aab-908b-c0c01d3038a6.xml, winddiui/DEVQUERYPRINT_INFO, winddiui/PDEVQUERYPRINT_INFO"
-ms.topic: struct
 f1_keywords:
  - "winddiui/DEVQUERYPRINT_INFO"
 req.header: winddiui.h

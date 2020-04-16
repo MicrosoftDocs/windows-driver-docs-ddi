@@ -6,8 +6,8 @@ old-location: audio\iminiportwavepcistream_normalizephysicalposition.htm
 tech.root: audio
 ms.assetid: 4ae4dc8d-3502-40c1-8109-6935990a7091
 ms.date: 05/08/2018
+keywords: ["IMiniportWavePciStream::NormalizePhysicalPosition"]
 ms.keywords: IMiniportWavePciStream interface [Audio Devices],NormalizePhysicalPosition method, IMiniportWavePciStream.NormalizePhysicalPosition, IMiniportWavePciStream::NormalizePhysicalPosition, NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], NormalizePhysicalPosition method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_normalizephysicalposition, audmp-routines_337339ea-4683-4b67-813c-a86e7e43597a.xml, portcls/IMiniportWavePciStream::NormalizePhysicalPosition
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportWavePciStream.NormalizePhysicalPosition"
 req.header: portcls.h

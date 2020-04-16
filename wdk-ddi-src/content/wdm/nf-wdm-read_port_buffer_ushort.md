@@ -6,8 +6,8 @@ old-location: kernel\read_port_buffer_ushort.htm
 tech.root: kernel
 ms.assetid: 27c2f249-bfd2-497d-aa34-f5d1e1a1fac7
 ms.date: 04/30/2018
+keywords: ["READ_PORT_BUFFER_USHORT function"]
 ms.keywords: READ_PORT_BUFFER_USHORT, READ_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_59466909-4881-4b5f-95aa-c1d742ef17af.xml, kernel.read_port_buffer_ushort, wdm/READ_PORT_BUFFER_USHORT
-ms.topic: function
 f1_keywords:
  - "wdm/READ_PORT_BUFFER_USHORT"
 req.header: wdm.h

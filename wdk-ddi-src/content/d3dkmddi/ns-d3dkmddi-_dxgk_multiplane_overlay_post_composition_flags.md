@@ -5,8 +5,8 @@ description: A structure containing the flags describing the transformations app
 old-location: display\dxgk_multiplane_overlay_post_composition_flags.htm
 ms.assetid: F7791AB9-6D20-4560-A478-E30F08C6AC3A
 ms.date: 05/10/2018
+keywords: ["_DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS, display.dxgk_multiplane_overlay_post_composition_flags
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION_FLAGS"
 req.header: d3dkmddi.h

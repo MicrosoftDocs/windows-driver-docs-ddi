@@ -6,8 +6,8 @@ old-location: kernel\rtlfindclearruns.htm
 tech.root: kernel
 ms.assetid: ad44c7ba-1d8e-4ba4-8d1b-83ff8b2e3d06
 ms.date: 04/30/2018
+keywords: ["RtlFindClearRuns function"]
 ms.keywords: RtlFindClearRuns, RtlFindClearRuns routine [Kernel-Mode Driver Architecture], k109_10c01954-483b-4ec8-a54d-50928663dc16.xml, kernel.rtlfindclearruns, wdm/RtlFindClearRuns
-ms.topic: function
 f1_keywords:
  - "wdm/RtlFindClearRuns"
 req.header: wdm.h

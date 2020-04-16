@@ -6,8 +6,8 @@ old-location: nfpdrivers\ioctl_nfp_get_max_message_bytes.htm
 tech.root: nfpdrivers
 ms.assetid: 030E00C0-9F28-4EAC-BEBA-6AB0269ABAD5
 ms.date: 02/15/2018
+keywords: ["IOCTL_NFP_GET_MAX_MESSAGE_BYTES IOCTL"]
 ms.keywords: IOCTL_NFP_GET_MAX_MESSAGE_BYTES, IOCTL_NFP_GET_MAX_MESSAGE_BYTES control, IOCTL_NFP_GET_MAX_MESSAGE_BYTES control code [Near-Field Proximity Drivers], _IOCTL_NFP_GET_MAX_MESSAGE_BYTES, nfpdev/IOCTL_NFP_GET_MAX_MESSAGE_BYTES, nfpdrivers.ioctl_nfp_get_max_message_bytes
-ms.topic: ioctl
 f1_keywords:
  - "nfpdev/IOCTL_NFP_GET_MAX_MESSAGE_BYTES"
 req.header: nfpdev.h

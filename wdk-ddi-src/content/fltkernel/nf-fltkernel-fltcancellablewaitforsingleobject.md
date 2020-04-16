@@ -6,8 +6,8 @@ old-location: ifsk\fltcancellablewaitforsingleobject.htm
 tech.root: ifsk
 ms.assetid: bf872769-c084-44c9-97e8-58eb54f943b2
 ms.date: 04/16/2018
+keywords: ["FltCancellableWaitForSingleObject function"]
 ms.keywords: FltApiRef_a_to_d_e71d2b38-ae04-4026-bb99-d0d99ea4ec05.xml, FltCancellableWaitForSingleObject, FltCancellableWaitForSingleObject routine [Installable File System Drivers], fltkernel/FltCancellableWaitForSingleObject, ifsk.fltcancellablewaitforsingleobject
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltCancellableWaitForSingleObject"
 req.header: fltkernel.h

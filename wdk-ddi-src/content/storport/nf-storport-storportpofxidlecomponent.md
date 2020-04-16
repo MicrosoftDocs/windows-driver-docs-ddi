@@ -6,8 +6,8 @@ old-location: storage\storportpofxidlecomponent.htm
 tech.root: storage
 ms.assetid: DF329B68-3995-4B38-8208-4C779B0626A6
 ms.date: 03/29/2018
+keywords: ["StorPortPoFxIdleComponent function"]
 ms.keywords: StorPortPoFxIdleComponent, StorPortPoFxIdleComponent routine [Storage Devices], storage.storportpofxidlecomponent, storport/StorPortPoFxIdleComponent
-ms.topic: function
 f1_keywords:
  - "storport/StorPortPoFxIdleComponent"
 req.header: storport.h

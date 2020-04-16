@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlmupgetproviderinfofromfileobject.htm
 tech.root: ifsk
 ms.assetid: 3f4d8c5c-3a83-4027-8d9e-5ff7db4a6853
 ms.date: 04/16/2018
+keywords: ["FsRtlMupGetProviderInfoFromFileObject function"]
 ms.keywords: FsRtlMupGetProviderInfoFromFileObject, FsRtlMupGetProviderInfoFromFileObject routine [Installable File System Drivers], fsrtlref_7ad681c5-3f7c-42d1-8644-7cd677101413.xml, ifsk.fsrtlmupgetproviderinfofromfileobject, ntifs/FsRtlMupGetProviderInfoFromFileObject
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlMupGetProviderInfoFromFileObject"
 req.header: ntifs.h

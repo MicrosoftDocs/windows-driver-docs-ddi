@@ -6,8 +6,8 @@ old-location: storage\lba_filter_table.htm
 tech.root: storage
 ms.assetid: 656A413C-C0EF-4847-93F5-02DCCF40F348
 ms.date: 03/29/2018
+keywords: ["_LBA_FILTER_TABLE structure"]
 ms.keywords: "*PLBA_FILTER_TABLE, LBA_FILTER_TABLE, LBA_FILTER_TABLE structure [Storage Devices], PLBA_FILTER_TABLE, PLBA_FILTER_TABLE structure pointer [Storage Devices], _LBA_FILTER_TABLE, ehstorioctl/LBA_FILTER_TABLE, ehstorioctl/PLBA_FILTER_TABLE, storage.lba_filter_table"
-ms.topic: struct
 f1_keywords:
  - "ehstorioctl/LBA_FILTER_TABLE"
 req.header: ehstorioctl.h

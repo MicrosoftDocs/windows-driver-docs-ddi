@@ -6,8 +6,8 @@ old-location: kernel\updateplatformidlestate.htm
 tech.root: kernel
 ms.assetid: A5E3C5DE-DD76-41CF-8A86-37F25A069E1C
 ms.date: 04/30/2018
+keywords: ["POFXCALLBACKUPDATEPLATFORMIDLESTATE callback function"]
 ms.keywords: POFXCALLBACKUPDATEPLATFORMIDLESTATE, UpdatePlatformIdleState, UpdatePlatformIdleState routine [Kernel-Mode Driver Architecture], kernel.updateplatformidlestate, pepfx/UpdatePlatformIdleState
-ms.topic: callback
 f1_keywords:
  - "pepfx/UpdatePlatformIdleState"
 req.header: pepfx.h

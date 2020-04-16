@@ -6,8 +6,8 @@ old-location: display\d3dhal_dp2clear.htm
 tech.root: display
 ms.assetid: 8cd81cae-8d6b-48d8-afdc-87e3a81653f4
 ms.date: 05/10/2018
+keywords: ["_D3DHAL_DP2CLEAR structure"]
 ms.keywords: "*LPD3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR structure [Display Devices], LPD3DHAL_DP2CLEAR, LPD3DHAL_DP2CLEAR structure pointer [Display Devices], _D3DHAL_DP2CLEAR, d3dhal/D3DHAL_DP2CLEAR, d3dhal/LPD3DHAL_DP2CLEAR, d3dstrct_2caf8fa1-61b4-4659-af20-a72d6b36173a.xml, display.d3dhal_dp2clear"
-ms.topic: struct
 f1_keywords:
  - "d3dhal/D3DHAL_DP2CLEAR"
 req.header: d3dhal.h

@@ -6,8 +6,8 @@ old-location: display\dxgkddisystemdisplayenable.htm
 tech.root: display
 ms.assetid: D938F7F4-E1FA-4C63-A31D-5ED160276565
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_SYSTEM_DISPLAY_ENABLE callback function"]
 ms.keywords: DXGKDDI_SYSTEM_DISPLAY_ENABLE, DXGKDDI_SYSTEM_DISPLAY_ENABLE callback, DxgkDdiSystemDisplayEnable, DxgkDdiSystemDisplayEnable callback function [Display Devices], display.dxgkddisystemdisplayenable, dispmprt/DxgkDdiSystemDisplayEnable
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiSystemDisplayEnable"
 req.header: dispmprt.h

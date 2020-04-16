@@ -6,8 +6,8 @@ old-location: display\videoportsettrappedemulatorports.htm
 tech.root: display
 ms.assetid: c1ded22b-a5bf-4755-903a-4797c6a65713
 ms.date: 05/10/2018
+keywords: ["VideoPortSetTrappedEmulatorPorts function"]
 ms.keywords: VideoPortSetTrappedEmulatorPorts, VideoPortSetTrappedEmulatorPorts function [Display Devices], VideoPort_Functions_2283311e-a325-433b-9fff-be20e9c0e092.xml, display.videoportsettrappedemulatorports, video/VideoPortSetTrappedEmulatorPorts
-ms.topic: function
 f1_keywords:
  - "video/VideoPortSetTrappedEmulatorPorts"
 req.header: video.h

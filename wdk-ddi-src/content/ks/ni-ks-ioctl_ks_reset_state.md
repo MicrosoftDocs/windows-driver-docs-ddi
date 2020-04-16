@@ -6,8 +6,8 @@ old-location: stream\ioctl_ks_reset_state.htm
 tech.root: stream
 ms.assetid: 0f3fd5ae-f8ce-4a2f-b8c0-4ac101569e09
 ms.date: 04/23/2018
+keywords: ["IOCTL_KS_RESET_STATE IOCTL"]
 ms.keywords: IOCTL_KS_RESET_STATE, IOCTL_KS_RESET_STATE control, IOCTL_KS_RESET_STATE control code [Streaming Media Devices], ks-ioctl_ce7c174b-952d-4b08-ab05-f8843155af33.xml, ks/IOCTL_KS_RESET_STATE, stream.ioctl_ks_reset_state
-ms.topic: ioctl
 f1_keywords:
  - "ks/IOCTL_KS_RESET_STATE"
 req.header: ks.h

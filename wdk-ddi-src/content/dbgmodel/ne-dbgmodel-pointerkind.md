@@ -4,7 +4,7 @@ title: PointerKind (dbgmodel.h)
 description: 
 ms.assetid: 5601a992-ef28-42ee-99e9-c7e8b2ba08be
 ms.date: 07/16/2018
-ms.topic: enum
+keywords: ["PointerKind enumeration"]
 f1_keywords:
  - "dbgmodel/PointerKind"
 ms.keywords: PointerKind, , 

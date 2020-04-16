@@ -6,8 +6,8 @@ old-location: kernel\pep_work_device_power.htm
 tech.root: kernel
 ms.assetid: 5B39DFE1-3830-4650-9BB9-A03A040F1015
 ms.date: 04/30/2018
+keywords: ["_PEP_WORK_DEVICE_POWER structure"]
 ms.keywords: "*PPEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER structure [Kernel-Mode Driver Architecture], PPEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_DEVICE_POWER, kernel.pep_work_device_power, pep_x/PEP_WORK_DEVICE_POWER, pep_x/PPEP_WORK_DEVICE_POWER"
-ms.topic: struct
 f1_keywords:
  - "pep_x/PEP_WORK_DEVICE_POWER"
 req.header: pep_x.h

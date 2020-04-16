@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: ac89dab1-c811-4073-9527-9a6a22445a51
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: struct
+keywords: ["GAMMA_RAMP_DXGI_1 structure"]
 f1_keywords:
  - "ntddvdeo/GAMMA_RAMP_DXGI_1"
 ms.keywords: GAMMA_RAMP_DXGI_1, GAMMA_RAMP_DXGI_1, 

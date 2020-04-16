@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: 1c6006b8-6241-418f-b81c-b32a318eeea6
 ms.author: windowsdriverdev
 ms.date: 10/24/2019
-ms.topic: function
+keywords: ["NetAdapterWakeSetBitmapCapabilities function"]
 f1_keywords:
  - "netadapter/NetAdapterWakeSetBitmapCapabilities"
 ms.keywords: NetAdapterWakeSetBitmapCapabilities

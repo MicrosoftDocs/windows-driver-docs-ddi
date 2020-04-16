@@ -6,8 +6,8 @@ old-location: kernel\iogetactivityidirp.htm
 tech.root: kernel
 ms.assetid: FAFF65EF-F1D8-4B54-B281-D5C4AC124E32
 ms.date: 04/30/2018
+keywords: ["IoGetActivityIdIrp function"]
 ms.keywords: IoGetActivityIdIrp, IoGetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidirp, ntddk/IoGetActivityIdIrp
-ms.topic: function
 f1_keywords:
  - "ntddk/IoGetActivityIdIrp"
 req.header: ntddk.h

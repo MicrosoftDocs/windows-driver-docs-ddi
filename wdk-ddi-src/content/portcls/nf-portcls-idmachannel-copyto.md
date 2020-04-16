@@ -5,7 +5,7 @@ description: The CopyTo method copies sample data to the DMA channel's common bu
 tech.root: audio
 ms.assetid: 510bdb3a-1a85-4e34-aa47-769e3f1fd9c0
 ms.date: 10/31/2018 
-ms.topic: method
+keywords: ["IDmaChannel::CopyTo"]
 f1_keywords:
  - "portcls/IDmaChannel.CopyTo"
 ms.keywords: IDmaChannel::CopyTo, CopyTo, IDmaChannel.CopyTo, IDmaChannel::CopyTo, IDmaChannel.CopyTo

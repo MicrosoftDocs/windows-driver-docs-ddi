@@ -6,8 +6,8 @@ old-location: kernel\rtlwriteregistryvalue.htm
 tech.root: kernel
 ms.assetid: 97bcd205-ffc0-4645-87d4-659651ed579a
 ms.date: 04/30/2018
+keywords: ["RtlWriteRegistryValue function"]
 ms.keywords: RtlWriteRegistryValue, RtlWriteRegistryValue routine [Kernel-Mode Driver Architecture], k109_e0c16f81-5256-472b-9270-fe48d6a49893.xml, kernel.rtlwriteregistryvalue, wdm/RtlWriteRegistryValue
-ms.topic: function
 f1_keywords:
  - "wdm/RtlWriteRegistryValue"
 req.header: wdm.h

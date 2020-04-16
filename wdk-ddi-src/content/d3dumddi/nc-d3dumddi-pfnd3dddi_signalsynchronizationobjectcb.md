@@ -6,8 +6,8 @@ old-location: display\pfnsignalsynchronizationobjectcb.htm
 tech.root: display
 ms.assetid: 12ffa230-2c26-4cd3-ae83-f753a0b6ba38
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTCB callback function"]
 ms.keywords: D3Druntime_Functions_7bda6d91-797a-4f72-9182-e30b9fb1963a.xml, PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTCB, PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTCB callback, d3dumddi/pfnSignalSynchronizationObjectCb, display.pfnsignalsynchronizationobjectcb, pfnSignalSynchronizationObjectCb, pfnSignalSynchronizationObjectCb callback function [Display Devices]
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: 6505fee3-68c7-4b65-a725-1d9072eeaa98
 ms.author: windowsdriverdev
 ms.date: 10/10/2019
-ms.topic: function
+keywords: ["NetWakeSourceListGetElement function"]
 f1_keywords:
  - "netwakesourcelist/NetWakeSourceListGetElement"
 ms.keywords: NetWakeSourceListGetElement

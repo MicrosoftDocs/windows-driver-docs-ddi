@@ -6,8 +6,8 @@ old-location: netvista\ndis_udp_header_field.htm
 tech.root: netvista
 ms.assetid: 8AB1661D-A7DF-4178-8D1A-87A3AF9C4316
 ms.date: 05/02/2018
+keywords: ["_NDIS_UDP_HEADER_FIELD enumeration"]
 ms.keywords: "*PNDIS_UDP_HEADER_FIELD, NDIS_UDP_HEADER_FIELD, NDIS_UDP_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NdisUdpHeaderFieldDestinationPort, NdisUdpHeaderFieldMaximum, NdisUdpHeaderFieldUndefined, PNDIS_UDP_HEADER_FIELD, PNDIS_UDP_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_UDP_HEADER_FIELD, netvista.ndis_udp_header_field, ntddndis/NDIS_UDP_HEADER_FIELD, ntddndis/NdisUdpHeaderFieldDestinationPort, ntddndis/NdisUdpHeaderFieldMaximum, ntddndis/NdisUdpHeaderFieldUndefined, ntddndis/PNDIS_UDP_HEADER_FIELD"
-ms.topic: enum
 f1_keywords:
  - "ntddndis/NDIS_UDP_HEADER_FIELD"
 req.header: ntddndis.h

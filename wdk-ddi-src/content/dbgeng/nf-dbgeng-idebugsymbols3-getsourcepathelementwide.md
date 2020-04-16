@@ -6,8 +6,8 @@ old-location: debugger\getsourcepathelementwide.htm
 tech.root: debugger
 ms.assetid: 724ee7a6-a0ef-440b-a0d4-5eecda77338a
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::GetSourcePathElementWide"]
 ms.keywords: GetSourcePathElementWide, GetSourcePathElementWide method [Windows Debugging], GetSourcePathElementWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourcePathElementWide method, IDebugSymbols3.GetSourcePathElementWide, IDebugSymbols3::GetSourcePathElementWide, dbgeng/IDebugSymbols3::GetSourcePathElementWide, debugger.getsourcepathelementwide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSourcePathElementWide"
 req.header: dbgeng.h

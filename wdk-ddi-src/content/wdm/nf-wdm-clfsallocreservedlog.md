@@ -6,8 +6,8 @@ old-location: kernel\clfsallocreservedlog.htm
 tech.root: kernel
 ms.assetid: 05e4fb47-38ef-4b46-a1bb-220c5b1a63ca
 ms.date: 04/30/2018
+keywords: ["ClfsAllocReservedLog function"]
 ms.keywords: ClfsAllocReservedLog, ClfsAllocReservedLog routine [Kernel-Mode Driver Architecture], Clfs_4429c61b-96d5-48cb-9ff0-5b0e3f01e0ec.xml, kernel.clfsallocreservedlog, wdm/ClfsAllocReservedLog
-ms.topic: function
 f1_keywords:
  - "wdm/ClfsAllocReservedLog"
 req.header: wdm.h

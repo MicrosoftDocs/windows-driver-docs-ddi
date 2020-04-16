@@ -6,8 +6,8 @@ old-location: netvista\ndismsynchronizewithinterruptex.htm
 tech.root: netvista
 ms.assetid: 5dca9258-a3ae-43f4-a5aa-d591165d72ed
 ms.date: 02/27/2018
+keywords: ["BOOLEAN function"]
 ms.keywords: BOOLEAN, NdisMSynchronizeWithInterruptEx, NdisMSynchronizeWithInterruptEx function [Network Drivers Starting with Windows Vista], ndis/NdisMSynchronizeWithInterruptEx, ndis_interrupts_functions_ref_e2b886ed-7425-4f7e-8cb6-4e3946dec8ff.xml, netvista.ndismsynchronizewithinterruptex
-ms.topic: function
 f1_keywords:
  - "video/NdisMSynchronizeWithInterruptEx"
 req.header: video.h

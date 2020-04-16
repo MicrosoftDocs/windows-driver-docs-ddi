@@ -6,8 +6,8 @@ old-location: print\monitor.htm
 tech.root: print
 ms.assetid: 0b0dc06f-51c2-429f-a9bb-079f8a61411d
 ms.date: 04/20/2018
+keywords: ["_MONITOR structure"]
 ms.keywords: "*LPMONITOR, LPMONITOR, LPMONITOR structure pointer [Print Devices], MONITOR, MONITOR structure [Print Devices], _MONITOR, print.monitor, spoolfnc_c7b3aeed-d00f-4728-967d-bbe1a8512a42.xml, winsplp/LPMONITOR, winsplp/MONITOR"
-ms.topic: struct
 f1_keywords:
  - "winsplp/MONITOR"
 req.header: winsplp.h

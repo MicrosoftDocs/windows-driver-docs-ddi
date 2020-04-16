@@ -6,8 +6,8 @@ old-location: storage\getfcptargetmapping_out.htm
 tech.root: storage
 ms.assetid: a3a3050a-6fa2-4ace-87f2-41b8364f4d30
 ms.date: 03/29/2018
+keywords: ["_GetFcpTargetMapping_OUT structure"]
 ms.keywords: "*PGetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT structure [Storage Devices], PGetFcpTargetMapping_OUT, PGetFcpTargetMapping_OUT structure pointer [Storage Devices], _GetFcpTargetMapping_OUT, hbapiwmi/GetFcpTargetMapping_OUT, hbapiwmi/PGetFcpTargetMapping_OUT, storage.getfcptargetmapping_out, structs-Fibre_ab6aca55-bb7c-4983-863c-de94e835a600.xml"
-ms.topic: struct
 f1_keywords:
  - "hbapiwmi/GetFcpTargetMapping_OUT"
 req.header: hbapiwmi.h

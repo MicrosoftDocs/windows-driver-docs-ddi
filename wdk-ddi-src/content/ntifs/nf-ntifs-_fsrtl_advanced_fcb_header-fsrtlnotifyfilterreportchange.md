@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlnotifyfilterreportchange.htm
 tech.root: ifsk
 ms.assetid: 7924405f-9862-4704-bff1-05e0285592b9
 ms.date: 04/16/2018
+keywords: ["FsRtlNotifyFilterReportChange function"]
 ms.keywords: FsRtlNotifyFilterReportChange, FsRtlNotifyFilterReportChange function [Installable File System Drivers], fsrtlref_c4a79c57-aa80-40f3-9882-76ed887c99cb.xml, ifsk.fsrtlnotifyfilterreportchange, ntifs/FsRtlNotifyFilterReportChange
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlNotifyFilterReportChange"
 req.header: ntifs.h

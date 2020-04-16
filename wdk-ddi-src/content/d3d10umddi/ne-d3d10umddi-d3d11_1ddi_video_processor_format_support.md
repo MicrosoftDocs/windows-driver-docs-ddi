@@ -5,8 +5,8 @@ description: Specifies how a video format can be used for video processing.
 old-location: display\d3d11_1ddi_video_processor_format_support.htm
 ms.assetid: 3fef0cb0-6584-487d-9660-1c748509a6a9
 ms.date: 05/10/2018
+keywords: ["D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT enumeration"]
 ms.keywords: D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT, D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT enumeration [Display Devices], D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT, D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_INPUT, d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT_OUTPUT, display.d3d11_1ddi_video_processor_format_support
-ms.topic: enum
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT"
 req.header: d3d10umddi.h

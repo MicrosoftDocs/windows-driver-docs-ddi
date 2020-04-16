@@ -6,8 +6,8 @@ old-location: netvista\wskcontrolsocket.htm
 tech.root: netvista
 ms.assetid: d65fd2ab-ffca-4e13-b0f1-42d6a89f4b4a
 ms.date: 05/02/2018
+keywords: ["PFN_WSK_CONTROL_SOCKET callback function"]
 ms.keywords: PFN_WSK_CONTROL_SOCKET, PFN_WSK_CONTROL_SOCKET callback, WskControlSocket, WskControlSocket callback function [Network Drivers Starting with Windows Vista], netvista.wskcontrolsocket, wsk/WskControlSocket, wskref_03c8029d-c31f-4010-9e56-e4c1f91930c5.xml
-ms.topic: callback
 f1_keywords:
  - "wsk/WskControlSocket"
 req.header: wsk.h

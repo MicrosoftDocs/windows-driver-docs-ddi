@@ -6,8 +6,8 @@ old-location: debugger\debugcreateex.htm
 tech.root: debugger
 ms.assetid: 851A9461-E085-4BDA-BB69-603F6932BFA6
 ms.date: 05/03/2018
+keywords: ["DebugCreateEx function"]
 ms.keywords: DebugCreateEx, DebugCreateEx function [Windows Debugging], dbgeng/DebugCreateEx, debugger.debugcreateex
-ms.topic: function
 f1_keywords:
  - "dbgeng/DebugCreateEx"
 req.header: dbgeng.h

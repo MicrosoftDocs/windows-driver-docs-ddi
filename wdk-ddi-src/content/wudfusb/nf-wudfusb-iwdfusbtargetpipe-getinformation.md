@@ -6,8 +6,8 @@ old-location: wdf\iwdfusbtargetpipe_getinformation.htm
 tech.root: wdf
 ms.assetid: b1462a64-debf-441f-8964-4644074e5e53
 ms.date: 02/26/2018
+keywords: ["IWDFUsbTargetPipe::GetInformation"]
 ms.keywords: GetInformation, GetInformation method, GetInformation method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,GetInformation method, IWDFUsbTargetPipe.GetInformation, IWDFUsbTargetPipe::GetInformation, UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, umdf.iwdfusbtargetpipe_getinformation, wdf.iwdfusbtargetpipe_getinformation, wudfusb/IWDFUsbTargetPipe::GetInformation
-ms.topic: method
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe.GetInformation"
 req.header: wudfusb.h

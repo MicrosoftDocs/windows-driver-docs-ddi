@@ -6,8 +6,8 @@ old-location: wdf\idriverentry.htm
 tech.root: wdf
 ms.assetid: eae6f032-2f31-43e1-9ac0-38ccc4840580
 ms.date: 02/26/2018
+keywords: ["IDriverEntry interface"]
 ms.keywords: IDriverEntry, IDriverEntry interface, IDriverEntry interface,described, UMDFDriverObjectRef_83709367-02f2-433f-a20b-b98eff736657.xml, umdf.idriverentry, wdf.idriverentry, wudfddi/IDriverEntry
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IDriverEntry"
 req.header: wudfddi.h

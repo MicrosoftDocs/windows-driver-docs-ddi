@@ -6,8 +6,8 @@ old-location: netvista\rilradiostategroup.htm
 tech.root: netvista
 ms.assetid: e3ad8454-0e23-48fd-a6ef-c9257dc4816d
 ms.date: 05/02/2018
+keywords: ["RILRADIOSTATEGROUP structure"]
 ms.keywords: "*LPRILRADIOSTATEGROUP, RILRADIOSTATEGROUP, RILRADIOSTATEGROUP structure [Network Drivers Starting with Windows Vista], netvista.rilradiostategroup, ntddrilapitypes/RILRADIOSTATEGROUP"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILRADIOSTATEGROUP"
 req.header: ntddrilapitypes.h

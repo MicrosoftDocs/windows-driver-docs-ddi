@@ -5,9 +5,9 @@ description: The WdfDeviceCreateDeviceInterface method creates a device interfac
 old-location: wdf\wdfdevicecreatedeviceinterface.htm
 tech.root: wdf
 ms.assetid: cdfe1932-ee3d-41ea-8d7b-85c17c0f1722
-ms.date: 02/26/2018
+ms.date: 03/24/2020
+keywords: ["WdfDeviceCreateDeviceInterface function"]
 ms.keywords: DFDeviceObjectGeneralRef_467c4866-4ba7-4450-9aec-e63c3172d604.xml, WdfDeviceCreateDeviceInterface, WdfDeviceCreateDeviceInterface method, kmdf.wdfdevicecreatedeviceinterface, wdf.wdfdevicecreatedeviceinterface, wdfdevice/WdfDeviceCreateDeviceInterface
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceCreateDeviceInterface"
 req.header: wdfdevice.h
@@ -93,7 +93,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 ## -remarks
 
-
+The driver can call **WdfDeviceCreateDeviceInterface** from [*EVT_WDF_DRIVER_DEVICE_ADD*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add), or after the device has started. 
+ 
+If the driver calls this function from its *EVT_WDF_DRIVER_DEVICE_ADD* callback function, the interface is automatically enabled when the device starts and disabled when the device stops. To prevent auto enable, the driver can call [**WdfDeviceSetDeviceInterfaceStateEx**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestateex) with the **IsInterfaceEnabled** parameter set to **FALSE**. 
+ 
+If the driver calls this function after the device has already started, the interface remains disabled. The driver can call [**WdfDeviceSetDeviceInterfaceState**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestate) as appropriate. 
 
 Drivers can use the <i>ReferenceString</i> parameter to differentiate different instances of a single interface. In other words, if a driver calls <b>WdfDeviceCreateDeviceInterface</b> twice for the same device interface class, the driver can specify a different <i>ReferenceString</i> parameter each time. When an instance of an interface is opened, the I/O manager passes the instance's reference string to the driver. The reference string is appended to the path component of the interface instance's name. The driver can then use the reference string to determine which instance of the device interface class is being opened.
 

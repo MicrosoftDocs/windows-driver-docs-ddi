@@ -5,8 +5,8 @@ description: The D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG enumeration type contains
 old-location: display\d3d11_ddi_createdepthstencilview_flag.htm
 ms.assetid: 197ba249-f7a4-4c98-914c-ecb8984ffd5d
 ms.date: 05/10/2018
+keywords: ["D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG enumeration"]
 ms.keywords: D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG, D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG enumeration [Display Devices], D3D11_DDI_CREATE_DSV_FLAG_MASK, D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH, D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL, UMDisplayDriver_Dx11param_Structs_1148b880-7553-4a83-b602-c6b80d79b29f.xml, d3d10umddi/D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG, d3d10umddi/D3D11_DDI_CREATE_DSV_FLAG_MASK, d3d10umddi/D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH, d3d10umddi/D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL, display.d3d11_ddi_createdepthstencilview_flag
-ms.topic: enum
 f1_keywords:
  - "d3d10umddi/D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG"
 req.header: d3d10umddi.h

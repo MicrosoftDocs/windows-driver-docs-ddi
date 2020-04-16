@@ -7,7 +7,7 @@ tech.root:
 ms.assetid: 677c44c7-b158-4164-9b0b-bccdbbff8da5
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: struct
+keywords: ["MCI_STATUS_INTEL_BITS structure"]
 f1_keywords:
  - "ntddk/MCI_STATUS_INTEL_BITS"
 ms.keywords: MCI_STATUS_INTEL_BITS, MCI_STATUS_INTEL_BITS, *PMCI_STATUS_INTEL_BITS, 

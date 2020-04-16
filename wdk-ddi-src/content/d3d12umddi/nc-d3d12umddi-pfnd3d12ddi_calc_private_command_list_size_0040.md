@@ -4,7 +4,7 @@ title: PFND3D12DDI_CALC_PRIVATE_COMMAND_LIST_SIZE_0040 (d3d12umddi.h)
 description: The CalcPrivateCommandListSize function determines the size of the user-mode display driver's private region of memory for a command list.
 ms.assetid: e49f46eb-58ad-4bf8-820a-2e33cfd099fb
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_CALC_PRIVATE_COMMAND_LIST_SIZE_0040 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

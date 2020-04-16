@@ -6,8 +6,8 @@ old-location: wdf\wdfrequestsetactivityid.htm
 tech.root: wdf
 ms.assetid: 05FE0F91-781F-4B8B-87D1-E06BC315856C
 ms.date: 02/26/2018
+keywords: ["WdfRequestSetActivityId function"]
 ms.keywords: WdfRequestSetActivityId, WdfRequestSetActivityId method, wdf.wdfrequestsetactivityid, wdfrequest/WdfRequestSetActivityId
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WdfRequestSetActivityId"
 req.header: wdfrequest.h

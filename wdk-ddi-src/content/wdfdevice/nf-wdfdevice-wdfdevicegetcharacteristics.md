@@ -6,8 +6,8 @@ old-location: wdf\wdfdevicegetcharacteristics.htm
 tech.root: wdf
 ms.assetid: 985dcde1-5643-4c35-9096-44b076a1dd51
 ms.date: 02/26/2018
+keywords: ["WdfDeviceGetCharacteristics function"]
 ms.keywords: DFDeviceObjectGeneralRef_b6e7566f-59b1-46ee-ab3d-45fa7316336e.xml, WdfDeviceGetCharacteristics, WdfDeviceGetCharacteristics method, kmdf.wdfdevicegetcharacteristics, wdf.wdfdevicegetcharacteristics, wdfdevice/WdfDeviceGetCharacteristics
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceGetCharacteristics"
 req.header: wdfdevice.h

@@ -5,8 +5,8 @@ description: Returns a certificate that the display miniport driver uses for eit
 old-location: display\getcertificate.htm
 ms.assetid: b2ceaa6e-a952-4c2f-9594-289ebe24c62d
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_GETCERTIFICATE callback function"]
 ms.keywords: PFND3D11_1DDI_GETCERTIFICATE, PFND3D11_1DDI_GETCERTIFICATE callback, d3d10umddi/pfnGetCertificate, display.getcertificate, pfnGetCertificate, pfnGetCertificate callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

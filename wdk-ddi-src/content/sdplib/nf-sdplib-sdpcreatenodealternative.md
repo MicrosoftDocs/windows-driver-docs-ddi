@@ -6,8 +6,8 @@ old-location: bltooth\sdpcreatenodealternative.htm
 tech.root: bltooth
 ms.assetid: 1e6b922d-01a2-4a67-91cb-74956d40d769
 ms.date: 04/27/2018
+keywords: ["SdpCreateNodeAlternative function"]
 ms.keywords: SdpCreateNodeAlternative, SdpCreateNodeAlternative function [Bluetooth Devices], bltooth.sdpcreatenodealternative, bth_funcs_e54ab424-3fbf-479a-9368-51d824c1fbec.xml, sdplib/SdpCreateNodeAlternative
-ms.topic: function
 f1_keywords:
  - "sdplib/SdpCreateNodeAlternative"
 req.header: sdplib.h

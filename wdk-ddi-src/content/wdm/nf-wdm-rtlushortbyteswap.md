@@ -6,8 +6,8 @@ old-location: kernel\rtlushortbyteswap.htm
 tech.root: kernel
 ms.assetid: 83f6a599-0b35-4a02-b20f-80abcc6eae4f
 ms.date: 04/30/2018
+keywords: ["RtlUshortByteSwap macro"]
 ms.keywords: RtlUshortByteSwap, RtlUshortByteSwap routine [Kernel-Mode Driver Architecture], k109_36a00506-f4e3-467b-9494-c13b2ea70a1f.xml, kernel.rtlushortbyteswap, wdm/RtlUshortByteSwap
-ms.topic: macro
 f1_keywords:
  - "wdm/RtlUshortByteSwap"
 req.header: wdm.h

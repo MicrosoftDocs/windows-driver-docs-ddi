@@ -6,8 +6,8 @@ old-location: image\cwiaupropertylist_setcurrentvalue_systemtime_.htm
 tech.root: image
 ms.assetid: 1823dec6-aec8-47eb-9543-9acfd32c4b0d
 ms.date: 09/07/2018
+keywords: ["CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,PSYSTEMTIME), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME  ), CWiauPropertyList::SetCurrentValue(INT,PSYSTEMTIME), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_systemtime_, wiauFncs_dafa3146-7ba7-4782-9e6f-95a80d97452e.xml, wiautil/CWiauPropertyList::SetCurrentValue
-ms.topic: method
 f1_keywords:
  - "wiautil/CWiauPropertyList.SetCurrentValue"
 req.header: wiautil.h

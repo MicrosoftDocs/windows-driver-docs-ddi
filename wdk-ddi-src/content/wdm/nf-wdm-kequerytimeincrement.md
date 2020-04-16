@@ -6,8 +6,8 @@ old-location: kernel\kequerytimeincrement.htm
 tech.root: kernel
 ms.assetid: f8291e2b-a7a1-4a19-9137-fcd93e62bbaf
 ms.date: 04/30/2018
+keywords: ["KeQueryTimeIncrement function"]
 ms.keywords: KeQueryTimeIncrement, KeQueryTimeIncrement routine [Kernel-Mode Driver Architecture], k105_dc7a4658-7d4b-4b60-a8c8-693c36d68b27.xml, kernel.kequerytimeincrement, wdm/KeQueryTimeIncrement
-ms.topic: function
 f1_keywords:
  - "wdm/KeQueryTimeIncrement"
 req.header: wdm.h

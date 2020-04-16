@@ -6,8 +6,8 @@ old-location: pos\unifiedposerrorreason.htm
 tech.root: pos
 ms.assetid: 2bbf5fcf-666e-4265-95cf-7e04670d59da
 ms.date: 02/23/2018
+keywords: ["DriverUnifiedPosErrorReason enumeration"]
 ms.keywords: Busy, Closed, Disabled, DriverUnifiedPosErrorReason, DriverUnifiedPosErrorReason enumeration, Extended, Failure, Illegal, NoHardware, NoService, Offline, Timeout, UnknownErrorReason, pointofservicecommontypes/ NoHardware, pointofservicecommontypes/Busy, pointofservicecommontypes/Closed, pointofservicecommontypes/Disabled, pointofservicecommontypes/DriverUnifiedPosErrorReason, pointofservicecommontypes/Extended, pointofservicecommontypes/Failure, pointofservicecommontypes/Illegal, pointofservicecommontypes/NoService, pointofservicecommontypes/Offline, pointofservicecommontypes/Timeout, pointofservicecommontypes/UnknownErrorReason, pos.unifiedposerrorreason
-ms.topic: enum
 f1_keywords:
  - "pointofservicecommontypes/DriverUnifiedPosErrorReason"
 req.header: pointofservicecommontypes.h

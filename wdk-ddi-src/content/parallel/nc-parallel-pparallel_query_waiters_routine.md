@@ -6,8 +6,8 @@ old-location: parports\pparallel_query_waiters_routine.htm
 tech.root: parports
 ms.assetid: 0fe598b9-2143-4981-b562-6b0f135ec770
 ms.date: 02/15/2018
+keywords: ["PPARALLEL_QUERY_WAITERS_ROUTINE callback"]
 ms.keywords: "(*PPARALLEL_QUERY_WAITERS_ROUTINE), (*PPARALLEL_QUERY_WAITERS_ROUTINE) callback function [Parallel Ports], cisspd_d1e6d424-75ec-4cc1-b144-05900a24a684.xml, parallel/(*PPARALLEL_QUERY_WAITERS_ROUTINE), parports.pparallel_query_waiters_routine"
-ms.topic: callback
 f1_keywords:
  - "parallel/(*PPARALLEL_QUERY_WAITERS_ROUTINE)"
 req.header: parallel.h

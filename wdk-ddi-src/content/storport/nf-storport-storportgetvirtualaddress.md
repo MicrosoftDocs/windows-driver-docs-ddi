@@ -6,8 +6,8 @@ old-location: storage\storportgetvirtualaddress.htm
 tech.root: storage
 ms.assetid: b7091dea-8a29-4ad3-a478-29bc28fd57ef
 ms.date: 03/29/2018
+keywords: ["StorPortGetVirtualAddress function"]
 ms.keywords: StorPortGetVirtualAddress, StorPortGetVirtualAddress routine [Storage Devices], storage.storportgetvirtualaddress, storport/StorPortGetVirtualAddress, storprt_5245f704-dce0-4683-8510-064ccbb4158c.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortGetVirtualAddress"
 req.header: storport.h

@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: f426bf15-7573-494f-882c-7fe6f9eb7480
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
+keywords: ["DXGK_DSI2_CAPS structure"]
 f1_keywords:
  - "d3dkmddi/DXGK_DSI2_CAPS"
 ms.keywords: DXGK_DSI2_CAPS, DXGK_DSI2_CAPS, *PDXGK_DSI2_CAPS, 

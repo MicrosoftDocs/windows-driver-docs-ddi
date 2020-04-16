@@ -6,8 +6,8 @@ old-location: whea\whea_pciexpress_error_section.htm
 tech.root: whea
 ms.assetid: 1d96a799-6e52-49e0-b440-a8643111176f
 ms.date: 02/20/2018
+keywords: ["_WHEA_PCIEXPRESS_ERROR_SECTION structure"]
 ms.keywords: "*PWHEA_PCIEXPRESS_ERROR, *PWHEA_PCIEXPRESS_ERROR_SECTION, PWHEA_PCIEXPRESS_ERROR_SECTION, PWHEA_PCIEXPRESS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_PCIEXPRESS_ERROR, WHEA_PCIEXPRESS_ERROR_SECTION, WHEA_PCIEXPRESS_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_PCIEXPRESS_ERROR_SECTION, ntddk/PWHEA_PCIEXPRESS_ERROR_SECTION, ntddk/WHEA_PCIEXPRESS_ERROR_SECTION, whea.whea_pciexpress_error_section, whearef_77796d60-3376-4d78-9b24-9ddb1e3d6132.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_PCIEXPRESS_ERROR_SECTION"
 req.header: ntddk.h

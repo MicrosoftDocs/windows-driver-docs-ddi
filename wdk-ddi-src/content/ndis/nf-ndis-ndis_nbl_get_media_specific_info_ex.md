@@ -5,7 +5,7 @@ description: The NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX macro gets a media-specific
 tech.root: netvista
 ms.assetid: fb67b64f-e91a-4e9d-8576-6ad7db979fbc
 ms.date: 04/13/2018
-ms.topic: macro
+keywords: ["NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX macro"]
 f1_keywords:
  - "ndis/NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX"
 ms.keywords: NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX

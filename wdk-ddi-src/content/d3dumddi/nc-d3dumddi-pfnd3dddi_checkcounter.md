@@ -6,8 +6,8 @@ old-location: display\pfncheckcounter.htm
 tech.root: display
 ms.assetid: 3A8B040D-7B48-4CDB-985B-906AE1762E22
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_CHECKCOUNTER callback function"]
 ms.keywords: PFND3DDDI_CHECKCOUNTER, PFND3DDDI_CHECKCOUNTER callback, d3dumddi/pfnCheckCounter, display.pfncheckcounter, pfnCheckCounter, pfnCheckCounter callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3dumddi/pfnCheckCounter"
 req.header: d3dumddi.h

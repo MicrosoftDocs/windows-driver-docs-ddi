@@ -6,8 +6,8 @@ old-location: ifsk\rxmapanddissociatemidfromcontext.htm
 tech.root: ifsk
 ms.assetid: e9021983-8a01-4262-ae3f-c265948d5a2c
 ms.date: 04/16/2018
+keywords: ["RxMapAndDissociateMidFromContext function"]
 ms.keywords: RxMapAndDissociateMidFromContext, RxMapAndDissociateMidFromContext function [Installable File System Drivers], ifsk.rxmapanddissociatemidfromcontext, midatlax/RxMapAndDissociateMidFromContext, rxref_919dabed-ac8c-4495-8709-8fb45280e16f.xml
-ms.topic: function
 f1_keywords:
  - "midatlax/RxMapAndDissociateMidFromContext"
 req.header: midatlax.h

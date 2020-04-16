@@ -6,8 +6,8 @@ old-location: ifsk\fltallocateextracreateparameterlist.htm
 tech.root: ifsk
 ms.assetid: 0130e35f-a6a8-4fa9-9922-1d1d0f43cb2a
 ms.date: 04/16/2018
+keywords: ["FltAllocateExtraCreateParameterList function"]
 ms.keywords: FltAllocateExtraCreateParameterList, FltAllocateExtraCreateParameterList routine [Installable File System Drivers], FltApiRef_a_to_d_9caf46c0-e0bb-4a0a-b9dd-f4005664b9ca.xml, fltkernel/FltAllocateExtraCreateParameterList, ifsk.fltallocateextracreateparameterlist
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltAllocateExtraCreateParameterList"
 req.header: fltkernel.h

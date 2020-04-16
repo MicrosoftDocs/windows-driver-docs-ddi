@@ -6,8 +6,8 @@ old-location: kernel\zwreadfile.htm
 tech.root: kernel
 ms.assetid: 0f1ec015-bda6-45fe-973d-be414aece918
 ms.date: 04/30/2018
+keywords: ["ZwReadFile function"]
 ms.keywords: NtReadFile, ZwReadFile, ZwReadFile routine [Kernel-Mode Driver Architecture], k111_5cf3ebe2-7c2f-4998-b441-7d2aa2eb091f.xml, kernel.zwreadfile, wdm/NtReadFile, wdm/ZwReadFile
-ms.topic: function
 f1_keywords:
  - "wdm/ZwReadFile"
 req.header: wdm.h

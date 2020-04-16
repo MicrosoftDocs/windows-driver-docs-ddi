@@ -6,8 +6,8 @@ old-location: wdf\iwdfdriver_createpreallocatedwdfmemory.htm
 tech.root: wdf
 ms.assetid: 9c24f42b-0f1d-4b93-99af-f4a5069b5223
 ms.date: 02/26/2018
+keywords: ["IWDFDriver::CreatePreallocatedWdfMemory"]
 ms.keywords: CreatePreallocatedWdfMemory, CreatePreallocatedWdfMemory method, CreatePreallocatedWdfMemory method,IWDFDriver interface, IWDFDriver interface,CreatePreallocatedWdfMemory method, IWDFDriver.CreatePreallocatedWdfMemory, IWDFDriver::CreatePreallocatedWdfMemory, UMDFDriverObjectRef_273a5206-8415-4251-88e8-6f20c29f50e2.xml, umdf.iwdfdriver_createpreallocatedwdfmemory, wdf.iwdfdriver_createpreallocatedwdfmemory, wudfddi/IWDFDriver::CreatePreallocatedWdfMemory
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFDriver.CreatePreallocatedWdfMemory"
 req.header: wudfddi.h

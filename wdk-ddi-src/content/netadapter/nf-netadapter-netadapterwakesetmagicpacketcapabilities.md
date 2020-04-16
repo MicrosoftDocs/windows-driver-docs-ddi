@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: 43c226cd-11a2-4250-95d3-be9e2986acc2
 ms.author: windowsdriverdev
 ms.date: 10/25/2019
-ms.topic: function
+keywords: ["NetAdapterWakeSetMagicPacketCapabilities function"]
 f1_keywords:
  - "netadapter/NetAdapterWakeSetMagicPacketCapabilities"
 ms.keywords: NetAdapterWakeSetMagicPacketCapabilities

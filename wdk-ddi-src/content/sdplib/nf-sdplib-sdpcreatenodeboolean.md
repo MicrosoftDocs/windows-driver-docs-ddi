@@ -6,8 +6,8 @@ old-location: bltooth\sdpcreatenodeboolean.htm
 tech.root: bltooth
 ms.assetid: d299074f-18db-4eff-b177-4d2d3535e299
 ms.date: 04/27/2018
+keywords: ["SdpCreateNodeBoolean function"]
 ms.keywords: SdpCreateNodeBoolean, SdpCreateNodeBoolean function [Bluetooth Devices], bltooth.sdpcreatenodeboolean, bth_funcs_06168a9c-1cdc-4c2a-b90d-356c03867d4f.xml, sdplib/SdpCreateNodeBoolean
-ms.topic: function
 f1_keywords:
  - "sdplib/SdpCreateNodeBoolean"
 req.header: sdplib.h

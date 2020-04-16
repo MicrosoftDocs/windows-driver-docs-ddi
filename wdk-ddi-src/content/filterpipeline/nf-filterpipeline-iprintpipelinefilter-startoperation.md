@@ -6,8 +6,8 @@ old-location: print\iprintpipelinefilter_startoperation.htm
 tech.root: print
 ms.assetid: 87139670-9b51-4ced-9624-2ec9f4726a84
 ms.date: 04/20/2018
+keywords: ["IPrintPipelineFilter::StartOperation"]
 ms.keywords: IPrintPipelineFilter interface [Print Devices],StartOperation method, IPrintPipelineFilter.StartOperation, IPrintPipelineFilter::StartOperation, StartOperation, StartOperation method [Print Devices], StartOperation method [Print Devices],IPrintPipelineFilter interface, filterpipeline/IPrintPipelineFilter::StartOperation, filterpipeline_9040ff14-d052-4360-bb31-b171581c14b6.xml, print.iprintpipelinefilter_startoperation
-ms.topic: method
 f1_keywords:
  - "filterpipeline/IPrintPipelineFilter.StartOperation"
 req.header: filterpipeline.h

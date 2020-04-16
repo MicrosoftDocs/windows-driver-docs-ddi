@@ -6,8 +6,8 @@ old-location: display\destroyauthenticatedchannel.htm
 tech.root: display
 ms.assetid: ccea427b-e19e-433b-91b0-b40ce7c1da5a
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_DESTROYAUTHENTICATEDCHANNEL callback function"]
 ms.keywords: DestroyAuthenticatedChannel, DestroyAuthenticatedChannel callback function [Display Devices], PFND3DDDI_DESTROYAUTHENTICATEDCHANNEL, PFND3DDDI_DESTROYAUTHENTICATEDCHANNEL callback, UserModeDisplayDriver_Functions_94df7fa0-966d-45e3-81b7-bae1f6ebac64.xml, d3dumddi/DestroyAuthenticatedChannel, display.destroyauthenticatedchannel
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

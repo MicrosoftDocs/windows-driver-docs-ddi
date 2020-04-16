@@ -7,7 +7,7 @@ tech.root:
 ms.assetid: c550f3ec-d88d-4c31-8bb6-06b133630881
 ms.author: windowsdriverdev
 ms.date: 03/06/2019
-ms.topic: function
+keywords: ["WheaReportHwError function"]
 f1_keywords:
  - "ntddk/WheaReportHwError"
 ms.keywords: WheaReportHwError

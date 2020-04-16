@@ -6,8 +6,8 @@ old-location: stream\ksremovebusenuminterface.htm
 tech.root: stream
 ms.assetid: 4b1da622-9a48-4c18-9eee-a99830bd26af
 ms.date: 04/23/2018
+keywords: ["KsRemoveBusEnumInterface function"]
 ms.keywords: KsRemoveBusEnumInterface, KsRemoveBusEnumInterface function [Streaming Media Devices], ksfunc_cf6401bc-80bf-4678-80f9-89c23b333bdc.xml, stream.ksremovebusenuminterface, swenum/KsRemoveBusEnumInterface
-ms.topic: function
 f1_keywords:
  - "swenum/KsRemoveBusEnumInterface"
 req.header: swenum.h

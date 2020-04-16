@@ -4,7 +4,7 @@ title: IOMMU_SET_DEVICE_FAULT_REPORTING (wdm.h)
 description: This routine sets the device fault reporting state to a device already attached to a domain.
 ms.assetid: 111049ce-9f18-4807-a6c2-5641b115a4b5
 ms.date: 09/30/2018
-ms.topic: callback
+keywords: ["IOMMU_SET_DEVICE_FAULT_REPORTING callback function"]
 f1_keywords:
  - "wdm/IOMMU_SET_DEVICE_FAULT_REPORTING"
 req.header: wdm.h

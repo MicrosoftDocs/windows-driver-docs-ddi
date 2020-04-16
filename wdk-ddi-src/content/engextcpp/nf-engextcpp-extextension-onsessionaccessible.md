@@ -6,8 +6,8 @@ old-location: debugger\onsessionaccessible.htm
 tech.root: debugger
 ms.assetid: 85012fde-fc8b-4728-be5f-6acf502de9bc
 ms.date: 05/03/2018
+keywords: ["ExtExtension::OnSessionAccessible"]
 ms.keywords: EngExtCpp_Ref_88df5a39-051b-4d84-840e-8caf5414a0e6.xml, ExtExtension class [Windows Debugging],OnSessionAccessible method, ExtExtension.OnSessionAccessible, ExtExtension::OnSessionAccessible, OnSessionAccessible, OnSessionAccessible method [Windows Debugging], OnSessionAccessible method [Windows Debugging],ExtExtension class, debugger.onsessionaccessible
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtExtension.OnSessionAccessible"
 req.header: engextcpp.hpp

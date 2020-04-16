@@ -4,7 +4,7 @@ title: IDebugHostType2::GetHashCode (dbgmodel.h)
 description: The GetHashCode method returns a 32-bit hash code for the type. 
 ms.assetid: d51f86ff-bb28-4cbb-b829-265d04ae7772
 ms.date: 09/20/2018
-ms.topic: method
+keywords: ["IDebugHostType2::GetHashCode"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetHashCode"
 ms.keywords: IDebugHostType2::GetHashCode, GetHashCode, IDebugHostType2.GetHashCode, IDebugHostType2::GetHashCode, IDebugHostType2.GetHashCode

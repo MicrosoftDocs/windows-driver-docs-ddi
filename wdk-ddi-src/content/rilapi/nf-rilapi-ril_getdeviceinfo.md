@@ -6,8 +6,8 @@ old-location: netvista\ril_getdeviceinfo.htm
 tech.root: netvista
 ms.assetid: b125bf24-54fa-4a2e-912a-d0d0ed2a3568
 ms.date: 05/02/2018
+keywords: ["RIL_GetDeviceInfo function"]
 ms.keywords: RIL_GetDeviceInfo, RIL_GetDeviceInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getdeviceinfo, rilapi/RIL_GetDeviceInfo
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_GetDeviceInfo"
 req.header: rilapi.h

@@ -6,8 +6,8 @@ old-location: image\io_block_ex.htm
 tech.root: image
 ms.assetid: 2474a49b-e275-4b4d-b762-c296b92bab4c
 ms.date: 05/03/2018
+keywords: ["_IO_BLOCK_EX structure"]
 ms.keywords: "*PIO_BLOCK_EX, IO_BLOCK_EX, IO_BLOCK_EX structure [Imaging Devices], PIO_BLOCK_EX, PIO_BLOCK_EX structure pointer [Imaging Devices], _IO_BLOCK_EX, image.io_block_ex, stifnc_6b21356d-4f1a-4b8d-a54e-767f46e5b1b3.xml, usbscan/IO_BLOCK_EX, usbscan/PIO_BLOCK_EX"
-ms.topic: struct
 f1_keywords:
  - "usbscan/IO_BLOCK_EX"
 req.header: usbscan.h

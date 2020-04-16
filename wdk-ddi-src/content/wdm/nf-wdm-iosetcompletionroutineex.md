@@ -6,8 +6,8 @@ old-location: kernel\iosetcompletionroutineex.htm
 tech.root: kernel
 ms.assetid: fe84e542-c8b2-4631-9ffb-dde471311871
 ms.date: 04/30/2018
+keywords: ["IoSetCompletionRoutineEx function"]
 ms.keywords: IoSetCompletionRoutineEx, IoSetCompletionRoutineEx routine [Kernel-Mode Driver Architecture], k104_b574c1f0-f1e7-4c34-93ee-4681ec9e1046.xml, kernel.iosetcompletionroutineex, wdm/IoSetCompletionRoutineEx
-ms.topic: function
 f1_keywords:
  - "wdm/IoSetCompletionRoutineEx"
 req.header: wdm.h

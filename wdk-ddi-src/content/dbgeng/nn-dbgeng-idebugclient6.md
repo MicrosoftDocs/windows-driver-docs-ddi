@@ -6,8 +6,8 @@ old-location: debugger\idebugclient6.htm
 tech.root: debugger
 ms.assetid: 9F8DFF33-DE07-4061-9A9E-3C8172F75EB5
 ms.date: 05/03/2018
+keywords: ["IDebugClient6 interface"]
 ms.keywords: IDebugClient6, IDebugClient6 interface [Windows Debugging], IDebugClient6 interface [Windows Debugging],described, dbgeng/IDebugClient6, debugger.idebugclient6
-ms.topic: interface
 f1_keywords:
  - "dbgeng/IDebugClient6"
 req.header: dbgeng.h

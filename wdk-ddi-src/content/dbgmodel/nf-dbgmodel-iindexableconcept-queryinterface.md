@@ -4,7 +4,7 @@ title: IIndexableConcept::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: 34b15894-ae66-4d4e-9776-b10599c76cd8
 ms.date: 09/19/2018
-ms.topic: method
+keywords: ["IIndexableConcept::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IIndexableConcept.QueryInterface"
 ms.keywords: IIndexableConcept::QueryInterface, QueryInterface, IIndexableConcept.QueryInterface, IIndexableConcept::QueryInterface, IIndexableConcept.QueryInterface

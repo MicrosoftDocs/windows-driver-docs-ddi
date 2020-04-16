@@ -6,8 +6,8 @@ old-location: print\iprintschematicket_getcapabilities.htm
 tech.root: print
 ms.assetid: 5556BD5E-6489-4CCF-8C62-DDA53AD9F368
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaTicket::GetCapabilities"]
 ms.keywords: GetCapabilities, GetCapabilities method [Print Devices], GetCapabilities method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],GetCapabilities method, IPrintSchemaTicket.GetCapabilities, IPrintSchemaTicket::GetCapabilities, print.iprintschematicket_getcapabilities, printerextension/IPrintSchemaTicket::GetCapabilities
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintSchemaTicket.GetCapabilities"
 req.header: printerextension.h

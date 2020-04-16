@@ -6,8 +6,8 @@ old-location: devtest\wpp_triage_info.htm
 tech.root: devtest
 ms.assetid: BC2722A8-C09A-4C46-9EC3-45DCF4A6FD64
 ms.date: 02/23/2018
+keywords: ["_WPP_TRIAGE_INFO structure"]
 ms.keywords: "*PWPP_TRIAGE_INFO, PWPP_TRIAGE_INFO, PWPP_TRIAGE_INFO structure pointer [Driver Development Tools], WPP_TRIAGE_INFO, WPP_TRIAGE_INFO structure [Driver Development Tools], _WPP_TRIAGE_INFO, devtest.wpp_triage_info, wpprecorder/PWPP_TRIAGE_INFO, wpprecorder/WPP_TRIAGE_INFO"
-ms.topic: struct
 f1_keywords:
  - "wpprecorder/WPP_TRIAGE_INFO"
 req.header: wpprecorder.h

@@ -6,8 +6,8 @@ old-location: image\istiusd_interface_methods.htm
 tech.root: image
 ms.assetid: 62740263-5bbb-48e1-be3d-9ee9cb37d6b9
 ms.date: 05/03/2018
+keywords: ["IStiUSD interface"]
 ms.keywords: IStiUSD, IStiUSD interface [Imaging Devices], IStiUSD interface [Imaging Devices],described, image.istiusd_interface_methods, stifnc_2fa7c229-f4c5-455e-ba93-019c5b84dd79.xml, stiusd/IStiUSD
-ms.topic: interface
 f1_keywords:
  - "stiusd/IStiUSD"
 req.header: stiusd.h
@@ -44,20 +44,8 @@ req.typenames:
 
 # IStiUSD interface
 
-
 ## -description
 
-
-
-This section describes the methods defined for the <a href="https://docs.microsoft.com/windows-hardware/drivers/image/istiusd-com-interface">IStiUSD COM Interface</a>. Method prototypes are contained in <i>Stiusd.h</i>.
-
-
-
+This section describes the methods defined for the [IStiUSD COM Interface](https://docs.microsoft.com/windows-hardware/drivers/image/istiusd-com-interface). Method prototypes are contained in *Stiusd.h*.
 
 ## -inheritance
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IStiUSD</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IStiUSD</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-

@@ -6,8 +6,8 @@ old-location: image\wiaudbgsetflags.htm
 tech.root: image
 ms.assetid: e3b944ef-daa5-412c-ac11-7b08d2b9333b
 ms.date: 05/03/2018
+keywords: ["wiauDbgSetFlags macro"]
 ms.keywords: image.wiaudbgsetflags, wiauDbgSetFlags, wiauDbgSetFlags function [Imaging Devices], wiauFncs_d0f9a6a3-6958-44cb-9467-7f6413f95ca7.xml, wiautil/wiauDbgSetFlags
-ms.topic: macro
 f1_keywords:
  - "wiautil/wiauDbgSetFlags"
 req.header: wiautil.h

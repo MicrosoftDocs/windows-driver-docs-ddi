@@ -6,8 +6,8 @@ old-location: kernel\rtlintegertounicodestring.htm
 tech.root: kernel
 ms.assetid: d9c82a97-a8fb-4c23-aa9c-23711d98fd8b
 ms.date: 04/30/2018
+keywords: ["RtlIntegerToUnicodeString function"]
 ms.keywords: RtlIntegerToUnicodeString, RtlIntegerToUnicodeString routine [Kernel-Mode Driver Architecture], k109_2ed50455-f426-4072-be25-cab15c4c79cc.xml, kernel.rtlintegertounicodestring, wdm/RtlIntegerToUnicodeString
-ms.topic: function
 f1_keywords:
  - "wdm/RtlIntegerToUnicodeString"
 req.header: wdm.h

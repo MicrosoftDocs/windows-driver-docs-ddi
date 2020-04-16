@@ -5,8 +5,8 @@ description: Do not use the D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure; it is for te
 old-location: display\d3dkmt_debug_snapshot_escape.htm
 ms.assetid: f5aa4829-6264-444c-b8e6-23854cb87534
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure"]
 ms.keywords: D3DKMT_DEBUG_SNAPSHOT_ESCAPE, D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure [Display Devices], OpenGL_Structs_c8ece404-4d73-4d77-96c3-b2f5ceb94feb.xml, _D3DKMT_DEBUG_SNAPSHOT_ESCAPE, d3dkmthk/D3DKMT_DEBUG_SNAPSHOT_ESCAPE, display.d3dkmt_debug_snapshot_escape
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_DEBUG_SNAPSHOT_ESCAPE"
 req.header: d3dkmthk.h

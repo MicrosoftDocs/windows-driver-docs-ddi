@@ -6,8 +6,8 @@ old-location: kernel\exallocatepoolwithquota.htm
 tech.root: kernel
 ms.assetid: cfdfae5e-4669-4e88-82d2-35fb2bca3012
 ms.date: 02/24/2018
+keywords: ["ExAllocatePoolWithQuota macro"]
 ms.keywords: ExAllocatePoolWithQuota, ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml, kernel.exallocatepoolwithquota, wdm/ExAllocatePoolWithQuota
-ms.topic: macro
 f1_keywords:
  - "classpnp/ExAllocatePoolWithQuota"
 req.header: classpnp.h

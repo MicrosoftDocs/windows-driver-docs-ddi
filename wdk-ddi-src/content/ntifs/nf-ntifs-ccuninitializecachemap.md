@@ -6,8 +6,8 @@ old-location: ifsk\ccuninitializecachemap.htm
 tech.root: ifsk
 ms.assetid: 00e5abd6-c2d7-4408-aaf4-27a67dd3ee51
 ms.date: 04/16/2018
+keywords: ["CcUninitializeCacheMap function"]
 ms.keywords: CcUninitializeCacheMap, CcUninitializeCacheMap routine [Installable File System Drivers], ccref_737f8e52-0bb4-4dfd-8516-16de77410b9a.xml, ifsk.ccuninitializecachemap, ntifs/CcUninitializeCacheMap
-ms.topic: function
 f1_keywords:
  - "ntifs/CcUninitializeCacheMap"
 req.header: ntifs.h

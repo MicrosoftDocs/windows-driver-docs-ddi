@@ -6,8 +6,8 @@ old-location: pos\poscxinit.htm
 tech.root: pos
 ms.assetid: 23FEA770-12E1-44EC-901D-5C660F5F054A
 ms.date: 02/23/2018
+keywords: ["PosCxInit function"]
 ms.keywords: PosCxInit, PosCxInit function, pos.poscxinit, poscx/PosCxInit
-ms.topic: function
 f1_keywords:
  - "poscx/PosCxInit"
 req.header: poscx.h

@@ -6,8 +6,8 @@ old-location: ifsk\fltadjustdevicestacksizeforioredirection.htm
 tech.root: ifsk
 ms.assetid: 48ca0f39-e870-4f9b-92d5-1226972bf2d5
 ms.date: 04/16/2018
+keywords: ["FltAdjustDeviceStackSizeForIoRedirection function"]
 ms.keywords: FltAdjustDeviceStackSizeForIoRedirection, FltAdjustDeviceStackSizeForIoRedirection routine [Installable File System Drivers], fltkernel/FltAdjustDeviceStackSizeForIoRedirection, ifsk.fltadjustdevicestacksizeforioredirection
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltAdjustDeviceStackSizeForIoRedirection"
 req.header: fltkernel.h

@@ -4,7 +4,7 @@ title: PFND3D12DDI_GET_METACOMMAND_REQUIRED_PARAMETER_INFO (d3d12umddi.h)
 description: Implemented by the client driver to get required information for a meta-command.
 ms.assetid: 65e07c66-e3ac-42b4-bdba-146204a3f097
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_GET_METACOMMAND_REQUIRED_PARAMETER_INFO callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_GET_METACOMMAND_REQUIRED_PARAMETER_INFO"
 req.header: d3d12umddi.h

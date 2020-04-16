@@ -6,8 +6,8 @@ old-location: wdf\wdfusbtargetpiperesetsynchronously.htm
 tech.root: wdf
 ms.assetid: 7d29fb09-0ddc-4b61-8f85-c0e69d891bc5
 ms.date: 02/26/2018
+keywords: ["WdfUsbTargetPipeResetSynchronously function"]
 ms.keywords: DFUsbRef_07fcbce0-9754-49c9-988b-0875242739a0.xml, WdfUsbTargetPipeResetSynchronously, WdfUsbTargetPipeResetSynchronously method, kmdf.wdfusbtargetpiperesetsynchronously, wdf.wdfusbtargetpiperesetsynchronously, wdfusb/WdfUsbTargetPipeResetSynchronously
-ms.topic: function
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeResetSynchronously"
 req.header: wdfusb.h

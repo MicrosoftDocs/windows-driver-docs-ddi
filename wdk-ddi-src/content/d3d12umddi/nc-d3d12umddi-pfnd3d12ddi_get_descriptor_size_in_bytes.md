@@ -4,7 +4,7 @@ title: PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES (d3d12umddi.h)
 description: Gets the size of the handle for a given type of descriptor heap.
 ms.assetid: 3387f063-96f5-4d77-b006-924738808d51
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_GET_DESCRIPTOR_SIZE_IN_BYTES callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

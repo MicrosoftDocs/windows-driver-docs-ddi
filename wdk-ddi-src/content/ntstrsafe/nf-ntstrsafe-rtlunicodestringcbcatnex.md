@@ -6,8 +6,8 @@ old-location: kernel\rtlunicodestringcbcatnex.htm
 tech.root: kernel
 ms.assetid: 5c8b0428-98ce-452d-bdfa-212965962250
 ms.date: 04/30/2018
+keywords: ["RtlUnicodeStringCbCatNEx function"]
 ms.keywords: RtlUnicodeStringCbCatNEx, RtlUnicodeStringCbCatNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatnex, ntstrsafe/RtlUnicodeStringCbCatNEx, safestrings_63518e2a-e301-4b39-ae83-39d72cbe75b6.xml
-ms.topic: function
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringCbCatNEx"
 req.header: ntstrsafe.h

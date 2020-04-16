@@ -7,7 +7,7 @@ tech.root: audio
 ms.assetid: 3aad0fe6-6c9c-48f8-8d05-4a46373cf842
 ms.author: windowsdriverdev
 ms.date: 02/25/2019
-ms.topic: method
+keywords: ["IEventDetectorOemAdapter::GetCapabilitiesForLanguage"]
 f1_keywords:
  - "eventdetectoroemadapter/IEventDetectorOemAdapter.GetCapabilitiesForLanguage"
 ms.keywords: IEventDetectorOemAdapter::GetCapabilitiesForLanguage, GetCapabilitiesForLanguage, IEventDetectorOemAdapter.GetCapabilitiesForLanguage, IEventDetectorOemAdapter::GetCapabilitiesForLanguage, IEventDetectorOemAdapter.GetCapabilitiesForLanguage

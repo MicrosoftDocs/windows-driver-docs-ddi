@@ -6,8 +6,8 @@ old-location: ifsk\rxisthisacscagentopen.htm
 tech.root: ifsk
 ms.assetid: b3bd9b9f-e859-4d7f-9735-5995cb3ef6e8
 ms.date: 04/16/2018
+keywords: ["RxIsThisACscAgentOpen function"]
 ms.keywords: RxIsThisACscAgentOpen, RxIsThisACscAgentOpen function [Installable File System Drivers], ifsk.rxisthisacscagentopen, rxprocs/RxIsThisACscAgentOpen, rxref_1d515511-d1dd-4090-9c9d-b87960d56f5c.xml
-ms.topic: function
 f1_keywords:
  - "rxprocs/RxIsThisACscAgentOpen"
 req.header: rxprocs.h

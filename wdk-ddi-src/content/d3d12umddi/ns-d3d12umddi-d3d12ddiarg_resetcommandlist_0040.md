@@ -4,7 +4,7 @@ title: D3D12DDIARG_RESETCOMMANDLIST_0040 (d3d12umddi.h)
 description: Reset the command list.
 ms.assetid: a9dcb7d6-1237-4678-aeb1-49360db2582c
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["D3D12DDIARG_RESETCOMMANDLIST_0040 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_RESETCOMMANDLIST_0040"
 ms.keywords: D3D12DDIARG_RESETCOMMANDLIST_0040, D3D12DDIARG_RESETCOMMANDLIST_0040,

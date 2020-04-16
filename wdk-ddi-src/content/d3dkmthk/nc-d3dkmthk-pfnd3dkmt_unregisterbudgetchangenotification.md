@@ -4,7 +4,7 @@ title: PFND3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION (d3dkmthk.h)
 description: The PFND3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION callback function unregisters budget change notification.
 ms.assetid: 265eba32-7c02-4323-8e21-b22120960940
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION"
 req.header: d3dkmthk.h

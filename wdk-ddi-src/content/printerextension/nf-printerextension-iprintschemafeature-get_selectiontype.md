@@ -6,8 +6,8 @@ old-location: print\iprintschemafeature_selectiontype.htm
 tech.root: print
 ms.assetid: FFFF05EF-CCD3-4298-A6DC-8FE998C53DEA
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaFeature::get_SelectionType"]
 ms.keywords: IPrintSchemaFeature interface [Print Devices],SelectionType property, IPrintSchemaFeature.SelectionType, IPrintSchemaFeature.get_SelectionType, IPrintSchemaFeature::SelectionType, IPrintSchemaFeature::get_SelectionType, SelectionType property [Print Devices], SelectionType property [Print Devices],IPrintSchemaFeature interface, get_SelectionType, print.iprintschemafeature_selectiontype, printerextension/IPrintSchemaFeature::SelectionType, printerextension/IPrintSchemaFeature::get_SelectionType
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintSchemaFeature.SelectionType"
 req.header: printerextension.h

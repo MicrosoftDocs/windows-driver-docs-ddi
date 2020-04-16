@@ -5,8 +5,8 @@ description: This callback allows the kernel mode driver to indicate that the cu
 old-location: display\dxgkcb_multiplaneoverlaydisabled.htm
 ms.assetid: EA9FAB26-1EAF-4E67-B240-094BC2B03DEF
 ms.date: 05/10/2018
+keywords: ["DXGKCB_MULTIPLANEOVERLAYDISABLED callback function"]
 ms.keywords: DXGKCB_MULTIPLANEOVERLAYDISABLED, DXGKCB_MULTIPLANEOVERLAYDISABLED callback, DXGKCB_MULTIPLANEOVERLAYDISABLED callback function [Display Devices], d3dkmddi/DXGKCB_MULTIPLANEOVERLAYDISABLED, display.dxgkcb_multiplaneoverlaydisabled
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

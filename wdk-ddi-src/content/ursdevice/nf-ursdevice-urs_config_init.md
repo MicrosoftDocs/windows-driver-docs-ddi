@@ -6,8 +6,8 @@ old-location: buses\urs_config_init.htm
 tech.root: usbref
 ms.assetid: 72229643-1177-4884-94A9-89920A5488A6
 ms.date: 05/07/2018
+keywords: ["URS_CONFIG_INIT function"]
 ms.keywords: URS_CONFIG_INIT, URS_CONFIG_INIT function [Buses], buses.urs_config_init, ursdevice/URS_CONFIG_INIT
-ms.topic: function
 f1_keywords:
  - "ursdevice/URS_CONFIG_INIT"
 req.header: ursdevice.h

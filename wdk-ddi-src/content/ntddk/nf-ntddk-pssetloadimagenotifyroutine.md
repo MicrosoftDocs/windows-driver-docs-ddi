@@ -6,8 +6,8 @@ old-location: kernel\pssetloadimagenotifyroutine.htm
 tech.root: kernel
 ms.assetid: e90bc043-1b92-474c-b6c7-7e510271118b
 ms.date: 04/30/2018
+keywords: ["PsSetLoadImageNotifyRoutine function"]
 ms.keywords: PsSetLoadImageNotifyRoutine, PsSetLoadImageNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_287b9d79-8b77-40b6-8fe7-21ac3551e437.xml, kernel.pssetloadimagenotifyroutine, ntddk/PsSetLoadImageNotifyRoutine
-ms.topic: function
 f1_keywords:
  - "ntddk/PsSetLoadImageNotifyRoutine"
 req.header: ntddk.h

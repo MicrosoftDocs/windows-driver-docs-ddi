@@ -6,8 +6,8 @@ old-location: hid\ioctl_hid_set_feature2.htm
 tech.root: hid
 ms.assetid: cbadc87a-b676-4df7-8116-b9692d93e345
 ms.date: 04/30/2018
+keywords: ["IOCTL_HID_SET_FEATURE IOCTL"]
 ms.keywords: IOCTL_HID_SET_FEATURE, IOCTL_HID_SET_FEATURE control, IOCTL_HID_SET_FEATURE control code [Human Input Devices], hid.ioctl_hid_set_feature2, hidclass/IOCTL_HID_SET_FEATURE, hidioreq_def58360-8e73-49dd-ab90-33cf3b6a92de.xml
-ms.topic: ioctl
 f1_keywords:
  - "hidclass/IOCTL_HID_SET_FEATURE"
 req.header: hidclass.h

@@ -6,8 +6,8 @@ old-location: buses\_ucxendpointcreate.htm
 tech.root: usbref
 ms.assetid: 2BB3B2CE-FD15-4D28-BBDA-29C3BB523874
 ms.date: 05/07/2018
+keywords: ["UcxEndpointCreate function"]
 ms.keywords: UcxEndpointCreate, UcxEndpointCreate method [Buses], buses._ucxendpointcreate, ucxendpoint/UcxEndpointCreate
-ms.topic: function
 f1_keywords:
  - "ucxendpoint/UcxEndpointCreate"
 req.header: ucxendpoint.h

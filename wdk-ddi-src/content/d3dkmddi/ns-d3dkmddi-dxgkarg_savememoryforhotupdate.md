@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 0def8a9d-7c30-4023-af8a-46f5fd36aff1
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
+keywords: ["DXGKARG_SAVEMEMORYFORHOTUPDATE structure"]
 f1_keywords:
  - "d3dkmddi/DXGKARG_SAVEMEMORYFORHOTUPDATE"
 ms.keywords: DXGKARG_SAVEMEMORYFORHOTUPDATE, DXGKARG_SAVEMEMORYFORHOTUPDATE, 

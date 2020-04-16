@@ -6,8 +6,8 @@ old-location: storage\storportupdateadaptermaxio.htm
 tech.root: storage
 ms.assetid: BB18925D-ACFA-426D-ADD3-33C1D8A99396
 ms.date: 03/29/2018
+keywords: ["StorPortUpdateAdapterMaxIO function"]
 ms.keywords: StorPortUpdateAdapterMaxIO, StorPortUpdateAdapterMaxIO function [Storage Devices], storage.storportupdateadaptermaxio, storport/StorPortUpdateAdapterMaxIO
-ms.topic: function
 f1_keywords:
  - "storport/StorPortUpdateAdapterMaxIO"
 req.header: storport.h

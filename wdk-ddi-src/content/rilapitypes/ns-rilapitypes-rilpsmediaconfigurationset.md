@@ -6,8 +6,8 @@ old-location: netvista\rilpsmediaconfigurationset.htm
 tech.root: netvista
 ms.assetid: b41f6539-293f-47ed-b720-5053574a1841
 ms.date: 05/02/2018
+keywords: ["RILPSMEDIACONFIGURATIONSET structure"]
 ms.keywords: "*LPRILPSMEDIACONFIGURATIONSET, RILPSMEDIACONFIGURATIONSET, RILPSMEDIACONFIGURATIONSET structure [Network Drivers Starting with Windows Vista], netvista.rilpsmediaconfigurationset, ntddrilapitypes/RILPSMEDIACONFIGURATIONSET"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILPSMEDIACONFIGURATIONSET"
 req.header: rilapitypes.h

@@ -4,7 +4,7 @@ title: IDebugHostMemory::WritePointers (dbgmodel.h)
 description:  Takes a number of pointers as held in unsigned 64-bit values, truncates them to the native pointer size of the target, and writes them into the address space of the target as defined by the inpassed context and location.
 ms.assetid: 2173d16d-c22b-412e-8e46-d5cb64922239
 ms.date: 09/28/2018
-ms.topic: method
+keywords: ["IDebugHostMemory::WritePointers"]
 f1_keywords:
  - "dbgmodel/IDebugHostMemory.WritePointers"
 ms.keywords: IDebugHostMemory::WritePointers, WritePointers, IDebugHostMemory.WritePointers, IDebugHostMemory::WritePointers, IDebugHostMemory.WritePointers

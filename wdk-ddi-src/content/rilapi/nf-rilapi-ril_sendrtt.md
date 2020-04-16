@@ -6,8 +6,8 @@ old-location: netvista\ril_sendrtt.htm
 tech.root: netvista
 ms.assetid: d655aa2e-ec58-4f9b-a349-a19e7c78469a
 ms.date: 05/02/2018
+keywords: ["RIL_SendRTT function"]
 ms.keywords: RIL_SendRTT, RIL_SendRTT method [Network Drivers Starting with Windows Vista], netvista.ril_sendrtt, rilapi/RIL_SendRTT
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_SendRTT"
 req.header: rilapi.h

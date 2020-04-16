@@ -6,8 +6,8 @@ old-location: print\updateprintdeviceobject.htm
 tech.root: print
 ms.assetid: 52E8F8BF-0362-4BA9-BABD-7B009B3FFA7F
 ms.date: 04/20/2018
+keywords: ["UpdatePrintDeviceObject function"]
 ms.keywords: UpdatePrintDeviceObject, UpdatePrintDeviceObject function [Print Devices], print.updateprintdeviceobject, winsplp/UpdatePrintDeviceObject
-ms.topic: function
 f1_keywords:
  - "winsplp/UpdatePrintDeviceObject"
 req.header: winsplp.h

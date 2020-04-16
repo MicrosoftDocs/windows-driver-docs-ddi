@@ -7,7 +7,7 @@ tech.root:
 ms.assetid: 883e6d97-fa64-4550-a4e5-6e0114afab7f
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: struct
+keywords: ["WHEAP_PROCESS_EINJ_EVENT structure"]
 f1_keywords:
  - "ntddk/WHEAP_PROCESS_EINJ_EVENT"
 ms.keywords: WHEAP_PROCESS_EINJ_EVENT, WHEAP_PROCESS_EINJ_EVENT, *PWHEAP_PROCESS_EINJ_EVENT, 

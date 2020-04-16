@@ -6,8 +6,8 @@ old-location: bltooth\sdpcreatenodeint16.htm
 tech.root: bltooth
 ms.assetid: d36d9ac5-1bb8-4433-b795-fe8e3391980e
 ms.date: 04/27/2018
+keywords: ["SdpCreateNodeInt16 function"]
 ms.keywords: SdpCreateNodeInt16, SdpCreateNodeInt16 function [Bluetooth Devices], bltooth.sdpcreatenodeint16, bth_funcs_7ca1636f-a86f-4938-8483-461e48b13abb.xml, sdplib/SdpCreateNodeInt16
-ms.topic: function
 f1_keywords:
  - "sdplib/SdpCreateNodeInt16"
 req.header: sdplib.h

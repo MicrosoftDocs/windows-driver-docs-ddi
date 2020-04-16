@@ -6,8 +6,8 @@ old-location: ifsk\rxceteardownconnection.htm
 tech.root: ifsk
 ms.assetid: 71b48983-af12-4361-8cf9-adec1afffb65
 ms.date: 04/16/2018
+keywords: ["RxCeTearDownConnection function"]
 ms.keywords: RxCeTearDownConnection, RxCeTearDownConnection function [Installable File System Drivers], ifsk.rxceteardownconnection, rxce/RxCeTearDownConnection, rxref_bf951adb-b63e-49f6-8325-f67adb2cdbf0.xml
-ms.topic: function
 f1_keywords:
  - "rxce/RxCeTearDownConnection"
 req.header: rxce.h

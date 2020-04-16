@@ -6,8 +6,8 @@ old-location: debugger\writesymbol.htm
 tech.root: debugger
 ms.assetid: c0c23778-767a-4304-9ecf-c76337261e27
 ms.date: 05/03/2018
+keywords: ["IDebugSymbolGroup2::WriteSymbol"]
 ms.keywords: ComOther_3b8938be-b82e-404c-b80f-36e1ceedc353.xml, IDebugSymbolGroup interface [Windows Debugging],WriteSymbol method, IDebugSymbolGroup2 interface [Windows Debugging],WriteSymbol method, IDebugSymbolGroup2.WriteSymbol, IDebugSymbolGroup2::WriteSymbol, IDebugSymbolGroup::WriteSymbol, WriteSymbol, WriteSymbol method [Windows Debugging], WriteSymbol method [Windows Debugging],IDebugSymbolGroup interface, WriteSymbol method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::WriteSymbol, dbgeng/IDebugSymbolGroup::WriteSymbol, debugger.writesymbol
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup.WriteSymbol"
 req.header: dbgeng.h

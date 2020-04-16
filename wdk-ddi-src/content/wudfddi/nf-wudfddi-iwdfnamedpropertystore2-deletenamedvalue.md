@@ -6,8 +6,8 @@ old-location: wdf\iwdfnamedpropertystore2_deletenamedvalue.htm
 tech.root: wdf
 ms.assetid: ce0953d3-054f-446b-9f69-58f4580740f3
 ms.date: 02/26/2018
+keywords: ["IWDFNamedPropertyStore2::DeleteNamedValue"]
 ms.keywords: DeleteNamedValue, DeleteNamedValue method, DeleteNamedValue method,IWDFNamedPropertyStore2 interface, IWDFNamedPropertyStore2 interface,DeleteNamedValue method, IWDFNamedPropertyStore2.DeleteNamedValue, IWDFNamedPropertyStore2::DeleteNamedValue, UMDFPropertyStoreObjectRef_9363c14f-0ff0-4c2f-910a-916b3cb9d664.xml, umdf.iwdfnamedpropertystore2_deletenamedvalue, wdf.iwdfnamedpropertystore2_deletenamedvalue, wudfddi/IWDFNamedPropertyStore2::DeleteNamedValue
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFNamedPropertyStore2.DeleteNamedValue"
 req.header: wudfddi.h

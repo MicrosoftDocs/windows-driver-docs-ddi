@@ -6,8 +6,8 @@ old-location: storage\storportwriteregisterushort.htm
 tech.root: storage
 ms.assetid: f4beff75-6177-40c7-a62c-6e24bc54ea58
 ms.date: 03/29/2018
+keywords: ["StorPortWriteRegisterUshort macro"]
 ms.keywords: StorPortWriteRegisterUshort, StorPortWriteRegisterUshort routine [Storage Devices], storage.storportwriteregisterushort, storport/StorPortWriteRegisterUshort, storprt_f4cd6932-3fd0-435f-87f3-7241a5778073.xml
-ms.topic: macro
 f1_keywords:
  - "storport/StorPortWriteRegisterUshort"
 req.header: storport.h

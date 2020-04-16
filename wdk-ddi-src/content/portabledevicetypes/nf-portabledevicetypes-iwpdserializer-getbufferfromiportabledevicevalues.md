@@ -6,8 +6,8 @@ old-location: wpddk\iwpdserializer_getbufferfromiportabledevicevalues.htm
 tech.root: wpd_dk
 ms.assetid: 139a3c88-271e-4353-883e-9c582f7cdcd3
 ms.date: 02/15/2018
+keywords: ["IWpdSerializer::GetBufferFromIPortableDeviceValues"]
 ms.keywords: GetBufferFromIPortableDeviceValues, GetBufferFromIPortableDeviceValues method, GetBufferFromIPortableDeviceValues method,IWpdSerializer interface, IWpdSerializer interface,GetBufferFromIPortableDeviceValues method, IWpdSerializer.GetBufferFromIPortableDeviceValues, IWpdSerializer::GetBufferFromIPortableDeviceValues, IWpdSerializerGetBufferFromIPortableDeviceValues, portabledevicetypes/IWpdSerializer::GetBufferFromIPortableDeviceValues, wpddk.iwpdserializer_getbufferfromiportabledevicevalues
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IWpdSerializer.GetBufferFromIPortableDeviceValues"
 req.header: portabledevicetypes.h

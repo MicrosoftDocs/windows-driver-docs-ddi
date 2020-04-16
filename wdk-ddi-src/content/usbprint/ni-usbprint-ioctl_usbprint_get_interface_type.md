@@ -7,7 +7,7 @@ tech.root: print
 ms.assetid: cec2122d-17b3-407c-b374-be475024afc2
 ms.author: windowsdriverdev
 ms.date: 04/03/2019
-ms.topic: ioctl
+keywords: ["IOCTL_USBPRINT_GET_INTERFACE_TYPE IOCTL"]
 f1_keywords:
  - "usbprint/IOCTL_USBPRINT_GET_INTERFACE_TYPE"
 ms.custom: 19H1

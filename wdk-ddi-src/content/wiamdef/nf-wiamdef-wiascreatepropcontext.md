@@ -6,8 +6,8 @@ old-location: image\wiascreatepropcontext.htm
 tech.root: image
 ms.assetid: b820c19d-a12b-417b-a9a3-6a3d700009c0
 ms.date: 05/03/2018
+keywords: ["wiasCreatePropContext function"]
 ms.keywords: image.wiascreatepropcontext, wiamdef/wiasCreatePropContext, wiasCreatePropContext, wiasCreatePropContext function [Imaging Devices], wiasFncs_08d1a910-1036-46c9-a7a2-115a86275d60.xml
-ms.topic: function
 f1_keywords:
  - "wiamdef/wiasCreatePropContext"
 req.header: wiamdef.h

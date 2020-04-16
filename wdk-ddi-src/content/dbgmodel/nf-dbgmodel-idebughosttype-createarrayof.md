@@ -4,7 +4,7 @@ title: IDebugHostType::CreateArrayOf (dbgmodel.h)
 description: For any given type, this returns a new IDebugHostType which is an array of this type.
 ms.assetid: bb8de044-1e9d-4357-8419-44016942f386
 ms.date: 09/11/2018
-ms.topic: method
+keywords: ["IDebugHostType::CreateArrayOf"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.CreateArrayOf"
 ms.keywords: IDebugHostType::CreateArrayOf, CreateArrayOf, IDebugHostType.CreateArrayOf, IDebugHostType::CreateArrayOf, IDebugHostType.CreateArrayOf

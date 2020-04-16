@@ -5,7 +5,7 @@ description: The WDI_OS_POWER_MANAGEMENT_FLAGS enumeration defines supported ena
 tech.root: netvista
 ms.assetid: 5caa9b1f-cafa-42d0-8402-86799fd8885f
 ms.date: 03/30/2018
-ms.topic: enum
+keywords: ["_WDI_OS_POWER_MANAGEMENT_FLAGS enumeration"]
 f1_keywords:
  - "wditypes/_WDI_OS_POWER_MANAGEMENT_FLAGS"
 ms.keywords: _WDI_OS_POWER_MANAGEMENT_FLAGS, WDI_OS_POWER_MANAGEMENT_FLAGS, 

@@ -6,8 +6,8 @@ old-location: print\iprintcorehelperuni_enumfeatures.htm
 tech.root: print
 ms.assetid: ed21e52b-13a6-4a89-8bbc-9cbf72e3d9fd
 ms.date: 04/20/2018
+keywords: ["IPrintCoreHelperUni::EnumFeatures"]
 ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],EnumFeatures method, IPrintCoreHelperUni.EnumFeatures, IPrintCoreHelperUni::EnumFeatures, prcomoem/IPrintCoreHelperUni::EnumFeatures, print.iprintcorehelperuni_enumfeatures, print_unidrv-pscript_allplugins_a41557cd-962d-4b7c-960d-dd213b1a68e2.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintCoreHelperUni.EnumFeatures"
 req.header: prcomoem.h

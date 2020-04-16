@@ -6,8 +6,8 @@ old-location: display\idarg_out_query_hwcursor.htm
 tech.root: display
 ms.assetid: 813d6aa6-0442-4f30-9fd6-b3aec2e0e11d
 ms.date: 05/10/2018
+keywords: ["IDARG_OUT_QUERY_HWCURSOR structure"]
 ms.keywords: IDARG_OUT_QUERY_HWCURSOR, IDARG_OUT_QUERY_HWCURSOR structure [Display Devices], display.idarg_out_query_hwcursor, iddcx/IDARG_OUT_QUERY_HWCURSOR
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDARG_OUT_QUERY_HWCURSOR"
 req.header: iddcx.h

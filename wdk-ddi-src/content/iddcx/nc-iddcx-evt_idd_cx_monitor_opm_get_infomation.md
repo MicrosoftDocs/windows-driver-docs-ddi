@@ -6,8 +6,8 @@ old-location: display\evt_idd_cx_monitor_opm_get_infomation.htm
 tech.root: display
 ms.assetid: b616a105-3c4b-42b7-8352-a1f35479572e
 ms.date: 05/10/2018
+keywords: ["EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION, EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION callback, EvtIddCxMonitorOpmGetInfomation, EvtIddCxMonitorOpmGetInfomation callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION, PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_get_infomation, iddcx/EvtIddCxMonitorOpmGetInfomation
-ms.topic: callback
 f1_keywords:
  - "iddcx/PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION"
 req.header: iddcx.h

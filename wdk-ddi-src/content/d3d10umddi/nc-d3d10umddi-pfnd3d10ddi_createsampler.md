@@ -5,8 +5,8 @@ description: The CreateSampler function creates a sampler.
 old-location: display\createsampler.htm
 ms.assetid: 603bb033-390b-4965-b6ea-6acc2c7a8fcf
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_CREATESAMPLER callback function"]
 ms.keywords: CreateSampler, CreateSampler callback function [Display Devices], PFND3D10DDI_CREATESAMPLER, PFND3D10DDI_CREATESAMPLER callback, UserModeDisplayDriverDx10_Functions_16c89dca-e337-42c7-a666-f0f4c9a6d3e3.xml, d3d10umddi/CreateSampler, display.createsampler
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/CreateSampler"
 req.header: d3d10umddi.h

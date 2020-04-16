@@ -6,8 +6,8 @@ old-location: debugger\debugcommandexception.htm
 tech.root: debugger
 ms.assetid: 6DC67840-B985-45D0-8E81-671C3DC1EBC2
 ms.date: 05/03/2018
+keywords: ["DebugCommandException function"]
 ms.keywords: DebugCommandException, DebugCommandException function [Windows Debugging], dbgeng/DebugCommandException, debugger.debugcommandexception
-ms.topic: function
 f1_keywords:
  - "dbgeng/DebugCommandException"
 req.header: dbgeng.h

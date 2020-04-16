@@ -6,8 +6,8 @@ old-location: wdf\wdfioqueuestop.htm
 tech.root: wdf
 ms.assetid: 50ff8064-b28c-4b2b-89d2-bad5e503b2d6
 ms.date: 02/26/2018
+keywords: ["WdfIoQueueStop function"]
 ms.keywords: DFQueueObjectRef_c1ac397c-5601-4976-9c42-41b118d429c1.xml, WdfIoQueueStop, WdfIoQueueStop method, kmdf.wdfioqueuestop, wdf.wdfioqueuestop, wdfio/WdfIoQueueStop
-ms.topic: function
 f1_keywords:
  - "wdfio/WdfIoQueueStop"
 req.header: wdfio.h

@@ -5,8 +5,8 @@ description: D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME is used with D3DKMTOpenSyncOb
 old-location: display\d3dkmt_opensyncobjectnthandlefromname.htm
 ms.assetid: 6435D3B7-A1B7-4417-8272-C505A5FA500E
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME structure"]
 ms.keywords: D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME structure [Display Devices], _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, d3dkmthk/D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, display.d3dkmt_opensyncobjectnthandlefromname
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME"
 req.header: d3dkmthk.h

@@ -4,7 +4,7 @@ title: RtlLocateSupervisorFeature function (ntddk.h)
 description: Reserved for future use.
 ms.assetid: 5f29abbb-c37d-4310-a931-04bcdd05304e
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["RtlLocateSupervisorFeature function"]
 f1_keywords:
  - "ntddk/RtlLocateSupervisorFeature"
 ms.keywords: RtlLocateSupervisorFeature

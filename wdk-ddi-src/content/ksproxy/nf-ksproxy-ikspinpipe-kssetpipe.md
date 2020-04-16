@@ -6,8 +6,8 @@ old-location: stream\ikspinpipe_kssetpipe.htm
 tech.root: stream
 ms.assetid: FAA97E98-FB31-462E-9776-5C27A10FD773
 ms.date: 04/23/2018
+keywords: ["IKsPinPipe::KsSetPipe"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPipe method, IKsPinPipe.KsSetPipe, IKsPinPipe::KsSetPipe, KsSetPipe, KsSetPipe method [Streaming Media Devices], KsSetPipe method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPipe, stream.ikspinpipe_kssetpipe
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsSetPipe"
 req.header: ksproxy.h
@@ -69,7 +69,7 @@ Not recommended for application use.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

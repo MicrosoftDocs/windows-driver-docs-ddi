@@ -6,8 +6,8 @@ old-location: stream\kspersistdeviceprofile.htm
 tech.root: stream
 ms.assetid: 4EC3E99B-C73C-4EAC-9EBD-BB45ABFCE8EC
 ms.date: 04/23/2018
+keywords: ["KsPersistDeviceProfile function"]
 ms.keywords: KsPersistDeviceProfile, KsPersistDeviceProfile function [Streaming Media Devices], ks/KsPersistDeviceProfile, stream.kspersistdeviceprofile
-ms.topic: function
 f1_keywords:
  - "ks/KsPersistDeviceProfile"
 req.header: ks.h

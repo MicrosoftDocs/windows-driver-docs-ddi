@@ -5,8 +5,8 @@ description: The pfnStateTextFilterSizeCb function causes the Microsoft Direct3D
 old-location: display\pfnstatetextfiltersizecb.htm
 ms.assetid: f53f73bf-8297-4c56-81f9-443d10a6b701
 ms.date: 05/10/2018
+keywords: ["PFND3D10DDI_STATE_TEXTFILTERSIZE_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_TEXTFILTERSIZE_CB, PFND3D10DDI_STATE_TEXTFILTERSIZE_CB callback, d3d10state_functions_96a0da1a-c30d-4872-a54d-b24e83d76c95.xml, d3d10umddi/pfnStateTextFilterSizeCb, display.pfnstatetextfiltersizecb, pfnStateTextFilterSizeCb, pfnStateTextFilterSizeCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateTextFilterSizeCb"
 req.header: d3d10umddi.h

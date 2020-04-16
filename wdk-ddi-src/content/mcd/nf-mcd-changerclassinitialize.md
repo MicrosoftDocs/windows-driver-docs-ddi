@@ -6,8 +6,8 @@ old-location: storage\changerclassinitialize.htm
 tech.root: storage
 ms.assetid: b19f85f7-fe51-4539-8c36-e3c6a299faad
 ms.date: 03/29/2018
+keywords: ["ChangerClassInitialize function"]
 ms.keywords: ChangerClassInitialize, ChangerClassInitialize routine [Storage Devices], chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, mcd/ChangerClassInitialize, storage.changerclassinitialize
-ms.topic: function
 f1_keywords:
  - "mcd/ChangerClassInitialize"
 req.header: mcd.h

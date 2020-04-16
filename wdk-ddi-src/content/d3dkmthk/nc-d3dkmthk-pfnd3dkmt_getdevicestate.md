@@ -4,7 +4,7 @@ title: PFND3DKMT_GETDEVICESTATE (d3dkmthk.h)
 description: Pfnd3dkmtGetdevicestate retrieves the state of a device.
 ms.assetid: 44a7d71a-dca6-4148-8aed-cedac873455a
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DKMT_GETDEVICESTATE callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_GETDEVICESTATE"
 req.header: d3dkmthk.h

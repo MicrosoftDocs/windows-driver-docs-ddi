@@ -6,8 +6,8 @@ old-location: serports\sercxretrievereceivebuffer.htm
 tech.root: serports
 ms.assetid: 4EC1935D-038C-418C-AB28-A49085877B4A
 ms.date: 04/23/2018
+keywords: ["SerCxRetrieveReceiveBuffer function"]
 ms.keywords: 1/SerCxRetrieveReceiveBuffer, SerCxRetrieveReceiveBuffer, SerCxRetrieveReceiveBuffer method [Serial Ports], serports.sercxretrievereceivebuffer
-ms.topic: function
 f1_keywords:
  - "sercx/SerCxRetrieveReceiveBuffer"
 req.header: sercx.h

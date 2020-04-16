@@ -4,7 +4,7 @@ title: PFND3D12DDI_CALC_PRIVATE_METACOMMAND_SIZE (d3d12umddi.h)
 description: Calculates the private meta-command size.
 ms.assetid: e1f4ad6e-a3a3-4145-9742-4b155b4d979c
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_CALC_PRIVATE_METACOMMAND_SIZE callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALC_PRIVATE_METACOMMAND_SIZE"
 req.header: d3d12umddi.h

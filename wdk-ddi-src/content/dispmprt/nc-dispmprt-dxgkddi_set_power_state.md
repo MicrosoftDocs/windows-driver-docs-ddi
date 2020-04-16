@@ -6,8 +6,8 @@ old-location: display\dxgkddisetpowerstate.htm
 tech.root: display
 ms.assetid: 6462be4f-1f6e-4b85-a3ba-15820ee8605b
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_SET_POWER_STATE callback function"]
 ms.keywords: DXGKDDI_SET_POWER_STATE, DXGKDDI_SET_POWER_STATE callback, DmFunctions_712dfd67-ab92-4ffb-80e8-18e6b80a0dd4.xml, DxgkDdiSetPowerState, DxgkDdiSetPowerState callback function [Display Devices], display.dxgkddisetpowerstate, dispmprt/DxgkDdiSetPowerState
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiSetPowerState"
 req.header: dispmprt.h

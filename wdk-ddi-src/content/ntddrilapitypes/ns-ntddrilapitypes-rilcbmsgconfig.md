@@ -6,8 +6,8 @@ old-location: netvista\rilcbmsgconfig.htm
 tech.root: netvista
 ms.assetid: c59f26b7-47ce-4bf9-b678-a2bb48c69754
 ms.date: 05/02/2018
+keywords: ["RILCBMSGCONFIG structure"]
 ms.keywords: "*LPRILCBMSGCONFIG, RILCBMSGCONFIG, RILCBMSGCONFIG structure [Network Drivers Starting with Windows Vista], netvista.rilcbmsgconfig, ntddrilapitypes/RILCBMSGCONFIG"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILCBMSGCONFIG"
 req.header: ntddrilapitypes.h

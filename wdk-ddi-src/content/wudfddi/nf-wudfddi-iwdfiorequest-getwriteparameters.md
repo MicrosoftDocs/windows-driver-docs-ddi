@@ -6,8 +6,8 @@ old-location: wdf\iwdfiorequest_getwriteparameters.htm
 tech.root: wdf
 ms.assetid: 0627b278-2fd5-4185-8ec9-8b306c6d85a8
 ms.date: 02/26/2018
+keywords: ["IWDFIoRequest::GetWriteParameters"]
 ms.keywords: GetWriteParameters, GetWriteParameters method, GetWriteParameters method,IWDFIoRequest interface, IWDFIoRequest interface,GetWriteParameters method, IWDFIoRequest.GetWriteParameters, IWDFIoRequest::GetWriteParameters, UMDFRequestObjectRef_1aa8b098-4652-435b-beb7-5b7be69fd5d0.xml, umdf.iwdfiorequest_getwriteparameters, wdf.iwdfiorequest_getwriteparameters, wudfddi/IWDFIoRequest::GetWriteParameters
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoRequest.GetWriteParameters"
 req.header: wudfddi.h

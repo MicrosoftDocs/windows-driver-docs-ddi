@@ -6,8 +6,8 @@ old-location: ifsk\iocreatestreamfileobjectex2.htm
 tech.root: ifsk
 ms.assetid: 2F12F4E5-21C2-4DA8-9111-0087A16F0256
 ms.date: 04/16/2018
+keywords: ["IoCreateStreamFileObjectEx2 function"]
 ms.keywords: IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx routine [Installable File System Drivers], IoCreateStreamFileObjectEx2, ifsk.iocreatestreamfileobjectex2, ntifs/IoCreateStreamFileObjectEx
-ms.topic: function
 f1_keywords:
  - "ntifs/IoCreateStreamFileObjectEx"
 req.header: ntifs.h

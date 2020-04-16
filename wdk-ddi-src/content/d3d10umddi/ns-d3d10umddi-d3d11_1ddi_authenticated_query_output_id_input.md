@@ -5,8 +5,8 @@ description: Contains the response to a QueryAuthenticatedChannel(D3D11_1) query
 old-location: display\d3d11_1ddi_authenticated_query_output_id_input.htm
 ms.assetid: 7dd6da58-0105-4374-be01-58729f095d01
 ms.date: 05/10/2018
+keywords: ["D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT structure"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT, D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT, display.d3d11_1ddi_authenticated_query_output_id_input
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT_ID_INPUT"
 req.header: d3d10umddi.h

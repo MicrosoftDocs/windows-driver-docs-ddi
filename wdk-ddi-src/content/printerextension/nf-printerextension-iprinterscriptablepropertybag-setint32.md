@@ -6,8 +6,8 @@ old-location: print\iprinterscriptablepropertybag_setint32.htm
 tech.root: print
 ms.assetid: 40A057F7-AC9B-4F16-8FE2-490CEECAB523
 ms.date: 04/20/2018
+keywords: ["IPrinterScriptablePropertyBag::SetInt32"]
 ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetInt32 method, IPrinterScriptablePropertyBag.SetInt32, IPrinterScriptablePropertyBag::SetInt32, SetInt32, SetInt32 method [Print Devices], SetInt32 method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setint32, printerextension/IPrinterScriptablePropertyBag::SetInt32
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag.SetInt32"
 req.header: printerextension.h

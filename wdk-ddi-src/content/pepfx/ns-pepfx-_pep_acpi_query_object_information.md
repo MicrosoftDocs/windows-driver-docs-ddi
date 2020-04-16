@@ -6,8 +6,8 @@ old-location: kernel\pep_acpi_query_object_information.htm
 tech.root: kernel
 ms.assetid: 71E43364-CBD6-4628-B51C-B41315E0E800
 ms.date: 04/30/2018
+keywords: ["_PEP_ACPI_QUERY_OBJECT_INFORMATION structure"]
 ms.keywords: "*PPEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION, PEP_ACPI_QUERY_OBJECT_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_ACPI_QUERY_OBJECT_INFORMATION, PPEP_ACPI_QUERY_OBJECT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_QUERY_OBJECT_INFORMATION, kernel.pep_acpi_query_object_information, pepfx/PEP_ACPI_QUERY_OBJECT_INFORMATION, pepfx/PPEP_ACPI_QUERY_OBJECT_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "pepfx/PEP_ACPI_QUERY_OBJECT_INFORMATION"
 req.header: pepfx.h

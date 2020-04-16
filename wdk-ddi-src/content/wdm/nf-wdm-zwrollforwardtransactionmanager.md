@@ -6,8 +6,8 @@ old-location: kernel\zwrollforwardtransactionmanager.htm
 tech.root: kernel
 ms.assetid: c2d775b1-364a-4c50-bd5e-dab9d9e07b83
 ms.date: 04/30/2018
+keywords: ["ZwRollforwardTransactionManager function"]
 ms.keywords: NtRollforwardTransactionManager, ZwRollforwardTransactionManager, ZwRollforwardTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwrollforwardtransactionmanager, ktm_ref_79b2cde2-5fd0-431f-a776-f4cd6fda1e45.xml, wdm/NtRollforwardTransactionManager, wdm/ZwRollforwardTransactionManager
-ms.topic: function
 f1_keywords:
  - "wdm/ZwRollforwardTransactionManager"
 req.header: wdm.h

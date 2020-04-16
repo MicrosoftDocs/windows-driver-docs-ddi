@@ -6,8 +6,8 @@ old-location: wdf\wdfioqueueretrieverequestbyfileobject.htm
 tech.root: wdf
 ms.assetid: 6acff4d8-c21f-49c5-a255-5b46aac97c9f
 ms.date: 02/26/2018
+keywords: ["WdfIoQueueRetrieveRequestByFileObject function"]
 ms.keywords: DFQueueObjectRef_52e014c4-04ca-44b2-a5a8-19185b085cdf.xml, WdfIoQueueRetrieveRequestByFileObject, WdfIoQueueRetrieveRequestByFileObject method, kmdf.wdfioqueueretrieverequestbyfileobject, wdf.wdfioqueueretrieverequestbyfileobject, wdfio/WdfIoQueueRetrieveRequestByFileObject
-ms.topic: function
 f1_keywords:
  - "wdfio/WdfIoQueueRetrieveRequestByFileObject"
 req.header: wdfio.h

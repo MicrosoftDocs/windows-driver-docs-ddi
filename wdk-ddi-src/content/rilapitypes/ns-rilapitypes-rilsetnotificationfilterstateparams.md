@@ -6,8 +6,8 @@ old-location: netvista\rilsetnotificationfilterstateparams.htm
 tech.root: netvista
 ms.assetid: bd30a156-0414-486c-92c4-21c33d32f9b8
 ms.date: 05/02/2018
+keywords: ["RILSETNOTIFICATIONFILTERSTATEPARAMS structure"]
 ms.keywords: "*LPRILSETNOTIFICATIONFILTERSTATEPARAMS, RILSETNOTIFICATIONFILTERSTATEPARAMS, RILSETNOTIFICATIONFILTERSTATEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetnotificationfilterstateparams, ntddrilapitypes/RILSETNOTIFICATIONFILTERSTATEPARAMS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILSETNOTIFICATIONFILTERSTATEPARAMS"
 req.header: rilapitypes.h

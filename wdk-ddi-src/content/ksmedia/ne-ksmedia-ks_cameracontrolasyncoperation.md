@@ -6,8 +6,8 @@ old-location: stream\ks_cameracontrolasyncoperation.htm
 tech.root: stream
 ms.assetid: 0ca676d9-5047-451a-abbb-2692cc2d69f6
 ms.date: 04/23/2018
+keywords: ["KS_CameraControlAsyncOperation enumeration"]
 ms.keywords: KS_CAMERACONTROL_ASYNC_RESET, KS_CAMERACONTROL_ASYNC_START, KS_CAMERACONTROL_ASYNC_STOP, KS_CameraControlAsyncOperation, KS_CameraControlAsyncOperation enumeration [Streaming Media Devices], ksmedia/KS_CAMERACONTROL_ASYNC_RESET, ksmedia/KS_CAMERACONTROL_ASYNC_START, ksmedia/KS_CAMERACONTROL_ASYNC_STOP, ksmedia/KS_CameraControlAsyncOperation, stream.ks_cameracontrolasyncoperation
-ms.topic: enum
 f1_keywords:
  - "ksmedia/KS_CameraControlAsyncOperation"
 req.header: ksmedia.h

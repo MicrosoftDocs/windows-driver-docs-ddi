@@ -6,8 +6,8 @@ old-location: debugger\setimagepathwide.htm
 tech.root: debugger
 ms.assetid: 0675dce8-4724-4880-b311-204fbb6fe194
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::SetImagePathWide"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetImagePathWide method, IDebugSymbols3.SetImagePathWide, IDebugSymbols3::SetImagePathWide, SetImagePathWide, SetImagePathWide method [Windows Debugging], SetImagePathWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetImagePathWide, debugger.setimagepathwide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols3.SetImagePathWide"
 req.header: dbgeng.h

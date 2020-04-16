@@ -6,8 +6,8 @@ old-location: storage\changerqueryvolumetags.htm
 tech.root: storage
 ms.assetid: 65579299-829c-48e2-b2f6-dc1a09578e9a
 ms.date: 03/29/2018
+keywords: ["ChangerQueryVolumeTags function"]
 ms.keywords: ChangerQueryVolumeTags, ChangerQueryVolumeTags function [Storage Devices], chgrmini_8d729e15-eade-4300-b640-d5e99f1f5e05.xml, mcd/ChangerQueryVolumeTags, storage.changerqueryvolumetags
-ms.topic: function
 f1_keywords:
  - "mcd/ChangerQueryVolumeTags"
 req.header: mcd.h

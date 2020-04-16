@@ -6,8 +6,8 @@ old-location: wdf\wdfusbinterfacegetnumconfiguredpipes.htm
 tech.root: wdf
 ms.assetid: dbc929a9-696b-42e1-9888-9e8c0b1e01c9
 ms.date: 02/26/2018
+keywords: ["WdfUsbInterfaceGetNumConfiguredPipes function"]
 ms.keywords: DFUsbRef_4273baba-c0e8-4bda-b6da-c9c9f00cabf9.xml, WdfUsbInterfaceGetNumConfiguredPipes, WdfUsbInterfaceGetNumConfiguredPipes method, kmdf.wdfusbinterfacegetnumconfiguredpipes, wdf.wdfusbinterfacegetnumconfiguredpipes, wdfusb/WdfUsbInterfaceGetNumConfiguredPipes
-ms.topic: function
 f1_keywords:
  - "wdfusb/WdfUsbInterfaceGetNumConfiguredPipes"
 req.header: wdfusb.h

@@ -5,8 +5,8 @@ description: The pfnStateCsUavCb function causes the Microsoft Direct3D 11 runti
 old-location: display\pfnstatecsuavcb.htm
 ms.assetid: 2ff9e226-2981-4670-9164-7138f25528a0
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_STATE_CS_UAV_CB callback function"]
 ms.keywords: PFND3D11DDI_STATE_CS_UAV_CB, PFND3D11DDI_STATE_CS_UAV_CB callback, d3d10umddi/pfnStateCsUavCb, d3d11state_functions_2818f407-e0b4-4923-ae5e-43b1450d4a82.xml, display.pfnstatecsuavcb, pfnStateCsUavCb, pfnStateCsUavCb callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnStateCsUavCb"
 req.header: d3d10umddi.h
@@ -58,19 +58,19 @@ The <b>pfnStateCsUavCb</b> function causes the Microsoft Direct3D 11 runtime to 
 
 ### -param Arg1
 
-hRuntimeDevice [in]
+*hRuntimeDevice* [in]
 
 A handle to a context for the core Direct3D runtime. This handle is supplied to the driver in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function. 
 
 ### -param Arg2
 
-Base [in]
+*Base* [in]
 
 The beginning access view for which the runtime should refresh state. 
 
 ### -param Arg3
 
-Count [in]
+*Count* [in]
 
 The total number of access views. The number can be -1, which specifies that the Direct3D runtime uses its high watermarks to substitute an optimal value (which is typically less than the maximum valid value for <i>Count</i>). However, no non-NULL binding exists in a slot larger than the optimal <i>Count</i> value.
 

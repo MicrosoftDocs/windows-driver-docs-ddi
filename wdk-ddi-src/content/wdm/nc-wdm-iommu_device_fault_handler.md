@@ -4,7 +4,7 @@ title: IOMMU_DEVICE_FAULT_HANDLER (wdm.h)
 description: Reports fault from a specific device and domain.
 ms.assetid: 6efa32ef-39c2-43f3-8808-d7649cfc493d
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["IOMMU_DEVICE_FAULT_HANDLER callback function"]
 f1_keywords:
  - "wdm/IOMMU_DEVICE_FAULT_HANDLER"
 req.header: wdm.h

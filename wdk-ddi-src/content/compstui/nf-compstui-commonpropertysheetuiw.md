@@ -6,8 +6,8 @@ old-location: print\commonpropertysheetui.htm
 tech.root: print
 ms.assetid: 63d88589-455a-4923-bb3a-61d977732603
 ms.date: 04/20/2018
+keywords: ["CommonPropertySheetUIW function"]
 ms.keywords: CommonPropertySheetUI, CommonPropertySheetUI function [Print Devices], CommonPropertySheetUIA, CommonPropertySheetUIW, compstui/CommonPropertySheetUI, cpsuifnc_547a4235-9e08-43fc-acae-b30091032ab3.xml, print.commonpropertysheetui
-ms.topic: function
 f1_keywords:
  - "compstui/CommonPropertySheetUI"
 req.header: compstui.h

@@ -4,7 +4,7 @@ title: MATRIX3X3 (sensorsstructures.h)
 description: Defines a 3x3 matrix.
 ms.assetid: 313cc2e2-544a-4c5e-a6fe-56443cf83f2f
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["MATRIX3X3 structure"]
 f1_keywords:
  - "sensorsstructures/MATRIX3X3"
 tech.root: sensors

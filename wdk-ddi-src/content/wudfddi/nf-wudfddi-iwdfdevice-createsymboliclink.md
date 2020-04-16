@@ -6,8 +6,8 @@ old-location: wdf\iwdfdevice_createsymboliclink.htm
 tech.root: wdf
 ms.assetid: 15984217-e789-457c-b20f-c3d51741f5d3
 ms.date: 02/26/2018
+keywords: ["IWDFDevice::CreateSymbolicLink"]
 ms.keywords: CreateSymbolicLink, CreateSymbolicLink method, CreateSymbolicLink method,IWDFDevice interface, IWDFDevice interface,CreateSymbolicLink method, IWDFDevice.CreateSymbolicLink, IWDFDevice::CreateSymbolicLink, UMDFDeviceObjectRef_20b93e0a-a676-44f7-bbd0-d2749dd7a0b8.xml, umdf.iwdfdevice_createsymboliclink, wdf.iwdfdevice_createsymboliclink, wudfddi/IWDFDevice::CreateSymbolicLink
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFDevice.CreateSymbolicLink"
 req.header: wudfddi.h

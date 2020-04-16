@@ -6,8 +6,8 @@ old-location: print\iprintoemprintticketprovider_interface.htm
 tech.root: print
 ms.assetid: a32b5ec9-b4f2-4f33-879d-252806bd34ed
 ms.date: 04/20/2018
+keywords: ["IPrintOemPrintTicketProvider interface"]
 ms.keywords: IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider interface [Print Devices], IPrintOemPrintTicketProvider interface [Print Devices],described, prcomoem/IPrintOemPrintTicketProvider, print.iprintoemprintticketprovider_interface, print_ticket-package_73ff5919-5d89-4fe1-b10f-03f2b14b716f.xml
-ms.topic: interface
 f1_keywords:
  - "prcomoem/IPrintOemPrintTicketProvider"
 req.header: prcomoem.h
@@ -53,7 +53,7 @@ This section describes the methods that are defined for the <b>IPrintOemPrintTic
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintOemPrintTicketProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemPrintTicketProvider</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintOemPrintTicketProvider</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemPrintTicketProvider</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

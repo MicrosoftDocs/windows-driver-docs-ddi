@@ -5,7 +5,7 @@ description: The VmbPacketGetChannel function returns the VMBus channel with whi
 tech.root: netvista
 ms.assetid: 3032635f-c7f0-42f7-9c44-5077b23c0f75
 ms.date: 05/22/2018
-ms.topic: callback
+keywords: ["FN_VMB_PACKET_GET_CHANNEL callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_GET_CHANNEL"
 req.header: vmbuskernelmodeclientlibapi.h

@@ -6,8 +6,8 @@ old-location: storage\ms_smhba_sas_phy.htm
 tech.root: storage
 ms.assetid: 9bbf2f63-4479-47ee-a014-78b13deccb4c
 ms.date: 03/29/2018
+keywords: ["_MS_SMHBA_SAS_PHY structure"]
 ms.keywords: "*PMS_SMHBA_SAS_PHY, MS_SMHBA_SAS_PHY, MS_SMHBA_SAS_PHY structure [Storage Devices], PMS_SMHBA_SAS_PHY, PMS_SMHBA_SAS_PHY structure pointer [Storage Devices], _MS_SMHBA_SAS_PHY, hbapiwmi/MS_SMHBA_SAS_PHY, hbapiwmi/PMS_SMHBA_SAS_PHY, storage.ms_smhba_sas_phy, structs-Fibre_2ff7917d-a369-4cc9-ab8e-c774f63761a7.xml"
-ms.topic: struct
 f1_keywords:
  - "hbapiwmi/MS_SMHBA_SAS_PHY"
 req.header: hbapiwmi.h

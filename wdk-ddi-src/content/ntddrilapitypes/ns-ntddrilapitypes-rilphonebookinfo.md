@@ -6,8 +6,8 @@ old-location: netvista\rilphonebookinfo.htm
 tech.root: netvista
 ms.assetid: 626bfc9b-6d84-4b8c-89eb-c635d0cb61f0
 ms.date: 05/02/2018
+keywords: ["RILPHONEBOOKINFO structure"]
 ms.keywords: "*LPRILPHONEBOOKINFO, RILPHONEBOOKINFO, RILPHONEBOOKINFO structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookinfo, ntddrilapitypes/RILPHONEBOOKINFO"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILPHONEBOOKINFO"
 req.header: ntddrilapitypes.h

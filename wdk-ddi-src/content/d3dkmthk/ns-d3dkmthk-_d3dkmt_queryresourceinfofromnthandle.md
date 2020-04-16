@@ -5,8 +5,8 @@ description: Describes information that is required to map a global NT handle to
 old-location: display\d3dkmt_queryresourceinfofromnthandle.htm
 ms.assetid: 098fe3b9-1169-4ff6-8822-0eb277cb73f9
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure"]
 ms.keywords: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure [Display Devices], _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, d3dkmthk/D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, display.d3dkmt_queryresourceinfofromnthandle
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE"
 req.header: d3dkmthk.h

@@ -6,8 +6,8 @@ old-location: netvista\providerfreedmachannel.htm
 tech.root: netvista
 ms.assetid: 5bbe432d-f236-46ec-8e78-788bd676b852
 ms.date: 05/02/2018
+keywords: ["DMA_CHANNEL_FREE_HANDLER callback function"]
 ms.keywords: DMA_CHANNEL_FREE_HANDLER, DMA_CHANNEL_FREE_HANDLER callback, ProviderFreeDmaChannel, ProviderFreeDmaChannel callback function [Network Drivers Starting with Windows Vista], netdma/ProviderFreeDmaChannel, netdma_ref_d81eae9f-e306-4ac7-a4ce-3e4831b45c39.xml, netvista.providerfreedmachannel
-ms.topic: callback
 f1_keywords:
  - "netdma/ProviderFreeDmaChannel"
 req.header: netdma.h

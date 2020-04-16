@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: 9a3fb9c0-432c-4d3c-a132-37a48ffc8509
 ms.author: windowsdriverdev
 ms.date: 09/24/2019
-ms.topic: struct
+keywords: ["NET_PACKET_RSC_TIMESTAMP structure"]
 f1_keywords:
  - "rsctypes/NET_PACKET_RSC_TIMESTAMP"
 ms.keywords: NET_PACKET_RSC_TIMESTAMP, NET_PACKET_RSC_TIMESTAMP, 

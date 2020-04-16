@@ -4,7 +4,7 @@ title: operator== function (dbgmodel.h)
 description: Equivalence operator for the location function.
 ms.assetid: 25221b6a-208e-4f9e-a41b-c2a1c4405977
 ms.date: 10/02/2018
-ms.topic: function
+keywords: ["operator== function"]
 f1_keywords:
  - "dbgmodel/operator=="
 ms.keywords: operator==

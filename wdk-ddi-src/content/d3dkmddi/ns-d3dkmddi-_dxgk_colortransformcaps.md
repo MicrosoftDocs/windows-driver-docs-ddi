@@ -5,8 +5,8 @@ description: This structure replaces the DXGK_GAMMARAMPCAPS structure in the DXG
 old-location: display\dxgk_colortransformcaps_.htm
 ms.assetid: 83113D6C-44A1-4022-8101-061DEA9868E1
 ms.date: 05/10/2018
+keywords: ["_DXGK_COLORTRANSFORMCAPS structure"]
 ms.keywords: DXGK_COLORTRANSFORMCAPS, DXGK_COLORTRANSFORMCAPS , DXGK_COLORTRANSFORMCAPS structure [Display Devices], PDXGK_COLORTRANSFORMCAPS, PDXGK_COLORTRANSFORMCAPS structure pointer [Display Devices], _DXGK_COLORTRANSFORMCAPS, d3dkmddi/DXGK_COLORTRANSFORMCAPS, d3dkmddi/PDXGK_COLORTRANSFORMCAPS, display.dxgk_colortransformcaps_
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_COLORTRANSFORMCAPS"
 req.header: d3dkmddi.h

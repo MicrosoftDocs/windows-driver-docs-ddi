@@ -5,7 +5,7 @@ description: The BufferSize method returns the size in bytes of the DMA channel'
 tech.root: audio
 ms.assetid: e20d36d9-4f2a-43bf-b224-da5501321c7a
 ms.date: 10/31/2018
-ms.topic: method
+keywords: ["IDmaChannel::BufferSize"]
 f1_keywords:
  - "portcls/IDmaChannel.BufferSize"
 ms.keywords: IDmaChannel::BufferSize, BufferSize, IDmaChannel.BufferSize, IDmaChannel::BufferSize, IDmaChannel.BufferSize

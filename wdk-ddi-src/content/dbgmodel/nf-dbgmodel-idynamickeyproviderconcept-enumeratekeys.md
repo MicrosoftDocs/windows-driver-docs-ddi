@@ -4,7 +4,7 @@ title: IDynamicKeyProviderConcept::EnumerateKeys (dbgmodel.h)
 description: The EnumerateKeys method on a dynamic key provider is effectively an override of the EnumerateKeys method on IModelObject. 
 ms.assetid: 26bf79c1-1069-4d9a-820a-ce00ec729e3d
 ms.date: 09/19/2018
-ms.topic: method
+keywords: ["IDynamicKeyProviderConcept::EnumerateKeys"]
 f1_keywords:
  - "dbgmodel/IDynamicKeyProviderConcept.EnumerateKeys"
 ms.keywords: IDynamicKeyProviderConcept::EnumerateKeys, EnumerateKeys, IDynamicKeyProviderConcept.EnumerateKeys, IDynamicKeyProviderConcept::EnumerateKeys, IDynamicKeyProviderConcept.EnumerateKeys

@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 24e62aa5-3d52-46ee-b77a-4597000ba1e1
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
+keywords: ["D3D12DDI_DEVICE_FUNCS_CORE_0062 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0062"
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0062, D3D12DDI_DEVICE_FUNCS_CORE_0062, 

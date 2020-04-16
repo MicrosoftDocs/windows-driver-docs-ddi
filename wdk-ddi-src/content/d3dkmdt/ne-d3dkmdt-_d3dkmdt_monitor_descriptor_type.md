@@ -6,8 +6,8 @@ old-location: display\d3dkmdt_monitor_descriptor_type.htm
 tech.root: display
 ms.assetid: f5ec761f-fc20-4baf-a012-c32356644a6c
 ms.date: 05/10/2018
+keywords: ["_D3DKMDT_MONITOR_DESCRIPTOR_TYPE enumeration"]
 ms.keywords: D3DKMDT_MDT_OTHER, D3DKMDT_MDT_UNINITIALIZED, D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK, D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP, D3DKMDT_MONITOR_DESCRIPTOR_TYPE, D3DKMDT_MONITOR_DESCRIPTOR_TYPE enumeration [Display Devices], DmEnums_9d9ed4df-33cf-403a-96dd-c0745426daf1.xml, _D3DKMDT_MONITOR_DESCRIPTOR_TYPE, d3dkmdt/D3DKMDT_MDT_OTHER, d3dkmdt/D3DKMDT_MDT_UNINITIALIZED, d3dkmdt/D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK, d3dkmdt/D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP, d3dkmdt/D3DKMDT_MONITOR_DESCRIPTOR_TYPE, display.d3dkmdt_monitor_descriptor_type
-ms.topic: enum
 f1_keywords:
  - "d3dkmdt/D3DKMDT_MONITOR_DESCRIPTOR_TYPE"
 req.header: d3dkmdt.h

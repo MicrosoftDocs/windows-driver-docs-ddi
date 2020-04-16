@@ -7,7 +7,7 @@ tech.root:
 ms.assetid: ebe20129-2ac5-42f3-adac-3f8ea4092ce8
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: enum
+keywords: ["DEVICE_USAGE_NOTIFICATION_TYPE enumeration"]
 f1_keywords:
  - "wdm/DEVICE_USAGE_NOTIFICATION_TYPE"
 ms.keywords: DEVICE_USAGE_NOTIFICATION_TYPE, DEVICE_USAGE_NOTIFICATION_TYPE, 

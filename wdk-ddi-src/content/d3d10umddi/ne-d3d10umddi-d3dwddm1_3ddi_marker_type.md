@@ -5,8 +5,8 @@ description: Indicates the type of marker that the user-mode display driver supp
 old-location: display\d3dwddm1_3ddi_marker_type.htm
 ms.assetid: E57CA17F-FB96-4E9B-A38D-67A4F925D3B4
 ms.date: 05/10/2018
+keywords: ["D3DWDDM1_3DDI_MARKER_TYPE enumeration"]
 ms.keywords: D3DWDDM1_3DDI_MARKER_TYPE, D3DWDDM1_3DDI_MARKER_TYPE enumeration [Display Devices], D3DWDDM1_3DDI_MARKER_TYPE_NONE, D3DWDDM1_3DDI_MARKER_TYPE_PROFILE, d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE, d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE_NONE, d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE_PROFILE, display.d3dwddm1_3ddi_marker_type
-ms.topic: enum
 f1_keywords:
  - "d3d10umddi/D3DWDDM1_3DDI_MARKER_TYPE"
 req.header: d3d10umddi.h

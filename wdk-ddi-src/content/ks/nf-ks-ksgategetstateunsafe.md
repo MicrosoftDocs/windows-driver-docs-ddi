@@ -6,8 +6,8 @@ old-location: stream\ksgategetstateunsafe.htm
 tech.root: stream
 ms.assetid: f5976125-4ff4-48c2-a5c7-8e9fb2f8a0c9
 ms.date: 04/23/2018
+keywords: ["KsGateGetStateUnsafe function"]
 ms.keywords: KsGateGetStateUnsafe, KsGateGetStateUnsafe function [Streaming Media Devices], avfunc_1f18b601-daaf-4df2-98c2-a91646f84c0d.xml, ks/KsGateGetStateUnsafe, stream.ksgategetstateunsafe
-ms.topic: function
 f1_keywords:
  - "ks/KsGateGetStateUnsafe"
 req.header: ks.h

@@ -6,8 +6,8 @@ old-location: image\istillimage_getdevicelist.htm
 tech.root: image
 ms.assetid: 43c8a5d2-7f34-4b68-b316-020049e98444
 ms.date: 05/03/2018
+keywords: ["IStillImageW::GetDeviceList"]
 ms.keywords: GetDeviceList, GetDeviceList method [Imaging Devices], GetDeviceList method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetDeviceList method, IStillImageW.GetDeviceList, IStillImageW::GetDeviceList, image.istillimage_getdevicelist, sti/IStillImageW::GetDeviceList, stifnc_eb4712d7-33b5-40d3-87f9-6f5eef639039.xml
-ms.topic: method
 f1_keywords:
  - "sti/IStillImageW.GetDeviceList"
 req.header: sti.h

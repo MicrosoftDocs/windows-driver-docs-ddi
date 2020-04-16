@@ -6,8 +6,8 @@ old-location: display\agpcommitvirtual.htm
 tech.root: display
 ms.assetid: 8a3e7fcd-d838-47ad-a42b-7eb070f81418
 ms.date: 05/10/2018
+keywords: ["PAGP_COMMIT_VIRTUAL callback function"]
 ms.keywords: AgpCommitVirtual, AgpCommitVirtual callback function [Display Devices], PAGP_COMMIT_VIRTUAL, PAGP_COMMIT_VIRTUAL callback, VideoPort_Functions_74f16518-6071-45bb-a44d-80fe042814ea.xml, display.agpcommitvirtual, videoagp/AgpCommitVirtual
-ms.topic: callback
 f1_keywords:
  - "videoagp/AgpCommitVirtual"
 req.header: videoagp.h

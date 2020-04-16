@@ -6,8 +6,8 @@ old-location: kernel\kereadstatemutex.htm
 tech.root: kernel
 ms.assetid: b23d846a-a1d4-4b2a-ab3c-8076302ff3fc
 ms.date: 04/30/2018
+keywords: ["KeReadStateMutex function"]
 ms.keywords: KeReadStateMutex, KeReadStateMutex routine [Kernel-Mode Driver Architecture], k105_37175048-e4ee-4b79-93f3-013195192b4c.xml, kernel.kereadstatemutex, wdm/KeReadStateMutex
-ms.topic: function
 f1_keywords:
  - "wdm/KeReadStateMutex"
 req.header: wdm.h

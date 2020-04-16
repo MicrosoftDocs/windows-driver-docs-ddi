@@ -6,8 +6,8 @@ old-location: kernel\mmfreepagesfrommdl.htm
 tech.root: kernel
 ms.assetid: bde26b75-9eae-494b-b943-f1e9534c5f7a
 ms.date: 04/30/2018
+keywords: ["MmFreePagesFromMdl function"]
 ms.keywords: MmFreePagesFromMdl, MmFreePagesFromMdl routine [Kernel-Mode Driver Architecture], k106_4263f517-edab-4378-b316-ce344676d7e6.xml, kernel.mmfreepagesfrommdl, wdm/MmFreePagesFromMdl
-ms.topic: function
 f1_keywords:
  - "wdm/MmFreePagesFromMdl"
 req.header: wdm.h

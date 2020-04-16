@@ -6,8 +6,8 @@ old-location: display\d3dhal_dp2vertexshader.htm
 tech.root: display
 ms.assetid: 9207768b-530a-49d5-999e-0e8eb6bd1fe5
 ms.date: 05/10/2018
+keywords: ["_D3DHAL_DP2VERTEXSHADER structure"]
 ms.keywords: "*LPD3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER structure [Display Devices], LPD3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER structure pointer [Display Devices], _D3DHAL_DP2VERTEXSHADER, d3dhal/D3DHAL_DP2VERTEXSHADER, d3dhal/LPD3DHAL_DP2VERTEXSHADER, d3dstrct_84401bfa-f79d-4128-9989-1223284f25b0.xml, display.d3dhal_dp2vertexshader"
-ms.topic: struct
 f1_keywords:
  - "d3dhal/D3DHAL_DP2VERTEXSHADER"
 req.header: d3dhal.h

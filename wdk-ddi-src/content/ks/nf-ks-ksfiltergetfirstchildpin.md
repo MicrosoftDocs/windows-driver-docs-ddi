@@ -6,8 +6,8 @@ old-location: stream\ksfiltergetfirstchildpin.htm
 tech.root: stream
 ms.assetid: b026908a-51d4-45a8-9c0e-1c163563bfbf
 ms.date: 04/23/2018
+keywords: ["KsFilterGetFirstChildPin function"]
 ms.keywords: KsFilterGetFirstChildPin, KsFilterGetFirstChildPin function [Streaming Media Devices], avfunc_303477ee-598b-4b5b-baae-1e520c154e99.xml, ks/KsFilterGetFirstChildPin, stream.ksfiltergetfirstchildpin
-ms.topic: function
 f1_keywords:
  - "ks/KsFilterGetFirstChildPin"
 req.header: ks.h

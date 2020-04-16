@@ -7,7 +7,7 @@ tech.root:
 ms.assetid: eb868410-a956-4de4-8efc-607c2892709f
 ms.author: windowsdriverdev
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["KeInitializeTriageDumpDataArray function"]
 f1_keywords:
  - "wdm/KeInitializeTriageDumpDataArray"
 ms.keywords: KeInitializeTriageDumpDataArray

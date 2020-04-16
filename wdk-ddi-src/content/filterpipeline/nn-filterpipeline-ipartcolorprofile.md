@@ -6,8 +6,8 @@ old-location: print\ipartcolorprofile.htm
 tech.root: print
 ms.assetid: 1421fae5-1c90-47da-ae9c-fc9eb4d47a05
 ms.date: 02/26/2018
+keywords: ["IPartColorProfile interface"]
 ms.keywords: IPartColorProfile, IPartColorProfile interface [Print Devices], IPartColorProfile interface [Print Devices], described, filterpipeline/IPartColorProfile, filterpipeline_53a5ba2a-17ce-4c9a-981b-1ab5067bddc2.xml, print.ipartcolorprofile
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IPartColorProfile"
 req.header: filterpipeline.h

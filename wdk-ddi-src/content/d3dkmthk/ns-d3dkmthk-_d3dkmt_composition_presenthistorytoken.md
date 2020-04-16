@@ -5,8 +5,8 @@ description: Identifies a composition swap chain present-history operation. This
 old-location: display\d3dkmt_composition_presenthistorytoken.htm
 ms.assetid: F3F2DE77-9FC5-4AC1-B857-51B51557108E
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN structure"]
 ms.keywords: D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN structure [Display Devices], _D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, display.d3dkmt_composition_presenthistorytoken
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN"
 req.header: d3dkmthk.h

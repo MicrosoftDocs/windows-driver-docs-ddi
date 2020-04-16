@@ -2,8 +2,6 @@
   "tech": "bltooth",
   "headers": [
     "bthddi.h",
-    "bthguid.h",
-    "bthhddi.h",
     "bthioctl.h",
     "bthsdpddi.h",
     "bthxddi.h",

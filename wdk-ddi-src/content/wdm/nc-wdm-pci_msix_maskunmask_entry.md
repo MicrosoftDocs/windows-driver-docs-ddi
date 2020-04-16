@@ -6,8 +6,8 @@ old-location: kernel\masktableentry.htm
 tech.root: kernel
 ms.assetid: ADD9AA38-594D-413A-BE8B-BCC6B62EAA8E
 ms.date: 04/30/2018
+keywords: ["PCI_MSIX_MASKUNMASK_ENTRY callback function"]
 ms.keywords: MaskTableEntry, MaskTableEntry routine [Kernel-Mode Driver Architecture], PCI_MSIX_MASKUNMASK_ENTRY, drvr_interface_c4246cdd-8a44-423e-b145-fae6e1e96716.xml, kernel.masktableentry, kernel.msixmasktableentry, wdm/MaskTableEntry
-ms.topic: callback
 f1_keywords:
  - "wdm/MaskTableEntry"
 req.header: wdm.h

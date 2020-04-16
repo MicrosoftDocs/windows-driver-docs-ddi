@@ -4,7 +4,7 @@ title: _DXGK_SCHEDULING_LOG_HEADER (d3dkmddi.h)
 description: Contains information about a scheduling log header.
 ms.assetid: 94dcf45e-2c79-426b-88d3-5bb5d9dfddc4
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_DXGK_SCHEDULING_LOG_HEADER structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_SCHEDULING_LOG_HEADER"
 ms.keywords: _DXGK_SCHEDULING_LOG_HEADER, DXGK_SCHEDULING_LOG_HEADER,

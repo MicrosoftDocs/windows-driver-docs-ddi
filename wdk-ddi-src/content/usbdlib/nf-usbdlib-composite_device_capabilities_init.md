@@ -6,8 +6,8 @@ old-location: buses\composite_driver_capabilities_init.htm
 tech.root: usbref
 ms.assetid: 92DDF65E-4B5B-443A-9C90-3B1BB2DD3CAF
 ms.date: 05/07/2018
+keywords: ["COMPOSITE_DEVICE_CAPABILITIES_INIT function"]
 ms.keywords: COMPOSITE_DEVICE_CAPABILITIES_INIT, COMPOSITE_DEVICE_CAPABILITIES_INIT routine [Buses], buses.composite_driver_capabilities_init, usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT
-ms.topic: function
 f1_keywords:
  - "usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT"
 req.header: usbdlib.h

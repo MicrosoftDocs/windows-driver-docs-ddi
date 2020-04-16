@@ -5,7 +5,7 @@ description: The NDIS_WWAN_UICC_APP_LIST structure describes a list of applicati
 tech.root: netvista
 ms.assetid: 7ACDB2C7-0971-4FFA-8E8D-7CE291B68CA7
 ms.date: 04/08/2019
-ms.topic: struct
+keywords: ["_NDIS_WWAN_UICC_APP_LIST structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_UICC_APP_LIST"
 ms.keywords: _NDIS_WWAN_UICC_APP_LIST, NDIS_WWAN_UICC_APP_LIST, *PNDIS_WWAN_UICC_APP_LIST, 

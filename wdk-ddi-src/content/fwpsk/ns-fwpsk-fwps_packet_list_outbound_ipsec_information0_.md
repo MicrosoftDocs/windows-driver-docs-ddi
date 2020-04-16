@@ -6,8 +6,8 @@ old-location: netvista\fwps_packet_list_outbound_ipsec_information0.htm
 tech.root: netvista
 ms.assetid: 18312157-f41c-474d-9cf4-446d8b189c4d
 ms.date: 05/02/2018
+keywords: ["FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0_ structure"]
 ms.keywords: FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0, FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0_, fwpsk/FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0, netvista.fwps_packet_list_outbound_ipsec_information0, wfp_ref_3_struct_3_fwps_P-Z_b5959556-81fe-4c93-9700-2214fee005c5.xml
-ms.topic: struct
 f1_keywords:
  - "fwpsk/FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0"
 req.header: fwpsk.h

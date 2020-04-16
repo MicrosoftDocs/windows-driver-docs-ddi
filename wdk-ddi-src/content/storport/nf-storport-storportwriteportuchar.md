@@ -6,8 +6,8 @@ old-location: storage\storportwriteportuchar.htm
 tech.root: storage
 ms.assetid: 421bd075-e919-4389-af38-e0dd686f7c05
 ms.date: 03/29/2018
+keywords: ["StorPortWritePortUchar macro"]
 ms.keywords: StorPortWritePortUchar, StorPortWritePortUchar routine [Storage Devices], storage.storportwriteportuchar, storport/StorPortWritePortUchar, storprt_602c6d78-179c-4eaa-8131-ec2be13b2050.xml
-ms.topic: macro
 f1_keywords:
  - "storport/StorPortWritePortUchar"
 req.header: storport.h

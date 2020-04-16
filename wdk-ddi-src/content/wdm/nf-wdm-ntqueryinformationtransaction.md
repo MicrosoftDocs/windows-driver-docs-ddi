@@ -6,8 +6,8 @@ old-location: kernel\zwqueryinformationtransaction.htm
 tech.root: kernel
 ms.assetid: b4a4cc4b-8f23-4dd6-81d3-4cb2c861ba4f
 ms.date: 04/30/2018
+keywords: ["NtQueryInformationTransaction function"]
 ms.keywords: NtQueryInformationTransaction, ZwQueryInformationTransaction, ZwQueryInformationTransaction routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationtransaction, ktm_ref_ffef2acc-e180-4adf-8aa5-31ee7dae0592.xml, wdm/NtQueryInformationTransaction, wdm/ZwQueryInformationTransaction
-ms.topic: function
 f1_keywords:
  - "wdm/ZwQueryInformationTransaction"
 req.header: wdm.h

@@ -6,8 +6,8 @@ old-location: kernel\pwmparsepinpath.htm
 tech.root: spb
 ms.assetid: 854A2B6F-A841-4AE4-9E54-68EF048C9504
 ms.date: 04/30/2018
+keywords: ["PwmParsePinPath function"]
 ms.keywords: PwmParsePinPath, PwmParsePinPath function [Kernel-Mode Driver Architecture], kernel.pwmparsepinpath, pwmutil/PwmParsePinPath
-ms.topic: function
 f1_keywords:
  - "pwmutil/PwmParsePinPath"
 req.header: pwmutil.h

@@ -6,8 +6,8 @@ old-location: pci\sriov_reset_function.htm
 tech.root: PCI
 ms.assetid: 30c01528-8254-431f-aaba-79c05f66fc00
 ms.date: 02/24/2018
+keywords: ["SRIOV_RESET_FUNCTION callback"]
 ms.keywords: "*PSRIOV_RESET_FUNCTION, *PSRIOV_RESET_FUNCTION callback function pointer [Buses], PCI.sriov_reset_function, SRIOV_RESET_FUNCTION, SriovResetFunction, SriovResetFunction callback function [Buses], pcivirt/SriovResetFunction"
-ms.topic: callback
 f1_keywords:
  - "pcivirt/*PSRIOV_RESET_FUNCTION"
 req.header: pcivirt.h
@@ -35,7 +35,7 @@ api_type:
 api_location:
 - Pcivirt.h
 api_name:
-- *PSRIOV_RESET_FUNCTION
+- PSRIOV_RESET_FUNCTION
 product:
 - Windows
 targetos: Windows

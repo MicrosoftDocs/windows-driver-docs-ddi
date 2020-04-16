@@ -6,8 +6,8 @@ old-location: kernel\mmisaddressvalid.htm
 tech.root: kernel
 ms.assetid: 328f9ffe-67ae-4ba5-98e4-b3b00068eb0e
 ms.date: 04/30/2018
+keywords: ["MmIsAddressValid function"]
 ms.keywords: MmIsAddressValid, MmIsAddressValid routine [Kernel-Mode Driver Architecture], k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml, kernel.mmisaddressvalid, ntddk/MmIsAddressValid
-ms.topic: function
 f1_keywords:
  - "ntddk/MmIsAddressValid"
 req.header: ntddk.h

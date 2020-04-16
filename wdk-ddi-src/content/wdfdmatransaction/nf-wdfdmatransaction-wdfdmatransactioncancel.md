@@ -6,8 +6,8 @@ old-location: wdf\wdfdmatransactioncancel.htm
 tech.root: wdf
 ms.assetid: A0EB188E-D5C7-4C7B-A462-2C3792825FD8
 ms.date: 02/26/2018
+keywords: ["WdfDmaTransactionCancel function"]
 ms.keywords: WdfDmaTransactionCancel, WdfDmaTransactionCancel method, kmdf.wdfdmatransactioncancel, wdf.wdfdmatransactioncancel, wdfdmatransaction/WdfDmaTransactionCancel
-ms.topic: function
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionCancel"
 req.header: wdfdmatransaction.h

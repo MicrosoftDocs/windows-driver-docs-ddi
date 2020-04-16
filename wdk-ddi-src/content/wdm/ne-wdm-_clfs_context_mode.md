@@ -6,8 +6,8 @@ old-location: kernel\clfs_context_mode.htm
 tech.root: kernel
 ms.assetid: 35f2b42d-d67f-4fd4-adde-918a2587980b
 ms.date: 04/30/2018
+keywords: ["_CLFS_CONTEXT_MODE enumeration"]
 ms.keywords: "*PCLFS_CONTEXT_MODE, CLFS_CONTEXT_MODE, CLFS_CONTEXT_MODE enumeration [Kernel-Mode Driver Architecture], ClfsContextForward, ClfsContextNone, ClfsContextPrevious, ClfsContextUndoNext, PCLFS_CONTEXT_MODE, PCLFS_CONTEXT_MODE enumeration pointer [Kernel-Mode Driver Architecture], PPCLFS_CONTEXT_MODE, PPCLFS_CONTEXT_MODE enumeration pointer [Kernel-Mode Driver Architecture], _CLFS_CONTEXT_MODE, kernel.clfs_context_mode, sysenum_b51a934c-9174-4607-8da9-22c7ecf56730.xml, wdm/CLFS_CONTEXT_MODE, wdm/ClfsContextForward, wdm/ClfsContextNone, wdm/ClfsContextPrevious, wdm/ClfsContextUndoNext, wdm/PCLFS_CONTEXT_MODE, wdm/PPCLFS_CONTEXT_MODE"
-ms.topic: enum
 f1_keywords:
  - "wdm/CLFS_CONTEXT_MODE"
 req.header: wdm.h

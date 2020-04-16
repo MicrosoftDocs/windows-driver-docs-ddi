@@ -6,8 +6,8 @@ old-location: debugger\readunicodestringvirtualwide.htm
 tech.root: debugger
 ms.assetid: 7c360f9a-83f6-4bc8-abb4-08d1b0c4fdc9
 ms.date: 05/03/2018
+keywords: ["IDebugDataSpaces4::ReadUnicodeStringVirtualWide"]
 ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],ReadUnicodeStringVirtualWide method, IDebugDataSpaces4.ReadUnicodeStringVirtualWide, IDebugDataSpaces4::ReadUnicodeStringVirtualWide, IDebugDataSpaces_c722fa7f-bbd2-4e0c-bd83-c59d2442ae26.xml, ReadUnicodeStringVirtualWide, ReadUnicodeStringVirtualWide method [Windows Debugging], ReadUnicodeStringVirtualWide method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadUnicodeStringVirtualWide, debugger.readunicodestringvirtualwide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugDataSpaces4.ReadUnicodeStringVirtualWide"
 req.header: dbgeng.h

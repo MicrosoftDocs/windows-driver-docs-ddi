@@ -6,8 +6,8 @@ old-location: ifsk\PFLT_GET_OPERATION_STATUS_CALLBACK.htm
 tech.root: ifsk
 ms.assetid: f3fedf69-260c-4117-b302-db3ce6b182a0
 ms.date: 04/16/2018
+keywords: ["PFLT_GET_OPERATION_STATUS_CALLBACK callback function"]
 ms.keywords: OperationStatusCallback, OperationStatusCallback routine [Installable File System Drivers], PFLT_GET_OPERATION_STATUS_CALLBACK, fltkernel/OperationStatusCallback, ifsk.PFLT_GET_OPERATION_STATUS_CALLBACK
-ms.topic: callback
 f1_keywords:
  - "fltkernel/OperationStatusCallback"
 req.header: fltkernel.h

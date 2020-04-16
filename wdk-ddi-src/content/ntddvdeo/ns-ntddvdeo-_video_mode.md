@@ -6,8 +6,8 @@ old-location: display\video_mode.htm
 tech.root: display
 ms.assetid: 01fad141-d023-4a3a-80ae-cb07985db8d1
 ms.date: 05/10/2018
+keywords: ["_VIDEO_MODE structure"]
 ms.keywords: "*PVIDEO_MODE, PVIDEO_MODE, PVIDEO_MODE structure pointer [Display Devices], VIDEO_MODE, VIDEO_MODE structure [Display Devices], Video_Structs_7a64b36b-d8f2-411d-86e3-4fe854a94220.xml, _VIDEO_MODE, display.video_mode, ntddvdeo/PVIDEO_MODE, ntddvdeo/VIDEO_MODE"
-ms.topic: struct
 f1_keywords:
  - "ntddvdeo/VIDEO_MODE"
 req.header: ntddvdeo.h

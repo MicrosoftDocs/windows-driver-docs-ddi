@@ -6,8 +6,8 @@ old-location: kernel\componentcriticaltransitioncallback.htm
 tech.root: kernel
 ms.assetid: 6E551951-E903-4970-8B30-6780C9FF4FC6
 ms.date: 04/30/2018
+keywords: ["PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK callback function"]
 ms.keywords: ComponentCriticalTransitionCallback, ComponentCriticalTransitionCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_CRITICAL_TRANSITION_CALLBACK, kernel.componentcriticaltransitioncallback, wdm/ComponentCriticalTransitionCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/ComponentCriticalTransitionCallback"
 req.header: wdm.h

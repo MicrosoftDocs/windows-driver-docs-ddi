@@ -6,8 +6,8 @@ old-location: wdf\wdfusbtargetpipegetiotarget.htm
 tech.root: wdf
 ms.assetid: 73835623-fa35-46f0-90a2-62d6d596dc64
 ms.date: 02/26/2018
+keywords: ["WdfUsbTargetPipeGetIoTarget function"]
 ms.keywords: DFUsbRef_87bfc4fc-266b-44ca-911f-fc5d73735a6a.xml, WdfUsbTargetPipeGetIoTarget, WdfUsbTargetPipeGetIoTarget method, kmdf.wdfusbtargetpipegetiotarget, wdf.wdfusbtargetpipegetiotarget, wdfusb/WdfUsbTargetPipeGetIoTarget
-ms.topic: function
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeGetIoTarget"
 req.header: wdfusb.h

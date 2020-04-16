@@ -6,8 +6,8 @@ old-location: storage\receive_token_information_response_header.htm
 tech.root: storage
 ms.assetid: 54168476-1C55-4343-858C-7FBA863D35D0
 ms.date: 03/29/2018
+keywords: ["RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure"]
 ms.keywords: "*PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure pointer [Storage Devices], RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure [Storage Devices], scsi/PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, scsi/RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, storage.receive_token_information_response_header"
-ms.topic: struct
 f1_keywords:
  - "minitape/RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER"
 req.header: minitape.h

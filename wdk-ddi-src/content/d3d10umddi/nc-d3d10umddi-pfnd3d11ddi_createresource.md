@@ -5,8 +5,8 @@ description: Creates a resource.
 old-location: display\createresource_d3d11_.htm
 ms.assetid: 2dff9d2e-c497-422f-824b-a7101904fd67
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_CREATERESOURCE callback function"]
 ms.keywords: CreateResource, CreateResource callback function [Display Devices], PFND3D11DDI_CREATERESOURCE, PFND3D11DDI_CREATERESOURCE callback, UserModeDisplayDriverDx11_Functions_3ac053d0-82dc-4bdf-af15-258af82c568b.xml, d3d10umddi/CreateResource, display.createresource_d3d11_
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -64,11 +64,15 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ### -param Arg3
 
+*hResource* [in]
+
+A handle to the driver's private data for the resource.
+
+### -param Arg4
+
 *hRTResource* [in]
 
 A handle to the resource that the driver will use when it calls back into the Direct3D runtime.
-
-### -param Arg4
 
 ## -remarks
 

@@ -6,8 +6,8 @@ old-location: ifsk\fltsetinformationfile.htm
 tech.root: ifsk
 ms.assetid: 8d0a91ef-9fb0-45a6-979a-614aed1703a5
 ms.date: 04/16/2018
+keywords: ["FltSetInformationFile function"]
 ms.keywords: FltApiRef_p_to_z_310caf59-cf9a-488a-8632-f0d8d5e14769.xml, FltSetInformationFile, FltSetInformationFile function [Installable File System Drivers], fltkernel/FltSetInformationFile, ifsk.fltsetinformationfile
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltSetInformationFile"
 req.header: fltkernel.h

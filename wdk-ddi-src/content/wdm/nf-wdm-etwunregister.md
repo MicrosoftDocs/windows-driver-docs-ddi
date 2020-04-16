@@ -6,8 +6,8 @@ old-location: devtest\etwunregister.htm
 tech.root: devtest
 ms.assetid: 205d0f4e-0a10-4e0e-8fea-4f1e5ed8c701
 ms.date: 02/23/2018
+keywords: ["EtwUnregister function"]
 ms.keywords: EtwUnregister, EtwUnregister function [Driver Development Tools], devtest.etwunregister, etw_km_04787c1b-049f-4b92-b75c-3da660d51164.xml, wdm/EtwUnregister
-ms.topic: function
 f1_keywords:
  - "wdm/EtwUnregister"
 req.header: wdm.h

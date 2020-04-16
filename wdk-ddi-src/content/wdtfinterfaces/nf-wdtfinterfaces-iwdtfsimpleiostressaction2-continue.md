@@ -6,8 +6,8 @@ old-location: dtf\iwdtfsimpleiostressaction2_continue.htm
 tech.root: dtf
 ms.assetid: 5625c4af-329d-4b16-9d5d-0ca962a7abff
 ms.date: 04/04/2018
+keywords: ["IWDTFSimpleIOStressAction2::Continue"]
 ms.keywords: Continue, Continue method [Windows Device Testing Framework], Continue method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],Continue method, IWDTFSimpleIOStressAction2.Continue, IWDTFSimpleIOStressAction2::Continue, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Continue, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Continue, dtf.iwdtfsimpleiostressaction2_continue, wdtfinterfaces/IWDTFSimpleIOStressAction2::Continue
-ms.topic: method
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOStressAction2.Continue"
 req.header: wdtfinterfaces.h

@@ -6,8 +6,8 @@ old-location: dtf\iwdtftargets2_getinterfacesifexist.htm
 tech.root: dtf
 ms.assetid: 5ec2e981-87ee-4ebe-ae60-c5acae2c073e
 ms.date: 04/04/2018
+keywords: ["IWDTFTargets2::GetInterfacesIfExist"]
 ms.keywords: GetInterfacesIfExist, GetInterfacesIfExist method [Windows Device Testing Framework], GetInterfacesIfExist method [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],GetInterfacesIfExist method, IWDTFTargets2.GetInterfacesIfExist, IWDTFTargets2::GetInterfacesIfExist, Microsoft.WDTF.IWDTFTargets2.GetInterfacesIfExist, Microsoft::WDTF::IWDTFTargets2::GetInterfacesIfExist, dtf.iwdtftargets2_getinterfacesifexist, wdtf/IWDTFTargets2::GetInterfacesIfExist
-ms.topic: method
 f1_keywords:
  - "wdtf/IWDTFTargets2.GetInterfacesIfExist"
 req.header: wdtf.h

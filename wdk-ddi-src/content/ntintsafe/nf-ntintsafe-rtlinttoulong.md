@@ -6,8 +6,8 @@ old-location: kernel\rtlinttoulong.htm
 tech.root: kernel
 ms.assetid: B5308AB1-3BF6-4B93-AC6B-655D00DFC5E5
 ms.date: 04/30/2018
+keywords: ["RtlIntToULong function"]
 ms.keywords: RtlIntToULong, RtlIntToULong function [Kernel-Mode Driver Architecture], kernel.rtlinttoulong, ntintsafe/RtlIntToULong
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlIntToULong"
 req.header: ntintsafe.h

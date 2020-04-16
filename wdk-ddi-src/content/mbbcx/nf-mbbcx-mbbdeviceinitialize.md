@@ -5,7 +5,7 @@ description: The MbbDeviceInitialize method registers the client driver's MBB-sp
 tech.root: netvista
 ms.assetid: 051cb7e8-4baf-46b2-99fd-43fc30dd49a9
 ms.date: 06/28/2018
-ms.topic: function
+keywords: ["MbbDeviceInitialize function"]
 f1_keywords:
  - "mbbcx/MbbDeviceInitialize"
 ms.keywords: MbbDeviceInitialize

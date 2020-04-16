@@ -6,8 +6,8 @@ old-location: image\iwiaminidrv_drvdevicecommand.htm
 tech.root: image
 ms.assetid: e17c81a6-8c4e-41f0-bd98-f7a9a0f20893
 ms.date: 05/03/2018
+keywords: ["IWiaMiniDrv::drvDeviceCommand"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvDeviceCommand method, IWiaMiniDrv.drvDeviceCommand, IWiaMiniDrv::drvDeviceCommand, MiniDrv_a65ceaef-73bf-4fd1-9d56-2a4b208f54a3.xml, drvDeviceCommand, drvDeviceCommand method [Imaging Devices], drvDeviceCommand method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvdevicecommand, wiamindr_lh/IWiaMiniDrv::drvDeviceCommand
-ms.topic: method
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv.drvDeviceCommand"
 req.header: wiamindr_lh.h

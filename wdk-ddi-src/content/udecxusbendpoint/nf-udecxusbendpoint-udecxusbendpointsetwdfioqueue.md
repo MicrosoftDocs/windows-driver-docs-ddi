@@ -6,8 +6,8 @@ old-location: buses\udecxusbendpointsetwdfioqueue.htm
 tech.root: usbref
 ms.assetid: 48744342-9137-48F5-9071-528974DE6AD5
 ms.date: 05/07/2018
+keywords: ["UdecxUsbEndpointSetWdfIoQueue function"]
 ms.keywords: UdecxUsbEndpointSetWdfIoQueue, UdecxUsbEndpointSetWdfIoQueue function [Buses], buses.udecxusbendpointsetwdfioqueue, udecxusbendpoint/UdecxUsbEndpointSetWdfIoQueue
-ms.topic: function
 f1_keywords:
  - "udecxusbendpoint/UdecxUsbEndpointSetWdfIoQueue"
 req.header: udecxusbendpoint.h

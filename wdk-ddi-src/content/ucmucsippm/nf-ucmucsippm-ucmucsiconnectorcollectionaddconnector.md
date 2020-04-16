@@ -5,7 +5,7 @@ tech.root: usbref
 description: Adds a connector to the connector collection object.
 ms.assetid: 0b8f9d0c-60c8-467d-9575-833c87f45bb6
 ms.date: 09/30/2018
-ms.topic: function
+keywords: ["UcmUcsiConnectorCollectionAddConnector function"]
 f1_keywords:
  - "ucmucsippm/UcmUcsiConnectorCollectionAddConnector"
 ms.keywords: UcmUcsiConnectorCollectionAddConnector

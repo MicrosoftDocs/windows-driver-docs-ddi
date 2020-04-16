@@ -6,8 +6,8 @@ old-location: stream\ksdeviceregisteraggregatedclientunknown.htm
 tech.root: stream
 ms.assetid: d4d3f653-cfdc-4567-97bc-def26484ed9f
 ms.date: 04/23/2018
+keywords: ["KsDeviceRegisterAggregatedClientUnknown function"]
 ms.keywords: KsDeviceRegisterAggregatedClientUnknown, KsDeviceRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_3e7aa517-80e8-498c-939d-1769393479fb.xml, ks/KsDeviceRegisterAggregatedClientUnknown, stream.ksdeviceregisteraggregatedclientunknown
-ms.topic: function
 f1_keywords:
  - "ks/KsDeviceRegisterAggregatedClientUnknown"
 req.header: ks.h

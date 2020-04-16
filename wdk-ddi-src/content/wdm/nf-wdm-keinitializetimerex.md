@@ -6,8 +6,8 @@ old-location: kernel\keinitializetimerex.htm
 tech.root: kernel
 ms.assetid: 57ed4f33-6ce6-41ae-b424-147318ba7656
 ms.date: 04/30/2018
+keywords: ["KeInitializeTimerEx function"]
 ms.keywords: KeInitializeTimerEx, KeInitializeTimerEx routine [Kernel-Mode Driver Architecture], k105_62ca8d08-a87a-4cbd-80fa-18b646b8500d.xml, kernel.keinitializetimerex, wdm/KeInitializeTimerEx
-ms.topic: function
 f1_keywords:
  - "wdm/KeInitializeTimerEx"
 req.header: wdm.h

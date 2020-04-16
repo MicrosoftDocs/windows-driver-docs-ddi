@@ -5,8 +5,8 @@ description: Used to extract the bundle object.
 old-location: display\d3dkmt-extractbundleobject.htm
 ms.assetid: 85112ddb-47e6-4874-bd64-a7e4d7ca0fd3
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_EXTRACTBUNDLEOBJECT structure"]
 ms.keywords: D3DKMT_EXTRACTBUNDLEOBJECT, D3DKMT_EXTRACTBUNDLEOBJECT structure [Display Devices], _D3DKMT_EXTRACTBUNDLEOBJECT, d3dkmthk/D3DKMT_EXTRACTBUNDLEOBJECT, display.d3dkmt-extractbundleobject
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_EXTRACTBUNDLEOBJECT"
 req.header: d3dkmthk.h

@@ -6,8 +6,8 @@ old-location: stream\ksallocator_framing.htm
 tech.root: stream
 ms.assetid: db96eccd-6747-458b-9a9e-ec909146f3fa
 ms.date: 04/23/2018
+keywords: ["KSALLOCATOR_FRAMING structure"]
 ms.keywords: "*PKSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING structure [Streaming Media Devices], PKSALLOCATOR_FRAMING, PKSALLOCATOR_FRAMING structure pointer [Streaming Media Devices], ks-struct_cc2d8d16-75d5-4ef4-b8de-63197e61424b.xml, ks/KSALLOCATOR_FRAMING, ks/PKSALLOCATOR_FRAMING, stream.ksallocator_framing"
-ms.topic: struct
 f1_keywords:
  - "ks/KSALLOCATOR_FRAMING"
 req.header: ks.h

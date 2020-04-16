@@ -7,7 +7,7 @@ tech.root:
 ms.assetid: b8dbb7ce-6bc8-4899-92b6-7499b26e8539
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: function
+keywords: ["MmSecureVirtualMemoryEx function"]
 f1_keywords:
  - "ntddk/MmSecureVirtualMemoryEx"
 ms.keywords: MmSecureVirtualMemoryEx

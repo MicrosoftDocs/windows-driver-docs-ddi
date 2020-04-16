@@ -4,7 +4,7 @@ title: IModelKeyReference2::SetKeyValue (dbgmodel.h)
 description: The SetKeyValue method on a key reference behaves as the SetKeyValue method on IModelObject would. 
 ms.assetid: 598b054d-e083-41c2-80c0-cd8c8a12c1b7
 ms.date: 08/14/2018
-ms.topic: method
+keywords: ["IModelKeyReference2::SetKeyValue"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference2.SetKeyValue"
 ms.keywords: IModelKeyReference2::SetKeyValue, SetKeyValue, IModelKeyReference2.SetKeyValue, IModelKeyReference2::SetKeyValue, IModelKeyReference2.SetKeyValue

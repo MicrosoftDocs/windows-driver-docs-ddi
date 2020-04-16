@@ -4,7 +4,7 @@ title: IDebugHostConstant (dbgmodel.h)
 description: Represents a constant within symbolic information (a non-type template argument in C++).
 ms.assetid: 87e25e99-ea64-4cda-8cae-fd38ec9c3343
 ms.date: 07/13/2018
-ms.topic: interface
+keywords: ["IDebugHostConstant interface"]
 f1_keywords:
  - "dbgmodel/IDebugHostConstant"
 req.header: dbgmodel.h

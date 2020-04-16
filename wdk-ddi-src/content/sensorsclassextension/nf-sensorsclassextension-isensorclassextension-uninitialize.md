@@ -6,8 +6,8 @@ old-location: sensors\isensorclassextension_uninitialize.htm
 tech.root: sensors
 ms.assetid: 204a6126-bb69-4a96-acbf-3ad5b8ae0f04
 ms.date: 05/03/2018
+keywords: ["ISensorClassExtension::Uninitialize"]
 ms.keywords: ISensorClassExtension interface [Sensor Devices],Uninitialize method, ISensorClassExtension.Uninitialize, ISensorClassExtension::Uninitialize, Uninitialize, Uninitialize method [Sensor Devices], Uninitialize method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_uninitialize, sensorsclassextension/ISensorClassExtension::Uninitialize
-ms.topic: method
 f1_keywords:
  - "sensorsclassextension/Uninitialize"
 req.header: sensorsclassextension.h

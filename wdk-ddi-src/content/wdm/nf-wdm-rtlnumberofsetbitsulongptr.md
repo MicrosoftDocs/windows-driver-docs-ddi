@@ -6,8 +6,8 @@ old-location: kernel\rtlnumberofsetbitsulongptr.htm
 tech.root: kernel
 ms.assetid: CD619018-7E6D-4B45-93C3-AD89FDFEB1E9
 ms.date: 04/30/2018
+keywords: ["RtlNumberOfSetBitsUlongPtr function"]
 ms.keywords: RtlNumberOfSetBitsUlongPtr, RtlNumberOfSetBitsUlongPtr routine [Kernel-Mode Driver Architecture], kernel.rtlnumberofsetbitsulongptr, wdm/RtlNumberOfSetBitsUlongPtr
-ms.topic: function
 f1_keywords:
  - "wdm/RtlNumberOfSetBitsUlongPtr"
 req.header: wdm.h

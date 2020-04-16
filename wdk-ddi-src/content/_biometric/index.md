@@ -3,6 +3,7 @@ UID: TP:biometric
 title: Biometric
 ms.assetid: 5af9b578-0fef-3edc-b459-8e62ce9c45f8
 ms.date: 05/09/2018
+keywords: ["Biometric"]
 ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices

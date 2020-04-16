@@ -6,8 +6,8 @@ old-location: ifsk\fsrtloplockbreaktonone.htm
 tech.root: ifsk
 ms.assetid: 9604c9bf-f15e-49fd-82c8-90a4a5cc1ba0
 ms.date: 03/29/2018
+keywords: ["FsRtlOplockBreakToNone function"]
 ms.keywords: FsRtlOplockBreakToNone, FsRtlOplockBreakToNone function [Installable File System Drivers], fsrtlref_8d6206fb-3cc8-4f43-83b1-266c398f933e.xml, ifsk.fsrtloplockbreaktonone, ntifs/FsRtlOplockBreakToNone
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlOplockBreakToNone"
 req.header: ntifs.h

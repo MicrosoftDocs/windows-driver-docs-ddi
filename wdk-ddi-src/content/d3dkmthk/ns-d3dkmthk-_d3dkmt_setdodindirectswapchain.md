@@ -4,7 +4,7 @@ title: _D3DKMT_SETDODINDIRECTSWAPCHAIN (d3dkmthk.h)
 description: Used to set the device owner display's (DOD) indirect swap chain resources.
 ms.assetid: 1361b90e-5462-44ba-b117-c83fe4c6c040
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DKMT_SETDODINDIRECTSWAPCHAIN structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_SETDODINDIRECTSWAPCHAIN"
 ms.keywords: _D3DKMT_SETDODINDIRECTSWAPCHAIN, D3DKMT_SETDODINDIRECTSWAPCHAIN, 

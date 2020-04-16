@@ -6,8 +6,8 @@ old-location: netvista\ndisifderegisterinterface.htm
 tech.root: netvista
 ms.assetid: 696d0870-966e-44ac-859e-d530dd6c76b8
 ms.date: 05/02/2018
+keywords: ["NdisIfDeregisterInterface function"]
 ms.keywords: NdisIfDeregisterInterface, NdisIfDeregisterInterface function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeregisterInterface, net_if_functions_ref_dc1bdf3d-3cca-4d4a-b0f9-4bdef32bcdb0.xml, netvista.ndisifderegisterinterface
-ms.topic: function
 f1_keywords:
  - "ndis/NdisIfDeregisterInterface"
 req.header: ndis.h

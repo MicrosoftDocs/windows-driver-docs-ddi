@@ -6,8 +6,8 @@ old-location: print\iprintoemuimxdc_adjustimagecompression.htm
 tech.root: print
 ms.assetid: d9606c9b-4a47-4e83-ad8a-ef82e2c70de3
 ms.date: 04/20/2018
+keywords: ["IPrintOemUIMXDC::AdjustImageCompression"]
 ms.keywords: AdjustImageCompression, AdjustImageCompression method [Print Devices], AdjustImageCompression method [Print Devices],IPrintOemUIMXDC interface, IPrintOemUIMXDC interface [Print Devices],AdjustImageCompression method, IPrintOemUIMXDC.AdjustImageCompression, IPrintOemUIMXDC::AdjustImageCompression, prcomoem/IPrintOemUIMXDC::AdjustImageCompression, print.iprintoemuimxdc_adjustimagecompression, print_unidrv-pscript_ui_a4a6182b-9471-473a-9c16-15f56dcddda5.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemUIMXDC.AdjustImageCompression"
 req.header: prcomoem.h

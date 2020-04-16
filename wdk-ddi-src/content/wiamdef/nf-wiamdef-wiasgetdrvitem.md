@@ -6,8 +6,8 @@ old-location: image\wiasgetdrvitem.htm
 tech.root: image
 ms.assetid: c09924ef-cd2c-419c-81d5-bbd40b886767
 ms.date: 05/03/2018
+keywords: ["wiasGetDrvItem function"]
 ms.keywords: image.wiasgetdrvitem, wiamdef/wiasGetDrvItem, wiasFncs_47e70917-9675-4291-a76a-46aa734efef3.xml, wiasGetDrvItem, wiasGetDrvItem function [Imaging Devices]
-ms.topic: function
 f1_keywords:
  - "wiamdef/wiasGetDrvItem"
 req.header: wiamdef.h

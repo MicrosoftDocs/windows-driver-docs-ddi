@@ -6,8 +6,8 @@ old-location: acpi\deregisteropregionhandler.htm
 tech.root: acpi
 ms.assetid: b50a63cd-69eb-46a8-9d0b-660795c7047f
 ms.date: 02/15/2018
+keywords: ["DeRegisterOpRegionHandler function"]
 ms.keywords: DeRegisterOpRegionHandler, DeRegisterOpRegionHandler routine [ACPI Devices], acpi.deregisteropregionhandler, opregref_e991e152-6162-4d45-9418-282afb447d18.xml, oprghdlr/DeRegisterOpRegionHandler
-ms.topic: function
 f1_keywords:
  - "oprghdlr/DeRegisterOpRegionHandler"
 req.header: oprghdlr.h

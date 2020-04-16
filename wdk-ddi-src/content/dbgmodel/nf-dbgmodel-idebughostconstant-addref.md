@@ -4,7 +4,7 @@ title: IDebugHostConstant::AddRef (dbgmodel.h)
 description: Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 
 ms.assetid: 44c0dec2-be36-4863-8b09-f10b1a101855
 ms.date: 09/21/2018
-ms.topic: method
+keywords: ["IDebugHostConstant::AddRef"]
 f1_keywords:
  - "dbgmodel/IDebugHostConstant.AddRef"
 ms.keywords: IDebugHostConstant::AddRef, AddRef, IDebugHostConstant.AddRef, IDebugHostConstant::AddRef, IDebugHostConstant.AddRef

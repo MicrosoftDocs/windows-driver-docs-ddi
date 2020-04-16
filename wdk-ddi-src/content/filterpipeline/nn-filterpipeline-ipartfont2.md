@@ -6,8 +6,8 @@ old-location: print\ipartfont2.htm
 tech.root: print
 ms.assetid: AB1EFF6E-4FF5-413E-A4E4-3EEC47CDEBD4
 ms.date: 04/20/2018
+keywords: ["IPartFont2 interface"]
 ms.keywords: IPartFont2, IPartFont2 interface [Print Devices], IPartFont2 interface [Print Devices],described, filterpipeline/IPartFont2, print.ipartfont2
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IPartFont2"
 req.header: filterpipeline.h
@@ -54,7 +54,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPartFont2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPartFont2</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPartFont2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPartFont2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

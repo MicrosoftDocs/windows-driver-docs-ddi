@@ -4,7 +4,7 @@ title: D3DDDI_REVISION16_FROM_VERSION32 macro (d3dumddi.h)
 description: Converts a 16 bit revision from a 32 bit version.
 ms.assetid: cb5d25f6-7477-49ee-9781-0f727f7c7f94
 ms.date: 10/19/2018
-ms.topic: macro
+keywords: ["D3DDDI_REVISION16_FROM_VERSION32 macro"]
 f1_keywords:
  - "d3dumddi/D3DDDI_REVISION16_FROM_VERSION32"
 ms.keywords: D3DDDI_REVISION16_FROM_VERSION32

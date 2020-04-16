@@ -6,8 +6,8 @@ old-location: wpddk\wpd_capture_modes.htm
 tech.root: wpd_dk
 ms.assetid: 6aba61ed-e8b3-4fe1-a5f6-439165db4097
 ms.date: 02/13/2019
+keywords: ["tagWPD_CAPTURE_MODES enumeration"]
 ms.keywords: WPD_CAPTURE_MODES, WPD_CAPTURE_MODES enumeration, WPD_CAPTURE_MODE_BURST, WPD_CAPTURE_MODE_NORMAL, WPD_CAPTURE_MODE_TIMELAPSE, WPD_CAPTURE_MODE_UNDEFINED, enumeration, portabledevice/WPD_CAPTURE_MODES, portabledevice/WPD_CAPTURE_MODE_BURST, portabledevice/WPD_CAPTURE_MODE_NORMAL, portabledevice/WPD_CAPTURE_MODE_TIMELAPSE, portabledevice/WPD_CAPTURE_MODE_UNDEFINED, tagWPD_CAPTURE_MODES, wpddk.wpd_capture_modes
-ms.topic: enum
 f1_keywords:
  - "portabledevice/WPD_CAPTURE_MODES"
 req.header: portabledevice.h

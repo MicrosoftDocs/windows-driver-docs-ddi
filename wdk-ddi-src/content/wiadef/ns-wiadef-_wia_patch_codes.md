@@ -6,8 +6,8 @@ old-location: image\wia_patch_codes.htm
 tech.root: image
 ms.assetid: CFD2403B-DDD4-4318-9084-1B3E3462FBDC
 ms.date: 05/03/2018
+keywords: ["_WIA_PATCH_CODES structure"]
 ms.keywords: WIA_PATCH_CODES, WIA_PATCH_CODES structure [Imaging Devices], _WIA_PATCH_CODES, image.wia_patch_codes, wiadef/WIA_PATCH_CODES
-ms.topic: struct
 f1_keywords:
  - "wiadef/WIA_PATCH_CODES"
 req.header: wiadef.h

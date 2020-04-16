@@ -6,8 +6,8 @@ old-location: netvista\ril_setexecutorfocus.htm
 tech.root: netvista
 ms.assetid: c8deb6ef-e75b-4c90-a7ca-d685fdcc43bc
 ms.date: 05/02/2018
+keywords: ["RIL_SetExecutorFocus function"]
 ms.keywords: RIL_SetExecutorFocus, RIL_SetExecutorFocus method [Network Drivers Starting with Windows Vista], netvista.ril_setexecutorfocus, rilapi/RIL_SetExecutorFocus
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_SetExecutorFocus"
 req.header: rilapi.h

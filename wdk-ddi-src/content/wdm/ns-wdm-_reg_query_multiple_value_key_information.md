@@ -6,8 +6,8 @@ old-location: kernel\reg_query_multiple_value_key_information.htm
 tech.root: kernel
 ms.assetid: 764045c0-9057-4abc-a1bd-8713797082c6
 ms.date: 04/30/2018
+keywords: ["_REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, kernel.reg_query_multiple_value_key_information, kstruct_d_b61ed5ad-3ac8-4db4-abe9-5670b4c8d997.xml, wdm/PREG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION, wdm/REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "wdm/REG_QUERY_MULTIPLE_VALUE_KEY_INFORMATION"
 req.header: wdm.h

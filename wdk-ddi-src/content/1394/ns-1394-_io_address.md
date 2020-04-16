@@ -6,8 +6,8 @@ old-location: ieee\io_address.htm
 tech.root: IEEE
 ms.assetid: db703d46-d37f-442a-a543-ce9e9c5ea3cb
 ms.date: 02/15/2018
+keywords: ["_IO_ADDRESS structure"]
 ms.keywords: "*PIO_ADDRESS, 1394/IO_ADDRESS, 1394/PIO_ADDRESS, 1394stct_1683915b-161d-4741-91b9-32f632b56e59.xml, IEEE.io_address, IO_ADDRESS, IO_ADDRESS structure [Buses], PIO_ADDRESS, PIO_ADDRESS structure pointer [Buses], _IO_ADDRESS"
-ms.topic: struct
 f1_keywords:
  - "1394/IO_ADDRESS"
 req.header: 1394.h

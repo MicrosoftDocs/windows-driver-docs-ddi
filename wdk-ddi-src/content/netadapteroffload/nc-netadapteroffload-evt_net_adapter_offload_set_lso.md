@@ -5,7 +5,7 @@ description: The EvtNetAdapterOffloadSetLso callback function is implemented by 
 tech.root: netvista
 ms.assetid: 7c11be49-4d85-49c4-9416-47da1214fc1b
 ms.date: 01/17/2019
-ms.topic: callback
+keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_LSO callback function"]
 f1_keywords:
  - "netadapteroffload/EVT_NET_ADAPTER_OFFLOAD_SET_LSO"
 req.header: netadapteroffload.h

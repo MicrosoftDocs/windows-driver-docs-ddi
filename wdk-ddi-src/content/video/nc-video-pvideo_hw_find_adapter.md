@@ -6,8 +6,8 @@ old-location: display\hwvidfindadapter.htm
 tech.root: display
 ms.assetid: 8c880eff-4b4c-439e-9239-f2343c1fe084
 ms.date: 05/10/2018
+keywords: ["PVIDEO_HW_FIND_ADAPTER callback function"]
 ms.keywords: HwVidFindAdapter, HwVidFindAdapter callback function [Display Devices], PVIDEO_HW_FIND_ADAPTER, PVIDEO_HW_FIND_ADAPTER callback, VideoMiniport_Functions_f035d610-08b2-4403-b9dc-c069520d61bb.xml, display.hwvidfindadapter, video/HwVidFindAdapter
-ms.topic: callback
 f1_keywords:
  - "video/HwVidFindAdapter"
 req.header: video.h

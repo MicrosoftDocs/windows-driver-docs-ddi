@@ -6,8 +6,8 @@ old-location: wdf\wdfdevicegetfileobject.htm
 tech.root: wdf
 ms.assetid: 2e56d444-4248-4f00-b712-cbb3a4869302
 ms.date: 02/26/2018
+keywords: ["WdfDeviceGetFileObject function"]
 ms.keywords: DFDeviceObjectGeneralRef_5aa48187-4a28-424c-9cd1-76cb5a33dc75.xml, WdfDeviceGetFileObject, WdfDeviceGetFileObject method, kmdf.wdfdevicegetfileobject, wdf.wdfdevicegetfileobject, wdfdevice/WdfDeviceGetFileObject
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceGetFileObject"
 req.header: wdfdevice.h

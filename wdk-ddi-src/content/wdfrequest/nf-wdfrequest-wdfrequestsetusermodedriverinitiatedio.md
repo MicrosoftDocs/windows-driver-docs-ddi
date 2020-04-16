@@ -6,8 +6,8 @@ old-location: wdf\wdfrequestsetusermodedriverinitiatedio.htm
 tech.root: wdf
 ms.assetid: F477ABEA-5E29-4934-995C-D7FB1EF87A5B
 ms.date: 02/26/2018
+keywords: ["WdfRequestSetUserModeDriverInitiatedIo function"]
 ms.keywords: WdfRequestSetUserModeDriverInitiatedIo, WdfRequestSetUserModeDriverInitiatedIo method, wdf.wdfrequestsetusermodedriverinitiatedio, wdfrequest/WdfRequestSetUserModeDriverInitiatedIo
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WdfRequestSetUserModeDriverInitiatedIo"
 req.header: wdfrequest.h

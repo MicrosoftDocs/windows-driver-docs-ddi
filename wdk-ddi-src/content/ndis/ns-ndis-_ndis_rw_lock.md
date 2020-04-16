@@ -6,8 +6,8 @@ old-location: netvista\ndis_rw_lock.htm
 tech.root: netvista
 ms.assetid: b44e62ec-d36a-46df-846c-3f1cf6cef003
 ms.date: 05/02/2018
+keywords: ["_NDIS_RW_LOCK structure"]
 ms.keywords: "*PNDIS_RW_LOCK, NDIS_RW_LOCK, NDIS_RW_LOCK structure [Network Drivers Starting with Windows Vista], PNDIS_RW_LOCK, PNDIS_RW_LOCK structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RW_LOCK, ndis/NDIS_RW_LOCK, ndis/PNDIS_RW_LOCK, ndis_processor_group_ref_4680aefb-5db5-4e48-aec2-a7c6769892aa.xml, netvista.ndis_rw_lock"
-ms.topic: struct
 f1_keywords:
  - "ndis/NDIS_RW_LOCK"
 req.header: ndis.h

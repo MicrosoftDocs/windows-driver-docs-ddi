@@ -6,8 +6,8 @@ old-location: wdf\wdfcontrolfinishinitializing.htm
 tech.root: wdf
 ms.assetid: 13375ae1-6908-44d8-b775-4375f4fdde4d
 ms.date: 02/26/2018
+keywords: ["WdfControlFinishInitializing function"]
 ms.keywords: DFDeviceObjectControllerDevObjRef_af1b91cc-0f6c-4b03-b168-5ac1357f2dc3.xml, WdfControlFinishInitializing, WdfControlFinishInitializing method, kmdf.wdfcontrolfinishinitializing, wdf.wdfcontrolfinishinitializing, wdfcontrol/WdfControlFinishInitializing
-ms.topic: function
 f1_keywords:
  - "wdfcontrol/WdfControlFinishInitializing"
 req.header: wdfcontrol.h

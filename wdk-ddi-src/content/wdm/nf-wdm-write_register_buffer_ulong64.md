@@ -6,8 +6,8 @@ old-location: kernel\write_register_buffer_ulong64.htm
 tech.root: kernel
 ms.assetid: 18858A87-D7D8-4387-AD84-6717EC3DAC25
 ms.date: 02/26/2018
+keywords: ["WRITE_REGISTER_BUFFER_ULONG64 function"]
 ms.keywords: WRITE_REGISTER_BUFFER_ULONG64, WRITE_REGISTER_BUFFER_ULONG64 function, kernel.write_register_buffer_ulong64, kernel.write_register_buffer_ulong64, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_ULONG64
-ms.topic: function
 f1_keywords:
  - "wdm/WRITE_REGISTER_BUFFER_ULONG64"
 req.header: wdm.h

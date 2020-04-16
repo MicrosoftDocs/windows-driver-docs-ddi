@@ -6,8 +6,8 @@ old-location: kernel\rtlstringcbprintf.htm
 tech.root: kernel
 ms.assetid: ff35590f-1834-462a-9a9e-f7a3268776e8
 ms.date: 04/30/2018
+keywords: ["RtlStringCbPrintfW function"]
 ms.keywords: RtlStringCbPrintf, RtlStringCbPrintfA, RtlStringCbPrintfW, RtlStringCbPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbprintf, ntstrsafe/RtlStringCbPrintfA, ntstrsafe/RtlStringCbPrintfW, safestrings_066962fd-30e4-4535-b667-bf6f8fa2f2b2.xml
-ms.topic: function
 f1_keywords:
  - "ntstrsafe/RtlStringCbPrintfW"
 req.header: ntstrsafe.h

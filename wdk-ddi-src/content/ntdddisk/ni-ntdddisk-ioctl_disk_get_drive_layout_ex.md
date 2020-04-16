@@ -6,8 +6,8 @@ old-location: storage\ioctl_disk_get_drive_layout_ex.htm
 tech.root: storage
 ms.assetid: b0ffd1a6-aaa1-4001-a02b-6c0693b7ec5c
 ms.date: 03/29/2018
+keywords: ["IOCTL_DISK_GET_DRIVE_LAYOUT_EX IOCTL"]
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT_EX, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control code [Storage Devices], k307_81993d9b-900f-412c-ac07-f0765114141f.xml, ntdddisk/IOCTL_DISK_GET_DRIVE_LAYOUT_EX, storage.ioctl_disk_get_drive_layout_ex
-ms.topic: ioctl
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_GET_DRIVE_LAYOUT_EX"
 req.header: ntdddisk.h

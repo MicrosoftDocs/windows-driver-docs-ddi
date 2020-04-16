@@ -4,7 +4,7 @@ title: IDebugHostType2::GetTypedefBaseType (dbgmodel.h)
 description: The GetTypedefBaseType method will return what the immediate definition of the typedef.
 ms.assetid: e0a0a7fb-6049-4e08-9e8b-c10629e4a5e9
 ms.date: 09/20/2018
-ms.topic: method
+keywords: ["IDebugHostType2::GetTypedefBaseType"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetTypedefBaseType"
 ms.keywords: IDebugHostType2::GetTypedefBaseType, GetTypedefBaseType, IDebugHostType2.GetTypedefBaseType, IDebugHostType2::GetTypedefBaseType, IDebugHostType2.GetTypedefBaseType

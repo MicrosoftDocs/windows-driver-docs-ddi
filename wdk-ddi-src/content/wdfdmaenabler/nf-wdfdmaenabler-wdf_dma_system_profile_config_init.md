@@ -6,8 +6,8 @@ old-location: wdf\wdf_dma_system_profile_config_init.htm
 tech.root: wdf
 ms.assetid: C3E9B4D6-A1BB-425E-A131-D93C3219D28B
 ms.date: 02/26/2018
+keywords: ["WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function"]
 ms.keywords: WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT, WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function, kmdf.wdf_dma_system_profile_config_init, wdf.wdf_dma_system_profile_config_init, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT
-ms.topic: function
 f1_keywords:
  - "wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT"
 req.header: wdfdmaenabler.h

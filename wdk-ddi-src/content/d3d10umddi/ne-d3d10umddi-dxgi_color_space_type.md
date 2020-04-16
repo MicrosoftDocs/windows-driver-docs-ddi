@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 49f4fcb3-5e97-4243-90f7-249d4a76dadc
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: enum
+keywords: ["DXGI_COLOR_SPACE_TYPE enumeration"]
 ms.keywords: DXGI_COLOR_SPACE_TYPE, ,
 ms.prod: windows-hardware
 ms.technology: windows-devices

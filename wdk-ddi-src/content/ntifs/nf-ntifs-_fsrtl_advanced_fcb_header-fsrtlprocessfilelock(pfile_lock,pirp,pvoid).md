@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlprocessfilelock.htm
 tech.root: ifsk
 ms.assetid: 370e9dfd-ef2f-4bba-a0ec-5ebc6fbecb7a
 ms.date: 03/29/2018
+keywords: ["FsRtlProcessFileLock function"]
 ms.keywords: FsRtlProcessFileLock, FsRtlProcessFileLock routine [Installable File System Drivers], fsrtlref_93a3a663-fe0b-45c2-ab32-af4fe94b9697.xml, ifsk.fsrtlprocessfilelock, ntifs/FsRtlProcessFileLock
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlProcessFileLock"
 req.header: ntifs.h

@@ -6,8 +6,8 @@ old-location: kernel\zwterminateprocess.htm
 tech.root: kernel
 ms.assetid: 3b5e6de3-f1f4-4d7f-8c97-56a20a453ca3
 ms.date: 04/30/2018
+keywords: ["ZwTerminateProcess function"]
 ms.keywords: NtTerminateProcess, ZwTerminateProcess, ZwTerminateProcess routine [Kernel-Mode Driver Architecture], k111_72c76674-5372-4662-9097-53d850d49afe.xml, kernel.zwterminateprocess, ntddk/NtTerminateProcess, ntddk/ZwTerminateProcess
-ms.topic: function
 f1_keywords:
  - "ntddk/ZwTerminateProcess"
 req.header: ntddk.h

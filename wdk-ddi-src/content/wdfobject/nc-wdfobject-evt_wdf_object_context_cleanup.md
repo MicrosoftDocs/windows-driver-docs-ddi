@@ -6,8 +6,8 @@ old-location: wdf\evtcleanupcallback.htm
 tech.root: wdf
 ms.assetid: aba2efca-7d1f-4594-af65-13356f0e3f8b
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_OBJECT_CONTEXT_CLEANUP callback function"]
 ms.keywords: DFGenObjectRef_aef7bd25-42a4-41d2-9ba1-1b1113159657.xml, EVT_WDF_OBJECT_CONTEXT_CLEANUP, EVT_WDF_OBJECT_CONTEXT_CLEANUP callback, EvtCleanupCallback, EvtCleanupCallback callback function, kmdf.evtcleanupcallback, wdf.evtcleanupcallback, wdfobject/EvtCleanupCallback
-ms.topic: callback
 f1_keywords:
  - "wdfobject/EvtCleanupCallback"
 req.header: wdfobject.h

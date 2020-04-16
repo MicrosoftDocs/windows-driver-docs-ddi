@@ -5,7 +5,7 @@ tech.root: usbref
 description: Initializes a UCMUCSI_CONNECTOR_INFO structure.
 ms.assetid: 59008f71-2e62-4cbe-9b47-0b2f081582b5
 ms.date: 09/30/2018
-ms.topic: function
+keywords: ["UCMUCSI_CONNECTOR_INFO_INIT function"]
 f1_keywords:
  - "ucmucsippm/UCMUCSI_CONNECTOR_INFO_INIT"
 ms.keywords: UCMUCSI_CONNECTOR_INFO_INIT

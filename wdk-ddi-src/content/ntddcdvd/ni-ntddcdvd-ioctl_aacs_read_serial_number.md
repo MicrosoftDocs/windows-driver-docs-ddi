@@ -6,8 +6,8 @@ old-location: storage\ioctl_aacs_read_serial_number.htm
 tech.root: storage
 ms.assetid: 258224d7-adc1-4002-8c90-4487134dbfd7
 ms.date: 03/29/2018
+keywords: ["IOCTL_AACS_READ_SERIAL_NUMBER IOCTL"]
 ms.keywords: IOCTL_AACS_READ_SERIAL_NUMBER, IOCTL_AACS_READ_SERIAL_NUMBER control, IOCTL_AACS_READ_SERIAL_NUMBER control code [Storage Devices], k307_039c336e-5b51-4a22-83bc-1b28d5ba5a33.xml, ntddcdvd/IOCTL_AACS_READ_SERIAL_NUMBER, storage.ioctl_aacs_read_serial_number
-ms.topic: ioctl
 f1_keywords:
  - "ntddcdvd/IOCTL_AACS_READ_SERIAL_NUMBER"
 req.header: ntddcdvd.h

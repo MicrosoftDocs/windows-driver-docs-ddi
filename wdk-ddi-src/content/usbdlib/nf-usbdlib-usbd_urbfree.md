@@ -6,8 +6,8 @@ old-location: buses\usbd_urbfree.htm
 tech.root: usbref
 ms.assetid: DD80BAA0-EC01-4231-827A-962580D1E201
 ms.date: 06/24/2019
+keywords: ["USBD_UrbFree function"]
 ms.keywords: USBD_UrbFree, USBD_UrbFree routine [Buses], buses.usbd_urbfree, usbdlib/USBD_UrbFree
-ms.topic: function
 f1_keywords:
  - "usbdlib/USBD_UrbFree"
 req.header: usbdlib.h

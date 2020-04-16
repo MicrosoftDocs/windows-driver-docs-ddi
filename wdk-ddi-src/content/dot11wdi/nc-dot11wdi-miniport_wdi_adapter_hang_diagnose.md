@@ -6,8 +6,8 @@ old-location: netvista\miniportwdiadapterhangdiagnose.htm
 tech.root: netvista
 ms.assetid: 233CCF43-481E-4759-A2FC-0329103F8208
 ms.date: 05/02/2018
+keywords: ["MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE callback function"]
 ms.keywords: MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE, MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE callback, MiniportWdiAdapterHangDiagnose, MiniportWdiAdapterHangDiagnose callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiAdapterHangDiagnose, netvista.miniportwdiadapterhangdiagnose
-ms.topic: callback
 f1_keywords:
  - "dot11wdi/MiniportWdiAdapterHangDiagnose"
 req.header: dot11wdi.h

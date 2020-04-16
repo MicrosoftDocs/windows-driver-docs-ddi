@@ -6,8 +6,8 @@ old-location: buses\udecx_usb_endpoint_init_and_metadata.htm
 tech.root: usbref
 ms.assetid: B68FD95B-E7B8-4748-A1D0-09A1F9763626
 ms.date: 05/07/2018
+keywords: ["_UDECX_USB_ENDPOINT_INIT_AND_METADATA structure"]
 ms.keywords: "*PUDECX_USB_ENDPOINT_INIT_AND_METADATA, PUDECX_USB_ENDPOINT_INIT_AND_METADATA, PUDECX_USB_ENDPOINT_INIT_AND_METADATA structure pointer [Buses], UDECX_USB_ENDPOINT_INIT_AND_METADATA, UDECX_USB_ENDPOINT_INIT_AND_METADATA structure [Buses], _UDECX_USB_ENDPOINT_INIT_AND_METADATA, buses.udecx_usb_endpoint_init_and_metadata, udecxusbdevice/PUDECX_USB_ENDPOINT_INIT_AND_METADATA, udecxusbdevice/UDECX_USB_ENDPOINT_INIT_AND_METADATA"
-ms.topic: struct
 f1_keywords:
  - "udecxusbdevice/UDECX_USB_ENDPOINT_INIT_AND_METADATA"
 req.header: udecxusbdevice.h

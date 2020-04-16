@@ -6,8 +6,8 @@ old-location: kernel\kesetevent.htm
 tech.root: kernel
 ms.assetid: a2017660-f001-449c-9c33-e26c2897ead1
 ms.date: 04/30/2018
+keywords: ["KeSetEvent function"]
 ms.keywords: KeSetEvent, KeSetEvent routine [Kernel-Mode Driver Architecture], k105_0b9a87b5-bdf2-4449-81f6-1836ea47f038.xml, kernel.kesetevent, wdm/KeSetEvent
-ms.topic: function
 f1_keywords:
  - "wdm/KeSetEvent"
 req.header: wdm.h

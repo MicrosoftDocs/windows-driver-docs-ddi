@@ -5,7 +5,7 @@ description: Implemented by the client driver to handle a specific method OID re
 tech.root: netvista
 ms.assetid: c9df356a-9b50-4906-aa8f-20b81e0dacb2
 ms.date: 02/08/2018
-ms.topic: callback
+keywords: ["EVT_NET_REQUEST_METHOD callback function"]
 f1_keywords:
  - "netrequestqueue/NetRequestWdmGetNdisOidRequest"
 req.header: netrequestqueue.h

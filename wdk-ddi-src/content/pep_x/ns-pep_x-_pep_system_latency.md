@@ -6,8 +6,8 @@ old-location: kernel\pep_system_latency.htm
 tech.root: kernel
 ms.assetid: 083ACFD8-A8AE-4205-9E25-497D6A3ADBCD
 ms.date: 04/30/2018
+keywords: ["_PEP_SYSTEM_LATENCY structure"]
 ms.keywords: "*PPEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY structure [Kernel-Mode Driver Architecture], PPEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY structure pointer [Kernel-Mode Driver Architecture], _PEP_SYSTEM_LATENCY, kernel.pep_system_latency, pepfx/PEP_SYSTEM_LATENCY, pepfx/PPEP_SYSTEM_LATENCY"
-ms.topic: struct
 f1_keywords:
  - "pep_x/PEP_SYSTEM_LATENCY"
 req.header: pep_x.h

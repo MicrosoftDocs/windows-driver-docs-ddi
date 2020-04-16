@@ -5,8 +5,8 @@ description: D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA is used with D3
 old-location: display\d3dwddm2_0ddi_key_exchange_hw_protection_input_data.htm
 ms.assetid: 9CF86E7B-B6EF-419C-97A9-424FFB08FF61
 ms.date: 05/10/2018
+keywords: ["D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA structure"]
 ms.keywords: D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA, D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA, display.d3dwddm2_0ddi_key_exchange_hw_protection_input_data
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION_INPUT_DATA"
 req.header: d3d10umddi.h

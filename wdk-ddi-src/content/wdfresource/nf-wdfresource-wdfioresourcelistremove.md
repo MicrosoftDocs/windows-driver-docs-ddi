@@ -6,8 +6,8 @@ old-location: wdf\wdfioresourcelistremove.htm
 tech.root: wdf
 ms.assetid: fc67afc9-7542-4fca-bfc7-4b03b9d39735
 ms.date: 02/26/2018
+keywords: ["WdfIoResourceListRemove function"]
 ms.keywords: DFResourceObjectRef_c8550890-69b9-493b-83d5-8a160eb85b8a.xml, WdfIoResourceListRemove, WdfIoResourceListRemove method, kmdf.wdfioresourcelistremove, wdf.wdfioresourcelistremove, wdfresource/WdfIoResourceListRemove
-ms.topic: function
 f1_keywords:
  - "wdfresource/WdfIoResourceListRemove"
 req.header: wdfresource.h

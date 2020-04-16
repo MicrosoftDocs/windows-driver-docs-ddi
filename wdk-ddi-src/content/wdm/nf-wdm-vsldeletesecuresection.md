@@ -6,8 +6,8 @@ old-location: kernel\vsldeletesecuresection.htm
 tech.root: kernel
 ms.assetid: b81602e1-aca8-466d-90ae-13a7e073aff1
 ms.date: 04/30/2018
+keywords: ["VslDeleteSecureSection function"]
 ms.keywords: VslDeleteSecureSection, VslDeleteSecureSection function [Kernel-Mode Driver Architecture], kernel.vsldeletesecuresection, wdm/VslDeleteSecureSection
-ms.topic: function
 f1_keywords:
  - "wdm/VslDeleteSecureSection"
 req.header: wdm.h

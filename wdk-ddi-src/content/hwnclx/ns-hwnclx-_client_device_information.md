@@ -6,8 +6,8 @@ old-location: gpiobtn\_client_device_information.htm
 tech.root: gpiobtn
 ms.assetid: ae438f89-27b7-423f-9f82-b103ba70b7b5
 ms.date: 02/15/2018
+keywords: ["_CLIENT_DEVICE_INFORMATION structure"]
 ms.keywords: "*PCLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION structure, _CLIENT_DEVICE_INFORMATION, gpiobtn._client_device_information, hwnclx/CLIENT_DEVICE_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "hwnclx/CLIENT_DEVICE_INFORMATION"
 req.header: hwnclx.h

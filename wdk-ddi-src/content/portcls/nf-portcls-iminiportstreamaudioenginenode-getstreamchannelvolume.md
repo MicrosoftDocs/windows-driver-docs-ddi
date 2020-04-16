@@ -6,8 +6,8 @@ old-location: audio\iminiportstreamaudioenginenode_getstreamchannelvolume.htm
 tech.root: audio
 ms.assetid: 0BD6FCB7-1705-4343-AD41-7362FE095ECB
 ms.date: 05/08/2018
+keywords: ["IMiniportStreamAudioEngineNode::GetStreamChannelVolume"]
 ms.keywords: GetStreamChannelVolume, GetStreamChannelVolume method [Audio Devices], GetStreamChannelVolume method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamChannelVolume method, IMiniportStreamAudioEngineNode.GetStreamChannelVolume, IMiniportStreamAudioEngineNode::GetStreamChannelVolume, audio.iminiportstreamaudioenginenode_getstreamchannelvolume, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelVolume
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.GetStreamChannelVolume"
 req.header: portcls.h

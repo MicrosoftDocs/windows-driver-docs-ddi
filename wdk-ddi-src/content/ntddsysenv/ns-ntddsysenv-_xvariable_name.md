@@ -6,8 +6,8 @@ old-location: kernel\xvariable_name.htm
 tech.root: kernel
 ms.assetid: DF02AB1E-6803-492C-9261-400177497195
 ms.date: 04/30/2018
+keywords: ["_XVARIABLE_NAME structure"]
 ms.keywords: "*PSYSENV_VARIABLE_NAME, *PXVARIABLE_NAME, PXVARIABLE_NAME, PXVARIABLE_NAME structure pointer [Kernel-Mode Driver Architecture], SYSENV_VARIABLE_NAME, XVARIABLE_NAME, XVARIABLE_NAME structure [Kernel-Mode Driver Architecture], _XVARIABLE_NAME, kernel.xvariable_name, ntddsysenv/PXVARIABLE_NAME, ntddsysenv/XVARIABLE_NAME"
-ms.topic: struct
 f1_keywords:
  - "ntddsysenv/XVARIABLE_NAME"
 req.header: ntddsysenv.h

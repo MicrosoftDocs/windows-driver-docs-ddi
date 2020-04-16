@@ -6,8 +6,8 @@ old-location: kernel\psgetcurrentthreadid.htm
 tech.root: kernel
 ms.assetid: c4da1dcb-435d-4e32-8114-3b0ae4352000
 ms.date: 04/30/2018
+keywords: ["PsGetCurrentThreadId function"]
 ms.keywords: PsGetCurrentThreadId, PsGetCurrentThreadId routine [Kernel-Mode Driver Architecture], k108_eae0d8bf-f2fe-49dd-b3b7-6da9114f844a.xml, kernel.psgetcurrentthreadid, ntddk/PsGetCurrentThreadId
-ms.topic: function
 f1_keywords:
  - "ntddk/PsGetCurrentThreadId"
 req.header: ntddk.h

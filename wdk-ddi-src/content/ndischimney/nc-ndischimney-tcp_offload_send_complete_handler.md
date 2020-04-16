@@ -6,8 +6,8 @@ old-location: netvista\protocoltcpoffloadsendcomplete.htm
 tech.root: netvista
 ms.assetid: 6f9c7964-e475-421c-99d6-f4fc31a26f02
 ms.date: 05/02/2018
+keywords: ["TCP_OFFLOAD_SEND_COMPLETE_HANDLER callback function"]
 ms.keywords: ProtocolTcpOffloadSendComplete, ProtocolTcpOffloadSendComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_SEND_COMPLETE_HANDLER, TCP_OFFLOAD_SEND_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadSendComplete, netvista.protocoltcpoffloadsendcomplete, tcp_chim_protocol_func_5d69efad-e470-44ce-850f-b7693d1a1f2e.xml
-ms.topic: callback
 f1_keywords:
  - "ndischimney/ProtocolTcpOffloadSendComplete"
 req.header: ndischimney.h

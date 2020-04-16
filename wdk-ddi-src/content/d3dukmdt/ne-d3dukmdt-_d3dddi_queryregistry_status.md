@@ -4,7 +4,7 @@ title: _D3DDDI_QUERYREGISTRY_STATUS (d3dukmdt.h)
 description: Query registry status.
 ms.assetid: f7d2e2ff-ba33-4685-82dc-47c9d74b08d0
 ms.date: 11/21/2018
-ms.topic: enum
+keywords: ["_D3DDDI_QUERYREGISTRY_STATUS enumeration"]
 f1_keywords:
  - "d3dukmdt/_D3DDDI_QUERYREGISTRY_STATUS"
 ms.keywords: _D3DDDI_QUERYREGISTRY_STATUS, D3DDDI_QUERYREGISTRY_STATUS,

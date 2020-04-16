@@ -6,8 +6,8 @@ old-location: kernel\clfsmgmtderegistermanagedclient.htm
 tech.root: kernel
 ms.assetid: 5dee3b70-9c8d-420d-86f9-9795b4d8b1e8
 ms.date: 04/30/2018
+keywords: ["ClfsMgmtDeregisterManagedClient function"]
 ms.keywords: ClfsMgmtDeregisterManagedClient, ClfsMgmtDeregisterManagedClient routine [Kernel-Mode Driver Architecture], Clfs_management_6a802f4a-8157-42c8-8eda-740a1207714a.xml, kernel.clfsmgmtderegistermanagedclient, wdm/ClfsMgmtDeregisterManagedClient
-ms.topic: function
 f1_keywords:
  - "wdm/ClfsMgmtDeregisterManagedClient"
 req.header: wdm.h

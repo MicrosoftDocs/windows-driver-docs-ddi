@@ -6,8 +6,8 @@ old-location: print\splclient_info_2_w2k.htm
 tech.root: print
 ms.assetid: 713246FE-355B-4C01-A8DF-535BDBA0FCB8
 ms.date: 04/20/2018
+keywords: ["_SPLCLIENT_INFO_2_V1 structure"]
 ms.keywords: "*LPSPLCLIENT_INFO_2, *PSPLCLIENT_INFO_2, SPLCLIENT_INFO_2, SPLCLIENT_INFO_2_W2K, SPLCLIENT_INFO_2_W2K structure [Print Devices], _SPLCLIENT_INFO_2_V1, print.splclient_info_2_w2k, winsplp/SPLCLIENT_INFO_2_W2K"
-ms.topic: struct
 f1_keywords:
  - "winsplp/SPLCLIENT_INFO_2_W2K"
 req.header: winsplp.h

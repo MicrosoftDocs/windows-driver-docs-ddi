@@ -6,8 +6,8 @@ old-location: audio\unregistereventcallback.htm
 tech.root: audio
 ms.assetid: 698017a0-13d5-4ed5-a1ce-1a50a62135e0
 ms.date: 05/08/2018
+keywords: ["PUNREGISTER_EVENT_CALLBACK callback function"]
 ms.keywords: PUNREGISTER_EVENT_CALLBACK, PUNREGISTER_EVENT_CALLBACK callback, UnregisterEventCallback, UnregisterEventCallback callback function [Audio Devices], aud-prop2_9d6c50d7-56ac-4364-9a1e-74ea0d934046.xml, audio.unregistereventcallback, hdaudio/UnregisterEventCallback
-ms.topic: callback
 f1_keywords:
  - "hdaudio/UnregisterEventCallback"
 req.header: hdaudio.h

@@ -6,8 +6,8 @@ old-location: battery\upscancelwait.htm
 tech.root: battery
 ms.assetid: 8ac611fc-5634-4857-8533-6e170fe884b2
 ms.date: 02/15/2018
+keywords: ["UPSCancelWait function"]
 ms.keywords: UPSCancelWait, UPSCancelWait function [Battery Devices], UPS_fns_79aba7aa-4204-4532-873a-8566ed6168f8.xml, battery.upscancelwait, upssvc/UPSCancelWait
-ms.topic: function
 f1_keywords:
  - "upssvc/UPSCancelWait"
 req.header: upssvc.h

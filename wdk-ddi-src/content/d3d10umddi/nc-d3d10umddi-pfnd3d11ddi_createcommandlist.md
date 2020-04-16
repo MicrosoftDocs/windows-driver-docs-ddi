@@ -5,8 +5,8 @@ description: The CreateCommandList function creates a command list.
 old-location: display\createcommandlist.htm
 ms.assetid: 583bde52-ba21-44ce-9f48-8ace6f7a70cc
 ms.date: 05/10/2018
+keywords: ["PFND3D11DDI_CREATECOMMANDLIST callback function"]
 ms.keywords: CreateCommandList, CreateCommandList callback function [Display Devices], PFND3D11DDI_CREATECOMMANDLIST, PFND3D11DDI_CREATECOMMANDLIST callback, UserModeDisplayDriverDx11_Functions_4383a01d-9aee-4c8e-8a54-f7463e8995d9.xml, d3d10umddi/CreateCommandList, display.createcommandlist
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -58,17 +58,21 @@ A handle to the display device (graphics context).
 
 ### -param Arg2
 
-pCreateCommandList [in]
+*pCreateCommandList* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_createcommandlist">D3D11DDIARG_CREATECOMMANDLIST</a> structure that describes the parameters that the user-mode display driver uses to create a command list.
 
 ### -param Arg3
 
+*hCommandList* [in]
+
+A handle to the driver's private data for the command list.
+
+### -param Arg4
+
 *hRTCommandList* [in]
 
 A handle to the command list that the driver should use, when it calls back into the Direct3D runtime.
-
-### -param Arg4
 
 ## -remarks
 

@@ -5,8 +5,8 @@ description: The DXGK_QUERYSEGMENTOUT structure describes memory-segment informa
 old-location: display\dxgk_querysegmentout.htm
 ms.assetid: df640b7a-865a-4a8b-94be-ebc60e44cf72
 ms.date: 05/10/2018
+keywords: ["_DXGK_QUERYSEGMENTOUT structure"]
 ms.keywords: DXGK_QUERYSEGMENTOUT, DXGK_QUERYSEGMENTOUT structure [Display Devices], DmStructs_69650838-cd41-4786-aa3c-b2617b7d97b4.xml, _DXGK_QUERYSEGMENTOUT, d3dkmddi/DXGK_QUERYSEGMENTOUT, display.dxgk_querysegmentout
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYSEGMENTOUT"
 req.header: d3dkmddi.h

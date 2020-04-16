@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: ec111d01-4b9b-4944-bf67-52c704007084
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
+keywords: ["D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0060 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_CREATE_VIDEO_MOTION_VECTOR_HEAP_0060"
 ms.prod: windows-hardware

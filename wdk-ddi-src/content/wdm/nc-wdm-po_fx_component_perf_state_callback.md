@@ -6,8 +6,8 @@ old-location: kernel\componentperfstatecallback.htm
 tech.root: kernel
 ms.assetid: A54376E6-FBA2-4A27-83C7-8E3B6F2B2A05
 ms.date: 04/30/2018
+keywords: ["PO_FX_COMPONENT_PERF_STATE_CALLBACK callback function"]
 ms.keywords: ComponentPerfStateCallback, ComponentPerfStateCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_PERF_STATE_CALLBACK, kernel.componentperfstatecallback, wdm/ComponentPerfStateCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/ComponentPerfStateCallback"
 req.header: wdm.h

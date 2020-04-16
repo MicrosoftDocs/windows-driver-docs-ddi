@@ -5,8 +5,8 @@ description: Describes a resource barrier.
 old-location: display\d3d12ddiarg_resource_barrier_0022.htm
 ms.assetid: ED597BB0-F9ED-4311-9E2F-06AEA2755B37
 ms.date: 05/10/2018
+keywords: ["D3D12DDIARG_RESOURCE_BARRIER_0022 structure"]
 ms.keywords: D3D12DDIARG_RESOURCE_BARRIER_0022, D3D12DDIARG_RESOURCE_BARRIER_0022 structure [Display Devices], d3d12umddi/D3D12DDIARG_RESOURCE_BARRIER_0022, display.d3d12ddiarg_resource_barrier_0022
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_RESOURCE_BARRIER_0022"
 req.header: d3d12umddi.h

@@ -4,7 +4,7 @@ title: _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN (d3dkmthk.h)
 description: Identifies a flip present-history token.
 ms.assetid: 4622a5f0-905e-4ed6-9d78-54329bf5b2f7
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN"
 ms.keywords: _D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN, D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN,

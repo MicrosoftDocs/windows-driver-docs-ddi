@@ -5,8 +5,8 @@ description: DXGKARG_GETROOTPAGETABLESIZE is used with DxgkDdiGetRootPageTableSi
 old-location: display\dxgkarg_getrootpagetablesize.htm
 ms.assetid: 31CB33F9-87E8-419D-AF35-E7F731661DD5
 ms.date: 05/10/2018
+keywords: ["_DXGKARG_GETROOTPAGETABLESIZE structure"]
 ms.keywords: "*INOUT_PDXGKARG_GETROOTPAGETABLESIZE, DXGKARG_GETROOTPAGETABLESIZE, DXGKARG_GETROOTPAGETABLESIZE structure [Display Devices], _DXGKARG_GETROOTPAGETABLESIZE, d3dkmddi/DXGKARG_GETROOTPAGETABLESIZE, display.dxgkarg_getrootpagetablesize"
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_GETROOTPAGETABLESIZE"
 req.header: d3dkmddi.h

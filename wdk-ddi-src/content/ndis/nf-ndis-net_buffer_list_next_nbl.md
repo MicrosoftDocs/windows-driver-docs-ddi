@@ -5,7 +5,7 @@ description: NET_BUFFER_LIST_NEXT_NBL is a macro that NDIS drivers use to get th
 tech.root: netvista
 ms.assetid: 43a4a7df-a62e-4192-b2b5-2ae64698177c
 ms.date: 04/13/2018
-ms.topic: macro
+keywords: ["NET_BUFFER_LIST_NEXT_NBL macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_NEXT_NBL"
 ms.keywords: NET_BUFFER_LIST_NEXT_NBL

@@ -6,8 +6,8 @@ old-location: audio\iportclsruntimepower.htm
 tech.root: audio
 ms.assetid: 8D03B2A0-6C8C-4EBE-86F4-70C8DE179947
 ms.date: 05/08/2018
+keywords: ["IPortClsRuntimePower interface"]
 ms.keywords: IPortClsRuntimePower, IPortClsRuntimePower interface [Audio Devices], IPortClsRuntimePower interface [Audio Devices],described, audio.iportclsruntimepower, portcls/IPortClsRuntimePower
-ms.topic: interface
 f1_keywords:
  - "portcls/IPortClsRuntimePower"
 req.header: portcls.h

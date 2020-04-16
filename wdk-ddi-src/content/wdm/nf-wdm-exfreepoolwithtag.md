@@ -6,8 +6,8 @@ old-location: kernel\exfreepoolwithtag.htm
 tech.root: kernel
 ms.assetid: ebf404dd-479a-4573-9372-4b777c3cd5e7
 ms.date: 04/30/2018
+keywords: ["ExFreePoolWithTag function"]
 ms.keywords: ExFreePoolWithTag, ExFreePoolWithTag routine [Kernel-Mode Driver Architecture], k102_03ac2997-acff-40b6-a110-718261627130.xml, kernel.exfreepoolwithtag, wdm/ExFreePoolWithTag
-ms.topic: function
 f1_keywords:
  - "wdm/ExFreePoolWithTag"
 req.header: wdm.h

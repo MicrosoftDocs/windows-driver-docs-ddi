@@ -6,8 +6,8 @@ old-location: print\iprintcorehelperuni_interface.htm
 tech.root: print
 ms.assetid: e581d190-8185-45c1-80c7-ff8eb305360e
 ms.date: 04/20/2018
+keywords: ["IPrintCoreHelperUni interface"]
 ms.keywords: IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], IPrintCoreHelperUni interface [Print Devices],described, prcomoem/IPrintCoreHelperUni, print.iprintcorehelperuni_interface, print_unidrv-pscript_allplugins_ca505d1f-1b52-4a61-a2d8-d8fea10cda76.xml
-ms.topic: interface
 f1_keywords:
  - "prcomoem/IPrintCoreHelperUni"
 req.header: prcomoem.h
@@ -53,7 +53,7 @@ This section describes the methods that are defined for the <code>IPrintCoreHelp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintCoreHelperUni</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintCoreHelperUni</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintCoreHelperUni</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintCoreHelperUni</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

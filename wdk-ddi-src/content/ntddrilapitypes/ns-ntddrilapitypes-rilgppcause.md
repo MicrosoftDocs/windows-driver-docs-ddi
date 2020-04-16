@@ -6,8 +6,8 @@ old-location: netvista\rilgppcause.htm
 tech.root: netvista
 ms.assetid: 4072183a-36b5-4a77-a1a5-95b97950b01a
 ms.date: 05/02/2018
+keywords: ["RILGPPCAUSE structure"]
 ms.keywords: "*LPRILGPPCAUSE, RILGPPCAUSE, RILGPPCAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgppcause, ntddrilapitypes/RILGPPCAUSE"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILGPPCAUSE"
 req.header: ntddrilapitypes.h

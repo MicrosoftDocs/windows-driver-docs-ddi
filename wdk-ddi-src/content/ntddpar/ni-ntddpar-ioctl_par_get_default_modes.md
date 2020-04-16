@@ -6,8 +6,8 @@ old-location: parports\ioctl_par_get_default_modes.htm
 tech.root: parports
 ms.assetid: d2f440b2-1208-4cae-9790-b93f267499b1
 ms.date: 02/15/2018
+keywords: ["IOCTL_PAR_GET_DEFAULT_MODES IOCTL"]
 ms.keywords: IOCTL_PAR_GET_DEFAULT_MODES, IOCTL_PAR_GET_DEFAULT_MODES control code [Parallel Ports], cisspd_29dfce16-6dea-4bff-928d-6ab83099595c.xml, ntddpar/IOCTL_PAR_GET_DEFAULT_MODES, parports.ioctl_par_get_default_modes
-ms.topic: ioctl
 f1_keywords:
  - "ntddpar/IOCTL_PAR_GET_DEFAULT_MODES"
 req.header: ntddpar.h

@@ -6,8 +6,8 @@ old-location: bltooth\bthx_capabilities.htm
 tech.root: bltooth
 ms.assetid: BEC06C82-E103-4255-ACDD-9FB28E8E2DE5
 ms.date: 04/27/2018
+keywords: ["_BTHX_CAPABILITIES structure"]
 ms.keywords: "*PBTHX_CAPABILITIES, BTHX_CAPABILITIES, BTHX_CAPABILITIES structure [Bluetooth Devices], PBTHX_CAPABILITIES, PBTHX_CAPABILITIES structure pointer [Bluetooth Devices], _BTHX_CAPABILITIES, bltooth.bthx_capabilities, bthxddi/BTHX_CAPABILITIES, bthxddi/PBTHX_CAPABILITIES"
-ms.topic: struct
 f1_keywords:
  - "bthxddi/BTHX_CAPABILITIES"
 req.header: bthxddi.h

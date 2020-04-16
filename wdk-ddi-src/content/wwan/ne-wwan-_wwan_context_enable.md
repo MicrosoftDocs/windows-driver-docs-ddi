@@ -5,7 +5,7 @@ description: The WWAN_CONTEXT_ENABLE enumeration specifies whether a provisioned
 tech.root: netvista
 ms.assetid: 130c0816-c402-4e13-9589-abac38c43999
 ms.date: 08/22/2018
-ms.topic: enum
+keywords: ["_WWAN_CONTEXT_ENABLE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_CONTEXT_ENABLE"
 ms.keywords: _WWAN_CONTEXT_ENABLE, WWAN_CONTEXT_ENABLE, *PWWAN_CONTEXT_ENABLE, 

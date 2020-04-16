@@ -6,8 +6,8 @@ old-location: dtf\iwdtfaction2_getstatusstring.htm
 tech.root: dtf
 ms.assetid: 21f7a3ea-5db9-4666-865c-c6b1ca9ba20f
 ms.date: 04/04/2018
+keywords: ["IWDTFAction2::GetStatusString"]
 ms.keywords: GetStatusString, GetStatusString method [Windows Device Testing Framework], GetStatusString method [Windows Device Testing Framework],IWDTFAction2 interface, IWDTFAction2 interface [Windows Device Testing Framework],GetStatusString method, IWDTFAction2.GetStatusString, IWDTFAction2::GetStatusString, Microsoft.WDTF.IWDTFAction2.GetStatusString, Microsoft::WDTF::IWDTFAction2::GetStatusString, dtf.iwdtfaction2_getstatusstring, wdtf/IWDTFAction2::GetStatusString
-ms.topic: method
 f1_keywords:
  - "wdtf/IWDTFAction2.GetStatusString"
 req.header: wdtf.h

@@ -6,8 +6,8 @@ old-location: print\iprintasyncnotifyregistration_registerfornotifications.htm
 tech.root: print
 ms.assetid: 8D34983F-7547-48FF-B61A-F78BDA9D2248
 ms.date: 04/20/2018
+keywords: ["IPrintAsyncNotifyRegistration::RegisterForNotifications"]
 ms.keywords: IPrintAsyncNotifyRegistration interface [Print Devices],RegisterForNotifications method, IPrintAsyncNotifyRegistration.RegisterForNotifications, IPrintAsyncNotifyRegistration::RegisterForNotifications, RegisterForNotifications, RegisterForNotifications method [Print Devices], RegisterForNotifications method [Print Devices],IPrintAsyncNotifyRegistration interface, print.iprintasyncnotifyregistration_registerfornotifications, prnasntp/IPrintAsyncNotifyRegistration::RegisterForNotifications
-ms.topic: method
 f1_keywords:
  - "prnasntp/IPrintAsyncNotifyRegistration.RegisterForNotifications"
 req.header: prnasntp.h
@@ -55,7 +55,7 @@ req.typenames:
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

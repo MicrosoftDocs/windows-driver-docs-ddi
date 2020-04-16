@@ -6,8 +6,8 @@ old-location: debugger\getmoduleversioninformation.htm
 tech.root: debugger
 ms.assetid: af655cd2-2e1f-4d78-aff3-3875106b50bc
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::GetModuleVersionInformation"]
 ms.keywords: GetModuleVersionInformation, GetModuleVersionInformation method [Windows Debugging], GetModuleVersionInformation method [Windows Debugging],IDebugSymbols2 interface, GetModuleVersionInformation method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging],GetModuleVersionInformation method, IDebugSymbols2::GetModuleVersionInformation, IDebugSymbols3 interface [Windows Debugging],GetModuleVersionInformation method, IDebugSymbols3.GetModuleVersionInformation, IDebugSymbols3::GetModuleVersionInformation, IDebugSymbols_a325db82-91a3-48d9-b189-8971cd5eaf75.xml, dbgeng/IDebugSymbols2::GetModuleVersionInformation, dbgeng/IDebugSymbols3::GetModuleVersionInformation, debugger.getmoduleversioninformation
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols2.GetModuleVersionInformation"
 req.header: dbgeng.h

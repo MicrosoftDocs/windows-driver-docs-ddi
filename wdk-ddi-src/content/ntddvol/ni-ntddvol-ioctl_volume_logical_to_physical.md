@@ -6,8 +6,8 @@ old-location: storage\ioctl_volume_logical_to_physical.htm
 tech.root: storage
 ms.assetid: deadee81-4a6d-4c8b-80fd-46c29becc2cf
 ms.date: 03/29/2018
+keywords: ["IOCTL_VOLUME_LOGICAL_TO_PHYSICAL IOCTL"]
 ms.keywords: IOCTL_VOLUME_LOGICAL_TO_PHYSICAL, IOCTL_VOLUME_LOGICAL_TO_PHYSICAL control, IOCTL_VOLUME_LOGICAL_TO_PHYSICAL control code [Storage Devices], k307_a96f1e34-902f-4d5f-8935-96a963cfa041.xml, ntddvol/IOCTL_VOLUME_LOGICAL_TO_PHYSICAL, storage.ioctl_volume_logical_to_physical
-ms.topic: ioctl
 f1_keywords:
  - "ntddvol/IOCTL_VOLUME_LOGICAL_TO_PHYSICAL"
 req.header: ntddvol.h

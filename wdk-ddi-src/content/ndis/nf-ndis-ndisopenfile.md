@@ -6,8 +6,8 @@ old-location: netvista\ndisopenfile.htm
 tech.root: netvista
 ms.assetid: 48d54092-d055-449c-a409-829213db2989
 ms.date: 05/02/2018
+keywords: ["NdisOpenFile function"]
 ms.keywords: NdisOpenFile, NdisOpenFile function [Network Drivers Starting with Windows Vista], ndis/NdisOpenFile, ndis_file_ref_0931368e-111b-4b25-a42d-12d0cc5d9d44.xml, netvista.ndisopenfile
-ms.topic: function
 f1_keywords:
  - "ndis/NdisOpenFile"
 req.header: ndis.h

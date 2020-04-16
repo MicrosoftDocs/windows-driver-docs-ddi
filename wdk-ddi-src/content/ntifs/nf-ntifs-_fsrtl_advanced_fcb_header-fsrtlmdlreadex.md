@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlmdlreadex.htm
 tech.root: ifsk
 ms.assetid: E1F16454-C8E6-4291-83BB-F4CF18F6DF10
 ms.date: 04/16/2018
+keywords: ["FsRtlMdlReadEx function"]
 ms.keywords: FsRtlMdlReadEx, FsRtlMdlReadEx routine [Installable File System Drivers], ifsk.fsrtlmdlreadex, ntifs/FsRtlMdlReadEx
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlMdlReadEx"
 req.header: ntifs.h
@@ -81,7 +81,7 @@ A value that is associated with the byte range to lock. If the range to lock ove
 
 ### -param MdlChain [out]
 
-On output, a pointer to a linked list of memory descriptor lists (MDLs).
+An address of a variable that receives a pointer to a linked list of memory descriptor lists (MDLs). *MdlChain* must be initialized to **NULL** before the call to **FsRtlMdlReadEx**.
 
 
 ### -param IoStatus [out]

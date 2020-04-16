@@ -6,8 +6,8 @@ old-location: stream\iksreferenceclock_getstate.htm
 tech.root: stream
 ms.assetid: 5a77a8bc-b477-41b3-bc4e-07c6c14291a1
 ms.date: 04/23/2018
+keywords: ["IKsReferenceClock::GetState"]
 ms.keywords: GetState, GetState method [Streaming Media Devices], GetState method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetState method, IKsReferenceClock.GetState, IKsReferenceClock::GetState, avintfc_e2017894-2e83-4091-84b7-5ea793076b29.xml, ks/IKsReferenceClock::GetState, stream.iksreferenceclock_getstate
-ms.topic: method
 f1_keywords:
  - "ks/IKsReferenceClock.GetState"
 req.header: ks.h

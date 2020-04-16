@@ -6,8 +6,8 @@ old-location: battery\chargingstatuscomplete.htm
 tech.root: battery
 ms.assetid: 5B5BD82A-15A3-40AA-9FE8-191B31CB694A
 ms.date: 02/15/2018
+keywords: ["_CHARGINGSTATUSCOMPLETE structure"]
 ms.keywords: "*PCHARGINGSTATUSCOMPLETE, CHARGINGSTATUSCOMPLETE, CHARGINGSTATUSCOMPLETE structure [Battery Devices], _CHARGINGSTATUSCOMPLETE, battery.chargingstatuscomplete, charging/BATTERY_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "charging/BATTERY_INFORMATION"
 req.header: charging.h

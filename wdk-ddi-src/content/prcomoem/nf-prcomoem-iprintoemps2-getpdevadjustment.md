@@ -6,8 +6,8 @@ old-location: print\iprintoemps2_getpdevadjustment.htm
 tech.root: print
 ms.assetid: 8dc4252f-72d5-47ae-9f43-8006aa71c29d
 ms.date: 04/20/2018
+keywords: ["IPrintOemPS2::GetPDEVAdjustment"]
 ms.keywords: GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], GetPDEVAdjustment method [Print Devices],IPrintOemPS2 interface, IPrintOemPS2 interface [Print Devices],GetPDEVAdjustment method, IPrintOemPS2.GetPDEVAdjustment, IPrintOemPS2::GetPDEVAdjustment, prcomoem/IPrintOemPS2::GetPDEVAdjustment, print.iprintoemps2_getpdevadjustment, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemPS2.GetPDEVAdjustment"
 req.header: prcomoem.h

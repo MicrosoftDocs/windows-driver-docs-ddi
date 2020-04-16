@@ -6,8 +6,8 @@ old-location: whea\whea_pcixbus_error_section_validbits.htm
 tech.root: whea
 ms.assetid: 85f14500-9cf6-42a6-a302-0990b99ddb5f
 ms.date: 02/20/2018
+keywords: ["_WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS structure"]
 ms.keywords: "*PWHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, *PWHEA_PCIXBUS_ERROR_VALIDBITS, PWHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, PWHEA_PCIXBUS_ERROR_SECTION_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS union [WHEA Drivers and Applications], WHEA_PCIXBUS_ERROR_VALIDBITS, _WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, ntddk/PWHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, ntddk/WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS, whea.whea_pcixbus_error_section_validbits, whearef_a01d7635-52ac-4b47-98f9-b09601dce4ff.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_PCIXBUS_ERROR_SECTION_VALIDBITS"
 req.header: ntddk.h

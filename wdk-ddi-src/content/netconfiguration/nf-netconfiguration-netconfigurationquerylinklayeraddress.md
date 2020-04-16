@@ -5,7 +5,7 @@ description: The NetConfigurationQueryLinkLayerAddress method retrieves the soft
 tech.root: netvista
 ms.assetid: 6431d2ff-fdf8-4343-9860-08b3370aa271
 ms.date: 02/07/2018
-ms.topic: function
+keywords: ["NetConfigurationQueryLinkLayerAddress function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationQueryLinkLayerAddress"
 ms.keywords: NetConfigurationQueryLinkLayerAddress

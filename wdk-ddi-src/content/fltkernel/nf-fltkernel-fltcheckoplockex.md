@@ -6,8 +6,8 @@ old-location: ifsk\fltcheckoplockex.htm
 tech.root: ifsk
 ms.assetid: 2af1f496-48cf-4f99-a22b-cf7d1837617e
 ms.date: 04/16/2018
+keywords: ["FltCheckOplockEx function"]
 ms.keywords: FltApiRef_a_to_d_3fd997bf-bfdb-4fdd-b6a2-3ade62e0368e.xml, FltCheckOplockEx, FltCheckOplockEx routine [Installable File System Drivers], fltkernel/FltCheckOplockEx, ifsk.fltcheckoplockex
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltCheckOplockEx"
 req.header: fltkernel.h

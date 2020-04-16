@@ -6,8 +6,8 @@ old-location: netvista\dot11_vwifi_combination.htm
 tech.root: netvista
 ms.assetid: 05be98a8-dad2-4539-b725-e898db19a789
 ms.date: 02/16/2018
+keywords: ["_DOT11_VWIFI_COMBINATION structure"]
 ms.keywords: "*PDOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_6b9469d7-deb2-4681-8f03-5ff6137946b4.xml, PDOT11_VWIFI_COMBINATION, PDOT11_VWIFI_COMBINATION structure pointer [Network Drivers Starting with Windows Vista], _DOT11_VWIFI_COMBINATION, netvista.dot11_vwifi_combination, windot11/DOT11_VWIFI_COMBINATION, windot11/PDOT11_VWIFI_COMBINATION"
-ms.topic: struct
 f1_keywords:
  - "windot11/DOT11_VWIFI_COMBINATION"
 req.header: windot11.h

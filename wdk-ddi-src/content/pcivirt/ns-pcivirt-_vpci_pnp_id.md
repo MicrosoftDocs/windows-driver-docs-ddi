@@ -6,8 +6,8 @@ old-location: pci\vpci_pnp_id.htm
 tech.root: PCI
 ms.assetid: 9759ed77-d91a-466b-9678-4ed4fb4359e4
 ms.date: 02/24/2018
+keywords: ["_VPCI_PNP_ID structure"]
 ms.keywords: "*PVPCI_PNP_ID, PCI.vpci_pnp_id, VPCI_PNP_ID, VPCI_PNP_ID structure [Buses], _VPCI_PNP_ID, pcivirt/VPCI_PNP_ID"
-ms.topic: struct
 f1_keywords:
  - "pcivirt/VPCI_PNP_ID"
 req.header: pcivirt.h

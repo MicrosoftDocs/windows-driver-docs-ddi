@@ -6,8 +6,8 @@ old-location: netvista\ril_unblockuicclock.htm
 tech.root: netvista
 ms.assetid: a8cddfa1-b15e-4832-8c9c-12d378bc682d
 ms.date: 05/02/2018
+keywords: ["RIL_UnblockUiccLock function"]
 ms.keywords: RIL_UnblockUiccLock, RIL_UnblockUiccLock method [Network Drivers Starting with Windows Vista], netvista.ril_unblockuicclock, rilapi/RIL_UnblockUiccLock
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_UnblockUiccLock"
 req.header: rilapi.h

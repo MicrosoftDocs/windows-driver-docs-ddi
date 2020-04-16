@@ -5,8 +5,8 @@ description: Specifies data used to determine support of hardware for a configur
 old-location: display\d3d12ddi_video_decode_support_data.htm
 ms.assetid: 05274F4B-0473-42BA-A382-B348A85DBFA5
 ms.date: 04/16/2018
+keywords: ["D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020, D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020, display.d3d12ddi_video_decode_support_data
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020"
 req.header: d3d12umddi.h

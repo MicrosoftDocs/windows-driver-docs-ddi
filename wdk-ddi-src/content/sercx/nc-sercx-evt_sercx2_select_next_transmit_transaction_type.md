@@ -6,8 +6,8 @@ old-location: serports\evtsercx2selectnexttransmittransactiontype.htm
 tech.root: serports
 ms.assetid: EE46CB43-18BA-4FD7-A60D-07DB1760B8E7
 ms.date: 04/23/2018
+keywords: ["EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE callback function"]
 ms.keywords: 2/EvtSerCx2SelectNextTransmitTransactionType, EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE, EVT_SERCX2_SELECT_NEXT_TRANSMIT_TRANSACTION_TYPE callback, EvtSerCx2SelectNextTransmitTransactionType, EvtSerCx2SelectNextTransmitTransactionType callback function [Serial Ports], serports.evtsercx2selectnexttransmittransactiontype
-ms.topic: callback
 f1_keywords:
  - "sercx/EvtSerCx2SelectNextTransmitTransactionType"
 req.header: sercx.h

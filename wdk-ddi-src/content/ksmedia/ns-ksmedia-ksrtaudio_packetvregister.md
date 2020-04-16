@@ -4,7 +4,7 @@ title: KSRTAUDIO_PACKETVREGISTER (ksmedia.h)
 description: The KSRTAUDIO_PACKETVREGISTER structure contains information about the packet virtual register pointers.
 ms.assetid: 42c9a5a1-0d6c-447b-918e-70ab47c4720d
 ms.date: 09/28/2018
-ms.topic: struct
+keywords: ["KSRTAUDIO_PACKETVREGISTER structure"]
 f1_keywords:
  - "ksmedia/KSRTAUDIO_PACKETVREGISTER"
 ms.keywords: KSRTAUDIO_PACKETVREGISTER, KSRTAUDIO_PACKETVREGISTER, *PKSRTAUDIO_PACKETVREGISTER, 

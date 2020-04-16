@@ -6,8 +6,8 @@ old-location: netvista\rilphonebookentry.htm
 tech.root: netvista
 ms.assetid: 2741d992-624a-4fd1-a1b5-57fb39c42f84
 ms.date: 05/02/2018
+keywords: ["RILPHONEBOOKENTRY structure"]
 ms.keywords: "*LPRILPHONEBOOKENTRY, RILPHONEBOOKENTRY, RILPHONEBOOKENTRY structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookentry, ntddrilapitypes/RILPHONEBOOKENTRY"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILPHONEBOOKENTRY"
 req.header: rilapitypes.h

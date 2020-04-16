@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: c56d63ef-d111-44e3-a2e7-226bc45dc357
 ms.author: windowsdriverdev
 ms.date: 01/17/2019
-ms.topic: function
+keywords: ["NetOffloadIsLsoIPv4Enabled function"]
 f1_keywords:
  - "netadapteroffload/NetOffloadIsLsoIPv4Enabled"
 ms.keywords: NetOffloadIsLsoIPv4Enabled

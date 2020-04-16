@@ -5,7 +5,7 @@ description: The NDIS_RSS_HASH_FUNC_FROM_HASH_INFO macro gets the hash function 
 tech.root: netvista
 ms.assetid: 27fd758b-7b00-4ed7-81cb-6d4170a6a220
 ms.date: 04/16/2018
-ms.topic: macro
+keywords: ["NDIS_RSS_HASH_FUNC_FROM_HASH_INFO macro"]
 f1_keywords:
  - "ntddndis/NDIS_RSS_HASH_FUNC_FROM_HASH_INFO"
 ms.keywords: NDIS_RSS_HASH_FUNC_FROM_HASH_INFO

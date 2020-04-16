@@ -6,8 +6,8 @@ old-location: display\dxgkddistopdevice.htm
 tech.root: display
 ms.assetid: 3c17c7cf-9cfa-421d-a503-88726519fb6c
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_STOP_DEVICE callback function"]
 ms.keywords: DXGKDDI_STOP_DEVICE, DXGKDDI_STOP_DEVICE callback, DmFunctions_c2d7e95b-beba-488a-b046-98e5daa728b9.xml, DxgkDdiStopDevice, DxgkDdiStopDevice callback function [Display Devices], display.dxgkddistopdevice, dispmprt/DxgkDdiStopDevice
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiStopDevice"
 req.header: dispmprt.h

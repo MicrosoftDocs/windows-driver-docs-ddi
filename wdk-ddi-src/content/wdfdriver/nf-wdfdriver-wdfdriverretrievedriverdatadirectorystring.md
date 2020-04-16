@@ -4,7 +4,7 @@ title: WdfDriverRetrieveDriverDataDirectoryString function (wdfdriver.h)
 description:
 ms.assetid: 274dd0ee-3714-4c2c-ba44-ab4513520f73
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["WdfDriverRetrieveDriverDataDirectoryString function"]
 f1_keywords:
  - "wdfdriver/WdfDriverRetrieveDriverDataDirectoryString"
 ms.keywords: WdfDriverRetrieveDriverDataDirectoryString

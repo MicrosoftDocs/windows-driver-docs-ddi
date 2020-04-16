@@ -6,8 +6,8 @@ old-location: stream\kscamera_extendedprop_roi_whitebalance.htm
 tech.root: stream
 ms.assetid: 16BDC61E-390C-4D79-A8D0-049404974733
 ms.date: 04/23/2018
+keywords: ["tagKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE, stream.kscamera_extendedprop_roi_whitebalance, tagKSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSCAMERA_EXTENDEDPROP_ROI_WHITEBALANCE"
 req.header: ksmedia.h

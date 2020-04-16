@@ -6,8 +6,8 @@ old-location: image\wiasfreepropcontext.htm
 tech.root: image
 ms.assetid: 14a1a5bd-acc3-4ca6-87c6-5326c0f9ca82
 ms.date: 05/03/2018
+keywords: ["wiasFreePropContext function"]
 ms.keywords: image.wiasfreepropcontext, wiamdef/wiasFreePropContext, wiasFncs_60deac65-fa17-4f2e-abe1-fa6d424dc477.xml, wiasFreePropContext, wiasFreePropContext function [Imaging Devices]
-ms.topic: function
 f1_keywords:
  - "wiamdef/wiasFreePropContext"
 req.header: wiamdef.h

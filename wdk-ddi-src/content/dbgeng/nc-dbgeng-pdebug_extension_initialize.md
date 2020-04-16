@@ -6,8 +6,8 @@ old-location: debugger\debugextensioninitialize.htm
 tech.root: debugger
 ms.assetid: 2e68fa38-55fc-4538-ae97-ed943d5381be
 ms.date: 05/03/2018
+keywords: ["PDEBUG_EXTENSION_INITIALIZE callback function"]
 ms.keywords: DebugExtensionInitialize, DebugExtensionInitialize callback function [Windows Debugging], Extensions_Ref_e260c42c-8299-4578-8919-3b2167701275.xml, PDEBUG_EXTENSION_INITIALIZE, PDEBUG_EXTENSION_INITIALIZE callback, dbgeng/DebugExtensionInitialize, debugger.debugextensioninitialize
-ms.topic: callback
 f1_keywords:
  - "dbgeng/DebugExtensionInitialize"
 req.header: dbgeng.h

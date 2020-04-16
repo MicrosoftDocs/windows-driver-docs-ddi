@@ -4,7 +4,7 @@ title: D3D12DDIARG_TEX2D_UNORDERED_ACCESS_VIEW_0002 (d3d12umddi.h)
 description: Describes a two-dimensional (2-D) texture that is used to create an unordered access view.
 ms.assetid: 14e19db9-a82f-41cc-b8a2-ecd0217c3ec4
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["D3D12DDIARG_TEX2D_UNORDERED_ACCESS_VIEW_0002 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_TEX2D_UNORDERED_ACCESS_VIEW_0002"
 ms.keywords: D3D12DDIARG_TEX2D_UNORDERED_ACCESS_VIEW_0002, D3D12DDIARG_TEX2D_UNORDERED_ACCESS_VIEW_0002, 

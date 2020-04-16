@@ -6,8 +6,8 @@ old-location: kernel\pofxregisterpluginex.htm
 tech.root: kernel
 ms.assetid: 68753690-A6DC-46BE-9981-F395B98C3245
 ms.date: 04/30/2018
+keywords: ["PoFxRegisterPluginEx function"]
 ms.keywords: PoFxRegisterPluginEx, PoFxRegisterPluginEx routine [Kernel-Mode Driver Architecture], kernel.pofxregisterpluginex, pepfx/PoFxRegisterPluginEx
-ms.topic: function
 f1_keywords:
  - "pepfx/PoFxRegisterPluginEx"
 req.header: pepfx.h

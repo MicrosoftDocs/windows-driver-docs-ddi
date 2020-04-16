@@ -6,8 +6,8 @@ old-location: print\iprintschemacapabilities_getoptions.htm
 tech.root: print
 ms.assetid: 0A8271AC-389F-4E04-8691-CBED1391B453
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaCapabilities::GetOptions"]
 ms.keywords: GetOptions, GetOptions method [Print Devices], GetOptions method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetOptions method, IPrintSchemaCapabilities.GetOptions, IPrintSchemaCapabilities::GetOptions, print.iprintschemacapabilities_getoptions, printerextension/IPrintSchemaCapabilities::GetOptions
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintSchemaCapabilities.GetOptions"
 req.header: printerextension.h

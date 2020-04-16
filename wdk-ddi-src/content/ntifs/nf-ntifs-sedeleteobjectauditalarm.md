@@ -6,8 +6,8 @@ old-location: ifsk\sedeleteobjectauditalarm.htm
 tech.root: ifsk
 ms.assetid: 3d0a26e2-60d4-437e-b5cc-3ca7afee8f5a
 ms.date: 04/16/2018
+keywords: ["SeDeleteObjectAuditAlarm function"]
 ms.keywords: SeDeleteObjectAuditAlarm, SeDeleteObjectAuditAlarm routine [Installable File System Drivers], ifsk.sedeleteobjectauditalarm, ntifs/SeDeleteObjectAuditAlarm, seref_eb1715b3-9c8b-4848-8cc8-3809d0d35d9e.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/SeDeleteObjectAuditAlarm"
 req.header: ntifs.h

@@ -5,8 +5,8 @@ description: Called by the display port driver's GPU scheduler to query dependen
 old-location: display\dxgkddiquerydependentenginegroup.htm
 ms.assetid: 42040ffc-40a3-4794-805c-7a165c47c8c9
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_QUERYDEPENDENTENGINEGROUP callback function"]
 ms.keywords: DXGKDDI_QUERYDEPENDENTENGINEGROUP, DXGKDDI_QUERYDEPENDENTENGINEGROUP callback, DxgkDdiQueryDependentEngineGroup, DxgkDdiQueryDependentEngineGroup callback function [Display Devices], d3dkmddi/DxgkDdiQueryDependentEngineGroup, display.dxgkddiquerydependentenginegroup
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

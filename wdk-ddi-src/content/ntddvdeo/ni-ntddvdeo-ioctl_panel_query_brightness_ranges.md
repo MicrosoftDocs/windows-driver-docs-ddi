@@ -4,7 +4,7 @@ title: IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES (ntddvdeo.h)
 description: Queries the brightness ranges for a display panel.
 ms.assetid: 2fb0a064-2c67-46e0-baa9-d03394614d87
 ms.date: 10/19/2018
-ms.topic: ioctl
+keywords: ["IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES IOCTL"]
 f1_keywords:
  - "ntddvdeo/IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES"
 req.header: ntddvdeo.h

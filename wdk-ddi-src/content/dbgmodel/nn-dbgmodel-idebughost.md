@@ -4,7 +4,7 @@ title: IDebugHost (dbgmodel.h)
 description: The core interface to the underlying debugger.
 ms.assetid: 1eb195cc-10aa-4820-9e1b-a892f8d08e39
 ms.date: 07/13/2018
-ms.topic: interface
+keywords: ["IDebugHost interface"]
 f1_keywords:
  - "dbgmodel/IDebugHost"
 req.header: dbgmodel.h

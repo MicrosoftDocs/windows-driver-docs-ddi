@@ -6,8 +6,8 @@ old-location: display\videoportsynchronizeexecution.htm
 tech.root: display
 ms.assetid: 93c9e4f4-7b36-4815-b762-3ac528ac96ba
 ms.date: 05/10/2018
+keywords: ["VideoPortSynchronizeExecution function"]
 ms.keywords: VideoPortSynchronizeExecution, VideoPortSynchronizeExecution function [Display Devices], VideoPort_Functions_675225d0-5e49-4ad5-bdaa-f7341b9a96db.xml, display.videoportsynchronizeexecution, video/VideoPortSynchronizeExecution
-ms.topic: function
 f1_keywords:
  - "video/VideoPortSynchronizeExecution"
 req.header: video.h

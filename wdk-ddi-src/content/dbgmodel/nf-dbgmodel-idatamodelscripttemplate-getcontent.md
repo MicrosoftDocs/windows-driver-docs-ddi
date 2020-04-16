@@ -4,7 +4,7 @@ title: IDataModelScriptTemplate::GetContent (dbgmodel.h)
 description: The GetContent method returns the content (or code) of the template. 
 ms.assetid: 6c374069-2f98-4283-a01f-b65bcab8cd3a
 ms.date: 08/21/2018
-ms.topic: method
+keywords: ["IDataModelScriptTemplate::GetContent"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptTemplate.GetContent"
 ms.keywords: IDataModelScriptTemplate::GetContent, GetContent, IDataModelScriptTemplate.GetContent, IDataModelScriptTemplate::GetContent, IDataModelScriptTemplate.GetContent

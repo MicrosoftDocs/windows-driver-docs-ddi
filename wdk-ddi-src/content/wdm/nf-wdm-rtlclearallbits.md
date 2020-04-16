@@ -6,8 +6,8 @@ old-location: kernel\rtlclearallbits.htm
 tech.root: kernel
 ms.assetid: 8271b13a-a64e-4d5e-b319-283255b8127f
 ms.date: 04/30/2018
+keywords: ["RtlClearAllBits function"]
 ms.keywords: RtlClearAllBits, RtlClearAllBits routine [Kernel-Mode Driver Architecture], k109_6fb17a55-6839-411c-9289-720657ba4983.xml, kernel.rtlclearallbits, wdm/RtlClearAllBits
-ms.topic: function
 f1_keywords:
  - "wdm/RtlClearAllBits"
 req.header: wdm.h

@@ -6,8 +6,8 @@ old-location: netvista\ndistcpoffloadforwardcomplete.htm
 tech.root: netvista
 ms.assetid: 080949ab-8a27-4d13-992e-597210d4882c
 ms.date: 05/02/2018
+keywords: ["NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback function"]
 ms.keywords: NDIS_TCP_OFFLOAD_FORWARD_COMPLETE, NDIS_TCP_OFFLOAD_FORWARD_COMPLETE callback, NdisTcpOffloadForwardComplete, NdisTcpOffloadForwardComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadForwardComplete, netvista.ndistcpoffloadforwardcomplete, tcp_chim_ndis_func_a6483879-a4ae-49e0-859f-51a66070566d.xml
-ms.topic: callback
 f1_keywords:
  - "ndischimney/NdisTcpOffloadForwardComplete"
 req.header: ndischimney.h

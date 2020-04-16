@@ -6,8 +6,8 @@ old-location: stream\kspinpropertyhandler.htm
 tech.root: stream
 ms.assetid: b721b79b-93f3-4dc8-853d-543222464341
 ms.date: 04/23/2018
+keywords: ["KsPinPropertyHandler function"]
 ms.keywords: KsPinPropertyHandler, KsPinPropertyHandler function [Streaming Media Devices], ks/KsPinPropertyHandler, ksfunc_4ebda111-4b9a-4e8e-b050-af336121bcf0.xml, stream.kspinpropertyhandler
-ms.topic: function
 f1_keywords:
  - "ks/KsPinPropertyHandler"
 req.header: ks.h

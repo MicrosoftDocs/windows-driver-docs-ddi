@@ -4,7 +4,7 @@ title: IDataModelManager2::CreateErrorObject (dbgmodel.h)
 description: The CreateErrorObject method creates an "error object".
 ms.assetid: 78cbba35-8827-4e76-bcb3-97aeb0378d33
 ms.date: 08/21/2018
-ms.topic: method
+keywords: ["IDataModelManager2::CreateErrorObject"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.CreateErrorObject"
 ms.keywords: IDataModelManager2::CreateErrorObject, CreateErrorObject, IDataModelManager2.CreateErrorObject, IDataModelManager2::CreateErrorObject, IDataModelManager2.CreateErrorObject

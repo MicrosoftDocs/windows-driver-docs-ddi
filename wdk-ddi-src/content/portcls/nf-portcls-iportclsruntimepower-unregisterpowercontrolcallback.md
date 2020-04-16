@@ -6,8 +6,8 @@ old-location: audio\iportclsruntimepower_unregisterpowercontrolcallback.htm
 tech.root: audio
 ms.assetid: F7E83587-0499-4D56-8D34-5513454FFEE2
 ms.date: 05/08/2018
+keywords: ["IPortClsRuntimePower::UnregisterPowerControlCallback"]
 ms.keywords: IPortClsRuntimePower interface [Audio Devices],UnregisterPowerControlCallback method, IPortClsRuntimePower.UnregisterPowerControlCallback, IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback, UnregisterPowerControlCallback method [Audio Devices], UnregisterPowerControlCallback method [Audio Devices],IPortClsRuntimePower interface, audio.iportclsruntimepower_unregisterpowercontrolcallback, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback
-ms.topic: method
 f1_keywords:
  - "portcls/IPortClsRuntimePower.UnregisterPowerControlCallback"
 req.header: portcls.h

@@ -6,8 +6,8 @@ old-location: wdf\wdf_dma_enabler_config_flags.htm
 tech.root: wdf
 ms.assetid: 8F8C97B2-5C77-4AD0-9434-22108111F5A8
 ms.date: 02/26/2018
+keywords: ["_WDF_DMA_ENABLER_CONFIG_FLAGS enumeration"]
 ms.keywords: WDF_DMA_ENABLER_CONFIG_FLAGS, WDF_DMA_ENABLER_CONFIG_FLAGS enumeration, WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER, _WDF_DMA_ENABLER_CONFIG_FLAGS, kmdf.wdf_dma_enabler_config_flags, wdf.wdf_dma_enabler_config_flags, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_FLAGS, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_NO_SGLIST_PREALLOCATION, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_REQUIRE_SINGLE_TRANSFER
-ms.topic: enum
 f1_keywords:
  - "wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_FLAGS"
 req.header: wdfdmaenabler.h

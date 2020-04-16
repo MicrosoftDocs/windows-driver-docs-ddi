@@ -4,7 +4,7 @@ title: PFND3DKMT_GETDWMVERTICALBLANKEVENT (d3dkmthk.h)
 description: Pfnd3dkmtGetdwmverticalblankevent gets DWM (desktop windows manager) vertical blank event.
 ms.assetid: 3f938343-51f7-4e40-bccc-73dbabf9e2a9
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DKMT_GETDWMVERTICALBLANKEVENT callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_GETDWMVERTICALBLANKEVENT"
 req.header: d3dkmthk.h

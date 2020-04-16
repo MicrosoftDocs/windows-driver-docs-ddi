@@ -6,8 +6,8 @@ old-location: kernel\rtlshorttochar.htm
 tech.root: kernel
 ms.assetid: AC7D5479-7C68-445A-9788-F5E96D6BB41E
 ms.date: 04/30/2018
+keywords: ["RtlShortToChar function"]
 ms.keywords: RtlShortToChar, RtlShortToChar function [Kernel-Mode Driver Architecture], kernel.rtlshorttochar, ntintsafe/RtlShortToChar
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlShortToChar"
 req.header: ntintsafe.h

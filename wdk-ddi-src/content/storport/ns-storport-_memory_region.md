@@ -6,8 +6,8 @@ old-location: storage\memory_region.htm
 tech.root: storage
 ms.assetid: b8dbc3d4-7a70-4ec6-b7b0-2b0877fb9722
 ms.date: 03/29/2018
+keywords: ["_MEMORY_REGION structure"]
 ms.keywords: "*PMEMORY_REGION, MEMORY_REGION, MEMORY_REGION structure [Storage Devices], PMEMORY_REGION, PMEMORY_REGION structure pointer [Storage Devices], _MEMORY_REGION, storage.memory_region, storport/MEMORY_REGION, storport/PMEMORY_REGION, structs-storport_4ed10515-f1ce-4767-bbdc-239ac00a5cbe.xml"
-ms.topic: struct
 f1_keywords:
  - "storport/MEMORY_REGION"
 req.header: storport.h

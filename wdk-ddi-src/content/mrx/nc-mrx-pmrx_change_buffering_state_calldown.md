@@ -6,8 +6,8 @@ old-location: ifsk\mrxcompletebufferingstatechangerequest.htm
 tech.root: ifsk
 ms.assetid: 1484dcca-e29c-495d-917c-1debefc91409
 ms.date: 04/16/2018
+keywords: ["PMRX_CHANGE_BUFFERING_STATE_CALLDOWN callback function"]
 ms.keywords: MRxCompleteBufferingStateChangeRequest, MRxCompleteBufferingStateChangeRequest routine [Installable File System Drivers], PMRX_CHANGE_BUFFERING_STATE_CALLDOWN, ifsk.mrxcompletebufferingstatechangerequest, mrx/MRxCompleteBufferingStateChangeRequest, mrxref_5ac31893-1998-454a-a0c9-07d32e60d8db.xml
-ms.topic: callback
 f1_keywords:
  - "mrx/MRxCompleteBufferingStateChangeRequest"
 req.header: mrx.h

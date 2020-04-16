@@ -6,8 +6,8 @@ old-location: debugger\getvalidregionvirtual.htm
 tech.root: debugger
 ms.assetid: b580c2ef-94f9-4738-bd00-0d5a4753f71a
 ms.date: 05/03/2018
+keywords: ["IDebugDataSpaces4::GetValidRegionVirtual"]
 ms.keywords: GetValidRegionVirtual, GetValidRegionVirtual method [Windows Debugging], GetValidRegionVirtual method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging],GetValidRegionVirtual method, IDebugDataSpaces4.GetValidRegionVirtual, IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml, dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, debugger.getvalidregionvirtual
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugDataSpaces4.GetValidRegionVirtual"
 req.header: dbgeng.h

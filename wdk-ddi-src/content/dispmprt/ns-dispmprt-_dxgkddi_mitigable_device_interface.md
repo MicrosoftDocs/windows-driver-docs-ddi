@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 77323c81-e0e9-47e0-9a99-b277fc678ee3
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
-ms.topic: struct
+keywords: ["_DXGKDDI_MITIGABLE_DEVICE_INTERFACE structure"]
 f1_keywords:
  - "dispmprt/_DXGKDDI_MITIGABLE_DEVICE_INTERFACE"
 ms.prod: windows-hardware

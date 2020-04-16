@@ -4,7 +4,7 @@ title: IDebugHostField (dbgmodel.h)
 description: Represents a field within a structure or class.
 ms.assetid: e3b8dddc-1481-41ad-b162-4f5162aed653
 ms.date: 07/13/2018
-ms.topic: interface
+keywords: ["IDebugHostField interface"]
 f1_keywords:
  - "dbgmodel/IDebugHostField"
 req.header: dbgmodel.h

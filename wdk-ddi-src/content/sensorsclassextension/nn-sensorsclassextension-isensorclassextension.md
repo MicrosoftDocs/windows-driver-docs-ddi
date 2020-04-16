@@ -6,8 +6,8 @@ old-location: sensors\isensorclassextension.htm
 tech.root: sensors
 ms.assetid: db455be3-3aec-47c4-81a8-992aa4926138
 ms.date: 05/03/2018
+keywords: ["ISensorClassExtension interface"]
 ms.keywords: ISensorClassExtension, ISensorClassExtension interface [Sensor Devices], ISensorClassExtension interface [Sensor Devices],described, Sensor_IFaces_84ca9d2b-f0e3-4500-99a4-21054c7dc527.xml, sensors.isensorclassextension, sensorsclassextension/ISensorClassExtension
-ms.topic: interface
 f1_keywords:
  - "sensorsclassextension/ISensorClassExtension"
 req.header: sensorsclassextension.h

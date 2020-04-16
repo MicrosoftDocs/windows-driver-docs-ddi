@@ -6,8 +6,8 @@ old-location: storage\ioctl_ehstor_device_silo_command.htm
 tech.root: storage
 ms.assetid: 3258FA16-E1FE-4CBF-8C87-0C7A8B2A7EBF
 ms.date: 03/29/2018
+keywords: ["IOCTL_EHSTOR_DEVICE_SILO_COMMAND IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DEVICE_SILO_COMMAND, IOCTL_EHSTOR_DEVICE_SILO_COMMAND control, IOCTL_EHSTOR_DEVICE_SILO_COMMAND control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SILO_COMMAND, storage.ioctl_ehstor_device_silo_command
-ms.topic: ioctl
 f1_keywords:
  - "ehstorioctl/IOCTL_EHSTOR_DEVICE_SILO_COMMAND"
 req.header: ehstorioctl.h

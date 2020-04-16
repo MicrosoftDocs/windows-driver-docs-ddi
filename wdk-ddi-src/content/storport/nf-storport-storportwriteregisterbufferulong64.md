@@ -6,8 +6,8 @@ old-location: storage\storportwriteregisterbufferulong64.htm
 tech.root: storage
 ms.assetid: 3C36DB8F-46C2-4E81-B2F3-6DE78D91566E
 ms.date: 03/29/2018
+keywords: ["StorPortWriteRegisterBufferUlong64 macro"]
 ms.keywords: StorPortWriteRegisterBufferUlong64, StorPortWriteRegisterBufferUlong64 routine [Storage Devices], storage.storportwriteregisterbufferulong64, storport/StorPortWriteRegisterBufferUlong64
-ms.topic: macro
 f1_keywords:
  - "storport/StorPortWriteRegisterBufferUlong64"
 req.header: storport.h

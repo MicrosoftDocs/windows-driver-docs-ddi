@@ -6,8 +6,8 @@ old-location: kernel\file_ea_information.htm
 tech.root: kernel
 ms.assetid: 1b27f26f-c98d-4979-b60e-0ed5965f637c
 ms.date: 04/30/2018
+keywords: ["_FILE_EA_INFORMATION structure"]
 ms.keywords: "*PFILE_EA_INFORMATION, FILE_EA_INFORMATION, FILE_EA_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_EA_INFORMATION, PFILE_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_EA_INFORMATION, kernel.file_ea_information, kstruct_b_f78f051a-aa8f-4611-a699-1f706ac74f1f.xml, ntifs/FILE_EA_INFORMATION, ntifs/PFILE_EA_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "ntifs/FILE_EA_INFORMATION"
 req.header: ntifs.h

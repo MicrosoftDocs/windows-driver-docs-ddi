@@ -4,7 +4,7 @@ title: IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE (sidebandaudio.h)
 description: 
 ms.assetid: c004565c-00b0-4870-b7cf-e1f4fa8b8474
 ms.date: 10/05/2018
-ms.topic: ioctl
+keywords: ["IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL"]
 f1_keywords:
  - "sidebandaudio/IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE"
 req.header: sidebandaudio.h

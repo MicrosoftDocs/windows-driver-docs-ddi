@@ -6,8 +6,8 @@ old-location: kernel\pep_ppm_platform_state_residencies.htm
 tech.root: kernel
 ms.assetid: 5B6186EB-EC08-4C11-9CCF-E07D78FBD535
 ms.date: 04/30/2018
+keywords: ["_PEP_PPM_PLATFORM_STATE_RESIDENCIES structure"]
 ms.keywords: "*PPEP_PPM_PLATFORM_STATE_RESIDENCIES, PEP_PPM_PLATFORM_STATE_RESIDENCIES, PEP_PPM_PLATFORM_STATE_RESIDENCIES structure [Kernel-Mode Driver Architecture], PPEP_PPM_PLATFORM_STATE_RESIDENCIES, PPEP_PPM_PLATFORM_STATE_RESIDENCIES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PLATFORM_STATE_RESIDENCIES, kernel.pep_ppm_platform_state_residencies, pepfx/PEP_PPM_PLATFORM_STATE_RESIDENCIES, pepfx/PPEP_PPM_PLATFORM_STATE_RESIDENCIES"
-ms.topic: struct
 f1_keywords:
  - "pepfx/PEP_PPM_PLATFORM_STATE_RESIDENCIES"
 req.header: pepfx.h

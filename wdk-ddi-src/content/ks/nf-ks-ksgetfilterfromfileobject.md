@@ -6,8 +6,8 @@ old-location: stream\ksgetfilterfromfileobject.htm
 tech.root: stream
 ms.assetid: eb4ca943-43cb-4eac-8a73-484a7b8acafe
 ms.date: 04/23/2018
+keywords: ["KsGetFilterFromFileObject function"]
 ms.keywords: KsGetFilterFromFileObject, KsGetFilterFromFileObject function [Streaming Media Devices], avfunc_4c336bce-3064-471e-bd79-daa1888e14b8.xml, ks/KsGetFilterFromFileObject, stream.ksgetfilterfromfileobject
-ms.topic: function
 f1_keywords:
  - "ks/KsGetFilterFromFileObject"
 req.header: ks.h

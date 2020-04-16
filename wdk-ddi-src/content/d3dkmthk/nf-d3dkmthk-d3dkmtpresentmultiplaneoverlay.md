@@ -4,7 +4,7 @@ title: D3DKMTPresentMultiPlaneOverlay function (d3dkmthk.h)
 description: Copies content from a source multiplane overlay allocation to a destination allocation.
 ms.assetid: acf7922c-f3f8-4873-b8f0-df30700a32db
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["D3DKMTPresentMultiPlaneOverlay function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTPresentMultiPlaneOverlay"
 ms.keywords: D3DKMTPresentMultiPlaneOverlay

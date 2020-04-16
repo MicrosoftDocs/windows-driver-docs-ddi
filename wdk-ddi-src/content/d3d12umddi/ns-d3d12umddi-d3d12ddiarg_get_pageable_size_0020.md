@@ -5,8 +5,8 @@ description: Specifies information used to get the driver reported size for an a
 old-location: display\d3d12ddiarg_get_pageable_size.htm
 ms.assetid: 82A5ACBD-EE18-46DF-822B-87ABF331BF44
 ms.date: 05/10/2018
+keywords: ["D3D12DDIARG_GET_PAGEABLE_SIZE_0020 structure"]
 ms.keywords: D3D12DDIARG_GET_PAGEABLE_SIZE_0020, D3D12DDIARG_GET_PAGEABLE_SIZE_0020 structure [Display Devices], d3d12umddi/D3D12DDIARG_GET_PAGEABLE_SIZE_0020, display.d3d12ddiarg_get_pageable_size
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_GET_PAGEABLE_SIZE_0020"
 req.header: d3d12umddi.h

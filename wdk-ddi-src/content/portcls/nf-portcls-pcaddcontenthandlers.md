@@ -6,8 +6,8 @@ old-location: audio\pcaddcontenthandlers.htm
 tech.root: audio
 ms.assetid: c3ae9de0-3c21-498b-a29c-4ec54677826a
 ms.date: 05/08/2018
+keywords: ["PcAddContentHandlers function"]
 ms.keywords: PcAddContentHandlers, PcAddContentHandlers function [Audio Devices], audio.pcaddcontenthandlers, audpc-routines_11505f52-36d9-4b58-b1f8-44083705f9b5.xml, portcls/PcAddContentHandlers
-ms.topic: function
 f1_keywords:
  - "portcls/PcAddContentHandlers"
 req.header: portcls.h

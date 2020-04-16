@@ -6,8 +6,8 @@ old-location: audio\iminiportmidi_init.htm
 tech.root: audio
 ms.assetid: 2afec522-5a40-4db2-9f37-ee7a9b64e823
 ms.date: 05/08/2018
+keywords: ["IMiniportMidi::Init"]
 ms.keywords: IMiniportMidi interface [Audio Devices],Init method, IMiniportMidi.Init, IMiniportMidi::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IMiniportMidi interface, audio.iminiportmidi_init, audmp-routines_44f5f136-811f-46ec-aa4d-64fba408acbf.xml, portcls/IMiniportMidi::Init
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportMidi.Init"
 req.header: portcls.h

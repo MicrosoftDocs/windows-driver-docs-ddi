@@ -6,8 +6,8 @@ old-location: kernel\rtllongtoulongptr.htm
 tech.root: kernel
 ms.assetid: D05EDC76-7A3E-4A9F-8950-8E54CDD16016
 ms.date: 04/30/2018
+keywords: ["RtlLongToULongPtr function"]
 ms.keywords: RtlLongToULongPtr, RtlLongToULongPtr function [Kernel-Mode Driver Architecture], kernel.rtllongtoulongptr, ntintsafe/RtlLongToULongPtr
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlLongToULongPtr"
 req.header: ntintsafe.h

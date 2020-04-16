@@ -4,7 +4,7 @@ title: D3DKMTSetSyncRefreshCountWaitTarget function (d3dkmthk.h)
 description: Sets sync refresh count for wait target.
 ms.assetid: 2703869c-1caa-4cda-a6a7-01516a4ecb85
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["D3DKMTSetSyncRefreshCountWaitTarget function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTSetSyncRefreshCountWaitTarget"
 ms.keywords: D3DKMTSetSyncRefreshCountWaitTarget

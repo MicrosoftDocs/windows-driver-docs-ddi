@@ -6,8 +6,8 @@ old-location: sensors\sensor_value_pair.htm
 tech.root: sensors
 ms.assetid: 0D0B06FE-BE88-4FB2-92FC-8B6D396CEFE8
 ms.date: 05/03/2018
+keywords: ["SENSOR_VALUE_PAIR structure"]
 ms.keywords: "*PSENSOR_VALUE_PAIR, PSENSOR_VALUE_PAIR, PSENSOR_VALUE_PAIR structure pointer [Sensor Devices], SENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR structure [Sensor Devices], sensors.sensor_value_pair, sensorsdef/PSENSOR_VALUE_PAIR, sensorsdef/SENSOR_VALUE_PAIR"
-ms.topic: struct
 f1_keywords:
  - "sensorsdef/SENSOR_VALUE_PAIR"
 req.header: sensorsdef.h

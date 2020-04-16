@@ -6,8 +6,8 @@ old-location: serports\sercx2pioreceiveready.htm
 tech.root: serports
 ms.assetid: 81DE84F8-7D2D-464F-BA5D-4D92D0EE9149
 ms.date: 04/23/2018
+keywords: ["SerCx2PioReceiveReady function"]
 ms.keywords: 2/SerCx2PioReceiveReady, SerCx2PioReceiveReady, SerCx2PioReceiveReady method [Serial Ports], serports.sercx2pioreceiveready
-ms.topic: function
 f1_keywords:
  - "sercx/SerCx2PioReceiveReady"
 req.header: sercx.h

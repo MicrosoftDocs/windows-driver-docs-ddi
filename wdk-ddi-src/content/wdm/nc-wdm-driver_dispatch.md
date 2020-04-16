@@ -6,8 +6,8 @@ old-location: kernel\dispatchcleanup.htm
 tech.root: kernel
 ms.assetid: 86634953-9c1b-49e6-be44-edb9be911148
 ms.date: 04/30/2018
+keywords: ["DRIVER_DISPATCH callback function"]
 ms.keywords: DRIVER_DISPATCH, DispatchCleanup, DispatchClose, DispatchCreate, DispatchCreateClose, DispatchDeviceControl, DispatchFlushBuffers, DispatchInternalDeviceControl, DispatchPnP, DispatchPower, DispatchQueryInformation, DispatchRead, DispatchReadWrite, DispatchSetInformation, DispatchShutdown, DispatchSystemControl, DispatchWrite, DrvrRtns_157dfedc-63c2-4924-ad5c-04ff9f746a94.xml, MyDispatch, MyDispatch routine [Kernel-Mode Driver Architecture], kernel.dispatchcleanup, wdm/MyDispatch
-ms.topic: callback
 f1_keywords:
  - "wdm/MyDispatch"
 req.header: wdm.h

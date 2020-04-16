@@ -6,8 +6,8 @@ old-location: ifsk\fltgetfilenameinformation.htm
 tech.root: ifsk
 ms.assetid: 707e7e83-31d8-46cf-a2ef-e53a20edaeff
 ms.date: 05/20/2019
+keywords: ["FltGetFileNameInformation function"]
 ms.keywords: FltApiRef_e_to_o_1ce08fd0-5e23-43de-b012-dd71086282ea.xml, FltGetFileNameInformation, FltGetFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetFileNameInformation, ifsk.fltgetfilenameinformation
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltGetFileNameInformation"
 req.header: fltkernel.h

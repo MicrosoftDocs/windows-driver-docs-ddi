@@ -6,8 +6,8 @@ old-location: print\iprintcoreui2_getglobalattribute.htm
 tech.root: print
 ms.assetid: fa5555df-4ada-40f3-9878-e6ba3dac2345
 ms.date: 04/20/2018
+keywords: ["IPrintCoreUI2::GetGlobalAttribute"]
 ms.keywords: GetGlobalAttribute, GetGlobalAttribute method [Print Devices], GetGlobalAttribute method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetGlobalAttribute method, IPrintCoreUI2.GetGlobalAttribute, IPrintCoreUI2::GetGlobalAttribute, prcomoem/IPrintCoreUI2::GetGlobalAttribute, print.iprintcoreui2_getglobalattribute, print_unidrv-pscript_ui_bd9fbd99-28f2-4613-a5d4-72b98fee95eb.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintCoreUI2.GetGlobalAttribute"
 req.header: prcomoem.h

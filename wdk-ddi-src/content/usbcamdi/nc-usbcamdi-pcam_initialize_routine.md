@@ -6,8 +6,8 @@ old-location: stream\caminitialize.htm
 tech.root: stream
 ms.assetid: a39f78b7-f749-40b8-952a-5442608b0f1f
 ms.date: 04/23/2018
+keywords: ["PCAM_INITIALIZE_ROUTINE callback function"]
 ms.keywords: CamInitialize, CamUnInitialize, MyInitialize, MyInitialize routine [Streaming Media Devices], PCAM_INITIALIZE_ROUTINE, stream.caminitialize, usbcamdi/MyInitialize, usbcmdpr_77de14cb-6be6-441a-af16-ef5bf38d8d01.xml
-ms.topic: callback
 f1_keywords:
  - "usbcamdi/MyInitialize"
 req.header: usbcamdi.h

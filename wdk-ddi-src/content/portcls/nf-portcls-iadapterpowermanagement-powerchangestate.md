@@ -6,8 +6,8 @@ old-location: audio\iadapterpowermanagement_powerchangestate.htm
 tech.root: audio
 ms.assetid: b3e0fca7-d5ab-4d52-9702-dae83c540a71
 ms.date: 05/08/2018
+keywords: ["IAdapterPowerManagement::PowerChangeState"]
 ms.keywords: IAdapterPowerManagement interface [Audio Devices],PowerChangeState method, IAdapterPowerManagement.PowerChangeState, IAdapterPowerManagement::PowerChangeState, PowerChangeState, PowerChangeState method [Audio Devices], PowerChangeState method [Audio Devices],IAdapterPowerManagement interface, audio.iadapterpowermanagement_powerchangestate, audmp-routines_7898e689-94c5-4577-80d8-a88676cd44dc.xml, portcls/IAdapterPowerManagement::PowerChangeState
-ms.topic: method
 f1_keywords:
  - "portcls/IAdapterPowerManagement.PowerChangeState"
 req.header: portcls.h

@@ -5,8 +5,8 @@ description: Contains an unordered access view (UAV) barrier.
 old-location: display\d3d12ddi_resource_uav_barrier.htm
 ms.assetid: 8473EB26-54C5-49D0-A854-422086CE8CCC
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_RESOURCE_UAV_BARRIER structure"]
 ms.keywords: D3D12DDI_RESOURCE_UAV_BARRIER, D3D12DDI_RESOURCE_UAV_BARRIER structure [Display Devices], d3d12umddi/D3D12DDI_RESOURCE_UAV_BARRIER, display.d3d12ddi_resource_uav_barrier
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RESOURCE_UAV_BARRIER"
 req.header: d3d12umddi.h

@@ -5,8 +5,8 @@ description: The DxgkDdiStopCapture function stops the capture hardware from usi
 old-location: display\dxgkddistopcapture.htm
 ms.assetid: e5d622cc-c550-44cf-8923-5092226066d9
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_STOPCAPTURE callback function"]
 ms.keywords: DXGKDDI_STOPCAPTURE, DXGKDDI_STOPCAPTURE callback, DmFunctions_108ab359-fe5b-46f2-bc1b-f1f91bd5b327.xml, DxgkDdiStopCapture, DxgkDdiStopCapture callback function [Display Devices], d3dkmddi/DxgkDdiStopCapture, display.dxgkddistopcapture
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

@@ -4,7 +4,7 @@ title: PFND3D12DDI_CALC_PRIVATE_COMMAND_SIGNATURE_SIZE_0001 (d3d12umddi.h)
 description: Calculates the command signature size.
 ms.assetid: 227d7c48-2d0d-48a9-ac1e-03a1e649685a
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_CALC_PRIVATE_COMMAND_SIGNATURE_SIZE_0001 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 

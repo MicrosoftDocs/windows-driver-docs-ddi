@@ -6,8 +6,8 @@ old-location: netvista\wwan_ipaddress_entry.htm
 tech.root: netvista
 ms.assetid: 85615799-5AA0-4D83-9246-73F3C7ABFFF6
 ms.date: 05/02/2018
+keywords: ["_WWAN_IPADDRESS_ENTRY structure"]
 ms.keywords: "*PWWAN_IPADDRESS_ENTRY, PWWAN_IPADDRESS_ENTRY, PWWAN_IPADDRESS_ENTRY structure pointer [Network Drivers Starting with Windows Vista], WWAN_IPADDRESS_ENTRY, WWAN_IPADDRESS_ENTRY structure [Network Drivers Starting with Windows Vista], _WWAN_IPADDRESS_ENTRY, netvista.wwan_ipaddress_entry, wwan/PWWAN_IPADDRESS_ENTRY, wwan/WWAN_IPADDRESS_ENTRY"
-ms.topic: struct
 f1_keywords:
  - "wwan/WWAN_IPADDRESS_ENTRY"
 req.header: wwan.h

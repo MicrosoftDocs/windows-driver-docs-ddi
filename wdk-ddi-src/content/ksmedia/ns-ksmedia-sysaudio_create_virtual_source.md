@@ -6,8 +6,8 @@ old-location: audio\sysaudio_create_virtual_source.htm
 tech.root: audio
 ms.assetid: c9024cf0-aa0c-4652-89c1-3f2e6f622b3d
 ms.date: 04/30/2019
+keywords: ["SYSAUDIO_CREATE_VIRTUAL_SOURCE structure"]
 ms.keywords: "*PSYSAUDIO_CREATE_VIRTUAL_SOURCE, PSYSAUDIO_CREATE_VIRTUAL_SOURCE, PSYSAUDIO_CREATE_VIRTUAL_SOURCE structure pointer [Audio Devices], SYSAUDIO_CREATE_VIRTUAL_SOURCE, SYSAUDIO_CREATE_VIRTUAL_SOURCE structure [Audio Devices], aud-prop_b5e1f1ed-6007-4f2a-89eb-dcabeb0777e6.xml, audio.sysaudio_create_virtual_source, ksmedia/PSYSAUDIO_CREATE_VIRTUAL_SOURCE, ksmedia/SYSAUDIO_CREATE_VIRTUAL_SOURCE"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/SYSAUDIO_CREATE_VIRTUAL_SOURCE"
 req.header: ksmedia.h

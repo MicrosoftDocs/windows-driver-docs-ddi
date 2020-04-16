@@ -6,8 +6,8 @@ old-location: ifsk\ccistheredirtydata.htm
 tech.root: ifsk
 ms.assetid: 592c7f8d-0a39-45af-a9b8-14ddd55e2835
 ms.date: 04/16/2018
+keywords: ["CcIsThereDirtyData function"]
 ms.keywords: CcIsThereDirtyData, CcIsThereDirtyData routine [Installable File System Drivers], ccref_86c4a327-a13e-49b3-89d1-abf976973000.xml, ifsk.ccistheredirtydata, ntifs/CcIsThereDirtyData
-ms.topic: function
 f1_keywords:
  - "ntifs/CcIsThereDirtyData"
 req.header: ntifs.h

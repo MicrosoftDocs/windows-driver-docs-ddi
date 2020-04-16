@@ -6,8 +6,8 @@ old-location: stream\ioctl_avcstrm_class.htm
 tech.root: stream
 ms.assetid: 50a5cbe1-acae-461f-892b-c1a3b5b218b3
 ms.date: 04/23/2018
+keywords: ["IOCTL_AVCSTRM_CLASS IOCTL"]
 ms.keywords: IOCTL_AVCSTRM_CLASS, IOCTL_AVCSTRM_CLASS control, IOCTL_AVCSTRM_CLASS control code [Streaming Media Devices], avcsref_0e06e31a-7520-4162-8441-210cc367f65f.xml, avcstrm/IOCTL_AVCSTRM_CLASS, stream.ioctl_avcstrm_class
-ms.topic: ioctl
 f1_keywords:
  - "avcstrm/IOCTL_AVCSTRM_CLASS"
 req.header: avcstrm.h

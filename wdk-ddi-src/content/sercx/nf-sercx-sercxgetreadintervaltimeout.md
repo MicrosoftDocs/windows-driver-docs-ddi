@@ -6,8 +6,8 @@ old-location: serports\sercxgetreadintervaltimeout.htm
 tech.root: serports
 ms.assetid: E92F181A-DBD7-44A3-A49D-DDF07E03ADB1
 ms.date: 04/23/2018
+keywords: ["SerCxGetReadIntervalTimeout function"]
 ms.keywords: 1/SerCxGetReadIntervalTimeout, SerCxGetReadIntervalTimeout, SerCxGetReadIntervalTimeout method [Serial Ports], serports.sercxgetreadintervaltimeout
-ms.topic: function
 f1_keywords:
  - "sercx/SerCxGetReadIntervalTimeout"
 req.header: sercx.h

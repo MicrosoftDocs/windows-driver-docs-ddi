@@ -6,8 +6,8 @@ old-location: netvista\ndisfreememory.htm
 tech.root: netvista
 ms.assetid: 0096fef7-2a5a-45cd-8e54-dc1ec0e84237
 ms.date: 05/02/2018
+keywords: ["NdisFreeMemory function"]
 ms.keywords: NdisFreeMemory, NdisFreeMemory function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMemory, ndis_memory_ref_a178b0d7-8966-4356-8f63-3293605a6655.xml, netvista.ndisfreememory
-ms.topic: function
 f1_keywords:
  - "ndis/NdisFreeMemory"
 req.header: ndis.h

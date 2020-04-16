@@ -5,8 +5,8 @@ description: The pfnShaderCacheStoreValueCb callback function stores a shader ca
 old-location: display\pfnd3d12ddi_shadercachestorevalue_cb_0021.htm
 ms.assetid: F47C4E6E-4B09-4461-85F6-2E850CE2A2F6
 ms.date: 05/10/2018
+keywords: ["PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021 callback function"]
 ms.keywords: PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021, PFND3D12DDI_SHADERCACHESTOREVALUE_CB_0021 callback, d3d12umddi/pfnShaderCacheStoreValueCb, display.pfnd3d12ddi_shadercachestorevalue_cb_0021, pfnShaderCacheStoreValueCb, pfnShaderCacheStoreValueCb callback function [Display Devices]
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

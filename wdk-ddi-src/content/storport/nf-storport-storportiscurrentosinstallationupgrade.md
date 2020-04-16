@@ -6,8 +6,8 @@ old-location: storage\storportiscurrentosinstallationupgrade.htm
 tech.root: storage
 ms.assetid: 68D944D9-1A52-4FB0-B2D7-9680AB1EDABB
 ms.date: 03/29/2018
+keywords: ["StorPortIsCurrentOsInstallationUpgrade function"]
 ms.keywords: StorPortIsCurrentOsInstallationUpgrade, StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices], storage.storportiscurrentosinstallationupgrade, storport/StorPortIsCurrentOsInstallationUpgrade
-ms.topic: function
 f1_keywords:
  - "storport/StorPortIsCurrentOsInstallationUpgrade"
 req.header: storport.h

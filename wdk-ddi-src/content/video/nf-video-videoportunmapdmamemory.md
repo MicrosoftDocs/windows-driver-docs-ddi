@@ -6,8 +6,8 @@ old-location: display\videoportunmapdmamemory.htm
 tech.root: display
 ms.assetid: f3d05263-5e6b-4875-afff-1166928778db
 ms.date: 05/10/2018
+keywords: ["VideoPortUnmapDmaMemory function"]
 ms.keywords: VideoPortUnmapDmaMemory, VideoPortUnmapDmaMemory function [Display Devices], VideoPort_Functions_f2162fff-c7a8-4dde-aa17-94377f0cf716.xml, display.videoportunmapdmamemory, video/VideoPortUnmapDmaMemory
-ms.topic: function
 f1_keywords:
  - "video/VideoPortUnmapDmaMemory"
 req.header: video.h

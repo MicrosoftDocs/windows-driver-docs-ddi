@@ -6,8 +6,8 @@ old-location: hid\hidp_getusagesex.htm
 tech.root: hid
 ms.assetid: c799ecb6-3024-491c-90d5-70e1d21b1baf
 ms.date: 04/30/2018
+keywords: ["HidP_GetUsagesEx function"]
 ms.keywords: HidP_GetUsagesEx, HidP_GetUsagesEx routine [Human Input Devices], hid.hidp_getusagesex, hidfunc_2a2a6e4a-c966-43d7-8159-115bb6f2376c.xml, hidpi/HidP_GetUsagesEx
-ms.topic: function
 f1_keywords:
  - "hidpi/HidP_GetUsagesEx"
 req.header: hidpi.h

@@ -5,8 +5,8 @@ description: The D3DKMT_ACQUIREKEYEDMUTEX structure describes a keyed mutex that
 old-location: display\d3dkmt_acquirekeyedmutex.htm
 ms.assetid: de089f63-b2f4-4e8e-b653-15db3259a45e
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_ACQUIREKEYEDMUTEX structure"]
 ms.keywords: D3DKMT_ACQUIREKEYEDMUTEX, D3DKMT_ACQUIREKEYEDMUTEX structure [Display Devices], OpenGL_Structs_114ed313-61ac-4c09-97fa-8b47a0aa40d1.xml, _D3DKMT_ACQUIREKEYEDMUTEX, d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX, display.d3dkmt_acquirekeyedmutex
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX"
 req.header: d3dkmthk.h

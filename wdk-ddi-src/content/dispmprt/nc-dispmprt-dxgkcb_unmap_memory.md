@@ -6,8 +6,8 @@ old-location: display\dxgkcbunmapmemory.htm
 tech.root: display
 ms.assetid: 71e8eb0e-599b-44cf-955b-828f6667edf6
 ms.date: 05/10/2018
+keywords: ["DXGKCB_UNMAP_MEMORY callback function"]
 ms.keywords: DXGKCB_UNMAP_MEMORY, DXGKCB_UNMAP_MEMORY callback, DpFunctions_d0ba5b02-22ab-4fad-a54a-1e402f538456.xml, DxgkCbUnmapMemory, DxgkCbUnmapMemory callback function [Display Devices], display.dxgkcbunmapmemory, dispmprt/DxgkCbUnmapMemory
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkCbUnmapMemory"
 req.header: dispmprt.h

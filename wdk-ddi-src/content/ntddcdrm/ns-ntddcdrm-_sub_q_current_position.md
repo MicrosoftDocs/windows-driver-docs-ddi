@@ -5,9 +5,9 @@ description: The SUB_Q_CURRENT_POSITION structure contains position information 
 old-location: storage\sub_q_current_position.htm
 tech.root: storage
 ms.assetid: 816baec4-3dd0-4025-ba34-035bf6f241d3
-ms.date: 03/29/2018
+ms.date: 01/08/2020
+keywords: ["_SUB_Q_CURRENT_POSITION structure"]
 ms.keywords: "*PSUB_Q_CURRENT_POSITION, PSUB_Q_CURRENT_POSITION, PSUB_Q_CURRENT_POSITION structure pointer [Storage Devices], SUB_Q_CURRENT_POSITION, SUB_Q_CURRENT_POSITION structure [Storage Devices], _SUB_Q_CURRENT_POSITION, ntddcdrm/PSUB_Q_CURRENT_POSITION, ntddcdrm/SUB_Q_CURRENT_POSITION, storage.sub_q_current_position, structs-CD-ROM_f9833ad0-bb9c-418e-8e98-2c2f790a0e7e.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddcdrm/SUB_Q_CURRENT_POSITION"
 req.header: ntddcdrm.h
@@ -44,77 +44,50 @@ req.typenames: SUB_Q_CURRENT_POSITION, *PSUB_Q_CURRENT_POSITION
 
 # _SUB_Q_CURRENT_POSITION structure
 
-
 ## -description
 
-
-The SUB_Q_CURRENT_POSITION structure contains position information and is used in conjunction with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data">SUB_Q_CHANNEL_DATA</a>. 
-
+The SUB_Q_CURRENT_POSITION structure contains position information and is used in conjunction with [SUB_Q_CHANNEL_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data).
 
 ## -struct-fields
 
-
-
-
 ### -field Header
 
-Indicates, among other things, the length of the Q subchannel data that was retrieved. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_header">SUB_Q_HEADER</a> for more details. 
-
+Indicates, among other things, the length of the Q subchannel data that was retrieved. See [SUB_Q_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_header) for more details.
 
 ### -field FormatCode
 
-Should have a value of IOCTL_CDROM_CURRENT_POSITION. 
-
+Should have a value of IOCTL_CDROM_CURRENT_POSITION.
 
 ### -field Control
 
-Defines various types of information within the table of contents lead-in area. For more information about the permissible values for this member, see specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS). 
-
+Defines various types of information within the table of contents lead-in area. For more information about the permissible values for this member, see specification *T10/1363-D*, by National Committee for Information Technology Standards (NCITS).
 
 ### -field ADR
 
-Indicates the type of information encoded in the Q subchannel of the block. For information about the permissible values for this member, see specification <i>T10/1363-D Revision-02A</i>, by National Committee for Information Technology Standards (NCITS). 
-
+Indicates the type of information encoded in the Q subchannel of the block. For information about the permissible values for this member, see specification *T10/1363-D*, by National Committee for Information Technology Standards (NCITS).
 
 ### -field TrackNumber
 
 Contains the current track number.
 
-
 ### -field IndexNumber
 
 Contains the current index number.
 
-
 ### -field AbsoluteAddress
 
-Gives the current location relative to the logical beginning of the media. The bytes in this array are arranged in big-endian order. <b>AbsoluteAddress</b>[0] contains the most significant byte, and <b>AbsoluteAddress</b>[3] contains the least significant byte. 
-
+Gives the current location relative to the logical beginning of the media. The bytes in this array are arranged in big-endian order. **AbsoluteAddress**[0] contains the most significant byte, and **AbsoluteAddress**[3] contains the least significant byte.
 
 ### -field TrackRelativeAddress
 
-Gives the current location relative to the logical beginning of the current track. The bytes in this array are arranged in big-endian order. <b>TrackRelativeAddress</b>[0] contains the most significant byte, and <b>TrackRelativeAddress</b>[3] contains the least significant byte. 
-
+Gives the current location relative to the logical beginning of the current track. The bytes in this array are arranged in big-endian order. **TrackRelativeAddress**[0] contains the most significant byte, and **TrackRelativeAddress**[3] contains the least significant byte.
 
 ## -see-also
 
+[CDROM_SUB_Q_DATA_FORMAT](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_sub_q_data_format)
 
+[IOCTL_CDROM_READ_Q_CHANNEL](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_q_channel)
 
+[SUB_Q_CHANNEL_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_sub_q_data_format">CDROM_SUB_Q_DATA_FORMAT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_q_channel">IOCTL_CDROM_READ_Q_CHANNEL</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data">SUB_Q_CHANNEL_DATA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_header">SUB_Q_HEADER</a>
- 
-
- 
-
+[SUB_Q_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_sub_q_header)

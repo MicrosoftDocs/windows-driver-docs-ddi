@@ -6,8 +6,8 @@ old-location: stream\ksproperty_tuner_scan_status_s.htm
 tech.root: stream
 ms.assetid: b09373ef-7b65-46f7-b5b7-a6dcecf0166c
 ms.date: 04/30/2019
+keywords: ["KSPROPERTY_TUNER_SCAN_STATUS_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_SCAN_STATUS_S, KSPROPERTY_TUNER_SCAN_STATUS_S, KSPROPERTY_TUNER_SCAN_STATUS_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_SCAN_STATUS_S, PKSPROPERTY_TUNER_SCAN_STATUS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_SCAN_STATUS_S, ksmedia/PKSPROPERTY_TUNER_SCAN_STATUS_S, stream.ksproperty_tuner_scan_status_s, vidcapstruct_70c7d301-6c91-4955-bcaa-67cad29cb15a.xml"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSPROPERTY_TUNER_SCAN_STATUS_S"
 req.header: ksmedia.h

@@ -6,8 +6,8 @@ old-location: stream\ksreset.htm
 tech.root: stream
 ms.assetid: 7622A66F-EB4A-460B-B01F-6E48EC70C07D
 ms.date: 04/23/2018
+keywords: ["KSRESET enumeration"]
 ms.keywords: KSRESET, KSRESET enumeration [Streaming Media Devices], KSRESET_BEGIN, KSRESET_END, ks/KSRESET, ks/KSRESET_BEGIN, ks/KSRESET_END, stream.ksreset
-ms.topic: enum
 f1_keywords:
  - "ks/KSRESET"
 req.header: ks.h

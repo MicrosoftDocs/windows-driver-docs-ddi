@@ -6,8 +6,8 @@ old-location: storage\ioctl_aacs_get_certificate.htm
 tech.root: storage
 ms.assetid: 1245f9c3-702c-48d8-8ecd-c0ce40d520b3
 ms.date: 03/29/2018
+keywords: ["IOCTL_AACS_GET_CERTIFICATE IOCTL"]
 ms.keywords: IOCTL_AACS_GET_CERTIFICATE, IOCTL_AACS_GET_CERTIFICATE control, IOCTL_AACS_GET_CERTIFICATE control code [Storage Devices], k307_53c85a18-def4-48b8-bc19-12347714d191.xml, ntddcdvd/IOCTL_AACS_GET_CERTIFICATE, storage.ioctl_aacs_get_certificate
-ms.topic: ioctl
 f1_keywords:
  - "ntddcdvd/IOCTL_AACS_GET_CERTIFICATE"
 req.header: ntddcdvd.h

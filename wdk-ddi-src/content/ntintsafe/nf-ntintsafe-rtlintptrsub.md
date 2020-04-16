@@ -6,8 +6,8 @@ old-location: kernel\rtlintptrsub.htm
 tech.root: kernel
 ms.assetid: 72352FD3-4855-4630-AF42-368FF3A6B2BB
 ms.date: 04/30/2018
+keywords: ["RtlIntPtrSub function"]
 ms.keywords: RtlIntPtrSub, RtlIntPtrSub function [Kernel-Mode Driver Architecture], kernel.rtlintptrsub, ntintsafe/RtlIntPtrSub
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlIntPtrSub"
 req.header: ntintsafe.h

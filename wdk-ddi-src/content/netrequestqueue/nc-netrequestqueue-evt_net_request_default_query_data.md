@@ -5,7 +5,7 @@ description: Implemented by the client driver as the default handler for query o
 tech.root: netvista
 ms.assetid: c3d390aa-d643-45a0-ab18-912724f6d7b6
 ms.date: 02/01/2019
-ms.topic: callback
+keywords: ["EVT_NET_REQUEST_DEFAULT_QUERY_DATA callback function"]
 f1_keywords:
  - "netrequestqueue/NetRequestWdmGetNdisOidRequest"
 req.header: netrequestqueue.h

@@ -6,8 +6,8 @@ old-location: wdf\wdfioqueuereadynotify.htm
 tech.root: wdf
 ms.assetid: 0d48dce1-252f-4dc2-85a8-6c25e99ce0ba
 ms.date: 02/26/2018
+keywords: ["WdfIoQueueReadyNotify function"]
 ms.keywords: DFQueueObjectRef_4816d999-fba0-46f6-8fbf-e1421d3d87e2.xml, WdfIoQueueReadyNotify, WdfIoQueueReadyNotify method, kmdf.wdfioqueuereadynotify, wdf.wdfioqueuereadynotify, wdfio/WdfIoQueueReadyNotify
-ms.topic: function
 f1_keywords:
  - "wdfio/WdfIoQueueReadyNotify"
 req.header: wdfio.h

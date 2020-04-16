@@ -6,8 +6,8 @@ old-location: display\unlockasync.htm
 tech.root: display
 ms.assetid: 6af04c22-e559-4328-a20a-034b443fddc6
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_UNLOCKASYNC callback function"]
 ms.keywords: PFND3DDDI_UNLOCKASYNC, PFND3DDDI_UNLOCKASYNC callback, UnlockAsync, UnlockAsync callback function [Display Devices], UserModeDisplayDriver_Functions_f2270e47-4bf2-4486-8e6b-919daabd7c48.xml, d3dumddi/UnlockAsync, display.unlockasync
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

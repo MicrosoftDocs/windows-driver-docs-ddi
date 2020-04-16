@@ -6,8 +6,8 @@ old-location: wpddk\iportabledevicevalues_getsignedintegervalue.htm
 tech.root: wpd_dk
 ms.assetid: 4867effa-a471-498f-9b06-e66204fa139c
 ms.date: 02/15/2018
+keywords: ["IPortableDeviceValues::GetSignedIntegerValue"]
 ms.keywords: GetSignedIntegerValue, GetSignedIntegerValue method, GetSignedIntegerValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetSignedIntegerValue method, IPortableDeviceValues.GetSignedIntegerValue, IPortableDeviceValues::GetSignedIntegerValue, IPortableDeviceValuesGetSignedIntegerValue, portabledevicetypes/IPortableDeviceValues::GetSignedIntegerValue, wpddk.iportabledevicevalues_getsignedintegervalue
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetSignedIntegerValue"
 req.header: portabledevicetypes.h

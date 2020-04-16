@@ -6,8 +6,8 @@ old-location: audio\synthvoicepriority_instance.htm
 tech.root: audio
 ms.assetid: dc9acd16-c515-4e47-9a0b-9dec46e30f74
 ms.date: 05/08/2018
+keywords: ["_SYNTHVOICEPRIORITY_INSTANCE structure"]
 ms.keywords: "*PSYNTHVOICEPRIORITY_INSTANCE, PSYNTHVOICEPRIORITY_INSTANCE, PSYNTHVOICEPRIORITY_INSTANCE structure pointer [Audio Devices], SYNTHVOICEPRIORITY_INSTANCE, SYNTHVOICEPRIORITY_INSTANCE structure [Audio Devices], _SYNTHVOICEPRIORITY_INSTANCE, aud-prop_86a44512-a1b5-4380-a96a-5e9184ff71c2.xml, audio.synthvoicepriority_instance, dmusprop/PSYNTHVOICEPRIORITY_INSTANCE, dmusprop/SYNTHVOICEPRIORITY_INSTANCE"
-ms.topic: struct
 f1_keywords:
  - "dmusprop/SYNTHVOICEPRIORITY_INSTANCE"
 req.header: dmusprop.h

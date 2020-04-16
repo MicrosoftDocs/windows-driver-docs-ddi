@@ -6,8 +6,8 @@ old-location: ifsk\cccopyread.htm
 tech.root: ifsk
 ms.assetid: ab095bc4-b896-4c8b-a778-714952fd41d4
 ms.date: 04/16/2018
+keywords: ["CcCopyRead function"]
 ms.keywords: CcCopyRead, CcCopyRead routine [Installable File System Drivers], ccref_76dde6ff-ccd7-4d90-a744-9d2c05624b00.xml, ifsk.cccopyread, ntifs/CcCopyRead
-ms.topic: function
 f1_keywords:
  - "ntifs/CcCopyRead"
 req.header: ntifs.h

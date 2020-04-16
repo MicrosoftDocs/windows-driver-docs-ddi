@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 0529922e-06be-4cc7-85e5-fa2158fd95cc
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
+keywords: ["D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0060 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0060"
 ms.prod: windows-hardware

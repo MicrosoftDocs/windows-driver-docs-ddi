@@ -6,8 +6,8 @@ old-location: audio\iportclsnotifications_allocnotification.htm
 tech.root: audio
 ms.assetid: 23DBA3D8-FC27-4F5D-9F1C-A22B6C2856D2
 ms.date: 05/08/2018
+keywords: ["IPortClsNotifications::AllocNotificationBuffer"]
 ms.keywords: AllocNotificationBuffer, AllocNotificationBuffer method [Audio Devices], AllocNotificationBuffer method [Audio Devices],IPortClsNotifications interface, IPortClsNotifications interface [Audio Devices],AllocNotificationBuffer method, IPortClsNotifications.AllocNotificationBuffer, IPortClsNotifications::AllocNotificationBuffer, audio.iportclsnotifications_allocnotification, portcls/IPortClsNotifications::AllocNotificationBuffer
-ms.topic: method
 f1_keywords:
  - "portcls/IPortClsNotifications.AllocNotificationBuffer"
 req.header: portcls.h

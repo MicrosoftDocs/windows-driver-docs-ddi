@@ -6,8 +6,8 @@ old-location: wdf\iwdfunifiedpropertystore.htm
 tech.root: wdf
 ms.assetid: F039450D-3B66-4891-9078-7058E889C2F0
 ms.date: 02/26/2018
+keywords: ["IWDFUnifiedPropertyStore interface"]
 ms.keywords: IWDFUnifiedPropertyStore, IWDFUnifiedPropertyStore interface, IWDFUnifiedPropertyStore interface,described, umdf.iwdfunifiedpropertystore, wdf.iwdfunifiedpropertystore, wudfddi/IWDFUnifiedPropertyStore
-ms.topic: interface
 f1_keywords:
  - "wudfddi/IWDFUnifiedPropertyStore"
 req.header: wudfddi.h

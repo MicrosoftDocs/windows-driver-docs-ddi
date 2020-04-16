@@ -5,8 +5,8 @@ description: The D3DKMT_CREATEDCFROMMEMORY structure describes parameters for cr
 old-location: display\d3dkmt_createdcfrommemory.htm
 ms.assetid: 260fd894-fc5a-4a27-ac35-3f1b145b52b7
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_CREATEDCFROMMEMORY structure"]
 ms.keywords: D3DKMT_CREATEDCFROMMEMORY, D3DKMT_CREATEDCFROMMEMORY structure [Display Devices], OpenGL_Structs_b56e280f-e29b-4781-942a-a36024786d9e.xml, _D3DKMT_CREATEDCFROMMEMORY, d3dkmthk/D3DKMT_CREATEDCFROMMEMORY, display.d3dkmt_createdcfrommemory
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEDCFROMMEMORY"
 req.header: d3dkmthk.h

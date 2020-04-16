@@ -6,8 +6,8 @@ old-location: audio\iminiportwavecyclicstream_getposition.htm
 tech.root: audio
 ms.assetid: a0d59215-5201-4e1a-9cb2-d9ff6109c3bb
 ms.date: 05/08/2018
+keywords: ["IMiniportWaveCyclicStream::GetPosition"]
 ms.keywords: GetPosition, GetPosition method [Audio Devices], GetPosition method [Audio Devices],IMiniportWaveCyclicStream interface, IMiniportWaveCyclicStream interface [Audio Devices],GetPosition method, IMiniportWaveCyclicStream.GetPosition, IMiniportWaveCyclicStream::GetPosition, audio.iminiportwavecyclicstream_getposition, audmp-routines_016da0e2-bc56-4c06-9755-a13b75d6c5c9.xml, portcls/IMiniportWaveCyclicStream::GetPosition
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportWaveCyclicStream.GetPosition"
 req.header: portcls.h

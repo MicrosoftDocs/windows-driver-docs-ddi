@@ -5,7 +5,7 @@ description: The VmbChannelGetPointer function lets a client driver retrieve a p
 tech.root: netvista
 ms.assetid: 58de32e6-224f-4c54-b07e-9a8494d7ac63
 ms.date: 05/21/2018
-ms.topic: callback
+keywords: ["FN_VMB_CHANNEL_GET_POINTER callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_GET_POINTER"
 req.header: vmbuskernelmodeclientlibapi.h

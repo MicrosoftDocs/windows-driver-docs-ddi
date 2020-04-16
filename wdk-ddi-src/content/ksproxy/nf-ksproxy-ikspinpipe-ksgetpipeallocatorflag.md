@@ -6,8 +6,8 @@ old-location: stream\ikspinpipe_ksgetpipeallocatorflag.htm
 tech.root: stream
 ms.assetid: EBF5B615-A7B1-4B44-855C-7956334AAF75
 ms.date: 04/23/2018
+keywords: ["IKsPinPipe::KsGetPipeAllocatorFlag"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPipeAllocatorFlag method, IKsPinPipe.KsGetPipeAllocatorFlag, IKsPinPipe::KsGetPipeAllocatorFlag, KsGetPipeAllocatorFlag, KsGetPipeAllocatorFlag method [Streaming Media Devices], KsGetPipeAllocatorFlag method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPipeAllocatorFlag, stream.ikspinpipe_ksgetpipeallocatorflag
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsGetPipeAllocatorFlag"
 req.header: ksproxy.h
@@ -57,7 +57,7 @@ Not recommended for application use.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

@@ -6,8 +6,8 @@ old-location: ifsk\fltfreegenericworkitem.htm
 tech.root: ifsk
 ms.assetid: 6675d529-10de-4c39-999c-4c18471ea6e0
 ms.date: 04/16/2018
+keywords: ["FltFreeGenericWorkItem function"]
 ms.keywords: FltApiRef_e_to_o_e8a6dadd-879e-4476-9433-40a065066445.xml, FltFreeGenericWorkItem, FltFreeGenericWorkItem routine [Installable File System Drivers], fltkernel/FltFreeGenericWorkItem, ifsk.fltfreegenericworkitem
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltFreeGenericWorkItem"
 req.header: fltkernel.h

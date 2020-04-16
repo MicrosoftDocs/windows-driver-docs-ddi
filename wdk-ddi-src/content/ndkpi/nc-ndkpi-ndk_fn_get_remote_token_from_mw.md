@@ -6,8 +6,8 @@ old-location: netvista\ndk_fn_get_remote_token_from_mw.htm
 tech.root: netvista
 ms.assetid: 893B53DA-B858-4E21-9DD9-D244702ACF46
 ms.date: 05/02/2018
+keywords: ["NDK_FN_GET_REMOTE_TOKEN_FROM_MW callback function"]
 ms.keywords: NDK_FN_GET_REMOTE_TOKEN_FROM_MW, NDK_FN_GET_REMOTE_TOKEN_FROM_MW callback, NdkGetRemoteTokenFromMw, NdkGetRemoteTokenFromMw callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetRemoteTokenFromMw, netvista.ndk_fn_get_remote_token_from_mw
-ms.topic: callback
 f1_keywords:
  - "ndkpi/NdkGetRemoteTokenFromMw"
 req.header: ndkpi.h

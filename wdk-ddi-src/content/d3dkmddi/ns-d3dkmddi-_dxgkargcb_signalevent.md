@@ -4,7 +4,7 @@ title: _DXGKARGCB_SIGNALEVENT (d3dkmddi.h)
 description: Arguments used in the call to DXGKCB_SIGNALEVENT.
 ms.assetid: 07a8e812-e56f-4ff6-afe0-77c38103b08b
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_DXGKARGCB_SIGNALEVENT structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARGCB_SIGNALEVENT"
 ms.keywords: _DXGKARGCB_SIGNALEVENT, DXGKARGCB_SIGNALEVENT, 

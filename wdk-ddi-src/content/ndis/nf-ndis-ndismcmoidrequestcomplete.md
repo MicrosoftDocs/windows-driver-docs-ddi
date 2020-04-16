@@ -6,8 +6,8 @@ old-location: netvista\ndismcmoidrequestcomplete.htm
 tech.root: netvista
 ms.assetid: 4c45be9f-3d07-4150-830a-3aa6d74531ff
 ms.date: 05/02/2018
+keywords: ["NdisMCmOidRequestComplete macro"]
 ms.keywords: NdisMCmOidRequestComplete, NdisMCmOidRequestComplete macro [Network Drivers Starting with Windows Vista], condis_request_ref_fc46ea1a-b820-4f1d-b986-e879adb27ad6.xml, ndis/NdisMCmOidRequestComplete, netvista.ndismcmoidrequestcomplete
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisMCmOidRequestComplete"
 req.header: ndis.h

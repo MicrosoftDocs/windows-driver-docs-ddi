@@ -6,8 +6,8 @@ old-location: kernel\kesetsystemaffinitythread.htm
 tech.root: kernel
 ms.assetid: eb66ed06-356d-4550-8ccf-10854e4ca259
 ms.date: 04/30/2018
+keywords: ["KeSetSystemAffinityThread function"]
 ms.keywords: KeSetSystemAffinityThread, KeSetSystemAffinityThread routine [Kernel-Mode Driver Architecture], k105_86ff0d26-a53d-4da4-b776-35ed30b950ad.xml, kernel.kesetsystemaffinitythread, wdm/KeSetSystemAffinityThread
-ms.topic: function
 f1_keywords:
  - "wdm/KeSetSystemAffinityThread"
 req.header: wdm.h

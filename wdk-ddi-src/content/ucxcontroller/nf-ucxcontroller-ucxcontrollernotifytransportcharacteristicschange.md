@@ -6,8 +6,8 @@ old-location: buses\ucxcontrollernotifytransportcharacteristicschange.htm
 tech.root: usbref
 ms.assetid: DB49DF98-8A5B-4528-B312-63CE3DFABEF2
 ms.date: 05/07/2018
+keywords: ["UcxControllerNotifyTransportCharacteristicsChange function"]
 ms.keywords: UcxControllerNotifyTransportCharacteristicsChange, UcxControllerNotifyTransportCharacteristicsChange function [Buses], buses.ucxcontrollernotifytransportcharacteristicschange, ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange
-ms.topic: function
 f1_keywords:
  - "ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange"
 req.header: ucxcontroller.h

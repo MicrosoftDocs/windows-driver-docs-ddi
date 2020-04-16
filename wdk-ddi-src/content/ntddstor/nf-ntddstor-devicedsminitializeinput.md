@@ -5,7 +5,7 @@ description: The DeviceDsmInitializeInput function initializes a DEVICE_DSM_INPU
 ms.assetid: 4a212a8e-1bd1-4ad1-9da1-f9527a304e81
 tech.root: storage
 ms.date: 08/23/2019
-ms.topic: function
+keywords: ["DeviceDsmInitializeInput function"]
 f1_keywords:
  - "ntddstor/DeviceDsmInitializeInput"
 ms.keywords: DeviceDsmInitializeInput

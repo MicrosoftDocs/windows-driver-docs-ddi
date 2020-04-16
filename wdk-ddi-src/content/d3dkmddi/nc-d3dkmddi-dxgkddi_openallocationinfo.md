@@ -5,8 +5,8 @@ description: The DxgkDdiOpenAllocation function binds non-device-specific alloca
 old-location: display\dxgkddiopenallocation.htm
 ms.assetid: 551154d7-950d-40e5-810b-8d803c1731ca
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_OPENALLOCATIONINFO callback function"]
 ms.keywords: DXGKDDI_OPENALLOCATIONINFO, DXGKDDI_OPENALLOCATIONINFO callback, DmFunctions_e27ad0cd-ae79-4207-abb0-68f048452101.xml, DxgkDdiOpenAllocation, DxgkDdiOpenAllocation callback function [Display Devices], d3dkmddi/DxgkDdiOpenAllocation, display.dxgkddiopenallocation
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

@@ -6,8 +6,8 @@ old-location: storage\sendrls_out.htm
 tech.root: storage
 ms.assetid: 6eccc5e8-7bf6-40bd-abb9-94b6fe4418a0
 ms.date: 03/29/2018
+keywords: ["_SendRLS_OUT structure"]
 ms.keywords: "*PSendRLS_OUT, PSendRLS_OUT, PSendRLS_OUT structure pointer [Storage Devices], SendRLS_OUT, SendRLS_OUT structure [Storage Devices], _SendRLS_OUT, hbapiwmi/PSendRLS_OUT, hbapiwmi/SendRLS_OUT, storage.sendrls_out, structs-Fibre_0d3c1fb1-9827-4962-8aec-97fa6bd84d76.xml"
-ms.topic: struct
 f1_keywords:
  - "hbapiwmi/SendRLS_OUT"
 req.header: hbapiwmi.h

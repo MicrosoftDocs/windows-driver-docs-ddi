@@ -6,8 +6,8 @@ old-location: nfpdrivers\ioctl_smartcard_power.htm
 tech.root: nfpdrivers
 ms.assetid: 1B6F95FB-E7DC-4D36-A319-F5EB576F8D7A
 ms.date: 02/15/2018
+keywords: ["IOCTL_SMARTCARD_POWER IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_POWER, IOCTL_SMARTCARD_POWER control, IOCTL_SMARTCARD_POWER control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_power, winsmcrd/IOCTL_SMARTCARD_POWER
-ms.topic: ioctl
 f1_keywords:
  - "winsmcrd/IOCTL_SMARTCARD_POWER"
 req.header: winsmcrd.h

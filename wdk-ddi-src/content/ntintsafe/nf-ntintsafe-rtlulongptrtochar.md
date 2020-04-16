@@ -6,8 +6,8 @@ old-location: kernel\rtlulongptrtochar.htm
 tech.root: kernel
 ms.assetid: DB015FC3-D263-4EA6-AAE1-E4ECA3ECF4F9
 ms.date: 04/30/2018
+keywords: ["RtlULongPtrToChar function"]
 ms.keywords: RtlULongPtrToChar, RtlULongPtrToChar function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtochar, ntintsafe/RtlULongPtrToChar
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlULongPtrToChar"
 req.header: ntintsafe.h

@@ -6,8 +6,8 @@ old-location: storage\ioctl_scsi_pass_through_direct_ex.htm
 tech.root: storage
 ms.assetid: FB210147-9CF3-4D32-884E-256BEAFAE6C4
 ms.date: 03/29/2018
+keywords: ["IOCTL_SCSI_PASS_THROUGH_DIRECT_EX IOCTL"]
 ms.keywords: IOCTL_SCSI_PASS_THROUGH_DIRECT_EX, IOCTL_SCSI_PASS_THROUGH_DIRECT_EX control, IOCTL_SCSI_PASS_THROUGH_DIRECT_EX control code [Storage Devices], ntddscsi/IOCTL_SCSI_PASS_THROUGH_DIRECT_EX, storage.ioctl_scsi_pass_through_direct_ex
-ms.topic: ioctl
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_PASS_THROUGH_DIRECT_EX"
 req.header: ntddscsi.h
@@ -70,7 +70,7 @@ This request <i>must</i> be made if the input CDB might require the underlying m
 Applications can send this request by means of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a> request. 
 
 Storage class drivers set the minor IRP number to IRP_MN_SCSI_CLASS to indicate that the request has been processed by a storage class driver. 
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver-overview">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -ioctlparameters
 

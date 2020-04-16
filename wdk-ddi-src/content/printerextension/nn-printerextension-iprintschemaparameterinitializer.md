@@ -6,8 +6,8 @@ old-location: print\iprintschemaparameterinitializer.htm
 tech.root: print
 ms.assetid: A4A1C231-3D71-4952-B5FA-0C8275DEF4F1
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaParameterInitializer interface"]
 ms.keywords: IPrintSchemaParameterInitializer, IPrintSchemaParameterInitializer interface [Print Devices], IPrintSchemaParameterInitializer interface [Print Devices],described, print.iprintschemaparameterinitializer, printerextension/IPrintSchemaParameterInitializer
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrintSchemaParameterInitializer"
 req.header: printerextension.h

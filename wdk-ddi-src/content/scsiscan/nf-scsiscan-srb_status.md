@@ -4,7 +4,7 @@ title: SRB_STATUS macro (scsiscan.h)
 description: 
 ms.assetid: ec99b574-4519-44c4-8cef-639d2c0a00c3
 ms.date: 10/19/2018
-ms.topic: macro
+keywords: ["SRB_STATUS macro"]
 f1_keywords:
  - "scsiscan/SRB_STATUS"
 ms.keywords: SRB_STATUS

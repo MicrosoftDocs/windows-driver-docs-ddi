@@ -6,8 +6,8 @@ old-location: ifsk\fltgetrequestorsessionid.htm
 tech.root: ifsk
 ms.assetid: 6a0eb588-fe64-4f36-8648-8e006e16704e
 ms.date: 04/16/2018
+keywords: ["FltGetRequestorSessionId function"]
 ms.keywords: FltGetRequestorSessionId, FltGetRequestorSessionId routine [Installable File System Drivers], fltkernel/FltGetRequestorSessionId, ifsk.fltgetrequestorsessionid
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltGetRequestorSessionId"
 req.header: fltkernel.h

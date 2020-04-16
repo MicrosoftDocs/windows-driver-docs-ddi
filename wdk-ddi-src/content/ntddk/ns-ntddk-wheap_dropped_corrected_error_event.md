@@ -7,7 +7,7 @@ tech.root:
 ms.assetid: 5e9afbbd-8f2c-41b1-b769-87146bcd14b5
 ms.author: windowsdriverdev
 ms.date: 08/19/2019
-ms.topic: struct
+keywords: ["WHEAP_DROPPED_CORRECTED_ERROR_EVENT structure"]
 f1_keywords:
  - "ntddk/WHEAP_DROPPED_CORRECTED_ERROR_EVENT"
 ms.keywords: WHEAP_DROPPED_CORRECTED_ERROR_EVENT, WHEAP_DROPPED_CORRECTED_ERROR_EVENT, *PWHEAP_DROPPED_CORRECTED_ERROR_EVENT, 

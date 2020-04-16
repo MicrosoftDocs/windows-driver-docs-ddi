@@ -6,8 +6,8 @@ old-location: netvista\wdi_tx_metadata.htm
 tech.root: netvista
 ms.assetid: 21833980-0098-43c2-822c-9d8292f7120a
 ms.date: 05/02/2018
+keywords: ["_WDI_TX_METADATA structure"]
 ms.keywords: "*PWDI_TX_METADATA, PWDI_TX_METADATA, PWDI_TX_METADATA structure pointer [Network Drivers Starting with Windows Vista], WDI_TX_METADATA, WDI_TX_METADATA structure [Network Drivers Starting with Windows Vista], _WDI_TX_METADATA, dot11wdi/PWDI_TX_METADATA, dot11wdi/WDI_TX_METADATA, netvista.wdi_tx_metadata, netvista.wifi_tx_metadata"
-ms.topic: struct
 f1_keywords:
  - "dot11wdi/WDI_TX_METADATA"
 req.header: dot11wdi.h

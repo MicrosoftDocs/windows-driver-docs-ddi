@@ -6,8 +6,8 @@ old-location: storage\ioctl_storage_get_device_number.htm
 tech.root: storage
 ms.assetid: 5d1095c6-b9f9-44ef-bb2b-7bc0265e5aa9
 ms.date: 11/08/2019
+keywords: ["IOCTL_STORAGE_GET_DEVICE_NUMBER IOCTL"]
 ms.keywords: IOCTL_STORAGE_GET_DEVICE_NUMBER, IOCTL_STORAGE_GET_DEVICE_NUMBER control, IOCTL_STORAGE_GET_DEVICE_NUMBER control code [Storage Devices], k307_d4d6bd65-7f75-4810-90ce-edd3dec950be.xml, ntddstor/IOCTL_STORAGE_GET_DEVICE_NUMBER, storage.ioctl_storage_get_device_number
-ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_GET_DEVICE_NUMBER"
 req.header: ntddstor.h
@@ -72,6 +72,6 @@ The **Information** field is set to the number of bytes returned. The **Status**
 
 ## -see-also
 
-[IOCTL_STORAGE_GET_DEVICE_NUMBER_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-ioctl_storage_get_device_number_ex)
+[IOCTL_STORAGE_GET_DEVICE_NUMBER_EX](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_get_device_number_ex)
 
 [STORAGE_DEVICE_NUMBER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_device_number)

@@ -6,8 +6,8 @@ old-location: kernel\rtlulongptrtouchar.htm
 tech.root: kernel
 ms.assetid: 074159BD-EF74-45F9-B7A5-47F9E01E32C6
 ms.date: 04/30/2018
+keywords: ["RtlULongPtrToUChar function"]
 ms.keywords: RtlULongPtrToUChar, RtlULongPtrToUChar function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtouchar, ntintsafe/RtlULongPtrToUChar
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlULongPtrToUChar"
 req.header: ntintsafe.h

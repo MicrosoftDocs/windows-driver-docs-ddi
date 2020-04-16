@@ -6,8 +6,8 @@ old-location: audio\iminiportaudioenginenode_setdeviceformat.htm
 tech.root: audio
 ms.assetid: A6FFC14B-0736-425F-A923-DFF54494887C
 ms.date: 05/08/2018
+keywords: ["IMiniportAudioEngineNode::SetDeviceFormat"]
 ms.keywords: IMiniportAudioEngineNode interface [Audio Devices],SetDeviceFormat method, IMiniportAudioEngineNode.SetDeviceFormat, IMiniportAudioEngineNode::SetDeviceFormat, SetDeviceFormat, SetDeviceFormat method [Audio Devices], SetDeviceFormat method [Audio Devices],IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setdeviceformat, portcls/IMiniportAudioEngineNode::SetDeviceFormat
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.SetDeviceFormat"
 req.header: portcls.h

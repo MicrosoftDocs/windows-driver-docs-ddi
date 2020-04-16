@@ -6,8 +6,8 @@ old-location: stream\kswave_input_capabilities.htm
 tech.root: stream
 ms.assetid: 8bed3cec-1779-4b3c-9ba2-aa4a335fecd1
 ms.date: 04/30/2019
+keywords: ["KSWAVE_INPUT_CAPABILITIES structure"]
 ms.keywords: "*PKSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES structure [Streaming Media Devices], PKSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES structure pointer [Streaming Media Devices], dvdref_cc35df03-82e2-4b12-a08f-26aa0fde1279.xml, ksmedia/KSWAVE_INPUT_CAPABILITIES, ksmedia/PKSWAVE_INPUT_CAPABILITIES, stream.kswave_input_capabilities"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSWAVE_INPUT_CAPABILITIES"
 req.header: ksmedia.h

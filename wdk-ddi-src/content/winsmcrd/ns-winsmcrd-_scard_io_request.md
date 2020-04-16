@@ -6,8 +6,8 @@ old-location: nfpdrivers\scard_io_request_structure.htm
 tech.root: nfpdrivers
 ms.assetid: DE670712-2F11-4BB0-ADC7-B68C94EF0759
 ms.date: 02/15/2018
+keywords: ["_SCARD_IO_REQUEST structure"]
 ms.keywords: "*LPSCARD_IO_REQUEST, *PSCARD_IO_REQUEST, PSCARD_IO_REQUEST,*LPSCARD_IO_REQUEST, PSCARD_IO_REQUEST,*LPSCARD_IO_REQUEST structure pointer [Near-Field Proximity Drivers], SCARD_IO_REQUEST, SCARD_IO_REQUEST , SCARD_IO_REQUEST structure [Near-Field Proximity Drivers], _SCARD_IO_REQUEST, nfpdrivers.scard_io_request_structure, winsmcrd/PSCARD_IO_REQUEST,*LPSCARD_IO_REQUEST, winsmcrd/SCARD_IO_REQUEST"
-ms.topic: struct
 f1_keywords:
  - "winsmcrd/SCARD_IO_REQUEST"
 req.header: winsmcrd.h

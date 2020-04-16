@@ -6,8 +6,8 @@ old-location: wdf\wdfcommonbuffercreatewithconfig.htm
 tech.root: wdf
 ms.assetid: 3ed8b7df-9c7d-44de-a49d-10221acf71e3
 ms.date: 02/26/2018
+keywords: ["WdfCommonBufferCreateWithConfig function"]
 ms.keywords: DFCommonBufferObjectRef_4e009b5f-a2a4-4be5-84d6-308c1558e702.xml, WdfCommonBufferCreateWithConfig, WdfCommonBufferCreateWithConfig method, kmdf.wdfcommonbuffercreatewithconfig, wdf.wdfcommonbuffercreatewithconfig, wdfcommonbuffer/WdfCommonBufferCreateWithConfig
-ms.topic: function
 f1_keywords:
  - "wdfcommonbuffer/WdfCommonBufferCreateWithConfig"
 req.header: wdfcommonbuffer.h

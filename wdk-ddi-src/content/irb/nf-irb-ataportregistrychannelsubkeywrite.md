@@ -6,8 +6,8 @@ old-location: storage\ataportregistrychannelsubkeywrite.htm
 tech.root: storage
 ms.assetid: 4072f369-992e-4144-b3b9-1e05bb2127f2
 ms.date: 03/29/2018
+keywords: ["AtaPortRegistryChannelSubkeyWrite function"]
 ms.keywords: AtaPortRegistryChannelSubKeyWrite, AtaPortRegistryChannelSubkeyWrite, AtaPortRegistryChannelSubkeyWrite routine [Storage Devices], atartns_0281129c-7789-44f3-b26d-d3725e7ff165.xml, irb/AtaPortRegistryChannelSubkeyWrite, storage.ataportregistrychannelsubkeywrite
-ms.topic: function
 f1_keywords:
  - "irb/AtaPortRegistryChannelSubkeyWrite"
 req.header: irb.h

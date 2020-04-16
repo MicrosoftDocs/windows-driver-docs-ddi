@@ -6,8 +6,8 @@ old-location: stream\ikscontrol.htm
 tech.root: stream
 ms.assetid: d73cf2fc-15bb-4f45-aae3-fb55bcd072a3
 ms.date: 04/23/2018
+keywords: ["IKsControl interface"]
 ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices],described, ksproxy/IKsControl, ksproxy_59a4df2f-d723-499a-adc6-907c0592a6ac.xml, stream.ikscontrol
-ms.topic: interface
 f1_keywords:
  - "ksproxy/IKsControl"
 req.header: ksproxy.h
@@ -54,7 +54,7 @@ The <b>IKsControl</b> interface provides user-mode methods that control a KS fil
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsControl</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

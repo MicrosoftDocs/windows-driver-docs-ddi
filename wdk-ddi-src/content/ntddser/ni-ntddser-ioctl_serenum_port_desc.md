@@ -6,8 +6,8 @@ old-location: serports\ioctl_serenum_port_desc.htm
 tech.root: serports
 ms.assetid: 9ecaa3fa-137d-4f79-9316-727ecab35da8
 ms.date: 04/23/2018
+keywords: ["IOCTL_SERENUM_PORT_DESC IOCTL"]
 ms.keywords: IOCTL_SERENUM_PORT_DESC, IOCTL_SERENUM_PORT_DESC control, IOCTL_SERENUM_PORT_DESC control code [Serial Ports], ntddser/IOCTL_SERENUM_PORT_DESC, senumref_2afa4ab9-ceac-4477-9ac6-10f572444e61.xml, serports.ioctl_serenum_port_desc
-ms.topic: ioctl
 f1_keywords:
  - "ntddser/IOCTL_SERENUM_PORT_DESC"
 req.header: ntddser.h

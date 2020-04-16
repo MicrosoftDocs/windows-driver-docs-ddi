@@ -6,8 +6,8 @@ old-location: storage\dsmsetloadbalancepolicyalua_out.htm
 tech.root: storage
 ms.assetid: 00c5f766-299e-4c07-a3e0-61077518a37a
 ms.date: 03/29/2018
+keywords: ["_DsmSetLoadBalancePolicyALUA_OUT structure"]
 ms.keywords: "*PDsmSetLoadBalancePolicyALUA_OUT, DsmSetLoadBalancePolicyALUA_OUT, DsmSetLoadBalancePolicyALUA_OUT structure [Storage Devices], PDsmSetLoadBalancePolicyALUA_OUT, PDsmSetLoadBalancePolicyALUA_OUT structure pointer [Storage Devices], _DsmSetLoadBalancePolicyALUA_OUT, mpiodisk/DsmSetLoadBalancePolicyALUA_OUT, mpiodisk/PDsmSetLoadBalancePolicyALUA_OUT, storage.dsmsetloadbalancepolicyalua_out, structs-scsibus_59bfe47a-52c1-4a7c-95c4-784f0e8ae92e.xml"
-ms.topic: struct
 f1_keywords:
  - "mpiodisk/DsmSetLoadBalancePolicyALUA_OUT"
 req.header: mpiodisk.h

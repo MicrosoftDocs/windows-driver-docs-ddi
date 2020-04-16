@@ -6,8 +6,8 @@ old-location: netvista\ril_getexecutorconfig.htm
 tech.root: netvista
 ms.assetid: 71931187-14f1-459f-9c1a-cc3463178af9
 ms.date: 05/02/2018
+keywords: ["RIL_GetExecutorConfig function"]
 ms.keywords: RIL_GetExecutorConfig, RIL_GetExecutorConfig method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorconfig, rilapi/RIL_GetExecutorConfig
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_GetExecutorConfig"
 req.header: rilapi.h

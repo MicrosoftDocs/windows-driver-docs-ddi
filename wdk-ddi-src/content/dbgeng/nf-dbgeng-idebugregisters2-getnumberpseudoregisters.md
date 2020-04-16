@@ -6,8 +6,8 @@ old-location: debugger\getnumberpseudoregisters.htm
 tech.root: debugger
 ms.assetid: 5a71a8e9-323e-4f14-8c97-d6ce4e9bfe65
 ms.date: 05/03/2018
+keywords: ["IDebugRegisters2::GetNumberPseudoRegisters"]
 ms.keywords: GetNumberPseudoRegisters, GetNumberPseudoRegisters method [Windows Debugging], GetNumberPseudoRegisters method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetNumberPseudoRegisters method, IDebugRegisters2.GetNumberPseudoRegisters, IDebugRegisters2::GetNumberPseudoRegisters, IDebugRegisters_e12950ac-f9b2-4ed2-9ce1-bc3088b65ef1.xml, dbgeng/IDebugRegisters2::GetNumberPseudoRegisters, debugger.getnumberpseudoregisters
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugRegisters2.GetNumberPseudoRegisters"
 req.header: dbgeng.h

@@ -6,8 +6,8 @@ old-location: kernel\rtlextendcorrelationvector.htm
 tech.root: kernel
 ms.assetid: 26de5890-edef-4e38-834a-9823327a74c2
 ms.date: 04/30/2018
+keywords: ["RtlExtendCorrelationVector function"]
 ms.keywords: RtlExtendCorrelationVector, RtlExtendCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlextendcorrelationvector, ntddk/RtlExtendCorrelationVector
-ms.topic: function
 f1_keywords:
  - "ntddk/RtlExtendCorrelationVector"
 req.header: ntddk.h

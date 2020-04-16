@@ -6,8 +6,8 @@ old-location: dtf\iwdtfdriverpackageaction2_compare.htm
 tech.root: dtf
 ms.assetid: fa93d535-fe26-40cc-b08a-88841dcfdc96
 ms.date: 04/04/2018
+keywords: ["IWDTFDriverPackageAction2::Compare"]
 ms.keywords: Compare, Compare method [Windows Device Testing Framework], Compare method [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],Compare method, IWDTFDriverPackageAction2.Compare, IWDTFDriverPackageAction2::Compare, Microsoft.WDTF.IWDTFDriverPackageAction2.Compare, Microsoft::WDTF::IWDTFDriverPackageAction2::Compare, dtf.iwdtfdriverpackageaction2_compare, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Compare
-ms.topic: method
 f1_keywords:
  - "wdtfdriverpackageaction/IWDTFDriverPackageAction2.Compare"
 req.header: wdtfdriverpackageaction.h

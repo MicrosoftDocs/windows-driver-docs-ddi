@@ -5,8 +5,8 @@ description: The D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure describes a te
 old-location: display\d3d11ddiarg_tessellation_io_signatures.htm
 ms.assetid: ed652b52-33c9-4961-af29-b5fc54cf29b8
 ms.date: 05/10/2018
+keywords: ["D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure"]
 ms.keywords: D3D11DDIARG_TESSELLATION_IO_SIGNATURES, D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices], UMDisplayDriver_Dx11param_Structs_5fb8a2b5-8291-4c80-a529-303f50f34cac.xml, d3d10umddi/D3D11DDIARG_TESSELLATION_IO_SIGNATURES, display.d3d11ddiarg_tessellation_io_signatures
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_TESSELLATION_IO_SIGNATURES"
 req.header: d3d10umddi.h

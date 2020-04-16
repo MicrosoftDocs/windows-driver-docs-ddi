@@ -6,8 +6,8 @@ old-location: stream\ksaddobjectcreateitemtoobjectheader.htm
 tech.root: stream
 ms.assetid: 9946e896-7f1a-4ff2-afa5-9e231047af11
 ms.date: 04/23/2018
+keywords: ["KsAddObjectCreateItemToObjectHeader function"]
 ms.keywords: KsAddObjectCreateItemToObjectHeader, KsAddObjectCreateItemToObjectHeader function [Streaming Media Devices], ks/KsAddObjectCreateItemToObjectHeader, ksfunc_de112daa-c37a-4d5b-b646-5fc45fd8ae1c.xml, stream.ksaddobjectcreateitemtoobjectheader
-ms.topic: function
 f1_keywords:
  - "ks/KsAddObjectCreateItemToObjectHeader"
 req.header: ks.h

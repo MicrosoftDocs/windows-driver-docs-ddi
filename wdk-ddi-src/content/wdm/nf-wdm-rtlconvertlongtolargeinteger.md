@@ -6,8 +6,8 @@ old-location: kernel\rtlconvertlongtolargeinteger.htm
 tech.root: kernel
 ms.assetid: 8c1f6cd3-f54b-4104-bd14-63d2c284946c
 ms.date: 04/30/2018
+keywords: ["RtlConvertLongToLargeInteger function"]
 ms.keywords: RtlConvertLongToLargeInteger, RtlConvertLongToLargeInteger routine [Kernel-Mode Driver Architecture], k109_f56a300b-e5d3-4f08-8d38-f124f73ada9f.xml, kernel.rtlconvertlongtolargeinteger, wdm/RtlConvertLongToLargeInteger
-ms.topic: function
 f1_keywords:
  - "wdm/RtlConvertLongToLargeInteger"
 req.header: wdm.h

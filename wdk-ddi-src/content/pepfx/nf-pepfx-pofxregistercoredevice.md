@@ -6,8 +6,8 @@ old-location: kernel\pofxregistercoredevice.htm
 tech.root: kernel
 ms.assetid: D1564DB7-57D9-44B2-8ED2-1170CA4C22EE
 ms.date: 04/30/2018
+keywords: ["PoFxRegisterCoreDevice function"]
 ms.keywords: PoFxRegisterCoreDevice, PoFxRegisterCoreDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregistercoredevice, pepfx/PoFxRegisterCoreDevice
-ms.topic: function
 f1_keywords:
  - "pepfx/PoFxRegisterCoreDevice"
 req.header: pepfx.h

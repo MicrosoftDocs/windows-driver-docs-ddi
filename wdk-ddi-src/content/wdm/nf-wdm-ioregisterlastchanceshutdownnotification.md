@@ -6,8 +6,8 @@ old-location: kernel\ioregisterlastchanceshutdownnotification.htm
 tech.root: kernel
 ms.assetid: 9ee590ce-e822-4c15-bb01-6f726268f163
 ms.date: 04/30/2018
+keywords: ["IoRegisterLastChanceShutdownNotification function"]
 ms.keywords: IoRegisterLastChanceShutdownNotification, IoRegisterLastChanceShutdownNotification routine [Kernel-Mode Driver Architecture], k104_233a75d7-252b-45e3-a980-bda55edd3fdc.xml, kernel.ioregisterlastchanceshutdownnotification, wdm/IoRegisterLastChanceShutdownNotification
-ms.topic: function
 f1_keywords:
  - "wdm/IoRegisterLastChanceShutdownNotification"
 req.header: wdm.h

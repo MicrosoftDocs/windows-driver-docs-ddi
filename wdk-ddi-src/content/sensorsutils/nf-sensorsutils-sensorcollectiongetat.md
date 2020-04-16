@@ -4,8 +4,8 @@ title: SensorCollectionGetAt function (sensorsutils.h)
 description: This routine returns the PROPERTYKEY and PROPVARIANT associated with the nth element in the provided sensor collection list.
 ms.assetid: 76aef6af-76a1-4bc2-aeee-7656b9745c40
 ms.date: 08/08/2018
+keywords: ["SensorCollectionGetAt function"]
 tech.root: sensors
-ms.topic: function
 f1_keywords:
  - "sensorsutils/SensorCollectionGetAt"
 ms.keywords: SensorCollectionGetAt

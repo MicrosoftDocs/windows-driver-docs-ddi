@@ -6,8 +6,8 @@ old-location: netvista\ndisfreefragmentnetbufferlist.htm
 tech.root: netvista
 ms.assetid: 2bbf85ee-8541-4d3d-87e5-0633bc35670b
 ms.date: 05/02/2018
+keywords: ["NdisFreeFragmentNetBufferList function"]
 ms.keywords: NdisFreeFragmentNetBufferList, NdisFreeFragmentNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeFragmentNetBufferList, ndis_netbuf_functions_ref_e88011a7-4c83-4736-8a3f-3a2d1c3b2e6f.xml, netvista.ndisfreefragmentnetbufferlist
-ms.topic: function
 f1_keywords:
  - "ndis/NdisFreeFragmentNetBufferList"
 req.header: ndis.h

@@ -6,8 +6,8 @@ old-location: netvista\ndisrawreadportbufferulong.htm
 tech.root: netvista
 ms.assetid: 86a0b7c4-ef3a-4dd9-961d-35f96182e30c
 ms.date: 05/02/2018
+keywords: ["NdisRawReadPortBufferUlong macro"]
 ms.keywords: NdisRawReadPortBufferUlong, NdisRawReadPortBufferUlong macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_0696e0e4-976c-4d17-a482-054d5d441608.xml, ndis/NdisRawReadPortBufferUlong, netvista.ndisrawreadportbufferulong
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisRawReadPortBufferUlong"
 req.header: ndis.h

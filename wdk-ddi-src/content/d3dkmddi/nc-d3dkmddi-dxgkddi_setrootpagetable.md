@@ -5,8 +5,8 @@ description: DxgkDdiSetRootPageTable sets the root page table for the given cont
 old-location: display\dxgkddisetrootpagetable.htm
 ms.assetid: BC9E7A2D-690D-4EC2-8D16-22C5FEBA574A
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_SETROOTPAGETABLE callback function"]
 ms.keywords: DXGKDDI_SETROOTPAGETABLE, DXGKDDI_SETROOTPAGETABLE callback, DxgkDdiSetRootPageTable, DxgkDdiSetRootPageTable callback function [Display Devices], d3dkmddi/DxgkDdiSetRootPageTable, display.dxgkddisetrootpagetable, dispmprt/DxgkDdiSetRootPageTable
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

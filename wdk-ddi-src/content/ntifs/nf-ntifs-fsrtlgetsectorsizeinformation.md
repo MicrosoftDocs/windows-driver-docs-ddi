@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlgetsectorsizeinformation.htm
 tech.root: ifsk
 ms.assetid: 337E5450-8C90-48B7-B344-FB9420498D4F
 ms.date: 04/16/2018
+keywords: ["FsRtlGetSectorSizeInformation function"]
 ms.keywords: FsRtlGetSectorSizeInformation, FsRtlGetSectorSizeInformation routine [Installable File System Drivers], ifsk.fsrtlgetsectorsizeinformation, ntifs/FsRtlGetSectorSizeInformation
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlGetSectorSizeInformation"
 req.header: ntifs.h

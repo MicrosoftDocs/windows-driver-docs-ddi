@@ -6,8 +6,8 @@ old-location: stream\bdapropertytemplateconnections.htm
 tech.root: stream
 ms.assetid: 64b55b53-677a-4977-b865-0a07d34d2530
 ms.date: 04/23/2018
+keywords: ["BdaPropertyTemplateConnections function"]
 ms.keywords: BdaPropertyTemplateConnections, BdaPropertyTemplateConnections function [Streaming Media Devices], bdaref_919b0c2d-5bb9-4e17-8028-79f669ab7b8c.xml, bdasup/BdaPropertyTemplateConnections, stream.bdapropertytemplateconnections
-ms.topic: function
 f1_keywords:
  - "bdasup/BdaPropertyTemplateConnections"
 req.header: bdasup.h

@@ -6,8 +6,8 @@ old-location: kernel\wnode_single_item.htm
 tech.root: kernel
 ms.assetid: 65b64678-09dc-4bc2-8362-d15eba5a828a
 ms.date: 04/30/2018
+keywords: ["tagWNODE_SINGLE_ITEM structure"]
 ms.keywords: "*PWNODE_SINGLE_ITEM, PWNODE_SINGLE_ITEM, PWNODE_SINGLE_ITEM structure pointer [Kernel-Mode Driver Architecture], WNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM structure [Kernel-Mode Driver Architecture], kernel.wnode_single_item, kstruct_d_49c197d8-c13f-4ca7-b82f-e56282eac847.xml, tagWNODE_SINGLE_ITEM, wmistr/PWNODE_SINGLE_ITEM, wmistr/WNODE_SINGLE_ITEM"
-ms.topic: struct
 f1_keywords:
  - "wmistr/WNODE_SINGLE_ITEM"
 req.header: wmistr.h

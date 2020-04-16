@@ -6,8 +6,8 @@ old-location: stream\iksallocatorex.htm
 tech.root: stream
 ms.assetid: 42abaf2b-8ee9-450e-aef3-fa29d1b558e5
 ms.date: 04/23/2018
+keywords: ["IKsAllocatorEx interface"]
 ms.keywords: IKsAllocatorEx, IKsAllocatorEx interface [Streaming Media Devices], IKsAllocatorEx interface [Streaming Media Devices],described, ksproxy/IKsAllocatorEx, ksproxy_58c9c83a-1a11-4e08-bf7f-e0694bf2eda5.xml, stream.iksallocatorex
-ms.topic: interface
 f1_keywords:
  - "ksproxy/IKsAllocatorEx"
 req.header: ksproxy.h
@@ -55,7 +55,7 @@ The IID for this interface is IID_IKsAllocatorEx.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAllocatorEx</b> interface inherits from IUnknown and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocator">IKsAllocator</a>. <b>IKsAllocatorEx</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IKsAllocatorEx</b> interface inherits from IUnknown and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-iksallocator">IKsAllocator</a>. <b>IKsAllocatorEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

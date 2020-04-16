@@ -6,8 +6,8 @@ old-location: netvista\ndisreadregisterulong.htm
 tech.root: netvista
 ms.assetid: 18812c18-ec5e-4e8e-9ecf-c3c2a58ca8a2
 ms.date: 05/02/2018
+keywords: ["NdisReadRegisterUlong macro"]
 ms.keywords: NdisReadRegisterUlong, NdisReadRegisterUlong macro [Network Drivers Starting with Windows Vista], miniport_register_ref_44b40f81-b21f-4b5c-b875-deb9b4bd62ab.xml, ndis/NdisReadRegisterUlong, netvista.ndisreadregisterulong
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisReadRegisterUlong"
 req.header: ndis.h

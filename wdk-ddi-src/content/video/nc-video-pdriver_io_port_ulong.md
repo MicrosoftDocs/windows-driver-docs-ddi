@@ -6,8 +6,8 @@ old-location: display\svgahwioportulong.htm
 tech.root: display
 ms.assetid: e749188f-a255-403a-8ae9-a2c3c9b41c58
 ms.date: 05/10/2018
+keywords: ["PDRIVER_IO_PORT_ULONG callback function"]
 ms.keywords: PDRIVER_IO_PORT_ULONG, PDRIVER_IO_PORT_ULONG callback, SvgaHwIoPortUlong, SvgaHwIoPortUlong callback function [Display Devices], VideoMiniport_Functions_84ae9115-8192-469a-b3c1-536d3964d906.xml, display.svgahwioportulong, video/SvgaHwIoPortUlong
-ms.topic: callback
 f1_keywords:
  - "video/SvgaHwIoPortUlong"
 req.header: video.h

@@ -6,8 +6,8 @@ old-location: nfpdrivers\_nfccxhardwareevent.htm
 tech.root: nfpdrivers
 ms.assetid: 5D108897-93D9-4C67-9138-86C608AD8C4C
 ms.date: 02/15/2018
+keywords: ["NfcCxHardwareEvent function"]
 ms.keywords: NfcCxHardwareEvent, NfcCxHardwareEvent method [Near-Field Proximity Drivers], nfccx/NfcCxHardwareEvent, nfpdrivers._nfccxhardwareevent
-ms.topic: function
 f1_keywords:
  - "nfccx/NfcCxHardwareEvent"
 req.header: nfccx.h

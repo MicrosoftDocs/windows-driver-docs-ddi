@@ -6,8 +6,8 @@ old-location: kernel\pep_perf_state.htm
 tech.root: kernel
 ms.assetid: D5C9EF42-B6FE-4472-8188-2B23F87FA475
 ms.date: 04/30/2018
+keywords: ["_PEP_PERF_STATE structure"]
 ms.keywords: "*PPEP_PERF_STATE, PEP_PERF_STATE, PEP_PERF_STATE structure [Kernel-Mode Driver Architecture], PPEP_PERF_STATE, PPEP_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PERF_STATE, kernel.pep_perf_state, pepfx/PEP_PERF_STATE, pepfx/PPEP_PERF_STATE"
-ms.topic: struct
 f1_keywords:
  - "pep_x/PEP_PERF_STATE"
 req.header: pep_x.h

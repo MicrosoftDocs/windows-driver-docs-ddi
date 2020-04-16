@@ -6,8 +6,8 @@ old-location: netvista\ndismidlenotificationcomplete.htm
 tech.root: netvista
 ms.assetid: A6936B25-F804-4EF3-909C-7838346AC37E
 ms.date: 05/02/2018
+keywords: ["NdisMIdleNotificationComplete function"]
 ms.keywords: NdisMIdleNotificationComplete, NdisMIdleNotificationComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMIdleNotificationComplete, netvista.ndismidlenotificationcomplete
-ms.topic: function
 f1_keywords:
  - "ndis/NdisMIdleNotificationComplete"
 req.header: ndis.h

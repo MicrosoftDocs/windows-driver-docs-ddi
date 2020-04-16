@@ -6,8 +6,8 @@ old-location: display\dd_getddiversiondata.htm
 tech.root: display
 ms.assetid: 4f96ef86-1155-4483-915e-706cc18c3bca
 ms.date: 05/10/2018
+keywords: ["_DD_GETDDIVERSIONDATA structure"]
 ms.keywords: DD_GETDDIVERSIONDATA, DD_GETDDIVERSIONDATA structure [Display Devices], _DD_GETDDIVERSIONDATA, d3dhal/DD_GETDDIVERSIONDATA, d3dstrct_c15b9015-5e12-41bc-a44b-751f2a8813e9.xml, display.dd_getddiversiondata
-ms.topic: struct
 f1_keywords:
  - "d3dhal/DD_GETDDIVERSIONDATA"
 req.header: d3dhal.h

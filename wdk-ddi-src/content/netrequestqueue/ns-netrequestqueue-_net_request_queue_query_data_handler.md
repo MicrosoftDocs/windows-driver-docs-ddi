@@ -5,7 +5,7 @@ description: Reserved for internal use. Call NET_REQUEST_QUEUE_CONFIG_ADD_QUERY_
 tech.root: netvista
 ms.assetid: 115c57d3-3816-42c5-aaf5-0b92ffb7dbf1
 ms.date: 02/09/2018
-ms.topic: struct
+keywords: ["_NET_REQUEST_QUEUE_QUERY_DATA_HANDLER structure"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_QUERY_DATA_HANDLER"
 ms.keywords: _NET_REQUEST_QUEUE_QUERY_DATA_HANDLER, *PNET_REQUEST_QUEUE_QUERY_DATA_HANDLER, NET_REQUEST_QUEUE_QUERY_DATA_HANDLER, 

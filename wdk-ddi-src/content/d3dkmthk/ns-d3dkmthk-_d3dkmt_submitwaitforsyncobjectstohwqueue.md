@@ -5,8 +5,8 @@ description: A structure that contains information to submit a wait on the hardw
 old-location: display\d3dkmt_submitwaitforsyncobjectstohwqueue_.htm
 ms.assetid: 365253FC-9FC0-4FFF-9D84-503754095327
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure"]
 ms.keywords: D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE , D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE, display.d3dkmt_submitwaitforsyncobjectstohwqueue_
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE"
 req.header: d3dkmthk.h

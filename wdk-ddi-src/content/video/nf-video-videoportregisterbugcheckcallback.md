@@ -6,8 +6,8 @@ old-location: display\videoportregisterbugcheckcallback.htm
 tech.root: display
 ms.assetid: 55b2d603-f3ac-4a7a-91f5-83d908d1e14b
 ms.date: 05/10/2018
+keywords: ["VideoPortRegisterBugcheckCallback function"]
 ms.keywords: VideoPortRegisterBugcheckCallback, VideoPortRegisterBugcheckCallback function [Display Devices], VideoPort_Functions_ba500792-836e-4181-983c-506bf5608a1c.xml, display.videoportregisterbugcheckcallback, video/VideoPortRegisterBugcheckCallback
-ms.topic: function
 f1_keywords:
  - "video/VideoPortRegisterBugcheckCallback"
 req.header: video.h

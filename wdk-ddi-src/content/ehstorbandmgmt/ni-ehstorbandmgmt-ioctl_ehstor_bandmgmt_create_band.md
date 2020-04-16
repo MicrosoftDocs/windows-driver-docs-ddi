@@ -6,8 +6,8 @@ old-location: storage\ioctl_ehstor_bandmgmt_create_band.htm
 tech.root: storage
 ms.assetid: B5AEA98A-223D-4D14-A36B-EB5266F80AF8
 ms.date: 03/29/2018
+keywords: ["IOCTL_EHSTOR_BANDMGMT_CREATE_BAND IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_CREATE_BAND, IOCTL_EHSTOR_BANDMGMT_CREATE_BAND control, IOCTL_EHSTOR_BANDMGMT_CREATE_BAND control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_CREATE_BAND, storage.ioctl_ehstor_bandmgmt_create_band
-ms.topic: ioctl
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_CREATE_BAND"
 req.header: ehstorbandmgmt.h

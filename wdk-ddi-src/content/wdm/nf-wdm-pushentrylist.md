@@ -6,8 +6,8 @@ old-location: kernel\pushentrylist.htm
 tech.root: kernel
 ms.assetid: 19f387d3-6c00-4c71-8114-61c53654613c
 ms.date: 04/30/2018
+keywords: ["PushEntryList function"]
 ms.keywords: PushEntryList, PushEntryList routine [Kernel-Mode Driver Architecture], k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, kernel.pushentrylist, wdm/PushEntryList
-ms.topic: function
 f1_keywords:
  - "wdm/PushEntryList"
 req.header: wdm.h

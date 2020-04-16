@@ -5,7 +5,7 @@ description: Releases the handle to the registry key that is associated with an 
 tech.root: netvista
 ms.assetid: 5a133c35-8f4c-4af0-8fc1-82f9ad427f56
 ms.date: 02/07/2018
-ms.topic: function
+keywords: ["NetConfigurationClose function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationClose"
 ms.keywords: NetConfigurationClose

@@ -6,8 +6,8 @@ old-location: image\wias_hresult.htm
 tech.root: image
 ms.assetid: e340eb98-34d4-49e7-92cd-4f57d8b6efb8
 ms.date: 05/03/2018
+keywords: ["WIAS_HRESULT macro"]
 ms.keywords: IWiaLog_3b27b46f-be2e-4fdb-ba65-32fe41c71142.xml, WIAS_HRESULT, WIAS_HRESULT macro [Imaging Devices], image.wias_hresult, wiamdef/WIAS_HRESULT
-ms.topic: macro
 f1_keywords:
  - "wiamdef/WIAS_HRESULT"
 req.header: wiamdef.h

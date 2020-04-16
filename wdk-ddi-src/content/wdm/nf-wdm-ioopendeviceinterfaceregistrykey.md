@@ -6,8 +6,8 @@ old-location: kernel\ioopendeviceinterfaceregistrykey.htm
 tech.root: kernel
 ms.assetid: d9ca4b9d-dacc-4164-9198-a71a771b145b
 ms.date: 04/30/2018
+keywords: ["IoOpenDeviceInterfaceRegistryKey function"]
 ms.keywords: IoOpenDeviceInterfaceRegistryKey, IoOpenDeviceInterfaceRegistryKey routine [Kernel-Mode Driver Architecture], k104_39651647-aa61-4670-b09d-7aaabaae4603.xml, kernel.ioopendeviceinterfaceregistrykey, wdm/IoOpenDeviceInterfaceRegistryKey
-ms.topic: function
 f1_keywords:
  - "wdm/IoOpenDeviceInterfaceRegistryKey"
 req.header: wdm.h

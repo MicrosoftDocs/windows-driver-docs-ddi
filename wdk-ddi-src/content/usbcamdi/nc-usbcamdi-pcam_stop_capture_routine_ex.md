@@ -6,8 +6,8 @@ old-location: stream\camstopcaptureex.htm
 tech.root: stream
 ms.assetid: b8b6e3f0-f5c8-449f-9001-3182b3547d8d
 ms.date: 04/23/2018
+keywords: ["PCAM_STOP_CAPTURE_ROUTINE_EX callback function"]
 ms.keywords: CamStopCaptureEx, CamStopCaptureEx routine [Streaming Media Devices], PCAM_STOP_CAPTURE_ROUTINE_EX, stream.camstopcaptureex, usbcamdi/CamStopCaptureEx, usbcmdpr_ce30ba35-3109-454c-bef4-30ff5d6805de.xml
-ms.topic: callback
 f1_keywords:
  - "usbcamdi/CamStopCaptureEx"
 req.header: usbcamdi.h

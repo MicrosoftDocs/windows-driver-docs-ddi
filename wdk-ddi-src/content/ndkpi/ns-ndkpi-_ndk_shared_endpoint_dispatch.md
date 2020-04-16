@@ -6,8 +6,8 @@ old-location: netvista\ndk_shared_endpoint_dispatch.htm
 tech.root: netvista
 ms.assetid: A0AFCF2B-E1A9-478C-8B03-D7C873F83369
 ms.date: 05/02/2018
+keywords: ["_NDK_SHARED_ENDPOINT_DISPATCH structure"]
 ms.keywords: NDK_SHARED_ENDPOINT_DISPATCH, NDK_SHARED_ENDPOINT_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_SHARED_ENDPOINT_DISPATCH, ndkpi/NDK_SHARED_ENDPOINT_DISPATCH, netvista.ndk_shared_endpoint_dispatch
-ms.topic: struct
 f1_keywords:
  - "ndkpi/NDK_SHARED_ENDPOINT_DISPATCH"
 req.header: ndkpi.h

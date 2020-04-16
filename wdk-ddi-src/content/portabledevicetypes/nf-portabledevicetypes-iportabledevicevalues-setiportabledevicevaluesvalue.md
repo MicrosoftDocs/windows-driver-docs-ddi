@@ -6,8 +6,8 @@ old-location: wpddk\iportabledevicevalues_setiportabledevicevaluesvalue.htm
 tech.root: wpd_dk
 ms.assetid: 2ab54174-9e1b-4b52-894c-489d67b7f1be
 ms.date: 02/15/2018
+keywords: ["IPortableDeviceValues::SetIPortableDeviceValuesValue"]
 ms.keywords: IPortableDeviceValues interface,SetIPortableDeviceValuesValue method, IPortableDeviceValues.SetIPortableDeviceValuesValue, IPortableDeviceValues::SetIPortableDeviceValuesValue, IPortableDeviceValuesSetIPortableDeviceValuesValue, SetIPortableDeviceValuesValue, SetIPortableDeviceValuesValue method, SetIPortableDeviceValuesValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetIPortableDeviceValuesValue, wpddk.iportabledevicevalues_setiportabledevicevaluesvalue
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetIPortableDeviceValuesValue"
 req.header: portabledevicetypes.h

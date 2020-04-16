@@ -6,8 +6,8 @@ old-location: stream\ikspinpipe_ksgetpinframingcache.htm
 tech.root: stream
 ms.assetid: 981596AB-0E39-49B3-8586-B2D9C2762D80
 ms.date: 04/23/2018
+keywords: ["IKsPinPipe::KsGetPinFramingCache"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPinFramingCache method, IKsPinPipe.KsGetPinFramingCache, IKsPinPipe::KsGetPinFramingCache, KsGetPinFramingCache, KsGetPinFramingCache method [Streaming Media Devices], KsGetPinFramingCache method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPinFramingCache, stream.ikspinpipe_ksgetpinframingcache
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsGetPinFramingCache"
 req.header: ksproxy.h
@@ -79,7 +79,7 @@ Not recommended for application use.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

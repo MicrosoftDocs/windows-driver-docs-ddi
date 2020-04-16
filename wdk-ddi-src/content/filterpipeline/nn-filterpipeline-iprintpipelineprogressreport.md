@@ -6,8 +6,8 @@ old-location: print\iprintpipelineprogressreport.htm
 tech.root: print
 ms.assetid: 7a2644af-fdfe-4481-8c44-c40244b8a00e
 ms.date: 04/20/2018
+keywords: ["IPrintPipelineProgressReport interface"]
 ms.keywords: IPrintPipelineProgressReport, IPrintPipelineProgressReport interface [Print Devices], IPrintPipelineProgressReport interface [Print Devices],described, filterpipeline/IPrintPipelineProgressReport, filterpipeline_de104fc6-8ac2-4a10-ab09-09596a093835.xml, print.iprintpipelineprogressreport
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IPrintPipelineProgressReport"
 req.header: filterpipeline.h
@@ -55,7 +55,7 @@ A rendering filter should search for the <b>XPS_FP_PROGRESS_REPORT</b> property 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintPipelineProgressReport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintPipelineProgressReport</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintPipelineProgressReport</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintPipelineProgressReport</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

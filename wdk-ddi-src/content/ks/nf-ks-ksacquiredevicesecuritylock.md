@@ -6,8 +6,8 @@ old-location: stream\ksacquiredevicesecuritylock.htm
 tech.root: stream
 ms.assetid: a5a003c1-fa35-461d-8a47-a1a7bc2375b4
 ms.date: 04/23/2018
+keywords: ["KsAcquireDeviceSecurityLock function"]
 ms.keywords: KsAcquireDeviceSecurityLock, KsAcquireDeviceSecurityLock function [Streaming Media Devices], ks/KsAcquireDeviceSecurityLock, ksfunc_dd097c63-acd6-4de2-b3c9-a50e55e3f3f1.xml, stream.ksacquiredevicesecuritylock
-ms.topic: function
 f1_keywords:
  - "ks/KsAcquireDeviceSecurityLock"
 req.header: ks.h

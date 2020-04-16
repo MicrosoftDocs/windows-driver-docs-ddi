@@ -6,8 +6,8 @@ old-location: print\iprintschemapageimageablesize_originwidthinmicrons.htm
 tech.root: print
 ms.assetid: 158F8979-682B-4836-9EC5-6F30371DB6EA
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaPageImageableSize::get_OriginWidthInMicrons"]
 ms.keywords: IPrintSchemaPageImageableSize interface [Print Devices],OriginWidthInMicrons property, IPrintSchemaPageImageableSize.OriginWidthInMicrons, IPrintSchemaPageImageableSize.get_OriginWidthInMicrons, IPrintSchemaPageImageableSize::OriginWidthInMicrons, IPrintSchemaPageImageableSize::get_OriginWidthInMicrons, OriginWidthInMicrons property [Print Devices], OriginWidthInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, get_OriginWidthInMicrons, print.iprintschemapageimageablesize_originwidthinmicrons, printerextension/IPrintSchemaPageImageableSize::OriginWidthInMicrons, printerextension/IPrintSchemaPageImageableSize::get_OriginWidthInMicrons
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrintSchemaPageImageableSize.OriginWidthInMicrons"
 req.header: printerextension.h

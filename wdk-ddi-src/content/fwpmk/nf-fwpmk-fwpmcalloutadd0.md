@@ -6,8 +6,8 @@ old-location: netvista\fwpmcalloutadd0.htm
 tech.root: netvista
 ms.assetid: f88a31c4-f42c-487d-b6d8-f8f609f2faff
 ms.date: 05/02/2018
+keywords: ["FwpmCalloutAdd0 function"]
 ms.keywords: FwpmCalloutAdd0, FwpmCalloutAdd0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmCalloutAdd0, netvista.fwpmcalloutadd0, wfp_ref_2_funct_2_fwpm_b1548682-4f29-467f-916d-fa434260b0ae.xml
-ms.topic: function
 f1_keywords:
  - "fwpmk/FwpmCalloutAdd0"
 req.header: fwpmk.h

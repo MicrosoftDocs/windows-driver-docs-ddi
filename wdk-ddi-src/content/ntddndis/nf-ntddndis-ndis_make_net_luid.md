@@ -5,7 +5,7 @@ description: The NDIS_MAKE_NET_LUID macro builds a NET_LUID value from an interf
 tech.root: netvista
 ms.assetid: e8f14ed7-53ed-4bef-af8c-a7f818437d98
 ms.date: 04/16/2018
-ms.topic: macro
+keywords: ["NDIS_MAKE_NET_LUID macro"]
 f1_keywords:
  - "ntddndis/NDIS_MAKE_NET_LUID"
 ms.keywords: NDIS_MAKE_NET_LUID

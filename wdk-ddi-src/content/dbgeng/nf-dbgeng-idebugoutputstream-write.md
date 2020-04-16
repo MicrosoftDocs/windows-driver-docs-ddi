@@ -6,8 +6,8 @@ old-location: debugger\idebugoutputstream_write.htm
 tech.root: debugger
 ms.assetid: CC609DA8-9778-4AFC-9205-5F68AF15927C
 ms.date: 05/03/2018
+keywords: ["IDebugOutputStream::Write"]
 ms.keywords: IDebugOutputStream interface [Windows Debugging],Write method, IDebugOutputStream.Write, IDebugOutputStream::Write, Write, Write method [Windows Debugging], Write method [Windows Debugging],IDebugOutputStream interface, dbgeng/IDebugOutputStream::Write, debugger.idebugoutputstream_write
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugOutputStream.Write"
 req.header: dbgeng.h

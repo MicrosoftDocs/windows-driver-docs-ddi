@@ -6,8 +6,8 @@ old-location: wdf\evtdpcfunc.htm
 tech.root: wdf
 ms.assetid: b934a0da-0709-4427-bbf2-8d53f9511cf1
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_DPC callback function"]
 ms.keywords: DFDpcObjectRef_ed441283-63f3-4ad3-84fc-05fb2404f634.xml, EVT_WDF_DPC, EVT_WDF_DPC callback, EvtDpcFunc, EvtDpcFunc callback function, kmdf.evtdpcfunc, wdf.evtdpcfunc, wdfdpc/EvtDpcFunc
-ms.topic: callback
 f1_keywords:
  - "wdfdpc/EvtDpcFunc"
 req.header: wdfdpc.h

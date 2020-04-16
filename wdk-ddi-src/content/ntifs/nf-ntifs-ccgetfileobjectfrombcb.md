@@ -6,8 +6,8 @@ old-location: ifsk\ccgetfileobjectfrombcb.htm
 tech.root: ifsk
 ms.assetid: d30a2ee4-4736-4127-95db-b86e782c3577
 ms.date: 04/16/2018
+keywords: ["CcGetFileObjectFromBcb function"]
 ms.keywords: CcGetFileObjectFromBcb, CcGetFileObjectFromBcb routine [Installable File System Drivers], ccref_7fdf1d1e-a080-4322-a09c-be0a16543050.xml, ifsk.ccgetfileobjectfrombcb, ntifs/CcGetFileObjectFromBcb
-ms.topic: function
 f1_keywords:
  - "ntifs/CcGetFileObjectFromBcb"
 req.header: ntifs.h

@@ -6,8 +6,8 @@ old-location: audio\pfndrmgetcontentrights.htm
 tech.root: audio
 ms.assetid: 1230C71C-9C1A-4F1F-8AA7-C814249675B5
 ms.date: 05/08/2018
+keywords: ["PFNDRMGETCONTENTRIGHTS callback function"]
 ms.keywords: DRMGetContentRights, DRMGetContentRights callback function [Audio Devices], PFNDRMGETCONTENTRIGHTS, PFNDRMGETCONTENTRIGHTS callback, PfnDRMGetContentRights, PfnDRMGetContentRights callback function [Audio Devices], audio.pfndrmgetcontentrights, drmk/PfnDRMGetContentRights
-ms.topic: callback
 f1_keywords:
  - "drmk/DRMGetContentRights"
 req.header: drmk.h

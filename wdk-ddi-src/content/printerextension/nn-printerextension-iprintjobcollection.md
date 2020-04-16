@@ -6,8 +6,8 @@ old-location: print\iprintjobcollection.htm
 tech.root: print
 ms.assetid: 757328A6-DD2C-4057-820B-39EB83277194
 ms.date: 04/20/2018
+keywords: ["IPrintJobCollection interface"]
 ms.keywords: IPrintJobCollection, IPrintJobCollection interface [Print Devices], IPrintJobCollection interface [Print Devices],described, print.iprintjobcollection, printerextension/IPrintJobCollection
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrintJobCollection"
 req.header: printerextension.h
@@ -55,7 +55,7 @@ The enumerated list of jobs represents a snapshot of the current job status.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintJobCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintJobCollection</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintJobCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintJobCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

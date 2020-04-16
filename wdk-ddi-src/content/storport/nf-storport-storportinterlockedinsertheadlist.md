@@ -6,8 +6,8 @@ old-location: storage\storportinterlockedinsertheadlist.htm
 tech.root: storage
 ms.assetid: 13874D19-4835-41B4-B58C-2B25D619607C
 ms.date: 03/29/2018
+keywords: ["StorPortInterlockedInsertHeadList function"]
 ms.keywords: StorPortInterlockedInsertHeadList, StorPortInterlockedInsertHeadList routine [Storage Devices], storage.storportinterlockedinsertheadlist, storport/StorPortInterlockedInsertHeadList
-ms.topic: function
 f1_keywords:
  - "storport/StorPortInterlockedInsertHeadList"
 req.header: storport.h

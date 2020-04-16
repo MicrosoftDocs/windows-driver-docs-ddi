@@ -6,8 +6,8 @@ old-location: pos\poscxgetdeviceinterfacetag.htm
 tech.root: pos
 ms.assetid: CF54D922-8EEE-41CE-8CFC-0628756117BE
 ms.date: 02/23/2018
+keywords: ["PosCxGetDeviceInterfaceTag function"]
 ms.keywords: PosCxGetDeviceInterfaceTag, PosCxGetDeviceInterfaceTag function, pos.poscxgetdeviceinterfacetag, poscx/PosCxGetDeviceInterfaceTag
-ms.topic: function
 f1_keywords:
  - "poscx/PosCxGetDeviceInterfaceTag"
 req.header: poscx.h

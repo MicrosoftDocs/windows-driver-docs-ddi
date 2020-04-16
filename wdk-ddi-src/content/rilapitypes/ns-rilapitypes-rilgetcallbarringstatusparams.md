@@ -6,8 +6,8 @@ old-location: netvista\rilgetcallbarringstatusparams.htm
 tech.root: netvista
 ms.assetid: ce4ff193-1699-4712-93c1-c623474e1993
 ms.date: 05/02/2018
+keywords: ["RILGETCALLBARRINGSTATUSPARAMS structure"]
 ms.keywords: "*LPRILGETCALLBARRINGSTATUSPARAMS, RILGETCALLBARRINGSTATUSPARAMS, RILGETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetcallbarringstatusparams, ntddrilapitypes/RILGETCALLBARRINGSTATUSPARAMS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILGETCALLBARRINGSTATUSPARAMS"
 req.header: rilapitypes.h

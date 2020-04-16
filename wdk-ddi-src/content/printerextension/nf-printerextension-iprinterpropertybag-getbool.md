@@ -6,8 +6,8 @@ old-location: print\iprinterpropertybag_getbool.htm
 tech.root: print
 ms.assetid: 0C7ED962-F4E2-4F2F-B2CF-96DCFC71C4DD
 ms.date: 04/20/2018
+keywords: ["IPrinterPropertyBag::GetBool"]
 ms.keywords: GetBool, GetBool method [Print Devices], GetBool method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetBool method, IPrinterPropertyBag.GetBool, IPrinterPropertyBag::GetBool, print.iprinterpropertybag_getbool, printerextension/IPrinterPropertyBag::GetBool
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterPropertyBag.GetBool"
 req.header: printerextension.h

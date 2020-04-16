@@ -6,8 +6,8 @@ old-location: wdf\wdfdeviceinitsetdeviceclass.htm
 tech.root: wdf
 ms.assetid: c87a8368-3804-4a07-92c8-65a453d0808f
 ms.date: 02/26/2018
+keywords: ["WdfDeviceInitSetDeviceClass function"]
 ms.keywords: DFDeviceObjectGeneralRef_9c2c2390-3dcc-40f4-ba43-16c8988dbfae.xml, WdfDeviceInitSetDeviceClass, WdfDeviceInitSetDeviceClass method, kmdf.wdfdeviceinitsetdeviceclass, wdf.wdfdeviceinitsetdeviceclass, wdfdevice/WdfDeviceInitSetDeviceClass
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetDeviceClass"
 req.header: wdfdevice.h

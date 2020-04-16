@@ -6,8 +6,8 @@ old-location: display\logmarkerstringtable.htm
 tech.root: display
 ms.assetid: DDB42924-5C28-4737-92C1-4FB7A00B09AA
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_LOGSTRINGTABLE callback function"]
 ms.keywords: LogMarkerStringTable, LogMarkerStringTable callback function [Display Devices], PFND3DDDI_LOGSTRINGTABLE, PFND3DDDI_LOGSTRINGTABLE callback, d3dumddi/LogMarkerStringTable, display.logmarkerstringtable
-ms.topic: callback
 f1_keywords:
  - "d3dumddi/LogMarkerStringTable"
 req.header: d3dumddi.h

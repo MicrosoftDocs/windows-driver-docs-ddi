@@ -6,8 +6,8 @@ old-location: buses\ucmtcpciportcontrolleralert.htm
 tech.root: usbref
 ms.assetid: 38700667-d872-4c08-b846-236e94318dba
 ms.date: 05/07/2018
+keywords: ["UcmTcpciPortControllerAlert function"]
 ms.keywords: UcmTcpciPortControllerAlert, UcmTcpciPortControllerAlert method [Buses], buses.ucmtcpciportcontrolleralert, ucmtcpciportcontroller/UcmTcpciPortControllerAlert
-ms.topic: function
 f1_keywords:
  - "ucmtcpciportcontroller/UcmTcpciPortControllerAlert"
 req.header: ucmtcpciportcontroller.h

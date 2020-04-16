@@ -6,8 +6,8 @@ old-location: storage\storportgetscattergatherlist.htm
 tech.root: storage
 ms.assetid: ddb7052d-b9f3-40f6-b00a-6bf52f010cdc
 ms.date: 03/29/2018
+keywords: ["StorPortGetScatterGatherList function"]
 ms.keywords: StorPortGetScatterGatherList, StorPortGetScatterGatherList routine [Storage Devices], storage.storportgetscattergatherlist, storport/StorPortGetScatterGatherList, storprt_1736d395-ccc8-42ec-8d84-a9d3b7656996.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortGetScatterGatherList"
 req.header: storport.h

@@ -6,8 +6,8 @@ old-location: ieee\cip_validate_info.htm
 tech.root: IEEE
 ms.assetid: 98993973-91a4-456a-9343-c744408055ed
 ms.date: 02/15/2018
+keywords: ["_CIP_VALIDATE_INFO structure"]
 ms.keywords: "*PCIP_VALIDATE_INFO, 61883/CIP_VALIDATE_INFO, 61883/PCIP_VALIDATE_INFO, 61883_structures_9f8bc3f2-ad43-4e0b-a4f9-8d441397f11d.xml, CIP_VALIDATE_INFO, CIP_VALIDATE_INFO structure [Buses], IEEE.cip_validate_info, PCIP_VALIDATE_INFO, PCIP_VALIDATE_INFO structure pointer [Buses], _CIP_VALIDATE_INFO"
-ms.topic: struct
 f1_keywords:
  - "61883/CIP_VALIDATE_INFO"
 req.header: 61883.h

@@ -5,8 +5,8 @@ description: Performs an extended function for DirectX Video Acceleration (DXVA)
 old-location: display\videodecoderextension.htm
 ms.assetid: 0cfcc05a-77d7-4157-bd27-ba127afe3e92
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_VIDEODECODEREXTENSION callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEODECODEREXTENSION, PFND3D11_1DDI_VIDEODECODEREXTENSION callback, d3d10umddi/pfnVideoDecoderExtension, display.videodecoderextension, pfnVideoDecoderExtension, pfnVideoDecoderExtension callback function [Display Devices]
-ms.topic: callback
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

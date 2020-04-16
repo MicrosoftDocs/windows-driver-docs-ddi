@@ -6,8 +6,8 @@ old-location: stream\kscamera_extendedprop_roi_info.htm
 tech.root: stream
 ms.assetid: DAE013B7-7715-4B03-99F7-807306736C14
 ms.date: 04/23/2018
+keywords: ["tagKSCAMERA_EXTENDEDPROP_ROI_INFO structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_INFO, KSCAMERA_EXTENDEDPROP_ROI_INFO, KSCAMERA_EXTENDEDPROP_ROI_INFO structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_INFO, PKSCAMERA_EXTENDEDPROP_ROI_INFO structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_INFO, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_INFO, stream.kscamera_extendedprop_roi_info, tagKSCAMERA_EXTENDEDPROP_ROI_INFO"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSCAMERA_EXTENDEDPROP_ROI_INFO"
 req.header: ksmedia.h

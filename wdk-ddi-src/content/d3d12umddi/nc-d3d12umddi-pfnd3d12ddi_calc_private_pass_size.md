@@ -5,7 +5,7 @@ description: Used in the creation of a pass.
 tech.root: display
 ms.assetid: 1ec7e11f-fd5b-43a5-88a0-45b819ebc2e0
 ms.date: 11/28/2018
-ms.topic: callback
+keywords: ["PFND3D12DDI_CALC_PRIVATE_PASS_SIZE callback function"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

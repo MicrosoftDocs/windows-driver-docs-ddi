@@ -5,8 +5,8 @@ description: Used to transform encrypted data.
 old-location: display\pfnd3d12ddi_transformencrypteddata_0030.htm
 ms.assetid: B738C096-E821-4D7E-A713-47300E4E3779
 ms.date: 05/10/2018
+keywords: ["PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030 callback function"]
 ms.keywords: PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030, PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030 callback, PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_TRANSFORMENCRYPTEDDATA_0030, display.pfnd3d12ddi_transformencrypteddata_0030
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

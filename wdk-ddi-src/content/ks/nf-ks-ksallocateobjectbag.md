@@ -6,8 +6,8 @@ old-location: stream\ksallocateobjectbag.htm
 tech.root: stream
 ms.assetid: 2fc5689f-e1d6-481d-b137-301f10b386e8
 ms.date: 04/23/2018
+keywords: ["KsAllocateObjectBag function"]
 ms.keywords: KsAllocateObjectBag, KsAllocateObjectBag function [Streaming Media Devices], avfunc_a76be7a0-6dfa-4428-8317-4a8df31dec6e.xml, ks/KsAllocateObjectBag, stream.ksallocateobjectbag
-ms.topic: function
 f1_keywords:
  - "ks/KsAllocateObjectBag"
 req.header: ks.h

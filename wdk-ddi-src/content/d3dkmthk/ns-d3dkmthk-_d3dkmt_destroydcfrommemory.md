@@ -5,8 +5,8 @@ description: The D3DKMT_DESTROYDCFROMMEMORY structure describes parameters for r
 old-location: display\d3dkmt_destroydcfrommemory.htm
 ms.assetid: 98110dcc-bd82-444b-80bb-45a989e2f4f1
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_DESTROYDCFROMMEMORY structure"]
 ms.keywords: D3DKMT_DESTROYDCFROMMEMORY, D3DKMT_DESTROYDCFROMMEMORY structure [Display Devices], OpenGL_Structs_1d3adbd5-a0cf-4650-b293-148ca3b093fb.xml, _D3DKMT_DESTROYDCFROMMEMORY, d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY, display.d3dkmt_destroydcfrommemory
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY"
 req.header: d3dkmthk.h

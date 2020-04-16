@@ -6,8 +6,8 @@ old-location: netvista\rilcallinfoflags.htm
 tech.root: netvista
 ms.assetid: c4edec8f-a001-491b-a3e6-03d19ac94f18
 ms.date: 05/02/2018
+keywords: ["RILCALLINFOFLAGS enumeration"]
 ms.keywords: RILCALLINFOFLAGS, RILCALLINFOFLAGS enumeration [Network Drivers Starting with Windows Vista], RILCALLINFO_FLAG_ALIENCALL, RILCALLINFO_FLAG_EMERGENCYCALL, netvista.rilcallinfoflags, ntddrilapitypes/RILCALLINFOFLAGS, ntddrilapitypes/RILCALLINFO_FLAG_ALIENCALL, ntddrilapitypes/RILCALLINFO_FLAG_EMERGENCYCALL
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILCALLINFOFLAGS"
 req.header: rilapitypes.h

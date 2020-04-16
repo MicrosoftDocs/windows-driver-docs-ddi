@@ -6,8 +6,8 @@ old-location: devtest\seetwwritekmcveevent.htm
 tech.root: devtest
 ms.assetid: 9CF6C8FC-869A-4667-9859-845BFF093549
 ms.date: 02/23/2018
+keywords: ["SeEtwWriteKMCveEvent function"]
 ms.keywords: SeEtwWriteKMCveEvent, SeEtwWriteKMCveEvent function [Display Devices], devtest.seetwwritekmcveevent, wdm/SeEtwWriteKMCveEvent
-ms.topic: function
 f1_keywords:
  - "wdm/SeEtwWriteKMCveEvent"
 req.header: wdm.h

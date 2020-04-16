@@ -6,8 +6,8 @@ old-location: netvista\rilgetdeviceinfoparams.htm
 tech.root: netvista
 ms.assetid: 4cb3be01-7e74-4c98-9c4b-2e1c78d96001
 ms.date: 05/02/2018
+keywords: ["RILGETDEVICEINFOPARAMS structure"]
 ms.keywords: "*LPRILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS, RILGETDEVICEINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdeviceinfoparams, ntddrilapitypes/RILGETDEVICEINFOPARAMS"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILGETDEVICEINFOPARAMS"
 req.header: ntddrilapitypes.h

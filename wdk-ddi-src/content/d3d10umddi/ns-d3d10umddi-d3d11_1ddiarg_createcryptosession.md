@@ -5,8 +5,8 @@ description: Specifies the attributes of the cryptographic session to be created
 old-location: display\d3d11_1ddiarg_createcryptosession.htm
 ms.assetid: 9e63a4eb-050b-4f12-ad43-00e62021abd3
 ms.date: 05/10/2018
+keywords: ["D3D11_1DDIARG_CREATECRYPTOSESSION structure"]
 ms.keywords: D3D11_1DDIARG_CREATECRYPTOSESSION, D3D11_1DDIARG_CREATECRYPTOSESSION structure [Display Devices], D3D11_1DDI_CRYPTO_TYPE_AES128_CTR, D3D11_1DDI_CRYPTO_TYPE_PROPRIETARY, D3D11_1DDI_KEY_EXCHANGE_RSAES_OAEP, D3DWDDM2_0DDI_KEY_EXCHANGE_HW_PROTECTION, d3d10umddi/D3D11_1DDIARG_CREATECRYPTOSESSION, display.d3d11_1ddiarg_createcryptosession
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11_1DDIARG_CREATECRYPTOSESSION"
 req.header: d3d10umddi.h

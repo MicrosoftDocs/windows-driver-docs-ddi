@@ -5,8 +5,8 @@ description: Completes a DirectX Video Acceleration (DXVA) decoding operation fo
 old-location: display\videodecoderendframe.htm
 ms.assetid: f0110435-d060-4f4b-ad29-baaeb8fc2e0e
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_VIDEODECODERENDFRAME callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEODECODERENDFRAME, PFND3D11_1DDI_VIDEODECODERENDFRAME callback, d3d10umddi/pfnVideoDecoderEndFrame, display.videodecoderendframe, pfnVideoDecoderEndFrame, pfnVideoDecoderEndFrame callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnVideoDecoderEndFrame"
 req.header: d3d10umddi.h

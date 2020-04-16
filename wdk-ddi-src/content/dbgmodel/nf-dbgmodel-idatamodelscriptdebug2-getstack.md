@@ -4,7 +4,7 @@ title: IDataModelScriptDebug2::GetStack (dbgmodel.h)
 description: The GetStack method gets the current call stack at the break position.
 ms.assetid: 5f780a6c-c765-4b6f-baa9-d8367bfdbbec
 ms.date: 08/21/2018
-ms.topic: method
+keywords: ["IDataModelScriptDebug2::GetStack"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug2.GetStack"
 ms.keywords: IDataModelScriptDebug2::GetStack, GetStack, IDataModelScriptDebug2.GetStack, IDataModelScriptDebug2::GetStack, IDataModelScriptDebug2.GetStack

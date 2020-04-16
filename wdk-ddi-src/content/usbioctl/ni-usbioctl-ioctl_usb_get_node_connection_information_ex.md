@@ -6,8 +6,8 @@ old-location: buses\ioctl_usb_get_node_connection_information_ex.htm
 tech.root: usbref
 ms.assetid: d056dd82-815d-42da-8d2a-490474f68782
 ms.date: 01/24/2019
+keywords: ["IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX IOCTL"]
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX control, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX control code [Buses], buses.ioctl_usb_get_node_connection_information_ex, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX, usbirp_61c188b5-2820-4601-b2de-08bf30109824.xml
-ms.topic: ioctl
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX"
 req.header: usbioctl.h

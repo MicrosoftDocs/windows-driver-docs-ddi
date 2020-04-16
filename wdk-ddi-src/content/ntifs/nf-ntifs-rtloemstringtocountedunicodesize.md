@@ -6,8 +6,8 @@ old-location: ifsk\rtloemstringtocountedunicodesize.htm
 tech.root: ifsk
 ms.assetid: a618420f-ea69-471d-82a0-1e86f85e270b
 ms.date: 04/16/2018
+keywords: ["RtlOemStringToCountedUnicodeSize macro"]
 ms.keywords: RtlOemStringToCountedUnicodeSize, RtlOemStringToCountedUnicodeSize routine [Installable File System Drivers], ifsk.rtloemstringtocountedunicodesize, ntifs/RtlOemStringToCountedUnicodeSize, rtlref_dc10fcb6-356a-4c09-aea6-c386030039f0.xml
-ms.topic: macro
 f1_keywords:
  - "ntifs/RtlOemStringToCountedUnicodeSize"
 req.header: ntifs.h

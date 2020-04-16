@@ -6,8 +6,8 @@ old-location: serports\ioctl_serial_set_dtr.htm
 tech.root: serports
 ms.assetid: cec61f34-389b-43a9-9b24-d42779c018d2
 ms.date: 04/23/2018
+keywords: ["IOCTL_SERIAL_SET_DTR IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_DTR, IOCTL_SERIAL_SET_DTR control, IOCTL_SERIAL_SET_DTR control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_DTR, serports.ioctl_serial_set_dtr, serref_6af1af3b-1345-41df-8dcf-66ec296c27f8.xml
-ms.topic: ioctl
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_DTR"
 req.header: ntddser.h

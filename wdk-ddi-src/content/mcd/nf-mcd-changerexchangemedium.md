@@ -6,8 +6,8 @@ old-location: storage\changerexchangemedium.htm
 tech.root: storage
 ms.assetid: 4cb6e9af-ddd0-48d9-9f07-43c828e4187b
 ms.date: 03/29/2018
+keywords: ["ChangerExchangeMedium function"]
 ms.keywords: ChangerExchangeMedium, ChangerExchangeMedium function [Storage Devices], chgrmini_1a4e68fa-4ef3-4f1e-ab2c-ca26b138fc14.xml, mcd/ChangerExchangeMedium, storage.changerexchangemedium
-ms.topic: function
 f1_keywords:
  - "mcd/ChangerExchangeMedium"
 req.header: mcd.h

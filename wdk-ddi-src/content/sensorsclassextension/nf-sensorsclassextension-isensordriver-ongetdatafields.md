@@ -6,8 +6,8 @@ old-location: sensors\isensordriver_ongetdatafields.htm
 tech.root: sensors
 ms.assetid: a9233a0f-ac80-46be-9abe-7b87d25736f9
 ms.date: 05/03/2018
+keywords: ["ISensorDriver::OnGetDataFields"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetDataFields method, ISensorDriver.OnGetDataFields, ISensorDriver::OnGetDataFields, OnGetDataFields, OnGetDataFields method [Sensor Devices], OnGetDataFields method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetdatafields, sensorsclassextension/ISensorDriver::OnGetDataFields
-ms.topic: method
 f1_keywords:
  - "sensorsclassextension/OnGetDataFields"
 req.header: sensorsclassextension.h

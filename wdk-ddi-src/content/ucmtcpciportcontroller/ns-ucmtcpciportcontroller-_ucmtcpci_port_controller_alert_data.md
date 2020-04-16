@@ -6,8 +6,8 @@ old-location: buses\ucmtcpci_port_controller_alert_data.htm
 tech.root: usbref
 ms.assetid: 4b3c2fc8-d7c3-4223-a88e-5db9ad852618
 ms.date: 05/07/2018
+keywords: ["_UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure"]
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure [Buses], _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, buses.ucmtcpci_port_controller_alert_data, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA"
-ms.topic: struct
 f1_keywords:
  - "ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA"
 req.header: ucmtcpciportcontroller.h

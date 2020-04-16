@@ -5,8 +5,8 @@ description: The DXGK_GDIARG_BITBLT structure describes the characteristics of a
 old-location: display\dxgk_gdiarg_bitblt.htm
 ms.assetid: 367ee4cb-5074-478d-8836-962f96acf103
 ms.date: 05/10/2018
+keywords: ["_DXGK_GDIARG_BITBLT structure"]
 ms.keywords: DXGK_GDIARG_BITBLT, DXGK_GDIARG_BITBLT structure [Display Devices], DmStructs_717d3dc5-03a2-4814-b351-6ea7fb270f26.xml, _DXGK_GDIARG_BITBLT, d3dkmddi/DXGK_GDIARG_BITBLT, display.dxgk_gdiarg_bitblt
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_GDIARG_BITBLT"
 req.header: d3dkmddi.h

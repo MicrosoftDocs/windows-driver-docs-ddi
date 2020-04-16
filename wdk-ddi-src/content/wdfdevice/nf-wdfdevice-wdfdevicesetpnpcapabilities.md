@@ -6,8 +6,8 @@ old-location: wdf\wdfdevicesetpnpcapabilities.htm
 tech.root: wdf
 ms.assetid: fba8bc7d-b776-44e8-a4bf-12de707f2e4f
 ms.date: 02/26/2018
+keywords: ["WdfDeviceSetPnpCapabilities function"]
 ms.keywords: DFDeviceObjectGeneralRef_5f299c2e-344d-4213-a2fa-8266f056896c.xml, WdfDeviceSetPnpCapabilities, WdfDeviceSetPnpCapabilities method, kmdf.wdfdevicesetpnpcapabilities, wdf.wdfdevicesetpnpcapabilities, wdfdevice/WdfDeviceSetPnpCapabilities
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceSetPnpCapabilities"
 req.header: wdfdevice.h

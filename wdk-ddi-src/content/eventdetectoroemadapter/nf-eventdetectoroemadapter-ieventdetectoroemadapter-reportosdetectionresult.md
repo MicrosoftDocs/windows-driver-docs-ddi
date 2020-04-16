@@ -7,7 +7,7 @@ tech.root: audio
 ms.assetid: b2cb4413-7893-4d8b-aeb2-01698e95dcf5
 ms.author: windowsdriverdev
 ms.date: 02/25/2019
-ms.topic: method
+keywords: ["IEventDetectorOemAdapter::ReportOSDetectionResult"]
 f1_keywords:
  - "eventdetectoroemadapter/IEventDetectorOemAdapter.ReportOSDetectionResult"
 ms.keywords: IEventDetectorOemAdapter::ReportOSDetectionResult, ReportOSDetectionResult, IEventDetectorOemAdapter.ReportOSDetectionResult, IEventDetectorOemAdapter::ReportOSDetectionResult, IEventDetectorOemAdapter.ReportOSDetectionResult

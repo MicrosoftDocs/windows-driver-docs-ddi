@@ -6,8 +6,8 @@ old-location: storage\srbex_data_bidirectional.htm
 tech.root: storage
 ms.assetid: B61247DC-8AC3-4A96-985B-A4CAC232555E
 ms.date: 03/29/2018
+keywords: ["_SRBEX_DATA_BIDIRECTIONAL structure"]
 ms.keywords: "*PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL structure pointer [Storage Devices], SRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL structure [Storage Devices], _SRBEX_DATA_BIDIRECTIONAL, storage.srbex_data_bidirectional, storport/PSRBEX_DATA_BIDIRECTIONAL, storport/SRBEX_DATA_BIDIRECTIONAL"
-ms.topic: struct
 f1_keywords:
  - "storport/SRBEX_DATA_BIDIRECTIONAL"
 req.header: storport.h

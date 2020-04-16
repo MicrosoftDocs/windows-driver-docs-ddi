@@ -6,8 +6,8 @@ old-location: wdf\write_port_ulong.htm
 tech.root: wdf
 ms.assetid: 400823C4-5F71-4334-9160-FAC0690F209F
 ms.date: 02/26/2018
+keywords: ["WRITE_PORT_ULONG function"]
 ms.keywords: WRITE_PORT_ULONG, WRITE_PORT_ULONG function, umdf.write_port_ulong, wdf.write_port_ulong, wudfddi_hwaccess/WRITE_PORT_ULONG
-ms.topic: function
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_PORT_ULONG"
 req.header: wudfddi_hwaccess.h

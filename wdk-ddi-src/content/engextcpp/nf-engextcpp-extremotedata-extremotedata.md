@@ -6,8 +6,8 @@ old-location: debugger\extremotedata_extremotedata.htm
 tech.root: debugger
 ms.assetid: c463169e-5e18-44bb-b954-8a99d24edd0c
 ms.date: 08/09/2018
+keywords: ["ExtRemoteData::ExtRemoteData"]
 ms.keywords: EngExtCpp_Ref_8e376094-9e23-4ea4-81e3-c47e6695a687.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging],ExtRemoteData constructor, ExtRemoteData constructor [Windows Debugging], ExtRemoteData constructor [Windows Debugging],ExtRemoteData class, ExtRemoteData.ExtRemoteData, ExtRemoteData.ExtRemoteData(), ExtRemoteData::ExtRemoteData, debugger.extremotedata_extremotedata
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteData.ExtRemoteData"
 req.header: engextcpp.hpp

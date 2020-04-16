@@ -6,8 +6,8 @@ old-location: kernel\pscreatesystemthread.htm
 tech.root: kernel
 ms.assetid: 4f6bfae4-8515-4fc4-aab3-9e16dbeda6da
 ms.date: 04/30/2018
+keywords: ["PsCreateSystemThread function"]
 ms.keywords: PsCreateSystemThread, PsCreateSystemThread routine [Kernel-Mode Driver Architecture], k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml, kernel.pscreatesystemthread, wdm/PsCreateSystemThread
-ms.topic: function
 f1_keywords:
  - "wdm/PsCreateSystemThread"
 req.header: wdm.h

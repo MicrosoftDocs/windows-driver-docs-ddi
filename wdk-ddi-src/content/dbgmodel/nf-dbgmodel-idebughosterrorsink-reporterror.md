@@ -4,7 +4,7 @@ title: IDebugHostErrorSink::ReportError (dbgmodel.h)
 description: The ReportError method is a callback on the error sink to notify it that an error has occurred and allow the sink to route the error to whatever UI or mechanism is appropriate. 
 ms.assetid: c7a5bba3-dd86-4710-9da8-0e5f111ab45e
 ms.date: 09/12/2018
-ms.topic: method
+keywords: ["IDebugHostErrorSink::ReportError"]
 f1_keywords:
  - "dbgmodel/IDebugHostErrorSink.ReportError"
 ms.keywords: IDebugHostErrorSink::ReportError, ReportError, IDebugHostErrorSink.ReportError, IDebugHostErrorSink::ReportError, IDebugHostErrorSink.ReportError

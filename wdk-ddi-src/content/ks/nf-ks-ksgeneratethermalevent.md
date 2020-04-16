@@ -6,8 +6,8 @@ old-location: stream\ksgeneratethermalevent.htm
 tech.root: stream
 ms.assetid: CE450017-1792-4B69-8289-902396D0D7B1
 ms.date: 04/23/2018
+keywords: ["KsGenerateThermalEvent function"]
 ms.keywords: KsGenerateThermalEvent, KsGenerateThermalEvent function [Streaming Media Devices], ks/KsGenerateThermalEvent, stream.ksgeneratethermalevent
-ms.topic: function
 f1_keywords:
  - "ks/KsGenerateThermalEvent"
 req.header: ks.h

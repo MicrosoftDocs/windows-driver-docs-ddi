@@ -6,8 +6,8 @@ old-location: audio\iresourcelist_addentryfromparent.htm
 tech.root: audio
 ms.assetid: 83733c17-1f1f-4be6-ae14-aa921e481a73
 ms.date: 05/08/2018
+keywords: ["IResourceList::AddEntryFromParent"]
 ms.keywords: AddEntryFromParent, AddEntryFromParent method [Audio Devices], AddEntryFromParent method [Audio Devices],IResourceList interface, IResourceList interface [Audio Devices],AddEntryFromParent method, IResourceList.AddEntryFromParent, IResourceList::AddEntryFromParent, audio.iresourcelist_addentryfromparent, audmp-routines_428c97a0-498d-4732-a2cc-5be2af2aa64c.xml, portcls/IResourceList::AddEntryFromParent
-ms.topic: method
 f1_keywords:
  - "portcls/IResourceList.AddEntryFromParent"
 req.header: portcls.h

@@ -6,8 +6,8 @@ old-location: debugger\getnumberprocesses.htm
 tech.root: debugger
 ms.assetid: bf0c750f-0e29-42d9-a127-953e3d49b969
 ms.date: 05/03/2018
+keywords: ["IDebugSystemObjects::GetNumberProcesses"]
 ms.keywords: GetNumberProcesses, GetNumberProcesses method [Windows Debugging], GetNumberProcesses method [Windows Debugging],IDebugSystemObjects interface, GetNumberProcesses method [Windows Debugging],IDebugSystemObjects2 interface, GetNumberProcesses method [Windows Debugging],IDebugSystemObjects3 interface, GetNumberProcesses method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetNumberProcesses method, IDebugSystemObjects.GetNumberProcesses, IDebugSystemObjects2 interface [Windows Debugging],GetNumberProcesses method, IDebugSystemObjects2::GetNumberProcesses, IDebugSystemObjects3 interface [Windows Debugging],GetNumberProcesses method, IDebugSystemObjects3::GetNumberProcesses, IDebugSystemObjects4 interface [Windows Debugging],GetNumberProcesses method, IDebugSystemObjects4::GetNumberProcesses, IDebugSystemObjects::GetNumberProcesses, IDebugSystemObjects_28914631-9658-462c-8234-f48bb85efdf6.xml, dbgeng/IDebugSystemObjects2::GetNumberProcesses, dbgeng/IDebugSystemObjects3::GetNumberProcesses, dbgeng/IDebugSystemObjects4::GetNumberProcesses, dbgeng/IDebugSystemObjects::GetNumberProcesses, debugger.getnumberprocesses
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSystemObjects.GetNumberProcesses"
 req.header: dbgeng.h

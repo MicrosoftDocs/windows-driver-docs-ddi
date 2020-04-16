@@ -6,8 +6,8 @@ old-location: ifsk\security_descriptor.htm
 tech.root: ifsk
 ms.assetid: f0758549-0c3f-4aa3-8107-59503645f270
 ms.date: 04/16/2018
+keywords: ["_SECURITY_DESCRIPTOR structure"]
 ms.keywords: "*PISECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR structure [Installable File System Drivers], _SECURITY_DESCRIPTOR, ifsk.security_descriptor, ntifs/SECURITY_DESCRIPTOR, securitystructures_b3cd4d20-6abc-49e7-92dd-8dd707e973fa.xml"
-ms.topic: struct
 f1_keywords:
  - "ntifs/SECURITY_DESCRIPTOR"
 req.header: ntifs.h

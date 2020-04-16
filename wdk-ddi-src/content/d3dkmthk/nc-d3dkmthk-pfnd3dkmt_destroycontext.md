@@ -4,7 +4,7 @@ title: PFND3DKMT_DESTROYCONTEXT (d3dkmthk.h)
 description: Implemented by the client driver to destroy the specified graphics processing unit (GPU) context.
 ms.assetid: 6b88e83a-a211-417e-a34d-ed98ae9b4b4b
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DKMT_DESTROYCONTEXT callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_DESTROYCONTEXT"
 req.header: d3dkmthk.h

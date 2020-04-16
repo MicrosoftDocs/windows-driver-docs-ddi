@@ -6,8 +6,8 @@ old-location: kernel\rtllongptrtoint.htm
 tech.root: kernel
 ms.assetid: 265CABEE-E2FD-4ACA-9C82-54291E63479B
 ms.date: 04/30/2018
+keywords: ["RtlLongPtrToInt function"]
 ms.keywords: RtlLongPtrToInt, RtlLongPtrToInt function [Kernel-Mode Driver Architecture], kernel.rtllongptrtoint, ntintsafe/RtlLongPtrToInt
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlLongPtrToInt"
 req.header: ntintsafe.h

@@ -6,8 +6,8 @@ old-location: bltooth\bth_vendor_specific_command.htm
 tech.root: bltooth
 ms.assetid: c37844d9-206a-4060-8b46-9afe691fe8f9
 ms.date: 04/27/2018
+keywords: ["_BTH_VENDOR_SPECIFIC_COMMAND structure"]
 ms.keywords: "*PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND structure [Bluetooth Devices], PBTH_VENDOR_SPECIFIC_COMMAND, PBTH_VENDOR_SPECIFIC_COMMAND structure pointer [Bluetooth Devices], _BTH_VENDOR_SPECIFIC_COMMAND, bltooth.bth_vendor_specific_command, bth_ref_568c918a-282f-48e0-994a-c49289976bb6.xml, bthioctl/BTH_VENDOR_SPECIFIC_COMMAND, bthioctl/PBTH_VENDOR_SPECIFIC_COMMAND"
-ms.topic: struct
 f1_keywords:
  - "bthioctl/BTH_VENDOR_SPECIFIC_COMMAND"
 req.header: bthioctl.h

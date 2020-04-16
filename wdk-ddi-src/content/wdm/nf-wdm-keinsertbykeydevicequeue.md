@@ -6,8 +6,8 @@ old-location: kernel\keinsertbykeydevicequeue.htm
 tech.root: kernel
 ms.assetid: fa395673-108f-4cf0-b05f-a160aa0b02ea
 ms.date: 04/30/2018
+keywords: ["KeInsertByKeyDeviceQueue function"]
 ms.keywords: KeInsertByKeyDeviceQueue, KeInsertByKeyDeviceQueue routine [Kernel-Mode Driver Architecture], k105_14a9196c-2ce0-4384-9e72-b957523f49b6.xml, kernel.keinsertbykeydevicequeue, wdm/KeInsertByKeyDeviceQueue
-ms.topic: function
 f1_keywords:
  - "wdm/KeInsertByKeyDeviceQueue"
 req.header: wdm.h

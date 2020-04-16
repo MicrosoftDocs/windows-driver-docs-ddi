@@ -6,8 +6,8 @@ old-location: kernel\clfsremovelogcontainer.htm
 tech.root: kernel
 ms.assetid: 5c49bf4f-acc6-4c0f-bbc2-bafb68ea1a74
 ms.date: 04/30/2018
+keywords: ["ClfsRemoveLogContainer function"]
 ms.keywords: ClfsRemoveLogContainer, ClfsRemoveLogContainer routine [Kernel-Mode Driver Architecture], Clfs_f797d534-9c7e-4871-81d1-aff9ccedccf5.xml, kernel.clfsremovelogcontainer, wdm/ClfsRemoveLogContainer
-ms.topic: function
 f1_keywords:
  - "wdm/ClfsRemoveLogContainer"
 req.header: wdm.h

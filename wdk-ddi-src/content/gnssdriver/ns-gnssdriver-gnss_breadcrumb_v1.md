@@ -6,8 +6,8 @@ old-location: gnss\gnss_breadcrumb_v1.htm
 tech.root: gnss
 ms.assetid: BE1D09C4-8EC0-4BF3-A943-20EDD44F9CF1
 ms.date: 02/15/2018
+keywords: ["GNSS_BREADCRUMB_V1 structure"]
 ms.keywords: "*PGNSS_BREADCRUMB_V1, GNSS_BREADCRUMB_V1, GNSS_BREADCRUMB_V1 structure [Sensor Devices], PGNSS_BREADCRUMB_V1, PGNSS_BREADCRUMB_V1 structure pointer [Sensor Devices], gnss.gnss_breadcrumb_v1, gnssdriver/GNSS_BREADCRUMB_V1, gnssdriver/PGNSS_BREADCRUMB_V1"
-ms.topic: struct
 f1_keywords:
  - "gnssdriver/GNSS_BREADCRUMB_V1"
 req.header: gnssdriver.h

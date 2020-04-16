@@ -6,8 +6,8 @@ old-location: netvista\ril_getcallbarringstatus.htm
 tech.root: netvista
 ms.assetid: 403e17c1-1353-42dd-aedc-8aec1fd72e0f
 ms.date: 05/02/2018
+keywords: ["RIL_GetCallBarringStatus function"]
 ms.keywords: RIL_GetCallBarringStatus, RIL_GetCallBarringStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getcallbarringstatus, rilapi/RIL_GetCallBarringStatus
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_GetCallBarringStatus"
 req.header: rilapi.h

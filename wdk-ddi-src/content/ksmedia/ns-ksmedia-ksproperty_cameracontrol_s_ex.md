@@ -6,8 +6,8 @@ old-location: stream\ksproperty_cameracontrol_s_ex.htm
 tech.root: stream
 ms.assetid: fa015adf-93b6-472f-8a78-a627a59c032e
 ms.date: 04/23/2018
+keywords: ["KSPROPERTY_CAMERACONTROL_S_EX structure"]
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_S_EX, KSPROPERTY_CAMERACONTROL_FLAGS_ASYNCHRONOUS, KSPROPERTY_CAMERACONTROL_FLAGS_AUTO, KSPROPERTY_CAMERACONTROL_FLAGS_MANUAL, KSPROPERTY_CAMERACONTROL_S_EX, KSPROPERTY_CAMERACONTROL_S_EX structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S_EX, PKSPROPERTY_CAMERACONTROL_S_EX structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_S_EX, ksmedia/PKSPROPERTY_CAMERACONTROL_S_EX, stream.ksproperty_cameracontrol_s_ex"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSPROPERTY_CAMERACONTROL_S_EX"
 req.header: ksmedia.h

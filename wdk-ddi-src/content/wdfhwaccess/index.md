@@ -3,6 +3,7 @@ UID: NA:wdfhwaccess
 title: Wdfhwaccess.h header
 ms.assetid: 0e8f318b-891e-3e29-bd6d-fcc8c89b1a72
 ms.date: 05/09/2018
+keywords: ["Wdfhwaccess.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

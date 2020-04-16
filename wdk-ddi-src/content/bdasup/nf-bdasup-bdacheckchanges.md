@@ -6,8 +6,8 @@ old-location: stream\bdacheckchanges.htm
 tech.root: stream
 ms.assetid: 4831e13b-19e7-458c-a392-a135d43fc989
 ms.date: 04/23/2018
+keywords: ["BdaCheckChanges function"]
 ms.keywords: BdaCheckChanges, BdaCheckChanges function [Streaming Media Devices], bdaref_d60c7f03-8188-4be5-807c-e21384429341.xml, bdasup/BdaCheckChanges, stream.bdacheckchanges
-ms.topic: function
 f1_keywords:
  - "bdasup/BdaCheckChanges"
 req.header: bdasup.h

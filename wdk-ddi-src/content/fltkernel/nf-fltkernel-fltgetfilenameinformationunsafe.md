@@ -6,8 +6,8 @@ old-location: ifsk\fltgetfilenameinformationunsafe.htm
 tech.root: ifsk
 ms.assetid: 3c5ec515-d332-4fef-8b78-b2f04a672fd7
 ms.date: 05/09/2019
+keywords: ["FltGetFileNameInformationUnsafe function"]
 ms.keywords: FltGetFileNameInformationUnsafe, FltGetFileNameInformationUnsafe routine [Installable File System Drivers], fltkernel/FltGetFileNameInformationUnsafe, ifsk.fltgetfilenameinformationunsafe
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltGetFileNameInformationUnsafe"
 req.header: fltkernel.h

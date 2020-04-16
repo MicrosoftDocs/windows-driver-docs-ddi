@@ -6,8 +6,8 @@ old-location: storage\driverentry.htm
 tech.root: storage
 ms.assetid: f756e66b-7e66-4a27-9327-70608207d99b
 ms.date: 03/29/2018
+keywords: ["DriverEntry function"]
 ms.keywords: DriverEntry, DriverEntry routine [Storage Devices], atartns_b300b119-8261-4daf-8155-c9da17cb519a.xml, storage.driverentry, wdm/DriverEntry
-ms.topic: function
 f1_keywords:
  - "mcd/DriverEntry"
 req.header: mcd.h

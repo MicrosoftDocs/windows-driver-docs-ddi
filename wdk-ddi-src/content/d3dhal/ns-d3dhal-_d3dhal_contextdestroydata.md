@@ -6,8 +6,8 @@ old-location: display\d3dhal_contextdestroydata.htm
 tech.root: display
 ms.assetid: 1224f634-b349-4098-a6ad-cbf18742ffb7
 ms.date: 05/10/2018
+keywords: ["_D3DHAL_CONTEXTDESTROYDATA structure"]
 ms.keywords: "*LPD3DHAL_CONTEXTDESTROYDATA, D3DHAL_CONTEXTDESTROYDATA, D3DHAL_CONTEXTDESTROYDATA structure [Display Devices], LPD3DHAL_CONTEXTDESTROYDATA, LPD3DHAL_CONTEXTDESTROYDATA structure pointer [Display Devices], _D3DHAL_CONTEXTDESTROYDATA, d3dhal/D3DHAL_CONTEXTDESTROYDATA, d3dhal/LPD3DHAL_CONTEXTDESTROYDATA, d3dstrct_7ae0080d-0578-43e2-9ddc-0dd7df1a4fcd.xml, display.d3dhal_contextdestroydata"
-ms.topic: struct
 f1_keywords:
  - "d3dhal/D3DHAL_CONTEXTDESTROYDATA"
 req.header: d3dhal.h

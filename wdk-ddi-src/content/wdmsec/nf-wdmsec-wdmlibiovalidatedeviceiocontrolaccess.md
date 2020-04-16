@@ -6,8 +6,8 @@ old-location: kernel\wdmlibiovalidatedeviceiocontrolaccess.htm
 tech.root: kernel
 ms.assetid: F986A431-A70D-4488-A792-F37128902C7E
 ms.date: 04/30/2018
+keywords: ["WdmlibIoValidateDeviceIoControlAccess function"]
 ms.keywords: FILE_READ_ACCESS, FILE_WRITE_ACCESS, IoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], kernel.wdmlibiovalidatedeviceiocontrolaccess, wdmsec/IoValidateDeviceIoControlAccess, wdmsec/WdmlibIoValidateDeviceIoControlAccess, IoValidateDeviceIoControlAccess
-ms.topic: function
 f1_keywords:
  - "wdmsec/WdmlibIoValidateDeviceIoControlAccess"
 req.header: wdmsec.h

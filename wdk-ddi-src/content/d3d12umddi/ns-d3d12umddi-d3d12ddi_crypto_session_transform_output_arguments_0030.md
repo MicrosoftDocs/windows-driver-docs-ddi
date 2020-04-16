@@ -5,8 +5,8 @@ description: Crypto session transform output arguments.
 old-location: display\d3d12ddi-crypto-session-transform-output-arguments-0030.htm
 ms.assetid: a6b33349-cba2-4664-886d-1e007b4dc2f2
 ms.date: 05/10/2018
+keywords: ["D3D12DDI_CRYPTO_SESSION_TRANSFORM_OUTPUT_ARGUMENTS_0030 structure"]
 ms.keywords: D3D12DDI_CRYPTO_SESSION_TRANSFORM_OUTPUT_ARGUMENTS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_OUTPUT_ARGUMENTS_0030 structure [Display Devices], d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_OUTPUT_ARGUMENTS_0030, display.d3d12ddi-crypto-session-transform-output-arguments-0030
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_OUTPUT_ARGUMENTS_0030"
 req.header: d3d12umddi.h

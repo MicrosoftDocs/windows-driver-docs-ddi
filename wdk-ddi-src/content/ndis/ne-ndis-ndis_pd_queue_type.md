@@ -6,8 +6,8 @@ old-location: netvista\ndis_pd_queue_type.htm
 tech.root: netvista
 ms.assetid: 4536B3AB-6170-4819-975A-47D9A6223EAE
 ms.date: 05/02/2018
+keywords: ["NDIS_PD_QUEUE_TYPE enumeration"]
 ms.keywords: NDIS_PD_QUEUE_TYPE, NDIS_PD_QUEUE_TYPE enumeration [Network Drivers Starting with Windows Vista], PDQueueTypeMax, PDQueueTypeReceive, PDQueueTypeTransmit, PDQueueTypeUnknown, ndis/NDIS_PD_QUEUE_TYPE, ndis/PDQueueTypeMax, ndis/PDQueueTypeReceive, ndis/PDQueueTypeTransmit, ndis/PDQueueTypeUnknown, netvista.ndis_pd_queue_type
-ms.topic: enum
 f1_keywords:
  - "ndis/NDIS_PD_QUEUE_TYPE"
 req.header: ndis.h

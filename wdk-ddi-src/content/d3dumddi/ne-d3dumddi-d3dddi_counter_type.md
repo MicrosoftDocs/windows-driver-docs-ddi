@@ -4,7 +4,7 @@ title: D3DDDI_COUNTER_TYPE (d3dumddi.h)
 description: The counter type.
 ms.assetid: 93e0813a-15a1-437e-a55d-3ba153c3aa0f
 ms.date: 10/19/2018
-ms.topic: enum
+keywords: ["D3DDDI_COUNTER_TYPE enumeration"]
 ms.keywords: D3DDDI_COUNTER_TYPE, D3DDDI_COUNTER_TYPE,
 req.header: d3dumddi.h
 req.include-header: 

@@ -6,8 +6,8 @@ old-location: gnss\ioctl_gnss_listen_error_.htm
 tech.root: gnss
 ms.assetid: 4B08FB8D-8C4A-4C23-A809-11E7DF190236
 ms.date: 02/15/2018
+keywords: ["IOCTL_GNSS_LISTEN_ERROR IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_ERROR, IOCTL_GNSS_LISTEN_ERROR control, IOCTL_GNSS_LISTEN_ERROR control code [Sensor Devices], gnss.ioctl_gnss_listen_error_, gnssdriver/IOCTL_GNSS_LISTEN_ERROR
-ms.topic: ioctl
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_LISTEN_ERROR"
 req.header: gnssdriver.h
@@ -69,7 +69,7 @@ Set to 0.
 
 ### -output-buffer
 
-A pointer to a GNSS_EVENT structure.
+A pointer to a [GNSS_EVENT](https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_event) structure.
 
 The EventType must be set to GNSS_Event_Error and the ErrorCode, IsRecoverable and ErrorDescription members of ErrorInformation filled in.
 

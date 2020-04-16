@@ -6,8 +6,8 @@ old-location: display\pfnlock2cb.htm
 tech.root: display
 ms.assetid: C046F34A-4304-4B96-8D7A-7A951016437F
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_LOCK2CB callback function"]
 ms.keywords: PFND3DDDI_LOCK2CB, PFND3DDDI_LOCK2CB callback, d3dumddi/pfnLock2Cb, display.pfnlock2cb, pfnLock2Cb, pfnLock2Cb callback function [Display Devices]
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

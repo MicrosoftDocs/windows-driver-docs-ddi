@@ -5,8 +5,8 @@ description: Specifies values used to get capabilities of a type.
 old-location: display\d3d12ddiarg_video_getcaps.htm
 ms.assetid: 3C55B67F-043A-4747-A44A-A162D6391003
 ms.date: 04/16/2018
+keywords: ["D3D12DDIARG_VIDEO_GETCAPS_0020 structure"]
 ms.keywords: D3D12DDIARG_VIDEO_GETCAPS_0020, D3D12DDIARG_VIDEO_GETCAPS_0020 structure [Display Devices], d3d12umddi/D3D12DDIARG_VIDEO_GETCAPS_0020, display.d3d12ddiarg_video_getcaps
-ms.topic: struct
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_VIDEO_GETCAPS_0020"
 req.header: d3d12umddi.h

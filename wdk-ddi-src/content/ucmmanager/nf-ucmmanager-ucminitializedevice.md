@@ -6,8 +6,8 @@ old-location: buses\ucminitializedevice.htm
 tech.root: usbref
 ms.assetid: 9159A6ED-0D85-422D-936A-13D7EC907A7C
 ms.date: 05/07/2018
+keywords: ["UcmInitializeDevice function"]
 ms.keywords: UcmInitializeDevice, UcmInitializeDevice method [Buses], buses.ucminitializedevice, ucmmanager/UcmInitializeDevice
-ms.topic: function
 f1_keywords:
  - "ucmmanager/UcmInitializeDevice"
 req.header: ucmmanager.h

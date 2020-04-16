@@ -6,8 +6,8 @@ old-location: ieee\cip_notify_info.htm
 tech.root: IEEE
 ms.assetid: 60b0d44b-0178-43ce-a1ad-7f5825bed3ba
 ms.date: 02/15/2018
+keywords: ["_CIP_NOTIFY_INFO structure"]
 ms.keywords: "*PCIP_NOTIFY_INFO, 61883/CIP_NOTIFY_INFO, 61883/PCIP_NOTIFY_INFO, 61883_structures_383bc74c-1168-4478-8284-b2724f9ec654.xml, CIP_NOTIFY_INFO, CIP_NOTIFY_INFO structure [Buses], IEEE.cip_notify_info, PCIP_NOTIFY_INFO, PCIP_NOTIFY_INFO structure pointer [Buses], _CIP_NOTIFY_INFO"
-ms.topic: struct
 f1_keywords:
  - "61883/CIP_NOTIFY_INFO"
 req.header: 61883.h

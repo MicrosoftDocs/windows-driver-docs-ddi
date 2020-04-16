@@ -5,7 +5,7 @@ description: The MBB_MBIM_VERSION enumeration defines the version of the MBIM sp
 tech.root: netvista
 ms.assetid: 3326d39e-bd84-4740-89cf-7a5971ee4b7e
 ms.date: 09/27/2019
-ms.topic: enum
+keywords: ["_MBB_MBIM_VERSION enumeration"]
 f1_keywords:
  - "mbbcx/-	_MBB_MBIM_VERSION"
 ms.keywords: _MBB_MBIM_VERSION, MBB_MBIM_VERSION, 

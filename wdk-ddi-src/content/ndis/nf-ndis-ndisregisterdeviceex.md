@@ -6,8 +6,8 @@ old-location: netvista\ndisregisterdeviceex.htm
 tech.root: netvista
 ms.assetid: 8e0d406e-748c-4b37-90fb-c7b9dfc28362
 ms.date: 05/02/2018
+keywords: ["NdisRegisterDeviceEx function"]
 ms.keywords: NdisRegisterDeviceEx, NdisRegisterDeviceEx function [Network Drivers Starting with Windows Vista], ndis/NdisRegisterDeviceEx, ndis_devices_ref_57ed58e5-f149-4cbe-ad9d-667f433a7e77.xml, netvista.ndisregisterdeviceex
-ms.topic: function
 f1_keywords:
  - "ndis/NdisRegisterDeviceEx"
 req.header: ndis.h

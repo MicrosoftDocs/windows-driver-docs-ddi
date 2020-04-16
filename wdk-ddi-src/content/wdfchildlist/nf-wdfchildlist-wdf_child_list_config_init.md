@@ -6,8 +6,8 @@ old-location: wdf\wdf_child_list_config_init.htm
 tech.root: wdf
 ms.assetid: d222f2f3-554f-43d5-97c5-9a56fdb42ec3
 ms.date: 02/26/2018
+keywords: ["WDF_CHILD_LIST_CONFIG_INIT function"]
 ms.keywords: DFDeviceObjectChildListRef_b5fea12e-3e5b-4ec7-8e9d-0e385047cbdc.xml, WDF_CHILD_LIST_CONFIG_INIT, WDF_CHILD_LIST_CONFIG_INIT function, kmdf.wdf_child_list_config_init, wdf.wdf_child_list_config_init, wdfchildlist/WDF_CHILD_LIST_CONFIG_INIT
-ms.topic: function
 f1_keywords:
  - "wdfchildlist/WDF_CHILD_LIST_CONFIG_INIT"
 req.header: wdfchildlist.h

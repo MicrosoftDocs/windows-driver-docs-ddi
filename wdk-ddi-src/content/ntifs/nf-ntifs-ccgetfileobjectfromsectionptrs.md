@@ -6,8 +6,8 @@ old-location: ifsk\ccgetfileobjectfromsectionptrs.htm
 tech.root: ifsk
 ms.assetid: da756f88-e2c6-4bff-8390-be48902fe130
 ms.date: 04/16/2018
+keywords: ["CcGetFileObjectFromSectionPtrs function"]
 ms.keywords: CcGetFileObjectFromSectionPtrs, CcGetFileObjectFromSectionPtrs routine [Installable File System Drivers], ccref_2e9f9f04-b5e3-47e5-beff-5e4d7181ca9d.xml, ifsk.ccgetfileobjectfromsectionptrs, ntifs/CcGetFileObjectFromSectionPtrs
-ms.topic: function
 f1_keywords:
  - "ntifs/CcGetFileObjectFromSectionPtrs"
 req.header: ntifs.h

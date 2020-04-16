@@ -6,8 +6,8 @@ old-location: netvista\ndis_miniport_co_characteristics.htm
 tech.root: netvista
 ms.assetid: 9348c338-9fb4-4eee-a50f-f709748da56b
 ms.date: 05/02/2018
+keywords: ["_NDIS_MINIPORT_CO_CHARACTERISTICS structure"]
 ms.keywords: "*PNDIS_MINIPORT_CO_CHARACTERISTICS, NDIS_MINIPORT_CO_CHARACTERISTICS, NDIS_MINIPORT_CO_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_CO_CHARACTERISTICS, PNDIS_MINIPORT_CO_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_CO_CHARACTERISTICS, condis_structures_ref_148c0384-32c9-4d21-bab8-66b839ee75a6.xml, ndis/NDIS_MINIPORT_CO_CHARACTERISTICS, ndis/PNDIS_MINIPORT_CO_CHARACTERISTICS, netvista.ndis_miniport_co_characteristics"
-ms.topic: struct
 f1_keywords:
  - "ndis/NDIS_MINIPORT_CO_CHARACTERISTICS"
 req.header: ndis.h

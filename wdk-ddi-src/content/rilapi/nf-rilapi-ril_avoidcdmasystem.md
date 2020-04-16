@@ -6,8 +6,8 @@ old-location: netvista\ril_avoidcdmasystem.htm
 tech.root: netvista
 ms.assetid: 03b445ca-a2af-4d84-bb2e-fea9f5800e20
 ms.date: 05/02/2018
+keywords: ["RIL_AvoidCDMASystem function"]
 ms.keywords: RIL_AvoidCDMASystem, RIL_AvoidCDMASystem method [Network Drivers Starting with Windows Vista], netvista.ril_avoidcdmasystem, rilapi/RIL_AvoidCDMASystem
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_AvoidCDMASystem"
 req.header: rilapi.h

@@ -6,8 +6,8 @@ old-location: kernel\vpci_invalidate_block_output.htm
 tech.root: pci
 ms.assetid: 6971C724-CE5E-44BC-8D3A-FAD248771E6F
 ms.date: 04/30/2018
+keywords: ["_VPCI_INVALIDATE_BLOCK_OUTPUT structure"]
 ms.keywords: "*PVPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_INVALIDATE_BLOCK_OUTPUT, VPCI_INVALIDATE_BLOCK_OUTPUT structure [Kernel-Mode Driver Architecture], _VPCI_INVALIDATE_BLOCK_OUTPUT, kernel.vpci_invalidate_block_output, vpci/PVPCI_INVALIDATE_BLOCK_OUTPUT, vpci/VPCI_INVALIDATE_BLOCK_OUTPUT"
-ms.topic: struct
 f1_keywords:
  - "vpci/VPCI_INVALIDATE_BLOCK_OUTPUT"
 req.header: vpci.h

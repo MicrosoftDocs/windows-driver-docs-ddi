@@ -6,8 +6,8 @@ old-location: kernel\zwallocatelocallyuniqueid.htm
 tech.root: kernel
 ms.assetid: 63ca0e60-700b-459a-a88a-bc7bb6f5f6e6
 ms.date: 04/30/2018
+keywords: ["ZwAllocateLocallyUniqueId function"]
 ms.keywords: NtAllocateLocallyUniqueId, ZwAllocateLocallyUniqueId, ZwAllocateLocallyUniqueId routine [Kernel-Mode Driver Architecture], k111_de9ec26c-4aa4-4f1b-b876-c6e27bb2a067.xml, kernel.zwallocatelocallyuniqueid, ntddk/NtAllocateLocallyUniqueId, ntddk/ZwAllocateLocallyUniqueId
-ms.topic: function
 f1_keywords:
  - "ntddk/ZwAllocateLocallyUniqueId"
 req.header: ntddk.h

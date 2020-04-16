@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlgetfilesize.htm
 tech.root: ifsk
 ms.assetid: 82fcf0da-e945-4cb4-90fc-bb095119ef20
 ms.date: 03/29/2018
+keywords: ["FsRtlGetFileSize function"]
 ms.keywords: FsRtlGetFileSize, FsRtlGetFileSize routine [Installable File System Drivers], fsrtlref_d1056cd3-20f5-436c-9bac-0f1c217bb569.xml, ifsk.fsrtlgetfilesize, ntifs/FsRtlGetFileSize
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlGetFileSize"
 req.header: ntifs.h

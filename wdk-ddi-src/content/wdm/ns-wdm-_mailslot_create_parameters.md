@@ -5,8 +5,8 @@ description: The MAILSLOT_CREATE_PARAMETERS is used by the Windows subsystem to 
 tech.root: kernel
 ms.assetid: 6b0eda09-e890-463f-a5d9-0fd3ca8e52c3
 ms.date: 11/06/2019
+keywords: ["_MAILSLOT_CREATE_PARAMETERS structure"]
 ms.keywords: "*PMAILSLOT_CREATE_PARAMETERS, MAILSLOT_CREATE_PARAMETERS, MAILSLOT_CREATE_PARAMETERS structure"
-ms.topic: struct
 f1_keywords:
  - "wdm/MAILSLOT_CREATE_PARAMETERS"
 req.header: wdm.h

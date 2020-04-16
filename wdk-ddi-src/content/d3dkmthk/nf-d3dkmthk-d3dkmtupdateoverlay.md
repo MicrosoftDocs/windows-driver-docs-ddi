@@ -5,8 +5,8 @@ description: The D3DKMTUpdateOverlay function modifies a kernel-mode overlay obj
 old-location: display\d3dkmtupdateoverlay.htm
 ms.assetid: bd8fc34a-60a3-4ae7-b13e-50d8b4342834
 ms.date: 05/10/2018
+keywords: ["D3DKMTUpdateOverlay function"]
 ms.keywords: D3DKMTUpdateOverlay, D3DKMTUpdateOverlay function [Display Devices], OpenGL_Functions_bddc75da-dc62-43cf-8ee7-ec9958198669.xml, d3dkmthk/D3DKMTUpdateOverlay, display.d3dkmtupdateoverlay
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTUpdateOverlay"
 req.header: d3dkmthk.h

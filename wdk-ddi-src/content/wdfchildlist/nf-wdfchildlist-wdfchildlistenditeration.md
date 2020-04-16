@@ -6,8 +6,8 @@ old-location: wdf\wdfchildlistenditeration.htm
 tech.root: wdf
 ms.assetid: f8dc1d77-d0c5-4112-939d-221955012de1
 ms.date: 02/26/2018
+keywords: ["WdfChildListEndIteration function"]
 ms.keywords: DFDeviceObjectChildListRef_24a52e50-851e-456f-b111-0b794e76acfb.xml, WdfChildListEndIteration, WdfChildListEndIteration method, kmdf.wdfchildlistenditeration, wdf.wdfchildlistenditeration, wdfchildlist/WdfChildListEndIteration
-ms.topic: function
 f1_keywords:
  - "wdfchildlist/WdfChildListEndIteration"
 req.header: wdfchildlist.h

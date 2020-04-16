@@ -6,8 +6,8 @@ old-location: debugger\debug_flr_param_type.htm
 tech.root: debugger
 ms.assetid: D57D356F-DC11-4C27-97D3-DF40BF2AB490
 ms.date: 05/03/2018
+keywords: ["_DEBUG_FLR_PARAM_TYPE enumeration"]
 ms.keywords: "..., DEBUG_FLR_DRIVER_OBJECT, DEBUG_FLR_INVALID, DEBUG_FLR_MASK_ALL, DEBUG_FLR_PARAM_TYPE, DEBUG_FLR_PARAM_TYPE enumeration [Windows Debugging], DEBUG_FLR_RESERVED, FA_TAG, _DEBUG_FLR_PARAM_TYPE, debugger.debug_flr_param_type, extsfns/..., extsfns/DEBUG_FLR_DRIVER_OBJECT, extsfns/DEBUG_FLR_INVALID, extsfns/DEBUG_FLR_MASK_ALL, extsfns/DEBUG_FLR_PARAM_TYPE, extsfns/DEBUG_FLR_RESERVED"
-ms.topic: enum
 f1_keywords:
  - "extsfns/DEBUG_FLR_PARAM_TYPE"
 req.header: extsfns.h

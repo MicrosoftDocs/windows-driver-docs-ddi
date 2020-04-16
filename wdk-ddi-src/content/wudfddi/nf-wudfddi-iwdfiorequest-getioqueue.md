@@ -6,8 +6,8 @@ old-location: wdf\iwdfiorequest_getioqueue.htm
 tech.root: wdf
 ms.assetid: 834d5ee3-b28b-4d75-b0b7-be1f36ace8aa
 ms.date: 02/26/2018
+keywords: ["IWDFIoRequest::GetIoQueue"]
 ms.keywords: GetIoQueue, GetIoQueue method, GetIoQueue method,IWDFIoRequest interface, IWDFIoRequest interface,GetIoQueue method, IWDFIoRequest.GetIoQueue, IWDFIoRequest::GetIoQueue, UMDFRequestObjectRef_1e603d95-06ae-45a8-ab4d-3592d6e140bf.xml, umdf.iwdfiorequest_getioqueue, wdf.iwdfiorequest_getioqueue, wudfddi/IWDFIoRequest::GetIoQueue
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoRequest.GetIoQueue"
 req.header: wudfddi.h

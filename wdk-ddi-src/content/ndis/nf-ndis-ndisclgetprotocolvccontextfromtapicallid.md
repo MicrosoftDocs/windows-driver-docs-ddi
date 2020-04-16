@@ -6,8 +6,8 @@ old-location: netvista\ndisclgetprotocolvccontextfromtapicallid.htm
 tech.root: netvista
 ms.assetid: 5c716207-b093-499a-8fad-344b5ac51e25
 ms.date: 05/02/2018
+keywords: ["NdisClGetProtocolVcContextFromTapiCallId function"]
 ms.keywords: NdisClGetProtocolVcContextFromTapiCallId, NdisClGetProtocolVcContextFromTapiCallId function [Network Drivers Starting with Windows Vista], condis_client_ref_0f7c98a1-306b-40b4-b84c-0e624c936e90.xml, ndis/NdisClGetProtocolVcContextFromTapiCallId, netvista.ndisclgetprotocolvccontextfromtapicallid
-ms.topic: function
 f1_keywords:
  - "ndis/NdisClGetProtocolVcContextFromTapiCallId"
 req.header: ndis.h

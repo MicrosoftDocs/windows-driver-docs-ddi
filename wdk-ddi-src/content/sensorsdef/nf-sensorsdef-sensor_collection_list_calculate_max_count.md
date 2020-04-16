@@ -6,8 +6,8 @@ old-location: sensors\sensor_collection_list_calculate_max_count.htm
 tech.root: sensors
 ms.assetid: 56C94717-41FF-44AA-BC99-1ECE4A407A38
 ms.date: 05/03/2018
+keywords: ["SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function"]
 ms.keywords: SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT, SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT function [Sensor Devices], sensors.sensor_collection_list_calculate_max_count, sensorsdef/SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT
-ms.topic: function
 f1_keywords:
  - "sensorsdef/SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT"
 req.header: sensorsdef.h

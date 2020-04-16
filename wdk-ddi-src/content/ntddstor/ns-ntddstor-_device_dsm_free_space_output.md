@@ -5,7 +5,7 @@ description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: dda3243e-6416-442d-b7f6-81a2bc093f82
 ms.date: 08/23/2019
-ms.topic: struct
+keywords: ["_DEVICE_DSM_FREE_SPACE_OUTPUT structure"]
 f1_keywords:
  - "ntddstor/_DEVICE_DSM_FREE_SPACE_OUTPUT"
 ms.keywords: _DEVICE_DSM_FREE_SPACE_OUTPUT, DEVICE_DSM_FREE_SPACE_OUTPUT, *PDEVICE_DSM_FREE_SPACE_OUTPUT, 

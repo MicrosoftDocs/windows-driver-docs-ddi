@@ -5,8 +5,8 @@ description: Specifies the video function table for the Microsoft Direct3D drive
 old-location: display\d3d11_1ddi_videodevicefuncs.htm
 ms.assetid: c843fe5c-19bc-479c-8d8d-a3a6146dfb1c
 ms.date: 05/10/2018
+keywords: ["D3D11_1DDI_VIDEODEVICEFUNCS structure"]
 ms.keywords: D3D11_1DDI_VIDEODEVICEFUNCS, D3D11_1DDI_VIDEODEVICEFUNCS structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEODEVICEFUNCS, display.d3d11_1ddi_videodevicefuncs
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_VIDEODEVICEFUNCS"
 req.header: d3d10umddi.h

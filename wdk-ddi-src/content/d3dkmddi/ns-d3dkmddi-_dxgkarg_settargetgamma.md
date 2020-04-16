@@ -5,8 +5,8 @@ description: Used to hold the arguments for DXGKDDI_SETTARGETGAMMA.
 old-location: display\dxgkarg_settargetgamma.htm
 ms.assetid: 94BA40BD-3B56-44EF-BAD4-49556E68C550
 ms.date: 05/10/2018
+keywords: ["_DXGKARG_SETTARGETGAMMA structure"]
 ms.keywords: DXGKARG_SETTARGETGAMMA, DXGKARG_SETTARGETGAMMA structure [Display Devices], PDXGKARG_SETTARGETGAMMA, PDXGKARG_SETTARGETGAMMA structure pointer [Display Devices], _DXGKARG_SETTARGETGAMMA, d3dkmddi/DXGKARG_SETTARGETGAMMA, d3dkmddi/PDXGKARG_SETTARGETGAMMA, display.dxgkarg_settargetgamma
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_SETTARGETGAMMA"
 req.header: d3dkmddi.h

@@ -5,7 +5,7 @@ description: The NET_BUFFER_LIST_GET_HASH_TYPE macro gets the hash type informat
 tech.root: netvista
 ms.assetid: 982ec1c3-a6d9-4863-b5af-63c01c929234
 ms.date: 04/13/2018
-ms.topic: macro
+keywords: ["NET_BUFFER_LIST_GET_HASH_TYPE macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_GET_HASH_TYPE"
 ms.keywords: NET_BUFFER_LIST_GET_HASH_TYPE

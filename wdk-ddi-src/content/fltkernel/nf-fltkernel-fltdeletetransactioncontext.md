@@ -6,8 +6,8 @@ old-location: ifsk\fltdeletetransactioncontext.htm
 tech.root: ifsk
 ms.assetid: 120285ff-1cb4-4570-a1e7-0a7d22b43560
 ms.date: 04/16/2018
+keywords: ["FltDeleteTransactionContext function"]
 ms.keywords: FltApiRef_a_to_d_785d668e-0232-4937-996e-846e459db2c5.xml, FltDeleteTransactionContext, FltDeleteTransactionContext routine [Installable File System Drivers], fltkernel/FltDeleteTransactionContext, ifsk.fltdeletetransactioncontext
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltDeleteTransactionContext"
 req.header: fltkernel.h

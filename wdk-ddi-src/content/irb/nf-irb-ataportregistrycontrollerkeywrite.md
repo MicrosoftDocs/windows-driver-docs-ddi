@@ -6,8 +6,8 @@ old-location: storage\ataportregistrycontrollerkeywrite.htm
 tech.root: storage
 ms.assetid: dfe97cce-f349-49a1-9075-c3c3d1a60681
 ms.date: 03/29/2018
+keywords: ["AtaPortRegistryControllerKeyWrite function"]
 ms.keywords: AtaPortRegistryControllerKeyWrite, AtaPortRegistryControllerKeyWrite routine [Storage Devices], atartns_c17cd629-759c-4469-a7f4-61125a791736.xml, irb/AtaPortRegistryControllerKeyWrite, storage.ataportregistrycontrollerkeywrite
-ms.topic: function
 f1_keywords:
  - "irb/AtaPortRegistryControllerKeyWrite"
 req.header: irb.h

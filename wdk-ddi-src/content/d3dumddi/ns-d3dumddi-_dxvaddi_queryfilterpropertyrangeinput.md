@@ -6,8 +6,8 @@ old-location: display\dxvaddi_queryfilterpropertyrangeinput.htm
 tech.root: display
 ms.assetid: d073d326-6cc6-4216-b312-809d707aef3b
 ms.date: 05/10/2018
+keywords: ["_DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure"]
 ms.keywords: DXVA2_Structs_28a2aed9-57a1-4bd6-b8dc-c09bb9e821b0.xml, DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure [Display Devices], _DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, d3dumddi/DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, display.dxvaddi_queryfilterpropertyrangeinput
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/DXVADDI_QUERYFILTERPROPERTYRANGEINPUT"
 req.header: d3dumddi.h

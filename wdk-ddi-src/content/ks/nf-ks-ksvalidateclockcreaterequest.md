@@ -6,8 +6,8 @@ old-location: stream\ksvalidateclockcreaterequest.htm
 tech.root: stream
 ms.assetid: ec10c10e-4604-47fc-a2e7-4df9d90acf0b
 ms.date: 04/23/2018
+keywords: ["KsValidateClockCreateRequest function"]
 ms.keywords: KsValidateClockCreateRequest, KsValidateClockCreateRequest function [Streaming Media Devices], ks/KsValidateClockCreateRequest, ksfunc_e681d03e-44fb-43fb-b317-dc7e63fe6cb2.xml, stream.ksvalidateclockcreaterequest
-ms.topic: function
 f1_keywords:
  - "ks/KsValidateClockCreateRequest"
 req.header: ks.h

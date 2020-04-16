@@ -6,8 +6,8 @@ old-location: netvista\ndisallocatememorywithtagpriority.htm
 tech.root: netvista
 ms.assetid: aac4049c-a876-4bbb-ba3b-fa36c299e1c7
 ms.date: 05/02/2018
+keywords: ["NdisAllocateMemoryWithTagPriority function"]
 ms.keywords: NdisAllocateMemoryWithTagPriority, NdisAllocateMemoryWithTagPriority function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateMemoryWithTagPriority, ndis_memory_ref_1b725109-fc0d-4f5f-8c88-d7a21a1f4c01.xml, netvista.ndisallocatememorywithtagpriority
-ms.topic: function
 f1_keywords:
  - "ndis/NdisAllocateMemoryWithTagPriority"
 req.header: ndis.h

@@ -6,8 +6,8 @@ old-location: ifsk\fltdeletestreamhandlecontext.htm
 tech.root: ifsk
 ms.assetid: aef71769-cad5-4bb4-9068-74664c22dffe
 ms.date: 04/16/2018
+keywords: ["FltDeleteStreamHandleContext function"]
 ms.keywords: FltApiRef_a_to_d_445c2977-ef26-4cc6-9fb3-1873fbb976f2.xml, FltDeleteStreamHandleContext, FltDeleteStreamHandleContext function [Installable File System Drivers], fltkernel/FltDeleteStreamHandleContext, ifsk.fltdeletestreamhandlecontext
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltDeleteStreamHandleContext"
 req.header: fltkernel.h

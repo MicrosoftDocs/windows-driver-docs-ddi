@@ -6,8 +6,8 @@ old-location: kernel\interlockedor.htm
 tech.root: kernel
 ms.assetid: 1f66d3ed-7215-4fb5-87df-4489c3cd03c6
 ms.date: 04/30/2018
+keywords: ["InterlockedOr function"]
 ms.keywords: InterlockedOr, InterlockedOr routine [Kernel-Mode Driver Architecture], k102_05d8ca48-ab6f-46ae-b026-cb2aaf6f37aa.xml, kernel.interlockedor, wdm/InterlockedOr
-ms.topic: function
 f1_keywords:
  - "wdm/InterlockedOr"
 req.header: wdm.h

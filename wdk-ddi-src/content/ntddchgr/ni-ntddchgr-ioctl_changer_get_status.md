@@ -6,8 +6,8 @@ old-location: storage\ioctl_changer_get_status.htm
 tech.root: storage
 ms.assetid: 88f1a248-0beb-4c7c-b68d-6ce145bf5ca7
 ms.date: 03/29/2018
+keywords: ["IOCTL_CHANGER_GET_STATUS IOCTL"]
 ms.keywords: IOCTL_CHANGER_GET_STATUS, IOCTL_CHANGER_GET_STATUS control, IOCTL_CHANGER_GET_STATUS control code [Storage Devices], k307_81e37b47-2d26-466d-9ddc-cc681398d607.xml, ntddchgr/IOCTL_CHANGER_GET_STATUS, storage.ioctl_changer_get_status
-ms.topic: ioctl
 f1_keywords:
  - "ntddchgr/IOCTL_CHANGER_GET_STATUS"
 req.header: ntddchgr.h

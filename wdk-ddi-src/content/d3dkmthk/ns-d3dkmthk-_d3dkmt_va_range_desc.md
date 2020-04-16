@@ -4,7 +4,7 @@ title: _D3DKMT_VA_RANGE_DESC (d3dkmthk.h)
 description: The virtual address (VA) range description.
 ms.assetid: 96c89737-4994-46fe-af09-16339226675c
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DKMT_VA_RANGE_DESC structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_VA_RANGE_DESC"
 ms.keywords: _D3DKMT_VA_RANGE_DESC, D3DKMT_VA_RANGE_DESC, 

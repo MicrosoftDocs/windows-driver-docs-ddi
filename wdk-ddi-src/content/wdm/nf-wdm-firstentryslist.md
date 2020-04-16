@@ -6,8 +6,8 @@ old-location: kernel\firstentryslist.htm
 tech.root: kernel
 ms.assetid: 80444a10-91f3-44b5-ad20-3d3d8f49ca60
 ms.date: 04/30/2018
+keywords: ["FirstEntrySList function"]
 ms.keywords: FirstEntrySList, FirstEntrySList routine [Kernel-Mode Driver Architecture], k109_0a6c7f88-35fa-4cc9-ac3d-03bf1e873cf3.xml, kernel.firstentryslist, wdm/FirstEntrySList
-ms.topic: function
 f1_keywords:
  - "wdm/FirstEntrySList"
 req.header: wdm.h

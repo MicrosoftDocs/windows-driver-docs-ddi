@@ -4,7 +4,7 @@ title: IDebugHostExtensibility::CreateFunctionAlias (dbgmodel.h)
 description: The CreateFunctionAlias method creates a "function alias", a "quick alias" for a method implemented in some extension. The meaning of this alias is host specific.
 ms.assetid: 73d90254-12bd-478b-a80e-57d15ea88ca8
 ms.date: 06/11/2019
-ms.topic: method
+keywords: ["IDebugHostExtensibility::CreateFunctionAlias"]
 f1_keywords:
  - "dbgmodel/IDebugHostExtensibility.CreateFunctionAlias"
 ms.keywords: IDebugHostExtensibility::CreateFunctionAlias, CreateFunctionAlias, IDebugHostExtensibility.CreateFunctionAlias, IDebugHostExtensibility::CreateFunctionAlias, IDebugHostExtensibility.CreateFunctionAlias

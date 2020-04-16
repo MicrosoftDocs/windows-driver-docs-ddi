@@ -6,8 +6,8 @@ old-location: debugger\getmodulenamestringwide.htm
 tech.root: debugger
 ms.assetid: e1b756b9-394a-4ec4-845e-867460998086
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::GetModuleNameStringWide"]
 ms.keywords: GetModuleNameStringWide, GetModuleNameStringWide method [Windows Debugging], GetModuleNameStringWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleNameStringWide method, IDebugSymbols3.GetModuleNameStringWide, IDebugSymbols3::GetModuleNameStringWide, dbgeng/IDebugSymbols3::GetModuleNameStringWide, debugger.getmodulenamestringwide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetModuleNameStringWide"
 req.header: dbgeng.h

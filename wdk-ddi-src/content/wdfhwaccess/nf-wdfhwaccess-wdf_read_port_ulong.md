@@ -6,8 +6,8 @@ old-location: wdf\wdf_read_port_ulong.htm
 tech.root: wdf
 ms.assetid: 7553FE66-8138-4172-843F-84EE2D5A90BE
 ms.date: 02/26/2018
+keywords: ["WDF_READ_PORT_ULONG function"]
 ms.keywords: WDF_READ_PORT_ULONG, WDF_READ_PORT_ULONG function, wdf.wdf_read_port_ulong, wdfhwaccess/WDF_READ_PORT_ULONG
-ms.topic: function
 f1_keywords:
  - "wdfhwaccess/WDF_READ_PORT_ULONG"
 req.header: wdfhwaccess.h

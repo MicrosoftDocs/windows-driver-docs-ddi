@@ -6,8 +6,8 @@ old-location: image\ptp_vendor_data_out.htm
 tech.root: image
 ms.assetid: 2585c7ce-6dba-491a-86c1-5ee69f28136f
 ms.date: 05/03/2018
+keywords: ["_PTP_VENDOR_DATA_OUT structure"]
 ms.keywords: "*PPTP_VENDOR_DATA_OUT, PPTP_VENDOR_DATA_OUT, PPTP_VENDOR_DATA_OUT structure pointer [Imaging Devices], PTP_VENDOR_DATA_OUT, PTP_VENDOR_DATA_OUT structure [Imaging Devices], _PTP_VENDOR_DATA_OUT, image.ptp_vendor_data_out, ptpusd/PPTP_VENDOR_DATA_OUT, ptpusd/PTP_VENDOR_DATA_OUT, wiastrct_032c0aa0-aec8-440d-b528-de1b739d2e1d.xml"
-ms.topic: struct
 f1_keywords:
  - "ptpusd/PTP_VENDOR_DATA_OUT"
 req.header: ptpusd.h

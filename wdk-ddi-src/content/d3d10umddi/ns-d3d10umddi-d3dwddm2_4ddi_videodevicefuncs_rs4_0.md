@@ -4,7 +4,7 @@ title: D3DWDDM2_4DDI_VIDEODEVICEFUNCS_RS4_0 (d3d10umddi.h)
 description: Specifies the video function table for the Microsoft Direct3D driver device object.
 ms.assetid: 1cc34376-1bc6-471c-8d4b-6d7fed0488a5
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["D3DWDDM2_4DDI_VIDEODEVICEFUNCS_RS4_0 structure"]
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_4DDI_VIDEODEVICEFUNCS_RS4_0"
 ms.keywords: D3DWDDM2_4DDI_VIDEODEVICEFUNCS_RS4_0, D3DWDDM2_4DDI_VIDEODEVICEFUNCS_RS4_0,

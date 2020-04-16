@@ -6,8 +6,8 @@ old-location: netvista\ril_writeadditionalnumberstring.htm
 tech.root: netvista
 ms.assetid: 9ddf148b-7d36-4a95-a866-57e26220a549
 ms.date: 05/02/2018
+keywords: ["RIL_WriteAdditionalNumberString function"]
 ms.keywords: RIL_WriteAdditionalNumberString, RIL_WriteAdditionalNumberString method [Network Drivers Starting with Windows Vista], netvista.ril_writeadditionalnumberstring, rilapi/RIL_WriteAdditionalNumberString
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_WriteAdditionalNumberString"
 req.header: rilapi.h

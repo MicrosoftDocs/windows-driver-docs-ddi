@@ -6,8 +6,8 @@ old-location: kernel\kequerygroupaffinity.htm
 tech.root: kernel
 ms.assetid: 235ec93e-5b3c-4a19-876f-f668271a56a5
 ms.date: 04/30/2018
+keywords: ["KeQueryGroupAffinity function"]
 ms.keywords: KeQueryGroupAffinity, KeQueryGroupAffinity routine [Kernel-Mode Driver Architecture], k105_9116eade-e2ed-47f4-a204-c21d456371b0.xml, kernel.kequerygroupaffinity, wdm/KeQueryGroupAffinity
-ms.topic: function
 f1_keywords:
  - "wdm/KeQueryGroupAffinity"
 req.header: wdm.h

@@ -3,6 +3,7 @@ UID: NA:returncontext
 title: Returncontext.h header
 ms.assetid: 54F42043-0F6B-45EC-9E91-90505DB1575D
 ms.date: 09/20/2019
+keywords: ["Returncontext.h header"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ tech.root: ifsk
 ms.assetid: b0a99090-40a5-4e40-8ddb-54816ba789b5
 ms.author: windowsdriverdev
 ms.date: 01/11/2019
-ms.topic: function
+keywords: ["FltRetrieveFileInfoOnCreateCompletionEx function"]
 f1_keywords:
  - "fltkernel/FltRetrieveFileInfoOnCreateCompletionEx"
 ms.keywords: FltRetrieveFileInfoOnCreateCompletionEx, FltRetrieveFileInfoOnCreateCompletion

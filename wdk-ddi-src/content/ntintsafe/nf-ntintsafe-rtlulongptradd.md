@@ -6,8 +6,8 @@ old-location: kernel\rtlulongptradd.htm
 tech.root: kernel
 ms.assetid: 26A9A0B6-07A3-4D42-A5A1-C4CDD541A3FA
 ms.date: 04/30/2018
+keywords: ["RtlULongPtrAdd function"]
 ms.keywords: RtlULongPtrAdd, RtlULongPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtlulongptradd, ntintsafe/RtlULongPtrAdd
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlULongPtrAdd"
 req.header: ntintsafe.h

@@ -6,8 +6,8 @@ old-location: wdf\iwdfiorequest2_isfromusermodedriver.htm
 tech.root: wdf
 ms.assetid: 17a1e4d8-5438-42b6-b4a5-335e7bd57b1b
 ms.date: 02/26/2018
+keywords: ["IWDFIoRequest2::IsFromUserModeDriver"]
 ms.keywords: IWDFIoRequest2 interface,IsFromUserModeDriver method, IWDFIoRequest2.IsFromUserModeDriver, IWDFIoRequest2::IsFromUserModeDriver, IsFromUserModeDriver, IsFromUserModeDriver method, IsFromUserModeDriver method,IWDFIoRequest2 interface, UMDFRequestObjectRef_81f13df9-e0f7-4d16-9f85-e049a491e08d.xml, umdf.iwdfiorequest2_isfromusermodedriver, wdf.iwdfiorequest2_isfromusermodedriver, wudfddi/IWDFIoRequest2::IsFromUserModeDriver
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.IsFromUserModeDriver"
 req.header: wudfddi.h

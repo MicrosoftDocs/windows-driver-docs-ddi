@@ -6,8 +6,8 @@ old-location: netvista\rilmsgindeliver.htm
 tech.root: netvista
 ms.assetid: a4bfdc26-46a9-404e-9cd0-10dabba01dc2
 ms.date: 05/02/2018
+keywords: ["RILMSGINDELIVER structure"]
 ms.keywords: "*LPRILMSGINDELIVER, RILMSGINDELIVER, RILMSGINDELIVER structure [Network Drivers Starting with Windows Vista], netvista.rilmsgindeliver, ntddrilapitypes/RILMSGINDELIVER"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILMSGINDELIVER"
 req.header: rilapitypes.h

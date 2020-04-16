@@ -4,7 +4,7 @@ title: _PROC_TOPOLOGY_NODE_FLAGS (acpitabl.h)
 description: Defines the processor topology node flags structure.
 ms.assetid: fd7d80e7-054e-41ec-8c02-432e62e2d592
 ms.date: 10/01/2018
-ms.topic: struct
+keywords: ["_PROC_TOPOLOGY_NODE_FLAGS structure"]
 f1_keywords:
  - "acpitabl/_PROC_TOPOLOGY_NODE_FLAGS"
 ms.keywords: _PROC_TOPOLOGY_NODE_FLAGS, PROC_TOPOLOGY_NODE_FLAGS, *PPROC_TOPOLOGY_NODE_FLAGS, 

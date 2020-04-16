@@ -6,8 +6,8 @@ old-location: display\createextensiondevice.htm
 tech.root: display
 ms.assetid: 7e6dbb70-2e74-4ddb-a504-2c8145af99d9
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_CREATEEXTENSIONDEVICE callback function"]
 ms.keywords: CreateExtensionDevice, CreateExtensionDevice callback function [Display Devices], PFND3DDDI_CREATEEXTENSIONDEVICE, PFND3DDDI_CREATEEXTENSIONDEVICE callback, UserModeDisplayDriver_Functions_342ee084-e24a-43a8-99a9-c83c2670e2e4.xml, d3dumddi/CreateExtensionDevice, display.createextensiondevice
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

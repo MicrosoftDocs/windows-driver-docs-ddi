@@ -4,7 +4,7 @@ title: DEFINE_ENUM_FLAG_OPERATORS function (d3d12umddi.h)
 description: Defines operator overloads to enable bit operations on enum values that are used to define flags.
 ms.assetid: 80f1b2ee-41cc-40a1-ab00-30ccdf7bdfd0
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["DEFINE_ENUM_FLAG_OPERATORS function"]
 f1_keywords:
  - "d3d12umddi/DEFINE_ENUM_FLAG_OPERATORS"
 ms.keywords: DEFINE_ENUM_FLAG_OPERATORS

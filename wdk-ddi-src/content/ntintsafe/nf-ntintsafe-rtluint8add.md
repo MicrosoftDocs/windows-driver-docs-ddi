@@ -6,8 +6,8 @@ old-location: kernel\rtluint8add.htm
 tech.root: kernel
 ms.assetid: E93C8C7A-13E5-4089-931C-C56055FA3C90
 ms.date: 04/30/2018
+keywords: ["RtlUInt8Add function"]
 ms.keywords: RtlUInt8Add, RtlUInt8Add function [Kernel-Mode Driver Architecture], kernel.rtluint8add, ntintsafe/RtlUInt8Add
-ms.topic: function
 f1_keywords:
  - "ntintsafe/RtlUInt8Add"
 req.header: ntintsafe.h

@@ -6,8 +6,8 @@ old-location: kernel\rtlsetdaclsecuritydescriptor.htm
 tech.root: kernel
 ms.assetid: d22f4a14-2293-4210-bead-5814484a1471
 ms.date: 04/30/2018
+keywords: ["RtlSetDaclSecurityDescriptor function"]
 ms.keywords: RtlSetDaclSecurityDescriptor, RtlSetDaclSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_b2723172-ac75-4ada-b421-ae144d10d560.xml, kernel.rtlsetdaclsecuritydescriptor, wdm/RtlSetDaclSecurityDescriptor
-ms.topic: function
 f1_keywords:
  - "wdm/RtlSetDaclSecurityDescriptor"
 req.header: wdm.h

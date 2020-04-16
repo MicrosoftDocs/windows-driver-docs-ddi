@@ -4,7 +4,7 @@ title: IDebugHostType::EnumerateChildren (dbgmodel.h)
 description: The EnumerateChildren method returns an enumerator which will enumerate all children of a given symbol.
 ms.assetid: e79b7ff1-0636-4836-b3ee-a675320e2006
 ms.date: 08/22/2018
-ms.topic: method
+keywords: ["IDebugHostType::EnumerateChildren"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.EnumerateChildren"
 ms.keywords: IDebugHostType::EnumerateChildren, EnumerateChildren, IDebugHostType.EnumerateChildren, IDebugHostType::EnumerateChildren, IDebugHostType.EnumerateChildren

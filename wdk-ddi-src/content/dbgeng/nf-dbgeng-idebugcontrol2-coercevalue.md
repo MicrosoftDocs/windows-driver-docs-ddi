@@ -6,8 +6,8 @@ old-location: debugger\coercevalue.htm
 tech.root: debugger
 ms.assetid: db037fc8-d503-4a72-b6bc-d5189f6786d4
 ms.date: 05/03/2018
+keywords: ["IDebugControl2::CoerceValue"]
 ms.keywords: CoerceValue, CoerceValue method [Windows Debugging], CoerceValue method [Windows Debugging],IDebugControl interface, CoerceValue method [Windows Debugging],IDebugControl2 interface, CoerceValue method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],CoerceValue method, IDebugControl2 interface [Windows Debugging],CoerceValue method, IDebugControl2.CoerceValue, IDebugControl2::CoerceValue, IDebugControl3 interface [Windows Debugging],CoerceValue method, IDebugControl3::CoerceValue, IDebugControl::CoerceValue, IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml, dbgeng/IDebugControl2::CoerceValue, dbgeng/IDebugControl3::CoerceValue, dbgeng/IDebugControl::CoerceValue, debugger.coercevalue
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl.CoerceValue"
 req.header: dbgeng.h

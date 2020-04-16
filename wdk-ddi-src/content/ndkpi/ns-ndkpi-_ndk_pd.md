@@ -6,8 +6,8 @@ old-location: netvista\ndk_pd.htm
 tech.root: netvista
 ms.assetid: 77D3503A-8544-4E73-AD17-56F9C8603068
 ms.date: 05/02/2018
+keywords: ["_NDK_PD structure"]
 ms.keywords: NDK_PD, NDK_PD structure [Network Drivers Starting with Windows Vista], PNDK_PD, PNDK_PD structure pointer [Network Drivers Starting with Windows Vista], _NDK_PD, ndkpi/NDK_PD, ndkpi/PNDK_PD, netvista.ndk_pd
-ms.topic: struct
 f1_keywords:
  - "ndkpi/NDK_PD"
 req.header: ndkpi.h

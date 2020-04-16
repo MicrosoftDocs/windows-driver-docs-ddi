@@ -6,8 +6,8 @@ old-location: image\wiasgetcontextfromname.htm
 tech.root: image
 ms.assetid: d15bf48e-132d-4f89-8f19-64f57deed500
 ms.date: 05/03/2018
+keywords: ["wiasGetContextFromName function"]
 ms.keywords: image.wiasgetcontextfromname, wiamdef/wiasGetContextFromName, wiasFncs_ba1c88a2-aadc-4c2f-bb5f-88433d1e1760.xml, wiasGetContextFromName, wiasGetContextFromName function [Imaging Devices]
-ms.topic: function
 f1_keywords:
  - "wiamdef/wiasGetContextFromName"
 req.header: wiamdef.h

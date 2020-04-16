@@ -6,8 +6,8 @@ old-location: whea\whea_error_source_descriptor.htm
 tech.root: whea
 ms.assetid: 59ee6d51-c60a-4a71-b831-1b9437a69d34
 ms.date: 02/20/2018
+keywords: ["_WHEA_ERROR_SOURCE_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_ERROR_SOURCE_DESCRIPTOR, PWHEA_ERROR_SOURCE_DESCRIPTOR, PWHEA_ERROR_SOURCE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_ERROR_SOURCE_DESCRIPTOR, WHEA_ERROR_SOURCE_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_ERROR_SOURCE_DESCRIPTOR, ntddk/PWHEA_ERROR_SOURCE_DESCRIPTOR, ntddk/WHEA_ERROR_SOURCE_DESCRIPTOR, whea.whea_error_source_descriptor, whearef_eb6a1167-cf15-4a53-b885-c3d5c4353510.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_ERROR_SOURCE_DESCRIPTOR"
 req.header: ntddk.h

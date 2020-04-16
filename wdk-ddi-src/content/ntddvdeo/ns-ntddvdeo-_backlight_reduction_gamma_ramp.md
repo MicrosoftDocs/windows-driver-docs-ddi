@@ -5,7 +5,7 @@ description: Contains a reduction gamma lookup table.
 tech.root: display
 ms.assetid: f6f14d80-4859-4179-8921-1b28c417c1e3
 ms.date: 08/03/2018
-ms.topic: struct
+keywords: ["_BACKLIGHT_REDUCTION_GAMMA_RAMP structure"]
 f1_keywords:
  - "ntddvdeo/_BACKLIGHT_REDUCTION_GAMMA_RAMP"
 ms.keywords: _BACKLIGHT_REDUCTION_GAMMA_RAMP, BACKLIGHT_REDUCTION_GAMMA_RAMP,

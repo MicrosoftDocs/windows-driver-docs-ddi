@@ -6,8 +6,8 @@ old-location: image\wiassetvalidlistfloat.htm
 tech.root: image
 ms.assetid: e1a833aa-fc8b-4506-aba8-ba6dc9a375ba
 ms.date: 05/03/2018
+keywords: ["wiasSetValidListFloat function"]
 ms.keywords: image.wiassetvalidlistfloat, wiamdef/wiasSetValidListFloat, wiasFncs_ef1aa836-f63d-43e8-8378-22d37fbdc3a2.xml, wiasSetValidListFloat, wiasSetValidListFloat function [Imaging Devices]
-ms.topic: function
 f1_keywords:
  - "wiamdef/wiasSetValidListFloat"
 req.header: wiamdef.h

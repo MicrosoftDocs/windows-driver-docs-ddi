@@ -6,8 +6,8 @@ old-location: buses\usbd_validateconfigurationdescriptor.htm
 tech.root: usbref
 ms.assetid: 2fbe08ca-a9eb-4e3b-aa28-1ff34ad22a46
 ms.date: 05/07/2018
+keywords: ["USBD_ValidateConfigurationDescriptor function"]
 ms.keywords: USBD_ValidateConfigurationDescriptor, USBD_ValidateConfigurationDescriptor routine [Buses], buses.usbd_validateconfigurationdescriptor, usbdlib/USBD_ValidateConfigurationDescriptor
-ms.topic: function
 f1_keywords:
  - "usbdlib/USBD_ValidateConfigurationDescriptor"
 req.header: usbdlib.h

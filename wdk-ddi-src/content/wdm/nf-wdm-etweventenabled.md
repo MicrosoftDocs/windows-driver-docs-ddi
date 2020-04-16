@@ -6,8 +6,8 @@ old-location: devtest\etweventenabled.htm
 tech.root: devtest
 ms.assetid: 19aa5905-f611-46e2-8d70-a6cc4649c911
 ms.date: 02/23/2018
+keywords: ["EtwEventEnabled function"]
 ms.keywords: EtwEventEnabled, EtwEventEnabled function [Driver Development Tools], devtest.etweventenabled, etw_km_4a6453a7-cff8-4941-83fd-8184772ef161.xml, wdm/EtwEventEnabled
-ms.topic: function
 f1_keywords:
  - "wdm/EtwEventEnabled"
 req.header: wdm.h

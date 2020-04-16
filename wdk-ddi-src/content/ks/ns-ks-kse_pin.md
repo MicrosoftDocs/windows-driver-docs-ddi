@@ -6,8 +6,8 @@ old-location: stream\kse_pin.htm
 tech.root: stream
 ms.assetid: 6936F732-ECAA-4CA7-B2AF-CA22A5C93FC9
 ms.date: 04/23/2018
+keywords: ["KSE_PIN structure"]
 ms.keywords: "*PKSE_PIN, KSE_PIN, KSE_PIN structure [Streaming Media Devices], PKSE_PIN, PKSE_PIN structure pointer [Streaming Media Devices], ks/KSE_PIN, ks/PKSE_PIN, stream.kse_pin"
-ms.topic: struct
 f1_keywords:
  - "ks/KSE_PIN"
 req.header: ks.h

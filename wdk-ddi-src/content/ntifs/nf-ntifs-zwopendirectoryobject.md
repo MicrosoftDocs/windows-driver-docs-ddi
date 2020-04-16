@@ -6,8 +6,8 @@ old-location: kernel\zwopendirectoryobject.htm
 tech.root: kernel
 ms.assetid: ddff6e6e-d22f-4e22-af13-aca889eee0d4
 ms.date: 04/30/2018
+keywords: ["ZwOpenDirectoryObject function"]
 ms.keywords: NtCreateDirectoryObject, ZwOpenDirectoryObject, ZwOpenDirectoryObject routine [Kernel-Mode Driver Architecture], k111_a3aca9ff-bf76-4cd0-a15d-565201c1e132.xml, kernel.zwopendirectoryobject, ntifs/NtCreateDirectoryObject, ntifs/ZwOpenDirectoryObject
-ms.topic: function
 f1_keywords:
  - "ntifs/ZwOpenDirectoryObject"
 req.header: ntifs.h

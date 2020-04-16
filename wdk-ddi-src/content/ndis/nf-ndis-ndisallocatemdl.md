@@ -6,8 +6,8 @@ old-location: netvista\ndisallocatemdl.htm
 tech.root: netvista
 ms.assetid: 4863fe31-2c89-47af-99ed-02055e67621d
 ms.date: 05/02/2018
+keywords: ["NdisAllocateMdl function"]
 ms.keywords: NdisAllocateMdl, NdisAllocateMdl function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateMdl, ndis_netbuf_functions_ref_73b9ab32-14a8-4441-a057-c6fe91ddfb43.xml, netvista.ndisallocatemdl
-ms.topic: function
 f1_keywords:
  - "ndis/NdisAllocateMdl"
 req.header: ndis.h

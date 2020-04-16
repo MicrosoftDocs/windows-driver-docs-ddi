@@ -6,8 +6,8 @@ old-location: storage\dsm_version.htm
 tech.root: storage
 ms.assetid: 1aa264fa-b552-41a0-bd43-a62f8f2b533b
 ms.date: 03/29/2018
+keywords: ["_DSM_VERSION structure"]
 ms.keywords: "*PDSM_VERSION, DSM_VERSION, DSM_VERSION structure [Storage Devices], PDSM_VERSION, PDSM_VERSION structure pointer [Storage Devices], _DSM_VERSION, mpiowmi/DSM_VERSION, mpiowmi/PDSM_VERSION, storage.dsm_version, structs-scsibus_3e00c2b2-0497-4aab-b2e0-a6a5d998e560.xml"
-ms.topic: struct
 f1_keywords:
  - "mpiowmi/DSM_VERSION"
 req.header: mpiowmi.h

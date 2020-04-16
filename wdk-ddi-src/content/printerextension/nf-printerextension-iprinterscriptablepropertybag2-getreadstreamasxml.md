@@ -6,8 +6,8 @@ old-location: print\iprinterscriptablepropertybag2_getreadstreamasxml.htm
 tech.root: print
 ms.assetid: 1C6477C4-3038-4F8A-871F-7F336E631C8F
 ms.date: 04/20/2018
+keywords: ["IPrinterScriptablePropertyBag2::GetReadStreamAsXML"]
 ms.keywords: GetReadStreamAsXML, GetReadStreamAsXML method [Print Devices], GetReadStreamAsXML method [Print Devices],IPrinterScriptablePropertyBag2 interface, IPrinterScriptablePropertyBag2 interface [Print Devices],GetReadStreamAsXML method, IPrinterScriptablePropertyBag2.GetReadStreamAsXML, IPrinterScriptablePropertyBag2::GetReadStreamAsXML, print.iprinterscriptablepropertybag2_getreadstreamasxml, printerextension/IPrinterScriptablePropertyBag2::GetReadStreamAsXML
-ms.topic: method
 f1_keywords:
  - "printerextension/IPrinterScriptablePropertyBag2.GetReadStreamAsXML"
 req.header: printerextension.h
@@ -66,7 +66,7 @@ req.typenames:
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

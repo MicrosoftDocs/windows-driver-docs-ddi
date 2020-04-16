@@ -5,7 +5,7 @@ description: Retrieves the MultiString-valued registry entry associated with a v
 tech.root: netvista
 ms.assetid: a6cd726e-8c85-4a5b-9d14-986848749556
 ms.date: 02/07/2018
-ms.topic: function
+keywords: ["NetConfigurationQueryMultiString function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationQueryMultiString"
 ms.keywords: NetConfigurationQueryMultiString

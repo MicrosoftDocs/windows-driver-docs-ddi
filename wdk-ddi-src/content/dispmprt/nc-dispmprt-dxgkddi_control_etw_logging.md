@@ -6,8 +6,8 @@ old-location: display\dxgkddicontroletwlogging.htm
 tech.root: display
 ms.assetid: c94a43bb-19d0-4894-80b0-885562fefea5
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_CONTROL_ETW_LOGGING callback function"]
 ms.keywords: DXGKDDI_CONTROL_ETW_LOGGING, DXGKDDI_CONTROL_ETW_LOGGING callback, DmFunctions_87548564-6b7b-431b-b68c-202af84deefc.xml, DxgkDdiControlEtwLogging, DxgkDdiControlEtwLogging callback function [Display Devices], display.dxgkddicontroletwlogging, dispmprt/DxgkDdiControlEtwLogging
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiControlEtwLogging"
 req.header: dispmprt.h

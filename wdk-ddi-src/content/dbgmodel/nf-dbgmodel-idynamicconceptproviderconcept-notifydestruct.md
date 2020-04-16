@@ -4,7 +4,7 @@ title: IDynamicConceptProviderConcept::NotifyDestruct (dbgmodel.h)
 description: The NotifyDestruct method on a dynamic concept provider is a callback made by the core data model at the start of destruction of the object which is a dynamic concept provider. 
 ms.assetid: b2e5af39-288c-45c5-b2de-0c5e8069a25a
 ms.date: 09/19/2018
-ms.topic: method
+keywords: ["IDynamicConceptProviderConcept::NotifyDestruct"]
 f1_keywords:
  - "dbgmodel/IDynamicConceptProviderConcept.NotifyDestruct"
 ms.keywords: IDynamicConceptProviderConcept::NotifyDestruct, NotifyDestruct, IDynamicConceptProviderConcept.NotifyDestruct, IDynamicConceptProviderConcept::NotifyDestruct, IDynamicConceptProviderConcept.NotifyDestruct

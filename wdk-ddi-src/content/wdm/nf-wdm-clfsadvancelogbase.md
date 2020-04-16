@@ -6,8 +6,8 @@ old-location: kernel\clfsadvancelogbase.htm
 tech.root: kernel
 ms.assetid: 00f776f7-83c5-4856-a1d3-8b76122d3986
 ms.date: 04/30/2018
+keywords: ["ClfsAdvanceLogBase function"]
 ms.keywords: ClfsAdvanceLogBase, ClfsAdvanceLogBase routine [Kernel-Mode Driver Architecture], Clfs_d8f1a522-ef50-47fe-bd39-f18f2f176a3b.xml, kernel.clfsadvancelogbase, wdm/ClfsAdvanceLogBase
-ms.topic: function
 f1_keywords:
  - "wdm/ClfsAdvanceLogBase"
 req.header: wdm.h

@@ -6,8 +6,8 @@ old-location: display\createresource.htm
 tech.root: display
 ms.assetid: 5b74c989-1a62-4415-a19a-dd0ba2fcff83
 ms.date: 05/10/2018
+keywords: ["PFND3DDDI_CREATERESOURCE callback function"]
 ms.keywords: CreateResource, CreateResource callback function [Display Devices], PFND3DDDI_CREATERESOURCE, PFND3DDDI_CREATERESOURCE callback, UserModeDisplayDriver_Functions_c925b8ed-3e7f-4a56-a4b0-a3c8e2ba8ebf.xml, d3dumddi/CreateResource, display.createresource
-ms.topic: callback
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

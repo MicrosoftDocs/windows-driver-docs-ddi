@@ -6,8 +6,8 @@ old-location: stream\ks_videoinfoheader.htm
 tech.root: stream
 ms.assetid: 402f292c-14f8-4ff3-b1b3-b992578cbcc8
 ms.date: 04/23/2018
+keywords: ["tagKS_VIDEOINFOHEADER structure"]
 ms.keywords: "*PKS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER, KS_VIDEOINFOHEADER structure [Streaming Media Devices], PKS_VIDEOINFOHEADER, PKS_VIDEOINFOHEADER structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFOHEADER, ksmedia/PKS_VIDEOINFOHEADER, stream.ks_videoinfoheader, tagKS_VIDEOINFOHEADER, vidcapstruct_785a83de-3f90-44f1-b20f-9509032e8a06.xml"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KS_VIDEOINFOHEADER"
 req.header: ksmedia.h

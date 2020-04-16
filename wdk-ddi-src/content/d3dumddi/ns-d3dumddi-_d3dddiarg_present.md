@@ -6,8 +6,8 @@ old-location: display\d3dddiarg_present.htm
 tech.root: display
 ms.assetid: ee872d01-4bc6-46ce-80b7-3f73dd1a89ab
 ms.date: 05/10/2018
+keywords: ["_D3DDDIARG_PRESENT structure"]
 ms.keywords: D3DDDIARG_PRESENT, D3DDDIARG_PRESENT structure [Display Devices], UMDisplayDriver_param_Structs_1406aa28-1355-4e46-886f-9121fcbd7750.xml, _D3DDDIARG_PRESENT, d3dumddi/D3DDDIARG_PRESENT, display.d3dddiarg_present
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDIARG_PRESENT"
 req.header: d3dumddi.h

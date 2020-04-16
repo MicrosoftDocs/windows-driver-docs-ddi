@@ -6,8 +6,8 @@ old-location: display\video_hw_initialization_data.htm
 tech.root: display
 ms.assetid: 1f6bc444-12d6-4406-891e-87dfca437284
 ms.date: 05/10/2018
+keywords: ["_VIDEO_HW_INITIALIZATION_DATA structure"]
 ms.keywords: "*PVIDEO_HW_INITIALIZATION_DATA, PVIDEO_HW_INITIALIZATION_DATA, PVIDEO_HW_INITIALIZATION_DATA structure pointer [Display Devices], VIDEO_HW_INITIALIZATION_DATA, VIDEO_HW_INITIALIZATION_DATA structure [Display Devices], Video_Structs_1ab4d104-315b-4b04-b9dc-3088437cc6d3.xml, _VIDEO_HW_INITIALIZATION_DATA, display.video_hw_initialization_data, video/PVIDEO_HW_INITIALIZATION_DATA, video/VIDEO_HW_INITIALIZATION_DATA"
-ms.topic: struct
 f1_keywords:
  - "video/VIDEO_HW_INITIALIZATION_DATA"
 req.header: video.h

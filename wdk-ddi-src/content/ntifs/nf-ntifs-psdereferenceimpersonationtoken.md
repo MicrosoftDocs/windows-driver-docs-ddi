@@ -6,8 +6,8 @@ old-location: ifsk\psdereferenceimpersonationtoken.htm
 tech.root: ifsk
 ms.assetid: 8320d4d1-f282-4977-96e7-de6f63d86ec4
 ms.date: 04/16/2018
+keywords: ["PsDereferenceImpersonationToken function"]
 ms.keywords: PsDereferenceImpersonationToken, PsDereferenceImpersonationToken routine [Installable File System Drivers], ifsk.psdereferenceimpersonationtoken, ntifs/PsDereferenceImpersonationToken, psref_8d62cb23-83a3-45fd-8b35-f7e38dd1548d.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/PsDereferenceImpersonationToken"
 req.header: ntifs.h

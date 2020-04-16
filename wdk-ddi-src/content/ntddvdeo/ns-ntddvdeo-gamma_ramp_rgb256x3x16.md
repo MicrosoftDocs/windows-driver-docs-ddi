@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: a3e88fca-266a-4491-958c-e75b610f4854
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
+keywords: ["GAMMA_RAMP_RGB256x3x16 structure"]
 f1_keywords:
  - "ntddvdeo/GAMMA_RAMP_RGB256x3x16"
 ms.keywords: GAMMA_RAMP_RGB256x3x16, GAMMA_RAMP_RGB256x3x16, 

@@ -5,7 +5,7 @@ description: The CreateContentMixed method computes the DRM content rights for a
 tech.root: audio
 ms.assetid: 26ea9bd4-5540-4be7-bf34-8a56e2812ccd
 ms.date: 02/20/2019
-ms.topic: method
+keywords: ["IDrmPort::CreateContentMixed"]
 f1_keywords:
  - "portcls/IDrmPort.CreateContentMixed"
 ms.keywords: IDrmPort::CreateContentMixed, CreateContentMixed, IDrmPort.CreateContentMixed, IDrmPort::CreateContentMixed, IDrmPort.CreateContentMixed

@@ -2,7 +2,6 @@
   "tech": "whea",
   "headers": [
     "ntddk.h",
-    "wheaevents.h"
   ],
   "displayName": "Windows Hardware Error Architecture (WHEA)"  
 }

@@ -6,8 +6,8 @@ old-location: netvista\riluicclockstatelockstate.htm
 tech.root: netvista
 ms.assetid: 95f73081-b809-407d-b73b-975b97301449
 ms.date: 02/16/2018
+keywords: ["RILUICCLOCKSTATELOCKSTATE enumeration"]
 ms.keywords: RILUICCLOCKSTATELOCKSTATE, RILUICCLOCKSTATELOCKSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, RIL_UICCLOCKSTATE_BLOCKED, RIL_UICCLOCKSTATE_ENABLED, RIL_UICCLOCKSTATE_VERIFIED, netvista.riluicclockstatelockstate, rilapitypes/RILUICCLOCKSTATELOCKSTATE, rilapitypes/RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, rilapitypes/RIL_UICCLOCKSTATE_BLOCKED, rilapitypes/RIL_UICCLOCKSTATE_ENABLED, rilapitypes/RIL_UICCLOCKSTATE_VERIFIED
-ms.topic: enum
 f1_keywords:
  - "ntddrilapitypes/RILUICCLOCKSTATELOCKSTATE"
 req.header: ntddrilapitypes.h

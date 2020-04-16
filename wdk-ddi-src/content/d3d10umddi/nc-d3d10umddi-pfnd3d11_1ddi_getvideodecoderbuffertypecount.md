@@ -5,8 +5,8 @@ description: Queries the number of buffer types that the display miniport driver
 old-location: display\getvideodecoderbuffertypecount.htm
 ms.assetid: 3528ac03-55cf-4e02-ae42-69b736684147
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT callback function"]
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT, PFND3D11_1DDI_GETVIDEODECODERBUFFERTYPECOUNT callback, d3d10umddi/pfnGetVideoDecoderBufferTypeCount, display.getvideodecoderbuffertypecount, pfnGetVideoDecoderBufferTypeCount, pfnGetVideoDecoderBufferTypeCount callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnGetVideoDecoderBufferTypeCount"
 req.header: d3d10umddi.h

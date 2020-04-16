@@ -6,8 +6,8 @@ old-location: storage\iscsi_path.htm
 tech.root: storage
 ms.assetid: eebc3e2e-41fe-4087-8916-7c8a71929913
 ms.date: 03/29/2018
+keywords: ["_ISCSI_Path structure"]
 ms.keywords: "*PISCSI_Path, ISCSI_Path, ISCSI_Path structure [Storage Devices], PISCSI_Path, PISCSI_Path structure pointer [Storage Devices], _ISCSI_Path, iscsimgt/ISCSI_Path, iscsimgt/PISCSI_Path, storage.iscsi_path, structs-iSCSI_fe9f6ee9-2fcd-46eb-a010-98e82dbf8c70.xml"
-ms.topic: struct
 f1_keywords:
  - "iscsimgt/ISCSI_Path"
 req.header: iscsimgt.h

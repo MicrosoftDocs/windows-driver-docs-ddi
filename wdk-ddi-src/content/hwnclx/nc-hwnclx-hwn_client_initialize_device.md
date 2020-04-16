@@ -6,8 +6,8 @@ old-location: gpiobtn\hwn_client_initialize_device.htm
 tech.root: gpiobtn
 ms.assetid: d08b2435-fb6f-49cd-8da3-c49676623357
 ms.date: 02/15/2018
+keywords: ["HWN_CLIENT_INITIALIZE_DEVICE callback"]
 ms.keywords: "*PHWN_CLIENT_INITIALIZE_DEVICE, *PHWN_CLIENT_INITIALIZE_DEVICE callback function pointer, HWN_CLIENT_INITIALIZE_DEVICE, HwnClientInitializeDevice, HwnClientInitializeDevice callback function, gpiobtn.hwn_client_initialize_device, hwnclx/HwnClientInitializeDevice"
-ms.topic: callback
 f1_keywords:
  - "hwnclx/*PHWN_CLIENT_INITIALIZE_DEVICE"
 req.header: hwnclx.h
@@ -35,7 +35,7 @@ api_type:
 api_location:
 - Hwnclx.h
 api_name:
-- *PHWN_CLIENT_INITIALIZE_DEVICE
+- PHWN_CLIENT_INITIALIZE_DEVICE
 product:
 - Windows
 targetos: Windows

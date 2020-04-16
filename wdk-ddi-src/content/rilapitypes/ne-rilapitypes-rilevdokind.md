@@ -6,8 +6,8 @@ old-location: netvista\rilevdokind.htm
 tech.root: netvista
 ms.assetid: 9887342b-85bd-4161-b9de-06ceb56014e5
 ms.date: 05/02/2018
+keywords: ["RILEVDOKIND enumeration"]
 ms.keywords: RILEVDOKIND, RILEVDOKIND enumeration [Network Drivers Starting with Windows Vista], RIL_EVDOKIND_MAX, RIL_EVDOKIND_REVA, RIL_EVDOKIND_REVB, netvista.rilevdokind, ntddrilapitypes/RILEVDOKIND, ntddrilapitypes/RIL_EVDOKIND_MAX, ntddrilapitypes/RIL_EVDOKIND_REVA, ntddrilapitypes/RIL_EVDOKIND_REVB
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILEVDOKIND"
 req.header: rilapitypes.h

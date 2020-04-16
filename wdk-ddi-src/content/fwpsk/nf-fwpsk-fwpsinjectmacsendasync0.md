@@ -6,8 +6,8 @@ old-location: netvista\fwpsinjectmacsendasync0.htm
 tech.root: netvista
 ms.assetid: 8B03835A-98EE-4157-BD05-C52D01EE5F5E
 ms.date: 03/26/2018
+keywords: ["FwpsInjectMacSendAsync0 function"]
 ms.keywords: FwpsInjectMacSendAsync0, FwpsInjectMacSendAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectMacSendAsync0, netvista.fwpsinjectmacsendasync0
-ms.topic: function
 f1_keywords:
  - "fwpsk/FwpsInjectMacSendAsync0"
 req.header: fwpsk.h

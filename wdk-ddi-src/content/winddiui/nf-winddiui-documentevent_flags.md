@@ -4,7 +4,7 @@ title: DOCUMENTEVENT_FLAGS macro (winddiui.h)
 description: 
 ms.assetid: 2b250a80-2a6c-4427-94b5-4591b15dcdc2
 ms.date: 10/19/2018
-ms.topic: macro
+keywords: ["DOCUMENTEVENT_FLAGS macro"]
 f1_keywords:
  - "winddiui/DOCUMENTEVENT_FLAGS"
 ms.keywords: DOCUMENTEVENT_FLAGS

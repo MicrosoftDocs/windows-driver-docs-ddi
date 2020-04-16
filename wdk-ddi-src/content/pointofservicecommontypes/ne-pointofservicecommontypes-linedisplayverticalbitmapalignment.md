@@ -6,8 +6,8 @@ old-location: pos\linedisplayverticalbitmapalignment.htm
 tech.root: pos
 ms.assetid: ADB42318-BE2F-4D70-912C-79D29DF12D72
 ms.date: 02/23/2018
+keywords: ["LineDisplayVerticalBitmapAlignment enumeration"]
 ms.keywords: LineDisplayVerticalBitmapAlignment, LineDisplayVerticalBitmapAlignment enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayVerticalBitmapAlignment, pos.linedisplayverticalbitmapalignment
-ms.topic: enum
 f1_keywords:
  - "pointofservicecommontypes/LineDisplayVerticalBitmapAlignment"
 req.header: pointofservicecommontypes.h

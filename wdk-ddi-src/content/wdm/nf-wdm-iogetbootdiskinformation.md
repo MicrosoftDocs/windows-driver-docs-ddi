@@ -6,8 +6,8 @@ old-location: kernel\iogetbootdiskinformation.htm
 tech.root: kernel
 ms.assetid: 744d5eae-2bdf-46b0-9412-f73e55939d8b
 ms.date: 04/30/2018
+keywords: ["IoGetBootDiskInformation function"]
 ms.keywords: IoGetBootDiskInformation, IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture], k104_11afe919-6902-4f53-9006-57cc4be126f1.xml, kernel.iogetbootdiskinformation, wdm/IoGetBootDiskInformation
-ms.topic: function
 f1_keywords:
  - "wdm/IoGetBootDiskInformation"
 req.header: wdm.h

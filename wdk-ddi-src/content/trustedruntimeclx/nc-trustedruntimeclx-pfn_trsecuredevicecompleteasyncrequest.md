@@ -4,7 +4,7 @@ title: PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST (trustedruntimeclx.h)
 description: 
 ms.assetid: ec151fa2-ab0d-4858-8e4d-8201b80cd138
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["*PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST callback function"]
 f1_keywords:
  - "trustedruntimeclx/*PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST"
 req.header: trustedruntimeclx.h
@@ -31,7 +31,7 @@ api_type:
 api_location: 
 - trustedruntimeclx.h
 api_name: 
-- *PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
+- PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST
 product:
 - Windows
 targetos: Windows

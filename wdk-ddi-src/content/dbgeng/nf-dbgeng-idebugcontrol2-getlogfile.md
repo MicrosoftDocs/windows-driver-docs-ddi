@@ -6,8 +6,8 @@ old-location: debugger\getlogfile.htm
 tech.root: debugger
 ms.assetid: 9d71a817-55b5-4042-8de8-15b23e51dffd
 ms.date: 05/03/2018
+keywords: ["IDebugControl2::GetLogFile"]
 ms.keywords: GetLogFile, GetLogFile method [Windows Debugging], GetLogFile method [Windows Debugging],IDebugControl interface, GetLogFile method [Windows Debugging],IDebugControl2 interface, GetLogFile method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetLogFile method, IDebugControl2 interface [Windows Debugging],GetLogFile method, IDebugControl2.GetLogFile, IDebugControl2::GetLogFile, IDebugControl3 interface [Windows Debugging],GetLogFile method, IDebugControl3::GetLogFile, IDebugControl::GetLogFile, IDebugControl_cad2fa56-b2ca-4a26-822e-193acf602913.xml, dbgeng/IDebugControl2::GetLogFile, dbgeng/IDebugControl3::GetLogFile, dbgeng/IDebugControl::GetLogFile, debugger.getlogfile
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl.GetLogFile"
 req.header: dbgeng.h

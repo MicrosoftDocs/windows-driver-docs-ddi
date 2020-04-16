@@ -6,8 +6,8 @@ old-location: wdf\iwdfdevice2_resumeidle.htm
 tech.root: wdf
 ms.assetid: e821f738-3712-49c2-9026-ff6ddc0381a6
 ms.date: 02/26/2018
+keywords: ["IWDFDevice2::ResumeIdle"]
 ms.keywords: IWDFDevice2 interface,ResumeIdle method, IWDFDevice2.ResumeIdle, IWDFDevice2::ResumeIdle, ResumeIdle, ResumeIdle method, ResumeIdle method,IWDFDevice2 interface, UMDFDeviceObjectRef_2c3c90d0-ac7d-44ac-b643-7dd6abd8ac67.xml, umdf.iwdfdevice2_resumeidle, wdf.iwdfdevice2_resumeidle, wudfddi/IWDFDevice2::ResumeIdle
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFDevice2.ResumeIdle"
 req.header: wudfddi.h

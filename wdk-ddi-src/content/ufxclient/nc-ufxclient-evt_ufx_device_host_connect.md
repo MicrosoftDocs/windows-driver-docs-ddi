@@ -6,8 +6,8 @@ old-location: buses\evt_ufx_device_host_connect.htm
 tech.root: usbref
 ms.assetid: 8F38C4EC-08BD-4CEF-97AB-B282ECC19627
 ms.date: 05/07/2018
+keywords: ["EVT_UFX_DEVICE_HOST_CONNECT callback function"]
 ms.keywords: EVT_UFX_DEVICE_HOST_CONNECT, EVT_UFX_DEVICE_HOST_CONNECT callback, EvtUfxDeviceHostConnect, EvtUfxDeviceHostConnect callback function [Buses], PFN_UFX_DEVICE_HOST_CONNECT, PFN_UFX_DEVICE_HOST_CONNECT callback function pointer [Buses], buses.evt_ufx_device_host_connect, ufxclient/EvtUfxDeviceHostConnect
-ms.topic: callback
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_HOST_CONNECT"
 req.header: ufxclient.h

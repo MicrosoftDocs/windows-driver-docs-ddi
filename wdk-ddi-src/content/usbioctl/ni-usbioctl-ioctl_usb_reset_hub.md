@@ -6,8 +6,8 @@ old-location: buses\ioctl_usb_reset_hub.htm
 tech.root: usbref
 ms.assetid: 5e9294bf-94ba-48c4-b2e3-83ad96a051b1
 ms.date: 05/07/2018
+keywords: ["IOCTL_USB_RESET_HUB IOCTL"]
 ms.keywords: IOCTL_USB_RESET_HUB, IOCTL_USB_RESET_HUB control, IOCTL_USB_RESET_HUB control code [Buses], buses.ioctl_usb_reset_hub, usbioctl/IOCTL_USB_RESET_HUB
-ms.topic: ioctl
 f1_keywords:
  - "usbioctl/IOCTL_USB_RESET_HUB"
 req.header: usbioctl.h

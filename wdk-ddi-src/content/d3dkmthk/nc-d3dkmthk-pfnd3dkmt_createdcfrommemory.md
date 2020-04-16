@@ -5,8 +5,8 @@ description: The D3DKMTCreateDCFromMemory function creates a display context fro
 old-location: display\d3dkmtcreatedcfrommemory.htm
 ms.assetid: c02f53d9-7cf2-4420-9aea-4dba916be786
 ms.date: 05/10/2018
+keywords: ["PFND3DKMT_CREATEDCFROMMEMORY callback function"]
 ms.keywords: D3DKMTCreateDCFromMemory, D3DKMTCreateDCFromMemory callback function [Display Devices], OpenGL_Functions_676f0d3e-5a5a-48d5-9092-88ac897a73b8.xml, PFND3DKMT_CREATEDCFROMMEMORY, PFND3DKMT_CREATEDCFROMMEMORY callback, d3dkmthk/D3DKMTCreateDCFromMemory, display.d3dkmtcreatedcfrommemory
-ms.topic: callback
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateDCFromMemory"
 req.header: d3dkmthk.h

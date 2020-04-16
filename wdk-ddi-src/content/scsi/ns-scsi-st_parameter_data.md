@@ -6,8 +6,8 @@ old-location: storage\st_parameter_data.htm
 tech.root: storage
 ms.assetid: C50F45EC-433C-421D-BD02-4C86CB44D5A4
 ms.date: 03/29/2018
+keywords: ["ST_PARAMETER_DATA structure"]
 ms.keywords: "*PST_PARAMETER_DATA, PST_PARAMETER_DATA, PST_PARAMETER_DATA structure pointer [Storage Devices], ST_PARAMETER_DATA, ST_PARAMETER_DATA structure [Storage Devices], scsi/PST_PARAMETER_DATA, scsi/ST_PARAMETER_DATA, storage.st_parameter_data"
-ms.topic: struct
 f1_keywords:
  - "scsi/ST_PARAMETER_DATA"
 req.header: scsi.h

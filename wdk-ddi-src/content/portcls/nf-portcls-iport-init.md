@@ -5,7 +5,7 @@ description: The Init method initializes the port driver.
 tech.root: audio
 ms.assetid: 57c68de4-8063-41c0-897c-bc22c9a2b0f1
 ms.date: 10/31/2018
-ms.topic: method
+keywords: ["IPort::Init"]
 f1_keywords:
  - "portcls/IPort.Init"
 ms.keywords: IPort::Init, Init, IPort.Init, IPort::Init, IPort.Init

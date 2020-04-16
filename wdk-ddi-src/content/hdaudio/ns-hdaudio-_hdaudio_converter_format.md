@@ -6,8 +6,8 @@ old-location: audio\hdaudio_converter_format.htm
 tech.root: audio
 ms.assetid: 623f58f6-db82-4a4a-bac3-cc821babfe99
 ms.date: 05/08/2018
+keywords: ["_HDAUDIO_CONVERTER_FORMAT structure"]
 ms.keywords: "*PHDAUDIO_CONVERTER_FORMAT, HDAUDIO_CONVERTER_FORMAT, HDAUDIO_CONVERTER_FORMAT structure [Audio Devices], PHDAUDIO_CONVERTER_FORMAT, PHDAUDIO_CONVERTER_FORMAT structure pointer [Audio Devices], _HDAUDIO_CONVERTER_FORMAT, aud-prop2_fbc3cdcb-94a1-43ef-bf23-4b1cca37e99d.xml, audio.hdaudio_converter_format, hdaudio/HDAUDIO_CONVERTER_FORMAT, hdaudio/PHDAUDIO_CONVERTER_FORMAT"
-ms.topic: struct
 f1_keywords:
  - "hdaudio/HDAUDIO_CONVERTER_FORMAT"
 req.header: hdaudio.h

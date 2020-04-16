@@ -6,8 +6,8 @@ old-location: buses\evt_udecx_usb_device_endpoints_configure.htm
 tech.root: usbref
 ms.assetid: 5E425011-BFC7-434C-9D0A-DB4481EC315F
 ms.date: 05/07/2018
+keywords: ["EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE callback function"]
 ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE, EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE callback, EvtUsbDeviceEndpointsConfigure, EvtUsbDeviceEndpointsConfigure callback function [Buses], buses.evt_udecx_usb_device_endpoints_configure, udecxusbdevice/EvtUsbDeviceEndpointsConfigure
-ms.topic: callback
 f1_keywords:
  - "udecxusbdevice/EvtUsbDeviceEndpointsConfigure"
 req.header: udecxusbdevice.h

@@ -6,8 +6,8 @@ old-location: wdf\wdfdevicesetdevicestate.htm
 tech.root: wdf
 ms.assetid: bee3c0e9-9196-4e9b-9b75-08883f452304
 ms.date: 02/26/2018
+keywords: ["WdfDeviceSetDeviceState function"]
 ms.keywords: DFDeviceObjectGeneralRef_41bd0604-a8fb-4df9-a1d2-f602d7ddcac4.xml, WdfDeviceSetDeviceState, WdfDeviceSetDeviceState method, kmdf.wdfdevicesetdevicestate, wdf.wdfdevicesetdevicestate, wdfdevice/WdfDeviceSetDeviceState
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceSetDeviceState"
 req.header: wdfdevice.h

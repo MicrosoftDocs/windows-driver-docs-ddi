@@ -6,8 +6,8 @@ old-location: ifsk\fltwritefileex.htm
 tech.root: ifsk
 ms.assetid: 18B2B486-5525-4132-96E8-EEA74342E0EA
 ms.date: 04/16/2018
+keywords: ["FltWriteFileEx function"]
 ms.keywords: FltWriteFileEx, FltWriteFileEx function [Installable File System Drivers], fltkernel/FltWriteFileEx, ifsk.fltwritefileex
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltWriteFileEx"
 req.header: fltkernel.h
@@ -84,7 +84,7 @@ If the file object that <i>FileObject</i> points to was opened for asynchronous 
 
 ### -param Length [in]
 
-The size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. 
+The size, in bytes, of the buffer that the <i>Buffer</i> parameter points to. If an MDL is provided in <i>Mdl</i>, then <i>Length</i> is the size of the data that MDL describes.
 
 
 ### -param Buffer [in]

@@ -6,8 +6,8 @@ old-location: stream\ksdispatchsetsecurity.htm
 tech.root: stream
 ms.assetid: c1af342a-438d-4c83-be2d-a4c4c9f204b5
 ms.date: 04/23/2018
+keywords: ["KsDispatchSetSecurity function"]
 ms.keywords: KsDispatchSetSecurity, KsDispatchSetSecurity function [Streaming Media Devices], ks/KsDispatchSetSecurity, ksfunc_b643b100-dc1c-4df4-b1e4-32ac7ae59b2a.xml, stream.ksdispatchsetsecurity
-ms.topic: function
 f1_keywords:
  - "ks/KsDispatchSetSecurity"
 req.header: ks.h

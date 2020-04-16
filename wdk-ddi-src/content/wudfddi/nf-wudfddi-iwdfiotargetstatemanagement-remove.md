@@ -6,8 +6,8 @@ old-location: wdf\iwdfiotargetstatemanagement_remove.htm
 tech.root: wdf
 ms.assetid: 28a802b3-f916-4455-a93a-868393a570cf
 ms.date: 02/26/2018
+keywords: ["IWDFIoTargetStateManagement::Remove"]
 ms.keywords: IWDFIoTargetStateManagement interface,Remove method, IWDFIoTargetStateManagement.Remove, IWDFIoTargetStateManagement::Remove, Remove, Remove method, Remove method,IWDFIoTargetStateManagement interface, UMDFIoTargetObjectRef_aad5b1f1-14c0-442f-a289-be006b20816e.xml, umdf.iwdfiotargetstatemanagement_remove, wdf.iwdfiotargetstatemanagement_remove, wudfddi/IWDFIoTargetStateManagement::Remove
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoTargetStateManagement.Remove"
 req.header: wudfddi.h

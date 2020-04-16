@@ -6,8 +6,8 @@ old-location: pos\msr_update_key.htm
 tech.root: pos
 ms.assetid: 8d7f85d4-af10-4ae5-a891-18dd41192c6a
 ms.date: 02/23/2018
+keywords: ["_MSR_UPDATE_KEY structure"]
 ms.keywords: "*PMSR_UPDATE_KEY, MSR_UPDATE_KEY, MSR_UPDATE_KEY structure, PMSR_UPDATE_KEY, PMSR_UPDATE_KEY structure pointer, _MSR_UPDATE_KEY, pointofservicedriverinterface/MSR_UPDATE_KEY, pointofservicedriverinterface/PMSR_UPDATE_KEY, pos.msr_update_key"
-ms.topic: struct
 f1_keywords:
  - "pointofservicedriverinterface/MSR_UPDATE_KEY"
 req.header: pointofservicedriverinterface.h

@@ -6,8 +6,8 @@ old-location: hid\ioctl_hid_disable_secure_read.htm
 tech.root: hid
 ms.assetid: 7e63110d-6383-4e57-a66a-7d5190a98314
 ms.date: 04/30/2018
+keywords: ["IOCTL_HID_DISABLE_SECURE_READ IOCTL"]
 ms.keywords: IOCTL_HID_DISABLE_SECURE_READ, IOCTL_HID_DISABLE_SECURE_READ control, IOCTL_HID_DISABLE_SECURE_READ control code [Human Input Devices], hid.ioctl_hid_disable_secure_read, hidclass/IOCTL_HID_DISABLE_SECURE_READ, hidioreq_a1eddca2-c66a-4311-ac07-71f5880cbffb.xml
-ms.topic: ioctl
 f1_keywords:
  - "hidclass/IOCTL_HID_DISABLE_SECURE_READ"
 req.header: hidclass.h

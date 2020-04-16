@@ -5,8 +5,8 @@ description: DXGK_MEMORYRANGE is used with DxgkDdiQueryAdapterInfo and DXGK_QUER
 old-location: display\dxgk_memoryrange.htm
 ms.assetid: 68B9465D-BA5E-4DE3-8A55-B344399FBB5F
 ms.date: 05/10/2018
+keywords: ["_DXGK_MEMORYRANGE structure"]
 ms.keywords: DXGK_MEMORYRANGE, DXGK_MEMORYRANGE structure [Display Devices], _DXGK_MEMORYRANGE, d3dkmddi/DXGK_MEMORYRANGE, display.dxgk_memoryrange
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_MEMORYRANGE"
 req.header: d3dkmddi.h

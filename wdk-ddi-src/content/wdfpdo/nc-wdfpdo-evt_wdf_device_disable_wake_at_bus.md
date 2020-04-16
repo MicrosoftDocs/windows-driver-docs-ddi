@@ -6,8 +6,8 @@ old-location: wdf\evtdevicedisablewakeatbus.htm
 tech.root: wdf
 ms.assetid: 91ae9694-5020-42ee-b882-a753e9bbe919
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS callback function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_3f6a4a69-a6aa-48a5-9a6a-fd64c569edca.xml, EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS, EVT_WDF_DEVICE_DISABLE_WAKE_AT_BUS callback, EvtDeviceDisableWakeAtBus, EvtDeviceDisableWakeAtBus callback function, kmdf.evtdevicedisablewakeatbus, wdf.evtdevicedisablewakeatbus, wdfpdo/EvtDeviceDisableWakeAtBus
-ms.topic: callback
 f1_keywords:
  - "wdfpdo/EvtDeviceDisableWakeAtBus"
 req.header: wdfpdo.h

@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: f740c2ac-25b0-4d04-a524-e5670b53e903
 ms.author: windowsdriverdev
 ms.date: 10/22/2019
-ms.topic: struct
+keywords: ["NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES structure"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES"
 ms.keywords: NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES, NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES, 

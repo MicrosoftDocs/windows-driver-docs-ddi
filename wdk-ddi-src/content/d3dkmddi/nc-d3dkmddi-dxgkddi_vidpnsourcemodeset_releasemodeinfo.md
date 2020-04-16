@@ -5,8 +5,8 @@ description: The pfnReleaseModeInfo function releases a D3DKMDT_VIDPN_SOURCE_MOD
 old-location: display\dxgk_vidpnsourcemodeset_interface_pfnreleasemodeinfo.htm
 ms.assetid: 614283cc-90bf-44f2-bab2-1aeec5e7de01
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_VIDPNSOURCEMODESET_RELEASEMODEINFO callback function"]
 ms.keywords: DXGKDDI_VIDPNSOURCEMODESET_RELEASEMODEINFO, DXGKDDI_VIDPNSOURCEMODESET_RELEASEMODEINFO callback, VidPnFunctions_4516c897-bcf8-4a32-9517-45c86690d746.xml, d3dkmddi/pfnReleaseModeInfo, display.dxgk_vidpnsourcemodeset_interface_pfnreleasemodeinfo, pfnReleaseModeInfo, pfnReleaseModeInfo callback function [Display Devices]
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

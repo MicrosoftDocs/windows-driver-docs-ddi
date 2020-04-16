@@ -6,8 +6,8 @@ old-location: pci\sriov_device_interface_standard_2.htm
 tech.root: PCI
 ms.assetid: 46c9fa94-283c-481e-9fb1-2ed63df00386
 ms.date: 02/24/2018
+keywords: ["_SRIOV_DEVICE_INTERFACE_STANDARD_2 structure"]
 ms.keywords: "*PSRIOV_DEVICE_INTERFACE_STANDARD_2, PCI.sriov_device_interface_standard_2, SRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2 structure [Buses], _SRIOV_DEVICE_INTERFACE_STANDARD_2, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD_2"
-ms.topic: struct
 f1_keywords:
  - "pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD_2"
 req.header: pcivirt.h

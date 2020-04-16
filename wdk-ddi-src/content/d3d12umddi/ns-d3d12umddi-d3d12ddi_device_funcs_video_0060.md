@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: d8e45d0b-1699-44c3-b12e-8eecd6b3499c
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
+keywords: ["D3D12DDI_DEVICE_FUNCS_VIDEO_0060 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_VIDEO_0060"
 ms.prod: windows-hardware

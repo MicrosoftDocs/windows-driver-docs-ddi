@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlsetkerneleafile.htm
 tech.root: ifsk
 ms.assetid: E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD
 ms.date: 04/16/2018
+keywords: ["FsRtlSetKernelEaFile function"]
 ms.keywords: FsRtlSetKernelEaFile, FsRtlSetKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlsetkerneleafile, ntifs/FsRtlSetKernelEaFile
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlSetKernelEaFile"
 req.header: ntifs.h

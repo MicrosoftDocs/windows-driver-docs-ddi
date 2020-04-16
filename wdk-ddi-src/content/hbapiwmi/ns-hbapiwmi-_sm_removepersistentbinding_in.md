@@ -6,8 +6,8 @@ old-location: storage\sm_removepersistentbinding_in.htm
 tech.root: storage
 ms.assetid: 47e6a189-4b16-411a-8552-3e6f998516ba
 ms.date: 03/29/2018
+keywords: ["_SM_RemovePersistentBinding_IN structure"]
 ms.keywords: "*PSM_RemovePersistentBinding_IN, PSM_RemovePersistentBinding_IN, PSM_RemovePersistentBinding_IN structure pointer [Storage Devices], SM_RemovePersistentBinding_IN, SM_RemovePersistentBinding_IN structure [Storage Devices], _SM_RemovePersistentBinding_IN, hbapiwmi/PSM_RemovePersistentBinding_IN, hbapiwmi/SM_RemovePersistentBinding_IN, storage.sm_removepersistentbinding_in, structs-Fibre_d27cd5dc-07ee-470c-ad0d-239f1d378841.xml"
-ms.topic: struct
 f1_keywords:
  - "hbapiwmi/SM_RemovePersistentBinding_IN"
 req.header: hbapiwmi.h

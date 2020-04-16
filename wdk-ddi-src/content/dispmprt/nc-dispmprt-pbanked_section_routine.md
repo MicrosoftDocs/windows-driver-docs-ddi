@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: f2d3b495-2977-4b51-a613-0e04e2e94c53
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
+keywords: ["PBANKED_SECTION_ROUTINE callback function"]
 f1_keywords:
  - "dispmprt/PBANKED_SECTION_ROUTINE"
 req.header: dispmprt.h

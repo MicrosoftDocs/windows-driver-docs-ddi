@@ -6,8 +6,8 @@ old-location: debugger\extremotetypedlist_gettypednodeptr.htm
 tech.root: debugger
 ms.assetid: 3bf50952-7ac9-4c6b-9318-dd64748de9d2
 ms.date: 05/03/2018
+keywords: ["ExtRemoteTypedList::GetTypedNodePtr"]
 ms.keywords: EngExtCpp_Ref_f007b7c1-89b0-43fa-95e3-792a3272b56d.xml, ExtRemoteTypedList class [Windows Debugging],GetTypedNodePtr method, ExtRemoteTypedList.GetTypedNodePtr, ExtRemoteTypedList::GetTypedNodePtr, GetTypedNodePtr, GetTypedNodePtr method [Windows Debugging], GetTypedNodePtr method [Windows Debugging],ExtRemoteTypedList class, debugger.extremotetypedlist_gettypednodeptr
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteTypedList.GetTypedNodePtr"
 req.header: engextcpp.hpp

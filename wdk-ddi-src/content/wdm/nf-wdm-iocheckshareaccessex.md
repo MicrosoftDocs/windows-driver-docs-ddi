@@ -6,8 +6,8 @@ old-location: kernel\iocheckshareaccessex.htm
 tech.root: kernel
 ms.assetid: E6CDE415-FCC2-4039-B6DD-168113D9A490
 ms.date: 04/30/2018
+keywords: ["IoCheckShareAccessEx function"]
 ms.keywords: IoCheckShareAccessEx, IoCheckShareAccessEx routine [Kernel-Mode Driver Architecture], kernel.iocheckshareaccessex, wdm/IoCheckShareAccessEx
-ms.topic: function
 f1_keywords:
  - "wdm/IoCheckShareAccessEx"
 req.header: wdm.h

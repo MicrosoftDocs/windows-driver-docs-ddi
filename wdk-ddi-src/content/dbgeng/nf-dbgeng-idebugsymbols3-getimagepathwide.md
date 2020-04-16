@@ -6,8 +6,8 @@ old-location: debugger\getimagepathwide.htm
 tech.root: debugger
 ms.assetid: 884a5577-3ae8-4444-bf09-3fe4f72dc7d9
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::GetImagePathWide"]
 ms.keywords: GetImagePathWide, GetImagePathWide method [Windows Debugging], GetImagePathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetImagePathWide method, IDebugSymbols3.GetImagePathWide, IDebugSymbols3::GetImagePathWide, dbgeng/IDebugSymbols3::GetImagePathWide, debugger.getimagepathwide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetImagePathWide"
 req.header: dbgeng.h

@@ -6,8 +6,8 @@ old-location: storage\ioctl_scsi_get_address.htm
 tech.root: storage
 ms.assetid: 56e2a62c-ecf1-45c8-ba65-fb53b1897ddb
 ms.date: 11/07/2019
+keywords: ["IOCTL_SCSI_GET_ADDRESS IOCTL"]
 ms.keywords: IOCTL_SCSI_GET_ADDRESS, IOCTL_SCSI_GET_ADDRESS control, IOCTL_SCSI_GET_ADDRESS control code [Storage Devices], k307_0d205fdd-0951-42ef-bd5c-09727bee65f4.xml, ntddscsi/IOCTL_SCSI_GET_ADDRESS, storage.ioctl_scsi_get_address
-ms.topic: ioctl
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_GET_ADDRESS"
 req.header: ntddscsi.h
@@ -53,7 +53,7 @@ This request is not relevant to storage class drivers that support Plug and Play
 This request must be directed to a class driver or to a PDO created by the port driver.
 
 > [!NOTE]
-> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver) and [Storport miniport](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
 
 ## -ioctlparameters
 

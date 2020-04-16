@@ -6,8 +6,8 @@ old-location: serports\sercx2systemdmareceivenewdatanotification.htm
 tech.root: serports
 ms.assetid: 9ECC15F2-9D08-4EEF-ADBD-612D8D1B5B72
 ms.date: 04/23/2018
+keywords: ["SerCx2SystemDmaReceiveNewDataNotification function"]
 ms.keywords: 2/SerCx2SystemDmaReceiveNewDataNotification, SerCx2SystemDmaReceiveNewDataNotification, SerCx2SystemDmaReceiveNewDataNotification method [Serial Ports], serports.sercx2systemdmareceivenewdatanotification
-ms.topic: function
 f1_keywords:
  - "sercx/SerCx2SystemDmaReceiveNewDataNotification"
 req.header: sercx.h

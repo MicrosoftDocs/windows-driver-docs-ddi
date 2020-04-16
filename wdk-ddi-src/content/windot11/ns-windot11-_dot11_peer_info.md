@@ -6,8 +6,8 @@ old-location: netvista\dot11_peer_info.htm
 tech.root: netvista
 ms.assetid: f1d5bbd9-45e3-4802-ab9b-77ff6bdcd6ec
 ms.date: 02/16/2018
+keywords: ["_DOT11_PEER_INFO structure"]
 ms.keywords: "*PDOT11_PEER_INFO, DOT11_PEER_INFO, DOT11_PEER_INFO structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_411bca70-e6de-4dc0-8326-76f5eb5c6a86.xml, PDOT11_PEER_INFO, PDOT11_PEER_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PEER_INFO, netvista.dot11_peer_info, windot11/DOT11_PEER_INFO, windot11/PDOT11_PEER_INFO"
-ms.topic: struct
 f1_keywords:
  - "windot11/DOT11_PEER_INFO"
 req.header: windot11.h

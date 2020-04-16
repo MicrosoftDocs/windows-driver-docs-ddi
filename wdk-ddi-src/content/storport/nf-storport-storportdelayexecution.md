@@ -5,7 +5,7 @@ description: The StorPortDelayExecution function delays the current thread by th
 tech.root: storage
 ms.assetid: 77d6e5c0-ff4d-4a2c-8fdf-a89b1c2779b3
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["StorPortDelayExecution function"]
 f1_keywords:
  - "storport/StorPortDelayExecution"
 ms.keywords: StorPortDelayExecution

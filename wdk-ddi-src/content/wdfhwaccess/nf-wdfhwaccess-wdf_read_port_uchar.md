@@ -6,8 +6,8 @@ old-location: wdf\wdf_read_port_uchar.htm
 tech.root: wdf
 ms.assetid: FC7AB24C-2AE0-4014-82FE-97C285E9558E
 ms.date: 02/26/2018
+keywords: ["WDF_READ_PORT_UCHAR function"]
 ms.keywords: WDF_READ_PORT_UCHAR, WDF_READ_PORT_UCHAR function, wdf.wdf_read_port_uchar, wdfhwaccess/WDF_READ_PORT_UCHAR
-ms.topic: function
 f1_keywords:
  - "wdfhwaccess/WDF_READ_PORT_UCHAR"
 req.header: wdfhwaccess.h

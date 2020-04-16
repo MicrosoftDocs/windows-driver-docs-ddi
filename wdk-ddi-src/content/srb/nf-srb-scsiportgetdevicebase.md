@@ -6,8 +6,8 @@ old-location: storage\scsiportgetdevicebase.htm
 tech.root: storage
 ms.assetid: d8d14818-4b84-4c65-a29e-2cd97e8bfbe9
 ms.date: 03/29/2018
+keywords: ["ScsiPortGetDeviceBase function"]
 ms.keywords: ScsiPortGetDeviceBase, ScsiPortGetDeviceBase routine [Storage Devices], scsiprt_2924bfb1-e5a0-4533-afd7-65d2d7962b46.xml, srb/ScsiPortGetDeviceBase, storage.scsiportgetdevicebase
-ms.topic: function
 f1_keywords:
  - "srb/ScsiPortGetDeviceBase"
 req.header: srb.h

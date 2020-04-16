@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: 685c8f66-5b3a-4bb5-8579-18197e661e73
 ms.author: windowsdriverdev
 ms.date: 02/14/2019
-ms.topic: enum
+keywords: ["WDI_SAE_INDICATION_TYPE enumeration"]
 f1_keywords:
  - "wditypes/WDI_SAE_INDICATION_TYPE"
 ms.keywords: WDI_SAE_INDICATION_TYPE, WDI_SAE_INDICATION_TYPE, 

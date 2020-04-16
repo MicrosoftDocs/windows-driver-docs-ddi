@@ -6,8 +6,8 @@ old-location: ifsk\keinitializequeue.htm
 tech.root: ifsk
 ms.assetid: 8dd47333-679a-482b-bd45-1e73505b3fea
 ms.date: 04/16/2018
+keywords: ["KeInitializeQueue function"]
 ms.keywords: KeInitializeQueue, KeInitializeQueue routine [Installable File System Drivers], ifsk.keinitializequeue, keref_85ea0829-c42c-4411-8ad9-a32d8eb0a40f.xml, ntifs/KeInitializeQueue
-ms.topic: function
 f1_keywords:
  - "ntifs/KeInitializeQueue"
 req.header: ntifs.h

@@ -4,7 +4,7 @@ title: _DXGKARG_SUSPENDCONTEXT (d3dkmddi.h)
 description: Arguments used in the DxgkddiSuspendContext callback function.
 ms.assetid: 3ca4dc90-55b2-4b5d-8f58-0967e817a26d
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_DXGKARG_SUSPENDCONTEXT structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARG_SUSPENDCONTEXT"
 ms.keywords: _DXGKARG_SUSPENDCONTEXT, DXGKARG_SUSPENDCONTEXT,

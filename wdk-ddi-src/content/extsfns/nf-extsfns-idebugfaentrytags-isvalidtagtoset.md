@@ -6,8 +6,8 @@ old-location: debugger\idebugfaentrytags_isvalidtagtoset.htm
 tech.root: debugger
 ms.assetid: 83B5C54F-182B-4D2F-8ED2-7A0B529F1D2E
 ms.date: 05/03/2018
+keywords: ["IDebugFAEntryTags::IsValidTagToSet"]
 ms.keywords: IDebugFAEntryTags interface [Windows Debugging],IsValidTagToSet method, IDebugFAEntryTags.IsValidTagToSet, IDebugFAEntryTags::IsValidTagToSet, IsValidTagToSet, IsValidTagToSet method [Windows Debugging], IsValidTagToSet method [Windows Debugging],IDebugFAEntryTags interface, debugger.idebugfaentrytags_isvalidtagtoset, extsfns/IDebugFAEntryTags::IsValidTagToSet
-ms.topic: method
 f1_keywords:
  - "extsfns/IDebugFAEntryTags.IsValidTagToSet"
 req.header: extsfns.h

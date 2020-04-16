@@ -6,8 +6,8 @@ old-location: ifsk\fltfastiomdlreadcomplete.htm
 tech.root: ifsk
 ms.assetid: 6F5E808C-9E35-4BE8-AE67-FDD354D6FD0E
 ms.date: 04/16/2018
+keywords: ["FltFastIoMdlReadComplete function"]
 ms.keywords: FltFastIoMdlReadComplete, FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadCompleteDev, ifsk.fltfastiomdlreadcomplete
-ms.topic: function
 f1_keywords:
  - "fltkernel/FsRtlMdlReadCompleteDev"
 req.header: fltkernel.h
@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>FltFastIoMdlReadComplete</b> routine completes the read operation that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a> routine initiated.
+The <b>FltFastIoMdlReadComplete</b> routine completes the read operation that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a> routine initiated.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A pointer to the file object.
 
 ### -param MdlChain [in]
 
-On return, a pointer to a linked list of one or more MDLs that point to the cached file data.
+A pointer to a linked list of memory descriptor lists (MDLs) that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a> routine allocated.
 
 
 ## -returns
@@ -84,7 +84,7 @@ None
 
 
 
-The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory that the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a> routine allocated.
+The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a> routine allocated.
 
 
 
@@ -94,7 +94,7 @@ The <b>FltFastIoMdlReadComplete</b> routine unlocks the pages in cache memory th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh706188">FltFastIoMdlRead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlread">FltFastIoMdlRead</a>
  
 
  

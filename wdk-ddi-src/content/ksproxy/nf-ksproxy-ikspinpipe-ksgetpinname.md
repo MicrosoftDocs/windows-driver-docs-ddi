@@ -6,8 +6,8 @@ old-location: stream\ikspinpipe_ksgetpinname.htm
 tech.root: stream
 ms.assetid: 2757FF0D-C84E-4309-AFD4-D9FE1F4D77CE
 ms.date: 04/23/2018
+keywords: ["IKsPinPipe::KsGetPinName"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPinName method, IKsPinPipe.KsGetPinName, IKsPinPipe::KsGetPinName, KsGetPinName, KsGetPinName method [Streaming Media Devices], KsGetPinName method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPinName, stream.ikspinpipe_ksgetpinname
-ms.topic: method
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsGetPinName"
 req.header: ksproxy.h
@@ -57,7 +57,7 @@ Returns the name of a pin.
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

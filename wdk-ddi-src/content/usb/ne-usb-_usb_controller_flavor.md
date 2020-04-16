@@ -6,8 +6,8 @@ old-location: buses\usb_controller_flavor.htm
 tech.root: usbref
 ms.assetid: c732fe90-50fb-4f6e-b42e-cb35c1ed0091
 ms.date: 05/07/2018
+keywords: ["_USB_CONTROLLER_FLAVOR enumeration"]
 ms.keywords: EHCI_Generic, EHCI_Intel_Medfield, EHCI_Lucent, EHCI_NEC, EHCI_NVIDIA_Tegra2, EHCI_NVIDIA_Tegra3, OHCI_Generic, OHCI_Hydra, OHCI_NEC, UHCI_Generic, UHCI_Ich1, UHCI_Ich2, UHCI_Ich3m, UHCI_Ich4, UHCI_Ich5, UHCI_Ich6, UHCI_Intel, UHCI_Piix3, UHCI_Piix4, UHCI_VIA, UHCI_VIA_x01, UHCI_VIA_x02, UHCI_VIA_x03, UHCI_VIA_x04, UHCI_VIA_x0E_FIFO, USB_CONTROLLER_FLAVOR, USB_CONTROLLER_FLAVOR enumeration [Buses], USB_HcGeneric, _USB_CONTROLLER_FLAVOR, buses.usb_controller_flavor, usb/EHCI_Generic, usb/EHCI_Intel_Medfield, usb/EHCI_Lucent, usb/EHCI_NEC, usb/EHCI_NVIDIA_Tegra2, usb/EHCI_NVIDIA_Tegra3, usb/OHCI_Generic, usb/OHCI_Hydra, usb/OHCI_NEC, usb/UHCI_Generic, usb/UHCI_Ich1, usb/UHCI_Ich2, usb/UHCI_Ich3m, usb/UHCI_Ich4, usb/UHCI_Ich5, usb/UHCI_Ich6, usb/UHCI_Intel, usb/UHCI_Piix3, usb/UHCI_Piix4, usb/UHCI_VIA, usb/UHCI_VIA_x01, usb/UHCI_VIA_x02, usb/UHCI_VIA_x03, usb/UHCI_VIA_x04, usb/UHCI_VIA_x0E_FIFO, usb/USB_CONTROLLER_FLAVOR, usb/USB_HcGeneric, usbstrct_a1b79c0b-7ee4-48bd-9793-8f37b9d248f2.xml
-ms.topic: enum
 f1_keywords:
  - "usb/USB_CONTROLLER_FLAVOR"
 req.header: usb.h

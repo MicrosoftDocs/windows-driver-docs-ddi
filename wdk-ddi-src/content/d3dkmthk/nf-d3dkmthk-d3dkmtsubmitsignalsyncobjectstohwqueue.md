@@ -5,8 +5,8 @@ description: Used to submit a signal to the hardware queue.
 old-location: display\d3dkmtsubmitsignalsyncobjectstohwqueue.htm
 ms.assetid: DA0D44AF-168F-4B9B-B184-1DC8C3477CBC
 ms.date: 05/10/2018
+keywords: ["D3DKMTSubmitSignalSyncObjectsToHwQueue function"]
 ms.keywords: D3DKMTSubmitSignalSyncObjectsToHwQueue, D3DKMTSubmitSignalSyncObjectsToHwQueue function [Display Devices], d3dkmthk/D3DKMTSubmitSignalSyncObjectsToHwQueue, display.d3dkmtsubmitsignalsyncobjectstohwqueue
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTSubmitSignalSyncObjectsToHwQueue"
 req.header: d3dkmthk.h

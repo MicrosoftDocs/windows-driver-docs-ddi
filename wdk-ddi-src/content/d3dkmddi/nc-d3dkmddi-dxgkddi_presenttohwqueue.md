@@ -4,7 +4,7 @@ title: DXGKDDI_PRESENTTOHWQUEUE (d3dkmddi.h)
 description: Copies content from a source allocation, given a handle to a hardware queue.
 ms.assetid: af78bc41-2a61-4ba3-be19-8daa7ebc8554
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["DXGKDDI_PRESENTTOHWQUEUE callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKDDI_PRESENTTOHWQUEUE"
 req.header: d3dkmddi.h

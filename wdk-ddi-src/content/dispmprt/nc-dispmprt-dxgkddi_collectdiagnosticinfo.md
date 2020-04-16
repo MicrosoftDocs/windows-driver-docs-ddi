@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: df12fb24-823a-439e-936a-bbf7079cf437
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
+keywords: ["DXGKDDI_COLLECTDIAGNOSTICINFO callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_COLLECTDIAGNOSTICINFO"
 req.header: dispmprt.h
@@ -56,7 +56,7 @@ In Windows 10, version 1903, the driver will be called to collect private inform
 ```
 //Declaration
 
-DXGKDDI_COLLECTDIAGNOSTICINFO DxgkddiCollectdiagnosticinfo; 
+DXGKDDI_COLLECTDIAGNOSTICINFO DxgkddiCollectdiagnosticinfo;
 
 // Definition
 
@@ -81,10 +81,29 @@ NTSTATUS DxgkddiCollectdiagnosticinfo
 
 ## -returns
 
-Return STATUS_SUCCESS if the private data information was successfully collected. Otherwise, returns STATUS_UNSUCCESSFUL if the driver couldn't collect the requested information.
+Returns STATUS_SUCCESS if the private data information was successfully collected. Otherwise, it returns an error code such as one of the following.
+
+| Error Code | Meaning |
+| ---------- | ------- |
+| STATUS_DRIVER_INTERNAL_ERROR | A generic SW error happened inside the driver. |
+| STATUS_ACCESS_DENIED         | The hardware is currently being used by other threads and this DDI can't get access to it. |
+| STATUS_DEVICE_HARDWARE_ERROR | A generic HW error happened. |
+| STATUS_DEVICE_POWERED_OFF    | The device is powered off. |
 
 ## -remarks
 
-This function is called at PASSIVE level, at any time in between the calls to [DxgkDdiAddDevice](../dispmprt/nc-dispmprt-dxgkddi_add_device.md) and [DxgkDdiStartDevice](../dispmprt/nc-dispmprt-dxgkddi_start_device.md), and should support [synchronization zero level](https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level). The collected data shouldn't contain any private user information.
+This function is called at PASSIVE level, at any time in between the calls to [**DxgkDdiAddDevice**](../dispmprt/nc-dispmprt-dxgkddi_add_device.md) and [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md), and should support [synchronization zero level](https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level). The collected data shouldn't contain any private user information.
+
+WDDM 2.7 and later drivers are required to support the **DXGK_DI_BLACKSCREEN** [**DXGK_DIAGNOSTICINFO_TYPE**](ne-dispmprt-dxgk_diagnosticinfo_type.md) enum type for black screen black box data collection.
+
+For black screen scenarios, the OS will first collect the white box data from the driver by calling [**DxgkDdiGetDisplayStateNonIntrusive**](nc-dispmprt-dxgkddi_getdisplaystatenonintrusive.md) and [**DxgkDdiGetDisplayStateIntrusive**](nc-dispmprt-dxgkddi_getdisplaystateintrusive.md) before calling this DDI to collect black box information.
+
+It is recommended to use **pCollectDiagnosticInfo->BucketingString** to bucketize the black box data where possible. If the size of the **BufferSizeIn** input buffer is not sufficient for all the black box data then drivers should make their own tradeoffs in leaving out the data that is least important in most black screen root cause analysis.
 
 ## -see-also
+
+[**DXGKARG_COLLECTDIAGNOSTICINFO**](ns-dispmprt-dxgkarg_collectdiagnosticinfo.md)
+
+[**DxgkDdiAddDevice**](../dispmprt/nc-dispmprt-dxgkddi_add_device.md)
+
+[**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md)

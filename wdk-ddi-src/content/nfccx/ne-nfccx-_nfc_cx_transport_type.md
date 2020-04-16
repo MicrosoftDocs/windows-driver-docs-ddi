@@ -6,8 +6,8 @@ old-location: nfpdrivers\nfc_cx_transport_type.htm
 tech.root: nfpdrivers
 ms.assetid: CC8BEC9A-87F6-4C50-A8FA-ED2A2A5D2934
 ms.date: 02/15/2018
+keywords: ["_NFC_CX_TRANSPORT_TYPE enumeration"]
 ms.keywords: "*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_CUSTOM, NFC_CX_TRANSPORT_I2C, NFC_CX_TRANSPORT_SPI, NFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], NFC_CX_TRANSPORT_TYPE,*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE,*PNFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], NFC_CX_TRANSPORT_UART, _NFC_CX_TRANSPORT_TYPE, nfccx/NFC_CX_TRANSPORT_CUSTOM, nfccx/NFC_CX_TRANSPORT_I2C, nfccx/NFC_CX_TRANSPORT_SPI, nfccx/NFC_CX_TRANSPORT_TYPE, nfccx/NFC_CX_TRANSPORT_UART, nfpdrivers.nfc_cx_transport_type"
-ms.topic: enum
 f1_keywords:
  - "nfccx/NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE"
 req.header: nfccx.h

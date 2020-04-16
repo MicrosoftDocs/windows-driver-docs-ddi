@@ -6,8 +6,8 @@ old-location: debugger\idebugfailureanalysis2_getfailurecode.htm
 tech.root: debugger
 ms.assetid: E407482E-26DD-40C6-9405-DF5CA8996B91
 ms.date: 05/03/2018
+keywords: ["IDebugFailureAnalysis2::GetFailureCode"]
 ms.keywords: GetFailureCode, GetFailureCode method [Windows Debugging], GetFailureCode method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetFailureCode method, IDebugFailureAnalysis2.GetFailureCode, IDebugFailureAnalysis2::GetFailureCode, debugger.idebugfailureanalysis2_getfailurecode, extsfns/IDebugFailureAnalysis2::GetFailureCode
-ms.topic: method
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.GetFailureCode"
 req.header: extsfns.h

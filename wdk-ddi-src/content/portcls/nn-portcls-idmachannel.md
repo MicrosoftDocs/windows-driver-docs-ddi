@@ -6,8 +6,8 @@ old-location: audio\idmachannel.htm
 tech.root: audio
 ms.assetid: 85fad1fb-d088-46ad-917c-bdbc31134690
 ms.date: 03/19/2018
+keywords: ["IDmaChannel interface"]
 ms.keywords: IDmaChannel, IDmaChannel interface [Audio Devices], IDmaChannel interface [Audio Devices], described, audio.idmachannel, audmp-routines_55e2df1d-771f-4427-a48e-671d4e113d5c.xml, portcls/IDmaChannel
-ms.topic: interface
 f1_keywords:
  - "portcls/IDmaChannel"
 req.header: portcls.h

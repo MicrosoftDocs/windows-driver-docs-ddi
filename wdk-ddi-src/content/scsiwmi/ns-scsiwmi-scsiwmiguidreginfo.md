@@ -6,8 +6,8 @@ old-location: storage\scsiwmiguidreginfo.htm
 tech.root: storage
 ms.assetid: 7116445e-751b-478a-8e58-8f5c90d06b9b
 ms.date: 03/29/2018
+keywords: ["SCSIWMIGUIDREGINFO structure"]
 ms.keywords: "*PSCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO, PSCSIWMIGUIDREGINFO structure pointer [Storage Devices], SCSIWMIGUIDREGINFO, SCSIWMIGUIDREGINFO structure [Storage Devices], scsiwmi/PSCSIWMIGUIDREGINFO, scsiwmi/SCSIWMIGUIDREGINFO, storage.scsiwmiguidreginfo, structs-scsibus_3688cdd5-2515-4fd8-8eae-37689dac26c0.xml"
-ms.topic: struct
 f1_keywords:
  - "scsiwmi/SCSIWMIGUIDREGINFO"
 req.header: scsiwmi.h

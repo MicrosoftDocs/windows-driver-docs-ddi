@@ -6,8 +6,8 @@ old-location: kernel\pep_unmasked_interrupt_flags.htm
 tech.root: kernel
 ms.assetid: A385FBF9-2222-49E0-A708-1638C0D2FF7A
 ms.date: 04/30/2018
+keywords: ["_PEP_UNMASKED_INTERRUPT_FLAGS structure"]
 ms.keywords: "*PPEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS union [Kernel-Mode Driver Architecture], _PEP_UNMASKED_INTERRUPT_FLAGS, kernel.pep_unmasked_interrupt_flags, pepfx/PEP_UNMASKED_INTERRUPT_FLAGS"
-ms.topic: struct
 f1_keywords:
  - "pepfx/PEP_UNMASKED_INTERRUPT_FLAGS"
 req.header: pepfx.h

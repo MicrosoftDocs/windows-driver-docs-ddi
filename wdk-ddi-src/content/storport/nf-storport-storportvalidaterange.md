@@ -6,8 +6,8 @@ old-location: storage\storportvalidaterange.htm
 tech.root: storage
 ms.assetid: 505d6986-c59d-46b3-8437-29fc6a808ccd
 ms.date: 03/29/2018
+keywords: ["StorPortValidateRange function"]
 ms.keywords: StorPortValidateRange, StorPortValidateRange routine [Storage Devices], storage.storportvalidaterange, storport/StorPortValidateRange, storprt_7d3583a5-211d-414e-880d-31c04145d3ab.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortValidateRange"
 req.header: storport.h

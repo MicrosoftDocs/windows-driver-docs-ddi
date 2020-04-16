@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 04ec8f9b-6171-4d59-a8b5-32c2e196adf4
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
+keywords: ["PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS callback function"]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d10umddi.h
@@ -53,9 +53,13 @@ Queries whether or not a transformation should occur in preparation for a flip o
 
 ### -param Arg1
 
+*hDevice* [in]
+
 A handle to the device.
 
 ### -param Arg2
+
+*hResource* [in]
 
 A handle to the resource that is associated with the allocations.
 

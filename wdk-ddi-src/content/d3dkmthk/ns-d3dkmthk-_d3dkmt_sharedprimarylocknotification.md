@@ -5,8 +5,8 @@ description: The D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure describes the sh
 old-location: display\d3dkmt_sharedprimarylocknotification.htm
 ms.assetid: 4e7766bb-eb5b-4f79-b9b8-89f7dcb98569
 ms.date: 05/10/2018
+keywords: ["_D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure"]
 ms.keywords: D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure [Display Devices], OpenGL_Structs_4ec11480-30cb-45a1-a31c-e7432ec45abf.xml, _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, d3dkmthk/D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION, display.d3dkmt_sharedprimarylocknotification
-ms.topic: struct
 f1_keywords:
  - "d3dkmthk/D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION"
 req.header: d3dkmthk.h

@@ -4,7 +4,7 @@ title: USBPM_CLIENT_CONFIG_INIT function (usbpmapi.h)
 description: Initializes a **USBPM_CLIENT_CONFIG** structure.
 ms.assetid: af50623f-d31a-47d9-b1dd-6472fd3bee04
 ms.date: 09/30/2018
-ms.topic: function
+keywords: ["USBPM_CLIENT_CONFIG_INIT function"]
 f1_keywords:
  - "usbpmapi/USBPM_CLIENT_CONFIG_INIT"
 ms.keywords: USBPM_CLIENT_CONFIG_INIT

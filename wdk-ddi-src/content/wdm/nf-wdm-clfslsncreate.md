@@ -6,8 +6,8 @@ old-location: kernel\clfslsncreate.htm
 tech.root: kernel
 ms.assetid: 2b183911-0c4d-4b67-834d-e876d22c99af
 ms.date: 04/30/2018
+keywords: ["ClfsLsnCreate function"]
 ms.keywords: ClfsLsnCreate, ClfsLsnCreate routine [Kernel-Mode Driver Architecture], Clfs_5eea5630-3db0-45bb-8e16-c9e69081f972.xml, kernel.clfslsncreate, wdm/ClfsLsnCreate
-ms.topic: function
 f1_keywords:
  - "wdm/ClfsLsnCreate"
 req.header: wdm.h

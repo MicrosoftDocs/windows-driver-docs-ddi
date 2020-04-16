@@ -6,8 +6,8 @@ old-location: storage\cdrom_play_audio_msf.htm
 tech.root: storage
 ms.assetid: 73589397-9b2b-4d49-9860-cb2eb6a26632
 ms.date: 03/29/2018
+keywords: ["_CDROM_PLAY_AUDIO_MSF structure"]
 ms.keywords: "*PCDROM_PLAY_AUDIO_MSF, CDROM_PLAY_AUDIO_MSF, CDROM_PLAY_AUDIO_MSF structure [Storage Devices], PCDROM_PLAY_AUDIO_MSF, PCDROM_PLAY_AUDIO_MSF structure pointer [Storage Devices], _CDROM_PLAY_AUDIO_MSF, ntddcdrm/CDROM_PLAY_AUDIO_MSF, ntddcdrm/PCDROM_PLAY_AUDIO_MSF, storage.cdrom_play_audio_msf, structs-CD-ROM_27bfe732-1972-4101-baa1-e9d520c3dfcf.xml"
-ms.topic: struct
 f1_keywords:
  - "ntddcdrm/CDROM_PLAY_AUDIO_MSF"
 req.header: ntddcdrm.h

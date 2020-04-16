@@ -6,8 +6,8 @@ old-location: print\drvprocs.htm
 tech.root: print
 ms.assetid: fcdfb7ba-cbb4-454b-b366-82d0c95b4afd
 ms.date: 04/20/2018
+keywords: ["_DRVPROCS structure"]
 ms.keywords: "*PDRVPROCS, DRVPROCS, DRVPROCS structure [Print Devices], PDRVPROCS, PDRVPROCS structure pointer [Print Devices], _DRVPROCS, print.drvprocs, print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml, printoem/DRVPROCS, printoem/PDRVPROCS"
-ms.topic: struct
 f1_keywords:
  - "printoem/DRVPROCS"
 req.header: printoem.h

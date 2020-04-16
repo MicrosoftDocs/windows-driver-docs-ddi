@@ -6,8 +6,8 @@ old-location: wdf\evtioqueuestate.htm
 tech.root: wdf
 ms.assetid: 14999036-c137-4056-b6f7-53a8476fd385
 ms.date: 02/26/2018
+keywords: ["EVT_WDF_IO_QUEUE_STATE callback function"]
 ms.keywords: DFQueueObjectRef_726524eb-d12b-451c-aa6e-3f60aa9b7940.xml, EVT_WDF_IO_QUEUE_STATE, EVT_WDF_IO_QUEUE_STATE callback, EvtIoQueueState, EvtIoQueueState callback function, kmdf.evtioqueuestate, wdf.evtioqueuestate, wdfio/EvtIoQueueState
-ms.topic: callback
 f1_keywords:
  - "wdfio/EvtIoQueueState"
 req.header: wdfio.h

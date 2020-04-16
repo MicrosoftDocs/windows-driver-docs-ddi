@@ -6,8 +6,8 @@ old-location: netvista\filterreceivenetbufferlists.htm
 tech.root: netvista
 ms.assetid: 6359c2a7-1208-41ea-bbf9-015c91b6e8f6
 ms.date: 05/02/2018
+keywords: ["FILTER_RECEIVE_NET_BUFFER_LISTS callback function"]
 ms.keywords: FILTER_RECEIVE_NET_BUFFER_LISTS, FILTER_RECEIVE_NET_BUFFER_LISTS callback, FilterReceiveNetBufferLists, FilterReceiveNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_c78036bd-cb6a-4898-b8b3-2d8585c7cfde.xml, ndis/FilterReceiveNetBufferLists, netvista.filterreceivenetbufferlists
-ms.topic: callback
 f1_keywords:
  - "ndis/FilterReceiveNetBufferLists"
 req.header: ndis.h

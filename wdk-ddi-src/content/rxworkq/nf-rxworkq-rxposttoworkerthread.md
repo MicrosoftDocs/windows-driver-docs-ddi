@@ -6,8 +6,8 @@ old-location: ifsk\rxposttoworkerthread.htm
 tech.root: ifsk
 ms.assetid: 0fc9fb57-219e-4a3d-bc82-904ab8657d66
 ms.date: 04/16/2018
+keywords: ["RxPostToWorkerThread function"]
 ms.keywords: RxPostToWorkerThread, RxPostToWorkerThread routine [Installable File System Drivers], ifsk.rxposttoworkerthread, rxref_19387eca-2666-41c0-a93d-2133d3ca03ee.xml, rxworkq/RxPostToWorkerThread
-ms.topic: function
 f1_keywords:
  - "rxworkq/RxPostToWorkerThread"
 req.header: rxworkq.h

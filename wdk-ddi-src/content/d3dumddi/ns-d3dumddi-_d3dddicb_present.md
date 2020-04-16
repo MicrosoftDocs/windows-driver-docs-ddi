@@ -6,8 +6,8 @@ old-location: display\d3dddicb_present.htm
 tech.root: display
 ms.assetid: 086d95a3-1b3a-4e09-9a39-e1972e0e306c
 ms.date: 05/10/2018
+keywords: ["_D3DDDICB_PRESENT structure"]
 ms.keywords: D3DDDICB_PRESENT, D3DDDICB_PRESENT structure [Display Devices], D3D_param_Structs_969f252f-fe5c-4351-9c7a-746fd33cb405.xml, _D3DDDICB_PRESENT, d3dumddi/D3DDDICB_PRESENT, display.d3dddicb_present
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/D3DDDICB_PRESENT"
 req.header: d3dumddi.h

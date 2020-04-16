@@ -6,8 +6,8 @@ old-location: wdf\iwdfobject_acquirelock.htm
 tech.root: wdf
 ms.assetid: f69328fb-356b-4381-ae6e-df39ac60e032
 ms.date: 02/26/2018
+keywords: ["IWDFObject::AcquireLock"]
 ms.keywords: AcquireLock, AcquireLock method, AcquireLock method,IWDFObject interface, IWDFObject interface,AcquireLock method, IWDFObject.AcquireLock, IWDFObject::AcquireLock, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, umdf.iwdfobject_acquirelock, wdf.iwdfobject_acquirelock, wudfddi/IWDFObject::AcquireLock
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFObject.AcquireLock"
 req.header: wudfddi.h

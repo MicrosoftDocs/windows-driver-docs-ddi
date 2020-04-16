@@ -5,8 +5,8 @@ description: The D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure describes 
 old-location: display\d3d11ddiarg_calcprivatedeferredcontextsize.htm
 ms.assetid: 7889400e-bd26-43b5-a860-bea9f9217002
 ms.date: 05/10/2018
+keywords: ["D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure"]
 ms.keywords: D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE, D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure [Display Devices], UMDisplayDriver_Dx11param_Structs_eca4d605-7188-46b1-b429-04094a9f7db6.xml, d3d10umddi/D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE, display.d3d11ddiarg_calcprivatedeferredcontextsize
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE"
 req.header: d3d10umddi.h

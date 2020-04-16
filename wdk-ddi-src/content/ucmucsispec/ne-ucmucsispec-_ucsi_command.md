@@ -5,7 +5,7 @@ tech.root: usbref
 description: See Table 4-51, Command Code.
 ms.assetid: d2570837-3a83-4bc4-a222-bfa867826837
 ms.date: 09/30/2018
-ms.topic: enum
+keywords: ["_UCSI_COMMAND enumeration"]
 f1_keywords:
  - "ucmucsispec/_UCSI_COMMAND"
 ms.keywords: _UCSI_COMMAND, UCSI_COMMAND, 

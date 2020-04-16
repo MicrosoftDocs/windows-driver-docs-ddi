@@ -6,8 +6,8 @@ old-location: stream\ksaddevent.htm
 tech.root: stream
 ms.assetid: 75c909b1-8eb5-4887-b528-d3ac465ee12b
 ms.date: 04/23/2018
+keywords: ["KsAddEvent function"]
 ms.keywords: KsAddEvent, KsAddEvent function [Streaming Media Devices], avfunc_20b264e1-c7ad-4b24-bff3-996b9d478a44.xml, ks/KsAddEvent, stream.ksaddevent
-ms.topic: function
 f1_keywords:
  - "ks/KsAddEvent"
 req.header: ks.h

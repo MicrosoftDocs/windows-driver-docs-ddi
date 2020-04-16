@@ -6,8 +6,8 @@ old-location: debugger\extknownstruct.htm
 tech.root: debugger
 ms.assetid: 95bf9a47-e121-4432-a28f-5476467f1823
 ms.date: 05/03/2018
+keywords: ["ExtKnownStruct structure"]
 ms.keywords: EngExtCpp_Ref_b59346d2-06da-4112-9bed-ce64de0f2807.xml, ExtKnownStruct, ExtKnownStruct structure [Windows Debugging], debugger.extknownstruct, engextcpp/ExtKnownStruct
-ms.topic: struct
 f1_keywords:
  - "engextcpp/ExtKnownStruct"
 req.header: engextcpp.hpp

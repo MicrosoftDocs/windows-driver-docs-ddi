@@ -6,8 +6,8 @@ old-location: display\videoportinterlockeddecrement.htm
 tech.root: display
 ms.assetid: b72e3b7d-000b-4827-aa06-699a0bcc1840
 ms.date: 05/10/2018
+keywords: ["VideoPortInterlockedDecrement function"]
 ms.keywords: VideoPortInterlockedDecrement, VideoPortInterlockedDecrement function [Display Devices], VideoPort_Functions_907ed72b-de68-432d-a9e4-b7c072628f9a.xml, display.videoportinterlockeddecrement, video/VideoPortInterlockedDecrement
-ms.topic: function
 f1_keywords:
  - "video/VideoPortInterlockedDecrement"
 req.header: video.h

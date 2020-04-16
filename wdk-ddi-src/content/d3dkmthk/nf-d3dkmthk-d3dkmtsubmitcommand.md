@@ -5,8 +5,8 @@ description: D3DKMTSubmitCommand is used to submit command buffers on contexts t
 old-location: display\d3dkmtsubmitcommand.htm
 ms.assetid: E726B4AC-F003-45B3-B467-F123DBE60D87
 ms.date: 05/10/2018
+keywords: ["D3DKMTSubmitCommand function"]
 ms.keywords: D3DKMTSubmitCommand, D3DKMTSubmitCommand function [Display Devices], d3dkmthk/D3DKMTSubmitCommand, display.d3dkmtsubmitcommand
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTSubmitCommand"
 req.header: d3dkmthk.h

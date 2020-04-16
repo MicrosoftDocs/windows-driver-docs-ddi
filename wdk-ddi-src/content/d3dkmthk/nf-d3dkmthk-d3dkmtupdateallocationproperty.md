@@ -4,7 +4,7 @@ title: D3DKMTUpdateAllocationProperty function (d3dkmthk.h)
 description: Updates allocation property of a context.
 ms.assetid: 598aaa26-150f-470d-aa48-76af546e98e1
 ms.date: 10/19/2018
-ms.topic: function
+keywords: ["D3DKMTUpdateAllocationProperty function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTUpdateAllocationProperty"
 ms.keywords: D3DKMTUpdateAllocationProperty

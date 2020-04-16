@@ -6,8 +6,8 @@ old-location: image\iwiaerrorhandler_reportstatus.htm
 tech.root: image
 ms.assetid: c244d5a1-d3c1-4f8f-9b55-3729e5f13887
 ms.date: 05/03/2018
+keywords: ["IWiaErrorHandler::ReportStatus"]
 ms.keywords: IWiaErrorHandler interface [Imaging Devices],ReportStatus method, IWiaErrorHandler.ReportStatus, IWiaErrorHandler::ReportStatus, IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, ReportStatus, ReportStatus method [Imaging Devices], ReportStatus method [Imaging Devices],IWiaErrorHandler interface, image.iwiaerrorhandler_reportstatus, wia_lh/IWiaErrorHandler::ReportStatus
-ms.topic: method
 f1_keywords:
  - "wia_lh/IWiaErrorHandler.ReportStatus"
 req.header: wia_lh.h

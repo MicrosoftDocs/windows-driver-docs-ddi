@@ -4,7 +4,7 @@ title: _ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER structure (acpitabl.h)
 description: Describes the ACPI PLD interface instance GUID descriptor buffer, revision 1 (Microsoft custom PLD buffer extension, 128-bits).
 ms.assetid: 2a4ad06c-2d79-49e0-b830-b6956e9c55c8
 ms.date: 10/02/2018
-ms.topic: struct
+keywords: ["_ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER structure"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER"
 ms.keywords: _ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER, ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER, *PACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER, 

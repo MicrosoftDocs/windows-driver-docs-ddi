@@ -5,7 +5,7 @@ description: The VmbChannelRestoreFromBuffer function restores the client state 
 tech.root: netvista
 ms.assetid: f555fb01-73c9-449e-88f0-24480e44f86b
 ms.date: 05/21/2018
-ms.topic: callback
+keywords: ["FN_VMB_CHANNEL_RESTORE_FROM_BUFFER callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_RESTORE_FROM_BUFFER"
 req.header: vmbuskernelmodeclientlibapi.h

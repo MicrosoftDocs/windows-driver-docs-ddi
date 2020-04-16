@@ -6,8 +6,8 @@ old-location: kernel\keconvertperformancecountertoauxiliarycounter.htm
 tech.root: kernel
 ms.assetid: 69F7C73E-C609-4080-8CB8-2F4D9A8C695B
 ms.date: 04/30/2018
+keywords: ["KeConvertPerformanceCounterToAuxiliaryCounter function"]
 ms.keywords: KeConvertPerformanceCounterToAuxiliaryCounter, KeConvertPerformanceCounterToAuxiliaryCounter routine [Kernel-Mode Driver Architecture], kernel.keconvertperformancecountertoauxiliarycounter, wdm/KeConvertPerformanceCounterToAuxiliaryCounter
-ms.topic: function
 f1_keywords:
  - "wdm/KeConvertPerformanceCounterToAuxiliaryCounter"
 req.header: wdm.h

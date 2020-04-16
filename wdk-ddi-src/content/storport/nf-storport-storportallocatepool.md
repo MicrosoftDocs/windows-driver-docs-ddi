@@ -6,8 +6,8 @@ old-location: storage\storportallocatepool.htm
 tech.root: storage
 ms.assetid: e6823b9c-9717-49ab-8e67-c1d522774826
 ms.date: 07/19/2019
+keywords: ["StorPortAllocatePool function"]
 ms.keywords: StorPortAllocatePool, StorPortAllocatePool routine [Storage Devices], storage.storportallocatepool, storport/StorPortAllocatePool, storprt_4ede181d-6ccf-47af-974d-b0daaa6e723a.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortAllocatePool"
 req.header: storport.h

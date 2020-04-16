@@ -6,8 +6,8 @@ old-location: wdf\wdfdevicestopidle.htm
 tech.root: wdf
 ms.assetid: a394f539-bd66-44e2-a857-d657a123b473
 ms.date: 02/26/2018
+keywords: ["WdfDeviceStopIdle macro"]
 ms.keywords: DFDeviceObjectGeneralRef_3dbde224-ecdf-429e-9389-9bdb49b16040.xml, WdfDeviceStopIdle, WdfDeviceStopIdle method, kmdf.wdfdevicestopidle, wdf.wdfdevicestopidle, wdfdevice/WdfDeviceStopIdle
-ms.topic: macro
 f1_keywords:
  - "wdfdevice/WdfDeviceStopIdle"
 req.header: wdfdevice.h

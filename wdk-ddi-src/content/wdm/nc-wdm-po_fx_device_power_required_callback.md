@@ -6,8 +6,8 @@ old-location: kernel\devicepowerrequiredcallback.htm
 tech.root: kernel
 ms.assetid: AC2110EA-A124-4C01-8270-8D6650F80E0A
 ms.date: 04/30/2018
+keywords: ["PO_FX_DEVICE_POWER_REQUIRED_CALLBACK callback function"]
 ms.keywords: DevicePowerRequiredCallback, DevicePowerRequiredCallback routine [Kernel-Mode Driver Architecture], PO_FX_DEVICE_POWER_REQUIRED_CALLBACK, kernel.devicepowerrequiredcallback, wdm/DevicePowerRequiredCallback
-ms.topic: callback
 f1_keywords:
  - "wdm/DevicePowerRequiredCallback"
 req.header: wdm.h

@@ -6,8 +6,8 @@ old-location: kernel\clfscreatelogfile.htm
 tech.root: kernel
 ms.assetid: 297f7b03-efd0-4e9c-a758-1a3b5b89511d
 ms.date: 04/30/2018
+keywords: ["ClfsCreateLogFile function"]
 ms.keywords: ClfsCreateLogFile, ClfsCreateLogFile routine [Kernel-Mode Driver Architecture], Clfs_79aa05cc-fff5-404a-93c6-89c9d938f104.xml, kernel.clfscreatelogfile, wdm/ClfsCreateLogFile
-ms.topic: function
 f1_keywords:
  - "wdm/ClfsCreateLogFile"
 req.header: wdm.h

@@ -6,8 +6,8 @@ old-location: buses\ucm_pd_power_data_object_init_ulong.htm
 tech.root: usbref
 ms.assetid: F5520F9F-159E-42D9-A7F4-426CB935D29D
 ms.date: 05/07/2018
+keywords: ["UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function"]
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function [Buses], buses.ucm_pd_power_data_object_init_ulong, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_ULONG
-ms.topic: function
 f1_keywords:
  - "ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_ULONG"
 req.header: ucmtypes.h

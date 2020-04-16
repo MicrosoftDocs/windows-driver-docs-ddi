@@ -6,8 +6,8 @@ old-location: gpiobtn\hwnregisterclient.htm
 tech.root: gpiobtn
 ms.assetid: 69de1551-e41f-4d18-89db-28d190676922
 ms.date: 02/15/2018
+keywords: ["HwNRegisterClient function"]
 ms.keywords: HwNRegisterClient, HwNRegisterClient function, gpiobtn.hwnregisterclient, hwnclx/HwNRegisterClient
-ms.topic: function
 f1_keywords:
  - "hwnclx/HwNRegisterClient"
 req.header: hwnclx.h

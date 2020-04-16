@@ -6,8 +6,8 @@ old-location: ifsk\rxpostrecurrenttimerrequest.htm
 tech.root: ifsk
 ms.assetid: a44fb478-4f78-415e-b557-bf383199578c
 ms.date: 04/16/2018
+keywords: ["RxPostRecurrentTimerRequest function"]
 ms.keywords: RxPostRecurrentTimerRequest, RxPostRecurrentTimerRequest routine [Installable File System Drivers], ifsk.rxpostrecurrenttimerrequest, rxref_64318843-28af-4351-9273-06061b94578f.xml, rxtimer/RxPostRecurrentTimerRequest
-ms.topic: function
 f1_keywords:
  - "rxtimer/RxPostRecurrentTimerRequest"
 req.header: rxtimer.h

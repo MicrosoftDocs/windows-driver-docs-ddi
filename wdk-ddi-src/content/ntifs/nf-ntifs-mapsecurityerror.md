@@ -6,8 +6,8 @@ old-location: ifsk\mapsecurityerror.htm
 tech.root: ifsk
 ms.assetid: 899b7d6e-a17b-4030-9512-591b003ca6b2
 ms.date: 04/16/2018
+keywords: ["MapSecurityError function"]
 ms.keywords: IFSMiscRef_41a163d7-81d1-4877-b1c2-ae90b203177a.xml, MapSecurityError, MapSecurityError function [Installable File System Drivers], ifsk.mapsecurityerror, ntifs/MapSecurityError
-ms.topic: function
 f1_keywords:
  - "ntifs/MapSecurityError"
 req.header: ntifs.h

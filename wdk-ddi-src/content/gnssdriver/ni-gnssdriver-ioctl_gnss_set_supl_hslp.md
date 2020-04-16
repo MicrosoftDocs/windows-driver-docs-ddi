@@ -6,8 +6,8 @@ old-location: gnss\ioctl_gnss_set_supl_hslp.htm
 tech.root: gnss
 ms.assetid: A6056EB4-4CEA-4C80-A3CA-1B6B81F47889
 ms.date: 02/15/2018
+keywords: ["IOCTL_GNSS_SET_SUPL_HSLP IOCTL"]
 ms.keywords: IOCTL_GNSS_SET_SUPL_HSLP, IOCTL_GNSS_SET_SUPL_HSLP control, IOCTL_GNSS_SET_SUPL_HSLP control code [Sensor Devices], gnss.ioctl_gnss_set_supl_hslp, gnssdriver/IOCTL_GNSS_SET_SUPL_HSLP
-ms.topic: ioctl
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_SET_SUPL_HSLP"
 req.header: gnssdriver.h

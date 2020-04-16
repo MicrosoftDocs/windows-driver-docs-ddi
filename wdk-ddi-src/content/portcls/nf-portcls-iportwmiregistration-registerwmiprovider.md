@@ -6,8 +6,8 @@ old-location: audio\iportwmiregistration_registerwmiprovider.htm
 tech.root: audio
 ms.assetid: 5c092cbd-ef05-4b3d-ac9f-20f2fbf2c37c
 ms.date: 05/08/2018
+keywords: ["IPortWMIRegistration::RegisterWMIProvider"]
 ms.keywords: IPortWMIRegistration interface [Audio Devices],RegisterWMIProvider method, IPortWMIRegistration.RegisterWMIProvider, IPortWMIRegistration::RegisterWMIProvider, RegisterWMIProvider, RegisterWMIProvider method [Audio Devices], RegisterWMIProvider method [Audio Devices],IPortWMIRegistration interface, audio.iportwmiregistration_registerwmiprovider, audmp-routines_3a73bed7-3a9f-4be2-8d15-33f707714c94.xml, portcls/IPortWMIRegistration::RegisterWMIProvider
-ms.topic: method
 f1_keywords:
  - "portcls/IPortWMIRegistration.RegisterWMIProvider"
 req.header: portcls.h

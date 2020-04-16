@@ -6,8 +6,8 @@ old-location: storage\storportbusy.htm
 tech.root: storage
 ms.assetid: 81e5b26d-78b5-4ee7-a47c-fc92d01752d1
 ms.date: 03/29/2018
+keywords: ["StorPortBusy function"]
 ms.keywords: StorPortBusy, StorPortBusy routine [Storage Devices], storage.storportbusy, storport/StorPortBusy, storprt_b4765f8e-c48f-4920-bd1a-1ff9dbdd8656.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortBusy"
 req.header: storport.h

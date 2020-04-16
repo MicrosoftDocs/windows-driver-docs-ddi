@@ -4,7 +4,7 @@ title: DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES (d3dkmddi.h)
 description: Set up or modify the scheduling properties for a device context.
 ms.assetid: be40d154-343b-431d-a2d7-da0dfaa4fb41
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["DXGKDDI_SETCONTEXTSCHEDULINGPROPERTIES callback function"]
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 

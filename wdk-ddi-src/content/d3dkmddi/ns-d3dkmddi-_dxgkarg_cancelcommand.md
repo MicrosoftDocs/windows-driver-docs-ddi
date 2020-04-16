@@ -5,8 +5,8 @@ description: Specifies internal resources that are cleaned up by the DxgkDdiCanc
 old-location: display\dxgkarg_cancelcommand.htm
 ms.assetid: c0066718-50d0-4bd2-a1bf-678c3f6b9253
 ms.date: 05/10/2018
+keywords: ["_DXGKARG_CANCELCOMMAND structure"]
 ms.keywords: DXGKARG_CANCELCOMMAND, DXGKARG_CANCELCOMMAND structure [Display Devices], _DXGKARG_CANCELCOMMAND, d3dkmddi/DXGKARG_CANCELCOMMAND, display.dxgkarg_cancelcommand
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_CANCELCOMMAND"
 req.header: d3dkmddi.h

@@ -6,8 +6,8 @@ old-location: netvista\miniporttcpoffloadreceivereturn.htm
 tech.root: netvista
 ms.assetid: b746f58d-d029-4fcd-a59d-baba037fc38e
 ms.date: 05/02/2018
+keywords: ["W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER callback function"]
 ms.keywords: MiniportTcpOffloadReceiveReturn, MiniportTcpOffloadReceiveReturn callback function [Network Drivers Starting with Windows Vista], W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER, W_TCP_OFFLOAD_RECEIVE_RETURN_HANDLER callback, ndischimney/MiniportTcpOffloadReceiveReturn, netvista.miniporttcpoffloadreceivereturn, tcp_chim_miniport_func_c6477511-6f31-4a37-9b28-d157e1fa09af.xml
-ms.topic: callback
 f1_keywords:
  - "ndischimney/MiniportTcpOffloadReceiveReturn"
 req.header: ndischimney.h

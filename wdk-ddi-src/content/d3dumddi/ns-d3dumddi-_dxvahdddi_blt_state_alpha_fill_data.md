@@ -6,8 +6,8 @@ old-location: display\dxvahdddi_blt_state_alpha_fill_data.htm
 tech.root: display
 ms.assetid: 67fb316e-359f-4bf0-b061-a4b18e359f38
 ms.date: 05/10/2018
+keywords: ["_DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA structure"]
 ms.keywords: DXVA2_Structs_0b64fc90-1ad4-4d38-9fda-68454167b9dd.xml, DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA, display.dxvahdddi_blt_state_alpha_fill_data
-ms.topic: struct
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA"
 req.header: d3dumddi.h

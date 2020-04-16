@@ -5,8 +5,8 @@ description: The DXGKARG_CREATEALLOCATION structure describes how the display mi
 old-location: display\dxgkarg_createallocation.htm
 ms.assetid: e1464561-b9f2-41aa-921e-84f3a855130f
 ms.date: 05/10/2018
+keywords: ["_DXGKARG_CREATEALLOCATION structure"]
 ms.keywords: "*INOUT_PDXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION, DXGKARG_CREATEALLOCATION structure [Display Devices], DmStructs_751430a9-4161-4230-bb97-d09600d48d62.xml, _DXGKARG_CREATEALLOCATION, d3dkmddi/DXGKARG_CREATEALLOCATION, display.dxgkarg_createallocation"
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_CREATEALLOCATION"
 req.header: d3dkmddi.h

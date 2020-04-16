@@ -6,8 +6,8 @@ old-location: wdf\wdffdoinitsetdefaultchildlistconfig.htm
 tech.root: wdf
 ms.assetid: 656a0c58-dd12-4417-a781-464d1670592c
 ms.date: 02/26/2018
+keywords: ["WdfFdoInitSetDefaultChildListConfig function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_676a2185-db9b-498e-84e3-52b8ac32584c.xml, WdfFdoInitSetDefaultChildListConfig, WdfFdoInitSetDefaultChildListConfig method, kmdf.wdffdoinitsetdefaultchildlistconfig, wdf.wdffdoinitsetdefaultchildlistconfig, wdffdo/WdfFdoInitSetDefaultChildListConfig
-ms.topic: function
 f1_keywords:
  - "wdffdo/WdfFdoInitSetDefaultChildListConfig"
 req.header: wdffdo.h

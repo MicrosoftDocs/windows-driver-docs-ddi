@@ -5,7 +5,7 @@ description: A client driver's EvtMbbDeviceSendMbimFragment event callabck funct
 tech.root: netvista
 ms.assetid: 16a6dd6c-b8df-41a9-bb93-34ae1c085eb4
 ms.date: 07/02/2018
-ms.topic: callback
+keywords: ["EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT callback function"]
 f1_keywords:
  - "mbbcx/EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT"
 req.header: mbbcx.h
@@ -17,7 +17,7 @@ req.kmdf-ver: 1.27
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: PASSIVE_LEVEL
+req.irql: <= DISPATCH_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:

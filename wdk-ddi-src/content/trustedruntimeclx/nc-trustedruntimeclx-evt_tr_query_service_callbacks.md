@@ -4,7 +4,7 @@ title: EVT_TR_QUERY_SERVICE_CALLBACKS (trustedruntimeclx.h)
 description: 
 ms.assetid: 1c9369ed-3095-4119-a2ed-faa7cedd6d12
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["EVT_TR_QUERY_SERVICE_CALLBACKS callback function"]
 f1_keywords:
  - "trustedruntimeclx/EVT_TR_QUERY_SERVICE_CALLBACKS"
 req.header: trustedruntimeclx.h

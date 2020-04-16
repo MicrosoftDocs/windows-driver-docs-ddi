@@ -6,8 +6,8 @@ old-location: kernel\psregistersilomonitor.htm
 tech.root: kernel
 ms.assetid: C04F29FF-972C-44CC-8557-28C23827ADF0
 ms.date: 04/30/2018
+keywords: ["PsRegisterSiloMonitor function"]
 ms.keywords: PsRegisterSiloMonitor, PsRegisterSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psregistersilomonitor, ntddk/PsRegisterSiloMonitor
-ms.topic: function
 f1_keywords:
  - "ntddk/PsRegisterSiloMonitor"
 req.header: ntddk.h

@@ -6,8 +6,8 @@ old-location: netvista\rilsupservicedata.htm
 tech.root: netvista
 ms.assetid: 1cb4afae-75ad-4c9b-8b21-f9aade2c5fd8
 ms.date: 05/02/2018
+keywords: ["RILSUPSERVICEDATA structure"]
 ms.keywords: "*LPRILSUPSERVICEDATA, RILSUPSERVICEDATA, RILSUPSERVICEDATA structure [Network Drivers Starting with Windows Vista], netvista.rilsupservicedata, ntddrilapitypes/RILSUPSERVICEDATA"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILSUPSERVICEDATA"
 req.header: rilapitypes.h

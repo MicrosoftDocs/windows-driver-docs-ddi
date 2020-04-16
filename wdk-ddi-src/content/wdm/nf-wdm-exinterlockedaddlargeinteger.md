@@ -6,8 +6,8 @@ old-location: kernel\exinterlockedaddlargeinteger.htm
 tech.root: kernel
 ms.assetid: ace8405b-74a7-4797-8d3d-3caf673dace2
 ms.date: 04/30/2018
+keywords: ["ExInterlockedAddLargeInteger function"]
 ms.keywords: ExInterlockedAddLargeInteger, ExInterlockedAddLargeInteger routine [Kernel-Mode Driver Architecture], k102_934a3a64-9f63-402c-8b55-db7e2b4d9d4b.xml, kernel.exinterlockedaddlargeinteger, wdm/ExInterlockedAddLargeInteger
-ms.topic: function
 f1_keywords:
  - "wdm/ExInterlockedAddLargeInteger"
 req.header: wdm.h

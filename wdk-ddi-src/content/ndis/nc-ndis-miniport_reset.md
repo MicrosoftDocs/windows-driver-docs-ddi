@@ -6,8 +6,8 @@ old-location: netvista\miniportresetex.htm
 tech.root: netvista
 ms.assetid: 15f82163-a1b5-4cef-a53e-8a97adb2cd92
 ms.date: 05/02/2018
+keywords: ["MINIPORT_RESET callback function"]
 ms.keywords: MINIPORT_RESET, MINIPORT_RESET callback, MiniportResetEx, MiniportResetEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_13afeb89-4956-4a8d-ade8-8d17a4a84128.xml, ndis/MiniportResetEx, netvista.miniportresetex
-ms.topic: callback
 f1_keywords:
  - "ndis/MiniportResetEx"
 req.header: ndis.h

@@ -6,8 +6,8 @@ old-location: stream\ksproperty_tvaudio_s.htm
 tech.root: stream
 ms.assetid: a2e26798-322a-4057-8c29-3429711e36a4
 ms.date: 04/30/2019
+keywords: ["KSPROPERTY_TVAUDIO_S structure"]
 ms.keywords: "*PKSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S structure [Streaming Media Devices], PKSPROPERTY_TVAUDIO_S, PKSPROPERTY_TVAUDIO_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TVAUDIO_S, ksmedia/PKSPROPERTY_TVAUDIO_S, stream.ksproperty_tvaudio_s, vidcapstruct_d9dd7c2c-ed79-4efa-ae11-07e069abda5c.xml"
-ms.topic: struct
 f1_keywords:
  - "ksmedia/KSPROPERTY_TVAUDIO_S"
 req.header: ksmedia.h

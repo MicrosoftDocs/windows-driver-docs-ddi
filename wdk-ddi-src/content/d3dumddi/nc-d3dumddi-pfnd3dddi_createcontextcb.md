@@ -4,7 +4,7 @@ title: PFND3DDDI_CREATECONTEXTCB (d3dumddi.h)
 description: The PFND3DDDI_CREATECONTEXTCB callback function creates a context.
 ms.assetid: ff14eb10-d4fe-427f-be95-558c2f86fc01
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DDDI_CREATECONTEXTCB callback function"]
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: 

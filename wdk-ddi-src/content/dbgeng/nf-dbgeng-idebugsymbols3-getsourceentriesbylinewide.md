@@ -6,8 +6,8 @@ old-location: debugger\getsourceentriesbylinewide.htm
 tech.root: debugger
 ms.assetid: c0c61c6a-35fe-410a-b3e8-70d33557bb9b
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::GetSourceEntriesByLineWide"]
 ms.keywords: GetSourceEntriesByLineWide, GetSourceEntriesByLineWide method [Windows Debugging], GetSourceEntriesByLineWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntriesByLineWide method, IDebugSymbols3.GetSourceEntriesByLineWide, IDebugSymbols3::GetSourceEntriesByLineWide, dbgeng/IDebugSymbols3::GetSourceEntriesByLineWide, debugger.getsourceentriesbylinewide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSourceEntriesByLineWide"
 req.header: dbgeng.h

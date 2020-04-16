@@ -6,8 +6,8 @@ old-location: wdf\wdfrequestgetrequestormode.htm
 tech.root: wdf
 ms.assetid: 63fc77c8-756c-4872-b608-539d8419154b
 ms.date: 02/26/2018
+keywords: ["WdfRequestGetRequestorMode function"]
 ms.keywords: DFRequestObjectRef_3c672bff-3d8a-402a-8a0c-19eb4d39e37e.xml, WdfRequestGetRequestorMode, WdfRequestGetRequestorMode method, kmdf.wdfrequestgetrequestormode, wdf.wdfrequestgetrequestormode, wdfrequest/WdfRequestGetRequestorMode
-ms.topic: function
 f1_keywords:
  - "wdfrequest/WdfRequestGetRequestorMode"
 req.header: wdfrequest.h

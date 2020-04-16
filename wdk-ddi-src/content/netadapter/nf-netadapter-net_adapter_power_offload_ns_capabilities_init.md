@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: a9f9665f-e74c-409e-ad33-968fb40c629b
 ms.author: windowsdriverdev
 ms.date: 10/22/2019
-ms.topic: function
+keywords: ["NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT function"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT

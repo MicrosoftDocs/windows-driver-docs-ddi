@@ -6,8 +6,8 @@ old-location: kernel\ioallocatemdl.htm
 tech.root: kernel
 ms.assetid: c06cb000-837d-4ee9-baa1-0217ad8b14cb
 ms.date: 04/30/2018
+keywords: ["IoAllocateMdl function"]
 ms.keywords: IoAllocateMdl, IoAllocateMdl routine [Kernel-Mode Driver Architecture], k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml, kernel.ioallocatemdl, wdm/IoAllocateMdl
-ms.topic: function
 f1_keywords:
  - "wdm/IoAllocateMdl"
 req.header: wdm.h

@@ -6,8 +6,8 @@ old-location: netvista\ndiswriteregisteruchar.htm
 tech.root: netvista
 ms.assetid: 8f720af6-d70a-4682-86f4-011e70a6f64f
 ms.date: 05/02/2018
+keywords: ["NdisWriteRegisterUchar macro"]
 ms.keywords: NdisWriteRegisterUchar, NdisWriteRegisterUchar macro [Network Drivers Starting with Windows Vista], miniport_register_ref_60f684ba-a2ca-4fa8-8a80-9e805fb5c453.xml, ndis/NdisWriteRegisterUchar, netvista.ndiswriteregisteruchar
-ms.topic: macro
 f1_keywords:
  - "ndis/NdisWriteRegisterUchar"
 req.header: ndis.h

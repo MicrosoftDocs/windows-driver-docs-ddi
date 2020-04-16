@@ -6,8 +6,8 @@ old-location: display\dxgkddiresetdevice.htm
 tech.root: display
 ms.assetid: e757e63d-6d78-4b20-9471-290f56c1bcde
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_RESET_DEVICE callback function"]
 ms.keywords: DXGKDDI_RESET_DEVICE, DXGKDDI_RESET_DEVICE callback, DmFunctions_70e9fe99-65be-47a5-bb9a-fac4e10d3ae9.xml, DxgkDdiResetDevice, DxgkDdiResetDevice callback function [Display Devices], display.dxgkddiresetdevice, dispmprt/DxgkDdiResetDevice
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiResetDevice"
 req.header: dispmprt.h

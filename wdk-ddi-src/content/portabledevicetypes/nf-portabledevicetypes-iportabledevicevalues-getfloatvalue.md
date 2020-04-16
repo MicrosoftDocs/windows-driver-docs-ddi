@@ -6,8 +6,8 @@ old-location: wpddk\iportabledevicevalues_getfloatvalue.htm
 tech.root: wpd_dk
 ms.assetid: f281c407-7d1c-48e8-ab5e-c18bf0c080e0
 ms.date: 02/15/2018
+keywords: ["IPortableDeviceValues::GetFloatValue"]
 ms.keywords: GetFloatValue, GetFloatValue method, GetFloatValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetFloatValue method, IPortableDeviceValues.GetFloatValue, IPortableDeviceValues::GetFloatValue, IPortableDeviceValuesGetFloatValue, portabledevicetypes/IPortableDeviceValues::GetFloatValue, wpddk.iportabledevicevalues_getfloatvalue
-ms.topic: method
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetFloatValue"
 req.header: portabledevicetypes.h

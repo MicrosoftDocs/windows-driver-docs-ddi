@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlremovemcbentry.htm
 tech.root: ifsk
 ms.assetid: 94342bb0-6c3b-49a0-b677-5d871136c2ba
 ms.date: 03/29/2018
+keywords: ["FsRtlRemoveMcbEntry function"]
 ms.keywords: FsRtlRemoveMcbEntry, FsRtlRemoveMcbEntry function [Installable File System Drivers], fsrtlref_21b18ca7-32c0-441b-bb74-aa227e0d2c3e.xml, ifsk.fsrtlremovemcbentry, ntifs/FsRtlRemoveMcbEntry
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlRemoveMcbEntry"
 req.header: ntifs.h

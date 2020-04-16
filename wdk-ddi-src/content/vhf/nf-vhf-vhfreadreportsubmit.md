@@ -6,8 +6,8 @@ old-location: hid\vhfreadreportsubmit.htm
 tech.root: hid
 ms.assetid: DCC4EB4C-B9A0-4E25-B3BD-4CAB07022A7B
 ms.date: 04/30/2018
+keywords: ["VhfReadReportSubmit function"]
 ms.keywords: VhfReadReportSubmit, VhfReadReportSubmit method [Human Input Devices], hid.vhfreadreportsubmit, vhf/VhfReadReportSubmit
-ms.topic: function
 f1_keywords:
  - "vhf/VhfReadReportSubmit"
 req.header: vhf.h

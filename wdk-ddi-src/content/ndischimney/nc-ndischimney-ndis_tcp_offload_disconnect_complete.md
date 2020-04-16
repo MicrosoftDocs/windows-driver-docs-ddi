@@ -6,8 +6,8 @@ old-location: netvista\ndistcpoffloaddisconnectcomplete.htm
 tech.root: netvista
 ms.assetid: e862d9fe-a60c-4397-95ce-62aa1ef17eae
 ms.date: 05/02/2018
+keywords: ["NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE callback function"]
 ms.keywords: NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE, NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE callback, NdisTcpOffloadDisconnectComplete, NdisTcpOffloadDisconnectComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadDisconnectComplete, netvista.ndistcpoffloaddisconnectcomplete, tcp_chim_ndis_func_4a062983-d7c0-47c4-9eeb-dd3561c6b31a.xml
-ms.topic: callback
 f1_keywords:
  - "ndischimney/NdisTcpOffloadDisconnectComplete"
 req.header: ndischimney.h

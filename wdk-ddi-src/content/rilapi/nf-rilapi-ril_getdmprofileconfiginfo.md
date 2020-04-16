@@ -6,8 +6,8 @@ old-location: netvista\ril_getdmprofileconfiginfo.htm
 tech.root: netvista
 ms.assetid: b0c4e96e-5f7f-4ee5-90b7-6d78ee321bf5
 ms.date: 05/02/2018
+keywords: ["RIL_GetDMProfileConfigInfo function"]
 ms.keywords: RIL_GetDMProfileConfigInfo, RIL_GetDMProfileConfigInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getdmprofileconfiginfo, rilapi/RIL_GetDMProfileConfigInfo
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_GetDMProfileConfigInfo"
 req.header: rilapi.h

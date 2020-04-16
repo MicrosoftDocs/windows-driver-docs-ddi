@@ -6,8 +6,8 @@ old-location: kernel\zwpreparecomplete.htm
 tech.root: kernel
 ms.assetid: c3d9362e-8a9d-47df-a407-389a9bd65e3b
 ms.date: 04/30/2018
+keywords: ["ZwPrepareComplete function"]
 ms.keywords: NtPrepareComplete, ZwPrepareComplete, ZwPrepareComplete routine [Kernel-Mode Driver Architecture], kernel.zwpreparecomplete, ktm_ref_2690208e-0252-4e3f-84c6-29750139da00.xml, wdm/NtPrepareComplete, wdm/ZwPrepareComplete
-ms.topic: function
 f1_keywords:
  - "wdm/ZwPrepareComplete"
 req.header: wdm.h

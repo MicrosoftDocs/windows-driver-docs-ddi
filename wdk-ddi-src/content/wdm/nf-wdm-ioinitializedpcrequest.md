@@ -6,8 +6,8 @@ old-location: kernel\ioinitializedpcrequest.htm
 tech.root: kernel
 ms.assetid: d4685c23-7461-4539-9f7c-80f9760bf706
 ms.date: 04/30/2018
+keywords: ["IoInitializeDpcRequest function"]
 ms.keywords: IoInitializeDpcRequest, IoInitializeDpcRequest routine [Kernel-Mode Driver Architecture], k104_6b13de62-4cbe-4902-8c60-67d873873047.xml, kernel.ioinitializedpcrequest, wdm/IoInitializeDpcRequest
-ms.topic: function
 f1_keywords:
  - "wdm/IoInitializeDpcRequest"
 req.header: wdm.h

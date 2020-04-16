@@ -5,7 +5,7 @@ description: The WWAN_PIN_TYPE enumeration specifies the PIN type for a UICC app
 tech.root: netvista
 ms.assetid: D4852EC3-AF5B-46BE-99A4-A006F71F5A24
 ms.date: 04/10/2019
-ms.topic: enum
+keywords: ["_WWAN_PIN_TYPE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_PIN_TYPE"
 ms.keywords: _WWAN_PIN_TYPE WWAN_PIN_TYPE *PWWAN_PIN_TYPE 

@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: 5795F982-866D-4731-BE0E-A085B0254CDF
 ms.author: windowsdriverdev
 ms.date: 09/26/2019
-ms.topic: struct
+keywords: ["NET_FRAGMENT_RETURN_CONTEXT structure"]
 f1_keywords:
  - "returncontexttypes/NET_FRAGMENT_RETURN_CONTEXT"
 ms.keywords: NET_FRAGMENT_RETURN_CONTEXT, NET_FRAGMENT_RETURN_CONTEXT, 

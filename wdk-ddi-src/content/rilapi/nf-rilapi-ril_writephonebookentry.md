@@ -6,8 +6,8 @@ old-location: netvista\ril_writephonebookentry.htm
 tech.root: netvista
 ms.assetid: 03fc6240-ccc8-48de-87e0-b1ee5db3bac8
 ms.date: 05/02/2018
+keywords: ["RIL_WritePhonebookEntry function"]
 ms.keywords: RIL_WritePhonebookEntry, RIL_WritePhonebookEntry method [Network Drivers Starting with Windows Vista], netvista.ril_writephonebookentry, rilapi/RIL_WritePhonebookEntry
-ms.topic: function
 f1_keywords:
  - "rilapi/RIL_WritePhonebookEntry"
 req.header: rilapi.h

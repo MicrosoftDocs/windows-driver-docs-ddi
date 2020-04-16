@@ -6,8 +6,8 @@ old-location: pos\pos_cx_event_priority.htm
 tech.root: pos
 ms.assetid: 835DC1E4-2D49-4D43-A545-5D4288412EC6
 ms.date: 02/23/2018
+keywords: ["_POS_CX_EVENT_PRIORITY enumeration"]
 ms.keywords: POS_CX_EVENT_PRIORITY, POS_CX_EVENT_PRIORITY enumeration, POS_CX_EVENT_PRIORITY_CONTROL, POS_CX_EVENT_PRIORITY_DATA, POS_CX_EVENT_PRIORITY_INVALID, _POS_CX_EVENT_PRIORITY, pos.pos_cx_event_priority, poscx/POS_CX_EVENT_PRIORITY, poscx/POS_CX_EVENT_PRIORITY_CONTROL, poscx/POS_CX_EVENT_PRIORITY_DATA, poscx/POS_CX_EVENT_PRIORITY_INVALID
-ms.topic: enum
 f1_keywords:
  - "poscx/POS_CX_EVENT_PRIORITY"
 req.header: poscx.h

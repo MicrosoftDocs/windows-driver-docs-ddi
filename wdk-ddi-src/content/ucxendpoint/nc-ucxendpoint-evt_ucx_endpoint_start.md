@@ -6,8 +6,8 @@ old-location: buses\evt_ucx_endpoint_start.htm
 tech.root: usbref
 ms.assetid: 8b801255-ee6a-413f-8ce3-3a3696283e6b
 ms.date: 05/07/2018
+keywords: ["EVT_UCX_ENDPOINT_START callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_START, EVT_UCX_ENDPOINT_START callback, EvtUcxEndpointStart, EvtUcxEndpointStart callback function [Buses], PEVT_UCX_ENDPOINT_START, PEVT_UCX_ENDPOINT_START callback function pointer [Buses], buses.evt_ucx_endpoint_start, ucxendpoint/EvtUcxEndpointStart
-ms.topic: callback
 f1_keywords:
  - "ucxendpoint/PEVT_UCX_ENDPOINT_START"
 req.header: ucxendpoint.h

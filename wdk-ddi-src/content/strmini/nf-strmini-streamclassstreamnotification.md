@@ -6,8 +6,8 @@ old-location: stream\streamclassstreamnotification.htm
 tech.root: stream
 ms.assetid: 67dd0ea0-9c69-415a-8b37-0e8700b6fbd8
 ms.date: 04/23/2018
+keywords: ["StreamClassStreamNotification function"]
 ms.keywords: StreamClassStreamNotification, StreamClassStreamNotification routine [Streaming Media Devices], strclass-routines_22bc1b48-b75e-4dce-9aae-16e16b1ca1f9.xml, stream.streamclassstreamnotification, strmini/StreamClassStreamNotification
-ms.topic: function
 f1_keywords:
  - "strmini/StreamClassStreamNotification"
 req.header: strmini.h

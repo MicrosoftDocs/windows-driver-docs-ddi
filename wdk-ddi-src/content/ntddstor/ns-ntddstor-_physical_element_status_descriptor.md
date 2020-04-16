@@ -5,7 +5,7 @@ description: The PHYSICAL_ELEMENT_STATUS_DESCRIPTOR structure contains status in
 tech.root: storage
 ms.assetid: 60abea0f-4729-413f-909f-295bbf513cd2
 ms.date: 09/10/2018
-ms.topic: struct
+keywords: ["_PHYSICAL_ELEMENT_STATUS_DESCRIPTOR structure"]
 f1_keywords:
  - "ntddstor/_PHYSICAL_ELEMENT_STATUS_DESCRIPTOR"
 ms.keywords: _PHYSICAL_ELEMENT_STATUS_DESCRIPTOR, PHYSICAL_ELEMENT_STATUS_DESCRIPTOR, *PPHYSICAL_ELEMENT_STATUS_DESCRIPTOR, 

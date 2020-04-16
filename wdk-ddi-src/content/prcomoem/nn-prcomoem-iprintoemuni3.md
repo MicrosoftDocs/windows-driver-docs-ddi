@@ -6,8 +6,8 @@ old-location: print\iprintoemuni3_interface.htm
 tech.root: print
 ms.assetid: cf5705fb-8420-4eec-99d4-d56f192da581
 ms.date: 04/20/2018
+keywords: ["IPrintOemUni3 interface"]
 ms.keywords: IPrintOemUni3, IPrintOemUni3 interface [Print Devices], IPrintOemUni3 interface [Print Devices],described, prcomoem/IPrintOemUni3, print.iprintoemuni3_interface, print_unidrv-pscript_rendering_631f975d-1d52-4db8-8e90-71cdb99f4ef1.xml
-ms.topic: interface
 f1_keywords:
  - "prcomoem/IPrintOemUni3"
 req.header: prcomoem.h
@@ -57,7 +57,7 @@ The <b>IPrintOemUni3</b> COM interface is available in Windows Vista and later.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintOemUni3</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemUni3</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintOemUni3</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemUni3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

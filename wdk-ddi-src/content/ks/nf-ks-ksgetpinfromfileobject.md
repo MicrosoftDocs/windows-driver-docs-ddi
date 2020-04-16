@@ -6,8 +6,8 @@ old-location: stream\ksgetpinfromfileobject.htm
 tech.root: stream
 ms.assetid: 47e7fd44-b98f-4e0a-80c8-cc9b6dcc483b
 ms.date: 04/23/2018
+keywords: ["KsGetPinFromFileObject function"]
 ms.keywords: KsGetPinFromFileObject, KsGetPinFromFileObject function [Streaming Media Devices], avfunc_18bdc4eb-2823-481e-ba51-e4103ff10d8c.xml, ks/KsGetPinFromFileObject, stream.ksgetpinfromfileobject
-ms.topic: function
 f1_keywords:
  - "ks/KsGetPinFromFileObject"
 req.header: ks.h

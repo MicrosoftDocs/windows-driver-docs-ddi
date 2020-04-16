@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 5a5bdf05-0a89-48d7-a659-ded08982861f
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
+keywords: ["DXGKDDI_SUBMITTARGETCONTROL callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKDDI_SUBMITTARGETCONTROL"
 req.header: d3dkmddi.h

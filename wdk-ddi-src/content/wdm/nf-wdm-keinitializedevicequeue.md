@@ -6,8 +6,8 @@ old-location: kernel\keinitializedevicequeue.htm
 tech.root: kernel
 ms.assetid: 0df0fcba-9ae8-4c69-957a-5685ea40c378
 ms.date: 04/30/2018
+keywords: ["KeInitializeDeviceQueue function"]
 ms.keywords: KeInitializeDeviceQueue, KeInitializeDeviceQueue routine [Kernel-Mode Driver Architecture], k105_5d7ea571-8c88-45f7-917c-e42e6caac514.xml, kernel.keinitializedevicequeue, wdm/KeInitializeDeviceQueue
-ms.topic: function
 f1_keywords:
  - "wdm/KeInitializeDeviceQueue"
 req.header: wdm.h

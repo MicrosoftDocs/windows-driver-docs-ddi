@@ -6,8 +6,8 @@ old-location: storage\settunnelmodeouteraddress_in.htm
 tech.root: storage
 ms.assetid: 3f698252-213f-482c-8c8f-624f0c370705
 ms.date: 03/29/2018
+keywords: ["_SetTunnelModeOuterAddress_IN structure"]
 ms.keywords: "*PSetTunnelModeOuterAddress_IN, PSetTunnelModeOuterAddress_IN, PSetTunnelModeOuterAddress_IN structure pointer [Storage Devices], SetTunnelModeOuterAddress_IN, SetTunnelModeOuterAddress_IN structure [Storage Devices], _SetTunnelModeOuterAddress_IN, iscsiop/PSetTunnelModeOuterAddress_IN, iscsiop/SetTunnelModeOuterAddress_IN, storage.settunnelmodeouteraddress_in, structs-iSCSI_d86148f6-e3d0-42b3-9e1d-3f341545f0b8.xml"
-ms.topic: struct
 f1_keywords:
  - "iscsiop/SetTunnelModeOuterAddress_IN"
 req.header: iscsiop.h

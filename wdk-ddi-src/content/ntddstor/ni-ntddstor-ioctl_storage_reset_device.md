@@ -6,8 +6,8 @@ old-location: storage\ioctl_storage_reset_device.htm
 tech.root: storage
 ms.assetid: 85ada0f2-5690-4686-86e5-0e1cdc6b2054
 ms.date: 03/29/2018
+keywords: ["IOCTL_STORAGE_RESET_DEVICE IOCTL"]
 ms.keywords: IOCTL_STORAGE_RESET_DEVICE, IOCTL_STORAGE_RESET_DEVICE control, IOCTL_STORAGE_RESET_DEVICE control code [Storage Devices], k307_489c36aa-d120-4d01-b5bd-29adca082064.xml, ntddstor/IOCTL_STORAGE_RESET_DEVICE, storage.ioctl_storage_reset_device
-ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_RESET_DEVICE"
 req.header: ntddstor.h

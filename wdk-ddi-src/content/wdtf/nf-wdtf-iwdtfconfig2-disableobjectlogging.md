@@ -6,8 +6,8 @@ old-location: dtf\iwdtfconfig2_disableobjectlogging.htm
 tech.root: dtf
 ms.assetid: 06a8d1f5-d504-45af-a098-f006e9fa647e
 ms.date: 04/04/2018
+keywords: ["IWDTFCONFIG2::DisableObjectLogging"]
 ms.keywords: DisableObjectLogging, DisableObjectLogging method [Windows Device Testing Framework], DisableObjectLogging method [Windows Device Testing Framework],IWDTFCONFIG2 interface, IWDTFCONFIG2 interface [Windows Device Testing Framework],DisableObjectLogging method, IWDTFCONFIG2.DisableObjectLogging, IWDTFCONFIG2::DisableObjectLogging, Microsoft.WDTF.IWDTFCONFIG2.DisableObjectLogging, Microsoft::WDTF::IWDTFCONFIG2::DisableObjectLogging, dtf.iwdtfconfig2_disableobjectlogging, wdtf/IWDTFCONFIG2::DisableObjectLogging
-ms.topic: method
 f1_keywords:
  - "wdtf/IWDTFCONFIG2.DisableObjectLogging"
 req.header: wdtf.h

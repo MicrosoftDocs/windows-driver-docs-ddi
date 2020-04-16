@@ -6,8 +6,8 @@ old-location: print\ipartthumbnail_setthumbnailcontent.htm
 tech.root: print
 ms.assetid: 7392aa0b-479a-473f-b8b5-34e14494e050
 ms.date: 04/20/2018
+keywords: ["IPartThumbnail::SetThumbnailContent"]
 ms.keywords: IPartThumbnail interface [Print Devices],SetThumbnailContent method, IPartThumbnail.SetThumbnailContent, IPartThumbnail::SetThumbnailContent, SetThumbnailContent, SetThumbnailContent method [Print Devices], SetThumbnailContent method [Print Devices],IPartThumbnail interface, filterpipeline/IPartThumbnail::SetThumbnailContent, filterpipeline_da595290-0b57-4b7d-a494-1f93b8f05470.xml, print.ipartthumbnail_setthumbnailcontent
-ms.topic: method
 f1_keywords:
  - "filterpipeline/IPartThumbnail.SetThumbnailContent"
 req.header: filterpipeline.h

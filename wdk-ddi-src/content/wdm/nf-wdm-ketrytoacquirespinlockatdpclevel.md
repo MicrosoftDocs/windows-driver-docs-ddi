@@ -6,8 +6,8 @@ old-location: kernel\ketrytoacquirespinlockatdpclevel.htm
 tech.root: kernel
 ms.assetid: b7791969-027e-4df7-b720-1eb612597c56
 ms.date: 04/30/2018
+keywords: ["KeTryToAcquireSpinLockAtDpcLevel function"]
 ms.keywords: KeTryToAcquireSpinLockAtDpcLevel, KeTryToAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture], k105_416ac5db-d064-4ced-8cf8-311aca8dae7f.xml, kernel.ketrytoacquirespinlockatdpclevel, wdm/KeTryToAcquireSpinLockAtDpcLevel
-ms.topic: function
 f1_keywords:
  - "wdm/KeTryToAcquireSpinLockAtDpcLevel"
 req.header: wdm.h

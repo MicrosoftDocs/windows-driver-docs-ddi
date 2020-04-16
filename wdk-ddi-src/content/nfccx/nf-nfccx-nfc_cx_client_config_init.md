@@ -6,8 +6,8 @@ old-location: nfpdrivers\nfc_cx_client_config_init.htm
 tech.root: nfpdrivers
 ms.assetid: 0679406E-091D-4E66-956A-54E3A517BF4C
 ms.date: 02/15/2018
+keywords: ["NFC_CX_CLIENT_CONFIG_INIT function"]
 ms.keywords: NFC_CX_CLIENT_CONFIG_INIT, NFC_CX_CLIENT_CONFIG_INIT function [Near-Field Proximity Drivers], nfccx/NFC_CX_CLIENT_CONFIG_INIT, nfpdrivers.nfc_cx_client_config_init
-ms.topic: function
 f1_keywords:
  - "nfccx/NFC_CX_CLIENT_CONFIG_INIT"
 req.header: nfccx.h

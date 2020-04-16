@@ -6,8 +6,8 @@ old-location: stream\ksstreampointeradvanceoffsets.htm
 tech.root: stream
 ms.assetid: 0377371b-b755-4473-a449-9a85e1ca456c
 ms.date: 04/23/2018
+keywords: ["KsStreamPointerAdvanceOffsets function"]
 ms.keywords: KsStreamPointerAdvanceOffsets, KsStreamPointerAdvanceOffsets function [Streaming Media Devices], avfunc_31a73e93-c2b5-4867-9bb1-40090d0ea07e.xml, ks/KsStreamPointerAdvanceOffsets, stream.ksstreampointeradvanceoffsets
-ms.topic: function
 f1_keywords:
  - "ks/KsStreamPointerAdvanceOffsets"
 req.header: ks.h

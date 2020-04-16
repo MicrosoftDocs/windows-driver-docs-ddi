@@ -5,7 +5,7 @@ description: The NDIS_WWAN_UICC_FILE_PATH structure describes file path informat
 tech.root: netvista
 ms.assetid: 9952AB3C-FE31-4DE7-B4FE-84CA89A1A7EB
 ms.date: 04/09/2019
-ms.topic: struct
+keywords: ["_NDIS_WWAN_UICC_FILE_PATH structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_UICC_FILE_PATH"
 ms.keywords: _NDIS_WWAN_UICC_FILE_PATH, NDIS_WWAN_UICC_FILE_PATH, *PNDIS_WWAN_UICC_FILE_PATH, 

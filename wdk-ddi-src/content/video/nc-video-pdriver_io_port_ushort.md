@@ -6,8 +6,8 @@ old-location: display\svgahwioportushort.htm
 tech.root: display
 ms.assetid: 304656b4-ebbe-4cb1-8735-2e03bec71f9f
 ms.date: 05/10/2018
+keywords: ["PDRIVER_IO_PORT_USHORT callback function"]
 ms.keywords: PDRIVER_IO_PORT_USHORT, PDRIVER_IO_PORT_USHORT callback, SvgaHwIoPortUshort, SvgaHwIoPortUshort callback function [Display Devices], VideoMiniport_Functions_756e549c-fadc-49ae-b356-c94893809e01.xml, display.svgahwioportushort, video/SvgaHwIoPortUshort
-ms.topic: callback
 f1_keywords:
  - "video/SvgaHwIoPortUshort"
 req.header: video.h

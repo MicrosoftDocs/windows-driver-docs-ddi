@@ -4,7 +4,7 @@ title: IDebugHostEvaluator::EvaluateExtendedExpression (dbgmodel.h)
 description: The EvaluateExtendedExpression method is similar to the EvaluateExpression method except that it turns back on additional non-language functionality which a particular debug host chooses to add to its expression evaluator. 
 ms.assetid: 0bbe45cb-f806-4b3e-a042-d13a15a96e8c
 ms.date: 09/12/2018
-ms.topic: method
+keywords: ["IDebugHostEvaluator::EvaluateExtendedExpression"]
 f1_keywords:
  - "dbgmodel/IDebugHostEvaluator.EvaluateExtendedExpression"
 ms.keywords: IDebugHostEvaluator::EvaluateExtendedExpression, EvaluateExtendedExpression, IDebugHostEvaluator.EvaluateExtendedExpression, IDebugHostEvaluator::EvaluateExtendedExpression, IDebugHostEvaluator.EvaluateExtendedExpression

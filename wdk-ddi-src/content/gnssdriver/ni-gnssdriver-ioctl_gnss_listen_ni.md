@@ -6,8 +6,8 @@ old-location: gnss\ioctl_gnss_listen_ni.htm
 tech.root: gnss
 ms.assetid: DDC85717-7CF7-421D-9521-09E272FFFCF0
 ms.date: 02/15/2018
+keywords: ["IOCTL_GNSS_LISTEN_NI IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_NI, IOCTL_GNSS_LISTEN_NI control, IOCTL_GNSS_LISTEN_NI control code [Sensor Devices], gnss.ioctl_gnss_listen_ni, gnssdriver/IOCTL_GNSS_LISTEN_NI
-ms.topic: ioctl
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_LISTEN_NI"
 req.header: gnssdriver.h

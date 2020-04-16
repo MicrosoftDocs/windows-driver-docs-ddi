@@ -6,8 +6,8 @@ old-location: debugger\addbreakpoint.htm
 tech.root: debugger
 ms.assetid: 08452b54-158f-4dca-86d8-34cc3f96bc62
 ms.date: 05/03/2018
+keywords: ["IDebugControl2::AddBreakpoint"]
 ms.keywords: AddBreakpoint, AddBreakpoint method [Windows Debugging], AddBreakpoint method [Windows Debugging],IDebugControl interface, AddBreakpoint method [Windows Debugging],IDebugControl2 interface, AddBreakpoint method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],AddBreakpoint method, IDebugControl2 interface [Windows Debugging],AddBreakpoint method, IDebugControl2.AddBreakpoint, IDebugControl2::AddBreakpoint, IDebugControl3 interface [Windows Debugging],AddBreakpoint method, IDebugControl3::AddBreakpoint, IDebugControl::AddBreakpoint, IDebugControl_3d11665a-ec78-4742-8195-2798601814e9.xml, dbgeng/IDebugControl2::AddBreakpoint, dbgeng/IDebugControl3::AddBreakpoint, dbgeng/IDebugControl::AddBreakpoint, debugger.addbreakpoint
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl.AddBreakpoint"
 req.header: dbgeng.h

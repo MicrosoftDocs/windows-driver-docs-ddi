@@ -6,8 +6,8 @@ old-location: wdf\wdf_synchronization_scope.htm
 tech.root: wdf
 ms.assetid: a251bf5c-c09b-4097-a9ed-82f2312ac408
 ms.date: 02/26/2018
+keywords: ["_WDF_SYNCHRONIZATION_SCOPE enumeration"]
 ms.keywords: DFGenObjectRef_62dd47ff-1d2a-454e-9083-cbf68f1679d2.xml, WDF_SYNCHRONIZATION_SCOPE, WDF_SYNCHRONIZATION_SCOPE enumeration, WdfSynchronizationScopeDevice, WdfSynchronizationScopeInheritFromParent, WdfSynchronizationScopeInvalid, WdfSynchronizationScopeNone, WdfSynchronizationScopeQueue, _WDF_SYNCHRONIZATION_SCOPE, kmdf.wdf_synchronization_scope, wdf.wdf_synchronization_scope, wdfobject/WDF_SYNCHRONIZATION_SCOPE, wdfobject/WdfSynchronizationScopeDevice, wdfobject/WdfSynchronizationScopeInheritFromParent, wdfobject/WdfSynchronizationScopeInvalid, wdfobject/WdfSynchronizationScopeNone, wdfobject/WdfSynchronizationScopeQueue
-ms.topic: enum
 f1_keywords:
  - "wdfobject/WDF_SYNCHRONIZATION_SCOPE"
 req.header: wdfobject.h

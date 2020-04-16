@@ -6,8 +6,8 @@ old-location: kernel\kereverttousergroupaffinitythread.htm
 tech.root: kernel
 ms.assetid: 13a1a106-0c5c-4c0e-964d-27e549e1c699
 ms.date: 04/30/2018
+keywords: ["KeRevertToUserGroupAffinityThread function"]
 ms.keywords: KeRevertToUserGroupAffinityThread, KeRevertToUserGroupAffinityThread routine [Kernel-Mode Driver Architecture], k105_be46d681-835f-40ba-8120-b8699e16ea0b.xml, kernel.kereverttousergroupaffinitythread, wdm/KeRevertToUserGroupAffinityThread
-ms.topic: function
 f1_keywords:
  - "wdm/KeRevertToUserGroupAffinityThread"
 req.header: wdm.h

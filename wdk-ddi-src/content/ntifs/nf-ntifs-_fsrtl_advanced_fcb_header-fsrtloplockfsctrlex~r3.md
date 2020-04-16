@@ -6,8 +6,8 @@ old-location: ifsk\fsrtloplockfsctrlex.htm
 tech.root: ifsk
 ms.assetid: f1bac8c1-a313-40b9-96fc-9eaf426bf238
 ms.date: 03/29/2018
+keywords: ["FsRtlOplockFsctrlEx function"]
 ms.keywords: FsRtlOplockFsctrlEx, FsRtlOplockFsctrlEx routine [Installable File System Drivers], fsrtlref_fa242815-36f3-4c0a-ae1d-826d0208e191.xml, ifsk.fsrtloplockfsctrlex, ntifs/FsRtlOplockFsctrlEx
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlOplockFsctrlEx"
 req.header: ntifs.h

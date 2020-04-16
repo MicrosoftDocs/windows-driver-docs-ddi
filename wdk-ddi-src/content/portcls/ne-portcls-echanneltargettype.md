@@ -6,8 +6,8 @@ old-location: audio\echanneltargettype.htm
 tech.root: audio
 ms.assetid: 44C5BE49-E8D5-4E6C-BDC5-494F180D580A
 ms.date: 05/08/2018
+keywords: ["eChannelTargetType enumeration"]
 ms.keywords: audio.echanneltargettype, eChannelTargetType, eChannelTargetType enumeration [Audio Devices], eMuteAttribute, ePeakMeterAttribute, eVolumeAttribute, portcls/eChannelTargetType, portcls/eMuteAttribute, portcls/ePeakMeterAttribute, portcls/eVolumeAttribute
-ms.topic: enum
 f1_keywords:
  - "portcls/eChannelTargetType"
 req.header: portcls.h

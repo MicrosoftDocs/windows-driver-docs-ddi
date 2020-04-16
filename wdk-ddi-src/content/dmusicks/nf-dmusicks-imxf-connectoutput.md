@@ -5,7 +5,7 @@ description: The ConnectOutput method connects this IMXF interface with the sink
 tech.root: audio
 ms.assetid: cca02916-afd0-47a5-a19a-1c3159c54ed4
 ms.date: 10/31/2018
-ms.topic: method
+keywords: ["IMXF::ConnectOutput"]
 f1_keywords:
  - "dmusicks/IMXF.ConnectOutput"
 ms.keywords: IMXF::ConnectOutput, ConnectOutput, IMXF.ConnectOutput, IMXF::ConnectOutput, IMXF.ConnectOutput

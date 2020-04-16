@@ -6,8 +6,8 @@ old-location: wdf\wdfdeviceinitsetpnppowereventcallbacks.htm
 tech.root: wdf
 ms.assetid: ace53515-0e8a-487d-abf7-caaa09478ed5
 ms.date: 02/26/2018
+keywords: ["WdfDeviceInitSetPnpPowerEventCallbacks function"]
 ms.keywords: DFDeviceObjectGeneralRef_6a2f152e-b1ee-492e-a986-9c1ea925ff24.xml, WdfDeviceInitSetPnpPowerEventCallbacks, WdfDeviceInitSetPnpPowerEventCallbacks method, kmdf.wdfdeviceinitsetpnppowereventcallbacks, wdf.wdfdeviceinitsetpnppowereventcallbacks, wdfdevice/WdfDeviceInitSetPnpPowerEventCallbacks
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetPnpPowerEventCallbacks"
 req.header: wdfdevice.h

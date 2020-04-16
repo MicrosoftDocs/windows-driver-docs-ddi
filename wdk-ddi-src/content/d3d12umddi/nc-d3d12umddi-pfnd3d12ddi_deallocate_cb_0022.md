@@ -5,8 +5,8 @@ description: The pfnDeallocateCb callback function controls heap deallocation by
 old-location: display\pfnd3d12ddi_deallocate_cb_0022.htm
 ms.assetid: 85304F27-A522-44B7-86EC-31F670828354
 ms.date: 05/10/2018
+keywords: ["PFND3D12DDI_DEALLOCATE_CB_0022 callback function"]
 ms.keywords: PFND3D12DDI_DEALLOCATE_CB_0022, PFND3D12DDI_DEALLOCATE_CB_0022 callback, d3d12umddi/pfnDeallocateCb, display.pfnd3d12ddi_deallocate_cb_0022, pfnDeallocateCb, pfnDeallocateCb callback function [Display Devices]
-ms.topic: callback
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

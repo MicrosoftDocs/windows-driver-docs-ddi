@@ -4,7 +4,7 @@ title: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041 (d3d12umddi.h)
 description: Specifies the arguments for decode output conversion.
 ms.assetid: a7539a5e-e16b-48d9-b731-e55c2514ac66
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041"
 ms.keywords: D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041, D3D12DDI_VIDEO_DECODE_CONVERSION_ARGUMENTS_0041,

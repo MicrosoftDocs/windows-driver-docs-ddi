@@ -5,7 +5,7 @@ description: The NET_BUFFER_LIST_RECEIVE_FILTER_ID macro gets a receive filter i
 tech.root: netvista
 ms.assetid: 4c419caa-e514-466e-a3d5-058ae12b8f3a
 ms.date: 04/13/2018
-ms.topic: macro
+keywords: ["NET_BUFFER_LIST_RECEIVE_FILTER_ID macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_RECEIVE_FILTER_ID"
 ms.keywords: NET_BUFFER_LIST_RECEIVE_FILTER_ID

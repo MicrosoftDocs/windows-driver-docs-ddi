@@ -5,8 +5,8 @@ description: Maps a graphics processing unit (GPU) virtual address to the specif
 old-location: display\dxgkcbmapcontextallocation.htm
 ms.assetid: 8EAC322D-B666-428A-99A3-96E489611832
 ms.date: 05/10/2018
+keywords: ["DXGKCB_MAPCONTEXTALLOCATION callback function"]
 ms.keywords: DXGKCB_MAPCONTEXTALLOCATION, DXGKCB_MAPCONTEXTALLOCATION callback, DxgkCbMapContextAllocation, DxgkCbMapContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbMapContextAllocation, display.dxgkcbmapcontextallocation
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

@@ -6,8 +6,8 @@ old-location: display\ioctl_video_unmap_video_memory.htm
 tech.root: display
 ms.assetid: 421cbe15-f2a6-495d-90f2-09a13771d018
 ms.date: 05/10/2018
+keywords: ["IOCTL_VIDEO_UNMAP_VIDEO_MEMORY IOCTL"]
 ms.keywords: IOCTL_VIDEO_UNMAP_VIDEO_MEMORY, IOCTL_VIDEO_UNMAP_VIDEO_MEMORY control, IOCTL_VIDEO_UNMAP_VIDEO_MEMORY control code [Display Devices], Video_IOCTLs_97fad6e5-d6e7-4487-84ab-cee66609ccd9.xml, display.ioctl_video_unmap_video_memory, ntddvdeo/IOCTL_VIDEO_UNMAP_VIDEO_MEMORY
-ms.topic: ioctl
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_UNMAP_VIDEO_MEMORY"
 req.header: ntddvdeo.h

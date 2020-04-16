@@ -6,8 +6,8 @@ old-location: print\ibidiasyncnotifychannel_getchannelnotificationtype.htm
 tech.root: print
 ms.assetid: EB0F515D-A2FF-4744-ABC8-8FFD9DD08F24
 ms.date: 04/20/2018
+keywords: ["IBidiAsyncNotifyChannel::GetChannelNotificationType"]
 ms.keywords: GetChannelNotificationType, GetChannelNotificationType method [Print Devices], GetChannelNotificationType method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],GetChannelNotificationType method, IBidiAsyncNotifyChannel.GetChannelNotificationType, IBidiAsyncNotifyChannel::GetChannelNotificationType, print.ibidiasyncnotifychannel_getchannelnotificationtype, prnasntp/IBidiAsyncNotifyChannel::GetChannelNotificationType
-ms.topic: method
 f1_keywords:
  - "prnasntp/IBidiAsyncNotifyChannel.GetChannelNotificationType"
 req.header: prnasntp.h
@@ -55,7 +55,7 @@ req.typenames:
 
 
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="https://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="https://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
 

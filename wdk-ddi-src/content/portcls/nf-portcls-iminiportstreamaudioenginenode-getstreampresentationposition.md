@@ -6,8 +6,8 @@ old-location: audio\iminiportstreamaudioenginenode_getstreampresentationposition
 tech.root: audio
 ms.assetid: 872A4445-8E0B-4804-ADDC-8CD9608E3EBF
 ms.date: 05/08/2018
+keywords: ["IMiniportStreamAudioEngineNode::GetStreamPresentationPosition"]
 ms.keywords: GetStreamPresentationPosition, GetStreamPresentationPosition method [Audio Devices], GetStreamPresentationPosition method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamPresentationPosition method, IMiniportStreamAudioEngineNode.GetStreamPresentationPosition, IMiniportStreamAudioEngineNode::GetStreamPresentationPosition, audio.iminiportstreamaudioenginenode_getstreampresentationposition, portcls/IMiniportStreamAudioEngineNode::GetStreamPresentationPosition
-ms.topic: method
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.GetStreamPresentationPosition"
 req.header: portcls.h

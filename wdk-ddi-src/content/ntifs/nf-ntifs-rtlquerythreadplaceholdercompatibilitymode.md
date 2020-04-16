@@ -6,8 +6,8 @@ old-location: ifsk\rtlquerythreadplaceholdercompatibilitymode.htm
 tech.root: ifsk
 ms.assetid: A38B30F9-D55B-4CC2-9B71-3B597ACCE0EB
 ms.date: 04/16/2018
+keywords: ["RtlQueryThreadPlaceholderCompatibilityMode function"]
 ms.keywords: RtlQueryThreadPlaceholderCompatibilityMode, RtlQueryThreadPlaceholderCompatibilityMode routine [Installable File System Drivers], ifsk.rtlquerythreadplaceholdercompatibilitymode, ntifs/RtlQueryThreadPlaceholderCompatibilityMode
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlQueryThreadPlaceholderCompatibilityMode"
 req.header: ntifs.h

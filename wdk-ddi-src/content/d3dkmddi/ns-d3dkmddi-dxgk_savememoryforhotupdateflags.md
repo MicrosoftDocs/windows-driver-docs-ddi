@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 0862dcea-2d89-483d-a503-b1964dff971d
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
+keywords: ["DXGK_SAVEMEMORYFORHOTUPDATEFLAGS structure"]
 f1_keywords:
  - "d3dkmddi/DXGK_SAVEMEMORYFORHOTUPDATEFLAGS"
 ms.keywords: DXGK_SAVEMEMORYFORHOTUPDATEFLAGS, DXGK_SAVEMEMORYFORHOTUPDATEFLAGS, 

@@ -4,7 +4,7 @@ title: PFND3DKMT_QUERYHYBRIDLISTVALUE (d3dkmthk.h)
 description: The PFND3DKMT_QUERYHYBRIDLISTVALUE callback function queries for the hybrid list value.
 ms.assetid: ccfe5778-0d18-4196-b840-2f53d9ed36a8
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DKMT_QUERYHYBRIDLISTVALUE callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_QUERYHYBRIDLISTVALUE"
 req.header: d3dkmthk.h

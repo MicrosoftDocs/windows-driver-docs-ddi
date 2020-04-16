@@ -4,7 +4,7 @@ title: IDebugHostModule::GetName (dbgmodel.h)
 description: Returns the name of the symbol if the symbol has a name.
 ms.assetid: 4aa9e6e2-5678-47c8-99ba-85aab38b6be6
 ms.date: 09/21/2018
-ms.topic: method
+keywords: ["IDebugHostModule::GetName"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule.GetName"
 ms.keywords: IDebugHostModule::GetName, GetName, IDebugHostModule.GetName, IDebugHostModule::GetName, IDebugHostModule.GetName

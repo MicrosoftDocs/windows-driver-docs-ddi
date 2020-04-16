@@ -6,8 +6,8 @@ old-location: kernel\putscattergatherlist.htm
 tech.root: kernel
 ms.assetid: e10091c0-0da6-4acd-8104-9d353262836a
 ms.date: 04/30/2018
+keywords: ["PPUT_SCATTER_GATHER_LIST callback function"]
 ms.keywords: PPUT_SCATTER_GATHER_LIST, PPUT_SCATTER_GATHER_LIST callback, PutScatterGatherList, PutScatterGatherList callback function [Kernel-Mode Driver Architecture], kdma_0f73e6d3-bf6c-4f2b-aff9-ae783b2130c5.xml, kernel.putscattergatherlist, ntddk/PutScatterGatherList
-ms.topic: callback
 f1_keywords:
  - "wdm/PutScatterGatherList"
 req.header: wdm.h

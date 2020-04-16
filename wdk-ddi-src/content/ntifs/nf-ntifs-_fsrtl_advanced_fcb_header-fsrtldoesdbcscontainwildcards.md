@@ -6,8 +6,8 @@ old-location: ifsk\fsrtldoesdbcscontainwildcards.htm
 tech.root: ifsk
 ms.assetid: 4a33014a-c980-4186-b7b2-68fda22fa152
 ms.date: 04/16/2018
+keywords: ["FsRtlDoesDbcsContainWildCards function"]
 ms.keywords: FsRtlDoesDbcsContainWildCards, FsRtlDoesDbcsContainWildCards routine [Installable File System Drivers], fsrtlref_07aa2ec1-8e37-4ffb-bd22-a3877ae8f7ee.xml, ifsk.fsrtldoesdbcscontainwildcards, ntifs/FsRtlDoesDbcsContainWildCards
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlDoesDbcsContainWildCards"
 req.header: ntifs.h

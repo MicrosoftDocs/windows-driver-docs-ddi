@@ -6,8 +6,8 @@ old-location: netvista\neighbor_offload_state_delegated.htm
 tech.root: netvista
 ms.assetid: 94a35d0f-3585-45d0-bba8-0b4a8ebbe883
 ms.date: 05/02/2018
+keywords: ["_NEIGHBOR_OFFLOAD_STATE_DELEGATED structure"]
 ms.keywords: "*PNEIGHBOR_OFFLOAD_STATE_DELEGATED, NEIGHBOR_OFFLOAD_STATE_DELEGATED, NEIGHBOR_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], PNEIGHBOR_OFFLOAD_STATE_DELEGATED, PNEIGHBOR_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], _NEIGHBOR_OFFLOAD_STATE_DELEGATED, ndischimney/NEIGHBOR_OFFLOAD_STATE_DELEGATED, ndischimney/PNEIGHBOR_OFFLOAD_STATE_DELEGATED, netvista.neighbor_offload_state_delegated, tcp_chim_struct_860c3a42-4276-4a6e-92c2-c32bc1afa9b2.xml"
-ms.topic: struct
 f1_keywords:
  - "ndischimney/NEIGHBOR_OFFLOAD_STATE_DELEGATED"
 req.header: ndischimney.h

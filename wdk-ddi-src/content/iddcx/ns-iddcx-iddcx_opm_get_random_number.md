@@ -6,8 +6,8 @@ old-location: display\iddcx_opm_get_random_number.htm
 tech.root: display
 ms.assetid: 6960f235-984e-4f98-97ef-5e1dd295eab7
 ms.date: 05/10/2018
+keywords: ["IDDCX_OPM_GET_RANDOM_NUMBER structure"]
 ms.keywords: IDDCX_OPM_GET_RANDOM_NUMBER, IDDCX_OPM_GET_RANDOM_NUMBER structure [Display Devices], display.iddcx_opm_get_random_number, iddcx/IDDCX_OPM_GET_RANDOM_NUMBER
-ms.topic: struct
 f1_keywords:
  - "iddcx/IDDCX_OPM_GET_RANDOM_NUMBER"
 req.header: iddcx.h

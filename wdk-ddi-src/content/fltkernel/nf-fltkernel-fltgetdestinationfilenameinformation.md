@@ -6,8 +6,8 @@ old-location: ifsk\fltgetdestinationfilenameinformation.htm
 tech.root: ifsk
 ms.assetid: b5438802-fc96-4445-9261-5d497d2d24cc
 ms.date: 05/22/2019
+keywords: ["FltGetDestinationFileNameInformation function"]
 ms.keywords: FltApiRef_e_to_o_127cb786-b74b-4c1b-bb38-87ad3494900b.xml, FltGetDestinationFileNameInformation, FltGetDestinationFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetDestinationFileNameInformation, ifsk.fltgetdestinationfilenameinformation
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltGetDestinationFileNameInformation"
 req.header: fltkernel.h

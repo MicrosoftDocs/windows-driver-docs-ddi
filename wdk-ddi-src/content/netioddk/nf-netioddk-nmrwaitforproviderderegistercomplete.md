@@ -6,8 +6,8 @@ old-location: netvista\nmrwaitforproviderderegistercomplete.htm
 tech.root: netvista
 ms.assetid: ec6e75e8-f24a-4d76-b6e1-af35b5402f91
 ms.date: 05/02/2018
+keywords: ["NmrWaitForProviderDeregisterComplete function"]
 ms.keywords: NmrWaitForProviderDeregisterComplete, NmrWaitForProviderDeregisterComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrWaitForProviderDeregisterComplete, netvista.nmrwaitforproviderderegistercomplete, nmrref_bd063787-0438-49de-9816-e5a110528d54.xml
-ms.topic: function
 f1_keywords:
  - "netioddk/NmrWaitForProviderDeregisterComplete"
 req.header: netioddk.h

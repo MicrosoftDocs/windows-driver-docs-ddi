@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 939bdb9f-a18f-4d49-8cbc-9b1c487e45c1
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
+keywords: ["DXGKDDI_QUERYPROBEDBARS callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_QUERYPROBEDBARS"
 req.header: dispmprt.h

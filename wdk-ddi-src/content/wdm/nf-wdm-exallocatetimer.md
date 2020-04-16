@@ -6,8 +6,8 @@ old-location: kernel\exallocatetimer.htm
 tech.root: kernel
 ms.assetid: 4FCFC48A-97BC-48E0-BBA7-F9E8B8A7588A
 ms.date: 04/30/2018
+keywords: ["ExAllocateTimer function"]
 ms.keywords: ExAllocateTimer, ExAllocateTimer routine [Kernel-Mode Driver Architecture], kernel.exallocatetimer, wdm/ExAllocateTimer
-ms.topic: function
 f1_keywords:
  - "wdm/ExAllocateTimer"
 req.header: wdm.h

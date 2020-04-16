@@ -5,8 +5,8 @@ description: The D3D10DDIARG_CREATERENDERTARGETVIEW structure describes the rend
 old-location: display\d3d10ddiarg_createrendertargetview.htm
 ms.assetid: 2d21aacb-3b2b-4c33-ac35-9f15c1fa8171
 ms.date: 05/10/2018
+keywords: ["D3D10DDIARG_CREATERENDERTARGETVIEW structure"]
 ms.keywords: D3D10DDIARG_CREATERENDERTARGETVIEW, D3D10DDIARG_CREATERENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_615cce2f-8ea4-4adc-9d7a-907414217ffc.xml, d3d10umddi/D3D10DDIARG_CREATERENDERTARGETVIEW, display.d3d10ddiarg_createrendertargetview
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_CREATERENDERTARGETVIEW"
 req.header: d3d10umddi.h

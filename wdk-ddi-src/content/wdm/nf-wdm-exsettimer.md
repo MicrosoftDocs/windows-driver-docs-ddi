@@ -6,8 +6,8 @@ old-location: kernel\exsettimer.htm
 tech.root: kernel
 ms.assetid: 0320AB36-CA88-40E7-859E-B940401474DD
 ms.date: 04/30/2018
+keywords: ["ExSetTimer function"]
 ms.keywords: ExSetTimer, ExSetTimer routine [Kernel-Mode Driver Architecture], kernel.exsettimer, wdm/ExSetTimer
-ms.topic: function
 f1_keywords:
  - "wdm/ExSetTimer"
 req.header: wdm.h

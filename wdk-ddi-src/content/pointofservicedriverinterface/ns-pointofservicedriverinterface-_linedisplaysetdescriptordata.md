@@ -6,8 +6,8 @@ old-location: pos\linedisplaysetdescriptordata.htm
 tech.root: pos
 ms.assetid: 60E2379E-BF42-4290-98AA-5E6E8DE0A922
 ms.date: 02/23/2018
+keywords: ["_LineDisplaySetDescriptorData structure"]
 ms.keywords: LineDisplaySetDescriptorData, LineDisplaySetDescriptorData structure, PLineDisplaySetDescriptorData, PLineDisplaySetDescriptorData structure pointer, _LineDisplaySetDescriptorData, pointofservicedriverinterface/LineDisplaySetDescriptorData, pointofservicedriverinterface/PLineDisplaySetDescriptorData, pos.linedisplaysetdescriptordata
-ms.topic: struct
 f1_keywords:
  - "pointofservicedriverinterface/LineDisplaySetDescriptorData"
 req.header: pointofservicedriverinterface.h

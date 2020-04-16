@@ -5,8 +5,8 @@ description: The DXGKARG_RECOMMENDFUNCTIONALVIDPN structure contains arguments f
 old-location: display\dxgkarg_recommendfunctionalvidpn.htm
 ms.assetid: 58031257-5363-4e4f-b95f-aa3cd603c113
 ms.date: 05/10/2018
+keywords: ["_DXGKARG_RECOMMENDFUNCTIONALVIDPN structure"]
 ms.keywords: DXGKARG_RECOMMENDFUNCTIONALVIDPN, DXGKARG_RECOMMENDFUNCTIONALVIDPN structure [Display Devices], DmStructs_15342273-6bfe-4cee-8f8e-1d89c7683e4b.xml, _DXGKARG_RECOMMENDFUNCTIONALVIDPN, d3dkmddi/DXGKARG_RECOMMENDFUNCTIONALVIDPN, display.dxgkarg_recommendfunctionalvidpn
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGKARG_RECOMMENDFUNCTIONALVIDPN"
 req.header: d3dkmddi.h

@@ -6,8 +6,8 @@ old-location: ifsk\rtlenumerategenerictable.htm
 tech.root: ifsk
 ms.assetid: 53a5348c-71d1-4d58-82bf-1f8bf8daff90
 ms.date: 04/16/2018
+keywords: ["RtlEnumerateGenericTable function"]
 ms.keywords: RtlEnumerateGenericTable, RtlEnumerateGenericTable routine [Installable File System Drivers], ifsk.rtlenumerategenerictable, ntddk/RtlEnumerateGenericTable, rtlref_5fb7c196-aee1-4dcc-a39c-587472a2fbe9.xml
-ms.topic: function
 f1_keywords:
  - "ntddk/RtlEnumerateGenericTable"
 req.header: ntddk.h

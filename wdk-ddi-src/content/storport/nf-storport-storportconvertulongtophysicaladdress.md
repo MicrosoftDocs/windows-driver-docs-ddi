@@ -6,8 +6,8 @@ old-location: storage\storportconvertulongtophysicaladdress.htm
 tech.root: storage
 ms.assetid: 772ca60b-a957-47de-b95d-486497b295ce
 ms.date: 03/29/2018
+keywords: ["StorPortConvertUlongToPhysicalAddress function"]
 ms.keywords: StorPortConvertUlongToPhysicalAddress, StorPortConvertUlongToPhysicalAddress routine [Storage Devices], storage.storportconvertulongtophysicaladdress, storport/StorPortConvertUlongToPhysicalAddress, storprt_c0da13f0-81f8-48ae-93e2-8af7bcedf4dc.xml
-ms.topic: function
 f1_keywords:
  - "storport/StorPortConvertUlongToPhysicalAddress"
 req.header: storport.h

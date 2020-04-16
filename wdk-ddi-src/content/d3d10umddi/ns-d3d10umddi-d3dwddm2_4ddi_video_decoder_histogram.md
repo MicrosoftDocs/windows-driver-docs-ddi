@@ -4,7 +4,7 @@ title: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM (d3d10umddi.h)
 description: Contains decode histogram output buffer information such as decode profile, resolution, and format.
 ms.assetid: 29d827ff-d958-44dc-8206-cb5017115265
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM structure"]
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM"
 ms.keywords: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM, D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM,

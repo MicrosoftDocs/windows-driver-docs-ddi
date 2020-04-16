@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 51700e53-2819-4a18-ac88-fb14fa9335f9
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: enum
+keywords: ["DXGK_GAMMA_DATA_TYPE enumeration"]
 ms.keywords: DXGK_GAMMA_DATA_TYPE, DXGK_GAMMA_DATA_TYPE,
 req.header: d3dkmddi.h
 req.include-header: 

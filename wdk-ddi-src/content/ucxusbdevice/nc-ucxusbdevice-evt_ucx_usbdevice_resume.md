@@ -6,8 +6,8 @@ old-location: buses\evt_ucx_usbdevice_resume.htm
 tech.root: usbref
 ms.assetid: 876D9754-B3AA-42C5-8BDD-60CFD4F78951
 ms.date: 05/07/2018
+keywords: ["EVT_UCX_USBDEVICE_RESUME callback function"]
 ms.keywords: "*PFN_UCX_USBDEVICE_RESUME, *PFN_UCX_USBDEVICE_RESUME callback function [Buses], EVT_UCX_USBDEVICE_RESUME, EVT_UCX_USBDEVICE_RESUME callback, EvtUcxDeviceResume, EvtUcxDeviceResume callback function [Buses], buses.evt_ucx_usbdevice_resume, ucxusbdevice/EvtUcxDeviceResume"
-ms.topic: callback
 f1_keywords:
  - "ucxusbdevice/*PFN_UCX_USBDEVICE_RESUME"
 req.header: ucxusbdevice.h
@@ -35,7 +35,7 @@ api_type:
 api_location:
 - ucxusbdevice.h
 api_name:
-- *PFN_UCX_USBDEVICE_RESUME
+- PFN_UCX_USBDEVICE_RESUME
 product:
 - Windows
 targetos: Windows

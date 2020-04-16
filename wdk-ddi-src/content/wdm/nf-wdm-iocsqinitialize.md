@@ -6,8 +6,8 @@ old-location: kernel\iocsqinitialize.htm
 tech.root: kernel
 ms.assetid: 5287db75-3096-45ab-b35b-1ee8b076157d
 ms.date: 04/30/2018
+keywords: ["IoCsqInitialize function"]
 ms.keywords: IoCsqInitialize, IoCsqInitialize routine [Kernel-Mode Driver Architecture], k104_08afe4e8-f68d-4490-86ec-a558b2090a82.xml, kernel.iocsqinitialize, wdm/IoCsqInitialize
-ms.topic: function
 f1_keywords:
  - "wdm/IoCsqInitialize"
 req.header: wdm.h

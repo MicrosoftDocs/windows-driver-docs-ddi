@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: d894ddda-c549-4d4d-982f-c6636c635f1d
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: callback
+keywords: ["PFND3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE"
 ms.prod: windows-hardware

@@ -5,8 +5,8 @@ description: DXGK_PHYSICALADAPTERFLAGS defines a set of flags that used to indic
 old-location: display\dxgk_physicaladapterflags.htm
 ms.assetid: AACF0C99-D6E2-4C7C-BAE6-BF558FDAFDE0
 ms.date: 05/10/2018
+keywords: ["_DXGK_PHYSICALADAPTERFLAGS structure"]
 ms.keywords: DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS structure [Display Devices], _DXGK_PHYSICALADAPTERFLAGS, d3dkmddi/DXGK_PHYSICALADAPTERFLAGS, display.dxgk_physicaladapterflags
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_PHYSICALADAPTERFLAGS"
 req.header: d3dkmddi.h

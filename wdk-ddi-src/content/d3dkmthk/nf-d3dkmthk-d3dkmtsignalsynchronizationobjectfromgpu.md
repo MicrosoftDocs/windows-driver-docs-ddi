@@ -5,8 +5,8 @@ description: D3DKMTSignalSynchronizationObjectFromGpu is used to signal a monito
 old-location: display\d3dkmtsignalsynchronizationobjectfromgpu.htm
 ms.assetid: 5343A7F6-7EFC-4BAE-8D21-CA8FB9B6078A
 ms.date: 05/10/2018
+keywords: ["D3DKMTSignalSynchronizationObjectFromGpu function"]
 ms.keywords: D3DKMTSignalSynchronizationObjectFromGpu, D3DKMTSignalSynchronizationObjectFromGpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromGpu, display.d3dkmtsignalsynchronizationobjectfromgpu
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTSignalSynchronizationObjectFromGpu"
 req.header: d3dkmthk.h

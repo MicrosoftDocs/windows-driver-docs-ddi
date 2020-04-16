@@ -6,8 +6,8 @@ old-location: ifsk\rtloemtounicoden.htm
 tech.root: ifsk
 ms.assetid: fe00b980-4bb5-4ad7-84c0-99d47d2f7c51
 ms.date: 04/16/2018
+keywords: ["RtlOemToUnicodeN function"]
 ms.keywords: RtlOemToUnicodeN, RtlOemToUnicodeN routine [Installable File System Drivers], ifsk.rtloemtounicoden, ntifs/RtlOemToUnicodeN, rtlref_7159eedf-5a97-4dc5-a9e8-c4a7f2ac2ee2.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlOemToUnicodeN"
 req.header: ntifs.h

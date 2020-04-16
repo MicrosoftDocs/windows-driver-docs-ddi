@@ -6,8 +6,8 @@ old-location: stream\ksmethod_type_irp_storage.htm
 tech.root: stream
 ms.assetid: f5327cbf-e71b-4c1c-94c0-0e27afb4d7cf
 ms.date: 04/23/2018
+keywords: ["KSMETHOD_TYPE_IRP_STORAGE macro"]
 ms.keywords: KSMETHOD_TYPE_IRP_STORAGE, KSMETHOD_TYPE_IRP_STORAGE macro [Streaming Media Devices], ks/KSMETHOD_TYPE_IRP_STORAGE, ksfunc_de99d882-5298-4972-9d16-fa4478d6229c.xml, stream.ksmethod_type_irp_storage
-ms.topic: macro
 f1_keywords:
  - "ks/KSMETHOD_TYPE_IRP_STORAGE"
 req.header: ks.h

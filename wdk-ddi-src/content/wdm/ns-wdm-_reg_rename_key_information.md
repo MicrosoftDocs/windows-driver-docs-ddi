@@ -6,8 +6,8 @@ old-location: kernel\reg_rename_key_information.htm
 tech.root: kernel
 ms.assetid: 80ffa1dc-aa4f-40b4-936b-7e441b3b123d
 ms.date: 04/30/2018
+keywords: ["_REG_RENAME_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_RENAME_KEY_INFORMATION, PREG_RENAME_KEY_INFORMATION, PREG_RENAME_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_RENAME_KEY_INFORMATION, REG_RENAME_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_RENAME_KEY_INFORMATION, kernel.reg_rename_key_information, kstruct_d_f6416cfd-5ace-4366-81a5-87b233551c7a.xml, wdm/PREG_RENAME_KEY_INFORMATION, wdm/REG_RENAME_KEY_INFORMATION"
-ms.topic: struct
 f1_keywords:
  - "wdm/REG_RENAME_KEY_INFORMATION"
 req.header: wdm.h

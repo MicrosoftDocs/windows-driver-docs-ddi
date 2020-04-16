@@ -6,8 +6,8 @@ old-location: display\videoportwriteportushort.htm
 tech.root: display
 ms.assetid: c0431b2a-c075-48e4-9476-42c42a86f8ed
 ms.date: 05/10/2018
+keywords: ["VideoPortWritePortUshort function"]
 ms.keywords: VideoPortWritePortUshort, VideoPortWritePortUshort function [Display Devices], VideoPort_Functions_919dd8ab-f319-4071-b375-b269823adb31.xml, display.videoportwriteportushort, video/VideoPortWritePortUshort
-ms.topic: function
 f1_keywords:
  - "video/VideoPortWritePortUshort"
 req.header: video.h

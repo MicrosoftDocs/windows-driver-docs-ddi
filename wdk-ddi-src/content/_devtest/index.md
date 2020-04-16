@@ -3,6 +3,7 @@ UID: TP:devtest
 title: Driver test tools
 ms.assetid: df82015f-ea9d-3150-8041-fb2c5ed17afc
 ms.date: 05/09/2018
+keywords: ["Driver test tools"]
 ms.keywords: 
 ms.prod: windows-hardware
 ms.technology: windows-devices

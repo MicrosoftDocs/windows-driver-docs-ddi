@@ -6,8 +6,8 @@ old-location: wdf\wdfdeviceadddependentusagedeviceobject.htm
 tech.root: wdf
 ms.assetid: 025046e2-ffa1-4210-b4aa-ab3d6b211066
 ms.date: 02/26/2018
+keywords: ["WdfDeviceAddDependentUsageDeviceObject function"]
 ms.keywords: DFDeviceObjectGeneralRef_b31f8226-abd2-49a0-af66-ace2d05a6f17.xml, WdfDeviceAddDependentUsageDeviceObject, WdfDeviceAddDependentUsageDeviceObject method, kmdf.wdfdeviceadddependentusagedeviceobject, wdf.wdfdeviceadddependentusagedeviceobject, wdfdevice/WdfDeviceAddDependentUsageDeviceObject
-ms.topic: function
 f1_keywords:
  - "wdfdevice/WdfDeviceAddDependentUsageDeviceObject"
 req.header: wdfdevice.h

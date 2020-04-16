@@ -6,8 +6,8 @@ old-location: netvista\ndis_oid_request.htm
 tech.root: netvista
 ms.assetid: 3a5e151d-2a2d-4477-a736-8a5f3d3820a2
 ms.date: 06/13/2018
+keywords: ["_NDIS_OID_REQUEST structure"]
 ms.keywords: "*PNDIS_OID_REQUEST, NDIS_OID_REQUEST, NDIS_OID_REQUEST structure [Network Drivers Starting with Windows Vista], PNDIS_OID_REQUEST, PNDIS_OID_REQUEST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OID_REQUEST, ndis/NDIS_OID_REQUEST, ndis/PNDIS_OID_REQUEST, ndis_request_ref_c431d090-b403-40a7-90de-5f47ca6213f4.xml, netvista.ndis_oid_request"
-ms.topic: struct
 f1_keywords:
  - "ndis/NDIS_OID_REQUEST"
 req.header: ndis.h
@@ -301,7 +301,7 @@ A pointer to a buffer into which the underlying driver or NDIS returns the reque
 
 ### -field DATA.METHOD_INFORMATION.InputBufferLength
 
-The size, in bytes, of the buffer at
+The size, in bytes, of the readable data in the buffer at
        <b>InformationBuffer</b>. The value at
        <b>Oid</b> determines the value appropriate to this member.
 

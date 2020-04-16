@@ -6,8 +6,8 @@ old-location: ifsk\fltfastiomdlread.htm
 tech.root: ifsk
 ms.assetid: 1DF810B5-D4C3-4F67-B913-C2B2132DFDE2
 ms.date: 04/16/2018
+keywords: ["FltFastIoMdlRead function"]
 ms.keywords: FltFastIoMdlRead, FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadDev, ifsk.fltfastiomdlread
-ms.topic: function
 f1_keywords:
  - "fltkernel/FsRtlMdlReadDev"
 req.header: fltkernel.h
@@ -106,7 +106,7 @@ The <b>FltFastIoMdlRead</b> routine returns <b>TRUE</b> if the operation succeed
 
 The <b>FltFastIoMdlRead</b> routine bypasses the usual IRP mechanism and returns a linked list of memory descriptor lists (MDL) that the caller can use to directly access the cached file data. This operation does not copy or buffer data and therefore is much faster than a normal read.
 
-The routine is similar to <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev">FsRtlMdlReadDev</a>. <b>FltFastIoMdlRead</b>, <b>CcMdlRead</b>, and <b>FsRtlMdlReadDev</b> lock the pages that contain the cached file data to prevent the system from swapping these pages to the page file. The pages remain locked in memory until the caller invokes the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706189">FltFastIoMdlReadComplete</a> routine.
+The routine is similar to <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev">FsRtlMdlReadDev</a>. <b>FltFastIoMdlRead</b>, <b>CcMdlRead</b>, and <b>FsRtlMdlReadDev</b> lock the pages that contain the cached file data to prevent the system from swapping these pages to the page file. The pages remain locked in memory until the caller invokes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlreadcomplete">FltFastIoMdlReadComplete</a> routine.
 
 
 
@@ -120,7 +120,7 @@ The routine is similar to <a href="https://docs.microsoft.com/previous-versions/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh706189">FltFastIoMdlReadComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfastiomdlreadcomplete">FltFastIoMdlReadComplete</a>
 
 
 

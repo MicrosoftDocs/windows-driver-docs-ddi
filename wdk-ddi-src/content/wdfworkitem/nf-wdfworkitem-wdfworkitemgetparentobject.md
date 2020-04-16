@@ -6,8 +6,8 @@ old-location: wdf\wdfworkitemgetparentobject.htm
 tech.root: wdf
 ms.assetid: 6ebb1955-1ffc-4869-84c8-69d672ac782e
 ms.date: 02/26/2018
+keywords: ["WdfWorkItemGetParentObject function"]
 ms.keywords: DFWorkItemObjectRef_d01f85c6-ab9e-413a-8352-49db7ae053d0.xml, WdfWorkItemGetParentObject, WdfWorkItemGetParentObject method, kmdf.wdfworkitemgetparentobject, wdf.wdfworkitemgetparentobject, wdfworkitem/WdfWorkItemGetParentObject
-ms.topic: function
 f1_keywords:
  - "wdfworkitem/WdfWorkItemGetParentObject"
 req.header: wdfworkitem.h

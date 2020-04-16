@@ -6,8 +6,8 @@ old-location: kernel\dma_operations.htm
 tech.root: kernel
 ms.assetid: b4a5d830-252b-410e-be2c-390371af971c
 ms.date: 04/30/2018
+keywords: ["_DMA_OPERATIONS structure"]
 ms.keywords: "*PDMA_OPERATIONS, DMA_OPERATIONS, DMA_OPERATIONS structure [Kernel-Mode Driver Architecture], PDMA_OPERATIONS, PDMA_OPERATIONS structure pointer [Kernel-Mode Driver Architecture], _DMA_OPERATIONS, kernel.dma_operations, kstruct_a_ace4fb72-3208-4f4a-9c36-5a1f5791451a.xml, wdm/DMA_OPERATIONS, wdm/PDMA_OPERATIONS"
-ms.topic: struct
 f1_keywords:
  - "wdm/DMA_OPERATIONS"
 req.header: wdm.h

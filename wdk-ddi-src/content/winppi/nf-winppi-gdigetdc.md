@@ -6,8 +6,8 @@ old-location: print\gdigetdc.htm
 tech.root: print
 ms.assetid: f8aacb6d-4e8a-4fdb-902c-3d0efbc40f08
 ms.date: 04/20/2018
+keywords: ["GdiGetDC function"]
 ms.keywords: GdiGetDC, GdiGetDC function [Print Devices], gdifnc_4129439c-9cb6-46d3-8659-d12438841bb5.xml, print.gdigetdc, winppi/GdiGetDC
-ms.topic: function
 f1_keywords:
  - "winppi/GdiGetDC"
 req.header: winppi.h

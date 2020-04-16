@@ -6,8 +6,8 @@ old-location: kernel\ioreporttargetdevicechangeasynchronous.htm
 tech.root: kernel
 ms.assetid: 69ffe74f-59f9-41d6-a494-ee00be5bec62
 ms.date: 04/30/2018
+keywords: ["IoReportTargetDeviceChangeAsynchronous function"]
 ms.keywords: IoReportTargetDeviceChangeAsynchronous, IoReportTargetDeviceChangeAsynchronous routine [Kernel-Mode Driver Architecture], k104_b66839d5-f3b6-4f30-bf24-7b4ee869e733.xml, kernel.ioreporttargetdevicechangeasynchronous, wdm/IoReportTargetDeviceChangeAsynchronous
-ms.topic: function
 f1_keywords:
  - "wdm/IoReportTargetDeviceChangeAsynchronous"
 req.header: wdm.h

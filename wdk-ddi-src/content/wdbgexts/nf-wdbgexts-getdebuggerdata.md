@@ -6,8 +6,8 @@ old-location: debugger\getdebuggerdata.htm
 tech.root: debugger
 ms.assetid: a07afa2e-1f7d-4685-9ede-8b7805dd6583
 ms.date: 11/13/2018
+keywords: ["GetDebuggerData macro"]
 ms.keywords: GetDebuggerData, GetDebuggerData function [Windows Debugging], WdbgExts_Ref_a9b54b49-d8ac-4bee-a837-3986a250403a.xml, debugger.getdebuggerdata, wdbgexts/GetDebuggerData
-ms.topic: macro
 f1_keywords:
  - "wdbgexts/GetDebuggerData"
 req.header: wdbgexts.h

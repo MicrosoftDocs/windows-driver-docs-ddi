@@ -5,7 +5,7 @@ description: The NDIS_RAISE_IRQL_TO_DISPATCH macro raises the current IRQL to DI
 tech.root: netvista
 ms.assetid: e8078346-7fc7-4dee-9d39-b52c3ecb5415
 ms.date: 04/16/2018
-ms.topic: macro
+keywords: ["NDIS_RAISE_IRQL_TO_DISPATCH macro"]
 f1_keywords:
  - "ndis/NDIS_RAISE_IRQL_TO_DISPATCH"
 ms.keywords: NDIS_RAISE_IRQL_TO_DISPATCH

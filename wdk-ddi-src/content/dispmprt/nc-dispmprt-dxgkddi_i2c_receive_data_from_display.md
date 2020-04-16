@@ -6,8 +6,8 @@ old-location: display\dxgkddii2creceivedatafromdisplay.htm
 tech.root: display
 ms.assetid: 7b412180-e453-4ae4-95a5-e5393e1d9197
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY callback function"]
 ms.keywords: DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY, DXGKDDI_I2C_RECEIVE_DATA_FROM_DISPLAY callback, DmFunctions_5fcf0936-1f93-4445-9a80-545ad88b472b.xml, DxgkDdiI2CReceiveDataFromDisplay, DxgkDdiI2CReceiveDataFromDisplay callback function [Display Devices], display.dxgkddii2creceivedatafromdisplay, dispmprt/DxgkDdiI2CReceiveDataFromDisplay
-ms.topic: callback
 f1_keywords:
  - "dispmprt/DxgkDdiI2CReceiveDataFromDisplay"
 req.header: dispmprt.h

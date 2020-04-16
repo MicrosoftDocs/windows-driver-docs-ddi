@@ -6,8 +6,8 @@ old-location: buses\ufxdevicenotifyresume.htm
 tech.root: usbref
 ms.assetid: A89E9E65-937D-455F-A718-A6BC7611BB8F
 ms.date: 05/07/2018
+keywords: ["UfxDeviceNotifyResume function"]
 ms.keywords: UfxDeviceNotifyResume, UfxDeviceNotifyResume method [Buses], buses.ufxdevicenotifyresume, ufxclient/UfxDeviceNotifyResume
-ms.topic: function
 f1_keywords:
  - "ufxclient/UfxDeviceNotifyResume"
 req.header: ufxclient.h

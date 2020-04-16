@@ -6,8 +6,8 @@ old-location: netvista\rilsendmsgackparams_v2.htm
 tech.root: netvista
 ms.assetid: 3c05c1a0-339e-447f-b0df-18303ee63f98
 ms.date: 05/02/2018
+keywords: ["RILSENDMSGACKPARAMS_V2 structure"]
 ms.keywords: "*LPRILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS, RILSENDMSGACKPARAMS_V2, RILSENDMSGACKPARAMS_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgackparams_v2, ntddrilapitypes/RILSENDMSGACKPARAMS_V2"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILSENDMSGACKPARAMS_V2"
 req.header: ntddrilapitypes.h

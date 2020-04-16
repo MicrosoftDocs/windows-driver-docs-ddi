@@ -6,8 +6,8 @@ old-location: debugger\extremotelist.htm
 tech.root: debugger
 ms.assetid: d35d5186-a5ee-4a64-88e7-d3e95de32d07
 ms.date: 05/03/2018
+keywords: ["ExtRemoteList class"]
 ms.keywords: EngExtCpp_Ref_83df4aa3-cb9c-4921-a588-ef473a57f0e2.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], ExtRemoteList class [Windows Debugging],described, debugger.extremotelist, engextcpp/ExtRemoteList
-ms.topic: class
 f1_keywords:
  - "engextcpp/ExtRemoteList"
 req.header: engextcpp.hpp

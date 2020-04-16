@@ -6,8 +6,8 @@ old-location: buses\ucmconnectortypeccurrentadchanged.htm
 tech.root: usbref
 ms.assetid: 26C4D840-2287-4DC2-B039-FD8D2FB92288
 ms.date: 05/07/2018
+keywords: ["UcmConnectorTypeCCurrentAdChanged function"]
 ms.keywords: UcmConnectorTypeCCurrentAdChanged, UcmConnectorTypeCCurrentAdChanged method [Buses], buses.ucmconnectortypeccurrentadchanged, ucmmanager/UcmConnectorTypeCCurrentAdChanged
-ms.topic: function
 f1_keywords:
  - "ucmmanager/UcmConnectorTypeCCurrentAdChanged"
 req.header: ucmmanager.h

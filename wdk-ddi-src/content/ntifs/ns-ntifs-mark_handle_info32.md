@@ -6,8 +6,8 @@ old-location: ifsk\mark_handle_info32.htm
 tech.root: ifsk
 ms.assetid: BAC97D72-23C4-49A6-A13D-0F011113DB32
 ms.date: 04/16/2018
+keywords: ["MARK_HANDLE_INFO32 structure"]
 ms.keywords: "*PMARK_HANDLE_INFO32, MARK_HANDLE_INFO32, MARK_HANDLE_INFO32 structure [Installable File System Drivers], MARK_HANDLE_NOT_REALTIME, MARK_HANDLE_NOT_TXF_SYSTEM_LOG, MARK_HANDLE_PROTECT_CLUSTERS, MARK_HANDLE_REALTIME, MARK_HANDLE_TXF_SYSTEM_LOG, PMARK_HANDLE_INFO32, PMARK_HANDLE_INFO32 structure pointer [Installable File System Drivers], USN_SOURCE_AUXILIARY_DATA, USN_SOURCE_DATA_MANAGEMENT, USN_SOURCE_REPLICATION_MANAGEMENT, ifsk.mark_handle_info32, ntifs/MARK_HANDLE_INFO32, ntifs/PMARK_HANDLE_INFO32"
-ms.topic: struct
 f1_keywords:
  - "ntifs/MARK_HANDLE_INFO32"
 req.header: ntifs.h

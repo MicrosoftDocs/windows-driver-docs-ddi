@@ -6,8 +6,8 @@ old-location: kernel\iocreatecontroller.htm
 tech.root: kernel
 ms.assetid: 7db268a4-d1ef-4d23-9b5d-cd24612d547e
 ms.date: 04/30/2018
+keywords: ["IoCreateController function"]
 ms.keywords: IoCreateController, IoCreateController routine [Kernel-Mode Driver Architecture], k104_a7ec4f8c-84d0-4fec-9f9e-40c5d57036f1.xml, kernel.iocreatecontroller, ntddk/IoCreateController
-ms.topic: function
 f1_keywords:
  - "ntddk/IoCreateController"
 req.header: ntddk.h

@@ -5,8 +5,8 @@ description: D3DKMTMakeResident is used to add a resource to the device residenc
 old-location: display\d3dkmtmakeresident.htm
 ms.assetid: 5F4E17CB-3B8B-4BBA-A819-B8E28183F1CB
 ms.date: 05/10/2018
+keywords: ["D3DKMTMakeResident function"]
 ms.keywords: D3DKMTMakeResident, D3DKMTMakeResident function [Display Devices], d3dkmthk/D3DKMTMakeResident, display.d3dkmtmakeresident
-ms.topic: function
 f1_keywords:
  - "d3dkmthk/D3DKMTMakeResident"
 req.header: d3dkmthk.h

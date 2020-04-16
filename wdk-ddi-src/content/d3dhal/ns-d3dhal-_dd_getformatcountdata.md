@@ -6,8 +6,8 @@ old-location: display\dd_getformatcountdata.htm
 tech.root: display
 ms.assetid: 5f334f48-a262-4b09-98c4-766039de3f0e
 ms.date: 05/10/2018
+keywords: ["_DD_GETFORMATCOUNTDATA structure"]
 ms.keywords: DD_GETFORMATCOUNTDATA, DD_GETFORMATCOUNTDATA structure [Display Devices], _DD_GETFORMATCOUNTDATA, d3dhal/DD_GETFORMATCOUNTDATA, d3dstrct_610983cc-4f8a-4c16-b60b-960dbf0c58e9.xml, display.dd_getformatcountdata
-ms.topic: struct
 f1_keywords:
  - "d3dhal/DD_GETFORMATCOUNTDATA"
 req.header: d3dhal.h

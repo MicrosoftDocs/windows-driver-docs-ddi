@@ -6,8 +6,8 @@ old-location: audio\ioctl_bthhfp_device_get_connection_status_update.htm
 tech.root: audio
 ms.assetid: 19863998-99AB-427E-BFBD-B8EF42C74DEF
 ms.date: 05/08/2018
+keywords: ["IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE IOCTL"]
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE, IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE control, IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_device_get_connection_status_update, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE
-ms.topic: ioctl
 f1_keywords:
  - "bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_CONNECTION_STATUS_UPDATE"
 req.header: bthhfpddi.h

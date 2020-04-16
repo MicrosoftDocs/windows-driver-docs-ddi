@@ -6,8 +6,8 @@ old-location: buses\evt_ufx_device_usb_state_change.htm
 tech.root: usbref
 ms.assetid: 81D4F3C5-7412-4148-A5B4-0C56DD9ADB35
 ms.date: 05/07/2018
+keywords: ["EVT_UFX_DEVICE_USB_STATE_CHANGE callback function"]
 ms.keywords: EVT_UFX_DEVICE_USB_STATE_CHANGE, EVT_UFX_DEVICE_USB_STATE_CHANGE callback, EvtUfxDeviceUsbStateChange, EvtUfxDeviceUsbStateChange callback function [Buses], PFN_UFX_DEVICE_USB_STATE_CHANGE, PFN_UFX_DEVICE_USB_STATE_CHANGE callback function pointer [Buses], buses.evt_ufx_device_usb_state_change, ufxclient/EvtUfxDeviceUsbStateChange
-ms.topic: callback
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_USB_STATE_CHANGE"
 req.header: ufxclient.h

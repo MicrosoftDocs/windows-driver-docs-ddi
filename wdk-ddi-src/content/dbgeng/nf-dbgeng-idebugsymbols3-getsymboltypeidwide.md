@@ -6,8 +6,8 @@ old-location: debugger\getsymboltypeidwide.htm
 tech.root: debugger
 ms.assetid: b68a5f89-1623-4cab-84bf-3cc6e4031d9b
 ms.date: 05/03/2018
+keywords: ["IDebugSymbols3::GetSymbolTypeIdWide"]
 ms.keywords: GetSymbolTypeIdWide, GetSymbolTypeIdWide method [Windows Debugging], GetSymbolTypeIdWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolTypeIdWide method, IDebugSymbols3.GetSymbolTypeIdWide, IDebugSymbols3::GetSymbolTypeIdWide, dbgeng/IDebugSymbols3::GetSymbolTypeIdWide, debugger.getsymboltypeidwide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSymbolTypeIdWide"
 req.header: dbgeng.h

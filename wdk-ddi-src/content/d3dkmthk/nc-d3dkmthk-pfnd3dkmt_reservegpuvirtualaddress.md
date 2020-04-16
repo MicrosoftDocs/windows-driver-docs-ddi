@@ -4,7 +4,7 @@ title: PFND3DKMT_RESERVEGPUVIRTUALADDRESS (d3dkmthk.h)
 description: The PFND3DKMT_RESERVEGPUVIRTUALADDRESS callback function reserves an address range in the current process graphics processing unit (GPU) virtual address space.
 ms.assetid: fdb36907-4288-4dfd-bcb6-63fc1092ea6c
 ms.date: 10/19/2018
-ms.topic: callback
+keywords: ["PFND3DKMT_RESERVEGPUVIRTUALADDRESS callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_RESERVEGPUVIRTUALADDRESS"
 req.header: d3dkmthk.h

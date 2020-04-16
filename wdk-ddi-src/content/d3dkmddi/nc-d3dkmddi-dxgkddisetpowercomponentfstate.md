@@ -5,8 +5,8 @@ description: Called by the Microsoft DirectX graphics kernel subsystem to transi
 old-location: display\dxgkddisetpowercomponentfstate.htm
 ms.assetid: C68CC6F1-83D6-43D9-93F3-99E3A990C7D7
 ms.date: 05/10/2018
+keywords: ["DXGKDDISETPOWERCOMPONENTFSTATE callback function"]
 ms.keywords: DXGKDDISETPOWERCOMPONENTFSTATE, DXGKDDISETPOWERCOMPONENTFSTATE callback, DxgkDdiSetPowerComponentFState, DxgkDdiSetPowerComponentFState callback function [Display Devices], d3dkmddi/DxgkDdiSetPowerComponentFState, display.dxgkddisetpowercomponentfstate
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

@@ -6,8 +6,8 @@ old-location: print\iprintcoreui2_getfeatureattribute.htm
 tech.root: print
 ms.assetid: 6f3d16a9-bac7-44da-9d16-0f737d12d952
 ms.date: 04/20/2018
+keywords: ["IPrintCoreUI2::GetFeatureAttribute"]
 ms.keywords: GetFeatureAttribute, GetFeatureAttribute method [Print Devices], GetFeatureAttribute method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetFeatureAttribute method, IPrintCoreUI2.GetFeatureAttribute, IPrintCoreUI2::GetFeatureAttribute, prcomoem/IPrintCoreUI2::GetFeatureAttribute, print.iprintcoreui2_getfeatureattribute, print_unidrv-pscript_ui_47513174-ac2c-4c61-9847-35244e31c486.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintCoreUI2.GetFeatureAttribute"
 req.header: prcomoem.h

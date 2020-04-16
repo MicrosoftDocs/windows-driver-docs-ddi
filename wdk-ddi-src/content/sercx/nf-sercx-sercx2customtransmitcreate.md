@@ -6,8 +6,8 @@ old-location: serports\sercx2customtransmitcreate.htm
 tech.root: serports
 ms.assetid: 2B904208-7561-4C39-A411-4E396FF1E609
 ms.date: 04/23/2018
+keywords: ["SerCx2CustomTransmitCreate function"]
 ms.keywords: 2/SerCx2CustomTransmitCreate, SerCx2CustomTransmitCreate, SerCx2CustomTransmitCreate method [Serial Ports], serports.sercx2customtransmitcreate
-ms.topic: function
 f1_keywords:
  - "sercx/SerCx2CustomTransmitCreate"
 req.header: sercx.h

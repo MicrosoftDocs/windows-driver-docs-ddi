@@ -4,7 +4,7 @@ title: I2CSensorReadRegister function (sensorsdriversutils.h)
 description: The I2CSensorReadRegister function reads the devices register(s) over I2C.
 ms.assetid: fda9f6f9-7cd5-4df2-9654-6d604e0e617e
 ms.date: 04/19/2018
-ms.topic: function
+keywords: ["I2CSensorReadRegister function"]
 f1_keywords:
  - "sensorsdriversutils/I2CSensorReadRegister"
 ms.keywords: I2CSensorReadRegister

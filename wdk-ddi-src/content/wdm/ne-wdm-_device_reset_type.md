@@ -6,8 +6,8 @@ old-location: kernel\device_reset_type.htm
 tech.root: kernel
 ms.assetid: 598044D9-8B99-453C-96FE-9B04C980BB3A
 ms.date: 11/15/2018
+keywords: ["_DEVICE_RESET_TYPE enumeration"]
 ms.keywords: DEVICE_RESET_TYPE, DEVICE_RESET_TYPE enumeration [Kernel-Mode Driver Architecture], FunctionLevelDeviceReset, PlatformLevelDeviceReset, _DEVICE_RESET_TYPE, kernel.device_reset_type, wdm/DEVICE_RESET_TYPE, wdm/FunctionLevelDeviceReset, wdm/PlatformLevelDeviceReset
-ms.topic: enum
 f1_keywords:
  - "wdm/DEVICE_RESET_TYPE"
 req.header: wdm.h

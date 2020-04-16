@@ -6,8 +6,8 @@ old-location: kernel\rtlcompareunicodestring.htm
 tech.root: kernel
 ms.assetid: 82567434-be54-4436-a26e-9a89a532addf
 ms.date: 04/30/2018
+keywords: ["RtlCompareUnicodeString function"]
 ms.keywords: RtlCompareUnicodeString, RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], k109_ddeef320-7510-446b-af6f-756c3999bec1.xml, kernel.rtlcompareunicodestring, wdm/RtlCompareUnicodeString
-ms.topic: function
 f1_keywords:
  - "wdm/RtlCompareUnicodeString"
 req.header: wdm.h

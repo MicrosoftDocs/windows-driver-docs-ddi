@@ -6,8 +6,8 @@ old-location: image\cwiaupropertylist_init.htm
 tech.root: image
 ms.assetid: cbbe0d76-7fd1-4653-ad79-d5e6d692dec0
 ms.date: 09/07/2018
+keywords: ["CWiauPropertyList::Init"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],Init method, CWiauPropertyList.Init, CWiauPropertyList::Init, Init, Init method [Imaging Devices], Init method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_init, wiauFncs_4bc30663-6fd6-45b7-a18f-1adc766489be.xml, wiautil/CWiauPropertyList::Init
-ms.topic: method
 f1_keywords:
  - "wiautil/CWiauPropertyList.Init"
 req.header: wiautil.h

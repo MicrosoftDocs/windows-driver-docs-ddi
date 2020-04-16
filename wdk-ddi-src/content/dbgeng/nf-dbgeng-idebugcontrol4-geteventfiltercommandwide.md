@@ -6,8 +6,8 @@ old-location: debugger\geteventfiltercommandwide.htm
 tech.root: debugger
 ms.assetid: a565627a-4a70-4255-9a88-c39a3db11d25
 ms.date: 05/03/2018
+keywords: ["IDebugControl4::GetEventFilterCommandWide"]
 ms.keywords: GetEventFilterCommandWide, GetEventFilterCommandWide method [Windows Debugging], GetEventFilterCommandWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventFilterCommandWide method, IDebugControl4.GetEventFilterCommandWide, IDebugControl4::GetEventFilterCommandWide, dbgeng/IDebugControl4::GetEventFilterCommandWide, debugger.geteventfiltercommandwide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl4.GetEventFilterCommandWide"
 req.header: dbgeng.h

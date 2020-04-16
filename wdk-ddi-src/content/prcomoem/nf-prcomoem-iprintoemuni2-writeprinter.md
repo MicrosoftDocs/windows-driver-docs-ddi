@@ -6,8 +6,8 @@ old-location: print\iprintoemuni2_writeprinter.htm
 tech.root: print
 ms.assetid: 61901d4d-7821-40b4-aaef-fd679985abb3
 ms.date: 04/20/2018
+keywords: ["IPrintOemUni2::WritePrinter"]
 ms.keywords: IPrintOemUni2 interface [Print Devices],WritePrinter method, IPrintOemUni2.WritePrinter, IPrintOemUni2::WritePrinter, WritePrinter, WritePrinter method [Print Devices], WritePrinter method [Print Devices],IPrintOemUni2 interface, prcomoem/IPrintOemUni2::WritePrinter, print.iprintoemuni2_writeprinter, print_unidrv-pscript_rendering_8dfd9075-d0a9-451b-bb31-9e1a55c16c1c.xml
-ms.topic: method
 f1_keywords:
  - "prcomoem/IPrintOemUni2.WritePrinter"
 req.header: prcomoem.h

@@ -4,7 +4,7 @@ title: _D3DKMT_XBOX (d3dkmthk.h)
 description: Contains Xbox info.
 ms.assetid: ae4aaeb8-a89c-4685-a18c-f0650c8b222a
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DKMT_XBOX structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_XBOX"
 ms.keywords: _D3DKMT_XBOX, D3DKMT_XBOX, 

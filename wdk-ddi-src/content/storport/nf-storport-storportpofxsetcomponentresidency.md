@@ -6,8 +6,8 @@ old-location: storage\storportpofxsetcomponentresidency.htm
 tech.root: storage
 ms.assetid: 78DFB17E-5351-419A-9B9B-8CBCD7548910
 ms.date: 03/29/2018
+keywords: ["StorPortPoFxSetComponentResidency function"]
 ms.keywords: StorPortPoFxSetComponentResidency, StorPortPoFxSetComponentResidency routine [Storage Devices], storage.storportpofxsetcomponentresidency, storport/StorPortPoFxSetComponentResidency
-ms.topic: function
 f1_keywords:
  - "storport/StorPortPoFxSetComponentResidency"
 req.header: storport.h

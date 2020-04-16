@@ -6,8 +6,8 @@ old-location: powermeter\pmi_threshold_configuration.htm
 tech.root: powermeter
 ms.assetid: f2a76389-575d-425b-afe6-27fb93e101eb
 ms.date: 05/08/2018
+keywords: ["_PMI_THRESHOLD_CONFIGURATION structure"]
 ms.keywords: "*PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_0c5ec9e4-4a74-4fcc-b134-e66cd14f0352.xml, _PMI_THRESHOLD_CONFIGURATION, pmi/PMI_THRESHOLD_CONFIGURATION, pmi/PPMI_THRESHOLD_CONFIGURATION, powermeter.pmi_threshold_configuration"
-ms.topic: struct
 f1_keywords:
  - "pmi/PMI_THRESHOLD_CONFIGURATION"
 req.header: pmi.h

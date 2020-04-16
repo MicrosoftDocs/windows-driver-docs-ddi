@@ -6,8 +6,8 @@ old-location: ifsk\fltisecpfromusermode.htm
 tech.root: ifsk
 ms.assetid: d00cb2b1-b579-43c9-9e4d-cbdefd8a343a
 ms.date: 04/16/2018
+keywords: ["FltIsEcpFromUserMode function"]
 ms.keywords: FltApiRef_e_to_o_ea63cca7-3efb-4b45-b075-7efbc8138f88.xml, FltIsEcpFromUserMode, FltIsEcpFromUserMode routine [Installable File System Drivers], fltkernel/FltIsEcpFromUserMode, ifsk.fltisecpfromusermode
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltIsEcpFromUserMode"
 req.header: fltkernel.h

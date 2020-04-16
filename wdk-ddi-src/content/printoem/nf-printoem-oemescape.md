@@ -6,8 +6,8 @@ old-location: print\oemescape.htm
 tech.root: print
 ms.assetid: 3acc1c1f-5696-4297-a34e-047e402dbdcb
 ms.date: 04/20/2018
+keywords: ["OEMEscape function"]
 ms.keywords: OEMEscape, OEMEscape function [Print Devices], print.oemescape, print_unidrv-pscript_rendering_6f5f3a3e-6027-4524-bb11-1010dfc48727.xml, printoem/OEMEscape
-ms.topic: function
 f1_keywords:
  - "printoem/OEMEscape"
 req.header: printoem.h

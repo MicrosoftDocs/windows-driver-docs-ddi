@@ -6,8 +6,8 @@ old-location: wdf\wdfusbtargetdevicecreateurb.htm
 tech.root: wdf
 ms.assetid: 274232FF-573A-47B4-B363-2FA7F810BF84
 ms.date: 02/26/2018
+keywords: ["WdfUsbTargetDeviceCreateUrb function"]
 ms.keywords: WdfUsbTargetDeviceCreateUrb, WdfUsbTargetDeviceCreateUrb method, kmdf.wdfusbtargetdevicecreateurb, wdf.wdfusbtargetdevicecreateurb, wdfusb/WdfUsbTargetDeviceCreateUrb
-ms.topic: function
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceCreateUrb"
 req.header: wdfusb.h

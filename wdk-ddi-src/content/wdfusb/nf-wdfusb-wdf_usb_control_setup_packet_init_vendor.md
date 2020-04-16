@@ -6,8 +6,8 @@ old-location: wdf\wdf_usb_control_setup_packet_init_vendor.htm
 tech.root: wdf
 ms.assetid: 58774dcf-f48c-4d39-acbe-fe09b4c52d81
 ms.date: 02/26/2018
+keywords: ["WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR function"]
 ms.keywords: DFUsbRef_e29c876f-b916-47a4-af86-2597c8ba3e21.xml, WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR, WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR function, kmdf.wdf_usb_control_setup_packet_init_vendor, wdf.wdf_usb_control_setup_packet_init_vendor, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR
-ms.topic: function
 f1_keywords:
  - "wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR"
 req.header: wdfusb.h

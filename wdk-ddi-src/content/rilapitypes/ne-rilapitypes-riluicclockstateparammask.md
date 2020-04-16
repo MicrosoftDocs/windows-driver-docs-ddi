@@ -6,8 +6,8 @@ old-location: netvista\riluicclockstateparammask_2.htm
 tech.root: netvista
 ms.assetid: 88bdeb85-1ce8-43df-8cf1-4563d90a46ad
 ms.date: 02/26/2018
+keywords: ["RILUICCLOCKSTATEPARAMMASK enumeration"]
 ms.keywords: RILUICCLOCKSTATEPARAMMASK, RILUICCLOCKSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UICCLOCKSTATE_ALL, RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT, RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT, netvista.riluicclockstateparammask_2, rilapitypes/RILUICCLOCKSTATEPARAMMASK, rilapitypes/RIL_PARAM_UICCLOCKSTATE_ALL, rilapitypes/RIL_PARAM_UICCLOCKSTATE_LOCKSTATE, rilapitypes/RIL_PARAM_UICCLOCKSTATE_UNBLOCKATTEMPTSLEFT, rilapitypes/RIL_PARAM_UICCLOCKSTATE_VERIFYATTEMPTSLEFT
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILUICCLOCKSTATEPARAMMASK"
 req.header: rilapitypes.h

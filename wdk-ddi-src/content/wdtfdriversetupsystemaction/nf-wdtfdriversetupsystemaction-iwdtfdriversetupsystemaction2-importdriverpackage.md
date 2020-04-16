@@ -6,8 +6,8 @@ old-location: dtf\iwdtfdriversetupsystemaction2_importdriverpackage.htm
 tech.root: dtf
 ms.assetid: dc10fd33-e330-4c74-934b-2d178b17c51b
 ms.date: 04/04/2018
+keywords: ["IWDTFDriverSetupSystemAction2::ImportDriverPackage"]
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],ImportDriverPackage method, IWDTFDriverSetupSystemAction2.ImportDriverPackage, IWDTFDriverSetupSystemAction2::ImportDriverPackage, ImportDriverPackage, ImportDriverPackage method [Windows Device Testing Framework], ImportDriverPackage method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.ImportDriverPackage, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::ImportDriverPackage, dtf.iwdtfdriversetupsystemaction2_importdriverpackage, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::ImportDriverPackage
-ms.topic: method
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2.ImportDriverPackage"
 req.header: wdtfdriversetupsystemaction.h

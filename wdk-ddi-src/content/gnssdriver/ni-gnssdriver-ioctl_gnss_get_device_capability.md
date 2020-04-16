@@ -6,8 +6,8 @@ old-location: gnss\ioctl_gnss_get_device_capability.htm
 tech.root: gnss
 ms.assetid: 28673D2A-5DD6-42CD-BD91-5C30B905ECF0
 ms.date: 02/15/2018
+keywords: ["IOCTL_GNSS_GET_DEVICE_CAPABILITY IOCTL"]
 ms.keywords: IOCTL_GNSS_GET_DEVICE_CAPABILITY, IOCTL_GNSS_GET_DEVICE_CAPABILITY control, IOCTL_GNSS_GET_DEVICE_CAPABILITY control code [Sensor Devices], gnss.ioctl_gnss_get_device_capability, gnssdriver/IOCTL_GNSS_GET_DEVICE_CAPABILITY
-ms.topic: ioctl
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_GET_DEVICE_CAPABILITY"
 req.header: gnssdriver.h
@@ -68,7 +68,7 @@ Set to 0.
 
 ### -output-buffer
 
-Pointer to a GNSS_DEVICE_CAPABILITY structure.
+Pointer to a [GNSS_DEVICE_CAPABILITY](https://docs.microsoft.com/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_device_capability) structure.
 
 
 ### -output-buffer-length

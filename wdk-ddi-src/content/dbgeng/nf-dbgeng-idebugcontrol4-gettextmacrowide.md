@@ -6,8 +6,8 @@ old-location: debugger\gettextmacrowide.htm
 tech.root: debugger
 ms.assetid: 5b125041-969e-49bb-96d5-b40cc7285315
 ms.date: 05/03/2018
+keywords: ["IDebugControl4::GetTextMacroWide"]
 ms.keywords: GetTextMacroWide, GetTextMacroWide method [Windows Debugging], GetTextMacroWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetTextMacroWide method, IDebugControl4.GetTextMacroWide, IDebugControl4::GetTextMacroWide, dbgeng/IDebugControl4::GetTextMacroWide, debugger.gettextmacrowide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugControl4.GetTextMacroWide"
 req.header: dbgeng.h

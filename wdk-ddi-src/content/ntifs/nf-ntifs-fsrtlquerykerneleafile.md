@@ -6,8 +6,8 @@ old-location: ifsk\fsrtlquerykerneleafile.htm
 tech.root: ifsk
 ms.assetid: B57BC3A4-6116-48EA-905A-CFA7AC0A5E8F
 ms.date: 04/16/2018
+keywords: ["FsRtlQueryKernelEaFile function"]
 ms.keywords: FsRtlQueryKernelEaFile, FsRtlQueryKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlquerykerneleafile, ntifs/FsRtlQueryKernelEaFile
-ms.topic: function
 f1_keywords:
  - "ntifs/FsRtlQueryKernelEaFile"
 req.header: ntifs.h

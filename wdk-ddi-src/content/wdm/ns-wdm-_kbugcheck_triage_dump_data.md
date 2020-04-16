@@ -6,7 +6,7 @@ description:
 ms.assetid: 661d08be-f322-43ad-939c-8a4441d4d312
 ms.author: windowsdriverdev
 ms.date: 06/03/2019
-ms.topic: struct
+keywords: ["_KBUGCHECK_TRIAGE_DUMP_DATA structure"]
 f1_keywords:
  - "wdm/_KBUGCHECK_SECONDARY_DUMP_DATA_EX"
 ms.prod: windows-hardware

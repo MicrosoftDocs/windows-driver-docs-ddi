@@ -4,7 +4,7 @@ title: _ACPI_PLD_PANEL enumeration (acpitabl.h)
 description: Describes panel surface bits 67:69.
 ms.assetid: 7eb82460-e490-481b-8ef3-18131e876a74
 ms.date: 10/02/2018
-ms.topic: enum
+keywords: ["_ACPI_PLD_PANEL enumeration"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_PANEL"
 ms.keywords: _ACPI_PLD_PANEL, ACPI_PLD_PANEL, *PACPI_PLD_PANEL, AcpiPldPanel

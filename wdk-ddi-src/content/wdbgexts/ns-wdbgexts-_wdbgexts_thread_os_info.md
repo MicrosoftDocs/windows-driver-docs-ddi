@@ -6,8 +6,8 @@ old-location: debugger\ig_get_thread_os_info.htm
 tech.root: debugger
 ms.assetid: 5cd1ba71-af2f-4662-b37d-88f4e4aa7624
 ms.date: 05/03/2018
+keywords: ["_WDBGEXTS_THREAD_OS_INFO structure"]
 ms.keywords: "*PWDBGEXTS_THREAD_OS_INFO, PWDBGEXTS_THREAD_OS_INFO, PWDBGEXTS_THREAD_OS_INFO structure pointer [Windows Debugging], WDBGEXTS_THREAD_OS_INFO, WDBGEXTS_THREAD_OS_INFO structure [Windows Debugging], WdbgExts_Ref_dfcc01ec-d4f4-4eba-adb5-d729f951f502.xml, _WDBGEXTS_THREAD_OS_INFO, debugger.ig_get_thread_os_info, wdbgexts/PWDBGEXTS_THREAD_OS_INFO, wdbgexts/WDBGEXTS_THREAD_OS_INFO"
-ms.topic: struct
 f1_keywords:
  - "wdbgexts/WDBGEXTS_THREAD_OS_INFO"
 req.header: wdbgexts.h

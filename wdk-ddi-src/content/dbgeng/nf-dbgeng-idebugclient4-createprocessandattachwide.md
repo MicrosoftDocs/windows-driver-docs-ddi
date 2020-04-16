@@ -6,8 +6,8 @@ old-location: debugger\createprocessandattachwide.htm
 tech.root: debugger
 ms.assetid: ceaadcca-e206-402b-8aff-62aca483fb64
 ms.date: 05/03/2018
+keywords: ["IDebugClient4::CreateProcessAndAttachWide"]
 ms.keywords: CreateProcessAndAttachWide, CreateProcessAndAttachWide method [Windows Debugging], CreateProcessAndAttachWide method [Windows Debugging],IDebugClient3 interface, CreateProcessAndAttachWide method [Windows Debugging],IDebugClient4 interface, CreateProcessAndAttachWide method [Windows Debugging],IDebugClient5 interface, IDebugClient3 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient3::CreateProcessAndAttachWide, IDebugClient4 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient4.CreateProcessAndAttachWide, IDebugClient4::CreateProcessAndAttachWide, IDebugClient5 interface [Windows Debugging],CreateProcessAndAttachWide method, IDebugClient5::CreateProcessAndAttachWide, dbgeng/IDebugClient3::CreateProcessAndAttachWide, dbgeng/IDebugClient4::CreateProcessAndAttachWide, dbgeng/IDebugClient5::CreateProcessAndAttachWide, debugger.createprocessandattachwide
-ms.topic: method
 f1_keywords:
  - "dbgeng/IDebugClient3.CreateProcessAndAttachWide"
 req.header: dbgeng.h

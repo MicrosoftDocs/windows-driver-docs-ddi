@@ -6,8 +6,8 @@ old-location: netvista\riloperatorinfostatus.htm
 tech.root: netvista
 ms.assetid: 372d84da-600f-44db-ac76-b59ceac7321d
 ms.date: 05/02/2018
+keywords: ["RILOPERATORINFOSTATUS enumeration"]
 ms.keywords: RILOPERATORINFOSTATUS, RILOPERATORINFOSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_OPSTATUS_AVAILABLE, RIL_OPSTATUS_CURRENT, RIL_OPSTATUS_FORBIDDEN, RIL_OPSTATUS_MAX, netvista.riloperatorinfostatus, ntddrilapitypes/RILOPERATORINFOSTATUS, ntddrilapitypes/RIL_OPSTATUS_AVAILABLE, ntddrilapitypes/RIL_OPSTATUS_CURRENT, ntddrilapitypes/RIL_OPSTATUS_FORBIDDEN, ntddrilapitypes/RIL_OPSTATUS_MAX
-ms.topic: enum
 f1_keywords:
  - "rilapitypes/RILOPERATORINFOSTATUS"
 req.header: rilapitypes.h

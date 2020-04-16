@@ -4,7 +4,7 @@ title: IDataModelScriptDebugBreakpointEnumerator::QueryInterface (dbgmodel.h)
 description: Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 
 ms.assetid: d44a0cdb-77d2-4208-b780-bd9662577dc5
 ms.date: 09/10/2018
-ms.topic: method
+keywords: ["IDataModelScriptDebugBreakpointEnumerator::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpointEnumerator.QueryInterface"
 ms.keywords: IDataModelScriptDebugBreakpointEnumerator::QueryInterface, QueryInterface, IDataModelScriptDebugBreakpointEnumerator.QueryInterface, IDataModelScriptDebugBreakpointEnumerator::QueryInterface, IDataModelScriptDebugBreakpointEnumerator.QueryInterface

@@ -4,7 +4,7 @@ title: IDataModelScriptClient::ReportError (dbgmodel.h)
 description: If an error occurs during execution or invocation of the script, the script provider calls the ReportError method to notify the user interface of the error. 
 ms.assetid: c8cedcee-002c-4373-a518-31aad3cee313
 ms.date: 08/20/2018
-ms.topic: method
+keywords: ["IDataModelScriptClient::ReportError"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptClient.ReportError"
 ms.keywords: IDataModelScriptClient::ReportError, ReportError, IDataModelScriptClient.ReportError, IDataModelScriptClient::ReportError, IDataModelScriptClient.ReportError

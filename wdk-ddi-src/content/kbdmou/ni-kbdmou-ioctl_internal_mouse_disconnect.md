@@ -6,8 +6,8 @@ old-location: hid\ioctl_internal_mouse_disconnect.htm
 tech.root: hid
 ms.assetid: e62c61e7-ef64-4939-ad24-686d137b6319
 ms.date: 04/30/2018
+keywords: ["IOCTL_INTERNAL_MOUSE_DISCONNECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_MOUSE_DISCONNECT, IOCTL_INTERNAL_MOUSE_DISCONNECT control, IOCTL_INTERNAL_MOUSE_DISCONNECT control code [Human Input Devices], hid.ioctl_internal_mouse_disconnect, kbdmou/IOCTL_INTERNAL_MOUSE_DISCONNECT, mfilref_11062207-6bb0-4a84-aaee-c3c086812b90.xml
-ms.topic: ioctl
 f1_keywords:
  - "kbdmou/IOCTL_INTERNAL_MOUSE_DISCONNECT"
 req.header: kbdmou.h

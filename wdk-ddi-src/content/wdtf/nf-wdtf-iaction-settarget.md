@@ -6,8 +6,8 @@ old-location: dtf\iaction_settarget.htm
 tech.root: dtf
 ms.assetid: ac539b82-83a1-4ccb-8088-c6f4b746a184
 ms.date: 04/04/2018
+keywords: ["IAction::SetTarget"]
 ms.keywords: IAction interface [Windows Device Testing Framework],SetTarget method, IAction.SetTarget, IAction::SetTarget, IAction_6b35121b-1750-475f-8c37-5edf9c0b8585.xml, Microsoft.WDTF.IAction.SetTarget, Microsoft::WDTF::IAction::SetTarget, SetTarget, SetTarget method [Windows Device Testing Framework], SetTarget method [Windows Device Testing Framework],IAction interface, dtf.iaction_settarget, wdtf/IAction::SetTarget
-ms.topic: method
 f1_keywords:
  - "wdtf/IAction.SetTarget"
 req.header: wdtf.h

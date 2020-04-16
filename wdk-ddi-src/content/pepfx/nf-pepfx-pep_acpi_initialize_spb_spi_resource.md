@@ -6,8 +6,8 @@ old-location: kernel\pep_acpi_initialize_spb_spi_resource.htm
 tech.root: kernel
 ms.assetid: 76568167-283C-4966-B7FC-0E8CDCD19B60
 ms.date: 04/30/2018
+keywords: ["PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE function"]
 ms.keywords: PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE, PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_spb_spi_resource, pepfx/PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE
-ms.topic: function
 f1_keywords:
  - "pepfx/PEP_ACPI_INITIALIZE_SPB_SPI_RESOURCE"
 req.header: pepfx.h

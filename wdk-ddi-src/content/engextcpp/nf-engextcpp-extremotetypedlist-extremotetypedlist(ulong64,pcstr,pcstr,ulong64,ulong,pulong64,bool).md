@@ -6,8 +6,8 @@ old-location: debugger\extremotetypedlist_extremotetypedlist_ulong64.htm
 tech.root: debugger
 ms.assetid: 32bf47a2-4c64-468a-a8e3-f3777a0f324d
 ms.date: 05/03/2018
+keywords: ["ExtRemoteTypedList::ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool)"]
 ms.keywords: ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging],ExtRemoteTypedList constructor, ExtRemoteTypedList constructor [Windows Debugging], ExtRemoteTypedList constructor [Windows Debugging],ExtRemoteTypedList class, ExtRemoteTypedList.ExtRemoteTypedList, ExtRemoteTypedList.ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool), ExtRemoteTypedList::ExtRemoteTypedList, ExtRemoteTypedList::ExtRemoteTypedList(ULONG64,PCSTR,PCSTR,ULONG64,ULONG,PULONG64,bool), debugger.extremotetypedlist_extremotetypedlist_ulong64
-ms.topic: method
 f1_keywords:
  - "engextcpp/ExtRemoteTypedList.ExtRemoteTypedList"
 req.header: engextcpp.hpp

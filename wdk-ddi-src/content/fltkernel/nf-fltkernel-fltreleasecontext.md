@@ -6,8 +6,8 @@ old-location: ifsk\fltreleasecontext.htm
 tech.root: ifsk
 ms.assetid: b0585443-b8e9-41bc-81af-5707fda2465d
 ms.date: 04/16/2018
+keywords: ["FltReleaseContext function"]
 ms.keywords: FltApiRef_p_to_z_1040d19b-2ecb-4229-adda-b73f5c2bc828.xml, FltReleaseContext, FltReleaseContext function [Installable File System Drivers], fltkernel/FltReleaseContext, ifsk.fltreleasecontext
-ms.topic: function
 f1_keywords:
  - "fltkernel/FltReleaseContext"
 req.header: fltkernel.h

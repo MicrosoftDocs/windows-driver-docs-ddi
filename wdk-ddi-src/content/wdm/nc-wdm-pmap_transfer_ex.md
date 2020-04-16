@@ -6,8 +6,8 @@ old-location: kernel\maptransferex.htm
 tech.root: kernel
 ms.assetid: 9F6A20F0-94B1-4DA2-9FEA-F44D6AFDD16D
 ms.date: 04/30/2018
+keywords: ["PMAP_TRANSFER_EX callback function"]
 ms.keywords: MapTransferEx, MapTransferEx callback function [Kernel-Mode Driver Architecture], PMAP_TRANSFER_EX, PMAP_TRANSFER_EX callback, kernel.maptransferex, wdm/MapTransferEx
-ms.topic: callback
 f1_keywords:
  - "wdm/MapTransferEx"
 req.header: wdm.h

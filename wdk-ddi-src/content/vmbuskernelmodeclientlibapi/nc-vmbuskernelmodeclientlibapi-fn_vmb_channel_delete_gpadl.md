@@ -5,7 +5,7 @@ description: The VmbChannelDeleteGpadl function deletes a Guest Physical Address
 tech.root: netvista
 ms.assetid: fa3460be-2cd1-4c04-94b7-2e83f6b243a3
 ms.date: 05/21/2018
-ms.topic: callback
+keywords: ["FN_VMB_CHANNEL_DELETE_GPADL callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_DELETE_GPADL"
 req.header: vmbuskernelmodeclientlibapi.h

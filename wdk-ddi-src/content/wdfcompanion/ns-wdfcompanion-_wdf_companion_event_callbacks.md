@@ -6,8 +6,8 @@ old-location: wdf\wdf_companion_event_callbacks.htm
 tech.root: wdf
 ms.assetid: 6a9c5420-1847-4145-aea5-9e9c58d86ea1
 ms.date: 02/26/2018
+keywords: ["_WDF_COMPANION_EVENT_CALLBACKS structure"]
 ms.keywords: "*PWDF_COMPANION_EVENT_CALLBACKS, PWDF_COMPANION_EVENT_CALLBACKS, PWDF_COMPANION_EVENT_CALLBACKS structure pointer, WDF_COMPANION_EVENT_CALLBACKS, WDF_COMPANION_EVENT_CALLBACKS structure, _WDF_COMPANION_EVENT_CALLBACKS, wdf.wdf_companion_event_callbacks, wdfcompanion/PWDF_COMPANION_EVENT_CALLBACKS, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS"
-ms.topic: struct
 f1_keywords:
  - "wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS"
 req.header: wdfcompanion.h

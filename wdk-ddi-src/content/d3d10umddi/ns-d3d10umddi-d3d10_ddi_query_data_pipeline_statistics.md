@@ -5,8 +5,8 @@ description: The D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure describes st
 old-location: display\d3d10_ddi_query_data_pipeline_statistics.htm
 ms.assetid: 5e481453-1e01-46b4-a04e-e9c575cd65b9
 ms.date: 05/10/2018
+keywords: ["D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure"]
 ms.keywords: D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS, D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_66e61d2d-0a0d-41aa-a25d-a7fa3ef08b4c.xml, d3d10umddi/D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS, display.d3d10_ddi_query_data_pipeline_statistics
-ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS"
 req.header: d3d10umddi.h

@@ -6,8 +6,8 @@ old-location: print\iprintschemacapabilities_interface.htm
 tech.root: print
 ms.assetid: A148C1B4-99A3-4AF3-B2D6-73684978425F
 ms.date: 04/20/2018
+keywords: ["IPrintSchemaCapabilities interface"]
 ms.keywords: IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices], IPrintSchemaCapabilities interface [Print Devices],described, print.iprintschemacapabilities_interface, printerextension/IPrintSchemaCapabilities
-ms.topic: interface
 f1_keywords:
  - "printerextension/IPrintSchemaCapabilities"
 req.header: printerextension.h
@@ -53,7 +53,7 @@ Provides the primary method to access PrintCapabilities.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintSchemaCapabilities</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement">IPrintSchemaElement</a>. <b>IPrintSchemaCapabilities</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintSchemaCapabilities</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement">IPrintSchemaElement</a>. <b>IPrintSchemaCapabilities</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>

@@ -6,8 +6,8 @@ old-location: ifsk\seimpersonateclient.htm
 tech.root: ifsk
 ms.assetid: b039609e-d259-44d7-bbde-20993576e18a
 ms.date: 04/16/2018
+keywords: ["SeImpersonateClient function"]
 ms.keywords: SeImpersonateClient, SeImpersonateClient function [Installable File System Drivers], ifsk.seimpersonateclient, ntifs/SeImpersonateClient, seref_27996dfe-95b9-4d36-8182-9528fedef7d8.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/SeImpersonateClient"
 req.header: ntifs.h

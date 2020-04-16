@@ -6,8 +6,8 @@ old-location: kernel\mmmaplockedpagesspecifycache.htm
 tech.root: kernel
 ms.assetid: fb759043-ffdf-4edf-819b-669631927bc5
 ms.date: 04/30/2018
+keywords: ["MmMapLockedPagesSpecifyCache function"]
 ms.keywords: MmMapLockedPagesSpecifyCache, MmMapLockedPagesSpecifyCache routine [Kernel-Mode Driver Architecture], k106_337c0e8a-c098-46a8-b820-db78be002148.xml, kernel.mmmaplockedpagesspecifycache, wdm/MmMapLockedPagesSpecifyCache
-ms.topic: function
 f1_keywords:
  - "wdm/MmMapLockedPagesSpecifyCache"
 req.header: wdm.h

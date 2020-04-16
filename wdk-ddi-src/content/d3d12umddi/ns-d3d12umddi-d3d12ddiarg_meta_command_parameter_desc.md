@@ -5,7 +5,7 @@ author: mimisasouvanh
 description: Meta-command parameter descriptions.
 ms.assetid: a3a5d723-9f3a-44fd-aa17-4e7d81918865
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["D3D12DDIARG_META_COMMAND_PARAMETER_DESC structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_META_COMMAND_PARAMETER_DESC"
 ms.keywords: D3D12DDIARG_META_COMMAND_PARAMETER_DESC, D3D12DDIARG_META_COMMAND_PARAMETER_DESC, 

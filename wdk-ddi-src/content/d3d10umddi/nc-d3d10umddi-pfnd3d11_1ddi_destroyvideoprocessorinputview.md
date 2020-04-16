@@ -5,8 +5,8 @@ description: Releases resources for the video processor input view that were cre
 old-location: display\destroyvideoprocessorinputview.htm
 ms.assetid: 3a815201-091b-4c85-a62a-2cdbbaf0bf95
 ms.date: 05/10/2018
+keywords: ["PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW callback function"]
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW, PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW callback, d3d10umddi/pfnDestroyVideoProcessorInputView, display.destroyvideoprocessorinputview, pfnDestroyVideoProcessorInputView, pfnDestroyVideoProcessorInputView callback function [Display Devices]
-ms.topic: callback
 f1_keywords:
  - "d3d10umddi/pfnDestroyVideoProcessorInputView"
 req.header: d3d10umddi.h

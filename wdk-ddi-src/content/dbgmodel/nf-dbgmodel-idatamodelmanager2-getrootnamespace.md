@@ -4,7 +4,7 @@ title: IDataModelManager2::GetRootNamespace (dbgmodel.h)
 description: The GetRootNamespace method returns the data model's root namespace. This is an object which the data model manages and into which the debug host places certain objects.
 ms.assetid: ca84b7c7-8454-420c-b94d-ecc8ab7ce89d
 ms.date: 09/11/2018
-ms.topic: method
+keywords: ["IDataModelManager2::GetRootNamespace"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.GetRootNamespace"
 ms.keywords: IDataModelManager2::GetRootNamespace, GetRootNamespace, IDataModelManager2.GetRootNamespace, IDataModelManager2::GetRootNamespace, IDataModelManager2.GetRootNamespace

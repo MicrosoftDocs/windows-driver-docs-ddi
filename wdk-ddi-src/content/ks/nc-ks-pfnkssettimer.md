@@ -6,8 +6,8 @@ old-location: stream\kstrsettimer.htm
 tech.root: stream
 ms.assetid: c9150c02-a53e-4ffc-8cf1-ca668680cdd9
 ms.date: 04/23/2018
+keywords: ["PFNKSSETTIMER callback function"]
 ms.keywords: KStrSetTimer, KStrSetTimer routine [Streaming Media Devices], PFNKSSETTIMER, ks/KStrSetTimer, ksfunc_a1a590b8-ea16-45bd-8517-45e4bfc46ad3.xml, stream.kstrsettimer
-ms.topic: callback
 f1_keywords:
  - "ks/KStrSetTimer"
 req.header: ks.h

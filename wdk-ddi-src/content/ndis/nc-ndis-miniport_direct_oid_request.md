@@ -6,8 +6,8 @@ old-location: netvista\miniportdirectoidrequest.htm
 tech.root: netvista
 ms.assetid: 60daba60-3e04-4e98-a458-4dc263f17761
 ms.date: 05/02/2018
+keywords: ["MINIPORT_DIRECT_OID_REQUEST callback function"]
 ms.keywords: MINIPORT_DIRECT_OID_REQUEST, MINIPORT_DIRECT_OID_REQUEST callback, MiniportDirectOidRequest, MiniportDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/MiniportDirectOidRequest, ndis_request_direct_ref_8650027d-37db-4165-9bf6-c239b6db2919.xml, netvista.miniportdirectoidrequest
-ms.topic: callback
 f1_keywords:
  - "ndis/MiniportDirectOidRequest"
 req.header: ndis.h

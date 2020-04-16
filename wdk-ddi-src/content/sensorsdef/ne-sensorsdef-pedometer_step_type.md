@@ -6,8 +6,8 @@ old-location: sensors\pedometer_step_type.htm
 tech.root: sensors
 ms.assetid: 13ECDA33-2047-4F72-A8D4-5281C4BA8543
 ms.date: 05/03/2018
+keywords: ["PEDOMETER_STEP_TYPE enumeration"]
 ms.keywords: PEDOMETER_STEP_TYPE, PEDOMETER_STEP_TYPE enumeration [Sensor Devices], PedometerStepType_Force_Dword, PedometerStepType_Max, PedometerStepType_Running, PedometerStepType_Unknown, PedometerStepType_Walking, sensors.pedometer_step_type, sensorsdef/PEDOMETER_STEP_TYPE, sensorsdef/PedometerStepType_Force_Dword, sensorsdef/PedometerStepType_Max, sensorsdef/PedometerStepType_Running, sensorsdef/PedometerStepType_Unknown, sensorsdef/PedometerStepType_Walking
-ms.topic: enum
 f1_keywords:
  - "sensorsdef/PEDOMETER_STEP_TYPE"
 req.header: sensorsdef.h

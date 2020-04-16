@@ -6,8 +6,8 @@ old-location: print\removeprintdeviceobject.htm
 tech.root: print
 ms.assetid: D94A669E-4293-4235-8BC4-C7883BB0C83C
 ms.date: 04/20/2018
+keywords: ["RemovePrintDeviceObject function"]
 ms.keywords: RemovePrintDeviceObject, RemovePrintDeviceObject function [Print Devices], print.removeprintdeviceobject, winsplp/RemovePrintDeviceObject
-ms.topic: function
 f1_keywords:
  - "winsplp/RemovePrintDeviceObject"
 req.header: winsplp.h

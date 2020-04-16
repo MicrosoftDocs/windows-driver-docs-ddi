@@ -5,8 +5,8 @@ description: DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL is used as part of an alloca
 old-location: display\dxgk_buildpagingbuffer_transfervirtual.htm
 ms.assetid: D4427E44-204F-490C-9EE7-BBC4906E5920
 ms.date: 05/10/2018
+keywords: ["_DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL structure"]
 ms.keywords: DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL, DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL, d3dkmddi/DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL, display.dxgk_buildpagingbuffer_transfervirtual
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL"
 req.header: d3dkmddi.h

@@ -6,8 +6,8 @@ old-location: image\wiassetvalidlistguid.htm
 tech.root: image
 ms.assetid: ab8276d4-4838-4bfc-8952-8712435eab41
 ms.date: 05/03/2018
+keywords: ["wiasSetValidListGuid function"]
 ms.keywords: image.wiassetvalidlistguid, wiamdef/wiasSetValidListGuid, wiasFncs_eade05c7-20bd-480d-aa50-0216575ce856.xml, wiasSetValidListGuid, wiasSetValidListGuid function [Imaging Devices]
-ms.topic: function
 f1_keywords:
  - "wiamdef/wiasSetValidListGuid"
 req.header: wiamdef.h

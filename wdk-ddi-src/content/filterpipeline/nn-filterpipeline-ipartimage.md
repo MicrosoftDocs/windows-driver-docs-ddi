@@ -6,8 +6,8 @@ old-location: print\ipartimage.htm
 tech.root: print
 ms.assetid: 7bb39a5b-7519-47a6-82ca-440942ae2c84
 ms.date: 04/20/2018
+keywords: ["IPartImage interface"]
 ms.keywords: IPartImage, IPartImage interface [Print Devices], IPartImage interface [Print Devices],described, filterpipeline/IPartImage, filterpipeline_faed49d4-60d1-4063-a4aa-c9ec8c56655d.xml, print.ipartimage
-ms.topic: interface
 f1_keywords:
  - "filterpipeline/IPartImage"
 req.header: filterpipeline.h
@@ -53,7 +53,7 @@ The <b>IPartImage</b> interface is the abstraction for images in an XPS document
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPartImage</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>. <b>IPartImage</b> also has these types of members:
+The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPartImage</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-ipartbase">IPartBase</a>. <b>IPartImage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

@@ -6,8 +6,8 @@ old-location: netvista\rilhideconnectedidsettings.htm
 tech.root: netvista
 ms.assetid: a0445969-b4b5-43f3-a8dc-a8d61bf44d94
 ms.date: 05/02/2018
+keywords: ["RILHIDECONNECTEDIDSETTINGS structure"]
 ms.keywords: "*LPRILHIDECONNECTEDIDSETTINGS, RILHIDECONNECTEDIDSETTINGS, RILHIDECONNECTEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilhideconnectedidsettings, ntddrilapitypes/RILHIDECONNECTEDIDSETTINGS"
-ms.topic: struct
 f1_keywords:
  - "rilapitypes/RILHIDECONNECTEDIDSETTINGS"
 req.header: rilapitypes.h

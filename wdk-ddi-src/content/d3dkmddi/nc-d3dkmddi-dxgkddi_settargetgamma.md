@@ -5,8 +5,8 @@ description: Allows the gamma LUT to be set on a path which is identified by the
 old-location: display\dxgkddi_settargetgamma.htm
 ms.assetid: 658EA0AA-80FC-4A45-B2EF-DFE928917E7B
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_SETTARGETGAMMA callback function"]
 ms.keywords: DXGKDDI_SETTARGETGAMMA, DXGKDDI_SETTARGETGAMMA callback, DXGKDDI_SETTARGETGAMMA callback function [Display Devices], d3dkmddi/DXGKDDI_SETTARGETGAMMA, display.dxgkddi_settargetgamma
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

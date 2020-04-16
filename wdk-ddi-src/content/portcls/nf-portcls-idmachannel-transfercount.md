@@ -5,7 +5,7 @@ description: The TransferCount method returns the size in bytes of the buffer th
 tech.root: audio
 ms.assetid: 2d008277-36b1-4c66-8b70-5500ed7dc81f
 ms.date: 10/31/2018
-ms.topic: method
+keywords: ["IDmaChannel::TransferCount"]
 f1_keywords:
  - "portcls/IDmaChannel.TransferCount"
 ms.keywords: IDmaChannel::TransferCount, TransferCount, IDmaChannel.TransferCount, IDmaChannel::TransferCount, IDmaChannel.TransferCount

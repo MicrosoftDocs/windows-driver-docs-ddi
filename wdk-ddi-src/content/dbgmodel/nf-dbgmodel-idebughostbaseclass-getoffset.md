@@ -4,7 +4,7 @@ title: IDebugHostBaseClass::GetOffset (dbgmodel.h)
 description: The GetOffset method returns the offset of the base class from the base address of the derived class.
 ms.assetid: 13e58ad4-e518-4861-ba38-666e27350160
 ms.date: 08/14/2018
-ms.topic: method
+keywords: ["IDebugHostBaseClass::GetOffset"]
 f1_keywords:
  - "dbgmodel/IDebugHostBaseClass.GetOffset"
 ms.keywords: IDebugHostBaseClass::GetOffset, GetOffset, IDebugHostBaseClass.GetOffset, IDebugHostBaseClass::GetOffset, IDebugHostBaseClass.GetOffset

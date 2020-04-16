@@ -6,8 +6,8 @@ old-location: wdf\iwdfioqueue_stopsynchronously.htm
 tech.root: wdf
 ms.assetid: ea05cb82-8a50-48d8-a15c-b7ab58c01b30
 ms.date: 02/26/2018
+keywords: ["IWDFIoQueue::StopSynchronously"]
 ms.keywords: IWDFIoQueue interface,StopSynchronously method, IWDFIoQueue.StopSynchronously, IWDFIoQueue::StopSynchronously, StopSynchronously, StopSynchronously method, StopSynchronously method,IWDFIoQueue interface, UMDFQueueObjectRef_18e42c5a-ade3-4d81-8af1-bd19655650e7.xml, umdf.iwdfioqueue_stopsynchronously, wdf.iwdfioqueue_stopsynchronously, wudfddi/IWDFIoQueue::StopSynchronously
-ms.topic: method
 f1_keywords:
  - "wudfddi/IWDFIoQueue.StopSynchronously"
 req.header: wudfddi.h

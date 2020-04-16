@@ -6,8 +6,8 @@ old-location: kernel\rtlstringcbcopyunicodestring.htm
 tech.root: kernel
 ms.assetid: 87b123ff-0188-4d45-b455-d1ec9def4d63
 ms.date: 04/30/2018
+keywords: ["RtlStringCbCopyUnicodeString function"]
 ms.keywords: RtlStringCbCopyUnicodeString, RtlStringCbCopyUnicodeString function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopyunicodestring, ntstrsafe/RtlStringCbCopyUnicodeString, safestrings_1c916f4b-b084-4587-a867-998b789bd2fa.xml
-ms.topic: function
 f1_keywords:
  - "ntstrsafe/RtlStringCbCopyUnicodeString"
 req.header: ntstrsafe.h

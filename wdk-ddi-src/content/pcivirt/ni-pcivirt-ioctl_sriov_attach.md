@@ -6,8 +6,8 @@ old-location: pci\ioctl-sriov-attach.htm
 tech.root: PCI
 ms.assetid: c1129d60-eeb0-4c90-b181-365f3379d89e
 ms.date: 02/24/2018
+keywords: ["IOCTL_SRIOV_ATTACH IOCTL"]
 ms.keywords: IOCTL_SRIOV_ATTACH, IOCTL_SRIOV_ATTACH control code [Buses], PCI.ioctl-sriov-attach, pcivirt/IOCTL_SRIOV_ATTACH
-ms.topic: ioctl
 f1_keywords:
  - "pcivirt/IOCTL_SRIOV_ATTACH"
 req.header: pcivirt.h

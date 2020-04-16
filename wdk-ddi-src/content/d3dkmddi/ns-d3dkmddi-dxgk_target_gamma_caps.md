@@ -7,7 +7,7 @@ tech.root: display
 ms.assetid: 74a20063-1c04-4db6-abb0-93d378690822
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
-ms.topic: struct
+keywords: ["DXGK_TARGET_GAMMA_CAPS structure"]
 f1_keywords:
  - "d3dkmddi/DXGK_TARGET_GAMMA_CAPS"
 ms.keywords: DXGK_TARGET_GAMMA_CAPS, DXGK_TARGET_GAMMA_CAPS, *PDXGK_TARGET_GAMMA_CAPS, 

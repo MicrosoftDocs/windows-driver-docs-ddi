@@ -7,7 +7,7 @@ tech.root: netvista
 ms.assetid: d321223f-7e48-43c6-bb35-85f0c646651e
 ms.author: windowsdriverdev
 ms.date: 09/30/2019
-ms.topic: enum
+keywords: ["NET_POWER_OFFLOAD_TYPE enumeration"]
 f1_keywords:
  - "netpoweroffload/NET_POWER_OFFLOAD_TYPE"
 ms.keywords: NET_POWER_OFFLOAD_TYPE, NET_POWER_OFFLOAD_TYPE, 

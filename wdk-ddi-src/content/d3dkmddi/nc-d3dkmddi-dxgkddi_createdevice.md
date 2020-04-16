@@ -5,8 +5,8 @@ description: The DxgkDdiCreateDevice function creates a graphics context device 
 old-location: display\dxgkddicreatedevice.htm
 ms.assetid: a7027735-0ec4-4fad-81fb-1c3aca4ebf2d
 ms.date: 05/10/2018
+keywords: ["DXGKDDI_CREATEDEVICE callback function"]
 ms.keywords: DXGKDDI_CREATEDEVICE, DXGKDDI_CREATEDEVICE callback, DmFunctions_15d9141a-ec58-41f7-a925-768079604525.xml, DxgkDdiCreateDevice, DxgkDdiCreateDevice callback function [Display Devices], d3dkmddi/DxgkDdiCreateDevice, display.dxgkddicreatedevice
-ms.topic: callback
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

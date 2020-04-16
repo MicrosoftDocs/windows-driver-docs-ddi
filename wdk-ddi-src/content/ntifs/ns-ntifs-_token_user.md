@@ -6,8 +6,8 @@ old-location: ifsk\token_user.htm
 tech.root: ifsk
 ms.assetid: 0168f1ea-d2b0-4343-b6e7-c6cc97214201
 ms.date: 04/16/2018
+keywords: ["_TOKEN_USER structure"]
 ms.keywords: "*PTOKEN_USER, PTOKEN_USER, PTOKEN_USER structure pointer [Installable File System Drivers], TOKEN_USER, TOKEN_USER structure [Installable File System Drivers], _TOKEN_USER, ifsk.token_user, ntifs/PTOKEN_USER, ntifs/TOKEN_USER, securitystructures_0e952505-1e51-463e-ba92-c6995e6f107a.xml"
-ms.topic: struct
 f1_keywords:
  - "ntifs/TOKEN_USER"
 req.header: ntifs.h

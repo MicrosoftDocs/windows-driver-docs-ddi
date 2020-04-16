@@ -6,8 +6,8 @@ old-location: netvista\wskdisconnect.htm
 tech.root: netvista
 ms.assetid: 499ff5d0-2030-472c-8de2-44dcd253d7b9
 ms.date: 05/02/2018
+keywords: ["PFN_WSK_DISCONNECT callback function"]
 ms.keywords: PFN_WSK_DISCONNECT, PFN_WSK_DISCONNECT callback, WskDisconnect, WskDisconnect callback function [Network Drivers Starting with Windows Vista], netvista.wskdisconnect, wsk/WskDisconnect, wskref_0c0dd54e-03d9-4bb6-9040-68f352cfb6ae.xml
-ms.topic: callback
 f1_keywords:
  - "wsk/WskDisconnect"
 req.header: wsk.h

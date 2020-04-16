@@ -6,8 +6,8 @@ old-location: pci\sriov_device_interface_standard.htm
 tech.root: PCI
 ms.assetid: c71add7d-9920-4b2f-a46a-4a09a94f3900
 ms.date: 02/24/2018
+keywords: ["_SRIOV_DEVICE_INTERFACE_STANDARD structure"]
 ms.keywords: "*PSRIOV_DEVICE_INTERFACE_STANDARD, PCI.sriov_device_interface_standard, SRIOV_DEVICE_INTERFACE_STANDARD, SRIOV_DEVICE_INTERFACE_STANDARD structure [Buses], _SRIOV_DEVICE_INTERFACE_STANDARD, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD"
-ms.topic: struct
 f1_keywords:
  - "pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD"
 req.header: pcivirt.h

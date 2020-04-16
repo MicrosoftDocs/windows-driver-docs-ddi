@@ -6,8 +6,8 @@ old-location: ifsk\rtlunicodestringtooemstring.htm
 tech.root: ifsk
 ms.assetid: 59ef2d37-ad99-4b99-be31-521ac442daf4
 ms.date: 04/16/2018
+keywords: ["RtlUnicodeStringToOemString function"]
 ms.keywords: RtlUnicodeStringToOemString, RtlUnicodeStringToOemString routine [Installable File System Drivers], ifsk.rtlunicodestringtooemstring, ntifs/RtlUnicodeStringToOemString, rtlref_a64bd432-8178-4b0c-9119-6cb5ab9bcd22.xml
-ms.topic: function
 f1_keywords:
  - "ntifs/RtlUnicodeStringToOemString"
 req.header: ntifs.h

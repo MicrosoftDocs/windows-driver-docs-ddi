@@ -5,8 +5,8 @@ description: The DXGK_GDIARG_STRETCHBLT structure describes the characteristics 
 old-location: display\dxgk_gdiarg_stretchblt.htm
 ms.assetid: 11988e4c-9f4b-44cc-bc09-ff6da62f3904
 ms.date: 05/10/2018
+keywords: ["_DXGK_GDIARG_STRETCHBLT structure"]
 ms.keywords: BLACKONWHITE, DXGK_GDIARG_STRETCHBLT, DXGK_GDIARG_STRETCHBLT structure [Display Devices], DmStructs_9c8014aa-fdad-474d-a1a1-182020850e17.xml, WHITEONBLACK, _DXGK_GDIARG_STRETCHBLT, d3dkmddi/DXGK_GDIARG_STRETCHBLT, display.dxgk_gdiarg_stretchblt
-ms.topic: struct
 f1_keywords:
  - "d3dkmddi/DXGK_GDIARG_STRETCHBLT"
 req.header: d3dkmddi.h

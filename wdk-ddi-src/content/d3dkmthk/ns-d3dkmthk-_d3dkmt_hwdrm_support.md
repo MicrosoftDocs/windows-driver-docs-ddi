@@ -4,7 +4,7 @@ title: _D3DKMT_HWDRM_SUPPORT (d3dkmthk.h)
 description: Hardware DRM support.
 ms.assetid: faa72a75-33b3-4017-986f-294f5e1be35f
 ms.date: 10/19/2018
-ms.topic: struct
+keywords: ["_D3DKMT_HWDRM_SUPPORT structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_HWDRM_SUPPORT"
 ms.keywords: _D3DKMT_HWDRM_SUPPORT, D3DKMT_HWDRM_SUPPORT, 

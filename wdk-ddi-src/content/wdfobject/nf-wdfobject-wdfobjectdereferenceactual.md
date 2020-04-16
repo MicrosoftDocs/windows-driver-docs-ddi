@@ -6,8 +6,8 @@ old-location: wdf\wdfobjectdereferenceactual.htm
 tech.root: wdf
 ms.assetid: ff96ea2b-a1f9-417c-98e6-fbf9cc9f6827
 ms.date: 02/26/2018
+keywords: ["WdfObjectDereferenceActual function"]
 ms.keywords: DFGenObjectRef_d09786da-bccf-4735-bd7b-816bf2bd999d.xml, WdfObjectDereferenceActual, WdfObjectDereferenceActual method, kmdf.wdfobjectdereferenceactual, wdf.wdfobjectdereferenceactual, wdfobject/WdfObjectDereferenceActual
-ms.topic: function
 f1_keywords:
  - "wdfobject/WdfObjectDereferenceActual"
 req.header: wdfobject.h

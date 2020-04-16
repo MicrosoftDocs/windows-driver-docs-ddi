@@ -6,8 +6,8 @@ old-location: netvista\rildisplayinfo.htm
 tech.root: netvista
 ms.assetid: 6c28e50c-a76a-4a7c-af29-6e58bcfe3f3b
 ms.date: 05/02/2018
+keywords: ["RILDISPLAYINFO structure"]
 ms.keywords: "*LPRILDISPLAYINFO, RILDISPLAYINFO, RILDISPLAYINFO structure [Network Drivers Starting with Windows Vista], netvista.rildisplayinfo, ntddrilapitypes/RILDISPLAYINFO"
-ms.topic: struct
 f1_keywords:
  - "ntddrilapitypes/RILDISPLAYINFO"
 req.header: ntddrilapitypes.h

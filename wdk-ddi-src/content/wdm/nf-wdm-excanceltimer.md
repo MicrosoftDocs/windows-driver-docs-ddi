@@ -6,8 +6,8 @@ old-location: kernel\excanceltimer.htm
 tech.root: kernel
 ms.assetid: 5E52550D-0A81-4C72-9A82-7C13BC3EFE00
 ms.date: 04/30/2018
+keywords: ["ExCancelTimer function"]
 ms.keywords: ExCancelTimer, ExCancelTimer routine [Kernel-Mode Driver Architecture], kernel.excanceltimer, wdm/ExCancelTimer
-ms.topic: function
 f1_keywords:
  - "wdm/ExCancelTimer"
 req.header: wdm.h
