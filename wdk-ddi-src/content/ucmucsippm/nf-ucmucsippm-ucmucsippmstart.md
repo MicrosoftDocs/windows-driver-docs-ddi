@@ -68,6 +68,6 @@ This DDI starts the operations that the class extension needs to perform to init
 
 Attempting to start the PPM after it has already started leads to an error condition.  
 
-After the client calls **UcmUcsiPpmStart**, the class extension sends a number of commands to the PPM firmware in order to get PPM and connector capabilities and their statuses. Due to a high number interactions with the firmware, we strongly recommend UcmUcsiCx client implementors to call this DDI once during startup and not on resume from a low power state e.g. D0Entry callback specially when the client implements S0 idling.
+After the client calls **UcmUcsiPpmStart**, the class extension sends a number of commands to the PPM firmware in order to get PPM and connector capabilities and their statuses. Due to a high number interactions with the firmware, we strongly recommend UcmUcsiCx client implementors call this DDI once during startup and not on resume from a low power state, such as D0Entry callback. This is especially true when the client implements S0 idling.
 
 ## -see-also
