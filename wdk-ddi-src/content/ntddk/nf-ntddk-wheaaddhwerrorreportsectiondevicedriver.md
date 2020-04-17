@@ -72,6 +72,8 @@ This routine can be called up to **MaxSectionsPerReport** times as specified in 
 
 Also see [**WheaHwErrorReportSetSectionNameDeviceDriver**](nf-ntddk-wheahwerrorreportsetsectionnamedevicedriver.md), which is a helper function for updating the FRUText.
 
+For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/using-whea-on-windows-10).
+
 ## -see-also
 
 [**WheaCreateHwErrorReportDeviceDriver**](nf-ntddk-wheacreatehwerrorreportdevicedriver.md)

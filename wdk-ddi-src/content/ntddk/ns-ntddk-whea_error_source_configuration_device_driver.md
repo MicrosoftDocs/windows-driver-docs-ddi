@@ -88,4 +88,6 @@ A GUID that is used in the [Common Platform Error Record (CPER)](https://docs.mi
 
 The WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER structure is used as input to the [**WheaAddErrorSourceDeviceDriver**](nf-ntddk-wheaadderrorsourcedevicedriver.md) function.
 
+For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/using-whea-on-windows-10).
+
 ## -see-also

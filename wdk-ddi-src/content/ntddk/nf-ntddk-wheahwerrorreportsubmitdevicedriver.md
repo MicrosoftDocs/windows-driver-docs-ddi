@@ -69,5 +69,7 @@ After calling this routine, buffers in the buffer sets are no longer available f
 
 If an error has occurred, or the error is no longer valid, the driver can clean up without a report being submitted to WHEA by calling [**WheaHwErrorReportAbandonDeviceDriver**](nf-ntddk-wheahwerrorreportabandondevicedriver.md).
 
+For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/using-whea-on-windows-10).
+
 ## -see-also
 

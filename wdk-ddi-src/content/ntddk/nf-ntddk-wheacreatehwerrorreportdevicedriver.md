@@ -60,6 +60,8 @@ This function returns a handle to the in progress error, or WHEA_ERROR_HANDLE_IN
 
 ## -remarks
 
+For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/using-whea-on-windows-10).
+
 ## -see-also
 
 [**WheaAddHwErrorReportSectionDeviceDriver**](nf-ntddk-wheaaddhwerrorreportsectiondevicedriver.md)
