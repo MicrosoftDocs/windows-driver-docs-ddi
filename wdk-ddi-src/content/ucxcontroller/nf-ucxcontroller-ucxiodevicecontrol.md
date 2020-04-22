@@ -200,7 +200,7 @@ WdfEvtIoDeviceControlEnd:
 
 
 
-[User-Mode IOCTLs for USB](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/ddi/_usbref/?branch=eliot-ddi-april#user-mode-ioctls-sent-by-applications-and-services)
+[User-Mode IOCTLs for USB](https://docs.microsoft.com/windows-hardware/drivers/ddi/_usbref/?branch=eliot-ddi-april#user-mode-ioctls-sent-by-applications-and-services)
  
 
  
