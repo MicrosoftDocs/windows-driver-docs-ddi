@@ -200,7 +200,7 @@ WdfEvtIoDeviceControlEnd:
 
 
 
-<a href="https://docs.microsoft.com/windows/iot-core/learn-about-hardware/hardwarecompatlist">User-Mode IOCTLs for USB</a>
+[User-Mode IOCTLs for USB](https://review.docs.microsoft.com/en-us/windows-hardware/drivers/ddi/_usbref/?branch=eliot-ddi-april#user-mode-ioctls-sent-by-applications-and-services)
  
 
  
