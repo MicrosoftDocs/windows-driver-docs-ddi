@@ -72,6 +72,8 @@ This function method returns STATUS_SUCCESS if the error source is added. Otherw
 
 ## -remarks
 
+To remove an error source, the driver calls [**WheaRemoveErrorSourceDeviceDriver**](nf-ntddk-whearemoveerrorsourcedevicedriver.md).
+
 WHEA can preallocate memory for errors that will be reported at high IRQL (i.e. in the context of a device interrupt).  For error sources reported at PASSIVE_LEVEL, preallocation is not required but if the device driver reports errors for its error source at DISPATCH_LEVEL or higher, error records must be preallocated.
 
 For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/using-whea-on-windows-10).

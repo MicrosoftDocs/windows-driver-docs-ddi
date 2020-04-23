@@ -78,7 +78,7 @@ A ULONG that specifies the maximum number of sections per report.
 
 ### -field CreatorId
 
-A GUID identifying the organization generating the error.
+A GUID identifying the creator, i.e. the organization, that is generating the error.
 
 ### -field PartitionId
 
