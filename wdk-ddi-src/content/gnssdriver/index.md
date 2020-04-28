@@ -10,7 +10,7 @@ ms.technology: windows-devices
 ms.topic: portal
 product:
 - Windows
-tech.root: sensors
+tech.root: gnss
 ---
 
 # Gnssdriver.h header

@@ -15,11 +15,8 @@ tech.root: stream
 
 # Ksmedia.h header
 
-
 ## -description
-
 
 This header is used by stream. For more information, see:
 
-- [Streaming media devices](../_stream/index.md)
-
+- [Streaming media devices](../_stream/index.md)<br><br>
