@@ -78,7 +78,7 @@ A ULONG that specifies the maximum number of sections per report.
 
 ### -field CreatorId
 
-A GUID identifying the organization generating the error.
+A GUID identifying the creator, i.e. the organization, that is generating the error.
 
 ### -field PartitionId
 
@@ -87,5 +87,7 @@ A GUID that is used in the [Common Platform Error Record (CPER)](https://docs.mi
 ## -remarks
 
 The WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER structure is used as input to the [**WheaAddErrorSourceDeviceDriver**](nf-ntddk-wheaadderrorsourcedevicedriver.md) function.
+
+For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/using-whea-on-windows-10).
 
 ## -see-also

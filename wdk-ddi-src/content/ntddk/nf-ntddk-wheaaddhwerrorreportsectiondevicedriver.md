@@ -70,6 +70,10 @@ Returns STATUS_SUCCESS or one of the following:
 
 This routine can be called up to **MaxSectionsPerReport** times as specified in the [**WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER**](ns-ntddk-whea_error_source_configuration_device_driver.md) structure supplied to [**WheaAddErrorSourceDeviceDriver**](nf-ntddk-wheaadderrorsourcedevicedriver.md).
 
+Also see [**WheaHwErrorReportSetSectionNameDeviceDriver**](nf-ntddk-wheahwerrorreportsetsectionnamedevicedriver.md), which is a helper function for updating the FRUText.
+
+For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/using-whea-on-windows-10).
+
 ## -see-also
 
 [**WheaCreateHwErrorReportDeviceDriver**](nf-ntddk-wheacreatehwerrorreportdevicedriver.md)
