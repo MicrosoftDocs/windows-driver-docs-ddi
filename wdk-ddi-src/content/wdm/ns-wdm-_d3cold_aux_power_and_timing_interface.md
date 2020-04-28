@@ -70,7 +70,7 @@ A device driver that successfully queries for the GUID_D3COLD_AUX_POWER_AND_TIMI
 
 The [**D3COLD_AUX_POWER_AND_TIMING_INTERFACE**] structure is an extended version of the [INTERFACE] structure.
 
-Windows now has added support for the newly introduced [PCI Device Specific Method (_DSM) functions for Runtime Device Power Management](https://pcisig.com/sites/default/files/specification_documents/ECN_D3ColdTiming_Power_Firmware_Final.pdf). The new interfaces listed below allow device drivers to negotiate a higher auxiliary power for their PCI devices (higher than the standard 375mA @ 3.3V), if their devices require additional power while in D3Cold state. All device drivers must be able to handle the cases where additional power cannot be provided by the system, or if the interfaces are not supported.
+Windows now has added support for the newly introduced [PCI Device Specific Method (_DSM) functions for Runtime Device Power Management](https://members.pcisig.com/wg/PCI-SIG/document/11119). The new interfaces listed below allow device drivers to negotiate a higher auxiliary power for their PCI devices (higher than the standard 375mA @ 3.3V), if their devices require additional power while in D3Cold state. All device drivers must be able to handle the cases where additional power cannot be provided by the system, or if the interfaces are not supported.
 
 ## -see-also
 [_D3COLD_REQUEST_CORE_POWER_RAIL_](nc-wdm-d3cold_request_core_power_rail.md)
