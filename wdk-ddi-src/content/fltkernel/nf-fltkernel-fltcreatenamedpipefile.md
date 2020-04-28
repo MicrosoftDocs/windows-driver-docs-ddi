@@ -413,7 +413,7 @@ All operations on the pipe are performed synchronously. Waits in the system to s
 
 ### -param NamedPipeType [in]
 
-The mode to read from the pipe.
+Type of named pipe to create. Can be one of the following values:
 
 <table>
 <tr>
@@ -487,8 +487,8 @@ The completion mode for pipe reads and writes.
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="FILE_PIPE_QUEUE_COMPLETION"></a><a id="file_pipe_queue_completion"></a><dl>
-<dt><b>FILE_PIPE_QUEUE_COMPLETION</b></dt>
+<td width="40%"><a id="FILE_PIPE_QUEUE_OPERATION"></a><a id="file_pipe_queue_operation"></a><dl>
+<dt><b>FILE_PIPE_QUEUE_OPERATION</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -584,8 +584,7 @@ The <i>instance</i> parameter is either <b> NULL</b> or is previously set by att
 
 To specify an extra create parameter (ECP) as part of a create operation, initialize the <b>ExtraCreateParameter</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_io_driver_create_context">IO_DRIVER_CREATE_CONTEXT</a> structure with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterlist">FltAllocateExtraCreateParameterList</a> routine.  If ECPs are used, they must be allocated, initialized, and freed using their associated support routines.  Upon returning from the call of <b>FltCreateNamedPipeFile</b>, the ECP list is unchanged and may be passed to additional calls of <b>FltCreateNamedPipeFile</b> for other create operations.  The ECP list structure is not automatically deallocated. The caller of <b>FltCreateNamedPipeFile</b> must deallocate this structure by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameterlist">FltFreeExtraCreateParameterList</a> routine.
 
-
-     If <i>Instance</i> is not <b>NULL</b>, the create request from <b>FltCreateNamedPipeFile</b> is sent only to the instances attached below the specified minifilter driver instance and to the named pipe file system. The specified instance and the instances attached above it do not receive the create request. If no instance is specified, the request goes to the top of the stack and is received by all instances and the named pipe file system.
+If <i>Instance</i> is not <b>NULL</b>, the create request from <b>FltCreateNamedPipeFile</b> is sent only to the instances attached below the specified minifilter driver instance and to the named pipe file system. The specified instance and the instances attached above it do not receive the create request. If no instance is specified, the request goes to the top of the stack and is received by all instances and the named pipe file system.
 
 
 
