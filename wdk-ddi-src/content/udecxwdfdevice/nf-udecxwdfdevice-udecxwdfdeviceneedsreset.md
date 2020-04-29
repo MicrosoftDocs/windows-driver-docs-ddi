@@ -54,13 +54,13 @@ Informs the USB device emulation class extension (UdeCx) that the device needs a
 [In] A handle to a framework device object that represents the a USB device. The client driver initialized this object in the previous call to [**UdecxWdfDeviceAddUsbDeviceEmulation**](../udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md).
 
 ### -param ResetType
-[In] A [**UDECX_WDF_DEVICE_RESET_TYPE**](ne-udecxwdfdevice-_udecx_wdf_device_reset_type.md)-type value that indicates the type of reset. Only UdecxWdfDeviceResetAttemptPlatformLevelDeviceReset is supported at this time.
+[In] A [**UDECX_WDF_DEVICE_RESET_TYPE**](ne-udecxwdfdevice-_udecx_wdf_device_reset_type.md)-type value that indicates the type of reset. Only `UdecxWdfDeviceResetAttemptPlatformLevelDeviceReset` is supported at this time.
 
 ## -returns
 The function returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) error code.
 
 ## -remarks
-If an existing reset operation is in progress, the function fails with a STATUS_DEVICE_BUSY error. Note that only UdecxWdfDeviceResetAttemptPlatformLevelDeviceReset is supported at this time. UdecxWdfDeviceResetAttemptFunctionLevelDeviceReset is not supported.
+If an existing reset operation is in progress, the function fails with a STATUS_DEVICE_BUSY error. Note that only `UdecxWdfDeviceResetAttemptPlatformLevelDeviceReset` is supported at this time. `UdecxWdfDeviceResetAttemptFunctionLevelDeviceReset` is not supported.
 
 ## -see-also
 [**UDECX_WDF_DEVICE_RESET_TYPE**](ne-udecxwdfdevice-_udecx_wdf_device_reset_type.md)
