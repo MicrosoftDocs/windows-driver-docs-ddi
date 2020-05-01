@@ -65,7 +65,7 @@ The maximum size, in bytes, of MBIM control messages that the client driver can 
 
 ### -param ExtendedVersion
 
-An [**MBB_MBIM_EXTENDED_VERSION**](../mbbcx/ne-mbbcx-_mbb_mbim_extended_version.md) value that defines the version of the extended MBIM specification that the client driver supports. The value of this field must be **MBB_MBIM_EXTENDED_VERSION2_0**.
+An [**MBB_MBIM_EXTENDED_VERSION**](../mbbcx/ne-mbbcx-_mbb_mbim_extended_version.md) value that defines the version of the lowest extended MBIM specification that the client driver supports. If a device sets **MbbMbimExtendedVersion2Dot0**, it means the device can only support **MbbMbimExtendedVersion2Dot0** or higher. So if a device with intention to work with older hosts should set **MbbMbimExtendedVersion1Dot0**
 
 ## -remarks
 
