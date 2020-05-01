@@ -60,8 +60,6 @@ The client driver and device support the extended MBIM specification Rev 3.0.
 
 ## -remarks
 
-Client drivers set the MBIM specification extended version they support in the **ExtendedVersion** member of the [**MBB_DEVICE_MBIM_PARAMETERS**](ns-mbbcx-_mbb_device_mbim_parameters.md) structure. 
-
-Currently, client drivers must set the value of this field to **MbbMbimExtendedVersion2Dot0**.
+Client drivers set the lowest MBIM specification extended version they support in the **ExtendedVersion** member of the [**MBB_DEVICE_MBIM_PARAMETERS**](ns-mbbcx-_mbb_device_mbim_parameters.md) structure. 
 
 ## -see-also
