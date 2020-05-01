@@ -109,7 +109,9 @@ Starting in Windows 8, this parameter specifies an optional flag value to modif
 |--- |--- |
 |POOL_RAISE_IF_ALLOCATION_FAILURE|If the allocation fails, raise an exception.|
 
- 
+> [!NOTE]
+> Specifying the POOL_NX_ALLOCATION flag has no effect. All pageable memory is allocated as NX.
+
 
 Before Windows 8, this parameter is not used and must be zero.
 
