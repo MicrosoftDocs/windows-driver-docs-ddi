@@ -5,7 +5,7 @@ description: A structure used to create hardware queue flags.
 old-location: display\d3dddi_createhwqueueflags_.htm
 tech.root: display
 ms.assetid: 50318DEC-8EE4-4208-8E7D-E8BFEA4BA06B
-ms.date: 05/10/2018
+ms.date: 03/24/2020
 keywords: ["_D3DDDI_CREATEHWQUEUEFLAGS structure"]
 ms.keywords: D3DDDI_CREATEHWQUEUEFLAGS, D3DDDI_CREATEHWQUEUEFLAGS , D3DDDI_CREATEHWQUEUEFLAGS structure [Display Devices], _D3DDDI_CREATEHWQUEUEFLAGS, d3dukmdt/D3DDDI_CREATEHWQUEUEFLAGS, display.d3dddi_createhwqueueflags_
 f1_keywords:
@@ -44,29 +44,34 @@ req.typenames: D3DDDI_CREATEHWQUEUEFLAGS
 
 # _D3DDDI_CREATEHWQUEUEFLAGS structure
 
-
 ## -description
-
 
 A structure used to create hardware queue flags.
 
-
 ## -struct-fields
-
 
 ### -field Value
 
 This value is used to operate over the members collectively.
 
-
 ### -field DisableGpuTimeout
 
-Indicates that GPU timeout should be disabled.
+When set, indicates to the OS that the hardware queue being created is expected to submit DMA buffers that can take longer than 2 seconds to complete on the GPU, and consequently GPU timeout should be disabled.
 
+### -field NoBroadcastSignal
+
+When set, indicates to the OS that the hardware queue being created does not have application observable behavior, and it should not participate in D3D12 command queue fence broadcast signal operation. This flag was introduced in Windows 10, version 2004.
+
+### -field NoBroadcastWait
+
+When set, indicates to the OS that the hardware queue being created does not have application observable behavior, and it should not be blocked behind in D3D12 command queue fence wait operation. This flag was introduced in Windows 10, version 2004.
 
 ### -field Reserved
 
 This value is reserved for system use.
 
+## -see-also
 
+[**D3DKMT_CREATEHWQUEUE**](../d3dkmthk/ns-d3dkmthk-_d3dkmt_createhwqueue.md)
 
+[**PFND3DKMT_CREATEHWQUEUE**](../d3dkmthk/nc-d3dkmthk-pfnd3dkmt_createhwqueue.md)

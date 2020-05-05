@@ -1,10 +1,12 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_CONTROLINTERRUPT3
 title: DXGKARG_CONTROLINTERRUPT3
-ms.date: 11/8/2019
+ms.date: 03/24/2020
 ms.topic: language-reference
+ms.assetid: ff1212ad-d42f-4fb4-a9bd-3ce57bf73a98
 targetos: Windows
-description: 
+tech.root: display
+description: The DXGKARG_CONTROLINTERRUPT3 structure is used in DxgkDdi_ControlInterrupt3 calls to describe the state of interrupts.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -14,7 +16,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: DXGKARG_CONTROLINTERRUPT3
@@ -38,17 +40,39 @@ dev_langs:
 
 ## -description
 
+The DXGKARG_CONTROLINTERRUPT3 structure is used in [**DxgkDdi_ControlInterrupt3**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt3) calls to describe the state of interrupts.
+
 ## -struct-fields
 
 ### -field InterruptType
 
+A [**DXGK_INTERRUPT_TYPE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_interrupt_type) enumeration indicating the type of interrupt.
+
 ### -field InterruptState
+
+A [**DXGK_INTERRUPT_STATE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_interrupt_state) enumeration that indicates whether interrupts are enabled for the driver.
 
 ### -field CrtcVsyncState
 
+A [**DXGK_CRTC_VSYNC_STATE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_crtc_vsync_state) enumeration that indicates whether VSYNCs are enabled if interrupts are also enabled for the driver.
+
 ### -field VidPnSourceId
+
+The unique ID of the VidPnSource on which to control the VSync. This member only applies to VSync interrupts. **VidPnSourceId** can be one of the following values:
+
+| Value | Meaning |
+| ----- | ------- |
+| 0 to (number of actual VidPnSources-1) | Identifies a particular VidPnSource |
+| D3DDDI_ID_ALL | VSync is to be controlled on every VidPnSource of the adapter. The OS will set this value in certain scenarios where it cannot determine the particular VidPnSource to control, or in scenarios such as adapter termination where VSync needs to be disabled globally across all VidPnSources. |
 
 ## -remarks
 
+**InterruptState** and **CrtcVsyncState** are members of a union.
+
 ## -see-also
 
+[**DXGK_INTERRUPT_STATE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_interrupt_state)
+
+[**DXGK_INTERRUPT_TYPE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ne-d3dkmddi-_dxgk_interrupt_type)
+
+[**DxgkDdi_ControlInterrupt3**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt3)
