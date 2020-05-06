@@ -44,121 +44,92 @@ req.typenames: D3D12DDIARG_CREATE_PIPELINE_STATE_0033
 
 # D3D12DDIARG_CREATE_PIPELINE_STATE_0033 structure
 
-
 ## -description
-
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Creates a pipeline state.
 
-
 ## -struct-fields
-
-
-
 
 ### -field hComputeShader
 
 The compute shader.
 
-
 ### -field hVertexShader
 
 The vertex shader.
-
 
 ### -field hPixelShader
 
 The pixel shader.
 
-
 ### -field hDomainShader
 
 The domain shader.
-
 
 ### -field hHullShader
 
 The hull shader.
 
-
 ### -field hGeometryShader
 
 The geometry shader.
-
 
 ### -field hRootSignature
 
 The root signature.
 
-
 ### -field hBlendState
 
 The blend state.
-
 
 ### -field SampleMask
 
 The sample mask.
 
-
 ### -field hRasterizerState
 
 The rasterizer state.
-
 
 ### -field hDepthStencilState
 
 The depth stencil state.
 
-
 ### -field hElementLayout
 
 The element layout.
-
 
 ### -field IBStripCutValue
 
 The index buffer strip cut value.
 
-
 ### -field PrimitiveTopologyType
 
 The primitive topology type.
-
 
 ### -field NumRenderTargets
 
 The number of render targets.
 
-
 ### -field RTVFormats
 
 The RTV formats.
-
 
 ### -field DSVFormat
 
 The DSV format.
 
-
 ### -field SampleDesc
 
 The sample description.
-
 
 ### -field NodeMask
 
 Represents the set of nodes.
 
-
 ### -field LibraryReference
 
 The library reference.
 
-
 ### -field ViewInstancingDesc
 
 The view instancing description.
-

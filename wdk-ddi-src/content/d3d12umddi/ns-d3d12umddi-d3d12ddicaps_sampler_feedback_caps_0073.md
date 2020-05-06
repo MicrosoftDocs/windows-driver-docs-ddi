@@ -1,10 +1,12 @@
 ---
 UID: NS:d3d12umddi.D3D12DDICAPS_SAMPLER_FEEDBACK_CAPS_0073
 title: D3D12DDICAPS_SAMPLER_FEEDBACK_CAPS_0073
-ms.date: 11/8/2019
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+ms.assetid: dc6c65b9-6147-40fc-8012-2a45ecbdc784
+tech.root: display
+description: Deprecated - do not use.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -14,7 +16,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: D3D12DDICAPS_SAMPLER_FEEDBACK_CAPS_0073
@@ -36,6 +38,8 @@ dev_langs:
 
 ## -description
 
+Deprecated - do not use.
+
 ## -struct-fields
 
 ### -field Desc
@@ -46,5 +50,6 @@ dev_langs:
 
 ## -remarks
 
-## -see-also
+See the [Sampler Feedback Specification](https://microsoft.github.io/DirectX-Specs/d3d/SamplerFeedback.html) for details regarding sampler feedback.
 
+## -see-also

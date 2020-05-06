@@ -5,7 +5,7 @@ description: Indicates the type of marker in the Event Tracing for Windows (ETW)
 old-location: display\d3dddi_markerlogtype.htm
 tech.root: display
 ms.assetid: CBD48828-7DAA-470F-AB9E-34957C579EB5
-ms.date: 05/10/2018
+ms.date: 03/24/2020
 keywords: ["D3DDDI_MARKERLOGTYPE enumeration"]
 ms.keywords: D3DDDIMLT_FT_PROFILE, D3DDDIMLT_NONE, D3DDDIMLT_PROFILE, D3DDDI_MARKERLOGTYPE, D3DDDI_MARKERLOGTYPE enumeration [Display Devices], d3dumddi/D3DDDIMLT_FT_PROFILE, d3dumddi/D3DDDIMLT_NONE, d3dumddi/D3DDDIMLT_PROFILE, d3dumddi/D3DDDI_MARKERLOGTYPE, display.d3dddi_markerlogtype
 f1_keywords:
@@ -44,44 +44,32 @@ req.typenames: D3DDDI_MARKERLOGTYPE
 
 # D3DDDI_MARKERLOGTYPE enumeration
 
-
 ## -description
-
 
 Indicates the type of marker in the Event Tracing for Windows (ETW) log that the user-mode display driver supports.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3DDDIMLT_NONE
 
-No marker type is supported. In this case, the marker type of submitted commands must be <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_markertype">D3DDDI_MARKERTYPE</a>.<b>D3DDDIMT_NONE</b>.
-
+No marker type is supported. In this case, the marker type of submitted commands must be [**D3DDDI_MARKERTYPE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_markertype).**D3DDDIMT_NONE**.
 
 ### -field D3DDDIMLT_PROFILE
 
 The context submits GPU work for single-threaded user-mode DDIs. In this case, each time stamp denotes the end of GPU work.
 
-
 ### -field D3DDDIMLT_FT_PROFILE
 
-The context submits GPU work for free-threaded user-mode DDIs. In this case, the driver must have set the <b>Caps</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddi_threading_caps">D3D11DDI_THREADING_CAPS</a> structure to <b>D3D11DDICAPS_FREETHREADED</b>.
+The context submits GPU work for free-threaded user-mode DDIs. In this case, the driver must have set the **Caps** member of the [**D3D11DDI_THREADING_CAPS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddi_threading_caps) structure to **D3D11DDICAPS_FREETHREADED**.
 
+### -field D3DDDIMLT_BATCHED
+
+The driver is submitting data that may correspond to multiple command lists in a single submission. If the D3D12 runtime calls [**ExecuteCommandLists**](https://docs.microsoft.com/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists) with multiple command lists, the driver must use the batched marker mode when submitting history buffers.
 
 ## -see-also
 
+[**D3D11DDI_THREADING_CAPS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddi_threading_caps)
 
+[**D3DDDI_MARKERTYPE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_markertype)
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11ddi_threading_caps">D3D11DDI_THREADING_CAPS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ne-d3dumddi-d3dddi_markertype">D3DDDI_MARKERTYPE</a>
- 
-
- 
-
+[**ExecuteCommandLists**](https://docs.microsoft.com/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-executecommandlists)

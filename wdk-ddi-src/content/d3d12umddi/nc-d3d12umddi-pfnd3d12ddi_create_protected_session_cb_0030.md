@@ -1,10 +1,10 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030
 title: PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030 (d3d12umddi.h)
-description: Used to create a protected session state.
+description: Callback to create a graphics kernel protected resource session.
 old-location: display\pfnd3d12ddi_create_protected_session_cb_0030.htm
 ms.assetid: 64E38759-2863-4481-8A89-6E6263CEFE8B
-ms.date: 05/10/2018
+ms.date: 03/24/2020
 keywords: ["PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030 callback function"]
 ms.keywords: PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030, PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030 callback, PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030, display.pfnd3d12ddi_create_protected_session_cb_0030
 req.header: d3d12umddi.h
@@ -46,7 +46,7 @@ product:
 
 ## -description
 
-Used to create a protected session state.
+Callback to create a graphics kernel protected resource session.
 
 ## -parameters
 
@@ -60,11 +60,20 @@ The protected session.
 
 ### -param pArgs
 
-*D3D12DDICB_CREATE_PROTECTED_RESOURCE_SESSION*
-
-Arguments to use for the function.
+Pointer to a [**D3D12DDICB_CREATE_PROTECTED_SESSION_0030**](ns-d3d12umddi-d3d12ddicb_create_protected_session_0030.md) structure containing creation arguments for the protected resource session.
 
 ## -returns
 
 Returns STATUS_SUCCESS if completed successfully.
 
+## -remarks
+
+This function is added to the D3D12DDI_CORELAYER_DEVICECALLBACKS function table. This callback must be called during a call to [**PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0074**](nc-d3d12umddi-pfnd3d12ddi_createprotectedresourcesession_0074.md).
+
+See the [Protected Resources Specification](https://microsoft.github.io/DirectX-Specs/d3d/ProtectedResources.html) for more information.
+
+## -see-also
+
+[**D3D12DDICB_CREATE_PROTECTED_SESSION_0030**](ns-d3d12umddi-d3d12ddicb_create_protected_session_0030.md)
+
+[**PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0074**](nc-d3d12umddi-pfnd3d12ddi_createprotectedresourcesession_0074.md)

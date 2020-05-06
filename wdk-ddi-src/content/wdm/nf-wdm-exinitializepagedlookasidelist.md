@@ -105,33 +105,13 @@ If the <i>Free</i> parameter is <b>NULL</b>, subsequent calls to <b>ExFreeToPage
 
 Starting in Windows 8, this parameter specifies an optional flag value to modify the default behavior of the <b>ExInitializePagedLookasideList</b> routine. Compatible flag bits include the following.
 
-<table>
-<tr>
-<th>Flag bit</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-POOL_NX_ALLOCATION
+|Flag bit|Meaning|
+|--- |--- |
+|POOL_RAISE_IF_ALLOCATION_FAILURE|If the allocation fails, raise an exception.|
 
-</td>
-<td>
-Allocate non-executable memory.
+> [!NOTE]
+> Specifying the POOL_NX_ALLOCATION flag has no effect. All pageable memory is allocated as NX.
 
-</td>
-</tr>
-<tr>
-<td>
-POOL_RAISE_IF_ALLOCATION_FAILURE
-
-</td>
-<td>
-If the allocation fails, raise an exception.
-
-</td>
-</tr>
-</table>
- 
 
 Before Windows 8, this parameter is not used and must be zero.
 

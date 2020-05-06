@@ -1,10 +1,12 @@
 ---
 UID: NS:d3d12umddi.D3D12DDICB_PIN_RESOURCES_0076
 title: D3D12DDICB_PIN_RESOURCES_0076
-ms.date: 11/8/2019
+ms.date: 03/24/2020
 ms.topic: language-reference
+ms.assetid: f0bfb87d-dacf-42d7-845c-8e7656987c19
+tech.root: display
 targetos: Windows
-description: 
+description: Argument structure for PFND3D12DDI_PINRESOURCES_CB_0076 that provides the list of resources to pin.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -14,7 +16,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: D3D12DDICB_PIN_RESOURCES_0076
@@ -36,13 +38,20 @@ dev_langs:
 
 ## -description
 
+Argument structure for [**PFND3D12DDI_PINRESOURCES_CB_0076**](nc-d3d12umddi-pfnd3d12ddi_pinresources_cb_0076.md) that provides the list of resources to pin.
+
 ## -struct-fields
 
 ### -field NumResources
 
+Size of the **hResources** handle array.
+
 ### -field hResources
+
+The list of D3D12DDI_HRTRESOURCE resources to pin.
 
 ## -remarks
 
 ## -see-also
 
+[**PFND3D12DDI_PINRESOURCES_CB_0076**](nc-d3d12umddi-pfnd3d12ddi_pinresources_cb_0076.md)

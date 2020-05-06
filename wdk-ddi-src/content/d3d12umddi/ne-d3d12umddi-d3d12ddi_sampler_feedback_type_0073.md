@@ -1,17 +1,19 @@
 ---
 UID: NE:d3d12umddi.D3D12DDI_SAMPLER_FEEDBACK_TYPE_0073
 title: D3D12DDI_SAMPLER_FEEDBACK_TYPE_0073
-ms.date: 11/8/2019
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+ms.assetid: 2cc8b100-b159-4def-97ed-7702a98650ab
+tech.root: display
+description: Deprecated - do not use.
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: d3d12umddi.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -32,13 +34,21 @@ dev_langs:
 
 ## -description
 
+Specifies type of sample feedback map. Deprecated - do not use.
+
 ## -enum-fields
 
 ### -field D3D12DDI_SHADING_RATE_COMBINER_0073_MINLOD
 
+Minmip feedback
+
 ### -field D3D12DDI_SHADING_RATE_COMBINER_0073_TILED
 
+Mip region used feedback
+
 ## -remarks
+
+
 
 ## -see-also
 
