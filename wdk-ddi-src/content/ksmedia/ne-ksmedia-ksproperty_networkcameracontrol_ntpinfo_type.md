@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The **KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE** enumeration defines the network camera control NTP types.
 tech.root: stream
 ms.author: windowsdriverdev
-ms.date: 03/25/2020
+ms.date: 05/11/2020
 ms.topic: enum
 ms.keywords: KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_TYPE
 f1_keywords:

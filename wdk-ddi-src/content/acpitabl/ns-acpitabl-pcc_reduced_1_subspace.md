@@ -1,10 +1,10 @@
 ---
 UID: NS:acpitabl._PCC_REDUCED_1_SUBSPACE
 title: _PCC_REDUCED_1_SUBSPACE (acpitabl.h)
-ms.date: 04/06/2020
+ms.date: 05/11/2020
 ms.topic: language-reference
 ms.keywords: _PCC_REDUCED_1_SUBSPACE, PCC_REDUCED_1_SUBSPACE, *PPCC_REDUCED_1_SUBSPACE
-description:
+description: Contains information about the the ACPI Platform Communication Channel (PCC) HW-reduced Type 1 subspace.
 tech.root: acpi
 req.construct-type: structure
 req.ddi-compliance: 
@@ -40,27 +40,29 @@ product:
 targetos: Windows
 ---
 
+# _PCC_REDUCED_1_SUBSPACE structure
+
 ## -description
 
-TBD
+The **PCC_REDUCED_1_SUBSPACE** structure contains information about the the ACPI Platform Communication Channel (PCC) HW-reduced Type 1 subspace.
 
 ## -struct-fields
 
 ### -field Header
 
-TBD
+The **PCC_SUBSPACE_HEADER** header.
 
 ### -field PlatformInterruptGsiv
 
-TBD
+The PCC platform global system interrupt vector (GSIV).
 
 ### -field PlatformInterruptPolarity
 
-TBD
+The PCC platform interrupt polarity value (one of **PCC_PLATFORM_INTERRUPT_POLARITY_XXX**).
 
 ### -field PlatformInterruptMode
 
-TBD
+The PCC platform interrupt mode (must be **PCC_PLATFORM_INTERRUPT_MODE_EDGE_TRIGGERED**).
 
 ### -field Reserved1
 
@@ -68,7 +70,7 @@ Reserved for future use.
 
 ### -field PlatformInterruptFlags
 
-TBD
+The PCC platform interrupt flags.
 
 ### -field Reserved2
 
@@ -76,35 +78,35 @@ Reserved for future use.
 
 ### -field BaseAddress
 
-TBD
+The **PHYSICAL_ADDRESS** base address.
 
 ### -field Length
 
-TBD
+The length value.
 
 ### -field DoorbellRegister
 
-TBD
+The **GEN_ADDR** doorbell register.
 
 ### -field DoorbellPreserve
 
-TBD
+The doorbell preserve mask.
 
 ### -field DoorbellWrite
 
-TBD
+The doorbell write mask.
 
 ### -field NominalLatency
 
-TBD
+The nominal latency value.
 
 ### -field MaximumPeriodicAccessRate
 
-TBD
+The maximum periodic access rate value.
 
 ### -field MinimumRequestTurnaroundTime
 
-TBD
+The minimum request turnaround time value.
 
 ## -remarks
 

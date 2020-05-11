@@ -1,10 +1,10 @@
 ---
 UID: NS:acpitabl._SDEV_SECURE_RESOURCE_MEMORY_ENTRY
 title: _SDEV_SECURE_RESOURCE_MEMORY_ENTRY (acpitabl.h)
-ms.date: 04/06/2020
+ms.date: 05/11/2020
 ms.topic: language-reference
 ms.keywords: _SDEV_SECURE_RESOURCE_MEMORY_ENTRY, SDEV_SECURE_RESOURCE_MEMORY_ENTRY, *PSDEV_SECURE_RESOURCE_MEMORY_ENTRY
-description:
+description: Defines a resource memory entry for a secure ACPI device for use in a secure device table.
 tech.root: acpi
 req.construct-type: structure
 req.ddi-compliance: 
@@ -40,15 +40,17 @@ product:
 targetos: Windows
 ---
 
+# _SDEV_SECURE_RESOURCE_MEMORY_ENTRY
+
 ## -description
 
-TBD
+The **_SDEV_SECURE_RESOURCE_MEMORY_ENTRY** structure defines a resource memory entry for a secure ACPI device for use in a secure device table.
 
 ## -struct-fields
 
 ### -field Header
 
-TBD
+The **SDEV_ENTRY_HEADER** header.
 
 ### -field Reserved
 
@@ -56,11 +58,11 @@ Reserved for future use.
 
 ### -field MemoryAddressBase
 
-TBD
+The memory address base value.
 
 ### -field MemoryAddressLength
 
-TBD
+The memory address length value.
 
 ## -remarks
 

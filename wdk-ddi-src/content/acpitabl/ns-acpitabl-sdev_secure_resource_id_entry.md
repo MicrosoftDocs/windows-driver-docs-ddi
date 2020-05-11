@@ -1,10 +1,10 @@
 ---
 UID: NS:acpitabl._SDEV_SECURE_RESOURCE_ID_ENTRY
 title: _SDEV_SECURE_RESOURCE_ID_ENTRY (acpitabl.h)
-ms.date: 04/06/2020
+ms.date: 05/11/2020
 ms.topic: language-reference
 ms.keywords: _SDEV_SECURE_RESOURCE_ID_ENTRY, SDEV_SECURE_RESOURCE_ID_ENTRY, *PSDEV_SECURE_RESOURCE_ID_ENTRY
-description:
+description: Defines a resource ID entry for a secure ACPI device for use in a secure device table.
 tech.root: acpi
 req.construct-type: structure
 req.ddi-compliance: 
@@ -40,39 +40,41 @@ product:
 targetos: Windows
 ---
 
+# _SDEV_SECURE_RESOURCE_ID_ENTRY structure
+
 ## -description
 
-TBD
+The **_SDEV_SECURE_RESOURCE_ID_ENTRY** structure defines a resource ID entry for a secure ACPI device for use in a secure device table.
 
 ## -struct-fields
 
 ### -field Header
 
-TBD
+The **SDEV_ENTRY_HEADER** header.
 
 ### -field HardwareIdentifierOffset
 
-TBD
+The hardware identifier offset value.
 
 ### -field HardwareIdentifierLength
 
-TBD
+The hardware identifier length value.
 
 ### -field SubsystemIdentifierOffset
 
-TBD
+The subsystem identifier offset value.
 
 ### -field SubsystemIdentifierLength
 
-TBD
+The subsystem identifier length value.
 
 ### -field HardwareRevision
 
-TBD
+The hardware revision value.
 
 ### -field HardwareRevisionPresent
 
-TBD
+The hardware revision present value.
 
 ## -remarks
 

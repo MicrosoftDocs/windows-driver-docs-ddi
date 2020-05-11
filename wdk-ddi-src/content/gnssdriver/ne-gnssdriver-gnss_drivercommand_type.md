@@ -5,7 +5,7 @@ description: This enumeration indicates the type of driver command or configurat
 old-location: gnss\gnss_drivercommand_type.htm
 tech.root: gnss
 ms.assetid: 61D7C52C-D8C9-4BBE-9DCA-B5E934A02FAE
-ms.date: 04/06/2020
+ms.date: 05/11/2020
 keywords: ["GNSS_DRIVERCOMMAND_TYPE enumeration"]
 ms.keywords: GNSS_ClearAgnssData, GNSS_CustomCommand, GNSS_DRIVERCOMMAND_TYPE, GNSS_DRIVERCOMMAND_TYPE enumeration [Sensor Devices], GNSS_ForceOperationMode, GNSS_ForceSatelliteSystem, GNSS_ResetEngine, GNSS_ResetGeofencesTracking, GNSS_SetLocationNIRequestAllowed, GNSS_SetLocationServiceEnabled, GNSS_SetNMEALogging, GNSS_SetNiTimeoutInterval, GNSS_SetSuplVersion, GNSS_SetUplServerAccessInterval, gnss.gnss_drivercommand_type, gnssdriver/GNSS_ClearAgnssData, gnssdriver/GNSS_CustomCommand, gnssdriver/GNSS_DRIVERCOMMAND_TYPE, gnssdriver/GNSS_ForceOperationMode, gnssdriver/GNSS_ForceSatelliteSystem, gnssdriver/GNSS_ResetEngine, gnssdriver/GNSS_ResetGeofencesTracking, gnssdriver/GNSS_SetLocationNIRequestAllowed, gnssdriver/GNSS_SetLocationServiceEnabled, gnssdriver/GNSS_SetNMEALogging, gnssdriver/GNSS_SetNiTimeoutInterval, gnssdriver/GNSS_SetSuplVersion, gnssdriver/GNSS_SetUplServerAccessInterval
 f1_keywords:
@@ -92,7 +92,8 @@ If the HLOS needs to initiate any new location request, for example to enable th
 
 </li>
 </ul>
-Unless this command is issued by the GNSS adapter, the driver must assume that the location service is disabled on the system. 
+
+Unless this command is issued by the GNSS adapter, the driver must assume that the location service is disabled on the system.
 
 ### -field GNSS_SetLocationNIRequestAllowed
 
@@ -251,7 +252,7 @@ This command resets the geofence tracking operation. The GNSS driver must delete
 
 ### -field GNSS_SetSuplVersion2
 
-TBD
+This command set the SUPL 2 version for the GNSS driver.
 
 ### -field GNSS_CustomCommand
 

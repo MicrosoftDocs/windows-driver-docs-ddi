@@ -5,7 +5,7 @@ author: windows-driver-content
 description: The KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER structure contains a NTP-specific payload that is used to set or disable an NTP server on a Onvif protocol camera.
 tech.root: stream
 ms.author: windowsdriverdev
-ms.date: 03/25/2020
+ms.date: 05/11/2020
 ms.topic: struct
 ms.keywords: KSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER, *PKSPROPERTY_NETWORKCAMERACONTROL_NTPINFO_HEADER
 f1_keywords:
