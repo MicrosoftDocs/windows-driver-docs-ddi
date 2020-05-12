@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_138
+UID: NS:ksmedia.__unnamed_struct_139
 title: KSPROPERTY_TIMECODE_S (ksmedia.h)
 description: The KSPROPERTY_TIMECODE_S structure describes a timecode.
 old-location: stream\ksproperty_timecode_s.htm

@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_103
+UID: NS:ksmedia.__unnamed_struct_101
 title: KSPROPERTY_TUNER_STANDARD_S (ksmedia.h)
 description: The KSPROPERTY_TUNER_STANDARD_S structure describe the standard of a TV tuner device, such as PAL, NTSC or SECAM.
 old-location: stream\ksproperty_tuner_standard_s.htm

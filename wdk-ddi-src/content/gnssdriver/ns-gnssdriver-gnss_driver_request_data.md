@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_33
+UID: NS:gnssdriver.__unnamed_struct_34
 title: GNSS_DRIVER_REQUEST_DATA (gnssdriver.h)
 description: This structure contains driver data request information.
 old-location: gnss\gnss_driver_request_data.htm

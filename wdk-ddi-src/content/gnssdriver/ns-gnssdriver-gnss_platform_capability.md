@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_2
+UID: NS:gnssdriver.__unnamed_struct_3
 title: GNSS_PLATFORM_CAPABILITY (gnssdriver.h)
 description: This structure is used to communicate the platform/HLOS capabilities to the underlying GNSS driver.
 old-location: gnss\gnss_platform_capability.htm

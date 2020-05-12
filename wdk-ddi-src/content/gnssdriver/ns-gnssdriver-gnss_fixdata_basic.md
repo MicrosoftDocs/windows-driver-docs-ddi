@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_10
+UID: NS:gnssdriver.__unnamed_struct_11
 title: GNSS_FIXDATA_BASIC (gnssdriver.h)
 description: This structure defines basic position information.
 old-location: gnss\gnss_fixdata_basic.htm

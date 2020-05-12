@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_135
+UID: NS:ksmedia.__unnamed_struct_136
 title: TRANSPORT_STATE (ksmedia.h)
 description: The TRANSPORT_STATE structure
 old-location: stream\transport_state.htm

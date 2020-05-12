@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_3
+UID: NS:gnssdriver.__unnamed_struct_4
 title: GNSS_DRIVERCOMMAND_PARAM (gnssdriver.h)
 description: This structure is used to send a command to the GNSS driver.
 old-location: gnss\gnss_drivercommand_param.htm

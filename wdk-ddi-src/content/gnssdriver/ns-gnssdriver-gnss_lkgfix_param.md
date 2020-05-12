@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_7
+UID: NS:gnssdriver.__unnamed_struct_8
 title: GNSS_LKGFIX_PARAM (gnssdriver.h)
 description: This structure is not used currently by the system and is not required to be implemented.
 old-location: gnss\gnss_lkgfix_param.htm

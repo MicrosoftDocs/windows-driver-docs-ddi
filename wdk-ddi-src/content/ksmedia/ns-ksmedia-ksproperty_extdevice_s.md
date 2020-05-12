@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_133
+UID: NS:ksmedia.__unnamed_struct_134
 title: KSPROPERTY_EXTDEVICE_S (ksmedia.h)
 description: The KSPROPERTY_EXTDEVICE_S structure describes an external device and its capabilities.
 old-location: stream\ksproperty_extdevice_s.htm

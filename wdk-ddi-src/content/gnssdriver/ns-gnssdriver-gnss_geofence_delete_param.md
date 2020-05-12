@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_23
+UID: NS:gnssdriver.__unnamed_struct_24
 title: GNSS_GEOFENCE_DELETE_PARAM (gnssdriver.h)
 description: This structure is used for deleting a geofence.
 old-location: gnss\gnss_geofence_delete_param.htm
