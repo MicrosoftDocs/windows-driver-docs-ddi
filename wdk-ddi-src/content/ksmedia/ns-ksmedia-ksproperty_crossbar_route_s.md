@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_140
+UID: NS:ksmedia.__unnamed_struct_143
 title: KSPROPERTY_CROSSBAR_ROUTE_S (ksmedia.h)
 description: The KSPROPERTY_CROSSBAR_ROUTE_S structure describes whether a particular routing is possible and specifies the current routing for a pin.
 old-location: stream\ksproperty_crossbar_route_s.htm

@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_38
+UID: NS:gnssdriver.__unnamed_struct_39
 title: GNSS_AGNSS_INJECT (gnssdriver.h)
 description: This structure defines the parameters for AGNSS injection.
 old-location: gnss\gnss_agnss_inject.htm

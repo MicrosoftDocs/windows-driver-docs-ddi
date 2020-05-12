@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_116
+UID: NS:ksmedia.__unnamed_struct_118
 title: KSPROPERTY_CAMERACONTROL_S2 (ksmedia.h)
 description: The KSPROPERTY_CAMERACONTROL_S2 structure describes filter-based properties in the PROPSETID_VIDCAP_CAMERACONTROL property set that use two values at the same time.
 old-location: stream\ksproperty_cameracontrol_s2.htm

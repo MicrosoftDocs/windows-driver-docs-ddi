@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_115
+UID: NS:ksmedia.__unnamed_struct_117
 title: KSPROPERTY_CAMERACONTROL_NODE_S (ksmedia.h)
 description: The KSPROPERTY_CAMERACONTROL_NODE_S structure describes node-based properties in the PROPSETID_VIDCAP_CAMERACONTROL property set. This structure specifies property values in requests to the USB Video Class driver.
 old-location: stream\ksproperty_cameracontrol_node_s.htm

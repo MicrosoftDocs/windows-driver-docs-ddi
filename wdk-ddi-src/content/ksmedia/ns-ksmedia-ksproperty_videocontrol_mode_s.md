@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_151
+UID: NS:ksmedia.__unnamed_struct_152
 title: KSPROPERTY_VIDEOCONTROL_MODE_S (ksmedia.h)
 description: The KSPROPERTY_VIDEOCONTROL_MODE_S structure describes video-control modes for a stream, such as image flipping or event triggering abilities.
 old-location: stream\ksproperty_videocontrol_mode_s.htm

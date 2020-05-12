@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_43
+UID: NS:gnssdriver.__unnamed_struct_44
 title: GNSS_CWTESTDATA (gnssdriver.h)
 description: This structure defines specific data elements associated with carrier wave test results returned from the driver.
 old-location: gnss\gnss_cwtestdata.htm

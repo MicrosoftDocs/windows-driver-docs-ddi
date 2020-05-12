@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_48
+UID: NS:gnssdriver.__unnamed_struct_1
 title: GNSS_SUPL_VERSION_2
 tech.root: gnss
 ms.date: 05/11/2020

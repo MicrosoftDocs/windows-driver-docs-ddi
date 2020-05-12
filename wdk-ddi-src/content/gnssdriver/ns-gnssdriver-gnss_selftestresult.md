@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_45
+UID: NS:gnssdriver.__unnamed_struct_46
 title: GNSS_SELFTESTRESULT (gnssdriver.h)
 description: This structure defines the specific data elements associated with a carrier wave test results returned from the driver.
 old-location: gnss\gnss_selftestresult.htm

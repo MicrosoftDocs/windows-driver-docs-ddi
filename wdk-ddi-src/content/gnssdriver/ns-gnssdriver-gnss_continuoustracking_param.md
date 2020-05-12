@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_6
+UID: NS:gnssdriver.__unnamed_struct_7
 title: GNSS_CONTINUOUSTRACKING_PARAM (gnssdriver.h)
 description: This structure defines the parameters for a continuous tracking fix session.
 old-location: gnss\gnss_continuoustracking_param.htm

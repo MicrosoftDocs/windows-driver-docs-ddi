@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_150
+UID: NS:ksmedia.__unnamed_struct_151
 title: KSPROPERTY_VIDEOCONTROL_CAPS_S (ksmedia.h)
 description: The KSPROPERTY_VIDEOCONTROL_CAPS_S structure describes the video-control capabilities of a minidriver, such as image flipping or event triggering abilities.
 old-location: stream\ksproperty_videocontrol_caps_s.htm
