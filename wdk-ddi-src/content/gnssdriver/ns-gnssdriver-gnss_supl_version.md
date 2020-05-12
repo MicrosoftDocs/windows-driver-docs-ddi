@@ -44,26 +44,20 @@ req.typenames: GNSS_SUPL_VERSION, *PGNSS_SUPL_VERSION
 
 # GNSS_SUPL_VERSION structure
 
-
 ## -description
 
-
-This structure contains SUPL version information.
-
-
-
+The **GNSS_SUPL_VERSION** structure contains Secure User Plane Location (SUPL) version information.
 
 ## -struct-fields
-
-
-
 
 ### -field MajorVersion
 
 Major version number.
 
-
 ### -field MinorVersion
 
 Minor version number.
 
+## -remarks
+
+## -see-also

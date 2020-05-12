@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_41
+UID: NS:gnssdriver.__unnamed_struct_42
 title: GNSS_V2UPL_CONFIG (gnssdriver.h)
 description: This structure contains V2UPL configuration information.
 old-location: gnss\gnss_v2upl_config.htm

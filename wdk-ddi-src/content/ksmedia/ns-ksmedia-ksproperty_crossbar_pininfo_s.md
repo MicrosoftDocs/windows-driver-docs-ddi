@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_141
+UID: NS:ksmedia.__unnamed_struct_142
 title: KSPROPERTY_CROSSBAR_PININFO_S (ksmedia.h)
 description: The KSPROPERTY_CROSSBAR_PININFO_S structure describes the crossbar pin information for a device.
 old-location: stream\ksproperty_crossbar_pininfo_s.htm

@@ -4,7 +4,7 @@ title: D3D12DDI_FEATURE_0020 (d3d12umddi.h)
 description: Contains available features.
 old-location: display\d3d12ddi_feature_0020.htm
 ms.assetid: 93192DAD-D81E-4A2E-A74B-66F7F5BA0B2D
-ms.date: 05/10/2018
+ms.date: 03/24/2020
 keywords: ["D3D12DDI_FEATURE_0020 enumeration"]
 ms.keywords: D3D12DDI_FEATURE_0020, D3D12DDI_FEATURE_0020 enumeration [Display Devices], D3D12DDI_FEATURE_0020_VIDEO, d3d12umddi/D3D12DDI_FEATURE_0020, d3d12umddi/D3D12DDI_FEATURE_0020_VIDEO, display.d3d12ddi_feature_0020
 req.header: d3d12umddi.h
@@ -82,3 +82,6 @@ Supports render pass.
 
 Supports down level.
 
+### -field D3D12DDI_FEATURE_0076_PIN_RESOURCES
+
+Supports resource pinning. Supported starting with Windows 10, version 2004.

@@ -35,7 +35,6 @@ To develop streaming media device drivers, you need these headers:
 - [ksproxy.h](../ksproxy/index.md)
 - [lamp.h](../lamp/index.md)
 - [msviddrv.h](../msviddrv/index.md)
-- [stdunk.h](../stdunk/index.md)
 - [strmini.h](../strmini/index.md)
 - [swenum.h](../swenum/index.md)
 - [usbcamdi.h](../usbcamdi/index.md)

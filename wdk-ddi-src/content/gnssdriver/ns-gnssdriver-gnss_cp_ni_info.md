@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_30
+UID: NS:gnssdriver.__unnamed_struct_31
 title: GNSS_CP_NI_INFO (gnssdriver.h)
 description: This structure contains CP NI information.
 old-location: gnss\gnss_cp_ni_info.htm

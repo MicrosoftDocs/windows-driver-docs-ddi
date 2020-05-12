@@ -1,10 +1,12 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_LOD_REGION_0073
 title: D3D12DDI_LOD_REGION_0073
-ms.date: 11/8/2019
+ms.date: 03/24/2020
 ms.topic: language-reference
 targetos: Windows
-description: 
+ms.assetid: 66269d0e-b533-4854-940c-1ecd2b50d7c4
+tech.root: display
+description: Deprecated. Use D3D12DDI_MIP_REGION_0075 instead.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -14,7 +16,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: D3D12DDI_LOD_REGION_0073
@@ -36,6 +38,8 @@ dev_langs:
 
 ## -description
 
+Deprecated. Use D3D12DDI_MIP_REGION_0075 instead.
+
 ## -struct-fields
 
 ### -field Width
@@ -45,4 +49,3 @@ dev_langs:
 ## -remarks
 
 ## -see-also
-

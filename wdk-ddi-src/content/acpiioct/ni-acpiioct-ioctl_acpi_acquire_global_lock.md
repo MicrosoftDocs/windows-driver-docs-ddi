@@ -44,81 +44,22 @@ req.typenames:
 
 # IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK IOCTL
 
-
 ## -description
-
 
 The IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK device control request is reserved for internal use only.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
-
-
-
-
-
-
-
 ### -input-buffer-length
-
-
-
-
-
-
-
 
 ### -output-buffer
 
-
-
-
-
-
-
-
 ### -output-buffer-length
-
-
-
-
-
-
-
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
-
-
-
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
-
-
-

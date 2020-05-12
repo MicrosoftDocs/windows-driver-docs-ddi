@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_134
+UID: NS:ksmedia.__unnamed_struct_135
 title: MEDIUM_INFO (ksmedia.h)
 description: The MEDIUM_INFO structure describes the media loaded into an external device.
 old-location: stream\medium_info.htm

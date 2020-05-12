@@ -86,7 +86,7 @@ For example, starting with Windows 8, Microsoft supplies an inbox USB 3.0 eXten
 A bus driver supports D3cold if all of the following are true:
 
 <ul>
-<li>The bus driver implements the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967714">GUID_D3COLD_SUPPORT_INTERFACE</a> driver interface.</li>
+<li>The bus driver implements the GUID_D3COLD_SUPPORT_INTERFACE driver interface.</li>
 <li>The bus driver implements the <i>GetBusDriverD3ColdSupport</i> routine in this interface.</li>
 <li>The output value from the <i>GetBusDriverD3ColdSupport</i> routine indicates that the bus driver supports D3cold.</li>
 </ul>

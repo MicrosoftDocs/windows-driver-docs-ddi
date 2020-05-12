@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_11
+UID: NS:gnssdriver.__unnamed_struct_12
 title: GNSS_FIXDATA_ACCURACY (gnssdriver.h)
 description: This structure defines the accuracy details of a fix.
 old-location: gnss\gnss_fixdata_accuracy.htm

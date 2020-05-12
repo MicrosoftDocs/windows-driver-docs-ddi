@@ -2,7 +2,7 @@
 UID: NF:wdm.ExAllocatePool2
 title: ExAllocatePool2
 tech.root: kernel
-ms.date: 03/01/2020
+ms.date: 05/12/2020
 ms.topic: language-reference
 targetos: Windows
 description:
@@ -59,7 +59,12 @@ The pool tag to use for the allocated memory. Specify the pool tag as a non-zero
 
 ## -returns
 
-**ExAllocatePool2** returns a pointer to the allocated memory. If there is insufficient memory, the function returns NULL by default or raises an exception if **POOL_FLAG_RAISE_ON_FAILURE** is specified. Returns `STATUS_INVALID_PARAMETER` if **Tag** is set to zero.
+**ExAllocatePool2** returns a pointer to the allocated memory. 
+
+The following conditions cause the function to return NULL by default. If **POOL_FLAG_RAISE_ON_FAILURE** is specified, the function raises an exception.
+
+* Insufficient memory
+* **Tag** is set to 0 or invalid POOL_FLAGS are specified
 
 ## -remarks
 

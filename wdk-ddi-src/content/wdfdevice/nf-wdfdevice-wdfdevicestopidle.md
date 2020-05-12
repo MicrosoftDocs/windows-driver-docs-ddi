@@ -80,6 +80,7 @@ A Boolean value that indicates when <b>WdfDeviceStopIdle</b> will return. If <b>
 
 ## -remarks
 
+
 This macro can return the following values:
 
 **STATUS_PENDING**  The device is being powered up asynchronously.
@@ -92,8 +93,9 @@ The method might return other NTSTATUS values.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
-
 If your device can enter a low-power state when it becomes idle, your driver might have to occasionally call <b>WdfDeviceStopIdle</b> to bring the device back to its working (D0) state or to prevent it from entering a low-power state. 
+
+**WdfDeviceStopIdle** does not prevent the framework from transitioning the device to a sleep state when the system changes to an Sx sleep state. Its only effect is to prevent transitions to Dx sleep states while the system is in the S0 working state.
 
 Your driver <i>does not</i> have to call <b>WdfDeviceStopIdle</b> when a device is idle and the framework places an I/O request in the device's power-managed I/O queue. Additionally, your driver <i>does not</i> have to call <b>WdfDeviceStopIdle</b> when a device is idle and it detects a wake signal. In both of these cases, the framework requests the bus driver to restore the device's power state to D0.
 
@@ -105,7 +107,7 @@ Calling <b>WdfDeviceStopIdle</b> forces the device into its working (D0) state, 
 
 Do not call <b>WdfDeviceStopIdle</b> before the framework has called the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry">EvtDeviceD0Entry</a> callback function for the first time.
 
-A call to <b>WdfDeviceStopIdle</b> can restore an idle device to its working state only if the system is in its working (S0) state. If the system is entering a low-power state when a driver calls <b>WdfDeviceStopIdle</b> with the <i>WaitForD0</i> parameter set to <b>TRUE</b>, the function does not return until the system returns to its S0 state.
+A call to <b>WdfDeviceStopIdle</b> can restore an idle device to its working state only if the system is in its working (S0) state. If the system is transitioning to a low-power state or the device has already been powered down in response to Sx (where x > 0) when a driver calls <b>WdfDeviceStopIdle</b> with the <i>WaitForD0</i> parameter set to <b>TRUE</b>, the function does not return until the system returns to its S0 state.
 
 Every successful call to <b>WdfDeviceStopIdle</b> must eventually be followed by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceresumeidle">WdfDeviceResumeIdle</a>, or else the device will never return to a low-power state if it again becomes idle. Calls to <b>WdfDeviceStopIdle</b> can be nested, so the number of calls to <b>WdfDeviceResumeIdle</b> must equal the number of calls to <b>WdfDeviceStopIdle</b>.  Do not call <b>WdfDeviceResumeIdle</b> if a call to <b>WdfDeviceStopIdle</b> fails.
 

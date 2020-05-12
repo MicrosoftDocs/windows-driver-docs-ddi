@@ -1,5 +1,5 @@
 ---
-UID: NS:ksmedia.__unnamed_struct_162
+UID: NS:ksmedia.__unnamed_struct_163
 title: KS_AM_ExactRateChange (ksmedia.h)
 description: The KS_AM_ExactRateChange structure is not yet implemented.
 old-location: stream\ks_am_exactratechange.htm

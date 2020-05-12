@@ -1,11 +1,11 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_46
+UID: NS:gnssdriver.__unnamed_struct_47
 title: GNSS_CHIPSETINFO (gnssdriver.h)
 description: This structure defines the specific data elements associated with the GNSS hardware.
 old-location: gnss\gnss_chipsetinfo.htm
 tech.root: gnss
 ms.assetid: DE45805C-09E6-44B8-A4DA-BF73EC444AA9
-ms.date: 02/15/2018
+ms.date: 05/11/2020
 keywords: ["GNSS_CHIPSETINFO structure"]
 ms.keywords: "*PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices], gnss.gnss_chipsetinfo, gnssdriver/GNSS_CHIPSETINFO, gnssdriver/PGNSS_CHIPSETINFO"
 f1_keywords:
@@ -44,66 +44,48 @@ req.typenames: GNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO
 
 # GNSS_CHIPSETINFO structure
 
-
 ## -description
-
 
 This structure defines the specific data elements associated with the GNSS hardware.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Size
 
-Structure size.
-
+ The structure size.
 
 ### -field Version
 
-Version number.
-
+The version number.
 
 ### -field ManufacturerID
 
- 
-
+The manufacturer ID value.
 
 ### -field HardwareID
 
- 
-
+The hardware ID value.
 
 ### -field FirmwareVersion
 
- 
-
+The firmware version value.
 
 ### -field Unused
 
- 
-
-
-
+Reserved for future use.
 
 #### - FirmwareVersion[20]
 
-Version for the firmware for the. This would be a string, typically of the format NNNN.NNNN.NNNN.NNNN.
-
+Version of the firmware for the GNSS chipset. This would be a string, typically of the format NNNN.NNNN.NNNN.NNNN.
 
 #### - HardwareID[25]
 
 String containing an identifier for the specific GNSS chipset or combo chipset.
 
-
 #### - ManufacturerID[25]
 
 String containing an identifier for the manufacturer.
 
-
 #### - Unused[512]
 
-Padding buffer.
-
+Padding buffer reserved for future use.

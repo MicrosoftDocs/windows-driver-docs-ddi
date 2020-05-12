@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_39
+UID: NS:gnssdriver.__unnamed_struct_40
 title: GNSS_SUPL_HSLP_CONFIG (gnssdriver.h)
 description: This structure contains SUPL H-SLP configuration information.
 old-location: gnss\gnss_supl_hslp_config.htm

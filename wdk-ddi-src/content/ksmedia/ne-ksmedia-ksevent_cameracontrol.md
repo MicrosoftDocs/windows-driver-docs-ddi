@@ -1,5 +1,5 @@
 ---
-UID: NE:ksmedia.__unnamed_enum_73
+UID: NE:ksmedia.__unnamed_enum_74
 title: KSEVENT_CAMERACONTROL (ksmedia.h)
 description: Specifies camera control event notifications that the driver generates to indicate that an operation has been completed or canceled.
 old-location: stream\ksevent_cameracontrol.htm

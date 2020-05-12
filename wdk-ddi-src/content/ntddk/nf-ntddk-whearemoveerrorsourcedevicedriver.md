@@ -64,7 +64,11 @@ This function returns STATUS_SUCCESS or an error code.
 STATUS_RESOURCE_IN_USE is returned if error handles are still in use.
 
 ## -remarks
+
 This routine must be called at PASSIVE_LEVEL as it synchronously removes the device driver's error source. 
+
+For more info, see [Using WHEA on Windows 10](/windows-hardware/drivers/whea/using-whea-on-windows-10).
+
 ## -see-also
 
 [**WheaAddErrorSourceDeviceDriver**](nf-ntddk-wheaadderrorsourcedevicedriver.md)

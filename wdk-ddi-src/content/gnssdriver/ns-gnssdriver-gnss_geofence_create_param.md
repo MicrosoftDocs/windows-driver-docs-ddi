@@ -1,5 +1,5 @@
 ---
-UID: NS:gnssdriver.__unnamed_struct_21
+UID: NS:gnssdriver.__unnamed_struct_22
 title: GNSS_GEOFENCE_CREATE_PARAM (gnssdriver.h)
 description: This structure defines the parameters for creating a geofence in the GNSS engine.
 old-location: gnss\gnss_geofence_create_param.htm
