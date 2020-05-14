@@ -43,7 +43,7 @@ The memory access interface to the underlying debugger.
 
 
 ## -inheritance
-IDebugHostMemory interits from IUnknown. 
+IDebugHostMemory inherits from IUnknown. 
 ## -remarks
 
 ## -see-also
