@@ -5,7 +5,7 @@ description: The KSCAMERA_EXTENDEDPROP_HEADER structure is the payload header fo
 old-location: stream\kscamera_extendedprop_header.htm
 tech.root: stream
 ms.assetid: 2CE89C1E-8FE8-4304-BD3F-5A926CAC74B4
-ms.date: 04/23/2018
+ms.date: 05/14/2020
 keywords: ["tagKSCAMERA_EXTENDEDPROP_HEADER structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_CAPS_ASYNCCONTROL, KSCAMERA_EXTENDEDPROP_CAPS_CANCELLABLE, KSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_HEADER structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_HEADER, PKSCAMERA_EXTENDEDPROP_HEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_HEADER, ksmedia/PKSCAMERA_EXTENDEDPROP_HEADER, stream.kscamera_extendedprop_header, tagKSCAMERA_EXTENDEDPROP_HEADER"
 f1_keywords:
@@ -44,85 +44,45 @@ req.typenames: KSCAMERA_EXTENDEDPROP_HEADER, *PKSCAMERA_EXTENDEDPROP_HEADER
 
 # tagKSCAMERA_EXTENDEDPROP_HEADER structure
 
-
 ## -description
 
-
-The <b>KSCAMERA_EXTENDEDPROP_HEADER</b> structure is the payload header for an extend control property.
-
+The **KSCAMERA_EXTENDEDPROP_HEADER** structure is the payload header for an extended control property.
 
 ## -struct-fields
-
-
-
 
 ### -field Version
 
 The extended property version number. This is set to 1.
 
-
 ### -field PinId
 
-The pin ID that corresponds with the property.  If <b>PinId</b> is set to (ULONG)-1, the control applies to the filter.  Otherwise, the camera driver must route this control to the corresponding pin when that pin is created (or if already available).
-
+The pin ID that corresponds with the property.  If **PinId** is set to (ULONG)-1, the control applies to the filter.  Otherwise, the camera driver must route this control to the corresponding pin when that pin is created (or if already available).
 
 ### -field Size
 
-The total size, in bytes of the entire payload. This includes the <b>KSCAMERA_EXTENDEDPROP_HEADER</b> structure and the following control specific payload data.
-
+The total size, in bytes of the entire payload. This includes the **KSCAMERA_EXTENDEDPROP_HEADER** structure and the following control specific payload data.
 
 ### -field Result
 
-For a set operation, this is 0.  For queries, <b>Result</b> contains any failure code the driver provides for the most recent control operation.
-
+For a set operation, this is 0.  For queries, **Result** contains any failure code the driver provides for the most recent control operation.
 
 ### -field Flags
 
-The settings in <b>Flags</b> may vary depending on the control.
+The settings in **Flags** may vary depending on the control.
 
-The high order bit of the <b>Flags</b> value is reserved.  This bit serves as the cancel flag and is defined as <b>KSCAMERA_EXTENDEDPROP_FLAG_CANCELOPERATION</b>.  This flag is only meaningful for asynchronous controls.
-
+The high order bit of the **Flags** value is reserved.  This bit serves as the cancel flag and is defined as **KSCAMERA_EXTENDEDPROP_FLAG_CANCELOPERATION**.  This flag is only meaningful for asynchronous controls.
 
 ### -field Capability
 
-This member is read only and indicates the standard capabilities of the control. The following capabilities are defined.
+This member is read only and indicates the standard capabilities of the control.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="KSCAMERA_EXTENDEDPROP_CAPS_ASYNCCONTROL"></a><a id="kscamera_extendedprop_caps_asynccontrol"></a><dl>
-<dt><b>KSCAMERA_EXTENDEDPROP_CAPS_ASYNCCONTROL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The control supports asynchronous operation.
+The following capabilities are defined.
 
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="KSCAMERA_EXTENDEDPROP_CAPS_CANCELLABLE"></a><a id="kscamera_extendedprop_caps_cancellable"></a><dl>
-<dt><b>KSCAMERA_EXTENDEDPROP_CAPS_CANCELLABLE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Applies only to asynchronous controls. This flag marks the control operation as cancellable. If a synchronous control sets this flag, it is be marked as being invalid and is not exposed to higher level applications.
-
-</td>
-</tr>
-</table>
- 
-
+| Value | Description |
+| --- | --- |
+| **KSCAMERA_EXTENDEDPROP_CAPS_ASYNCCONTROL** | The control supports asynchronous operation. |
+| **KSCAMERA_EXTENDEDPROP_CAPS_CANCELLABLE** | Applies only to asynchronous controls. This flag marks the control operation as cancellable. If a synchronous control sets this flag, it is be marked as being invalid and is not exposed to higher level applications. |
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_extendedprop_value">KSCAMERA_EXTENDEDPROP_VALUE</a>
- 
-
- 
-
+[KSCAMERA_EXTENDEDPROP_VALUE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagkscamera_extendedprop_value)
