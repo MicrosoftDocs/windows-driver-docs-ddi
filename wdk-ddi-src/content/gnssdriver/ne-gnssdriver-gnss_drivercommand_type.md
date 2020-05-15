@@ -98,15 +98,15 @@ The location requests for emergency services or for CALEA (for example, the case
 
 This command causes the GNSS driver to use the specified satellite system(s) for getting fixes. The parameter is a **DWORD** with the following values:
 
-```cpp
-#define GNSS_SATELLITE_ANY          0x00
-#define GNSS_SATELLITE_GPS          0x01
-#define GNSS_SATELLITE_GLONASS      0x02
-#define GNSS_SATELLITE_BEIDOU       0x04
-#define GNSS_SATELLITE_GALILEO      0x08
-```
+| Parameter | Value |
+| --- | --- |
+| GNSS_SATELLITE_ANY | 0x00 |
+| GNSS_SATELLITE_GPS | 0x01 |
+| GNSS_SATELLITE_GLONASS | 0x02 |
+| GNSS_SATELLITE_BEIDOU | 0x04 |
+| GNSS_SATELLITE_GALILEO | 0x08 |
 
-0x03-0xFF are reserved.
+0x10-0xFF are reserved.
 
 This is expected to be used only for test purposes. Some mobile operators do require validations using a single satellite system.
 
@@ -114,15 +114,15 @@ This is expected to be used only for test purposes. Some mobile operators do req
 
 This command causes the GNSS driver to use the specified operation mode. The parameter is a **DWORD** with the following values:
 
-```cpp
-#define GNSS_OPERMODE_ANY          0x00
-#define GNSS_OPERMODE_MSA          0x01
-#define GNSS_OPERMODE_MSB          0x02
-#define GNSS_OPERMODE_MSS          0x04
-#define GNSS_OPERMODE_CELLID       0x08
-#define GNSS_OPERMODE_AFLT         0x10
-#define GNSS_OPERMODE_OTDOA        0x20
-```
+| Parameter | Value |
+| --- | --- |
+| GNSS_OPERMODE_ANY | 0x00 |
+| GNSS_OPERMODE_MSA | 0x01 |
+| GNSS_OPERMODE_MSB | 0x02 |
+| GNSS_OPERMODE_MSS | 0x04 |
+| GNSS_OPERMODE_CELLID | 0x08 |
+| GNSS_OPERMODE_AFLT | 0x10 |
+| GNSS_OPERMODE_OTDOA | 0x20 |
 
 0x40-0xFF are reserved.
 
@@ -132,8 +132,7 @@ This command is used for two purposes:
 
 - To configure different modes of operation for test purposes. This would mostly be used by mobile operators or OEMs for validation purposes.
 
-> [!NOTE]
-> Setting the SUPL **GNSS_ForceOperationMode** to **GNSS_OPERMODE_MSS** is an indication to the GNSS system to not do any kind of interaction with the SUPL server for AGNSS data.
+Setting the SUPL **GNSS_ForceOperationMode** to **GNSS_OPERMODE_MSS** is an indication to the GNSS system to not do any kind of interaction with the SUPL server for AGNSS data.
 
 ### -field GNSS_ResetEngine
 
@@ -177,10 +176,10 @@ This command causes the GNSS driver to start/stop providing the data fix informa
 
 The parameter is a **DWORD** with the following values:
 
-```cpp
-#define GNSS_NMEALOGGING_NONE         0x00
-#define GNSS_NMEALOGGING_ALL          0xFF
-```
+| Parameter | Value |
+| --- | --- |
+| GNSS_NMEALOGGING_NONE | 0x00 |
+| GNSS_NMEALOGGING_ALL | 0xFF |
 
 The default value for this command is no NMEA logging. This command should not persist across system restart.
 
