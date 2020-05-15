@@ -50,6 +50,17 @@ req.typenames:
 
 The <b>RtlAnsiStringToUnicodeSize</b> routine returns the number of bytes required to hold an ANSI string converted into a Unicode string. 
 
+## -syntax
+
+```cpp
+NTSYSAPI
+ULONG
+NTAPI
+RtlAnsiStringToUnicodeSize(
+    PANSI_STRING AnsiString
+    );
+```
+
 
 ## -parameters
 
@@ -60,6 +71,9 @@ The <b>RtlAnsiStringToUnicodeSize</b> routine returns the number of bytes requir
 
 Pointer to a buffer containing the ANSI string.
 
+## -returns
+
+<b>RtlAnsiStringToUnicodeSize</b> returns a ULONG value containing the number of bytes required to hold an ANSI string converted into a Unicode string.
 
 ## -remarks
 
