@@ -38,7 +38,7 @@ dev_langs:
 
 ## -description
 
-Structure used to add subobject(s) to a state object.
+Structure used to add subobject(s) to a state object via the [**PFND3D12DDI_ADD_TO_STATE_OBJECT_0072**](nc-d3d12umddi-pfnd3d12ddi_add_to_state_object_0072.md) callback.
 
 ## -struct-fields
 
@@ -67,3 +67,7 @@ See the [DirectX RayTracing (DXR) Specification](https://microsoft.github.io/Dir
 [**D3D12DDI_STATE_OBJECT_TYPE**](ne-d3d12umddi-d3d12ddi_state_object_type.md)
 
 [**D3D12DDI_STATE_SUBOBJECT_0054**](ns-d3d12umddi-d3d12ddi_state_subobject_0054.md)
+
+[**PFND3D12DDI_ADD_TO_STATE_OBJECT_0072**](nc-d3d12umddi-pfnd3d12ddi_add_to_state_object_0072.md)
+
+[**PFND3D12DDI_CALC_PRIVATE_ADD_TO_STATE_OBJECT_SIZE_0072**](nc-d3d12umddi-pfnd3d12ddi_calc_private_add_to_state_object_size_0072.md)
