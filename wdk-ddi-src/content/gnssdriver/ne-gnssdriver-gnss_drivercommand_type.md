@@ -98,13 +98,11 @@ The location requests for emergency services or for CALEA (for example, the case
 
 This command causes the GNSS driver to use the specified satellite system(s) for getting fixes. The parameter is a **DWORD** with the following values:
 
-| Parameter | Value |
-| --- | --- |
-| GNSS_SATELLITE_ANY | 0x00 |
-| GNSS_SATELLITE_GPS | 0x01 |
-| GNSS_SATELLITE_GLONASS | 0x02 |
-| GNSS_SATELLITE_BEIDOU | 0x04 |
-| GNSS_SATELLITE_GALILEO | 0x08 |
+- GNSS_SATELLITE_ANY (0x00)
+- GNSS_SATELLITE_GPS (0x01)
+- GNSS_SATELLITE_GLONASS (0x02)
+- GNSS_SATELLITE_BEIDOU (0x04)
+- GNSS_SATELLITE_GALILEO (0x08)
 
 0x10-0xFF are reserved.
 
@@ -112,17 +110,17 @@ This is expected to be used only for test purposes. Some mobile operators do req
 
 ### -field GNSS_ForceOperationMode
 
-This command causes the GNSS driver to use the specified operation mode. The parameter is a **DWORD** with the following values:
+This command causes the GNSS driver to use the specified operation mode. 
 
-| Parameter | Value |
-| --- | --- |
-| GNSS_OPERMODE_ANY | 0x00 |
-| GNSS_OPERMODE_MSA | 0x01 |
-| GNSS_OPERMODE_MSB | 0x02 |
-| GNSS_OPERMODE_MSS | 0x04 |
-| GNSS_OPERMODE_CELLID | 0x08 |
-| GNSS_OPERMODE_AFLT | 0x10 |
-| GNSS_OPERMODE_OTDOA | 0x20 |
+The parameter is a **DWORD** with the following values:
+
+- GNSS_OPERMODE_ANY (0x00)
+- GNSS_OPERMODE_MSA (0x01)
+- GNSS_OPERMODE_MSB (0x02)
+- GNSS_OPERMODE_MSS (0x04)
+- GNSS_OPERMODE_CELLID (0x08)
+- GNSS_OPERMODE_AFLT (0x10)
+- GNSS_OPERMODE_OTDOA (0x20)
 
 0x40-0xFF are reserved.
 
@@ -176,14 +174,16 @@ This command causes the GNSS driver to start/stop providing the data fix informa
 
 The parameter is a **DWORD** with the following values:
 
-| Parameter | Value |
-| --- | --- |
-| GNSS_NMEALOGGING_NONE | 0x00 |
-| GNSS_NMEALOGGING_ALL | 0xFF |
+- GNSS_NMEALOGGING_NONE (0x00)
+- GNSS_NMEALOGGING_ALL (0xFF)
 
-The default value for this command is no NMEA logging. This command should not persist across system restart.
+The default value for this command is no NMEA logging (GNSS_NMEALOGGING_NONE).
 
-This command has been introduced to support OEM testing. This command is not used by the location framework or by Microsoft test tools.
+This command should not persist across system restart.
+
+This command has been introduced to support OEM testing. 
+
+This command is not used by the location framework or by Microsoft test tools.
 
 ### -field GNSS_SetUplServerAccessInterval
 
@@ -193,7 +193,9 @@ Mobile operators may use the configuration service provider to tune this setting
 
 ### -field GNSS_SetNiTimeoutInterval
 
-This command sets how much time the device must wait for input from a user before it responds to the NI request executing the default action. The time interval is specified in seconds and the default value is 35 seconds. This timeout is 5 seconds larger than the timeout used by the operating system to wait for response from the user, and it is simply a failsafe in case of the operating system not responding. This command is applicable only to network initiated requests in which the verification from the user is requested. Mobile operators may use the configuration service provider to override the default value from the operating system. In such case the default values specified above should be replaced by the values provided by the mobile operator.
+This command sets how much time the device must wait for input from a user before it responds to the NI request executing the default action. The time interval is specified in seconds and the default value is 35 seconds. This timeout is 5 seconds larger than the timeout used by the operating system to wait for response from the user, and it is simply a failsafe in case of the operating system not responding. 
+
+This command is applicable only to network initiated requests in which the verification from the user is requested. Mobile operators may use the configuration service provider to override the default value from the operating system. In such case the default values specified above should be replaced by the values provided by the mobile operator.
 
 ### -field GNSS_ResetGeofencesTracking
 
