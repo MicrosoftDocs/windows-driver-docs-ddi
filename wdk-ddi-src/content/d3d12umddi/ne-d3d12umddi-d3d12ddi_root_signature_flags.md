@@ -3,7 +3,7 @@ UID: NE:d3d12umddi.D3D12DDI_ROOT_SIGNATURE_FLAGS
 title: D3D12DDI_ROOT_SIGNATURE_FLAGS (d3d12umddi.h)
 description: Specifies options for root signature layout.
 ms.assetid: 1fa06ada-622f-4b03-b370-1d1ca98d3b04
-ms.date: 10/19/2018
+ms.date: 03/24/2020
 keywords: ["D3D12DDI_ROOT_SIGNATURE_FLAGS enumeration"]
 ms.keywords: D3D12DDI_ROOT_SIGNATURE_FLAGS, D3D12DDI_ROOT_SIGNATURE_FLAGS,
 req.header: d3d12umddi.h
@@ -69,7 +69,7 @@ Denies the geometry shader access to the root signature.
 
 ### -field D3D12DDI_ROOT_SIGNATURE_FLAG_DENY_PIXEL_SHADER_ROOT_ACCESS
 
-Denies the pixel shader access to the root signature
+Denies the pixel shader access to the root signature.
 
 ### -field D3D12DDI_ROOT_SIGNATURE_FLAG_ALLOW_STREAM_OUTPUT
 
@@ -79,7 +79,14 @@ The root signature allows stream output.
 
 The local root signature is supported.
 
+### -field D3D12DDI_ROOT_SIGNATURE_FLAG_DENY_AMPLIFICATION_SHADER_ROOT_ACCESS
+
+Denies the amplification shader access to the root signature. Available starting with Windows 10, version 2004. See the [Mesh Shader specification](https://microsoft.github.io/DirectX-Specs/d3d/MeshShader.html) for more information about amplification shaders.
+
+### -field D3D12DDI_ROOT_SIGNATURE_FLAG_DENY_MESH_SHADER_ROOT_ACCESS
+
+Denies the mesh shader access to the root signature. Available starting with Windows 10, version 2004. See the [Mesh Shader specification](https://microsoft.github.io/DirectX-Specs/d3d/MeshShader.html) for more information about mesh shaders.
+
 ## -remarks
 
-## -see-also
-
+See the [DirectX Raytracing (DXR) functional specification](https://microsoft.github.io/DirectX-Specs/d3d/Raytracing.html) for more information.

@@ -48,7 +48,7 @@ The device supports mesh shader tier 1.
 
 ## -remarks
 
-See the [Mesh Shader](https://dev.azure.com/cga-exchange/_git/docs?_a=preview&path=%2Fd3d%2FMeshShader.md&version=GBmaster&fullScreen=true%E2%80%8B) document for more details.
+See the [Mesh Shader Specification](https://microsoft.github.io/DirectX-Specs/d3d/MeshShader.html) for more information.
 
 ## -see-also
 

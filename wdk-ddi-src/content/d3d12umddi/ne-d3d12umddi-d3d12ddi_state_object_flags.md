@@ -3,7 +3,7 @@ UID: NE:d3d12umddi.D3D12DDI_STATE_OBJECT_FLAGS
 title: D3D12DDI_STATE_OBJECT_FLAGS (d3d12umddi.h)
 description: The state object flags.
 ms.assetid: 6dbef5b3-6e77-46e7-b9d2-20554a3535ff
-ms.date: 10/19/2018
+ms.date: 03/24/2020
 keywords: ["D3D12DDI_STATE_OBJECT_FLAGS enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_STATE_OBJECT_FLAGS"
@@ -55,6 +55,16 @@ Allows local dependencies on external definitions.
 
 Allows external dependencies on local definitions.
 
+### -field D3D12_STATE_OBJECT_FLAG_ALLOW_STATE_OBJECT_ADDITIONS
+
+Allows additions to state objects. Available starting with Windows 10, version 2004.
+
 ## -remarks
 
+See the [DirectX Raytracing (DXR) functional specification](https://microsoft.github.io/DirectX-Specs/d3d/Raytracing.html) for more information.
+
 ## -see-also
+
+[**D3D12_STATE_OBJECT_CONFIG**](ns-d3d12umddi-d3d12ddi_state_object_config_0054.md)
+
+[**PFND3D12DDI_ADD_TO_STATE_OBJECT_0072**](nc-d3d12umddi-pfnd3d12ddi_add_to_state_object_0072.md)
