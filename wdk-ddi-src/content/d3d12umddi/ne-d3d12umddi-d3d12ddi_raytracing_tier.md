@@ -3,7 +3,7 @@ UID: NE:d3d12umddi.D3D12DDI_RAYTRACING_TIER
 title: D3D12DDI_RAYTRACING_TIER (d3d12umddi.h)
 description: Specifies the ray tracing tier.
 ms.assetid: 3bf1c7c9-6c13-4111-a185-71c5ddaf1067
-ms.date: 10/19/2018
+ms.date: 03/24/2020
 keywords: ["D3D12DDI_RAYTRACING_TIER enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RAYTRACING_TIER"
@@ -45,12 +45,16 @@ Specifies the ray tracing tier.
 
 ### -field D3D12DDI_RAYTRACING_TIER_NOT_SUPPORTED
 
-Not supported.
+Support for raytracing on the device is not supported.
 
 ### -field D3D12DDI_RAYTRACING_TIER_1_0
 
-Tier 1.
+The device supports tier 1.0 raytracing.
+
+### -field D3D12DDI_RAYTRACING_TIER_1_1
+
+The device supports tier 1.1 raytracing. Available starting with Windows 10, version 2004.
 
 ## -remarks
 
-## -see-also
+See the [DirectX Raytracing (DXR) functional specification](https://microsoft.github.io/DirectX-Specs/d3d/Raytracing.html) for more information.

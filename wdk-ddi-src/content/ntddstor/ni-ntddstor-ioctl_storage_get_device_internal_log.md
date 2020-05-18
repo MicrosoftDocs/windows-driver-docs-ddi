@@ -6,14 +6,14 @@ description: A driver can use IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG to get the i
 tech.root: storage
 ms.assetid: 927a77ea-3c95-4dd3-9ae2-7fa69f7de18d
 ms.author: windowsdriverdev
-ms.date: 11/30/2019
+ms.date: 03/24/2020
 ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG"
 req.header: ntddstor.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

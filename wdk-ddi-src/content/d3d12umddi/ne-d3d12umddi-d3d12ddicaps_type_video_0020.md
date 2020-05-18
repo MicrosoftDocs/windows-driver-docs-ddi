@@ -4,7 +4,7 @@ title: D3D12DDICAPS_TYPE_VIDEO_0020 (d3d12umddi.h)
 description: Contains capability types for video.
 old-location: display\d3d12ddicaps_type_video_0020.htm
 ms.assetid: 3B95996D-EB7C-4DCF-B00C-BA5AFEFD4110
-ms.date: 04/16/2018
+ms.date: 03/24/2020
 keywords: ["D3D12DDICAPS_TYPE_VIDEO_0020 enumeration"]
 ms.keywords: D3D12DDICAPS_TYPE_VIDEO_0020, D3D12DDICAPS_TYPE_VIDEO_0020 enumeration [Display Devices], D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_BITSTREAM_ENCRYPTION_SCHEMES, D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_CONVERSION_SUPPORT, D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_FORMATS, D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_PROFILES, D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_SUPPORT, D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_MAX_INPUT_STREAMS, D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_REFERENCE_INFO, D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_SUPPORT, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_BITSTREAM_ENCRYPTION_SCHEMES, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_CONVERSION_SUPPORT, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_FORMATS, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_PROFILES, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_SUPPORT, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_MAX_INPUT_STREAMS, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_REFERENCE_INFO, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_SUPPORT, display.d3d12ddicaps_type_video_0020
 req.header: d3d12umddi.h
@@ -173,3 +173,20 @@ Returns the driver for the video extension object size. See [D3D12DDI_VIDEO_EXTE
 
 Available starting in Windows 10, version 1903.
 
+### -field D3D12DDICAPS_TYPE_VIDEO_0072_DECODE_PROTECTED_RESOURCES
+
+The data used when querying for video decode protected resource support capabilities. Maps to the [**D3D12DDI_VIDEO_DECODE_PROTECTED_RESOURCES_DATA_0072**](ns-d3d12umddi-d3d12ddi_video_decode_protected_resources_data_0072.md) structure.
+
+Available starting in Windows 10, version 2004.
+
+### -field D3D12DDICAPS_TYPE_VIDEO_0072_PROCESS_PROTECTED_RESOURCES
+
+The data used when querying for video process protected resource support capabilities. Maps to the [**D3D12DDI_VIDEO_PROCESS_PROTECTED_RESOURCES_DATA_0072**](ns-d3d12umddi-d3d12ddi_video_decode_protected_resources_data_0072.md) structure.
+
+Available starting in Windows 10, version 2004.
+
+### -field D3D12DDICAPS_TYPE_VIDEO_0072_MOTION_ESTIMATOR_PROTECTED_RESOURCES
+
+The data used when querying for video motion estimator protected resource support capabilities. Maps to the [**D3D12DDI_VIDEO_DECODE_PROTECTED_RESOURCES_DATA_0072**](ns-d3d12umddi-d3d12ddi_video_decode_protected_resources_data_0072.md) structure.
+
+Available starting in Windows 10, version 2004.

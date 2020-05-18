@@ -44,19 +44,11 @@ req.typenames:
 
 # PFND3D12DDI_CREATEHEAPANDRESOURCE_0030 callback function
 
-
 ## -description
-
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 Used to simultaneously create a heap and resource.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -94,13 +86,6 @@ The protected resource session.
 
 The hardware resource.
 
-
-
 ## -returns
 
-
-
 Returns STATUS_SUCCESS if completed successfully.
-
-
-
