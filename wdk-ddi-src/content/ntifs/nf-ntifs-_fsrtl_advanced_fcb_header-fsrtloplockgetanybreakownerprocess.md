@@ -6,7 +6,7 @@ description: FsRtlOplockGetAnyBreakOwnerProcess gets an owner of an allegedly br
 tech.root: ifsk
 ms.assetid: fed48308-d88a-40b1-acce-c9c627ce71ed
 ms.author: windowsdriverdev
-ms.date: 10/30/2019
+ms.date: 03/24/2020
 ms.topic: method
 ms.keywords: FSRTL_ADVANCED_FCB_HEADER::FsRtlOplockGetAnyBreakOwnerProcess, FsRtlOplockGetAnyBreakOwnerProcess, FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockGetAnyBreakOwnerProcess, FSRTL_ADVANCED_FCB_HEADER::FsRtlOplockGetAnyBreakOwnerProcess, FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockGetAnyBreakOwnerProcess
 req.header: ntifs.h
@@ -14,7 +14,7 @@ f1_keywords:
  - "ntifs/FsRtlOplockGetAnyBreakOwnerProcess"
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

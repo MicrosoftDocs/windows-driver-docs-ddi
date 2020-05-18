@@ -5,7 +5,7 @@ description: The ECP_OPEN_PARAMETERS structure allows a caller to specify the pu
 old-location: ifsk\ecp_open_parameters.htm
 tech.root: ifsk
 ms.assetid: 1223C77A-EAEC-4FCF-B2CC-F1E2935AF5CB
-ms.date: 12/15/2019
+ms.date: 03/24/2020
 keywords: ["_ECP_OPEN_PARAMETERS structure"]
 ms.keywords: "*PECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS structure [Installable File System Drivers], PECP_OPEN_PARAMETERS, PECP_OPEN_PARAMETERS structure pointer [Installable File System Drivers], _ECP_OPEN_PARAMETERS, ifsk.ecp_open_parameters, ntifs/ECP_OPEN_PARAMETERS, ntifs/PECP_OPEN_PARAMETERS"
 f1_keywords:
@@ -67,8 +67,8 @@ Flags that specify the parameters or purpose for opening a file. *Flags* can be 
 | ECP_OPEN_PARAMETERS_FLAG_OPEN_FOR_READ (0x0001) | Opening file to read it. |
 | ECP_OPEN_PARAMETERS_FLAG_OPEN_FOR_WRITE (0x0002) | Opening file to write to it. |
 | ECP_OPEN_PARAMETERS_FLAG_OPEN_FOR_DELETE (0x0004) | Opening file to delete it. |
-| ECP_OPEN_PARAMETERS_FLAG_IGNORE_DIR_CASE_SENSITIVITY (0x0008) | Forces a case-insensitive lookup for this file open, even under a case-sensitive directory. The next version of Windows 10. |
-| ECP_OPEN_PARAMETERS_FLAG_FAIL_ON_CASE_SENSITIVE_DIR ( 0x0010) | Fails the file open or create request if the path has any case sensitive directories. The next version of Windows 10. |
+| ECP_OPEN_PARAMETERS_FLAG_IGNORE_DIR_CASE_SENSITIVITY (0x0008) | Forces a case-insensitive lookup for this file open, even under a case-sensitive directory. Available starting with Windows 10, version 2004. |
+| ECP_OPEN_PARAMETERS_FLAG_FAIL_ON_CASE_SENSITIVE_DIR ( 0x0010) | Fails the file open or create request if the path has any case sensitive directories. Available starting with Windows 10, version 2004. |
 
 ## -remarks
 
