@@ -5,7 +5,7 @@ description: The RtlUTF8StringToUnicodeString routine converts the specified UTF
 old-location:
 tech.root: ifsk
 ms.assetid: aa4d6f8b-ab1b-4b13-83c8-fcc55f667d14
-ms.date: 10/30/2019
+ms.date: 03/24/2020
 ms.keywords: RtlUTF8StringToUnicodeString, RtlUTF8StringToUnicodeString routine [Kernel-Mode Driver Architecture], kernel.RtlUTF8StringToUnicodeString
 ms.topic: function
 f1_keywords:
@@ -13,7 +13,7 @@ f1_keywords:
 req.header: ntifs.h
 req.include-header: Ntifs.h, Wdm.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

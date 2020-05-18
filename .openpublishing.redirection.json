@@ -644,6 +644,141 @@
       "source_path": "wdk-ddi-src/content/nettxqueue/nf-nettxqueue-nettxqueuegetpacketextensionoffset.md",
       "redirect_URL": "https://docs.microsoft.com/windows-hardware/drivers/ddi/nettxqueue/nf-nettxqueue-nettxqueuegetextension",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/nc-d3dkmthk-pfnd3dkmt_createtrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_createtrackedworkload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/nc-d3dkmthk-pfnd3dkmt_destroytrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_destroytrackedworkload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/nc-d3dkmthk-pfnd3dkmt_endtrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_endtrackedworkload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/nc-d3dkmthk-pfnd3dkmt_getavailabletrackedworkloadindex.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_getavailabletrackedworkloadindex",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/nc-d3dkmthk-pfnd3dkmt_gettrackedworkloadstatistics.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_gettrackedworkloadstatistics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/nc-d3dkmthk-pfnd3dkmt_resettrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_resettrackedworkload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/nc-d3dkmthk-pfnd3dkmt_updatetrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nc-d3dkmthk-pfnd3dkmt_updatetrackedworkload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/ne-d3dkmthk-_d3dkmt_trackedworkloaddeadlinetype.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ne-d3dkmthk-_d3dkmt_trackedworkloaddeadlinetype",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/ne-d3dkmthk-_d3dkmt_trackedworkloadpolicy.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ne-d3dkmthk-_d3dkmt_trackedworkloadpolicy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatetrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtcreatetrackedworkload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/nf-d3dkmthk-d3dkmtdestroytrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtdestroytrackedworkload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/nf-d3dkmthk-d3dkmtendtrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtendtrackedworkload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/nf-d3dkmthk-d3dkmtgetavailabletrackedworkloadindex.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtgetavailabletrackedworkloadindex",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/nf-d3dkmthk-d3dkmtgettrackedworkloadstatistics.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtgettrackedworkloadstatistics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/nf-d3dkmthk-d3dkmtresettrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtresettrackedworkload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/nf-d3dkmthk-d3dkmtupdatetrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/nf-d3dkmthk-d3dkmtupdatetrackedworkload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_createtrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_createtrackedworkload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroytrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_destroytrackedworkload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_endtrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_endtrackedworkload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_getavailabletrackedworkloadindex.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_getavailabletrackedworkloadindex",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_gettrackedworkloadstatistics.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_gettrackedworkloadstatistics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_resettrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_resettrackedworkload",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_trackedworkload_statistics.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_trackedworkload_statistics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_trackedworkloaddeadline.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_trackedworkloaddeadline",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_trackedworkloadflags.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_trackedworkloadflags",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_trackedworkloadstateflags.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_trackedworkloadstateflags",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_updatetrackedworkload.md",
+      "redirect_URL": "https://docs.microsoft.com/previous-versions/windows/hardware/display/ns-d3dkmthk-_d3dkmt_updatetrackedworkload",
+      "redirect_document_id": false
     }
   ]
 }

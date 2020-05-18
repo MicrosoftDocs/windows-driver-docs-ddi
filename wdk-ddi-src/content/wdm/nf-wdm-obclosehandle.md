@@ -63,7 +63,7 @@ A handle to a system-supplied object of any type.
 
 ### -param PreviousMode [in]
 
-Specifies the previous processor mode of the thread that opened the handle. To close a <a href="https://docs.microsoft.com/windows-hardware/drivers/">kernel handle</a>, set this parameter to <b>KernelMode</b>. To close a <i>user handle</i>, set this parameter to <b>UserMode</b>. For more information about these two handle types, see Remarks.
+Specifies the previous processor mode of the thread that opened the handle. To close a kernel handle set this parameter to <b>KernelMode</b>. To close a <i>user handle</i>, set this parameter to <b>UserMode</b>. For more information about these two handle types, see Remarks.
 
 
 ## -returns

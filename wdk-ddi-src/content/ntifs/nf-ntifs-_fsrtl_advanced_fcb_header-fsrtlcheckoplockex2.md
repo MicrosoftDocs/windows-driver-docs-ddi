@@ -6,7 +6,7 @@ description: FsRtlCheckOplockEx2 synchronizes the IRP for a file I/O operation w
 tech.root: ifsk
 ms.assetid: e471fc96-0681-45fc-81d8-b5ec680cbf79
 ms.author: windowsdriverdev
-ms.date: 10/30/2019
+ms.date: 03/24/2020
 ms.topic: method
 f1_keywords:
  - "ntifs/FsRtlCheckOplockEx2"
@@ -14,7 +14,7 @@ ms.keywords: FSRTL_ADVANCED_FCB_HEADER::FsRtlCheckOplockEx2, FsRtlCheckOplockEx2
 req.header: ntifs.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
