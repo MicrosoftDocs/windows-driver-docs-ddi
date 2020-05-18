@@ -3,7 +3,7 @@ UID: NE:ntifs._OPLOCK_NOTIFY_REASON
 title: _OPLOCK_NOTIFY_REASON (ntifs.h)
 description: OPLOCK_NOTIFY_REASON specifies the reason for calling the notification callback provided to FsRtlCheckOplockEx2.
 ms.assetid: fd212e75-7ba1-4764-a860-57b21d8eef4a
-ms.date: 10/30/2019
+ms.date: 03/24/2020
 ms.topic: enum
 f1_keywords:
  - "ntifs/_OPLOCK_NOTIFY_REASON"
@@ -11,7 +11,7 @@ ms.keywords: _OPLOCK_NOTIFY_REASON, OPLOCK_NOTIFY_REASON,
 req.header: ntifs.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

@@ -6,7 +6,7 @@ description: RtlUnicodeStringToUTF8String converts the specified Unicode string 
 tech.root: ifsk
 ms.assetid: 8c1e181a-7737-4e26-8fc1-a00ed16673e9
 ms.author: windowsdriverdev
-ms.date: 10/30/2019
+ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlUnicodeStringToUTF8String
 req.header: ntifs.h
@@ -14,7 +14,7 @@ f1_keywords:
  - "ntifs/RtlUnicodeStringToUTF8String"
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:

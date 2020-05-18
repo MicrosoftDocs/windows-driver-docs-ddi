@@ -6,7 +6,7 @@ description: RtlInitUTF8StringEx initializes a counted string of UTF-8 character
 tech.root: ifsk
 ms.assetid: e9cd4b3c-2955-4bbc-b90f-340201024313
 ms.author: windowsdriverdev
-ms.date: 10/30/2019
+ms.date: 03/24/2020
 ms.topic: function
 ms.keywords: RtlInitUTF8StringEx
 req.header: ntifs.h
@@ -14,7 +14,7 @@ f1_keywords:
  - "ntifs/RtlInitUTF8StringEx"
 req.include-header:
 req.target-type:
-req.target-min-winverclnt: The next version of Windows 10
+req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
