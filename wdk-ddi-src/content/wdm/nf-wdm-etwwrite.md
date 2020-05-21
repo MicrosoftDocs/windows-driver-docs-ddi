@@ -63,7 +63,7 @@ A pointer to the event provider registration handle, which is returned by the <a
 
 ### -param EventDescriptor [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/ns-evntprov-_event_descriptor">EVENT_DESCRIPTOR</a> structure. 
+A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/evntprov/ns-evntprov-event_descriptor">EVENT_DESCRIPTOR</a> structure. 
 
 
 ### -param ActivityId [in, optional]
