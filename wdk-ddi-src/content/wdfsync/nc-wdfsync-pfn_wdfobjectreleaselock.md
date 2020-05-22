@@ -43,7 +43,7 @@ req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
 req.product: Windows 10 or later.
 ---
 
-# PFN_WDFOBJECTRELEASELOCK callback
+# WdfObjectReleaseLock callback
 
 
 ## -description
