@@ -4,7 +4,7 @@ title: NtAllocateVirtualMemory function (ntifs.h)
 description: The NtAllocateVirtualMemory routine reserves, commits, or both, a region of pages within the user-mode virtual address space of a specified process.
 tech.root: kernel
 ms.assetid: bb82c90d-9bd3-4a23-b171-06a3208e424b
-ms.date: 06/21/2019
+ms.date: 05/20/2020
 keywords: ["NtAllocateVirtualMemory function"]
 ms.keywords: NtAllocateVirtualMemory, ZwAllocateVirtualMemory, NtAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, kernel.ntallocatevirtualmemory, ntifs/NtAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory
 f1_keywords:
@@ -56,28 +56,30 @@ A handle for the process for which the mapping should be done. Use the **NtCurre
 
 ### -param BaseAddress [in, out]
 
-A pointer to a variable that will receive the base address of the allocated region of pages. If the initial value of *\*BaseAddress* is non-**NULL**, the region is allocated starting at the specified virtual address rounded down to the next host page size address boundary. If the initial value of *\*BaseAddress* is **NULL**, the operating system will determine where to allocate the region.
+A pointer to a variable that will receive the base address of the allocated region of pages. If the initial value of *BaseAddress* is non-**NULL**, the region is allocated starting at the specified virtual address rounded down to the next host page size address boundary. If the initial value of *BaseAddress* is **NULL**, the operating system will determine where to allocate the region.
 
 ### -param ZeroBits [in]
 
-The number of high-order address bits that must be zero in the base address of the section view. Used only when the operating system determines where to allocate the region, as when *\*BaseAddress** is **NULL**. Note that when ZeroBits is larger than 32, it becomes a bitmask.
+The number of high-order address bits that must be zero in the base address of the section view. Used only when the operating system determines where to allocate the region, as when *BaseAddress** is **NULL**. Note that when ZeroBits is larger than 32, it becomes a bitmask.
 
 ### -param RegionSize [in, out]
 
-A pointer to a variable that will receive the actual size, in bytes, of the allocated region of pages. The initial value of *\*RegionSize* specifies the size, in bytes, of the region and is rounded up to the next host page size boundary. *\*RegionSize* cannot be zero on input.
+A pointer to a variable that will receive the actual size, in bytes, of the allocated region of pages. The initial value of *RegionSize* specifies the size, in bytes, of the region and is rounded up to the next host page size boundary. *RegionSize* cannot be zero on input.
 
 ### -param AllocationType [in]
 
-A bitmask containing flags that specify the type of allocation to be performed. The following table describes these flags.
+A bitmask containing flags that specify the type of allocation to be performed for the specified region of pages. The following table describes the most common flags. See [**VirtualAlloc**](https://docs.microsoft.com/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc) for a full list of possible flags and descriptions.
+
+> [!NOTE]
+>
+> One of MEM_COMMIT, MEM_RESET, or MEM_RESERVE must be set.
 
 | Flag | Meaning |
 | ---- | ------- |
-| MEM_COMMIT | The specified region of pages is to be committed. One of MEM_COMMIT, MEM_RESET, or MEM_RESERVE must be set. |
-| MEM_PHYSICAL | Allocate physical memory. This flag is solely for use with Address Windowing Extensions (AWE) memory. If MEM_PHYSICAL is set, MEM_RESERVE must also be set. No other flags may be set. If MEM_PHYSICAL is set, **Protect** must be set to PAGE_READWRITE. |
-| MEM_RESERVE | The specified region of pages is to be reserved. One of MEM_COMMIT, MEM_RESET, or MEM_RESERVE must be set. |
-| MEM_RESET | Reset the state of the specified region so that if the pages are in paging file, they are discarded and pages of zeros are brought in. If the pages are in memory and modified, they are marked as not modified so that they will not be written out to the paging file. The contents are _not_ zeroed. The **Protect** parameter is not used, but it must be set to a valid value. One of MEM_COMMIT, MEM_RESET, or MEM_RESERVE must be set. If MEM_RESET is set, no other flag may be set. |
-| MEM_TOP_DOWN | The specified region should be created at the highest virtual address possible based on **ZeroBits**. |
-| MEM_WRITE_WATCH | The specified region should be created at the highest virtual address possible based on **ZeroBits**. |
+| MEM_COMMIT | The specified region of pages is to be committed. |
+| MEM_RESERVE | The specified region of pages is to be reserved. |
+| MEM_RESET | Reset the state of the specified region so that if the pages are in paging file, they are discarded and pages of zeros are brought in. If the pages are in memory and modified, they are marked as not modified so that they will not be written out to the paging file. The contents are *not* zeroed. The **Protect** parameter is not used, but it must be set to a valid value. If MEM_RESET is set, no other flag may be set. |
+| Other MEM_*XXX* flags | See [**VirtualAlloc**](https://docs.microsoft.com/windows/win32/api/memoryapi/nf-memoryapi-virtualalloc). |
 
 ### -param Protect [in]
 
@@ -133,7 +135,7 @@ For more information about memory management, see [Memory Management for Windows
 
 > **Note**  If the call to the **NtAllocateVirtualMemory** function occurs in user mode, you should use the name "**NtAllocateVirtualMemory**" instead of "**ZwAllocateVirtualMemory**".
 
-For calls from kernel-mode drivers, the **Nt**Xxx**** and **Zw**Xxx**** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt**Xxx**** and **Zw**Xxx**** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
+For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
 ## -see-also
 
