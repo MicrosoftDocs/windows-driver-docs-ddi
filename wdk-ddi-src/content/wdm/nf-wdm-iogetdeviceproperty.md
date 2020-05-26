@@ -56,7 +56,7 @@ Pointer to the physical device object (PDO) for the device being queried.
 
 ### -param DeviceProperty [in]
 
-Specifies the device property being requested. Must be one of the following [DEVICE_REGISTRY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ne-wudfwdm-device_registry_property) enumeration values:
+Specifies the device property being requested. Must be one of the following [DEVICE_REGISTRY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-device_registry_property) enumeration values:
 
 #### DevicePropertyAddress
 
