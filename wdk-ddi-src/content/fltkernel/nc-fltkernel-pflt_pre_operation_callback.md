@@ -66,7 +66,7 @@ A pointer to the callback data (<a href="https://docs.microsoft.com/windows-hard
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current I/O request.
 
 
-### -param *CompletionContext [out]
+### -param CompletionContext [out]
 
 If this callback routine returns FLT_PREOP_SUCCESS_WITH_CALLBACK or FLT_PREOP_SYNCHRONIZE, this parameter is an optional context pointer to be passed to the corresponding post-operation callback routine. Otherwise, it must be <b>NULL</b>.
 
