@@ -76,7 +76,7 @@ Size, in bytes, of the buffer that *ReplyBuffer* points to. This parameter is op
 
 ### -param Timeout [in, optional]
 
-A pointer to a timeout value that specifies the total absolute or relative length of time, in units of 100 nanoseconds, for which the caller can be put into a wait state until the message is received by the user-mode application and until it receives a reply (if one is expected). Set to **NULL** if the caller can be put into a wait state indefinitely.
+A pointer to a timeout value that specifies the total length of time, in units of 100 nanoseconds, for which the caller can be put into a wait state until the message is received by the user-mode application and until it receives a reply (if one is expected). Positive values indicate absolute time. Negative values indicate relative time. Set to **NULL** if the caller can be put into a wait state indefinitely.
 
 ## -returns
 
