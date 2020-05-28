@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>WdmlibRtlInitUnicodeStringEx</b> function initializes a counted string of Unicode characters.
+The **WdmlibRtlInitUnicodeStringEx** function initializes a counted string of Unicode characters.
 
 
 ## -parameters
@@ -59,25 +59,27 @@ The <b>WdmlibRtlInitUnicodeStringEx</b> function initializes a counted string of
 
 ### -param DestinationString [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure to be initialized.
+A pointer to the [UNICODE_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string) structure to be initialized.
 
 
 ### -param SourceString [in, optional]
 
-A pointer to a null-terminated wide-character string. This string is used to initialize the counted string pointed to by <i>DestinationString</i>.
+A pointer to a null-terminated wide-character string. This string is used to initialize the counted string pointed to by *DestinationString*.
 
 
 ## -remarks
 
 
 
-The routine copies the <i>SourceString</i> pointer value to the <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure pointed to by <i>DestinationString</i>. The <b>Length</b> member of this structure is set to the length, in bytes, of the source string, excluding the terminating null. The <b>MaximumLength</b> member of the structure is set to the length, in bytes, of the source string, including the terminating null. If <i>SourceString</i> is <b>NULL</b>, <b>Length</b> and <b>MaximumLength</b> are both set to zero.
+The routine copies the *SourceString* pointer value to the **Buffer** member of the [UNICODE_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string) structure pointed to by *DestinationString*. The **Length** member of this structure is set to the length, in bytes, of the source string, excluding the terminating null. The **MaximumLength** member of the structure is set to the length, in bytes, of the source string, including the terminating null. If *SourceString* is **NULL**, **Length** and **MaximumLength** are both set to zero.
 
-<b>WdmlibRtlInitUnicodeStringEx</b> does not alter the source string pointed to by <i>SourceString</i>.
+**WdmlibRtlInitUnicodeStringEx** does not alter the source string pointed to by *SourceString*.
 
-<div class="alert"><b>Note</b>  If the source string is longer than MAX_USTRING - 1 bytes, <b>WdmlibRtlInitUnicodeStringEx</b> sets the <b>Length</b> member of the <b>UNICODE_STRING</b> structure pointed to by <i>DestinationString</i> to MAX_USTRING - 2, and sets the <b>MaximumLength</b> member of this structure to MAX_USTRING.  In this case, the <b>Length</b> and <b>MaximumLength</b> values misrepresent the length of the null-terminated source string, and relying on the accuracy of these values is potentially dangerous.</div>
-<div> </div>
-Callers of <b>WdmlibRtlInitUnicodeStringEx</b> can be running at IRQL <= DISPATCH_LEVEL if the <i>DestinationString</i> buffer is nonpageable. Usually, callers run at IRQL = PASSIVE_LEVEL because most other <b>Rtl<i>Xxx</i>String</b> routines cannot be called at IRQL > PASSIVE_LEVEL.
+> [!NOTE]
+>If the source string is longer than MAX_USTRING - 1 bytes, **WdmlibRtlInitUnicodeStringEx** sets the **Length** member of the **UNICODE_STRING** structure pointed to by *DestinationString* to MAX_USTRING - 2, and sets the **MaximumLength** member of this structure to MAX_USTRING.  In this case, the **Length** and **MaximumLength** values misrepresent the length of the null-terminated source string, and relying on the accuracy of these values is potentially dangerous.
+
+
+Callers of **WdmlibRtlInitUnicodeStringEx** can be running at IRQL <= DISPATCH_LEVEL if the *DestinationString* buffer is nonpageable. Usually, callers run at IRQL = PASSIVE_LEVEL because most other **Rtl*Xxx*String** routines cannot be called at IRQL > PASSIVE_LEVEL.
 
 
 
@@ -85,18 +87,15 @@ Callers of <b>WdmlibRtlInitUnicodeStringEx</b> can be running at IRQL <= DISPATC
 ## -see-also
 
 
+[RtlUnicodeStringInit](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringinit) 
+
+[RtlUnicodeStringInitEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringinitex) 
+
+[UNICODE_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string)
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringinit">RtlUnicodeStringInit</a>
 
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntstrsafe/nf-ntstrsafe-rtlunicodestringinitex">RtlUnicodeStringInitEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
- 
 
  
 
