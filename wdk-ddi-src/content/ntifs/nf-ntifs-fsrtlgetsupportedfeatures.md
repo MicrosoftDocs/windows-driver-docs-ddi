@@ -5,7 +5,7 @@ description: The FsRtlGetSupportedFeatures routine returns the supported feature
 old-location: ifsk\fsrtlgetsupportedfeatures.htm
 tech.root: ifsk
 ms.assetid: 24852B9A-5156-41BB-87F9-81B147A85AC2
-ms.date: 04/16/2018
+ms.date: 05/29/2020
 keywords: ["FsRtlGetSupportedFeatures function"]
 ms.keywords: FsRtlGetSupportedFeatures, FsRtlGetSupportedFeatures routine [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, ifsk.fsrtlgetsupportedfeatures, ntifs/FsRtlGetSupportedFeatures
 f1_keywords:
@@ -44,112 +44,37 @@ req.typenames:
 
 # FsRtlGetSupportedFeatures function
 
-
 ## -description
 
-
-The <b>FsRtlGetSupportedFeatures</b> routine returns the supported features of a volume attached to the specified device object.
-
+The **FsRtlGetSupportedFeatures** routine returns the supported features of a volume attached to the specified device object.
 
 ## -parameters
-
-
-
 
 ### -param DeviceObject [in]
 
 The target device object attached to a volume.
 
-
 ### -param SupportedFeatures [out]
 
-A pointer to a caller supplied <b>ULONG</b> value. On return, this value contains the supported feature flags for the attached volume.
-
+A pointer to a caller-supplied **ULONG** value. On return, this value contains the supported feature flags for the attached volume.
 
 The supported features are a bitwise OR combination of the following flags.
 
-
-
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="SUPPORTED_FS_FEATURES_OFFLOAD_READ"></a><a id="supported_fs_features_offload_read"></a><dl>
-<dt><b>SUPPORTED_FS_FEATURES_OFFLOAD_READ</b></dt>
-<dt>0x00000001</dt>
-</dl>
-</td>
-<td width="60%">
-The volume supports offloaded read operations.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SUPPORTED_FS_FEATURES_OFFLOAD_WRITE"></a><a id="supported_fs_features_offload_write"></a><dl>
-<dt><b>SUPPORTED_FS_FEATURES_OFFLOAD_WRITE</b></dt>
-<dt>0x00000002</dt>
-</dl>
-</td>
-<td width="60%">
-The volume supports offloaded write operations.
-
-</td>
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="SUPPORTED_FS_FEATURES_OFFLOAD_WRITE"></a><a id="supported_fs_features_offload_write"></a><dl>
-<dt><b>SUPPORTED_FS_FEATURES_QUERY_OPEN</b></dt>
-<dt>0x00000004</dt>
-</dl>
-</td>
-<td width="60%">
-The volume supports query open operations.
-</td>
-
-
-</tr>
-</table>
- 
-
+| Value | Meaning |
+| ----- | ------- |
+| **SUPPORTED_FS_FEATURES_OFFLOAD_READ**  0x00000001 | The volume supports offloaded read operations.  |
+| **SUPPORTED_FS_FEATURES_OFFLOAD_WRITE** 0x00000002 | The volume supports offloaded write operations. |
+| **SUPPORTED_FS_FEATURES_QUERY_OPEN**    0x00000004 | The volume supports query open operations. |
 
 ## -returns
 
+**FsRtlGetSupportedFeatures** returns **STATUS_SUCCESS** if the supported features for the volume attached to *DeviceObject* are returned successfully. Otherwise, an **NTSTATUS** value such as one of the following is returned.
 
+| Return code | Description |
+| ----------- | ----------- |
+| **STATUS_FLT_VOLUME_NOT_FOUND** | No volume is found for *DeviceObject*. |
+| **STATUS_FLT_INTERNAL_ERROR**   | The device object specified by *DeviceObject* is not in a file system device stack. |
 
-<b>FsRtlGetSupportedFeatures</b> returns <b>STATUS_SUCCESS</b> if the supported features for the volume attached to <i>DeviceObject</i> are returned successfully. Otherwise, one of the following <b>NTSTATUS</b> values is returned.
+## -remarks
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_VOLUME_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-No volume is found for <i>DeviceObject</i>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FLT_INTERNAL_ERROR</b></dt>
-</dl>
-</td>
-<td width="60%">
-The device object specified by <i>DeviceObject</i> is not in a file system device stack.
-
-</td>
-</tr>
-</table>
- 
-
-
-
+Filter Manager looks at the supported features, specified by a minifilter's **SupportedFeatures** Registry value, for every minifilter attached to the volume. Every attached minifilter must support a specific feature in order for that feature bit to be set. The **SupportedFeatures** value does not apply to file systems.
