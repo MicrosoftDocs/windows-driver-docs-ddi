@@ -49,6 +49,8 @@ req.typenames:
 
 > [!NOTE]
 > This function is obsolete.
+>
+> Checked builds were available on older versions of Windows, before Windows 10 version 1803. Use tools such as Driver Verifier and GFlags to check driver code in later versions of Windows.
 
 ## -parameters
 
