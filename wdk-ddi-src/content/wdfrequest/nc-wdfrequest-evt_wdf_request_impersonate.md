@@ -76,6 +76,16 @@ A pointer to a context that was previously supplied in the <a href="https://docs
 
 User-Mode Driver Framework (UMDF) does not allow a driver's <i>EvtRequestImpersonate</i> callback function to call any of the framework's object methods. This ensures that the driver does not expose the impersonation level to other driver callback functions or other drivers.
 
+The <b>EVT_WDF_REQUEST_IMPERSONATE</b> function type is defined in the Wdfrequest.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the `_Use_decl_annotations_` annotation to your function definition. The `_Use_decl_annotations_` annotation ensures that the annotations that are applied to the <b>EVT_WDF_REQUEST_IMPERSONATE</b> function type in the header file are used.
+
+
+The following restrictions also apply: 
+
+ - When the driver calls [**WdfRequestImpersonate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestimpersonate) with `ImpersonationLevel = SecurityIdentification`, the callback cannot call **LoadLibrary** or perform any action requiring an access check.
+
+ - The same principle applies to DLL delay load. Consider an example in which the driver impersonates at identification level, and the callback calls **GetUserNameW**. Because this API in turn delay loads another DLL and calls **GetUserNameExW**, the initial call might fail with **ERROR_PROC_NOT_FOUND** or **ERROR_BAD_IMPERSONATION_LEVEL**. In such a case, the callback should instead call **GetUserNameExW** directly.
+
+
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">Handling Client Impersonation in UMDF Drivers</a>.
 
 
@@ -101,14 +111,6 @@ VOID
   {...}
 ```
 
-The <b>EVT_WDF_REQUEST_IMPERSONATE</b> function type is defined in the Wdfrequest.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the `_Use_decl_annotations_` annotation to your function definition. The `_Use_decl_annotations_` annotation ensures that the annotations that are applied to the <b>EVT_WDF_REQUEST_IMPERSONATE</b> function type in the header file are used.
-
-
-The following restrictions also apply: 
-
- - When the driver calls [**WdfRequestImpersonate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestimpersonate) with `ImpersonationLevel = SecurityIdentification`, the callback cannot call **LoadLibrary** or perform any action requiring an access check.
-
- - The same principle applies to DLL delay load. Consider an example in which the driver impersonates at identification level, and the callback calls **GetUserNameW**. Because this API in turn delay loads another DLL and calls **GetUserNameExW**, the initial call might fail with **ERROR_PROC_NOT_FOUND** or **ERROR_BAD_IMPERSONATION_LEVEL**. In such a case, the callback should instead call **GetUserNameExW** directly.
 
 
 For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>.
