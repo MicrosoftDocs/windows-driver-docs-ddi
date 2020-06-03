@@ -125,7 +125,7 @@ If the driver sets <b>Type</b> to <b>WdfUsbTargetDeviceSelectConfigTypeInterface
 
 ### -field Types.MultiInterface.NumberOfConfiguredInterfaces
 
-If the driver sets <b>Type</b> to <b>WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs</b> or <b>WdfUsbTargetDeviceSelectConfigTypeMultiInterface</b>, the framework provides the number if interfaces that are configured for the device.
+If the driver sets <b>Type</b> to <b>WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs</b> or <b>WdfUsbTargetDeviceSelectConfigTypeMultiInterface</b>, the framework provides the number of interfaces that are configured for the device.
 
 
 ## -remarks
