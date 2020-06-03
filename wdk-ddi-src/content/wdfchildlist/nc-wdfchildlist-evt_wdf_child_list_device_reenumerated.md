@@ -113,44 +113,6 @@ If the bus driver uses address descriptions, the <i>EvtChildListDeviceReenumerat
 For more information about dynamic enumeration, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">Enumerating the Devices on a Bus</a>.
 
 
-#### Examples
-
-To define an <i>EvtChildListDeviceReenumerated</i> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
-
-For example, to define an <i>EvtChildListDeviceReenumerated</i> callback function that is named <i>MyChildListDeviceReenumerated</i>, use the <b>EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED</b> type as shown in this code example:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED  MyChildListDeviceReenumerated;</pre>
-</td>
-</tr>
-</table></span></div>
-Then, implement your callback function as follows:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
-BOOLEAN
- MyChildListDeviceReenumerated (
- WDFCHILDLIST  ChildList,
- WDFDEVICE  OldDevice,
-    PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER  OldAddressDescription,
-    PWDF_CHILD_ADDRESS_DESCRIPTION_HEADER  NewAddressDescription
-    )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED</b> function type is defined in the WdfChildlist.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_CHILD_LIST_DEVICE_REENUMERATED</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
-
 
 
 

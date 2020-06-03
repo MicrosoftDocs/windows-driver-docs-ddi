@@ -110,48 +110,6 @@ The framework does not synchronize calls to a driver's WMI event callback functi
 For more information about the <i>EvtWmiInstanceExecuteMethod</i> callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-wmi-in-kmdf-drivers">Supporting WMI in Framework-Based Drivers</a>.
 
 
-#### Examples
-
-To define an <i>EvtWmiInstanceExecuteMethod</i> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
-
-For example, to define an <i>EvtWmiInstanceExecuteMethod</i> callback function that is named <i>MyWmiInstanceExecuteMethod</i>, use the <b>EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD</b> type as shown in this code example:
-
-To define an <i>EvtWmiInstanceExecuteMethod</i> callback function that is named <b>MyWmiInstanceExecuteMethod</b>, you must first provide a function declaration that SDV and other verification tools require, as follows:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD  MyWmiInstanceExecuteMethod;</pre>
-</td>
-</tr>
-</table></span></div>
-Then, implement your callback function as follows:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
-NTSTATUS
- MyWmiInstanceExecuteMethod (
-    WDFWMIINSTANCE  WmiInstance,
-    ULONG  MethodId,
-    ULONG  InBufferSize,
-    ULONG  OutBufferSize,
-    PVOID  Buffer,
-    PULONG  BufferUsed
-    )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD</b> function type is defined in the WdfWMI.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_WMI_INSTANCE_EXECUTE_METHOD</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
-
 
 
 
