@@ -5,7 +5,7 @@ description: A driver's EvtRequestImpersonate event callback function performs t
 old-location: wdf\evtrequestimpersonate.htm
 tech.root: wdf
 ms.assetid: FA3FE0C0-57EC-4761-991B-49CA65A79BDD
-ms.date: 02/26/2018
+ms.date: 06/03/2020
 keywords: ["EVT_WDF_REQUEST_IMPERSONATE callback function"]
 ms.keywords: EVT_WDF_REQUEST_IMPERSONATE, EVT_WDF_REQUEST_IMPERSONATE callback, EvtRequestImpersonate, EvtRequestImpersonate callback function, wdf.evtrequestimpersonate, wdfrequest/EvtRequestImpersonate
 f1_keywords:
@@ -85,35 +85,35 @@ To define an <i>EvtRequestImpersonate</i> callback function, you must first prov
 
 For example, to define an <i>EvtRequestImpersonate</i> callback function that is named <i>MyRequestImpersonate</i>, use the <b>EVT_WDF_REQUEST_IMPERSONATE</b> type as shown in this code example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>EVT_WDF_REQUEST_IMPERSONATE  MyRequestImpersonate;</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+EVT_WDF_REQUEST_IMPERSONATE  MyRequestImpersonate;
+```
+
 Then, implement your callback function as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>_Use_decl_annotations_
+```cpp
+_Use_decl_annotations_
 VOID
  MyRequestImpersonate (
     WDFREQUEST  Request
     PVOID  Context
     )
-  {...}</pre>
-</td>
-</tr>
-</table></span></div>
-The <b>EVT_WDF_REQUEST_IMPERSONATE</b> function type is defined in the Wdfrequest.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDF_REQUEST_IMPERSONATE</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
+  {...}
+```
+
+The <b>EVT_WDF_REQUEST_IMPERSONATE</b> function type is defined in the Wdfrequest.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the `_Use_decl_annotations_` annotation to your function definition. The `_Use_decl_annotations_` annotation ensures that the annotations that are applied to the <b>EVT_WDF_REQUEST_IMPERSONATE</b> function type in the header file are used.
+
+
+The following restrictions also apply: 
+
+ - When the driver calls [**WdfRequestImpersonate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestimpersonate) with `ImpersonationLevel = SecurityIdentification`, the callback cannot call **LoadLibrary** or perform any action requiring an access check.
+
+ - The same principle applies to DLL delay load. Consider an example in which the driver impersonates at identification level, and the callback calls **GetUserNameW**. Because this API in turn delay loads another DLL and calls **GetUserNameExW**, the initial call might fail with **ERROR_PROC_NOT_FOUND** or **ERROR_BAD_IMPERSONATION_LEVEL**. In such a case, the callback should instead call **GetUserNameExW** directly.
+
+
+For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>.
+
+For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
 
 
