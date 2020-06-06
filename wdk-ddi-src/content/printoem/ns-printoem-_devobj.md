@@ -83,7 +83,7 @@ Plug-in instance handle. Supplied by the Unidrv or Pscript5 driver.
 
 ### -field pPublicDM
 
-Pointer to the printer's <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure. Supplied by the Unidrv or Pscript5 driver.
+Pointer to the printer's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure. Supplied by the Unidrv or Pscript5 driver.
 
 
 ### -field pOEMDM
@@ -111,7 +111,7 @@ The DEVOBJ structure is accessible to graphics DDI hooking functions through the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a>
 
 
 

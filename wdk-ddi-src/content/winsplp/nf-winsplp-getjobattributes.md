@@ -65,7 +65,7 @@ Caller-supplied pointer to a NULL-terminated Unicode string containing the print
 
 ### -param pDevmode [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure that is passed to the print processor or printer driver.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure that is passed to the print processor or printer driver.
 
 
 ### -param pAttributeInfo [out]
@@ -91,7 +91,7 @@ Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardwa
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a>
 
 
 
