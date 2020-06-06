@@ -51,7 +51,7 @@ req.typenames:
 
 The 
   <b>NdisIfAllocateNetLuidIndex</b> function allocates a 
-  <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> index for an NDIS network interface
+  <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> index for an NDIS network interface
   provider.
 
 
@@ -70,7 +70,7 @@ The Internet Assigned Numbers Authority (IANA) interface type for an index. For 
 ### -param pNetLuidIndex [out]
 
 A pointer to a caller-supplied 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> index variable. If allocation is
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> index variable. If allocation is
      successful, 
      <b>NdisIfAllocateNetLuidIndex</b> sets this variable to the allocated 24-bit NET_LUID index value.
 
@@ -120,7 +120,7 @@ The operation failed because of insufficient resources.
 
 NDIS interface providers call the 
     <b>NdisIfAllocateNetLuidIndex</b> function to allocate a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> index. An interface provider must allocate
+    <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> index. An interface provider must allocate
     a NET_LUID index before the interface provider can register an interface.
 
 <b>NdisIfAllocateNetLuidIndex</b> attempts to allocate a 24-bit NET_LUID index that is unique to the local
@@ -133,7 +133,7 @@ NDIS interface providers call the
     free the index.
 
 To build a 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value from the NET_LUID index and the
+    <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value from the NET_LUID index and the
     interface type, an interface provider calls the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-make-net-luid">NDIS_MAKE_NET_LUID</a> macro.
 
@@ -158,7 +158,7 @@ The interface provider must store the NET_LUID values that it allocates in persi
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 

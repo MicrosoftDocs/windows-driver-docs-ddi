@@ -106,7 +106,7 @@ The NDIS network interface index of the highest-level interface that is stacked 
 ### -field BoundIfNetluid
 
 The NDIS 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value (that is also the network interface
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value (that is also the network interface
      name (<i>ifName</i> in 
      RFC 2863)) of the highest-level interface that is stacked on the miniport
      adapter. That is, if there are virtual miniports or filter modules that are installed over the miniport

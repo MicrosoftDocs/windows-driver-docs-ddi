@@ -103,7 +103,7 @@ The NDIS network interface index of the interface just below the current filter 
 ### -field LowerIfNetLuid
 
 The NDIS network interface 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value of the interface just below the
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value of the interface just below the
      current filter module. That is, if there are filter modules or NDIS 5.<i>x</i> filter intermediate drivers that are installed over a physical miniport adapter or the
      highest-level MUX intermediate driver, this member contains the network interface NET_LUID of the filter
      module interface or filter intermediate driver interface that is just below the current filter module.
