@@ -111,7 +111,7 @@ Reserved for NDIS.
 ### -field PhysicalLocation
 
 The physical location for the hardware that is associated with an interface specified in a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_net_physical_location_lh">
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_physical_location_lh">
      NET_PHYSICAL_LOCATION</a> structure.
 
 
@@ -292,7 +292,7 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_net_physical_location_lh">NET_PHYSICAL_LOCATION</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_physical_location_lh">NET_PHYSICAL_LOCATION</a>
 
 
 
