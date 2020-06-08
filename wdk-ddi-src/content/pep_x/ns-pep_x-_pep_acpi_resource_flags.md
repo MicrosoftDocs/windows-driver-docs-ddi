@@ -47,6 +47,9 @@ req.typenames: PEP_ACPI_RESOURCE_FLAGS, *PPEP_ACPI_RESOURCE_FLAGS
 
 ## -description
 
+> [!NOTE]
+> Microsoft supports a diverse and inclusionary environment.  Within this document, there are references to the word slave. Microsoft's [Style Guide for Bias-Free Communications](https://docs.microsoft.com/style-guide/bias-free-communication) recognizes this as an exclusionary word.  This wording is used as it is currently the wording used within the software. When this word is removed from the software, we will correct this document to be in alignment.
+
 
 The <b>PEP_ACPI_RESOURCE_FLAGS</b> structure contains flags describing an ACPI resource.
 
