@@ -75,7 +75,7 @@ The driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_
 
 Original version for NDIS 6.30 and later.
 
-Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_VENDOR_DEVICE_ID_INFO_REVISION_1.
+Set the <b>Size</b> member to NDIS_SIZEOF_SRIOV_VF_VENDOR_DEVICE_ID_INFO_REVISION_1.
 
 
 ### -field VFId
