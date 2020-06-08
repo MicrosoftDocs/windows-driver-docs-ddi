@@ -57,9 +57,9 @@ The <b>RtlEqualMemory</b> routine compares two blocks of memory to determine whe
 ```
 BOOL WINAPI
 RtlEqualMemory(
-   Destination,
-   Source,
-   Length
+   void*  Destination,
+   void*  Source,
+   size_t Length
 );
 ```
 
@@ -70,28 +70,29 @@ RtlEqualMemory(
 
 ### -param Destination [in]
 
-Datatype: void*. A pointer to a caller-allocated block of memory to compare.
+A pointer to a caller-allocated block of memory to compare.
 
 
 ### -param Source [in]
 
-Datatype: void*. A pointer to a caller-allocated block of memory that is compared to the block of memory to which <i>Source1</i> points.
+A pointer to a caller-allocated block of memory that is compared to the block of memory to which <i>Source1</i> points.
 
 
 ### -param Length [in]
 
-Datatype: size_t. Specifies the number of bytes to be compared.
+Specifies the number of bytes to be compared.
 
 
-
-## -remarks
+## -returns
 
 **RtlEqualMemory** returns TRUE if Source1 and Source2 are equivalent; otherwise, it returns FALSE. 
 
 
-<b>RtlEqualMemory</b> begins the comparison with byte zero of each block.
+## -remarks
 
-Callers of <b>RtlEqualMemory</b> can be running at any IRQL if both blocks of memory are resident.
+**RtlEqualMemory** begins the comparison with byte zero of each block.
+
+Callers of **RtlEqualMemory** can be running at any IRQL if both blocks of memory are resident.
 
 
 
