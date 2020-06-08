@@ -51,6 +51,18 @@ req.typenames:
 The <b>RtlMoveMemory</b> routine copies the contents of a source memory block to a destination memory block, and supports overlapping source and destination memory blocks.
 
 
+## -syntax
+
+
+```
+void RtlMoveMemory(
+   void*       Destination,
+   const void* Source,
+   size_t      Length
+);
+```
+
+
 ## -parameters
 
 
@@ -58,17 +70,17 @@ The <b>RtlMoveMemory</b> routine copies the contents of a source memory block to
 
 ### -param Destination [out]
 
-Datatype: void*. A pointer to the destination memory block to copy the bytes to.
+A pointer to the destination memory block to copy the bytes to.
 
 
 ### -param Source [in]
 
-Datatype: const void*. A pointer to the source memory block to copy the bytes from.
+A pointer to the source memory block to copy the bytes from.
 
 
 ### -param Length [in]
 
-Datatype: size_t. The number of bytes to copy from the source to the destination.
+The number of bytes to copy from the source to the destination.
 
 
 ## -remarks

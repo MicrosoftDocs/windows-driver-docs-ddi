@@ -51,6 +51,17 @@ req.typenames:
 The <b>RtlZeroMemory</b> routine fills a block of memory with zeros, given a pointer to the block and the length, in bytes, to be filled.
 
 
+## -syntax
+
+
+```
+void RtlZeroMemory(
+   void*  Destination,
+   size_t Length
+);
+```
+
+
 ## -parameters
 
 
@@ -58,12 +69,12 @@ The <b>RtlZeroMemory</b> routine fills a block of memory with zeros, given a poi
 
 ### -param Destination [out]
 
-Datatype: void*. A pointer to the memory block to be filled with zeros.
+A pointer to the memory block to be filled with zeros.
 
 
 ### -param Length [in]
 
-Datatype: size_t. The number of bytes to fill with zeros.
+The number of bytes to fill with zeros.
 
 
 ## -remarks

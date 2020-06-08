@@ -53,6 +53,18 @@ req.typenames:
 The <b>RtlFillMemory</b> routine fills a block of memory with the specified fill value.
 
 
+## -syntax
+
+
+```
+void RtlFillMemory(
+   void*  Destination,
+   size_t Length
+   int    Fill
+);
+```
+
+
 ## -parameters
 
 
@@ -60,17 +72,17 @@ The <b>RtlFillMemory</b> routine fills a block of memory with the specified fill
 
 ### -param Destination [out]
 
-Datatype: void*. A pointer to the block of memory to be filled.
+A pointer to the block of memory to be filled.
 
 
 ### -param Length [in]
 
-Datatype: size_t. The number of bytes in the block of memory to be filled.
+The number of bytes in the block of memory to be filled.
 
 
 ### -param Fill [in]
 
-Datatype: int. The value to fill the destination memory block with. This value is copied to every byte in the memory block that is defined by <i>Destination</i> and <i>Length</i>.
+The value to fill the destination memory block with. This value is copied to every byte in the memory block that is defined by <i>Destination</i> and <i>Length</i>.
 
 
 ## -remarks
