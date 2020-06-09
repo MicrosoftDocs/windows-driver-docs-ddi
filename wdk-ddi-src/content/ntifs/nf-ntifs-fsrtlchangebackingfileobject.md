@@ -5,7 +5,7 @@ description: The FsRtlChangeBackingFileObject routine replaces the current file 
 old-location: ifsk\fsrtlchangebackingfileobject.htm
 tech.root: ifsk
 ms.assetid: a3ef4644-8e17-4f67-ba7f-61d62c534c26
-ms.date: 04/16/2018
+ms.date: 06/08/2020
 keywords: ["FsRtlChangeBackingFileObject function"]
 ms.keywords: FsRtlChangeBackingFileObject, FsRtlChangeBackingFileObject routine [Installable File System Drivers], fsrtlref_4dd83ba3-8d9b-4c5b-a4ea-d7a0ceaaa9f2.xml, ifsk.fsrtlchangebackingfileobject, ntifs/FsRtlChangeBackingFileObject
 f1_keywords:
@@ -50,76 +50,32 @@ The **FsRtlChangeBackingFileObject** routine replaces the current file object wi
 
 ## -parameters
 
-### -param CurrentFileObject [in, optional]
+### -param CurrentFileObject
 
-The current file object. If this object does not belong to the stream, the operation fails.
+**[in, optional]** The current file object. If **CurrentFileObject** is **NULL**, the operating system's current file object is set to **NewFileObject**. If it is non-NULL, the backing file object is changed to **NewFileObject** only if the OS's current backing file object is equal to this value. If this file object does not belong to the stream, the operation fails.
 
-### -param NewFileObject [in]
+### -param NewFileObject
 
-The new file object.
+**[in]** The new file object that the OS will reference and store internally.
 
-### -param ChangeBackingType [in]
+### -param ChangeBackingType
 
-An [FSRTL_CHANGE_BACKING_TYPE](ne-ntifs-_fsrtl_change_backing_type.md) enumeration value that indicates which internal memory area the new file object will designate.
+**[in]** An [FSRTL_CHANGE_BACKING_TYPE](ne-ntifs-_fsrtl_change_backing_type.md) enumeration value that indicates which internal structure should be changed to reference **NewFileObject**.
 
-### -param Flags [in]
+### -param Flags
 
-Reserved for future use.
+**[in]** Reserved for future use.
 
 ## -returns
 
 The **FsRtlChangeBackingFileObject** routine returns STATUS_SUCCESS if the operation succeeds. Otherwise, **FsRtlChangeBackingFileObject** returns the appropriate error code.The following table contains error codes that **FsRtlChangeBackingFileObject** might return.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER_2</b></dt>
-</dl>
-</td>
-<td width="60%">
-The change operation failed because the file object that <i>NewFileObject</i> specifies does not represent the same stream as <i>CurrentFileObject</i>.  
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER_3</b></dt>
-</dl>
-</td>
-<td width="60%">
-The change operation failed because the caller specified an invalid backing type in <i>ChangeBackingType</i>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER_4</b></dt>
-</dl>
-</td>
-<td width="60%">
-The change operation failed because the caller specified an invalid value in <i>Flags</i>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>**STATUS_NOT_SUPPORT**</dt>
-</dl>
-</td>
-<td width="60%">
-The change operation failed because the caller obtained the file object in a way that does not allow subsequent swapping of the file object. For example, if the caller obtained the file object with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539104">CcGetFileObjectFromSectionPtrs</a>, it is not safe to swap the file object.
-
-</td>
-</tr>
-</table>
+| Return code |Description |
+| ----------- | ---------- |
+| STATUS_INVALID_PARAMETER_2 | The change operation failed because the file object that **NewFileObject** specifies does not represent the same stream as CurrentFileObject.|
+| STATUS_INVALID_PARAMETER_3 | The change operation failed because the caller specified an invalid backing type in **ChangeBackingType**. |
+| STATUS_INVALID_PARAMETER_4 | The change operation failed because the caller specified an invalid value in **Flags**.|
+| STATUS_NOT_SUPPORTED       | The change operation failed because the caller obtained the file object in a way that does not allow subsequent swapping of the file object. For example, if the caller obtained the file object with a call to **CcGetFileObjectFromSectionPtrs**, it is not safe to swap the file object.|
 
 ## -remarks
 
