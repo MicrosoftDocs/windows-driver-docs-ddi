@@ -5,7 +5,7 @@ description: The IStillImage::LaunchApplicationForDevice method starts a specifi
 old-location: image\istillimage_launchapplicationfordevice.htm
 tech.root: image
 ms.assetid: e5bb8d0e-9ae0-42dd-bbd0-c12e3d1e3f40
-ms.date: 05/03/2018
+ms.date: 06/10/2020
 keywords: ["IStillImageW::LaunchApplicationForDevice"]
 ms.keywords: IStillImageW interface [Imaging Devices],LaunchApplicationForDevice method, IStillImageW.LaunchApplicationForDevice, IStillImageW::LaunchApplicationForDevice, LaunchApplicationForDevice, LaunchApplicationForDevice method [Imaging Devices], LaunchApplicationForDevice method [Imaging Devices],IStillImageW interface, image.istillimage_launchapplicationfordevice, sti/IStillImageW::LaunchApplicationForDevice, stifnc_3ecda881-3b82-4323-b739-614e4f8f78a7.xml
 f1_keywords:
@@ -68,7 +68,7 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 ## -remarks
 
-The **IStillImage::LaunchApplicationForDevice** method can only start applications that have registered themselves by calling [IStillImage::RegisterLaunchApplication](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)). The specified event must be one that the specified device supports. The method mimics the occurrence of a device event, and is useful for applications that intercept events from devices and reroute them. (When a user starts the scanner, such an application might, for example, ask the user whether she wants to store the scanned image, make a copy, or send a fax.)
+The **IStillImage::LaunchApplicationForDevice** method can only start applications that have registered themselves by calling [IStillImage::RegisterLaunchApplication](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)). The specified event must be one that the specified device supports. The method mimics the occurrence of a device event, and is useful for applications that intercept events from devices and reroute them. When a user starts the scanner, such an application might, for example, ask the user whether they want to store the scanned image, make a copy, or send a fax.
 
 Before calling **IStillImage::LaunchApplicationForDevice**, clients of the **IStillImage** COM interface must call [IStillImage::StiCreateInstance](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)) to obtain an **IStillImage** interface pointer.
 
