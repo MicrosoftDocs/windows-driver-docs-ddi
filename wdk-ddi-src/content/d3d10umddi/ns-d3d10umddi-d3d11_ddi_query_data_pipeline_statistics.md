@@ -108,7 +108,7 @@ The number of domain shader (DS) invocations.
 
 ### -field CSInvocations
 
-The number of commute shader (CS) invocations. 
+The number of compute shader (CS) invocations. 
 
 
 ## -remarks
