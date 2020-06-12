@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>StorPortInitilize</b> routine initializes the port driver parameters and extension data. <b>StorPortInitilize</b> also saves the adapter information provided from the [miniport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storage-miniport-drivers) DriverEntry routine.
+The <b>StorPortInitialize</b> routine initializes the port driver parameters and extension data. <b>StorPortInitialize</b> also saves the adapter information provided from the [miniport driver](https://docs.microsoft.com/windows-hardware/drivers/storage/storage-miniport-drivers) DriverEntry routine.
 
 
 ## -parameters
@@ -82,9 +82,9 @@ Is the address of a context value to be passed to the miniport driver's <a href=
 
 
 
-      The result of the initialization actions performed by <b>StorPortInitilize</b>. The miniport driver will return this value as the return value for its DriverEntry routine.
+      The result of the initialization actions performed by <b>StorPortInitialize</b>. The miniport driver will return this value as the return value for its DriverEntry routine.
 
-<b>StorPortInitilize</b> returns one of the following status codes:
+<b>StorPortInitialize</b> returns one of the following status codes:
 
 <table>
 <tr>
@@ -166,9 +166,9 @@ The allocation failed for the driver object extension data.
 
 This routine must be called from the miniport driver's DriverEntry routine.
 
-Because Storport miniport drivers must support PnP, the Storport driver does not use the <i>HwContext</i> parameter passed to <b>StorPortInitilize</b>.
+Because Storport miniport drivers must support PnP, the Storport driver does not use the <i>HwContext</i> parameter passed to <b>StorPortInitialize</b>.
 
-Every miniport driver's DriverEntry routine must call <b>StorPortInitilize</b> after the miniport driver has first zeroed and then set the members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a>.
+Every miniport driver's DriverEntry routine must call <b>StorPortInitialize</b> after the miniport driver has first zeroed and then set the members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a>.
 
 
 

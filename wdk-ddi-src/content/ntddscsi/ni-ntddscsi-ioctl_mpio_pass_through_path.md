@@ -137,8 +137,12 @@ The <b>Information</b> field is set to the number of bytes returned in the outpu
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through">SCSI_PASS_THROUGH</a>
- 
 
- 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_mpio_pass_through_path">MPIO_PASS_THROUGH_PATH</a>
+
+
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through">SCSI_PASS_THROUGH</a>
+
+
 
