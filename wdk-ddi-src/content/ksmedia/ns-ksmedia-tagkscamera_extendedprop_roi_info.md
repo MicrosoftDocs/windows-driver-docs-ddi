@@ -58,7 +58,7 @@ This structure contains information about an ROI.
 
 ### -field Region
 
-These are the relative coordinates in Q13 format on the frame that face detection is running.
+These are the relative coordinates in Q31 format on the frame that face detection is running.
 
 
 ### -field Flags
