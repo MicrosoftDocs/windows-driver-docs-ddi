@@ -74,3 +74,6 @@ The current implementation of the <code>IDmaChannel</code> interface in Portcls.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/dma-channel-objects">DMA Channel Objects</a>.
 
+
+> [!NOTE]
+> Microsoft supports a diverse and inclusionary environment. Within this document, there are references to the word slave. Microsoft's Style Guide for Bias-Free Communications recognizes this as an exclusionary word. This wording is used as it is currently the wording used within the software.

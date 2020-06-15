@@ -60,9 +60,14 @@ Specifies the direction of data movement. If TRUE, the data is to be moved from 
 
 
 ## -returns
+
 This method returns NTSTATUS. It returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code. If the caller attempts to start a channel that is already started, the method returns immediately with error code STATUS_UNSUCCESSFUL.
 
 ## -remarks
+
+> [!NOTE]
+> Microsoft supports a diverse and inclusionary environment. Within this document, there are references to the word slave. Microsoft's Style Guide for Bias-Free Communications recognizes this as an exclusionary word. This wording is used as it is currently the wording used within the software.
+
 The method first sets up map registers to map the first MapSize bytes of the allocated buffer for the adapter object. Next, the method starts a DMA transfer of the number of bytes specified in MapSize.
 
 For more information about this method, see [IDmaChannel::BufferSize](nf-portcls-idmachannel-buffersize.md) and [IDmaChannelSlave::ReadCounter](nf-portcls-idmachannelslave-readcounter.md).

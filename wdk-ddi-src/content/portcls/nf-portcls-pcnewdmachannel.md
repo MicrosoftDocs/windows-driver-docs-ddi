@@ -115,8 +115,8 @@ Specify the <i>PoolType</i> parameter to be one of the nonpaged pool types defin
 
 The <i>OutDmaChannel</i> and <i>OuterUnknown </i>parameters follow the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
-
-
+> [!NOTE]
+> Microsoft supports a diverse and inclusionary environment. Within this document, there are references to the word slave. Microsoft's Style Guide for Bias-Free Communications recognizes this as an exclusionary word. This wording is used as it is currently the wording used within the software.
 
 ## -see-also
 
