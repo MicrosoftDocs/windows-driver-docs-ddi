@@ -1,5 +1,5 @@
 ---
-UID: NF:engextcpp.ExtRemoteTyped.ExtRemoteTyped(const DEBUG_TYPED_DATA)
+UID: NF:engextcpp.ExtRemoteTyped.ExtRemoteTyped(constDEBUG_TYPED_DATA)
 title: ExtRemoteTyped::ExtRemoteTyped(const DEBUG_TYPED_DATA) (engextcpp.h)
 description: The ExtRemoteTyped constructor creates a new instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetyped_extremotetyped_debug_typed_data.htm

@@ -1,5 +1,5 @@
 ---
-UID: NF:engextcpp.ExtRemoteList.ExtRemoteList(ExtRemoteData &,ULONG,bool)
+UID: NF:engextcpp.ExtRemoteList.ExtRemoteList(ExtRemoteData&,ULONG,bool)
 title: ExtRemoteList::ExtRemoteList(ExtRemoteData &,ULONG,bool) (engextcpp.h)
 description: The ExtRemoteList constructors create a new instance that wraps a singly-linked or doubly-linked list.
 old-location: debugger\extremotelist_extremotelist_extremotedata.htm

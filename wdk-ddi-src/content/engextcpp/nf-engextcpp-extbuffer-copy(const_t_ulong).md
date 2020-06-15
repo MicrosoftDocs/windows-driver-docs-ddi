@@ -1,5 +1,5 @@
 ---
-UID: NF:engextcpp.ExtBuffer.Copy(const _T,ULONG)
+UID: NF:engextcpp.ExtBuffer.Copy(const_T,ULONG)
 title: ExtBuffer::Copy method (engextcpp.h)
 description: The Copy method sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_copy_debug_typed_data.htm
