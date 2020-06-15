@@ -51,6 +51,10 @@ The Stop method stops a subordinate DMA object that was started by a previous ca
 The stop method returns NTSTATUS.  It returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 ## -remarks
+
+> [!NOTE]
+> Microsoft supports a diverse and inclusionary environment. Within this document, there are references to the word slave. Microsoft's Style Guide for Bias-Free Communications recognizes this as an exclusionary word. This wording is used as it is currently the wording used within the software.
+
 This call flushes any data remaining in the DMA controller's internal cache at the time that the DMA transfer operation is stopped.
 
 ## -see-also

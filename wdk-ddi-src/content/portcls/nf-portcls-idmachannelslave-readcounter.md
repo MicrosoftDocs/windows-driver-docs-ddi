@@ -52,6 +52,9 @@ ReadCounter returns the DMA object's counter value as ULONG, which specifies the
 
 ## -remarks
 
+> [!NOTE]
+> Microsoft supports a diverse and inclusionary environment. Within this document, there are references to the word slave. Microsoft's Style Guide for Bias-Free Communications recognizes this as an exclusionary word. This wording is used as it is currently the wording used within the software.
+
 ## -see-also
 
 [IDmaChannelSlave interface](nn-portcls-idmachannelslave.md)

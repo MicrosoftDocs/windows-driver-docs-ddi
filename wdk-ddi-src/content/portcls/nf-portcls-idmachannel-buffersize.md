@@ -54,6 +54,8 @@ This method returns ULONG which is the size in bytes of the buffer.
 
 The BufferSize method returns the buffer size that was set by the previous call to IDmaChannel::SetBufferSize. If SetBufferSize has not been called since the IDmaChannel::AllocateBuffer call, BufferSize returns the allocated buffer size. The DMA-channel object does not actually use this value internally. This value is maintained by the object to allow its various clients to communicate the intended size of the buffer. This call is often used to obtain the map-size parameter to the IDmaChannelSlave::Start method. 
 
+> [!NOTE]
+> Microsoft supports a diverse and inclusionary environment. Within this document, there are references to the word slave. Microsoft's Style Guide for Bias-Free Communications recognizes this as an exclusionary word. This wording is used as it is currently the wording used within the software.
 
 ## -see-also
 
