@@ -46,12 +46,12 @@ The **KeExpandKernelStackAndCalloutEx** routine calls a routine and guarantees t
 
 ### -param Callout
 
-A function pointer to an [*ExpandedStackCall*](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine. **KeExpandKernelStackAndCalloutEx** expands the stack, if necessary, before it calls this routine.
+A function pointer to an [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine. **KeExpandKernelStackAndCalloutEx** expands the stack, if necessary, before it calls this routine.
 
 
 ### -param Size
 
-Specifies the number of bytes of stack space to provide for the call to the [*ExpandedStackCall*](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine. This value must be large enough to accommodate the stack usage of the [*ExpandedStackCall*](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine and of any call that this routine might make. The Size value must not exceed MAXIMUM_EXPANSION_SIZE.
+Specifies the number of bytes of stack space to provide for the call to the [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine. This value must be large enough to accommodate the stack usage of the [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine and of any call that this routine might make. The Size value must not exceed MAXIMUM_EXPANSION_SIZE.
 
 
 ### -param Wait
@@ -66,7 +66,7 @@ Reserved. Always set this parameter to NULL.
 
 ### -param Parameter
 
-Specifies the parameter value to pass to the [*ExpandedStackCall*](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine.
+Specifies the parameter value to pass to the [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine.
 
 
 ## -returns
@@ -83,9 +83,9 @@ Specifies the parameter value to pass to the [*ExpandedStackCall*](https://docs.
 
 ## -remarks
 
-This routine first determines whether a minimum of *Size* bytes is available on the current stack for the call to the [*ExpandedStackCall*](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine. If not, **KeExpandKernelStackAndCalloutEx** tries to expand the current stack by *Size* bytes. If the current stack cannot be expanded by this amount, **KeExpandKernelStackAndCalloutEx** temporarily allocates a new kernel stack segment. If a stack of the required size is available, **KeExpandKernelStackAndCalloutEx** uses this stack to call the [*ExpandedStackCall*](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine.
+This routine first determines whether a minimum of *Size* bytes is available on the current stack for the call to the [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine. If not, **KeExpandKernelStackAndCalloutEx** tries to expand the current stack by *Size* bytes. If the current stack cannot be expanded by this amount, **KeExpandKernelStackAndCalloutEx** temporarily allocates a new kernel stack segment. If a stack of the required size is available, **KeExpandKernelStackAndCalloutEx** uses this stack to call the [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine.
 
-If **KeExpandKernelStackAndCalloutEx** is unable to obtain the required stack space, it returns without calling the [*ExpandedStackCall*](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine. **KeExpandKernelStackAndCalloutEx** returns STATUS_SUCCESS only if it is able to call the [*ExpandedStackCall*](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine. Otherwise, it returns an error code.
+If **KeExpandKernelStackAndCalloutEx** is unable to obtain the required stack space, it returns without calling the [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine. **KeExpandKernelStackAndCalloutEx** returns STATUS_SUCCESS only if it is able to call the [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine. Otherwise, it returns an error code.
 
 **KeExpandKernelStackAndCalloutEx** is not declared in a header file. To use this routine in your driver, include the following function declaration in your driver code:
 
@@ -107,15 +107,15 @@ KeExpandKernelStackAndCalloutEx (
 #endif
 ```
 
-The [**KeExpandKernelStackAndCallout**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout) routine is similar to **KeExpandKernelStackAndCalloutEx** but does not have *Wait* and *Context* parameters. In addition, [**KeExpandKernelStackAndCallout**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout) must always be called at IRQL <= APC_LEVEL, whereas **KeExpandKernelStackAndCalloutEx** can be called at DISPATCH_LEVEL (but only if *Wait* is **FALSE**).
+The [**KeExpandKernelStackAndCallout**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout) routine is similar to **KeExpandKernelStackAndCalloutEx** but does not have *Wait* and *Context* parameters. In addition, [**KeExpandKernelStackAndCallout**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout) must always be called at IRQL <= APC_LEVEL, whereas **KeExpandKernelStackAndCalloutEx** can be called at DISPATCH_LEVEL (but only if *Wait* is **FALSE**).
 
-The calling thread must not call the [**PsTerminateSystemThread**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-psterminatesystemthread) routine until the thread's [*ExpandedStackCall*](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine returns. [**PsTerminateSystemThread**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-psterminatesystemthread) checks to determine if the [*ExpandedStackCall*](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine is still active and, if it is, causes a bug check.
+The calling thread must not call the [**PsTerminateSystemThread**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-psterminatesystemthread) routine until the thread's [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine returns. [**PsTerminateSystemThread**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-psterminatesystemthread) checks to determine if the [*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) routine is still active and, if it is, causes a bug check.
 
 In Windows Vista and Windows Server 2008, **KeExpandKernelStackAndCalloutEx** must be called at IRQL <= APC_LEVEL. In Windows 7, Windows Server 2008 R2, and later versions of Windows, this routine can be called at IRQL <= DISPATCH_LEVEL. However, the *Wait* parameter must be **FALSE** if the routine is called at DISPATCH_LEVEL. If *Wait* is **TRUE**, the call must occur at IRQL <= APC_LEVEL.
 
 
 ## -see-also
 
-[*ExpandedStackCall*](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) 
-[**KeExpandKernelStackAndCallout**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout) 
-[**PsTerminateSystemThread**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/wdm/nf-wdm-psterminatesystemthread) 
+[*ExpandedStackCall*](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nc-ntddk-expand_stack_callout) 
+[**KeExpandKernelStackAndCallout**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-keexpandkernelstackandcallout) 
+[**PsTerminateSystemThread**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-psterminatesystemthread) 
