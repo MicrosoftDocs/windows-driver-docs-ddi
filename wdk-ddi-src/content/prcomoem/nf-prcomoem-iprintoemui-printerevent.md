@@ -58,7 +58,7 @@ The <code>IPrintOemUI::PrinterEvent</code> method allows a user interface plug-i
 
 ### -param pPrinterName
 
-Caller-supplied pointer to a NULL-terminated printer name string. The string can identify a local printer ("<i>PrinterName</i>") or remote printer ("\\<i>Machine</i>\<i>PrinterName</i>").
+Caller-supplied pointer to a NULL-terminated printer name string. The string can identify a local printer ("<i>PrinterName</i>") or remote printer ("\\<i>Machine</i>\\<i>PrinterName</i>").
 
 
 ### -param iDriverEvent
