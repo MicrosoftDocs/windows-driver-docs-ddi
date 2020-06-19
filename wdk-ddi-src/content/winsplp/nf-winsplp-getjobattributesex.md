@@ -65,7 +65,7 @@ Caller-supplied pointer to a NULL-terminated Unicode string that contains the pr
 
 ### -param pDevmode [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure that is passed to the print processor or printer driver.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure that is passed to the print processor or printer driver.
 
 
 ### -param dwLevel [in]
@@ -155,7 +155,7 @@ For example, if <i>dwLevel</i> is 4 and FILL_WITH_DEFAULTS is specified, <i>pAtt
 
 <b>dwDrvPageOrderFlags</b> = 0
 
-<b>dwJobNumberOfCopies</b> = <b>dmCopies</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a>
+<b>dwJobNumberOfCopies</b> = <b>dmCopies</b> member of <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
 
 
 <b>dwDrvNumberOfCopies</b>  = <b>dmCopies</b> member of DEVMODEW
@@ -212,7 +212,7 @@ This function first checks whether the driver supports the attribute level that 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
 
 
 

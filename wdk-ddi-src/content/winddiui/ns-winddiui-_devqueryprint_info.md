@@ -73,7 +73,7 @@ Spooler-supplied printer handle.
 
 ### -field pDevMode
 
-Spooler-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure describing printer characteristics required by the print job.
+Spooler-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure describing printer characteristics required by the print job.
 
 
 ### -field pszErrorStr

@@ -69,7 +69,7 @@ A handle that identifies the network interface provider that is registering the 
 ### -param NetLuid [in]
 
 The caller-supplied 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is associated with the
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is associated with the
      interface. The interface provider used the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-make-net-luid">NDIS_MAKE_NET_LUID</a> macro to create this
      NET_LUID value. The interface provider should recover the NET_LUID value from persistent storage after
@@ -176,7 +176,7 @@ NDIS interface providers call the
 Whenever a computer restarts, NDIS starts with an empty list of registered network interfaces. An
     interface provider calls the 
     <b>NdisIfRegisterInterface</b> function whenever an interface is started (or detected) and the interface's    
-    <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> is known.
+    <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> is known.
 
 The method for detecting or starting an interface is application dependent. For example, if an LBFO
     MUX intermediate driver is an interface provider, that driver might register an internal interface when
@@ -187,7 +187,7 @@ The method for detecting or starting an interface is application dependent. For 
 An interface provider can put information about an interface in persistent storage and restore the
     interface as required for the particular application. For example, the provider can store additional
     information about the interface with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> and it can reregister the interface after
+    <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> and it can reregister the interface after
     the computer restarts.
 
 If 
@@ -223,7 +223,7 @@ To indicate that an interface should be removed from the list of known interface
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 

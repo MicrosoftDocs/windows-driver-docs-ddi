@@ -107,7 +107,7 @@ The network interface index that is associated with the miniport adapter.
 ### -field NetLuid
 
 The 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is associated with the
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is associated with the
      miniport adapter.
 
 
@@ -171,7 +171,7 @@ NDIS passes a pointer to an initialized <b>NDIS_MINIPORT_INIT_PARAMETERS</b> str
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 

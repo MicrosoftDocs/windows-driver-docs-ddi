@@ -156,7 +156,7 @@ The NDIS interface index of the filter module.
 ### -field NetLuid
 
 The 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is assigned to the filter
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is assigned to the filter
      module. The NET_LUID is equivalent to the interface name (ifName in 
      RFC 2863).
 
@@ -197,7 +197,7 @@ A light-weight filter may dynamically insert or remove itself from the send or r
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 
