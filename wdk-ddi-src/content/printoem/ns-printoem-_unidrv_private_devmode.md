@@ -56,7 +56,7 @@ Reserved for system use.
 
 ### -field wSize
 
-The size, in bytes, of the private portion of Unidrv's [DEVMODEW](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew) structure.
+The size, in bytes, of the private portion of Unidrv's [DEVMODEW](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew) structure.
 
 ## -remarks
 
