@@ -67,7 +67,7 @@ Specifies the handle to the managed 2D resource that contains a dirtied 2D textu
 
 ### -field rDirtyArea
 
-Specifies the 2D texture that was marked as dirtied. This is a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure.
+Specifies the 2D texture that was marked as dirtied. This is a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure.
 
 
 ## -remarks
