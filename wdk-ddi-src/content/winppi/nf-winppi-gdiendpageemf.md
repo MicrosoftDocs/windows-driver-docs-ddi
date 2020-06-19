@@ -99,7 +99,7 @@ After the appropriate number of document pages have been placed on the physical 
 
 </li>
 <li>
-Whenever a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winppi/nf-winppi-gdigetdevmodeforpage">GdiGetDevmodeForPage</a> indicates a document page's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure is different from the previous page's DEVMODE structure.
+Whenever a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winppi/nf-winppi-gdigetdevmodeforpage">GdiGetDevmodeForPage</a> indicates a document page's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure is different from the previous page's DEVMODE structure.
 
 </li>
 </ul>
