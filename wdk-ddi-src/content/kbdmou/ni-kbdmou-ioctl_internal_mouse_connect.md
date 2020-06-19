@@ -136,12 +136,12 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_INVALID_PARAMETER
+**STATUS_INVALID_PARAMETER**
 
 <b>Parameters.DeviceIoControl.InputBufferLength</b> is less than the size, in bytes, of a CONNECT_DATA structure.
 
 
-#### -STATUS_SHARING_VIOLATION
+**STATUS_SHARING_VIOLATION**
 
 Moufiltr is already connected (a filter driver supports only one connect request).
 

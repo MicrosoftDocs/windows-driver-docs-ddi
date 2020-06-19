@@ -140,12 +140,12 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_INVALID_PARAMETER
+**STATUS_INVALID_PARAMETER**
 
 <b>Parameters.DeviceIoControl.InputBufferLength</b> is less than the size, in bytes, of an INTERNAL_I8042_HOOK_MOUSE structure.
 
 
-#### -STATUS_SUCCESS
+**STATUS_SUCCESS**
 
 The request completed successfully.
 

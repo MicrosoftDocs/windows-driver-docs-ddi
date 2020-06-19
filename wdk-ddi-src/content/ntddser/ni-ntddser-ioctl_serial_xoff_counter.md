@@ -119,17 +119,17 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 
 
-#### -STATUS_INVALID_PARAMETER
+**STATUS_INVALID_PARAMETER**
 
 The count value specified for the XOFF counter request is less than zero.
 
 
-#### -STATUS_SERIAL_COUNTER_TIMEOUT
+**STATUS_SERIAL_COUNTER_TIMEOUT**
 
 The request timed out.
 
 
-#### -STATUS_SERIAL_MORE_WRITES
+**STATUS_SERIAL_MORE_WRITES**
 
 A write request was received.
 

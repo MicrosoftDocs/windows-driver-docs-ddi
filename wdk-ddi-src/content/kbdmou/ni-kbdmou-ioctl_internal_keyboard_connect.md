@@ -142,7 +142,7 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_INVALID_PARAMETER
+**STATUS_INVALID_PARAMETER**
 
 <b>
 
@@ -150,14 +150,14 @@ The <b>Status</b> member is set to one of the following values:
 Parameters.DeviceIoControl.InputBufferLength</b> is less than the size, in bytes, of a CONNECT_DATA structure.
 
 
-#### -STATUS_SHARING_VIOLATION
+**STATUS_SHARING_VIOLATION**
 
 
 
 Kbfiltr is already connected (the filter driver supports only one connect request).
 
 
-#### -STATUS_SUCCESS
+**STATUS_SUCCESS**
 
 The request completed successfully.
 
