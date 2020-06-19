@@ -63,7 +63,7 @@ Caller-supplied printer handle.
 
 ### -param pdevmode [in]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
 
 
 ### -param ulQueryMode
