@@ -79,7 +79,7 @@ Specifies if the device object represents an [exclusive device](https://docs.mic
 
 ### -param DeviceObject [out]
 
-Pointer to a variable that receives a pointer to the newly created [DEVICE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure. The **DEVICE_OBJECT** structure is allocated from nonpaged pool.
+Pointer to a variable that receives a pointer to the newly created [DEVICE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure. The **DEVICE_OBJECT** structure is allocated from nonpaged pool. The device extension of the device object is zeroed.
 
 ## -returns
 
