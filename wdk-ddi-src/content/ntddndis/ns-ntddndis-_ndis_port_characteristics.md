@@ -150,7 +150,7 @@ The receive link speed of the port, in bits per second. A value of -1 in this me
 ### -field Direction
 
 A 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_direction_type">NET_IF_DIRECTION_TYPE</a> NDIS network
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_direction_type">NET_IF_DIRECTION_TYPE</a> NDIS network
      interface direction type.
 
 
@@ -330,7 +330,7 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_direction_type">NET_IF_DIRECTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_direction_type">NET_IF_DIRECTION_TYPE</a>
 
 
 
