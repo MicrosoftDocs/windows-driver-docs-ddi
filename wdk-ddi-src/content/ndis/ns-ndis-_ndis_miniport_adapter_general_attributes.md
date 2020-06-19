@@ -220,21 +220,21 @@ The receive side scaling (RSS) capabilities of the NIC. If the miniport adapter 
 ### -field AccessType
 
 A 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_access_type">NET_IF_ACCESS_TYPE</a> NDIS network interface
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_access_type">NET_IF_ACCESS_TYPE</a> NDIS network interface
      access type.
 
 
 ### -field DirectionType
 
 A 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_direction_type">NET_IF_DIRECTION_TYPE</a> NDIS network
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_direction_type">NET_IF_DIRECTION_TYPE</a> NDIS network
      interface direction type.
 
 
 ### -field ConnectionType
 
 A 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_connection_type">NET_IF_CONNECTION_TYPE</a> NDIS network
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_connection_type">NET_IF_CONNECTION_TYPE</a> NDIS network
      interface connection type.
 
 
@@ -547,15 +547,15 @@ A miniport driver passes a pointer to an NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTE
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_access_type">NET_IF_ACCESS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_access_type">NET_IF_ACCESS_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_connection_type">NET_IF_CONNECTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_connection_type">NET_IF_CONNECTION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_direction_type">NET_IF_DIRECTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_direction_type">NET_IF_DIRECTION_TYPE</a>
 
 
 

@@ -85,7 +85,9 @@ A pointer to a driver-defined context. The driver's callback function can store 
     If the callback function pointed to by <i>DriverRoutine</i> was invoked, this function returns STATUS_SUCCESS. The function returns an appropriate NTSTATUS value if the MDL could not be mapped or the callback function could not be invoked.
 
 
+## -remarks
 
+**MmMapMdl** maps the MDL (if it's not already mapped), invokes the callback, then releases the mapping (if one was created). The caller does not need to perform any cleanup.
 
 
 ## -see-also
