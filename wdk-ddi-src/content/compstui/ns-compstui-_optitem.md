@@ -190,7 +190,7 @@ Help file index, which identifies help text to be associated with the option. If
 
 ### -field DMPubID
 
-This member is meant for use by printer interface DLLs, when creating a **Document Properties** property sheet (see [DrvDocumentPropertySheets](https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets)). It is a constant value specifying which, if any, public member of the [DEVMODEW](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew) structure is associated with this option. The following table lists available constants, the associated DEVMODE structure member, and the required value for **pName** for each constant.
+This member is meant for use by printer interface DLLs, when creating a **Document Properties** property sheet (see [DrvDocumentPropertySheets](https://docs.microsoft.com/windows-hardware/drivers/ddi/winddiui/nf-winddiui-drvdocumentpropertysheets)). It is a constant value specifying which, if any, public member of the [DEVMODEW](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew) structure is associated with this option. The following table lists available constants, the associated DEVMODE structure member, and the required value for **pName** for each constant.
 
 | Constant Value | Required pName Value | Structure Member |
 | --- | --- | --- |
