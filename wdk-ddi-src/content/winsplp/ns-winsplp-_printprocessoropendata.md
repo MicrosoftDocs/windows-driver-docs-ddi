@@ -58,7 +58,7 @@ The PRINTPROCESSOROPENDATA structure is used as an input parameter to a print pr
 
 ### -field pDevMode
 
-Spooler-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure.
+Spooler-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure.
 
 
 ### -field pDatatype
@@ -96,7 +96,7 @@ Spooler-supplied pointer to a string representing the name of the printer to be 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a>
 
 
 
