@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-A printer interface DLL's <b>DrvConvertDevMode</b> function converts a printer's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure from one version to another.
+A printer interface DLL's <b>DrvConvertDevMode</b> function converts a printer's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure from one version to another.
 
 
 ## -parameters
