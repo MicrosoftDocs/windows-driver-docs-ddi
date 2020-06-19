@@ -78,7 +78,7 @@ The information is stored as a <b>KEY_VALUE_FULL_INFORMATION</b> structure that 
 
 ### -field KeyValuePartialInformationAlign64
 
-The information is stored as a <b>KEY_VALUE_PARTIAL_INFORMATION</b> structure that is aligned to a 64-bit (that is, 8-byte) boundary in memory. If the caller-supplied buffer does not start on a 64-bit boundary, the information is stored starting at the first 64-bit boundary in the buffer.
+The information is stored as a <b>KEY_VALUE_PARTIAL_INFORMATION_ALIGN64</b> structure that is aligned to a 64-bit (that is, 8-byte) boundary in memory. If the caller-supplied buffer does not start on a 64-bit boundary, the information is stored starting at the first 64-bit boundary in the buffer.
 
 
 ### -field KeyValueLayerInformation
