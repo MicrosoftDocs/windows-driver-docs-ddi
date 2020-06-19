@@ -192,7 +192,7 @@ The print processor should not use monochrome color optimization.
 
 ### -field dmPrintQuality
 
-Value to be used instead of the <b>dmPrintQuality</b> member of the print job's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure, if the COLOR_OPTIMIZATION flag is set in <b>dwColorOptimization</b>.
+Value to be used instead of the <b>dmPrintQuality</b> member of the print job's <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure, if the COLOR_OPTIMIZATION flag is set in <b>dwColorOptimization</b>.
 
 
 ### -field dmYResolution
