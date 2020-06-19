@@ -112,27 +112,27 @@ Because of  status code propagation from other APIs, the <b>Status</b> field can
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+**STATUS_BUFFER_TOO_SMALL**
 
 The output buffer length is smaller than required.
 
 
-#### -STATUS_INFO_LENGTH_MISMATCH
+**STATUS_INFO_LENGTH_MISMATCH**
 
 The input buffer length is smaller than required.
 
 
-#### -STATUS_INVALID_DEVICE_REQUEST
+**STATUS_INVALID_DEVICE_REQUEST**
 
 The device does not support this request.
 
 
-#### -STATUS_INVALID_PARAMETER
+**STATUS_INVALID_PARAMETER**
 
 The CDROM_PERFORMANCE_REQUEST header does not contain a valid combination of parameters specified by enumerations.
 
 
-#### -STATUS_SUCCESS
+**STATUS_SUCCESS**
 
 The request completed successfully.
 

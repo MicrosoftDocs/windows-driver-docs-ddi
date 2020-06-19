@@ -113,7 +113,7 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 
 
-#### -STATUS_INVALID_PARAMETER
+**STATUS_INVALID_PARAMETER**
 
 The value of the <b>Parameters.DeviceIoControl.InputBufferLength</b> member is less than the size, in bytes, of a PARCLASS_NEGOTIATION_MASK.
 

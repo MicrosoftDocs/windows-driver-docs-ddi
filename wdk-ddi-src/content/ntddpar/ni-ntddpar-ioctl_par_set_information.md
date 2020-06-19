@@ -111,27 +111,27 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+**STATUS_BUFFER_TOO_SMALL**
 
 <b>Parameters.DeviceIoControl.InputBufferLength</b> is less than the size, in bytes, of a PAR_SET_INFORMATION structure.
 
 
-#### -STATUS_DEVICE_NOT_CONNECTED
+**STATUS_DEVICE_NOT_CONNECTED**
 
 The device is not connected.
 
 
-#### -STATUS_DEVICE_OFF_LINE
+**STATUS_DEVICE_OFF_LINE**
 
 The device is offline.
 
 
-#### -STATUS_DEVICE_PAPER_EMPTY
+**STATUS_DEVICE_PAPER_EMPTY**
 
 The device is out of paper.
 
 
-#### -STATUS_DEVICE_POWERED_OFF
+**STATUS_DEVICE_POWERED_OFF**
 
 The device is not turned on.
 

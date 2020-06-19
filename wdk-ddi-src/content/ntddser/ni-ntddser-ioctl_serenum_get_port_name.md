@@ -106,17 +106,17 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+**STATUS_BUFFER_TOO_SMALL**
 
 The output buffer is too small to hold the port name string.
 
 
-#### -STATUS_SUCCESS
+**STATUS_SUCCESS**
 
 The request completed successfully.
 
 
-#### -STATUS_UNSUCCESSFUL
+**STATUS_UNSUCCESSFUL**
 
 An error occurred when opening the registry key for the device or reading the <b>PortName</b> (or <b>Identifier)</b> entry value.
 

@@ -111,7 +111,7 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 
 
-#### -STATUS_INVALID_PARAMETER
+**STATUS_INVALID_PARAMETER**
 
 <b>Parameters.DeviceIoControl.InputBufferLength</b> is less than the size, in bytes, of a UCHAR.
 

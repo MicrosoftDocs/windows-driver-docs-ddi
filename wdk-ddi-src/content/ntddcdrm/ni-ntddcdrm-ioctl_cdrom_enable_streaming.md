@@ -109,27 +109,27 @@ Because of  status code propagation from other APIs, the <b>Status</b> field can
 
 
 
-#### -STATUS_INFO_LENGTH_MISMATCH
+**STATUS_INFO_LENGTH_MISMATCH**
 
 The input buffer length is smaller than required.
 
 
-#### -STATUS_INVALID_DEVICE_REQUEST
+**STATUS_INVALID_DEVICE_REQUEST**
 
 The requested streaming mode is not supported.
 
 
-#### -STATUS_INVALID_HANDLE
+**STATUS_INVALID_HANDLE**
 
 Cannot find the file object context in the request.
 
 
-#### -STATUS_INVALID_PARAMETER
+**STATUS_INVALID_PARAMETER**
 
 The request type is not one of the four in types defined in the <b>STREAMING_CONTROL_REQUEST_TYPE</b> enumeration.
 
 
-#### -STATUS_SUCCESS
+**STATUS_SUCCESS**
 
 The request completed successfully.
 

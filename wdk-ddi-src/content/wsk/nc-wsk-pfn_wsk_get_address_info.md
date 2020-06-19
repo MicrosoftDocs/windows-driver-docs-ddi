@@ -90,7 +90,7 @@ The
      Only namespace providers that support the specified namespace can be queried successfully.
 
 
-### -param *Provider [in, optional]
+### -param Provider [in, optional]
 
 [in] An optional pointer to a GUID of a specific namespace provider to be queried.
 
@@ -111,7 +111,7 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-add
      Ws2def.h directly.</div>
 <div> </div>
 
-### -param *Result [out]
+### -param Result [out]
 
 [out] A pointer to a caller-allocated buffer that receives a linked list of one or more
      <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">ADDRINFOEXW</a> structures that represent response information about the host.

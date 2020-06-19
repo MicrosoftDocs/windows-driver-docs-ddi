@@ -110,12 +110,12 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+**STATUS_BUFFER_TOO_SMALL**
 
 The value of the <b>Parameters.DeviceIoControl.InputBufferLength</b> member is less than the size, in bytes, of a PARALLEL_CHIP_MODE structure.
 
 
-#### -STATUS_INVALID_DEVICE_STATE
+**STATUS_INVALID_DEVICE_STATE**
 
 The specified operating mode is not the same as the current operating mode of the parallel port.
 
