@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The print spooler's <code>IsValidDevmode</code> function verifies that the contents of a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODE</a> structure are valid.
+The print spooler's <code>IsValidDevmode</code> function verifies that the contents of a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODE</a> structure are valid.
 
 
 ## -parameters
@@ -100,7 +100,7 @@ This function does not require the caller to obtain elevated privileges.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODE</a>
  
 
  
