@@ -153,7 +153,7 @@ The name of the base miniport adapter.
 ### -field MediaConnectState
 
 The 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_media_connect_state">
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state">
      NET_IF_MEDIA_CONNECT_STATE</a> connection state type.
 
 
@@ -386,7 +386,7 @@ Filter drivers should avoid issuing unnecessary OID queries. Instead, use the in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_media_connect_state">NET_IF_MEDIA_CONNECT_STATE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state">NET_IF_MEDIA_CONNECT_STATE</a>
 
 
 
