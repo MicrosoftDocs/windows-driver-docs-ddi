@@ -56,7 +56,7 @@ The handle of the currently instantiated printer.
 
 ### -param cbDevMode [in]
 
-The size of the [DEVMODE](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew) structure, in bytes, including the driver's private DEVMODE data.
+The size of the [DEVMODE](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew) structure, in bytes, including the driver's private DEVMODE data.
 
 ### -param pDevMode [in]
 
