@@ -51,7 +51,7 @@ req.typenames:
 
 The 
   <b>NdisIfGetNetLuidFromInterfaceIndex</b> function gets the 
-  <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is associated with a network
+  <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is associated with a network
   interface index.
 
 
@@ -63,7 +63,7 @@ The
 ### -param ifIndex
 
 A network interface index that NDIS assigned to a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value in the 
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value in the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisifregisterinterface">
      NdisIfRegisterInterface</a> function.
 
@@ -119,7 +119,7 @@ The operation completed successfully.
 
 NDIS drivers can call the 
     <b>NdisIfGetNetLuidFromInterfaceIndex</b> function to get the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is associated with a network
+    <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is associated with a network
     interface index.
 
 For the interfaces that the NDIS proxy provider service manages, NDIS provides the interface index and
@@ -184,7 +184,7 @@ NDIS provides the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 

@@ -45,13 +45,13 @@ targetos: Windows
 
 ## -description
 
-The NDIS_MAKE_NET_LUID macro builds a [**NET_LUID**](https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh) value from an interface type and a NET_LUID index.
+The NDIS_MAKE_NET_LUID macro builds a [**NET_LUID**](https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh) value from an interface type and a NET_LUID index.
 
 ## -parameters
 
 ### -param _pNetLuid
 
-A pointer to a caller-supplied [**NET_LUID**](https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh) union. **NDIS_MAKE_NET_LUID** returns the newly created NET_LUID value in this variable.
+A pointer to a caller-supplied [**NET_LUID**](https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh) union. **NDIS_MAKE_NET_LUID** returns the newly created NET_LUID value in this variable.
 
 ### -param _IfType
 
@@ -63,7 +63,7 @@ A NET_LUID index that the caller allocated with the [**NdisIfAllocateNetLuidInde
 
 ## -remarks
 
-NDIS network interface providers should use the **NDIS_MAKE_NET_LUID** macro to build a [**NET_LUID**](https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh) value. The provider passes the resulting **NET_LUID** value to the [**NdisIfRegisterInterface**](../ndis/nf-ndis-ndisifregisterinterface.md) function to register the interface with NDIS.
+NDIS network interface providers should use the **NDIS_MAKE_NET_LUID** macro to build a [**NET_LUID**](https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh) value. The provider passes the resulting **NET_LUID** value to the [**NdisIfRegisterInterface**](../ndis/nf-ndis-ndisifregisterinterface.md) function to register the interface with NDIS.
 
 ## -see-also
 
@@ -71,4 +71,4 @@ NDIS network interface providers should use the **NDIS_MAKE_NET_LUID** macro to 
 
 [**NdisIfRegisterInterface**](../ndis/nf-ndis-ndisifregisterinterface.md)
 
-[**NET_LUID**](https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh)
+[**NET_LUID**](https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh)
