@@ -68,7 +68,7 @@ Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardwa
 
 ### -param pPublicDM
 
-Caller-supplied pointer to a validated <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure.
+Caller-supplied pointer to a validated <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structure.
 
 
 ### -param pOEMDM

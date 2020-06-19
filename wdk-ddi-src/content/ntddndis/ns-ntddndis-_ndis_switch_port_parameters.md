@@ -148,7 +148,7 @@ OID query requests of <a href="https://docs.microsoft.com/windows-hardware/drive
 
 Extensible switch extensions can access the  port property buffer inside an <b>NDIS_SWITCH_PORT_PARAMETERS</b> structure by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-switch-port-at-array-index">NDIS_SWITCH_PORT_AT_ARRAY_INDEX</a> macro.
 
-<div class="alert"><b>Note</b>  The <b>NDIS_SWITCH_PORT_NAME</b> and  <b>NDIS_SWITCH_PORT_FRIENDLYNAME</b> data types are type-defined by the <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_if_counted_string_lh">IF_COUNTED_STRING</a> structure. A string that is defined by this structure does not have to be null-terminated. However, the length of the string must be set in the <b>Length</b> member of this structure. If the string is null-terminated, the <b>Length</b> member must not include the terminating null character.
+<div class="alert"><b>Note</b>  The <b>NDIS_SWITCH_PORT_NAME</b> and  <b>NDIS_SWITCH_PORT_FRIENDLYNAME</b> data types are type-defined by the <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-if_counted_string_lh">IF_COUNTED_STRING</a> structure. A string that is defined by this structure does not have to be null-terminated. However, the length of the string must be set in the <b>Length</b> member of this structure. If the string is null-terminated, the <b>Length</b> member must not include the terminating null character.
 
 </div>
 <div> </div>
@@ -164,7 +164,7 @@ Extensible switch extensions can access the  port property buffer inside an <b>N
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_if_counted_string_lh">IF_COUNTED_STRING</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-if_counted_string_lh">IF_COUNTED_STRING</a>
 
 
 

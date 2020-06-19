@@ -48,7 +48,7 @@ req.typenames: OEM_DMEXTRAHEADER, *POEM_DMEXTRAHEADER
 ## -description
 
 
-The OEM_DMEXTRAHEADER structure must be used to define the first members of a set of private <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure members.
+The OEM_DMEXTRAHEADER structure must be used to define the first members of a set of private <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure members.
 
 
 ## -struct-fields
