@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>GdiGetDevmodeForPage</b> function returns <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> structures for the specified and previous pages of a print job.
+The <b>GdiGetDevmodeForPage</b> function returns <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structures for the specified and previous pages of a print job.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Caller-supplied spool file handle, obtained by a previous call to <a href="https
 
 ### -param dwPageNumber
 
-Caller-supplied number of the page for which <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devicemodew">DEVMODEW</a> contents are to be returned.
+Caller-supplied number of the page for which <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> contents are to be returned.
 
 
 ### -param pCurrDM
