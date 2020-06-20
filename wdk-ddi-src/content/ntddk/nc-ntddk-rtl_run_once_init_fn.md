@@ -53,14 +53,11 @@ The <i>RunOnceInitialization</i> routine performs a one-time initialization oper
 ## -syntax
 
 ```cpp
-RTL_RUN_ONCE_INIT_FN RtlRunOnceInitFn;
-
-ULONG RtlRunOnceInitFn(
-  PRTL_RUN_ONCE RunOnce,
-  PVOID *Parameter,
-  PVOID Context
-)
-{...}
+RTL_RUN_ONCE_INIT_FN (
+    _Inout_ PRTL_RUN_ONCE RunOnce,
+    _Inout_opt_ PVOID Parameter,
+    _Inout_opt_ PVOID *Context
+    );
 ```
 
 ## -parameters
