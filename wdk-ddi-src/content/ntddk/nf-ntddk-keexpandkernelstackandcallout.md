@@ -50,6 +50,16 @@ req.typenames:
 
 The <b>KeExpandKernelStackAndCallout</b> routine calls a routine with a guaranteed amount of stack space.
 
+## -syntax
+
+```cpp
+NTSTATUS
+KeExpandKernelStackAndCallout (
+    _In_ PEXPAND_STACK_CALLOUT Callout,
+    _In_opt_ PVOID Parameter,
+    _In_ SIZE_T Size
+    );
+```
 
 ## -parameters
 
