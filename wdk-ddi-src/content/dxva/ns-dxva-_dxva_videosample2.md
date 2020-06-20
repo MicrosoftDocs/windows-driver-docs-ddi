@@ -92,7 +92,7 @@ Specifies a collection of flags that indicate changes in the current sample fram
 
 ### -field lpDDSSrcSurface
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that represents the sample.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that represents the sample.
 
 
 ### -field rcSrc
@@ -130,7 +130,7 @@ For information about how input samples are arranged in the array in the <b>Sour
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
 
 
 
