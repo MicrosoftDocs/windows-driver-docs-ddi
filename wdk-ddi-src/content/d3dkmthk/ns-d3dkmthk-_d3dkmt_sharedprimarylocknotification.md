@@ -68,7 +68,7 @@ The D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure describes the shared primary 
 
 ### -field LockRect
 
-[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that indicates the upper-left and lower-right points of a rectangle on the shared primary surface; the operating system disables all sprites that intersect with this rectangle. If the OpenGL ICD specifies zero for each member of RECTL, the operating system disables all sprites on the shared primary surface.
+[in] A <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that indicates the upper-left and lower-right points of a rectangle on the shared primary surface; the operating system disables all sprites that intersect with this rectangle. If the OpenGL ICD specifies zero for each member of RECTL, the operating system disables all sprites on the shared primary surface.
 
 
 ## -see-also
@@ -80,7 +80,7 @@ The D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure describes the shared primary 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a>
  
 
  

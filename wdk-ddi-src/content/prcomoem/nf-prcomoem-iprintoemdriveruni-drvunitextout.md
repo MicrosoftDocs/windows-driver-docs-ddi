@@ -83,7 +83,7 @@ Pointer to a RECTL structure. GDI always sets this parameter to <b>NULL</b> in c
 
 ### -param prclOpaque
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that represents a single opaque rectangle. This rectangle is bottom-right exclusive. Pixels within this rectangle (those that are not foreground and not clipped) are to be rendered with the opaque brush. This rectangle always bounds the text to be drawn. If this parameter is <b>NULL</b>, no opaque pixels are to be rendered. 
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that represents a single opaque rectangle. This rectangle is bottom-right exclusive. Pixels within this rectangle (those that are not foreground and not clipped) are to be rendered with the opaque brush. This rectangle always bounds the text to be drawn. If this parameter is <b>NULL</b>, no opaque pixels are to be rendered. 
 
 
 ### -param pboFore
@@ -98,7 +98,7 @@ Pointer to a BRUSHOBJ structure that represents the opaque pixels. Both the fore
 
 ### -param pptlBrushOrg
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure that defines the brush origin for both brushes.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that defines the brush origin for both brushes.
 
 
 ### -param mix

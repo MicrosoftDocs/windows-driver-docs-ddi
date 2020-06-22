@@ -68,7 +68,7 @@ The D3DDDIARG_COLORFILL structure describes the parameters of a color-fill opera
 
 ### -field DstRect
 
-[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that indicates the upper-left and lower-right points of a rectangle on the surface to color fill. 
+[in] A <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that indicates the upper-left and lower-right points of a rectangle on the surface to color fill. 
 
 
 ### -field Color
@@ -94,7 +94,7 @@ A D3DCOLOR data type for the A8R8G8B8 fill color.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a>
  
 
  

@@ -58,7 +58,7 @@ The PDEV_ADJUST_PAPER_MARGIN structure specifies the imageable printing area.
 
 ### -field rcImageableArea
 
-Is a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that specifies the rectangular region that can be printed in. This region is specified in units of 0.001 mm.
+Is a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that specifies the rectangular region that can be printed in. This region is specified in units of 0.001 mm.
 
 
 ## -remarks
@@ -81,7 +81,7 @@ The <i>pBuf</i> parameter of the <a href="https://docs.microsoft.com/windows-har
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a>
+<a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a>
  
 
  

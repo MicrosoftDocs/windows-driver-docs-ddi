@@ -181,7 +181,7 @@ The <b>DriverEntry</b> routine also sets the driver's <i>AddDevice</i>, <i>Start
 
 The <b>HardwareDatabase</b> string can be used by device drivers to get hardware configuration information from the registry when the driver is loaded. A driver is given read-only access to this string.
 
-The <i>RegistryPath</i> input to the <b>DriverEntry</b> routine points to the <b>\Registry\Machine\System\CurrentControlSet\Services\<i>DriverName</i></b> key, where the value entry of <i>DriverName</i> identifies the driver. As for the <b>HardwareDatabase</b> in the input driver object, a driver is given read-only access to this string.
+The <i>RegistryPath</i> input to the <b>DriverEntry</b> routine points to the <b>\Registry\Machine\System\CurrentControlSet\Services\\<i>DriverName</i></b> key, where the value entry of <i>DriverName</i> identifies the driver. As for the <b>HardwareDatabase</b> in the input driver object, a driver is given read-only access to this string.
 
 Undocumented members within a driver object should be considered inaccessible. Drivers with dependencies on object member locations or on access to undocumented members might not remain portable and interoperable with other drivers over time.
 

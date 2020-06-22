@@ -53,6 +53,21 @@ The
   connection-oriented socket.
 
 
+## -syntax
+
+```cpp
+PFN_WSK_RECEIVE_EVENT PfnWskReceiveEvent;
+
+NTSTATUS PfnWskReceiveEvent(
+  PVOID SocketContext,
+  ULONG Flags,
+  PWSK_DATA_INDICATION DataIndication,
+  SIZE_T BytesIndicated,
+  SIZE_T BytesAccepted
+)
+{...}
+```
+
 ## -parameters
 
 

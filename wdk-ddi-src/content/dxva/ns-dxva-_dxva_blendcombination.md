@@ -58,7 +58,7 @@ The DXVA_BlendCombination structure is sent by the host decoder to the accelerat
 
 ### -field wPictureSourceIndex
 
-Specifies the uncompressed surface index, as defined by the contents of the DWORD pointed to by the <b>lpInputData</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_beginmocompframedata">DD_BEGINMOCOMPFRAMEDATA</a> in a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mocompcb_beginframe">DdMoCompBeginFrame</a>, of the picture to be combined with the graphic. This value is 0xFFFF if back-end hardware alpha blending is in use (when the <b>bConfigBlendType</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a> is 1).
+Specifies the uncompressed surface index, as defined by the contents of the DWORD pointed to by the <b>lpInputData</b> member of <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_beginmocompframedata">DD_BEGINMOCOMPFRAMEDATA</a> in a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mocompcb_beginframe">DdMoCompBeginFrame</a>, of the picture to be combined with the graphic. This value is 0xFFFF if back-end hardware alpha blending is in use (when the <b>bConfigBlendType</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a> is 1).
 
 
 ### -field wBlendedDestinationIndex
@@ -303,7 +303,7 @@ When the <b>bConfigBlendType</b> member of the DXVA_ConfigAlphaCombine structure
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_beginmocompframedata">DD_BEGINMOCOMPFRAMEDATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_beginmocompframedata">DD_BEGINMOCOMPFRAMEDATA</a>
 
 
 

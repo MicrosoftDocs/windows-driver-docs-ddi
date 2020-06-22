@@ -113,7 +113,7 @@ Specifies the number of bytes of valid command data in the surface that <b>lpDDC
 
 ### -field lpDDVertex
 
-Points to the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure that identifies the DirectDraw surface containing the vertex data when the D3DHALDP2_USERMEMVERTICES flag is not set in <b>dwFlags</b>. Forms a union with <b>lpVertices</b>. 
+Points to the <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that identifies the DirectDraw surface containing the vertex data when the D3DHALDP2_USERMEMVERTICES flag is not set in <b>dwFlags</b>. Forms a union with <b>lpVertices</b>. 
 
 
 ### -field lpVertices
@@ -201,11 +201,11 @@ To calculate the valid data, in bytes, that exists in the surface at <b>lpDDVert
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_global">DD_SURFACE_GLOBAL</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_global">DD_SURFACE_GLOBAL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
  
 
  
