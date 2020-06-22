@@ -3,7 +3,6 @@
   "headers": [
     "dbgeng.h",
     "dbgmodel.h",
-    "engextcpp.h",
     "engextcpp.hpp",
     "extsfns.h",
     "wdbgexts.h"
