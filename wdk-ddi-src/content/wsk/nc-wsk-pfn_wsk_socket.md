@@ -52,27 +52,6 @@ The
   <b>WskSocket</b> function creates a new socket and returns a pointer to the associated socket object.
 
 
-## -syntax
-
-```cpp
-PFN_WSK_SOCKET PfnWskSocket;
-
-NTSTATUS PfnWskSocket(
-  PWSK_CLIENT Client,
-  ADDRESS_FAMILY AddressFamily,
-  USHORT SocketType,
-  ULONG Protocol,
-  ULONG Flags,
-  PVOID SocketContext,
-  const VOID Dispatch,
-  PEPROCESS OwningProcess,
-  PETHREAD OwningThread,
-  PSECURITY_DESCRIPTOR SecurityDescriptor,
-  PIRP Irp
-)
-{...}
-```
-
 ## -parameters
 
 
