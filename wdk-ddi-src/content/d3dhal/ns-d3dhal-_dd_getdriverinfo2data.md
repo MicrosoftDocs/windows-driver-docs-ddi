@@ -52,7 +52,7 @@ req.typenames: DD_GETDRIVERINFO2DATA
    DirectX 8.0 and later versions only.
    
 
-DD_GETDRIVERINFO2DATA is passed in the <b>lpvData</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> structure when GUID_GetDriverInfo2 is specified in the <b>guidInfo</b> member of DD_GETDRIVERINFODATA in a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> call.
+DD_GETDRIVERINFO2DATA is passed in the <b>lpvData</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> structure when GUID_GetDriverInfo2 is specified in the <b>guidInfo</b> member of DD_GETDRIVERINFODATA in a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a> call.
 
 
 ## -struct-fields
@@ -67,7 +67,7 @@ Specifies a reserved field. Driver should not read or write.
 
 ### -field dwMagic
 
-Specifies the magic number. Has the value D3DGDI2_MAGIC if this is a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/supporting-getdriverinfo2">GetDriverInfo2</a> call. Otherwise this structure is, in fact, a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_stereomode">DD_STEREOMODE</a> call.
+Specifies the magic number. Has the value D3DGDI2_MAGIC if this is a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/supporting-getdriverinfo2">GetDriverInfo2</a> call. Otherwise this structure is, in fact, a <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_stereomode">DD_STEREOMODE</a> call.
 
 
 ### -field dwType
@@ -210,7 +210,7 @@ For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>
 
 
 
@@ -234,7 +234,7 @@ For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentat
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_stereomode">DD_STEREOMODE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_stereomode">DD_STEREOMODE</a>
 
 
 
