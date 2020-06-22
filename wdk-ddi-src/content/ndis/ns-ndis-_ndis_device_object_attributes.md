@@ -73,7 +73,7 @@ The
 
 A pointer to a variable of type NDIS_STRING that contains a null-terminated Unicode string that
      names the device object. The string must be a full path name--for example, 
-     \Device\<i>DeviceName</i>. For Microsoft Windows 2000 and later, NDIS defines the NDIS_STRING type as a 
+     \Device\\<i>DeviceName</i>. For Microsoft Windows 2000 and later, NDIS defines the NDIS_STRING type as a 
      <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> type.
 
 
@@ -82,7 +82,7 @@ A pointer to a variable of type NDIS_STRING that contains a null-terminated Unic
 A pointer to a variable of type NDIS_STRING that contains a Unicode string that is the
      Win32-visible name of the device being registered. Typically, 
      <b>SymbolicName</b> has the following format: 
-     \DosDevices\<i>SymbolicName</i>.
+     \DosDevices\\<i>SymbolicName</i>.
 
 
 ### -field MajorFunctions

@@ -1064,7 +1064,7 @@ Specifies the code point of the space character or its equivalent.
 
 ### -field ptlBaseline
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_pointl">POINTL</a> structure that contains the intended writing direction of this font. For example, a typical Latin font specifies a value of (1,0).
+Specifies a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-pointl">POINTL</a> structure that contains the intended writing direction of this font. For example, a typical Latin font specifies a value of (1,0).
 
 
 ### -field ptlAspect
@@ -1079,7 +1079,7 @@ Specifies a POINTL structure that contains the direction of the ascender directi
 
 ### -field rclFontBox
 
-Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that describes the bounding box of all glyphs in the font in design space.
+Specifies a <a href="https://docs.microsoft.com/windows/win32/api/windef/ns-windef-rectl">RECTL</a> structure that describes the bounding box of all glyphs in the font in design space.
 
 
 ### -field achVendId

@@ -221,9 +221,12 @@ Specifies the size, in bytes, of the <i>Data</i> buffer. If <i>Type</i> is REG_<
 
 
 
-<b>ZwSetValueKey</b> returns an NTSTATUS value. Possible return values include:
+<b>ZwSetValueKey</b> returns **STATUS_SUCCESS** if the operation succeeds. Otherwise, this routine might return one of the following values:
 
-
+|Return code|Description|
+|-|-|
+|**STATUS_ACCESS_DENIED**|The caller does not have appropriate access to the registry value.|
+|**STATUS_INVALID_HANDLE**|The handle is invalid.|
 
 
 ## -remarks
