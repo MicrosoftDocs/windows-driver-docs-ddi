@@ -56,12 +56,12 @@ The <i>NdkConnect</i> (<i>NDK_FN_CONNECT</i>) function initiates an NDK  connect
 
 
 
-### -param *pNdkConnector [in]
+### -param pNdkConnector [in]
 
 A pointer to an NDK connector object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>).
 
 
-### -param *pNdkQp [in]
+### -param pNdkQp [in]
 
 A pointer to an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>) to associate with the connection.
 

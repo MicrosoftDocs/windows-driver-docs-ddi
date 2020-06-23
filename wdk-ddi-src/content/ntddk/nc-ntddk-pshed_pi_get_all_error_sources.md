@@ -66,7 +66,7 @@ A pointer to the context area that was specified in the <b>Context</b> member of
 A pointer to a ULONG-typed variable. When the <i>GetAllErrorSources</i> callback function is called, this variable contains the number of error source descriptor structures that are contained in the buffer pointed to by the <i>ErrorSources</i> parameter as provided by the PSHED. If the <i>GetAllErrorSources</i> callback function changes the number of error source descriptor structures that are in the buffer, it must set this variable to the new number of error source descriptor structures before it returns.
 
 
-### -param *ErrorSrcs
+### -param ErrorSrcs
 
 
 ### -param Length [in, out]

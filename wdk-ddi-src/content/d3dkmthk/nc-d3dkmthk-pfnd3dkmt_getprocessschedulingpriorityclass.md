@@ -71,7 +71,7 @@ NTSTATUS Pfnd3dkmtGetprocessschedulingpriorityclass
 
 A handle to a display device.
 
-### -param * 
+### -param  
 
 Pointer to a D3DKMT_SCHEDULINGPRIORITYCLASS structure.
 

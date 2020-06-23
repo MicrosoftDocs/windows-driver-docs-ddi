@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtSethwprotectionteardownrecovery
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY](ns-d3dkmthk-_d3dkmt_sethwprotectionteardownrecovery.md) structure.
 

@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtInvalidatecache
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_INVALIDATECACHE](ns-d3dkmthk-_d3dkmt_invalidatecache.md) structure.
 

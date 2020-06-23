@@ -80,7 +80,7 @@ Native frames.
 Specifies the number of native frames.
 
 
-### -param *StackSymFrames [out]
+### -param StackSymFrames [out]
 
 A pointer to a symbol frames stack.
 

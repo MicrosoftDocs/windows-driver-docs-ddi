@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtGetscanline
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_GETSCANLINE](ns-d3dkmthk-_d3dkmt_getscanline.md) structure.
 

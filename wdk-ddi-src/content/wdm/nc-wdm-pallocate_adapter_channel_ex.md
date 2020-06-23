@@ -113,7 +113,7 @@ If the <b>DMA_SYNCHRONOUS_CALLBACK</b> flag is set, the <i>ExecutionRoutine</i> 
 The driver-determined, adapter-control context. This context is passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_control">AdapterControl</a> routine as the <i>Context</i> parameter.
 
 
-### -param *MapRegisterBase [out, optional]
+### -param MapRegisterBase [out, optional]
 
 A pointer to a variable into which the routine writes a handle to the allocated map registers. The caller can supply this handle as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pflush_adapter_buffers_ex">FlushAdapterBuffersEx</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pflush_adapter_buffers">FlushAdapterBuffers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pfree_map_registers">FreeMapRegisters</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a> routine.
 

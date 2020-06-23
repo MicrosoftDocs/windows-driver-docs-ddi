@@ -79,12 +79,12 @@ The number of additional events that are supplied in the <i>pAdditionalWaitEvent
 A maximum of 4 wait events can be supplied.
 
 
-### -param *pAdditionalWaitEvents [in, optional]
+### -param pAdditionalWaitEvents [in, optional]
 
 An optional pointer to an array of events that  <b>GetNextChunkData</b> will wait on while waiting for a new encode chunk.
 
 
-### -param *pChunkDataBufferSize [in, out]
+### -param pChunkDataBufferSize [in, out]
 
 A pointer to a variable that contains the size, in bytes, of the <i>pChunkDataBuffer</i> buffer.
 
@@ -93,12 +93,12 @@ When <b>GetNextChunkData</b> is called, this parameter contains the size of <i>p
 When  <b>GetNextChunkData</b> returns a success code, this parameter contains the size of actual encode chunk data returned in <i>pChunkDataBuffer</i>.
 
 
-### -param *pChunkDataBuffer [out]
+### -param pChunkDataBuffer [out]
 
 A pointer to a buffer of type  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-miracast_chunk_data">MIRACAST_CHUNK_DATA</a> that the operating system provides to store information about the next encode chunk. This parameter is provided only if the call to <b>GetNextChunkData</b> is successful.
 
 
-### -param *pOutstandingChunksToProcess [out]
+### -param pOutstandingChunksToProcess [out]
 
 A pointer to a variable that contains the number of outstanding encode chunks that are available for the driver at the time this call returned.  This parameter is provided only if the call to <b>GetNextChunkData</b> is successful.
 

@@ -77,7 +77,7 @@ NTSTATUS DxgkddiOpmCreateProtectedOutputNonlocalDisplay
 ### -param MiniportDeviceContext 
 ### -param NewVideoOutputSemantics: 
 ### -param OPMEncoderContext 
-### -param *pActualOutputFormat: 
+### -param pActualOutputFormat: 
 ### -param NonLocalOutputId: 
 ### -param NonLocalConnectorType: 
 ### -param NewProtectedOutputHandle: 

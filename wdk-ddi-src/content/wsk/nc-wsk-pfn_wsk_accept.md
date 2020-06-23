@@ -79,7 +79,7 @@ A pointer to a caller-supplied context for the socket that is being accepted. Th
      <b>NULL</b>.
 
 
-### -param *AcceptSocketDispatch [in, optional]
+### -param AcceptSocketDispatch [in, optional]
 
 A pointer to a constant 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">

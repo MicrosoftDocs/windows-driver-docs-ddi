@@ -76,7 +76,7 @@ VOID *PfnIddcxadaptersetrenderadapter
 
 ### -param AdapterObject
 
-### -param *pInArgs
+### -param pInArgs
 
 
 

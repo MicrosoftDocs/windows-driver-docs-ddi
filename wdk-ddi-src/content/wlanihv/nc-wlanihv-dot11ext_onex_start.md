@@ -79,7 +79,7 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
      Handler function.
 
 
-### -param *pEapAttributes
+### -param pEapAttributes
 
 
 

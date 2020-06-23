@@ -88,7 +88,7 @@ Maximum frame count. <i>MaxNumFrames</i> is ignored if it is set to <b>WDI_TX_MA
 Credit. <i>Credit</i> is ignored if it is set to <b>WDI_TX_CREDIT_INVALID</b> (0xFFFF).
 
 
-### -param *ppNBL [out]
+### -param ppNBL [out]
 
 Pointer to a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain of released frames.
 

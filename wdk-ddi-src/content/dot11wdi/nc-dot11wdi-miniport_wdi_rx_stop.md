@@ -74,7 +74,7 @@ TAL device handle returned by the IHV miniport in <a href="https://docs.microsof
 The port ID.
 
 
-### -param *pWifiStatus [out]
+### -param pWifiStatus [out]
 
 Status from the IHV miniport. A success status indicates that the operation completion synchronously.  A pending status indicates that the stop will be asynchronously confirmed.
 

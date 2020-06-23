@@ -56,17 +56,17 @@ The <i>NdkConnectWithSharedEndpoint</i> (<i>NDK_FN_CONNECT_WITH_SHARED_ENDPOINT<
 
 
 
-### -param *pNdkConnector [in]
+### -param pNdkConnector [in]
 
 A pointer to an NDK connector object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>).
 
 
-### -param *pNdkQp [in]
+### -param pNdkQp [in]
 
 A pointer to an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>) to be associated with the connection.
 
 
-### -param *pNdkSharedEndpoint [in]
+### -param pNdkSharedEndpoint [in]
 
 A pointer to an NDK shared endpoint object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_shared_endpoint">NDK_SHARED_ENDPOINT</a>) that determines the local address for the connection.
 

@@ -71,7 +71,7 @@ NTSTATUS *PfnTrsecuredevicecallossservice
 ### -param Device: 
 ### -param OSServiceGuid: 
 ### -param CallData: 
-### -param *BytesWritten: 
+### -param BytesWritten: 
 
 
 

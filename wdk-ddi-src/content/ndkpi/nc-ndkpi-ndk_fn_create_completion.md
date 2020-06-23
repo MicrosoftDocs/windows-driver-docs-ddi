@@ -66,7 +66,7 @@ The context value passed to the NDK provider when a consumer calls an object cre
 The asynchronous completion status for the create request. See the object creation functions (for example, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_cq">NDK_FN_CREATE_CQ</a>) for completion status codes that can be returned for each type of object.
 
 
-### -param *pNdkObject [in]
+### -param pNdkObject [in]
 
 A pointer to an NDK object header (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>).
 

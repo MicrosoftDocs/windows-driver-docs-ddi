@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtOpenkeyedmutex
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_OPENKEYEDMUTEX](ns-d3dkmthk-_d3dkmt_openkeyedmutex.md) structure.
 

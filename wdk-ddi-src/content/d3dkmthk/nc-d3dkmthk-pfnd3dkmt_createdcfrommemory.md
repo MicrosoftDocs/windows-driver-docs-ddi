@@ -50,7 +50,7 @@ The <b>D3DKMTCreateDCFromMemory</b> function creates a display context from a sp
 
 ## -parameters
 
-### -param *
+### -param 
 
 *pData* [in, out]
 

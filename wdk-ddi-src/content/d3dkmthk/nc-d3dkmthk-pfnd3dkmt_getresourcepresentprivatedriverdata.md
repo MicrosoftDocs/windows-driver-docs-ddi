@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtGetresourcepresentprivatedriverdata
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA](../d3dukmdt/ns-d3dukmdt-_d3dddi_getresourcepresentprivatedriverdata.md) structure.
 

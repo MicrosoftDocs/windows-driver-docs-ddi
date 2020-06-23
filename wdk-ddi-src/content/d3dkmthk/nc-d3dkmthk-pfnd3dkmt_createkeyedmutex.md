@@ -50,7 +50,7 @@ The <b>D3DKMTCreateKeyedMutex</b> function creates a keyed mutex object.
 
 ## -parameters
 
-### -param *
+### -param 
 
 *pData* [in, out]
 

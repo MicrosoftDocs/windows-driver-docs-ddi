@@ -70,7 +70,7 @@ The size, supplied by the operating system, of the <a href="https://docs.microso
 The driver should check this value before it fills the structure.
 
 
-### -param *MiracastCaps [out]
+### -param MiracastCaps [out]
 
 A pointer to an operating system-provided buffer that holds a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_dxgk_miracast_caps">DXGK_MIRACAST_CAPS</a> structure that the driver fills with Miracast device capabilities.
 

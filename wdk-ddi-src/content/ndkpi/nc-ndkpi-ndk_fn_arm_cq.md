@@ -56,7 +56,7 @@ The <i>NdkArmCq</i> (<i>NDK_FN_ARM_CQ</i>) function arms an NDK completion queue
 
 
 
-### -param *pNdkCq [in]
+### -param pNdkCq [in]
 
 A pointer to an NDK completion queue object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_cq">NDK_CQ</a>).
 

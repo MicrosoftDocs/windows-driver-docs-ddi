@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtCreatecontextvirtual
 
 ## -parameters
 
-### -param *
+### -param 
 
 [in, out] Pointer to a [D3DKMT_CREATECONTEXTVIRTUAL](ns-d3dkmthk-_d3dkmt_createcontextvirtual.md) structure.
 

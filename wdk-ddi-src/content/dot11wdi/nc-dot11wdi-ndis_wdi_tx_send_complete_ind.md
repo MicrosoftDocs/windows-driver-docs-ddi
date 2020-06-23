@@ -75,12 +75,12 @@ The TX status, specified as a <a href="https://docs.microsoft.com/windows-hardwa
 The number of completed sends.
 
 
-### -param *WifiTxFrameIdList [in]
+### -param WifiTxFrameIdList [in]
 
 An array of frame IDs. The size of the array is the value of <i>NumCompletedSends</i>.
 
 
-### -param *WifiTxCompleteList [in, optional]
+### -param WifiTxCompleteList [in, optional]
 
 An array of TX completion data. The size of the array is the value of <i>NumCompletedSends</i>.
 

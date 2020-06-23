@@ -71,12 +71,12 @@ Optional. Pointer to a <a href="https://docs.microsoft.com/windows-hardware/driv
 Optional. Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a> structure that stores attributes for the previous format.
 
 
-### -param *DataRange [in]
+### -param DataRange [in]
 
 Pointer to a <a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structure. The data range for the new format.
 
 
-### -param *AttributeRange [in, optional]
+### -param AttributeRange [in, optional]
 
 Optional. The attribute range for the new format.
 

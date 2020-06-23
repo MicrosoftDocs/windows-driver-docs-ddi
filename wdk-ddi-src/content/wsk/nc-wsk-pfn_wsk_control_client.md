@@ -148,7 +148,7 @@ A caller-allocated buffer that receives any output data that is returned by the 
      <i>OutputSize</i> parameter to zero.
 
 
-### -param *OutputSizeReturned [out, optional]
+### -param OutputSizeReturned [out, optional]
 
 A pointer to a ULONG-typed variable that receives the number of bytes of data that is returned in
      the buffer that is pointed to by the 

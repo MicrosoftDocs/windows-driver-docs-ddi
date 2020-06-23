@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtSignalsynchronizationobject2
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_SIGNALSYNCHRONIZATIONOBJECT2](ns-d3dkmthk-_d3dkmt_signalsynchronizationobject2.md) structure.
 

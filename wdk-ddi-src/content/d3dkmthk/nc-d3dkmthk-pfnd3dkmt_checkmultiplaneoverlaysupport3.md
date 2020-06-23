@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtCheckmultiplaneoverlaysupport3
 
 ## -parameters
 
-### -param *
+### -param 
 
 [in, out] Pointer to a [D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3](ns-d3dkmthk-_d3dkmt_checkmultiplaneoverlaysupport3.md) structure.
 

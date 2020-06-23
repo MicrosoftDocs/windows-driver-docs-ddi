@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtGetavailabletrackedworkloadindex
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX](ns-d3dkmthk-_d3dkmt_getavailabletrackedworkloadindex.md) structure to get the available tracked workload index.
 

@@ -95,7 +95,7 @@ A pointer to a caller-allocated input buffer that contains the data required to 
      operation. The format of this data is defined by the IHV.
 
 
-### -param *pdwOutBufferSize [in, out]
+### -param pdwOutBufferSize [in, out]
 
 A pointer to a caller-allocated DWORD variable. When the
      <b>Dot11ExtNicSpecificExtension</b> function is called, the IHV Extensions DLL

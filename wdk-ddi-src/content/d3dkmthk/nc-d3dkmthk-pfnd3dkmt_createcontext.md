@@ -50,7 +50,7 @@ The <b>D3DKMTCreateContext</b> function creates a kernel-mode device context.
 
 ## -parameters
 
-### -param *
+### -param 
 
 *pData* [in, out]
 

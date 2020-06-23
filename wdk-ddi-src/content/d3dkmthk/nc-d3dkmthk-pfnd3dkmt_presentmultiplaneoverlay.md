@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtPresentmultiplaneoverlay
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_PRESENT_MULTIPLANE_OVERLAY](ns-d3dkmthk-d3dkmt_present_multiplane_overlay.md) structure.
 

@@ -56,13 +56,13 @@ The <i>NdkRegisterMr</i> (<i>NDK_FN_REGISTER_MR</i>) function registers a virtua
 
 
 
-### -param *pNdkMr [in]
+### -param pNdkMr [in]
 
 A pointer to an NDK memory region (MR) object
 (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>).
 
 
-### -param *Mdl [in]
+### -param Mdl [in]
 
 An MDL or chain of MDLs that represent a virtually contiguous memory region from the starting virtual address up to the number of bytes specified in the <i>Length</i> parameter.
 

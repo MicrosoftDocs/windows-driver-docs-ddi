@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtMakeresident
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DDDI_MAKERESIDENT](../d3dukmdt/ns-d3dukmdt-d3dddi_makeresident.md) structure.
 

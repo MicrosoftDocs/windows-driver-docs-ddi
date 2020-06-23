@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtDestroyallocation
 
 ## -parameters
 
-### -param *
+### -param 
 
 Pointer to a [D3DKMT_DESTROYALLOCATION](ns-d3dkmthk-_d3dkmt_destroyallocation.md) structure.
 

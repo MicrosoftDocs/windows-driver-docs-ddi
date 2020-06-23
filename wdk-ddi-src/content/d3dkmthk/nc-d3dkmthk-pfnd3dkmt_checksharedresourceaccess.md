@@ -56,7 +56,7 @@ The <b>D3DKMTCheckSharedResourceAccess</b> function determines if a process can 
 
 
 
-### -param *
+### -param 
 
 *pData* [in]
 

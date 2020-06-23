@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtEscape
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_ESCAPE](ns-d3dkmthk-_d3dkmt_escape.md) structure.
 

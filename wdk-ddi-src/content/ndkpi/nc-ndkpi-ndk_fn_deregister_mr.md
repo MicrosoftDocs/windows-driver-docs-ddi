@@ -56,7 +56,7 @@ The <i>NdkDeregisterMr</i> (<i>NDK_FN_DEREGISTER_MR</i>) function deregisters a 
 
 
 
-### -param *pNdkMr [in]
+### -param pNdkMr [in]
 
 A pointer to an NDK memory region (MR) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>) that is in the registered state.
 

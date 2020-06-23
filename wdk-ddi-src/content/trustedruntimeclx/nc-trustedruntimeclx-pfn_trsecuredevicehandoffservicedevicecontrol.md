@@ -71,7 +71,7 @@ WDFAPI PfnTrsecuredevicehandoffservicedevicecontrol
 ### -param DeviceInit: 
 ### -param ServiceGuid: 
 ### -param Callbacks: 
-### -param *ServiceDevice: 
+### -param ServiceDevice: 
 
 
 

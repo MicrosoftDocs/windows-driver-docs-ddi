@@ -138,7 +138,7 @@ Not used. Set to <b>NULL</b>.
 Not used. Set to <b>NULL</b>.
 
 
-### -param *ScatterGatherList [out, optional]
+### -param ScatterGatherList [out, optional]
 
 A pointer to a variable into which the routine writes a pointer to the allocated scatter/gather list. This parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure. The routine allocates this structure and the <b>SCATTER_GATHER_ELEMENT</b> array that it points to.
 

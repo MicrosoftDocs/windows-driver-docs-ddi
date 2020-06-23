@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtOpenadapterfromgdidisplayname
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME](ns-d3dkmthk-_d3dkmt_openadapterfromgdidisplayname.md) structure.
 

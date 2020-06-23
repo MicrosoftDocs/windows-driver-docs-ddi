@@ -50,7 +50,7 @@ Sets and releases the video present source in the path of a video present networ
 
 ## -parameters
 
-### -param *
+### -param 
 
 *pSetVidPnSourceOwner1* 
 

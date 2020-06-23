@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtMapgpuvirtualaddress
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DDDI_MAPGPUVIRTUALADDRESS](../d3dukmdt/ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md) structure.
 

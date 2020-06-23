@@ -133,7 +133,7 @@ A pointer to a caller-supplied context for the socket that is being created. The
      event callback functions on the new socket, it should set this pointer to <b>NULL</b>.
 
 
-### -param *Dispatch [in, optional]
+### -param Dispatch [in, optional]
 
 A pointer to a constant 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_client_connection_dispatch">

@@ -56,7 +56,7 @@ The <i>NdkFastRegister</i> (<i>NDK_FN_FAST_REGISTER</i>) function fast-registers
 
 
 
-### -param *pNdkQp [in]
+### -param pNdkQp [in]
 
 A pointer to an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
@@ -67,7 +67,7 @@ A  context value to return in the <b>RequestContext</b> member of the <a href="h
 
 
 
-### -param *pMr [in]
+### -param pMr [in]
 
 A pointer to an NDK memory region (MR) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>) that was initialized for fast registration.
 

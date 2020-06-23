@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtWaitforsynchronizationobject2
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2](ns-d3dkmthk-_d3dkmt_waitforsynchronizationobject2.md) structure.
 

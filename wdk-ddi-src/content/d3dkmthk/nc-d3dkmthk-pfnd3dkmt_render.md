@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtRender
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_RENDER](ns-d3dkmthk-_d3dkmt_render.md) structure.
 

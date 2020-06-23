@@ -56,7 +56,7 @@ The <b>PWINDBG_DISASM</b> (<b>Disasm</b>) function disassembles the instruction 
 
 
 
-### -param *lpOffset
+### -param lpOffset
 
 Points to the instruction to be disassembled.
 

@@ -56,7 +56,7 @@ The <i>NdkGetListenerLocalAddress</i> (<i>NDK_FN_GET_LISTENER_LOCAL_ADDRESS</i>)
 
 
 
-### -param *pNdkListener [in]
+### -param pNdkListener [in]
 
 A pointer to an NDK listener object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener">NDK_LISTENER</a>).
 
@@ -66,7 +66,7 @@ A pointer to an NDK listener object (<a href="https://docs.microsoft.com/windows
 A local address for a listener is returned in this buffer.
 
 
-### -param *pAddressLength
+### -param pAddressLength
 
 The size, in bytes, of the address buffer for input, and the size, in bytes, of the actual address written into the buffer for output.
 

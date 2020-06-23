@@ -53,7 +53,7 @@ Use [*DxgkDdiOPMCreateProtectedOutputNonlocalDisplay*](nc-dispmprt-dxgkddi_opm_c
 
 ### -param NewVideoOutputSemantics
 
-### -param *pActualOutputFormat
+### -param pActualOutputFormat
 
 ### -param NewProtectedOutputHandle
 

@@ -57,13 +57,13 @@ The filter engine calls the <i>vSwitchInterfaceEventNotifyFn</i>  (<i>FWPS_VSWIT
 
 
 
-### -param *notifyContext [in, optional]
+### -param notifyContext [in, optional]
 
 A pointer to a context provided by the callout driver. The driver passed this pointer to the <i>notifyContext</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
  function. This parameter is optional and can be NULL.
 
 
-### -param *completionContext [in]
+### -param completionContext [in]
 
 A pointer to a completion context provided by the callout driver. This parameter is optional and can be NULL.
 
@@ -75,7 +75,7 @@ A pointer to a completion context provided by the callout driver. This parameter
 The type of virtual switch event  specified as one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ne-fwpsk-fwps_vswitch_event_type_">FWPS_VSWITCH_EVENT_TYPE</a> enumeration values. For more information, see Remarks.
 
 
-### -param *vSwitch [in]
+### -param vSwitch [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_parameters">NDIS_SWITCH_PARAMETERS</a> structure that contains information about a virtual switch.
 
@@ -83,7 +83,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 <div class="alert"><b>Note</b>  The information in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_parameters">NDIS_SWITCH_PARAMETERS</a> structure reflects the initial state of the virtual switch, not necessarily its current state. In particular, the <b>NumSwitchPorts</b> and <b>IsActive</b> members might still have their initial value of zero, unless a virtual switch PnP event has been triggered. Current state information can be found in the other parameters to this callback function.</div>
 <div> </div>
 
-### -param *vSwitchNic [in]
+### -param vSwitchNic [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a> structure that specifies the parameters for a virtual miniport adapter that is connected to a virtual switch  port. 
 

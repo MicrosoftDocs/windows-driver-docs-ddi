@@ -50,7 +50,7 @@ Indicates that the driver has finished processing the duplicated desktop image.
 
 ## -parameters
 
-### -param *
+### -param 
 
 *pData* 
 

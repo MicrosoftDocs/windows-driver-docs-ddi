@@ -95,7 +95,7 @@ Map MDL as read-only.
 </tr>
 </table>
 
-### -param *Mdl
+### -param Mdl
 
  A pointer to the mapped MDL.
 

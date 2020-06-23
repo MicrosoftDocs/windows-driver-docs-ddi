@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtOpensyncobjectfromnthandle2
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_OPENSYNCOBJECTFROMNTHANDLE2](ns-d3dkmthk-_d3dkmt_opensyncobjectfromnthandle2.md) structure.
 

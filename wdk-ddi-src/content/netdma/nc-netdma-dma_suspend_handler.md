@@ -69,7 +69,7 @@ A pointer that identifies a DMA channel's context area. The DMA provider returne
      ProviderAllocateDmaChannel</a> function.
 
 
-### -param *pLastDescriptor [out]
+### -param pLastDescriptor [out]
 
 A pointer to a variable that contains the physical address of the last successfully processed DMA
      descriptor. The DMA provider provides this address before returning from 
