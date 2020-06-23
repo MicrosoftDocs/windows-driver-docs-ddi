@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtGetsharedresourceadapterluid
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_GETSHAREDRESOURCEADAPTERLUID](ns-d3dkmthk-_d3dkmt_getsharedresourceadapterluid.md) structure.
 

@@ -52,7 +52,7 @@ The <b>D3DKMTCheckVidPnExclusiveOwnership</b> function determines the video pres
 
 ## -parameters
 
-### -param 
+### -param Arg1
 
 *pData* [in]
 

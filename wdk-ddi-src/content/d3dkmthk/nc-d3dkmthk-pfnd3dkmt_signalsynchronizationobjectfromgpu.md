@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtSignalsynchronizationobjectfromgpu
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU](ns-d3dkmthk-_d3dkmt_signalsynchronizationobjectfromgpu.md) structure.
 

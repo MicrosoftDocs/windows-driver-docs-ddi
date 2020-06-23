@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtEnumadapters2
 
 ## -parameters
 
-### -param 
+### -param Arg1
 *\_Inout\_* *[D3DKMT_ENUMADAPTERS2](ns-d3dkmthk-_d3dkmt_enumadapters2.md)* * *Arg1*
 
 Caller passes in array size and empty array space.

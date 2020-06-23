@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtWaitforidle
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_WAITFORIDLE](ns-d3dkmthk-_d3dkmt_waitforidle.md) structure.
 

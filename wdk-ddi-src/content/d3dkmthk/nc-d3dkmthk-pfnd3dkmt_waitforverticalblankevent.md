@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtWaitforverticalblankevent
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_WAITFORVERTICALBLANKEVENT](ns-d3dkmthk-_d3dkmt_waitforverticalblankevent.md) structure.
 

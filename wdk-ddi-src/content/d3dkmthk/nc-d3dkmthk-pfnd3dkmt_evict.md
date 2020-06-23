@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtEvict
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_EVICT](ns-d3dkmthk-_d3dkmt_evict.md) structure.
 

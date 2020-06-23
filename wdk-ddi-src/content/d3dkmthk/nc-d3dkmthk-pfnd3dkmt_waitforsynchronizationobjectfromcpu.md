@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtWaitforsynchronizationobjectfromcpu
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU](ns-d3dkmthk-_d3dkmt_waitforsynchronizationobjectfromcpu.md) structure.
 

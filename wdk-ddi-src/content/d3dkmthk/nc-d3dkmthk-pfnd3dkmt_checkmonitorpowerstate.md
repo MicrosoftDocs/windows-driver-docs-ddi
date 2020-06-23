@@ -56,7 +56,7 @@ The <b>D3DKMTCheckMonitorPowerState</b> function verifies the power state of a m
 
 
 
-### -param 
+### -param Arg1
 
 *pData* [in]
 

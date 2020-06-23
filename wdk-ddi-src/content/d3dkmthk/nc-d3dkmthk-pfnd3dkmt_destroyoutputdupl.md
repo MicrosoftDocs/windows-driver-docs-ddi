@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtDestroyoutputdupl
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_DESTROY_OUTPUTDUPL](ns-d3dkmthk-_d3dkmt_destroy_outputdupl.md) structure.
 
