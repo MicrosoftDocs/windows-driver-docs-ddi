@@ -78,7 +78,7 @@ Context information about the suspected frame.
 
 The number of suspect frames.
 
-### -param *SuspectFrameList
+### -param SuspectFrameList
 
 The list of suspected frames. For more information, see the Remarks section.
 

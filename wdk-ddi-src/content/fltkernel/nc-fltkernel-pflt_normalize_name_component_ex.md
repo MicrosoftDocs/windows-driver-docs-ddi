@@ -96,7 +96,7 @@ Length, in bytes, of the buffer that the <i>ExpandComponentName</i> parameter po
 Name normalization flags.  FLTFL_NORMALIZE_NAME_CASE_SENSITIVE specifies that the name to be normalized is case-sensitive.  FLTFL_NORMALIZE_NAME_DESTINATION_FILE_NAME specifies that the callback routine has been called to service an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetdestinationfilenameinformation">FltGetDestinationFileNameInformation</a> routine call.  If the FLTFL_NORMALIZE_NAME_DESTINATION_FILE_NAME flag is set, <i>FileObject</i> represents the file/directory that is the target of the IRP_MJ_SET_INFORMATION operation. If the FLTFL_NORMALIZE_NAME_DESTINATION_FILE_NAME flag is not set, <i>FileObject</i> represents the file/directory whose name is being requested.
 
 
-### -param *NormalizationContext [in, out]
+### -param NormalizationContext [in, out]
 
 Pointer to minifilter driver-provided context information to be passed in any subsequent calls to this callback routine that are made to normalize the remaining components in the same file name path. 
 

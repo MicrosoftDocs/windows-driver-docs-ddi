@@ -56,7 +56,7 @@ The <i>NdkListen</i> (<i>NDK_FN_LISTEN</i>) function puts an NDK listener object
 
 
 
-### -param *pNdkListener [in]
+### -param pNdkListener [in]
 
 A pointer to an NDK listener object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_listener">NDK_LISTENER</a>).
 

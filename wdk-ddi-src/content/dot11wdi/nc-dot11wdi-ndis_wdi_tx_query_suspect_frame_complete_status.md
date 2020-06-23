@@ -80,15 +80,15 @@ Context information about the suspect frame.
 
 A pointer to the suspect frame.
 
-### -param *pIsTransferCompleteNeeded
+### -param pIsTransferCompleteNeeded
 
 A pointer to a BOOLEAN value that indicates if the frame requires the transfer completion callback to be invoked.
 
-### -param *pIsSendCompleteNeeded
+### -param pIsSendCompleteNeeded
 
 A pointer to a BOOLEAN value that indicates if the frame requires the send completion callback to be invoked.
 
-### -param *pWifiStatus
+### -param pWifiStatus
 
 A pointer to the status set by the IHV miniport to indicate the result of *TxQuerySuspectFrameStatus*.
 

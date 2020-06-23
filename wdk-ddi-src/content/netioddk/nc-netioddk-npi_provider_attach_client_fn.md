@@ -89,7 +89,7 @@ A pointer to the client module's context for the binding between the client modu
      require the client module's binding context.
 
 
-### -param *ClientDispatch [in]
+### -param ClientDispatch [in]
 
 A pointer to a constant structure that contains the dispatch table of 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> callback functions for the
@@ -99,7 +99,7 @@ A pointer to a constant structure that contains the dispatch table of
      dispatch table structure, then this pointer is <b>NULL</b>.
 
 
-### -param *ProviderBindingContext [out]
+### -param ProviderBindingContext [out]
 
 A pointer to a variable into which the provider module will store a pointer to its context for the
      binding between the client module and the provider module. The provider module uses this context to keep

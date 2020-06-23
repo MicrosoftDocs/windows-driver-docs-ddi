@@ -73,7 +73,7 @@ Handle identifying the DMA engine. This handle value was obtained from a previou
 Specifies the requested buffer size in bytes.
 
 
-### -param *BufferMdl [out]
+### -param BufferMdl [out]
 
 Retrieves the physical memory pages that contains the allocated buffer. This parameter points to a caller-allocated PMDL variable into which the routine writes a pointer to a memory descriptor list (MDL) that describes the buffer.
 

@@ -60,7 +60,7 @@ The filter engine calls a callout's
 
 
 
-### -param *context [in]
+### -param context [in]
 
 A pointer to the 
      <i>completionContext</i> parameter of one of the 
@@ -68,7 +68,7 @@ A pointer to the
      by the callout driver.
 
 
-### -param *netBufferList [in, out]
+### -param netBufferList [in, out]
 
 The pointer passed in the 
      <i>netBufferList</i> parameter of one of the 

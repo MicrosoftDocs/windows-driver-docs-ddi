@@ -56,7 +56,7 @@ The <i>NdkGetSharedEndpointLocalAddress</i> (<i>NDK_FN_GET_SHARED_ENDPOINT_LOCAL
 
 
 
-### -param *pNdkSharedEndpoint [in]
+### -param pNdkSharedEndpoint [in]
 
 A pointer to an NDK shared endpoint object  (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_shared_endpoint">NDK_SHARED_ENDPOINT</a>).
 
@@ -66,7 +66,7 @@ A pointer to an NDK shared endpoint object  (<a href="https://docs.microsoft.com
 A local address is returned in this buffer.
 
 
-### -param *pAddressLength
+### -param pAddressLength
 
 The size, in bytes, of the address buffer for input, and the size, in bytes, of the actual address written into the buffer for output.
 

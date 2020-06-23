@@ -73,7 +73,7 @@ VOID PgetCommonBufferFromVectorByIndex
 ### -param DmaAdapter: 
 ### -param Vector: 
 ### -param Index: 
-### -param *VirtualAddressOut: 
+### -param VirtualAddressOut: 
 ### -param LogicalAddressOut: 
 
 

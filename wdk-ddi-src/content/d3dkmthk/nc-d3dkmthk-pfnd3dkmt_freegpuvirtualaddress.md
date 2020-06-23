@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtFreegpuvirtualaddress
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_FREEGPUVIRTUALADDRESS](ns-d3dkmthk-_d3dkmt_freegpuvirtualaddress.md) structure.
 

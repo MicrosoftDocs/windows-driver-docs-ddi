@@ -71,7 +71,7 @@ HRESULT PfnddxgiddiSubmitpresenttohwqueuecb
 
 A handle to a device.
 
-### -param *
+### -param 
 
 Pointer to a [DXGIDDICB_SUBMITPRESENTTOHWQUEUE](ns-dxgiddi-dxgiddicb_submitpresenttohwqueue.md) structure.
 

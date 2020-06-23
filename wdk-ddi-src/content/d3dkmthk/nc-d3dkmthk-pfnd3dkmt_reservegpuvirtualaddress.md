@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtReservegpuvirtualaddress
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DDDI_RESERVEGPUVIRTUALADDRESS](../d3dukmdt/ns-d3dukmdt-d3dddi_reservegpuvirtualaddress.md) structure.
 

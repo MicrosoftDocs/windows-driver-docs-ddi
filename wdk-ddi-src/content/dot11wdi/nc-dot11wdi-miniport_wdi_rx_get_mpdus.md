@@ -75,7 +75,7 @@ The peer ID.
 The extended TID.
 
 
-### -param *ppNBL [out]
+### -param ppNBL [out]
 
 Pointer to a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain from the IHV miniport.
 

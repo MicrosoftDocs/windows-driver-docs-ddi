@@ -50,7 +50,7 @@ Creates a keyed mutex object that includes private data.
 
 ## -parameters
 
-### -param *
+### -param 
 
 *pData* [in, out]
 

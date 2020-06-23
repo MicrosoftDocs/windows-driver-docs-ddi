@@ -61,7 +61,7 @@ This callback function is reserved for system use.
 This parameter is reserved for system use.
 
 
-### -param *paHandlers [in]
+### -param paHandlers [in]
 
 This parameter is reserved for system use.
 

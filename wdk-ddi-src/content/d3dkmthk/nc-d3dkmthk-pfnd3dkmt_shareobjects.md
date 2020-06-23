@@ -71,10 +71,10 @@ NTSTATUS Pfnd3dkmtShareobjects
 ## -parameters
 
 ### -param cObjects: 
-### -param *hObjects: 
+### -param hObjects: 
 ### -param pObjectAttributes: 
 ### -param dwDesiredAccess: 
-### -param *phSharedNtHandle: 
+### -param phSharedNtHandle: 
 
 
 

@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtReleaseswapchain
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_RELEASESWAPCHAIN](ns-d3dkmthk-_d3dkmt_releaseswapchain.md) structure.
 

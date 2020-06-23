@@ -61,7 +61,7 @@ The <b>pfnPresentCbDXGI</b> function copies content from a source allocation to 
 [in] A handle to a display device (graphics context). 
 
 
-### -param *
+### -param 
 
 *pPresentData* [in]
 

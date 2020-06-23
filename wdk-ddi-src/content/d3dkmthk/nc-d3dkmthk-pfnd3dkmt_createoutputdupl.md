@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtCreateoutputdupl
 
 ## -parameters
 
-### -param *
+### -param 
 
 Pointer to a D3DKMT_CREATE_OUTPUTDUPL structure.
 

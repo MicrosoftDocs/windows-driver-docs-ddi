@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtFlipoverlay
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_FLIPOVERLAY](ns-d3dkmthk-_d3dkmt_flipoverlay.md) structure.
 

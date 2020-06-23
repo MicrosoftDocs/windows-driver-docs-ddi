@@ -81,7 +81,7 @@ A handle used by the operating system to reference the primary physical wireless
      Handler function.
 
 
-### -param *pbIsVirtualStation [out]
+### -param pbIsVirtualStation [out]
 
 A pointer to a Boolean value that indicates whether the primary physical WLAN adapter pointed to
      by the
@@ -89,7 +89,7 @@ A pointer to a Boolean value that indicates whether the primary physical WLAN ad
      adapter is a virtual station, otherwise it is not a virtual station.
 
 
-### -param *pgPrimary [out]
+### -param pgPrimary [out]
 
 A pointer to a GUID value that identifies the primary physical WLAN adapter that hosts a virtual
      station. This parameter is valid only if

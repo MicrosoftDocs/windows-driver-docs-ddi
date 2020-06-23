@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtDestroypagingqueue
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DDDI_DESTROYPAGINGQUEUE](../d3dukmdt/ns-d3dukmdt-d3dddi_destroypagingqueue.md) structure.
 

@@ -79,7 +79,7 @@ Maximum frame count.
 Credit value. For more information, see <i>The target-credit scheme and the pause/resume mechanism</i> section in <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-tx-path">WDI TX path</a>.
 
 
-### -param *ppNBL [out]
+### -param ppNBL [out]
 
 Pointer to a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> chain dequeued by WDI.
 

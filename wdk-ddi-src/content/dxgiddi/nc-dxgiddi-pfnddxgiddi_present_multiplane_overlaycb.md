@@ -60,7 +60,7 @@ Called by the Microsoft DirectX Graphics Infrastructure (DXGI) runtime to notify
 
 A handle to a display device (graphics context).
 
-### -param *
+### -param 
 
 
 **pPresentDXGI**

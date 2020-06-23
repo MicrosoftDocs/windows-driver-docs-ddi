@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtSethybridlistvvalue
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_HYBRID_LIST](ns-d3dkmthk-_d3dkmt_hybrid_list.md) structure.
 

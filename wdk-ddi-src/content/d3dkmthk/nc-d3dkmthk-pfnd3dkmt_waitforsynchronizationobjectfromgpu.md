@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtWaitforsynchronizationobjectfromgpu
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU](ns-d3dkmthk-_d3dkmt_waitforsynchronizationobjectfromgpu.md) structure.
 

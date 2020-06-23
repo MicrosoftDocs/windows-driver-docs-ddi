@@ -56,13 +56,13 @@ The <i>NdkBuildLam</i> (<i>NDK_FN_BUILD_LAM</i>) function gets an adapter logica
 
 
 
-### -param *pNdkAdapter [in]
+### -param pNdkAdapter [in]
 
 A pointer to an NDK adapter object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a>).
 
 
 
-### -param *Mdl [in]
+### -param Mdl [in]
 
  A memory descriptor list (MDL) or chain of MDLs. The portion of the MDL chain from the starting virtual address up to the number of bytes in the  <i>Length</i> parameter must represent a virtually contiguous memory region.
 
@@ -82,17 +82,17 @@ A pointer to a <i>NdkRequestCompletion</i> (<a href="https://docs.microsoft.com/
 A context value for the provider to pass back to the <i>NdkRequestCompletion</i> callback function that is specified in the <i>RequestCompletion</i> parameter.
 
 
-### -param *pNdkLAM
+### -param pNdkLAM
 
 A pointer to a buffer that will hold an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_logical_address_mapping">NDK_LOGICAL_ADDRESS_MAPPING</a>  structure that contains an adapter page array. The  adapter page array is stored  in the <b>AdapterPageArray</b> member and the <b>AdapterPageCount</b> member contains the number of adapter page elements.
 
 
-### -param *pLAMSize
+### -param pLAMSize
 
 The size, in bytes, of the buffer at the <i>pNdkLAM</i> parameter for input, or the actual number of bytes written for output.
 
 
-### -param *pFBO [out]
+### -param pFBO [out]
 
 The first byte offset (FBO) value is returned in this location. The FBO is the starting offset within the first adapter page.
 

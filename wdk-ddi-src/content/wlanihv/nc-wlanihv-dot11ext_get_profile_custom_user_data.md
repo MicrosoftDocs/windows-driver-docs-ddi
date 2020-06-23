@@ -95,14 +95,14 @@ The handle used by the operating system to reference the connection session with
 The session identifier (session ID) of the current user.
 
 
-### -param *pdwDataSize [out]
+### -param pdwDataSize [out]
 
 A pointer to a caller-supplied variable that stores the size, in bytes, of the buffer referenced
      by
      <i>ppvData</i> .
 
 
-### -param *ppvData [out]
+### -param ppvData [out]
 
 The address of a pointer variable that stores the address of the buffer containing the user
      data.

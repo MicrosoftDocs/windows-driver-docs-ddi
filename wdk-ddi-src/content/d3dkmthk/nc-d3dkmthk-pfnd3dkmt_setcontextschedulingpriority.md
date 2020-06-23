@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtSetcontextschedulingpriority
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_SETCONTEXTSCHEDULINGPRIORITY](ns-d3dkmthk-_d3dkmt_setcontextschedulingpriority.md) structure.
 

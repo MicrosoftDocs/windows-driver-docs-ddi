@@ -77,7 +77,7 @@ Specifies the type of caching that the system should use. This parameter can be 
 | **VpCached** | The system should use ordinary caching. | 
 
 
-### -param *PhysicalReserveContext [out]
+### -param PhysicalReserveContext [out]
 
 Specifies the location in which the video port driver writes a context handle that identifies the reserved physical address space.
 

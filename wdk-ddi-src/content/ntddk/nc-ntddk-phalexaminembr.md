@@ -71,7 +71,7 @@ The minimum number of bytes that an I/O operation can fetch from the device bein
 MBR partition type identifier. This parameter specifies the type of MBR that may be on the disk. For more information, see Remarks.
 
 
-### -param *Buffer [out]
+### -param Buffer [out]
 
 A pointer to a location to which <b>HalExamineMBR</b> writes a pointer to a buffer that contains data from the MBR. The layout of the buffer depends on the MBR partition type. <b>HalExamineMBR</b> allocates the storage for this buffer. The caller must deallocate this buffer as soon as possible by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a> routine.
 

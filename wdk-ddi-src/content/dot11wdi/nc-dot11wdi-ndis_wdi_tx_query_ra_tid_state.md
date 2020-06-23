@@ -78,7 +78,7 @@ The peer ID.
 The Extended Traffic ID (TID)
 
 
-### -param *pWifiStatus [out]
+### -param pWifiStatus [out]
 
 Indicates the result of the query operation.  See the <i>Remarks</i> section for more information.
 

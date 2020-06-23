@@ -56,7 +56,7 @@ The <b>UNIFONTOBJ_GetInfo</b> callback function is provided by the Unidrv driver
 
 
 
-### -param *
+### -param 
 
 
 ### -param Arg1

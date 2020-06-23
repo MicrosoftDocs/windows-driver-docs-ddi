@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtGetmultisamplemethodlist
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_GETMULTISAMPLEMETHODLIST](ns-d3dkmthk-_d3dkmt_getmultisamplemethodlist.md) structure.
 

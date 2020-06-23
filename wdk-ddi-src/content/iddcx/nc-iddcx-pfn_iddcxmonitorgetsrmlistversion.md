@@ -77,11 +77,11 @@ Contains system-defined per-driver data.
 
 The monitor object that the SRM list is associated with.
 
-### -param *pInArgs [in]
+### -param pInArgs [in]
 
 Input arguments of the function.
 
-### -param *pOutArgs [out]
+### -param pOutArgs [out]
 
 Output arguments of function.
 

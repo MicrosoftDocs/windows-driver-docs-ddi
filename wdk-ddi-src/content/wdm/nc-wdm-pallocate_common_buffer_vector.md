@@ -82,7 +82,7 @@ NTSTATUS PallocateCommonBufferVector
 ### -param Flags: 
 ### -param NumberOfElements: 
 ### -param SizeOfElements: 
-### -param *VectorOut: 
+### -param VectorOut: 
 
 
 

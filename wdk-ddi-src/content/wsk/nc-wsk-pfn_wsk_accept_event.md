@@ -107,7 +107,7 @@ A pointer to a
      listening socket as soon as possible.
 
 
-### -param *AcceptSocketContext [out]
+### -param AcceptSocketContext [out]
 
 A pointer to a variable that receives a pointer to a WSK application-supplied context for the
      socket that is being accepted. The WSK subsystem passes this pointer to the accepted socket's event

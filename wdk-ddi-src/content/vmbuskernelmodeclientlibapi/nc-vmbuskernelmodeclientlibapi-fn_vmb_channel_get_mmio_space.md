@@ -72,11 +72,11 @@ VOID FnVmbChannelGetMmioSpace
 
 A handle for the channel. Allocated by [**VmbChannelAllocate**](nc-vmbuskernelmodeclientlibapi-fn_vmb_channel_allocate.md).
 
-### -param *MmioAddress
+### -param MmioAddress
 
 A pointer to a **PVOID** to fill with the MMIO physical address.
 
-### -param *MmioSize
+### -param MmioSize
 
 A pointer to the returned size of the MMIO space.
 

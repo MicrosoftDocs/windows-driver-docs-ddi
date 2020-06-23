@@ -66,7 +66,7 @@ Specifies an address near the symbol you want located.
 Receives the name of the symbol found.
 
 
-### -param *pDisplacement
+### -param pDisplacement
 
 Specifies the displacement from the beginning of the symbol.
 

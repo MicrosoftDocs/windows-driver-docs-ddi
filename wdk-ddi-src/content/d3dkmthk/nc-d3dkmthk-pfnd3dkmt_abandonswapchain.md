@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtAbandonswapchain
 
 ## -parameters
 
-### -param *
+### -param 
 
 Pointer to a _D3DKMT_ABANDONSWAPCHAIN structure.
 

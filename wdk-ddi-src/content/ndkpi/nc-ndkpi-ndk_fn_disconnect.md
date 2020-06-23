@@ -56,7 +56,7 @@ The <i>NdkDisconnect</i> (<i>NDK_FN_DISCONNECT</i>) function starts a  disconnec
 
 
 
-### -param *pNdkConnector [in]
+### -param pNdkConnector [in]
 
 A pointer to a connector object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>).
 

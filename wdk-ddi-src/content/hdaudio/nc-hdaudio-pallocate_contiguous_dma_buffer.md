@@ -73,12 +73,12 @@ Handle identifying the DMA engine. This handle value was obtained from a previou
 Specifies the requested buffer size in bytes.
 
 
-### -param *DataBuffer [out]
+### -param DataBuffer [out]
 
 Retrieves the data buffer. This parameter points to a caller-allocated PVOID variable into which the routine writes the system virtual address of the data buffer.
 
 
-### -param *BdlBuffer [out]
+### -param BdlBuffer [out]
 
 Retrieves the buffer descriptor list (BDL). This parameter points to a caller-allocated PVOID variable into which the routine writes the system virtual address of the BDL. The BDL allocation size is exactly one memory page and the BDL begins on a page boundary.
 

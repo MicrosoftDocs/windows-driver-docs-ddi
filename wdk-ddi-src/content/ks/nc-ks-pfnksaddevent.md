@@ -66,7 +66,7 @@ Specifies the IRP describing the event add request.
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-kseventdata">KSEVENTDATA</a> structure describing the notification method for this event.
 
 
-### -param *EventEntry [in]
+### -param EventEntry [in]
 
 Pointer to an AVStream-generated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a> structure describing how the event is triggered.
 

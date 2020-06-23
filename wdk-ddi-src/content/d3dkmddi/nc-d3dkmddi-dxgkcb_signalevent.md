@@ -67,7 +67,7 @@ NTSTATUS DxgkcbSignalevent
 
 ## -parameters
 
-### -param *
+### -param 
 
 Pointer to a [DXGKCB_SIGNALEVENT](ns-d3dkmddi-_dxgkargcb_signalevent.md) structure that contains arguments for this call.
 

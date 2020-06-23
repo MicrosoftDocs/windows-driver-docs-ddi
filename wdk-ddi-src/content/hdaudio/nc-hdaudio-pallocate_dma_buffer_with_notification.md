@@ -78,7 +78,7 @@ Specifies the number of notifications that are needed, based on DMA progression 
 Specifies the requested buffer size, in bytes.
 
 
-### -param *BufferMdl [out]
+### -param BufferMdl [out]
 
 Retrieves the physical memory pages that contain the allocated buffer. This parameter points to a caller-allocated variable that is a pointer to a memory descriptor list (PMDL). This routine writes a pointer that describes the memory descriptor list buffer, to the PMDL variable.
 

@@ -78,7 +78,7 @@ Contains system-defined per-driver data.
 
 The adapter object that is the critical error occurred on. If the error occurred before a IddCxAdapter was created, pass in nullptr for this value.
 
-### -param *pInArgs [in]
+### -param pInArgs [in]
 
 Input arguments to the function.
 

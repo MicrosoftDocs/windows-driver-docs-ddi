@@ -76,7 +76,7 @@ Contains system-defined per-driver data.
 
 The swap-chain object passed to the EVT_IDD_CX_MONITOR_SET_SWAPCHAIN call.
 
-### -param *pInArgs [in]
+### -param pInArgs [in]
 
 Input arguments to the function.
 

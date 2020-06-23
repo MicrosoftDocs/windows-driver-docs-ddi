@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtUnlock
 
 ## -parameters
 
-### -param * 
+### -param  
 
 Pointer to a [D3DKMT_UNLOCK](ns-d3dkmthk-_d3dkmt_unlock.md) structure.
 

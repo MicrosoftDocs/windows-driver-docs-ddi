@@ -74,12 +74,12 @@ The diagnose level, as defined in the <a href="https://docs.microsoft.com/window
 The size of <b>FirmwareBlob</b>, in bytes.
 
 
-### -param *FirmwareBlob [out]
+### -param FirmwareBlob [out]
 
 A pointer to the buffer that  will contain the hardware control registry states, and optionally full firmware state.
 
 
-### -param *pOutputSize [out]
+### -param pOutputSize [out]
 
 A pointer to the number of bytes written to <b>FirmwareBlob</b>.
 

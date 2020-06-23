@@ -84,7 +84,7 @@ The extended TID.
 Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_throttle_parameters">NDIS_RECEIVE_THROTTLE_PARAMETERS</a> structure.
 
 
-### -param *pWifiStatus [out]
+### -param pWifiStatus [out]
 
 Status from WDI for the <i>NdisWdiRxInorderDataIndication</i>.  See the <i>Remarks</i> section for more information.
 

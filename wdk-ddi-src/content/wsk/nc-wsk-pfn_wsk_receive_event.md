@@ -159,7 +159,7 @@ The number of bytes of received data described by the linked list of
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wsk/ns-wsk-_wsk_data_indication">WSK_DATA_INDICATION</a> structures.
 
 
-### -param *BytesAccepted [in, out]
+### -param BytesAccepted [in, out]
 
 A pointer to a SIZE_T-typed variable which receives the number of bytes of received data that is
      accepted by the WSK application. This variable needs to be set only if the WSK application accepts a

@@ -56,7 +56,7 @@ The <i>NdkCreateSharedEndpoint</i> (<i>NDK_FN_CREATE_SHARED_ENDPOINT</i>) functi
 
 
 
-### -param *pNdkAdapter [in]
+### -param pNdkAdapter [in]
 
 A pointer to an NDK adapter object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a>).
 
@@ -82,7 +82,7 @@ A pointer to an <i>NdkCreateCompletion</i> (<a href="https://docs.microsoft.com/
 A context value that the NDK provider passes back to the <i>NdkCreateCompletion</i> function that is specified in the <i>CreateCompletion</i> parameter.
 
 
-#### -param **ppNdkSharedEndpoint
+#### -param *ppNdkSharedEndpoint
 
 A pointer to a created shared endpoint object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_shared_endpoint">NDK_SHARED_ENDPOINT</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 

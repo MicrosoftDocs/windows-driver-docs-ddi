@@ -56,7 +56,7 @@ The <i>NdkInitializeFastRegisterMr</i> (<i>NDK_FN_INITIALIZE_FAST_REGISTER_MR</i
 
 
 
-### -param *pNdkMr [in]
+### -param pNdkMr [in]
 
 A pointer to an NDK memory region (MR) object
 (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>).
