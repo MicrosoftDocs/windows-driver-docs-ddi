@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtAdjustfullscreengamma
 
 ## -parameters
 
-### -param 
+### -param Arg1
 
 [in] Pointer to a [D3DKMT_ADJUSTFULLSCREENGAMMA](ns-d3dkmthk-_d3dkmt_adjustfullscreengamma.md) structure.
 

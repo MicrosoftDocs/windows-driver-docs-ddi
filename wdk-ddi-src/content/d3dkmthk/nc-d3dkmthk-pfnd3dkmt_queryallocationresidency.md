@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtQueryallocationresidency
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_QUERYALLOCATIONRESIDENCY](ns-d3dkmthk-_d3dkmt_queryallocationresidency.md) structure.
 

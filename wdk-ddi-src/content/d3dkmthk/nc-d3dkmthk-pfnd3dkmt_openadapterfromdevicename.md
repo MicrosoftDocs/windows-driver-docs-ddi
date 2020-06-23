@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtOpenadapterfromdevicename
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_OPENADAPTERFROMDEVICENAME](ns-d3dkmthk-_d3dkmt_openadapterfromdevicename.md) structure.
 

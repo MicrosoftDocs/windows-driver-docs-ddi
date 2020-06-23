@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtQueryclockcalibration
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_QUERYCLOCKCALIBRATION](../d3dkmdt/ns-d3dkmdt-_d3dkmt_queryclockcalibration.md) structure.
 

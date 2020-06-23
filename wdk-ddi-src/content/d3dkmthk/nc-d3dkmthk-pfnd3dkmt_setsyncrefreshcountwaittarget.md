@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtSetsyncrefreshcountwaittarget
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET](ns-d3dkmthk-_d3dkmt_setsyncrefreshcountwaittarget.md) structure.
 

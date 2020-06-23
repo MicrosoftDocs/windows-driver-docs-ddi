@@ -66,7 +66,7 @@ VOID Pfnd3dkmtBudgetchangenotificationcallback
 
 ## -parameters
 
-### -param 
+### -param Arg1
 
 Pointer to a [D3DKMT_BUDGETCHANGENOTIFICATION](ns-d3dkmthk-_d3dkmt_budgetchangenotification.md) structure.
 

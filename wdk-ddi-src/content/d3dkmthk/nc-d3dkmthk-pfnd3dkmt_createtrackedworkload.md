@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtCreatetrackedworkload
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_CREATETRACKEDWORKLOAD](ns-d3dkmthk-_d3dkmt_createtrackedworkload.md) structure to create a tracked workload.
 

@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtDestroysynchronizationobject
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_DESTROYSYNCHRONIZATIONOBJECT](ns-d3dkmthk-_d3dkmt_destroysynchronizationobject.md) structure.
 

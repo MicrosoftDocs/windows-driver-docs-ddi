@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtReclaimallocations2
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_RECLAIMALLOCATIONS2](ns-d3dkmthk-_d3dkmt_reclaimallocations2.md) structure.
 

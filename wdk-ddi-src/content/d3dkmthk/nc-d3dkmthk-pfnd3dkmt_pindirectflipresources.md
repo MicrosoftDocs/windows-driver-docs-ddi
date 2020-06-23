@@ -67,7 +67,7 @@ NTSTATUS Pfnd3dkmtPindirectflipresources
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 *\_In\_* *pResources*
 

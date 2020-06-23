@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtSetvidpnsourcehwprotection
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_SETVIDPNSOURCEHWPROTECTION](ns-d3dkmthk-_d3dkmt_setvidpnsourcehwprotection.md) structure.
 

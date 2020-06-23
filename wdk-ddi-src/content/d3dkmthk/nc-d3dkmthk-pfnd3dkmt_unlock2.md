@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtUnlock2
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_UNLOCK2](ns-d3dkmthk-_d3dkmt_unlock2.md) structure.
 

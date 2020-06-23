@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtInvalidateactivevidpn
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_INVALIDATEACTIVEVIDPN](ns-d3dkmthk-_d3dkmt_invalidateactivevidpn.md) structure.
 

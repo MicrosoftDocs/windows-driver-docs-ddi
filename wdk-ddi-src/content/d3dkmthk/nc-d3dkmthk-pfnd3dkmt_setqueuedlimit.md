@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtSetqueuedlimit
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_SETQUEUEDLIMIT](ns-d3dkmthk-_d3dkmt_setqueuedlimit.md) structure.
 

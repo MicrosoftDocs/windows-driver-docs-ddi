@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtSubmitcommand
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_SUBMITCOMMAND](ns-d3dkmthk-_d3dkmt_submitcommand.md) structure.
 

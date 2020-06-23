@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtGetsetswapchainmetadata
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_GETSETSWAPCHAINMETADATA](ns-d3dkmthk-_d3dkmt_getsetswapchainmetadata.md) structure.
 

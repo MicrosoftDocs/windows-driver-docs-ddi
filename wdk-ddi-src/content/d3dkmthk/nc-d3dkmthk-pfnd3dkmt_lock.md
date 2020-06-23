@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtLock
 
 ## -parameters
 
-### -param  
+### -param Arg1
 
 Pointer to a [D3DKMT_LOCK](ns-d3dkmthk-_d3dkmt_lock.md) structure.
 
