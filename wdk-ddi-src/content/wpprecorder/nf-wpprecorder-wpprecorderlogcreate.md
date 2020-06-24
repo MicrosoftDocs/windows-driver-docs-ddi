@@ -44,41 +44,42 @@ req.typenames:
 
 # WppRecorderLogCreate macro
 
-
 ## -description
 
+The [WppRecorderLogCreate](https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate) method creates a buffer to contain the recorder log.
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate">WppRecorderLogCreate</a> method creates a buffer to contain the recorder log.
+## -syntax
 
+```cpp
+NTSTATUS WppRecorderLogCreate(
+   CreateParams,
+   RecorderLog
+);
+```
 
 ## -parameters
-
-
-
 
 ### -param CreateParams
 
 A pointer to a RECORDER_LOG_CREATE_PARAMS structure.
 
-
 ### -param RecorderLog
 
 A handle for the recorder log.
 
+## -returns
+
+Returns NTSTATUS that indicates if the driver can use the *RecorderLog* handle for logging.
 
 ## -remarks
 
+Before calling [WppRecorderLogCreate](https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate), allocate a [RECORDER_LOG_CREATE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_recorder_log_create_params) structure and initialize by calling [RECORDER_LOG_CREATE_PARAMS_INIT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-recorder_log_create_params_init).
 
+You must first call [WPP_INIT_TRACING](https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff556191(v=vs.85)) before calling [WppRecorderLogCreate](https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate). Default values are used unless the members of *CreateParams* are modified before calling **WppRecorderLogCreate**.
 
-Before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate">WppRecorderLogCreate</a>, allocate a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/ns-wpprecorder-_recorder_log_create_params">RECORDER_LOG_CREATE_PARAMS</a> structure and initialize by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-recorder_log_create_params_init">RECORDER_LOG_CREATE_PARAMS_INIT</a>.
+If a successful NTSTATUS is returned, the driver can use the *RecorderLog* handle for logging.
 
-You must first call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff556191(v=vs.85)">WPP_INIT_TRACING</a> before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogcreate">WppRecorderLogCreate</a>. Default values are used unless the members of <i>CreateParams</i> are modified before calling <b>WppRecorderLogCreate</b>.
+If a successful NTSTATUS is not returned, the driver must use a **RECORDER_LOG** handle to the default log. Also, the driver must not attempt to log to or delete the handle pointed to by *RecorderLog*.
 
-If a successful NTSTATUS is returned, the driver can use the <i>RecorderLog</i> handle for logging. 
-
-If a successful NTSTATUS is not returned, the driver must use a <b>RECORDER_LOG</b> handle to the default log. Also, the driver must not attempt to log to or delete the handle pointed to by <i>RecorderLog</i>.
-
-<div class="alert"><b>Note</b>  This method allocates memory for the log buffer from the non-paged pool.</div>
-<div> </div>
-
-
+>[!NOTE]>
+>This method allocates memory for the log buffer from the non-paged pool.
