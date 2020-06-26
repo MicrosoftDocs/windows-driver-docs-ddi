@@ -48,14 +48,14 @@ req.typenames:
 ## -description
 
 
-The <b>KeAreApcsDisabled</b> routine returns whether the calling thread is within a critical region or a guarded region, which disables normal kernel APC delivery.
+The <b>KeAreApcsDisabled</b> routine returns whether the calling thread is within a critical region, which disables normal kernel APC delivery.
 
 
 ## -returns
 
 
 
-<b>KeAreApcsDisabled</b> returns <b>TRUE</b> if the thread is within a critical region or a guarded region, and <b>FALSE</b> otherwise.
+<b>KeAreApcsDisabled</b> returns <b>TRUE</b> if the thread is within a critical region, and <b>FALSE</b> otherwise.
 
 
 
@@ -64,7 +64,7 @@ The <b>KeAreApcsDisabled</b> routine returns whether the calling thread is withi
 
 
 
-A thread running at IRQL = PASSIVE_LEVEL can use <b>KeAreApcsDisabled</b> to determine if normal kernel APCs are disabled. A thread that is inside a critical region has both user APCs and normal kernel APCs disabled, but not special kernel APCs. A thread that is inside a guarded region has all APCs disabled, including special kernel APCs.
+A thread running at IRQL = PASSIVE_LEVEL can use <b>KeAreApcsDisabled</b> to determine if normal kernel APCs are disabled. A thread that is inside a critical region has both user APCs and normal kernel APCs disabled, but not special kernel APCs.
 
 
 
