@@ -19,7 +19,7 @@ req.lib: NtosKrnl.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 2004
+req.target-min-winverclnt: Requires WDK for Windows 10, version 2004. Targets Windows 7 and later versions of the Windows operating system.
 req.target-min-winversvr: 
 req.target-type: Universal
 req.type-library: 
