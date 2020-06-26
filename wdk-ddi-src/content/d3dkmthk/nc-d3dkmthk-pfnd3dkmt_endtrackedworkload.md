@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtEndtrackedworkload
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_ENDTRACKEDWORKLOAD](ns-d3dkmthk-_d3dkmt_endtrackedworkload.md) structure to end the tracked workload.
 

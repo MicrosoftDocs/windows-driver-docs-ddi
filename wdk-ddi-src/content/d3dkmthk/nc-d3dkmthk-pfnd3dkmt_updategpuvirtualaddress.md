@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtUpdategpuvirtualaddress
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_UPDATEGPUVIRTUALADDRESS](ns-d3dkmthk-_d3dkmt_updategpuvirtualaddress.md) structure.
 

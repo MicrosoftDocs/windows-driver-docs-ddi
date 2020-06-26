@@ -80,7 +80,7 @@ NTSTATUS *PfnIddcxadapterdisplayconfigupdate
 
 [in] The adapter object of the remote adapter that the display configuration is specified for.
 
-### -param *pInArgs
+### -param pInArgs
 
 [in] Pointer to the [IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE](ns-iddcx-idarg_in_adapterdisplayconfigupdate.md) structure.
 

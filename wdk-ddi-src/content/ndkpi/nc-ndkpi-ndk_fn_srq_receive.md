@@ -56,7 +56,7 @@ The <i>NdkSrqReceive</i> (<i>NDK_FN_SRQ_RECEIVE</i>) function posts a receive re
 
 
 
-### -param *pNdkSrq [in]
+### -param pNdkSrq [in]
 
 A pointer to an NDK shared receive queue (SRQ) object
 (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>).

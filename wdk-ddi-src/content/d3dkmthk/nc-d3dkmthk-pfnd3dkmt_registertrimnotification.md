@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtRegistertrimnotification
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_REGISTERTRIMNOTIFICATION](ns-d3dkmthk-_d3dkmt_registertrimnotification.md) structure.
 

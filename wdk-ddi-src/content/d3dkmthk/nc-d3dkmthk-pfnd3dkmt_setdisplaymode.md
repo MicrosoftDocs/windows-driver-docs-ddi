@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtSetdisplaymode
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_SETDISPLAYMODE](ns-d3dkmthk-_d3dkmt_setdisplaymode.md) structure.
 

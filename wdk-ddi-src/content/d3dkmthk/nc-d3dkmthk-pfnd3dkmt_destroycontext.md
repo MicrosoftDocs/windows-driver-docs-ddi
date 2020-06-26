@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtDestroycontext
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_DESTROYCONTEXT](ns-d3dkmthk-_d3dkmt_destroycontext.md) structure.
 

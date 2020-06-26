@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtCreateoverlay
 
 ## -parameters
 
-### -param *
+### -param Arg1
 
 [in, out] Pointer to a [D3DKMT_CREATEOVERLAY](ns-d3dkmthk-_d3dkmt_createoverlay.md) structure.
 

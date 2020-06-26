@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtGetdisplaymodelist
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_GETDISPLAYMODELIST](ns-d3dkmthk-_d3dkmt_getdisplaymodelist.md) structure.
 

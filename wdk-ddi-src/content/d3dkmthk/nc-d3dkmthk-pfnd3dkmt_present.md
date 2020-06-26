@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtPresent
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_PRESENT](ns-d3dkmthk-_d3dkmt_present.md) structure.
 

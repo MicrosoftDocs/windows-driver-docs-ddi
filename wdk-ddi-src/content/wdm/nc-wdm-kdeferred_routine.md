@@ -62,7 +62,7 @@ The <i>CustomTimerDpc</i> routine executes after a timer object's time interval 
 
 
 
-### -param *Dpc [in]
+### -param Dpc [in]
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure, which represents the DPC object that is associated with this callback  routine.
 

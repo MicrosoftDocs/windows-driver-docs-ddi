@@ -66,7 +66,7 @@ Points to the miniport driver-defined context value passed to <a href="https://d
 Points to the SCSIWMI_REQUEST_CONTEXT structure that the miniport driver passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/scsiwmi/nf-scsiwmi-scsiportwmidispatchfunction">ScsiPortWmiDispatchFunction</a>. 
 
 
-### -param *MofResourceName [out]
+### -param MofResourceName [out]
 
 Points to a <b>null</b>-terminated Unicode string that indicates the name of the MOF resource attached to the miniport driver's binary image file. This string can be declared as a constant in the miniport driver. If the miniport driver does not have a MOF resource attached, it should set <i>MofResourceName</i> to <b>NULL</b>. 
 

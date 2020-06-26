@@ -90,7 +90,7 @@ Points to an array of DDSURFACEDESC structures where the driver should return th
 
 
 
-The driver is responsible for allocating space for and setting all members of this structure. The driver returns a pointer to this structure in the <b>lpD3DGlobalDriverData</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_halinfo">DD_HALINFO</a> structure, which is passed to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> function during driver initialization.
+The driver is responsible for allocating space for and setting all members of this structure. The driver returns a pointer to this structure in the <b>lpD3DGlobalDriverData</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a> structure, which is passed to the driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvgetdirectdrawinfo">DrvGetDirectDrawInfo</a> function during driver initialization.
 
 
 
@@ -108,7 +108,7 @@ The driver is responsible for allocating space for and setting all members of th
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_halinfo">DD_HALINFO</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_halinfo">DD_HALINFO</a>
 
 
 

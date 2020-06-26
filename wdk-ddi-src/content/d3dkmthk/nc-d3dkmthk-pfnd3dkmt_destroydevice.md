@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtDestroydevice
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 A pointer to a [D3DKMT_DESTROYDEVICE](ns-d3dkmthk-_d3dkmt_destroydevice.md) structure.
 

@@ -56,7 +56,7 @@ The <i>NdkGetCqResults</i> (<i>NDK_FN_GET_CQ_RESULTS</i>) function removes compl
 
 
 
-### -param *pNdkCq [in]
+### -param pNdkCq [in]
 
 A pointer to an NDK completion queue (CQ) object  (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_cq">NDK_CQ</a>).
 

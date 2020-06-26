@@ -57,7 +57,7 @@ The PSYM_DUMP_FIELD_CALLBACK callback function is called by the debugger engine 
 
 
 
-### -param *pField
+### -param pField
 
 Specifies the field for which this callback function is being called.  The debugger engine fills in the contents of this parameter before making the call.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_field_info">FIELD_INFO</a> for details about the members of this parameter.
 

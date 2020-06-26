@@ -109,7 +109,7 @@ Requests WMI to remove support for the blocks. This flag is valid only in respon
 A pointer to a single counted Unicode string that serves as the base name for all instances of all blocks to be registered by the driver. WMI frees the string with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>. If WMIREG_FLAG_INSTANCE_BASENAME is clear, <i>InstanceName</i> is ignored.
 
 
-### -param *RegistryPath [out]
+### -param RegistryPath [out]
 
 A pointer to a pointer to a counted Unicode string that specifies the registry path passed to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. 
 
@@ -119,7 +119,7 @@ A pointer to a pointer to a counted Unicode string that specifies the registry p
 A pointer to a single counted Unicode string that indicates the name of the MOF resource attached to the driver's binary image file. Typically this string would be a static defined by the driver. WMI makes a copy of this string after the driver returns from this routine. This string can be dynamically allocated by the driver. In the case of an allocated string, the driver is responsible for freeing the string which should be done after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a> returns. If the driver does not have a MOF resource attached, it can leave <i>MofResourceName</i> unchanged. 
 
 
-### -param *Pdo [out]
+### -param Pdo [out]
 
 A pointer to the physical device object (PDO) passed to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine. If WMIREG_FLAG_INSTANCE_PDO is set, WMI uses the device instance path of this PDO as a base from which to generate static instance names. If WMIREG_FLAG_INSTANCE_PDO is clear, WMI ignores <i>Pdo</i>.
 

@@ -56,7 +56,7 @@ req.typenames:
 
 
 
-### -param *DriverObject [in]
+### -param DriverObject [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure. This is the driver's driver object.
 

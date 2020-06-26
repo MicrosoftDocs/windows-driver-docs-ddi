@@ -83,7 +83,7 @@ An interface provider calls the
 
 <b>NdisIfDeregisterInterface</b> releases the interface index, so NDIS can reassign the index to another
     interface that is registered later. Do not confuse the interface index with the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> index, which persists after a computer
+    <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> index, which persists after a computer
     restarts.
 
 
@@ -94,7 +94,7 @@ An interface provider calls the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 

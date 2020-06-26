@@ -56,12 +56,12 @@ The <i>Cancel</i> routine cancels an I/O operation.
 
 
 
-### -param *DeviceObject [in, out]
+### -param DeviceObject [in, out]
 
 Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
 
-### -param *Irp [in, out]
+### -param Irp [in, out]
 
 Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that describes the I/O operation to be canceled.
 

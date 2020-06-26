@@ -71,7 +71,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 Pointer to the original MDL that the driver used to build the scatter/gather list.
 
 
-### -param *TargetMdl [out]
+### -param TargetMdl [out]
 
 Pointer to a variable the routine uses to return the MDL created to hold the buffer described by the scatter/gather list. The value returned can be the same as <i>OriginalMdl</i>.
 

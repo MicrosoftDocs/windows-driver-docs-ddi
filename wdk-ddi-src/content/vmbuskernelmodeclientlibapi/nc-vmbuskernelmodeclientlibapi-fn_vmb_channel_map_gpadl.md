@@ -105,7 +105,7 @@ and snapshotting.
 
 The GPADL handle of the GPADL to map.
 
-### -param *Mdl: 
+### -param Mdl: 
 
  A pointer to a MDL describing the client buffer. This
 buffer is only mapped into physical address space. The caller must take

@@ -70,7 +70,7 @@ NTSTATUS Pfnd3dkmtOutputduplpresenttohwqueue
 
 ## -parameters
 
-### -param *
+### -param Arg1
 
 Pointer to a [D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE](ns-d3dkmthk-_d3dkmt_outputduplpresenttohwqueue.md) structure.
 

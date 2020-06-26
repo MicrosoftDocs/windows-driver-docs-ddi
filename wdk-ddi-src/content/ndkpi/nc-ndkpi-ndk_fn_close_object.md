@@ -56,7 +56,7 @@ The <i>NdkCloseObject</i> (<i>NDK_FN_CLOSE_OBJECT</i>) function initiates a clos
 
 
 
-### -param *pNdkObject [in]
+### -param pNdkObject [in]
 
 A pointer to the object header (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>) for the object to close.
 

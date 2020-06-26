@@ -103,17 +103,17 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+**STATUS_BUFFER_TOO_SMALL**
 
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> is less than the size, in bytes, of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_configuration">PMI_CONFIGURATION</a> structure.
 
 
-#### -STATUS_INVALID_PARAMETER
+**STATUS_INVALID_PARAMETER**
 
 The initiator-allocated input buffer contains an invalid <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pmi/ne-pmi-pmi_configuration_type">PMI_CONFIGURATION_TYPE</a> value.
 
 
-#### -STATUS_SUCCESS
+**STATUS_SUCCESS**
 
 The WDM driver that supports the PMI interface has completed the IOCTL request successfully.
 

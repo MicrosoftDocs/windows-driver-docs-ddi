@@ -71,7 +71,7 @@ Handle of the process in which to reserve the virtual address range. If <b>Proce
 Is the context handle that identifies the reserved physical address range with which to associate the virtual memory reservation. This context was obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>.
 
 
-### -param *VirtualReserveContext [out]
+### -param VirtualReserveContext [out]
 
 Is the location in which the video port driver writes a context handle that identifies the reserved virtual memory.
 

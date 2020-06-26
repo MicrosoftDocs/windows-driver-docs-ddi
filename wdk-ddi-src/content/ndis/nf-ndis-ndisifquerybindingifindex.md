@@ -51,7 +51,7 @@ req.typenames:
 
 The 
   <b>NdisIfQueryBindingIfIndex</b> function retrieves the network interface indexes and 
-  <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values for the highest and lowest layered
+  <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values for the highest and lowest layered
   network interfaces that are associated with a specified protocol binding.
 
 
@@ -63,7 +63,7 @@ The
 ### -param NdisBindingHandle [in]
 
 A handle that identifies the binding for which NDIS should obtain the 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values and network interface indexes.
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values and network interface indexes.
      NDIS provided this handle at the 
      <i>NdisBindingHandle</i> parameter of the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
@@ -145,7 +145,7 @@ The operation completed successfully.
 
 NDIS protocol drivers can call the 
     <b>NdisIfQueryBindingIfIndex</b> function to retrieve the network interface indexes and 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values that are associated with a
+    <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values that are associated with a
     binding.
 
 <b>NdisIfQueryBindingIfIndex</b> provides the NET_LUID value and the interface index for the highest
@@ -170,7 +170,7 @@ Protocol drivers can also obtain the interface index and NET_LUID of the highest
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 

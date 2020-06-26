@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtDestroytrackedworkload
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_DESTROYTRACKEDWORKLOAD](ns-d3dkmthk-_d3dkmt_destroytrackedworkload.md) structure to destroy a tracked workload.
 

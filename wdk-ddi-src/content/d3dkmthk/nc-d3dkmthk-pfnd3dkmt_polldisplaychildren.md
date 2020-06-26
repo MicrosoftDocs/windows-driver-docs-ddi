@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtPolldisplaychildren
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_POLLDISPLAYCHILDREN](ns-d3dkmthk-_d3dkmt_polldisplaychildren.md) structure.
 

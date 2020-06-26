@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtQueryresourceinfo
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_QUERYRESOURCEINFO](ns-d3dkmthk-_d3dkmt_queryresourceinfo.md) structure.
 

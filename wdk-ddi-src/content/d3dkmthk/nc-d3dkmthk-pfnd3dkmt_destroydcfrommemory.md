@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtDestroydcfrommemory
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_DESTROYDCFROMMEMORY](ns-d3dkmthk-_d3dkmt_destroydcfrommemory.md) structure.
 

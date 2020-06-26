@@ -54,7 +54,7 @@ An AVStream minidriver's *AVStrMiniRemoveEvent* routine is called when a client 
 
 Pointer to the file object for which to remove the event.
 
-### -param *EventEntry [in]
+### -param EventEntry [in]
 
 Pointer to an AVStream-generated [KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry) structure.
 

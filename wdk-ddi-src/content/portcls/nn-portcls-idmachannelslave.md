@@ -44,6 +44,8 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 
 # IDmaChannelSlave interface
 
+> [!NOTE]
+> Microsoft supports a diverse and inclusionary environment. Within this document, there are references to the word slave. Microsoft's Style Guide for Bias-Free Communications recognizes this as an exclusionary word. This wording is used as it is currently the wording used within the software.
 
 ## -description
 

@@ -1,11 +1,11 @@
 ---
 UID: NF:printerextension.IPrintSchemaElement.get_NamespaceUri
 title: IPrintSchemaElement::get_NamespaceUri (printerextension.h)
-description: Gets the namespace URI value of the &#0034;name&#0034; attribute of this node.
+description: Gets the namespace URI value of the name attribute of this node.
 old-location: print\iprintschemaelement_namespaceuri.htm
 tech.root: print
 ms.assetid: F03FFC6A-6186-4C59-97EB-0D954BF198D3
-ms.date: 04/20/2018
+ms.date: 06/25/2020
 keywords: ["IPrintSchemaElement::get_NamespaceUri"]
 ms.keywords: IPrintSchemaElement interface [Print Devices],NamespaceUri property, IPrintSchemaElement.NamespaceUri, IPrintSchemaElement.get_NamespaceUri, IPrintSchemaElement::NamespaceUri, IPrintSchemaElement::get_NamespaceUri, NamespaceUri property [Print Devices], NamespaceUri property [Print Devices],IPrintSchemaElement interface, get_NamespaceUri, print.iprintschemaelement_namespaceuri, printerextension/IPrintSchemaElement::NamespaceUri, printerextension/IPrintSchemaElement::get_NamespaceUri
 f1_keywords:
@@ -45,25 +45,14 @@ req.typenames:
 
 # IPrintSchemaElement::get_NamespaceUri
 
-
 ## -description
 
-
-Gets the namespace URI  value of the "name" attribute of this node.
+Gets the namespace URI  value of the name attribute of this node.
 
 This property is read-only.
 
-
 ## -parameters
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement">IPrintSchemaElement</a>
- 
-
- 
-
+[IPrintSchemaElement](https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemaelement)

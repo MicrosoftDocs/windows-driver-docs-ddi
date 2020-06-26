@@ -56,7 +56,7 @@ The <i>NdkWrite</i> (<i>NDK_FN_WRITE</i>) function posts a write request on an N
 
 
 
-### -param *pNdkQp [in]
+### -param pNdkQp [in]
 
 A pointer to an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 

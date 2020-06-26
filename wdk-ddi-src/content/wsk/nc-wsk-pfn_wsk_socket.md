@@ -165,7 +165,7 @@ A pointer to a caller-supplied context for the socket that is being created. The
      pointer should always be <b>NULL</b>.
 
 
-### -param *Dispatch [in, optional]
+### -param Dispatch [in, optional]
 
 A pointer to a constant client dispatch structure. This structure is a dispatch table that
      contains pointers to the event callback functions for the new socket. Depending on the WSK 

@@ -73,7 +73,7 @@ Specifies the format of the sample as defined by a <a href="https://docs.microso
 
 ### -field lpDDSSrcSurface
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure.
 
 
 ## -see-also
@@ -81,7 +81,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
 
 
 

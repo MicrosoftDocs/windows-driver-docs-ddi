@@ -52,7 +52,7 @@ req.typenames: DD_MULTISAMPLEQUALITYLEVELSDATA
    DirectX 9.0 and later versions only.
    
 
-DD_MULTISAMPLEQUALITYLEVELSDATA is the data structure pointed to by the <b>lpvData</b> field of <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETMULTISAMPLEQUALITYLEVELS.
+DD_MULTISAMPLEQUALITYLEVELSDATA is the data structure pointed to by the <b>lpvData</b> field of <a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a> for DD_GETDRIVERINFO2DATA queries with the type D3DGDI2_TYPE_GETMULTISAMPLEQUALITYLEVELS.
 
 
 ## -struct-fields
@@ -115,7 +115,7 @@ For more information about D3DFORMAT and D3DMULTISAMPLE_TYPE, see the DirectX SD
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ddrawint/ns-ddrawint-dd_getdriverinfodata">DD_GETDRIVERINFODATA</a>
 
 
 

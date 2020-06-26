@@ -56,7 +56,7 @@ The <i>NdkBind</i> (<i>NDK_FN_BIND</i>) function binds a memory window to a spec
 
 
 
-### -param *pNdkQp [in]
+### -param pNdkQp [in]
 
 A pointer to an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
@@ -66,12 +66,12 @@ A pointer to an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/
 A context value to return in the <b>RequestContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure for this request.
 
 
-### -param *pMr [in]
+### -param pMr [in]
 
 A pointer to an NDK memory region (MR) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>).
 
 
-### -param *pMw [in]
+### -param pMw [in]
 
 A pointer to an NDK memory window (MW) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_mw">NDK_MW</a>).
 

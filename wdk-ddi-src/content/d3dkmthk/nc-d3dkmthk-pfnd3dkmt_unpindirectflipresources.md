@@ -64,7 +64,7 @@ _Check_return_ NTSTATUS APIENTRY* D3DKMTUnpinDirectFlipResources(
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 *\_In\_* *pResources*
 

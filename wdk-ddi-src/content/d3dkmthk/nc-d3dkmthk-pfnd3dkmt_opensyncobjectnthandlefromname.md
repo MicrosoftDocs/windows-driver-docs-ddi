@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtOpensyncobjectnthandlefromname
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME](ns-d3dkmthk-_d3dkmt_opensyncobjectnthandlefromname.md) structure.
 

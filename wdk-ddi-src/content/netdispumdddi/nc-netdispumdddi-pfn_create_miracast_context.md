@@ -61,12 +61,12 @@ Called by the operating system to create a user-mode Miracast context.
 A handle to the current Miracast display device, supplied by the operating system.
 
 
-### -param *pMiracastCallbacks [in]
+### -param pMiracastCallbacks [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-_miracast_callbacks">MIRACAST_CALLBACKS</a> structure that has pointers to callback functions, supplied by the operating system,  that the Miracast user-mode driver can call.
 
 
-### -param *ppMiracastContext [out]
+### -param ppMiracastContext [out]
 
 A pointer to a buffer, supplied by the operating system, that holds the Miracast context that the Miracast user-mode driver returns.
 

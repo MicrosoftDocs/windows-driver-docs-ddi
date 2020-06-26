@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtOutputduplgetmetadata
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_OUTPUTDUPL_METADATA](ns-d3dkmthk-_d3dkmt_outputdupl_metadata.md) structure.
 

@@ -269,7 +269,7 @@ The <b>NDIS_SWITCH_NIC_PARAMETERS</b> structure is also used in the following OI
 
 </li>
 </ul>
-<div class="alert"><b>Note</b>  The <b>NDIS_SWITCH_NIC_NAME</b>,  <b>NDIS_SWITCH_NIC_FRIENDLYNAME</b>, <b>NDIS_VM_NAME</b>, and  <b>NDIS_VM_FRIENDLYNAME</b> data types are type-defined by the <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_if_counted_string_lh">IF_COUNTED_STRING</a> structure. A string that is defined by this structure does not have to be null-terminated. However, the length of the string must be set in the <b>Length</b> member of this structure. If the string is null-terminated, the <b>Length</b> member must not include the terminating null character.
+<div class="alert"><b>Note</b>  The <b>NDIS_SWITCH_NIC_NAME</b>,  <b>NDIS_SWITCH_NIC_FRIENDLYNAME</b>, <b>NDIS_VM_NAME</b>, and  <b>NDIS_VM_FRIENDLYNAME</b> data types are type-defined by the <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-if_counted_string_lh">IF_COUNTED_STRING</a> structure. A string that is defined by this structure does not have to be null-terminated. However, the length of the string must be set in the <b>Length</b> member of this structure. If the string is null-terminated, the <b>Length</b> member must not include the terminating null character.
 
 </div>
 <div> </div>

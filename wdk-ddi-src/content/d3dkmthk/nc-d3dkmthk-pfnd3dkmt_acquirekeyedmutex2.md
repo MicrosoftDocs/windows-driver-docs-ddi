@@ -56,7 +56,7 @@ Acquires a keyed mutex object that includes private data.
 
 
 
-### -param *
+### -param Arg1
 
 *pData* 
 

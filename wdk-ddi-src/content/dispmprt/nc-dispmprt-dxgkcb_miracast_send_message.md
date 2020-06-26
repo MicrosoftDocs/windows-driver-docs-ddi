@@ -66,7 +66,7 @@ A driver-supplied handle to the Miracast display device. This handle was origina
 The size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>.
 
 
-### -param *pInputBuffer [in]
+### -param pInputBuffer [in]
 
 A pointer to the input buffer. <i>InputBufferSize</i> specifies the size of the buffer.
 
@@ -77,7 +77,7 @@ See Remarks for more info about the input buffer.
 
 [in] The size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
-### -param *pOutputBuffer [out]
+### -param pOutputBuffer [out]
 
 A pointer to the output buffer. <i>OutBufferSize</i> specifies the size of the buffer.
 

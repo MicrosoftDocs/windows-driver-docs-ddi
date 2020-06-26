@@ -51,7 +51,7 @@ Offers video memory allocations for reuse.
 
 ## -parameters
 
-### -param *
+### -param Arg1
 
 *pData* 
 

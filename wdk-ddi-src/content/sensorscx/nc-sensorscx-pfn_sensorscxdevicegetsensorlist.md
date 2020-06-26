@@ -74,7 +74,7 @@ Global definitions for the driver.
 
 A WDFDEVICE handle to the framework device object that represents the sensor.
 
-### -param *pSensorList
+### -param pSensorList
 
 A list of sensor instances.
 

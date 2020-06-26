@@ -56,7 +56,7 @@ A PDRIVER_FS_NOTIFICATION-typed routine is called by the operating system when a
 
 
 
-### -param *DeviceObject [in]
+### -param DeviceObject [in]
 
 A pointer to a file system device object for which the notification was called.
 

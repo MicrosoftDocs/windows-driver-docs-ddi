@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtFlushheaptransitions
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_FLUSHHEAPTRANSITIONS](ns-d3dkmthk-_d3dkmt_flushheaptransitions.md) structure.
 

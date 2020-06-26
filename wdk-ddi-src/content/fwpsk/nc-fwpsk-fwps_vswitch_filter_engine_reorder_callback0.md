@@ -57,13 +57,13 @@ The filter engine calls the  <i>vSwitchFilterEngineReorderNotifyRn</i> (<i>FWPS_
 
 
 
-### -param *notifyContext [in, optional]
+### -param notifyContext [in, optional]
 
 A pointer to a context provided by the callout driver. The driver passed this pointer to the <i>notifyContext</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsvswitcheventssubscribe0">FwpsvSwitchEventsSubscribe0</a>
  function. This parameter is optional and can be NULL.
 
 
-### -param *completionContext [in]
+### -param completionContext [in]
 
 A pointer to a completion context provided by the callout driver. This parameter is optional and can be NULL.
 
@@ -75,7 +75,7 @@ A pointer to a completion context provided by the callout driver. This parameter
 A BOOLEAN value that is set to TRUE if the filter is in the required position in the filter stack or FALSE if it is not.
 
 
-### -param *vSwitchExtensionLwfList [in]
+### -param vSwitchExtensionLwfList [in]
 
 An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_enum_filters">NDIS_ENUM_FILTERS</a> structure that specifies a list of the virtual switch extension NDIS filter drivers.
 

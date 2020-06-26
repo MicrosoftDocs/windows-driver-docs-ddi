@@ -69,7 +69,7 @@ WDFAPI PfnTrsecuredevicehandoffmasterdevicecontrol
 ### -param BindContextObject: 
 ### -param DeviceInit: 
 ### -param Callbacks: 
-### -param *MasterDevice: 
+### -param MasterDevice: 
 
 
 

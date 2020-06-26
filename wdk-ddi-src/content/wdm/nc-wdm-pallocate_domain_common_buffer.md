@@ -89,7 +89,7 @@ NTSTATUS PallocateDomainCommonBuffer
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | DOMAIN_COMMON_BUFFER_LARGE_PAGE | The common buffer will be allocated using a larger page granularity of PAGE_SIZE * 512. Note that this can increase the chance of the allocation being unsuccessful. |
 
-### -param *CacheType
+### -param CacheType
 [in, optional] A pointer to a [**MEMORY_CACHING_TYPE**](ne-wdm-_memory_caching_type.md) enumeration indicating whether the routine must enable or disable cached memory in the common buffer that is to be allocated. Only values of **MmNonCached** and **MmCached** are supported. The parameter is optional and can be specified as NULL to specify the caching will be dependent upon the hardware platform default.
  
 ### -param PreferredNode
@@ -98,7 +98,7 @@ NTSTATUS PallocateDomainCommonBuffer
 ### -param LogicalAddress 
 [out] A pointer to a variable into which this routine writes the logical address that the device can use to access the common buffer. The DMA device should use this logical address instead of the physical address that is returned by a routine such as [**MmGetPhysicalAddress**](../ntddk/nf-ntddk-mmgetphysicaladdress.md).
 
-### -param *VirtualAddress: 
+### -param VirtualAddress: 
 [out] A pointer to a variable into which this routine writes the corresponding virtual address of the allocated buffer.
 
 

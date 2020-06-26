@@ -111,12 +111,12 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+**STATUS_BUFFER_TOO_SMALL**
 
 The output buffer that <b>AssociatedIrp.SystemBuffer</b> points to is less than the size, in bytes, of the device ID and a <b>NULL</b> terminator.
 
 
-#### -STATUS_IO_DEVICE_ERROR
+**STATUS_IO_DEVICE_ERROR**
 
 A device I/O error occurred.
 

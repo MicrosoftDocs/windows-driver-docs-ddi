@@ -57,6 +57,10 @@ Specifies the time-out interval in microseconds. This interval is the length of 
 The WaitForTC method returns NTSTATUS. It returns STATUS_SUCCESS if the call was successful. Otherwise, the method returns an appropriate error code.
 
 ## -remarks
+
+> [!NOTE]
+> Microsoft supports a diverse and inclusionary environment. Within this document, there are references to the word slave. Microsoft's Style Guide for Bias-Free Communications recognizes this as an exclusionary word. This wording is used as it is currently the wording used within the software.
+
 This method should be called in only two situations:
 
 1. After sending a request to the hardware to stop, the miniport driver calls WaitForTC in order to wait for the DMA to complete before continuing execution.

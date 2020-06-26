@@ -60,31 +60,31 @@ This function pointer prototype defines the type of the <b>DrvUnidriverTextOut</
 
 
 
-### -param *pso
+### -param pso
 
 
-### -param *pstro
+### -param pstro
 
 
-### -param *pfo
+### -param pfo
 
 
-### -param *pco
+### -param pco
 
 
-### -param *prclExtra
+### -param prclExtra
 
 
-### -param *prclOpaque
+### -param prclOpaque
 
 
-### -param *pboFore
+### -param pboFore
 
 
-### -param *pboOpaque
+### -param pboOpaque
 
 
-### -param *pptlBrushOrg
+### -param pptlBrushOrg
 
 
 ### -param mix

@@ -62,7 +62,7 @@ Specifies the driver-determined number of bytes to be allocated for the [device 
 
 Optionally points to a buffer containing a null-terminated Unicode string that names the device object. The string must be a full path name. WDM filter and function drivers do not name their device objects. For more information, see [Named Device Objects](https://docs.microsoft.com/windows-hardware/drivers/kernel/named-device-objects).
 
-> [!ALERT]
+> [!IMPORTANT]
 > If a device name is not supplied (that is, *DeviceName* is **NULL**), the device object created by **IoCreateDevice** will not (and cannot) have a discretionary access control list (DACL) associated with it. For additional information, see [Security Descriptors](https://docs.microsoft.com/windows-hardware/drivers/kernel/security-descriptors).
 
 ### -param DeviceType [in]
@@ -79,7 +79,7 @@ Specifies if the device object represents an [exclusive device](https://docs.mic
 
 ### -param DeviceObject [out]
 
-Pointer to a variable that receives a pointer to the newly created [DEVICE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure. The **DEVICE_OBJECT** structure is allocated from nonpaged pool.
+Pointer to a variable that receives a pointer to the newly created [DEVICE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object) structure. The **DEVICE_OBJECT** structure is allocated from nonpaged pool. The device extension of the device object is zeroed.
 
 ## -returns
 

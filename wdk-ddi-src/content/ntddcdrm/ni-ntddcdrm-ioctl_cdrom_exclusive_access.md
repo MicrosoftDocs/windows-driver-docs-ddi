@@ -136,22 +136,22 @@ If the request fails, the <b>Status</b> field might be set to one of the followi
 
 
 
-#### -STATUS_ACCESS_DENIED (Windows error code: ERROR_ACCESS_DENIED)
+**STATUS_ACCESS_DENIED (Windows error code: ERROR_ACCESS_DENIED)**
 
 The device is already locked for exclusive access. 
 
 
-#### -STATUS_BUFFER_TOO_SMALL (Windows error code: ERROR_INSUFFICIENT_BUFFER)
+**STATUS_BUFFER_TOO_SMALL (Windows error code: ERROR_INSUFFICIENT_BUFFER)**
 
 The output buffer was too small for a <b>ExclusiveAccessQueryState</b> request. 
 
 
-#### -STATUS_INFO_LENGTH_MISMATCH (Windows error code: ERROR_BAD_LENGTH)
+**STATUS_INFO_LENGTH_MISMATCH (Windows error code: ERROR_BAD_LENGTH)**
 
 The input buffer was too small. 
 
 
-#### -STATUS_INVALID_DEVICE_REQUEST (Windows error code: ERROR_INVALID_FUNCTION)
+**STATUS_INVALID_DEVICE_REQUEST (Windows error code: ERROR_INVALID_FUNCTION)**
 
 The CD-ROM class driver returns this status code when one of the following two errors occurs:
 
@@ -166,12 +166,12 @@ The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevi
 </li>
 </ul>
 
-#### -STATUS_INVALID_DEVICE_STATE (Windows error code: ERROR_BAD_COMMAND)
+**STATUS_INVALID_DEVICE_STATE (Windows error code: ERROR_BAD_COMMAND)**
 
 The caller attempted to lock a device while the file system driver was mounted on this device, without specifying that the class driver should suspend the check for a mounted file system driver. To suspend the check for a mounted file system driver, the caller must set the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_exclusive_access">CDROM_EXCLUSIVE_ACCESS</a> to 1. 
 
 
-#### -STATUS_INVALID_HANDLE (Windows error code: ERROR_INVALID_HANDLE)
+**STATUS_INVALID_HANDLE (Windows error code: ERROR_INVALID_HANDLE)**
 
 The CD-ROM class driver returns this status code when one of the following two errors occurs:
 
@@ -186,7 +186,7 @@ The caller sent a request with <b>RequestType</b> = <b>ExclusiveAccessUnlockDevi
 </li>
 </ul>
 
-#### -STATUS_INVALID_PARAMETER (Windows error code: ERROR_INVALID_PARAMETER)
+**STATUS_INVALID_PARAMETER (Windows error code: ERROR_INVALID_PARAMETER)**
 
 The CD-ROM class driver returns this status code when one of the following two errors occurs:
 

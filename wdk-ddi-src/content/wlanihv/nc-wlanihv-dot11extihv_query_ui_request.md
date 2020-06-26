@@ -117,7 +117,7 @@ Specifies the connection phase after the IHV Extensions DLL completes a post-ass
        Operations</a>.
 
 
-### -param *ppIhvUIRequest [out]
+### -param ppIhvUIRequest [out]
 
 The address of a pointer to a
      <a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_ui_request.md">DOT11EXT_IHV_UI_REQUEST</a> structure.

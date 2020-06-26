@@ -56,7 +56,7 @@ HDAudio codec transfer complete callback function. <b>PHDAUDIO_TRANSFER_COMPLETE
 
 
 
-### -param *
+### -param 
 
 
 ### -param Arg1

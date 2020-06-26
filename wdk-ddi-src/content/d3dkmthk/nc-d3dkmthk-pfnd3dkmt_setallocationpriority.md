@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtSetallocationpriority
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_SETALLOCATIONPRIORITY](ns-d3dkmthk-_d3dkmt_setallocationpriority.md) structure.
 

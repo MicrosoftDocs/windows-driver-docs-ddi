@@ -446,7 +446,7 @@ The buffer contains an array of port numbers, of type NDIS_PORT_NUMBER (defined 
 The buffer contains a pointer to a variable of type NDIS_STRING that contains a null-terminated
        Unicode string that names the device object of a virtual miniport for the device that is being
        enabled. The string is a full path name—for example, 
-       \Device\<i>DeviceName</i>.
+       \Device\\<i>DeviceName</i>.
 
 
 

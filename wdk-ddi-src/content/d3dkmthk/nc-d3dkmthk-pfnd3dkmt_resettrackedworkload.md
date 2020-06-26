@@ -68,7 +68,7 @@ NTSTATUS Pfnd3dkmtResettrackedworkload
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_RESETTRACKEDWORKLOAD](ns-d3dkmthk-_d3dkmt_resettrackedworkload.md) structure to reset the tracked workload.
 

@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtQueryfseblock
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_QUERYFSEBLOCK](ns-d3dkmthk-_d3dkmt_queryfseblock.md) structure.
 

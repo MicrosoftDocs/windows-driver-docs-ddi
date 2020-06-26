@@ -86,7 +86,7 @@ A Boolean value that specifies whether the range is mapped into user-mode space 
 A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> enumerator that specifies the caching behavior of the mapped range.
 
 
-### -param *VirtualAddress [out]
+### -param VirtualAddress [out]
 
 A pointer to a variable that receives the address of the beginning of the mapped range. The way that the mapped range is accessed depends on the values of <i>InIoSpace</i> and <i>MapToUserMode</i>. The following table summarizes the different ways that the mapped range is accessed.
 

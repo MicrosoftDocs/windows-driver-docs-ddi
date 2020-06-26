@@ -231,27 +231,27 @@ The <b>Status</b> member is set to STATUS_SUCCESS on success if the \\server\sha
 If the network redirector is unable to resolve a prefix, it must return an NTSTATUS code that closely matches the intended semantics from the above list of recommended NTSTATUS codes. A network redirector must not return the actual encountered error (STATUS_CONNECTION_REFUSED, for example) directly to MUP if the NTSTATUS code is not from the above list. 
 
 
-#### -STATUS_BAD_NETWORK_NAME
+**STATUS_BAD_NETWORK_NAME**
 
 The specified share name cannot be found on the remote server. The machine name (\\server, for example) is valid, but the specified share name cannot be found on the remote server.
 
 
-#### -STATUS_BAD_NETWORK_PATH
+**STATUS_BAD_NETWORK_PATH**
 
 The network path cannot be located. The machine name (\\server, for example) is not valid or the network redirector cannot resolve the machine name (using whatever name resolution mechanisms are available). 
 
 
-#### -STATUS_INSUFFICIENT_RESOURCES
+**STATUS_INSUFFICIENT_RESOURCES**
 
 There were insufficient resources available to allocate memory for buffers.
 
 
-#### -STATUS_INVALID_DEVICE_REQUEST
+**STATUS_INVALID_DEVICE_REQUEST**
 
 An IOCTL_REDIR_QUERY_PATH_EX request should only come from MUP and the <b>RequestorMode</b> member of the IRP structure should always be <b>KernelMode</b>. This error code is returned if the requester mode of the calling thread was not <b>KernelMode</b>. 
 
 
-#### -STATUS_LOGON_FAILURE or STATUS_ACCESS_DENIED
+**STATUS_LOGON_FAILURE** or **STATUS_ACCESS_DENIED**
 
 If the prefix resolution operation failed due to invalid or incorrect credentials, the provider should return the exact error code returned by the remote server; these error codes must not be translated to STATUS_BAD_NETWORK_NAME or STATUS_BAD_NETWORK_PATH. Error codes like STATUS_LOGON_FAILURE and STATUS_ACCESS_DENIED serve as a feedback mechanism to the user and indicate the requirement to use appropriate credentials. These error codes are also used in certain cases to prompt the user automatically for credentials. Without these error codes, the user might assume that the machine is not accessible. 
 

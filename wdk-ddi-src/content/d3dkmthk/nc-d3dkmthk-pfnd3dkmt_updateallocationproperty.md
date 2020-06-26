@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtUpdateallocationproperty
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DDDI_UPDATEALLOCPROPERTY](../d3dukmdt/ns-d3dukmdt-d3dddi_updateallocproperty.md) structure.
 

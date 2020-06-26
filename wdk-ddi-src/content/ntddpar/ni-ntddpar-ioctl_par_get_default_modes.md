@@ -113,7 +113,7 @@ The <b>Status</b> member is set to one of the generic status values returned by 
 
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+**STATUS_BUFFER_TOO_SMALL**
 
 The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> is less than the size, in bytes, of a PARCLASS_NEGOTIATION_MASK structure.
 

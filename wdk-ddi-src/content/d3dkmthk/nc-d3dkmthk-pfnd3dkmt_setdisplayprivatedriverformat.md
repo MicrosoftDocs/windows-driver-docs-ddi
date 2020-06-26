@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtSetdisplayprivatedriverformat
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT](ns-d3dkmthk-_d3dkmt_setdisplayprivatedriverformat.md) structure.
 

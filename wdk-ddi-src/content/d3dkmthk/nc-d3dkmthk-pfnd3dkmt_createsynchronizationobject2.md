@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtCreatesynchronizationobject2
 
 ## -parameters
 
-### -param *
+### -param Arg1
 
 Pointer to a [D3DKMT_CREATESYNCHRONIZATIONOBJECT2](ns-d3dkmthk-_d3dkmt_createsynchronizationobject2.md) structure.
 

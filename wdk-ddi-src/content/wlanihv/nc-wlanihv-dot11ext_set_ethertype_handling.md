@@ -126,7 +126,7 @@ Number of entries within the IEEE EtherType registrations array referenced by th
      Handler function.
 
 
-### -param *pusRegistration [in, optional]
+### -param pusRegistration [in, optional]
 
 A pointer to an array of IEEE EtherType registrations. Each entry has the EtherType value in
      big-endian format.

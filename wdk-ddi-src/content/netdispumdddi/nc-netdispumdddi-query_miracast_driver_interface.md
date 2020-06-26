@@ -68,7 +68,7 @@ This version is defined in Netdispumdddi.h as a <b>MIRACAST_DRIVER_INTERFACE_VER
 The size, supplied by the operating system, of the buffer pointed to by <i>pMiracastDriverInterface</i>.
 
 
-### -param *pMiracastDriverInterface [out]
+### -param pMiracastDriverInterface [out]
 
 A pointer to a buffer, supplied by the operating system, that holds the returned Miracast display driver interface, which is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdispumdddi/ns-netdispumdddi-_miracast_driver_interface">MIRACAST_DRIVER_INTERFACE</a>.
 

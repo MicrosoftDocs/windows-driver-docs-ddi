@@ -56,17 +56,17 @@ The <i>NdkCreateQp</i> (<i>NDK_FN_CREATE_QP</i>) function creates an NDK queue p
 
 
 
-### -param *pNdkPd [in]
+### -param pNdkPd [in]
 
 A pointer to an NDK protection domain (PD) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_pd">NDK_PD</a>).
 
 
-### -param *pReceiveCq [in]
+### -param pReceiveCq [in]
 
 A pointer to a completion queue (CQ) to use for receive request completions (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_cq">NDK_CQ</a>).
 
 
-### -param *pInitiatorCq [in]
+### -param pInitiatorCq [in]
 
 A pointer to a CQ to use for initiator request completions.
 
@@ -111,7 +111,7 @@ A pointer to an <i>NdkCreateCompletion</i> (<a href="https://docs.microsoft.com/
 A context value that the NDK provider passes back to the <i>NdkCreateCompletion</i> function that is specified in the <i>CreateCompletion</i> parameter.
 
 
-#### -param **ppNdkQp
+#### -param *ppNdkQp
 
 A pointer to a created QP object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>) is returned in this location if the request succeeds without returning STATUS_PENDING. If the request returns STATUS_PENDING then this parameter is ignored and the created object is returned with the callback that is specified in the  <i>CreateCompletion</i> parameter.
 

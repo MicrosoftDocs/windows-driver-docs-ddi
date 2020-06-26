@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtUpdatetrackedworkload
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_UPDATETRACKEDWORKLOAD](ns-d3dkmthk-_d3dkmt_updatetrackedworkload.md) structure.
 

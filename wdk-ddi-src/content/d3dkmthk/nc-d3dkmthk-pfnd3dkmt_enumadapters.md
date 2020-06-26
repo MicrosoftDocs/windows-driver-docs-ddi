@@ -50,7 +50,7 @@ Enumerates all graphics adapters on the system.
 
 ## -parameters
 
-### -param *
+### -param Arg1
 
 *pEnumAdapters* [in, out]
 

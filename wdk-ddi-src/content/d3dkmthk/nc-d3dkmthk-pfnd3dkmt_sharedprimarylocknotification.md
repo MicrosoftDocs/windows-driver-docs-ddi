@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtSharedprimarylocknotification
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION](ns-d3dkmthk-_d3dkmt_sharedprimarylocknotification.md) structure.
 

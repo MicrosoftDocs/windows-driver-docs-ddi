@@ -66,7 +66,7 @@ The device descriptor of the device.
 The configuration of the device.
 
 
-### -param *FunctionDescriptorBuffer [out]
+### -param FunctionDescriptorBuffer [out]
 
 Pointer to a buffer that contains an array of function descriptors (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbbusif/ns-usbbusif-_usbc_function_descriptor">USBC_FUNCTION_DESCRIPTOR</a>).
 

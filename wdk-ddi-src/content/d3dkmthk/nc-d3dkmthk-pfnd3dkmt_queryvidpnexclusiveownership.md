@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtQueryvidpnexclusiveownership
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP](ns-d3dkmthk-_d3dkmt_queryvidpnexclusiveownership.md) structure.
 

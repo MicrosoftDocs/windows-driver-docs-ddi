@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtGetpresenthistory
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_GETPRESENTHISTORY](ns-d3dkmthk-_d3dkmt_getpresenthistory.md) structure.
 

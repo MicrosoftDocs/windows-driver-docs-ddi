@@ -69,13 +69,13 @@ A value that indicates the type of notification that the filter engine is sendin
      FWPS_NET_BUFFER_LIST_EVENT_TYPE0</a> enumeration.
 
 
-### -param *netBufferList [in, out]
+### -param netBufferList [in, out]
 
 A pointer to the buffer list that contains packets that were previously tagged as interesting by
      the callout driver.
 
 
-### -param *newNetBufferList [in, out, optional]
+### -param newNetBufferList [in, out, optional]
 
 A pointer to an updated buffer list that contains packets that are interesting to the callout
      driver. The use of this parameter differs depending on the type of event. For events where a change is

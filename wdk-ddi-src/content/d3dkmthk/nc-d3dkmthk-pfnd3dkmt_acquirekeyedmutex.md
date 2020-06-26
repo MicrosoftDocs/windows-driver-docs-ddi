@@ -56,7 +56,7 @@ The <b>D3DKMTAcquireKeyedMutex</b> function acquires a keyed mutex object.
 
 
 
-### -param *pData
+### -param pData
 
 [in, out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_acquirekeyedmutex">D3DKMT_ACQUIREKEYEDMUTEX</a> structure that specifies the keyed mutex object to acquire. 
 

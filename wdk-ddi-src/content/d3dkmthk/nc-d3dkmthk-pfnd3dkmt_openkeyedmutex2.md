@@ -50,7 +50,7 @@ Opens a keyed mutex object that includes private data.
 
 ## -parameters
 
-### -param *
+### -param Arg1
 
 *pData* 
 

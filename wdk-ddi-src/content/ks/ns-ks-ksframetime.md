@@ -1,11 +1,11 @@
 ---
 UID: NS:ks.__unnamed_struct_55
 title: KSFRAMETIME (ks.h)
-description: The KSFRAMETIME structure is supported by rendering pins, and is used to return the duration of the next &#0034;frame&#0034; of data, and flags associated with that frame.
+description: The KSFRAMETIME structure is supported by rendering pins, and is used to return the duration of the next frame of data, and flags associated with that frame.
 old-location: stream\ksframetime.htm
 tech.root: stream
 ms.assetid: 0e3beb72-2b00-41be-a7b4-341bcf065e92
-ms.date: 04/23/2018
+ms.date: 06/25/2020
 keywords: ["KSFRAMETIME structure"]
 ms.keywords: "*PKSFRAMETIME, KSFRAMETIME, KSFRAMETIME structure [Streaming Media Devices], PKSFRAMETIME, PKSFRAMETIME structure pointer [Streaming Media Devices], ks-struct_3abc9b81-d7e7-455c-a577-2efa7c986cc5.xml, ks/KSFRAMETIME, ks/PKSFRAMETIME, stream.ksframetime"
 f1_keywords:
@@ -44,38 +44,24 @@ req.typenames: KSFRAMETIME, *PKSFRAMETIME
 
 # KSFRAMETIME structure
 
-
 ## -description
 
-
-The KSFRAMETIME structure is supported by rendering pins, and is used to return the duration of the next "frame" of data, and flags associated with that frame.
-
+The KSFRAMETIME structure is supported by rendering pins, and is used to return the duration of the next frame of data, and flags associated with that frame.
 
 ## -struct-fields
-
-
-
 
 ### -field Duration
 
 Specifies the duration in presentation time units.
 
-
 ### -field FrameFlags
 
-Specifies the flags specific to the next frame, or to all frames. Flags are described on the reference page for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>.
-
+Specifies the flags specific to the next frame, or to all frames. Flags are described on the reference page for [KSALLOCATOR_FRAMING](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksallocator_framing).
 
 ### -field Reserved
 
 Set to zero.
 
-
 ## -remarks
 
-
-
 Note that this is an optional property, which need only be implemented if the pin instance understands the specifics of the media type it is transporting.
-
-
-

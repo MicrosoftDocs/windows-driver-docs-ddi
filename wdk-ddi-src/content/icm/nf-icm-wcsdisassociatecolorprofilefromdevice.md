@@ -69,7 +69,7 @@ A pointer to the file name of the profile to disassociate.
 
 A pointer to the name of the device from which the profile is to be disassociated.
 
-The device name for a monitor can be obtained from [DISPLAY_DEVICE.DeviceID](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_display_devicea).
+The device name for a monitor can be obtained from [DISPLAY_DEVICE.DeviceID](https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-display_devicea).
 
 
 #### - profileManagementScope [in]

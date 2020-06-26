@@ -50,7 +50,7 @@ Opens a shared resource from an NT handle.
 
 ## -parameters
 
-### -param *
+### -param Arg1
 
 *pData* 
 

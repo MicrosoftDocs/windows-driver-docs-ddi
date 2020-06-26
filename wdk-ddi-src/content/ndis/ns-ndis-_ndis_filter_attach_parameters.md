@@ -120,7 +120,7 @@ The NDIS interface index of the filter module that NDIS is attaching to the driv
 ### -field NetLuid
 
 The NDIS network interface 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value for the filter module that NDIS is
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value for the filter module that NDIS is
      attaching to the driver stack. The NET_LUID is equivalent to the interface name (<i>ifName</i> in RFC 2863
      <i>)</i>.
 
@@ -153,7 +153,7 @@ The name of the base miniport adapter.
 ### -field MediaConnectState
 
 The 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_media_connect_state">
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state">
      NET_IF_MEDIA_CONNECT_STATE</a> connection state type.
 
 
@@ -231,7 +231,7 @@ The current MAC address. For example, the
 ### -field BaseMiniportNetLuid
 
 The NDIS network interface 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> of the base miniport adapter. That is, if
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> of the base miniport adapter. That is, if
      there are virtual miniports or filter modules that are installed over a physical miniport adapter, the
      value of this member is the NET_LUID of the physical miniport adapter or a virtual miniport of the
      highest-level MUX intermediate driver.
@@ -386,11 +386,11 @@ Filter drivers should avoid issuing unnecessary OID queries. Instead, use the in
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_media_connect_state">NET_IF_MEDIA_CONNECT_STATE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_media_connect_state">NET_IF_MEDIA_CONNECT_STATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 

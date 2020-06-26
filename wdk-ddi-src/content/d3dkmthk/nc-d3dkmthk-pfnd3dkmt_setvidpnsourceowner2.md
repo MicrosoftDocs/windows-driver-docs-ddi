@@ -66,7 +66,7 @@ NTSTATUS Pfnd3dkmtSetvidpnsourceowner2
 
 ## -parameters
 
-### -param * 
+### -param Arg1
 
 Pointer to a [D3DKMT_SETVIDPNSOURCEOWNER2](ns-d3dkmthk-_d3dkmt_setvidpnsourceowner2.md) structure.
 

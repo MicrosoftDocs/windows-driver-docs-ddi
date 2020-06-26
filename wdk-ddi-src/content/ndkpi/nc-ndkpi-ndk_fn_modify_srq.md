@@ -56,7 +56,7 @@ The <i>NdkModifySrq</i> (<i>NDK_FN_MODIFY_SRQ</i>) function modifies the size an
 
 
 
-### -param *pNdkSrq [in]
+### -param pNdkSrq [in]
 
 A pointer to an NDK shared receive queue (SRQ) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>).
 
