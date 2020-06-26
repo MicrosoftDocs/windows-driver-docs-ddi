@@ -4,6 +4,7 @@ title: _FILE_STAT_INFORMATION (ntifs.h)
 description: Contains metadata about a file.
 ms.assetid: b2ab854f-2c03-4ee3-ab6b-4480d6a379a3
 ms.date: 10/19/2018
+tech.root: ifsk
 keywords: ["_FILE_STAT_INFORMATION structure"]
 f1_keywords:
  - "ntifs/_FILE_STAT_INFORMATION"
