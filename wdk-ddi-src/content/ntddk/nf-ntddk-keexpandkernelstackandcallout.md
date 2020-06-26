@@ -81,9 +81,7 @@ Specifies the number of bytes on the stack to provide to the <i>ExpandedStackCal
 ## -returns
 
 
-
-<b>KeExpandKernelStackAndCallout</b> returns STATUS_SUCCESS if the operation succeeds or an appropriate NTSTATUS value if the operation fails.
-
+Returns success if the stack allocation is successful and the callout has been called. Otherwise, returns a failure status.
 
 
 
