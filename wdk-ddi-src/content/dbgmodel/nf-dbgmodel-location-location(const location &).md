@@ -1,5 +1,5 @@
 ---
-UID: NF:dbgmodel.Location.Location(const Location &)
+UID: NF:dbgmodel.Location.Location(constLocation&)
 title: Location function (dbgmodel.h)
 description: Copy constructs a location.
 ms.assetid: d653fca1-8a9a-4fd5-b37a-2d3e506c1a77
