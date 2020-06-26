@@ -76,7 +76,7 @@ To indicate the version of the NDIS_FILTER_DRIVER_CHARACTERISTICS structure, set
 #### NDIS_FILTER_CHARACTERISTICS_REVISION_3
 
 Added the 
-        <b>SynchronousOidRequestHandler</b> and <b>SynchronousOidRequestHandlerComplete</b> members for NDIS 6.80.
+        <b>SynchronousOidRequestHandler</b> and <b>SynchronousOidRequestCompleteHandler</b> members for NDIS 6.80.
 
 Set the 
         <b>Size</b> member to NDIS_SIZEOF_FILTER_DRIVER_CHARACTERISTICS_REVISION_3.
