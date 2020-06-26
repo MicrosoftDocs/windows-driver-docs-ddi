@@ -1,5 +1,5 @@
 ---
-UID: NF:engextcpp.ExtRemoteTyped.Copy(const ExtRemoteTyped &)
+UID: NF:engextcpp.ExtRemoteTyped.Copy(constExtRemoteTyped&)
 title: ExtRemoteTyped::Copy(const ExtRemoteTyped &) (engextcpp.h)
 description: The Copy method sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_copy_extremotetyped.htm

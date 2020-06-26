@@ -1,5 +1,5 @@
 ---
-UID: NF:engextcpp.ExtRemoteTyped.ExtRemoteTyped(const ExtRemoteTyped &)
+UID: NF:engextcpp.ExtRemoteTyped.ExtRemoteTyped(constExtRemoteTyped&)
 title: ExtRemoteTyped::ExtRemoteTyped(const ExtRemoteTyped &) (engextcpp.h)
 description: The ExtRemoteTyped copy constructor creates a new instance of the ExtRemoteTyped class.
 old-location: debugger\extremotetyped_extremotetyped_extremotetyped.htm
