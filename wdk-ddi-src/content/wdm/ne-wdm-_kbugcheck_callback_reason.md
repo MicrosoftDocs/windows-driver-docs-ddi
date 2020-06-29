@@ -6,27 +6,27 @@ old-location: kernel\kbugcheck_callback_reason.htm
 tech.root: kernel
 ms.assetid: 08246843-9b6e-4694-8475-acb02fbdd82b
 ms.date: 05/06/2019
+ms.keywords: KBUGCHECK_CALLBACK_REASON, KBUGCHECK_CALLBACK_REASON enumeration [Kernel-Mode Driver Architecture], KbCallbackAddPages, KbCallbackDumpIo, KbCallbackInvalid, KbCallbackReserved1, KbCallbackReserved2, KbCallbackSecondaryDumpData, _KBUGCHECK_CALLBACK_REASON, kernel.kbugcheck_callback_reason, sysenum_e8373f57-7ba5-44ad-9ad9-4110710732ee.xml, wdm/KBUGCHECK_CALLBACK_REASON, wdm/KbCallbackAddPages, wdm/KbCallbackDumpIo, wdm/KbCallbackInvalid, wdm/KbCallbackReserved1, wdm/KbCallbackReserved2 wdm/KbCallbackSecondaryDumpData
 keywords: ["_KBUGCHECK_CALLBACK_REASON enumeration"]
-ms.keywords: KBUGCHECK_CALLBACK_REASON, KBUGCHECK_CALLBACK_REASON enumeration [Kernel-Mode Driver Architecture], KbCallbackAddPages, KbCallbackDumpIo, KbCallbackInvalid, KbCallbackReserved1, KbCallbackSecondaryDumpData, _KBUGCHECK_CALLBACK_REASON, kernel.kbugcheck_callback_reason, sysenum_e8373f57-7ba5-44ad-9ad9-4110710732ee.xml, wdm/KBUGCHECK_CALLBACK_REASON, wdm/KbCallbackAddPages, wdm/KbCallbackDumpIo, wdm/KbCallbackInvalid, wdm/KbCallbackReserved1, wdm/KbCallbackSecondaryDumpData
 f1_keywords:
  - "wdm/KBUGCHECK_CALLBACK_REASON"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported on Windows XP with Service Pack 1 (SP1), Windows Server 2003, and later versions of the Windows operating system.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.unicode-ansi:
+req.idl:
+req.max-support:
+req.namespace:
+req.assembly:
+req.type-library:
+req.lib:
+req.dll:
+req.irql:
 topic_type:
 - APIRef
 - kbSyntax
@@ -80,6 +80,10 @@ The callback function removes one or more pages of driver-supplied data from the
 ### -field KbCallbackTriageDumpData
 
 Specifies that the callback is executed to add virtual memory ranges the driver wants to preserve in the carved minidump file. This enumeration value is supported starting in Windows 10, version 1809 and Windows Server 2019. For more information about this type of callback, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-a-kbcallbacktriagedumpdata-callback-routine">Implementing a KbCallbackTriageDumpData Callback Routine</a>.
+
+### -field KbCallbackReserved2
+
+Reserved for system use. Do not use.
 
 ## -remarks
 
