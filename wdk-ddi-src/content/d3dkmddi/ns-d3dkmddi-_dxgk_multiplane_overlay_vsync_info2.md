@@ -64,11 +64,11 @@ A [**DXGKCB_NOTIFY_MPO_VSYNC_FLAGS**](https://docs.microsoft.com/windows-hardwar
 
 ## -remarks
 
-**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2** is a member of the [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data) structure. It is filled out by the driver to report each plane’s flip completion after a VSYNC occurs. It should be filled out when the display adapter generates an interrupt after a VSYNC.
+**DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2** is a member of the [**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data) structure. It is filled out by the driver to report each plane’s flip completion after a VSYNC occurs. It should be filled out when the display adapter generates an interrupt after a VSYNC.
 
 ## -see-also
 
-[**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data)
+[**DXGKARGCB_NOTIFY_INTERRUPT_DATA**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data)
 
 [**DXGKCB_NOTIFY_MPO_VSYNC_FLAGS**](https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkcb_notify_mpo_vsync_flags)
 

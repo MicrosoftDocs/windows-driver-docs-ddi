@@ -41,7 +41,7 @@ dev_langs:
 
 ## -description
 
-A kernel-mode component that needs to use the DXGK_DP_INTERFACE DisplayPort (DP) interface calls the display miniport driver's [DxgkDdiQueryInterface](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_query_interface) function.
+A kernel-mode component that needs to use the DXGK_DP_INTERFACE DisplayPort (DP) interface calls the display miniport driver's [DxgkDdiQueryInterface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_query_interface) function.
 
 ## -struct-fields
 
