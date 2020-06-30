@@ -261,8 +261,7 @@ FILE_OPEN_BY_FILE_ID
 <td>
 The file name that is specified by the <i>ObjectAttributes</i> parameter includes a binary 8-byte or 16-byte file reference number or object ID for the file, depending on the file system as shown below. Optionally, a device name followed by a backslash character may proceed these binary values. For example, a device name will have the following format.
 
-<pre class="syntax">\??\C:\<binary FileID>
-\device\HardDiskVolume1\<binary ObjectID></pre>
+<pre class="syntax">\??\C:\FileID\device\HardDiskVolume1\ObjectID</pre>
 
 where FileID is 8 bytes and ObjectID is 16 bytes
 <ul>
