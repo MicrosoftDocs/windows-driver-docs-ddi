@@ -1,9 +1,10 @@
 ---
 UID: NS:ntifs._NETWORK_APP_INSTANCE_EA
 title: _NETWORK_APP_INSTANCE_EA (ntifs.h)
-description: 
+description: An Extended Attribute (EA) structure for processes using Server Message Block (SMB) Cluster Client Failover.
 ms.assetid: d9763ddb-d0c3-4ed5-b157-4a85503fba3b
 ms.date: 10/19/2018
+tech.root: ifsk
 keywords: ["_NETWORK_APP_INSTANCE_EA structure"]
 f1_keywords:
  - "ntifs/_NETWORK_APP_INSTANCE_EA"
@@ -41,24 +42,23 @@ ms.custom: RS5
 
 ## -description
 
-An Extended Attribute (EA) structure for processes using SMB Cluster Client Failover.
+An Extended Attribute (EA) structure for processes using Server Message Block (SMB) Cluster Client Failover.
 
 ## -struct-fields
 
 ### -field AppInstanceID
- 
-A GUID that identifies a single application instance, or a **NETWORK_APP_INSTANCE_EA** structure when the application additionally contains a flag for **CsvFlags**.
 
+A GUID that identifies a single application instance, or a **NETWORK_APP_INSTANCE_EA** structure when the application additionally contains a flag for **CsvFlags**.
 
 ### -field CsvFlags
 
-An optional flag: 
+An optional flag:
 `NETWORK_APP_INSTANCE_CSV_FLAGS_VALID_ONLY_IF_CSV_COORDINATOR (0x00000001)`
 
-The **NETWORK_APP_INSTANCE_CSV_FLAGS_VALID_ONLY_IF_CSV_COORDINATOR** flag is only used when the file is opened directly from CSVFS. This flag is ignored when the file is opened using the SMB protocol. The flag notifies CSVFS that the file only be opened on the coordinating node. If an ‘open’ request is sent to CSVFS and the node is non-coordinating, then the open will fail. Additionally, if the coordinating node is moved while the file is opened, the file open would be invalidated. 
+The **NETWORK_APP_INSTANCE_CSV_FLAGS_VALID_ONLY_IF_CSV_COORDINATOR** flag is only used when the file is opened directly from CSVFS. This flag is ignored when the file is opened using the SMB protocol. The flag notifies CSVFS that the file only be opened on the coordinating node. If an ‘open’ request is sent to CSVFS and the node is non-coordinating, then the open will fail. Additionally, if the coordinating node is moved while the file is opened, the file open would be invalidated.
 
 ## -remarks
 
-A process can register a CCF application ID using [**RegisterAppInstance**](https://docs.microsoft.com/windows/desktop/api/smbclnt/nf-smbclnt-registerappinstance), enabling all 'open' operations from the process to have the same ApplicationId. If an ID isn't registered, the ApplicationId will differ for each operation. 
+A process can register a CCF application ID using [**RegisterAppInstance**](https://docs.microsoft.com/windows/desktop/api/smbclnt/nf-smbclnt-registerappinstance), enabling all 'open' operations from the process to have the same ApplicationId. If an ID isn't registered, the ApplicationId will differ for each operation.
 
 To mark individual open operations with a different ApplicationId, first set **AppInstanceID** to a GUID value. you can then append **SMB_CCF_APP_INSTANCE_EA_NAME** to the list of Extended Attributes when calling [NtCreateFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile). If the application also passes the  **NETWORK_APP_INSTANCE_CSV_FLAGS_VALID_ONLY_IF_CSV_COORDINATOR** flag, then **AppInstanceID** should be **NETWORK_APP_INSTANCE_EA** structure.

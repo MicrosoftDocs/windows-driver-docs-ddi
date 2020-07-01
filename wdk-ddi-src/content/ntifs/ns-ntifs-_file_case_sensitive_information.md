@@ -4,6 +4,7 @@ title: _FILE_CASE_SENSITIVE_INFORMATION (ntifs.h)
 description: The FILE_CASE_SENSITIVE_INFORMATION structure is used to query or set per-directory case-sensitive information.
 ms.assetid: 4a36d9b7-8ddf-4064-b0bc-d95d6c1fb360
 ms.date: 10/19/2018
+tech.root: ifsk
 keywords: ["_FILE_CASE_SENSITIVE_INFORMATION structure"]
 f1_keywords:
  - "ntifs/_FILE_CASE_SENSITIVE_INFORMATION"

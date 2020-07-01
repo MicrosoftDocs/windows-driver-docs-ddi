@@ -3,6 +3,7 @@ UID: NE:ntifs._RTL_MEMORY_TYPE
 title: _RTL_MEMORY_TYPE (ntifs.h)
 description: Defines the memory type the heap is supposed to use.
 ms.assetid: ba671026-62dc-4e7e-aef4-bd2507d58ecb
+tech.root: ifsk
 ms.date: 10/19/2018
 keywords: ["_RTL_MEMORY_TYPE enumeration"]
 f1_keywords:
