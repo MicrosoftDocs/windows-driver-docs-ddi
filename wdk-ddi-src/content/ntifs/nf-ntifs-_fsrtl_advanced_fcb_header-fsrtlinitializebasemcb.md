@@ -1,8 +1,9 @@
 ---
 UID: NF:ntifs.FsRtlInitializeBaseMcb
 title: FsRtlInitializeBaseMcb function (ntifs.h)
-description: This routine initializes a new Mcb structure.  The caller must supply the memory for the Mcb structure.  This call must precede all other calls that set/query the Mcb structure.
+description: FsRtlInitializeBaseMcb initializes a new map control block (MCB) structure.
 ms.assetid: 78f5f4e1-0756-4071-931c-3d8503ff1dab
+tech.root: ifsk
 ms.date: 10/19/2018
 keywords: ["FsRtlInitializeBaseMcb function"]
 f1_keywords:
@@ -43,22 +44,26 @@ ms.custom: RS5
 
 # FsRtlInitializeBaseMcb function
 
-
 ## -description
-This routine initializes a new map control block (MCB) structure. The caller must supply the memory for the Mcb structure. This call must precede all other calls that set/query the Mcb structure.
 
-If pool is not available this routine will raise a status value indicating insufficient resources.
+**FsRtlInitializeBaseMcb** initializes a new map control block (MCB) structure.
 
 ## -parameters
 
 ### -param Mcb
 
-Contains a pointer to the Mcb structure to initialize.
+Pointer to the MCB structure to initialize.
 
 ### -param PoolType
-Specifies the pool type to use when allocating additional internal Mcb memory.
+
+Specifies the pool type to use when allocating additional internal MCB memory.
 
 ## -remarks
 
+The caller supplies the memory for the MCB structure.  A call to **FsRtlInitializeBaseMcb** must precede all other calls that set/query the MCB structure.
+
+If pool is not available, this routine will raise a status value indicating insufficient resources.
+
 ## -see-also
+
 [FsRtlInitializeBaseMcbEx function](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializebasemcbex.md)

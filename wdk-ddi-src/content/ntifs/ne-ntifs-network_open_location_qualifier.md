@@ -1,5 +1,5 @@
 ---
-UID: NE:ntifs.NETWORK_OPEN_LOCATION_QUALIFIER
+UID: NE:ntifs.__unnamed_enum_1
 title: NETWORK_OPEN_LOCATION_QUALIFIER (ntifs.h)
 description: The NETWORK_OPEN_LOCATION_QUALIFIER enumeration type contains values that identify the kind of location restriction to attach to a file.
 old-location: ifsk\network_open_location_qualifier.htm

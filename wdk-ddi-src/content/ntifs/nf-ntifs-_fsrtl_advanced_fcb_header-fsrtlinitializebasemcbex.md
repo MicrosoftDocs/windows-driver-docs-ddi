@@ -1,8 +1,9 @@
 ---
 UID: NF:ntifs.FsRtlInitializeBaseMcbEx
 title: FsRtlInitializeBaseMcbEx function (ntifs.h)
-description:
+description: FsRtlInitializeBaseMcbEx initializes a new MCB structure.
 ms.assetid: ee7e2beb-fc03-4e76-8f68-b6fb9c6d26f8
+tech.root: ifsk
 ms.date: 10/19/2018
 keywords: ["FsRtlInitializeBaseMcbEx function"]
 f1_keywords:
@@ -43,31 +44,37 @@ ms.custom: RS5
 
 # FsRtlInitializeBaseMcbEx function
 
-
 ## -description
 
-This routine initializes a new Mcb structure.  The caller must supply the memory for the Mcb structure.  This call must precede all other calls that set/query the Mcb structure.
-
-If pool is not available this routine will raise a status value indicating insufficient resources or return false depending on the flags.
+**FsRtlInitializeBaseMcbEx** initializes a new MCB structure.
 
 ## -parameters
 
 ### -param Mcb
-Contains a pointer to the Mcb structure to initialize.
+
+Contains a pointer to the MCB structure to initialize.
 
 ### -param PoolType
-Specifies the pool type to use when allocating additional internal Mcb memory.
+
+Specifies the pool type to use when allocating additional internal MCB memory.
 
 ### -param Flags
-A bitmask of flags that specifies what action(s) to take when a Mcb mapping is empty. Contains one of the following values.
 
-Flag|Value
----|---
-MCB_FLAG_RAISE_ON_ALLOCATION_FAILURE|1
+A bitmask of flags that specifies what action(s) to take when a MCB mapping is empty. Contains one of the following values.
+
+Flag | Value
+--- | ---
+MCB_FLAG_RAISE_ON_ALLOCATION_FAILURE | 1
 
 ## -returns
-This function returns a BOOLEAN and is TRUE if it is successfull initializing the Mcb structure.
+
+This function returns TRUE if it successfully initializes the MCB structure.
+
 ## -remarks
+
+The caller must supply the memory for the MCB structure.  This call must precede all other calls that set/query the MCB structure.
+
+If pool is not available this routine will raise a status value indicating insufficient resources or return false depending on the flags.
 
 ## -see-also
 
