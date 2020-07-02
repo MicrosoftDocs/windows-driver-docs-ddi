@@ -168,7 +168,7 @@ This routine must be called from the miniport driver's DriverEntry routine.
 
 Because Storport miniport drivers must support PnP, the Storport driver does not use the <i>HwContext</i> parameter passed to <b>StorPortInitialize</b>.
 
-Every miniport driver's DriverEntry routine must call <b>StorPortInitialize</b> after the miniport driver has first zeroed and then set the members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a>.
+Every miniport driver's DriverEntry routine must call <b>StorPortInitialize</b> after the miniport driver has first zeroed and then set the members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data-r1">HW_INITIALIZATION_DATA</a>.
 
 
 
