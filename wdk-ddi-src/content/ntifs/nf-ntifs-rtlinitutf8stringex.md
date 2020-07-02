@@ -52,7 +52,7 @@ targetos: Windows
 
 ### -param DestinationString
 
-Pointer to the UTF8_STRING structure to be initialized. The *ntdef.h* header file defines this structure to be identical to the [ANSI_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string) structure.
+Pointer to the UTF8_STRING structure to be initialized. The *ntdef.h* header file defines this structure to be identical to the [ANSI_STRING](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string) structure.
 
 ### -param SourceString
 
@@ -80,4 +80,4 @@ Callers of **RtlInitStringEx** can be running at IRQL <= DISPATCH_LEVEL if the *
 
 ## -see-also
 
-[ANSI_STRING](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string)
+[ANSI_STRING](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-string)
