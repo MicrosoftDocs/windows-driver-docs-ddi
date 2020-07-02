@@ -117,7 +117,11 @@ Specifies whether to save the floating-point stack when the driver's device inte
 
 <b>IoConnectInterrupt</b> can return one of the following NTSTATUS values:
 
+**STATUS_SUCCESS**
 
+**STATUS_INVALID_PARAMETER**: No processors were specified.
+
+**STATUS_INSUFFICIENT_RESOURCES**: There was not enough nonpaged pool.
 
 
 ## -remarks
