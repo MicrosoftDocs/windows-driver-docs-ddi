@@ -76,7 +76,7 @@ VT_CLSID
 
 VT_BSTR
 
-See the [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-tagpropvariant) structure for more information.
+See the [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-propvariant) structure for more information.
 
 ### -field Old
 

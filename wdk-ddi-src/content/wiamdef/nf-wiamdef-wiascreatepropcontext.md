@@ -82,7 +82,7 @@ Entries in the property context are identifiers for properties that either have 
 
 The properties to which an application writes are specified by the *pPropSpec* array. The properties that were changed by the application, as well as any properties dependent on the changed properties, are specified by the *pProps* array. Only properties that have been changed by the application (and any dependent properties) can be specified in *pProps*.
 
-For more information. see the [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-tagpropspec)structure.
+For more information. see the [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-propspec)structure.
 
 Drivers can specify additional properties when creating a property context with wiasCreatePropContext.
 
