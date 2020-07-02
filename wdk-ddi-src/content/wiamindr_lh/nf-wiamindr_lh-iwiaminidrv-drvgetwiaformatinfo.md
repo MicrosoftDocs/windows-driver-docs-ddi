@@ -78,7 +78,7 @@ Points to a memory location that will receive a status code for this method. If 
 
 ppwfi [out, optional]
 
-Points to a memory location that will receive the address of the first element of an array of [WIA_FORMAT_INFO](https://docs.microsoft.com/windows/win32/api/wia_xp/ns-wia_xp-_wia_format_info) structures.
+Points to a memory location that will receive the address of the first element of an array of [WIA_FORMAT_INFO](https://docs.microsoft.com/windows/win32/api/wia_xp/ns-wia_xp-wia_format_info) structures.
 
 #### - lFlags [in]
 
@@ -98,7 +98,7 @@ Points to a memory location that will receive a status code for this method. If 
 
 #### - ppwfi [out, optional]
 
-Points to a memory location that will receive the address of the first element of an array of [WIA_FORMAT_INFO](https://docs.microsoft.com/windows/win32/api/wia_xp/ns-wia_xp-_wia_format_info) structures.
+Points to a memory location that will receive the address of the first element of an array of [WIA_FORMAT_INFO](https://docs.microsoft.com/windows/win32/api/wia_xp/ns-wia_xp-wia_format_info) structures.
 
 ## -returns
 
@@ -108,7 +108,7 @@ The value pointed to by *plDevErrVal* can be converted to a string by calling [I
 
 ## -remarks
 
-This method creates an array of [WIA_FORMAT_INFO](https://docs.microsoft.com/windows/win32/api/wia_xp/ns-wia_xp-_wia_format_info) structures that describe the media types and image formats that the WIA hardware device supports. For each element in the array, the media type can be one of TYMED_CALLBACK, TYMED_MULTIPAGE_CALLBACK, TYMED_FILE, or TYMED_MULTIPAGE_FILE. Typical values for the image format include WiaImgFmt_JPEG, and WiaImgFmt_BMP, among others. For more information, see [Understanding TYMED](https://docs.microsoft.com/windows-hardware/drivers/image/understanding-tymed) and [WIA_IPA_FILENAME_EXTENSION](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-filename-extension).
+This method creates an array of [WIA_FORMAT_INFO](https://docs.microsoft.com/windows/win32/api/wia_xp/ns-wia_xp-wia_format_info) structures that describe the media types and image formats that the WIA hardware device supports. For each element in the array, the media type can be one of TYMED_CALLBACK, TYMED_MULTIPAGE_CALLBACK, TYMED_FILE, or TYMED_MULTIPAGE_FILE. Typical values for the image format include WiaImgFmt_JPEG, and WiaImgFmt_BMP, among others. For more information, see [Understanding TYMED](https://docs.microsoft.com/windows-hardware/drivers/image/understanding-tymed) and [WIA_IPA_FILENAME_EXTENSION](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-filename-extension).
 
 The minidriver can define a global array to hold the WIA_FORMAT_INFO structures, or it can allocate memory for the array. The WIA service will not free the allocated memory, so the minidriver should store a pointer to that memory in the driver item context. The minidriver can then free this memory in a call to [IWiaMiniDrv::drvFreeDrvItemContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvfreedrvitemcontext).
 
