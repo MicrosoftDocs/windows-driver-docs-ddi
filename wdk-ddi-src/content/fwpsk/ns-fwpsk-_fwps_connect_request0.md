@@ -62,14 +62,14 @@ The <b>FWPS_CONNECT_REQUEST0</b> structure defines modifiable data for the
 
 The local transport address of the connect request. This is an IPV4 or IPV6 address and TCP port
      formatted as a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a> structure.
+     <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a> structure.
 
 
 ### -field remoteAddressAndPort
 
 The remote transport address of the connect request. This is an IPV4 or IPV6 address and TCP/UDP
      port formatted as a 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a> structure.
+     <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a> structure.
 
 
 ### -field portReservationToken
@@ -196,7 +196,7 @@ This structure acts as a linked list that contains a record of all the changes m
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a>
 
 
 

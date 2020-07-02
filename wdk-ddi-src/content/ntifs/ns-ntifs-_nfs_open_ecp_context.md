@@ -63,7 +63,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-
 
 ### -field ClientSocketAddress
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a> structure that specifies the transport address of the client computer. This client originates the open file request. 
+A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a> structure that specifies the transport address of the client computer. This client originates the open file request. 
 
 
 ## -remarks
@@ -82,7 +82,7 @@ The NFS_OPEN_ECP_CONTEXT structure is read-only. You should use it to retrieve i
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh">SOCKADDR_STORAGE</a>
 
 
 
