@@ -56,7 +56,7 @@ Pointer to a [UNICODE_STRING](https://docs.microsoft.com/windows/desktop/api/ntd
 
 ### -field SocketAddress
 
-Pointer to a [SOCKADDR_STORAGE](https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage) structure that specifies the transport address of a client computer. This client originates the open file request. This field is optional and can be a NULL.
+Pointer to a [SOCKADDR_STORAGE](https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh) structure that specifies the transport address of a client computer. This client originates the open file request. This field is optional and can be a NULL.
 
 ### -field OplockBlockState
 
@@ -88,7 +88,7 @@ The oplock state values (**OplockBlockState**, **OplockAppState**, and **OplockF
 
 ## -see-also
 
-[SOCKADDR_STORAGE](https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage)
+[SOCKADDR_STORAGE](https://docs.microsoft.com/windows/win32/api/ws2def/ns-ws2def-sockaddr_storage_lh)
 
 [SRV_INSTANCE_TYPE](ne-ntifs-srv_instance_type.md)
 

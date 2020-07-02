@@ -83,7 +83,7 @@ Caller-supplied value representing the size of the structure pointed to by <i>pG
 
 ### -param pGdiInfo
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure.
 
 
 ### -param cjDevInfo

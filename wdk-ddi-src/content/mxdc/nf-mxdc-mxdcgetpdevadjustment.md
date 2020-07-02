@@ -86,7 +86,7 @@ The **PrintPropertiesCollection** data structure from which the printer interfac
 
 | Return code | Description |
 | --- | --- |
-| S_OK | The printer interface DLL successfully returned an adjusted imageable area, compression type, or DPI based on the given DEVMODE structure. The MXDC will validate the returned imageable area and then use it to populate the [GDIINFO](https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo) structure to the respective fields. |
+| S_OK | The printer interface DLL successfully returned an adjusted imageable area, compression type, or DPI based on the given DEVMODE structure. The MXDC will validate the returned imageable area and then use it to populate the [GDIINFO](https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-gdiinfo) structure to the respective fields. |
 | E_NOTIMPL | The **MxdcGetPDEVAdjustment** function is not implemented by the printer interface. The printer interface must not modify the fields that it does not support. The MXDC defaults to its current defaults. For the imageable area case, MXDC defaults to using the physical page size. For the compression option, MXDC defaults to medium JPEG compression. |
 | E_FAIL | For this value or any other failure values, the MXDC returns -1 to the [DrvEnablePDEV](https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev) function, catches the internal exception, and sets a flag to fail and end the print job. |
 
@@ -277,6 +277,6 @@ Values:
 
 [DrvEnablePDEV](https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenablepdev)
 
-[GDIINFO](https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo)
+[GDIINFO](https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-gdiinfo)
 
 [IPrintOemUIMXDC Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuimxdc)

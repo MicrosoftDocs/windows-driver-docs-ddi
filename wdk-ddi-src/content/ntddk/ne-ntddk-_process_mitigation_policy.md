@@ -35,7 +35,7 @@ ms.custom: RS5
 # _PROCESS_MITIGATION_POLICY enumeration
 
 ## -description
-Represents the different process mitigation policies. For more information, see [**_PROCESS_MITIGATION_POLICY**](https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_process_mitigation_policy) enumeration.
+Represents the different process mitigation policies. For more information, see [**_PROCESS_MITIGATION_POLICY**](https://docs.microsoft.com/windows/win32/api/winnt/ne-winnt-process_mitigation_policy) enumeration.
 
 
 ## -enum-fields
