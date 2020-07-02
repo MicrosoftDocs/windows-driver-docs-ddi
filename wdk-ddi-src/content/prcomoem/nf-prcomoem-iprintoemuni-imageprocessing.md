@@ -218,7 +218,7 @@ If the format requires a color table, the table is pointed to by <i>pColorTable<
 
 </li>
 <li>
-Color data is in PRIMARY_ORDER_CBA format, as explained in the description of the <b>ulPrimaryOrder</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a> structure. In other words, if the color format is RGB or CMY, the least significant <i>n</i> bits must contain the blue or yellow value, the next <i>n</i> bits must contain the green or magenta value, and the next <i>n</i> bits must contain the red or cyan value. Unused bits are in the most significant position. If the format uses 4 bits per pixel, then <i>n</i> is 1. For 24 bits per pixel, <i>n</i> is 8, as shown in the following figure. For CYMK, the fourth group of <i>n</i> bits contains black.
+Color data is in PRIMARY_ORDER_CBA format, as explained in the description of the <b>ulPrimaryOrder</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/winddi/ns-winddi-gdiinfo">GDIINFO</a> structure. In other words, if the color format is RGB or CMY, the least significant <i>n</i> bits must contain the blue or yellow value, the next <i>n</i> bits must contain the green or magenta value, and the next <i>n</i> bits must contain the red or cyan value. Unused bits are in the most significant position. If the format uses 4 bits per pixel, then <i>n</i> is 1. For 24 bits per pixel, <i>n</i> is 8, as shown in the following figure. For CYMK, the fourth group of <i>n</i> bits contains black.
 
 </li>
 </ul>

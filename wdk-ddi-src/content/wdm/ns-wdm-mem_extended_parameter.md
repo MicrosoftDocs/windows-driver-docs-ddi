@@ -55,7 +55,7 @@ Reserved.
 ### -field DUMMYUNIONNAME.ULong64
  
 ### -field DUMMYUNIONNAME.Pointer
-A pointer to a caller-allocated [**MEM_ADDRESS_REQUIREMENTS**](https://docs.microsoft.com/windows/desktop/api/winnt/ns-winnt-_mem_address_requirements) structure that specifies, the lowest and highest base address and alignment.
+A pointer to a caller-allocated [**MEM_ADDRESS_REQUIREMENTS**](https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-mem_address_requirements) structure that specifies, the lowest and highest base address and alignment.
  
 ### -field DUMMYUNIONNAME.Size
  
