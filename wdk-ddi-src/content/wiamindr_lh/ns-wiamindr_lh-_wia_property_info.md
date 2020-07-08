@@ -76,7 +76,7 @@ Specifies the variant data type for the property. This member, which can be one 
 
 - VT_BSTR
 
-For more information, see [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-tagpropvariant).
+For more information, see [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-propvariant).
 
 ### -field ValidVal
 
@@ -244,7 +244,7 @@ hr                  = wiasWriteMultiple(pWiasContext, 1, &propSpec, &propVar);
 ```
 
 > [!NOTE]
-> WIA uses the COM [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-tagpropvariant) type, [VARIANT](https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-variant), so the default is VT_VECTOR, and not VT_ARRAY (which is also supported).
+> WIA uses the COM [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-propvariant) type, [VARIANT](https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-variant), so the default is VT_VECTOR, and not VT_ARRAY (which is also supported).
 
 ## -see-also
 
