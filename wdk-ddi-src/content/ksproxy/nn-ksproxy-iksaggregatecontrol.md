@@ -52,7 +52,7 @@ The interface identifier (IID) for this interface is IID_IKsAggregateControl.
 
 ## -inheritance
 
-The **IKsAggregateControl** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IKsAggregateControl** also has these types of members:
+The **IKsAggregateControl** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown) interface. **IKsAggregateControl** also has these types of members:
 
 - **Methods**
 

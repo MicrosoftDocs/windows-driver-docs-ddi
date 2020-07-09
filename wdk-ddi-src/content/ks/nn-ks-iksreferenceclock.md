@@ -51,7 +51,7 @@ The **IKsReferenceClock** interface is a COM-style interface that is provided by
 
 ## -inheritance
 
-The **IKsReferenceClock** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
+The **IKsReferenceClock** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
 
 ## -remarks
 

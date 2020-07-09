@@ -53,7 +53,7 @@ See the [IKsControl (ksproxy.h)](https://docs.microsoft.com/windows-hardware/dri
 
 ## -inheritance
 
-The **IKsControl** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface.
+The **IKsControl** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
 
 ## -remarks
 
