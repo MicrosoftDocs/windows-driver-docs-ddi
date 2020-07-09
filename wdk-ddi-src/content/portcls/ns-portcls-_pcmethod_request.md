@@ -58,12 +58,12 @@ The PCMETHOD_REQUEST structure specifies a method request.
 
 ### -field MajorTarget
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of a miniport object that supports the method set and method specified by <b>MethodItem</b>.
+Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of a miniport object that supports the method set and method specified by <b>MethodItem</b>.
 
 
 ### -field MinorTarget
 
-Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of a stream object associated with <b>MajorTarget</b>. If the request does not specify a minor target, set this member to <b>NULL</b>.
+Pointer to an <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface of a stream object associated with <b>MajorTarget</b>. If the request does not specify a minor target, set this member to <b>NULL</b>.
 
 
 ### -field Node

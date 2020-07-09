@@ -55,7 +55,7 @@ An I/O queue object notifies a driver when a device I/O control request is avail
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueueCallbackDeviceIoControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueueCallbackDeviceIoControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueueCallbackDeviceIoControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/win32/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueueCallbackDeviceIoControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
