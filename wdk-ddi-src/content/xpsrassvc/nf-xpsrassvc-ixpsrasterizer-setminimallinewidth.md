@@ -84,7 +84,7 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>
+<a href="https://docs.microsoft.com/windows/win32/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>
 
 
 

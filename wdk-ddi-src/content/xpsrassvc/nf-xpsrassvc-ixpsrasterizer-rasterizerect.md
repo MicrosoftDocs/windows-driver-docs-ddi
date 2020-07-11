@@ -72,7 +72,7 @@ Pointer to the [IXpsRasterizerNotificationCallback](https://docs.microsoft.com/w
 
 ### -param bitmap [out, optional]
 
-Pointer to a location into which the method writes a pointer to the [IWICBitmap](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap) interface of the newly created bitmap object. If the method fails, it writes **NULL** to this location and returns an error code.
+Pointer to a location into which the method writes a pointer to the [IWICBitmap](https://docs.microsoft.com/windows/win32/api/wincodec/nn-wincodec-iwicbitmap) interface of the newly created bitmap object. If the method fails, it writes **NULL** to this location and returns an error code.
 
 ## -returns
 
@@ -87,7 +87,7 @@ Pointer to a location into which the method writes a pointer to the [IWICBitmap]
 
 This method is supported in Windows 7 and later. It is not supported in versions of the Windows operating system before Windows 7.
 
-If successful, this method creates a Windows imaging component (WIC) bitmap object and passes to the caller a counted reference to the object's [IWICBitmap](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap) interface. When the object is no longer needed, the caller is responsible for releasing the object by calling the [Release](https://go.microsoft.com/fwlink/p/?linkid=98433) method on the object's [IWICBitmap](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap) interface.
+If successful, this method creates a Windows imaging component (WIC) bitmap object and passes to the caller a counted reference to the object's [IWICBitmap](https://docs.microsoft.com/windows/win32/api/wincodec/nn-wincodec-iwicbitmap) interface. When the object is no longer needed, the caller is responsible for releasing the object by calling the [Release](https://go.microsoft.com/fwlink/p/?linkid=98433) method on the object's [IWICBitmap](https://docs.microsoft.com/windows/win32/api/wincodec/nn-wincodec-iwicbitmap) interface.
 
 The WIC bitmap created by this method has a 32-bit pixel format that contains 8-bit red, green, and blue channels and uses the standard RGB (sRGB) color space. In addition, the format contains an 8-bit alpha component. The color components in each pixel value are pre-multiplied by the alpha component. The pixel format is specified by the GUID value **GUID_WICPixelFormat32bppPBGRA**, which is defined in the header file Wincodec.h. For more information about this format, see [Native Pixel Formats Overview](https://go.microsoft.com/fwlink/p/?linkid=133874).
 
@@ -118,7 +118,7 @@ For a code example that calls the **RasterizeRect** method, see the XPSRasFilter
 
 ## -see-also
 
-[IWICBitmap](https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap)
+[IWICBitmap](https://docs.microsoft.com/windows/win32/api/wincodec/nn-wincodec-iwicbitmap)
 
 [IXpsRasterizationFactory::CreateRasterizer](https://docs.microsoft.com/windows-hardware/drivers/ddi/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory-createrasterizer)
 
