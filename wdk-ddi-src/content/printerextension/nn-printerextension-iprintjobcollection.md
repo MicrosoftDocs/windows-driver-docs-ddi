@@ -65,7 +65,7 @@ The <b xmlns:loc="https://microsoft.com/wdcml/l10n">IPrintJobCollection</b> inte
 
 
 
-The order of print jobs in the enumerated list is the same as the order provided by <a href="https://docs.microsoft.com/windows/desktop/printdocs/enumjobs">EnumJobs</a>, which is the actual print queue order.
+The order of print jobs in the enumerated list is the same as the order provided by <a href="https://docs.microsoft.com/windows/win32/printdocs/enumjobs">EnumJobs</a>, which is the actual print queue order.
 
 <b>IPrintJobCollection</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/job-management">Job Management</a>.
 
@@ -77,7 +77,7 @@ The order of print jobs in the enumerated list is the same as the order provided
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/printdocs/enumjobs">EnumJobs</a>
+<a href="https://docs.microsoft.com/windows/win32/printdocs/enumjobs">EnumJobs</a>
 
 
 
