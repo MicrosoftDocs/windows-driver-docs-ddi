@@ -39,6 +39,8 @@ dev_langs:
 ---
 
 ## -description
+[**Test Link**](/windows-hardware/drivers/netcx/amy-test0)
+
 
 ## -parameters
 
