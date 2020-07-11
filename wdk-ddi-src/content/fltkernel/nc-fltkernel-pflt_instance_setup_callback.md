@@ -61,7 +61,7 @@ Bitmask of flags that indicate why the instance is being attached. Can be one or
 | Flag | Meaning |
 | ---- | ------- |
 | FLTFL_INSTANCE_SETUP_AUTOMATIC_ATTACHMENT | The instance is being attached automatically. Either the minifilter driver was just loaded and is being attached to all existing volumes, or it is being attached to a newly mounted volume. |
-| FLTFL_INSTANCE_SETUP_MANUAL_ATTACHMENT | The instance is being attached manually because a user-mode application has called [FilterAttach](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattach) or [FilterAttachAtAltitude](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude), or because a kernel-mode component has called [FltAttachVolume](nf-fltkernel-fltattachvolume.md) or [FltAttachVolumeAtAltitude](nf-fltkernel-fltattachvolumeataltitude.md) |
+| FLTFL_INSTANCE_SETUP_MANUAL_ATTACHMENT | The instance is being attached manually because a user-mode application has called [FilterAttach](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterattach) or [FilterAttachAtAltitude](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterattachataltitude), or because a kernel-mode component has called [FltAttachVolume](nf-fltkernel-fltattachvolume.md) or [FltAttachVolumeAtAltitude](nf-fltkernel-fltattachvolumeataltitude.md) |
 | FLTFL_INSTANCE_SETUP_NEWLY_MOUNTED_VOLUME | The instance is being attached automatically to a newly mounted volume. |
 | FLTFL_INSTANCE_SETUP_DETACHED_VOLUME | The instance is being attached to a detached volume. It is possible, on some file systems (such as FAT and CDFS, which are used by some removable media drives), to reattach a volume after it has detached. A volume is detached if it has no associated storage stack. A volume in this state is usually a dismounted volume that still has open files. |
 
@@ -103,9 +103,9 @@ The filter manager calls this routine to allow the minifilter driver to respond 
 
 [FLT_RELATED_OBJECTS](ns-fltkernel-_flt_related_objects.md)
 
-[FilterAttach](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattach)
+[FilterAttach](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterattach)
 
-[FilterAttachAtAltitude](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude)
+[FilterAttachAtAltitude](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterattachataltitude)
 
 [FltAttachVolume](nf-fltkernel-fltattachvolume.md)
 
