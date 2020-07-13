@@ -94,7 +94,7 @@ For more information about statically enabling certain event callback functions 
     WSK_SET_STATIC_EVENT_CALLBACKS</a>.
 
 For more information about enabling and disabling a socket's event callback functions, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">Enabling and
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/enabling-and-disabling-event-callback-functions">Enabling and
     Disabling Event Callback Functions</a>.
 
 
