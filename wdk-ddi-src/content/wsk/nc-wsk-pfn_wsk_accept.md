@@ -238,7 +238,7 @@ When the
     <b>WskAccept</b> function successfully accepts an incoming connection, all of the event callback functions
     on the accepted socket are disabled by default. For more information about enabling any of the accepted
     socket's event callback functions, see 
-    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">Enabling and
+    <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/enabling-and-disabling-event-callback-functions">Enabling and
     Disabling Event Callback Functions</a>.
 
 If a WSK application specifies a non-<b>NULL</b> pointer in the 
