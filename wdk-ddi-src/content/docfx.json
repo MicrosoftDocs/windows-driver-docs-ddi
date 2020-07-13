@@ -43,7 +43,8 @@
       "ms.prod": "windows-hardware",
       "ms.technology": "windows-devices",
       "author": "windows-driver-content",
-      "ms.author": "windowsdriverdev"
+      "ms.author": "windowsdriverdev",
+      "dev_langs": ["c++"]
     },
     "fileMetadata": {
       "author":
