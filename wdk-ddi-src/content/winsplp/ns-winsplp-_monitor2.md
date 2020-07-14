@@ -56,7 +56,7 @@ Specifies the size, in bytes, of the MONITOR2 structure.
 
 ### -field pfnEnumPorts
 
-A port monitor server DLL's [EnumPorts](https://docs.microsoft.com/windows/desktop/printdocs/enumports) function enumerates the ports that the port monitor supports.
+A port monitor server DLL's [EnumPorts](https://docs.microsoft.com/windows/win32/printdocs/enumports) function enumerates the ports that the port monitor supports.
 
 ### -field pfnOpenPort
 
@@ -107,7 +107,7 @@ Pointer to the print monitor's [ClosePort](https://docs.microsoft.com/windows-ha
 ### -field pfnDeletePort
 
 > [!IMPORTANT]
-> The [DeletePort](https://docs.microsoft.com/windows/desktop/printdocs/deleteport) function is obsolete and should not be used.
+> The [DeletePort](https://docs.microsoft.com/windows/win32/printdocs/deleteport) function is obsolete and should not be used.
 
 **DeletePort** deletes a port from the monitor's environment.
 
