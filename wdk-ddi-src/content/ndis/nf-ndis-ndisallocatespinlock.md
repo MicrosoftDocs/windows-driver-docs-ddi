@@ -10,6 +10,7 @@ keywords: ["NdisAllocateSpinLock function"]
 ms.keywords: NdisAllocateSpinLock, NdisAllocateSpinLock function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateSpinLock, ndis_spin_lock_ref_f42dc321-9805-443e-a7b3-315ab403aeba.xml, netvista.ndisallocatespinlock
 f1_keywords:
  - "ndis/NdisAllocateSpinLock"
+ - "NdisAllocateSpinLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
