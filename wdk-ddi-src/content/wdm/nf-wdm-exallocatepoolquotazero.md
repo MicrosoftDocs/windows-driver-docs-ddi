@@ -41,6 +41,9 @@ dev_langs:
 
 ## -description
 
+> [!WARNING]
+> Microsoft is aware of an issue with **ExAllocatePoolQuotaZero** that can lead to an allocation not getting zeroed on Windows 10, version 1909. We recommend not using **ExAllocatePoolQuotaZero** for drivers targeting Windows 10, version 1909. This warning will be removed when the issue is fixed.
+
 This routine is a wrapper for and a recommended replacement option for [**ExAllocatePoolWithQuotaTag**](nf-wdm-exallocatepoolwithquotatag.md).
 
 **ExAllocatePoolQuotaZero** allocates pool memory of the specified type and returns a pointer to the allocated block. It is identical to [**ExAllocatePoolWithQuotaTag**](nf-wdm-exallocatepoolwithquotatag.md) except it zero initializes the allocated memory. If this is not desired, use [**ExAllocatePoolQuotaUninitialized**](nf-wdm-exallocatepoolquotauninitialized.md) instead. 
