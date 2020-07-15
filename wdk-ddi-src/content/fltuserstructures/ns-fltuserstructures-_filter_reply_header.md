@@ -84,7 +84,7 @@ This structure is allocated by a user-mode application. It is a container for a 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>
  
 
  

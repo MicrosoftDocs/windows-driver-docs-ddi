@@ -63,7 +63,7 @@ Flag that indicates why the minifilter driver instance is being torn down. One o
 | FLTFL_INSTANCE_TEARDOWN_FILTER_UNLOAD | The minifilter driver is being unloaded. |
 | FLTFL_INSTANCE_TEARDOWN_INTERNAL_ERROR | The system experienced an unexpected internal error. |
 | FLTFL_INSTANCE_TEARDOWN_MANDATORY_FILTER_UNLOAD | The minifilter driver is being unloaded. |
-| FLTFL_INSTANCE_TEARDOWN_MANUAL | The instance is being detached because a user-mode application has called [**FilterDetach**](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterdetach) or a kernel-mode component has called [**FltDetachVolume**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdetachvolume). |
+| FLTFL_INSTANCE_TEARDOWN_MANUAL | The instance is being detached because a user-mode application has called [**FilterDetach**](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterdetach) or a kernel-mode component has called [**FltDetachVolume**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdetachvolume). |
 | FLTFL_INSTANCE_TEARDOWN_VOLUME_DISMOUNT | If set, the volume is being dismounted. (Or the volume has already been dismounted. Or the volume mount operation failed. Or the minifilter driver instance or the volume is being torn down. Or the file system unregistered itself as an active file system.) |
 
 ## -remarks
@@ -112,7 +112,7 @@ The filter manager calls the *InstanceTeardownStartCallback* and *InstanceTeardo
 
 [FLT_RELATED_OBJECTS](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_related_objects)
 
-[FilterDetach](https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterdetach)
+[FilterDetach](https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterdetach)
 
 [**FltCancelIo**](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcancelio)
 
