@@ -10,6 +10,7 @@ keywords: ["NdisInterlockedInsertTailList macro"]
 ms.keywords: NdisInterlockedInsertTailList, NdisInterlockedInsertTailList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedInsertTailList, ndis_interlocked_ref_1fd860e3-2f63-41a0-9231-7e50a9b87e36.xml, netvista.ndisinterlockedinserttaillist
 f1_keywords:
  - "ndis/NdisInterlockedInsertTailList"
+ - "NdisInterlockedInsertTailList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal
