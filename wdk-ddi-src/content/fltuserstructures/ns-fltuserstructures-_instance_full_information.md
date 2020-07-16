@@ -117,7 +117,7 @@ The content of all character string buffers referenced by this structure are Uni
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterattachataltitude">FilterAttachAtAltitude</a>
 
 
 
@@ -125,15 +125,15 @@ The content of all character string buffers referenced by this structure are Uni
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterinstancefindfirst">FilterInstanceFindFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancefindnext">FilterInstanceFindNext</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterinstancefindnext">FilterInstanceFindNext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterinstancegetinformation">FilterInstanceGetInformation</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filterinstancegetinformation">FilterInstanceGetInformation</a>
 
 
 
@@ -141,11 +141,11 @@ The content of all character string buffers referenced by this structure are Uni
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst">FilterVolumeInstanceFindFirst</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindfirst">FilterVolumeInstanceFindFirst</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtervolumeinstancefindnext">FilterVolumeInstanceFindNext</a>
+<a href="https://docs.microsoft.com/windows/win32/api/fltuser/nf-fltuser-filtervolumeinstancefindnext">FilterVolumeInstanceFindNext</a>
 
 
 
