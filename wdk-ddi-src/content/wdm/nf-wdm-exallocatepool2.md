@@ -76,6 +76,9 @@ This routine has the following differences from the earlier allocation routines 
 2. Return behavior in the event of unsuccessful allocation.  **ExAllocatePoolWithQuotaTag** raises an exception by default.
 3. Tags with a value of 0 are invalid.
 
+> [!NOTE]
+> When replacing [**ExAllocatePoolWithQuotaTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithquotatag) with **ExAllocatePool2**, you must specify the **POOL_FLAG_USE_QUOTA** flag. For more info about pool flags, see [POOL_FLAGS](https://docs.microsoft.com/windows-hardware/drivers/kernel/pool_flags).
+
 If **NumberOfBytes** is `PAGE_SIZE` or greater, a page-aligned buffer is allocated. Memory allocations of `PAGE_SIZE` or less are allocated within a page and do not cross page boundaries. Memory allocations of less than `PAGE_SIZE` are not necessarily page-aligned but are aligned to 8-byte boundaries in 32-bit systems and to 16-byte boundaries in 64-bit systems.
 
 Drivers may only use up to the **NumberOfBytes** they have explicitly allocated. Accessing memory outside of this range may corrupt the pool and cause the system to crash.
