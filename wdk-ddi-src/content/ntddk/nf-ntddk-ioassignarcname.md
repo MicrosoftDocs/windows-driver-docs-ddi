@@ -10,6 +10,7 @@ keywords: ["IoAssignArcName macro"]
 ms.keywords: IoAssignArcName, IoAssignArcName routine [Kernel-Mode Driver Architecture], k104_ceeba02c-47cf-4c25-a339-d55ee9ebc216.xml, kernel.ioassignarcname, ntddk/IoAssignArcName
 f1_keywords:
  - "ntddk/IoAssignArcName"
+ - "IoAssignArcName"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop

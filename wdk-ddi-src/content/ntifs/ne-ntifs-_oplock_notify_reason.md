@@ -8,6 +8,7 @@ ms.date: 03/24/2020
 ms.topic: enum
 f1_keywords:
  - "ntifs/_OPLOCK_NOTIFY_REASON"
+ - "_OPLOCK_NOTIFY_REASON"
 ms.keywords: _OPLOCK_NOTIFY_REASON, OPLOCK_NOTIFY_REASON, 
 req.header: ntifs.h
 req.include-header:

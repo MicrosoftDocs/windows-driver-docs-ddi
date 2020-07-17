@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_7a176cba-5c3b-42b7-81e5-0a6a9b49f55c.xml, EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS, EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback, EvtDeviceFilterXxxResourceRequirements, EvtDeviceFilterXxxResourceRequirements callback function, kmdf.evtdevicefilteraddresourcerequirements, wdf.evtdevicefilteraddresourcerequirements, wdf.evtdevicefilterremoveresourcerequirements, wdffdo/EvtDeviceFilterXxxResourceRequirements
 f1_keywords:
  - "wdffdo/EvtDeviceFilterXxxResourceRequirements"
+ - "EvtDeviceFilterXxxResourceRequirements"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

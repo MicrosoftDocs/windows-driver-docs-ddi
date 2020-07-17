@@ -10,6 +10,7 @@ keywords: ["RILUICCRECORDSTATUS structure"]
 ms.keywords: "*LPRILUICCRECORDSTATUS, RILUICCRECORDSTATUS, RILUICCRECORDSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccrecordstatus, rilapitypes/RILUICCRECORDSTATUS"
 f1_keywords:
  - "ntddrilapitypes/RILUICCRECORDSTATUS"
+ - "RILUICCRECORDSTATUS"
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["HidD_GetPreparsedData function"]
 ms.keywords: HidD_GetPreparsedData, HidD_GetPreparsedData routine [Human Input Devices], hid.hidd_getpreparseddata, hidfunc_e728f2ff-69e2-46d0-8266-7ff011fb8bd5.xml, hidsdi/HidD_GetPreparsedData
 f1_keywords:
  - "hidsdi/HidD_GetPreparsedData"
+ - "HidD_GetPreparsedData"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal

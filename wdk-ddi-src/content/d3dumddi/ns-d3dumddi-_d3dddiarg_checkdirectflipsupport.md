@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure"]
 ms.keywords: D3DDDIARG_CHECKDIRECTFLIPSUPPORT, D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure [Display Devices], _D3DDDIARG_CHECKDIRECTFLIPSUPPORT, d3dumddi/D3DDDIARG_CHECKDIRECTFLIPSUPPORT, display.d3dddiarg_checkdirectflipsupport
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CHECKDIRECTFLIPSUPPORT"
+ - "D3DDDIARG_CHECKDIRECTFLIPSUPPORT"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

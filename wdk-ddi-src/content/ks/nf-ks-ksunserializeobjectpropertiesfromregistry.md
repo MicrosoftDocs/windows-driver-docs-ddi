@@ -10,6 +10,7 @@ keywords: ["KsUnserializeObjectPropertiesFromRegistry function"]
 ms.keywords: KsUnserializeObjectPropertiesFromRegistry, KsUnserializeObjectPropertiesFromRegistry function [Streaming Media Devices], ks/KsUnserializeObjectPropertiesFromRegistry, ksfunc_09710ce5-9236-47cc-84b2-4ced36aa654b.xml, stream.ksunserializeobjectpropertiesfromregistry
 f1_keywords:
  - "ks/KsUnserializeObjectPropertiesFromRegistry"
+ - "KsUnserializeObjectPropertiesFromRegistry"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

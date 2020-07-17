@@ -10,6 +10,7 @@ keywords: ["_ReportDiscoveredTargets2_OUT structure"]
 ms.keywords: "*PReportDiscoveredTargets2_OUT, PReportDiscoveredTargets2_OUT, PReportDiscoveredTargets2_OUT structure pointer [Storage Devices], ReportDiscoveredTargets2_OUT, ReportDiscoveredTargets2_OUT structure [Storage Devices], _ReportDiscoveredTargets2_OUT, iscsifnd/PReportDiscoveredTargets2_OUT, iscsifnd/ReportDiscoveredTargets2_OUT, storage.reportdiscoveredtargets2_out, structs-iSCSI_b6c57e31-b994-4873-97e5-87499d4ce120.xml"
 f1_keywords:
  - "iscsifnd/ReportDiscoveredTargets2_OUT"
+ - "ReportDiscoveredTargets2_OUT"
 req.header: iscsifnd.h
 req.include-header: Iscsifnd.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["TmEnableCallbacks function"]
 ms.keywords: TmEnableCallbacks, TmEnableCallbacks routine [Kernel-Mode Driver Architecture], kernel.tmenablecallbacks, ktm_ref_0d901be3-7a5f-4296-b0fc-b8bdf84c43ec.xml, wdm/TmEnableCallbacks
 f1_keywords:
  - "wdm/TmEnableCallbacks"
+ - "TmEnableCallbacks"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

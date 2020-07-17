@@ -10,6 +10,7 @@ keywords: ["_LineDisplaySetDescriptorData structure"]
 ms.keywords: LineDisplaySetDescriptorData, LineDisplaySetDescriptorData structure, PLineDisplaySetDescriptorData, PLineDisplaySetDescriptorData structure pointer, _LineDisplaySetDescriptorData, pointofservicedriverinterface/LineDisplaySetDescriptorData, pointofservicedriverinterface/PLineDisplaySetDescriptorData, pos.linedisplaysetdescriptordata
 f1_keywords:
  - "pointofservicedriverinterface/LineDisplaySetDescriptorData"
+ - "LineDisplaySetDescriptorData"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

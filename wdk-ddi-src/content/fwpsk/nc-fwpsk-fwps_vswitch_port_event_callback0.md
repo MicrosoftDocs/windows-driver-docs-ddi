@@ -10,6 +10,7 @@ keywords: ["FWPS_VSWITCH_PORT_EVENT_CALLBACK0 callback function"]
 ms.keywords: FWPS_VSWITCH_PORT_EVENT_CALLBACK0, FWPS_VSWITCH_PORT_EVENT_CALLBACK0 callback, fwpsk/vSwitchPortEventNotifyFn, netvista.fwps_vswitch_port_event_callback0, vSwitchPortEventNotifyFn, vSwitchPortEventNotifyFn callback function [Network Drivers Starting with Windows Vista]
 f1_keywords:
  - "fwpsk/vSwitchPortEventNotifyFn"
+ - "vSwitchPortEventNotifyFn"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

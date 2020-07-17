@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_AUTH_RESPONSE structure"]
 ms.keywords: "*PNDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_AUTH_RESPONSE, ndiswwan/NDIS_WWAN_AUTH_RESPONSE, ndiswwan/PNDIS_WWAN_AUTH_RESPONSE, netvista.ndis_wwan_auth_response"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_AUTH_RESPONSE"
+ - "NDIS_WWAN_AUTH_RESPONSE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

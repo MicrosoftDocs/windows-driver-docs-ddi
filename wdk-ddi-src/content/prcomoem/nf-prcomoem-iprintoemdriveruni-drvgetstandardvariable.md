@@ -10,6 +10,7 @@ keywords: ["IPrintOemDriverUni::DrvGetStandardVariable"]
 ms.keywords: DrvGetStandardVariable, DrvGetStandardVariable method [Print Devices], DrvGetStandardVariable method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvGetStandardVariable method, IPrintOemDriverUni.DrvGetStandardVariable, IPrintOemDriverUni::DrvGetStandardVariable, prcomoem/IPrintOemDriverUni::DrvGetStandardVariable, print.iprintoemdriveruni_drvgetstandardvariable, print_unidrv-pscript_rendering_001f3a93-7022-4436-8191-5cb091bc3c42.xml
 f1_keywords:
  - "prcomoem/IPrintOemDriverUni.DrvGetStandardVariable"
+ - "IPrintOemDriverUni.DrvGetStandardVariable"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RIL_GetSignalQuality function"]
 ms.keywords: RIL_GetSignalQuality, RIL_GetSignalQuality method [Network Drivers Starting with Windows Vista], netvista.ril_getsignalquality, rilapi/RIL_GetSignalQuality
 f1_keywords:
  - "rilapi/RIL_GetSignalQuality"
+ - "RIL_GetSignalQuality"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

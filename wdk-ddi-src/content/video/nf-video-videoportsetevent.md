@@ -10,6 +10,7 @@ keywords: ["VideoPortSetEvent function"]
 ms.keywords: VideoPortSetEvent, VideoPortSetEvent function [Display Devices], VideoPort_Functions_8efce2e2-f5e7-402a-a5bf-03c23ac85992.xml, display.videoportsetevent, video/VideoPortSetEvent
 f1_keywords:
  - "video/VideoPortSetEvent"
+ - "VideoPortSetEvent"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

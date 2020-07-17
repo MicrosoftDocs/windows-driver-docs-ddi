@@ -10,6 +10,7 @@ keywords: ["_WHEA_MEMORY_ERROR_SECTION structure"]
 ms.keywords: "*PWHEA_MEMORY_ERROR, *PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_MEMORY_ERROR, WHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_MEMORY_ERROR_SECTION, ntddk/PWHEA_MEMORY_ERROR_SECTION, ntddk/WHEA_MEMORY_ERROR_SECTION, whea.whea_memory_error_section, whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml"
 f1_keywords:
  - "ntddk/WHEA_MEMORY_ERROR_SECTION"
+ - "WHEA_MEMORY_ERROR_SECTION"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

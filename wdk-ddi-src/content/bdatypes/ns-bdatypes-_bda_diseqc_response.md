@@ -10,6 +10,7 @@ keywords: ["_BDA_DISEQC_RESPONSE structure"]
 ms.keywords: "*PBDA_DISEQC_RESPONSE, BDA_DISEQC_RESPONSE, BDA_DISEQC_RESPONSE structure [Streaming Media Devices], PBDA_DISEQC_RESPONSE, PBDA_DISEQC_RESPONSE structure pointer [Streaming Media Devices], _BDA_DISEQC_RESPONSE, bdatypes/BDA_DISEQC_RESPONSE, bdatypes/PBDA_DISEQC_RESPONSE, stream.bda_diseqc_response"
 f1_keywords:
  - "bdatypes/BDA_DISEQC_RESPONSE"
+ - "BDA_DISEQC_RESPONSE"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

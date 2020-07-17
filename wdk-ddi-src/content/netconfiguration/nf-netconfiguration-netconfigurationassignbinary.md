@@ -8,6 +8,7 @@ ms.date: 02/07/2018
 keywords: ["NetConfigurationAssignBinary function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationAssignBinary"
+ - "NetConfigurationAssignBinary"
 ms.keywords: NetConfigurationAssignBinary
 req.header: netconfiguration.h
 req.include-header: netadaptercx.h

@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest2::Reuse"]
 ms.keywords: IWDFIoRequest2 interface,Reuse method, IWDFIoRequest2.Reuse, IWDFIoRequest2::Reuse, Reuse, Reuse method, Reuse method,IWDFIoRequest2 interface, UMDFRequestObjectRef_887853e7-3603-4793-b1b2-0b72e63b0d5a.xml, umdf.iwdfiorequest2_reuse, wdf.iwdfiorequest2_reuse, wudfddi/IWDFIoRequest2::Reuse
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.Reuse"
+ - "IWDFIoRequest2.Reuse"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

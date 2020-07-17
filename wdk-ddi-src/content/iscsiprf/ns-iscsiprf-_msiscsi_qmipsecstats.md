@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_QMIPSECStats structure"]
 ms.keywords: "*PMSiSCSI_QMIPSECStats, MSiSCSI_QMIPSECStats, MSiSCSI_QMIPSECStats structure [Storage Devices], PMSiSCSI_QMIPSECStats, PMSiSCSI_QMIPSECStats structure pointer [Storage Devices], _MSiSCSI_QMIPSECStats, iscsiprf/MSiSCSI_QMIPSECStats, iscsiprf/PMSiSCSI_QMIPSECStats, storage.msiscsi_qmipsecstats, structs-iSCSI_979ce8ac-35be-4ac1-930a-6614053fc805.xml"
 f1_keywords:
  - "iscsiprf/MSiSCSI_QMIPSECStats"
+ - "MSiSCSI_QMIPSECStats"
 req.header: iscsiprf.h
 req.include-header: Iscsiprf.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_RemoveTarget_OUT structure"]
 ms.keywords: "*PRemoveTarget_OUT, PRemoveTarget_OUT, PRemoveTarget_OUT structure pointer [Storage Devices], RemoveTarget_OUT, RemoveTarget_OUT structure [Storage Devices], _RemoveTarget_OUT, hbapiwmi/PRemoveTarget_OUT, hbapiwmi/RemoveTarget_OUT, storage.removetarget_out, structs-Fibre_0cab8f87-0c96-4e03-bfd9-495e245850ca.xml"
 f1_keywords:
  - "hbapiwmi/RemoveTarget_OUT"
+ - "RemoveTarget_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

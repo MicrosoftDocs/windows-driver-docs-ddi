@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTHX_GET_VERSION IOCTL"]
 ms.keywords: IOCTL_BTHX_GET_VERSION, IOCTL_BTHX_GET_VERSION control, IOCTL_BTHX_GET_VERSION control code [Bluetooth Devices], bltooth.ioctl_bthx_get_version, bthxddi/IOCTL_BTHX_GET_VERSION
 f1_keywords:
  - "bthxddi/IOCTL_BTHX_GET_VERSION"
+ - "IOCTL_BTHX_GET_VERSION"
 req.header: bthxddi.h
 req.include-header: 
 req.target-type: Windows

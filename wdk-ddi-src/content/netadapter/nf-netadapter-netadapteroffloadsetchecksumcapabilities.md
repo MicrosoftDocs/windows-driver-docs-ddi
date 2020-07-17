@@ -8,6 +8,7 @@ ms.date: 01/18/2019
 keywords: ["NetAdapterOffloadSetChecksumCapabilities function"]
 f1_keywords:
  - "netadapter/NetAdapterOffloadSetChecksumCapabilities"
+ - "NetAdapterOffloadSetChecksumCapabilities"
 ms.keywords: NetAdapterOffloadSetChecksumCapabilities
 req.header: netadapter.h
 req.include-header:

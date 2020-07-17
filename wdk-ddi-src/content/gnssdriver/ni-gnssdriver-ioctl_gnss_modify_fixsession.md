@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_MODIFY_FIXSESSION IOCTL"]
 ms.keywords: IOCTL_GNSS_MODIFY_FIXSESSION, IOCTL_GNSS_MODIFY_FIXSESSION control, IOCTL_GNSS_MODIFY_FIXSESSION control code [Sensor Devices], gnss.ioctl_gnss_modify_fixsession, gnssdriver/IOCTL_GNSS_MODIFY_FIXSESSION
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_MODIFY_FIXSESSION"
+ - "IOCTL_GNSS_MODIFY_FIXSESSION"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

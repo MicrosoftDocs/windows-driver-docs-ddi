@@ -10,6 +10,7 @@ keywords: ["ReadPhysicalWithFlags function"]
 ms.keywords: ReadPhysicalWithFlags, ReadPhysicalWithFlags function [Windows Debugging], WdbgExts_Ref_cf166083-f21a-4cfd-8daa-90c3f6bbcdcb.xml, debugger.readphysicalwithflags, wdbgexts/ReadPhysicalWithFlags
 f1_keywords:
  - "wdbgexts/ReadPhysicalWithFlags"
+ - "ReadPhysicalWithFlags"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

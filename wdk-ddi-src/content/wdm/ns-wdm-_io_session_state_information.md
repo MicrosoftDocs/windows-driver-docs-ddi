@@ -10,6 +10,7 @@ keywords: ["_IO_SESSION_STATE_INFORMATION structure"]
 ms.keywords: "*PIO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION structure [Kernel-Mode Driver Architecture], PIO_SESSION_STATE_INFORMATION, PIO_SESSION_STATE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _IO_SESSION_STATE_INFORMATION, kernel.io_session_state_information, kstruct_b_1021e6f4-b82d-4f1d-8664-dbef116240d1.xml, wdm/IO_SESSION_STATE_INFORMATION, wdm/PIO_SESSION_STATE_INFORMATION"
 f1_keywords:
  - "wdm/IO_SESSION_STATE_INFORMATION"
+ - "IO_SESSION_STATE_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows

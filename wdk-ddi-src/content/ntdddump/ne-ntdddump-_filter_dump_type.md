@@ -10,6 +10,7 @@ keywords: ["_FILTER_DUMP_TYPE enumeration"]
 ms.keywords: "*PFILTER_DUMP_TYPE, DumpTypeCrashdump, DumpTypeHibernation, DumpTypeUndefined, FILTER_DUMP_TYPE, FILTER_DUMP_TYPE enumeration [Storage Devices], PFILTER_DUMP_TYPE, PFILTER_DUMP_TYPE enumeration pointer [Storage Devices], _FILTER_DUMP_TYPE, ntdddump/DumpTypeCrashdump, ntdddump/DumpTypeHibernation, ntdddump/DumpTypeUndefined, ntdddump/FILTER_DUMP_TYPE, ntdddump/PFILTER_DUMP_TYPE, storage.filter_dump_type, structs-filter_b7846186-0937-4996-984e-398636fc7b2f.xml"
 f1_keywords:
  - "ntdddump/FILTER_DUMP_TYPE"
+ - "FILTER_DUMP_TYPE"
 req.header: ntdddump.h
 req.include-header: Ntdddump.h
 req.target-type: Windows

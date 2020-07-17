@@ -10,6 +10,7 @@ keywords: ["wiauDbgSetFlags macro"]
 ms.keywords: image.wiaudbgsetflags, wiauDbgSetFlags, wiauDbgSetFlags function [Imaging Devices], wiauFncs_d0f9a6a3-6958-44cb-9467-7f6413f95ca7.xml, wiautil/wiauDbgSetFlags
 f1_keywords:
  - "wiautil/wiauDbgSetFlags"
+ - "wiauDbgSetFlags"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

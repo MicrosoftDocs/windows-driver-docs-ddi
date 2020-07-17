@@ -10,6 +10,7 @@ keywords: ["CcMapData function"]
 ms.keywords: CcMapData, CcMapData routine [Installable File System Drivers], ccref_1eb788ce-2fb2-40b4-b696-14609a0c8556.xml, ifsk.ccmapdata, ntifs/CcMapData
 f1_keywords:
  - "ntifs/CcMapData"
+ - "CcMapData"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_WHEA_XPF_PROCINFO_VALIDBITS structure"]
 ms.keywords: "*PWHEA_XPF_PROCINFO_VALIDBITS, PWHEA_XPF_PROCINFO_VALIDBITS, PWHEA_XPF_PROCINFO_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_XPF_PROCINFO_VALIDBITS, WHEA_XPF_PROCINFO_VALIDBITS union [WHEA Drivers and Applications], _WHEA_XPF_PROCINFO_VALIDBITS, ntddk/PWHEA_XPF_PROCINFO_VALIDBITS, ntddk/WHEA_XPF_PROCINFO_VALIDBITS, whea.whea_xpf_procinfo_validbits, whearef_6ebbdab8-0590-4479-a8ab-ea9bacf69399.xml"
 f1_keywords:
  - "ntddk/WHEA_XPF_PROCINFO_VALIDBITS"
+ - "WHEA_XPF_PROCINFO_VALIDBITS"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

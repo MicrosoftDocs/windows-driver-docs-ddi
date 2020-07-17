@@ -10,6 +10,7 @@ keywords: ["KsGateGetStateUnsafe function"]
 ms.keywords: KsGateGetStateUnsafe, KsGateGetStateUnsafe function [Streaming Media Devices], avfunc_1f18b601-daaf-4df2-98c2-a91646f84c0d.xml, ks/KsGateGetStateUnsafe, stream.ksgategetstateunsafe
 f1_keywords:
  - "ks/KsGateGetStateUnsafe"
+ - "KsGateGetStateUnsafe"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

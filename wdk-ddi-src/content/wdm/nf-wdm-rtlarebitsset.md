@@ -10,6 +10,7 @@ keywords: ["RtlAreBitsSet function"]
 ms.keywords: RtlAreBitsSet, RtlAreBitsSet routine [Kernel-Mode Driver Architecture], k109_8d2248d2-13e9-4f90-8d09-a3ea51579da8.xml, kernel.rtlarebitsset, wdm/RtlAreBitsSet
 f1_keywords:
  - "wdm/RtlAreBitsSet"
+ - "RtlAreBitsSet"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["PointerKind enumeration"]
 f1_keywords:
  - "dbgmodel/PointerKind"
+ - "PointerKind"
 ms.keywords: PointerKind, , 
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IWDFUsbInterface::GetConfiguredSettingIndex"]
 ms.keywords: GetConfiguredSettingIndex, GetConfiguredSettingIndex method, GetConfiguredSettingIndex method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetConfiguredSettingIndex method, IWDFUsbInterface.GetConfiguredSettingIndex, IWDFUsbInterface::GetConfiguredSettingIndex, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, umdf.iwdfusbinterface_getconfiguredsettingindex, wdf.iwdfusbinterface_getconfiguredsettingindex, wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex
 f1_keywords:
  - "wudfusb/IWDFUsbInterface.GetConfiguredSettingIndex"
+ - "IWDFUsbInterface.GetConfiguredSettingIndex"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["CUSTOM_SYSTEM_EVENT_TRIGGER_INIT function"]
 f1_keywords:
  - "ntddk/CUSTOM_SYSTEM_EVENT_TRIGGER_INIT"
+ - "CUSTOM_SYSTEM_EVENT_TRIGGER_INIT"
 ms.keywords: CUSTOM_SYSTEM_EVENT_TRIGGER_INIT
 req.header: ntddk.h
 req.include-header:

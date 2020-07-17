@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB"
+ - "PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB"
 topic_type:
  - APIRef
  - kbSyntax

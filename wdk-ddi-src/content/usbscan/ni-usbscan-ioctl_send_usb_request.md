@@ -10,6 +10,7 @@ keywords: ["IOCTL_SEND_USB_REQUEST IOCTL"]
 ms.keywords: IOCTL_SEND_USB_REQUEST, IOCTL_SEND_USB_REQUEST control, IOCTL_SEND_USB_REQUEST control code [Imaging Devices], image.ioctl_send_usb_request, stifnc_2532cbfa-8373-4666-8a87-fac7923513bd.xml, usbscan/IOCTL_SEND_USB_REQUEST
 f1_keywords:
  - "usbscan/IOCTL_SEND_USB_REQUEST"
+ - "IOCTL_SEND_USB_REQUEST"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows

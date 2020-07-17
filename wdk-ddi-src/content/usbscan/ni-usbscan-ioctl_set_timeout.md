@@ -10,6 +10,7 @@ keywords: ["IOCTL_SET_TIMEOUT IOCTL"]
 ms.keywords: IOCTL_SET_TIMEOUT, IOCTL_SET_TIMEOUT control, IOCTL_SET_TIMEOUT control code [Imaging Devices], image.ioctl_set_timeout, stifnc_942a0b21-7e68-444d-8bf2-7f8388a8a8fc.xml, usbscan/IOCTL_SET_TIMEOUT
 f1_keywords:
  - "usbscan/IOCTL_SET_TIMEOUT"
+ - "IOCTL_SET_TIMEOUT"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows

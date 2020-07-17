@@ -10,6 +10,7 @@ keywords: ["VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT function"]
 ms.keywords: VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT, VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT function [Network Drivers Starting with Windows Vista], netvista.vmb_channel_state_change_callbacks_init, vmbuskernelmodeclientlibapi/VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT"
+ - "VMB_CHANNEL_STATE_CHANGE_CALLBACKS_INIT"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header: VmbusKernelModeClientLibApi.h
 req.target-type: Windows

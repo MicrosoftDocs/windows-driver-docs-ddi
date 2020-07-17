@@ -10,6 +10,7 @@ keywords: ["IOCTL_AACS_READ_BINDING_NONCE IOCTL"]
 ms.keywords: IOCTL_AACS_READ_BINDING_NONCE, IOCTL_AACS_READ_BINDING_NONCE control, IOCTL_AACS_READ_BINDING_NONCE control code [Storage Devices], k307_5a403ffd-678e-44e7-8df3-21e3149b7efd.xml, ntddcdvd/IOCTL_AACS_READ_BINDING_NONCE, storage.ioctl_aacs_read_binding_nonce
 f1_keywords:
  - "ntddcdvd/IOCTL_AACS_READ_BINDING_NONCE"
+ - "IOCTL_AACS_READ_BINDING_NONCE"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows

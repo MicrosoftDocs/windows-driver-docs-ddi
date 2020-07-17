@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - ntddk/_WHEA_REPORT_HW_ERROR_DEVICE_DRIVER_FLAGS
  - ntddk/WHEA_REPORT_HW_ERROR_DEVICE_DRIVER_FLAGS
+ - ""
 dev_langs:
  - c++
 ---

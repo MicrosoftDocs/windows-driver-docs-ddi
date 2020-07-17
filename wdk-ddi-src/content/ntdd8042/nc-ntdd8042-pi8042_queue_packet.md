@@ -10,6 +10,7 @@ keywords: ["PI8042_QUEUE_PACKET callback function"]
 ms.keywords: PI8042_QUEUE_PACKET, PI8042_QUEUE_PACKET callback, QueuePacket, QueuePacket callback function [Human Input Devices], hid.pi8042_queue_packet, i8042ref_44eb4361-586b-4390-8aea-4e1470a70691.xml, ntdd8042/QueuePacket
 f1_keywords:
  - "ntdd8042/QueuePacket"
+ - "QueuePacket"
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h
 req.target-type: Desktop

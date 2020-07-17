@@ -10,6 +10,7 @@ keywords: ["WskQueryProviderCharacteristics function"]
 ms.keywords: WskQueryProviderCharacteristics, WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista], netvista.wskqueryprovidercharacteristics, wsk/WskQueryProviderCharacteristics, wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml
 f1_keywords:
  - "wsk/WskQueryProviderCharacteristics"
+ - "WskQueryProviderCharacteristics"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

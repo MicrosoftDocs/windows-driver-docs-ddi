@@ -10,6 +10,7 @@ keywords: ["IoUnregisterBootDriverCallback function"]
 ms.keywords: IoUnRegisterBootDriverCallback, IoUnRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], IoUnregisterBootDriverCallback, kernel.iounregisterbootdrivercallback, ntddk/IoUnRegisterBootDriverCallback
 f1_keywords:
  - "ntddk/IoUnRegisterBootDriverCallback"
+ - "IoUnRegisterBootDriverCallback"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

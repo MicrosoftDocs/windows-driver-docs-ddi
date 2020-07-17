@@ -10,6 +10,7 @@ keywords: ["FltLoadFilter function"]
 ms.keywords: FltApiRef_e_to_o_3cdd26c1-dc25-4fa0-8ea1-a1458742cd45.xml, FltLoadFilter, FltLoadFilter routine [Installable File System Drivers], fltkernel/FltLoadFilter, ifsk.fltloadfilter
 f1_keywords:
  - "fltkernel/FltLoadFilter"
+ - "FltLoadFilter"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

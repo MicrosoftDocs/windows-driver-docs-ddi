@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["WIA_PROP_LIST_VALUE macro"]
 f1_keywords:
  - "wiadef/WIA_PROP_LIST_VALUE"
+ - "WIA_PROP_LIST_VALUE"
 ms.keywords: WIA_PROP_LIST_VALUE
 req.header: wiadef.h
 req.include-header:

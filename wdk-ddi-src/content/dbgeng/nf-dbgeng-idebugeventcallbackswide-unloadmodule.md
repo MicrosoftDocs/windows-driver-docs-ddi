@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacksWide::UnloadModule"]
 ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging],UnloadModule method, IDebugEventCallbacksWide.UnloadModule, IDebugEventCallbacksWide::UnloadModule, UnloadModule, UnloadModule method [Windows Debugging], UnloadModule method [Windows Debugging],IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::UnloadModule, debugger.idebugeventcallbackswide_unloadmodule
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.UnloadModule"
+ - "IDebugEventCallbacksWide.UnloadModule"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

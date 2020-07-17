@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeFormatRequestForAbort function"]
 ms.keywords: DFUsbRef_d99442d6-818c-4c46-8df2-dd5e2346aa5f.xml, WdfUsbTargetPipeFormatRequestForAbort, WdfUsbTargetPipeFormatRequestForAbort method, kmdf.wdfusbtargetpipeformatrequestforabort, wdf.wdfusbtargetpipeformatrequestforabort, wdfusb/WdfUsbTargetPipeFormatRequestForAbort
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeFormatRequestForAbort"
+ - "WdfUsbTargetPipeFormatRequestForAbort"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["RILCLOSEUICCLOGICALCHANNELGROUPPARAMS structure"]
 ms.keywords: "*LPRILCLOSEUICCLOGICALCHANNELGROUPPARAMS, RILCLOSEUICCLOGICALCHANNELGROUPPARAMS, RILCLOSEUICCLOGICALCHANNELGROUPPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilcloseuicclogicalchannelgroupparams, ntddrilapitypes/RILCLOSEUICCLOGICALCHANNELGROUPPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILCLOSEUICCLOGICALCHANNELGROUPPARAMS"
+ - "RILCLOSEUICCLOGICALCHANNELGROUPPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

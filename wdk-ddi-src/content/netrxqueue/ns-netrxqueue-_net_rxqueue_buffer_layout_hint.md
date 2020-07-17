@@ -8,6 +8,7 @@ ms.date: 02/09/2018
 keywords: ["_NET_RXQUEUE_BUFFER_LAYOUT_HINT structure"]
 f1_keywords:
  - "netrxqueue/NET_RXQUEUE_BUFFER_LAYOUT_HINT"
+ - "NET_RXQUEUE_BUFFER_LAYOUT_HINT"
 ms.keywords: _NET_RXQUEUE_BUFFER_LAYOUT_HINT, *PNET_RXQUEUE_BUFFER_LAYOUT_HINT, NET_RXQUEUE_BUFFER_LAYOUT_HINT, 
 req.header: netrxqueue.h
 req.include-header: netadaptercx.h

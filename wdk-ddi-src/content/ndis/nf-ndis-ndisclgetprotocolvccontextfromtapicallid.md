@@ -10,6 +10,7 @@ keywords: ["NdisClGetProtocolVcContextFromTapiCallId function"]
 ms.keywords: NdisClGetProtocolVcContextFromTapiCallId, NdisClGetProtocolVcContextFromTapiCallId function [Network Drivers Starting with Windows Vista], condis_client_ref_0f7c98a1-306b-40b4-b84c-0e624c936e90.xml, ndis/NdisClGetProtocolVcContextFromTapiCallId, netvista.ndisclgetprotocolvccontextfromtapicallid
 f1_keywords:
  - "ndis/NdisClGetProtocolVcContextFromTapiCallId"
+ - "NdisClGetProtocolVcContextFromTapiCallId"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

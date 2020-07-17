@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_TIMER callback function"]
 ms.keywords: DFTimerObjectRef_adf533a0-e5e3-4036-b1fd-5071d010adb5.xml, EVT_WDF_TIMER, EVT_WDF_TIMER callback, EvtTimerFunc, EvtTimerFunc callback function, kmdf.evttimerfunc, wdf.evttimerfunc, wdftimer/EvtTimerFunc
 f1_keywords:
  - "wdftimer/EvtTimerFunc"
+ - "EvtTimerFunc"
 req.header: wdftimer.h
 req.include-header: Wdf.h
 req.target-type: Universal

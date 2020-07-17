@@ -10,6 +10,7 @@ keywords: ["_DOT11_ADAPTER structure"]
 ms.keywords: "*PDOT11_ADAPTER, DOT11_ADAPTER, DOT11_ADAPTER structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_0575eb35-d3de-41ad-a956-1714e642b8b5.xml, PDOT11_ADAPTER, PDOT11_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], _DOT11_ADAPTER, netvista.dot11_adapter, wlclient/DOT11_ADAPTER, wlclient/PDOT11_ADAPTER"
 f1_keywords:
  - "wlclient/DOT11_ADAPTER"
+ - "DOT11_ADAPTER"
 req.header: wlclient.h
 req.include-header: Ndis.h
 req.target-type: Windows

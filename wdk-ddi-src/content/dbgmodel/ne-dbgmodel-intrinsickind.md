@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["IntrinsicKind enumeration"]
 f1_keywords:
  - "dbgmodel/IntrinsicKind"
+ - "IntrinsicKind"
 ms.keywords: IntrinsicKind, , 
 req.header: dbgmodel.h
 req.include-header:

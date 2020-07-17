@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_GETDIRTYRECTS structure"]
 ms.keywords: IDARG_IN_GETDIRTYRECTS, IDARG_IN_GETDIRTYRECTS structure [Display Devices], display.idarg_in_getdirtyrects, iddcx/IDARG_IN_GETDIRTYRECTS
 f1_keywords:
  - "iddcx/IDARG_IN_GETDIRTYRECTS"
+ - "IDARG_IN_GETDIRTYRECTS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

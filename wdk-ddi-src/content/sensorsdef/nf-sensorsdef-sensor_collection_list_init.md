@@ -10,6 +10,7 @@ keywords: ["SENSOR_COLLECTION_LIST_INIT function"]
 ms.keywords: SENSOR_COLLECTION_LIST_INIT, SENSOR_COLLECTION_LIST_INIT function [Sensor Devices], sensors.sensor_collection_list_init, sensorsdef/SENSOR_COLLECTION_LIST_INIT
 f1_keywords:
  - "sensorsdef/SENSOR_COLLECTION_LIST_INIT"
+ - "SENSOR_COLLECTION_LIST_INIT"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Desktop

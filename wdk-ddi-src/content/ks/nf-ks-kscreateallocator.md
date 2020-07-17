@@ -10,6 +10,7 @@ keywords: ["KsCreateAllocator function"]
 ms.keywords: KsCreateAllocator, KsCreateAllocator function [Streaming Media Devices], ks/KsCreateAllocator, ksfunc_cc89b86b-fdd7-4e08-83b1-0df712fccaa4.xml, stream.kscreateallocator
 f1_keywords:
  - "ks/KsCreateAllocator"
+ - "KsCreateAllocator"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

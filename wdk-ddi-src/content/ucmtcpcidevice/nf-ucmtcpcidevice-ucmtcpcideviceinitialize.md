@@ -10,6 +10,7 @@ keywords: ["UcmTcpciDeviceInitialize function"]
 ms.keywords: UcmTcpciDeviceInitialize, UcmTcpciDeviceInitialize method [Buses], buses.ucmtcpcideviceinitialize, ucmtcpcidevice/UcmTcpciDeviceInitialize
 f1_keywords:
  - "ucmtcpcidevice/UcmTcpciDeviceInitialize"
+ - "UcmTcpciDeviceInitialize"
 req.header: ucmtcpcidevice.h
 req.include-header: 
 req.target-type: Windows

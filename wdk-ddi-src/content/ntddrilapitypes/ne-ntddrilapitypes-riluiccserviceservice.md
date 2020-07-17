@@ -10,6 +10,7 @@ keywords: ["RILUICCSERVICESERVICE enumeration"]
 ms.keywords: RILUICCSERVICESERVICE, RILUICCSERVICESERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCOPERATION_SERVICE_ACL, RIL_UICCOPERATION_SERVICE_BDN, RIL_UICCOPERATION_SERVICE_MAX, netvista.riluiccserviceservice, ntddrilapitypes/RILUICCSERVICESERVICE, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_ACL, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_BDN, ntddrilapitypes/RIL_UICCOPERATION_SERVICE_MAX
 f1_keywords:
  - "ntddrilapitypes/RILUICCSERVICESERVICE"
+ - "RILUICCSERVICESERVICE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

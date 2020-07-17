@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_POSITIONS structure"]
 ms.keywords: "*PKSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS, KSPROPERTY_POSITIONS structure [Streaming Media Devices], PKSPROPERTY_POSITIONS, PKSPROPERTY_POSITIONS structure pointer [Streaming Media Devices], ks-struct_97829290-4c01-4a03-b56b-3e5915941094.xml, ks/KSPROPERTY_POSITIONS, ks/PKSPROPERTY_POSITIONS, stream.ksproperty_positions"
 f1_keywords:
  - "ks/KSPROPERTY_POSITIONS"
+ - "KSPROPERTY_POSITIONS"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

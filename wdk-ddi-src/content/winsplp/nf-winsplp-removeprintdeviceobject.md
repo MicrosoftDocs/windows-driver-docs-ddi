@@ -10,6 +10,7 @@ keywords: ["RemovePrintDeviceObject function"]
 ms.keywords: RemovePrintDeviceObject, RemovePrintDeviceObject function [Print Devices], print.removeprintdeviceobject, winsplp/RemovePrintDeviceObject
 f1_keywords:
  - "winsplp/RemovePrintDeviceObject"
+ - "RemovePrintDeviceObject"
 req.header: winsplp.h
 req.include-header: Winspool.h
 req.target-type: Desktop

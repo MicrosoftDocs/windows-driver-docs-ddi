@@ -10,6 +10,7 @@ keywords: ["_NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY structure"]
 ms.keywords: "*PNDIS_ROUTING_DOMAIN_ISOLATION_ENTRY, NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY, NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY structure [Network Drivers Starting with Windows Vista], PNDIS_ROUTING_DOMAIN_ISOLATION_ENTRY, PNDIS_ROUTING_DOMAIN_ISOLATION_ENTRY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY, netvista.ndis_routing_domain_isolation_entry, ntddndis/NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY, ntddndis/PNDIS_ROUTING_DOMAIN_ISOLATION_ENTRY"
 f1_keywords:
  - "ntddndis/NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY"
+ - "NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

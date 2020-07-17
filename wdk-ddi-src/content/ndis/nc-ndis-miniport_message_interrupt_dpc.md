@@ -10,6 +10,7 @@ keywords: ["MINIPORT_MESSAGE_INTERRUPT_DPC callback function"]
 ms.keywords: MINIPORT_MESSAGE_INTERRUPT_DPC, MINIPORT_MESSAGE_INTERRUPT_DPC callback, MiniportMessageInterruptDPC, MiniportMessageInterruptDPC callback function [Network Drivers Starting with Windows Vista], ndis/MiniportMessageInterruptDPC, ndis_interrupts_miniport_functions_ref_eb463565-15ab-4751-be20-4239e6ccb987.xml, netvista.miniportmessageinterruptdpc
 f1_keywords:
  - "ndis/MiniportMessageInterruptDPC"
+ - "MiniportMessageInterruptDPC"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

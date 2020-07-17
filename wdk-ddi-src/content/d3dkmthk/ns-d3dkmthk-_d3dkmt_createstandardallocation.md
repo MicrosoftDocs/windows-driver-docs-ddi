@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATESTANDARDALLOCATION structure"]
 ms.keywords: D3DKMT_CREATESTANDARDALLOCATION, D3DKMT_CREATESTANDARDALLOCATION structure [Display Devices], _D3DKMT_CREATESTANDARDALLOCATION, d3dkmthk/D3DKMT_CREATESTANDARDALLOCATION, display.d3dkmt-createstandardallocation
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATESTANDARDALLOCATION"
+ - "D3DKMT_CREATESTANDARDALLOCATION"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

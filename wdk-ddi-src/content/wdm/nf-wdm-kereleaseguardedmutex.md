@@ -10,6 +10,7 @@ keywords: ["KeReleaseGuardedMutex function"]
 ms.keywords: KeReleaseGuardedMutex, KeReleaseGuardedMutex routine [Kernel-Mode Driver Architecture], k105_a338f1ba-027d-4637-a50f-776d60bd7da0.xml, kernel.kereleaseguardedmutex, wdm/KeReleaseGuardedMutex
 f1_keywords:
  - "wdm/KeReleaseGuardedMutex"
+ - "KeReleaseGuardedMutex"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -9,6 +9,7 @@ keywords: ["PFND3DKMT_CONFIGURESHAREDRESOURCE callback function"]
 ms.keywords: D3DKMTConfigureSharedResource, D3DKMTConfigureSharedResource callback function [Display Devices], OpenGL_Functions_f95f6a64-49a7-4a93-a544-6d4315f12212.xml, PFND3DKMT_CONFIGURESHAREDRESOURCE, PFND3DKMT_CONFIGURESHAREDRESOURCE callback, d3dkmthk/D3DKMTConfigureSharedResource, display.d3dkmtconfiguresharedresource
 f1_keywords:
  - "d3dkmthk/D3DKMTConfigureSharedResource"
+ - "D3DKMTConfigureSharedResource"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

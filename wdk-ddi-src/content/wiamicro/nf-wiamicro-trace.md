@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["Trace function"]
 f1_keywords:
  - "wiamicro/Trace"
+ - "Trace"
 ms.keywords: Trace
 req.header: wiamicro.h
 req.include-header:

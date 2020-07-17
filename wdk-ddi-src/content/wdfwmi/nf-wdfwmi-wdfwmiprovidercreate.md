@@ -10,6 +10,7 @@ keywords: ["WdfWmiProviderCreate function"]
 ms.keywords: DFWMIRef_f1b26bb3-d191-4f2b-9289-c76ef93769b5.xml, WdfWmiProviderCreate, WdfWmiProviderCreate method, kmdf.wdfwmiprovidercreate, wdf.wdfwmiprovidercreate, wdfwmi/WdfWmiProviderCreate
 f1_keywords:
  - "wdfwmi/WdfWmiProviderCreate"
+ - "WdfWmiProviderCreate"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal

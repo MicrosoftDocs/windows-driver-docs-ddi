@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_SEND_PLATFORM_CAPABILITY IOCTL"]
 ms.keywords: IOCTL_GNSS_SEND_PLATFORM_CAPABILITY, IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control, IOCTL_GNSS_SEND_PLATFORM_CAPABILITY control code [Sensor Devices], gnss.ioctl_gnss_send_platform_capability, gnssdriver/IOCTL_GNSS_SEND_PLATFORM_CAPABILITY
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_SEND_PLATFORM_CAPABILITY"
+ - "IOCTL_GNSS_SEND_PLATFORM_CAPABILITY"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

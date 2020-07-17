@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_GETPOSTCOMPOSITIONCAPS structure"]
 ms.keywords: "*IN_OUT_PDXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS structure [Display Devices], _DXGKARG_GETPOSTCOMPOSITIONCAPS, d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS, display.dxgkarg_getpostcompositioncaps"
 f1_keywords:
  - "d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS"
+ - "DXGKARG_GETPOSTCOMPOSITIONCAPS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

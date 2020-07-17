@@ -10,6 +10,7 @@ keywords: ["_PO_FX_COMPONENT_PERF_SET structure"]
 ms.keywords: "*PPO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET, PO_FX_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_PERF_SET, PPO_FX_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_PERF_SET, kernel.po_fx_component_perf_set, wdm/PO_FX_COMPONENT_PERF_SET, wdm/PPO_FX_COMPONENT_PERF_SET"
 f1_keywords:
  - "wdm/PO_FX_COMPONENT_PERF_SET"
+ - "PO_FX_COMPONENT_PERF_SET"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Windows

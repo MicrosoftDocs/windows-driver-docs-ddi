@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_SCHEDULING_LOG_HEADER structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_SCHEDULING_LOG_HEADER"
+ - "_DXGK_SCHEDULING_LOG_HEADER"
 ms.keywords: _DXGK_SCHEDULING_LOG_HEADER, DXGK_SCHEDULING_LOG_HEADER,
 req.header: d3dkmddi.h
 req.include-header:

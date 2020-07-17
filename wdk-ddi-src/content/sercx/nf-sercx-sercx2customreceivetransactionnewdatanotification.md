@@ -10,6 +10,7 @@ keywords: ["SerCx2CustomReceiveTransactionNewDataNotification function"]
 ms.keywords: 2/SerCx2CustomReceiveTransactionNewDataNotification, SerCx2CustomReceiveTransactionNewDataNotification, SerCx2CustomReceiveTransactionNewDataNotification method [Serial Ports], serports.sercx2customreceivetransactionnewdatanotification
 f1_keywords:
  - "sercx/SerCx2CustomReceiveTransactionNewDataNotification"
+ - "SerCx2CustomReceiveTransactionNewDataNotification"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

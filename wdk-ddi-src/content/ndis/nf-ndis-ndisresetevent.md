@@ -10,6 +10,7 @@ keywords: ["NdisResetEvent function"]
 ms.keywords: NdisResetEvent, NdisResetEvent function [Network Drivers Starting with Windows Vista], ndis/NdisResetEvent, ndis_event_ref_2970c5ca-b236-41e4-b156-c283f4f637f9.xml, netvista.ndisresetevent
 f1_keywords:
  - "ndis/NdisResetEvent"
+ - "NdisResetEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

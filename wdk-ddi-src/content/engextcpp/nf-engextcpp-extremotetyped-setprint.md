@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::SetPrint"]
 ms.keywords: EngExtCpp_Ref_5987e1b0-7415-4004-b949-76b3edc02d9a.xml, ExtRemoteTyped interface [Windows Debugging],SetPrint method, ExtRemoteTyped.SetPrint, ExtRemoteTyped::SetPrint, SetPrint, SetPrint method [Windows Debugging], SetPrint method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_setprint
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.SetPrint"
+ - "ExtRemoteTyped.SetPrint"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

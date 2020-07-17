@@ -10,6 +10,7 @@ keywords: ["NdisAllocateMemoryWithTagPriority function"]
 ms.keywords: NdisAllocateMemoryWithTagPriority, NdisAllocateMemoryWithTagPriority function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateMemoryWithTagPriority, ndis_memory_ref_1b725109-fc0d-4f5f-8c88-d7a21a1f4c01.xml, netvista.ndisallocatememorywithtagpriority
 f1_keywords:
  - "ndis/NdisAllocateMemoryWithTagPriority"
+ - "NdisAllocateMemoryWithTagPriority"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

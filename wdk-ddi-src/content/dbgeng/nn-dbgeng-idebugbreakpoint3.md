@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint3 interface"]
 ms.keywords: IDebugBreakpoint3, IDebugBreakpoint3 interface [Windows Debugging], IDebugBreakpoint3 interface [Windows Debugging],described, dbgeng/IDebugBreakpoint3, debugger.idebugbreakpoint3
 f1_keywords:
  - "dbgeng/IDebugBreakpoint3"
+ - "IDebugBreakpoint3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

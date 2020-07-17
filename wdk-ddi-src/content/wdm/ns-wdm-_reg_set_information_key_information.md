@@ -10,6 +10,7 @@ keywords: ["_REG_SET_INFORMATION_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_SET_INFORMATION_KEY_INFORMATION, PREG_SET_INFORMATION_KEY_INFORMATION, PREG_SET_INFORMATION_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_SET_INFORMATION_KEY_INFORMATION, REG_SET_INFORMATION_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_SET_INFORMATION_KEY_INFORMATION, kernel.reg_set_information_key_information, kstruct_d_f6265b80-6f92-4856-bb8e-49cc97a1c553.xml, wdm/PREG_SET_INFORMATION_KEY_INFORMATION, wdm/REG_SET_INFORMATION_KEY_INFORMATION"
 f1_keywords:
  - "wdm/REG_SET_INFORMATION_KEY_INFORMATION"
+ - "REG_SET_INFORMATION_KEY_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

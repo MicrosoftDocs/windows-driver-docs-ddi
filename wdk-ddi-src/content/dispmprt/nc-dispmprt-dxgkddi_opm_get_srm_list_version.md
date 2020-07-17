@@ -35,6 +35,7 @@ api_name:
  - DXGKDDI_OPM_GET_SRM_LIST_VERSION
 f1_keywords:
  - dispmprt/DXGKDDI_OPM_GET_SRM_LIST_VERSION
+ - ""
 dev_langs:
  - c++
 ---

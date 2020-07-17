@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["_DEVICE_DSM_FREE_SPACE_OUTPUT structure"]
 f1_keywords:
  - "ntddstor/_DEVICE_DSM_FREE_SPACE_OUTPUT"
+ - "_DEVICE_DSM_FREE_SPACE_OUTPUT"
 ms.keywords: _DEVICE_DSM_FREE_SPACE_OUTPUT, DEVICE_DSM_FREE_SPACE_OUTPUT, *PDEVICE_DSM_FREE_SPACE_OUTPUT, 
 req.header: ntddstor.h
 req.include-header:

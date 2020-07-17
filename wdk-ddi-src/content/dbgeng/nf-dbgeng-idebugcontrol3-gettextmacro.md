@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::GetTextMacro"]
 ms.keywords: GetTextMacro, GetTextMacro method [Windows Debugging], GetTextMacro method [Windows Debugging],IDebugControl interface, GetTextMacro method [Windows Debugging],IDebugControl2 interface, GetTextMacro method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetTextMacro method, IDebugControl2 interface [Windows Debugging],GetTextMacro method, IDebugControl2::GetTextMacro, IDebugControl3 interface [Windows Debugging],GetTextMacro method, IDebugControl3.GetTextMacro, IDebugControl3::GetTextMacro, IDebugControl::GetTextMacro, IDebugControl_b6408c67-fb45-4a11-94b4-24099f406a8a.xml, dbgeng/IDebugControl2::GetTextMacro, dbgeng/IDebugControl3::GetTextMacro, dbgeng/IDebugControl::GetTextMacro, debugger.gettextmacro
 f1_keywords:
  - "dbgeng/IDebugControl.GetTextMacro"
+ - "IDebugControl.GetTextMacro"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

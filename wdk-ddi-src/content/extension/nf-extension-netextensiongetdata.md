@@ -8,6 +8,7 @@ ms.date: 02/06/2019
 keywords: ["NetExtensionGetData function"]
 f1_keywords:
  - "extension/SOUNDDETECTOR_PATTERNHEADER"
+ - "SOUNDDETECTOR_PATTERNHEADER"
 ms.keywords: NetExtensionGetData
 req.header: extension.h
 req.include-header: netadaptercx.h

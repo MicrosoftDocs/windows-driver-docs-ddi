@@ -10,6 +10,7 @@ keywords: ["IWDFDeviceInitialize::RetrieveDevicePropertyStore"]
 ms.keywords: IWDFDeviceInitialize interface,RetrieveDevicePropertyStore method, IWDFDeviceInitialize.RetrieveDevicePropertyStore, IWDFDeviceInitialize::RetrieveDevicePropertyStore, RetrieveDevicePropertyStore, RetrieveDevicePropertyStore method, RetrieveDevicePropertyStore method,IWDFDeviceInitialize interface, UMDFDeviceObjectRef_88af313a-0b2d-472b-b96c-549a500b0782.xml, umdf.iwdfdeviceinitialize_retrievedevicepropertystore, wdf.iwdfdeviceinitialize_retrievedevicepropertystore, wudfddi/IWDFDeviceInitialize::RetrieveDevicePropertyStore
 f1_keywords:
  - "wudfddi/IWDFDeviceInitialize.RetrieveDevicePropertyStore"
+ - "IWDFDeviceInitialize.RetrieveDevicePropertyStore"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

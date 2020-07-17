@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["IDDCX_DISPLAYCONFIGPATH structure"]
 f1_keywords:
  - "iddcx/IDDCX_DISPLAYCONFIGPATH"
+ - "IDDCX_DISPLAYCONFIGPATH"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: IDDCX_DISPLAYCONFIGPATH, , 

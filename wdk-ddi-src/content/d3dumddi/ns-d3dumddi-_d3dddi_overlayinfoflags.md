@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_OVERLAYINFOFLAGS structure"]
 ms.keywords: D3DDDI_OVERLAYINFOFLAGS, D3DDDI_OVERLAYINFOFLAGS structure [Display Devices], D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml, _D3DDDI_OVERLAYINFOFLAGS, d3dumddi/D3DDDI_OVERLAYINFOFLAGS, display.d3dddi_overlayinfoflags
 f1_keywords:
  - "d3dumddi/D3DDDI_OVERLAYINFOFLAGS"
+ - "D3DDDI_OVERLAYINFOFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

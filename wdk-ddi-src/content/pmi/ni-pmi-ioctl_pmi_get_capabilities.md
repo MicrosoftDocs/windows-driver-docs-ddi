@@ -10,6 +10,7 @@ keywords: ["IOCTL_PMI_GET_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_PMI_GET_CAPABILITIES, IOCTL_PMI_GET_CAPABILITIES control, IOCTL_PMI_GET_CAPABILITIES control code [Power Metering and Budgeting Devices], PowerMeterRef_4328d6ef-f85e-4375-9505-ff9134969d60.xml, pmi/IOCTL_PMI_GET_CAPABILITIES, powermeter.ioctl_pmi_get_capabilities
 f1_keywords:
  - "pmi/IOCTL_PMI_GET_CAPABILITIES"
+ - "IOCTL_PMI_GET_CAPABILITIES"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows

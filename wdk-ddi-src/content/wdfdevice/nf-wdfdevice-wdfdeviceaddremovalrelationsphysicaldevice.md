@@ -10,6 +10,7 @@ keywords: ["WdfDeviceAddRemovalRelationsPhysicalDevice function"]
 ms.keywords: DFDeviceObjectGeneralRef_5e16c670-eb46-4c83-88e0-32eb41aeeac3.xml, WdfDeviceAddRemovalRelationsPhysicalDevice, WdfDeviceAddRemovalRelationsPhysicalDevice method, kmdf.wdfdeviceaddremovalrelationsphysicaldevice, wdf.wdfdeviceaddremovalrelationsphysicaldevice, wdfdevice/WdfDeviceAddRemovalRelationsPhysicalDevice
 f1_keywords:
  - "wdfdevice/WdfDeviceAddRemovalRelationsPhysicalDevice"
+ - "WdfDeviceAddRemovalRelationsPhysicalDevice"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

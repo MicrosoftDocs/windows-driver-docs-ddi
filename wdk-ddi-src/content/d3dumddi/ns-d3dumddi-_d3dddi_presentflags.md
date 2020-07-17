@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_PRESENTFLAGS structure"]
 ms.keywords: D3DDDI_PRESENTFLAGS, D3DDDI_PRESENTFLAGS structure [Display Devices], D3D_other_Structs_4650db5e-637b-4032-a5d2-ded887a883dc.xml, _D3DDDI_PRESENTFLAGS, d3dumddi/D3DDDI_PRESENTFLAGS, display.d3dddi_presentflags
 f1_keywords:
  - "d3dumddi/D3DDDI_PRESENTFLAGS"
+ - "D3DDDI_PRESENTFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

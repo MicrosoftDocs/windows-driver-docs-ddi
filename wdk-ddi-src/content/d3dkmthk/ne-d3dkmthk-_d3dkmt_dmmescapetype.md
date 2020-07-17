@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_DMMESCAPETYPE enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_DMMESCAPETYPE"
+ - "_D3DKMT_DMMESCAPETYPE"
 ms.keywords: _D3DKMT_DMMESCAPETYPE, D3DKMT_DMMESCAPETYPE, 
 req.header: d3dkmthk.h
 req.include-header:

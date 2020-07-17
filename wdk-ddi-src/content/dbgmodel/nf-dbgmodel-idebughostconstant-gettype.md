@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostConstant::GetType"]
 f1_keywords:
  - "dbgmodel/IDebugHostConstant.GetType"
+ - "IDebugHostConstant.GetType"
 ms.keywords: IDebugHostConstant::GetType, GetType, IDebugHostConstant.GetType, IDebugHostConstant::GetType, IDebugHostConstant.GetType
 req.header: dbgmodel.h
 req.include-header:

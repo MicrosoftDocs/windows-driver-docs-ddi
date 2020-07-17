@@ -10,6 +10,7 @@ keywords: ["ScsiPortGetBusData function"]
 ms.keywords: ScsiPortGetBusData, ScsiPortGetBusData routine [Storage Devices], scsiprt_85566dfe-b1b6-4b6d-9f80-69fbdd82904a.xml, srb/ScsiPortGetBusData, storage.scsiportgetbusdata
 f1_keywords:
  - "srb/ScsiPortGetBusData"
+ - "ScsiPortGetBusData"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

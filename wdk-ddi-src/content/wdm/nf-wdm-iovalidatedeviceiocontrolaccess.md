@@ -10,6 +10,7 @@ keywords: ["IoValidateDeviceIoControlAccess function"]
 ms.keywords: IoValidateDeviceIoControlAccess, IoValidateDeviceIoControlAccess routine [Kernel-Mode Driver Architecture], k104_724cb845-fabf-4b5a-8712-901829f1f79d.xml, kernel.iovalidatedeviceiocontrolaccess, wdm/IoValidateDeviceIoControlAccess
 f1_keywords:
  - "wdm/IoValidateDeviceIoControlAccess"
+ - "IoValidateDeviceIoControlAccess"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

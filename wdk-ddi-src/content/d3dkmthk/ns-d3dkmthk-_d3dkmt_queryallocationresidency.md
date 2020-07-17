@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_QUERYALLOCATIONRESIDENCY structure"]
 ms.keywords: D3DKMT_QUERYALLOCATIONRESIDENCY, D3DKMT_QUERYALLOCATIONRESIDENCY structure [Display Devices], OpenGL_Structs_eae296e3-82c5-4229-b31a-bdb85d7e6c0c.xml, _D3DKMT_QUERYALLOCATIONRESIDENCY, d3dkmthk/D3DKMT_QUERYALLOCATIONRESIDENCY, display.d3dkmt_queryallocationresidency
 f1_keywords:
  - "d3dkmthk/D3DKMT_QUERYALLOCATIONRESIDENCY"
+ - "D3DKMT_QUERYALLOCATIONRESIDENCY"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

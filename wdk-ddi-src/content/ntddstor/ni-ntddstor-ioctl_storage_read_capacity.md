@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_READ_CAPACITY IOCTL"]
 ms.keywords: IOCTL_STORAGE_READ_CAPACITY, IOCTL_STORAGE_READ_CAPACITY control, IOCTL_STORAGE_READ_CAPACITY control code [Storage Devices], ntddstor/IOCTL_STORAGE_READ_CAPACITY, storage.ioctl_storage_read_capacity
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_READ_CAPACITY"
+ - "IOCTL_STORAGE_READ_CAPACITY"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

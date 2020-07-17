@@ -10,6 +10,7 @@ keywords: ["PMRX_DEALLOCATE_FOR_FCB callback function"]
 ms.keywords: MRxDeallocateForFcb, MRxDeallocateForFcb routine [Installable File System Drivers], PMRX_DEALLOCATE_FOR_FCB, ifsk.mrxdeallocateforfcb, mrx/MRxDeallocateForFcb, mrxref_02a9e4a3-db00-48e1-ac2e-cd6a47ae4c37.xml
 f1_keywords:
  - "mrx/MRxDeallocateForFcb"
+ - "MRxDeallocateForFcb"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

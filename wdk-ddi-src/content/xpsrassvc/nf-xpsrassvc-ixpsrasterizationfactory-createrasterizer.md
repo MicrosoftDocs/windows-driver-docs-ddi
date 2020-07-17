@@ -10,6 +10,7 @@ keywords: ["IXpsRasterizationFactory::CreateRasterizer"]
 ms.keywords: CreateRasterizer, CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices],IXpsRasterizationFactory interface, IXpsRasterizationFactory interface [Print Devices],CreateRasterizer method, IXpsRasterizationFactory.CreateRasterizer, IXpsRasterizationFactory::CreateRasterizer, print.ixpsrasterizationfactory_createrasterizer, print_xpsrast_5eddcd20-40a0-47da-8b1c-94d17902d783.xml, xpsrassvc/IXpsRasterizationFactory::CreateRasterizer
 f1_keywords:
  - "xpsrassvc/IXpsRasterizationFactory.CreateRasterizer"
+ - "IXpsRasterizationFactory.CreateRasterizer"
 req.header: xpsrassvc.h
 req.include-header: 
 req.target-type: Desktop

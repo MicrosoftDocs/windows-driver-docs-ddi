@@ -10,6 +10,7 @@ keywords: ["GetKdContext macro"]
 ms.keywords: GetKdContext, GetKdContext function [Windows Debugging], WdbgExts_Ref_951ca10a-3a73-433c-bd95-f054967f0df6.xml, debugger.getkdcontext, wdbgexts/GetKdContext
 f1_keywords:
  - "wdbgexts/GetKdContext"
+ - "GetKdContext"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

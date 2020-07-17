@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IIndexableConcept::AddRef"]
 f1_keywords:
  - "dbgmodel/IIndexableConcept.AddRef"
+ - "IIndexableConcept.AddRef"
 ms.keywords: IIndexableConcept::AddRef, AddRef, IIndexableConcept.AddRef, IIndexableConcept::AddRef, IIndexableConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:

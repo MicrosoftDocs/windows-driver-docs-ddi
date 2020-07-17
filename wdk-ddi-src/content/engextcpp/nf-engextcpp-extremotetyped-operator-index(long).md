@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::operator (LONG)"]
 ms.keywords: ExtRemoteTyped class [Windows Debugging],operator[] method, ExtRemoteTyped.operator[], ExtRemoteTyped.operator[](LONG), ExtRemoteTyped::Operator[], ExtRemoteTyped::operator[], ExtRemoteTyped::operator[](LONG), debugger.extremotetyped_operatorarray_long, operator[], operator[] method [Windows Debugging], operator[] method [Windows Debugging],ExtRemoteTyped class
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.operator[]"
+ - "ExtRemoteTyped.operator[]"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

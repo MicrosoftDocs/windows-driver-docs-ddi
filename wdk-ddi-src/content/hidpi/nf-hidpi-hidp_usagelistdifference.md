@@ -10,6 +10,7 @@ keywords: ["HidP_UsageListDifference function"]
 ms.keywords: HidP_UsageListDifference, HidP_UsageListDifference routine [Human Input Devices], hid.hidp_usagelistdifference, hidfunc_91cbddd2-90f6-4784-9f1d-6d9bf8be35d3.xml, hidpi/HidP_UsageListDifference
 f1_keywords:
  - "hidpi/HidP_UsageListDifference"
+ - "HidP_UsageListDifference"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

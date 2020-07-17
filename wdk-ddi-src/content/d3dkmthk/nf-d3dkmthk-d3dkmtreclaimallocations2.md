@@ -9,6 +9,7 @@ keywords: ["D3DKMTReclaimAllocations2 function"]
 ms.keywords: D3DKMTReclaimAllocations2, D3DKMTReclaimAllocations2 function [Display Devices], d3dkmthk/D3DKMTReclaimAllocations2, display.d3dkmtreclaimallocations2
 f1_keywords:
  - "d3dkmthk/D3DKMTReclaimAllocations2"
+ - "D3DKMTReclaimAllocations2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

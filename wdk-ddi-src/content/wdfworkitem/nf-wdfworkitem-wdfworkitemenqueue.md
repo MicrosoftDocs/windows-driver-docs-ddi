@@ -10,6 +10,7 @@ keywords: ["WdfWorkItemEnqueue function"]
 ms.keywords: DFWorkItemObjectRef_f2f5dbe5-20e0-4cb8-aeca-663934d0fc92.xml, WdfWorkItemEnqueue, WdfWorkItemEnqueue method, kmdf.wdfworkitemenqueue, wdf.wdfworkitemenqueue, wdfworkitem/WdfWorkItemEnqueue
 f1_keywords:
  - "wdfworkitem/WdfWorkItemEnqueue"
+ - "WdfWorkItemEnqueue"
 req.header: wdfworkitem.h
 req.include-header: Wdf.h
 req.target-type: Universal

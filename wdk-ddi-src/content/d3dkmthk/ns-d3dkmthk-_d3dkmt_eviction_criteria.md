@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_EVICTION_CRITERIA structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_EVICTION_CRITERIA"
+ - "_D3DKMT_EVICTION_CRITERIA"
 ms.keywords: _D3DKMT_EVICTION_CRITERIA, D3DKMT_EVICTION_CRITERIA, 
 req.header: d3dkmthk.h
 req.include-header:

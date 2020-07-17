@@ -10,6 +10,7 @@ keywords: ["RtlPrefetchMemoryNonTemporal function"]
 ms.keywords: RtlPrefetchMemoryNonTemporal, RtlPrefetchMemoryNonTemporal routine [Kernel-Mode Driver Architecture], k109_795dffef-c947-4f0b-a8ab-fcc0cb6cc630.xml, kernel.rtlprefetchmemorynontemporal, wdm/RtlPrefetchMemoryNonTemporal
 f1_keywords:
  - "wdm/RtlPrefetchMemoryNonTemporal"
+ - "RtlPrefetchMemoryNonTemporal"
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_GET_CHIPSETINFO IOCTL"]
 ms.keywords: IOCTL_GNSS_GET_CHIPSETINFO, IOCTL_GNSS_GET_CHIPSETINFO control, IOCTL_GNSS_GET_CHIPSETINFO control code [Sensor Devices], gnss.ioctl_gnss_get_chipsetinfo, gnssdriver/IOCTL_GNSS_GET_CHIPSETINFO
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_GET_CHIPSETINFO"
+ - "IOCTL_GNSS_GET_CHIPSETINFO"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

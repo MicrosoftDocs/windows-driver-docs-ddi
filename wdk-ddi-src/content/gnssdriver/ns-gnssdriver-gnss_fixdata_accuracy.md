@@ -10,6 +10,7 @@ keywords: ["GNSS_FIXDATA_ACCURACY structure"]
 ms.keywords: "*PGNSS_FIXDATA_ACCURACY, GNSS_FIXDATA_ACCURACY, GNSS_FIXDATA_ACCURACY structure [Sensor Devices], PGNSS_FIXDATA_ACCURACY, PGNSS_FIXDATA_ACCURACY structure pointer [Sensor Devices], gnss.gnss_fixdata_accuracy, gnssdriver/GNSS_FIXDATA_ACCURACY, gnssdriver/PGNSS_FIXDATA_ACCURACY"
 f1_keywords:
  - "gnssdriver/GNSS_FIXDATA_ACCURACY"
+ - "GNSS_FIXDATA_ACCURACY"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PO_FX_DEVICE_POWER_REQUIRED_CALLBACK callback function"]
 ms.keywords: DevicePowerRequiredCallback, DevicePowerRequiredCallback routine [Kernel-Mode Driver Architecture], PO_FX_DEVICE_POWER_REQUIRED_CALLBACK, kernel.devicepowerrequiredcallback, wdm/DevicePowerRequiredCallback
 f1_keywords:
  - "wdm/DevicePowerRequiredCallback"
+ - "DevicePowerRequiredCallback"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Desktop

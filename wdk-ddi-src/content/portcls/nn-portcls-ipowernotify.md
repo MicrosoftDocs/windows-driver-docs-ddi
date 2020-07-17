@@ -10,6 +10,7 @@ keywords: ["IPowerNotify interface"]
 ms.keywords: IPowerNotify, IPowerNotify interface [Audio Devices], IPowerNotify interface [Audio Devices],described, audio.ipowernotify, audmp-routines_345bcede-d886-4423-b56e-0b7c15596744.xml, portcls/IPowerNotify
 f1_keywords:
  - "portcls/IPowerNotify"
+ - "IPowerNotify"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

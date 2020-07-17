@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_SETSTABLEPOWERSTATE structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_SETSTABLEPOWERSTATE"
+ - "_D3DKMT_SETSTABLEPOWERSTATE"
 ms.keywords: _D3DKMT_SETSTABLEPOWERSTATE, D3DKMT_SETSTABLEPOWERSTATE, 
 req.header: d3dkmthk.h
 req.include-header:

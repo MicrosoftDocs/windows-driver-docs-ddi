@@ -10,6 +10,7 @@ keywords: ["IOCTL_HID_SET_FEATURE IOCTL"]
 ms.keywords: IOCTL_HID_SET_FEATURE, IOCTL_HID_SET_FEATURE control, IOCTL_HID_SET_FEATURE control code [Human Input Devices], hid.ioctl_hid_set_feature2, hidclass/IOCTL_HID_SET_FEATURE, hidioreq_def58360-8e73-49dd-ab90-33cf3b6a92de.xml
 f1_keywords:
  - "hidclass/IOCTL_HID_SET_FEATURE"
+ - "IOCTL_HID_SET_FEATURE"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows

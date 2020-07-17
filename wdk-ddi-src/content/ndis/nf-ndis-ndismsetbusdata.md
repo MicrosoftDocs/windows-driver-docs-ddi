@@ -10,6 +10,7 @@ keywords: ["NdisMSetBusData function"]
 ms.keywords: NdisMSetBusData, NdisMSetBusData function [Network Drivers Starting with Windows Vista], hardware_configuration_ref_4fd9608c-60b9-4a86-9aa3-02d6ec17da92.xml, ndis/NdisMSetBusData, netvista.ndismsetbusdata
 f1_keywords:
  - "ndis/NdisMSetBusData"
+ - "NdisMSetBusData"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

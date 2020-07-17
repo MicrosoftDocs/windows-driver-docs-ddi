@@ -10,6 +10,7 @@ keywords: ["_WDF_WORKITEM_CONFIG structure"]
 ms.keywords: "*PWDF_WORKITEM_CONFIG, DFWorkItemObjectRef_48012621-6363-421b-8b95-2bdae4e63b32.xml, PWDF_WORKITEM_CONFIG, PWDF_WORKITEM_CONFIG structure pointer, WDF_WORKITEM_CONFIG, WDF_WORKITEM_CONFIG structure, _WDF_WORKITEM_CONFIG, kmdf.wdf_workitem_config, wdf.wdf_workitem_config, wdfworkitem/PWDF_WORKITEM_CONFIG, wdfworkitem/WDF_WORKITEM_CONFIG"
 f1_keywords:
  - "wdfworkitem/WDF_WORKITEM_CONFIG"
+ - "WDF_WORKITEM_CONFIG"
 req.header: wdfworkitem.h
 req.include-header: Wdf.h
 req.target-type: Windows

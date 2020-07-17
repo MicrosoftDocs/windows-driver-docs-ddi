@@ -8,6 +8,7 @@ ms.date: 02/20/2019
 keywords: ["IDrmPort::ForwardContentToInterface"]
 f1_keywords:
  - "portcls/IDrmPort.ForwardContentToInterface"
+ - "IDrmPort.ForwardContentToInterface"
 ms.keywords: IDrmPort::ForwardContentToInterface, ForwardContentToInterface, IDrmPort.ForwardContentToInterface, IDrmPort::ForwardContentToInterface, IDrmPort.ForwardContentToInterface
 req.header: portcls.h
 req.include-header:

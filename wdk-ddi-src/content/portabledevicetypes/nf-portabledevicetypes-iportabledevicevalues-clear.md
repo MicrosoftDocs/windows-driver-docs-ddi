@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::Clear"]
 ms.keywords: Clear, Clear method, Clear method,IPortableDeviceValues interface, IPortableDeviceValues interface,Clear method, IPortableDeviceValues.Clear, IPortableDeviceValues::Clear, IPortableDeviceValuesClear, portabledevicetypes/IPortableDeviceValues::Clear, wpddk.iportabledevicevalues_clear
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.Clear"
+ - "IPortableDeviceValues.Clear"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

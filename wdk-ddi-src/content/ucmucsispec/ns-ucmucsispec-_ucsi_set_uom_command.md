@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_SET_UOM_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_SET_UOM_COMMAND"
+ - "_UCSI_SET_UOM_COMMAND"
 ms.keywords: _UCSI_SET_UOM_COMMAND, UCSI_SET_UOM_COMMAND, *PUCSI_SET_UOM_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

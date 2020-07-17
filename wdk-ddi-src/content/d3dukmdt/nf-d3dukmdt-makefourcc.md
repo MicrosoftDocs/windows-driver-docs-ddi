@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["MAKEFOURCC macro"]
 f1_keywords:
  - "d3dukmdt/MAKEFOURCC"
+ - "MAKEFOURCC"
 ms.keywords: MAKEFOURCC
 req.header: d3dukmdt.h
 req.include-header:

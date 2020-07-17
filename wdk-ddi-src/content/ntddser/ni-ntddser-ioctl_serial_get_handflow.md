@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_GET_HANDFLOW IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_HANDFLOW, IOCTL_SERIAL_GET_HANDFLOW control, IOCTL_SERIAL_GET_HANDFLOW control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_HANDFLOW, serports.ioctl_serial_get_handflow, serref_caa7cdf7-cf60-4baa-88bf-43a7db423a37.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_GET_HANDFLOW"
+ - "IOCTL_SERIAL_GET_HANDFLOW"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

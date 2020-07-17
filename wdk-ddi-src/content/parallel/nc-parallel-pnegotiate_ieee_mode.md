@@ -10,6 +10,7 @@ keywords: ["PNEGOTIATE_IEEE_MODE callback"]
 ms.keywords: PNEGOTIATE_IEEE_MODE, PNEGOTIATE_IEEE_MODE function pointer [Parallel Ports], cisspd_0bea0bb3-2a7c-4cf4-938d-8bc67962a222.xml, parallel/PNEGOTIATE_IEEE_MODE, parports.pnegotiate_ieee_mode
 f1_keywords:
  - "parallel/PNEGOTIATE_IEEE_MODE"
+ - "PNEGOTIATE_IEEE_MODE"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop

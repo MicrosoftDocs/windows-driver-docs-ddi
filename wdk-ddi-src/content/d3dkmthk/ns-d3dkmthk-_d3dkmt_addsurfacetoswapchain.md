@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_ADDSURFACETOSWAPCHAIN structure"]
 ms.keywords: D3DKMT_ADDSURFACETOSWAPCHAIN, D3DKMT_ADDSURFACETOSWAPCHAIN structure [Display Devices], _D3DKMT_ADDSURFACETOSWAPCHAIN, d3dkmthk/D3DKMT_ADDSURFACETOSWAPCHAIN, display.d3dkmt-addsurfacetoswapchain
 f1_keywords:
  - "d3dkmthk/D3DKMT_ADDSURFACETOSWAPCHAIN"
+ - "D3DKMT_ADDSURFACETOSWAPCHAIN"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

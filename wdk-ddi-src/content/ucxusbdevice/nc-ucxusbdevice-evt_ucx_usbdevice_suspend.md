@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_USBDEVICE_SUSPEND callback function"]
 ms.keywords: "*PFN_UCX_USBDEVICE_SUSPEND, *PFN_UCX_USBDEVICE_SUSPEND callback function [Buses], EVT_UCX_USBDEVICE_SUSPEND, EVT_UCX_USBDEVICE_SUSPEND callback, EvtUcxDeviceSuspend, EvtUcxDeviceSuspend callback function [Buses], buses.evt_ucx_usbdevice_suspend, ucxusbdevice/EvtUcxDeviceSuspend"
 f1_keywords:
  - "ucxusbdevice/*PFN_UCX_USBDEVICE_SUSPEND"
+ - "*PFN_UCX_USBDEVICE_SUSPEND"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

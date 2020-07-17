@@ -10,6 +10,7 @@ keywords: ["WdfDeviceWdmDispatchIrpToIoQueue function"]
 ms.keywords: WdfDeviceWdmDispatchIrpToIoQueue, WdfDeviceWdmDispatchIrpToIoQueue method, kmdf.wdfdevicewdmdispatchirptoioqueue, kmdf.wdfdevicewdmforwardirptoioqueue, wdf.wdfdevicewdmdispatchirptoioqueue, wdfdevice/WdfDeviceWdmDispatchIrpToIoQueue
 f1_keywords:
  - "wdfdevice/WdfDeviceWdmDispatchIrpToIoQueue"
+ - "WdfDeviceWdmDispatchIrpToIoQueue"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

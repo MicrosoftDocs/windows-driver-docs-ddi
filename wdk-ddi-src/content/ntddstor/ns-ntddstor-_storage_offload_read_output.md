@@ -10,6 +10,7 @@ keywords: ["_STORAGE_OFFLOAD_READ_OUTPUT structure"]
 ms.keywords: "*PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT, PSTORAGE_OFFLOAD_READ_OUTPUT structure pointer [Storage Devices], STORAGE_OFFLOAD_READ_OUTPUT, STORAGE_OFFLOAD_READ_OUTPUT structure [Storage Devices], _STORAGE_OFFLOAD_READ_OUTPUT, ntddstor/PSTORAGE_OFFLOAD_READ_OUTPUT, ntddstor/STORAGE_OFFLOAD_READ_OUTPUT, storage.storage_offload_read_output"
 f1_keywords:
  - "ntddstor/STORAGE_OFFLOAD_READ_OUTPUT"
+ - "STORAGE_OFFLOAD_READ_OUTPUT"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PUNREGISTER_NOTIFICATION_EVENT callback function"]
 ms.keywords: PUNREGISTER_NOTIFICATION_EVENT, PUNREGISTER_NOTIFICATION_EVENT callback, UnregisterNotificationEvent, UnregisterNotificationEvent callback function [Audio Devices], aud-prop2_3f7488ae-5744-422e-871f-54dc2fd63bc2.xml, audio.unregisternotificationevent, hdaudio/UnregisterNotificationEvent
 f1_keywords:
  - "hdaudio/UnregisterNotificationEvent"
+ - "UnregisterNotificationEvent"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop

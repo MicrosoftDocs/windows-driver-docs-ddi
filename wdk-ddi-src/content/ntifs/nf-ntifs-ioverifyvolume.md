@@ -10,6 +10,7 @@ keywords: ["IoVerifyVolume function"]
 ms.keywords: IoVerifyVolume, IoVerifyVolume routine [Installable File System Drivers], ifsk.ioverifyvolume, ioref_b55e7a87-a18d-4ccd-ab32-061676c9dde4.xml, ntifs/IoVerifyVolume
 f1_keywords:
  - "ntifs/IoVerifyVolume"
+ - "IoVerifyVolume"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

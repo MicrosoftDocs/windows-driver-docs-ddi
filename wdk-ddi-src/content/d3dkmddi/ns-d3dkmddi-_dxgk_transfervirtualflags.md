@@ -9,6 +9,7 @@ keywords: ["_DXGK_TRANSFERVIRTUALFLAGS structure"]
 ms.keywords: DXGK_TRANSFERVIRTUALFLAGS, DXGK_TRANSFERVIRTUALFLAGS structure [Display Devices], _DXGK_TRANSFERVIRTUALFLAGS, d3dkmddi/DXGK_TRANSFERVIRTUALFLAGS, display.dxgk_transfervirtualflags
 f1_keywords:
  - "d3dkmddi/DXGK_TRANSFERVIRTUALFLAGS"
+ - "DXGK_TRANSFERVIRTUALFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

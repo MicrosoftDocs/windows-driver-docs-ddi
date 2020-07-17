@@ -10,6 +10,7 @@ keywords: ["PsLookupProcessByProcessId function"]
 ms.keywords: PsLookupProcessByProcessId, PsLookupProcessByProcessId routine [Installable File System Drivers], ifsk.pslookupprocessbyprocessid, ntifs/PsLookupProcessByProcessId, psref_809b3ca8-eb8a-4ee0-9d74-b33b10664834.xml
 f1_keywords:
  - "ntifs/PsLookupProcessByProcessId"
+ - "PsLookupProcessByProcessId"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

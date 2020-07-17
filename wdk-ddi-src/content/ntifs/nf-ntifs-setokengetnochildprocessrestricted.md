@@ -10,6 +10,7 @@ keywords: ["SeTokenGetNoChildProcessRestricted function"]
 ms.keywords: SeTokenGetNoChildProcessRestricted, SeTokenGetNoChildProcessRestricted function [Installable File System Drivers], ifsk.setokengetnochildprocessrestricted, ntifs/SeTokenGetNoChildProcessRestricted
 f1_keywords:
  - "ntifs/SeTokenGetNoChildProcessRestricted"
+ - "SeTokenGetNoChildProcessRestricted"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

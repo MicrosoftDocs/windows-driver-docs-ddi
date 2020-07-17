@@ -10,6 +10,7 @@ keywords: ["RtlxAnsiStringToUnicodeSize function"]
 ms.keywords: RtlxAnsiStringToUnicodeSize, RtlxAnsiStringToUnicodeSize routine [Kernel-Mode Driver Architecture], k109_9343d498-bc89-428c-8e68-53c205c58bae.xml, kernel.rtlxansistringtounicodesize, wdm/RtlxAnsiStringToUnicodeSize
 f1_keywords:
  - "wdm/RtlxAnsiStringToUnicodeSize"
+ - "RtlxAnsiStringToUnicodeSize"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal

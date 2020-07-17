@@ -10,6 +10,7 @@ keywords: ["UcxEndpointSetWdfIoQueue function"]
 ms.keywords: UcxEndpointSetWdfIoQueue, UcxEndpointSetWdfIoQueue method [Buses], buses._ucxendpointsetwdfioqueue
 f1_keywords:
  - "ucxendpoint/UcxEndpointSetWdfIoQueue"
+ - "UcxEndpointSetWdfIoQueue"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows

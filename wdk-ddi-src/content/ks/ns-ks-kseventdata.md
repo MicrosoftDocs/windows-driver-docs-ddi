@@ -10,6 +10,7 @@ keywords: ["KSEVENTDATA structure"]
 ms.keywords: "*PKSEVENTDATA, KSEVENTDATA, KSEVENTDATA structure [Streaming Media Devices], PKSEVENTDATA, PKSEVENTDATA structure pointer [Streaming Media Devices], ks-struct_e9669775-4fb9-465a-bd2b-fd02f718d7a3.xml, ks/KSEVENTDATA, ks/PKSEVENTDATA, stream.kseventdata"
 f1_keywords:
  - "ks/KSEVENTDATA"
+ - "KSEVENTDATA"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

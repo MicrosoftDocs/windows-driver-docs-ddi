@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::GetCommandWide"]
 ms.keywords: GetCommandWide, GetCommandWide method [Windows Debugging], GetCommandWide method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging],GetCommandWide method, IDebugBreakpoint2.GetCommandWide, IDebugBreakpoint2::GetCommandWide, dbgeng/IDebugBreakpoint2::GetCommandWide, debugger.getcommandwide
 f1_keywords:
  - "dbgeng/IDebugBreakpoint2.GetCommandWide"
+ - "IDebugBreakpoint2.GetCommandWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

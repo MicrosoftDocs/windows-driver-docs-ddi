@@ -10,6 +10,7 @@ keywords: ["RILGETTOKENPARAMMASK enumeration"]
 ms.keywords: RILDEVSPECIFICPARAMMASK, RILDEVSPECIFICPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILGETTOKENPARAMMASK, RILGETTOKENPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_GETTOKEN_ALL, RIL_PARAM_GETTOKEN_HEADER, RIL_PARAM_GETTOKEN_PROTOCOL_ID, RIL_PARAM_GETTOKEN_TIMEOUT, netvista.rilgettokenparammask, oemrilapitypes/RILGETTOKENPARAMMASK, oemrilapitypes/RIL_PARAM_GETTOKEN_ALL, oemrilapitypes/RIL_PARAM_GETTOKEN_HEADER, oemrilapitypes/RIL_PARAM_GETTOKEN_PROTOCOL_ID, oemrilapitypes/RIL_PARAM_GETTOKEN_TIMEOUT
 f1_keywords:
  - "oemrilapitypes/RILDEVSPECIFICPARAMMASK"
+ - "RILDEVSPECIFICPARAMMASK"
 req.header: oemrilapitypes.h
 req.include-header: 
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 09/13/2018
 keywords: ["FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS"
+ - "FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

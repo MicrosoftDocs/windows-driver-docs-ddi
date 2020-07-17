@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces4::ReadPhysical2"]
 ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],ReadPhysical2 method, IDebugDataSpaces4.ReadPhysical2, IDebugDataSpaces4::ReadPhysical2, IDebugDataSpaces_b7eb9d7f-98a3-4be4-a264-68d9ac1eaea7.xml, ReadPhysical2, ReadPhysical2 method [Windows Debugging], ReadPhysical2 method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::ReadPhysical2, debugger.readphysical2
 f1_keywords:
  - "dbgeng/IDebugDataSpaces4.ReadPhysical2"
+ - "IDebugDataSpaces4.ReadPhysical2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

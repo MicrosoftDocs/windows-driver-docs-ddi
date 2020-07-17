@@ -10,6 +10,7 @@ keywords: ["RILMSGCDMAOUTSUBMIT structure"]
 ms.keywords: "*LPRILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmaoutsubmit, ntddrilapitypes/RILMSGCDMAOUTSUBMIT"
 f1_keywords:
  - "rilapitypes/RILMSGCDMAOUTSUBMIT"
+ - "RILMSGCDMAOUTSUBMIT"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

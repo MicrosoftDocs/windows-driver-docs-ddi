@@ -10,6 +10,7 @@ keywords: ["IOCTL_HID_GET_POLL_FREQUENCY_MSEC IOCTL"]
 ms.keywords: IOCTL_HID_GET_POLL_FREQUENCY_MSEC, IOCTL_HID_GET_POLL_FREQUENCY_MSEC control, IOCTL_HID_GET_POLL_FREQUENCY_MSEC control code [Human Input Devices], hid.ioctl_hid_get_poll_frequency_msec, hidclass/IOCTL_HID_GET_POLL_FREQUENCY_MSEC, hidioreq_e0cd09b6-f27f-4a30-918d-c67c2b52da9d.xml
 f1_keywords:
  - "hidclass/IOCTL_HID_GET_POLL_FREQUENCY_MSEC"
+ - "IOCTL_HID_GET_POLL_FREQUENCY_MSEC"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows

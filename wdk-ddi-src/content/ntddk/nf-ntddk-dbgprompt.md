@@ -10,6 +10,7 @@ keywords: ["DbgPrompt function"]
 ms.keywords: DbgPrompt, DbgPrompt routine [Driver Development Tools], DebugFns_bf0bb6f5-3664-4f8d-811e-5d55fbb94081.xml, devtest.dbgprompt, ntddk/DbgPrompt
 f1_keywords:
  - "ntddk/DbgPrompt"
+ - "DbgPrompt"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

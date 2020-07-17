@@ -10,6 +10,7 @@ keywords: ["ExFreeToNPagedLookasideList function"]
 ms.keywords: ExFreeToNPagedLookasideList, ExFreeToNPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_30577c54-40a4-41a3-abc2-f3cdcd45ef1b.xml, kernel.exfreetonpagedlookasidelist, wdm/ExFreeToNPagedLookasideList
 f1_keywords:
  - "wdm/ExFreeToNPagedLookasideList"
+ - "ExFreeToNPagedLookasideList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

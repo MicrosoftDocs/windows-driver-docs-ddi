@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["IStringDisplayableConcept::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IStringDisplayableConcept.QueryInterface"
+ - "IStringDisplayableConcept.QueryInterface"
 ms.keywords: IStringDisplayableConcept::QueryInterface, QueryInterface, IStringDisplayableConcept.QueryInterface, IStringDisplayableConcept::QueryInterface, IStringDisplayableConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

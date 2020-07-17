@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IMiniportWaveRTStream::GetHWLatency"]
 f1_keywords:
  - "portcls/IMiniportWaveRTStream.GetHWLatency"
+ - "IMiniportWaveRTStream.GetHWLatency"
 ms.keywords: IMiniportWaveRTStream::GetHWLatency, GetHWLatency, IMiniportWaveRTStream.GetHWLatency, IMiniportWaveRTStream::GetHWLatency, IMiniportWaveRTStream.GetHWLatency
 req.header: portcls.h
 req.include-header:

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTInvalidateCache function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTInvalidateCache"
+ - "D3DKMTInvalidateCache"
 ms.keywords: D3DKMTInvalidateCache
 req.header: d3dkmthk.h
 req.include-header:

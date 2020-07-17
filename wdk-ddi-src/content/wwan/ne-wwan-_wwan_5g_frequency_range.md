@@ -8,6 +8,7 @@ ms.date: 04/05/2019
 keywords: ["_WWAN_5G_FREQUENCY_RANGE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_5G_FREQUENCY_RANGE"
+ - "_WWAN_5G_FREQUENCY_RANGE"
 ms.keywords: _WWAN_5G_FREQUENCY_RANGE, WWAN_5G_FREQUENCY_RANGE, *PWWAN_5G_FREQUENCY_RANGE, 
 req.header: wwan.h
 req.include-header:

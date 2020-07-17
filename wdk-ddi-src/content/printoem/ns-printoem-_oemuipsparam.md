@@ -10,6 +10,7 @@ keywords: ["_OEMUIPSPARAM structure"]
 ms.keywords: "*POEMUIPSPARAM, OEMUIPSPARAM, OEMUIPSPARAM structure [Print Devices], POEMUIPSPARAM, POEMUIPSPARAM structure pointer [Print Devices], _OEMUIPSPARAM, print.oemuipsparam, print_unidrv-pscript_ui_7a4c3f10-5a2d-45da-99e4-bbd6ee0fb8bf.xml, printoem/OEMUIPSPARAM, printoem/POEMUIPSPARAM"
 f1_keywords:
  - "printoem/OEMUIPSPARAM"
+ - "OEMUIPSPARAM"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

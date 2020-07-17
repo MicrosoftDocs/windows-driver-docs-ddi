@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/pfnUpdateGpuVirtualAddressCb"
+ - "pfnUpdateGpuVirtualAddressCb"
 topic_type:
  - APIRef
  - kbSyntax

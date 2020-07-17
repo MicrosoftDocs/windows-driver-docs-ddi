@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelperUni::CreateGDLSnapshot"]
 ms.keywords: CreateGDLSnapshot, CreateGDLSnapshot method [Print Devices], CreateGDLSnapshot method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],CreateGDLSnapshot method, IPrintCoreHelperUni.CreateGDLSnapshot, IPrintCoreHelperUni::CreateGDLSnapshot, prcomoem/IPrintCoreHelperUni::CreateGDLSnapshot, print.iprintcorehelperuni_creategdlsnapshot, print_unidrv-pscript_allplugins_c45d077d-295f-4636-829f-8595d43cd5ed.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelperUni.CreateGDLSnapshot"
+ - "IPrintCoreHelperUni.CreateGDLSnapshot"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

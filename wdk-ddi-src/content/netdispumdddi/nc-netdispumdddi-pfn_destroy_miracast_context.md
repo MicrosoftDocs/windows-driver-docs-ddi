@@ -10,6 +10,7 @@ keywords: ["PFN_DESTROY_MIRACAST_CONTEXT callback function"]
 ms.keywords: DestroyMiracastContext, DestroyMiracastContext callback function [Display Devices], PFN_DESTROY_MIRACAST_CONTEXT, PFN_DESTROY_MIRACAST_CONTEXT callback, display.destroymiracastcontext, netdispumdddi/DestroyMiracastContext
 f1_keywords:
  - "netdispumdddi/DestroyMiracastContext"
+ - "DestroyMiracastContext"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop

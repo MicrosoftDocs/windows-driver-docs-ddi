@@ -10,6 +10,7 @@ keywords: ["ExtBuffer::Set method"]
 ms.keywords: Set method [Windows Debugging], Set, ExtBuffer::Set, ExtRemoteTyped class [Windows Debugging], Set method, ExtBuffer, debugger.extremotetyped_set_bool, Set method [Windows Debugging], ExtRemoteTyped class
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.Set"
+ - "ExtRemoteTyped.Set"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

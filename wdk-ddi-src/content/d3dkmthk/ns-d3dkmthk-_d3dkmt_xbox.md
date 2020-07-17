@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_XBOX structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_XBOX"
+ - "_D3DKMT_XBOX"
 ms.keywords: _D3DKMT_XBOX, D3DKMT_XBOX, 
 req.header: d3dkmthk.h
 req.include-header:

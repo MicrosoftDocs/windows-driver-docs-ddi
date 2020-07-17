@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_SET_XOFF IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_XOFF, IOCTL_SERIAL_SET_XOFF control, IOCTL_SERIAL_SET_XOFF control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_XOFF, serports.ioctl_serial_set_xoff, serref_a2b3591a-cd26-4073-a7ab-af7f2b3f43b6.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_XOFF"
+ - "IOCTL_SERIAL_SET_XOFF"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["tagKS_VBI_FRAME_INFO structure"]
 ms.keywords: "*PKS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO, KS_VBI_FRAME_INFO structure [Streaming Media Devices], PKS_VBI_FRAME_INFO, PKS_VBI_FRAME_INFO structure pointer [Streaming Media Devices], ksmedia/KS_VBI_FRAME_INFO, ksmedia/PKS_VBI_FRAME_INFO, stream.ks_vbi_frame_info, tagKS_VBI_FRAME_INFO, vidcapstruct_4056b888-5d3a-422b-afdb-bc686b853e8b.xml"
 f1_keywords:
  - "ksmedia/KS_VBI_FRAME_INFO"
+ - "KS_VBI_FRAME_INFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

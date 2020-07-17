@@ -10,6 +10,7 @@ keywords: ["IPrintJob::get_Id"]
 ms.keywords: IPrintJob interface [Print Devices],Id property, IPrintJob.Id, IPrintJob.get_Id, IPrintJob::Id, IPrintJob::get_Id, Id property [Print Devices], Id property [Print Devices],IPrintJob interface, get_Id, print.iprintjob_id, printerextension/IPrintJob::Id, printerextension/IPrintJob::get_Id
 f1_keywords:
  - "printerextension/IPrintJob.Id"
+ - "IPrintJob.Id"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

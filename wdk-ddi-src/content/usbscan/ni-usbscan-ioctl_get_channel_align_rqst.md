@@ -10,6 +10,7 @@ keywords: ["IOCTL_GET_CHANNEL_ALIGN_RQST IOCTL"]
 ms.keywords: IOCTL_GET_CHANNEL_ALIGN_RQST, IOCTL_GET_CHANNEL_ALIGN_RQST control, IOCTL_GET_CHANNEL_ALIGN_RQST control code [Imaging Devices], image.ioctl_get_channel_align_rqst, stifnc_a81e47eb-3d6f-4bfb-a371-08c42602bc5a.xml, usbscan/IOCTL_GET_CHANNEL_ALIGN_RQST
 f1_keywords:
  - "usbscan/IOCTL_GET_CHANNEL_ALIGN_RQST"
+ - "IOCTL_GET_CHANNEL_ALIGN_RQST"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows

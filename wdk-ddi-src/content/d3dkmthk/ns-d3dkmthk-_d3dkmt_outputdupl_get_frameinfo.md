@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_OUTPUTDUPL_GET_FRAMEINFO structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_OUTPUTDUPL_GET_FRAMEINFO"
+ - "_D3DKMT_OUTPUTDUPL_GET_FRAMEINFO"
 ms.keywords: _D3DKMT_OUTPUTDUPL_GET_FRAMEINFO, D3DKMT_OUTPUTDUPL_GET_FRAMEINFO, 
 req.header: d3dkmthk.h
 req.include-header:

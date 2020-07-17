@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionGetCurrentDmaTransferLength function"]
 ms.keywords: DFDmaObjectRef_e0fc16e5-9adb-44c5-be53-5e7929ede3aa.xml, WdfDmaTransactionGetCurrentDmaTransferLength, WdfDmaTransactionGetCurrentDmaTransferLength method, kmdf.wdfdmatransactiongetcurrentdmatransferlength, wdf.wdfdmatransactiongetcurrentdmatransferlength, wdfdmatransaction/WdfDmaTransactionGetCurrentDmaTransferLength
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionGetCurrentDmaTransferLength"
+ - "WdfDmaTransactionGetCurrentDmaTransferLength"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["FILTER_NET_PNP_EVENT callback function"]
 ms.keywords: FILTER_NET_PNP_EVENT, FILTER_NET_PNP_EVENT callback, FilterNetPnPEvent, FilterNetPnPEvent callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_4d98cb8b-3f25-4e2c-abca-ac9c714f4a1a.xml, ndis/FilterNetPnPEvent, netvista.filternetpnpevent
 f1_keywords:
  - "ndis/FilterNetPnPEvent"
+ - "FilterNetPnPEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

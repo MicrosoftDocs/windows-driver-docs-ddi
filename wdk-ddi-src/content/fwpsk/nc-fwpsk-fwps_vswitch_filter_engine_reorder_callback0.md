@@ -10,6 +10,7 @@ keywords: ["FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0 callback function"]
 ms.keywords: FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0, FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0 callback, fwpsk/vSwitchFilterEngineReorderNotifyRn, netvista.fwps_vswitch_filter_engine_reorder_callback0, vSwitchFilterEngineReorderNotifyRn, vSwitchFilterEngineReorderNotifyRn callback function [Network Drivers Starting with Windows Vista]
 f1_keywords:
  - "fwpsk/vSwitchFilterEngineReorderNotifyRn"
+ - "vSwitchFilterEngineReorderNotifyRn"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

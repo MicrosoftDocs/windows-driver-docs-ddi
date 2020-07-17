@@ -10,6 +10,7 @@ keywords: ["PMINIPORT_DPC_ROUTINE callback function"]
 ms.keywords: HwVidDpcRoutine, HwVidDpcRoutine callback function [Display Devices], PMINIPORT_DPC_ROUTINE, PMINIPORT_DPC_ROUTINE callback, VideoMiniport_Functions_5d605867-89d7-44a9-b08b-c49ffaa90244.xml, display.hwviddpcroutine, video/HwVidDpcRoutine
 f1_keywords:
  - "video/HwVidDpcRoutine"
+ - "HwVidDpcRoutine"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

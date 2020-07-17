@@ -10,6 +10,7 @@ keywords: ["StorPortGetStartIoPerfParams function"]
 ms.keywords: StorPortGetStartIoPerfParams, StorPortGetStartIoPerfParams routine [Storage Devices], storage.storportgetstartioperfparams, storport/StorPortGetStartIoPerfParams, storprt_ad7184c9-2f69-4571-ba56-28b5a3b353d7.xml
 f1_keywords:
  - "storport/StorPortGetStartIoPerfParams"
+ - "StorPortGetStartIoPerfParams"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

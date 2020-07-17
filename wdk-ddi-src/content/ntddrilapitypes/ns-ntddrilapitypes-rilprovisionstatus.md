@@ -10,6 +10,7 @@ keywords: ["RILPROVISIONSTATUS structure"]
 ms.keywords: "*LPRILPROVISIONSTATUS, RILPROVISIONSTATUS, RILPROVISIONSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilprovisionstatus, ntddrilapitypes/RILPROVISIONSTATUS"
 f1_keywords:
  - "ntddrilapitypes/RILPROVISIONSTATUS"
+ - "RILPROVISIONSTATUS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

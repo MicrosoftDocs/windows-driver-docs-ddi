@@ -10,6 +10,7 @@ keywords: ["_BDA_PROGRAM_PID_LIST structure"]
 ms.keywords: "*PBDA_PROGRAM_PID_LIST, BDA_PROGRAM_PID_LIST, BDA_PROGRAM_PID_LIST structure [Streaming Media Devices], PBDA_PROGRAM_PID_LIST, PBDA_PROGRAM_PID_LIST structure pointer [Streaming Media Devices], _BDA_PROGRAM_PID_LIST, bdaref_a78db54e-c75e-46dc-8b81-f97163569450.xml, bdatypes/BDA_PROGRAM_PID_LIST, bdatypes/PBDA_PROGRAM_PID_LIST, stream.bda_program_pid_list"
 f1_keywords:
  - "bdatypes/BDA_PROGRAM_PID_LIST"
+ - "BDA_PROGRAM_PID_LIST"
 req.header: bdatypes.h
 req.include-header: Bdatypes.h
 req.target-type: Windows

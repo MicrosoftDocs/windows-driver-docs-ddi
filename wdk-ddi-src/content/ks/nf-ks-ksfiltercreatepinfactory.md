@@ -10,6 +10,7 @@ keywords: ["KsFilterCreatePinFactory function"]
 ms.keywords: KsFilterCreatePinFactory, KsFilterCreatePinFactory function [Streaming Media Devices], avfunc_845b66c4-755e-43db-afdc-db929b6bd1c6.xml, ks/KsFilterCreatePinFactory, stream.ksfiltercreatepinfactory
 f1_keywords:
  - "ks/KsFilterCreatePinFactory"
+ - "KsFilterCreatePinFactory"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

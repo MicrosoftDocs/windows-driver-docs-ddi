@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceResetPortSynchronously function"]
 ms.keywords: DFUsbRef_423196d9-8f58-462a-91b3-9d747a12d6df.xml, WdfUsbTargetDeviceResetPortSynchronously, WdfUsbTargetDeviceResetPortSynchronously method, kmdf.wdfusbtargetdeviceresetportsynchronously, wdf.wdfusbtargetdeviceresetportsynchronously, wdfusb/WdfUsbTargetDeviceResetPortSynchronously
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceResetPortSynchronously"
+ - "WdfUsbTargetDeviceResetPortSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

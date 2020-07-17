@@ -10,6 +10,7 @@ keywords: ["KsAcquireControl function"]
 ms.keywords: KsAcquireControl, KsAcquireControl function [Streaming Media Devices], avfunc_a3c1eb2c-db95-463f-98f5-a158dd1e14f5.xml, ks/KsAcquireControl, stream.ksacquirecontrol
 f1_keywords:
  - "ks/KsAcquireControl"
+ - "KsAcquireControl"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

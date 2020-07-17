@@ -10,6 +10,7 @@ keywords: ["_NDIS_MSIX_CONFIG_PARAMETERS structure"]
 ms.keywords: "*PNDIS_MSIX_CONFIG_PARAMETERS, NDIS_MSIX_CONFIG_PARAMETERS, NDIS_MSIX_CONFIG_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_MSIX_CONFIG_PARAMETERS, PNDIS_MSIX_CONFIG_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MSIX_CONFIG_PARAMETERS, ndis/NDIS_MSIX_CONFIG_PARAMETERS, ndis/PNDIS_MSIX_CONFIG_PARAMETERS, ndis_msix_ref_01a237b1-bb32-4aad-8552-b36b66141061.xml, netvista.ndis_msix_config_parameters"
 f1_keywords:
  - "ndis/NDIS_MSIX_CONFIG_PARAMETERS"
+ - "NDIS_MSIX_CONFIG_PARAMETERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

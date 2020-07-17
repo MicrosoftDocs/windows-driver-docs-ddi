@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostConstant::GetSymbolKind"]
 f1_keywords:
  - "dbgmodel/IDebugHostConstant.GetSymbolKind"
+ - "IDebugHostConstant.GetSymbolKind"
 ms.keywords: IDebugHostConstant::GetSymbolKind, GetSymbolKind, IDebugHostConstant.GetSymbolKind, IDebugHostConstant::GetSymbolKind, IDebugHostConstant.GetSymbolKind
 req.header: dbgmodel.h
 req.include-header:

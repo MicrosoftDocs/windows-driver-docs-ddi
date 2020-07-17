@@ -10,6 +10,7 @@ keywords: ["KSP_TIMEFORMAT structure"]
 ms.keywords: "*PKSP_TIMEFORMAT, KSP_TIMEFORMAT, KSP_TIMEFORMAT structure [Streaming Media Devices], PKSP_TIMEFORMAT, PKSP_TIMEFORMAT structure pointer [Streaming Media Devices], ks-struct_086a975b-f249-44e9-b1fa-4a945509722e.xml, ks/KSP_TIMEFORMAT, ks/PKSP_TIMEFORMAT, stream.ksp_timeformat"
 f1_keywords:
  - "ks/KSP_TIMEFORMAT"
+ - "KSP_TIMEFORMAT"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

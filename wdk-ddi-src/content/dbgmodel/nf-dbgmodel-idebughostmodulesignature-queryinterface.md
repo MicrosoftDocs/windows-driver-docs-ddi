@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["IDebugHostModuleSignature::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDebugHostModuleSignature.QueryInterface"
+ - "IDebugHostModuleSignature.QueryInterface"
 ms.keywords: IDebugHostModuleSignature::QueryInterface, QueryInterface, IDebugHostModuleSignature.QueryInterface, IDebugHostModuleSignature::QueryInterface, IDebugHostModuleSignature.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

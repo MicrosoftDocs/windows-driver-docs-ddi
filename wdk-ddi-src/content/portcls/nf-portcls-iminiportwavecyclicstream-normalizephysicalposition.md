@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveCyclicStream::NormalizePhysicalPosition"]
 ms.keywords: IMiniportWaveCyclicStream interface [Audio Devices],NormalizePhysicalPosition method, IMiniportWaveCyclicStream.NormalizePhysicalPosition, IMiniportWaveCyclicStream::NormalizePhysicalPosition, NormalizePhysicalPosition, NormalizePhysicalPosition method [Audio Devices], NormalizePhysicalPosition method [Audio Devices],IMiniportWaveCyclicStream interface, audio.iminiportwavecyclicstream_normalizephysicalposition, audmp-routines_a1b6d530-8199-4c5d-87ee-8f00d60436b0.xml, portcls/IMiniportWaveCyclicStream::NormalizePhysicalPosition
 f1_keywords:
  - "portcls/IMiniportWaveCyclicStream.NormalizePhysicalPosition"
+ - "IMiniportWaveCyclicStream.NormalizePhysicalPosition"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

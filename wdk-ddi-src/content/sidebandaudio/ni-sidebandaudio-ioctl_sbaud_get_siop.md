@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_SIOP IOCTL"]
 f1_keywords:
  - "sidebandaudio/IOCTL_SBAUD_GET_SIOP"
+ - "IOCTL_SBAUD_GET_SIOP"
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

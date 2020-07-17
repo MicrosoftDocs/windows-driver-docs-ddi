@@ -10,6 +10,7 @@ keywords: ["IoGetAttachedDeviceReference function"]
 ms.keywords: IoGetAttachedDeviceReference, IoGetAttachedDeviceReference routine [Kernel-Mode Driver Architecture], k104_f7fa8878-306a-4de2-b418-8102754306f7.xml, kernel.iogetattacheddevicereference, wdm/IoGetAttachedDeviceReference
 f1_keywords:
  - "ntifs/IoGetAttachedDeviceReference"
+ - "IoGetAttachedDeviceReference"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

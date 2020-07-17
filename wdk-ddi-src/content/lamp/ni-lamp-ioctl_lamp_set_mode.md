@@ -10,6 +10,7 @@ keywords: ["IOCTL_LAMP_SET_MODE IOCTL"]
 ms.keywords: IOCTL_LAMP_SET_MODE, IOCTL_LAMP_SET_MODE control, IOCTL_LAMP_SET_MODE control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_MODE, stream.ioctl_lamp_set_mode
 f1_keywords:
  - "lamp/IOCTL_LAMP_SET_MODE"
+ - "IOCTL_LAMP_SET_MODE"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows

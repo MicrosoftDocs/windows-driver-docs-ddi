@@ -10,6 +10,7 @@ keywords: ["EVT_VMB_CHANNEL_CLOSED callback function"]
 ms.keywords: EVT_VMB_CHANNEL_CLOSED, EVT_VMB_CHANNEL_CLOSED callback, EvtVmbChannelClosed, EvtVmbChannelClosed callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_CLOSED, PFN_VMB_CHANNEL_CLOSED callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_closed, vmbuskernelmodeclientlibapi/EvtVmbChannelClosed
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/PFN_VMB_CHANNEL_CLOSED"
+ - "PFN_VMB_CHANNEL_CLOSED"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header: VmbusKernelModeClientLibApi.h
 req.target-type: Windows

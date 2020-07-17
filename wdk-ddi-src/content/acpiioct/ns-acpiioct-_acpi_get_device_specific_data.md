@@ -10,6 +10,7 @@ keywords: ["_ACPI_GET_DEVICE_SPECIFIC_DATA structure"]
 ms.keywords: "*PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA structure [ACPI Devices], PACPI_GET_DEVICE_SPECIFIC_DATA, PACPI_GET_DEVICE_SPECIFIC_DATA structure pointer [ACPI Devices], _ACPI_GET_DEVICE_SPECIFIC_DATA, acpi.acpi_get_device_specific_data, acpiioct/ACPI_GET_DEVICE_SPECIFIC_DATA, acpiioct/PACPI_GET_DEVICE_SPECIFIC_DATA"
 f1_keywords:
  - "acpiioct/ACPI_GET_DEVICE_SPECIFIC_DATA"
+ - "ACPI_GET_DEVICE_SPECIFIC_DATA"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

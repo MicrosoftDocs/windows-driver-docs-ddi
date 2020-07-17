@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IEquatableConcept::AddRef"]
 f1_keywords:
  - "dbgmodel/IEquatableConcept.AddRef"
+ - "IEquatableConcept.AddRef"
 ms.keywords: IEquatableConcept::AddRef, AddRef, IEquatableConcept.AddRef, IEquatableConcept::AddRef, IEquatableConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:

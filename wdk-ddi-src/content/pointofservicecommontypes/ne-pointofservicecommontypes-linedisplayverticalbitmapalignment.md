@@ -10,6 +10,7 @@ keywords: ["LineDisplayVerticalBitmapAlignment enumeration"]
 ms.keywords: LineDisplayVerticalBitmapAlignment, LineDisplayVerticalBitmapAlignment enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayVerticalBitmapAlignment, pos.linedisplayverticalbitmapalignment
 f1_keywords:
  - "pointofservicecommontypes/LineDisplayVerticalBitmapAlignment"
+ - "LineDisplayVerticalBitmapAlignment"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

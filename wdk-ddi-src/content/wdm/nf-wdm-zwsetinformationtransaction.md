@@ -10,6 +10,7 @@ keywords: ["ZwSetInformationTransaction function"]
 ms.keywords: NtSetInformationTransaction, ZwSetInformationTransaction, ZwSetInformationTransaction routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationtransaction, ktm_ref_575490bd-1003-43b3-8e41-676c4b0e4f25.xml, wdm/NtSetInformationTransaction, wdm/ZwSetInformationTransaction
 f1_keywords:
  - "wdm/ZwSetInformationTransaction"
+ - "ZwSetInformationTransaction"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

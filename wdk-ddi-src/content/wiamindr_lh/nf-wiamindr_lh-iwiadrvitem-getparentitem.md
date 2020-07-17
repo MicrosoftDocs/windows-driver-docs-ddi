@@ -10,6 +10,7 @@ keywords: ["IWiaDrvItem::GetParentItem"]
 ms.keywords: DrvItem_47782466-b345-43e7-9fd1-8c4b355c6d46.xml, GetParentItem, GetParentItem method [Imaging Devices], GetParentItem method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetParentItem method, IWiaDrvItem.GetParentItem, IWiaDrvItem::GetParentItem, image.iwiadrvitem_getparentitem, wiamindr_lh/IWiaDrvItem::GetParentItem
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.GetParentItem"
+ - "IWiaDrvItem.GetParentItem"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop

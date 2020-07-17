@@ -10,6 +10,7 @@ keywords: ["ExtBuffer::operator= method"]
 ms.keywords: debugger.extremotetyped_operatorequals_debug_typed_data, operator=, ExtRemoteTyped class [Windows Debugging], operator= method, ExtBuffer::operator=, ExtBuffer, operator= method [Windows Debugging], ExtRemoteTyped class, operator= method [Windows Debugging]
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.operator="
+ - "ExtRemoteTyped.operator="
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

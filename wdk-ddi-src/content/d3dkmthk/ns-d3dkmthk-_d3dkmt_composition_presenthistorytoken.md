@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN structure"]
 ms.keywords: D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN structure [Display Devices], _D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, display.d3dkmt_composition_presenthistorytoken
 f1_keywords:
  - "d3dkmthk/D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN"
+ - "D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

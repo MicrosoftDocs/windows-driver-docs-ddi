@@ -10,6 +10,7 @@ keywords: ["WRITE_PORT_BUFFER_ULONG function"]
 ms.keywords: WRITE_PORT_BUFFER_ULONG, WRITE_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], k103_821262d5-40d2-435b-965e-cf0a917736b3.xml, kernel.write_port_buffer_ulong, wdm/WRITE_PORT_BUFFER_ULONG
 f1_keywords:
  - "wdm/WRITE_PORT_BUFFER_ULONG"
+ - "WRITE_PORT_BUFFER_ULONG"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal

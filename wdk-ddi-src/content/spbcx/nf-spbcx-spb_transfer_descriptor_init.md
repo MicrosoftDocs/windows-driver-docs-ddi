@@ -10,6 +10,7 @@ keywords: ["SPB_TRANSFER_DESCRIPTOR_INIT function"]
 ms.keywords: SPB.spb_transfer_descriptor_init, SPB_TRANSFER_DESCRIPTOR_INIT, SPB_TRANSFER_DESCRIPTOR_INIT function [Buses], spbcx/SPB_TRANSFER_DESCRIPTOR_INIT
 f1_keywords:
  - "spbcx/SPB_TRANSFER_DESCRIPTOR_INIT"
+ - "SPB_TRANSFER_DESCRIPTOR_INIT"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop

@@ -7,6 +7,7 @@ ms.date: 10/01/2018
 keywords: ["_PROC_TOPOLOGY_NODE_FLAGS structure"]
 f1_keywords:
  - "acpitabl/_PROC_TOPOLOGY_NODE_FLAGS"
+ - "_PROC_TOPOLOGY_NODE_FLAGS"
 ms.keywords: _PROC_TOPOLOGY_NODE_FLAGS, PROC_TOPOLOGY_NODE_FLAGS, *PPROC_TOPOLOGY_NODE_FLAGS, 
 req.header: acpitabl.h
 req.include-header:

@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IModelPropertyAccessor::AddRef"]
 f1_keywords:
  - "dbgmodel/IModelPropertyAccessor.AddRef"
+ - "IModelPropertyAccessor.AddRef"
 ms.keywords: IModelPropertyAccessor::AddRef, AddRef, IModelPropertyAccessor.AddRef, IModelPropertyAccessor::AddRef, IModelPropertyAccessor.AddRef
 req.header: dbgmodel.h
 req.include-header:

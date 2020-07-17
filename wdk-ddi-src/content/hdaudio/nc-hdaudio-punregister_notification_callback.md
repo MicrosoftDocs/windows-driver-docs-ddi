@@ -10,6 +10,7 @@ ms.date: 04/08/2019
 keywords: ["PUNREGISTER_NOTIFICATION_CALLBACK callback function"]
 f1_keywords:
  - "hdaudio/PUNREGISTER_NOTIFICATION_CALLBACK"
+ - "PUNREGISTER_NOTIFICATION_CALLBACK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: hdaudio.h

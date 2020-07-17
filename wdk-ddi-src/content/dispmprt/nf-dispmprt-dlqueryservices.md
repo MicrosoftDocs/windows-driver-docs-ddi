@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlQueryServices function"]
 f1_keywords:
  - "dispmprt/DlQueryServices"
+ - "DlQueryServices"
 ms.keywords: DlQueryServices
 req.header: dispmprt.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::OutputStackTrace"]
 ms.keywords: IDebugControl interface [Windows Debugging],OutputStackTrace method, IDebugControl2 interface [Windows Debugging],OutputStackTrace method, IDebugControl2::OutputStackTrace, IDebugControl3 interface [Windows Debugging],OutputStackTrace method, IDebugControl3.OutputStackTrace, IDebugControl3::OutputStackTrace, IDebugControl::OutputStackTrace, IDebugControl_07d53535-7d91-4771-84b1-f4ac4895a158.xml, OutputStackTrace, OutputStackTrace method [Windows Debugging], OutputStackTrace method [Windows Debugging],IDebugControl interface, OutputStackTrace method [Windows Debugging],IDebugControl2 interface, OutputStackTrace method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputStackTrace, dbgeng/IDebugControl3::OutputStackTrace, dbgeng/IDebugControl::OutputStackTrace, debugger.outputstacktrace
 f1_keywords:
  - "dbgeng/IDebugControl.OutputStackTrace"
+ - "IDebugControl.OutputStackTrace"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

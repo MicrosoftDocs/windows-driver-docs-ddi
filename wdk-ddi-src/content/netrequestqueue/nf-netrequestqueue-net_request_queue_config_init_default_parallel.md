@@ -8,6 +8,7 @@ ms.date: 02/09/2018
 keywords: ["NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_PARALLEL function"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_PARALLEL"
+ - "NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_PARALLEL"
 ms.keywords: NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_PARALLEL
 req.header: netrequestqueue.h
 req.include-header:

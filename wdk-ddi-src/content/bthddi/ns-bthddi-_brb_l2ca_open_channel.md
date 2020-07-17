@@ -10,6 +10,7 @@ keywords: ["_BRB_L2CA_OPEN_CHANNEL structure"]
 ms.keywords: "_BRB_L2CA_OPEN_CHANNEL, _BRB_L2CA_OPEN_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_open_channel, bth_structs_342ad84f-74fb-481f-b549-8f87c375c4d1.xml, bthddi/_BRB_L2CA_OPEN_CHANNEL"
 f1_keywords:
  - "bthddi/_BRB_L2CA_OPEN_CHANNEL"
+ - "_BRB_L2CA_OPEN_CHANNEL"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

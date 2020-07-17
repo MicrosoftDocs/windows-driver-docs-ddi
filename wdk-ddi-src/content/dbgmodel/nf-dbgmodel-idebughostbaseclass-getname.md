@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IDebugHostBaseClass::GetName"]
 f1_keywords:
  - "dbgmodel/IDebugHostBaseClass.GetName"
+ - "IDebugHostBaseClass.GetName"
 ms.keywords: IDebugHostBaseClass::GetName, GetName, IDebugHostBaseClass.GetName, IDebugHostBaseClass::GetName, IDebugHostBaseClass.GetName
 req.header: dbgmodel.h
 req.include-header:

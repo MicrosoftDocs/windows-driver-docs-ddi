@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_BRIGHTNESS_SET_3 callback function"]
 f1_keywords:
  - "dispmprt/DXGK_BRIGHTNESS_SET_3"
+ - "DXGK_BRIGHTNESS_SET_3"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

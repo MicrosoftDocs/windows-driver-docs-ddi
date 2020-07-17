@@ -10,6 +10,7 @@ keywords: ["AtaPortGetUnCachedExtension function"]
 ms.keywords: AtaPortGetUnCachedExtension, AtaPortGetUnCachedExtension routine [Storage Devices], atartns_30b7c0f0-5636-4d81-b1de-13d8c413f4d6.xml, irb/AtaPortGetUnCachedExtension, storage.ataportgetuncachedextension
 f1_keywords:
  - "irb/AtaPortGetUnCachedExtension"
+ - "AtaPortGetUnCachedExtension"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

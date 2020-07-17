@@ -10,6 +10,7 @@ keywords: ["RtlStringFromGUID function"]
 ms.keywords: RtlStringFromGUID, RtlStringFromGUID routine [Kernel-Mode Driver Architecture], k109_8a3ac592-7ade-48fc-9536-d8a6c84fb033.xml, kernel.rtlstringfromguid, wdm/RtlStringFromGUID
 f1_keywords:
  - "wdm/RtlStringFromGUID"
+ - "RtlStringFromGUID"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

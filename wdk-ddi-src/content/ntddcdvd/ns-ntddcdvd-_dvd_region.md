@@ -10,6 +10,7 @@ keywords: ["_DVD_REGION structure"]
 ms.keywords: "*PDVD_REGION, DVD_REGION, DVD_REGION structure [Storage Devices], PDVD_REGION, PDVD_REGION structure pointer [Storage Devices], _DVD_REGION, ntddcdvd/DVD_REGION, ntddcdvd/PDVD_REGION, storage.dvd_region, structs-DVD_b1569a34-c55e-482b-b87e-30becd20e2c1.xml"
 f1_keywords:
  - "ntddcdvd/DVD_REGION"
+ - "DVD_REGION"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows

@@ -9,6 +9,7 @@ keywords: ["D3D10DDIARG_CREATESHADERRESOURCEVIEW structure"]
 ms.keywords: D3D10DDIARG_CREATESHADERRESOURCEVIEW, D3D10DDIARG_CREATESHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_5307f7f2-0e25-4847-b1d4-5300c27320b7.xml, d3d10umddi/D3D10DDIARG_CREATESHADERRESOURCEVIEW, display.d3d10ddiarg_createshaderresourceview
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_CREATESHADERRESOURCEVIEW"
+ - "D3D10DDIARG_CREATESHADERRESOURCEVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

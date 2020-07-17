@@ -10,6 +10,7 @@ keywords: ["_STORAGE_SPEC_VERSION structure"]
 ms.keywords: "*PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION union pointer [Storage Devices], STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION union [Storage Devices], _STORAGE_SPEC_VERSION, ntddstor/PSTORAGE_SPEC_VERSION, ntddstor/STORAGE_SPEC_VERSION, storage.storage_spec_version"
 f1_keywords:
  - "ntddstor/STORAGE_SPEC_VERSION"
+ - "STORAGE_SPEC_VERSION"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_FLUSHHEAPTRANSITIONS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_FLUSHHEAPTRANSITIONS"
+ - "_D3DKMT_FLUSHHEAPTRANSITIONS"
 ms.keywords: _D3DKMT_FLUSHHEAPTRANSITIONS, D3DKMT_FLUSHHEAPTRANSITIONS, 
 req.header: d3dkmthk.h
 req.include-header:

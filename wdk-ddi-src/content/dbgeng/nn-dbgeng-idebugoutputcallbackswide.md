@@ -10,6 +10,7 @@ keywords: ["IDebugOutputCallbacksWide interface"]
 ms.keywords: IDebugOutputCallbacksWide, IDebugOutputCallbacksWide interface [Windows Debugging], IDebugOutputCallbacksWide interface [Windows Debugging],described, dbgeng/IDebugOutputCallbacksWide, debugger.idebugoutputcallbackswide
 f1_keywords:
  - "dbgeng/IDebugOutputCallbacksWide"
+ - "IDebugOutputCallbacksWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

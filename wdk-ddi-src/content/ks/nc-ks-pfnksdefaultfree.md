@@ -10,6 +10,7 @@ keywords: ["PFNKSDEFAULTFREE callback function"]
 ms.keywords: AVStrMiniAllocatorFreeFrame, AVStrMiniAllocatorFreeFrame routine [Streaming Media Devices], PFNKSDEFAULTFREE, avstclbk_c8c89d05-d36c-4a86-b92f-5465c1bc3eb2.xml, ks/AVStrMiniAllocatorFreeFrame, stream.avstrminiallocatorfreeframe
 f1_keywords:
  - "ks/AVStrMiniAllocatorFreeFrame"
+ - "AVStrMiniAllocatorFreeFrame"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

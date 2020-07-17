@@ -10,6 +10,7 @@ keywords: ["RILEXECUTORSTATE structure"]
 ms.keywords: "*LPRILEXECUTORSTATE, RILEXECUTORSTATE, RILEXECUTORSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorstate, ntddrilapitypes/RILEXECUTORSTATE"
 f1_keywords:
  - "rilapitypes/RILEXECUTORSTATE"
+ - "RILEXECUTORSTATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

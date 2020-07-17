@@ -10,6 +10,7 @@ ms.date: 04/10/2019
 keywords: ["EVENTFEATURES enumeration"]
 f1_keywords:
  - "eventdetectoroemadapter/EVENTFEATURES"
+ - "EVENTFEATURES"
 ms.keywords: EVENTFEATURES, EVENTFEATURES, 
 req.header: eventdetectoroemadapter.h
 req.include-header:

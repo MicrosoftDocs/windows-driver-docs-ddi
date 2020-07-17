@@ -10,6 +10,7 @@ keywords: ["DXGKCB_INDICATE_CHILD_STATUS callback function"]
 ms.keywords: DXGKCB_INDICATE_CHILD_STATUS, DXGKCB_INDICATE_CHILD_STATUS callback, DpFunctions_db80be21-a515-411f-beb0-64f7514c11f4.xml, DxgkCbIndicateChildStatus, DxgkCbIndicateChildStatus callback function [Display Devices], display.dxgkcbindicatechildstatus, dispmprt/DxgkCbIndicateChildStatus
 f1_keywords:
  - "dispmprt/DxgkCbIndicateChildStatus"
+ - "DxgkCbIndicateChildStatus"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

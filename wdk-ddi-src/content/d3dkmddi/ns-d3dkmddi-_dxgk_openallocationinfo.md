@@ -9,6 +9,7 @@ keywords: ["_DXGK_OPENALLOCATIONINFO structure"]
 ms.keywords: DXGK_OPENALLOCATIONINFO, DXGK_OPENALLOCATIONINFO structure [Display Devices], DmStructs_e03247bd-d6b8-42df-ac22-79d906d7c852.xml, _DXGK_OPENALLOCATIONINFO, d3dkmddi/DXGK_OPENALLOCATIONINFO, display.dxgk_openallocationinfo
 f1_keywords:
  - "d3dkmddi/DXGK_OPENALLOCATIONINFO"
+ - "DXGK_OPENALLOCATIONINFO"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

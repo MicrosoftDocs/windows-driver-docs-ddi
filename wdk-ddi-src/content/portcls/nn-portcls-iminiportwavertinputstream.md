@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveRTInputStream interface"]
 ms.keywords: IMiniportWaveRTInputStream, IMiniportWaveRTInputStream interface [Audio Devices], IMiniportWaveRTInputStream interface [Audio Devices],described, audio.iminiportwavertinputstream, portcls/IMiniportWaveRTInputStream
 f1_keywords:
  - "portcls/IMiniportWaveRTInputStream"
+ - "IMiniportWaveRTInputStream"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

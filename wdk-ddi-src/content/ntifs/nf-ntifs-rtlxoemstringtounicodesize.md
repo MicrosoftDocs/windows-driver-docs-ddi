@@ -10,6 +10,7 @@ keywords: ["RtlxOemStringToUnicodeSize function"]
 ms.keywords: RtlxOemStringToUnicodeSize, RtlxOemStringToUnicodeSize function [Installable File System Drivers], ifsk.rtlxoemstringtounicodesize, ntifs/RtlxOemStringToUnicodeSize, rtlref_87da05b9-0bd7-415d-b6fd-aa7a6f77cbfb.xml
 f1_keywords:
  - "ntifs/RtlxOemStringToUnicodeSize"
+ - "RtlxOemStringToUnicodeSize"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

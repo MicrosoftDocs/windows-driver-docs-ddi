@@ -10,6 +10,7 @@ keywords: ["D3DDDI_FLUSH_FLAGS enumeration"]
 ms.keywords: D3DDDI_FLUSH_FLAGS, D3DDDI_FLUSH_FLAGS enumeration [Display Devices], D3DDDI_TRIM_MEMORY, d3dumddi/D3DDDI_FLUSH_FLAGS, d3dumddi/D3DDDI_TRIM_MEMORY, display.d3dddi_flush_flags
 f1_keywords:
  - "d3dumddi/D3DDDI_FLUSH_FLAGS"
+ - "D3DDDI_FLUSH_FLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

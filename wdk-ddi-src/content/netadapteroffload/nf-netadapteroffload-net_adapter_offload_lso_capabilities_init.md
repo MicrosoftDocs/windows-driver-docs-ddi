@@ -8,6 +8,7 @@ ms.date: 01/17/2019
 keywords: ["NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT function"]
 f1_keywords:
  - "netadapteroffload/NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT"
+ - "NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES_INIT
 req.header: netadapter.h
 req.include-header:

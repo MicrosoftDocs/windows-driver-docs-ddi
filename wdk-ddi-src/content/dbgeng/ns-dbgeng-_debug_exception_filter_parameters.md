@@ -10,6 +10,7 @@ keywords: ["_DEBUG_EXCEPTION_FILTER_PARAMETERS structure"]
 ms.keywords: "*PDEBUG_EXCEPTION_FILTER_PARAMETERS, DEBUG_EXCEPTION_FILTER_PARAMETERS, DEBUG_EXCEPTION_FILTER_PARAMETERS structure [Windows Debugging], PDEBUG_EXCEPTION_FILTER_PARAMETERS, PDEBUG_EXCEPTION_FILTER_PARAMETERS structure pointer [Windows Debugging], Structures_f3f2b1ac-e10c-439e-9de9-6b4161bf3c28.xml, _DEBUG_EXCEPTION_FILTER_PARAMETERS, dbgeng/DEBUG_EXCEPTION_FILTER_PARAMETERS, dbgeng/PDEBUG_EXCEPTION_FILTER_PARAMETERS, debugger.debug_exception_filter_parameters"
 f1_keywords:
  - "dbgeng/DEBUG_EXCEPTION_FILTER_PARAMETERS"
+ - "DEBUG_EXCEPTION_FILTER_PARAMETERS"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows

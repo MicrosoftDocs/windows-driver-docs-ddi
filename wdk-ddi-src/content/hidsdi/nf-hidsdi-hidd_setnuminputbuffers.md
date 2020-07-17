@@ -10,6 +10,7 @@ keywords: ["HidD_SetNumInputBuffers function"]
 ms.keywords: HidD_SetNumInputBuffers, HidD_SetNumInputBuffers routine [Human Input Devices], hid.hidd_setnuminputbuffers, hidfunc_d091d988-7b9d-44ef-ae48-e00af69c12f5.xml, hidsdi/HidD_SetNumInputBuffers
 f1_keywords:
  - "hidsdi/HidD_SetNumInputBuffers"
+ - "HidD_SetNumInputBuffers"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal

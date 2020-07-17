@@ -10,6 +10,7 @@ keywords: ["IWDTFTargets2::Remove"]
 ms.keywords: IWDTFTargets2 interface [Windows Device Testing Framework],Remove method, IWDTFTargets2.Remove, IWDTFTargets2::Remove, Microsoft.WDTF.IWDTFTargets2.Remove, Microsoft::WDTF::IWDTFTargets2::Remove, Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework],IWDTFTargets2 interface, dtf.iwdtftargets2_remove, wdtf/IWDTFTargets2::Remove
 f1_keywords:
  - "wdtf/IWDTFTargets2.Remove"
+ - "IWDTFTargets2.Remove"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

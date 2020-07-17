@@ -10,6 +10,7 @@ keywords: ["_DEBUG_LAST_EVENT_INFO_LOAD_MODULE structure"]
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, DEBUG_LAST_EVENT_INFO_LOAD_MODULE, DEBUG_LAST_EVENT_INFO_LOAD_MODULE structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, PDEBUG_LAST_EVENT_INFO_LOAD_MODULE structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_LOAD_MODULE, dbgeng/DEBUG_LAST_EVENT_INFO_LOAD_MODULE, dbgeng/PDEBUG_LAST_EVENT_INFO_LOAD_MODULE, debugger.debug_last_event_info_load_module"
 f1_keywords:
  - "dbgeng/DEBUG_LAST_EVENT_INFO_LOAD_MODULE"
+ - "DEBUG_LAST_EVENT_INFO_LOAD_MODULE"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows

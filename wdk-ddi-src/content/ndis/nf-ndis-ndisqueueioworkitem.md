@@ -10,6 +10,7 @@ keywords: ["NdisQueueIoWorkItem function"]
 ms.keywords: NdisQueueIoWorkItem, NdisQueueIoWorkItem function [Network Drivers Starting with Windows Vista], ndis/NdisQueueIoWorkItem, ndis_work_items_ref_ac034ba5-7f33-4769-9664-2b9bbb5ad9e6.xml, netvista.ndisqueueioworkitem
 f1_keywords:
  - "ndis/NdisQueueIoWorkItem"
+ - "NdisQueueIoWorkItem"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

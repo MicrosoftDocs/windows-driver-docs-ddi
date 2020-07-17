@@ -10,6 +10,7 @@ keywords: ["IDE_HW_INITIALIZE callback function"]
 ms.keywords: IDE_HW_INITIALIZE, IdeHwInitialize, IdeHwInitialize routine [Storage Devices], atartns_dcb52bc9-05c9-436f-a2b2-f9c1b68d1d33.xml, irb/IdeHwInitialize, storage.idehwinitialize
 f1_keywords:
  - "irb/IdeHwInitialize"
+ - "IdeHwInitialize"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Desktop

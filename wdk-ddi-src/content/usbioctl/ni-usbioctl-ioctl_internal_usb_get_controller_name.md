@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME, IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME control, IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME control code [Buses], buses.ioctl_internal_usb_get_controller_name, usbioctl/IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME, usbirp_36fbf149-8f7d-46ac-9ef3-017cbb000e1c.xml
 f1_keywords:
  - "usbioctl/IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME"
+ - "IOCTL_INTERNAL_USB_GET_CONTROLLER_NAME"
 req.header: usbioctl.h
 req.include-header: 
 req.target-type: Windows

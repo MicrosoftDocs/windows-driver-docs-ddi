@@ -10,6 +10,7 @@ keywords: ["RxNameCacheFetchEntry function"]
 ms.keywords: RxNameCacheFetchEntry, RxNameCacheFetchEntry function [Installable File System Drivers], ifsk.rxnamecachefetchentry, namcache/RxNameCacheFetchEntry, rxref_8e34b551-b8ee-44e9-a0ff-bbc680e44ad6.xml
 f1_keywords:
  - "namcache/RxNameCacheFetchEntry"
+ - "RxNameCacheFetchEntry"
 req.header: namcache.h
 req.include-header: Namcache.h
 req.target-type: Desktop

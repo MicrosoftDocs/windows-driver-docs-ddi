@@ -10,6 +10,7 @@ keywords: ["_DSM_QuerySupportedLBPolicies_V2 structure"]
 ms.keywords: "*PDSM_QuerySupportedLBPolicies_V2, DSM_QuerySupportedLBPolicies_V2, DSM_QuerySupportedLBPolicies_V2 structure [Storage Devices], PDSM_QuerySupportedLBPolicies_V2, PDSM_QuerySupportedLBPolicies_V2 structure pointer [Storage Devices], _DSM_QuerySupportedLBPolicies_V2, mpiodisk/DSM_QuerySupportedLBPolicies_V2, mpiodisk/PDSM_QuerySupportedLBPolicies_V2, storage.dsm_querysupportedlbpolicies_v2, structs-scsibus_33717938-d010-4155-a87b-4fb94831315e.xml"
 f1_keywords:
  - "mpiodisk/DSM_QuerySupportedLBPolicies_V2"
+ - "DSM_QuerySupportedLBPolicies_V2"
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows

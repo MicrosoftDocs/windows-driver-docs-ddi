@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["*PFN_SENSORSCXSENSORDATAREADY callback function"]
 f1_keywords:
  - "sensorscx/*PFN_SENSORSCXSENSORDATAREADY"
+ - "*PFN_SENSORSCXSENSORDATAREADY"
 req.header: sensorscx.h
 req.include-header:
 req.target-type:

@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DESTROYSAMPLER callback function"]
 ms.keywords: DestroySampler, DestroySampler callback function [Display Devices], PFND3D10DDI_DESTROYSAMPLER, PFND3D10DDI_DESTROYSAMPLER callback, UserModeDisplayDriverDx10_Functions_814d0591-6b69-4b30-9463-3c23c62e0b6a.xml, d3d10umddi/DestroySampler, display.destroysampler
 f1_keywords:
  - "d3d10umddi/DestroySampler"
+ - "DestroySampler"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

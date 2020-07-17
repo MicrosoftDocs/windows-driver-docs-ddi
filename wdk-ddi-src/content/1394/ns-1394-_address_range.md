@@ -10,6 +10,7 @@ keywords: ["_ADDRESS_RANGE structure"]
 ms.keywords: "*PADDRESS_RANGE, 1394/ADDRESS_RANGE, 1394/PADDRESS_RANGE, 1394stct_e03538df-3b91-483d-99da-95645f017bef.xml, ADDRESS_RANGE, ADDRESS_RANGE structure [Buses], IEEE.address_range, PADDRESS_RANGE, PADDRESS_RANGE structure pointer [Buses], _ADDRESS_RANGE"
 f1_keywords:
  - "1394/ADDRESS_RANGE"
+ - "ADDRESS_RANGE"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows

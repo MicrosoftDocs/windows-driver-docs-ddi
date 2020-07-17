@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3dkmddi/*DXGKCB_INDICATE_CONNECTOR_CHANGE"
+ - "*DXGKCB_INDICATE_CONNECTOR_CHANGE"
 topic_type:
  - APIRef
  - kbSyntax

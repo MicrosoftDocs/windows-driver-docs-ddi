@@ -11,6 +11,7 @@ ms.keywords: NdisAllocateSpinLock, NdisAllocateSpinLock function [Network Driver
 f1_keywords:
  - "ndis/NdisAllocateSpinLock"
  - "NdisAllocateSpinLock"
+ - ""
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

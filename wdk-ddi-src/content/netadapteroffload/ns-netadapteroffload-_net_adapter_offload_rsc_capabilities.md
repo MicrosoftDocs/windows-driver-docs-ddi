@@ -10,6 +10,7 @@ ms.date: 11/07/2019
 keywords: ["NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure"]
 f1_keywords:
  - "netadapteroffload/NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES"
+ - "NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES"
 ms.keywords: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES, NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES, 
 req.header: netadapteroffload.h
 req.include-header:

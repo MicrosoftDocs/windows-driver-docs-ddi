@@ -10,6 +10,7 @@ keywords: ["_DEBUG_OFFSET_REGION structure"]
 ms.keywords: "*PDEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION structure [Windows Debugging], PDEBUG_OFFSET_REGION, PDEBUG_OFFSET_REGION structure pointer [Windows Debugging], _DEBUG_OFFSET_REGION, dbgeng/DEBUG_OFFSET_REGION, dbgeng/PDEBUG_OFFSET_REGION, debugger.debug_offset_region"
 f1_keywords:
  - "dbgeng/DEBUG_OFFSET_REGION"
+ - "DEBUG_OFFSET_REGION"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows

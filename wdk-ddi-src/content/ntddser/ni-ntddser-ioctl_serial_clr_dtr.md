@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_CLR_DTR IOCTL"]
 ms.keywords: IOCTL_SERIAL_CLR_DTR, IOCTL_SERIAL_CLR_DTR control, IOCTL_SERIAL_CLR_DTR control code [Serial Ports], ntddser/IOCTL_SERIAL_CLR_DTR, serports.ioctl_serial_clr_dtr, serref_37ec12d3-15ad-4a49-90c7-766ffb3943f7.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_CLR_DTR"
+ - "IOCTL_SERIAL_CLR_DTR"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

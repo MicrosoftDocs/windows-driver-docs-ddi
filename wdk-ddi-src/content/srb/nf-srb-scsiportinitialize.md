@@ -10,6 +10,7 @@ keywords: ["ScsiPortInitialize function"]
 ms.keywords: ScsiPortInitialize, ScsiPortInitialize routine [Storage Devices], scsiprt_62fb91f9-a420-4156-9a1e-b58b65067a8b.xml, srb/ScsiPortInitialize, storage.scsiportinitialize
 f1_keywords:
  - "srb/ScsiPortInitialize"
+ - "ScsiPortInitialize"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

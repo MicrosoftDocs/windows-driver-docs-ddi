@@ -10,6 +10,7 @@ keywords: ["wiauGetValidFormats function"]
 ms.keywords: image.wiaugetvalidformats, wiauFncs_f311862b-03fe-4fe6-8b30-46cd9a53513b.xml, wiauGetValidFormats, wiauGetValidFormats function [Imaging Devices], wiautil/wiauGetValidFormats
 f1_keywords:
  - "wiautil/wiauGetValidFormats"
+ - "wiauGetValidFormats"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

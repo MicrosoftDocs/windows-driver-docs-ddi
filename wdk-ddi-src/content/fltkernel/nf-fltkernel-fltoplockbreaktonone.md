@@ -10,6 +10,7 @@ keywords: ["FltOplockBreakToNone function"]
 ms.keywords: FltApiRef_e_to_o_7d787a5c-c78b-43d2-aa48-412010c97630.xml, FltOplockBreakToNone, FltOplockBreakToNone routine [Installable File System Drivers], fltkernel/FltOplockBreakToNone, ifsk.fltoplockbreaktonone
 f1_keywords:
  - "fltkernel/FltOplockBreakToNone"
+ - "FltOplockBreakToNone"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

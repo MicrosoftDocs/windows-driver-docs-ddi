@@ -10,6 +10,7 @@ keywords: ["_NDK_QP structure"]
 ms.keywords: NDK_QP, NDK_QP structure [Network Drivers Starting with Windows Vista], _NDK_QP, ndkpi/NDK_QP, netvista.ndk_qp
 f1_keywords:
  - "ndkpi/NDK_QP"
+ - "NDK_QP"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptContext::get_QueueProperties"]
 ms.keywords: IPrinterScriptContext interface [Print Devices],QueueProperties property, IPrinterScriptContext.QueueProperties, IPrinterScriptContext.get_QueueProperties, IPrinterScriptContext::QueueProperties, IPrinterScriptContext::get_QueueProperties, QueueProperties property [Print Devices], QueueProperties property [Print Devices],IPrinterScriptContext interface, get_QueueProperties, print.iprinterscriptcontext_queueproperties, printerextension/IPrinterScriptContext::QueueProperties, printerextension/IPrinterScriptContext::get_QueueProperties
 f1_keywords:
  - "printerextension/IPrinterScriptContext.QueueProperties"
+ - "IPrinterScriptContext.QueueProperties"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

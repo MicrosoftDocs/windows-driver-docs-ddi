@@ -10,6 +10,7 @@ keywords: ["ScsiPortWmiGetInstanceName function"]
 ms.keywords: ScsiPortWmiGetInstanceName, ScsiPortWmiGetInstanceName routine [Storage Devices], scsiprt_184c6508-4189-4ab2-a445-7e52e5c688ab.xml, scsiwmi/ScsiPortWmiGetInstanceName, storage.scsiportwmigetinstancename
 f1_keywords:
  - "scsiwmi/ScsiPortWmiGetInstanceName"
+ - "ScsiPortWmiGetInstanceName"
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

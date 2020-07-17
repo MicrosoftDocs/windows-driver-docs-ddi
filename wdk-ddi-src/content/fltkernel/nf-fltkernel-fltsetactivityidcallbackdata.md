@@ -10,6 +10,7 @@ keywords: ["FltSetActivityIdCallbackData function"]
 ms.keywords: FltSetActivityIdCallbackData, FltSetActivityIdCallbackData routine [Installable File System Drivers], fltkernel/FltSetActivityIdCallbackData, ifsk.fltsetactivityidcallbackdata
 f1_keywords:
  - "fltkernel/FltSetActivityIdCallbackData"
+ - "FltSetActivityIdCallbackData"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

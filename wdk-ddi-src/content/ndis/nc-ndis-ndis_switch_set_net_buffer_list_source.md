@@ -10,6 +10,7 @@ keywords: ["NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE callback function"]
 ms.keywords: NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE, NDIS_SWITCH_SET_NET_BUFFER_LIST_SOURCE callback, SetNetBufferListSource, SetNetBufferListSource callback function [Network Drivers Starting with Windows Vista], ndis/SetNetBufferListSource, netvista.setnetbufferlistsource
 f1_keywords:
  - "ndis/SetNetBufferListSource"
+ - "SetNetBufferListSource"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

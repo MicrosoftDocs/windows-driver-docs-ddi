@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped class"]
 ms.keywords: EngExtCpp_Ref_04970dac-e759-4a04-a1e0-8dab752c1418.xml, ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging], ExtRemoteTyped class [Windows Debugging],described, debugger.extremotetyped, engextcpp/ExtRemoteTyped
 f1_keywords:
  - "engextcpp/ExtRemoteTyped"
+ - "ExtRemoteTyped"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows

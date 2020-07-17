@@ -10,6 +10,7 @@ keywords: ["_FILE_FS_DRIVER_PATH_INFORMATION structure"]
 ms.keywords: "*PFILE_FS_DRIVER_PATH_INFORMATION, FILE_FS_DRIVER_PATH_INFORMATION, FILE_FS_DRIVER_PATH_INFORMATION structure [Installable File System Drivers], PFILE_FS_DRIVER_PATH_INFORMATION, PFILE_FS_DRIVER_PATH_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_DRIVER_PATH_INFORMATION, fileinformationstructures_9d09c9ee-18a0-4230-af6b-0cddadbac901.xml, ifsk.file_fs_driver_path_information, ntifs/FILE_FS_DRIVER_PATH_INFORMATION, ntifs/PFILE_FS_DRIVER_PATH_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_FS_DRIVER_PATH_INFORMATION"
+ - "FILE_FS_DRIVER_PATH_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_DVD_MANUFACTURER_DESCRIPTOR structure"]
 ms.keywords: "*PDVD_MANUFACTURER_DESCRIPTOR, DVD_MANUFACTURER_DESCRIPTOR, DVD_MANUFACTURER_DESCRIPTOR structure [Storage Devices], PDVD_MANUFACTURER_DESCRIPTOR, PDVD_MANUFACTURER_DESCRIPTOR structure pointer [Storage Devices], _DVD_MANUFACTURER_DESCRIPTOR, ntddcdvd/DVD_MANUFACTURER_DESCRIPTOR, ntddcdvd/PDVD_MANUFACTURER_DESCRIPTOR, storage.dvd_manufacturer_descriptor, structs-DVD_420be36e-90ef-459a-a3c8-4ecc233a0d82.xml"
 f1_keywords:
  - "ntddcdvd/DVD_MANUFACTURER_DESCRIPTOR"
+ - "DVD_MANUFACTURER_DESCRIPTOR"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows

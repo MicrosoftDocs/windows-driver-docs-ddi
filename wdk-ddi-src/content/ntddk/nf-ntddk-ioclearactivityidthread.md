@@ -10,6 +10,7 @@ keywords: ["IoClearActivityIdThread function"]
 ms.keywords: IoClearActivityIdThread, IoClearActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.ioclearactivityidthread, ntddk/IoClearActivityIdThread
 f1_keywords:
  - "ntddk/IoClearActivityIdThread"
+ - "IoClearActivityIdThread"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["PO_FX_DIRECTED_POWER_DOWN_CALLBACK callback function"]
 f1_keywords:
  - "wdm/PO_FX_DIRECTED_POWER_DOWN_CALLBACK"
+ - "PO_FX_DIRECTED_POWER_DOWN_CALLBACK"
 req.header: wdm.h
 req.include-header:
 req.target-type:

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_WAITFORVERTICALBLANKEVENT structure"]
 ms.keywords: D3DKMT_WAITFORVERTICALBLANKEVENT, D3DKMT_WAITFORVERTICALBLANKEVENT structure [Display Devices], OpenGL_Structs_1072adb2-825b-4fee-a84a-b958e3d2e4d4.xml, _D3DKMT_WAITFORVERTICALBLANKEVENT, d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT, display.d3dkmt_waitforverticalblankevent
 f1_keywords:
  - "d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT"
+ - "D3DKMT_WAITFORVERTICALBLANKEVENT"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

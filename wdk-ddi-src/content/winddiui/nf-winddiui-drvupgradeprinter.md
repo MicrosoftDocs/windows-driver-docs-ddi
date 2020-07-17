@@ -10,6 +10,7 @@ keywords: ["DrvUpgradePrinter function"]
 ms.keywords: DrvUpgradePrinter, DrvUpgradePrinter function [Print Devices], print.drvupgradeprinter, print_interface-graphics_ab060948-18bc-4b0f-a504-320083fcb173.xml, winddiui/DrvUpgradePrinter
 f1_keywords:
  - "winddiui/DrvUpgradePrinter"
+ - "DrvUpgradePrinter"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop

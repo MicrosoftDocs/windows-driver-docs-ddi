@@ -8,6 +8,7 @@ ms.date: 02/09/2018
 keywords: ["NetRxQueueInitGetQueueId function"]
 f1_keywords:
  - "netrxqueue/NetRxQueueInitGetQueueId"
+ - "NetRxQueueInitGetQueueId"
 ms.keywords: NetRxQueueInitGetQueueId
 req.header: netrxqueue.h
 req.include-header: netadaptercx.h

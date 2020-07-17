@@ -10,6 +10,7 @@ keywords: ["IDebugClient::SetOutputLinePrefix"]
 ms.keywords: IDebugClient interface [Windows Debugging],SetOutputLinePrefix method, IDebugClient.SetOutputLinePrefix, IDebugClient::SetOutputLinePrefix, SetOutputLinePrefix, SetOutputLinePrefix method [Windows Debugging], SetOutputLinePrefix method [Windows Debugging],IDebugClient interface, dbgeng/IDebugClient::SetOutputLinePrefix, debugger.idebugclient_setoutputlineprefix
 f1_keywords:
  - "dbgeng/IDebugClient.SetOutputLinePrefix"
+ - "IDebugClient.SetOutputLinePrefix"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

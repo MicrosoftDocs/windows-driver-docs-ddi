@@ -10,6 +10,7 @@ keywords: ["WritePhysical function"]
 ms.keywords: WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml, WritePhysical, WritePhysical function [Windows Debugging], dbgeng/WritePhysical, debugger.writephysical
 f1_keywords:
  - "wdbgexts/WritePhysical"
+ - "WritePhysical"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

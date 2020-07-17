@@ -10,6 +10,7 @@ keywords: ["_STARTIO_PERFORMANCE_PARAMETERS structure"]
 ms.keywords: "*PSTARTIO_PERFORMANCE_PARAMETERS, PSTARTIO_PERFORMANCE_PARAMETERS, PSTARTIO_PERFORMANCE_PARAMETERS structure pointer [Storage Devices], STARTIO_PERFORMANCE_PARAMETERS, STARTIO_PERFORMANCE_PARAMETERS structure [Storage Devices], _STARTIO_PERFORMANCE_PARAMETERS, storage.startio_performance_parameters, storport/PSTARTIO_PERFORMANCE_PARAMETERS, storport/STARTIO_PERFORMANCE_PARAMETERS, structs-storport_6f0f3ae8-51e3-4c3e-91e1-4603b04b6f08.xml"
 f1_keywords:
  - "storport/STARTIO_PERFORMANCE_PARAMETERS"
+ - "STARTIO_PERFORMANCE_PARAMETERS"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows

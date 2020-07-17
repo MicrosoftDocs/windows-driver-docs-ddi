@@ -10,6 +10,7 @@ keywords: ["IoGetNextIrpStackLocation function"]
 ms.keywords: IoGetNextIrpStackLocation, IoGetNextIrpStackLocation routine [Kernel-Mode Driver Architecture], k104_28da61f1-a732-4336-a14a-90a5bd2682c3.xml, kernel.iogetnextirpstacklocation, wdm/IoGetNextIrpStackLocation
 f1_keywords:
  - "wdm/IoGetNextIrpStackLocation"
+ - "IoGetNextIrpStackLocation"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

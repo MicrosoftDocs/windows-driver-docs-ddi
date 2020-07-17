@@ -10,6 +10,7 @@ keywords: ["wiasSetValidFlag function"]
 ms.keywords: image.wiassetvalidflag, wiamdef/wiasSetValidFlag, wiasFncs_4c84b6c9-20fe-4894-b3fc-f7d84742827a.xml, wiasSetValidFlag, wiasSetValidFlag function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasSetValidFlag"
+ - "wiasSetValidFlag"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

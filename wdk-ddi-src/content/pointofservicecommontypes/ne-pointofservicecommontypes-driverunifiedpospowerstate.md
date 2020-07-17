@@ -10,6 +10,7 @@ keywords: ["DriverUnifiedPosPowerState enumeration"]
 ms.keywords: DriverUnifiedPosPowerState, DriverUnifiedPosPowerState enumeration, pointofservicecommontypes/, pointofservicecommontypes/DriverUnifiedPosPowerState, pos.driverunifiedpospowerstate
 f1_keywords:
  - "pointofservicecommontypes/DriverUnifiedPosPowerState"
+ - "DriverUnifiedPosPowerState"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

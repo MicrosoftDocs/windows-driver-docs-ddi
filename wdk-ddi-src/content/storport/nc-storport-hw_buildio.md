@@ -10,6 +10,7 @@ keywords: ["HW_BUILDIO callback function"]
 ms.keywords: HW_BUILDIO, HwStorBuildIo, HwStorBuildIo routine [Storage Devices], storage.hwstorbuildio, stormini_3411fed2-32e6-4a3a-a9c3-0bbe0bb514ca.xml, storport/HwStorBuildIo
 f1_keywords:
  - "storport/HwStorBuildIo"
+ - "HwStorBuildIo"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

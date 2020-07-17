@@ -10,6 +10,7 @@ keywords: ["_GetDiscoveredPortAttributes_OUT structure"]
 ms.keywords: "*PGetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT structure [Storage Devices], PGetDiscoveredPortAttributes_OUT, PGetDiscoveredPortAttributes_OUT structure pointer [Storage Devices], _GetDiscoveredPortAttributes_OUT, hbapiwmi/GetDiscoveredPortAttributes_OUT, hbapiwmi/PGetDiscoveredPortAttributes_OUT, storage.getdiscoveredportattributes_out, structs-Fibre_611d9a0e-b0dc-472e-9bec-3902412e8ec4.xml"
 f1_keywords:
  - "hbapiwmi/GetDiscoveredPortAttributes_OUT"
+ - "GetDiscoveredPortAttributes_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

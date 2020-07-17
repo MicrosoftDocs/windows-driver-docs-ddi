@@ -10,6 +10,7 @@ keywords: ["_USB_PROTOCOLS structure"]
 ms.keywords: "*PUSB_PROTOCOLS, PUSB_PROTOCOLS, PUSB_PROTOCOLS union pointer [Buses], USB_PROTOCOLS, USB_PROTOCOLS union [Buses], _USB_PROTOCOLS, buses.usb_protocols, usbioctl/PUSB_PROTOCOLS, usbioctl/USB_PROTOCOLS"
 f1_keywords:
  - "usbioctl/USB_PROTOCOLS"
+ - "USB_PROTOCOLS"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

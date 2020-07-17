@@ -10,6 +10,7 @@ keywords: ["IDriverEntry::OnDeinitialize"]
 ms.keywords: IDriverEntry interface,OnDeinitialize method, IDriverEntry.OnDeinitialize, IDriverEntry::OnDeinitialize, OnDeinitialize, OnDeinitialize method, OnDeinitialize method,IDriverEntry interface, UMDFDriverObjectRef_0dc59f06-5979-4077-8945-b0568d8980ba.xml, umdf.idriverentry_ondeinitialize, wdf.idriverentry_ondeinitialize, wudfddi/IDriverEntry::OnDeinitialize
 f1_keywords:
  - "wudfddi/IDriverEntry.OnDeinitialize"
+ - "IDriverEntry.OnDeinitialize"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

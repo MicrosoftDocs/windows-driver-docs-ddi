@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IAdapterPowerManagement3::PowerChangeState3"]
 f1_keywords:
  - "portcls/IAdapterPowerManagement3.PowerChangeState3"
+ - "IAdapterPowerManagement3.PowerChangeState3"
 ms.keywords: IAdapterPowerManagement3::PowerChangeState3, PowerChangeState3, IAdapterPowerManagement3.PowerChangeState3, IAdapterPowerManagement3::PowerChangeState3, IAdapterPowerManagement3.PowerChangeState3
 req.header: portcls.h
 req.include-header:

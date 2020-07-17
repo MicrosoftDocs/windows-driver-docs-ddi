@@ -10,6 +10,7 @@ keywords: ["StorPortWritePortUshort macro"]
 ms.keywords: StorPortWritePortUshort, StorPortWritePortUshort routine [Storage Devices], storage.storportwriteportushort, storport/StorPortWritePortUshort, storprt_7e675f67-f027-48e7-a41b-b672b0f81d20.xml
 f1_keywords:
  - "storport/StorPortWritePortUshort"
+ - "StorPortWritePortUshort"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

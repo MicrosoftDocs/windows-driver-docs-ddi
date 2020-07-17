@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["RtlCopyMemoryNonTemporal function"]
 f1_keywords:
  - "wdm/RtlCopyMemoryNonTemporal"
+ - "RtlCopyMemoryNonTemporal"
 ms.keywords: RtlCopyMemoryNonTemporal
 req.header: wdm.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["WdfIoResourceListCreate function"]
 ms.keywords: DFResourceObjectRef_7130ba6a-fc24-4785-9fa3-c8fd159f63fb.xml, WdfIoResourceListCreate, WdfIoResourceListCreate method, kmdf.wdfioresourcelistcreate, wdf.wdfioresourcelistcreate, wdfresource/WdfIoResourceListCreate
 f1_keywords:
  - "wdfresource/WdfIoResourceListCreate"
+ - "WdfIoResourceListCreate"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal

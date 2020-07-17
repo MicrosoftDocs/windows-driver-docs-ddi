@@ -10,6 +10,7 @@ keywords: ["PFND3DDDICB_LOGSTRINGTABLEENTRY callback function"]
 ms.keywords: LogMarkerStringTableEntry, LogMarkerStringTableEntry callback function [Display Devices], PFND3DDDICB_LOGSTRINGTABLEENTRY, PFND3DDDICB_LOGSTRINGTABLEENTRY callback, d3dumddi/LogMarkerStringTableEntry, display.logmarkerstringtableentry
 f1_keywords:
  - "d3dumddi/LogMarkerStringTableEntry"
+ - "LogMarkerStringTableEntry"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

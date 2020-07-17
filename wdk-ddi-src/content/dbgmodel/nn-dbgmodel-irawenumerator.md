@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["IRawEnumerator interface"]
 f1_keywords:
  - "dbgmodel/IRawEnumerator"
+ - "IRawEnumerator"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

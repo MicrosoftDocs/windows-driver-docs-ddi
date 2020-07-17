@@ -10,6 +10,7 @@ keywords: ["PCAM_ALLOCATE_BW_ROUTINE_EX callback function"]
 ms.keywords: CamAllocateBandwidthEx, CamAllocateBandwidthEx routine [Streaming Media Devices], PCAM_ALLOCATE_BW_ROUTINE_EX, stream.camallocatebandwidthex, usbcamdi/CamAllocateBandwidthEx, usbcmdpr_dd4a1139-55b9-4342-9eeb-69e902497fa2.xml
 f1_keywords:
  - "usbcamdi/CamAllocateBandwidthEx"
+ - "CamAllocateBandwidthEx"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

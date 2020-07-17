@@ -10,6 +10,7 @@ keywords: ["LogJobInfoForBranchOffice function"]
 ms.keywords: LogJobInfoForBranchOffice, LogJobInfoForBranchOffice function [Print Devices], print.logjobinfoforbranchoffice, winsplp/LogJobInfoForBranchOffice
 f1_keywords:
  - "winsplp/LogJobInfoForBranchOffice"
+ - "LogJobInfoForBranchOffice"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

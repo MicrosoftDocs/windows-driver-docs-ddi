@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue"]
 ms.keywords: IPrintSchemaCapabilities interface [Print Devices],JobCopiesAllDocumentsMaxValue property, IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue, JobCopiesAllDocumentsMaxValue property [Print Devices], JobCopiesAllDocumentsMaxValue property [Print Devices],IPrintSchemaCapabilities interface, get_JobCopiesAllDocumentsMaxValue, print.iprintschemacapabilities_get_jobcopiesalldocumentsmaxvalue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue, printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue
 f1_keywords:
  - "printerextension/IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue"
+ - "IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RILDMCONFIGINFOVALUE structure"]
 ms.keywords: "*LPRILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE structure [Network Drivers Starting with Windows Vista], netvista.rildmconfiginfovalue, ntddrilapitypes/RILDMCONFIGINFOVALUE"
 f1_keywords:
  - "ntddrilapitypes/RILDMCONFIGINFOVALUE"
+ - "RILDMCONFIGINFOVALUE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

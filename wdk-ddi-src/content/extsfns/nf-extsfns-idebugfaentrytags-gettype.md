@@ -10,6 +10,7 @@ keywords: ["IDebugFAEntryTags::GetType"]
 ms.keywords: GetType, GetType method [Windows Debugging], GetType method [Windows Debugging],IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging],GetType method, IDebugFAEntryTags.GetType, IDebugFAEntryTags::GetType, debugger.idebugfaentrytags_gettype, extsfns/IDebugFAEntryTags::GetType
 f1_keywords:
  - "extsfns/IDebugFAEntryTags.GetType"
+ - "IDebugFAEntryTags.GetType"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop

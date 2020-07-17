@@ -10,6 +10,7 @@ keywords: ["MmFreeMappingAddress function"]
 ms.keywords: MmFreeMappingAddress, MmFreeMappingAddress routine [Kernel-Mode Driver Architecture], k106_fa09359d-0552-429a-b3af-048f03ea7a15.xml, kernel.mmfreemappingaddress, wdm/MmFreeMappingAddress
 f1_keywords:
  - "wdm/MmFreeMappingAddress"
+ - "MmFreeMappingAddress"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

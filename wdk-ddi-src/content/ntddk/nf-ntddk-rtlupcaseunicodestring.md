@@ -10,6 +10,7 @@ keywords: ["RtlUpcaseUnicodeString function"]
 ms.keywords: RtlUpcaseUnicodeString, RtlUpcaseUnicodeString routine [Kernel-Mode Driver Architecture], k109_617db3d7-18d8-46eb-a555-59f99d9cae78.xml, kernel.rtlupcaseunicodestring, ntddk/RtlUpcaseUnicodeString
 f1_keywords:
  - "ntddk/RtlUpcaseUnicodeString"
+ - "RtlUpcaseUnicodeString"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

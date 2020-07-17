@@ -10,6 +10,7 @@ keywords: ["RILOPENUICCLOGICALCHANNELPARAMMASK enumeration"]
 ms.keywords: RILOPENUICCLOGICALCHANNELPARAMMASK, RILOPENUICCLOGICALCHANNELPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_OULC_ALL, RIL_PARAM_OULC_SELECTRESPLENGTH, RIL_PARAM_OULC_SELECTRESPONSE, netvista.rilopenuicclogicalchannelparammask, ntddrilapitypes/RILOPENUICCLOGICALCHANNELPARAMMASK, ntddrilapitypes/RIL_PARAM_OULC_ALL, ntddrilapitypes/RIL_PARAM_OULC_SELECTRESPLENGTH, ntddrilapitypes/RIL_PARAM_OULC_SELECTRESPONSE
 f1_keywords:
  - "rilapitypes/RILOPENUICCLOGICALCHANNELPARAMMASK"
+ - "RILOPENUICCLOGICALCHANNELPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

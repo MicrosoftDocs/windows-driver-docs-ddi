@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDataModelScriptTemplateEnumerator::AddRef"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptTemplateEnumerator.AddRef"
+ - "IDataModelScriptTemplateEnumerator.AddRef"
 ms.keywords: IDataModelScriptTemplateEnumerator::AddRef, AddRef, IDataModelScriptTemplateEnumerator.AddRef, IDataModelScriptTemplateEnumerator::AddRef, IDataModelScriptTemplateEnumerator.AddRef
 req.header: dbgmodel.h
 req.include-header:

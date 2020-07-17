@@ -10,6 +10,7 @@ keywords: ["FsRtlIsTotalDeviceFailure function"]
 ms.keywords: FsRtlIsTotalDeviceFailure, FsRtlIsTotalDeviceFailure routine [Installable File System Drivers], fsrtlref_b4ec70b9-8a76-4e47-905a-54238a0b9173.xml, ifsk.fsrtlistotaldevicefailure, ntddk/FsRtlIsTotalDeviceFailure
 f1_keywords:
  - "ntddk/FsRtlIsTotalDeviceFailure"
+ - "FsRtlIsTotalDeviceFailure"
 req.header: ntddk.h
 req.include-header: Ntifs.h
 req.target-type: Universal

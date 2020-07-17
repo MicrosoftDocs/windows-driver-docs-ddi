@@ -10,6 +10,7 @@ keywords: ["IOCTL_ACPI_EVAL_METHOD IOCTL"]
 ms.keywords: IOCTL_ACPI_EVAL_METHOD, IOCTL_ACPI_EVAL_METHOD control, IOCTL_ACPI_EVAL_METHOD control code [ACPI Devices], acpi-meth-eval-ref_6908d1cb-5ac2-4251-8363-25530ebd542a.xml, acpi.ioctl_acpi_eval_method, acpiioct/IOCTL_ACPI_EVAL_METHOD
 f1_keywords:
  - "acpiioct/IOCTL_ACPI_EVAL_METHOD"
+ - "IOCTL_ACPI_EVAL_METHOD"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

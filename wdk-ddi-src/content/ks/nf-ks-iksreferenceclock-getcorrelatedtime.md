@@ -10,6 +10,7 @@ keywords: ["IKsReferenceClock::GetCorrelatedTime"]
 ms.keywords: GetCorrelatedTime, GetCorrelatedTime method [Streaming Media Devices], GetCorrelatedTime method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetCorrelatedTime method, IKsReferenceClock.GetCorrelatedTime, IKsReferenceClock::GetCorrelatedTime, avintfc_9bb8180e-a8e6-4b89-a615-0516470a7dd8.xml, ks/IKsReferenceClock::GetCorrelatedTime, stream.iksreferenceclock_getcorrelatedtime
 f1_keywords:
  - "ks/IKsReferenceClock.GetCorrelatedTime"
+ - "IKsReferenceClock.GetCorrelatedTime"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

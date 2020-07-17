@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EntropyRegisterSource function"]
 f1_keywords:
  - "systemrng/EntropyRegisterSource"
+ - "EntropyRegisterSource"
 ms.keywords: EntropyRegisterSource
 req.header: systemrng.h
 req.include-header:

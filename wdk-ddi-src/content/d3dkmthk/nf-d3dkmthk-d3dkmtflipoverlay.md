@@ -9,6 +9,7 @@ keywords: ["D3DKMTFlipOverlay function"]
 ms.keywords: D3DKMTFlipOverlay, D3DKMTFlipOverlay function [Display Devices], OpenGL_Functions_37a9811c-26a3-46f3-aba1-39dc9526f282.xml, d3dkmthk/D3DKMTFlipOverlay, display.d3dkmtflipoverlay
 f1_keywords:
  - "d3dkmthk/D3DKMTFlipOverlay"
+ - "D3DKMTFlipOverlay"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetOffsetByLineWide"]
 ms.keywords: GetOffsetByLineWide, GetOffsetByLineWide method [Windows Debugging], GetOffsetByLineWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetOffsetByLineWide method, IDebugSymbols3.GetOffsetByLineWide, IDebugSymbols3::GetOffsetByLineWide, dbgeng/IDebugSymbols3::GetOffsetByLineWide, debugger.getoffsetbylinewide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetOffsetByLineWide"
+ - "IDebugSymbols3.GetOffsetByLineWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

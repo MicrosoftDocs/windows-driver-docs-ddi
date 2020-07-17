@@ -28,6 +28,7 @@ req.type-library:
 targetos: Windows
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALCPRIVATERASTERIZERSTATESIZE"
+ - "PFND3D12DDI_CALCPRIVATERASTERIZERSTATESIZE"
 topic_type:
  - apiref
 api_type:

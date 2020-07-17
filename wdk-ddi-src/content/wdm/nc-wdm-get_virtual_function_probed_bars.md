@@ -10,6 +10,7 @@ keywords: ["GET_VIRTUAL_FUNCTION_PROBED_BARS callback"]
 ms.keywords: GET_VIRTUAL_FUNCTION_PROBED_BARS, GetVirtualFunctionProbedBars, GetVirtualFunctionProbedBars routine, PCI.getvirtualfunctionprobedbars, wdm/GetVirtualFunctionProbedBars
 f1_keywords:
  - "wdm/GetVirtualFunctionProbedBars"
+ - "GetVirtualFunctionProbedBars"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

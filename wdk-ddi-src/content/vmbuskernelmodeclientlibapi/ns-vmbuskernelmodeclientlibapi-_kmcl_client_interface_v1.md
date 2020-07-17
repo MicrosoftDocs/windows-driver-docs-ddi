@@ -8,6 +8,7 @@ ms.date: 09/13/2018
 keywords: ["_KMCL_CLIENT_INTERFACE_V1 structure"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/_KMCL_CLIENT_INTERFACE_V1"
+ - "_KMCL_CLIENT_INTERFACE_V1"
 ms.keywords: _KMCL_CLIENT_INTERFACE_V1, KMCL_CLIENT_INTERFACE_V1, *PKMCL_CLIENT_INTERFACE_V1, 
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:

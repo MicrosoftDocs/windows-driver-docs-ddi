@@ -10,6 +10,7 @@ keywords: ["_DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, display.dxgk_multiplane_overlay_post_composition
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION"
+ - "DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type: Windows

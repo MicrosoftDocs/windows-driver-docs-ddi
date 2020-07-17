@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDebugHostField::GetOffset"]
 f1_keywords:
  - "dbgmodel/IDebugHostField.GetOffset"
+ - "IDebugHostField.GetOffset"
 ms.keywords: IDebugHostField::GetOffset, GetOffset, IDebugHostField.GetOffset, IDebugHostField::GetOffset, IDebugHostField.GetOffset
 req.header: dbgmodel.h
 req.include-header:

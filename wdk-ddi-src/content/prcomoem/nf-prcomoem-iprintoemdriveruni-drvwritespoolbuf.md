@@ -10,6 +10,7 @@ keywords: ["IPrintOemDriverUni::DrvWriteSpoolBuf"]
 ms.keywords: DrvWriteSpoolBuf, DrvWriteSpoolBuf method [Print Devices], DrvWriteSpoolBuf method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvWriteSpoolBuf method, IPrintOemDriverUni.DrvWriteSpoolBuf, IPrintOemDriverUni::DrvWriteSpoolBuf, prcomoem/IPrintOemDriverUni::DrvWriteSpoolBuf, print.iprintoemdriveruni_drvwritespoolbuf, print_unidrv-pscript_rendering_ba569121-3277-447a-a53b-3de6e06fd182.xml
 f1_keywords:
  - "prcomoem/IPrintOemDriverUni.DrvWriteSpoolBuf"
+ - "IPrintOemDriverUni.DrvWriteSpoolBuf"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["StorPortRequestTimer function"]
 ms.keywords: StorPortRequestTimer, StorPortRequestTimer routine [Storage Devices], storage.storportrequesttimer, storport/StorPortRequestTimer
 f1_keywords:
  - "storport/StorPortRequestTimer"
+ - "StorPortRequestTimer"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

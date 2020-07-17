@@ -10,6 +10,7 @@ keywords: ["FsRtlNotifyFullReportChange function"]
 ms.keywords: FsRtlNotifyFullReportChange, FsRtlNotifyFullReportChange routine [Installable File System Drivers], fsrtlref_1107429f-a697-40a9-8336-b9a145b476b9.xml, ifsk.fsrtlnotifyfullreportchange, ntifs/FsRtlNotifyFullReportChange
 f1_keywords:
  - "ntifs/FsRtlNotifyFullReportChange"
+ - "FsRtlNotifyFullReportChange"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

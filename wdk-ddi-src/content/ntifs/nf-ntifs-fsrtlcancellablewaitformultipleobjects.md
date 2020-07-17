@@ -10,6 +10,7 @@ keywords: ["FsRtlCancellableWaitForMultipleObjects function"]
 ms.keywords: FsRtlCancellableWaitForMultipleObjects, FsRtlCancellableWaitForMultipleObjects routine [Installable File System Drivers], fsrtlref_8a221e67-4344-401f-9e56-8fac66bb03b7.xml, ifsk.fsrtlcancellablewaitformultipleobjects, ntifs/FsRtlCancellableWaitForMultipleObjects
 f1_keywords:
  - "ntifs/FsRtlCancellableWaitForMultipleObjects"
+ - "FsRtlCancellableWaitForMultipleObjects"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

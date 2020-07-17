@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO callback function"]
 ms.keywords: 2/EvtSerCx2PioTransmitPurgeFifo, EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO, EVT_SERCX2_PIO_TRANSMIT_PURGE_FIFO callback, EvtSerCx2PioTransmitPurgeFifo, EvtSerCx2PioTransmitPurgeFifo callback function [Serial Ports], serports.evtsercx2piotransmitpurgefifo
 f1_keywords:
  - "sercx/EvtSerCx2PioTransmitPurgeFifo"
+ - "EvtSerCx2PioTransmitPurgeFifo"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

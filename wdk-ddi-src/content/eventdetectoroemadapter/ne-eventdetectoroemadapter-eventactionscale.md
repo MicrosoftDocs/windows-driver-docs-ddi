@@ -10,6 +10,7 @@ ms.date: 03/22/2019
 keywords: ["EVENTACTIONSCALE enumeration"]
 f1_keywords:
  - "eventdetectoroemadapter/EVENTACTIONSCALE"
+ - "EVENTACTIONSCALE"
 ms.keywords: EVENTACTIONSCALE, EVENTACTIONSCALE, 
 req.header: eventdetectoroemadapter.h
 req.include-header:

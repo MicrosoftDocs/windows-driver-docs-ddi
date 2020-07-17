@@ -10,6 +10,7 @@ keywords: ["KsSetTargetDeviceObject function"]
 ms.keywords: KsSetTargetDeviceObject, KsSetTargetDeviceObject function [Streaming Media Devices], ks/KsSetTargetDeviceObject, ksfunc_f5e0140d-a6f3-49a1-a319-f55bdd5f0734.xml, stream.kssettargetdeviceobject
 f1_keywords:
  - "ks/KsSetTargetDeviceObject"
+ - "KsSetTargetDeviceObject"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

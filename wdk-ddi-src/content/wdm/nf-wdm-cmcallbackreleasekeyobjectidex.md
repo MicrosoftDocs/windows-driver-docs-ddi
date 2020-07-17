@@ -10,6 +10,7 @@ keywords: ["CmCallbackReleaseKeyObjectIDEx function"]
 ms.keywords: CmCallbackReleaseKeyObjectIDEx, CmCallbackReleaseKeyObjectIDEx routine [Kernel-Mode Driver Architecture], kernel.cmcallbackreleasekeyobjectidex, wdm/CmCallbackReleaseKeyObjectIDEx
 f1_keywords:
  - "wdm/CmCallbackReleaseKeyObjectIDEx"
+ - "CmCallbackReleaseKeyObjectIDEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_RTL_GENERIC_TABLE structure"]
 ms.keywords: "*PRTL_GENERIC_TABLE, PRTL_GENERIC_TABLE, PRTL_GENERIC_TABLE structure pointer [Installable File System Drivers], RTL_GENERIC_TABLE, RTL_GENERIC_TABLE structure [Installable File System Drivers], _RTL_GENERIC_TABLE, ifsk.rtl_generic_table, ntddk/PRTL_GENERIC_TABLE, ntddk/RTL_GENERIC_TABLE, othersystemstructures_ce9bd546-d224-429d-8835-be3d5ecb1a52.xml"
 f1_keywords:
  - "ntddk/RTL_GENERIC_TABLE"
+ - "RTL_GENERIC_TABLE"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

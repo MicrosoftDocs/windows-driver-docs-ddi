@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTOutputDuplGetFrameInfo function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTOutputDuplGetFrameInfo"
+ - "D3DKMTOutputDuplGetFrameInfo"
 ms.keywords: D3DKMTOutputDuplGetFrameInfo
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

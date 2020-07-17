@@ -10,6 +10,7 @@ keywords: ["_DXGK_TIMED_OPERATION_INTERFACE structure"]
 ms.keywords: "*PDXGK_TIMED_OPERATION_INTERFACE, DXGK_TIMED_OPERATION_INTERFACE, DXGK_TIMED_OPERATION_INTERFACE structure [Display Devices], DmStructs_024c0974-7f10-4251-b08e-c68307fc62d9.xml, PDXGK_TIMED_OPERATION_INTERFACE, PDXGK_TIMED_OPERATION_INTERFACE structure pointer [Display Devices], _DXGK_TIMED_OPERATION_INTERFACE, display.dxgk_timed_operation_interface, dispmprt/DXGK_TIMED_OPERATION_INTERFACE, dispmprt/PDXGK_TIMED_OPERATION_INTERFACE"
 f1_keywords:
  - "dispmprt/DXGK_TIMED_OPERATION_INTERFACE"
+ - "DXGK_TIMED_OPERATION_INTERFACE"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows

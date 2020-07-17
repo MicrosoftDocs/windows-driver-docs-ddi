@@ -10,6 +10,7 @@ keywords: ["RouterAllocPrinterNotifyInfo function"]
 ms.keywords: RouterAllocPrinterNotifyInfo, RouterAllocPrinterNotifyInfo function [Print Devices], print.routerallocprinternotifyinfo, spoolfnc_036587a9-424d-4169-8c90-7de6165a003d.xml, winsplp/RouterAllocPrinterNotifyInfo
 f1_keywords:
  - "winsplp/RouterAllocPrinterNotifyInfo"
+ - "RouterAllocPrinterNotifyInfo"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RILFUNCTIONRESULTS enumeration"]
 ms.keywords: RILFUNCTIONRESULTS, RILFUNCTIONRESULTS enumeration [Network Drivers Starting with Windows Vista], RIL_RESULT_ERROR, netvista.rilfunctionresults, ntddrilapitypes/RILFUNCTIONRESULTS, ntddrilapitypes/RIL_RESULT_ERROR
 f1_keywords:
  - "ntddrilapitypes/RILFUNCTIONRESULTS"
+ - "RILFUNCTIONRESULTS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

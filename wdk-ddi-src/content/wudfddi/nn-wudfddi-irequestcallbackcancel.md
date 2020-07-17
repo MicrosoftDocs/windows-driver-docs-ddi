@@ -10,6 +10,7 @@ keywords: ["IRequestCallbackCancel interface"]
 ms.keywords: IRequestCallbackCancel, IRequestCallbackCancel interface, IRequestCallbackCancel interface,described, UMDFRequestObjectRef_6f54b76d-812d-437c-8c02-7d9e3e177b90.xml, umdf.irequestcallbackcancel, wdf.irequestcallbackcancel, wudfddi/IRequestCallbackCancel
 f1_keywords:
  - "wudfddi/IRequestCallbackCancel"
+ - "IRequestCallbackCancel"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

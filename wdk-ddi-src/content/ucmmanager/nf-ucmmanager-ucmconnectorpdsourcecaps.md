@@ -10,6 +10,7 @@ keywords: ["UcmConnectorPdSourceCaps function"]
 ms.keywords: UcmConnectorPdSourceCaps, UcmConnectorPdSourceCaps method [Buses], buses.ucmconnectorpdsourcecaps, ucmmanager/UcmConnectorPdSourceCaps
 f1_keywords:
  - "ucmmanager/UcmConnectorPdSourceCaps"
+ - "UcmConnectorPdSourceCaps"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

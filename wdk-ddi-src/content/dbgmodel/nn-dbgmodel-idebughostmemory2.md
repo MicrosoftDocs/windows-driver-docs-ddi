@@ -7,6 +7,7 @@ ms.date: 06/11/2019
 keywords: ["IDebugHostMemory2 interface"]
 f1_keywords:
  - "dbgmodel/IDebugHostMemory2"
+ - "IDebugHostMemory2"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

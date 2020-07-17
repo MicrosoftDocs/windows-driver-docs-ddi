@@ -10,6 +10,7 @@ keywords: ["CDROM_READ_TOC_EX structure"]
 ms.keywords: "*PCDROM_READ_TOC_EX, CDROM_READ_TOC_EX, CDROM_READ_TOC_EX structure [Storage Devices], PCDROM_READ_TOC_EX, PCDROM_READ_TOC_EX structure pointer [Storage Devices], _CDROM_READ_TOC_EX, ntddcdrm/CDROM_READ_TOC_EX, ntddcdrm/PCDROM_READ_TOC_EX, storage.cdrom_read_toc_ex, structs-CD-ROM_b12c5d5a-b319-4122-be7f-721bd384dbf2.xml"
 f1_keywords:
  - "ntddcdrm/CDROM_READ_TOC_EX"
+ - "CDROM_READ_TOC_EX"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

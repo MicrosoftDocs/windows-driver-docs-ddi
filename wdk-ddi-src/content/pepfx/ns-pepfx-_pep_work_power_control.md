@@ -10,6 +10,7 @@ keywords: ["_PEP_WORK_POWER_CONTROL structure"]
 ms.keywords: "*PPEP_WORK_POWER_CONTROL, PEP_WORK_POWER_CONTROL, PEP_WORK_POWER_CONTROL structure [Kernel-Mode Driver Architecture], PPEP_WORK_POWER_CONTROL, PPEP_WORK_POWER_CONTROL structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_POWER_CONTROL, kernel.pep_work_power_control, pepfx/PEP_WORK_POWER_CONTROL, pepfx/PPEP_WORK_POWER_CONTROL"
 f1_keywords:
  - "pepfx/PEP_WORK_POWER_CONTROL"
+ - "PEP_WORK_POWER_CONTROL"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

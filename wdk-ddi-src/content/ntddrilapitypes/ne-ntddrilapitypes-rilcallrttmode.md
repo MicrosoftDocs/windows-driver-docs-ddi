@@ -10,6 +10,7 @@ keywords: ["RILCALLRTTMODE enumeration"]
 ms.keywords: RILCALLRTTMODE, RILCALLRTTMODE enumeration [Network Drivers Starting with Windows Vista], RIL_RTTMODE_FULL, RIL_RTTMODE_MAX, netvista.rilcallrttmode, ntddrilapitypes/RILCALLRTTMODE, ntddrilapitypes/RIL_RTTMODE_FULL, ntddrilapitypes/RIL_RTTMODE_MAX
 f1_keywords:
  - "ntddrilapitypes/RILCALLRTTMODE"
+ - "RILCALLRTTMODE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -11,6 +11,7 @@ ms.keywords: "*PSDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY, PSDEV
 f1_keywords:
  - acpitabl/_SDEV_SECURE_ACPI_INFO_ENTRY
  - acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY
+ - ""
 dev_langs:
  - c++
 req.header: acpitabl.h

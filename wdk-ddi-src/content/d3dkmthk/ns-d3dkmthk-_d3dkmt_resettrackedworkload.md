@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_RESETTRACKEDWORKLOAD structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_RESETTRACKEDWORKLOAD"
+ - "_D3DKMT_RESETTRACKEDWORKLOAD"
 ms.keywords: _D3DKMT_RESETTRACKEDWORKLOAD, D3DKMT_RESETTRACKEDWORKLOAD, 
 req.header: d3dkmthk.h
 req.include-header:

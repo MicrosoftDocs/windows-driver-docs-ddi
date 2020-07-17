@@ -10,6 +10,7 @@ keywords: ["ZwReadOnlyEnlistment function"]
 ms.keywords: NtReadOnlyEnlistment, ZwReadOnlyEnlistment, ZwReadOnlyEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwreadonlyenlistment, ktm_ref_d6e64da8-cb5c-4564-be5d-65073fc17375.xml, wdm/NtReadOnlyEnlistment, wdm/ZwReadOnlyEnlistment
 f1_keywords:
  - "wdm/ZwReadOnlyEnlistment"
+ - "ZwReadOnlyEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

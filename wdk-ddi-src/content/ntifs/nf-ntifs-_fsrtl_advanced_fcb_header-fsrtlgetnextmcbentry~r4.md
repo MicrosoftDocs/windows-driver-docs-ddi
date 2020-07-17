@@ -10,6 +10,7 @@ keywords: ["FsRtlGetNextMcbEntry function"]
 ms.keywords: FsRtlGetNextMcbEntry, FsRtlGetNextMcbEntry function [Installable File System Drivers], fsrtlref_3465b156-f358-4049-8480-e59e92ecccbb.xml, ifsk.fsrtlgetnextmcbentry, ntifs/FsRtlGetNextMcbEntry
 f1_keywords:
  - "ntifs/FsRtlGetNextMcbEntry"
+ - "FsRtlGetNextMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

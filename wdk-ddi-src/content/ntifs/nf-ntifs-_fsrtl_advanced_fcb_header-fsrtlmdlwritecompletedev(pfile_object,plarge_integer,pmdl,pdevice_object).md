@@ -10,6 +10,7 @@ keywords: ["FsRtlMdlWriteCompleteDev function"]
 ms.keywords: FsRtlMdlWriteCompleteDev, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlWriteCompleteDev, ifsk.fltfastiomdlwritecomplete
 f1_keywords:
  - "ntifs/FsRtlMdlWriteCompleteDev"
+ - "FsRtlMdlWriteCompleteDev"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

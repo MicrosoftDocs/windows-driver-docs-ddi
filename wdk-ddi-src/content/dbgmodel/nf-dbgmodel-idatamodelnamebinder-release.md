@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDataModelNameBinder::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelNameBinder.Release"
+ - "IDataModelNameBinder.Release"
 ms.keywords: IDataModelNameBinder::Release, Release, IDataModelNameBinder.Release, IDataModelNameBinder::Release, IDataModelNameBinder.Release
 req.header: dbgmodel.h
 req.include-header:

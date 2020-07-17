@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["IDebugHostModule2::GetBaseLocation"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule2.GetBaseLocation"
+ - "IDebugHostModule2.GetBaseLocation"
 ms.keywords: IDebugHostModule2::GetBaseLocation, GetBaseLocation, IDebugHostModule2.GetBaseLocation, IDebugHostModule2::GetBaseLocation, IDebugHostModule2.GetBaseLocation
 req.header: dbgmodel.h
 req.include-header:

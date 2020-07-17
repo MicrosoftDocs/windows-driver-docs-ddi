@@ -8,6 +8,7 @@ ms.date: 11/12/2018
 keywords: ["NetRxQueueCreate function"]
 f1_keywords:
  - "netrxqueue/NetRxQueueCreate"
+ - "NetRxQueueCreate"
 ms.keywords: NetRxQueueCreate
 req.header: netrxqueue.h
 req.include-header: netadaptercx.h

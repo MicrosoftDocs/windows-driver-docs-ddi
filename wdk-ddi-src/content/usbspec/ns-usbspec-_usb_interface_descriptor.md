@@ -10,6 +10,7 @@ keywords: ["_USB_INTERFACE_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR, PUSB_INTERFACE_DESCRIPTOR structure pointer [Buses], USB_INTERFACE_DESCRIPTOR, USB_INTERFACE_DESCRIPTOR structure [Buses], _USB_INTERFACE_DESCRIPTOR, buses.usb_interface_descriptor, usbspec/PUSB_INTERFACE_DESCRIPTOR, usbspec/USB_INTERFACE_DESCRIPTOR, usbstrct_2b4503ac-895a-4e94-87b5-10f286ed0b90.xml"
 f1_keywords:
  - "usbspec/USB_INTERFACE_DESCRIPTOR"
+ - "USB_INTERFACE_DESCRIPTOR"
 req.header: usbspec.h
 req.include-header: Usb100.h
 req.target-type: Windows

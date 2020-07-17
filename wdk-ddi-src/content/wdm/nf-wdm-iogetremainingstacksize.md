@@ -10,6 +10,7 @@ keywords: ["IoGetRemainingStackSize function"]
 ms.keywords: IoGetRemainingStackSize, IoGetRemainingStackSize routine [Kernel-Mode Driver Architecture], k104_bc84d6dd-0874-440d-8f73-b403d18aa660.xml, kernel.iogetremainingstacksize, wdm/IoGetRemainingStackSize
 f1_keywords:
  - "wdm/IoGetRemainingStackSize"
+ - "IoGetRemainingStackSize"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

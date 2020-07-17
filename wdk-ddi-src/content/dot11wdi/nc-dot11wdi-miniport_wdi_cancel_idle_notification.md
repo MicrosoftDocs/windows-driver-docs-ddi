@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION callback function"]
 ms.keywords: MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION, MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION callback, MiniportWdiCancelIdleNotification, MiniportWdiCancelIdleNotification callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiCancelIdleNotification, netvista.miniportwdicancelidlenotification
 f1_keywords:
  - "dot11wdi/MiniportWdiCancelIdleNotification"
+ - "MiniportWdiCancelIdleNotification"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

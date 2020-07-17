@@ -10,6 +10,7 @@ keywords: ["UrsDeviceInitInitialize function"]
 ms.keywords: UrsDeviceInitInitialize, UrsDeviceInitInitialize method [Buses], buses.ursdeviceinitinitialize, ursdevice/UrsDeviceInitInitialize
 f1_keywords:
  - "ursdevice/UrsDeviceInitInitialize"
+ - "UrsDeviceInitInitialize"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows

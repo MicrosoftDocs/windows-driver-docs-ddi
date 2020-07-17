@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_SUBMITCOMMANDFLAGS structure"]
 ms.keywords: D3DDDICB_SUBMITCOMMANDFLAGS, D3DDDICB_SUBMITCOMMANDFLAGS structure [Display Devices], _D3DDDICB_SUBMITCOMMANDFLAGS, d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS, display.d3dddicb_submitcommandflags
 f1_keywords:
  - "d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS"
+ - "D3DDDICB_SUBMITCOMMANDFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

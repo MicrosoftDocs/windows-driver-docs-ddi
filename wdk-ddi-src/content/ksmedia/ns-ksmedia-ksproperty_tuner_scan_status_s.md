@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_TUNER_SCAN_STATUS_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_SCAN_STATUS_S, KSPROPERTY_TUNER_SCAN_STATUS_S, KSPROPERTY_TUNER_SCAN_STATUS_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_SCAN_STATUS_S, PKSPROPERTY_TUNER_SCAN_STATUS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_SCAN_STATUS_S, ksmedia/PKSPROPERTY_TUNER_SCAN_STATUS_S, stream.ksproperty_tuner_scan_status_s, vidcapstruct_70c7d301-6c91-4955-bcaa-67cad29cb15a.xml"
 f1_keywords:
  - "ksmedia/KSPROPERTY_TUNER_SCAN_STATUS_S"
+ - "KSPROPERTY_TUNER_SCAN_STATUS_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

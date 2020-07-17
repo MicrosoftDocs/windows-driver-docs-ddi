@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DCMPFUNC enumeration"]
 f1_keywords:
  - "d3d9types/_D3DCMPFUNC"
+ - "_D3DCMPFUNC"
 ms.keywords: _D3DCMPFUNC, D3DCMPFUNC, 
 req.header: d3d9types.h
 req.include-header:

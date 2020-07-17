@@ -10,6 +10,7 @@ keywords: ["KeReadStateEvent function"]
 ms.keywords: KeReadStateEvent, KeReadStateEvent routine [Kernel-Mode Driver Architecture], k105_f0b95771-5c9f-4573-8dc0-44b8f673b6d7.xml, kernel.kereadstateevent, wdm/KeReadStateEvent
 f1_keywords:
  - "wdm/KeReadStateEvent"
+ - "KeReadStateEvent"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Universal

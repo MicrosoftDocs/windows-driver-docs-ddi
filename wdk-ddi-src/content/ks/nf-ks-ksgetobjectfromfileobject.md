@@ -10,6 +10,7 @@ keywords: ["KsGetObjectFromFileObject function"]
 ms.keywords: KsGetObjectFromFileObject, KsGetObjectFromFileObject function [Streaming Media Devices], avfunc_800add7f-a220-4ad8-92bd-57e102739c8d.xml, ks/KsGetObjectFromFileObject, stream.ksgetobjectfromfileobject
 f1_keywords:
  - "ks/KsGetObjectFromFileObject"
+ - "KsGetObjectFromFileObject"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

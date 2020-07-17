@@ -10,6 +10,7 @@ keywords: ["SRIOV_QUERY_LUID callback"]
 ms.keywords: "*PSRIOV_QUERY_LUID, *PSRIOV_QUERY_LUID callback function pointer [Buses], PCI.sriov_query_luid, SRIOV_QUERY_LUID, SriovQueryLuid, SriovQueryLuid callback function [Buses], pcivirt/SriovQueryLuid"
 f1_keywords:
  - "pcivirt/*PSRIOV_QUERY_LUID"
+ - "*PSRIOV_QUERY_LUID"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

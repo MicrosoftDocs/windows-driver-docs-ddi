@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["SymbolSearchOptions enumeration"]
 f1_keywords:
  - "dbgmodel/SymbolSearchOptions"
+ - "SymbolSearchOptions"
 ms.keywords: SymbolSearchOptions, , 
 req.header: dbgmodel.h
 req.include-header:

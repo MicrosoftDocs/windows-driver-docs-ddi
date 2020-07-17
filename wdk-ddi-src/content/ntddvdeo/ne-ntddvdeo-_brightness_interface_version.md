@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_BRIGHTNESS_INTERFACE_VERSION enumeration"]
 f1_keywords:
  - "ntddvdeo/_BRIGHTNESS_INTERFACE_VERSION"
+ - "_BRIGHTNESS_INTERFACE_VERSION"
 ms.keywords: _BRIGHTNESS_INTERFACE_VERSION, BRIGHTNESS_INTERFACE_VERSION,
 req.header: ntddvdeo.h
 req.include-header:

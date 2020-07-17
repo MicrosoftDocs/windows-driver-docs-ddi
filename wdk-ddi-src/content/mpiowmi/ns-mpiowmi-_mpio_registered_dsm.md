@@ -10,6 +10,7 @@ keywords: ["_MPIO_REGISTERED_DSM structure"]
 ms.keywords: "*PMPIO_REGISTERED_DSM, MPIO_REGISTERED_DSM, MPIO_REGISTERED_DSM structure [Storage Devices], PMPIO_REGISTERED_DSM, PMPIO_REGISTERED_DSM structure pointer [Storage Devices], _MPIO_REGISTERED_DSM, mpiowmi/MPIO_REGISTERED_DSM, mpiowmi/PMPIO_REGISTERED_DSM, storage.mpio_registered_dsm, structs-scsibus_70ceccae-5a45-4ce1-a6de-fa86c3d82d7d.xml"
 f1_keywords:
  - "mpiowmi/MPIO_REGISTERED_DSM"
+ - "MPIO_REGISTERED_DSM"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows

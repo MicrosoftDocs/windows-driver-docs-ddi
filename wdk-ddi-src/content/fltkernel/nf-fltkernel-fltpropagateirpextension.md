@@ -9,6 +9,7 @@ keywords: ["FltPropagateIrpExtension function"]
 ms.keywords: FltPropagateIrpExtension, FltPropagateIrpExtension routine, fltkernel/FltPropagateIrpExtension
 f1_keywords:
  - "fltkernel/FltPropagateIrpExtension"
+ - "FltPropagateIrpExtension"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

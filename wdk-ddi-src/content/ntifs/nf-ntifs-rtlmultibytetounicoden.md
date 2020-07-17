@@ -10,6 +10,7 @@ keywords: ["RtlMultiByteToUnicodeN function"]
 ms.keywords: RtlMultiByteToUnicodeN, RtlMultiByteToUnicodeN routine [Installable File System Drivers], ifsk.rtlmultibytetounicoden, ntifs/RtlMultiByteToUnicodeN, rtlref_c9245403-e17c-479b-ac16-07deb29a56d1.xml
 f1_keywords:
  - "ntifs/RtlMultiByteToUnicodeN"
+ - "RtlMultiByteToUnicodeN"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

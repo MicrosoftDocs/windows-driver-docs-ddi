@@ -7,6 +7,7 @@ ms.date: 08/08/2018
 keywords: ["CollectionsListGetSerializedSize function"]
 f1_keywords:
  - "sensorsutils/CollectionsListGetSerializedSize"
+ - "CollectionsListGetSerializedSize"
 tech.root: sensors
 ms.keywords: CollectionsListGetSerializedSize
 req.header: sensorsutils.h

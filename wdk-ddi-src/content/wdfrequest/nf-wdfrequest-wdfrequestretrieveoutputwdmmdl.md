@@ -10,6 +10,7 @@ keywords: ["WdfRequestRetrieveOutputWdmMdl function"]
 ms.keywords: DFRequestObjectRef_e3ef5371-4d09-406c-9a72-c420822e9fdd.xml, WdfRequestRetrieveOutputWdmMdl, WdfRequestRetrieveOutputWdmMdl method, kmdf.wdfrequestretrieveoutputwdmmdl, wdf.wdfrequestretrieveoutputwdmmdl, wdfrequest/WdfRequestRetrieveOutputWdmMdl
 f1_keywords:
  - "wdfrequest/WdfRequestRetrieveOutputWdmMdl"
+ - "WdfRequestRetrieveOutputWdmMdl"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

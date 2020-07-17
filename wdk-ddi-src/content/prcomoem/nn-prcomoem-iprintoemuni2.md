@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni2 interface"]
 ms.keywords: IPrintOemUni2, IPrintOemUni2 interface [Print Devices], IPrintOemUni2 interface [Print Devices],described, prcomoem/IPrintOemUni2, print.iprintoemuni2_interface, print_unidrv-pscript_rendering_4a9b9325-06ac-4945-b4c6-8af045650439.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni2"
+ - "IPrintOemUni2"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

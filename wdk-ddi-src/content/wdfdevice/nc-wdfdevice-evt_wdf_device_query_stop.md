@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_QUERY_STOP callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_06abba34-8d71-46bf-8496-b6f27fe66dce.xml, EVT_WDF_DEVICE_QUERY_STOP, EVT_WDF_DEVICE_QUERY_STOP callback, EvtDeviceQueryStop, EvtDeviceQueryStop callback function, kmdf.evtdevicequerystop, wdf.evtdevicequerystop, wdfdevice/EvtDeviceQueryStop
 f1_keywords:
  - "wdfdevice/EvtDeviceQueryStop"
+ - "EvtDeviceQueryStop"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

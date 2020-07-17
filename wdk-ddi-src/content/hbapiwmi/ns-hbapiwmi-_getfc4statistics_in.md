@@ -10,6 +10,7 @@ keywords: ["_GetFC4Statistics_IN structure"]
 ms.keywords: "*PGetFC4Statistics_IN, GetFC4Statistics_IN, GetFC4Statistics_IN structure [Storage Devices], PGetFC4Statistics_IN, PGetFC4Statistics_IN structure pointer [Storage Devices], _GetFC4Statistics_IN, hbapiwmi/GetFC4Statistics_IN, hbapiwmi/PGetFC4Statistics_IN, storage.getfc4statistics_in, structs-Fibre_17ea3e0e-1cf9-4cf8-9128-1152e610847c.xml"
 f1_keywords:
  - "hbapiwmi/GetFC4Statistics_IN"
+ - "GetFC4Statistics_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USBFN_TRANSFER_OUT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_TRANSFER_OUT, IOCTL_INTERNAL_USBFN_TRANSFER_OUT control, IOCTL_INTERNAL_USBFN_TRANSFER_OUT control code [Buses], buses.ioctl_internal_usbfn_transfer_out, usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_OUT
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_OUT"
+ - "IOCTL_INTERNAL_USBFN_TRANSFER_OUT"
 req.header: usbfnioctl.h
 req.include-header: 
 req.target-type: Windows

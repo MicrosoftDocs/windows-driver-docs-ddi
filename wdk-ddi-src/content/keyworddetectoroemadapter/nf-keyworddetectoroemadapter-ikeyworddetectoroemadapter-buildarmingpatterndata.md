@@ -10,6 +10,7 @@ keywords: ["IKeywordDetectorOemAdapter::BuildArmingPatternData"]
 ms.keywords: BuildArmingPatternData, BuildArmingPatternData method [Audio Devices], BuildArmingPatternData method [Audio Devices],IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices],BuildArmingPatternData method, IKeywordDetectorOemAdapter.BuildArmingPatternData, IKeywordDetectorOemAdapter::BuildArmingPatternData, audio.ikeyworddetectoroemadapter_buildarmingpatterndata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::BuildArmingPatternData
 f1_keywords:
  - "keyworddetectoroemadapter/IKeywordDetectorOemAdapter.BuildArmingPatternData"
+ - "IKeywordDetectorOemAdapter.BuildArmingPatternData"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows

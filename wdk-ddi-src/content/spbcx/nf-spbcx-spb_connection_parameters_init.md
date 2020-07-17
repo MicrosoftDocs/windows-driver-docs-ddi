@@ -10,6 +10,7 @@ keywords: ["SPB_CONNECTION_PARAMETERS_INIT function"]
 ms.keywords: SPB.spb_connection_parameters_init, SPB_CONNECTION_PARAMETERS_INIT, SPB_CONNECTION_PARAMETERS_INIT function [Buses], spbcx/SPB_CONNECTION_PARAMETERS_INIT
 f1_keywords:
  - "spbcx/SPB_CONNECTION_PARAMETERS_INIT"
+ - "SPB_CONNECTION_PARAMETERS_INIT"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop

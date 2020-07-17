@@ -10,6 +10,7 @@ keywords: ["EVT_VMB_PACKET_COMPLETION_ROUTINE callback function"]
 ms.keywords: EVT_VMB_PACKET_COMPLETION_ROUTINE, EVT_VMB_PACKET_COMPLETION_ROUTINE callback, EvtVmbPacketCompletionRoutine, EvtVmbPacketCompletionRoutine callback function [Network Drivers Starting with Windows Vista], PFN_VMB_PACKET_COMPLETION_ROUTINE, PFN_VMB_PACKET_COMPLETION_ROUTINE callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_packet_completion_routine, vmbuskernelmodeclientlibapi/EvtVmbPacketCompletionRoutine
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/PFN_VMB_PACKET_COMPLETION_ROUTINE"
+ - "PFN_VMB_PACKET_COMPLETION_ROUTINE"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header: VmbusKernelModeClientLibApi.h
 req.target-type: Windows

@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["FsRtlRemoveBaseMcbEntry function"]
 f1_keywords:
  - "ntifs/FsRtlRemoveBaseMcbEntry"
+ - "FsRtlRemoveBaseMcbEntry"
 ms.keywords: FsRtlRemoveBaseMcbEntry
 req.header: ntifs.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IO_CSQ_ACQUIRE_LOCK callback function"]
 ms.keywords: CsqAcquireLock, CsqAcquireLock routine [Kernel-Mode Driver Architecture], DrvrRtns_02339dc6-f9f2-47b0-a0c9-df36f862b5d6.xml, IO_CSQ_ACQUIRE_LOCK, kernel.csqacquirelock, wdm/CsqAcquireLock
 f1_keywords:
  - "wdm/CsqAcquireLock"
+ - "CsqAcquireLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

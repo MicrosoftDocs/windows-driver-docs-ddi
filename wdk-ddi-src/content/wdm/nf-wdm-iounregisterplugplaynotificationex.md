@@ -10,6 +10,7 @@ keywords: ["IoUnregisterPlugPlayNotificationEx function"]
 ms.keywords: IoUnregisterPlugPlayNotificationEx, IoUnregisterPlugPlayNotificationEx routine [Kernel-Mode Driver Architecture], k104_ed460118-9610-4e7b-98fe-3b1cfee74e4b.xml, kernel.iounregisterplugplaynotificationex, wdm/IoUnregisterPlugPlayNotificationEx
 f1_keywords:
  - "wdm/IoUnregisterPlugPlayNotificationEx"
+ - "IoUnregisterPlugPlayNotificationEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

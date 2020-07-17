@@ -10,6 +10,7 @@ keywords: ["GPIO_CLX_UnregisterClient function"]
 ms.keywords: GPIO.gpio_clx_unregisterclient, GPIO_CLX_UnregisterClient, GPIO_CLX_UnregisterClient method [Parallel Ports], gpioclx/GPIO_CLX_UnregisterClient
 f1_keywords:
  - "gpioclx/GPIO_CLX_UnregisterClient"
+ - "GPIO_CLX_UnregisterClient"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Universal

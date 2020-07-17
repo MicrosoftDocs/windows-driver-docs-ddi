@@ -10,6 +10,7 @@ keywords: ["KsGateInitializeOr function"]
 ms.keywords: KsGateInitializeOr, KsGateInitializeOr function [Streaming Media Devices], avfunc_6741b878-dfae-4d40-9040-ab78d32243e2.xml, ks/KsGateInitializeOr, stream.ksgateinitializeor
 f1_keywords:
  - "ks/KsGateInitializeOr"
+ - "KsGateInitializeOr"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

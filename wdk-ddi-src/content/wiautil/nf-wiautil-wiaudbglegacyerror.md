@@ -10,6 +10,7 @@ keywords: ["wiauDbgLegacyError function"]
 ms.keywords: image.wiaudbglegacyerror, wiauDbgLegacyError, wiauDbgLegacyError function [Imaging Devices], wiauFncs_03e81269-0a09-42c4-8d0d-1f808e6ef69e.xml, wiautil/wiauDbgLegacyError
 f1_keywords:
  - "wiautil/wiauDbgLegacyError"
+ - "wiauDbgLegacyError"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

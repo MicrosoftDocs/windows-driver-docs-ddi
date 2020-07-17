@@ -10,6 +10,7 @@ keywords: ["IKsClockPropertySet interface"]
 ms.keywords: IKsClockPropertySet, IKsClockPropertySet interface [Streaming Media Devices], IKsClockPropertySet interface [Streaming Media Devices],described, ksproxy/IKsClockPropertySet, ksproxy_0be3eb82-08b7-4afc-a4e5-3815f7499ad0.xml, stream.iksclockpropertyset
 f1_keywords:
  - "ksproxy/IKsClockPropertySet"
+ - "IKsClockPropertySet"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows

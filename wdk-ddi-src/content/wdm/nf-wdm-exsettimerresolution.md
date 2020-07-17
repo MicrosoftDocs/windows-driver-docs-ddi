@@ -10,6 +10,7 @@ keywords: ["ExSetTimerResolution function"]
 ms.keywords: ExSetTimerResolution, ExSetTimerResolution routine [Kernel-Mode Driver Architecture], k102_09179649-af93-434f-92e0-844a2bdf34dc.xml, kernel.exsettimerresolution, wdm/ExSetTimerResolution
 f1_keywords:
  - "wdm/ExSetTimerResolution"
+ - "ExSetTimerResolution"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_ADAPTERCALLBACKS structure"]
 ms.keywords: D3DDDI_ADAPTERCALLBACKS, D3DDDI_ADAPTERCALLBACKS structure [Display Devices], D3D_other_Structs_6919397d-68ab-4ada-9f39-bf08bc0ac9ae.xml, _D3DDDI_ADAPTERCALLBACKS, d3dumddi/D3DDDI_ADAPTERCALLBACKS, display.d3dddi_adaptercallbacks
 f1_keywords:
  - "d3dumddi/D3DDDI_ADAPTERCALLBACKS"
+ - "D3DDDI_ADAPTERCALLBACKS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

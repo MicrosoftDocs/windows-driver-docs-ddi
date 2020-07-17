@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_VA_RANGE_DESC structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_VA_RANGE_DESC"
+ - "_D3DKMT_VA_RANGE_DESC"
 ms.keywords: _D3DKMT_VA_RANGE_DESC, D3DKMT_VA_RANGE_DESC, 
 req.header: d3dkmthk.h
 req.include-header:

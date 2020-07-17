@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_IO_QUEUE_IO_STOP callback function"]
 ms.keywords: DFQueueObjectRef_b9df4689-1de5-4c08-b2a2-c9f126a7d0bc.xml, EVT_WDF_IO_QUEUE_IO_STOP, EVT_WDF_IO_QUEUE_IO_STOP callback, EvtIoStop, EvtIoStop callback function, kmdf.evtiostop, wdf.evtiostop, wdfio/EvtIoStop
 f1_keywords:
  - "wdfio/EvtIoStop"
+ - "EvtIoStop"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

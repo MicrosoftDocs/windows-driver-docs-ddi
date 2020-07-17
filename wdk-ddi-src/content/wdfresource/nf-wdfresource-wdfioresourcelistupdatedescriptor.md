@@ -10,6 +10,7 @@ keywords: ["WdfIoResourceListUpdateDescriptor function"]
 ms.keywords: DFResourceObjectRef_e9c68945-23e3-47f1-99b1-a0c62944669f.xml, WdfIoResourceListUpdateDescriptor, WdfIoResourceListUpdateDescriptor method, kmdf.wdfioresourcelistupdatedescriptor, wdf.wdfioresourcelistupdatedescriptor, wdfresource/WdfIoResourceListUpdateDescriptor
 f1_keywords:
  - "wdfresource/WdfIoResourceListUpdateDescriptor"
+ - "WdfIoResourceListUpdateDescriptor"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal

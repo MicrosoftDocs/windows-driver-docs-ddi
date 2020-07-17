@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_IO_TARGET_REMOVE_CANCELED callback function"]
 ms.keywords: DFIOTargetRef_5e8c3229-8657-4c26-8bfc-01c8436a8171.xml, EVT_WDF_IO_TARGET_REMOVE_CANCELED, EVT_WDF_IO_TARGET_REMOVE_CANCELED callback, EvtIoTargetRemoveCanceled, EvtIoTargetRemoveCanceled callback function, kmdf.evtiotargetremovecanceled, wdf.evtiotargetremovecanceled, wdfiotarget/EvtIoTargetRemoveCanceled
 f1_keywords:
  - "wdfiotarget/EvtIoTargetRemoveCanceled"
+ - "EvtIoTargetRemoveCanceled"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_RELEASEKEYEDMUTEX structure"]
 ms.keywords: D3DKMT_RELEASEKEYEDMUTEX, D3DKMT_RELEASEKEYEDMUTEX structure [Display Devices], OpenGL_Structs_6f167c25-afb8-4ddc-9441-be713bba78f4.xml, _D3DKMT_RELEASEKEYEDMUTEX, d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX, display.d3dkmt_releasekeyedmutex
 f1_keywords:
  - "d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX"
+ - "D3DKMT_RELEASEKEYEDMUTEX"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

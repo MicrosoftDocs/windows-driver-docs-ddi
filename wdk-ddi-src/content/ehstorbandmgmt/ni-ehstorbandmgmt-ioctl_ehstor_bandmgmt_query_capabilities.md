@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES, IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES control, IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES, storage.ioctl_ehstor_bandmgmt_query_capabilities
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES"
+ - "IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows

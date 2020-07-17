@@ -10,6 +10,7 @@ keywords: ["SD_COMMAND_CLASS enumeration"]
 ms.keywords: SD.sd_command_class, SDCC_APP_CMD, SDCC_STANDARD, SD_COMMAND_CLASS, SD_COMMAND_CLASS enumeration [Buses], sd-structs_ce4cd8ec-a512-422b-aed0-3052619f4f6a.xml, sddef/SDCC_APP_CMD, sddef/SDCC_STANDARD, sddef/SD_COMMAND_CLASS
 f1_keywords:
  - "sddef/SD_COMMAND_CLASS"
+ - "SD_COMMAND_CLASS"
 req.header: sddef.h
 req.include-header: Sddef.h
 req.target-type: Windows

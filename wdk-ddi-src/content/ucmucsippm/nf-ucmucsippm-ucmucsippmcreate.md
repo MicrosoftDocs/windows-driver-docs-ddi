@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UcmUcsiPpmCreate function"]
 f1_keywords:
  - "ucmucsippm/UcmUcsiPpmCreate"
+ - "UcmUcsiPpmCreate"
 ms.keywords: UcmUcsiPpmCreate
 req.header: Ucmucsippm.h
 req.include-header: UcmUcsiCx.h

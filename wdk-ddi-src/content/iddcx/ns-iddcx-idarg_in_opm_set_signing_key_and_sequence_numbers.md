@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS structure"]
 ms.keywords: IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS structure [Display Devices], display.idarg_in_opm_set_signing_key_and_sequence_numbers, iddcx/IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS
 f1_keywords:
  - "iddcx/IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS"
+ - "IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

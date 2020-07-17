@@ -10,6 +10,7 @@ keywords: ["NdisRegisterProtocolDriver function"]
 ms.keywords: NdisRegisterProtocolDriver, NdisRegisterProtocolDriver function [Network Drivers Starting with Windows Vista], ndis/NdisRegisterProtocolDriver, netvista.ndisregisterprotocoldriver, protocol_ndis_functions_ref_023b338a-65cf-4ccb-bce8-d1506f37f632.xml
 f1_keywords:
  - "ndis/NdisRegisterProtocolDriver"
+ - "NdisRegisterProtocolDriver"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

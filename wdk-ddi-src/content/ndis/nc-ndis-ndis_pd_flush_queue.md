@@ -10,6 +10,7 @@ keywords: ["NDIS_PD_FLUSH_QUEUE callback function"]
 ms.keywords: "NDIS_PD_FLUSH_QUEUE_HANDLER, NDIS_PD_FLUSH_QUEUE_HANDLER callback function [Network Drivers Starting with Windows Vista], NDIS_PD_FLUSH_QUEUE, NDIS_PD_FLUSH_QUEUE callback, PDFlushQueue, PDFlushQueue callback function [Network Drivers Starting with Windows Vista], ndis/PDFlushQueue, netvista.pdflushqueue"
 f1_keywords:
  - "ndis/NDIS_PD_FLUSH_QUEUE_HANDLER"
+ - "NDIS_PD_FLUSH_QUEUE_HANDLER"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

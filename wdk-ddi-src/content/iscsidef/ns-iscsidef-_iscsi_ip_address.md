@@ -10,6 +10,7 @@ keywords: ["_ISCSI_IP_Address structure"]
 ms.keywords: "*PISCSI_IP_Address, ISCSI_IP_Address, ISCSI_IP_Address structure [Storage Devices], PISCSI_IP_Address, PISCSI_IP_Address structure pointer [Storage Devices], _ISCSI_IP_Address, iscsidef/ISCSI_IP_Address, iscsidef/PISCSI_IP_Address, storage.iscsi_ip_address, structs-iSCSI_c8f7a419-6398-4ece-a92d-fc0deffbe39a.xml"
 f1_keywords:
  - "iscsidef/ISCSI_IP_Address"
+ - "ISCSI_IP_Address"
 req.header: iscsidef.h
 req.include-header: Iscsidef.h
 req.target-type: Windows

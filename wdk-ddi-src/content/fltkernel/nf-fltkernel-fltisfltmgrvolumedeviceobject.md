@@ -10,6 +10,7 @@ keywords: ["FltIsFltMgrVolumeDeviceObject function"]
 ms.keywords: FltApiRef_e_to_o_95cc07b6-722c-4d2a-bec1-57fff9e2c6e3.xml, FltIsFltMgrVolumeDeviceObject, FltIsFltMgrVolumeDeviceObject routine [Installable File System Drivers], fltkernel/FltIsFltMgrVolumeDeviceObject, ifsk.fltisfltmgrvolumedeviceobject
 f1_keywords:
  - "fltkernel/FltIsFltMgrVolumeDeviceObject"
+ - "FltIsFltMgrVolumeDeviceObject"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

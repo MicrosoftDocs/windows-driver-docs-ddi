@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScriptProvider::GetExtension"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptProvider.GetExtension"
+ - "IDataModelScriptProvider.GetExtension"
 ms.keywords: IDataModelScriptProvider::GetExtension, GetExtension, IDataModelScriptProvider.GetExtension, IDataModelScriptProvider::GetExtension, IDataModelScriptProvider.GetExtension
 req.header: dbgmodel.h
 req.include-header:

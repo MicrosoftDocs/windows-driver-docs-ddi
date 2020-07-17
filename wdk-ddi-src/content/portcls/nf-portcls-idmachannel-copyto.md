@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IDmaChannel::CopyTo"]
 f1_keywords:
  - "portcls/IDmaChannel.CopyTo"
+ - "IDmaChannel.CopyTo"
 ms.keywords: IDmaChannel::CopyTo, CopyTo, IDmaChannel.CopyTo, IDmaChannel::CopyTo, IDmaChannel.CopyTo
 req.header: portcls.h
 req.include-header:

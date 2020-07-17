@@ -10,6 +10,7 @@ keywords: ["KSAC3_ERROR_CONCEALMENT structure"]
 ms.keywords: "*PKSAC3_ERROR_CONCEALMENT, KSAC3_ERROR_CONCEALMENT, KSAC3_ERROR_CONCEALMENT structure [Audio Devices], PKSAC3_ERROR_CONCEALMENT, PKSAC3_ERROR_CONCEALMENT structure pointer [Audio Devices], aud-prop_c5ba7732-b759-4110-8d43-bc4d5b351c6e.xml, audio.ksac3_error_concealment, ksmedia/KSAC3_ERROR_CONCEALMENT, ksmedia/PKSAC3_ERROR_CONCEALMENT"
 f1_keywords:
  - "ksmedia/KSAC3_ERROR_CONCEALMENT"
+ - "KSAC3_ERROR_CONCEALMENT"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

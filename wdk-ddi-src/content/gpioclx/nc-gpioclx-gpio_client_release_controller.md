@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_RELEASE_CONTROLLER callback function"]
 ms.keywords: CLIENT_ReleaseController, CLIENT_ReleaseController callback, CLIENT_ReleaseController callback function [Parallel Ports], GPIO.client_releasecontroller, GPIO_CLIENT_RELEASE_CONTROLLER, gpioclx/CLIENT_ReleaseController
 f1_keywords:
  - "gpioclx/CLIENT_ReleaseController"
+ - "CLIENT_ReleaseController"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop

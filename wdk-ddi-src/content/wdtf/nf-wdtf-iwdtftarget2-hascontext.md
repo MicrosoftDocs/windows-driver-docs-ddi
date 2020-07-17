@@ -10,6 +10,7 @@ keywords: ["IWDTFTarget2::HasContext"]
 ms.keywords: HasContext, HasContext method [Windows Device Testing Framework], HasContext method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],HasContext method, IWDTFTarget2.HasContext, IWDTFTarget2::HasContext, Microsoft.WDTF.IWDTFTarget2.HasContext, Microsoft::WDTF::IWDTFTarget2::HasContext, dtf.iwdtftarget2_hascontext, wdtf/IWDTFTarget2::HasContext
 f1_keywords:
  - "wdtf/IWDTFTarget2.HasContext"
+ - "IWDTFTarget2.HasContext"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

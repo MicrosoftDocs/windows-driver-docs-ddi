@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_ROUND_DN macro"]
 f1_keywords:
  - "ntddstor/DEVICE_DSM_ROUND_DN"
+ - "DEVICE_DSM_ROUND_DN"
 ms.keywords: DEVICE_DSM_ROUND_DN
 req.header: ntddstor.h
 req.include-header:

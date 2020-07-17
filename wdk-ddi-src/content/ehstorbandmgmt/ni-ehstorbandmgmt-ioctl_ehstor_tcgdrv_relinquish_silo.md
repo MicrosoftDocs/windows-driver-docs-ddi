@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO IOCTL"]
 ms.keywords: IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO, IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO control, IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO, storage.ioctl_ehstor_tcgdrv_relinquish_silo
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO"
+ - "IOCTL_EHSTOR_TCGDRV_RELINQUISH_SILO"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfObjectCreate function"]
 ms.keywords: DFGenObjectRef_6d84af32-c9c6-4327-be42-cda437dc80a1.xml, WdfObjectCreate, WdfObjectCreate method, kmdf.wdfobjectcreate, wdf.wdfobjectcreate, wdfobject/WdfObjectCreate
 f1_keywords:
  - "wdfobject/WdfObjectCreate"
+ - "WdfObjectCreate"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["KsGetMediaType function"]
 ms.keywords: KsGetMediaType, KsGetMediaType function [Streaming Media Devices], ksproxy/KsGetMediaType, ksproxy_6472bffc-0280-4954-80f5-7e2ae2b2f49b.xml, stream.ksgetmediatype
 f1_keywords:
  - "ksproxy/KsGetMediaType"
+ - "KsGetMediaType"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

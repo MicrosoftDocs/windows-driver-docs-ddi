@@ -10,6 +10,7 @@ keywords: ["_AVC_STREAM_REQUEST_BLOCK structure"]
 ms.keywords: "*PAVC_STREAM_REQUEST_BLOCK, AVC_STREAM_REQUEST_BLOCK, AVC_STREAM_REQUEST_BLOCK structure [Streaming Media Devices], PAVC_STREAM_REQUEST_BLOCK, PAVC_STREAM_REQUEST_BLOCK structure pointer [Streaming Media Devices], _AVC_STREAM_REQUEST_BLOCK, avcsref_1ea2a63f-ba4a-4fc3-834c-0f0a88de5023.xml, avcstrm/AVC_STREAM_REQUEST_BLOCK, avcstrm/PAVC_STREAM_REQUEST_BLOCK, stream.avc_stream_request_block"
 f1_keywords:
  - "avcstrm/AVC_STREAM_REQUEST_BLOCK"
+ - "AVC_STREAM_REQUEST_BLOCK"
 req.header: avcstrm.h
 req.include-header: Avcstrm.h
 req.target-type: Windows

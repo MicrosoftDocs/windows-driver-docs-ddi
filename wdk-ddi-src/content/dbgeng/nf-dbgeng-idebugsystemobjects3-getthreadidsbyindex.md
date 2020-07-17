@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects3::GetThreadIdsByIndex"]
 ms.keywords: GetThreadIdsByIndex, GetThreadIdsByIndex method [Windows Debugging], GetThreadIdsByIndex method [Windows Debugging],IDebugSystemObjects interface, GetThreadIdsByIndex method [Windows Debugging],IDebugSystemObjects2 interface, GetThreadIdsByIndex method [Windows Debugging],IDebugSystemObjects3 interface, GetThreadIdsByIndex method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetThreadIdsByIndex method, IDebugSystemObjects2 interface [Windows Debugging],GetThreadIdsByIndex method, IDebugSystemObjects2::GetThreadIdsByIndex, IDebugSystemObjects3 interface [Windows Debugging],GetThreadIdsByIndex method, IDebugSystemObjects3.GetThreadIdsByIndex, IDebugSystemObjects3::GetThreadIdsByIndex, IDebugSystemObjects4 interface [Windows Debugging],GetThreadIdsByIndex method, IDebugSystemObjects4::GetThreadIdsByIndex, IDebugSystemObjects::GetThreadIdsByIndex, IDebugSystemObjects_fa12ac17-9a66-45c0-9c91-11236a4a3eab.xml, dbgeng/IDebugSystemObjects2::GetThreadIdsByIndex, dbgeng/IDebugSystemObjects3::GetThreadIdsByIndex, dbgeng/IDebugSystemObjects4::GetThreadIdsByIndex, dbgeng/IDebugSystemObjects::GetThreadIdsByIndex, debugger.getthreadidsbyindex
 f1_keywords:
  - "dbgeng/IDebugSystemObjects.GetThreadIdsByIndex"
+ - "IDebugSystemObjects.GetThreadIdsByIndex"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

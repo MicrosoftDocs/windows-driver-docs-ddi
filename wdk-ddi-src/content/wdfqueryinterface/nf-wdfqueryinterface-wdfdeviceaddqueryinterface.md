@@ -10,6 +10,7 @@ keywords: ["WdfDeviceAddQueryInterface function"]
 ms.keywords: DFDeviceObjectDriverDefIntRef_6d1dbdca-5adf-4641-91c9-7c59e2af6869.xml, WdfDeviceAddQueryInterface, WdfDeviceAddQueryInterface method, kmdf.wdfdeviceaddqueryinterface, wdf.wdfdeviceaddqueryinterface, wdfqueryinterface/WdfDeviceAddQueryInterface
 f1_keywords:
  - "wdfqueryinterface/WdfDeviceAddQueryInterface"
+ - "WdfDeviceAddQueryInterface"
 req.header: wdfqueryinterface.h
 req.include-header: Wdf.h
 req.target-type: Universal

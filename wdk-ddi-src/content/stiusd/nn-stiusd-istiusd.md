@@ -10,6 +10,7 @@ keywords: ["IStiUSD interface"]
 ms.keywords: IStiUSD, IStiUSD interface [Imaging Devices], IStiUSD interface [Imaging Devices],described, image.istiusd_interface_methods, stifnc_2fa7c229-f4c5-455e-ba93-019c5b84dd79.xml, stiusd/IStiUSD
 f1_keywords:
  - "stiusd/IStiUSD"
+ - "IStiUSD"
 req.header: stiusd.h
 req.include-header: 
 req.target-type: Desktop

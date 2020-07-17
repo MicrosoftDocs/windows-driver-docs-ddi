@@ -10,6 +10,7 @@ keywords: ["KsGetImageNameAndResourceId function"]
 ms.keywords: KsGetImageNameAndResourceId, KsGetImageNameAndResourceId function [Streaming Media Devices], ks/KsGetImageNameAndResourceId, ksfunc_b4a55bde-4bbb-494e-969c-924547251e1d.xml, stream.ksgetimagenameandresourceid
 f1_keywords:
  - "ks/KsGetImageNameAndResourceId"
+ - "KsGetImageNameAndResourceId"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

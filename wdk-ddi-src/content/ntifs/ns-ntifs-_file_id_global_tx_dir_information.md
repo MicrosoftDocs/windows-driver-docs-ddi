@@ -10,6 +10,7 @@ keywords: ["_FILE_ID_GLOBAL_TX_DIR_INFORMATION structure"]
 ms.keywords: "*PFILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION, FILE_ID_GLOBAL_TX_DIR_INFORMATION structure [Installable File System Drivers], PFILE_ID_GLOBAL_TX_DIR_INFORMATION, PFILE_ID_GLOBAL_TX_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_ID_GLOBAL_TX_DIR_INFORMATION, ifsk.file_id_global_tx_dir_information, ntifs/FILE_ID_GLOBAL_TX_DIR_INFORMATION, ntifs/PFILE_ID_GLOBAL_TX_DIR_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_ID_GLOBAL_TX_DIR_INFORMATION"
+ - "FILE_ID_GLOBAL_TX_DIR_INFORMATION"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_WDF_CHILD_LIST_CONFIG structure"]
 ms.keywords: "*PWDF_CHILD_LIST_CONFIG, DFDeviceObjectChildListRef_9666f463-1673-4208-9745-e1d12b523569.xml, PWDF_CHILD_LIST_CONFIG, PWDF_CHILD_LIST_CONFIG structure pointer, WDF_CHILD_LIST_CONFIG, WDF_CHILD_LIST_CONFIG structure, _WDF_CHILD_LIST_CONFIG, kmdf.wdf_child_list_config, wdf.wdf_child_list_config, wdfchildlist/PWDF_CHILD_LIST_CONFIG, wdfchildlist/WDF_CHILD_LIST_CONFIG"
 f1_keywords:
  - "wdfchildlist/WDF_CHILD_LIST_CONFIG"
+ - "WDF_CHILD_LIST_CONFIG"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Windows

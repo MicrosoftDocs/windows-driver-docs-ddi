@@ -10,6 +10,7 @@ keywords: ["_UFX_HARDWARE_FAILURE_CONTEXT structure"]
 ms.keywords: "*PUFX_HARDWARE_FAILURE_CONTEXT, PUFX_HARDWARE_FAILURE_CONTEXT, PUFX_HARDWARE_FAILURE_CONTEXT structure pointer [Buses], UFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT structure [Buses], _UFX_HARDWARE_FAILURE_CONTEXT, buses.ufx_hardware_failure_context, ufxbase/PUFX_HARDWARE_FAILURE_CONTEXT, ufxbase/UFX_HARDWARE_FAILURE_CONTEXT"
 f1_keywords:
  - "ufxbase/UFX_HARDWARE_FAILURE_CONTEXT"
+ - "UFX_HARDWARE_FAILURE_CONTEXT"
 req.header: ufxbase.h
 req.include-header: 
 req.target-type: Windows

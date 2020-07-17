@@ -10,6 +10,7 @@ keywords: ["ACPI_OP_REGION_HANDLER callback function"]
 ms.keywords: ACPI_OP_REGION_HANDLER, ACPI_OP_REGION_HANDLER callback, AcpiOpRegionHandler, AcpiOpRegionHandler callback function [ACPI Devices], acpi.pacpi_op_region_handler, opregref_be7bf2cd-0369-4efd-bbdb-5ad7dc28c33d.xml, oprghdlr/AcpiOpRegionHandler
 f1_keywords:
  - "oprghdlr/AcpiOpRegionHandler"
+ - "AcpiOpRegionHandler"
 req.header: oprghdlr.h
 req.include-header: Oprghdlr.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_STOR_LIST_ENTRY structure"]
 ms.keywords: "*PSTOR_LIST_ENTRY, PSTOR_LIST_ENTRY, PSTOR_LIST_ENTRY structure pointer [Storage Devices], STOR_LIST_ENTRY, STOR_LIST_ENTRY structure [Storage Devices], _STOR_LIST_ENTRY, storage.stor_list_entry, storport/PSTOR_LIST_ENTRY, storport/STOR_LIST_ENTRY"
 f1_keywords:
  - "storport/STOR_LIST_ENTRY"
+ - "STOR_LIST_ENTRY"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows

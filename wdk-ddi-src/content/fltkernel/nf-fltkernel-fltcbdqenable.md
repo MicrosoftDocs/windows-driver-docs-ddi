@@ -10,6 +10,7 @@ keywords: ["FltCbdqEnable function"]
 ms.keywords: FltApiRef_a_to_d_518b7b11-d2cd-4d69-9191-da63831da3bd.xml, FltCbdqEnable, FltCbdqEnable function [Installable File System Drivers], fltkernel/FltCbdqEnable, ifsk.fltcbdqenable
 f1_keywords:
  - "fltkernel/FltCbdqEnable"
+ - "FltCbdqEnable"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

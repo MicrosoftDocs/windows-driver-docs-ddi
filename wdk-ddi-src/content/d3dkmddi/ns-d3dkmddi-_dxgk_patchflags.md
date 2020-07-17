@@ -9,6 +9,7 @@ keywords: ["_DXGK_PATCHFLAGS structure"]
 ms.keywords: DXGK_PATCHFLAGS, DXGK_PATCHFLAGS structure [Display Devices], DmStructs_e798cfa4-1915-42c8-87ad-709df6a5555f.xml, _DXGK_PATCHFLAGS, d3dkmddi/DXGK_PATCHFLAGS, display.dxgk_patchflags
 f1_keywords:
  - "d3dkmddi/DXGK_PATCHFLAGS"
+ - "DXGK_PATCHFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

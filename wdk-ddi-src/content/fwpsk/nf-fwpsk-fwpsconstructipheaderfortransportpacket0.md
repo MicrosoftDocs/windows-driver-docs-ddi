@@ -10,6 +10,7 @@ keywords: ["FwpsConstructIpHeaderForTransportPacket0 function"]
 ms.keywords: FwpsConstructIpHeaderForTransportPacket0, FwpsConstructIpHeaderForTransportPacket0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsConstructIpHeaderForTransportPacket0, netvista.fwpsconstructipheaderfortransportpacket0, wfp_ref_2_funct_3_fwps_C_6c1cec4b-8792-49b0-bd89-eb3614b71567.xml
 f1_keywords:
  - "fwpsk/FwpsConstructIpHeaderForTransportPacket0"
+ - "FwpsConstructIpHeaderForTransportPacket0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["wiasValidateItemProperties function"]
 ms.keywords: image.wiasvalidateitemproperties, wiamdef/wiasValidateItemProperties, wiasFncs_98dc1f86-1cba-43c0-9f2a-3598701439bc.xml, wiasValidateItemProperties, wiasValidateItemProperties function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasValidateItemProperties"
+ - "wiasValidateItemProperties"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

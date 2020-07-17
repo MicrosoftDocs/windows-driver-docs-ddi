@@ -7,6 +7,7 @@ ms.date: 06/10/2019
 keywords: ["IDebugHostScriptHost::CreateContext"]
 f1_keywords:
  - "dbgmodel/IDebugHostScriptHost.CreateContext"
+ - "IDebugHostScriptHost.CreateContext"
 ms.keywords: IDebugHostScriptHost::CreateContext, CreateContext, IDebugHostScriptHost.CreateContext, IDebugHostScriptHost::CreateContext, IDebugHostScriptHost.CreateContext
 req.header: dbgmodel.h
 req.include-header:

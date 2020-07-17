@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_SETDEPTHSTENCIL structure"]
 ms.keywords: D3DDDIARG_SETDEPTHSTENCIL, D3DDDIARG_SETDEPTHSTENCIL structure [Display Devices], UMDisplayDriver_param_Structs_8e3b527c-b594-4bed-9fe1-c8f3a410746d.xml, _D3DDDIARG_SETDEPTHSTENCIL, d3dumddi/D3DDDIARG_SETDEPTHSTENCIL, display.d3dddiarg_setdepthstencil
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETDEPTHSTENCIL"
+ - "D3DDDIARG_SETDEPTHSTENCIL"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

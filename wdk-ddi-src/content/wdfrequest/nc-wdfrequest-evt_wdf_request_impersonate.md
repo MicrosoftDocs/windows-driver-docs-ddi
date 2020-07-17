@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_REQUEST_IMPERSONATE callback function"]
 ms.keywords: EVT_WDF_REQUEST_IMPERSONATE, EVT_WDF_REQUEST_IMPERSONATE callback, EvtRequestImpersonate, EvtRequestImpersonate callback function, wdf.evtrequestimpersonate, wdfrequest/EvtRequestImpersonate
 f1_keywords:
  - "wdfrequest/EvtRequestImpersonate"
+ - "EvtRequestImpersonate"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

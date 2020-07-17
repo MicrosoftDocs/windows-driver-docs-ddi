@@ -10,6 +10,7 @@ keywords: ["IRegistryKey interface"]
 ms.keywords: IRegistryKey, IRegistryKey interface [Audio Devices], IRegistryKey interface [Audio Devices],described, audio.iregistrykey, audmp-routines_40bea095-17f2-4b5f-96e8-ab2fed6d82d4.xml, portcls/IRegistryKey
 f1_keywords:
  - "portcls/IRegistryKey"
+ - "IRegistryKey"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

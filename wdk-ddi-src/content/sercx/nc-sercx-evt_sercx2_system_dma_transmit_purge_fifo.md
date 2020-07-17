@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO callback function"]
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitPurgeFifo, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_PURGE_FIFO callback, EvtSerCx2SystemDmaTransmitPurgeFifo, EvtSerCx2SystemDmaTransmitPurgeFifo callback function [Serial Ports], serports.evtsercx2systemdmatransmitpurgefifo
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaTransmitPurgeFifo"
+ - "EvtSerCx2SystemDmaTransmitPurgeFifo"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

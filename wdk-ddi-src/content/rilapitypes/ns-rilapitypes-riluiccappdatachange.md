@@ -10,6 +10,7 @@ keywords: ["RILUICCAPPDATACHANGE structure"]
 ms.keywords: "*LPRILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE structure [Network Drivers Starting with Windows Vista], netvista.riluiccappdatachange, ntddrilapitypes/RILUICCAPPDATACHANGE"
 f1_keywords:
  - "rilapitypes/RILUICCAPPDATACHANGE"
+ - "RILUICCAPPDATACHANGE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

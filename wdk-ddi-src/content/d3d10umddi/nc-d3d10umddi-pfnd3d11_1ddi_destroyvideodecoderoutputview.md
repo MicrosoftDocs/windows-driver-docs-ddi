@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_DESTROYVIDEODECODEROUTPUTVIEW callback function"]
 ms.keywords: PFND3D11_1DDI_DESTROYVIDEODECODEROUTPUTVIEW, PFND3D11_1DDI_DESTROYVIDEODECODEROUTPUTVIEW callback, d3d10umddi/pfnDestroyVideoDecoderOutputView, display.destroyvideodecoderoutputview, pfnDestroyVideoDecoderOutputView, pfnDestroyVideoDecoderOutputView callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnDestroyVideoDecoderOutputView"
+ - "pfnDestroyVideoDecoderOutputView"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

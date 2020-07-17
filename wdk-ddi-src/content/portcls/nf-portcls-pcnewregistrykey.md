@@ -10,6 +10,7 @@ keywords: ["PcNewRegistryKey function"]
 ms.keywords: PcNewRegistryKey, PcNewRegistryKey function [Audio Devices], audio.pcnewregistrykey, audpc-routines_67ac1fc2-b40b-4176-8a86-0f4d6eb15e6a.xml, portcls/PcNewRegistryKey
 f1_keywords:
  - "portcls/PcNewRegistryKey"
+ - "PcNewRegistryKey"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

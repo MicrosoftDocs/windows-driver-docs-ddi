@@ -10,6 +10,7 @@ keywords: ["KsAllocateObjectCreateItem function"]
 ms.keywords: KsAllocateObjectCreateItem, KsAllocateObjectCreateItem function [Streaming Media Devices], ks/KsAllocateObjectCreateItem, ksfunc_57773cdc-d649-4381-9841-deba5beddf73.xml, stream.ksallocateobjectcreateitem
 f1_keywords:
  - "ks/KsAllocateObjectCreateItem"
+ - "KsAllocateObjectCreateItem"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

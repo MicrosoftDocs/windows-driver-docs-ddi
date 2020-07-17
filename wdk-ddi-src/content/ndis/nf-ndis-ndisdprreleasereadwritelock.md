@@ -10,6 +10,7 @@ keywords: ["NdisDprReleaseReadWriteLock function"]
 ms.keywords: NdisDprReleaseReadWriteLock, NdisDprReleaseReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisDprReleaseReadWriteLock, netvista.ndisdprreleasereadwritelock
 f1_keywords:
  - "ndis/NdisDprReleaseReadWriteLock"
+ - "NdisDprReleaseReadWriteLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

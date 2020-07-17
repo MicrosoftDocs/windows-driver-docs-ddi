@@ -9,6 +9,7 @@ keywords: ["PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP callback function"]
 ms.keywords: D3DKMTCheckExclusiveOwnership, D3DKMTCheckExclusiveOwnership callback function [Display Devices], OpenGL_Functions_f5c7a3e5-651c-48f0-b58c-4a6571c10a61.xml, PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP, PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP callback, d3dkmthk/D3DKMTCheckExclusiveOwnership, display.d3dkmtcheckexclusiveownership
 f1_keywords:
  - "d3dkmthk/D3DKMTCheckExclusiveOwnership"
+ - "D3DKMTCheckExclusiveOwnership"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

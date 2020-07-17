@@ -10,6 +10,7 @@ keywords: ["StorPortInitializeListHead function"]
 ms.keywords: StorPortInitializeListHead, StorPortInitializeListHead routine [Storage Devices], storage.storportinitializelisthead, storport/StorPortInitializeListHead
 f1_keywords:
  - "storport/StorPortInitializeListHead"
+ - "StorPortInitializeListHead"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

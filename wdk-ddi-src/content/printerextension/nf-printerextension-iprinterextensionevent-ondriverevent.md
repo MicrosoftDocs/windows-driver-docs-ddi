@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionEvent::OnDriverEvent"]
 ms.keywords: IPrinterExtensionEvent interface [Print Devices],OnDriverEvent method, IPrinterExtensionEvent.OnDriverEvent, IPrinterExtensionEvent::OnDriverEvent, OnDriverEvent, OnDriverEvent method [Print Devices], OnDriverEvent method [Print Devices],IPrinterExtensionEvent interface, print.iprinterextensionevent_ondriverevent, printerextension/IPrinterExtensionEvent::OnDriverEvent
 f1_keywords:
  - "printerextension/IPrinterExtensionEvent.OnDriverEvent"
+ - "IPrinterExtensionEvent.OnDriverEvent"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

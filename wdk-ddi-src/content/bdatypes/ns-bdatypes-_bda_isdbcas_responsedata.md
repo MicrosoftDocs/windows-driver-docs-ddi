@@ -10,6 +10,7 @@ keywords: ["_BDA_ISDBCAS_RESPONSEDATA structure"]
 ms.keywords: "*PBDA_ISDBCAS_RESPONSEDATA, BDA_ISDBCAS_RESPONSEDATA, BDA_ISDBCAS_RESPONSEDATA structure [Streaming Media Devices], PBDA_ISDBCAS_RESPONSEDATA, PBDA_ISDBCAS_RESPONSEDATA structure pointer [Streaming Media Devices], _BDA_ISDBCAS_RESPONSEDATA, bdatypes/BDA_ISDBCAS_RESPONSEDATA, bdatypes/PBDA_ISDBCAS_RESPONSEDATA, stream.bda_isdbcas_responsedata"
 f1_keywords:
  - "bdatypes/BDA_ISDBCAS_RESPONSEDATA"
+ - "BDA_ISDBCAS_RESPONSEDATA"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

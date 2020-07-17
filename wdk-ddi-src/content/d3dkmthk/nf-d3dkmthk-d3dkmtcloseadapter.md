@@ -9,6 +9,7 @@ keywords: ["D3DKMTCloseAdapter function"]
 ms.keywords: D3DKMTCloseAdapter, D3DKMTCloseAdapter callback function [Display Devices], OpenGL_Functions_531edcbd-0ec0-4ae7-8a1a-31ed47084bba.xml, PFND3DKMT_CLOSEADAPTER, PFND3DKMT_CLOSEADAPTER callback, d3dkmthk/D3DKMTCloseAdapter, display.d3dkmtcloseadapter
 f1_keywords:
  - "d3dkmthk/D3DKMTCloseAdapter"
+ - "D3DKMTCloseAdapter"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

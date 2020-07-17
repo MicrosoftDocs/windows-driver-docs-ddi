@@ -9,6 +9,7 @@ keywords: ["_DXGK_UPDATEPAGETABLEFLAGS structure"]
 ms.keywords: DXGK_UPDATEPAGETABLEFLAGS, DXGK_UPDATEPAGETABLEFLAGS structure [Display Devices], _DXGK_UPDATEPAGETABLEFLAGS, d3dkmddi/DXGK_UPDATEPAGETABLEFLAGS, display.dxgk_updatepagetableflags
 f1_keywords:
  - "d3dkmddi/DXGK_UPDATEPAGETABLEFLAGS"
+ - "DXGK_UPDATEPAGETABLEFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

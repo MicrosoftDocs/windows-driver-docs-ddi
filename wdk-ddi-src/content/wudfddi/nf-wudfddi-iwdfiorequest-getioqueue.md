@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::GetIoQueue"]
 ms.keywords: GetIoQueue, GetIoQueue method, GetIoQueue method,IWDFIoRequest interface, IWDFIoRequest interface,GetIoQueue method, IWDFIoRequest.GetIoQueue, IWDFIoRequest::GetIoQueue, UMDFRequestObjectRef_1e603d95-06ae-45a8-ab4d-3592d6e140bf.xml, umdf.iwdfiorequest_getioqueue, wdf.iwdfiorequest_getioqueue, wudfddi/IWDFIoRequest::GetIoQueue
 f1_keywords:
  - "wudfddi/IWDFIoRequest.GetIoQueue"
+ - "IWDFIoRequest.GetIoQueue"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

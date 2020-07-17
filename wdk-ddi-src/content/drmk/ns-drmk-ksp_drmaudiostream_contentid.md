@@ -10,6 +10,7 @@ keywords: ["KSP_DRMAUDIOSTREAM_CONTENTID structure"]
 ms.keywords: "*PKSP_DRMAUDIOSTREAM_CONTENTID, KSP_DRMAUDIOSTREAM_CONTENTID, KSP_DRMAUDIOSTREAM_CONTENTID structure [Audio Devices], PKSP_DRMAUDIOSTREAM_CONTENTID, PKSP_DRMAUDIOSTREAM_CONTENTID structure pointer [Audio Devices], aud-prop_f18ac59e-1ebf-4e98-8bab-1f54f76c6a64.xml, audio.ksp_drmaudiostream_contentid, drmk/KSP_DRMAUDIOSTREAM_CONTENTID, drmk/PKSP_DRMAUDIOSTREAM_CONTENTID"
 f1_keywords:
  - "drmk/KSP_DRMAUDIOSTREAM_CONTENTID"
+ - "KSP_DRMAUDIOSTREAM_CONTENTID"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Windows

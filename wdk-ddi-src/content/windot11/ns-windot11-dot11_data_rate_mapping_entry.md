@@ -10,6 +10,7 @@ keywords: ["DOT11_DATA_RATE_MAPPING_ENTRY structure"]
 ms.keywords: "*PDOT11_DATA_RATE_MAPPING_ENTRY, DOT11_DATA_RATE_MAPPING_ENTRY, DOT11_DATA_RATE_MAPPING_ENTRY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_465aabe5-c790-4e3d-ae63-3313dd487eb5.xml, PDOT11_DATA_RATE_MAPPING_ENTRY, PDOT11_DATA_RATE_MAPPING_ENTRY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_data_rate_mapping_entry, windot11/DOT11_DATA_RATE_MAPPING_ENTRY, windot11/PDOT11_DATA_RATE_MAPPING_ENTRY"
 f1_keywords:
  - "windot11/DOT11_DATA_RATE_MAPPING_ENTRY"
+ - "DOT11_DATA_RATE_MAPPING_ENTRY"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

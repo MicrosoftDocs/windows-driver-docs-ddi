@@ -10,6 +10,7 @@ keywords: ["VideoPortDebugPrint function"]
 ms.keywords: VideoPortDebugPrint, VideoPortDebugPrint function [Display Devices], VideoPort_Functions_a98adb70-bb89-4d0d-8922-836056896a61.xml, display.videoportdebugprint, video/VideoPortDebugPrint
 f1_keywords:
  - "video/VideoPortDebugPrint"
+ - "VideoPortDebugPrint"
 req.header: video.h
 req.include-header: 
 req.target-type: Desktop

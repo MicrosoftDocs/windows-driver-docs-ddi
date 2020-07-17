@@ -10,6 +10,7 @@ keywords: ["_WWAN_AUTH_METHOD enumeration"]
 ms.keywords: "*PWWAN_AUTH_METHOD, WWAN_AUTH_METHOD, WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], WwanAuthAka, WwanAuthAkaPrime, WwanAuthMethodMax, WwanAuthSim, _WWAN_AUTH_METHOD, netvista.wwan_auth_method, wwan/WWAN_AUTH_METHOD, wwan/WwanAuthAka, wwan/WwanAuthAkaPrime, wwan/WwanAuthMethodMax, wwan/WwanAuthSim"
 f1_keywords:
  - "wwan/WWAN_AUTH_METHOD"
+ - "WWAN_AUTH_METHOD"
 req.header: wwan.h
 req.include-header: 
 req.target-type: Windows

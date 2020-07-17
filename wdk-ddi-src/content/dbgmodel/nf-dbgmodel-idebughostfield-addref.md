@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostField::AddRef"]
 f1_keywords:
  - "dbgmodel/IDebugHostField.AddRef"
+ - "IDebugHostField.AddRef"
 ms.keywords: IDebugHostField::AddRef, AddRef, IDebugHostField.AddRef, IDebugHostField::AddRef, IDebugHostField.AddRef
 req.header: dbgmodel.h
 req.include-header:

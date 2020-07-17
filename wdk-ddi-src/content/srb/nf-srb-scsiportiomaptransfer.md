@@ -10,6 +10,7 @@ keywords: ["ScsiPortIoMapTransfer function"]
 ms.keywords: ScsiPortIoMapTransfer, ScsiPortIoMapTransfer routine [Storage Devices], scsiprt_9473c978-7355-4296-b8ac-07b20f6ea441.xml, srb/ScsiPortIoMapTransfer, storage.scsiportiomaptransfer
 f1_keywords:
  - "srb/ScsiPortIoMapTransfer"
+ - "ScsiPortIoMapTransfer"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

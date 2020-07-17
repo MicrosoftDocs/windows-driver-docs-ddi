@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_FRAMEBUFFERSAVEAREA structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_FRAMEBUFFERSAVEAREA"
+ - "_DXGK_FRAMEBUFFERSAVEAREA"
 ms.keywords: _DXGK_FRAMEBUFFERSAVEAREA, DXGK_FRAMEBUFFERSAVEAREA,
 req.header: d3dkmddi.h
 req.include-header:

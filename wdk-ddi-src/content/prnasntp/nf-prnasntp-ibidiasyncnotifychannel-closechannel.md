@@ -10,6 +10,7 @@ keywords: ["IBidiAsyncNotifyChannel::CloseChannel"]
 ms.keywords: CloseChannel, CloseChannel method [Print Devices], CloseChannel method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],CloseChannel method, IBidiAsyncNotifyChannel.CloseChannel, IBidiAsyncNotifyChannel::CloseChannel, print.ibidiasyncnotifychannel_closechannel, prnasntp/IBidiAsyncNotifyChannel::CloseChannel
 f1_keywords:
  - "prnasntp/IBidiAsyncNotifyChannel.CloseChannel"
+ - "IBidiAsyncNotifyChannel.CloseChannel"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["FsRtlIsAnsiCharacterWild macro"]
 ms.keywords: FsRtlIsAnsiCharacterWild, FsRtlIsAnsiCharacterWild function [Installable File System Drivers], fsrtlref_f5a31572-36b5-4bc3-8224-a4a7d8b74c65.xml, ifsk.fsrtlisansicharacterwild, ntifs/FsRtlIsAnsiCharacterWild
 f1_keywords:
  - "ntifs/FsRtlIsAnsiCharacterWild"
+ - "FsRtlIsAnsiCharacterWild"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

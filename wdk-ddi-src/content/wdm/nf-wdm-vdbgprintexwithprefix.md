@@ -10,6 +10,7 @@ keywords: ["vDbgPrintExWithPrefix function"]
 ms.keywords: DebugFns_483dc845-dd53-48a5-b879-cf69158016aa.xml, devtest.vdbgprintexwithprefix, vDbgPrintExWithPrefix, vDbgPrintExWithPrefix routine [Driver Development Tools], wdm/vDbgPrintExWithPrefix
 f1_keywords:
  - "wdm/vDbgPrintExWithPrefix"
+ - "vDbgPrintExWithPrefix"
 req.header: wdm.h
 req.include-header: Dpfilter.h, Wdm.h, Ntddk.h, Ndis.h
 req.target-type: Universal

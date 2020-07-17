@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_GET_SEGMENT_CAPS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GET_SEGMENT_CAPS"
+ - "_D3DKMT_GET_SEGMENT_CAPS"
 ms.keywords: _D3DKMT_GET_SEGMENT_CAPS, D3DKMT_GET_SEGMENT_CAPS, 
 req.header: d3dkmthk.h
 req.include-header:

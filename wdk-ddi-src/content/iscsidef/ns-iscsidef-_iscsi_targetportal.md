@@ -10,6 +10,7 @@ keywords: ["_ISCSI_TargetPortal structure"]
 ms.keywords: "*PISCSI_TargetPortal, ISCSI_TargetPortal, ISCSI_TargetPortal structure [Storage Devices], PISCSI_TargetPortal, PISCSI_TargetPortal structure pointer [Storage Devices], _ISCSI_TargetPortal, iscsidef/ISCSI_TargetPortal, iscsidef/PISCSI_TargetPortal, storage.iscsi_targetportal, structs-iSCSI_fcbc99fd-e52d-45f4-b525-03c2d925f382.xml"
 f1_keywords:
  - "iscsidef/ISCSI_TargetPortal"
+ - "ISCSI_TargetPortal"
 req.header: iscsidef.h
 req.include-header: Iscsidef.h
 req.target-type: Windows

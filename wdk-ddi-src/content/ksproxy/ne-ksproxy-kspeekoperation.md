@@ -10,6 +10,7 @@ keywords: ["KSPEEKOPERATION enumeration"]
 ms.keywords: KSPEEKOPERATION, KSPEEKOPERATION enumeration [Streaming Media Devices], KsPeekOperation_AddRef, KsPeekOperation_PeekOnly, ksproxy/KSPEEKOPERATION, ksproxy/KsPeekOperation_AddRef, ksproxy/KsPeekOperation_PeekOnly, stream.kspeekoperation
 f1_keywords:
  - "ksproxy/KSPEEKOPERATION"
+ - "KSPEEKOPERATION"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows

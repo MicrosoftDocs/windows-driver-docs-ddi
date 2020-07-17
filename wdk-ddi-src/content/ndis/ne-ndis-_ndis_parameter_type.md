@@ -10,6 +10,7 @@ keywords: ["_NDIS_PARAMETER_TYPE enumeration"]
 ms.keywords: "*PNDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisParameterBinary, NdisParameterHexInteger, NdisParameterInteger, NdisParameterMultiString, NdisParameterString, PNDIS_PARAMETER_TYPE, PNDIS_PARAMETER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_PARAMETER_TYPE, ndis/NDIS_PARAMETER_TYPE, ndis/NdisParameterBinary, ndis/NdisParameterHexInteger, ndis/NdisParameterInteger, ndis/NdisParameterMultiString, ndis/NdisParameterString, ndis/PNDIS_PARAMETER_TYPE, ndis_configuration_ref_05a453df-2660-470b-8eaf-7a59dcb20e04.xml, netvista.ndis_parameter_type"
 f1_keywords:
  - "ndis/NDIS_PARAMETER_TYPE"
+ - "NDIS_PARAMETER_TYPE"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

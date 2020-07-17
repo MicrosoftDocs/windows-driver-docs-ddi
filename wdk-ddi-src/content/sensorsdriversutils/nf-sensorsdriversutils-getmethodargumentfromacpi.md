@@ -7,6 +7,7 @@ ms.date: 04/19/2018
 keywords: ["GetMethodArgumentFromAcpi function"]
 f1_keywords:
  - "sensorsdriversutils/GetMethodArgumentFromAcpi"
+ - "GetMethodArgumentFromAcpi"
 ms.keywords: GetMethodArgumentFromAcpi
 req.header: sensorsdriversutils.h
 req.include-header:

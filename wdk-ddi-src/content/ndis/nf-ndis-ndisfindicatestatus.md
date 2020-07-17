@@ -10,6 +10,7 @@ keywords: ["NdisFIndicateStatus function"]
 ms.keywords: NdisFIndicateStatus, NdisFIndicateStatus function [Network Drivers Starting with Windows Vista], ndis/NdisFIndicateStatus, ndis_status_ref_e649b130-878b-4019-b377-dd099de6eb8e.xml, netvista.ndisfindicatestatus
 f1_keywords:
  - "ndis/NdisFIndicateStatus"
+ - "NdisFIndicateStatus"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

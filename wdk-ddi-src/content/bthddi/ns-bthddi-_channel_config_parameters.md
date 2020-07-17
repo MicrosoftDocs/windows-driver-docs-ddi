@@ -10,6 +10,7 @@ keywords: ["_CHANNEL_CONFIG_PARAMETERS structure"]
 ms.keywords: "*PCHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS, CHANNEL_CONFIG_PARAMETERS structure [Bluetooth Devices], PCHANNEL_CONFIG_PARAMETERS, PCHANNEL_CONFIG_PARAMETERS structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_PARAMETERS, bltooth.channel_config_parameters, bth_structs_c5360d7a-eb76-4b27-8507-8de862737a06.xml, bthddi/CHANNEL_CONFIG_PARAMETERS, bthddi/PCHANNEL_CONFIG_PARAMETERS"
 f1_keywords:
  - "bthddi/CHANNEL_CONFIG_PARAMETERS"
+ - "CHANNEL_CONFIG_PARAMETERS"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

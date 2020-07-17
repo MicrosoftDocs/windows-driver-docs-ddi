@@ -10,6 +10,7 @@ keywords: ["ZwQueryInformationEnlistment function"]
 ms.keywords: NtQueryInformationEnlistment, ZwQueryInformationEnlistment, ZwQueryInformationEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationenlistment, ktm_ref_f9039d82-41a8-4696-9393-cb9ea0d8d279.xml, wdm/NtQueryInformationEnlistment, wdm/ZwQueryInformationEnlistment
 f1_keywords:
  - "wdm/ZwQueryInformationEnlistment"
+ - "ZwQueryInformationEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IDebugFailureAnalysis2::GetDebugFATagControl"]
 ms.keywords: GetDebugFATagControl, GetDebugFATagControl method [Windows Debugging], GetDebugFATagControl method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetDebugFATagControl method, IDebugFailureAnalysis2.GetDebugFATagControl, IDebugFailureAnalysis2::GetDebugFATagControl, debugger.idebugfailureanalysis2_getdebugfatagcontrol, extsfns/IDebugFailureAnalysis2::GetDebugFATagControl
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.GetDebugFATagControl"
+ - "IDebugFailureAnalysis2.GetDebugFATagControl"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop

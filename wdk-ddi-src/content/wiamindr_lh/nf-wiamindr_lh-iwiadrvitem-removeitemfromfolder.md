@@ -10,6 +10,7 @@ keywords: ["IWiaDrvItem::RemoveItemFromFolder"]
 ms.keywords: DrvItem_240e14a4-36bd-4a72-b143-6f8f5c220682.xml, IWiaDrvItem interface [Imaging Devices],RemoveItemFromFolder method, IWiaDrvItem.RemoveItemFromFolder, IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder, RemoveItemFromFolder method [Imaging Devices], RemoveItemFromFolder method [Imaging Devices],IWiaDrvItem interface, image.iwiadrvitem_removeitemfromfolder, wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem.RemoveItemFromFolder"
+ - "IWiaDrvItem.RemoveItemFromFolder"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop

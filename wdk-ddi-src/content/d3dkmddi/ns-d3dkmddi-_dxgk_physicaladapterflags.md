@@ -9,6 +9,7 @@ keywords: ["_DXGK_PHYSICALADAPTERFLAGS structure"]
 ms.keywords: DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS structure [Display Devices], _DXGK_PHYSICALADAPTERFLAGS, d3dkmddi/DXGK_PHYSICALADAPTERFLAGS, display.dxgk_physicaladapterflags
 f1_keywords:
  - "d3dkmddi/DXGK_PHYSICALADAPTERFLAGS"
+ - "DXGK_PHYSICALADAPTERFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

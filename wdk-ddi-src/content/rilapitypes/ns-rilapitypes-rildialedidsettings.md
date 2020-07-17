@@ -10,6 +10,7 @@ keywords: ["RILDIALEDIDSETTINGS structure"]
 ms.keywords: "*LPRILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rildialedidsettings, ntddrilapitypes/RILDIALEDIDSETTINGS"
 f1_keywords:
  - "rilapitypes/RILDIALEDIDSETTINGS"
+ - "RILDIALEDIDSETTINGS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

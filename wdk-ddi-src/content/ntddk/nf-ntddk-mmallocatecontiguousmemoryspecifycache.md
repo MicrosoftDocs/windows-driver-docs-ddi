@@ -10,6 +10,7 @@ keywords: ["MmAllocateContiguousMemorySpecifyCache function"]
 ms.keywords: MmAllocateContiguousMemorySpecifyCache, MmAllocateContiguousMemorySpecifyCache routine [Kernel-Mode Driver Architecture], k106_764af538-9f9b-432b-af6a-4a6b7addd95d.xml, kernel.mmallocatecontiguousmemoryspecifycache, wdm/MmAllocateContiguousMemorySpecifyCache
 f1_keywords:
  - "ntddk/MmAllocateContiguousMemorySpecifyCache"
+ - "MmAllocateContiguousMemorySpecifyCache"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

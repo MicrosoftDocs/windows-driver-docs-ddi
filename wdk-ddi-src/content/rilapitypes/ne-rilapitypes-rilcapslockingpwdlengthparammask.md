@@ -10,6 +10,7 @@ keywords: ["RILCAPSLOCKINGPWDLENGTHPARAMMASK enumeration"]
 ms.keywords: RILCAPSLOCKINGPWDLENGTHPARAMMASK, RILCAPSLOCKINGPWDLENGTHPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CLPL_ALL, RIL_PARAM_CLPL_PASSWORDLENGTH, netvista.rilcapslockingpwdlengthparammask, ntddrilapitypes/RILCAPSLOCKINGPWDLENGTHPARAMMASK, ntddrilapitypes/RIL_PARAM_CLPL_ALL, ntddrilapitypes/RIL_PARAM_CLPL_PASSWORDLENGTH
 f1_keywords:
  - "rilapitypes/RILCAPSLOCKINGPWDLENGTHPARAMMASK"
+ - "RILCAPSLOCKINGPWDLENGTHPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

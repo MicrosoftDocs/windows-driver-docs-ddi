@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeReadSynchronously function"]
 ms.keywords: DFUsbRef_97551c52-37b0-4ed7-a961-921ed0e990b6.xml, WdfUsbTargetPipeReadSynchronously, WdfUsbTargetPipeReadSynchronously method, kmdf.wdfusbtargetpipereadsynchronously, wdf.wdfusbtargetpipereadsynchronously, wdfusb/WdfUsbTargetPipeReadSynchronously
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeReadSynchronously"
+ - "WdfUsbTargetPipeReadSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

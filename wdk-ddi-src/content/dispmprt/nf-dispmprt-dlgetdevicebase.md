@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlGetDeviceBase function"]
 f1_keywords:
  - "dispmprt/DlGetDeviceBase"
+ - "DlGetDeviceBase"
 ms.keywords: DlGetDeviceBase
 req.header: dispmprt.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_WHEA_TIMESTAMP structure"]
 ms.keywords: "*PWHEA_TIMESTAMP, PWHEA_TIMESTAMP, PWHEA_TIMESTAMP union pointer [WHEA Drivers and Applications], WHEA_TIMESTAMP, WHEA_TIMESTAMP union [WHEA Drivers and Applications], _WHEA_TIMESTAMP, ntddk/PWHEA_TIMESTAMP, ntddk/WHEA_TIMESTAMP, whea.whea_timestamp, whearef_d0fafe3b-0cea-4adf-a68a-b565e04ae258.xml"
 f1_keywords:
  - "ntddk/WHEA_TIMESTAMP"
+ - "WHEA_TIMESTAMP"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfDeviceWdmDispatchPreprocessedIrp function"]
 ms.keywords: DFDeviceObjectGeneralRef_e861729e-006d-413c-9f7e-60e2fae72c1f.xml, WdfDeviceWdmDispatchPreprocessedIrp, WdfDeviceWdmDispatchPreprocessedIrp method, kmdf.wdfdevicewdmdispatchpreprocessedirp, wdf.wdfdevicewdmdispatchpreprocessedirp, wdfdevice/WdfDeviceWdmDispatchPreprocessedIrp
 f1_keywords:
  - "wdfdevice/WdfDeviceWdmDispatchPreprocessedIrp"
+ - "WdfDeviceWdmDispatchPreprocessedIrp"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

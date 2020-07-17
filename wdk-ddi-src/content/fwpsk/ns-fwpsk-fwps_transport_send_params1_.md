@@ -10,6 +10,7 @@ keywords: ["FWPS_TRANSPORT_SEND_PARAMS1_ structure"]
 ms.keywords: FWPS_TRANSPORT_SEND_PARAMS1, FWPS_TRANSPORT_SEND_PARAMS1 structure [Network Drivers Starting with Windows Vista], FWPS_TRANSPORT_SEND_PARAMS1_, fwpsk/FWPS_TRANSPORT_SEND_PARAMS1, netvista.fwps_transport_send_params1, wfp_ref_3_struct_3_fwps_P-Z_55024e38-5ae1-4a2c-8595-2722e481a947.xml
 f1_keywords:
  - "fwpsk/FWPS_TRANSPORT_SEND_PARAMS1"
+ - "FWPS_TRANSPORT_SEND_PARAMS1"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

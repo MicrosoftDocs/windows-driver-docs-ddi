@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::DisablePDEV"]
 ms.keywords: DisablePDEV, DisablePDEV method [Print Devices], DisablePDEV method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],DisablePDEV method, IPrintOemUni.DisablePDEV, IPrintOemUni::DisablePDEV, prcomoem/IPrintOemUni::DisablePDEV, print.iprintoemuni_disablepdev, print_unidrv-pscript_rendering_e904ec4d-9153-4427-a98a-1bd4dc381530.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.DisablePDEV"
+ - "IPrintOemUni.DisablePDEV"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

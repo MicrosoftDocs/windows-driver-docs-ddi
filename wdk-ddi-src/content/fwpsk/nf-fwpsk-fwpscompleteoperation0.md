@@ -10,6 +10,7 @@ keywords: ["FwpsCompleteOperation0 function"]
 ms.keywords: FwpsCompleteOperation0, FwpsCompleteOperation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCompleteOperation0, netvista.fwpscompleteoperation0, wfp_ref_2_funct_3_fwps_C_bfabbf4d-812a-411f-b9ef-c2e6f145404d.xml
 f1_keywords:
  - "fwpsk/FwpsCompleteOperation0"
+ - "FwpsCompleteOperation0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

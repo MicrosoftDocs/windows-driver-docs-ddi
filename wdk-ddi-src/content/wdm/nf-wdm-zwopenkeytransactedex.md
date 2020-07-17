@@ -10,6 +10,7 @@ keywords: ["ZwOpenKeyTransactedEx function"]
 ms.keywords: ZwOpenKeyTransactedEx, ZwOpenKeyTransactedEx routine [Kernel-Mode Driver Architecture], k111_765ab476-0a2a-4eb4-ba87-387fa49ae118.xml, kernel.zwopenkeytransactedex, wdm/ZwOpenKeyTransactedEx
 f1_keywords:
  - "wdm/ZwOpenKeyTransactedEx"
+ - "ZwOpenKeyTransactedEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

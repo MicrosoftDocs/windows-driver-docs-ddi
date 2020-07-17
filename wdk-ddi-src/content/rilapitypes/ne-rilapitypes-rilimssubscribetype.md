@@ -10,6 +10,7 @@ keywords: ["RILIMSSUBSCRIBETYPE enumeration"]
 ms.keywords: RILIMSSUBSCRIBETYPE, RILIMSSUBSCRIBETYPE enumeration [Network Drivers Starting with Windows Vista], RIL_IMSSUBSCRIBETYPE_CONFERENCE, RIL_IMSSUBSCRIBETYPE_MAX, RIL_IMSSUBSCRIBETYPE_MWI, netvista.rilimssubscribetype, ntddrilapitypes/RILIMSSUBSCRIBETYPE, ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_CONFERENCE, ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_MAX, ntddrilapitypes/RIL_IMSSUBSCRIBETYPE_MWI
 f1_keywords:
  - "rilapitypes/RILIMSSUBSCRIBETYPE"
+ - "RILIMSSUBSCRIBETYPE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

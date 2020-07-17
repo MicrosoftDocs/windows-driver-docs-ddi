@@ -10,6 +10,7 @@ keywords: ["__RxFillAndInstallFastIoDispatch function"]
 ms.keywords: "__RxFillAndInstallFastIoDispatch, __RxFillAndInstallFastIoDispatch function [Installable File System Drivers], ifsk.__rxfillandinstallfastiodispatch, mrx/__RxFillAndInstallFastIoDispatch, rxref_5898351a-a474-44bb-8ba0-3d2edf81d073.xml"
 f1_keywords:
  - "mrx/__RxFillAndInstallFastIoDispatch"
+ - "__RxFillAndInstallFastIoDispatch"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

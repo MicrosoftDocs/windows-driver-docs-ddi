@@ -10,6 +10,7 @@ keywords: ["MINIPORT_CANCEL_SEND callback function"]
 ms.keywords: MINIPORT_CANCEL_SEND, MINIPORT_CANCEL_SEND callback, MiniportCancelSend, MiniportCancelSend callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelSend, ndis_sendrcv_ref_86f1ff8c-c68b-49e3-8d77-883d7e055961.xml, netvista.miniportcancelsend
 f1_keywords:
  - "ndis/MiniportCancelSend"
+ - "MiniportCancelSend"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

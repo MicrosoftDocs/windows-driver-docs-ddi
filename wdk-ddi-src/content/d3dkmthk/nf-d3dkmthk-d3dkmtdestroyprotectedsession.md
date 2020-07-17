@@ -9,6 +9,7 @@ keywords: ["D3DKMTDestroyProtectedSession function"]
 ms.keywords: D3DKMTDestroyProtectedSession, D3DKMTDestroyProtectedSession method [Display Devices], d3dkmthk/D3DKMTDestroyProtectedSession, display.d3dkmtdestroyprotectedsession
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyProtectedSession"
+ - "D3DKMTDestroyProtectedSession"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

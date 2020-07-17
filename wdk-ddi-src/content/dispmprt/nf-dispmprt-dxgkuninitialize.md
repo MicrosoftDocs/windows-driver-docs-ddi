@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DxgkUnInitialize function"]
 f1_keywords:
  - "dispmprt/DxgkUnInitialize"
+ - "DxgkUnInitialize"
 ms.keywords: DxgkUnInitialize
 req.header: dispmprt.h
 req.include-header:

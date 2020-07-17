@@ -10,6 +10,7 @@ keywords: ["_UCM_PD_POWER_DATA_OBJECT structure"]
 ms.keywords: "*PUCM_PD_POWER_DATA_OBJECT, PUCM_PD_POWER_DATA_OBJECT, PUCM_PD_POWER_DATA_OBJECT union pointer [Buses], UCM_PD_POWER_DATA_OBJECT, UCM_PD_POWER_DATA_OBJECT union [Buses], _UCM_PD_POWER_DATA_OBJECT, buses.ucm_pd_power_data_object, ucmtypes/PUCM_PD_POWER_DATA_OBJECT, ucmtypes/UCM_PD_POWER_DATA_OBJECT"
 f1_keywords:
  - "ucmtypes/UCM_PD_POWER_DATA_OBJECT"
+ - "UCM_PD_POWER_DATA_OBJECT"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

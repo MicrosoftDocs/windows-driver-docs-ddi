@@ -10,6 +10,7 @@ keywords: ["DevQueryPrintEx function"]
 ms.keywords: DevQueryPrintEx, DevQueryPrintEx function [Print Devices], print.devqueryprintex, print_interface-graphics_37504c69-c747-4758-928c-1ebd60e64c94.xml, winddiui/DevQueryPrintEx
 f1_keywords:
  - "winddiui/DevQueryPrintEx"
+ - "DevQueryPrintEx"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["ISynthSinkDMus::Render"]
 ms.keywords: ISynthSinkDMus interface [Audio Devices],Render method, ISynthSinkDMus.Render, ISynthSinkDMus::Render, Render, Render method [Audio Devices], Render method [Audio Devices],ISynthSinkDMus interface, audio.isynthsinkdmus_render, audmp-routines_ada0270e-6234-4508-a323-f4bdaee295ce.xml, dmusicks/ISynthSinkDMus::Render
 f1_keywords:
  - "dmusicks/ISynthSinkDMus.Render"
+ - "ISynthSinkDMus.Render"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop

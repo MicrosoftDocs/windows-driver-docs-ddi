@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetNearNameByOffset"]
 ms.keywords: GetNearNameByOffset, GetNearNameByOffset method [Windows Debugging], GetNearNameByOffset method [Windows Debugging],IDebugSymbols interface, GetNearNameByOffset method [Windows Debugging],IDebugSymbols2 interface, GetNearNameByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetNearNameByOffset method, IDebugSymbols2 interface [Windows Debugging],GetNearNameByOffset method, IDebugSymbols2::GetNearNameByOffset, IDebugSymbols3 interface [Windows Debugging],GetNearNameByOffset method, IDebugSymbols3.GetNearNameByOffset, IDebugSymbols3::GetNearNameByOffset, IDebugSymbols::GetNearNameByOffset, IDebugSymbols_cdd9bec8-6fe8-4523-ac98-df3ce90fd073.xml, dbgeng/IDebugSymbols2::GetNearNameByOffset, dbgeng/IDebugSymbols3::GetNearNameByOffset, dbgeng/IDebugSymbols::GetNearNameByOffset, debugger.getnearnamebyoffset
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetNearNameByOffset"
+ - "IDebugSymbols.GetNearNameByOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

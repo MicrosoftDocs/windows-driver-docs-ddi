@@ -10,6 +10,7 @@ keywords: ["SYSAUDIO_CREATE_VIRTUAL_SOURCE structure"]
 ms.keywords: "*PSYSAUDIO_CREATE_VIRTUAL_SOURCE, PSYSAUDIO_CREATE_VIRTUAL_SOURCE, PSYSAUDIO_CREATE_VIRTUAL_SOURCE structure pointer [Audio Devices], SYSAUDIO_CREATE_VIRTUAL_SOURCE, SYSAUDIO_CREATE_VIRTUAL_SOURCE structure [Audio Devices], aud-prop_b5e1f1ed-6007-4f2a-89eb-dcabeb0777e6.xml, audio.sysaudio_create_virtual_source, ksmedia/PSYSAUDIO_CREATE_VIRTUAL_SOURCE, ksmedia/SYSAUDIO_CREATE_VIRTUAL_SOURCE"
 f1_keywords:
  - "ksmedia/SYSAUDIO_CREATE_VIRTUAL_SOURCE"
+ - "SYSAUDIO_CREATE_VIRTUAL_SOURCE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

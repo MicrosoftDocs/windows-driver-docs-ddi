@@ -10,6 +10,7 @@ keywords: ["_REFS_SMR_VOLUME_GC_ACTION enumeration"]
 ms.keywords: "*PREFS_SMR_VOLUME_GC_ACTION, PREFS_SMR_VOLUME_GC_ACTION, PREFS_SMR_VOLUME_GC_ACTION enumeration pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_ACTION, REFS_SMR_VOLUME_GC_ACTION enumeration [Installable File System Drivers], SmrGcActionPause, SmrGcActionStart, SmrGcActionStartFullSpeed, SmrGcActionStop, _REFS_SMR_VOLUME_GC_ACTION, ifsk.refs_smr_volume_gc_action, ntifs/PREFS_SMR_VOLUME_GC_ACTION, ntifs/REFS_SMR_VOLUME_GC_ACTION, ntifs/SmrGcActionPause, ntifs/SmrGcActionStart, ntifs/SmrGcActionStartFullSpeed, ntifs/SmrGcActionStop"
 f1_keywords:
  - "ntifs/REFS_SMR_VOLUME_GC_ACTION"
+ - "REFS_SMR_VOLUME_GC_ACTION"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

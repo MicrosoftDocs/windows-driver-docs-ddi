@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_DIAGTYPE_PROGRESSIONS structure"]
 f1_keywords:
  - "dispmprt/_DXGK_DIAGTYPE_PROGRESSIONS"
+ - "_DXGK_DIAGTYPE_PROGRESSIONS"
 ms.keywords: _DXGK_DIAGTYPE_PROGRESSIONS, DXGK_DIAGTYPE_PROGRESSIONS, 
 req.header: dispmprt.h
 req.include-header:

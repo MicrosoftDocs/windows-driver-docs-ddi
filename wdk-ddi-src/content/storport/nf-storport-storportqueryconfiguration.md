@@ -10,6 +10,7 @@ ms.date: 03/06/2019
 keywords: ["StorPortQueryConfiguration function"]
 f1_keywords:
  - "storport/StorPortQueryConfiguration"
+ - "StorPortQueryConfiguration"
 ms.keywords: StorPortQueryConfiguration
 req.header: storport.h
 req.include-header:

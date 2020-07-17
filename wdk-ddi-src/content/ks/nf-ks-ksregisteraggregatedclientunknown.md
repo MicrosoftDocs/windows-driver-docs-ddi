@@ -10,6 +10,7 @@ keywords: ["KsRegisterAggregatedClientUnknown function"]
 ms.keywords: KsRegisterAggregatedClientUnknown, KsRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_1b7f6d25-4aae-4580-b8d2-5050c9ffede1.xml, ks/KsRegisterAggregatedClientUnknown, stream.ksregisteraggregatedclientunknown
 f1_keywords:
  - "ks/KsRegisterAggregatedClientUnknown"
+ - "KsRegisterAggregatedClientUnknown"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

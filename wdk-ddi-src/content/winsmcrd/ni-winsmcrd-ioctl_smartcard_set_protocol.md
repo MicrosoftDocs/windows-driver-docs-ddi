@@ -10,6 +10,7 @@ keywords: ["IOCTL_SMARTCARD_SET_PROTOCOL IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_SET_PROTOCOL, IOCTL_SMARTCARD_SET_PROTOCOL control, IOCTL_SMARTCARD_SET_PROTOCOL control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_set_protocol, winsmcrd/IOCTL_SMARTCARD_SET_PROTOCOL
 f1_keywords:
  - "winsmcrd/IOCTL_SMARTCARD_SET_PROTOCOL"
+ - "IOCTL_SMARTCARD_SET_PROTOCOL"
 req.header: winsmcrd.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["StorPortQueryDepthSList function"]
 ms.keywords: StorPortQueryDepthSList, StorPortQueryDepthSList routine [Storage Devices], storage.storportquerydepthslist, storport/StorPortQueryDepthSList
 f1_keywords:
  - "storport/StorPortQueryDepthSList"
+ - "StorPortQueryDepthSList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

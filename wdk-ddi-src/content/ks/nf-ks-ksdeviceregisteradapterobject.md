@@ -10,6 +10,7 @@ keywords: ["KsDeviceRegisterAdapterObject function"]
 ms.keywords: KsDeviceRegisterAdapterObject, KsDeviceRegisterAdapterObject function [Streaming Media Devices], avfunc_59ad20f2-ca31-4fbb-808e-48df3a0c87a8.xml, ks/KsDeviceRegisterAdapterObject, stream.ksdeviceregisteradapterobject
 f1_keywords:
  - "ks/KsDeviceRegisterAdapterObject"
+ - "KsDeviceRegisterAdapterObject"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

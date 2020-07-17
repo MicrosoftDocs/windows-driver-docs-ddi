@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["PshedUnregisterPlugin function"]
 f1_keywords:
  - "ntddk/PshedUnregisterPlugin"
+ - "PshedUnregisterPlugin"
 ms.keywords: PshedUnregisterPlugin
 req.header: ntddk.h
 req.include-header:

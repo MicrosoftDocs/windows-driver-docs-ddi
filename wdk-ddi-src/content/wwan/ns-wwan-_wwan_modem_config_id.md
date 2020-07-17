@@ -8,6 +8,7 @@ ms.date: 03/23/2018
 keywords: ["_WWAN_MODEM_CONFIG_ID structure"]
 f1_keywords:
  - "wwan/_WWAN_MODEM_CONFIG_ID"
+ - "_WWAN_MODEM_CONFIG_ID"
 ms.keywords: _WWAN_MODEM_CONFIG_ID, *PWWAN_MODEM_CONFIG_ID, WWAN_MODEM_CONFIG_ID, 
 req.header: wwan.h
 req.include-header: wwan.h

@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3 interface"]
 ms.keywords: IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], IDebugSymbols3 interface [Windows Debugging],described, dbgeng/IDebugSymbols3, debugger.idebugsymbols3
 f1_keywords:
  - "dbgeng/IDebugSymbols3"
+ - "IDebugSymbols3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

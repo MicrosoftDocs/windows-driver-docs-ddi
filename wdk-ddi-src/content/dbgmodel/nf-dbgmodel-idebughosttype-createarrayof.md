@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDebugHostType::CreateArrayOf"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.CreateArrayOf"
+ - "IDebugHostType.CreateArrayOf"
 ms.keywords: IDebugHostType::CreateArrayOf, CreateArrayOf, IDebugHostType.CreateArrayOf, IDebugHostType::CreateArrayOf, IDebugHostType.CreateArrayOf
 req.header: dbgmodel.h
 req.include-header:

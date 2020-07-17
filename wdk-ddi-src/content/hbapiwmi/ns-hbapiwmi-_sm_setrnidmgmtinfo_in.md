@@ -10,6 +10,7 @@ keywords: ["_SM_SetRNIDMgmtInfo_IN structure"]
 ms.keywords: "*PSM_SetRNIDMgmtInfo_IN, PSM_SetRNIDMgmtInfo_IN, PSM_SetRNIDMgmtInfo_IN structure pointer [Storage Devices], SM_SetRNIDMgmtInfo_IN, SM_SetRNIDMgmtInfo_IN structure [Storage Devices], _SM_SetRNIDMgmtInfo_IN, hbapiwmi/PSM_SetRNIDMgmtInfo_IN, hbapiwmi/SM_SetRNIDMgmtInfo_IN, storage.sm_setrnidmgmtinfo_in, structs-Fibre_1da5987a-4759-4d2a-9e33-5c33123314fc.xml"
 f1_keywords:
  - "hbapiwmi/SM_SetRNIDMgmtInfo_IN"
+ - "SM_SetRNIDMgmtInfo_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

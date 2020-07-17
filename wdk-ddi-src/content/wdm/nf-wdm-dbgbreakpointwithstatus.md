@@ -10,6 +10,7 @@ keywords: ["DbgBreakPointWithStatus function"]
 ms.keywords: DbgBreakPointWithStatus, DbgBreakPointWithStatus routine [Driver Development Tools], DebugFns_d958e007-b135-46b0-a407-1843da2e61c0.xml, devtest.dbgbreakpointwithstatus, ntddk/DbgBreakPointWithStatus
 f1_keywords:
  - "wdm/DbgBreakPointWithStatus"
+ - "DbgBreakPointWithStatus"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

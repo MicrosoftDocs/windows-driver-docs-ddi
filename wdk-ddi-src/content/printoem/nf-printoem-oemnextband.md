@@ -10,6 +10,7 @@ keywords: ["OEMNextBand function"]
 ms.keywords: OEMNextBand, OEMNextBand function [Print Devices], print.oemnextband, print_unidrv-pscript_rendering_db168f2e-09ab-4c1d-9a68-970af445e128.xml, printoem/OEMNextBand
 f1_keywords:
  - "printoem/OEMNextBand"
+ - "OEMNextBand"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_DXGK_DISPLAY_OWNERSHIP_FLAGS structure"]
 ms.keywords: "*PDXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS structure [Display Devices], PDXGK_DISPLAY_OWNERSHIP_FLAGS, PDXGK_DISPLAY_OWNERSHIP_FLAGS structure pointer [Display Devices], _DXGK_DISPLAY_OWNERSHIP_FLAGS, display.dxgk_display_ownership_flags, dispmprt/DXGK_DISPLAY_OWNERSHIP_FLAGS, dispmprt/PDXGK_DISPLAY_OWNERSHIP_FLAGS"
 f1_keywords:
  - "dispmprt/DXGK_DISPLAY_OWNERSHIP_FLAGS"
+ - "DXGK_DISPLAY_OWNERSHIP_FLAGS"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Windows

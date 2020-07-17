@@ -27,6 +27,7 @@ ms.custom: RS5
 tech.root: display
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_MAKERESIDENT_0001"
+ - "PFND3D12DDI_MAKERESIDENT_0001"
 topic_type:
  - apiref
 api_type:

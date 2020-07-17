@@ -10,6 +10,7 @@ keywords: ["KeQueryTotalCycleTimeThread function"]
 ms.keywords: KeQueryTotalCycleTimeThread, KeQueryTotalCycleTimeThread , KeQueryTotalCycleTimeThread routine [Kernel-Mode Driver Architecture], kernel.kequerytotalcycletimethread_, wdm/KeQueryTotalCycleTimeThread
 f1_keywords:
  - "wdm/KeQueryTotalCycleTimeThread"
+ - "KeQueryTotalCycleTimeThread"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

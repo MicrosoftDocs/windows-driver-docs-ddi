@@ -10,6 +10,7 @@ keywords: ["PoFxUnregisterDevice function"]
 ms.keywords: PoFxUnregisterDevice, PoFxUnregisterDevice routine [Kernel-Mode Driver Architecture], kernel.pofxunregisterdevice, wdm/PoFxUnregisterDevice
 f1_keywords:
  - "wdm/PoFxUnregisterDevice"
+ - "PoFxUnregisterDevice"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IWDTFSimulatedBatterySystemAction interface"]
 ms.keywords: IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],described, dtf.iwdtfsimulatedbatterysystemaction, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction
 f1_keywords:
  - "wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction"
+ - "IWDTFSimulatedBatterySystemAction"
 req.header: wdtfsimulatedbatterysystemaction.h
 req.include-header: 
 req.target-type: Windows

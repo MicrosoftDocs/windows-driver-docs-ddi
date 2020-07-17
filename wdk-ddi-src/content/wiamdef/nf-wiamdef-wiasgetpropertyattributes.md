@@ -10,6 +10,7 @@ keywords: ["wiasGetPropertyAttributes function"]
 ms.keywords: image.wiasgetpropertyattributes, wiamdef/wiasGetPropertyAttributes, wiasFncs_d1a6ee77-54bc-400f-a670-e39889c71835.xml, wiasGetPropertyAttributes, wiasGetPropertyAttributes function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasGetPropertyAttributes"
+ - "wiasGetPropertyAttributes"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

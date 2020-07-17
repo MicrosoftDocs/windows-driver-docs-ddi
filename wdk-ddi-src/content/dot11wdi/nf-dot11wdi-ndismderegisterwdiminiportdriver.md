@@ -10,6 +10,7 @@ keywords: ["NdisMDeregisterWdiMiniportDriver function"]
 ms.keywords: NdisMDeregisterWdiMiniportDriver, NdisMDeregisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], dot11wdi/NdisMDeregisterWdiMiniportDriver, netvista.ndismderegisterwdiminiportdriver
 f1_keywords:
  - "dot11wdi/NdisMDeregisterWdiMiniportDriver"
+ - "NdisMDeregisterWdiMiniportDriver"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

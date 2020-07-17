@@ -10,6 +10,7 @@ keywords: ["WdmlibRtlInitUnicodeStringEx function"]
 ms.keywords: RtlInitUnicodeString, WdmlibRtlInitUnicodeStringEx, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], kernel.wdmlibrtlinitunicodestringex, wdmsec/RtlInitUnicodeString, wdmsec/WdmlibRtlInitUnicodeStringEx
 f1_keywords:
  - "wdmsec/WdmlibRtlInitUnicodeStringEx"
+ - "WdmlibRtlInitUnicodeStringEx"
 req.header: wdmsec.h
 req.include-header: Wdmsec.h, Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

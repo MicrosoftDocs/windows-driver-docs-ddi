@@ -9,6 +9,7 @@ keywords: ["_NAMED_PIPE_CREATE_PARAMETERS structure"]
 ms.keywords: "*PNAMED_PIPE_CREATE_PARAMETERS, NAMED_PIPE_CREATE_PARAMETERS, NAMED_PIPE_CREATE_PARAMETERS structure"
 f1_keywords:
  - "wdm/NAMED_PIPE_CREATE_PARAMETERS"
+ - "NAMED_PIPE_CREATE_PARAMETERS"
 req.header: wdm.h
 req.include-header: Ntifs.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RILCALLVIDEOMEDIASTATE structure"]
 ms.keywords: "*LPRILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallvideomediastate, ntddrilapitypes/RILCALLVIDEOMEDIASTATE"
 f1_keywords:
  - "rilapitypes/RILCALLVIDEOMEDIASTATE"
+ - "RILCALLVIDEOMEDIASTATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

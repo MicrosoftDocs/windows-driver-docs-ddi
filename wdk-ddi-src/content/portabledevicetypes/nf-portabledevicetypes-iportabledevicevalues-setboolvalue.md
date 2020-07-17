@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::SetBoolValue"]
 ms.keywords: IPortableDeviceValues interface,SetBoolValue method, IPortableDeviceValues.SetBoolValue, IPortableDeviceValues::SetBoolValue, IPortableDeviceValuesSetBoolValue, SetBoolValue, SetBoolValue method, SetBoolValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetBoolValue, wpddk.iportabledevicevalues_setboolvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetBoolValue"
+ - "IPortableDeviceValues.SetBoolValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RILCALLRTT structure"]
 ms.keywords: "*LPRILCALLRTT, RILCALLRTT, RILCALLRTT structure [Network Drivers Starting with Windows Vista], netvista.rilcallrtt, ntddrilapitypes/RILCALLRTT"
 f1_keywords:
  - "ntddrilapitypes/RILCALLRTT"
+ - "RILCALLRTT"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

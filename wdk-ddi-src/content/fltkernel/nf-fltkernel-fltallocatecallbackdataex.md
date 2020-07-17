@@ -10,6 +10,7 @@ keywords: ["FltAllocateCallbackDataEx function"]
 ms.keywords: FltAllocateCallbackDataEx, FltAllocateCallbackDataEx routine [Installable File System Drivers], FltApiRef_a_to_d_9ef78123-712f-465a-8c8a-efc3d64b7001.xml, fltkernel/FltAllocateCallbackDataEx, ifsk.fltallocatecallbackdataex
 f1_keywords:
  - "fltkernel/FltAllocateCallbackDataEx"
+ - "FltAllocateCallbackDataEx"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

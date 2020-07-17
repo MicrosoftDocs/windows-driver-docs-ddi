@@ -10,6 +10,7 @@ keywords: ["SensorsCxDeviceGetSensorList function"]
 ms.keywords: SensorsCxDeviceGetSensorList, Syntax, Syntax function [Sensor Devices], sensors.sensorscxdevicegetsensorlist, sensorscx/Syntax
 f1_keywords:
  - "sensorscx/Syntax"
+ - "Syntax"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Desktop

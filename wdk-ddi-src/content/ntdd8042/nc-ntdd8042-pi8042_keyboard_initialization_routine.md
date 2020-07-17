@@ -10,6 +10,7 @@ keywords: ["PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback function"]
 ms.keywords: KeyboardInitializationRoutine, KeyboardInitializationRoutine callback function [Human Input Devices], PI8042_KEYBOARD_INITIALIZATION_ROUTINE, PI8042_KEYBOARD_INITIALIZATION_ROUTINE callback, hid.pi8042_keyboard_initialization_routine, i8042ref_4bc54efc-bd3d-4091-a8c7-64631d187d20.xml, ntdd8042/KeyboardInitializationRoutine
 f1_keywords:
  - "ntdd8042/KeyboardInitializationRoutine"
+ - "KeyboardInitializationRoutine"
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h
 req.target-type: Desktop

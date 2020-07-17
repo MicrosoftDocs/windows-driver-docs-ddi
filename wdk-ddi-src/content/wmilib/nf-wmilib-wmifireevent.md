@@ -10,6 +10,7 @@ keywords: ["WmiFireEvent function"]
 ms.keywords: WmiFireEvent, WmiFireEvent routine [Kernel-Mode Driver Architecture], k902_bae3b7d7-89d9-4ab9-8f26-2bd12e6b6caa.xml, kernel.wmifireevent, wmilib/WmiFireEvent
 f1_keywords:
  - "wmilib/WmiFireEvent"
+ - "WmiFireEvent"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Universal

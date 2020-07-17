@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackCreate interface"]
 ms.keywords: IQueueCallbackCreate, IQueueCallbackCreate interface, IQueueCallbackCreate interface,described, UMDFQueueObjectRef_dfb85326-329e-4d5b-9889-1894c53e4cb7.xml, umdf.iqueuecallbackcreate, wdf.iqueuecallbackcreate, wudfddi/IQueueCallbackCreate
 f1_keywords:
  - "wudfddi/IQueueCallbackCreate"
+ - "IQueueCallbackCreate"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

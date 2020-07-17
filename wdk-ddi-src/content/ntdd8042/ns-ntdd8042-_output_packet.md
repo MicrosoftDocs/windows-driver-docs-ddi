@@ -10,6 +10,7 @@ keywords: ["_OUTPUT_PACKET structure"]
 ms.keywords: "*POUTPUT_PACKET, OUTPUT_PACKET, OUTPUT_PACKET structure [Human Input Devices], POUTPUT_PACKET, POUTPUT_PACKET structure pointer [Human Input Devices], _OUTPUT_PACKET, hid.output_packet, i8042ref_3e563892-06cb-4021-847d-d6afda279c7a.xml, ntdd8042/OUTPUT_PACKET, ntdd8042/POUTPUT_PACKET"
 f1_keywords:
  - "ntdd8042/OUTPUT_PACKET"
+ - "OUTPUT_PACKET"
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h
 req.target-type: Windows

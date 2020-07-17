@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IMiniportWaveRTStream::FreeAudioBuffer"]
 f1_keywords:
  - "portcls/IMiniportWaveRTStream.FreeAudioBuffer"
+ - "IMiniportWaveRTStream.FreeAudioBuffer"
 ms.keywords: IMiniportWaveRTStream::FreeAudioBuffer, FreeAudioBuffer, IMiniportWaveRTStream.FreeAudioBuffer, IMiniportWaveRTStream::FreeAudioBuffer, IMiniportWaveRTStream.FreeAudioBuffer
 req.header: portcls.h
 req.include-header:

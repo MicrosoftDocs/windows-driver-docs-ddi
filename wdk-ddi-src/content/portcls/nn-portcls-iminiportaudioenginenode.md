@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode interface"]
 ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices],described, audio.iminiportaudioenginenode, portcls/IMiniportAudioEngineNode
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode"
+ - "IMiniportAudioEngineNode"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

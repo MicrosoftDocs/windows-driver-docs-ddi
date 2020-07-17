@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["D3DKMTOutputDuplPresentToHwQueue function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTOutputDuplPresentToHwQueue"
+ - "D3DKMTOutputDuplPresentToHwQueue"
 ms.keywords: D3DKMTOutputDuplPresentToHwQueue
 req.header: d3dkmthk.h
 req.include-header:

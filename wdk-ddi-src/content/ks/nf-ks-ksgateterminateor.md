@@ -10,6 +10,7 @@ keywords: ["KsGateTerminateOr function"]
 ms.keywords: KsGateTerminateOr, KsGateTerminateOr function [Streaming Media Devices], avfunc_b2bf57c5-4f08-456a-bbac-217531cf5bc3.xml, ks/KsGateTerminateOr, stream.ksgateterminateor
 f1_keywords:
  - "ks/KsGateTerminateOr"
+ - "KsGateTerminateOr"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

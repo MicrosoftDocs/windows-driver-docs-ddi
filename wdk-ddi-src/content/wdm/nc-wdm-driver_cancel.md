@@ -10,6 +10,7 @@ keywords: ["DRIVER_CANCEL callback function"]
 ms.keywords: Cancel, Cancel routine [Kernel-Mode Driver Architecture], DRIVER_CANCEL, DrvrRtns_790a0e91-0752-42ac-a5f0-4fee193765f0.xml, kernel.cancel, wdm/Cancel
 f1_keywords:
  - "wdm/Cancel"
+ - "Cancel"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["VideoPortWritePortBufferUlong function"]
 ms.keywords: VideoPortWritePortBufferUlong, VideoPortWritePortBufferUlong function [Display Devices], VideoPort_Functions_f8e5a168-7d9d-4478-b3e9-00053456506f.xml, display.videoportwriteportbufferulong, video/VideoPortWritePortBufferUlong
 f1_keywords:
  - "video/VideoPortWritePortBufferUlong"
+ - "VideoPortWritePortBufferUlong"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

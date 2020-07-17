@@ -10,6 +10,7 @@ keywords: ["NdisIfQueryBindingIfIndex function"]
 ms.keywords: NdisIfQueryBindingIfIndex, NdisIfQueryBindingIfIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfQueryBindingIfIndex, net_if_functions_ref_eacdb959-2a12-4688-9e83-7454c579e2d3.xml, netvista.ndisifquerybindingifindex
 f1_keywords:
  - "ndis/NdisIfQueryBindingIfIndex"
+ - "NdisIfQueryBindingIfIndex"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

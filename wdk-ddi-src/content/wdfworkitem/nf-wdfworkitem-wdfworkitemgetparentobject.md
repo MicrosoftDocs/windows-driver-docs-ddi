@@ -10,6 +10,7 @@ keywords: ["WdfWorkItemGetParentObject function"]
 ms.keywords: DFWorkItemObjectRef_d01f85c6-ab9e-413a-8352-49db7ae053d0.xml, WdfWorkItemGetParentObject, WdfWorkItemGetParentObject method, kmdf.wdfworkitemgetparentobject, wdf.wdfworkitemgetparentobject, wdfworkitem/WdfWorkItemGetParentObject
 f1_keywords:
  - "wdfworkitem/WdfWorkItemGetParentObject"
+ - "WdfWorkItemGetParentObject"
 req.header: wdfworkitem.h
 req.include-header: Wdf.h
 req.target-type: Universal

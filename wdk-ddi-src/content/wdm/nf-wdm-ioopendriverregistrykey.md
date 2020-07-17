@@ -8,6 +8,7 @@ keywords: ["IoOpenDriverRegistryKey function"]
 tech.root: kernel
 f1_keywords:
  - "wdm/IoOpenDriverRegistryKey"
+ - "IoOpenDriverRegistryKey"
 ms.keywords: IoOpenDriverRegistryKey
 req.header: wdm.h
 req.include-header: wdm.h, ntddk.h, or ntifs.h

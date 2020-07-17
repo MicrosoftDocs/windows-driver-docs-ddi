@@ -10,6 +10,7 @@ keywords: ["_SERCX_CONFIG structure"]
 ms.keywords: "*PSERCX_CONFIG, 1/PSERCX_CONFIG, 1/SERCX_CONFIG, PSERCX_CONFIG, PSERCX_CONFIG structure pointer [Serial Ports], SERCX_CONFIG, SERCX_CONFIG structure [Serial Ports], _SERCX_CONFIG, serports.sercx_config"
 f1_keywords:
  - "sercx/SERCX_CONFIG"
+ - "SERCX_CONFIG"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Windows

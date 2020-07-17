@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_QUERYRESIDENCY structure"]
 ms.keywords: D3DDDICB_QUERYRESIDENCY, D3DDDICB_QUERYRESIDENCY structure [Display Devices], D3D_param_Structs_196c35e7-414d-465f-b5e5-695848a4c642.xml, _D3DDDICB_QUERYRESIDENCY, d3dumddi/D3DDDICB_QUERYRESIDENCY, display.d3dddicb_queryresidency
 f1_keywords:
  - "d3dumddi/D3DDDICB_QUERYRESIDENCY"
+ - "D3DDDICB_QUERYRESIDENCY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

@@ -8,6 +8,7 @@ ms.date: 02/06/2018
 keywords: ["NetAdapterGetNetLuid function"]
 f1_keywords:
  - "netadapter/NetAdapterGetNetLuid"
+ - "NetAdapterGetNetLuid"
 ms.keywords: NetAdapterGetNetLuid
 req.header: netadapter.h
 req.include-header: netadaptercx.h

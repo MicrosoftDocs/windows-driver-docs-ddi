@@ -10,6 +10,7 @@ keywords: ["SRIOV_RESET_FUNCTION callback"]
 ms.keywords: "*PSRIOV_RESET_FUNCTION, *PSRIOV_RESET_FUNCTION callback function pointer [Buses], PCI.sriov_reset_function, SRIOV_RESET_FUNCTION, SriovResetFunction, SriovResetFunction callback function [Buses], pcivirt/SriovResetFunction"
 f1_keywords:
  - "pcivirt/*PSRIOV_RESET_FUNCTION"
+ - "*PSRIOV_RESET_FUNCTION"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

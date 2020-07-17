@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["IStringDisplayableConcept::ToDisplayString"]
 f1_keywords:
  - "dbgmodel/IStringDisplayableConcept.ToDisplayString"
+ - "IStringDisplayableConcept.ToDisplayString"
 ms.keywords: IStringDisplayableConcept::ToDisplayString, ToDisplayString, IStringDisplayableConcept.ToDisplayString, IStringDisplayableConcept::ToDisplayString, IStringDisplayableConcept.ToDisplayString
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["VideoPortGetDeviceData function"]
 ms.keywords: VideoPortGetDeviceData, VideoPortGetDeviceData function [Display Devices], VideoPort_Functions_01e88665-7ecb-470e-b25b-21a3c62f7485.xml, display.videoportgetdevicedata, video/VideoPortGetDeviceData
 f1_keywords:
  - "video/VideoPortGetDeviceData"
+ - "VideoPortGetDeviceData"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

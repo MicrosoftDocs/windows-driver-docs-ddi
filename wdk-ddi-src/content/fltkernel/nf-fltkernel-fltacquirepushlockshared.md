@@ -10,6 +10,7 @@ keywords: ["FltAcquirePushLockShared macro"]
 ms.keywords: FltAcquirePushLockShared, FltAcquirePushLockShared routine [Installable File System Drivers], FltApiRef_a_to_d_329cb1e6-2fb5-45fa-a533-71a60ce341cf.xml, fltkernel/FltAcquirePushLockShared, ifsk.fltacquirepushlockshared
 f1_keywords:
  - "fltkernel/FltAcquirePushLockShared"
+ - "FltAcquirePushLockShared"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

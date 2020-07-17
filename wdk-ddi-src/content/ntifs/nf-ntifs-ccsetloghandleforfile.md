@@ -10,6 +10,7 @@ keywords: ["CcSetLogHandleForFile function"]
 ms.keywords: CcSetLogHandleForFile, CcSetLogHandleForFile routine [Installable File System Drivers], LogHandle, Lsn, ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, ifsk.ccsetloghandleforfile, ntifs/CcSetLogHandleForFile
 f1_keywords:
  - "ntifs/CcSetLogHandleForFile"
+ - "CcSetLogHandleForFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

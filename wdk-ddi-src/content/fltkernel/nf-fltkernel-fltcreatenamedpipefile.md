@@ -10,6 +10,7 @@ keywords: ["FltCreateNamedPipeFile function"]
 ms.keywords: FILE_PIPE_BYTE_STREAM_MODE, FILE_PIPE_BYTE_STREAM_TYPE, FILE_PIPE_COMPLETE_OPERATION, FILE_PIPE_MESSAGE_MODE, FILE_PIPE_MESSAGE_TYPE, FILE_PIPE_QUEUE_COMPLETION, FltCreateNamedPipeFile, FltCreateNamedPipeFile function [Installable File System Drivers], fltkernel/FltCreateNamedPipeFile, ifsk.fltcreatenamedpipefile
 f1_keywords:
  - "fltkernel/FltCreateNamedPipeFile"
+ - "FltCreateNamedPipeFile"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

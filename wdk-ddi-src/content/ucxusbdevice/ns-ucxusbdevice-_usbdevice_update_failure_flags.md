@@ -10,6 +10,7 @@ keywords: ["_USBDEVICE_UPDATE_FAILURE_FLAGS structure"]
 ms.keywords: P_USBDEVICE_UPDATE_FAILURE_FLAGS, P_USBDEVICE_UPDATE_FAILURE_FLAGS structure pointer [Buses], USBDEVICE_UPDATE_FAILURE_FLAGS, USBDEVICE_UPDATE_FAILURE_FLAGS structure [Buses], _USBDEVICE_UPDATE_FAILURE_FLAGS, buses._usbdevice_update_failure_flags, ucxusbdevice/P_USBDEVICE_UPDATE_FAILURE_FLAGS, ucxusbdevice/_USBDEVICE_UPDATE_FAILURE_FLAGS
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_UPDATE_FAILURE_FLAGS"
+ - "USBDEVICE_UPDATE_FAILURE_FLAGS"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

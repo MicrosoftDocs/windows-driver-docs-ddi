@@ -7,6 +7,7 @@ ms.date: 06/10/2019
 keywords: ["IModelObject::GetLocation"]
 f1_keywords:
  - "dbgmodel/IModelObject.GetLocation"
+ - "IModelObject.GetLocation"
 ms.keywords: IModelObject::GetLocation, GetLocation, IModelObject.GetLocation, IModelObject::GetLocation, IModelObject.GetLocation
 req.header: dbgmodel.h
 req.include-header:

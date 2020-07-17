@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues interface"]
 ms.keywords: IPortableDeviceValues, IPortableDeviceValues interface, IPortableDeviceValues interface,described, IPortableDeviceValuesInterface, portabledevicetypes/IPortableDeviceValues, wpddk.iportabledevicevalues
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues"
+ - "IPortableDeviceValues"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

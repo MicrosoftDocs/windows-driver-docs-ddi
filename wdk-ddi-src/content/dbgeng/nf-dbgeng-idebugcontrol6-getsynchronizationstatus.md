@@ -10,6 +10,7 @@ keywords: ["IDebugControl6::GetSynchronizationStatus"]
 ms.keywords: GetSynchronizationStatus, GetSynchronizationStatus method [Windows Debugging], GetSynchronizationStatus method [Windows Debugging],IDebugControl6 interface, IDebugControl6 interface [Windows Debugging],GetSynchronizationStatus method, IDebugControl6.GetSynchronizationStatus, IDebugControl6::GetSynchronizationStatus, dbgeng/IDebugControl6::GetSynchronizationStatus, debugger.idebugcontrol6_getsynchronizationstatus
 f1_keywords:
  - "dbgeng/IDebugControl6.GetSynchronizationStatus"
+ - "IDebugControl6.GetSynchronizationStatus"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Desktop

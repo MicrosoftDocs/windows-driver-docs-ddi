@@ -10,6 +10,7 @@ keywords: ["IOCTL_HPMI_QUERY_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_HPMI_QUERY_CAPABILITIES, IOCTL_HPMI_QUERY_CAPABILITIES control, IOCTL_HPMI_QUERY_CAPABILITIES control code [Power Metering and Budgeting Devices], hpmi/IOCTL_HPMI_QUERY_CAPABILITIES, powermeter.ioctl_hpmi_query_capabilities
 f1_keywords:
  - "hpmi/IOCTL_HPMI_QUERY_CAPABILITIES"
+ - "IOCTL_HPMI_QUERY_CAPABILITIES"
 req.header: hpmi.h
 req.include-header: Hpmi.h
 req.target-type: Windows

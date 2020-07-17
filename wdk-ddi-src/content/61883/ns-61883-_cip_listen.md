@@ -10,6 +10,7 @@ keywords: ["_CIP_LISTEN structure"]
 ms.keywords: "*PCIP_LISTEN, 61883/CIP_LISTEN, 61883/PCIP_LISTEN, CIP_LISTEN, CIP_LISTEN structure [Buses], IEEE.cip_listen, PCIP_LISTEN, PCIP_LISTEN structure pointer [Buses], _CIP_LISTEN"
 f1_keywords:
  - "61883/CIP_LISTEN"
+ - "CIP_LISTEN"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

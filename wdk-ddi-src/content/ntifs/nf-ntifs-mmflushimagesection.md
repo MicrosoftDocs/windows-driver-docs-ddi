@@ -10,6 +10,7 @@ keywords: ["MmFlushImageSection function"]
 ms.keywords: MmFlushImageSection, MmFlushImageSection routine [Installable File System Drivers], ifsk.mmflushimagesection, mmref_d6a37cf0-a204-4070-80f6-bd407f671ee8.xml, ntifs/MmFlushImageSection
 f1_keywords:
  - "ntifs/MmFlushImageSection"
+ - "MmFlushImageSection"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["PFND3DDDI_DRAWPRIMITIVE callback function"]
 ms.keywords: DrawPrimitive, DrawPrimitive callback function [Display Devices], PFND3DDDI_DRAWPRIMITIVE, PFND3DDDI_DRAWPRIMITIVE callback, UserModeDisplayDriver_Functions_c433d1f5-68ca-4461-a409-4353d8a581d8.xml, d3dumddi/DrawPrimitive, display.drawprimitive
 f1_keywords:
  - "d3dumddi/DrawPrimitive"
+ - "DrawPrimitive"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

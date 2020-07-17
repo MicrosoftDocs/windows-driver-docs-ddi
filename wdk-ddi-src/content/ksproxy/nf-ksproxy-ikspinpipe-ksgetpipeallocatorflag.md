@@ -10,6 +10,7 @@ keywords: ["IKsPinPipe::KsGetPipeAllocatorFlag"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPipeAllocatorFlag method, IKsPinPipe.KsGetPipeAllocatorFlag, IKsPinPipe::KsGetPipeAllocatorFlag, KsGetPipeAllocatorFlag, KsGetPipeAllocatorFlag method [Streaming Media Devices], KsGetPipeAllocatorFlag method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPipeAllocatorFlag, stream.ikspinpipe_ksgetpipeallocatorflag
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsGetPipeAllocatorFlag"
+ - "IKsPinPipe.KsGetPipeAllocatorFlag"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

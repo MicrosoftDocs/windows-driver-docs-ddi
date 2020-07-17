@@ -8,6 +8,7 @@ ms.date: 02/06/2018
 keywords: ["NetAdapterSetLinkLayerCapabilities function"]
 f1_keywords:
  - "netadapter/NetAdapterSetLinkLayerCapabilities"
+ - "NetAdapterSetLinkLayerCapabilities"
 ms.keywords: NetAdapterSetLinkLayerCapabilities
 req.header: netadapter.h
 req.include-header: netadaptercx.h

@@ -10,6 +10,7 @@ keywords: ["_BDA_WMDRM_STATUS structure"]
 ms.keywords: "*PBDA_WMDRM_STATUS, BDA_WMDRM_STATUS, BDA_WMDRM_STATUS structure [Streaming Media Devices], PBDA_WMDRM_STATUS, PBDA_WMDRM_STATUS structure pointer [Streaming Media Devices], _BDA_WMDRM_STATUS, bdatypes/BDA_WMDRM_STATUS, bdatypes/PBDA_WMDRM_STATUS, stream.bda_wmdrm_status"
 f1_keywords:
  - "bdatypes/BDA_WMDRM_STATUS"
+ - "BDA_WMDRM_STATUS"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

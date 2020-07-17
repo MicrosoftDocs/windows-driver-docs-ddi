@@ -10,6 +10,7 @@ keywords: ["KeSetIdealProcessorThread function"]
 ms.keywords: KeSetIdealProcessorThread, KeSetIdealProcessorThread function [Installable File System Drivers], ifsk.kesetidealprocessorthread, keref_3a412d87-c325-4369-99f6-1b31225eb02e.xml, ntifs/KeSetIdealProcessorThread
 f1_keywords:
  - "ntifs/KeSetIdealProcessorThread"
+ - "KeSetIdealProcessorThread"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

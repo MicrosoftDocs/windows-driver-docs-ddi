@@ -10,6 +10,7 @@ keywords: ["_OEMFONTINSTPARAM structure"]
 ms.keywords: "*POEMFONTINSTPARAM, OEMFONTINSTPARAM, OEMFONTINSTPARAM structure [Print Devices], POEMFONTINSTPARAM, POEMFONTINSTPARAM structure pointer [Print Devices], _OEMFONTINSTPARAM, print.oemfontinstparam, print_unidrv-pscript_ui_d306ca78-7f06-4ccf-a501-7470f33f96cb.xml, prntfont/OEMFONTINSTPARAM, prntfont/POEMFONTINSTPARAM"
 f1_keywords:
  - "prntfont/OEMFONTINSTPARAM"
+ - "OEMFONTINSTPARAM"
 req.header: prntfont.h
 req.include-header: Printoem.h
 req.target-type: Windows

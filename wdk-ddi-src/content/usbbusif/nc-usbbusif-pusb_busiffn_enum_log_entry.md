@@ -10,6 +10,7 @@ keywords: ["PUSB_BUSIFFN_ENUM_LOG_ENTRY callback"]
 ms.keywords: EnumLogEntry, EnumLogEntry callback function [Buses], USB_BUSIFFN_ENUM_LOG_ENTRY, buses.enumlogentry, usbbusif/EnumLogEntry, usbinterKR_a05ba50b-df81-4211-918b-e7409bc1d5ff.xml
 f1_keywords:
  - "usbbusif/EnumLogEntry"
+ - "EnumLogEntry"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop

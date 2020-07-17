@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::SetImagePathWide"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetImagePathWide method, IDebugSymbols3.SetImagePathWide, IDebugSymbols3::SetImagePathWide, SetImagePathWide, SetImagePathWide method [Windows Debugging], SetImagePathWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetImagePathWide, debugger.setimagepathwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.SetImagePathWide"
+ - "IDebugSymbols3.SetImagePathWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

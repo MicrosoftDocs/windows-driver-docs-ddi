@@ -10,6 +10,7 @@ keywords: ["_WWAN_SIGNAL_STATE structure"]
 ms.keywords: "*PWWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SIGNAL_STATE, WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_6a92457b-8b82-4956-9dce-98e5aeec9091.xml, _WWAN_SIGNAL_STATE, netvista.wwan_signal_state, wwan/PWWAN_SIGNAL_STATE, wwan/WWAN_SIGNAL_STATE"
 f1_keywords:
  - "wwan/WWAN_SIGNAL_STATE"
+ - "WWAN_SIGNAL_STATE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IOCTL_SCSI_PASS_THROUGH IOCTL"]
 ms.keywords: IOCTL_SCSI_PASS_THROUGH, IOCTL_SCSI_PASS_THROUGH control, IOCTL_SCSI_PASS_THROUGH control code [Storage Devices], k307_3ce0bb34-5f8d-40f8-ae98-24f597656ad0.xml, ntddscsi/IOCTL_SCSI_PASS_THROUGH, storage.ioctl_scsi_pass_through
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_PASS_THROUGH"
+ - "IOCTL_SCSI_PASS_THROUGH"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows

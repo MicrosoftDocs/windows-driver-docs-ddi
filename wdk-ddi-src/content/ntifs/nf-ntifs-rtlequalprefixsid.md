@@ -10,6 +10,7 @@ keywords: ["RtlEqualPrefixSid function"]
 ms.keywords: RtlEqualPrefixSid, RtlEqualPrefixSid routine [Installable File System Drivers], ifsk.rtlequalprefixsid, ntifs/RtlEqualPrefixSid, rtlref_67b0c7e1-647f-426a-8d9d-dde2d98b0cc3.xml
 f1_keywords:
  - "ntifs/RtlEqualPrefixSid"
+ - "RtlEqualPrefixSid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

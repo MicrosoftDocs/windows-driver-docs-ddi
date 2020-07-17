@@ -7,6 +7,7 @@ ms.date: 06/25/2018
 keywords: ["PsGetThreadProcessId function"]
 f1_keywords:
  - "ntddk/PsGetThreadProcessId"
+ - "PsGetThreadProcessId"
 ms.keywords: PsGetThreadProcessId
 req.header: ntddk.h
 req.include-header: Ntddk.h

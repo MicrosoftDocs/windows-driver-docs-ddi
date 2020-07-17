@@ -8,6 +8,7 @@ ms.date: 05/22/2018
 keywords: ["FN_VMB_CHANNEL_SET_TRANSACTION_QUOTA callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SET_TRANSACTION_QUOTA"
+ - "FN_VMB_CHANNEL_SET_TRANSACTION_QUOTA"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

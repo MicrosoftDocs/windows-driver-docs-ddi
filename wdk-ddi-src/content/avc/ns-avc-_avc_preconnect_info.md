@@ -10,6 +10,7 @@ keywords: ["_AVC_PRECONNECT_INFO structure"]
 ms.keywords: "*PAVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO, AVC_PRECONNECT_INFO structure [Streaming Media Devices], PAVC_PRECONNECT_INFO, PAVC_PRECONNECT_INFO structure pointer [Streaming Media Devices], _AVC_PRECONNECT_INFO, avc/AVC_PRECONNECT_INFO, avc/PAVC_PRECONNECT_INFO, avcref_86ee1545-848a-4186-9b6a-bee1c689fa68.xml, stream.avc_preconnect_info"
 f1_keywords:
  - "avc/AVC_PRECONNECT_INFO"
+ - "AVC_PRECONNECT_INFO"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows

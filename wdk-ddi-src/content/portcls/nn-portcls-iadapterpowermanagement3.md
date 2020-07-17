@@ -10,6 +10,7 @@ keywords: ["IAdapterPowerManagement3 interface"]
 ms.keywords: IAdapterPowerManagement3, IAdapterPowerManagement3 interface [Audio Devices], IAdapterPowerManagement3 interface [Audio Devices],described, audio.iadapterpowermanagement3, portcls/IAdapterPowerManagement3
 f1_keywords:
  - "portcls/IAdapterPowerManagement3"
+ - "IAdapterPowerManagement3"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

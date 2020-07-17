@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces2::WriteControl"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],WriteControl method, IDebugDataSpaces2 interface [Windows Debugging],WriteControl method, IDebugDataSpaces2.WriteControl, IDebugDataSpaces2::WriteControl, IDebugDataSpaces3 interface [Windows Debugging],WriteControl method, IDebugDataSpaces3::WriteControl, IDebugDataSpaces4 interface [Windows Debugging],WriteControl method, IDebugDataSpaces4::WriteControl, IDebugDataSpaces::WriteControl, IDebugDataSpaces_7da7d848-6188-4325-8da5-3fa3df3c68b9.xml, WriteControl, WriteControl method [Windows Debugging], WriteControl method [Windows Debugging],IDebugDataSpaces interface, WriteControl method [Windows Debugging],IDebugDataSpaces2 interface, WriteControl method [Windows Debugging],IDebugDataSpaces3 interface, WriteControl method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::WriteControl, dbgeng/IDebugDataSpaces3::WriteControl, dbgeng/IDebugDataSpaces4::WriteControl, dbgeng/IDebugDataSpaces::WriteControl, debugger.writecontrol
 f1_keywords:
  - "dbgeng/IDebugDataSpaces.WriteControl"
+ - "IDebugDataSpaces.WriteControl"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

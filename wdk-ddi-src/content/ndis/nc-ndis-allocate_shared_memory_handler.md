@@ -10,6 +10,7 @@ keywords: ["ALLOCATE_SHARED_MEMORY_HANDLER callback function"]
 ms.keywords: ALLOCATE_SHARED_MEMORY_HANDLER, ALLOCATE_SHARED_MEMORY_HANDLER callback, NetAllocateSharedMemory, NetAllocateSharedMemory callback function [Network Drivers Starting with Windows Vista], ndis/NetAllocateSharedMemory, ndis_shared_memory_ref_8830fb4b-2e73-4994-91c6-a885d1c0ef74.xml, netvista.netallocatesharedmemory
 f1_keywords:
  - "ndis/NetAllocateSharedMemory"
+ - "NetAllocateSharedMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

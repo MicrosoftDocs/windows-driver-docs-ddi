@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_VALUES structure"]
 ms.keywords: "*PKSPROPERTY_VALUES, KSPROPERTY_VALUES, KSPROPERTY_VALUES structure [Streaming Media Devices], PKSPROPERTY_VALUES, PKSPROPERTY_VALUES structure pointer [Streaming Media Devices], ks-struct_a9156948-e21f-41d4-bb63-9c85fdbf57f3.xml, ks/KSPROPERTY_VALUES, ks/PKSPROPERTY_VALUES, stream.ksproperty_values"
 f1_keywords:
  - "ks/KSPROPERTY_VALUES"
+ - "KSPROPERTY_VALUES"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

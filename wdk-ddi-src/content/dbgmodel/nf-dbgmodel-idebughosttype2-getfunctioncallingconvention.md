@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetFunctionCallingConvention"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetFunctionCallingConvention"
+ - "IDebugHostType2.GetFunctionCallingConvention"
 ms.keywords: IDebugHostType2::GetFunctionCallingConvention, GetFunctionCallingConvention, IDebugHostType2.GetFunctionCallingConvention, IDebugHostType2::GetFunctionCallingConvention, IDebugHostType2.GetFunctionCallingConvention
 req.header: dbgmodel.h
 req.include-header:

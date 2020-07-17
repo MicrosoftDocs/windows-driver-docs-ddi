@@ -10,6 +10,7 @@ keywords: ["D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure"]
 ms.keywords: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, display.d3dddiarg_checkpresentdurationsupport
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT"
+ - "D3DDDIARG_CHECKPRESENTDURATIONSUPPORT"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

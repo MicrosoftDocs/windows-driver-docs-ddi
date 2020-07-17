@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARGCB_MAPMDLTOIOMMU structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARGCB_MAPMDLTOIOMMU"
+ - "_DXGKARGCB_MAPMDLTOIOMMU"
 ms.keywords: _DXGKARGCB_MAPMDLTOIOMMU, DXGKARGCB_MAPMDLTOIOMMU, *INOUT_PDXGKARGCB_MAPMDLTOIOMMU
 req.header: d3dkmddi.h
 req.include-header:

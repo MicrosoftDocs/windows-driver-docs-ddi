@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaCapabilities::GetFeature"]
 ms.keywords: GetFeature, GetFeature method [Print Devices], GetFeature method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetFeature method, IPrintSchemaCapabilities.GetFeature, IPrintSchemaCapabilities::GetFeature, print.iprintschemacapabilities_getfeature, printerextension/IPrintSchemaCapabilities::GetFeature
 f1_keywords:
  - "printerextension/IPrintSchemaCapabilities.GetFeature"
+ - "IPrintSchemaCapabilities.GetFeature"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

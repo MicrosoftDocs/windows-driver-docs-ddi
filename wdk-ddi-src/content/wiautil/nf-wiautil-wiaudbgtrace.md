@@ -10,6 +10,7 @@ keywords: ["wiauDbgTrace function"]
 ms.keywords: image.wiaudbgtrace, wiauDbgTrace, wiauDbgTrace function [Imaging Devices], wiauFncs_5c66ac77-5db3-489c-b7fc-84393e9105dd.xml, wiautil/wiauDbgTrace
 f1_keywords:
  - "wiautil/wiauDbgTrace"
+ - "wiauDbgTrace"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

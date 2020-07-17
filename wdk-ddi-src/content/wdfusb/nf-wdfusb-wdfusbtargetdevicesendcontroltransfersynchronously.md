@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceSendControlTransferSynchronously function"]
 ms.keywords: DFUsbRef_fe154a84-e5b4-4997-ad1f-6eb7f6829553.xml, WdfUsbTargetDeviceSendControlTransferSynchronously, WdfUsbTargetDeviceSendControlTransferSynchronously method, kmdf.wdfusbtargetdevicesendcontroltransfersynchronously, wdf.wdfusbtargetdevicesendcontroltransfersynchronously, wdfusb/WdfUsbTargetDeviceSendControlTransferSynchronously
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceSendControlTransferSynchronously"
+ - "WdfUsbTargetDeviceSendControlTransferSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

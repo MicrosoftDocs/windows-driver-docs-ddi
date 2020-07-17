@@ -10,6 +10,7 @@ keywords: ["IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery"]
 ms.keywords: DisableSimulatedBattery, DisableSimulatedBattery method [Windows Device Testing Framework], DisableSimulatedBattery method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],DisableSimulatedBattery method, IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery, IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery, dtf.iwdtfsimulatedbatterysystemaction_disablesimulatedbattery, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery
 f1_keywords:
  - "wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery"
+ - "IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery"
 req.header: wdtfsimulatedbatterysystemaction.h
 req.include-header: 
 req.target-type: Desktop

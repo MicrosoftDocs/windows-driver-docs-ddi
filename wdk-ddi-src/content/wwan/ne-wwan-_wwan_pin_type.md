@@ -8,6 +8,7 @@ ms.date: 04/10/2019
 keywords: ["_WWAN_PIN_TYPE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_PIN_TYPE"
+ - "_WWAN_PIN_TYPE"
 ms.keywords: _WWAN_PIN_TYPE WWAN_PIN_TYPE *PWWAN_PIN_TYPE 
 req.header: wwan.h
 req.include-header:

@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IDmaChannel::GetAdapterObject"]
 f1_keywords:
  - "portcls/IDmaChannel.GetAdapterObject"
+ - "IDmaChannel.GetAdapterObject"
 ms.keywords: IDmaChannel::GetAdapterObject, GetAdapterObject, IDmaChannel.GetAdapterObject, IDmaChannel::GetAdapterObject, IDmaChannel.GetAdapterObject
 req.header: portcls.h
 req.include-header:

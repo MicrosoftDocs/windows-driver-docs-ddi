@@ -10,6 +10,7 @@ keywords: ["_NDIS_NIC_SWITCH_VPORT_INFO structure"]
 ms.keywords: "*PNDIS_NIC_SWITCH_VPORT_INFO, NDIS_NIC_SWITCH_VPORT_INFO, NDIS_NIC_SWITCH_VPORT_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_INFO, PNDIS_NIC_SWITCH_VPORT_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VPORT_INFO, netvista.ndis_nic_switch_vport_info, ntddndis/NDIS_NIC_SWITCH_VPORT_INFO, ntddndis/PNDIS_NIC_SWITCH_VPORT_INFO"
 f1_keywords:
  - "ntddndis/NDIS_NIC_SWITCH_VPORT_INFO"
+ - "NDIS_NIC_SWITCH_VPORT_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

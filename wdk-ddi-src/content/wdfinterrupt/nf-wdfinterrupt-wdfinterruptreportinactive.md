@@ -10,6 +10,7 @@ keywords: ["WdfInterruptReportInactive function"]
 ms.keywords: WdfInterruptReportInactive, WdfInterruptReportInactive method, kmdf._wdfinterruptreportinactive, kmdf.wdfinterruptreportinactive, wdf.wdfinterruptreportinactive, wdfinterrupt/WdfInterruptReportInactive
 f1_keywords:
  - "wdfinterrupt/WdfInterruptReportInactive"
+ - "WdfInterruptReportInactive"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback function"]
 ms.keywords: EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback, EvtUcxControllerGetCurrentFrameNumber, EvtUcxControllerGetCurrentFrameNumber callback function [Buses], PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback function pointer [Buses], buses.evt_ucx_controller_get_current_framenumber, ucxcontroller/EvtUcxControllerGetCurrentFrameNumber
 f1_keywords:
  - "ucxcontroller/PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER"
+ - "PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

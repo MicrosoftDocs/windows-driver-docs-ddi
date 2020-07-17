@@ -10,6 +10,7 @@ keywords: ["PFNKSDEVICECREATE callback function"]
 ms.keywords: AVStrMiniDeviceAdd, AVStrMiniDeviceAdd routine [Streaming Media Devices], PFNKSDEVICECREATE, avstclbk_1cba196f-c0c6-42fb-8674-52e0fad4a337.xml, ks/AVStrMiniDeviceAdd, stream.avstrminideviceadd
 f1_keywords:
  - "ks/AVStrMiniDeviceAdd"
+ - "AVStrMiniDeviceAdd"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["KSEVENT_CLOCK_POSITION enumeration"]
 ms.keywords: KSEVENT_CLOCK_INTERVAL_MARK, KSEVENT_CLOCK_POSITION, KSEVENT_CLOCK_POSITION enumeration [Streaming Media Devices], KSEVENT_CLOCK_POSITION_MARK, ks/KSEVENT_CLOCK_INTERVAL_MARK, ks/KSEVENT_CLOCK_POSITION, ks/KSEVENT_CLOCK_POSITION_MARK, stream.ksevent_clock_position
 f1_keywords:
  - "ks/KSEVENT_CLOCK_POSITION"
+ - "KSEVENT_CLOCK_POSITION"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

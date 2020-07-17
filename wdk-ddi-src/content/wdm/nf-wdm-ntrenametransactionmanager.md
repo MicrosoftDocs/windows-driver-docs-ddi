@@ -10,6 +10,7 @@ keywords: ["NtRenameTransactionManager function"]
 ms.keywords: NtRenameTransactionManager, NtRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.ntrenametransactionmanager, ntx_299b8860-3b7b-4bc7-8f33-c3805fd0a38f.xml, wdm/NtRenameTransactionManager
 f1_keywords:
  - "wdm/NtRenameTransactionManager"
+ - "NtRenameTransactionManager"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows

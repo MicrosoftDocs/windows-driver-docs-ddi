@@ -10,6 +10,7 @@ keywords: ["_HYBRID_INFORMATION structure"]
 ms.keywords: "*PHYBRID_INFORMATION, HYBRID_INFORMATION, HYBRID_INFORMATION structure [Storage Devices], NvCacheNone, NvCacheStatusDisabled, NvCacheStatusDisabling, NvCacheStatusEnabled, NvCacheStatusUnknown, NvCacheTypeUnknown, NvCacheTypeWriteBack, NvCacheTypeWriteThrough, PHYBRID_INFORMATION, PHYBRID_INFORMATION structure pointer [Storage Devices], _HYBRID_INFORMATION, ntddscsi/HYBRID_INFORMATION, ntddscsi/PHYBRID_INFORMATION, storage.hybrid_information"
 f1_keywords:
  - "ntddscsi/HYBRID_INFORMATION"
+ - "HYBRID_INFORMATION"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows

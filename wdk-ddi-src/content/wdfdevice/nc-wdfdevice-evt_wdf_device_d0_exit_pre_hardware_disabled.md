@@ -34,6 +34,7 @@ api_name:
  - EVT_WDF_DEVICE_D0_EXIT_PRE_HARDWARE_DISABLED
 f1_keywords:
  - wdfdevice/EVT_WDF_DEVICE_D0_EXIT_PRE_HARDWARE_DISABLED
+ - ""
 dev_langs:
  - c++
 ---

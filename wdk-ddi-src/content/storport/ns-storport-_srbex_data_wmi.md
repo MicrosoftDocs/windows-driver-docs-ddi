@@ -10,6 +10,7 @@ keywords: ["_SRBEX_DATA_WMI structure"]
 ms.keywords: "*PSRBEX_DATA_WMI, PSRBEX_DATA_WMI, PSRBEX_DATA_WMI structure pointer [Storage Devices], SRBEX_DATA_WMI, SRBEX_DATA_WMI structure [Storage Devices], _SRBEX_DATA_WMI, storage.srbex_data_wmi, storport/PSRBEX_DATA_WMI, storport/SRBEX_DATA_WMI"
 f1_keywords:
  - "storport/SRBEX_DATA_WMI"
+ - "SRBEX_DATA_WMI"
 req.header: storport.h
 req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfRegistryQueryValue function"]
 ms.keywords: DFRegKeyObjectRef_703acb47-ac90-4715-a290-122d4ee3449e.xml, WdfRegistryQueryValue, WdfRegistryQueryValue method, kmdf.wdfregistryqueryvalue, wdf.wdfregistryqueryvalue, wdfregistry/WdfRegistryQueryValue
 f1_keywords:
  - "wdfregistry/WdfRegistryQueryValue"
+ - "WdfRegistryQueryValue"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal

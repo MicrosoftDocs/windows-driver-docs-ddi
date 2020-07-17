@@ -10,6 +10,7 @@ keywords: ["WdfInterruptTryToAcquireLock function"]
 ms.keywords: WdfInterruptTryToAcquireLock, WdfInterruptTryToAcquireLock method, kmdf.wdfinterrupttrytoacquirelock, wdf.wdfinterrupttrytoacquirelock, wdfinterrupt/WdfInterruptTryToAcquireLock
 f1_keywords:
  - "wdfinterrupt/WdfInterruptTryToAcquireLock"
+ - "WdfInterruptTryToAcquireLock"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal

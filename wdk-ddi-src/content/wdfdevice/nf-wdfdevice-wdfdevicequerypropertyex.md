@@ -10,6 +10,7 @@ keywords: ["WdfDeviceQueryPropertyEx function"]
 ms.keywords: WdfDeviceQueryPropertyEx, WdfDeviceQueryPropertyEx method, wdf.wdfdevicequerypropertyex, wdfdevice/WdfDeviceQueryPropertyEx
 f1_keywords:
  - "wdfdevice/WdfDeviceQueryPropertyEx"
+ - "WdfDeviceQueryPropertyEx"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

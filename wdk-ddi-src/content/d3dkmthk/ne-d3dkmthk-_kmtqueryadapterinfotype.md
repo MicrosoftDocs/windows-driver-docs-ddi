@@ -7,6 +7,7 @@ ms.date: 11/21/2018
 keywords: ["_KMTQUERYADAPTERINFOTYPE enumeration"]
 f1_keywords:
  - "d3dkmthk/_KMTQUERYADAPTERINFOTYPE"
+ - "_KMTQUERYADAPTERINFOTYPE"
 ms.keywords: _KMTQUERYADAPTERINFOTYPE, KMTQUERYADAPTERINFOTYPE,
 req.header: d3dkmthk.h
 req.include-header:

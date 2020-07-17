@@ -10,6 +10,7 @@ keywords: ["PFND3DDDI_SETLIGHT callback function"]
 ms.keywords: PFND3DDDI_SETLIGHT, PFND3DDDI_SETLIGHT callback, SetLight, SetLight callback function [Display Devices], UserModeDisplayDriver_Functions_82c42629-2344-4778-aaf4-e41acac4cfce.xml, d3dumddi/SetLight, display.setlight
 f1_keywords:
  - "d3dumddi/SetLight"
+ - "SetLight"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

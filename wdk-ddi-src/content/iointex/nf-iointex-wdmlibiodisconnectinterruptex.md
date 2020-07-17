@@ -10,6 +10,7 @@ keywords: ["WdmlibIoDisconnectInterruptEx function"]
 ms.keywords: IoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx function [Kernel-Mode Driver Architecture], iointex/IoDisconnectInterruptEx, iointex/WdmlibIoDisconnectInterruptEx, kernel.wdmlibiodisconnectinterruptex
 f1_keywords:
  - "iointex/WdmlibIoDisconnectInterruptEx"
+ - "WdmlibIoDisconnectInterruptEx"
 req.header: iointex.h
 req.include-header: Iointex.h, Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

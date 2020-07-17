@@ -10,6 +10,7 @@ keywords: ["_PEP_REGISTER_CRASHDUMP_DEVICE structure"]
 ms.keywords: "*PPEP_REGISTER_CRASHDUMP_DEVICE, PEP_REGISTER_CRASHDUMP_DEVICE, PEP_REGISTER_CRASHDUMP_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_REGISTER_CRASHDUMP_DEVICE, PPEP_REGISTER_CRASHDUMP_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_CRASHDUMP_DEVICE, kernel.pep_register_crashdump_device, pepfx/PEP_REGISTER_CRASHDUMP_DEVICE, pepfx/PPEP_REGISTER_CRASHDUMP_DEVICE"
 f1_keywords:
  - "pep_x/PEP_REGISTER_CRASHDUMP_DEVICE"
+ - "PEP_REGISTER_CRASHDUMP_DEVICE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

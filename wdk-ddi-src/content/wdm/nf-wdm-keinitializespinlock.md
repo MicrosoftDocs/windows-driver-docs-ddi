@@ -10,6 +10,7 @@ keywords: ["KeInitializeSpinLock function"]
 ms.keywords: KeInitializeSpinLock, KeInitializeSpinLock routine [Kernel-Mode Driver Architecture], k105_715eff59-827a-4d41-8e3a-2ce0d1f1181d.xml, kernel.keinitializespinlock, wdm/KeInitializeSpinLock
 f1_keywords:
  - "wdm/KeInitializeSpinLock"
+ - "KeInitializeSpinLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

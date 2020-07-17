@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetPipe::IsOutEndPoint"]
 ms.keywords: IWDFUsbTargetPipe interface,IsOutEndPoint method, IWDFUsbTargetPipe.IsOutEndPoint, IWDFUsbTargetPipe::IsOutEndPoint, IsOutEndPoint, IsOutEndPoint method, IsOutEndPoint method,IWDFUsbTargetPipe interface, UMDFUSBref_fc7a24f7-0bd6-4bb2-a9df-30d09e3b5e68.xml, umdf.iwdfusbtargetpipe_isoutendpoint, wdf.iwdfusbtargetpipe_isoutendpoint, wudfusb/IWDFUsbTargetPipe::IsOutEndPoint
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe.IsOutEndPoint"
+ - "IWDFUsbTargetPipe.IsOutEndPoint"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

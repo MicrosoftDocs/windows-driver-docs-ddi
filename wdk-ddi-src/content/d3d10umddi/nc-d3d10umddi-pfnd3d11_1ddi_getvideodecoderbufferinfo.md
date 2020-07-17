@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_GETVIDEODECODERBUFFERINFO callback function"]
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERBUFFERINFO, PFND3D11_1DDI_GETVIDEODECODERBUFFERINFO callback, d3d10umddi/pfnGetVideoDecoderBufferInfo, display.getvideodecoderbufferinfo, pfnGetVideoDecoderBufferInfo, pfnGetVideoDecoderBufferInfo callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnGetVideoDecoderBufferInfo"
+ - "pfnGetVideoDecoderBufferInfo"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

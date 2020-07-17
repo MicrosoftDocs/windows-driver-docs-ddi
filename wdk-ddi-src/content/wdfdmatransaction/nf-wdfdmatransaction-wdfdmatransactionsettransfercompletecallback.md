@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionSetTransferCompleteCallback function"]
 ms.keywords: WdfDmaTransactionSetTransferCompleteCallback, WdfDmaTransactionSetTransferCompleteCallback method, kmdf.wdfdmatransactionsettransfercompletecallback, wdf.wdfdmatransactionsettransfercompletecallback, wdfdmatransaction/WdfDmaTransactionSetTransferCompleteCallback
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionSetTransferCompleteCallback"
+ - "WdfDmaTransactionSetTransferCompleteCallback"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

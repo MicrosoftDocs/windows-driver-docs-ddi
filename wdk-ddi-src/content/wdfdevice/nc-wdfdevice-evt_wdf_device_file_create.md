@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_FILE_CREATE callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_74ee41b0-ed8c-4028-8f82-d747a4d916bb.xml, EVT_WDF_DEVICE_FILE_CREATE, EVT_WDF_DEVICE_FILE_CREATE callback, EvtDeviceFileCreate, EvtDeviceFileCreate callback function, kmdf.evtdevicefilecreate, wdf.evtdevicefilecreate, wdfdevice/EvtDeviceFileCreate
 f1_keywords:
  - "wdfdevice/EvtDeviceFileCreate"
+ - "EvtDeviceFileCreate"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

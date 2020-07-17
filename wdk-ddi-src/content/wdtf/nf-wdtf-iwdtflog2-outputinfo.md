@@ -10,6 +10,7 @@ keywords: ["IWDTFLOG2::OutputInfo"]
 ms.keywords: IWDTFLOG2 interface [Windows Device Testing Framework],OutputInfo method, IWDTFLOG2.OutputInfo, IWDTFLOG2::OutputInfo, Microsoft.WDTF.IWDTFLOG2.OutputInfo, Microsoft::WDTF::IWDTFLOG2::OutputInfo, OutputInfo, OutputInfo method [Windows Device Testing Framework], OutputInfo method [Windows Device Testing Framework],IWDTFLOG2 interface, dtf.iwdtflog2_outputinfo, wdtf/IWDTFLOG2::OutputInfo
 f1_keywords:
  - "wdtf/IWDTFLOG2.OutputInfo"
+ - "IWDTFLOG2.OutputInfo"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

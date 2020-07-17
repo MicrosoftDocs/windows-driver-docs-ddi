@@ -10,6 +10,7 @@ keywords: ["PsSetCreateThreadNotifyRoutineEx function"]
 ms.keywords: PsSetCreateThreadNotifyRoutineEx, PsSetCreateThreadNotifyRoutineEx routine [Kernel-Mode Driver Architecture], kernel.pssetcreatethreadnotifyroutineex, ntddk/PsSetCreateThreadNotifyRoutineEx
 f1_keywords:
  - "ntddk/PsSetCreateThreadNotifyRoutineEx"
+ - "PsSetCreateThreadNotifyRoutineEx"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

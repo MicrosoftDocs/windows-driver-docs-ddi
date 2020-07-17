@@ -32,6 +32,7 @@ api_name:
  - D3D12DDICAPS_SAMPLER_FEEDBACK_CAPS_0073
 f1_keywords:
  - d3d12umddi/D3D12DDICAPS_SAMPLER_FEEDBACK_CAPS_0073
+ - ""
 dev_langs:
  - c++
 ---

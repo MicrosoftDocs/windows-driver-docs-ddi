@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetManagedStatus"]
 ms.keywords: GetManagedStatus, GetManagedStatus method [Windows Debugging], GetManagedStatus method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetManagedStatus method, IDebugControl4.GetManagedStatus, IDebugControl4::GetManagedStatus, dbgeng/IDebugControl4::GetManagedStatus, debugger.idebugcontrol4_getmanagedstatus
 f1_keywords:
  - "dbgeng/IDebugControl4.GetManagedStatus"
+ - "IDebugControl4.GetManagedStatus"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

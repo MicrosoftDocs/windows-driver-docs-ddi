@@ -10,6 +10,7 @@ keywords: ["DXGKCB_READ_DEVICE_SPACE callback function"]
 ms.keywords: DXGKCB_READ_DEVICE_SPACE, DXGKCB_READ_DEVICE_SPACE callback, DpFunctions_54853b5b-487d-410e-a08d-eb777b3686e9.xml, DxgkCbReadDeviceSpace, DxgkCbReadDeviceSpace callback function [Display Devices], display.dxgkcbreaddevicespace, dispmprt/DxgkCbReadDeviceSpace
 f1_keywords:
  - "dispmprt/DxgkCbReadDeviceSpace"
+ - "DxgkCbReadDeviceSpace"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

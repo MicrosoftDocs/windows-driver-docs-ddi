@@ -10,6 +10,7 @@ keywords: ["IPrintCoreUI2::GetOptionAttribute"]
 ms.keywords: GetOptionAttribute, GetOptionAttribute method [Print Devices], GetOptionAttribute method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],GetOptionAttribute method, IPrintCoreUI2.GetOptionAttribute, IPrintCoreUI2::GetOptionAttribute, prcomoem/IPrintCoreUI2::GetOptionAttribute, print.iprintcoreui2_getoptionattribute, print_unidrv-pscript_ui_a6147f0f-da6c-4d71-9d7f-04f3490935f0.xml
 f1_keywords:
  - "prcomoem/IPrintCoreUI2.GetOptionAttribute"
+ - "IPrintCoreUI2.GetOptionAttribute"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

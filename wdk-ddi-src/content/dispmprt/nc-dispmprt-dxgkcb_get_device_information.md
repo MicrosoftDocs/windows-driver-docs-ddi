@@ -10,6 +10,7 @@ keywords: ["DXGKCB_GET_DEVICE_INFORMATION callback function"]
 ms.keywords: DXGKCB_GET_DEVICE_INFORMATION, DXGKCB_GET_DEVICE_INFORMATION callback, DpFunctions_e2d65bd6-c28f-46db-acf1-b88ececedb08.xml, DxgkCbGetDeviceInformation, DxgkCbGetDeviceInformation callback function [Display Devices], display.dxgkcbgetdeviceinformation, dispmprt/DxgkCbGetDeviceInformation
 f1_keywords:
  - "dispmprt/DxgkCbGetDeviceInformation"
+ - "DxgkCbGetDeviceInformation"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

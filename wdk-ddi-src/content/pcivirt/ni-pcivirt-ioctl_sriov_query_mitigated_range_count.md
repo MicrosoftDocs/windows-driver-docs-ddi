@@ -10,6 +10,7 @@ keywords: ["IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT IOCTL"]
 ms.keywords: IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT, IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT control code [Buses], PCI.ioctl-sriov-query-mitigated-range-count, pcivirt/IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT
 f1_keywords:
  - "pcivirt/IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT"
+ - "IOCTL_SRIOV_QUERY_MITIGATED_RANGE_COUNT"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::SetScopeFromStoredEvent"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetScopeFromStoredEvent method, IDebugSymbols3.SetScopeFromStoredEvent, IDebugSymbols3::SetScopeFromStoredEvent, IDebugSymbols_710b59d8-620b-479f-bfeb-dd1196cd2dbc.xml, SetScopeFromStoredEvent, SetScopeFromStoredEvent method [Windows Debugging], SetScopeFromStoredEvent method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetScopeFromStoredEvent, debugger.setscopefromstoredevent
 f1_keywords:
  - "dbgeng/IDebugSymbols3.SetScopeFromStoredEvent"
+ - "IDebugSymbols3.SetScopeFromStoredEvent"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

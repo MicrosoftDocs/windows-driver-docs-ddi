@@ -10,6 +10,7 @@ keywords: ["ObInsertObject function"]
 ms.keywords: ObInsertObject, ObInsertObject function [Installable File System Drivers], ifsk.obinsertobject, ntifs/ObInsertObject, obref_9ecb8aa6-496e-4daf-96cf-d68ec5863e94.xml
 f1_keywords:
  - "ntifs/ObInsertObject"
+ - "ObInsertObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

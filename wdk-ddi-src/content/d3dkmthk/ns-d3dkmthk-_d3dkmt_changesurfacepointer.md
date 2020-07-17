@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_CHANGESURFACEPOINTER structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_CHANGESURFACEPOINTER"
+ - "_D3DKMT_CHANGESURFACEPOINTER"
 ms.keywords: _D3DKMT_CHANGESURFACEPOINTER, D3DKMT_CHANGESURFACEPOINTER, 
 req.header: d3dkmthk.h
 req.include-header:

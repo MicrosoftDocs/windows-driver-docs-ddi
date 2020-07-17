@@ -10,6 +10,7 @@ keywords: ["WdfFdoInitOpenRegistryKey function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_8768fe63-0134-467f-9610-0cdaf018f784.xml, WdfFdoInitOpenRegistryKey, WdfFdoInitOpenRegistryKey method, kmdf.wdffdoinitopenregistrykey, wdf.wdffdoinitopenregistrykey, wdffdo/WdfFdoInitOpenRegistryKey
 f1_keywords:
  - "wdffdo/WdfFdoInitOpenRegistryKey"
+ - "WdfFdoInitOpenRegistryKey"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

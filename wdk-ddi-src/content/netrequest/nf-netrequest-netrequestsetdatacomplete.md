@@ -8,6 +8,7 @@ ms.date: 02/08/2018
 keywords: ["NetRequestSetDataComplete function"]
 f1_keywords:
  - "netrequest/NetRequestSetDataComplete"
+ - "NetRequestSetDataComplete"
 ms.keywords: NetRequestSetDataComplete
 req.header: netrequest.h
 req.include-header: netadaptercx.h

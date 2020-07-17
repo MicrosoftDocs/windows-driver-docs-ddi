@@ -10,6 +10,7 @@ keywords: ["UFX_DEVICE_CAPABILITIES_INIT function"]
 ms.keywords: UFX_DEVICE_CAPABILITIES_INIT, UFX_DEVICE_CAPABILITIES_INIT function [Buses], buses.ufx_device_capabilities_init, ufxclient/UFX_DEVICE_CAPABILITIES_INIT
 f1_keywords:
  - "ufxclient/UFX_DEVICE_CAPABILITIES_INIT"
+ - "UFX_DEVICE_CAPABILITIES_INIT"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

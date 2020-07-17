@@ -10,6 +10,7 @@ keywords: ["WdfRequestSend function"]
 ms.keywords: DFRequestObjectRef_3104cf0d-01d0-4299-a123-ba7a8cc0ada9.xml, WdfRequestSend, WdfRequestSend method, kmdf.wdfrequestsend, wdf.wdfrequestsend, wdfrequest/WdfRequestSend
 f1_keywords:
  - "wdfrequest/WdfRequestSend"
+ - "WdfRequestSend"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

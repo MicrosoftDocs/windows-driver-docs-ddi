@@ -10,6 +10,7 @@ keywords: ["_NDIS_SWITCH_PORT_STATE enumeration"]
 ms.keywords: NDIS_SWITCH_PORT_STATE, NDIS_SWITCH_PORT_STATE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortStateCreated, NdisSwitchPortStateDeleted, NdisSwitchPortStateTeardown, NdisSwitchPortStateUnknown, _NDIS_SWITCH_PORT_STATE, netvista.ndis_switch_port_state, ntddndis/NDIS_SWITCH_PORT_STATE, ntddndis/NdisSwitchPortStateCreated, ntddndis/NdisSwitchPortStateDeleted, ntddndis/NdisSwitchPortStateTeardown, ntddndis/NdisSwitchPortStateUnknown
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_STATE"
+ - "NDIS_SWITCH_PORT_STATE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

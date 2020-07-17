@@ -10,6 +10,7 @@ keywords: ["KsSynchronousDeviceControl function"]
 ms.keywords: KsSynchronousDeviceControl, KsSynchronousDeviceControl function [Streaming Media Devices], ksproxy/KsSynchronousDeviceControl, ksproxy_5bfad2d0-2ee7-476d-a67b-e7c877505280.xml, stream.kssynchronousdevicecontrol
 f1_keywords:
  - "ksproxy/KsSynchronousDeviceControl"
+ - "KsSynchronousDeviceControl"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

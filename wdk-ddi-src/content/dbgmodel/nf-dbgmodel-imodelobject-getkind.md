@@ -7,6 +7,7 @@ ms.date: 06/10/2019
 keywords: ["IModelObject::GetKind"]
 f1_keywords:
  - "dbgmodel/IModelObject.GetKind"
+ - "IModelObject.GetKind"
 ms.keywords: IModelObject::GetKind, GetKind, IModelObject.GetKind, IModelObject::GetKind, IModelObject.GetKind
 req.header: dbgmodel.h
 req.include-header:

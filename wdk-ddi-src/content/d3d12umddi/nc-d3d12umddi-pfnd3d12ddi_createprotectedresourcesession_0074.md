@@ -28,6 +28,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0074"
+ - "PFND3D12DDI_CREATEPROTECTEDRESOURCESESSION_0074"
 topic_type:
  - APIRef
  - kbSyntax

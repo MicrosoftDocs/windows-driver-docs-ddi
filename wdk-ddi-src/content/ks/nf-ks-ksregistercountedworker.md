@@ -10,6 +10,7 @@ keywords: ["KsRegisterCountedWorker function"]
 ms.keywords: KsRegisterCountedWorker, KsRegisterCountedWorker function [Streaming Media Devices], ks/KsRegisterCountedWorker, ksfunc_2d4b1740-9b91-420d-81be-a56034445893.xml, stream.ksregistercountedworker
 f1_keywords:
  - "ks/KsRegisterCountedWorker"
+ - "KsRegisterCountedWorker"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

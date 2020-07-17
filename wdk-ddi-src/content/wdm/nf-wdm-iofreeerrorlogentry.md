@@ -10,6 +10,7 @@ keywords: ["IoFreeErrorLogEntry function"]
 ms.keywords: IoFreeErrorLogEntry, IoFreeErrorLogEntry routine [Kernel-Mode Driver Architecture], k104_33f7cbb2-e145-46f1-99a0-b53381704aad.xml, kernel.iofreeerrorlogentry, wdm/IoFreeErrorLogEntry
 f1_keywords:
  - "wdm/IoFreeErrorLogEntry"
+ - "IoFreeErrorLogEntry"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

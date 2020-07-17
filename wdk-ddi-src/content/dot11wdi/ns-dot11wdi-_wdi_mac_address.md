@@ -10,6 +10,7 @@ keywords: ["_WDI_MAC_ADDRESS structure"]
 ms.keywords: "*PWDI_MAC_ADDRESS, PWDI_MAC_ADDRESS, PWDI_MAC_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], WDI_MAC_ADDRESS, WDI_MAC_ADDRESS structure [Network Drivers Starting with Windows Vista], _WDI_MAC_ADDRESS, dot11wdi/PWDI_MAC_ADDRESS, dot11wdi/WDI_MAC_ADDRESS, netvista.wdi_mac_address, netvista.wifi_mac_address"
 f1_keywords:
  - "dot11wdi/WDI_MAC_ADDRESS"
+ - "WDI_MAC_ADDRESS"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

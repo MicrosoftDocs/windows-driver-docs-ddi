@@ -10,6 +10,7 @@ keywords: ["ExtRemoteList::GetNodeOffset"]
 ms.keywords: EngExtCpp_Ref_efff4521-d480-48a4-8466-f7db3c052aa1.xml, ExtRemoteList class [Windows Debugging],GetNodeOffset method, ExtRemoteList.GetNodeOffset, ExtRemoteList::GetNodeOffset, GetNodeOffset, GetNodeOffset method [Windows Debugging], GetNodeOffset method [Windows Debugging],ExtRemoteList class, debugger.extremotelist_getnodeoffset
 f1_keywords:
  - "engextcpp/ExtRemoteList.GetNodeOffset"
+ - "ExtRemoteList.GetNodeOffset"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

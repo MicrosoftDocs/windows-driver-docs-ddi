@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects interface"]
 ms.keywords: IDebugSystemObjects, IDebugSystemObjects interface [Windows Debugging], IDebugSystemObjects interface [Windows Debugging],described, IDebugSystemObjects_82c2f1f3-4eb4-4071-ba0b-d2e4d2929ce2.xml, dbgeng/IDebugSystemObjects, debugger.idebugsystemobjects
 f1_keywords:
  - "dbgeng/IDebugSystemObjects"
+ - "IDebugSystemObjects"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["KsPersistDeviceProfile function"]
 ms.keywords: KsPersistDeviceProfile, KsPersistDeviceProfile function [Streaming Media Devices], ks/KsPersistDeviceProfile, stream.kspersistdeviceprofile
 f1_keywords:
  - "ks/KsPersistDeviceProfile"
+ - "KsPersistDeviceProfile"
 req.header: ks.h
 req.include-header: Ksmedia.h
 req.target-type: Universal

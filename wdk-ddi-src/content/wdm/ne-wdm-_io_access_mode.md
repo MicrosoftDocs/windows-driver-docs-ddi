@@ -10,6 +10,7 @@ keywords: ["_IO_ACCESS_MODE enumeration"]
 ms.keywords: IO_ACCESS_MODE, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], RandomAccess, SequentialAccess, _IO_ACCESS_MODE, kernel.io_access_mode, wdm/IO_ACCESS_MODE, wdm/RandomAccess, wdm/SequentialAccess
 f1_keywords:
  - "wdm/IO_ACCESS_MODE"
+ - "IO_ACCESS_MODE"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddsfio.h
 req.target-type: Windows

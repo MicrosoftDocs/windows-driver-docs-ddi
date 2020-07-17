@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringCopy function"]
 ms.keywords: RtlUnicodeStringCopy, RtlUnicodeStringCopy function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcopy, ntstrsafe/RtlUnicodeStringCopy, safestrings_d5885cd9-d024-4757-8458-14a787b11a9f.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringCopy"
+ - "RtlUnicodeStringCopy"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["QUERY_MIRACAST_DRIVER_INTERFACE callback function"]
 ms.keywords: QUERY_MIRACAST_DRIVER_INTERFACE, QUERY_MIRACAST_DRIVER_INTERFACE callback, QueryMiracastDriverInterface, QueryMiracastDriverInterface callback function [Display Devices], display.query_miracast_driver_interface, display.querymiracastdriverinterface, netdispumdddi/QueryMiracastDriverInterface
 f1_keywords:
  - "netdispumdddi/QueryMiracastDriverInterface"
+ - "QueryMiracastDriverInterface"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlStopTimer function"]
 f1_keywords:
  - "dispmprt/DlStopTimer"
+ - "DlStopTimer"
 ms.keywords: DlStopTimer
 req.header: dispmprt.h
 req.include-header:

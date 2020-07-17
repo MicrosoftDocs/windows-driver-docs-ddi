@@ -10,6 +10,7 @@ keywords: ["NdisMDeregisterScatterGatherDma function"]
 ms.keywords: NdisMDeregisterScatterGatherDma, NdisMDeregisterScatterGatherDma function [Network Drivers Starting with Windows Vista], ndis/NdisMDeregisterScatterGatherDma, ndis_sgdma_ref_93a42580-1486-4ec8-90e6-ca6219c54884.xml, netvista.ndismderegisterscattergatherdma
 f1_keywords:
  - "ndis/NdisMDeregisterScatterGatherDma"
+ - "NdisMDeregisterScatterGatherDma"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

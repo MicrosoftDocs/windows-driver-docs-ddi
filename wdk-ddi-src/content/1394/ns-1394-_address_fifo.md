@@ -10,6 +10,7 @@ keywords: ["_ADDRESS_FIFO structure"]
 ms.keywords: "*PADDRESS_FIFO, 1394/ADDRESS_FIFO, 1394/PADDRESS_FIFO, 1394stct_bf7f3e1b-88a4-4c37-88ee-cf5d69595988.xml, ADDRESS_FIFO, ADDRESS_FIFO structure [Buses], IEEE.address_fifo, PADDRESS_FIFO, PADDRESS_FIFO structure pointer [Buses], _ADDRESS_FIFO"
 f1_keywords:
  - "1394/ADDRESS_FIFO"
+ - "ADDRESS_FIFO"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows

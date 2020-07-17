@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["PoFxCompleteDirectedPowerDown function"]
 f1_keywords:
  - "wdm/PoFxCompleteDirectedPowerDown"
+ - "PoFxCompleteDirectedPowerDown"
 ms.keywords: PoFxCompleteDirectedPowerDown
 req.header: wdm.h
 req.include-header:

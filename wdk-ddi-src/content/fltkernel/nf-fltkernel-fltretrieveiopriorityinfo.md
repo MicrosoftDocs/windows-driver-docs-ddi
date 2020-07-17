@@ -10,6 +10,7 @@ keywords: ["FltRetrieveIoPriorityInfo function"]
 ms.keywords: FltApiRef_p_to_z_ac6da005-5f47-441d-8277-9beedb72c0ee.xml, FltRetrieveIoPriorityInfo, FltRetrieveIoPriorityInfo routine [Installable File System Drivers], fltkernel/FltRetrieveIoPriorityInfo, ifsk.fltretrieveiopriorityinfo
 f1_keywords:
  - "fltkernel/FltRetrieveIoPriorityInfo"
+ - "FltRetrieveIoPriorityInfo"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

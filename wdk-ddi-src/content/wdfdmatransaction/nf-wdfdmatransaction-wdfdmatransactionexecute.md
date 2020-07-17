@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionExecute function"]
 ms.keywords: DFDmaObjectRef_012a66e9-0ed7-458f-9068-c7d2ce58d86a.xml, WdfDmaTransactionExecute, WdfDmaTransactionExecute method, kmdf.wdfdmatransactionexecute, wdf.wdfdmatransactionexecute, wdfdmatransaction/WdfDmaTransactionExecute
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionExecute"
+ - "WdfDmaTransactionExecute"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IKsReferenceClock::GetPhysicalTime"]
 ms.keywords: GetPhysicalTime, GetPhysicalTime method [Streaming Media Devices], GetPhysicalTime method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetPhysicalTime method, IKsReferenceClock.GetPhysicalTime, IKsReferenceClock::GetPhysicalTime, avintfc_a80ef73b-383a-48b2-b3ea-49e5469c7bca.xml, ks/IKsReferenceClock::GetPhysicalTime, stream.iksreferenceclock_getphysicaltime
 f1_keywords:
  - "ks/IKsReferenceClock.GetPhysicalTime"
+ - "IKsReferenceClock.GetPhysicalTime"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

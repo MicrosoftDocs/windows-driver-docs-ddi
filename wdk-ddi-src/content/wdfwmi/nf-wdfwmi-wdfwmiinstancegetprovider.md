@@ -10,6 +10,7 @@ keywords: ["WdfWmiInstanceGetProvider function"]
 ms.keywords: DFWMIRef_f5950eae-6036-4acc-91ab-d7d49ae74202.xml, WdfWmiInstanceGetProvider, WdfWmiInstanceGetProvider method, kmdf.wdfwmiinstancegetprovider, wdf.wdfwmiinstancegetprovider, wdfwmi/WdfWmiInstanceGetProvider
 f1_keywords:
  - "wdfwmi/WdfWmiInstanceGetProvider"
+ - "WdfWmiInstanceGetProvider"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal

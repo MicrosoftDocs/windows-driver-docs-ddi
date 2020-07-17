@@ -10,6 +10,7 @@ keywords: ["IPrintOemUI::DocumentPropertySheets"]
 ms.keywords: DocumentPropertySheets, DocumentPropertySheets method [Print Devices], DocumentPropertySheets method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],DocumentPropertySheets method, IPrintOemUI.DocumentPropertySheets, IPrintOemUI::DocumentPropertySheets, prcomoem/IPrintOemUI::DocumentPropertySheets, print.iprintoemui_documentpropertysheets, print_unidrv-pscript_ui_a998749c-eb3d-4b54-a69c-c7cdc61930fc.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI.DocumentPropertySheets"
+ - "IPrintOemUI.DocumentPropertySheets"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h, Compstui.h
 req.target-type: Desktop

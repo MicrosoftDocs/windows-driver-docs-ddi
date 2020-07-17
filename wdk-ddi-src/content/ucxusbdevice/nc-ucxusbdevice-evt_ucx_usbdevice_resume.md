@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_USBDEVICE_RESUME callback function"]
 ms.keywords: "*PFN_UCX_USBDEVICE_RESUME, *PFN_UCX_USBDEVICE_RESUME callback function [Buses], EVT_UCX_USBDEVICE_RESUME, EVT_UCX_USBDEVICE_RESUME callback, EvtUcxDeviceResume, EvtUcxDeviceResume callback function [Buses], buses.evt_ucx_usbdevice_resume, ucxusbdevice/EvtUcxDeviceResume"
 f1_keywords:
  - "ucxusbdevice/*PFN_UCX_USBDEVICE_RESUME"
+ - "*PFN_UCX_USBDEVICE_RESUME"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

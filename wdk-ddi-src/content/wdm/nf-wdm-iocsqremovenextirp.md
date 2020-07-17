@@ -10,6 +10,7 @@ keywords: ["IoCsqRemoveNextIrp function"]
 ms.keywords: IoCsqRemoveNextIrp, IoCsqRemoveNextIrp routine [Kernel-Mode Driver Architecture], k104_da0b9a4a-daa7-4085-ab2a-77b81856820f.xml, kernel.iocsqremovenextirp, wdm/IoCsqRemoveNextIrp
 f1_keywords:
  - "wdm/IoCsqRemoveNextIrp"
+ - "IoCsqRemoveNextIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

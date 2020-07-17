@@ -10,6 +10,7 @@ keywords: ["RxCeBuildConnectionOverMultipleTransports function"]
 ms.keywords: RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers], ifsk.rxcebuildconnectionovermultipletransports, rxce/RxCeBuildConnectionOverMultipleTransports, rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml
 f1_keywords:
  - "rxce/RxCeBuildConnectionOverMultipleTransports"
+ - "RxCeBuildConnectionOverMultipleTransports"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop

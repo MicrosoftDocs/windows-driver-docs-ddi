@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IModelKeyReference2::SetKeyValue"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference2.SetKeyValue"
+ - "IModelKeyReference2.SetKeyValue"
 ms.keywords: IModelKeyReference2::SetKeyValue, SetKeyValue, IModelKeyReference2.SetKeyValue, IModelKeyReference2::SetKeyValue, IModelKeyReference2.SetKeyValue
 req.header: dbgmodel.h
 req.include-header:

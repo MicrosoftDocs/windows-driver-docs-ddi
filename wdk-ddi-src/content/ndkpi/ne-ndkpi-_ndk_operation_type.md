@@ -10,6 +10,7 @@ keywords: ["_NDK_OPERATION_TYPE enumeration"]
 ms.keywords: NDK_OPERATION_TYPE, NDK_OPERATION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdkOperationTypeBind, NdkOperationTypeFastRegister, NdkOperationTypeInvalidate, NdkOperationTypeRead, NdkOperationTypeReceive, NdkOperationTypeReceiveAndInvalidate, NdkOperationTypeSend, NdkOperationTypeWrite, _NDK_OPERATION_TYPE, ndkpi/NDK_OPERATION_TYPE, ndkpi/NdkOperationTypeBind, ndkpi/NdkOperationTypeFastRegister, ndkpi/NdkOperationTypeInvalidate, ndkpi/NdkOperationTypeRead, ndkpi/NdkOperationTypeReceive, ndkpi/NdkOperationTypeReceiveAndInvalidate, ndkpi/NdkOperationTypeSend, ndkpi/NdkOperationTypeWrite, netvista.ndk_operation_type
 f1_keywords:
  - "ndkpi/NDK_OPERATION_TYPE"
+ - "NDK_OPERATION_TYPE"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

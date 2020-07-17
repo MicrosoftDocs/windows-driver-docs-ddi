@@ -10,6 +10,7 @@ keywords: ["_DEBUG_SPECIFIC_FILTER_PARAMETERS structure"]
 ms.keywords: "*PDEBUG_SPECIFIC_FILTER_PARAMETERS, DEBUG_SPECIFIC_FILTER_PARAMETERS, DEBUG_SPECIFIC_FILTER_PARAMETERS structure [Windows Debugging], PDEBUG_SPECIFIC_FILTER_PARAMETERS, PDEBUG_SPECIFIC_FILTER_PARAMETERS structure pointer [Windows Debugging], Structures_b0152b9b-4809-46c8-81a7-5f571720eca1.xml, _DEBUG_SPECIFIC_FILTER_PARAMETERS, dbgeng/DEBUG_SPECIFIC_FILTER_PARAMETERS, dbgeng/PDEBUG_SPECIFIC_FILTER_PARAMETERS, debugger.debug_specific_filter_parameters"
 f1_keywords:
  - "dbgeng/DEBUG_SPECIFIC_FILTER_PARAMETERS"
+ - "DEBUG_SPECIFIC_FILTER_PARAMETERS"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows

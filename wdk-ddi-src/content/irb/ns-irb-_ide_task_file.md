@@ -10,6 +10,7 @@ keywords: ["_IDE_TASK_FILE structure"]
 ms.keywords: "*PIDE_TASK_FILE, IDE_TASK_FILE, IDE_TASK_FILE structure [Storage Devices], PIDE_TASK_FILE, PIDE_TASK_FILE structure pointer [Storage Devices], _IDE_TASK_FILE, irb/IDE_TASK_FILE, irb/PIDE_TASK_FILE, storage.ide_task_file, structs-ATA_0d96e047-8840-46cd-9df1-606ca70edb9e.xml"
 f1_keywords:
  - "irb/IDE_TASK_FILE"
+ - "IDE_TASK_FILE"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows

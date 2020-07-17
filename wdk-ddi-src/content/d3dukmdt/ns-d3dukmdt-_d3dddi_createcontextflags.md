@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_CREATECONTEXTFLAGS structure"]
 ms.keywords: D3DDDI_CREATECONTEXTFLAGS, D3DDDI_CREATECONTEXTFLAGS structure [Display Devices], D3D_other_Structs_e20f9457-1008-4c63-a924-d5fa75929be5.xml, _D3DDDI_CREATECONTEXTFLAGS, d3dukmdt/D3DDDI_CREATECONTEXTFLAGS, display.d3dddi_createcontextflags
 f1_keywords:
  - "d3dukmdt/D3DDDI_CREATECONTEXTFLAGS"
+ - "D3DDDI_CREATECONTEXTFLAGS"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows

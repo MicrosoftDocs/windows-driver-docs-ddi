@@ -10,6 +10,7 @@ keywords: ["FwpsPendClassify0 function"]
 ms.keywords: FwpsPendClassify0, FwpsPendClassify0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsPendClassify0, netvista.fwpspendclassify0, wfp_ref_2_funct_3_fwps_J-Q_b0a2ba71-91f1-460c-9b67-d8ddbe25cb44.xml
 f1_keywords:
  - "fwpsk/FwpsPendClassify0"
+ - "FwpsPendClassify0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

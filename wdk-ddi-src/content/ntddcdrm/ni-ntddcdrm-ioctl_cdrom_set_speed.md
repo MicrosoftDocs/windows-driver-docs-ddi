@@ -10,6 +10,7 @@ keywords: ["IOCTL_CDROM_SET_SPEED IOCTL"]
 ms.keywords: IOCTL_CDROM_SET_SPEED, IOCTL_CDROM_SET_SPEED control, IOCTL_CDROM_SET_SPEED control code [Storage Devices], k307_df26ae09-2af1-4290-812a-b0f279112d97.xml, ntddcdrm/IOCTL_CDROM_SET_SPEED, storage.ioctl_cdrom_set_speed
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_SET_SPEED"
+ - "IOCTL_CDROM_SET_SPEED"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

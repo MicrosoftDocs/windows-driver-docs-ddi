@@ -10,6 +10,7 @@ keywords: ["TELEPHONY_CALLCONTROLOP enumeration"]
 ms.keywords: TELEPHONY_CALLCONTROLOP, TELEPHONY_CALLCONTROLOP enumeration [Audio Devices], TELEPHONY_CALLCONTROLOP_DISABLE, TELEPHONY_CALLCONTROLOP_ENABLE, audio.telephony_callcontrolop, ksmedia/TELEPHONY_CALLCONTROLOP, ksmedia/TELEPHONY_CALLCONTROLOP_DISABLE, ksmedia/TELEPHONY_CALLCONTROLOP_ENABLE
 f1_keywords:
  - "ksmedia/TELEPHONY_CALLCONTROLOP"
+ - "TELEPHONY_CALLCONTROLOP"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

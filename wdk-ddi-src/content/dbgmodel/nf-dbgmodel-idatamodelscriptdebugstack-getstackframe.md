@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDataModelScriptDebugStack::GetStackFrame"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugStack.GetStackFrame"
+ - "IDataModelScriptDebugStack.GetStackFrame"
 ms.keywords: IDataModelScriptDebugStack::GetStackFrame, GetStackFrame, IDataModelScriptDebugStack.GetStackFrame, IDataModelScriptDebugStack::GetStackFrame, IDataModelScriptDebugStack.GetStackFrame
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS, IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control, IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control code [Sensor Devices], gnss.ioctl_gnss_listen_geofences_trackingstatus, gnssdriver/IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS"
+ - "IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

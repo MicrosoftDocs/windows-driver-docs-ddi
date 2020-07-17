@@ -10,6 +10,7 @@ keywords: ["IoSetPartitionInformationEx function"]
 ms.keywords: IoSetPartitionInformationEx, IoSetPartitionInformationEx routine [Storage Devices], ntddk/IoSetPartitionInformationEx, rtns-disk_7fd49999-70b3-4d59-b281-ff24b8a22a30.xml, storage.iosetpartitioninformationex
 f1_keywords:
  - "ntddk/IoSetPartitionInformationEx"
+ - "IoSetPartitionInformationEx"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

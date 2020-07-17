@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/CreateResource"
+ - "CreateResource"
 topic_type:
  - APIRef
  - kbSyntax

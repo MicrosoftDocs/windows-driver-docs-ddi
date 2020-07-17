@@ -10,6 +10,7 @@ keywords: ["NdisAllocateNetBufferAndNetBufferList function"]
 ms.keywords: NdisAllocateNetBufferAndNetBufferList, NdisAllocateNetBufferAndNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferAndNetBufferList, ndis_netbuf_functions_ref_47bf06b7-b76e-42a0-bf16-b3942fde8eb9.xml, netvista.ndisallocatenetbufferandnetbufferlist
 f1_keywords:
  - "ndis/NdisAllocateNetBufferAndNetBufferList"
+ - "NdisAllocateNetBufferAndNetBufferList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

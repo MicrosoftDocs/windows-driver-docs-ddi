@@ -9,6 +9,7 @@ keywords: ["_DXGK_POWER_COMPONENT_MAPPING structure"]
 ms.keywords: DXGK_POWER_COMPONENT_MAPPING, DXGK_POWER_COMPONENT_MAPPING structure [Display Devices], _DXGK_POWER_COMPONENT_MAPPING, d3dkmddi/DXGK_POWER_COMPONENT_MAPPING, display.dxgk_power_component_mapping
 f1_keywords:
  - "d3dkmddi/DXGK_POWER_COMPONENT_MAPPING"
+ - "DXGK_POWER_COMPONENT_MAPPING"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type: Windows

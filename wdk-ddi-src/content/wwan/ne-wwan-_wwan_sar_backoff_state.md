@@ -8,6 +8,7 @@ ms.date: 08/20/2018
 keywords: ["_WWAN_SAR_BACKOFF_STATE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_SAR_BACKOFF_STATE"
+ - "_WWAN_SAR_BACKOFF_STATE"
 ms.keywords: _WWAN_SAR_BACKOFF_STATE, WWAN_SAR_BACKOFF_STATE, *PWWAN_SAR_BACKOFF_STATE, 
 req.header: wwan.h
 req.include-header:

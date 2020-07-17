@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_NOTIFY_ACPI_EVENT callback function"]
 ms.keywords: DXGKDDI_NOTIFY_ACPI_EVENT, DXGKDDI_NOTIFY_ACPI_EVENT callback, DmFunctions_de0d32a9-a592-4fe2-86e1-66a436be5874.xml, DxgkDdiNotifyAcpiEvent, DxgkDdiNotifyAcpiEvent callback function [Display Devices], display.dxgkddinotifyacpievent, dispmprt/DxgkDdiNotifyAcpiEvent
 f1_keywords:
  - "dispmprt/DxgkDdiNotifyAcpiEvent"
+ - "DxgkDdiNotifyAcpiEvent"
 req.header: dispmprt.h
 req.include-header:
 req.target-type: Desktop

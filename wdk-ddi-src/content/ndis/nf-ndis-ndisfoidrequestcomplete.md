@@ -10,6 +10,7 @@ keywords: ["NdisFOidRequestComplete function"]
 ms.keywords: NdisFOidRequestComplete, NdisFOidRequestComplete function [Network Drivers Starting with Windows Vista], ndis/NdisFOidRequestComplete, ndis_request_ref_df2bb357-d053-4f02-a828-46a72dc1fee7.xml, netvista.ndisfoidrequestcomplete
 f1_keywords:
  - "ndis/NdisFOidRequestComplete"
+ - "NdisFOidRequestComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

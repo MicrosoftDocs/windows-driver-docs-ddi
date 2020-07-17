@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_CONNECTOR_PARTNER_TYPE enumeration"]
 f1_keywords:
  - "ucmucsispec/_UCSI_CONNECTOR_PARTNER_TYPE"
+ - "_UCSI_CONNECTOR_PARTNER_TYPE"
 ms.keywords: _UCSI_CONNECTOR_PARTNER_TYPE, UCSI_CONNECTOR_PARTNER_TYPE, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

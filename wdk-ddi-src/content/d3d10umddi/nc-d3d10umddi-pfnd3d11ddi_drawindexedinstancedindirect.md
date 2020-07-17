@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT callback function"]
 ms.keywords: DrawIndexedInstancedIndirect, DrawIndexedInstancedIndirect callback function [Display Devices], PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT, PFND3D11DDI_DRAWINDEXEDINSTANCEDINDIRECT callback, UserModeDisplayDriverDx11_Functions_18c492b3-4d4b-413c-82c3-7290af5aade6.xml, d3d10umddi/DrawIndexedInstancedIndirect, display.drawindexedinstancedindirect
 f1_keywords:
  - "d3d10umddi/DrawIndexedInstancedIndirect"
+ - "DrawIndexedInstancedIndirect"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

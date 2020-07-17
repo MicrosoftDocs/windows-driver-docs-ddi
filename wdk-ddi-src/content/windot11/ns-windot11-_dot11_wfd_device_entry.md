@@ -10,6 +10,7 @@ keywords: ["_DOT11_WFD_DEVICE_ENTRY structure"]
 ms.keywords: "*PDOT11_WFD_DEVICE_ENTRY, DOT11_WFD_DEVICE_ENTRY, DOT11_WFD_DEVICE_ENTRY structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DEVICE_ENTRY, PDOT11_WFD_DEVICE_ENTRY structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DEVICE_ENTRY, netvista._dot11_wfd_device_entry, windot11/ DOT11_WFD_DEVICE_ENTRY, windot11/PDOT11_WFD_DEVICE_ENTRY"
 f1_keywords:
  - "windot11/DOT11_WFD_DEVICE_ENTRY"
+ - "DOT11_WFD_DEVICE_ENTRY"
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows

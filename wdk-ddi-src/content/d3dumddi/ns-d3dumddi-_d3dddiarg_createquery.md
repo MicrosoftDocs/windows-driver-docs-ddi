@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_CREATEQUERY structure"]
 ms.keywords: D3DDDIARG_CREATEQUERY, D3DDDIARG_CREATEQUERY structure [Display Devices], UMDisplayDriver_param_Structs_37293319-c280-4363-936a-65a8a5af4c45.xml, _D3DDDIARG_CREATEQUERY, d3dumddi/D3DDDIARG_CREATEQUERY, display.d3dddiarg_createquery
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CREATEQUERY"
+ - "D3DDDIARG_CREATEQUERY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

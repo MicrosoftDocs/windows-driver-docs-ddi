@@ -10,6 +10,7 @@ keywords: ["PMRX_PREPARSE_NAME callback function"]
 ms.keywords: MRxPreparseName, MRxPreparseName routine [Installable File System Drivers], PMRX_PREPARSE_NAME, ifsk.mrxpreparsename, mrx/MRxPreparseName, mrxref_4f7f0d54-93a0-4b61-bf62-6e7b1063415c.xml
 f1_keywords:
  - "mrx/MRxPreparseName"
+ - "MRxPreparseName"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

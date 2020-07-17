@@ -10,6 +10,7 @@ keywords: ["GetPrintCapabilities function"]
 ms.keywords: GetPrintCapabilities, GetPrintCapabilities method [Print Devices], GetPrintCapabilities method [Print Devices],IPrintTicketProvider interface, IPrintTicketProvider interface [Print Devices],GetPrintCapabilities method, IPrintTicketProvider::GetPrintCapabilities, prdrvcom/IPrintTicketProvider::GetPrintCapabilities, print.iprintticketprovider_getprintcapabilities, print_ticket-package_82407167-f510-4a1d-acd4-1baaac8e1928.xml
 f1_keywords:
  - "prdrvcom/IPrintTicketProvider.GetPrintCapabilities"
+ - "IPrintTicketProvider.GetPrintCapabilities"
 req.header: prdrvcom.h
 req.include-header: Prdrvcom.h
 req.target-type: Desktop

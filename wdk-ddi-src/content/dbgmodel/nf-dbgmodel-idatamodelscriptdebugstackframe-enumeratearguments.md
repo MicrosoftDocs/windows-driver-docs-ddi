@@ -7,6 +7,7 @@ ms.date: 10/03/2018
 keywords: ["IDataModelScriptDebugStackFrame::EnumerateArguments"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugStackFrame.EnumerateArguments"
+ - "IDataModelScriptDebugStackFrame.EnumerateArguments"
 ms.keywords: IDataModelScriptDebugStackFrame::EnumerateArguments, EnumerateArguments, IDataModelScriptDebugStackFrame.EnumerateArguments, IDataModelScriptDebugStackFrame::EnumerateArguments, IDataModelScriptDebugStackFrame.EnumerateArguments
 req.header: dbgmodel.h
 req.include-header:

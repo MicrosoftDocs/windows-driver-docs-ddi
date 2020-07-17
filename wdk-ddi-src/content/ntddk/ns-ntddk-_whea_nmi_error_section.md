@@ -10,6 +10,7 @@ keywords: ["_WHEA_NMI_ERROR_SECTION structure"]
 ms.keywords: "*PWHEA_NMI_ERROR_SECTION, PWHEA_NMI_ERROR_SECTION, PWHEA_NMI_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_NMI_ERROR_SECTION, WHEA_NMI_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_NMI_ERROR_SECTION, ntddk/PWHEA_NMI_ERROR_SECTION, ntddk/WHEA_NMI_ERROR_SECTION, whea.whea_nmi_error_section, whearef_295c8b30-1ec5-41a3-ba50-f00c1b1b5524.xml"
 f1_keywords:
  - "ntddk/WHEA_NMI_ERROR_SECTION"
+ - "WHEA_NMI_ERROR_SECTION"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

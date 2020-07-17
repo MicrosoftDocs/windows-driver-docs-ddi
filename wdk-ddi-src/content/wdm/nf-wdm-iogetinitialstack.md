@@ -10,6 +10,7 @@ keywords: ["IoGetInitialStack function"]
 ms.keywords: IoGetInitialStack, IoGetInitialStack routine [Kernel-Mode Driver Architecture], k104_5e1ac4e5-b51e-4840-86e3-2ce67c634489.xml, kernel.iogetinitialstack, wdm/IoGetInitialStack
 f1_keywords:
  - "wdm/IoGetInitialStack"
+ - "IoGetInitialStack"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Universal

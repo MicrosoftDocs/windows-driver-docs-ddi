@@ -10,6 +10,7 @@ keywords: ["PoCreatePowerRequest function"]
 ms.keywords: PoCreatePowerRequest, PoCreatePowerRequest routine [Kernel-Mode Driver Architecture], kernel.pocreatepowerrequest, portn_059f00e2-74ea-4c61-8fcd-6b257c084161.xml, wdm/PoCreatePowerRequest
 f1_keywords:
  - "wdm/PoCreatePowerRequest"
+ - "PoCreatePowerRequest"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

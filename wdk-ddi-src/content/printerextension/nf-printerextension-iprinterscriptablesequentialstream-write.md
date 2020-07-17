@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptableSequentialStream::Write"]
 ms.keywords: IPrinterScriptableSequentialStream interface [Print Devices],Write method, IPrinterScriptableSequentialStream.Write, IPrinterScriptableSequentialStream::Write, Write, Write method [Print Devices], Write method [Print Devices],IPrinterScriptableSequentialStream interface, print.iprinterscriptablesequentialstream_write, printerextension/IPrinterScriptableSequentialStream::Write
 f1_keywords:
  - "printerextension/IPrinterScriptableSequentialStream.Write"
+ - "IPrinterScriptableSequentialStream.Write"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

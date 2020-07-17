@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_GPU_PREFERENCE_QUERY_STATE enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_GPU_PREFERENCE_QUERY_STATE"
+ - "_D3DKMT_GPU_PREFERENCE_QUERY_STATE"
 ms.keywords: _D3DKMT_GPU_PREFERENCE_QUERY_STATE, D3DKMT_GPU_PREFERENCE_QUERY_STATE, 
 req.header: d3dkmthk.h
 req.include-header:

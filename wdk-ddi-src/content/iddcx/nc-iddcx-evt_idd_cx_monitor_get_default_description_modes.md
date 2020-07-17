@@ -10,6 +10,7 @@ keywords: ["EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES, EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES callback, EvtIddCxMonitorGetDefaultDescriptionModes, EvtIddCxMonitorGetDefaultDescriptionModes callback function [Display Devices], PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES, PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES callback function pointer [Display Devices], display.evt_idd_cx_monitor_get_default_description_modes, iddcx/EvtIddCxMonitorGetDefaultDescriptionModes
 f1_keywords:
  - "iddcx/PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES"
+ - "PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

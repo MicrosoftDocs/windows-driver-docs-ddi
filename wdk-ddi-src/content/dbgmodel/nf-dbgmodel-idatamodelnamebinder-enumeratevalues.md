@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDataModelNameBinder::EnumerateValues"]
 f1_keywords:
  - "dbgmodel/IDataModelNameBinder.EnumerateValues"
+ - "IDataModelNameBinder.EnumerateValues"
 ms.keywords: IDataModelNameBinder::EnumerateValues, EnumerateValues, IDataModelNameBinder.EnumerateValues, IDataModelNameBinder::EnumerateValues, IDataModelNameBinder.EnumerateValues
 req.header: dbgmodel.h
 req.include-header:

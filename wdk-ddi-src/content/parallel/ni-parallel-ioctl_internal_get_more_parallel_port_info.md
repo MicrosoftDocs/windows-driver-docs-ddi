@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO IOCTL"]
 ms.keywords: IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO, IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO control code [Parallel Ports], cisspd_3f4efeec-5579-44c6-8438-bdb4b4983194.xml, parallel/IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO, parports.ioctl_internal_get_more_parallel_port_info
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO"
+ - "IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows

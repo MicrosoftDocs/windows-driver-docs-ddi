@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure"]
 ms.keywords: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_819c22ef-0bae-476a-9cbc-0169cd7fc82f.xml, _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, display.d3dkmt_flipmodel_presenthistorytoken
 f1_keywords:
  - "d3dkmthk/D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN"
+ - "D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["FltAllocateFileLock function"]
 ms.keywords: FltAllocateFileLock, FltAllocateFileLock routine [Installable File System Drivers], FltApiRef_a_to_d_f59cead3-059a-4457-9339-c90cc007ca63.xml, fltkernel/FltAllocateFileLock, ifsk.fltallocatefilelock
 f1_keywords:
  - "fltkernel/FltAllocateFileLock"
+ - "FltAllocateFileLock"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

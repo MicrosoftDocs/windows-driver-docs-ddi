@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_ARG_BLT structure"]
 ms.keywords: DXGI_DDI_ARG_BLT, DXGI_DDI_ARG_BLT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_299fa1c4-8c06-4a7e-a81c-741eb2e8c00a.xml, display.dxgi_ddi_arg_blt, dxgiddi/DXGI_DDI_ARG_BLT
 f1_keywords:
  - "dxgiddi/DXGI_DDI_ARG_BLT"
+ - "DXGI_DDI_ARG_BLT"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

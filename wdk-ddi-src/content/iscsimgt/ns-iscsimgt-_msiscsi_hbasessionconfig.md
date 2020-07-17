@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_HBASessionConfig structure"]
 ms.keywords: "*PMSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig structure [Storage Devices], PMSiSCSI_HBASessionConfig, PMSiSCSI_HBASessionConfig structure pointer [Storage Devices], _MSiSCSI_HBASessionConfig, iscsimgt/MSiSCSI_HBASessionConfig, iscsimgt/PMSiSCSI_HBASessionConfig, storage.msiscsi_hbasessionconfig, structs-iSCSI_e8f9731d-11fb-42e1-90a0-09e3e6597ebe.xml"
 f1_keywords:
  - "iscsimgt/MSiSCSI_HBASessionConfig"
+ - "MSiSCSI_HBASessionConfig"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows

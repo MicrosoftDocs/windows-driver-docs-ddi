@@ -10,6 +10,7 @@ keywords: ["_PUBLIC_OBJECT_BASIC_INFORMATION structure"]
 ms.keywords: "*PPUBLIC_OBJECT_BASIC_INFORMATION, PPUBLIC_OBJECT_BASIC_INFORMATION, PPUBLIC_OBJECT_BASIC_INFORMATION structure pointer [Installable File System Drivers], PUBLIC_OBJECT_BASIC_INFORMATION, PUBLIC_OBJECT_BASIC_INFORMATION structure [Installable File System Drivers], _PUBLIC_OBJECT_BASIC_INFORMATION, ifsk.public_object_basic_information, ntifs/PPUBLIC_OBJECT_BASIC_INFORMATION, ntifs/PUBLIC_OBJECT_BASIC_INFORMATION, objectstructures_f0dec604-d95c-47b4-aedc-168a3ae1dedc.xml"
 f1_keywords:
  - "ntifs/PUBLIC_OBJECT_BASIC_INFORMATION"
+ - "PUBLIC_OBJECT_BASIC_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

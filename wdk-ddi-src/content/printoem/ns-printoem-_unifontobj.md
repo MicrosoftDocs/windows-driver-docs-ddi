@@ -10,6 +10,7 @@ keywords: ["_UNIFONTOBJ structure"]
 ms.keywords: "*PUNIFONTOBJ, PUNIFONTOBJ, PUNIFONTOBJ structure pointer [Print Devices], UNIFONTOBJ, UNIFONTOBJ structure [Print Devices], _UNIFONTOBJ, print.unifontobj, print_unidrv-pscript_rendering_05a25ef3-5ce2-43f5-ae35-790691bda143.xml, printoem/PUNIFONTOBJ, printoem/UNIFONTOBJ"
 f1_keywords:
  - "printoem/UNIFONTOBJ"
+ - "UNIFONTOBJ"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide"]
 ms.keywords: ActivateAndDebugPlmBgTaskWide, ActivateAndDebugPlmBgTaskWide method [Windows Debugging], ActivateAndDebugPlmBgTaskWide method [Windows Debugging],IDebugPlmClient3 interface, IDebugPlmClient3 interface [Windows Debugging],ActivateAndDebugPlmBgTaskWide method, IDebugPlmClient3.ActivateAndDebugPlmBgTaskWide, IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, dbgeng/IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, debugger.idebugplmclient3_activateanddebugplmbgtaskwide
 f1_keywords:
  - "dbgeng/IDebugPlmClient3.ActivateAndDebugPlmBgTaskWide"
+ - "IDebugPlmClient3.ActivateAndDebugPlmBgTaskWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

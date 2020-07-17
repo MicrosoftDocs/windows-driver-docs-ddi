@@ -10,6 +10,7 @@ keywords: ["_PEP_QUERY_SOC_SUBSYSTEM_COUNT structure"]
 ms.keywords: "*PPEP_QUERY_SOC_SUBSYSTEM_COUNT, PEP_QUERY_SOC_SUBSYSTEM_COUNT, PEP_QUERY_SOC_SUBSYSTEM_COUNT structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM_COUNT, PPEP_QUERY_SOC_SUBSYSTEM_COUNT structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_COUNT, kernel.pep_query_soc_subsystem_count, pepfx/PEP_QUERY_SOC_SUBSYSTEM_COUNT, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_COUNT"
 f1_keywords:
  - "pepfx/PEP_QUERY_SOC_SUBSYSTEM_COUNT"
+ - "PEP_QUERY_SOC_SUBSYSTEM_COUNT"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

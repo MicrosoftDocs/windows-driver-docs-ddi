@@ -10,6 +10,7 @@ keywords: ["PPARALLEL_CLEAR_CHIP_MODE callback"]
 ms.keywords: "(*PPARALLEL_CLEAR_CHIP_MODE), (*PPARALLEL_CLEAR_CHIP_MODE) callback function [Parallel Ports], cisspd_d5564f9d-0941-4f80-9fa7-5acacaaf47a9.xml, parallel/(*PPARALLEL_CLEAR_CHIP_MODE), parports.pparallel_clear_chip_mode"
 f1_keywords:
  - "parallel/(*PPARALLEL_CLEAR_CHIP_MODE)"
+ - "(*PPARALLEL_CLEAR_CHIP_MODE)"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop

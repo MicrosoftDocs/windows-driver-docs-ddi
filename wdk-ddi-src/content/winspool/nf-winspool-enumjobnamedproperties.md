@@ -10,6 +10,7 @@ keywords: ["EnumJobNamedProperties function"]
 ms.keywords: EnumJobNamedProperties, EnumJobNamedProperties function [Print Devices], print.enumjobnamedproperties, winspool/EnumJobNamedProperties
 f1_keywords:
  - "winspool/EnumJobNamedProperties"
+ - "EnumJobNamedProperties"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows

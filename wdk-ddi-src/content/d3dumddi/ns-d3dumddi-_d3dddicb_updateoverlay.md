@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_UPDATEOVERLAY structure"]
 ms.keywords: D3DDDICB_UPDATEOVERLAY, D3DDDICB_UPDATEOVERLAY structure [Display Devices], D3D_param_Structs_b9e39db9-44ba-45d5-9500-dd9d5d8cc4bb.xml, _D3DDDICB_UPDATEOVERLAY, d3dumddi/D3DDDICB_UPDATEOVERLAY, display.d3dddicb_updateoverlay
 f1_keywords:
  - "d3dumddi/D3DDDICB_UPDATEOVERLAY"
+ - "D3DDDICB_UPDATEOVERLAY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

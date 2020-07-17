@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["IddCxAdapterSetRenderAdapter function"]
 f1_keywords:
  - "iddcx/IddCxAdapterSetRenderAdapter"
+ - "IddCxAdapterSetRenderAdapter"
 ms.keywords: IddCxAdapterSetRenderAdapter
 req.header: iddcx.h
 req.include-header:

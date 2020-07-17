@@ -10,6 +10,7 @@ keywords: ["_DXGK_PRE_START_INFO structure"]
 ms.keywords: "*PDXGK_PRE_START_INFO, DXGK_PRE_START_INFO, DXGK_PRE_START_INFO structure [Display Devices], PDXGK_PRE_START_INFO, PDXGK_PRE_START_INFO structure pointer [Display Devices], _DXGK_PRE_START_INFO, display.dxgk_pre_start_info, dispmprt/DXGK_PRE_START_INFO, dispmprt/PDXGK_PRE_START_INFO"
 f1_keywords:
  - "dispmprt/DXGK_PRE_START_INFO"
+ - "DXGK_PRE_START_INFO"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Windows

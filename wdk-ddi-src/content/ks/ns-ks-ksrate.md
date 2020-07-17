@@ -10,6 +10,7 @@ keywords: ["KSRATE structure"]
 ms.keywords: "*PKSRATE, KSRATE, KSRATE structure [Streaming Media Devices], PKSRATE, PKSRATE structure pointer [Streaming Media Devices], ks-struct_a47aa4cc-ff36-4a02-bd68-63c7ed450279.xml, ks/KSRATE, ks/PKSRATE, stream.ksrate"
 f1_keywords:
  - "ks/KSRATE"
+ - "KSRATE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

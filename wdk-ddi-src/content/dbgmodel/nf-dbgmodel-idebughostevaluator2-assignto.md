@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDebugHostEvaluator2::AssignTo"]
 f1_keywords:
  - "dbgmodel/IDebugHostEvaluator2.AssignTo"
+ - "IDebugHostEvaluator2.AssignTo"
 ms.keywords: IDebugHostEvaluator2::AssignTo, AssignTo, IDebugHostEvaluator2.AssignTo, IDebugHostEvaluator2::AssignTo, IDebugHostEvaluator2.AssignTo
 req.header: dbgmodel.h
 req.include-header:

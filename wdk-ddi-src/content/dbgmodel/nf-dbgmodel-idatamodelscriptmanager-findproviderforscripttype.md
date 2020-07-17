@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScriptManager::FindProviderForScriptType"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptManager.FindProviderForScriptType"
+ - "IDataModelScriptManager.FindProviderForScriptType"
 ms.keywords: IDataModelScriptManager::FindProviderForScriptType, FindProviderForScriptType, IDataModelScriptManager.FindProviderForScriptType, IDataModelScriptManager::FindProviderForScriptType, IDataModelScriptManager.FindProviderForScriptType
 req.header: dbgmodel.h
 req.include-header:

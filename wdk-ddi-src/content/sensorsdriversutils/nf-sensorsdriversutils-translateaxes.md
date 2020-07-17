@@ -7,6 +7,7 @@ ms.date: 04/19/2018
 keywords: ["TranslateAxes function"]
 f1_keywords:
  - "sensorsdriversutils/TranslateAxes"
+ - "TranslateAxes"
 ms.keywords: TranslateAxes
 req.header: sensorsdriversutils.h
 req.include-header:

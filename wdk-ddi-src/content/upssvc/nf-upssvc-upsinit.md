@@ -10,6 +10,7 @@ keywords: ["UPSInit function"]
 ms.keywords: UPSInit, UPSInit function [Battery Devices], UPS_fns_855934b9-5f74-4308-9bed-5fd85d039247.xml, battery.upsinit, upssvc/UPSInit
 f1_keywords:
  - "upssvc/UPSInit"
+ - "UPSInit"
 req.header: upssvc.h
 req.include-header: Upssvc.h
 req.target-type: Desktop

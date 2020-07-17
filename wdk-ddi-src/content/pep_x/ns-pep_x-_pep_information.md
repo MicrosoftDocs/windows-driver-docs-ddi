@@ -10,6 +10,7 @@ keywords: ["_PEP_INFORMATION structure"]
 ms.keywords: "*PPEP_INFORMATION, PEP_INFORMATION, PEP_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_INFORMATION, PPEP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_INFORMATION, kernel.pep_information, pepfx/PEP_INFORMATION, pepfx/PPEP_INFORMATION"
 f1_keywords:
  - "pep_x/PEP_INFORMATION"
+ - "PEP_INFORMATION"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

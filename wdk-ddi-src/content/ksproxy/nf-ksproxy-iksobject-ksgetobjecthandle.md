@@ -10,6 +10,7 @@ keywords: ["IKsObject::KsGetObjectHandle"]
 ms.keywords: IKsObject interface [Streaming Media Devices],KsGetObjectHandle method, IKsObject.KsGetObjectHandle, IKsObject::KsGetObjectHandle, KsGetObjectHandle, KsGetObjectHandle method [Streaming Media Devices], KsGetObjectHandle method [Streaming Media Devices],IKsObject interface, ksproxy/IKsObject::KsGetObjectHandle, ksproxy_37998df5-a529-4f73-95a3-88ff3fdfcf2a.xml, stream.iksobject_ksgetobjecthandle
 f1_keywords:
  - "ksproxy/IKsObject.KsGetObjectHandle"
+ - "IKsObject.KsGetObjectHandle"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: DesktopMobile

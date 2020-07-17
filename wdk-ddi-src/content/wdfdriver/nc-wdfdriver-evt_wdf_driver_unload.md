@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DRIVER_UNLOAD callback function"]
 ms.keywords: DFDriverObjectRef_4c29e844-1ad7-4d45-b01d-e03f841bb9dd.xml, EVT_WDF_DRIVER_UNLOAD, EVT_WDF_DRIVER_UNLOAD callback, EvtDriverUnload, EvtDriverUnload callback function, kmdf.evtdriverunload, wdf.evtdriverunload, wdfdriver/EvtDriverUnload
 f1_keywords:
  - "wdfdriver/EvtDriverUnload"
+ - "EvtDriverUnload"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Universal

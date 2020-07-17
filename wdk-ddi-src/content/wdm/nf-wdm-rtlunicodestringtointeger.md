@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringToInteger function"]
 ms.keywords: RtlUnicodeStringToInteger, RtlUnicodeStringToInteger routine [Kernel-Mode Driver Architecture], k109_862feacf-64af-4aae-87b5-264ef277ea22.xml, kernel.rtlunicodestringtointeger, wdm/RtlUnicodeStringToInteger
 f1_keywords:
  - "wdm/RtlUnicodeStringToInteger"
+ - "RtlUnicodeStringToInteger"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal

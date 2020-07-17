@@ -8,6 +8,7 @@ ms.date: 04/09/2019
 keywords: ["_NDIS_WWAN_UICC_FILE_STATUS structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_UICC_FILE_STATUS"
+ - "_NDIS_WWAN_UICC_FILE_STATUS"
 ms.keywords: _NDIS_WWAN_UICC_FILE_STATUS, NDIS_WWAN_UICC_FILE_STATUS, *PNDIS_WWAN_UICC_FILE_STATUS, 
 req.header: ndiswwan.h
 req.include-header:

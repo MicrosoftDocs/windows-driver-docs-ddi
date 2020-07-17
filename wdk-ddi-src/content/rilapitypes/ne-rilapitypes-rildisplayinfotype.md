@@ -10,6 +10,7 @@ keywords: ["RILDISPLAYINFOTYPE enumeration"]
 ms.keywords: RILDISPLAYINFOTYPE, RILDISPLAYINFOTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rildisplayinfotype, ntddrilapitypes/RILDISPLAYINFOTYPE
 f1_keywords:
  - "rilapitypes/RILDISPLAYINFOTYPE"
+ - "RILDISPLAYINFOTYPE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

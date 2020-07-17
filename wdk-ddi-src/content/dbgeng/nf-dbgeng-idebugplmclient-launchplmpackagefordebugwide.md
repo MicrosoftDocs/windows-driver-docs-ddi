@@ -10,6 +10,7 @@ keywords: ["IDebugPlmClient::LaunchPlmPackageForDebugWide"]
 ms.keywords: IDebugPlmClient interface [Windows Debugging],LaunchPlmPackageForDebugWide method, IDebugPlmClient.LaunchPlmPackageForDebugWide, IDebugPlmClient::LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide, LaunchPlmPackageForDebugWide method [Windows Debugging], LaunchPlmPackageForDebugWide method [Windows Debugging],IDebugPlmClient interface, dbgeng/IDebugPlmClient::LaunchPlmPackageForDebugWide, debugger.idebugplmclient_launchplmpackagefordebugwide
 f1_keywords:
  - "dbgeng/IDebugPlmClient.LaunchPlmPackageForDebugWide"
+ - "IDebugPlmClient.LaunchPlmPackageForDebugWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

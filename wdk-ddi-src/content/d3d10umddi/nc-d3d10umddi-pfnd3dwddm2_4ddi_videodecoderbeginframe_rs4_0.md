@@ -26,6 +26,7 @@ targetos: Windows
 tech.root: display
 f1_keywords:
  - "d3d10umddi/PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0"
+ - "PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0"
 topic_type:
  - apiref
 api_type:

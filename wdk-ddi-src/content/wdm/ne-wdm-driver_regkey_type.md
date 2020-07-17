@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["DRIVER_REGKEY_TYPE enumeration"]
 f1_keywords:
  - "wdm/DRIVER_REGKEY_TYPE"
+ - "DRIVER_REGKEY_TYPE"
 ms.keywords: DRIVER_REGKEY_TYPE, DRIVER_REGKEY_TYPE, *PDRIVER_REGKEY_TYPE, 
 req.header: wdm.h
 req.include-header:

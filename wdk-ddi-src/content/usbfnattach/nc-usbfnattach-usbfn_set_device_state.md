@@ -10,6 +10,7 @@ keywords: ["USBFN_SET_DEVICE_STATE callback function"]
 ms.keywords: PFN_USBFN_SET_DEVICE_STATE, PFN_USBFN_SET_DEVICE_STATE callback function pointer [Buses], USBFN_SET_DEVICE_STATE, USBFN_SET_DEVICE_STATE callback, UsbFnSetDeviceState, UsbFnSetDeviceState callback function [Buses], buses.usbfn_set_device_state, usbfnattach/UsbFnSetDeviceState
 f1_keywords:
  - "usbfnattach/USBFN_SET_DEVICE_STATE"
+ - "USBFN_SET_DEVICE_STATE"
 req.header: usbfnattach.h
 req.include-header: 
 req.target-type: Windows

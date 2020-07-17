@@ -10,6 +10,7 @@ keywords: ["NmrDeregisterClient function"]
 ms.keywords: NmrDeregisterClient, NmrDeregisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrDeregisterClient, netvista.nmrderegisterclient, nmrref_db73a389-7569-4d1d-9f96-01d4a28cf73e.xml
 f1_keywords:
  - "netioddk/NmrDeregisterClient"
+ - "NmrDeregisterClient"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Desktop

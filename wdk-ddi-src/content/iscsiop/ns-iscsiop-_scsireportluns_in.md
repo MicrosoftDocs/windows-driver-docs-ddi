@@ -10,6 +10,7 @@ keywords: ["_ScsiReportLuns_IN structure"]
 ms.keywords: "*PScsiReportLuns_IN, PScsiReportLuns_IN, PScsiReportLuns_IN structure pointer [Storage Devices], ScsiReportLuns_IN, ScsiReportLuns_IN structure [Storage Devices], _ScsiReportLuns_IN, iscsiop/PScsiReportLuns_IN, iscsiop/ScsiReportLuns_IN, storage.scsireportluns_in, structs-iSCSI_1bc2b9de-bb9a-417a-bbe3-07167f866b7b.xml"
 f1_keywords:
  - "iscsiop/ScsiReportLuns_IN"
+ - "ScsiReportLuns_IN"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfFdoInitQueryPropertyEx function"]
 ms.keywords: WdfFdoInitQueryPropertyEx, WdfFdoInitQueryPropertyEx method, wdf.wdffdoinitquerypropertyex, wdffdo/WdfFdoInitQueryPropertyEx
 f1_keywords:
  - "wdffdo/WdfFdoInitQueryPropertyEx"
+ - "WdfFdoInitQueryPropertyEx"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

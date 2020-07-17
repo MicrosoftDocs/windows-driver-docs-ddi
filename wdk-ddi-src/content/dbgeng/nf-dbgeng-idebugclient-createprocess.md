@@ -10,6 +10,7 @@ keywords: ["IDebugClient::CreateProcess"]
 ms.keywords: CreateProcess, CreateProcess method [Windows Debugging], CreateProcess method [Windows Debugging],IDebugClient interface, CreateProcess method [Windows Debugging],IDebugClient2 interface, CreateProcess method [Windows Debugging],IDebugClient3 interface, CreateProcess method [Windows Debugging],IDebugClient4 interface, CreateProcess method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],CreateProcess method, IDebugClient.CreateProcess, IDebugClient2 interface [Windows Debugging],CreateProcess method, IDebugClient2::CreateProcess, IDebugClient3 interface [Windows Debugging],CreateProcess method, IDebugClient3::CreateProcess, IDebugClient4 interface [Windows Debugging],CreateProcess method, IDebugClient4::CreateProcess, IDebugClient5 interface [Windows Debugging],CreateProcess method, IDebugClient5::CreateProcess, IDebugClient::CreateProcess, IDebugClient_6411b416-f861-4c99-94bc-ceffd54acce0.xml, dbgeng/IDebugClient2::CreateProcess, dbgeng/IDebugClient3::CreateProcess, dbgeng/IDebugClient4::CreateProcess, dbgeng/IDebugClient5::CreateProcess, dbgeng/IDebugClient::CreateProcess, debugger.createprocess
 f1_keywords:
  - "dbgeng/IDebugClient.CreateProcess"
+ - "IDebugClient.CreateProcess"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure"]
 ms.keywords: NDIS_NDK_LOCAL_ENDPOINT_ENTRY, NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure [Network Drivers Starting with Windows Vista], _NDIS_NDK_LOCAL_ENDPOINT_ENTRY, netvista.ndis_ndk_local_endpoint_entry, ntddndis/NDIS_NDK_LOCAL_ENDPOINT_ENTRY
 f1_keywords:
  - "ntddndis/NDIS_NDK_LOCAL_ENDPOINT_ENTRY"
+ - "NDIS_NDK_LOCAL_ENDPOINT_ENTRY"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

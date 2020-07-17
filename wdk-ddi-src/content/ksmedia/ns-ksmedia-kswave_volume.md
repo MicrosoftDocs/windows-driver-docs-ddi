@@ -10,6 +10,7 @@ keywords: ["KSWAVE_VOLUME structure"]
 ms.keywords: "*PKSWAVE_VOLUME, KSWAVE_VOLUME, KSWAVE_VOLUME structure [Streaming Media Devices], PKSWAVE_VOLUME, PKSWAVE_VOLUME structure pointer [Streaming Media Devices], dvdref_602cb4a7-2e70-43a1-8e1a-7604d5b48bc1.xml, ksmedia/KSWAVE_VOLUME, ksmedia/PKSWAVE_VOLUME, stream.kswave_volume"
 f1_keywords:
  - "ksmedia/KSWAVE_VOLUME"
+ - "KSWAVE_VOLUME"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

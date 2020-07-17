@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug2::EnumerateBreakpoints"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug2.EnumerateBreakpoints"
+ - "IDataModelScriptDebug2.EnumerateBreakpoints"
 ms.keywords: IDataModelScriptDebug2::EnumerateBreakpoints, EnumerateBreakpoints, IDataModelScriptDebug2.EnumerateBreakpoints, IDataModelScriptDebug2::EnumerateBreakpoints, IDataModelScriptDebug2.EnumerateBreakpoints
 req.header: dbgmodel.h
 req.include-header:

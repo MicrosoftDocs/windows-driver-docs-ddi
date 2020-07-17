@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["RtlGetEnabledExtendedAndSupervisorFeatures function"]
 f1_keywords:
  - "ntddk/RtlGetEnabledExtendedAndSupervisorFeatures"
+ - "RtlGetEnabledExtendedAndSupervisorFeatures"
 ms.keywords: RtlGetEnabledExtendedAndSupervisorFeatures
 req.header: ntddk.h
 req.include-header:

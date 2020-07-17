@@ -10,6 +10,7 @@ keywords: ["RILRADIOSTATEITEMS structure"]
 ms.keywords: "*LPRILRADIOSTATEITEMS, RILRADIOSTATEITEMS, RILRADIOSTATEITEMS structure [Network Drivers Starting with Windows Vista], netvista.rilradiostateitems, ntddrilapitypes/RILRADIOSTATEITEMS"
 f1_keywords:
  - "rilapitypes/RILRADIOSTATEITEMS"
+ - "RILRADIOSTATEITEMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PPARALLEL_IEEE_FWD_TO_REV callback"]
 ms.keywords: PPARALLEL_IEEE_FWD_TO_REV, PPARALLEL_IEEE_FWD_TO_REV function pointer [Parallel Ports], cisspd_a22a220b-a633-48b8-9e53-434f362d15f0.xml, parallel/PPARALLEL_IEEE_FWD_TO_REV, parports.pparallel_ieee_fwd_to_rev
 f1_keywords:
  - "parallel/PPARALLEL_IEEE_FWD_TO_REV"
+ - "PPARALLEL_IEEE_FWD_TO_REV"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop

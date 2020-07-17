@@ -10,6 +10,7 @@ keywords: ["KeQueryNodeActiveAffinity function"]
 ms.keywords: KeQueryNodeActiveAffinity, KeQueryNodeActiveAffinity routine [Kernel-Mode Driver Architecture], k105_05e2547a-e13e-4ade-9139-29690a72e9ed.xml, kernel.kequerynodeactiveaffinity, wdm/KeQueryNodeActiveAffinity
 f1_keywords:
  - "ntddk/KeQueryNodeActiveAffinity"
+ - "KeQueryNodeActiveAffinity"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

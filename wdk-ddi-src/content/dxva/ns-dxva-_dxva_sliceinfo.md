@@ -10,6 +10,7 @@ keywords: ["_DXVA_SliceInfo structure"]
 ms.keywords: "*LPDXVA_SliceInfo, DXVA_SliceInfo, DXVA_SliceInfo structure [Display Devices], LPDXVA_SliceInfo, LPDXVA_SliceInfo structure pointer [Display Devices], _DXVA_SliceInfo, display.dxva_sliceinfo, dxva/DXVA_SliceInfo, dxva/LPDXVA_SliceInfo, dxvaref_04736e26-0c58-4e92-9f45-1675565c9f55.xml"
 f1_keywords:
  - "dxva/DXVA_SliceInfo"
+ - "DXVA_SliceInfo"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["TIME_FUNCTION enumeration"]
 ms.keywords: TIME_FUNCTION, TIME_FUNCTION enumeration [Streaming Media Devices], TIME_GET_STREAM_TIME, TIME_READ_ONBOARD_CLOCK, TIME_SET_ONBOARD_CLOCK, stream.time_function, strmini/TIME_FUNCTION, strmini/TIME_GET_STREAM_TIME, strmini/TIME_READ_ONBOARD_CLOCK, strmini/TIME_SET_ONBOARD_CLOCK
 f1_keywords:
  - "strmini/TIME_FUNCTION"
+ - "TIME_FUNCTION"
 req.header: strmini.h
 req.include-header: 
 req.target-type: Windows

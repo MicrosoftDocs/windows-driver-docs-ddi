@@ -10,6 +10,7 @@ keywords: ["IDebugSymbolGroup2::AddSymbolWide"]
 ms.keywords: AddSymbolWide, AddSymbolWide method [Windows Debugging], AddSymbolWide method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],AddSymbolWide method, IDebugSymbolGroup2.AddSymbolWide, IDebugSymbolGroup2::AddSymbolWide, dbgeng/IDebugSymbolGroup2::AddSymbolWide, debugger.addsymbolwide
 f1_keywords:
  - "dbgeng/IDebugSymbolGroup2.AddSymbolWide"
+ - "IDebugSymbolGroup2.AddSymbolWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

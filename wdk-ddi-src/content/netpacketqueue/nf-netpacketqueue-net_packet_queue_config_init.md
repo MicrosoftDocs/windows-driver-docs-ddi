@@ -8,6 +8,7 @@ ms.date: 07/16/2018
 keywords: ["NET_PACKET_QUEUE_CONFIG_INIT function"]
 f1_keywords:
  - "netpacketqueue/NET_PACKET_QUEUE_CONFIG_INIT"
+ - "NET_PACKET_QUEUE_CONFIG_INIT"
 ms.keywords: NET_PACKET_QUEUE_CONFIG_INIT
 req.header: netpacketqueue.h
 req.include-header:

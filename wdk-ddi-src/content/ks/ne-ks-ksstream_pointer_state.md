@@ -10,6 +10,7 @@ keywords: ["KSSTREAM_POINTER_STATE enumeration"]
 ms.keywords: KSSTREAM_POINTER_STATE, KSSTREAM_POINTER_STATE enumeration [Streaming Media Devices], KSSTREAM_POINTER_STATE_LOCKED, KSSTREAM_POINTER_STATE_UNLOCKED, ks/KSSTREAM_POINTER_STATE, ks/KSSTREAM_POINTER_STATE_LOCKED, ks/KSSTREAM_POINTER_STATE_UNLOCKED, stream.ksstream_pointer_state
 f1_keywords:
  - "ks/KSSTREAM_POINTER_STATE"
+ - "KSSTREAM_POINTER_STATE"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

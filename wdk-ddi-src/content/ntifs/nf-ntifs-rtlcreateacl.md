@@ -10,6 +10,7 @@ keywords: ["RtlCreateAcl function"]
 ms.keywords: RtlCreateAcl, RtlCreateAcl routine [Installable File System Drivers], ifsk.rtlcreateacl, ntifs/RtlCreateAcl, rtlref_0b8e6b6c-308f-4acd-b109-d6042964ea7f.xml
 f1_keywords:
  - "ntifs/RtlCreateAcl"
+ - "RtlCreateAcl"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["SdBusSubmitRequestAsync function"]
 ms.keywords: SD.sdbussubmitrequestasync, SdBusSubmitRequestAsync, SdBusSubmitRequestAsync function [Buses], ntddsd/SdBusSubmitRequestAsync, sd-rtns_69f249eb-f2e8-48fa-8857-b47c732faea6.xml
 f1_keywords:
  - "ntddsd/SdBusSubmitRequestAsync"
+ - "SdBusSubmitRequestAsync"
 req.header: ntddsd.h
 req.include-header: Ntddsd.h
 req.target-type: Desktop

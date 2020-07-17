@@ -10,6 +10,7 @@ keywords: ["RtlSizeTAdd function"]
 ms.keywords: RtlSizeTAdd, RtlSizeTAdd function [Kernel-Mode Driver Architecture], kernel.rtlsizetadd, ntintsafe/RtlSizeTAdd
 f1_keywords:
  - "ntintsafe/RtlSizeTAdd"
+ - "RtlSizeTAdd"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

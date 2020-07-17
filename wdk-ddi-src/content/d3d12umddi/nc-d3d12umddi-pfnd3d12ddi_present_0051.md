@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_PRESENT_0051 callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_PRESENT_0051"
+ - "PFND3D12DDI_PRESENT_0051"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

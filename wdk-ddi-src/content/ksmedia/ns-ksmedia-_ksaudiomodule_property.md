@@ -10,6 +10,7 @@ keywords: ["_KSAUDIOMODULE_PROPERTY structure"]
 ms.keywords: "*PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY structure [Audio Devices], PKSAUDIOMODULE_PROPERTY, PKSAUDIOMODULE_PROPERTY structure pointer [Audio Devices], _KSAUDIOMODULE_PROPERTY, audio.ksaudiomodule_property, ksmedia/KSAUDIOMODULE_PROPERTY, ksmedia/PKSAUDIOMODULE_PROPERTY"
 f1_keywords:
  - "ksmedia/KSAUDIOMODULE_PROPERTY"
+ - "KSAUDIOMODULE_PROPERTY"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

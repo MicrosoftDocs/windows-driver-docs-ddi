@@ -8,6 +8,7 @@ keywords: ["InitPropVariantFromFloat function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/InitPropVariantFromFloat"
+ - "InitPropVariantFromFloat"
 ms.keywords: InitPropVariantFromFloat
 req.header: sensorsutils.h
 req.include-header:

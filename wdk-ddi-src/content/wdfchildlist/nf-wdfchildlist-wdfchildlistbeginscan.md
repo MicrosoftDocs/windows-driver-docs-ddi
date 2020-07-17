@@ -10,6 +10,7 @@ keywords: ["WdfChildListBeginScan function"]
 ms.keywords: DFDeviceObjectChildListRef_b503df87-d0b1-472d-9981-4896fe81f7d8.xml, WdfChildListBeginScan, WdfChildListBeginScan method, kmdf.wdfchildlistbeginscan, wdf.wdfchildlistbeginscan, wdfchildlist/WdfChildListBeginScan
 f1_keywords:
  - "wdfchildlist/WdfChildListBeginScan"
+ - "WdfChildListBeginScan"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

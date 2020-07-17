@@ -10,6 +10,7 @@ keywords: ["PAGP_FREE_VIRTUAL callback function"]
 ms.keywords: AgpFreeVirtual, AgpFreeVirtual callback function [Display Devices], PAGP_FREE_VIRTUAL, PAGP_FREE_VIRTUAL callback, VideoPort_Functions_49eabd30-2590-466f-b9d4-f2577a7e78e4.xml, display.agpfreevirtual, videoagp/AgpFreeVirtual
 f1_keywords:
  - "videoagp/AgpFreeVirtual"
+ - "AgpFreeVirtual"
 req.header: videoagp.h
 req.include-header: Video.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_DISCARD structure"]
 ms.keywords: D3DDDIARG_DISCARD, D3DDDIARG_DISCARD structure [Display Devices], _D3DDDIARG_DISCARD, d3dumddi/D3DDDIARG_DISCARD, display.d3dddiarg_discard
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DISCARD"
+ - "D3DDDIARG_DISCARD"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

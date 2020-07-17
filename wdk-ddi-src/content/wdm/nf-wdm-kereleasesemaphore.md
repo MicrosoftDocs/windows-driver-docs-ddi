@@ -10,6 +10,7 @@ keywords: ["KeReleaseSemaphore function"]
 ms.keywords: KeReleaseSemaphore, KeReleaseSemaphore routine [Kernel-Mode Driver Architecture], k105_43c9caa4-267a-43c4-8b48-f030e1c2f0d5.xml, kernel.kereleasesemaphore, wdm/KeReleaseSemaphore
 f1_keywords:
  - "wdm/KeReleaseSemaphore"
+ - "KeReleaseSemaphore"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

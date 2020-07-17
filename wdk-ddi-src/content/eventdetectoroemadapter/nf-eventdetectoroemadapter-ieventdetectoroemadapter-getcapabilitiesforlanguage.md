@@ -10,6 +10,7 @@ ms.date: 02/25/2019
 keywords: ["IEventDetectorOemAdapter::GetCapabilitiesForLanguage"]
 f1_keywords:
  - "eventdetectoroemadapter/IEventDetectorOemAdapter.GetCapabilitiesForLanguage"
+ - "IEventDetectorOemAdapter.GetCapabilitiesForLanguage"
 ms.keywords: IEventDetectorOemAdapter::GetCapabilitiesForLanguage, GetCapabilitiesForLanguage, IEventDetectorOemAdapter.GetCapabilitiesForLanguage, IEventDetectorOemAdapter::GetCapabilitiesForLanguage, IEventDetectorOemAdapter.GetCapabilitiesForLanguage
 req.header: eventdetectoroemadapter.h
 req.include-header:

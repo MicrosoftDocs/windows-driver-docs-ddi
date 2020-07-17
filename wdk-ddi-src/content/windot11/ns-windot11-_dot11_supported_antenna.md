@@ -10,6 +10,7 @@ keywords: ["_DOT11_SUPPORTED_ANTENNA structure"]
 ms.keywords: "*PDOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA, DOT11_SUPPORTED_ANTENNA structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b48dfe45-efbc-4f88-a754-3e1fba8e45f6.xml, PDOT11_SUPPORTED_ANTENNA, PDOT11_SUPPORTED_ANTENNA structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_ANTENNA, netvista.dot11_supported_antenna, windot11/DOT11_SUPPORTED_ANTENNA, windot11/PDOT11_SUPPORTED_ANTENNA"
 f1_keywords:
  - "windot11/DOT11_SUPPORTED_ANTENNA"
+ - "DOT11_SUPPORTED_ANTENNA"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

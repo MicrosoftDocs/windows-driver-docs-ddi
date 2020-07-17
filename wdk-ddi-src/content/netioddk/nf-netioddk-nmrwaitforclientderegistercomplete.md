@@ -10,6 +10,7 @@ keywords: ["NmrWaitForClientDeregisterComplete function"]
 ms.keywords: NmrWaitForClientDeregisterComplete, NmrWaitForClientDeregisterComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrWaitForClientDeregisterComplete, netvista.nmrwaitforclientderegistercomplete, nmrref_577f5784-0136-480d-bc2d-d9b8740bdf3a.xml
 f1_keywords:
  - "netioddk/NmrWaitForClientDeregisterComplete"
+ - "NmrWaitForClientDeregisterComplete"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Desktop

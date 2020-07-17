@@ -10,6 +10,7 @@ keywords: ["UrsSetPoHandle function"]
 ms.keywords: UrsSetPoHandle, UrsSetPoHandle function [Buses], buses.urssetpohandle, ursdevice/UrsSetPoHandle
 f1_keywords:
  - "ursdevice/UrsSetPoHandle"
+ - "UrsSetPoHandle"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IKsNotifyEvent interface"]
 ms.keywords: IKsNotifyEvent, IKsNotifyEvent interface [Streaming Media Devices], IKsNotifyEvent interface [Streaming Media Devices],described, ksproxy/IKsNotifyEvent, ksproxy_1ef13fd1-5ccb-410c-8b0e-4942d9ba790e.xml, stream.iksnotifyevent
 f1_keywords:
  - "ksproxy/IKsNotifyEvent"
+ - "IKsNotifyEvent"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows

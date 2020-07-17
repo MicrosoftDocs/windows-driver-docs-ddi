@@ -10,6 +10,7 @@ keywords: ["IPrintOemUI2::QueryJobAttributes"]
 ms.keywords: IPrintOemUI2 interface [Print Devices],QueryJobAttributes method, IPrintOemUI2.QueryJobAttributes, IPrintOemUI2::QueryJobAttributes, QueryJobAttributes, QueryJobAttributes method [Print Devices], QueryJobAttributes method [Print Devices],IPrintOemUI2 interface, prcomoem/IPrintOemUI2::QueryJobAttributes, print.iprintoemui2_queryjobattributes, print_unidrv-pscript_ui_5c5f2adc-9410-428b-89b5-39925c7fb8f9.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI2.QueryJobAttributes"
+ - "IPrintOemUI2.QueryJobAttributes"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

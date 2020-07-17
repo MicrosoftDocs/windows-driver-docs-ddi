@@ -10,6 +10,7 @@ keywords: ["PsAttachSiloToCurrentThread function"]
 ms.keywords: PsAttachSiloToCurrentThread, PsAttachSiloToCurrentThread routine [Kernel-Mode Driver Architecture], kernel.psattachsilotocurrentthread, ntddk/PsAttachSiloToCurrentThread
 f1_keywords:
  - "ntddk/PsAttachSiloToCurrentThread"
+ - "PsAttachSiloToCurrentThread"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

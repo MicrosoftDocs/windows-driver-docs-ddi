@@ -10,6 +10,7 @@ keywords: ["FltCommitFinalizeComplete function"]
 ms.keywords: FltApiRef_a_to_d_f2b874db-f5fb-405b-a3a5-b5877c88548d.xml, FltCommitFinalizeComplete, FltCommitFinalizeComplete routine [Installable File System Drivers], fltkernel/FltCommitFinalizeComplete, ifsk.fltcommitfinalizecomplete
 f1_keywords:
  - "fltkernel/FltCommitFinalizeComplete"
+ - "FltCommitFinalizeComplete"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

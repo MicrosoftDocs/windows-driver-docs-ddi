@@ -10,6 +10,7 @@ keywords: ["UPSCancelWait function"]
 ms.keywords: UPSCancelWait, UPSCancelWait function [Battery Devices], UPS_fns_79aba7aa-4204-4532-873a-8566ed6168f8.xml, battery.upscancelwait, upssvc/UPSCancelWait
 f1_keywords:
  - "upssvc/UPSCancelWait"
+ - "UPSCancelWait"
 req.header: upssvc.h
 req.include-header: Upssvc.h
 req.target-type: Desktop

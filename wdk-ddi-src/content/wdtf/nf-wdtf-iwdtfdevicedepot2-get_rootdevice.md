@@ -10,6 +10,7 @@ keywords: ["IWDTFDeviceDepot2::get_RootDevice"]
 ms.keywords: IWDTFDeviceDepot2 interface [Windows Device Testing Framework],RootDevice property, IWDTFDeviceDepot2.RootDevice, IWDTFDeviceDepot2.get_RootDevice, IWDTFDeviceDepot2::RootDevice, IWDTFDeviceDepot2::get_RootDevice, Microsoft.WDTF.IWDTFDeviceDepot2.RootDevice, Microsoft::WDTF::IWDTFDeviceDepot2::RootDevice, RootDevice property [Windows Device Testing Framework], RootDevice property [Windows Device Testing Framework],IWDTFDeviceDepot2 interface, dtf.iwdtfdevicedepot2_rootdevice, get_RootDevice, wdtf/IWDTFDeviceDepot2::RootDevice, wdtf/IWDTFDeviceDepot2::get_RootDevice
 f1_keywords:
  - "wdtf/IWDTFDeviceDepot2.RootDevice"
+ - "IWDTFDeviceDepot2.RootDevice"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

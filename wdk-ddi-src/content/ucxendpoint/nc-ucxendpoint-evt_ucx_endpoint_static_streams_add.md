@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD, EVT_UCX_ENDPOINT_STATIC_STREAMS_ADD callback, EvtUcxEndpointStaticStreamsAdd, EvtUcxEndpointStaticStreamsAdd callback function [Buses], PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD, PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD callback function pointer [Buses], buses.evt_ucx_endpoint_static_streams_add, ucxendpoint/EvtUcxEndpointStaticStreamsAdd
 f1_keywords:
  - "ucxendpoint/PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD"
+ - "PEVT_UCX_ENDPOINT_STATIC_STREAMS_ADD"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows

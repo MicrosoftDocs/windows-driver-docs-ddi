@@ -10,6 +10,7 @@ keywords: ["IWDTFDriverSetupSystemAction2::RescanAllDevices"]
 ms.keywords: IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework],RescanAllDevices method, IWDTFDriverSetupSystemAction2.RescanAllDevices, IWDTFDriverSetupSystemAction2::RescanAllDevices, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.RescanAllDevices, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::RescanAllDevices, RescanAllDevices, RescanAllDevices method [Windows Device Testing Framework], RescanAllDevices method [Windows Device Testing Framework],IWDTFDriverSetupSystemAction2 interface, dtf.iwdtfdriversetupsystemaction2_rescanalldevices, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::RescanAllDevices
 f1_keywords:
  - "wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2.RescanAllDevices"
+ - "IWDTFDriverSetupSystemAction2.RescanAllDevices"
 req.header: wdtfdriversetupsystemaction.h
 req.include-header: 
 req.target-type: Desktop

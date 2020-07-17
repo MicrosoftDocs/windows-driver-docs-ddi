@@ -10,6 +10,7 @@ keywords: ["_DXVA_COPPCommand structure"]
 ms.keywords: "*LPDXVA_COPPCommand, DXVA_COPPCommand, DXVA_COPPCommand structure [Display Devices], LPDXVA_COPPCommand, LPDXVA_COPPCommand structure pointer [Display Devices], _DXVA_COPPCommand, display.dxva_coppcommand, dxva/DXVA_COPPCommand, dxva/LPDXVA_COPPCommand, dxvaref_e27ea691-6ae9-41fc-9649-670231cb5ce8.xml"
 f1_keywords:
  - "dxva/DXVA_COPPCommand"
+ - "DXVA_COPPCommand"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

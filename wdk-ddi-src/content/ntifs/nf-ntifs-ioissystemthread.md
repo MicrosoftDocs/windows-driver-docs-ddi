@@ -10,6 +10,7 @@ keywords: ["IoIsSystemThread function"]
 ms.keywords: IoIsSystemThread, IoIsSystemThread routine [Installable File System Drivers], ifsk.ioissystemthread, ioref_3e14f3af-c985-43a4-bc57-927483597c79.xml, ntifs/IoIsSystemThread
 f1_keywords:
  - "ntifs/IoIsSystemThread"
+ - "IoIsSystemThread"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["PushEntryList function"]
 ms.keywords: PushEntryList, PushEntryList routine [Kernel-Mode Driver Architecture], k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, kernel.pushentrylist, wdm/PushEntryList
 f1_keywords:
  - "wdm/PushEntryList"
+ - "PushEntryList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop

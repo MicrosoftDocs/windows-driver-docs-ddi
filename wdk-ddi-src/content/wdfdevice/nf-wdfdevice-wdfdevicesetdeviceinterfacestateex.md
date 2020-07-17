@@ -36,6 +36,7 @@ api_name:
  - WdfDeviceSetDeviceInterfaceStateEx
 f1_keywords:
  - wdfdevice/WdfDeviceSetDeviceInterfaceStateEx
+ - ""
 dev_langs:
  - c++
 ---

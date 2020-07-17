@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IDynamicKeyProviderConcept::Release"]
 f1_keywords:
  - "dbgmodel/IDynamicKeyProviderConcept.Release"
+ - "IDynamicKeyProviderConcept.Release"
 ms.keywords: IDynamicKeyProviderConcept::Release, Release, IDynamicKeyProviderConcept.Release, IDynamicKeyProviderConcept::Release, IDynamicKeyProviderConcept.Release
 req.header: dbgmodel.h
 req.include-header:

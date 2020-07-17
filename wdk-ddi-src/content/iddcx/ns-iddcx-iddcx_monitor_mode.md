@@ -10,6 +10,7 @@ keywords: ["IDDCX_MONITOR_MODE structure"]
 ms.keywords: IDDCX_MONITOR_MODE, IDDCX_MONITOR_MODE structure [Display Devices], display.iddcx_monitor_mode, iddcx/IDDCX_MONITOR_MODE
 f1_keywords:
  - "iddcx/IDDCX_MONITOR_MODE"
+ - "IDDCX_MONITOR_MODE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

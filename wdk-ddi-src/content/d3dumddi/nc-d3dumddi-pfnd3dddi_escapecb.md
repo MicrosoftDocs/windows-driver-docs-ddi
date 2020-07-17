@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/pfnEscapeCb"
+ - "pfnEscapeCb"
 topic_type:
  - APIRef
  - kbSyntax

@@ -10,6 +10,7 @@ keywords: ["NdisMCmOidRequest function"]
 ms.keywords: NdisMCmOidRequest, NdisMCmOidRequest function [Network Drivers Starting with Windows Vista], condis_request_ref_951cd477-8d0a-4882-921d-f394ac04f9cc.xml, ndis/NdisMCmOidRequest, netvista.ndismcmoidrequest
 f1_keywords:
  - "ndis/NdisMCmOidRequest"
+ - "NdisMCmOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

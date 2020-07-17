@@ -10,6 +10,7 @@ keywords: ["IOCTL_BIOMETRIC_CALIBRATE IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_CALIBRATE, IOCTL_BIOMETRIC_CALIBRATE control, IOCTL_BIOMETRIC_CALIBRATE control code [Biometric Devices], biometric.ioctl_biometric_calibrate, biometric_ref_160131c1-3389-4869-89c5-0d01761930e2.xml, winbio_ioctl/IOCTL_BIOMETRIC_CALIBRATE
 f1_keywords:
  - "winbio_ioctl/IOCTL_BIOMETRIC_CALIBRATE"
+ - "IOCTL_BIOMETRIC_CALIBRATE"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows

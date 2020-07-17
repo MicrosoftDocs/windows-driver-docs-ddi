@@ -10,6 +10,7 @@ keywords: ["RxUnregisterMinirdr function"]
 ms.keywords: RxUnregisterMinirdr, RxUnregisterMinirdr routine [Installable File System Drivers], ifsk.rxunregisterminirdr, rxref_5c58f656-5d6a-46db-9c7e-f3331e48a66a.xml, rxstruc/RxUnregisterMinirdr
 f1_keywords:
  - "rxstruc/RxUnregisterMinirdr"
+ - "RxUnregisterMinirdr"
 req.header: rxstruc.h
 req.include-header: Rxstruc.h, Mrx.h
 req.target-type: Desktop

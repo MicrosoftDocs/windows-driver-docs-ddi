@@ -10,6 +10,7 @@ keywords: ["PFNDRMFORWARDCONTENTTODEVICEOBJECT callback function"]
 ms.keywords: DRMForwardContentToDeviceObject, DRMForwardContentToDeviceObject callback function [Audio Devices], PFNDRMFORWARDCONTENTTODEVICEOBJECT, PFNDRMFORWARDCONTENTTODEVICEOBJECT callback, PfnDRMForwardContentToDeviceObject, PfnDRMForwardContentToDeviceObject callback function [Audio Devices], audio.pfndrmforwardcontenttodeviceobject, drmk/PfnDRMForwardContentToDeviceObject
 f1_keywords:
  - "drmk/DRMForwardContentToDeviceObject"
+ - "DRMForwardContentToDeviceObject"
 req.header: drmk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfRegistryAssignUnicodeString function"]
 ms.keywords: DFRegKeyObjectRef_83d456aa-06de-47c9-94df-b5b9684a95ac.xml, WdfRegistryAssignUnicodeString, WdfRegistryAssignUnicodeString method, kmdf.wdfregistryassignunicodestring, wdf.wdfregistryassignunicodestring, wdfregistry/WdfRegistryAssignUnicodeString
 f1_keywords:
  - "wdfregistry/WdfRegistryAssignUnicodeString"
+ - "WdfRegistryAssignUnicodeString"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal

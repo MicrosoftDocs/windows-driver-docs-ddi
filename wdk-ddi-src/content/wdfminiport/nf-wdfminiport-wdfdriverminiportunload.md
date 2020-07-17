@@ -10,6 +10,7 @@ keywords: ["WdfDriverMiniportUnload function"]
 ms.keywords: DFDriverObjectRef_aac24375-fae4-4310-b273-d3d2f4c13d69.xml, WdfDriverMiniportUnload, WdfDriverMiniportUnload method, kmdf.wdfdriverminiportunload, wdf.wdfdriverminiportunload, wdfminiport/WdfDriverMiniportUnload
 f1_keywords:
  - "wdfminiport/WdfDriverMiniportUnload"
+ - "WdfDriverMiniportUnload"
 req.header: wdfminiport.h
 req.include-header: Wdfminiport.h
 req.target-type: Universal

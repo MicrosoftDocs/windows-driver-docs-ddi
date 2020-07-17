@@ -10,6 +10,7 @@ keywords: ["IPrinterPropertyBag::GetString"]
 ms.keywords: GetString, GetString method [Print Devices], GetString method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetString method, IPrinterPropertyBag.GetString, IPrinterPropertyBag::GetString, print.iprinterpropertybag_getstring, printerextension/IPrinterPropertyBag::GetString
 f1_keywords:
  - "printerextension/IPrinterPropertyBag.GetString"
+ - "IPrinterPropertyBag.GetString"
 req.header: printerextension.h
 req.include-header: Printerextension.h
 req.target-type: Desktop

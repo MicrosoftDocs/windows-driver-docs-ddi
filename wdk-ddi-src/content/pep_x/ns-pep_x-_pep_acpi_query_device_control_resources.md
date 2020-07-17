@@ -10,6 +10,7 @@ keywords: ["_PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure"]
 ms.keywords: "*PPEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure [Kernel-Mode Driver Architecture], _PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, kernel.pep_acpi_query_device_control_resources, pepfx/PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES"
 f1_keywords:
  - "pep_x/PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES"
+ - "PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

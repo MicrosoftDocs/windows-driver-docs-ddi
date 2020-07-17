@@ -10,6 +10,7 @@ keywords: ["WdfWdmDeviceGetWdfDeviceHandle function"]
 ms.keywords: DFDeviceObjectGeneralRef_0b05680a-5252-4932-802d-ee24a0092116.xml, WdfWdmDeviceGetWdfDeviceHandle, WdfWdmDeviceGetWdfDeviceHandle method, kmdf.wdfwdmdevicegetwdfdevicehandle, wdf.wdfwdmdevicegetwdfdevicehandle, wdfdevice/WdfWdmDeviceGetWdfDeviceHandle
 f1_keywords:
  - "wdfdevice/WdfWdmDeviceGetWdfDeviceHandle"
+ - "WdfWdmDeviceGetWdfDeviceHandle"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

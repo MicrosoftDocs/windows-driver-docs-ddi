@@ -10,6 +10,7 @@ keywords: ["IPartPrintTicket interface"]
 ms.keywords: IPartPrintTicket, IPartPrintTicket interface [Print Devices], IPartPrintTicket interface [Print Devices], described, filterpipeline/IPartPrintTicket, filterpipeline_8b4eb977-4519-487f-a8b1-1d48cbb96aac.xml, print.ipartprintticket
 f1_keywords:
  - "filterpipeline/IPartPrintTicket"
+ - "IPartPrintTicket"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

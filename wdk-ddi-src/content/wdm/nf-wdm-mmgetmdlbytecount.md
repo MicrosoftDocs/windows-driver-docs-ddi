@@ -10,6 +10,7 @@ keywords: ["MmGetMdlByteCount macro"]
 ms.keywords: MmGetMdlByteCount, MmGetMdlByteCount macro [Tools], k106_f750d750-c5ca-44cf-b8f1-f52d2eb8bc27.xml, kernel.mmgetmdlbytecount, wdm/MmGetMdlByteCount
 f1_keywords:
  - "wdm/MmGetMdlByteCount"
+ - "MmGetMdlByteCount"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

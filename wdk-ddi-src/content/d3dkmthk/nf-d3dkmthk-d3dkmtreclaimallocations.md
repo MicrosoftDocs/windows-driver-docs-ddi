@@ -9,6 +9,7 @@ keywords: ["D3DKMTReclaimAllocations function"]
 ms.keywords: D3DKMTReclaimAllocations, D3DKMTReclaimAllocations callback function [Display Devices], PFND3DKMT_RECLAIMALLOCATIONS, PFND3DKMT_RECLAIMALLOCATIONS callback, d3dkmthk/D3DKMTReclaimAllocations, display.d3dkmtreclaimallocations
 f1_keywords:
  - "d3dkmthk/D3DKMTReclaimAllocations"
+ - "D3DKMTReclaimAllocations"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

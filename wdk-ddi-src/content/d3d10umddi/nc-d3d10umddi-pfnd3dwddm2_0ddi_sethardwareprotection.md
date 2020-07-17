@@ -9,6 +9,7 @@ keywords: ["PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION callback function"]
 ms.keywords: PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION, PFND3DWDDM2_0DDI_SETHARDWAREPROTECTION callback, d3d10umddi/pfnSetHardwareProtection, display.sethardwareprotection, pfnSetHardwareProtection, pfnSetHardwareProtection callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnSetHardwareProtection"
+ - "pfnSetHardwareProtection"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

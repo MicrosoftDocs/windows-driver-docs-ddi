@@ -10,6 +10,7 @@ keywords: ["IDebugInputCallbacks::EndInput"]
 ms.keywords: ComCallbacks_3e06dd1c-483b-4934-83d5-b00241d9d88b.xml, EndInput, EndInput method [Windows Debugging], EndInput method [Windows Debugging],IDebugInputCallbacks interface, IDebugInputCallbacks interface [Windows Debugging],EndInput method, IDebugInputCallbacks.EndInput, IDebugInputCallbacks::EndInput, dbgeng/IDebugInputCallbacks::EndInput, debugger.idebuginputcallbacks_endinput
 f1_keywords:
  - "dbgeng/IDebugInputCallbacks.EndInput"
+ - "IDebugInputCallbacks.EndInput"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

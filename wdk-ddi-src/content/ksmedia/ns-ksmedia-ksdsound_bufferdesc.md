@@ -10,6 +10,7 @@ keywords: ["KSDSOUND_BUFFERDESC structure"]
 ms.keywords: "*PKSDSOUND_BUFFERDESC, KSDSOUND_BUFFERDESC, KSDSOUND_BUFFERDESC structure [Audio Devices], PKSDSOUND_BUFFERDESC, PKSDSOUND_BUFFERDESC structure pointer [Audio Devices], aud-prop_309ec354-b919-40c7-8751-9e0a0000f7c8.xml, audio.ksdsound_bufferdesc, ksmedia/KSDSOUND_BUFFERDESC, ksmedia/PKSDSOUND_BUFFERDESC"
 f1_keywords:
  - "ksmedia/KSDSOUND_BUFFERDESC"
+ - "KSDSOUND_BUFFERDESC"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

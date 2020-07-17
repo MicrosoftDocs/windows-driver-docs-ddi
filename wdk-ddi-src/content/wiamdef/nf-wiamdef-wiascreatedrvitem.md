@@ -10,6 +10,7 @@ keywords: ["wiasCreateDrvItem function"]
 ms.keywords: image.wiascreatedrvitem, wiamdef/wiasCreateDrvItem, wiasCreateDrvItem, wiasCreateDrvItem function [Imaging Devices], wiasFncs_9bede31d-0ac0-4cc7-bdd5-7734e5f82dfc.xml
 f1_keywords:
  - "wiamdef/wiasCreateDrvItem"
+ - "wiasCreateDrvItem"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

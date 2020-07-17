@@ -10,6 +10,7 @@ keywords: ["_PEP_PLATFORM_IDLE_STATE_UPDATE structure"]
 ms.keywords: "*PPEP_PLATFORM_IDLE_STATE_UPDATE, PEP_PLATFORM_IDLE_STATE_UPDATE, PEP_PLATFORM_IDLE_STATE_UPDATE structure [Kernel-Mode Driver Architecture], PPEP_PLATFORM_IDLE_STATE_UPDATE, PPEP_PLATFORM_IDLE_STATE_UPDATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PLATFORM_IDLE_STATE_UPDATE, kernel.pep_platform_idle_state_update, pepfx/PEP_PLATFORM_IDLE_STATE_UPDATE, pepfx/PPEP_PLATFORM_IDLE_STATE_UPDATE"
 f1_keywords:
  - "pepfx/PEP_PLATFORM_IDLE_STATE_UPDATE"
+ - "PEP_PLATFORM_IDLE_STATE_UPDATE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

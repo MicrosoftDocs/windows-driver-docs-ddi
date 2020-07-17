@@ -10,6 +10,7 @@ keywords: ["_KEY_WRITE_TIME_INFORMATION structure"]
 ms.keywords: "*PKEY_WRITE_TIME_INFORMATION, KEY_WRITE_TIME_INFORMATION, KEY_WRITE_TIME_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_WRITE_TIME_INFORMATION, PKEY_WRITE_TIME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_WRITE_TIME_INFORMATION, kernel.key_write_time_information, kstruct_c_373f0047-919b-44c4-8831-181027ba5f2e.xml, wdm/KEY_WRITE_TIME_INFORMATION, wdm/PKEY_WRITE_TIME_INFORMATION"
 f1_keywords:
  - "wdm/KEY_WRITE_TIME_INFORMATION"
+ - "KEY_WRITE_TIME_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

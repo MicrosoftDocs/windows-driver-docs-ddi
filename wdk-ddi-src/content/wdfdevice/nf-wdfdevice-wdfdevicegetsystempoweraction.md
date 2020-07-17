@@ -10,6 +10,7 @@ keywords: ["WdfDeviceGetSystemPowerAction function"]
 ms.keywords: DFDeviceObjectGeneralRef_605cddb8-470b-4d71-8a6e-295e060ea3e3.xml, WdfDeviceGetSystemPowerAction, WdfDeviceGetSystemPowerAction method, kmdf.wdfdevicegetsystempoweraction, wdf.wdfdevicegetsystempoweraction, wdfdevice/WdfDeviceGetSystemPowerAction
 f1_keywords:
  - "wdfdevice/WdfDeviceGetSystemPowerAction"
+ - "WdfDeviceGetSystemPowerAction"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -8,6 +8,7 @@ ms.date: 07/13/2018
 keywords: ["NetTxQueueNotifyMoreCompletedPacketsAvailable function"]
 f1_keywords:
  - "nettxqueue/NetTxQueueInitGetQueueId"
+ - "NetTxQueueInitGetQueueId"
 ms.keywords: NetTxQueueNotifyMoreCompletedPacketsAvailable
 req.header: nettxqueue.h
 req.include-header: netadaptercx.h

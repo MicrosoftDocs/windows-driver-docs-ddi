@@ -10,6 +10,7 @@ keywords: ["_WIA_BARCODES structure"]
 ms.keywords: WIA_BARCODES, WIA_BARCODES structure [Imaging Devices], _WIA_BARCODES, image.wia_barcodes, wiadef/WIA_BARCODES
 f1_keywords:
  - "wiadef/WIA_BARCODES"
+ - "WIA_BARCODES"
 req.header: wiadef.h
 req.include-header: Wiadef.h
 req.target-type: Windows

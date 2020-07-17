@@ -10,6 +10,7 @@ keywords: ["WdfMemoryCreateFromLookaside function"]
 ms.keywords: DFMemoryObjectRef_0eabcdc7-a75d-49bf-9fe4-775748fca8bf.xml, WdfMemoryCreateFromLookaside, WdfMemoryCreateFromLookaside method, kmdf.wdfmemorycreatefromlookaside, wdf.wdfmemorycreatefromlookaside, wdfmemory/WdfMemoryCreateFromLookaside
 f1_keywords:
  - "wdfmemory/WdfMemoryCreateFromLookaside"
+ - "WdfMemoryCreateFromLookaside"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal

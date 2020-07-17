@@ -10,6 +10,7 @@ keywords: ["IPortWMIRegistration interface"]
 ms.keywords: IPortWMIRegistration, IPortWMIRegistration interface [Audio Devices], IPortWMIRegistration interface [Audio Devices],described, audio.iportwmiregistration, audmp-routines_c7591b25-80f3-4d0e-ac6b-bc1dea55adb1.xml, portcls/IPortWMIRegistration
 f1_keywords:
  - "portcls/IPortWMIRegistration"
+ - "IPortWMIRegistration"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

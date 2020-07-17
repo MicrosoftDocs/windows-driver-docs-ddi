@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::SetDeviceFormat"]
 ms.keywords: IMiniportAudioEngineNode interface [Audio Devices],SetDeviceFormat method, IMiniportAudioEngineNode.SetDeviceFormat, IMiniportAudioEngineNode::SetDeviceFormat, SetDeviceFormat, SetDeviceFormat method [Audio Devices], SetDeviceFormat method [Audio Devices],IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setdeviceformat, portcls/IMiniportAudioEngineNode::SetDeviceFormat
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.SetDeviceFormat"
+ - "IMiniportAudioEngineNode.SetDeviceFormat"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

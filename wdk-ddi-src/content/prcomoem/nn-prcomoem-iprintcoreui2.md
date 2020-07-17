@@ -10,6 +10,7 @@ keywords: ["IPrintCoreUI2 interface"]
 ms.keywords: IPrintCoreUI2, IPrintCoreUI2 interface [Print Devices], IPrintCoreUI2 interface [Print Devices],described, prcomoem/IPrintCoreUI2, print.iprintcoreui2_interface, print_unidrv-pscript_ui_e96a2262-fab6-4128-b312-90fde72006e0.xml
 f1_keywords:
  - "prcomoem/IPrintCoreUI2"
+ - "IPrintCoreUI2"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

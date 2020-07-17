@@ -10,6 +10,7 @@ keywords: ["IPrintOemDriverUni::DrvWriteAbortBuf"]
 ms.keywords: DrvWriteAbortBuf, DrvWriteAbortBuf method [Print Devices], DrvWriteAbortBuf method [Print Devices],IPrintOemDriverUni interface, IPrintOemDriverUni interface [Print Devices],DrvWriteAbortBuf method, IPrintOemDriverUni.DrvWriteAbortBuf, IPrintOemDriverUni::DrvWriteAbortBuf, prcomoem/IPrintOemDriverUni::DrvWriteAbortBuf, print.iprintoemdriveruni_drvwriteabortbuf, print_unidrv-pscript_rendering_cadf14c7-6a07-4245-a912-d790f11b9edc.xml
 f1_keywords:
  - "prcomoem/IPrintOemDriverUni.DrvWriteAbortBuf"
+ - "IPrintOemDriverUni.DrvWriteAbortBuf"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RILHIDECONNECTEDIDSETTINGSPARAMMASK enumeration"]
 ms.keywords: RILHIDECONNECTEDIDSETTINGSPARAMMASK, RILHIDECONNECTEDIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_HCIDS_ALL, RIL_PARAM_HCIDS_PROVISIONING, RIL_PARAM_HCIDS_STATUS, netvista.rilhideconnectedidsettingsparammask, ntddrilapitypes/RILHIDECONNECTEDIDSETTINGSPARAMMASK, ntddrilapitypes/RIL_PARAM_HCIDS_ALL, ntddrilapitypes/RIL_PARAM_HCIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_HCIDS_STATUS
 f1_keywords:
  - "rilapitypes/RILHIDECONNECTEDIDSETTINGSPARAMMASK"
+ - "RILHIDECONNECTEDIDSETTINGSPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

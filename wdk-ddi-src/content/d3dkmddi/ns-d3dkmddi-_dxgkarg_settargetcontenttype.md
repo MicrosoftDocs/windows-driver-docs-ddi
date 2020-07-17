@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_SETTARGETCONTENTTYPE structure"]
 ms.keywords: DXGKARG_SETTARGETCONTENTTYPE, DXGKARG_SETTARGETCONTENTTYPE structure [Display Devices], PDXGKARG_SETTARGETCONTENTTYPE, PDXGKARG_SETTARGETCONTENTTYPE structure pointer [Display Devices], _DXGKARG_SETTARGETCONTENTTYPE, d3dkmddi/DXGKARG_SETTARGETCONTENTTYPE, d3dkmddi/PDXGKARG_SETTARGETCONTENTTYPE, display.dxgkarg_settargetcontenttype
 f1_keywords:
  - "d3dkmddi/DXGKARG_SETTARGETCONTENTTYPE"
+ - "DXGKARG_SETTARGETCONTENTTYPE"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

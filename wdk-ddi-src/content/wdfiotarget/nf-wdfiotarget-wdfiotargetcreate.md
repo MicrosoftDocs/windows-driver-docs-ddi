@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetCreate function"]
 ms.keywords: DFIOTargetRef_3de8d750-e0e1-4a74-8e2b-977a27db024f.xml, WdfIoTargetCreate, WdfIoTargetCreate method, kmdf.wdfiotargetcreate, wdf.wdfiotargetcreate, wdfiotarget/WdfIoTargetCreate
 f1_keywords:
  - "wdfiotarget/WdfIoTargetCreate"
+ - "WdfIoTargetCreate"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

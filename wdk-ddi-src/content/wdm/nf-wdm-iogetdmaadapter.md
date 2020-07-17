@@ -10,6 +10,7 @@ keywords: ["IoGetDmaAdapter function"]
 ms.keywords: IoGetDmaAdapter, IoGetDmaAdapter routine [Kernel-Mode Driver Architecture], k104_36398d16-2a22-4a85-a260-265aa9c54bbd.xml, kernel.iogetdmaadapter, wdm/IoGetDmaAdapter
 f1_keywords:
  - "wdm/IoGetDmaAdapter"
+ - "IoGetDmaAdapter"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

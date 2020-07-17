@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_PANEL_QUERY_BRIGHTNESS_RANGES structure"]
 f1_keywords:
  - "ntddvdeo/_PANEL_QUERY_BRIGHTNESS_RANGES"
+ - "_PANEL_QUERY_BRIGHTNESS_RANGES"
 ms.keywords: _PANEL_QUERY_BRIGHTNESS_RANGES, PANEL_QUERY_BRIGHTNESS_RANGES, *PPANEL_QUERY_BRIGHTNESS_RANGES,
 req.header: ntddvdeo.h
 req.include-header:

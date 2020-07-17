@@ -8,6 +8,7 @@ ms.date: 08/03/2018
 keywords: ["NetAdapterStart function"]
 f1_keywords:
  - "netadapter/NetAdapterStart"
+ - "NetAdapterStart"
 ms.keywords: NetAdapterStart
 req.header: netadapter.h
 req.include-header: netadaptercx.h

@@ -10,6 +10,7 @@ keywords: ["NdisMCmDispatchIncomingDropParty macro"]
 ms.keywords: NdisMCmDispatchIncomingDropParty, NdisMCmDispatchIncomingDropParty macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_1a170d75-7913-4068-b047-206b531d42c6.xml, ndis/NdisMCmDispatchIncomingDropParty, netvista.ndismcmdispatchincomingdropparty
 f1_keywords:
  - "ndis/NdisMCmDispatchIncomingDropParty"
+ - "NdisMCmDispatchIncomingDropParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

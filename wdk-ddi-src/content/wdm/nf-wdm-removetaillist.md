@@ -10,6 +10,7 @@ keywords: ["RemoveTailList function"]
 ms.keywords: RemoveTailList, RemoveTailList routine [Kernel-Mode Driver Architecture], k109_b9ce310f-ead1-46ee-a591-ae018f61f536.xml, kernel.removetaillist, wdm/RemoveTailList
 f1_keywords:
  - "wdm/RemoveTailList"
+ - "RemoveTailList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop

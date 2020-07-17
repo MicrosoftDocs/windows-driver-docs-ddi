@@ -10,6 +10,7 @@ keywords: ["WDF_TYPE_NAME_TO_TYPE_INFO macro"]
 ms.keywords: DFGenObjectRef_4f9f25c8-aa26-478f-a8e8-a83e979c109b.xml, WDF_TYPE_NAME_TO_TYPE_INFO, WDF_TYPE_NAME_TO_TYPE_INFO macro, kmdf.wdf_type_name_to_type_info, wdf.wdf_type_name_to_type_info, wdfobject/WDF_TYPE_NAME_TO_TYPE_INFO
 f1_keywords:
  - "wdfobject/WDF_GET_CONTEXT_TYPE_INFO"
+ - "WDF_GET_CONTEXT_TYPE_INFO"
 req.header: wdfobject.h
 req.include-header: 
 req.target-type: Windows

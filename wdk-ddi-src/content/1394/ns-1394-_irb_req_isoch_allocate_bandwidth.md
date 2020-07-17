@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH, IEEE.irb_req_isoch_allocate_bandwidth, IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH, IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH structure [Buses], _IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH
 f1_keywords:
  - "1394/IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH"
+ - "IRB_REQ_ISOCH_ALLOCATE_BANDWIDTH"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows

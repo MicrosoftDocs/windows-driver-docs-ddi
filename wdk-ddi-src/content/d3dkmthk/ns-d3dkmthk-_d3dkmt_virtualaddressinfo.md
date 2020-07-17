@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_VIRTUALADDRESSINFO structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_VIRTUALADDRESSINFO"
+ - "_D3DKMT_VIRTUALADDRESSINFO"
 ms.keywords: _D3DKMT_VIRTUALADDRESSINFO, D3DKMT_VIRTUALADDRESSINFO, 
 req.header: d3dkmthk.h
 req.include-header:

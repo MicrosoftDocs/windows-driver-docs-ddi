@@ -10,6 +10,7 @@ keywords: ["_KSPIN_FLAG_AVC enumeration"]
 ms.keywords: KSPIN_FLAG_AVC, KSPIN_FLAG_AVC enumeration [Streaming Media Devices], KSPIN_FLAG_AVCMASK, KSPIN_FLAG_AVC_CONNECTED, KSPIN_FLAG_AVC_FIXEDPCR, KSPIN_FLAG_AVC_PCRONLY, KSPIN_FLAG_AVC_PERMANENT, _KSPIN_FLAG_AVC, avc/KSPIN_FLAG_AVC, avc/KSPIN_FLAG_AVCMASK, avc/KSPIN_FLAG_AVC_CONNECTED, avc/KSPIN_FLAG_AVC_FIXEDPCR, avc/KSPIN_FLAG_AVC_PCRONLY, avc/KSPIN_FLAG_AVC_PERMANENT, avcref_9fab0898-b113-4d2f-ae4a-8cc6b01217d9.xml, stream.kspin_flag_avc
 f1_keywords:
  - "avc/KSPIN_FLAG_AVC"
+ - "KSPIN_FLAG_AVC"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows

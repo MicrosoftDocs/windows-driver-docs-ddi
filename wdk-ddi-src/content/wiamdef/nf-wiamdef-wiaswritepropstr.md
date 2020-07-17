@@ -10,6 +10,7 @@ keywords: ["wiasWritePropStr function"]
 ms.keywords: image.wiaswritepropstr, wiamdef/wiasWritePropStr, wiasFncs_f1b2ee2f-f9a1-4d10-9ffa-47a6c10c4a92.xml, wiasWritePropStr, wiasWritePropStr function [Imaging Devices]
 f1_keywords:
  - "wiamdef/wiasWritePropStr"
+ - "wiasWritePropStr"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

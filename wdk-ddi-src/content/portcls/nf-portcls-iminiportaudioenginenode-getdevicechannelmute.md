@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::GetDeviceChannelMute"]
 ms.keywords: GetDeviceChannelMute, GetDeviceChannelMute method [Audio Devices], GetDeviceChannelMute method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceChannelMute method, IMiniportAudioEngineNode.GetDeviceChannelMute, IMiniportAudioEngineNode::GetDeviceChannelMute, audio.iminiportaudioenginenode_getdevicechannelmute, portcls/IMiniportAudioEngineNode::GetDeviceChannelMute
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetDeviceChannelMute"
+ - "IMiniportAudioEngineNode.GetDeviceChannelMute"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

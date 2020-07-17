@@ -10,6 +10,7 @@ keywords: ["_PS_CREATE_NOTIFY_INFO structure"]
 ms.keywords: "*PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO, PPS_CREATE_NOTIFY_INFO structure pointer [Kernel-Mode Driver Architecture], PS_CREATE_NOTIFY_INFO, PS_CREATE_NOTIFY_INFO structure [Kernel-Mode Driver Architecture], _PS_CREATE_NOTIFY_INFO, kernel.ps_create_notify_info, kstruct_c_489ee208-518d-41f1-af90-a8873f3e7fb0.xml, ntddk/PPS_CREATE_NOTIFY_INFO, ntddk/PS_CREATE_NOTIFY_INFO"
 f1_keywords:
  - "ntddk/PS_CREATE_NOTIFY_INFO"
+ - "PS_CREATE_NOTIFY_INFO"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

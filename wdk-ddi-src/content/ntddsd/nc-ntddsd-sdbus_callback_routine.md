@@ -10,6 +10,7 @@ keywords: ["SDBUS_CALLBACK_ROUTINE callback function"]
 ms.keywords: SD.psdbus_callback_routine, SDBUS_CALLBACK_ROUTINE, SDBUS_CALLBACK_ROUTINE callback, SdBusCallbackRoutine, SdBusCallbackRoutine callback function [Buses], ntddsd/SdBusCallbackRoutine, sd-rtns_a51040c8-723c-45ae-9e3b-15ef2baca85b.xml
 f1_keywords:
  - "ntddsd/SdBusCallbackRoutine"
+ - "SdBusCallbackRoutine"
 req.header: ntddsd.h
 req.include-header: Ntddsd.h
 req.target-type: Desktop

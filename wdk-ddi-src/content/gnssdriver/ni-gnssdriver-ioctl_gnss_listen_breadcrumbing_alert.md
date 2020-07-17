@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT, IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control, IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control code [Sensor Devices], gnss.ioctl_gnss_listen_breadcrumbing_alert_, gnssdriver/IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT"
+ - "IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

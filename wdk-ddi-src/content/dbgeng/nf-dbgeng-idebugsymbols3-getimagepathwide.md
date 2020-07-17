@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetImagePathWide"]
 ms.keywords: GetImagePathWide, GetImagePathWide method [Windows Debugging], GetImagePathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetImagePathWide method, IDebugSymbols3.GetImagePathWide, IDebugSymbols3::GetImagePathWide, dbgeng/IDebugSymbols3::GetImagePathWide, debugger.getimagepathwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetImagePathWide"
+ - "IDebugSymbols3.GetImagePathWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

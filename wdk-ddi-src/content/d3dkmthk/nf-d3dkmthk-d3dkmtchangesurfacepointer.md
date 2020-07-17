@@ -9,6 +9,7 @@ keywords: ["D3DKMTChangeSurfacePointer function"]
 ms.keywords: D3DKMTChangeSurfacePointer, D3DKMTChangeSurfacePointer callback function [Display Devices], OpenGL_Functions_b34c37f3-53fc-4dd3-a73a-f21c3010e00b.xml, PFND3DKMT_CHANGESURFACEPOINTER, PFND3DKMT_CHANGESURFACEPOINTER callback, d3dkmthk/D3DKMTChangeSurfacePointer, display.d3dkmtchangesurfacepointer
 f1_keywords:
  - "d3dkmthk/D3DKMTChangeSurfacePointer"
+ - "D3DKMTChangeSurfacePointer"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Desktop

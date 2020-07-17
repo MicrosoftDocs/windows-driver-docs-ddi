@@ -10,6 +10,7 @@ keywords: ["FltIsIoRedirectionAllowedForOperation function"]
 ms.keywords: FltIsIoRedirectionAllowedForOperation, FltIsIoRedirectionAllowedForOperation routine [Installable File System Drivers], fltkernel/FltIsIoRedirectionAllowedForOperation, ifsk.fltisioredirectionallowedforoperation
 f1_keywords:
  - "fltkernel/FltIsIoRedirectionAllowedForOperation"
+ - "FltIsIoRedirectionAllowedForOperation"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

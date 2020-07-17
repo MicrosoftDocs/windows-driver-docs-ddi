@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_BRIGHTNESS_GET_NIT_RANGES callback function"]
 f1_keywords:
  - "dispmprt/DXGK_BRIGHTNESS_GET_NIT_RANGES"
+ - "DXGK_BRIGHTNESS_GET_NIT_RANGES"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

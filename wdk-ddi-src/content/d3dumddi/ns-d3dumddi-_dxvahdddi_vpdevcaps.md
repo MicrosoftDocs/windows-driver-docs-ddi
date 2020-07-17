@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_VPDEVCAPS structure"]
 ms.keywords: DXVA2_Structs_263db2a4-3026-44e3-a2b7-82cbf773bfa5.xml, DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_VPDEVCAPS structure [Display Devices], _DXVAHDDDI_VPDEVCAPS, d3dumddi/DXVAHDDDI_VPDEVCAPS, display.dxvahdddi_vpdevcaps
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_VPDEVCAPS"
+ - "DXVAHDDDI_VPDEVCAPS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RtlInitAnsiString function"]
 ms.keywords: RtlInitAnsiString, RtlInitAnsiString routine [Kernel-Mode Driver Architecture], k109_733e2861-a19a-41ca-92cc-d50caa8beead.xml, kernel.rtlinitansistring, wdm/RtlInitAnsiString
 f1_keywords:
  - "wdm/RtlInitAnsiString"
+ - "RtlInitAnsiString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

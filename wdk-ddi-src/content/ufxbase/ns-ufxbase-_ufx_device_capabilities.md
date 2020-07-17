@@ -10,6 +10,7 @@ keywords: ["_UFX_DEVICE_CAPABILITIES structure"]
 ms.keywords: "*PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES structure pointer [Buses], UFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES structure [Buses], _UFX_DEVICE_CAPABILITIES, buses.ufx_device_capabilities, ufxbase/PUFX_DEVICE_CAPABILITIES, ufxbase/UFX_DEVICE_CAPABILITIES"
 f1_keywords:
  - "ufxbase/UFX_DEVICE_CAPABILITIES"
+ - "UFX_DEVICE_CAPABILITIES"
 req.header: ufxbase.h
 req.include-header: 
 req.target-type: Windows

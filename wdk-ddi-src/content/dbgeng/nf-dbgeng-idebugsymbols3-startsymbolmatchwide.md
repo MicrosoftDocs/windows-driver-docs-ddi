@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::StartSymbolMatchWide"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],StartSymbolMatchWide method, IDebugSymbols3.StartSymbolMatchWide, IDebugSymbols3::StartSymbolMatchWide, StartSymbolMatchWide, StartSymbolMatchWide method [Windows Debugging], StartSymbolMatchWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::StartSymbolMatchWide, debugger.startsymbolmatchwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.StartSymbolMatchWide"
+ - "IDebugSymbols3.StartSymbolMatchWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

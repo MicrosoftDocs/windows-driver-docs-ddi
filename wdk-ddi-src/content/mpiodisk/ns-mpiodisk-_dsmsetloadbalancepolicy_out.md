@@ -10,6 +10,7 @@ keywords: ["_DsmSetLoadBalancePolicy_OUT structure"]
 ms.keywords: "*PDsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT structure [Storage Devices], PDsmSetLoadBalancePolicy_OUT, PDsmSetLoadBalancePolicy_OUT structure pointer [Storage Devices], _DsmSetLoadBalancePolicy_OUT, mpiodisk/DsmSetLoadBalancePolicy_OUT, mpiodisk/PDsmSetLoadBalancePolicy_OUT, storage.dsmsetloadbalancepolicy_out, structs-scsibus_f22d33bc-ce52-4369-8dd2-085c393a9107.xml"
 f1_keywords:
  - "mpiodisk/DsmSetLoadBalancePolicy_OUT"
+ - "DsmSetLoadBalancePolicy_OUT"
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows

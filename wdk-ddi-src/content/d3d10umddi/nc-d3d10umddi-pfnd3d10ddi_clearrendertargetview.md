@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_CLEARRENDERTARGETVIEW callback function"]
 ms.keywords: ClearRenderTargetView, ClearRenderTargetView callback function [Display Devices], PFND3D10DDI_CLEARRENDERTARGETVIEW, PFND3D10DDI_CLEARRENDERTARGETVIEW callback, UserModeDisplayDriverDx10_Functions_b9129a55-a400-45b7-a3a9-da477170c99c.xml, d3d10umddi/ClearRenderTargetView, display.clearrendertargetview
 f1_keywords:
  - "d3d10umddi/ClearRenderTargetView"
+ - "ClearRenderTargetView"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

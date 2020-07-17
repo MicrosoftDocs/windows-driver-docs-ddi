@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_LINK_DEVICE callback function"]
 ms.keywords: DXGKDDI_LINK_DEVICE, DXGKDDI_LINK_DEVICE callback, DmFunctions_3dcba945-b441-49a2-9d1e-af0ff235136c.xml, DxgkDdiLinkDevice, DxgkDdiLinkDevice callback function [Display Devices], display.dxgkddilinkdevice, dispmprt/DxgkDdiLinkDevice
 f1_keywords:
  - "dispmprt/DxgkDdiLinkDevice"
+ - "DxgkDdiLinkDevice"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop

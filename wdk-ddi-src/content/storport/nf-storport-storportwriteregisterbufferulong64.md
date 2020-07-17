@@ -10,6 +10,7 @@ keywords: ["StorPortWriteRegisterBufferUlong64 macro"]
 ms.keywords: StorPortWriteRegisterBufferUlong64, StorPortWriteRegisterBufferUlong64 routine [Storage Devices], storage.storportwriteregisterbufferulong64, storport/StorPortWriteRegisterBufferUlong64
 f1_keywords:
  - "storport/StorPortWriteRegisterBufferUlong64"
+ - "StorPortWriteRegisterBufferUlong64"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

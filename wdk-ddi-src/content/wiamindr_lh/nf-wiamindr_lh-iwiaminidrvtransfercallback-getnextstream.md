@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrvTransferCallback::GetNextStream"]
 ms.keywords: GetNextStream, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices],IWiaMiniDrvTransferCallback interface, IWiaMiniDrvTransferCallback interface [Imaging Devices],GetNextStream method, IWiaMiniDrvTransferCallback.GetNextStream, IWiaMiniDrvTransferCallback::GetNextStream, image.iwiaminidrvtransfercallback_getnextstream, wiamindr_lh/IWiaMiniDrvTransferCallback::GetNextStream
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrvTransferCallback.GetNextStream"
+ - "IWiaMiniDrvTransferCallback.GetNextStream"
 req.header: wiamindr_lh.h
 req.include-header: 
 req.target-type: Desktop

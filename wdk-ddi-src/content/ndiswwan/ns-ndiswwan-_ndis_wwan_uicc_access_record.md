@@ -8,6 +8,7 @@ ms.date: 04/10/2019
 keywords: ["_NDIS_WWAN_UICC_ACCESS_RECORD structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_UICC_ACCESS_RECORD"
+ - "_NDIS_WWAN_UICC_ACCESS_RECORD"
 ms.keywords: _NDIS_WWAN_UICC_ACCESS_RECORD, NDIS_WWAN_UICC_ACCESS_RECORD, *PNDIS_WWAN_UICC_ACCESS_RECORD, 
 req.header: ndiswwan.h
 req.include-header:

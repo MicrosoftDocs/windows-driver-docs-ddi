@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_CHECKCOUNTER callback function"]
 ms.keywords: CheckCounter, CheckCounter callback function [Display Devices], PFND3D10DDI_CHECKCOUNTER, PFND3D10DDI_CHECKCOUNTER callback, UserModeDisplayDriverDx10_Functions_450a0976-fc56-4a5a-8a01-9c9d1041b628.xml, d3d10umddi/CheckCounter, display.checkcounter
 f1_keywords:
  - "d3d10umddi/CheckCounter"
+ - "CheckCounter"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

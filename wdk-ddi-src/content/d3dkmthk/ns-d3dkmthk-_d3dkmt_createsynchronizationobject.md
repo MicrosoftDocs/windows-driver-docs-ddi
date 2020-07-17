@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATESYNCHRONIZATIONOBJECT structure"]
 ms.keywords: D3DKMT_CREATESYNCHRONIZATIONOBJECT, D3DKMT_CREATESYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_918a7c9b-3dba-4af3-aa2c-334861301304.xml, _D3DKMT_CREATESYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_CREATESYNCHRONIZATIONOBJECT, display.d3dkmt_createsynchronizationobject
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATESYNCHRONIZATIONOBJECT"
+ - "D3DKMT_CREATESYNCHRONIZATIONOBJECT"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

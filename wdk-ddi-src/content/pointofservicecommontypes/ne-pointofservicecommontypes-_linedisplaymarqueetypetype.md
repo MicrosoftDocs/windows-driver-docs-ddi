@@ -10,6 +10,7 @@ keywords: ["_LineDisplayMarqueeTypeType enumeration"]
 ms.keywords: LineDisplayMarqueeTypeType, LineDisplayMarqueeTypeType enumeration, PLineDisplayMarqueeTypeType, PLineDisplayMarqueeTypeType enumeration pointer, _LineDisplayMarqueeTypeType, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayMarqueeTypeType, pointofservicecommontypes/PLineDisplayMarqueeTypeType, pos.linedisplaymarqueetypetype
 f1_keywords:
  - "pointofservicecommontypes/LineDisplayMarqueeTypeType"
+ - "LineDisplayMarqueeTypeType"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

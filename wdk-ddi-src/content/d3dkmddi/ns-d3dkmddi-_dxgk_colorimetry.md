@@ -9,6 +9,7 @@ keywords: ["_DXGK_COLORIMETRY structure"]
 ms.keywords: "*PDXGK_COLORIMETRY, DXGK_COLORIMETRY, DXGK_COLORIMETRY structure [Display Devices], PDXGK_COLORIMETRY, PDXGK_COLORIMETRY structure pointer [Display Devices], _DXGK_COLORIMETRY, d3dkmddi/DXGK_COLORIMETRY, d3dkmddi/PDXGK_COLORIMETRY, display.dxgk_colorimetry"
 f1_keywords:
  - "d3dkmddi/DXGK_COLORIMETRY"
+ - "DXGK_COLORIMETRY"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

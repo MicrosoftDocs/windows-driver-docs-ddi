@@ -10,6 +10,7 @@ keywords: ["_URB_GET_CURRENT_FRAME_NUMBER structure"]
 ms.keywords: "_URB_GET_CURRENT_FRAME_NUMBER, _URB_GET_CURRENT_FRAME_NUMBER structure [Buses], buses._urb_get_current_frame_number, usb/_URB_GET_CURRENT_FRAME_NUMBER, usbstrct_b767de1b-63fd-4ac4-b696-78e4d0d83661.xml"
 f1_keywords:
  - "usb/_URB_GET_CURRENT_FRAME_NUMBER"
+ - "_URB_GET_CURRENT_FRAME_NUMBER"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows

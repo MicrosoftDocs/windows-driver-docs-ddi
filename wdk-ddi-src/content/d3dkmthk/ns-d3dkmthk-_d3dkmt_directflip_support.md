@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_DIRECTFLIP_SUPPORT structure"]
 ms.keywords: D3DKMT_DIRECTFLIP_SUPPORT, D3DKMT_DIRECTFLIP_SUPPORT structure [Display Devices], _D3DKMT_DIRECTFLIP_SUPPORT, d3dkmthk/D3DKMT_DIRECTFLIP_SUPPORT, display.d3dkmt_directflip_support
 f1_keywords:
  - "d3dkmthk/D3DKMT_DIRECTFLIP_SUPPORT"
+ - "D3DKMT_DIRECTFLIP_SUPPORT"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

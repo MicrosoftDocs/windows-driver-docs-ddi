@@ -9,6 +9,7 @@ keywords: ["D3D10DDIARG_STAGE_IO_SIGNATURES structure"]
 ms.keywords: D3D10DDIARG_STAGE_IO_SIGNATURES, D3D10DDIARG_STAGE_IO_SIGNATURES structure [Display Devices], UMDisplayDriver_Dx10param_Structs_877fde5f-64e9-455a-b7ed-453e4b6a9e15.xml, d3d10umddi/D3D10DDIARG_STAGE_IO_SIGNATURES, display.d3d10ddiarg_stage_io_signatures
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_STAGE_IO_SIGNATURES"
+ - "D3D10DDIARG_STAGE_IO_SIGNATURES"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

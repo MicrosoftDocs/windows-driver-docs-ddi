@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_DISABLE_POINTER IOCTL"]
 ms.keywords: IOCTL_VIDEO_DISABLE_POINTER, IOCTL_VIDEO_DISABLE_POINTER control, IOCTL_VIDEO_DISABLE_POINTER control code [Display Devices], Video_IOCTLs_b988a11c-2f01-48bb-b07e-2da28f729369.xml, display.ioctl_video_disable_pointer, ntddvdeo/IOCTL_VIDEO_DISABLE_POINTER
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_DISABLE_POINTER"
+ - "IOCTL_VIDEO_DISABLE_POINTER"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows

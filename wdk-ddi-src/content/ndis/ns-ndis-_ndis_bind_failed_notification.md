@@ -10,6 +10,7 @@ keywords: ["_NDIS_BIND_FAILED_NOTIFICATION structure"]
 ms.keywords: "*PNDIS_BIND_FAILED_NOTIFICATION, NDIS_BIND_FAILED_NOTIFICATION, NDIS_BIND_FAILED_NOTIFICATION structure [Network Drivers Starting with Windows Vista], PNDIS_BIND_FAILED_NOTIFICATION, PNDIS_BIND_FAILED_NOTIFICATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_BIND_FAILED_NOTIFICATION, ndis/NDIS_BIND_FAILED_NOTIFICATION, ndis/PNDIS_BIND_FAILED_NOTIFICATION, netvista.ndis_bind_failed_notification"
 f1_keywords:
  - "ndis/NDIS_BIND_FAILED_NOTIFICATION"
+ - "NDIS_BIND_FAILED_NOTIFICATION"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

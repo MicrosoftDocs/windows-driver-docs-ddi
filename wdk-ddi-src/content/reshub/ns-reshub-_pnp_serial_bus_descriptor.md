@@ -10,6 +10,7 @@ keywords: ["_PNP_SERIAL_BUS_DESCRIPTOR structure"]
 ms.keywords: "*PPNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR, PNP_SERIAL_BUS_DESCRIPTOR structure [Buses], PPNP_SERIAL_BUS_DESCRIPTOR, PPNP_SERIAL_BUS_DESCRIPTOR structure pointer [Buses], SPB.pnp_serial_bus_descriptor, _PNP_SERIAL_BUS_DESCRIPTOR, reshub/PNP_SERIAL_BUS_DESCRIPTOR, reshub/PPNP_SERIAL_BUS_DESCRIPTOR"
 f1_keywords:
  - "reshub/PNP_SERIAL_BUS_DESCRIPTOR"
+ - "PNP_SERIAL_BUS_DESCRIPTOR"
 req.header: reshub.h
 req.include-header:
 req.target-type: Windows

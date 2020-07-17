@@ -9,6 +9,7 @@ keywords: ["D3D11DDI_3DPIPELINESUPPORT_CAPS structure"]
 ms.keywords: D3D11DDI_3DPIPELINESUPPORT_CAPS, D3D11DDI_3DPIPELINESUPPORT_CAPS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_dc9a2de4-8fcf-4cd4-9c59-cc57941cab00.xml, d3d10umddi/D3D11DDI_3DPIPELINESUPPORT_CAPS, display.d3d11ddi_3dpipelinesupport_caps
 f1_keywords:
  - "d3d10umddi/D3D11DDI_3DPIPELINESUPPORT_CAPS"
+ - "D3D11DDI_3DPIPELINESUPPORT_CAPS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

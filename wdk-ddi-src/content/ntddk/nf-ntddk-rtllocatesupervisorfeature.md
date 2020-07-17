@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["RtlLocateSupervisorFeature function"]
 f1_keywords:
  - "ntddk/RtlLocateSupervisorFeature"
+ - "RtlLocateSupervisorFeature"
 ms.keywords: RtlLocateSupervisorFeature
 req.header: ntddk.h
 req.include-header:

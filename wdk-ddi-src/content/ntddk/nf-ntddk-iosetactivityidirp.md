@@ -10,6 +10,7 @@ keywords: ["IoSetActivityIdIrp function"]
 ms.keywords: IoSetActivityIdIrp, IoSetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iosetactivityidirp, ntddk/IoSetActivityIdIrp
 f1_keywords:
  - "ntddk/IoSetActivityIdIrp"
+ - "IoSetActivityIdIrp"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

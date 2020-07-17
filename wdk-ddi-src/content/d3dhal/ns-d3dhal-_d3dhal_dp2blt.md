@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2BLT structure"]
 ms.keywords: "*LPD3DHAL_DP2BLT, D3DHAL_DP2BLT, D3DHAL_DP2BLT structure [Display Devices], LPD3DHAL_DP2BLT, LPD3DHAL_DP2BLT structure pointer [Display Devices], _D3DHAL_DP2BLT, d3dhal/D3DHAL_DP2BLT, d3dhal/LPD3DHAL_DP2BLT, d3dstrct_cab5e8b8-ec72-4d7d-8aaa-4a1f6da44a9b.xml, display.d3dhal_dp2blt"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2BLT"
+ - "D3DHAL_DP2BLT"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IXpsDocumentConsumer::SendXpsUnknown"]
 ms.keywords: IXpsDocumentConsumer interface [Print Devices],SendXpsUnknown method, IXpsDocumentConsumer.SendXpsUnknown, IXpsDocumentConsumer::SendXpsUnknown, SendXpsUnknown, SendXpsUnknown method [Print Devices], SendXpsUnknown method [Print Devices],IXpsDocumentConsumer interface, filterpipeline/IXpsDocumentConsumer::SendXpsUnknown, filterpipeline_bb57facb-5b47-4cf5-9f06-76c06d294a58.xml, print.ixpsdocumentconsumer_sendxpsunknown
 f1_keywords:
  - "filterpipeline/IXpsDocumentConsumer.SendXpsUnknown"
+ - "IXpsDocumentConsumer.SendXpsUnknown"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

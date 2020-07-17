@@ -10,6 +10,7 @@ keywords: ["_WDF_DEVICE_PNP_NOTIFICATION_DATA structure"]
 ms.keywords: DFDeviceObjectGeneralRef_92c66935-afca-4567-bc55-cb3e3822201e.xml, WDF_DEVICE_PNP_NOTIFICATION_DATA, WDF_DEVICE_PNP_NOTIFICATION_DATA structure, _WDF_DEVICE_PNP_NOTIFICATION_DATA, kmdf.wdf_device_pnp_notification_data, wdf.wdf_device_pnp_notification_data, wdfdevice/WDF_DEVICE_PNP_NOTIFICATION_DATA
 f1_keywords:
  - "wdfdevice/WDF_DEVICE_PNP_NOTIFICATION_DATA"
+ - "WDF_DEVICE_PNP_NOTIFICATION_DATA"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows

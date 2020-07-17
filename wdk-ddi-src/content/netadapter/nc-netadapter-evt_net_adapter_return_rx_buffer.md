@@ -8,6 +8,7 @@ ms.date: 09/27/2019
 keywords: ["EVT_NET_ADAPTER_RETURN_RX_BUFFER callback function"]
 f1_keywords:
  - "netadapter/EVT_NET_ADAPTER_RETURN_RX_BUFFER"
+ - "EVT_NET_ADAPTER_RETURN_RX_BUFFER"
 req.header: netadapter.h
 req.include-header:
 req.target-type: Universal

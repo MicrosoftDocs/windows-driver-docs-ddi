@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacks::ChangeSymbolState"]
 ms.keywords: ChangeSymbolState, ChangeSymbolState method [Windows Debugging], ChangeSymbolState method [Windows Debugging],IDebugEventCallbacks interface, ComCallbacks_693f0465-088e-4f3d-a8a4-89e8803d0227.xml, IDebugEventCallbacks interface [Windows Debugging],ChangeSymbolState method, IDebugEventCallbacks.ChangeSymbolState, IDebugEventCallbacks::ChangeSymbolState, dbgeng/IDebugEventCallbacks::ChangeSymbolState, debugger.idebugeventcallbacks_changesymbolstate
 f1_keywords:
  - "dbgeng/IDebugEventCallbacks.ChangeSymbolState"
+ - "IDebugEventCallbacks.ChangeSymbolState"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_BANDMGMT_REVERT IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_REVERT, IOCTL_EHSTOR_BANDMGMT_REVERT control, IOCTL_EHSTOR_BANDMGMT_REVERT control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_REVERT, storage.ioctl_ehstor_bandmgmt_revert
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_REVERT"
+ - "IOCTL_EHSTOR_BANDMGMT_REVERT"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows

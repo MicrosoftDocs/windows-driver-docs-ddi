@@ -10,6 +10,7 @@ keywords: ["FsRtlQueryCachedVdl function"]
 ms.keywords: FsRtlQueryCachedVdl, FsRtlQueryCachedVdl routine [Installable File System Drivers], ifsk.fsrtlquerycachedvdl, ntifs/FsRtlQueryCachedVdl
 f1_keywords:
  - "ntifs/FsRtlQueryCachedVdl"
+ - "FsRtlQueryCachedVdl"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaFeature::get_DisplayUI"]
 ms.keywords: DisplayUI property [Print Devices], DisplayUI property [Print Devices],IPrintSchemaFeature interface, IPrintSchemaFeature interface [Print Devices],DisplayUI property, IPrintSchemaFeature.DisplayUI, IPrintSchemaFeature.get_DisplayUI, IPrintSchemaFeature::DisplayUI, IPrintSchemaFeature::get_DisplayUI, get_DisplayUI, print.iprintschemafeature_displayui, printerextension/IPrintSchemaFeature::DisplayUI, printerextension/IPrintSchemaFeature::get_DisplayUI
 f1_keywords:
  - "printerextension/IPrintSchemaFeature.DisplayUI"
+ - "IPrintSchemaFeature.DisplayUI"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

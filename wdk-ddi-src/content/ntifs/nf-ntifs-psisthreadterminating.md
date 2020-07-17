@@ -10,6 +10,7 @@ keywords: ["PsIsThreadTerminating function"]
 ms.keywords: PsIsThreadTerminating, PsIsThreadTerminating routine [Installable File System Drivers], ifsk.psisthreadterminating, ntifs/PsIsThreadTerminating, psref_55824a18-3df1-4d43-bc9c-77da8ee6cf6c.xml
 f1_keywords:
  - "ntifs/PsIsThreadTerminating"
+ - "PsIsThreadTerminating"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal

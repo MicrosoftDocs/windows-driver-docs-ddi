@@ -10,6 +10,7 @@ keywords: ["PVIDEO_HW_QUERY_INTERFACE callback function"]
 ms.keywords: HwVidQueryInterface, HwVidQueryInterface callback function [Display Devices], PVIDEO_HW_QUERY_INTERFACE, PVIDEO_HW_QUERY_INTERFACE callback, VideoMiniport_Functions_69dec180-d966-4082-b050-0ed2e0e03121.xml, display.hwvidqueryinterface, video/HwVidQueryInterface
 f1_keywords:
  - "video/HwVidQueryInterface"
+ - "HwVidQueryInterface"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["WdfCommonBufferCreateWithConfig function"]
 ms.keywords: DFCommonBufferObjectRef_4e009b5f-a2a4-4be5-84d6-308c1558e702.xml, WdfCommonBufferCreateWithConfig, WdfCommonBufferCreateWithConfig method, kmdf.wdfcommonbuffercreatewithconfig, wdf.wdfcommonbuffercreatewithconfig, wdfcommonbuffer/WdfCommonBufferCreateWithConfig
 f1_keywords:
  - "wdfcommonbuffer/WdfCommonBufferCreateWithConfig"
+ - "WdfCommonBufferCreateWithConfig"
 req.header: wdfcommonbuffer.h
 req.include-header: WdfCommonBuffer.h
 req.target-type: Universal

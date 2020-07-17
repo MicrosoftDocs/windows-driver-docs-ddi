@@ -10,6 +10,7 @@ keywords: ["PMRX_IS_LOCK_REALIZABLE callback function"]
 ms.keywords: MRxIsLockRealizable, MRxIsLockRealizable routine [Installable File System Drivers], PMRX_IS_LOCK_REALIZABLE, ifsk.mrxislockrealizable, mrx/MRxIsLockRealizable, mrxref_52518201-df6f-40ab-803d-14d8fc0993f6.xml
 f1_keywords:
  - "mrx/MRxIsLockRealizable"
+ - "MRxIsLockRealizable"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["PcUnregisterAdapterPowerManagement function"]
 ms.keywords: PcUnregisterAdapterPowerManagement, PcUnregisterAdapterPowerManagement function [Audio Devices], audio.pcunregisteradapterpowermanagement, audpc-routines_c879c8bb-7466-4683-9a39-2a802f1e6529.xml, portcls/PcUnregisterAdapterPowerManagement
 f1_keywords:
  - "portcls/PcUnregisterAdapterPowerManagement"
+ - "PcUnregisterAdapterPowerManagement"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["StorPortLogSystemEvent function"]
 ms.keywords: StorPortLogSystemEvent, StorPortLogSystemEvent routine [Storage Devices], storage.storportlogsystemevent, storport/StorPortLogSystemEvent, storprt_15a23037-a0e9-4768-ab20-80d6fe7d8a56.xml
 f1_keywords:
  - "storport/StorPortLogSystemEvent"
+ - "StorPortLogSystemEvent"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

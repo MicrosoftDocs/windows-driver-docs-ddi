@@ -10,6 +10,7 @@ keywords: ["IoMarkIrpPending function"]
 ms.keywords: IoMarkIrpPending, IoMarkIrpPending routine [Kernel-Mode Driver Architecture], k104_478903ab-e597-4df6-a66e-e0c1fbea49d9.xml, kernel.iomarkirppending, wdm/IoMarkIrpPending
 f1_keywords:
  - "wdm/IoMarkIrpPending"
+ - "IoMarkIrpPending"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

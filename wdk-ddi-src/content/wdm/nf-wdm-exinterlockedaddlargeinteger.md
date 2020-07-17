@@ -10,6 +10,7 @@ keywords: ["ExInterlockedAddLargeInteger function"]
 ms.keywords: ExInterlockedAddLargeInteger, ExInterlockedAddLargeInteger routine [Kernel-Mode Driver Architecture], k102_934a3a64-9f63-402c-8b55-db7e2b4d9d4b.xml, kernel.exinterlockedaddlargeinteger, wdm/ExInterlockedAddLargeInteger
 f1_keywords:
  - "wdm/ExInterlockedAddLargeInteger"
+ - "ExInterlockedAddLargeInteger"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["NdisMIndicateStatusEx function"]
 ms.keywords: NdisMIndicateStatusEx, NdisMIndicateStatusEx function [Network Drivers Starting with Windows Vista], ndis/NdisMIndicateStatusEx, ndis_status_ref_73b76336-b2c8-41f9-9d4f-12e5c5988a3d.xml, netvista.ndismindicatestatusex
 f1_keywords:
  - "ndis/NdisMIndicateStatusEx"
+ - "NdisMIndicateStatusEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["EVT_UDECX_USB_ENDPOINT_RESET callback function"]
 ms.keywords: EVT_UDECX_USB_ENDPOINT_RESET, EVT_UDECX_USB_ENDPOINT_RESET callback, EvtUsbEndpointReset, EvtUsbEndpointReset callback function [Buses], buses.evt_udecx_usb_endpoint_reset, udecxusbendpoint/EvtUsbEndpointReset
 f1_keywords:
  - "udecxusbendpoint/EvtUsbEndpointReset"
+ - "EvtUsbEndpointReset"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows

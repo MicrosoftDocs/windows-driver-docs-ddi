@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT callback function"]
 ms.keywords: ClearUnorderedAccessViewUINT, ClearUnorderedAccessViewUINT callback function [Display Devices], PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT, PFND3D11DDI_CLEARUNORDEREDACCESSVIEWUINT callback, UserModeDisplayDriverDx11_Functions_c31370b0-9955-4ccb-b540-92b15fc27cc5.xml, d3d10umddi/ClearUnorderedAccessViewUINT, display.clearunorderedaccessviewuint
 f1_keywords:
  - "d3d10umddi/ClearUnorderedAccessViewUINT"
+ - "ClearUnorderedAccessViewUINT"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

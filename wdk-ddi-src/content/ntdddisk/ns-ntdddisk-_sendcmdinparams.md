@@ -10,6 +10,7 @@ keywords: ["_SENDCMDINPARAMS structure"]
 ms.keywords: "*LPSENDCMDINPARAMS, *PSENDCMDINPARAMS, LPSENDCMDINPARAMS, LPSENDCMDINPARAMS structure pointer [Storage Devices], PSENDCMDINPARAMS, PSENDCMDINPARAMS structure pointer [Storage Devices], SENDCMDINPARAMS, SENDCMDINPARAMS structure [Storage Devices], _SENDCMDINPARAMS, ntdddisk/LPSENDCMDINPARAMS, ntdddisk/PSENDCMDINPARAMS, ntdddisk/SENDCMDINPARAMS, storage.sendcmdinparams, structs-IDE_b80faf9d-dfcf-4eac-b0be-fb18964c4c2b.xml"
 f1_keywords:
  - "ntdddisk/SENDCMDINPARAMS"
+ - "SENDCMDINPARAMS"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["OEMTextOut function"]
 ms.keywords: OEMTextOut, OEMTextOut function [Print Devices], print.oemtextout, print_unidrv-pscript_rendering_fda6f01f-5d37-424f-aa4f-bf7849c50c19.xml, printoem/OEMTextOut
 f1_keywords:
  - "printoem/OEMTextOut"
+ - "OEMTextOut"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

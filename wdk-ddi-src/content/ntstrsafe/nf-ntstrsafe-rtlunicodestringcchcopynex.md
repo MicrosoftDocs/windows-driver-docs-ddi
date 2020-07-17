@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringCchCopyNEx function"]
 ms.keywords: RtlUnicodeStringCchCopyNEx, RtlUnicodeStringCchCopyNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcopynex, ntstrsafe/RtlUnicodeStringCchCopyNEx, safestrings_e87c890a-b794-41c0-b506-b2b29902339c.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringCchCopyNEx"
+ - "RtlUnicodeStringCchCopyNEx"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

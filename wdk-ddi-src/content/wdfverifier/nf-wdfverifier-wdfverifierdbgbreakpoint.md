@@ -10,6 +10,7 @@ keywords: ["WdfVerifierDbgBreakPoint function"]
 ms.keywords: DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml, WdfVerifierDbgBreakPoint, WdfVerifierDbgBreakPoint function, kmdf.wdfverifierdbgbreakpoint, wdf.wdfverifierdbgbreakpoint, wdfverifier/WdfVerifierDbgBreakPoint
 f1_keywords:
  - "wdfverifier/WdfVerifierDbgBreakPoint"
+ - "WdfVerifierDbgBreakPoint"
 req.header: wdfverifier.h
 req.include-header: Wdf.h
 req.target-type: Universal

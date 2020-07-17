@@ -10,6 +10,7 @@ keywords: ["StorPortQueryPerformanceCounter function"]
 ms.keywords: StorPortQueryPerformanceCounter, StorPortQueryPerformanceCounter routine [Storage Devices], storage.storportqueryperformancecounter, storport/StorPortQueryPerformanceCounter
 f1_keywords:
  - "storport/StorPortQueryPerformanceCounter"
+ - "StorPortQueryPerformanceCounter"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

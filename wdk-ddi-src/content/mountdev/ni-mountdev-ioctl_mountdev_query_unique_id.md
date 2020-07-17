@@ -10,6 +10,7 @@ keywords: ["IOCTL_MOUNTDEV_QUERY_UNIQUE_ID IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_QUERY_UNIQUE_ID, IOCTL_MOUNTDEV_QUERY_UNIQUE_ID control, IOCTL_MOUNTDEV_QUERY_UNIQUE_ID control code [Storage Devices], k307_5dd8b350-65b5-4f59-b96f-cae11fe7fb5b.xml, mountdev/IOCTL_MOUNTDEV_QUERY_UNIQUE_ID, storage.ioctl_mountdev_query_unique_id
 f1_keywords:
  - "mountdev/IOCTL_MOUNTDEV_QUERY_UNIQUE_ID"
+ - "IOCTL_MOUNTDEV_QUERY_UNIQUE_ID"
 req.header: mountdev.h
 req.include-header: Mountdev.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_WDF_INTERRUPT_POLARITY enumeration"]
 ms.keywords: "*PWDF_INTERRUPT_POLARITY, PWDF_INTERRUPT_POLARITY, PWDF_INTERRUPT_POLARITY enumeration pointer, WDF_INTERRUPT_POLARITY, WDF_INTERRUPT_POLARITY enumeration, WdfInterruptActiveHigh, WdfInterruptActiveLow, WdfInterruptPolarityUnknown, _WDF_INTERRUPT_POLARITY, umdf.wdf_interrupt_polarity, wdf.wdf_interrupt_polarity_umdf, wudfinterrupt/PWDF_INTERRUPT_POLARITY, wudfinterrupt/WDF_INTERRUPT_POLARITY, wudfinterrupt/WdfInterruptActiveHigh, wudfinterrupt/WdfInterruptActiveLow, wudfinterrupt/WdfInterruptPolarityUnknown"
 f1_keywords:
  - "wudfinterrupt/WDF_INTERRUPT_POLARITY"
+ - "WDF_INTERRUPT_POLARITY"
 req.header: wudfinterrupt.h
 req.include-header: 
 req.target-type: Windows

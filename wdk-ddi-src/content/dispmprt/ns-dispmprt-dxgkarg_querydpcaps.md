@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - dispmprt/_DXGKARG_QUERYDPCAPS
  - dispmprt/DXGKARG_QUERYDPCAPS
+ - ""
 dev_langs:
  - c++
 ---

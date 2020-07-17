@@ -10,6 +10,7 @@ keywords: ["RxCeQueryInformation function"]
 ms.keywords: RxCeQueryInformation, RxCeQueryInformation function [Installable File System Drivers], ifsk.rxcequeryinformation, rxce/RxCeQueryInformation, rxref_b7508a13-8eb0-42d0-917c-300a5eb4c0e9.xml
 f1_keywords:
  - "rxce/RxCeQueryInformation"
+ - "RxCeQueryInformation"
 req.header: rxce.h
 req.include-header: Rxce.h, Rxcehdlr.h, Tdi.h
 req.target-type: Desktop

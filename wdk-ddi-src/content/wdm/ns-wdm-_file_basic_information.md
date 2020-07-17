@@ -10,6 +10,7 @@ keywords: ["FILE_BASIC_INFORMATION structure"]
 ms.keywords: "*PFILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION, FILE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_BASIC_INFORMATION, PFILE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_BASIC_INFORMATION, kernel.file_basic_information, kstruct_b_3de98e8c-d842-45e9-a9bd-948276ef1b87.xml, wdm/FILE_BASIC_INFORMATION, wdm/PFILE_BASIC_INFORMATION"
 f1_keywords:
  - "wdm/FILE_BASIC_INFORMATION"
+ - "FILE_BASIC_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

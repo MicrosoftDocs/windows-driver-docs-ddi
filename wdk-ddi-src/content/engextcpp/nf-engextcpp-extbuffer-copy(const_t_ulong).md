@@ -10,6 +10,7 @@ keywords: ["ExtBuffer::Copy method"]
 ms.keywords: Copy method [Windows Debugging], Copy, ExtBuffer, Copy method [Windows Debugging], ExtRemoteTyped class, ExtBuffer::Copy, debugger.extremotetyped_copy_debug_typed_data, ExtRemoteTyped class [Windows Debugging], Copy method
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.Copy"
+ - "ExtRemoteTyped.Copy"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

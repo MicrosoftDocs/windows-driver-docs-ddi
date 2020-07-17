@@ -10,6 +10,7 @@ keywords: ["CcFastCopyWrite function"]
 ms.keywords: CcFastCopyWrite, CcFastCopyWrite routine [Installable File System Drivers], ccref_f5763242-c6f6-4638-8577-a6c65001a8ca.xml, ifsk.ccfastcopywrite, ntifs/CcFastCopyWrite
 f1_keywords:
  - "ntifs/CcFastCopyWrite"
+ - "CcFastCopyWrite"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

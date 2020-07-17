@@ -10,6 +10,7 @@ keywords: ["KsReferenceSoftwareBusObject function"]
 ms.keywords: KsReferenceSoftwareBusObject, KsReferenceSoftwareBusObject function [Streaming Media Devices], ksfunc_38a63d2d-e988-474d-890b-dd9a2aeeaff4.xml, stream.ksreferencesoftwarebusobject, swenum/KsReferenceSoftwareBusObject
 f1_keywords:
  - "swenum/KsReferenceSoftwareBusObject"
+ - "KsReferenceSoftwareBusObject"
 req.header: swenum.h
 req.include-header: Swenum.h
 req.target-type: Universal

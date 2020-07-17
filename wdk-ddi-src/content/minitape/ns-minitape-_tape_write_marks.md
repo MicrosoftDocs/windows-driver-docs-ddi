@@ -10,6 +10,7 @@ keywords: ["_TAPE_WRITE_MARKS structure"]
 ms.keywords: "*PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS, PTAPE_WRITE_MARKS structure pointer [Storage Devices], TAPE_WRITE_MARKS, TAPE_WRITE_MARKS structure [Storage Devices], _TAPE_WRITE_MARKS, ntddtape/PTAPE_WRITE_MARKS, ntddtape/TAPE_WRITE_MARKS, storage.tape_write_marks, structs-tape_18332ea5-6bfb-4acf-8c84-0a77ded0cc72.xml"
 f1_keywords:
  - "minitape/TAPE_WRITE_MARKS"
+ - "TAPE_WRITE_MARKS"
 req.header: minitape.h
 req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows

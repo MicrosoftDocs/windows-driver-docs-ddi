@@ -10,6 +10,7 @@ keywords: ["PDEBUG_EXTENSION_UNLOAD callback function"]
 ms.keywords: DebugExtensionUnload, DebugExtensionUnload callback function [Windows Debugging], PDEBUG_EXTENSION_UNLOAD, PDEBUG_EXTENSION_UNLOAD callback, dbgeng/DebugExtensionUnload, debugger.debugextensionunload
 f1_keywords:
  - "dbgeng/DebugExtensionUnload"
+ - "DebugExtensionUnload"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

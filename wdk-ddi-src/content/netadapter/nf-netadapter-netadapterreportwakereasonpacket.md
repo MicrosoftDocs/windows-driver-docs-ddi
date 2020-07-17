@@ -10,6 +10,7 @@ ms.date: 11/07/2019
 keywords: ["NetAdapterReportWakeReasonPacket function"]
 f1_keywords:
  - "netadapter/NetAdapterReportWakeReasonPacket"
+ - "NetAdapterReportWakeReasonPacket"
 ms.keywords: NetAdapterReportWakeReasonPacket
 req.header: netadapter.h
 req.include-header:

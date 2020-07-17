@@ -10,6 +10,7 @@ keywords: ["AtaPortRegistryControllerKeyWrite function"]
 ms.keywords: AtaPortRegistryControllerKeyWrite, AtaPortRegistryControllerKeyWrite routine [Storage Devices], atartns_c17cd629-759c-4469-a7f4-61125a791736.xml, irb/AtaPortRegistryControllerKeyWrite, storage.ataportregistrycontrollerkeywrite
 f1_keywords:
  - "irb/AtaPortRegistryControllerKeyWrite"
+ - "AtaPortRegistryControllerKeyWrite"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

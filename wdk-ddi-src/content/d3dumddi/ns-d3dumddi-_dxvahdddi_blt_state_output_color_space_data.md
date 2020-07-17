@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure"]
 ms.keywords: DXVA2_Structs_87da73df-e65e-4c01-8294-1201215a8d7c.xml, DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA, display.dxvahdddi_blt_state_output_color_space_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA"
+ - "DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

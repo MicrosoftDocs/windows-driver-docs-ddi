@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionContextCollection interface"]
 ms.keywords: IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], IPrinterExtensionContextCollection interface [Print Devices],described, print.iprinterextensioncontextcollection, printerextension/IPrinterExtensionContextCollection
 f1_keywords:
  - "printerextension/IPrinterExtensionContextCollection"
+ - "IPrinterExtensionContextCollection"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

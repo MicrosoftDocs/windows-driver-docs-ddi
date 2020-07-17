@@ -10,6 +10,7 @@ keywords: ["_CDROM_WRITE_SPEED_REQUEST structure"]
 ms.keywords: "*PCDROM_WRITE_SPEED_REQUEST, CDROM_WRITE_SPEED_REQUEST, CDROM_WRITE_SPEED_REQUEST structure [Storage Devices], PCDROM_WRITE_SPEED_REQUEST, PCDROM_WRITE_SPEED_REQUEST structure pointer [Storage Devices], _CDROM_WRITE_SPEED_REQUEST, ntddcdrm/CDROM_WRITE_SPEED_REQUEST, ntddcdrm/PCDROM_WRITE_SPEED_REQUEST, storage.cdrom_write_speed_request"
 f1_keywords:
  - "ntddcdrm/CDROM_WRITE_SPEED_REQUEST"
+ - "CDROM_WRITE_SPEED_REQUEST"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

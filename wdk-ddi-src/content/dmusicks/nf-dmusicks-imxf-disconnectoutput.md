@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IMXF::DisconnectOutput"]
 f1_keywords:
  - "dmusicks/IMXF.DisconnectOutput"
+ - "IMXF.DisconnectOutput"
 ms.keywords: IMXF::DisconnectOutput, DisconnectOutput, IMXF.DisconnectOutput, IMXF::DisconnectOutput, IMXF.DisconnectOutput
 req.header: dmusicks.h
 req.include-header:

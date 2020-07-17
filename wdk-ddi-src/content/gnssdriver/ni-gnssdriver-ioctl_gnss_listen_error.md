@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_LISTEN_ERROR IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_ERROR, IOCTL_GNSS_LISTEN_ERROR control, IOCTL_GNSS_LISTEN_ERROR control code [Sensor Devices], gnss.ioctl_gnss_listen_error_, gnssdriver/IOCTL_GNSS_LISTEN_ERROR
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_LISTEN_ERROR"
+ - "IOCTL_GNSS_LISTEN_ERROR"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

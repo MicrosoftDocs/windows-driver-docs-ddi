@@ -10,6 +10,7 @@ keywords: ["ExInterlockedFlushSList macro"]
 ms.keywords: ExInterlockedFlushSList, ExInterlockedFlushSList routine [Kernel-Mode Driver Architecture], k102_493935e2-44c7-471b-807f-ca6f110d8155.xml, kernel.exinterlockedflushslist, wdm/ExInterlockedFlushSList
 f1_keywords:
  - "wdm/ExInterlockedFlushSList"
+ - "ExInterlockedFlushSList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

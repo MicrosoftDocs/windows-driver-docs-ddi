@@ -10,6 +10,7 @@ keywords: ["_NDIS_NET_BUFFER_LIST_8021Q_INFO structure"]
 ms.keywords: "*PNDIS_NET_BUFFER_LIST_8021Q_INFO, NDIS_NET_BUFFER_LIST_8021Q_INFO, NDIS_NET_BUFFER_LIST_8021Q_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NET_BUFFER_LIST_8021Q_INFO, PNDIS_NET_BUFFER_LIST_8021Q_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NET_BUFFER_LIST_8021Q_INFO, ndis/NDIS_NET_BUFFER_LIST_8021Q_INFO, ndis/PNDIS_NET_BUFFER_LIST_8021Q_INFO, ndis_netbuf_structures_ref_6581b8a1-543e-46fe-a513-f8b2b6780cdd.xml, netvista.ndis_net_buffer_list_8021q_info"
 f1_keywords:
  - "ndis/NDIS_NET_BUFFER_LIST_8021Q_INFO"
+ - "NDIS_NET_BUFFER_LIST_8021Q_INFO"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

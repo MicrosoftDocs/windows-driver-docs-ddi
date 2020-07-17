@@ -10,6 +10,7 @@ keywords: ["FltCloseClientPort function"]
 ms.keywords: FltApiRef_a_to_d_0def0996-8190-4482-a7bb-018c79773eca.xml, FltCloseClientPort, FltCloseClientPort function [Installable File System Drivers], fltkernel/FltCloseClientPort, ifsk.fltcloseclientport
 f1_keywords:
  - "fltkernel/FltCloseClientPort"
+ - "FltCloseClientPort"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

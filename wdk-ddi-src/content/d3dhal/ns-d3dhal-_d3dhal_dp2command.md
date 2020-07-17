@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2COMMAND structure"]
 ms.keywords: "*LPD3DHAL_DP2COMMAND, D3DHAL_DP2COMMAND, D3DHAL_DP2COMMAND structure [Display Devices], LPD3DHAL_DP2COMMAND, LPD3DHAL_DP2COMMAND structure pointer [Display Devices], _D3DHAL_DP2COMMAND, d3dhal/D3DHAL_DP2COMMAND, d3dhal/LPD3DHAL_DP2COMMAND, d3dstrct_9497e802-c325-4d08-ba6c-f482d17da6c5.xml, display.d3dhal_dp2command"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2COMMAND"
+ - "D3DHAL_DP2COMMAND"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

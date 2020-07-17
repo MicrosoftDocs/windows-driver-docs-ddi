@@ -10,6 +10,7 @@ keywords: ["_WWAN_NETWORK_IDLE_HINT structure"]
 ms.keywords: "*PWWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT structure pointer [Network Drivers Starting with Windows Vista], WWAN_NETWORK_IDLE_HINT, WWAN_NETWORK_IDLE_HINT structure [Network Drivers Starting with Windows Vista], _WWAN_NETWORK_IDLE_HINT, netvista.wwan_network_idle_hint, wwan/PWWAN_NETWORK_IDLE_HINT, wwan/WWAN_NETWORK_IDLE_HINT"
 f1_keywords:
  - "wwan/WWAN_NETWORK_IDLE_HINT"
+ - "WWAN_NETWORK_IDLE_HINT"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

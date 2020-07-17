@@ -10,6 +10,7 @@ keywords: ["NdisCmDispatchIncomingDropParty function"]
 ms.keywords: NdisCmDispatchIncomingDropParty, NdisCmDispatchIncomingDropParty function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_6f7730c4-030a-45a6-b873-833bf8033ce7.xml, ndis/NdisCmDispatchIncomingDropParty, netvista.ndiscmdispatchincomingdropparty
 f1_keywords:
  - "ndis/NdisCmDispatchIncomingDropParty"
+ - "NdisCmDispatchIncomingDropParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

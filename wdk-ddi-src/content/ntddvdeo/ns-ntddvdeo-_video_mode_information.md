@@ -10,6 +10,7 @@ keywords: ["_VIDEO_MODE_INFORMATION structure"]
 ms.keywords: "*PVIDEO_MODE_INFORMATION, PVIDEO_MODE_INFORMATION, PVIDEO_MODE_INFORMATION structure pointer [Display Devices], VIDEO_MODE_INFORMATION, VIDEO_MODE_INFORMATION structure [Display Devices], Video_Structs_76f182b8-be55-42d0-948f-29e05e956895.xml, _VIDEO_MODE_INFORMATION, display.video_mode_information, ntddvdeo/PVIDEO_MODE_INFORMATION, ntddvdeo/VIDEO_MODE_INFORMATION"
 f1_keywords:
  - "ntddvdeo/VIDEO_MODE_INFORMATION"
+ - "VIDEO_MODE_INFORMATION"
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h
 req.target-type: Windows

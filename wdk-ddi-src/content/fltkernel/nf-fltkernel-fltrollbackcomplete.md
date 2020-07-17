@@ -10,6 +10,7 @@ keywords: ["FltRollbackComplete function"]
 ms.keywords: FltApiRef_p_to_z_5a4ebf97-8580-437d-b34d-e873bad7161b.xml, FltRollbackComplete, FltRollbackComplete routine [Installable File System Drivers], fltkernel/FltRollbackComplete, ifsk.fltrollbackcomplete
 f1_keywords:
  - "fltkernel/FltRollbackComplete"
+ - "FltRollbackComplete"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

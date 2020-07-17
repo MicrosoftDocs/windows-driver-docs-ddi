@@ -10,6 +10,7 @@ keywords: ["DrmDestroyContent function"]
 ms.keywords: DrmDestroyContent, DrmDestroyContent function [Audio Devices], aud-prop2_cfaec95c-a7e5-4488-a56d-323ebc577d90.xml, audio.drmdestroycontent, drmk/DrmDestroyContent
 f1_keywords:
  - "drmk/DrmDestroyContent"
+ - "DrmDestroyContent"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Universal

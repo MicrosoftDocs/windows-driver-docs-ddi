@@ -10,6 +10,7 @@ keywords: ["StorPortMoveMemory function"]
 ms.keywords: StorPortMoveMemory, StorPortMoveMemory routine [Storage Devices], storage.storportmovememory, storport/StorPortMoveMemory, storprt_7af1ec0d-f1c4-4335-9b80-1aaef26afa35.xml
 f1_keywords:
  - "storport/StorPortMoveMemory"
+ - "StorPortMoveMemory"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

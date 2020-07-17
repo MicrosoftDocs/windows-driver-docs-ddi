@@ -10,6 +10,7 @@ keywords: ["_DEBUG_LAST_EVENT_INFO_BREAKPOINT structure"]
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_BREAKPOINT, DEBUG_LAST_EVENT_INFO_BREAKPOINT, DEBUG_LAST_EVENT_INFO_BREAKPOINT structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_BREAKPOINT, PDEBUG_LAST_EVENT_INFO_BREAKPOINT structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_BREAKPOINT, dbgeng/DEBUG_LAST_EVENT_INFO_BREAKPOINT, dbgeng/PDEBUG_LAST_EVENT_INFO_BREAKPOINT, debugger.debug_last_event_info_breakpoint"
 f1_keywords:
  - "dbgeng/DEBUG_LAST_EVENT_INFO_BREAKPOINT"
+ - "DEBUG_LAST_EVENT_INFO_BREAKPOINT"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows

@@ -32,6 +32,7 @@ api_name:
  - D3D12DDI_SAMPLER_FEEDBACK_MAP_SIZE_0073
 f1_keywords:
  - d3d12umddi/D3D12DDI_SAMPLER_FEEDBACK_MAP_SIZE_0073
+ - ""
 dev_langs:
  - c++
 ---

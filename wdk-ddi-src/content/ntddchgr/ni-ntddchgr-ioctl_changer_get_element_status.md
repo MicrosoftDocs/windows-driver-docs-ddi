@@ -10,6 +10,7 @@ keywords: ["IOCTL_CHANGER_GET_ELEMENT_STATUS IOCTL"]
 ms.keywords: IOCTL_CHANGER_GET_ELEMENT_STATUS, IOCTL_CHANGER_GET_ELEMENT_STATUS control, IOCTL_CHANGER_GET_ELEMENT_STATUS control code [Storage Devices], k307_017d1ca9-974c-4a25-b28f-51e0bdc562d8.xml, ntddchgr/IOCTL_CHANGER_GET_ELEMENT_STATUS, storage.ioctl_changer_get_element_status
 f1_keywords:
  - "ntddchgr/IOCTL_CHANGER_GET_ELEMENT_STATUS"
+ - "IOCTL_CHANGER_GET_ELEMENT_STATUS"
 req.header: ntddchgr.h
 req.include-header: Ntddchgr.h
 req.target-type: Windows

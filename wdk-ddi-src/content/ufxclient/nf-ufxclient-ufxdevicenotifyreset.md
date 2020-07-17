@@ -10,6 +10,7 @@ keywords: ["UfxDeviceNotifyReset function"]
 ms.keywords: UfxDeviceNotifyReset, UfxDeviceNotifyReset method [Buses], buses.ufxdevicenotifyreset, ufxclient/UfxDeviceNotifyReset
 f1_keywords:
  - "ufxclient/UfxDeviceNotifyReset"
+ - "UfxDeviceNotifyReset"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

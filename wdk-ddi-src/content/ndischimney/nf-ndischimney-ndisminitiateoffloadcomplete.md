@@ -10,6 +10,7 @@ keywords: ["NdisMInitiateOffloadComplete function"]
 ms.keywords: NdisMInitiateOffloadComplete, NdisMInitiateOffloadComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMInitiateOffloadComplete, netvista.ndisminitiateoffloadcomplete, tcp_chim_ndis_func_e5917638-7b7e-49e6-afad-63bbb3490cd9.xml
 f1_keywords:
  - "ndischimney/NdisMInitiateOffloadComplete"
+ - "NdisMInitiateOffloadComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal

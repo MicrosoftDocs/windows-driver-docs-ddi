@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_EFI_QUERY_VARIABLE_INFO_IN structure"]
 f1_keywords:
  - "treevariableservice/_EFI_QUERY_VARIABLE_INFO_IN"
+ - "_EFI_QUERY_VARIABLE_INFO_IN"
 ms.keywords: _EFI_QUERY_VARIABLE_INFO_IN, EFI_QUERY_VARIABLE_INFO_IN, *PEFI_QUERY_VARIABLE_INFO_IN, 
 req.header: treevariableservice.h
 req.include-header:

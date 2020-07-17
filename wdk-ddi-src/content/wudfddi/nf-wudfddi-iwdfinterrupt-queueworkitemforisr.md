@@ -10,6 +10,7 @@ keywords: ["IWDFInterrupt::QueueWorkItemForIsr"]
 ms.keywords: IWDFInterrupt interface,QueueWorkItemForIsr method, IWDFInterrupt.QueueWorkItemForIsr, IWDFInterrupt::QueueWorkItemForIsr, QueueWorkItemForIsr, QueueWorkItemForIsr method, QueueWorkItemForIsr method,IWDFInterrupt interface, umdf.iwdfinterrupt_queueworkitemforisr, wdf.iwdfinterrupt_queueworkitemforisr, wudfddi/IWDFInterrupt::QueueWorkItemForIsr
 f1_keywords:
  - "wudfddi/IWDFInterrupt.QueueWorkItemForIsr"
+ - "IWDFInterrupt.QueueWorkItemForIsr"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["FILTER_SEND_NET_BUFFER_LISTS callback function"]
 ms.keywords: FILTER_SEND_NET_BUFFER_LISTS, FILTER_SEND_NET_BUFFER_LISTS callback, FilterSendNetBufferLists, FilterSendNetBufferLists callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_576e3ac8-da80-4302-a0d5-41a1168336ee.xml, ndis/FilterSendNetBufferLists, netvista.filtersendnetbufferlists
 f1_keywords:
  - "ndis/FilterSendNetBufferLists"
+ - "FilterSendNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

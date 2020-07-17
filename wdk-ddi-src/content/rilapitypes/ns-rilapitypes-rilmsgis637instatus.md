@@ -10,6 +10,7 @@ keywords: ["RILMSGIS637INSTATUS structure"]
 ms.keywords: "*LPRILMSGIS637INSTATUS, RILMSGIS637INSTATUS, RILMSGIS637INSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilmsgis637instatus, ntddrilapitypes/RILMSGIS637INSTATUS"
 f1_keywords:
  - "rilapitypes/RILMSGIS637INSTATUS"
+ - "RILMSGIS637INSTATUS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

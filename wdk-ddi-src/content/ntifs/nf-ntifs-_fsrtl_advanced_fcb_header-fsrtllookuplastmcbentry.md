@@ -10,6 +10,7 @@ keywords: ["FsRtlLookupLastMcbEntry function"]
 ms.keywords: FsRtlLookupLastMcbEntry, FsRtlLookupLastMcbEntry function [Installable File System Drivers], fsrtlref_432dcb48-ee5d-4eef-89ee-d10e6e8a9da7.xml, ifsk.fsrtllookuplastmcbentry, ntifs/FsRtlLookupLastMcbEntry
 f1_keywords:
  - "ntifs/FsRtlLookupLastMcbEntry"
+ - "FsRtlLookupLastMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

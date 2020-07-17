@@ -10,6 +10,7 @@ keywords: ["IPortWaveRTStream::GetPhysicalPageAddress"]
 ms.keywords: GetPhysicalPageAddress, GetPhysicalPageAddress method [Audio Devices], GetPhysicalPageAddress method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],GetPhysicalPageAddress method, IPortWaveRTStream.GetPhysicalPageAddress, IPortWaveRTStream::GetPhysicalPageAddress, audio.iportwavertstream_getphysicalpageaddress, audmp-routines_44b6b9ed-368b-4bf1-9a21-e0e0b2b90728.xml, portcls/IPortWaveRTStream::GetPhysicalPageAddress
 f1_keywords:
  - "portcls/IPortWaveRTStream.GetPhysicalPageAddress"
+ - "IPortWaveRTStream.GetPhysicalPageAddress"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

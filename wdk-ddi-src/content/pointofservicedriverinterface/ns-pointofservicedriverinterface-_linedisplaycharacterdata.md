@@ -10,6 +10,7 @@ keywords: ["_LineDisplayCharacterData structure"]
 ms.keywords: LineDisplayCharacterData, LineDisplayCharacterData structure, PLineDisplayCharacterData, PLineDisplayCharacterData structure pointer, _LineDisplayCharacterData, pointofservicedriverinterface/LineDisplayCharacterData, pointofservicedriverinterface/PLineDisplayCharacterData, pos.linedisplaycharacterdata
 f1_keywords:
  - "pointofservicedriverinterface/LineDisplayCharacterData"
+ - "LineDisplayCharacterData"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows

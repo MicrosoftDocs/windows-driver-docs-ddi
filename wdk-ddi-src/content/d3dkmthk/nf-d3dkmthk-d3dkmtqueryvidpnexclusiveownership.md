@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTQueryVidPnExclusiveOwnership function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTQueryVidPnExclusiveOwnership"
+ - "D3DKMTQueryVidPnExclusiveOwnership"
 ms.keywords: D3DKMTQueryVidPnExclusiveOwnership
 req.header: d3dkmthk.h
 req.include-header:

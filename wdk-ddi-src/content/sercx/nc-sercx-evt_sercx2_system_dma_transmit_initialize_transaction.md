@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION callback funct
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitInitializeTransaction, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_INITIALIZE_TRANSACTION callback, EvtSerCx2SystemDmaTransmitInitializeTransaction, EvtSerCx2SystemDmaTransmitInitializeTransaction callback function [Serial Ports], serports.evtsercx2systemdmatransmitinitializetransaction
 f1_keywords:
  - "sercx/EvtSerCx2SystemDmaTransmitInitializeTransaction"
+ - "EvtSerCx2SystemDmaTransmitInitializeTransaction"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

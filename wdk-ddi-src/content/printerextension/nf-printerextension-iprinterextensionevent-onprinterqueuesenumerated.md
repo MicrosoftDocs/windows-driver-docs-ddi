@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionEvent::OnPrinterQueuesEnumerated"]
 ms.keywords: IPrinterExtensionEvent interface [Print Devices],OnPrinterQueuesEnumerated method, IPrinterExtensionEvent.OnPrinterQueuesEnumerated, IPrinterExtensionEvent::OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated method [Print Devices], OnPrinterQueuesEnumerated method [Print Devices],IPrinterExtensionEvent interface, print.iprinterextensionevent_onprinterqueuesenumerated, printerextension/IPrinterExtensionEvent::OnPrinterQueuesEnumerated
 f1_keywords:
  - "printerextension/IPrinterExtensionEvent.OnPrinterQueuesEnumerated"
+ - "IPrinterExtensionEvent.OnPrinterQueuesEnumerated"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

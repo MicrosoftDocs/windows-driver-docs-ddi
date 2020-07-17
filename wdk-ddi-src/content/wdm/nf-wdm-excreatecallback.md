@@ -10,6 +10,7 @@ keywords: ["ExCreateCallback function"]
 ms.keywords: ExCreateCallback, ExCreateCallback routine [Kernel-Mode Driver Architecture], k102_7c7f1024-8ae7-4925-91f3-add4fcb452b7.xml, kernel.excreatecallback, wdm/ExCreateCallback
 f1_keywords:
  - "wdm/ExCreateCallback"
+ - "ExCreateCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

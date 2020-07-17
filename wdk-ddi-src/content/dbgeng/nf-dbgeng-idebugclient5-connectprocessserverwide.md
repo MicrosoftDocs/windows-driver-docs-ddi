@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::ConnectProcessServerWide"]
 ms.keywords: ConnectProcessServerWide, ConnectProcessServerWide method [Windows Debugging], ConnectProcessServerWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],ConnectProcessServerWide method, IDebugClient5.ConnectProcessServerWide, IDebugClient5::ConnectProcessServerWide, dbgeng/IDebugClient5::ConnectProcessServerWide, debugger.connectprocessserverwide
 f1_keywords:
  - "dbgeng/IDebugClient5.ConnectProcessServerWide"
+ - "IDebugClient5.ConnectProcessServerWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

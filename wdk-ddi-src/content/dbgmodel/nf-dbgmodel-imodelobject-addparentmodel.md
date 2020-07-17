@@ -7,6 +7,7 @@ ms.date: 08/08/2018
 keywords: ["IModelObject::AddParentModel"]
 f1_keywords:
  - "dbgmodel/IModelObject.AddParentModel"
+ - "IModelObject.AddParentModel"
 ms.keywords: IModelObject::AddParentModel, AddParentModel, IModelObject.AddParentModel, IModelObject::AddParentModel, IModelObject.AddParentModel
 req.header: dbgmodel.h
 req.include-header:

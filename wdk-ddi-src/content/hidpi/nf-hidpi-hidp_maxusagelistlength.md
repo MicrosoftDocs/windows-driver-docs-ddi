@@ -10,6 +10,7 @@ keywords: ["HidP_MaxUsageListLength function"]
 ms.keywords: HidP_MaxUsageListLength, HidP_MaxUsageListLength routine [Human Input Devices], hid.hidp_maxusagelistlength, hidfunc_a038fac0-7532-40e4-b083-e0dbe046ad85.xml, hidpi/HidP_MaxUsageListLength
 f1_keywords:
  - "hidpi/HidP_MaxUsageListLength"
+ - "HidP_MaxUsageListLength"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

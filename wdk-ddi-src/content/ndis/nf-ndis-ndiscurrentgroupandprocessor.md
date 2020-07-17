@@ -10,6 +10,7 @@ keywords: ["NdisCurrentGroupAndProcessor function"]
 ms.keywords: NdisCurrentGroupAndProcessor, NdisCurrentGroupAndProcessor function [Network Drivers Starting with Windows Vista], ndis/NdisCurrentGroupAndProcessor, ndis_processor_group_ref_99937404-ee3c-49f9-b714-df04f98113f1.xml, netvista.ndiscurrentgroupandprocessor
 f1_keywords:
  - "ndis/NdisCurrentGroupAndProcessor"
+ - "NdisCurrentGroupAndProcessor"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

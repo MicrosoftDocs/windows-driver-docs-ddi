@@ -9,6 +9,7 @@ keywords: ["D3D10DDIARG_CREATEDEVICE structure"]
 ms.keywords: D3D10DDIARG_CREATEDEVICE, D3D10DDIARG_CREATEDEVICE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_cf670d46-fffb-49ec-8d04-61f73e30e309.xml, d3d10umddi/D3D10DDIARG_CREATEDEVICE, display.d3d10ddiarg_createdevice
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_CREATEDEVICE"
+ - "D3D10DDIARG_CREATEDEVICE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_PARTITION_INFORMATION_GPT structure"]
 ms.keywords: "*PPARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT structure [Storage Devices], PPARTITION_INFORMATION_GPT, PPARTITION_INFORMATION_GPT structure pointer [Storage Devices], SET_PARTITION_INFORMATION_GPT, _PARTITION_INFORMATION_GPT, ntdddisk/PARTITION_INFORMATION_GPT, ntdddisk/PPARTITION_INFORMATION_GPT, storage.partition_information_gpt, structs-disk_dad0a2a5-4351-4940-af39-28f7a4005c14.xml"
 f1_keywords:
  - "ntdddisk/PARTITION_INFORMATION_GPT"
+ - "PARTITION_INFORMATION_GPT"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

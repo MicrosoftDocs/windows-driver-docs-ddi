@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_SETLIGHT structure"]
 ms.keywords: D3DDDIARG_SETLIGHT, D3DDDIARG_SETLIGHT structure [Display Devices], UMDisplayDriver_param_Structs_85eaa308-4edf-44ee-9235-e8637c10aa35.xml, _D3DDDIARG_SETLIGHT, d3dumddi/D3DDDIARG_SETLIGHT, display.d3dddiarg_setlight
 f1_keywords:
  - "d3dumddi/D3DDDIARG_SETLIGHT"
+ - "D3DDDIARG_SETLIGHT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

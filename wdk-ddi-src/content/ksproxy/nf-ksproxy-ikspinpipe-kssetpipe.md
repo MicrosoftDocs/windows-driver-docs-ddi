@@ -10,6 +10,7 @@ keywords: ["IKsPinPipe::KsSetPipe"]
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPipe method, IKsPinPipe.KsSetPipe, IKsPinPipe::KsSetPipe, KsSetPipe, KsSetPipe method [Streaming Media Devices], KsSetPipe method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPipe, stream.ikspinpipe_kssetpipe
 f1_keywords:
  - "ksproxy/IKsPinPipe.KsSetPipe"
+ - "IKsPinPipe.KsSetPipe"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

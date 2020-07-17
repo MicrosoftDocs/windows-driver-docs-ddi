@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackWrite interface"]
 ms.keywords: IQueueCallbackWrite, IQueueCallbackWrite interface, IQueueCallbackWrite interface,described, UMDFQueueObjectRef_4abdce88-185f-4dab-823a-00da96d7d630.xml, umdf.iqueuecallbackwrite, wdf.iqueuecallbackwrite, wudfddi/IQueueCallbackWrite
 f1_keywords:
  - "wudfddi/IQueueCallbackWrite"
+ - "IQueueCallbackWrite"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

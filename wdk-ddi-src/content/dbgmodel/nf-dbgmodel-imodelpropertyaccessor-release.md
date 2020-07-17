@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IModelPropertyAccessor::Release"]
 f1_keywords:
  - "dbgmodel/IModelPropertyAccessor.Release"
+ - "IModelPropertyAccessor.Release"
 ms.keywords: IModelPropertyAccessor::Release, Release, IModelPropertyAccessor.Release, IModelPropertyAccessor::Release, IModelPropertyAccessor.Release
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_ONEX_INDICATE_RESULT callback"]
 ms.keywords: DOT11EXTIHV_ONEX_INDICATE_RESULT, Dot11ExtIhvOneXIndicateResult, Dot11ExtIhvOneXIndicateResult callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_af60ece5-6f3a-4a5b-9207-0e3cf68a012b.xml, netvista.dot11extihvonexindicateresult, wlanihv/Dot11ExtIhvOneXIndicateResult
 f1_keywords:
  - "wlanihv/Dot11ExtIhvOneXIndicateResult"
+ - "Dot11ExtIhvOneXIndicateResult"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

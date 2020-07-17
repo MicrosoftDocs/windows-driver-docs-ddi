@@ -10,6 +10,7 @@ keywords: ["IoAllocateDriverObjectExtension function"]
 ms.keywords: IoAllocateDriverObjectExtension, IoAllocateDriverObjectExtension routine [Kernel-Mode Driver Architecture], k104_f7b420f3-bcd3-4be4-8f0d-e8d61314e880.xml, kernel.ioallocatedriverobjectextension, wdm/IoAllocateDriverObjectExtension
 f1_keywords:
  - "wdm/IoAllocateDriverObjectExtension"
+ - "IoAllocateDriverObjectExtension"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

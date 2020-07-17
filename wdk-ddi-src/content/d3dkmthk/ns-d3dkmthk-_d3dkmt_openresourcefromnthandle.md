@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_OPENRESOURCEFROMNTHANDLE structure"]
 ms.keywords: D3DKMT_OPENRESOURCEFROMNTHANDLE, D3DKMT_OPENRESOURCEFROMNTHANDLE structure [Display Devices], _D3DKMT_OPENRESOURCEFROMNTHANDLE, d3dkmthk/D3DKMT_OPENRESOURCEFROMNTHANDLE, display.d3dkmt_openresourcefromnthandle
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENRESOURCEFROMNTHANDLE"
+ - "D3DKMT_OPENRESOURCEFROMNTHANDLE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

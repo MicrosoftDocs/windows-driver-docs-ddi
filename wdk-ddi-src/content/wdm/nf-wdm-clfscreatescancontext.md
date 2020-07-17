@@ -10,6 +10,7 @@ keywords: ["ClfsCreateScanContext function"]
 ms.keywords: ClfsCreateScanContext, ClfsCreateScanContext routine [Kernel-Mode Driver Architecture], Clfs_475944a4-914e-4532-a066-ee7ff9109756.xml, kernel.clfscreatescancontext, wdm/ClfsCreateScanContext
 f1_keywords:
  - "wdm/ClfsCreateScanContext"
+ - "ClfsCreateScanContext"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

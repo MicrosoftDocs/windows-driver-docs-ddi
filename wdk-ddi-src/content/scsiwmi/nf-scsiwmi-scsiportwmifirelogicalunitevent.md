@@ -10,6 +10,7 @@ keywords: ["ScsiPortWmiFireLogicalUnitEvent function"]
 ms.keywords: ScsiPortWmiFireLogicalUnitEvent, ScsiPortWmiFireLogicalUnitEvent routine [Storage Devices], scsiprt_67f96e3c-cc69-44a7-b324-a247a9a928cc.xml, scsiwmi/ScsiPortWmiFireLogicalUnitEvent, storage.scsiportwmifirelogicalunitevent
 f1_keywords:
  - "scsiwmi/ScsiPortWmiFireLogicalUnitEvent"
+ - "ScsiPortWmiFireLogicalUnitEvent"
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

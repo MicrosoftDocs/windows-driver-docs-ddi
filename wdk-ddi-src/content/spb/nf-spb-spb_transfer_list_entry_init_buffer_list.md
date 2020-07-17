@@ -10,6 +10,7 @@ keywords: ["SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function"]
 ms.keywords: SPB.spb_transfer_list_entry_init_buffer_list, SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST, SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST
 f1_keywords:
  - "spb/SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST"
+ - "SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST"
 req.header: spb.h
 req.include-header: 
 req.target-type: Desktop

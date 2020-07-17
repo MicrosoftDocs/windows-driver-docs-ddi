@@ -9,6 +9,7 @@ keywords: ["D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW structure"]
 ms.keywords: D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW, D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_95c96af9-bece-4fbe-ab6c-b8184828aa8d.xml, d3d10umddi/D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW, display.d3d10ddiarg_texcube_depthstencilview
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW"
+ - "D3D10DDIARG_TEXCUBE_DEPTHSTENCILVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

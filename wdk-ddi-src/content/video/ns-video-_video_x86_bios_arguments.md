@@ -10,6 +10,7 @@ keywords: ["_VIDEO_X86_BIOS_ARGUMENTS structure"]
 ms.keywords: "*PVIDEO_X86_BIOS_ARGUMENTS, PVIDEO_X86_BIOS_ARGUMENTS, PVIDEO_X86_BIOS_ARGUMENTS structure pointer [Display Devices], VIDEO_X86_BIOS_ARGUMENTS, VIDEO_X86_BIOS_ARGUMENTS structure [Display Devices], VIDEO_x86_BIOS_ARGUMENTS, VIDEO_x86_BIOS_ARGUMENTS structure [Display Devices], Video_Structs_6e82199c-1448-483c-ab53-73590564b165.xml, _VIDEO_X86_BIOS_ARGUMENTS, display.video_x86_bios_arguments, video/PVIDEO_X86_BIOS_ARGUMENTS, video/VIDEO_X86_BIOS_ARGUMENTS"
 f1_keywords:
  - "video/VIDEO_X86_BIOS_ARGUMENTS"
+ - "VIDEO_X86_BIOS_ARGUMENTS"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Windows

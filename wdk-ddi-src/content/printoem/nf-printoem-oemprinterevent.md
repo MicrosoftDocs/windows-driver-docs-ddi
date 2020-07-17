@@ -10,6 +10,7 @@ keywords: ["OEMPrinterEvent function"]
 ms.keywords: OEMPrinterEvent, OEMPrinterEvent function [Print Devices], print.oemprinterevent, print_obsoletefunctions_0eaf5d52-f558-401d-a06f-80925e997e3a.xml, printoem/OEMPrinterEvent
 f1_keywords:
  - "printoem/OEMPrinterEvent"
+ - "OEMPrinterEvent"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

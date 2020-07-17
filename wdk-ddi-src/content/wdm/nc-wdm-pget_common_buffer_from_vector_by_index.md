@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX callback function"]
 f1_keywords:
  - "wdm/PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX"
+ - "PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX"
 req.header: wdm.h
 req.include-header:
 req.target-type:

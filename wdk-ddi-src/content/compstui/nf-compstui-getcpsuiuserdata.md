@@ -10,6 +10,7 @@ keywords: ["GetCPSUIUserData function"]
 ms.keywords: GetCPSUIUserData, GetCPSUIUserData function [Print Devices], compstui/GetCPSUIUserData, cpsuifnc_78057e6d-1a47-4b92-9d43-881ab0935169.xml, print.getcpsuiuserdata
 f1_keywords:
  - "compstui/GetCPSUIUserData"
+ - "GetCPSUIUserData"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Desktop

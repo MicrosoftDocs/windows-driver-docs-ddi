@@ -10,6 +10,7 @@ keywords: ["IWDFDeviceInitialize::RetrieveDeviceInstanceId"]
 ms.keywords: IWDFDeviceInitialize interface,RetrieveDeviceInstanceId method, IWDFDeviceInitialize.RetrieveDeviceInstanceId, IWDFDeviceInitialize::RetrieveDeviceInstanceId, RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId method,IWDFDeviceInitialize interface, UMDFDeviceObjectRef_b383227b-ba03-4c85-9517-bb87eac631ef.xml, umdf.iwdfdeviceinitialize_retrievedeviceinstanceid, wdf.iwdfdeviceinitialize_retrievedeviceinstanceid, wudfddi/IWDFDeviceInitialize::RetrieveDeviceInstanceId
 f1_keywords:
  - "wudfddi/IWDFDeviceInitialize.RetrieveDeviceInstanceId"
+ - "IWDFDeviceInitialize.RetrieveDeviceInstanceId"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

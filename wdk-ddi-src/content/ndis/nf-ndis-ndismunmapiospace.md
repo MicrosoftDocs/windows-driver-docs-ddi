@@ -10,6 +10,7 @@ keywords: ["NdisMUnmapIoSpace function"]
 ms.keywords: NdisMUnmapIoSpace, NdisMUnmapIoSpace function [Network Drivers Starting with Windows Vista], miniport_memory_mapped_ref_b10c4068-0218-4349-8d87-5a9d9a32aac7.xml, ndis/NdisMUnmapIoSpace, netvista.ndismunmapiospace
 f1_keywords:
  - "ndis/NdisMUnmapIoSpace"
+ - "NdisMUnmapIoSpace"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

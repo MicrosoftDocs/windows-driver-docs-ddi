@@ -10,6 +10,7 @@ keywords: ["StorPortAllocateMdl function"]
 ms.keywords: StorPortAllocateMdl, StorPortAllocateMdl routine [Storage Devices], storage.storportallocatemdl, storport/StorPortAllocateMdl, storprt_d80c510f-4cc4-4687-ab5b-9b9b5cf399ce.xml
 f1_keywords:
  - "storport/StorPortAllocateMdl"
+ - "StorPortAllocateMdl"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

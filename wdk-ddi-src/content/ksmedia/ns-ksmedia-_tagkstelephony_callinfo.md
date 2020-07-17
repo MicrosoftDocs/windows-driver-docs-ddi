@@ -10,6 +10,7 @@ keywords: ["_tagKSTELEPHONY_CALLINFO structure"]
 ms.keywords: "*PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO structure [Audio Devices], PKSTELEPHONY_CALLINFO, PKSTELEPHONY_CALLINFO structure pointer [Audio Devices], _tagKSTELEPHONY_CALLINFO, audio.kstelephony_callinfo, ksmedia/KSTELEPHONY_CALLINFO, ksmedia/PKSTELEPHONY_CALLINFO"
 f1_keywords:
  - "ksmedia/KSTELEPHONY_CALLINFO"
+ - "KSTELEPHONY_CALLINFO"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

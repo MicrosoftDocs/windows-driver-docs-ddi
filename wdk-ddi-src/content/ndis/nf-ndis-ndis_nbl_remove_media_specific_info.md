@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO macro"]
 f1_keywords:
  - "ndis/NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO"
+ - "NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO"
 ms.keywords: NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO
 req.header: ndis.h
 req.include-header:

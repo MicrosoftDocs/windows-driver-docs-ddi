@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_STOP_BREADCRUMBING IOCTL"]
 ms.keywords: IOCTL_GNSS_STOP_BREADCRUMBING, IOCTL_GNSS_STOP_BREADCRUMBING control, IOCTL_GNSS_STOP_BREADCRUMBING control code [Sensor Devices], gnss.ioctl_gnss_stop_breadcrumbing, gnssdriver/IOCTL_GNSS_STOP_BREADCRUMBING
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_STOP_BREADCRUMBING"
+ - "IOCTL_GNSS_STOP_BREADCRUMBING"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

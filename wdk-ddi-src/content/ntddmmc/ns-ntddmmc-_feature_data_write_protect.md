@@ -10,6 +10,7 @@ keywords: ["_FEATURE_DATA_WRITE_PROTECT structure"]
 ms.keywords: "*PFEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT structure [Storage Devices], PFEATURE_DATA_WRITE_PROTECT, PFEATURE_DATA_WRITE_PROTECT structure pointer [Storage Devices], _FEATURE_DATA_WRITE_PROTECT, ntddmmc/FEATURE_DATA_WRITE_PROTECT, ntddmmc/PFEATURE_DATA_WRITE_PROTECT, storage.feature_data_write_protect, structs-CD-ROM_67c6f24f-271e-4452-8b5f-fc6719c1d291.xml"
 f1_keywords:
  - "ntddmmc/FEATURE_DATA_WRITE_PROTECT"
+ - "FEATURE_DATA_WRITE_PROTECT"
 req.header: ntddmmc.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

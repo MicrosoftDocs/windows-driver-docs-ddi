@@ -10,6 +10,7 @@ keywords: ["USBD_CreateHandle function"]
 ms.keywords: USBD_CreateHandle, USBD_CreateHandle routine [Buses], buses.usbd_register, usbdlib/USBD_CreateHandle
 f1_keywords:
  - "usbdlib/USBD_CreateHandle"
+ - "USBD_CreateHandle"
 req.header: usbdlib.h
 req.include-header: usbdlib.h, usb.h
 req.target-type: Desktop

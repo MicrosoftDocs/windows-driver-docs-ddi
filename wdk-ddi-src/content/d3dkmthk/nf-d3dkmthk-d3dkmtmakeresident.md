@@ -9,6 +9,7 @@ keywords: ["D3DKMTMakeResident function"]
 ms.keywords: D3DKMTMakeResident, D3DKMTMakeResident function [Display Devices], d3dkmthk/D3DKMTMakeResident, display.d3dkmtmakeresident
 f1_keywords:
  - "d3dkmthk/D3DKMTMakeResident"
+ - "D3DKMTMakeResident"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

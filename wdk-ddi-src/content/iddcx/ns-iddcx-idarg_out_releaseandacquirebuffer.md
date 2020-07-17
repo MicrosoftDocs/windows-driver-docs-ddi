@@ -10,6 +10,7 @@ keywords: ["IDARG_OUT_RELEASEANDACQUIREBUFFER structure"]
 ms.keywords: IDARG_OUT_RELEASEANDACQUIREBUFFER, IDARG_OUT_RELEASEANDACQUIREBUFFER structure [Display Devices], display.idarg_out_releaseandacquirebuffer, iddcx/IDARG_OUT_RELEASEANDACQUIREBUFFER
 f1_keywords:
  - "iddcx/IDARG_OUT_RELEASEANDACQUIREBUFFER"
+ - "IDARG_OUT_RELEASEANDACQUIREBUFFER"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

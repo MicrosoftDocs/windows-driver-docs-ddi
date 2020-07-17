@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["ACPI_OP_REGION_CALLBACK callback function"]
 f1_keywords:
  - "oprghdlr/ACPI_OP_REGION_CALLBACK"
+ - "ACPI_OP_REGION_CALLBACK"
 req.header: oprghdlr.h
 req.include-header:
 req.target-type:

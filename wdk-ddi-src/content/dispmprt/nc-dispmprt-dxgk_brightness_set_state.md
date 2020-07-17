@@ -10,6 +10,7 @@ keywords: ["DXGK_BRIGHTNESS_SET_STATE callback function"]
 ms.keywords: DXGK_BRIGHTNESS_SET_STATE, DXGK_BRIGHTNESS_SET_STATE callback, DxgkDdiSetBrightnessState, DxgkDdiSetBrightnessState callback function [Display Devices], display.dxgkddisetbrightnessstate, dispmprt/DxgkDdiSetBrightnessState
 f1_keywords:
  - "dispmprt/DxgkDdiSetBrightnessState"
+ - "DxgkDdiSetBrightnessState"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

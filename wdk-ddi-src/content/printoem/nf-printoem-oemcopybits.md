@@ -10,6 +10,7 @@ keywords: ["OEMCopyBits function"]
 ms.keywords: OEMCopyBits, OEMCopyBits function [Print Devices], print.oemcopybits, print_unidrv-pscript_rendering_fbf15e40-01e8-4207-b130-b152a225025e.xml, printoem/OEMCopyBits
 f1_keywords:
  - "printoem/OEMCopyBits"
+ - "OEMCopyBits"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfPdoInitSetDefaultLocale function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_12f9db03-8d4b-4ce4-9cde-0081884c6b9c.xml, WdfPdoInitSetDefaultLocale, WdfPdoInitSetDefaultLocale method, kmdf.wdfpdoinitsetdefaultlocale, wdf.wdfpdoinitsetdefaultlocale, wdfpdo/WdfPdoInitSetDefaultLocale
 f1_keywords:
  - "wdfpdo/WdfPdoInitSetDefaultLocale"
+ - "WdfPdoInitSetDefaultLocale"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

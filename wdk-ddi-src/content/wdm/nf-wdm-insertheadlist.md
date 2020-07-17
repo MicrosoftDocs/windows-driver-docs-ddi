@@ -10,6 +10,7 @@ keywords: ["InsertHeadList function"]
 ms.keywords: InsertHeadList, InsertHeadList routine [Kernel-Mode Driver Architecture], k109_dde56187-8543-45cc-97fd-3fde2475e428.xml, kernel.insertheadlist, wdm/InsertHeadList
 f1_keywords:
  - "wdm/InsertHeadList"
+ - "InsertHeadList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop

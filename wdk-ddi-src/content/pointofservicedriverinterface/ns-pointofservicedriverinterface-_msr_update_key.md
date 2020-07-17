@@ -10,6 +10,7 @@ keywords: ["_MSR_UPDATE_KEY structure"]
 ms.keywords: "*PMSR_UPDATE_KEY, MSR_UPDATE_KEY, MSR_UPDATE_KEY structure, PMSR_UPDATE_KEY, PMSR_UPDATE_KEY structure pointer, _MSR_UPDATE_KEY, pointofservicedriverinterface/MSR_UPDATE_KEY, pointofservicedriverinterface/PMSR_UPDATE_KEY, pos.msr_update_key"
 f1_keywords:
  - "pointofservicedriverinterface/MSR_UPDATE_KEY"
+ - "MSR_UPDATE_KEY"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

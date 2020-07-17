@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_DEPTHFILL structure"]
 ms.keywords: D3DDDIARG_DEPTHFILL, D3DDDIARG_DEPTHFILL structure [Display Devices], UMDisplayDriver_param_Structs_94ba7961-5956-4939-830f-eaa15aeca614.xml, _D3DDDIARG_DEPTHFILL, d3dumddi/D3DDDIARG_DEPTHFILL, display.d3dddiarg_depthfill
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DEPTHFILL"
+ - "D3DDDIARG_DEPTHFILL"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

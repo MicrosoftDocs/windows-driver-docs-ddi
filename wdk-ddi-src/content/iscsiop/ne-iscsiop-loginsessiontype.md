@@ -10,6 +10,7 @@ keywords: ["LOGINSESSIONTYPE enumeration"]
 ms.keywords: "*PLOGINSESSIONTYPE, ISCSI_LOGINTARGET_DATA, ISCSI_LOGINTARGET_DISCOVERY, ISCSI_LOGINTARGET_INFORMATIONAL, LOGINSESSIONTYPE, LOGINSESSIONTYPE enumeration [Storage Devices], PLOGINSESSIONTYPE, PLOGINSESSIONTYPE enumeration pointer [Storage Devices], iscsiop/ISCSI_LOGINTARGET_DATA, iscsiop/ISCSI_LOGINTARGET_DISCOVERY, iscsiop/ISCSI_LOGINTARGET_INFORMATIONAL, iscsiop/LOGINSESSIONTYPE, iscsiop/PLOGINSESSIONTYPE, storage.loginsessiontype, structs-iSCSI_4af9bc0f-391e-442a-9d45-6819d130cfc0.xml"
 f1_keywords:
  - "iscsiop/LOGINSESSIONTYPE"
+ - "LOGINSESSIONTYPE"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

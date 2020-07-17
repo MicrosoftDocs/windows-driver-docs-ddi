@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_DISPLAYMODELIST structure"]
 ms.keywords: D3DKMT_DISPLAYMODELIST, D3DKMT_DISPLAYMODELIST structure [Display Devices], _D3DKMT_DISPLAYMODELIST, d3dkmthk/D3DKMT_DISPLAYMODELIST, display.d3dkmt_displaymodelist
 f1_keywords:
  - "d3dkmthk/D3DKMT_DISPLAYMODELIST"
+ - "D3DKMT_DISPLAYMODELIST"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

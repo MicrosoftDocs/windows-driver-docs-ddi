@@ -9,6 +9,7 @@ keywords: ["D3DKMTOpenSynchronizationObject function"]
 ms.keywords: D3DKMTOpenSynchronizationObject, D3DKMTOpenSynchronizationObject function [Display Devices], OpenGL_Functions_c6ae5181-a478-47d7-8f0c-49f4f5a7f318.xml, d3dkmthk/D3DKMTOpenSynchronizationObject, display.d3dkmtopensynchronizationobject
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenSynchronizationObject"
+ - "D3DKMTOpenSynchronizationObject"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_COMPOSERECTS structure"]
 ms.keywords: D3DDDIARG_COMPOSERECTS, D3DDDIARG_COMPOSERECTS structure [Display Devices], UMDisplayDriver_param_Structs_2f10ffa4-f55f-490b-9aa4-08c0c3e3d924.xml, _D3DDDIARG_COMPOSERECTS, d3dumddi/D3DDDIARG_COMPOSERECTS, display.d3dddiarg_composerects
 f1_keywords:
  - "d3dumddi/D3DDDIARG_COMPOSERECTS"
+ - "D3DDDIARG_COMPOSERECTS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION structure"]
 ms.keywords: "*PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure [Network Drivers Starting with Windows Vista], PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION, ndis/NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis/PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis_netbuf_structures_ref_d272f589-0af5-458e-8238-5ba58858ccc0.xml, netvista.ndis_nbl_media_specific_information"
 f1_keywords:
  - "ndis/NDIS_NBL_MEDIA_SPECIFIC_INFORMATION"
+ - "NDIS_NBL_MEDIA_SPECIFIC_INFORMATION"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

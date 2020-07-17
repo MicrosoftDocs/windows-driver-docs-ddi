@@ -10,6 +10,7 @@ keywords: ["NfcCxSetRfDiscoveryConfig function"]
 ms.keywords: NfcCxSetRfDiscoveryConfig, NfcCxSetRfDiscoveryConfig method [Near-Field Proximity Drivers], nfccx/NfcCxSetRfDiscoveryConfig, nfpdrivers._nfccxsetrfdiscoveryconfig
 f1_keywords:
  - "nfccx/NfcCxSetRfDiscoveryConfig"
+ - "NfcCxSetRfDiscoveryConfig"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows

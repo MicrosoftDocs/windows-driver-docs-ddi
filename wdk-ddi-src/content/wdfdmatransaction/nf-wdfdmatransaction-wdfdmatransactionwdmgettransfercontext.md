@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionWdmGetTransferContext function"]
 ms.keywords: WdfDmaTransactionWdmGetTransferContext, WdfDmaTransactionWdmGetTransferContext method, kmdf.wdfdmatransactionwdmgettransfercontext, wdf.wdfdmatransactionwdmgettransfercontext, wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext"
+ - "WdfDmaTransactionWdmGetTransferContext"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

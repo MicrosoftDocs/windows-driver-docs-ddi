@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["USBPM_CLIENT_CONFIG_INIT function"]
 f1_keywords:
  - "usbpmapi/USBPM_CLIENT_CONFIG_INIT"
+ - "USBPM_CLIENT_CONFIG_INIT"
 ms.keywords: USBPM_CLIENT_CONFIG_INIT
 tech.root: usbref
 req.header: usbpmapi.h

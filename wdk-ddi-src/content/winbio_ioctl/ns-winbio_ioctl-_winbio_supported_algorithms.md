@@ -10,6 +10,7 @@ keywords: ["_WINBIO_SUPPORTED_ALGORITHMS structure"]
 ms.keywords: "*PWINBIO_SUPPORTED_ALGORITHMS, PWINBIO_SUPPORTED_ALGORITHMS, PWINBIO_SUPPORTED_ALGORITHMS structure pointer [Biometric Devices], WINBIO_SUPPORTED_ALGORITHMS, WINBIO_SUPPORTED_ALGORITHMS structure [Biometric Devices], _WINBIO_SUPPORTED_ALGORITHMS, biometric.winbio_supported_algorithms, biometric_ref_44bbda1a-1b9b-42d3-9034-9d0c3c4bac88.xml, winbio_ioctl/PWINBIO_SUPPORTED_ALGORITHMS, winbio_ioctl/WINBIO_SUPPORTED_ALGORITHMS"
 f1_keywords:
  - "winbio_ioctl/WINBIO_SUPPORTED_ALGORITHMS"
+ - "WINBIO_SUPPORTED_ALGORITHMS"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows

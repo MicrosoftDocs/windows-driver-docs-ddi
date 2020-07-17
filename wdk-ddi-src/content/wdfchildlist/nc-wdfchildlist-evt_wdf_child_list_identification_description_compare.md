@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COMPARE callback funct
 ms.keywords: DFDeviceObjectChildListRef_58ed75b3-f129-4cfb-8d36-577b1cb8ffa0.xml, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COMPARE, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COMPARE callback, EvtChildListIdentificationDescriptionCompare, EvtChildListIdentificationDescriptionCompare callback function, kmdf.evtchildlistidentificationdescriptioncompare, wdf.evtchildlistidentificationdescriptioncompare, wdfchildlist/EvtChildListIdentificationDescriptionCompare
 f1_keywords:
  - "wdfchildlist/EvtChildListIdentificationDescriptionCompare"
+ - "EvtChildListIdentificationDescriptionCompare"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

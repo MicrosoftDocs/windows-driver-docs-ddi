@@ -10,6 +10,7 @@ keywords: ["_NDK_SRQ_DISPATCH structure"]
 ms.keywords: NDK_SRQ_DISPATCH, NDK_SRQ_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_SRQ_DISPATCH, ndkpi/NDK_SRQ_DISPATCH, netvista.ndk_srq_dispatch
 f1_keywords:
  - "ndkpi/NDK_SRQ_DISPATCH"
+ - "NDK_SRQ_DISPATCH"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

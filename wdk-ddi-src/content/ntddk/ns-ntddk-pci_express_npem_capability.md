@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - ntddk/_PCI_EXPRESS_NPEM_CAPABILITY
  - ntddk/PCI_EXPRESS_NPEM_CAPABILITY
+ - ""
 dev_langs:
  - c++
 ---

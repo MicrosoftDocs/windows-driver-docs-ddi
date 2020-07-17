@@ -7,6 +7,7 @@ ms.date: 10/02/2018
 keywords: ["_ACPI_PLD_VERTICAL_POSITION enumeration"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_VERTICAL_POSITION"
+ - "_ACPI_PLD_VERTICAL_POSITION"
 ms.keywords: _ACPI_PLD_VERTICAL_POSITION, ACPI_PLD_VERTICAL_POSITION, *PACPI_PLD_VERTICAL_POSITION, AcpiPldVPos
 req.header: acpitabl.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["VideoPortGetRomImage function"]
 ms.keywords: VideoPortGetRomImage, VideoPortGetRomImage function [Display Devices], VideoPort_Functions_070e50af-a33d-4dc5-9bd1-9f60367f49b2.xml, display.videoportgetromimage, video/VideoPortGetRomImage
 f1_keywords:
  - "video/VideoPortGetRomImage"
+ - "VideoPortGetRomImage"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

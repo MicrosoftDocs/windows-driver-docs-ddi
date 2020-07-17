@@ -10,6 +10,7 @@ keywords: ["TapeClassLiDiv function"]
 ms.keywords: TapeClassLiDiv, TapeClassLiDiv routine [Storage Devices], minitape/TapeClassLiDiv, storage.tapeclasslidiv, tapeclas_8c5ecef8-fdd0-4889-8e3f-1bd80fe5b5c6.xml
 f1_keywords:
  - "minitape/TapeClassLiDiv"
+ - "TapeClassLiDiv"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop

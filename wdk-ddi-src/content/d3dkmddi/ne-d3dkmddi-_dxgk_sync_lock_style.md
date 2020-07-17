@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_SYNC_LOCK_STYLE enumeration"]
 f1_keywords:
  - "d3dkmddi/_DXGK_SYNC_LOCK_STYLE"
+ - "_DXGK_SYNC_LOCK_STYLE"
 ms.keywords: _DXGK_SYNC_LOCK_STYLE, DXGK_SYNC_LOCK_STYLE,
 req.header: d3dkmddi.h
 req.include-header:

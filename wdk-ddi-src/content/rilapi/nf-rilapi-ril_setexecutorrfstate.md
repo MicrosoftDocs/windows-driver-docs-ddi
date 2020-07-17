@@ -10,6 +10,7 @@ keywords: ["RIL_SetExecutorRFState function"]
 ms.keywords: RIL_SetExecutorRFState, RIL_SetExecutorRFState method [Network Drivers Starting with Windows Vista], netvista.ril_setexecutorrfstate, rilapi/RIL_SetExecutorRFState
 f1_keywords:
  - "rilapi/RIL_SetExecutorRFState"
+ - "RIL_SetExecutorRFState"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

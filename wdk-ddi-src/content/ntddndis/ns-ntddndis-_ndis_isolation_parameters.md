@@ -10,6 +10,7 @@ keywords: ["_NDIS_ISOLATION_PARAMETERS structure"]
 ms.keywords: "*PNDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_ISOLATION_PARAMETERS, PNDIS_ISOLATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ISOLATION_PARAMETERS, netvista.ndis_isolation_parameters, ntddndis/NDIS_ISOLATION_PARAMETERS, ntddndis/PNDIS_ISOLATION_PARAMETERS"
 f1_keywords:
  - "ntddndis/NDIS_ISOLATION_PARAMETERS"
+ - "NDIS_ISOLATION_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

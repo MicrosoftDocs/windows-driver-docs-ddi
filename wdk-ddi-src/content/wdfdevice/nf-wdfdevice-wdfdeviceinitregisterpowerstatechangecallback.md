@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitRegisterPowerStateChangeCallback function"]
 ms.keywords: DFDeviceObjectGeneralRef_c2199058-308e-4207-b035-30de28c64fa5.xml, WdfDeviceInitRegisterPowerStateChangeCallback, WdfDeviceInitRegisterPowerStateChangeCallback method, kmdf.wdfdeviceinitregisterpowerstatechangecallback, wdf.wdfdeviceinitregisterpowerstatechangecallback, wdfdevice/WdfDeviceInitRegisterPowerStateChangeCallback
 f1_keywords:
  - "wdfdevice/WdfDeviceInitRegisterPowerStateChangeCallback"
+ - "WdfDeviceInitRegisterPowerStateChangeCallback"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

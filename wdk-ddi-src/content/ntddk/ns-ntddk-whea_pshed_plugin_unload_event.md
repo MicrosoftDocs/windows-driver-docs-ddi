@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - ntddk/_WHEA_PSHED_PLUGIN_UNLOAD_EVENT
  - ntddk/WHEA_PSHED_PLUGIN_UNLOAD_EVENT
+ - ""
 dev_langs:
  - c++
 ---

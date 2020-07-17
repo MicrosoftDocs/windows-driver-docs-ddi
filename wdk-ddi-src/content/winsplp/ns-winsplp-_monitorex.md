@@ -10,6 +10,7 @@ keywords: ["_MONITOREX structure"]
 ms.keywords: "*LPMONITOREX, LPMONITOREX, LPMONITOREX structure pointer [Print Devices], MONITOREX, MONITOREX structure [Print Devices], _MONITOREX, print.monitorex, spoolfnc_4910913b-826e-4947-8186-7737d7b3c3fa.xml, winsplp/LPMONITOREX, winsplp/MONITOREX"
 f1_keywords:
  - "winsplp/MONITOREX"
+ - "MONITOREX"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::SetUnsignedLargeIntegerValue"]
 ms.keywords: IPortableDeviceValues interface,SetUnsignedLargeIntegerValue method, IPortableDeviceValues.SetUnsignedLargeIntegerValue, IPortableDeviceValues::SetUnsignedLargeIntegerValue, IPortableDeviceValuesSetUnsignedLargeIntegerValue, SetUnsignedLargeIntegerValue, SetUnsignedLargeIntegerValue method, SetUnsignedLargeIntegerValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetUnsignedLargeIntegerValue, wpddk.iportabledevicevalues_setunsignedlargeintegervalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.SetUnsignedLargeIntegerValue"
+ - "IPortableDeviceValues.SetUnsignedLargeIntegerValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

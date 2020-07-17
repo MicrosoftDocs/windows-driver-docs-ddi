@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_ROOTHUB_GET_INFO callback function"]
 ms.keywords: EVT_UCX_ROOTHUB_GET_INFO, EVT_UCX_ROOTHUB_GET_INFO callback, EvtUcxRootHubGetInfo, EvtUcxRootHubGetInfo callback function [Buses], PEVT_UCX_ROOTHUB_GET_INFO, PEVT_UCX_ROOTHUB_GET_INFO callback function pointer [Buses], buses.evt_ucx_roothub_get_info, ucxroothub/EvtUcxRootHubGetInfo
 f1_keywords:
  - "ucxroothub/PEVT_UCX_ROOTHUB_GET_INFO"
+ - "PEVT_UCX_ROOTHUB_GET_INFO"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_UCX_CONTROLLER_STATE enumeration"]
 ms.keywords: UCX_CONTROLLER_STATE, UCX_CONTROLLER_STATE enumeration [Buses], UcxControllerStateLost, UcxControllerStatePreserved, _UCX_CONTROLLER_STATE, buses.ucx_controller_state, ucxcontroller/UCX_CONTROLLER_STATE, ucxcontroller/UcxControllerStateLost, ucxcontroller/UcxControllerStatePreserved
 f1_keywords:
  - "ucxcontroller/UCX_CONTROLLER_STATE"
+ - "UCX_CONTROLLER_STATE"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

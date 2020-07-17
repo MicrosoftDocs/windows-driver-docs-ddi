@@ -10,6 +10,7 @@ keywords: ["IoAcquireRemoveLock macro"]
 ms.keywords: IoAcquireRemoveLock, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, kernel.ioacquireremovelock, wdm/IoAcquireRemoveLock
 f1_keywords:
  - "wdm/IoAcquireRemoveLock"
+ - "IoAcquireRemoveLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

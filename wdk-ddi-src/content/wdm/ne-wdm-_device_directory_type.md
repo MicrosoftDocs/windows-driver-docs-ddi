@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DEVICE_DIRECTORY_TYPE enumeration"]
 f1_keywords:
  - "wdm/_DEVICE_DIRECTORY_TYPE"
+ - "_DEVICE_DIRECTORY_TYPE"
 ms.keywords: _DEVICE_DIRECTORY_TYPE, DEVICE_DIRECTORY_TYPE, *PDEVICE_DIRECTORY_TYPE, 
 req.header: wdm.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["WdfDeviceRetrieveCompanionTarget function"]
 ms.keywords: WdfDeviceRetrieveCompanionTarget, WdfDeviceRetrieveCompanionTarget method, wdf.wdfdeviceretrievecompaniontarget, wdfdevice/WdfDeviceRetrieveCompanionTarget
 f1_keywords:
  - "wdfdevice/WdfDeviceRetrieveCompanionTarget"
+ - "WdfDeviceRetrieveCompanionTarget"
 req.header: wdfdevice.h
 req.include-header: 
 req.target-type: Windows

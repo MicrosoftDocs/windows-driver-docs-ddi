@@ -10,6 +10,7 @@ keywords: ["_WWAN_MODEM_CONFIG_INFO structure"]
 ms.keywords: "*PWWAN_MODEM_CONFIG_INFO, PWWAN_MODEM_CONFIG_INFO, PWWAN_MODEM_CONFIG_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_INFO, WWAN_MODEM_CONFIG_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_MODEM_CONFIG_INFO, netvista.wwan_modem_config_info, wwan/PWWAN_MODEM_CONFIG_INFO, wwan/WWAN_MODEM_CONFIG_INFO"
 f1_keywords:
  - "wwan/WWAN_MODEM_CONFIG_INFO"
+ - "WWAN_MODEM_CONFIG_INFO"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

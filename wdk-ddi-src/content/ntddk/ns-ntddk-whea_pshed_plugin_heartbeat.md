@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - ntddk/_WHEA_PSHED_PLUGIN_HEARTBEAT
  - ntddk/WHEA_PSHED_PLUGIN_HEARTBEAT
+ - ""
 dev_langs:
  - c++
 ---

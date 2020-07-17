@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::CallExtension"]
 ms.keywords: CallExtension, CallExtension method [Windows Debugging], CallExtension method [Windows Debugging],IDebugControl interface, CallExtension method [Windows Debugging],IDebugControl2 interface, CallExtension method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],CallExtension method, IDebugControl2 interface [Windows Debugging],CallExtension method, IDebugControl2.CallExtension, IDebugControl2::CallExtension, IDebugControl3 interface [Windows Debugging],CallExtension method, IDebugControl3::CallExtension, IDebugControl::CallExtension, IDebugControl_c37b420a-b94b-4d54-8a5a-2e1a74b49f26.xml, dbgeng/IDebugControl2::CallExtension, dbgeng/IDebugControl3::CallExtension, dbgeng/IDebugControl::CallExtension, debugger.callextension
 f1_keywords:
  - "dbgeng/IDebugControl.CallExtension"
+ - "IDebugControl.CallExtension"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["SerCx2SystemDmaReceiveGetDmaEnabler function"]
 ms.keywords: 2/SerCx2SystemDmaReceiveGetDmaEnabler, SerCx2SystemDmaReceiveGetDmaEnabler, SerCx2SystemDmaReceiveGetDmaEnabler method [Serial Ports], serports.sercx2systemdmareceivegetdmaenabler
 f1_keywords:
  - "sercx/SerCx2SystemDmaReceiveGetDmaEnabler"
+ - "SerCx2SystemDmaReceiveGetDmaEnabler"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

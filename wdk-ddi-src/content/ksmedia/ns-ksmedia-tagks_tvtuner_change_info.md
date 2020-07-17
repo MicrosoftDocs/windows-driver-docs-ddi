@@ -10,6 +10,7 @@ keywords: ["tagKS_TVTUNER_CHANGE_INFO structure"]
 ms.keywords: "*PKS_TVTUNER_CHANGE_INFO, KS_TVTUNER_CHANGE_INFO, KS_TVTUNER_CHANGE_INFO structure [Streaming Media Devices], PKS_TVTUNER_CHANGE_INFO, PKS_TVTUNER_CHANGE_INFO structure pointer [Streaming Media Devices], ksmedia/KS_TVTUNER_CHANGE_INFO, ksmedia/PKS_TVTUNER_CHANGE_INFO, stream.ks_tvtuner_change_info, tagKS_TVTUNER_CHANGE_INFO, vidcapstruct_225fdabf-bdaf-49df-a2e3-ace62a0a17e2.xml"
 f1_keywords:
  - "ksmedia/KS_TVTUNER_CHANGE_INFO"
+ - "KS_TVTUNER_CHANGE_INFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

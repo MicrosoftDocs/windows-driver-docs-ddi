@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptableStream::Commit"]
 ms.keywords: Commit, Commit method [Print Devices], Commit method [Print Devices],IPrinterScriptableStream interface, IPrinterScriptableStream interface [Print Devices],Commit method, IPrinterScriptableStream.Commit, IPrinterScriptableStream::Commit, print.iprinterscriptablestream__commit, printerextension/IPrinterScriptableStream::Commit
 f1_keywords:
  - "printerextension/IPrinterScriptableStream.Commit"
+ - "IPrinterScriptableStream.Commit"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

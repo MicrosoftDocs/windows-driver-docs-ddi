@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTUpdateAllocationProperty function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTUpdateAllocationProperty"
+ - "D3DKMTUpdateAllocationProperty"
 ms.keywords: D3DKMTUpdateAllocationProperty
 req.header: d3dkmthk.h
 req.include-header:

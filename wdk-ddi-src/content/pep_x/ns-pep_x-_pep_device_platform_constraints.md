@@ -10,6 +10,7 @@ keywords: ["_PEP_DEVICE_PLATFORM_CONSTRAINTS structure"]
 ms.keywords: "*PPEP_DEVICE_PLATFORM_CONSTRAINTS, PEP_DEVICE_PLATFORM_CONSTRAINTS, PEP_DEVICE_PLATFORM_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_PLATFORM_CONSTRAINTS, PPEP_DEVICE_PLATFORM_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_PLATFORM_CONSTRAINTS, kernel.pep_device_platform_constraints, pepfx/PEP_DEVICE_PLATFORM_CONSTRAINTS, pepfx/PPEP_DEVICE_PLATFORM_CONSTRAINTS"
 f1_keywords:
  - "pep_x/PEP_DEVICE_PLATFORM_CONSTRAINTS"
+ - "PEP_DEVICE_PLATFORM_CONSTRAINTS"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_GET_LOCAL_HOST_INFO6 structure"]
 ms.keywords: "*PGET_LOCAL_HOST_INFO6, 1394/GET_LOCAL_HOST_INFO6, 1394/PGET_LOCAL_HOST_INFO6, 1394stct_90799b58-816d-4624-a194-6b42d64b903c.xml, GET_LOCAL_HOST_INFO6, GET_LOCAL_HOST_INFO6 structure [Buses], IEEE.get_local_host_info6, PGET_LOCAL_HOST_INFO6, PGET_LOCAL_HOST_INFO6 structure pointer [Buses], _GET_LOCAL_HOST_INFO6"
 f1_keywords:
  - "1394/GET_LOCAL_HOST_INFO6"
+ - "GET_LOCAL_HOST_INFO6"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows

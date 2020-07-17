@@ -10,6 +10,7 @@ keywords: ["StorPortInitializeWorker function"]
 ms.keywords: StorPortInitializeWorker, StorPortInitializeWorker routine [Storage Devices], storage.storportinitializeworker, storport/StorPortInitializeWorker
 f1_keywords:
  - "storport/StorPortInitializeWorker"
+ - "StorPortInitializeWorker"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

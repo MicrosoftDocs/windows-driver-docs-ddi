@@ -10,6 +10,7 @@ keywords: ["RtlIntPtrToUnicodeString macro"]
 ms.keywords: RtlIntPtrToUnicodeString, RtlIntPtrToUnicodeString routine [Kernel-Mode Driver Architecture], k109_8ec9aafc-288e-4814-a22b-8b8e973689be.xml, kernel.rtlintptrtounicodestring, wdm/RtlIntPtrToUnicodeString
 f1_keywords:
  - "wdm/RtlIntPtrToUnicodeString"
+ - "RtlIntPtrToUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop

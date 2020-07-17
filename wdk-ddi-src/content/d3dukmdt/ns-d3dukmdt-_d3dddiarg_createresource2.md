@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_CREATERESOURCE2 structure"]
 ms.keywords: D3DDDIARG_CREATERESOURCE2, D3DDDIARG_CREATERESOURCE2 structure [Display Devices], _D3DDDIARG_CREATERESOURCE2, d3dukmdt/D3DDDIARG_CREATERESOURCE2, display.d3dddiarg_createresource2
 f1_keywords:
  - "d3dukmdt/D3DDDIARG_CREATERESOURCE2"
+ - "D3DDDIARG_CREATERESOURCE2"
 req.header: d3dukmdt.h
 req.include-header: D3dukmdt.h, D3dkmddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["FsRtlRemovePerFileContext function"]
 ms.keywords: FsRtlRemovePerFileContext, FsRtlRemovePerFileContext routine [Installable File System Drivers], fsrtlref_90f829b2-a8ed-44fd-adb3-61c57f5f9aad.xml, ifsk.fsrtlremoveperfilecontext, ntifs/FsRtlRemovePerFileContext
 f1_keywords:
  - "ntifs/FsRtlRemovePerFileContext"
+ - "FsRtlRemovePerFileContext"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

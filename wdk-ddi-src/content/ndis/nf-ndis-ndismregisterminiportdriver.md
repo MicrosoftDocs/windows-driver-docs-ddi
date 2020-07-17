@@ -10,6 +10,7 @@ keywords: ["NdisMRegisterMiniportDriver function"]
 ms.keywords: NdisMRegisterMiniportDriver, NdisMRegisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_d6406d6d-f738-4f65-90af-38038b188cc7.xml, ndis/NdisMRegisterMiniportDriver, netvista.ndismregisterminiportdriver
 f1_keywords:
  - "ndis/NdisMRegisterMiniportDriver"
+ - "NdisMRegisterMiniportDriver"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["ReadIoSpaceEx function"]
 ms.keywords: ReadIoSpaceEx, ReadIoSpaceEx function [Windows Debugging], WdbgExts_Ref_96fa3635-35d1-4d58-835a-96754480170a.xml, debugger.readiospaceex, wdbgexts/ReadIoSpaceEx
 f1_keywords:
  - "wdbgexts/ReadIoSpaceEx"
+ - "ReadIoSpaceEx"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

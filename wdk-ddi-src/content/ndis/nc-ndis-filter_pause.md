@@ -10,6 +10,7 @@ keywords: ["FILTER_PAUSE callback function"]
 ms.keywords: FILTER_PAUSE, FILTER_PAUSE callback, FilterPause, FilterPause callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_2f28fa9f-47cb-4638-b673-e938872f54f1.xml, ndis/FilterPause, netvista.filterpause
 f1_keywords:
  - "ndis/FilterPause"
+ - "FilterPause"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

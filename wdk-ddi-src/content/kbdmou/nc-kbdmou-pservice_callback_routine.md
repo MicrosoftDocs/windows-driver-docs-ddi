@@ -10,6 +10,7 @@ keywords: ["PSERVICE_CALLBACK_ROUTINE callback function"]
 ms.keywords: ClassServiceCallback, ClassServiceCallback callback function [Human Input Devices], PSERVICE_CALLBACK_ROUTINE, PSERVICE_CALLBACK_ROUTINE callback, hid.kbdclass_class_service_callback_routine, kbdmou/ClassServiceCallback, kref_c3fa9125-0bc4-4936-b4e5-eb4e5eee23e2.xml
 f1_keywords:
  - "kbdmou/ClassServiceCallback"
+ - "ClassServiceCallback"
 req.header: kbdmou.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["PAGP_FREE_PHYSICAL callback function"]
 ms.keywords: AgpFreePhysical, AgpFreePhysical callback function [Display Devices], PAGP_FREE_PHYSICAL, PAGP_FREE_PHYSICAL callback, VideoPort_Functions_cc6360b5-12f9-4c49-bb06-d86ada229b9e.xml, display.agpfreephysical, videoagp/AgpFreePhysical
 f1_keywords:
  - "videoagp/AgpFreePhysical"
+ - "AgpFreePhysical"
 req.header: videoagp.h
 req.include-header: Video.h
 req.target-type: Desktop

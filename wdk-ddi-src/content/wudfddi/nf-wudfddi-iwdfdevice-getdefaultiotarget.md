@@ -10,6 +10,7 @@ keywords: ["IWDFDevice::GetDefaultIoTarget"]
 ms.keywords: GetDefaultIoTarget, GetDefaultIoTarget method, GetDefaultIoTarget method,IWDFDevice interface, IWDFDevice interface,GetDefaultIoTarget method, IWDFDevice.GetDefaultIoTarget, IWDFDevice::GetDefaultIoTarget, UMDFDeviceObjectRef_33807b94-79d4-4bb9-85a4-69de9d7c33dc.xml, umdf.iwdfdevice_getdefaultiotarget, wdf.iwdfdevice_getdefaultiotarget, wudfddi/IWDFDevice::GetDefaultIoTarget
 f1_keywords:
  - "wudfddi/IWDFDevice.GetDefaultIoTarget"
+ - "IWDFDevice.GetDefaultIoTarget"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

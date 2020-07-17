@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaTicket2 interface"]
 ms.keywords: IPrintSchemaTicket2, IPrintSchemaTicket2 interface [Print Devices], IPrintSchemaTicket2 interface [Print Devices],described, print.iprintschematicket2, printerextension/IPrintSchemaTicket2
 f1_keywords:
  - "printerextension/IPrintSchemaTicket2"
+ - "IPrintSchemaTicket2"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

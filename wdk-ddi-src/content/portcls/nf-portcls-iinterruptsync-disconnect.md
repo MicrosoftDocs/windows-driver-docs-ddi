@@ -10,6 +10,7 @@ keywords: ["IInterruptSync::Disconnect"]
 ms.keywords: Disconnect, Disconnect method [Audio Devices], Disconnect method [Audio Devices],IInterruptSync interface, IInterruptSync interface [Audio Devices],Disconnect method, IInterruptSync.Disconnect, IInterruptSync::Disconnect, audio.iinterruptsync_disconnect, audmp-routines_f25f0c99-96e2-4f1b-9930-e736a6394759.xml, portcls/IInterruptSync::Disconnect
 f1_keywords:
  - "portcls/IInterruptSync.Disconnect"
+ - "IInterruptSync.Disconnect"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

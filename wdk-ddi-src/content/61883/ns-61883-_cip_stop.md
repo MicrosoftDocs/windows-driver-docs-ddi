@@ -10,6 +10,7 @@ keywords: ["_CIP_STOP structure"]
 ms.keywords: "*PCIP_STOP, 61883/CIP_STOP, 61883/PCIP_STOP, CIP_STOP, CIP_STOP structure [Buses], IEEE.cip_stop, PCIP_STOP, PCIP_STOP structure pointer [Buses], _CIP_STOP"
 f1_keywords:
  - "61883/CIP_STOP"
+ - "CIP_STOP"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

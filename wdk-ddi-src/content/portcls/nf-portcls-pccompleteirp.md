@@ -10,6 +10,7 @@ keywords: ["PcCompleteIrp function"]
 ms.keywords: PcCompleteIrp, PcCompleteIrp function [Audio Devices], audio.pccompleteirp, audpc-routines_f61145f8-9e55-4b2a-a3aa-37f7be4f4df3.xml, portcls/PcCompleteIrp
 f1_keywords:
  - "portcls/PcCompleteIrp"
+ - "PcCompleteIrp"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

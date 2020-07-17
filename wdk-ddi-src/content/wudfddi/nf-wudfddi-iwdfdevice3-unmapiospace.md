@@ -10,6 +10,7 @@ keywords: ["IWDFDevice3::UnmapIoSpace"]
 ms.keywords: IWDFDevice3 interface,UnmapIoSpace method, IWDFDevice3.UnmapIoSpace, IWDFDevice3::UnmapIoSpace, UnmapIoSpace, UnmapIoSpace method, UnmapIoSpace method,IWDFDevice3 interface, umdf.iwdfdevice3_unmapiospace, wdf.iwdfdevice3_unmapiospace, wudfddi/IWDFDevice3::UnmapIoSpace
 f1_keywords:
  - "wudfddi/IWDFDevice3.UnmapIoSpace"
+ - "IWDFDevice3.UnmapIoSpace"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

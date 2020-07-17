@@ -10,6 +10,7 @@ keywords: ["ExFlushLookasideListEx function"]
 ms.keywords: ExFlushLookasideListEx, ExFlushLookasideListEx routine [Kernel-Mode Driver Architecture], k102_bb02a725-bc22-4c22-91f2-0232c1cb0f1f.xml, kernel.exflushlookasidelistex, wdm/ExFlushLookasideListEx
 f1_keywords:
  - "wdm/ExFlushLookasideListEx"
+ - "ExFlushLookasideListEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

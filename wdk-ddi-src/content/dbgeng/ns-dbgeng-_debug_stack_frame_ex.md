@@ -10,6 +10,7 @@ keywords: ["_DEBUG_STACK_FRAME_EX structure"]
 ms.keywords: "*PDEBUG_STACK_FRAME_EX, DEBUG_STACK_FRAME_EX, DEBUG_STACK_FRAME_EX structure [Windows Debugging], PDEBUG_STACK_FRAME_EX, PDEBUG_STACK_FRAME_EX structure pointer [Windows Debugging], _DEBUG_STACK_FRAME_EX, dbgeng/DEBUG_STACK_FRAME_EX, dbgeng/PDEBUG_STACK_FRAME_EX, debugger.debug_stack_frame_ex"
 f1_keywords:
  - "dbgeng/DEBUG_STACK_FRAME_EX"
+ - "DEBUG_STACK_FRAME_EX"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_DOT4_DRIVER_CMD structure"]
 ms.keywords: "*PDOT4_DRIVER_CMD, DOT4_DRIVER_CMD, DOT4_DRIVER_CMD structure [Print Devices], PDOT4_DRIVER_CMD, PDOT4_DRIVER_CMD structure pointer [Print Devices], _DOT4_DRIVER_CMD, d4drvif/DOT4_DRIVER_CMD, d4drvif/PDOT4_DRIVER_CMD, print.dot4_driver_cmd"
 f1_keywords:
  - "d4drvif/DOT4_DRIVER_CMD"
+ - "DOT4_DRIVER_CMD"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows

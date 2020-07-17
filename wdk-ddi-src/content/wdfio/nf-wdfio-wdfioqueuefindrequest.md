@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueFindRequest function"]
 ms.keywords: DFQueueObjectRef_c0d57542-6256-4502-ad31-8b388857296f.xml, WdfIoQueueFindRequest, WdfIoQueueFindRequest method, kmdf.wdfioqueuefindrequest, wdf.wdfioqueuefindrequest, wdfio/WdfIoQueueFindRequest
 f1_keywords:
  - "wdfio/WdfIoQueueFindRequest"
+ - "WdfIoQueueFindRequest"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

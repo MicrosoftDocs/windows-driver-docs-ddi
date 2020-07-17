@@ -10,6 +10,7 @@ keywords: ["EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION callback function"]
 ms.keywords: EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION, EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION callback, EvtIddCxParseMonitorDescription, EvtIddCxParseMonitorDescription callback function [Display Devices], PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION, PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION callback function pointer [Display Devices], display.evt_idd_cx_parse_monitor_description, iddcx/EvtIddCxParseMonitorDescription
 f1_keywords:
  - "iddcx/PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION"
+ - "PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

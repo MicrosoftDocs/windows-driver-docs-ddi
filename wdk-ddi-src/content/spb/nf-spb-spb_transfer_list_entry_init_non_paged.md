@@ -10,6 +10,7 @@ keywords: ["SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function"]
 ms.keywords: SPB.spb_transfer_list_entry_init_non_paged, SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED, SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
 f1_keywords:
  - "spb/SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED"
+ - "SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED"
 req.header: spb.h
 req.include-header: 
 req.target-type: Desktop

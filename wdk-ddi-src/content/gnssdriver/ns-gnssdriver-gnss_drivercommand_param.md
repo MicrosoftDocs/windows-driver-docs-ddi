@@ -10,6 +10,7 @@ keywords: ["GNSS_DRIVERCOMMAND_PARAM structure"]
 ms.keywords: "*PGNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM structure [Sensor Devices], PGNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM structure pointer [Sensor Devices], gnss.gnss_drivercommand_param, gnssdriver/GNSS_DRIVERCOMMAND_PARAM, gnssdriver/PGNSS_DRIVERCOMMAND_PARAM"
 f1_keywords:
  - "gnssdriver/GNSS_DRIVERCOMMAND_PARAM"
+ - "GNSS_DRIVERCOMMAND_PARAM"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

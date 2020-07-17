@@ -10,6 +10,7 @@ keywords: ["RtlVerifyVersionInfo function"]
 ms.keywords: RtlVerifyVersionInfo, RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture], k109_c0301686-a323-499f-ac04-3bc414b016cd.xml, kernel.rtlverifyversioninfo, wdm/RtlVerifyVersionInfo
 f1_keywords:
  - "wdm/RtlVerifyVersionInfo"
+ - "RtlVerifyVersionInfo"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Universal

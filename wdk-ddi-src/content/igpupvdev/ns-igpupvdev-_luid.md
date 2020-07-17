@@ -10,6 +10,7 @@ keywords: ["_LUID structure"]
 ms.keywords: "*PLUID, LUID, LUID structure [Network Drivers Starting with Windows Vista], PLUID, PLUID structure pointer [Network Drivers Starting with Windows Vista], _LUID, igpupvdev/LUID, igpupvdev/PLUID, netvista.luid, wfp_ref_3_struct_3_fwps_P-Z_5bb7e42d-6db8-4454-a629-b65042c4c051.xml"
 f1_keywords:
  - "igpupvdev/LUID"
+ - "LUID"
 req.header: igpupvdev.h
 req.include-header: Fwptypes.h, Fwpsk.h
 req.target-type: Windows

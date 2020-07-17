@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IIterableConcept::AddRef"]
 f1_keywords:
  - "dbgmodel/IIterableConcept.AddRef"
+ - "IIterableConcept.AddRef"
 ms.keywords: IIterableConcept::AddRef, AddRef, IIterableConcept.AddRef, IIterableConcept::AddRef, IIterableConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:

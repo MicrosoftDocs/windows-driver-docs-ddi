@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCMUCSI_CONNECTOR_INFO structure"]
 f1_keywords:
  - "ucmucsippm/_UCMUCSI_CONNECTOR_INFO"
+ - "_UCMUCSI_CONNECTOR_INFO"
 ms.keywords: _UCMUCSI_CONNECTOR_INFO, UCMUCSI_CONNECTOR_INFO, *PUCMUCSI_CONNECTOR_INFO, 
 req.header: ucmucsippm.h
 req.include-header: UcmUcsiCx.h

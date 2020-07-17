@@ -10,6 +10,7 @@ keywords: ["_STORAGE_HW_FIRMWARE_SLOT_INFO structure"]
 ms.keywords: "*PSTORAGE_HW_FIRMWARE_SLOT_INFO, PSTORAGE_HW_FIRMWARE_SLOT_INFO, PSTORAGE_HW_FIRMWARE_SLOT_INFO structure pointer [Storage Devices], STORAGE_HW_FIRMWARE_SLOT_INFO, STORAGE_HW_FIRMWARE_SLOT_INFO structure [Storage Devices], _STORAGE_HW_FIRMWARE_SLOT_INFO, ntddstor/PSTORAGE_HW_FIRMWARE_SLOT_INFO, ntddstor/STORAGE_HW_FIRMWARE_SLOT_INFO, storage.storage_hw_firmware_slot_info"
 f1_keywords:
  - "ntddstor/STORAGE_HW_FIRMWARE_SLOT_INFO"
+ - "STORAGE_HW_FIRMWARE_SLOT_INFO"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

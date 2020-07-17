@@ -10,6 +10,7 @@ keywords: ["BdaCheckChanges function"]
 ms.keywords: BdaCheckChanges, BdaCheckChanges function [Streaming Media Devices], bdaref_d60c7f03-8188-4be5-807c-e21384429341.xml, bdasup/BdaCheckChanges, stream.bdacheckchanges
 f1_keywords:
  - "bdasup/BdaCheckChanges"
+ - "BdaCheckChanges"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

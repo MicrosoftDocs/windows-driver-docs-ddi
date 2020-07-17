@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_HISTORYBUFFERPRECISION structure"]
 ms.keywords: DXGKARG_HISTORYBUFFERPRECISION, DXGKARG_HISTORYBUFFERPRECISION structure [Display Devices], _DXGKARG_HISTORYBUFFERPRECISION, d3dkmddi/DXGKARG_HISTORYBUFFERPRECISION, display.dxgkarg_historybufferprecision
 f1_keywords:
  - "d3dkmddi/DXGKARG_HISTORYBUFFERPRECISION"
+ - "DXGKARG_HISTORYBUFFERPRECISION"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

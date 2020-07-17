@@ -10,6 +10,7 @@ keywords: ["GNSS_BREADCRUMBING_ALERT_DATA structure"]
 ms.keywords: "*PGNSS_BREADCRUMBING_ALERT_DATA, GNSS_BREADCRUMBING_ALERT_DATA, GNSS_BREADCRUMBING_ALERT_DATA structure [Sensor Devices], PGNSS_BREADCRUMBING_ALERT_DATA, PGNSS_BREADCRUMBING_ALERT_DATA structure pointer [Sensor Devices], gnss.gnss_breadcrumbing_alert_data, gnssdriver/GNSS_BREADCRUMBING_ALERT_DATA, gnssdriver/PGNSS_BREADCRUMBING_ALERT_DATA"
 f1_keywords:
  - "gnssdriver/GNSS_BREADCRUMBING_ALERT_DATA"
+ - "GNSS_BREADCRUMBING_ALERT_DATA"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

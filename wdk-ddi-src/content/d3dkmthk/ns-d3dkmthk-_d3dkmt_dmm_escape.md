@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_DMM_ESCAPE structure"]
 ms.keywords: D3DKMT_DMM_ESCAPE, D3DKMT_DMM_ESCAPE structure [Display Devices], OpenGL_Structs_670cf3b6-6c85-4ddc-af88-8891e3f8f6ce.xml, _D3DKMT_DMM_ESCAPE, d3dkmthk/D3DKMT_DMM_ESCAPE, display.d3dkmt_dmm_escape
 f1_keywords:
  - "d3dkmthk/D3DKMT_DMM_ESCAPE"
+ - "D3DKMT_DMM_ESCAPE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP callback function"]
 ms.keywords: 2/EvtSerCx2CustomTransmitTransactionCleanup, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP callback, EvtSerCx2CustomTransmitTransactionCleanup, EvtSerCx2CustomTransmitTransactionCleanup callback function [Serial Ports], serports.evtsercx2customtransmittransactioncleanup
 f1_keywords:
  - "sercx/EvtSerCx2CustomTransmitTransactionCleanup"
+ - "EvtSerCx2CustomTransmitTransactionCleanup"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

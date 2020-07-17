@@ -10,6 +10,7 @@ keywords: ["FsRtlIsAnsiCharacterLegal macro"]
 ms.keywords: FsRtlIsAnsiCharacterLegal, FsRtlIsAnsiCharacterLegal function [Installable File System Drivers], fsrtlref_dad0349c-b705-4a0a-a1ea-359517e65eae.xml, ifsk.fsrtlisansicharacterlegal, ntifs/FsRtlIsAnsiCharacterLegal
 f1_keywords:
  - "ntifs/FsRtlIsAnsiCharacterLegal"
+ - "FsRtlIsAnsiCharacterLegal"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_MEMORY_SEGMENT_GROUP enumeration"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_MEMORY_SEGMENT_GROUP"
+ - "_D3DKMT_MEMORY_SEGMENT_GROUP"
 ms.keywords: _D3DKMT_MEMORY_SEGMENT_GROUP, D3DKMT_MEMORY_SEGMENT_GROUP, 
 req.header: d3dkmthk.h
 req.include-header:

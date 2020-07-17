@@ -10,6 +10,7 @@ keywords: ["StorPortPoFxActivateComponent function"]
 ms.keywords: StorPortPoFxActivateComponent, StorPortPoFxActivateComponent routine [Storage Devices], storage.storportpofxactivatecomponent, storport/StorPortPoFxActivateComponent
 f1_keywords:
  - "storport/StorPortPoFxActivateComponent"
+ - "StorPortPoFxActivateComponent"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal

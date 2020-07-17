@@ -10,6 +10,7 @@ keywords: ["WdfInterruptSetPolicy function"]
 ms.keywords: DFInterruptObjectRef_86b7a562-3aee-4c0b-9a68-f98a2b76588f.xml, WdfInterruptSetPolicy, WdfInterruptSetPolicy method, kmdf.wdfinterruptsetpolicy, wdf.wdfinterruptsetpolicy, wdfinterrupt/WdfInterruptSetPolicy
 f1_keywords:
  - "wdfinterrupt/WdfInterruptSetPolicy"
+ - "WdfInterruptSetPolicy"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal

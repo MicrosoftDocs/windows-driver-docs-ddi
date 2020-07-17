@@ -10,6 +10,7 @@ keywords: ["ScsiPortGetPhysicalAddress function"]
 ms.keywords: ScsiPortGetPhysicalAddress, ScsiPortGetPhysicalAddress routine [Storage Devices], scsiprt_946bea8c-eb6d-4614-9dc0-004ee2501457.xml, srb/ScsiPortGetPhysicalAddress, storage.scsiportgetphysicaladdress
 f1_keywords:
  - "srb/ScsiPortGetPhysicalAddress"
+ - "ScsiPortGetPhysicalAddress"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

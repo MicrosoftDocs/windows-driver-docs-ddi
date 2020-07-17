@@ -10,6 +10,7 @@ keywords: ["_ENUMERATOR_ACTION enumeration"]
 ms.keywords: "*PENUMERATOR_ACTION, ENUMERATOR_ACTION, ENUMERATOR_ACTION Enumeration, ENUMERATOR_ACTION enumeration [Bluetooth Devices], ENUMERATOR_ACTION enumeration pointer [Bluetooth Devices], ENUMERATOR_ACTION_CREATE, ENUMERATOR_ACTION_DESTROY, ENUMERATOR_ACTION_MAX, ENUMERATOR_ACTION_REMOVE, PENUMERATOR_ACTION, PENUMERATOR_ACTION enumeration pointer [Bluetooth Devices], _ENUMERATOR_ACTION, bltooth.enumerator_action, bth_enums_5ffc09cb-5aae-408c-ba92-b1872890541a.xml, bthddi/ENUMERATOR_ACTION, bthddi/ENUMERATOR_ACTION_CREATE, bthddi/ENUMERATOR_ACTION_DESTROY, bthddi/ENUMERATOR_ACTION_MAX, bthddi/ENUMERATOR_ACTION_REMOVE, bthddi/PENUMERATOR_ACTION"
 f1_keywords:
  - "bthddi/ENUMERATOR_ACTION"
+ - "ENUMERATOR_ACTION"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

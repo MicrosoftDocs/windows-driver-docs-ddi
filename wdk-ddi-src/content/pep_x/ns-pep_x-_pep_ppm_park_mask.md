@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_PARK_MASK structure"]
 ms.keywords: "*PPEP_PPM_PARK_MASK, PEP_PPM_PARK_MASK, PEP_PPM_PARK_MASK structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_MASK, PPEP_PPM_PARK_MASK structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PARK_MASK, kernel.pep_ppm_park_mask, pepfx/PEP_PPM_PARK_MASK, pepfx/PPEP_PPM_PARK_MASK"
 f1_keywords:
  - "pep_x/PEP_PPM_PARK_MASK"
+ - "PEP_PPM_PARK_MASK"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

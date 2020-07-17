@@ -10,6 +10,7 @@ keywords: ["PWINDBG_SET_THREAD_CONTEXT_ROUTINE callback function"]
 ms.keywords: PWINDBG_SET_THREAD_CONTEXT_ROUTINE, PWINDBG_SET_THREAD_CONTEXT_ROUTINE callback, SetContext, SetContext callback function [Windows Debugging], WdbgExts_Ref_1a94f80d-7df9-45d1-9bca-19a18a2efb22.xml, debugger.setcontext, wdbgexts/SetContext
 f1_keywords:
  - "wdbgexts/SetContext"
+ - "SetContext"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

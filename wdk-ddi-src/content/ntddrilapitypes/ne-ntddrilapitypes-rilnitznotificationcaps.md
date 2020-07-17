@@ -10,6 +10,7 @@ keywords: ["RILNITZNOTIFICATIONCAPS enumeration"]
 ms.keywords: RILNITZNOTIFICATIONCAPS, RILNITZNOTIFICATIONCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_NITZ_ENABLED, RIL_CAPS_NITZ_MAX, netvista.rilnitznotificationcaps, ntddrilapitypes/RILNITZNOTIFICATIONCAPS, ntddrilapitypes/RIL_CAPS_NITZ_ENABLED, ntddrilapitypes/RIL_CAPS_NITZ_MAX
 f1_keywords:
  - "ntddrilapitypes/RILNITZNOTIFICATIONCAPS"
+ - "RILNITZNOTIFICATIONCAPS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

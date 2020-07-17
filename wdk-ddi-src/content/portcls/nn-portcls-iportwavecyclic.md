@@ -10,6 +10,7 @@ keywords: ["IPortWaveCyclic interface"]
 ms.keywords: IPortWaveCyclic, IPortWaveCyclic interface [Audio Devices], IPortWaveCyclic interface [Audio Devices],described, audio.iportwavecyclic, audmp-routines_079bd398-d9f2-4a35-9ee0-6ced8fecdeb4.xml, portcls/IPortWaveCyclic
 f1_keywords:
  - "portcls/IPortWaveCyclic"
+ - "IPortWaveCyclic"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

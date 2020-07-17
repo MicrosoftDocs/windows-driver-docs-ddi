@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IMiniportWaveRTStream::GetClockRegister"]
 f1_keywords:
  - "portcls/IMiniportWaveRTStream.GetClockRegister"
+ - "IMiniportWaveRTStream.GetClockRegister"
 ms.keywords: IMiniportWaveRTStream::GetClockRegister, GetClockRegister, IMiniportWaveRTStream.GetClockRegister, IMiniportWaveRTStream::GetClockRegister, IMiniportWaveRTStream.GetClockRegister
 req.header: portcls.h
 req.include-header:

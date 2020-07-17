@@ -10,6 +10,7 @@ keywords: ["_SCSI_PASS_THROUGH_DIRECT_EX structure"]
 ms.keywords: "*PSCSI_PASS_THROUGH_DIRECT_EX, PSCSI_PASS_THROUGH_DIRECT_EX, PSCSI_PASS_THROUGH_DIRECT_EX structure pointer [Storage Devices], SCSI_PASS_THROUGH_DIRECT_EX, SCSI_PASS_THROUGH_DIRECT_EX structure [Storage Devices], _SCSI_PASS_THROUGH_DIRECT_EX, ntddscsi/PSCSI_PASS_THROUGH_DIRECT_EX, ntddscsi/SCSI_PASS_THROUGH_DIRECT_EX, storage.scsi_pass_through_direct_ex"
 f1_keywords:
  - "ntddscsi/SCSI_PASS_THROUGH_DIRECT_EX"
+ - "SCSI_PASS_THROUGH_DIRECT_EX"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows

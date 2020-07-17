@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_DESTROYCONTEXT structure"]
 ms.keywords: D3DKMT_DESTROYCONTEXT, D3DKMT_DESTROYCONTEXT structure [Display Devices], OpenGL_Structs_97f52665-09e6-4f11-b2cc-a7abcc61827c.xml, _D3DKMT_DESTROYCONTEXT, d3dkmthk/D3DKMT_DESTROYCONTEXT, display.d3dkmt_destroycontext
 f1_keywords:
  - "d3dkmthk/D3DKMT_DESTROYCONTEXT"
+ - "D3DKMT_DESTROYCONTEXT"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

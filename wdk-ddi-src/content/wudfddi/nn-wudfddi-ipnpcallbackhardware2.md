@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackHardware2 interface"]
 ms.keywords: IPnpCallbackHardware2, IPnpCallbackHardware2 interface, IPnpCallbackHardware2 interface,described, umdf.ipnpcallbackhardware2, wdf.ipnpcallbackhardware2, wudfddi/IPnpCallbackHardware2
 f1_keywords:
  - "wudfddi/IPnpCallbackHardware2"
+ - "IPnpCallbackHardware2"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

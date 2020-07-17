@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARG_RESUMECONTEXT structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARG_RESUMECONTEXT"
+ - "_DXGKARG_RESUMECONTEXT"
 ms.keywords: _DXGKARG_RESUMECONTEXT, DXGKARG_RESUMECONTEXT,
 req.header: d3dkmddi.h
 req.include-header:

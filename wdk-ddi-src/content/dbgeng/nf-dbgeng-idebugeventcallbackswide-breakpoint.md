@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacksWide::Breakpoint"]
 ms.keywords: Breakpoint, Breakpoint method [Windows Debugging], Breakpoint method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],Breakpoint method, IDebugEventCallbacksWide.Breakpoint, IDebugEventCallbacksWide::Breakpoint, dbgeng/IDebugEventCallbacksWide::Breakpoint, debugger.idebugeventcallbackswide_breakpoint
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.Breakpoint"
+ - "IDebugEventCallbacksWide.Breakpoint"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_GET_CONFIG_ROM structure"]
 ms.keywords: 1394/IRB_REQ_GET_CONFIG_ROM, IEEE.irb_req_get_config_rom, IRB_REQ_GET_CONFIG_ROM, IRB_REQ_GET_CONFIG_ROM structure [Buses], _IRB_REQ_GET_CONFIG_ROM
 f1_keywords:
  - "1394/IRB_REQ_GET_CONFIG_ROM"
+ - "IRB_REQ_GET_CONFIG_ROM"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows

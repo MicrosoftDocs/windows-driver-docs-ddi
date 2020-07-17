@@ -9,6 +9,7 @@ keywords: ["D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure"]
 ms.keywords: D3D11DDIARG_TESSELLATION_IO_SIGNATURES, D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices], UMDisplayDriver_Dx11param_Structs_5fb8a2b5-8291-4c80-a529-303f50f34cac.xml, d3d10umddi/D3D11DDIARG_TESSELLATION_IO_SIGNATURES, display.d3d11ddiarg_tessellation_io_signatures
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_TESSELLATION_IO_SIGNATURES"
+ - "D3D11DDIARG_TESSELLATION_IO_SIGNATURES"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

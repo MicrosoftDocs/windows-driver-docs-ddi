@@ -10,6 +10,7 @@ keywords: ["FwpsAllocateCloneNetBufferList0 function"]
 ms.keywords: FwpsAllocateCloneNetBufferList0, FwpsAllocateCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAllocateCloneNetBufferList0, netvista.fwpsallocateclonenetbufferlist0, wfp_ref_2_funct_3_fwps_A-B_1b361080-1a63-485a-89fc-05ef6b0cb1df.xml
 f1_keywords:
  - "fwpsk/FwpsAllocateCloneNetBufferList0"
+ - "FwpsAllocateCloneNetBufferList0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

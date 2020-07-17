@@ -10,6 +10,7 @@ keywords: ["_FILE_TIMESTAMPS structure"]
 ms.keywords: "*PFILE_TIMESTAMPS, FILE_TIMESTAMPS, FILE_TIMESTAMPS structure [Installable File System Drivers], PFILE_TIMESTAMPS, PFILE_TIMESTAMPS structure pointer [Installable File System Drivers], _FILE_TIMESTAMPS, ifsk.file_timestamps, ntifs/File_TIMESTAMPS, ntifs/PFILE_TIMESTAMPS"
 f1_keywords:
  - "ntifs/FILE_TIMESTAMPS"
+ - "FILE_TIMESTAMPS"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows

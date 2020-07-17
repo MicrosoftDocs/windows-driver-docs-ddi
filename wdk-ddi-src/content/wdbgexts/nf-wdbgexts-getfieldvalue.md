@@ -10,6 +10,7 @@ keywords: ["GetFieldValue macro"]
 ms.keywords: GetFieldValue, GetFieldValue function [Windows Debugging], WdbgExts_Ref_68aca028-5d92-48a3-845d-f9eb480a2c40.xml, debugger.getfieldvalue, wdbgexts/GetFieldValue
 f1_keywords:
  - "wdbgexts/GetFieldValue"
+ - "GetFieldValue"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

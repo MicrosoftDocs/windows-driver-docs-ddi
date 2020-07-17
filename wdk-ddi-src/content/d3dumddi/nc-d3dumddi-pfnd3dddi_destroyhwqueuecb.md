@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/PFND3DDDI_DESTROYHWQUEUECB"
+ - "PFND3DDDI_DESTROYHWQUEUECB"
 topic_type:
  - APIRef
  - kbSyntax

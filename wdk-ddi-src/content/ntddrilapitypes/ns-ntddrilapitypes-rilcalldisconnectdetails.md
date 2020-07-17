@@ -10,6 +10,7 @@ keywords: ["RILCALLDISCONNECTDETAILS structure"]
 ms.keywords: "*LPRILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS, RILCALLDISCONNECTDETAILS structure [Network Drivers Starting with Windows Vista], netvista.rilcalldisconnectdetails, ntddrilapitypes/RILCALLDISCONNECTDETAILS"
 f1_keywords:
  - "ntddrilapitypes/RILCALLDISCONNECTDETAILS"
+ - "RILCALLDISCONNECTDETAILS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::GetEventFilter"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug.GetEventFilter"
+ - "IDataModelScriptDebug.GetEventFilter"
 ms.keywords: IDataModelScriptDebug::GetEventFilter, GetEventFilter, IDataModelScriptDebug.GetEventFilter, IDataModelScriptDebug::GetEventFilter, IDataModelScriptDebug.GetEventFilter
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["PsSetLoadImageNotifyRoutine function"]
 ms.keywords: PsSetLoadImageNotifyRoutine, PsSetLoadImageNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_287b9d79-8b77-40b6-8fe7-21ac3551e437.xml, kernel.pssetloadimagenotifyroutine, ntddk/PsSetLoadImageNotifyRoutine
 f1_keywords:
  - "ntddk/PsSetLoadImageNotifyRoutine"
+ - "PsSetLoadImageNotifyRoutine"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

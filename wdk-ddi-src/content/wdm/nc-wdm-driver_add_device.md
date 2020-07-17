@@ -10,6 +10,7 @@ keywords: ["DRIVER_ADD_DEVICE callback function"]
 ms.keywords: AddDevice, AddDevice routine [Kernel-Mode Driver Architecture], DRIVER_ADD_DEVICE, DrvrRtns_a1c3dd70-7910-44e8-bca8-44b48cf6db04.xml, kernel.adddevice, wdm/AddDevice
 f1_keywords:
  - "wdm/AddDevice"
+ - "AddDevice"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

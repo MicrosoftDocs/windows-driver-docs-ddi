@@ -10,6 +10,7 @@ ms.date: 09/26/2019
 keywords: ["NetExtensionGetFragmentReturnContext function"]
 f1_keywords:
  - "returncontext/NetExtensionGetFragmentReturnContext"
+ - "NetExtensionGetFragmentReturnContext"
 ms.keywords: NetExtensionGetFragmentReturnContext
 req.header: returncontext.h
 req.include-header:

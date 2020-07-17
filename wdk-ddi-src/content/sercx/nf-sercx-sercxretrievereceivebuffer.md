@@ -10,6 +10,7 @@ keywords: ["SerCxRetrieveReceiveBuffer function"]
 ms.keywords: 1/SerCxRetrieveReceiveBuffer, SerCxRetrieveReceiveBuffer, SerCxRetrieveReceiveBuffer method [Serial Ports], serports.sercxretrievereceivebuffer
 f1_keywords:
  - "sercx/SerCxRetrieveReceiveBuffer"
+ - "SerCxRetrieveReceiveBuffer"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

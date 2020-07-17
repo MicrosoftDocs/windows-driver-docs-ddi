@@ -10,6 +10,7 @@ keywords: ["_DSM_Load_Balance_Policy structure"]
 ms.keywords: "*PDSM_Load_Balance_Policy, DSM_Load_Balance_Policy, DSM_Load_Balance_Policy structure [Storage Devices], PDSM_Load_Balance_Policy, PDSM_Load_Balance_Policy structure pointer [Storage Devices], _DSM_Load_Balance_Policy, mpiodisk/DSM_Load_Balance_Policy, mpiodisk/PDSM_Load_Balance_Policy, storage.dsm_load_balance_policy, structs-scsibus_f6e03429-a591-41f0-9890-e513479f8896.xml"
 f1_keywords:
  - "mpiodisk/DSM_Load_Balance_Policy"
+ - "DSM_Load_Balance_Policy"
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows

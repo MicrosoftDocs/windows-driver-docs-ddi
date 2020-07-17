@@ -8,6 +8,7 @@ ms.date: 04/17/2018
 keywords: ["NDIS_SWITCH_PORT_AT_ARRAY_INDEX macro"]
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_AT_ARRAY_INDEX"
+ - "NDIS_SWITCH_PORT_AT_ARRAY_INDEX"
 ms.keywords: NDIS_SWITCH_PORT_AT_ARRAY_INDEX
 req.header: ntddndis.h
 req.include-header: ndis.h

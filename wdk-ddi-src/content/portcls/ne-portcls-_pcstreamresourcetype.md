@@ -10,6 +10,7 @@ keywords: ["_PcStreamResourceType enumeration"]
 ms.keywords: "*PPcStreamResourceType, PcStreamResourceType, PcStreamResourceType enumeration [Audio Devices], PcStreamResourceType,*PPcStreamResourceType, PcStreamResourceType,*PPcStreamResourceType enumeration [Audio Devices], _PcStreamResourceType, audio.pcstreamresourcetype, ePcStreamResourceInterrupt, ePcStreamResourceSet, ePcStreamResourceThread, portcls/PcStreamResourceType, portcls/ePcStreamResourceInterrupt, portcls/ePcStreamResourceSet, portcls/ePcStreamResourceThread"
 f1_keywords:
  - "portcls/PcStreamResourceType, *PPcStreamResourceType"
+ - "PcStreamResourceType, *PPcStreamResourceType"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

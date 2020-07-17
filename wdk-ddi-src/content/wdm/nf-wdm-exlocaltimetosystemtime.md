@@ -10,6 +10,7 @@ keywords: ["ExLocalTimeToSystemTime function"]
 ms.keywords: ExLocalTimeToSystemTime, ExLocalTimeToSystemTime routine [Kernel-Mode Driver Architecture], k102_f7743a3b-822e-433e-bdf2-d7bf4ef606f5.xml, kernel.exlocaltimetosystemtime, wdm/ExLocalTimeToSystemTime
 f1_keywords:
  - "wdm/ExLocalTimeToSystemTime"
+ - "ExLocalTimeToSystemTime"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

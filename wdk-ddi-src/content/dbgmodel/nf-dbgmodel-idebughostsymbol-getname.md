@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostSymbol::GetName"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol.GetName"
+ - "IDebugHostSymbol.GetName"
 ms.keywords: IDebugHostSymbol::GetName, GetName, IDebugHostSymbol.GetName, IDebugHostSymbol::GetName, IDebugHostSymbol.GetName
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IPrintWriteStream::Close"]
 ms.keywords: Close, Close method [Print Devices], Close method [Print Devices],IPrintWriteStream interface, IPrintWriteStream interface [Print Devices],Close method, IPrintWriteStream.Close, IPrintWriteStream::Close, filterpipeline/IPrintWriteStream::Close, filterpipeline_68b1e38f-f42a-4fa1-92f1-2181ac15033e.xml, print.iprintwritestream_close
 f1_keywords:
  - "filterpipeline/IPrintWriteStream.Close"
+ - "IPrintWriteStream.Close"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

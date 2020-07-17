@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTCheckMultiPlaneOverlaySupport2 function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTCheckMultiPlaneOverlaySupport2"
+ - "D3DKMTCheckMultiPlaneOverlaySupport2"
 ms.keywords: D3DKMTCheckMultiPlaneOverlaySupport2
 req.header: d3dkmthk.h
 req.include-header:

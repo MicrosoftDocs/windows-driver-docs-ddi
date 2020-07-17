@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DCULL enumeration"]
 f1_keywords:
  - "d3d9types/_D3DCULL"
+ - "_D3DCULL"
 ms.keywords: _D3DCULL, D3DCULL, 
 req.header: d3d9types.h
 req.include-header:

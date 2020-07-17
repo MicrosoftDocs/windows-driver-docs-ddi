@@ -10,6 +10,7 @@ keywords: ["IKsPin interface"]
 ms.keywords: IKsPin, IKsPin interface [Streaming Media Devices], IKsPin interface [Streaming Media Devices],described, ksproxy/IKsPin, ksproxy_9a020f8a-1271-47ea-816f-1132e44b6f45.xml, stream.ikspin
 f1_keywords:
  - "ksproxy/IKsPin"
+ - "IKsPin"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows

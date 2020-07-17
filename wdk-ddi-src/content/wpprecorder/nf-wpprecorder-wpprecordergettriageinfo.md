@@ -10,6 +10,7 @@ keywords: ["WppRecorderGetTriageInfo macro"]
 ms.keywords: WppRecorderGetTriageInfo
 f1_keywords:
  - "wpprecorder/imp_WppRecorderGetTriageInfo"
+ - "imp_WppRecorderGetTriageInfo"
 req.header: wpprecorder.h
 req.include-header:
 req.target-type: Desktop

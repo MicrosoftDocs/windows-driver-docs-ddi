@@ -10,6 +10,7 @@ keywords: ["PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK callback function"]
 ms.keywords: ClfsAdvanceTailCallback, ClfsAdvanceTailCallback callback function [Kernel-Mode Driver Architecture], Clfs_management_86e7d14f-866d-4023-9f97-d495ac16989f.xml, PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK, PCLFS_CLIENT_ADVANCE_TAIL_CALLBACK callback, kernel.clfsadvancetailcallback, wdm/ClfsAdvanceTailCallback
 f1_keywords:
  - "wdm/ClfsAdvanceTailCallback"
+ - "ClfsAdvanceTailCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

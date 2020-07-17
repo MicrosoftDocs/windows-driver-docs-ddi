@@ -10,6 +10,7 @@ keywords: ["NDIS_SWITCH_ALLOCATE_NET_BUFFER_LIST_FORWARDING_CONTEXT callback fun
 ms.keywords: AllocateNetBufferListForwardingContext, AllocateNetBufferListForwardingContext callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_ALLOCATE_NET_BUFFER_LIST_FORWARDING_CONTEXT, NDIS_SWITCH_ALLOCATE_NET_BUFFER_LIST_FORWARDING_CONTEXT callback, ndis/AllocateNetBufferListForwardingContext, netvista.AllocateNetBufferListForwardingContext
 f1_keywords:
  - "ndis/AllocateNetBufferListForwardingContext"
+ - "AllocateNetBufferListForwardingContext"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

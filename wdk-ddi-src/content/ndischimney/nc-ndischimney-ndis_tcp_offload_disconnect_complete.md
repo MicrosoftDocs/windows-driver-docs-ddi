@@ -10,6 +10,7 @@ keywords: ["NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE callback function"]
 ms.keywords: NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE, NDIS_TCP_OFFLOAD_DISCONNECT_COMPLETE callback, NdisTcpOffloadDisconnectComplete, NdisTcpOffloadDisconnectComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/NdisTcpOffloadDisconnectComplete, netvista.ndistcpoffloaddisconnectcomplete, tcp_chim_ndis_func_4a062983-d7c0-47c4-9eeb-dd3561c6b31a.xml
 f1_keywords:
  - "ndischimney/NdisTcpOffloadDisconnectComplete"
+ - "NdisTcpOffloadDisconnectComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal

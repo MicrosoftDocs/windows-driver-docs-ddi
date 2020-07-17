@@ -10,6 +10,7 @@ keywords: ["FltFreeOpenReparseList function"]
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltFreeOpenReparseList, fltkernel/FltAddOpenReparseEntry, ifsk.fltfreeopenreparselist
 f1_keywords:
  - "fltkernel/FltAddOpenReparseEntry"
+ - "FltAddOpenReparseEntry"
 req.header: fltkernel.h
 req.include-header: 
 req.target-type: Windows

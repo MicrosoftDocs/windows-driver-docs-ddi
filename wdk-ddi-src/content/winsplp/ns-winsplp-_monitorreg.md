@@ -10,6 +10,7 @@ keywords: ["_MONITORREG structure"]
 ms.keywords: "*PMONITORREG, MONITORREG, MONITORREG structure [Print Devices], PMONITORREG, PMONITORREG structure pointer [Print Devices], _MONITORREG, print.monitorreg, spoolfnc_2d0db8db-eea5-461a-a257-1fb986001dac.xml, winsplp/MONITORREG, winsplp/PMONITORREG"
 f1_keywords:
  - "winsplp/MONITORREG"
+ - "MONITORREG"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Windows

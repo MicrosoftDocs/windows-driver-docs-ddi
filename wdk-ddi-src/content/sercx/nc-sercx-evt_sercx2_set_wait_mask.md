@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_SET_WAIT_MASK callback function"]
 ms.keywords: 2/EvtSerCx2SetWaitMask, EVT_SERCX2_SET_WAIT_MASK, EVT_SERCX2_SET_WAIT_MASK callback, EvtSerCx2SetWaitMask, EvtSerCx2SetWaitMask callback function [Serial Ports], serports.evtsercx2setwaitmask
 f1_keywords:
  - "sercx/EvtSerCx2SetWaitMask"
+ - "EvtSerCx2SetWaitMask"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["NdisMSetMiniportAttributes function"]
 ms.keywords: NdisMSetMiniportAttributes, NdisMSetMiniportAttributes function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_2fc47304-466b-4ae0-8450-44c636cecf64.xml, ndis/NdisMSetMiniportAttributes, netvista.ndismsetminiportattributes
 f1_keywords:
  - "ndis/NdisMSetMiniportAttributes"
+ - "NdisMSetMiniportAttributes"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

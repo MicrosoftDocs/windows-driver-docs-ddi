@@ -27,6 +27,7 @@ tech.root: display
 ms.custom: RS5
 f1_keywords:
  - "d3d10umddi/PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA"
+ - "PFND3DWDDM2_1DDI_VIDEOPROCESSORSETSTREAMHDRMETADATA"
 topic_type:
  - apiref
 api_type:

@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::ArrayElement"]
 ms.keywords: ArrayElement, ArrayElement method [Windows Debugging], ArrayElement method [Windows Debugging],ExtRemoteTyped interface, EngExtCpp_Ref_086fc0ab-cf63-4079-86d4-552dd2a1593d.xml, ExtRemoteTyped interface [Windows Debugging],ArrayElement method, ExtRemoteTyped.ArrayElement, ExtRemoteTyped::ArrayElement, debugger.extremotetyped_arrayelement
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.ArrayElement"
+ - "ExtRemoteTyped.ArrayElement"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["PWINDBG_EXTENSION_API_VERSION callback function"]
 ms.keywords: ExtensionApiVersion, ExtensionApiVersion callback function [Windows Debugging], PWINDBG_EXTENSION_API_VERSION, PWINDBG_EXTENSION_API_VERSION callback, WdbgExts_Callbacks_1aa063c9-a47d-4c18-a643-007f635b8cff.xml, debugger.extensionapiversion, wdbgexts/ExtensionApiVersion
 f1_keywords:
  - "wdbgexts/ExtensionApiVersion"
+ - "ExtensionApiVersion"
 req.header: wdbgexts.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionEvent interface"]
 ms.keywords: IPrinterExtensionEvent, IPrinterExtensionEvent interface [Print Devices], IPrinterExtensionEvent interface [Print Devices],described, print.iprinterextensionevent_interface, printerextension/IPrinterExtensionEvent
 f1_keywords:
  - "printerextension/IPrinterExtensionEvent"
+ - "IPrinterExtensionEvent"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

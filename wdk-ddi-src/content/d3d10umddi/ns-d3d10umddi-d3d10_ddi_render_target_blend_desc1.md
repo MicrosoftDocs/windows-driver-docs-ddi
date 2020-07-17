@@ -9,6 +9,7 @@ keywords: ["D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure"]
 ms.keywords: D3D10_DDI_RENDER_TARGET_BLEND_DESC1, D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure [Display Devices], UMDisplayDriver_Dx10param_Structs_cc133adc-9ca8-4596-b3b8-9c3b352cd696.xml, d3d10umddi/D3D10_DDI_RENDER_TARGET_BLEND_DESC1, display.d3d10_ddi_render_target_blend_desc1
 f1_keywords:
  - "d3d10umddi/D3D10_DDI_RENDER_TARGET_BLEND_DESC1"
+ - "D3D10_DDI_RENDER_TARGET_BLEND_DESC1"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IOCTL_POINT_OF_SERVICE_CHECK_HEALTH IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, pos.ioctl_point_of_service_check_health
 f1_keywords:
  - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CHECK_HEALTH"
+ - "IOCTL_POINT_OF_SERVICE_CHECK_HEALTH"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows

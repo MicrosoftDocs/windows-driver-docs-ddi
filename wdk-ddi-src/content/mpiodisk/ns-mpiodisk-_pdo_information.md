@@ -10,6 +10,7 @@ keywords: ["_PDO_INFORMATION structure"]
 ms.keywords: "*PPDO_INFORMATION, PDO_INFORMATION, PDO_INFORMATION structure [Storage Devices], PPDO_INFORMATION, PPDO_INFORMATION structure pointer [Storage Devices], _PDO_INFORMATION, mpiodisk/PDO_INFORMATION, mpiodisk/PPDO_INFORMATION, storage.pdo_information, structs-scsibus_da7fe7ec-475b-4779-b4ed-7cf903fe2525.xml"
 f1_keywords:
  - "mpiodisk/PDO_INFORMATION"
+ - "PDO_INFORMATION"
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows

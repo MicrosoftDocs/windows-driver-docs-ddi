@@ -10,6 +10,7 @@ keywords: ["DriverMagneticStripeReaderAuthenticationLevel enumeration"]
 ms.keywords: DriverMagneticStripeReaderAuthenticationLevel, DriverMagneticStripeReaderAuthenticationLevel enumeration, NotSupported, Optional, Required, pointofservicecommontypes/DriverMagneticStripeReaderAuthenticationLevel, pointofservicecommontypes/NotSupported, pointofservicecommontypes/Optional, pointofservicecommontypes/Required, pos.magneticstripereaderauthenticationlevel_handheld_blue_autogen
 f1_keywords:
  - "pointofservicecommontypes/DriverMagneticStripeReaderAuthenticationLevel"
+ - "DriverMagneticStripeReaderAuthenticationLevel"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

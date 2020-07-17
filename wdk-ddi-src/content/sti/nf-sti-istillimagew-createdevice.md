@@ -10,6 +10,7 @@ keywords: ["IStillImageW::CreateDevice"]
 ms.keywords: CreateDevice, CreateDevice method [Imaging Devices], CreateDevice method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],CreateDevice method, IStillImageW.CreateDevice, IStillImageW::CreateDevice, image.istillimage_createdevice, sti/IStillImageW::CreateDevice, stifnc_07253e3c-b24e-4557-885f-3e17fb5dc293.xml
 f1_keywords:
  - "sti/IStillImageW.CreateDevice"
+ - "IStillImageW.CreateDevice"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["PosCxIsDeviceOwner function"]
 ms.keywords: PosCxIsDeviceOwner, PosCxIsDeviceOwner function, pos.poscxisdeviceowner, poscx/PosCxIsDeviceOwner
 f1_keywords:
  - "poscx/PosCxIsDeviceOwner"
+ - "PosCxIsDeviceOwner"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

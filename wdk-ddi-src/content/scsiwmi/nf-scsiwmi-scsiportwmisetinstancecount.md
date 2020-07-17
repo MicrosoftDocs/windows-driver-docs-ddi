@@ -10,6 +10,7 @@ keywords: ["ScsiPortWmiSetInstanceCount function"]
 ms.keywords: ScsiPortWmiSetInstanceCount, ScsiPortWmiSetInstanceCount function [Storage Devices], scsiprt_9451dca5-cc2f-43fa-91c6-3c22f6377a13.xml, scsiwmi/ScsiPortWmiSetInstanceCount, storage.scsiportwmisetinstancecount
 f1_keywords:
  - "scsiwmi/ScsiPortWmiSetInstanceCount"
+ - "ScsiPortWmiSetInstanceCount"
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

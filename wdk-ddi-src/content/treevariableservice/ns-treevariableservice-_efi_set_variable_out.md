@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_EFI_SET_VARIABLE_OUT structure"]
 f1_keywords:
  - "treevariableservice/_EFI_SET_VARIABLE_OUT"
+ - "_EFI_SET_VARIABLE_OUT"
 ms.keywords: _EFI_SET_VARIABLE_OUT, EFI_SET_VARIABLE_OUT, *PEFI_SET_VARIABLE_OUT, 
 req.header: treevariableservice.h
 req.include-header:

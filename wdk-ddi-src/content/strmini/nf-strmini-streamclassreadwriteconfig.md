@@ -10,6 +10,7 @@ keywords: ["StreamClassReadWriteConfig function"]
 ms.keywords: StreamClassReadWriteConfig, StreamClassReadWriteConfig routine [Streaming Media Devices], strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, stream.streamclassreadwriteconfig, strmini/StreamClassReadWriteConfig
 f1_keywords:
  - "strmini/StreamClassReadWriteConfig"
+ - "StreamClassReadWriteConfig"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop

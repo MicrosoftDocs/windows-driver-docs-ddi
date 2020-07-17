@@ -10,6 +10,7 @@ keywords: ["ExUnregisterCallback function"]
 ms.keywords: ExUnregisterCallback, ExUnregisterCallback routine [Kernel-Mode Driver Architecture], k102_981ea9e7-42fc-4c63-9cc9-5d7aa3d35b72.xml, kernel.exunregistercallback, wdm/ExUnregisterCallback
 f1_keywords:
  - "wdm/ExUnregisterCallback"
+ - "ExUnregisterCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

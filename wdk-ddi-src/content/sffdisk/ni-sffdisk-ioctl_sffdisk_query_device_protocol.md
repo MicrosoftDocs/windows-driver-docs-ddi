@@ -10,6 +10,7 @@ keywords: ["IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL IOCTL"]
 ms.keywords: IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL, IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL control, IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL control code [Buses], SD.ioctl_sffdisk_query_device_protocol, sd-ioctls_4bf0f25d-2d73-4da4-a329-f7a0fa00fecf.xml, sffdisk/IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL
 f1_keywords:
  - "sffdisk/IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL"
+ - "IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL"
 req.header: sffdisk.h
 req.include-header: Sffdisk.h
 req.target-type: Windows

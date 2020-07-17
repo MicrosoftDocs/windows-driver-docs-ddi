@@ -35,6 +35,7 @@ api_name:
  - DXGKDDI_DSIRESET
 f1_keywords:
  - dispmprt/DXGKDDI_DSIRESET
+ - ""
 dev_langs:
  - c++
 ---

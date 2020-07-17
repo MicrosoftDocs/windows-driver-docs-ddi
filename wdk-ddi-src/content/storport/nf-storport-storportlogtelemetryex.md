@@ -10,6 +10,7 @@ ms.date: 03/05/2019
 keywords: ["StorPortLogTelemetryEx function"]
 f1_keywords:
  - "storport/StorPortLogTelemetryEx"
+ - "StorPortLogTelemetryEx"
 ms.keywords: StorPortLogTelemetryEx, STOR_TELEMETRY_CATEGORY, STORPORT_TELEMETRY_EVENT, StorPortLogTelemetry
 req.header: storport.h
 req.include-header:

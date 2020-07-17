@@ -10,6 +10,7 @@ keywords: ["_SPB_CONTROLLER_CONFIG structure"]
 ms.keywords: "*PSPB_CONTROLLER_CONFIG, PSPB_CONTROLLER_CONFIG, PSPB_CONTROLLER_CONFIG structure pointer [Buses], SPB.spb_controller_config, SPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG structure [Buses], _SPB_CONTROLLER_CONFIG, spbcx/PSPB_CONTROLLER_CONFIG, spbcx/SPB_CONTROLLER_CONFIG"
 f1_keywords:
  - "spbcx/SPB_CONTROLLER_CONFIG"
+ - "SPB_CONTROLLER_CONFIG"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Windows

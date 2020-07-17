@@ -10,6 +10,7 @@ keywords: ["RxIsThisACscAgentOpen function"]
 ms.keywords: RxIsThisACscAgentOpen, RxIsThisACscAgentOpen function [Installable File System Drivers], ifsk.rxisthisacscagentopen, rxprocs/RxIsThisACscAgentOpen, rxref_1d515511-d1dd-4090-9c9d-b87960d56f5c.xml
 f1_keywords:
  - "rxprocs/RxIsThisACscAgentOpen"
+ - "RxIsThisACscAgentOpen"
 req.header: rxprocs.h
 req.include-header: Rxcontx.h, Rxprocs.h
 req.target-type: Desktop

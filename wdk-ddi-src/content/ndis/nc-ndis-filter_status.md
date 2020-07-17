@@ -10,6 +10,7 @@ keywords: ["FILTER_STATUS callback function"]
 ms.keywords: FILTER_STATUS, FILTER_STATUS callback, FilterStatus, FilterStatus callback function [Network Drivers Starting with Windows Vista], ndis/FilterStatus, ndis_status_ref_4bddf4b3-3869-4e47-ba86-021e9f25484b.xml, netvista.filterstatus
 f1_keywords:
  - "ndis/FilterStatus"
+ - "FilterStatus"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

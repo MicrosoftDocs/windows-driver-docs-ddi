@@ -8,6 +8,7 @@ ms.date: 03/06/2018
 keywords: ["_NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE enumeration"]
 f1_keywords:
  - "netreceivescaling/_NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE"
+ - "_NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE"
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE, NET_ADAPTER_RECEIVE_SCALING_HASH_TYPE, 
 req.header: netreceivescaling.h
 req.include-header:

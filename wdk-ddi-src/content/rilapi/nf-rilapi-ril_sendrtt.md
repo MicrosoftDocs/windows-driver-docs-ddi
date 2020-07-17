@@ -10,6 +10,7 @@ keywords: ["RIL_SendRTT function"]
 ms.keywords: RIL_SendRTT, RIL_SendRTT method [Network Drivers Starting with Windows Vista], netvista.ril_sendrtt, rilapi/RIL_SendRTT
 f1_keywords:
  - "rilapi/RIL_SendRTT"
+ - "RIL_SendRTT"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

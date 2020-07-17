@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_INTERRUPT_ENABLE callback function"]
 ms.keywords: DFInterruptObjectRef_eb3a90f0-712a-43fe-8d5c-5a29d1df0a62.xml, EVT_WDF_INTERRUPT_ENABLE, EVT_WDF_INTERRUPT_ENABLE callback, EvtInterruptEnable, EvtInterruptEnable callback function, kmdf.evtinterruptenable, wdf.evtinterruptenable, wdfinterrupt/EvtInterruptEnable
 f1_keywords:
  - "wdfinterrupt/EvtInterruptEnable"
+ - "EvtInterruptEnable"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal

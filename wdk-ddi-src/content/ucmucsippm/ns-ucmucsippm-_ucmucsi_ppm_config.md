@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCMUCSI_PPM_CONFIG structure"]
 f1_keywords:
  - "ucmucsippm/_UCMUCSI_PPM_CONFIG"
+ - "_UCMUCSI_PPM_CONFIG"
 ms.keywords: _UCMUCSI_PPM_CONFIG, UCMUCSI_PPM_CONFIG, *PUCMUCSI_PPM_CONFIG, 
 req.header: ucmucsippm.h
 req.include-header: UcmUcsiCx.h

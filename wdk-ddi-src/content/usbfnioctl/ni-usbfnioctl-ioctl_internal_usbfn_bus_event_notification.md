@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION, IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control, IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control code [Buses], buses.ioctl_internal_usbfn_bus_event_notification, usbfnioctl/IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
 f1_keywords:
  - "usbfnioctl/IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION"
+ - "IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION"
 req.header: usbfnioctl.h
 req.include-header: 
 req.target-type: Windows

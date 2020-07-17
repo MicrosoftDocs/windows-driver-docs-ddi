@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_OPM_GET_RANDOM_NUMBER callback function"]
 ms.keywords: DXGKDDI_OPM_GET_RANDOM_NUMBER, DXGKDDI_OPM_GET_RANDOM_NUMBER callback, Dm_Opm_functions_a7d335ef-61bf-452a-a811-20048ff28dbf.xml, DxgkDdiOPMGetRandomNumber, DxgkDdiOPMGetRandomNumber callback function [Display Devices], display.dxgkddiopmgetrandomnumber, dispmprt/DxgkDdiOPMGetRandomNumber
 f1_keywords:
  - "dispmprt/DxgkDdiOPMGetRandomNumber"
+ - "DxgkDdiOPMGetRandomNumber"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

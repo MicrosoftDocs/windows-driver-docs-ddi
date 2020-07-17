@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::ResetManagedStatus"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],ResetManagedStatus method, IDebugControl4.ResetManagedStatus, IDebugControl4::ResetManagedStatus, ResetManagedStatus, ResetManagedStatus method [Windows Debugging], ResetManagedStatus method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::ResetManagedStatus, debugger.idebugcontrol4_resetmanagedstatus
 f1_keywords:
  - "dbgeng/IDebugControl4.ResetManagedStatus"
+ - "IDebugControl4.ResetManagedStatus"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/BufBlt1"
+ - "BufBlt1"
 topic_type:
  - APIRef
  - kbSyntax

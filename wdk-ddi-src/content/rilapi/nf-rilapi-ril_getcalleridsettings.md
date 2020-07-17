@@ -10,6 +10,7 @@ keywords: ["RIL_GetCallerIdSettings function"]
 ms.keywords: RIL_GetCallerIdSettings, RIL_GetCallerIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getcalleridsettings, rilapi/RIL_GetCallerIdSettings
 f1_keywords:
  - "rilapi/RIL_GetCallerIdSettings"
+ - "RIL_GetCallerIdSettings"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

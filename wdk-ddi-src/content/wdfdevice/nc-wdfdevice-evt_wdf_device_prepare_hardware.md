@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_PREPARE_HARDWARE callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_a447de77-9692-4a48-83c2-3ced294863e4.xml, EVT_WDF_DEVICE_PREPARE_HARDWARE, EVT_WDF_DEVICE_PREPARE_HARDWARE callback, EvtDevicePrepareHardware, EvtDevicePrepareHardware callback function, kmdf.evtdevicepreparehardware, wdf.evtdevicepreparehardware, wdfdevice/EvtDevicePrepareHardware
 f1_keywords:
  - "wdfdevice/EvtDevicePrepareHardware"
+ - "EvtDevicePrepareHardware"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["NdisOffloadTcpReceiveReturn function"]
 ms.keywords: NdisOffloadTcpReceiveReturn, NdisOffloadTcpReceiveReturn function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpReceiveReturn, netvista.ndisoffloadtcpreceivereturn, tcp_chim_ndis_func_2fe6d15f-5e88-4aec-9c5b-281b0e002d8f.xml
 f1_keywords:
  - "ndischimney/NdisOffloadTcpReceiveReturn"
+ - "NdisOffloadTcpReceiveReturn"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal

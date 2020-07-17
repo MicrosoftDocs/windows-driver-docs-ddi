@@ -10,6 +10,7 @@ keywords: ["_SET_BAND_METADATA_PARAMETERS structure"]
 ms.keywords: "*PSET_BAND_METADATA_PARAMETERS, PSET_BAND_METADATA_PARAMETERS, PSET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], SET_BAND_METADATA_PARAMETERS, SET_BAND_METADATA_PARAMETERS structure [Storage Devices], _SET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/PSET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/SET_BAND_METADATA_PARAMETERS, storage.set_band_metadata_parameters"
 f1_keywords:
  - "ehstorbandmgmt/SET_BAND_METADATA_PARAMETERS"
+ - "SET_BAND_METADATA_PARAMETERS"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows

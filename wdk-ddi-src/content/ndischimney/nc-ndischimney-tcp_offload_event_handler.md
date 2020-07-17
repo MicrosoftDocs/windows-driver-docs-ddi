@@ -10,6 +10,7 @@ keywords: ["TCP_OFFLOAD_EVENT_HANDLER callback function"]
 ms.keywords: ProtocolTcpOffloadEvent, ProtocolTcpOffloadEvent callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_EVENT_HANDLER, TCP_OFFLOAD_EVENT_HANDLER callback, ndischimney/ProtocolTcpOffloadEvent, netvista.protocoltcpoffloadevent, tcp_chim_protocol_func_8cc440e3-7686-42dc-8fff-baf397394951.xml
 f1_keywords:
  - "ndischimney/ProtocolTcpOffloadEvent"
+ - "ProtocolTcpOffloadEvent"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows

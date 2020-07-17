@@ -10,6 +10,7 @@ keywords: ["_BDA_RATING_PINRESET structure"]
 ms.keywords: "*PBDA_RATING_PINRESET, BDA_RATING_PINRESET, BDA_RATING_PINRESET structure [Streaming Media Devices], PBDA_RATING_PINRESET, PBDA_RATING_PINRESET structure pointer [Streaming Media Devices], _BDA_RATING_PINRESET, bdatypes/BDA_RATING_PINRESET, bdatypes/PBDA_RATING_PINRESET, stream.bda_rating_pinreset"
 f1_keywords:
  - "bdatypes/BDA_RATING_PINRESET"
+ - "BDA_RATING_PINRESET"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

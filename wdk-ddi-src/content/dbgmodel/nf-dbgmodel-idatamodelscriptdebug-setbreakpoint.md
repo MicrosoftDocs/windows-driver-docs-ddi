@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::SetBreakpoint"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug.SetBreakpoint"
+ - "IDataModelScriptDebug.SetBreakpoint"
 ms.keywords: IDataModelScriptDebug::SetBreakpoint, SetBreakpoint, IDataModelScriptDebug.SetBreakpoint, IDataModelScriptDebug::SetBreakpoint, IDataModelScriptDebug.SetBreakpoint
 req.header: dbgmodel.h
 req.include-header:

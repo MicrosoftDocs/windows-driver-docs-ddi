@@ -10,6 +10,7 @@ keywords: ["WRITE_REGISTER_USHORT function"]
 ms.keywords: WRITE_REGISTER_USHORT, WRITE_REGISTER_USHORT routine [Kernel-Mode Driver Architecture], k103_bc20d667-b3c7-4e46-a21d-06123e73d348.xml, kernel.write_register_ushort, wdm/WRITE_REGISTER_USHORT
 f1_keywords:
  - "miniport/WRITE_REGISTER_USHORT"
+ - "WRITE_REGISTER_USHORT"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal

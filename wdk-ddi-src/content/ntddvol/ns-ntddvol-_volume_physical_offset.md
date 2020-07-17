@@ -10,6 +10,7 @@ keywords: ["_VOLUME_PHYSICAL_OFFSET structure"]
 ms.keywords: "*PVOLUME_PHYSICAL_OFFSET, PVOLUME_PHYSICAL_OFFSET, PVOLUME_PHYSICAL_OFFSET structure pointer [Storage Devices], VOLUME_PHYSICAL_OFFSET, VOLUME_PHYSICAL_OFFSET structure [Storage Devices], _VOLUME_PHYSICAL_OFFSET, ntddvol/PVOLUME_PHYSICAL_OFFSET, ntddvol/VOLUME_PHYSICAL_OFFSET, storage.volume_physical_offset, structs-volumemgr_e42e629d-ed2f-49f3-a669-d2547d46eaa6.xml"
 f1_keywords:
  - "ntddvol/VOLUME_PHYSICAL_OFFSET"
+ - "VOLUME_PHYSICAL_OFFSET"
 req.header: ntddvol.h
 req.include-header: Ntddvol.h
 req.target-type: Windows

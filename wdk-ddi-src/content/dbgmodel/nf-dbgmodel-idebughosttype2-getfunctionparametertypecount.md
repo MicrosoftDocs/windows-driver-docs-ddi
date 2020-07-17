@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetFunctionParameterTypeCount"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetFunctionParameterTypeCount"
+ - "IDebugHostType2.GetFunctionParameterTypeCount"
 ms.keywords: IDebugHostType2::GetFunctionParameterTypeCount, GetFunctionParameterTypeCount, IDebugHostType2.GetFunctionParameterTypeCount, IDebugHostType2::GetFunctionParameterTypeCount, IDebugHostType2.GetFunctionParameterTypeCount
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_QUERY_HWCURSOR structure"]
 ms.keywords: IDARG_IN_QUERY_HWCURSOR, IDARG_IN_QUERY_HWCURSOR structure [Display Devices], PIDARG_IN_QUERY_HWCURSOR, PIDARG_IN_QUERY_HWCURSOR structure pointer [Display Devices], display.idarg_in_query_hwcursor, iddcx/IDARG_IN_QUERY_HWCURSOR, iddcx/PIDARG_IN_QUERY_HWCURSOR
 f1_keywords:
  - "iddcx/IDARG_IN_QUERY_HWCURSOR"
+ - "IDARG_IN_QUERY_HWCURSOR"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

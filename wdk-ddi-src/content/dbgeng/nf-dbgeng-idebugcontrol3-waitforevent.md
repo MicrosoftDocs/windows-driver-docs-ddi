@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::WaitForEvent"]
 ms.keywords: IDebugControl interface [Windows Debugging],WaitForEvent method, IDebugControl2 interface [Windows Debugging],WaitForEvent method, IDebugControl2::WaitForEvent, IDebugControl3 interface [Windows Debugging],WaitForEvent method, IDebugControl3.WaitForEvent, IDebugControl3::WaitForEvent, IDebugControl::WaitForEvent, IDebugControl_19a7d8b3-1f16-400e-bf8f-c782d48b2cf5.xml, WaitForEvent, WaitForEvent method [Windows Debugging], WaitForEvent method [Windows Debugging],IDebugControl interface, WaitForEvent method [Windows Debugging],IDebugControl2 interface, WaitForEvent method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::WaitForEvent, dbgeng/IDebugControl3::WaitForEvent, dbgeng/IDebugControl::WaitForEvent, debugger.waitforevent
 f1_keywords:
  - "dbgeng/IDebugControl.WaitForEvent"
+ - "IDebugControl.WaitForEvent"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Winbase.h
 req.target-type: Desktop

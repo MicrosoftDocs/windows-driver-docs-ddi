@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_SET_XON IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_XON, IOCTL_SERIAL_SET_XON control, IOCTL_SERIAL_SET_XON control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_XON, serports.ioctl_serial_set_xon, serref_1c7446da-0080-45f4-af38-c674b874883d.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_XON"
+ - "IOCTL_SERIAL_SET_XON"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

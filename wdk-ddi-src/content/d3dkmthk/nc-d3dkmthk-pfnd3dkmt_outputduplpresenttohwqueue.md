@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["PFND3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE"
+ - "PFND3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3dkmthk.h

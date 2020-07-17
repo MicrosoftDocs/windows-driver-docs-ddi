@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetFunctionReturnType"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetFunctionReturnType"
+ - "IDebugHostType2.GetFunctionReturnType"
 ms.keywords: IDebugHostType2::GetFunctionReturnType, GetFunctionReturnType, IDebugHostType2.GetFunctionReturnType, IDebugHostType2::GetFunctionReturnType, IDebugHostType2.GetFunctionReturnType
 req.header: dbgmodel.h
 req.include-header:

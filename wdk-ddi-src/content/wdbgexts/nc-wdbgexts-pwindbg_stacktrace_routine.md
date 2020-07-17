@@ -10,6 +10,7 @@ keywords: ["PWINDBG_STACKTRACE_ROUTINE callback function"]
 ms.keywords: PWINDBG_STACKTRACE_ROUTINE, PWINDBG_STACKTRACE_ROUTINE callback, StackTrace, StackTrace callback function [Windows Debugging], WdbgExts_Ref_5ccc4adf-2b59-4373-8e4a-3bc8847c5749.xml, debugger.stacktrace, wdbgexts/StackTrace
 f1_keywords:
  - "wdbgexts/StackTrace"
+ - "StackTrace"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

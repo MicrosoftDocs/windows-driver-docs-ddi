@@ -10,6 +10,7 @@ keywords: ["IPortClsVersion::GetVersion"]
 ms.keywords: GetVersion, GetVersion method [Audio Devices], GetVersion method [Audio Devices],IPortClsVersion interface, IPortClsVersion interface [Audio Devices],GetVersion method, IPortClsVersion.GetVersion, IPortClsVersion::GetVersion, audio.iportclsversion_getversion, audmp-routines_82b73b24-296b-4b31-88e4-1d1303863c6c.xml, portcls/IPortClsVersion::GetVersion
 f1_keywords:
  - "portcls/IPortClsVersion.GetVersion"
+ - "IPortClsVersion.GetVersion"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

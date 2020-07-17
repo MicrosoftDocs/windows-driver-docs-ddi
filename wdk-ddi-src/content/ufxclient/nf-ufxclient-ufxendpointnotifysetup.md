@@ -10,6 +10,7 @@ keywords: ["UfxEndpointNotifySetup function"]
 ms.keywords: UfxEndpointNotifySetup, UfxEndpointNotifySetup method [Buses], buses.ufxendpointnotifysetup, ufxclient/UfxEndpointNotifySetup
 f1_keywords:
  - "ufxclient/UfxEndpointNotifySetup"
+ - "UfxEndpointNotifySetup"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

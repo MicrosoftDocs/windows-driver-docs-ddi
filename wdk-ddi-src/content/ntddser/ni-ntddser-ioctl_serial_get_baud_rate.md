@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_GET_BAUD_RATE IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_BAUD_RATE, IOCTL_SERIAL_GET_BAUD_RATE control, IOCTL_SERIAL_GET_BAUD_RATE control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_BAUD_RATE, serports.ioctl_serial_get_baud_rate, serref_d3a435b0-2934-465a-9c60-91210895755e.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_GET_BAUD_RATE"
+ - "IOCTL_SERIAL_GET_BAUD_RATE"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

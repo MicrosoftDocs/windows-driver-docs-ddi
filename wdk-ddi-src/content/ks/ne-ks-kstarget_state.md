@@ -10,6 +10,7 @@ keywords: ["KSTARGET_STATE enumeration"]
 ms.keywords: KSTARGET_STATE, KSTARGET_STATE enumeration [Streaming Media Devices], KSTARGET_STATE_DISABLED, KSTARGET_STATE_ENABLED, ks/KSTARGET_STATE, ks/KSTARGET_STATE_DISABLED, ks/KSTARGET_STATE_ENABLED, stream.kstarget_state
 f1_keywords:
  - "ks/KSTARGET_STATE"
+ - "KSTARGET_STATE"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

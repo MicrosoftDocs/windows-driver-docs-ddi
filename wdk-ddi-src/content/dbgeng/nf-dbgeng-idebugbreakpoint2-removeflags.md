@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::RemoveFlags"]
 ms.keywords: ComOther_15793582-5533-4f63-8278-9556b160e6d2.xml, IDebugBreakpoint interface [Windows Debugging],RemoveFlags method, IDebugBreakpoint2 interface [Windows Debugging],RemoveFlags method, IDebugBreakpoint2.RemoveFlags, IDebugBreakpoint2::RemoveFlags, IDebugBreakpoint::RemoveFlags, RemoveFlags, RemoveFlags method [Windows Debugging], RemoveFlags method [Windows Debugging],IDebugBreakpoint interface, RemoveFlags method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::RemoveFlags, dbgeng/IDebugBreakpoint::RemoveFlags, debugger.removeflags
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.RemoveFlags"
+ - "IDebugBreakpoint.RemoveFlags"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

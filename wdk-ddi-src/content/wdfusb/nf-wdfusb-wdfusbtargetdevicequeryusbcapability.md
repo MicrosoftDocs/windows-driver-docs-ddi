@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceQueryUsbCapability function"]
 ms.keywords: WdfUsbTargetDeviceQueryUsbCapability, WdfUsbTargetDeviceQueryUsbCapability method, kmdf.wdfusbtargetdevicequeryusbcapability, wdf.wdfusbtargetdevicequeryusbcapability, wdfusb/WdfUsbTargetDeviceQueryUsbCapability
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceQueryUsbCapability"
+ - "WdfUsbTargetDeviceQueryUsbCapability"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

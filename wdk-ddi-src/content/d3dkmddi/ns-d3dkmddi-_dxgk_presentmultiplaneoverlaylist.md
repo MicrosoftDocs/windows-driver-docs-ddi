@@ -9,6 +9,7 @@ keywords: ["_DXGK_PRESENTMULTIPLANEOVERLAYLIST structure"]
 ms.keywords: DXGK_PRESENTMULTIPLANEOVERLAYLIST, DXGK_PRESENTMULTIPLANEOVERLAYLIST structure [Display Devices], _DXGK_PRESENTMULTIPLANEOVERLAYLIST, d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYLIST, display.dxgk_presentmultiplaneoverlaylist
 f1_keywords:
  - "d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYLIST"
+ - "DXGK_PRESENTMULTIPLANEOVERLAYLIST"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

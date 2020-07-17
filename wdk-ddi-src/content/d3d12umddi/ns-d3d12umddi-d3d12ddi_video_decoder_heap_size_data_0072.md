@@ -32,6 +32,7 @@ api_name:
  - D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0072
 f1_keywords:
  - d3d12umddi/D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0072
+ - ""
 dev_langs:
  - c++
 ---

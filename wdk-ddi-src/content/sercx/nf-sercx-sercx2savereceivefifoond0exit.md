@@ -10,6 +10,7 @@ keywords: ["SerCx2SaveReceiveFifoOnD0Exit function"]
 ms.keywords: 2/SerCx2SaveReceiveFifoOnD0Exit, SerCx2SaveReceiveFifoOnD0Exit, SerCx2SaveReceiveFifoOnD0Exit method [Serial Ports], serports.sercx2savereceivefifoond0exit
 f1_keywords:
  - "sercx/SerCx2SaveReceiveFifoOnD0Exit"
+ - "SerCx2SaveReceiveFifoOnD0Exit"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

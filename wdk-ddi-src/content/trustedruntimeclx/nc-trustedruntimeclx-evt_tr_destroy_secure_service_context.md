@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EVT_TR_DESTROY_SECURE_SERVICE_CONTEXT callback function"]
 f1_keywords:
  - "trustedruntimeclx/EVT_TR_DESTROY_SECURE_SERVICE_CONTEXT"
+ - "EVT_TR_DESTROY_SECURE_SERVICE_CONTEXT"
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

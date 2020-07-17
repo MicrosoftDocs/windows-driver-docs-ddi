@@ -10,6 +10,7 @@ keywords: ["NdisInitializeString function"]
 ms.keywords: NdisInitializeString, NdisInitializeString function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeString, ndis_string_ref_886eff5e-5f5a-49f2-91d3-e87128cf0542.xml, netvista.ndisinitializestring
 f1_keywords:
  - "ndis/NdisInitializeString"
+ - "NdisInitializeString"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

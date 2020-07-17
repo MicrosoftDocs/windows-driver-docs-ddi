@@ -10,6 +10,7 @@ keywords: ["OEMBitBlt function"]
 ms.keywords: OEMBitBlt, OEMBitBlt function [Print Devices], print.oembitblt, print_unidrv-pscript_rendering_972c744c-971c-423f-a4fe-92b87cef8094.xml, printoem/OEMBitBlt
 f1_keywords:
  - "printoem/OEMBitBlt"
+ - "OEMBitBlt"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IIndexableConcept::Release"]
 f1_keywords:
  - "dbgmodel/IIndexableConcept.Release"
+ - "IIndexableConcept.Release"
 ms.keywords: IIndexableConcept::Release, Release, IIndexableConcept.Release, IIndexableConcept::Release, IIndexableConcept.Release
 req.header: dbgmodel.h
 req.include-header:

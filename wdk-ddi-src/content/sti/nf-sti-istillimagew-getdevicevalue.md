@@ -10,6 +10,7 @@ keywords: ["IStillImageW::GetDeviceValue"]
 ms.keywords: GetDeviceValue, GetDeviceValue method [Imaging Devices], GetDeviceValue method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetDeviceValue method, IStillImageW.GetDeviceValue, IStillImageW::GetDeviceValue, image.istillimage_getdevicevalue, sti/IStillImageW::GetDeviceValue, stifnc_4b207dea-28ff-4f85-b8a7-43c038b3e810.xml
 f1_keywords:
  - "sti/IStillImageW.GetDeviceValue"
+ - "IStillImageW.GetDeviceValue"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

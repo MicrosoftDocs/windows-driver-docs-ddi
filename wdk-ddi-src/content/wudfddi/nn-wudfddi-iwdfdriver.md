@@ -10,6 +10,7 @@ keywords: ["IWDFDriver interface"]
 ms.keywords: IWDFDriver, IWDFDriver interface, IWDFDriver interface,described, UMDFDriverObjectRef_2bce205e-d670-4dae-870a-f5b01c3ea49e.xml, umdf.iwdfdriver, wdf.iwdfdriver, wudfddi/IWDFDriver
 f1_keywords:
  - "wudfddi/IWDFDriver"
+ - "IWDFDriver"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

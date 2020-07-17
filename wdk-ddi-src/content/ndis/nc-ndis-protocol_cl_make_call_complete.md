@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CL_MAKE_CALL_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_MAKE_CALL_COMPLETE, PROTOCOL_CL_MAKE_CALL_COMPLETE callback, ProtocolClMakeCallComplete, ProtocolClMakeCallComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_1c839b17-947a-44cb-85d1-d6246b82a827.xml, ndis/ProtocolClMakeCallComplete, netvista.protocolclmakecallcomplete
 f1_keywords:
  - "ndis/ProtocolClMakeCallComplete"
+ - "ProtocolClMakeCallComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

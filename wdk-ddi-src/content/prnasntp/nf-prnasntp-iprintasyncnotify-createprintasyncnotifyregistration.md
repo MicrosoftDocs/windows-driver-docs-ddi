@@ -10,6 +10,7 @@ keywords: ["IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration"]
 ms.keywords: CreatePrintAsyncNotifyRegistration, CreatePrintAsyncNotifyRegistration method [Print Devices], CreatePrintAsyncNotifyRegistration method [Print Devices],IPrintAsyncNotify interface, IPrintAsyncNotify interface [Print Devices],CreatePrintAsyncNotifyRegistration method, IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration, IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration, print.iprintasyncnotify_createprintasyncnotifyregistration, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
 f1_keywords:
  - "prnasntp/IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration"
+ - "IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

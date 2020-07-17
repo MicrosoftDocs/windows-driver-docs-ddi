@@ -10,6 +10,7 @@ keywords: ["IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO IOCTL"]
 ms.keywords: IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO, IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO control, IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO control code [Streaming Media Devices], avc/IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO, avcref_b337d332-db69-4a9d-8e5e-d261ebf0cdd8.xml, stream.ioctl_avc_remove_virtual_subunit_info
 f1_keywords:
  - "avc/IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO"
+ - "IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows

@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_SETRENDERTARGETS callback function"]
 ms.keywords: PFND3D11DDI_SETRENDERTARGETS, PFND3D11DDI_SETRENDERTARGETS callback, SetRenderTargets, SetRenderTargets callback function [Display Devices], UserModeDisplayDriverDx11_Functions_a24d5500-fe0a-4d17-a3fb-acb6ed9e4698.xml, d3d10umddi/SetRenderTargets, display.setrendertargets_d3d11_
 f1_keywords:
  - "d3d10umddi/SetRenderTargets"
+ - "SetRenderTargets"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

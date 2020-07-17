@@ -10,6 +10,7 @@ keywords: ["KsGetPinFromFileObject function"]
 ms.keywords: KsGetPinFromFileObject, KsGetPinFromFileObject function [Streaming Media Devices], avfunc_18bdc4eb-2823-481e-ba51-e4103ff10d8c.xml, ks/KsGetPinFromFileObject, stream.ksgetpinfromfileobject
 f1_keywords:
  - "ks/KsGetPinFromFileObject"
+ - "KsGetPinFromFileObject"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

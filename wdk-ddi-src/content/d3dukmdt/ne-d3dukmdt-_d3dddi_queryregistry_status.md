@@ -7,6 +7,7 @@ ms.date: 11/21/2018
 keywords: ["_D3DDDI_QUERYREGISTRY_STATUS enumeration"]
 f1_keywords:
  - "d3dukmdt/_D3DDDI_QUERYREGISTRY_STATUS"
+ - "_D3DDDI_QUERYREGISTRY_STATUS"
 ms.keywords: _D3DDDI_QUERYREGISTRY_STATUS, D3DDDI_QUERYREGISTRY_STATUS,
 req.header: d3dukmdt.h
 req.include-header:

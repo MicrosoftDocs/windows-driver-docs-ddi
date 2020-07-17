@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKDDI_SIGNALMONITOREDFENCE callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKDDI_SIGNALMONITOREDFENCE"
+ - "DXGKDDI_SIGNALMONITOREDFENCE"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

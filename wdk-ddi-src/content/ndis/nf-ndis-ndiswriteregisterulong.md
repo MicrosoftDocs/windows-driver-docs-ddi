@@ -10,6 +10,7 @@ keywords: ["NdisWriteRegisterUlong macro"]
 ms.keywords: NdisWriteRegisterUlong, NdisWriteRegisterUlong macro [Network Drivers Starting with Windows Vista], miniport_register_ref_2f7b1091-df45-47d7-9dd7-9a6f39e0b19d.xml, ndis/NdisWriteRegisterUlong, netvista.ndiswriteregisterulong
 f1_keywords:
  - "ndis/NdisWriteRegisterUlong"
+ - "NdisWriteRegisterUlong"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

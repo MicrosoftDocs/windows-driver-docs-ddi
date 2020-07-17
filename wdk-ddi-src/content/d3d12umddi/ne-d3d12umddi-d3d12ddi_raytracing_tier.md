@@ -7,6 +7,7 @@ ms.date: 03/24/2020
 keywords: ["D3D12DDI_RAYTRACING_TIER enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RAYTRACING_TIER"
+ - "D3D12DDI_RAYTRACING_TIER"
 ms.keywords: D3D12DDI_RAYTRACING_TIER, D3D12DDI_RAYTRACING_TIER, 
 req.header: d3d12umddi.h
 req.include-header:

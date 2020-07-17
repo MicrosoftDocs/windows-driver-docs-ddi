@@ -10,6 +10,7 @@ keywords: ["WMIREGINFOW structure"]
 ms.keywords: "*PWMIREGINFOW, PWMIREGINFOW, PWMIREGINFOW structure pointer [Kernel-Mode Driver Architecture], WMIREGINFO, WMIREGINFOW, WMIREGINFOW structure [Kernel-Mode Driver Architecture], kernel.wmireginfo, kstruct_d_2c5c2f97-d385-4cd6-8b0f-c27d4b21ea11.xml, wmistr/PWMIREGINFOW, wmistr/WMIREGINFOW"
 f1_keywords:
  - "wmistr/WMIREGINFOW"
+ - "WMIREGINFOW"
 req.header: wmistr.h
 req.include-header: Wmistr.h
 req.target-type: Windows

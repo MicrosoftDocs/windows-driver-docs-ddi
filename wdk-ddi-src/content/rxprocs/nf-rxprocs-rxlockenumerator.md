@@ -10,6 +10,7 @@ keywords: ["RxLockEnumerator function"]
 ms.keywords: RxLockEnumerator, RxLockEnumerator function [Installable File System Drivers], ifsk.rxlockenumerator, rxprocs/RxLockEnumerator, rxref_62372da9-aa80-447e-8e79-6bc1f1c5cf54.xml
 f1_keywords:
  - "rxprocs/RxLockEnumerator"
+ - "RxLockEnumerator"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h, Mrxfcb.h, Fcb.h
 req.target-type: Desktop

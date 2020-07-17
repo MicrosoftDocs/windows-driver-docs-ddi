@@ -10,6 +10,7 @@ keywords: ["MmGetPhysicalAddress function"]
 ms.keywords: MmGetPhysicalAddress, MmGetPhysicalAddress routine [Kernel-Mode Driver Architecture], k106_1dc50500-ccd1-41a9-8a6c-55e3e283b00b.xml, kernel.mmgetphysicaladdress, ntddk/MmGetPhysicalAddress
 f1_keywords:
  - "ntddk/MmGetPhysicalAddress"
+ - "MmGetPhysicalAddress"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

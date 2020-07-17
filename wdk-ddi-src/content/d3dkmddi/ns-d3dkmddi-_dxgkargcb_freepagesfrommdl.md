@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARGCB_FREEPAGESFROMMDL structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARGCB_FREEPAGESFROMMDL"
+ - "_DXGKARGCB_FREEPAGESFROMMDL"
 ms.keywords: _DXGKARGCB_FREEPAGESFROMMDL, DXGKARGCB_FREEPAGESFROMMDL,
 req.header: d3dkmddi.h
 req.include-header:

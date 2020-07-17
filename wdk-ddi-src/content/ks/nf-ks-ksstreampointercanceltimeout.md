@@ -10,6 +10,7 @@ keywords: ["KsStreamPointerCancelTimeout function"]
 ms.keywords: KsStreamPointerCancelTimeout, KsStreamPointerCancelTimeout function [Streaming Media Devices], avfunc_9496b7be-f178-418a-87ac-d09dec988672.xml, ks/KsStreamPointerCancelTimeout, stream.ksstreampointercanceltimeout
 f1_keywords:
  - "ks/KsStreamPointerCancelTimeout"
+ - "KsStreamPointerCancelTimeout"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

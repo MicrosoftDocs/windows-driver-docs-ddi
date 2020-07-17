@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_FIRMWARE_GET_INFO IOCTL"]
 ms.keywords: IOCTL_STORAGE_FIRMWARE_GET_INFO, IOCTL_STORAGE_FIRMWARE_GET_INFO control, IOCTL_STORAGE_FIRMWARE_GET_INFO control code [Storage Devices], ntddstor/IOCTL_STORAGE_FIRMWARE_GET_INFO, storage.ioctl_storage_firmware_get_info
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_FIRMWARE_GET_INFO"
+ - "IOCTL_STORAGE_FIRMWARE_GET_INFO"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

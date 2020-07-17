@@ -10,6 +10,7 @@ keywords: ["NdisFreeGenericObject function"]
 ms.keywords: NdisFreeGenericObject, NdisFreeGenericObject function [Network Drivers Starting with Windows Vista], ndis/NdisFreeGenericObject, ndis_object_ref_d796ffda-61f1-473d-98ea-5ad3570889e9.xml, netvista.ndisfreegenericobject
 f1_keywords:
  - "ndis/NdisFreeGenericObject"
+ - "NdisFreeGenericObject"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

@@ -8,6 +8,7 @@ ms.date: 02/09/2018
 keywords: ["NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_SEQUENTIAL function"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_SEQUENTIAL"
+ - "NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_SEQUENTIAL"
 ms.keywords: NET_REQUEST_QUEUE_CONFIG_INIT_DEFAULT_SEQUENTIAL
 req.header: netrequestqueue.h
 req.include-header:

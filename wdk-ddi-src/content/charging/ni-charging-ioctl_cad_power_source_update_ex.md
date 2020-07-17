@@ -10,6 +10,7 @@ keywords: ["IOCTL_CAD_POWER_SOURCE_UPDATE_EX IOCTL"]
 ms.keywords: IOCTL_CAD_POWER_SOURCE_UPDATE_EX, IOCTL_CAD_POWER_SOURCE_UPDATE_EX control, IOCTL_CAD_POWER_SOURCE_UPDATE_EX control code [Battery Devices], battery.ioctl_cad_power_source_update_ex, charging/IOCTL_CAD_POWER_SOURCE_UPDATE_EX
 f1_keywords:
  - "charging/IOCTL_CAD_POWER_SOURCE_UPDATE_EX"
+ - "IOCTL_CAD_POWER_SOURCE_UPDATE_EX"
 req.header: charging.h
 req.include-header: 
 req.target-type: Windows

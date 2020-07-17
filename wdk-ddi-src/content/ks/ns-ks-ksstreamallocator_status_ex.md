@@ -10,6 +10,7 @@ keywords: ["KSSTREAMALLOCATOR_STATUS_EX structure"]
 ms.keywords: "*PKSSTREAMALLOCATOR_STATUS_EX, KSSTREAMALLOCATOR_STATUS_EX, KSSTREAMALLOCATOR_STATUS_EX structure [Streaming Media Devices], PKSSTREAMALLOCATOR_STATUS_EX, PKSSTREAMALLOCATOR_STATUS_EX structure pointer [Streaming Media Devices], ks-struct_e62b6482-11b5-48be-9263-719809e9e79d.xml, ks/KSSTREAMALLOCATOR_STATUS_EX, ks/PKSSTREAMALLOCATOR_STATUS_EX, stream.ksstreamallocator_status_ex"
 f1_keywords:
  - "ks/KSSTREAMALLOCATOR_STATUS_EX"
+ - "KSSTREAMALLOCATOR_STATUS_EX"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

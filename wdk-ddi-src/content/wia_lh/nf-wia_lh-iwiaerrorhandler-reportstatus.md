@@ -10,6 +10,7 @@ keywords: ["IWiaErrorHandler::ReportStatus"]
 ms.keywords: IWiaErrorHandler interface [Imaging Devices],ReportStatus method, IWiaErrorHandler.ReportStatus, IWiaErrorHandler::ReportStatus, IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, ReportStatus, ReportStatus method [Imaging Devices], ReportStatus method [Imaging Devices],IWiaErrorHandler interface, image.iwiaerrorhandler_reportstatus, wia_lh/IWiaErrorHandler::ReportStatus
 f1_keywords:
  - "wia_lh/IWiaErrorHandler.ReportStatus"
+ - "IWiaErrorHandler.ReportStatus"
 req.header: wia_lh.h
 req.include-header: Wia.h
 req.target-type: Desktop

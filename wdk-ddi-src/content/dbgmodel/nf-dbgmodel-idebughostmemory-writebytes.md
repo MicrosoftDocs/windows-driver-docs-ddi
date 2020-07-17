@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["IDebugHostMemory::WriteBytes"]
 f1_keywords:
  - "dbgmodel/IDebugHostMemory.WriteBytes"
+ - "IDebugHostMemory.WriteBytes"
 ms.keywords: IDebugHostMemory::WriteBytes, WriteBytes, IDebugHostMemory.WriteBytes, IDebugHostMemory::WriteBytes, IDebugHostMemory.WriteBytes
 req.header: dbgmodel.h
 req.include-header:

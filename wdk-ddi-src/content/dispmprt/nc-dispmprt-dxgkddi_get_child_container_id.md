@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_GET_CHILD_CONTAINER_ID callback function"]
 ms.keywords: DXGKDDI_GET_CHILD_CONTAINER_ID, DXGKDDI_GET_CHILD_CONTAINER_ID callback, DxgkDdiGetChildContainerId, DxgkDdiGetChildContainerId callback function [Display Devices], display.dxgkddigetchildcontainerid, dispmprt/DxgkDdiGetChildContainerId
 f1_keywords:
  - "dispmprt/DxgkDdiGetChildContainerId"
+ - "DxgkDdiGetChildContainerId"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop

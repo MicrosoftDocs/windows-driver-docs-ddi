@@ -10,6 +10,7 @@ keywords: ["NDK_FN_READ callback function"]
 ms.keywords: NDK_FN_READ, NDK_FN_READ callback, NDK_OP_FLAG_DEFER, NDK_OP_FLAG_RDMA_READ_LOCAL_INVALIDATE, NDK_OP_FLAG_READ_FENCE, NDK_OP_FLAG_SILENT_SUCCESS, NdkRead, NdkRead callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkRead, netvista.ndk_fn_read
 f1_keywords:
  - "ndkpi/NdkRead"
+ - "NdkRead"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

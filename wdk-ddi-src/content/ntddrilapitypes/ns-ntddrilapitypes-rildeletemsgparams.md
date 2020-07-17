@@ -10,6 +10,7 @@ keywords: ["RILDELETEMSGPARAMS structure"]
 ms.keywords: "*LPRILDELETEMSGPARAMS, RILDELETEMSGPARAMS, RILDELETEMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeletemsgparams, ntddrilapitypes/RILDELETEMSGPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILDELETEMSGPARAMS"
+ - "RILDELETEMSGPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

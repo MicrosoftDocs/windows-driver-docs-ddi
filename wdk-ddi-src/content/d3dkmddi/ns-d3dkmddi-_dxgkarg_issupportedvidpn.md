@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_ISSUPPORTEDVIDPN structure"]
 ms.keywords: "*INOUT_PDXGKARG_ISSUPPORTEDVIDPN, DXGKARG_ISSUPPORTEDVIDPN, DXGKARG_ISSUPPORTEDVIDPN structure [Display Devices], DmStructs_03198868-50e6-47a1-9119-0fa3bff21ec0.xml, _DXGKARG_ISSUPPORTEDVIDPN, d3dkmddi/DXGKARG_ISSUPPORTEDVIDPN, display.dxgkarg_issupportedvidpn"
 f1_keywords:
  - "d3dkmddi/DXGKARG_ISSUPPORTEDVIDPN"
+ - "DXGKARG_ISSUPPORTEDVIDPN"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

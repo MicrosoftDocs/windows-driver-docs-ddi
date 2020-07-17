@@ -10,6 +10,7 @@ keywords: ["WdfRequestGetRequestorMode function"]
 ms.keywords: DFRequestObjectRef_3c672bff-3d8a-402a-8a0c-19eb4d39e37e.xml, WdfRequestGetRequestorMode, WdfRequestGetRequestorMode method, kmdf.wdfrequestgetrequestormode, wdf.wdfrequestgetrequestormode, wdfrequest/WdfRequestGetRequestorMode
 f1_keywords:
  - "wdfrequest/WdfRequestGetRequestorMode"
+ - "WdfRequestGetRequestorMode"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

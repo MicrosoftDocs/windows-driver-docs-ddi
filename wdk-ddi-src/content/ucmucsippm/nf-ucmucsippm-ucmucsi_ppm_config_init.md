@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["UCMUCSI_PPM_CONFIG_INIT function"]
 f1_keywords:
  - "ucmucsippm/UCMUCSI_PPM_CONFIG_INIT"
+ - "UCMUCSI_PPM_CONFIG_INIT"
 ms.keywords: UCMUCSI_PPM_CONFIG_INIT
 req.header: ucmucsippm.h
 req.include-header: UcmUcsiCx.h

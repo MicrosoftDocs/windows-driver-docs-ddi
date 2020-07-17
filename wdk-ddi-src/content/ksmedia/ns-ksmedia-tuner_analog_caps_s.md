@@ -10,6 +10,7 @@ keywords: ["TUNER_ANALOG_CAPS_S structure"]
 ms.keywords: "*PTUNER_ANALOG_CAPS_S, PTUNER_ANALOG_CAPS_S, PTUNER_ANALOG_CAPS_S structure pointer [Streaming Media Devices], TUNER_ANALOG_CAPS_S, TUNER_ANALOG_CAPS_S structure [Streaming Media Devices], ksmedia/PTUNER_ANALOG_CAPS_S, ksmedia/TUNER_ANALOG_CAPS_S, stream.tuner_analog_caps_s, vidcapstruct_47de7e8b-b88a-4ae7-87eb-ed9fa008eccb.xml"
 f1_keywords:
  - "ksmedia/TUNER_ANALOG_CAPS_S"
+ - "TUNER_ANALOG_CAPS_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

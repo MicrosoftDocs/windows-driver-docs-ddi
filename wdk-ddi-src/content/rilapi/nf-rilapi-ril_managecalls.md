@@ -10,6 +10,7 @@ keywords: ["RIL_ManageCalls function"]
 ms.keywords: RIL_ManageCalls, RIL_ManageCalls method [Network Drivers Starting with Windows Vista], netvista.ril_managecalls, rilapi/RIL_ManageCalls
 f1_keywords:
  - "rilapi/RIL_ManageCalls"
+ - "RIL_ManageCalls"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

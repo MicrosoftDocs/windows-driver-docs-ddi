@@ -10,6 +10,7 @@ keywords: ["USBD_CloseHandle function"]
 ms.keywords: USBD_CloseHandle, USBD_CloseHandle routine [Buses], buses.usbd_unregister, usbdlib/USBD_CloseHandle
 f1_keywords:
  - "usbdlib/USBD_CloseHandle"
+ - "USBD_CloseHandle"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop

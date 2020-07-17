@@ -10,6 +10,7 @@ keywords: ["WdfMemoryCopyFromBuffer function"]
 ms.keywords: DFMemoryObjectRef_5e7dd10c-6902-4965-b868-8f3ba25d4fbc.xml, WdfMemoryCopyFromBuffer, WdfMemoryCopyFromBuffer method, kmdf.wdfmemorycopyfrombuffer, wdf.wdfmemorycopyfrombuffer, wdfmemory/WdfMemoryCopyFromBuffer
 f1_keywords:
  - "wdfmemory/WdfMemoryCopyFromBuffer"
+ - "WdfMemoryCopyFromBuffer"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IWDFRequestCompletionParams::GetCompletionStatus"]
 ms.keywords: GetCompletionStatus, GetCompletionStatus method, GetCompletionStatus method,IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface,GetCompletionStatus method, IWDFRequestCompletionParams.GetCompletionStatus, IWDFRequestCompletionParams::GetCompletionStatus, UMDFRequestObjectRef_b3664f4d-fdb1-425f-be0a-3b4150762b9d.xml, umdf.iwdfrequestcompletionparams_getcompletionstatus, wdf.iwdfrequestcompletionparams_getcompletionstatus, wudfddi/IWDFRequestCompletionParams::GetCompletionStatus
 f1_keywords:
  - "wudfddi/IWDFRequestCompletionParams.GetCompletionStatus"
+ - "IWDFRequestCompletionParams.GetCompletionStatus"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

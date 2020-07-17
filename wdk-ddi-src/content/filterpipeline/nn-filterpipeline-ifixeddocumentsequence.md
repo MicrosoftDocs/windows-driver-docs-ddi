@@ -10,6 +10,7 @@ keywords: ["IFixedDocumentSequence interface"]
 ms.keywords: IFixedDocumentSequence, IFixedDocumentSequence interface [Print Devices], IFixedDocumentSequence interface [Print Devices],described, filterpipeline/IFixedDocumentSequence, filterpipeline_ed0de3e6-e4c7-43e6-a6cf-c16d3a086838.xml, print.ifixeddocumentsequence
 f1_keywords:
  - "filterpipeline/IFixedDocumentSequence"
+ - "IFixedDocumentSequence"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

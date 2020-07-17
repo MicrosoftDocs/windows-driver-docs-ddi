@@ -10,6 +10,7 @@ keywords: ["IFixedPage::GetPrintTicket"]
 ms.keywords: GetPrintTicket, GetPrintTicket method [Print Devices], GetPrintTicket method [Print Devices],IFixedPage interface, IFixedPage interface [Print Devices],GetPrintTicket method, IFixedPage.GetPrintTicket, IFixedPage::GetPrintTicket, filterpipeline/IFixedPage::GetPrintTicket, filterpipeline_13ccb2a1-7898-41d1-b11f-55ca3cc881ab.xml, print.ifixedpage_getprintticket
 f1_keywords:
  - "filterpipeline/IFixedPage.GetPrintTicket"
+ - "IFixedPage.GetPrintTicket"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

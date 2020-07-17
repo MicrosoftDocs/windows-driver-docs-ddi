@@ -10,6 +10,7 @@ keywords: ["_ACPI_METHOD_ARGUMENT_V2 structure"]
 ms.keywords: "*PACPI_METHOD_ARGUMENT_V2, ACPI_METHOD_ARGUMENT_V2, ACPI_METHOD_ARGUMENT_V2 structure [ACPI Devices], PACPI_METHOD_ARGUMENT_V2, PACPI_METHOD_ARGUMENT_V2 structure pointer [ACPI Devices], _ACPI_METHOD_ARGUMENT_V2, acpi.acpi_method_argument_v2, acpiioct/ACPI_METHOD_ARGUMENT_V2, acpiioct/PACPI_METHOD_ARGUMENT_V2"
 f1_keywords:
  - "acpiioct/ACPI_METHOD_ARGUMENT_V2"
+ - "ACPI_METHOD_ARGUMENT_V2"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

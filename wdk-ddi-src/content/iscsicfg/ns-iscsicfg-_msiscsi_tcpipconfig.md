@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_TCPIPConfig structure"]
 ms.keywords: "*PMSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig structure [Storage Devices], PMSiSCSI_TCPIPConfig, PMSiSCSI_TCPIPConfig structure pointer [Storage Devices], _MSiSCSI_TCPIPConfig, iscsicfg/MSiSCSI_TCPIPConfig, iscsicfg/PMSiSCSI_TCPIPConfig, storage.msiscsi_tcpipconfig, structs-iSCSI_4ca5e222-7926-4646-a915-014cf20caed1.xml"
 f1_keywords:
  - "iscsicfg/MSiSCSI_TCPIPConfig"
+ - "MSiSCSI_TCPIPConfig"
 req.header: iscsicfg.h
 req.include-header: Iscsicfg.h
 req.target-type: Windows

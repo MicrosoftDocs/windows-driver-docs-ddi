@@ -10,6 +10,7 @@ keywords: ["IServiceGroup interface"]
 ms.keywords: IServiceGroup, IServiceGroup interface [Audio Devices], IServiceGroup interface [Audio Devices],described, audio.iservicegroup, audmp-routines_10cfd005-be11-47a2-a929-f338f40e6f79.xml, portcls/IServiceGroup
 f1_keywords:
  - "portcls/IServiceGroup"
+ - "IServiceGroup"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

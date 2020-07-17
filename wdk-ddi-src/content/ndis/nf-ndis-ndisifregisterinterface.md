@@ -10,6 +10,7 @@ keywords: ["NdisIfRegisterInterface function"]
 ms.keywords: NdisIfRegisterInterface, NdisIfRegisterInterface function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterInterface, net_if_functions_ref_baca325c-667d-4472-9c91-dbc8fd41d033.xml, netvista.ndisifregisterinterface
 f1_keywords:
  - "ndis/NdisIfRegisterInterface"
+ - "NdisIfRegisterInterface"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

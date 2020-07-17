@@ -10,6 +10,7 @@ keywords: ["IoReportInterruptActive function"]
 ms.keywords: IoReportInterruptActive, IoReportInterruptActive routine [Kernel-Mode Driver Architecture], kernel.ioreportinterruptactive, wdm/IoReportInterruptActive
 f1_keywords:
  - "wdm/IoReportInterruptActive"
+ - "IoReportInterruptActive"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_USB_HCD_DRIVERKEY_NAME structure"]
 ms.keywords: "*PUSB_HCD_DRIVERKEY_NAME, PUSB_HCD_DRIVERKEY_NAME, PUSB_HCD_DRIVERKEY_NAME structure pointer [Buses], USB_HCD_DRIVERKEY_NAME, USB_HCD_DRIVERKEY_NAME structure [Buses], _USB_HCD_DRIVERKEY_NAME, buses.usb_hcd_driverkey_name, usbioctl/PUSB_HCD_DRIVERKEY_NAME, usbioctl/USB_HCD_DRIVERKEY_NAME, usbstrct_f8c10863-dd1e-4771-b243-319a24f69f2a.xml"
 f1_keywords:
  - "usbioctl/USB_HCD_DRIVERKEY_NAME"
+ - "USB_HCD_DRIVERKEY_NAME"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

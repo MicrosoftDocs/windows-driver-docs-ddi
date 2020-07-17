@@ -10,6 +10,7 @@ keywords: ["RILWRITEADDITIONALNUMBERSTRINGPARAMS structure"]
 ms.keywords: "*LPRILWRITEADDITIONALNUMBERSTRINGPARAMS, RILWRITEADDITIONALNUMBERSTRINGPARAMS, RILWRITEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwriteadditionalnumberstringparams, ntddrilapitypes/RILWRITEADDITIONALNUMBERSTRINGPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILWRITEADDITIONALNUMBERSTRINGPARAMS"
+ - "RILWRITEADDITIONALNUMBERSTRINGPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

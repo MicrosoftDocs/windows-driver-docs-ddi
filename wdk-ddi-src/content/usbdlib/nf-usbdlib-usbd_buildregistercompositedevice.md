@@ -10,6 +10,7 @@ keywords: ["USBD_BuildRegisterCompositeDevice function"]
 ms.keywords: USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice routine [Buses], buses.usbd_buildregistercompositedriver, usbdlib/ USBD_BuildRegisterCompositeDevice
 f1_keywords:
  - "usbdlib/USBD_BuildRegisterCompositeDevice"
+ - "USBD_BuildRegisterCompositeDevice"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop

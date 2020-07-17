@@ -10,6 +10,7 @@ keywords: ["PcRemoveStreamResource function"]
 ms.keywords: PcRemoveStreamResource, PcRemoveStreamResource function [Audio Devices], audio.pcremovestreamresource, portcls/PcRemoveStreamResource
 f1_keywords:
  - "portcls/PcRemoveStreamResource"
+ - "PcRemoveStreamResource"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

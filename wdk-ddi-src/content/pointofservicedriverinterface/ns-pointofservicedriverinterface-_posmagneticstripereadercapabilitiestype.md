@@ -10,6 +10,7 @@ keywords: ["_PosMagneticStripeReaderCapabilitiesType structure"]
 ms.keywords: PosMagneticStripeReaderCapabilitiesType, PosMagneticStripeReaderCapabilitiesType structure, _PosMagneticStripeReaderCapabilitiesType, pointofservicedriverinterface/PosMagneticStripeReaderCapabilitiesType, pos.posmagneticstripereadercapabilitiestype
 f1_keywords:
  - "pointofservicedriverinterface/PosMagneticStripeReaderCapabilitiesType"
+ - "PosMagneticStripeReaderCapabilitiesType"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

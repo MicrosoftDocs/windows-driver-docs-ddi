@@ -10,6 +10,7 @@ keywords: ["KeSetHardwareCounterConfiguration function"]
 ms.keywords: KeSetHardwareCounterConfiguration, KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, kernel.kesethardwarecounterconfiguration, ntddk/KeSetHardwareCounterConfiguration
 f1_keywords:
  - "ntddk/KeSetHardwareCounterConfiguration"
+ - "KeSetHardwareCounterConfiguration"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

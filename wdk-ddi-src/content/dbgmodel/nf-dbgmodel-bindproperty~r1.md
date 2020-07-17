@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["BindProperty function"]
 f1_keywords:
  - "dbgmodel/BindProperty"
+ - "BindProperty"
 ms.keywords: BindProperty
 req.header: dbgmodel.h
 req.include-header:

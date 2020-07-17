@@ -10,6 +10,7 @@ keywords: ["ObReferenceObjectByHandleWithTag function"]
 ms.keywords: ObReferenceObjectByHandleWithTag, ObReferenceObjectByHandleWithTag routine [Kernel-Mode Driver Architecture], k107_431c6c60-e2bd-4d90-9054-b950195bbec3.xml, kernel.obreferenceobjectbyhandlewithtag, wdm/ObReferenceObjectByHandleWithTag
 f1_keywords:
  - "wdm/ObReferenceObjectByHandleWithTag"
+ - "ObReferenceObjectByHandleWithTag"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal

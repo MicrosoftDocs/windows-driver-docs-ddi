@@ -10,6 +10,7 @@ ms.date: 11/07/2019
 keywords: ["NetOffloadIsRscIPv4Enabled function"]
 f1_keywords:
  - "netadapteroffload/NetOffloadIsRscIPv4Enabled"
+ - "NetOffloadIsRscIPv4Enabled"
 ms.keywords: NetOffloadIsRscIPv4Enabled
 req.header: netadapteroffload.h
 req.include-header:

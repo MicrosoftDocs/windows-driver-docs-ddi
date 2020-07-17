@@ -10,6 +10,7 @@ keywords: ["_WWAN_USSD_REQUEST_TYPE enumeration"]
 ms.keywords: "*PWWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdRequestCancel, WwanUssdRequestContinue, WwanUssdRequestInitiate, _WWAN_USSD_REQUEST_TYPE, netvista.wwan_ussd_request_type, wwan/WWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestCancel, wwan/WwanUssdRequestContinue, wwan/WwanUssdRequestInitiate"
 f1_keywords:
  - "wwan/WWAN_USSD_REQUEST_TYPE"
+ - "WWAN_USSD_REQUEST_TYPE"
 req.header: wwan.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["SERCX2_PIO_RECEIVE_CONFIG_INIT function"]
 ms.keywords: 2/SERCX2_PIO_RECEIVE_CONFIG_INIT, SERCX2_PIO_RECEIVE_CONFIG_INIT, SERCX2_PIO_RECEIVE_CONFIG_INIT function [Serial Ports], serports.sercx2_pio_receive_config_init
 f1_keywords:
  - "sercx/SERCX2_PIO_RECEIVE_CONFIG_INIT"
+ - "SERCX2_PIO_RECEIVE_CONFIG_INIT"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

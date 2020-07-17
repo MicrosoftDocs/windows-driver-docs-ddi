@@ -10,6 +10,7 @@ keywords: ["MmProbeAndLockPages function"]
 ms.keywords: MmProbeAndLockPages, MmProbeAndLockPages routine [Kernel-Mode Driver Architecture], k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, kernel.mmprobeandlockpages, wdm/MmProbeAndLockPages
 f1_keywords:
  - "wdm/MmProbeAndLockPages"
+ - "MmProbeAndLockPages"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

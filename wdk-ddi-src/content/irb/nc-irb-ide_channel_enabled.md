@@ -10,6 +10,7 @@ keywords: ["IDE_CHANNEL_ENABLED callback function"]
 ms.keywords: AtaControllerChannelEnabled, AtaControllerChannelEnabled routine [Storage Devices], IDE_CHANNEL_ENABLED, atartns_4beac2ec-b776-4af2-9acc-b236e0adc364.xml, irb/AtaControllerChannelEnabled, storage.atacontrollerchannelenabled
 f1_keywords:
  - "irb/AtaControllerChannelEnabled"
+ - "AtaControllerChannelEnabled"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Desktop

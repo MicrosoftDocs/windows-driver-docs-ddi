@@ -10,6 +10,7 @@ keywords: ["_CIP_HDR2_FDF structure"]
 ms.keywords: "*PCIP_HDR2_FDF, CIP_HDR2_FDF, CIP_HDR2_FDF structure [Streaming Media Devices], PCIP_HDR2_FDF, PCIP_HDR2_FDF structure pointer [Streaming Media Devices], _CIP_HDR2_FDF, avcsref_47436092-ff0a-4bd4-97f2-a241da9f328a.xml, avcstrm/CIP_HDR2_FDF, avcstrm/PCIP_HDR2_FDF, stream.cip_hdr2_fdf"
 f1_keywords:
  - "avcstrm/CIP_HDR2_FDF"
+ - "CIP_HDR2_FDF"
 req.header: avcstrm.h
 req.include-header: Avcstrm.h
 req.target-type: Windows

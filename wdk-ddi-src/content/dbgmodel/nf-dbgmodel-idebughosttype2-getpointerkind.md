@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetPointerKind"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetPointerKind"
+ - "IDebugHostType2.GetPointerKind"
 ms.keywords: IDebugHostType2::GetPointerKind, GetPointerKind, IDebugHostType2.GetPointerKind, IDebugHostType2::GetPointerKind, IDebugHostType2.GetPointerKind
 req.header: dbgmodel.h
 req.include-header:

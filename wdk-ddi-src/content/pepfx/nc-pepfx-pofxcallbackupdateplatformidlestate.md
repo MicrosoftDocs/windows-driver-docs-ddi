@@ -10,6 +10,7 @@ keywords: ["POFXCALLBACKUPDATEPLATFORMIDLESTATE callback function"]
 ms.keywords: POFXCALLBACKUPDATEPLATFORMIDLESTATE, UpdatePlatformIdleState, UpdatePlatformIdleState routine [Kernel-Mode Driver Architecture], kernel.updateplatformidlestate, pepfx/UpdatePlatformIdleState
 f1_keywords:
  - "pepfx/UpdatePlatformIdleState"
+ - "UpdatePlatformIdleState"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

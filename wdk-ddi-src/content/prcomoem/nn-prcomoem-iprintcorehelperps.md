@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelperPS interface"]
 ms.keywords: IPrintCoreHelperPS, IPrintCoreHelperPS interface [Print Devices], IPrintCoreHelperPS interface [Print Devices],described, prcomoem/IPrintCoreHelperPS, print.iprintcorehelperps_interface, print_unidrv-pscript_allplugins_793ff9db-3ae7-4c10-a84e-bc974a72529e.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelperPS"
+ - "IPrintCoreHelperPS"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

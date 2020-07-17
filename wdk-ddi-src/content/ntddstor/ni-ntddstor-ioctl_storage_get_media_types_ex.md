@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_GET_MEDIA_TYPES_EX IOCTL"]
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES_EX, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control, IOCTL_STORAGE_GET_MEDIA_TYPES_EX control code [Storage Devices], k307_6dad39e5-7a8b-477d-a96d-5f00fe7fee7b.xml, ntddstor/IOCTL_STORAGE_GET_MEDIA_TYPES_EX, storage.ioctl_storage_get_media_types_ex
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_GET_MEDIA_TYPES_EX"
+ - "IOCTL_STORAGE_GET_MEDIA_TYPES_EX"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

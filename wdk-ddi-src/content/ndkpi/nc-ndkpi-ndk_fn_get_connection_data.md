@@ -10,6 +10,7 @@ keywords: ["NDK_FN_GET_CONNECTION_DATA callback function"]
 ms.keywords: NDK_FN_GET_CONNECTION_DATA, NDK_FN_GET_CONNECTION_DATA callback, NdkGetConnectionData, NdkGetConnectionData callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetConnectionData, netvista.ndk_fn_get_connection_data
 f1_keywords:
  - "ndkpi/NdkGetConnectionData"
+ - "NdkGetConnectionData"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

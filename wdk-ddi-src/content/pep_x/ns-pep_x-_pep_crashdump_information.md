@@ -10,6 +10,7 @@ keywords: ["_PEP_CRASHDUMP_INFORMATION structure"]
 ms.keywords: "*PPEP_CRASHDUMP_INFORMATION, PEP_CRASHDUMP_INFORMATION, PEP_CRASHDUMP_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_CRASHDUMP_INFORMATION, PPEP_CRASHDUMP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_CRASHDUMP_INFORMATION, kernel.pep_crashdump_information, pepfx/PEP_CRASHDUMP_INFORMATION, pepfx/PPEP_CRASHDUMP_INFORMATION"
 f1_keywords:
  - "pep_x/PEP_CRASHDUMP_INFORMATION"
+ - "PEP_CRASHDUMP_INFORMATION"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_URB_SELECT_INTERFACE structure"]
 ms.keywords: "_URB_SELECT_INTERFACE, _URB_SELECT_INTERFACE structure [Buses], buses._urb_select_interface, usb/_URB_SELECT_INTERFACE, usbstrct_c23c108d-422b-4dee-a1de-a5e341fc1800.xml"
 f1_keywords:
  - "usb/_URB_SELECT_INTERFACE"
+ - "_URB_SELECT_INTERFACE"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows

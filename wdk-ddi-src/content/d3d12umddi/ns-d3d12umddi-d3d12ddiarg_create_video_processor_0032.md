@@ -9,6 +9,7 @@ keywords: ["D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 structure"]
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032, display.d3d12ddiarg-create-video-processor-0032
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032"
+ - "D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0032"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows

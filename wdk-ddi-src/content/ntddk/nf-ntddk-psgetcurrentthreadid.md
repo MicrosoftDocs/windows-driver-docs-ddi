@@ -10,6 +10,7 @@ keywords: ["PsGetCurrentThreadId function"]
 ms.keywords: PsGetCurrentThreadId, PsGetCurrentThreadId routine [Kernel-Mode Driver Architecture], k108_eae0d8bf-f2fe-49dd-b3b7-6da9114f844a.xml, kernel.psgetcurrentthreadid, ntddk/PsGetCurrentThreadId
 f1_keywords:
  - "ntddk/PsGetCurrentThreadId"
+ - "PsGetCurrentThreadId"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["RxCeQueryTransportInformation function"]
 ms.keywords: RxCeQueryTransportInformation, RxCeQueryTransportInformation function [Installable File System Drivers], ifsk.rxcequerytransportinformation, rxce/RxCeQueryTransportInformation, rxref_db01b7e1-b0ea-4d42-99b8-c9b55fc34fb6.xml
 f1_keywords:
  - "rxce/RxCeQueryTransportInformation"
+ - "RxCeQueryTransportInformation"
 req.header: rxce.h
 req.include-header: Rxce.h, Rxcehdlr.h, Tdi.h
 req.target-type: Desktop

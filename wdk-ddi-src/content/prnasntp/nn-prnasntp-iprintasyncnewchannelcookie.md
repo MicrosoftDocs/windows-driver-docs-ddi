@@ -10,6 +10,7 @@ keywords: ["IPrintAsyncNewChannelCookie interface"]
 ms.keywords: IPrintAsyncNewChannelCookie, IPrintAsyncNewChannelCookie interface [Print Devices], IPrintAsyncNewChannelCookie interface [Print Devices],described, print.iprintasyncnewchannelcookie, prnasntp/IPrintAsyncNewChannelCookie
 f1_keywords:
  - "prnasntp/IPrintAsyncNewChannelCookie"
+ - "IPrintAsyncNewChannelCookie"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

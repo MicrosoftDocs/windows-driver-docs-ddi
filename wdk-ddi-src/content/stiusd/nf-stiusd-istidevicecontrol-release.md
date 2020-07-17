@@ -10,6 +10,7 @@ keywords: ["IStiDeviceControl::Release"]
 ms.keywords: IStiDeviceControl interface [Imaging Devices],Release method, IStiDeviceControl.Release, IStiDeviceControl::Release, Release, Release method [Imaging Devices], Release method [Imaging Devices],IStiDeviceControl interface, image.istidevicecontrol_release, stifnc_c0e50ea5-46e3-4b30-92b4-be6906647671.xml, stiusd/IStiDeviceControl::Release
 f1_keywords:
  - "stiusd/IStiDeviceControl.Release"
+ - "IStiDeviceControl.Release"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop

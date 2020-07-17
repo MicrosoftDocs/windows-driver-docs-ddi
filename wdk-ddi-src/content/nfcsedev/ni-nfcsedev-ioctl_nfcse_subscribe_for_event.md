@@ -10,6 +10,7 @@ keywords: ["IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT IOCTL"]
 ms.keywords: IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT, IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT control, IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT, nfpdrivers.ioctl_nfcse_subscribe_for_event
 f1_keywords:
  - "nfcsedev/IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT"
+ - "IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows

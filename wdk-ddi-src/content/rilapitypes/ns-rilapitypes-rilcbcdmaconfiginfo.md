@@ -10,6 +10,7 @@ keywords: ["RILCBCDMACONFIGINFO structure"]
 ms.keywords: "*LPRILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcbcdmaconfiginfo, ntddrilapitypes/RILCBCDMACONFIGINFO"
 f1_keywords:
  - "rilapitypes/RILCBCDMACONFIGINFO"
+ - "RILCBCDMACONFIGINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

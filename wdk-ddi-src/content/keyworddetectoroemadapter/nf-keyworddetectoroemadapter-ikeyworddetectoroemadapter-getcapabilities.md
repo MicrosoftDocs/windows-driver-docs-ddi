@@ -10,6 +10,7 @@ keywords: ["IKeywordDetectorOemAdapter::GetCapabilities"]
 ms.keywords: GetCapabilities, GetCapabilities method [Audio Devices], GetCapabilities method [Audio Devices],IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices],GetCapabilities method, IKeywordDetectorOemAdapter.GetCapabilities, IKeywordDetectorOemAdapter::GetCapabilities, audio.ikeyworddetectoroemadapter_getcapabilities, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::GetCapabilities
 f1_keywords:
  - "keyworddetectoroemadapter/IKeywordDetectorOemAdapter.GetCapabilities"
+ - "IKeywordDetectorOemAdapter.GetCapabilities"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows

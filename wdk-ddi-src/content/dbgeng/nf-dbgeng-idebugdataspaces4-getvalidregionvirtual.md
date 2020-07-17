@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces4::GetValidRegionVirtual"]
 ms.keywords: GetValidRegionVirtual, GetValidRegionVirtual method [Windows Debugging], GetValidRegionVirtual method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging],GetValidRegionVirtual method, IDebugDataSpaces4.GetValidRegionVirtual, IDebugDataSpaces4::GetValidRegionVirtual, IDebugDataSpaces_594749e6-fa97-49fb-aabe-643ac4415ed9.xml, dbgeng/IDebugDataSpaces4::GetValidRegionVirtual, debugger.getvalidregionvirtual
 f1_keywords:
  - "dbgeng/IDebugDataSpaces4.GetValidRegionVirtual"
+ - "IDebugDataSpaces4.GetValidRegionVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

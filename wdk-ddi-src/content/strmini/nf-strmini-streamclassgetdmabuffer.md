@@ -10,6 +10,7 @@ keywords: ["StreamClassGetDmaBuffer function"]
 ms.keywords: StreamClassGetDmaBuffer, StreamClassGetDmaBuffer routine [Streaming Media Devices], strclass-routines_d010423c-9c48-4dee-8ca3-f4b2854d14c9.xml, stream.streamclassgetdmabuffer, strmini/StreamClassGetDmaBuffer
 f1_keywords:
  - "strmini/StreamClassGetDmaBuffer"
+ - "StreamClassGetDmaBuffer"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop

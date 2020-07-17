@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_BRIGHTNESS_NIT_RANGE structure"]
 f1_keywords:
  - "d3dkmdt/_DXGK_BRIGHTNESS_NIT_RANGE"
+ - "_DXGK_BRIGHTNESS_NIT_RANGE"
 ms.keywords: _DXGK_BRIGHTNESS_NIT_RANGE, DXGK_BRIGHTNESS_NIT_RANGE,
 req.header: d3dkmdt.h
 req.include-header:

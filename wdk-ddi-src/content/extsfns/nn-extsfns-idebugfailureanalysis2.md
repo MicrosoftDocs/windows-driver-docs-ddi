@@ -10,6 +10,7 @@ keywords: ["IDebugFailureAnalysis2 interface"]
 ms.keywords: IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], IDebugFailureAnalysis2 interface [Windows Debugging],described, debugger.idebugfailureanalysis2, extsfns/IDebugFailureAnalysis2
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2"
+ - "IDebugFailureAnalysis2"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Windows

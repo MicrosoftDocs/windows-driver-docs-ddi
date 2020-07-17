@@ -10,6 +10,7 @@ keywords: ["_WDF_PDO_EVENT_CALLBACKS structure"]
 ms.keywords: "*PWDF_PDO_EVENT_CALLBACKS, DFDeviceObjectFdoPdoRef_7a22d0f9-82ea-448e-8272-d3009beea440.xml, PWDF_PDO_EVENT_CALLBACKS, PWDF_PDO_EVENT_CALLBACKS structure pointer, WDF_PDO_EVENT_CALLBACKS, WDF_PDO_EVENT_CALLBACKS structure, _WDF_PDO_EVENT_CALLBACKS, kmdf.wdf_pdo_event_callbacks, wdf.wdf_pdo_event_callbacks, wdfpdo/PWDF_PDO_EVENT_CALLBACKS, wdfpdo/WDF_PDO_EVENT_CALLBACKS"
 f1_keywords:
  - "wdfpdo/WDF_PDO_EVENT_CALLBACKS"
+ - "WDF_PDO_EVENT_CALLBACKS"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["GET_ISO_URB_SIZE macro"]
 ms.keywords: GET_ISO_URB_SIZE, GET_ISO_URB_SIZE macro [Buses], buses.get_iso_urb_size, usbdlib/GET_ISO_URB_SIZE, usbfunc_949a4f14-4bc8-4ba1-821c-f81c6bcec0fa.xml
 f1_keywords:
  - "usbdlib/GET_ISO_URB_SIZE"
+ - "GET_ISO_URB_SIZE"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Windows

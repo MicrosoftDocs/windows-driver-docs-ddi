@@ -10,6 +10,7 @@ ms.date: 09/24/2019
 keywords: ["NetExtensionGetPacketRsc function"]
 f1_keywords:
  - "rsc/NetExtensionGetPacketRsc"
+ - "NetExtensionGetPacketRsc"
 ms.keywords: NetExtensionGetPacketRsc
 req.header: rsc.h
 req.include-header:

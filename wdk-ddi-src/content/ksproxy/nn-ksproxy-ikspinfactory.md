@@ -10,6 +10,7 @@ keywords: ["IKsPinFactory interface"]
 ms.keywords: IKsPinFactory, IKsPinFactory interface [Streaming Media Devices], IKsPinFactory interface [Streaming Media Devices],described, ksproxy/IKsPinFactory, ksproxy_df24cea8-a5d7-474c-bd70-53068078e6c6.xml, stream.ikspinfactory
 f1_keywords:
  - "ksproxy/IKsPinFactory"
+ - "IKsPinFactory"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows

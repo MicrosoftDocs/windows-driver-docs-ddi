@@ -10,6 +10,7 @@ keywords: ["PFN_DrvUnidriverTextOut callback function"]
 ms.keywords: PFN_DrvUnidriverTextOut, PFN_DrvUnidriverTextOut callback, PFN_DrvUnidriverTextOut callback function [Print Devices], print.drvunidrivertextout, print_obsoletefunctions_eeb13110-561c-4c0f-912b-1a3a1cebd846.xml, printoem/PFN_DrvUnidriverTextOut
 f1_keywords:
  - "printoem/PFN_DrvUnidriverTextOut"
+ - "PFN_DrvUnidriverTextOut"
 req.header: printoem.h
 req.include-header: 
 req.target-type: Windows

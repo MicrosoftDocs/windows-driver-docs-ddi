@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters::GetIndexByName"]
 ms.keywords: GetIndexByName, GetIndexByName method [Windows Debugging], GetIndexByName method [Windows Debugging],IDebugRegisters interface, GetIndexByName method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetIndexByName method, IDebugRegisters.GetIndexByName, IDebugRegisters2 interface [Windows Debugging],GetIndexByName method, IDebugRegisters2::GetIndexByName, IDebugRegisters::GetIndexByName, IDebugRegisters_5b85eaa4-3c90-47e0-9f7f-7f493617fa37.xml, dbgeng/IDebugRegisters2::GetIndexByName, dbgeng/IDebugRegisters::GetIndexByName, debugger.getindexbyname
 f1_keywords:
  - "dbgeng/IDebugRegisters.GetIndexByName"
+ - "IDebugRegisters.GetIndexByName"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop

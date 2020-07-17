@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2RESPONSEQUERY structure"]
 ms.keywords: "*LPD3DHAL_DP2RESPONSEQUERY, D3DHAL_DP2RESPONSEQUERY, D3DHAL_DP2RESPONSEQUERY structure [Display Devices], LPD3DHAL_DP2RESPONSEQUERY, LPD3DHAL_DP2RESPONSEQUERY structure pointer [Display Devices], _D3DHAL_DP2RESPONSEQUERY, d3dhal/D3DHAL_DP2RESPONSEQUERY, d3dhal/LPD3DHAL_DP2RESPONSEQUERY, d3dstrct_6164398f-06cc-4d18-8793-8dbbbdd63b40.xml, display.d3dhal_dp2responsequery"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2RESPONSEQUERY"
+ - "D3DHAL_DP2RESPONSEQUERY"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

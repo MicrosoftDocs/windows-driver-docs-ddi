@@ -10,6 +10,7 @@ keywords: ["_USBD_VERSION_INFORMATION structure"]
 ms.keywords: "*PUSBD_VERSION_INFORMATION, PUSBD_VERSION_INFORMATION, PUSBD_VERSION_INFORMATION structure pointer [Buses], USBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION structure [Buses], _USBD_VERSION_INFORMATION, buses.usbd_version_information, usb/PUSBD_VERSION_INFORMATION, usb/USBD_VERSION_INFORMATION, usbstrct_2871bd56-3ee1-48ab-8353-d19b74470ff1.xml"
 f1_keywords:
  - "usb/USBD_VERSION_INFORMATION"
+ - "USBD_VERSION_INFORMATION"
 req.header: usb.h
 req.include-header: Usbbusif.h
 req.target-type: Windows

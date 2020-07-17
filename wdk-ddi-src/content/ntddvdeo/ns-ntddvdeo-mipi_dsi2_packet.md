@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["MIPI_DSI2_PACKET structure"]
 f1_keywords:
  - "ntddvdeo/MIPI_DSI2_PACKET"
+ - "MIPI_DSI2_PACKET"
 ms.keywords: MIPI_DSI2_PACKET, MIPI_DSI2_PACKET, 
 req.header: ntddvdeo.h
 req.include-header:

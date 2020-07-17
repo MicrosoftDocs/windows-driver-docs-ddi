@@ -10,6 +10,7 @@ keywords: ["RxCreateMidAtlas function"]
 ms.keywords: RxCreateMidAtlas, RxCreateMidAtlas function [Installable File System Drivers], ifsk.rxcreatemidatlas, midatlax/RxCreateMidAtlas, rxref_539434e3-e1ea-4c97-b480-51bfe40eb44e.xml
 f1_keywords:
  - "midatlax/RxCreateMidAtlas"
+ - "RxCreateMidAtlas"
 req.header: midatlax.h
 req.include-header: Midatlax.h
 req.target-type: Desktop

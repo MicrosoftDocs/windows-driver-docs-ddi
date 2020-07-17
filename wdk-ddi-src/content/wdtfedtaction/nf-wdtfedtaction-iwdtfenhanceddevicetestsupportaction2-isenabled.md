@@ -10,6 +10,7 @@ keywords: ["IWDTFEnhancedDeviceTestSupportAction2::IsEnabled"]
 ms.keywords: IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework],IsEnabled method, IWDTFEnhancedDeviceTestSupportAction2.IsEnabled, IWDTFEnhancedDeviceTestSupportAction2::IsEnabled, IsEnabled, IsEnabled method [Windows Device Testing Framework], IsEnabled method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportAction2 interface, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.IsEnabled, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::IsEnabled, dtf.iwdtfenhanceddevicetestsupportaction2_isenabled, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::IsEnabled
 f1_keywords:
  - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2.IsEnabled"
+ - "IWDTFEnhancedDeviceTestSupportAction2.IsEnabled"
 req.header: wdtfedtaction.h
 req.include-header: 
 req.target-type: Desktop

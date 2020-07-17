@@ -10,6 +10,7 @@ keywords: ["HidD_SetOutputReport function"]
 ms.keywords: HidD_SetOutputReport, HidD_SetOutputReport routine [Human Input Devices], hid.hidd_setoutputreport, hidfunc_eb711fe9-fdf1-4757-90c1-6c4e115f3805.xml, hidsdi/HidD_SetOutputReport
 f1_keywords:
  - "hidsdi/HidD_SetOutputReport"
+ - "HidD_SetOutputReport"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.date: 03/12/2019
 keywords: ["FltTagFileEx function"]
 f1_keywords:
  - "fltkernel/FltTagFileEx"
+ - "FltTagFileEx"
 ms.keywords: FltTagFileEx, FltTagFile
 req.header: fltkernel.h
 req.include-header:

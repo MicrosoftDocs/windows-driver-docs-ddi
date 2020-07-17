@@ -10,6 +10,7 @@ keywords: ["_WDI_TXRX_MPDU_PN structure"]
 ms.keywords: WDI_TXRX_MPDU_PN, WDI_TXRX_MPDU_PN union [Network Drivers Starting with Windows Vista], _WDI_TXRX_MPDU_PN, dot11wdi/WDI_TXRX_MPDU_PN, netvista.wdi_txrx_mpdu_pn
 f1_keywords:
  - "dot11wdi/WDI_TXRX_MPDU_PN"
+ - "WDI_TXRX_MPDU_PN"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

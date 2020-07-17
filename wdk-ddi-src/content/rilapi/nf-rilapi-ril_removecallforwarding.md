@@ -10,6 +10,7 @@ keywords: ["RIL_RemoveCallForwarding function"]
 ms.keywords: RIL_RemoveCallForwarding, RIL_RemoveCallForwarding method [Network Drivers Starting with Windows Vista], netvista.ril_removecallforwarding, rilapi/RIL_RemoveCallForwarding
 f1_keywords:
  - "rilapi/RIL_RemoveCallForwarding"
+ - "RIL_RemoveCallForwarding"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

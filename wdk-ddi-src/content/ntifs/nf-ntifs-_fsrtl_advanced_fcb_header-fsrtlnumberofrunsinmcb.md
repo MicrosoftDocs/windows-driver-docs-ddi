@@ -10,6 +10,7 @@ keywords: ["FsRtlNumberOfRunsInMcb function"]
 ms.keywords: FsRtlNumberOfRunsInMcb, FsRtlNumberOfRunsInMcb function [Installable File System Drivers], fsrtlref_2f405315-e2d0-45f0-95de-61b397b20f11.xml, ifsk.fsrtlnumberofrunsinmcb, ntifs/FsRtlNumberOfRunsInMcb
 f1_keywords:
  - "ntifs/FsRtlNumberOfRunsInMcb"
+ - "FsRtlNumberOfRunsInMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

@@ -9,6 +9,7 @@ keywords: ["_DXGK_HDR_METADATA structure"]
 ms.keywords: DXGK_HDR_METADATA, DXGK_HDR_METADATA structure [Display Devices], _DXGK_HDR_METADATA, d3dkmddi/DXGK_HDR_METADATA, display.dxgk_hdr_metadata
 f1_keywords:
  - "d3dkmddi/DXGK_HDR_METADATA"
+ - "DXGK_HDR_METADATA"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

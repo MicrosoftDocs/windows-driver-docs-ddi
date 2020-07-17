@@ -10,6 +10,7 @@ keywords: ["RtlHashUnicodeString function"]
 ms.keywords: RtlHashUnicodeString, RtlHashUnicodeString routine [Kernel-Mode Driver Architecture], k109_090277b1-32f6-4c3d-b1fc-bacec35efc1d.xml, kernel.rtlhashunicodestring, wdm/RtlHashUnicodeString
 f1_keywords:
  - "wdm/RtlHashUnicodeString"
+ - "RtlHashUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

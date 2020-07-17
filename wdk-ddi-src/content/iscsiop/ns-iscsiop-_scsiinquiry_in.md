@@ -10,6 +10,7 @@ keywords: ["_ScsiInquiry_IN structure"]
 ms.keywords: "*PScsiInquiry_IN, PScsiInquiry_IN, PScsiInquiry_IN structure pointer [Storage Devices], ScsiInquiry_IN, ScsiInquiry_IN structure [Storage Devices], _ScsiInquiry_IN, iscsiop/PScsiInquiry_IN, iscsiop/ScsiInquiry_IN, storage.scsiinquiry_in, structs-iSCSI_2129d82b-f03d-49f2-bf1d-8716840d086c.xml"
 f1_keywords:
  - "iscsiop/ScsiInquiry_IN"
+ - "ScsiInquiry_IN"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfInterruptQueueDpcForIsr function"]
 ms.keywords: DFInterruptObjectRef_c77c2aa3-e142-4226-aa9d-fb31d408e335.xml, WdfInterruptQueueDpcForIsr, WdfInterruptQueueDpcForIsr method, kmdf.wdfinterruptqueuedpcforisr, wdf.wdfinterruptqueuedpcforisr, wdfinterrupt/WdfInterruptQueueDpcForIsr
 f1_keywords:
  - "wdfinterrupt/WdfInterruptQueueDpcForIsr"
+ - "WdfInterruptQueueDpcForIsr"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal

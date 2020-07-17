@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::WriteBuffer"]
 ms.keywords: EngExtCpp_Ref_0a08b058-ddc3-44e4-9d80-bb20d6e8f952.xml, ExtRemoteData class [Windows Debugging],WriteBuffer method, ExtRemoteData.WriteBuffer, ExtRemoteData::WriteBuffer, WriteBuffer, WriteBuffer method [Windows Debugging], WriteBuffer method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_writebuffer
 f1_keywords:
  - "engextcpp/ExtRemoteData.WriteBuffer"
+ - "ExtRemoteData.WriteBuffer"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

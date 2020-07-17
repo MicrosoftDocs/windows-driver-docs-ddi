@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IPreferredRuntimeTypeConcept::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IPreferredRuntimeTypeConcept.QueryInterface"
+ - "IPreferredRuntimeTypeConcept.QueryInterface"
 ms.keywords: IPreferredRuntimeTypeConcept::QueryInterface, QueryInterface, IPreferredRuntimeTypeConcept.QueryInterface, IPreferredRuntimeTypeConcept::QueryInterface, IPreferredRuntimeTypeConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

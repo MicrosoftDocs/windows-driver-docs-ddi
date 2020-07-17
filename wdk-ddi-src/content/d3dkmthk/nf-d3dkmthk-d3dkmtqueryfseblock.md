@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTQueryFSEBlock function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTQueryFSEBlock"
+ - "D3DKMTQueryFSEBlock"
 ms.keywords: D3DKMTQueryFSEBlock
 req.header: d3dkmthk.h
 req.include-header:

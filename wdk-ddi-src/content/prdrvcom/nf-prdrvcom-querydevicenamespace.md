@@ -10,6 +10,7 @@ keywords: ["QueryDeviceNamespace function"]
 ms.keywords: IPrintTicketProvider interface [Print Devices],QueryDeviceNamespace method, IPrintTicketProvider::QueryDeviceNamespace, QueryDeviceNamespace, QueryDeviceNamespace method [Print Devices], QueryDeviceNamespace method [Print Devices],IPrintTicketProvider interface, prdrvcom/IPrintTicketProvider::QueryDeviceNamespace, print.iprintticketprovider_querydevicenamespace, print_ticket-package_af00ca31-6882-4a84-8bc4-c8267b49ce30.xml
 f1_keywords:
  - "prdrvcom/IPrintTicketProvider.QueryDeviceNamespace"
+ - "IPrintTicketProvider.QueryDeviceNamespace"
 req.header: prdrvcom.h
 req.include-header: Prdrvcom.h
 req.target-type: Desktop

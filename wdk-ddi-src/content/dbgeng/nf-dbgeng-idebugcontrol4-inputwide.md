@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::InputWide"]
 ms.keywords: IDebugControl4 interface [Windows Debugging],InputWide method, IDebugControl4.InputWide, IDebugControl4::InputWide, InputWide, InputWide method [Windows Debugging], InputWide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::InputWide, debugger.inputwide
 f1_keywords:
  - "dbgeng/IDebugControl4.InputWide"
+ - "IDebugControl4.InputWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

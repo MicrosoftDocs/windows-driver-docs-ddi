@@ -10,6 +10,7 @@ keywords: ["InterlockedDecrement function"]
 ms.keywords: InterlockedDecrement, InterlockedDecrement routine [Kernel-Mode Driver Architecture], k102_cc85e517-f056-413e-a095-671867632613.xml, kernel.interlockeddecrement, wdm/InterlockedDecrement
 f1_keywords:
  - "wdm/InterlockedDecrement"
+ - "InterlockedDecrement"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal

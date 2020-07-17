@@ -10,6 +10,7 @@ keywords: ["IPortWavePci::NewMasterDmaChannel"]
 ms.keywords: IPortWavePci interface [Audio Devices],NewMasterDmaChannel method, IPortWavePci.NewMasterDmaChannel, IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel method [Audio Devices],IPortWavePci interface, audio.iportwavepci_newmasterdmachannel, audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml, portcls/IPortWavePci::NewMasterDmaChannel
 f1_keywords:
  - "portcls/IPortWavePci.NewMasterDmaChannel"
+ - "IPortWavePci.NewMasterDmaChannel"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

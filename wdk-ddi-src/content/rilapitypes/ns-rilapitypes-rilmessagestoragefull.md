@@ -10,6 +10,7 @@ keywords: ["RILMESSAGESTORAGEFULL structure"]
 ms.keywords: "*LPRILMESSAGESTORAGEFULL, RILMESSAGESTORAGEFULL, RILMESSAGESTORAGEFULL structure [Network Drivers Starting with Windows Vista], netvista.rilmessagestoragefull, ntddrilapitypes/RILMESSAGESTORAGEFULL"
 f1_keywords:
  - "rilapitypes/RILMESSAGESTORAGEFULL"
+ - "RILMESSAGESTORAGEFULL"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

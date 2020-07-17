@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES callback function"]
 ms.keywords: DFQueueObjectRef_85702d4a-4861-4512-a392-f106e038d3be.xml, EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES, EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES callback, EvtIoAllocateRequestResources, EvtIoAllocateRequestResources callback function, kmdf.evtioallocaterequestresources, wdf.evtioallocaterequestresources, wdfio/EvtIoAllocateRequestResources
 f1_keywords:
  - "wdfio/EvtIoAllocateRequestResources"
+ - "EvtIoAllocateRequestResources"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

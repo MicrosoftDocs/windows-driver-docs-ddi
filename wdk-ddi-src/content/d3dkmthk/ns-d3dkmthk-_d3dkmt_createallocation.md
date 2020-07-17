@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATEALLOCATION structure"]
 ms.keywords: D3DKMT_CREATEALLOCATION, D3DKMT_CREATEALLOCATION structure [Display Devices], OpenGL_Structs_983d37f8-47ad-40ea-b3da-2a211e9f0967.xml, _D3DKMT_CREATEALLOCATION, d3dkmthk/D3DKMT_CREATEALLOCATION, display.d3dkmt_createallocation
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEALLOCATION"
+ - "D3DKMT_CREATEALLOCATION"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

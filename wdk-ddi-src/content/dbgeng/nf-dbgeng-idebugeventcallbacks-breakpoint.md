@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacks::Breakpoint"]
 ms.keywords: Breakpoint, Breakpoint method [Windows Debugging], Breakpoint method [Windows Debugging],IDebugEventCallbacks interface, ComCallbacks_16ba89ba-0eb2-4565-ba29-5865abffe1bc.xml, IDebugEventCallbacks interface [Windows Debugging],Breakpoint method, IDebugEventCallbacks.Breakpoint, IDebugEventCallbacks::Breakpoint, dbgeng/IDebugEventCallbacks::Breakpoint, debugger.idebugeventcallbacks_breakpoint
 f1_keywords:
  - "dbgeng/IDebugEventCallbacks.Breakpoint"
+ - "IDebugEventCallbacks.Breakpoint"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

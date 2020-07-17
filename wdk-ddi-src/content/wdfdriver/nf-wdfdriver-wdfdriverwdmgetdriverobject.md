@@ -10,6 +10,7 @@ keywords: ["WdfDriverWdmGetDriverObject function"]
 ms.keywords: DFDriverObjectRef_f196dc43-394e-4839-a64d-8af756f5a374.xml, WdfDriverWdmGetDriverObject, WdfDriverWdmGetDriverObject method, kmdf.wdfdriverwdmgetdriverobject, wdf.wdfdriverwdmgetdriverobject, wdfdriver/WdfDriverWdmGetDriverObject
 f1_keywords:
  - "wdfdriver/WdfDriverWdmGetDriverObject"
+ - "WdfDriverWdmGetDriverObject"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_CREATECONTEXT structure"]
 ms.keywords: "*INOUT_PDXGKARG_CREATECONTEXT, DXGKARG_CREATECONTEXT, DXGKARG_CREATECONTEXT structure [Display Devices], DmStructs_f88f9027-046c-482e-93c6-882c325d1a09.xml, _DXGKARG_CREATECONTEXT, d3dkmddi/DXGKARG_CREATECONTEXT, display.dxgkarg_createcontext"
 f1_keywords:
  - "d3dkmddi/DXGKARG_CREATECONTEXT"
+ - "DXGKARG_CREATECONTEXT"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

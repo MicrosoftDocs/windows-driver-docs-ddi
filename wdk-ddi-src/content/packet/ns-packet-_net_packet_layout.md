@@ -8,6 +8,7 @@ ms.date: 09/27/2019
 keywords: ["_NET_PACKET_LAYOUT structure"]
 f1_keywords:
  - "packet/RegisterOpRegionHandler"
+ - "RegisterOpRegionHandler"
 ms.keywords: _NET_PACKET_LAYOUT, NET_PACKET_LAYOUT, *PNET_PACKET_LAYOUT, _NET_PACKET_LAYER2_TYPE, NET_PACKET_LAYER2_TYPE, _NET_PACKET_LAYER3_TYPE, NET_PACKET_LAYER3_TYPE, _NET_PACKET_LAYER4_TYPE, NET_PACKET_LAYER4_TYPE
 req.header: packet.h
 req.include-header:

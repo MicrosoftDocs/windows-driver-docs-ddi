@@ -10,6 +10,7 @@ keywords: ["IoCallDriver macro"]
 ms.keywords: IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture], k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, kernel.iocalldriver, wdm/IoCallDriver
 f1_keywords:
  - "wdm/IoCallDriver"
+ - "IoCallDriver"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

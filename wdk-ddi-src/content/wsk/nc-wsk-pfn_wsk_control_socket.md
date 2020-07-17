@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_CONTROL_SOCKET callback function"]
 ms.keywords: PFN_WSK_CONTROL_SOCKET, PFN_WSK_CONTROL_SOCKET callback, WskControlSocket, WskControlSocket callback function [Network Drivers Starting with Windows Vista], netvista.wskcontrolsocket, wsk/WskControlSocket, wskref_03c8029d-c31f-4010-9e56-e4c1f91930c5.xml
 f1_keywords:
  - "wsk/WskControlSocket"
+ - "WskControlSocket"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

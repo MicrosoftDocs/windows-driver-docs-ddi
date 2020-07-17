@@ -12,6 +12,7 @@ ms.keywords: STOR_DISPATCHER_HEADER, STOR_DISPATCHER_HEADER, *PSTOR_DISPATCHER_H
 req.header: storport.h
 f1_keywords:
  - "storport/STOR_DISPATCHER_HEADER"
+ - "STOR_DISPATCHER_HEADER"
 req.include-header:
 req.target-type:
 req.target-min-winverclnt: Windows 10, version 2004

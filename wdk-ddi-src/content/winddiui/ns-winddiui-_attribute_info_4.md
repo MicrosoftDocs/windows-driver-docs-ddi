@@ -10,6 +10,7 @@ keywords: ["_ATTRIBUTE_INFO_4 structure"]
 ms.keywords: "*PATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4 structure [Print Devices], PATTRIBUTE_INFO_4, PATTRIBUTE_INFO_4 structure pointer [Print Devices], _ATTRIBUTE_INFO_4, print.attribute_info_4, print_interface-graphics_7fa07014-1d16-48c0-be12-cb5026d8f285.xml, winddiui/ATTRIBUTE_INFO_4, winddiui/PATTRIBUTE_INFO_4"
 f1_keywords:
  - "winddiui/ATTRIBUTE_INFO_4"
+ - "ATTRIBUTE_INFO_4"
 req.header: winddiui.h
 req.include-header: Winddiui.h, Winsplp.h
 req.target-type: Windows

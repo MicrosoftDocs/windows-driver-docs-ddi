@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IModelObject::ClearKeys"]
 f1_keywords:
  - "dbgmodel/IModelObject.ClearKeys"
+ - "IModelObject.ClearKeys"
 ms.keywords: IModelObject::ClearKeys, ClearKeys, IModelObject.ClearKeys, IModelObject::ClearKeys, IModelObject.ClearKeys
 req.header: dbgmodel.h
 req.include-header:

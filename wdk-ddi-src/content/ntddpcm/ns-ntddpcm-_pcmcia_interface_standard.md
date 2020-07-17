@@ -10,6 +10,7 @@ keywords: ["_PCMCIA_INTERFACE_STANDARD structure"]
 ms.keywords: "*PPCMCIA_INTERFACE_STANDARD, PCMCIA.pcmcia_interface_standard, PCMCIA_INTERFACE_STANDARD, PCMCIA_INTERFACE_STANDARD structure [Buses], PPCMCIA_INTERFACE_STANDARD, PPCMCIA_INTERFACE_STANDARD structure pointer [Buses], _PCMCIA_INTERFACE_STANDARD, memcdref_768387a3-0148-4f5e-972a-983b7827a634.xml, ntddpcm/PCMCIA_INTERFACE_STANDARD, ntddpcm/PPCMCIA_INTERFACE_STANDARD"
 f1_keywords:
  - "ntddpcm/PCMCIA_INTERFACE_STANDARD"
+ - "PCMCIA_INTERFACE_STANDARD"
 req.header: ntddpcm.h
 req.include-header: Ntddpcm.h
 req.target-type: Windows

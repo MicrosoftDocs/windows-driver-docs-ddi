@@ -10,6 +10,7 @@ keywords: ["FltAcquirePushLockExclusive macro"]
 ms.keywords: FltAcquirePushLockExclusive, FltAcquirePushLockExclusive routine [Installable File System Drivers], FltApiRef_a_to_d_0f7b3360-aea2-42a8-bcc0-299d1915e4e0.xml, fltkernel/FltAcquirePushLockExclusive, ifsk.fltacquirepushlockexclusive
 f1_keywords:
  - "fltkernel/FltAcquirePushLockExclusive"
+ - "FltAcquirePushLockExclusive"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

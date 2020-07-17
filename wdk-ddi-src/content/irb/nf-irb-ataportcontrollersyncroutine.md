@@ -10,6 +10,7 @@ keywords: ["AtaPortControllerSyncRoutine function"]
 ms.keywords: AtaPortControllerSyncRoutine, AtaPortControllerSyncRoutine routine [Storage Devices], atartns_1fdbc2cb-49db-4121-aaaa-8a50c2a6cbde.xml, irb/AtaPortControllerSyncRoutine, storage.ataportcontrollersyncroutine
 f1_keywords:
  - "irb/AtaPortControllerSyncRoutine"
+ - "AtaPortControllerSyncRoutine"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

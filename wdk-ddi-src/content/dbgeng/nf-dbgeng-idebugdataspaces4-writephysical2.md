@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces4::WritePhysical2"]
 ms.keywords: IDebugDataSpaces4 interface [Windows Debugging],WritePhysical2 method, IDebugDataSpaces4.WritePhysical2, IDebugDataSpaces4::WritePhysical2, IDebugDataSpaces_bc084790-b047-4257-b7fd-578fd4454747.xml, WritePhysical2, WritePhysical2 method [Windows Debugging], WritePhysical2 method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces4::WritePhysical2, debugger.writephysical2
 f1_keywords:
  - "dbgeng/IDebugDataSpaces4.WritePhysical2"
+ - "IDebugDataSpaces4.WritePhysical2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

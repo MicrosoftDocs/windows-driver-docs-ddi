@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_GETVIDEODECODERCONFIG callback function"]
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERCONFIG, PFND3D11_1DDI_GETVIDEODECODERCONFIG callback, d3d10umddi/pfnGetVideoDecoderConfig, display.getvideodecoderconfig, pfnGetVideoDecoderConfig, pfnGetVideoDecoderConfig callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnGetVideoDecoderConfig"
+ - "pfnGetVideoDecoderConfig"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

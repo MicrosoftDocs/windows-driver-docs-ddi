@@ -10,6 +10,7 @@ keywords: ["_PCI_PMC structure"]
 ms.keywords: "*PPCI_PMC, PCI.pci_pmc, PCI_PMC, PCI_PMC structure [Buses], PPCI_PMC, PPCI_PMC structure pointer [Buses], _PCI_PMC, pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml, wdm/PCI_PMC, wdm/PPCI_PMC"
 f1_keywords:
  - "miniport/PCI_PMC"
+ - "PCI_PMC"
 req.header: miniport.h
 req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows

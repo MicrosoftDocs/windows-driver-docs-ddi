@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceKeyCollection::GetCount"]
 ms.keywords: GetCount, GetCount method, GetCount method,IPortableDeviceKeyCollection interface, IPortableDeviceKeyCollection interface,GetCount method, IPortableDeviceKeyCollection.GetCount, IPortableDeviceKeyCollection::GetCount, IPortableDeviceKeyCollectionGetCount, portabledevicetypes/IPortableDeviceKeyCollection::GetCount, wpddk.iportabledevicekeycollection_getcount
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceKeyCollection.GetCount"
+ - "IPortableDeviceKeyCollection.GetCount"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

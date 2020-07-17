@@ -10,6 +10,7 @@ keywords: ["PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK callback function"]
 ms.keywords: FltCallbacks_2ef837ae-a56a-4e66-a8d3-1f049f7bad45.xml, InstanceQueryTeardownCallback, InstanceQueryTeardownCallback routine [Installable File System Drivers], PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK, fltkernel/InstanceQueryTeardownCallback, ifsk.pflt_instance_query_teardown_callback
 f1_keywords:
  - "fltkernel/InstanceQueryTeardownCallback"
+ - "InstanceQueryTeardownCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop

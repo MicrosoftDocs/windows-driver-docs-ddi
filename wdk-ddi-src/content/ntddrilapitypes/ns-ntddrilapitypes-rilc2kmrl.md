@@ -10,6 +10,7 @@ keywords: ["RILC2KMRL structure"]
 ms.keywords: "*LPRILC2KMRL, RILC2KMRL, RILC2KMRL structure [Network Drivers Starting with Windows Vista], netvista.rilc2kmrl, rilapitypes/RILC2KMRL"
 f1_keywords:
  - "ntddrilapitypes/RILC2KMRL"
+ - "RILC2KMRL"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows

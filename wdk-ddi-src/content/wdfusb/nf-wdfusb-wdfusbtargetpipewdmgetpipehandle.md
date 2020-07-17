@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeWdmGetPipeHandle function"]
 ms.keywords: DFUsbRef_4dc66ce5-f27f-4d35-bcea-0efb60a1de3c.xml, WdfUsbTargetPipeWdmGetPipeHandle, WdfUsbTargetPipeWdmGetPipeHandle method, kmdf.wdfusbtargetpipewdmgetpipehandle, wdf.wdfusbtargetpipewdmgetpipehandle, wdfusb/WdfUsbTargetPipeWdmGetPipeHandle
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeWdmGetPipeHandle"
+ - "WdfUsbTargetPipeWdmGetPipeHandle"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

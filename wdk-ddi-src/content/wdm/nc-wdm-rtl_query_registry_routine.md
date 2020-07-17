@@ -10,6 +10,7 @@ keywords: ["RTL_QUERY_REGISTRY_ROUTINE callback function"]
 ms.keywords: DrvrRtns_a5cd47f1-6d3c-495e-a83d-ccbd276c1728.xml, QueryRoutine, QueryRoutine routine [Kernel-Mode Driver Architecture], RTL_QUERY_REGISTRY_ROUTINE, kernel.queryroutine, wdm/QueryRoutine
 f1_keywords:
  - "wdm/QueryRoutine"
+ - "QueryRoutine"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

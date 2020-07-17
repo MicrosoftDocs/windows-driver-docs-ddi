@@ -10,6 +10,7 @@ keywords: ["_NDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure"]
 ms.keywords: "*PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, NDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure [Network Drivers Starting with Windows Vista], PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES, PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, ndis_pci_properties_ref_46b46f9e-32d9-47fb-ad16-bb8b56a5d5bd.xml, netvista.ndis_pci_device_custom_properties, ntddndis/NDIS_PCI_DEVICE_CUSTOM_PROPERTIES, ntddndis/PNDIS_PCI_DEVICE_CUSTOM_PROPERTIES"
 f1_keywords:
  - "ntddndis/NDIS_PCI_DEVICE_CUSTOM_PROPERTIES"
+ - "NDIS_PCI_DEVICE_CUSTOM_PROPERTIES"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

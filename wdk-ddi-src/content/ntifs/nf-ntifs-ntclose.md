@@ -10,6 +10,7 @@ keywords: ["NtClose function"]
 ms.keywords: NtClose, ZwClose, ZwClose routine [Kernel-Mode Driver Architecture], k111_6311836b-aa48-46f1-a64b-d94d5bb95f16.xml, kernel.zwclose, wdm/NtClose, wdm/ZwClose
 f1_keywords:
  - "ntifs/ZwClose"
+ - "ZwClose"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

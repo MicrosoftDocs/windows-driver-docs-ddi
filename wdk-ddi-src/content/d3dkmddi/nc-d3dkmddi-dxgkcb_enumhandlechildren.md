@@ -9,6 +9,7 @@ keywords: ["DXGKCB_ENUMHANDLECHILDREN callback function"]
 ms.keywords: DXGKCB_ENUMHANDLECHILDREN, DXGKCB_ENUMHANDLECHILDREN callback, DpFunctions_9690e256-00e7-4c6e-88cc-d2e1c32580a2.xml, DxgkCbEnumHandleChildren, DxgkCbEnumHandleChildren callback function [Display Devices], d3dkmddi/DxgkCbEnumHandleChildren, display.dxgkcbenumhandlechildren
 f1_keywords:
  - "d3dkmddi/DxgkCbEnumHandleChildren"
+ - "DxgkCbEnumHandleChildren"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

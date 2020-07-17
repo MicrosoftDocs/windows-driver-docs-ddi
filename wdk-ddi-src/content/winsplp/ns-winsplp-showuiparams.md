@@ -10,6 +10,7 @@ keywords: ["SHOWUIPARAMS structure"]
 ms.keywords: "*PSHOWUIPARAMS, PSHOWUIPARAMS, PSHOWUIPARAMS structure pointer [Print Devices], SHOWUIPARAMS, SHOWUIPARAMS structure [Print Devices], print.showuiparams, spoolfnc_bf6ce7c8-8b86-40c9-9b03-64c3e3366a04.xml, winsplp/PSHOWUIPARAMS, winsplp/SHOWUIPARAMS"
 f1_keywords:
  - "winsplp/SHOWUIPARAMS"
+ - "SHOWUIPARAMS"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Windows

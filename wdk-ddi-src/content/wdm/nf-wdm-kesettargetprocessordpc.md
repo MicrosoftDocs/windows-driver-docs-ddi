@@ -10,6 +10,7 @@ keywords: ["KeSetTargetProcessorDpc function"]
 ms.keywords: KeSetTargetProcessorDpc, KeSetTargetProcessorDpc routine [Kernel-Mode Driver Architecture], k105_a7931e50-ba41-47a0-9056-e9479ac46808.xml, kernel.kesettargetprocessordpc, wdm/KeSetTargetProcessorDpc
 f1_keywords:
  - "wdm/KeSetTargetProcessorDpc"
+ - "KeSetTargetProcessorDpc"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

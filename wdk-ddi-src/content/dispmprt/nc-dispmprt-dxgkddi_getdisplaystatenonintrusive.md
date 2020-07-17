@@ -35,6 +35,7 @@ api_name:
  - DXGKDDI_GETDISPLAYSTATENONINTRUSIVE
 f1_keywords:
  - dispmprt/DXGKDDI_GETDISPLAYSTATENONINTRUSIVE
+ - ""
 dev_langs:
  - c++
 ---

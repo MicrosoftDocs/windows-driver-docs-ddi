@@ -10,6 +10,7 @@ ms.date: 09/30/2019
 keywords: ["NET_POWER_OFFLOAD_TYPE enumeration"]
 f1_keywords:
  - "netpoweroffload/NET_POWER_OFFLOAD_TYPE"
+ - "NET_POWER_OFFLOAD_TYPE"
 ms.keywords: NET_POWER_OFFLOAD_TYPE, NET_POWER_OFFLOAD_TYPE, 
 req.header: netpoweroffload.h
 req.include-header:

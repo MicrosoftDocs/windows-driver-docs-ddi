@@ -10,6 +10,7 @@ keywords: ["_NET_DMA_PNP_NOTIFICATION_CODE enumeration"]
 ms.keywords: "*PNET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE enumeration [Network Drivers Starting with Windows Vista], NetDmaNotificationChannelArrival, NetDmaNotificationMax, NetDmaNotificationProviderArrival, NetDmaNotificationProviderPowerDown, NetDmaNotificationProviderPowerUp, NetDmaNotificationProviderRegistered, NetDmaNotificationProviderRemoval, PNET_DMA_PNP_NOTIFICATION_CODE, PNET_DMA_PNP_NOTIFICATION_CODE enumeration pointer [Network Drivers Starting with Windows Vista], _NET_DMA_PNP_NOTIFICATION_CODE, netdma/NET_DMA_PNP_NOTIFICATION_CODE, netdma/NetDmaNotificationChannelArrival, netdma/NetDmaNotificationMax, netdma/NetDmaNotificationProviderArrival, netdma/NetDmaNotificationProviderPowerDown, netdma/NetDmaNotificationProviderPowerUp, netdma/NetDmaNotificationProviderRegistered, netdma/NetDmaNotificationProviderRemoval, netdma/PNET_DMA_PNP_NOTIFICATION_CODE, netdma_ref_ce8373ae-1547-410d-b33e-d95eb42d649e.xml, netvista.net_dma_pnp_notification_code"
 f1_keywords:
  - "netdma/NET_DMA_PNP_NOTIFICATION_CODE"
+ - "NET_DMA_PNP_NOTIFICATION_CODE"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows

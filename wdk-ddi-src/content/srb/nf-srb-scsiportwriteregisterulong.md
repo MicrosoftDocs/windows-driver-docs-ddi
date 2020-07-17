@@ -10,6 +10,7 @@ keywords: ["ScsiPortWriteRegisterUlong function"]
 ms.keywords: ScsiPortWriteRegisterUlong, ScsiPortWriteRegisterUlong routine [Storage Devices], scsiprt_8a175f68-d47c-4db0-bc22-bde418a56503.xml, srb/ScsiPortWriteRegisterUlong, storage.scsiportwriteregisterulong
 f1_keywords:
  - "srb/ScsiPortWriteRegisterUlong"
+ - "ScsiPortWriteRegisterUlong"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["pHalSetSystemInformation callback function"]
 f1_keywords:
  - "ntddk/pHalSetSystemInformation"
+ - "pHalSetSystemInformation"
 req.header: ntddk.h
 req.include-header:
 req.target-type: Desktop

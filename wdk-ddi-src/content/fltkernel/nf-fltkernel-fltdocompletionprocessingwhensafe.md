@@ -10,6 +10,7 @@ keywords: ["FltDoCompletionProcessingWhenSafe function"]
 ms.keywords: FltApiRef_a_to_d_4e8cd7a1-1469-4ae1-97a9-51a184d0ad5a.xml, FltDoCompletionProcessingWhenSafe, FltDoCompletionProcessingWhenSafe routine [Installable File System Drivers], fltkernel/FltDoCompletionProcessingWhenSafe, ifsk.fltdocompletionprocessingwhensafe
 f1_keywords:
  - "fltkernel/FltDoCompletionProcessingWhenSafe"
+ - "FltDoCompletionProcessingWhenSafe"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

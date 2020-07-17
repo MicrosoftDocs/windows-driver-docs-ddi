@@ -10,6 +10,7 @@ keywords: ["KeInitializeSemaphore function"]
 ms.keywords: KeInitializeSemaphore, KeInitializeSemaphore routine [Kernel-Mode Driver Architecture], k105_a966274e-6afe-4569-ae7c-65dccbb3f1dc.xml, kernel.keinitializesemaphore, wdm/KeInitializeSemaphore
 f1_keywords:
  - "wdm/KeInitializeSemaphore"
+ - "KeInitializeSemaphore"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_UART_HARDWARE_ACCESS structure"]
 f1_keywords:
  - "uart/_UART_HARDWARE_ACCESS"
+ - "_UART_HARDWARE_ACCESS"
 ms.keywords: _UART_HARDWARE_ACCESS, UART_HARDWARE_ACCESS, *PUART_HARDWARE_ACCESS,
 req.header: uart.h
 req.include-header:

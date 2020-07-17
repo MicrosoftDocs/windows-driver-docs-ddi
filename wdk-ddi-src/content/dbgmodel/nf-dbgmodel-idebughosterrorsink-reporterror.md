@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDebugHostErrorSink::ReportError"]
 f1_keywords:
  - "dbgmodel/IDebugHostErrorSink.ReportError"
+ - "IDebugHostErrorSink.ReportError"
 ms.keywords: IDebugHostErrorSink::ReportError, ReportError, IDebugHostErrorSink.ReportError, IDebugHostErrorSink::ReportError, IDebugHostErrorSink.ReportError
 req.header: dbgmodel.h
 req.include-header:

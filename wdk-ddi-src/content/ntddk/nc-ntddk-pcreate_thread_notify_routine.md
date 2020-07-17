@@ -10,6 +10,7 @@ keywords: ["PCREATE_THREAD_NOTIFY_ROUTINE callback function"]
 ms.keywords: PCREATE_THREAD_NOTIFY_ROUTINE, PCREATE_THREAD_NOTIFY_ROUTINE callback, SetCreateThreadNotifyRoutine, SetCreateThreadNotifyRoutine callback function [Kernel-Mode Driver Architecture], kernel.pcreate_thread_notify_routine, ntddk/SetCreateThreadNotifyRoutine
 f1_keywords:
  - "ntddk/SetCreateThreadNotifyRoutine"
+ - "SetCreateThreadNotifyRoutine"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

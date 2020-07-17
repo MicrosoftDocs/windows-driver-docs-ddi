@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IMXF::PutMessage"]
 f1_keywords:
  - "dmusicks/IMXF.PutMessage"
+ - "IMXF.PutMessage"
 ms.keywords: IMXF::PutMessage, PutMessage, IMXF.PutMessage, IMXF::PutMessage, IMXF.PutMessage
 req.header: dmusicks.h
 req.include-header:

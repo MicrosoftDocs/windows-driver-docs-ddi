@@ -10,6 +10,7 @@ keywords: ["_GPIO_CONNECT_IO_PINS_MODE enumeration"]
 ms.keywords: "*PGPIO_CONNECT_IO_PINS_MODE, ConnectModeInput, ConnectModeInvalid, ConnectModeMaximum, ConnectModeOutput, GPIO.gpio_connect_io_pins_mode, GPIO_CONNECT_IO_PINS_MODE, GPIO_CONNECT_IO_PINS_MODE enumeration [Parallel Ports], _GPIO_CONNECT_IO_PINS_MODE, gpioclx/ConnectModeInput, gpioclx/ConnectModeInvalid, gpioclx/ConnectModeMaximum, gpioclx/ConnectModeOutput, gpioclx/GPIO_CONNECT_IO_PINS_MODE"
 f1_keywords:
  - "gpioclx/GPIO_CONNECT_IO_PINS_MODE"
+ - "GPIO_CONNECT_IO_PINS_MODE"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Windows

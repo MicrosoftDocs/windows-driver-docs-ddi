@@ -10,6 +10,7 @@ keywords: ["WDF_READ_PORT_BUFFER_USHORT function"]
 ms.keywords: WDF_READ_PORT_BUFFER_USHORT, WDF_READ_PORT_BUFFER_USHORT function, wdf.wdf_read_port_buffer_ushort, wdfhwaccess/WDF_READ_PORT_BUFFER_USHORT
 f1_keywords:
  - "wdfhwaccess/WDF_READ_PORT_BUFFER_USHORT"
+ - "WDF_READ_PORT_BUFFER_USHORT"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal

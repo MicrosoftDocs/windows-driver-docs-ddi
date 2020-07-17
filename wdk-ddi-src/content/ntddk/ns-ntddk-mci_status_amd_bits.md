@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["MCI_STATUS_AMD_BITS structure"]
 f1_keywords:
  - "ntddk/MCI_STATUS_AMD_BITS"
+ - "MCI_STATUS_AMD_BITS"
 ms.keywords: MCI_STATUS_AMD_BITS, MCI_STATUS_AMD_BITS, *PMCI_STATUS_AMD_BITS, 
 req.header: ntddk.h
 req.include-header:

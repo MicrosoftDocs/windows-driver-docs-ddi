@@ -10,6 +10,7 @@ keywords: ["DbgPrintEx function"]
 ms.keywords: DbgPrintEx, DbgPrintEx routine [Driver Development Tools], DebugFns_0c93bbeb-9eb9-4c73-944f-565401dbb073.xml, devtest.dbgprintex, wdm/DbgPrintEx
 f1_keywords:
  - "wdm/DbgPrintEx"
+ - "DbgPrintEx"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal

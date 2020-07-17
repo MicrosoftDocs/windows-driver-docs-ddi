@@ -10,6 +10,7 @@ keywords: ["IWDFInterrupt interface"]
 ms.keywords: IWDFInterrupt, IWDFInterrupt interface, IWDFInterrupt interface,described, umdf.iwdfinterrupt, wdf.iwdfinterrupt, wudfddi/IWDFInterrupt
 f1_keywords:
  - "wudfddi/IWDFInterrupt"
+ - "IWDFInterrupt"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

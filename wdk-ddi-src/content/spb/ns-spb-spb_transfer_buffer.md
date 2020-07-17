@@ -10,6 +10,7 @@ keywords: ["SPB_TRANSFER_BUFFER structure"]
 ms.keywords: "*PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER structure pointer [Buses], SPB.spb_transfer_buffer, SPB_TRANSFER_BUFFER, SPB_TRANSFER_BUFFER structure [Buses], spb/PSPB_TRANSFER_BUFFER, spb/SPB_TRANSFER_BUFFER"
 f1_keywords:
  - "spb/SPB_TRANSFER_BUFFER"
+ - "SPB_TRANSFER_BUFFER"
 req.header: spb.h
 req.include-header: 
 req.target-type: Windows

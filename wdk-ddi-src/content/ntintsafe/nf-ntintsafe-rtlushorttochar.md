@@ -10,6 +10,7 @@ keywords: ["RtlUShortToChar function"]
 ms.keywords: RtlUShortToChar, RtlUShortToChar function [Kernel-Mode Driver Architecture], kernel.rtlushorttochar, ntintsafe/RtlUShortToChar
 f1_keywords:
  - "ntintsafe/RtlUShortToChar"
+ - "RtlUShortToChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

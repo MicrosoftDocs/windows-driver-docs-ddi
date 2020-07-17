@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_IO_QUEUE_IO_WRITE callback function"]
 ms.keywords: DFQueueObjectRef_c98601af-48d0-4fc1-9947-b94c50f7a994.xml, EVT_WDF_IO_QUEUE_IO_WRITE, EVT_WDF_IO_QUEUE_IO_WRITE callback, EvtIoWrite, EvtIoWrite callback function, kmdf.evtiowrite, wdf.evtiowrite, wdfio/EvtIoWrite
 f1_keywords:
  - "wdfio/EvtIoWrite"
+ - "EvtIoWrite"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

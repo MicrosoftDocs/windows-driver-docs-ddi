@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::GetDeviceAttributeSteppings"]
 ms.keywords: GetDeviceAttributeSteppings, GetDeviceAttributeSteppings method [Audio Devices], GetDeviceAttributeSteppings method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceAttributeSteppings method, IMiniportAudioEngineNode.GetDeviceAttributeSteppings, IMiniportAudioEngineNode::GetDeviceAttributeSteppings, audio.iminiportaudioenginenode_getdeviceattributesteppings, portcls/IMiniportAudioEngineNode::GetDeviceAttributeSteppings
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetDeviceAttributeSteppings"
+ - "IMiniportAudioEngineNode.GetDeviceAttributeSteppings"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

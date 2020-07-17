@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_OUTPUTDUPL_CONTEXT_DEBUG_STATUS enumeration"]
 f1_keywords:
  - "d3dkmthk/_OUTPUTDUPL_CONTEXT_DEBUG_STATUS"
+ - "_OUTPUTDUPL_CONTEXT_DEBUG_STATUS"
 ms.keywords: _OUTPUTDUPL_CONTEXT_DEBUG_STATUS, OUTPUTDUPL_CONTEXT_DEBUG_STATUS, 
 req.header: d3dkmthk.h
 req.include-header:

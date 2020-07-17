@@ -10,6 +10,7 @@ keywords: ["_NDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure"]
 ms.keywords: "*PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, NDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO, PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, netvista.ndis_sriov_vf_serial_number_info, ntddndis/NDIS_SRIOV_VF_SERIAL_NUMBER_INFO, ntddndis/PNDIS_SRIOV_VF_SERIAL_NUMBER_INFO"
 f1_keywords:
  - "ntddndis/NDIS_SRIOV_VF_SERIAL_NUMBER_INFO"
+ - "NDIS_SRIOV_VF_SERIAL_NUMBER_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

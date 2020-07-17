@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/VolBlt"
+ - "VolBlt"
 topic_type:
  - APIRef
  - kbSyntax

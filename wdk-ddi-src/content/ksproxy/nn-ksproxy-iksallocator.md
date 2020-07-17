@@ -10,6 +10,7 @@ keywords: ["IKsAllocator interface"]
 ms.keywords: IKsAllocator, IKsAllocator interface [Streaming Media Devices], IKsAllocator interface [Streaming Media Devices],described, ksproxy/IKsAllocator, ksproxy_f3288ae8-cea3-4892-9b5b-f03e2c5ec8c4.xml, stream.iksallocator
 f1_keywords:
  - "ksproxy/IKsAllocator"
+ - "IKsAllocator"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

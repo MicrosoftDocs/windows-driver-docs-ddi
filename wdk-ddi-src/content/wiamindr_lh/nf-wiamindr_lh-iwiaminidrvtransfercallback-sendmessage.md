@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrvTransferCallback::SendMessage"]
 ms.keywords: IWiaMiniDrvTransferCallback interface [Imaging Devices],SendMessage method, IWiaMiniDrvTransferCallback.SendMessage, IWiaMiniDrvTransferCallback::SendMessage, SendMessage, SendMessage method [Imaging Devices], SendMessage method [Imaging Devices],IWiaMiniDrvTransferCallback interface, image.iwiaminidrvtransfercallback_sendmessage, wiamindr_lh/IWiaMiniDrvTransferCallback::SendMessage
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrvTransferCallback.SendMessage"
+ - "IWiaMiniDrvTransferCallback.SendMessage"
 req.header: wiamindr_lh.h
 req.include-header: 
 req.target-type: Desktop

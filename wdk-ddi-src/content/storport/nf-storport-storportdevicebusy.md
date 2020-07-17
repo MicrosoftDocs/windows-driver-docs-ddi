@@ -10,6 +10,7 @@ keywords: ["StorPortDeviceBusy function"]
 ms.keywords: StorPortDeviceBusy, StorPortDeviceBusy routine [Storage Devices], storage.storportdevicebusy, storport/StorPortDeviceBusy, storprt_c1496cbe-e4b0-4b2b-8947-587b2467c57f.xml
 f1_keywords:
  - "storport/StorPortDeviceBusy"
+ - "StorPortDeviceBusy"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

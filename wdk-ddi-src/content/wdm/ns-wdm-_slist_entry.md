@@ -10,6 +10,7 @@ keywords: ["_SLIST_ENTRY structure"]
 ms.keywords: "*PSLIST_ENTRY, PSLIST_ENTRY, PSLIST_ENTRY structure pointer [Kernel-Mode Driver Architecture], SLIST_ENTRY, SLIST_ENTRY structure [Kernel-Mode Driver Architecture], _SLIST_ENTRY, kernel.slist_entry, kstruct_d_2bfe90ad-ee2e-4dbf-a028-5b3481aa8695.xml, wdm/PSLIST_ENTRY, wdm/SLIST_ENTRY"
 f1_keywords:
  - "wdm/SLIST_ENTRY"
+ - "SLIST_ENTRY"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

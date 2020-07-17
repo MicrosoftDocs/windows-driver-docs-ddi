@@ -10,6 +10,7 @@ keywords: ["RIL_DeletePhonebookEntry function"]
 ms.keywords: RIL_DeletePhonebookEntry, RIL_DeletePhonebookEntry method [Network Drivers Starting with Windows Vista], netvista.ril_deletephonebookentry, rilapi/RIL_DeletePhonebookEntry
 f1_keywords:
  - "rilapi/RIL_DeletePhonebookEntry"
+ - "RIL_DeletePhonebookEntry"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

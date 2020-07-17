@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_MCN_CONTROL IOCTL"]
 ms.keywords: IOCTL_STORAGE_MCN_CONTROL, IOCTL_STORAGE_MCN_CONTROL control, IOCTL_STORAGE_MCN_CONTROL control code [Storage Devices], k307_7d39899d-e65a-4064-9566-684af82e29bb.xml, ntddstor/IOCTL_STORAGE_MCN_CONTROL, storage.ioctl_storage_mcn_control
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_MCN_CONTROL"
+ - "IOCTL_STORAGE_MCN_CONTROL"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

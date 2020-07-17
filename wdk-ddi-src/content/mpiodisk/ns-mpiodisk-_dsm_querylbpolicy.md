@@ -10,6 +10,7 @@ keywords: ["_DSM_QueryLBPolicy structure"]
 ms.keywords: "*PDSM_QueryLBPolicy, DSM_QueryLBPolicy, DSM_QueryLBPolicy structure [Storage Devices], PDSM_QueryLBPolicy, PDSM_QueryLBPolicy structure pointer [Storage Devices], _DSM_QueryLBPolicy, mpiodisk/DSM_QueryLBPolicy, mpiodisk/PDSM_QueryLBPolicy, storage.dsm_querylbpolicy, structs-scsibus_f1a0bedd-e5ba-474d-9a45-ae6a2863cfb3.xml"
 f1_keywords:
  - "mpiodisk/DSM_QueryLBPolicy"
+ - "DSM_QueryLBPolicy"
 req.header: mpiodisk.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows

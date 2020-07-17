@@ -10,6 +10,7 @@ keywords: ["OEMQueryFont function"]
 ms.keywords: OEMQueryFont, OEMQueryFont function [Print Devices], print.oemqueryfont, print_unidrv-pscript_rendering_52b50b2d-ab61-420f-be04-7285a5504be6.xml, printoem/OEMQueryFont
 f1_keywords:
  - "printoem/OEMQueryFont"
+ - "OEMQueryFont"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RILEXECUTORFOCUSSTATE structure"]
 ms.keywords: "*LPRILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE, RILEXECUTORFOCUSSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilexecutorfocusstate, ntddrilapitypes/RILEXECUTORFOCUSSTATE"
 f1_keywords:
  - "rilapitypes/RILEXECUTORFOCUSSTATE"
+ - "RILEXECUTORFOCUSSTATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

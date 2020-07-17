@@ -10,6 +10,7 @@ keywords: ["WdfIoResourceRequirementsListSetInterfaceType function"]
 ms.keywords: DFResourceObjectRef_3ce545f1-cdad-4ddb-8b65-236461296d21.xml, WdfIoResourceRequirementsListSetInterfaceType, WdfIoResourceRequirementsListSetInterfaceType method, kmdf.wdfioresourcerequirementslistsetinterfacetype, wdf.wdfioresourcerequirementslistsetinterfacetype, wdfresource/WdfIoResourceRequirementsListSetInterfaceType
 f1_keywords:
  - "wdfresource/WdfIoResourceRequirementsListSetInterfaceType"
+ - "WdfIoResourceRequirementsListSetInterfaceType"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal

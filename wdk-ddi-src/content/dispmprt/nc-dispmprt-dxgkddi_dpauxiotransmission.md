@@ -29,6 +29,7 @@ api_name:
  - DXGKDDI_DPAUXIOTRANSMISSION
 f1_keywords:
  - dispmprt/DXGKDDI_DPAUXIOTRANSMISSION
+ - ""
 dev_langs:
  - c++
 ---

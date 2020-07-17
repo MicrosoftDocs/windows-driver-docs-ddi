@@ -10,6 +10,7 @@ keywords: ["PHW_INTERRUPT callback function"]
 ms.keywords: PHW_INTERRUPT, StrMiniInterrupt, StrMiniInterrupt routine [Streaming Media Devices], stream.strminiinterrupt, strmini-routines_10ec4194-fc96-49da-a7d7-e7e90ead67e3.xml, strmini/StrMiniInterrupt
 f1_keywords:
  - "strmini/StrMiniInterrupt"
+ - "StrMiniInterrupt"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EVT_SENSOR_DRIVER_CANCEL_HISTORY_RETRIEVAL callback function"]
 f1_keywords:
  - "sensorscx/EVT_SENSOR_DRIVER_CANCEL_HISTORY_RETRIEVAL"
+ - "EVT_SENSOR_DRIVER_CANCEL_HISTORY_RETRIEVAL"
 req.header: sensorscx.h
 req.include-header:
 req.target-type:

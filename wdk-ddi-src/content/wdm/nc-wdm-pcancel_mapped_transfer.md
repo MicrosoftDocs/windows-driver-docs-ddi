@@ -10,6 +10,7 @@ keywords: ["PCANCEL_MAPPED_TRANSFER callback function"]
 ms.keywords: CancelMappedTransfer, CancelMappedTransfer callback function [Kernel-Mode Driver Architecture], PCANCEL_MAPPED_TRANSFER, PCANCEL_MAPPED_TRANSFER callback, kernel.cancelmappedtransfer, wdm/CancelMappedTransfer
 f1_keywords:
  - "wdm/CancelMappedTransfer"
+ - "CancelMappedTransfer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

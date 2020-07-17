@@ -10,6 +10,7 @@ keywords: ["IStiUSD::RawReadCommand"]
 ms.keywords: IStiUSD interface [Imaging Devices],RawReadCommand method, IStiUSD.RawReadCommand, IStiUSD::RawReadCommand, RawReadCommand, RawReadCommand method [Imaging Devices], RawReadCommand method [Imaging Devices],IStiUSD interface, image.istiusd_rawreadcommand, stifnc_911a418d-3e30-4ddd-b40e-68ed302f18bb.xml, stiusd/IStiUSD::RawReadCommand
 f1_keywords:
  - "stiusd/IStiUSD.RawReadCommand"
+ - "IStiUSD.RawReadCommand"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop

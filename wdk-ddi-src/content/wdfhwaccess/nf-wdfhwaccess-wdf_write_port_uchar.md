@@ -10,6 +10,7 @@ keywords: ["WDF_WRITE_PORT_UCHAR function"]
 ms.keywords: WDF_WRITE_PORT_UCHAR, WDF_WRITE_PORT_UCHAR function, wdf.wdf_write_port_uchar, wdfhwaccess/WDF_WRITE_PORT_UCHAR
 f1_keywords:
  - "wdfhwaccess/WDF_WRITE_PORT_UCHAR"
+ - "WDF_WRITE_PORT_UCHAR"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal

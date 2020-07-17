@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_IO_TARGET_REMOVE_COMPLETE callback function"]
 ms.keywords: DFIOTargetRef_d0c566ce-1ed7-4adb-9988-bc1751f000e1.xml, EVT_WDF_IO_TARGET_REMOVE_COMPLETE, EVT_WDF_IO_TARGET_REMOVE_COMPLETE callback, EvtIoTargetRemoveComplete, EvtIoTargetRemoveComplete callback function, kmdf.evtiotargetremovecomplete, wdf.evtiotargetremovecomplete, wdfiotarget/EvtIoTargetRemoveComplete
 f1_keywords:
  - "wdfiotarget/EvtIoTargetRemoveComplete"
+ - "EvtIoTargetRemoveComplete"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

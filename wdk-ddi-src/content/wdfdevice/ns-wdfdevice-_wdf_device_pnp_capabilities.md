@@ -10,6 +10,7 @@ keywords: ["_WDF_DEVICE_PNP_CAPABILITIES structure"]
 ms.keywords: "*PWDF_DEVICE_PNP_CAPABILITIES, DFDeviceObjectGeneralRef_58325ea6-665b-4cf2-bf99-d47636013ee1.xml, PWDF_DEVICE_PNP_CAPABILITIES, PWDF_DEVICE_PNP_CAPABILITIES structure pointer, WDF_DEVICE_PNP_CAPABILITIES, WDF_DEVICE_PNP_CAPABILITIES structure, _WDF_DEVICE_PNP_CAPABILITIES, kmdf.wdf_device_pnp_capabilities, wdf.wdf_device_pnp_capabilities, wdfdevice/PWDF_DEVICE_PNP_CAPABILITIES, wdfdevice/WDF_DEVICE_PNP_CAPABILITIES"
 f1_keywords:
  - "wdfdevice/WDF_DEVICE_PNP_CAPABILITIES"
+ - "WDF_DEVICE_PNP_CAPABILITIES"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IWDFUsbInterface::GetWinUsbHandle"]
 ms.keywords: GetWinUsbHandle, GetWinUsbHandle method, GetWinUsbHandle method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetWinUsbHandle method, IWDFUsbInterface.GetWinUsbHandle, IWDFUsbInterface::GetWinUsbHandle, UMDFUSBref_6c94f0cc-8995-45c9-8101-bc123b0e48bf.xml, umdf.iwdfusbinterface_getwinusbhandle, wdf.iwdfusbinterface_getwinusbhandle, wudfusb/IWDFUsbInterface::GetWinUsbHandle
 f1_keywords:
  - "wudfusb/IWDFUsbInterface.GetWinUsbHandle"
+ - "IWDFUsbInterface.GetWinUsbHandle"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

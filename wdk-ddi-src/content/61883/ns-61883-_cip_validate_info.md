@@ -10,6 +10,7 @@ keywords: ["_CIP_VALIDATE_INFO structure"]
 ms.keywords: "*PCIP_VALIDATE_INFO, 61883/CIP_VALIDATE_INFO, 61883/PCIP_VALIDATE_INFO, 61883_structures_9f8bc3f2-ad43-4e0b-a4f9-8d441397f11d.xml, CIP_VALIDATE_INFO, CIP_VALIDATE_INFO structure [Buses], IEEE.cip_validate_info, PCIP_VALIDATE_INFO, PCIP_VALIDATE_INFO structure pointer [Buses], _CIP_VALIDATE_INFO"
 f1_keywords:
  - "61883/CIP_VALIDATE_INFO"
+ - "CIP_VALIDATE_INFO"
 req.header: 61883.h
 req.include-header: 61883.h
 req.target-type: Windows

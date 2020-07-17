@@ -10,6 +10,7 @@ keywords: ["NdisFRestartComplete function"]
 ms.keywords: NdisFRestartComplete, NdisFRestartComplete function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_592af2b7-2172-4a8d-aa7b-315f7c321705.xml, ndis/NdisFRestartComplete, netvista.ndisfrestartcomplete
 f1_keywords:
  - "ndis/NdisFRestartComplete"
+ - "NdisFRestartComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_PO_FX_DEVICE_V1 structure"]
 ms.keywords: "*PPO_FX_DEVICE, *PPO_FX_DEVICE_V1, PO_FX_DEVICE, PO_FX_DEVICE structure [Kernel-Mode Driver Architecture], PO_FX_DEVICE_V1, PO_FX_DEVICE_V1 structure [Kernel-Mode Driver Architecture], PPO_FX_DEVICE_V1, PPO_FX_DEVICE_V1 structure pointer [Kernel-Mode Driver Architecture], _PO_FX_DEVICE_V1, kernel.po_fx_device, wdm/PO_FX_DEVICE, wdm/PO_FX_DEVICE_V1, wdm/PPO_FX_DEVICE_V1"
 f1_keywords:
  - "wdm/PO_FX_DEVICE_V1"
+ - "PO_FX_DEVICE_V1"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IWDFIoTargetStateManagement::Start"]
 ms.keywords: IWDFIoTargetStateManagement interface,Start method, IWDFIoTargetStateManagement.Start, IWDFIoTargetStateManagement::Start, Start, Start method, Start method,IWDFIoTargetStateManagement interface, UMDFIoTargetObjectRef_931a0267-704f-44f7-8f52-0344afb86f81.xml, umdf.iwdfiotargetstatemanagement_start, wdf.iwdfiotargetstatemanagement_start, wudfddi/IWDFIoTargetStateManagement::Start
 f1_keywords:
  - "wudfddi/IWDFIoTargetStateManagement.Start"
+ - "IWDFIoTargetStateManagement.Start"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

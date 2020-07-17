@@ -21,6 +21,7 @@ tech.root: display
 ms.custom: RS5
 f1_keywords:
  - "d3dkmddi/_DXGK_SCHEDULING_LOG_OPERATION"
+ - "_DXGK_SCHEDULING_LOG_OPERATION"
 topic_type:
  - apiref
 api_type:

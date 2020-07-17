@@ -10,6 +10,7 @@ keywords: ["RxNameCacheExpireEntry function"]
 ms.keywords: RxNameCacheExpireEntry, RxNameCacheExpireEntry function [Installable File System Drivers], ifsk.rxnamecacheexpireentry, namcache/RxNameCacheExpireEntry, rxref_d516a8aa-e7f8-48d4-8619-6b59a862ca0c.xml
 f1_keywords:
  - "namcache/RxNameCacheExpireEntry"
+ - "RxNameCacheExpireEntry"
 req.header: namcache.h
 req.include-header: Namcache.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_WWAN_IPV6_ADDRESS structure"]
 ms.keywords: "*PWWAN_IPV6_ADDRESS, PWWAN_IPV6_ADDRESS, PWWAN_IPV6_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], WWAN_IPV6_ADDRESS, WWAN_IPV6_ADDRESS structure [Network Drivers Starting with Windows Vista], _WWAN_IPV6_ADDRESS, netvista.wwan_ipv6_address, wwan/PWWAN_IPV6_ADDRESS, wwan/WWAN_IPV6_ADDRESS"
 f1_keywords:
  - "wwan/WWAN_IPV6_ADDRESS"
+ - "WWAN_IPV6_ADDRESS"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["StorPortFreeDeviceBase function"]
 ms.keywords: StorPortFreeDeviceBase, StorPortFreeDeviceBase function [Storage Devices], storage.storportfreedevicebase, storport/StorPortFreeDeviceBase, storprt_f8c3e4c6-8f38-4189-bdac-70c0c61e0f18.xml
 f1_keywords:
  - "storport/StorPortFreeDeviceBase"
+ - "StorPortFreeDeviceBase"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

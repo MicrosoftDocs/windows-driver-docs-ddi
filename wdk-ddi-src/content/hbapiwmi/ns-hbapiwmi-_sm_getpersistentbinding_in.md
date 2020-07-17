@@ -10,6 +10,7 @@ keywords: ["_SM_GetPersistentBinding_IN structure"]
 ms.keywords: "*PSM_GetPersistentBinding_IN, PSM_GetPersistentBinding_IN, PSM_GetPersistentBinding_IN structure pointer [Storage Devices], SM_GetPersistentBinding_IN, SM_GetPersistentBinding_IN structure [Storage Devices], _SM_GetPersistentBinding_IN, hbapiwmi/PSM_GetPersistentBinding_IN, hbapiwmi/SM_GetPersistentBinding_IN, storage.sm_getpersistentbinding_in, structs-Fibre_2cf97173-2aa3-4770-865a-825f5db0daf1.xml"
 f1_keywords:
  - "hbapiwmi/SM_GetPersistentBinding_IN"
+ - "SM_GetPersistentBinding_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

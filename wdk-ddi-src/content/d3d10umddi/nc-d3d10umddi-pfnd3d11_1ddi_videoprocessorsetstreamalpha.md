@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA callback function"]
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMALPHA callback, d3d10umddi/pfnVideoProcessorSetStreamAlpha, display.videoprocessorsetstreamalpha, pfnVideoProcessorSetStreamAlpha, pfnVideoProcessorSetStreamAlpha callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnVideoProcessorSetStreamAlpha"
+ - "pfnVideoProcessorSetStreamAlpha"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

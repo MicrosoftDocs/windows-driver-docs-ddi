@@ -10,6 +10,7 @@ keywords: ["RtlFreeSid function"]
 ms.keywords: RtlFreeSid, RtlFreeSid function [Installable File System Drivers], ifsk.rtlfreesid, ntifs/RtlFreeSid, rtlref_4cdaafe3-70fa-4a22-be05-019e6b06cc15.xml
 f1_keywords:
  - "ntifs/RtlFreeSid"
+ - "RtlFreeSid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

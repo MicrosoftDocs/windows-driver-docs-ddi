@@ -8,6 +8,7 @@ ms.date: 04/11/2019
 keywords: ["_WWAN_MODEM_LOGGING_CONFIG structure"]
 f1_keywords:
  - "wwan/_WWAN_MODEM_LOGGING_CONFIG"
+ - "_WWAN_MODEM_LOGGING_CONFIG"
 ms.keywords: _WWAN_MODEM_LOGGING_CONFIG, WWAN_MODEM_LOGGING_CONFIG, *PWWAN_MODEM_LOGGING_CONFIG, 
 req.header: wwan.h
 req.include-header:

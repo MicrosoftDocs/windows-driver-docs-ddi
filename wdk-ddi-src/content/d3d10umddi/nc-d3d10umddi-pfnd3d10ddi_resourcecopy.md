@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_RESOURCECOPY callback function"]
 ms.keywords: PFND3D10DDI_RESOURCECOPY, PFND3D10DDI_RESOURCECOPY callback, ResourceCopy, ResourceCopy callback function [Display Devices], UserModeDisplayDriverDx10_Functions_40047363-38d4-4271-8c24-f9a7ea565079.xml, d3d10umddi/ResourceCopy, display.resourcecopy
 f1_keywords:
  - "d3d10umddi/ResourceCopy"
+ - "ResourceCopy"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

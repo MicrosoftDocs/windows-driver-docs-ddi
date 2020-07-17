@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_PERFORM_POST_ASSOCIATE callback"]
 ms.keywords: DOT11EXTIHV_PERFORM_POST_ASSOCIATE, Dot11ExtIhvPerformPostAssociate, Dot11ExtIhvPerformPostAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_ecc5c19e-9fde-48a4-b3a7-6a1f94a20765.xml, netvista.dot11extihvperformpostassociate, wlanihv/Dot11ExtIhvPerformPostAssociate
 f1_keywords:
  - "wlanihv/Dot11ExtIhvPerformPostAssociate"
+ - "Dot11ExtIhvPerformPostAssociate"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h, Windot11.h, L2cmn.h
 req.target-type: Desktop

@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScriptProvider::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptProvider.QueryInterface"
+ - "IDataModelScriptProvider.QueryInterface"
 ms.keywords: IDataModelScriptProvider::QueryInterface, QueryInterface, IDataModelScriptProvider.QueryInterface, IDataModelScriptProvider::QueryInterface, IDataModelScriptProvider.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

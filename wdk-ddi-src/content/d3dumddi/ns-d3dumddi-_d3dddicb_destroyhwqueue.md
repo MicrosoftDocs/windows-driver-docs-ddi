@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_DESTROYHWQUEUE structure"]
 ms.keywords: D3DDDICB_DESTROYHWQUEUE, D3DDDICB_DESTROYHWQUEUE structure [Display Devices], _D3DDDICB_DESTROYHWQUEUE, d3dumddi/D3DDDICB_DESTROYHWQUEUE, display.d3dddicb_destroyhwqueue
 f1_keywords:
  - "d3dumddi/D3DDDICB_DESTROYHWQUEUE"
+ - "D3DDDICB_DESTROYHWQUEUE"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows

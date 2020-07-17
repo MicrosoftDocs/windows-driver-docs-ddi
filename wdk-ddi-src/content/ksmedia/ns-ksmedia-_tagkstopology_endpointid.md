@@ -10,6 +10,7 @@ keywords: ["_tagKSTOPOLOGY_ENDPOINTID structure"]
 ms.keywords: "*PKSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID structure [Audio Devices], PKSTOPOLOGY_ENDPOINTID, PKSTOPOLOGY_ENDPOINTID structure pointer [Audio Devices], _tagKSTOPOLOGY_ENDPOINTID, audio.kstopology_endpointid, ksmedia/KSTOPOLOGY_ENDPOINTID, ksmedia/PKSTOPOLOGY_ENDPOINTID"
 f1_keywords:
  - "ksmedia/KSTOPOLOGY_ENDPOINTID"
+ - "KSTOPOLOGY_ENDPOINTID"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

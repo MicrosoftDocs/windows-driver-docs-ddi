@@ -10,6 +10,7 @@ keywords: ["_DXVA_DeinterlaceQueryModeCaps structure"]
 ms.keywords: DXVA_DeinterlaceQueryModeCaps, DXVA_DeinterlaceQueryModeCaps structure [Display Devices], _DXVA_DeinterlaceQueryModeCaps, display.dxva_deinterlacequerymodecaps, dxva/DXVA_DeinterlaceQueryModeCaps, dxvaref_a9b0a8a8-0a11-417c-a356-6b39cb1f7ddb.xml
 f1_keywords:
  - "dxva/DXVA_DeinterlaceQueryModeCaps"
+ - "DXVA_DeinterlaceQueryModeCaps"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

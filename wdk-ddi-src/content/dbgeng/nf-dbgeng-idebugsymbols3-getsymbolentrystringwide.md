@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSymbolEntryStringWide"]
 ms.keywords: GetSymbolEntryStringWide, GetSymbolEntryStringWide method [Windows Debugging], GetSymbolEntryStringWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryStringWide method, IDebugSymbols3.GetSymbolEntryStringWide, IDebugSymbols3::GetSymbolEntryStringWide, dbgeng/IDebugSymbols3::GetSymbolEntryStringWide, debugger.getsymbolentrystringwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSymbolEntryStringWide"
+ - "IDebugSymbols3.GetSymbolEntryStringWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

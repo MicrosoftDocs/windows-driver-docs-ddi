@@ -10,6 +10,7 @@ keywords: ["KsFreeDeviceHeader function"]
 ms.keywords: KsFreeDeviceHeader, KsFreeDeviceHeader function [Streaming Media Devices], ks/KsFreeDeviceHeader, ksfunc_25c133a5-3c21-476f-84f5-b208284d9234.xml, stream.ksfreedeviceheader
 f1_keywords:
  - "ks/KsFreeDeviceHeader"
+ - "KsFreeDeviceHeader"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

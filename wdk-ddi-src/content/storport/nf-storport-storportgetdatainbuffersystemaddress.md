@@ -10,6 +10,7 @@ keywords: ["StorPortGetDataInBufferSystemAddress function"]
 ms.keywords: StorPortGetDataInBufferSystemAddress, StorPortGetDataInBufferSystemAddress routine [Storage Devices], storage.storportgetdatainbuffersystemaddress, storport/StorPortGetDataInBufferSystemAddress
 f1_keywords:
  - "storport/StorPortGetDataInBufferSystemAddress"
+ - "StorPortGetDataInBufferSystemAddress"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

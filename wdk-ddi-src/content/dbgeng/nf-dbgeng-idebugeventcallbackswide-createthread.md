@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacksWide::CreateThread"]
 ms.keywords: CreateThread, CreateThread method [Windows Debugging], CreateThread method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],CreateThread method, IDebugEventCallbacksWide.CreateThread, IDebugEventCallbacksWide::CreateThread, dbgeng/IDebugEventCallbacksWide::CreateThread, debugger.idebugeventcallbackswide_createthread
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.CreateThread"
+ - "IDebugEventCallbacksWide.CreateThread"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IoGetConfigurationInformation function"]
 ms.keywords: IoGetConfigurationInformation, IoGetConfigurationInformation routine [Kernel-Mode Driver Architecture], k104_5f9c4d01-9724-4e1d-8154-3737f0809068.xml, kernel.iogetconfigurationinformation, ntddk/IoGetConfigurationInformation
 f1_keywords:
  - "ntddk/IoGetConfigurationInformation"
+ - "IoGetConfigurationInformation"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

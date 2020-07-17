@@ -10,6 +10,7 @@ keywords: ["IKsControl::KsMethod"]
 ms.keywords: IKsControl interface [Streaming Media Devices],KsMethod method, IKsControl.KsMethod, IKsControl::KsMethod, KsMethod, KsMethod method [Streaming Media Devices], KsMethod method [Streaming Media Devices],IKsControl interface, avintfc_6cf0dd96-36e2-4d0a-8bb8-f2f49ab9eb1f.xml, ks/IKsControl::KsMethod, stream.ikscontrol_ksmethod2
 f1_keywords:
  - "ks/IKsControl.KsMethod"
+ - "IKsControl.KsMethod"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: DesktopMobile

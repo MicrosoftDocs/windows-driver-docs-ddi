@@ -10,6 +10,7 @@ keywords: ["IoWMIWriteEvent function"]
 ms.keywords: IoWMIWriteEvent, IoWMIWriteEvent routine [Kernel-Mode Driver Architecture], k104_ec484b7e-1653-4054-8a54-021a94303ec4.xml, kernel.iowmiwriteevent, wdm/IoWMIWriteEvent
 f1_keywords:
  - "wdm/IoWMIWriteEvent"
+ - "IoWMIWriteEvent"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

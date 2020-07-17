@@ -10,6 +10,7 @@ keywords: ["KeRegisterNmiCallback function"]
 ms.keywords: KeRegisterNmiCallback, KeRegisterNmiCallback routine [Kernel-Mode Driver Architecture], k105_4abdb9bc-8548-42f3-8305-c116ce15e0a4.xml, kernel.keregisternmicallback, wdm/KeRegisterNmiCallback
 f1_keywords:
  - "wdm/KeRegisterNmiCallback"
+ - "KeRegisterNmiCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

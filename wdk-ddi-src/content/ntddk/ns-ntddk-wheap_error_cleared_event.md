@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_ERROR_CLEARED_EVENT structure"]
 f1_keywords:
  - "ntddk/WHEAP_ERROR_CLEARED_EVENT"
+ - "WHEAP_ERROR_CLEARED_EVENT"
 ms.keywords: WHEAP_ERROR_CLEARED_EVENT, WHEAP_ERROR_CLEARED_EVENT, *PWHEAP_ERROR_CLEARED_EVENT, 
 req.header: ntddk.h
 req.include-header:

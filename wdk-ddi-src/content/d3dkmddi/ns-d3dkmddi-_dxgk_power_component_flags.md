@@ -9,6 +9,7 @@ keywords: ["_DXGK_POWER_COMPONENT_FLAGS structure"]
 ms.keywords: DXGK_POWER_COMPONENT_FLAGS, DXGK_POWER_COMPONENT_FLAGS structure [Display Devices], _DXGK_POWER_COMPONENT_FLAGS, d3dkmddi/DXGK_POWER_COMPONENT_FLAGS, display.dxgk_power_component_flags
 f1_keywords:
  - "d3dkmddi/DXGK_POWER_COMPONENT_FLAGS"
+ - "DXGK_POWER_COMPONENT_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

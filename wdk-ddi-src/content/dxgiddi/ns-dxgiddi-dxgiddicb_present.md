@@ -10,6 +10,7 @@ keywords: ["DXGIDDICB_PRESENT structure"]
 ms.keywords: DXGIDDICB_PRESENT, DXGIDDICB_PRESENT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_932d6171-c487-44f6-834e-5d57b3e14515.xml, display.dxgiddicb_present, dxgiddi/DXGIDDICB_PRESENT
 f1_keywords:
  - "dxgiddi/DXGIDDICB_PRESENT"
+ - "DXGIDDICB_PRESENT"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

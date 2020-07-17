@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::GetIdentityWide"]
 ms.keywords: GetIdentityWide, GetIdentityWide method [Windows Debugging], GetIdentityWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetIdentityWide method, IDebugClient5.GetIdentityWide, IDebugClient5::GetIdentityWide, dbgeng/IDebugClient5::GetIdentityWide, debugger.getidentitywide
 f1_keywords:
  - "dbgeng/IDebugClient5.GetIdentityWide"
+ - "IDebugClient5.GetIdentityWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

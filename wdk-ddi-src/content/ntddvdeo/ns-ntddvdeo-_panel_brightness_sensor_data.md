@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_PANEL_BRIGHTNESS_SENSOR_DATA structure"]
 f1_keywords:
  - "ntddvdeo/_PANEL_BRIGHTNESS_SENSOR_DATA"
+ - "_PANEL_BRIGHTNESS_SENSOR_DATA"
 ms.keywords: _PANEL_BRIGHTNESS_SENSOR_DATA, PANEL_BRIGHTNESS_SENSOR_DATA,
 req.header: ntddvdeo.h
 req.include-header:

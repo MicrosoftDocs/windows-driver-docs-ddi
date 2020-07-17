@@ -10,6 +10,7 @@ keywords: ["POFXCALLBACKREQUESTCOMMON callback function"]
 ms.keywords: POFXCALLBACKREQUESTCOMMON, RequestCommon, RequestCommon routine [Kernel-Mode Driver Architecture], kernel.requestcommon, pepfx/RequestCommon
 f1_keywords:
  - "pepfx/RequestCommon"
+ - "RequestCommon"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

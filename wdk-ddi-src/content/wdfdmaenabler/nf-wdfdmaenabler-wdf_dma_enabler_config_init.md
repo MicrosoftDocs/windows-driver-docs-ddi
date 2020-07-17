@@ -10,6 +10,7 @@ keywords: ["WDF_DMA_ENABLER_CONFIG_INIT function"]
 ms.keywords: DFDmaObjectRef_2d577e59-2038-4850-a67c-6e7f3b795387.xml, WDF_DMA_ENABLER_CONFIG_INIT, WDF_DMA_ENABLER_CONFIG_INIT function, kmdf.wdf_dma_enabler_config_init, wdf.wdf_dma_enabler_config_init, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_INIT
 f1_keywords:
  - "wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_INIT"
+ - "WDF_DMA_ENABLER_CONFIG_INIT"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal

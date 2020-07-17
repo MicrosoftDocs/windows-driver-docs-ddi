@@ -10,6 +10,7 @@ keywords: ["IPortClsRuntimePower::UnregisterPowerControlCallback"]
 ms.keywords: IPortClsRuntimePower interface [Audio Devices],UnregisterPowerControlCallback method, IPortClsRuntimePower.UnregisterPowerControlCallback, IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback, UnregisterPowerControlCallback method [Audio Devices], UnregisterPowerControlCallback method [Audio Devices],IPortClsRuntimePower interface, audio.iportclsruntimepower_unregisterpowercontrolcallback, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback
 f1_keywords:
  - "portcls/IPortClsRuntimePower.UnregisterPowerControlCallback"
+ - "IPortClsRuntimePower.UnregisterPowerControlCallback"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

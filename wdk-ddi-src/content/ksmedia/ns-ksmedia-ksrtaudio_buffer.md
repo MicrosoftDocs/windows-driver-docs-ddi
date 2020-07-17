@@ -10,6 +10,7 @@ keywords: ["KSRTAUDIO_BUFFER structure"]
 ms.keywords: "*PKSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER structure [Audio Devices], PKSRTAUDIO_BUFFER, PKSRTAUDIO_BUFFER structure pointer [Audio Devices], aud-prop_50b4ab60-2e9a-444b-98d3-984d9084ab0b.xml, audio.ksrtaudio_buffer, ksmedia/KSRTAUDIO_BUFFER, ksmedia/PKSRTAUDIO_BUFFER"
 f1_keywords:
  - "ksmedia/KSRTAUDIO_BUFFER"
+ - "KSRTAUDIO_BUFFER"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

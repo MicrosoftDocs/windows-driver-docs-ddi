@@ -10,6 +10,7 @@ keywords: ["RILCALLAUDIOMEDIASTATEPARAMMASK enumeration"]
 ms.keywords: RILCALLAUDIOMEDIASTATEPARAMMASK, RILCALLAUDIOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CALLAUDIO_ALL, RIL_PARAM_CALLAUDIO_FLAGS, RIL_PARAM_CALLAUDIO_QUALITY, netvista.rilcallaudiomediastateparammask, ntddrilapitypes/RILCALLAUDIOMEDIASTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_CALLAUDIO_ALL, ntddrilapitypes/RIL_PARAM_CALLAUDIO_FLAGS, ntddrilapitypes/RIL_PARAM_CALLAUDIO_QUALITY
 f1_keywords:
  - "ntddrilapitypes/RILCALLAUDIOMEDIASTATEPARAMMASK"
+ - "RILCALLAUDIOMEDIASTATEPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

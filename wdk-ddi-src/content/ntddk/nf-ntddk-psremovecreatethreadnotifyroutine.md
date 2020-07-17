@@ -10,6 +10,7 @@ keywords: ["PsRemoveCreateThreadNotifyRoutine function"]
 ms.keywords: PsRemoveCreateThreadNotifyRoutine, PsRemoveCreateThreadNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_cfa75911-6de3-4459-8093-855279e0a5f7.xml, kernel.psremovecreatethreadnotifyroutine, ntddk/PsRemoveCreateThreadNotifyRoutine
 f1_keywords:
  - "ntddk/PsRemoveCreateThreadNotifyRoutine"
+ - "PsRemoveCreateThreadNotifyRoutine"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

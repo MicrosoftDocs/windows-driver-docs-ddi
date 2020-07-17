@@ -10,6 +10,7 @@ keywords: ["_USBDEVICE_TREE_PURGEIO structure"]
 ms.keywords: "*PUSBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO structure pointer [Buses], USBDEVICE_TREE_PURGEIO, USBDEVICE_TREE_PURGEIO structure [Buses], _USBDEVICE_TREE_PURGEIO, buses._usbdevice_tree_purgeio, ucxusbdevice/P_USBDEVICE_TREE_PURGEIO, ucxusbdevice/_USBDEVICE_TREE_PURGEIO"
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_TREE_PURGEIO"
+ - "USBDEVICE_TREE_PURGEIO"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

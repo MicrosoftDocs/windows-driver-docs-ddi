@@ -10,6 +10,7 @@ keywords: ["_KSPIN_DISPATCH structure"]
 ms.keywords: "*PKSPIN_DISPATCH, KSPIN_DISPATCH, KSPIN_DISPATCH structure [Streaming Media Devices], PKSPIN_DISPATCH, PKSPIN_DISPATCH structure pointer [Streaming Media Devices], _KSPIN_DISPATCH, avstruct_2ef1e08b-327f-476c-9c0b-804582f67815.xml, ks/KSPIN_DISPATCH, ks/PKSPIN_DISPATCH, stream.kspin_dispatch"
 f1_keywords:
  - "ks/KSPIN_DISPATCH"
+ - "KSPIN_DISPATCH"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

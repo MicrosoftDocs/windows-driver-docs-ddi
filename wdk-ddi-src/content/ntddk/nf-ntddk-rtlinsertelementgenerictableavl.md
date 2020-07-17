@@ -10,6 +10,7 @@ keywords: ["RtlInsertElementGenericTableAvl function"]
 ms.keywords: RtlInsertElementGenericTableAvl, RtlInsertElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictableavl, ntddk/RtlInsertElementGenericTableAvl
 f1_keywords:
  - "ntddk/RtlInsertElementGenericTableAvl"
+ - "RtlInsertElementGenericTableAvl"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

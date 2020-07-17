@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DEFINE_ENUM_FLAG_OPERATORS function"]
 f1_keywords:
  - "d3d12umddi/DEFINE_ENUM_FLAG_OPERATORS"
+ - "DEFINE_ENUM_FLAG_OPERATORS"
 ms.keywords: DEFINE_ENUM_FLAG_OPERATORS
 req.header: d3d12umddi.h
 req.include-header:

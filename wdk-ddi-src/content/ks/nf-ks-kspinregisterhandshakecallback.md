@@ -10,6 +10,7 @@ keywords: ["KsPinRegisterHandshakeCallback function"]
 ms.keywords: KsPinRegisterHandshakeCallback, KsPinRegisterHandshakeCallback function [Streaming Media Devices], avfunc_9588944b-a56b-473a-848d-0a01031b6911.xml, ks/KsPinRegisterHandshakeCallback, stream.kspinregisterhandshakecallback
 f1_keywords:
  - "ks/KsPinRegisterHandshakeCallback"
+ - "KsPinRegisterHandshakeCallback"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

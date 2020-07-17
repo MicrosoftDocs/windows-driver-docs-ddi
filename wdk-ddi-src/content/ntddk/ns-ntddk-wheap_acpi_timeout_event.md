@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - ntddk/_WHEAP_ACPI_TIMEOUT_EVENT
  - ntddk/WHEAP_ACPI_TIMEOUT_EVENT
+ - ""
 dev_langs:
  - c++
 ---

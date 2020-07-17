@@ -10,6 +10,7 @@ keywords: ["_DRIVER_UPGRADE_INFO_1 structure"]
 ms.keywords: "*PDRIVER_UPGRADE_INFO_1, DRIVER_UPGRADE_INFO_1, DRIVER_UPGRADE_INFO_1 structure [Print Devices], PDRIVER_UPGRADE_INFO_1, PDRIVER_UPGRADE_INFO_1 structure pointer [Print Devices], _DRIVER_UPGRADE_INFO_1, print.driver_upgrade_info_1, print_interface-graphics_eb7333cb-f073-4c0b-ade4-20a477d28f67.xml, winddiui/DRIVER_UPGRADE_INFO_1, winddiui/PDRIVER_UPGRADE_INFO_1"
 f1_keywords:
  - "winddiui/DRIVER_UPGRADE_INFO_1"
+ - "DRIVER_UPGRADE_INFO_1"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Windows

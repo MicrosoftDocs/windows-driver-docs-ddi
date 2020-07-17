@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_GET_MUTEPROPERTYVALUES IOCTL"]
 f1_keywords:
  - "sidebandaudio/IOCTL_SBAUD_GET_MUTEPROPERTYVALUES"
+ - "IOCTL_SBAUD_GET_MUTEPROPERTYVALUES"
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

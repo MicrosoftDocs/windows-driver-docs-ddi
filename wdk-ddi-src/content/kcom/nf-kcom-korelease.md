@@ -10,6 +10,7 @@ keywords: ["KoRelease function"]
 ms.keywords: KoRelease, KoRelease function [Streaming Media Devices], kcom/KoRelease, ksfunc_5a688121-dc73-48fe-8b85-1f6c14fb3a22.xml, stream.korelease
 f1_keywords:
  - "kcom/KoRelease"
+ - "KoRelease"
 req.header: kcom.h
 req.include-header: Kcom.h
 req.target-type: Universal

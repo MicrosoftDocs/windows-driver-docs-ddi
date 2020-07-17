@@ -10,6 +10,7 @@ keywords: ["PFREE_COMMON_BUFFER callback function"]
 ms.keywords: FreeCommonBuffer, FreeCommonBuffer callback function [Kernel-Mode Driver Architecture], PFREE_COMMON_BUFFER, PFREE_COMMON_BUFFER callback, kdma_73f76fbd-2641-4002-90c8-ca412e969418.xml, kernel.freecommonbuffer, wdm/FreeCommonBuffer
 f1_keywords:
  - "wdm/FreeCommonBuffer"
+ - "FreeCommonBuffer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

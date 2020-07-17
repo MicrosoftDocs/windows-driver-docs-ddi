@@ -10,6 +10,7 @@ keywords: ["IWDTFNumbers2::Add"]
 ms.keywords: Add, Add method [Windows Device Testing Framework], Add method [Windows Device Testing Framework],IWDTFNumbers2 interface, IWDTFNumbers2 interface [Windows Device Testing Framework],Add method, IWDTFNumbers2.Add, IWDTFNumbers2::Add, Microsoft.WDTF.IWDTFNumbers2.Add, Microsoft::WDTF::IWDTFNumbers2::Add, dtf.iwdtfnumbers2_add, wdtf/IWDTFNumbers2::Add
 f1_keywords:
  - "wdtf/IWDTFNumbers2.Add"
+ - "IWDTFNumbers2.Add"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

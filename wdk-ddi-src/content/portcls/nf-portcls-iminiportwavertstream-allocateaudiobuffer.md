@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IMiniportWaveRTStream::AllocateAudioBuffer"]
 f1_keywords:
  - "portcls/IMiniportWaveRTStream.AllocateAudioBuffer"
+ - "IMiniportWaveRTStream.AllocateAudioBuffer"
 ms.keywords: IMiniportWaveRTStream::AllocateAudioBuffer, AllocateAudioBuffer, IMiniportWaveRTStream.AllocateAudioBuffer, IMiniportWaveRTStream::AllocateAudioBuffer, IMiniportWaveRTStream.AllocateAudioBuffer
 req.header: portcls.h
 req.include-header:

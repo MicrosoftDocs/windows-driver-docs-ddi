@@ -10,6 +10,7 @@ keywords: ["WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT function"]
 ms.keywords: WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT, WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT function, wdf.wdf_device_interface_property_data_init, wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT
 f1_keywords:
  - "wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT"
+ - "WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

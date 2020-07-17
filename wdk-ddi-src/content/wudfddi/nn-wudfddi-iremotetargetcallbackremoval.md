@@ -10,6 +10,7 @@ keywords: ["IRemoteTargetCallbackRemoval interface"]
 ms.keywords: IRemoteTargetCallbackRemoval, IRemoteTargetCallbackRemoval interface, IRemoteTargetCallbackRemoval interface,described, UMDFIoTargetObjectRef_7508512a-9bfc-4563-bf01-48e9caf6ba4f.xml, umdf.iremotetargetcallbackremoval, wdf.iremotetargetcallbackremoval, wudfddi/IRemoteTargetCallbackRemoval
 f1_keywords:
  - "wudfddi/IRemoteTargetCallbackRemoval"
+ - "IRemoteTargetCallbackRemoval"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

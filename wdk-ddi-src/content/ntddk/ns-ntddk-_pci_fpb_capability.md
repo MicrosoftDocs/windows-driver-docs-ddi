@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_PCI_FPB_CAPABILITY structure"]
 f1_keywords:
  - "ntddk/_PCI_FPB_CAPABILITY"
+ - "_PCI_FPB_CAPABILITY"
 ms.keywords: _PCI_FPB_CAPABILITY, PCI_FPB_CAPABILITY, *PPCI_FPB_CAPABILITY, 
 req.header: ntddk.h
 req.include-header:

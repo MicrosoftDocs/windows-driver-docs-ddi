@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_QUERY_CHILD_STATUS callback function"]
 ms.keywords: DXGKDDI_QUERY_CHILD_STATUS, DXGKDDI_QUERY_CHILD_STATUS callback, DmFunctions_3da69961-14d3-4bf8-9427-9c47d9bbfb89.xml, DxgkDdiQueryChildStatus, DxgkDdiQueryChildStatus callback function [Display Devices], display.dxgkddiquerychildstatus, dispmprt/DxgkDdiQueryChildStatus
 f1_keywords:
  - "dispmprt/DxgkDdiQueryChildStatus"
+ - "DxgkDdiQueryChildStatus"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop

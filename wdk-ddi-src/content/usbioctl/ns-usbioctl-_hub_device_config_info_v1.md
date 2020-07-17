@@ -10,6 +10,7 @@ keywords: ["_HUB_DEVICE_CONFIG_INFO_V1 structure"]
 ms.keywords: "*PHUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO structure [Buses], PHUB_DEVICE_CONFIG_INFO, PHUB_DEVICE_CONFIG_INFO structure pointer [Buses], _HUB_DEVICE_CONFIG_INFO_V1, buses.hub_device_config_info, usbioctl/HUB_DEVICE_CONFIG_INFO, usbioctl/PHUB_DEVICE_CONFIG_INFO"
 f1_keywords:
  - "usbioctl/HUB_DEVICE_CONFIG_INFO"
+ - "HUB_DEVICE_CONFIG_INFO"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

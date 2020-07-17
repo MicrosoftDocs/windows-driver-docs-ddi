@@ -10,6 +10,7 @@ keywords: ["IoCsqInsertIrp function"]
 ms.keywords: IoCsqInsertIrp, IoCsqInsertIrp routine [Kernel-Mode Driver Architecture], k104_cecd79a7-3c42-45a2-99f7-54ca2a3e0358.xml, kernel.iocsqinsertirp, wdm/IoCsqInsertIrp
 f1_keywords:
  - "wdm/IoCsqInsertIrp"
+ - "IoCsqInsertIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

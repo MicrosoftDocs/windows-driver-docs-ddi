@@ -9,6 +9,7 @@ keywords: ["D3DWDDM2_0DDI_DEVICEFUNCS structure"]
 ms.keywords: D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_DEVICEFUNCS, display.d3dwddm2_0ddi_devicefuncs
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_0DDI_DEVICEFUNCS"
+ - "D3DWDDM2_0DDI_DEVICEFUNCS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

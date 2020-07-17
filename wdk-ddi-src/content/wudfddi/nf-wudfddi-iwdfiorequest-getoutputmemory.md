@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::GetOutputMemory"]
 ms.keywords: GetOutputMemory, GetOutputMemory method, GetOutputMemory method,IWDFIoRequest interface, IWDFIoRequest interface,GetOutputMemory method, IWDFIoRequest.GetOutputMemory, IWDFIoRequest::GetOutputMemory, UMDFRequestObjectRef_618a405c-a272-4427-809b-46b7f46b75de.xml, umdf.iwdfiorequest_getoutputmemory, wdf.iwdfiorequest_getoutputmemory, wudfddi/IWDFIoRequest::GetOutputMemory
 f1_keywords:
  - "wudfddi/IWDFIoRequest.GetOutputMemory"
+ - "IWDFIoRequest.GetOutputMemory"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["TapeClassLogicalBlockToPhysicalBlock function"]
 ms.keywords: TapeClassLogicalBlockToPhysicalBlock, TapeClassLogicalBlockToPhysicalBlock routine [Storage Devices], minitape/TapeClassLogicalBlockToPhysicalBlock, storage.tapeclasslogicalblocktophysicalblock, tapeclas_6d45358d-68a6-4f00-991e-714a489fd78d.xml
 f1_keywords:
  - "minitape/TapeClassLogicalBlockToPhysicalBlock"
+ - "TapeClassLogicalBlockToPhysicalBlock"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop

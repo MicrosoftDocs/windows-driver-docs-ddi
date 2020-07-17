@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2TRIANGLEFAN structure"]
 ms.keywords: "*LPD3DHAL_DP2TRIANGLEFAN, D3DHAL_DP2TRIANGLEFAN, D3DHAL_DP2TRIANGLEFAN structure [Display Devices], LPD3DHAL_DP2TRIANGLEFAN, LPD3DHAL_DP2TRIANGLEFAN structure pointer [Display Devices], _D3DHAL_DP2TRIANGLEFAN, d3dhal/D3DHAL_DP2TRIANGLEFAN, d3dhal/LPD3DHAL_DP2TRIANGLEFAN, d3dstrct_6726a70e-3ff1-4a9f-ac1e-46acf9be04e9.xml, display.d3dhal_dp2trianglefan"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2TRIANGLEFAN"
+ - "D3DHAL_DP2TRIANGLEFAN"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

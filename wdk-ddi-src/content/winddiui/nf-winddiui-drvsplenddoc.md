@@ -10,6 +10,7 @@ keywords: ["DrvSplEndDoc function"]
 ms.keywords: DrvSplEndDoc, DrvSplEndDoc function [Print Devices], print.drvsplenddoc, print_interface-graphics_13e407aa-2d2a-4ec5-b3ab-bcb6fa745039.xml, winddiui/DrvSplEndDoc
 f1_keywords:
  - "winddiui/DrvSplEndDoc"
+ - "DrvSplEndDoc"
 req.header: winddiui.h
 req.include-header: 
 req.target-type: Windows

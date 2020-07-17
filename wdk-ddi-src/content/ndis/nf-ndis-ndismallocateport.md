@@ -10,6 +10,7 @@ keywords: ["NdisMAllocatePort function"]
 ms.keywords: NdisMAllocatePort, NdisMAllocatePort function [Network Drivers Starting with Windows Vista], ndis/NdisMAllocatePort, ndis_ports_ref_c74ffd82-73c0-4e48-98da-d17ddf7976ae.xml, netvista.ndismallocateport
 f1_keywords:
  - "ndis/NdisMAllocatePort"
+ - "NdisMAllocatePort"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

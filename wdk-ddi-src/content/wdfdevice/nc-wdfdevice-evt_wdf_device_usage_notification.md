@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_USAGE_NOTIFICATION callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_bbf01697-e3d0-4711-aa7f-c53bfd205ea7.xml, EVT_WDF_DEVICE_USAGE_NOTIFICATION, EVT_WDF_DEVICE_USAGE_NOTIFICATION callback, EvtDeviceUsageNotification, EvtDeviceUsageNotification callback function, kmdf.evtdeviceusagenotification, wdf.evtdeviceusagenotification, wdfdevice/EvtDeviceUsageNotification
 f1_keywords:
  - "wdfdevice/EvtDeviceUsageNotification"
+ - "EvtDeviceUsageNotification"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

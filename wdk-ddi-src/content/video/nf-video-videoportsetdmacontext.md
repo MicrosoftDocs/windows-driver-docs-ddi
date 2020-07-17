@@ -10,6 +10,7 @@ keywords: ["VideoPortSetDmaContext function"]
 ms.keywords: VideoPortSetDmaContext, VideoPortSetDmaContext function [Display Devices], VideoPort_Functions_8e20017f-9d32-45c9-8f68-10cc61b6591d.xml, display.videoportsetdmacontext, video/VideoPortSetDmaContext
 f1_keywords:
  - "video/VideoPortSetDmaContext"
+ - "VideoPortSetDmaContext"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["tagKS_DATARANGE_MPEG2TS_AVC structure"]
 ms.keywords: "*PKS_DATARANGE_MPEG2TS_AVC, KS_DATARANGE_MPEG2TS_AVC, KS_DATARANGE_MPEG2TS_AVC structure [Streaming Media Devices], PKS_DATARANGE_MPEG2TS_AVC, PKS_DATARANGE_MPEG2TS_AVC structure pointer [Streaming Media Devices], avcsref_604304aa-f90b-4897-a134-c05eff1240aa.xml, avcstrm/KS_DATARANGE_MPEG2TS_AVC, avcstrm/PKS_DATARANGE_MPEG2TS_AVC, stream.ks_datarange_mpeg2ts_avc, tagKS_DATARANGE_MPEG2TS_AVC"
 f1_keywords:
  - "avcstrm/KS_DATARANGE_MPEG2TS_AVC"
+ - "KS_DATARANGE_MPEG2TS_AVC"
 req.header: avcstrm.h
 req.include-header: Avcstrm.h
 req.target-type: Windows

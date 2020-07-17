@@ -21,6 +21,7 @@ ms.custom: RS5
 tech.root: display
 f1_keywords:
  - "d3dkmthk/_KMTUMDVERSION"
+ - "_KMTUMDVERSION"
 topic_type:
  - apiref
 api_type:

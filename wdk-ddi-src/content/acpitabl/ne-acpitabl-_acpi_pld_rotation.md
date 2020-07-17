@@ -7,6 +7,7 @@ ms.date: 10/02/2018
 keywords: ["_ACPI_PLD_ROTATION enumeration"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_ROTATION"
+ - "_ACPI_PLD_ROTATION"
 ms.keywords: _ACPI_PLD_ROTATION, ACPI_PLD_ROTATION, *PACPI_PLD_ROTATION, AcpiPldRotation
 req.header: acpitabl.h
 req.include-header:

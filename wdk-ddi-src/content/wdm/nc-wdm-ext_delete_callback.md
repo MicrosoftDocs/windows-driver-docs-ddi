@@ -10,6 +10,7 @@ keywords: ["EXT_DELETE_CALLBACK callback function"]
 ms.keywords: EXT_DELETE_CALLBACK, ExTimerDeleteCallback, ExTimerDeleteCallback routine [Kernel-Mode Driver Architecture], kernel.extimerdeletecallback, wdm/ExTimerDeleteCallback
 f1_keywords:
  - "wdm/ExTimerDeleteCallback"
+ - "ExTimerDeleteCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

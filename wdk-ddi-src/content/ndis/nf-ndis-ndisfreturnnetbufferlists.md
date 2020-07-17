@@ -10,6 +10,7 @@ keywords: ["NdisFReturnNetBufferLists function"]
 ms.keywords: NdisFReturnNetBufferLists, NdisFReturnNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_3473c0c3-077c-4df7-b9d4-8392cf1ed918.xml, ndis/NdisFReturnNetBufferLists, netvista.ndisfreturnnetbufferlists
 f1_keywords:
  - "ndis/NdisFReturnNetBufferLists"
+ - "NdisFReturnNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

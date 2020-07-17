@@ -10,6 +10,7 @@ keywords: ["IPortableDevicePropVariantCollection::GetType"]
 ms.keywords: GetType, GetType method, GetType method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,GetType method, IPortableDevicePropVariantCollection.GetType, IPortableDevicePropVariantCollection::GetType, IPortableDevicePropVariantCollectionGetType, portabledevicetypes/IPortableDevicePropVariantCollection::GetType, wpddk.iportabledevicepropvariantcollection_gettype
 f1_keywords:
  - "portabledevicetypes/IPortableDevicePropVariantCollection.GetType"
+ - "IPortableDevicePropVariantCollection.GetType"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

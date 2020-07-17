@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKDDI_RESUMECONTEXT callback function"]
 f1_keywords:
  - "d3dkmddi/DXGKDDI_RESUMECONTEXT"
+ - "DXGKDDI_RESUMECONTEXT"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

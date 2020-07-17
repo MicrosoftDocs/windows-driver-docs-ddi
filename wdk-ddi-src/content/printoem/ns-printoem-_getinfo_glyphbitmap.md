@@ -10,6 +10,7 @@ keywords: ["_GETINFO_GLYPHBITMAP structure"]
 ms.keywords: "*PGETINFO_GLYPHBITMAP, GETINFO_GLYPHBITMAP, GETINFO_GLYPHBITMAP structure [Print Devices], PGETINFO_GLYPHBITMAP, PGETINFO_GLYPHBITMAP structure pointer [Print Devices], _GETINFO_GLYPHBITMAP, print.getinfo_glyphbitmap, print_unidrv-pscript_rendering_56355138-13b0-4e8b-8132-f7c017105ab3.xml, printoem/GETINFO_GLYPHBITMAP, printoem/PGETINFO_GLYPHBITMAP"
 f1_keywords:
  - "printoem/GETINFO_GLYPHBITMAP"
+ - "GETINFO_GLYPHBITMAP"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

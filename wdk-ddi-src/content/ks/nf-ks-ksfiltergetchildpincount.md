@@ -10,6 +10,7 @@ keywords: ["KsFilterGetChildPinCount function"]
 ms.keywords: KsFilterGetChildPinCount, KsFilterGetChildPinCount function [Streaming Media Devices], avfunc_cddbf6bc-da19-47a6-96d5-0d4151e70ff8.xml, ks/KsFilterGetChildPinCount, stream.ksfiltergetchildpincount
 f1_keywords:
  - "ks/KsFilterGetChildPinCount"
+ - "KsFilterGetChildPinCount"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_IRB_REQ_ASYNC_WRITE structure"]
 ms.keywords: 1394/IRB_REQ_ASYNC_WRITE, IEEE.irb_req_async_write, IRB_REQ_ASYNC_WRITE, IRB_REQ_ASYNC_WRITE structure [Buses], _IRB_REQ_ASYNC_WRITE
 f1_keywords:
  - "1394/IRB_REQ_ASYNC_WRITE"
+ - "IRB_REQ_ASYNC_WRITE"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows

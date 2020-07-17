@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTHX_QUERY_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_BTHX_QUERY_CAPABILITIES, IOCTL_BTHX_QUERY_CAPABILITIES control, IOCTL_BTHX_QUERY_CAPABILITIES control code [Bluetooth Devices], bltooth.ioctl_bthx_query_capabilities, bthxddi/IOCTL_BTHX_QUERY_CAPABILITIES
 f1_keywords:
  - "bthxddi/IOCTL_BTHX_QUERY_CAPABILITIES"
+ - "IOCTL_BTHX_QUERY_CAPABILITIES"
 req.header: bthxddi.h
 req.include-header: 
 req.target-type: Windows

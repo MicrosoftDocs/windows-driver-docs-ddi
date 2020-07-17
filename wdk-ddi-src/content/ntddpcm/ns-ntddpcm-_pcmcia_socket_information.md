@@ -10,6 +10,7 @@ keywords: ["_PCMCIA_SOCKET_INFORMATION structure"]
 ms.keywords: "*PPCMCIA_SOCKET_INFORMATION, PCMCIA.pcmcia_socket_information, PCMCIA_SOCKET_INFORMATION, PCMCIA_SOCKET_INFORMATION structure [Buses], PPCMCIA_SOCKET_INFORMATION, PPCMCIA_SOCKET_INFORMATION structure pointer [Buses], _PCMCIA_SOCKET_INFORMATION, memcdref_b118ae5c-5dc5-4919-809d-5cfe5b25598f.xml, ntddpcm/PCMCIA_SOCKET_INFORMATION, ntddpcm/PPCMCIA_SOCKET_INFORMATION"
 f1_keywords:
  - "ntddpcm/PCMCIA_SOCKET_INFORMATION"
+ - "PCMCIA_SOCKET_INFORMATION"
 req.header: ntddpcm.h
 req.include-header: Ntddpcm.h
 req.target-type: Windows

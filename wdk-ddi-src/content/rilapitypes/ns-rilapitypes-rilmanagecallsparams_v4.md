@@ -10,6 +10,7 @@ keywords: ["RILMANAGECALLSPARAMS_V4 structure"]
 ms.keywords: "*LPRILMANAGECALLSPARAMS, *LPRILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS, RILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS_V4 structure [Network Drivers Starting with Windows Vista], netvista.rilmanagecallsparams_v4, ntddrilapitypes/RILMANAGECALLSPARAMS_V4"
 f1_keywords:
  - "rilapitypes/RILMANAGECALLSPARAMS_V4"
+ - "RILMANAGECALLSPARAMS_V4"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

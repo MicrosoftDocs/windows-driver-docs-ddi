@@ -10,6 +10,7 @@ keywords: ["PWINDBG_GET_SYMBOL callback function"]
 ms.keywords: GetSymbol, GetSymbol callback function [Windows Debugging], PWINDBG_GET_SYMBOL, PWINDBG_GET_SYMBOL callback, WdbgExts_Ref_a892aa24-d1ee-43f4-8fd5-ea8d00aa678a.xml, debugger.getsymbol, wdbgexts/GetSymbol
 f1_keywords:
  - "wdbgexts/GetSymbol"
+ - "GetSymbol"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

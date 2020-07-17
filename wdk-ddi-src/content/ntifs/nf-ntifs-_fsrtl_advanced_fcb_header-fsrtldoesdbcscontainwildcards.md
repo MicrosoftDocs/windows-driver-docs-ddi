@@ -10,6 +10,7 @@ keywords: ["FsRtlDoesDbcsContainWildCards function"]
 ms.keywords: FsRtlDoesDbcsContainWildCards, FsRtlDoesDbcsContainWildCards routine [Installable File System Drivers], fsrtlref_07aa2ec1-8e37-4ffb-bd22-a3877ae8f7ee.xml, ifsk.fsrtldoesdbcscontainwildcards, ntifs/FsRtlDoesDbcsContainWildCards
 f1_keywords:
  - "ntifs/FsRtlDoesDbcsContainWildCards"
+ - "FsRtlDoesDbcsContainWildCards"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

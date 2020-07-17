@@ -10,6 +10,7 @@ keywords: ["_PEP_COMPONENT_ACTIVE structure"]
 ms.keywords: "*PPEP_COMPONENT_ACTIVE, PEP_COMPONENT_ACTIVE, PEP_COMPONENT_ACTIVE structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_ACTIVE, PPEP_COMPONENT_ACTIVE structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_ACTIVE, kernel.pep_component_active, pep_x/PEP_COMPONENT_ACTIVE, pep_x/PPEP_COMPONENT_ACTIVE"
 f1_keywords:
  - "pep_x/PEP_COMPONENT_ACTIVE"
+ - "PEP_COMPONENT_ACTIVE"
 req.header: pep_x.h
 req.include-header: Pepfx.h
 req.target-type: Windows

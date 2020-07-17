@@ -10,6 +10,7 @@ keywords: ["IPortWaveRTStream::AllocateContiguousPagesForMdl"]
 ms.keywords: AllocateContiguousPagesForMdl, AllocateContiguousPagesForMdl method [Audio Devices], AllocateContiguousPagesForMdl method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],AllocateContiguousPagesForMdl method, IPortWaveRTStream.AllocateContiguousPagesForMdl, IPortWaveRTStream::AllocateContiguousPagesForMdl, audio.iportwavertstream_allocatecontiguouspagesformdl, audmp-routines_92ff395d-072b-4a11-b856-3afc1a024289.xml, portcls/IPortWaveRTStream::AllocateContiguousPagesForMdl
 f1_keywords:
  - "portcls/IPortWaveRTStream.AllocateContiguousPagesForMdl"
+ - "IPortWaveRTStream.AllocateContiguousPagesForMdl"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

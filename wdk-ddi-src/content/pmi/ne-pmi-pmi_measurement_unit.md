@@ -10,6 +10,7 @@ keywords: ["PMI_MEASUREMENT_UNIT enumeration"]
 ms.keywords: PMI_MEASUREMENT_UNIT, PMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices], PmiMeasurementUnitMax, PmiMeasurementUnitMilliWatt, PowerMeterRef_7c2e4685-6992-455c-b584-9391e0ea8afa.xml, pmi/PMI_MEASUREMENT_UNIT, pmi/PmiMeasurementUnitMax, pmi/PmiMeasurementUnitMilliWatt, powermeter.pmi_measurement_unit
 f1_keywords:
  - "pmi/PMI_MEASUREMENT_UNIT"
+ - "PMI_MEASUREMENT_UNIT"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows

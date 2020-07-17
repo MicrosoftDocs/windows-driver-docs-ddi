@@ -10,6 +10,7 @@ keywords: ["_WWAN_VENDOR_SPECIFIC structure"]
 ms.keywords: "*PWWAN_VENDOR_SPECIFIC, PWWAN_VENDOR_SPECIFIC, PWWAN_VENDOR_SPECIFIC structure pointer [Network Drivers Starting with Windows Vista], WWAN_VENDOR_SPECIFIC, WWAN_VENDOR_SPECIFIC structure [Network Drivers Starting with Windows Vista], WwanRef_9261cb07-079e-4266-8358-fff73af8c31a.xml, _WWAN_VENDOR_SPECIFIC, netvista.wwan_vendor_specific, wwan/PWWAN_VENDOR_SPECIFIC, wwan/WWAN_VENDOR_SPECIFIC"
 f1_keywords:
  - "wwan/WWAN_VENDOR_SPECIFIC"
+ - "WWAN_VENDOR_SPECIFIC"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["SerCx2SystemDmaTransmitCreate function"]
 ms.keywords: 2/SerCx2SystemDmaTransmitCreate, SerCx2SystemDmaTransmitCreate, SerCx2SystemDmaTransmitCreate method [Serial Ports], serports.sercx2systemdmatransmitcreate
 f1_keywords:
  - "sercx/SerCx2SystemDmaTransmitCreate"
+ - "SerCx2SystemDmaTransmitCreate"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_SETDISPLAYMODE structure"]
 ms.keywords: D3DKMT_SETDISPLAYMODE, D3DKMT_SETDISPLAYMODE structure [Display Devices], OpenGL_Structs_05a13119-df17-4380-8c9b-8af52c989c73.xml, _D3DKMT_SETDISPLAYMODE, d3dkmthk/D3DKMT_SETDISPLAYMODE, display.d3dkmt_setdisplaymode
 f1_keywords:
  - "d3dkmthk/D3DKMT_SETDISPLAYMODE"
+ - "D3DKMT_SETDISPLAYMODE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

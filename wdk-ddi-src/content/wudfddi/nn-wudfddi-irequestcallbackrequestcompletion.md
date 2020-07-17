@@ -10,6 +10,7 @@ keywords: ["IRequestCallbackRequestCompletion interface"]
 ms.keywords: IRequestCallbackRequestCompletion, IRequestCallbackRequestCompletion interface, IRequestCallbackRequestCompletion interface,described, UMDFRequestObjectRef_9940e95b-e321-4cdf-95bb-3540e95f6094.xml, umdf.irequestcallbackrequestcompletion, wdf.irequestcallbackrequestcompletion, wudfddi/IRequestCallbackRequestCompletion
 f1_keywords:
  - "wudfddi/IRequestCallbackRequestCompletion"
+ - "IRequestCallbackRequestCompletion"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

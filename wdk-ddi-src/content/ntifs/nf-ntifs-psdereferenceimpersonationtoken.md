@@ -10,6 +10,7 @@ keywords: ["PsDereferenceImpersonationToken function"]
 ms.keywords: PsDereferenceImpersonationToken, PsDereferenceImpersonationToken routine [Installable File System Drivers], ifsk.psdereferenceimpersonationtoken, ntifs/PsDereferenceImpersonationToken, psref_8d62cb23-83a3-45fd-8b35-f7e38dd1548d.xml
 f1_keywords:
  - "ntifs/PsDereferenceImpersonationToken"
+ - "PsDereferenceImpersonationToken"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

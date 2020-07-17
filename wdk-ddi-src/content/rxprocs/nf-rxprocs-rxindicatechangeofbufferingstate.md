@@ -10,6 +10,7 @@ keywords: ["RxIndicateChangeOfBufferingState function"]
 ms.keywords: RxIndicateChangeOfBufferingState, RxIndicateChangeOfBufferingState routine [Installable File System Drivers], ifsk.rxindicatechangeofbufferingstate, rxprocs/RxIndicateChangeOfBufferingState, rxref_4a7ba539-c0b8-4c3b-b642-c272d262310b.xml
 f1_keywords:
  - "rxprocs/RxIndicateChangeOfBufferingState"
+ - "RxIndicateChangeOfBufferingState"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h, Struchdr.h, Fcb.h
 req.target-type: Desktop

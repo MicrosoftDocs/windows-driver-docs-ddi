@@ -10,6 +10,7 @@ keywords: ["_DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR structure"]
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, dbgeng/DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, dbgeng/PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, debugger.debug_last_event_info_system_error"
 f1_keywords:
  - "dbgeng/DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR"
+ - "DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows

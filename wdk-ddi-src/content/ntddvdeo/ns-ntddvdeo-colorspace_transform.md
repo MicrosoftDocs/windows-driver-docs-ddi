@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM structure"]
 f1_keywords:
  - "ntddvdeo/COLORSPACE_TRANSFORM"
+ - "COLORSPACE_TRANSFORM"
 ms.keywords: COLORSPACE_TRANSFORM, COLORSPACE_TRANSFORM, *PCOLORSPACE_TRANSFORM, 
 req.header: ntddvdeo.h
 req.include-header:

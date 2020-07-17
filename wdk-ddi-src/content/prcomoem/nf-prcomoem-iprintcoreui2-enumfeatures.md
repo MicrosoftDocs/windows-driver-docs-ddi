@@ -10,6 +10,7 @@ keywords: ["IPrintCoreUI2::EnumFeatures"]
 ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],EnumFeatures method, IPrintCoreUI2.EnumFeatures, IPrintCoreUI2::EnumFeatures, prcomoem/IPrintCoreUI2::EnumFeatures, print.iprintcoreui2_enumfeatures, print_unidrv-pscript_ui_2eb51928-70ab-48f5-a17e-845c54fbd1aa.xml
 f1_keywords:
  - "prcomoem/IPrintCoreUI2.EnumFeatures"
+ - "IPrintCoreUI2.EnumFeatures"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RtlEqualUnicodeString function"]
 ms.keywords: RtlEqualUnicodeString, RtlEqualUnicodeString routine [Kernel-Mode Driver Architecture], k109_59d7c507-968a-4cf5-b1f0-91c8cd7ccb64.xml, kernel.rtlequalunicodestring, wdm/RtlEqualUnicodeString
 f1_keywords:
  - "wdm/RtlEqualUnicodeString"
+ - "RtlEqualUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IDebugSystemObjects::GetTotalNumberThreads"]
 ms.keywords: GetTotalNumberThreads, GetTotalNumberThreads method [Windows Debugging], GetTotalNumberThreads method [Windows Debugging],IDebugSystemObjects interface, GetTotalNumberThreads method [Windows Debugging],IDebugSystemObjects2 interface, GetTotalNumberThreads method [Windows Debugging],IDebugSystemObjects3 interface, GetTotalNumberThreads method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetTotalNumberThreads method, IDebugSystemObjects.GetTotalNumberThreads, IDebugSystemObjects2 interface [Windows Debugging],GetTotalNumberThreads method, IDebugSystemObjects2::GetTotalNumberThreads, IDebugSystemObjects3 interface [Windows Debugging],GetTotalNumberThreads method, IDebugSystemObjects3::GetTotalNumberThreads, IDebugSystemObjects4 interface [Windows Debugging],GetTotalNumberThreads method, IDebugSystemObjects4::GetTotalNumberThreads, IDebugSystemObjects::GetTotalNumberThreads, IDebugSystemObjects_fece8f3e-8d85-492a-b1f8-beadc398613e.xml, dbgeng/IDebugSystemObjects2::GetTotalNumberThreads, dbgeng/IDebugSystemObjects3::GetTotalNumberThreads, dbgeng/IDebugSystemObjects4::GetTotalNumberThreads, dbgeng/IDebugSystemObjects::GetTotalNumberThreads, debugger.gettotalnumberthreads
 f1_keywords:
  - "dbgeng/IDebugSystemObjects.GetTotalNumberThreads"
+ - "IDebugSystemObjects.GetTotalNumberThreads"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

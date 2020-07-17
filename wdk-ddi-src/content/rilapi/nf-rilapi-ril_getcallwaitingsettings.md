@@ -10,6 +10,7 @@ keywords: ["RIL_GetCallWaitingSettings function"]
 ms.keywords: RIL_GetCallWaitingSettings, RIL_GetCallWaitingSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getcallwaitingsettings, rilapi/RIL_GetCallWaitingSettings
 f1_keywords:
  - "rilapi/RIL_GetCallWaitingSettings"
+ - "RIL_GetCallWaitingSettings"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

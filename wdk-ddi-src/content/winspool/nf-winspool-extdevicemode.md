@@ -10,6 +10,7 @@ keywords: ["ExtDeviceMode function"]
 ms.keywords: ExtDeviceMode, ExtDeviceMode function [Print Devices], print.extdevicemode, spoolfnc_56c49c94-99f4-43b9-90eb-189041a1dd3a.xml, winspool/ExtDeviceMode
 f1_keywords:
  - "winspool/ExtDeviceMode"
+ - "ExtDeviceMode"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop

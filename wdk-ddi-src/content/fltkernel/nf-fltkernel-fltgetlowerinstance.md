@@ -10,6 +10,7 @@ keywords: ["FltGetLowerInstance function"]
 ms.keywords: FltApiRef_e_to_o_6040eade-f27b-4fe5-999e-830065cafb71.xml, FltGetLowerInstance, FltGetLowerInstance routine [Installable File System Drivers], fltkernel/FltGetLowerInstance, ifsk.fltgetlowerinstance
 f1_keywords:
  - "fltkernel/FltGetLowerInstance"
+ - "FltGetLowerInstance"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

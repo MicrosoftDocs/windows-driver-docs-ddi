@@ -10,6 +10,7 @@ keywords: ["PWINDBG_READ_PROCESS_MEMORY_ROUTINE callback function"]
 ms.keywords: PWINDBG_READ_PROCESS_MEMORY_ROUTINE, PWINDBG_READ_PROCESS_MEMORY_ROUTINE callback, ReadMemory, ReadMemory callback function [Windows Debugging], WdbgExts_Ref_53e869bc-03c9-4818-80fd-ca1bdafe2b96.xml, debugger.readmemory, wdbgexts/ReadMemory
 f1_keywords:
  - "wdbgexts/ReadMemory"
+ - "ReadMemory"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

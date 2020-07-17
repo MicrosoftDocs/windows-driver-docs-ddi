@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_QUERYADAPTERINFOFLAGS structure"]
 f1_keywords:
  - "d3dkmddi/_DXGK_QUERYADAPTERINFOFLAGS"
+ - "_DXGK_QUERYADAPTERINFOFLAGS"
 ms.keywords: _DXGK_QUERYADAPTERINFOFLAGS, DXGK_QUERYADAPTERINFOFLAGS,
 req.header: d3dkmddi.h
 req.include-header:

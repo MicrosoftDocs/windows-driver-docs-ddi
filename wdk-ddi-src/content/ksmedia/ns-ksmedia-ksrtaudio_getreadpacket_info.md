@@ -10,6 +10,7 @@ keywords: ["KSRTAUDIO_GETREADPACKET_INFO structure"]
 ms.keywords: "*PKSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO structure [Audio Devices], PKSRTAUDIO_GETREADPACKET_INFO, PKSRTAUDIO_GETREADPACKET_INFO structure pointer [Audio Devices], audio.ksrtaudio_getreadpacket_info, ksmedia/KSRTAUDIO_GETREADPACKET_INFO, ksmedia/PKSRTAUDIO_GETREADPACKET_INFO"
 f1_keywords:
  - "ksmedia/KSRTAUDIO_GETREADPACKET_INFO"
+ - "KSRTAUDIO_GETREADPACKET_INFO"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

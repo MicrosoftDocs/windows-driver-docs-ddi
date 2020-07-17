@@ -10,6 +10,7 @@ keywords: ["_PMI_EVENT structure"]
 ms.keywords: "*PPMI_EVENT, PMI_EVENT, PMI_EVENT structure [Power Metering and Budgeting Devices], PPMI_EVENT, PPMI_EVENT structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_8c4d0572-12b8-4e72-b52e-9aa74a22d0c1.xml, _PMI_EVENT, pmi/PMI_EVENT, pmi/PPMI_EVENT, powermeter.pmi_event"
 f1_keywords:
  - "pmi/PMI_EVENT"
+ - "PMI_EVENT"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows

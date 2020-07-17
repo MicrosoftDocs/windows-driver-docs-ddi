@@ -10,6 +10,7 @@ keywords: ["D3DDDI_EVICT_FLAGS structure"]
 ms.keywords: D3DDDI_EVICT_FLAGS, D3DDDI_EVICT_FLAGS structure [Display Devices], d3dukmdt/D3DDDI_EVICT_FLAGS, display.d3dddi_evict_flags
 f1_keywords:
  - "d3dukmdt/D3DDDI_EVICT_FLAGS"
+ - "D3DDDI_EVICT_FLAGS"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows

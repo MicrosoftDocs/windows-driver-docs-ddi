@@ -10,6 +10,7 @@ ms.date: 03/19/2019
 keywords: ["StorPortCancelDpc function"]
 f1_keywords:
  - "storport/StorPortCancelDpc"
+ - "StorPortCancelDpc"
 ms.keywords: StorPortCancelDpc
 req.header: storport.h
 req.include-header:

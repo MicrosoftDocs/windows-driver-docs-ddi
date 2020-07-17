@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_SETFSEBLOCKFLAGS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_SETFSEBLOCKFLAGS"
+ - "_D3DKMT_SETFSEBLOCKFLAGS"
 ms.keywords: _D3DKMT_SETFSEBLOCKFLAGS, D3DKMT_SETFSEBLOCKFLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

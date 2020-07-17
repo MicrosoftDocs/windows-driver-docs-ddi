@@ -10,6 +10,7 @@ keywords: ["ISensorClassExtension::PostEvent"]
 ms.keywords: ISensorClassExtension interface [Sensor Devices],PostEvent method, ISensorClassExtension.PostEvent, ISensorClassExtension::PostEvent, PostEvent, PostEvent method [Sensor Devices], PostEvent method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_postevent, sensorsclassextension/ISensorClassExtension::PostEvent
 f1_keywords:
  - "sensorsclassextension/PostEvent"
+ - "PostEvent"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows

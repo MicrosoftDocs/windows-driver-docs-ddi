@@ -9,6 +9,7 @@ keywords: ["D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC structure"]
 ms.keywords: D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC, D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC structure [Display Devices], d3d10umddi/D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC, display.d3dwddm2_2ddi_swizzle_pattern_desc
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC"
+ - "D3DWDDM2_2DDI_SWIZZLE_PATTERN_DESC"
 req.header: d3d10umddi.h
 req.include-header: 
 req.target-type: Windows

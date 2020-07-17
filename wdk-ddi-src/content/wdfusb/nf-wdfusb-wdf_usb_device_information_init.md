@@ -10,6 +10,7 @@ keywords: ["WDF_USB_DEVICE_INFORMATION_INIT function"]
 ms.keywords: DFUsbRef_ffde7966-f00b-4614-9845-aaebe2e0488b.xml, WDF_USB_DEVICE_INFORMATION_INIT, WDF_USB_DEVICE_INFORMATION_INIT function, kmdf.wdf_usb_device_information_init, wdf.wdf_usb_device_information_init, wdfusb/WDF_USB_DEVICE_INFORMATION_INIT
 f1_keywords:
  - "wdfusb/WDF_USB_DEVICE_INFORMATION_INIT"
+ - "WDF_USB_DEVICE_INFORMATION_INIT"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

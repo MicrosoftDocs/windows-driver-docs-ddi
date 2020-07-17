@@ -10,6 +10,7 @@ keywords: ["ExReleaseSpinLockExclusive function"]
 ms.keywords: ExReleaseSpinLockExclusive, ExReleaseSpinLockExclusive routine [Kernel-Mode Driver Architecture], kernel.exreleasespinlockexclusive_, wdm/ExReleaseSpinLockExclusive
 f1_keywords:
  - "wdm/ExReleaseSpinLockExclusive"
+ - "ExReleaseSpinLockExclusive"
 req.header: wdm.h
 req.include-header:
 req.target-type: Universal

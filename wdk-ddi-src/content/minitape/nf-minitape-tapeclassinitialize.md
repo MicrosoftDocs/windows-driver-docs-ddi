@@ -10,6 +10,7 @@ keywords: ["TapeClassInitialize function"]
 ms.keywords: TapeClassInitialize, TapeClassInitialize routine [Storage Devices], minitape/TapeClassInitialize, storage.tapeclassinitialize, tapeclas_92bf66d9-2a7b-4853-ad25-b6f854533a4e.xml
 f1_keywords:
  - "minitape/TapeClassInitialize"
+ - "TapeClassInitialize"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop

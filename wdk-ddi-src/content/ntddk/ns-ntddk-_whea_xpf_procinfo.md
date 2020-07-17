@@ -10,6 +10,7 @@ keywords: ["_WHEA_XPF_PROCINFO structure"]
 ms.keywords: "*PWHEA_XPF_PROCINFO, PWHEA_XPF_PROCINFO, PWHEA_XPF_PROCINFO structure pointer [WHEA Drivers and Applications], WHEA_XPF_PROCINFO, WHEA_XPF_PROCINFO structure [WHEA Drivers and Applications], _WHEA_XPF_PROCINFO, ntddk/PWHEA_XPF_PROCINFO, ntddk/WHEA_XPF_PROCINFO, whea.whea_xpf_procinfo, whearef_adb42f7c-687b-47ef-b3fe-312ef995e5c5.xml"
 f1_keywords:
  - "ntddk/WHEA_XPF_PROCINFO"
+ - "WHEA_XPF_PROCINFO"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

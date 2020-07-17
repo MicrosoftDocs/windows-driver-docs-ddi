@@ -10,6 +10,7 @@ keywords: ["IPortWaveRTStream::FreePagesFromMdl"]
 ms.keywords: FreePagesFromMdl, FreePagesFromMdl method [Audio Devices], FreePagesFromMdl method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],FreePagesFromMdl method, IPortWaveRTStream.FreePagesFromMdl, IPortWaveRTStream::FreePagesFromMdl, audio.iportwavertstream_freepagesfrommdl, audmp-routines_7e3477c5-08b8-4e7c-bfb9-36945bf765c4.xml, portcls/IPortWaveRTStream::FreePagesFromMdl
 f1_keywords:
  - "portcls/IPortWaveRTStream.FreePagesFromMdl"
+ - "IPortWaveRTStream.FreePagesFromMdl"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_DXVA_COPPSetProtectionLevelCmdData structure"]
 ms.keywords: DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [Display Devices], _DXVA_COPPSetProtectionLevelCmdData, display.dxva_coppsetprotectionlevelcmddata, dxva/DXVA_COPPSetProtectionLevelCmdData, dxvaref_ac7e802b-dd23-49da-ab02-21d80eaabe86.xml
 f1_keywords:
  - "dxva/DXVA_COPPSetProtectionLevelCmdData"
+ - "DXVA_COPPSetProtectionLevelCmdData"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

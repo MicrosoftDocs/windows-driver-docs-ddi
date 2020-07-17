@@ -21,6 +21,7 @@ tech.root: display
 ms.custom: RS5
 f1_keywords:
  - "d3d12umddi/D3D12DDI_META_COMMAND_PARAMETER_FLAGS"
+ - "D3D12DDI_META_COMMAND_PARAMETER_FLAGS"
 topic_type:
  - apiref
 api_type:

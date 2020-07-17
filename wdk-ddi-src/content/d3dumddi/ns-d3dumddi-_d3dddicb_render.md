@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_RENDER structure"]
 ms.keywords: D3DDDICB_RENDER, D3DDDICB_RENDER structure [Display Devices], D3D_param_Structs_62df043b-dbd7-4faf-a911-683ab12ba79b.xml, _D3DDDICB_RENDER, d3dumddi/D3DDDICB_RENDER, display.d3dddicb_render
 f1_keywords:
  - "d3dumddi/D3DDDICB_RENDER"
+ - "D3DDDICB_RENDER"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

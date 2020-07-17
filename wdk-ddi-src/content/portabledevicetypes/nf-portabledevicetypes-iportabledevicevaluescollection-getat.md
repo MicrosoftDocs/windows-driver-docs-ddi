@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValuesCollection::GetAt"]
 ms.keywords: GetAt, GetAt method, GetAt method,IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,GetAt method, IPortableDeviceValuesCollection.GetAt, IPortableDeviceValuesCollection::GetAt, IPortableDeviceValuesCollectionGetAt, portabledevicetypes/IPortableDeviceValuesCollection::GetAt, wpddk.iportabledevicevaluescollection_getat
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValuesCollection.GetAt"
+ - "IPortableDeviceValuesCollection.GetAt"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

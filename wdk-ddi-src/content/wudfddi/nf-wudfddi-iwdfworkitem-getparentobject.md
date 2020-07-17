@@ -10,6 +10,7 @@ keywords: ["IWDFWorkItem::GetParentObject"]
 ms.keywords: GetParentObject, GetParentObject method, GetParentObject method,IWDFWorkItem interface, IWDFWorkItem interface,GetParentObject method, IWDFWorkItem.GetParentObject, IWDFWorkItem::GetParentObject, umdf.iwdfworkitem_getparentobject, wdf.iwdfworkitem_getparentobject, wudfddi/IWDFWorkItem::GetParentObject
 f1_keywords:
  - "wudfddi/IWDFWorkItem.GetParentObject"
+ - "IWDFWorkItem.GetParentObject"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

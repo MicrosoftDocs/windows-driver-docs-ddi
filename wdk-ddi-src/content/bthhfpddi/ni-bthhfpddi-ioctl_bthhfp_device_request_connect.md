@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT IOCTL"]
 ms.keywords: IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT, IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT control, IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT control code [Audio Devices], audio.ioctl_bthhfp_device_request_connect, bthhfpddi/IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT
 f1_keywords:
  - "bthhfpddi/IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT"
+ - "IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::GetExceptionFilterParameters"]
 ms.keywords: GetExceptionFilterParameters, GetExceptionFilterParameters method [Windows Debugging], GetExceptionFilterParameters method [Windows Debugging],IDebugControl interface, GetExceptionFilterParameters method [Windows Debugging],IDebugControl2 interface, GetExceptionFilterParameters method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExceptionFilterParameters method, IDebugControl2 interface [Windows Debugging],GetExceptionFilterParameters method, IDebugControl2::GetExceptionFilterParameters, IDebugControl3 interface [Windows Debugging],GetExceptionFilterParameters method, IDebugControl3.GetExceptionFilterParameters, IDebugControl3::GetExceptionFilterParameters, IDebugControl::GetExceptionFilterParameters, IDebugControl_012d902c-ff4c-4ac8-9a35-b6cdcd1e2894.xml, dbgeng/IDebugControl2::GetExceptionFilterParameters, dbgeng/IDebugControl3::GetExceptionFilterParameters, dbgeng/IDebugControl::GetExceptionFilterParameters, debugger.getexceptionfilterparameters
 f1_keywords:
  - "dbgeng/IDebugControl.GetExceptionFilterParameters"
+ - "IDebugControl.GetExceptionFilterParameters"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

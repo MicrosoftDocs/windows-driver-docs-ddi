@@ -10,6 +10,7 @@ keywords: ["IPinName::GetPinName"]
 ms.keywords: GetPinName, GetPinName method [Audio Devices], GetPinName method [Audio Devices],IPinName interface, IPinName interface [Audio Devices],GetPinName method, IPinName.GetPinName, IPinName::GetPinName, audio.ipinname_getpinname, audmp-routines_438a3c13-6571-45ab-ad7a-6ef71336c17f.xml, portcls/IPinName::GetPinName
 f1_keywords:
  - "portcls/IPinName.GetPinName"
+ - "IPinName.GetPinName"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

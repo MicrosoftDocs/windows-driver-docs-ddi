@@ -10,6 +10,7 @@ keywords: ["PFNKSCLOCK_CORRELATEDTIME callback function"]
 ms.keywords: KStrClockGetCorrelatedPhysicalTime, KStrClockGetCorrelatedTime, PFNKSCLOCK_CORRELATEDTIME, SystemCorrelatedTime, SystemCorrelatedTime routine [Streaming Media Devices], ks/SystemCorrelatedTime, ksfunc_dd229adf-e2be-44ac-bda2-f947b0f559a3.xml, stream.kstrclockgetcorrelatedtime
 f1_keywords:
  - "ks/SystemCorrelatedTime"
+ - "SystemCorrelatedTime"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

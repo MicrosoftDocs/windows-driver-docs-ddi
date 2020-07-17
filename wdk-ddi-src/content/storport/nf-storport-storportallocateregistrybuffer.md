@@ -10,6 +10,7 @@ keywords: ["StorPortAllocateRegistryBuffer function"]
 ms.keywords: StorPortAllocateRegistryBuffer, StorPortAllocateRegistryBuffer routine [Storage Devices], storage.storportallocateregistrybuffer, storport/StorPortAllocateRegistryBuffer, storprt_dc344b88-692d-4529-8b98-c9b5c07a05f3.xml
 f1_keywords:
  - "storport/StorPortAllocateRegistryBuffer"
+ - "StorPortAllocateRegistryBuffer"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

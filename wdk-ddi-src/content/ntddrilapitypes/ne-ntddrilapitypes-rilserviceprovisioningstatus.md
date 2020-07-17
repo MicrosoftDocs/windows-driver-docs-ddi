@@ -10,6 +10,7 @@ keywords: ["RILSERVICEPROVISIONINGSTATUS enumeration"]
 ms.keywords: RILSERVICEPROVISIONINGSTATUS, RILSERVICEPROVISIONINGSTATUS enumeration [Network Drivers Starting with Windows Vista], RIL_SVCPROV_MAX, RIL_SVCPROV_NOTPROVISIONED, RIL_SVCPROV_PROVISIONED, RIL_SVCPROV_TEMPMODEALLOWED, RIL_SVCPROV_TEMPMODERESTRICTED, netvista.rilserviceprovisioningstatus, ntddrilapitypes/RILSERVICEPROVISIONINGSTATUS, ntddrilapitypes/RIL_SVCPROV_MAX, ntddrilapitypes/RIL_SVCPROV_NOTPROVISIONED, ntddrilapitypes/RIL_SVCPROV_PROVISIONED, ntddrilapitypes/RIL_SVCPROV_TEMPMODEALLOWED, ntddrilapitypes/RIL_SVCPROV_TEMPMODERESTRICTED
 f1_keywords:
  - "ntddrilapitypes/RILSERVICEPROVISIONINGSTATUS"
+ - "RILSERVICEPROVISIONINGSTATUS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

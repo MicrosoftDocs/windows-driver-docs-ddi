@@ -10,6 +10,7 @@ keywords: ["PFNKSALLOCATOR callback function"]
 ms.keywords: KStrAllocator, KStrAllocator routine [Streaming Media Devices], PFNKSALLOCATOR, ks/KStrAllocator, ksfunc_abd9491e-0ad2-4c28-bd96-90ecd6a6af3c.xml, stream.kstrallocator
 f1_keywords:
  - "ks/KStrAllocator"
+ - "KStrAllocator"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

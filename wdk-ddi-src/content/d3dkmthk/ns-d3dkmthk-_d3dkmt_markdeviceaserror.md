@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_MARKDEVICEASERROR structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_MARKDEVICEASERROR"
+ - "_D3DKMT_MARKDEVICEASERROR"
 ms.keywords: _D3DKMT_MARKDEVICEASERROR, D3DKMT_MARKDEVICEASERROR, 
 req.header: d3dkmthk.h
 req.include-header:

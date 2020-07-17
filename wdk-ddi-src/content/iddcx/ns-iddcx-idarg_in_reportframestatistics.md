@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_REPORTFRAMESTATISTICS structure"]
 ms.keywords: IDARG_IN_REPORTFRAMESTATISTICS, IDARG_IN_REPORTFRAMESTATISTICS structure [Display Devices], display.idarg_in_reportframestatistics, iddcx/IDARG_IN_REPORTFRAMESTATISTICS
 f1_keywords:
  - "iddcx/IDARG_IN_REPORTFRAMESTATISTICS"
+ - "IDARG_IN_REPORTFRAMESTATISTICS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

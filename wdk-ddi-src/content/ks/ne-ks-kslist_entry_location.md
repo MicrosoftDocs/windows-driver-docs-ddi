@@ -10,6 +10,7 @@ keywords: ["KSLIST_ENTRY_LOCATION enumeration"]
 ms.keywords: KSLIST_ENTRY_LOCATION, KSLIST_ENTRY_LOCATION enumeration [Streaming Media Devices], KsListEntryHead, KsListEntryTail, ks/KSLIST_ENTRY_LOCATION, ks/KsListEntryHead, ks/KsListEntryTail, stream.kslist_entry_location
 f1_keywords:
  - "ks/KSLIST_ENTRY_LOCATION"
+ - "KSLIST_ENTRY_LOCATION"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

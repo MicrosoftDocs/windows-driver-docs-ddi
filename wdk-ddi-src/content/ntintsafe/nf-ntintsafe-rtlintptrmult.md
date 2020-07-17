@@ -10,6 +10,7 @@ keywords: ["RtlIntPtrMult function"]
 ms.keywords: RtlIntPtrMult, RtlIntPtrMult function [Kernel-Mode Driver Architecture], kernel.rtlintptrmult, ntintsafe/RtlIntPtrMult
 f1_keywords:
  - "ntintsafe/RtlIntPtrMult"
+ - "RtlIntPtrMult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

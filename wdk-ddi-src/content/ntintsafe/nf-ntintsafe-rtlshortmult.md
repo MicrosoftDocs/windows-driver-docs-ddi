@@ -10,6 +10,7 @@ keywords: ["RtlShortMult function"]
 ms.keywords: RtlShortMult, RtlShortMult function [Kernel-Mode Driver Architecture], kernel.rtlshortmult, ntintsafe/RtlShortMult
 f1_keywords:
  - "ntintsafe/RtlShortMult"
+ - "RtlShortMult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

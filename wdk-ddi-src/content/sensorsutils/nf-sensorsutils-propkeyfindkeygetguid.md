@@ -8,6 +8,7 @@ keywords: ["PropKeyFindKeyGetGuid function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/PropKeyFindKeyGetGuid"
+ - "PropKeyFindKeyGetGuid"
 ms.keywords: PropKeyFindKeyGetGuid
 req.header: sensorsutils.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["AtaPortConvertPhysicalAddressToUlong function"]
 ms.keywords: AtaPortConvertPhysicalAddressToUlong, AtaPortConvertPhysicalAddressToUlong routine [Storage Devices], atartns_b9df7c2c-3309-4d5a-88d9-bc1eee37fae0.xml, irb/AtaPortConvertPhysicalAddressToUlong, storage.ataportconvertphysicaladdresstoulong
 f1_keywords:
  - "irb/AtaPortConvertPhysicalAddressToUlong"
+ - "AtaPortConvertPhysicalAddressToUlong"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

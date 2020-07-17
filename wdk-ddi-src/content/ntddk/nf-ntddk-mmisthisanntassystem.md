@@ -10,6 +10,7 @@ keywords: ["MmIsThisAnNtAsSystem function"]
 ms.keywords: MmIsThisAnNtAsSystem, MmIsThisAnNtAsSystem routine [Kernel-Mode Driver Architecture], k106_3f6077c8-2ce9-4dce-b29e-afd262be1e80.xml, kernel.mmisthisanntassystem, ntddk/MmIsThisAnNtAsSystem
 f1_keywords:
  - "ntddk/MmIsThisAnNtAsSystem"
+ - "MmIsThisAnNtAsSystem"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

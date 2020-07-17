@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_STATE_CS_UAV_CB callback function"]
 ms.keywords: PFND3D11DDI_STATE_CS_UAV_CB, PFND3D11DDI_STATE_CS_UAV_CB callback, d3d10umddi/pfnStateCsUavCb, d3d11state_functions_2818f407-e0b4-4923-ae5e-43b1450d4a82.xml, display.pfnstatecsuavcb, pfnStateCsUavCb, pfnStateCsUavCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateCsUavCb"
+ - "pfnStateCsUavCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

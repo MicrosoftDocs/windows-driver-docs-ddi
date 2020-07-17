@@ -10,6 +10,7 @@ keywords: ["_NDIS_OBJECT_HEADER structure"]
 ms.keywords: "*PNDIS_OBJECT_HEADER, NDIS_OBJECT_HEADER, NDIS_OBJECT_HEADER structure [Network Drivers Starting with Windows Vista], PNDIS_OBJECT_HEADER, PNDIS_OBJECT_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OBJECT_HEADER, ndis_object_ref_c4593f06-bd96-4bbe-8e94-d8b7b1cf413b.xml, netvista.ndis_object_header, ntddndis/NDIS_OBJECT_HEADER, ntddndis/PNDIS_OBJECT_HEADER"
 f1_keywords:
  - "ntddndis/NDIS_OBJECT_HEADER"
+ - "NDIS_OBJECT_HEADER"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

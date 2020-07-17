@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR structure"]
 ms.keywords: D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR structure [Display Devices], UMDisplayDriver_param_Structs_c2d925e2-646c-46dc-9795-1a885aa64a02.xml, _D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, d3dumddi/D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR, display.d3dddiarg_dxvahd_createvideoprocessor
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR"
+ - "D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

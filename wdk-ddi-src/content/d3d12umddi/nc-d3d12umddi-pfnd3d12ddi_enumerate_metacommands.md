@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_ENUMERATE_METACOMMANDS callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_ENUMERATE_METACOMMANDS"
+ - "PFND3D12DDI_ENUMERATE_METACOMMANDS"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

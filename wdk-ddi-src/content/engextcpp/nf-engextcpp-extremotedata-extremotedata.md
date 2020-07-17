@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::ExtRemoteData"]
 ms.keywords: EngExtCpp_Ref_8e376094-9e23-4ea4-81e3-c47e6695a687.xml, ExtRemoteData, ExtRemoteData class [Windows Debugging],ExtRemoteData constructor, ExtRemoteData constructor [Windows Debugging], ExtRemoteData constructor [Windows Debugging],ExtRemoteData class, ExtRemoteData.ExtRemoteData, ExtRemoteData.ExtRemoteData(), ExtRemoteData::ExtRemoteData, debugger.extremotedata_extremotedata
 f1_keywords:
  - "engextcpp/ExtRemoteData.ExtRemoteData"
+ - "ExtRemoteData.ExtRemoteData"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

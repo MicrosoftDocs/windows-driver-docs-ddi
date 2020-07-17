@@ -10,6 +10,7 @@ keywords: ["RtlDeleteElementGenericTableAvl function"]
 ms.keywords: RtlDeleteElementGenericTableAvl, RtlDeleteElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtldeleteelementgenerictableavl, ntddk/RtlDeleteElementGenericTableAvl
 f1_keywords:
  - "ntddk/RtlDeleteElementGenericTableAvl"
+ - "RtlDeleteElementGenericTableAvl"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

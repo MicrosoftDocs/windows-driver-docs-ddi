@@ -10,6 +10,7 @@ keywords: ["UfxDeviceProprietaryChargerDetectComplete function"]
 ms.keywords: UfxDeviceProprietaryChargerDetectComplete, UfxDeviceProprietaryChargerDetectComplete method [Buses], buses.ufxdeviceproprietarychargerdetectcomplete, ufxclient/UfxDeviceProprietaryChargerDetectComplete
 f1_keywords:
  - "ufxclient/UfxDeviceProprietaryChargerDetectComplete"
+ - "UfxDeviceProprietaryChargerDetectComplete"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

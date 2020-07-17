@@ -10,6 +10,7 @@ ms.date: 09/23/2019
 keywords: ["NetExtensionGetPacketLso function"]
 f1_keywords:
  - "lso/NetExtensionGetPacketLso"
+ - "NetExtensionGetPacketLso"
 ms.keywords: NetExtensionGetPacketLso
 req.header: lso.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_NDIS_SWITCH_PORT_PROPERTY_VLAN structure"]
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_VLAN, NDIS_SWITCH_PORT_PROPERTY_VLAN, NDIS_SWITCH_PORT_PROPERTY_VLAN structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_VLAN, PNDIS_SWITCH_PORT_PROPERTY_VLAN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_VLAN, netvista.ndis_switch_port_property_vlan, ntddndis/NDIS_SWITCH_PORT_PROPERTY_VLAN, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_VLAN"
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_PROPERTY_VLAN"
+ - "NDIS_SWITCH_PORT_PROPERTY_VLAN"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

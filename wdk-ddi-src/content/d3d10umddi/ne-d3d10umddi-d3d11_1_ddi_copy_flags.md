@@ -9,6 +9,7 @@ keywords: ["D3D11_1_DDI_COPY_FLAGS enumeration"]
 ms.keywords: D3D11_1DDI_COPY_DISCARD, D3D11_1DDI_COPY_NO_OVERWRITE, D3D11_1DDI_COPY_TILEABLE, D3D11_1_DDI_COPY_FLAGS, D3D11_1_DDI_COPY_FLAGS enumeration [Display Devices], d3d10umddi/D3D11_1DDI_COPY_DISCARD, d3d10umddi/D3D11_1DDI_COPY_NO_OVERWRITE, d3d10umddi/D3D11_1DDI_COPY_TILEABLE, d3d10umddi/D3D11_1_DDI_COPY_FLAGS, display.d3d11_1_ddi_copy_flags
 f1_keywords:
  - "d3d10umddi/D3D11_1_DDI_COPY_FLAGS"
+ - "D3D11_1_DDI_COPY_FLAGS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

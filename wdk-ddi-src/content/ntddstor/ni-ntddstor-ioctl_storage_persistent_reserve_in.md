@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_PERSISTENT_RESERVE_IN IOCTL"]
 ms.keywords: IOCTL_STORAGE_PERSISTENT_RESERVE_IN, IOCTL_STORAGE_PERSISTENT_RESERVE_IN control, IOCTL_STORAGE_PERSISTENT_RESERVE_IN control code [Storage Devices], k307_d142d4f6-d2a1-420e-a41d-5bb630445ad2.xml, ntddstor/IOCTL_STORAGE_PERSISTENT_RESERVE_IN, storage.ioctl_storage_persistent_reserve_in
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_PERSISTENT_RESERVE_IN"
+ - "IOCTL_STORAGE_PERSISTENT_RESERVE_IN"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

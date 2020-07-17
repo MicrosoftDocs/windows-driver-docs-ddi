@@ -10,6 +10,7 @@ keywords: ["DOT11EXT_SEND_NOTIFICATION callback"]
 ms.keywords: DOT11EXT_SEND_NOTIFICATION, Dot11ExtSendNotification, Dot11ExtSendNotification callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_163e65f4-108a-4d10-bcf7-b487bd3cc0c9.xml, netvista.dot11extsendnotification, wlanihv/Dot11ExtSendNotification
 f1_keywords:
  - "wlanihv/Dot11ExtSendNotification"
+ - "Dot11ExtSendNotification"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h, L2cmn.h
 req.target-type: Desktop

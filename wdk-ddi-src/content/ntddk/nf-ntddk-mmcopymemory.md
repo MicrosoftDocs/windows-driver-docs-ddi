@@ -10,6 +10,7 @@ keywords: ["MmCopyMemory function"]
 ms.keywords: MmCopyMemory, MmCopyMemory routine [Kernel-Mode Driver Architecture], kernel.mmcopymemory, ntddk/MmCopyMemory
 f1_keywords:
  - "ntddk/MmCopyMemory"
+ - "MmCopyMemory"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Universal

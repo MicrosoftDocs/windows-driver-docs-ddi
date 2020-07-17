@@ -10,6 +10,7 @@ keywords: ["HidP_GetSpecificValueCaps function"]
 ms.keywords: HidP_GetSpecificValueCaps, HidP_GetSpecificValueCaps routine [Human Input Devices], hid.hidp_getspecificvaluecaps, hidfunc_627cf175-fa12-4082-9d13-8ec454be4a74.xml, hidpi/HidP_GetSpecificValueCaps
 f1_keywords:
  - "hidpi/HidP_GetSpecificValueCaps"
+ - "HidP_GetSpecificValueCaps"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

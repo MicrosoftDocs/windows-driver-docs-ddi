@@ -10,6 +10,7 @@ keywords: ["DXGKCB_SYNCHRONIZE_EXECUTION callback function"]
 ms.keywords: DXGKCB_SYNCHRONIZE_EXECUTION, DXGKCB_SYNCHRONIZE_EXECUTION callback, DpFunctions_3d9aecd7-8082-4869-a0d1-4a6cdadc4839.xml, DxgkCbSynchronizeExecution, DxgkCbSynchronizeExecution callback function [Display Devices], display.dxgkcbsynchronizeexecution, dispmprt/DxgkCbSynchronizeExecution
 f1_keywords:
  - "dispmprt/DxgkCbSynchronizeExecution"
+ - "DxgkCbSynchronizeExecution"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

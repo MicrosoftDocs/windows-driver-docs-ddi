@@ -10,6 +10,7 @@ keywords: ["_WWAN_USSD_REQUEST structure"]
 ms.keywords: "*PWWAN_USSD_REQUEST, PWWAN_USSD_REQUEST, PWWAN_USSD_REQUEST structure pointer [Network Drivers Starting with Windows Vista], WWAN_USSD_REQUEST, WWAN_USSD_REQUEST structure [Network Drivers Starting with Windows Vista], _WWAN_USSD_REQUEST, netvista.wwan_ussd_request, wwan/PWWAN_USSD_REQUEST, wwan/WWAN_USSD_REQUEST"
 f1_keywords:
  - "wwan/WWAN_USSD_REQUEST"
+ - "WWAN_USSD_REQUEST"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

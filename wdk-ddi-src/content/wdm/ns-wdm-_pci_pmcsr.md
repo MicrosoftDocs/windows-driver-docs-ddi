@@ -10,6 +10,7 @@ keywords: ["_PCI_PMCSR structure"]
 ms.keywords: "*PPCI_PMCSR, PCI.pci_pmcsr, PCI_PMCSR, PCI_PMCSR structure [Buses], PPCI_PMCSR, PPCI_PMCSR structure pointer [Buses], _PCI_PMCSR, pci_struct_03c3c722-9aa9-4fff-a50e-4499122d7490.xml, wdm/PCI_PMCSR, wdm/PPCI_PMCSR"
 f1_keywords:
  - "wdm/PCI_PMCSR"
+ - "PCI_PMCSR"
 req.header: wdm.h
 req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows

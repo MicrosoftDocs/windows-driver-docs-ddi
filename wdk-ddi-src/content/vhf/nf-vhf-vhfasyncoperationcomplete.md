@@ -10,6 +10,7 @@ keywords: ["VhfAsyncOperationComplete function"]
 ms.keywords: VhfAsyncOperationComplete, VhfAsyncOperationComplete method [Human Input Devices], hid._vhfasyncoperationcomplete, vhf/VhfAsyncOperationComplete
 f1_keywords:
  - "vhf/VhfAsyncOperationComplete"
+ - "VhfAsyncOperationComplete"
 req.header: vhf.h
 req.include-header: 
 req.target-type: Windows

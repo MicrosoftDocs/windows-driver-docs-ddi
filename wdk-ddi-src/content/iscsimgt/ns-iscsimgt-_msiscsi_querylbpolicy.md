@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_QueryLBPolicy structure"]
 ms.keywords: "*PMSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy, MSiSCSI_QueryLBPolicy structure [Storage Devices], PMSiSCSI_QueryLBPolicy, PMSiSCSI_QueryLBPolicy structure pointer [Storage Devices], _MSiSCSI_QueryLBPolicy, iscsimgt/MSiSCSI_QueryLBPolicy, iscsimgt/PMSiSCSI_QueryLBPolicy, storage.msiscsi_querylbpolicy, structs-iSCSI_d978106a-8fb4-4b42-8277-8ac767c54d06.xml"
 f1_keywords:
  - "iscsimgt/MSiSCSI_QueryLBPolicy"
+ - "MSiSCSI_QueryLBPolicy"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows

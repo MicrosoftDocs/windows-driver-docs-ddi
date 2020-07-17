@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_TEXBLT structure"]
 ms.keywords: D3DDDIARG_TEXBLT, D3DDDIARG_TEXBLT structure [Display Devices], UMDisplayDriver_param_Structs_4a343a1e-c364-4261-9f86-e179e0fc2f7c.xml, _D3DDDIARG_TEXBLT, d3dumddi/D3DDDIARG_TEXBLT, display.d3dddiarg_texblt
 f1_keywords:
  - "d3dumddi/D3DDDIARG_TEXBLT"
+ - "D3DDDIARG_TEXBLT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IKsAllocator::KsGetAllocatorHandle"]
 ms.keywords: IKsAllocator interface [Streaming Media Devices],KsGetAllocatorHandle method, IKsAllocator.KsGetAllocatorHandle, IKsAllocator::KsGetAllocatorHandle, KsGetAllocatorHandle, KsGetAllocatorHandle method [Streaming Media Devices], KsGetAllocatorHandle method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsGetAllocatorHandle, stream.iksallocator_ksgetallocatorhandle
 f1_keywords:
  - "ksproxy/IKsAllocator.KsGetAllocatorHandle"
+ - "IKsAllocator.KsGetAllocatorHandle"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

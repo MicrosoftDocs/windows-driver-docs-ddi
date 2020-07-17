@@ -10,6 +10,7 @@ keywords: ["IKsControl interface"]
 ms.keywords: IKsControl, IKsControl interface [Streaming Media Devices], IKsControl interface [Streaming Media Devices],described, ksproxy/IKsControl, ksproxy_59a4df2f-d723-499a-adc6-907c0592a6ac.xml, stream.ikscontrol
 f1_keywords:
  - "ksproxy/IKsControl"
+ - "IKsControl"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

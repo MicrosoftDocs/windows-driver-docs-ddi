@@ -10,6 +10,7 @@ keywords: ["IWDFObject interface"]
 ms.keywords: IWDFObject, IWDFObject interface, IWDFObject interface,described, UMDFBaseObjectRef_b2026a30-0f91-4793-8622-093ca142f794.xml, umdf.iwdfobject, wdf.iwdfobject, wudfddi/IWDFObject
 f1_keywords:
  - "wudfddi/IWDFObject"
+ - "IWDFObject"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.date: 09/25/2019
 keywords: ["NetRingAdvanceIndex function"]
 f1_keywords:
  - "ring/NetRingAdvanceIndex"
+ - "NetRingAdvanceIndex"
 ms.keywords: NetRingAdvanceIndex
 req.header: ring.h
 req.include-header:

@@ -8,6 +8,7 @@ ms.date: 02/07/2018
 keywords: ["NetConfigurationClose function"]
 f1_keywords:
  - "netconfiguration/NetConfigurationClose"
+ - "NetConfigurationClose"
 ms.keywords: NetConfigurationClose
 req.header: netconfiguration.h
 req.include-header: netadaptercx.h

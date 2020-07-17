@@ -10,6 +10,7 @@ keywords: ["IoWMIHandleToInstanceName function"]
 ms.keywords: IoWMIHandleToInstanceName, IoWMIHandleToInstanceName routine [Kernel-Mode Driver Architecture], k104_7d97f756-2f7f-4788-bcbc-368e08b6b86f.xml, kernel.iowmihandletoinstancename, wdm/IoWMIHandleToInstanceName
 f1_keywords:
  - "wdm/IoWMIHandleToInstanceName"
+ - "IoWMIHandleToInstanceName"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

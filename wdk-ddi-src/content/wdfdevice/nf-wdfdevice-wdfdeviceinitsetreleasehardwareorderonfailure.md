@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitSetReleaseHardwareOrderOnFailure function"]
 ms.keywords: WdfDeviceInitSetReleaseHardwareOrderOnFailure, WdfDeviceInitSetReleaseHardwareOrderOnFailure method, kmdf.wdfdeviceinitsetreleasehardwareorderonfailure, wdf.wdfdeviceinitsetreleasehardwareorderonfailure, wdfdevice/WdfDeviceInitSetReleaseHardwareOrderOnFailure
 f1_keywords:
  - "wdfdevice/WdfDeviceInitSetReleaseHardwareOrderOnFailure"
+ - "WdfDeviceInitSetReleaseHardwareOrderOnFailure"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

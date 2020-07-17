@@ -10,6 +10,7 @@ keywords: ["ExtExtension::HasUnnamedArg"]
 ms.keywords: EngExtCpp_Ref_5d191b46-bac6-415e-8c02-732ce433f950.xml, ExtExtension class [Windows Debugging],HasUnnamedArg method, ExtExtension.HasUnnamedArg, ExtExtension::HasUnnamedArg, HasUnnamedArg, HasUnnamedArg method [Windows Debugging], HasUnnamedArg method [Windows Debugging],ExtExtension class, debugger.hasunnamedarg
 f1_keywords:
  - "engextcpp/ExtExtension.HasUnnamedArg"
+ - "ExtExtension.HasUnnamedArg"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_FLIPOVERLAY structure"]
 ms.keywords: DXGKARG_FLIPOVERLAY, DXGKARG_FLIPOVERLAY structure [Display Devices], DmStructs_8ff06344-e7f5-44b1-95fc-d3b363428d43.xml, _DXGKARG_FLIPOVERLAY, d3dkmddi/DXGKARG_FLIPOVERLAY, display.dxgkarg_flipoverlay
 f1_keywords:
  - "d3dkmddi/DXGKARG_FLIPOVERLAY"
+ - "DXGKARG_FLIPOVERLAY"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

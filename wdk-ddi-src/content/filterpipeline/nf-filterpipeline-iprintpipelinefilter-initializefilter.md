@@ -10,6 +10,7 @@ keywords: ["IPrintPipelineFilter::InitializeFilter"]
 ms.keywords: IPrintPipelineFilter interface [Print Devices],InitializeFilter method, IPrintPipelineFilter.InitializeFilter, IPrintPipelineFilter::InitializeFilter, InitializeFilter, InitializeFilter method [Print Devices], InitializeFilter method [Print Devices],IPrintPipelineFilter interface, filterpipeline/IPrintPipelineFilter::InitializeFilter, filterpipeline_cb281bce-8f53-4ade-91c1-2791baff0817.xml, print.iprintpipelinefilter_initializefilter
 f1_keywords:
  - "filterpipeline/IPrintPipelineFilter.InitializeFilter"
+ - "IPrintPipelineFilter.InitializeFilter"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

@@ -30,6 +30,7 @@ req.typenames: D3DKMT_DRIVERVERSION
 ms.custom: 19H1
 f1_keywords:
  - "d3dkmthk/D3DKMT_DRIVERVERSION"
+ - "D3DKMT_DRIVERVERSION"
 topic_type:
  - APIRef
  - kbSyntax

@@ -10,6 +10,7 @@ keywords: ["RILSUBADDRESSPARAMMASK enumeration"]
 ms.keywords: RILSUBADDRESSPARAMMASK, RILSUBADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SA_ALL, RIL_PARAM_SA_SUBADDRESS, netvista.rilsubaddressparammask, ntddrilapitypes/RILSUBADDRESSPARAMMASK, ntddrilapitypes/RIL_PARAM_SA_ALL, ntddrilapitypes/RIL_PARAM_SA_SUBADDRESS
 f1_keywords:
  - "rilapitypes/RILSUBADDRESSPARAMMASK"
+ - "RILSUBADDRESSPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

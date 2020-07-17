@@ -10,6 +10,7 @@ keywords: ["KeDeregisterProcessorChangeCallback function"]
 ms.keywords: KeDeregisterProcessorChangeCallback, KeDeregisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], k105_d3e135a0-4eca-4879-97cc-946ad22693db.xml, kernel.kederegisterprocessorchangecallback, wdm/KeDeregisterProcessorChangeCallback
 f1_keywords:
  - "wdm/KeDeregisterProcessorChangeCallback"
+ - "KeDeregisterProcessorChangeCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

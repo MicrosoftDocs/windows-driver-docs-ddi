@@ -10,6 +10,7 @@ keywords: ["IWDTFLOG2::OutputError"]
 ms.keywords: IWDTFLOG2 interface [Windows Device Testing Framework],OutputError method, IWDTFLOG2.OutputError, IWDTFLOG2::OutputError, Microsoft.WDTF.IWDTFLOG2.OutputError, Microsoft::WDTF::IWDTFLOG2::OutputError, OutputError, OutputError method [Windows Device Testing Framework], OutputError method [Windows Device Testing Framework],IWDTFLOG2 interface, dtf.iwdtflog2_outputerror, wdtf/IWDTFLOG2::OutputError
 f1_keywords:
  - "wdtf/IWDTFLOG2.OutputError"
+ - "IWDTFLOG2.OutputError"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

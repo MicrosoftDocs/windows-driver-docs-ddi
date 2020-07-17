@@ -10,6 +10,7 @@ keywords: ["SdpCreateNodeTree function"]
 ms.keywords: SdpCreateNodeTree, SdpCreateNodeTree function [Bluetooth Devices], bltooth.sdpcreatenodetree, bth_funcs_95027cd6-7f0b-48e1-a574-990754e28e74.xml, sdplib/SdpCreateNodeTree
 f1_keywords:
  - "sdplib/SdpCreateNodeTree"
+ - "SdpCreateNodeTree"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

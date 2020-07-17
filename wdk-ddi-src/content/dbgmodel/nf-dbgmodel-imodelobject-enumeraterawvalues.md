@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IModelObject::EnumerateRawValues"]
 f1_keywords:
  - "dbgmodel/IModelObject.EnumerateRawValues"
+ - "IModelObject.EnumerateRawValues"
 ms.keywords: IModelObject::EnumerateRawValues, EnumerateRawValues, IModelObject.EnumerateRawValues, IModelObject::EnumerateRawValues, IModelObject.EnumerateRawValues
 req.header: dbgmodel.h
 req.include-header:

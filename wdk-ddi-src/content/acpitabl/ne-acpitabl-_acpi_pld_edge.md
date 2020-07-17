@@ -7,6 +7,7 @@ ms.date: 10/02/2018
 keywords: ["_ACPI_PLD_EDGE enumeration"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_EDGE"
+ - "_ACPI_PLD_EDGE"
 ms.keywords: _ACPI_PLD_EDGE, ACPI_PLD_EDGE, *PACPI_PLD_EDGE, 
 req.header: acpitabl.h
 req.include-header:

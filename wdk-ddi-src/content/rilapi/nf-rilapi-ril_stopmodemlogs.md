@@ -10,6 +10,7 @@ keywords: ["RIL_StopModemLogs function"]
 ms.keywords: RIL_StopModemLogs, RIL_StopModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_stopmodemlogs, rilapi/RIL_StopModemLogs
 f1_keywords:
  - "rilapi/RIL_StopModemLogs"
+ - "RIL_StopModemLogs"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

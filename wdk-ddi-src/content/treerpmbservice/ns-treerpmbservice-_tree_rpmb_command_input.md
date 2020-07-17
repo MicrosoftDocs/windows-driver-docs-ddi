@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_TREE_RPMB_COMMAND_INPUT structure"]
 f1_keywords:
  - "treerpmbservice/_TREE_RPMB_COMMAND_INPUT"
+ - "_TREE_RPMB_COMMAND_INPUT"
 ms.keywords: _TREE_RPMB_COMMAND_INPUT, TREE_RPMB_COMMAND_INPUT, *PTREE_RPMB_COMMAND_INPUT, 
 req.header: treerpmbservice.h
 req.include-header:

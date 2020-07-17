@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_TDRDBGCTRL_ESCAPE structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_TDRDBGCTRL_ESCAPE"
+ - "_D3DKMT_TDRDBGCTRL_ESCAPE"
 ms.keywords: _D3DKMT_TDRDBGCTRL_ESCAPE, D3DKMT_TDRDBGCTRL_ESCAPE, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["PcDispatchIrp function"]
 ms.keywords: PcDispatchIrp, PcDispatchIrp function [Audio Devices], audio.pcdispatchirp, audpc-routines_c87193c2-a8f8-4ba1-bf47-422fb5ff452d.xml, portcls/PcDispatchIrp
 f1_keywords:
  - "portcls/PcDispatchIrp"
+ - "PcDispatchIrp"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

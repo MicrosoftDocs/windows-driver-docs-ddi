@@ -10,6 +10,7 @@ keywords: ["KsGenerateEvents function"]
 ms.keywords: KsGenerateEvents, KsGenerateEvents function [Streaming Media Devices], avfunc_47306d1b-67f9-4ea6-81bb-3b76b848667a.xml, ks/KsGenerateEvents, stream.ksgenerateevents
 f1_keywords:
  - "ks/KsGenerateEvents"
+ - "KsGenerateEvents"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

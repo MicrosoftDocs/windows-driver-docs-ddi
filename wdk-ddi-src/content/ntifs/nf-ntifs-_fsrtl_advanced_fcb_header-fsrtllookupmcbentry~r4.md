@@ -10,6 +10,7 @@ keywords: ["FsRtlLookupMcbEntry function"]
 ms.keywords: FsRtlLookupMcbEntry, FsRtlLookupMcbEntry function [Installable File System Drivers], fsrtlref_2f0e31c1-e938-4e83-9547-6999c5fb8cb4.xml, ifsk.fsrtllookupmcbentry, ntifs/FsRtlLookupMcbEntry
 f1_keywords:
  - "ntifs/FsRtlLookupMcbEntry"
+ - "FsRtlLookupMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

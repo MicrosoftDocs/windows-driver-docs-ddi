@@ -10,6 +10,7 @@ keywords: ["IOCTL_SYSENV_GET_VARIABLE IOCTL"]
 ms.keywords: IOCTL_SYSENV_GET_VARIABLE, IOCTL_SYSENV_GET_VARIABLE control, IOCTL_SYSENV_GET_VARIABLE control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_get_variable, ntddsysenv/IOCTL_SYSENV_GET_VARIABLE
 f1_keywords:
  - "ntddsysenv/IOCTL_SYSENV_GET_VARIABLE"
+ - "IOCTL_SYSENV_GET_VARIABLE"
 req.header: ntddsysenv.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["wiauDbgDump function"]
 ms.keywords: image.wiaudbgdump, wiauDbgDump, wiauDbgDump function [Imaging Devices], wiauFncs_dbe56add-64ef-442d-9824-ed0b26aba9ac.xml, wiautil/wiauDbgDump
 f1_keywords:
  - "wiautil/wiauDbgDump"
+ - "wiauDbgDump"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

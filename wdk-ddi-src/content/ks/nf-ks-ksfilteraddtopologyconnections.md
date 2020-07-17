@@ -10,6 +10,7 @@ keywords: ["KsFilterAddTopologyConnections function"]
 ms.keywords: KsFilterAddTopologyConnections, KsFilterAddTopologyConnections function [Streaming Media Devices], avfunc_99b8984f-5ca2-460b-ab20-230fd09b6d13.xml, ks/KsFilterAddTopologyConnections, stream.ksfilteraddtopologyconnections
 f1_keywords:
  - "ks/KsFilterAddTopologyConnections"
+ - "KsFilterAddTopologyConnections"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

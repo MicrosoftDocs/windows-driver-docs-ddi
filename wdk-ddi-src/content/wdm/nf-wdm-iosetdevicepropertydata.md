@@ -10,6 +10,7 @@ keywords: ["IoSetDevicePropertyData function"]
 ms.keywords: IoSetDevicePropertyData, IoSetDevicePropertyData routine [Kernel-Mode Driver Architecture], k104_a7cd308b-4d43-4364-80fb-ae773d0de101.xml, kernel.iosetdevicepropertydata, wdm/IoSetDevicePropertyData
 f1_keywords:
  - "wdm/IoSetDevicePropertyData"
+ - "IoSetDevicePropertyData"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DESTROYSHADERRESOURCEVIEW callback function"]
 ms.keywords: DestroyShaderResourceView, DestroyShaderResourceView callback function [Display Devices], PFND3D10DDI_DESTROYSHADERRESOURCEVIEW, PFND3D10DDI_DESTROYSHADERRESOURCEVIEW callback, UserModeDisplayDriverDx10_Functions_3ca479b5-d0f1-484f-9411-1b03c3308e11.xml, d3d10umddi/DestroyShaderResourceView, display.destroyshaderresourceview
 f1_keywords:
  - "d3d10umddi/DestroyShaderResourceView"
+ - "DestroyShaderResourceView"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

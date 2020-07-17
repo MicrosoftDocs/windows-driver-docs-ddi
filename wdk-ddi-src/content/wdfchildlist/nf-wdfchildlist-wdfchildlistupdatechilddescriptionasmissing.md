@@ -10,6 +10,7 @@ keywords: ["WdfChildListUpdateChildDescriptionAsMissing function"]
 ms.keywords: DFDeviceObjectChildListRef_1a871104-3d76-4ecb-936e-c27c2a107f2e.xml, WdfChildListUpdateChildDescriptionAsMissing, WdfChildListUpdateChildDescriptionAsMissing method, kmdf.wdfchildlistupdatechilddescriptionasmissing, wdf.wdfchildlistupdatechilddescriptionasmissing, wdfchildlist/WdfChildListUpdateChildDescriptionAsMissing
 f1_keywords:
  - "wdfchildlist/WdfChildListUpdateChildDescriptionAsMissing"
+ - "WdfChildListUpdateChildDescriptionAsMissing"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

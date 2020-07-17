@@ -10,6 +10,7 @@ keywords: ["_WWAN_DEVICE_SERVICE_SESSION structure"]
 ms.keywords: "*PWWAN_DEVICE_SERVICE_SESSION, PWWAN_DEVICE_SERVICE_SESSION, PWWAN_DEVICE_SERVICE_SESSION structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_SESSION, WWAN_DEVICE_SERVICE_SESSION structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_SESSION, netvista.wwan_device_service_session, wwan/PWWAN_DEVICE_SERVICE_SESSION, wwan/WWAN_DEVICE_SERVICE_SESSION"
 f1_keywords:
  - "wwan/WWAN_DEVICE_SERVICE_SESSION"
+ - "WWAN_DEVICE_SERVICE_SESSION"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

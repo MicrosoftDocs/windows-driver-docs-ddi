@@ -10,6 +10,7 @@ keywords: ["FltSetIoPriorityHintIntoCallbackData function"]
 ms.keywords: FltApiRef_p_to_z_2d697ab8-c8ef-47f5-bfed-d0a82a61a1ef.xml, FltSetIoPriorityHintIntoCallbackData, FltSetIoPriorityHintIntoCallbackData routine [Installable File System Drivers], fltkernel/FltSetIoPriorityHintIntoCallbackData, ifsk.fltsetiopriorityhintintocallbackdata
 f1_keywords:
  - "fltkernel/FltSetIoPriorityHintIntoCallbackData"
+ - "FltSetIoPriorityHintIntoCallbackData"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

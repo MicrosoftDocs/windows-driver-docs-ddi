@@ -10,6 +10,7 @@ keywords: ["VideoPortDeleteEvent function"]
 ms.keywords: VideoPortDeleteEvent, VideoPortDeleteEvent function [Display Devices], VideoPort_Functions_66e14d53-8a5e-4322-8576-4ac06230db31.xml, display.videoportdeleteevent, video/VideoPortDeleteEvent
 f1_keywords:
  - "video/VideoPortDeleteEvent"
+ - "VideoPortDeleteEvent"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

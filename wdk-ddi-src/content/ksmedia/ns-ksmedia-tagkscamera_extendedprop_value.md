@@ -10,6 +10,7 @@ keywords: ["tagKSCAMERA_EXTENDEDPROP_VALUE structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_VALUE, KSCAMERA_EXTENDEDPROP_VALUE, KSCAMERA_EXTENDEDPROP_VALUE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_VALUE, PKSCAMERA_EXTENDEDPROP_VALUE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_VALUE, ksmedia/PKSCAMERA_EXTENDEDPROP_VALUE, stream.kscamera_extendedprop_value, tagKSCAMERA_EXTENDEDPROP_VALUE"
 f1_keywords:
  - "ksmedia/KSCAMERA_EXTENDEDPROP_VALUE"
+ - "KSCAMERA_EXTENDEDPROP_VALUE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

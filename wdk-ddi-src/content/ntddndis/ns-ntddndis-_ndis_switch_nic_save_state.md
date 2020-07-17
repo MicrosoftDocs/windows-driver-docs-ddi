@@ -10,6 +10,7 @@ keywords: ["_NDIS_SWITCH_NIC_SAVE_STATE structure"]
 ms.keywords: "*PNDIS_SWITCH_NIC_SAVE_STATE, NDIS_SWITCH_NIC_SAVE_STATE, NDIS_SWITCH_NIC_SAVE_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_SAVE_STATE, PNDIS_SWITCH_NIC_SAVE_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_SAVE_STATE, netvista.ndis_switch_nic_save_state, ntddndis/NDIS_SWITCH_NIC_SAVE_STATE, ntddndis/PNDIS_SWITCH_NIC_SAVE_STATE"
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_NIC_SAVE_STATE"
+ - "NDIS_SWITCH_NIC_SAVE_STATE"
 req.header: ntddndis.h
 req.include-header: Ndis.h, Fwpsk.h
 req.target-type: Windows

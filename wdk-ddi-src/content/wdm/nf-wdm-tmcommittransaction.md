@@ -10,6 +10,7 @@ keywords: ["TmCommitTransaction function"]
 ms.keywords: TmCommitTransaction, TmCommitTransaction routine [Kernel-Mode Driver Architecture], kernel.tmcommittransaction, ktm_ref_e5e36a40-1ee7-469c-acd9-8e7a44017853.xml, wdm/TmCommitTransaction
 f1_keywords:
  - "wdm/TmCommitTransaction"
+ - "TmCommitTransaction"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_PFA_MEMORY_POLICY structure"]
 f1_keywords:
  - "ntddk/WHEAP_PFA_MEMORY_POLICY"
+ - "WHEAP_PFA_MEMORY_POLICY"
 ms.keywords: WHEAP_PFA_MEMORY_POLICY, WHEAP_PFA_MEMORY_POLICY, *PWHEAP_PFA_MEMORY_POLICY, 
 req.header: ntddk.h
 req.include-header:

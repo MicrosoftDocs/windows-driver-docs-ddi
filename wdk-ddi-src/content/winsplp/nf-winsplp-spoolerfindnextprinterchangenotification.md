@@ -10,6 +10,7 @@ keywords: ["SpoolerFindNextPrinterChangeNotification function"]
 ms.keywords: SpoolerFindNextPrinterChangeNotification, SpoolerFindNextPrinterChangeNotification function [Print Devices], print.spoolerfindnextprinterchangenotification, winsplp/SpoolerFindNextPrinterChangeNotification
 f1_keywords:
  - "winsplp/SpoolerFindNextPrinterChangeNotification"
+ - "SpoolerFindNextPrinterChangeNotification"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

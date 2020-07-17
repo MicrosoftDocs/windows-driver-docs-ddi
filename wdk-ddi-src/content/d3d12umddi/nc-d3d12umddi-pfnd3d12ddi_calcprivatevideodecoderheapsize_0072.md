@@ -28,6 +28,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0072"
+ - "PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0072"
 topic_type:
  - APIRef
  - kbSyntax

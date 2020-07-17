@@ -10,6 +10,7 @@ keywords: ["_WDF_COMPANION_EVENT_CALLBACKS structure"]
 ms.keywords: "*PWDF_COMPANION_EVENT_CALLBACKS, PWDF_COMPANION_EVENT_CALLBACKS, PWDF_COMPANION_EVENT_CALLBACKS structure pointer, WDF_COMPANION_EVENT_CALLBACKS, WDF_COMPANION_EVENT_CALLBACKS structure, _WDF_COMPANION_EVENT_CALLBACKS, wdf.wdf_companion_event_callbacks, wdfcompanion/PWDF_COMPANION_EVENT_CALLBACKS, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS"
 f1_keywords:
  - "wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS"
+ - "WDF_COMPANION_EVENT_CALLBACKS"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows

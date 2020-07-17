@@ -10,6 +10,7 @@ keywords: ["FltSetIoPriorityHintIntoFileObject function"]
 ms.keywords: FltApiRef_p_to_z_981cae2b-b29c-4890-a462-163031a668d3.xml, FltSetIoPriorityHintIntoFileObject, FltSetIoPriorityHintIntoFileObject routine [Installable File System Drivers], fltkernel/FltSetIoPriorityHintIntoFileObject, ifsk.fltsetiopriorityhintintofileobject
 f1_keywords:
  - "fltkernel/FltSetIoPriorityHintIntoFileObject"
+ - "FltSetIoPriorityHintIntoFileObject"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

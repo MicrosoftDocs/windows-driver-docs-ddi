@@ -10,6 +10,7 @@ keywords: ["NdisMCmDispatchIncomingCloseCall macro"]
 ms.keywords: NdisMCmDispatchIncomingCloseCall, NdisMCmDispatchIncomingCloseCall macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_b5a94c5f-7483-44dd-8167-6e64f52cada6.xml, ndis/NdisMCmDispatchIncomingCloseCall, netvista.ndismcmdispatchincomingclosecall
 f1_keywords:
  - "ndis/NdisMCmDispatchIncomingCloseCall"
+ - "NdisMCmDispatchIncomingCloseCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

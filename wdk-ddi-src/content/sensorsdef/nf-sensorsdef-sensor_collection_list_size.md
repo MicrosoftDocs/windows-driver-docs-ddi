@@ -10,6 +10,7 @@ keywords: ["SENSOR_COLLECTION_LIST_SIZE function"]
 ms.keywords: SENSOR_COLLECTION_LIST_SIZE, SENSOR_COLLECTION_LIST_SIZE function [Sensor Devices], sensors.sensor_collection_list_size, sensorsdef/SENSOR_COLLECTION_LIST_SIZE
 f1_keywords:
  - "sensorsdef/SENSOR_COLLECTION_LIST_SIZE"
+ - "SENSOR_COLLECTION_LIST_SIZE"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Desktop

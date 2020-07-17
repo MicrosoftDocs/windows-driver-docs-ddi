@@ -10,6 +10,7 @@ keywords: ["FwpmEngineOpen0 function"]
 ms.keywords: FwpmEngineOpen0, FwpmEngineOpen0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmEngineOpen0, netvista.fwpmengineopen0, wfp_ref_2_funct_2_fwpm_29969a12-e73c-4b61-b940-e0da4b0be737.xml
 f1_keywords:
  - "fwpmk/FwpmEngineOpen0"
+ - "FwpmEngineOpen0"
 req.header: fwpmk.h
 req.include-header: Fwpmk.h
 req.target-type: Universal

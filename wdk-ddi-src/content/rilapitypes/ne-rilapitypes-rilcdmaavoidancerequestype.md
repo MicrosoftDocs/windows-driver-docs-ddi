@@ -10,6 +10,7 @@ keywords: ["RILCDMAAVOIDANCEREQUESTYPE enumeration"]
 ms.keywords: RILCDMAAVOIDANCEREQUESTYPE, RILCDMAAVOIDANCEREQUESTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_AVOID_SYS_CLR_LIST, netvista.rilcdmaavoidancerequestype, ntddrilapitypes/RILCDMAAVOIDANCEREQUESTYPE, ntddrilapitypes/RIL_AVOID_SYS_CLR_LIST
 f1_keywords:
  - "rilapitypes/RILCDMAAVOIDANCEREQUESTYPE"
+ - "RILCDMAAVOIDANCEREQUESTYPE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

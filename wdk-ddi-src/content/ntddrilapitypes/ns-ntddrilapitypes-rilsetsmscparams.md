@@ -10,6 +10,7 @@ keywords: ["RILSETSMSCPARAMS structure"]
 ms.keywords: "*LPRILSETSMSCPARAMS, RILSETSMSCPARAMS, RILSETSMSCPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetsmscparams, ntddrilapitypes/RILSETSMSCPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILSETSMSCPARAMS"
+ - "RILSETSMSCPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetWdmGetTargetPhysicalDevice function"]
 ms.keywords: DFIOTargetRef_43beb595-b555-4253-8a54-495e9e14f071.xml, WdfIoTargetWdmGetTargetPhysicalDevice, WdfIoTargetWdmGetTargetPhysicalDevice method, kmdf.wdfiotargetwdmgettargetphysicaldevice, wdf.wdfiotargetwdmgettargetphysicaldevice, wdfiotarget/WdfIoTargetWdmGetTargetPhysicalDevice
 f1_keywords:
  - "wdfiotarget/WdfIoTargetWdmGetTargetPhysicalDevice"
+ - "WdfIoTargetWdmGetTargetPhysicalDevice"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_RENDER structure"]
 ms.keywords: D3DKMT_RENDER, D3DKMT_RENDER structure [Display Devices], OpenGL_Structs_9da3b8d2-479c-4d6d-ba5c-70aa171121e3.xml, _D3DKMT_RENDER, d3dkmthk/D3DKMT_RENDER, display.d3dkmt_render
 f1_keywords:
  - "d3dkmthk/D3DKMT_RENDER"
+ - "D3DKMT_RENDER"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

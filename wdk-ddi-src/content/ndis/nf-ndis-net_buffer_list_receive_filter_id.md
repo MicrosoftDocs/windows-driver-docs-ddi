@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_RECEIVE_FILTER_ID macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_RECEIVE_FILTER_ID"
+ - "NET_BUFFER_LIST_RECEIVE_FILTER_ID"
 ms.keywords: NET_BUFFER_LIST_RECEIVE_FILTER_ID
 req.header: ndis.h
 req.include-header:

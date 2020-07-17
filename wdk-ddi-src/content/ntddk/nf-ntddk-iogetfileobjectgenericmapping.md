@@ -10,6 +10,7 @@ keywords: ["IoGetFileObjectGenericMapping function"]
 ms.keywords: IoGetFileObjectGenericMapping, IoGetFileObjectGenericMapping routine [Kernel-Mode Driver Architecture], k104_90acd8aa-7b11-4ee8-b6c7-84e7c849b131.xml, kernel.iogetfileobjectgenericmapping, ntddk/IoGetFileObjectGenericMapping
 f1_keywords:
  - "ntddk/IoGetFileObjectGenericMapping"
+ - "IoGetFileObjectGenericMapping"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

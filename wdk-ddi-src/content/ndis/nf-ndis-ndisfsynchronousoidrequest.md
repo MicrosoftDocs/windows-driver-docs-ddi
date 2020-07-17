@@ -10,6 +10,7 @@ keywords: ["NdisFSynchronousOidRequest function"]
 ms.keywords: NdisFSynchronousOidRequest, NdisFSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFSynchronousOidRequest, netvista.ndisfsynchronousoidrequest
 f1_keywords:
  - "ndis/NdisFSynchronousOidRequest"
+ - "NdisFSynchronousOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

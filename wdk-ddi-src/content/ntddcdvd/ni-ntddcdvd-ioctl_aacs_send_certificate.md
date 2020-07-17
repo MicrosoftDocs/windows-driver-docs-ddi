@@ -10,6 +10,7 @@ keywords: ["IOCTL_AACS_SEND_CERTIFICATE IOCTL"]
 ms.keywords: IOCTL_AACS_SEND_CERTIFICATE, IOCTL_AACS_SEND_CERTIFICATE control, IOCTL_AACS_SEND_CERTIFICATE control code [Storage Devices], k307_c275c772-8b16-4397-ba4d-3ff3ebc5eb40.xml, ntddcdvd/IOCTL_AACS_SEND_CERTIFICATE, storage.ioctl_aacs_send_certificate
 f1_keywords:
  - "ntddcdvd/IOCTL_AACS_SEND_CERTIFICATE"
+ - "IOCTL_AACS_SEND_CERTIFICATE"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows

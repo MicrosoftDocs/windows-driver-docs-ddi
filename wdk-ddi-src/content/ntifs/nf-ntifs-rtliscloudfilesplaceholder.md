@@ -10,6 +10,7 @@ keywords: ["RtlIsCloudFilesPlaceholder function"]
 ms.keywords: RtlIsCloudFilesPlaceholder, RtlIsCloudFilesPlaceholder routine [Installable File System Drivers], ifsk.rtliscloudfilesplaceholder, ntifs/RtlIsCloudFilesPlaceholder
 f1_keywords:
  - "ntifs/RtlIsCloudFilesPlaceholder"
+ - "RtlIsCloudFilesPlaceholder"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

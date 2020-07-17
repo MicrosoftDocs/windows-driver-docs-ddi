@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_FRAMELATENCYESCAPE structure"]
 ms.keywords: D3DDDI_FRAMELATENCYESCAPE, D3DDDI_FRAMELATENCYESCAPE structure [Display Devices], _D3DDDI_FRAMELATENCYESCAPE, d3dumddi/D3DDDI_FRAMELATENCYESCAPE, display.d3dddi_framelatencyescape
 f1_keywords:
  - "d3dumddi/D3DDDI_FRAMELATENCYESCAPE"
+ - "D3DDDI_FRAMELATENCYESCAPE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

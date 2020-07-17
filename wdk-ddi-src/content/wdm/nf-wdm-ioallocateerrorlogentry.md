@@ -10,6 +10,7 @@ keywords: ["IoAllocateErrorLogEntry function"]
 ms.keywords: IoAllocateErrorLogEntry, IoAllocateErrorLogEntry routine [Kernel-Mode Driver Architecture], k104_e3257473-eeae-4912-b3e1-8dd5ceb7430e.xml, kernel.ioallocateerrorlogentry, wdm/IoAllocateErrorLogEntry
 f1_keywords:
  - "wdm/IoAllocateErrorLogEntry"
+ - "IoAllocateErrorLogEntry"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

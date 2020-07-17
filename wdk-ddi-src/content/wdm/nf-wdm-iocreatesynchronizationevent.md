@@ -10,6 +10,7 @@ keywords: ["IoCreateSynchronizationEvent function"]
 ms.keywords: IoCreateSynchronizationEvent, IoCreateSynchronizationEvent routine [Kernel-Mode Driver Architecture], k104_413cbfff-08a2-44b5-acdc-0e23d382a3d3.xml, kernel.iocreatesynchronizationevent, wdm/IoCreateSynchronizationEvent
 f1_keywords:
  - "wdm/IoCreateSynchronizationEvent"
+ - "IoCreateSynchronizationEvent"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Universal

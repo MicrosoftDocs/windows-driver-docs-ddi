@@ -10,6 +10,7 @@ keywords: ["KsGenerateThermalEvent function"]
 ms.keywords: KsGenerateThermalEvent, KsGenerateThermalEvent function [Streaming Media Devices], ks/KsGenerateThermalEvent, stream.ksgeneratethermalevent
 f1_keywords:
  - "ks/KsGenerateThermalEvent"
+ - "KsGenerateThermalEvent"
 req.header: ks.h
 req.include-header: 
 req.target-type: Universal

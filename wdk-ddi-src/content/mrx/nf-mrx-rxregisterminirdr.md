@@ -10,6 +10,7 @@ keywords: ["RxRegisterMinirdr function"]
 ms.keywords: RxRegisterMinirdr, RxRegisterMinirdr function [Installable File System Drivers], ifsk.rxregisterminirdr, mrx/RxRegisterMinirdr, rxref_72a33968-ea1e-4431-9843-5bf3aa11a12a.xml
 f1_keywords:
  - "mrx/RxRegisterMinirdr"
+ - "RxRegisterMinirdr"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

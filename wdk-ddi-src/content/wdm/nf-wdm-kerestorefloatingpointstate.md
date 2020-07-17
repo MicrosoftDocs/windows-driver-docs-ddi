@@ -10,6 +10,7 @@ keywords: ["KeRestoreFloatingPointState function"]
 ms.keywords: KeRestoreFloatingPointState, KeRestoreFloatingPointState routine [Kernel-Mode Driver Architecture], k105_94a36699-2129-4e69-ba6a-206452f0b723.xml, kernel.kerestorefloatingpointstate, wdm/KeRestoreFloatingPointState
 f1_keywords:
  - "wdm/KeRestoreFloatingPointState"
+ - "KeRestoreFloatingPointState"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

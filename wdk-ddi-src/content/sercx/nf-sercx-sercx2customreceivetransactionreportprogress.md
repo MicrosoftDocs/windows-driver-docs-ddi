@@ -10,6 +10,7 @@ keywords: ["SerCx2CustomReceiveTransactionReportProgress function"]
 ms.keywords: 2/SerCx2CustomReceiveTransactionReportProgress, SerCx2CustomReceiveTransactionReportProgress, SerCx2CustomReceiveTransactionReportProgress method [Serial Ports], serports.sercx2customreceivetransactionreportprogress
 f1_keywords:
  - "sercx/SerCx2CustomReceiveTransactionReportProgress"
+ - "SerCx2CustomReceiveTransactionReportProgress"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

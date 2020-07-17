@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3dkmddi/pfnGetNumModes"
+ - "pfnGetNumModes"
 topic_type:
  - APIRef
  - kbSyntax

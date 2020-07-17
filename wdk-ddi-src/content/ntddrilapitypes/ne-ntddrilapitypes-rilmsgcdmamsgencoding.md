@@ -10,6 +10,7 @@ keywords: ["RILMSGCDMAMSGENCODING enumeration"]
 ms.keywords: RILMSGCDMAMSGENCODING, RILMSGCDMAMSGENCODING enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCODING_7BITASCII, RIL_MSGCODING_7BITGSM, RIL_MSGCODING_8BITGSM, RIL_MSGCODING_IA5, RIL_MSGCODING_JIS, RIL_MSGCODING_KOREAN, RIL_MSGCODING_LATIN, RIL_MSGCODING_LATIN_HEBREW, RIL_MSGCODING_MAX, RIL_MSGCODING_OCTET, RIL_MSGCODING_UNICODE, netvista.rilmsgcdmamsgencoding, ntddrilapitypes/RILMSGCDMAMSGENCODING, ntddrilapitypes/RIL_MSGCODING_7BITASCII, ntddrilapitypes/RIL_MSGCODING_7BITGSM, ntddrilapitypes/RIL_MSGCODING_8BITGSM, ntddrilapitypes/RIL_MSGCODING_IA5, ntddrilapitypes/RIL_MSGCODING_JIS, ntddrilapitypes/RIL_MSGCODING_KOREAN, ntddrilapitypes/RIL_MSGCODING_LATIN, ntddrilapitypes/RIL_MSGCODING_LATIN_HEBREW, ntddrilapitypes/RIL_MSGCODING_MAX, ntddrilapitypes/RIL_MSGCODING_OCTET, ntddrilapitypes/RIL_MSGCODING_UNICODE
 f1_keywords:
  - "ntddrilapitypes/RILMSGCDMAMSGENCODING"
+ - "RILMSGCDMAMSGENCODING"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

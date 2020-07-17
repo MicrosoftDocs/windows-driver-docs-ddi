@@ -10,6 +10,7 @@ keywords: ["RILACCESSTECHNOLOGY structure"]
 ms.keywords: "*LPRILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY structure [Network Drivers Starting with Windows Vista], netvista.rilaccesstechnology, ntddrilapitypes/RILACCESSTECHNOLOGY"
 f1_keywords:
  - "ntddrilapitypes/RILACCESSTECHNOLOGY"
+ - "RILACCESSTECHNOLOGY"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

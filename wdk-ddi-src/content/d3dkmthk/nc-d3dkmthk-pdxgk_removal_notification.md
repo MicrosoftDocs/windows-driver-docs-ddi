@@ -9,6 +9,7 @@ keywords: ["PDXGK_REMOVAL_NOTIFICATION callback -remarks"]
 ms.keywords: "*PDXGK_REMOVAL_NOTIFICATION, *PDXGK_REMOVAL_NOTIFICATION callback function [Display Devices], d3dkmthk/*PDXGK_REMOVAL_NOTIFICATION, display.pdxgk_removal_notification"
 f1_keywords:
  - "d3dkmthk/*PDXGK_REMOVAL_NOTIFICATION"
+ - "*PDXGK_REMOVAL_NOTIFICATION"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IoGetDeviceDirectory function"]
 f1_keywords:
  - "wdm/IoGetDeviceDirectory"
+ - "IoGetDeviceDirectory"
 ms.keywords: IoGetDeviceDirectory
 req.header: wdm.h
 req.include-header:

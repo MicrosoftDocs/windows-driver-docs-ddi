@@ -10,6 +10,7 @@ keywords: ["ClfsMgmtHandleLogFileFull function"]
 ms.keywords: ClfsMgmtHandleLogFileFull, ClfsMgmtHandleLogFileFull routine [Kernel-Mode Driver Architecture], Clfs_management_244be38f-f0dc-45db-b0c2-ccdee1290840.xml, kernel.clfsmgmthandlelogfilefull, wdm/ClfsMgmtHandleLogFileFull
 f1_keywords:
  - "wdm/ClfsMgmtHandleLogFileFull"
+ - "ClfsMgmtHandleLogFileFull"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

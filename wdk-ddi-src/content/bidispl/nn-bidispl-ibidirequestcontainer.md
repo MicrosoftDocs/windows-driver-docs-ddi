@@ -10,6 +10,7 @@ keywords: ["IBidiRequestContainer interface"]
 ms.keywords: IBidiRequestContainer, IBidiRequestContainer interface [Print Devices], IBidiRequestContainer interface [Print Devices],described, _win32_IBidiRequestContainer, bidispl/IBidiRequestContainer, gdi.ibidirequestcontainer, print.ibidirequestcontainer
 f1_keywords:
  - "bidispl/IBidiRequestContainer"
+ - "IBidiRequestContainer"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Windows

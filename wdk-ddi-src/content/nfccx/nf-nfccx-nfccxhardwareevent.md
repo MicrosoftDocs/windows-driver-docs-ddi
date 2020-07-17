@@ -10,6 +10,7 @@ keywords: ["NfcCxHardwareEvent function"]
 ms.keywords: NfcCxHardwareEvent, NfcCxHardwareEvent method [Near-Field Proximity Drivers], nfccx/NfcCxHardwareEvent, nfpdrivers._nfccxhardwareevent
 f1_keywords:
  - "nfccx/NfcCxHardwareEvent"
+ - "NfcCxHardwareEvent"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IWDTFPNPAction2::RescanDevice"]
 ms.keywords: IWDTFPNPAction2 interface [Windows Device Testing Framework],RescanDevice method, IWDTFPNPAction2.RescanDevice, IWDTFPNPAction2::RescanDevice, Microsoft.WDTF.IWDTFPNPAction2.RescanDevice, Microsoft::WDTF::IWDTFPNPAction2::RescanDevice, RescanDevice, RescanDevice method [Windows Device Testing Framework], RescanDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, dtf.iwdtfpnpaction2_rescandevice, wdtfpnpaction/IWDTFPNPAction2::RescanDevice
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPAction2.RescanDevice"
+ - "IWDTFPNPAction2.RescanDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop

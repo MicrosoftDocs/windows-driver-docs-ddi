@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionManager::EnableEvents"]
 ms.keywords: EnableEvents, EnableEvents method [Print Devices], EnableEvents method [Print Devices],IPrinterExtensionManager interface, IPrinterExtensionManager interface [Print Devices],EnableEvents method, IPrinterExtensionManager.EnableEvents, IPrinterExtensionManager::EnableEvents, print.iprinterextensionmanager_enableevents, printerextension/IPrinterExtensionManager::EnableEvents
 f1_keywords:
  - "printerextension/IPrinterExtensionManager.EnableEvents"
+ - "IPrinterExtensionManager.EnableEvents"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

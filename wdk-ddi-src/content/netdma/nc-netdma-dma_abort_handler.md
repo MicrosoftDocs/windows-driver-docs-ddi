@@ -10,6 +10,7 @@ keywords: ["DMA_ABORT_HANDLER callback function"]
 ms.keywords: DMA_ABORT_HANDLER, DMA_ABORT_HANDLER callback, ProviderAbortDma, ProviderAbortDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAbortDma, netdma_ref_b030a880-2a65-4fef-9f91-4a4bc4fa17b5.xml, netvista.providerabortdma
 f1_keywords:
  - "netdma/ProviderAbortDma"
+ - "ProviderAbortDma"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows

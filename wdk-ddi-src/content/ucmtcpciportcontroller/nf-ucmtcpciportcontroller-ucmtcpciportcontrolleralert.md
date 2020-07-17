@@ -10,6 +10,7 @@ keywords: ["UcmTcpciPortControllerAlert function"]
 ms.keywords: UcmTcpciPortControllerAlert, UcmTcpciPortControllerAlert method [Buses], buses.ucmtcpciportcontrolleralert, ucmtcpciportcontroller/UcmTcpciPortControllerAlert
 f1_keywords:
  - "ucmtcpciportcontroller/UcmTcpciPortControllerAlert"
+ - "UcmTcpciPortControllerAlert"
 req.header: ucmtcpciportcontroller.h
 req.include-header: 
 req.target-type: Windows

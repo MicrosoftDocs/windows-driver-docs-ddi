@@ -10,6 +10,7 @@ keywords: ["SerCx2PioReceiveReady function"]
 ms.keywords: 2/SerCx2PioReceiveReady, SerCx2PioReceiveReady, SerCx2PioReceiveReady method [Serial Ports], serports.sercx2pioreceiveready
 f1_keywords:
  - "sercx/SerCx2PioReceiveReady"
+ - "SerCx2PioReceiveReady"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

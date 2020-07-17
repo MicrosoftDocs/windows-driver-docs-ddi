@@ -10,6 +10,7 @@ keywords: ["NDK_FN_RELEASE_LAM callback function"]
 ms.keywords: NDK_FN_RELEASE_LAM, NDK_FN_RELEASE_LAM callback, NdkReleaseLam, NdkReleaseLam callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReleaseLam, netvista.ndk_fn_release_lam
 f1_keywords:
  - "ndkpi/NdkReleaseLam"
+ - "NdkReleaseLam"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

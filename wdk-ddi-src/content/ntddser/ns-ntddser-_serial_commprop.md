@@ -10,6 +10,7 @@ keywords: ["_SERIAL_COMMPROP structure"]
 ms.keywords: "*PSERIAL_COMMPROP, PSERIAL_COMMPROP, PSERIAL_COMMPROP structure pointer [Serial Ports], SERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports], _SERIAL_COMMPROP, ntddser/PSERIAL_COMMPROP, ntddser/SERIAL_COMMPROP, serports.serial_commprop"
 f1_keywords:
  - "ntddser/SERIAL_COMMPROP"
+ - "SERIAL_COMMPROP"
 req.header: ntddser.h
 req.include-header: 
 req.target-type: Windows

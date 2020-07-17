@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrv::drvDeleteItem"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvDeleteItem method, IWiaMiniDrv.drvDeleteItem, IWiaMiniDrv::drvDeleteItem, MiniDrv_7e3949ae-f170-4ccc-a139-fecaf2e97e41.xml, drvDeleteItem, drvDeleteItem method [Imaging Devices], drvDeleteItem method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvdeleteitem, wiamindr_lh/IWiaMiniDrv::drvDeleteItem
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv.drvDeleteItem"
+ - "IWiaMiniDrv.drvDeleteItem"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop

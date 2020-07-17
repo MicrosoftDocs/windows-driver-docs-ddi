@@ -10,6 +10,7 @@ keywords: ["PEXECUTE_DMA callback function"]
 ms.keywords: HwVidExecuteDma, HwVidExecuteDma callback function [Display Devices], PEXECUTE_DMA, PEXECUTE_DMA callback, VideoMiniport_Functions_5819a796-9dfd-41fe-9158-6ec09ac14760.xml, display.hwvidexecutedma, video/HwVidExecuteDma
 f1_keywords:
  - "video/HwVidExecuteDma"
+ - "HwVidExecuteDma"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CL_INCOMING_CLOSE_CALL callback function"]
 ms.keywords: PROTOCOL_CL_INCOMING_CLOSE_CALL, PROTOCOL_CL_INCOMING_CLOSE_CALL callback, ProtocolClIncomingCloseCall, ProtocolClIncomingCloseCall callback function [Network Drivers Starting with Windows Vista], condis_client_ref_3c97fa3b-d9ae-4748-8812-9abc896a509a.xml, ndis/ProtocolClIncomingCloseCall, netvista.protocolclincomingclosecall
 f1_keywords:
  - "ndis/ProtocolClIncomingCloseCall"
+ - "ProtocolClIncomingCloseCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

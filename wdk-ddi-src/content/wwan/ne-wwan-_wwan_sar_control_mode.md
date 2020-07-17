@@ -8,6 +8,7 @@ ms.date: 08/20/2018
 keywords: ["_WWAN_SAR_CONTROL_MODE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_SAR_CONTROL_MODE"
+ - "_WWAN_SAR_CONTROL_MODE"
 ms.keywords: _WWAN_SAR_CONTROL_MODE, WWAN_SAR_CONTROL_MODE, *PWWAN_SAR_CONTROL_MODE, 
 req.header: wwan.h
 req.include-header:

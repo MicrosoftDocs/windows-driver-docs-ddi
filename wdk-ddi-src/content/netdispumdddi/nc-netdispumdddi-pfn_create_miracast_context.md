@@ -10,6 +10,7 @@ keywords: ["PFN_CREATE_MIRACAST_CONTEXT callback function"]
 ms.keywords: CreateMiracastContext, CreateMiracastContext callback function [Display Devices], PFN_CREATE_MIRACAST_CONTEXT, PFN_CREATE_MIRACAST_CONTEXT callback, display.createmiracastcontext, netdispumdddi/CreateMiracastContext
 f1_keywords:
  - "netdispumdddi/CreateMiracastContext"
+ - "CreateMiracastContext"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop

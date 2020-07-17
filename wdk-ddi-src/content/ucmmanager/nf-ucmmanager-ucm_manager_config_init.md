@@ -10,6 +10,7 @@ keywords: ["UCM_MANAGER_CONFIG_INIT function"]
 ms.keywords: UCM_MANAGER_CONFIG_INIT, UCM_MANAGER_CONFIG_INIT function [Buses], buses.ucm_manager_config_init, ucmmanager/UCM_MANAGER_CONFIG_INIT
 f1_keywords:
  - "ucmmanager/UCM_MANAGER_CONFIG_INIT"
+ - "UCM_MANAGER_CONFIG_INIT"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

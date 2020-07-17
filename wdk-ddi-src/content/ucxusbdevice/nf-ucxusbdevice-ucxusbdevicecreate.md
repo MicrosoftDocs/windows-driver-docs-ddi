@@ -10,6 +10,7 @@ keywords: ["UcxUsbDeviceCreate function"]
 ms.keywords: UcxUsbDeviceCreate, UcxUsbDeviceCreate method [Buses], buses._ucxusbdevicecreate, ucxusbdevice/UcxUsbDeviceCreate
 f1_keywords:
  - "ucxusbdevice/UcxUsbDeviceCreate"
+ - "UcxUsbDeviceCreate"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

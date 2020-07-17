@@ -10,6 +10,7 @@ keywords: ["RILCALLINFODISCONNECTINITIATOR enumeration"]
 ms.keywords: RILCALLINFODISCONNECTINITIATOR, RILCALLINFODISCONNECTINITIATOR enumeration [Network Drivers Starting with Windows Vista], RIL_DISCINIT_LOCAL, RIL_DISCINIT_MAX, RIL_DISCINIT_REMOTE, netvista.rilcallinfodisconnectinitiator, ntddrilapitypes/RILCALLINFODISCONNECTINITIATOR, ntddrilapitypes/RIL_DISCINIT_LOCAL, ntddrilapitypes/RIL_DISCINIT_MAX, ntddrilapitypes/RIL_DISCINIT_REMOTE
 f1_keywords:
  - "rilapitypes/RILCALLINFODISCONNECTINITIATOR"
+ - "RILCALLINFODISCONNECTINITIATOR"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrv::drvLockWiaDevice"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvLockWiaDevice method, IWiaMiniDrv.drvLockWiaDevice, IWiaMiniDrv::drvLockWiaDevice, MiniDrv_5ae2a5c5-524c-46ce-8ae4-d8edd5d76fcc.xml, drvLockWiaDevice, drvLockWiaDevice method [Imaging Devices], drvLockWiaDevice method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvlockwiadevice, wiamindr_lh/IWiaMiniDrv::drvLockWiaDevice
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv.drvLockWiaDevice"
+ - "IWiaMiniDrv.drvLockWiaDevice"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop

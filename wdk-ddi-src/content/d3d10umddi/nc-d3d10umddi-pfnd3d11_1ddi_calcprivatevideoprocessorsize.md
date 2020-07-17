@@ -9,6 +9,7 @@ keywords: ["PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE callback function"]
 ms.keywords: CalcPrivateVideoProcessorSize, CalcPrivateVideoProcessorSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE, PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE callback, d3d10umddi/CalcPrivateVideoProcessorSize, display.calcprivatevideoprocessorsize
 f1_keywords:
  - "d3d10umddi/CalcPrivateVideoProcessorSize"
+ - "CalcPrivateVideoProcessorSize"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

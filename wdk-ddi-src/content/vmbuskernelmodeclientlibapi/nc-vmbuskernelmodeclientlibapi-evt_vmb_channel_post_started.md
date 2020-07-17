@@ -10,6 +10,7 @@ keywords: ["EVT_VMB_CHANNEL_POST_STARTED callback function"]
 ms.keywords: EVT_VMB_CHANNEL_POST_STARTED, EVT_VMB_CHANNEL_POST_STARTED callback, EvtVmbChannelPostStarted, EvtVmbChannelPostStarted callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_POST_STARTED, PFN_VMB_CHANNEL_POST_STARTED callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_post_started, vmbuskernelmodeclientlibapi/EvtVmbChannelPostStarted
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/PFN_VMB_CHANNEL_POST_STARTED"
+ - "PFN_VMB_CHANNEL_POST_STARTED"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header: VmbusKernelModeClientLibApi.h
 req.target-type: Windows

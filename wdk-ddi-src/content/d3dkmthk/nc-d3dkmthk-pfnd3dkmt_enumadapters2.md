@@ -7,6 +7,7 @@ ms.date: 11/21/2018
 keywords: ["PFND3DKMT_ENUMADAPTERS2 callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_ENUMADAPTERS2"
+ - "PFND3DKMT_ENUMADAPTERS2"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

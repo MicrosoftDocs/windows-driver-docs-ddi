@@ -10,6 +10,7 @@ keywords: ["_WIA_PATCH_CODES structure"]
 ms.keywords: WIA_PATCH_CODES, WIA_PATCH_CODES structure [Imaging Devices], _WIA_PATCH_CODES, image.wia_patch_codes, wiadef/WIA_PATCH_CODES
 f1_keywords:
  - "wiadef/WIA_PATCH_CODES"
+ - "WIA_PATCH_CODES"
 req.header: wiadef.h
 req.include-header: Wiadef.h
 req.target-type: Windows

@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["RtlQueryProcessPlaceholderCompatibilityMode function"]
 f1_keywords:
  - "ntifs/RtlQueryProcessPlaceholderCompatibilityMode"
+ - "RtlQueryProcessPlaceholderCompatibilityMode"
 ms.keywords: RtlQueryProcessPlaceholderCompatibilityMode
 req.header: ntifs.h
 req.include-header:

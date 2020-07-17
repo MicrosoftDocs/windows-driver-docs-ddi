@@ -9,6 +9,7 @@ keywords: ["_DXGK_PATH_UPDATE enumeration"]
 ms.keywords: DXGK_PATH_UPDATE, DXGK_PATH_UPDATE enumeration [Display Devices], DXGK_PATH_UPDATE_ADDED, DXGK_PATH_UPDATE_MODIFIED, DXGK_PATH_UPDATE_REMOVED, DXGK_PATH_UPDATE_UNMODIFED, _DXGK_PATH_UPDATE, d3dkmddi/DXGK_PATH_UPDATE, d3dkmddi/DXGK_PATH_UPDATE_ADDED, d3dkmddi/DXGK_PATH_UPDATE_MODIFIED, d3dkmddi/DXGK_PATH_UPDATE_REMOVED, d3dkmddi/DXGK_PATH_UPDATE_UNMODIFED, display.dxgk_path_update
 f1_keywords:
  - "d3dkmddi/DXGK_PATH_UPDATE"
+ - "DXGK_PATH_UPDATE"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

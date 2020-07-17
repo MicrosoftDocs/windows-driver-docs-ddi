@@ -10,6 +10,7 @@ keywords: ["IOCTL_DOT4_WRITE IOCTL"]
 ms.keywords: IOCTL_DOT4_WRITE, IOCTL_DOT4_WRITE control, IOCTL_DOT4_WRITE control code [Print Devices], d4drvif/IOCTL_DOT4_WRITE, print.ioctl_ioctl_dot4_write
 f1_keywords:
  - "d4drvif/IOCTL_DOT4_WRITE"
+ - "IOCTL_DOT4_WRITE"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeResetSynchronously function"]
 ms.keywords: DFUsbRef_07fcbce0-9754-49c9-988b-0875242739a0.xml, WdfUsbTargetPipeResetSynchronously, WdfUsbTargetPipeResetSynchronously method, kmdf.wdfusbtargetpiperesetsynchronously, wdf.wdfusbtargetpiperesetsynchronously, wdfusb/WdfUsbTargetPipeResetSynchronously
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeResetSynchronously"
+ - "WdfUsbTargetPipeResetSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

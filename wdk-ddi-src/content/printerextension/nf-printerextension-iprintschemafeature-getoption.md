@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaFeature::GetOption"]
 ms.keywords: GetOption, GetOption method [Print Devices], GetOption method [Print Devices],IPrintSchemaFeature interface, IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices],GetOption method, IPrintSchemaFeature.GetOption, IPrintSchemaFeature::GetOption, print.iprintschemafeature_getoption, printerextension/IPrintSchemaFeature::GetOption
 f1_keywords:
  - "printerextension/IPrintSchemaFeature.GetOption"
+ - "IPrintSchemaFeature.GetOption"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

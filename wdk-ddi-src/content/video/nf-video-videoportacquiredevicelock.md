@@ -10,6 +10,7 @@ keywords: ["VideoPortAcquireDeviceLock function"]
 ms.keywords: VideoPortAcquireDeviceLock, VideoPortAcquireDeviceLock function [Display Devices], VideoPort_Functions_4c588378-53be-496c-93f0-0d285b8a1a05.xml, display.videoportacquiredevicelock, video/VideoPortAcquireDeviceLock
 f1_keywords:
  - "video/VideoPortAcquireDeviceLock"
+ - "VideoPortAcquireDeviceLock"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

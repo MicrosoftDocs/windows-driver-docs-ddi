@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::FindBreakpointById"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug.FindBreakpointById"
+ - "IDataModelScriptDebug.FindBreakpointById"
 ms.keywords: IDataModelScriptDebug::FindBreakpointById, FindBreakpointById, IDataModelScriptDebug.FindBreakpointById, IDataModelScriptDebug::FindBreakpointById, IDataModelScriptDebug.FindBreakpointById
 req.header: dbgmodel.h
 req.include-header:

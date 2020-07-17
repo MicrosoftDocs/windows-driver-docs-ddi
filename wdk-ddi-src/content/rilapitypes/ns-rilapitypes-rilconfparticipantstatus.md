@@ -10,6 +10,7 @@ keywords: ["RILCONFPARTICIPANTSTATUS structure"]
 ms.keywords: "*LPRILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilconfparticipantstatus, ntddrilapitypes/RILCONFPARTICIPANTSTATUS"
 f1_keywords:
  - "rilapitypes/RILCONFPARTICIPANTSTATUS"
+ - "RILCONFPARTICIPANTSTATUS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

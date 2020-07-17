@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDeviceInitSetStateChangeCallbacks function"]
 ms.keywords: UdecxUsbDeviceInitSetStateChangeCallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks function [Buses], buses.udecxusbdeviceinitsetstatechangecallbacks, udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks"
+ - "UdecxUsbDeviceInitSetStateChangeCallbacks"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

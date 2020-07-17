@@ -10,6 +10,7 @@ keywords: ["NfcCxRegisterSequenceHandler function"]
 ms.keywords: NfcCxRegisterSequenceHandler, NfcCxRegisterSequenceHandler method [Near-Field Proximity Drivers], nfccx/NfcCxRegisterSequenceHandler, nfpdrivers._nfccxregistersequencehandler
 f1_keywords:
  - "nfccx/NfcCxRegisterSequenceHandler"
+ - "NfcCxRegisterSequenceHandler"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows

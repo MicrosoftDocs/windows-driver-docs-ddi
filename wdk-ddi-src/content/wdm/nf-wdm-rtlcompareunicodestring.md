@@ -10,6 +10,7 @@ keywords: ["RtlCompareUnicodeString function"]
 ms.keywords: RtlCompareUnicodeString, RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], k109_ddeef320-7510-446b-af6f-756c3999bec1.xml, kernel.rtlcompareunicodestring, wdm/RtlCompareUnicodeString
 f1_keywords:
  - "wdm/RtlCompareUnicodeString"
+ - "RtlCompareUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal

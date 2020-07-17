@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::GetErrorValue"]
 ms.keywords: GetErrorValue, GetErrorValue method, GetErrorValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetErrorValue method, IPortableDeviceValues.GetErrorValue, IPortableDeviceValues::GetErrorValue, IPortableDeviceValuesGetErrorValue, portabledevicetypes/IPortableDeviceValues::GetErrorValue, wpddk.iportabledevicevalues_geterrorvalue
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.GetErrorValue"
+ - "IPortableDeviceValues.GetErrorValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

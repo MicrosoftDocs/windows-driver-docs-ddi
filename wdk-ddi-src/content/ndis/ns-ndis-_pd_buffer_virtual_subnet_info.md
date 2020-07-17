@@ -10,6 +10,7 @@ keywords: ["_PD_BUFFER_VIRTUAL_SUBNET_INFO structure"]
 ms.keywords: PD_BUFFER_VIRTUAL_SUBNET_INFO, PD_BUFFER_VIRTUAL_SUBNET_INFO structure [Network Drivers Starting with Windows Vista], PPD_BUFFER_VIRTUAL_SUBNET_INFO, PPD_BUFFER_VIRTUAL_SUBNET_INFO structure pointer [Network Drivers Starting with Windows Vista], _PD_BUFFER_VIRTUAL_SUBNET_INFO, ndis/PD_BUFFER_VIRTUAL_SUBNET_INFO, ndis/PPD_BUFFER_VIRTUAL_SUBNET_INFO, netvista.pd_buffer_virtual_subnet_info
 f1_keywords:
  - "ndis/PD_BUFFER_VIRTUAL_SUBNET_INFO"
+ - "PD_BUFFER_VIRTUAL_SUBNET_INFO"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

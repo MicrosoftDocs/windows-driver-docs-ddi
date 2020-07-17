@@ -10,6 +10,7 @@ keywords: ["KeInsertHeadQueue function"]
 ms.keywords: KeInsertHeadQueue, KeInsertHeadQueue routine [Installable File System Drivers], ifsk.keinsertheadqueue, keref_a3279265-434b-42d6-95d9-5a8a12f54c9b.xml, ntifs/KeInsertHeadQueue
 f1_keywords:
  - "ntifs/KeInsertHeadQueue"
+ - "KeInsertHeadQueue"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,7 @@ ms.date: 04/09/2019
 keywords: ["_NDIS_WWAN_UICC_FILE_PATH structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_UICC_FILE_PATH"
+ - "_NDIS_WWAN_UICC_FILE_PATH"
 ms.keywords: _NDIS_WWAN_UICC_FILE_PATH, NDIS_WWAN_UICC_FILE_PATH, *PNDIS_WWAN_UICC_FILE_PATH, 
 req.header: ndiswwan.h
 req.include-header:

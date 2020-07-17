@@ -10,6 +10,7 @@ keywords: ["DOT11EXT_SET_VIRTUAL_STATION_AP_PROPERTIES callback"]
 ms.keywords: DOT11EXT_SET_VIRTUAL_STATION_AP_PROPERTIES, Dot11ExtSetVirtualStationAPProperties, Dot11ExtSetVirtualStationAPProperties callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_99551e02-eec3-413e-a14d-60d6ce5c09ee.xml, netvista.dot11extsetvirtualstationapproperties, wlanihv/Dot11ExtSetVirtualStationAPProperties
 f1_keywords:
  - "wlanihv/Dot11ExtSetVirtualStationAPProperties"
+ - "Dot11ExtSetVirtualStationAPProperties"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

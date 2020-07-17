@@ -10,6 +10,7 @@ keywords: ["_WDF_FILEOBJECT_CLASS enumeration"]
 ms.keywords: "*PWDF_FILEOBJECT_CLASS, DFFileObjectRef_001acbc3-7e2c-4b8b-ab14-024653cefe19.xml, PWDF_FILEOBJECT_CLASS, PWDF_FILEOBJECT_CLASS enumeration pointer, WDF_FILEOBJECT_CLASS, WDF_FILEOBJECT_CLASS enumeration, WdfFileObjectCanBeOptional, WdfFileObjectInvalid, WdfFileObjectNotRequired, WdfFileObjectWdfCanUseFsContext, WdfFileObjectWdfCanUseFsContext2, WdfFileObjectWdfCannotUseFsContexts, _WDF_FILEOBJECT_CLASS, kmdf.wdf_fileobject_class, wdf.wdf_fileobject_class, wdfdevice/PWDF_FILEOBJECT_CLASS, wdfdevice/WDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectCanBeOptional, wdfdevice/WdfFileObjectInvalid, wdfdevice/WdfFileObjectNotRequired, wdfdevice/WdfFileObjectWdfCanUseFsContext, wdfdevice/WdfFileObjectWdfCanUseFsContext2, wdfdevice/WdfFileObjectWdfCannotUseFsContexts"
 f1_keywords:
  - "wdfdevice/WDF_FILEOBJECT_CLASS"
+ - "WDF_FILEOBJECT_CLASS"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows

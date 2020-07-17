@@ -10,6 +10,7 @@ keywords: ["_BTHX_SCO_SUPPORT enumeration"]
 ms.keywords: "*PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT enumeration [Bluetooth Devices], ScoSupportHCI, ScoSupportHCIBypass, ScoSupportNone, _BTHX_SCO_SUPPORT, bltooth.bthx_sco_support, bthxddi/BTHX_SCO_SUPPORT, bthxddi/ScoSupportHCI, bthxddi/ScoSupportHCIBypass, bthxddi/ScoSupportNone"
 f1_keywords:
  - "bthxddi/BTHX_SCO_SUPPORT"
+ - "BTHX_SCO_SUPPORT"
 req.header: bthxddi.h
 req.include-header: BthXDDI.h
 req.target-type: Windows

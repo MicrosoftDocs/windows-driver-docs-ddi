@@ -10,6 +10,7 @@ keywords: ["IddCxSwapChainSetDevice function"]
 ms.keywords: IddCxSwapChainSetDevice, IddCxSwapChainSetDevice method [Display Devices], display.iddcxswapchainsetdevice, iddcx/IddCxSwapChainSetDevice
 f1_keywords:
  - "iddcx/IddCxSwapChainSetDevice"
+ - "IddCxSwapChainSetDevice"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

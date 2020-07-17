@@ -9,6 +9,7 @@ keywords: ["D3D11DDIARG_TEX3D_UNORDEREDACCESSVIEW structure"]
 ms.keywords: D3D11DDIARG_TEX3D_UNORDEREDACCESSVIEW, D3D11DDIARG_TEX3D_UNORDEREDACCESSVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_0d8a28d7-9bb4-49b9-9ce9-1f290072ba4d.xml, d3d10umddi/D3D11DDIARG_TEX3D_UNORDEREDACCESSVIEW, display.d3d11ddiarg_tex3d_unorderedaccessview
 f1_keywords:
  - "d3d10umddi/D3D11DDIARG_TEX3D_UNORDEREDACCESSVIEW"
+ - "D3D11DDIARG_TEX3D_UNORDEREDACCESSVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

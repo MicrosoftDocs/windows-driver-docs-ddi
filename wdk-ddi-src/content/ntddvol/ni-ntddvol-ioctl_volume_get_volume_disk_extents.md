@@ -10,6 +10,7 @@ keywords: ["IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS IOCTL"]
 ms.keywords: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control code [Storage Devices], k307_8f02f744-6892-4e3f-9b23-158370e6a1e9.xml, ntddvol/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, storage.ioctl_volume_get_volume_disk_extents
 f1_keywords:
  - "ntddvol/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS"
+ - "IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS"
 req.header: ntddvol.h
 req.include-header: Ntddvol.h
 req.target-type: Windows

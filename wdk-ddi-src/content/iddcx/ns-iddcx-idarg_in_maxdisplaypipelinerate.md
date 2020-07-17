@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_MAXDISPLAYPIPELINERATE structure"]
 ms.keywords: IDARG_IN_MAXDISPLAYPIPELINERATE, IDARG_IN_MAXDISPLAYPIPELINERATE structure [Display Devices], display.idarg_in_maxdisplaypipelinerate, iddcx/IDARG_IN_MAXDISPLAYPIPELINERATE
 f1_keywords:
  - "iddcx/IDARG_IN_MAXDISPLAYPIPELINERATE"
+ - "IDARG_IN_MAXDISPLAYPIPELINERATE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IKsAggregateControl::KsAddAggregate"]
 ms.keywords: IKsAggregateControl interface [Streaming Media Devices],KsAddAggregate method, IKsAggregateControl.KsAddAggregate, IKsAggregateControl::KsAddAggregate, KsAddAggregate, KsAddAggregate method [Streaming Media Devices], KsAddAggregate method [Streaming Media Devices],IKsAggregateControl interface, ksproxy/IKsAggregateControl::KsAddAggregate, ksproxy_1c56f07f-a830-4c2b-80ae-a18f14588bd3.xml, stream.iksaggregatecontrol_ksaddaggregate
 f1_keywords:
  - "ksproxy/IKsAggregateControl.KsAddAggregate"
+ - "IKsAggregateControl.KsAddAggregate"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IStiDeviceControl::AddRef"]
 ms.keywords: AddRef, AddRef method [Imaging Devices], AddRef method [Imaging Devices],IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices],AddRef method, IStiDeviceControl.AddRef, IStiDeviceControl::AddRef, image.istidevicecontrol_addref, stifnc_b0cd1dfe-9e37-42a5-83e0-d0f97c9439e8.xml, stiusd/IStiDeviceControl::AddRef
 f1_keywords:
  - "stiusd/IStiDeviceControl.AddRef"
+ - "IStiDeviceControl.AddRef"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop

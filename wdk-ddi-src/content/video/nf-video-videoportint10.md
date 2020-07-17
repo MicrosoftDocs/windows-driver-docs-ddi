@@ -10,6 +10,7 @@ keywords: ["VideoPortInt10 function"]
 ms.keywords: VideoPortInt10, VideoPortInt10 function [Display Devices], VideoPort_Functions_681fc4cc-f8f5-4d26-b3eb-8f4098339470.xml, display.videoportint10, video/VideoPortInt10
 f1_keywords:
  - "video/VideoPortInt10"
+ - "VideoPortInt10"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

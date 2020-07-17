@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_SHARED_MEM_FLAGS macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_SHARED_MEM_FLAGS"
+ - "NET_BUFFER_SHARED_MEM_FLAGS"
 ms.keywords: NET_BUFFER_SHARED_MEM_FLAGS
 req.header: ndis.h
 req.include-header:

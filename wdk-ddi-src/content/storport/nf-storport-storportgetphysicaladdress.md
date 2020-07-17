@@ -10,6 +10,7 @@ keywords: ["StorPortGetPhysicalAddress function"]
 ms.keywords: StorPortGetPhysicalAddress, StorPortGetPhysicalAddress routine [Storage Devices], storage.storportgetphysicaladdress, storport/StorPortGetPhysicalAddress, storprt_fea6d754-844c-4ee9-8153-97f2f0e9ee80.xml
 f1_keywords:
  - "storport/StorPortGetPhysicalAddress"
+ - "StorPortGetPhysicalAddress"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

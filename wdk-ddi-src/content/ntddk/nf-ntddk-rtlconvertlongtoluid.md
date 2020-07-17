@@ -10,6 +10,7 @@ keywords: ["RtlConvertLongToLuid function"]
 ms.keywords: RtlConvertLongToLuid, RtlConvertLongToLuid routine [Kernel-Mode Driver Architecture], k109_be3bfbe0-7a0b-43e3-a22e-2cd6e5a92f2e.xml, kernel.rtlconvertlongtoluid, ntddk/RtlConvertLongToLuid
 f1_keywords:
  - "ntddk/RtlConvertLongToLuid"
+ - "RtlConvertLongToLuid"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop

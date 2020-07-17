@@ -10,6 +10,7 @@ keywords: ["EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT, EVT_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT callback, EvtIddCxMonitorOpmCreateProtectedOutput, EvtIddCxMonitorOpmCreateProtectedOutput callback function [Display Devices], PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT, PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT callback function pointer [Display Devices], display.evt_idd_cx_monitor_opm_create_protected_output, iddcx/EvtIddCxMonitorOpmCreateProtectedOutput
 f1_keywords:
  - "iddcx/PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT"
+ - "PFN_IDD_CX_MONITOR_OPM_CREATE_PROTECTED_OUTPUT"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

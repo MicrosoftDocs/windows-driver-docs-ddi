@@ -9,6 +9,7 @@ keywords: ["D3D10DDIARG_CALCPRIVATEDEVICESIZE structure"]
 ms.keywords: D3D10DDIARG_CALCPRIVATEDEVICESIZE, D3D10DDIARG_CALCPRIVATEDEVICESIZE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_5d15afa8-1d91-4823-ba91-391e64e9374d.xml, d3d10umddi/D3D10DDIARG_CALCPRIVATEDEVICESIZE, display.d3d10ddiarg_calcprivatedevicesize
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_CALCPRIVATEDEVICESIZE"
+ - "D3D10DDIARG_CALCPRIVATEDEVICESIZE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

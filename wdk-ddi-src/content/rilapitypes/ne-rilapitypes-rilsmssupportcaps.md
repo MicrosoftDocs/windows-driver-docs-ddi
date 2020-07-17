@@ -10,6 +10,7 @@ keywords: ["RILSMSSUPPORTCAPS enumeration"]
 ms.keywords: RILSMSSUPPORTCAPS, RILSMSSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, RIL_CAPS_SMSSUPPORT_ALL, netvista.rilsmssupportcaps, ntddrilapitypes/RILSMSSUPPORTCAPS, ntddrilapitypes/RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, ntddrilapitypes/RIL_CAPS_SMSSUPPORT_ALL
 f1_keywords:
  - "rilapitypes/RILSMSSUPPORTCAPS"
+ - "RILSMSSUPPORTCAPS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

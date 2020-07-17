@@ -10,6 +10,7 @@ keywords: ["_SRBEX_DATA_SCSI_CDB32 structure"]
 ms.keywords: "*PSRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32 structure pointer [Storage Devices], SRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32 structure [Storage Devices], _SRBEX_DATA_SCSI_CDB32, storage.srbex_data_scsi_cdb32, storport/PSRBEX_DATA_SCSI_CDB32, storport/SRBEX_DATA_SCSI_CDB32"
 f1_keywords:
  - "minitape/SRBEX_DATA_SCSI_CDB32"
+ - "SRBEX_DATA_SCSI_CDB32"
 req.header: minitape.h
 req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows

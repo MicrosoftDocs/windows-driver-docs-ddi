@@ -10,6 +10,7 @@ keywords: ["KsValidateClockCreateRequest function"]
 ms.keywords: KsValidateClockCreateRequest, KsValidateClockCreateRequest function [Streaming Media Devices], ks/KsValidateClockCreateRequest, ksfunc_e681d03e-44fb-43fb-b317-dc7e63fe6cb2.xml, stream.ksvalidateclockcreaterequest
 f1_keywords:
  - "ks/KsValidateClockCreateRequest"
+ - "KsValidateClockCreateRequest"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrv::drvGetCapabilities"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvGetCapabilities method, IWiaMiniDrv.drvGetCapabilities, IWiaMiniDrv::drvGetCapabilities, MiniDrv_c88a03f8-d527-47b0-953c-a7bf231c733e.xml, drvGetCapabilities, drvGetCapabilities method [Imaging Devices], drvGetCapabilities method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvgetcapabilities, wiamindr_lh/IWiaMiniDrv::drvGetCapabilities
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv.drvGetCapabilities"
+ - "IWiaMiniDrv.drvGetCapabilities"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop

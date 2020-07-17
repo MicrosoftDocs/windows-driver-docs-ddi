@@ -10,6 +10,7 @@ keywords: ["_USBD_STREAM_INFORMATION structure"]
 ms.keywords: "*PUSBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION structure pointer [Buses], USBD_STREAM_INFORMATION, USBD_STREAM_INFORMATION structure [Buses], _USBD_STREAM_INFORMATION, buses.usbd_stream_information, usb/PUSBD_STREAM_INFORMATION, usb/USBD_STREAM_INFORMATION"
 f1_keywords:
  - "usb/USBD_STREAM_INFORMATION"
+ - "USBD_STREAM_INFORMATION"
 req.header: usb.h
 req.include-header: 
 req.target-type: Windows

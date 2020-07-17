@@ -9,6 +9,7 @@ keywords: ["_DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES, display.dxgk_multiplane_overlay_attributes
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES"
+ - "DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

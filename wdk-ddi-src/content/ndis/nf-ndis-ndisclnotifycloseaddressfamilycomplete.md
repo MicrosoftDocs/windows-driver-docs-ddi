@@ -10,6 +10,7 @@ keywords: ["NdisClNotifyCloseAddressFamilyComplete function"]
 ms.keywords: NdisClNotifyCloseAddressFamilyComplete, NdisClNotifyCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_d084e99b-f911-4d23-b59e-ad1f51a2261a.xml, ndis/NdisClNotifyCloseAddressFamilyComplete, netvista.ndisclnotifycloseaddressfamilycomplete
 f1_keywords:
  - "ndis/NdisClNotifyCloseAddressFamilyComplete"
+ - "NdisClNotifyCloseAddressFamilyComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["GetPebAddress function"]
 ms.keywords: GetPebAddress, GetPebAddress function [Windows Debugging], WdbgExts_Ref_a51cb865-4701-4fbc-a075-7bcadd8ee8be.xml, debugger.getpebaddress, wdbgexts/GetPebAddress
 f1_keywords:
  - "wdbgexts/GetPebAddress"
+ - "GetPebAddress"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IoBuildPartialMdl function"]
 ms.keywords: IoBuildPartialMdl, IoBuildPartialMdl routine [Kernel-Mode Driver Architecture], k104_8c9451f6-614c-45a2-b95a-4f0935588d7f.xml, kernel.iobuildpartialmdl, wdm/IoBuildPartialMdl
 f1_keywords:
  - "wdm/IoBuildPartialMdl"
+ - "IoBuildPartialMdl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

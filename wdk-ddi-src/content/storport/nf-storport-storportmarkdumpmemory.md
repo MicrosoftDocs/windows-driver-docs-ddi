@@ -10,6 +10,7 @@ keywords: ["StorPortMarkDumpMemory function"]
 ms.keywords: MARK_DUMP_MEMORY_FLAG_PHYSICAL_ADDRESS, StorPortMarkDumpMemory, StorPortMarkDumpMemory routine [Storage Devices], storage.storportmarkdumpmemory, storport/StorPortMarkDumpMemory
 f1_keywords:
  - "storport/StorPortMarkDumpMemory"
+ - "StorPortMarkDumpMemory"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

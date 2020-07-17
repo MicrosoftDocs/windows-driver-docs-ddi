@@ -10,6 +10,7 @@ keywords: ["wiauDbgInit macro"]
 ms.keywords: image.wiaudbginit, wiauDbgInit, wiauDbgInit function [Imaging Devices], wiauFncs_0f18edab-cbf7-4012-85ea-93f101343ecb.xml, wiautil/wiauDbgInit
 f1_keywords:
  - "wiautil/wiauDbgInit"
+ - "wiauDbgInit"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

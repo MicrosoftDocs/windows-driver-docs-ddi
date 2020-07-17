@@ -10,6 +10,7 @@ keywords: ["pHalExamineMBR callback function"]
 ms.keywords: HalExamineMBR, HalExamineMBR callback function [Kernel-Mode Driver Architecture], k103_86ff3079-34b8-4200-a0e9-88c921579b3f.xml, kernel.halexaminembr, ntddk/HalExamineMBR, pHalExamineMBR, pHalExamineMBR callback
 f1_keywords:
  - "ntddk/HalExamineMBR"
+ - "HalExamineMBR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

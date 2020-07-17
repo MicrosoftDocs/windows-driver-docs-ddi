@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS, EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS callback, EvtUcxEndpointGetIsochTransferPathDelays, EvtUcxEndpointGetIsochTransferPathDelays callback function [Buses], buses.evt_ucx_endpoint_get_isoch_transfer_path_delays_, ucxendpoint/EvtUcxEndpointGetIsochTransferPathDelays
 f1_keywords:
  - "ucxendpoint/EvtUcxEndpointGetIsochTransferPathDelays"
+ - "EvtUcxEndpointGetIsochTransferPathDelays"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

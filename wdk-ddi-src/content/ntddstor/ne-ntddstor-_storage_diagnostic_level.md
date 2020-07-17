@@ -10,6 +10,7 @@ keywords: ["_STORAGE_DIAGNOSTIC_LEVEL enumeration"]
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], STORAGE_DIAGNOSTIC_LEVEL, STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], StorageDiagnosticLevelDefault, StorageDiagnosticLevelMax, _STORAGE_DIAGNOSTIC_LEVEL, ntddstor/PSTORAGE_DIAGNOSTIC_LEVEL, ntddstor/STORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelDefault, ntddstor/StorageDiagnosticLevelMax, storage.storage_diagnostic_level"
 f1_keywords:
  - "ntddstor/STORAGE_DIAGNOSTIC_LEVEL"
+ - "STORAGE_DIAGNOSTIC_LEVEL"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows

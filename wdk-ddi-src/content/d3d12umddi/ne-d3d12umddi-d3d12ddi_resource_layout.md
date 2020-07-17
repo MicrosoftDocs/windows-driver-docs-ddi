@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_RESOURCE_LAYOUT enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RESOURCE_LAYOUT"
+ - "D3D12DDI_RESOURCE_LAYOUT"
 ms.keywords: D3D12DDI_RESOURCE_LAYOUT, D3D12DDI_RESOURCE_LAYOUT, 
 req.header: d3d12umddi.h
 req.include-header:

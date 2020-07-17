@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_TRFUNCENUM enumeration"]
 f1_keywords:
  - "trustedruntimeclx/_TRFUNCENUM"
+ - "_TRFUNCENUM"
 ms.keywords: _TRFUNCENUM, TRFUNCENUM, 
 req.header: trustedruntimeclx.h
 req.include-header:

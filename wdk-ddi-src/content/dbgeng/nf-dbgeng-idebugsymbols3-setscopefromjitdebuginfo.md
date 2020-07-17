@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::SetScopeFromJitDebugInfo"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetScopeFromJitDebugInfo method, IDebugSymbols3.SetScopeFromJitDebugInfo, IDebugSymbols3::SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo, SetScopeFromJitDebugInfo method [Windows Debugging], SetScopeFromJitDebugInfo method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetScopeFromJitDebugInfo, debugger.idebugsymbols3_setscopefromjitdebuginfo
 f1_keywords:
  - "dbgeng/IDebugSymbols3.SetScopeFromJitDebugInfo"
+ - "IDebugSymbols3.SetScopeFromJitDebugInfo"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

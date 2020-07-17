@@ -10,6 +10,7 @@ keywords: ["USBD_UrbAllocate function"]
 ms.keywords: USBD_UrbAllocate, USBD_UrbAllocate routine [Buses], buses.usbd_urballocate, usbdlib/USBD_UrbAllocate
 f1_keywords:
  - "usbdlib/USBD_UrbAllocate"
+ - "USBD_UrbAllocate"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueGetDevice function"]
 ms.keywords: DFQueueObjectRef_4f5c8dbb-feb5-4c08-a2ea-06d375d5a6be.xml, WdfIoQueueGetDevice, WdfIoQueueGetDevice method, kmdf.wdfioqueuegetdevice, wdf.wdfioqueuegetdevice, wdfio/WdfIoQueueGetDevice
 f1_keywords:
  - "wdfio/WdfIoQueueGetDevice"
+ - "WdfIoQueueGetDevice"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["OpenPrintProcessor function"]
 ms.keywords: OpenPrintProcessor, OpenPrintProcessor function [Print Devices], print.openprintprocessor, spoolfnc_b8a185f0-4289-49bb-bb98-b6f54b66fa70.xml, winsplp/OpenPrintProcessor
 f1_keywords:
  - "winsplp/OpenPrintProcessor"
+ - "OpenPrintProcessor"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

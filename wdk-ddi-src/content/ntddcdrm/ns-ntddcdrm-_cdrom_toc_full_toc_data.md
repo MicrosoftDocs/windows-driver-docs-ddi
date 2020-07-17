@@ -10,6 +10,7 @@ keywords: ["_CDROM_TOC_FULL_TOC_DATA structure"]
 ms.keywords: "*PCDROM_TOC_FULL_TOC_DATA, CDROM_TOC_FULL_TOC_DATA, CDROM_TOC_FULL_TOC_DATA structure [Storage Devices], PCDROM_TOC_FULL_TOC_DATA, PCDROM_TOC_FULL_TOC_DATA structure pointer [Storage Devices], _CDROM_TOC_FULL_TOC_DATA, ntddcdrm/CDROM_TOC_FULL_TOC_DATA, ntddcdrm/PCDROM_TOC_FULL_TOC_DATA, storage.cdrom_toc_full_toc_data, structs-CD-ROM_47099ab4-7dcb-4470-8350-8beea47587bd.xml"
 f1_keywords:
  - "ntddcdrm/CDROM_TOC_FULL_TOC_DATA"
+ - "CDROM_TOC_FULL_TOC_DATA"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

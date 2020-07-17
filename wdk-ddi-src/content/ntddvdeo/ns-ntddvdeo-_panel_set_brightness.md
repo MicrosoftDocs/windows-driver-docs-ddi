@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_PANEL_SET_BRIGHTNESS structure"]
 f1_keywords:
  - "ntddvdeo/_PANEL_SET_BRIGHTNESS"
+ - "_PANEL_SET_BRIGHTNESS"
 ms.keywords: _PANEL_SET_BRIGHTNESS, *PPANEL_SET_BRIGHTNESS, PANEL_SET_BRIGHTNESS,
 req.header: ntddvdeo.h
 req.include-header:

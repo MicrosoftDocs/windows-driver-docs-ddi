@@ -10,6 +10,7 @@ keywords: ["FsRtlAreThereCurrentFileLocks macro"]
 ms.keywords: FsRtlAreThereCurrentFileLocks, FsRtlAreThereCurrentFileLocks function [Installable File System Drivers], fsrtlref_c3102eee-b523-418a-8977-a875e0eb76b7.xml, ifsk.fsrtlaretherecurrentfilelocks, ntifs/FsRtlAreThereCurrentFileLocks
 f1_keywords:
  - "ntifs/FsRtlAreThereCurrentFileLocks"
+ - "FsRtlAreThereCurrentFileLocks"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

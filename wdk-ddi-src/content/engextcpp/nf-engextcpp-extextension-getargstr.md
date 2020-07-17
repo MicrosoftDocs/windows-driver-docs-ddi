@@ -10,6 +10,7 @@ keywords: ["ExtExtension::GetArgStr"]
 ms.keywords: EngExtCpp_Ref_0a1f3246-41a5-4a2f-8656-45f8c17b6418.xml, ExtExtension class [Windows Debugging],GetArgStr method, ExtExtension.GetArgStr, ExtExtension::GetArgStr, GetArgStr, GetArgStr method [Windows Debugging], GetArgStr method [Windows Debugging],ExtExtension class, debugger.getargstr
 f1_keywords:
  - "engextcpp/ExtExtension.GetArgStr"
+ - "ExtExtension.GetArgStr"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

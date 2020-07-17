@@ -10,6 +10,7 @@ keywords: ["KsFilterGetAndGate function"]
 ms.keywords: KsFilterGetAndGate, KsFilterGetAndGate function [Streaming Media Devices], avfunc_58886874-f3f3-4e2d-a69c-e85260dcc702.xml, ks/KsFilterGetAndGate, stream.ksfiltergetandgate
 f1_keywords:
  - "ks/KsFilterGetAndGate"
+ - "KsFilterGetAndGate"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

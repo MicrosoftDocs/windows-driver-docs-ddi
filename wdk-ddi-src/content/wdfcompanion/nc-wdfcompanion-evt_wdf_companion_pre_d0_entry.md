@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_COMPANION_PRE_D0_ENTRY callback function"]
 ms.keywords: EVT_WDF_COMPANION_PRE_D0_ENTRY, EVT_WDF_COMPANION_PRE_D0_ENTRY callback, EVT_WDF_COMPANION_PRE_D0_ENTRY callback function, wdf.evt_wdf_companion_pre_d0_entry, wdfcompanion/EVT_WDF_COMPANION_PRE_D0_ENTRY
 f1_keywords:
  - "wdfcompanion/EVT_WDF_COMPANION_PRE_D0_ENTRY"
+ - "EVT_WDF_COMPANION_PRE_D0_ENTRY"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows

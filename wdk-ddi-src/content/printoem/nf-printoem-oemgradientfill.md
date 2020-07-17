@@ -10,6 +10,7 @@ keywords: ["OEMGradientFill function"]
 ms.keywords: OEMGradientFill, OEMGradientFill function [Print Devices], print.oemgradientfill, print_unidrv-pscript_rendering_ddb279ca-c526-4993-94ce-cf8caa0febb4.xml, printoem/OEMGradientFill
 f1_keywords:
  - "printoem/OEMGradientFill"
+ - "OEMGradientFill"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

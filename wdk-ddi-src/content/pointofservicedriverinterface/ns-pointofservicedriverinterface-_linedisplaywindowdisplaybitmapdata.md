@@ -10,6 +10,7 @@ keywords: ["_LineDisplayWindowDisplayBitmapData structure"]
 ms.keywords: LineDisplayWindowDisplayBitmapData, LineDisplayWindowDisplayBitmapData structure, PLineDisplayWindowDisplayBitmapData, PLineDisplayWindowDisplayBitmapData structure pointer, _LineDisplayWindowDisplayBitmapData, pointofservicedriverinterface/LineDisplayWindowDisplayBitmapData, pointofservicedriverinterface/PLineDisplayWindowDisplayBitmapData, pos.linedisplaywindowdisplaybitmapdata
 f1_keywords:
  - "pointofservicedriverinterface/LineDisplayWindowDisplayBitmapData"
+ - "LineDisplayWindowDisplayBitmapData"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows

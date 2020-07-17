@@ -10,6 +10,7 @@ keywords: ["CcSetBcbOwnerPointer function"]
 ms.keywords: CcSetBcbOwnerPointer, CcSetBcbOwnerPointer routine [Installable File System Drivers], ccref_9ad1d1a5-0600-4cfa-88d3-e4e5d2cd9df1.xml, ifsk.ccsetbcbownerpointer, ntifs/CcSetBcbOwnerPointer
 f1_keywords:
  - "ntifs/CcSetBcbOwnerPointer"
+ - "CcSetBcbOwnerPointer"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

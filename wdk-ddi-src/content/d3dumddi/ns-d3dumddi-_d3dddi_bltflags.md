@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_BLTFLAGS structure"]
 ms.keywords: D3DDDI_BLTFLAGS, D3DDDI_BLTFLAGS structure [Display Devices], D3D_other_Structs_8d70fa64-3813-4165-a64d-4e91287e05d5.xml, _D3DDDI_BLTFLAGS, d3dumddi/D3DDDI_BLTFLAGS, display.d3dddi_bltflags
 f1_keywords:
  - "d3dumddi/D3DDDI_BLTFLAGS"
+ - "D3DDDI_BLTFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

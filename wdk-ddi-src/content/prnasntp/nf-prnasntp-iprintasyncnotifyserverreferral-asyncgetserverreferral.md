@@ -10,6 +10,7 @@ keywords: ["IPrintAsyncNotifyServerReferral::AsyncGetServerReferral"]
 ms.keywords: AsyncGetServerReferral, AsyncGetServerReferral method [Print Devices], AsyncGetServerReferral method [Print Devices],IPrintAsyncNotifyServerReferral interface, IPrintAsyncNotifyServerReferral interface [Print Devices],AsyncGetServerReferral method, IPrintAsyncNotifyServerReferral.AsyncGetServerReferral, IPrintAsyncNotifyServerReferral::AsyncGetServerReferral, print.iprintasyncnotifyserverreferral_asyncgetserverreferral, prnasntp/IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
 f1_keywords:
  - "prnasntp/IPrintAsyncNotifyServerReferral.AsyncGetServerReferral"
+ - "IPrintAsyncNotifyServerReferral.AsyncGetServerReferral"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

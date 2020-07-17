@@ -10,6 +10,7 @@ keywords: ["UdecxUsbEndpointSetWdfIoQueue function"]
 ms.keywords: UdecxUsbEndpointSetWdfIoQueue, UdecxUsbEndpointSetWdfIoQueue function [Buses], buses.udecxusbendpointsetwdfioqueue, udecxusbendpoint/UdecxUsbEndpointSetWdfIoQueue
 f1_keywords:
  - "udecxusbendpoint/UdecxUsbEndpointSetWdfIoQueue"
+ - "UdecxUsbEndpointSetWdfIoQueue"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows

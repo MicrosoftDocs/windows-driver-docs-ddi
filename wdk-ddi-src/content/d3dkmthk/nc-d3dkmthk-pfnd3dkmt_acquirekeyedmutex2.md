@@ -9,6 +9,7 @@ keywords: ["PFND3DKMT_ACQUIREKEYEDMUTEX2 callback function"]
 ms.keywords: D3DKMTAcquireKeyedMutex2, D3DKMTAcquireKeyedMutex2 callback function [Display Devices], PFND3DKMT_ACQUIREKEYEDMUTEX2, PFND3DKMT_ACQUIREKEYEDMUTEX2 callback, d3dkmthk/D3DKMTAcquireKeyedMutex2, display.d3dkmtacquirekeyedmutex2
 f1_keywords:
  - "d3dkmthk/D3DKMTAcquireKeyedMutex2"
+ - "D3DKMTAcquireKeyedMutex2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT structure"]
 ms.keywords: IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT, IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT structure [Display Devices], display.idarg_in_opm_configure_protected_output, iddcx/IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT
 f1_keywords:
  - "iddcx/IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT"
+ - "IDARG_IN_OPM_CONFIGURE_PROTECTED_OUTPUT"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

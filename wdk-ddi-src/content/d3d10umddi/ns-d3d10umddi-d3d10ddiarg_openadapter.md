@@ -9,6 +9,7 @@ keywords: ["D3D10DDIARG_OPENADAPTER structure"]
 ms.keywords: D3D10DDIARG_OPENADAPTER, D3D10DDIARG_OPENADAPTER structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3dd9df89-1d5e-4eab-bbe5-c6585543c093.xml, d3d10umddi/D3D10DDIARG_OPENADAPTER, display.d3d10ddiarg_openadapter
 f1_keywords:
  - "d3d10umddi/D3D10DDIARG_OPENADAPTER"
+ - "D3D10DDIARG_OPENADAPTER"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

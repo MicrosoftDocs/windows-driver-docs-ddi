@@ -10,6 +10,7 @@ keywords: ["SILO_CONTEXT_CLEANUP_CALLBACK callback function"]
 ms.keywords: CleanupCallback, CleanupCallback callback function [Kernel-Mode Driver Architecture], SILO_CONTEXT_CLEANUP_CALLBACK, SILO_CONTEXT_CLEANUP_CALLBACK callback, kernel.silo_context_cleanup_callback, ntddk/CleanupCallback
 f1_keywords:
  - "ntddk/CleanupCallback"
+ - "CleanupCallback"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_SecurityCapabilities structure"]
 ms.keywords: "*PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities structure [Storage Devices], PMSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], _MSiSCSI_SecurityCapabilities, iscsicfg/MSiSCSI_SecurityCapabilities, iscsicfg/PMSiSCSI_SecurityCapabilities, storage.msiscsi_securitycapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml"
 f1_keywords:
  - "iscsicfg/MSiSCSI_SecurityCapabilities"
+ - "MSiSCSI_SecurityCapabilities"
 req.header: iscsicfg.h
 req.include-header: Iscsicfg.h
 req.target-type: Windows

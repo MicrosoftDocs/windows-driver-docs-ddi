@@ -8,6 +8,7 @@ ms.date: 05/22/2018
 keywords: ["FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL"
+ - "FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

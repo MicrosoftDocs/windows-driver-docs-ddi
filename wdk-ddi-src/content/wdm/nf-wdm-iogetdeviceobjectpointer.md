@@ -10,6 +10,7 @@ keywords: ["IoGetDeviceObjectPointer function"]
 ms.keywords: IoGetDeviceObjectPointer, IoGetDeviceObjectPointer routine [Kernel-Mode Driver Architecture], k104_c57b87e5-8316-4c45-a245-0fe7592c3471.xml, kernel.iogetdeviceobjectpointer, wdm/IoGetDeviceObjectPointer
 f1_keywords:
  - "wdm/IoGetDeviceObjectPointer"
+ - "IoGetDeviceObjectPointer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

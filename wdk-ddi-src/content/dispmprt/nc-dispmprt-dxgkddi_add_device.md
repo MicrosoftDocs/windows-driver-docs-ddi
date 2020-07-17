@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_ADD_DEVICE callback function"]
 ms.keywords: DXGKDDI_ADD_DEVICE, DXGKDDI_ADD_DEVICE callback, DmFunctions_83323c62-42ac-45f5-80c8-b914fda642b5.xml, DxgkDdiAddDevice, DxgkDdiAddDevice callback function [Display Devices], display.dxgkddiadddevice, dispmprt/DxgkDdiAddDevice
 f1_keywords:
  - "dispmprt/DxgkDdiAddDevice"
+ - "DxgkDdiAddDevice"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop

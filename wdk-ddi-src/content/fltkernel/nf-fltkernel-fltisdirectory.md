@@ -10,6 +10,7 @@ keywords: ["FltIsDirectory function"]
 ms.keywords: FltApiRef_e_to_o_cdcea60b-c299-4445-9c96-126210f2a43e.xml, FltIsDirectory, FltIsDirectory routine [Installable File System Drivers], fltkernel/FltIsDirectory, ifsk.fltisdirectory
 f1_keywords:
  - "fltkernel/FltIsDirectory"
+ - "FltIsDirectory"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

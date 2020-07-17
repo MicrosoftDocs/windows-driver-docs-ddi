@@ -9,6 +9,7 @@ keywords: ["_DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2 structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2, DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2, display.dxgk_multiplane_overlay_plane_with_source2
 f1_keywords:
  - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2"
+ - "DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

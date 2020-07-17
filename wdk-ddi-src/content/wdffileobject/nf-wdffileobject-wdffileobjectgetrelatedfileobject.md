@@ -10,6 +10,7 @@ keywords: ["WdfFileObjectGetRelatedFileObject function"]
 ms.keywords: WdfFileObjectGetRelatedFileObject, WdfFileObjectGetRelatedFileObject method, wdf.wdffileobjectgetrelatedfileobject, wdffileobject/WdfFileObjectGetRelatedFileObject
 f1_keywords:
  - "wdffileobject/WdfFileObjectGetRelatedFileObject"
+ - "WdfFileObjectGetRelatedFileObject"
 req.header: wdffileobject.h
 req.include-header: Wdf.h
 req.target-type: Universal

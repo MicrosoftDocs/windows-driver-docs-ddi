@@ -10,6 +10,7 @@ keywords: ["PoFxPowerOnCrashdumpDevice function"]
 ms.keywords: PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice routine [Kernel-Mode Driver Architecture], kernel.pofxpoweroncrashdumpdevice, wdm/PoFxPowerOnCrashdumpDevice
 f1_keywords:
  - "wdm/PoFxPowerOnCrashdumpDevice"
+ - "PoFxPowerOnCrashdumpDevice"
 req.header: wdm.h
 req.include-header: Pepfx.h
 req.target-type: Windows

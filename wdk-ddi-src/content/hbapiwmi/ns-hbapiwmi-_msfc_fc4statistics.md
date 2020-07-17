@@ -10,6 +10,7 @@ keywords: ["_MSFC_FC4STATISTICS structure"]
 ms.keywords: "*PMSFC_FC4STATISTICS, MSFC_FC4STATISTICS, MSFC_FC4STATISTICS structure [Storage Devices], PMSFC_FC4STATISTICS, PMSFC_FC4STATISTICS structure pointer [Storage Devices], _MSFC_FC4STATISTICS, hbapiwmi/MSFC_FC4STATISTICS, hbapiwmi/PMSFC_FC4STATISTICS, storage.msfc_fc4statistics, structs-Fibre_aad92cde-3922-49dd-8473-fefff79e5e2b.xml"
 f1_keywords:
  - "hbapiwmi/MSFC_FC4STATISTICS"
+ - "MSFC_FC4STATISTICS"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

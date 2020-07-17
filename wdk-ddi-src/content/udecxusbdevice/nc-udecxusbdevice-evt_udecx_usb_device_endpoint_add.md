@@ -10,6 +10,7 @@ keywords: ["EVT_UDECX_USB_DEVICE_ENDPOINT_ADD callback function"]
 ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINT_ADD, EVT_UDECX_USB_DEVICE_ENDPOINT_ADD callback, EvtUsbDeviceEndpointAdd, EvtUsbDeviceEndpointAdd callback function [Buses], buses.evt_udecx_usb_device_endpoint_add, udecxusbdevice/EvtUsbDeviceEndpointAdd
 f1_keywords:
  - "udecxusbdevice/EvtUsbDeviceEndpointAdd"
+ - "EvtUsbDeviceEndpointAdd"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IOCTL_AVC_BUS_RESET IOCTL"]
 ms.keywords: IOCTL_AVC_BUS_RESET, IOCTL_AVC_BUS_RESET control, IOCTL_AVC_BUS_RESET control code [Streaming Media Devices], avc/IOCTL_AVC_BUS_RESET, avcref_4be76d4b-17fe-4ae6-a078-ebb079499d55.xml, stream.ioctl_avc_bus_reset
 f1_keywords:
  - "avc/IOCTL_AVC_BUS_RESET"
+ - "IOCTL_AVC_BUS_RESET"
 req.header: avc.h
 req.include-header: 
 req.target-type: Windows

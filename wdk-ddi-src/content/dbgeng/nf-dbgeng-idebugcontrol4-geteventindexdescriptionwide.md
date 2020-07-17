@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetEventIndexDescriptionWide"]
 ms.keywords: GetEventIndexDescriptionWide, GetEventIndexDescriptionWide method [Windows Debugging], GetEventIndexDescriptionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventIndexDescriptionWide method, IDebugControl4.GetEventIndexDescriptionWide, IDebugControl4::GetEventIndexDescriptionWide, dbgeng/IDebugControl4::GetEventIndexDescriptionWide, debugger.geteventindexdescriptionwide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetEventIndexDescriptionWide"
+ - "IDebugControl4.GetEventIndexDescriptionWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

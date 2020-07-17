@@ -10,6 +10,7 @@ keywords: ["FwpsAllocateNetBufferAndNetBufferList0 function"]
 ms.keywords: FwpsAllocateNetBufferAndNetBufferList0, FwpsAllocateNetBufferAndNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAllocateNetBufferAndNetBufferList0, netvista.fwpsallocatenetbufferandnetbufferlist0, wfp_ref_2_funct_3_fwps_A-B_9a88a8c9-a5fb-48a9-bc42-ae30de234468.xml
 f1_keywords:
  - "fwpsk/FwpsAllocateNetBufferAndNetBufferList0"
+ - "FwpsAllocateNetBufferAndNetBufferList0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

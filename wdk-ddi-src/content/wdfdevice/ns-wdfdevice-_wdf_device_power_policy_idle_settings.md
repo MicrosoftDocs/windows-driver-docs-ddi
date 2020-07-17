@@ -10,6 +10,7 @@ keywords: ["_WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure"]
 ms.keywords: "*PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, DFDeviceObjectGeneralRef_82f4a32c-ff51-4b0f-a67a-c45b4777ce23.xml, PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure pointer, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS structure, _WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, kmdf.wdf_device_power_policy_idle_settings, wdf.wdf_device_power_policy_idle_settings, wdfdevice/PWDF_DEVICE_POWER_POLICY_IDLE_SETTINGS, wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
 f1_keywords:
  - "wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
+ - "WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Windows

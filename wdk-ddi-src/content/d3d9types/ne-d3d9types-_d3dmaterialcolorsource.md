@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DMATERIALCOLORSOURCE enumeration"]
 f1_keywords:
  - "d3d9types/_D3DMATERIALCOLORSOURCE"
+ - "_D3DMATERIALCOLORSOURCE"
 ms.keywords: _D3DMATERIALCOLORSOURCE, D3DMATERIALCOLORSOURCE, 
 req.header: d3d9types.h
 req.include-header:

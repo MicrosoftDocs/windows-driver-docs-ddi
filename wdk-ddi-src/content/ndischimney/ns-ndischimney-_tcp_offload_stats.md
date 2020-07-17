@@ -10,6 +10,7 @@ keywords: ["_TCP_OFFLOAD_STATS structure"]
 ms.keywords: "*PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATS, TCP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATS, ndischimney/PTCP_OFFLOAD_STATS, ndischimney/TCP_OFFLOAD_STATS, netvista.tcp_offload_stats, tcp_chim_struct_62878657-feff-41e4-b540-cbde66c1244e.xml"
 f1_keywords:
  - "ndischimney/TCP_OFFLOAD_STATS"
+ - "TCP_OFFLOAD_STATS"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows

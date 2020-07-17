@@ -10,6 +10,7 @@ keywords: ["_DEVICE_OBJECT structure"]
 ms.keywords: "*PDEVICE_OBJECT, DEVICE_OBJECT, DEVICE_OBJECT structure [Kernel-Mode Driver Architecture], PDEVICE_OBJECT, PDEVICE_OBJECT structure pointer [Kernel-Mode Driver Architecture], _DEVICE_OBJECT, kernel.device_object, kstruct_a_93734fb2-0dd1-4376-a595-44008eb68f2c.xml, wdm/DEVICE_OBJECT, wdm/PDEVICE_OBJECT"
 f1_keywords:
  - "wdm/DEVICE_OBJECT"
+ - "DEVICE_OBJECT"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows

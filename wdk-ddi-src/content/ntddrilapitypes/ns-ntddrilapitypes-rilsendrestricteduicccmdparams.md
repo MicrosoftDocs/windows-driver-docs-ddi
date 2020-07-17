@@ -10,6 +10,7 @@ keywords: ["RILSENDRESTRICTEDUICCCMDPARAMS structure"]
 ms.keywords: "*LPRILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendrestricteduicccmdparams, ntddrilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS"
+ - "RILSENDRESTRICTEDUICCCMDPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::Write"]
 ms.keywords: EngExtCpp_Ref_1288bed4-2f61-4af4-a226-5157a0622f42.xml, ExtRemoteData class [Windows Debugging],Write method, ExtRemoteData.Write, ExtRemoteData::Write, Write, Write method [Windows Debugging], Write method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_write
 f1_keywords:
  - "engextcpp/ExtRemoteData.Write"
+ - "ExtRemoteData.Write"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

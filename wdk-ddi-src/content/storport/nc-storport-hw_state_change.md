@@ -10,6 +10,7 @@ keywords: ["HW_STATE_CHANGE callback function"]
 ms.keywords: HW_STATE_CHANGE, HwStorStateChange, HwStorStateChange routine [Storage Devices], storage.hwstorstatechange, storport/HwStorStateChange
 f1_keywords:
  - "storport/HwStorStateChange"
+ - "HwStorStateChange"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

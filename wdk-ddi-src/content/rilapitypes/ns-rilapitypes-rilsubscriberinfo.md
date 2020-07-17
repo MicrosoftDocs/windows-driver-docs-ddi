@@ -10,6 +10,7 @@ keywords: ["RILSUBSCRIBERINFO structure"]
 ms.keywords: "*LPRILSUBSCRIBERINFO, RILSUBSCRIBERINFO, RILSUBSCRIBERINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsubscriberinfo_2, rilapitypes/RILSUBSCRIBERINFO"
 f1_keywords:
  - "rilapitypes/RILSUBSCRIBERINFO"
+ - "RILSUBSCRIBERINFO"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows

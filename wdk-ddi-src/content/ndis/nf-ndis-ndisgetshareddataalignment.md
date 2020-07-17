@@ -10,6 +10,7 @@ keywords: ["NdisGetSharedDataAlignment function"]
 ms.keywords: NdisGetSharedDataAlignment, NdisGetSharedDataAlignment function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_1572f536-6b6a-4ea9-9150-78399870538c.xml, ndis/NdisGetSharedDataAlignment, netvista.ndisgetshareddataalignment
 f1_keywords:
  - "ndis/NdisGetSharedDataAlignment"
+ - "NdisGetSharedDataAlignment"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

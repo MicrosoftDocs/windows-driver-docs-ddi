@@ -10,6 +10,7 @@ keywords: ["FsRtlSupportsPerFileContexts macro"]
 ms.keywords: FsRtlSupportsPerFileContexts, FsRtlSupportsPerFileContexts , FsRtlSupportsPerFileContexts function [Installable File System Drivers], fsrtlref_98e99a7a-c80d-43d5-a0f6-3eea35a8d20a.xml, ifsk.fsrtlsupportsperfilecontexts, ntifs/FsRtlSupportsPerFileContexts
 f1_keywords:
  - "ntifs/FsRtlSupportsPerFileContexts"
+ - "FsRtlSupportsPerFileContexts"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Desktop

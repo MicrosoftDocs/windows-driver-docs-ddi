@@ -10,6 +10,7 @@ keywords: ["RIL_SetSlotPower function"]
 ms.keywords: RIL_SetSlotPower, RIL_SetSlotPower method [Network Drivers Starting with Windows Vista], netvista.ril_setslotpower, rilapi/RIL_SetSlotPower
 f1_keywords:
  - "rilapi/RIL_SetSlotPower"
+ - "RIL_SetSlotPower"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

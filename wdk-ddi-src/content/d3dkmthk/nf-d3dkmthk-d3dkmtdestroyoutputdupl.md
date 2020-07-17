@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTDestroyOutputDupl function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyOutputDupl"
+ - "D3DKMTDestroyOutputDupl"
 ms.keywords: D3DKMTDestroyOutputDupl
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

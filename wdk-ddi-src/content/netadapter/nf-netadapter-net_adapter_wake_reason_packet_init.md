@@ -10,6 +10,7 @@ ms.date: 10/25/2019
 keywords: ["NET_ADAPTER_WAKE_REASON_PACKET_INIT function"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_WAKE_REASON_PACKET_INIT"
+ - "NET_ADAPTER_WAKE_REASON_PACKET_INIT"
 ms.keywords: NET_ADAPTER_WAKE_REASON_PACKET_INIT
 req.header: netadapter.h
 req.include-header:

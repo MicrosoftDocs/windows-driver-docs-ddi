@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols::SetScope"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],SetScope method, IDebugSymbols.SetScope, IDebugSymbols2 interface [Windows Debugging],SetScope method, IDebugSymbols2::SetScope, IDebugSymbols3 interface [Windows Debugging],SetScope method, IDebugSymbols3::SetScope, IDebugSymbols::SetScope, IDebugSymbols_20e96a86-b9c3-481f-9a26-319bac975e15.xml, SetScope, SetScope method [Windows Debugging], SetScope method [Windows Debugging],IDebugSymbols interface, SetScope method [Windows Debugging],IDebugSymbols2 interface, SetScope method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::SetScope, dbgeng/IDebugSymbols3::SetScope, dbgeng/IDebugSymbols::SetScope, debugger.setscope
 f1_keywords:
  - "dbgeng/IDebugSymbols.SetScope"
+ - "IDebugSymbols.SetScope"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_RemoveTarget_IN structure"]
 ms.keywords: "*PRemoveTarget_IN, PRemoveTarget_IN, PRemoveTarget_IN structure pointer [Storage Devices], RemoveTarget_IN, RemoveTarget_IN structure [Storage Devices], _RemoveTarget_IN, hbapiwmi/PRemoveTarget_IN, hbapiwmi/RemoveTarget_IN, storage.removetarget_in, structs-Fibre_e284d48f-3a57-449f-8227-2e8637118dcd.xml"
 f1_keywords:
  - "hbapiwmi/RemoveTarget_IN"
+ - "RemoveTarget_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

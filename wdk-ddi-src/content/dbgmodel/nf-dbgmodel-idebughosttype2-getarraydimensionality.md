@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IDebugHostType2::GetArrayDimensionality"]
 f1_keywords:
  - "dbgmodel/IDebugHostType2.GetArrayDimensionality"
+ - "IDebugHostType2.GetArrayDimensionality"
 ms.keywords: IDebugHostType2::GetArrayDimensionality, GetArrayDimensionality, IDebugHostType2.GetArrayDimensionality, IDebugHostType2::GetArrayDimensionality, IDebugHostType2.GetArrayDimensionality
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptableStream::SetSize"]
 ms.keywords: IPrinterScriptableStream interface [Print Devices],SetSize method, IPrinterScriptableStream.SetSize, IPrinterScriptableStream::SetSize, SetSize, SetSize method [Print Devices], SetSize method [Print Devices],IPrinterScriptableStream interface, print.iprinterscriptablestream__setsize, printerextension/IPrinterScriptableStream::SetSize
 f1_keywords:
  - "printerextension/IPrinterScriptableStream.SetSize"
+ - "IPrinterScriptableStream.SetSize"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

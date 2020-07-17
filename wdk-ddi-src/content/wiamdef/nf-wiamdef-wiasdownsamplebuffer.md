@@ -10,6 +10,7 @@ keywords: ["wiasDownSampleBuffer function"]
 ms.keywords: image.wiasdownsamplebuffer, wiamdef/wiasDownSampleBuffer, wiasDownSampleBuffer, wiasDownSampleBuffer function [Imaging Devices], wiasFncs_a109a3d9-e801-4332-bc89-65432023eecb.xml
 f1_keywords:
  - "wiamdef/wiasDownSampleBuffer"
+ - "wiasDownSampleBuffer"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

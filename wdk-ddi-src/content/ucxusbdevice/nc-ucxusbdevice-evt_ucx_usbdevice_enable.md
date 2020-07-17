@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_USBDEVICE_ENABLE callback function"]
 ms.keywords: EVT_UCX_USBDEVICE_ENABLE, EVT_UCX_USBDEVICE_ENABLE callback, EvtUcxUsbDeviceEnable, EvtUcxUsbDeviceEnable callback function [Buses], PEVT_UCX_USBDEVICE_ENABLE, PEVT_UCX_USBDEVICE_ENABLE callback function pointer [Buses], buses.evt_ucx_usbdevice_enable, ucxusbdevice/EvtUcxUsbDeviceEnable
 f1_keywords:
  - "ucxusbdevice/PEVT_UCX_USBDEVICE_ENABLE"
+ - "PEVT_UCX_USBDEVICE_ENABLE"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfIoTargetStop function"]
 ms.keywords: DFIOTargetRef_80727681-b08c-4025-aea9-d469735ea00c.xml, WdfIoTargetStop, WdfIoTargetStop method, kmdf.wdfiotargetstop, wdf.wdfiotargetstop, wdfiotarget/WdfIoTargetStop
 f1_keywords:
  - "wdfiotarget/WdfIoTargetStop"
+ - "WdfIoTargetStop"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

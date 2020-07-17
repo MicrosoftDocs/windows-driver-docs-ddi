@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IMiniportPnpNotify::PnpStop"]
 f1_keywords:
  - "portcls/IMiniportPnpNotify.PnpStop"
+ - "IMiniportPnpNotify.PnpStop"
 ms.keywords: IMiniportPnpNotify::PnpStop, PnpStop, IMiniportPnpNotify.PnpStop, IMiniportPnpNotify::PnpStop, IMiniportPnpNotify.PnpStop
 req.header: portcls.h
 req.include-header:

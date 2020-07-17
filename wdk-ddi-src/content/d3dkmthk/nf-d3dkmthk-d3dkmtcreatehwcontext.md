@@ -9,6 +9,7 @@ keywords: ["D3DKMTCreateHwContext function"]
 ms.keywords: D3DKMTCreateHwContext, D3DKMTCreateHwContext method [Display Devices], d3dkmthk/D3DKMTCreateHwContext, display.d3dkmtcreatehwcontext
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateHwContext"
+ - "D3DKMTCreateHwContext"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

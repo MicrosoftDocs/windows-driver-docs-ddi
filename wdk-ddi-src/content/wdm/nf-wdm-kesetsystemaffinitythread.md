@@ -10,6 +10,7 @@ keywords: ["KeSetSystemAffinityThread function"]
 ms.keywords: KeSetSystemAffinityThread, KeSetSystemAffinityThread routine [Kernel-Mode Driver Architecture], k105_86ff0d26-a53d-4da4-b776-35ed30b950ad.xml, kernel.kesetsystemaffinitythread, wdm/KeSetSystemAffinityThread
 f1_keywords:
  - "wdm/KeSetSystemAffinityThread"
+ - "KeSetSystemAffinityThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

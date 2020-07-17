@@ -10,6 +10,7 @@ keywords: ["OEMStretchBlt function"]
 ms.keywords: OEMStretchBlt, OEMStretchBlt function [Print Devices], print.oemstretchblt, print_unidrv-pscript_rendering_cbbd51bd-2201-4fd4-9b3e-1e86f3962be8.xml, printoem/OEMStretchBlt
 f1_keywords:
  - "printoem/OEMStretchBlt"
+ - "OEMStretchBlt"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

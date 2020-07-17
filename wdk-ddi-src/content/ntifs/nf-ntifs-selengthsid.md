@@ -10,6 +10,7 @@ keywords: ["SeLengthSid macro"]
 ms.keywords: SeLengthSid, SeLengthSid function [Installable File System Drivers], ifsk.selengthsid, ntifs/SeLengthSid, seref_d26b3191-e19a-4f62-b388-91d68976410f.xml
 f1_keywords:
  - "ntifs/SeLengthSid"
+ - "SeLengthSid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

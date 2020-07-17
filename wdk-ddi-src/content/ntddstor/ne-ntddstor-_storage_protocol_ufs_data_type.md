@@ -10,6 +10,7 @@ keywords: ["_STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration"]
 ms.keywords: "*PSTORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration [Storage Devices], UfsDataTypeMax, UfsDataTypeQueryDescriptor, UfsDataTypeUnknown, _STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/ UfsDataTypeMax, ntddstor/ UfsDataTypeQueryDescriptor, ntddstor/STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/UfsDataTypeUnknown, storage.storage_protocol_ufs_data_type"
 f1_keywords:
  - "ntddstor/STORAGE_PROTOCOL_UFS_DATA_TYPE"
+ - "STORAGE_PROTOCOL_UFS_DATA_TYPE"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

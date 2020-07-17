@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DKGK_GAMMA_DATA_CAP structure"]
 f1_keywords:
  - "d3dkmddi/DKGK_GAMMA_DATA_CAP"
+ - "DKGK_GAMMA_DATA_CAP"
 ms.keywords: DKGK_GAMMA_DATA_CAP, DKGK_GAMMA_DATA_CAP, 
 req.header: d3dkmddi.h
 req.include-header:

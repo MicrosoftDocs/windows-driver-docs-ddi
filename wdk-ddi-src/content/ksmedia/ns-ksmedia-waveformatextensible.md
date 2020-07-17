@@ -10,6 +10,7 @@ keywords: ["WAVEFORMATEXTENSIBLE structure"]
 ms.keywords: "*PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE, PWAVEFORMATEXTENSIBLE structure pointer [Audio Devices], WAVEFORMATEXTENSIBLE, WAVEFORMATEXTENSIBLE structure [Audio Devices], aud-prop_d40f094e-44f9-4baa-8a15-03e4fb369501.xml, audio.waveformatextensible, ksmedia/PWAVEFORMATEXTENSIBLE, ksmedia/WAVEFORMATEXTENSIBLE"
 f1_keywords:
  - "ksmedia/WAVEFORMATEXTENSIBLE"
+ - "WAVEFORMATEXTENSIBLE"
 req.header: ksmedia.h
 req.include-header: Mmreg.h, Ksmedia.h, Mmreg.h
 req.target-type: Windows

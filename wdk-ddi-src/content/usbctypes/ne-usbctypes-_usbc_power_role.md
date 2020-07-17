@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBC_POWER_ROLE enumeration"]
 f1_keywords:
  - "usbctypes/_USBC_POWER_ROLE"
+ - "_USBC_POWER_ROLE"
 ms.keywords: _USBC_POWER_ROLE, USBC_POWER_ROLE, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h

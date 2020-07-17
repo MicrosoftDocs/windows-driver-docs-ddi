@@ -10,6 +10,7 @@ keywords: ["NdisRawWritePortUlong macro"]
 ms.keywords: NdisRawWritePortUlong, NdisRawWritePortUlong macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_54b23b9a-fb43-4591-a123-6c564850f5cf.xml, ndis/NdisRawWritePortUlong, netvista.ndisrawwriteportulong
 f1_keywords:
  - "ndis/NdisRawWritePortUlong"
+ - "NdisRawWritePortUlong"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

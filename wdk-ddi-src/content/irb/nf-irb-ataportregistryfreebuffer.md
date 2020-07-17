@@ -10,6 +10,7 @@ keywords: ["AtaPortRegistryFreeBuffer function"]
 ms.keywords: AtaPortRegistryFreeBuffer, AtaPortRegistryFreeBuffer routine [Storage Devices], atartns_70807844-dbef-4457-bd47-102aeffcc840.xml, irb/AtaPortRegistryFreeBuffer, storage.ataportregistryfreebuffer
 f1_keywords:
  - "irb/AtaPortRegistryFreeBuffer"
+ - "AtaPortRegistryFreeBuffer"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

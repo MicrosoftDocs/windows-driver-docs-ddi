@@ -10,6 +10,7 @@ keywords: ["StorPortUpdateAdapterMaxIO function"]
 ms.keywords: StorPortUpdateAdapterMaxIO, StorPortUpdateAdapterMaxIO function [Storage Devices], storage.storportupdateadaptermaxio, storport/StorPortUpdateAdapterMaxIO
 f1_keywords:
  - "storport/StorPortUpdateAdapterMaxIO"
+ - "StorPortUpdateAdapterMaxIO"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows

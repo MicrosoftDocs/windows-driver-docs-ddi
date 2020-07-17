@@ -9,6 +9,7 @@ keywords: ["D3D12DDI_SHADERCACHE_CALLBACKS_0021 structure"]
 ms.keywords: D3D12DDI_SHADERCACHE_CALLBACKS_0021, D3D12DDI_SHADERCACHE_CALLBACKS_0021 structure [Display Devices], d3d12umddi/D3D12DDI_SHADERCACHE_CALLBACKS_0021, display.d3d12ddi_shadercache_callbacks_0021
 f1_keywords:
  - "d3d12umddi/D3D12DDI_SHADERCACHE_CALLBACKS_0021"
+ - "D3D12DDI_SHADERCACHE_CALLBACKS_0021"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["AtaPortRequestWorkerRoutine function"]
 ms.keywords: AtaPortRequestWorkerRoutine, AtaPortRequestWorkerRoutine routine [Storage Devices], atartns_9edce4ce-1bcf-4e52-81c1-705e645fe5f4.xml, irb/AtaPortRequestWorkerRoutine, storage.ataportrequestworkerroutine
 f1_keywords:
  - "irb/AtaPortRequestWorkerRoutine"
+ - "AtaPortRequestWorkerRoutine"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

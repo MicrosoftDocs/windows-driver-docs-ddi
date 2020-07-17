@@ -10,6 +10,7 @@ keywords: ["IsValidDevmodeA function"]
 ms.keywords: IsValidDevmode, IsValidDevmode function [Print Devices], IsValidDevmodeA, IsValidDevmodeW, print.isvaliddevmode, spoolfnc_ea9b6cc1-6f0b-42a7-835b-df561588691a.xml, winspool/IsValidDevmode
 f1_keywords:
  - "winspool/IsValidDevmode"
+ - "IsValidDevmode"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop

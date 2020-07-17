@@ -10,6 +10,7 @@ ms.date: 09/25/2019
 keywords: ["NetRingGetPacketAtIndex function"]
 f1_keywords:
  - "ring/NetRingGetPacketAtIndex"
+ - "NetRingGetPacketAtIndex"
 ms.keywords: NetRingGetPacketAtIndex
 req.header: ring.h
 req.include-header:

@@ -9,6 +9,7 @@ keywords: ["_DXGKARGCB_ENUMHANDLECHILDREN structure"]
 ms.keywords: DXGKARGCB_ENUMHANDLECHILDREN, DXGKARGCB_ENUMHANDLECHILDREN structure [Display Devices], DmStructs_b02ec187-32ca-41ff-bfc3-03d058872b5d.xml, _DXGKARGCB_ENUMHANDLECHILDREN, d3dkmddi/DXGKARGCB_ENUMHANDLECHILDREN, display.dxgkargcb_enumhandlechildren
 f1_keywords:
  - "d3dkmddi/DXGKARGCB_ENUMHANDLECHILDREN"
+ - "DXGKARGCB_ENUMHANDLECHILDREN"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

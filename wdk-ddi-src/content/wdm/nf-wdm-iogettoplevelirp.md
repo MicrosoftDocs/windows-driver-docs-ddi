@@ -10,6 +10,7 @@ keywords: ["IoGetTopLevelIrp function"]
 ms.keywords: IoGetTopLevelIrp, IoGetTopLevelIrp routine [Installable File System Drivers], ifsk.iogettoplevelirp, ioref_4826c2a4-5c95-461d-b21c-7e3fca98c0cb.xml, ntifs/IoGetTopLevelIrp
 f1_keywords:
  - "wdm/IoGetTopLevelIrp"
+ - "IoGetTopLevelIrp"
 req.header: wdm.h
 req.include-header: Ntifs.h, Wdm.h
 req.target-type: Universal

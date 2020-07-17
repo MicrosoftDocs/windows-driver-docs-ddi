@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols5::SetScopeFrameByIndexEx"]
 ms.keywords: IDebugSymbols5 interface [Windows Debugging],SetScopeFrameByIndexEx method, IDebugSymbols5.SetScopeFrameByIndexEx, IDebugSymbols5::SetScopeFrameByIndexEx, SetScopeFrameByIndexEx, SetScopeFrameByIndexEx method [Windows Debugging], SetScopeFrameByIndexEx method [Windows Debugging],IDebugSymbols5 interface, dbgeng/IDebugSymbols5::SetScopeFrameByIndexEx, debugger.idebugsymbols5_setscopeframebyindexex
 f1_keywords:
  - "dbgeng/IDebugSymbols5.SetScopeFrameByIndexEx"
+ - "IDebugSymbols5.SetScopeFrameByIndexEx"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

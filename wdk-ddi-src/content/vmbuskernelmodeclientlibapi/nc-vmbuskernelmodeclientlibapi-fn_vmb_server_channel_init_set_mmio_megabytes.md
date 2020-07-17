@@ -7,6 +7,7 @@ ms.date: 09/13/2018
 keywords: ["FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES"
+ - "FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

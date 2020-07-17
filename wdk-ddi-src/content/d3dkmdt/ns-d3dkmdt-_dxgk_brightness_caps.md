@@ -10,6 +10,7 @@ keywords: ["_DXGK_BRIGHTNESS_CAPS structure"]
 ms.keywords: DXGK_BRIGHTNESS_CAPS, DXGK_BRIGHTNESS_CAPS structure [Display Devices], _DXGK_BRIGHTNESS_CAPS, d3dkmdt/DXGK_BRIGHTNESS_CAPS, display.dxgk_brightness_caps
 f1_keywords:
  - "d3dkmdt/DXGK_BRIGHTNESS_CAPS"
+ - "DXGK_BRIGHTNESS_CAPS"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

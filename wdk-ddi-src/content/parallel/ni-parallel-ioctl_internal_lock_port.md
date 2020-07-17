@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_LOCK_PORT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_LOCK_PORT, IOCTL_INTERNAL_LOCK_PORT control code [Parallel Ports], cisspd_2338a5ae-b61e-44c6-8ddd-3666f5fb24ee.xml, parallel/IOCTL_INTERNAL_LOCK_PORT, parports.ioctl_internal_lock_port
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_LOCK_PORT"
+ - "IOCTL_INTERNAL_LOCK_PORT"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows

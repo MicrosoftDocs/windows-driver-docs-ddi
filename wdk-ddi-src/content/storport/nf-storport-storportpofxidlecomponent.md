@@ -10,6 +10,7 @@ keywords: ["StorPortPoFxIdleComponent function"]
 ms.keywords: StorPortPoFxIdleComponent, StorPortPoFxIdleComponent routine [Storage Devices], storage.storportpofxidlecomponent, storport/StorPortPoFxIdleComponent
 f1_keywords:
  - "storport/StorPortPoFxIdleComponent"
+ - "StorPortPoFxIdleComponent"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IBidiSpl2::SendRecvXMLStream"]
 ms.keywords: IBidiSpl2 interface [Print Devices],SendRecvXMLStream method, IBidiSpl2.SendRecvXMLStream, IBidiSpl2::SendRecvXMLStream, SendRecvXMLStream, SendRecvXMLStream method [Print Devices], SendRecvXMLStream method [Print Devices],IBidiSpl2 interface, _win32_IBidiSpl2_SendRecvXMLStream, bidispl/IBidiSpl2::SendRecvXMLStream, gdi.ibidispl2_ibidispl2__sendrecvxmlstream, print.ibidispl2_ibidispl2__sendrecvxmlstream
 f1_keywords:
  - "bidispl/IBidiSpl2.SendRecvXMLStream"
+ - "IBidiSpl2.SendRecvXMLStream"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop

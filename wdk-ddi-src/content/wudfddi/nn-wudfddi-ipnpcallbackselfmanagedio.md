@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackSelfManagedIo interface"]
 ms.keywords: IPnpCallbackSelfManagedIo, IPnpCallbackSelfManagedIo interface, IPnpCallbackSelfManagedIo interface,described, UMDFDeviceObjectRef_0f139c45-68eb-4429-ac90-675d7eddea5a.xml, umdf.ipnpcallbackselfmanagedio, wdf.ipnpcallbackselfmanagedio, wudfddi/IPnpCallbackSelfManagedIo
 f1_keywords:
  - "wudfddi/IPnpCallbackSelfManagedIo"
+ - "IPnpCallbackSelfManagedIo"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

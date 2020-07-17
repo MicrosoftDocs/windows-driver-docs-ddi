@@ -10,6 +10,7 @@ keywords: ["KsGateAddOnInputToOr function"]
 ms.keywords: KsGateAddOnInputToOr, KsGateAddOnInputToOr function [Streaming Media Devices], avfunc_f19411cd-eca5-4acb-b0ca-f470a72a4afd.xml, ks/KsGateAddOnInputToOr, stream.ksgateaddoninputtoor
 f1_keywords:
  - "ks/KsGateAddOnInputToOr"
+ - "KsGateAddOnInputToOr"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

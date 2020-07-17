@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_MULTIPLANE_OVERLAY3 structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_MULTIPLANE_OVERLAY3"
+ - "_D3DKMT_MULTIPLANE_OVERLAY3"
 ms.keywords: _D3DKMT_MULTIPLANE_OVERLAY3, D3DKMT_MULTIPLANE_OVERLAY3, 
 req.header: d3dkmthk.h
 req.include-header:

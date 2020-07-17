@@ -10,6 +10,7 @@ keywords: ["DOT11_ASSOCIATION_PARAMS structure"]
 ms.keywords: "*PDOT11_ASSOCIATION_PARAMS, DOT11_ASSOCIATION_PARAMS, DOT11_ASSOCIATION_PARAMS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_08a8e9e4-9b11-47f6-a3e0-baa25a63bd6f.xml, PDOT11_ASSOCIATION_PARAMS, PDOT11_ASSOCIATION_PARAMS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_association_params, windot11/DOT11_ASSOCIATION_PARAMS, windot11/PDOT11_ASSOCIATION_PARAMS"
 f1_keywords:
  - "windot11/DOT11_ASSOCIATION_PARAMS"
+ - "DOT11_ASSOCIATION_PARAMS"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

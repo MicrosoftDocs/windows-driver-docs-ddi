@@ -10,6 +10,7 @@ keywords: ["RILMESSAGEINFO structure"]
 ms.keywords: "*LPRILMESSAGEINFO, RILMESSAGEINFO, RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinfo, ntddrilapitypes/RILMESSAGEINFO"
 f1_keywords:
  - "rilapitypes/RILMESSAGEINFO"
+ - "RILMESSAGEINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 06/11/2019
 keywords: ["IDebugHostExtensibility::CreateFunctionAlias"]
 f1_keywords:
  - "dbgmodel/IDebugHostExtensibility.CreateFunctionAlias"
+ - "IDebugHostExtensibility.CreateFunctionAlias"
 ms.keywords: IDebugHostExtensibility::CreateFunctionAlias, CreateFunctionAlias, IDebugHostExtensibility.CreateFunctionAlias, IDebugHostExtensibility::CreateFunctionAlias, IDebugHostExtensibility.CreateFunctionAlias
 req.header: dbgmodel.h
 req.include-header:

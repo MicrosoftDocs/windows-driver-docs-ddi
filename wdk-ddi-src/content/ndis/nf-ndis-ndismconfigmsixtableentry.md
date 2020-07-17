@@ -10,6 +10,7 @@ keywords: ["NdisMConfigMSIXTableEntry function"]
 ms.keywords: NdisMConfigMSIXTableEntry, NdisMConfigMSIXTableEntry function [Network Drivers Starting with Windows Vista], ndis/NdisMConfigMSIXTableEntry, ndis_msix_ref_421b54e0-bc38-45d0-9eb8-cbc4e4570836.xml, netvista.ndismconfigmsixtableentry
 f1_keywords:
  - "ndis/NdisMConfigMSIXTableEntry"
+ - "NdisMConfigMSIXTableEntry"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

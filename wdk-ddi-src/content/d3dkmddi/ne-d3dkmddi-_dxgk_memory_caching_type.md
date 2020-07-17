@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_MEMORY_CACHING_TYPE enumeration"]
 f1_keywords:
  - "d3dkmddi/_DXGK_MEMORY_CACHING_TYPE"
+ - "_DXGK_MEMORY_CACHING_TYPE"
 ms.keywords: _DXGK_MEMORY_CACHING_TYPE, DXGK_MEMORY_CACHING_TYPE,
 req.header: d3dkmddi.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IResourceList::FindUntranslatedEntry"]
 ms.keywords: FindUntranslatedEntry, FindUntranslatedEntry method [Audio Devices], FindUntranslatedEntry method [Audio Devices],IResourceList interface, IResourceList interface [Audio Devices],FindUntranslatedEntry method, IResourceList.FindUntranslatedEntry, IResourceList::FindUntranslatedEntry, audio.iresourcelist_finduntranslatedentry, audmp-routines_d9b98845-63dd-454d-b1de-dd7db8825e27.xml, portcls/IResourceList::FindUntranslatedEntry
 f1_keywords:
  - "portcls/IResourceList.FindUntranslatedEntry"
+ - "IResourceList.FindUntranslatedEntry"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["NmrClientDetachProviderComplete function"]
 ms.keywords: NmrClientDetachProviderComplete, NmrClientDetachProviderComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrClientDetachProviderComplete, netvista.nmrclientdetachprovidercomplete, nmrref_7fb0e7ef-62a3-4dc4-a0e2-b38005056317.xml
 f1_keywords:
  - "netioddk/NmrClientDetachProviderComplete"
+ - "NmrClientDetachProviderComplete"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Desktop

@@ -9,6 +9,7 @@ keywords: ["_DXGK_MEMORYRANGE structure"]
 ms.keywords: DXGK_MEMORYRANGE, DXGK_MEMORYRANGE structure [Display Devices], _DXGK_MEMORYRANGE, d3dkmddi/DXGK_MEMORYRANGE, display.dxgk_memoryrange
 f1_keywords:
  - "d3dkmddi/DXGK_MEMORYRANGE"
+ - "DXGK_MEMORYRANGE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

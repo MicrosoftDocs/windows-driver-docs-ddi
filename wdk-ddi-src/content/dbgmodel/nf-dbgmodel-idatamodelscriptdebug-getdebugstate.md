@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug::GetDebugState"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug.GetDebugState"
+ - "IDataModelScriptDebug.GetDebugState"
 ms.keywords: IDataModelScriptDebug::GetDebugState, GetDebugState, IDataModelScriptDebug.GetDebugState, IDataModelScriptDebug::GetDebugState, IDataModelScriptDebug.GetDebugState
 req.header: dbgmodel.h
 req.include-header:

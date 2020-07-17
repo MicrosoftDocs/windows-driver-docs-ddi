@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["D3D12_DOWNLEVEL_DDI_UMDFILENAME structure"]
 f1_keywords:
  - "d3d10umddi/D3D12_DOWNLEVEL_DDI_UMDFILENAME"
+ - "D3D12_DOWNLEVEL_DDI_UMDFILENAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: D3D12_DOWNLEVEL_DDI_UMDFILENAME, D3D12_DOWNLEVEL_DDI_UMDFILENAME, 

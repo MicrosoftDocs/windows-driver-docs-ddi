@@ -10,6 +10,7 @@ keywords: ["RtlParent macro"]
 ms.keywords: RtlParent, RtlParent routine [Installable File System Drivers], ifsk.rtlparent, ntddk/RtlParent, rtlref_85e6ffbf-9d34-47f5-b5c2-1d57a1a57056.xml
 f1_keywords:
  - "ntddk/RtlParent"
+ - "RtlParent"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop

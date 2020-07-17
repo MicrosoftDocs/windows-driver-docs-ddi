@@ -10,6 +10,7 @@ keywords: ["IWiaImageFilter interface"]
 ms.keywords: IWiaErrorHandler_3922a578-25ee-448c-a0db-c339711ad2cb.xml, IWiaImageFilter, IWiaImageFilter interface [Imaging Devices], IWiaImageFilter interface [Imaging Devices],described, image.iwiaimagefilter_interface, wia_lh/IWiaImageFilter
 f1_keywords:
  - "wia_lh/IWiaImageFilter"
+ - "IWiaImageFilter"
 req.header: wia_lh.h
 req.include-header: 
 req.target-type: Windows

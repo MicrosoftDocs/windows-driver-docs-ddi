@@ -10,6 +10,7 @@ keywords: ["HidD_GetInputReport function"]
 ms.keywords: HidD_GetInputReport, HidD_GetInputReport routine [Human Input Devices], hid.hidd_getinputreport, hidfunc_fdcd7a5b-6623-419f-abdf-de19370ee793.xml, hidsdi/HidD_GetInputReport
 f1_keywords:
  - "hidsdi/HidD_GetInputReport"
+ - "HidD_GetInputReport"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal

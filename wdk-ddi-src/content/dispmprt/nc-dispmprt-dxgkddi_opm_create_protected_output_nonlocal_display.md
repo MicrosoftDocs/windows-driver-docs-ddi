@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY callback function"]
 f1_keywords:
  - "dispmprt/DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY"
+ - "DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

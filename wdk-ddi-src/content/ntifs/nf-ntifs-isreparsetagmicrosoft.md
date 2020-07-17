@@ -10,6 +10,7 @@ keywords: ["IsReparseTagMicrosoft macro"]
 ms.keywords: IsReparseTagMicrosoft, IsReparseTagMicrosoft function [Installable File System Drivers], ifsk.isreparsetagmicrosoft, ioref_ef573233-e933-490e-b762-1ce20343c65c.xml, ntifs/IsReparseTagMicrosoft
 f1_keywords:
  - "ntifs/IsReparseTagMicrosoft"
+ - "IsReparseTagMicrosoft"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

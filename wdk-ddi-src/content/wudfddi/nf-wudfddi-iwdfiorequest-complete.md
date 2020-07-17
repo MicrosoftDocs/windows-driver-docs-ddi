@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::Complete"]
 ms.keywords: Complete, Complete method, Complete method,IWDFIoRequest interface, IWDFIoRequest interface,Complete method, IWDFIoRequest.Complete, IWDFIoRequest::Complete, UMDFRequestObjectRef_2c1cf2cc-30a2-438c-8e5a-b918fbcd5eee.xml, umdf.iwdfiorequest_complete, wdf.iwdfiorequest_complete, wudfddi/IWDFIoRequest::Complete
 f1_keywords:
  - "wudfddi/IWDFIoRequest.Complete"
+ - "IWDFIoRequest.Complete"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

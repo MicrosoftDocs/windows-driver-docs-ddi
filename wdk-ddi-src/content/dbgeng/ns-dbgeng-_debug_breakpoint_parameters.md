@@ -10,6 +10,7 @@ keywords: ["_DEBUG_BREAKPOINT_PARAMETERS structure"]
 ms.keywords: "*PDEBUG_BREAKPOINT_PARAMETERS, DEBUG_BREAKPOINT_PARAMETERS, DEBUG_BREAKPOINT_PARAMETERS structure [Windows Debugging], PDEBUG_BREAKPOINT_PARAMETERS, PDEBUG_BREAKPOINT_PARAMETERS structure pointer [Windows Debugging], Structures_ad5f0e1f-7d6f-498d-80a0-1275ca3cb016.xml, _DEBUG_BREAKPOINT_PARAMETERS, dbgeng/DEBUG_BREAKPOINT_PARAMETERS, dbgeng/PDEBUG_BREAKPOINT_PARAMETERS, debugger.debug_breakpoint_parameters"
 f1_keywords:
  - "dbgeng/DEBUG_BREAKPOINT_PARAMETERS"
+ - "DEBUG_BREAKPOINT_PARAMETERS"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["UMDEtwUnregister function"]
 ms.keywords: UMDEtwUnregister, UMDEtwUnregister function [Display Devices], display.umdetwunregister, umdprovider/UMDEtwUnregister
 f1_keywords:
  - "umdprovider/UMDEtwUnregister"
+ - "UMDEtwUnregister"
 req.header: umdprovider.h
 req.include-header: Umdprovider.h
 req.target-type: Desktop

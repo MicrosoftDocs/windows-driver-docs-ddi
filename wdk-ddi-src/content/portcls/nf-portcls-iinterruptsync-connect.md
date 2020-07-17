@@ -10,6 +10,7 @@ keywords: ["IInterruptSync::Connect"]
 ms.keywords: Connect, Connect method [Audio Devices], Connect method [Audio Devices],IInterruptSync interface, IInterruptSync interface [Audio Devices],Connect method, IInterruptSync.Connect, IInterruptSync::Connect, audio.iinterruptsync_connect, audmp-routines_10f66201-af8d-42ff-a854-04f5cb90f2cc.xml, portcls/IInterruptSync::Connect
 f1_keywords:
  - "portcls/IInterruptSync.Connect"
+ - "IInterruptSync.Connect"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["GNSS_NI_PLANE_TYPE enumeration"]
 ms.keywords: GNSS_NI_CP, GNSS_NI_PLANE_TYPE, GNSS_NI_PLANE_TYPE enumeration [Sensor Devices], GNSS_NI_SUPL, GNSS_NI_V2UPL, gnss.gnss_ni_plane_type, gnssdriver/GNSS_NI_CP, gnssdriver/GNSS_NI_PLANE_TYPE, gnssdriver/GNSS_NI_SUPL, gnssdriver/GNSS_NI_V2UPL
 f1_keywords:
  - "gnssdriver/GNSS_NI_PLANE_TYPE"
+ - "GNSS_NI_PLANE_TYPE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

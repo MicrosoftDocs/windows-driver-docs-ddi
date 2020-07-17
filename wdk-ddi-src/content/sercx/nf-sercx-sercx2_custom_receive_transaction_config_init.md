@@ -10,6 +10,7 @@ keywords: ["SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT function"]
 ms.keywords: 2/SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT function [Serial Ports], serports.sercx2_custom_receive_transaction_config_init
 f1_keywords:
  - "sercx/SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT"
+ - "SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

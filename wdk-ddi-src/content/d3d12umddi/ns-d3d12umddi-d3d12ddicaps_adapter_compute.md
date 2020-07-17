@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDICAPS_ADAPTER_COMPUTE structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDICAPS_ADAPTER_COMPUTE"
+ - "D3D12DDICAPS_ADAPTER_COMPUTE"
 ms.keywords: D3D12DDICAPS_ADAPTER_COMPUTE, D3D12DDICAPS_ADAPTER_COMPUTE, 
 req.header: d3d12umddi.h
 req.include-header:

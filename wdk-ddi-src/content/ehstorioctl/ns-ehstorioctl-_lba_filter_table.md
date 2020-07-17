@@ -10,6 +10,7 @@ keywords: ["_LBA_FILTER_TABLE structure"]
 ms.keywords: "*PLBA_FILTER_TABLE, LBA_FILTER_TABLE, LBA_FILTER_TABLE structure [Storage Devices], PLBA_FILTER_TABLE, PLBA_FILTER_TABLE structure pointer [Storage Devices], _LBA_FILTER_TABLE, ehstorioctl/LBA_FILTER_TABLE, ehstorioctl/PLBA_FILTER_TABLE, storage.lba_filter_table"
 f1_keywords:
  - "ehstorioctl/LBA_FILTER_TABLE"
+ - "LBA_FILTER_TABLE"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows

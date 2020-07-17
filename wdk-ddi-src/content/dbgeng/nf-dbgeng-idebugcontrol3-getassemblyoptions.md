@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::GetAssemblyOptions"]
 ms.keywords: GetAssemblyOptions, GetAssemblyOptions method [Windows Debugging], GetAssemblyOptions method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetAssemblyOptions method, IDebugControl3.GetAssemblyOptions, IDebugControl3::GetAssemblyOptions, IDebugControl_600ee4dc-0a79-42a9-a394-2ff053874f00.xml, dbgeng/IDebugControl3::GetAssemblyOptions, debugger.getassemblyoptions
 f1_keywords:
  - "dbgeng/IDebugControl3.GetAssemblyOptions"
+ - "IDebugControl3.GetAssemblyOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

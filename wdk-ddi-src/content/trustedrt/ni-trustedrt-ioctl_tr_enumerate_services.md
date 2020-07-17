@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOCTL_TR_ENUMERATE_SERVICES IOCTL"]
 f1_keywords:
  - "trustedrt/IOCTL_TR_ENUMERATE_SERVICES"
+ - "IOCTL_TR_ENUMERATE_SERVICES"
 req.header: trustedrt.h
 req.include-header:
 req.target-type:

@@ -10,6 +10,7 @@ keywords: ["PDEBUG_EXTENSION_KNOWN_STRUCT_EX callback function"]
 ms.keywords: DebugExtensionKnownStructEx, DebugExtensionKnownStructEx callback function [Windows Debugging], PDEBUG_EXTENSION_KNOWN_STRUCT_EX, PDEBUG_EXTENSION_KNOWN_STRUCT_EX callback, dbgeng/DebugExtensionKnownStructEx, debugger.debugextensionknownstructex
 f1_keywords:
  - "dbgeng/DebugExtensionKnownStructEx"
+ - "DebugExtensionKnownStructEx"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

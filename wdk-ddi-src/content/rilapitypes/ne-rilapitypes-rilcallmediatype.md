@@ -10,6 +10,7 @@ keywords: ["RILCALLMEDIATYPE enumeration"]
 ms.keywords: RILCALLMEDIATYPE, RILCALLMEDIATYPE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIATYPE_AUDIO, RIL_CALLMEDIATYPE_CUSTOM, RIL_CALLMEDIATYPE_MAX, RIL_CALLMEDIATYPE_VIDEO, netvista.rilcallmediatype, ntddrilapitypes/RILCALLMEDIATYPE, ntddrilapitypes/RIL_CALLMEDIATYPE_AUDIO, ntddrilapitypes/RIL_CALLMEDIATYPE_CUSTOM, ntddrilapitypes/RIL_CALLMEDIATYPE_MAX, ntddrilapitypes/RIL_CALLMEDIATYPE_VIDEO
 f1_keywords:
  - "rilapitypes/RILCALLMEDIATYPE"
+ - "RILCALLMEDIATYPE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

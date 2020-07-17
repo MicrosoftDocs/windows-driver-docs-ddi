@@ -10,6 +10,7 @@ keywords: ["RILCALLMEDIAOFFERANSWER structure"]
 ms.keywords: "*LPRILCALLMEDIAOFFERANSWER, RILCALLMEDIAOFFERANSWER, RILCALLMEDIAOFFERANSWER structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaofferanswer, ntddrilapitypes/RILCALLMEDIAOFFERANSWER"
 f1_keywords:
  - "ntddrilapitypes/RILCALLMEDIAOFFERANSWER"
+ - "RILCALLMEDIAOFFERANSWER"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDebugHostExtensibility::Release"]
 f1_keywords:
  - "dbgmodel/IDebugHostExtensibility.Release"
+ - "IDebugHostExtensibility.Release"
 ms.keywords: IDebugHostExtensibility::Release, Release, IDebugHostExtensibility.Release, IDebugHostExtensibility::Release, IDebugHostExtensibility.Release
 req.header: dbgmodel.h
 req.include-header:

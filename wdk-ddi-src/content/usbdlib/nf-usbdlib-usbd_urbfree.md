@@ -10,6 +10,7 @@ keywords: ["USBD_UrbFree function"]
 ms.keywords: USBD_UrbFree, USBD_UrbFree routine [Buses], buses.usbd_urbfree, usbdlib/USBD_UrbFree
 f1_keywords:
  - "usbdlib/USBD_UrbFree"
+ - "USBD_UrbFree"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop

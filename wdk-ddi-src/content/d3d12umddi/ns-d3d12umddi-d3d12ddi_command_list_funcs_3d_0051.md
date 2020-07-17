@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_COMMAND_LIST_FUNCS_3D_0051 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0051"
+ - "D3D12DDI_COMMAND_LIST_FUNCS_3D_0051"
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_3D_0051, D3D12DDI_COMMAND_LIST_FUNCS_3D_0051, 
 req.header: d3d12umddi.h
 req.include-header:

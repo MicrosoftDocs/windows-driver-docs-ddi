@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_MOUSE_CONNECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_MOUSE_CONNECT, IOCTL_INTERNAL_MOUSE_CONNECT control, IOCTL_INTERNAL_MOUSE_CONNECT control code [Human Input Devices], hid.ioctl_internal_mouse_connect, kbdmou/IOCTL_INTERNAL_MOUSE_CONNECT, mfilref_df1ebbe7-9806-4c2a-93c5-4fcbbfdf2f1f.xml
 f1_keywords:
  - "kbdmou/IOCTL_INTERNAL_MOUSE_CONNECT"
+ - "IOCTL_INTERNAL_MOUSE_CONNECT"
 req.header: kbdmou.h
 req.include-header: Kbdmou.h
 req.target-type: Windows

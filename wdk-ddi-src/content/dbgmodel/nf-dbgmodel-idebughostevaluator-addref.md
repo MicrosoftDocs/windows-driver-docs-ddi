@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostEvaluator::AddRef"]
 f1_keywords:
  - "dbgmodel/IDebugHostEvaluator.AddRef"
+ - "IDebugHostEvaluator.AddRef"
 ms.keywords: IDebugHostEvaluator::AddRef, AddRef, IDebugHostEvaluator.AddRef, IDebugHostEvaluator::AddRef, IDebugHostEvaluator.AddRef
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_DXGK_SPB_INTERFACE structure"]
 ms.keywords: "*PDXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE, DXGK_SPB_INTERFACE structure [Display Devices], PDXGK_SPB_INTERFACE, PDXGK_SPB_INTERFACE structure pointer [Display Devices], _DXGK_SPB_INTERFACE, display.dxgk_spb_interface, dispmprt/DXGK_SPB_INTERFACE, dispmprt/PDXGK_SPB_INTERFACE"
 f1_keywords:
  - "dispmprt/DXGK_SPB_INTERFACE"
+ - "DXGK_SPB_INTERFACE"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows

@@ -9,6 +9,7 @@ keywords: ["_DXGK_CREATEPROCESSFLAGS structure"]
 ms.keywords: DXGK_CREATEPROCESSFLAGS, DXGK_CREATEPROCESSFLAGS structure [Display Devices], _DXGK_CREATEPROCESSFLAGS, d3dkmddi/DXGK_CREATEPROCESSFLAGS, display.dxgk_createprocessflags
 f1_keywords:
  - "d3dkmddi/DXGK_CREATEPROCESSFLAGS"
+ - "DXGK_CREATEPROCESSFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

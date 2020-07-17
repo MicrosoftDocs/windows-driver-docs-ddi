@@ -7,6 +7,7 @@ ms.date: 08/01/2018
 keywords: ["CVEC3D::CVEC3D(float,float,float)"]
 f1_keywords:
  - "math3dhelper/CVEC3D.CVEC3D"
+ - "CVEC3D.CVEC3D"
 tech.root: sensors
 ms.keywords: CVEC3D::CVEC3D, CVEC3D, CVEC3D.CVEC3D, CVEC3D::CVEC3D(float,float,float), CVEC3D.CVEC3D(float,float,float)
 req.header: math3dhelper.h

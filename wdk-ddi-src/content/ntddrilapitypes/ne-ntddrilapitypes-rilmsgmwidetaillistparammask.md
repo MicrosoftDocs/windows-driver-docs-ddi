@@ -10,6 +10,7 @@ keywords: ["RILMSGMWIDETAILLISTPARAMMASK enumeration"]
 ms.keywords: RILMSGMWIDETAILLISTPARAMMASK, RILMSGMWIDETAILLISTPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MWIDETAIL_ALL, RIL_PARAM_MWIDETAIL_DETAILITEMS, RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, RIL_PARAM_MWIDETAIL_REFNUM, netvista.rilmsgmwidetaillistparammask, ntddrilapitypes/RILMSGMWIDETAILLISTPARAMMASK, ntddrilapitypes/RIL_PARAM_MWIDETAIL_ALL, ntddrilapitypes/RIL_PARAM_MWIDETAIL_DETAILITEMS, ntddrilapitypes/RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, ntddrilapitypes/RIL_PARAM_MWIDETAIL_REFNUM
 f1_keywords:
  - "ntddrilapitypes/RILMSGMWIDETAILLISTPARAMMASK"
+ - "RILMSGMWIDETAILLISTPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

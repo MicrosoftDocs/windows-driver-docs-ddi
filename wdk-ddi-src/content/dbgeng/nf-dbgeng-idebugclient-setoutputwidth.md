@@ -10,6 +10,7 @@ keywords: ["IDebugClient::SetOutputWidth"]
 ms.keywords: IDebugClient interface [Windows Debugging],SetOutputWidth method, IDebugClient.SetOutputWidth, IDebugClient::SetOutputWidth, SetOutputWidth, SetOutputWidth method [Windows Debugging], SetOutputWidth method [Windows Debugging],IDebugClient interface, dbgeng/IDebugClient::SetOutputWidth, debugger.idebugclient_setoutputwidth
 f1_keywords:
  - "dbgeng/IDebugClient.SetOutputWidth"
+ - "IDebugClient.SetOutputWidth"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

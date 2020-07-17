@@ -8,6 +8,7 @@ ms.date: 01/18/2019
 keywords: ["NetAdapterInitAllocate function"]
 f1_keywords:
  - "netadapter/NetAdapterInitAllocate"
+ - "NetAdapterInitAllocate"
 ms.keywords: NetAdapterInitAllocate
 req.header: netadapter.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["PFN_STOP_MIRACAST_SESSION callback function"]
 ms.keywords: PFN_STOP_MIRACAST_SESSION, PFN_STOP_MIRACAST_SESSION callback, StopMiracastSession, StopMiracastSession callback function [Display Devices], display.stopmiracastsession, netdispumdddi/StopMiracastSession
 f1_keywords:
  - "netdispumdddi/StopMiracastSession"
+ - "StopMiracastSession"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop

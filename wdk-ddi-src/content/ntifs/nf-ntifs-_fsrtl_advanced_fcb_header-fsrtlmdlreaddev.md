@@ -10,6 +10,7 @@ keywords: ["FsRtlMdlReadDev function"]
 ms.keywords: FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers], ntifs/FsRtlMdlReadDev, ifsk.fsrtlmdlreaddev
 f1_keywords:
  - "ntifs/FsRtlMdlReadDev"
+ - "FsRtlMdlReadDev"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IWDTFSimpleIOEx2 interface"]
 ms.keywords: IWDTFSimpleIOEx2, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFSimpleIOEx2, dtf.iwdtfsimpleioex2, wdtfinterfaces/IWDTFSimpleIOEx2
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOEx2"
+ - "IWDTFSimpleIOEx2"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Windows

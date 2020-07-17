@@ -10,6 +10,7 @@ keywords: ["PoFxStartDevicePowerManagement function"]
 ms.keywords: PoFxStartDevicePowerManagement, PoFxStartDevicePowerManagement routine [Kernel-Mode Driver Architecture], kernel.pofxstartdevicepowermanagement, wdm/PoFxStartDevicePowerManagement
 f1_keywords:
  - "wdm/PoFxStartDevicePowerManagement"
+ - "PoFxStartDevicePowerManagement"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

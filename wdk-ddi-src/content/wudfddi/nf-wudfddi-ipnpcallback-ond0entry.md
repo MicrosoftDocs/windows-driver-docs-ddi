@@ -10,6 +10,7 @@ keywords: ["IPnpCallback::OnD0Entry"]
 ms.keywords: IPnpCallback interface,OnD0Entry method, IPnpCallback.OnD0Entry, IPnpCallback::OnD0Entry, OnD0Entry, OnD0Entry method, OnD0Entry method,IPnpCallback interface, UMDFDeviceObjectRef_96da33eb-c6ef-41f0-9a4c-1a8e8158d023.xml, umdf.ipnpcallback_ond0entry, wdf.ipnpcallback_ond0entry, wudfddi/IPnpCallback::OnD0Entry
 f1_keywords:
  - "wudfddi/IPnpCallback.OnD0Entry"
+ - "IPnpCallback.OnD0Entry"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

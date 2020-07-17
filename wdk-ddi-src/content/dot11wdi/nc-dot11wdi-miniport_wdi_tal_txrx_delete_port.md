@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_TAL_TXRX_DELETE_PORT callback function"]
 ms.keywords: MINIPORT_WDI_TAL_TXRX_DELETE_PORT, MINIPORT_WDI_TAL_TXRX_DELETE_PORT callback, MiniportWdiTalTxRxDeletePort, MiniportWdiTalTxRxDeletePort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxDeletePort, netvista.miniportwditaltxrxdeleteport
 f1_keywords:
  - "dot11wdi/MiniportWdiTalTxRxDeletePort"
+ - "MiniportWdiTalTxRxDeletePort"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

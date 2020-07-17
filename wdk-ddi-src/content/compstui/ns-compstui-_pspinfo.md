@@ -10,6 +10,7 @@ keywords: ["_PSPINFO structure"]
 ms.keywords: "*PPSPINFO, PPSPINFO, PPSPINFO structure pointer [Print Devices], PSPINFO, PSPINFO structure [Print Devices], _PSPINFO, compstui/PPSPINFO, compstui/PSPINFO, cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, print.pspinfo"
 f1_keywords:
  - "compstui/PSPINFO"
+ - "PSPINFO"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows

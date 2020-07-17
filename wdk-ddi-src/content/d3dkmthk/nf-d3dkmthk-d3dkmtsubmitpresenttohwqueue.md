@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTSubmitPresentToHwQueue function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTSubmitPresentToHwQueue"
+ - "D3DKMTSubmitPresentToHwQueue"
 ms.keywords: D3DKMTSubmitPresentToHwQueue
 req.header: d3dkmthk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IoGetPagingIoPriority function"]
 ms.keywords: IoGetPagingIoPriority, IoGetPagingIoPriority routine [Kernel-Mode Driver Architecture], k104_cde35790-d059-44bb-85c5-abde7cb36319.xml, kernel.iogetpagingiopriority, wdm/IoGetPagingIoPriority
 f1_keywords:
  - "ntddk/IoGetPagingIoPriority"
+ - "IoGetPagingIoPriority"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_WWAN_GET_SLOT_INFO structure"]
 ms.keywords: "*PWWAN_GET_SLOT_INFO, PWWAN_GET_SLOT_INFO, PWWAN_GET_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_GET_SLOT_INFO, WWAN_GET_SLOT_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_GET_SLOT_INFO, netvista.wwan_get_slot_info_status, wwan/PWWAN_GET_SLOT_INFO, wwan/WWAN_GET_SLOT_INFO"
 f1_keywords:
  - "wwan/WWAN_GET_SLOT_INFO"
+ - "WWAN_GET_SLOT_INFO"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

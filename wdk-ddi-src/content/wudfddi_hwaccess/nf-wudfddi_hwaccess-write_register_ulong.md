@@ -10,6 +10,7 @@ keywords: ["WRITE_REGISTER_ULONG function"]
 ms.keywords: WRITE_REGISTER_ULONG, WRITE_REGISTER_ULONG function, umdf.write_register_ulong, wdf.write_register_ulong, wudfddi_hwaccess/WRITE_REGISTER_ULONG
 f1_keywords:
  - "wudfddi_hwaccess/WRITE_REGISTER_ULONG"
+ - "WRITE_REGISTER_ULONG"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop

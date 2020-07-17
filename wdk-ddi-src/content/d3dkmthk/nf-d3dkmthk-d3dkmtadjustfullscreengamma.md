@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTAdjustFullscreenGamma function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTAdjustFullscreenGamma"
+ - "D3DKMTAdjustFullscreenGamma"
 ms.keywords: D3DKMTAdjustFullscreenGamma
 req.header: d3dkmthk.h
 req.include-header:

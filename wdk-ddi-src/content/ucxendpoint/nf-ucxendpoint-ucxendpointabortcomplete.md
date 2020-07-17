@@ -10,6 +10,7 @@ keywords: ["UcxEndpointAbortComplete function"]
 ms.keywords: UcxEndpointAbortComplete, UcxEndpointAbortComplete method [Buses], buses._ucxendpointabortcomplete, ucxendpoint/UcxEndpointAbortComplete
 f1_keywords:
  - "ucxendpoint/UcxEndpointAbortComplete"
+ - "UcxEndpointAbortComplete"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows

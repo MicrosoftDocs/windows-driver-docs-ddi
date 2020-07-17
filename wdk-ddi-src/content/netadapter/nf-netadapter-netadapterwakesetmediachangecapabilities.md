@@ -10,6 +10,7 @@ ms.date: 10/25/2019
 keywords: ["NetAdapterWakeSetMediaChangeCapabilities function"]
 f1_keywords:
  - "netadapter/NetAdapterWakeSetMediaChangeCapabilities"
+ - "NetAdapterWakeSetMediaChangeCapabilities"
 ms.keywords: NetAdapterWakeSetMediaChangeCapabilities
 req.header: netadapter.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, ndiswwan/NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, ndiswwan/PNDIS_WWAN_DEVICE_SLOT_MAPPING_INFO, netvista.ndis_wwan_device_slot_mappings"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO"
+ - "NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

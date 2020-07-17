@@ -8,6 +8,7 @@ ms.date: 01/31/2019
 keywords: ["NetRxQueueGetRingCollection function"]
 f1_keywords:
  - "netrxqueue/NetRxQueueCreate"
+ - "NetRxQueueCreate"
 ms.keywords: NetRxQueueGetRingCollection
 req.header: netrxqueue.h
 req.include-header: netadaptercx.h

@@ -10,6 +10,7 @@ keywords: ["_PROPSHEETUI_GETICON_INFO structure"]
 ms.keywords: "*PPROPSHEETUI_GETICON_INFO, PPROPSHEETUI_GETICON_INFO, PPROPSHEETUI_GETICON_INFO structure pointer [Print Devices], PROPSHEETUI_GETICON_INFO, PROPSHEETUI_GETICON_INFO structure [Print Devices], _PROPSHEETUI_GETICON_INFO, compstui/PPROPSHEETUI_GETICON_INFO, compstui/PROPSHEETUI_GETICON_INFO, cpsuifnc_da228e66-0d1b-4d35-af1e-e1b99e56ad08.xml, print.propsheetui_geticon_info"
 f1_keywords:
  - "compstui/PROPSHEETUI_GETICON_INFO"
+ - "PROPSHEETUI_GETICON_INFO"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows

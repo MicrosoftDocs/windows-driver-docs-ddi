@@ -10,6 +10,7 @@ keywords: ["VideoPortGetCurrentIrql function"]
 ms.keywords: VideoPortGetCurrentIrql, VideoPortGetCurrentIrql function [Display Devices], VideoPort_Functions_acfcf9f4-819a-4fc5-ae4f-214a78059e7a.xml, display.videoportgetcurrentirql, video/VideoPortGetCurrentIrql
 f1_keywords:
  - "video/VideoPortGetCurrentIrql"
+ - "VideoPortGetCurrentIrql"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

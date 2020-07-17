@@ -10,6 +10,7 @@ keywords: ["IKsClockPropertySet::KsGetTime"]
 ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsGetTime method, IKsClockPropertySet.KsGetTime, IKsClockPropertySet::KsGetTime, KsGetTime, KsGetTime method [Streaming Media Devices], KsGetTime method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsGetTime, ksproxy_056c73f0-b713-4f86-a38c-a3455e33b773.xml, stream.iksclockpropertyset_ksgettime
 f1_keywords:
  - "ksproxy/IKsClockPropertySet.KsGetTime"
+ - "IKsClockPropertySet.KsGetTime"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

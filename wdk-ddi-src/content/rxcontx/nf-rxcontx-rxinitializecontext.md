@@ -10,6 +10,7 @@ keywords: ["RxInitializeContext function"]
 ms.keywords: RxInitializeContext, RxInitializeContext function [Installable File System Drivers], ifsk.rxinitializecontext, rxcontx/RxInitializeContext, rxref_4092dc37-eda5-4293-ab39-bec3ed2753f6.xml
 f1_keywords:
  - "rxcontx/RxInitializeContext"
+ - "RxInitializeContext"
 req.header: rxcontx.h
 req.include-header: Rxprocs.h  rxcontx.h
 req.target-type: Desktop

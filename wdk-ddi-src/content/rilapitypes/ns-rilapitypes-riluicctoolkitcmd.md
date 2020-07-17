@@ -10,6 +10,7 @@ keywords: ["RILUICCTOOLKITCMD structure"]
 ms.keywords: "*LPRILUICCTOOLKITCMD, RILUICCTOOLKITCMD, RILUICCTOOLKITCMD structure [Network Drivers Starting with Windows Vista], netvista.riluicctoolkitcmd, ntddrilapitypes/RILUICCTOOLKITCMD"
 f1_keywords:
  - "rilapitypes/RILUICCTOOLKITCMD"
+ - "RILUICCTOOLKITCMD"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

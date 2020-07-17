@@ -10,6 +10,7 @@ keywords: ["IPrintAsyncNotify interface"]
 ms.keywords: IPrintAsyncNotify, IPrintAsyncNotify interface [Print Devices], IPrintAsyncNotify interface [Print Devices],described, print.iprintasyncnotify, prnasntp/IPrintAsyncNotify
 f1_keywords:
  - "prnasntp/IPrintAsyncNotify"
+ - "IPrintAsyncNotify"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

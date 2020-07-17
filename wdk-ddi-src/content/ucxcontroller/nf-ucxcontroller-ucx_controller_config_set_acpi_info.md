@@ -10,6 +10,7 @@ keywords: ["UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function"]
 ms.keywords: UCX_CONTROLLER_CONFIG_SET_ACPI_INFO, UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function [Buses], buses._ucx_controller_config_set_acpi_info, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_ACPI_INFO
 f1_keywords:
  - "ucxcontroller/UCX_CONTROLLER_CONFIG_SET_ACPI_INFO"
+ - "UCX_CONTROLLER_CONFIG_SET_ACPI_INFO"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

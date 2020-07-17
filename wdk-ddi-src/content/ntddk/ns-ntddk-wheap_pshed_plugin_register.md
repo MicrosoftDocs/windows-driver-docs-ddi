@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_PSHED_PLUGIN_REGISTER structure"]
 f1_keywords:
  - "ntddk/WHEAP_PSHED_PLUGIN_REGISTER"
+ - "WHEAP_PSHED_PLUGIN_REGISTER"
 ms.keywords: WHEAP_PSHED_PLUGIN_REGISTER, WHEAP_PSHED_PLUGIN_REGISTER, *PWHEAP_PSHED_PLUGIN_REGISTER, 
 req.header: ntddk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["KsCacheMedium function"]
 ms.keywords: KsCacheMedium, KsCacheMedium function [Streaming Media Devices], ks/KsCacheMedium, ksfunc_19ac113f-3eb8-4073-90b0-786cc82cdf37.xml, stream.kscachemedium
 f1_keywords:
  - "ks/KsCacheMedium"
+ - "KsCacheMedium"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

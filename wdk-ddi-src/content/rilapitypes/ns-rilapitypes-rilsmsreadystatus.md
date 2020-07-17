@@ -10,6 +10,7 @@ keywords: ["RILSMSREADYSTATUS structure"]
 ms.keywords: "*LPRILSMSREADYSTATUS, RILSMSREADYSTATUS, RILSMSREADYSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilsmsreadystatus, ntddrilapitypes/RILSMSREADYSTATUS"
 f1_keywords:
  - "rilapitypes/RILSMSREADYSTATUS"
+ - "RILSMSREADYSTATUS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

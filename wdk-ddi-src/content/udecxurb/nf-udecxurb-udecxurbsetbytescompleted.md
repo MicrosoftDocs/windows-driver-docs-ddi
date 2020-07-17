@@ -10,6 +10,7 @@ keywords: ["UdecxUrbSetBytesCompleted function"]
 ms.keywords: UdecxUrbSetBytesCompleted, UdecxUrbSetBytesCompleted function [Buses], buses.udecxurbsetbytescompleted, udecxurb/UdecxUrbSetBytesCompleted
 f1_keywords:
  - "udecxurb/UdecxUrbSetBytesCompleted"
+ - "UdecxUrbSetBytesCompleted"
 req.header: udecxurb.h
 req.include-header: Udecx.h
 req.target-type: Windows

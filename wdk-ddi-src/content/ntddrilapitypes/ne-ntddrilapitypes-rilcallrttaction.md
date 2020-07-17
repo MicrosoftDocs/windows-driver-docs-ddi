@@ -10,6 +10,7 @@ keywords: ["RILCALLRTTACTION enumeration"]
 ms.keywords: RILCALLRTTACTION, RILCALLRTTACTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLRTTACTION_ACCEPT, RIL_CALLRTTACTION_ASK, RIL_CALLRTTACTION_MAX, RIL_CALLRTTACTION_REJECT, netvista.rilcallrttaction, ntddrilapitypes/RILCALLRTTACTION, ntddrilapitypes/RIL_CALLRTTACTION_ACCEPT, ntddrilapitypes/RIL_CALLRTTACTION_ASK, ntddrilapitypes/RIL_CALLRTTACTION_MAX, ntddrilapitypes/RIL_CALLRTTACTION_REJECT
 f1_keywords:
  - "ntddrilapitypes/RILCALLRTTACTION"
+ - "RILCALLRTTACTION"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

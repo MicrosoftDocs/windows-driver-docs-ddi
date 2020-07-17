@@ -10,6 +10,7 @@ keywords: ["KeRemoveQueueDpc function"]
 ms.keywords: KeRemoveQueueDpc, KeRemoveQueueDpc routine [Kernel-Mode Driver Architecture], k105_b07492b0-b6b2-4d15-b62c-437a4b33c0b6.xml, kernel.keremovequeuedpc, wdm/KeRemoveQueueDpc
 f1_keywords:
  - "wdm/KeRemoveQueueDpc"
+ - "KeRemoveQueueDpc"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

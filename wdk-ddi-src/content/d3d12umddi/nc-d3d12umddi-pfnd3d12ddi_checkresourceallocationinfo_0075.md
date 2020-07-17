@@ -8,6 +8,7 @@ keywords: ["PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075 callback function"]
 ms.keywords: PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075, PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0075 callback, d3d12umddi/pfnCheckResourceAllocationInfo, display.pfnd3d12ddi_checkresourceallocationinfo_0075, pfnCheckResourceAllocationInfo, pfnCheckResourceAllocationInfo callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnCheckResourceAllocationInfo"
+ - "pfnCheckResourceAllocationInfo"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - ntddk/_WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER_V1
  - ntddk/WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER_V1
+ - ""
 dev_langs:
  - c++
 ---

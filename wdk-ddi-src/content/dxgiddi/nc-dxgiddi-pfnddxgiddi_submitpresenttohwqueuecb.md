@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB callback function"]
 f1_keywords:
  - "dxgiddi/PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB"
+ - "PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB"
 req.header: dxgiddi.h
 req.include-header:
 req.target-type:

@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint2::SetOffset"]
 ms.keywords: ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, IDebugBreakpoint interface [Windows Debugging],SetOffset method, IDebugBreakpoint2 interface [Windows Debugging],SetOffset method, IDebugBreakpoint2.SetOffset, IDebugBreakpoint2::SetOffset, IDebugBreakpoint::SetOffset, SetOffset, SetOffset method [Windows Debugging], SetOffset method [Windows Debugging],IDebugBreakpoint interface, SetOffset method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetOffset, dbgeng/IDebugBreakpoint::SetOffset, debugger.setoffset
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.SetOffset"
+ - "IDebugBreakpoint.SetOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

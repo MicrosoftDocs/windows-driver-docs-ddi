@@ -10,6 +10,7 @@ keywords: ["KsGetFilterFromFileObject function"]
 ms.keywords: KsGetFilterFromFileObject, KsGetFilterFromFileObject function [Streaming Media Devices], avfunc_4c336bce-3064-471e-bd79-daa1888e14b8.xml, ks/KsGetFilterFromFileObject, stream.ksgetfilterfromfileobject
 f1_keywords:
  - "ks/KsGetFilterFromFileObject"
+ - "KsGetFilterFromFileObject"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

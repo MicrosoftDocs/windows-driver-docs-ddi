@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DRAWINDEXED callback function"]
 ms.keywords: DrawIndexed, DrawIndexed callback function [Display Devices], PFND3D10DDI_DRAWINDEXED, PFND3D10DDI_DRAWINDEXED callback, UserModeDisplayDriverDx10_Functions_4529cc06-0ad4-41ea-8cab-b55a398cb889.xml, d3d10umddi/DrawIndexed, display.drawindexed
 f1_keywords:
  - "d3d10umddi/DrawIndexed"
+ - "DrawIndexed"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_SetPersistentEntry_OUT structure"]
 ms.keywords: "*PSetPersistentEntry_OUT, PSetPersistentEntry_OUT, PSetPersistentEntry_OUT structure pointer [Storage Devices], SetPersistentEntry_OUT, SetPersistentEntry_OUT structure [Storage Devices], _SetPersistentEntry_OUT, hbapiwmi/PSetPersistentEntry_OUT, hbapiwmi/SetPersistentEntry_OUT, storage.setpersistententry_out, structs-Fibre_3dbfc9dd-6c90-4908-bb5d-c331a2e0334c.xml"
 f1_keywords:
  - "hbapiwmi/SetPersistentEntry_OUT"
+ - "SetPersistentEntry_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

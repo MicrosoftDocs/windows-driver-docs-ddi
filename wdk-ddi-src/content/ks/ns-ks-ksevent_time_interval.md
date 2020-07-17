@@ -10,6 +10,7 @@ keywords: ["KSEVENT_TIME_INTERVAL structure"]
 ms.keywords: "*PKSEVENT_TIME_INTERVAL, KSEVENT_TIME_INTERVAL, KSEVENT_TIME_INTERVAL structure [Streaming Media Devices], PKSEVENT_TIME_INTERVAL, PKSEVENT_TIME_INTERVAL structure pointer [Streaming Media Devices], ks-struct_690ec7fd-ea7c-4a47-8351-779aa2cf8e2c.xml, ks/KSEVENT_TIME_INTERVAL, ks/PKSEVENT_TIME_INTERVAL, stream.ksevent_time_interval"
 f1_keywords:
  - "ks/KSEVENT_TIME_INTERVAL"
+ - "KSEVENT_TIME_INTERVAL"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

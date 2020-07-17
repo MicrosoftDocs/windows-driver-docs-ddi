@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY IOCTL"]
 ms.keywords: IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY, IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY control, IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY control code [Display Devices], Video_IOCTLs_114ef264-3c3f-400d-bef0-4ebd2a4af035.xml, display.ioctl_video_unshare_video_memory, ntddvdeo/IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY"
+ - "IOCTL_VIDEO_UNSHARE_VIDEO_MEMORY"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows

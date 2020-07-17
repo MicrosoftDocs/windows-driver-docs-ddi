@@ -10,6 +10,7 @@ keywords: ["KsRegisterFilterWithNoKSPins function"]
 ms.keywords: KsRegisterFilterWithNoKSPins, KsRegisterFilterWithNoKSPins function [Streaming Media Devices], avfunc_c9fc5273-7fd9-41d5-9ac4-5033ed757b7c.xml, ks/KsRegisterFilterWithNoKSPins, stream.ksregisterfilterwithnokspins
 f1_keywords:
  - "ks/KsRegisterFilterWithNoKSPins"
+ - "KsRegisterFilterWithNoKSPins"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

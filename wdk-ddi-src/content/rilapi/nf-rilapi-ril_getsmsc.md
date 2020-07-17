@@ -10,6 +10,7 @@ keywords: ["RIL_GetSMSC function"]
 ms.keywords: RIL_GetSMSC, RIL_GetSMSC method [Network Drivers Starting with Windows Vista], netvista.ril_getsmsc, rilapi/RIL_GetSMSC
 f1_keywords:
  - "rilapi/RIL_GetSMSC"
+ - "RIL_GetSMSC"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

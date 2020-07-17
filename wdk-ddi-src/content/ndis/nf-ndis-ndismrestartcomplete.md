@@ -10,6 +10,7 @@ keywords: ["NdisMRestartComplete function"]
 ms.keywords: NdisMRestartComplete, NdisMRestartComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_ee1a63ca-c2c4-422b-8c8a-163785c58802.xml, ndis/NdisMRestartComplete, netvista.ndismrestartcomplete
 f1_keywords:
  - "ndis/NdisMRestartComplete"
+ - "NdisMRestartComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

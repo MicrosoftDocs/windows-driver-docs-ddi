@@ -10,6 +10,7 @@ keywords: ["_PEP_WORK_COMPLETE_PERF_STATE structure"]
 ms.keywords: "*PPEP_WORK_COMPLETE_PERF_STATE, PEP_WORK_COMPLETE_PERF_STATE, PEP_WORK_COMPLETE_PERF_STATE structure [Kernel-Mode Driver Architecture], PPEP_WORK_COMPLETE_PERF_STATE, PPEP_WORK_COMPLETE_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_COMPLETE_PERF_STATE, kernel.pep_work_complete_perf_state, pepfx/PEP_WORK_COMPLETE_PERF_STATE, pepfx/PPEP_WORK_COMPLETE_PERF_STATE"
 f1_keywords:
  - "pepfx/PEP_WORK_COMPLETE_PERF_STATE"
+ - "PEP_WORK_COMPLETE_PERF_STATE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

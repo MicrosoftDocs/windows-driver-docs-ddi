@@ -10,6 +10,7 @@ keywords: ["FwpsCloneStreamData0 function"]
 ms.keywords: FwpsCloneStreamData0, FwpsCloneStreamData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCloneStreamData0, netvista.fwpsclonestreamdata0, wfp_ref_2_funct_3_fwps_C_e155a116-043a-43e5-af71-db0552806978.xml
 f1_keywords:
  - "fwpsk/FwpsCloneStreamData0"
+ - "FwpsCloneStreamData0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

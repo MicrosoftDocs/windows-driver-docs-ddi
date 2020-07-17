@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_RX_STOP_CONFIRM callback function"]
 ms.keywords: NDIS_WDI_RX_STOP_CONFIRM, NDIS_WDI_RX_STOP_CONFIRM callback, NdisWdiRxStopConfirm, NdisWdiRxStopConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiRxStopConfirm, netvista.ndiswdirxstopconfirm
 f1_keywords:
  - "dot11wdi/NdisWdiRxStopConfirm"
+ - "NdisWdiRxStopConfirm"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

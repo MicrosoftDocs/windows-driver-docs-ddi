@@ -10,6 +10,7 @@ keywords: ["FltOplockBreakToNoneEx function"]
 ms.keywords: FltApiRef_e_to_o_7111d712-59f1-4c71-b02c-9bb415aa118f.xml, FltOplockBreakToNoneEx, FltOplockBreakToNoneEx routine [Installable File System Drivers], fltkernel/FltOplockBreakToNoneEx, ifsk.fltoplockbreaktononeex
 f1_keywords:
  - "fltkernel/FltOplockBreakToNoneEx"
+ - "FltOplockBreakToNoneEx"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["PFNKSFILTERVOID callback function"]
 ms.keywords: AVStrMiniFilterReset, AVStrMiniFilterReset routine [Streaming Media Devices], PFNKSFILTERVOID, avstclbk_71a3cd5d-faa7-4a7f-a341-deacfbcda051.xml, ks/AVStrMiniFilterReset, stream.avstrminifilterreset
 f1_keywords:
  - "ks/AVStrMiniFilterReset"
+ - "AVStrMiniFilterReset"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

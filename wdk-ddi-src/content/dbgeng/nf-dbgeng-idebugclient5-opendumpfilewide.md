@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::OpenDumpFileWide"]
 ms.keywords: IDebugClient4 interface [Windows Debugging],OpenDumpFileWide method, IDebugClient4::OpenDumpFileWide, IDebugClient5 interface [Windows Debugging],OpenDumpFileWide method, IDebugClient5.OpenDumpFileWide, IDebugClient5::OpenDumpFileWide, IDebugClient_e3280682-6272-4324-bba5-120a95f27b15.xml, OpenDumpFileWide, OpenDumpFileWide method [Windows Debugging], OpenDumpFileWide method [Windows Debugging],IDebugClient4 interface, OpenDumpFileWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient4::OpenDumpFileWide, dbgeng/IDebugClient5::OpenDumpFileWide, debugger.opendumpfilewide
 f1_keywords:
  - "dbgeng/IDebugClient4.OpenDumpFileWide"
+ - "IDebugClient4.OpenDumpFileWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaFeature interface"]
 ms.keywords: IPrintSchemaFeature, IPrintSchemaFeature interface [Print Devices], IPrintSchemaFeature interface [Print Devices],described, print.iprintschemafeature_interface, printerextension/IPrintSchemaFeature
 f1_keywords:
  - "printerextension/IPrintSchemaFeature"
+ - "IPrintSchemaFeature"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

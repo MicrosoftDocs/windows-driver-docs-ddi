@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::HalftonePattern"]
 ms.keywords: HalftonePattern, HalftonePattern method [Print Devices], HalftonePattern method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],HalftonePattern method, IPrintOemUni.HalftonePattern, IPrintOemUni::HalftonePattern, prcomoem/IPrintOemUni::HalftonePattern, print.iprintoemuni_halftonepattern, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.HalftonePattern"
+ - "IPrintOemUni.HalftonePattern"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["VideoPortAcquireSpinLockAtDpcLevel function"]
 ms.keywords: VideoPortAcquireSpinLockAtDpcLevel, VideoPortAcquireSpinLockAtDpcLevel function [Display Devices], VideoPort_Functions_fc52bdfd-6f1a-4f5c-93e6-321d2488bcd5.xml, display.videoportacquirespinlockatdpclevel, video/VideoPortAcquireSpinLockAtDpcLevel
 f1_keywords:
  - "video/VideoPortAcquireSpinLockAtDpcLevel"
+ - "VideoPortAcquireSpinLockAtDpcLevel"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

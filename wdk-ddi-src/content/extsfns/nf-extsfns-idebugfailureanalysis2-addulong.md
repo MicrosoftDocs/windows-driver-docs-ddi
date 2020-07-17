@@ -10,6 +10,7 @@ keywords: ["IDebugFailureAnalysis2::AddUlong"]
 ms.keywords: AddUlong, AddUlong method [Windows Debugging], AddUlong method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],AddUlong method, IDebugFailureAnalysis2.AddUlong, IDebugFailureAnalysis2::AddUlong, debugger.idebugfailureanalysis2_addulong, extsfns/IDebugFailureAnalysis2::AddUlong
 f1_keywords:
  - "extsfns/IDebugFailureAnalysis2.AddUlong"
+ - "IDebugFailureAnalysis2.AddUlong"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop

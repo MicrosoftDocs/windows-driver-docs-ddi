@@ -10,6 +10,7 @@ keywords: ["GetPrintProcessorCapabilities function"]
 ms.keywords: GetPrintProcessorCapabilities, GetPrintProcessorCapabilities function [Print Devices], print.getprintprocessorcapabilities, spoolfnc_4ca0ae34-060f-4144-91de-a2556d1b5261.xml, winsplp/GetPrintProcessorCapabilities
 f1_keywords:
  - "winsplp/GetPrintProcessorCapabilities"
+ - "GetPrintProcessorCapabilities"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

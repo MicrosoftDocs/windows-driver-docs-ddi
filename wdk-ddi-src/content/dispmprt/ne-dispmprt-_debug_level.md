@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DEBUG_LEVEL enumeration"]
 f1_keywords:
  - "dispmprt/_DEBUG_LEVEL"
+ - "_DEBUG_LEVEL"
 ms.keywords: _DEBUG_LEVEL, DEBUG_LEVEL, 
 ms.prod: windows-hardware
 ms.technology: windows-devices

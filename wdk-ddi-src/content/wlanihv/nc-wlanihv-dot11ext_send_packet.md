@@ -10,6 +10,7 @@ keywords: ["DOT11EXT_SEND_PACKET callback"]
 ms.keywords: DOT11EXT_SEND_PACKET, Dot11ExtSendPacket, Dot11ExtSendPacket callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_0acd1763-b9d3-4e75-ada6-63f5a77b42c3.xml, netvista.dot11extsendpacket, wlanihv/Dot11ExtSendPacket
 f1_keywords:
  - "wlanihv/Dot11ExtSendPacket"
+ - "Dot11ExtSendPacket"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

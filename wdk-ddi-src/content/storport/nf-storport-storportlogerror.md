@@ -10,6 +10,7 @@ keywords: ["StorPortLogError function"]
 ms.keywords: StorPortLogError, StorPortLogError routine [Storage Devices], storage.storportlogerror, storport/StorPortLogError, storprt_0eb9851c-bfce-49aa-a22b-3d16a72b3dde.xml
 f1_keywords:
  - "storport/StorPortLogError"
+ - "StorPortLogError"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

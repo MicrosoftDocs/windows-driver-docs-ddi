@@ -10,6 +10,7 @@ keywords: ["IDebugControl interface"]
 ms.keywords: IDebugControl, IDebugControl interface [Windows Debugging], IDebugControl interface [Windows Debugging],described, IDebugControl_ce0030b2-73a7-49a8-9d21-942922a69184.xml, dbgeng/IDebugControl, debugger.idebugcontrol
 f1_keywords:
  - "dbgeng/IDebugControl"
+ - "IDebugControl"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

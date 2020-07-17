@@ -10,6 +10,7 @@ ms.date: 02/25/2019
 keywords: ["EVENTACTIONCONTEXTTYPE enumeration"]
 f1_keywords:
  - "eventdetectoroemadapter/EVENTACTIONCONTEXTTYPE"
+ - "EVENTACTIONCONTEXTTYPE"
 ms.keywords: EVENTACTIONCONTEXTTYPE, EVENTACTIONCONTEXTTYPE, 
 req.header: eventdetectoroemadapter.h
 req.include-header:

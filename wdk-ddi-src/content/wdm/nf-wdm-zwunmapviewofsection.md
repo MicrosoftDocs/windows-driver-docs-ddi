@@ -10,6 +10,7 @@ keywords: ["ZwUnmapViewOfSection function"]
 ms.keywords: NtUnmapViewOfSection, ZwUnmapViewOfSection, ZwUnmapViewOfSection routine [Kernel-Mode Driver Architecture], k111_4353325c-d2a1-47b3-b58a-b62929c417f9.xml, kernel.zwunmapviewofsection, wdm/NtUnmapViewOfSection, wdm/ZwUnmapViewOfSection
 f1_keywords:
  - "wdm/ZwUnmapViewOfSection"
+ - "ZwUnmapViewOfSection"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

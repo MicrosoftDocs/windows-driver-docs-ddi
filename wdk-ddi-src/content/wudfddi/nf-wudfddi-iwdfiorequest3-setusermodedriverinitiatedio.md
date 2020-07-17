@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest3::SetUserModeDriverInitiatedIo"]
 ms.keywords: IWDFIoRequest3 interface,SetUserModeDriverInitiatedIo method, IWDFIoRequest3.SetUserModeDriverInitiatedIo, IWDFIoRequest3::SetUserModeDriverInitiatedIo, SetUserModeDriverInitiatedIo, SetUserModeDriverInitiatedIo method, SetUserModeDriverInitiatedIo method,IWDFIoRequest3 interface, umdf.iwdfiorequest3_setusermodedriverinitiatedio, wdf.iwdfiorequest3_setusermodedriverinitiatedio, wudfddi/IWDFIoRequest3::SetUserModeDriverInitiatedIo
 f1_keywords:
  - "wudfddi/IWDFIoRequest3.SetUserModeDriverInitiatedIo"
+ - "IWDFIoRequest3.SetUserModeDriverInitiatedIo"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

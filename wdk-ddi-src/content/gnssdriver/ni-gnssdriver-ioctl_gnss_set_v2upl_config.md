@@ -10,6 +10,7 @@ keywords: ["IOCTL_GNSS_SET_V2UPL_CONFIG IOCTL"]
 ms.keywords: IOCTL_GNSS_SET_V2UPL_CONFIG, IOCTL_GNSS_SET_V2UPL_CONFIG control, IOCTL_GNSS_SET_V2UPL_CONFIG control code [Sensor Devices], gnss.ioctl_gnss_set_v2upl_config, gnssdriver/IOCTL_GNSS_SET_V2UPL_CONFIG
 f1_keywords:
  - "gnssdriver/IOCTL_GNSS_SET_V2UPL_CONFIG"
+ - "IOCTL_GNSS_SET_V2UPL_CONFIG"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

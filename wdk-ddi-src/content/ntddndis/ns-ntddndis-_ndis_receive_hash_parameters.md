@@ -10,6 +10,7 @@ keywords: ["_NDIS_RECEIVE_HASH_PARAMETERS structure"]
 ms.keywords: "*PNDIS_RECEIVE_HASH_PARAMETERS, NDIS_RECEIVE_HASH_PARAMETERS, NDIS_RECEIVE_HASH_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_HASH_PARAMETERS, PNDIS_RECEIVE_HASH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_HASH_PARAMETERS, netvista.ndis_receive_hash_parameters, ntddndis/NDIS_RECEIVE_HASH_PARAMETERS, ntddndis/PNDIS_RECEIVE_HASH_PARAMETERS, receive_scaling_structures_ref_80a59146-35c0-44f9-9001-142356cdccdf.xml"
 f1_keywords:
  - "ntddndis/NDIS_RECEIVE_HASH_PARAMETERS"
+ - "NDIS_RECEIVE_HASH_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

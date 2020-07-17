@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFN_IDDCXMONITORGETSRMLISTVERSION callback function"]
 f1_keywords:
  - "iddcx/PFN_IDDCXMONITORGETSRMLISTVERSION"
+ - "PFN_IDDCXMONITORGETSRMLISTVERSION"
 req.header: iddcx.h
 req.include-header:
 req.target-type:

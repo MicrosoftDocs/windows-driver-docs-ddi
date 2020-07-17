@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugVariableSetEnumerator::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugVariableSetEnumerator.Release"
+ - "IDataModelScriptDebugVariableSetEnumerator.Release"
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::Release, Release, IDataModelScriptDebugVariableSetEnumerator.Release, IDataModelScriptDebugVariableSetEnumerator::Release, IDataModelScriptDebugVariableSetEnumerator.Release
 req.header: dbgmodel.h
 req.include-header:

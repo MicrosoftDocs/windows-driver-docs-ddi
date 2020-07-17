@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IIndexableConcept::GetAt"]
 f1_keywords:
  - "dbgmodel/IIndexableConcept.GetAt"
+ - "IIndexableConcept.GetAt"
 ms.keywords: IIndexableConcept::GetAt, GetAt, IIndexableConcept.GetAt, IIndexableConcept::GetAt, IIndexableConcept.GetAt
 req.header: dbgmodel.h
 req.include-header:

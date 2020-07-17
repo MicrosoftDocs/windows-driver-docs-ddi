@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IModelKeyReference::GetOriginalObject"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference.GetOriginalObject"
+ - "IModelKeyReference.GetOriginalObject"
 ms.keywords: IModelKeyReference::GetOriginalObject, GetOriginalObject, IModelKeyReference.GetOriginalObject, IModelKeyReference::GetOriginalObject, IModelKeyReference.GetOriginalObject
 req.header: dbgmodel.h
 req.include-header:

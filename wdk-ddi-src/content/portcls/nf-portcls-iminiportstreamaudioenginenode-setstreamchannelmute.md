@@ -10,6 +10,7 @@ keywords: ["IMiniportStreamAudioEngineNode::SetStreamChannelMute"]
 ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetStreamChannelMute method, IMiniportStreamAudioEngineNode.SetStreamChannelMute, IMiniportStreamAudioEngineNode::SetStreamChannelMute, SetStreamChannelMute, SetStreamChannelMute method [Audio Devices], SetStreamChannelMute method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamchannelmute, portcls/IMiniportStreamAudioEngineNode::SetStreamChannelMute
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.SetStreamChannelMute"
+ - "IMiniportStreamAudioEngineNode.SetStreamChannelMute"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

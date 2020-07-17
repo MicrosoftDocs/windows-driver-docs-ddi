@@ -10,6 +10,7 @@ keywords: ["IObjectCleanup interface"]
 ms.keywords: IObjectCleanup, IObjectCleanup interface, IObjectCleanup interface,described, UMDFBaseObjectRef_4e434f46-a62e-4410-b8ed-663ab59c89dd.xml, umdf.iobjectcleanup, wdf.iobjectcleanup, wudfddi/IObjectCleanup
 f1_keywords:
  - "wudfddi/IObjectCleanup"
+ - "IObjectCleanup"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

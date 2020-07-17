@@ -10,6 +10,7 @@ keywords: ["_TOKEN_DEFAULT_DACL structure"]
 ms.keywords: "*PTOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL structure pointer [Installable File System Drivers], TOKEN_DEFAULT_DACL, TOKEN_DEFAULT_DACL structure [Installable File System Drivers], _TOKEN_DEFAULT_DACL, ifsk.token_default_dacl, ntifs/PTOKEN_DEFAULT_DACL, ntifs/TOKEN_DEFAULT_DACL, securitystructures_a79d9155-eff5-457f-8036-c3d718b36c4e.xml"
 f1_keywords:
  - "ntifs/TOKEN_DEFAULT_DACL"
+ - "TOKEN_DEFAULT_DACL"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

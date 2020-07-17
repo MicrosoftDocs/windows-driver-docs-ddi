@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EVT_TR_ENUMERATE_SECURE_SERVICES callback function"]
 f1_keywords:
  - "trustedruntimeclx/EVT_TR_ENUMERATE_SECURE_SERVICES"
+ - "EVT_TR_ENUMERATE_SECURE_SERVICES"
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

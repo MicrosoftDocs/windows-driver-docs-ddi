@@ -8,6 +8,7 @@ ms.date: 02/08/2018
 keywords: ["NetRequestSetBytesNeeded function"]
 f1_keywords:
  - "netrequest/NetRequestSetBytesNeeded"
+ - "NetRequestSetBytesNeeded"
 ms.keywords: NetRequestSetBytesNeeded
 req.header: netrequest.h
 req.include-header: netadaptercx.h

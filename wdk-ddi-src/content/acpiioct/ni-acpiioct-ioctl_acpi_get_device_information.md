@@ -10,6 +10,7 @@ keywords: ["IOCTL_ACPI_GET_DEVICE_INFORMATION IOCTL"]
 ms.keywords: IOCTL_ACPI_GET_DEVICE_INFORMATION, IOCTL_ACPI_GET_DEVICE_INFORMATION control, IOCTL_ACPI_GET_DEVICE_INFORMATION control code [ACPI Devices], acpi.ioctl_acpi_get_device_information, acpiioct/IOCTL_ACPI_GET_DEVICE_INFORMATION
 f1_keywords:
  - "acpiioct/IOCTL_ACPI_GET_DEVICE_INFORMATION"
+ - "IOCTL_ACPI_GET_DEVICE_INFORMATION"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

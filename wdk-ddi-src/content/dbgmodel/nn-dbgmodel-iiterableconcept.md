@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["IIterableConcept interface"]
 f1_keywords:
  - "dbgmodel/IIterableConcept"
+ - "IIterableConcept"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

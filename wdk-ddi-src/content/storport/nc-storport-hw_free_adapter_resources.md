@@ -10,6 +10,7 @@ keywords: ["HW_FREE_ADAPTER_RESOURCES callback function"]
 ms.keywords: HW_FREE_ADAPTER_RESOURCES, HwStorFreeAdapterResources, HwStorFreeAdapterResources routine [Storage Devices], storage.hwstorfreeadapterresources, storport/HwStorFreeAdapterResources, storvmini_88adb6fa-10a8-4ee7-90d3-881564ed5cfd.xml
 f1_keywords:
  - "storport/HwStorFreeAdapterResources"
+ - "HwStorFreeAdapterResources"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

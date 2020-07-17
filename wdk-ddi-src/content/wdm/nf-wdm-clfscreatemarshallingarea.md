@@ -10,6 +10,7 @@ keywords: ["ClfsCreateMarshallingArea function"]
 ms.keywords: ClfsCreateMarshallingArea, ClfsCreateMarshallingArea routine [Kernel-Mode Driver Architecture], Clfs_7b5e3208-8dfb-4fbf-b2a9-77ecc5765df6.xml, kernel.clfscreatemarshallingarea, wdm/ClfsCreateMarshallingArea
 f1_keywords:
  - "wdm/ClfsCreateMarshallingArea"
+ - "ClfsCreateMarshallingArea"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

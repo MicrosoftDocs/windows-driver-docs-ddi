@@ -10,6 +10,7 @@ keywords: ["RtlFreeOemString function"]
 ms.keywords: RtlFreeOemString, RtlFreeOemString routine [Installable File System Drivers], ifsk.rtlfreeoemstring, ntifs/RtlFreeOemString, rtlref_ffc98e3c-a96f-4250-a527-bcd1ba2ce506.xml
 f1_keywords:
  - "ntifs/RtlFreeOemString"
+ - "RtlFreeOemString"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

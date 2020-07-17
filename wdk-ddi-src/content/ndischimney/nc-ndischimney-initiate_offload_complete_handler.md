@@ -10,6 +10,7 @@ keywords: ["INITIATE_OFFLOAD_COMPLETE_HANDLER callback function"]
 ms.keywords: INITIATE_OFFLOAD_COMPLETE_HANDLER, INITIATE_OFFLOAD_COMPLETE_HANDLER callback, ProtocolInitiateOffloadComplete, ProtocolInitiateOffloadComplete callback function [Network Drivers Starting with Windows Vista], ndischimney/ProtocolInitiateOffloadComplete, netvista.protocolinitiateoffloadcomplete, tcp_chim_protocol_func_24008ba0-91ac-43de-a1b7-ba82e15057ad.xml
 f1_keywords:
  - "ndischimney/ProtocolInitiateOffloadComplete"
+ - "ProtocolInitiateOffloadComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IPrintUnidiAsyncNotifyRegistration interface"]
 ms.keywords: IPrintUnidiAsyncNotifyRegistration, IPrintUnidiAsyncNotifyRegistration interface [Print Devices], IPrintUnidiAsyncNotifyRegistration interface [Print Devices],described, print.iprintunidiasyncnotifyregistration, prnasntp/IPrintUnidiAsyncNotifyRegistration
 f1_keywords:
  - "prnasntp/IPrintUnidiAsyncNotifyRegistration"
+ - "IPrintUnidiAsyncNotifyRegistration"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

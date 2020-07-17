@@ -10,6 +10,7 @@ keywords: ["RIL_GetUiccPRLID function"]
 ms.keywords: RIL_GetUiccPRLID, RIL_GetUiccPRLID method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccprlid, rilapi/RIL_GetUiccPRLID
 f1_keywords:
  - "rilapi/RIL_GetUiccPRLID"
+ - "RIL_GetUiccPRLID"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

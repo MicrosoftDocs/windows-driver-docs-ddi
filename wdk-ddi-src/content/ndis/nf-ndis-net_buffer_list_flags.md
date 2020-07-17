@@ -8,6 +8,7 @@ ms.date: 04/12/2018
 keywords: ["NET_BUFFER_LIST_FLAGS macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_FLAGS"
+ - "NET_BUFFER_LIST_FLAGS"
 ms.keywords: NET_BUFFER_LIST_FLAGS
 req.header: ndis.h
 req.include-header:

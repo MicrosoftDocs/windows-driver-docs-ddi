@@ -10,6 +10,7 @@ keywords: ["StreamClassGetPhysicalAddress function"]
 ms.keywords: StreamClassGetPhysicalAddress, StreamClassGetPhysicalAddress routine [Streaming Media Devices], strclass-routines_e8d5c2ab-3cfa-4bb7-b4f7-e57908c2c6f8.xml, stream.streamclassgetphysicaladdress, strmini/StreamClassGetPhysicalAddress
 f1_keywords:
  - "strmini/StreamClassGetPhysicalAddress"
+ - "StreamClassGetPhysicalAddress"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop

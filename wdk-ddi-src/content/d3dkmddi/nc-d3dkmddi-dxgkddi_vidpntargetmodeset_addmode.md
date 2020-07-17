@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3dkmddi/dxgk_vidpntargetmodeset_interface_pfnAddMode"
+ - "dxgk_vidpntargetmodeset_interface_pfnAddMode"
 topic_type:
  - APIRef
  - kbSyntax

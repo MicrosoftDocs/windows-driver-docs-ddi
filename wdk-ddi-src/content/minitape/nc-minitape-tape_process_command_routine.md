@@ -10,6 +10,7 @@ keywords: ["TAPE_PROCESS_COMMAND_ROUTINE callback function"]
 ms.keywords: "(*TAPE_PROCESS_COMMAND_ROUTINE), (*TAPE_PROCESS_COMMAND_ROUTINE) routine [Storage Devices], TAPE_PROCESS_COMMAND_ROUTINE, minitape/(*TAPE_PROCESS_COMMAND_ROUTINE), storage.tapeminicreatepartition, tapemini_34ae90ec-7f62-45f3-91e4-d64acfdbd797.xml"
 f1_keywords:
  - "minitape/(*TAPE_PROCESS_COMMAND_ROUTINE)"
+ - "(*TAPE_PROCESS_COMMAND_ROUTINE)"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop

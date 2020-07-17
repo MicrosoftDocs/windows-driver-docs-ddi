@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_ISSUEQUERY structure"]
 ms.keywords: D3DDDIARG_ISSUEQUERY, D3DDDIARG_ISSUEQUERY structure [Display Devices], UMDisplayDriver_param_Structs_3fb59dbc-e5de-4d14-9d4b-25934e4e3ded.xml, _D3DDDIARG_ISSUEQUERY, d3dumddi/D3DDDIARG_ISSUEQUERY, display.d3dddiarg_issuequery
 f1_keywords:
  - "d3dumddi/D3DDDIARG_ISSUEQUERY"
+ - "D3DDDIARG_ISSUEQUERY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

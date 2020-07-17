@@ -10,6 +10,7 @@ keywords: ["_OPTTYPE structure"]
 ms.keywords: "*POPTTYPE, OPTTYPE, OPTTYPE structure [Print Devices], POPTTYPE, POPTTYPE structure pointer [Print Devices], _OPTTYPE, compstui/OPTTYPE, compstui/POPTTYPE, cpsuifnc_de1ff2db-9eea-4daf-bc9e-2e24a2dd5271.xml, print.opttype"
 f1_keywords:
  - "compstui/OPTTYPE"
+ - "OPTTYPE"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows

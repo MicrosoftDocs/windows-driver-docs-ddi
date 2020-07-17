@@ -10,6 +10,7 @@ keywords: ["RIL_SetRadioStateDetails function"]
 ms.keywords: RIL_SetRadioStateDetails, RIL_SetRadioStateDetails method [Network Drivers Starting with Windows Vista], netvista.ril_setradiostatedetails, rilapi/RIL_SetRadioStateDetails
 f1_keywords:
  - "rilapi/RIL_SetRadioStateDetails"
+ - "RIL_SetRadioStateDetails"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

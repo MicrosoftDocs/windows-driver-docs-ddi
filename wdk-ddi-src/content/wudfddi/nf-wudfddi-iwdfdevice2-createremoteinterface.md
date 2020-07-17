@@ -10,6 +10,7 @@ keywords: ["IWDFDevice2::CreateRemoteInterface"]
 ms.keywords: CreateRemoteInterface, CreateRemoteInterface method, CreateRemoteInterface method,IWDFDevice2 interface, IWDFDevice2 interface,CreateRemoteInterface method, IWDFDevice2.CreateRemoteInterface, IWDFDevice2::CreateRemoteInterface, UMDFDeviceObjectRef_772989d9-ec18-4672-abea-ee4abd00b6ee.xml, umdf.iwdfdevice2_createremoteinterface, wdf.iwdfdevice2_createremoteinterface, wudfddi/IWDFDevice2::CreateRemoteInterface
 f1_keywords:
  - "wudfddi/IWDFDevice2.CreateRemoteInterface"
+ - "IWDFDevice2.CreateRemoteInterface"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

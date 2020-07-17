@@ -10,6 +10,7 @@ keywords: ["PsRemoveLoadImageNotifyRoutine function"]
 ms.keywords: PsRemoveLoadImageNotifyRoutine, PsRemoveLoadImageNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_50aeae5b-9276-4e93-8192-70a51bd87ab4.xml, kernel.psremoveloadimagenotifyroutine, ntddk/PsRemoveLoadImageNotifyRoutine
 f1_keywords:
  - "ntddk/PsRemoveLoadImageNotifyRoutine"
+ - "PsRemoveLoadImageNotifyRoutine"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

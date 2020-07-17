@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_CREATEHWCONTEXT structure"]
 ms.keywords: D3DDDICB_CREATEHWCONTEXT, D3DDDICB_CREATEHWCONTEXT structure [Display Devices], _D3DDDICB_CREATEHWCONTEXT, d3dumddi/D3DDDICB_CREATEHWCONTEXT, display.d3dddicb_createhwcontext
 f1_keywords:
  - "d3dumddi/D3DDDICB_CREATEHWCONTEXT"
+ - "D3DDDICB_CREATEHWCONTEXT"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows

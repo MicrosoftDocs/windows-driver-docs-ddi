@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_RECEIVE_FROM_EVENT callback function"]
 ms.keywords: PFN_WSK_RECEIVE_FROM_EVENT, PFN_WSK_RECEIVE_FROM_EVENT callback, WskReceiveFromEvent, WskReceiveFromEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefromevent, wsk/WskReceiveFromEvent, wskref_c8523644-4a5e-4b0f-b8ef-b6a4fd081868.xml
 f1_keywords:
  - "wsk/WskReceiveFromEvent"
+ - "WskReceiveFromEvent"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows

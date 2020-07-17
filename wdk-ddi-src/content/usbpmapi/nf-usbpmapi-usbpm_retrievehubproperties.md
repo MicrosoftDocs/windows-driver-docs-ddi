@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UsbPm_RetrieveHubProperties function"]
 f1_keywords:
  - "usbpmapi/UsbPm_RetrieveHubProperties"
+ - "UsbPm_RetrieveHubProperties"
 ms.keywords: UsbPm_RetrieveHubProperties
 tech.root: usbref
 req.header: usbpmapi.h

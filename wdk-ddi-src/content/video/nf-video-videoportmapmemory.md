@@ -10,6 +10,7 @@ keywords: ["VideoPortMapMemory function"]
 ms.keywords: VideoPortMapMemory, VideoPortMapMemory function [Display Devices], VideoPort_Functions_53fef559-5fbb-4e9a-9152-b44be67bd63c.xml, display.videoportmapmemory, video/VideoPortMapMemory
 f1_keywords:
  - "video/VideoPortMapMemory"
+ - "VideoPortMapMemory"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

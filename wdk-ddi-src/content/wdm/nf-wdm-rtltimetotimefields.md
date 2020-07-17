@@ -10,6 +10,7 @@ keywords: ["RtlTimeToTimeFields function"]
 ms.keywords: RtlTimeToTimeFields, RtlTimeToTimeFields routine [Kernel-Mode Driver Architecture], k109_574f7b2f-cbb5-447c-84d5-88179cbe4cb7.xml, kernel.rtltimetotimefields, wdm/RtlTimeToTimeFields
 f1_keywords:
  - "wdm/RtlTimeToTimeFields"
+ - "RtlTimeToTimeFields"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

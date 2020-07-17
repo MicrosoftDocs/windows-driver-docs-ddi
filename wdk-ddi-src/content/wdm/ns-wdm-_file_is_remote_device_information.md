@@ -10,6 +10,7 @@ keywords: ["_FILE_IS_REMOTE_DEVICE_INFORMATION structure"]
 ms.keywords: "*PFILE_IS_REMOTE_DEVICE_INFORMATION, FILE_IS_REMOTE_DEVICE_INFORMATION, FILE_IS_REMOTE_DEVICE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_IS_REMOTE_DEVICE_INFORMATION, PFILE_IS_REMOTE_DEVICE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_IS_REMOTE_DEVICE_INFORMATION, kernel.file_is_remote_device_information, wdm/FILE_IS_REMOTE_DEVICE_INFORMATION, wdm/PFILE_IS_REMOTE_DEVICE_INFORMATION"
 f1_keywords:
  - "wdm/FILE_IS_REMOTE_DEVICE_INFORMATION"
+ - "FILE_IS_REMOTE_DEVICE_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

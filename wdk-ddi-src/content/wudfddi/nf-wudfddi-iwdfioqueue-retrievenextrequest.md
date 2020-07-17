@@ -10,6 +10,7 @@ keywords: ["IWDFIoQueue::RetrieveNextRequest"]
 ms.keywords: IWDFIoQueue interface,RetrieveNextRequest method, IWDFIoQueue.RetrieveNextRequest, IWDFIoQueue::RetrieveNextRequest, RetrieveNextRequest, RetrieveNextRequest method, RetrieveNextRequest method,IWDFIoQueue interface, UMDFQueueObjectRef_d76f57ad-f8d5-4a09-861f-26c6d5e6a709.xml, umdf.iwdfioqueue_retrievenextrequest, wdf.iwdfioqueue_retrievenextrequest, wudfddi/IWDFIoQueue::RetrieveNextRequest
 f1_keywords:
  - "wudfddi/IWDFIoQueue.RetrieveNextRequest"
+ - "IWDFIoQueue.RetrieveNextRequest"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

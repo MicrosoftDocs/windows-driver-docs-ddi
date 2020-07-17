@@ -8,6 +8,7 @@ ms.date: 08/20/2018
 keywords: ["_WWAN_SAR_CONFIG_INDICES structure"]
 f1_keywords:
  - "wwan/_WWAN_SAR_CONFIG_INDICES"
+ - "_WWAN_SAR_CONFIG_INDICES"
 ms.keywords: _WWAN_SAR_CONFIG_INDICES, WWAN_SAR_CONFIG_INDICES, *PWWAN_SAR_CONFIG_INDICES, 
 req.header: wwan.h
 req.include-header:

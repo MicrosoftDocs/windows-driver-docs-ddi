@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaParameterInitializer interface"]
 ms.keywords: IPrintSchemaParameterInitializer, IPrintSchemaParameterInitializer interface [Print Devices], IPrintSchemaParameterInitializer interface [Print Devices],described, print.iprintschemaparameterinitializer, printerextension/IPrintSchemaParameterInitializer
 f1_keywords:
  - "printerextension/IPrintSchemaParameterInitializer"
+ - "IPrintSchemaParameterInitializer"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

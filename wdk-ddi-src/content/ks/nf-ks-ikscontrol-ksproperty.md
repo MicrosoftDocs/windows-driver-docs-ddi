@@ -10,6 +10,7 @@ keywords: ["IKsControl::KsProperty"]
 ms.keywords: IKsControl interface [Streaming Media Devices],KsProperty method, IKsControl.KsProperty, IKsControl::KsProperty, KsProperty, KsProperty method [Streaming Media Devices], KsProperty method [Streaming Media Devices],IKsControl interface, avintfc_100fad0d-8ca1-4cf1-88b0-e6ec1a3c55fe.xml, ks/IKsControl::KsProperty, stream.ikscontrol_ksproperty2
 f1_keywords:
  - "ks/IKsControl.KsProperty"
+ - "IKsControl.KsProperty"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: DesktopMobile

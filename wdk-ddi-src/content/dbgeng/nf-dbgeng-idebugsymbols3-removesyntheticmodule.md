@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::RemoveSyntheticModule"]
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],RemoveSyntheticModule method, IDebugSymbols3.RemoveSyntheticModule, IDebugSymbols3::RemoveSyntheticModule, IDebugSymbols_f1ed1ce4-53ad-469f-9ab8-17900b6870e8.xml, RemoveSyntheticModule, RemoveSyntheticModule method [Windows Debugging], RemoveSyntheticModule method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::RemoveSyntheticModule, debugger.removesyntheticmodule
 f1_keywords:
  - "dbgeng/IDebugSymbols3.RemoveSyntheticModule"
+ - "IDebugSymbols3.RemoveSyntheticModule"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

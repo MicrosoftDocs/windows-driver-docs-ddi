@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols4::GetNameByInlineContextWide"]
 ms.keywords: GetNameByInlineContextWide, GetNameByInlineContextWide method [Windows Debugging], GetNameByInlineContextWide method [Windows Debugging],IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging],GetNameByInlineContextWide method, IDebugSymbols4.GetNameByInlineContextWide, IDebugSymbols4::GetNameByInlineContextWide, dbgeng/IDebugSymbols4::GetNameByInlineContextWide, debugger.idebugsymbols4_getnamebyinlinecontextwide
 f1_keywords:
  - "dbgeng/IDebugSymbols4.GetNameByInlineContextWide"
+ - "IDebugSymbols4.GetNameByInlineContextWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

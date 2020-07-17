@@ -8,6 +8,7 @@ ms.date: 08/01/2018
 keywords: ["NetAdapterInitSetDatapathCallbacks function"]
 f1_keywords:
  - "netadapter/NetAdapterInitSetDatapathCallbacks"
+ - "NetAdapterInitSetDatapathCallbacks"
 ms.keywords: NetAdapterInitSetDatapathCallbacks
 req.header: netadapter.h
 req.include-header:

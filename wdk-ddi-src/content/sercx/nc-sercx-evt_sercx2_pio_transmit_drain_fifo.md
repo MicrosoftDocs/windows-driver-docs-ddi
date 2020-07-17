@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO callback function"]
 ms.keywords: 2/EvtSerCx2PioTransmitDrainFifo, EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO, EVT_SERCX2_PIO_TRANSMIT_DRAIN_FIFO callback, EvtSerCx2PioTransmitDrainFifo, EvtSerCx2PioTransmitDrainFifo callback function [Serial Ports], serports.evtsercx2piotransmitdrainfifo
 f1_keywords:
  - "sercx/EvtSerCx2PioTransmitDrainFifo"
+ - "EvtSerCx2PioTransmitDrainFifo"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

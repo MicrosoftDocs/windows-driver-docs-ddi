@@ -10,6 +10,7 @@ keywords: ["RILMSGDCSFLAGS enumeration"]
 ms.keywords: RILMSGDCSFLAGS, RILMSGDCSFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_DCSFLAG_ALL, RIL_DCSFLAG_COMPRESSED, RIL_DCSFLAG_DISCARD, RIL_DCSFLAG_INDICATIONACTIVE, netvista.rilmsgdcsflags, ntddrilapitypes/RILMSGDCSFLAGS, ntddrilapitypes/RIL_DCSFLAG_ALL, ntddrilapitypes/RIL_DCSFLAG_COMPRESSED, ntddrilapitypes/RIL_DCSFLAG_DISCARD, ntddrilapitypes/RIL_DCSFLAG_INDICATIONACTIVE
 f1_keywords:
  - "ntddrilapitypes/RILMSGDCSFLAGS"
+ - "RILMSGDCSFLAGS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

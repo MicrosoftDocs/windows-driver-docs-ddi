@@ -10,6 +10,7 @@ keywords: ["_DXVA_COPPStatusHDCPKeyData structure"]
 ms.keywords: DXVA_COPPStatusHDCPKeyData, DXVA_COPPStatusHDCPKeyData structure [Display Devices], _DXVA_COPPStatusHDCPKeyData, display.dxva_coppstatushdcpkeydata, dxva/DXVA_COPPStatusHDCPKeyData, dxvaref_6aca4a16-16df-46ab-be65-b6033258f781.xml
 f1_keywords:
  - "dxva/DXVA_COPPStatusHDCPKeyData"
+ - "DXVA_COPPStatusHDCPKeyData"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

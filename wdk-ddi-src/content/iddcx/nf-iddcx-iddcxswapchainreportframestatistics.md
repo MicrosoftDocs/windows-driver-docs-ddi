@@ -10,6 +10,7 @@ keywords: ["IddCxSwapChainReportFrameStatistics function"]
 ms.keywords: IddCxSwapChainReportFrameStatistics, IddCxSwapChainReportFrameStatistics method [Display Devices], display.iddcxswapchainreportframestatistics, iddcx/IddCxSwapChainReportFrameStatistics
 f1_keywords:
  - "iddcx/IddCxSwapChainReportFrameStatistics"
+ - "IddCxSwapChainReportFrameStatistics"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_DDICHECKOVERLAYSUPPORTINPUT structure"]
 ms.keywords: D3D_other_Structs_194edebf-9bbd-465b-a731-ad3e10f6e809.xml, DDICHECKOVERLAYSUPPORTINPUT, DDICHECKOVERLAYSUPPORTINPUT structure [Display Devices], _DDICHECKOVERLAYSUPPORTINPUT, d3dumddi/DDICHECKOVERLAYSUPPORTINPUT, display.ddicheckoverlaysupportinput
 f1_keywords:
  - "d3dumddi/DDICHECKOVERLAYSUPPORTINPUT"
+ - "DDICHECKOVERLAYSUPPORTINPUT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

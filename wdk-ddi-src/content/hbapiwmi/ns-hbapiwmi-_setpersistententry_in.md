@@ -10,6 +10,7 @@ keywords: ["_SetPersistentEntry_IN structure"]
 ms.keywords: "*PSetPersistentEntry_IN, PSetPersistentEntry_IN, PSetPersistentEntry_IN structure pointer [Storage Devices], SetPersistentEntry_IN, SetPersistentEntry_IN structure [Storage Devices], _SetPersistentEntry_IN, hbapiwmi/PSetPersistentEntry_IN, hbapiwmi/SetPersistentEntry_IN, storage.setpersistententry_in, structs-Fibre_7382da5e-059a-4e11-9db7-dbc3dae24928.xml"
 f1_keywords:
  - "hbapiwmi/SetPersistentEntry_IN"
+ - "SetPersistentEntry_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_PEP_PERF_STATE_UNIT enumeration"]
 ms.keywords: "*PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PepPerfStateUnitBandwidth, PepPerfStateUnitFrequency, PepPerfStateUnitMax, PepPerfStateUnitOther, _PEP_PERF_STATE_UNIT, kernel.pep_perf_state_unit, pepfx/PEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitBandwidth, pepfx/PepPerfStateUnitFrequency, pepfx/PepPerfStateUnitMax, pepfx/PepPerfStateUnitOther"
 f1_keywords:
  - "pep_x/PEP_PERF_STATE_UNIT"
+ - "PEP_PERF_STATE_UNIT"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

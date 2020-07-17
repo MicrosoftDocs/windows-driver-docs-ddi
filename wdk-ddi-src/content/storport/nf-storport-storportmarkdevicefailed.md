@@ -10,6 +10,7 @@ ms.date: 03/19/2019
 keywords: ["StorPortMarkDeviceFailed function"]
 f1_keywords:
  - "storport/StorPortMarkDeviceFailed"
+ - "StorPortMarkDeviceFailed"
 ms.keywords: StorPortMarkDeviceFailed
 req.header: storport.h
 req.include-header:

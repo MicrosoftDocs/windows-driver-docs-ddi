@@ -10,6 +10,7 @@ keywords: ["WDF_READ_REGISTER_USHORT function"]
 ms.keywords: WDF_READ_REGISTER_USHORT, WDF_READ_REGISTER_USHORT function, wdf.wdf_read_register_ushort, wdfhwaccess/WDF_READ_REGISTER_USHORT
 f1_keywords:
  - "wdfhwaccess/WDF_READ_REGISTER_USHORT"
+ - "WDF_READ_REGISTER_USHORT"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_HIDP_UNKNOWN_TOKEN structure"]
 ms.keywords: "*PHIDP_UNKNOWN_TOKEN, HIDP_UNKNOWN_TOKEN, HIDP_UNKNOWN_TOKEN structure [Human Input Devices], PHIDP_UNKNOWN_TOKEN, PHIDP_UNKNOWN_TOKEN structure pointer [Human Input Devices], _HIDP_UNKNOWN_TOKEN, hid.hidp_unknown_token, hidpi/HIDP_UNKNOWN_TOKEN, hidpi/PHIDP_UNKNOWN_TOKEN, hidstrct_646ea225-5fff-4430-9112-06bb4cf8c988.xml"
 f1_keywords:
  - "hidpi/HIDP_UNKNOWN_TOKEN"
+ - "HIDP_UNKNOWN_TOKEN"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO structure"]
 ms.keywords: "*PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, ndis/NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, ndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO, netvista.ndis_tcp_large_send_offload_net_buffer_list_info, tcpip_offload_ref_ea60f429-377b-47e6-bb4b-aff34288fa17.xml"
 f1_keywords:
  - "ndis/NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO"
+ - "NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

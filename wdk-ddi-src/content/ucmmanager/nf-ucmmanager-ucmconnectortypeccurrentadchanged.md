@@ -10,6 +10,7 @@ keywords: ["UcmConnectorTypeCCurrentAdChanged function"]
 ms.keywords: UcmConnectorTypeCCurrentAdChanged, UcmConnectorTypeCCurrentAdChanged method [Buses], buses.ucmconnectortypeccurrentadchanged, ucmmanager/UcmConnectorTypeCCurrentAdChanged
 f1_keywords:
  - "ucmmanager/UcmConnectorTypeCCurrentAdChanged"
+ - "UcmConnectorTypeCCurrentAdChanged"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

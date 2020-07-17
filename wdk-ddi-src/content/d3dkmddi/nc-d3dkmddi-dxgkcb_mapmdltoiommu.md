@@ -26,6 +26,7 @@ targetos: Windows
 tech.root: display
 f1_keywords:
  - "d3dkmddi/DXGKCB_MAPMDLTOIOMMU"
+ - "DXGKCB_MAPMDLTOIOMMU"
 topic_type:
  - apiref
 api_type:

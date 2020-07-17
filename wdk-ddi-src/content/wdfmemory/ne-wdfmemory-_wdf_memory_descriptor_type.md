@@ -10,6 +10,7 @@ keywords: ["_WDF_MEMORY_DESCRIPTOR_TYPE enumeration"]
 ms.keywords: DFMemoryObjectRef_3817f18e-3d20-43d6-b6f0-584c1533fe9a.xml, WDF_MEMORY_DESCRIPTOR_TYPE, WDF_MEMORY_DESCRIPTOR_TYPE enumeration, WdfMemoryDescriptorTypeBuffer, WdfMemoryDescriptorTypeHandle, WdfMemoryDescriptorTypeInvalid, WdfMemoryDescriptorTypeMdl, _WDF_MEMORY_DESCRIPTOR_TYPE, kmdf.wdf_memory_descriptor_type, wdf.wdf_memory_descriptor_type, wdfmemory/WDF_MEMORY_DESCRIPTOR_TYPE, wdfmemory/WdfMemoryDescriptorTypeBuffer, wdfmemory/WdfMemoryDescriptorTypeHandle, wdfmemory/WdfMemoryDescriptorTypeInvalid, wdfmemory/WdfMemoryDescriptorTypeMdl
 f1_keywords:
  - "wdfmemory/WDF_MEMORY_DESCRIPTOR_TYPE"
+ - "WDF_MEMORY_DESCRIPTOR_TYPE"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Windows

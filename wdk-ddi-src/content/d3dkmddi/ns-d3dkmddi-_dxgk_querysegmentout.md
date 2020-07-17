@@ -9,6 +9,7 @@ keywords: ["_DXGK_QUERYSEGMENTOUT structure"]
 ms.keywords: DXGK_QUERYSEGMENTOUT, DXGK_QUERYSEGMENTOUT structure [Display Devices], DmStructs_69650838-cd41-4786-aa3c-b2617b7d97b4.xml, _DXGK_QUERYSEGMENTOUT, d3dkmddi/DXGK_QUERYSEGMENTOUT, display.dxgk_querysegmentout
 f1_keywords:
  - "d3dkmddi/DXGK_QUERYSEGMENTOUT"
+ - "DXGK_QUERYSEGMENTOUT"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

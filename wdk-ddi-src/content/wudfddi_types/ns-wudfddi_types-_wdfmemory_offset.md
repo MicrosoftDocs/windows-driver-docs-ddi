@@ -10,6 +10,7 @@ keywords: ["_WDFMEMORY_OFFSET structure"]
 ms.keywords: "*PWDFMEMORY_OFFSET, PWDFMEMORY_OFFSET, PWDFMEMORY_OFFSET structure pointer, WDFMEMORY_OFFSET, WDFMEMORY_OFFSET structure, _WDFMEMORY_OFFSET, umdf.wdfmemory_offset, umdfstructs_919b5e02-39d3-4f06-867d-43133c008e85.xml, wdf.wdfmemory_offset_umdf, wudfddi_types/PWDFMEMORY_OFFSET, wudfddi_types/WDFMEMORY_OFFSET"
 f1_keywords:
  - "wudfddi_types/WDFMEMORY_OFFSET"
+ - "WDFMEMORY_OFFSET"
 req.header: wudfddi_types.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

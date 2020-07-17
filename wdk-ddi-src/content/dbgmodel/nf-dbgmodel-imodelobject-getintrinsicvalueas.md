@@ -7,6 +7,7 @@ ms.date: 08/09/2018
 keywords: ["IModelObject::GetIntrinsicValueAs"]
 f1_keywords:
  - "dbgmodel/IModelObject.GetIntrinsicValueAs"
+ - "IModelObject.GetIntrinsicValueAs"
 ms.keywords: IModelObject::GetIntrinsicValueAs, GetIntrinsicValueAs, IModelObject.GetIntrinsicValueAs, IModelObject::GetIntrinsicValueAs, IModelObject.GetIntrinsicValueAs
 req.header: dbgmodel.h
 req.include-header:

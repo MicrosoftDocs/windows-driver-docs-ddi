@@ -9,6 +9,7 @@ keywords: ["D3D12DDI_RANGE structure"]
 ms.keywords: D3D12DDI_RANGE, D3D12DDI_RANGE structure [Display Devices], d3d12umddi/D3D12DDI_RANGE, display.d3d12ddi_range
 f1_keywords:
  - "d3d12umddi/D3D12DDI_RANGE"
+ - "D3D12DDI_RANGE"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

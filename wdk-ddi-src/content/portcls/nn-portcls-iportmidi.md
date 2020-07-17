@@ -10,6 +10,7 @@ keywords: ["IPortMidi interface"]
 ms.keywords: IPortMidi, IPortMidi interface [Audio Devices], IPortMidi interface [Audio Devices],described, audio.iportmidi, audmp-routines_52a1c6a3-7658-4c69-a4c9-6d965a1d99c9.xml, portcls/IPortMidi
 f1_keywords:
  - "portcls/IPortMidi"
+ - "IPortMidi"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_VERSION64_FROM16 macro"]
 f1_keywords:
  - "d3dumddi/D3DDDI_VERSION64_FROM16"
+ - "D3DDDI_VERSION64_FROM16"
 ms.keywords: D3DDDI_VERSION64_FROM16
 req.header: d3dumddi.h
 req.include-header:

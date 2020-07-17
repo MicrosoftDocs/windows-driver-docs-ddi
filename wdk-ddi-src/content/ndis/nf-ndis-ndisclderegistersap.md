@@ -10,6 +10,7 @@ keywords: ["NdisClDeregisterSap function"]
 ms.keywords: NdisClDeregisterSap, NdisClDeregisterSap function [Network Drivers Starting with Windows Vista], condis_client_ref_44c25719-9fbb-496b-97f6-f897cfe2b346.xml, ndis/NdisClDeregisterSap, netvista.ndisclderegistersap
 f1_keywords:
  - "ndis/NdisClDeregisterSap"
+ - "NdisClDeregisterSap"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["PFNKSITEMFREECALLBACK callback function"]
 ms.keywords: KStrItemFreeCallback, KStrItemFreeCallback routine [Streaming Media Devices], PFNKSITEMFREECALLBACK, ks/KStrItemFreeCallback, ksfunc_3d98c1cb-4984-4d82-8e58-181445f1feca.xml, stream.kstritemfreecallback
 f1_keywords:
  - "ks/KStrItemFreeCallback"
+ - "KStrItemFreeCallback"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_WDF_TASK_QUEUE_CONFIG structure"]
 ms.keywords: "*PWDF_TASK_QUEUE_CONFIG, PWDF_TASK_QUEUE_CONFIG, PWDF_TASK_QUEUE_CONFIG structure pointer, WDF_TASK_QUEUE_CONFIG, WDF_TASK_QUEUE_CONFIG structure, _WDF_TASK_QUEUE_CONFIG, wdf.wdf_task_queue_config, wdfcompanion/PWDF_TASK_QUEUE_CONFIG, wdfcompanion/WDF_TASK_QUEUE_CONFIG"
 f1_keywords:
  - "wdfcompanion/WDF_TASK_QUEUE_CONFIG"
+ - "WDF_TASK_QUEUE_CONFIG"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows

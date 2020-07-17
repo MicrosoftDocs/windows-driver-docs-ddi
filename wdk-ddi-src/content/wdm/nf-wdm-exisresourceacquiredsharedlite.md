@@ -10,6 +10,7 @@ keywords: ["ExIsResourceAcquiredSharedLite function"]
 ms.keywords: ExIsResourceAcquiredLite, ExIsResourceAcquiredSharedLite, ExIsResourceAcquiredSharedLite routine [Kernel-Mode Driver Architecture], k102_e1ae158d-fd02-4962-813f-7bd87943f033.xml, kernel.exisresourceacquiredsharedlite, wdm/ExIsResourceAcquiredSharedLite
 f1_keywords:
  - "wdm/ExIsResourceAcquiredSharedLite"
+ - "ExIsResourceAcquiredSharedLite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

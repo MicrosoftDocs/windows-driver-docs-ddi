@@ -10,6 +10,7 @@ keywords: ["_VERIFY_INFORMATION structure"]
 ms.keywords: "*PVERIFY_INFORMATION, PVERIFY_INFORMATION, PVERIFY_INFORMATION structure pointer [Storage Devices], VERIFY_INFORMATION, VERIFY_INFORMATION structure [Storage Devices], _VERIFY_INFORMATION, ntdddisk/PVERIFY_INFORMATION, ntdddisk/VERIFY_INFORMATION, storage.verify_information, structs-disk_fbed0038-effc-40d8-8814-921dfd627a94.xml"
 f1_keywords:
  - "ntdddisk/VERIFY_INFORMATION"
+ - "VERIFY_INFORMATION"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

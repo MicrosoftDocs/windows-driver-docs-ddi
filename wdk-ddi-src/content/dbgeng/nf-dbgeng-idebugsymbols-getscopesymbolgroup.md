@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols::GetScopeSymbolGroup"]
 ms.keywords: GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], GetScopeSymbolGroup method [Windows Debugging],IDebugSymbols interface, GetScopeSymbolGroup method [Windows Debugging],IDebugSymbols2 interface, GetScopeSymbolGroup method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetScopeSymbolGroup method, IDebugSymbols.GetScopeSymbolGroup, IDebugSymbols2 interface [Windows Debugging],GetScopeSymbolGroup method, IDebugSymbols2::GetScopeSymbolGroup, IDebugSymbols3 interface [Windows Debugging],GetScopeSymbolGroup method, IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols::GetScopeSymbolGroup, IDebugSymbols_a51f6be3-09dc-48a4-ae45-149fea6bfb1b.xml, dbgeng/IDebugSymbols2::GetScopeSymbolGroup, dbgeng/IDebugSymbols3::GetScopeSymbolGroup, dbgeng/IDebugSymbols::GetScopeSymbolGroup, debugger.getscopesymbolgroup
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetScopeSymbolGroup"
+ - "IDebugSymbols.GetScopeSymbolGroup"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

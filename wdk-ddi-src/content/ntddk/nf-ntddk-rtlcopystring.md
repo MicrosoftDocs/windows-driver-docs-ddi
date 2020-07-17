@@ -10,6 +10,7 @@ keywords: ["RtlCopyString function"]
 ms.keywords: RtlCopyString, RtlCopyString routine [Kernel-Mode Driver Architecture], k109_c68983f1-ec02-405f-a3a6-d1f3884fe303.xml, kernel.rtlcopystring, ntddk/RtlCopyString
 f1_keywords:
  - "ntddk/RtlCopyString"
+ - "RtlCopyString"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

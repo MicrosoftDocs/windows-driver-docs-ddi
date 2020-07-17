@@ -10,6 +10,7 @@ keywords: ["RtlDecompressFragment function"]
 ms.keywords: RtlDecompressFragment, RtlDecompressFragment function [Installable File System Drivers], ifsk.rtldecompressfragment, ntifs/RtlDecompressFragment, rtlref_40a25add-c5bc-40f5-bb79-d5dcd6c11d69.xml
 f1_keywords:
  - "ntifs/RtlDecompressFragment"
+ - "RtlDecompressFragment"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal

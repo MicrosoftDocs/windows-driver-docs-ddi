@@ -10,6 +10,7 @@ keywords: ["SpbControllerSetIoOtherCallback function"]
 ms.keywords: SPB.spbcontrollersetioothercallback, SpbControllerSetIoOtherCallback, SpbControllerSetIoOtherCallback method [Buses], spbcx/SpbControllerSetIoOtherCallback
 f1_keywords:
  - "spbcx/SpbControllerSetIoOtherCallback"
+ - "SpbControllerSetIoOtherCallback"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal

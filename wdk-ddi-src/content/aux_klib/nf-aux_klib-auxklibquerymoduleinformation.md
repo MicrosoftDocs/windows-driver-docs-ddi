@@ -10,6 +10,7 @@ keywords: ["AuxKlibQueryModuleInformation function"]
 ms.keywords: AuxKlibQueryModuleInformation, AuxKlibQueryModuleInformation routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibQueryModuleInformation, aux_klib_555c5806-0b0d-48c1-9c50-b0496fb4e807.xml, kernel.auxklibquerymoduleinformation
 f1_keywords:
  - "aux_klib/AuxKlibQueryModuleInformation"
+ - "AuxKlibQueryModuleInformation"
 req.header: aux_klib.h
 req.include-header: Aux_klib.h
 req.target-type: Universal

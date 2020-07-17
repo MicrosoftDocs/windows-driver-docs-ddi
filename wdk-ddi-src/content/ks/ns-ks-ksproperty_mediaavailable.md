@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_MEDIAAVAILABLE structure"]
 ms.keywords: "*PKSPROPERTY_MEDIAAVAILABLE, KSPROPERTY_MEDIAAVAILABLE, KSPROPERTY_MEDIAAVAILABLE structure [Streaming Media Devices], PKSPROPERTY_MEDIAAVAILABLE, PKSPROPERTY_MEDIAAVAILABLE structure pointer [Streaming Media Devices], ks-struct_bb14a2ee-bf9b-4a73-ae35-967aea3d7086.xml, ks/KSPROPERTY_MEDIAAVAILABLE, ks/PKSPROPERTY_MEDIAAVAILABLE, stream.ksproperty_mediaavailable"
 f1_keywords:
  - "ks/KSPROPERTY_MEDIAAVAILABLE"
+ - "KSPROPERTY_MEDIAAVAILABLE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

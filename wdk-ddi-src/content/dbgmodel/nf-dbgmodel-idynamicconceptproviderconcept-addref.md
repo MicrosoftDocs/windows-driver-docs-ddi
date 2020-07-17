@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IDynamicConceptProviderConcept::AddRef"]
 f1_keywords:
  - "dbgmodel/IDynamicConceptProviderConcept.AddRef"
+ - "IDynamicConceptProviderConcept.AddRef"
 ms.keywords: IDynamicConceptProviderConcept::AddRef, AddRef, IDynamicConceptProviderConcept.AddRef, IDynamicConceptProviderConcept::AddRef, IDynamicConceptProviderConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:

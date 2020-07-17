@@ -10,6 +10,7 @@ keywords: ["FltSetVolumeInformation function"]
 ms.keywords: FltApiRef_p_to_z_54f9b03b-9c74-4403-9189-90eb8c93cb3e.xml, FltSetVolumeInformation, FltSetVolumeInformation function [Installable File System Drivers], fltkernel/FltSetVolumeInformation, ifsk.fltsetvolumeinformation
 f1_keywords:
  - "fltkernel/FltSetVolumeInformation"
+ - "FltSetVolumeInformation"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

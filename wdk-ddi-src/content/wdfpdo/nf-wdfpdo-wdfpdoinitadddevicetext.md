@@ -10,6 +10,7 @@ keywords: ["WdfPdoInitAddDeviceText function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_1167066a-5ec9-47b8-be03-32127121fa91.xml, WdfPdoInitAddDeviceText, WdfPdoInitAddDeviceText method, kmdf.wdfpdoinitadddevicetext, wdf.wdfpdoinitadddevicetext, wdfpdo/WdfPdoInitAddDeviceText
 f1_keywords:
  - "wdfpdo/WdfPdoInitAddDeviceText"
+ - "WdfPdoInitAddDeviceText"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

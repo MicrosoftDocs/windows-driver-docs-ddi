@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_DOD_SET_DIRTYRECT_MODE structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_DOD_SET_DIRTYRECT_MODE"
+ - "_D3DKMT_DOD_SET_DIRTYRECT_MODE"
 ms.keywords: _D3DKMT_DOD_SET_DIRTYRECT_MODE, D3DKMT_DOD_SET_DIRTYRECT_MODE, 
 req.header: d3dkmthk.h
 req.include-header:

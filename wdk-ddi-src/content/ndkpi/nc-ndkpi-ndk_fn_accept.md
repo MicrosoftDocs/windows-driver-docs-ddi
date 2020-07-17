@@ -10,6 +10,7 @@ keywords: ["NDK_FN_ACCEPT callback function"]
 ms.keywords: NDK_FN_ACCEPT, NDK_FN_ACCEPT callback, NdkAccept, NdkAccept callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkAccept, netvista.ndk_fn_accept
 f1_keywords:
  - "ndkpi/NdkAccept"
+ - "NdkAccept"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_FIRMWARE_ACTIVATE IOCTL"]
 ms.keywords: IOCTL_STORAGE_FIRMWARE_ACTIVATE, IOCTL_STORAGE_FIRMWARE_ACTIVATE control, IOCTL_STORAGE_FIRMWARE_ACTIVATE control code [Storage Devices], ntddstor/IOCTL_STORAGE_FIRMWARE_ACTIVATE, storage.ioctl_storage_firmware_activate
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_FIRMWARE_ACTIVATE"
+ - "IOCTL_STORAGE_FIRMWARE_ACTIVATE"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

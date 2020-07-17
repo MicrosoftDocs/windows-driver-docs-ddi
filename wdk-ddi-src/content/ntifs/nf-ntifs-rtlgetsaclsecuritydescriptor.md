@@ -10,6 +10,7 @@ keywords: ["RtlGetSaclSecurityDescriptor function"]
 ms.keywords: RtlGetSaclSecurityDescriptor, RtlGetSaclSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetsaclsecuritydescriptor, ntifs/RtlGetSaclSecurityDescriptor, rtlref_708c4a48-6840-426d-9c64-1eff896e8446.xml
 f1_keywords:
  - "ntifs/RtlGetSaclSecurityDescriptor"
+ - "RtlGetSaclSecurityDescriptor"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

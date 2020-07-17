@@ -8,6 +8,7 @@ ms.date: 04/10/2019
 keywords: ["_WWAN_PIN_ACTION_EX2 structure"]
 f1_keywords:
  - "wwan/_WWAN_PIN_ACTION_EX2"
+ - "_WWAN_PIN_ACTION_EX2"
 ms.keywords: _WWAN_PIN_ACTION_EX2, WWAN_PIN_ACTION_EX2, *PWWAN_PIN_ACTION_EX2, 
 req.header: wwan.h
 req.include-header:

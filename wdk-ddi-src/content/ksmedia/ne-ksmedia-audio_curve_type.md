@@ -10,6 +10,7 @@ keywords: ["AUDIO_CURVE_TYPE enumeration"]
 ms.keywords: AUDIO_CURVE_TYPE, AUDIO_CURVE_TYPE enumeration [Audio Devices], AUDIO_CURVE_TYPE_NONE, AUDIO_CURVE_TYPE_WINDOWS_FADE, audio.audio_curve_type, ksmedia/AUDIO_CURVE_TYPE, ksmedia/AUDIO_CURVE_TYPE_NONE, ksmedia/AUDIO_CURVE_TYPE_WINDOWS_FADE
 f1_keywords:
  - "ksmedia/AUDIO_CURVE_TYPE"
+ - "AUDIO_CURVE_TYPE"
 req.header: ksmedia.h
 req.include-header:
 req.target-type: Windows

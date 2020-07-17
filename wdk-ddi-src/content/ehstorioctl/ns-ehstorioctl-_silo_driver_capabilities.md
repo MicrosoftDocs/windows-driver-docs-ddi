@@ -10,6 +10,7 @@ keywords: ["_SILO_DRIVER_CAPABILITIES structure"]
 ms.keywords: "*PSILO_DRIVER_CAPABILITIES, CAP_BANDING_SUPPORT, CAP_ON_DEMAND_AUTHENTICATION, PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], SILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES structure [Storage Devices], _SILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES, ehstorioctl/SILO_DRIVER_CAPABILITIES, storage.silo_driver_capabilities"
 f1_keywords:
  - "ehstorioctl/SILO_DRIVER_CAPABILITIES"
+ - "SILO_DRIVER_CAPABILITIES"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows

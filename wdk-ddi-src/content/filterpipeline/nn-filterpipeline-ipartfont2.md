@@ -10,6 +10,7 @@ keywords: ["IPartFont2 interface"]
 ms.keywords: IPartFont2, IPartFont2 interface [Print Devices], IPartFont2 interface [Print Devices],described, filterpipeline/IPartFont2, print.ipartfont2
 f1_keywords:
  - "filterpipeline/IPartFont2"
+ - "IPartFont2"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Windows

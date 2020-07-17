@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_QUERY_UI_REQUEST callback"]
 ms.keywords: DOT11EXTIHV_QUERY_UI_REQUEST, Dot11ExtIhvQueryUIRequest, Dot11ExtIhvQueryUIRequest callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_b820a678-9e05-4f96-87bd-ed1154317091.xml, netvista.dot11extihvqueryuirequest, wlanihv/Dot11ExtIhvQueryUIRequest
 f1_keywords:
  - "wlanihv/Dot11ExtIhvQueryUIRequest"
+ - "Dot11ExtIhvQueryUIRequest"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

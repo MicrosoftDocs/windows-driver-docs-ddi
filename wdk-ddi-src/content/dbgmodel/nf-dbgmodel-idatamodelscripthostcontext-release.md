@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDataModelScriptHostContext::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptHostContext.Release"
+ - "IDataModelScriptHostContext.Release"
 ms.keywords: IDataModelScriptHostContext::Release, Release, IDataModelScriptHostContext.Release, IDataModelScriptHostContext::Release, IDataModelScriptHostContext.Release
 req.header: dbgmodel.h
 req.include-header:

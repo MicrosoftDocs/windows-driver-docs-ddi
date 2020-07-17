@@ -10,6 +10,7 @@ keywords: ["WdfFdoLockStaticChildListForIteration function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_d20e71b2-fc76-4eb5-9911-bb7014467b4e.xml, WdfFdoLockStaticChildListForIteration, WdfFdoLockStaticChildListForIteration method, kmdf.wdffdolockstaticchildlistforiteration, wdf.wdffdolockstaticchildlistforiteration, wdffdo/WdfFdoLockStaticChildListForIteration
 f1_keywords:
  - "wdffdo/WdfFdoLockStaticChildListForIteration"
+ - "WdfFdoLockStaticChildListForIteration"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

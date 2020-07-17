@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_OPEN_ADAPTER callback function"]
 ms.keywords: MINIPORT_WDI_OPEN_ADAPTER, MINIPORT_WDI_OPEN_ADAPTER callback, MiniportWdiOpenAdapter, MiniportWdiOpenAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiOpenAdapter, netvista.miniportwdiopenadapter
 f1_keywords:
  - "dot11wdi/MiniportWdiOpenAdapter"
+ - "MiniportWdiOpenAdapter"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfWaitLockAcquire function"]
 ms.keywords: DFSynchroRef_eccb7d51-5e5e-4b2b-8156-c22d35f46809.xml, WdfWaitLockAcquire, WdfWaitLockAcquire method, kmdf.wdfwaitlockacquire, wdf.wdfwaitlockacquire, wdfsync/WdfWaitLockAcquire
 f1_keywords:
  - "wdfsync/WdfWaitLockAcquire"
+ - "WdfWaitLockAcquire"
 req.header: wdfsync.h
 req.include-header: Wdf.h
 req.target-type: Universal

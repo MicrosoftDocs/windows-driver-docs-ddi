@@ -10,6 +10,7 @@ keywords: ["RILSENDMSGACKPARAMS_V1 structure"]
 ms.keywords: RILSENDMSGACKPARAMS_V1, RILSENDMSGACKPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgackparams_v1, ntddrilapitypes/RILSENDMSGACKPARAMS_V1
 f1_keywords:
  - "ntddrilapitypes/RILSENDMSGACKPARAMS_V1"
+ - "RILSENDMSGACKPARAMS_V1"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

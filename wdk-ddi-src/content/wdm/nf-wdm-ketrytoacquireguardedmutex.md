@@ -10,6 +10,7 @@ keywords: ["KeTryToAcquireGuardedMutex function"]
 ms.keywords: KeTryToAcquireGuardedMutex, KeTryToAcquireGuardedMutex routine [Kernel-Mode Driver Architecture], k105_4761d5a7-fc37-45de-a35e-7da9a99258b6.xml, kernel.ketrytoacquireguardedmutex, wdm/KeTryToAcquireGuardedMutex
 f1_keywords:
  - "wdm/KeTryToAcquireGuardedMutex"
+ - "KeTryToAcquireGuardedMutex"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

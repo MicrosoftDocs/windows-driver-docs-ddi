@@ -10,6 +10,7 @@ keywords: ["WdfPdoRemoveEjectionRelationsPhysicalDevice function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_7a599cb2-dbb7-4fce-b04b-1b92638e17de.xml, WdfPdoRemoveEjectionRelationsPhysicalDevice, WdfPdoRemoveEjectionRelationsPhysicalDevice method, kmdf.wdfpdoremoveejectionrelationsphysicaldevice, wdf.wdfpdoremoveejectionrelationsphysicaldevice, wdfpdo/WdfPdoRemoveEjectionRelationsPhysicalDevice
 f1_keywords:
  - "wdfpdo/WdfPdoRemoveEjectionRelationsPhysicalDevice"
+ - "WdfPdoRemoveEjectionRelationsPhysicalDevice"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

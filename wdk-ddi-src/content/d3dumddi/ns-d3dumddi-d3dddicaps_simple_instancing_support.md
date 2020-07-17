@@ -10,6 +10,7 @@ keywords: ["D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure"]
 ms.keywords: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure [Display Devices], d3dumddi/D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, display.d3dddicaps_simple_instancing_support
 f1_keywords:
  - "d3dumddi/D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT"
+ - "D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

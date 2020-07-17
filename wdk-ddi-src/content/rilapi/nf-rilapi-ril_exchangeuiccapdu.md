@@ -10,6 +10,7 @@ keywords: ["RIL_ExchangeUiccAPDU function"]
 ms.keywords: RIL_ExchangeUiccAPDU, RIL_ExchangeUiccAPDU method [Network Drivers Starting with Windows Vista], netvista.ril_exchangeuiccapdu, rilapi/RIL_ExchangeUiccAPDU
 f1_keywords:
  - "rilapi/RIL_ExchangeUiccAPDU"
+ - "RIL_ExchangeUiccAPDU"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

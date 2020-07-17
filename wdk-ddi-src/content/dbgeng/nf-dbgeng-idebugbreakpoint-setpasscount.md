@@ -10,6 +10,7 @@ keywords: ["IDebugBreakpoint::SetPassCount"]
 ms.keywords: ComOther_8398fd11-1821-4adb-b8be-4e207b616169.xml, IDebugBreakpoint interface [Windows Debugging],SetPassCount method, IDebugBreakpoint.SetPassCount, IDebugBreakpoint2 interface [Windows Debugging],SetPassCount method, IDebugBreakpoint2::SetPassCount, IDebugBreakpoint::SetPassCount, SetPassCount, SetPassCount method [Windows Debugging], SetPassCount method [Windows Debugging],IDebugBreakpoint interface, SetPassCount method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetPassCount, dbgeng/IDebugBreakpoint::SetPassCount, debugger.setpasscount
 f1_keywords:
  - "dbgeng/IDebugBreakpoint.SetPassCount"
+ - "IDebugBreakpoint.SetPassCount"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RILUICCRESPONSEPARAMMASK enumeration"]
 ms.keywords: RILUICCRESPONSEPARAMMASK, RILUICCRESPONSEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SR_ALL, RIL_PARAM_SR_RESPONSE, RIL_PARAM_SR_RESPONSESIZE, RIL_PARAM_SR_STATUSWORD2, netvista.riluiccresponseparammask, ntddrilapitypes/RILUICCRESPONSEPARAMMASK, ntddrilapitypes/RIL_PARAM_SR_ALL, ntddrilapitypes/RIL_PARAM_SR_RESPONSE, ntddrilapitypes/RIL_PARAM_SR_RESPONSESIZE, ntddrilapitypes/RIL_PARAM_SR_STATUSWORD2
 f1_keywords:
  - "ntddrilapitypes/RILUICCRESPONSEPARAMMASK"
+ - "RILUICCRESPONSEPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

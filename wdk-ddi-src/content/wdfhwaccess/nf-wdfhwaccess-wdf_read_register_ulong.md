@@ -10,6 +10,7 @@ keywords: ["WDF_READ_REGISTER_ULONG function"]
 ms.keywords: WDF_READ_REGISTER_ULONG, WDF_READ_REGISTER_ULONG function, wdf.wdf_read_register_ulong, wdfhwaccess/WDF_READ_REGISTER_ULONG
 f1_keywords:
  - "wdfhwaccess/WDF_READ_REGISTER_ULONG"
+ - "WDF_READ_REGISTER_ULONG"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal

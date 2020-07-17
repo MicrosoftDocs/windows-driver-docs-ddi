@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DDDICB_SYNCTOKEN structure"]
 f1_keywords:
  - "d3dumddi/_D3DDDICB_SYNCTOKEN"
+ - "_D3DDDICB_SYNCTOKEN"
 ms.keywords: _D3DDDICB_SYNCTOKEN, D3DDDICB_SYNCTOKEN, D3DDDICB_ACQUIRERESOURCE
 req.header: d3dumddi.h
 req.include-header:

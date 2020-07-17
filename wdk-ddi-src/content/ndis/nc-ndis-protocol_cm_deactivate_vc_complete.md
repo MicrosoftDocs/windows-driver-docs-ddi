@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CM_DEACTIVATE_VC_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CM_DEACTIVATE_VC_COMPLETE, PROTOCOL_CM_DEACTIVATE_VC_COMPLETE callback, ProtocolCmDeactivateVcComplete, ProtocolCmDeactivateVcComplete callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_ecf43479-8006-4170-9422-604236ede43a.xml, ndis/ProtocolCmDeactivateVcComplete, netvista.protocolcmdeactivatevccomplete
 f1_keywords:
  - "ndis/ProtocolCmDeactivateVcComplete"
+ - "ProtocolCmDeactivateVcComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

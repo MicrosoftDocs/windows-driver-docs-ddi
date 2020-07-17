@@ -10,6 +10,7 @@ keywords: ["_HID_DESCRIPTOR structure"]
 ms.keywords: "*PHID_DESCRIPTOR, HID_DESCRIPTOR, HID_DESCRIPTOR structure [Human Input Devices], PHID_DESCRIPTOR, PHID_DESCRIPTOR structure pointer [Human Input Devices], _HID_DESCRIPTOR, hid.hid_descriptor, hidport/HID_DEVICE_ATTRIBUTES, hidport/PHID_DESCRIPTOR, hidstrct_07b2c0af-449d-484e-8aa8-9d7e3909d113.xml"
 f1_keywords:
  - "hidport/HID_DESCRIPTOR"
+ - "HID_DESCRIPTOR"
 req.header: hidport.h
 req.include-header: Hidport.h
 req.target-type: Windows

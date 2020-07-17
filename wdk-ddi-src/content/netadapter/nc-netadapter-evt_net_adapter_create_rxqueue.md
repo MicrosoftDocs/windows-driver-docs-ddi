@@ -8,6 +8,7 @@ ms.date: 01/18/2019
 keywords: ["EVT_NET_ADAPTER_CREATE_RXQUEUE callback function"]
 f1_keywords:
  - "netadapter/EVT_NET_ADAPTER_CREATE_RXQUEUE"
+ - "EVT_NET_ADAPTER_CREATE_RXQUEUE"
 req.header: netadapter.h
 req.include-header:
 req.target-type: Universal

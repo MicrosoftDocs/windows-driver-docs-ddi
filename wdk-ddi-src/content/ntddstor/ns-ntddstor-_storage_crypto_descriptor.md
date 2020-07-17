@@ -10,6 +10,7 @@ keywords: ["_STORAGE_CRYPTO_DESCRIPTOR structure"]
 ms.keywords: "*PSTORAGE_CRYPTO_DESCRIPTOR, PSTORAGE_CRYPTO_DESCRIPTOR, PSTORAGE_CRYPTO_DESCRIPTOR structure pointer [Storage Devices], STORAGE_CRYPTO_DESCRIPTOR, STORAGE_CRYPTO_DESCRIPTOR structure [Storage Devices], _STORAGE_CRYPTO_DESCRIPTOR, ntddstor/PSTORAGE_CRYPTO_DESCRIPTOR, ntddstor/STORAGE_CRYPTO_DESCRIPTOR, storage.storage_crypto_descriptor"
 f1_keywords:
  - "ntddstor/STORAGE_CRYPTO_DESCRIPTOR"
+ - "STORAGE_CRYPTO_DESCRIPTOR"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows

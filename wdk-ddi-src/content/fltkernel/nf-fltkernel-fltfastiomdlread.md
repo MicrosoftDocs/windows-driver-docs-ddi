@@ -10,6 +10,7 @@ keywords: ["FltFastIoMdlRead function"]
 ms.keywords: FltFastIoMdlRead, FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadDev, ifsk.fltfastiomdlread
 f1_keywords:
  - "fltkernel/FsRtlMdlReadDev"
+ - "FsRtlMdlReadDev"
 req.header: fltkernel.h
 req.include-header: Ntifs.h
 req.target-type: Universal

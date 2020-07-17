@@ -10,6 +10,7 @@ keywords: ["UfxDeviceNotifyHardwareFailure function"]
 ms.keywords: UfxDeviceNotifyHardwareFailure, UfxDeviceNotifyHardwareFailure method [Buses], buses.ufxdevicenotifyhardwarefailure, ufxclient/UfxDeviceNotifyHardwareFailure
 f1_keywords:
  - "ufxclient/UfxDeviceNotifyHardwareFailure"
+ - "UfxDeviceNotifyHardwareFailure"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

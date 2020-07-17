@@ -32,6 +32,7 @@ api_name:
  - D3D12DDI_DISPATCH_MESH_ARGUMENTS
 f1_keywords:
  - d3d12umddi/D3D12DDI_DISPATCH_MESH_ARGUMENTS
+ - ""
 dev_langs:
  - c++
 ---

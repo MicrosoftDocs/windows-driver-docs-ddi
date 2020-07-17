@@ -10,6 +10,7 @@ keywords: ["IKsQualityForwarder::KsFlushClient"]
 ms.keywords: IKsQualityForwarder interface [Streaming Media Devices],KsFlushClient method, IKsQualityForwarder.KsFlushClient, IKsQualityForwarder::KsFlushClient, KsFlushClient, KsFlushClient method [Streaming Media Devices], KsFlushClient method [Streaming Media Devices],IKsQualityForwarder interface, ksproxy/IKsQualityForwarder::KsFlushClient, ksproxy_af5e225b-27b2-4b5a-a06a-1308bf5dfecd.xml, stream.iksqualityforwarder_ksflushclient
 f1_keywords:
  - "ksproxy/IKsQualityForwarder.KsFlushClient"
+ - "IKsQualityForwarder.KsFlushClient"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

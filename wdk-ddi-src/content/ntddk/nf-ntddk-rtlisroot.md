@@ -10,6 +10,7 @@ keywords: ["RtlIsRoot macro"]
 ms.keywords: RtlIsRoot, RtlIsRoot routine [Installable File System Drivers], ifsk.rtlisroot, ntddk/RtlIsRoot, rtlref_d7c73e66-d8b8-4a18-a987-d61f13f48dc4.xml
 f1_keywords:
  - "ntddk/RtlIsRoot"
+ - "RtlIsRoot"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop

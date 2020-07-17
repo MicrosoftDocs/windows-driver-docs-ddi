@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_IA_SETINDEXBUFFER callback function"]
 ms.keywords: IaSetIndexBuffer, IaSetIndexBuffer callback function [Display Devices], PFND3D10DDI_IA_SETINDEXBUFFER, PFND3D10DDI_IA_SETINDEXBUFFER callback, UserModeDisplayDriverDx10_Functions_5b51e721-283c-447e-8170-17af90a29081.xml, d3d10umddi/IaSetIndexBuffer, display.iasetindexbuffer
 f1_keywords:
  - "d3d10umddi/IaSetIndexBuffer"
+ - "IaSetIndexBuffer"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

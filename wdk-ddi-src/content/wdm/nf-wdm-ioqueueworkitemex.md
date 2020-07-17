@@ -10,6 +10,7 @@ keywords: ["IoQueueWorkItemEx function"]
 ms.keywords: IoQueueWorkItemEx, IoQueueWorkItemEx routine [Kernel-Mode Driver Architecture], k104_e14fae9d-5b8c-4683-8226-8694de253b64.xml, kernel.ioqueueworkitemex, wdm/IoQueueWorkItemEx
 f1_keywords:
  - "wdm/IoQueueWorkItemEx"
+ - "IoQueueWorkItemEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

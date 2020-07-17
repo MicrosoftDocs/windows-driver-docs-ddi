@@ -10,6 +10,7 @@ keywords: ["IDebugClient6::SetEventContextCallbacks"]
 ms.keywords: IDebugClient6 interface [Windows Debugging],SetEventContextCallbacks method, IDebugClient6.SetEventContextCallbacks, IDebugClient6::SetEventContextCallbacks, SetEventContextCallbacks, SetEventContextCallbacks method [Windows Debugging], SetEventContextCallbacks method [Windows Debugging],IDebugClient6 interface, dbgeng/IDebugClient6::SetEventContextCallbacks, debugger.idebugclient6_seteventcontextcallbacks
 f1_keywords:
  - "dbgeng/IDebugClient6.SetEventContextCallbacks"
+ - "IDebugClient6.SetEventContextCallbacks"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["StorPortDeviceReady function"]
 ms.keywords: StorPortDeviceReady, StorPortDeviceReady routine [Storage Devices], storage.storportdeviceready, storport/StorPortDeviceReady, storprt_18a6f185-17dd-446c-9bbe-3937e1003a6b.xml
 f1_keywords:
  - "storport/StorPortDeviceReady"
+ - "StorPortDeviceReady"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

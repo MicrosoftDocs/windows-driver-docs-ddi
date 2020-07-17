@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTGetDWMVerticalBlankEvent function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTGetDWMVerticalBlankEvent"
+ - "D3DKMTGetDWMVerticalBlankEvent"
 ms.keywords: D3DKMTGetDWMVerticalBlankEvent
 req.header: d3dkmthk.h
 req.include-header:

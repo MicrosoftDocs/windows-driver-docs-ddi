@@ -10,6 +10,7 @@ keywords: ["VIRTUAL_HW_FIND_ADAPTER callback function"]
 ms.keywords: VIRTUAL_HW_FIND_ADAPTER, VirtualHwStorFindAdapter, VirtualHwStorFindAdapter routine [Storage Devices], storage.virtualhwstorfindadapter, storport/VirtualHwStorFindAdapter, storvmini_d41a0c2e-d224-4cfd-95e1-997b6a54904b.xml
 f1_keywords:
  - "storport/VirtualHwStorFindAdapter"
+ - "VirtualHwStorFindAdapter"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

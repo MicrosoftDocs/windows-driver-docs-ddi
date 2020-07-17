@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFND3DKMT_WAITFORVERTICALBLANKEVENT callback function"]
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_WAITFORVERTICALBLANKEVENT"
+ - "PFND3DKMT_WAITFORVERTICALBLANKEVENT"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -10,6 +10,7 @@ keywords: ["IBidiSpl2 interface"]
 ms.keywords: IBidiSpl2, IBidiSpl2 interface [Print Devices], IBidiSpl2 interface [Print Devices],described, _win32_IBidiSpl2, bidispl/IBidiSpl2, gdi.ibidispl2, print.ibidispl2
 f1_keywords:
  - "bidispl/IBidiSpl2"
+ - "IBidiSpl2"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Windows

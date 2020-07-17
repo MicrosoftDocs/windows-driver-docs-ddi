@@ -10,6 +10,7 @@ keywords: ["IoQueueThreadIrp function"]
 ms.keywords: IoQueueThreadIrp, IoQueueThreadIrp function [Installable File System Drivers], ifsk.ioqueuethreadirp, ioref_e5906bb2-1a02-4405-92b6-64848786b3f0.xml, ntifs/IoQueueThreadIrp
 f1_keywords:
  - "ntifs/IoQueueThreadIrp"
+ - "IoQueueThreadIrp"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

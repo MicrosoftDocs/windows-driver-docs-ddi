@@ -10,6 +10,7 @@ keywords: ["ClfsSetLogFileInformation function"]
 ms.keywords: ClfsSetLogFileInformation, ClfsSetLogFileInformation routine [Kernel-Mode Driver Architecture], Clfs_15ad655b-ee70-4ee8-9868-4e7ab96dfb3a.xml, kernel.clfssetlogfileinformation, wdm/ClfsSetLogFileInformation
 f1_keywords:
  - "wdm/ClfsSetLogFileInformation"
+ - "ClfsSetLogFileInformation"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

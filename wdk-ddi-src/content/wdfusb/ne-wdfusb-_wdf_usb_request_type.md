@@ -10,6 +10,7 @@ keywords: ["_WDF_USB_REQUEST_TYPE enumeration"]
 ms.keywords: "*PWDF_USB_REQUEST_TYPE, DFUsbRef_b3c4cd6e-66ac-40b3-b78b-c550f14c3e94.xml, PWDF_USB_REQUEST_TYPE, PWDF_USB_REQUEST_TYPE enumeration pointer, WDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE enumeration, WdfUsbRequestTypeDeviceControlTransfer, WdfUsbRequestTypeDeviceString, WdfUsbRequestTypeDeviceUrb, WdfUsbRequestTypeInvalid, WdfUsbRequestTypeNoFormat, WdfUsbRequestTypePipeAbort, WdfUsbRequestTypePipeRead, WdfUsbRequestTypePipeReset, WdfUsbRequestTypePipeUrb, WdfUsbRequestTypePipeWrite, _WDF_USB_REQUEST_TYPE, kmdf.wdf_usb_request_type, wdf.wdf_usb_request_type, wdfusb/PWDF_USB_REQUEST_TYPE, wdfusb/WDF_USB_REQUEST_TYPE, wdfusb/WdfUsbRequestTypeDeviceControlTransfer, wdfusb/WdfUsbRequestTypeDeviceString, wdfusb/WdfUsbRequestTypeDeviceUrb, wdfusb/WdfUsbRequestTypeInvalid, wdfusb/WdfUsbRequestTypeNoFormat, wdfusb/WdfUsbRequestTypePipeAbort, wdfusb/WdfUsbRequestTypePipeRead, wdfusb/WdfUsbRequestTypePipeReset, wdfusb/WdfUsbRequestTypePipeUrb, wdfusb/WdfUsbRequestTypePipeWrite"
 f1_keywords:
  - "wdfusb/WDF_USB_REQUEST_TYPE"
+ - "WDF_USB_REQUEST_TYPE"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Windows

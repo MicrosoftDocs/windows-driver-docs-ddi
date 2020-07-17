@@ -10,6 +10,7 @@ keywords: ["WdfDeviceGetDriver function"]
 ms.keywords: DFDeviceObjectGeneralRef_821bd67e-0a04-4664-91e1-4fa608a8b93e.xml, WdfDeviceGetDriver, WdfDeviceGetDriver method, kmdf.wdfdevicegetdriver, wdf.wdfdevicegetdriver, wdfdevice/WdfDeviceGetDriver
 f1_keywords:
  - "wdfdevice/WdfDeviceGetDriver"
+ - "WdfDeviceGetDriver"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

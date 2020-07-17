@@ -10,6 +10,7 @@ keywords: ["BranchOfficeJobDataError structure"]
 ms.keywords: "*PBranchOfficeJobDataError, BranchOfficeJobDataError, BranchOfficeJobDataError structure [Print Devices], PBranchOfficeJobDataError, PBranchOfficeJobDataError structure pointer [Print Devices], print.branchofficejobdataerror, winsplp/BranchOfficeJobDataError, winsplp/PBranchOfficeJobDataError"
 f1_keywords:
  - "winsplp/BranchOfficeJobDataError"
+ - "BranchOfficeJobDataError"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

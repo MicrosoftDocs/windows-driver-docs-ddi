@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE, IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE control code [Parallel Ports], cisspd_79cabd40-4310-48c4-9ee3-f7b50fc60f6f.xml, parallel/IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE, parports.ioctl_internal_parallel_port_allocate
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE"
+ - "IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows

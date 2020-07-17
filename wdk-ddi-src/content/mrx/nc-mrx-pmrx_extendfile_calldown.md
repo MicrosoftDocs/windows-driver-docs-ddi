@@ -10,6 +10,7 @@ keywords: ["PMRX_EXTENDFILE_CALLDOWN callback function"]
 ms.keywords: MRxExtendForCache, MRxExtendForCache routine [Installable File System Drivers], PMRX_EXTENDFILE_CALLDOWN, ifsk.mrxextendforcache, mrx/MRxExtendForCache, mrxref_9d9e2b3a-589c-41a3-b786-fbaaab97814a.xml
 f1_keywords:
  - "mrx/MRxExtendForCache"
+ - "MRxExtendForCache"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

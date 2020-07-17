@@ -10,6 +10,7 @@ keywords: ["_URB_OS_FEATURE_DESCRIPTOR_REQUEST structure"]
 ms.keywords: "_URB_OS_FEATURE_DESCRIPTOR_REQUEST, _URB_OS_FEATURE_DESCRIPTOR_REQUEST structure [Buses], buses._urb_os_feature_descriptor_request, usb/_URB_OS_FEATURE_DESCRIPTOR_REQUEST"
 f1_keywords:
  - "usb/_URB_OS_FEATURE_DESCRIPTOR_REQUEST"
+ - "_URB_OS_FEATURE_DESCRIPTOR_REQUEST"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows

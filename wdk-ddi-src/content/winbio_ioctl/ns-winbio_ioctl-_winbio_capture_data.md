@@ -10,6 +10,7 @@ keywords: ["_WINBIO_CAPTURE_DATA structure"]
 ms.keywords: "*PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA, PWINBIO_CAPTURE_DATA structure pointer [Biometric Devices], WINBIO_CAPTURE_DATA, WINBIO_CAPTURE_DATA structure [Biometric Devices], _WINBIO_CAPTURE_DATA, biometric.winbio_capture_data, biometric_ref_be8dfe0a-ed13-4b31-af93-8fde60a1640f.xml, winbio_ioctl/PWINBIO_CAPTURE_DATA, winbio_ioctl/WINBIO_CAPTURE_DATA"
 f1_keywords:
  - "winbio_ioctl/WINBIO_CAPTURE_DATA"
+ - "WINBIO_CAPTURE_DATA"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows

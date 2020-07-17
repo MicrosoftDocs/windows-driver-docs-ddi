@@ -10,6 +10,7 @@ keywords: ["RtlLookupFirstMatchingElementGenericTableAvl function"]
 ms.keywords: RtlLookupFirstMatchingElementGenericTableAvl, RtlLookupFirstMatchingElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtllookupfirstmatchingelementgenerictableavl, ntddk/RtlLookupFirstMatchingElementGenericTableAvl, rtlref_60dc0941-12da-4d46-8f6d-ffbd2e394ddf.xml
 f1_keywords:
  - "ntddk/RtlLookupFirstMatchingElementGenericTableAvl"
+ - "RtlLookupFirstMatchingElementGenericTableAvl"
 req.header: ntddk.h
 req.include-header: FltKernel.h, Ntifs.h, Ntddk.h
 req.target-type: Universal

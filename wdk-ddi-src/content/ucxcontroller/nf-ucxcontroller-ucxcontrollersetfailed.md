@@ -10,6 +10,7 @@ keywords: ["UcxControllerSetFailed function"]
 ms.keywords: UcxControllerSetFailed, UcxControllerSetFailed method [Buses], buses._ucxcontrollersetfailed, ucxcontroller/UcxControllerSetFailed
 f1_keywords:
  - "ucxcontroller/UcxControllerSetFailed"
+ - "UcxControllerSetFailed"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

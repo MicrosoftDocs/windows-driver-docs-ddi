@@ -10,6 +10,7 @@ keywords: ["CcUnpinData function"]
 ms.keywords: CcUnpinData, CcUnpinData routine [Installable File System Drivers], ccref_ba560a38-4d3b-409f-b1ea-19c3a117615e.xml, ifsk.ccunpindata, ntifs/CcUnpinData
 f1_keywords:
  - "ntifs/CcUnpinData"
+ - "CcUnpinData"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

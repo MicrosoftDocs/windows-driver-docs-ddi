@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlReleaseCommonBuffer function"]
 f1_keywords:
  - "dispmprt/DlReleaseCommonBuffer"
+ - "DlReleaseCommonBuffer"
 ms.keywords: DlReleaseCommonBuffer
 req.header: dispmprt.h
 req.include-header:

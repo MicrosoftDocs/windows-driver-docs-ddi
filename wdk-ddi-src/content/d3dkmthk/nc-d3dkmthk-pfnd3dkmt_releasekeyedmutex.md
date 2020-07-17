@@ -27,6 +27,7 @@ ms.custom: RS5
 tech.root: display
 f1_keywords:
  - "d3dkmthk/PFND3DKMT_RELEASEKEYEDMUTEX"
+ - "PFND3DKMT_RELEASEKEYEDMUTEX"
 topic_type:
  - apiref
 api_type:

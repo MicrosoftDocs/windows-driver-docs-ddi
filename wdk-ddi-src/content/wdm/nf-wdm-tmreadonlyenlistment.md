@@ -10,6 +10,7 @@ keywords: ["TmReadOnlyEnlistment function"]
 ms.keywords: TmReadOnlyEnlistment, TmReadOnlyEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmreadonlyenlistment, ktm_ref_fbd80117-d891-4e06-b271-5d838e7ecab0.xml, wdm/TmReadOnlyEnlistment
 f1_keywords:
  - "wdm/TmReadOnlyEnlistment"
+ - "TmReadOnlyEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

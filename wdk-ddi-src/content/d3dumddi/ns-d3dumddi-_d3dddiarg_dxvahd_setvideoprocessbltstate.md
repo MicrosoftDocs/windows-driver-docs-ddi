@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE structure"]
 ms.keywords: D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE, D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE structure [Display Devices], UMDisplayDriver_param_Structs_fd02ddf9-535d-4c4b-a6fe-6c765170e6f9.xml, _D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE, d3dumddi/D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE, display.d3dddiarg_dxvahd_setvideoprocessbltstate
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE"
+ - "D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

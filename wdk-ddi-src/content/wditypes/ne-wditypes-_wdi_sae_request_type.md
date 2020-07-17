@@ -10,6 +10,7 @@ ms.date: 02/14/2019
 keywords: ["WDI_SAE_REQUEST_TYPE enumeration"]
 f1_keywords:
  - "wditypes/WDI_SAE_REQUEST_TYPE"
+ - "WDI_SAE_REQUEST_TYPE"
 ms.keywords: WDI_SAE_REQUEST_TYPE, WDI_SAE_REQUEST_TYPE, 
 req.header: wditypes.hpp
 req.include-header:

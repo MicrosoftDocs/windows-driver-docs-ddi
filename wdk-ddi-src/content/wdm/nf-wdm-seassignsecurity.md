@@ -10,6 +10,7 @@ keywords: ["SeAssignSecurity function"]
 ms.keywords: SeAssignSecurity, SeAssignSecurity routine [Kernel-Mode Driver Architecture], k110_10d67a00-4643-4d40-b9a2-1a19e79dc755.xml, kernel.seassignsecurity, wdm/SeAssignSecurity
 f1_keywords:
  - "wdm/SeAssignSecurity"
+ - "SeAssignSecurity"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

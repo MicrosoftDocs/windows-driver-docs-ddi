@@ -10,6 +10,7 @@ keywords: ["ChangerInitialize function"]
 ms.keywords: ChangerInitialize, ChangerInitialize function [Storage Devices], chgrmini_025ae048-8625-4039-82a2-29d99dcc4972.xml, mcd/ChangerInitialize, storage.changerinitialize
 f1_keywords:
  - "mcd/ChangerInitialize"
+ - "ChangerInitialize"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

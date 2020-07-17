@@ -8,6 +8,7 @@ ms.date: 04/02/2018
 keywords: ["NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS callback function"]
 f1_keywords:
  - "dot11wdi/NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS"
+ - "NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS"
 req.header: dot11wdi.h
 req.include-header:
 req.target-type:

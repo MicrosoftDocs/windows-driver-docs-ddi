@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_DESTROYPROTECTEDSESSION structure"]
 ms.keywords: D3DKMT_DESTROYPROTECTEDSESSION, D3DKMT_DESTROYPROTECTEDSESSION structure [Display Devices], _D3DKMT_DESTROYPROTECTEDSESSION, d3dkmthk/D3DKMT_DESTROYPROTECTEDSESSION, display.d3dkmt-destroyprotectedsession
 f1_keywords:
  - "d3dkmthk/D3DKMT_DESTROYPROTECTEDSESSION"
+ - "D3DKMT_DESTROYPROTECTEDSESSION"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

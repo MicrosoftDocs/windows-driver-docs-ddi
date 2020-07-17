@@ -8,6 +8,7 @@ ms.date: 02/07/2018
 keywords: ["_NET_DRIVER_GLOBALS structure"]
 f1_keywords:
  - "netadaptercxtypes/NET_DRIVER_GLOBALS"
+ - "NET_DRIVER_GLOBALS"
 ms.keywords: _NET_DRIVER_GLOBALS, *PNET_DRIVER_GLOBALS, NET_DRIVER_GLOBALS, 
 req.header: netadaptercxtypes.h
 req.include-header:

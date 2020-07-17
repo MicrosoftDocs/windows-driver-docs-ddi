@@ -10,6 +10,7 @@ keywords: ["IAdapterPowerManagement interface"]
 ms.keywords: IAdapterPowerManagement, IAdapterPowerManagement interface [Audio Devices], IAdapterPowerManagement interface [Audio Devices],described, audio.iadapterpowermanagement, audmp-routines_9daec120-c61d-426c-b30f-80484e1fb652.xml, portcls/IAdapterPowerManagement
 f1_keywords:
  - "portcls/IAdapterPowerManagement"
+ - "IAdapterPowerManagement"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

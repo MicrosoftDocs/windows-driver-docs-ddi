@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringInitEx function"]
 ms.keywords: RtlUnicodeStringInitEx, RtlUnicodeStringInitEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringinitex, ntstrsafe/RtlUnicodeStringInitEx, safestrings_fab7496b-3acf-416d-8425-6936a73f1ca7.xml
 f1_keywords:
  - "ntstrsafe/RtlUnicodeStringInitEx"
+ - "RtlUnicodeStringInitEx"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

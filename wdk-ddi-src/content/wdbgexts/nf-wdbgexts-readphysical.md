@@ -10,6 +10,7 @@ keywords: ["ReadPhysical function"]
 ms.keywords: ReadPhysical, ReadPhysical function [Windows Debugging], WdbgExts_Ref_4eaa6edb-2297-4454-b4aa-ea69aa5a073c.xml, debugger.readphysical, wdbgexts/ReadPhysical
 f1_keywords:
  - "wdbgexts/ReadPhysical"
+ - "ReadPhysical"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

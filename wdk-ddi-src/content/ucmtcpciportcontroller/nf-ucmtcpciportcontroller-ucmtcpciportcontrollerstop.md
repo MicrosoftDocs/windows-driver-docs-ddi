@@ -10,6 +10,7 @@ keywords: ["UcmTcpciPortControllerStop function"]
 ms.keywords: UcmTcpciPortControllerStop, UcmTcpciPortControllerStop method [Buses], buses.ucmtcpciportcontrollerstop, ucmtcpciportcontroller/UcmTcpciPortControllerStop
 f1_keywords:
  - "ucmtcpciportcontroller/UcmTcpciPortControllerStop"
+ - "UcmTcpciPortControllerStop"
 req.header: ucmtcpciportcontroller.h
 req.include-header: 
 req.target-type: Windows

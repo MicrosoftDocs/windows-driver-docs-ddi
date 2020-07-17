@@ -10,6 +10,7 @@ keywords: ["_KSSTREAM_SEGMENT structure"]
 ms.keywords: "*PKSSTREAM_SEGMENT, KSSTREAM_SEGMENT, KSSTREAM_SEGMENT structure [Streaming Media Devices], PKSSTREAM_SEGMENT, PKSSTREAM_SEGMENT structure pointer [Streaming Media Devices], _KSSTREAM_SEGMENT, ksproxy/KSSTREAM_SEGMENT, ksproxy/PKSSTREAM_SEGMENT, ksproxy_ce88ef52-d88e-4dc8-952d-53dce519518f.xml, stream.ksstream_segment"
 f1_keywords:
  - "ksproxy/KSSTREAM_SEGMENT"
+ - "KSSTREAM_SEGMENT"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

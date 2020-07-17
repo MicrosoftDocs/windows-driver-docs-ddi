@@ -10,6 +10,7 @@ keywords: ["IoWMIExecuteMethod function"]
 ms.keywords: IoWMIExecuteMethod, IoWMIExecuteMethod routine [Kernel-Mode Driver Architecture], k104_9625e06a-3c5a-4950-80be-cc3fb536453c.xml, kernel.iowmiexecutemethod, wdm/IoWMIExecuteMethod
 f1_keywords:
  - "wdm/IoWMIExecuteMethod"
+ - "IoWMIExecuteMethod"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_URS_HARDWARE_EVENT enumeration"]
 ms.keywords: "*PURS_HARDWARE_EVENT, URS_HARDWARE_EVENT, URS_HARDWARE_EVENT enumeration [Buses], URS_HARDWARE_EVENT,*PURS_HARDWARE_EVENT, URS_HARDWARE_EVENT,*PURS_HARDWARE_EVENT enumeration [Buses], UrsHardwareEventDetach, UrsHardwareEventIdFloat, UrsHardwareEventIdGround, UrsHardwareEventNone, UrsHardwareEventPortTypeDfp, UrsHardwareEventPortTypeUfp, _URS_HARDWARE_EVENT, buses.urs_hardware_event, urstypes/URS_HARDWARE_EVENT, urstypes/UrsHardwareEventDetach, urstypes/UrsHardwareEventIdFloat, urstypes/UrsHardwareEventIdGround, urstypes/UrsHardwareEventNone, urstypes/UrsHardwareEventPortTypeDfp, urstypes/UrsHardwareEventPortTypeUfp"
 f1_keywords:
  - "urstypes/URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT"
+ - "URS_HARDWARE_EVENT, *PURS_HARDWARE_EVENT"
 req.header: urstypes.h
 req.include-header: Urscx.h
 req.target-type: Windows

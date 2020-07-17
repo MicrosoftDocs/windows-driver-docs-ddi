@@ -10,6 +10,7 @@ keywords: ["IPrintOemPrintTicketProvider::ValidatePrintTicket"]
 ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices],ValidatePrintTicket method, IPrintOemPrintTicketProvider.ValidatePrintTicket, IPrintOemPrintTicketProvider::ValidatePrintTicket, ValidatePrintTicket, ValidatePrintTicket method [Print Devices], ValidatePrintTicket method [Print Devices],IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml
 f1_keywords:
  - "prcomoem/IPrintOemPrintTicketProvider.ValidatePrintTicket"
+ - "IPrintOemPrintTicketProvider.ValidatePrintTicket"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

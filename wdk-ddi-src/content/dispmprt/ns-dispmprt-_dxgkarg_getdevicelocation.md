@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGKARG_GETDEVICELOCATION structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_GETDEVICELOCATION"
+ - "_DXGKARG_GETDEVICELOCATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_GETDEVICELOCATION, DXGKARG_GETDEVICELOCATION, *PDXGKARG_GETDEVICELOCATION, 

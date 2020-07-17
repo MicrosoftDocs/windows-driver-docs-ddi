@@ -10,6 +10,7 @@ keywords: ["wiauPropsInPropSpec function"]
 ms.keywords: image.wiaupropsinpropspec, wiauFncs_2490b5b3-8051-4711-b681-1aef18580182.xml, wiauPropsInPropSpec, wiauPropsInPropSpec function [Imaging Devices], wiautil/wiauPropsInPropSpec
 f1_keywords:
  - "wiautil/wiauPropsInPropSpec"
+ - "wiauPropsInPropSpec"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RILCALLVIDEOMEDIASTATEPARAMMASK enumeration"]
 ms.keywords: RILCALLVIDEOMEDIASTATEPARAMMASK, RILCALLVIDEOMEDIASTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CALLVIDEO_ALL, RIL_PARAM_CALLVIDEO_CONTEXTID, RIL_PARAM_CALLVIDEO_FLAGS, netvista.rilcallvideomediastateparammask, ntddrilapitypes/RILCALLVIDEOMEDIASTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_CALLVIDEO_ALL, ntddrilapitypes/RIL_PARAM_CALLVIDEO_CONTEXTID, ntddrilapitypes/RIL_PARAM_CALLVIDEO_FLAGS
 f1_keywords:
  - "rilapitypes/RILCALLVIDEOMEDIASTATEPARAMMASK"
+ - "RILCALLVIDEOMEDIASTATEPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

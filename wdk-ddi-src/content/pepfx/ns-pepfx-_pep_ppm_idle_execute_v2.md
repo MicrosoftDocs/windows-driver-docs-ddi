@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_IDLE_EXECUTE_V2 structure"]
 ms.keywords: "*PPEP_PPM_IDLE_EXECUTE_V2, PEP_PPM_IDLE_EXECUTE_V2, PEP_PPM_IDLE_EXECUTE_V2 structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_EXECUTE_V2, PPEP_PPM_IDLE_EXECUTE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_EXECUTE_V2, kernel.pep_ppm_idle_execute_v2, pepfx/PEP_PPM_IDLE_EXECUTE_V2, pepfx/PPEP_PPM_IDLE_EXECUTE_V2"
 f1_keywords:
  - "pepfx/PEP_PPM_IDLE_EXECUTE_V2"
+ - "PEP_PPM_IDLE_EXECUTE_V2"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

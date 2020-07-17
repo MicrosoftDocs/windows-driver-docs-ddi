@@ -9,6 +9,7 @@ keywords: ["D3DKMTDestroyDCFromMemory function"]
 ms.keywords: D3DKMTDestroyDCFromMemory, D3DKMTDestroyDCFromMemory function [Display Devices], OpenGL_Functions_2c70707b-7052-4f5f-8715-e2e61a7ab267.xml, d3dkmthk/D3DKMTDestroyDCFromMemory, display.d3dkmtdestroydcfrommemory
 f1_keywords:
  - "d3dkmthk/D3DKMTDestroyDCFromMemory"
+ - "D3DKMTDestroyDCFromMemory"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

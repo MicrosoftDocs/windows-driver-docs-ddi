@@ -10,6 +10,7 @@ keywords: ["FwpsReferenceNetBufferList0 function"]
 ms.keywords: FwpsReferenceNetBufferList0, FwpsReferenceNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReferenceNetBufferList0, netvista.fwpsreferencenetbufferlist0, wfp_ref_2_funct_3_fwps_R-Z_87b01939-7e75-4049-ae3a-07db074a3e62.xml
 f1_keywords:
  - "fwpsk/FwpsReferenceNetBufferList0"
+ - "FwpsReferenceNetBufferList0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

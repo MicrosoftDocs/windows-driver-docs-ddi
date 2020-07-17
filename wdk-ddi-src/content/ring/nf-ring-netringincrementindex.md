@@ -8,6 +8,7 @@ ms.date: 09/25/2019
 keywords: ["NetRingIncrementIndex function"]
 f1_keywords:
  - "ring/RILWRITEPHONEBOOKENTRYPARAMS"
+ - "RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: NetRingIncrementIndex
 req.header: ring.h
 req.include-header: netadaptercx.h

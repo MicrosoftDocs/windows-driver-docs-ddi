@@ -10,6 +10,7 @@ keywords: ["IMasterClock interface"]
 ms.keywords: IMasterClock, IMasterClock interface [Audio Devices], IMasterClock interface [Audio Devices],described, audio.imasterclock, audmp-routines_b8172e0e-55ac-4abd-8b62-39be5d708f9b.xml, dmusicks/IMasterClock
 f1_keywords:
  - "dmusicks/IMasterClock"
+ - "IMasterClock"
 req.header: dmusicks.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["ZwAllocateVirtualMemory function"]
 ms.keywords: NtAllocateVirtualMemory, ZwAllocateVirtualMemory, ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, kernel.zwallocatevirtualmemory, ntifs/NtAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory
 f1_keywords:
  - "ntifs/ZwAllocateVirtualMemory"
+ - "ZwAllocateVirtualMemory"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

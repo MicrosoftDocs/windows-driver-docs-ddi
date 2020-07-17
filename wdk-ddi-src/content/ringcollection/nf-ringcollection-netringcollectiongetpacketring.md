@@ -8,6 +8,7 @@ ms.date: 02/06/2019
 keywords: ["NetRingCollectionGetPacketRing function"]
 f1_keywords:
  - "ringcollection/RILWRITEPHONEBOOKENTRYPARAMS"
+ - "RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: NetRingCollectionGetPacketRing
 req.header: ringcollection.h
 req.include-header: netadaptercx.h

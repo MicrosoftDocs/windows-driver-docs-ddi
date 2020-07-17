@@ -10,6 +10,7 @@ keywords: ["DebugBaseEventCallbacksWide class"]
 ms.keywords: DebugBaseEventCallbacksWide, DebugBaseEventCallbacksWide class [Windows Debugging], DebugBaseEventCallbacksWide class [Windows Debugging],described, dbgeng/DebugBaseEventCallbacksWide, debugger.debugbaseeventcallbackswide
 f1_keywords:
  - "dbgeng/DebugBaseEventCallbacksWide"
+ - "DebugBaseEventCallbacksWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

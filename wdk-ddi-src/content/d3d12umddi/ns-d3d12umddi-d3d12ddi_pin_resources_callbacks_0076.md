@@ -32,6 +32,7 @@ api_name:
  - D3D12DDI_PIN_RESOURCES_CALLBACKS_0076
 f1_keywords:
  - d3d12umddi/D3D12DDI_PIN_RESOURCES_CALLBACKS_0076
+ - ""
 dev_langs:
  - c++
 ---

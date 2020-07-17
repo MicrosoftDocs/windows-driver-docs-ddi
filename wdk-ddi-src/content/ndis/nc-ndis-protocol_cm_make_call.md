@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CM_MAKE_CALL callback function"]
 ms.keywords: PROTOCOL_CM_MAKE_CALL, PROTOCOL_CM_MAKE_CALL callback, ProtocolCmMakeCall, ProtocolCmMakeCall callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_4f72c0f7-470b-496c-adbb-ea465246fb48.xml, ndis/ProtocolCmMakeCall, netvista.protocolcmmakecall
 f1_keywords:
  - "ndis/ProtocolCmMakeCall"
+ - "ProtocolCmMakeCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

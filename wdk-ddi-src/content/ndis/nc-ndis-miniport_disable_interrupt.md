@@ -10,6 +10,7 @@ keywords: ["MINIPORT_DISABLE_INTERRUPT callback function"]
 ms.keywords: MINIPORT_DISABLE_INTERRUPT, MINIPORT_DISABLE_INTERRUPT callback, MiniportDisableInterruptEx, MiniportDisableInterruptEx callback function [Network Drivers Starting with Windows Vista], ndis/MiniportDisableInterruptEx, ndis_interrupts_miniport_functions_ref_985ddb3d-4a38-4c96-8599-17f211d47b49.xml, netvista.miniportdisableinterruptex
 f1_keywords:
  - "ndis/MiniportDisableInterruptEx"
+ - "MiniportDisableInterruptEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

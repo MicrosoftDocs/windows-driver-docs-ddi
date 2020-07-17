@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_VIDEO_GET_DECODE_PROFILE_COUNT_0020 callback function"]
 ms.keywords: PFND3D12DDI_VIDEO_GET_DECODE_PROFILE_COUNT_0020, PFND3D12DDI_VIDEO_GET_DECODE_PROFILE_COUNT_0020 callback, d3d12umddi/pfnGetDecodeProfileCount, display.pfnd3d12ddi_video_get_decode_profile_count, pfnGetDecodeProfileCount, pfnGetDecodeProfileCount callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnGetDecodeProfileCount"
+ - "pfnGetDecodeProfileCount"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows

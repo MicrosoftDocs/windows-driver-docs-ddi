@@ -10,6 +10,7 @@ keywords: ["IPrintWriteStream interface"]
 ms.keywords: IPrintWriteStream, IPrintWriteStream interface [Print Devices], IPrintWriteStream interface [Print Devices],described, filterpipeline/IPrintWriteStream, filterpipeline_edf6ac16-09e1-433a-8f41-50ba308dc7a7.xml, print.iprintwritestream
 f1_keywords:
  - "filterpipeline/IPrintWriteStream"
+ - "IPrintWriteStream"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

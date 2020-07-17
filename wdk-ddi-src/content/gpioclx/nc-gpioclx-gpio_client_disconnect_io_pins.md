@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_DISCONNECT_IO_PINS callback function"]
 ms.keywords: CLIENT_DisconnectIoPins, CLIENT_DisconnectIoPins callback, CLIENT_DisconnectIoPins callback function [Parallel Ports], GPIO.client_disconnectiopins, GPIO_CLIENT_DISCONNECT_IO_PINS, gpioclx/CLIENT_DisconnectIoPins
 f1_keywords:
  - "gpioclx/CLIENT_DisconnectIoPins"
+ - "CLIENT_DisconnectIoPins"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop

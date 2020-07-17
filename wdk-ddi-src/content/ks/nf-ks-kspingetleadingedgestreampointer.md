@@ -10,6 +10,7 @@ keywords: ["KsPinGetLeadingEdgeStreamPointer function"]
 ms.keywords: KsPinGetLeadingEdgeStreamPointer, KsPinGetLeadingEdgeStreamPointer function [Streaming Media Devices], avfunc_0eb1faec-c090-4647-8306-84cff42ddf9c.xml, ks/KsPinGetLeadingEdgeStreamPointer, stream.kspingetleadingedgestreampointer
 f1_keywords:
  - "ks/KsPinGetLeadingEdgeStreamPointer"
+ - "KsPinGetLeadingEdgeStreamPointer"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

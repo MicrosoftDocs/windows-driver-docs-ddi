@@ -10,6 +10,7 @@ keywords: ["RxReference function"]
 ms.keywords: RxReference, RxReference function [Installable File System Drivers], ifsk.rxreference, rxprocs/RxReference, rxref_3c87a6aa-d0c8-4308-8152-fce322dcb035.xml
 f1_keywords:
  - "rxprocs/RxReference"
+ - "RxReference"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop

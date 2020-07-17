@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveRTStreamNotification::AllocateBufferWithNotification"]
 ms.keywords: AllocateBufferWithNotification, AllocateBufferWithNotification method [Audio Devices], AllocateBufferWithNotification method [Audio Devices],IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification interface [Audio Devices],AllocateBufferWithNotification method, IMiniportWaveRTStreamNotification.AllocateBufferWithNotification, IMiniportWaveRTStreamNotification::AllocateBufferWithNotification, audio.iminiportwavertstreamnotification_allocatebufferwithnotification, audmp-routines_84faf4d3-ee36-4996-8de2-0f89b41c18fe.xml, portcls/IMiniportWaveRTStreamNotification::AllocateBufferWithNotification
 f1_keywords:
  - "portcls/IMiniportWaveRTStreamNotification.AllocateBufferWithNotification"
+ - "IMiniportWaveRTStreamNotification.AllocateBufferWithNotification"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

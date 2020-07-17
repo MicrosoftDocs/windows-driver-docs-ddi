@@ -10,6 +10,7 @@ keywords: ["_tagKSTELEPHONY_PROVIDERCHANGE structure"]
 ms.keywords: "*PKSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE structure [Audio Devices], PKSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE structure pointer [Audio Devices], _tagKSTELEPHONY_PROVIDERCHANGE, audio.kstelephony_providerchange, ksmedia/KSTELEPHONY_PROVIDERCHANGE, ksmedia/PKSTELEPHONY_PROVIDERCHANGE"
 f1_keywords:
  - "ksmedia/KSTELEPHONY_PROVIDERCHANGE"
+ - "KSTELEPHONY_PROVIDERCHANGE"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

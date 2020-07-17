@@ -10,6 +10,7 @@ keywords: ["UdecxUsbEndpointPurgeComplete function"]
 ms.keywords: UdecxUsbEndpointPurgeComplete, UdecxUsbEndpointPurgeComplete function [Buses], buses.udecxusbendpointpurgecomplete, udecxusbendpoint/UdecxUsbEndpointPurgeComplete
 f1_keywords:
  - "udecxusbendpoint/UdecxUsbEndpointPurgeComplete"
+ - "UdecxUsbEndpointPurgeComplete"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows

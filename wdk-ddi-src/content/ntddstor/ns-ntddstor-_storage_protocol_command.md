@@ -10,6 +10,7 @@ keywords: ["_STORAGE_PROTOCOL_COMMAND structure"]
 ms.keywords: "*PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND structure pointer [Storage Devices], STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Storage Devices], _STORAGE_PROTOCOL_COMMAND, ntddstor/PSTORAGE_PROTOCOL_COMMAND, ntddstor/STORAGE_PROTOCOL_COMMAND, storage.storage_protocol_command"
 f1_keywords:
  - "ntddstor/STORAGE_PROTOCOL_COMMAND"
+ - "STORAGE_PROTOCOL_COMMAND"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

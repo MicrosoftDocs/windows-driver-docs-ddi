@@ -10,6 +10,7 @@ keywords: ["_DISK_SIGNATURE structure"]
 ms.keywords: "*PDISK_SIGNATURE, DISK_SIGNATURE, DISK_SIGNATURE structure [Storage Devices], PDISK_SIGNATURE, PDISK_SIGNATURE structure pointer [Storage Devices], _DISK_SIGNATURE, ntddk/DISK_SIGNATURE, ntddk/PDISK_SIGNATURE, storage.disk_signature, structs-disk_6ea56db7-c886-43f2-b9ed-24b0f7e1cb6e.xml"
 f1_keywords:
  - "ntddk/DISK_SIGNATURE"
+ - "DISK_SIGNATURE"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

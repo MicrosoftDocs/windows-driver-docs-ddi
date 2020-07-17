@@ -10,6 +10,7 @@ keywords: ["_OPTPARAM structure"]
 ms.keywords: "*POPTPARAM, OPTPARAM, OPTPARAM structure [Print Devices], POPTPARAM, POPTPARAM structure pointer [Print Devices], _OPTPARAM, compstui/OPTPARAM, compstui/POPTPARAM, cpsuifnc_1c22c283-993e-45d7-b0c7-1148eafeb13c.xml, print.optparam"
 f1_keywords:
  - "compstui/OPTPARAM"
+ - "OPTPARAM"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["MmMapLockedPagesWithReservedMapping function"]
 ms.keywords: MmMapLockedPagesWithReservedMapping, MmMapLockedPagesWithReservedMapping routine [Kernel-Mode Driver Architecture], k106_32161803-dd44-4a5f-a5c0-da6b1a78982c.xml, kernel.mmmaplockedpageswithreservedmapping, wdm/MmMapLockedPagesWithReservedMapping
 f1_keywords:
  - "wdm/MmMapLockedPagesWithReservedMapping"
+ - "MmMapLockedPagesWithReservedMapping"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IWDFRemoteTarget::Stop"]
 ms.keywords: IWDFRemoteTarget interface,Stop method, IWDFRemoteTarget.Stop, IWDFRemoteTarget::Stop, Stop, Stop method, Stop method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_a7d1be6f-890c-4e06-9544-7bd18876b56e.xml, umdf.iwdfremotetarget_stop, wdf.iwdfremotetarget_stop, wudfddi/IWDFRemoteTarget::Stop
 f1_keywords:
  - "wudfddi/IWDFRemoteTarget.Stop"
+ - "IWDFRemoteTarget.Stop"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

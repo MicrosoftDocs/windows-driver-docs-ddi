@@ -10,6 +10,7 @@ keywords: ["MagnetometerAccuracy enumeration"]
 ms.keywords: Approximate, High, MagnetometerAccuracy, MagnetometerAccuracy enumeration [Sensor Devices], Unknown, Unreliable, sensors.magnetometeraccuracy, sensorsclassextension/Approximate, sensorsclassextension/High, sensorsclassextension/MagnetometerAccuracy, sensorsclassextension/Unknown, sensorsclassextension/Unreliable
 f1_keywords:
  - "sensorsclassextension/MagnetometerAccuracy"
+ - "MagnetometerAccuracy"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows

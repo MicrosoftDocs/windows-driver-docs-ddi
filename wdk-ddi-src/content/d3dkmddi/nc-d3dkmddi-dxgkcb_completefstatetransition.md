@@ -9,6 +9,7 @@ keywords: ["DXGKCB_COMPLETEFSTATETRANSITION callback function"]
 ms.keywords: DXGKCB_COMPLETEFSTATETRANSITION, DXGKCB_COMPLETEFSTATETRANSITION callback, DxgkCbCompleteFStateTransition, DxgkCbCompleteFStateTransition callback function [Display Devices], PDXGKCB_COMPLETEFSTATETRANSITION, d3dkmddi/DxgkCbCompleteFStateTransition, display.dxgkcbcompletefstatetransition
 f1_keywords:
  - "d3dkmddi/DxgkCbCompleteFStateTransition"
+ - "DxgkCbCompleteFStateTransition"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

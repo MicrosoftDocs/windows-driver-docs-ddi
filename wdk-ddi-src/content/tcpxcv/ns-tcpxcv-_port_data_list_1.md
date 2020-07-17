@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_PORT_DATA_LIST_1 structure"]
 f1_keywords:
  - "tcpxcv/_PORT_DATA_LIST_1"
+ - "_PORT_DATA_LIST_1"
 ms.keywords: _PORT_DATA_LIST_1, PORT_DATA_LIST_1, *PPORT_DATA_LIST_1, 
 req.header: tcpxcv.h
 req.include-header:

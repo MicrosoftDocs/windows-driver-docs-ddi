@@ -10,6 +10,7 @@ keywords: ["RILPHONEENTRYSTORELOCATION enumeration"]
 ms.keywords: RILPHONEENTRYSTORELOCATION, RILPHONEENTRYSTORELOCATION enumeration [Network Drivers Starting with Windows Vista], RIL_PBLOC_ALL, RIL_PBLOC_OWNNUMBERS, RIL_PBLOC_UICCFIXDIALING, RIL_PBLOC_UICCPHONEBOOK, RIL_PBLOC_UICCSERVICEDIALING, netvista.rilphoneentrystorelocation, ntddrilapitypes/RILPHONEENTRYSTORELOCATION, ntddrilapitypes/RIL_PBLOC_ALL, ntddrilapitypes/RIL_PBLOC_OWNNUMBERS, ntddrilapitypes/RIL_PBLOC_UICCFIXDIALING, ntddrilapitypes/RIL_PBLOC_UICCPHONEBOOK, ntddrilapitypes/RIL_PBLOC_UICCSERVICEDIALING
 f1_keywords:
  - "rilapitypes/RILPHONEENTRYSTORELOCATION"
+ - "RILPHONEENTRYSTORELOCATION"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

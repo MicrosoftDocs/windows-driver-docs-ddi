@@ -10,6 +10,7 @@ keywords: ["ExtRemoteList::ExtRemoteList(ExtRemoteData &,ULONG,bool)"]
 ms.keywords: ExtRemoteList, ExtRemoteList class [Windows Debugging],ExtRemoteList constructor, ExtRemoteList constructor [Windows Debugging], ExtRemoteList constructor [Windows Debugging],ExtRemoteList class, ExtRemoteList.ExtRemoteList, ExtRemoteList.ExtRemoteList(ExtRemoteData &,ULONG,bool), ExtRemoteList.ExtRemoteList(ExtRemoteData&,ULONG,bool), ExtRemoteList::ExtRemoteList, ExtRemoteList::ExtRemoteList(ExtRemoteData &,ULONG,bool), debugger.extremotelist_extremotelist_extremotedata
 f1_keywords:
  - "engextcpp/ExtRemoteList.ExtRemoteList"
+ - "ExtRemoteList.ExtRemoteList"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

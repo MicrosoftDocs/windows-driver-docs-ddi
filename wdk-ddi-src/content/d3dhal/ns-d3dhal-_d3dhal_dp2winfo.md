@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2WINFO structure"]
 ms.keywords: "*LPD3DHAL_DP2WINFO, D3DHAL_DP2WINFO, D3DHAL_DP2WINFO structure [Display Devices], LPD3DHAL_DP2WINFO, LPD3DHAL_DP2WINFO structure pointer [Display Devices], _D3DHAL_DP2WINFO, d3dhal/D3DHAL_DP2WINFO, d3dhal/LPD3DHAL_DP2WINFO, d3dstrct_f0755102-ab0f-43fd-9821-3cde940d24a1.xml, display.d3dhal_dp2winfo"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2WINFO"
+ - "D3DHAL_DP2WINFO"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

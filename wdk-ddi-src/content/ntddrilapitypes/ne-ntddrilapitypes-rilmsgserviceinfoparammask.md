@@ -10,6 +10,7 @@ keywords: ["RILMSGSERVICEINFOPARAMMASK enumeration"]
 ms.keywords: RILMSGSERVICEINFOPARAMMASK, RILMSGSERVICEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MSI_ALL, RIL_PARAM_MSI_STORETOTAL, RIL_PARAM_MSI_STOREUSED, netvista.rilmsgserviceinfoparammask, ntddrilapitypes/RILMSGSERVICEINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_MSI_ALL, ntddrilapitypes/RIL_PARAM_MSI_STORETOTAL, ntddrilapitypes/RIL_PARAM_MSI_STOREUSED
 f1_keywords:
  - "ntddrilapitypes/RILMSGSERVICEINFOPARAMMASK"
+ - "RILMSGSERVICEINFOPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

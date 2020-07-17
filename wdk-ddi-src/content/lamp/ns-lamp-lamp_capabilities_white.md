@@ -10,6 +10,7 @@ keywords: ["LAMP_CAPABILITIES_WHITE structure"]
 ms.keywords: LAMP_CAPABILITIES_WHITE, LAMP_CAPABILITIES_WHITE structure [Streaming Media Devices], lamp/LAMP_CAPABILITIES_WHITE, stream.lamp_capabilities_white
 f1_keywords:
  - "lamp/LAMP_CAPABILITIES_WHITE"
+ - "LAMP_CAPABILITIES_WHITE"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PREGISTER_NOTIFICATION_EVENT callback function"]
 ms.keywords: PREGISTER_NOTIFICATION_EVENT, PREGISTER_NOTIFICATION_EVENT callback, RegisterNotificationEvent, RegisterNotificationEvent callback function [Audio Devices], aud-prop2_fa7a1f01-c553-40df-971b-932f8da48353.xml, audio.registernotificationevent, hdaudio/RegisterNotificationEvent
 f1_keywords:
  - "hdaudio/RegisterNotificationEvent"
+ - "RegisterNotificationEvent"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop

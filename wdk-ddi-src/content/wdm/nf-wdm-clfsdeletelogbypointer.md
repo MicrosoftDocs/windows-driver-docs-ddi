@@ -10,6 +10,7 @@ keywords: ["ClfsDeleteLogByPointer function"]
 ms.keywords: ClfsDeleteLogByPointer, ClfsDeleteLogByPointer routine [Kernel-Mode Driver Architecture], Clfs_d5571c5c-19a0-4113-8401-910721d76191.xml, kernel.clfsdeletelogbypointer, wdm/ClfsDeleteLogByPointer
 f1_keywords:
  - "wdm/ClfsDeleteLogByPointer"
+ - "ClfsDeleteLogByPointer"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

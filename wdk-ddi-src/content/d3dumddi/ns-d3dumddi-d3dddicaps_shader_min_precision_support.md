@@ -10,6 +10,7 @@ keywords: ["D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT structure"]
 ms.keywords: D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT, D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT structure [Display Devices], d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT, display.d3dddicaps_shader_min_precision_support
 f1_keywords:
  - "d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT"
+ - "D3DDDICAPS_SHADER_MIN_PRECISION_SUPPORT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

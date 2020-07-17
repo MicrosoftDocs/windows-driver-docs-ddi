@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IIndexableConcept::GetDimensionality"]
 f1_keywords:
  - "dbgmodel/IIndexableConcept.GetDimensionality"
+ - "IIndexableConcept.GetDimensionality"
 ms.keywords: IIndexableConcept::GetDimensionality, GetDimensionality, IIndexableConcept.GetDimensionality, IIndexableConcept::GetDimensionality, IIndexableConcept.GetDimensionality
 req.header: dbgmodel.h
 req.include-header:

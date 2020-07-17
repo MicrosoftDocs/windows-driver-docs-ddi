@@ -10,6 +10,7 @@ keywords: ["FltFastIoPrepareMdlWrite function"]
 ms.keywords: FltFastIoPrepareMdlWrite, FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], fltkernel/FsRtlPrepareMdlWriteDev, ifsk.fltfastiopreparemdlwrite
 f1_keywords:
  - "fltkernel/FsRtlPrepareMdlWriteDev"
+ - "FsRtlPrepareMdlWriteDev"
 req.header: fltkernel.h
 req.include-header: Ntifs.h
 req.target-type: Universal

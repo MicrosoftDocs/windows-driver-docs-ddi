@@ -10,6 +10,7 @@ keywords: ["RtlStringCchCatA function"]
 ms.keywords: RtlStringCchCat, RtlStringCchCatA, RtlStringCchCatW, RtlStringCchCatW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcat, ntstrsafe/RtlStringCchCatA, ntstrsafe/RtlStringCchCatW, safestrings_03a0e306-3b4e-4808-b257-a8327b688a08.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCchCatW"
+ - "RtlStringCchCatW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

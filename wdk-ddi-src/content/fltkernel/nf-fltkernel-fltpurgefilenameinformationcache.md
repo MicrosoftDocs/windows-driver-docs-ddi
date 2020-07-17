@@ -10,6 +10,7 @@ keywords: ["FltPurgeFileNameInformationCache function"]
 ms.keywords: FltApiRef_p_to_z_2b9315b1-c1c1-4739-af0e-0acebae1c59e.xml, FltPurgeFileNameInformationCache, FltPurgeFileNameInformationCache function [Installable File System Drivers], fltkernel/FltPurgeFileNameInformationCache, ifsk.fltpurgefilenameinformationcache
 f1_keywords:
  - "fltkernel/FltPurgeFileNameInformationCache"
+ - "FltPurgeFileNameInformationCache"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

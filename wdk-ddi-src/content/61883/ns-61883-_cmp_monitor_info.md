@@ -10,6 +10,7 @@ keywords: ["_CMP_MONITOR_INFO structure"]
 ms.keywords: "*PCMP_MONITOR_INFO, 61883/CMP_MONITOR_INFO, 61883/PCMP_MONITOR_INFO, 61883_structures_0064b5eb-7b9a-4f96-9e56-f3190d2fd7a3.xml, CMP_MONITOR_INFO, CMP_MONITOR_INFO structure [Buses], IEEE.cmp_monitor_info, PCMP_MONITOR_INFO, PCMP_MONITOR_INFO structure pointer [Buses], _CMP_MONITOR_INFO"
 f1_keywords:
  - "61883/CMP_MONITOR_INFO"
+ - "CMP_MONITOR_INFO"
 req.header: 61883.h
 req.include-header: 61883.h
 req.target-type: Windows

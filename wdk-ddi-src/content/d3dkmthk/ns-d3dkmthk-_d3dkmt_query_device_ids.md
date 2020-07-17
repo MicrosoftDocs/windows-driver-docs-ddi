@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_QUERY_DEVICE_IDS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_QUERY_DEVICE_IDS"
+ - "_D3DKMT_QUERY_DEVICE_IDS"
 ms.keywords: _D3DKMT_QUERY_DEVICE_IDS, D3DKMT_QUERY_DEVICE_IDS, 
 req.header: d3dkmthk.h
 req.include-header:

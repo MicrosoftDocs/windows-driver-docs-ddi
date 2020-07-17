@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_ABANDONSWAPCHAIN structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_ABANDONSWAPCHAIN"
+ - "_D3DKMT_ABANDONSWAPCHAIN"
 ms.keywords: _D3DKMT_ABANDONSWAPCHAIN, D3DKMT_ABANDONSWAPCHAIN, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_FILEOPEN callback function"]
 ms.keywords: 2/EvtSerCx2FileOpen, EVT_SERCX2_FILEOPEN, EVT_SERCX2_FILEOPEN callback, EvtSerCx2FileOpen, EvtSerCx2FileOpen callback function [Serial Ports], serports.evtsercx2fileopen
 f1_keywords:
  - "sercx/EvtSerCx2FileOpen"
+ - "EvtSerCx2FileOpen"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

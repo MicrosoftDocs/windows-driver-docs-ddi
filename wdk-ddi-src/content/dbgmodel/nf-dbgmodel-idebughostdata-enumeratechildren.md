@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDebugHostData::EnumerateChildren"]
 f1_keywords:
  - "dbgmodel/IDebugHostData.EnumerateChildren"
+ - "IDebugHostData.EnumerateChildren"
 ms.keywords: IDebugHostData::EnumerateChildren, EnumerateChildren, IDebugHostData.EnumerateChildren, IDebugHostData::EnumerateChildren, IDebugHostData.EnumerateChildren
 req.header: dbgmodel.h
 req.include-header:

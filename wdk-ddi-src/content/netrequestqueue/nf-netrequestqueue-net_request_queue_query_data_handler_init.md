@@ -8,6 +8,7 @@ ms.date: 02/09/2018
 keywords: ["NET_REQUEST_QUEUE_QUERY_DATA_HANDLER_INIT function"]
 f1_keywords:
  - "netrequestqueue/NET_REQUEST_QUEUE_QUERY_DATA_HANDLER_INIT"
+ - "NET_REQUEST_QUEUE_QUERY_DATA_HANDLER_INIT"
 ms.keywords: NET_REQUEST_QUEUE_QUERY_DATA_HANDLER_INIT
 req.header: netrequestqueue.h
 req.include-header:

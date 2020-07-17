@@ -10,6 +10,7 @@ keywords: ["IoUpdateLinkShareAccess function"]
 ms.keywords: IoUpdateLinkShareAccess, IoUpdateLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioupdatelinkshareaccess, wdm/IoUpdateLinkShareAccess
 f1_keywords:
  - "wdm/IoUpdateLinkShareAccess"
+ - "IoUpdateLinkShareAccess"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

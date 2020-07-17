@@ -10,6 +10,7 @@ keywords: ["RtlSizeTSub function"]
 ms.keywords: RtlSizeTSub, RtlSizeTSub function [Kernel-Mode Driver Architecture], kernel.rtlsizetsub, ntintsafe/RtlSizeTSub
 f1_keywords:
  - "ntintsafe/RtlSizeTSub"
+ - "RtlSizeTSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

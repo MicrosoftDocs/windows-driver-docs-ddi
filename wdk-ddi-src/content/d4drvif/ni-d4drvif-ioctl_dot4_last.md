@@ -10,6 +10,7 @@ keywords: ["IOCTL_DOT4_LAST IOCTL"]
 ms.keywords: IOCTL_DOT4_LAST, IOCTL_DOT4_LAST control, IOCTL_DOT4_LAST control code [Print Devices], d4drvif/IOCTL_DOT4_LAST, print.ioctl_ioctl_dot4_last
 f1_keywords:
  - "d4drvif/IOCTL_DOT4_LAST"
+ - "IOCTL_DOT4_LAST"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows

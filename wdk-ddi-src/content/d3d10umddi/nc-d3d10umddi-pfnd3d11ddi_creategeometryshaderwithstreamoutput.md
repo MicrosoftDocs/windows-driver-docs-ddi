@@ -9,6 +9,7 @@ keywords: ["PFND3D11DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT callback function"]
 ms.keywords: CreateGeometryShaderWithStreamOutput, CreateGeometryShaderWithStreamOutput callback function [Display Devices], PFND3D11DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT, PFND3D11DDI_CREATEGEOMETRYSHADERWITHSTREAMOUTPUT callback, UserModeDisplayDriverDx11_Functions_65b14f27-0df8-421d-95bb-f8a4ebc7c1c1.xml, d3d10umddi/CreateGeometryShaderWithStreamOutput, display.creategeometryshaderwithstreamoutput_d3d11_
 f1_keywords:
  - "d3d10umddi/CreateGeometryShaderWithStreamOutput"
+ - "CreateGeometryShaderWithStreamOutput"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

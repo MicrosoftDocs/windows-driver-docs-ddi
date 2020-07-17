@@ -10,6 +10,7 @@ keywords: ["IWDFFile interface"]
 ms.keywords: IWDFFile, IWDFFile interface, IWDFFile interface,described, UMDFFileObjectRef_41506c7e-3abb-4f41-ab23-a69114c3fdbd.xml, umdf.iwdffile, wdf.iwdffile, wudfddi/IWDFFile
 f1_keywords:
  - "wudfddi/IWDFFile"
+ - "IWDFFile"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

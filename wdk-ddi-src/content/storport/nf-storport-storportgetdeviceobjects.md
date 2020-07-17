@@ -10,6 +10,7 @@ keywords: ["StorPortGetDeviceObjects function"]
 ms.keywords: StorPortGetDeviceObjects, StorPortGetDeviceObjects routine [Storage Devices], storage.storportgetdeviceobjects, storport/StorPortGetDeviceObjects, storprt_219d8794-88c3-49c6-82ea-a19f75c3ad1f.xml
 f1_keywords:
  - "storport/StorPortGetDeviceObjects"
+ - "StorPortGetDeviceObjects"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

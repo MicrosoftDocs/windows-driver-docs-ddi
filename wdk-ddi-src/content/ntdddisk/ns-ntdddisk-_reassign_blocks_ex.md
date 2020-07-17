@@ -10,6 +10,7 @@ keywords: ["_REASSIGN_BLOCKS_EX structure"]
 ms.keywords: "*PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX structure pointer [Storage Devices], REASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX structure [Storage Devices], _REASSIGN_BLOCKS_EX, ntdddisk/PREASSIGN_BLOCKS_EX, ntdddisk/REASSIGN_BLOCKS_EX, storage.reassign_blocks_ex"
 f1_keywords:
  - "ntdddisk/REASSIGN_BLOCKS_EX"
+ - "REASSIGN_BLOCKS_EX"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

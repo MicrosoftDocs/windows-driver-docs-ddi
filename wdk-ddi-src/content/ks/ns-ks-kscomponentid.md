@@ -10,6 +10,7 @@ keywords: ["KSCOMPONENTID structure"]
 ms.keywords: "*PKSCOMPONENTID, KSCOMPONENTID, KSCOMPONENTID structure [Streaming Media Devices], PKSCOMPONENTID, PKSCOMPONENTID structure pointer [Streaming Media Devices], ks-struct_a6ed820f-c35d-411e-98a5-bd14a2141960.xml, ks/KSCOMPONENTID, ks/PKSCOMPONENTID, stream.kscomponentid"
 f1_keywords:
  - "ks/KSCOMPONENTID"
+ - "KSCOMPONENTID"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

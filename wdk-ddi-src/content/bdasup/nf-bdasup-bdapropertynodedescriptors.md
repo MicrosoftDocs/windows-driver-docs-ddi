@@ -10,6 +10,7 @@ keywords: ["BdaPropertyNodeDescriptors function"]
 ms.keywords: BdaPropertyNodeDescriptors, BdaPropertyNodeDescriptors function [Streaming Media Devices], bdaref_67976a51-5f21-4369-be96-ab6a2b758e85.xml, bdasup/BdaPropertyNodeDescriptors, stream.bdapropertynodedescriptors
 f1_keywords:
  - "bdasup/BdaPropertyNodeDescriptors"
+ - "BdaPropertyNodeDescriptors"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

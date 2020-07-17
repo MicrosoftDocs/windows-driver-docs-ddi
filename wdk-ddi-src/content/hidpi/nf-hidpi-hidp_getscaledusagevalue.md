@@ -10,6 +10,7 @@ keywords: ["HidP_GetScaledUsageValue function"]
 ms.keywords: HidP_GetScaledUsageValue, HidP_GetScaledUsageValue routine [Human Input Devices], hid.hidp_getscaledusagevalue, hidfunc_7fa22086-ab66-4c6b-a7de-65adce226b10.xml, hidpi/HidP_GetScaledUsageValue
 f1_keywords:
  - "hidpi/HidP_GetScaledUsageValue"
+ - "HidP_GetScaledUsageValue"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

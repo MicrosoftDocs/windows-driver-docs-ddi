@@ -10,6 +10,7 @@ keywords: ["PHIDP_GETCAPS callback function"]
 ms.keywords: HidP_GetCaps, HidP_GetCaps callback function [Human Input Devices], PHIDP_GETCAPS, PHIDP_GETCAPS callback, hid.hidp_getcaps, hidfunc_420188e5-e357-43cc-b195-dea7637fd3c9.xml, hidpi/HidP_GetCaps
 f1_keywords:
  - "hidclass/HidP_GetCaps"
+ - "HidP_GetCaps"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Universal

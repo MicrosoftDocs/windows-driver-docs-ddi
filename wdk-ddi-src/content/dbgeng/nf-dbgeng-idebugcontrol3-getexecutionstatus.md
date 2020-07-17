@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::GetExecutionStatus"]
 ms.keywords: GetExecutionStatus, GetExecutionStatus method [Windows Debugging], GetExecutionStatus method [Windows Debugging],IDebugControl interface, GetExecutionStatus method [Windows Debugging],IDebugControl2 interface, GetExecutionStatus method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetExecutionStatus method, IDebugControl2 interface [Windows Debugging],GetExecutionStatus method, IDebugControl2::GetExecutionStatus, IDebugControl3 interface [Windows Debugging],GetExecutionStatus method, IDebugControl3.GetExecutionStatus, IDebugControl3::GetExecutionStatus, IDebugControl::GetExecutionStatus, IDebugControl_0e47a42b-f980-4c4b-b8b3-8d795498e5d5.xml, dbgeng/IDebugControl2::GetExecutionStatus, dbgeng/IDebugControl3::GetExecutionStatus, dbgeng/IDebugControl::GetExecutionStatus, debugger.getexecutionstatus
 f1_keywords:
  - "dbgeng/IDebugControl.GetExecutionStatus"
+ - "IDebugControl.GetExecutionStatus"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

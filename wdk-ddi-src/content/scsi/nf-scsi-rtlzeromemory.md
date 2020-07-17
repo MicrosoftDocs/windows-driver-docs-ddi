@@ -10,6 +10,7 @@ keywords: ["RtlZeroMemory macro"]
 ms.keywords: RtlZeroMemory, RtlZeroMemory routine [Kernel-Mode Driver Architecture], k109_63d9f0fb-d698-4707-9018-de2fa851a94b.xml, kernel.rtlzeromemory, wdm/RtlZeroMemory
 f1_keywords:
  - "scsi/RtlZeroMemory"
+ - "RtlZeroMemory"
 req.header: scsi.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Smclib.h, Minitape.h, Scsi.h, Storport.h
 req.target-type: Universal

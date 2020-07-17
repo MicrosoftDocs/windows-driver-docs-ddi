@@ -10,6 +10,7 @@ keywords: ["RtlUshortByteSwap macro"]
 ms.keywords: RtlUshortByteSwap, RtlUshortByteSwap routine [Kernel-Mode Driver Architecture], k109_36a00506-f4e3-467b-9494-c13b2ea70a1f.xml, kernel.rtlushortbyteswap, wdm/RtlUshortByteSwap
 f1_keywords:
  - "wdm/RtlUshortByteSwap"
+ - "RtlUshortByteSwap"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

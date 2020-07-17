@@ -10,6 +10,7 @@ keywords: ["RILRESETMODEMPARAMS structure"]
 ms.keywords: "*LPRILRESETMODEMPARAMS, RILRESETMODEMPARAMS, RILRESETMODEMPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilresetmodemparams, ntddrilapitypes/RILRESETMODEMPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILRESETMODEMPARAMS"
+ - "RILRESETMODEMPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

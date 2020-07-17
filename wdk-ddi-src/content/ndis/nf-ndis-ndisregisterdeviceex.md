@@ -10,6 +10,7 @@ keywords: ["NdisRegisterDeviceEx function"]
 ms.keywords: NdisRegisterDeviceEx, NdisRegisterDeviceEx function [Network Drivers Starting with Windows Vista], ndis/NdisRegisterDeviceEx, ndis_devices_ref_57ed58e5-f149-4cbe-ad9d-667f433a7e77.xml, netvista.ndisregisterdeviceex
 f1_keywords:
  - "ndis/NdisRegisterDeviceEx"
+ - "NdisRegisterDeviceEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

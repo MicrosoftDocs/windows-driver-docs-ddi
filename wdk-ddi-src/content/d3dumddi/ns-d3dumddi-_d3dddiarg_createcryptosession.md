@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_CREATECRYPTOSESSION structure"]
 ms.keywords: D3DDDIARG_CREATECRYPTOSESSION, D3DDDIARG_CREATECRYPTOSESSION structure [Display Devices], UMDisplayDriver_param_Structs_39cf7246-689d-47f2-99f8-dcc3b2018958.xml, _D3DDDIARG_CREATECRYPTOSESSION, d3dumddi/D3DDDIARG_CREATECRYPTOSESSION, display.d3dddiarg_createcryptosession
 f1_keywords:
  - "d3dumddi/D3DDDIARG_CREATECRYPTOSESSION"
+ - "D3DDDIARG_CREATECRYPTOSESSION"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

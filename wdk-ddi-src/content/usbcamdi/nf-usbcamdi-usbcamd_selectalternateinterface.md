@@ -10,6 +10,7 @@ keywords: ["USBCAMD_SelectAlternateInterface function"]
 ms.keywords: USBCAMD_SelectAlternateInterface, USBCAMD_SelectAlternateInterface function [Streaming Media Devices], stream.usbcamd_selectalternateinterface, usbcamdi/USBCAMD_SelectAlternateInterface, usbcmdpr_48a3328b-869a-42fd-acfd-b1981384db85.xml
 f1_keywords:
  - "usbcamdi/USBCAMD_SelectAlternateInterface"
+ - "USBCAMD_SelectAlternateInterface"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

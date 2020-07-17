@@ -10,6 +10,7 @@ keywords: ["PshedSynchronizeExecution function"]
 ms.keywords: PshedSynchronizeExecution, PshedSynchronizeExecution function [WHEA Drivers and Applications], ntddk/PshedSynchronizeExecution, whea.pshedsynchronizeexecution, whearef_7a6363f4-466d-498a-97c4-b5f7937005dd.xml
 f1_keywords:
  - "ntddk/PshedSynchronizeExecution"
+ - "PshedSynchronizeExecution"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["tagBDA_TRANSPORT_INFO structure"]
 ms.keywords: "*PBDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO, BDA_TRANSPORT_INFO structure [Streaming Media Devices], PBDA_TRANSPORT_INFO, PBDA_TRANSPORT_INFO structure pointer [Streaming Media Devices], bdamedia/BDA_TRANSPORT_INFO, bdamedia/PBDA_TRANSPORT_INFO, bdaref_3ee17c26-da8b-4d04-87fc-6c9912de349d.xml, stream.bda_transport_info, tagBDA_TRANSPORT_INFO"
 f1_keywords:
  - "bdamedia/BDA_TRANSPORT_INFO"
+ - "BDA_TRANSPORT_INFO"
 req.header: bdamedia.h
 req.include-header: Bdamedia.h
 req.target-type: Windows

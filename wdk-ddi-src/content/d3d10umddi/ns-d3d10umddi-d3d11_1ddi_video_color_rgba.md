@@ -9,6 +9,7 @@ keywords: ["D3D11_1DDI_VIDEO_COLOR_RGBA structure"]
 ms.keywords: D3D11_1DDI_VIDEO_COLOR_RGBA, D3D11_1DDI_VIDEO_COLOR_RGBA structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_COLOR_RGBA, display.d3d11_1ddi_video_color_rgba
 f1_keywords:
  - "d3d10umddi/D3D11_1DDI_VIDEO_COLOR_RGBA"
+ - "D3D11_1DDI_VIDEO_COLOR_RGBA"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

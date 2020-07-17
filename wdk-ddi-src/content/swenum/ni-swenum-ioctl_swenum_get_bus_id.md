@@ -10,6 +10,7 @@ keywords: ["IOCTL_SWENUM_GET_BUS_ID IOCTL"]
 ms.keywords: IOCTL_SWENUM_GET_BUS_ID, IOCTL_SWENUM_GET_BUS_ID control, IOCTL_SWENUM_GET_BUS_ID control code [Streaming Media Devices], stream.ioctl_swenum_get_bus_id, swenum/IOCTL_SWENUM_GET_BUS_ID
 f1_keywords:
  - "swenum/IOCTL_SWENUM_GET_BUS_ID"
+ - "IOCTL_SWENUM_GET_BUS_ID"
 req.header: swenum.h
 req.include-header: 
 req.target-type: Windows

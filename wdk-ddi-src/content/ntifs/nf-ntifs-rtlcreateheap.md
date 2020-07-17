@@ -10,6 +10,7 @@ keywords: ["RtlCreateHeap function"]
 ms.keywords: RtlCreateHeap, RtlCreateHeap routine [Installable File System Drivers], ifsk.rtlcreateheap, ntifs/RtlCreateHeap, rtlref_e57e4a89-3686-4ab4-85e2-af223cdb3b18.xml
 f1_keywords:
  - "ntifs/RtlCreateHeap"
+ - "RtlCreateHeap"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

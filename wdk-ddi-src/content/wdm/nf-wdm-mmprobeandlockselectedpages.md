@@ -10,6 +10,7 @@ keywords: ["MmProbeAndLockSelectedPages function"]
 ms.keywords: MmProbeAndLockSelectedPages, MmProbeAndLockSelectedPages , MmProbeAndLockSelectedPages routine [Kernel-Mode Driver Architecture], kernel.mmprobeandlockselectedpages_, wdm/MmProbeAndLockSelectedPages
 f1_keywords:
  - "wdm/MmProbeAndLockSelectedPages"
+ - "MmProbeAndLockSelectedPages"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

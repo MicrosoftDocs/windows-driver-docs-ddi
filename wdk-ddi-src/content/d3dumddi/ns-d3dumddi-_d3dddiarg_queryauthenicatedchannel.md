@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_QUERYAUTHENICATEDCHANNEL structure"]
 ms.keywords: D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, D3DDDIARG_QUERYAUTHENTICATEDCHANNEL structure [Display Devices], UMDisplayDriver_param_Structs_5c16c40f-b8b6-41cc-9f83-f204d7213760.xml, _D3DDDIARG_QUERYAUTHENICATEDCHANNEL, d3dumddi/D3DDDIARG_QUERYAUTHENTICATEDCHANNEL, display.d3dddiarg_queryauthenticatedchannel
 f1_keywords:
  - "d3dumddi/D3DDDIARG_QUERYAUTHENTICATEDCHANNEL"
+ - "D3DDDIARG_QUERYAUTHENTICATEDCHANNEL"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

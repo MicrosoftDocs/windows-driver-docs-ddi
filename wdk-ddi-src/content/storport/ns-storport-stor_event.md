@@ -12,6 +12,7 @@ ms.keywords: STOR_EVENT, STOR_EVENT, *PSTOR_EVENT, *PRSTOR_EVENT,
 req.header: storport.h
 f1_keywords:
  - "storport/STOR_EVENT"
+ - "STOR_EVENT"
 req.include-header:
 req.target-type:
 req.target-min-winverclnt: Windows 10, version 2004

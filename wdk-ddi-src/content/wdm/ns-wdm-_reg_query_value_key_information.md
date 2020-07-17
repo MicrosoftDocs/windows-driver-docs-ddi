@@ -10,6 +10,7 @@ keywords: ["_REG_QUERY_VALUE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_QUERY_VALUE_KEY_INFORMATION, PREG_QUERY_VALUE_KEY_INFORMATION, PREG_QUERY_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_QUERY_VALUE_KEY_INFORMATION, REG_QUERY_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_QUERY_VALUE_KEY_INFORMATION, kernel.reg_query_value_key_information, kstruct_d_e4edde7e-2b83-4e18-b652-d29f2a37d921.xml, wdm/PREG_QUERY_VALUE_KEY_INFORMATION, wdm/REG_QUERY_VALUE_KEY_INFORMATION"
 f1_keywords:
  - "wdm/REG_QUERY_VALUE_KEY_INFORMATION"
+ - "REG_QUERY_VALUE_KEY_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

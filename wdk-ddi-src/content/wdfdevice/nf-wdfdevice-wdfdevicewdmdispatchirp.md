@@ -10,6 +10,7 @@ keywords: ["WdfDeviceWdmDispatchIrp function"]
 ms.keywords: WdfDeviceWdmDispatchIrp, WdfDeviceWdmDispatchIrp method, kmdf.wdfdevicewdmdispatchirp, wdf.wdfdevicewdmdispatchirp, wdfdevice/WdfDeviceWdmDispatchIrp
 f1_keywords:
  - "wdfdevice/WdfDeviceWdmDispatchIrp"
+ - "WdfDeviceWdmDispatchIrp"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

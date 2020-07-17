@@ -10,6 +10,7 @@ keywords: ["EVT_WDFDEVICE_WDM_IRP_PREPROCESS callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_7329adf6-5814-40cb-ac9b-a7fb67b5f05c.xml, EVT_WDFDEVICE_WDM_IRP_PREPROCESS, EVT_WDFDEVICE_WDM_IRP_PREPROCESS callback, EvtDeviceWdmIrpPreprocess, EvtDeviceWdmIrpPreprocess callback function, kmdf.evtdevicewdmirppreprocess, wdf.evtdevicewdmirppreprocess, wdfdevice/EvtDeviceWdmIrpPreprocess
 f1_keywords:
  - "wdfdevice/EvtDeviceWdmIrpPreprocess"
+ - "EvtDeviceWdmIrpPreprocess"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

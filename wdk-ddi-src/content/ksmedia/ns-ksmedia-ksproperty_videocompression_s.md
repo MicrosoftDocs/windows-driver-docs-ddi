@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_VIDEOCOMPRESSION_S structure"]
 ms.keywords: "*PKSPROPERTY_VIDEOCOMPRESSION_S, KSPROPERTY_VIDEOCOMPRESSION_S, KSPROPERTY_VIDEOCOMPRESSION_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOCOMPRESSION_S, PKSPROPERTY_VIDEOCOMPRESSION_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOCOMPRESSION_S, ksmedia/PKSPROPERTY_VIDEOCOMPRESSION_S, stream.ksproperty_videocompression_s, vidcapstruct_c3680216-5804-48a0-beac-f1b8c24b9eb5.xml"
 f1_keywords:
  - "ksmedia/KSPROPERTY_VIDEOCOMPRESSION_S"
+ - "KSPROPERTY_VIDEOCOMPRESSION_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

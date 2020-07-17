@@ -10,6 +10,7 @@ keywords: ["PrinterMessageBoxA function"]
 ms.keywords: PrinterMessageBoxA, PrinterMessageBoxA function [Print Devices], print.printermessageboxa, winspool/PrinterMessageBoxA
 f1_keywords:
  - "winspool/PrinterMessageBoxA"
+ - "PrinterMessageBoxA"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_WDF_USB_DEVICE_INFORMATION structure"]
 ms.keywords: "*PWDF_USB_DEVICE_INFORMATION, DFUsbRef_eb36dfae-7210-4949-acbf-7d0b0edf4061.xml, PWDF_USB_DEVICE_INFORMATION, PWDF_USB_DEVICE_INFORMATION structure pointer, WDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION structure, _WDF_USB_DEVICE_INFORMATION, kmdf.wdf_usb_device_information, wdf.wdf_usb_device_information, wdfusb/PWDF_USB_DEVICE_INFORMATION, wdfusb/WDF_USB_DEVICE_INFORMATION"
 f1_keywords:
  - "wdfusb/WDF_USB_DEVICE_INFORMATION"
+ - "WDF_USB_DEVICE_INFORMATION"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Windows

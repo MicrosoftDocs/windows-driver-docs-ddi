@@ -10,6 +10,7 @@ keywords: ["RtlAllocateAndInitializeSid function"]
 ms.keywords: RtlAllocateAndInitializeSid, RtlAllocateAndInitializeSid function [Installable File System Drivers], ifsk.rtlallocateandinitializesid, ntifs/RtlAllocateAndInitializeSid, rtlref_74879713-f57f-4d67-a779-995c150bc7ea.xml
 f1_keywords:
  - "ntifs/RtlAllocateAndInitializeSid"
+ - "RtlAllocateAndInitializeSid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

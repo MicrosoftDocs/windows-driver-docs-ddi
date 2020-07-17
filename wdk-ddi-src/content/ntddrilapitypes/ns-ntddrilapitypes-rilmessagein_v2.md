@@ -10,6 +10,7 @@ keywords: ["RILMESSAGEIN_V2 structure"]
 ms.keywords: "*LPRILMESSAGEIN, RILMESSAGEIN, RILMESSAGEIN_V2, RILMESSAGEIN_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilmessagein_v2, ntddrilapitypes/RILMESSAGEIN_V2"
 f1_keywords:
  - "ntddrilapitypes/RILMESSAGEIN_V2"
+ - "RILMESSAGEIN_V2"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

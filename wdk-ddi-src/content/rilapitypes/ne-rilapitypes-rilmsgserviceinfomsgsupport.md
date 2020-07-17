@@ -10,6 +10,7 @@ keywords: ["RILMSGSERVICEINFOMSGSUPPORT enumeration"]
 ms.keywords: RILMSGSERVICEINFOMSGSUPPORT, RILMSGSERVICEINFOMSGSUPPORT enumeration [Network Drivers Starting with Windows Vista], RIL_MSI_SMS_BROADCAST, RIL_MSI_SMS_OUTGOING, netvista.rilmsgserviceinfomsgsupport, ntddrilapitypes/RILMSGSERVICEINFOMSGSUPPORT, ntddrilapitypes/RIL_MSI_SMS_BROADCAST, ntddrilapitypes/RIL_MSI_SMS_OUTGOING
 f1_keywords:
  - "rilapitypes/RILMSGSERVICEINFOMSGSUPPORT"
+ - "RILMSGSERVICEINFOMSGSUPPORT"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

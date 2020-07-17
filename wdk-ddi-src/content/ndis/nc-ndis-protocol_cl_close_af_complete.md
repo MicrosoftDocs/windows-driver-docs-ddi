@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CL_CLOSE_AF_COMPLETE callback function"]
 ms.keywords: PROTOCOL_CL_CLOSE_AF_COMPLETE, PROTOCOL_CL_CLOSE_AF_COMPLETE callback, ProtocolClCloseAfComplete, ProtocolClCloseAfComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_27fe2447-59c5-4922-b6be-67911961f0e4.xml, ndis/ProtocolClCloseAfComplete, netvista.protocolclcloseafcomplete
 f1_keywords:
  - "ndis/ProtocolClCloseAfComplete"
+ - "ProtocolClCloseAfComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

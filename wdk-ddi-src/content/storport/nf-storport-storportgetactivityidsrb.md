@@ -10,6 +10,7 @@ keywords: ["StorPortGetActivityIdSrb function"]
 ms.keywords: StorPortGetActivityIdSrb, StorPortGetActivityIdSrb routine [Storage Devices], storage.storportgetactivityidsrb, storport/StorPortGetActivityIdSrb
 f1_keywords:
  - "storport/StorPortGetActivityIdSrb"
+ - "StorPortGetActivityIdSrb"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

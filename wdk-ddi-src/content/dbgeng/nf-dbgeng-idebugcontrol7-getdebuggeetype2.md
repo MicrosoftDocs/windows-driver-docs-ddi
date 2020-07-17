@@ -10,6 +10,7 @@ keywords: ["IDebugControl7::GetDebuggeeType2"]
 ms.keywords: GetDebuggeeType2, GetDebuggeeType2 method [Windows Debugging], GetDebuggeeType2 method [Windows Debugging],IDebugControl7 interface, IDebugControl7 interface [Windows Debugging],GetDebuggeeType2 method, IDebugControl7.GetDebuggeeType2, IDebugControl7::GetDebuggeeType2, dbgeng/IDebugControl7::GetDebuggeeType2, debugger.idebugcontrol7_getdebuggeetype2
 f1_keywords:
  - "dbgeng/IDebugControl7.GetDebuggeeType2"
+ - "IDebugControl7.GetDebuggeeType2"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Desktop

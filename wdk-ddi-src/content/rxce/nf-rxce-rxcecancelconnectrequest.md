@@ -10,6 +10,7 @@ keywords: ["RxCeCancelConnectRequest function"]
 ms.keywords: RxCeCancelConnectRequest, RxCeCancelConnectRequest routine [Installable File System Drivers], ifsk.rxcecancelconnectrequest, rxce/RxCeCancelConnectRequest, rxref_b7978600-a1ca-4713-b170-bc1f365f2f96.xml
 f1_keywords:
  - "rxce/RxCeCancelConnectRequest"
+ - "RxCeCancelConnectRequest"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop

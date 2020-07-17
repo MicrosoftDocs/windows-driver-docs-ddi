@@ -10,6 +10,7 @@ keywords: ["SeTokenType function"]
 ms.keywords: SeTokenType, SeTokenType function [Installable File System Drivers], ifsk.setokentype, ntifs/SeTokenType, seref_a5e04a8d-d2e6-412e-af9c-45c4caac311a.xml
 f1_keywords:
  - "ntifs/SeTokenType"
+ - "SeTokenType"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

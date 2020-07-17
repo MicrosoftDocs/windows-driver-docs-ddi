@@ -10,6 +10,7 @@ keywords: ["NfcCxNciReadNotification function"]
 ms.keywords: NfcCxNciReadNotification, NfcCxNciReadNotification method [Near-Field Proximity Drivers], nfccx/NfcCxNciReadNotification, nfpdrivers._nfccxncireadnotification
 f1_keywords:
  - "nfccx/NfcCxNciReadNotification"
+ - "NfcCxNciReadNotification"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows

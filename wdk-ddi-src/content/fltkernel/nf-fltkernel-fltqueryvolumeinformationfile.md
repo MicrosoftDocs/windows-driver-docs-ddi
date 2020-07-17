@@ -10,6 +10,7 @@ keywords: ["FltQueryVolumeInformationFile function"]
 ms.keywords: FileFsAttributeInformation, FileFsControlInformation, FileFsDeviceInformation, FileFsDriverPathInformation, FileFsFullSizeInformation, FileFsObjectIdInformation, FileFsSectorSizeInformation, FileFsSizeInformation, FileFsVolumeInformation, FltApiRef_p_to_z_b2a51db8-6931-46c6-84ba-eb29097ac89e.xml, FltQueryVolumeInformationFile, FltQueryVolumeInformationFile function [Installable File System Drivers], fltkernel/FltQueryVolumeInformationFile, ifsk.fltqueryvolumeinformationfile
 f1_keywords:
  - "fltkernel/FltQueryVolumeInformationFile"
+ - "FltQueryVolumeInformationFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

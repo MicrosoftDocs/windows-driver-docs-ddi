@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionCreate function"]
 ms.keywords: DFDmaObjectRef_d7399240-2da3-418f-b21b-8a441e7923d4.xml, WdfDmaTransactionCreate, WdfDmaTransactionCreate method, kmdf.wdfdmatransactioncreate, wdf.wdfdmatransactioncreate, wdfdmatransaction/WdfDmaTransactionCreate
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionCreate"
+ - "WdfDmaTransactionCreate"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

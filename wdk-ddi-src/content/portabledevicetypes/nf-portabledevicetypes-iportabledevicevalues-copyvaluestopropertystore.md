@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceValues::CopyValuesToPropertyStore"]
 ms.keywords: CopyValuesToPropertyStore, CopyValuesToPropertyStore method, CopyValuesToPropertyStore method,IPortableDeviceValues interface, IPortableDeviceValues interface,CopyValuesToPropertyStore method, IPortableDeviceValues.CopyValuesToPropertyStore, IPortableDeviceValues::CopyValuesToPropertyStore, IPortableDeviceValuesCopyValuesToPropertyStore, portabledevicetypes/IPortableDeviceValues::CopyValuesToPropertyStore, wpddk.iportabledevicevalues_copyvaluestopropertystore
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceValues.CopyValuesToPropertyStore"
+ - "IPortableDeviceValues.CopyValuesToPropertyStore"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

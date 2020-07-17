@@ -10,6 +10,7 @@ keywords: ["_MSFC_VirtualFibrePortAttributes structure"]
 ms.keywords: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes structure [Storage Devices], PMSFC_VirtualFibrePortAttributes, PMSFC_VirtualFibrePortAttributes structure pointer [Storage Devices], _MSFC_VirtualFibrePortAttributes, npivwmi/MSFC_VirtualFibrePortAttributes, npivwmi/PMSFC_VirtualFibrePortAttributes, storage.msfc_virtualfibreportattributes"
 f1_keywords:
  - "npivwmi/MSFC_VirtualFibrePortAttributes"
+ - "MSFC_VirtualFibrePortAttributes"
 req.header: npivwmi.h
 req.include-header: Npivwmi.h
 req.target-type: Windows

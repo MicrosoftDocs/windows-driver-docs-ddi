@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_CLOSEADAPTER callback function"]
 ms.keywords: CloseAdapter, CloseAdapter callback function [Display Devices], PFND3D10DDI_CLOSEADAPTER, PFND3D10DDI_CLOSEADAPTER callback, UserModeDisplayDriverDx10_Functions_0adac9d0-3334-4bee-86ef-4e1450b1feb0.xml, d3d10umddi/CloseAdapter, display.closeadapter_d3d10_
 f1_keywords:
  - "d3d10umddi/CloseAdapter"
+ - "CloseAdapter"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

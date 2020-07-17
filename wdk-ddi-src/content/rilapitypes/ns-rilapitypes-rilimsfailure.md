@@ -10,6 +10,7 @@ keywords: ["RILIMSFAILURE structure"]
 ms.keywords: "*LPRILIMSFAILURE, RILIMSFAILURE, RILIMSFAILURE structure [Network Drivers Starting with Windows Vista], netvista.rilimsfailure, ntddrilapitypes/RILIMSFAILURE"
 f1_keywords:
  - "rilapitypes/RILIMSFAILURE"
+ - "RILIMSFAILURE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["TmRecoverResourceManager function"]
 ms.keywords: TmRecoverResourceManager, TmRecoverResourceManager routine [Kernel-Mode Driver Architecture], kernel.tmrecoverresourcemanager, ktm_ref_e3f0b5e1-18fc-4edf-9270-f6d01e458166.xml, wdm/TmRecoverResourceManager
 f1_keywords:
  - "wdm/TmRecoverResourceManager"
+ - "TmRecoverResourceManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal

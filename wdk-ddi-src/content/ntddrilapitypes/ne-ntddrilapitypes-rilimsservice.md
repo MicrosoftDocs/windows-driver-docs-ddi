@@ -10,6 +10,7 @@ keywords: ["RILIMSSERVICE enumeration"]
 ms.keywords: RILIMSSERVICE, RILIMSSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_IMS_SERVICE_ALL, RIL_IMS_SERVICE_CUSTOM, RIL_IMS_SERVICE_SMS, RIL_IMS_SERVICE_VIDEO, RIL_IMS_SERVICE_VOICE, netvista.rilimsservice, rilapitypes/RILIMSSERVICE, rilapitypes/RIL_IMS_SERVICE_ALL, rilapitypes/RIL_IMS_SERVICE_CUSTOM, rilapitypes/RIL_IMS_SERVICE_SMS, rilapitypes/RIL_IMS_SERVICE_VIDEO, rilapitypes/RIL_IMS_SERVICE_VOICE
 f1_keywords:
  - "ntddrilapitypes/RILIMSSERVICE"
+ - "RILIMSSERVICE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows

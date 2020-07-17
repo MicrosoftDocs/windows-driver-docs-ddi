@@ -10,6 +10,7 @@ keywords: ["_STOR_CRYPTO_KEY_SIZE enumeration"]
 ms.keywords: "*PSTOR_CRYPTO_KEY_SIZE, PSTOR_CRYPTO_KEY_SIZE, PSTOR_CRYPTO_KEY_SIZE enumeration pointer [Storage Devices], STOR_CRYPTO_KEY_SIZE, STOR_CRYPTO_KEY_SIZE enumeration [Storage Devices], _STOR_CRYPTO_KEY_SIZE, storage.stor_crypto_key_size, storport/, storport/PSTOR_CRYPTO_KEY_SIZE, storport/STOR_CRYPTO_KEY_SIZE"
 f1_keywords:
  - "storport/STOR_CRYPTO_KEY_SIZE"
+ - "STOR_CRYPTO_KEY_SIZE"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows

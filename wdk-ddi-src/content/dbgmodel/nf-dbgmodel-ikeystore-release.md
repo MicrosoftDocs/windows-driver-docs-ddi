@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IKeyStore::Release"]
 f1_keywords:
  - "dbgmodel/IKeyStore.Release"
+ - "IKeyStore.Release"
 ms.keywords: IKeyStore::Release, Release, IKeyStore.Release, IKeyStore::Release, IKeyStore.Release
 req.header: dbgmodel.h
 req.include-header:

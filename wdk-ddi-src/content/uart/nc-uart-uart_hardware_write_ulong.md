@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["UART_HARDWARE_WRITE_ULONG callback function"]
 f1_keywords:
  - "uart/UART_HARDWARE_WRITE_ULONG"
+ - "UART_HARDWARE_WRITE_ULONG"
 req.header: uart.h
 req.include-header:
 req.target-type:

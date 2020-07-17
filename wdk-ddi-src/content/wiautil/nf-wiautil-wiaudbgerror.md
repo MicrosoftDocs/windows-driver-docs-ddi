@@ -10,6 +10,7 @@ keywords: ["wiauDbgError function"]
 ms.keywords: image.wiaudbgerror, wiauDbgError, wiauDbgError function [Imaging Devices], wiauFncs_73184286-df53-4272-9fa8-aae1d1fb3dbc.xml, wiautil/wiauDbgError
 f1_keywords:
  - "wiautil/wiauDbgError"
+ - "wiauDbgError"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

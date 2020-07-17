@@ -10,6 +10,7 @@ keywords: ["VideoPortSetTrappedEmulatorPorts function"]
 ms.keywords: VideoPortSetTrappedEmulatorPorts, VideoPortSetTrappedEmulatorPorts function [Display Devices], VideoPort_Functions_2283311e-a325-433b-9fff-be20e9c0e092.xml, display.videoportsettrappedemulatorports, video/VideoPortSetTrappedEmulatorPorts
 f1_keywords:
  - "video/VideoPortSetTrappedEmulatorPorts"
+ - "VideoPortSetTrappedEmulatorPorts"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["WDF_READ_PORT_BUFFER_UCHAR function"]
 ms.keywords: WDF_READ_PORT_BUFFER_UCHAR, WDF_READ_PORT_BUFFER_UCHAR function, wdf.wdf_read_port_buffer_uchar, wdfhwaccess/WDF_READ_PORT_BUFFER_UCHAR
 f1_keywords:
  - "wdfhwaccess/WDF_READ_PORT_BUFFER_UCHAR"
+ - "WDF_READ_PORT_BUFFER_UCHAR"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal

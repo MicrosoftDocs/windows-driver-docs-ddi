@@ -10,6 +10,7 @@ keywords: ["_HDAUDIO_CODEC_TRANSFER structure"]
 ms.keywords: "*PHDAUDIO_CODEC_TRANSFER, HDAUDIO_CODEC_TRANSFER, HDAUDIO_CODEC_TRANSFER structure [Audio Devices], PHDAUDIO_CODEC_TRANSFER, PHDAUDIO_CODEC_TRANSFER structure pointer [Audio Devices], _HDAUDIO_CODEC_TRANSFER, aud-prop2_7bb7a1d5-ed28-48d4-8ca4-ff2f85002d7c.xml, audio.hdaudio_codec_transfer, hdaudio/HDAUDIO_CODEC_TRANSFER, hdaudio/PHDAUDIO_CODEC_TRANSFER"
 f1_keywords:
  - "hdaudio/HDAUDIO_CODEC_TRANSFER"
+ - "HDAUDIO_CODEC_TRANSFER"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Windows

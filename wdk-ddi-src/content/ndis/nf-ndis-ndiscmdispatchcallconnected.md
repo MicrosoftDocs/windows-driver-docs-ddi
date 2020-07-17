@@ -10,6 +10,7 @@ keywords: ["NdisCmDispatchCallConnected function"]
 ms.keywords: NdisCmDispatchCallConnected, NdisCmDispatchCallConnected function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_15a94b5d-378c-46f0-9808-411d1e92218c.xml, ndis/NdisCmDispatchCallConnected, netvista.ndiscmdispatchcallconnected
 f1_keywords:
  - "ndis/NdisCmDispatchCallConnected"
+ - "NdisCmDispatchCallConnected"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE callback function"]
 ms.keywords: EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE, EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE callback, EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE callback function, wdf.evt_wdf_companion_pre_prepare_hardware, wdfcompanion/EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE
 f1_keywords:
  - "wdfcompanion/EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE"
+ - "EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows

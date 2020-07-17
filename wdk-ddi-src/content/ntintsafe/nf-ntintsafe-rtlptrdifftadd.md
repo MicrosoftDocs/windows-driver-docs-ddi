@@ -10,6 +10,7 @@ keywords: ["RtlPtrdiffTAdd function"]
 ms.keywords: RtlPtrdiffTAdd, RtlPtrdiffTAdd function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftadd, ntintsafe/RtlPtrdiffTAdd
 f1_keywords:
  - "ntintsafe/RtlPtrdiffTAdd"
+ - "RtlPtrdiffTAdd"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

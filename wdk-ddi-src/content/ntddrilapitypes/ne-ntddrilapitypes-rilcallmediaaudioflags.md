@@ -10,6 +10,7 @@ keywords: ["RILCALLMEDIAAUDIOFLAGS enumeration"]
 ms.keywords: RILCALLMEDIAAUDIOFLAGS, RILCALLMEDIAAUDIOFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIAAUDIOFLAG_ALL, RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE, netvista.rilcallmediaaudioflags, ntddrilapitypes/RILCALLMEDIAAUDIOFLAGS, ntddrilapitypes/RIL_CALLMEDIAAUDIOFLAG_ALL, ntddrilapitypes/RIL_CALLMEDIAAUDIOFLAG_TEMPORARILY_UNAVAILABLE
 f1_keywords:
  - "ntddrilapitypes/RILCALLMEDIAAUDIOFLAGS"
+ - "RILCALLMEDIAAUDIOFLAGS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

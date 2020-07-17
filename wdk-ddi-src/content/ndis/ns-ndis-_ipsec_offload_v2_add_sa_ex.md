@@ -10,6 +10,7 @@ keywords: ["_IPSEC_OFFLOAD_V2_ADD_SA_EX structure"]
 ms.keywords: "*PIPSEC_OFFLOAD_V2_ADD_SA_EX, IPSEC_OFFLOAD_V2_ADD_SA_EX, IPSEC_OFFLOAD_V2_ADD_SA_EX structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_ADD_SA_EX, PIPSEC_OFFLOAD_V2_ADD_SA_EX structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_ADD_SA_EX, ndis/IPSEC_OFFLOAD_V2_ADD_SA_EX, ndis/PIPSEC_OFFLOAD_V2_ADD_SA_EX, netvista.ipsec_offload_v2_add_sa_ex"
 f1_keywords:
  - "ndis/IPSEC_OFFLOAD_V2_ADD_SA_EX"
+ - "IPSEC_OFFLOAD_V2_ADD_SA_EX"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

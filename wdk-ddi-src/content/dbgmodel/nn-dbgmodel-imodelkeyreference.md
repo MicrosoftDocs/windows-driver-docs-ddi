@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["IModelKeyReference interface"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference"
+ - "IModelKeyReference"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

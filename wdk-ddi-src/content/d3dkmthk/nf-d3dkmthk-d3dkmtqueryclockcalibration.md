@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTQueryClockCalibration function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTQueryClockCalibration"
+ - "D3DKMTQueryClockCalibration"
 ms.keywords: D3DKMTQueryClockCalibration
 req.header: d3dkmthk.h
 req.include-header:

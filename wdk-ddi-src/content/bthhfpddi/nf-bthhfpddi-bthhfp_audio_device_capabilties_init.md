@@ -10,6 +10,7 @@ keywords: ["BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT function"]
 ms.keywords: BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT, BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT method [Audio Devices], audio.bthhfp_audio_device_capabilties_init, bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
 f1_keywords:
  - "bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT"
+ - "BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows

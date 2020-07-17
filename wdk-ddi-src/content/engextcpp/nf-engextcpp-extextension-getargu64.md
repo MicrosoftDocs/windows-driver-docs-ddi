@@ -10,6 +10,7 @@ keywords: ["ExtExtension::GetArgU64"]
 ms.keywords: EngExtCpp_Ref_02971a20-02b8-4655-a1e5-8f287b4b0182.xml, ExtExtension class [Windows Debugging],GetArgU64 method, ExtExtension.GetArgU64, ExtExtension::GetArgU64, GetArgU64, GetArgU64 method [Windows Debugging], GetArgU64 method [Windows Debugging],ExtExtension class, debugger.getargu64
 f1_keywords:
  - "engextcpp/ExtExtension.GetArgU64"
+ - "ExtExtension.GetArgU64"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

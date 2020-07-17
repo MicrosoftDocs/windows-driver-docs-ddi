@@ -10,6 +10,7 @@ keywords: ["RtlStringCbLengthW function"]
 ms.keywords: RtlStringCbLength, RtlStringCbLengthA, RtlStringCbLengthW, RtlStringCbLengthW function [Kernel-Mode Driver Architecture], kernel.rtlstringcblength, ntstrsafe/RtlStringCbLengthA, ntstrsafe/RtlStringCbLengthW, safestrings_1453b6f9-2e9d-4864-96e8-e0245a1a7827.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCbLengthW"
+ - "RtlStringCbLengthW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

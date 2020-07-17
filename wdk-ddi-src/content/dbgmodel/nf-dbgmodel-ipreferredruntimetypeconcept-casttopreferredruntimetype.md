@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["IPreferredRuntimeTypeConcept::CastToPreferredRuntimeType"]
 f1_keywords:
  - "dbgmodel/IPreferredRuntimeTypeConcept.CastToPreferredRuntimeType"
+ - "IPreferredRuntimeTypeConcept.CastToPreferredRuntimeType"
 ms.keywords: IPreferredRuntimeTypeConcept::CastToPreferredRuntimeType, CastToPreferredRuntimeType, IPreferredRuntimeTypeConcept.CastToPreferredRuntimeType, IPreferredRuntimeTypeConcept::CastToPreferredRuntimeType, IPreferredRuntimeTypeConcept.CastToPreferredRuntimeType
 req.header: dbgmodel.h
 req.include-header:

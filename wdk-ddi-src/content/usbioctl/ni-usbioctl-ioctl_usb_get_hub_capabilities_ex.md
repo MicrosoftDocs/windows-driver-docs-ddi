@@ -10,6 +10,7 @@ keywords: ["IOCTL_USB_GET_HUB_CAPABILITIES_EX IOCTL"]
 ms.keywords: IOCTL_USB_GET_HUB_CAPABILITIES_EX, IOCTL_USB_GET_HUB_CAPABILITIES_EX control, IOCTL_USB_GET_HUB_CAPABILITIES_EX control code [Buses], buses.ioctl_usb_get_hub_capabilities_ex, usbioctl/IOCTL_USB_GET_HUB_CAPABILITIES_EX, usbirp_bed6a9f5-00ee-4f0b-9906-cd27d85a74c2.xml
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_HUB_CAPABILITIES_EX"
+ - "IOCTL_USB_GET_HUB_CAPABILITIES_EX"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

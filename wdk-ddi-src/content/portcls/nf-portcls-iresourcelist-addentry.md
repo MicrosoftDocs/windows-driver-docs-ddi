@@ -10,6 +10,7 @@ keywords: ["IResourceList::AddEntry"]
 ms.keywords: AddEntry, AddEntry method [Audio Devices], AddEntry method [Audio Devices],IResourceList interface, IResourceList interface [Audio Devices],AddEntry method, IResourceList.AddEntry, IResourceList::AddEntry, audio.iresourcelist_addentry, audmp-routines_6a6091c9-4cb3-40ca-8bb9-39b239c322b7.xml, portcls/IResourceList::AddEntry
 f1_keywords:
  - "portcls/IResourceList.AddEntry"
+ - "IResourceList.AddEntry"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

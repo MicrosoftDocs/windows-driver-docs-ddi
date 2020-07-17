@@ -10,6 +10,7 @@ keywords: ["AtaPortWriteRegisterUlong function"]
 ms.keywords: AtaPortWriteRegisterUlong, AtaPortWriteRegisterUlong routine [Storage Devices], atartns_9cbbfe00-9ab2-4c7b-8f33-c9ebb166214a.xml, irb/AtaPortWriteRegisterUlong, storage.ataportwriteregisterulong
 f1_keywords:
  - "irb/AtaPortWriteRegisterUlong"
+ - "AtaPortWriteRegisterUlong"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

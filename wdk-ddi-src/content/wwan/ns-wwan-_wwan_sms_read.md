@@ -10,6 +10,7 @@ keywords: ["_WWAN_SMS_READ structure"]
 ms.keywords: "*PWWAN_SMS_READ, PWWAN_SMS_READ, PWWAN_SMS_READ structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_READ, WWAN_SMS_READ structure [Network Drivers Starting with Windows Vista], WwanRef_8b221a53-0311-4ed7-a98b-e8677cb40051.xml, _WWAN_SMS_READ, netvista.wwan_sms_read, wwan/PWWAN_SMS_READ, wwan/WWAN_SMS_READ"
 f1_keywords:
  - "wwan/WWAN_SMS_READ"
+ - "WWAN_SMS_READ"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

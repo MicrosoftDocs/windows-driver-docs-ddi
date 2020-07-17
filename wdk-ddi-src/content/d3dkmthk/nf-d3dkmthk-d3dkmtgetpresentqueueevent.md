@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTGetPresentQueueEvent function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTGetPresentQueueEvent"
+ - "D3DKMTGetPresentQueueEvent"
 ms.keywords: D3DKMTGetPresentQueueEvent
 req.header: d3dkmthk.h
 req.include-header:

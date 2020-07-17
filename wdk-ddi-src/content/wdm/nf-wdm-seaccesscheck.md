@@ -10,6 +10,7 @@ keywords: ["SeAccessCheck function"]
 ms.keywords: SeAccessCheck, SeAccessCheck routine [Kernel-Mode Driver Architecture], k110_7d3f1afa-5728-4ade-8915-aeb77dc3edd3.xml, kernel.seaccesscheck, wdm/SeAccessCheck
 f1_keywords:
  - "wdm/SeAccessCheck"
+ - "SeAccessCheck"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

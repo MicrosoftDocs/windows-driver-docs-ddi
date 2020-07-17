@@ -10,6 +10,7 @@ keywords: ["_NDIS_PD_RECEIVE_QUEUE_COUNTER structure"]
 ms.keywords: NDIS_PD_RECEIVE_QUEUE_COUNTER, NDIS_PD_RECEIVE_QUEUE_COUNTER structure [Network Drivers Starting with Windows Vista], PNDIS_PD_RECEIVE_QUEUE_COUNTER, PNDIS_PD_RECEIVE_QUEUE_COUNTER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_RECEIVE_QUEUE_COUNTER, ndis/NDIS_PD_RECEIVE_QUEUE_COUNTER, ndis/PNDIS_PD_RECEIVE_QUEUE_COUNTER, netvista.ndis_pd_receive_queue_counter
 f1_keywords:
  - "ndis/NDIS_PD_RECEIVE_QUEUE_COUNTER"
+ - "NDIS_PD_RECEIVE_QUEUE_COUNTER"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

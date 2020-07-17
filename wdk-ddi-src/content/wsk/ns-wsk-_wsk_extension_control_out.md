@@ -10,6 +10,7 @@ keywords: ["_WSK_EXTENSION_CONTROL_OUT structure"]
 ms.keywords: "*PWSK_EXTENSION_CONTROL_OUT, PWSK_EXTENSION_CONTROL_OUT, PWSK_EXTENSION_CONTROL_OUT structure pointer [Network Drivers Starting with Windows Vista], WSK_EXTENSION_CONTROL_OUT, WSK_EXTENSION_CONTROL_OUT structure [Network Drivers Starting with Windows Vista], _WSK_EXTENSION_CONTROL_OUT, netvista.wsk_extension_control_out, wsk/PWSK_EXTENSION_CONTROL_OUT, wsk/WSK_EXTENSION_CONTROL_OUT, wskref_fd819b16-7a6d-4206-b29e-d376e84c8e4d.xml"
 f1_keywords:
  - "wsk/WSK_EXTENSION_CONTROL_OUT"
+ - "WSK_EXTENSION_CONTROL_OUT"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows

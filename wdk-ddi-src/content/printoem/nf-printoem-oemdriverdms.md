@@ -10,6 +10,7 @@ keywords: ["OEMDriverDMS function"]
 ms.keywords: OEMDriverDMS, OEMDriverDMS function [Print Devices], print.oemdriverdms, print_obsoletefunctions_2ae5b734-4f6d-4d91-baba-b594a3388d08.xml, printoem/OEMDriverDMS
 f1_keywords:
  - "printoem/OEMDriverDMS"
+ - "OEMDriverDMS"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

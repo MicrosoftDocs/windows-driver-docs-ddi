@@ -10,6 +10,7 @@ keywords: ["USBD_ValidateConfigurationDescriptor function"]
 ms.keywords: USBD_ValidateConfigurationDescriptor, USBD_ValidateConfigurationDescriptor routine [Buses], buses.usbd_validateconfigurationdescriptor, usbdlib/USBD_ValidateConfigurationDescriptor
 f1_keywords:
  - "usbdlib/USBD_ValidateConfigurationDescriptor"
+ - "USBD_ValidateConfigurationDescriptor"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["NdisMIdleNotificationConfirm function"]
 ms.keywords: NdisMIdleNotificationConfirm, NdisMIdleNotificationConfirm function [Network Drivers Starting with Windows Vista], ndis/NdisMIdleNotificationConfirm, netvista.ndismidlenotificationconfirm
 f1_keywords:
  - "ndis/NdisMIdleNotificationConfirm"
+ - "NdisMIdleNotificationConfirm"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

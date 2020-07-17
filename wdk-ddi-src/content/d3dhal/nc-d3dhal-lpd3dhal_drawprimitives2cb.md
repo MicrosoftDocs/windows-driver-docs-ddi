@@ -10,6 +10,7 @@ keywords: ["LPD3DHAL_DRAWPRIMITIVES2CB callback function"]
 ms.keywords: D3dDrawPrimitives2, D3dDrawPrimitives2 callback function [Display Devices], LPD3DHAL_DRAWPRIMITIVES2CB, LPD3DHAL_DRAWPRIMITIVES2CB callback, d3dfncs_5f3743b4-be3f-4216-883a-af5103a38c7a.xml, d3dhal/D3dDrawPrimitives2, display.d3ddrawprimitives2
 f1_keywords:
  - "d3dhal/D3dDrawPrimitives2"
+ - "D3dDrawPrimitives2"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Desktop

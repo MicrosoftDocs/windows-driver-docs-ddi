@@ -10,6 +10,7 @@ keywords: ["HWN_CLIENT_STOP_DEVICE callback"]
 ms.keywords: "*PHWN_CLIENT_STOP_DEVICE, *PHWN_CLIENT_STOP_DEVICE callback function pointer, HWN_CLIENT_STOP_DEVICE, HwnClientStopDevice, HwnClientStopDevice callback function, gpiobtn.hwn_client_stop_device, hwnclx/HwnClientStopDevice"
 f1_keywords:
  - "hwnclx/*PHWN_CLIENT_STOP_DEVICE"
+ - "*PHWN_CLIENT_STOP_DEVICE"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows

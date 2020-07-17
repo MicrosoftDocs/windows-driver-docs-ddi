@@ -10,6 +10,7 @@ keywords: ["RtlUnicodeStringToOemSize macro"]
 ms.keywords: RtlUnicodeStringToOemSize, RtlUnicodeStringToOemSize routine [Installable File System Drivers], ifsk.rtlunicodestringtooemsize, ntifs/RtlUnicodeStringToOemSize, rtlref_836e23f0-2e1a-474e-a66c-615f260e2f4f.xml
 f1_keywords:
  - "ntifs/RtlUnicodeStringToOemSize"
+ - "RtlUnicodeStringToOemSize"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

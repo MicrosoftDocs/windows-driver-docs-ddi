@@ -8,6 +8,7 @@ ms.date: 06/29/2018
 keywords: ["MbbRequestComplete function"]
 f1_keywords:
  - "mbbcx/MbbRequestComplete"
+ - "MbbRequestComplete"
 ms.keywords: MbbRequestComplete
 req.header: mbbcx.h
 req.include-header:

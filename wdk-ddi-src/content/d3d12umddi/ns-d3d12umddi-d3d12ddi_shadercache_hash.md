@@ -9,6 +9,7 @@ keywords: ["D3D12DDI_SHADERCACHE_HASH structure"]
 ms.keywords: D3D12DDI_SHADERCACHE_HASH, D3D12DDI_SHADERCACHE_HASH structure [Display Devices], d3d12umddi/D3D12DDI_SHADERCACHE_HASH, display.d3d12ddi_shadercache_hash
 f1_keywords:
  - "d3d12umddi/D3D12DDI_SHADERCACHE_HASH"
+ - "D3D12DDI_SHADERCACHE_HASH"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

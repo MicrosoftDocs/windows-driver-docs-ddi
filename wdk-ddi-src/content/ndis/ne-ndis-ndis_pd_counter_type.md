@@ -10,6 +10,7 @@ keywords: ["NDIS_PD_COUNTER_TYPE enumeration"]
 ms.keywords: NDIS_PD_COUNTER_TYPE, NDIS_PD_COUNTER_TYPE enumeration [Network Drivers Starting with Windows Vista], PDCounterTypeMax, PDCounterTypeReceiveFilter, PDCounterTypeReceiveQueue, PDCounterTypeTransmitQueue, PDCounterTypeUnknown, ndis/NDIS_PD_COUNTER_TYPE, ndis/PDCounterTypeMax, ndis/PDCounterTypeReceiveFilter, ndis/PDCounterTypeReceiveQueue, ndis/PDCounterTypeTransmitQueue, ndis/PDCounterTypeUnknown, netvista.ndis_pd_counter_type
 f1_keywords:
  - "ndis/NDIS_PD_COUNTER_TYPE"
+ - "NDIS_PD_COUNTER_TYPE"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

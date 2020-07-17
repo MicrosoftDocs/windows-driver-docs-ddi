@@ -10,6 +10,7 @@ keywords: ["IDebugControl::SetSpecificFilterArgument"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetSpecificFilterArgument method, IDebugControl.SetSpecificFilterArgument, IDebugControl2 interface [Windows Debugging],SetSpecificFilterArgument method, IDebugControl2::SetSpecificFilterArgument, IDebugControl3 interface [Windows Debugging],SetSpecificFilterArgument method, IDebugControl3::SetSpecificFilterArgument, IDebugControl::SetSpecificFilterArgument, IDebugControl_a7f790fa-29f1-46f2-9163-a4b99f4880da.xml, SetSpecificFilterArgument, SetSpecificFilterArgument method [Windows Debugging], SetSpecificFilterArgument method [Windows Debugging],IDebugControl interface, SetSpecificFilterArgument method [Windows Debugging],IDebugControl2 interface, SetSpecificFilterArgument method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetSpecificFilterArgument, dbgeng/IDebugControl3::SetSpecificFilterArgument, dbgeng/IDebugControl::SetSpecificFilterArgument, debugger.setspecificfilterargument
 f1_keywords:
  - "dbgeng/IDebugControl.SetSpecificFilterArgument"
+ - "IDebugControl.SetSpecificFilterArgument"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

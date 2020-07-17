@@ -10,6 +10,7 @@ keywords: ["_DOT11_WFD_CHANNEL structure"]
 ms.keywords: "*PDOT11_WFD_CHANNEL, DOT11_WFD_CHANNEL, DOT11_WFD_CHANNEL structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_CHANNEL, PDOT11_WFD_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_CHANNEL, netvista.dot11_wfd_channel, windot11/DOT11_WFD_CHANNEL, windot11/PDOT11_WFD_CHANNEL"
 f1_keywords:
  - "windot11/DOT11_WFD_CHANNEL"
+ - "DOT11_WFD_CHANNEL"
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows

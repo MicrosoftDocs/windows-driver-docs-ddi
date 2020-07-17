@@ -10,6 +10,7 @@ keywords: ["IPrintCorePS2::GetOptions"]
 ms.keywords: GetOptions, GetOptions method [Print Devices], GetOptions method [Print Devices],IPrintCorePS2 interface, IPrintCorePS2 interface [Print Devices],GetOptions method, IPrintCorePS2.GetOptions, IPrintCorePS2::GetOptions, prcomoem/IPrintCorePS2::GetOptions, print.iprintcoreps2_getoptions, print_unidrv-pscript_rendering_5efb04dd-f01b-4da4-9ac3-34a3e62a1ec3.xml
 f1_keywords:
  - "prcomoem/IPrintCorePS2.GetOptions"
+ - "IPrintCorePS2.GetOptions"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration"]
 ms.keywords: DFDeviceObjectGeneralRef_3d85e623-4e88-4e66-a21d-489aebd13ddf.xml, IdleAllowUserControl, IdleDoNotAllowUserControl, IdleUserControlInvalid, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, WDF_POWER_POLICY_S0_IDLE_USER_CONTROL enumeration, _WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, kmdf.wdf_power_policy_s0_idle_user_control, wdf.wdf_power_policy_s0_idle_user_control, wdfdevice/IdleAllowUserControl, wdfdevice/IdleDoNotAllowUserControl, wdfdevice/IdleUserControlInvalid, wdfdevice/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL, wudfddi_types/IdleAllowUserControl, wudfddi_types/IdleDoNotAllowUserControl, wudfddi_types/IdleUserControlInvalid, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL
 f1_keywords:
  - "wudfddi_types/WDF_POWER_POLICY_S0_IDLE_USER_CONTROL"
+ - "WDF_POWER_POLICY_S0_IDLE_USER_CONTROL"
 req.header: wudfddi_types.h
 req.include-header: Wdf.h
 req.target-type: Windows

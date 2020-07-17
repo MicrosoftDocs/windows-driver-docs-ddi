@@ -10,6 +10,7 @@ keywords: ["IoCreateDisk function"]
 ms.keywords: IoCreateDisk, IoCreateDisk routine [Storage Devices], ntddk/IoCreateDisk, rtns-disk_5f69686f-f812-4ccc-8bc8-4caa70230d20.xml, storage.iocreatedisk
 f1_keywords:
  - "ntddk/IoCreateDisk"
+ - "IoCreateDisk"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

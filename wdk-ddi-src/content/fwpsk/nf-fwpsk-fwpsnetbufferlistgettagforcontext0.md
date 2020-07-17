@@ -10,6 +10,7 @@ keywords: ["FwpsNetBufferListGetTagForContext0 function"]
 ms.keywords: FwpsNetBufferListGetTagForContext0, FwpsNetBufferListGetTagForContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListGetTagForContext0, netvista.fwpsnetbufferlistgettagforcontext0, wfp_ref_2_funct_3_fwps_J-Q_f81dda7b-70fb-42ae-8641-c9bb2a9e7982.xml
 f1_keywords:
  - "fwpsk/FwpsNetBufferListGetTagForContext0"
+ - "FwpsNetBufferListGetTagForContext0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceClassExtension::Uninitialize"]
 ms.keywords: IPortableDeviceClassExtension interface,Uninitialize method, IPortableDeviceClassExtension.Uninitialize, IPortableDeviceClassExtension::Uninitialize, IPortableDeviceClassExtensionUninitialize, Uninitialize, Uninitialize method, Uninitialize method,IPortableDeviceClassExtension interface, portabledeviceclassextension/IPortableDeviceClassExtension::Uninitialize, wpddk.iportabledeviceclassextension_uninitialize
 f1_keywords:
  - "portabledeviceclassextension/IPortableDeviceClassExtension.Uninitialize"
+ - "IPortableDeviceClassExtension.Uninitialize"
 req.header: portabledeviceclassextension.h
 req.include-header: 
 req.target-type: Windows

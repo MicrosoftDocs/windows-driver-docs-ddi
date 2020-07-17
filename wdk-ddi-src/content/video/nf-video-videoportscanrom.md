@@ -10,6 +10,7 @@ keywords: ["VideoPortScanRom function"]
 ms.keywords: VideoPortScanRom, VideoPortScanRom function [Display Devices], VideoPort_Functions_7bcf750d-48d5-4b3b-911f-90efd1f0eed1.xml, display.videoportscanrom, video/VideoPortScanRom
 f1_keywords:
  - "video/VideoPortScanRom"
+ - "VideoPortScanRom"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

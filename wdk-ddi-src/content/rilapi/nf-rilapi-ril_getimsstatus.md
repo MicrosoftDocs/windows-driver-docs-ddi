@@ -10,6 +10,7 @@ keywords: ["RIL_GetIMSStatus function"]
 ms.keywords: RIL_GetIMSStatus, RIL_GetIMSStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getimsstatus, rilapi/RIL_GetIMSStatus
 f1_keywords:
  - "rilapi/RIL_GetIMSStatus"
+ - "RIL_GetIMSStatus"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IoReportDetectedDevice function"]
 ms.keywords: IoReportDetectedDevice, IoReportDetectedDevice routine [Kernel-Mode Driver Architecture], k104_b906486e-318a-49b5-aa6a-683c1889c10b.xml, kernel.ioreportdetecteddevice, ntddk/IoReportDetectedDevice
 f1_keywords:
  - "ntddk/IoReportDetectedDevice"
+ - "IoReportDetectedDevice"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

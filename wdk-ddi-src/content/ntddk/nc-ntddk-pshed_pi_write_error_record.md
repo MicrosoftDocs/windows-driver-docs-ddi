@@ -10,6 +10,7 @@ keywords: ["PSHED_PI_WRITE_ERROR_RECORD callback function"]
 ms.keywords: PSHED_PI_WRITE_ERROR_RECORD, PSHED_PI_WRITE_ERROR_RECORD callback, WriteErrorRecord, WriteErrorRecord callback function [WHEA Drivers and Applications], ntddk/WriteErrorRecord, whea.writeerrorrecord, whearef_3a405d7d-3427-4c22-919e-7cbab5ea4f19.xml
 f1_keywords:
  - "ntddk/WriteErrorRecord"
+ - "WriteErrorRecord"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop

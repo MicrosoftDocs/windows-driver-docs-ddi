@@ -10,6 +10,7 @@ keywords: ["IDebugClient4::GetEventCallbacks"]
 ms.keywords: GetEventCallbacks, GetEventCallbacks method [Windows Debugging], GetEventCallbacks method [Windows Debugging],IDebugClient interface, GetEventCallbacks method [Windows Debugging],IDebugClient2 interface, GetEventCallbacks method [Windows Debugging],IDebugClient3 interface, GetEventCallbacks method [Windows Debugging],IDebugClient4 interface, GetEventCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetEventCallbacks method, IDebugClient2 interface [Windows Debugging],GetEventCallbacks method, IDebugClient2::GetEventCallbacks, IDebugClient3 interface [Windows Debugging],GetEventCallbacks method, IDebugClient3::GetEventCallbacks, IDebugClient4 interface [Windows Debugging],GetEventCallbacks method, IDebugClient4.GetEventCallbacks, IDebugClient4::GetEventCallbacks, IDebugClient5 interface [Windows Debugging],GetEventCallbacks method, IDebugClient5::GetEventCallbacks, IDebugClient::GetEventCallbacks, IDebugClient_81e23179-deb3-4c14-ae9e-b0c0a1d48f00.xml, dbgeng/IDebugClient2::GetEventCallbacks, dbgeng/IDebugClient3::GetEventCallbacks, dbgeng/IDebugClient4::GetEventCallbacks, dbgeng/IDebugClient5::GetEventCallbacks, dbgeng/IDebugClient::GetEventCallbacks, debugger.geteventcallbacks
 f1_keywords:
  - "dbgeng/IDebugClient.GetEventCallbacks"
+ - "IDebugClient.GetEventCallbacks"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

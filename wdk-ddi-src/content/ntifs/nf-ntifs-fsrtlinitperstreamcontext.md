@@ -10,6 +10,7 @@ keywords: ["FsRtlInitPerStreamContext macro"]
 ms.keywords: FsRtlInitPerStreamContext, FsRtlInitPerStreamContext function [Installable File System Drivers], fsrtlref_13a48f5e-d3e7-49fa-8c4c-bb2d061f2b2a.xml, ifsk.fsrtlinitperstreamcontext, ntifs/FsRtlInitPerStreamContext
 f1_keywords:
  - "ntifs/FsRtlInitPerStreamContext"
+ - "FsRtlInitPerStreamContext"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

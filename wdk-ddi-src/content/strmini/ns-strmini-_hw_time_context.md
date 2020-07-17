@@ -10,6 +10,7 @@ keywords: ["_HW_TIME_CONTEXT structure"]
 ms.keywords: "*PHW_TIME_CONTEXT, HW_TIME_CONTEXT, HW_TIME_CONTEXT structure [Streaming Media Devices], PHW_TIME_CONTEXT, PHW_TIME_CONTEXT structure pointer [Streaming Media Devices], _HW_TIME_CONTEXT, strclass-struct_2c3e01ab-3b53-47cb-816f-994c0b7113b0.xml, stream.hw_time_context, strmini/HW_TIME_CONTEXT, strmini/PHW_TIME_CONTEXT"
 f1_keywords:
  - "strmini/HW_TIME_CONTEXT"
+ - "HW_TIME_CONTEXT"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Windows

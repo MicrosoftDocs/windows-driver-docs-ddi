@@ -10,6 +10,7 @@ keywords: ["IOCTL_SCSI_GET_ADDRESS IOCTL"]
 ms.keywords: IOCTL_SCSI_GET_ADDRESS, IOCTL_SCSI_GET_ADDRESS control, IOCTL_SCSI_GET_ADDRESS control code [Storage Devices], k307_0d205fdd-0951-42ef-bd5c-09727bee65f4.xml, ntddscsi/IOCTL_SCSI_GET_ADDRESS, storage.ioctl_scsi_get_address
 f1_keywords:
  - "ntddscsi/IOCTL_SCSI_GET_ADDRESS"
+ - "IOCTL_SCSI_GET_ADDRESS"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows

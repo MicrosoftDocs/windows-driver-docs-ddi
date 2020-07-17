@@ -21,6 +21,7 @@ ms.custom: RS5
 tech.root: display
 f1_keywords:
  - "d3dumddi/_D3DDDITEXTUREFILTERTYPE"
+ - "_D3DDDITEXTUREFILTERTYPE"
 topic_type:
  - apiref
 api_type:

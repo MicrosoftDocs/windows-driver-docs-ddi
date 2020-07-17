@@ -10,6 +10,7 @@ ms.date: 03/24/2020
 ms.topic: ioctl
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG"
+ - "IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG"
 req.header: ntddstor.h
 req.include-header:
 req.target-type:

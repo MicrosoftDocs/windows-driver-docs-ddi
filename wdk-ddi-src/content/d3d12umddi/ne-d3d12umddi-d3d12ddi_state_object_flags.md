@@ -7,6 +7,7 @@ ms.date: 03/24/2020
 keywords: ["D3D12DDI_STATE_OBJECT_FLAGS enumeration"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_STATE_OBJECT_FLAGS"
+ - "D3D12DDI_STATE_OBJECT_FLAGS"
 ms.keywords: D3D12DDI_STATE_OBJECT_FLAGS, D3D12DDI_STATE_OBJECT_FLAGS, 
 req.header: d3d12umddi.h
 req.include-header:

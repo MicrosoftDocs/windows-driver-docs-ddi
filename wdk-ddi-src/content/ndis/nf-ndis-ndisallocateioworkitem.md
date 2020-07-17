@@ -10,6 +10,7 @@ keywords: ["NdisAllocateIoWorkItem function"]
 ms.keywords: NdisAllocateIoWorkItem, NdisAllocateIoWorkItem function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateIoWorkItem, ndis_work_items_ref_c227456a-4847-40db-b530-a772f4fd4dc3.xml, netvista.ndisallocateioworkitem
 f1_keywords:
  - "ndis/NdisAllocateIoWorkItem"
+ - "NdisAllocateIoWorkItem"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

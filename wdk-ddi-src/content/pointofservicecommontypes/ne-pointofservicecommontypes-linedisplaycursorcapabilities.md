@@ -10,6 +10,7 @@ keywords: ["LineDisplayCursorCapabilities enumeration"]
 ms.keywords: LineDisplayCursorCapabilities, LineDisplayCursorCapabilities enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayCursorCapabilities, pos.linedisplaycursorcapabilities
 f1_keywords:
  - "pointofservicecommontypes/LineDisplayCursorCapabilities"
+ - "LineDisplayCursorCapabilities"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

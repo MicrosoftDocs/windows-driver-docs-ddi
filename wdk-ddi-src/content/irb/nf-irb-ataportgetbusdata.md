@@ -10,6 +10,7 @@ keywords: ["AtaPortGetBusData function"]
 ms.keywords: AtaPortGetBusData, AtaPortGetBusData routine [Storage Devices], atartns_a137d697-85fa-4d99-964f-94e9bcbb6b7b.xml, irb/AtaPortGetBusData, storage.ataportgetbusdata
 f1_keywords:
  - "irb/AtaPortGetBusData"
+ - "AtaPortGetBusData"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

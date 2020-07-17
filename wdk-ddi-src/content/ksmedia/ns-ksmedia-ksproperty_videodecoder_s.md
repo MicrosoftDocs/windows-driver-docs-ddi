@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_VIDEODECODER_S structure"]
 ms.keywords: "*PKSPROPERTY_VIDEODECODER_S, KSPROPERTY_VIDEODECODER_S, KSPROPERTY_VIDEODECODER_S structure [Streaming Media Devices], PKSPROPERTY_VIDEODECODER_S, PKSPROPERTY_VIDEODECODER_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEODECODER_S, ksmedia/PKSPROPERTY_VIDEODECODER_S, stream.ksproperty_videodecoder_s, vidcapstruct_fbca2e77-2e08-4a96-932d-706a7e8b9a2a.xml"
 f1_keywords:
  - "ksmedia/KSPROPERTY_VIDEODECODER_S"
+ - "KSPROPERTY_VIDEODECODER_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

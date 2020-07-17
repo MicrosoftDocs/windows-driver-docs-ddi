@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_DECODEENDFRAME structure"]
 ms.keywords: D3DDDIARG_DECODEENDFRAME, D3DDDIARG_DECODEENDFRAME structure [Display Devices], UMDisplayDriver_param_Structs_7c4f1596-3837-4094-9e8d-b5ea05207489.xml, _D3DDDIARG_DECODEENDFRAME, d3dumddi/D3DDDIARG_DECODEENDFRAME, display.d3dddiarg_decodeendframe
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DECODEENDFRAME"
+ - "D3DDDIARG_DECODEENDFRAME"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

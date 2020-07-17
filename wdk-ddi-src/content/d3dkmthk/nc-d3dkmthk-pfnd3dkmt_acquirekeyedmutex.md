@@ -9,6 +9,7 @@ keywords: ["PFND3DKMT_ACQUIREKEYEDMUTEX callback function"]
 ms.keywords: D3DKMTAcquireKeyedMutex, D3DKMTAcquireKeyedMutex callback function [Display Devices], OpenGL_Functions_547da245-f41b-4e73-bf9c-7a72f6104def.xml, PFND3DKMT_ACQUIREKEYEDMUTEX, PFND3DKMT_ACQUIREKEYEDMUTEX callback, d3dkmthk/D3DKMTAcquireKeyedMutex, display.d3dkmtacquirekeyedmutex
 f1_keywords:
  - "d3dkmthk/D3DKMTAcquireKeyedMutex"
+ - "D3DKMTAcquireKeyedMutex"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

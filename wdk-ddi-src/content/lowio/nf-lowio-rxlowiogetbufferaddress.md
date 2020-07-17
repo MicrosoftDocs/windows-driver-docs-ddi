@@ -10,6 +10,7 @@ keywords: ["RxLowIoGetBufferAddress function"]
 ms.keywords: RxLowIoGetBufferAddress, RxLowIoGetBufferAddress function [Installable File System Drivers], ifsk.rxlowiogetbufferaddress, lowio/RxLowIoGetBufferAddress, rxref_b45afb50-cf03-4450-9e96-3d8f08392eb6.xml
 f1_keywords:
  - "lowio/RxLowIoGetBufferAddress"
+ - "RxLowIoGetBufferAddress"
 req.header: lowio.h
 req.include-header: Rxcontx.h, Lowio.h
 req.target-type: Desktop

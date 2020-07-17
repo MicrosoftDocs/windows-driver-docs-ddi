@@ -10,6 +10,7 @@ keywords: ["tag_KS_TRUECOLORINFO structure"]
 ms.keywords: "*PKS_TRUECOLORINFO, KS_TRUECOLORINFO, KS_TRUECOLORINFO structure [Streaming Media Devices], PKS_TRUECOLORINFO, PKS_TRUECOLORINFO structure pointer [Streaming Media Devices], ksmedia/KS_TRUECOLORINFO, ksmedia/PKS_TRUECOLORINFO, stream.ks_truecolorinfo, tag_KS_TRUECOLORINFO, vidcapstruct_02efd829-b75a-4a08-864d-cd80570d0f3a.xml"
 f1_keywords:
  - "ksmedia/KS_TRUECOLORINFO"
+ - "KS_TRUECOLORINFO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

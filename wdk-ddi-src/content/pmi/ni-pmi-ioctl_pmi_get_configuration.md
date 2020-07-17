@@ -10,6 +10,7 @@ keywords: ["IOCTL_PMI_GET_CONFIGURATION IOCTL"]
 ms.keywords: IOCTL_PMI_GET_CONFIGURATION, IOCTL_PMI_GET_CONFIGURATION control, IOCTL_PMI_GET_CONFIGURATION control code [Power Metering and Budgeting Devices], PowerMeterRef_7d1f1fbc-cd7a-4885-8d41-8f42c4659de7.xml, pmi/IOCTL_PMI_GET_CONFIGURATION, powermeter.ioctl_pmi_get_configuration
 f1_keywords:
  - "pmi/IOCTL_PMI_GET_CONFIGURATION"
+ - "IOCTL_PMI_GET_CONFIGURATION"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows

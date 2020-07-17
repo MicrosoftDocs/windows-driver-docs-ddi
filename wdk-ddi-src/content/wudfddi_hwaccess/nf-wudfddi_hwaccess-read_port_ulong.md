@@ -10,6 +10,7 @@ keywords: ["READ_PORT_ULONG function"]
 ms.keywords: READ_PORT_ULONG, READ_PORT_ULONG function, umdf.read_port_ulong, wdf.read_port_ulong, wudfddi_hwaccess/READ_PORT_ULONG
 f1_keywords:
  - "wudfddi_hwaccess/READ_PORT_ULONG"
+ - "READ_PORT_ULONG"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceFormatRequestForCyclePort function"]
 ms.keywords: DFUsbRef_cc92bdd0-b899-41be-b9c6-c44e385ee001.xml, WdfUsbTargetDeviceFormatRequestForCyclePort, WdfUsbTargetDeviceFormatRequestForCyclePort method, kmdf.wdfusbtargetdeviceformatrequestforcycleport, wdf.wdfusbtargetdeviceformatrequestforcycleport, wdfusb/WdfUsbTargetDeviceFormatRequestForCyclePort
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceFormatRequestForCyclePort"
+ - "WdfUsbTargetDeviceFormatRequestForCyclePort"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

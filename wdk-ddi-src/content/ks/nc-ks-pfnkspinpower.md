@@ -10,6 +10,7 @@ keywords: ["PFNKSPINPOWER callback function"]
 ms.keywords: AVStrMiniPinPower, AVStrMiniPinPower routine [Streaming Media Devices], PFNKSPINPOWER, avstclbk_fd047ae3-b574-4dad-a16b-2152193fb2cd.xml, ks/AVStrMiniPinPower, stream.avstrminipinpower
 f1_keywords:
  - "ks/AVStrMiniPinPower"
+ - "AVStrMiniPinPower"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

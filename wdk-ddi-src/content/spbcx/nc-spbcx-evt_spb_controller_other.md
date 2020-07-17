@@ -10,6 +10,7 @@ keywords: ["EVT_SPB_CONTROLLER_OTHER callback function"]
 ms.keywords: EVT_SPB_CONTROLLER_OTHER, EVT_SPB_CONTROLLER_OTHER callback, EvtSpbControllerIoOther, EvtSpbControllerIoOther callback function [Buses], SPB.evtspbcontrollerioother, spbcx/EvtSpbControllerIoOther
 f1_keywords:
  - "spbcx/EvtSpbControllerIoOther"
+ - "EvtSpbControllerIoOther"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop

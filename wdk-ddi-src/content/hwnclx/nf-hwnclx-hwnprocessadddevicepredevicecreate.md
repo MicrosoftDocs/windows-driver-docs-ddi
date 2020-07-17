@@ -10,6 +10,7 @@ keywords: ["HwNProcessAddDevicePreDeviceCreate function"]
 ms.keywords: HwNProcessAddDevicePreDeviceCreate, HwNProcessAddDevicePreDeviceCreate function, gpiobtn.hwnprocessadddevicepredevicecreate, hwnclx/HwNProcessAddDevicePreDeviceCreate
 f1_keywords:
  - "hwnclx/HwNProcessAddDevicePreDeviceCreate"
+ - "HwNProcessAddDevicePreDeviceCreate"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows

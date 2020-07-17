@@ -10,6 +10,7 @@ keywords: ["PosCxRemoteRequestRelease function"]
 ms.keywords: PosCxRemoteRequestRelease, PosCxRemoteRequestRelease function, pos.poscxremoterequestrelease, poscx/PosCxRemoteRequestRelease
 f1_keywords:
  - "poscx/PosCxRemoteRequestRelease"
+ - "PosCxRemoteRequestRelease"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

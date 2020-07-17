@@ -10,6 +10,7 @@ keywords: ["AtaPortBusChangeDetected function"]
 ms.keywords: AtaPortBusChangeDetected, AtaPortBusChangeDetected routine [Storage Devices], irb/AtaPortBusChangeDetected, storage.ataportbuschangedetected
 f1_keywords:
  - "irb/AtaPortBusChangeDetected"
+ - "AtaPortBusChangeDetected"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

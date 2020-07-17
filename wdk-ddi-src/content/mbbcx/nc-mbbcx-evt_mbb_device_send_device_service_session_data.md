@@ -8,6 +8,7 @@ ms.date: 07/02/2018
 keywords: ["EVT_MBB_DEVICE_SEND_DEVICE_SERVICE_SESSION_DATA callback function"]
 f1_keywords:
  - "mbbcx/EVT_MBB_DEVICE_SEND_DEVICE_SERVICE_SESSION_DATA"
+ - "EVT_MBB_DEVICE_SEND_DEVICE_SERVICE_SESSION_DATA"
 req.header: mbbcx.h
 req.include-header:
 req.target-type: Universal

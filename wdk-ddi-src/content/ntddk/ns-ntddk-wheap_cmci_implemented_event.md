@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - ntddk/_WHEAP_CMCI_IMPLEMENTED_EVENT
  - ntddk/WHEAP_CMCI_IMPLEMENTED_EVENT
+ - ""
 dev_langs:
  - c++
 ---

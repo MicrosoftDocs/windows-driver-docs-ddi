@@ -10,6 +10,7 @@ keywords: ["HW_COMPLETE_SERVICE_IRP callback function"]
 ms.keywords: HW_COMPLETE_SERVICE_IRP, HwStorCompleteServiceIrp, HwStorCompleteServiceIrp routine [Storage Devices], storage.hwstorcompleteserviceirp, storport/HwStorCompleteServiceIrp, storvmini_57cddd18-134c-4ecc-9180-4c4b3ff3903d.xml
 f1_keywords:
  - "storport/HwStorCompleteServiceIrp"
+ - "HwStorCompleteServiceIrp"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

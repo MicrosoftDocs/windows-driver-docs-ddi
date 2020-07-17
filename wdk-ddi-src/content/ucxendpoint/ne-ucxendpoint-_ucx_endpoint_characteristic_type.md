@@ -10,6 +10,7 @@ keywords: ["_UCX_ENDPOINT_CHARACTERISTIC_TYPE enumeration"]
 ms.keywords: UCX_ENDPOINT_CHARACTERISTIC_TYPE, UCX_ENDPOINT_CHARACTERISTIC_TYPE enumeration [Buses], UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY, _UCX_ENDPOINT_CHARACTERISTIC_TYPE, buses.ucx_endpoint_characteristic_type, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE_PRIORITY
 f1_keywords:
  - "ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC_TYPE"
+ - "UCX_ENDPOINT_CHARACTERISTIC_TYPE"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_NDIS_MINIPORT_WDI_DATA_HANDLERS structure"]
 ms.keywords: "*PNDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS, NDIS_MINIPORT_WDI_DATA_HANDLERS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_WDI_DATA_HANDLERS, PNDIS_MINIPORT_WDI_DATA_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/NDIS_MINIPORT_WDI_DATA_HANDLERS, dot11wdi/PNDIS_MINIPORT_WDI_DATA_HANDLERS, netvista.ndis_miniport_wdi_data_handlers"
 f1_keywords:
  - "dot11wdi/NDIS_MINIPORT_WDI_DATA_HANDLERS"
+ - "NDIS_MINIPORT_WDI_DATA_HANDLERS"
 req.header: dot11wdi.h
 req.include-header: Ndis.h
 req.target-type: Windows

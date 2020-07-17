@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL"]
 f1_keywords:
  - "sidebandaudio/IOCTL_SBAUD_SET_DEVICE_CLAIMED"
+ - "IOCTL_SBAUD_SET_DEVICE_CLAIMED"
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

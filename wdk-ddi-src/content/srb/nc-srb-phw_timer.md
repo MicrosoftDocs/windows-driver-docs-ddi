@@ -10,6 +10,7 @@ keywords: ["PHW_TIMER callback"]
 ms.keywords: "(*PHW_TIMER), (*PHW_TIMER) callback function [Storage Devices], ide_minikr_55cc9012-04fa-434c-b2b9-d24bbd1d1404.xml, srb/(*PHW_TIMER), storage.phw_timer"
 f1_keywords:
  - "srb/(*PHW_TIMER)"
+ - "(*PHW_TIMER)"
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h
 req.target-type: Desktop

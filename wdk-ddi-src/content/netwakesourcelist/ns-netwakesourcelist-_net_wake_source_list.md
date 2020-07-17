@@ -10,6 +10,7 @@ ms.date: 10/07/2019
 keywords: ["NET_WAKE_SOURCE_LIST structure"]
 f1_keywords:
  - "netwakesourcelist/NET_WAKE_SOURCE_LIST"
+ - "NET_WAKE_SOURCE_LIST"
 ms.keywords: NET_WAKE_SOURCE_LIST, NET_WAKE_SOURCE_LIST, 
 req.header: netwakesourcelist.h
 req.include-header:

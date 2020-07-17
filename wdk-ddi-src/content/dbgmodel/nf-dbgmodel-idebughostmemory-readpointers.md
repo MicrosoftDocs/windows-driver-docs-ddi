@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["IDebugHostMemory::ReadPointers"]
 f1_keywords:
  - "dbgmodel/IDebugHostMemory.ReadPointers"
+ - "IDebugHostMemory.ReadPointers"
 ms.keywords: IDebugHostMemory::ReadPointers, ReadPointers, IDebugHostMemory.ReadPointers, IDebugHostMemory::ReadPointers, IDebugHostMemory.ReadPointers
 req.header: dbgmodel.h
 req.include-header:

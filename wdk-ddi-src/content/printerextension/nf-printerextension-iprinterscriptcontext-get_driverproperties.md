@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptContext::get_DriverProperties"]
 ms.keywords: DriverProperties property [Print Devices], DriverProperties property [Print Devices],IPrinterScriptContext interface, IPrinterScriptContext interface [Print Devices],DriverProperties property, IPrinterScriptContext.DriverProperties, IPrinterScriptContext.get_DriverProperties, IPrinterScriptContext::DriverProperties, IPrinterScriptContext::get_DriverProperties, get_DriverProperties, print.iprinterscriptcontext_driverproperties, printerextension/IPrinterScriptContext::DriverProperties, printerextension/IPrinterScriptContext::get_DriverProperties
 f1_keywords:
  - "printerextension/IPrinterScriptContext.DriverProperties"
+ - "IPrinterScriptContext.DriverProperties"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

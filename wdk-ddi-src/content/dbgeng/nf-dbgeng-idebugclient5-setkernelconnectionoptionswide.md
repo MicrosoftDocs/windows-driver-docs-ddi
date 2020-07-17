@@ -10,6 +10,7 @@ keywords: ["IDebugClient5::SetKernelConnectionOptionsWide"]
 ms.keywords: IDebugClient5 interface [Windows Debugging],SetKernelConnectionOptionsWide method, IDebugClient5.SetKernelConnectionOptionsWide, IDebugClient5::SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide, SetKernelConnectionOptionsWide method [Windows Debugging], SetKernelConnectionOptionsWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetKernelConnectionOptionsWide, debugger.setkernelconnectionoptionswide
 f1_keywords:
  - "dbgeng/IDebugClient5.SetKernelConnectionOptionsWide"
+ - "IDebugClient5.SetKernelConnectionOptionsWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_STARTED_REPORT_HW_ERROR structure"]
 f1_keywords:
  - "ntddk/WHEAP_STARTED_REPORT_HW_ERROR"
+ - "WHEAP_STARTED_REPORT_HW_ERROR"
 ms.keywords: WHEAP_STARTED_REPORT_HW_ERROR, WHEAP_STARTED_REPORT_HW_ERROR, *PWHEAP_STARTED_REPORT_HW_ERROR, 
 req.header: ntddk.h
 req.include-header:

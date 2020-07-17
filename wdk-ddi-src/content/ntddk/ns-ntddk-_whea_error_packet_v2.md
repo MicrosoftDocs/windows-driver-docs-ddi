@@ -10,6 +10,7 @@ keywords: ["_WHEA_ERROR_PACKET_V2 structure"]
 ms.keywords: "*PWHEA_ERROR_PACKET, *PWHEA_ERROR_PACKET_V2, PWHEA_ERROR_PACKET_V1, PWHEA_ERROR_PACKET_V1 structure pointer [WHEA Drivers and Applications], WHEA_ERROR_PACKET, WHEA_ERROR_PACKET_V1, WHEA_ERROR_PACKET_V1 structure [WHEA Drivers and Applications], WHEA_ERROR_PACKET_V2, _WHEA_ERROR_PACKET_V2, ntddk/PWHEA_ERROR_PACKET_V1, ntddk/WHEA_ERROR_PACKET_V1, whea.whea_error_packet_v1, whearef_d65ca9a6-c7ff-42f0-b7d5-763b6a34b924.xml"
 f1_keywords:
  - "ntddk/WHEA_ERROR_PACKET_V1"
+ - "WHEA_ERROR_PACKET_V1"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

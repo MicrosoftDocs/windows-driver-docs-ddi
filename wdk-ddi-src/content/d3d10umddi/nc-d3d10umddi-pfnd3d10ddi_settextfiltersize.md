@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_SETTEXTFILTERSIZE callback function"]
 ms.keywords: PFND3D10DDI_SETTEXTFILTERSIZE, PFND3D10DDI_SETTEXTFILTERSIZE callback, SetTextFilterSize, SetTextFilterSize callback function [Display Devices], UserModeDisplayDriverDx10_Functions_418992fe-bd22-446c-94a2-2a4d23fd63a7.xml, d3d10umddi/SetTextFilterSize, display.settextfiltersize
 f1_keywords:
  - "d3d10umddi/SetTextFilterSize"
+ - "SetTextFilterSize"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

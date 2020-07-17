@@ -10,6 +10,7 @@ keywords: ["UfxDevicePortDetectComplete function"]
 ms.keywords: UfxDevicePortDetectComplete, UfxDevicePortDetectComplete method [Buses], buses.ufxdeviceportdetectcomplete, ufxclient/UfxDevicePortDetectComplete
 f1_keywords:
  - "ufxclient/UfxDevicePortDetectComplete"
+ - "UfxDevicePortDetectComplete"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["IDebugHostModule2::GetImageName"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule2.GetImageName"
+ - "IDebugHostModule2.GetImageName"
 ms.keywords: IDebugHostModule2::GetImageName, GetImageName, IDebugHostModule2.GetImageName, IDebugHostModule2::GetImageName, IDebugHostModule2.GetImageName
 req.header: dbgmodel.h
 req.include-header:

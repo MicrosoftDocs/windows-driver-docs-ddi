@@ -10,6 +10,7 @@ keywords: ["WdfDeviceAssignMofResourceName function"]
 ms.keywords: DFDeviceObjectGeneralRef_8cdcec0f-02df-4e8d-83e2-ae1fdc11343d.xml, WdfDeviceAssignMofResourceName, WdfDeviceAssignMofResourceName method, kmdf.wdfdeviceassignmofresourcename, wdf.wdfdeviceassignmofresourcename, wdfdevice/WdfDeviceAssignMofResourceName
 f1_keywords:
  - "wdfdevice/WdfDeviceAssignMofResourceName"
+ - "WdfDeviceAssignMofResourceName"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

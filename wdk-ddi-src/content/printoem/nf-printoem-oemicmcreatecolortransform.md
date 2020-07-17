@@ -10,6 +10,7 @@ keywords: ["OEMIcmCreateColorTransform function"]
 ms.keywords: OEMIcmCreateColorTransform, OEMIcmCreateColorTransform function [Print Devices], print.oemicmcreatecolortransform, print_unidrv-pscript_rendering_102b853d-78f9-4e06-a3e5-c76f55caa42e.xml, printoem/OEMIcmCreateColorTransform
 f1_keywords:
  - "printoem/OEMIcmCreateColorTransform"
+ - "OEMIcmCreateColorTransform"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

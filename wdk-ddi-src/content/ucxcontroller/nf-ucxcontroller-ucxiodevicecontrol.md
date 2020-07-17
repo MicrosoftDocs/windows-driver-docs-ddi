@@ -10,6 +10,7 @@ keywords: ["UcxIoDeviceControl function"]
 ms.keywords: UcxIoDeviceControl, UcxIoDeviceControl method [Buses], buses._ucxiodevicecontrol, ucxcontroller/UcxIoDeviceControl
 f1_keywords:
  - "ucxcontroller/UcxIoDeviceControl"
+ - "UcxIoDeviceControl"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

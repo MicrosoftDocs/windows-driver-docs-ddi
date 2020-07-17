@@ -10,6 +10,7 @@ keywords: ["KsGateTerminateAnd function"]
 ms.keywords: KsGateTerminateAnd, KsGateTerminateAnd function [Streaming Media Devices], avfunc_e8c3af46-fdb4-4e95-8473-12e1fadff072.xml, ks/KsGateTerminateAnd, stream.ksgateterminateand
 f1_keywords:
  - "ks/KsGateTerminateAnd"
+ - "KsGateTerminateAnd"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

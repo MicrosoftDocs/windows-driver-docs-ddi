@@ -10,6 +10,7 @@ keywords: ["PCPFNEVENT_HANDLER callback function"]
 ms.keywords: EventHandler, EventHandler callback function [Audio Devices], PCPFNEVENT_HANDLER, PCPFNEVENT_HANDLER callback, audio.eventhandler, audmp-routines_f75ad8d3-9abe-4f8a-97d4-605a18586ecb.xml, portcls/EventHandler
 f1_keywords:
  - "portcls/EventHandler"
+ - "EventHandler"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Desktop

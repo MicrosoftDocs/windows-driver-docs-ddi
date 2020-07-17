@@ -9,6 +9,7 @@ keywords: ["D3DKMTWaitForSynchronizationObjectFromCpu function"]
 ms.keywords: D3DKMTWaitForSynchronizationObjectFromCpu, D3DKMTWaitForSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTWaitForSynchronizationObjectFromCpu, display.d3dkmtwaitforsynchronizationobjectfromcpu
 f1_keywords:
  - "d3dkmthk/D3DKMTWaitForSynchronizationObjectFromCpu"
+ - "D3DKMTWaitForSynchronizationObjectFromCpu"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

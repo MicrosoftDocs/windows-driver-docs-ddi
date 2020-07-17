@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure"]
 ms.keywords: D3DDDIARG_DRAWINDEXEDPRIMITIVE2, D3DDDIARG_DRAWINDEXEDPRIMITIVE2 structure [Display Devices], UMDisplayDriver_param_Structs_464c958b-5ca2-4e21-9d1f-a7c32cb49295.xml, _D3DDDIARG_DRAWINDEXEDPRIMITIVE2, d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE2, display.d3dddiarg_drawindexedprimitive2
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DRAWINDEXEDPRIMITIVE2"
+ - "D3DDDIARG_DRAWINDEXEDPRIMITIVE2"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

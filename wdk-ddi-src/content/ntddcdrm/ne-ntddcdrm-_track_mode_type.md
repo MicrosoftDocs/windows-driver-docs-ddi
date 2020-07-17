@@ -10,6 +10,7 @@ keywords: ["_TRACK_MODE_TYPE enumeration"]
 ms.keywords: "*PTRACK_MODE_TYPE, CDDA, PTRACK_MODE_TYPE, PTRACK_MODE_TYPE enumeration pointer [Storage Devices], RawWithC2, RawWithC2AndSubCode, RawWithSubCode, TRACK_MODE_TYPE, TRACK_MODE_TYPE enumeration [Storage Devices], XAForm2, YellowMode2, _TRACK_MODE_TYPE, ntddcdrm/CDDA, ntddcdrm/PTRACK_MODE_TYPE, ntddcdrm/RawWithC2, ntddcdrm/RawWithC2AndSubCode, ntddcdrm/RawWithSubCode, ntddcdrm/TRACK_MODE_TYPE, ntddcdrm/XAForm2, ntddcdrm/YellowMode2, storage.track_mode_type, structs-CD-ROM_41364f33-e1bf-48ac-abb6-4cacf5283f9f.xml"
 f1_keywords:
  - "ntddcdrm/TRACK_MODE_TYPE"
+ - "TRACK_MODE_TYPE"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

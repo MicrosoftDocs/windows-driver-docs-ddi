@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_UNREGISTERTRIMNOTIFICATION structure"]
 ms.keywords: D3DKMT_UNREGISTERTRIMNOTIFICATION, D3DKMT_UNREGISTERTRIMNOTIFICATION structure [Display Devices], _D3DKMT_UNREGISTERTRIMNOTIFICATION, d3dkmthk/D3DKMT_UNREGISTERTRIMNOTIFICATION, display.d3dkmt_unregistertrimnotification
 f1_keywords:
  - "d3dkmthk/D3DKMT_UNREGISTERTRIMNOTIFICATION"
+ - "D3DKMT_UNREGISTERTRIMNOTIFICATION"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_QUERYBEGIN callback function"]
 ms.keywords: PFND3D10DDI_QUERYBEGIN, PFND3D10DDI_QUERYBEGIN callback, QueryBegin, QueryBegin callback function [Display Devices], UserModeDisplayDriverDx10_Functions_d456daf9-09b9-4174-8eba-7591ec45cd20.xml, d3d10umddi/QueryBegin, display.querybegin
 f1_keywords:
  - "d3d10umddi/QueryBegin"
+ - "QueryBegin"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

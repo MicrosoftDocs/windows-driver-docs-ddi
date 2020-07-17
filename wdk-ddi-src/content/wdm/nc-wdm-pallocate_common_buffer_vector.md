@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["PALLOCATE_COMMON_BUFFER_VECTOR callback function"]
 f1_keywords:
  - "wdm/PALLOCATE_COMMON_BUFFER_VECTOR"
+ - "PALLOCATE_COMMON_BUFFER_VECTOR"
 req.header: wdm.h
 req.include-header:
 req.target-type:

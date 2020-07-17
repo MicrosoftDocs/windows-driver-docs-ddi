@@ -10,6 +10,7 @@ keywords: ["_FCP_GET_REQUEST structure"]
 ms.keywords: "*PFCP_GET_REQUEST, 61883/FCP_GET_REQUEST, 61883/PFCP_GET_REQUEST, FCP_GET_REQUEST, FCP_GET_REQUEST structure [Buses], IEEE.fcp_get_request, PFCP_GET_REQUEST, PFCP_GET_REQUEST structure pointer [Buses], _FCP_GET_REQUEST"
 f1_keywords:
  - "61883/FCP_GET_REQUEST"
+ - "FCP_GET_REQUEST"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_DXGKVGPU_ESCAPE_RELEASE structure"]
 ms.keywords: DXGKVGPU_ESCAPE_RELEASE, DXGKVGPU_ESCAPE_RELEASE structure [Display Devices], _DXGKVGPU_ESCAPE_RELEASE, d3dukmdt/DXGKVGPU_ESCAPE_RELEASE, display.dxgkvgpu_escape_release
 f1_keywords:
  - "d3dukmdt/DXGKVGPU_ESCAPE_RELEASE"
+ - "DXGKVGPU_ESCAPE_RELEASE"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows

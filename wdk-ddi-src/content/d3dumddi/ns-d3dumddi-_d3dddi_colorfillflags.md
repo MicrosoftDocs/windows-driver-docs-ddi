@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_COLORFILLFLAGS structure"]
 ms.keywords: D3DDDI_COLORFILLFLAGS, D3DDDI_COLORFILLFLAGS structure [Display Devices], D3D_other_Structs_555ecebb-bdd8-4c7f-97cd-801216506b9e.xml, _D3DDDI_COLORFILLFLAGS, d3dumddi/D3DDDI_COLORFILLFLAGS, display.d3dddi_colorfillflags
 f1_keywords:
  - "d3dumddi/D3DDDI_COLORFILLFLAGS"
+ - "D3DDDI_COLORFILLFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

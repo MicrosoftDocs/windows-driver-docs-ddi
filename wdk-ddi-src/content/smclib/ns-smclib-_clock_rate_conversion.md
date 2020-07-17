@@ -10,6 +10,7 @@ keywords: ["_CLOCK_RATE_CONVERSION structure"]
 ms.keywords: "*PCLOCK_RATE_CONVERSION, CLOCK_RATE_CONVERSION, CLOCK_RATE_CONVERSION structure [Smart Card Reader Devices], PCLOCK_RATE_CONVERSION, PCLOCK_RATE_CONVERSION structure pointer [Smart Card Reader Devices], _CLOCK_RATE_CONVERSION, scstruct_260d5a02-28d8-4ef4-ac2a-e81d3ac2814a.xml, smartcrd.clock_rate_conversion, smclib/CLOCK_RATE_CONVERSION, smclib/PCLOCK_RATE_CONVERSION"
 f1_keywords:
  - "smclib/CLOCK_RATE_CONVERSION"
+ - "CLOCK_RATE_CONVERSION"
 req.header: smclib.h
 req.include-header: Smclib.h
 req.target-type: Windows

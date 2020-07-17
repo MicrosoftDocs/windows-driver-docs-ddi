@@ -10,6 +10,7 @@ keywords: ["PFNKSSTREAMPOINTER callback function"]
 ms.keywords: AVStrMiniCancelCallback, AVStrMiniCancelCallback routine [Streaming Media Devices], PFNKSSTREAMPOINTER, avstclbk_b23a511e-6e6a-4eaf-a64e-707983534d6f.xml, ks/AVStrMiniCancelCallback, stream.avstrminicancelcallback
 f1_keywords:
  - "ks/AVStrMiniCancelCallback"
+ - "AVStrMiniCancelCallback"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

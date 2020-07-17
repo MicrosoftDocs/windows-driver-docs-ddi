@@ -9,6 +9,7 @@ keywords: ["_D3DKMDT_DISPLAYMODE_FLAGS structure"]
 ms.keywords: D3DKMDT_DISPLAYMODE_FLAGS, D3DKMDT_DISPLAYMODE_FLAGS structure [Display Devices], OpenGL_Structs_64aa66c8-8323-4cee-b437-16b8f3c361c8.xml, _D3DKMDT_DISPLAYMODE_FLAGS, d3dkmthk/D3DKMDT_DISPLAYMODE_FLAGS, display.d3dkmdt_displaymode_flags
 f1_keywords:
  - "d3dkmthk/D3DKMDT_DISPLAYMODE_FLAGS"
+ - "D3DKMDT_DISPLAYMODE_FLAGS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

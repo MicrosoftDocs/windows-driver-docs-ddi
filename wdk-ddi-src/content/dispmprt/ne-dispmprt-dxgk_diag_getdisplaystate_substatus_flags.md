@@ -29,6 +29,7 @@ api_name:
 f1_keywords:
  - dispmprt/_DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS
  - dispmprt/DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS
+ - ""
 dev_langs:
  - c++
 ---

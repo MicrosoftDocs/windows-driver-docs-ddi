@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::Read"]
 ms.keywords: EngExtCpp_Ref_69230a7b-f83c-46fc-88c4-134b506540af.xml, ExtRemoteData class [Windows Debugging],Read method, ExtRemoteData.Read, ExtRemoteData::Read, Read, Read method [Windows Debugging], Read method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_read
 f1_keywords:
  - "engextcpp/ExtRemoteData.Read"
+ - "ExtRemoteData.Read"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

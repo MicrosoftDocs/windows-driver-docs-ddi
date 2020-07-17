@@ -10,6 +10,7 @@ keywords: ["IWDFDevice::CreateSymbolicLink"]
 ms.keywords: CreateSymbolicLink, CreateSymbolicLink method, CreateSymbolicLink method,IWDFDevice interface, IWDFDevice interface,CreateSymbolicLink method, IWDFDevice.CreateSymbolicLink, IWDFDevice::CreateSymbolicLink, UMDFDeviceObjectRef_20b93e0a-a676-44f7-bbd0-d2749dd7a0b8.xml, umdf.iwdfdevice_createsymboliclink, wdf.iwdfdevice_createsymboliclink, wudfddi/IWDFDevice::CreateSymbolicLink
 f1_keywords:
  - "wudfddi/IWDFDevice.CreateSymbolicLink"
+ - "IWDFDevice.CreateSymbolicLink"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

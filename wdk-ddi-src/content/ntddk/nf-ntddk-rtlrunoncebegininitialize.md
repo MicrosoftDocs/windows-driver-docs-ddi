@@ -10,6 +10,7 @@ keywords: ["RtlRunOnceBeginInitialize function"]
 ms.keywords: RtlRunOnceBeginInitialize, RtlRunOnceBeginInitialize routine [Kernel-Mode Driver Architecture], k109_f7299ad8-4567-4ad8-a13c-2329a12af6ea.xml, kernel.rtlrunoncebegininitialize, ntddk/RtlRunOnceBeginInitialize
 f1_keywords:
  - "ntddk/RtlRunOnceBeginInitialize"
+ - "RtlRunOnceBeginInitialize"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

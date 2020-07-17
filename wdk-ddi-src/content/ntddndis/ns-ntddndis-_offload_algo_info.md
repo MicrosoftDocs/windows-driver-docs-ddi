@@ -10,6 +10,7 @@ keywords: ["_OFFLOAD_ALGO_INFO structure"]
 ms.keywords: "*POFFLOAD_ALGO_INFO, 216offload_d10cb479-3fe8-468d-925b-c8358d88ef2b.xml, OFFLOAD_ALGO_INFO, OFFLOAD_ALGO_INFO structure [Network Drivers Starting with Windows Vista], POFFLOAD_ALGO_INFO, POFFLOAD_ALGO_INFO structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_ALGO_INFO, netvista.offload_algo_info, ntddndis/OFFLOAD_ALGO_INFO, ntddndis/POFFLOAD_ALGO_INFO"
 f1_keywords:
  - "ntddndis/OFFLOAD_ALGO_INFO"
+ - "OFFLOAD_ALGO_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RILCBGWLCONFIGINFO structure"]
 ms.keywords: "*LPRILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO, RILCBGWLCONFIGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcbgwlconfiginfo, ntddrilapitypes/RILCBGWLCONFIGINFO"
 f1_keywords:
  - "ntddrilapitypes/RILCBGWLCONFIGINFO"
+ - "RILCBGWLCONFIGINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

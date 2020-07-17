@@ -10,6 +10,7 @@ keywords: ["VideoPortFreeCommonBuffer function"]
 ms.keywords: VideoPortFreeCommonBuffer, VideoPortFreeCommonBuffer function [Display Devices], VideoPort_Functions_0f1acebf-0fdf-4152-ad91-2cafed40296c.xml, display.videoportfreecommonbuffer, video/VideoPortFreeCommonBuffer
 f1_keywords:
  - "video/VideoPortFreeCommonBuffer"
+ - "VideoPortFreeCommonBuffer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

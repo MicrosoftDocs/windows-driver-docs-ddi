@@ -10,6 +10,7 @@ keywords: ["CreatePrinterIC function"]
 ms.keywords: CreatePrinterIC, CreatePrinterIC function [Print Devices], print.createprinteric, winsplp/CreatePrinterIC
 f1_keywords:
  - "winsplp/CreatePrinterIC"
+ - "CreatePrinterIC"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

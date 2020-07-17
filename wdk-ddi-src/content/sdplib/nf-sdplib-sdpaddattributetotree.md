@@ -10,6 +10,7 @@ keywords: ["SdpAddAttributeToTree function"]
 ms.keywords: SdpAddAttributeToTree, SdpAddAttributeToTree function [Bluetooth Devices], bltooth.sdpaddattributetotree, bth_funcs_5a46529e-8b1b-474a-a005-16f7a5562d91.xml, sdplib/SdpAddAttributeToTree
 f1_keywords:
  - "sdplib/SdpAddAttributeToTree"
+ - "SdpAddAttributeToTree"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

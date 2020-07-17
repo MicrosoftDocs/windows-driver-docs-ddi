@@ -10,6 +10,7 @@ keywords: ["_CIP_TALK structure"]
 ms.keywords: "*PCIP_TALK, 61883/CIP_TALK, 61883/PCIP_TALK, CIP_TALK, CIP_TALK structure [Buses], IEEE.cip_talk, PCIP_TALK, PCIP_TALK structure pointer [Buses], _CIP_TALK"
 f1_keywords:
  - "61883/CIP_TALK"
+ - "CIP_TALK"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

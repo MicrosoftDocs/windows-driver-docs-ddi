@@ -10,6 +10,7 @@ keywords: ["_DXGKMDT_OPM_RANDOM_NUMBER structure"]
 ms.keywords: "*PDXGKMDT_OPM_RANDOM_NUMBER, DXGKMDT_OPM_RANDOM_NUMBER, DXGKMDT_OPM_RANDOM_NUMBER structure [Display Devices], DmStructs_904ac539-a89e-4192-b520-29837016633d.xml, PDXGKMDT_OPM_RANDOM_NUMBER, PDXGKMDT_OPM_RANDOM_NUMBER structure pointer [Display Devices], _DXGKMDT_OPM_RANDOM_NUMBER, d3dkmdt/DXGKMDT_OPM_RANDOM_NUMBER, d3dkmdt/PDXGKMDT_OPM_RANDOM_NUMBER, display.dxgkmdt_opm_random_number"
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_RANDOM_NUMBER"
+ - "DXGKMDT_OPM_RANDOM_NUMBER"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

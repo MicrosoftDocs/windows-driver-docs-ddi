@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_CONNECTOR_PARTNER_FLAGS enumeration"]
 f1_keywords:
  - "ucmucsispec/_UCSI_CONNECTOR_PARTNER_FLAGS"
+ - "_UCSI_CONNECTOR_PARTNER_FLAGS"
 ms.keywords: _UCSI_CONNECTOR_PARTNER_FLAGS, UCSI_CONNECTOR_PARTNER_FLAGS, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

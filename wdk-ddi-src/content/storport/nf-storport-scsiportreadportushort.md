@@ -10,6 +10,7 @@ keywords: ["ScsiPortReadPortUshort macro"]
 ms.keywords: ScsiPortReadPortUshort, ScsiPortReadPortUshort routine [Storage Devices], scsiprt_3b90fdff-db04-43ca-9c62-8552eed87feb.xml, srb/ScsiPortReadPortUshort, storage.scsiportreadportushort
 f1_keywords:
  - "storport/ScsiPortReadPortUshort"
+ - "ScsiPortReadPortUshort"
 req.header: storport.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop

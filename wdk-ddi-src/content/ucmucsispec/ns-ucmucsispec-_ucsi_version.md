@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_VERSION structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_VERSION"
+ - "_UCSI_VERSION"
 ms.keywords: _UCSI_VERSION, UCSI_VERSION, *PUCSI_VERSION, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

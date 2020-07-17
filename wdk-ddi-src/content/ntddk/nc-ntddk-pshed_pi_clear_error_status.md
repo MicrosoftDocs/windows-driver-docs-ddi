@@ -10,6 +10,7 @@ keywords: ["PSHED_PI_CLEAR_ERROR_STATUS callback function"]
 ms.keywords: ClearErrorStatus, ClearErrorStatus callback function [WHEA Drivers and Applications], PSHED_PI_CLEAR_ERROR_STATUS, PSHED_PI_CLEAR_ERROR_STATUS callback, ntddk/ClearErrorStatus, whea.clearerrorstatus, whearef_022b6321-f051-4d35-ad0c-e6528d03a411.xml
 f1_keywords:
  - "ntddk/ClearErrorStatus"
+ - "ClearErrorStatus"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop

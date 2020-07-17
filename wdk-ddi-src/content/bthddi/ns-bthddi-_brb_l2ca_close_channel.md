@@ -10,6 +10,7 @@ keywords: ["_BRB_L2CA_CLOSE_CHANNEL structure"]
 ms.keywords: "_BRB_L2CA_CLOSE_CHANNEL, _BRB_L2CA_CLOSE_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_close_channel, bth_structs_97d7dc1f-eb95-4cf3-8d21-a814622a0b81.xml, bthddi/_BRB_L2CA_CLOSE_CHANNEL"
 f1_keywords:
  - "bthddi/_BRB_L2CA_CLOSE_CHANNEL"
+ - "_BRB_L2CA_CLOSE_CHANNEL"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

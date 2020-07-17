@@ -7,6 +7,7 @@ ms.date: 04/19/2018
 keywords: ["_I2C_REQUEST structure"]
 f1_keywords:
  - "sensorsdriversutils/_I2C_REQUEST"
+ - "_I2C_REQUEST"
 ms.keywords: _I2C_REQUEST, I2C_REQUEST, *PI2C_REQUEST,
 req.header: sensorsdriversutils.h
 req.include-header:

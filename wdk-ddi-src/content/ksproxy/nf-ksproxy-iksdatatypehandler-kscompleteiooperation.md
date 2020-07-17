@@ -10,6 +10,7 @@ keywords: ["IKsDataTypeHandler::KsCompleteIoOperation"]
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsCompleteIoOperation method, IKsDataTypeHandler.KsCompleteIoOperation, IKsDataTypeHandler::KsCompleteIoOperation, KsCompleteIoOperation, KsCompleteIoOperation method [Streaming Media Devices], KsCompleteIoOperation method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsCompleteIoOperation, ksproxy_04136093-03d0-4490-bf5c-5e83bddc23c7.xml, stream.iksdatatypehandler_kscompleteiooperation
 f1_keywords:
  - "ksproxy/IKsDataTypeHandler.KsCompleteIoOperation"
+ - "IKsDataTypeHandler.KsCompleteIoOperation"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

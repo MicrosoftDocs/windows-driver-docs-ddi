@@ -10,6 +10,7 @@ keywords: ["NDK_FN_DEREGISTER_MR callback function"]
 ms.keywords: NDK_FN_DEREGISTER_MR, NDK_FN_DEREGISTER_MR callback, NdkDeregisterMr, NdkDeregisterMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkDeregisterMr, netvista.ndk_fn_deregister_mr
 f1_keywords:
  - "ndkpi/NdkDeregisterMr"
+ - "NdkDeregisterMr"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

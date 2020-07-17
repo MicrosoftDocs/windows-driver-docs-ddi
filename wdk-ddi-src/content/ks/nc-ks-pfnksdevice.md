@@ -10,6 +10,7 @@ keywords: ["PFNKSDEVICE callback function"]
 ms.keywords: AVStrMiniDevicePostStart, AVStrMiniDevicePostStart routine [Streaming Media Devices], PFNKSDEVICE, avstclbk_2eb05ad1-c345-4625-9f76-f979e3ea7962.xml, ks/AVStrMiniDevicePostStart, stream.avstrminidevicepoststart
 f1_keywords:
  - "ks/AVStrMiniDevicePostStart"
+ - "AVStrMiniDevicePostStart"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

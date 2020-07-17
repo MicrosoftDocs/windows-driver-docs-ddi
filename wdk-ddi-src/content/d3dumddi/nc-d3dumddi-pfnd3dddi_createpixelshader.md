@@ -10,6 +10,7 @@ keywords: ["PFND3DDDI_CREATEPIXELSHADER callback function"]
 ms.keywords: CreatePixelShader, CreatePixelShader callback function [Display Devices], PFND3DDDI_CREATEPIXELSHADER, PFND3DDDI_CREATEPIXELSHADER callback, UserModeDisplayDriver_Functions_4e9d378f-d5aa-4b5d-9a66-ff2dd2f8fae8.xml, d3dumddi/CreatePixelShader, display.createpixelshader
 f1_keywords:
  - "d3dumddi/CreatePixelShader"
+ - "CreatePixelShader"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

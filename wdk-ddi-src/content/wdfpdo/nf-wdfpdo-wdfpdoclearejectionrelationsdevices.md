@@ -10,6 +10,7 @@ keywords: ["WdfPdoClearEjectionRelationsDevices function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_ddbc7fa5-d0c0-4074-901e-bc7a8ea50fa4.xml, WdfPdoClearEjectionRelationsDevices, WdfPdoClearEjectionRelationsDevices method, kmdf.wdfpdoclearejectionrelationsdevices, wdf.wdfpdoclearejectionrelationsdevices, wdfpdo/WdfPdoClearEjectionRelationsDevices
 f1_keywords:
  - "wdfpdo/WdfPdoClearEjectionRelationsDevices"
+ - "WdfPdoClearEjectionRelationsDevices"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

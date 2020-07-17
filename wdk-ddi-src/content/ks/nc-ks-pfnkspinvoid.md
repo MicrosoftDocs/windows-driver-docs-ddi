@@ -10,6 +10,7 @@ keywords: ["PFNKSPINVOID callback function"]
 ms.keywords: AVStrMiniPinDisconnect, AVStrMiniPinReset, MyAVStrMiniPin, MyAVStrMiniPin routine [Streaming Media Devices], PFNKSPINVOID, avstclbk_7d4db969-3c67-4f42-9b06-723964af1147.xml, ks/MyAVStrMiniPin, stream.avstrminipindisconnect
 f1_keywords:
  - "ks/MyAVStrMiniPin"
+ - "MyAVStrMiniPin"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

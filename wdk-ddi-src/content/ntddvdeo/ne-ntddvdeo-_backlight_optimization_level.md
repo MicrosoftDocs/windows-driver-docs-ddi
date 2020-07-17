@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_BACKLIGHT_OPTIMIZATION_LEVEL enumeration"]
 f1_keywords:
  - "ntddvdeo/_BACKLIGHT_OPTIMIZATION_LEVEL"
+ - "_BACKLIGHT_OPTIMIZATION_LEVEL"
 ms.keywords: _BACKLIGHT_OPTIMIZATION_LEVEL, BACKLIGHT_OPTIMIZATION_LEVEL,
 req.header: ntddvdeo.h
 req.include-header:

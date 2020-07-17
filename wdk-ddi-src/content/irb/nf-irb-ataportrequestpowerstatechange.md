@@ -10,6 +10,7 @@ keywords: ["AtaPortRequestPowerStateChange function"]
 ms.keywords: AtaPortRequestPowerStateChange, AtaPortRequestPowerStateChange routine [Storage Devices], irb/AtaPortRequestPowerStateChange, storage.ataportrequestpowerstatechange
 f1_keywords:
  - "irb/AtaPortRequestPowerStateChange"
+ - "AtaPortRequestPowerStateChange"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

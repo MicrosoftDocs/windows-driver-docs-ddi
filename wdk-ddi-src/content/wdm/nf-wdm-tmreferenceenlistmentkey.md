@@ -10,6 +10,7 @@ keywords: ["TmReferenceEnlistmentKey function"]
 ms.keywords: TmReferenceEnlistmentKey, TmReferenceEnlistmentKey routine [Kernel-Mode Driver Architecture], kernel.tmreferenceenlistmentkey, ktm_ref_9e57ee05-1004-4d3d-9fa6-9eb473057bbf.xml, wdm/TmReferenceEnlistmentKey
 f1_keywords:
  - "wdm/TmReferenceEnlistmentKey"
+ - "TmReferenceEnlistmentKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

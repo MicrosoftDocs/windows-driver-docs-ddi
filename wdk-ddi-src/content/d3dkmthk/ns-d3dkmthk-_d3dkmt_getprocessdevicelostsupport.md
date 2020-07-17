@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure"]
 ms.keywords: D3DKMT_GETPROCESSDEVICELOSTSUPPORT, D3DKMT_GETPROCESSDEVICELOSTSUPPORT structure [Display Devices], _D3DKMT_GETPROCESSDEVICELOSTSUPPORT, d3dkmthk/D3DKMT_GETPROCESSDEVICELOSTSUPPORT, display.d3dkmt-getprocessdevicelostsupport
 f1_keywords:
  - "d3dkmthk/D3DKMT_GETPROCESSDEVICELOSTSUPPORT"
+ - "D3DKMT_GETPROCESSDEVICELOSTSUPPORT"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["TrSecureDeviceCompleteAsyncRequest function"]
 f1_keywords:
  - "trustedruntimeclx/TrSecureDeviceCompleteAsyncRequest"
+ - "TrSecureDeviceCompleteAsyncRequest"
 ms.keywords: TrSecureDeviceCompleteAsyncRequest
 req.header: trustedruntimeclx.h
 req.include-header:

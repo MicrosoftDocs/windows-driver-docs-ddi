@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IKeyEnumerator::Reset"]
 f1_keywords:
  - "dbgmodel/IKeyEnumerator.Reset"
+ - "IKeyEnumerator.Reset"
 ms.keywords: IKeyEnumerator::Reset, Reset, IKeyEnumerator.Reset, IKeyEnumerator::Reset, IKeyEnumerator.Reset
 req.header: dbgmodel.h
 req.include-header:

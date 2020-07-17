@@ -10,6 +10,7 @@ keywords: ["NDK_FN_BUILD_LAM callback function"]
 ms.keywords: NDK_FN_BUILD_LAM, NDK_FN_BUILD_LAM callback, NdkBuildLam, NdkBuildLam callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkBuildLam, netvista.ndk_fn_build_lam
 f1_keywords:
  - "ndkpi/NdkBuildLam"
+ - "NdkBuildLam"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

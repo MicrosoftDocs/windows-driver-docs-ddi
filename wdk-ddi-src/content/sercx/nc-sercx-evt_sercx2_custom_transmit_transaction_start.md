@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START callback function"]
 ms.keywords: 2/EvtSerCx2CustomTransmitTransactionStart, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START, EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_START callback, EvtSerCx2CustomTransmitTransactionStart, EvtSerCx2CustomTransmitTransactionStart callback function [Serial Ports], serports.evtsercx2customtransmittransactionstart
 f1_keywords:
  - "sercx/EvtSerCx2CustomTransmitTransactionStart"
+ - "EvtSerCx2CustomTransmitTransactionStart"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

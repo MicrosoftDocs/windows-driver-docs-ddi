@@ -10,6 +10,7 @@ keywords: ["IXpsDocumentConsumer::CloseSender"]
 ms.keywords: CloseSender, CloseSender method [Print Devices], CloseSender method [Print Devices],IXpsDocumentConsumer interface, IXpsDocumentConsumer interface [Print Devices],CloseSender method, IXpsDocumentConsumer.CloseSender, IXpsDocumentConsumer::CloseSender, filterpipeline/IXpsDocumentConsumer::CloseSender, filterpipeline_64223953-a027-45c8-b296-a07ef3340a41.xml, print.ixpsdocumentconsumer_closesender
 f1_keywords:
  - "filterpipeline/IXpsDocumentConsumer.CloseSender"
+ - "IXpsDocumentConsumer.CloseSender"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL callback function"]
 ms.keywords: EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL, EVT_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL callback, EvtUfxDeviceRemoteWakeupSignal, EvtUfxDeviceRemoteWakeupSignal callback function [Buses], PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL, PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL callback function pointer [Buses], buses.evt_ufx_device_remote_wakeup_signal, ufxclient/EvtUfxDeviceRemoteWakeupSignal
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL"
+ - "PFN_UFX_DEVICE_REMOTE_WAKEUP_SIGNAL"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

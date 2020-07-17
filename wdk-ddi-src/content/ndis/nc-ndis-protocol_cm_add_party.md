@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CM_ADD_PARTY callback function"]
 ms.keywords: PROTOCOL_CM_ADD_PARTY, PROTOCOL_CM_ADD_PARTY callback, ProtocolCmAddParty, ProtocolCmAddParty callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_06efc681-bd3d-4bcc-938e-5ba45ce97279.xml, ndis/ProtocolCmAddParty, netvista.protocolcmaddparty
 f1_keywords:
  - "ndis/ProtocolCmAddParty"
+ - "ProtocolCmAddParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

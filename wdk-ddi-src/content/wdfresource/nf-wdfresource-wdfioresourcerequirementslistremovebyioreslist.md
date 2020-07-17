@@ -10,6 +10,7 @@ keywords: ["WdfIoResourceRequirementsListRemoveByIoResList function"]
 ms.keywords: DFResourceObjectRef_fa50f423-3ade-4deb-89a0-d79cd3f98710.xml, WdfIoResourceRequirementsListRemoveByIoResList, WdfIoResourceRequirementsListRemoveByIoResList method, kmdf.wdfioresourcerequirementslistremovebyioreslist, wdf.wdfioresourcerequirementslistremovebyioreslist, wdfresource/WdfIoResourceRequirementsListRemoveByIoResList
 f1_keywords:
  - "wdfresource/WdfIoResourceRequirementsListRemoveByIoResList"
+ - "WdfIoResourceRequirementsListRemoveByIoResList"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal

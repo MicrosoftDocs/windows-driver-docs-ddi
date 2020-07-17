@@ -10,6 +10,7 @@ keywords: ["_OB_POST_CREATE_HANDLE_INFORMATION structure"]
 ms.keywords: "*POB_POST_CREATE_HANDLE_INFORMATION, OB_POST_CREATE_HANDLE_INFORMATION, OB_POST_CREATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], POB_POST_CREATE_HANDLE_INFORMATION, POB_POST_CREATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_POST_CREATE_HANDLE_INFORMATION, kernel.ob_post_create_handle_information, kstruct_c_465a5f93-d5e9-4640-b4ae-7fa17d2f9493.xml, wdm/OB_POST_CREATE_HANDLE_INFORMATION, wdm/POB_POST_CREATE_HANDLE_INFORMATION"
 f1_keywords:
  - "wdm/OB_POST_CREATE_HANDLE_INFORMATION"
+ - "OB_POST_CREATE_HANDLE_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

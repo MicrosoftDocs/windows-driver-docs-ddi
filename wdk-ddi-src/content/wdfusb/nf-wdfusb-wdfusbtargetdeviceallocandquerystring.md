@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceAllocAndQueryString function"]
 ms.keywords: DFUsbRef_708583a1-a585-402f-afd6-5df4457b0a25.xml, WdfUsbTargetDeviceAllocAndQueryString, WdfUsbTargetDeviceAllocAndQueryString method, kmdf.wdfusbtargetdeviceallocandquerystring, wdf.wdfusbtargetdeviceallocandquerystring, wdfusb/WdfUsbTargetDeviceAllocAndQueryString
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceAllocAndQueryString"
+ - "WdfUsbTargetDeviceAllocAndQueryString"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

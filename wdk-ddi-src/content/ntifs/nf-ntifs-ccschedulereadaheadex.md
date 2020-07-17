@@ -10,6 +10,7 @@ keywords: ["CcScheduleReadAheadEx function"]
 ms.keywords: CcScheduleReadAheadEx, CcScheduleReadAheadEx routine [Installable File System Drivers], ifsk.ccschedulereadaheadex, ntifs/CcScheduleReadAheadEx
 f1_keywords:
  - "ntifs/CcScheduleReadAheadEx"
+ - "CcScheduleReadAheadEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal

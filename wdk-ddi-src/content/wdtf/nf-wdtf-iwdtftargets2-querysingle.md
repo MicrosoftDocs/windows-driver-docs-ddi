@@ -10,6 +10,7 @@ keywords: ["IWDTFTargets2::QuerySingle"]
 ms.keywords: IWDTFTargets2 interface [Windows Device Testing Framework],QuerySingle method, IWDTFTargets2.QuerySingle, IWDTFTargets2::QuerySingle, Microsoft.WDTF.IWDTFTargets2.QuerySingle, Microsoft::WDTF::IWDTFTargets2::QuerySingle, QuerySingle, QuerySingle method [Windows Device Testing Framework], QuerySingle method [Windows Device Testing Framework],IWDTFTargets2 interface, dtf.iwdtftargets2_querysingle, wdtf/IWDTFTargets2::QuerySingle
 f1_keywords:
  - "wdtf/IWDTFTargets2.QuerySingle"
+ - "IWDTFTargets2.QuerySingle"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ ms.date: 10/07/2019
 keywords: ["NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT function"]
 f1_keywords:
  - "netwakesource/NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT"
+ - "NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT"
 ms.keywords: NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT
 req.header: netwakesource.h
 req.include-header:

@@ -8,6 +8,7 @@ ms.date: 08/21/2018
 keywords: ["_NDIS_WWAN_NETWORK_BLACKLIST structure"]
 f1_keywords:
  - "ndiswwan/_NDIS_WWAN_NETWORK_BLACKLIST"
+ - "_NDIS_WWAN_NETWORK_BLACKLIST"
 ms.keywords: _NDIS_WWAN_NETWORK_BLACKLIST, NDIS_WWAN_NETWORK_BLACKLIST, *PNDIS_WWAN_NETWORK_BLACKLIST, 
 req.header: ndiswwan.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["ObDereferenceObjectDeferDeleteWithTag function"]
 ms.keywords: ObDereferenceObjectDeferDeleteWithTag, ObDereferenceObjectDeferDeleteWithTag routine [Kernel-Mode Driver Architecture], k107_c6da92e4-6a70-4f19-bd09-4308964b1e14.xml, kernel.obdereferenceobjectdeferdeletewithtag, wdm/ObDereferenceObjectDeferDeleteWithTag
 f1_keywords:
  - "wdm/ObDereferenceObjectDeferDeleteWithTag"
+ - "ObDereferenceObjectDeferDeleteWithTag"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal

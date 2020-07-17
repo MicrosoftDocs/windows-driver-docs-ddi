@@ -10,6 +10,7 @@ keywords: ["IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND IOCTL"]
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND control, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND control code [Buses], buses.ioctl_ucmtcpci_port_controller_set_command, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND
 f1_keywords:
  - "ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND"
+ - "IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_COMMAND"
 req.header: ucmtcpciportcontrollerrequests.h
 req.include-header: 
 req.target-type: Windows

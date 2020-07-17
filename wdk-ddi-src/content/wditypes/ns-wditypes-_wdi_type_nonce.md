@@ -10,6 +10,7 @@ keywords: ["_WDI_TYPE_NONCE structure"]
 ms.keywords: "*PWDI_TYPE_NONCE, PWDI_TYPE_NONCE, PWDI_TYPE_NONCE structure pointer [Network Drivers Starting with Windows Vista], WDI_TYPE_NONCE, WDI_TYPE_NONCE structure [Network Drivers Starting with Windows Vista], _WDI_TYPE_NONCE, netvista.wdi_type_nonce, wditypes/PWDI_TYPE_NONCE, wditypes/WDI_TYPE_NONCE"
 f1_keywords:
  - "wditypes/WDI_TYPE_NONCE"
+ - "WDI_TYPE_NONCE"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows

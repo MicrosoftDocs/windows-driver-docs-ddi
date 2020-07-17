@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DESTROYELEMENTLAYOUT callback function"]
 ms.keywords: DestroyElementLayout, DestroyElementLayout callback function [Display Devices], PFND3D10DDI_DESTROYELEMENTLAYOUT, PFND3D10DDI_DESTROYELEMENTLAYOUT callback, UserModeDisplayDriverDx10_Functions_7d64849d-bfd1-489c-99d2-de9be6f04ab4.xml, d3d10umddi/DestroyElementLayout, display.destroyelementlayout
 f1_keywords:
  - "d3d10umddi/DestroyElementLayout"
+ - "DestroyElementLayout"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

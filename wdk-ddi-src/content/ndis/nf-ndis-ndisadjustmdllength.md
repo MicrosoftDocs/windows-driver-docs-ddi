@@ -10,6 +10,7 @@ keywords: ["NdisAdjustMdlLength macro"]
 ms.keywords: NdisAdjustMdlLength, NdisAdjustMdlLength macro [Network Drivers Starting with Windows Vista], ndis/NdisAdjustMdlLength, ndis_netbuf_functions_ref_babeb674-269d-4efc-add1-635666fd7863.xml, netvista.ndisadjustmdllength
 f1_keywords:
  - "ndis/NdisAdjustMdlLength"
+ - "NdisAdjustMdlLength"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

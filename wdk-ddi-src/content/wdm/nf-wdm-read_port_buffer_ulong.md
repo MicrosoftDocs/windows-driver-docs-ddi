@@ -10,6 +10,7 @@ keywords: ["READ_PORT_BUFFER_ULONG function"]
 ms.keywords: READ_PORT_BUFFER_ULONG, READ_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], k103_ccd1ed9a-a7f9-4ea4-abc4-44ff756ea274.xml, kernel.read_port_buffer_ulong, wdm/READ_PORT_BUFFER_ULONG
 f1_keywords:
  - "wdm/READ_PORT_BUFFER_ULONG"
+ - "READ_PORT_BUFFER_ULONG"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal

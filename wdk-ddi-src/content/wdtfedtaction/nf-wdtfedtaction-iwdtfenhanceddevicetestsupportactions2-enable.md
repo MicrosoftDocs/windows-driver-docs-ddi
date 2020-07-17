@@ -10,6 +10,7 @@ keywords: ["IWDTFEnhancedDeviceTestSupportActions2::Enable"]
 ms.keywords: Enable, Enable method [Windows Device Testing Framework], Enable method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportActions2 interface, IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework],Enable method, IWDTFEnhancedDeviceTestSupportActions2.Enable, IWDTFEnhancedDeviceTestSupportActions2::Enable, dtf.iwdtfenhanceddevicetestsupportactions2_enable, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::Enable
 f1_keywords:
  - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2.Enable"
+ - "IWDTFEnhancedDeviceTestSupportActions2.Enable"
 req.header: wdtfedtaction.h
 req.include-header: 
 req.target-type: Desktop

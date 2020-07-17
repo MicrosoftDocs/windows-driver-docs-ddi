@@ -10,6 +10,7 @@ keywords: ["PFNKSDEVICEIRPVOID callback function"]
 ms.keywords: AVStrMiniDeviceCancelStop, MyAVStrMiniDeviceIRP, MyAVStrMiniDeviceIRP routine [Streaming Media Devices], PFNKSDEVICEIRPVOID, avstclbk_5b19ddf6-52f4-4d93-b5e1-7d7b5a41fe8b.xml, ks/MyAVStrMiniDeviceIRP, stream.avstrminidevicecancelstop
 f1_keywords:
  - "ks/MyAVStrMiniDeviceIRP"
+ - "MyAVStrMiniDeviceIRP"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

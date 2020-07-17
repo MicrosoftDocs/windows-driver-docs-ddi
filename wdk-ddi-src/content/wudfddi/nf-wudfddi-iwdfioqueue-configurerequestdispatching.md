@@ -10,6 +10,7 @@ keywords: ["IWDFIoQueue::ConfigureRequestDispatching"]
 ms.keywords: ConfigureRequestDispatching, ConfigureRequestDispatching method, ConfigureRequestDispatching method,IWDFIoQueue interface, IWDFIoQueue interface,ConfigureRequestDispatching method, IWDFIoQueue.ConfigureRequestDispatching, IWDFIoQueue::ConfigureRequestDispatching, UMDFQueueObjectRef_8aab2e0a-7864-4a37-abba-2807327dd4dc.xml, umdf.iwdfioqueue_configurerequestdispatching, wdf.iwdfioqueue_configurerequestdispatching, wudfddi/IWDFIoQueue::ConfigureRequestDispatching
 f1_keywords:
  - "wudfddi/IWDFIoQueue.ConfigureRequestDispatching"
+ - "IWDFIoQueue.ConfigureRequestDispatching"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

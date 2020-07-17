@@ -10,6 +10,7 @@ keywords: ["NdisMReadDmaCounter function"]
 ms.keywords: NdisMReadDmaCounter, NdisMReadDmaCounter function [Network Drivers Starting with Windows Vista], dma_ref_12d2675f-d576-4a5d-9af0-42dfd63fd1da.xml, ndis/NdisMReadDmaCounter, netvista.ndismreaddmacounter
 f1_keywords:
  - "ndis/NdisMReadDmaCounter"
+ - "NdisMReadDmaCounter"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

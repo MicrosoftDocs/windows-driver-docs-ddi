@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_TX_DEQUEUE_IND callback function"]
 ms.keywords: NDIS_WDI_TX_DEQUEUE_IND, NDIS_WDI_TX_DEQUEUE_IND callback, NdisWdiTxDequeueIndication, NdisWdiTxDequeueIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxDequeueIndication, netvista.ndiswditxdequeueindication
 f1_keywords:
  - "dot11wdi/NdisWdiTxDequeueIndication"
+ - "NdisWdiTxDequeueIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

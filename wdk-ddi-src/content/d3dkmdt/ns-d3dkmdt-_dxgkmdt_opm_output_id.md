@@ -10,6 +10,7 @@ keywords: ["_DXGKMDT_OPM_OUTPUT_ID structure"]
 ms.keywords: DXGKMDT_OPM_OUTPUT_ID, DXGKMDT_OPM_OUTPUT_ID structure [Display Devices], DmStructs_b0696fe6-3647-4a09-9817-578d4cfbf60a.xml, _DXGKMDT_OPM_OUTPUT_ID, d3dkmdt/DXGKMDT_OPM_OUTPUT_ID, display.dxgkmdt_opm_output_id
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_OUTPUT_ID"
+ - "DXGKMDT_OPM_OUTPUT_ID"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

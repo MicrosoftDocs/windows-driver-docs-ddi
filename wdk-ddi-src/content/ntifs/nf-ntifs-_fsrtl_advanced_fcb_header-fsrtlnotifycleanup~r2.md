@@ -10,6 +10,7 @@ keywords: ["FsRtlNotifyCleanup function"]
 ms.keywords: FsRtlNotifyCleanup, FsRtlNotifyCleanup routine [Installable File System Drivers], fsrtlref_7b5eea13-55d3-48de-baf3-4e16fcc1a755.xml, ifsk.fsrtlnotifycleanup, ntifs/FsRtlNotifyCleanup
 f1_keywords:
  - "ntifs/FsRtlNotifyCleanup"
+ - "FsRtlNotifyCleanup"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

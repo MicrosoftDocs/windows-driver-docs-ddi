@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_EVICT structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDIARG_EVICT"
+ - "D3D12DDIARG_EVICT"
 ms.keywords: D3D12DDIARG_EVICT, D3D12DDIARG_EVICT, 
 req.header: d3d12umddi.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["NdisDeregisterProtocolDriver function"]
 ms.keywords: NdisDeregisterProtocolDriver, NdisDeregisterProtocolDriver function [Network Drivers Starting with Windows Vista], ndis/NdisDeregisterProtocolDriver, netvista.ndisderegisterprotocoldriver, protocol_ndis_functions_ref_98dc25bb-4e04-42bb-a8b3-a997dcb77ac3.xml
 f1_keywords:
  - "ndis/NdisDeregisterProtocolDriver"
+ - "NdisDeregisterProtocolDriver"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

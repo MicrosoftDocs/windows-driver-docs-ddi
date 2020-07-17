@@ -10,6 +10,7 @@ keywords: ["SpbTargetGetFileObject function"]
 ms.keywords: SPB.spbtargetgetfileobject, SpbTargetGetFileObject, SpbTargetGetFileObject method [Buses], spbcx/SpbTargetGetFileObject
 f1_keywords:
  - "spbcx/SpbTargetGetFileObject"
+ - "SpbTargetGetFileObject"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal

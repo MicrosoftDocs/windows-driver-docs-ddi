@@ -10,6 +10,7 @@ keywords: ["StorPortFreeMdl function"]
 ms.keywords: StorPortFreeMdl, StorPortFreeMdl routine [Storage Devices], storage.storportfreemdl, storport/StorPortFreeMdl, storprt_c7f2c49d-a04e-428c-8c94-4ba20526a1fe.xml
 f1_keywords:
  - "storport/StorPortFreeMdl"
+ - "StorPortFreeMdl"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

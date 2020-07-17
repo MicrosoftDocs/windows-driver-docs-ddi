@@ -10,6 +10,7 @@ keywords: ["_UFX_ENDPOINT_CALLBACKS structure"]
 ms.keywords: "*PUFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS structure pointer [Buses], UFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS structure [Buses], _UFX_ENDPOINT_CALLBACKS, buses.ufx_endpoint_callbacks, ufxclient/PUFX_ENDPOINT_CALLBACKS, ufxclient/UFX_ENDPOINT_CALLBACKS"
 f1_keywords:
  - "ufxclient/UFX_ENDPOINT_CALLBACKS"
+ - "UFX_ENDPOINT_CALLBACKS"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

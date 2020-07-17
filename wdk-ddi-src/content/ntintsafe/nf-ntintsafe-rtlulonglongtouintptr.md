@@ -10,6 +10,7 @@ keywords: ["RtlULongLongToUIntPtr function"]
 ms.keywords: RtlULongLongToUIntPtr, RtlULongLongToUIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtouintptr, ntintsafe/RtlULongLongToUIntPtr
 f1_keywords:
  - "ntintsafe/RtlULongLongToUIntPtr"
+ - "RtlULongLongToUIntPtr"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

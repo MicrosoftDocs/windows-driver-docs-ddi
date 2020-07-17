@@ -10,6 +10,7 @@ ms.date: 10/07/2019
 keywords: ["NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS structure"]
 f1_keywords:
  - "netwakesource/NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS"
+ - "NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS"
 ms.keywords: NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS, NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS, 
 req.header: netwakesource.h
 req.include-header:

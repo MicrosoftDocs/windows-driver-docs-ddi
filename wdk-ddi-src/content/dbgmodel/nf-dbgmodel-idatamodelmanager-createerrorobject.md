@@ -7,6 +7,7 @@ ms.date: 07/17/2018
 keywords: ["IDataModelManager::CreateErrorObject"]
 f1_keywords:
  - "dbgmodel/IDataModelManager.CreateErrorObject"
+ - "IDataModelManager.CreateErrorObject"
 ms.keywords: IDataModelManager::CreateErrorObject, CreateErrorObject, IDataModelManager.CreateErrorObject, IDataModelManager::CreateErrorObject, IDataModelManager.CreateErrorObject
 req.header: dbgmodel.h
 req.include-header:

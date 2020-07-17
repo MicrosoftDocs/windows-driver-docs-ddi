@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["IDebugHostSymbol2::GetLanguage"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol2.GetLanguage"
+ - "IDebugHostSymbol2.GetLanguage"
 ms.keywords: IDebugHostSymbol2::GetLanguage, GetLanguage, IDebugHostSymbol2.GetLanguage, IDebugHostSymbol2::GetLanguage, IDebugHostSymbol2.GetLanguage
 req.header: dbgmodel.h
 req.include-header:

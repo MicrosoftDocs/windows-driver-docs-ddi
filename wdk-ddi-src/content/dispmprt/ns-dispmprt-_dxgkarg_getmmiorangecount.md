@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARG_GETMMIORANGECOUNT structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_GETMMIORANGECOUNT"
+ - "_DXGKARG_GETMMIORANGECOUNT"
 ms.keywords: _DXGKARG_GETMMIORANGECOUNT, DXGKARG_GETMMIORANGECOUNT, *PDXGKARG_GETMMIORANGECOUNT, 
 req.header: dispmprt.h
 req.include-header:

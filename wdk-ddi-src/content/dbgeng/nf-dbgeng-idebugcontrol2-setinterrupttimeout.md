@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::SetInterruptTimeout"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetInterruptTimeout method, IDebugControl2 interface [Windows Debugging],SetInterruptTimeout method, IDebugControl2.SetInterruptTimeout, IDebugControl2::SetInterruptTimeout, IDebugControl3 interface [Windows Debugging],SetInterruptTimeout method, IDebugControl3::SetInterruptTimeout, IDebugControl::SetInterruptTimeout, IDebugControl_c16219f4-97b7-451d-8f04-30aa262667f6.xml, SetInterruptTimeout, SetInterruptTimeout method [Windows Debugging], SetInterruptTimeout method [Windows Debugging],IDebugControl interface, SetInterruptTimeout method [Windows Debugging],IDebugControl2 interface, SetInterruptTimeout method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetInterruptTimeout, dbgeng/IDebugControl3::SetInterruptTimeout, dbgeng/IDebugControl::SetInterruptTimeout, debugger.setinterrupttimeout
 f1_keywords:
  - "dbgeng/IDebugControl.SetInterruptTimeout"
+ - "IDebugControl.SetInterruptTimeout"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

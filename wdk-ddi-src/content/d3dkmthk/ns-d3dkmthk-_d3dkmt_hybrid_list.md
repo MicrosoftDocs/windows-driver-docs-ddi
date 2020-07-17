@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_HYBRID_LIST structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_HYBRID_LIST"
+ - "_D3DKMT_HYBRID_LIST"
 ms.keywords: _D3DKMT_HYBRID_LIST, D3DKMT_HYBRID_LIST, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DOCUMENTEVENT_FLAGS macro"]
 f1_keywords:
  - "winddiui/DOCUMENTEVENT_FLAGS"
+ - "DOCUMENTEVENT_FLAGS"
 ms.keywords: DOCUMENTEVENT_FLAGS
 req.header: winddiui.h
 req.include-header:

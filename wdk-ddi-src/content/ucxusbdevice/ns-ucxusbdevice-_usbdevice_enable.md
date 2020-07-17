@@ -10,6 +10,7 @@ keywords: ["_USBDEVICE_ENABLE structure"]
 ms.keywords: "*PUSBDEVICE_ENABLE, P_USBDEVICE_ENABLE, P_USBDEVICE_ENABLE structure pointer [Buses], USBDEVICE_ENABLE, USBDEVICE_ENABLE structure [Buses], _USBDEVICE_ENABLE, buses._usbdevice_enable, ucxusbdevice/P_USBDEVICE_ENABLE, ucxusbdevice/_USBDEVICE_ENABLE"
 f1_keywords:
  - "ucxusbdevice/USBDEVICE_ENABLE"
+ - "USBDEVICE_ENABLE"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionContextCollection::get__NewEnum method"]
 ms.keywords: IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], NewEnum method, IPrinterExtensionContextCollection,get_NewEnum, NewEnum, IPrinterExtensionContextCollection::NewEnum, IPrinterExtensionContextCollection::get__NewEnum, NewEnum method [Print Devices], NewEnum method [Print Devices], IPrinterExtensionContextCollection interface, get__NewEnum,IPrinterExtensionContextCollection.get__NewEnum, print.iprinterextensioncontextcollection_newenum, printerextension/IPrinterExtensionContextCollection::NewEnum
 f1_keywords:
  - "printerextension/IPrinterExtensionContextCollection.NewEnum"
+ - "IPrinterExtensionContextCollection.NewEnum"
 req.header: printerextension.h
 req.include-header:
 req.target-type: Windows

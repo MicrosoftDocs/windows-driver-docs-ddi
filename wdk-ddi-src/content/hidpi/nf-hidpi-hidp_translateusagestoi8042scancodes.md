@@ -10,6 +10,7 @@ keywords: ["HidP_TranslateUsagesToI8042ScanCodes function"]
 ms.keywords: HidP_TranslateUsagesToI8042ScanCodes, HidP_TranslateUsagesToI8042ScanCodes routine [Human Input Devices], hid.hidp_translateusagestoi8042scancodes, hidfunc_da67ba0d-7d82-4b35-9ebb-cdd93b12450b.xml, hidpi/HidP_TranslateUsagesToI8042ScanCodes
 f1_keywords:
  - "hidpi/HidP_TranslateUsagesToI8042ScanCodes"
+ - "HidP_TranslateUsagesToI8042ScanCodes"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

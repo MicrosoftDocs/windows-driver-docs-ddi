@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetFactory interface"]
 ms.keywords: IWDFUsbTargetFactory, IWDFUsbTargetFactory interface, IWDFUsbTargetFactory interface,described, UMDFDeviceObjectRef_71a85574-e7e1-483e-8d16-06cb784ff30e.xml, umdf.iwdfusbtargetfactory, wdf.iwdfusbtargetfactory, wudfusb/IWDFUsbTargetFactory
 f1_keywords:
  - "wudfusb/IWDFUsbTargetFactory"
+ - "IWDFUsbTargetFactory"
 req.header: wudfusb.h
 req.include-header: 
 req.target-type: Desktop

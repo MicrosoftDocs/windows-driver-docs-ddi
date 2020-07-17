@@ -10,6 +10,7 @@ keywords: ["ExtExtension::* ExtKnownStructMethod callback function"]
 ms.keywords: "* ExtKnownStructMethod, EngExtCpp_Ref_bd64fb5a-ca77-4195-b5ba-6d647c133353.xml, ExtExtension::* ExtKnownStructMethod, ExtKnownStructMethod, ExtKnownStructMethod callback, ExtKnownStructMethod callback function [Windows Debugging], debugger.extknownstructmethod, engextcpp/ExtKnownStructMethod"
 f1_keywords:
  - "engextcpp/ExtKnownStructMethod"
+ - "ExtKnownStructMethod"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

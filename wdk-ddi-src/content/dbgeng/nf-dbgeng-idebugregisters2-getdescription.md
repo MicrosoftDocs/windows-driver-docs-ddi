@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters2::GetDescription"]
 ms.keywords: GetDescription, GetDescription method [Windows Debugging], GetDescription method [Windows Debugging],IDebugRegisters interface, GetDescription method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetDescription method, IDebugRegisters2 interface [Windows Debugging],GetDescription method, IDebugRegisters2.GetDescription, IDebugRegisters2::GetDescription, IDebugRegisters::GetDescription, IDebugRegisters_aa062ab9-e090-4cad-b875-b6e99a019c16.xml, dbgeng/IDebugRegisters2::GetDescription, dbgeng/IDebugRegisters::GetDescription, debugger.getdescription
 f1_keywords:
  - "dbgeng/IDebugRegisters.GetDescription"
+ - "IDebugRegisters.GetDescription"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop

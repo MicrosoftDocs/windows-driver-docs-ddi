@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols2::GetSourcePath"]
 ms.keywords: GetSourcePath, GetSourcePath method [Windows Debugging], GetSourcePath method [Windows Debugging],IDebugSymbols interface, GetSourcePath method [Windows Debugging],IDebugSymbols2 interface, GetSourcePath method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSourcePath method, IDebugSymbols2 interface [Windows Debugging],GetSourcePath method, IDebugSymbols2.GetSourcePath, IDebugSymbols2::GetSourcePath, IDebugSymbols3 interface [Windows Debugging],GetSourcePath method, IDebugSymbols3::GetSourcePath, IDebugSymbols::GetSourcePath, IDebugSymbols_cbdf5e16-41ba-4134-b41b-81164dfc07a0.xml, dbgeng/IDebugSymbols2::GetSourcePath, dbgeng/IDebugSymbols3::GetSourcePath, dbgeng/IDebugSymbols::GetSourcePath, debugger.getsourcepath
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetSourcePath"
+ - "IDebugSymbols.GetSourcePath"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

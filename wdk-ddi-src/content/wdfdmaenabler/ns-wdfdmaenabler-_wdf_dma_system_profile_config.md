@@ -10,6 +10,7 @@ keywords: ["_WDF_DMA_SYSTEM_PROFILE_CONFIG structure"]
 ms.keywords: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG structure pointer, WDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG structure, _WDF_DMA_SYSTEM_PROFILE_CONFIG, kmdf.wdf_dma_system_profile_config, wdf.wdf_dma_system_profile_config, wdfdmaenabler/PWDF_DMA_SYSTEM_PROFILE_CONFIG, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG"
 f1_keywords:
  - "wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG"
+ - "WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Windows

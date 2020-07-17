@@ -10,6 +10,7 @@ keywords: ["_WWAN_RADIO_STATE structure"]
 ms.keywords: "*PWWAN_RADIO_STATE, PWWAN_RADIO_STATE, PWWAN_RADIO_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_RADIO_STATE, WWAN_RADIO_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_b1ea0ea1-b23f-4e5c-9528-659e1f6e4162.xml, _WWAN_RADIO_STATE, netvista.wwan_radio_state, wwan/PWWAN_RADIO_STATE, wwan/WWAN_RADIO_STATE"
 f1_keywords:
  - "wwan/WWAN_RADIO_STATE"
+ - "WWAN_RADIO_STATE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

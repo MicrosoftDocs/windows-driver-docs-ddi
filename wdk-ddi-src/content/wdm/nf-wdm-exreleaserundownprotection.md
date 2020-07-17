@@ -10,6 +10,7 @@ keywords: ["ExReleaseRundownProtection function"]
 ms.keywords: ExReleaseRundownProtection, ExReleaseRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exreleaserundownprotection, wdm/ExReleaseRundownProtection
 f1_keywords:
  - "wdm/ExReleaseRundownProtection"
+ - "ExReleaseRundownProtection"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal

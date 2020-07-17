@@ -10,6 +10,7 @@ keywords: ["PMI_MEASUREMENT_TYPE enumeration"]
 ms.keywords: PMI_MEASUREMENT_TYPE, PMI_MEASUREMENT_TYPE enumeration [Power Metering and Budgeting Devices], PmiMeasurementTypeInput, PmiMeasurementTypeMax, PmiMeasurementTypeOutput, PowerMeterRef_2156ee1f-16d6-4021-865e-ce6482a53f66.xml, pmi/PMI_MEASUREMENT_TYPE, pmi/PmiMeasurementTypeInput, pmi/PmiMeasurementTypeMax, pmi/PmiMeasurementTypeOutput, powermeter.pmi_measurement_type
 f1_keywords:
  - "pmi/PMI_MEASUREMENT_TYPE"
+ - "PMI_MEASUREMENT_TYPE"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows

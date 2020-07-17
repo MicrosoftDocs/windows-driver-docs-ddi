@@ -8,6 +8,7 @@ keywords: ["MILLISECONDS_TO_100NANOSECONDS macro"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/MILLISECONDS_TO_100NANOSECONDS"
+ - "MILLISECONDS_TO_100NANOSECONDS"
 ms.keywords: MILLISECONDS_TO_100NANOSECONDS
 req.header: sensorsutils.h
 req.include-header:

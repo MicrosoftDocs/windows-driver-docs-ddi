@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_PRESENT_DISPLAYONLY structure"]
 ms.keywords: DXGKARG_PRESENT_DISPLAYONLY, DXGKARG_PRESENT_DISPLAYONLY structure [Display Devices], _DXGKARG_PRESENT_DISPLAYONLY, d3dkmddi/DXGKARG_PRESENT_DISPLAYONLY, display.dxgkarg_present_displayonly
 f1_keywords:
  - "d3dkmddi/DXGKARG_PRESENT_DISPLAYONLY"
+ - "DXGKARG_PRESENT_DISPLAYONLY"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PVIDEO_HW_INTERRUPT callback function"]
 ms.keywords: HwVidInterrupt, HwVidInterrupt callback function [Display Devices], PVIDEO_HW_INTERRUPT, PVIDEO_HW_INTERRUPT callback, VideoMiniport_Functions_9c3ff1cb-9812-461c-8ac5-b6cbdbe63c59.xml, display.hwvidinterrupt, video/HwVidInterrupt
 f1_keywords:
  - "video/HwVidInterrupt"
+ - "HwVidInterrupt"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

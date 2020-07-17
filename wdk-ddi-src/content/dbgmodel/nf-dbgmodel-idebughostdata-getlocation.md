@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDebugHostData::GetLocation"]
 f1_keywords:
  - "dbgmodel/IDebugHostData.GetLocation"
+ - "IDebugHostData.GetLocation"
 ms.keywords: IDebugHostData::GetLocation, GetLocation, IDebugHostData.GetLocation, IDebugHostData::GetLocation, IDebugHostData.GetLocation
 req.header: dbgmodel.h
 req.include-header:

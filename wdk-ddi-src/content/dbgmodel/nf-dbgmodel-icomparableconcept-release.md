@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IComparableConcept::Release"]
 f1_keywords:
  - "dbgmodel/IComparableConcept.Release"
+ - "IComparableConcept.Release"
 ms.keywords: IComparableConcept::Release, Release, IComparableConcept.Release, IComparableConcept::Release, IComparableConcept.Release
 req.header: dbgmodel.h
 req.include-header:

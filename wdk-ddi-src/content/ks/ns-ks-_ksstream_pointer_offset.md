@@ -10,6 +10,7 @@ keywords: ["_KSSTREAM_POINTER_OFFSET structure"]
 ms.keywords: "*PKSSTREAM_POINTER_OFFSET, KSSTREAM_POINTER_OFFSET, KSSTREAM_POINTER_OFFSET structure [Streaming Media Devices], PKSSTREAM_POINTER_OFFSET, PKSSTREAM_POINTER_OFFSET structure pointer [Streaming Media Devices], _KSSTREAM_POINTER_OFFSET, avstruct_e210364b-520e-4d21-98ea-e22f5468e911.xml, ks/KSSTREAM_POINTER_OFFSET, ks/PKSSTREAM_POINTER_OFFSET, stream.ksstream_pointer_offset"
 f1_keywords:
  - "ks/KSSTREAM_POINTER_OFFSET"
+ - "KSSTREAM_POINTER_OFFSET"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

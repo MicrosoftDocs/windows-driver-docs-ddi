@@ -9,6 +9,7 @@ keywords: ["D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020 structure"]
 ms.keywords: D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020, D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_SAMPLE_DESCRIPTION, display.d3d12ddi_video_sample_description
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020"
+ - "D3D12DDI_VIDEO_SAMPLE_DESCRIPTION_0020"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

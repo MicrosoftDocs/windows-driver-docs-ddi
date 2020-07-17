@@ -10,6 +10,7 @@ keywords: ["PREENUMERATE_SELF callback function"]
 ms.keywords: PREENUMERATE_SELF, ReenumerateSelf, ReenumerateSelf routine [Kernel-Mode Driver Architecture], drvr_interface_208efec1-4236-441b-a4b8-45a9539e4d84.xml, kernel.reenumerateself, wdm/ReenumerateSelf
 f1_keywords:
  - "wdm/ReenumerateSelf"
+ - "ReenumerateSelf"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Desktop

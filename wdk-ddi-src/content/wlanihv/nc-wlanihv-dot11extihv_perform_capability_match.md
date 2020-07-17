@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_PERFORM_CAPABILITY_MATCH callback"]
 ms.keywords: DOT11EXTIHV_PERFORM_CAPABILITY_MATCH, Dot11ExtIhvPerformCapabilityMatch, Dot11ExtIhvPerformCapabilityMatch callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_98cf7a9a-aaf4-45d0-8b1d-3142e947e415.xml, netvista.dot11extihvperformcapabilitymatch, wlanihv/Dot11ExtIhvPerformCapabilityMatch
 f1_keywords:
  - "wlanihv/Dot11ExtIhvPerformCapabilityMatch"
+ - "Dot11ExtIhvPerformCapabilityMatch"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h, Winclient.h, L2cmn.h
 req.target-type: Desktop

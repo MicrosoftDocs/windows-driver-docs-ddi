@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest2::GetCreateParametersEx"]
 ms.keywords: GetCreateParametersEx, GetCreateParametersEx method, GetCreateParametersEx method,IWDFIoRequest2 interface, IWDFIoRequest2 interface,GetCreateParametersEx method, IWDFIoRequest2.GetCreateParametersEx, IWDFIoRequest2::GetCreateParametersEx, UMDFRequestObjectRef_02864469-8022-4412-8de9-639dcd0b4f42.xml, umdf.iwdfiorequest2_getcreateparametersex, wdf.iwdfiorequest2_getcreateparametersex, wudfddi/IWDFIoRequest2::GetCreateParametersEx
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.GetCreateParametersEx"
+ - "IWDFIoRequest2.GetCreateParametersEx"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_GET_HOTPLUG_INFO IOCTL"]
 ms.keywords: IOCTL_STORAGE_GET_HOTPLUG_INFO, IOCTL_STORAGE_GET_HOTPLUG_INFO control, IOCTL_STORAGE_GET_HOTPLUG_INFO control code [Storage Devices], k307_06a9c82a-ee57-421f-befc-0a9da3543b40.xml, ntddstor/IOCTL_STORAGE_GET_HOTPLUG_INFO, storage.ioctl_storage_get_hotplug_info
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_GET_HOTPLUG_INFO"
+ - "IOCTL_STORAGE_GET_HOTPLUG_INFO"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

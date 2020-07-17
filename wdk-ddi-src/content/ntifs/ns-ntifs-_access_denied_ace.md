@@ -10,6 +10,7 @@ keywords: ["_ACCESS_DENIED_ACE structure"]
 ms.keywords: "*PACCESS_DENIED_ACE, ACCESS_DENIED_ACE, ACCESS_DENIED_ACE structure [Installable File System Drivers], PACCESS_DENIED_ACE, PACCESS_DENIED_ACE structure pointer [Installable File System Drivers], _ACCESS_DENIED_ACE, ifsk.access_denied_ace, ntifs/ACCESS_DENIED_ACE, ntifs/PACCESS_DENIED_ACE, securitystructures_d2c690e3-53bc-4d57-b1b5-1a34ef612a7b.xml"
 f1_keywords:
  - "ntifs/ACCESS_DENIED_ACE"
+ - "ACCESS_DENIED_ACE"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

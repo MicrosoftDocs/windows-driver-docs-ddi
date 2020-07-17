@@ -10,6 +10,7 @@ keywords: ["ExInterlockedAddLargeStatistic macro"]
 ms.keywords: ExInterlockedAddLargeStatistic, ExInterlockedAddLargeStatistic routine [Kernel-Mode Driver Architecture], k102_232887d0-d6f0-4664-bcff-221f371bfe6a.xml, kernel.exinterlockedaddlargestatistic, wdm/ExInterlockedAddLargeStatistic
 f1_keywords:
  - "wdm/ExInterlockedAddLargeStatistic"
+ - "ExInterlockedAddLargeStatistic"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

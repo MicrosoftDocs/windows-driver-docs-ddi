@@ -8,6 +8,7 @@ ms.date: 09/27/2019
 keywords: ["NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA function"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA"
+ - "NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA"
 ms.keywords: NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA
 req.header: netadapter.h
 req.include-header: netadaptercx.h

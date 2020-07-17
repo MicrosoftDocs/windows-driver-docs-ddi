@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveRTStreamNotification::RegisterNotificationEvent"]
 ms.keywords: IMiniportWaveRTStreamNotification interface [Audio Devices],RegisterNotificationEvent method, IMiniportWaveRTStreamNotification.RegisterNotificationEvent, IMiniportWaveRTStreamNotification::RegisterNotificationEvent, RegisterNotificationEvent, RegisterNotificationEvent method [Audio Devices], RegisterNotificationEvent method [Audio Devices],IMiniportWaveRTStreamNotification interface, audio.iminiportwavertstreamnotification_registernotificationevent, audmp-routines_82613ca5-1ae2-449d-8883-2d6ee50aecf7.xml, portcls/IMiniportWaveRTStreamNotification::RegisterNotificationEvent
 f1_keywords:
  - "portcls/IMiniportWaveRTStreamNotification.RegisterNotificationEvent"
+ - "IMiniportWaveRTStreamNotification.RegisterNotificationEvent"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

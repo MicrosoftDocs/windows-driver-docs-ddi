@@ -10,6 +10,7 @@ keywords: ["ZwQueryQuotaInformationFile function"]
 ms.keywords: NtQueryQuotaInformationFile, ZwQueryQuotaInformationFile, ZwQueryQuotaInformationFile routine [Kernel-Mode Driver Architecture], k111_226a807c-d14d-403f-bbef-f5b4e6491039.xml, kernel.zwqueryquotainformationfile, ntifs/NtQueryQuotaInformationFile, ntifs/ZwQueryQuotaInformationFile
 f1_keywords:
  - "ntifs/ZwQueryQuotaInformationFile"
+ - "ZwQueryQuotaInformationFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal

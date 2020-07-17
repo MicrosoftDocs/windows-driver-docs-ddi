@@ -10,6 +10,7 @@ keywords: ["_WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure"]
 ms.keywords: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, DFDriverObjectRef_dea9dee4-b36b-4672-89cb-bbffe0a78f3b.xml, PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, PWDF_DRIVER_VERSION_AVAILABLE_PARAMS structure pointer, WDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure, _WDF_DRIVER_VERSION_AVAILABLE_PARAMS, kmdf.wdf_driver_version_available_params, wdf.wdf_driver_version_available_params, wdfdriver/PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, wdfdriver/WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
 f1_keywords:
  - "wdfdriver/WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+ - "WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Windows

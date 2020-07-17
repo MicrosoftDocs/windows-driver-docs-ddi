@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_PREEMPTCOMMAND structure"]
 ms.keywords: DXGKARG_PREEMPTCOMMAND, DXGKARG_PREEMPTCOMMAND structure [Display Devices], DmStructs_2564ca47-8304-4a95-a408-2e5ccca7353d.xml, _DXGKARG_PREEMPTCOMMAND, d3dkmddi/DXGKARG_PREEMPTCOMMAND, display.dxgkarg_preemptcommand
 f1_keywords:
  - "d3dkmddi/DXGKARG_PREEMPTCOMMAND"
+ - "DXGKARG_PREEMPTCOMMAND"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

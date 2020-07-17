@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["IddCxAdapterDisplayConfigUpdate function"]
 f1_keywords:
  - "iddcx/IddCxAdapterDisplayConfigUpdate"
+ - "IddCxAdapterDisplayConfigUpdate"
 ms.keywords: IddCxAdapterDisplayConfigUpdate
 req.header: iddcx.h
 req.include-header:

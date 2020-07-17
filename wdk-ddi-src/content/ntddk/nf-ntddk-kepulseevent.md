@@ -10,6 +10,7 @@ keywords: ["KePulseEvent function"]
 ms.keywords: KePulseEvent, KePulseEvent routine [Kernel-Mode Driver Architecture], k105_86079f76-4593-4ef2-ab1b-6f4c3ba17142.xml, kernel.kepulseevent, ntddk/KePulseEvent
 f1_keywords:
  - "ntddk/KePulseEvent"
+ - "KePulseEvent"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

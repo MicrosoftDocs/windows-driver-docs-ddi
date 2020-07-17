@@ -10,6 +10,7 @@ keywords: ["RtlCheckRegistryKey function"]
 ms.keywords: RtlCheckRegistryKey, RtlCheckRegistryKey routine [Kernel-Mode Driver Architecture], k109_d4610b64-e689-4734-aca9-4536889ae2b9.xml, kernel.rtlcheckregistrykey, wdm/RtlCheckRegistryKey
 f1_keywords:
  - "wdm/RtlCheckRegistryKey"
+ - "RtlCheckRegistryKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

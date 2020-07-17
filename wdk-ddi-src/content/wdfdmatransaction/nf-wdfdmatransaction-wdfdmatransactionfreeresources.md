@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionFreeResources function"]
 ms.keywords: WdfDmaTransactionFreeResources, WdfDmaTransactionFreeResources method, kmdf.wdfdmatransactionfreeresources, wdf.wdfdmatransactionfreeresources, wdfdmatransaction/WdfDmaTransactionFreeResources
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionFreeResources"
+ - "WdfDmaTransactionFreeResources"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

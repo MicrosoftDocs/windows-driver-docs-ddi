@@ -10,6 +10,7 @@ keywords: ["NDIS_PD_FREE_QUEUE callback function"]
 ms.keywords: NDIS_PD_FREE_QUEUE, NDIS_PD_FREE_QUEUE callback, NdisPDFreeQueue, NdisPDFreeQueue callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDFreeQueue, netvista.ndispdfreequeue
 f1_keywords:
  - "ndis/NdisPDFreeQueue"
+ - "NdisPDFreeQueue"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

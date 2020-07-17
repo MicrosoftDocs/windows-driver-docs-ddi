@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_IO_QUEUE_IO_DEFAULT callback function"]
 ms.keywords: DFQueueObjectRef_aca0c34e-8d7d-4eba-b1ac-c91928db896e.xml, EVT_WDF_IO_QUEUE_IO_DEFAULT, EVT_WDF_IO_QUEUE_IO_DEFAULT callback, EvtIoDefault, EvtIoDefault callback function, kmdf.evtiodefault, wdf.evtiodefault, wdfio/EvtIoDefault
 f1_keywords:
  - "wdfio/EvtIoDefault"
+ - "EvtIoDefault"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

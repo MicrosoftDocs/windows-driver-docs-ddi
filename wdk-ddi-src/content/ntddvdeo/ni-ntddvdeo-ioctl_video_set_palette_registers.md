@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_SET_PALETTE_REGISTERS IOCTL"]
 ms.keywords: IOCTL_VIDEO_SET_PALETTE_REGISTERS, IOCTL_VIDEO_SET_PALETTE_REGISTERS control, IOCTL_VIDEO_SET_PALETTE_REGISTERS control code [Display Devices], Video_IOCTLs_d8a3a22e-037b-4e82-b542-e5a5e4a7fef7.xml, display.ioctl_video_set_palette_registers, ntddvdeo/IOCTL_VIDEO_SET_PALETTE_REGISTERS
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_SET_PALETTE_REGISTERS"
+ - "IOCTL_VIDEO_SET_PALETTE_REGISTERS"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows

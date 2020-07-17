@@ -10,6 +10,7 @@ keywords: ["ObCloseHandle function"]
 ms.keywords: ObCloseHandle, ObCloseHandle routine [Kernel-Mode Driver Architecture], kernel.obclosehandle, wdm/ObCloseHandle
 f1_keywords:
  - "wdm/ObCloseHandle"
+ - "ObCloseHandle"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

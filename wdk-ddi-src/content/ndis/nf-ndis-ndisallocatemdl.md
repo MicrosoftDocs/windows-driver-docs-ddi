@@ -10,6 +10,7 @@ keywords: ["NdisAllocateMdl function"]
 ms.keywords: NdisAllocateMdl, NdisAllocateMdl function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateMdl, ndis_netbuf_functions_ref_73b9ab32-14a8-4441-a057-c6fe91ddfb43.xml, netvista.ndisallocatemdl
 f1_keywords:
  - "ndis/NdisAllocateMdl"
+ - "NdisAllocateMdl"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

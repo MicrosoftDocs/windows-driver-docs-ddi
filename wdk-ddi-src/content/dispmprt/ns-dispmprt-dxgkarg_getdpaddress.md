@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - dispmprt/_DXGKARG_GETDPADDRESS
  - dispmprt/DXGKARG_GETDPADDRESS
+ - ""
 dev_langs:
  - c++
 ---

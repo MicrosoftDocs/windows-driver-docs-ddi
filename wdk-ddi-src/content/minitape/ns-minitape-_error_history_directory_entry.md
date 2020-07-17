@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_ERROR_HISTORY_DIRECTORY_ENTRY structure"]
 f1_keywords:
  - "minitape/_ERROR_HISTORY_DIRECTORY_ENTRY"
+ - "_ERROR_HISTORY_DIRECTORY_ENTRY"
 ms.keywords: _ERROR_HISTORY_DIRECTORY_ENTRY, ERROR_HISTORY_DIRECTORY_ENTRY, *PERROR_HISTORY_DIRECTORY_ENTRY, 
 req.header: minitape.h
 req.include-header:

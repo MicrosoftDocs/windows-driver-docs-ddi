@@ -10,6 +10,7 @@ keywords: ["PFNDDXGIDDI_PRESENTCB callback function"]
 ms.keywords: PFNDDXGIDDI_PRESENTCB, PFNDDXGIDDI_PRESENTCB callback, d3d10state_functions_22004360-a0a0-4d54-ac0e-d7fadec2bf67.xml, display.pfnpresentcbdxgi, dxgiddi/pfnPresentCbDXGI, pfnPresentCbDXGI, pfnPresentCbDXGI callback function [Display Devices]
 f1_keywords:
  - "dxgiddi/pfnPresentCbDXGI"
+ - "pfnPresentCbDXGI"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

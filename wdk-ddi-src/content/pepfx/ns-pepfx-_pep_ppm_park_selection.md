@@ -10,6 +10,7 @@ keywords: ["_PEP_PPM_PARK_SELECTION structure"]
 ms.keywords: "*PPEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION, PEP_PPM_PARK_SELECTION structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_SELECTION, PPEP_PPM_PARK_SELECTION structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PARK_SELECTION, kernel.pep_ppm_park_selection, pepfx/PEP_PPM_PARK_SELECTION, pepfx/PPEP_PPM_PARK_SELECTION"
 f1_keywords:
  - "pepfx/PEP_PPM_PARK_SELECTION"
+ - "PEP_PPM_PARK_SELECTION"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

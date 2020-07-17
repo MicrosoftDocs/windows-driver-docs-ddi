@@ -10,6 +10,7 @@ keywords: ["PSETUP_DMA_ENGINE_WITH_BDL callback function"]
 ms.keywords: PSETUP_DMA_ENGINE_WITH_BDL, PSETUP_DMA_ENGINE_WITH_BDL callback, SetupDmaEngineWithBdl, SetupDmaEngineWithBdl callback function [Audio Devices], aud-prop2_7d264dff-4f47-4a5a-a587-636c57a12a9d.xml, audio.setupdmaenginewithbdl, hdaudio/SetupDmaEngineWithBdl
 f1_keywords:
  - "hdaudio/SetupDmaEngineWithBdl"
+ - "SetupDmaEngineWithBdl"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop

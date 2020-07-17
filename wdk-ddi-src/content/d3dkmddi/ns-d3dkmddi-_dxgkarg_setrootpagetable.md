@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_SETROOTPAGETABLE structure"]
 ms.keywords: DXGKARG_SETROOTPAGETABLE, DXGKARG_SETROOTPAGETABLE structure [Display Devices], _DXGKARG_SETROOTPAGETABLE, d3dkmddi/DXGKARG_SETROOTPAGETABLE, display.dxgkarg_setrootpagetable
 f1_keywords:
  - "d3dkmddi/DXGKARG_SETROOTPAGETABLE"
+ - "DXGKARG_SETROOTPAGETABLE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

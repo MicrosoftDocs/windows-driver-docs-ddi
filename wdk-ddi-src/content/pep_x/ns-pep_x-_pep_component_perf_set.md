@@ -10,6 +10,7 @@ keywords: ["_PEP_COMPONENT_PERF_SET structure"]
 ms.keywords: "*PPEP_COMPONENT_PERF_SET, PEP_COMPONENT_PERF_SET, PEP_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PERF_SET, PPEP_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_PERF_SET, kernel.pep_component_perf_set, pepfx/PEP_COMPONENT_PERF_SET, pepfx/PPEP_COMPONENT_PERF_SET"
 f1_keywords:
  - "pep_x/PEP_COMPONENT_PERF_SET"
+ - "PEP_COMPONENT_PERF_SET"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

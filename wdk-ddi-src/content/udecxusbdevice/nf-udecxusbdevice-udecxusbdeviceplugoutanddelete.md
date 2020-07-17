@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDevicePlugOutAndDelete function"]
 ms.keywords: UdecxUsbDevicePlugOutAndDelete, UdecxUsbDevicePlugOutAndDelete function [Buses], buses.udecxusbdeviceplugoutanddelete, udecxusbdevice/UdecxUsbDevicePlugOutAndDelete
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDevicePlugOutAndDelete"
+ - "UdecxUsbDevicePlugOutAndDelete"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

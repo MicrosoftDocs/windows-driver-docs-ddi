@@ -10,6 +10,7 @@ keywords: ["WdfRegistryAssignULong function"]
 ms.keywords: DFRegKeyObjectRef_2f35ea01-ade1-4bf1-a55b-6613021fcd04.xml, WdfRegistryAssignULong, WdfRegistryAssignULong method, kmdf.wdfregistryassignulong, wdf.wdfregistryassignulong, wdfregistry/WdfRegistryAssignULong
 f1_keywords:
  - "wdfregistry/WdfRegistryAssignULong"
+ - "WdfRegistryAssignULong"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal

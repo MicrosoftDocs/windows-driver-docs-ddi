@@ -10,6 +10,7 @@ keywords: ["_URB_SELECT_CONFIGURATION structure"]
 ms.keywords: "_URB_SELECT_CONFIGURATION, _URB_SELECT_CONFIGURATION structure [Buses], buses._urb_select_configuration, usb/_URB_SELECT_CONFIGURATION, usbstrct_cfe530e7-f16f-4d45-96e9-e1603bde77b9.xml"
 f1_keywords:
  - "usb/_URB_SELECT_CONFIGURATION"
+ - "_URB_SELECT_CONFIGURATION"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows

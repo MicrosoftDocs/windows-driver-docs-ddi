@@ -10,6 +10,7 @@ keywords: ["RILTONESIGNALINFO_V2 structure"]
 ms.keywords: "*LPRILTONESIGNALINFO, *LPRILTONESIGNALINFO_V2, RILTONESIGNALINFO, RILTONESIGNALINFO_V2, RILTONESIGNALINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.riltonesignalinfo_v2, ntddrilapitypes/RILTONESIGNALINFO_V2"
 f1_keywords:
  - "rilapitypes/RILTONESIGNALINFO_V2"
+ - "RILTONESIGNALINFO_V2"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

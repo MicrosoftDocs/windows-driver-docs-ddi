@@ -10,6 +10,7 @@ keywords: ["PFND3DDDI_UPDATEPALETTE callback function"]
 ms.keywords: PFND3DDDI_UPDATEPALETTE, PFND3DDDI_UPDATEPALETTE callback, UpdatePalette, UpdatePalette callback function [Display Devices], UserModeDisplayDriver_Functions_d3b21e65-68dc-44d9-b5b3-96f37588965e.xml, d3dumddi/UpdatePalette, display.updatepalette
 f1_keywords:
  - "d3dumddi/UpdatePalette"
+ - "UpdatePalette"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

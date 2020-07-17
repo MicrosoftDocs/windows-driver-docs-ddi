@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_BEGIN_END_QUERY_0003 callback function"]
 ms.keywords: PFND3D12DDI_BEGIN_END_QUERY_0003, PFND3D12DDI_BEGIN_END_QUERY_0003 callback, d3d12umddi/pfnBeginQuery, display.pfnd3d12ddi_begin_end_query_0003, pfnBeginQuery, pfnBeginQuery callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnBeginQuery"
+ - "pfnBeginQuery"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

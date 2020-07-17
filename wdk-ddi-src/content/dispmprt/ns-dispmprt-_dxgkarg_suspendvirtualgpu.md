@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGKARG_SUSPENDVIRTUALGPU structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_SUSPENDVIRTUALGPU"
+ - "_DXGKARG_SUSPENDVIRTUALGPU"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_SUSPENDVIRTUALGPU, DXGKARG_SUSPENDVIRTUALGPU, *PDXGKARG_SUSPENDVIRTUALGPU, 

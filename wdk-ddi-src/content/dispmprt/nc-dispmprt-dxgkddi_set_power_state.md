@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_SET_POWER_STATE callback function"]
 ms.keywords: DXGKDDI_SET_POWER_STATE, DXGKDDI_SET_POWER_STATE callback, DmFunctions_712dfd67-ab92-4ffb-80e8-18e6b80a0dd4.xml, DxgkDdiSetPowerState, DxgkDdiSetPowerState callback function [Display Devices], display.dxgkddisetpowerstate, dispmprt/DxgkDdiSetPowerState
 f1_keywords:
  - "dispmprt/DxgkDdiSetPowerState"
+ - "DxgkDdiSetPowerState"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RIL_GetOperatorList function"]
 ms.keywords: RIL_GetOperatorList, RIL_GetOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_getoperatorlist, rilapi/RIL_GetOperatorList
 f1_keywords:
  - "rilapi/RIL_GetOperatorList"
+ - "RIL_GetOperatorList"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

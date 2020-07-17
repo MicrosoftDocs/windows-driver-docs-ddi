@@ -10,6 +10,7 @@ keywords: ["NDK_FN_CREATE_COMPLETION callback function"]
 ms.keywords: NDK_FN_CREATE_COMPLETION, NDK_FN_CREATE_COMPLETION callback, NdkCreateCompletion, NdkCreateCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateCompletion, netvista.ndk_fn_create_completion
 f1_keywords:
  - "ndkpi/NdkCreateCompletion"
+ - "NdkCreateCompletion"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

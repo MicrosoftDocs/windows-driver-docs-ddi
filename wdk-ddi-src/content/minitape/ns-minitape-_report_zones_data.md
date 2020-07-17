@@ -10,6 +10,7 @@ keywords: ["_REPORT_ZONES_DATA structure"]
 ms.keywords: "*PREPORT_ZONES_DATA, PREPORT_ZONES_DATA, PREPORT_ZONES_DATA structure pointer [Storage Devices], REPORT_ZONES_DATA, REPORT_ZONES_DATA structure [Storage Devices], _REPORT_ZONES_DATA, scsi/PREPORT_ZONES_DATA, scsi/REPORT_ZONES_DATA, storage.report_zones_data"
 f1_keywords:
  - "minitape/REPORT_ZONES_DATA"
+ - "REPORT_ZONES_DATA"
 req.header: minitape.h
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["ISensorClassExtension::CleanupFile"]
 ms.keywords: CleanupFile, CleanupFile method [Sensor Devices], CleanupFile method [Sensor Devices],ISensorClassExtension interface, ISensorClassExtension interface [Sensor Devices],CleanupFile method, ISensorClassExtension.CleanupFile, ISensorClassExtension::CleanupFile, sensors.isensorclassextension_cleanupfile, sensorsclassextension/ISensorClassExtension::CleanupFile
 f1_keywords:
  - "sensorsclassextension/CleanupFile"
+ - "CleanupFile"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows

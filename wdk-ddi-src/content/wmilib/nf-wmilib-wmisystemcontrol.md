@@ -10,6 +10,7 @@ keywords: ["WmiSystemControl function"]
 ms.keywords: WmiSystemControl, WmiSystemControl routine [Kernel-Mode Driver Architecture], k902_7bd87d12-7e45-4dd1-a78b-6389c6894ea4.xml, kernel.wmisystemcontrol, wmilib/WmiSystemControl
 f1_keywords:
  - "wmilib/WmiSystemControl"
+ - "WmiSystemControl"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Universal

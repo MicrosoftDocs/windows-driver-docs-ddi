@@ -8,6 +8,7 @@ keywords: ["PropKeyFindKeySetPropVariant function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/PropKeyFindKeySetPropVariant"
+ - "PropKeyFindKeySetPropVariant"
 ms.keywords: PropKeyFindKeySetPropVariant
 req.header: sensorsutils.h
 req.include-header:

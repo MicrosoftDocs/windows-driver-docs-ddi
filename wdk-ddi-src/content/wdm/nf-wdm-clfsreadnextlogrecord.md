@@ -10,6 +10,7 @@ keywords: ["ClfsReadNextLogRecord function"]
 ms.keywords: ClfsReadNextLogRecord, ClfsReadNextLogRecord routine [Kernel-Mode Driver Architecture], Clfs_4e00ce69-12c3-48c1-ba3b-1c85158afc12.xml, kernel.clfsreadnextlogrecord, wdm/ClfsReadNextLogRecord
 f1_keywords:
  - "wdm/ClfsReadNextLogRecord"
+ - "ClfsReadNextLogRecord"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

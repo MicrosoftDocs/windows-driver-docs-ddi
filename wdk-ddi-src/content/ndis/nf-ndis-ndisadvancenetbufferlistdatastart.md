@@ -10,6 +10,7 @@ keywords: ["NdisAdvanceNetBufferListDataStart function"]
 ms.keywords: NdisAdvanceNetBufferListDataStart, NdisAdvanceNetBufferListDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisAdvanceNetBufferListDataStart, ndis_netbuf_functions_ref_6d98353d-427f-49ce-9b28-e1c178a8af24.xml, netvista.ndisadvancenetbufferlistdatastart
 f1_keywords:
  - "ndis/NdisAdvanceNetBufferListDataStart"
+ - "NdisAdvanceNetBufferListDataStart"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

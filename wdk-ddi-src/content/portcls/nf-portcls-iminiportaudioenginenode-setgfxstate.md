@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::SetGfxState"]
 ms.keywords: IMiniportAudioEngineNode interface [Audio Devices],SetGfxState method, IMiniportAudioEngineNode.SetGfxState, IMiniportAudioEngineNode::SetGfxState, SetGfxState, SetGfxState method [Audio Devices], SetGfxState method [Audio Devices],IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setgfxstate, portcls/IMiniportAudioEngineNode::SetGfxState
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.SetGfxState"
+ - "IMiniportAudioEngineNode.SetGfxState"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

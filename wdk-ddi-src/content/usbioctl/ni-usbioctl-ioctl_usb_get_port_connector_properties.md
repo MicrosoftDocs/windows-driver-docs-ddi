@@ -10,6 +10,7 @@ keywords: ["IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES IOCTL"]
 ms.keywords: IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code [Buses], buses.ioctl_usb_get_port_connector_properties, usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES"
+ - "IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

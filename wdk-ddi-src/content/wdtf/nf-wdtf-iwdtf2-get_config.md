@@ -10,6 +10,7 @@ keywords: ["IWDTF2::get_Config"]
 ms.keywords: Config property [Windows Device Testing Framework], Config property [Windows Device Testing Framework],IWDTF2 interface, IWDTF2 interface [Windows Device Testing Framework],Config property, IWDTF2.Config, IWDTF2.get_Config, IWDTF2::Config, IWDTF2::get_Config, Microsoft.WDTF.IWDTF2.Config, Microsoft::WDTF::IWDTF2::Config, dtf.iwdtf2_config, get_Config, wdtf/IWDTF2::Config, wdtf/IWDTF2::get_Config
 f1_keywords:
  - "wdtf/IWDTF2.Config"
+ - "IWDTF2.Config"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

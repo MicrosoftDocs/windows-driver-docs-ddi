@@ -10,6 +10,7 @@ keywords: ["SET_VIRTUAL_DEVICE_DATA callback"]
 ms.keywords: PCI.setvirtualfunctiondata, SET_VIRTUAL_DEVICE_DATA, SetVirtualFunctionData, SetVirtualFunctionData routine, wdm/SetVirtualFunctionData
 f1_keywords:
  - "wdm/SetVirtualFunctionData"
+ - "SetVirtualFunctionData"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

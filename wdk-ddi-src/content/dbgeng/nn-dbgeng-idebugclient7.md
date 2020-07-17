@@ -10,6 +10,7 @@ keywords: ["IDebugClient7 interface"]
 ms.keywords: IDebugClient7, IDebugClient7 interface [Windows Debugging], IDebugClient7 interface [Windows Debugging],described, dbgeng/IDebugClient7, debugger.idebugclient7
 f1_keywords:
  - "dbgeng/IDebugClient7"
+ - "IDebugClient7"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

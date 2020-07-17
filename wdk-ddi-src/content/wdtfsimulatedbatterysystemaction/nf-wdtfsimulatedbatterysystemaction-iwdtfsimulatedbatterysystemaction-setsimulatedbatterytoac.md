@@ -10,6 +10,7 @@ keywords: ["IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC"]
 ms.keywords: IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],SetSimulatedBatteryToAC method, IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC, SetSimulatedBatteryToAC, SetSimulatedBatteryToAC method [Windows Device Testing Framework], SetSimulatedBatteryToAC method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterytoac, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC
 f1_keywords:
  - "wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC"
+ - "IWDTFSimulatedBatterySystemAction.SetSimulatedBatteryToAC"
 req.header: wdtfsimulatedbatterysystemaction.h
 req.include-header: 
 req.target-type: Desktop

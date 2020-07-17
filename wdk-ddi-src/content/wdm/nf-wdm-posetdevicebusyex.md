@@ -10,6 +10,7 @@ keywords: ["PoSetDeviceBusyEx function"]
 ms.keywords: PoSetDeviceBusyEx, PoSetDeviceBusyEx routine [Kernel-Mode Driver Architecture], kernel.posetdevicebusyex, portn_62143669-4381-4b4b-8d23-8b315d882c65.xml, wdm/PoSetDeviceBusyEx
 f1_keywords:
  - "wdm/PoSetDeviceBusyEx"
+ - "PoSetDeviceBusyEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

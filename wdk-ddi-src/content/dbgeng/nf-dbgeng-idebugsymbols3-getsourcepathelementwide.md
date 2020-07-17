@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSourcePathElementWide"]
 ms.keywords: GetSourcePathElementWide, GetSourcePathElementWide method [Windows Debugging], GetSourcePathElementWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourcePathElementWide method, IDebugSymbols3.GetSourcePathElementWide, IDebugSymbols3::GetSourcePathElementWide, dbgeng/IDebugSymbols3::GetSourcePathElementWide, debugger.getsourcepathelementwide
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSourcePathElementWide"
+ - "IDebugSymbols3.GetSourcePathElementWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

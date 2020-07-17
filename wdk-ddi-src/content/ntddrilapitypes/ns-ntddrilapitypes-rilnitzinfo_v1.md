@@ -10,6 +10,7 @@ keywords: ["RILNITZINFO_V1 structure"]
 ms.keywords: "*LPRILNITZINFO_V1, RILNITZINFO_V1, RILNITZINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilnitzinfo_v1, ntddrilapitypes/RILNITZINFO_V1"
 f1_keywords:
  - "ntddrilapitypes/RILNITZINFO_V1"
+ - "RILNITZINFO_V1"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["UDECX_USB_ENDPOINT_CALLBACKS_INIT function"]
 ms.keywords: UDECX_USB_ENDPOINT_CALLBACKS_INIT, UDECX_USB_ENDPOINT_CALLBACKS_INIT method [Buses], buses.udecx_usb_endpoint_callbacks_init, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS_INIT
 f1_keywords:
  - "udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS_INIT"
+ - "UDECX_USB_ENDPOINT_CALLBACKS_INIT"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows

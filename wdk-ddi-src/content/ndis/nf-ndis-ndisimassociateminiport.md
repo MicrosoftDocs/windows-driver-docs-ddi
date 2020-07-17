@@ -10,6 +10,7 @@ keywords: ["NdisIMAssociateMiniport function"]
 ms.keywords: NdisIMAssociateMiniport, NdisIMAssociateMiniport function [Network Drivers Starting with Windows Vista], intermediate_ref_2f9545a6-262c-4347-b192-16ea23314410.xml, ndis/NdisIMAssociateMiniport, netvista.ndisimassociateminiport
 f1_keywords:
  - "ndis/NdisIMAssociateMiniport"
+ - "NdisIMAssociateMiniport"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

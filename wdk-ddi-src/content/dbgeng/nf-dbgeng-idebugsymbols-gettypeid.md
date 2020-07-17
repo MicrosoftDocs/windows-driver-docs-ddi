@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols::GetTypeId"]
 ms.keywords: GetTypeId, GetTypeId method [Windows Debugging], GetTypeId method [Windows Debugging],IDebugSymbols interface, GetTypeId method [Windows Debugging],IDebugSymbols2 interface, GetTypeId method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetTypeId method, IDebugSymbols.GetTypeId, IDebugSymbols2 interface [Windows Debugging],GetTypeId method, IDebugSymbols2::GetTypeId, IDebugSymbols3 interface [Windows Debugging],GetTypeId method, IDebugSymbols3::GetTypeId, IDebugSymbols::GetTypeId, IDebugSymbols_cf0d81fd-9bd1-4b90-a7d5-99f1cb225036.xml, dbgeng/IDebugSymbols2::GetTypeId, dbgeng/IDebugSymbols3::GetTypeId, dbgeng/IDebugSymbols::GetTypeId, debugger.gettypeid
 f1_keywords:
  - "dbgeng/IDebugSymbols.GetTypeId"
+ - "IDebugSymbols.GetTypeId"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

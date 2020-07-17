@@ -10,6 +10,7 @@ keywords: ["ExtExtension::GetUnnamedArgU64"]
 ms.keywords: EngExtCpp_Ref_94c8c0d8-bc72-4357-bcba-f2e8598aabff.xml, ExtExtension class [Windows Debugging],GetUnnamedArgU64 method, ExtExtension.GetUnnamedArgU64, ExtExtension::GetUnnamedArgU64, GetUnnamedArgU64, GetUnnamedArgU64 method [Windows Debugging], GetUnnamedArgU64 method [Windows Debugging],ExtExtension class, debugger.getunnamedargu64
 f1_keywords:
  - "engextcpp/ExtExtension.GetUnnamedArgU64"
+ - "ExtExtension.GetUnnamedArgU64"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

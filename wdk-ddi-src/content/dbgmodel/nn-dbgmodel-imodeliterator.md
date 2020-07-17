@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["IModelIterator interface"]
 f1_keywords:
  - "dbgmodel/IModelIterator"
+ - "IModelIterator"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

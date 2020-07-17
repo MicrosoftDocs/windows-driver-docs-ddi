@@ -10,6 +10,7 @@ keywords: ["IoWritePartitionTableEx function"]
 ms.keywords: IoWritePartitionTableEx, IoWritePartitionTableEx routine [Storage Devices], ntddk/IoWritePartitionTableEx, rtns-disk_b84c8b07-5cdc-4e39-964f-a8f6b28e7346.xml, storage.iowritepartitiontableex
 f1_keywords:
  - "ntddk/IoWritePartitionTableEx"
+ - "IoWritePartitionTableEx"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

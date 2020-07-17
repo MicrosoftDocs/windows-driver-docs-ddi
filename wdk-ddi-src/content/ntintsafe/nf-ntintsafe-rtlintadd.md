@@ -10,6 +10,7 @@ keywords: ["RtlIntAdd function"]
 ms.keywords: RtlIntAdd, RtlIntAdd function [Kernel-Mode Driver Architecture], kernel.rtlintadd, ntintsafe/RtlIntAdd
 f1_keywords:
  - "ntintsafe/RtlIntAdd"
+ - "RtlIntAdd"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

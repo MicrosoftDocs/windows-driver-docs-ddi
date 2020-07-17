@@ -10,6 +10,7 @@ keywords: ["WRITE_REGISTER_ULONG64 function"]
 ms.keywords: WRITE_REGISTER_ULONG64, WRITE_REGISTER_ULONG64 function, umdf.write_register_ulong64, wdf.write_register_ulong64, wudfddi_hwaccess/WRITE_REGISTER_ULONG64
 f1_keywords:
  - "wdm/WRITE_REGISTER_ULONG64"
+ - "WRITE_REGISTER_ULONG64"
 req.header: wdm.h
 req.include-header: Wdm.h, Miniport.h, Wudfwdm.h
 req.target-type: Desktop

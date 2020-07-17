@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3COLD_REQUEST_CORE_POWER_RAIL callback function"]
 f1_keywords:
  - "wdm/D3COLD_REQUEST_CORE_POWER_RAIL"
+ - "D3COLD_REQUEST_CORE_POWER_RAIL"
 req.header: wdm.h
 req.include-header:
 req.target-type:

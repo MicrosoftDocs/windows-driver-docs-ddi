@@ -9,6 +9,7 @@ keywords: ["D3DKMTCreateHwQueue function"]
 ms.keywords: D3DKMTCreateHwQueue, D3DKMTCreateHwQueue method [Display Devices], d3dkmthk/D3DKMTCreateHwQueue, display.d3dkmtcreatehwqueue
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateHwQueue"
+ - "D3DKMTCreateHwQueue"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

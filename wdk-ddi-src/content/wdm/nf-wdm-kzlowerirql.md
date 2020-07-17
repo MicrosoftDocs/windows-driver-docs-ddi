@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["KzLowerIrql function"]
 f1_keywords:
  - "wdm/KzLowerIrql"
+ - "KzLowerIrql"
 ms.keywords: KzLowerIrql, KeLowerIrql
 req.header: wdm.h
 req.include-header:

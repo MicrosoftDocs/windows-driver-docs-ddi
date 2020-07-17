@@ -10,6 +10,7 @@ keywords: ["SdpCreateNodeAlternative function"]
 ms.keywords: SdpCreateNodeAlternative, SdpCreateNodeAlternative function [Bluetooth Devices], bltooth.sdpcreatenodealternative, bth_funcs_e54ab424-3fbf-479a-9368-51d824c1fbec.xml, sdplib/SdpCreateNodeAlternative
 f1_keywords:
  - "sdplib/SdpCreateNodeAlternative"
+ - "SdpCreateNodeAlternative"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

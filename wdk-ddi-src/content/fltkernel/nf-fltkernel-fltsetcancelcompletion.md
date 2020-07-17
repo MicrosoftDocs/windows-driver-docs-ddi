@@ -10,6 +10,7 @@ keywords: ["FltSetCancelCompletion function"]
 ms.keywords: FltApiRef_p_to_z_36fb8e4e-a50b-4b9c-a208-9d6189f5b5a7.xml, FltSetCancelCompletion, FltSetCancelCompletion routine [Installable File System Drivers], fltkernel/FltSetCancelCompletion, ifsk.fltsetcancelcompletion
 f1_keywords:
  - "fltkernel/FltSetCancelCompletion"
+ - "FltSetCancelCompletion"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

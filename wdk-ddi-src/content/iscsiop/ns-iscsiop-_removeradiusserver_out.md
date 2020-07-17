@@ -10,6 +10,7 @@ keywords: ["_RemoveRADIUSServer_OUT structure"]
 ms.keywords: "*PRemoveRADIUSServer_OUT, PRemoveRADIUSServer_OUT, PRemoveRADIUSServer_OUT structure pointer [Storage Devices], RemoveRADIUSServer_OUT, RemoveRADIUSServer_OUT structure [Storage Devices], _RemoveRADIUSServer_OUT, iscsiop/PRemoveRADIUSServer_OUT, iscsiop/RemoveRADIUSServer_OUT, storage.removeradiusserver_out, structs-iSCSI_dea5813a-b7e8-4702-af57-f7a40360efb9.xml"
 f1_keywords:
  - "iscsiop/RemoveRADIUSServer_OUT"
+ - "RemoveRADIUSServer_OUT"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

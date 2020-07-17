@@ -10,6 +10,7 @@ keywords: ["CcSetDirtyPageThreshold function"]
 ms.keywords: CcSetDirtyPageThreshold, CcSetDirtyPageThreshold routine [Installable File System Drivers], ccref_df331e54-32a2-4a09-a1e6-7c1d69b2abcf.xml, ifsk.ccsetdirtypagethreshold, ntifs/CcSetDirtyPageThreshold
 f1_keywords:
  - "ntifs/CcSetDirtyPageThreshold"
+ - "CcSetDirtyPageThreshold"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

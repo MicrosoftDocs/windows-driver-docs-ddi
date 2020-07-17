@@ -10,6 +10,7 @@ keywords: ["WdfDeviceIndicateWakeStatus function"]
 ms.keywords: DFDeviceObjectGeneralRef_8b314bb3-74d4-4ef6-b1a0-f45fb498c468.xml, WdfDeviceIndicateWakeStatus, WdfDeviceIndicateWakeStatus method, kmdf.wdfdeviceindicatewakestatus, wdf.wdfdeviceindicatewakestatus, wdfdevice/WdfDeviceIndicateWakeStatus
 f1_keywords:
  - "wdfdevice/WdfDeviceIndicateWakeStatus"
+ - "WdfDeviceIndicateWakeStatus"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

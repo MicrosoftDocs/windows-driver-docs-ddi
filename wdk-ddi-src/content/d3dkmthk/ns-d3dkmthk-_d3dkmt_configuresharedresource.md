@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CONFIGURESHAREDRESOURCE structure"]
 ms.keywords: D3DKMT_CONFIGURESHAREDRESOURCE, D3DKMT_CONFIGURESHAREDRESOURCE structure [Display Devices], OpenGL_Structs_ae687fae-f425-4a9b-8426-ee3cc02c8170.xml, _D3DKMT_CONFIGURESHAREDRESOURCE, d3dkmthk/D3DKMT_CONFIGURESHAREDRESOURCE, display.d3dkmt_configuresharedresource
 f1_keywords:
  - "d3dkmthk/D3DKMT_CONFIGURESHAREDRESOURCE"
+ - "D3DKMT_CONFIGURESHAREDRESOURCE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

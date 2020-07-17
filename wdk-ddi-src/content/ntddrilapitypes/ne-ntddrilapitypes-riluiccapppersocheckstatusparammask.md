@@ -10,6 +10,7 @@ keywords: ["RILUICCAPPPERSOCHECKSTATUSPARAMMASK enumeration"]
 ms.keywords: RILUICCAPPPERSOCHECKSTATUSPARAMMASK, RILUICCAPPPERSOCHECKSTATUSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UAPCS_ALL, RIL_PARAM_UAPCS_PERSOCHECKSTATE, RIL_PARAM_UAPCS_PERSOFEATURE, netvista.riluiccapppersocheckstatusparammask, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUSPARAMMASK, ntddrilapitypes/RIL_PARAM_UAPCS_ALL, ntddrilapitypes/RIL_PARAM_UAPCS_PERSOCHECKSTATE, ntddrilapitypes/RIL_PARAM_UAPCS_PERSOFEATURE
 f1_keywords:
  - "ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUSPARAMMASK"
+ - "RILUICCAPPPERSOCHECKSTATUSPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

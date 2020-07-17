@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBC_PARTNER enumeration"]
 f1_keywords:
  - "usbctypes/_USBC_PARTNER"
+ - "_USBC_PARTNER"
 ms.keywords: _USBC_PARTNER, USBC_PARTNER, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h

@@ -10,6 +10,7 @@ keywords: ["CWiaLogProc::CWiaLogProc"]
 ms.keywords: CWiaLogProc, CWiaLogProc interface [Imaging Devices],CWiaLogProc method, CWiaLogProc method [Imaging Devices], CWiaLogProc method [Imaging Devices],CWiaLogProc interface, CWiaLogProc.CWiaLogProc, CWiaLogProc::CWiaLogProc, image.cwialogproc_cwialogproc, wiamdef/CWiaLogProc::CWiaLogProc
 f1_keywords:
  - "wiamdef/CWiaLogProc.CWiaLogProc"
+ - "CWiaLogProc.CWiaLogProc"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE callback function"]
 ms.keywords: PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE, PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE callback, ProtocolClIncomingCallQoSChange, ProtocolClIncomingCallQoSChange callback function [Network Drivers Starting with Windows Vista], condis_client_ref_09f3fdc8-cdc0-4b49-82c2-bd5816c9d5a9.xml, ndis/ProtocolClIncomingCallQoSChange, netvista.protocolclincomingcallqoschange
 f1_keywords:
  - "ndis/ProtocolClIncomingCallQoSChange"
+ - "ProtocolClIncomingCallQoSChange"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

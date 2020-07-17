@@ -9,6 +9,7 @@ keywords: ["D3DKMTCreateProtectedSession function"]
 ms.keywords: D3DKMTCreateProtectedSession, D3DKMTCreateProtectedSession method [Display Devices], d3dkmthk/D3DKMTCreateProtectedSession, display.d3dkmtcreateprotectedsession
 f1_keywords:
  - "d3dkmthk/D3DKMTCreateProtectedSession"
+ - "D3DKMTCreateProtectedSession"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

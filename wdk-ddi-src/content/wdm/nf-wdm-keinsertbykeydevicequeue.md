@@ -10,6 +10,7 @@ keywords: ["KeInsertByKeyDeviceQueue function"]
 ms.keywords: KeInsertByKeyDeviceQueue, KeInsertByKeyDeviceQueue routine [Kernel-Mode Driver Architecture], k105_14a9196c-2ce0-4384-9e72-b957523f49b6.xml, kernel.keinsertbykeydevicequeue, wdm/KeInsertByKeyDeviceQueue
 f1_keywords:
  - "wdm/KeInsertByKeyDeviceQueue"
+ - "KeInsertByKeyDeviceQueue"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

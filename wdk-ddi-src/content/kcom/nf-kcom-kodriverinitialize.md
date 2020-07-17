@@ -10,6 +10,7 @@ keywords: ["KoDriverInitialize function"]
 ms.keywords: KoDriverInitialize, KoDriverInitialize function [Streaming Media Devices], kcom/KoDriverInitialize, ksfunc_117817ed-5a64-48c4-8b90-1ca6435c75b6.xml, stream.kodriverinitialize
 f1_keywords:
  - "kcom/KoDriverInitialize"
+ - "KoDriverInitialize"
 req.header: kcom.h
 req.include-header: Kcom.h
 req.target-type: Universal

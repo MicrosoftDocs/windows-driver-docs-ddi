@@ -10,6 +10,7 @@ keywords: ["UMDEtwLogUnmapAllocation function"]
 ms.keywords: UMDEtwLogUnmapAllocation, UMDEtwLogUnmapAllocation function [Display Devices], display.umdetwlogunmapallocation, umdprovider/UMDEtwLogUnmapAllocation
 f1_keywords:
  - "umdprovider/UMDEtwLogUnmapAllocation"
+ - "UMDEtwLogUnmapAllocation"
 req.header: umdprovider.h
 req.include-header: Umdprovider.h
 req.target-type: Desktop

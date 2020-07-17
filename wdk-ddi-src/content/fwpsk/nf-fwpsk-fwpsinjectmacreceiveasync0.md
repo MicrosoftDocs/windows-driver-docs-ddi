@@ -10,6 +10,7 @@ keywords: ["FwpsInjectMacReceiveAsync0 function"]
 ms.keywords: FwpsInjectMacReceiveAsync0, FwpsInjectMacReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectMacReceiveAsync0, netvista.fwpsinjectmacreceiveasync0
 f1_keywords:
  - "fwpsk/FwpsInjectMacSendAsync0"
+ - "FwpsInjectMacSendAsync0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

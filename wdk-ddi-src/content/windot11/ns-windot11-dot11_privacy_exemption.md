@@ -10,6 +10,7 @@ keywords: ["DOT11_PRIVACY_EXEMPTION structure"]
 ms.keywords: "*PDOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_8dd63374-57b1-4dc8-9dca-76dcc5ade9fd.xml, PDOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_privacy_exemption, windot11/DOT11_PRIVACY_EXEMPTION, windot11/PDOT11_PRIVACY_EXEMPTION"
 f1_keywords:
  - "windot11/DOT11_PRIVACY_EXEMPTION"
+ - "DOT11_PRIVACY_EXEMPTION"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

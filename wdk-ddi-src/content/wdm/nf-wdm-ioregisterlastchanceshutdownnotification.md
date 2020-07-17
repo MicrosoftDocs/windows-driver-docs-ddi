@@ -10,6 +10,7 @@ keywords: ["IoRegisterLastChanceShutdownNotification function"]
 ms.keywords: IoRegisterLastChanceShutdownNotification, IoRegisterLastChanceShutdownNotification routine [Kernel-Mode Driver Architecture], k104_233a75d7-252b-45e3-a980-bda55edd3fdc.xml, kernel.ioregisterlastchanceshutdownnotification, wdm/IoRegisterLastChanceShutdownNotification
 f1_keywords:
  - "wdm/IoRegisterLastChanceShutdownNotification"
+ - "IoRegisterLastChanceShutdownNotification"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

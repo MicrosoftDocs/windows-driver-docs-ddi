@@ -7,6 +7,7 @@ ms.date: 11/21/2018
 keywords: ["D3DKMTEnumAdapters2 function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTEnumAdapters2"
+ - "D3DKMTEnumAdapters2"
 ms.keywords: D3DKMTEnumAdapters2
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

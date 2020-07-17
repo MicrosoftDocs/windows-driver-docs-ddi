@@ -10,6 +10,7 @@ keywords: ["KeRaiseIrql macro"]
 ms.keywords: KeRaiseIrql, KeRaiseIrql routine [Kernel-Mode Driver Architecture], k105_66b09c47-8f95-41ee-8432-5784f306ad62.xml, kernel.keraiseirql, wdm/KeRaiseIrql
 f1_keywords:
  - "wdm/KeRaiseIrql"
+ - "KeRaiseIrql"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

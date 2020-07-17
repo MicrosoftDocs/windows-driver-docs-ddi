@@ -10,6 +10,7 @@ keywords: ["WdfChildListBeginIteration function"]
 ms.keywords: DFDeviceObjectChildListRef_98150ed0-3144-4fda-96ca-41573d3013bf.xml, WdfChildListBeginIteration, WdfChildListBeginIteration method, kmdf.wdfchildlistbeginiteration, wdf.wdfchildlistbeginiteration, wdfchildlist/WdfChildListBeginIteration
 f1_keywords:
  - "wdfchildlist/WdfChildListBeginIteration"
+ - "WdfChildListBeginIteration"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

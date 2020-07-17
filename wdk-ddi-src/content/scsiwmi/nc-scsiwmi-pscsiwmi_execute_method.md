@@ -10,6 +10,7 @@ keywords: ["PSCSIWMI_EXECUTE_METHOD callback function"]
 ms.keywords: HwScsiWmiExecuteMethod, HwScsiWmiExecuteMethod callback function [Storage Devices], PSCSIWMI_EXECUTE_METHOD, PSCSIWMI_EXECUTE_METHOD callback, Scsimini_a0b3e943-a363-478d-9d68-09acf0c5b591.xml, scsiwmi/HwScsiWmiExecuteMethod, storage.hwscsiwmiexecutemethod
 f1_keywords:
  - "scsiwmi/HwScsiWmiExecuteMethod"
+ - "HwScsiWmiExecuteMethod"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Desktop

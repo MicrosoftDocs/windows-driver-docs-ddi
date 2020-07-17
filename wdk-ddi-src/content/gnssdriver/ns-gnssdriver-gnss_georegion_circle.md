@@ -10,6 +10,7 @@ keywords: ["GNSS_GEOREGION_CIRCLE structure"]
 ms.keywords: "*PGNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE structure [Sensor Devices], PGNSS_GEOREGION_CIRCLE, PGNSS_GEOREGION_CIRCLE structure pointer [Sensor Devices], gnss.gnss_georegion_circle, gnssdriver/GNSS_GEOREGION_CIRCLE, gnssdriver/PGNSS_GEOREGION_CIRCLE"
 f1_keywords:
  - "gnssdriver/GNSS_GEOREGION_CIRCLE"
+ - "GNSS_GEOREGION_CIRCLE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

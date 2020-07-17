@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/pfnCreateSynchronizationObject2Cb"
+ - "pfnCreateSynchronizationObject2Cb"
 topic_type:
  - APIRef
  - kbSyntax

@@ -10,6 +10,7 @@ keywords: ["IOCTL_SERIAL_SET_QUEUE_SIZE IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_QUEUE_SIZE, IOCTL_SERIAL_SET_QUEUE_SIZE control, IOCTL_SERIAL_SET_QUEUE_SIZE control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_QUEUE_SIZE, serports.ioctl_serial_set_queue_size, serref_52ce370d-5e55-4a48-a7d2-87da706bb4e7.xml
 f1_keywords:
  - "ntddser/IOCTL_SERIAL_SET_QUEUE_SIZE"
+ - "IOCTL_SERIAL_SET_QUEUE_SIZE"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

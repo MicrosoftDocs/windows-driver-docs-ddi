@@ -10,6 +10,7 @@ keywords: ["IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent"]
 ms.keywords: IRemoteInterfaceCallbackEvent interface,OnRemoteInterfaceEvent method, IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent, IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent, OnRemoteInterfaceEvent, OnRemoteInterfaceEvent method, OnRemoteInterfaceEvent method,IRemoteInterfaceCallbackEvent interface, UMDFIoTargetObjectRef_4adfa540-b8f4-416f-b8c2-f0aec6e87619.xml, umdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, wdf.iremoteinterfacecallbackevent_onremoteinterfaceevent, wudfddi/IRemoteInterfaceCallbackEvent::OnRemoteInterfaceEvent
 f1_keywords:
  - "wudfddi/IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent"
+ - "IRemoteInterfaceCallbackEvent.OnRemoteInterfaceEvent"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

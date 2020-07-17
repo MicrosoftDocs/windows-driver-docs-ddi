@@ -10,6 +10,7 @@ keywords: ["IStiDevice::UnLockDevice"]
 ms.keywords: IStiDevice interface [Imaging Devices],UnLockDevice method, IStiDevice.UnLockDevice, IStiDevice::UnLockDevice, UnLockDevice, UnLockDevice method [Imaging Devices], UnLockDevice method [Imaging Devices],IStiDevice interface, image.istidevice_unlockdevice, sti/IStiDevice::UnLockDevice, stifnc_7f72c1a7-41cd-4191-8c8f-390dfc991246.xml
 f1_keywords:
  - "sti/IStiDevice.UnLockDevice"
+ - "IStiDevice.UnLockDevice"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

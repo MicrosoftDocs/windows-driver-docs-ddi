@@ -10,6 +10,7 @@ keywords: ["IWDFDriverCreatedFile interface"]
 ms.keywords: IWDFDriverCreatedFile, IWDFDriverCreatedFile interface, IWDFDriverCreatedFile interface,described, UMDFDriverCreatedFileObjectRef_5299de07-06ff-484c-a60f-4abe8828a725.xml, umdf.iwdfdrivercreatedfile, wdf.iwdfdrivercreatedfile, wudfddi/IWDFDriverCreatedFile
 f1_keywords:
  - "wudfddi/IWDFDriverCreatedFile"
+ - "IWDFDriverCreatedFile"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

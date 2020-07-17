@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugVariableSetEnumerator::Reset"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugVariableSetEnumerator.Reset"
+ - "IDataModelScriptDebugVariableSetEnumerator.Reset"
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::Reset, Reset, IDataModelScriptDebugVariableSetEnumerator.Reset, IDataModelScriptDebugVariableSetEnumerator::Reset, IDataModelScriptDebugVariableSetEnumerator.Reset
 req.header: dbgmodel.h
 req.include-header:

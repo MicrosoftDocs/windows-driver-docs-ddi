@@ -10,6 +10,7 @@ keywords: ["WMI_EXECUTE_METHOD_CALLBACK callback function"]
 ms.keywords: DpWmiExecuteMethod, DpWmiExecuteMethod callback function [Kernel-Mode Driver Architecture], WMI_EXECUTE_METHOD_CALLBACK, WMI_EXECUTE_METHOD_CALLBACK callback, k903_b641484a-8f32-440d-8efc-76293ddeec2c.xml, kernel.dpwmiexecutemethod, wmilib/DpWmiExecuteMethod
 f1_keywords:
  - "wmilib/DpWmiExecuteMethod"
+ - "DpWmiExecuteMethod"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Desktop

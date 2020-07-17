@@ -10,6 +10,7 @@ keywords: ["_HPMI_BATTERY_UTILIZATION_HINT structure"]
 ms.keywords: "*PHPMI_BATTERY_UTILIZATION_HINT, HPMI_BATTERY_UTILIZATION_HINT, HPMI_BATTERY_UTILIZATION_HINT structure [Power Metering and Budgeting Devices], PHPMI_BATTERY_UTILIZATION_HINT, PHPMI_BATTERY_UTILIZATION_HINT structure pointer [Power Metering and Budgeting Devices], _HPMI_BATTERY_UTILIZATION_HINT, hpmi/HPMI_BATTERY_UTILIZATION_HINT, hpmi/PHPMI_BATTERY_UTILIZATION_HINT, powermeter.hpmi_battery_utilization_hint"
 f1_keywords:
  - "hpmi/HPMI_BATTERY_UTILIZATION_HINT"
+ - "HPMI_BATTERY_UTILIZATION_HINT"
 req.header: hpmi.h
 req.include-header: 
 req.target-type: Windows

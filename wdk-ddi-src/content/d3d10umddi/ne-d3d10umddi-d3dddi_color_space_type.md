@@ -25,6 +25,7 @@ targetos: Windows
 ms.custom: D3D_UMD_INTERFACE_VERSION_WDDM2_0, 19H1
 f1_keywords:
  - "d3d10umddi/D3DDDI_COLOR_SPACE_TYPE"
+ - "D3DDDI_COLOR_SPACE_TYPE"
 topic_type:
  - apiref
 api_type:

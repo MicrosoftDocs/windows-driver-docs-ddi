@@ -10,6 +10,7 @@ ms.date: 02/01/2019
 keywords: ["_DXGK_NODEMETADATA structure"]
 f1_keywords:
  - "d3dkmdt/_DXGK_NODEMETADATA"
+ - "_DXGK_NODEMETADATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_NODEMETADATA, DXGK_NODEMETADATA, DXGKARG_GETNODEMETADATA

@@ -10,6 +10,7 @@ keywords: ["NdisWriteErrorLogEntry function"]
 ms.keywords: NdisWriteErrorLogEntry, NdisWriteErrorLogEntry function [Network Drivers Starting with Windows Vista], miniport_logging_ref_754f8e03-f922-4e6d-b2ef-20fb8027b645.xml, ndis/NdisWriteErrorLogEntry, netvista.ndiswriteerrorlogentry
 f1_keywords:
  - "ndis/NdisWriteErrorLogEntry"
+ - "NdisWriteErrorLogEntry"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

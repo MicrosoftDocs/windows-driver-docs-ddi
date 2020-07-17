@@ -10,6 +10,7 @@ keywords: ["ClfsMgmtSetLogFileSizeAsClient function"]
 ms.keywords: ClfsMgmtSetLogFileSizeAsClient, ClfsMgmtSetLogFileSizeAsClient , ClfsMgmtSetLogFileSizeAsClient routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtsetlogfilesizeasclient_, wdm/ClfsMgmtSetLogFileSizeAsClient
 f1_keywords:
  - "wdm/ClfsMgmtSetLogFileSizeAsClient"
+ - "ClfsMgmtSetLogFileSizeAsClient"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Desktop

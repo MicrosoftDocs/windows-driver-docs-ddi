@@ -10,6 +10,7 @@ keywords: ["EtwUnregister function"]
 ms.keywords: EtwUnregister, EtwUnregister function [Driver Development Tools], devtest.etwunregister, etw_km_04787c1b-049f-4b92-b75c-3da660d51164.xml, wdm/EtwUnregister
 f1_keywords:
  - "wdm/EtwUnregister"
+ - "EtwUnregister"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

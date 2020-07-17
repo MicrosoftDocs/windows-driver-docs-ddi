@@ -10,6 +10,7 @@ keywords: ["NDK_FN_CONNECT_EVENT_CALLBACK callback function"]
 ms.keywords: NDK_FN_CONNECT_EVENT_CALLBACK, NDK_FN_CONNECT_EVENT_CALLBACK callback, NdkConnectEventCallback, NdkConnectEventCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkConnectEventCallback, netvista.ndk_fn_connect_event_callback
 f1_keywords:
  - "ndkpi/NdkConnectEventCallback"
+ - "NdkConnectEventCallback"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

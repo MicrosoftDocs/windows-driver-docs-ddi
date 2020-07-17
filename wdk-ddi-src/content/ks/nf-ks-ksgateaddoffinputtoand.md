@@ -10,6 +10,7 @@ keywords: ["KsGateAddOffInputToAnd function"]
 ms.keywords: KsGateAddOffInputToAnd, KsGateAddOffInputToAnd function [Streaming Media Devices], avfunc_52efe27b-d77a-490d-beba-3a05b3d5ed83.xml, ks/KsGateAddOffInputToAnd, stream.ksgateaddoffinputtoand
 f1_keywords:
  - "ks/KsGateAddOffInputToAnd"
+ - "KsGateAddOffInputToAnd"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

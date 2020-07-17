@@ -10,6 +10,7 @@ keywords: ["imp_WppRecorderIsDefaultLogAvailable function"]
 ms.keywords: WppRecorderIsDefaultLogAvailable, devtest.wpprecorderisdefaultlogavailable, imp_WppRecorderIsDefaultLogAvailable, imp_WppRecorderIsDefaultLogAvailable function [Driver Development Tools], wpprecorder/imp_WppRecorderIsDefaultLogAvailable
 f1_keywords:
  - "wpprecorder/imp_WppRecorderIsDefaultLogAvailable"
+ - "imp_WppRecorderIsDefaultLogAvailable"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Desktop

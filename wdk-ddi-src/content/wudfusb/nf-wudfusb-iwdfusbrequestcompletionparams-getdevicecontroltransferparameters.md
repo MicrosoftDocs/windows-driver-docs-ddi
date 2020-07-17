@@ -10,6 +10,7 @@ keywords: ["IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters"]
 ms.keywords: GetDeviceControlTransferParameters, GetDeviceControlTransferParameters method, GetDeviceControlTransferParameters method,IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams interface,GetDeviceControlTransferParameters method, IWDFUsbRequestCompletionParams.GetDeviceControlTransferParameters, IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters, UMDFRequestObjectRef_b645716e-2ec3-45f3-a3b2-199374aadef8.xml, umdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, wdf.iwdfusbrequestcompletionparams_getdevicecontroltransferparameters, wudfusb/IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters
 f1_keywords:
  - "wudfusb/IWDFUsbRequestCompletionParams.GetDeviceControlTransferParameters"
+ - "IWDFUsbRequestCompletionParams.GetDeviceControlTransferParameters"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

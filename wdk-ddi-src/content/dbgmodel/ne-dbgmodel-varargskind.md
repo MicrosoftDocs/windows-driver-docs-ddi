@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["VarArgsKind enumeration"]
 f1_keywords:
  - "dbgmodel/VarArgsKind"
+ - "VarArgsKind"
 ms.keywords: VarArgsKind, , 
 req.header: dbgmodel.h
 req.include-header:

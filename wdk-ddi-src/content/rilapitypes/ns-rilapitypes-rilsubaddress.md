@@ -10,6 +10,7 @@ keywords: ["RILSUBADDRESS structure"]
 ms.keywords: "*LPRILSUBADDRESS, RILSUBADDRESS, RILSUBADDRESS structure [Network Drivers Starting with Windows Vista], netvista.rilsubaddress, ntddrilapitypes/RILSUBADDRESS"
 f1_keywords:
  - "rilapitypes/RILSUBADDRESS"
+ - "RILSUBADDRESS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

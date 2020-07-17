@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_VIDPN_TARGET_MODE structure"]
 ms.keywords: D3DKMDT_VIDPN_TARGET_MODE, D3DKMDT_VIDPN_TARGET_MODE structure [Display Devices], DmStructs_a1ac1f39-cd89-458b-95b5-91fd5cbc507e.xml, _D3DKMDT_VIDPN_TARGET_MODE, d3dkmdt/D3DKMDT_VIDPN_TARGET_MODE, display.d3dkmdt_vidpn_target_mode
 f1_keywords:
  - "d3dkmdt/D3DKMDT_VIDPN_TARGET_MODE"
+ - "D3DKMDT_VIDPN_TARGET_MODE"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

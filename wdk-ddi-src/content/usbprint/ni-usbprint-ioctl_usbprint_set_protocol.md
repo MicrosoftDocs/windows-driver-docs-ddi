@@ -10,6 +10,7 @@ ms.date: 04/03/2019
 keywords: ["IOCTL_USBPRINT_SET_PROTOCOL IOCTL"]
 f1_keywords:
  - "usbprint/IOCTL_USBPRINT_SET_PROTOCOL"
+ - "IOCTL_USBPRINT_SET_PROTOCOL"
 ms.custom: 19H1
 req.header: usbprint.h
 req.include-header:

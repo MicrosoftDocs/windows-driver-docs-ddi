@@ -10,6 +10,7 @@ keywords: ["_SRIOV_INVALIDATE_BLOCK structure"]
 ms.keywords: "*PSRIOV_INVALIDATE_BLOCK, PCI.sriov_invalidate_block, SRIOV_INVALIDATE_BLOCK, SRIOV_INVALIDATE_BLOCK structure [Buses], _SRIOV_INVALIDATE_BLOCK, pcivirt/SRIOV_INVALIDATE_BLOCK"
 f1_keywords:
  - "pcivirt/SRIOV_INVALIDATE_BLOCK"
+ - "SRIOV_INVALIDATE_BLOCK"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

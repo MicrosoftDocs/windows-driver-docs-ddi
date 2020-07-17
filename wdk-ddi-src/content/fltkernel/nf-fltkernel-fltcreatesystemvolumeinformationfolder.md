@@ -10,6 +10,7 @@ keywords: ["FltCreateSystemVolumeInformationFolder function"]
 ms.keywords: FltApiRef_a_to_d_cceaf5ba-8497-4026-94af-8b59afe9c24d.xml, FltCreateSystemVolumeInformationFolder, FltCreateSystemVolumeInformationFolder function [Installable File System Drivers], fltkernel/FltCreateSystemVolumeInformationFolder, ifsk.fltcreatesystemvolumeinformationfolder
 f1_keywords:
  - "fltkernel/FltCreateSystemVolumeInformationFolder"
+ - "FltCreateSystemVolumeInformationFolder"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

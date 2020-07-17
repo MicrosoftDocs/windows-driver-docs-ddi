@@ -10,6 +10,7 @@ keywords: ["_SRBEX_DATA structure"]
 ms.keywords: "*PSRBEX_DATA, PSRBEX_DATA, PSRBEX_DATA structure pointer [Storage Devices], SRBEX_DATA, SRBEX_DATA structure [Storage Devices], SrbExDataTypeBidirectional, SrbExDataTypeIoInfo, SrbExDataTypePnp, SrbExDataTypePower, SrbExDataTypeScsiCdb16, SrbExDataTypeScsiCdb32, SrbExDataTypeScsiCdbVar, SrbExDataTypeUnknown, SrbExDataTypeWmi, _SRBEX_DATA, storage.srbex_data, storport/PSRBEX_DATA, storport/SRBEX_DATA"
 f1_keywords:
  - "srb/SRBEX_DATA"
+ - "SRBEX_DATA"
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows

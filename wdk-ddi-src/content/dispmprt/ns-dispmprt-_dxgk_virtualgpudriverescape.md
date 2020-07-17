@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGK_VIRTUALGPUDRIVERESCAPE structure"]
 f1_keywords:
  - "dispmprt/_DXGK_VIRTUALGPUDRIVERESCAPE"
+ - "_DXGK_VIRTUALGPUDRIVERESCAPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_VIRTUALGPUDRIVERESCAPE, DXGK_VIRTUALGPUDRIVERESCAPE, *PDXGK_VIRTUALGPUDRIVERESCAPE, 

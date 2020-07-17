@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOMMU_MAP_LOGICAL_RANGE callback function"]
 f1_keywords:
  - "wdm/IOMMU_MAP_LOGICAL_RANGE"
+ - "IOMMU_MAP_LOGICAL_RANGE"
 req.header: wdm.h
 req.include-header:
 req.target-type:

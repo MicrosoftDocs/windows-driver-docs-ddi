@@ -10,6 +10,7 @@ keywords: ["WdmlibIoValidateDeviceIoControlAccess function"]
 ms.keywords: FILE_READ_ACCESS, FILE_WRITE_ACCESS, IoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], kernel.wdmlibiovalidatedeviceiocontrolaccess, wdmsec/IoValidateDeviceIoControlAccess, wdmsec/WdmlibIoValidateDeviceIoControlAccess, IoValidateDeviceIoControlAccess
 f1_keywords:
  - "wdmsec/WdmlibIoValidateDeviceIoControlAccess"
+ - "WdmlibIoValidateDeviceIoControlAccess"
 req.header: wdmsec.h
 req.include-header: Wdmsec.h, Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

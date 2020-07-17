@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_DECODEEXTENSIONEXECUTE structure"]
 ms.keywords: D3DDDIARG_DECODEEXTENSIONEXECUTE, D3DDDIARG_DECODEEXTENSIONEXECUTE structure [Display Devices], UMDisplayDriver_param_Structs_f1b48d7e-6774-465e-99fd-29aaaf0726e1.xml, _D3DDDIARG_DECODEEXTENSIONEXECUTE, d3dumddi/D3DDDIARG_DECODEEXTENSIONEXECUTE, display.d3dddiarg_decodeextensionexecute
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DECODEEXTENSIONEXECUTE"
+ - "D3DDDIARG_DECODEEXTENSIONEXECUTE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

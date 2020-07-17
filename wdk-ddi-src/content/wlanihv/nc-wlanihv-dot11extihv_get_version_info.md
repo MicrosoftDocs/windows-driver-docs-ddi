@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_GET_VERSION_INFO callback"]
 ms.keywords: DOT11EXTIHV_GET_VERSION_INFO, Dot11ExtIhvGetVersionInfo, Dot11ExtIhvGetVersionInfo callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_1b6acc66-1f69-45c3-8596-3f0c96e21a91.xml, netvista.dot11extihvgetversioninfo, wlanihv/Dot11ExtIhvGetVersionInfo
 f1_keywords:
  - "wlanihv/Dot11ExtIhvGetVersionInfo"
+ - "Dot11ExtIhvGetVersionInfo"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

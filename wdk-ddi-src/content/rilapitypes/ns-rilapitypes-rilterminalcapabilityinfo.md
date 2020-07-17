@@ -10,6 +10,7 @@ keywords: ["RILTERMINALCAPABILITYINFO structure"]
 ms.keywords: "*LPRILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO, RILTERMINALCAPABILITYINFO structure [Network Drivers Starting with Windows Vista], netvista.rilterminalcapabilityinfo, ntddrilapitypes/RILTERMINALCAPABILITYINFO"
 f1_keywords:
  - "rilapitypes/RILTERMINALCAPABILITYINFO"
+ - "RILTERMINALCAPABILITYINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

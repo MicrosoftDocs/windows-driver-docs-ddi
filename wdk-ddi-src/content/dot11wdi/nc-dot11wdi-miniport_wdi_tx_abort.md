@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_TX_ABORT callback function"]
 ms.keywords: MINIPORT_WDI_TX_ABORT, MINIPORT_WDI_TX_ABORT callback, MiniportWdiTxAbort, MiniportWdiTxAbort callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTxAbort, netvista.miniportwditxabort
 f1_keywords:
  - "dot11wdi/MiniportWdiTxAbort"
+ - "MiniportWdiTxAbort"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

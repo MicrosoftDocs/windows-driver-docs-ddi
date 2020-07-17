@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlSetEvent function"]
 f1_keywords:
  - "dispmprt/DlSetEvent"
+ - "DlSetEvent"
 ms.keywords: DlSetEvent
 req.header: dispmprt.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["VideoPortDeleteSpinLock function"]
 ms.keywords: VideoPortDeleteSpinLock, VideoPortDeleteSpinLock function [Display Devices], VideoPort_Functions_d98d74d6-bf9c-441b-95e3-a3455927dd45.xml, display.videoportdeletespinlock, video/VideoPortDeleteSpinLock
 f1_keywords:
  - "video/VideoPortDeleteSpinLock"
+ - "VideoPortDeleteSpinLock"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

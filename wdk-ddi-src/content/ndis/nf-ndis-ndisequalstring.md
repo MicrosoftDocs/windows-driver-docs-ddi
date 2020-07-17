@@ -10,6 +10,7 @@ keywords: ["NdisEqualString macro"]
 ms.keywords: NdisEqualString, NdisEqualString macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualString, ndis_string_ref_31191521-4693-40f9-a6e7-0c9b09bc6298.xml, netvista.ndisequalstring
 f1_keywords:
  - "ndis/NdisEqualString"
+ - "NdisEqualString"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

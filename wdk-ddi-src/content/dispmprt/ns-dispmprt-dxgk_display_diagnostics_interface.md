@@ -33,6 +33,7 @@ api_name:
 f1_keywords:
  - dispmprt/_DXGK_DISPLAY_DIAGNOSTICS_INTERFACE
  - dispmprt/DXGK_DISPLAY_DIAGNOSTICS_INTERFACE
+ - ""
 dev_langs:
  - c++
 ---

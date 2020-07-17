@@ -10,6 +10,7 @@ keywords: ["IMiniportStreamAudioEngineNode::GetStreamChannelVolume"]
 ms.keywords: GetStreamChannelVolume, GetStreamChannelVolume method [Audio Devices], GetStreamChannelVolume method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamChannelVolume method, IMiniportStreamAudioEngineNode.GetStreamChannelVolume, IMiniportStreamAudioEngineNode::GetStreamChannelVolume, audio.iminiportstreamaudioenginenode_getstreamchannelvolume, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelVolume
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.GetStreamChannelVolume"
+ - "IMiniportStreamAudioEngineNode.GetStreamChannelVolume"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

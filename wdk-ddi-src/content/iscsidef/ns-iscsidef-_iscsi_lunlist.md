@@ -10,6 +10,7 @@ keywords: ["_ISCSI_LUNList structure"]
 ms.keywords: "*PISCSI_LUNList, ISCSI_LUNList, ISCSI_LUNList structure [Storage Devices], PISCSI_LUNList, PISCSI_LUNList structure pointer [Storage Devices], _ISCSI_LUNList, iscsidef/ISCSI_LUNList, iscsidef/PISCSI_LUNList, storage.iscsi_lunlist, structs-iSCSI_f6a29259-8905-438e-ba9f-1055026d7bf6.xml"
 f1_keywords:
  - "iscsidef/ISCSI_LUNList"
+ - "ISCSI_LUNList"
 req.header: iscsidef.h
 req.include-header: Iscsidef.h
 req.target-type: Windows

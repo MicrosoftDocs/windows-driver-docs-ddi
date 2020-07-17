@@ -10,6 +10,7 @@ keywords: ["OEMPDriverEvent function"]
 ms.keywords: OEMPDriverEvent, OEMPDriverEvent function [Print Devices], print.oempdriverevent, print_obsoletefunctions_c7348f27-998e-466b-97ad-b3175cfea28a.xml, printoem/OEMPDriverEvent
 f1_keywords:
  - "printoem/OEMPDriverEvent"
+ - "OEMPDriverEvent"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

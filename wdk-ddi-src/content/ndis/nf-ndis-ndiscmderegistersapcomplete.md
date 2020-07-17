@@ -10,6 +10,7 @@ keywords: ["NdisCmDeregisterSapComplete function"]
 ms.keywords: NdisCmDeregisterSapComplete, NdisCmDeregisterSapComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_d8a656de-56d5-4b84-8179-636b72f1313b.xml, ndis/NdisCmDeregisterSapComplete, netvista.ndiscmderegistersapcomplete
 f1_keywords:
  - "ndis/NdisCmDeregisterSapComplete"
+ - "NdisCmDeregisterSapComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RtlIsNtDdiVersionAvailable function"]
 ms.keywords: RtlIsNtDdiVersionAvailable, RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, kernel.rtlisntddiversionavailable, wdm/RtlIsNtDdiVersionAvailable
 f1_keywords:
  - "wdm/RtlIsNtDdiVersionAvailable"
+ - "RtlIsNtDdiVersionAvailable"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

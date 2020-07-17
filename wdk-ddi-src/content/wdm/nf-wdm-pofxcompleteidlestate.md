@@ -10,6 +10,7 @@ keywords: ["PoFxCompleteIdleState function"]
 ms.keywords: PoFxCompleteIdleState, PoFxCompleteIdleState routine [Kernel-Mode Driver Architecture], kernel.pofxcompleteidlestate, wdm/PoFxCompleteIdleState
 f1_keywords:
  - "wdm/PoFxCompleteIdleState"
+ - "PoFxCompleteIdleState"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

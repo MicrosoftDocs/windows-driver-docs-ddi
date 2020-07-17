@@ -10,6 +10,7 @@ keywords: ["IPortableDevicePropVariantCollection::Clear"]
 ms.keywords: Clear, Clear method, Clear method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,Clear method, IPortableDevicePropVariantCollection.Clear, IPortableDevicePropVariantCollection::Clear, IPortableDevicePropVariantCollectionClear, portabledevicetypes/IPortableDevicePropVariantCollection::Clear, wpddk.iportabledevicepropvariantcollection_clear
 f1_keywords:
  - "portabledevicetypes/IPortableDevicePropVariantCollection.Clear"
+ - "IPortableDevicePropVariantCollection.Clear"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_STREAM_DATA structure"]
 ms.keywords: DXVA2_Structs_d7fc6fd4-0b17-49b3-bb42-0e0c8f3cc124.xml, DXVAHDDDI_STREAM_DATA, DXVAHDDDI_STREAM_DATA structure [Display Devices], _DXVAHDDDI_STREAM_DATA, d3dumddi/DXVAHDDDI_STREAM_DATA, display.dxvahdddi_stream_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_STREAM_DATA"
+ - "DXVAHDDDI_STREAM_DATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

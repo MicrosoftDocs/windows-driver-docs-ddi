@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacksWide::ChangeDebuggeeState"]
 ms.keywords: ChangeDebuggeeState, ChangeDebuggeeState method [Windows Debugging], ChangeDebuggeeState method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ChangeDebuggeeState method, IDebugEventCallbacksWide.ChangeDebuggeeState, IDebugEventCallbacksWide::ChangeDebuggeeState, dbgeng/IDebugEventCallbacksWide::ChangeDebuggeeState, debugger.idebugeventcallbackswide_changedebuggeestate
 f1_keywords:
  - "dbgeng/IDebugEventCallbacksWide.ChangeDebuggeeState"
+ - "IDebugEventCallbacksWide.ChangeDebuggeeState"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

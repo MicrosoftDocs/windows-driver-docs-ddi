@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDebugHostType::GetGenericArgumentAt"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.GetGenericArgumentAt"
+ - "IDebugHostType.GetGenericArgumentAt"
 ms.keywords: IDebugHostType::GetGenericArgumentAt, GetGenericArgumentAt, IDebugHostType.GetGenericArgumentAt, IDebugHostType::GetGenericArgumentAt, IDebugHostType.GetGenericArgumentAt
 req.header: dbgmodel.h
 req.include-header:

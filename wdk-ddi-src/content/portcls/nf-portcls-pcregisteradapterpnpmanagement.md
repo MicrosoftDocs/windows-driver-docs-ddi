@@ -10,6 +10,7 @@ keywords: ["PcRegisterAdapterPnpManagement function"]
 ms.keywords: PcRegisterAdapterPnPManagement, PcRegisterAdapterPnPManagement function [Audio Devices], PcRegisterAdapterPnpManagement, audio.pcregisteradapterpnpmanagement, portcls/PcRegisterAdapterPnPManagement
 f1_keywords:
  - "portcls/PcRegisterAdapterPnPManagement"
+ - "PcRegisterAdapterPnPManagement"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["NdisWriteConfiguration function"]
 ms.keywords: NdisWriteConfiguration, NdisWriteConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisWriteConfiguration, ndis_configuration_ref_7d603433-49ed-46d5-8a57-000c06d83d4a.xml, netvista.ndiswriteconfiguration
 f1_keywords:
  - "ndis/NdisWriteConfiguration"
+ - "NdisWriteConfiguration"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

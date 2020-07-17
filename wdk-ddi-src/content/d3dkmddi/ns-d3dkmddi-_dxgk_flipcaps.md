@@ -9,6 +9,7 @@ keywords: ["_DXGK_FLIPCAPS structure"]
 ms.keywords: DXGK_FLIPCAPS, DXGK_FLIPCAPS structure [Display Devices], DmStructs_11bba63e-8001-41d2-9c60-978024921994.xml, _DXGK_FLIPCAPS, d3dkmddi/DXGK_FLIPCAPS, display.dxgk_flipcaps
 f1_keywords:
  - "d3dkmddi/DXGK_FLIPCAPS"
+ - "DXGK_FLIPCAPS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

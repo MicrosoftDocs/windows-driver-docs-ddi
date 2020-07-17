@@ -10,6 +10,7 @@ keywords: ["NdisMAllocateSharedMemoryAsyncEx function"]
 ms.keywords: NdisMAllocateSharedMemoryAsyncEx, NdisMAllocateSharedMemoryAsyncEx function [Network Drivers Starting with Windows Vista], ndis/NdisMAllocateSharedMemoryAsyncEx, ndis_sgdma_ref_73efae25-05b5-496f-8c7a-83a6d9f091cc.xml, netvista.ndismallocatesharedmemoryasyncex
 f1_keywords:
  - "ndis/NdisMAllocateSharedMemoryAsyncEx"
+ - "NdisMAllocateSharedMemoryAsyncEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

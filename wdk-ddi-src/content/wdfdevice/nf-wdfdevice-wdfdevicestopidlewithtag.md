@@ -9,6 +9,7 @@ keywords: ["WdfDeviceStopIdleWithTag macro"]
 ms.keywords: DFDeviceObjectGeneralRef_3dbde224-ecdf-429e-9389-9bdb49b16040.xml, WdfDeviceStopIdleWithTag, WdfDeviceStopIdleWithTag method, kmdf.WdfDeviceStopIdleWithTag, wdf.WdfDeviceStopIdleWithTag, wdfdevice/WdfDeviceStopIdleWithTag
 f1_keywords:
  - "wdfdevice/WdfDeviceStopIdleWithTag"
+ - "WdfDeviceStopIdleWithTag"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

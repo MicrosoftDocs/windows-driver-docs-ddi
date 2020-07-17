@@ -10,6 +10,7 @@ keywords: ["IWDTFSimpleIOStressAction2::StartAsync"]
 ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],StartAsync method, IWDTFSimpleIOStressAction2.StartAsync, IWDTFSimpleIOStressAction2::StartAsync, Microsoft.WDTF.IWDTFSimpleIOStressAction2.StartAsync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::StartAsync, StartAsync, StartAsync method [Windows Device Testing Framework], StartAsync method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_startasync, wdtfinterfaces/IWDTFSimpleIOStressAction2::StartAsync
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOStressAction2.StartAsync"
+ - "IWDTFSimpleIOStressAction2.StartAsync"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop

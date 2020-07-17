@@ -10,6 +10,7 @@ keywords: ["tagWPD_POWER_SOURCES enumeration"]
 ms.keywords: WPD_POWER_SOURCES, WPD_POWER_SOURCES enumeration, WPD_POWER_SOURCE_BATTERY, WPD_POWER_SOURCE_EXTERNAL, enumeration, portabledevice/WPD_POWER_SOURCES, portabledevice/WPD_POWER_SOURCE_BATTERY, portabledevice/WPD_POWER_SOURCE_EXTERNAL, tagWPD_POWER_SOURCES, wpddk.wpd_power_sources
 f1_keywords:
  - "portabledevice/WPD_POWER_SOURCES"
+ - "WPD_POWER_SOURCES"
 req.header: portabledevice.h
 req.include-header: 
 req.target-type: Windows

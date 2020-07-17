@@ -10,6 +10,7 @@ ms.date: 10/08/2019
 keywords: ["NetDeviceGetWakeSourceList function"]
 f1_keywords:
  - "netwakesourcelist/NetDeviceGetWakeSourceList"
+ - "NetDeviceGetWakeSourceList"
 ms.keywords: NetDeviceGetWakeSourceList
 req.header: netwakesourcelist.h
 req.include-header:

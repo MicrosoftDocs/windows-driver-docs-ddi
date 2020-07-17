@@ -10,6 +10,7 @@ keywords: ["FsRtlAllocatePoolWithQuotaTag macro"]
 ms.keywords: FsRtlAllocatePoolWithQuotaTag, FsRtlAllocatePoolWithQuotaTag routine [Installable File System Drivers], fsrtlref_f4d15687-848c-4c31-8f30-48eb69498cc9.xml, ifsk.fsrtlallocatepoolwithquotatag, ntifs/FsRtlAllocatePoolWithQuotaTag
 f1_keywords:
  - "ntifs/FsRtlAllocatePoolWithQuotaTag"
+ - "FsRtlAllocatePoolWithQuotaTag"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

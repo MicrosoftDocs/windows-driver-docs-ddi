@@ -10,6 +10,7 @@ keywords: ["NDK_FN_GET_LOCAL_TOKEN_FROM_MR callback function"]
 ms.keywords: NDK_FN_GET_LOCAL_TOKEN_FROM_MR, NDK_FN_GET_LOCAL_TOKEN_FROM_MR callback, NdkGetLocalTokenFromMr, NdkGetLocalTokenFromMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetLocalTokenFromMr, netvista.ndk_fn_get_local_token_from_mr
 f1_keywords:
  - "ndkpi/NdkGetLocalTokenFromMr"
+ - "NdkGetLocalTokenFromMr"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

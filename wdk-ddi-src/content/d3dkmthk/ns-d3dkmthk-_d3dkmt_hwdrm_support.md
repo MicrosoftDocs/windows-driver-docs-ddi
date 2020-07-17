@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_HWDRM_SUPPORT structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_HWDRM_SUPPORT"
+ - "_D3DKMT_HWDRM_SUPPORT"
 ms.keywords: _D3DKMT_HWDRM_SUPPORT, D3DKMT_HWDRM_SUPPORT, 
 req.header: d3dkmthk.h
 req.include-header:

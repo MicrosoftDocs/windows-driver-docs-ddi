@@ -10,6 +10,7 @@ keywords: ["IDebugAdvanced interface"]
 ms.keywords: IDebugAdvanced, IDebugAdvanced interface [Windows Debugging], IDebugAdvanced interface [Windows Debugging],described, IDebugAdvanced_73a2f722-f225-466b-aecc-2c7e6999e25f.xml, dbgeng/IDebugAdvanced, debugger.idebugadvanced
 f1_keywords:
  - "dbgeng/IDebugAdvanced"
+ - "IDebugAdvanced"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

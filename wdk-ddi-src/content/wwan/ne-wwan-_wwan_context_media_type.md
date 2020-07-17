@@ -8,6 +8,7 @@ ms.date: 08/22/2018
 keywords: ["_WWAN_CONTEXT_MEDIA_TYPE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_CONTEXT_MEDIA_TYPE"
+ - "_WWAN_CONTEXT_MEDIA_TYPE"
 ms.keywords: _WWAN_CONTEXT_MEDIA_TYPE, WWAN_CONTEXT_MEDIA_TYPE, *PWWAN_CONTEXT_MEDIA_TYPE, 
 req.header: wwan.h
 req.include-header:

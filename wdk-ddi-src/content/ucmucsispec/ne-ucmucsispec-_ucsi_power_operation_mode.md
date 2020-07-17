@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_POWER_OPERATION_MODE enumeration"]
 f1_keywords:
  - "ucmucsispec/_UCSI_POWER_OPERATION_MODE"
+ - "_UCSI_POWER_OPERATION_MODE"
 ms.keywords: _UCSI_POWER_OPERATION_MODE, UCSI_POWER_OPERATION_MODE, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

@@ -10,6 +10,7 @@ keywords: ["OEMQueryColorProfile function"]
 ms.keywords: OEMQueryColorProfile, OEMQueryColorProfile function [Print Devices], print.oemquerycolorprofile, print_obsoletefunctions_f21cf62d-45bd-4248-8b0c-a19cc982ad3c.xml, printoem/OEMQueryColorProfile
 f1_keywords:
  - "printoem/OEMQueryColorProfile"
+ - "OEMQueryColorProfile"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

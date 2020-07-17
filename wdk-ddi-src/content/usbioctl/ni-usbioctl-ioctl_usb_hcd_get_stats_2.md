@@ -10,6 +10,7 @@ keywords: ["IOCTL_USB_HCD_GET_STATS_2 IOCTL"]
 ms.keywords: IOCTL_USB_HCD_GET_STATS_2, IOCTL_USB_HCD_GET_STATS_2 control, IOCTL_USB_HCD_GET_STATS_2 control code [Buses], buses.ioctl_usb_hcd_get_stats_2, usbioctl/IOCTL_USB_HCD_GET_STATS_2, usbirp_62df7d2d-dc01-46bf-8ce8-aa1a0082387e.xml
 f1_keywords:
  - "usbioctl/IOCTL_USB_HCD_GET_STATS_2"
+ - "IOCTL_USB_HCD_GET_STATS_2"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

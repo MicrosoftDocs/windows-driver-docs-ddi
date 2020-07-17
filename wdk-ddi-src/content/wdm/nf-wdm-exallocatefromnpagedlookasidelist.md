@@ -10,6 +10,7 @@ keywords: ["ExAllocateFromNPagedLookasideList function"]
 ms.keywords: ExAllocateFromNPagedLookasideList, ExAllocateFromNPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_43919c0e-8140-4fc8-80f5-1955e39aa493.xml, kernel.exallocatefromnpagedlookasidelist, wdm/ExAllocateFromNPagedLookasideList
 f1_keywords:
  - "wdm/ExAllocateFromNPagedLookasideList"
+ - "ExAllocateFromNPagedLookasideList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

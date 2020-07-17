@@ -10,6 +10,7 @@ keywords: ["IServiceGroup::RemoveMember"]
 ms.keywords: IServiceGroup interface [Audio Devices],RemoveMember method, IServiceGroup.RemoveMember, IServiceGroup::RemoveMember, RemoveMember, RemoveMember method [Audio Devices], RemoveMember method [Audio Devices],IServiceGroup interface, audio.iservicegroup_removemember, audmp-routines_0b3fd59f-9233-4344-aa0c-f58505eee693.xml, portcls/IServiceGroup::RemoveMember
 f1_keywords:
  - "portcls/IServiceGroup.RemoveMember"
+ - "IServiceGroup.RemoveMember"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

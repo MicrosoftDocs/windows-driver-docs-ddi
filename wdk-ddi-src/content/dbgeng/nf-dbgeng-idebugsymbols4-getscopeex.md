@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols4::GetScopeEx"]
 ms.keywords: GetScopeEx, GetScopeEx method [Windows Debugging], GetScopeEx method [Windows Debugging],IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging],GetScopeEx method, IDebugSymbols4.GetScopeEx, IDebugSymbols4::GetScopeEx, dbgeng/IDebugSymbols4::GetScopeEx, debugger.idebugsymbols4_getscopeex
 f1_keywords:
  - "dbgeng/IDebugSymbols4.GetScopeEx"
+ - "IDebugSymbols4.GetScopeEx"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

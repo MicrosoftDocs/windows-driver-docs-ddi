@@ -10,6 +10,7 @@ keywords: ["_UCM_CONNECTOR_PD_CONFIG structure"]
 ms.keywords: "*PUCM_CONNECTOR_PD_CONFIG, PUCM_CONNECTOR_PD_CONFIG, PUCM_CONNECTOR_PD_CONFIG structure pointer [Buses], UCM_CONNECTOR_PD_CONFIG, UCM_CONNECTOR_PD_CONFIG structure [Buses], _UCM_CONNECTOR_PD_CONFIG, buses.ucm_connector_pd_config, ucmmanager/PUCM_CONNECTOR_PD_CONFIG, ucmmanager/UCM_CONNECTOR_PD_CONFIG"
 f1_keywords:
  - "ucmmanager/UCM_CONNECTOR_PD_CONFIG"
+ - "UCM_CONNECTOR_PD_CONFIG"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

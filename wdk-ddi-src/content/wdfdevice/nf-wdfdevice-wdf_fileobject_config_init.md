@@ -10,6 +10,7 @@ keywords: ["WDF_FILEOBJECT_CONFIG_INIT function"]
 ms.keywords: DFDeviceObjectGeneralRef_ad75f4c0-79f7-42d6-8798-947cdcbfd8f1.xml, WDF_FILEOBJECT_CONFIG_INIT, WDF_FILEOBJECT_CONFIG_INIT function, kmdf.wdf_fileobject_config_init, wdf.wdf_fileobject_config_init, wdfdevice/WDF_FILEOBJECT_CONFIG_INIT
 f1_keywords:
  - "wdfdevice/WDF_FILEOBJECT_CONFIG_INIT"
+ - "WDF_FILEOBJECT_CONFIG_INIT"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

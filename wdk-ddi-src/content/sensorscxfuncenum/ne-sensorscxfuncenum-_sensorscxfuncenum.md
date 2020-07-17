@@ -7,6 +7,7 @@ ms.date: 04/19/2018
 keywords: ["_SENSORSCXFUNCENUM enumeration"]
 f1_keywords:
  - "sensorscxfuncenum/_SENSORSCXFUNCENUM"
+ - "_SENSORSCXFUNCENUM"
 ms.keywords: _SENSORSCXFUNCENUM, SENSORSCXFUNCENUM,
 req.header: sensorscxfuncenum.h
 req.include-header:

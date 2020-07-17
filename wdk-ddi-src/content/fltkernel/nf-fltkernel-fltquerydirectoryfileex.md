@@ -10,6 +10,7 @@ ms.date: 03/08/2019
 keywords: ["FltQueryDirectoryFileEx function"]
 f1_keywords:
  - "fltkernel/FltQueryDirectoryFileEx"
+ - "FltQueryDirectoryFileEx"
 ms.keywords: FltQueryDirectoryFileEx, FltQueryDirectoryFile
 req.header: fltkernel.h
 req.include-header:

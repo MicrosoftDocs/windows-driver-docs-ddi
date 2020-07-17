@@ -10,6 +10,7 @@ keywords: ["PFNKSHANDLER callback function"]
 ms.keywords: KStrGetPropertyHandler, KStrHandler, KStrHandler routine [Streaming Media Devices], KStrMethodHandler, KStrSetPropertyHandler, KStrSupportHandler, PFNKSHANDLER, ks/KStrHandler, ksfunc_53b62198-4059-4715-b405-c6f55d736a09.xml, stream.kstrmethodhandler
 f1_keywords:
  - "ks/KStrHandler"
+ - "KStrHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

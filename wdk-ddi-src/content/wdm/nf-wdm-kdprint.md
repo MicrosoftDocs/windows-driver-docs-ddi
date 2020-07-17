@@ -10,6 +10,7 @@ keywords: ["KdPrint macro"]
 ms.keywords: DebugFns_630aea64-3f51-4c73-8575-00a507846ab9.xml, KdPrint, KdPrint function [Driver Development Tools], devtest.kdprint, wdm/KdPrint
 f1_keywords:
  - "wdm/KdPrint"
+ - "KdPrint"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

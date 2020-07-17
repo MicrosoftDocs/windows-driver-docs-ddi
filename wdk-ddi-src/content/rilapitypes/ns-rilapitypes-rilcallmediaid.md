@@ -10,6 +10,7 @@ keywords: ["RILCALLMEDIAID structure"]
 ms.keywords: "*LPRILCALLMEDIAID, RILCALLMEDIAID, RILCALLMEDIAID structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediaid, ntddrilapitypes/RILCALLMEDIAID"
 f1_keywords:
  - "rilapitypes/RILCALLMEDIAID"
+ - "RILCALLMEDIAID"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

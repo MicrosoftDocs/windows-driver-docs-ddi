@@ -9,6 +9,7 @@ keywords: ["D3DKMTSharedPrimaryUnLockNotification function"]
 ms.keywords: D3DKMTSharedPrimaryUnLockNotification, D3DKMTSharedPrimaryUnLockNotification function [Display Devices], OpenGL_Functions_311a1879-e3f7-44e2-aa1a-0c070e45bf85.xml, d3dkmthk/D3DKMTSharedPrimaryUnLockNotification, display.d3dkmtsharedprimaryunlocknotification
 f1_keywords:
  - "d3dkmthk/D3DKMTSharedPrimaryUnLockNotification"
+ - "D3DKMTSharedPrimaryUnLockNotification"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

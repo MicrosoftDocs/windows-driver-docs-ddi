@@ -10,6 +10,7 @@ keywords: ["_BDCB_STATUS_UPDATE_TYPE enumeration"]
 ms.keywords: "*PBDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbStatusPrepareForDependecyLoad, BdCbStatusPrepareForDriverLoad, BdCbStatusPrepareForUnload, _BDCB_STATUS_UPDATE_TYPE, kernel.bdcb_status_update_type, ntddk/BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDependecyLoad, ntddk/BdCbStatusPrepareForDriverLoad, ntddk/BdCbStatusPrepareForUnload"
 f1_keywords:
  - "ntddk/BDCB_STATUS_UPDATE_TYPE"
+ - "BDCB_STATUS_UPDATE_TYPE"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

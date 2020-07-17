@@ -10,6 +10,7 @@ keywords: ["RILUICCLOCKCREDENTIAL structure"]
 ms.keywords: "*LPRILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL, RILUICCLOCKCREDENTIAL structure [Network Drivers Starting with Windows Vista], netvista.riluicclockcredential, ntddrilapitypes/RILUICCLOCKCREDENTIAL"
 f1_keywords:
  - "ntddrilapitypes/RILUICCLOCKCREDENTIAL"
+ - "RILUICCLOCKCREDENTIAL"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

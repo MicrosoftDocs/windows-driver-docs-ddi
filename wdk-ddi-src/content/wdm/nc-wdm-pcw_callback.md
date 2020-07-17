@@ -10,6 +10,7 @@ keywords: ["PCW_CALLBACK callback function"]
 ms.keywords: PCW_CALLBACK, PCW_CALLBACK callback, PcwCallback, PcwCallback callback function [Driver Development Tools], devtest.pcwcallback, km_pcw_f4d70925-0361-4aa6-9e4b-3f1e00a01535.xml, wdm/PcwCallback
 f1_keywords:
  - "wdm/PcwCallback"
+ - "PcwCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Desktop

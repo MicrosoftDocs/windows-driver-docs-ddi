@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTHX_READ_HCI IOCTL"]
 ms.keywords: IOCTL_BTHX_READ_HCI, IOCTL_BTHX_READ_HCI control, IOCTL_BTHX_READ_HCI control code [Bluetooth Devices], bltooth.ioctl_bthx_hci_read, bltooth.ioctl_bthx_read_hci, bthxddi/IOCTL_BTHX_READ_HCI
 f1_keywords:
  - "bthxddi/IOCTL_BTHX_READ_HCI"
+ - "IOCTL_BTHX_READ_HCI"
 req.header: bthxddi.h
 req.include-header: 
 req.target-type: Windows

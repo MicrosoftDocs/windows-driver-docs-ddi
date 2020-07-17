@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["CONTEXT structure"]
 f1_keywords:
  - "ntddk/CONTEXT"
+ - "CONTEXT"
 ms.keywords: CONTEXT, CONTEXT, *PCONTEXT, *PCONTEXT
 req.header: ntddk.h
 req.include-header:

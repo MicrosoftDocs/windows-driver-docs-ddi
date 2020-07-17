@@ -10,6 +10,7 @@ keywords: ["IOCTL_LAMP_GET_EMITTING_LIGHT IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_EMITTING_LIGHT, IOCTL_LAMP_GET_EMITTING_LIGHT control, IOCTL_LAMP_GET_EMITTING_LIGHT control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_EMITTING_LIGHT, stream.ioctl_lamp_get_emitting_light
 f1_keywords:
  - "lamp/IOCTL_LAMP_GET_EMITTING_LIGHT"
+ - "IOCTL_LAMP_GET_EMITTING_LIGHT"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows

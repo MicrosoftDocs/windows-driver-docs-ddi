@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_ENUMADAPTERS structure"]
 ms.keywords: D3DKMT_ENUMADAPTERS, D3DKMT_ENUMADAPTERS structure [Display Devices], _D3DKMT_ENUMADAPTERS, d3dkmthk/D3DKMT_ENUMADAPTERS, display.d3dkmt_enumadapters
 f1_keywords:
  - "d3dkmthk/D3DKMT_ENUMADAPTERS"
+ - "D3DKMT_ENUMADAPTERS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

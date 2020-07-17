@@ -10,6 +10,7 @@ keywords: ["WdfIoResourceListAppendDescriptor function"]
 ms.keywords: DFResourceObjectRef_547a6869-7e4a-4140-9851-0b1ca9810eaa.xml, WdfIoResourceListAppendDescriptor, WdfIoResourceListAppendDescriptor method, kmdf.wdfioresourcelistappenddescriptor, wdf.wdfioresourcelistappenddescriptor, wdfresource/WdfIoResourceListAppendDescriptor
 f1_keywords:
  - "wdfresource/WdfIoResourceListAppendDescriptor"
+ - "WdfIoResourceListAppendDescriptor"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal

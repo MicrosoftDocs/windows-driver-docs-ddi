@@ -7,6 +7,7 @@ ms.date: 08/01/2018
 keywords: ["CVEC3D::CVEC3D(const VEC3D &)"]
 f1_keywords:
  - "math3dhelper/CVEC3D.CVEC3D"
+ - "CVEC3D.CVEC3D"
 tech.root: sensors
 ms.keywords: CVEC3D::CVEC3D, CVEC3D, CVEC3D.CVEC3D, CVEC3D::CVEC3D(const VEC3D &), CVEC3D.CVEC3D(const VEC3D &)
 req.header: math3dhelper.h

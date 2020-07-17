@@ -10,6 +10,7 @@ keywords: ["GetSecurityUserInfo function"]
 ms.keywords: GetSecurityUserInfo, GetSecurityUserInfo function [Installable File System Drivers], IFSMiscRef_e375e4a8-9702-41b8-b848-0dcbc0a7d9bd.xml, ifsk.getsecurityuserinfo, ntifs/GetSecurityUserInfo
 f1_keywords:
  - "ntifs/GetSecurityUserInfo"
+ - "GetSecurityUserInfo"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal

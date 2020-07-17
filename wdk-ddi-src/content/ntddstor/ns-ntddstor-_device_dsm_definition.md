@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["_DEVICE_DSM_DEFINITION structure"]
 f1_keywords:
  - "ntddstor/_DEVICE_DSM_DEFINITION"
+ - "_DEVICE_DSM_DEFINITION"
 ms.keywords: _DEVICE_DSM_DEFINITION, DEVICE_DSM_DEFINITION, *PDEVICE_DSM_DEFINITION, 
 req.header: ntddstor.h
 req.include-header:

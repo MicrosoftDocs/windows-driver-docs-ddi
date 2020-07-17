@@ -10,6 +10,7 @@ keywords: ["IoCheckLinkShareAccess function"]
 ms.keywords: IoCheckLinkShareAccess, IoCheckLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.iochecklinkshareaccess, wdm/IoCheckLinkShareAccess
 f1_keywords:
  - "wdm/IoCheckLinkShareAccess"
+ - "IoCheckLinkShareAccess"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

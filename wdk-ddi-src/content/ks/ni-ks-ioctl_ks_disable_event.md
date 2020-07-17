@@ -10,6 +10,7 @@ keywords: ["IOCTL_KS_DISABLE_EVENT IOCTL"]
 ms.keywords: IOCTL_KS_DISABLE_EVENT, IOCTL_KS_DISABLE_EVENT control, IOCTL_KS_DISABLE_EVENT control code [Streaming Media Devices], ks-ioctl_8b6cd750-3003-49b2-9b91-3edc1da6cf11.xml, ks/IOCTL_KS_DISABLE_EVENT, stream.ioctl_ks_disable_event
 f1_keywords:
  - "ks/IOCTL_KS_DISABLE_EVENT"
+ - "IOCTL_KS_DISABLE_EVENT"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

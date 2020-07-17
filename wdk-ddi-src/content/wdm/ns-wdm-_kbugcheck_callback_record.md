@@ -10,6 +10,7 @@ ms.date: 05/08/2019
 keywords: ["KBUGCHECK_CALLBACK_RECORD structure"]
 f1_keywords:
  - "wdm/KBUGCHECK_CALLBACK_RECORD"
+ - "KBUGCHECK_CALLBACK_RECORD"
 ms.keywords: KBUGCHECK_CALLBACK_RECORD, KBUGCHECK_CALLBACK_RECORD, *PKBUGCHECK_CALLBACK_RECORD, 
 req.header: wdm.h
 req.include-header:

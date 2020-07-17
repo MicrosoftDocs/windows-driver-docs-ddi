@@ -8,6 +8,7 @@ ms.date: 02/08/2018
 keywords: ["NetRequestRetrieveInputOutputBuffer function"]
 f1_keywords:
  - "netrequest/NetRequestRetrieveInputOutputBuffer"
+ - "NetRequestRetrieveInputOutputBuffer"
 ms.keywords: NetRequestRetrieveInputOutputBuffer
 req.header: netrequest.h
 req.include-header: netadaptercx.h

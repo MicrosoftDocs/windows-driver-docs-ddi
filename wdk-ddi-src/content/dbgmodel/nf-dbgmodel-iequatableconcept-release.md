@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IEquatableConcept::Release"]
 f1_keywords:
  - "dbgmodel/IEquatableConcept.Release"
+ - "IEquatableConcept.Release"
 ms.keywords: IEquatableConcept::Release, Release, IEquatableConcept.Release, IEquatableConcept::Release, IEquatableConcept.Release
 req.header: dbgmodel.h
 req.include-header:

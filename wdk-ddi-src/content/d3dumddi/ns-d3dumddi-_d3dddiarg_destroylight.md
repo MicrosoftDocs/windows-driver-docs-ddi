@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_DESTROYLIGHT structure"]
 ms.keywords: D3DDDIARG_DESTROYLIGHT, D3DDDIARG_DESTROYLIGHT structure [Display Devices], UMDisplayDriver_param_Structs_497b7bc8-b2ca-4ead-9c3e-365673b2058f.xml, _D3DDDIARG_DESTROYLIGHT, d3dumddi/D3DDDIARG_DESTROYLIGHT, display.d3dddiarg_destroylight
 f1_keywords:
  - "d3dumddi/D3DDDIARG_DESTROYLIGHT"
+ - "D3DDDIARG_DESTROYLIGHT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

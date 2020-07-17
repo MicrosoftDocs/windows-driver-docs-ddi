@@ -9,6 +9,7 @@ keywords: ["_DXGK_MONITORDESCRIPTORSET_INTERFACE structure"]
 ms.keywords: DXGK_MONITORDESCRIPTORSET_INTERFACE, DXGK_MONITORDESCRIPTORSET_INTERFACE structure [Display Devices], DmStructs_da0cca60-6df0-480b-8e02-0affe5eb5cfd.xml, _DXGK_MONITORDESCRIPTORSET_INTERFACE, d3dkmddi/DXGK_MONITORDESCRIPTORSET_INTERFACE, display.dxgk_monitordescriptorset_interface
 f1_keywords:
  - "d3dkmddi/DXGK_MONITORDESCRIPTORSET_INTERFACE"
+ - "DXGK_MONITORDESCRIPTORSET_INTERFACE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

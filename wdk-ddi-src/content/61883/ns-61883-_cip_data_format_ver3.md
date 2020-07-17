@@ -10,6 +10,7 @@ keywords: ["_CIP_DATA_FORMAT_VER3 structure"]
 ms.keywords: "*PCIP_DATA_FORMAT, *PCIP_DATA_FORMAT_VER3, 61883/CIP_DATA_FORMAT_VER3, 61883/PCIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT, CIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT_VER3 structure [Buses], IEEE.cip_data_format_ver3, PCIP_DATA_FORMAT_VER3, PCIP_DATA_FORMAT_VER3 structure pointer [Buses], _CIP_DATA_FORMAT_VER3"
 f1_keywords:
  - "61883/CIP_DATA_FORMAT_VER3"
+ - "CIP_DATA_FORMAT_VER3"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

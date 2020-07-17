@@ -10,6 +10,7 @@ keywords: ["RILWRITEMSGPARAMS structure"]
 ms.keywords: "*LPRILWRITEMSGPARAMS, RILWRITEMSGPARAMS, RILWRITEMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwritemsgparams, ntddrilapitypes/RILWRITEMSGPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILWRITEMSGPARAMS"
+ - "RILWRITEMSGPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

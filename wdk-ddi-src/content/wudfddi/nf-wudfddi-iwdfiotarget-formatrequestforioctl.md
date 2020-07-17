@@ -10,6 +10,7 @@ keywords: ["IWDFIoTarget::FormatRequestForIoctl"]
 ms.keywords: FormatRequestForIoctl, FormatRequestForIoctl method, FormatRequestForIoctl method,IWDFIoTarget interface, IWDFIoTarget interface,FormatRequestForIoctl method, IWDFIoTarget.FormatRequestForIoctl, IWDFIoTarget::FormatRequestForIoctl, UMDFIoTargetObjectRef_9c72ba41-4a3f-4bea-8ca1-bcf04dd033ad.xml, umdf.iwdfiotarget_formatrequestforioctl, wdf.iwdfiotarget_formatrequestforioctl, wudfddi/IWDFIoTarget::FormatRequestForIoctl
 f1_keywords:
  - "wudfddi/IWDFIoTarget.FormatRequestForIoctl"
+ - "IWDFIoTarget.FormatRequestForIoctl"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

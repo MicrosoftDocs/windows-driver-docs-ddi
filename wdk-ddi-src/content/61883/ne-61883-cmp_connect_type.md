@@ -10,6 +10,7 @@ keywords: ["CMP_CONNECT_TYPE enumeration"]
 ms.keywords: 61883/CMP_Broadcast, 61883/CMP_CONNECT_TYPE, 61883/CMP_PointToPoint, CMP_Broadcast, CMP_CONNECT_TYPE, CMP_CONNECT_TYPE enumeration [Buses], CMP_PointToPoint, IEEE.cmp_connect_type
 f1_keywords:
  - "61883/CMP_CONNECT_TYPE"
+ - "CMP_CONNECT_TYPE"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

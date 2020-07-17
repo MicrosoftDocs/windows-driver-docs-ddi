@@ -10,6 +10,7 @@ keywords: ["_SPB_REQUEST_SEQUENCE_POSITION enumeration"]
 ms.keywords: "*PSPB_REQUEST_SEQUENCE_POSITION, SPB.spb_request_sequence_position, SPB_REQUEST_SEQUENCE_POSITION, SPB_REQUEST_SEQUENCE_POSITION enumeration [Buses], SpbRequestSequencePositionContinue, SpbRequestSequencePositionFirst, SpbRequestSequencePositionInvalid, SpbRequestSequencePositionLast, SpbRequestSequencePositionMax, SpbRequestSequencePositionSingle, _SPB_REQUEST_SEQUENCE_POSITION, spbcx/SPB_REQUEST_SEQUENCE_POSITION, spbcx/SpbRequestSequencePositionContinue, spbcx/SpbRequestSequencePositionFirst, spbcx/SpbRequestSequencePositionInvalid, spbcx/SpbRequestSequencePositionLast, spbcx/SpbRequestSequencePositionMax, spbcx/SpbRequestSequencePositionSingle"
 f1_keywords:
  - "spbcx/SPB_REQUEST_SEQUENCE_POSITION"
+ - "SPB_REQUEST_SEQUENCE_POSITION"
 req.header: spbcx.h
 req.include-header: Spb.h
 req.target-type: Windows

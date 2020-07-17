@@ -10,6 +10,7 @@ keywords: ["IMiniportStreamAudioEngineNode::GetStreamChannelCount"]
 ms.keywords: GetStreamChannelCount, GetStreamChannelCount method [Audio Devices], GetStreamChannelCount method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetStreamChannelCount method, IMiniportStreamAudioEngineNode.GetStreamChannelCount, IMiniportStreamAudioEngineNode::GetStreamChannelCount, audio.iminiportstreamaudioenginenode_getstreamchannelcount, portcls/IMiniportStreamAudioEngineNode::GetStreamChannelCount
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.GetStreamChannelCount"
+ - "IMiniportStreamAudioEngineNode.GetStreamChannelCount"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

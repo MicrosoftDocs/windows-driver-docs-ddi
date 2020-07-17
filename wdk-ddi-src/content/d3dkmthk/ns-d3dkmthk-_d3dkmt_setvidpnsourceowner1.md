@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_SETVIDPNSOURCEOWNER1 structure"]
 ms.keywords: D3DKMT_SETVIDPNSOURCEOWNER1, D3DKMT_SETVIDPNSOURCEOWNER1 structure [Display Devices], _D3DKMT_SETVIDPNSOURCEOWNER1, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER1, display.d3dkmt_setvidpnsourceowner1
 f1_keywords:
  - "d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER1"
+ - "D3DKMT_SETVIDPNSOURCEOWNER1"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

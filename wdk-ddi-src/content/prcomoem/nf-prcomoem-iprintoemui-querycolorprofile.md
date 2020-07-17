@@ -10,6 +10,7 @@ keywords: ["IPrintOemUI::QueryColorProfile"]
 ms.keywords: IPrintOemUI interface [Print Devices],QueryColorProfile method, IPrintOemUI.QueryColorProfile, IPrintOemUI::QueryColorProfile, QueryColorProfile, QueryColorProfile method [Print Devices], QueryColorProfile method [Print Devices],IPrintOemUI interface, prcomoem/IPrintOemUI::QueryColorProfile, print.iprintoemui_querycolorprofile, print_unidrv-pscript_ui_7541a49f-f14c-4c73-88d7-80f316ae3602.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI.QueryColorProfile"
+ - "IPrintOemUI.QueryColorProfile"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

@@ -36,6 +36,7 @@ api_name:
  - WheaHwErrorReportSetSeverityDeviceDriver
 f1_keywords:
  - ntddk/WheaHwErrorReportSetSeverityDeviceDriver
+ - ""
 dev_langs:
  - c++
 ---

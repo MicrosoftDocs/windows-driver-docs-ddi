@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE callback function"]
 ms.keywords: 2/EvtSerCx2SelectNextReceiveTransactionType, EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE, EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE callback, EvtSerCx2SelectNextReceiveTransactionType, EvtSerCx2SelectNextReceiveTransactionType callback function [Serial Ports], serports.evtsercx2selectnextreceivetransactiontype
 f1_keywords:
  - "sercx/EvtSerCx2SelectNextReceiveTransactionType"
+ - "EvtSerCx2SelectNextReceiveTransactionType"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

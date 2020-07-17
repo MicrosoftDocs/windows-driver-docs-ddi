@@ -10,6 +10,7 @@ keywords: ["SPB_TRANSFER_DESCRIPTOR structure"]
 ms.keywords: "*PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR structure pointer [Buses], SPB.spb_transfer_descriptor, SPB_TRANSFER_DESCRIPTOR, SPB_TRANSFER_DESCRIPTOR structure [Buses], spbcx/PSPB_TRANSFER_DESCRIPTOR, spbcx/SPB_TRANSFER_DESCRIPTOR"
 f1_keywords:
  - "spbcx/SPB_TRANSFER_DESCRIPTOR"
+ - "SPB_TRANSFER_DESCRIPTOR"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Windows

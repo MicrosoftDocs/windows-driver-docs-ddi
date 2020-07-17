@@ -10,6 +10,7 @@ keywords: ["KeLowerIrql function"]
 ms.keywords: KeLowerIrql, KeLowerIrql routine [Kernel-Mode Driver Architecture], k105_06c56235-3b9e-4413-aadb-91e86898121d.xml, kernel.kelowerirql, wdm/KeLowerIrql
 f1_keywords:
  - "wdm/KeLowerIrql"
+ - "KeLowerIrql"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

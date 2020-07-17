@@ -10,6 +10,7 @@ keywords: ["_CDROM_SUB_Q_DATA_FORMAT structure"]
 ms.keywords: "*PCDROM_SUB_Q_DATA_FORMAT, CDROM_SUB_Q_DATA_FORMAT, CDROM_SUB_Q_DATA_FORMAT structure [Storage Devices], PCDROM_SUB_Q_DATA_FORMAT, PCDROM_SUB_Q_DATA_FORMAT structure pointer [Storage Devices], _CDROM_SUB_Q_DATA_FORMAT, ntddcdrm/CDROM_SUB_Q_DATA_FORMAT, ntddcdrm/PCDROM_SUB_Q_DATA_FORMAT, storage.cdrom_sub_q_data_format, structs-CD-ROM_1448747c-8b9c-4ccb-8c91-0f8f567f0373.xml"
 f1_keywords:
  - "ntddcdrm/CDROM_SUB_Q_DATA_FORMAT"
+ - "CDROM_SUB_Q_DATA_FORMAT"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

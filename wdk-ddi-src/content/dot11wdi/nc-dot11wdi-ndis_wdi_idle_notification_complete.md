@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_IDLE_NOTIFICATION_COMPLETE callback function"]
 ms.keywords: NDIS_WDI_IDLE_NOTIFICATION_COMPLETE, NDIS_WDI_IDLE_NOTIFICATION_COMPLETE callback, NdisWdiIdleNotificationComplete, NdisWdiIdleNotificationComplete callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiIdleNotificationComplete, netvista.ndiswdiidlenotificationcomplete
 f1_keywords:
  - "dot11wdi/NdisWdiIdleNotificationComplete"
+ - "NdisWdiIdleNotificationComplete"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

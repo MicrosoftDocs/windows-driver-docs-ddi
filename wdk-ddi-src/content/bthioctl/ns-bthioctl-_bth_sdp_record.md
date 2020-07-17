@@ -10,6 +10,7 @@ keywords: ["_BTH_SDP_RECORD structure"]
 ms.keywords: "*PBTH_SDP_RECORD, BTH_SDP_RECORD, BTH_SDP_RECORD structure [Bluetooth Devices], PBTH_SDP_RECORD, PBTH_SDP_RECORD structure pointer [Bluetooth Devices], _BTH_SDP_RECORD, bltooth.bth_sdp_record, bth_structs_e77453a7-05d1-403d-9552-972368d7a76c.xml, bthioctl/BTH_SDP_RECORD, bthioctl/PBTH_SDP_RECORD"
 f1_keywords:
  - "bthioctl/BTH_SDP_RECORD"
+ - "BTH_SDP_RECORD"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows

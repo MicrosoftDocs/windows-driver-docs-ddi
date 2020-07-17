@@ -10,6 +10,7 @@ keywords: ["PFN_REPORT_STATISTIC callback function"]
 ms.keywords: PFN_REPORT_STATISTIC, PFN_REPORT_STATISTIC callback, ReportStatistic, ReportStatistic callback function [Display Devices], display.reportstatistic, netdispumdddi/ReportStatistic
 f1_keywords:
  - "netdispumdddi/ReportStatistic"
+ - "ReportStatistic"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop

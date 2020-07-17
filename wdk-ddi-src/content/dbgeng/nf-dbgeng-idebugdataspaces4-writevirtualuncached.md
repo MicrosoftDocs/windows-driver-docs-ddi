@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces4::WriteVirtualUncached"]
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],WriteVirtualUncached method, IDebugDataSpaces2 interface [Windows Debugging],WriteVirtualUncached method, IDebugDataSpaces2::WriteVirtualUncached, IDebugDataSpaces3 interface [Windows Debugging],WriteVirtualUncached method, IDebugDataSpaces3::WriteVirtualUncached, IDebugDataSpaces4 interface [Windows Debugging],WriteVirtualUncached method, IDebugDataSpaces4.WriteVirtualUncached, IDebugDataSpaces4::WriteVirtualUncached, IDebugDataSpaces::WriteVirtualUncached, IDebugDataSpaces_6b986179-8f9c-4b4f-b42c-0c91088868ec.xml, WriteVirtualUncached, WriteVirtualUncached method [Windows Debugging], WriteVirtualUncached method [Windows Debugging],IDebugDataSpaces interface, WriteVirtualUncached method [Windows Debugging],IDebugDataSpaces2 interface, WriteVirtualUncached method [Windows Debugging],IDebugDataSpaces3 interface, WriteVirtualUncached method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::WriteVirtualUncached, dbgeng/IDebugDataSpaces3::WriteVirtualUncached, dbgeng/IDebugDataSpaces4::WriteVirtualUncached, dbgeng/IDebugDataSpaces::WriteVirtualUncached, debugger.writevirtualuncached
 f1_keywords:
  - "dbgeng/IDebugDataSpaces.WriteVirtualUncached"
+ - "IDebugDataSpaces.WriteVirtualUncached"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

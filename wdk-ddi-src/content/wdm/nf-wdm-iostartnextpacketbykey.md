@@ -10,6 +10,7 @@ keywords: ["IoStartNextPacketByKey function"]
 ms.keywords: IoStartNextPacketByKey, IoStartNextPacketByKey routine [Kernel-Mode Driver Architecture], k104_f2248acf-8071-43a6-b5f9-bc3bc178469b.xml, kernel.iostartnextpacketbykey, wdm/IoStartNextPacketByKey
 f1_keywords:
  - "wdm/IoStartNextPacketByKey"
+ - "IoStartNextPacketByKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

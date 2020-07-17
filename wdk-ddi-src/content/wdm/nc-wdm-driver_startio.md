@@ -10,6 +10,7 @@ keywords: ["DRIVER_STARTIO callback function"]
 ms.keywords: DRIVER_STARTIO, DrvrRtns_3227d9e5-10b6-449f-af47-48574e7a00d5.xml, StartIo, StartIo routine [Kernel-Mode Driver Architecture], kernel.startio, wdm/StartIo
 f1_keywords:
  - "wdm/StartIo"
+ - "StartIo"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

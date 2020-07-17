@@ -10,6 +10,7 @@ keywords: ["_PosDeviceBasicsType structure"]
 ms.keywords: PosDeviceBasicsType, PosDeviceBasicsType structure, _PosDeviceBasicsType, pointofservicedriverinterface/PosDeviceBasicsType, pos.posdevicebasicstype
 f1_keywords:
  - "pointofservicedriverinterface/PosDeviceBasicsType"
+ - "PosDeviceBasicsType"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

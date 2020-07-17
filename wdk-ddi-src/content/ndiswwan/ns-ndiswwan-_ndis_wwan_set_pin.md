@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_SET_PIN structure"]
 ms.keywords: "*PNDIS_WWAN_SET_PIN, NDIS_WWAN_SET_PIN, NDIS_WWAN_SET_PIN structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_PIN, PNDIS_WWAN_SET_PIN structure pointer [Network Drivers Starting with Windows Vista], WwanRef_565f6200-b5cd-4845-a606-bfb098eda610.xml, _NDIS_WWAN_SET_PIN, ndiswwan/NDIS_WWAN_SET_PIN, ndiswwan/PNDIS_WWAN_SET_PIN, netvista.ndis_wwan_set_pin"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_SET_PIN"
+ - "NDIS_WWAN_SET_PIN"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

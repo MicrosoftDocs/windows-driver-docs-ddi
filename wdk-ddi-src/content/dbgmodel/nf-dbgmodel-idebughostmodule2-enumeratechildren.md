@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["IDebugHostModule2::EnumerateChildren"]
 f1_keywords:
  - "dbgmodel/IDebugHostModule2.EnumerateChildren"
+ - "IDebugHostModule2.EnumerateChildren"
 ms.keywords: IDebugHostModule2::EnumerateChildren, EnumerateChildren, IDebugHostModule2.EnumerateChildren, IDebugHostModule2::EnumerateChildren, IDebugHostModule2.EnumerateChildren
 req.header: dbgmodel.h
 req.include-header:

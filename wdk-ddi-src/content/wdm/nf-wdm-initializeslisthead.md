@@ -10,6 +10,7 @@ keywords: ["InitializeSListHead function"]
 ms.keywords: ExInitializeSListHead, InitializeSListHead, InitializeSListHead routine [Kernel-Mode Driver Architecture], k102_6d3b712b-2dd5-4962-ad16-a296bdc4de2b.xml, kernel.exinitializeslisthead, wdm/InitializeSListHead
 f1_keywords:
  - "wdm/InitializeSListHead"
+ - "InitializeSListHead"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["ChangerClassDebugPrint function"]
 ms.keywords: ChangerClassDebugPrint, ChangerClassDebugPrint function [Storage Devices], chgrclas_3372885c-482b-4dab-87ae-e59668e91950.xml, mcd/ChangerClassDebugPrint, storage.changerclassdebugprint
 f1_keywords:
  - "mcd/ChangerClassDebugPrint"
+ - "ChangerClassDebugPrint"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

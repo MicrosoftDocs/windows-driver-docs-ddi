@@ -8,6 +8,7 @@ ms.date: 03/12/2018
 keywords: ["NetRequestGetAdapter function"]
 f1_keywords:
  - "netrequest/NetRequestGetAdapter"
+ - "NetRequestGetAdapter"
 ms.keywords: NetRequestGetAdapter
 req.header: netrequest.h
 req.include-header: netadaptercx.h

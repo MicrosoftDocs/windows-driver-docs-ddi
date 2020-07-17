@@ -10,6 +10,7 @@ ms.date: 09/26/2019
 keywords: ["NET_FRAGMENT_RETURN_CONTEXT structure"]
 f1_keywords:
  - "returncontexttypes/NET_FRAGMENT_RETURN_CONTEXT"
+ - "NET_FRAGMENT_RETURN_CONTEXT"
 ms.keywords: NET_FRAGMENT_RETURN_CONTEXT, NET_FRAGMENT_RETURN_CONTEXT, 
 req.header: returncontexttypes.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_USBD_PIPE_TYPE enumeration"]
 ms.keywords: USBD_PIPE_TYPE, USBD_PIPE_TYPE enumeration [Buses], UsbdPipeTypeBulk, UsbdPipeTypeControl, UsbdPipeTypeInterrupt, UsbdPipeTypeIsochronous, _USBD_PIPE_TYPE, buses.usbd_pipe_type, usb/USBD_PIPE_TYPE, usb/UsbdPipeTypeBulk, usb/UsbdPipeTypeControl, usb/UsbdPipeTypeInterrupt, usb/UsbdPipeTypeIsochronous, usbstrct_a1fda372-f509-4667-a615-b68936b0a42b.xml
 f1_keywords:
  - "usb/USBD_PIPE_TYPE"
+ - "USBD_PIPE_TYPE"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows

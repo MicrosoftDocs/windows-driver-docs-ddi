@@ -10,6 +10,7 @@ keywords: ["_WSK_EVENT_CALLBACK_CONTROL structure"]
 ms.keywords: "*PWSK_EVENT_CALLBACK_CONTROL, PWSK_EVENT_CALLBACK_CONTROL, PWSK_EVENT_CALLBACK_CONTROL structure pointer [Network Drivers Starting with Windows Vista], WSK_EVENT_CALLBACK_CONTROL, WSK_EVENT_CALLBACK_CONTROL structure [Network Drivers Starting with Windows Vista], _WSK_EVENT_CALLBACK_CONTROL, netvista.wsk_event_callback_control, wsk/PWSK_EVENT_CALLBACK_CONTROL, wsk/WSK_EVENT_CALLBACK_CONTROL, wskref_22cd0a01-12fe-4e5a-a423-c3198cc5ab05.xml"
 f1_keywords:
  - "wsk/WSK_EVENT_CALLBACK_CONTROL"
+ - "WSK_EVENT_CALLBACK_CONTROL"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows

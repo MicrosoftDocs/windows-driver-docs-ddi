@@ -10,6 +10,7 @@ keywords: ["_WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration"]
 ms.keywords: WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration, WdfPropertyStoreCreateIfMissing, WdfPropertyStoreCreateVolatile, WdfPropertyStoreNormal, WdfPropertyStoreRetrieveFlagsMask, _WDF_PROPERTY_STORE_RETRIEVE_FLAGS, umdf.wdf_property_store_retrieve_flags, umdfstructs_c11a65c3-e37f-4adb-b480-1682d8e51700.xml, wdf.wdf_property_store_retrieve_flags, wudfddi_types/WDF_PROPERTY_STORE_RETRIEVE_FLAGS, wudfddi_types/WdfPropertyStoreCreateIfMissing, wudfddi_types/WdfPropertyStoreCreateVolatile, wudfddi_types/WdfPropertyStoreNormal, wudfddi_types/WdfPropertyStoreRetrieveFlagsMask
 f1_keywords:
  - "wudfddi_types/WDF_PROPERTY_STORE_RETRIEVE_FLAGS"
+ - "WDF_PROPERTY_STORE_RETRIEVE_FLAGS"
 req.header: wudfddi_types.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

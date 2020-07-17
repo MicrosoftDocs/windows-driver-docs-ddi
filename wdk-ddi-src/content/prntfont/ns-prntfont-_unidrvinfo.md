@@ -10,6 +10,7 @@ keywords: ["_UNIDRVINFO structure"]
 ms.keywords: "*PUNIDRVINFO, PUNIDRVINFO, PUNIDRVINFO structure pointer [Print Devices], UNIDRVINFO, UNIDRVINFO structure [Print Devices], _UNIDRVINFO, print.unidrvinfo, print_unidrv-pscript_fonts_b956aa02-1966-47c6-aec1-8ef8b98f4e57.xml, prntfont/PUNIDRVINFO, prntfont/UNIDRVINFO"
 f1_keywords:
  - "prntfont/UNIDRVINFO"
+ - "UNIDRVINFO"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows

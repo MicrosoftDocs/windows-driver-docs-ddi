@@ -10,6 +10,7 @@ keywords: ["_PCI_EXPRESS_PME_REQUESTOR_ID structure"]
 ms.keywords: "*PPCI_EXPRESS_PME_REQUESTOR_ID, PCI.pci_express_pme_requestor_id, PCI_EXPRESS_PME_REQUESTOR_ID, PCI_EXPRESS_PME_REQUESTOR_ID union [Buses], PPCI_EXPRESS_PME_REQUESTOR_ID, PPCI_EXPRESS_PME_REQUESTOR_ID union pointer [Buses], _PCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PPCI_EXPRESS_PME_REQUESTOR_ID, pci_struct_0cb11d1f-7426-42fc-9d77-373516a492ae.xml"
 f1_keywords:
  - "miniport/PCI_EXPRESS_PME_REQUESTOR_ID"
+ - "PCI_EXPRESS_PME_REQUESTOR_ID"
 req.header: miniport.h
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows

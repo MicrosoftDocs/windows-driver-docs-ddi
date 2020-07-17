@@ -10,6 +10,7 @@ keywords: ["SdpCreateNodeUUID16 function"]
 ms.keywords: SdpCreateNodeUUID16, SdpCreateNodeUUID16 function [Bluetooth Devices], bltooth.sdpcreatenodeuuid16, bth_funcs_adf751aa-5dca-4356-8c15-84a4996acef9.xml, sdplib/SdpCreateNodeUUID16
 f1_keywords:
  - "sdplib/SdpCreateNodeUUID16"
+ - "SdpCreateNodeUUID16"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::Reload"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],Reload method, IDebugSymbols2 interface [Windows Debugging],Reload method, IDebugSymbols2::Reload, IDebugSymbols3 interface [Windows Debugging],Reload method, IDebugSymbols3.Reload, IDebugSymbols3::Reload, IDebugSymbols::Reload, IDebugSymbols_ec5df701-b081-45c4-b2e4-10c101ce69a4.xml, Reload, Reload method [Windows Debugging], Reload method [Windows Debugging],IDebugSymbols interface, Reload method [Windows Debugging],IDebugSymbols2 interface, Reload method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::Reload, dbgeng/IDebugSymbols3::Reload, dbgeng/IDebugSymbols::Reload, debugger.reload
 f1_keywords:
  - "dbgeng/IDebugSymbols.Reload"
+ - "IDebugSymbols.Reload"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

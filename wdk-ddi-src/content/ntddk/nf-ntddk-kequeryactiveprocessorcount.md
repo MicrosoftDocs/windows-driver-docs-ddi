@@ -10,6 +10,7 @@ keywords: ["KeQueryActiveProcessorCount function"]
 ms.keywords: KeQueryActiveProcessorCount, KeQueryActiveProcessorCount routine [Kernel-Mode Driver Architecture], k105_23574ace-ab66-43bb-976f-ca7310cece9a.xml, kernel.kequeryactiveprocessorcount, wdm/KeQueryActiveProcessorCount
 f1_keywords:
  - "ntddk/KeQueryActiveProcessorCount"
+ - "KeQueryActiveProcessorCount"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

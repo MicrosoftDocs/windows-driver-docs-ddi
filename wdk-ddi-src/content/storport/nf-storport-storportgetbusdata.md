@@ -10,6 +10,7 @@ keywords: ["StorPortGetBusData function"]
 ms.keywords: StorPortGetBusData, StorPortGetBusData routine [Storage Devices], storage.storportgetbusdata, storport/StorPortGetBusData, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml
 f1_keywords:
  - "storport/StorPortGetBusData"
+ - "StorPortGetBusData"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

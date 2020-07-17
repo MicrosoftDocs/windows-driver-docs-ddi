@@ -10,6 +10,7 @@ keywords: ["KSPROPERTY_TUNER_FREQUENCY_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_FREQUENCY_S, KSPROPERTY_TUNER_FREQUENCY_S, KSPROPERTY_TUNER_FREQUENCY_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_FREQUENCY_S, PKSPROPERTY_TUNER_FREQUENCY_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_FREQUENCY_S, ksmedia/PKSPROPERTY_TUNER_FREQUENCY_S, stream.ksproperty_tuner_frequency_s, vidcapstruct_7757eed6-a41b-4bcd-ad7b-05aca3b54cd0.xml"
 f1_keywords:
  - "ksmedia/KSPROPERTY_TUNER_FREQUENCY_S"
+ - "KSPROPERTY_TUNER_FREQUENCY_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

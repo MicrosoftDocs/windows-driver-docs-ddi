@@ -10,6 +10,7 @@ keywords: ["RILCALLMEDIADIRECTION enumeration"]
 ms.keywords: RILCALLMEDIADIRECTION, RILCALLMEDIADIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLMEDIADIRECTION_MAX, RIL_CALLMEDIADIRECTION_RX, RIL_CALLMEDIADIRECTION_RXTX, RIL_CALLMEDIADIRECTION_TX, netvista.rilcallmediadirection, ntddrilapitypes/RILCALLMEDIADIRECTION, ntddrilapitypes/RIL_CALLMEDIADIRECTION_MAX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_RX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_RXTX, ntddrilapitypes/RIL_CALLMEDIADIRECTION_TX
 f1_keywords:
  - "ntddrilapitypes/RILCALLMEDIADIRECTION"
+ - "RILCALLMEDIADIRECTION"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

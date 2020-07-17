@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["ARM64_SYSREG_CRM macro"]
 f1_keywords:
  - "wdm/ARM64_SYSREG_CRM"
+ - "ARM64_SYSREG_CRM"
 ms.keywords: ARM64_SYSREG_CRM
 req.header: wdm.h
 req.include-header:

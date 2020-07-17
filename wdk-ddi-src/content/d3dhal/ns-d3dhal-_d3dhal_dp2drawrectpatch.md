@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2DRAWRECTPATCH structure"]
 ms.keywords: "*LPD3DHAL_DP2DRAWRECTPATCH, D3DHAL_DP2DRAWRECTPATCH, D3DHAL_DP2DRAWRECTPATCH structure [Display Devices], LPD3DHAL_DP2DRAWRECTPATCH, LPD3DHAL_DP2DRAWRECTPATCH structure pointer [Display Devices], _D3DHAL_DP2DRAWRECTPATCH, d3dhal/D3DHAL_DP2DRAWRECTPATCH, d3dhal/LPD3DHAL_DP2DRAWRECTPATCH, d3dstrct_beda6033-07b1-4985-8eac-6bb49bcce07e.xml, display.d3dhal_dp2drawrectpatch"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2DRAWRECTPATCH"
+ - "D3DHAL_DP2DRAWRECTPATCH"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

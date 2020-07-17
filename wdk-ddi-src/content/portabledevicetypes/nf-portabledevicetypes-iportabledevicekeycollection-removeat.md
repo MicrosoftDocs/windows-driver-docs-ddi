@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceKeyCollection::RemoveAt"]
 ms.keywords: IPortableDeviceKeyCollection interface,RemoveAt method, IPortableDeviceKeyCollection.RemoveAt, IPortableDeviceKeyCollection::RemoveAt, IPortableDeviceKeyCollectionRemoveAt, RemoveAt, RemoveAt method, RemoveAt method,IPortableDeviceKeyCollection interface, portabledevicetypes/IPortableDeviceKeyCollection::RemoveAt, wpddk.iportabledevicekeycollection_removeat
 f1_keywords:
  - "portabledevicetypes/IPortableDeviceKeyCollection.RemoveAt"
+ - "IPortableDeviceKeyCollection.RemoveAt"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

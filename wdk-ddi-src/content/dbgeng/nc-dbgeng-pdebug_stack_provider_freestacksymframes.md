@@ -10,6 +10,7 @@ keywords: ["PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES callback function"]
 ms.keywords: FreeStackSymFrames, FreeStackSymFrames callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES, PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES callback, dbgeng/FreeStackSymFrames, debugger.freestacksymframes
 f1_keywords:
  - "dbgeng/FreeStackSymFrames"
+ - "FreeStackSymFrames"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

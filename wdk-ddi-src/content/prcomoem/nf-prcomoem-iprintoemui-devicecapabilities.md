@@ -10,6 +10,7 @@ keywords: ["IPrintOemUI::DeviceCapabilities"]
 ms.keywords: DeviceCapabilities, DeviceCapabilities method [Print Devices], DeviceCapabilities method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],DeviceCapabilities method, IPrintOemUI.DeviceCapabilities, IPrintOemUI::DeviceCapabilities, prcomoem/IPrintOemUI::DeviceCapabilities, print.iprintoemui_devicecapabilities, print_unidrv-pscript_ui_c484fb57-6990-4a0c-848d-5992051cb71d.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI.DeviceCapabilities"
+ - "IPrintOemUI.DeviceCapabilities"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

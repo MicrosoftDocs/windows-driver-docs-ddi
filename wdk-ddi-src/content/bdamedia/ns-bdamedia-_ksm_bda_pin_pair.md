@@ -10,6 +10,7 @@ keywords: ["_KSM_BDA_PIN_PAIR structure"]
 ms.keywords: "*PKSM_BDA_PIN_PAIR, KSM_BDA_PIN_PAIR, KSM_BDA_PIN_PAIR structure [Streaming Media Devices], PKSM_BDA_PIN_PAIR, PKSM_BDA_PIN_PAIR structure pointer [Streaming Media Devices], _KSM_BDA_PIN_PAIR, bdamedia/KSM_BDA_PIN_PAIR, bdamedia/PKSM_BDA_PIN_PAIR, bdaref_c171cffc-e7e6-432b-98ae-f198fdc20079.xml, stream.ksm_bda_pin_pair"
 f1_keywords:
  - "bdamedia/KSM_BDA_PIN_PAIR"
+ - "KSM_BDA_PIN_PAIR"
 req.header: bdamedia.h
 req.include-header: Bdamedia.h
 req.target-type: Windows

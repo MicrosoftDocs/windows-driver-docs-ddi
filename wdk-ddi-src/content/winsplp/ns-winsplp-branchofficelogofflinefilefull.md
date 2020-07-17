@@ -10,6 +10,7 @@ keywords: ["BranchOfficeLogOfflineFileFull structure"]
 ms.keywords: "*PBranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull structure [Print Devices], PBranchOfficeLogOfflineFileFull, PBranchOfficeLogOfflineFileFull structure pointer [Print Devices], print.branchofficelogofflinefilefull, winsplp/BranchOfficeLogOfflineFileFull, winsplp/PBranchOfficeLogOfflineFileFull"
 f1_keywords:
  - "winsplp/BranchOfficeLogOfflineFileFull"
+ - "BranchOfficeLogOfflineFileFull"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["KsServiceBusEnumCreateRequest function"]
 ms.keywords: KsServiceBusEnumCreateRequest, KsServiceBusEnumCreateRequest function [Streaming Media Devices], ksfunc_2eac1d4d-0b8f-4997-8265-4f3e7354f3a1.xml, stream.ksservicebusenumcreaterequest, swenum/KsServiceBusEnumCreateRequest
 f1_keywords:
  - "swenum/KsServiceBusEnumCreateRequest"
+ - "KsServiceBusEnumCreateRequest"
 req.header: swenum.h
 req.include-header: Swenum.h
 req.target-type: Universal

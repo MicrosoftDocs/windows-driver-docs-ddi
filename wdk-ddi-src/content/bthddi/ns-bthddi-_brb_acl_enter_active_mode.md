@@ -10,6 +10,7 @@ keywords: ["_BRB_ACL_ENTER_ACTIVE_MODE structure"]
 ms.keywords: "_BRB_ACL_ENTER_ACTIVE_MODE, _BRB_ACL_ENTER_ACTIVE_MODE structure [Bluetooth Devices], bltooth._brb_acl_enter_active_mode, bth_structs_1cb3c3f5-063a-4213-98b0-5a2c667f5e40.xml, bthddi/_BRB_ACL_ENTER_ACTIVE_MODE"
 f1_keywords:
  - "bthddi/_BRB_ACL_ENTER_ACTIVE_MODE"
+ - "_BRB_ACL_ENTER_ACTIVE_MODE"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

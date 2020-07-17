@@ -10,6 +10,7 @@ keywords: ["KeSetCoalescableTimer function"]
 ms.keywords: KeSetCoalescableTimer, KeSetCoalescableTimer routine [Kernel-Mode Driver Architecture], k105_3e45ae54-682d-47f6-a577-28277cee4829.xml, kernel.kesetcoalescabletimer, wdm/KeSetCoalescableTimer
 f1_keywords:
  - "wdm/KeSetCoalescableTimer"
+ - "KeSetCoalescableTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

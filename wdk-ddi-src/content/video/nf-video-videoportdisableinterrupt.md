@@ -10,6 +10,7 @@ keywords: ["VideoPortDisableInterrupt function"]
 ms.keywords: VideoPortDisableInterrupt, VideoPortDisableInterrupt function [Display Devices], VideoPort_Functions_b01a5ae8-7e44-4ac8-9e11-ee266f34a4da.xml, display.videoportdisableinterrupt, video/VideoPortDisableInterrupt
 f1_keywords:
  - "video/VideoPortDisableInterrupt"
+ - "VideoPortDisableInterrupt"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

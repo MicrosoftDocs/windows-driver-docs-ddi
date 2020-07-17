@@ -9,6 +9,7 @@ keywords: ["D3DKMTLock function"]
 ms.keywords: D3DKMTLock, D3DKMTLock function [Display Devices], OpenGL_Functions_ca085861-b8a0-434a-843d-9b8052376df5.xml, d3dkmthk/D3DKMTLock, display.d3dkmtlock
 f1_keywords:
  - "d3dkmthk/D3DKMTLock"
+ - "D3DKMTLock"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

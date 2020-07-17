@@ -10,6 +10,7 @@ keywords: ["KeQueryTimeIncrement function"]
 ms.keywords: KeQueryTimeIncrement, KeQueryTimeIncrement routine [Kernel-Mode Driver Architecture], k105_dc7a4658-7d4b-4b60-a8c8-693c36d68b27.xml, kernel.kequerytimeincrement, wdm/KeQueryTimeIncrement
 f1_keywords:
  - "wdm/KeQueryTimeIncrement"
+ - "KeQueryTimeIncrement"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

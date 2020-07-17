@@ -10,6 +10,7 @@ keywords: ["PCAM_FREE_BW_ROUTINE callback function"]
 ms.keywords: CamFreeBandwidth, CamFreeBandwidth callback function [Streaming Media Devices], PCAM_FREE_BW_ROUTINE, PCAM_FREE_BW_ROUTINE callback, stream.camfreebandwidth, usbcamdi/CamFreeBandwidth, usbcmdpr_bf8779db-a06c-49b8-aa2f-e558a53bfa93.xml
 f1_keywords:
  - "usbcamdi/CamFreeBandwidth"
+ - "CamFreeBandwidth"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

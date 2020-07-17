@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/SetStreamSource"
+ - "SetStreamSource"
 topic_type:
  - APIRef
  - kbSyntax

@@ -10,6 +10,7 @@ keywords: ["_ATA_PASS_THROUGH_DIRECT structure"]
 ms.keywords: "*PATA_PASS_THROUGH_DIRECT, ATA_PASS_THROUGH_DIRECT, ATA_PASS_THROUGH_DIRECT structure [Storage Devices], PATA_PASS_THROUGH_DIRECT, PATA_PASS_THROUGH_DIRECT structure pointer [Storage Devices], _ATA_PASS_THROUGH_DIRECT, ntddscsi/ATA_PASS_THROUGH_DIRECT, ntddscsi/PATA_PASS_THROUGH_DIRECT, storage.ata_pass_through_direct, structs-IDE_e59bb754-2ad4-49d0-b68c-8ef7b6273af5.xml"
 f1_keywords:
  - "ntddscsi/ATA_PASS_THROUGH_DIRECT"
+ - "ATA_PASS_THROUGH_DIRECT"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows

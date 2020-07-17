@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_QUERY_PROPERTY IOCTL"]
 ms.keywords: IOCTL_STORAGE_QUERY_PROPERTY, IOCTL_STORAGE_QUERY_PROPERTY control, IOCTL_STORAGE_QUERY_PROPERTY control code [Storage Devices], k307_1ee2fd05-4e88-47ef-8ed5-0553bcccc0d7.xml, ntddstor/IOCTL_STORAGE_QUERY_PROPERTY, storage.ioctl_storage_query_property
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_QUERY_PROPERTY"
+ - "IOCTL_STORAGE_QUERY_PROPERTY"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

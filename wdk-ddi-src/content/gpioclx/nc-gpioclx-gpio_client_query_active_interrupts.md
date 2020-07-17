@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS callback function"]
 ms.keywords: CLIENT_QueryActiveInterrupts, CLIENT_QueryActiveInterrupts callback, CLIENT_QueryActiveInterrupts callback function [Parallel Ports], GPIO.client_queryactiveinterrupts, GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS, gpioclx/CLIENT_QueryActiveInterrupts
 f1_keywords:
  - "gpioclx/CLIENT_QueryActiveInterrupts"
+ - "CLIENT_QueryActiveInterrupts"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop

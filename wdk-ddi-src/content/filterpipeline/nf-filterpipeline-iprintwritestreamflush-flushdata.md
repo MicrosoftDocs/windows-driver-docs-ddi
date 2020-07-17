@@ -10,6 +10,7 @@ keywords: ["IPrintWriteStreamFlush::FlushData"]
 ms.keywords: FlushData, FlushData method [Print Devices], FlushData method [Print Devices],IPrintWriteStreamFlush interface, IPrintWriteStreamFlush interface [Print Devices],FlushData method, IPrintWriteStreamFlush.FlushData, IPrintWriteStreamFlush::FlushData, filterpipeline/IPrintWriteStreamFlush::FlushData, print.iprintwritestreamflush_flushdata
 f1_keywords:
  - "filterpipeline/IPrintWriteStreamFlush.FlushData"
+ - "IPrintWriteStreamFlush.FlushData"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

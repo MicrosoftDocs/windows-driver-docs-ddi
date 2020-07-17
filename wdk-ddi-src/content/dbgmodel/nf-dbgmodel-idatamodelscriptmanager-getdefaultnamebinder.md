@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScriptManager::GetDefaultNameBinder"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptManager.GetDefaultNameBinder"
+ - "IDataModelScriptManager.GetDefaultNameBinder"
 ms.keywords: IDataModelScriptManager::GetDefaultNameBinder, GetDefaultNameBinder, IDataModelScriptManager.GetDefaultNameBinder, IDataModelScriptManager::GetDefaultNameBinder, IDataModelScriptManager.GetDefaultNameBinder
 req.header: dbgmodel.h
 req.include-header:

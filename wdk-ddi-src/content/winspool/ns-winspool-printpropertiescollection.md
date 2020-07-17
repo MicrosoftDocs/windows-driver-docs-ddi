@@ -10,6 +10,7 @@ keywords: ["PrintPropertiesCollection structure"]
 ms.keywords: PrintPropertiesCollection, PrintPropertiesCollection structure [Print Devices], print.printpropertiescollection, winspool/PrintPropertiesCollection
 f1_keywords:
  - "winspool/PrintPropertiesCollection"
+ - "PrintPropertiesCollection"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows

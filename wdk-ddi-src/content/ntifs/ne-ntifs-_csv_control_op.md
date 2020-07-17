@@ -8,6 +8,7 @@ ms.date: 10/21/2019
 keywords: ["_CSV_CONTROL_OP enumeration"]
 f1_keywords:
  - "ntifs/_CSV_CONTROL_OP"
+ - "_CSV_CONTROL_OP"
 ms.keywords: _CSV_CONTROL_OP, CSV_CONTROL_OP, *PCSV_CONTROL_OP, 
 req.header: ntifs.h
 req.include-header:

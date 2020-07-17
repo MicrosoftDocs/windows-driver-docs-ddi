@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function"]
 ms.keywords: EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, EVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback, EvtUcxUsbDeviceDefaultEndpointAdd, EvtUcxUsbDeviceDefaultEndpointAdd callback function [Buses], PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD, PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD callback function pointer [Buses], buses.evt_ucx_usbdevice_default_endpoint_add, ucxusbdevice/EvtUcxUsbDeviceDefaultEndpointAdd
 f1_keywords:
  - "ucxusbdevice/PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD"
+ - "PEVT_UCX_USBDEVICE_DEFAULT_ENDPOINT_ADD"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

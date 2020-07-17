@@ -10,6 +10,7 @@ keywords: ["IoWMIQuerySingleInstanceMultiple function"]
 ms.keywords: IoWMIQuerySingleInstanceMultiple, IoWMIQuerySingleInstanceMultiple routine [Kernel-Mode Driver Architecture], k104_bd0dace0-1c4b-4e21-9e2c-7c3060878881.xml, kernel.iowmiquerysingleinstancemultiple, wdm/IoWMIQuerySingleInstanceMultiple
 f1_keywords:
  - "wdm/IoWMIQuerySingleInstanceMultiple"
+ - "IoWMIQuerySingleInstanceMultiple"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

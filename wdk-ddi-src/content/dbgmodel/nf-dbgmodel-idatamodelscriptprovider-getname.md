@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScriptProvider::GetName"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptProvider.GetName"
+ - "IDataModelScriptProvider.GetName"
 ms.keywords: IDataModelScriptProvider::GetName, GetName, IDataModelScriptProvider.GetName, IDataModelScriptProvider::GetName, IDataModelScriptProvider.GetName
 req.header: dbgmodel.h
 req.include-header:

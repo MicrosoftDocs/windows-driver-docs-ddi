@@ -10,6 +10,7 @@ keywords: ["_DXVA_ProcAmpControlQueryRange structure"]
 ms.keywords: "*LPDXVA_ProcAmpControlQueryRange, DXVA_ProcAmpControlQueryRange, DXVA_ProcAmpControlQueryRange structure [Display Devices], LPDXVA_ProcAmpControlQueryRange, LPDXVA_ProcAmpControlQueryRange structure pointer [Display Devices], _DXVA_ProcAmpControlQueryRange, display.dxva_procampcontrolqueryrange, dxva/DXVA_ProcAmpControlQueryRange, dxva/LPDXVA_ProcAmpControlQueryRange, dxvaref_5122c77d-0d7a-42a4-be26-f03993fb52db.xml"
 f1_keywords:
  - "dxva/DXVA_ProcAmpControlQueryRange"
+ - "DXVA_ProcAmpControlQueryRange"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

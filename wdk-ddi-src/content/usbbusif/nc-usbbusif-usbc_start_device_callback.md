@@ -10,6 +10,7 @@ keywords: ["USBC_START_DEVICE_CALLBACK callback function"]
 ms.keywords: USBC_START_DEVICE_CALLBACK, USBC_START_DEVICE_CALLBACK callback, UsbcStartDeviceCallback, UsbcStartDeviceCallback callback function [Buses], buses.usbc_start_device_callback, usbbusif/UsbcStartDeviceCallback, usbinterKR_d70617c5-be67-4660-9aa3-76b4c66c2616.xml
 f1_keywords:
  - "usbbusif/UsbcStartDeviceCallback"
+ - "UsbcStartDeviceCallback"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop

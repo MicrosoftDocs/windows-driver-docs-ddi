@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_PRESENT structure"]
 ms.keywords: D3DDDICB_PRESENT, D3DDDICB_PRESENT structure [Display Devices], D3D_param_Structs_969f252f-fe5c-4351-9c7a-746fd33cb405.xml, _D3DDDICB_PRESENT, d3dumddi/D3DDDICB_PRESENT, display.d3dddicb_present
 f1_keywords:
  - "d3dumddi/D3DDDICB_PRESENT"
+ - "D3DDDICB_PRESENT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

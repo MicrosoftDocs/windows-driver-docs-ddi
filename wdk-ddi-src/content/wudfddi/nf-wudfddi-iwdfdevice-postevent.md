@@ -10,6 +10,7 @@ keywords: ["IWDFDevice::PostEvent"]
 ms.keywords: IWDFDevice interface,PostEvent method, IWDFDevice.PostEvent, IWDFDevice::PostEvent, PostEvent, PostEvent method, PostEvent method,IWDFDevice interface, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, umdf.iwdfdevice_postevent, wdf.iwdfdevice_postevent, wudfddi/IWDFDevice::PostEvent
 f1_keywords:
  - "wudfddi/IWDFDevice.PostEvent"
+ - "IWDFDevice.PostEvent"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

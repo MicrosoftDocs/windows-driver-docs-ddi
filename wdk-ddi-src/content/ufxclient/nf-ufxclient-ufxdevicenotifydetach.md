@@ -10,6 +10,7 @@ keywords: ["UfxDeviceNotifyDetach function"]
 ms.keywords: UfxDeviceNotifyDetach, UfxDeviceNotifyDetach method [Buses], buses.ufxdevicenotifydetach, ufxclient/UfxDeviceNotifyDetach
 f1_keywords:
  - "ufxclient/UfxDeviceNotifyDetach"
+ - "UfxDeviceNotifyDetach"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

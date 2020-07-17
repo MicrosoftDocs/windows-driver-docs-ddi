@@ -10,6 +10,7 @@ keywords: ["WdfWorkItemCreate function"]
 ms.keywords: DFWorkItemObjectRef_0041ea62-aa06-4e8b-8f84-807731ecc516.xml, WdfWorkItemCreate, WdfWorkItemCreate method, kmdf.wdfworkitemcreate, wdf.wdfworkitemcreate, wdfworkitem/WdfWorkItemCreate
 f1_keywords:
  - "wdfworkitem/WdfWorkItemCreate"
+ - "WdfWorkItemCreate"
 req.header: wdfworkitem.h
 req.include-header: Wdf.h
 req.target-type: Universal

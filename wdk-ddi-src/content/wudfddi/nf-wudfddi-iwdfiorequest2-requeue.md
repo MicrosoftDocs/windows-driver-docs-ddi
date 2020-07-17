@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest2::Requeue"]
 ms.keywords: IWDFIoRequest2 interface,Requeue method, IWDFIoRequest2.Requeue, IWDFIoRequest2::Requeue, Requeue, Requeue method, Requeue method,IWDFIoRequest2 interface, UMDFRequestObjectRef_e86bd6e8-ed4b-42e8-a32f-29c4415e1384.xml, umdf.iwdfiorequest2_requeue, wdf.iwdfiorequest2_requeue, wudfddi/IWDFIoRequest2::Requeue
 f1_keywords:
  - "wudfddi/IWDFIoRequest2.Requeue"
+ - "IWDFIoRequest2.Requeue"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

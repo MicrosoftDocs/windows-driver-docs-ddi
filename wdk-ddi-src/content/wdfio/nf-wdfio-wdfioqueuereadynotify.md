@@ -10,6 +10,7 @@ keywords: ["WdfIoQueueReadyNotify function"]
 ms.keywords: DFQueueObjectRef_4816d999-fba0-46f6-8fbf-e1421d3d87e2.xml, WdfIoQueueReadyNotify, WdfIoQueueReadyNotify method, kmdf.wdfioqueuereadynotify, wdf.wdfioqueuereadynotify, wdfio/WdfIoQueueReadyNotify
 f1_keywords:
  - "wdfio/WdfIoQueueReadyNotify"
+ - "WdfIoQueueReadyNotify"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

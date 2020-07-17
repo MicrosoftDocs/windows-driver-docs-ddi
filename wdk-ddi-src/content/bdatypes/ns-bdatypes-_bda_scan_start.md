@@ -10,6 +10,7 @@ keywords: ["_BDA_SCAN_START structure"]
 ms.keywords: "*PBDA_SCAN_START, BDA_SCAN_START, BDA_SCAN_START structure [Streaming Media Devices], PBDA_SCAN_START, PBDA_SCAN_START structure pointer [Streaming Media Devices], _BDA_SCAN_START, bdatypes/BDA_SCAN_START, bdatypes/PBDA_SCAN_START, stream.bda_scan_start"
 f1_keywords:
  - "bdatypes/BDA_SCAN_START"
+ - "BDA_SCAN_START"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

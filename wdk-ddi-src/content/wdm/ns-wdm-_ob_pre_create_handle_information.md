@@ -10,6 +10,7 @@ keywords: ["_OB_PRE_CREATE_HANDLE_INFORMATION structure"]
 ms.keywords: "*POB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], POB_PRE_CREATE_HANDLE_INFORMATION, POB_PRE_CREATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_PRE_CREATE_HANDLE_INFORMATION, kernel.ob_pre_create_handle_information, kstruct_c_e7efa519-bfcd-4f16-9723-294f061bea51.xml, wdm/OB_PRE_CREATE_HANDLE_INFORMATION, wdm/POB_PRE_CREATE_HANDLE_INFORMATION"
 f1_keywords:
  - "wdm/OB_PRE_CREATE_HANDLE_INFORMATION"
+ - "OB_PRE_CREATE_HANDLE_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

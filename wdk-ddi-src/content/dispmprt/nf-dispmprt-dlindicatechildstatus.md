@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlIndicateChildStatus function"]
 f1_keywords:
  - "dispmprt/DlIndicateChildStatus"
+ - "DlIndicateChildStatus"
 ms.keywords: DlIndicateChildStatus
 req.header: dispmprt.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["IWDFDriver::RetrieveVersionString"]
 ms.keywords: IWDFDriver interface,RetrieveVersionString method, IWDFDriver.RetrieveVersionString, IWDFDriver::RetrieveVersionString, RetrieveVersionString, RetrieveVersionString method, RetrieveVersionString method,IWDFDriver interface, UMDFDriverObjectRef_fea0fb04-a861-44b6-8552-150454f9933d.xml, umdf.iwdfdriver_retrieveversionstring, wdf.iwdfdriver_retrieveversionstring, wudfddi/IWDFDriver::RetrieveVersionString
 f1_keywords:
  - "wudfddi/IWDFDriver.RetrieveVersionString"
+ - "IWDFDriver.RetrieveVersionString"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

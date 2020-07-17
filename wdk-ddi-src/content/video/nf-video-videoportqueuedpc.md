@@ -10,6 +10,7 @@ keywords: ["VideoPortQueueDpc function"]
 ms.keywords: VideoPortQueueDpc, VideoPortQueueDpc function [Display Devices], VideoPort_Functions_133e8c8b-e445-4f83-ad93-7eb560047f3f.xml, display.videoportqueuedpc, video/VideoPortQueueDpc
 f1_keywords:
  - "video/VideoPortQueueDpc"
+ - "VideoPortQueueDpc"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

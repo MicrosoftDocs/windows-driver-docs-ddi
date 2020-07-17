@@ -9,6 +9,7 @@ keywords: ["D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure"]
 ms.keywords: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure [Display Devices], d3d12umddi/D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, display.d3d12ddi_texture_layout_caps_0001
 f1_keywords:
  - "d3d12umddi/D3D12DDI_TEXTURE_LAYOUT_CAPS_0001"
+ - "D3D12DDI_TEXTURE_LAYOUT_CAPS_0001"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

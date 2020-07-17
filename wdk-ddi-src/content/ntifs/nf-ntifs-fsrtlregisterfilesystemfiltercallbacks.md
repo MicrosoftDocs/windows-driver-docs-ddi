@@ -10,6 +10,7 @@ keywords: ["FsRtlRegisterFileSystemFilterCallbacks function"]
 ms.keywords: FsRtlRegisterFileSystemFilterCallbacks, FsRtlRegisterFileSystemFilterCallbacks routine [Installable File System Drivers], fsrtlref_a831a0f3-f819-45e3-9121-ae50ef1b95bf.xml, ifsk.fsrtlregisterfilesystemfiltercallbacks, ntifs/FsRtlRegisterFileSystemFilterCallbacks
 f1_keywords:
  - "ntifs/FsRtlRegisterFileSystemFilterCallbacks"
+ - "FsRtlRegisterFileSystemFilterCallbacks"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_NDIS_RECEIVE_QUEUE_TYPE enumeration"]
 ms.keywords: "*PNDIS_RECEIVE_QUEUE_TYPE, NDIS_RECEIVE_QUEUE_TYPE, NDIS_RECEIVE_QUEUE_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisReceiveQueueTypeMaximum, NdisReceiveQueueTypeUnspecified, NdisReceiveQueueTypeVMQueue, PNDIS_RECEIVE_QUEUE_TYPE, PNDIS_RECEIVE_QUEUE_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_TYPE, netvista.ndis_receive_queue_type, ntddndis/NDIS_RECEIVE_QUEUE_TYPE, ntddndis/NdisReceiveQueueTypeMaximum, ntddndis/NdisReceiveQueueTypeUnspecified, ntddndis/NdisReceiveQueueTypeVMQueue, ntddndis/PNDIS_RECEIVE_QUEUE_TYPE, virtual_machine_queue_ref_b51e0e9c-353e-40a1-b466-3136db1fcdd9.xml"
 f1_keywords:
  - "ntddndis/NDIS_RECEIVE_QUEUE_TYPE"
+ - "NDIS_RECEIVE_QUEUE_TYPE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

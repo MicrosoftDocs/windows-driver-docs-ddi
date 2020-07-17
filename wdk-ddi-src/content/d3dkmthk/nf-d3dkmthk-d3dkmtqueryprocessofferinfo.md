@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTQueryProcessOfferInfo function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTQueryProcessOfferInfo"
+ - "D3DKMTQueryProcessOfferInfo"
 ms.keywords: D3DKMTQueryProcessOfferInfo
 req.header: d3dkmthk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_IDE_CHANNEL_INTERFACE structure"]
 ms.keywords: "*PIDE_CHANNEL_INTERFACE, IDE_CHANNEL_INTERFACE, IDE_CHANNEL_INTERFACE structure [Storage Devices], PIDE_CHANNEL_INTERFACE, PIDE_CHANNEL_INTERFACE structure pointer [Storage Devices], _IDE_CHANNEL_INTERFACE, irb/IDE_CHANNEL_INTERFACE, irb/PIDE_CHANNEL_INTERFACE, storage.ide_channel_interface, structs-ATA_8641c5e5-fe37-4576-a500-1f6a2cdbb23b.xml"
 f1_keywords:
  - "irb/IDE_CHANNEL_INTERFACE"
+ - "IDE_CHANNEL_INTERFACE"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows

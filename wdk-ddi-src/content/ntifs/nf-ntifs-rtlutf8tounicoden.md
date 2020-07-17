@@ -10,6 +10,7 @@ keywords: ["RtlUTF8ToUnicodeN function"]
 ms.keywords: RtlUTF8ToUnicodeN, RtlUTF8ToUnicodeN routine [Kernel-Mode Driver Architecture], k109_67399c4f-a942-4493-b141-6824b6de570c.xml, kernel.rtlutf8tounicoden, wdm/RtlUTF8ToUnicodeN
 f1_keywords:
  - "ntifs/RtlUTF8ToUnicodeN"
+ - "RtlUTF8ToUnicodeN"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Wdm.h, Ntifs.h
 req.target-type: Universal

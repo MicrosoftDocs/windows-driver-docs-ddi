@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostType::GetContainingModule"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.GetContainingModule"
+ - "IDebugHostType.GetContainingModule"
 ms.keywords: IDebugHostType::GetContainingModule, GetContainingModule, IDebugHostType.GetContainingModule, IDebugHostType::GetContainingModule, IDebugHostType.GetContainingModule
 req.header: dbgmodel.h
 req.include-header:

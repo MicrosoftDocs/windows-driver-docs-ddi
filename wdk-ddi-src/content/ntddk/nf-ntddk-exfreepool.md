@@ -10,6 +10,7 @@ keywords: ["ExFreePool macro"]
 ms.keywords: ExFreePool, ExFreePool routine [Kernel-Mode Driver Architecture], k102_134b475a-f669-4f1e-8836-f41945d7230c.xml, kernel.exfreepool, wdm/ExFreePool
 f1_keywords:
  - "ntddk/ExFreePool"
+ - "ExFreePool"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

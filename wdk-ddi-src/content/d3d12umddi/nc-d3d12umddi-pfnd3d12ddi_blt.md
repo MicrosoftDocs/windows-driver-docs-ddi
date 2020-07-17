@@ -28,6 +28,7 @@ req.type-library:
 targetos: Windows
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_BLT"
+ - "PFND3D12DDI_BLT"
 topic_type:
  - apiref
 api_type:

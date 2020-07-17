@@ -10,6 +10,7 @@ keywords: ["MINIPORT_CANCEL_OID_REQUEST callback function"]
 ms.keywords: MINIPORT_CANCEL_OID_REQUEST, MINIPORT_CANCEL_OID_REQUEST callback, MiniportCancelOidRequest, MiniportCancelOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/MiniportCancelOidRequest, ndis_request_ref_8a44b849-35fd-4c19-97eb-09bd68fb97bb.xml, netvista.miniportcanceloidrequest
 f1_keywords:
  - "ndis/MiniportCancelOidRequest"
+ - "MiniportCancelOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

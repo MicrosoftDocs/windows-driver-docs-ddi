@@ -10,6 +10,7 @@ keywords: ["WdfWmiProviderGetTracingHandle function"]
 ms.keywords: DFWMIRef_eea0d3ab-8fb8-4053-8260-e5c396a06524.xml, WdfWmiProviderGetTracingHandle, WdfWmiProviderGetTracingHandle method, kmdf.wdfwmiprovidergettracinghandle, wdf.wdfwmiprovidergettracinghandle, wdfwmi/WdfWmiProviderGetTracingHandle
 f1_keywords:
  - "wdfwmi/WdfWmiProviderGetTracingHandle"
+ - "WdfWmiProviderGetTracingHandle"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal

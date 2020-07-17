@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IModelObject::SetKey"]
 f1_keywords:
  - "dbgmodel/IModelObject.SetKey"
+ - "IModelObject.SetKey"
 ms.keywords: IModelObject::SetKey, SetKey, IModelObject.SetKey, IModelObject::SetKey, IModelObject.SetKey
 req.header: dbgmodel.h
 req.include-header:

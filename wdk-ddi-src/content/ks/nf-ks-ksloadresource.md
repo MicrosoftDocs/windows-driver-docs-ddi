@@ -10,6 +10,7 @@ keywords: ["KsLoadResource function"]
 ms.keywords: KsLoadResource, KsLoadResource function [Streaming Media Devices], ks/KsLoadResource, ksfunc_d966a58a-b0f0-411f-a19c-1db726efc56e.xml, stream.ksloadresource
 f1_keywords:
  - "ks/KsLoadResource"
+ - "KsLoadResource"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

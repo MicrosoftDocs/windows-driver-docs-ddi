@@ -10,6 +10,7 @@ keywords: ["RIL_GetHideIdSettings function"]
 ms.keywords: RIL_GetHideIdSettings, RIL_GetHideIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_gethideidsettings, rilapi/RIL_GetHideIdSettings
 f1_keywords:
  - "rilapi/RIL_GetHideIdSettings"
+ - "RIL_GetHideIdSettings"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

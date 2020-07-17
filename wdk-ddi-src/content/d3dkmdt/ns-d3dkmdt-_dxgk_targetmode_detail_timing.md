@@ -10,6 +10,7 @@ keywords: ["_DXGK_TARGETMODE_DETAIL_TIMING structure"]
 ms.keywords: DXGK_TARGETMODE_DETAIL_TIMING, DXGK_TARGETMODE_DETAIL_TIMING structure [Display Devices], DmStructs_e09b214e-5cd4-430e-b5ba-ece083bbb71c.xml, _DXGK_TARGETMODE_DETAIL_TIMING, d3dkmdt/DXGK_TARGETMODE_DETAIL_TIMING, display.dxgk_targetmode_detail_timing
 f1_keywords:
  - "d3dkmdt/DXGK_TARGETMODE_DETAIL_TIMING"
+ - "DXGK_TARGETMODE_DETAIL_TIMING"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

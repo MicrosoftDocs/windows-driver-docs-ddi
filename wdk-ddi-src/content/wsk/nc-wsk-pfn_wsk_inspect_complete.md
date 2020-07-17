@@ -10,6 +10,7 @@ keywords: ["PFN_WSK_INSPECT_COMPLETE callback function"]
 ms.keywords: PFN_WSK_INSPECT_COMPLETE, PFN_WSK_INSPECT_COMPLETE callback, WskInspectComplete, WskInspectComplete callback function [Network Drivers Starting with Windows Vista], netvista.wskinspectcomplete, wsk/WskInspectComplete, wskref_af7aebea-0be9-457d-8404-6106b21312ec.xml
 f1_keywords:
  - "wsk/WskInspectComplete"
+ - "WskInspectComplete"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDeviceInitAllocate function"]
 ms.keywords: UdecxUsbDeviceInitAllocate, UdecxUsbDeviceInitAllocate function [Buses], buses.udecxusbdeviceinitallocate, udecxusbdevice/UdecxUsbDeviceInitAllocate
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceInitAllocate"
+ - "UdecxUsbDeviceInitAllocate"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

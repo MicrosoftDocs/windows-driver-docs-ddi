@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTChangeVideoMemoryReservation function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTChangeVideoMemoryReservation"
+ - "D3DKMTChangeVideoMemoryReservation"
 ms.keywords: D3DKMTChangeVideoMemoryReservation
 req.header: d3dkmthk.h
 req.include-header:

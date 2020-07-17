@@ -10,6 +10,7 @@ keywords: ["RtlStringCchCopyNA function"]
 ms.keywords: RtlStringCchCopyN, RtlStringCchCopyNA, RtlStringCchCopyNW, RtlStringCchCopyNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcopyn, ntstrsafe/RtlStringCchCopyNW, safestrings_6ecbc673-80c3-4568-a6e3-96865035bfed.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCchCopyNW"
+ - "RtlStringCchCopyNW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IPrintOemPS::Command"]
 ms.keywords: Command, Command method [Print Devices], Command method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],Command method, IPrintOemPS.Command, IPrintOemPS::Command, prcomoem/IPrintOemPS::Command, print.iprintoemps_command, print_unidrv-pscript_rendering_ec087427-976b-4f71-9db9-a0c08f214907.xml
 f1_keywords:
  - "prcomoem/IPrintOemPS.Command"
+ - "IPrintOemPS.Command"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

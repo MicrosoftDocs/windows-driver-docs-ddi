@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaPageImageableSize interface"]
 ms.keywords: IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], IPrintSchemaPageImageableSize interface [Print Devices],described, print.iprintschemapageimageablesize_interface, printerextension/IPrintSchemaPageImageableSize
 f1_keywords:
  - "printerextension/IPrintSchemaPageImageableSize"
+ - "IPrintSchemaPageImageableSize"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

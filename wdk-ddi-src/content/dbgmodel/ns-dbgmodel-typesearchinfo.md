@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["TypeSearchInfo structure"]
 f1_keywords:
  - "dbgmodel/TypeSearchInfo"
+ - "TypeSearchInfo"
 ms.keywords: TypeSearchInfo, , 
 req.header: dbgmodel.h
 req.include-header:

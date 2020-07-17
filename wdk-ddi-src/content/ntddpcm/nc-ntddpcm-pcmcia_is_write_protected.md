@@ -10,6 +10,7 @@ keywords: ["PCMCIA_IS_WRITE_PROTECTED callback function"]
 ms.keywords: IsWriteProtected, IsWriteProtected callback function [Buses], PCMCIA.pcmcia_is_write_protected, PCMCIA_IS_WRITE_PROTECTED, PCMCIA_IS_WRITE_PROTECTED callback, memcdref_e7dab6ad-c94a-42c9-a969-f102c58e4d3c.xml, ntddpcm/IsWriteProtected
 f1_keywords:
  - "ntddpcm/IsWriteProtected"
+ - "IsWriteProtected"
 req.header: ntddpcm.h
 req.include-header: Ntddpcm.h
 req.target-type: Desktop

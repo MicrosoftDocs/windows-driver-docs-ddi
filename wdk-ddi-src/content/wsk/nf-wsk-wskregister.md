@@ -10,6 +10,7 @@ keywords: ["WskRegister function"]
 ms.keywords: WskRegister, WskRegister function [Network Drivers Starting with Windows Vista], netvista.wskregister, wsk/WskRegister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml
 f1_keywords:
  - "wsk/WskRegister"
+ - "WskRegister"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

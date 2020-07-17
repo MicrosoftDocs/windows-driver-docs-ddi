@@ -10,6 +10,7 @@ keywords: ["EVT_VMB_CHANNEL_PROCESSING_COMPLETE callback function"]
 ms.keywords: EVT_VMB_CHANNEL_PROCESSING_COMPLETE, EVT_VMB_CHANNEL_PROCESSING_COMPLETE callback, EvtVmbChannelProcessingComplete, EvtVmbChannelProcessingComplete callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_PROCESSING_COMPLETE, PFN_VMB_CHANNEL_PROCESSING_COMPLETE callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_processing_complete, vmbuskernelmodeclientlibapi/EvtVmbChannelProcessingComplete
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/PFN_VMB_CHANNEL_PROCESSING_COMPLETE"
+ - "PFN_VMB_CHANNEL_PROCESSING_COMPLETE"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header: VmbusKernelModeClientLibApi.h
 req.target-type: Windows

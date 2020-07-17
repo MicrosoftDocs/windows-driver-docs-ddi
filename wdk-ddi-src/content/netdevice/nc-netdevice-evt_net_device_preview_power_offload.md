@@ -10,6 +10,7 @@ ms.date: 10/10/2019
 keywords: ["EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD callback function"]
 f1_keywords:
  - "netdevice/EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD"
+ - "EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD"
 req.header: netdevice.h
 req.include-header:
 req.target-type:

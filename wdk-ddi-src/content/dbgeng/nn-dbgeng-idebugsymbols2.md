@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols2 interface"]
 ms.keywords: IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], IDebugSymbols2 interface [Windows Debugging],described, dbgeng/IDebugSymbols2, debugger.idebugsymbols2
 f1_keywords:
  - "dbgeng/IDebugSymbols2"
+ - "IDebugSymbols2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

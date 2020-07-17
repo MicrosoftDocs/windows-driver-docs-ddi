@@ -10,6 +10,7 @@ keywords: ["KSDS3D_LISTENER_ALL structure"]
 ms.keywords: "*PKSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL, KSDS3D_LISTENER_ALL structure [Audio Devices], PKSDS3D_LISTENER_ALL, PKSDS3D_LISTENER_ALL structure pointer [Audio Devices], aud-prop_1fd24ba2-9b2d-4ee2-b40c-eb7812597da0.xml, audio.ksds3d_listener_all, ksmedia/KSDS3D_LISTENER_ALL, ksmedia/PKSDS3D_LISTENER_ALL"
 f1_keywords:
  - "ksmedia/KSDS3D_LISTENER_ALL"
+ - "KSDS3D_LISTENER_ALL"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

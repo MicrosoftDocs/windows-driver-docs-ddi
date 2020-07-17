@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["*PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST callback function"]
 f1_keywords:
  - "trustedruntimeclx/*PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST"
+ - "*PFN_TRSECUREDEVICECOMPLETEASYNCREQUEST"
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

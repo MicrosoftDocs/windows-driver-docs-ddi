@@ -10,6 +10,7 @@ keywords: ["FsRtlAreThereWaitingFileLocks function"]
 ms.keywords: FsRtlAreThereWaitingFileLocks, FsRtlAreThereWaitingFileLocks routine [Installable File System Drivers], ifsk.fsrtlaretherewaitingfilelocks, ntifs/FsRtlAreThereWaitingFileLocks
 f1_keywords:
  - "ntifs/FsRtlAreThereWaitingFileLocks"
+ - "FsRtlAreThereWaitingFileLocks"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

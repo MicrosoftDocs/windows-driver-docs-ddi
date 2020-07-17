@@ -10,6 +10,7 @@ keywords: ["WdfWmiProviderGetDevice function"]
 ms.keywords: DFWMIRef_697647f5-0ece-46e4-8973-07088c8c3739.xml, WdfWmiProviderGetDevice, WdfWmiProviderGetDevice method, kmdf.wdfwmiprovidergetdevice, wdf.wdfwmiprovidergetdevice, wdfwmi/WdfWmiProviderGetDevice
 f1_keywords:
  - "wdfwmi/WdfWmiProviderGetDevice"
+ - "WdfWmiProviderGetDevice"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal

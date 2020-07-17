@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGK_BRIGHTNESS_SENSOR_DATA structure"]
 f1_keywords:
  - "d3dkmdt/_DXGK_BRIGHTNESS_SENSOR_DATA"
+ - "_DXGK_BRIGHTNESS_SENSOR_DATA"
 ms.keywords: _DXGK_BRIGHTNESS_SENSOR_DATA, DXGK_BRIGHTNESS_SENSOR_DATA,
 req.header: d3dkmdt.h
 req.include-header:

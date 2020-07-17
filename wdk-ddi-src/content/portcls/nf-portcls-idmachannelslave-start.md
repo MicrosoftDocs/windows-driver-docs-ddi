@@ -8,6 +8,7 @@ ms.date: 10/30/2018
 keywords: ["IDmaChannelSlave::Start"]
 f1_keywords:
  - "portcls/IDmaChannelSlave.Start"
+ - "IDmaChannelSlave.Start"
 ms.keywords: IDmaChannelSlave::Start, Start, IDmaChannelSlave.Start, IDmaChannelSlave::Start, IDmaChannelSlave.Start
 req.header: portcls.h
 req.include-header:

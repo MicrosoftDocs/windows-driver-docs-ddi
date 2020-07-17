@@ -10,6 +10,7 @@ keywords: ["RxGetFileSizeWithLock function"]
 ms.keywords: RxGetFileSizeWithLock, RxGetFileSizeWithLock function [Installable File System Drivers], fcb/RxGetFileSizeWithLock, ifsk.rxgetfilesizewithlock, rxref_15aee1e0-d82a-45ea-ad0b-e610347c62fe.xml
 f1_keywords:
  - "fcb/RxGetFileSizeWithLock"
+ - "RxGetFileSizeWithLock"
 req.header: fcb.h
 req.include-header: Mrxfcb.h, Fcb.h
 req.target-type: Desktop

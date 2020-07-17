@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["IStringDisplayableConcept::AddRef"]
 f1_keywords:
  - "dbgmodel/IStringDisplayableConcept.AddRef"
+ - "IStringDisplayableConcept.AddRef"
 ms.keywords: IStringDisplayableConcept::AddRef, AddRef, IStringDisplayableConcept.AddRef, IStringDisplayableConcept::AddRef, IStringDisplayableConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:

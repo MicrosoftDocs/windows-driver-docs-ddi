@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackIoStop interface"]
 ms.keywords: IQueueCallbackIoStop, IQueueCallbackIoStop interface, IQueueCallbackIoStop interface,described, UMDFQueueObjectRef_cf62ed54-43d3-4a9e-8e82-85695bf30527.xml, umdf.iqueuecallbackiostop, wdf.iqueuecallbackiostop, wudfddi/IQueueCallbackIoStop
 f1_keywords:
  - "wudfddi/IQueueCallbackIoStop"
+ - "IQueueCallbackIoStop"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

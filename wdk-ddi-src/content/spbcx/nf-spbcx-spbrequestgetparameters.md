@@ -10,6 +10,7 @@ keywords: ["SpbRequestGetParameters function"]
 ms.keywords: SPB.spbrequestgetparameters, SpbRequestGetParameters, SpbRequestGetParameters method [Buses], spbcx/SpbRequestGetParameters
 f1_keywords:
  - "spbcx/SpbRequestGetParameters"
+ - "SpbRequestGetParameters"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal

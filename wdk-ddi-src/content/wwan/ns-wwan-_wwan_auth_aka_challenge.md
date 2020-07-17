@@ -10,6 +10,7 @@ keywords: ["_WWAN_AUTH_AKA_CHALLENGE structure"]
 ms.keywords: "*PWWAN_AUTH_AKA_CHALLENGE, PWWAN_AUTH_AKA_CHALLENGE, PWWAN_AUTH_AKA_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKA_CHALLENGE, WWAN_AUTH_AKA_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKA_CHALLENGE, netvista.wwan_auth_aka_challenge, wwan/PWWAN_AUTH_AKA_CHALLENGE, wwan/WWAN_AUTH_AKA_CHALLENGE"
 f1_keywords:
  - "wwan/WWAN_AUTH_AKA_CHALLENGE"
+ - "WWAN_AUTH_AKA_CHALLENGE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

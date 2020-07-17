@@ -28,6 +28,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_STATE_0075"
+ - "PFND3D12DDI_CREATE_PIPELINE_STATE_0075"
 topic_type:
  - APIRef
  - kbSyntax

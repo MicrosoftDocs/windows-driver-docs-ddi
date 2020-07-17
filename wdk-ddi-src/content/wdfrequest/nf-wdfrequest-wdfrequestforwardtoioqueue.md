@@ -10,6 +10,7 @@ keywords: ["WdfRequestForwardToIoQueue function"]
 ms.keywords: DFRequestObjectRef_91c731d6-de15-4ae6-a0d0-ae449a5a47b6.xml, WdfRequestForwardToIoQueue, WdfRequestForwardToIoQueue method, kmdf.wdfrequestforwardtoioqueue, wdf.wdfrequestforwardtoioqueue, wdfrequest/WdfRequestForwardToIoQueue
 f1_keywords:
  - "wdfrequest/WdfRequestForwardToIoQueue"
+ - "WdfRequestForwardToIoQueue"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

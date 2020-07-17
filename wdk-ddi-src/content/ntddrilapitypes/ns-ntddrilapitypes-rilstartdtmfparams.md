@@ -10,6 +10,7 @@ keywords: ["RILSTARTDTMFPARAMS structure"]
 ms.keywords: "*LPRILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilstartdtmfparams, ntddrilapitypes/RILSTARTDTMFPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILSTARTDTMFPARAMS"
+ - "RILSTARTDTMFPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

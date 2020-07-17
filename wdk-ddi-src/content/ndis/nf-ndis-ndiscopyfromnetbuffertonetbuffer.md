@@ -10,6 +10,7 @@ keywords: ["NdisCopyFromNetBufferToNetBuffer function"]
 ms.keywords: NdisCopyFromNetBufferToNetBuffer, NdisCopyFromNetBufferToNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisCopyFromNetBufferToNetBuffer, ndis_netbuf_functions_ref_28d10afe-d78a-49ef-8c9c-f90b87d4eeb1.xml, netvista.ndiscopyfromnetbuffertonetbuffer
 f1_keywords:
  - "ndis/NdisCopyFromNetBufferToNetBuffer"
+ - "NdisCopyFromNetBufferToNetBuffer"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

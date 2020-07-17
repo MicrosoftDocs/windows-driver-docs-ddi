@@ -10,6 +10,7 @@ keywords: ["IStiUSD::Diagnostic"]
 ms.keywords: Diagnostic, Diagnostic method [Imaging Devices], Diagnostic method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],Diagnostic method, IStiUSD.Diagnostic, IStiUSD::Diagnostic, image.istiusd_diagnostic, stifnc_07917e25-965a-4a7e-82af-1cfef09d6748.xml, stiusd/IStiUSD::Diagnostic
 f1_keywords:
  - "stiusd/IStiUSD.Diagnostic"
+ - "IStiUSD.Diagnostic"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop

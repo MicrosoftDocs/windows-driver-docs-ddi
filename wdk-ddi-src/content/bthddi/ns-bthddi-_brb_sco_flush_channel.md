@@ -10,6 +10,7 @@ keywords: ["_BRB_SCO_FLUSH_CHANNEL structure"]
 ms.keywords: "_BRB_SCO_FLUSH_CHANNEL, _BRB_SCO_FLUSH_CHANNEL structure [Bluetooth Devices], bltooth._brb_sco_flush_channel, bth_structs_d2a9941d-7091-402d-87bc-a5da139dfc1f.xml, bthddi/_BRB_SCO_FLUSH_CHANNEL"
 f1_keywords:
  - "bthddi/_BRB_SCO_FLUSH_CHANNEL"
+ - "_BRB_SCO_FLUSH_CHANNEL"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

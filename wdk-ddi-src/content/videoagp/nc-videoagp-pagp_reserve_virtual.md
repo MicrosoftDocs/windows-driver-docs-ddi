@@ -10,6 +10,7 @@ keywords: ["PAGP_RESERVE_VIRTUAL callback function"]
 ms.keywords: AgpReserveVirtual, AgpReserveVirtual callback function [Display Devices], PAGP_RESERVE_VIRTUAL, PAGP_RESERVE_VIRTUAL callback, VideoPort_Functions_ed4d4e19-25f2-4169-a80e-8c57c80ffd2b.xml, display.agpreservevirtual, videoagp/AgpReserveVirtual
 f1_keywords:
  - "videoagp/AgpReserveVirtual"
+ - "AgpReserveVirtual"
 req.header: videoagp.h
 req.include-header: Video.h
 req.target-type: Desktop

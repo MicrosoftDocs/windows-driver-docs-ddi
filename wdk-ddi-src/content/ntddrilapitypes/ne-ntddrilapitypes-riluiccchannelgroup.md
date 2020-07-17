@@ -10,6 +10,7 @@ keywords: ["RILUICCCHANNELGROUP enumeration"]
 ms.keywords: RILUICCCHANNELGROUP, RILUICCCHANNELGROUP enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccchannelgroup, ntddrilapitypes/RILUICCCHANNELGROUP
 f1_keywords:
  - "ntddrilapitypes/RILUICCCHANNELGROUP"
+ - "RILUICCCHANNELGROUP"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

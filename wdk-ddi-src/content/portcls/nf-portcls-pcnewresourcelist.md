@@ -10,6 +10,7 @@ keywords: ["PcNewResourceList function"]
 ms.keywords: PcNewResourceList, PcNewResourceList function [Audio Devices], audio.pcnewresourcelist, audpc-routines_b9e7a222-20ac-482b-ae30-083765ecf5b7.xml, portcls/PcNewResourceList
 f1_keywords:
  - "portcls/PcNewResourceList"
+ - "PcNewResourceList"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

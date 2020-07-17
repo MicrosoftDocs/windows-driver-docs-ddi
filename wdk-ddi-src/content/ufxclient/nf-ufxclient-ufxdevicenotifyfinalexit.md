@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["UfxDeviceNotifyFinalExit function"]
 f1_keywords:
  - "ufxclient/UfxDeviceNotifyFinalExit"
+ - "UfxDeviceNotifyFinalExit"
 ms.keywords: UfxDeviceNotifyFinalExit
 req.header: ufxclient.h
 req.include-header:

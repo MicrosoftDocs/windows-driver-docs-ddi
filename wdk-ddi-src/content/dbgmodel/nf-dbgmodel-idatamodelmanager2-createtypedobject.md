@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelManager2::CreateTypedObject"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.CreateTypedObject"
+ - "IDataModelManager2.CreateTypedObject"
 ms.keywords: IDataModelManager2::CreateTypedObject, CreateTypedObject, IDataModelManager2.CreateTypedObject, IDataModelManager2::CreateTypedObject, IDataModelManager2.CreateTypedObject
 req.header: dbgmodel.h
 req.include-header:

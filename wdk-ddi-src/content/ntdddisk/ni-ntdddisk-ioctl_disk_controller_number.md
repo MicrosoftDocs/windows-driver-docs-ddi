@@ -10,6 +10,7 @@ keywords: ["IOCTL_DISK_CONTROLLER_NUMBER IOCTL"]
 ms.keywords: IOCTL_DISK_CONTROLLER_NUMBER, IOCTL_DISK_CONTROLLER_NUMBER control, IOCTL_DISK_CONTROLLER_NUMBER control code [Storage Devices], k307_227ab511-78ff-4aba-be29-3429329d05e5.xml, ntdddisk/IOCTL_DISK_CONTROLLER_NUMBER, storage.ioctl_disk_controller_number
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_CONTROLLER_NUMBER"
+ - "IOCTL_DISK_CONTROLLER_NUMBER"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

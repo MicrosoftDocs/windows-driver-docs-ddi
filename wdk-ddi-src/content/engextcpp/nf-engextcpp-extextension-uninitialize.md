@@ -10,6 +10,7 @@ keywords: ["ExtExtension::Uninitialize"]
 ms.keywords: EngExtCpp_Ref_614648b0-a948-4066-bec1-0840e2cf08ec.xml, ExtExtension class [Windows Debugging],Uninitialize method, ExtExtension.Uninitialize, ExtExtension::Uninitialize, Uninitialize, Uninitialize method [Windows Debugging], Uninitialize method [Windows Debugging],ExtExtension class, debugger.uninitialize
 f1_keywords:
  - "engextcpp/ExtExtension.Uninitialize"
+ - "ExtExtension.Uninitialize"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

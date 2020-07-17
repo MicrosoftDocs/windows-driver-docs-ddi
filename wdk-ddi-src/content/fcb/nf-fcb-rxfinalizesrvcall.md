@@ -10,6 +10,7 @@ keywords: ["RxFinalizeSrvCall function"]
 ms.keywords: RxFinalizeSrvCall, RxFinalizeSrvCall function [Installable File System Drivers], fcb/RxFinalizeSrvCall, ifsk.rxfinalizesrvcall, rxref_0560ef8e-f9e2-47ba-b78b-c3298e66238e.xml
 f1_keywords:
  - "fcb/RxFinalizeSrvCall"
+ - "RxFinalizeSrvCall"
 req.header: fcb.h
 req.include-header: Mrxfcb.h, Fcb.h
 req.target-type: Desktop

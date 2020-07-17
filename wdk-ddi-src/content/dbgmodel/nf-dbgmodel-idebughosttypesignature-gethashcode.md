@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDebugHostTypeSignature::GetHashCode"]
 f1_keywords:
  - "dbgmodel/IDebugHostTypeSignature.GetHashCode"
+ - "IDebugHostTypeSignature.GetHashCode"
 ms.keywords: IDebugHostTypeSignature::GetHashCode, GetHashCode, IDebugHostTypeSignature.GetHashCode, IDebugHostTypeSignature::GetHashCode, IDebugHostTypeSignature.GetHashCode
 req.header: dbgmodel.h
 req.include-header:

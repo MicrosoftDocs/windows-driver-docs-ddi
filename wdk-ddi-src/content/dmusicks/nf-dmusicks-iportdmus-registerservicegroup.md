@@ -10,6 +10,7 @@ keywords: ["IPortDMus::RegisterServiceGroup"]
 ms.keywords: IPortDMus interface [Audio Devices],RegisterServiceGroup method, IPortDMus.RegisterServiceGroup, IPortDMus::RegisterServiceGroup, RegisterServiceGroup, RegisterServiceGroup method [Audio Devices], RegisterServiceGroup method [Audio Devices],IPortDMus interface, audio.iportdmus_registerservicegroup, audmp-routines_9167129c-286d-4c54-9633-1f31aa08b904.xml, dmusicks/IPortDMus::RegisterServiceGroup
 f1_keywords:
  - "dmusicks/IPortDMus.RegisterServiceGroup"
+ - "IPortDMus.RegisterServiceGroup"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequestCompletionParams::GetReadParameters"]
 ms.keywords: GetReadParameters, GetReadParameters method, GetReadParameters method,IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams interface,GetReadParameters method, IWDFIoRequestCompletionParams.GetReadParameters, IWDFIoRequestCompletionParams::GetReadParameters, UMDFRequestObjectRef_008ca4d6-ddbe-4288-9b5d-d6ccb35518db.xml, umdf.iwdfiorequestcompletionparams_getreadparameters, wdf.iwdfiorequestcompletionparams_getreadparameters, wudfddi/IWDFIoRequestCompletionParams::GetReadParameters
 f1_keywords:
  - "wudfddi/IWDFIoRequestCompletionParams.GetReadParameters"
+ - "IWDFIoRequestCompletionParams.GetReadParameters"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

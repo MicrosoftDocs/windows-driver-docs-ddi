@@ -10,6 +10,7 @@ keywords: ["_DOT11_WFD_ADDITIONAL_IE structure"]
 ms.keywords: "*PDOT11_WFD_ADDITIONAL_IE, DOT11_WFD_ADDITIONAL_IE, DOT11_WFD_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_ADDITIONAL_IE, PDOT11_WFD_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_ADDITIONAL_IE, netvista._dot11_wfd_additional_ie, windot11/ DOT11_WFD_ADDITIONAL_IE, windot11/PDOT11_WFD_ADDITIONAL_IE"
 f1_keywords:
  - "windot11/DOT11_WFD_ADDITIONAL_IE"
+ - "DOT11_WFD_ADDITIONAL_IE"
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows

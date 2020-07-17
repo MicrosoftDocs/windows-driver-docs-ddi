@@ -10,6 +10,7 @@ keywords: ["_FILE_QUOTA_INFORMATION structure"]
 ms.keywords: "*PFILE_QUOTA_INFORMATION, FILE_QUOTA_INFORMATION, FILE_QUOTA_INFORMATION structure [Installable File System Drivers], PFILE_QUOTA_INFORMATION, PFILE_QUOTA_INFORMATION structure pointer [Installable File System Drivers], _FILE_QUOTA_INFORMATION, fileinformationstructures_38604040-0780-47f3-88b3-aef3e3eab993.xml, ifsk.file_quota_information, ntifs/FILE_QUOTA_INFORMATION, ntifs/PFILE_QUOTA_INFORMATION"
 f1_keywords:
  - "ntifs/FILE_QUOTA_INFORMATION"
+ - "FILE_QUOTA_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows

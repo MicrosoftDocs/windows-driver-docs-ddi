@@ -10,6 +10,7 @@ keywords: ["IPartImage::GetImageProperties"]
 ms.keywords: GetImageProperties, GetImageProperties method [Print Devices], GetImageProperties method [Print Devices],IPartImage interface, IPartImage interface [Print Devices],GetImageProperties method, IPartImage.GetImageProperties, IPartImage::GetImageProperties, filterpipeline/IPartImage::GetImageProperties, filterpipeline_06d3e014-e30a-44d2-a6e0-769cb62c387d.xml, print.ipartimage_getimageproperties
 f1_keywords:
  - "filterpipeline/IPartImage.GetImageProperties"
+ - "IPartImage.GetImageProperties"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

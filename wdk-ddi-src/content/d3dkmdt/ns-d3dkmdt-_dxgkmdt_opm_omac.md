@@ -10,6 +10,7 @@ keywords: ["_DXGKMDT_OPM_OMAC structure"]
 ms.keywords: "*PDXGKMDT_OPM_OMAC, DXGKMDT_OPM_OMAC, DXGKMDT_OPM_OMAC structure [Display Devices], DmStructs_8c3b7364-5055-4152-b7ed-4e2d1d910dd4.xml, PDXGKMDT_OPM_OMAC, PDXGKMDT_OPM_OMAC structure pointer [Display Devices], _DXGKMDT_OPM_OMAC, d3dkmdt/DXGKMDT_OPM_OMAC, d3dkmdt/PDXGKMDT_OPM_OMAC, display.dxgkmdt_opm_omac"
 f1_keywords:
  - "d3dkmdt/DXGKMDT_OPM_OMAC"
+ - "DXGKMDT_OPM_OMAC"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

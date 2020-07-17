@@ -10,6 +10,7 @@ keywords: ["IOCTL_PAR_SET_READ_ADDRESS IOCTL"]
 ms.keywords: IOCTL_PAR_SET_READ_ADDRESS, IOCTL_PAR_SET_READ_ADDRESS control code [Parallel Ports], cisspd_91a85f87-e3c1-4ccb-aeab-13a484c75224.xml, ntddpar/IOCTL_PAR_SET_READ_ADDRESS, parports.ioctl_par_set_read_address
 f1_keywords:
  - "ntddpar/IOCTL_PAR_SET_READ_ADDRESS"
+ - "IOCTL_PAR_SET_READ_ADDRESS"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IModelKeyReference2::Release"]
 f1_keywords:
  - "dbgmodel/IModelKeyReference2.Release"
+ - "IModelKeyReference2.Release"
 ms.keywords: IModelKeyReference2::Release, Release, IModelKeyReference2.Release, IModelKeyReference2::Release, IModelKeyReference2.Release
 req.header: dbgmodel.h
 req.include-header:

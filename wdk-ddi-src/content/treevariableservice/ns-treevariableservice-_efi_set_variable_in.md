@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_EFI_SET_VARIABLE_IN structure"]
 f1_keywords:
  - "treevariableservice/_EFI_SET_VARIABLE_IN"
+ - "_EFI_SET_VARIABLE_IN"
 ms.keywords: _EFI_SET_VARIABLE_IN, EFI_SET_VARIABLE_IN, *PEFI_SET_VARIABLE_IN, 
 req.header: treevariableservice.h
 req.include-header:

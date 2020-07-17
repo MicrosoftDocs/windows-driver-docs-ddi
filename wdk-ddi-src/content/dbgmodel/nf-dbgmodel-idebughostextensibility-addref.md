@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDebugHostExtensibility::AddRef"]
 f1_keywords:
  - "dbgmodel/IDebugHostExtensibility.AddRef"
+ - "IDebugHostExtensibility.AddRef"
 ms.keywords: IDebugHostExtensibility::AddRef, AddRef, IDebugHostExtensibility.AddRef, IDebugHostExtensibility::AddRef, IDebugHostExtensibility.AddRef
 req.header: dbgmodel.h
 req.include-header:

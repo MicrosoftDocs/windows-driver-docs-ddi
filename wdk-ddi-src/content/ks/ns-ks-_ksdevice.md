@@ -10,6 +10,7 @@ keywords: ["_KSDEVICE structure"]
 ms.keywords: "*PKSDEVICE, KSDEVICE, KSDEVICE structure [Streaming Media Devices], PKSDEVICE, PKSDEVICE structure pointer [Streaming Media Devices], _KSDEVICE, avstruct_0f140861-d58a-48cf-9bac-679acbd30d02.xml, ks/KSDEVICE, ks/PKSDEVICE, stream.ksdevice"
 f1_keywords:
  - "ks/KSDEVICE"
+ - "KSDEVICE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

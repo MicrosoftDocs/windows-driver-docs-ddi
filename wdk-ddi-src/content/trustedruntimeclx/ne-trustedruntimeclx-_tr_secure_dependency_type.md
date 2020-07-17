@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_TR_SECURE_DEPENDENCY_TYPE enumeration"]
 f1_keywords:
  - "trustedruntimeclx/_TR_SECURE_DEPENDENCY_TYPE"
+ - "_TR_SECURE_DEPENDENCY_TYPE"
 ms.keywords: _TR_SECURE_DEPENDENCY_TYPE, TR_SECURE_DEPENDENCY_TYPE, 
 req.header: trustedruntimeclx.h
 req.include-header:

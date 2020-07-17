@@ -10,6 +10,7 @@ keywords: ["ClfsMgmtDeregisterManagedClient function"]
 ms.keywords: ClfsMgmtDeregisterManagedClient, ClfsMgmtDeregisterManagedClient routine [Kernel-Mode Driver Architecture], Clfs_management_6a802f4a-8157-42c8-8eda-740a1207714a.xml, kernel.clfsmgmtderegistermanagedclient, wdm/ClfsMgmtDeregisterManagedClient
 f1_keywords:
  - "wdm/ClfsMgmtDeregisterManagedClient"
+ - "ClfsMgmtDeregisterManagedClient"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

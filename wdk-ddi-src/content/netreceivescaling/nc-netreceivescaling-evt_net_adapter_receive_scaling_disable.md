@@ -8,6 +8,7 @@ ms.date: 03/08/2018
 keywords: ["EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE callback function"]
 f1_keywords:
  - "netreceivescaling/EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE"
+ - "EVT_NET_ADAPTER_RECEIVE_SCALING_DISABLE"
 req.header: netreceivescaling.h
 req.include-header:
 req.target-type: Universal

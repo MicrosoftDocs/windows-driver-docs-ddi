@@ -10,6 +10,7 @@ keywords: ["WdfUsbInterfaceGetNumSettings function"]
 ms.keywords: DFUsbRef_5515a8bf-1a43-434c-9806-75393a17fdf5.xml, WdfUsbInterfaceGetNumSettings, WdfUsbInterfaceGetNumSettings method, kmdf.wdfusbinterfacegetnumsettings, wdf.wdfusbinterfacegetnumsettings, wdfusb/WdfUsbInterfaceGetNumSettings
 f1_keywords:
  - "wdfusb/WdfUsbInterfaceGetNumSettings"
+ - "WdfUsbInterfaceGetNumSettings"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

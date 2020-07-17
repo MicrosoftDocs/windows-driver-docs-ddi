@@ -10,6 +10,7 @@ keywords: ["_WDF_WMI_PROVIDER_CONFIG structure"]
 ms.keywords: "*PWDF_WMI_PROVIDER_CONFIG, DFWMIRef_6cf9c574-aa7a-4184-97c7-bd2b2134f5ac.xml, PWDF_WMI_PROVIDER_CONFIG, PWDF_WMI_PROVIDER_CONFIG structure pointer, WDF_WMI_PROVIDER_CONFIG, WDF_WMI_PROVIDER_CONFIG structure, _WDF_WMI_PROVIDER_CONFIG, kmdf.wdf_wmi_provider_config, wdf.wdf_wmi_provider_config, wdfwmi/PWDF_WMI_PROVIDER_CONFIG, wdfwmi/WDF_WMI_PROVIDER_CONFIG"
 f1_keywords:
  - "wdfwmi/WDF_WMI_PROVIDER_CONFIG"
+ - "WDF_WMI_PROVIDER_CONFIG"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Windows

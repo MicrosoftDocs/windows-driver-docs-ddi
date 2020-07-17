@@ -10,6 +10,7 @@ keywords: ["_NDIS_PD_CLOSE_PROVIDER_PARAMETERS structure"]
 ms.keywords: NDIS_PD_CLOSE_PROVIDER_PARAMETERS, NDIS_PD_CLOSE_PROVIDER_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CLOSE_PROVIDER_PARAMETERS, ndis/NDIS_PD_CLOSE_PROVIDER_PARAMETERS, netvista.ndis_pd_close_provider_parameters
 f1_keywords:
  - "ndis/NDIS_PD_CLOSE_PROVIDER_PARAMETERS"
+ - "NDIS_PD_CLOSE_PROVIDER_PARAMETERS"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

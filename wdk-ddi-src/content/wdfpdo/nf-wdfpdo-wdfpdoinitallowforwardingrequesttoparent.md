@@ -10,6 +10,7 @@ keywords: ["WdfPdoInitAllowForwardingRequestToParent function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_1c47c0f6-2474-419b-8a6e-1105351ab1d7.xml, WdfPdoInitAllowForwardingRequestToParent, WdfPdoInitAllowForwardingRequestToParent method, kmdf.wdfpdoinitallowforwardingrequesttoparent, wdf.wdfpdoinitallowforwardingrequesttoparent, wdfpdo/WdfPdoInitAllowForwardingRequestToParent
 f1_keywords:
  - "wdfpdo/WdfPdoInitAllowForwardingRequestToParent"
+ - "WdfPdoInitAllowForwardingRequestToParent"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

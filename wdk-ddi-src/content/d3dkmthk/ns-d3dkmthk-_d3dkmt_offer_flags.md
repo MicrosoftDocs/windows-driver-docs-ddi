@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_OFFER_FLAGS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_OFFER_FLAGS"
+ - "_D3DKMT_OFFER_FLAGS"
 ms.keywords: _D3DKMT_OFFER_FLAGS, D3DKMT_OFFER_FLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

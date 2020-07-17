@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_GET_PDOS_COMMAND structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_PDOS_COMMAND"
+ - "_UCSI_GET_PDOS_COMMAND"
 ms.keywords: _UCSI_GET_PDOS_COMMAND, UCSI_GET_PDOS_COMMAND, *PUCSI_GET_PDOS_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

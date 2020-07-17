@@ -10,6 +10,7 @@ keywords: ["FsRtlPostStackOverflow function"]
 ms.keywords: FsRtlPostStackOverflow, FsRtlPostStackOverflow routine [Installable File System Drivers], fsrtlref_c2a888d0-ecfc-4b50-b6f0-753ef43375de.xml, ifsk.fsrtlpoststackoverflow, ntifs/FsRtlPostStackOverflow
 f1_keywords:
  - "ntifs/FsRtlPostStackOverflow"
+ - "FsRtlPostStackOverflow"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

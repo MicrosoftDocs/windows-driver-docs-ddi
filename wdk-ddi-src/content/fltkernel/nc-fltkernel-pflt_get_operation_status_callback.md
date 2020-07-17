@@ -10,6 +10,7 @@ keywords: ["PFLT_GET_OPERATION_STATUS_CALLBACK callback function"]
 ms.keywords: OperationStatusCallback, OperationStatusCallback routine [Installable File System Drivers], PFLT_GET_OPERATION_STATUS_CALLBACK, fltkernel/OperationStatusCallback, ifsk.PFLT_GET_OPERATION_STATUS_CALLBACK
 f1_keywords:
  - "fltkernel/OperationStatusCallback"
+ - "OperationStatusCallback"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["ReadPtr function"]
 ms.keywords: ReadPtr, ReadPtr function [Windows Debugging], WdbgExts_Ref_4eaec659-6522-4d7f-b64a-ad771f93eb56.xml, debugger.readptr, wdbgexts/ReadPtr
 f1_keywords:
  - "wdbgexts/ReadPtr"
+ - "ReadPtr"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

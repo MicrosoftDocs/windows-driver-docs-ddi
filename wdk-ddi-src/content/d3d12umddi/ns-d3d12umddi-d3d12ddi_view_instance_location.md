@@ -9,6 +9,7 @@ keywords: ["D3D12DDI_VIEW_INSTANCE_LOCATION structure"]
 ms.keywords: D3D12DDI_VIEW_INSTANCE_LOCATION, D3D12DDI_VIEW_INSTANCE_LOCATION structure [Display Devices], d3d12umddi/D3D12DDI_VIEW_INSTANCE_LOCATION, display.d3d12ddi-view-instance-location
 f1_keywords:
  - "d3d12umddi/D3D12DDI_VIEW_INSTANCE_LOCATION"
+ - "D3D12DDI_VIEW_INSTANCE_LOCATION"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

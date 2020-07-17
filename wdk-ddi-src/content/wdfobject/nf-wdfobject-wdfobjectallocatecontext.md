@@ -10,6 +10,7 @@ keywords: ["WdfObjectAllocateContext function"]
 ms.keywords: DFGenObjectRef_9b172283-f4b6-4ade-9cd2-38f10c0ff9bd.xml, WdfObjectAllocateContext, WdfObjectAllocateContext method, kmdf.wdfobjectallocatecontext, wdf.wdfobjectallocatecontext, wdfobject/WdfObjectAllocateContext
 f1_keywords:
  - "wdfobject/WdfObjectAllocateContext"
+ - "WdfObjectAllocateContext"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["RILCARDAPPADDED structure"]
 ms.keywords: "*LPRILCARDAPPADDED, RILCARDAPPADDED, RILCARDAPPADDED structure [Network Drivers Starting with Windows Vista], netvista.rilcardappadded, ntddrilapitypes/RILCARDAPPADDED"
 f1_keywords:
  - "ntddrilapitypes/RILCARDAPPADDED"
+ - "RILCARDAPPADDED"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

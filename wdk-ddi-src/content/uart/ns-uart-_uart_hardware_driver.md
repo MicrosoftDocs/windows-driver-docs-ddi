@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_UART_HARDWARE_DRIVER structure"]
 f1_keywords:
  - "uart/_UART_HARDWARE_DRIVER"
+ - "_UART_HARDWARE_DRIVER"
 ms.keywords: _UART_HARDWARE_DRIVER, UART_HARDWARE_DRIVER, *PUART_HARDWARE_DRIVER,
 req.header: uart.h
 req.include-header:

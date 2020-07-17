@@ -10,6 +10,7 @@ keywords: ["IWDFRemoteTarget::Reopen"]
 ms.keywords: IWDFRemoteTarget interface,Reopen method, IWDFRemoteTarget.Reopen, IWDFRemoteTarget::Reopen, Reopen, Reopen method, Reopen method,IWDFRemoteTarget interface, UMDFIoTargetObjectRef_13b81124-2d7f-4fed-b4f9-1a5cb647a811.xml, umdf.iwdfremotetarget_reopen, wdf.iwdfremotetarget_reopen, wudfddi/IWDFRemoteTarget::Reopen
 f1_keywords:
  - "wudfddi/IWDFRemoteTarget.Reopen"
+ - "IWDFRemoteTarget.Reopen"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces4::FillVirtual"]
 ms.keywords: FillVirtual, FillVirtual method [Windows Debugging], FillVirtual method [Windows Debugging],IDebugDataSpaces2 interface, FillVirtual method [Windows Debugging],IDebugDataSpaces3 interface, FillVirtual method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces2 interface [Windows Debugging],FillVirtual method, IDebugDataSpaces2::FillVirtual, IDebugDataSpaces3 interface [Windows Debugging],FillVirtual method, IDebugDataSpaces3::FillVirtual, IDebugDataSpaces4 interface [Windows Debugging],FillVirtual method, IDebugDataSpaces4.FillVirtual, IDebugDataSpaces4::FillVirtual, IDebugDataSpaces_26ed83e1-6084-4826-bf6c-30be250d3e3f.xml, dbgeng/IDebugDataSpaces2::FillVirtual, dbgeng/IDebugDataSpaces3::FillVirtual, dbgeng/IDebugDataSpaces4::FillVirtual, debugger.fillvirtual
 f1_keywords:
  - "dbgeng/IDebugDataSpaces2.FillVirtual"
+ - "IDebugDataSpaces2.FillVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

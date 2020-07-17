@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequest::GetReadParameters"]
 ms.keywords: GetReadParameters, GetReadParameters method, GetReadParameters method,IWDFIoRequest interface, IWDFIoRequest interface,GetReadParameters method, IWDFIoRequest.GetReadParameters, IWDFIoRequest::GetReadParameters, UMDFRequestObjectRef_449eedbd-5e32-4e7c-81ee-77a341fa0d75.xml, umdf.iwdfiorequest_getreadparameters, wdf.iwdfiorequest_getreadparameters, wudfddi/IWDFIoRequest::GetReadParameters
 f1_keywords:
  - "wudfddi/IWDFIoRequest.GetReadParameters"
+ - "IWDFIoRequest.GetReadParameters"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

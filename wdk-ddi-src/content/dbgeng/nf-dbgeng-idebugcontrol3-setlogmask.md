@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::SetLogMask"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetLogMask method, IDebugControl2 interface [Windows Debugging],SetLogMask method, IDebugControl2::SetLogMask, IDebugControl3 interface [Windows Debugging],SetLogMask method, IDebugControl3.SetLogMask, IDebugControl3::SetLogMask, IDebugControl::SetLogMask, IDebugControl_b1c44a2b-d2fd-407b-8994-00f5e53af10d.xml, SetLogMask, SetLogMask method [Windows Debugging], SetLogMask method [Windows Debugging],IDebugControl interface, SetLogMask method [Windows Debugging],IDebugControl2 interface, SetLogMask method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetLogMask, dbgeng/IDebugControl3::SetLogMask, dbgeng/IDebugControl::SetLogMask, debugger.setlogmask
 f1_keywords:
  - "dbgeng/IDebugControl.SetLogMask"
+ - "IDebugControl.SetLogMask"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

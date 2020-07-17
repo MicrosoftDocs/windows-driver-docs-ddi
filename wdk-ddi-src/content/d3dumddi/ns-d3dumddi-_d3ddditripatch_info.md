@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DDDITRIPATCH_INFO structure"]
 f1_keywords:
  - "d3dumddi/_D3DDDITRIPATCH_INFO"
+ - "_D3DDDITRIPATCH_INFO"
 ms.keywords: _D3DDDITRIPATCH_INFO, D3DDDITRIPATCH_INFO, 
 req.header: d3dumddi.h
 req.include-header:

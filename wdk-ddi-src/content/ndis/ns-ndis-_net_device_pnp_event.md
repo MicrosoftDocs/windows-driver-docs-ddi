@@ -10,6 +10,7 @@ keywords: ["_NET_DEVICE_PNP_EVENT structure"]
 ms.keywords: "*PNET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT structure [Network Drivers Starting with Windows Vista], PNET_DEVICE_PNP_EVENT, PNET_DEVICE_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], _NET_DEVICE_PNP_EVENT, miniport_structures_ref_42938d80-a578-40a4-ba12-0285d7c258eb.xml, ndis/NET_DEVICE_PNP_EVENT, ndis/PNET_DEVICE_PNP_EVENT, netvista.net_device_pnp_event"
 f1_keywords:
  - "ndis/NET_DEVICE_PNP_EVENT"
+ - "NET_DEVICE_PNP_EVENT"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

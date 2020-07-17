@@ -10,6 +10,7 @@ keywords: ["DXGK_MIRACAST_CHUNK_ID structure"]
 ms.keywords: DXGK_MIRACAST_CHUNK_ID, DXGK_MIRACAST_CHUNK_ID union [Display Devices], d3dukmdt/DXGK_MIRACAST_CHUNK_ID, display.dxgk_miracast_chunk_id
 f1_keywords:
  - "d3dukmdt/DXGK_MIRACAST_CHUNK_ID"
+ - "DXGK_MIRACAST_CHUNK_ID"
 req.header: d3dukmdt.h
 req.include-header: D3dukmdt.h, D3dkmddi.h
 req.target-type: Windows

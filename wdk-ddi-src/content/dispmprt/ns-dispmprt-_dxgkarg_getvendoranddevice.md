@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGKARG_GETVENDORANDDEVICE structure"]
 f1_keywords:
  - "dispmprt/_DXGKARG_GETVENDORANDDEVICE"
+ - "_DXGKARG_GETVENDORANDDEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_GETVENDORANDDEVICE, DXGKARG_GETVENDORANDDEVICE, *PDXGKARG_GETVENDORANDDEVICE, 

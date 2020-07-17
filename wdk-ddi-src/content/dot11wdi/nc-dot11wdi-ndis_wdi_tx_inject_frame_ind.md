@@ -10,6 +10,7 @@ keywords: ["NDIS_WDI_TX_INJECT_FRAME_IND callback function"]
 ms.keywords: NDIS_WDI_TX_INJECT_FRAME_IND, NDIS_WDI_TX_INJECT_FRAME_IND callback, NdisWdiTxInjectFrameIndication, NdisWdiTxInjectFrameIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxInjectFrameIndication, netvista.ndiswditxinjectframeindication
 f1_keywords:
  - "dot11wdi/NdisWdiTxInjectFrameIndication"
+ - "NdisWdiTxInjectFrameIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

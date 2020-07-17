@@ -10,6 +10,7 @@ keywords: ["ClfsTerminateReadLog function"]
 ms.keywords: ClfsTerminateReadLog, ClfsTerminateReadLog routine [Kernel-Mode Driver Architecture], Clfs_691e308a-56d7-498f-af11-8908cc13b1b7.xml, kernel.clfsterminatereadlog, wdm/ClfsTerminateReadLog
 f1_keywords:
  - "wdm/ClfsTerminateReadLog"
+ - "ClfsTerminateReadLog"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

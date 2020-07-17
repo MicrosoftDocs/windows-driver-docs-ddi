@@ -10,6 +10,7 @@ keywords: ["_URB_ISOCH_TRANSFER structure"]
 ms.keywords: USBD_SHORT_TRANSFER_OK, USBD_START_ISO_TRANSFER_ASAP, USBD_TRANSFER_DIRECTION_IN, _URB_ISOCH_TRANSFER, _URB_ISOCH_TRANSFER structure [Buses], buses._urb_isoch_transfer, usb/_URB_ISOCH_TRANSFER, usbstrct_5a064ef7-b08f-405f-8d73-22fea138ac29.xml
 f1_keywords:
  - "usb/_URB_ISOCH_TRANSFER"
+ - "_URB_ISOCH_TRANSFER"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows

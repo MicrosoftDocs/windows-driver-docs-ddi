@@ -10,6 +10,7 @@ keywords: ["_WHEA_AER_ROOTPORT_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_AER_ROOTPORT_DESCRIPTOR, PWHEA_AER_ROOTPORT_DESCRIPTOR, PWHEA_AER_ROOTPORT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_AER_ROOTPORT_DESCRIPTOR, WHEA_AER_ROOTPORT_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/PWHEA_AER_ROOTPORT_DESCRIPTOR, ntddk/WHEA_AER_ROOTPORT_DESCRIPTOR, whea.whea_aer_rootport_descriptor, whearef_e96777a4-ff19-4291-9730-ffe4c9828381.xml"
 f1_keywords:
  - "ntddk/WHEA_AER_ROOTPORT_DESCRIPTOR"
+ - "WHEA_AER_ROOTPORT_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

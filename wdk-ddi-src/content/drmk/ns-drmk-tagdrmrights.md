@@ -10,6 +10,7 @@ keywords: ["tagDRMRIGHTS structure"]
 ms.keywords: "*PDRMRIGHTS, DRMRIGHTS, DRMRIGHTS structure [Audio Devices], PDRMRIGHTS, PDRMRIGHTS structure pointer [Audio Devices], aud-prop_75bfd78f-d56f-4e12-ba99-c4b5904b4da2.xml, audio.drmrights, drmk/DRMRIGHTS, drmk/PDRMRIGHTS, tagDRMRIGHTS"
 f1_keywords:
  - "drmk/DRMRIGHTS"
+ - "DRMRIGHTS"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Windows

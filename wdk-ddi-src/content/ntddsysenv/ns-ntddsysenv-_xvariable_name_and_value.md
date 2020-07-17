@@ -10,6 +10,7 @@ keywords: ["_XVARIABLE_NAME_AND_VALUE structure"]
 ms.keywords: "*PSYSENV_VARIABLE_AND_VALUE, *PXVARIABLE_NAME_AND_VALUE, PXVARIABLE_NAME_AND_VALUE, PXVARIABLE_NAME_AND_VALUE structure pointer [Kernel-Mode Driver Architecture], SYSENV_VARIABLE_AND_VALUE, XVARIABLE_NAME_AND_VALUE, XVARIABLE_NAME_AND_VALUE structure [Kernel-Mode Driver Architecture], _XVARIABLE_NAME_AND_VALUE, kernel.xvariable_name_and_value, ntddsysenv/PXVARIABLE_NAME_AND_VALUE, ntddsysenv/XVARIABLE_NAME_AND_VALUE"
 f1_keywords:
  - "ntddsysenv/XVARIABLE_NAME_AND_VALUE"
+ - "XVARIABLE_NAME_AND_VALUE"
 req.header: ntddsysenv.h
 req.include-header: 
 req.target-type: Windows

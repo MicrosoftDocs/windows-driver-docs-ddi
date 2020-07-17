@@ -10,6 +10,7 @@ keywords: ["SpbDeviceInitConfig function"]
 ms.keywords: SPB.spbdeviceinitconfig, SpbDeviceInitConfig, SpbDeviceInitConfig method [Buses], spbcx/SpbDeviceInitConfig
 f1_keywords:
  - "spbcx/SpbDeviceInitConfig"
+ - "SpbDeviceInitConfig"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["StorPortGetRequestInfo function"]
 ms.keywords: StorPortGetRequestInfo, StorPortGetRequestInfo routine [Storage Devices], storage.storportgetrequestinfo, storport/StorPortGetRequestInfo
 f1_keywords:
  - "storport/StorPortGetRequestInfo"
+ - "StorPortGetRequestInfo"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

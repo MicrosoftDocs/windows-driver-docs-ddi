@@ -28,6 +28,7 @@ req.type-library:
 targetos: Windows
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CLEAR_DEPTH_STENCIL_VIEW_0003"
+ - "PFND3D12DDI_CLEAR_DEPTH_STENCIL_VIEW_0003"
 topic_type:
  - apiref
 api_type:

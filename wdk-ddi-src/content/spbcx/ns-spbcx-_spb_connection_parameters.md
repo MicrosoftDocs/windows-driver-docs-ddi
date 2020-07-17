@@ -10,6 +10,7 @@ keywords: ["_SPB_CONNECTION_PARAMETERS structure"]
 ms.keywords: "*PSPB_CONNECTION_PARAMETERS, PSPB_CONNECTION_PARAMETERS, PSPB_CONNECTION_PARAMETERS structure pointer [Buses], SPB.spb_connection_parameters, SPB_CONNECTION_PARAMETERS, SPB_CONNECTION_PARAMETERS structure [Buses], _SPB_CONNECTION_PARAMETERS, spbcx/PSPB_CONNECTION_PARAMETERS, spbcx/SPB_CONNECTION_PARAMETERS"
 f1_keywords:
  - "spbcx/SPB_CONNECTION_PARAMETERS"
+ - "SPB_CONNECTION_PARAMETERS"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Windows

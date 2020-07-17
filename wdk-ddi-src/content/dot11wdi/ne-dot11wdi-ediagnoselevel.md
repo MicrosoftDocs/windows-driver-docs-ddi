@@ -10,6 +10,7 @@ keywords: ["eDiagnoseLevel enumeration"]
 ms.keywords: DiagnoseLevelDriverStateDump, DiagnoseLevelFirmwareImageDump, DiagnoseLevelHardwareRegisters, DiagnoseLevelNone, dot11wdi/DiagnoseLevelDriverStateDump, dot11wdi/DiagnoseLevelFirmwareImageDump, dot11wdi/DiagnoseLevelHardwareRegisters, dot11wdi/DiagnoseLevelNone, dot11wdi/eDiagnoseLevel, eDiagnoseLevel, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], netvista.wdiediagnoselevel
 f1_keywords:
  - "dot11wdi/eDiagnoseLevel"
+ - "eDiagnoseLevel"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

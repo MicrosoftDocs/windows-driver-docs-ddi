@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_PCO_STATUS structure"]
 ms.keywords: "*PNDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS, NDIS_WWAN_PCO_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PCO_STATUS, PNDIS_WWAN_PCO_STATUS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PCO_STATUS, ndiswwan/NDIS_WWAN_PCO_STATUS, ndiswwan/PNDIS_WWAN_PCO_STATUS, netvista.ndis_wwan_pco_status"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_PCO_STATUS"
+ - "NDIS_WWAN_PCO_STATUS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

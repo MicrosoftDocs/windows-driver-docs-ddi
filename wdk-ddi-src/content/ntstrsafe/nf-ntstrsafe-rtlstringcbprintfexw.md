@@ -10,6 +10,7 @@ keywords: ["RtlStringCbPrintfExW function"]
 ms.keywords: RtlStringCbPrintfEx, RtlStringCbPrintfExA, RtlStringCbPrintfExW, RtlStringCbPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbprintfex, ntstrsafe/RtlStringCbPrintfExA, ntstrsafe/RtlStringCbPrintfExW, safestrings_44a6ae33-3b6e-4de4-893c-4a198dfa75da.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCbPrintfExW"
+ - "RtlStringCbPrintfExW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

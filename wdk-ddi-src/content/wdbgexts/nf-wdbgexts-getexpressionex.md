@@ -10,6 +10,7 @@ keywords: ["GetExpressionEx function"]
 ms.keywords: GetExpressionEx, GetExpressionEx function [Windows Debugging], WdbgExts_Ref_74af8a17-694a-46ec-827c-fdd2aecbf15c.xml, debugger.getexpressionex, wdbgexts/GetExpressionEx
 f1_keywords:
  - "wdbgexts/GetExpressionEx"
+ - "GetExpressionEx"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

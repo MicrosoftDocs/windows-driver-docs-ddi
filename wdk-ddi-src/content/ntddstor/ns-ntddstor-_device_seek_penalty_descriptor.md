@@ -10,6 +10,7 @@ keywords: ["_DEVICE_SEEK_PENALTY_DESCRIPTOR structure"]
 ms.keywords: "*PDEVICE_SEEK_PENALTY_DESCRIPTOR, DEVICE_SEEK_PENALTY_DESCRIPTOR, DEVICE_SEEK_PENALTY_DESCRIPTOR structure [Storage Devices], PDEVICE_SEEK_PENALTY_DESCRIPTOR, PDEVICE_SEEK_PENALTY_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_SEEK_PENALTY_DESCRIPTOR, ntddstor/DEVICE_SEEK_PENALTY_DESCRIPTOR, ntddstor/PDEVICE_SEEK_PENALTY_DESCRIPTOR, storage.device_seek_penalty_descriptor, structs-general_9fb189fe-9d56-4460-8860-dc6fe6d2fceb.xml"
 f1_keywords:
  - "ntddstor/DEVICE_SEEK_PENALTY_DESCRIPTOR"
+ - "DEVICE_SEEK_PENALTY_DESCRIPTOR"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

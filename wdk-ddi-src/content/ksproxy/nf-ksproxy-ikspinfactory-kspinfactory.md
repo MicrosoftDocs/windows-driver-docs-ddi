@@ -10,6 +10,7 @@ keywords: ["IKsPinFactory::KsPinFactory"]
 ms.keywords: IKsPinFactory interface [Streaming Media Devices],KsPinFactory method, IKsPinFactory.KsPinFactory, IKsPinFactory::KsPinFactory, KsPinFactory, KsPinFactory method [Streaming Media Devices], KsPinFactory method [Streaming Media Devices],IKsPinFactory interface, ksproxy/IKsPinFactory::KsPinFactory, ksproxy_80504e51-334d-4dd8-a6ce-73de9b3b3729.xml, stream.ikspinfactory_kspinfactory
 f1_keywords:
  - "ksproxy/IKsPinFactory.KsPinFactory"
+ - "IKsPinFactory.KsPinFactory"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure"]
 ms.keywords: "_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure [Buses], buses._urb_get_isoch_pipe_transfer_path_delays, usb/_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
 f1_keywords:
  - "usb/_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
+ - "_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
 req.header: usb.h
 req.include-header: 
 req.target-type: Windows

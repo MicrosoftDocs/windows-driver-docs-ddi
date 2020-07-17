@@ -10,6 +10,7 @@ keywords: ["RILPHONEBOOKANSOPERATION enumeration"]
 ms.keywords: RILPHONEBOOKANSOPERATION, RILPHONEBOOKANSOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PHONEBOOK_ANSDELETED, RIL_PHONEBOOK_ANSMODIFIED, RIL_PHONEBOOK_MAX, netvista.rilphonebookansoperation, ntddrilapitypes/RILPHONEBOOKANSOPERATION, ntddrilapitypes/RIL_PHONEBOOK_ANSDELETED, ntddrilapitypes/RIL_PHONEBOOK_ANSMODIFIED, ntddrilapitypes/RIL_PHONEBOOK_MAX
 f1_keywords:
  - "rilapitypes/RILPHONEBOOKANSOPERATION"
+ - "RILPHONEBOOKANSOPERATION"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

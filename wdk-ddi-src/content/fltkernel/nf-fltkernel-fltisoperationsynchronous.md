@@ -10,6 +10,7 @@ keywords: ["FltIsOperationSynchronous function"]
 ms.keywords: FltApiRef_e_to_o_f80a8dfd-53b1-42cf-9d7c-18fc4af6ff4e.xml, FltIsOperationSynchronous, FltIsOperationSynchronous routine [Installable File System Drivers], fltkernel/FltIsOperationSynchronous, ifsk.fltisoperationsynchronous
 f1_keywords:
  - "fltkernel/FltIsOperationSynchronous"
+ - "FltIsOperationSynchronous"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

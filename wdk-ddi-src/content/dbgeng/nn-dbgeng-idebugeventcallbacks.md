@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacks interface"]
 ms.keywords: ComCallbacks_72745555-ec34-41fa-9305-cf23357bcd17.xml, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging],described, dbgeng/IDebugEventCallbacks, debugger.idebugeventcallbacks
 f1_keywords:
  - "dbgeng/IDebugEventCallbacks"
+ - "IDebugEventCallbacks"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

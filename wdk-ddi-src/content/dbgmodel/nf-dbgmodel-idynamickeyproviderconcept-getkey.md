@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IDynamicKeyProviderConcept::GetKey"]
 f1_keywords:
  - "dbgmodel/IDynamicKeyProviderConcept.GetKey"
+ - "IDynamicKeyProviderConcept.GetKey"
 ms.keywords: IDynamicKeyProviderConcept::GetKey, GetKey, IDynamicKeyProviderConcept.GetKey, IDynamicKeyProviderConcept::GetKey, IDynamicKeyProviderConcept.GetKey
 req.header: dbgmodel.h
 req.include-header:

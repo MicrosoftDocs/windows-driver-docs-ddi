@@ -10,6 +10,7 @@ keywords: ["IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT, IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT control code [Parallel Ports], cisspd_a62d2a09-93e4-4fc4-ac5d-9589d930c794.xml, parallel/IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT, parports.ioctl_internal_unlock_port_no_deselect
 f1_keywords:
  - "parallel/IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT"
+ - "IOCTL_INTERNAL_UNLOCK_PORT_NO_DESELECT"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows

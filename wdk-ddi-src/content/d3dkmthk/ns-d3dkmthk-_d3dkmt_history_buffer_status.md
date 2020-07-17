@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_HISTORY_BUFFER_STATUS structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_HISTORY_BUFFER_STATUS"
+ - "_D3DKMT_HISTORY_BUFFER_STATUS"
 ms.keywords: _D3DKMT_HISTORY_BUFFER_STATUS, D3DKMT_HISTORY_BUFFER_STATUS, 
 req.header: d3dkmthk.h
 req.include-header:

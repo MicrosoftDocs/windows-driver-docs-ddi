@@ -10,6 +10,7 @@ keywords: ["FwpsRedirectHandleDestroy0 function"]
 ms.keywords: FwpsRedirectHandleDestroy0, FwpsRedirectHandleDestroy0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleDestroy0, netvista.fwpsredirecthandledestroy0
 f1_keywords:
  - "fwpsk/FwpsRedirectHandleDestroy0"
+ - "FwpsRedirectHandleDestroy0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

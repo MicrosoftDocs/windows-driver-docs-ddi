@@ -10,6 +10,7 @@ keywords: ["IPrinterExtensionContextCollection::GetAt"]
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrinterExtensionContextCollection interface, IPrinterExtensionContextCollection interface [Print Devices],GetAt method, IPrinterExtensionContextCollection.GetAt, IPrinterExtensionContextCollection::GetAt, get_GetAt, print.iprinterextensioncontextcollection_getat, printerextension/IPrinterExtensionContextCollection::GetAt
 f1_keywords:
  - "printerextension/IPrinterExtensionContextCollection.GetAt"
+ - "IPrinterExtensionContextCollection.GetAt"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

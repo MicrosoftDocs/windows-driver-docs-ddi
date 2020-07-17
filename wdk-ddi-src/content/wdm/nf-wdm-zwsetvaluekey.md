@@ -10,6 +10,7 @@ keywords: ["ZwSetValueKey function"]
 ms.keywords: NtSetValueKey, ZwSetValueKey, ZwSetValueKey routine [Kernel-Mode Driver Architecture], k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, kernel.zwsetvaluekey, wdm/NtSetValueKey, wdm/ZwSetValueKey
 f1_keywords:
  - "wdm/ZwSetValueKey"
+ - "ZwSetValueKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

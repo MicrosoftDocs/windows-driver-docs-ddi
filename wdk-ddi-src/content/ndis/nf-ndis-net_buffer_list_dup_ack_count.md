@@ -8,6 +8,7 @@ ms.date: 04/12/2018
 keywords: ["NET_BUFFER_LIST_DUP_ACK_COUNT macro"]
 f1_keywords:
  - "ndis/NET_BUFFER_LIST_DUP_ACK_COUNT"
+ - "NET_BUFFER_LIST_DUP_ACK_COUNT"
 ms.keywords: NET_BUFFER_LIST_DUP_ACK_COUNT
 req.header: ndis.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_USBFN_BUS_CONFIGURATION_INFO structure"]
 ms.keywords: "*PUSBFN_BUS_CONFIGURATION_INFO, PUSBFN_BUS_CONFIGURATION_INFO, PUSBFN_BUS_CONFIGURATION_INFO structure pointer [Buses], USBFN_BUS_CONFIGURATION_INFO, USBFN_BUS_CONFIGURATION_INFO structure [Buses], _USBFN_BUS_CONFIGURATION_INFO, buses.usbfn_bus_configuration_info, usbfnbase/PUSBFN_BUS_CONFIGURATION_INFO, usbfnbase/USBFN_BUS_CONFIGURATION_INFO"
 f1_keywords:
  - "usbfnbase/USBFN_BUS_CONFIGURATION_INFO"
+ - "USBFN_BUS_CONFIGURATION_INFO"
 req.header: usbfnbase.h
 req.include-header: 
 req.target-type: Windows

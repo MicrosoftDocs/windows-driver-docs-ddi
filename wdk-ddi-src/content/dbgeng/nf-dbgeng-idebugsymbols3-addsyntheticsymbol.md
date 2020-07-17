@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::AddSyntheticSymbol"]
 ms.keywords: AddSyntheticSymbol, AddSyntheticSymbol method [Windows Debugging], AddSyntheticSymbol method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AddSyntheticSymbol method, IDebugSymbols3.AddSyntheticSymbol, IDebugSymbols3::AddSyntheticSymbol, IDebugSymbols_8dcf97a7-eb9c-44aa-a2a7-1ad74cb396c1.xml, dbgeng/IDebugSymbols3::AddSyntheticSymbol, debugger.addsyntheticsymbol
 f1_keywords:
  - "dbgeng/IDebugSymbols3.AddSyntheticSymbol"
+ - "IDebugSymbols3.AddSyntheticSymbol"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

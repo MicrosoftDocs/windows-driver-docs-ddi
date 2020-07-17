@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE structure"]
 f1_keywords:
  - "d3dkmthk/_D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE"
+ - "_D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE"
 ms.keywords: _D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE, D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE, 
 req.header: d3dkmthk.h
 req.include-header:

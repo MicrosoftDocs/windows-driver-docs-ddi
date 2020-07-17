@@ -10,6 +10,7 @@ keywords: ["BOUND_CALLBACK callback function"]
 ms.keywords: BOUND_CALLBACK, BoundCallback, BoundCallback routine [Kernel-Mode Driver Architecture], kernel.boundcallback, wdm/BoundCallback
 f1_keywords:
  - "wdm/BoundCallback"
+ - "BoundCallback"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows

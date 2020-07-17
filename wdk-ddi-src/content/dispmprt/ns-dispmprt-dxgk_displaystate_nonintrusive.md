@@ -33,6 +33,7 @@ api_name:
 f1_keywords:
  - dispmprt/_DXGK_DISPLAYSTATE_NONINTRUSIVE
  - dispmprt/DXGK_DISPLAYSTATE_NONINTRUSIVE
+ - ""
 dev_langs:
  - c++
 ---

@@ -10,6 +10,7 @@ keywords: ["_NDIS_PD_COUNTER_VALUE structure"]
 ms.keywords: "*PNDIS_PD_COUNTER_VALUE, NDIS_PD_COUNTER_VALUE, NDIS_PD_COUNTER_VALUE union [Network Drivers Starting with Windows Vista], PNDIS_PD_COUNTER_VALUE, PNDIS_PD_COUNTER_VALUE union pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_COUNTER_VALUE, ndis/NDIS_PD_COUNTER_VALUE, ndis/PNDIS_PD_COUNTER_VALUE, netvista.ndis_pd_counter_value"
 f1_keywords:
  - "ndis/NDIS_PD_COUNTER_VALUE"
+ - "NDIS_PD_COUNTER_VALUE"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["WheaHighIrqlLogSelEventHandlerRegister function"]
 f1_keywords:
  - "ntddk/WheaHighIrqlLogSelEventHandlerRegister"
+ - "WheaHighIrqlLogSelEventHandlerRegister"
 ms.keywords: WheaHighIrqlLogSelEventHandlerRegister
 req.header: ntddk.h
 req.include-header:

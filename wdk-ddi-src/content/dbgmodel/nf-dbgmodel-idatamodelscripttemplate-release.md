@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptTemplate::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptTemplate.Release"
+ - "IDataModelScriptTemplate.Release"
 ms.keywords: IDataModelScriptTemplate::Release, Release, IDataModelScriptTemplate.Release, IDataModelScriptTemplate::Release, IDataModelScriptTemplate.Release
 req.header: dbgmodel.h
 req.include-header:

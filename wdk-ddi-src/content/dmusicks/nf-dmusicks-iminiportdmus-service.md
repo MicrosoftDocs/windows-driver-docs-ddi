@@ -10,6 +10,7 @@ keywords: ["IMiniportDMus::Service"]
 ms.keywords: IMiniportDMus interface [Audio Devices],Service method, IMiniportDMus.Service, IMiniportDMus::Service, Service, Service method [Audio Devices], Service method [Audio Devices],IMiniportDMus interface, audio.iminiportdmus_service, audmp-routines_0c872bc5-12b7-4e9d-b6ea-0da47cd41483.xml, dmusicks/IMiniportDMus::Service
 f1_keywords:
  - "dmusicks/IMiniportDMus.Service"
+ - "IMiniportDMus.Service"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop

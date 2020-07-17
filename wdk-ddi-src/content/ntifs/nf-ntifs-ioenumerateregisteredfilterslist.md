@@ -10,6 +10,7 @@ keywords: ["IoEnumerateRegisteredFiltersList function"]
 ms.keywords: IoEnumerateRegisteredFiltersList, IoEnumerateRegisteredFiltersList routine [Installable File System Drivers], ifsk.ioenumerateregisteredfilterslist, ioref_b1530889-7d8a-4fd7-a7d3-954b1c7012ca.xml, ntifs/IoEnumerateRegisteredFiltersList
 f1_keywords:
  - "ntifs/IoEnumerateRegisteredFiltersList"
+ - "IoEnumerateRegisteredFiltersList"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

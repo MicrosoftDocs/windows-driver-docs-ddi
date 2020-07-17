@@ -10,6 +10,7 @@ keywords: ["KsStreamPointerLock function"]
 ms.keywords: KsStreamPointerLock, KsStreamPointerLock function [Streaming Media Devices], avfunc_c7a4d7fb-9708-480d-a452-f398637bc82a.xml, ks/KsStreamPointerLock, stream.ksstreampointerlock
 f1_keywords:
  - "ks/KsStreamPointerLock"
+ - "KsStreamPointerLock"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

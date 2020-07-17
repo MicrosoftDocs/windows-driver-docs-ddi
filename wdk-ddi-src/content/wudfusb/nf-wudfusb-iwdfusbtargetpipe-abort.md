@@ -10,6 +10,7 @@ keywords: ["IWDFUsbTargetPipe::Abort"]
 ms.keywords: Abort, Abort method, Abort method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,Abort method, IWDFUsbTargetPipe.Abort, IWDFUsbTargetPipe::Abort, UMDFUSBref_8b413047-741c-4d3c-a71e-d29a79e5226c.xml, umdf.iwdfusbtargetpipe_abort, wdf.iwdfusbtargetpipe_abort, wudfusb/IWDFUsbTargetPipe::Abort
 f1_keywords:
  - "wudfusb/IWDFUsbTargetPipe.Abort"
+ - "IWDFUsbTargetPipe.Abort"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

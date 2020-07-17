@@ -26,6 +26,7 @@ targetos: Windows
 tech.root: display
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_COMMAND_RECORDER_SET_COMMAND_POOL_AS_TARGET_0040"
+ - "PFND3D12DDI_COMMAND_RECORDER_SET_COMMAND_POOL_AS_TARGET_0040"
 topic_type:
  - apiref
 api_type:

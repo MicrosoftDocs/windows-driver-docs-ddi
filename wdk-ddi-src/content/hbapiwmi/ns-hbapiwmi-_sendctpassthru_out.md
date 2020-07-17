@@ -10,6 +10,7 @@ keywords: ["_SendCTPassThru_OUT structure"]
 ms.keywords: "*PSendCTPassThru_OUT, PSendCTPassThru_OUT, PSendCTPassThru_OUT structure pointer [Storage Devices], SendCTPassThru_OUT, SendCTPassThru_OUT structure [Storage Devices], _SendCTPassThru_OUT, hbapiwmi/PSendCTPassThru_OUT, hbapiwmi/SendCTPassThru_OUT, storage.sendctpassthru_out, structs-Fibre_f795d452-fb3f-4236-a543-d0f80f94c14f.xml"
 f1_keywords:
  - "hbapiwmi/SendCTPassThru_OUT"
+ - "SendCTPassThru_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

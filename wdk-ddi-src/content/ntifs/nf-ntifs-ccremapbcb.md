@@ -10,6 +10,7 @@ keywords: ["CcRemapBcb function"]
 ms.keywords: CcRemapBcb, CcRemapBcb routine [Installable File System Drivers], ccref_64bd8036-ecdd-48bd-8894-fea7f28cc3be.xml, ifsk.ccremapbcb, ntifs/CcRemapBcb
 f1_keywords:
  - "ntifs/CcRemapBcb"
+ - "CcRemapBcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

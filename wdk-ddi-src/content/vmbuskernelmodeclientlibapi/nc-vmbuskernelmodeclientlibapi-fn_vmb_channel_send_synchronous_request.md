@@ -8,6 +8,7 @@ ms.date: 05/22/2018
 keywords: ["FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST"
+ - "FN_VMB_CHANNEL_SEND_SYNCHRONOUS_REQUEST"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

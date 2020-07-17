@@ -10,6 +10,7 @@ keywords: ["_NDIS_RECEIVE_QUEUE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS, NDIS_RECEIVE_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_PARAMETERS, PNDIS_RECEIVE_QUEUE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_PARAMETERS, netvista.ndis_receive_queue_parameters, ntddndis/NDIS_RECEIVE_QUEUE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_PARAMETERS, virtual_machine_queue_ref_7c1b89fc-ccdb-4bf4-89ab-d2278be7355b.xml"
 f1_keywords:
  - "ntddndis/NDIS_RECEIVE_QUEUE_PARAMETERS"
+ - "NDIS_RECEIVE_QUEUE_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

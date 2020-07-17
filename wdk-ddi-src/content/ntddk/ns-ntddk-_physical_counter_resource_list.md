@@ -10,6 +10,7 @@ keywords: ["_PHYSICAL_COUNTER_RESOURCE_LIST structure"]
 ms.keywords: "*PPHYSICAL_COUNTER_RESOURCE_LIST, PHYSICAL_COUNTER_RESOURCE_LIST, PHYSICAL_COUNTER_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PPHYSICAL_COUNTER_RESOURCE_LIST, PPHYSICAL_COUNTER_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], _PHYSICAL_COUNTER_RESOURCE_LIST, kernel.physical_counter_resource_list, kstruct_c_17d0a58a-6ac5-4360-a481-d33f0942b521.xml, ntddk/PHYSICAL_COUNTER_RESOURCE_LIST, ntddk/PPHYSICAL_COUNTER_RESOURCE_LIST"
 f1_keywords:
  - "ntddk/PHYSICAL_COUNTER_RESOURCE_LIST"
+ - "PHYSICAL_COUNTER_RESOURCE_LIST"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Windows

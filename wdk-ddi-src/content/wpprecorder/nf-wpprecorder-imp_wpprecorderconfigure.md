@@ -10,6 +10,7 @@ keywords: ["imp_WppRecorderConfigure function"]
 ms.keywords: WppRecorderConfigure, devtest.wpprecorderconfigure, imp_WppRecorderConfigure, imp_WppRecorderConfigure function [Driver Development Tools], wpprecorder/imp_WppRecorderConfigure
 f1_keywords:
  - "wpprecorder/imp_WppRecorderConfigure"
+ - "imp_WppRecorderConfigure"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlSetRegistryParameters function"]
 f1_keywords:
  - "dispmprt/DlSetRegistryParameters"
+ - "DlSetRegistryParameters"
 ms.keywords: DlSetRegistryParameters
 req.header: dispmprt.h
 req.include-header:

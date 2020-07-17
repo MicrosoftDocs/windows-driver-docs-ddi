@@ -10,6 +10,7 @@ keywords: ["WDF_REQUEST_PARAMETERS_INIT function"]
 ms.keywords: DFRequestObjectRef_1c1e97cb-9ca1-473a-aa30-d39fdadbc726.xml, WDF_REQUEST_PARAMETERS_INIT, WDF_REQUEST_PARAMETERS_INIT function, kmdf.wdf_request_parameters_init, wdf.wdf_request_parameters_init, wdfrequest/WDF_REQUEST_PARAMETERS_INIT
 f1_keywords:
  - "wdfrequest/WDF_REQUEST_PARAMETERS_INIT"
+ - "WDF_REQUEST_PARAMETERS_INIT"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

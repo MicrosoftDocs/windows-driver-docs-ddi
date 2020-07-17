@@ -34,6 +34,7 @@ api_name:
  - KeExpandKernelStackAndCalloutEx
 f1_keywords:
  - ntddk/KeExpandKernelStackAndCalloutEx
+ - ""
 dev_langs:
  - c++
 ---

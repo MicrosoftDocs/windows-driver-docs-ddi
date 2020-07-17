@@ -8,6 +8,7 @@ keywords: ["PropertiesListGetFillableCount function"]
 tech.root: sensors
 f1_keywords:
  - "sensorsutils/PropertiesListGetFillableCount"
+ - "PropertiesListGetFillableCount"
 ms.keywords: PropertiesListGetFillableCount
 req.header: sensorsutils.h
 req.include-header:

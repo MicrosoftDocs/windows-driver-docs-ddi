@@ -10,6 +10,7 @@ keywords: ["MINIPORT_WDI_RX_RESUME callback function"]
 ms.keywords: MINIPORT_WDI_RX_RESUME, MINIPORT_WDI_RX_RESUME callback, MiniportWdiRxResume, MiniportWdiRxResume callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxResume, netvista.miniportwdirxresume
 f1_keywords:
  - "dot11wdi/MiniportWdiRxResume"
+ - "MiniportWdiRxResume"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

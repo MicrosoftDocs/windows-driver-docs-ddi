@@ -10,6 +10,7 @@ keywords: ["_INTERRUPT_SYNCHRONIZATION_MODE enumeration"]
 ms.keywords: INTERRUPT_SYNCHRONIZATION_MODE, INTERRUPT_SYNCHRONIZATION_MODE enumeration [Storage Devices], InterruptSupportNone, InterruptSynchronizeAll, InterruptSynchronizePerMessage, _INTERRUPT_SYNCHRONIZATION_MODE, storage.interrupt_synchronization_mode, storport/INTERRUPT_SYNCHRONIZATION_MODE, storport/InterruptSupportNone, storport/InterruptSynchronizeAll, storport/InterruptSynchronizePerMessage, structs-storport_036aa424-5b04-4bf5-8418-8da008834c5b.xml
 f1_keywords:
  - "storport/INTERRUPT_SYNCHRONIZATION_MODE"
+ - "INTERRUPT_SYNCHRONIZATION_MODE"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows

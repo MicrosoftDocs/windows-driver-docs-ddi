@@ -10,6 +10,7 @@ keywords: ["FsRtlBalanceReads function"]
 ms.keywords: FsRtlBalanceReads, FsRtlBalanceReads routine [Installable File System Drivers], fsrtlref_9785018d-4a2f-44e8-a533-85ab1878e855.xml, ifsk.fsrtlbalancereads, ntifs/FsRtlBalanceReads
 f1_keywords:
  - "ntifs/FsRtlBalanceReads"
+ - "FsRtlBalanceReads"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

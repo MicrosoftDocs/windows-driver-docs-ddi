@@ -10,6 +10,7 @@ keywords: ["IPrinterScriptableSequentialStream::Read"]
 ms.keywords: IPrinterScriptableSequentialStream interface [Print Devices],Read method, IPrinterScriptableSequentialStream.Read, IPrinterScriptableSequentialStream::Read, Read, Read method [Print Devices], Read method [Print Devices],IPrinterScriptableSequentialStream interface, print.iprinterscriptablesequentialstream_read, printerextension/IPrinterScriptableSequentialStream::Read
 f1_keywords:
  - "printerextension/IPrinterScriptableSequentialStream.Read"
+ - "IPrinterScriptableSequentialStream.Read"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

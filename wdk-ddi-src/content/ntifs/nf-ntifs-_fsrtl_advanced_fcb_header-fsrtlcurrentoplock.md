@@ -10,6 +10,7 @@ keywords: ["FsRtlCurrentOplock function"]
 ms.keywords: FsRtlCurrentOplock, FsRtlCurrentOplock function [Installable File System Drivers], fsrtlref_3caa67c9-324a-4694-95a3-f84105055b48.xml, ifsk.fsrtlcurrentoplock, ntifs/FsRtlCurrentOplock
 f1_keywords:
  - "ntifs/FsRtlCurrentOplock"
+ - "FsRtlCurrentOplock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

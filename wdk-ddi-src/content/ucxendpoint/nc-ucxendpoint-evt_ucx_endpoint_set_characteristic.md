@@ -10,6 +10,7 @@ keywords: ["EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback function"]
 ms.keywords: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC, EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback, EvtUcxEndpointSetCharacteristic, EvtUcxEndpointSetCharacteristic callback function [Buses], buses.evt_ucx_endpoint_set_characteristic, ucxendpoint/EvtUcxEndpointSetCharacteristic
 f1_keywords:
  - "ucxendpoint/EvtUcxEndpointSetCharacteristic"
+ - "EvtUcxEndpointSetCharacteristic"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

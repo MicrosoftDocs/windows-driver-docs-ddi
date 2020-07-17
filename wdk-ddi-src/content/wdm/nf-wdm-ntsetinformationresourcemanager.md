@@ -10,6 +10,7 @@ keywords: ["NtSetInformationResourceManager function"]
 ms.keywords: NtSetInformationResourceManager, ZwSetInformationResourceManager, function [Kernel-Mode Driver Architecture], kernel.zwsetinformationresourcemanager, ktm_ref_6b15a16a-ffed-4f3e-9ca3-370b85896dc2.xml, wdm/, wdm/NtSetInformationResourceManager
 f1_keywords:
  - "wdm/ZwSetInformationResourceManager"
+ - "ZwSetInformationResourceManager"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows

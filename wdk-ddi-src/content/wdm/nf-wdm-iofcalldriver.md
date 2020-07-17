@@ -7,6 +7,7 @@ ms.date: 04/30/2018
 keywords: ["IofCallDriver function"]
 f1_keywords:
  - "wdm/IofCallDriver"
+ - "IofCallDriver"
 ms.keywords: IofCallDriver, IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture], k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, kernel.iocalldriver, wdm/IoCallDriver
 req.header: wdm.h
 req.include-header:  Wdm.h, Ntddk.h, Ntifs.h

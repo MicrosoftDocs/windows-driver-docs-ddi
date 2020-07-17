@@ -10,6 +10,7 @@ keywords: ["WdfInterruptGetInfo function"]
 ms.keywords: DFInterruptObjectRef_eb163aa0-1ba3-491d-b215-85c8773dcfc9.xml, WdfInterruptGetInfo, WdfInterruptGetInfo method, kmdf.wdfinterruptgetinfo, wdf.wdfinterruptgetinfo, wdfinterrupt/WdfInterruptGetInfo
 f1_keywords:
  - "wdfinterrupt/WdfInterruptGetInfo"
+ - "WdfInterruptGetInfo"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal

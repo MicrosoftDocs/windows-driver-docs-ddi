@@ -10,6 +10,7 @@ keywords: ["_IO_SESSION_CONNECT_INFO structure"]
 ms.keywords: "*PIO_SESSION_CONNECT_INFO, IO_SESSION_CONNECT_INFO, IO_SESSION_CONNECT_INFO structure [Kernel-Mode Driver Architecture], PIO_SESSION_CONNECT_INFO, PIO_SESSION_CONNECT_INFO structure pointer [Kernel-Mode Driver Architecture], _IO_SESSION_CONNECT_INFO, kernel.io_session_connect_info, kstruct_b_ef736de7-23b2-4d43-837f-ea879d963ef8.xml, wdm/IO_SESSION_CONNECT_INFO, wdm/PIO_SESSION_CONNECT_INFO"
 f1_keywords:
  - "wdm/IO_SESSION_CONNECT_INFO"
+ - "IO_SESSION_CONNECT_INFO"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows

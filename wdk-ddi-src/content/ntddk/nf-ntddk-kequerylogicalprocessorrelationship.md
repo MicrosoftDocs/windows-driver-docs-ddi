@@ -10,6 +10,7 @@ keywords: ["KeQueryLogicalProcessorRelationship function"]
 ms.keywords: KeQueryLogicalProcessorRelationship, KeQueryLogicalProcessorRelationship routine [Kernel-Mode Driver Architecture], k105_0db645b1-dfa2-4d90-856f-975997dc09a8.xml, kernel.kequerylogicalprocessorrelationship, wdm/KeQueryLogicalProcessorRelationship
 f1_keywords:
  - "ntddk/KeQueryLogicalProcessorRelationship"
+ - "KeQueryLogicalProcessorRelationship"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Wdm.h, Ntddk.h
 req.target-type: Universal

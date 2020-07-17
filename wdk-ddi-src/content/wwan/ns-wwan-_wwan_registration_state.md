@@ -10,6 +10,7 @@ keywords: ["_WWAN_REGISTRATION_STATE structure"]
 ms.keywords: "*PWWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff7f3a8a-853b-43e3-95fb-ed4320806ad2.xml, _WWAN_REGISTRATION_STATE, netvista.wwan_registration_state, wwan/PWWAN_REGISTRATION_STATE, wwan/WWAN_REGISTRATION_STATE"
 f1_keywords:
  - "wwan/WWAN_REGISTRATION_STATE"
+ - "WWAN_REGISTRATION_STATE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

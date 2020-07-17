@@ -10,6 +10,7 @@ keywords: ["HW_FIND_ADAPTER callback function"]
 ms.keywords: HW_FIND_ADAPTER, HwStorFindAdapter, HwStorFindAdapter routine [Storage Devices], storage.hwstorfindadapter, stormini_844ef988-84c8-4f93-b732-eb0a2e8d611a.xml, storport/HwStorFindAdapter
 f1_keywords:
  - "storport/HwStorFindAdapter"
+ - "HwStorFindAdapter"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["RILUICCCOMMAND enumeration"]
 ms.keywords: RILUICCCOMMAND, RILUICCCOMMAND enumeration [Network Drivers Starting with Windows Vista], RIL_UICCCMD_MAX, RIL_UICCCMD_READRECORD, RIL_UICCCMD_UPDATEBINARY, RIL_UICCCMD_UPDATERECORD, netvista.riluicccommand, ntddrilapitypes/RILUICCCOMMAND, ntddrilapitypes/RIL_UICCCMD_MAX, ntddrilapitypes/RIL_UICCCMD_READRECORD, ntddrilapitypes/RIL_UICCCMD_UPDATEBINARY, ntddrilapitypes/RIL_UICCCMD_UPDATERECORD
 f1_keywords:
  - "ntddrilapitypes/RILUICCCOMMAND"
+ - "RILUICCCOMMAND"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

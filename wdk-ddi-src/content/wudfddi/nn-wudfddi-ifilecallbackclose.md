@@ -10,6 +10,7 @@ keywords: ["IFileCallbackClose interface"]
 ms.keywords: IFileCallbackClose, IFileCallbackClose interface, IFileCallbackClose interface,described, UMDFFileObjectRef_52a9bb2c-0bf7-49db-80f0-7df5f4f131f6.xml, umdf.ifilecallbackclose, wdf.ifilecallbackclose, wudfddi/IFileCallbackClose
 f1_keywords:
  - "wudfddi/IFileCallbackClose"
+ - "IFileCallbackClose"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

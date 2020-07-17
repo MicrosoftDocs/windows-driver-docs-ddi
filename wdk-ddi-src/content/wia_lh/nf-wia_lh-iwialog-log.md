@@ -10,6 +10,7 @@ keywords: ["IWiaLog::Log"]
 ms.keywords: IWiaLog interface [Imaging Devices],Log method, IWiaLog.Log, IWiaLog::Log, IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, Log, Log method [Imaging Devices], Log method [Imaging Devices],IWiaLog interface, image.iwialog_log, wia_lh/IWiaLog::Log
 f1_keywords:
  - "wia_lh/IWiaLog.Log"
+ - "IWiaLog.Log"
 req.header: wia_lh.h
 req.include-header: 
 req.target-type: Desktop

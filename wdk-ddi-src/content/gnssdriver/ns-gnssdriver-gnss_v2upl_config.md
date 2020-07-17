@@ -10,6 +10,7 @@ keywords: ["GNSS_V2UPL_CONFIG structure"]
 ms.keywords: "*PGNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG structure [Sensor Devices], PGNSS_V2UPL_CONFIG, PGNSS_V2UPL_CONFIG structure pointer [Sensor Devices], gnss.gnss_v2upl_config, gnssdriver/GNSS_V2UPL_CONFIG, gnssdriver/PGNSS_V2UPL_CONFIG"
 f1_keywords:
  - "gnssdriver/GNSS_V2UPL_CONFIG"
+ - "GNSS_V2UPL_CONFIG"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

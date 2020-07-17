@@ -10,6 +10,7 @@ keywords: ["POB_PRE_OPERATION_CALLBACK callback function"]
 ms.keywords: DrvrRtns_8ccbcf60-457d-4bd7-b059-423a47a44374.xml, ObjectPreCallback, ObjectPreCallback callback function [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_CALLBACK, POB_PRE_OPERATION_CALLBACK callback, kernel.objectprecallback, wdm/ObjectPreCallback
 f1_keywords:
  - "wdm/ObjectPreCallback"
+ - "ObjectPreCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

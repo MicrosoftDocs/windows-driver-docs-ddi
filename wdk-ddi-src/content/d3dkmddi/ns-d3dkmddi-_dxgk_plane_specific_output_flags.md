@@ -9,6 +9,7 @@ keywords: ["_DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure"]
 ms.keywords: DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure [Display Devices], _DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, display.dxgk_plane_specific_output_flags
 f1_keywords:
  - "d3dkmddi/DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS"
+ - "DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

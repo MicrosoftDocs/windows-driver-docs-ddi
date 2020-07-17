@@ -10,6 +10,7 @@ keywords: ["WdfRequestSetInformation function"]
 ms.keywords: DFRequestObjectRef_76b63618-935e-44b2-ac3d-591c5e11ea74.xml, WdfRequestSetInformation, WdfRequestSetInformation method, kmdf.wdfrequestsetinformation, wdf.wdfrequestsetinformation, wdfrequest/WdfRequestSetInformation
 f1_keywords:
  - "wdfrequest/WdfRequestSetInformation"
+ - "WdfRequestSetInformation"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

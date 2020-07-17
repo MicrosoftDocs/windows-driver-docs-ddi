@@ -10,6 +10,7 @@ keywords: ["IOCTL_SRIOV_MITIGATED_RANGE_UPDATE IOCTL"]
 ms.keywords: IOCTL_SRIOV_MITIGATED_RANGE_UPDATE, IOCTL_SRIOV_MITIGATED_RANGE_UPDATE control code [Buses], PCI.ioctl-sriov-mitigated-range-update, pcivirt/IOCTL_SRIOV_MITIGATED_RANGE_UPDATE
 f1_keywords:
  - "pcivirt/IOCTL_SRIOV_MITIGATED_RANGE_UPDATE"
+ - "IOCTL_SRIOV_MITIGATED_RANGE_UPDATE"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

@@ -9,6 +9,7 @@ keywords: ["_DXGK_POWER_RUNTIME_STATE structure"]
 ms.keywords: DXGK_POWER_RUNTIME_STATE, DXGK_POWER_RUNTIME_STATE structure [Display Devices], _DXGK_POWER_RUNTIME_STATE, d3dkmddi/DXGK_POWER_RUNTIME_STATE, display.dxgk_power_runtime_state
 f1_keywords:
  - "d3dkmddi/DXGK_POWER_RUNTIME_STATE"
+ - "DXGK_POWER_RUNTIME_STATE"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

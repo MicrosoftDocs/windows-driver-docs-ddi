@@ -10,6 +10,7 @@ keywords: ["_SERIAL_QUEUE_SIZE structure"]
 ms.keywords: "*PSERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE structure pointer [Serial Ports], SERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE structure [Serial Ports], _SERIAL_QUEUE_SIZE, ntddser/PSERIAL_QUEUE_SIZE, ntddser/SERIAL_QUEUE_SIZE, serports.serial_queue_size"
 f1_keywords:
  - "ntddser/SERIAL_QUEUE_SIZE"
+ - "SERIAL_QUEUE_SIZE"
 req.header: ntddser.h
 req.include-header: 
 req.target-type: Windows

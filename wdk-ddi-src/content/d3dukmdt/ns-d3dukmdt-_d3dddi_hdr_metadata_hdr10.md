@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_HDR_METADATA_HDR10 structure"]
 ms.keywords: D3DDDI_HDR_METADATA_HDR10, D3DDDI_HDR_METADATA_HDR10 structure [Display Devices], _D3DDDI_HDR_METADATA_HDR10, d3dukmdt/D3DDDI_HDR_METADATA_HDR10, display.d3dddi_hdr_metadata_hdr10
 f1_keywords:
  - "d3dukmdt/D3DDDI_HDR_METADATA_HDR10"
+ - "D3DDDI_HDR_METADATA_HDR10"
 req.header: d3dukmdt.h
 req.include-header:
 req.target-type: Windows

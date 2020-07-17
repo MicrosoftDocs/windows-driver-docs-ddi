@@ -10,6 +10,7 @@ keywords: ["PFND3DDDI_SETPIXELSHADERCONSTB callback function"]
 ms.keywords: PFND3DDDI_SETPIXELSHADERCONSTB, PFND3DDDI_SETPIXELSHADERCONSTB callback, SetPixelShaderConstB, SetPixelShaderConstB callback function [Display Devices], UserModeDisplayDriver_Functions_1f26c07c-fd24-4b1f-bc9d-23f6b8dae95f.xml, d3dumddi/SetPixelShaderConstB, display.setpixelshaderconstb
 f1_keywords:
  - "d3dumddi/SetPixelShaderConstB"
+ - "SetPixelShaderConstB"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

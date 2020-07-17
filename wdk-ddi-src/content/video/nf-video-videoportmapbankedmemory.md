@@ -10,6 +10,7 @@ keywords: ["VideoPortMapBankedMemory function"]
 ms.keywords: VideoPortMapBankedMemory, VideoPortMapBankedMemory function [Display Devices], VideoPort_Functions_14384264-da80-4c16-8de9-af143ac6a014.xml, display.videoportmapbankedmemory, video/VideoPortMapBankedMemory
 f1_keywords:
  - "video/VideoPortMapBankedMemory"
+ - "VideoPortMapBankedMemory"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_WAIT_CONTEXT_BLOCK structure"]
 f1_keywords:
  - "wdm/_WAIT_CONTEXT_BLOCK"
+ - "_WAIT_CONTEXT_BLOCK"
 ms.keywords: _WAIT_CONTEXT_BLOCK, WAIT_CONTEXT_BLOCK, *PWAIT_CONTEXT_BLOCK, 
 req.header: wdm.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["RtlInitCodePageTable function"]
 ms.keywords: RtlInitCodePageTable, RtlInitCodePageTable function [Installable File System Drivers], ifsk.rtlinitcodepagetable, ntifs/RtlInitCodePageTable, rtlref_e8e23ed7-9655-4aba-a5fa-3096995aafd9.xml
 f1_keywords:
  - "ntifs/RtlInitCodePageTable"
+ - "RtlInitCodePageTable"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

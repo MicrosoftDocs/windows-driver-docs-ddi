@@ -10,6 +10,7 @@ keywords: ["_UCX_USBDEVICE_EVENT_CALLBACKS structure"]
 ms.keywords: "*PUCX_USBDEVICE_EVENT_CALLBACKS, P_UCX_USBDEVICE_EVENT_CALLBACKS, P_UCX_USBDEVICE_EVENT_CALLBACKS structure pointer [Buses], UCX_USBDEVICE_EVENT_CALLBACKS, UCX_USBDEVICE_EVENT_CALLBACKS structure [Buses], _UCX_USBDEVICE_EVENT_CALLBACKS, buses._ucx_usbdevice_event_callbacks, ucxusbdevice/P_UCX_USBDEVICE_EVENT_CALLBACKS, ucxusbdevice/_UCX_USBDEVICE_EVENT_CALLBACKS"
 f1_keywords:
  - "ucxusbdevice/UCX_USBDEVICE_EVENT_CALLBACKS"
+ - "UCX_USBDEVICE_EVENT_CALLBACKS"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

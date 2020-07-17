@@ -10,6 +10,7 @@ keywords: ["IWiaErrorHandler::GetStatusDescription"]
 ms.keywords: GetStatusDescription, GetStatusDescription method [Imaging Devices], GetStatusDescription method [Imaging Devices],IWiaErrorHandler interface, IWiaErrorHandler interface [Imaging Devices],GetStatusDescription method, IWiaErrorHandler.GetStatusDescription, IWiaErrorHandler::GetStatusDescription, IWiaErrorHandler_4bd0cba6-d729-4942-b56a-588af88ef913.xml, image.iwiaerrorhandler_getstatusdescription, wia_lh/IWiaErrorHandler::GetStatusDescription
 f1_keywords:
  - "wia_lh/IWiaErrorHandler.GetStatusDescription"
+ - "IWiaErrorHandler.GetStatusDescription"
 req.header: wia_lh.h
 req.include-header: Wia.h
 req.target-type: Desktop

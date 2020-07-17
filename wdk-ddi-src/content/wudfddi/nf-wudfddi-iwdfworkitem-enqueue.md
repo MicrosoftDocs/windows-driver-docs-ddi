@@ -10,6 +10,7 @@ keywords: ["IWDFWorkItem::Enqueue"]
 ms.keywords: Enqueue, Enqueue method, Enqueue method,IWDFWorkItem interface, IWDFWorkItem interface,Enqueue method, IWDFWorkItem.Enqueue, IWDFWorkItem::Enqueue, umdf.iwdfworkitem_enqueue, wdf.iwdfworkitem_enqueue, wudfddi/IWDFWorkItem::Enqueue
 f1_keywords:
  - "wudfddi/IWDFWorkItem.Enqueue"
+ - "IWDFWorkItem.Enqueue"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

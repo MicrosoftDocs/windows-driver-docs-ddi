@@ -10,6 +10,7 @@ keywords: ["PO_FX_COMPONENT_IDLE_STATE_CALLBACK callback function"]
 ms.keywords: ComponentIdleStateCallback, ComponentIdleStateCallback routine [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_IDLE_STATE_CALLBACK, kernel.componentidlestatecallback, wdm/ComponentIdleStateCallback
 f1_keywords:
  - "wdm/ComponentIdleStateCallback"
+ - "ComponentIdleStateCallback"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Desktop

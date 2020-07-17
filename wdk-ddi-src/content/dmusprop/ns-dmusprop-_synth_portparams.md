@@ -10,6 +10,7 @@ keywords: ["_SYNTH_PORTPARAMS structure"]
 ms.keywords: "*PSYNTH_PORTPARAMS, PSYNTH_PORTPARAMS, PSYNTH_PORTPARAMS structure pointer [Audio Devices], SYNTH_PORTPARAMS, SYNTH_PORTPARAMS structure [Audio Devices], _SYNTH_PORTPARAMS, aud-prop_33f03864-8052-4dff-9613-1e8046450d16.xml, audio.synth_portparams, dmusprop/PSYNTH_PORTPARAMS, dmusprop/SYNTH_PORTPARAMS"
 f1_keywords:
  - "dmusprop/SYNTH_PORTPARAMS"
+ - "SYNTH_PORTPARAMS"
 req.header: dmusprop.h
 req.include-header: Dmusprop.h
 req.target-type: Windows

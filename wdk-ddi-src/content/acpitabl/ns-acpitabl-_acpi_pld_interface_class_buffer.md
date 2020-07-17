@@ -7,6 +7,7 @@ ms.date: 10/02/2018
 keywords: ["_ACPI_PLD_INTERFACE_CLASS_BUFFER structure"]
 f1_keywords:
  - "acpitabl/_ACPI_PLD_INTERFACE_CLASS_BUFFER"
+ - "_ACPI_PLD_INTERFACE_CLASS_BUFFER"
 ms.keywords: _ACPI_PLD_INTERFACE_CLASS_BUFFER, ACPI_PLD_INTERFACE_CLASS_BUFFER, *PACPI_PLD_INTERFACE_CLASS_BUFFER, 
 req.header: acpitabl.h
 req.include-header:

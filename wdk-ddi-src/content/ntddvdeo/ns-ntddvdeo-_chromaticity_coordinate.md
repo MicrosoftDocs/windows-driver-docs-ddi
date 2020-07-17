@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_CHROMATICITY_COORDINATE structure"]
 f1_keywords:
  - "ntddvdeo/_CHROMATICITY_COORDINATE"
+ - "_CHROMATICITY_COORDINATE"
 ms.keywords: _CHROMATICITY_COORDINATE, CHROMATICITY_COORDINATE,
 req.header: ntddvdeo.h
 req.include-header:

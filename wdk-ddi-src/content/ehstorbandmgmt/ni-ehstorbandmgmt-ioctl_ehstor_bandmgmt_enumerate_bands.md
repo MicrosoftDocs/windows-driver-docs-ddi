@@ -10,6 +10,7 @@ keywords: ["IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS control, IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, storage.ioctl_ehstor_bandmgmt_enumerate_bands
 f1_keywords:
  - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS"
+ - "IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows

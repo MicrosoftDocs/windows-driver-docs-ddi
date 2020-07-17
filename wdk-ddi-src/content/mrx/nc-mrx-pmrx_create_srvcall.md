@@ -10,6 +10,7 @@ keywords: ["PMRX_CREATE_SRVCALL callback function"]
 ms.keywords: MRxCreateSrvCall, MRxCreateSrvCall routine [Installable File System Drivers], PMRX_CREATE_SRVCALL, ifsk.mrxcreatesrvcall, mrx/MRxCreateSrvCall, mrxref_bc85d9c3-6d64-4510-ae94-0ec858c49110.xml
 f1_keywords:
  - "mrx/MRxCreateSrvCall"
+ - "MRxCreateSrvCall"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

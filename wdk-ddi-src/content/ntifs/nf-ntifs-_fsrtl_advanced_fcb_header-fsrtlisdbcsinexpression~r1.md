@@ -10,6 +10,7 @@ keywords: ["FsRtlIsDbcsInExpression function"]
 ms.keywords: FsRtlIsDbcsInExpression, FsRtlIsDbcsInExpression routine [Installable File System Drivers], fsrtlref_f38a4fe0-8553-4e19-a6c9-fb83a81c6cb5.xml, ifsk.fsrtlisdbcsinexpression, ntifs/FsRtlIsDbcsInExpression
 f1_keywords:
  - "ntifs/FsRtlIsDbcsInExpression"
+ - "FsRtlIsDbcsInExpression"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

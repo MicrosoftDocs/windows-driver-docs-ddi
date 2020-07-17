@@ -10,6 +10,7 @@ keywords: ["MINIPORT_DIRECT_OID_REQUEST callback function"]
 ms.keywords: MINIPORT_DIRECT_OID_REQUEST, MINIPORT_DIRECT_OID_REQUEST callback, MiniportDirectOidRequest, MiniportDirectOidRequest callback function [Network Drivers Starting with Windows Vista], ndis/MiniportDirectOidRequest, ndis_request_direct_ref_8650027d-37db-4165-9bf6-c239b6db2919.xml, netvista.miniportdirectoidrequest
 f1_keywords:
  - "ndis/MiniportDirectOidRequest"
+ - "MiniportDirectOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

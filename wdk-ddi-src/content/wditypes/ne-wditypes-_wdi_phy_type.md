@@ -10,6 +10,7 @@ keywords: ["_WDI_PHY_TYPE enumeration"]
 ms.keywords: WDI_PHY_TYPE, WDI_PHY_TYPE enumeration [Network Drivers Starting with Windows Vista], WDI_PHY_TYPE_ANY, WDI_PHY_TYPE_DMG, WDI_PHY_TYPE_DSSS, WDI_PHY_TYPE_ERP, WDI_PHY_TYPE_FHSS, WDI_PHY_TYPE_HRDSSS, WDI_PHY_TYPE_HT, WDI_PHY_TYPE_IHV_END, WDI_PHY_TYPE_IHV_START, WDI_PHY_TYPE_IRBASEBAND, WDI_PHY_TYPE_OFDM, WDI_PHY_TYPE_UNKNOWN, WDI_PHY_TYPE_VHT, _WDI_PHY_TYPE, netvista.wdi_phy_type, netvista.wifi_phy_type, wditypes/WDI_PHY_TYPE, wditypes/WDI_PHY_TYPE_ANY, wditypes/WDI_PHY_TYPE_DMG, wditypes/WDI_PHY_TYPE_DSSS, wditypes/WDI_PHY_TYPE_ERP, wditypes/WDI_PHY_TYPE_FHSS, wditypes/WDI_PHY_TYPE_HRDSSS, wditypes/WDI_PHY_TYPE_HT, wditypes/WDI_PHY_TYPE_IHV_END, wditypes/WDI_PHY_TYPE_IHV_START, wditypes/WDI_PHY_TYPE_IRBASEBAND, wditypes/WDI_PHY_TYPE_OFDM, wditypes/WDI_PHY_TYPE_UNKNOWN, wditypes/WDI_PHY_TYPE_VHT
 f1_keywords:
  - "wditypes/WDI_PHY_TYPE"
+ - "WDI_PHY_TYPE"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows

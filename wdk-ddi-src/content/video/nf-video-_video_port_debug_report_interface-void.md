@@ -10,6 +10,7 @@ keywords: ["VOID function"]
 ms.keywords: NdisMapFile, NdisMapFile function [Network Drivers Starting with Windows Vista], VOID, ndis/NdisMapFile, ndis_file_ref_5bc73f64-8379-45bb-a37b-fe9a946af119.xml, netvista.ndismapfile
 f1_keywords:
  - "video/NdisMapFile"
+ - "NdisMapFile"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Universal

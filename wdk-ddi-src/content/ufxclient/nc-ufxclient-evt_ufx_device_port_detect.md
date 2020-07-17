@@ -10,6 +10,7 @@ keywords: ["EVT_UFX_DEVICE_PORT_DETECT callback function"]
 ms.keywords: EVT_UFX_DEVICE_PORT_DETECT, EVT_UFX_DEVICE_PORT_DETECT callback, EvtUfxDevicePortDetect, EvtUfxDevicePortDetect callback function [Buses], PFN_UFX_DEVICE_PORT_DETECT, PFN_UFX_DEVICE_PORT_DETECT callback function pointer [Buses], buses.evt_ufx_device_port_detect, ufxclient/EvtUfxDevicePortDetect
 f1_keywords:
  - "ufxclient/PFN_UFX_DEVICE_PORT_DETECT"
+ - "PFN_UFX_DEVICE_PORT_DETECT"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

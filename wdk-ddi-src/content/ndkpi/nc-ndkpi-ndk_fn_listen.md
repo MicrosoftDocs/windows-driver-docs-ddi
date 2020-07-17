@@ -10,6 +10,7 @@ keywords: ["NDK_FN_LISTEN callback function"]
 ms.keywords: NDK_FN_LISTEN, NDK_FN_LISTEN callback, NdkListen, NdkListen callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkListen, netvista.ndk_fn_listen
 f1_keywords:
  - "ndkpi/NdkListen"
+ - "NdkListen"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_DXGK_INTEGRATED_DISPLAY_CHILD structure"]
 ms.keywords: "*PDXGK_INTEGRATED_DISPLAY_CHILD, DXGK_INTEGRATED_DISPLAY_CHILD, DXGK_INTEGRATED_DISPLAY_CHILD structure [Display Devices], PDXGK_INTEGRATED_DISPLAY_CHILD, PDXGK_INTEGRATED_DISPLAY_CHILD structure pointer [Display Devices], _DXGK_INTEGRATED_DISPLAY_CHILD, display.dxgk_integrated_display_child, dispmprt/DXGK_INTEGRATED_DISPLAY_CHILD, dispmprt/PDXGK_INTEGRATED_DISPLAY_CHILD"
 f1_keywords:
  - "dispmprt/DXGK_INTEGRATED_DISPLAY_CHILD"
+ - "DXGK_INTEGRATED_DISPLAY_CHILD"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Windows

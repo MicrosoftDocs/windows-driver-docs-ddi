@@ -10,6 +10,7 @@ keywords: ["_PSCREATEPROCESSNOTIFYTYPE enumeration"]
 ms.keywords: PSCREATEPROCESSNOTIFYTYPE, PSCREATEPROCESSNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], PsCreateProcessNotifySubsystems, _PSCREATEPROCESSNOTIFYTYPE, kernel.pscreateprocessnotifytype, ntddk/PSCREATEPROCESSNOTIFYTYPE, ntddk/PsCreateProcessNotifySubsystems
 f1_keywords:
  - "ntddk/PSCREATEPROCESSNOTIFYTYPE"
+ - "PSCREATEPROCESSNOTIFYTYPE"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

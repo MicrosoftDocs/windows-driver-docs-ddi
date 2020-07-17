@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::GetImplementedMethod"]
 ms.keywords: GetImplementedMethod, GetImplementedMethod method [Print Devices], GetImplementedMethod method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],GetImplementedMethod method, IPrintOemUni.GetImplementedMethod, IPrintOemUni::GetImplementedMethod, prcomoem/IPrintOemUni::GetImplementedMethod, print.iprintoemuni_getimplementedmethod, print_unidrv-pscript_rendering_904bb300-cb68-4386-a5d1-9e614b38651d.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.GetImplementedMethod"
+ - "IPrintOemUni.GetImplementedMethod"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

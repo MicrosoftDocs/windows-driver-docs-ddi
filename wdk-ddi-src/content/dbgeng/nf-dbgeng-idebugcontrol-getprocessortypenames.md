@@ -10,6 +10,7 @@ keywords: ["IDebugControl::GetProcessorTypeNames"]
 ms.keywords: GetProcessorTypeNames, GetProcessorTypeNames method [Windows Debugging], GetProcessorTypeNames method [Windows Debugging],IDebugControl interface, GetProcessorTypeNames method [Windows Debugging],IDebugControl2 interface, GetProcessorTypeNames method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetProcessorTypeNames method, IDebugControl.GetProcessorTypeNames, IDebugControl2 interface [Windows Debugging],GetProcessorTypeNames method, IDebugControl2::GetProcessorTypeNames, IDebugControl3 interface [Windows Debugging],GetProcessorTypeNames method, IDebugControl3::GetProcessorTypeNames, IDebugControl::GetProcessorTypeNames, IDebugControl_f14b5f52-cf94-458b-bd1e-61c3ad66a597.xml, dbgeng/IDebugControl2::GetProcessorTypeNames, dbgeng/IDebugControl3::GetProcessorTypeNames, dbgeng/IDebugControl::GetProcessorTypeNames, debugger.getprocessortypenames
 f1_keywords:
  - "dbgeng/IDebugControl.GetProcessorTypeNames"
+ - "IDebugControl.GetProcessorTypeNames"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

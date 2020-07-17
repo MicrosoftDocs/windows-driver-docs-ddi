@@ -10,6 +10,7 @@ keywords: ["_ROOTHUB_30PORTS_INFO structure"]
 ms.keywords: "*PROOTHUB_30PORTS_INFO, P_ROOTHUB_30PORTS_INFO, P_ROOTHUB_30PORTS_INFO structure pointer [Buses], ROOTHUB_30PORTS_INFO, ROOTHUB_30PORTS_INFO structure [Buses], _ROOTHUB_30PORTS_INFO, buses._roothub_30ports_info, ucxroothub/P_ROOTHUB_30PORTS_INFO, ucxroothub/_ROOTHUB_30PORTS_INFO"
 f1_keywords:
  - "ucxroothub/ROOTHUB_30PORTS_INFO"
+ - "ROOTHUB_30PORTS_INFO"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

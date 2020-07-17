@@ -10,6 +10,7 @@ keywords: ["_DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA structure"]
 ms.keywords: DXVA2_Structs_4759e9c4-cde3-40d9-8f13-a7437ba73eac.xml, DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA, display.dxvahdddi_blt_state_constriction_data
 f1_keywords:
  - "d3dumddi/DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA"
+ - "DXVAHDDDI_BLT_STATE_CONSTRICTION_DATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

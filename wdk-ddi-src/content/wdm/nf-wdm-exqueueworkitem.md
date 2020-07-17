@@ -10,6 +10,7 @@ keywords: ["ExQueueWorkItem function"]
 ms.keywords: ExQueueWorkItem, ExQueueWorkItem routine [Installable File System Drivers], exref_67f4ac82-4b9b-4545-8641-2d1f8b0eb9ab.xml, ifsk.exqueueworkitem, wdm/ExQueueWorkItem
 f1_keywords:
  - "wdm/ExQueueWorkItem"
+ - "ExQueueWorkItem"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_D3DDDICB_DEALLOCATE structure"]
 ms.keywords: D3DDDICB_DEALLOCATE, D3DDDICB_DEALLOCATE structure [Display Devices], D3D_param_Structs_4182b764-2e99-4146-a8ae-15620524f408.xml, _D3DDDICB_DEALLOCATE, d3dumddi/D3DDDICB_DEALLOCATE, display.d3dddicb_deallocate
 f1_keywords:
  - "d3dumddi/D3DDDICB_DEALLOCATE"
+ - "D3DDDICB_DEALLOCATE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IMiniport::GetDescription"]
 f1_keywords:
  - "portcls/IMiniport.GetDescription"
+ - "IMiniport.GetDescription"
 ms.keywords: IMiniport::GetDescription, GetDescription, IMiniport.GetDescription, IMiniport::GetDescription, IMiniport.GetDescription
 req.header: portcls.h
 req.include-header:

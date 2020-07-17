@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP callback func
 ms.keywords: DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP, DXGKDDI_STOP_DEVICE_AND_RELEASE_POST_DISPLAY_OWNERSHIP callback, DxgkDdiStopDeviceAndReleasePostDisplayOwnership, DxgkDdiStopDeviceAndReleasePostDisplayOwnership callback function [Display Devices], display.dxgkddireleasepostdisplayownership, dispmprt/DxgkDdiStopDeviceAndReleasePostDisplayOwnership
 f1_keywords:
  - "dispmprt/DxgkDdiStopDeviceAndReleasePostDisplayOwnership"
+ - "DxgkDdiStopDeviceAndReleasePostDisplayOwnership"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop

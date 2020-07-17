@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDICB_OFFERALLOCATIONS2 structure"]
 f1_keywords:
  - "d3dumddi/D3DDDICB_OFFERALLOCATIONS2"
+ - "D3DDDICB_OFFERALLOCATIONS2"
 ms.keywords: D3DDDICB_OFFERALLOCATIONS2, D3DDDICB_OFFERALLOCATIONS2, 
 req.header: d3dumddi.h
 req.include-header:

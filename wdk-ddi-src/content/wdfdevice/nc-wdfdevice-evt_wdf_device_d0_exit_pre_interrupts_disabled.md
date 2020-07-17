@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_D0_EXIT_PRE_INTERRUPTS_DISABLED callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_f10df6b2-b5ef-49ad-8333-9289c164ea40.xml, EVT_WDF_DEVICE_D0_EXIT_PRE_INTERRUPTS_DISABLED, EVT_WDF_DEVICE_D0_EXIT_PRE_INTERRUPTS_DISABLED callback, EvtDeviceD0ExitPreInterruptsDisabled, EvtDeviceD0ExitPreInterruptsDisabled callback function, kmdf.evtdeviced0exitpreinterruptsdisabled, wdf.evtdeviced0exitpreinterruptsdisabled, wdfdevice/EvtDeviceD0ExitPreInterruptsDisabled
 f1_keywords:
  - "wdfdevice/EvtDeviceD0ExitPreInterruptsDisabled"
+ - "EvtDeviceD0ExitPreInterruptsDisabled"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

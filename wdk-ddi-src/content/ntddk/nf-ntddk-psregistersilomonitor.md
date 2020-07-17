@@ -10,6 +10,7 @@ keywords: ["PsRegisterSiloMonitor function"]
 ms.keywords: PsRegisterSiloMonitor, PsRegisterSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psregistersilomonitor, ntddk/PsRegisterSiloMonitor
 f1_keywords:
  - "ntddk/PsRegisterSiloMonitor"
+ - "PsRegisterSiloMonitor"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

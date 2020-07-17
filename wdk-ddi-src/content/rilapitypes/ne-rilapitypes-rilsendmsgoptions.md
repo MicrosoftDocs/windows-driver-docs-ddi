@@ -10,6 +10,7 @@ keywords: ["RILSENDMSGOPTIONS enumeration"]
 ms.keywords: RILSENDMSGOPTIONS, RILSENDMSGOPTIONS enumeration [Network Drivers Starting with Windows Vista], RIL_SENDOPT_IMS, RIL_SENDOPT_PERSISTLINK, netvista.rilsendmsgoptions, ntddrilapitypes/RILSENDMSGOPTIONS, ntddrilapitypes/RIL_SENDOPT_IMS, ntddrilapitypes/RIL_SENDOPT_PERSISTLINK
 f1_keywords:
  - "rilapitypes/RILSENDMSGOPTIONS"
+ - "RILSENDMSGOPTIONS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

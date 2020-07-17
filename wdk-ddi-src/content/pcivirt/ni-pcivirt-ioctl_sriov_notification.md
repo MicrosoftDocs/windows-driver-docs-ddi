@@ -10,6 +10,7 @@ keywords: ["IOCTL_SRIOV_NOTIFICATION IOCTL"]
 ms.keywords: IOCTL_SRIOV_NOTIFICATION, IOCTL_SRIOV_NOTIFICATION control code [Buses], PCI.ioctl-sriov-notification, pcivirt/IOCTL_SRIOV_NOTIFICATION
 f1_keywords:
  - "pcivirt/IOCTL_SRIOV_NOTIFICATION"
+ - "IOCTL_SRIOV_NOTIFICATION"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

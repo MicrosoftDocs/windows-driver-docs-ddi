@@ -10,6 +10,7 @@ keywords: ["RILGETIMSPARAMS structure"]
 ms.keywords: "*LPRILGETIMSPARAMS, RILGETIMSPARAMS, RILGETIMSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetimsparams, ntddrilapitypes/RILGETIMSPARAMS"
 f1_keywords:
  - "ntddrilapitypes/RILGETIMSPARAMS"
+ - "RILGETIMSPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

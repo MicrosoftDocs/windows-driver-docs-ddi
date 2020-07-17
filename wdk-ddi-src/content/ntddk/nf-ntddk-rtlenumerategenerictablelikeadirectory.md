@@ -10,6 +10,7 @@ keywords: ["RtlEnumerateGenericTableLikeADirectory function"]
 ms.keywords: RtlEnumerateGenericTableLikeADirectory, RtlEnumerateGenericTableLikeADirectory routine [Installable File System Drivers], ifsk.rtlenumerategenerictablelikeadirectory, ntddk/RtlEnumerateGenericTableLikeADirectory, rtlref_7a5f2110-e171-4273-9928-9a8471f4e933.xml
 f1_keywords:
  - "ntddk/RtlEnumerateGenericTableLikeADirectory"
+ - "RtlEnumerateGenericTableLikeADirectory"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, FltKernel.h
 req.target-type: Universal

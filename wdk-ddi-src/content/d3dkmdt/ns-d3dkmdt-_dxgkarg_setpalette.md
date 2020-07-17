@@ -10,6 +10,7 @@ keywords: ["_DXGKARG_SETPALETTE structure"]
 ms.keywords: DXGKARG_SETPALETTE, DXGKARG_SETPALETTE structure [Display Devices], DmStructs_d5720608-bc3d-437a-b080-6cd8b9635391.xml, _DXGKARG_SETPALETTE, d3dkmdt/DXGKARG_SETPALETTE, display.dxgkarg_setpalette
 f1_keywords:
  - "d3dkmdt/DXGKARG_SETPALETTE"
+ - "DXGKARG_SETPALETTE"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

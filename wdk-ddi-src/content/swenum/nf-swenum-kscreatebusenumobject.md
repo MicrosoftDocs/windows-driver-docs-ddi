@@ -10,6 +10,7 @@ keywords: ["KsCreateBusEnumObject function"]
 ms.keywords: KsCreateBusEnumObject, KsCreateBusEnumObject function [Streaming Media Devices], ksfunc_c2f2d2fb-fea1-40af-8a0b-358b96bae705.xml, stream.kscreatebusenumobject, swenum/KsCreateBusEnumObject
 f1_keywords:
  - "swenum/KsCreateBusEnumObject"
+ - "KsCreateBusEnumObject"
 req.header: swenum.h
 req.include-header: Swenum.h
 req.target-type: Universal

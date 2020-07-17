@@ -10,6 +10,7 @@ keywords: ["KSERROR structure"]
 ms.keywords: "*PKSERROR, KSERROR, KSERROR structure [Streaming Media Devices], PKSERROR, PKSERROR structure pointer [Streaming Media Devices], ks-struct_86211cee-a711-4a84-b8ea-6de2d9ef81f6.xml, ks/KSERROR, ks/PKSERROR, stream.kserror"
 f1_keywords:
  - "ks/KSERROR"
+ - "KSERROR"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

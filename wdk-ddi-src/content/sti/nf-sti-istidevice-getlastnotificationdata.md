@@ -10,6 +10,7 @@ keywords: ["IStiDevice::GetLastNotificationData"]
 ms.keywords: GetLastNotificationData, GetLastNotificationData method [Imaging Devices], GetLastNotificationData method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],GetLastNotificationData method, IStiDevice.GetLastNotificationData, IStiDevice::GetLastNotificationData, image.istidevice_getlastnotificationdata, sti/IStiDevice::GetLastNotificationData, stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml
 f1_keywords:
  - "sti/IStiDevice.GetLastNotificationData"
+ - "IStiDevice.GetLastNotificationData"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["StorPortGetDataInBufferScatterGatherList function"]
 ms.keywords: StorPortGetDataInBufferScatterGatherList, StorPortGetDataInBufferScatterGatherList routine [Storage Devices], storage.storportgetdatainbufferscattergatherlist, storport/StorPortGetDataInBufferScatterGatherList
 f1_keywords:
  - "storport/StorPortGetDataInBufferScatterGatherList"
+ - "StorPortGetDataInBufferScatterGatherList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

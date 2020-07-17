@@ -10,6 +10,7 @@ ms.date: 02/13/2019
 keywords: ["WDI_FTM_RESPONSE_STATUS enumeration"]
 f1_keywords:
  - "wditypes/WDI_FTM_RESPONSE_STATUS"
+ - "WDI_FTM_RESPONSE_STATUS"
 ms.keywords: WDI_FTM_RESPONSE_STATUS, WDI_FTM_RESPONSE_STATUS, 
 req.header: wditypes.hpp
 req.include-header:

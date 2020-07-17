@@ -27,6 +27,7 @@ ms.custom: RS5
 tech.root: display
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054"
+ - "PFND3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054"
 topic_type:
  - apiref
 api_type:

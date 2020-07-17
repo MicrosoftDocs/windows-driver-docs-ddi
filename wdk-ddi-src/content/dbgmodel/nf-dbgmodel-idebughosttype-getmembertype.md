@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["IDebugHostType::GetMemberType"]
 f1_keywords:
  - "dbgmodel/IDebugHostType.GetMemberType"
+ - "IDebugHostType.GetMemberType"
 ms.keywords: IDebugHostType::GetMemberType, GetMemberType, IDebugHostType.GetMemberType, IDebugHostType::GetMemberType, IDebugHostType.GetMemberType
 req.header: dbgmodel.h
 req.include-header:

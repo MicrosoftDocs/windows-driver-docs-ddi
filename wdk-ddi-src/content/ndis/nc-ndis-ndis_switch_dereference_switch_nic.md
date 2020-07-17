@@ -10,6 +10,7 @@ keywords: ["NDIS_SWITCH_DEREFERENCE_SWITCH_NIC callback function"]
 ms.keywords: DereferenceSwitchNic, DereferenceSwitchNic callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_DEREFERENCE_SWITCH_NIC, NDIS_SWITCH_DEREFERENCE_SWITCH_NIC callback, ndis/DereferenceSwitchNic, netvista.DereferenceSwitchNic
 f1_keywords:
  - "ndis/DereferenceSwitchNic"
+ - "DereferenceSwitchNic"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

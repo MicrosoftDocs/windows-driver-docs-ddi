@@ -10,6 +10,7 @@ keywords: ["FltPrePrepareComplete function"]
 ms.keywords: FltApiRef_p_to_z_d0d56c7a-abff-4cd2-a1c7-a511d1ac8903.xml, FltPrePrepareComplete, FltPrePrepareComplete routine [Installable File System Drivers], fltkernel/FltPrePrepareComplete, ifsk.fltprepreparecomplete
 f1_keywords:
  - "fltkernel/FltPrePrepareComplete"
+ - "FltPrePrepareComplete"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

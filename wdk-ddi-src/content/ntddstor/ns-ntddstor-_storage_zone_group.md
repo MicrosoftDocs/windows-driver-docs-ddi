@@ -10,6 +10,7 @@ keywords: ["_STORAGE_ZONE_GROUP structure"]
 ms.keywords: "*PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP structure pointer [Storage Devices], STORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP structure [Storage Devices], _STORAGE_ZONE_GROUP, ntddstor/ STORAGE_ZONE_GROUP, ntddstor/PSTORAGE_ZONE_GROUP, storage.storage_zone_group"
 f1_keywords:
  - "ntddstor/STORAGE_ZONE_GROUP"
+ - "STORAGE_ZONE_GROUP"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows

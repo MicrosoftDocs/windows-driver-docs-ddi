@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::PublishDriverInterface"]
 ms.keywords: IPrintOemUni interface [Print Devices],PublishDriverInterface method, IPrintOemUni.PublishDriverInterface, IPrintOemUni::PublishDriverInterface, PublishDriverInterface, PublishDriverInterface method [Print Devices], PublishDriverInterface method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::PublishDriverInterface, print.iprintoemuni_publishdriverinterface, print_unidrv-pscript_rendering_c9525b65-4bc0-42cb-b416-7b2034581b0e.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.PublishDriverInterface"
+ - "IPrintOemUni.PublishDriverInterface"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

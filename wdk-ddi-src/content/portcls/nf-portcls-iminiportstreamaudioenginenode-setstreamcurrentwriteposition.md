@@ -10,6 +10,7 @@ keywords: ["IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition"]
 ms.keywords: IMiniportStreamAudioEngineNode interface [Audio Devices],SetStreamCurrentWritePosition method, IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition, IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition, SetStreamCurrentWritePosition, SetStreamCurrentWritePosition method [Audio Devices], SetStreamCurrentWritePosition method [Audio Devices],IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_setstreamcurrentwriteposition, portcls/IMiniportStreamAudioEngineNode::SetStreamCurrentWritePosition
 f1_keywords:
  - "portcls/IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition"
+ - "IMiniportStreamAudioEngineNode.SetStreamCurrentWritePosition"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

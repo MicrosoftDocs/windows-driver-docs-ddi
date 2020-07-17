@@ -10,6 +10,7 @@ keywords: ["FILTER_RESTART callback function"]
 ms.keywords: FILTER_RESTART, FILTER_RESTART callback, FilterRestart, FilterRestart callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_784a21e4-a3d3-4ada-9555-b712595f0a24.xml, ndis/FilterRestart, netvista.filterrestart
 f1_keywords:
  - "ndis/FilterRestart"
+ - "FilterRestart"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

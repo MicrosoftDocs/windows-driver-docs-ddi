@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DeviceDsmAddDataSetRange function"]
 f1_keywords:
  - "ntddstor/DeviceDsmAddDataSetRange"
+ - "DeviceDsmAddDataSetRange"
 ms.keywords: DeviceDsmAddDataSetRange
 req.header: ntddstor.h
 req.include-header:

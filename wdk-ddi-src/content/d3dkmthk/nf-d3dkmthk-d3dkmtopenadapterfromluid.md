@@ -9,6 +9,7 @@ keywords: ["D3DKMTOpenAdapterFromLuid function"]
 ms.keywords: D3DKMTOpenAdapterFromLuid, D3DKMTOpenAdapterFromLuid function [Display Devices], d3dkmthk/D3DKMTOpenAdapterFromLuid, display.d3dkmtopenadapterfromluid
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenAdapterFromLuid"
+ - "D3DKMTOpenAdapterFromLuid"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

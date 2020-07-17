@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_DESTROYALLOCATION structure"]
 ms.keywords: D3DKMT_DESTROYALLOCATION, D3DKMT_DESTROYALLOCATION structure [Display Devices], OpenGL_Structs_46425135-17f7-4b12-8e01-1247e3e1ab63.xml, _D3DKMT_DESTROYALLOCATION, d3dkmthk/D3DKMT_DESTROYALLOCATION, display.d3dkmt_destroyallocation
 f1_keywords:
  - "d3dkmthk/D3DKMT_DESTROYALLOCATION"
+ - "D3DKMT_DESTROYALLOCATION"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

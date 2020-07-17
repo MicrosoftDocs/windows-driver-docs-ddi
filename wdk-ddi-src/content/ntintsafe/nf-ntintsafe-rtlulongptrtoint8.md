@@ -10,6 +10,7 @@ keywords: ["RtlULongPtrToInt8 function"]
 ms.keywords: RtlULongPtrToInt8, RtlULongPtrToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtoint8, ntintsafe/RtlULongPtrToInt8
 f1_keywords:
  - "ntintsafe/RtlULongPtrToInt8"
+ - "RtlULongPtrToInt8"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

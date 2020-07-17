@@ -9,6 +9,7 @@ keywords: ["D3D10_DDI_RESOURCE_USAGE enumeration"]
 ms.keywords: D3D10_DDI_RESOURCE_USAGE, D3D10_DDI_RESOURCE_USAGE enumeration [Display Devices], D3D10_DDI_USAGE_DEFAULT, D3D10_DDI_USAGE_DYNAMIC, D3D10_DDI_USAGE_IMMUTABLE, D3D10_DDI_USAGE_STAGING, UMDisplayDriver_Dx10param_Structs_1d4cddbd-58a0-45b3-b7a9-8b55654c37a7.xml, d3d10umddi/D3D10_DDI_RESOURCE_USAGE, d3d10umddi/D3D10_DDI_USAGE_DEFAULT, d3d10umddi/D3D10_DDI_USAGE_DYNAMIC, d3d10umddi/D3D10_DDI_USAGE_IMMUTABLE, d3d10umddi/D3D10_DDI_USAGE_STAGING, display.d3d10_ddi_resource_usage
 f1_keywords:
  - "d3d10umddi/D3D10_DDI_RESOURCE_USAGE"
+ - "D3D10_DDI_RESOURCE_USAGE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

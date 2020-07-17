@@ -10,6 +10,7 @@ keywords: ["_BDA_IPv6_ADDRESS_LIST structure"]
 ms.keywords: "*PBDA_IPv6_ADDRESS_LIST, BDA_IPv6_ADDRESS_LIST, BDA_IPv6_ADDRESS_LIST structure [Streaming Media Devices], PBDA_IPv6_ADDRESS_LIST, PBDA_IPv6_ADDRESS_LIST structure pointer [Streaming Media Devices], _BDA_IPv6_ADDRESS_LIST, bdatypes/BDA_IPv6_ADDRESS_LIST, bdatypes/PBDA_IPv6_ADDRESS_LIST, stream.bda_ipv6_address_list"
 f1_keywords:
  - "bdatypes/BDA_IPv6_ADDRESS_LIST"
+ - "BDA_IPv6_ADDRESS_LIST"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

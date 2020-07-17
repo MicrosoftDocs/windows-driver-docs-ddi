@@ -10,6 +10,7 @@ keywords: ["IWDFIoTarget interface"]
 ms.keywords: IWDFIoTarget, IWDFIoTarget interface, IWDFIoTarget interface,described, UMDFIoTargetObjectRef_3def2530-811a-4ac8-b9bd-c39cc4cb8fb2.xml, umdf.iwdfiotarget, wdf.iwdfiotarget, wudfddi/IWDFIoTarget
 f1_keywords:
  - "wudfddi/IWDFIoTarget"
+ - "IWDFIoTarget"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

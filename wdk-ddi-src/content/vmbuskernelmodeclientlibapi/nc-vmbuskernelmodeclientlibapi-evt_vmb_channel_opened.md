@@ -10,6 +10,7 @@ keywords: ["EVT_VMB_CHANNEL_OPENED callback function"]
 ms.keywords: EVT_VMB_CHANNEL_OPENED, EVT_VMB_CHANNEL_OPENED callback, EvtVmbChannelOpened, EvtVmbChannelOpened callback function [Network Drivers Starting with Windows Vista], PFN_VMB_CHANNEL_OPENED, PFN_VMB_CHANNEL_OPENED callback function pointer [Network Drivers Starting with Windows Vista], netvista.evt_vmb_channel_opened, vmbuskernelmodeclientlibapi/EvtVmbChannelOpened
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/PFN_VMB_CHANNEL_OPENED"
+ - "PFN_VMB_CHANNEL_OPENED"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header: VmbusKernelModeClientLibApi.h
 req.target-type: Windows

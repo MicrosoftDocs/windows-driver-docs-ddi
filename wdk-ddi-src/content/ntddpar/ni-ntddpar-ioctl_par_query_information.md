@@ -10,6 +10,7 @@ keywords: ["IOCTL_PAR_QUERY_INFORMATION IOCTL"]
 ms.keywords: IOCTL_PAR_QUERY_INFORMATION, IOCTL_PAR_QUERY_INFORMATION control code [Parallel Ports], cisspd_50a28bb8-8015-4b25-9850-9038b1c1789a.xml, ntddpar/IOCTL_PAR_QUERY_INFORMATION, parports.ioctl_par_query_information
 f1_keywords:
  - "ntddpar/IOCTL_PAR_QUERY_INFORMATION"
+ - "IOCTL_PAR_QUERY_INFORMATION"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows

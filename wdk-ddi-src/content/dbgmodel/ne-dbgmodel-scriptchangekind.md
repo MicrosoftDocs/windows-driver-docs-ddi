@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["ScriptChangeKind enumeration"]
 f1_keywords:
  - "dbgmodel/ScriptChangeKind"
+ - "ScriptChangeKind"
 ms.keywords: ScriptChangeKind, , 
 req.header: dbgmodel.h
 req.include-header:

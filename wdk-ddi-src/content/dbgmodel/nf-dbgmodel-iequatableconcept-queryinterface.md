@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IEquatableConcept::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IEquatableConcept.QueryInterface"
+ - "IEquatableConcept.QueryInterface"
 ms.keywords: IEquatableConcept::QueryInterface, QueryInterface, IEquatableConcept.QueryInterface, IEquatableConcept::QueryInterface, IEquatableConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

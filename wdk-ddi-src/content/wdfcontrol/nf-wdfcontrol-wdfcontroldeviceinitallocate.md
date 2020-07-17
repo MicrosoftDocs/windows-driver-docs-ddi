@@ -10,6 +10,7 @@ keywords: ["WdfControlDeviceInitAllocate function"]
 ms.keywords: DFDeviceObjectControllerDevObjRef_1450db30-6c2a-4103-99f6-2afe634000bf.xml, WdfControlDeviceInitAllocate, WdfControlDeviceInitAllocate method, kmdf.wdfcontroldeviceinitallocate, wdf.wdfcontroldeviceinitallocate, wdfcontrol/WdfControlDeviceInitAllocate
 f1_keywords:
  - "wdfcontrol/WdfControlDeviceInitAllocate"
+ - "WdfControlDeviceInitAllocate"
 req.header: wdfcontrol.h
 req.include-header: Wdf.h
 req.target-type: Universal

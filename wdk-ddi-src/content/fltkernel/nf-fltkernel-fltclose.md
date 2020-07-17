@@ -10,6 +10,7 @@ keywords: ["FltClose function"]
 ms.keywords: FltApiRef_a_to_d_f50e2397-1161-4e6e-9688-2baa417f6845.xml, FltClose, FltClose function [Installable File System Drivers], fltkernel/FltClose, ifsk.fltclose
 f1_keywords:
  - "fltkernel/FltClose"
+ - "FltClose"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

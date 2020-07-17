@@ -10,6 +10,7 @@ keywords: ["RtlStringCbCopyExW function"]
 ms.keywords: RtlStringCbCopyEx, RtlStringCbCopyExA, RtlStringCbCopyExW, RtlStringCbCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbcopyex, ntstrsafe/RtlStringCbCopyExA, ntstrsafe/RtlStringCbCopyExW, safestrings_f0187c41-23b0-491b-9154-ff8778b06418.xml
 f1_keywords:
  - "ntstrsafe/RtlStringCbCopyExW"
+ - "RtlStringCbCopyExW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

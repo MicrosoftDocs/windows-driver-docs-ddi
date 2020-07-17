@@ -10,6 +10,7 @@ keywords: ["FsRtlOplockBreakToNoneEx function"]
 ms.keywords: FsRtlOplockBreakToNoneEx, FsRtlOplockBreakToNoneEx routine [Installable File System Drivers], fsrtlref_df3afc17-e57b-43b5-8281-4128854d2064.xml, ifsk.fsrtloplockbreaktononeex, ntifs/FsRtlOplockBreakToNoneEx
 f1_keywords:
  - "ntifs/FsRtlOplockBreakToNoneEx"
+ - "FsRtlOplockBreakToNoneEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["NdisGeneratePartialCancelId function"]
 ms.keywords: NdisGeneratePartialCancelId, NdisGeneratePartialCancelId function [Network Drivers Starting with Windows Vista], ndis/NdisGeneratePartialCancelId, netvista.ndisgeneratepartialcancelid, protocol_ndis_functions_ref_0d6b9e5a-d346-46a0-8f1c-d6677df53f1c.xml
 f1_keywords:
  - "ndis/NdisGeneratePartialCancelId"
+ - "NdisGeneratePartialCancelId"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

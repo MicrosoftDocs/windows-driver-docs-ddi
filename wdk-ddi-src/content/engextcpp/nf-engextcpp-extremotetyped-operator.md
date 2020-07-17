@@ -10,6 +10,7 @@ keywords: ["ExtRemoteTyped::operator"]
 ms.keywords: EngExtCpp_Ref_3e10d850-c463-4d43-8639-7b7daf26c749.xml, ExtRemoteTyped interface [Windows Debugging],operator* method, ExtRemoteTyped.operator, ExtRemoteTyped.operator*, ExtRemoteTyped.operator*(), ExtRemoteTyped::operator, ExtRemoteTyped::operator*, debugger.extremotetyped_operator_, operator*, operator* method [Windows Debugging], operator* method [Windows Debugging],ExtRemoteTyped interface
 f1_keywords:
  - "engextcpp/ExtRemoteTyped.operator*"
+ - "ExtRemoteTyped.operator*"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

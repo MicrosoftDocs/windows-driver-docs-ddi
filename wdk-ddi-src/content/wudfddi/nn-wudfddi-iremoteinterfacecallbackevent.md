@@ -10,6 +10,7 @@ keywords: ["IRemoteInterfaceCallbackEvent interface"]
 ms.keywords: IRemoteInterfaceCallbackEvent, IRemoteInterfaceCallbackEvent interface, IRemoteInterfaceCallbackEvent interface,described, UMDFIoTargetObjectRef_9ce0aebc-e132-4d0e-b575-7ef1e19d9c30.xml, umdf.iremoteinterfacecallbackevent, wdf.iremoteinterfacecallbackevent, wudfddi/IRemoteInterfaceCallbackEvent
 f1_keywords:
  - "wudfddi/IRemoteInterfaceCallbackEvent"
+ - "IRemoteInterfaceCallbackEvent"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

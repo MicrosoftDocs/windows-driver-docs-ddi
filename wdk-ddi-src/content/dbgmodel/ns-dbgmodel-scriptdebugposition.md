@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["ScriptDebugPosition structure"]
 f1_keywords:
  - "dbgmodel/ScriptDebugPosition"
+ - "ScriptDebugPosition"
 ms.keywords: ScriptDebugPosition, , 
 req.header: dbgmodel.h
 req.include-header:

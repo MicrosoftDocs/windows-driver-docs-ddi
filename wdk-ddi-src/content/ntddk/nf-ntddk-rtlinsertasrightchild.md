@@ -10,6 +10,7 @@ keywords: ["RtlInsertAsRightChild function"]
 ms.keywords: RtlInsertAsRightChild, RtlInsertAsRightChild routine [Installable File System Drivers], ifsk.rtlinsertasrightchild, ntddk/RtlInsertAsRightChild, rtlref_e16d0af2-9299-4fda-96ad-75a39f3e505f.xml
 f1_keywords:
  - "ntddk/RtlInsertAsRightChild"
+ - "RtlInsertAsRightChild"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop

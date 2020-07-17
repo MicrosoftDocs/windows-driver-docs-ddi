@@ -8,6 +8,7 @@ ms.date: 05/22/2018
 keywords: ["FN_VMB_PACKET_GET_CHANNEL callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_GET_CHANNEL"
+ - "FN_VMB_PACKET_GET_CHANNEL"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

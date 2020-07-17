@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_SETVIDPNSOURCEOWNER structure"]
 ms.keywords: D3DKMT_SETVIDPNSOURCEOWNER, D3DKMT_SETVIDPNSOURCEOWNER structure [Display Devices], OpenGL_Structs_942045f1-1a3a-4c4a-b533-ec70fcad6d8f.xml, _D3DKMT_SETVIDPNSOURCEOWNER, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER, display.d3dkmt_setvidpnsourceowner
 f1_keywords:
  - "d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER"
+ - "D3DKMT_SETVIDPNSOURCEOWNER"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

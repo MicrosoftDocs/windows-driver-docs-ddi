@@ -10,6 +10,7 @@ keywords: ["RILIMSSTATUS_V3 structure"]
 ms.keywords: "*LPRILIMSSTATUS, *LPRILIMSSTATUS_V3, RILIMSSTATUS, RILIMSSTATUS_V3, RILIMSSTATUS_V3 structure [Network Drivers Starting with Windows Vista], netvista.rilimsstatus_v3, ntddrilapitypes/RILIMSSTATUS_V3"
 f1_keywords:
  - "ntddrilapitypes/RILIMSSTATUS_V3"
+ - "RILIMSSTATUS_V3"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

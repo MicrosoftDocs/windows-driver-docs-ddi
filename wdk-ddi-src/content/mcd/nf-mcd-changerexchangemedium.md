@@ -10,6 +10,7 @@ keywords: ["ChangerExchangeMedium function"]
 ms.keywords: ChangerExchangeMedium, ChangerExchangeMedium function [Storage Devices], chgrmini_1a4e68fa-4ef3-4f1e-ab2c-ca26b138fc14.xml, mcd/ChangerExchangeMedium, storage.changerexchangemedium
 f1_keywords:
  - "mcd/ChangerExchangeMedium"
+ - "ChangerExchangeMedium"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["GET_VIRTUAL_DEVICE_DATA callback"]
 ms.keywords: GET_VIRTUAL_DEVICE_DATA, GetVirtualFunctionData, GetVirtualFunctionData routine, PCI.getvirtualfunctiondata, wdm/GetVirtualFunctionData
 f1_keywords:
  - "wdm/GetVirtualFunctionData"
+ - "GetVirtualFunctionData"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

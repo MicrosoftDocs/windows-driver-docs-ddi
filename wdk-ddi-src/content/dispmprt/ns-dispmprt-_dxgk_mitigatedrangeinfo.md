@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGK_MITIGATEDRANGEINFO structure"]
 f1_keywords:
  - "dispmprt/_DXGK_MITIGATEDRANGEINFO"
+ - "_DXGK_MITIGATEDRANGEINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_MITIGATEDRANGEINFO, DXGK_MITIGATEDRANGEINFO, *PDXGK_MITIGATEDRANGEINFO, 

@@ -10,6 +10,7 @@ keywords: ["ClfsMgmtQueryPolicy function"]
 ms.keywords: ClfsMgmtQueryPolicy, ClfsMgmtQueryPolicy routine [Kernel-Mode Driver Architecture], Clfs_management_6f3ccba5-05e5-4022-9849-220aeefbde77.xml, kernel.clfsmgmtquerypolicy, wdm/ClfsMgmtQueryPolicy
 f1_keywords:
  - "wdm/ClfsMgmtQueryPolicy"
+ - "ClfsMgmtQueryPolicy"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

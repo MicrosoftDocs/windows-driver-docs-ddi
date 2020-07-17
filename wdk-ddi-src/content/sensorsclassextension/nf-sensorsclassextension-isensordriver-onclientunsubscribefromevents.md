@@ -10,6 +10,7 @@ keywords: ["ISensorDriver::OnClientUnsubscribeFromEvents"]
 ms.keywords: ISensorDriver interface [Sensor Devices],OnClientUnsubscribeFromEvents method, ISensorDriver.OnClientUnsubscribeFromEvents, ISensorDriver::OnClientUnsubscribeFromEvents, OnClientUnsubscribeFromEvents, OnClientUnsubscribeFromEvents method [Sensor Devices], OnClientUnsubscribeFromEvents method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onclientunsubscribefromevents, sensorsclassextension/ISensorDriver::OnClientUnsubscribeFromEvents
 f1_keywords:
  - "sensorsclassextension/OnClientUnsubscribeFromEvents"
+ - "OnClientUnsubscribeFromEvents"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows

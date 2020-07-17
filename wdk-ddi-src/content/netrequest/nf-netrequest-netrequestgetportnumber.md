@@ -8,6 +8,7 @@ ms.date: 02/08/2018
 keywords: ["NetRequestGetPortNumber function"]
 f1_keywords:
  - "netrequest/NetRequestGetPortNumber"
+ - "NetRequestGetPortNumber"
 ms.keywords: NetRequestGetPortNumber
 req.header: netrequest.h
 req.include-header: netadaptercx.h

@@ -10,6 +10,7 @@ keywords: ["IServiceSink interface"]
 ms.keywords: IServiceSink, IServiceSink interface [Audio Devices], IServiceSink interface [Audio Devices],described, audio.iservicesink, audmp-routines_68a03e77-6246-44e7-acad-6de0fbe10c41.xml, portcls/IServiceSink
 f1_keywords:
  - "portcls/IServiceSink"
+ - "IServiceSink"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

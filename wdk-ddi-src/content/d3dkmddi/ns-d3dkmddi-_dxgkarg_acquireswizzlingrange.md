@@ -9,6 +9,7 @@ keywords: ["_DXGKARG_ACQUIRESWIZZLINGRANGE structure"]
 ms.keywords: "*INOUT_PDXGKARG_ACQUIRESWIZZLINGRANGE, DXGKARG_ACQUIRESWIZZLINGRANGE, DXGKARG_ACQUIRESWIZZLINGRANGE structure [Display Devices], DmStructs_761fb707-877a-455c-b5cd-0c2e2b050aea.xml, _DXGKARG_ACQUIRESWIZZLINGRANGE, d3dkmddi/DXGKARG_ACQUIRESWIZZLINGRANGE, display.dxgkarg_acquireswizzlingrange"
 f1_keywords:
  - "d3dkmddi/DXGKARG_ACQUIRESWIZZLINGRANGE"
+ - "DXGKARG_ACQUIRESWIZZLINGRANGE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

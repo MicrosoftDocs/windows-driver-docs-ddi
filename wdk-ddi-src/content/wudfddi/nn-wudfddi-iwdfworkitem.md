@@ -10,6 +10,7 @@ keywords: ["IWDFWorkItem interface"]
 ms.keywords: IWDFWorkItem, IWDFWorkItem interface, IWDFWorkItem interface,described, umdf.iwdfworkitem, wdf.iwdfworkitem, wudfddi/IWDFWorkItem
 f1_keywords:
  - "wudfddi/IWDFWorkItem"
+ - "IWDFWorkItem"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

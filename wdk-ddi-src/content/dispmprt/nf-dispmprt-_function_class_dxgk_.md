@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_Function_class_DXGK_ macro"]
 f1_keywords:
  - "dispmprt/_Function_class_DXGK_"
+ - "_Function_class_DXGK_"
 ms.keywords: _Function_class_DXGK_
 req.header: dispmprt.h
 req.include-header:

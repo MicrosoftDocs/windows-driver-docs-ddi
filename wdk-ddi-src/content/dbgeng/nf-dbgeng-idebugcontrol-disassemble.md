@@ -10,6 +10,7 @@ keywords: ["IDebugControl::Disassemble"]
 ms.keywords: Disassemble, Disassemble method [Windows Debugging], Disassemble method [Windows Debugging],IDebugControl interface, Disassemble method [Windows Debugging],IDebugControl2 interface, Disassemble method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],Disassemble method, IDebugControl.Disassemble, IDebugControl2 interface [Windows Debugging],Disassemble method, IDebugControl2::Disassemble, IDebugControl3 interface [Windows Debugging],Disassemble method, IDebugControl3::Disassemble, IDebugControl::Disassemble, IDebugControl_7eb9fdc3-f2a0-4239-a035-9abb8e85cd28.xml, dbgeng/IDebugControl2::Disassemble, dbgeng/IDebugControl3::Disassemble, dbgeng/IDebugControl::Disassemble, debugger.disassemble
 f1_keywords:
  - "dbgeng/IDebugControl.Disassemble"
+ - "IDebugControl.Disassemble"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

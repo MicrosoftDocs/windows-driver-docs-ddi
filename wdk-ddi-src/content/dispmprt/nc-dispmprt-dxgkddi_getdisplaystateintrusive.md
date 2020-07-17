@@ -35,6 +35,7 @@ api_name:
  - DXGKDDI_GETDISPLAYSTATEINTRUSIVE
 f1_keywords:
  - dispmprt/DXGKDDI_GETDISPLAYSTATEINTRUSIVE
+ - ""
 dev_langs:
  - c++
 ---

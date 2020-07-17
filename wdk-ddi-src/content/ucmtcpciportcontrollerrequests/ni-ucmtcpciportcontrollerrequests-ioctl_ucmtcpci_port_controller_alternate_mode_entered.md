@@ -10,6 +10,7 @@ keywords: ["IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED IOCTL"]
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED, IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED control, IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED control code [Buses], buses.ioctl_ucmtcpci_port_controller_alternate_mode_entered, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED
 f1_keywords:
  - "ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED"
+ - "IOCTL_UCMTCPCI_PORT_CONTROLLER_ALTERNATE_MODE_ENTERED"
 req.header: ucmtcpciportcontrollerrequests.h
 req.include-header: 
 req.target-type: Windows

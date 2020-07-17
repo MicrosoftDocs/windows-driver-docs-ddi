@@ -10,6 +10,7 @@ keywords: ["IPortMidi::RegisterServiceGroup"]
 ms.keywords: IPortMidi interface [Audio Devices],RegisterServiceGroup method, IPortMidi.RegisterServiceGroup, IPortMidi::RegisterServiceGroup, RegisterServiceGroup, RegisterServiceGroup method [Audio Devices], RegisterServiceGroup method [Audio Devices],IPortMidi interface, audio.iportmidi_registerservicegroup, audmp-routines_ff2228bf-489d-4980-a317-e9cb89e4f394.xml, portcls/IPortMidi::RegisterServiceGroup
 f1_keywords:
  - "portcls/IPortMidi.RegisterServiceGroup"
+ - "IPortMidi.RegisterServiceGroup"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

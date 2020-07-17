@@ -10,6 +10,7 @@ keywords: ["GNSS_NI_REQUEST_PARAM structure"]
 ms.keywords: "*PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM structure [Sensor Devices], PGNSS_NI_REQUEST_PARAM, PGNSS_NI_REQUEST_PARAM structure pointer [Sensor Devices], gnss.gnss_ni_request_param, gnssdriver/GNSS_NI_REQUEST_PARAM, gnssdriver/PGNSS_NI_REQUEST_PARAM"
 f1_keywords:
  - "gnssdriver/GNSS_NI_REQUEST_PARAM"
+ - "GNSS_NI_REQUEST_PARAM"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetFieldTypeAndOffset"]
 ms.keywords: GetFieldTypeAndOffset, GetFieldTypeAndOffset method [Windows Debugging], GetFieldTypeAndOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFieldTypeAndOffset method, IDebugSymbols3.GetFieldTypeAndOffset, IDebugSymbols3::GetFieldTypeAndOffset, IDebugSymbols_032d7936-6c9c-4748-ac81-a15673aa4e0f.xml, dbgeng/IDebugSymbols3::GetFieldTypeAndOffset, debugger.getfieldtypeandoffset
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetFieldTypeAndOffset"
+ - "IDebugSymbols3.GetFieldTypeAndOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

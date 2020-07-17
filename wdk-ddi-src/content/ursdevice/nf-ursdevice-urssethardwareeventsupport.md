@@ -10,6 +10,7 @@ keywords: ["UrsSetHardwareEventSupport function"]
 ms.keywords: UrsSetHardwareEventSupport, UrsSetHardwareEventSupport function [Buses], buses.urssethardwareeventsupport, ursdevice/UrsSetHardwareEventSupport
 f1_keywords:
  - "ursdevice/UrsSetHardwareEventSupport"
+ - "UrsSetHardwareEventSupport"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows

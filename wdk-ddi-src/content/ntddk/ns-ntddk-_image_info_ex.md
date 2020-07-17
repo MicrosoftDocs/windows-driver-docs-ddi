@@ -10,6 +10,7 @@ keywords: ["_IMAGE_INFO_EX structure"]
 ms.keywords: "*PIMAGE_INFO_EX, IMAGE_INFO_EX, IMAGE_INFO_EX structure [Kernel-Mode Driver Architecture], PIMAGE_INFO_EX, PIMAGE_INFO_EX structure pointer [Kernel-Mode Driver Architecture], _IMAGE_INFO_EX, kernel.image_info_ex, ntddk/IMAGE_INFO_EX, ntddk/PIMAGE_INFO_EX"
 f1_keywords:
  - "ntddk/IMAGE_INFO_EX"
+ - "IMAGE_INFO_EX"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

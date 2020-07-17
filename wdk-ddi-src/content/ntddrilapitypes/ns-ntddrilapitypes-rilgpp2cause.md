@@ -10,6 +10,7 @@ keywords: ["RILGPP2CAUSE structure"]
 ms.keywords: "*LPRILGPP2CAUSE, RILGPP2CAUSE, RILGPP2CAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgpp2cause, ntddrilapitypes/RILGPP2CAUSE"
 f1_keywords:
  - "ntddrilapitypes/RILGPP2CAUSE"
+ - "RILGPP2CAUSE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

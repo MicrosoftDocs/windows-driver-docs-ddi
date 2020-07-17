@@ -10,6 +10,7 @@ keywords: ["KeConvertPerformanceCounterToAuxiliaryCounter function"]
 ms.keywords: KeConvertPerformanceCounterToAuxiliaryCounter, KeConvertPerformanceCounterToAuxiliaryCounter routine [Kernel-Mode Driver Architecture], kernel.keconvertperformancecountertoauxiliarycounter, wdm/KeConvertPerformanceCounterToAuxiliaryCounter
 f1_keywords:
  - "wdm/KeConvertPerformanceCounterToAuxiliaryCounter"
+ - "KeConvertPerformanceCounterToAuxiliaryCounter"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["RtlCompareMemory function"]
 ms.keywords: RtlCompareMemory, RtlCompareMemory routine [Kernel-Mode Driver Architecture], k109_3deee1b7-0b3a-4d24-8c0f-5e428d051a02.xml, kernel.rtlcomparememory, wdm/RtlCompareMemory
 f1_keywords:
  - "wdm/RtlCompareMemory"
+ - "RtlCompareMemory"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

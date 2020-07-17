@@ -10,6 +10,7 @@ keywords: ["KsDispatchSetSecurity function"]
 ms.keywords: KsDispatchSetSecurity, KsDispatchSetSecurity function [Streaming Media Devices], ks/KsDispatchSetSecurity, ksfunc_b643b100-dc1c-4df4-b1e4-32ac7ae59b2a.xml, stream.ksdispatchsetsecurity
 f1_keywords:
  - "ks/KsDispatchSetSecurity"
+ - "KsDispatchSetSecurity"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

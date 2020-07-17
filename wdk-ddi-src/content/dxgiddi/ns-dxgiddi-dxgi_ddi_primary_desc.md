@@ -10,6 +10,7 @@ keywords: ["DXGI_DDI_PRIMARY_DESC structure"]
 ms.keywords: DXGI_DDI_PRIMARY_DESC, DXGI_DDI_PRIMARY_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_a733016c-aa05-4d79-b13b-96d1bc33dac2.xml, display.dxgi_ddi_primary_desc, dxgiddi/DXGI_DDI_PRIMARY_DESC
 f1_keywords:
  - "dxgiddi/DXGI_DDI_PRIMARY_DESC"
+ - "DXGI_DDI_PRIMARY_DESC"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

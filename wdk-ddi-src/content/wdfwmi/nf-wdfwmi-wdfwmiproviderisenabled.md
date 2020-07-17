@@ -10,6 +10,7 @@ keywords: ["WdfWmiProviderIsEnabled function"]
 ms.keywords: DFWMIRef_3231e5bd-aa1c-4bf8-92ef-4b6c29308d95.xml, WdfWmiProviderIsEnabled, WdfWmiProviderIsEnabled method, kmdf.wdfwmiproviderisenabled, wdf.wdfwmiproviderisenabled, wdfwmi/WdfWmiProviderIsEnabled
 f1_keywords:
  - "wdfwmi/WdfWmiProviderIsEnabled"
+ - "WdfWmiProviderIsEnabled"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal

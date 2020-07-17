@@ -10,6 +10,7 @@ keywords: ["_WSK_EXTENSION_CONTROL_IN structure"]
 ms.keywords: "*PWSK_EXTENSION_CONTROL_IN, PWSK_EXTENSION_CONTROL_IN, PWSK_EXTENSION_CONTROL_IN structure pointer [Network Drivers Starting with Windows Vista], WSK_EXTENSION_CONTROL_IN, WSK_EXTENSION_CONTROL_IN structure [Network Drivers Starting with Windows Vista], _WSK_EXTENSION_CONTROL_IN, netvista.wsk_extension_control_in, wsk/PWSK_EXTENSION_CONTROL_IN, wsk/WSK_EXTENSION_CONTROL_IN, wskref_d922851d-20e4-4ffd-bb3e-e1752b223a1c.xml"
 f1_keywords:
  - "wsk/WSK_EXTENSION_CONTROL_IN"
+ - "WSK_EXTENSION_CONTROL_IN"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows

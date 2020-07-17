@@ -10,6 +10,7 @@ keywords: ["RILTDSCDMAMRL structure"]
 ms.keywords: "*LPRILTDSCDMAMRL, RILTDSCDMAMRL, RILTDSCDMAMRL structure [Network Drivers Starting with Windows Vista], netvista.riltdscdmamrl_2, rilapitypes/RILTDSCDMAMRL"
 f1_keywords:
  - "rilapitypes/RILTDSCDMAMRL"
+ - "RILTDSCDMAMRL"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows

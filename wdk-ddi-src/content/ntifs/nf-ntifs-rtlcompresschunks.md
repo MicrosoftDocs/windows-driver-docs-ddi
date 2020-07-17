@@ -10,6 +10,7 @@ keywords: ["RtlCompressChunks function"]
 ms.keywords: RtlCompressChunks, RtlCompressChunks function [Installable File System Drivers], ifsk.rtlcompresschunks, ntifs/RtlCompressChunks, rtlref_5a8506ad-e74c-410f-9da3-18d3812601c3.xml
 f1_keywords:
  - "ntifs/RtlCompressChunks"
+ - "RtlCompressChunks"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

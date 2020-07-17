@@ -10,6 +10,7 @@ keywords: ["ReadListEntry function"]
 ms.keywords: ReadListEntry, ReadListEntry function [Windows Debugging], WdbgExts_Ref_ab7a48d6-aa2a-4ed1-a4dc-7339993ccb45.xml, debugger.readlistentry, wdbgexts/ReadListEntry
 f1_keywords:
  - "wdbgexts/ReadListEntry"
+ - "ReadListEntry"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h, Winnt.h, Ntdef.h
 req.target-type: Desktop

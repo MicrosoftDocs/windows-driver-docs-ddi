@@ -9,6 +9,7 @@ keywords: ["D3D11_1DDIARG_STAGE_IO_SIGNATURES structure"]
 ms.keywords: D3D11_1DDIARG_STAGE_IO_SIGNATURES, D3D11_1DDIARG_STAGE_IO_SIGNATURES structure [Display Devices], d3d10umddi/D3D11_1DDIARG_STAGE_IO_SIGNATURES, display.d3d11_1ddiarg_stage_io_signatures
 f1_keywords:
  - "d3d10umddi/D3D11_1DDIARG_STAGE_IO_SIGNATURES"
+ - "D3D11_1DDIARG_STAGE_IO_SIGNATURES"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

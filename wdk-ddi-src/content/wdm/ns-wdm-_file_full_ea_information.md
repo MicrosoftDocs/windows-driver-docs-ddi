@@ -10,6 +10,7 @@ keywords: ["_FILE_FULL_EA_INFORMATION structure"]
 ms.keywords: "*PFILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_FULL_EA_INFORMATION, PFILE_FULL_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_FULL_EA_INFORMATION, kernel.file_full_ea_information, kstruct_b_3640566d-def9-44eb-a205-a6361d46e246.xml, wdm/FILE_FULL_EA_INFORMATION, wdm/PFILE_FULL_EA_INFORMATION"
 f1_keywords:
  - "wdm/FILE_FULL_EA_INFORMATION"
+ - "FILE_FULL_EA_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

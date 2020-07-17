@@ -10,6 +10,7 @@ keywords: ["WDF_TIMER_CONFIG_INIT function"]
 ms.keywords: DFTimerObjectRef_aed045cc-b5e1-4e47-8f6b-41d6b858c9f2.xml, WDF_TIMER_CONFIG_INIT, WDF_TIMER_CONFIG_INIT function, kmdf.wdf_timer_config_init, wdf.wdf_timer_config_init, wdftimer/WDF_TIMER_CONFIG_INIT
 f1_keywords:
  - "wdftimer/WDF_TIMER_CONFIG_INIT"
+ - "WDF_TIMER_CONFIG_INIT"
 req.header: wdftimer.h
 req.include-header: Wdf.h
 req.target-type: Universal

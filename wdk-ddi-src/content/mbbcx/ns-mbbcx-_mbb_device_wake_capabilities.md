@@ -10,6 +10,7 @@ ms.date: 11/07/2019
 keywords: ["MBB_DEVICE_WAKE_CAPABILITIES structure"]
 f1_keywords:
  - "mbbcx/MBB_DEVICE_WAKE_CAPABILITIES"
+ - "MBB_DEVICE_WAKE_CAPABILITIES"
 ms.keywords: MBB_DEVICE_WAKE_CAPABILITIES, MBB_DEVICE_WAKE_CAPABILITIES, 
 req.header: mbbcx.h
 req.include-header:

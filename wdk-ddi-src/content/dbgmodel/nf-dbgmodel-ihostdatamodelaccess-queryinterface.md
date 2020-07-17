@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IHostDataModelAccess::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IHostDataModelAccess.QueryInterface"
+ - "IHostDataModelAccess.QueryInterface"
 ms.keywords: IHostDataModelAccess::QueryInterface, QueryInterface, IHostDataModelAccess.QueryInterface, IHostDataModelAccess::QueryInterface, IHostDataModelAccess.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

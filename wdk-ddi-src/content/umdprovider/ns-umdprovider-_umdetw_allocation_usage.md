@@ -10,6 +10,7 @@ keywords: ["_UMDETW_ALLOCATION_USAGE structure"]
 ms.keywords: UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices], _UMDETW_ALLOCATION_USAGE, display.umdetw_allocation_usage, umdprovider/UMDETW_ALLOCATION_USAGE
 f1_keywords:
  - "umdprovider/UMDETW_ALLOCATION_USAGE"
+ - "UMDETW_ALLOCATION_USAGE"
 req.header: umdprovider.h
 req.include-header: Umdprovider.h
 req.target-type: Windows

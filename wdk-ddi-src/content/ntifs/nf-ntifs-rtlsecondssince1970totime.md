@@ -10,6 +10,7 @@ keywords: ["RtlSecondsSince1970ToTime function"]
 ms.keywords: RtlSecondsSince1970ToTime, RtlSecondsSince1970ToTime routine [Installable File System Drivers], ifsk.rtlsecondssince1970totime, ntifs/RtlSecondsSince1970ToTime, rtlref_ca1b3241-af9f-48e1-86e0-56f94c459c63.xml
 f1_keywords:
  - "ntifs/RtlSecondsSince1970ToTime"
+ - "RtlSecondsSince1970ToTime"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

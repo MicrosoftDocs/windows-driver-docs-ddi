@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelper::WhyConstrained"]
 ms.keywords: IPrintCoreHelper interface [Print Devices],WhyConstrained method, IPrintCoreHelper.WhyConstrained, IPrintCoreHelper::WhyConstrained, WhyConstrained, WhyConstrained method [Print Devices], WhyConstrained method [Print Devices],IPrintCoreHelper interface, prcomoem/IPrintCoreHelper::WhyConstrained, print.iprintcorehelper_whyconstrained, print_unidrv-pscript_allplugins_256e3fde-bcef-4883-99bc-803a3de99841.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelper.WhyConstrained"
+ - "IPrintCoreHelper.WhyConstrained"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_GAMMA_RAMP structure"]
 ms.keywords: D3DKMDT_GAMMA_RAMP, D3DKMDT_GAMMA_RAMP structure [Display Devices], DmStructs_bb8721fc-b604-45e4-b3c8-ff27bda95e5b.xml, _D3DKMDT_GAMMA_RAMP, d3dkmdt/D3DKMDT_GAMMA_RAMP, display.d3dkmdt_gamma_ramp
 f1_keywords:
  - "d3dkmdt/D3DKMDT_GAMMA_RAMP"
+ - "D3DKMDT_GAMMA_RAMP"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

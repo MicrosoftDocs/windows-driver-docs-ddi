@@ -10,6 +10,7 @@ keywords: ["NdisMCmDeleteVc function"]
 ms.keywords: NdisMCmDeleteVc, NdisMCmDeleteVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_a6a2bb4d-a82e-422f-b9f0-821519513cb4.xml, ndis/NdisMCmDeleteVc, netvista.ndismcmdeletevc
 f1_keywords:
  - "ndis/NdisMCmDeleteVc"
+ - "NdisMCmDeleteVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

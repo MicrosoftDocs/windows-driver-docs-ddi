@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival"]
 ms.keywords: IPnpCallbackRemoteInterfaceNotification interface,OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival, IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, OnRemoteInterfaceArrival, OnRemoteInterfaceArrival method, OnRemoteInterfaceArrival method,IPnpCallbackRemoteInterfaceNotification interface, UMDFDeviceObjectRef_68b238b1-6614-4217-90ae-12ec291fa7ba.xml, umdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, wdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, wudfddi/IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival
 f1_keywords:
  - "wudfddi/IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival"
+ - "IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

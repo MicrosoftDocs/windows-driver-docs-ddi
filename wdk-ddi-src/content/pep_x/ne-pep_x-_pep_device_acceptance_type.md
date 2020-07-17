@@ -10,6 +10,7 @@ keywords: ["_PEP_DEVICE_ACCEPTANCE_TYPE enumeration"]
 ms.keywords: "*PPEP_DEVICE_ACCEPTANCE_TYPE, PEP_DEVICE_ACCEPTANCE_TYPE, PEP_DEVICE_ACCEPTANCE_TYPE enumeration [Kernel-Mode Driver Architecture], PepDeviceAccepted, PepDeviceAcceptedMax, PepDeviceAcceptedReserved, PepDeviceNotAccepted, _PEP_DEVICE_ACCEPTANCE_TYPE, kernel.pep_device_acceptance_type, pepfx/PEP_DEVICE_ACCEPTANCE_TYPE, pepfx/PepDeviceAccepted, pepfx/PepDeviceAcceptedMax, pepfx/PepDeviceAcceptedReserved, pepfx/PepDeviceNotAccepted"
 f1_keywords:
  - "pep_x/PEP_DEVICE_ACCEPTANCE_TYPE"
+ - "PEP_DEVICE_ACCEPTANCE_TYPE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

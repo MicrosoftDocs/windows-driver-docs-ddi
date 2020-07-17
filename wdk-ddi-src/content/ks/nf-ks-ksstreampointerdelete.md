@@ -10,6 +10,7 @@ keywords: ["KsStreamPointerDelete function"]
 ms.keywords: KsStreamPointerDelete, KsStreamPointerDelete function [Streaming Media Devices], avfunc_b21da27c-abf4-4277-8a22-232c31fbfe97.xml, ks/KsStreamPointerDelete, stream.ksstreampointerdelete
 f1_keywords:
  - "ks/KsStreamPointerDelete"
+ - "KsStreamPointerDelete"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

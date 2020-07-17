@@ -10,6 +10,7 @@ keywords: ["RIL_SendRestrictedUiccCmd function"]
 ms.keywords: RIL_SendRestrictedUiccCmd, RIL_SendRestrictedUiccCmd method [Network Drivers Starting with Windows Vista], netvista.ril_sendrestricteduicccmd, rilapi/RIL_SendRestrictedUiccCmd
 f1_keywords:
  - "rilapi/RIL_SendRestrictedUiccCmd"
+ - "RIL_SendRestrictedUiccCmd"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

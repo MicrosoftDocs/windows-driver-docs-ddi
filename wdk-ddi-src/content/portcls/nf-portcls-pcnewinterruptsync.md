@@ -10,6 +10,7 @@ keywords: ["PcNewInterruptSync function"]
 ms.keywords: PcNewInterruptSync, PcNewInterruptSync function [Audio Devices], audio.pcnewinterruptsync, audpc-routines_97a60c6f-2dc1-48db-982a-996b5ab8d741.xml, portcls/PcNewInterruptSync
 f1_keywords:
  - "portcls/PcNewInterruptSync"
+ - "PcNewInterruptSync"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

@@ -8,6 +8,7 @@ ms.date: 09/26/2019
 keywords: ["_NET_FRAGMENT structure"]
 f1_keywords:
  - "fragment/INSTANCE_PARTIAL_INFORMATION"
+ - "INSTANCE_PARTIAL_INFORMATION"
 ms.keywords: _NET_FRAGMENT, NET_FRAGMENT, 
 req.header: fragment.h
 req.include-header:

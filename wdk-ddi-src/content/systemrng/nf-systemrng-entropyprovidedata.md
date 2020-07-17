@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EntropyProvideData function"]
 f1_keywords:
  - "systemrng/EntropyProvideData"
+ - "EntropyProvideData"
 ms.keywords: EntropyProvideData
 req.header: systemrng.h
 req.include-header:

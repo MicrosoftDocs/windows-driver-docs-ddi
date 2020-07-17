@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBC_PD_REQUEST_DATA_OBJECT structure"]
 f1_keywords:
  - "usbctypes/_USBC_PD_REQUEST_DATA_OBJECT"
+ - "_USBC_PD_REQUEST_DATA_OBJECT"
 ms.keywords: _USBC_PD_REQUEST_DATA_OBJECT, USBC_PD_REQUEST_DATA_OBJECT, *PUSBC_PD_REQUEST_DATA_OBJECT, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h

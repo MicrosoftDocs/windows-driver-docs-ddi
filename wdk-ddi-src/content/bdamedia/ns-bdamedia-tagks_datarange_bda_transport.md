@@ -10,6 +10,7 @@ keywords: ["tagKS_DATARANGE_BDA_TRANSPORT structure"]
 ms.keywords: "*PKS_DATARANGE_BDA_TRANSPORT, KS_DATARANGE_BDA_TRANSPORT, KS_DATARANGE_BDA_TRANSPORT structure [Streaming Media Devices], PKS_DATARANGE_BDA_TRANSPORT, PKS_DATARANGE_BDA_TRANSPORT structure pointer [Streaming Media Devices], bdamedia/KS_DATARANGE_BDA_TRANSPORT, bdamedia/PKS_DATARANGE_BDA_TRANSPORT, bdaref_89717b68-2829-4f7a-bcdb-10e0b790308c.xml, stream.ks_datarange_bda_transport, tagKS_DATARANGE_BDA_TRANSPORT"
 f1_keywords:
  - "bdamedia/KS_DATARANGE_BDA_TRANSPORT"
+ - "KS_DATARANGE_BDA_TRANSPORT"
 req.header: bdamedia.h
 req.include-header: Bdamedia.h
 req.target-type: Windows

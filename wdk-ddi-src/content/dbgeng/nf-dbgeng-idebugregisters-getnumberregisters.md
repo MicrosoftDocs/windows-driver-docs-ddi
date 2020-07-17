@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters::GetNumberRegisters"]
 ms.keywords: GetNumberRegisters, GetNumberRegisters method [Windows Debugging], GetNumberRegisters method [Windows Debugging],IDebugRegisters interface, GetNumberRegisters method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetNumberRegisters method, IDebugRegisters.GetNumberRegisters, IDebugRegisters2 interface [Windows Debugging],GetNumberRegisters method, IDebugRegisters2::GetNumberRegisters, IDebugRegisters::GetNumberRegisters, IDebugRegisters_b2fa1d95-0331-4c27-a3af-3cc8e895e88f.xml, dbgeng/IDebugRegisters2::GetNumberRegisters, dbgeng/IDebugRegisters::GetNumberRegisters, debugger.getnumberregisters
 f1_keywords:
  - "dbgeng/IDebugRegisters.GetNumberRegisters"
+ - "IDebugRegisters.GetNumberRegisters"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop

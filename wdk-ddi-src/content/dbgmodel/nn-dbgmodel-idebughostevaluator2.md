@@ -7,6 +7,7 @@ ms.date: 06/11/2019
 keywords: ["IDebugHostEvaluator2 interface"]
 f1_keywords:
  - "dbgmodel/IDebugHostEvaluator2"
+ - "IDebugHostEvaluator2"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

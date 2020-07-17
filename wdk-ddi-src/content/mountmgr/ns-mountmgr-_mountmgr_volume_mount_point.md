@@ -10,6 +10,7 @@ keywords: ["_MOUNTMGR_VOLUME_MOUNT_POINT structure"]
 ms.keywords: "*PMOUNTMGR_VOLUME_MOUNT_POINT, MOUNTMGR_VOLUME_MOUNT_POINT, MOUNTMGR_VOLUME_MOUNT_POINT structure [Storage Devices], PMOUNTMGR_VOLUME_MOUNT_POINT, PMOUNTMGR_VOLUME_MOUNT_POINT structure pointer [Storage Devices], _MOUNTMGR_VOLUME_MOUNT_POINT, mountmgr/MOUNTMGR_VOLUME_MOUNT_POINT, mountmgr/PMOUNTMGR_VOLUME_MOUNT_POINT, storage.mountmgr_volume_mount_point, structs-mntmgr_afa5831e-a33d-4fb6-a67b-b0b4f459e19b.xml"
 f1_keywords:
  - "mountmgr/MOUNTMGR_VOLUME_MOUNT_POINT"
+ - "MOUNTMGR_VOLUME_MOUNT_POINT"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["_DXGK_GPUENGINE structure"]
 f1_keywords:
  - "dispmprt/_DXGK_GPUENGINE"
+ - "_DXGK_GPUENGINE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_GPUENGINE, DXGK_GPUENGINE, *PDXGK_GPUENGINE, 

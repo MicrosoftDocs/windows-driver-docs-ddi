@@ -10,6 +10,7 @@ keywords: ["IWDFUsbRequestCompletionParams interface"]
 ms.keywords: IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams interface,described, UMDFRequestObjectRef_f55ce370-f488-405f-a104-9a85fcab6cbb.xml, umdf.iwdfusbrequestcompletionparams, wdf.iwdfusbrequestcompletionparams, wudfusb/IWDFUsbRequestCompletionParams
 f1_keywords:
  - "wudfusb/IWDFUsbRequestCompletionParams"
+ - "IWDFUsbRequestCompletionParams"
 req.header: wudfusb.h
 req.include-header: 
 req.target-type: Desktop

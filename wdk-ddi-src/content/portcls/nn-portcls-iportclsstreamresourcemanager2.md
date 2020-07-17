@@ -10,6 +10,7 @@ keywords: ["IPortClsStreamResourceManager2 interface"]
 ms.keywords: IPortClsStreamResourceManager2, IPortClsStreamResourceManager2 interface [Audio Devices], IPortClsStreamResourceManager2 interface [Audio Devices],described, audio.iportclsstreamresourcemanager2, portcls/IPortClsStreamResourceManager2
 f1_keywords:
  - "portcls/IPortClsStreamResourceManager2"
+ - "IPortClsStreamResourceManager2"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

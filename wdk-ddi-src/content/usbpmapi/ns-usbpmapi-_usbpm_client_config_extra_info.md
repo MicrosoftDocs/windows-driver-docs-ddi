@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["_USBPM_CLIENT_CONFIG_EXTRA_INFO structure"]
 f1_keywords:
  - "usbpmapi/_USBPM_CLIENT_CONFIG_EXTRA_INFO"
+ - "_USBPM_CLIENT_CONFIG_EXTRA_INFO"
 tech.root: usbref
 ms.keywords: _USBPM_CLIENT_CONFIG_EXTRA_INFO, USBPM_CLIENT_CONFIG_EXTRA_INFO, *PUSBPM_CLIENT_CONFIG_EXTRA_INFO, 
 req.header: usbpmapi.h

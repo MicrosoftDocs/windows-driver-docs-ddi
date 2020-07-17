@@ -10,6 +10,7 @@ keywords: ["RILSENDUICCTOOLKITCMDRESPONSEPARAMS structure"]
 ms.keywords: "*LPRILSENDUICCTOOLKITCMDRESPONSEPARAMS, RILSENDUICCTOOLKITCMDRESPONSEPARAMS, RILSENDUICCTOOLKITCMDRESPONSEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsenduicctoolkitcmdresponseparams, ntddrilapitypes/RILSENDUICCTOOLKITCMDRESPONSEPARAMS"
 f1_keywords:
  - "rilapitypes/RILSENDUICCTOOLKITCMDRESPONSEPARAMS"
+ - "RILSENDUICCTOOLKITCMDRESPONSEPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

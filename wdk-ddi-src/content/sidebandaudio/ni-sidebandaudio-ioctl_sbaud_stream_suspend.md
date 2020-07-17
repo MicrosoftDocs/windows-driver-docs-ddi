@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_STREAM_SUSPEND IOCTL"]
 f1_keywords:
  - "sidebandaudio/IOCTL_SBAUD_STREAM_SUSPEND"
+ - "IOCTL_SBAUD_STREAM_SUSPEND"
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

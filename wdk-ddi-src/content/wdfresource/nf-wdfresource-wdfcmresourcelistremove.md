@@ -10,6 +10,7 @@ keywords: ["WdfCmResourceListRemove function"]
 ms.keywords: DFResourceObjectRef_5b1c7fce-45d2-454e-9d21-3f8d460ba99f.xml, WdfCmResourceListRemove, WdfCmResourceListRemove method, kmdf.wdfcmresourcelistremove, wdf.wdfcmresourcelistremove, wdfresource/WdfCmResourceListRemove
 f1_keywords:
  - "wdfresource/WdfCmResourceListRemove"
+ - "WdfCmResourceListRemove"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal

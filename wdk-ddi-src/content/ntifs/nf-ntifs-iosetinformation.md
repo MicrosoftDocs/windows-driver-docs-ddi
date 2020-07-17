@@ -10,6 +10,7 @@ keywords: ["IoSetInformation function"]
 ms.keywords: IoSetInformation, IoSetInformation function [Installable File System Drivers], ifsk.iosetinformation, ioref_3c058acd-e360-4923-a9be-b17d3882727f.xml, ntifs/IoSetInformation
 f1_keywords:
  - "ntifs/IoSetInformation"
+ - "IoSetInformation"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

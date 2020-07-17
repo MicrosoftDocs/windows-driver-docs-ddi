@@ -10,6 +10,7 @@ keywords: ["EtwRegister function"]
 ms.keywords: EtwRegister, EtwRegister function [Driver Development Tools], devtest.etwregister, etw_km_45f383e4-ef13-4662-b80e-2fc48b6755ed.xml, wdm/EtwRegister
 f1_keywords:
  - "wdm/EtwRegister"
+ - "EtwRegister"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

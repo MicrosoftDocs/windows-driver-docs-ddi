@@ -10,6 +10,7 @@ keywords: ["SpbRequestGetTransferParameters function"]
 ms.keywords: SPB.spbrequestgettransferparameters, SpbRequestGetTransferParameters, SpbRequestGetTransferParameters method [Buses], spbcx/SpbRequestGetTransferParameters
 f1_keywords:
  - "spbcx/SpbRequestGetTransferParameters"
+ - "SpbRequestGetTransferParameters"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal

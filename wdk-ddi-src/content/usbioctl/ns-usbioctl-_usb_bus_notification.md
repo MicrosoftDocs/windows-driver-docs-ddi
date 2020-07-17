@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_USB_BUS_NOTIFICATION structure"]
 f1_keywords:
  - "usbioctl/_USB_BUS_NOTIFICATION"
+ - "_USB_BUS_NOTIFICATION"
 ms.keywords: _USB_BUS_NOTIFICATION, USB_BUS_NOTIFICATION, *PUSB_BUS_NOTIFICATION, 
 req.header: usbioctl.h
 req.include-header:

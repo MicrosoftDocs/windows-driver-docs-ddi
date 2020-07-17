@@ -9,6 +9,7 @@ keywords: ["_DXGK_PRESENTFLAGS structure"]
 ms.keywords: DXGK_PRESENTFLAGS, DXGK_PRESENTFLAGS structure [Display Devices], DmStructs_b8913202-bee3-4584-b323-6c6fb47a5c8d.xml, _DXGK_PRESENTFLAGS, d3dkmddi/DXGK_PRESENTFLAGS, display.dxgk_presentflags
 f1_keywords:
  - "d3dkmddi/DXGK_PRESENTFLAGS"
+ - "DXGK_PRESENTFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

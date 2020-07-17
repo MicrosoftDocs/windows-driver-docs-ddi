@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend"]
 ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoSuspend method, IPnpCallbackSelfManagedIo.OnSelfManagedIoSuspend, IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend, OnSelfManagedIoSuspend, OnSelfManagedIoSuspend method, OnSelfManagedIoSuspend method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_87fc0596-4d08-4c55-88b0-e2ad9d085745.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagediosuspend, wdf.ipnpcallbackselfmanagedio_onselfmanagediosuspend, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend
 f1_keywords:
  - "wudfddi/IPnpCallbackSelfManagedIo.OnSelfManagedIoSuspend"
+ - "IPnpCallbackSelfManagedIo.OnSelfManagedIoSuspend"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

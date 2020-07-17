@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTGetPostCompositionCaps function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTGetPostCompositionCaps"
+ - "D3DKMTGetPostCompositionCaps"
 ms.keywords: D3DKMTGetPostCompositionCaps
 req.header: d3dkmthk.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["PoFxPowerControl function"]
 ms.keywords: PoFxPowerControl, PoFxPowerControl routine [Kernel-Mode Driver Architecture], kernel.pofxpowercontrol, wdm/PoFxPowerControl
 f1_keywords:
  - "wdm/PoFxPowerControl"
+ - "PoFxPowerControl"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

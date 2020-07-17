@@ -10,6 +10,7 @@ keywords: ["_DXVADDI_VALUERANGE structure"]
 ms.keywords: DXVA2_Structs_37c2cd52-30c3-4e99-918f-6a538547bdd2.xml, DXVADDI_VALUERANGE, DXVADDI_VALUERANGE structure [Display Devices], _DXVADDI_VALUERANGE, d3dumddi/DXVADDI_VALUERANGE, display.dxvaddi_valuerange
 f1_keywords:
  - "d3dumddi/DXVADDI_VALUERANGE"
+ - "DXVADDI_VALUERANGE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

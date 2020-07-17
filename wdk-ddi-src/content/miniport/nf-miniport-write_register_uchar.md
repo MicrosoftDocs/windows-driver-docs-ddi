@@ -10,6 +10,7 @@ keywords: ["WRITE_REGISTER_UCHAR function"]
 ms.keywords: WRITE_REGISTER_UCHAR, WRITE_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], k103_052039f1-0f3c-4b4b-9061-ea92046f7167.xml, kernel.write_register_uchar, wdm/WRITE_REGISTER_UCHAR
 f1_keywords:
  - "miniport/WRITE_REGISTER_UCHAR"
+ - "WRITE_REGISTER_UCHAR"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal

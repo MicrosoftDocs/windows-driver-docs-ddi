@@ -10,6 +10,7 @@ keywords: ["IStiUSD::SetNotificationHandle"]
 ms.keywords: IStiUSD interface [Imaging Devices],SetNotificationHandle method, IStiUSD.SetNotificationHandle, IStiUSD::SetNotificationHandle, SetNotificationHandle, SetNotificationHandle method [Imaging Devices], SetNotificationHandle method [Imaging Devices],IStiUSD interface, image.istiusd_setnotificationhandle, stifnc_f6b96be7-54e0-4cf1-a895-3d8d31dbc72b.xml, stiusd/IStiUSD::SetNotificationHandle
 f1_keywords:
  - "stiusd/IStiUSD.SetNotificationHandle"
+ - "IStiUSD.SetNotificationHandle"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop

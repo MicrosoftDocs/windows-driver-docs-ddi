@@ -7,6 +7,7 @@ ms.date: 07/16/2018
 keywords: ["ModelObjectKind enumeration"]
 f1_keywords:
  - "dbgmodel/ModelObjectKind"
+ - "ModelObjectKind"
 ms.keywords: ModelObjectKind, , 
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["_PCW_CALLBACK_INFORMATION structure"]
 ms.keywords: "*PPCW_CALLBACK_INFORMATION, PCW_CALLBACK_INFORMATION, PCW_CALLBACK_INFORMATION union [Driver Development Tools], PPCW_CALLBACK_INFORMATION, PPCW_CALLBACK_INFORMATION union pointer [Driver Development Tools], _PCW_CALLBACK_INFORMATION, devtest.pcw_callback_information, km_pcw_d44ee92a-c8a0-4da9-8739-cf5443ee2d85.xml, wdm/PCW_CALLBACK_INFORMATION, wdm/PPCW_CALLBACK_INFORMATION"
 f1_keywords:
  - "wdm/PCW_CALLBACK_INFORMATION"
+ - "PCW_CALLBACK_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows

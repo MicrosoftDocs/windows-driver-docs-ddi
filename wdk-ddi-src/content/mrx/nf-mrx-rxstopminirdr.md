@@ -10,6 +10,7 @@ keywords: ["RxStopMinirdr function"]
 ms.keywords: RxStopMinirdr, RxStopMinirdr function [Installable File System Drivers], ifsk.rxstopminirdr, mrx/RxStopMinirdr, rxref_3ec6b643-e13c-4aa6-879b-fdb2076e549d.xml
 f1_keywords:
  - "mrx/RxStopMinirdr"
+ - "RxStopMinirdr"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

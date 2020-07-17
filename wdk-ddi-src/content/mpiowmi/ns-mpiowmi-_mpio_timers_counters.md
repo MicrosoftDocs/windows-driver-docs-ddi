@@ -10,6 +10,7 @@ keywords: ["_MPIO_TIMERS_COUNTERS structure"]
 ms.keywords: "*PMPIO_TIMERS_COUNTERS, MPIO_TIMERS_COUNTERS, MPIO_TIMERS_COUNTERS structure [Storage Devices], PMPIO_TIMERS_COUNTERS, PMPIO_TIMERS_COUNTERS structure pointer [Storage Devices], _MPIO_TIMERS_COUNTERS, mpiowmi/MPIO_TIMERS_COUNTERS, mpiowmi/PMPIO_TIMERS_COUNTERS, storage.mpio_timers_counters, structs-scsibus_4e4255c8-94e3-4eb0-bf6b-e5c8cddba010.xml"
 f1_keywords:
  - "mpiowmi/MPIO_TIMERS_COUNTERS"
+ - "MPIO_TIMERS_COUNTERS"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["READ_REGISTER_BUFFER_ULONG function"]
 ms.keywords: READ_REGISTER_BUFFER_ULONG, READ_REGISTER_BUFFER_ULONG function, umdf.read_register_buffer_ulong, wdf.read_register_buffer_ulong, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG
 f1_keywords:
  - "wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG"
+ - "READ_REGISTER_BUFFER_ULONG"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop

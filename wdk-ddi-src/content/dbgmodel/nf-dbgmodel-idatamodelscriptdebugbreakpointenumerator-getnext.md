@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["IDataModelScriptDebugBreakpointEnumerator::GetNext"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebugBreakpointEnumerator.GetNext"
+ - "IDataModelScriptDebugBreakpointEnumerator.GetNext"
 ms.keywords: IDataModelScriptDebugBreakpointEnumerator::GetNext, GetNext, IDataModelScriptDebugBreakpointEnumerator.GetNext, IDataModelScriptDebugBreakpointEnumerator::GetNext, IDataModelScriptDebugBreakpointEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:

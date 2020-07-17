@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY callback function
 ms.keywords: DFDeviceObjectChildListRef_8568b87d-544a-4574-a9c7-c5498a30a758.xml, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY, EVT_WDF_CHILD_LIST_IDENTIFICATION_DESCRIPTION_COPY callback, EvtChildListIdentificationDescriptionCopy, EvtChildListIdentificationDescriptionCopy callback function, kmdf.evtchildlistidentificationdescriptioncopy, wdf.evtchildlistidentificationdescriptioncopy, wdfchildlist/EvtChildListIdentificationDescriptionCopy
 f1_keywords:
  - "wdfchildlist/EvtChildListIdentificationDescriptionCopy"
+ - "EvtChildListIdentificationDescriptionCopy"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

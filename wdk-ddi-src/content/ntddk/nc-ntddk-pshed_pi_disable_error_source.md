@@ -10,6 +10,7 @@ keywords: ["PSHED_PI_DISABLE_ERROR_SOURCE callback function"]
 ms.keywords: DisableErrorSource, DisableErrorSource callback function [WHEA Drivers and Applications], PSHED_PI_DISABLE_ERROR_SOURCE, PSHED_PI_DISABLE_ERROR_SOURCE callback, ntddk/DisableErrorSource, whea.disableerrorsource, whearef_41df46d2-6f6e-47aa-8296-cdc9223a9f26.xml
 f1_keywords:
  - "ntddk/DisableErrorSource"
+ - "DisableErrorSource"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop

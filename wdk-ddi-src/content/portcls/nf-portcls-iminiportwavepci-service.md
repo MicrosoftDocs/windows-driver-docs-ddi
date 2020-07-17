@@ -10,6 +10,7 @@ keywords: ["IMiniportWavePci::Service"]
 ms.keywords: IMiniportWavePci interface [Audio Devices],Service method, IMiniportWavePci.Service, IMiniportWavePci::Service, Service, Service method [Audio Devices], Service method [Audio Devices],IMiniportWavePci interface, audio.iminiportwavepci_service, audmp-routines_837c6515-20a3-4b55-b930-24fc1b461ea6.xml, portcls/IMiniportWavePci::Service
 f1_keywords:
  - "portcls/IMiniportWavePci.Service"
+ - "IMiniportWavePci.Service"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

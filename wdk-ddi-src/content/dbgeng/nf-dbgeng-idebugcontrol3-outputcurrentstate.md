@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::OutputCurrentState"]
 ms.keywords: IDebugControl interface [Windows Debugging],OutputCurrentState method, IDebugControl2 interface [Windows Debugging],OutputCurrentState method, IDebugControl2::OutputCurrentState, IDebugControl3 interface [Windows Debugging],OutputCurrentState method, IDebugControl3.OutputCurrentState, IDebugControl3::OutputCurrentState, IDebugControl::OutputCurrentState, IDebugControl_1a038e3b-1bf3-47d0-8e40-b2ebc3506308.xml, OutputCurrentState, OutputCurrentState method [Windows Debugging], OutputCurrentState method [Windows Debugging],IDebugControl interface, OutputCurrentState method [Windows Debugging],IDebugControl2 interface, OutputCurrentState method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::OutputCurrentState, dbgeng/IDebugControl3::OutputCurrentState, dbgeng/IDebugControl::OutputCurrentState, debugger.outputcurrentstate
 f1_keywords:
  - "dbgeng/IDebugControl.OutputCurrentState"
+ - "IDebugControl.OutputCurrentState"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

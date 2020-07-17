@@ -10,6 +10,7 @@ keywords: ["_STORAGE_PHYSICAL_ADAPTER_DATA structure"]
 ms.keywords: "*PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA, PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Storage Devices], STORAGE_PHYSICAL_ADAPTER_DATA, STORAGE_PHYSICAL_ADAPTER_DATA structure [Storage Devices], _STORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/PSTORAGE_PHYSICAL_ADAPTER_DATA, ntddstor/STORAGE_PHYSICAL_ADAPTER_DATA, storage.storage_physical_adapter_data"
 f1_keywords:
  - "ntddstor/STORAGE_PHYSICAL_ADAPTER_DATA"
+ - "STORAGE_PHYSICAL_ADAPTER_DATA"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

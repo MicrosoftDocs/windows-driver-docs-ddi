@@ -10,6 +10,7 @@ keywords: ["IWDFIoQueue::Drain"]
 ms.keywords: Drain, Drain method, Drain method,IWDFIoQueue interface, IWDFIoQueue interface,Drain method, IWDFIoQueue.Drain, IWDFIoQueue::Drain, UMDFQueueObjectRef_cb7bdc3f-3280-4949-a60a-b78f13492da9.xml, umdf.iwdfioqueue_drain, wdf.iwdfioqueue_drain, wudfddi/IWDFIoQueue::Drain
 f1_keywords:
  - "wudfddi/IWDFIoQueue.Drain"
+ - "IWDFIoQueue.Drain"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

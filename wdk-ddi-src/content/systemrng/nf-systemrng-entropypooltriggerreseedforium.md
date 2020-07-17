@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["EntropyPoolTriggerReseedForIum function"]
 f1_keywords:
  - "systemrng/EntropyPoolTriggerReseedForIum"
+ - "EntropyPoolTriggerReseedForIum"
 ms.keywords: EntropyPoolTriggerReseedForIum
 req.header: systemrng.h
 req.include-header:

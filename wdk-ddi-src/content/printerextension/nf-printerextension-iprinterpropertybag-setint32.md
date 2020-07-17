@@ -10,6 +10,7 @@ keywords: ["IPrinterPropertyBag::SetInt32"]
 ms.keywords: IPrinterPropertyBag interface [Print Devices],SetInt32 method, IPrinterPropertyBag.SetInt32, IPrinterPropertyBag::SetInt32, SetInt32, SetInt32 method [Print Devices], SetInt32 method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setint32, printerextension/IPrinterPropertyBag::SetInt32
 f1_keywords:
  - "printerextension/IPrinterPropertyBag.SetInt32"
+ - "IPrinterPropertyBag.SetInt32"
 req.header: printerextension.h
 req.include-header: Printerextension.h
 req.target-type: Desktop

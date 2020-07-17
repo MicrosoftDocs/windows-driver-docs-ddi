@@ -10,6 +10,7 @@ keywords: ["_ATA_PASS_THROUGH_EX structure"]
 ms.keywords: "*PATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX structure [Storage Devices], PATA_PASS_THROUGH_EX, PATA_PASS_THROUGH_EX structure pointer [Storage Devices], _ATA_PASS_THROUGH_EX, ntddscsi/ATA_PASS_THROUGH_EX, ntddscsi/PATA_PASS_THROUGH_EX, storage.ata_pass_through_ex, structs-IDE_72cc1a49-a438-40cb-b4b5-8ec7c87669f8.xml"
 f1_keywords:
  - "ntddscsi/ATA_PASS_THROUGH_EX"
+ - "ATA_PASS_THROUGH_EX"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RIL_EnableNotifications function"]
 ms.keywords: RIL_EnableNotifications, RIL_EnableNotifications method [Network Drivers Starting with Windows Vista], netvista.ril_enablenotifications, rilapi/RIL_EnableNotifications
 f1_keywords:
  - "rilapi/RIL_EnableNotifications"
+ - "RIL_EnableNotifications"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IDebugDataSpaces4::GetOffsetInformation"]
 ms.keywords: GetOffsetInformation, GetOffsetInformation method [Windows Debugging], GetOffsetInformation method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces4 interface [Windows Debugging],GetOffsetInformation method, IDebugDataSpaces4.GetOffsetInformation, IDebugDataSpaces4::GetOffsetInformation, IDebugDataSpaces_c434b12b-78ff-4f6a-ac69-6069dd273ba8.xml, dbgeng/IDebugDataSpaces4::GetOffsetInformation, debugger.getoffsetinformation
 f1_keywords:
  - "dbgeng/IDebugDataSpaces4.GetOffsetInformation"
+ - "IDebugDataSpaces4.GetOffsetInformation"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

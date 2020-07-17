@@ -32,6 +32,7 @@ api_name:
  - D3D12DDI_MIP_REGION_0075
 f1_keywords:
  - d3d12umddi/D3D12DDI_MIP_REGION_0075
+ - ""
 dev_langs:
  - c++
 ---

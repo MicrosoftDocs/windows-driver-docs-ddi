@@ -10,6 +10,7 @@ keywords: ["_NDIS_PM_WAKE_REASON_TYPE enumeration"]
 ms.keywords: "*PNDIS_PM_WAKE_REASON_TYPE, NDIS_PM_WAKE_REASON_TYPE, NDIS_PM_WAKE_REASON_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisWakeReasonMediaConnect, NdisWakeReasonMediaDisconnect, NdisWakeReasonPacket, NdisWakeReasonUnspecified, NdisWakeReasonWlan4WayHandshakeRequest, NdisWakeReasonWlanAPAssociationLost, NdisWakeReasonWlanGTKHandshakeError, NdisWakeReasonWlanNLODiscovery, NdisWakeReasonWwanRegisterState, NdisWakeReasonWwanSMSReceive, NdisWakeReasonWwanUSSDReceive, PNDIS_PM_WAKE_REASON_TYPE, PNDIS_PM_WAKE_REASON_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WAKE_REASON_TYPE, netvista.ndis_pm_wake_reason_type, ntddndis/NDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonMediaConnect, ntddndis/NdisWakeReasonMediaDisconnect, ntddndis/NdisWakeReasonPacket, ntddndis/NdisWakeReasonUnspecified, ntddndis/NdisWakeReasonWlan4WayHandshakeRequest, ntddndis/NdisWakeReasonWlanAPAssociationLost, ntddndis/NdisWakeReasonWlanGTKHandshakeError, ntddndis/NdisWakeReasonWlanNLODiscovery, ntddndis/NdisWakeReasonWwanRegisterState, ntddndis/NdisWakeReasonWwanSMSReceive, ntddndis/NdisWakeReasonWwanUSSDReceive, ntddndis/PNDIS_PM_WAKE_REASON_TYPE"
 f1_keywords:
  - "ntddndis/NDIS_PM_WAKE_REASON_TYPE"
+ - "NDIS_PM_WAKE_REASON_TYPE"
 req.header: ntddndis.h
 req.include-header: Ntddndis.h
 req.target-type: Windows

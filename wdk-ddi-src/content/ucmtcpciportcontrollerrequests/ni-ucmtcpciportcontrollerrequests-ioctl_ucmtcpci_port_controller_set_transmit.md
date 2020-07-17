@@ -10,6 +10,7 @@ keywords: ["IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT IOCTL"]
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT control, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT control code [Buses], buses.ioctl_ucmtcpci_port_controller_set_transmit, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT
 f1_keywords:
  - "ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT"
+ - "IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_TRANSMIT"
 req.header: ucmtcpciportcontrollerrequests.h
 req.include-header: 
 req.target-type: Windows

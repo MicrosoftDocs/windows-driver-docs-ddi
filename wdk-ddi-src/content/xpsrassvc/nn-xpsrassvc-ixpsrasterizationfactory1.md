@@ -10,6 +10,7 @@ keywords: ["IXpsRasterizationFactory1 interface"]
 ms.keywords: IXpsRasterizationFactory1, IXpsRasterizationFactory1 interface [Print Devices], IXpsRasterizationFactory1 interface [Print Devices],described, print.xpsrasterizationfactory1, xpsrassvc/IXpsRasterizationFactory1
 f1_keywords:
  - "xpsrassvc/IXpsRasterizationFactory1"
+ - "IXpsRasterizationFactory1"
 req.header: xpsrassvc.h
 req.include-header: 
 req.target-type: Windows

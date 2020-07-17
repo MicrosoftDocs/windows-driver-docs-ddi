@@ -10,6 +10,7 @@ keywords: ["IPrintOemUI::DevMode"]
 ms.keywords: DevMode, DevMode method [Print Devices], DevMode method [Print Devices],IPrintOemUI interface, IPrintOemUI interface [Print Devices],DevMode method, IPrintOemUI.DevMode, IPrintOemUI::DevMode, prcomoem/IPrintOemUI::DevMode, print.iprintoemui_devmode, print_unidrv-pscript_ui_3d5344ac-bacd-499b-87f7-c8e1b7f0e174.xml
 f1_keywords:
  - "prcomoem/IPrintOemUI.DevMode"
+ - "IPrintOemUI.DevMode"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IPartThumbnail::GetThumbnailProperties"]
 ms.keywords: GetThumbnailProperties, GetThumbnailProperties method [Print Devices], GetThumbnailProperties method [Print Devices],IPartThumbnail interface, IPartThumbnail interface [Print Devices],GetThumbnailProperties method, IPartThumbnail.GetThumbnailProperties, IPartThumbnail::GetThumbnailProperties, filterpipeline/IPartThumbnail::GetThumbnailProperties, filterpipeline_efcc2b07-7b10-4599-b03b-e031883c119e.xml, print.ipartthumbnail_getthumbnailproperties
 f1_keywords:
  - "filterpipeline/IPartThumbnail.GetThumbnailProperties"
+ - "IPartThumbnail.GetThumbnailProperties"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IWDFIoRequestCompletionParams::GetIoctlParameters"]
 ms.keywords: GetIoctlParameters, GetIoctlParameters method, GetIoctlParameters method,IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams interface,GetIoctlParameters method, IWDFIoRequestCompletionParams.GetIoctlParameters, IWDFIoRequestCompletionParams::GetIoctlParameters, UMDFRequestObjectRef_7d375866-617c-418f-b449-7931a88e7ae4.xml, umdf.iwdfiorequestcompletionparams_getioctlparameters, wdf.iwdfiorequestcompletionparams_getioctlparameters, wudfddi/IWDFIoRequestCompletionParams::GetIoctlParameters
 f1_keywords:
  - "wudfddi/IWDFIoRequestCompletionParams.GetIoctlParameters"
+ - "IWDFIoRequestCompletionParams.GetIoctlParameters"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

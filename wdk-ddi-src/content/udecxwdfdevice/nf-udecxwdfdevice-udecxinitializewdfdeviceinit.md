@@ -10,6 +10,7 @@ keywords: ["UdecxInitializeWdfDeviceInit function"]
 ms.keywords: UdecxInitializeWdfDeviceInit, UdecxInitializeWdfDeviceInit function [Buses], buses.udecxinitializewdfdeviceinit, udecxwdfdevice/UdecxInitializeWdfDeviceInit
 f1_keywords:
  - "udecxwdfdevice/UdecxInitializeWdfDeviceInit"
+ - "UdecxInitializeWdfDeviceInit"
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

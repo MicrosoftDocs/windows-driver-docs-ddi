@@ -10,6 +10,7 @@ keywords: ["_DOT11_PEER_STATISTICS structure"]
 ms.keywords: "*PDOT11_PEER_STATISTICS, DOT11_PEER_STATISTICS, DOT11_PEER_STATISTICS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_5e07a8dd-79f1-4cba-89d3-f70e04caad12.xml, PDOT11_PEER_STATISTICS, PDOT11_PEER_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PEER_STATISTICS, netvista.dot11_peer_statistics, windot11/DOT11_PEER_STATISTICS, windot11/PDOT11_PEER_STATISTICS"
 f1_keywords:
  - "windot11/DOT11_PEER_STATISTICS"
+ - "DOT11_PEER_STATISTICS"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

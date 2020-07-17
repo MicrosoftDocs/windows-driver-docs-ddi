@@ -10,6 +10,7 @@ keywords: ["NDK_FN_CREATE_QP_WITH_SRQ callback function"]
 ms.keywords: NDK_FN_CREATE_QP_WITH_SRQ, NDK_FN_CREATE_QP_WITH_SRQ callback, NdkCreateQpWithSrq, NdkCreateQpWithSrq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateQpWithSrq, netvista.ndk_fn_create_qp_with_srq
 f1_keywords:
  - "ndkpi/NdkCreateQpWithSrq"
+ - "NdkCreateQpWithSrq"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

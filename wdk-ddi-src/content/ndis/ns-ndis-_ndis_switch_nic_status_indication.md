@@ -10,6 +10,7 @@ keywords: ["_NDIS_SWITCH_NIC_STATUS_INDICATION structure"]
 ms.keywords: "*PNDIS_SWITCH_NIC_STATUS_INDICATION, NDIS_SWITCH_NIC_STATUS_INDICATION, NDIS_SWITCH_NIC_STATUS_INDICATION structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_NIC_STATUS_INDICATION, PNDIS_SWITCH_NIC_STATUS_INDICATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_STATUS_INDICATION, ndis/NDIS_SWITCH_NIC_STATUS_INDICATION, ndis/PNDIS_SWITCH_NIC_STATUS_INDICATION, netvista.ndis_switch_nic_status_indication"
 f1_keywords:
  - "ndis/NDIS_SWITCH_NIC_STATUS_INDICATION"
+ - "NDIS_SWITCH_NIC_STATUS_INDICATION"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

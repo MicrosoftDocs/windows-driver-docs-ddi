@@ -10,6 +10,7 @@ keywords: ["_GPIO_READ_PINS_PARAMETERS structure"]
 ms.keywords: "*PGPIO_READ_PINS_PARAMETERS, GPIO.gpio_read_pins_parameters, GPIO_READ_PINS_PARAMETERS, GPIO_READ_PINS_PARAMETERS structure [Parallel Ports], PGPIO_READ_PINS_PARAMETERS, PGPIO_READ_PINS_PARAMETERS structure pointer [Parallel Ports], _GPIO_READ_PINS_PARAMETERS, gpioclx/GPIO_READ_PINS_PARAMETERS, gpioclx/PGPIO_READ_PINS_PARAMETERS"
 f1_keywords:
  - "gpioclx/GPIO_READ_PINS_PARAMETERS"
+ - "GPIO_READ_PINS_PARAMETERS"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Windows

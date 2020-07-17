@@ -10,6 +10,7 @@ keywords: ["DOT11EXTIHV_DEINIT_SERVICE callback"]
 ms.keywords: DOT11EXTIHV_DEINIT_SERVICE, Dot11ExtIhvDeinitService, Dot11ExtIhvDeinitService callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_02e9e301-f950-47e3-9a1f-4212ae55387e.xml, netvista.dot11extihvdeinitservice, wlanihv/Dot11ExtIhvDeinitService
 f1_keywords:
  - "wlanihv/Dot11ExtIhvDeinitService"
+ - "Dot11ExtIhvDeinitService"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

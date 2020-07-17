@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_GETDISPLAYMODELIST structure"]
 ms.keywords: D3DKMT_GETDISPLAYMODELIST, D3DKMT_GETDISPLAYMODELIST structure [Display Devices], OpenGL_Structs_27c1c3f3-6316-4dc3-b83d-1a8f6f6360bb.xml, _D3DKMT_GETDISPLAYMODELIST, d3dkmthk/D3DKMT_GETDISPLAYMODELIST, display.d3dkmt_getdisplaymodelist
 f1_keywords:
  - "d3dkmthk/D3DKMT_GETDISPLAYMODELIST"
+ - "D3DKMT_GETDISPLAYMODELIST"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

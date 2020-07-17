@@ -10,6 +10,7 @@ keywords: ["NDK_FN_SRQ_RECEIVE callback function"]
 ms.keywords: NDK_FN_SRQ_RECEIVE, NDK_FN_SRQ_RECEIVE callback, NdkSrqReceive, NdkSrqReceive callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkSrqReceive, netvista.ndk_fn_srq_receive
 f1_keywords:
  - "ndkpi/NdkSrqReceive"
+ - "NdkSrqReceive"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

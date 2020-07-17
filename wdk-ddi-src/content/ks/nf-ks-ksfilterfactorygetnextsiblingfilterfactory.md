@@ -10,6 +10,7 @@ keywords: ["KsFilterFactoryGetNextSiblingFilterFactory function"]
 ms.keywords: KsFilterFactoryGetNextSiblingFilterFactory, KsFilterFactoryGetNextSiblingFilterFactory function [Streaming Media Devices], avfunc_b1bdc37b-de4a-4cfb-b1e9-1201225c29ab.xml, ks/KsFilterFactoryGetNextSiblingFilterFactory, stream.ksfilterfactorygetnextsiblingfilterfactory
 f1_keywords:
  - "ks/KsFilterFactoryGetNextSiblingFilterFactory"
+ - "KsFilterFactoryGetNextSiblingFilterFactory"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

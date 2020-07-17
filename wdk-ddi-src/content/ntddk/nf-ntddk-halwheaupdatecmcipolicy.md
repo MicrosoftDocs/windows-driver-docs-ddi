@@ -34,6 +34,7 @@ api_name:
  - HalWheaUpdateCmciPolicy
 f1_keywords:
  - ntddk/HalWheaUpdateCmciPolicy
+ - ""
 dev_langs:
  - c++
 ---

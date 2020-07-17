@@ -9,6 +9,7 @@ keywords: ["_DXGK_SET_TIMING_FLAGS structure"]
 ms.keywords: DXGK_SET_TIMING_FLAGS, DXGK_SET_TIMING_FLAGS structure [Display Devices], PDXGK_SET_TIMING_FLAGS, PDXGK_SET_TIMING_FLAGS structure pointer [Display Devices], _DXGK_SET_TIMING_FLAGS, d3dkmddi/DXGK_SET_TIMING_FLAGS, d3dkmddi/PDXGK_SET_TIMING_FLAGS, display.dxgk_set_timing_flags
 f1_keywords:
  - "d3dkmddi/DXGK_SET_TIMING_FLAGS"
+ - "DXGK_SET_TIMING_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,7 @@ ms.date: 04/13/2018
 keywords: ["NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX macro"]
 f1_keywords:
  - "ndis/NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX"
+ - "NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX"
 ms.keywords: NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX
 req.header: ndis.h
 req.include-header:

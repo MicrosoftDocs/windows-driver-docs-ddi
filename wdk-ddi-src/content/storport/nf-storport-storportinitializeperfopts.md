@@ -10,6 +10,7 @@ keywords: ["StorPortInitializePerfOpts function"]
 ms.keywords: StorPortInitializePerfOpts, StorPortInitializePerfOpts function [Storage Devices], storage.storportinitializeperfopts, storport/StorPortInitializePerfOpts, storprt_84998f54-51fe-40fd-a8cc-ba0367a592ce.xml
 f1_keywords:
  - "storport/StorPortInitializePerfOpts"
+ - "StorPortInitializePerfOpts"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

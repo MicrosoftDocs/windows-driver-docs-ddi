@@ -10,6 +10,7 @@ keywords: ["_USBFN_BUS_SPEED enumeration"]
 ms.keywords: "*PUSBFN_BUS_SPEED, USBFN_BUS_SPEED, USBFN_BUS_SPEED enumeration [Buses], UsbfnBusSpeedFull, UsbfnBusSpeedHigh, UsbfnBusSpeedLow, UsbfnBusSpeedMaximum, UsbfnBusSpeedSuper, _USBFN_BUS_SPEED, buses.usbfn_bus_speed, usbfnbase/USBFN_BUS_SPEED, usbfnbase/UsbfnBusSpeedFull, usbfnbase/UsbfnBusSpeedHigh, usbfnbase/UsbfnBusSpeedLow, usbfnbase/UsbfnBusSpeedMaximum, usbfnbase/UsbfnBusSpeedSuper"
 f1_keywords:
  - "usbfnbase/USBFN_BUS_SPEED"
+ - "USBFN_BUS_SPEED"
 req.header: usbfnbase.h
 req.include-header: 
 req.target-type: Windows

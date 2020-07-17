@@ -10,6 +10,7 @@ keywords: ["RILSMSMODIFICATIONINFO structure"]
 ms.keywords: "*LPRILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsmsmodificationinfo, ntddrilapitypes/RILSMSMODIFICATIONINFO"
 f1_keywords:
  - "ntddrilapitypes/RILSMSMODIFICATIONINFO"
+ - "RILSMSMODIFICATIONINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

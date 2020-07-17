@@ -10,6 +10,7 @@ keywords: ["IOCTL_BTH_GET_LOCAL_INFO IOCTL"]
 ms.keywords: IOCTL_BTH_GET_LOCAL_INFO, IOCTL_BTH_GET_LOCAL_INFO control, IOCTL_BTH_GET_LOCAL_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_local_info, bth_ioctls_930c11ef-ff69-4044-a4ae-6ea3802a5132.xml, bthioctl/IOCTL_BTH_GET_LOCAL_INFO
 f1_keywords:
  - "bthioctl/IOCTL_BTH_GET_LOCAL_INFO"
+ - "IOCTL_BTH_GET_LOCAL_INFO"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows

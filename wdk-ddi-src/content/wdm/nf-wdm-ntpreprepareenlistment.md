@@ -10,6 +10,7 @@ keywords: ["NtPrePrepareEnlistment function"]
 ms.keywords: NtPrePrepareEnlistment, ZwPrePrepareEnlistment, ZwPrePrepareEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwpreprepareenlistment, ktm_ref_42a63780-131c-4b65-ad22-ec32b713c0fe.xml, wdm/NtPrePrepareEnlistment, wdm/ZwPrePrepareEnlistment
 f1_keywords:
  - "wdm/ZwPrePrepareEnlistment"
+ - "ZwPrePrepareEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal

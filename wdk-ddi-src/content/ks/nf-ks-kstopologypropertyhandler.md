@@ -10,6 +10,7 @@ keywords: ["KsTopologyPropertyHandler function"]
 ms.keywords: KsTopologyPropertyHandler, KsTopologyPropertyHandler function [Streaming Media Devices], ks/KsTopologyPropertyHandler, ksfunc_d007eab3-23b3-42ea-a1d9-b2be806cb4ea.xml, stream.kstopologypropertyhandler
 f1_keywords:
  - "ks/KsTopologyPropertyHandler"
+ - "KsTopologyPropertyHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

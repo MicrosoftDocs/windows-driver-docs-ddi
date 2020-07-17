@@ -10,6 +10,7 @@ keywords: ["IWDTFPNPAction2::RemoveDevice"]
 ms.keywords: IWDTFPNPAction2 interface [Windows Device Testing Framework],RemoveDevice method, IWDTFPNPAction2.RemoveDevice, IWDTFPNPAction2::RemoveDevice, Microsoft.WDTF.IWDTFPNPAction2.RemoveDevice, Microsoft::WDTF::IWDTFPNPAction2::RemoveDevice, RemoveDevice, RemoveDevice method [Windows Device Testing Framework], RemoveDevice method [Windows Device Testing Framework],IWDTFPNPAction2 interface, dtf.iwdtfpnpaction2_removedevice, wdtfpnpaction/IWDTFPNPAction2::RemoveDevice
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPAction2.RemoveDevice"
+ - "IWDTFPNPAction2.RemoveDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop

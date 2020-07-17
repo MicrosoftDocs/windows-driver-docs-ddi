@@ -10,6 +10,7 @@ keywords: ["WdfDmaTransactionGetBytesTransferred function"]
 ms.keywords: DFDmaObjectRef_a8d61436-75d3-4c14-a81b-6ba7adb3c442.xml, WdfDmaTransactionGetBytesTransferred, WdfDmaTransactionGetBytesTransferred method, kmdf.wdfdmatransactiongetbytestransferred, wdf.wdfdmatransactiongetbytestransferred, wdfdmatransaction/WdfDmaTransactionGetBytesTransferred
 f1_keywords:
  - "wdfdmatransaction/WdfDmaTransactionGetBytesTransferred"
+ - "WdfDmaTransactionGetBytesTransferred"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

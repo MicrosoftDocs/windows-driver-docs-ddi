@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols4::GetLineByInlineContext"]
 ms.keywords: GetLineByInlineContext, GetLineByInlineContext method [Windows Debugging], GetLineByInlineContext method [Windows Debugging],IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging],GetLineByInlineContext method, IDebugSymbols4.GetLineByInlineContext, IDebugSymbols4::GetLineByInlineContext, dbgeng/IDebugSymbols4::GetLineByInlineContext, debugger.idebugsymbols4_getlinebyinlinecontext
 f1_keywords:
  - "dbgeng/IDebugSymbols4.GetLineByInlineContext"
+ - "IDebugSymbols4.GetLineByInlineContext"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

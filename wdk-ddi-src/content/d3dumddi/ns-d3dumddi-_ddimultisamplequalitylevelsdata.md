@@ -10,6 +10,7 @@ keywords: ["_DDIMULTISAMPLEQUALITYLEVELSDATA structure"]
 ms.keywords: D3D_other_Structs_a83f4a87-4963-41c8-9ef7-e1ce0b8843c5.xml, DDIMULTISAMPLEQUALITYLEVELSDATA, DDIMULTISAMPLEQUALITYLEVELSDATA structure [Display Devices], _DDIMULTISAMPLEQUALITYLEVELSDATA, d3dumddi/DDIMULTISAMPLEQUALITYLEVELSDATA, display.ddimultisamplequalitylevelsdata
 f1_keywords:
  - "d3dumddi/DDIMULTISAMPLEQUALITYLEVELSDATA"
+ - "DDIMULTISAMPLEQUALITYLEVELSDATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_STOR_CRYPTO_OPERATION structure"]
 f1_keywords:
  - "storport/_STOR_CRYPTO_OPERATION"
+ - "_STOR_CRYPTO_OPERATION"
 ms.keywords: _STOR_CRYPTO_OPERATION, STOR_CRYPTO_OPERATION, *PSTOR_CRYPTO_OPERATION, 
 req.header: storport.h
 req.include-header:

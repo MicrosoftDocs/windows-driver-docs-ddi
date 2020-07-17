@@ -10,6 +10,7 @@ keywords: ["IPortableDeviceClassExtension::Initialize"]
 ms.keywords: IPortableDeviceClassExtension interface,Initialize method, IPortableDeviceClassExtension.Initialize, IPortableDeviceClassExtension::Initialize, IPortableDeviceClassExtensionInitialize, Initialize, Initialize method, Initialize method,IPortableDeviceClassExtension interface, portabledeviceclassextension/IPortableDeviceClassExtension::Initialize, wpddk.iportabledeviceclassextension_initialize
 f1_keywords:
  - "portabledeviceclassextension/IPortableDeviceClassExtension.Initialize"
+ - "IPortableDeviceClassExtension.Initialize"
 req.header: portabledeviceclassextension.h
 req.include-header: 
 req.target-type: Windows

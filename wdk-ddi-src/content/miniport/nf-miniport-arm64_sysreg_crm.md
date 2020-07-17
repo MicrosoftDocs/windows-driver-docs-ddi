@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["ARM64_SYSREG_CRM macro"]
 f1_keywords:
  - "miniport/ARM64_SYSREG_CRM"
+ - "ARM64_SYSREG_CRM"
 ms.keywords: ARM64_SYSREG_CRM
 req.header: miniport.h
 req.include-header:

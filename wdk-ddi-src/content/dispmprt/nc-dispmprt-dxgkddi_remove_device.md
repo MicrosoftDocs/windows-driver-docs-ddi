@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_REMOVE_DEVICE callback function"]
 ms.keywords: DXGKDDI_REMOVE_DEVICE, DXGKDDI_REMOVE_DEVICE callback, DmFunctions_b8ab26af-93dd-4e49-b2a2-9c620678457d.xml, DxgkDdiRemoveDevice, DxgkDdiRemoveDevice callback function [Display Devices], display.dxgkddiremovedevice, dispmprt/DxgkDdiRemoveDevice
 f1_keywords:
  - "dispmprt/DxgkDdiRemoveDevice"
+ - "DxgkDdiRemoveDevice"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop

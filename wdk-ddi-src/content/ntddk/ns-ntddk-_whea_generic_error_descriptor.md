@@ -10,6 +10,7 @@ keywords: ["_WHEA_GENERIC_ERROR_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_GENERIC_ERROR_DESCRIPTOR, PWHEA_GENERIC_ERROR_DESCRIPTOR, PWHEA_GENERIC_ERROR_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_GENERIC_ERROR_DESCRIPTOR, WHEA_GENERIC_ERROR_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_GENERIC_ERROR_DESCRIPTOR, ntddk/PWHEA_GENERIC_ERROR_DESCRIPTOR, ntddk/WHEA_GENERIC_ERROR_DESCRIPTOR, whea.whea_generic_error_descriptor, whearef_f9183d24-a7ad-4328-99b3-6e23ff890d1b.xml"
 f1_keywords:
  - "ntddk/WHEA_GENERIC_ERROR_DESCRIPTOR"
+ - "WHEA_GENERIC_ERROR_DESCRIPTOR"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

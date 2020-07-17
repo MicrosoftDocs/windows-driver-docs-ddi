@@ -9,6 +9,7 @@ keywords: ["_DXGK_WDDMVERSION enumeration"]
 ms.keywords: DXGKDDI_WDDMv1, DXGKDDI_WDDMv1_2, DXGKDDI_WDDMv2, DXGK_WDDMVERSION, DXGK_WDDMVERSION enumeration [Display Devices], DmEnums_3a73843a-4967-4faa-a217-42487ae4f865.xml, _DXGK_WDDMVERSION, d3dkmddi/DXGKDDI_WDDMv1, d3dkmddi/DXGKDDI_WDDMv1_2, d3dkmddi/DXGKDDI_WDDMv2, d3dkmddi/DXGK_WDDMVERSION, display.dxgk_wddmversion
 f1_keywords:
  - "d3dkmddi/DXGK_WDDMVERSION"
+ - "DXGK_WDDMVERSION"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

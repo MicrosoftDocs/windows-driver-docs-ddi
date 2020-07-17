@@ -10,6 +10,7 @@ keywords: ["FltGetFilterFromName function"]
 ms.keywords: FltApiRef_e_to_o_f0bda010-8549-4e0d-b86a-ce200745ac5a.xml, FltGetFilterFromName, FltGetFilterFromName routine [Installable File System Drivers], fltkernel/FltGetFilterFromName, ifsk.fltgetfilterfromname
 f1_keywords:
  - "fltkernel/FltGetFilterFromName"
+ - "FltGetFilterFromName"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

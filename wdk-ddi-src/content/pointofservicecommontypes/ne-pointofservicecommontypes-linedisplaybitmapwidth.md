@@ -10,6 +10,7 @@ keywords: ["LineDisplayBitmapWidth enumeration"]
 ms.keywords: LineDisplayBitmapWidth, LineDisplayBitmapWidth enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayBitmapWidth, pos.linedisplaybitmapwidth
 f1_keywords:
  - "pointofservicecommontypes/LineDisplayBitmapWidth"
+ - "LineDisplayBitmapWidth"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_KSCLOCK_DISPATCH structure"]
 ms.keywords: "*PKSCLOCK_DISPATCH, KSCLOCK_DISPATCH, KSCLOCK_DISPATCH structure [Streaming Media Devices], PKSCLOCK_DISPATCH, PKSCLOCK_DISPATCH structure pointer [Streaming Media Devices], _KSCLOCK_DISPATCH, avstruct_5015e5e6-b0c5-4eb9-9e04-8631e732f8be.xml, ks/KSCLOCK_DISPATCH, ks/PKSCLOCK_DISPATCH, stream.ksclock_dispatch"
 f1_keywords:
  - "ks/KSCLOCK_DISPATCH"
+ - "KSCLOCK_DISPATCH"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

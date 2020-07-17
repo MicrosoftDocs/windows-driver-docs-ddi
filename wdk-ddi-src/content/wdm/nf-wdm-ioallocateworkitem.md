@@ -10,6 +10,7 @@ keywords: ["IoAllocateWorkItem function"]
 ms.keywords: IoAllocateWorkItem, IoAllocateWorkItem routine [Kernel-Mode Driver Architecture], k104_6cb480b8-6cf9-4c68-953e-8a1c8153087a.xml, kernel.ioallocateworkitem, wdm/IoAllocateWorkItem
 f1_keywords:
  - "wdm/IoAllocateWorkItem"
+ - "IoAllocateWorkItem"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

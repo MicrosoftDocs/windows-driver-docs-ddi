@@ -10,6 +10,7 @@ keywords: ["MINIPORT_IDLE_NOTIFICATION callback function"]
 ms.keywords: MINIPORT_IDLE_NOTIFICATION, MINIPORT_IDLE_NOTIFICATION callback, MiniportIdleNotification, MiniportIdleNotification callback function [Network Drivers Starting with Windows Vista], ndis/MiniportIdleNotification, netvista.miniportidlenotification
 f1_keywords:
  - "ndis/MiniportIdleNotification"
+ - "MiniportIdleNotification"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

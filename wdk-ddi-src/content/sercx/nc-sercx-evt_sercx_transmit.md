@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX_TRANSMIT callback function"]
 ms.keywords: 1/EvtSerCxTransmit, EVT_SERCX_TRANSMIT, EVT_SERCX_TRANSMIT callback, EvtSerCxTransmit, EvtSerCxTransmit callback function [Serial Ports], serports.evtsercxtransmit
 f1_keywords:
  - "sercx/EvtSerCxTransmit"
+ - "EvtSerCxTransmit"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IPortClsRuntimePower::SendPowerControl"]
 ms.keywords: IPortClsRuntimePower interface [Audio Devices],SendPowerControl method, IPortClsRuntimePower.SendPowerControl, IPortClsRuntimePower::SendPowerControl, SendPowerControl, SendPowerControl method [Audio Devices], SendPowerControl method [Audio Devices],IPortClsRuntimePower interface, audio.iportclsruntimepower_sendpowercontrol, portcls/IPortClsRuntimePower::SendPowerControl
 f1_keywords:
  - "portcls/IPortClsRuntimePower.SendPowerControl"
+ - "IPortClsRuntimePower.SendPowerControl"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

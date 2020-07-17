@@ -10,6 +10,7 @@ keywords: ["PosCxPutPendingEventMemory function"]
 ms.keywords: PosCxPutPendingEventMemory, PosCxPutPendingEventMemory function, pos.poscxputpendingeventmemory, poscx/PosCxPutPendingEventMemory
 f1_keywords:
  - "poscx/PosCxPutPendingEventMemory"
+ - "PosCxPutPendingEventMemory"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

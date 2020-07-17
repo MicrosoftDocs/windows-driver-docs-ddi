@@ -10,6 +10,7 @@ keywords: ["LPD3DHAL_CONTEXTCREATECB callback function"]
 ms.keywords: D3dContextCreate, D3dContextCreate callback function [Display Devices], LPD3DHAL_CONTEXTCREATECB, LPD3DHAL_CONTEXTCREATECB callback, d3dfncs_d126e9ed-3783-4cc1-8fd6-34592b95bec7.xml, d3dhal/D3dContextCreate, display.d3dcontextcreate
 f1_keywords:
  - "d3dhal/D3dContextCreate"
+ - "D3dContextCreate"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Desktop

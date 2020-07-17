@@ -10,6 +10,7 @@ keywords: ["VideoPortStartDma function"]
 ms.keywords: VideoPortStartDma, VideoPortStartDma function [Display Devices], VideoPort_Functions_b568d7ff-2e88-4afe-827b-4e54e075718c.xml, display.videoportstartdma, video/VideoPortStartDma
 f1_keywords:
  - "video/VideoPortStartDma"
+ - "VideoPortStartDma"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

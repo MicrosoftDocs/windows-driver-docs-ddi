@@ -10,6 +10,7 @@ keywords: ["FsRtlAllocateExtraCreateParameterFromLookasideList function"]
 ms.keywords: FsRtlAllocateExtraCreateParameterFromLookasideList, FsRtlAllocateExtraCreateParameterFromLookasideList routine [Installable File System Drivers], fsrtlref_c85ee3ff-e71f-4c6e-bc37-4187cad9855f.xml, ifsk.fsrtlallocateextracreateparameterfromlookasidelist, ntifs/FsRtlAllocateExtraCreateParameterFromLookasideList
 f1_keywords:
  - "ntifs/FsRtlAllocateExtraCreateParameterFromLookasideList"
+ - "FsRtlAllocateExtraCreateParameterFromLookasideList"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

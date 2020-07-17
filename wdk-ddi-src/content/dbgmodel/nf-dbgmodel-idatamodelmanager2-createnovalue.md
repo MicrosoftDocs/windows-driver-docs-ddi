@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDataModelManager2::CreateNoValue"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.CreateNoValue"
+ - "IDataModelManager2.CreateNoValue"
 ms.keywords: IDataModelManager2::CreateNoValue, CreateNoValue, IDataModelManager2.CreateNoValue, IDataModelManager2::CreateNoValue, IDataModelManager2.CreateNoValue
 req.header: dbgmodel.h
 req.include-header:

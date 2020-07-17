@@ -10,6 +10,7 @@ keywords: ["wiauDbgLegacyError2 function"]
 ms.keywords: image.wiaudbglegacyerror2, wiauDbgLegacyError2, wiauDbgLegacyError2 function [Imaging Devices], wiauFncs_647f5e2c-bcc7-4e9a-9746-2f0685f29fcf.xml, wiautil/wiauDbgLegacyError2
 f1_keywords:
  - "wiautil/wiauDbgLegacyError2"
+ - "wiauDbgLegacyError2"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

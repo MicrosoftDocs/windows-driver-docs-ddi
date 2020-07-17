@@ -10,6 +10,7 @@ keywords: ["PoFxNotifySurprisePowerOn function"]
 ms.keywords: PoFxNotifySurprisePowerOn, PoFxNotifySurprisePowerOn routine [Kernel-Mode Driver Architecture], kernel.pofxnotifysurprisepoweron, wdm/PoFxNotifySurprisePowerOn
 f1_keywords:
  - "wdm/PoFxNotifySurprisePowerOn"
+ - "PoFxNotifySurprisePowerOn"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

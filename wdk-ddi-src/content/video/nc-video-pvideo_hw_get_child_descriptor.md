@@ -10,6 +10,7 @@ keywords: ["PVIDEO_HW_GET_CHILD_DESCRIPTOR callback function"]
 ms.keywords: HwVidGetVideoChildDescriptor, HwVidGetVideoChildDescriptor callback function [Display Devices], PVIDEO_HW_GET_CHILD_DESCRIPTOR, PVIDEO_HW_GET_CHILD_DESCRIPTOR callback, VideoMiniport_Functions_15898023-8b0d-4cda-8970-4aeb0a7fc444.xml, display.hwvidgetvideochilddescriptor, video/HwVidGetVideoChildDescriptor
 f1_keywords:
  - "video/HwVidGetVideoChildDescriptor"
+ - "HwVidGetVideoChildDescriptor"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

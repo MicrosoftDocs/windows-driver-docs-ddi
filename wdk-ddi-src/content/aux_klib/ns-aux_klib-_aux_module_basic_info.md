@@ -10,6 +10,7 @@ keywords: ["_AUX_MODULE_BASIC_INFO structure"]
 ms.keywords: "*PAUX_MODULE_BASIC_INFO, AUX_MODULE_BASIC_INFO, AUX_MODULE_BASIC_INFO structure [Kernel-Mode Driver Architecture], PAUX_MODULE_BASIC_INFO, PAUX_MODULE_BASIC_INFO structure pointer [Kernel-Mode Driver Architecture], _AUX_MODULE_BASIC_INFO, aux_klib/AUX_MODULE_BASIC_INFO, aux_klib/PAUX_MODULE_BASIC_INFO, aux_klib_7c33c85c-d2d1-49ea-98e2-d25299a281b9.xml, kernel.aux_module_basic_info"
 f1_keywords:
  - "aux_klib/AUX_MODULE_BASIC_INFO"
+ - "AUX_MODULE_BASIC_INFO"
 req.header: aux_klib.h
 req.include-header: Aux_klib.h
 req.target-type: Windows

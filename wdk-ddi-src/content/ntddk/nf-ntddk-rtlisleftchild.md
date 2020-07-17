@@ -10,6 +10,7 @@ keywords: ["RtlIsLeftChild macro"]
 ms.keywords: RtlIsLeftChild, RtlIsLeftChild routine [Installable File System Drivers], ifsk.rtlisleftchild, ntddk/RtlIsLeftChild, rtlref_2692597e-5133-48f2-b978-c8ac5f2280fe.xml
 f1_keywords:
  - "ntddk/RtlIsLeftChild"
+ - "RtlIsLeftChild"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop

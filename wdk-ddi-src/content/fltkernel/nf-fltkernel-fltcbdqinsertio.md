@@ -10,6 +10,7 @@ keywords: ["FltCbdqInsertIo function"]
 ms.keywords: FltApiRef_a_to_d_d2635baa-958a-437b-88ca-9ee84df26d64.xml, FltCbdqInsertIo, FltCbdqInsertIo function [Installable File System Drivers], fltkernel/FltCbdqInsertIo, ifsk.fltcbdqinsertio
 f1_keywords:
  - "fltkernel/FltCbdqInsertIo"
+ - "FltCbdqInsertIo"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

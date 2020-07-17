@@ -10,6 +10,7 @@ keywords: ["RtlCreateSecurityDescriptorRelative function"]
 ms.keywords: RtlCreateSecurityDescriptorRelative, RtlCreateSecurityDescriptorRelative routine [Installable File System Drivers], ifsk.rtlcreatesecuritydescriptorrelative, ntifs/RtlCreateSecurityDescriptorRelative, rtlref_3130b278-4976-4371-952f-ab6fddeda7a9.xml
 f1_keywords:
  - "ntifs/RtlCreateSecurityDescriptorRelative"
+ - "RtlCreateSecurityDescriptorRelative"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

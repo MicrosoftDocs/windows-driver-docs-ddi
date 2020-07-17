@@ -10,6 +10,7 @@ keywords: ["IDebugRegisters2::GetPseudoDescription"]
 ms.keywords: GetPseudoDescription, GetPseudoDescription method [Windows Debugging], GetPseudoDescription method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoDescription method, IDebugRegisters2.GetPseudoDescription, IDebugRegisters2::GetPseudoDescription, IDebugRegisters_7b1f8069-32d0-4fb4-9cee-7fd045bae8d3.xml, dbgeng/IDebugRegisters2::GetPseudoDescription, debugger.getpseudodescription
 f1_keywords:
  - "dbgeng/IDebugRegisters2.GetPseudoDescription"
+ - "IDebugRegisters2.GetPseudoDescription"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop

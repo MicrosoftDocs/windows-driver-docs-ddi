@@ -10,6 +10,7 @@ keywords: ["VideoPortDDCMonitorHelper function"]
 ms.keywords: VideoPortDDCMonitorHelper, VideoPortDDCMonitorHelper function [Display Devices], VideoPort_Functions_dc0bda84-97c5-49ba-9084-04149f9be157.xml, display.videoportddcmonitorhelper, video/VideoPortDDCMonitorHelper
 f1_keywords:
  - "video/VideoPortDDCMonitorHelper"
+ - "VideoPortDDCMonitorHelper"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

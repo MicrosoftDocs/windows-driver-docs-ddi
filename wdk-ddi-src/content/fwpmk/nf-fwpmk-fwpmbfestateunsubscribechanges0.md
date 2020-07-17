@@ -10,6 +10,7 @@ keywords: ["FwpmBfeStateUnsubscribeChanges0 function"]
 ms.keywords: FwpmBfeStateUnsubscribeChanges0, FwpmBfeStateUnsubscribeChanges0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmBfeStateUnsubscribeChanges0, netvista.fwpmbfestateunsubscribechanges0, wfp_ref_2_funct_2_fwpm_2b1f650b-81ab-4dd9-be56-97039f86ac1e.xml
 f1_keywords:
  - "fwpmk/FwpmBfeStateUnsubscribeChanges0"
+ - "FwpmBfeStateUnsubscribeChanges0"
 req.header: fwpmk.h
 req.include-header: Fwpmk.h
 req.target-type: Universal

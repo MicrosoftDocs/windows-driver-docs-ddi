@@ -10,6 +10,7 @@ keywords: ["_WDI_RX_METADATA structure"]
 ms.keywords: "*PWDI_RX_METADATA, PWDI_RX_METADATA, PWDI_RX_METADATA structure pointer [Network Drivers Starting with Windows Vista], WDI_RX_METADATA, WDI_RX_METADATA structure [Network Drivers Starting with Windows Vista], _WDI_RX_METADATA, dot11wdi/PWDI_RX_METADATA, dot11wdi/WDI_RX_METADATA, netvista.wdi_rx_metadata, netvista.wifi_rx_metadata"
 f1_keywords:
  - "dot11wdi/WDI_RX_METADATA"
+ - "WDI_RX_METADATA"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

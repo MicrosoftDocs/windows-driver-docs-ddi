@@ -10,6 +10,7 @@ keywords: ["DXGK_SERVICES enumeration"]
 ms.keywords: DXGK_SERVICES, DXGK_SERVICES enumeration [Display Devices], DmEnums_340c8991-c135-47da-876d-2970157fea0b.xml, DxgkServicesAgp, DxgkServicesBDD, DxgkServicesDebugReport, DxgkServicesFirmwareTable, DxgkServicesSPB, DxgkServicesTimedOperation, display.dxgk_services, dispmprt/DXGK_SERVICES, dispmprt/DxgkServicesAgp, dispmprt/DxgkServicesBDD, dispmprt/DxgkServicesDebugReport, dispmprt/DxgkServicesFirmwareTable, dispmprt/DxgkServicesSPB, dispmprt/DxgkServicesTimedOperation
 f1_keywords:
  - "dispmprt/DXGK_SERVICES"
+ - "DXGK_SERVICES"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows

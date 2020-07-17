@@ -10,6 +10,7 @@ keywords: ["NDK_FN_GET_REMOTE_TOKEN_FROM_MW callback function"]
 ms.keywords: NDK_FN_GET_REMOTE_TOKEN_FROM_MW, NDK_FN_GET_REMOTE_TOKEN_FROM_MW callback, NdkGetRemoteTokenFromMw, NdkGetRemoteTokenFromMw callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetRemoteTokenFromMw, netvista.ndk_fn_get_remote_token_from_mw
 f1_keywords:
  - "ndkpi/NdkGetRemoteTokenFromMw"
+ - "NdkGetRemoteTokenFromMw"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

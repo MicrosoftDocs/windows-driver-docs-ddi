@@ -7,6 +7,7 @@ ms.date: 08/09/2018
 keywords: ["IModelObject::GetKey"]
 f1_keywords:
  - "dbgmodel/IModelObject.GetKey"
+ - "IModelObject.GetKey"
 ms.keywords: IModelObject::GetKey, GetKey, IModelObject.GetKey, IModelObject::GetKey, IModelObject.GetKey
 req.header: dbgmodel.h
 req.include-header:

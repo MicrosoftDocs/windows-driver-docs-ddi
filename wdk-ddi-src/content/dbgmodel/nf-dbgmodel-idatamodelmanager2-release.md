@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDataModelManager2::Release"]
 f1_keywords:
  - "dbgmodel/IDataModelManager2.Release"
+ - "IDataModelManager2.Release"
 ms.keywords: IDataModelManager2::Release, Release, IDataModelManager2.Release, IDataModelManager2::Release, IDataModelManager2.Release
 req.header: dbgmodel.h
 req.include-header:

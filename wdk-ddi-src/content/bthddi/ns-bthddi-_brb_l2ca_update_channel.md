@@ -10,6 +10,7 @@ keywords: ["_BRB_L2CA_UPDATE_CHANNEL structure"]
 ms.keywords: "_BRB_L2CA_UPDATE_CHANNEL, _BRB_L2CA_UPDATE_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_update_channel, bth_structs_7ee8d85e-5cf3-4820-a325-6abe0777b22a.xml, bthddi/_BRB_L2CA_UPDATE_CHANNEL"
 f1_keywords:
  - "bthddi/_BRB_L2CA_UPDATE_CHANNEL"
+ - "_BRB_L2CA_UPDATE_CHANNEL"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

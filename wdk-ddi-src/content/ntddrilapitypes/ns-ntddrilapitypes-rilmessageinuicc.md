@@ -10,6 +10,7 @@ keywords: ["RILMESSAGEINUICC structure"]
 ms.keywords: "*LPRILMESSAGEINUICC, RILMESSAGEINUICC, RILMESSAGEINUICC structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinuicc, ntddrilapitypes/RILMESSAGEINUICC"
 f1_keywords:
  - "ntddrilapitypes/RILMESSAGEINUICC"
+ - "RILMESSAGEINUICC"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

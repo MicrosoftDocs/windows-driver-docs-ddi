@@ -10,6 +10,7 @@ keywords: ["_NDIS_PD_FILTER_PARAMETERS structure"]
 ms.keywords: NDIS_PD_FILTER_PARAMETERS, NDIS_PD_FILTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_FILTER_PARAMETERS, ndis/NDIS_PD_FILTER_PARAMETERS, netvista.ndis_pd_filter_parameters
 f1_keywords:
  - "ndis/NDIS_PD_FILTER_PARAMETERS"
+ - "NDIS_PD_FILTER_PARAMETERS"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeSetNoMaximumPacketSizeCheck function"]
 ms.keywords: DFUsbRef_e750d0d1-6d91-498d-8bb5-2eb9bab0149d.xml, WdfUsbTargetPipeSetNoMaximumPacketSizeCheck, WdfUsbTargetPipeSetNoMaximumPacketSizeCheck method, kmdf.wdfusbtargetpipesetnomaximumpacketsizecheck, wdf.wdfusbtargetpipesetnomaximumpacketsizecheck, wdfusb/WdfUsbTargetPipeSetNoMaximumPacketSizeCheck
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeSetNoMaximumPacketSizeCheck"
+ - "WdfUsbTargetPipeSetNoMaximumPacketSizeCheck"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

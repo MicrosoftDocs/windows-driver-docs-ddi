@@ -10,6 +10,7 @@ keywords: ["_SYSTEM_ALARM_ACE structure"]
 ms.keywords: "*PSYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE, SYSTEM_ALARM_ACE structure [Installable File System Drivers], _SYSTEM_ALARM_ACE, ifsk.system_alarm_ace, ntifs/SYSTEM_ALARM_ACE, securitystructures_8a768255-9e14-48eb-83ba-66b212a1dcc1.xml"
 f1_keywords:
  - "ntifs/SYSTEM_ALARM_ACE"
+ - "SYSTEM_ALARM_ACE"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfObjectDereferenceActual function"]
 ms.keywords: DFGenObjectRef_d09786da-bccf-4735-bd7b-816bf2bd999d.xml, WdfObjectDereferenceActual, WdfObjectDereferenceActual method, kmdf.wdfobjectdereferenceactual, wdf.wdfobjectdereferenceactual, wdfobject/WdfObjectDereferenceActual
 f1_keywords:
  - "wdfobject/WdfObjectDereferenceActual"
+ - "WdfObjectDereferenceActual"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IWDTFPNPActions2::EnableDevice"]
 ms.keywords: EnableDevice, EnableDevice method [Windows Device Testing Framework], EnableDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EnableDevice method, IWDTFPNPActions2.EnableDevice, IWDTFPNPActions2::EnableDevice, dtf.iwdtfpnpactions2_enabledevice, wdtfpnpaction/IWDTFPNPActions2::EnableDevice
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPActions2.EnableDevice"
+ - "IWDTFPNPActions2.EnableDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop

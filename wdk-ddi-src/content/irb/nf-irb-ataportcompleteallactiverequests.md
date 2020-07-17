@@ -10,6 +10,7 @@ keywords: ["AtaPortCompleteAllActiveRequests function"]
 ms.keywords: AtaPortCompleteAllActiveRequests, AtaPortCompleteAllActiveRequests routine [Storage Devices], atartns_b9f2bdc5-ede8-4a7f-9d9e-df16a9d83634.xml, irb/AtaPortCompleteAllActiveRequests, storage.ataportcompleteallactiverequests
 f1_keywords:
  - "irb/AtaPortCompleteAllActiveRequests"
+ - "AtaPortCompleteAllActiveRequests"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

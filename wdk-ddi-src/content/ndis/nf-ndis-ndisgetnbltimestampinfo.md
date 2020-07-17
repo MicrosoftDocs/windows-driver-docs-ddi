@@ -8,6 +8,7 @@ ms.date: 08/08/2018
 keywords: ["NdisGetNblTimestampInfo function"]
 f1_keywords:
  - "ndis/NdisGetNblTimestampInfo"
+ - "NdisGetNblTimestampInfo"
 ms.keywords: NdisGetNblTimestampInfo
 req.header: ndis.h
 req.include-header:

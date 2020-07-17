@@ -10,6 +10,7 @@ keywords: ["IPartImage interface"]
 ms.keywords: IPartImage, IPartImage interface [Print Devices], IPartImage interface [Print Devices],described, filterpipeline/IPartImage, filterpipeline_faed49d4-60d1-4063-a4aa-c9ec8c56655d.xml, print.ipartimage
 f1_keywords:
  - "filterpipeline/IPartImage"
+ - "IPartImage"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

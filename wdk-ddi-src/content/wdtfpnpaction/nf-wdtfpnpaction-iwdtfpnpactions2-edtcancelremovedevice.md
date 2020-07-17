@@ -10,6 +10,7 @@ keywords: ["IWDTFPNPActions2::EDTCancelRemoveDevice"]
 ms.keywords: EDTCancelRemoveDevice, EDTCancelRemoveDevice method [Windows Device Testing Framework], EDTCancelRemoveDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],EDTCancelRemoveDevice method, IWDTFPNPActions2.EDTCancelRemoveDevice, IWDTFPNPActions2::EDTCancelRemoveDevice, dtf.iwdtfpnpactions2_edtcancelremovedevice, wdtfpnpaction/IWDTFPNPActions2::EDTCancelRemoveDevice
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPActions2.EDTCancelRemoveDevice"
+ - "IWDTFPNPActions2.EDTCancelRemoveDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop

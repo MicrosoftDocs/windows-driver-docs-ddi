@@ -10,6 +10,7 @@ keywords: ["OEMGetGlyphMode function"]
 ms.keywords: OEMGetGlyphMode, OEMGetGlyphMode function [Print Devices], print.oemgetglyphmode, print_unidrv-pscript_rendering_b5456727-fde5-4e4a-ae76-a5f571232325.xml, printoem/OEMGetGlyphMode
 f1_keywords:
  - "printoem/OEMGetGlyphMode"
+ - "OEMGetGlyphMode"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

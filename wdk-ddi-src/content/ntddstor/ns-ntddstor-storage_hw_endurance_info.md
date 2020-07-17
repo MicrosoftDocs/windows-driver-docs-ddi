@@ -10,6 +10,7 @@ ms.date: 03/13/2019
 keywords: ["STORAGE_HW_ENDURANCE_INFO structure"]
 f1_keywords:
  - "ntddstor/STORAGE_HW_ENDURANCE_INFO"
+ - "STORAGE_HW_ENDURANCE_INFO"
 ms.keywords: STORAGE_HW_ENDURANCE_INFO, STORAGE_HW_ENDURANCE_INFO, *PSTORAGE_HW_ENDURANCE_INFO, 
 req.header: ntddstor.h
 req.include-header:

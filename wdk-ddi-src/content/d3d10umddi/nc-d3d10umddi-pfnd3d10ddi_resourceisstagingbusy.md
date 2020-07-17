@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_RESOURCEISSTAGINGBUSY callback function"]
 ms.keywords: PFND3D10DDI_RESOURCEISSTAGINGBUSY, PFND3D10DDI_RESOURCEISSTAGINGBUSY callback, ResourceIsStagingBusy, ResourceIsStagingBusy callback function [Display Devices], UserModeDisplayDriverDx10_Functions_4109ed72-e2a5-4b1a-bfc6-7e5ce9227efc.xml, d3d10umddi/ResourceIsStagingBusy, display.resourceisstagingbusy
 f1_keywords:
  - "d3d10umddi/ResourceIsStagingBusy"
+ - "ResourceIsStagingBusy"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

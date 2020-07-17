@@ -10,6 +10,7 @@ keywords: ["IOCTL_KS_METHOD IOCTL"]
 ms.keywords: IOCTL_KS_METHOD, IOCTL_KS_METHOD control, IOCTL_KS_METHOD control code [Streaming Media Devices], ks-ioctl_4e1471f0-3763-4828-9186-7771de6201bd.xml, ks/IOCTL_KS_METHOD, stream.ioctl_ks_method
 f1_keywords:
  - "ks/IOCTL_KS_METHOD"
+ - "IOCTL_KS_METHOD"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

@@ -8,6 +8,7 @@ ms.date: 05/21/2018
 keywords: ["FN_VMB_CHANNEL_SAVE_BEGIN callback function"]
 f1_keywords:
  - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SAVE_BEGIN"
+ - "FN_VMB_CHANNEL_SAVE_BEGIN"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

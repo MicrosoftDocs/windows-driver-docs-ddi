@@ -10,6 +10,7 @@ keywords: ["IPartBase::SetPartCompression"]
 ms.keywords: IPartBase interface [Print Devices],SetPartCompression method, IPartBase.SetPartCompression, IPartBase::SetPartCompression, SetPartCompression, SetPartCompression method [Print Devices], SetPartCompression method [Print Devices],IPartBase interface, filterpipeline/IPartBase::SetPartCompression, filterpipeline_5b8af27e-6198-49df-9e01-423c7ea67228.xml, print.ipartbase_setpartcompression
 f1_keywords:
  - "filterpipeline/IPartBase.SetPartCompression"
+ - "IPartBase.SetPartCompression"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

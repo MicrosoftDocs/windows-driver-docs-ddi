@@ -10,6 +10,7 @@ keywords: ["_NDIS_MINIPORT_CO_CHARACTERISTICS structure"]
 ms.keywords: "*PNDIS_MINIPORT_CO_CHARACTERISTICS, NDIS_MINIPORT_CO_CHARACTERISTICS, NDIS_MINIPORT_CO_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_CO_CHARACTERISTICS, PNDIS_MINIPORT_CO_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_CO_CHARACTERISTICS, condis_structures_ref_148c0384-32c9-4d21-bab8-66b839ee75a6.xml, ndis/NDIS_MINIPORT_CO_CHARACTERISTICS, ndis/PNDIS_MINIPORT_CO_CHARACTERISTICS, netvista.ndis_miniport_co_characteristics"
 f1_keywords:
  - "ndis/NDIS_MINIPORT_CO_CHARACTERISTICS"
+ - "NDIS_MINIPORT_CO_CHARACTERISTICS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

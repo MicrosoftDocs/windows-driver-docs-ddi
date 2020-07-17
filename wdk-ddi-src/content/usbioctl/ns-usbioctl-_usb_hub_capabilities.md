@@ -10,6 +10,7 @@ keywords: ["_USB_HUB_CAPABILITIES structure"]
 ms.keywords: "*PUSB_HUB_CAPABILITIES, PUSB_HUB_CAPABILITIES, PUSB_HUB_CAPABILITIES structure pointer [Buses], USB_HUB_CAPABILITIES, USB_HUB_CAPABILITIES structure [Buses], _USB_HUB_CAPABILITIES, buses.usb_hub_capabilities, usbioctl/PUSB_HUB_CAPABILITIES, usbioctl/USB_HUB_CAPABILITIES, usbstrct_b82d8bad-3ed4-40d1-a6c1-7ac416ebf157.xml"
 f1_keywords:
  - "usbioctl/USB_HUB_CAPABILITIES"
+ - "USB_HUB_CAPABILITIES"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

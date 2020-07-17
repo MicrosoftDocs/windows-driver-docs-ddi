@@ -10,6 +10,7 @@ keywords: ["IOCTL_CDROM_GET_DRIVE_GEOMETRY IOCTL"]
 ms.keywords: IOCTL_CDROM_GET_DRIVE_GEOMETRY, IOCTL_CDROM_GET_DRIVE_GEOMETRY control, IOCTL_CDROM_GET_DRIVE_GEOMETRY control code [Storage Devices], k307_f082c6e5-9d9a-4a11-a363-710f30cf3881.xml, ntddcdrm/IOCTL_CDROM_GET_DRIVE_GEOMETRY, storage.ioctl_cdrom_get_drive_geometry
 f1_keywords:
  - "ntddcdrm/IOCTL_CDROM_GET_DRIVE_GEOMETRY"
+ - "IOCTL_CDROM_GET_DRIVE_GEOMETRY"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

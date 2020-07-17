@@ -30,6 +30,7 @@ req.typenames:
 ms.custom: 19H1
 f1_keywords:
  - "d3dkmddi/DxgkDdiQueryAdapterInfo"
+ - "DxgkDdiQueryAdapterInfo"
 topic_type:
  - APIRef
  - kbSyntax

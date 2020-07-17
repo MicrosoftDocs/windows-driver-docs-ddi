@@ -10,6 +10,7 @@ keywords: ["_MOUNTDEV_SUGGESTED_LINK_NAME structure"]
 ms.keywords: "*PMOUNTDEV_SUGGESTED_LINK_NAME, MOUNTDEV_SUGGESTED_LINK_NAME, MOUNTDEV_SUGGESTED_LINK_NAME structure [Storage Devices], PMOUNTDEV_SUGGESTED_LINK_NAME, PMOUNTDEV_SUGGESTED_LINK_NAME structure pointer [Storage Devices], _MOUNTDEV_SUGGESTED_LINK_NAME, mountdev/MOUNTDEV_SUGGESTED_LINK_NAME, mountdev/PMOUNTDEV_SUGGESTED_LINK_NAME, storage.mountdev_suggested_link_name, structs-mntmgr_fc4a3528-34b9-4112-9501-87db4e87f9f3.xml"
 f1_keywords:
  - "mountdev/MOUNTDEV_SUGGESTED_LINK_NAME"
+ - "MOUNTDEV_SUGGESTED_LINK_NAME"
 req.header: mountdev.h
 req.include-header: Mountmgr.h
 req.target-type: Windows

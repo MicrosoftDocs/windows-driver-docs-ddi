@@ -10,6 +10,7 @@ keywords: ["IoCancelFileOpen function"]
 ms.keywords: IoCancelFileOpen, IoCancelFileOpen routine [Installable File System Drivers], ifsk.iocancelfileopen, ioref_e63977d2-a70b-4743-85e2-557458ca89ae.xml, ntddk/IoCancelFileOpen
 f1_keywords:
  - "ntddk/IoCancelFileOpen"
+ - "IoCancelFileOpen"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal

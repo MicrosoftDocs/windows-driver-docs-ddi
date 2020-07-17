@@ -9,6 +9,7 @@ keywords: ["_DXGK_INTEGRATEDDISPLAYFLAGS structure"]
 ms.keywords: "*PDXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS union [Display Devices], _DXGK_INTEGRATEDDISPLAYFLAGS, d3dkmddi/DXGK_INTEGRATEDDISPLAYFLAGS, display.dxgk_integrateddisplayflags"
 f1_keywords:
  - "d3dkmddi/DXGK_INTEGRATEDDISPLAYFLAGS"
+ - "DXGK_INTEGRATEDDISPLAYFLAGS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

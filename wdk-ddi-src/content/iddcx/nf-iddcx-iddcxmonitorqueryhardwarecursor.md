@@ -10,6 +10,7 @@ keywords: ["IddCxMonitorQueryHardwareCursor function"]
 ms.keywords: IddCxMonitorQueryHardwareCursor, IddCxMonitorQueryHardwareCursor method [Display Devices], display.iddcxmonitorqueryhardwarecursor, iddcx/IddCxMonitorQueryHardwareCursor
 f1_keywords:
  - "iddcx/IddCxMonitorQueryHardwareCursor"
+ - "IddCxMonitorQueryHardwareCursor"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

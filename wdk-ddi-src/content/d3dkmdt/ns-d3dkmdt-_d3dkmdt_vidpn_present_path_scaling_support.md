@@ -10,6 +10,7 @@ keywords: ["_D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT structure"]
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT structure [Display Devices], DmStructs_8a17e0fc-7c6c-4c95-bbdb-471beef9e830.xml, _D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT, display.d3dkmdt_vidpn_present_path_scaling_support
 f1_keywords:
  - "d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT"
+ - "D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

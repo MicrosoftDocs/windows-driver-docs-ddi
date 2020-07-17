@@ -10,6 +10,7 @@ keywords: ["IWDFIoTarget::FormatRequestForWrite"]
 ms.keywords: FormatRequestForWrite, FormatRequestForWrite method, FormatRequestForWrite method,IWDFIoTarget interface, IWDFIoTarget interface,FormatRequestForWrite method, IWDFIoTarget.FormatRequestForWrite, IWDFIoTarget::FormatRequestForWrite, UMDFIoTargetObjectRef_5bd52747-0a43-477e-8240-0481d671a7bb.xml, umdf.iwdfiotarget_formatrequestforwrite, wdf.iwdfiotarget_formatrequestforwrite, wudfddi/IWDFIoTarget::FormatRequestForWrite
 f1_keywords:
  - "wudfddi/IWDFIoTarget.FormatRequestForWrite"
+ - "IWDFIoTarget.FormatRequestForWrite"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

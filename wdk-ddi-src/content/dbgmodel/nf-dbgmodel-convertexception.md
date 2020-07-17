@@ -7,6 +7,7 @@ ms.date: 09/28/2018
 keywords: ["ConvertException function"]
 f1_keywords:
  - "dbgmodel/ConvertException"
+ - "ConvertException"
 ms.keywords: ConvertException
 req.header: dbgmodel.h
 req.include-header:

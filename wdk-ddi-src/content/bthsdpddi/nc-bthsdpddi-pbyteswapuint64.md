@@ -10,6 +10,7 @@ keywords: ["PBYTESWAPUINT64 callback function"]
 ms.keywords: PBYTESWAPUINT64, PBYTESWAPUINT64 callback, SdpByteSwapUint64, SdpByteSwapUint64 callback function [Bluetooth Devices], bltooth.sdpbyteswapuint64, bth_funcs_b5fdae49-077b-43f8-a4c2-cd380422d560.xml, sdplib/SdpByteSwapUint64
 f1_keywords:
  - "bthsdpddi/SdpByteSwapUint64"
+ - "SdpByteSwapUint64"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

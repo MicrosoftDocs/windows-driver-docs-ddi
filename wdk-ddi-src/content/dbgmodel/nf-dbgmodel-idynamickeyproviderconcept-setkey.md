@@ -7,6 +7,7 @@ ms.date: 09/19/2018
 keywords: ["IDynamicKeyProviderConcept::SetKey"]
 f1_keywords:
  - "dbgmodel/IDynamicKeyProviderConcept.SetKey"
+ - "IDynamicKeyProviderConcept.SetKey"
 ms.keywords: IDynamicKeyProviderConcept::SetKey, SetKey, IDynamicKeyProviderConcept.SetKey, IDynamicKeyProviderConcept::SetKey, IDynamicKeyProviderConcept.SetKey
 req.header: dbgmodel.h
 req.include-header:

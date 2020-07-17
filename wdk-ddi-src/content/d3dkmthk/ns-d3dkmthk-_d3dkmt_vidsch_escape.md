@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_VIDSCH_ESCAPE structure"]
 ms.keywords: D3DKMT_VIDSCH_ESCAPE, D3DKMT_VIDSCH_ESCAPE structure [Display Devices], OpenGL_Structs_d668addb-7c4a-4f07-bf9b-71ccd4a216fa.xml, _D3DKMT_VIDSCH_ESCAPE, d3dkmthk/D3DKMT_VIDSCH_ESCAPE, display.d3dkmt_vidsch_escape
 f1_keywords:
  - "d3dkmthk/D3DKMT_VIDSCH_ESCAPE"
+ - "D3DKMT_VIDSCH_ESCAPE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::WriteTypedDataVirtual"]
 ms.keywords: IDebugSymbols interface [Windows Debugging],WriteTypedDataVirtual method, IDebugSymbols2 interface [Windows Debugging],WriteTypedDataVirtual method, IDebugSymbols2::WriteTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging],WriteTypedDataVirtual method, IDebugSymbols3.WriteTypedDataVirtual, IDebugSymbols3::WriteTypedDataVirtual, IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols_51186c12-dc2b-4906-a8fa-9e0f4a960135.xml, WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], WriteTypedDataVirtual method [Windows Debugging],IDebugSymbols interface, WriteTypedDataVirtual method [Windows Debugging],IDebugSymbols2 interface, WriteTypedDataVirtual method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols2::WriteTypedDataVirtual, dbgeng/IDebugSymbols3::WriteTypedDataVirtual, dbgeng/IDebugSymbols::WriteTypedDataVirtual, debugger.writetypeddatavirtual
 f1_keywords:
  - "dbgeng/IDebugSymbols.WriteTypedDataVirtual"
+ - "IDebugSymbols.WriteTypedDataVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

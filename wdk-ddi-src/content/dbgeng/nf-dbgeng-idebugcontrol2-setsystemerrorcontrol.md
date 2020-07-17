@@ -10,6 +10,7 @@ keywords: ["IDebugControl2::SetSystemErrorControl"]
 ms.keywords: IDebugControl interface [Windows Debugging],SetSystemErrorControl method, IDebugControl2 interface [Windows Debugging],SetSystemErrorControl method, IDebugControl2.SetSystemErrorControl, IDebugControl2::SetSystemErrorControl, IDebugControl3 interface [Windows Debugging],SetSystemErrorControl method, IDebugControl3::SetSystemErrorControl, IDebugControl::SetSystemErrorControl, IDebugControl_60e365d4-8645-469c-8973-9f2da168bba3.xml, SetSystemErrorControl, SetSystemErrorControl method [Windows Debugging], SetSystemErrorControl method [Windows Debugging],IDebugControl interface, SetSystemErrorControl method [Windows Debugging],IDebugControl2 interface, SetSystemErrorControl method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetSystemErrorControl, dbgeng/IDebugControl3::SetSystemErrorControl, dbgeng/IDebugControl::SetSystemErrorControl, debugger.setsystemerrorcontrol
 f1_keywords:
  - "dbgeng/IDebugControl.SetSystemErrorControl"
+ - "IDebugControl.SetSystemErrorControl"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

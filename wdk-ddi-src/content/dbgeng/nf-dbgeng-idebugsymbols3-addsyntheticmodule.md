@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::AddSyntheticModule"]
 ms.keywords: AddSyntheticModule, AddSyntheticModule method [Windows Debugging], AddSyntheticModule method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],AddSyntheticModule method, IDebugSymbols3.AddSyntheticModule, IDebugSymbols3::AddSyntheticModule, IDebugSymbols_ecccfdc4-2942-480c-9f78-c21c4ed46c90.xml, dbgeng/IDebugSymbols3::AddSyntheticModule, debugger.addsyntheticmodule
 f1_keywords:
  - "dbgeng/IDebugSymbols3.AddSyntheticModule"
+ - "IDebugSymbols3.AddSyntheticModule"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

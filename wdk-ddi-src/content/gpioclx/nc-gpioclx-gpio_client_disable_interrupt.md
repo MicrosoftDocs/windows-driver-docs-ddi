@@ -10,6 +10,7 @@ keywords: ["GPIO_CLIENT_DISABLE_INTERRUPT callback function"]
 ms.keywords: CLIENT_DisableInterrupt, CLIENT_DisableInterrupt callback, CLIENT_DisableInterrupt callback function [Parallel Ports], GPIO.client_disableinterrupt, GPIO_CLIENT_DISABLE_INTERRUPT, gpioclx/CLIENT_DisableInterrupt
 f1_keywords:
  - "gpioclx/CLIENT_DisableInterrupt"
+ - "CLIENT_DisableInterrupt"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop

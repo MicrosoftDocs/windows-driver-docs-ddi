@@ -10,6 +10,7 @@ keywords: ["IXpsPartIterator interface"]
 ms.keywords: IXpsPartIterator, IXpsPartIterator interface [Print Devices], IXpsPartIterator interface [Print Devices],described, filterpipeline/IXpsPartIterator, filterpipeline_75476300-7fcc-46a5-8a48-abde1dcd5e36.xml, print.ixpspartiterator
 f1_keywords:
  - "filterpipeline/IXpsPartIterator"
+ - "IXpsPartIterator"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

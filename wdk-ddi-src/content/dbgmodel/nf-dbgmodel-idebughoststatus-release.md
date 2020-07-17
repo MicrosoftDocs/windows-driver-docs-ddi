@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["IDebugHostStatus::Release"]
 f1_keywords:
  - "dbgmodel/IDebugHostStatus.Release"
+ - "IDebugHostStatus.Release"
 ms.keywords: IDebugHostStatus::Release, Release, IDebugHostStatus.Release, IDebugHostStatus::Release, IDebugHostStatus.Release
 req.header: dbgmodel.h
 req.include-header:

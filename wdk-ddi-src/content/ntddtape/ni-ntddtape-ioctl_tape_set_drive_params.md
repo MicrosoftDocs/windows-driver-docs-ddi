@@ -10,6 +10,7 @@ keywords: ["IOCTL_TAPE_SET_DRIVE_PARAMS IOCTL"]
 ms.keywords: IOCTL_TAPE_SET_DRIVE_PARAMS, IOCTL_TAPE_SET_DRIVE_PARAMS control, IOCTL_TAPE_SET_DRIVE_PARAMS control code [Storage Devices], k307_8467b086-c211-4e26-ac65-2d12ea1c4c73.xml, ntddtape/IOCTL_TAPE_SET_DRIVE_PARAMS, storage.ioctl_tape_set_drive_params
 f1_keywords:
  - "ntddtape/IOCTL_TAPE_SET_DRIVE_PARAMS"
+ - "IOCTL_TAPE_SET_DRIVE_PARAMS"
 req.header: ntddtape.h
 req.include-header: Ntddtape.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["RtlClearBit function"]
 ms.keywords: RtlClearBit, RtlClearBit routine [Kernel-Mode Driver Architecture], k109_f785121e-f076-4f31-90ab-4bec446e3cc9.xml, kernel.rtlclearbit, wdm/RtlClearBit
 f1_keywords:
  - "wdm/RtlClearBit"
+ - "RtlClearBit"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["AddPrintDeviceObject function"]
 ms.keywords: AddPrintDeviceObject, AddPrintDeviceObject function [Print Devices], print.addprintdeviceobject, winsplp/AddPrintDeviceObject
 f1_keywords:
  - "winsplp/AddPrintDeviceObject"
+ - "AddPrintDeviceObject"
 req.header: winsplp.h
 req.include-header: Winspool.h
 req.target-type: Desktop

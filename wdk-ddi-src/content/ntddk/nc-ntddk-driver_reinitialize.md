@@ -10,6 +10,7 @@ keywords: ["DRIVER_REINITIALIZE callback function"]
 ms.keywords: DRIVER_REINITIALIZE, DrvrRtns_193becfd-0e72-48f0-b6da-b916851c31a4.xml, Reinitialize, Reinitialize routine [Kernel-Mode Driver Architecture], kernel.reinitialize, ntddk/Reinitialize
 f1_keywords:
  - "ntddk/Reinitialize"
+ - "Reinitialize"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop

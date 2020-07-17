@@ -9,6 +9,7 @@ keywords: ["D3DKMTSignalSynchronizationObjectFromGpu function"]
 ms.keywords: D3DKMTSignalSynchronizationObjectFromGpu, D3DKMTSignalSynchronizationObjectFromGpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromGpu, display.d3dkmtsignalsynchronizationobjectfromgpu
 f1_keywords:
  - "d3dkmthk/D3DKMTSignalSynchronizationObjectFromGpu"
+ - "D3DKMTSignalSynchronizationObjectFromGpu"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

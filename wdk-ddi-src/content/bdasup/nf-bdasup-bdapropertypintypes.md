@@ -10,6 +10,7 @@ keywords: ["BdaPropertyPinTypes function"]
 ms.keywords: BdaPropertyPinTypes, BdaPropertyPinTypes function [Streaming Media Devices], bdaref_38003a0c-ac8f-4249-b7b1-a4979f05b7ab.xml, bdasup/BdaPropertyPinTypes, stream.bdapropertypintypes
 f1_keywords:
  - "bdasup/BdaPropertyPinTypes"
+ - "BdaPropertyPinTypes"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

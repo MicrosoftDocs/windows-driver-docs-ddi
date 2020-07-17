@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["IDataModelScriptDebug2::GetCurrentPosition"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug2.GetCurrentPosition"
+ - "IDataModelScriptDebug2.GetCurrentPosition"
 ms.keywords: IDataModelScriptDebug2::GetCurrentPosition, GetCurrentPosition, IDataModelScriptDebug2.GetCurrentPosition, IDataModelScriptDebug2::GetCurrentPosition, IDataModelScriptDebug2.GetCurrentPosition
 req.header: dbgmodel.h
 req.include-header:

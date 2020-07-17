@@ -10,6 +10,7 @@ keywords: ["PROTOCOL_DIRECT_OID_REQUEST_COMPLETE callback function"]
 ms.keywords: PROTOCOL_DIRECT_OID_REQUEST_COMPLETE, PROTOCOL_DIRECT_OID_REQUEST_COMPLETE callback, ProtocolDirectOidRequestComplete, ProtocolDirectOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolDirectOidRequestComplete, ndis_request_direct_ref_d190a2bd-5db1-481e-aaee-deffd87c8968.xml, netvista.protocoldirectoidrequestcomplete
 f1_keywords:
  - "ndis/ProtocolDirectOidRequestComplete"
+ - "ProtocolDirectOidRequestComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

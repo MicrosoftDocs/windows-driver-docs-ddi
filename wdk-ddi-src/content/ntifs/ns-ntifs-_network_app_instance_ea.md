@@ -8,6 +8,7 @@ tech.root: ifsk
 keywords: ["_NETWORK_APP_INSTANCE_EA structure"]
 f1_keywords:
  - "ntifs/_NETWORK_APP_INSTANCE_EA"
+ - "_NETWORK_APP_INSTANCE_EA"
 ms.keywords: _NETWORK_APP_INSTANCE_EA, NETWORK_APP_INSTANCE_EA, *PNETWORK_APP_INSTANCE_EA, 
 req.header: ntifs.h
 req.include-header:

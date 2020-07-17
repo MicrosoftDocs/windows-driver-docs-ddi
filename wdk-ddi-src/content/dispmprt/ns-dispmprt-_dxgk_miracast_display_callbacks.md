@@ -10,6 +10,7 @@ keywords: ["_DXGK_MIRACAST_DISPLAY_CALLBACKS structure"]
 ms.keywords: "*PDXGK_MIRACAST_DISPLAY_CALLBACKS, DXGK_MIRACAST_DISPLAY_CALLBACKS, DXGK_MIRACAST_DISPLAY_CALLBACKS structure [Display Devices], PDXGK_MIRACAST_DISPLAY_CALLBACKS, PDXGK_MIRACAST_DISPLAY_CALLBACKS structure pointer [Display Devices], _DXGK_MIRACAST_DISPLAY_CALLBACKS, display.dxgk_miracast_display_callbacks, dispmprt/DXGK_MIRACAST_DISPLAY_CALLBACKS, dispmprt/PDXGK_MIRACAST_DISPLAY_CALLBACKS"
 f1_keywords:
  - "dispmprt/DXGK_MIRACAST_DISPLAY_CALLBACKS"
+ - "DXGK_MIRACAST_DISPLAY_CALLBACKS"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows

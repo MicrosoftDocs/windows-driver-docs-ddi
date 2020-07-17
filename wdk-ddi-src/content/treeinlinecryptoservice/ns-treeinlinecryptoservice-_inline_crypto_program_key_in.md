@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_INLINE_CRYPTO_PROGRAM_KEY_IN structure"]
 f1_keywords:
  - "treeinlinecryptoservice/_INLINE_CRYPTO_PROGRAM_KEY_IN"
+ - "_INLINE_CRYPTO_PROGRAM_KEY_IN"
 ms.keywords: _INLINE_CRYPTO_PROGRAM_KEY_IN, INLINE_CRYPTO_PROGRAM_KEY_IN, *PINLINE_CRYPTO_PROGRAM_KEY_IN, 
 req.header: treeinlinecryptoservice.h
 req.include-header:

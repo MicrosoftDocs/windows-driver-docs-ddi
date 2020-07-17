@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition"]
 ms.keywords: GetOutputStreamPresentationPosition, GetOutputStreamPresentationPosition method [Audio Devices], GetOutputStreamPresentationPosition method [Audio Devices],IMiniportWaveRTOutputStream interface, IMiniportWaveRTOutputStream interface [Audio Devices],GetOutputStreamPresentationPosition method, IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition, IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition, audio.iminiportwavertoutputstream_getoutputstreampresentationposition, portcls/IMiniportWaveRTOutputStream::GetOutputStreamPresentationPosition
 f1_keywords:
  - "portcls/IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition"
+ - "IMiniportWaveRTOutputStream.GetOutputStreamPresentationPosition"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

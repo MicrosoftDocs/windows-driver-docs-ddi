@@ -10,6 +10,7 @@ keywords: ["NDIS_PD_ALLOCATE_QUEUE callback function"]
 ms.keywords: NDIS_PD_ALLOCATE_QUEUE, NDIS_PD_ALLOCATE_QUEUE callback, NdisPDAllocateQueue, NdisPDAllocateQueue callback function [Network Drivers Starting with Windows Vista], ndis/NdisPDAllocateQueue, netvista.ndispdallocatequeue
 f1_keywords:
  - "ndis/NdisPDAllocateQueue"
+ - "NdisPDAllocateQueue"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

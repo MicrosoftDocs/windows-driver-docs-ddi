@@ -10,6 +10,7 @@ keywords: ["IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources"]
 ms.keywords: EDTTryStopDeviceRequestNewResources, EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework], EDTTryStopDeviceRequestNewResources method [Windows Device Testing Framework],IWDTFPNPAction2 interface, IWDTFPNPAction2 interface [Windows Device Testing Framework],EDTTryStopDeviceRequestNewResources method, IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources, IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources, Microsoft.WDTF.IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources, Microsoft::WDTF::IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources, dtf.iwdtfpnpaction2_edttrystopdevicerequestnewresources, wdtfpnpaction/IWDTFPNPAction2::EDTTryStopDeviceRequestNewResources
 f1_keywords:
  - "wdtfpnpaction/IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources"
+ - "IWDTFPNPAction2.EDTTryStopDeviceRequestNewResources"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop

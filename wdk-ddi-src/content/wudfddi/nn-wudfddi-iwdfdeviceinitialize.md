@@ -10,6 +10,7 @@ keywords: ["IWDFDeviceInitialize interface"]
 ms.keywords: IWDFDeviceInitialize, IWDFDeviceInitialize interface, IWDFDeviceInitialize interface,described, UMDFDeviceObjectRef_b63038ef-0e6e-4417-96de-0c3f5ec1866e.xml, umdf.iwdfdeviceinitialize, wdf.iwdfdeviceinitialize, wudfddi/IWDFDeviceInitialize
 f1_keywords:
  - "wudfddi/IWDFDeviceInitialize"
+ - "IWDFDeviceInitialize"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

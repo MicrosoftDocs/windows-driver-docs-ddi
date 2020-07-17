@@ -10,6 +10,7 @@ keywords: ["_DXGK_DEVICE_DESCRIPTOR structure"]
 ms.keywords: "*PDXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR, DXGK_DEVICE_DESCRIPTOR structure [Display Devices], DmStructs_d66c7175-e264-49f4-94ce-f4a92a678010.xml, PDXGK_DEVICE_DESCRIPTOR, PDXGK_DEVICE_DESCRIPTOR structure pointer [Display Devices], _DXGK_DEVICE_DESCRIPTOR, display.dxgk_device_descriptor, dispmprt/DXGK_DEVICE_DESCRIPTOR, dispmprt/PDXGK_DEVICE_DESCRIPTOR"
 f1_keywords:
  - "dispmprt/DXGK_DEVICE_DESCRIPTOR"
+ - "DXGK_DEVICE_DESCRIPTOR"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows

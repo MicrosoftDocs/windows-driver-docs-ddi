@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro"]
 f1_keywords:
  - "printoem/GET_UNIDRV_PRIVATE_DEVMODE_SIZE"
+ - "GET_UNIDRV_PRIVATE_DEVMODE_SIZE"
 ms.keywords: GET_UNIDRV_PRIVATE_DEVMODE_SIZE
 req.header: printoem.h
 req.include-header:

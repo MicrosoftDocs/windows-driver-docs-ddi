@@ -10,6 +10,7 @@ keywords: ["CWiauPropertyList::SendToWia"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SendToWia method, CWiauPropertyList.SendToWia, CWiauPropertyList::SendToWia, SendToWia, SendToWia method [Imaging Devices], SendToWia method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_sendtowia, wiauFncs_d77b66a2-1c98-4608-9269-ab1e09a98405.xml, wiautil/CWiauPropertyList::SendToWia
 f1_keywords:
  - "wiautil/CWiauPropertyList.SendToWia"
+ - "CWiauPropertyList.SendToWia"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop

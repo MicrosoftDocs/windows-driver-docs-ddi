@@ -10,6 +10,7 @@ keywords: ["FltGetDeviceObject function"]
 ms.keywords: FltApiRef_e_to_o_0ef7e26f-6eb6-42e3-a469-4d4fa0c8e659.xml, FltGetDeviceObject, FltGetDeviceObject routine [Installable File System Drivers], fltkernel/FltGetDeviceObject, ifsk.fltgetdeviceobject
 f1_keywords:
  - "fltkernel/FltGetDeviceObject"
+ - "FltGetDeviceObject"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

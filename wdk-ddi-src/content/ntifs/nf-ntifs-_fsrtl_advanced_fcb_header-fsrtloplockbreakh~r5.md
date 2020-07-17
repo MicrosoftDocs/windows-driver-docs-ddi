@@ -10,6 +10,7 @@ keywords: ["FsRtlOplockBreakH function"]
 ms.keywords: FsRtlOplockBreakH, FsRtlOplockBreakH routine [Installable File System Drivers], fsrtlref_fe992b81-62d1-4f86-9615-05bca958411b.xml, ifsk.fsrtloplockbreakh, ntifs/FsRtlOplockBreakH
 f1_keywords:
  - "ntifs/FsRtlOplockBreakH"
+ - "FsRtlOplockBreakH"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

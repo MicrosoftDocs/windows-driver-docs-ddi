@@ -10,6 +10,7 @@ keywords: ["KeInitializeCrashDumpHeader function"]
 ms.keywords: KeInitializeCrashDumpHeader, KeInitializeCrashDumpHeader routine [Kernel-Mode Driver Architecture], k105_c15cf29a-9b95-4bec-9f9d-8664ac5e3cd3.xml, kernel.keinitializecrashdumpheader, wdm/KeInitializeCrashDumpHeader
 f1_keywords:
  - "ntddk/KeInitializeCrashDumpHeader"
+ - "KeInitializeCrashDumpHeader"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

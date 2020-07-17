@@ -10,6 +10,7 @@ keywords: ["_PEP_PERF_STATE structure"]
 ms.keywords: "*PPEP_PERF_STATE, PEP_PERF_STATE, PEP_PERF_STATE structure [Kernel-Mode Driver Architecture], PPEP_PERF_STATE, PPEP_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PERF_STATE, kernel.pep_perf_state, pepfx/PEP_PERF_STATE, pepfx/PPEP_PERF_STATE"
 f1_keywords:
  - "pep_x/PEP_PERF_STATE"
+ - "PEP_PERF_STATE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

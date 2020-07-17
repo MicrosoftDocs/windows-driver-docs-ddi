@@ -10,6 +10,7 @@ keywords: ["IPrintOemUni::SendFontCmd"]
 ms.keywords: IPrintOemUni interface [Print Devices],SendFontCmd method, IPrintOemUni.SendFontCmd, IPrintOemUni::SendFontCmd, SendFontCmd, SendFontCmd method [Print Devices], SendFontCmd method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::SendFontCmd, print.iprintoemuni_sendfontcmd, print_unidrv-pscript_rendering_18926c40-665b-4ea9-9343-7939619d093a.xml
 f1_keywords:
  - "prcomoem/IPrintOemUni.SendFontCmd"
+ - "IPrintOemUni.SendFontCmd"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

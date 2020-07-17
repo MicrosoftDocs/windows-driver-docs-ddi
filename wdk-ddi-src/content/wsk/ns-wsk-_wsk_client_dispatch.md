@@ -10,6 +10,7 @@ keywords: ["_WSK_CLIENT_DISPATCH structure"]
 ms.keywords: "*PWSK_CLIENT_DISPATCH, PWSK_CLIENT_DISPATCH, PWSK_CLIENT_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_CLIENT_DISPATCH, WSK_CLIENT_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_CLIENT_DISPATCH, netvista.wsk_client_dispatch, wsk/PWSK_CLIENT_DISPATCH, wsk/WSK_CLIENT_DISPATCH, wskref_59bad29c-be6f-4a0d-8bf6-7112cd2c8855.xml"
 f1_keywords:
  - "wsk/WSK_CLIENT_DISPATCH"
+ - "WSK_CLIENT_DISPATCH"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows

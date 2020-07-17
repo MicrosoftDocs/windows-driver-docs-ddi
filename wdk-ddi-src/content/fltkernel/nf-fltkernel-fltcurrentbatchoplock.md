@@ -10,6 +10,7 @@ keywords: ["FltCurrentBatchOplock function"]
 ms.keywords: FltApiRef_a_to_d_7835829e-3397-47c3-bc12-c77f8d844927.xml, FltCurrentBatchOplock, FltCurrentBatchOplock function [Installable File System Drivers], fltkernel/FltCurrentBatchOplock, ifsk.fltcurrentbatchoplock
 f1_keywords:
  - "fltkernel/FltCurrentBatchOplock"
+ - "FltCurrentBatchOplock"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

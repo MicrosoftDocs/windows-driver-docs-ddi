@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDataModelNameBinder::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDataModelNameBinder.QueryInterface"
+ - "IDataModelNameBinder.QueryInterface"
 ms.keywords: IDataModelNameBinder::QueryInterface, QueryInterface, IDataModelNameBinder.QueryInterface, IDataModelNameBinder::QueryInterface, IDataModelNameBinder.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

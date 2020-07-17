@@ -10,6 +10,7 @@ keywords: ["KeTestSpinLock function"]
 ms.keywords: KeTestSpinLock, KeTestSpinLock routine [Kernel-Mode Driver Architecture], k105_99f18fd9-0242-4939-86ab-016236f9adcb.xml, kernel.ketestspinlock, wdm/KeTestSpinLock
 f1_keywords:
  - "wdm/KeTestSpinLock"
+ - "KeTestSpinLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

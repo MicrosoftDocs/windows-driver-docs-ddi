@@ -10,6 +10,7 @@ keywords: ["SeUnregisterLogonSessionTerminatedRoutine function"]
 ms.keywords: SeUnregisterLogonSessionTerminatedRoutine, SeUnregisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], ifsk.seunregisterlogonsessionterminatedroutine, ntifs/SeUnregisterLogonSessionTerminatedRoutine, seref_dbf0d7bc-c252-4805-99e1-075ce9e08ddc.xml
 f1_keywords:
  - "ntifs/SeUnregisterLogonSessionTerminatedRoutine"
+ - "SeUnregisterLogonSessionTerminatedRoutine"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -12,6 +12,7 @@ ms.keywords: FSRTL_ADVANCED_FCB_HEADER::FsRtlOplockGetAnyBreakOwnerProcess, FsRt
 req.header: ntifs.h
 f1_keywords:
  - "ntifs/FsRtlOplockGetAnyBreakOwnerProcess"
+ - "FsRtlOplockGetAnyBreakOwnerProcess"
 req.include-header:
 req.target-type:
 req.target-min-winverclnt: Windows 10, version 2004

@@ -9,6 +9,7 @@ keywords: ["D3DKMTReleaseProcessVidPnSourceOwners function"]
 ms.keywords: D3DKMTReleaseProcessVidPnSourceOwners, D3DKMTReleaseProcessVidPnSourceOwners function [Display Devices], OpenGL_Functions_8c1e2870-c803-4ca4-99f1-8f39a00983c8.xml, d3dkmthk/D3DKMTReleaseProcessVidPnSourceOwners, display.d3dkmtreleaseprocessvidpnsourceowners
 f1_keywords:
  - "d3dkmthk/D3DKMTReleaseProcessVidPnSourceOwners"
+ - "D3DKMTReleaseProcessVidPnSourceOwners"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

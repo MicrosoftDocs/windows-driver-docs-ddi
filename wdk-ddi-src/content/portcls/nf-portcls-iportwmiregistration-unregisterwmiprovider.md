@@ -10,6 +10,7 @@ keywords: ["IPortWMIRegistration::UnregisterWMIProvider"]
 ms.keywords: IPortWMIRegistration interface [Audio Devices],UnregisterWMIProvider method, IPortWMIRegistration.UnregisterWMIProvider, IPortWMIRegistration::UnregisterWMIProvider, UnregisterWMIProvider, UnregisterWMIProvider method [Audio Devices], UnregisterWMIProvider method [Audio Devices],IPortWMIRegistration interface, audio.iportwmiregistration_unregisterwmiprovider, audmp-routines_3c640b1e-b98a-491d-a586-c6acaf8b07d4.xml, portcls/IPortWMIRegistration::UnregisterWMIProvider
 f1_keywords:
  - "portcls/IPortWMIRegistration.UnregisterWMIProvider"
+ - "IPortWMIRegistration.UnregisterWMIProvider"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IWDFRequestCompletionParams interface"]
 ms.keywords: IWDFRequestCompletionParams, IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface,described, UMDFRequestObjectRef_746528f7-b23f-4907-8661-e228fa99df1c.xml, umdf.iwdfrequestcompletionparams, wdf.iwdfrequestcompletionparams, wudfddi/IWDFRequestCompletionParams
 f1_keywords:
  - "wudfddi/IWDFRequestCompletionParams"
+ - "IWDFRequestCompletionParams"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

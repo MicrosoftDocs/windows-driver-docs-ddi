@@ -10,6 +10,7 @@ keywords: ["RxCancelTimerRequest function"]
 ms.keywords: RxCancelTimerRequest, RxCancelTimerRequest routine [Installable File System Drivers], ifsk.rxcanceltimerrequest, rxref_f9950992-18a5-4418-a18d-e105ecdc74ff.xml, rxtimer/RxCancelTimerRequest
 f1_keywords:
  - "rxtimer/RxCancelTimerRequest"
+ - "RxCancelTimerRequest"
 req.header: rxtimer.h
 req.include-header: Rxtimer.h, Rxworkq.h
 req.target-type: Desktop

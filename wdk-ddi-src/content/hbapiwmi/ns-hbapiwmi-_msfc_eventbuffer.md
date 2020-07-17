@@ -10,6 +10,7 @@ keywords: ["_MSFC_EventBuffer structure"]
 ms.keywords: "*PMSFC_EventBuffer, MSFC_EventBuffer, MSFC_EventBuffer structure [Storage Devices], PMSFC_EventBuffer, PMSFC_EventBuffer structure pointer [Storage Devices], _MSFC_EventBuffer, hbapiwmi/MSFC_EventBuffer, hbapiwmi/PMSFC_EventBuffer, storage.msfc_eventbuffer, structs-Fibre_d89430e7-c05b-4314-946e-fd8e70d938ac.xml"
 f1_keywords:
  - "hbapiwmi/MSFC_EventBuffer"
+ - "MSFC_EventBuffer"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

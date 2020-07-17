@@ -10,6 +10,7 @@ keywords: ["_DD_GETADAPTERGROUPDATA structure"]
 ms.keywords: DD_GETADAPTERGROUPDATA, DD_GETADAPTERGROUPDATA structure [Display Devices], _DD_GETADAPTERGROUPDATA, d3dhal/DD_GETADAPTERGROUPDATA, d3dstrct_6bd570c2-bccf-4c1c-8bfb-ff20d77b7201.xml, display.dd_getadaptergroupdata
 f1_keywords:
  - "d3dhal/DD_GETADAPTERGROUPDATA"
+ - "DD_GETADAPTERGROUPDATA"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

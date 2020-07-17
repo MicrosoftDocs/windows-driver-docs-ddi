@@ -10,6 +10,7 @@ keywords: ["IWDTFSimpleIOStressAction2 interface"]
 ms.keywords: IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFSimpleIOStressAction2, dtf.iwdtfsimpleiostressaction2, wdtfinterfaces/IWDTFSimpleIOStressAction2
 f1_keywords:
  - "wdtfinterfaces/IWDTFSimpleIOStressAction2"
+ - "IWDTFSimpleIOStressAction2"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Windows

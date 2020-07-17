@@ -10,6 +10,7 @@ keywords: ["WdfDeviceInitAssignWdmIrpPreprocessCallback function"]
 ms.keywords: DFDeviceObjectGeneralRef_ff2869f4-a557-4d3a-bd4d-67b8e1720ba9.xml, WdfDeviceInitAssignWdmIrpPreprocessCallback, WdfDeviceInitAssignWdmIrpPreprocessCallback method, kmdf.wdfdeviceinitassignwdmirppreprocesscallback, wdf.wdfdeviceinitassignwdmirppreprocesscallback, wdfdevice/WdfDeviceInitAssignWdmIrpPreprocessCallback
 f1_keywords:
  - "wdfdevice/WdfDeviceInitAssignWdmIrpPreprocessCallback"
+ - "WdfDeviceInitAssignWdmIrpPreprocessCallback"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

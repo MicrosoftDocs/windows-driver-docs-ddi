@@ -10,6 +10,7 @@ keywords: ["VhfCreate function"]
 ms.keywords: VhfCreate, VhfCreate method [Human Input Devices], hid.vhfcreate, vhf/VhfCreate
 f1_keywords:
  - "vhf/VhfCreate"
+ - "VhfCreate"
 req.header: vhf.h
 req.include-header: 
 req.target-type: Windows

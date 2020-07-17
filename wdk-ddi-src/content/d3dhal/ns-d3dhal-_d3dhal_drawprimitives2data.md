@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DRAWPRIMITIVES2DATA structure"]
 ms.keywords: "*LPD3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA, D3DHAL_DRAWPRIMITIVES2DATA structure [Display Devices], LPD3DHAL_DRAWPRIMITIVES2DATA, LPD3DHAL_DRAWPRIMITIVES2DATA structure pointer [Display Devices], _D3DHAL_DRAWPRIMITIVES2DATA, d3dhal/D3DHAL_DRAWPRIMITIVES2DATA, d3dhal/LPD3DHAL_DRAWPRIMITIVES2DATA, d3dstrct_c9c3dea2-965c-4e98-8ff7-2928afe049fb.xml, display.d3dhal_drawprimitives2data"
 f1_keywords:
  - "d3dhal/D3DHAL_DRAWPRIMITIVES2DATA"
+ - "D3DHAL_DRAWPRIMITIVES2DATA"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

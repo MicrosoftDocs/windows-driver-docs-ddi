@@ -10,6 +10,7 @@ keywords: ["PFNKSPININITIALIZEALLOCATOR callback function"]
 ms.keywords: AVStrMiniInitializeAllocator, AVStrMiniInitializeAllocator routine [Streaming Media Devices], PFNKSPININITIALIZEALLOCATOR, avstclbk_979c0a29-7e4b-463c-8ff3-62124b0d49d1.xml, ks/AVStrMiniInitializeAllocator, stream.avstrminiinitializeallocator
 f1_keywords:
  - "ks/AVStrMiniInitializeAllocator"
+ - "AVStrMiniInitializeAllocator"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

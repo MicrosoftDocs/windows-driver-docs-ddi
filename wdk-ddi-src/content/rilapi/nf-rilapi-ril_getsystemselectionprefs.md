@@ -10,6 +10,7 @@ keywords: ["RIL_GetSystemSelectionPrefs function"]
 ms.keywords: RIL_GetSystemSelectionPrefs, RIL_GetSystemSelectionPrefs method [Network Drivers Starting with Windows Vista], netvista.ril_getsystemselectionprefs, rilapi/RIL_GetSystemSelectionPrefs
 f1_keywords:
  - "rilapi/RIL_GetSystemSelectionPrefs"
+ - "RIL_GetSystemSelectionPrefs"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

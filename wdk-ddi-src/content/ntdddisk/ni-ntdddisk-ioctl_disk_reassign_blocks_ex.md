@@ -10,6 +10,7 @@ keywords: ["IOCTL_DISK_REASSIGN_BLOCKS_EX IOCTL"]
 ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS_EX, IOCTL_DISK_REASSIGN_BLOCKS_EX control, IOCTL_DISK_REASSIGN_BLOCKS_EX control code [Storage Devices], ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS_EX, storage.ioctl_disk_reassign_blocks_ex
 f1_keywords:
  - "ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS_EX"
+ - "IOCTL_DISK_REASSIGN_BLOCKS_EX"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["IOMMU_DOMAIN_DELETE callback function"]
 f1_keywords:
  - "wdm/IOMMU_DOMAIN_DELETE"
+ - "IOMMU_DOMAIN_DELETE"
 req.header: wdm.h
 req.include-header:
 req.target-type:

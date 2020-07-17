@@ -10,6 +10,7 @@ keywords: ["PFNKSPINIRPCOMPLETION callback function"]
 ms.keywords: AVStrMiniPinIrpCompletion, AVStrMiniPinIrpCompletion routine [Streaming Media Devices], PFNKSPINIRPCOMPLETION, avstclbk_fabf9c16-a37b-4101-9468-dc247545aea0.xml, ks/AVStrMiniPinIrpCompletion, stream.avstrminipinirpcompletion
 f1_keywords:
  - "ks/AVStrMiniPinIrpCompletion"
+ - "AVStrMiniPinIrpCompletion"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

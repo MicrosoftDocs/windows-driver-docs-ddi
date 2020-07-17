@@ -10,6 +10,7 @@ keywords: ["IResourceList::UntranslatedList"]
 ms.keywords: IResourceList interface [Audio Devices],UntranslatedList method, IResourceList.UntranslatedList, IResourceList::UntranslatedList, UntranslatedList, UntranslatedList method [Audio Devices], UntranslatedList method [Audio Devices],IResourceList interface, audio.iresourcelist_untranslatedlist, audmp-routines_b367743a-b341-49cc-a300-da84b91ec7a5.xml, portcls/IResourceList::UntranslatedList
 f1_keywords:
  - "portcls/IResourceList.UntranslatedList"
+ - "IResourceList.UntranslatedList"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

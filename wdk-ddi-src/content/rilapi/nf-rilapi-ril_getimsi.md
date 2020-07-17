@@ -10,6 +10,7 @@ keywords: ["RIL_GetIMSI function"]
 ms.keywords: RIL_GetIMSI, RIL_GetIMSI method [Network Drivers Starting with Windows Vista], netvista.ril_getimsi, rilapi/RIL_GetIMSI
 f1_keywords:
  - "rilapi/RIL_GetIMSI"
+ - "RIL_GetIMSI"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

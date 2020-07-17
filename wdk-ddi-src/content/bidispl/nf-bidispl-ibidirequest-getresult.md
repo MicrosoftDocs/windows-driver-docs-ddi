@@ -10,6 +10,7 @@ keywords: ["IBidiRequest::GetResult"]
 ms.keywords: GetResult, GetResult method [Print Devices], GetResult method [Print Devices],IBidiRequest interface, IBidiRequest interface [Print Devices],GetResult method, IBidiRequest.GetResult, IBidiRequest::GetResult, _win32_IBidiRequest_GetResult, bidispl/IBidiRequest::GetResult, gdi.ibidirequest_ibidirequest__getresult, print.ibidirequest_ibidirequest__getresult
 f1_keywords:
  - "bidispl/IBidiRequest.GetResult"
+ - "IBidiRequest.GetResult"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop

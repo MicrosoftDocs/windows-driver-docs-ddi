@@ -10,6 +10,7 @@ keywords: ["SetJobNamedProperty function"]
 ms.keywords: SetJobNamedProperty, SetJobNamedProperty function [Print Devices], print.setjobnamedproperty, winspool/SetJobNamedProperty
 f1_keywords:
  - "winspool/SetJobNamedProperty"
+ - "SetJobNamedProperty"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows

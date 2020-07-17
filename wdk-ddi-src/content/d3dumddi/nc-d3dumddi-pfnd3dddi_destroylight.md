@@ -29,6 +29,7 @@ targetos: Windows
 req.typenames: 
 f1_keywords:
  - "d3dumddi/DestroyLight"
+ - "DestroyLight"
 topic_type:
  - APIRef
  - kbSyntax

@@ -10,6 +10,7 @@ keywords: ["IoStartPacket function"]
 ms.keywords: IoStartPacket, IoStartPacket routine [Kernel-Mode Driver Architecture], k104_d27461b9-32fe-4d7b-853d-fd110fcdb644.xml, kernel.iostartpacket, wdm/IoStartPacket
 f1_keywords:
  - "wdm/IoStartPacket"
+ - "IoStartPacket"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

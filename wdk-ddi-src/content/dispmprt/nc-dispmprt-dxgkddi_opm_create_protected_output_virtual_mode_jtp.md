@@ -35,6 +35,7 @@ api_name:
  - DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_VIRTUAL_MODE_JTP
 f1_keywords:
  - dispmprt/DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_VIRTUAL_MODE_JTP
+ - ""
 dev_langs:
  - c++
 ---

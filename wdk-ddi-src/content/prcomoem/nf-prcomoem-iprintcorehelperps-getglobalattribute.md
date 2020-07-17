@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelperPS::GetGlobalAttribute"]
 ms.keywords: GetGlobalAttribute, GetGlobalAttribute method [Print Devices], GetGlobalAttribute method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],GetGlobalAttribute method, IPrintCoreHelperPS.GetGlobalAttribute, IPrintCoreHelperPS::GetGlobalAttribute, prcomoem/IPrintCoreHelperPS::GetGlobalAttribute, print.iprintcorehelperps_getglobalattribute, print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelperPS.GetGlobalAttribute"
+ - "IPrintCoreHelperPS.GetGlobalAttribute"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

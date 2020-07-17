@@ -10,6 +10,7 @@ keywords: ["IKsTopology interface"]
 ms.keywords: IKsTopology, IKsTopology interface [Streaming Media Devices], IKsTopology interface [Streaming Media Devices],described, ksproxy/IKsTopology, ksproxy_521e5b73-c9cc-4cb2-acf5-746e470678cd.xml, stream.ikstopology
 f1_keywords:
  - "ksproxy/IKsTopology"
+ - "IKsTopology"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows

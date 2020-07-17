@@ -10,6 +10,7 @@ ms.date: 04/05/2019
 keywords: ["IEventDetectorOemAdapterVtbl structure"]
 f1_keywords:
  - "eventdetectoroemadapter/IEventDetectorOemAdapterVtbl"
+ - "IEventDetectorOemAdapterVtbl"
 ms.keywords: IEventDetectorOemAdapterVtbl, IEventDetectorOemAdapterVtbl, 
 req.header: eventdetectoroemadapter.h
 req.include-header:

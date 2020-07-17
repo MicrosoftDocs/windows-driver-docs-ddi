@@ -34,6 +34,7 @@ api_name:
 f1_keywords:
  - d3dumddi/_D3DDDI_BATCHEDMARKERDATA
  - d3dumddi/D3DDDI_BATCHEDMARKERDATA
+ - ""
 dev_langs:
  - c++
 ---

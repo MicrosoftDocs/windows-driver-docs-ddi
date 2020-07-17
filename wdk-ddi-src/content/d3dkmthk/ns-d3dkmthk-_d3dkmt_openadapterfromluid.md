@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_OPENADAPTERFROMLUID structure"]
 ms.keywords: D3DKMT_OPENADAPTERFROMLUID, D3DKMT_OPENADAPTERFROMLUID structure [Display Devices], _D3DKMT_OPENADAPTERFROMLUID, d3dkmthk/D3DKMT_OPENADAPTERFROMLUID, display.d3dkmt_openadapterfromluid
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENADAPTERFROMLUID"
+ - "D3DKMT_OPENADAPTERFROMLUID"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

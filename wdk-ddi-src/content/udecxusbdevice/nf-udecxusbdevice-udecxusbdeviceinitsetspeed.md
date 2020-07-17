@@ -10,6 +10,7 @@ keywords: ["UdecxUsbDeviceInitSetSpeed function"]
 ms.keywords: UdecxUsbDeviceInitSetSpeed, UdecxUsbDeviceInitSetSpeed function [Buses], buses.udecxusbdeviceinitsetspeed, udecxusbdevice/UdecxUsbDeviceInitSetSpeed
 f1_keywords:
  - "udecxusbdevice/UdecxUsbDeviceInitSetSpeed"
+ - "UdecxUsbDeviceInitSetSpeed"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

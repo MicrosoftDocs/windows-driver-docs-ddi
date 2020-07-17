@@ -7,6 +7,7 @@ ms.date: 07/20/2018
 keywords: ["IModelObject::EnumerateKeyReferences"]
 f1_keywords:
  - "dbgmodel/IModelObject.EnumerateKeyReferences"
+ - "IModelObject.EnumerateKeyReferences"
 ms.keywords: IModelObject::EnumerateKeyReferences, EnumerateKeyReferences, IModelObject.EnumerateKeyReferences, IModelObject::EnumerateKeyReferences, IModelObject.EnumerateKeyReferences
 req.header: dbgmodel.h
 req.include-header:

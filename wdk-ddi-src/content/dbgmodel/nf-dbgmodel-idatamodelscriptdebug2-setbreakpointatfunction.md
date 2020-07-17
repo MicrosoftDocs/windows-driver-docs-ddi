@@ -7,6 +7,7 @@ ms.date: 09/11/2018
 keywords: ["IDataModelScriptDebug2::SetBreakpointAtFunction"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptDebug2.SetBreakpointAtFunction"
+ - "IDataModelScriptDebug2.SetBreakpointAtFunction"
 ms.keywords: IDataModelScriptDebug2::SetBreakpointAtFunction, SetBreakpointAtFunction, IDataModelScriptDebug2.SetBreakpointAtFunction, IDataModelScriptDebug2::SetBreakpointAtFunction, IDataModelScriptDebug2.SetBreakpointAtFunction
 req.header: dbgmodel.h
 req.include-header:

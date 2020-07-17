@@ -10,6 +10,7 @@ keywords: ["IPrintJobCollection interface"]
 ms.keywords: IPrintJobCollection, IPrintJobCollection interface [Print Devices], IPrintJobCollection interface [Print Devices],described, print.iprintjobcollection, printerextension/IPrintJobCollection
 f1_keywords:
  - "printerextension/IPrintJobCollection"
+ - "IPrintJobCollection"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IPort::GetDeviceProperty"]
 f1_keywords:
  - "portcls/IPort.GetDeviceProperty"
+ - "IPort.GetDeviceProperty"
 ms.keywords: IPort::GetDeviceProperty, GetDeviceProperty, IPort.GetDeviceProperty, IPort::GetDeviceProperty, IPort.GetDeviceProperty
 req.header: portcls.h
 req.include-header:

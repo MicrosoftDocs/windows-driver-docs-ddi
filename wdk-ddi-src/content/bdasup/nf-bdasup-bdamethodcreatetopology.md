@@ -10,6 +10,7 @@ keywords: ["BdaMethodCreateTopology function"]
 ms.keywords: BdaMethodCreateTopology, BdaMethodCreateTopology function [Streaming Media Devices], bdaref_3e082bad-4178-430a-aca0-3af6324a0aa2.xml, bdasup/BdaMethodCreateTopology, stream.bdamethodcreatetopology
 f1_keywords:
  - "bdasup/BdaMethodCreateTopology"
+ - "BdaMethodCreateTopology"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["IOCTL_HID_GET_HARDWARE_ID IOCTL"]
 ms.keywords: IOCTL_HID_GET_HARDWARE_ID, IOCTL_HID_GET_HARDWARE_ID control, IOCTL_HID_GET_HARDWARE_ID control code [Human Input Devices], hid.ioctl_hid_get_hardware_id, hidclass/IOCTL_HID_GET_HARDWARE_ID, hidioreq_e5eb1673-bf55-451b-b8de-f8d735aa54eb.xml
 f1_keywords:
  - "hidclass/IOCTL_HID_GET_HARDWARE_ID"
+ - "IOCTL_HID_GET_HARDWARE_ID"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows

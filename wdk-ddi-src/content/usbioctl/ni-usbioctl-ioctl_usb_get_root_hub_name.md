@@ -10,6 +10,7 @@ keywords: ["IOCTL_USB_GET_ROOT_HUB_NAME IOCTL"]
 ms.keywords: IOCTL_USB_GET_ROOT_HUB_NAME, IOCTL_USB_GET_ROOT_HUB_NAME control, IOCTL_USB_GET_ROOT_HUB_NAME control code [Buses], buses.ioctl_usb_get_root_hub_name, usbioctl/IOCTL_USB_GET_ROOT_HUB_NAME, usbirp_cf8d4d13-20cc-4134-8050-e3cd376a632e.xml
 f1_keywords:
  - "usbioctl/IOCTL_USB_GET_ROOT_HUB_NAME"
+ - "IOCTL_USB_GET_ROOT_HUB_NAME"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

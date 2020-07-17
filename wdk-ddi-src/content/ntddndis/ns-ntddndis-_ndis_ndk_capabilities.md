@@ -10,6 +10,7 @@ keywords: ["_NDIS_NDK_CAPABILITIES structure"]
 ms.keywords: "*PNDIS_NDK_CAPABILITIES, NDIS_NDK_CAPABILITIES, NDIS_NDK_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_CAPABILITIES, PNDIS_NDK_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_CAPABILITIES, netvista.ndis_ndk_capabilities, ntddndis/NDIS_NDK_CAPABILITIES, ntddndis/PNDIS_NDK_CAPABILITIES"
 f1_keywords:
  - "ntddndis/NDIS_NDK_CAPABILITIES"
+ - "NDIS_NDK_CAPABILITIES"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

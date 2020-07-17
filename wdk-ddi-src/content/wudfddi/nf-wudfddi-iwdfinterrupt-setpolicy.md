@@ -10,6 +10,7 @@ keywords: ["IWDFInterrupt::SetPolicy"]
 ms.keywords: IWDFInterrupt interface,SetPolicy method, IWDFInterrupt.SetPolicy, IWDFInterrupt::SetPolicy, SetPolicy, SetPolicy method, SetPolicy method,IWDFInterrupt interface, umdf.iwdfinterrupt_setpolicy, wdf.iwdfinterrupt_setpolicy, wudfddi/IWDFInterrupt::SetPolicy
 f1_keywords:
  - "wudfddi/IWDFInterrupt.SetPolicy"
+ - "IWDFInterrupt.SetPolicy"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

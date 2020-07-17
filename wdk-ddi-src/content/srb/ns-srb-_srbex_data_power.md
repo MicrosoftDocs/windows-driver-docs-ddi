@@ -10,6 +10,7 @@ keywords: ["_SRBEX_DATA_POWER structure"]
 ms.keywords: "*PSRBEX_DATA_POWER, PSRBEX_DATA_POWER, PSRBEX_DATA_POWER structure pointer [Storage Devices], SRBEX_DATA_POWER, SRBEX_DATA_POWER structure [Storage Devices], _SRBEX_DATA_POWER, storage.srbex_data_power, storport/PSRBEX_DATA_POWER, storport/SRBEX_DATA_POWER"
 f1_keywords:
  - "srb/SRBEX_DATA_POWER"
+ - "SRBEX_DATA_POWER"
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows

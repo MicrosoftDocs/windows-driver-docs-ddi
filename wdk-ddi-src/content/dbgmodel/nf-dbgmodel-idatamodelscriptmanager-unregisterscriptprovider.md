@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["IDataModelScriptManager::UnregisterScriptProvider"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptManager.UnregisterScriptProvider"
+ - "IDataModelScriptManager.UnregisterScriptProvider"
 ms.keywords: IDataModelScriptManager::UnregisterScriptProvider, UnregisterScriptProvider, IDataModelScriptManager.UnregisterScriptProvider, IDataModelScriptManager::UnregisterScriptProvider, IDataModelScriptManager.UnregisterScriptProvider
 req.header: dbgmodel.h
 req.include-header:

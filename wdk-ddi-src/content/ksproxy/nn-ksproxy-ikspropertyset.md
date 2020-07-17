@@ -10,6 +10,7 @@ keywords: ["IKsPropertySet interface"]
 ms.keywords: IKsPropertySet, IKsPropertySet interface [Streaming Media Devices], IKsPropertySet interface [Streaming Media Devices],described, dsound/IKsPropertySet, ksproxy_5f6316c6-5bcf-4155-b4a5-976a0cee8aa5.xml, stream.ikspropertyset
 f1_keywords:
  - "ksproxy/IKsPropertySet"
+ - "IKsPropertySet"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["IOCTL_STORAGE_PROTOCOL_COMMAND IOCTL"]
 ms.keywords: IOCTL_STORAGE_PROTOCOL_COMMAND, IOCTL_STORAGE_PROTOCOL_COMMAND control, IOCTL_STORAGE_PROTOCOL_COMMAND control code [Storage Devices], ntddstor/IOCTL_STORAGE_PROTOCOL_COMMAND, storage.ioctl_storage_protocol_command
 f1_keywords:
  - "ntddstor/IOCTL_STORAGE_PROTOCOL_COMMAND"
+ - "IOCTL_STORAGE_PROTOCOL_COMMAND"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

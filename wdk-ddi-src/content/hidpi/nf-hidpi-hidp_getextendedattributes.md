@@ -10,6 +10,7 @@ keywords: ["HidP_GetExtendedAttributes function"]
 ms.keywords: HidP_GetExtendedAttributes, HidP_GetExtendedAttributes routine [Human Input Devices], hid.hidp_getextendedattributes, hidfunc_2870ef44-8659-4c02-9fc6-659581684253.xml, hidpi/HidP_GetExtendedAttributes
 f1_keywords:
  - "hidpi/HidP_GetExtendedAttributes"
+ - "HidP_GetExtendedAttributes"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

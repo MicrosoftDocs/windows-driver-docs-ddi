@@ -10,6 +10,7 @@ keywords: ["_D3DDDIARG_STATESET structure"]
 ms.keywords: D3DDDIARG_STATESET, D3DDDIARG_STATESET structure [Display Devices], UMDisplayDriver_param_Structs_926f9aca-1ecc-4086-88b7-0d07df9a05ae.xml, _D3DDDIARG_STATESET, d3dumddi/D3DDDIARG_STATESET, display.d3dddiarg_stateset
 f1_keywords:
  - "d3dumddi/D3DDDIARG_STATESET"
+ - "D3DDDIARG_STATESET"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

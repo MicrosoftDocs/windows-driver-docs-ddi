@@ -10,6 +10,7 @@ keywords: ["EVT_SERCX2_FILECLOSE callback function"]
 ms.keywords: 2/EvtSerCx2FileClose, EVT_SERCX2_FILECLOSE, EVT_SERCX2_FILECLOSE callback, EvtSerCx2FileClose, EvtSerCx2FileClose callback function [Serial Ports], serports.evtsercx2fileclose
 f1_keywords:
  - "sercx/EvtSerCx2FileClose"
+ - "EvtSerCx2FileClose"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["NDK_FN_ARM_CQ callback function"]
 ms.keywords: NDK_FN_ARM_CQ, NDK_FN_ARM_CQ callback, NdkArmCq, NdkArmCq callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkArmCq, netvista.ndk_fn_arm_cq
 f1_keywords:
  - "ndkpi/NdkArmCq"
+ - "NdkArmCq"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

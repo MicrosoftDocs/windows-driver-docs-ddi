@@ -10,6 +10,7 @@ keywords: ["IOCTL_SWENUM_INSTALL_INTERFACE IOCTL"]
 ms.keywords: IOCTL_SWENUM_INSTALL_INTERFACE, IOCTL_SWENUM_INSTALL_INTERFACE control, IOCTL_SWENUM_INSTALL_INTERFACE control code [Streaming Media Devices], stream.ioctl_swenum_install_interface, swenum/IOCTL_SWENUM_INSTALL_INTERFACE
 f1_keywords:
  - "swenum/IOCTL_SWENUM_INSTALL_INTERFACE"
+ - "IOCTL_SWENUM_INSTALL_INTERFACE"
 req.header: swenum.h
 req.include-header: 
 req.target-type: Windows

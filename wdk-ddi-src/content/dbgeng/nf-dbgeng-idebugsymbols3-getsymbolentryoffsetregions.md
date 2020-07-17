@@ -10,6 +10,7 @@ keywords: ["IDebugSymbols3::GetSymbolEntryOffsetRegions"]
 ms.keywords: GetSymbolEntryOffsetRegions, GetSymbolEntryOffsetRegions method [Windows Debugging], GetSymbolEntryOffsetRegions method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntryOffsetRegions method, IDebugSymbols3.GetSymbolEntryOffsetRegions, IDebugSymbols3::GetSymbolEntryOffsetRegions, dbgeng/IDebugSymbols3::GetSymbolEntryOffsetRegions, debugger.idebugsymbols3_getsymbolentryoffsetregions
 f1_keywords:
  - "dbgeng/IDebugSymbols3.GetSymbolEntryOffsetRegions"
+ - "IDebugSymbols3.GetSymbolEntryOffsetRegions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["FltDeleteContext function"]
 ms.keywords: FltApiRef_a_to_d_d4c075e6-7a69-4d2f-9017-eccbf55eb9e0.xml, FltDeleteContext, FltDeleteContext function [Installable File System Drivers], fltkernel/FltDeleteContext, ifsk.fltdeletecontext
 f1_keywords:
  - "fltkernel/FltDeleteContext"
+ - "FltDeleteContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

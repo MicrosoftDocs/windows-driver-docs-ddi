@@ -7,6 +7,7 @@ ms.date: 10/01/2018
 keywords: ["_IVRS_IVINFO structure"]
 f1_keywords:
  - "acpitabl/_IVRS_IVINFO"
+ - "_IVRS_IVINFO"
 ms.keywords: _IVRS_IVINFO, IVRS_IVINFO, *PIVRS_IVINFO, 
 req.header: acpitabl.h
 req.include-header:

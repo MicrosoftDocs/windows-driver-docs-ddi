@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTOpenKeyedMutexFromNtHandle function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTOpenKeyedMutexFromNtHandle"
+ - "D3DKMTOpenKeyedMutexFromNtHandle"
 ms.keywords: D3DKMTOpenKeyedMutexFromNtHandle
 req.header: d3dkmthk.h
 req.include-header:

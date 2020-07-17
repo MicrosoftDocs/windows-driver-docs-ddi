@@ -10,6 +10,7 @@ keywords: ["ExInterlockedCompareExchange64 macro"]
 ms.keywords: ExInterlockedCompareExchange64, ExInterlockedCompareExchange64 routine [Kernel-Mode Driver Architecture], k102_424c24f9-3965-40fd-b02b-f9bf1f7df4ec.xml, kernel.exinterlockedcompareexchange64, wdm/ExInterlockedCompareExchange64
 f1_keywords:
  - "wdm/ExInterlockedCompareExchange64"
+ - "ExInterlockedCompareExchange64"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

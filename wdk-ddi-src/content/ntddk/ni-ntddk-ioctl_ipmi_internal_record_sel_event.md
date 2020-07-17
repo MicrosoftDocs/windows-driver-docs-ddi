@@ -10,6 +10,7 @@ ms.date: 08/19/2019
 keywords: ["IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT IOCTL"]
 f1_keywords:
  - "ntddk/IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT"
+ - "IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT"
 req.header: ntddk.h
 req.include-header:
 req.target-type:

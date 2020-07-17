@@ -10,6 +10,7 @@ keywords: ["ReadPointer function"]
 ms.keywords: ReadPointer, ReadPointer function [Windows Debugging], WdbgExts_Ref_3d78e28a-910f-4b82-a262-28d83d87c6f1.xml, debugger.readpointer, wdbgexts/ReadPointer
 f1_keywords:
  - "wdbgexts/ReadPointer"
+ - "ReadPointer"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

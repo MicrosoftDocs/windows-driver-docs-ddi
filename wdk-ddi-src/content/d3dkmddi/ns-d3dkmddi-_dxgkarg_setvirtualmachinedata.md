@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_DXGKARG_SETVIRTUALMACHINEDATA structure"]
 f1_keywords:
  - "d3dkmddi/_DXGKARG_SETVIRTUALMACHINEDATA"
+ - "_DXGKARG_SETVIRTUALMACHINEDATA"
 ms.keywords: _DXGKARG_SETVIRTUALMACHINEDATA, DXGKARG_SETVIRTUALMACHINEDATA,
 req.header: d3dkmddi.h
 req.include-header:

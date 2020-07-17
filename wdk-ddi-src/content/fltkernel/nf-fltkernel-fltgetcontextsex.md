@@ -10,6 +10,7 @@ keywords: ["FltGetContextsEx function"]
 ms.keywords: FltGetContextsEx, FltGetContextsEx routine [Installable File System Drivers], fltkernel/FltGetContextsEx, ifsk.fltgetcontextsex
 f1_keywords:
  - "fltkernel/FltGetContextsEx"
+ - "FltGetContextsEx"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

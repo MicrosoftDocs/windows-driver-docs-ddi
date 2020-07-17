@@ -10,6 +10,7 @@ keywords: ["KSFRAMETIME structure"]
 ms.keywords: "*PKSFRAMETIME, KSFRAMETIME, KSFRAMETIME structure [Streaming Media Devices], PKSFRAMETIME, PKSFRAMETIME structure pointer [Streaming Media Devices], ks-struct_3abc9b81-d7e7-455c-a577-2efa7c986cc5.xml, ks/KSFRAMETIME, ks/PKSFRAMETIME, stream.ksframetime"
 f1_keywords:
  - "ks/KSFRAMETIME"
+ - "KSFRAMETIME"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

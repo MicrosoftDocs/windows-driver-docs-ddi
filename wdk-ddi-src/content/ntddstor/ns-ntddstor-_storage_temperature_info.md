@@ -10,6 +10,7 @@ keywords: ["_STORAGE_TEMPERATURE_INFO structure"]
 ms.keywords: "*PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO structure pointer [Storage Devices], STORAGE_TEMPERATURE_INFO, STORAGE_TEMPERATURE_INFO structure [Storage Devices], _STORAGE_TEMPERATURE_INFO, ntddstor/PSTORAGE_TEMPERATURE_INFO, ntddstor/STORAGE_TEMPERATURE_INFO, storage.storage_temperature_info"
 f1_keywords:
  - "ntddstor/STORAGE_TEMPERATURE_INFO"
+ - "STORAGE_TEMPERATURE_INFO"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

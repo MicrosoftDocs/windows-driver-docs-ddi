@@ -10,6 +10,7 @@ keywords: ["_DXVA_DeinterlaceBltEx32 structure"]
 ms.keywords: DXVA_DeinterlaceBltEx32, DXVA_DeinterlaceBltEx32 structure [Display Devices], _DXVA_DeinterlaceBltEx32, display.dxva_deinterlacebltex32, dxva/DXVA_DeinterlaceBltEx32, dxvaref_93b5f3fe-0474-4efe-8d8f-b57e5c3f267d.xml
 f1_keywords:
  - "dxva/DXVA_DeinterlaceBltEx32"
+ - "DXVA_DeinterlaceBltEx32"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

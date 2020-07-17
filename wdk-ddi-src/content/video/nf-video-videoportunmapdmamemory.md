@@ -10,6 +10,7 @@ keywords: ["VideoPortUnmapDmaMemory function"]
 ms.keywords: VideoPortUnmapDmaMemory, VideoPortUnmapDmaMemory function [Display Devices], VideoPort_Functions_f2162fff-c7a8-4dde-aa17-94377f0cf716.xml, display.videoportunmapdmamemory, video/VideoPortUnmapDmaMemory
 f1_keywords:
  - "video/VideoPortUnmapDmaMemory"
+ - "VideoPortUnmapDmaMemory"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

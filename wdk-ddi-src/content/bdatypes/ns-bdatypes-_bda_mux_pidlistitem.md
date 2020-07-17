@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["_BDA_MUX_PIDLISTITEM structure"]
 f1_keywords:
  - "bdatypes/_BDA_MUX_PIDLISTITEM"
+ - "_BDA_MUX_PIDLISTITEM"
 ms.keywords: _BDA_MUX_PIDLISTITEM, BDA_MUX_PIDLISTITEM, *PBDA_MUX_PIDLISTITEM, 
 req.header: bdatypes.h
 req.include-header:

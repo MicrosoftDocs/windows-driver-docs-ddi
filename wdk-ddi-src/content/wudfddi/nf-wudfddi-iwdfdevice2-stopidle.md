@@ -10,6 +10,7 @@ keywords: ["IWDFDevice2::StopIdle"]
 ms.keywords: IWDFDevice2 interface,StopIdle method, IWDFDevice2.StopIdle, IWDFDevice2::StopIdle, StopIdle, StopIdle method, StopIdle method,IWDFDevice2 interface, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml, umdf.iwdfdevice2_stopidle, wdf.iwdfdevice2_stopidle, wudfddi/IWDFDevice2::StopIdle
 f1_keywords:
  - "wudfddi/IWDFDevice2.StopIdle"
+ - "IWDFDevice2.StopIdle"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_FREEGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DKMT_FREEGPUVIRTUALADDRESS, D3DKMT_FREEGPUVIRTUALADDRESS structure [Display Devices], _D3DKMT_FREEGPUVIRTUALADDRESS, d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS, display.d3dkmt_freegpuvirtualaddress
 f1_keywords:
  - "d3dkmthk/D3DKMT_FREEGPUVIRTUALADDRESS"
+ - "D3DKMT_FREEGPUVIRTUALADDRESS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

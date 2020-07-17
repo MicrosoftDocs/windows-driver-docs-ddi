@@ -10,6 +10,7 @@ keywords: ["IPortClsEtwHelper::MiniportWriteEtwEvent"]
 ms.keywords: IPortClsEtwHelper interface [Audio Devices],MiniportWriteEtwEvent method, IPortClsEtwHelper.MiniportWriteEtwEvent, IPortClsEtwHelper::MiniportWriteEtwEvent, MiniportWriteEtwEvent, MiniportWriteEtwEvent method [Audio Devices], MiniportWriteEtwEvent method [Audio Devices],IPortClsEtwHelper interface, audio.iportclsetwhelper_miniportwriteetwevent, portcls/IPortClsEtwHelper::MiniportWriteEtwEvent
 f1_keywords:
  - "portcls/IPortClsEtwHelper.MiniportWriteEtwEvent"
+ - "IPortClsEtwHelper.MiniportWriteEtwEvent"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

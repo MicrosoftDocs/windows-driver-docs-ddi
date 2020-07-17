@@ -10,6 +10,7 @@ keywords: ["_WDF_CHILD_LIST_ITERATOR structure"]
 ms.keywords: "*PWDF_CHILD_LIST_ITERATOR, DFDeviceObjectChildListRef_5a77ee51-8e18-4e86-afd0-8add561dab4d.xml, PWDF_CHILD_LIST_ITERATOR, PWDF_CHILD_LIST_ITERATOR structure pointer, WDF_CHILD_LIST_ITERATOR, WDF_CHILD_LIST_ITERATOR structure, _WDF_CHILD_LIST_ITERATOR, kmdf.wdf_child_list_iterator, wdf.wdf_child_list_iterator, wdfchildlist/PWDF_CHILD_LIST_ITERATOR, wdfchildlist/WDF_CHILD_LIST_ITERATOR"
 f1_keywords:
  - "wdfchildlist/WDF_CHILD_LIST_ITERATOR"
+ - "WDF_CHILD_LIST_ITERATOR"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Windows

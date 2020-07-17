@@ -8,6 +8,7 @@ ms.date: 02/08/2018
 keywords: ["NetRequestCompleteWithoutInformation function"]
 f1_keywords:
  - "netrequest/NetRequestCompleteWithoutInformation"
+ - "NetRequestCompleteWithoutInformation"
 ms.keywords: NetRequestCompleteWithoutInformation
 req.header: netrequest.h
 req.include-header: netadaptercx.h

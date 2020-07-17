@@ -10,6 +10,7 @@ keywords: ["RILUICCLOCK structure"]
 ms.keywords: "*LPRILUICCLOCK, RILUICCLOCK, RILUICCLOCK structure [Network Drivers Starting with Windows Vista], netvista.riluicclock, rilapitypes/RILUICCLOCK"
 f1_keywords:
  - "ntddrilapitypes/RILUICCLOCK"
+ - "RILUICCLOCK"
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h
 req.target-type: Windows

@@ -8,6 +8,7 @@ ms.date: 04/09/2019
 keywords: ["_WWAN_UICC_FILE_STRUCTURE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_UICC_FILE_STRUCTURE"
+ - "_WWAN_UICC_FILE_STRUCTURE"
 ms.keywords: _WWAN_UICC_FILE_STRUCTURE, WWAN_UICC_FILE_STRUCTURE, *PWWAN_UICC_FILE_STRUCTURE, 
 req.header: wwan.h
 req.include-header:

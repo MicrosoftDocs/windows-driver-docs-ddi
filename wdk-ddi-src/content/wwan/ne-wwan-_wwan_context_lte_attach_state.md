@@ -8,6 +8,7 @@ ms.date: 08/23/2018
 keywords: ["_WWAN_CONTEXT_LTE_ATTACH_STATE enumeration"]
 f1_keywords:
  - "wwan/_WWAN_CONTEXT_LTE_ATTACH_STATE"
+ - "_WWAN_CONTEXT_LTE_ATTACH_STATE"
 ms.keywords: _WWAN_CONTEXT_LTE_ATTACH_STATE, WWAN_CONTEXT_LTE_ATTACH_STATE, *PWWAN_CONTEXT_LTE_ATTACH_STATE, 
 req.header: wwan.h
 req.include-header:

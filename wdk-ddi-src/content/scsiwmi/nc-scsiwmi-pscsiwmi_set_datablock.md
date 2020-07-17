@@ -10,6 +10,7 @@ keywords: ["PSCSIWMI_SET_DATABLOCK callback function"]
 ms.keywords: HwScsiWmiSetDataBlock, HwScsiWmiSetDataBlock callback function [Storage Devices], PSCSIWMI_SET_DATABLOCK, PSCSIWMI_SET_DATABLOCK callback, Scsimini_b75fb6d1-48dc-4fcb-ae05-bf278c382ecf.xml, scsiwmi/HwScsiWmiSetDataBlock, storage.hwscsiwmisetdatablock
 f1_keywords:
  - "scsiwmi/HwScsiWmiSetDataBlock"
+ - "HwScsiWmiSetDataBlock"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Desktop

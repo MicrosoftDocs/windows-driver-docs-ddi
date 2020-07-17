@@ -10,6 +10,7 @@ keywords: ["_timecode structure"]
 ms.keywords: "*PTIMECODE, PTIMECODE, PTIMECODE union pointer [Streaming Media Devices], TIMECODE, TIMECODE union [Streaming Media Devices], _timecode, ksmedia/PTIMECODE, ksmedia/TIMECODE, stream.timecode, vidcapstruct_80e1d01b-8140-49e8-83bd-210fb38ea0bc.xml"
 f1_keywords:
  - "ksmedia/TIMECODE"
+ - "TIMECODE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

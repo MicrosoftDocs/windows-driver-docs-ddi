@@ -10,6 +10,7 @@ keywords: ["RILEXECUTORFLAG enumeration"]
 ms.keywords: RILEXECUTORFLAG, RILEXECUTORFLAG enumeration [Network Drivers Starting with Windows Vista], RIL_EXECUTORFLAG_ALL, RIL_EXECUTORFLAG_HIGHPRIORITY, netvista.rilexecutorflag, ntddrilapitypes/RILEXECUTORFLAG, ntddrilapitypes/RIL_EXECUTORFLAG_ALL, ntddrilapitypes/RIL_EXECUTORFLAG_HIGHPRIORITY
 f1_keywords:
  - "rilapitypes/RILEXECUTORFLAG"
+ - "RILEXECUTORFLAG"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

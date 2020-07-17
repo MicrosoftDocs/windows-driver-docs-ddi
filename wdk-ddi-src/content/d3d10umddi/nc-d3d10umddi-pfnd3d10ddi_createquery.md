@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3d10umddi/CreateQuery"
+ - "CreateQuery"
 topic_type:
  - APIRef
  - kbSyntax

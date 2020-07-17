@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelperUni::EnumConstrainedOptions"]
 ms.keywords: EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],EnumConstrainedOptions method, IPrintCoreHelperUni.EnumConstrainedOptions, IPrintCoreHelperUni::EnumConstrainedOptions, prcomoem/IPrintCoreHelperUni::EnumConstrainedOptions, print.iprintcorehelperuni_enumconstrainedoptions, print_unidrv-pscript_allplugins_1acbff6a-b43d-4504-b2dc-69713a61261f.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelperUni.EnumConstrainedOptions"
+ - "IPrintCoreHelperUni.EnumConstrainedOptions"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

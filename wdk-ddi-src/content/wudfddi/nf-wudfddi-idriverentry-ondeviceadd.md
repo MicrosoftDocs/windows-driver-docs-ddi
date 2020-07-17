@@ -10,6 +10,7 @@ keywords: ["IDriverEntry::OnDeviceAdd"]
 ms.keywords: IDriverEntry interface,OnDeviceAdd method, IDriverEntry.OnDeviceAdd, IDriverEntry::OnDeviceAdd, OnDeviceAdd, OnDeviceAdd method, OnDeviceAdd method,IDriverEntry interface, UMDFDriverObjectRef_81d1022a-84b6-4a2e-a227-57f30c515171.xml, umdf.idriverentry_ondeviceadd, wdf.idriverentry_ondeviceadd, wudfddi/IDriverEntry::OnDeviceAdd
 f1_keywords:
  - "wudfddi/IDriverEntry.OnDeviceAdd"
+ - "IDriverEntry.OnDeviceAdd"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PcGetDeviceProperty function"]
 ms.keywords: PcGetDeviceProperty, PcGetDeviceProperty function [Audio Devices], audio.pcgetdeviceproperty, audpc-routines_c95326e5-dc8f-4a04-b31d-6c4e79cc6771.xml, portcls/PcGetDeviceProperty
 f1_keywords:
  - "portcls/PcGetDeviceProperty"
+ - "PcGetDeviceProperty"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IOCTL_MOUNTMGR_DELETE_POINTS IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_DELETE_POINTS, IOCTL_MOUNTMGR_DELETE_POINTS control, IOCTL_MOUNTMGR_DELETE_POINTS control code [Storage Devices], k307_c218ecf5-b934-4cad-934c-738cde9bff2b.xml, mountmgr/IOCTL_MOUNTMGR_DELETE_POINTS, storage.ioctl_mountmgr_delete_points
 f1_keywords:
  - "mountmgr/IOCTL_MOUNTMGR_DELETE_POINTS"
+ - "IOCTL_MOUNTMGR_DELETE_POINTS"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows

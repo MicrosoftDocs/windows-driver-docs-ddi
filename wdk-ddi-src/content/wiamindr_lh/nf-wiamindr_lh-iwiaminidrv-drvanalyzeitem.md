@@ -10,6 +10,7 @@ keywords: ["IWiaMiniDrv::drvAnalyzeItem"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvAnalyzeItem method, IWiaMiniDrv.drvAnalyzeItem, IWiaMiniDrv::drvAnalyzeItem, MiniDrv_dfa93eeb-ea39-44b6-b465-5bff0f056763.xml, drvAnalyzeItem, drvAnalyzeItem method [Imaging Devices], drvAnalyzeItem method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvanalyzeitem, wiamindr_lh/IWiaMiniDrv::drvAnalyzeItem
 f1_keywords:
  - "wiamindr_lh/IWiaMiniDrv.drvAnalyzeItem"
+ - "IWiaMiniDrv.drvAnalyzeItem"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop

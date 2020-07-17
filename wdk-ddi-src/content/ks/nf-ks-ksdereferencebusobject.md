@@ -10,6 +10,7 @@ keywords: ["KsDereferenceBusObject function"]
 ms.keywords: KsDereferenceBusObject, KsDereferenceBusObject function [Streaming Media Devices], ks/KsDereferenceBusObject, ksfunc_e3b1ab42-bb78-44f7-bc34-64edcf843471.xml, stream.ksdereferencebusobject
 f1_keywords:
  - "ks/KsDereferenceBusObject"
+ - "KsDereferenceBusObject"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

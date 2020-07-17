@@ -10,6 +10,7 @@ keywords: ["PVALIDATESTREAM callback function"]
 ms.keywords: PVALIDATESTREAM, PVALIDATESTREAM callback, SdpValidateStream, SdpValidateStream callback function [Bluetooth Devices], bltooth.sdpvalidatestream, bth_funcs_1ba1d0ff-b873-4a38-8c5d-71e8afa35861.xml, bthsdpddi/SdpValidateStream
 f1_keywords:
  - "bthsdpddi/SdpValidateStream"
+ - "SdpValidateStream"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

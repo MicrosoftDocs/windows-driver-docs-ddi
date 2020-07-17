@@ -10,6 +10,7 @@ keywords: ["_DEVOBJ structure"]
 ms.keywords: "*PDEVOBJ, DEVOBJ, DEVOBJ structure [Print Devices], _DEVOBJ, print.devobj, print_unidrv-pscript_rendering_defda1bb-3862-4b55-a7bf-38b040667c97.xml, printoem/DEVOBJ"
 f1_keywords:
  - "printoem/DEVOBJ"
+ - "DEVOBJ"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

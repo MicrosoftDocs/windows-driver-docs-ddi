@@ -7,6 +7,7 @@ ms.date: 08/09/2018
 keywords: ["IModelObject::GetConcept"]
 f1_keywords:
  - "dbgmodel/IModelObject.GetConcept"
+ - "IModelObject.GetConcept"
 ms.keywords: IModelObject::GetConcept, GetConcept, IModelObject.GetConcept, IModelObject::GetConcept, IModelObject.GetConcept
 req.header: dbgmodel.h
 req.include-header:

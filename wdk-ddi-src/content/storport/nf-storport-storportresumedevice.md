@@ -10,6 +10,7 @@ keywords: ["StorPortResumeDevice function"]
 ms.keywords: StorPortResumeDevice, StorPortResumeDevice routine [Storage Devices], storage.storportresumedevice, storport/StorPortResumeDevice, storprt_62696d8f-cfb1-43fd-8b23-b14f1ac0d429.xml
 f1_keywords:
  - "storport/StorPortResumeDevice"
+ - "StorPortResumeDevice"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

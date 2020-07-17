@@ -10,6 +10,7 @@ keywords: ["GdiGetPageCount function"]
 ms.keywords: GdiGetPageCount, GdiGetPageCount function [Print Devices], gdifnc_f34bbc65-29f2-47b1-aec3-523af01a804c.xml, print.gdigetpagecount, winppi/GdiGetPageCount
 f1_keywords:
  - "winppi/GdiGetPageCount"
+ - "GdiGetPageCount"
 req.header: winppi.h
 req.include-header: Winppi.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["IKsNotifyEvent::KsNotifyEvent"]
 ms.keywords: IKsNotifyEvent interface [Streaming Media Devices],KsNotifyEvent method, IKsNotifyEvent.KsNotifyEvent, IKsNotifyEvent::KsNotifyEvent, KsNotifyEvent, KsNotifyEvent method [Streaming Media Devices], KsNotifyEvent method [Streaming Media Devices],IKsNotifyEvent interface, ksproxy/IKsNotifyEvent::KsNotifyEvent, ksproxy_0fb6c49f-3aef-411d-90db-cf9a4186cdd9.xml, stream.iksnotifyevent_ksnotifyevent
 f1_keywords:
  - "ksproxy/IKsNotifyEvent.KsNotifyEvent"
+ - "IKsNotifyEvent.KsNotifyEvent"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

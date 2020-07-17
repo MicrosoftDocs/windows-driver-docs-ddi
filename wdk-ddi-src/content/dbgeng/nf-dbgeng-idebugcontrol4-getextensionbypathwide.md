@@ -10,6 +10,7 @@ keywords: ["IDebugControl4::GetExtensionByPathWide"]
 ms.keywords: GetExtensionByPathWide, GetExtensionByPathWide method [Windows Debugging], GetExtensionByPathWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetExtensionByPathWide method, IDebugControl4.GetExtensionByPathWide, IDebugControl4::GetExtensionByPathWide, dbgeng/IDebugControl4::GetExtensionByPathWide, debugger.getextensionbypathwide
 f1_keywords:
  - "dbgeng/IDebugControl4.GetExtensionByPathWide"
+ - "IDebugControl4.GetExtensionByPathWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

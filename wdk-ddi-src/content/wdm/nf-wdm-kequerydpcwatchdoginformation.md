@@ -10,6 +10,7 @@ keywords: ["KeQueryDpcWatchdogInformation function"]
 ms.keywords: KeQueryDpcWatchdogInformation, KeQueryDpcWatchdogInformation routine [Kernel-Mode Driver Architecture], k105_0a2f37cc-0062-4315-b7f1-9bbe814d69b4.xml, kernel.kequerydpcwatchdoginformation, wdm/KeQueryDpcWatchdogInformation
 f1_keywords:
  - "wdm/KeQueryDpcWatchdogInformation"
+ - "KeQueryDpcWatchdogInformation"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

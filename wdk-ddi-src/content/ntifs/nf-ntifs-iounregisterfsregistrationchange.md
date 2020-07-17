@@ -10,6 +10,7 @@ keywords: ["IoUnregisterFsRegistrationChange function"]
 ms.keywords: IoUnregisterFsRegistrationChange, IoUnregisterFsRegistrationChange routine [Installable File System Drivers], ifsk.iounregisterfsregistrationchange, ioref_18a53f5a-49f9-40ba-bf85-d2fea7d6fbfb.xml, ntifs/IoUnregisterFsRegistrationChange
 f1_keywords:
  - "ntifs/IoUnregisterFsRegistrationChange"
+ - "IoUnregisterFsRegistrationChange"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

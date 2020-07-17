@@ -10,6 +10,7 @@ keywords: ["IDebugControl3::GetExpressionSyntax"]
 ms.keywords: GetExpressionSyntax, GetExpressionSyntax method [Windows Debugging], GetExpressionSyntax method [Windows Debugging],IDebugControl3 interface, IDebugControl3 interface [Windows Debugging],GetExpressionSyntax method, IDebugControl3.GetExpressionSyntax, IDebugControl3::GetExpressionSyntax, IDebugControl_9eae3270-fd1f-4d50-875b-3bd9908ba76d.xml, dbgeng/IDebugControl3::GetExpressionSyntax, debugger.getexpressionsyntax
 f1_keywords:
  - "dbgeng/IDebugControl3.GetExpressionSyntax"
+ - "IDebugControl3.GetExpressionSyntax"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

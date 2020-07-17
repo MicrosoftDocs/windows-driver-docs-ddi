@@ -10,6 +10,7 @@ keywords: ["_WDF_TASK_SEND_OPTIONS_FLAGS enumeration"]
 ms.keywords: WDF_TASK_SEND_OPTIONS_FLAGS, WDF_TASK_SEND_OPTIONS_FLAGS enumeration, WDF_TASK_SEND_OPTION_SYNCHRONOUS, WDF_TASK_SEND_OPTION_TIMEOUT, _WDF_TASK_SEND_OPTIONS_FLAGS, wdf.wdf_task_send_options_flags, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_FLAGS, wdfcompaniontarget/WDF_TASK_SEND_OPTION_SYNCHRONOUS, wdfcompaniontarget/WDF_TASK_SEND_OPTION_TIMEOUT
 f1_keywords:
  - "wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_FLAGS"
+ - "WDF_TASK_SEND_OPTIONS_FLAGS"
 req.header: wdfcompaniontarget.h
 req.include-header: 
 req.target-type: Windows

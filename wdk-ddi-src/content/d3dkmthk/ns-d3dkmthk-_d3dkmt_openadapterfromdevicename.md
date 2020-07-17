@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_OPENADAPTERFROMDEVICENAME structure"]
 ms.keywords: D3DKMT_OPENADAPTERFROMDEVICENAME, D3DKMT_OPENADAPTERFROMDEVICENAME structure [Display Devices], OpenGL_Structs_f710fec6-a0f4-4b86-b4ba-5f8411deb490.xml, _D3DKMT_OPENADAPTERFROMDEVICENAME, d3dkmthk/D3DKMT_OPENADAPTERFROMDEVICENAME, display.d3dkmt_openadapterfromdevicename
 f1_keywords:
  - "d3dkmthk/D3DKMT_OPENADAPTERFROMDEVICENAME"
+ - "D3DKMT_OPENADAPTERFROMDEVICENAME"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

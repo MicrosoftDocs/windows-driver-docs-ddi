@@ -10,6 +10,7 @@ keywords: ["IPrintPipelineManagerControl interface"]
 ms.keywords: IPrintPipelineManagerControl, IPrintPipelineManagerControl interface [Print Devices], IPrintPipelineManagerControl interface [Print Devices],described, filterpipeline/IPrintPipelineManagerControl, filterpipeline_5b9732d1-6a75-4059-84fa-1bbbdeb70eb3.xml, print.iprintpipelinemanagercontrol
 f1_keywords:
  - "filterpipeline/IPrintPipelineManagerControl"
+ - "IPrintPipelineManagerControl"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

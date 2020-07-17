@@ -10,6 +10,7 @@ ms.date: 05/08/2019
 keywords: ["KBUGCHECK_REMOVE_PAGES structure"]
 f1_keywords:
  - "wdm/_KBUGCHECK_REMOVE_PAGES"
+ - "_KBUGCHECK_REMOVE_PAGES"
 ms.keywords: KBUGCHECK_REMOVE_PAGES, KBUGCHECK_REMOVE_PAGES, *PKBUGCHECK_REMOVE_PAGES, 
 req.header: wdm.h
 req.include-header:

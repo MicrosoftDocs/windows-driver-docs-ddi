@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioSignalProcessing interface"]
 ms.keywords: IMiniportAudioSignalProcessing, IMiniportAudioSignalProcessing interface [Audio Devices], IMiniportAudioSignalProcessing interface [Audio Devices],described, audio.iminiportaudiosignalprocessing, portcls/IMiniportAudioSignalProcessing
 f1_keywords:
  - "portcls/IMiniportAudioSignalProcessing"
+ - "IMiniportAudioSignalProcessing"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

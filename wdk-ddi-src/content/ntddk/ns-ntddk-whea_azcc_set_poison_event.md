@@ -32,6 +32,7 @@ api_name:
 f1_keywords:
  - ntddk/_WHEA_AZCC_SET_POISON_EVENT
  - ntddk/WHEA_AZCC_SET_POISON_EVENT
+ - ""
 dev_langs:
  - c++
 ---

@@ -10,6 +10,7 @@ keywords: ["WdfCollectionGetFirstItem function"]
 ms.keywords: DFCollectionObjectRef_1a816492-f120-48f9-9c10-88f71947008c.xml, WdfCollectionGetFirstItem, WdfCollectionGetFirstItem method, kmdf.wdfcollectiongetfirstitem, wdf.wdfcollectiongetfirstitem, wdfcollection/WdfCollectionGetFirstItem
 f1_keywords:
  - "wdfcollection/WdfCollectionGetFirstItem"
+ - "WdfCollectionGetFirstItem"
 req.header: wdfcollection.h
 req.include-header: Wdf.h
 req.target-type: Universal

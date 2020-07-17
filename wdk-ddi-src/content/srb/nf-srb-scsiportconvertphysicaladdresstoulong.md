@@ -10,6 +10,7 @@ keywords: ["ScsiPortConvertPhysicalAddressToUlong function"]
 ms.keywords: ScsiPortConvertPhysicalAddressToUlong, ScsiPortConvertPhysicalAddressToUlong routine [Storage Devices], scsiprt_5417817d-81ab-4ba9-96f6-589991aecfce.xml, srb/ScsiPortConvertPhysicalAddressToUlong, storage.scsiportconvertphysicaladdresstoulong
 f1_keywords:
  - "srb/ScsiPortConvertPhysicalAddressToUlong"
+ - "ScsiPortConvertPhysicalAddressToUlong"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

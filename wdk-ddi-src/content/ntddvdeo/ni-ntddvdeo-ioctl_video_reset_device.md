@@ -10,6 +10,7 @@ keywords: ["IOCTL_VIDEO_RESET_DEVICE IOCTL"]
 ms.keywords: IOCTL_VIDEO_RESET_DEVICE, IOCTL_VIDEO_RESET_DEVICE control, IOCTL_VIDEO_RESET_DEVICE control code [Display Devices], Video_IOCTLs_18bd8312-fd29-4e9c-bd8b-83c5f0e84fbf.xml, display.ioctl_video_reset_device, ntddvdeo/IOCTL_VIDEO_RESET_DEVICE
 f1_keywords:
  - "ntddvdeo/IOCTL_VIDEO_RESET_DEVICE"
+ - "IOCTL_VIDEO_RESET_DEVICE"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows

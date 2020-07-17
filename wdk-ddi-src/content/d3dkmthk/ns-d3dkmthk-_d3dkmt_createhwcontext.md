@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_CREATEHWCONTEXT structure"]
 ms.keywords: D3DKMT_CREATEHWCONTEXT, D3DKMT_CREATEHWCONTEXT structure [Display Devices], _D3DKMT_CREATEHWCONTEXT, d3dkmthk/D3DKMT_CREATEHWCONTEXT, display.d3dkmt_createhwcontext
 f1_keywords:
  - "d3dkmthk/D3DKMT_CREATEHWCONTEXT"
+ - "D3DKMT_CREATEHWCONTEXT"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["StorPortGetVirtualAddress function"]
 ms.keywords: StorPortGetVirtualAddress, StorPortGetVirtualAddress routine [Storage Devices], storage.storportgetvirtualaddress, storport/StorPortGetVirtualAddress, storprt_5245f704-dce0-4683-8510-064ccbb4158c.xml
 f1_keywords:
  - "storport/StorPortGetVirtualAddress"
+ - "StorPortGetVirtualAddress"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

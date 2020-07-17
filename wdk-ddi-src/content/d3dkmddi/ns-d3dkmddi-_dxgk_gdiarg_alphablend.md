@@ -9,6 +9,7 @@ keywords: ["_DXGK_GDIARG_ALPHABLEND structure"]
 ms.keywords: DXGK_GDIARG_ALPHABLEND, DXGK_GDIARG_ALPHABLEND structure [Display Devices], DmStructs_8cbd2c26-3cda-445f-807d-e80038ccc8bd.xml, _DXGK_GDIARG_ALPHABLEND, d3dkmddi/DXGK_GDIARG_ALPHABLEND, display.dxgk_gdiarg_alphablend
 f1_keywords:
  - "d3dkmddi/DXGK_GDIARG_ALPHABLEND"
+ - "DXGK_GDIARG_ALPHABLEND"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

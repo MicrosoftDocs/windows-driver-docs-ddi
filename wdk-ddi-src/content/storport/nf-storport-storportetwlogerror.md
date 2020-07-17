@@ -10,6 +10,7 @@ ms.date: 03/05/2019
 keywords: ["StorPortEtwLogError function"]
 f1_keywords:
  - "storport/StorPortEtwLogError"
+ - "StorPortEtwLogError"
 ms.keywords: StorPortEtwLogError
 req.header: storport.h
 req.include-header:

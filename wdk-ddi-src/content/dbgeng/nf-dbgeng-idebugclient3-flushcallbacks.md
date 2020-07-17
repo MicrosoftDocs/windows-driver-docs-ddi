@@ -10,6 +10,7 @@ keywords: ["IDebugClient3::FlushCallbacks"]
 ms.keywords: FlushCallbacks, FlushCallbacks method [Windows Debugging], FlushCallbacks method [Windows Debugging],IDebugClient interface, FlushCallbacks method [Windows Debugging],IDebugClient2 interface, FlushCallbacks method [Windows Debugging],IDebugClient3 interface, FlushCallbacks method [Windows Debugging],IDebugClient4 interface, FlushCallbacks method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],FlushCallbacks method, IDebugClient2 interface [Windows Debugging],FlushCallbacks method, IDebugClient2::FlushCallbacks, IDebugClient3 interface [Windows Debugging],FlushCallbacks method, IDebugClient3.FlushCallbacks, IDebugClient3::FlushCallbacks, IDebugClient4 interface [Windows Debugging],FlushCallbacks method, IDebugClient4::FlushCallbacks, IDebugClient5 interface [Windows Debugging],FlushCallbacks method, IDebugClient5::FlushCallbacks, IDebugClient::FlushCallbacks, IDebugClient_e808ca3a-5762-419b-96de-4c49984c1ccd.xml, dbgeng/IDebugClient2::FlushCallbacks, dbgeng/IDebugClient3::FlushCallbacks, dbgeng/IDebugClient4::FlushCallbacks, dbgeng/IDebugClient5::FlushCallbacks, dbgeng/IDebugClient::FlushCallbacks, debugger.flushcallbacks
 f1_keywords:
  - "dbgeng/IDebugClient.FlushCallbacks"
+ - "IDebugClient.FlushCallbacks"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

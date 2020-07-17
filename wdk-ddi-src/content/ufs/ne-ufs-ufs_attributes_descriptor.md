@@ -10,6 +10,7 @@ keywords: ["UFS_ATTRIBUTES_DESCRIPTOR enumeration"]
 ms.keywords: UFS_ATTRIBUTES_DESCRIPTOR, UFS_ATTRIBUTES_DESCRIPTOR enumeration [Storage Devices], UFS_Obsolete, UFS_Reserved01, UFS_Reserved02, UFS_Reserved03, UFS_bActiveICCLevel, UFS_bBackgroundOpStatus, UFS_bBootLunEn, UFS_bConfigDescrLock, UFS_bCurrentPowerMode, UFS_bDeviceFFUStatus, UFS_bMaxDataInSize, UFS_bMaxDataOutSize, UFS_bMaxNumOfRTT, UFS_bOutOfOrderDataEn, UFS_bPSAState, UFS_bPurgeStatus, UFS_bRefClkFreq, UFS_dDynCapNeeded, UFS_dPSADataSize, UFS_dSecondsPassed, UFS_wContextConf, UFS_wExceptionEventControl, UFS_wExceptionEventStatus, storage.ufs_attributes_descriptor, ufs/UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_Obsolete, ufs/UFS_Reserved01, ufs/UFS_Reserved02, ufs/UFS_Reserved03, ufs/UFS_bActiveICCLevel, ufs/UFS_bBackgroundOpStatus, ufs/UFS_bBootLunEn, ufs/UFS_bConfigDescrLock, ufs/UFS_bCurrentPowerMode, ufs/UFS_bDeviceFFUStatus, ufs/UFS_bMaxDataInSize, ufs/UFS_bMaxDataOutSize, ufs/UFS_bMaxNumOfRTT, ufs/UFS_bOutOfOrderDataEn, ufs/UFS_bPSAState, ufs/UFS_bPurgeStatus, ufs/UFS_bRefClkFreq, ufs/UFS_dDynCapNeeded, ufs/UFS_dPSADataSize, ufs/UFS_dSecondsPassed, ufs/UFS_wContextConf, ufs/UFS_wExceptionEventControl, ufs/UFS_wExceptionEventStatus
 f1_keywords:
  - "ufs/UFS_ATTRIBUTES_DESCRIPTOR"
+ - "UFS_ATTRIBUTES_DESCRIPTOR"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows

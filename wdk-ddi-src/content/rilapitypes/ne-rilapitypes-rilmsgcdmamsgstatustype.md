@@ -10,6 +10,7 @@ keywords: ["RILMSGCDMAMSGSTATUSTYPE enumeration"]
 ms.keywords: RILMSGCDMAMSGSTATUSTYPE, RILMSGCDMAMSGSTATUSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_MSGSTATUSTYPE_DELIVERYACK, RIL_MSGSTATUSTYPE_MAX, RIL_MSGSTATUSTYPE_READACK, RIL_MSGSTATUSTYPE_USERACK, netvista.rilmsgcdmamsgstatustype, ntddrilapitypes/RILMSGCDMAMSGSTATUSTYPE, ntddrilapitypes/RIL_MSGSTATUSTYPE_DELIVERYACK, ntddrilapitypes/RIL_MSGSTATUSTYPE_MAX, ntddrilapitypes/RIL_MSGSTATUSTYPE_READACK, ntddrilapitypes/RIL_MSGSTATUSTYPE_USERACK
 f1_keywords:
  - "rilapitypes/RILMSGCDMAMSGSTATUSTYPE"
+ - "RILMSGCDMAMSGSTATUSTYPE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

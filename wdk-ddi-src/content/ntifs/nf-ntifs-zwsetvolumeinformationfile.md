@@ -10,6 +10,7 @@ keywords: ["ZwSetVolumeInformationFile function"]
 ms.keywords: NtSetInformationFile, ZwSetVolumeInformationFile, ZwSetVolumeInformationFile routine [Kernel-Mode Driver Architecture], k111_580470b4-9769-4fec-9811-04f703473131.xml, kernel.zwsetvolumeinformationfile, ntifs/NtSetInformationFile, ntifs/ZwSetVolumeInformationFile
 f1_keywords:
  - "ntifs/ZwSetVolumeInformationFile"
+ - "ZwSetVolumeInformationFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

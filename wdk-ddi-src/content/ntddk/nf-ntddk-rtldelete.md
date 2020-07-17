@@ -10,6 +10,7 @@ keywords: ["RtlDelete function"]
 ms.keywords: RtlDelete, RtlDelete routine [Installable File System Drivers], ifsk.rtldelete, ntddk/RtlDelete, rtlref_637fb420-7027-4426-a4a0-7ae887ad1950.xml
 f1_keywords:
  - "ntddk/RtlDelete"
+ - "RtlDelete"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTAbandonSwapChain function"]
 f1_keywords:
  - "d3dkmthk/D3DKMTAbandonSwapChain"
+ - "D3DKMTAbandonSwapChain"
 ms.keywords: D3DKMTAbandonSwapChain
 req.header: d3dkmthk.h
 req.include-header:

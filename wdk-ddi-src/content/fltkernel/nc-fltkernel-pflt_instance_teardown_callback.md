@@ -10,6 +10,7 @@ keywords: ["PFLT_INSTANCE_TEARDOWN_CALLBACK callback"]
 ms.keywords: FltCallbacks_2bec09ed-3009-465c-842b-67e0cd7d734f.xml, PFLT_INSTANCE_TEARDOWN_CALLBACK, PFLT_INSTANCE_TEARDOWN_CALLBACK function pointer [Installable File System Drivers], fltkernel/PFLT_INSTANCE_TEARDOWN_CALLBACK, ifsk.pflt_instance_teardown_callback
 f1_keywords:
  - "fltkernel/PFLT_INSTANCE_TEARDOWN_CALLBACK"
+ - "PFLT_INSTANCE_TEARDOWN_CALLBACK"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop

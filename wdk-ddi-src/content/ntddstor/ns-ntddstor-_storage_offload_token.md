@@ -10,6 +10,7 @@ keywords: ["_STORAGE_OFFLOAD_TOKEN structure"]
 ms.keywords: "*PSTORAGE_OFFLOAD_TOKEN, Any other value, PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN structure pointer [Storage Devices], STORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN structure [Storage Devices], STORAGE_OFFLOAD_TOKEN_TYPE_ZERO_DATA, _STORAGE_OFFLOAD_TOKEN, ntddstor/PSTORAGE_OFFLOAD_TOKEN, ntddstor/STORAGE_OFFLOAD_TOKEN, storage.storage_offload_token"
 f1_keywords:
  - "ntddstor/STORAGE_OFFLOAD_TOKEN"
+ - "STORAGE_OFFLOAD_TOKEN"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

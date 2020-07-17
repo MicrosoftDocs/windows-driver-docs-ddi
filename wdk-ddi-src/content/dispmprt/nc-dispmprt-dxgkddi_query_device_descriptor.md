@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_QUERY_DEVICE_DESCRIPTOR callback function"]
 ms.keywords: DXGKDDI_QUERY_DEVICE_DESCRIPTOR, DXGKDDI_QUERY_DEVICE_DESCRIPTOR callback, DmFunctions_84688704-46fd-40d6-993e-298c6d3d5dcd.xml, DxgkDdiQueryDeviceDescriptor, DxgkDdiQueryDeviceDescriptor callback function [Display Devices], display.dxgkddiquerydevicedescriptor, dispmprt/DxgkDdiQueryDeviceDescriptor
 f1_keywords:
  - "dispmprt/DxgkDdiQueryDeviceDescriptor"
+ - "DxgkDdiQueryDeviceDescriptor"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop

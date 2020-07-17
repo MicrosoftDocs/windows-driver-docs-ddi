@@ -10,6 +10,7 @@ keywords: ["_VIDEO_POINTER_POSITION structure"]
 ms.keywords: "*PVIDEO_POINTER_POSITION, PVIDEO_POINTER_POSITION, PVIDEO_POINTER_POSITION structure pointer [Display Devices], VIDEO_POINTER_POSITION, VIDEO_POINTER_POSITION structure [Display Devices], Video_Structs_72aeeda6-58eb-419e-95d2-35c1b66adf36.xml, _VIDEO_POINTER_POSITION, display.video_pointer_position, ntddvdeo/PVIDEO_POINTER_POSITION, ntddvdeo/VIDEO_POINTER_POSITION"
 f1_keywords:
  - "ntddvdeo/VIDEO_POINTER_POSITION"
+ - "VIDEO_POINTER_POSITION"
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h
 req.target-type: Windows

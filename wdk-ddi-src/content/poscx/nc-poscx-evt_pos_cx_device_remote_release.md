@@ -10,6 +10,7 @@ keywords: ["EVT_POS_CX_DEVICE_REMOTE_RELEASE callback function"]
 ms.keywords: EVT_POS_CX_DEVICE_REMOTE_RELEASE, EVT_POS_CX_DEVICE_REMOTE_RELEASE callback, EvtPosCxDeviceRemoteRelease, EvtPosCxDeviceRemoteRelease callback function, pos.evt_pos_cx_device_remote_release, poscx/EvtPosCxDeviceRemoteRelease
 f1_keywords:
  - "poscx/EvtPosCxDeviceRemoteRelease"
+ - "EvtPosCxDeviceRemoteRelease"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

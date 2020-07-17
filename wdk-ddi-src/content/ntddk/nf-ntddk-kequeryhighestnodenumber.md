@@ -10,6 +10,7 @@ keywords: ["KeQueryHighestNodeNumber function"]
 ms.keywords: KeQueryHighestNodeNumber, KeQueryHighestNodeNumber routine [Kernel-Mode Driver Architecture], k105_3d91d159-3bbb-445b-874b-a6d1a8b078df.xml, kernel.kequeryhighestnodenumber, wdm/KeQueryHighestNodeNumber
 f1_keywords:
  - "ntddk/KeQueryHighestNodeNumber"
+ - "KeQueryHighestNodeNumber"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

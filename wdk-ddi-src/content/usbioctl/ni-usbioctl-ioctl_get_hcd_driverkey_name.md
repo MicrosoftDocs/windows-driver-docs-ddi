@@ -10,6 +10,7 @@ keywords: ["IOCTL_GET_HCD_DRIVERKEY_NAME IOCTL"]
 ms.keywords: IOCTL_GET_HCD_DRIVERKEY_NAME, IOCTL_GET_HCD_DRIVERKEY_NAME control, IOCTL_GET_HCD_DRIVERKEY_NAME control code [Buses], buses.ioctl_get_hcd_driverkey_name, usbioctl/IOCTL_GET_HCD_DRIVERKEY_NAME, usbirp_e5bfae17-3a5d-414d-a24d-6c09269618aa.xml
 f1_keywords:
  - "usbioctl/IOCTL_GET_HCD_DRIVERKEY_NAME"
+ - "IOCTL_GET_HCD_DRIVERKEY_NAME"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

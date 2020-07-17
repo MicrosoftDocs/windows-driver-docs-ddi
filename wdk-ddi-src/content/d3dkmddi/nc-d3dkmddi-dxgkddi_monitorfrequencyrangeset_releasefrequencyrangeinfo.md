@@ -29,6 +29,7 @@ tech.root: display
 req.typenames: 
 f1_keywords:
  - "d3dkmddi/pfnReleaseFrequencyRangeInfo"
+ - "pfnReleaseFrequencyRangeInfo"
 topic_type:
  - APIRef
  - kbSyntax

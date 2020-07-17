@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052 callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052"
+ - "PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

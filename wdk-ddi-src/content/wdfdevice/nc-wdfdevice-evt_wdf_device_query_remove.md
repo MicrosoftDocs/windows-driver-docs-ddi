@@ -10,6 +10,7 @@ keywords: ["EVT_WDF_DEVICE_QUERY_REMOVE callback function"]
 ms.keywords: DFDeviceObjectGeneralRef_e982c552-e635-4fa9-8d84-dc4d7c143925.xml, EVT_WDF_DEVICE_QUERY_REMOVE, EVT_WDF_DEVICE_QUERY_REMOVE callback, EvtDeviceQueryRemove, EvtDeviceQueryRemove callback function, kmdf.evtdevicequeryremove, wdf.evtdevicequeryremove, wdfdevice/EvtDeviceQueryRemove
 f1_keywords:
  - "wdfdevice/EvtDeviceQueryRemove"
+ - "EvtDeviceQueryRemove"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["_D3DHAL_DP2INDEXEDLINELIST structure"]
 ms.keywords: "*LPD3DHAL_DP2INDEXEDLINELIST, D3DHAL_DP2INDEXEDLINELIST, D3DHAL_DP2INDEXEDLINELIST structure [Display Devices], LPD3DHAL_DP2INDEXEDLINELIST, LPD3DHAL_DP2INDEXEDLINELIST structure pointer [Display Devices], _D3DHAL_DP2INDEXEDLINELIST, d3dhal/D3DHAL_DP2INDEXEDLINELIST, d3dhal/LPD3DHAL_DP2INDEXEDLINELIST, d3dstrct_895bb4b6-3e98-4275-a61d-38d89ec23a6f.xml, display.d3dhal_dp2indexedlinelist"
 f1_keywords:
  - "d3dhal/D3DHAL_DP2INDEXEDLINELIST"
+ - "D3DHAL_DP2INDEXEDLINELIST"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["WdfCommonBufferGetAlignedLogicalAddress function"]
 ms.keywords: DFCommonBufferObjectRef_8381c500-1cd1-4271-9679-33a213a2307f.xml, WdfCommonBufferGetAlignedLogicalAddress, WdfCommonBufferGetAlignedLogicalAddress method, kmdf.wdfcommonbuffergetalignedlogicaladdress, wdf.wdfcommonbuffergetalignedlogicaladdress, wdfcommonbuffer/WdfCommonBufferGetAlignedLogicalAddress
 f1_keywords:
  - "wdfcommonbuffer/WdfCommonBufferGetAlignedLogicalAddress"
+ - "WdfCommonBufferGetAlignedLogicalAddress"
 req.header: wdfcommonbuffer.h
 req.include-header: WdfCommonBuffer.h
 req.target-type: Universal

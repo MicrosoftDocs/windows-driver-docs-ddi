@@ -10,6 +10,7 @@ keywords: ["WMI_FUNCTION_CONTROL_CALLBACK callback function"]
 ms.keywords: DpWmiFunctionControl, DpWmiFunctionControl callback function [Kernel-Mode Driver Architecture], WMI_FUNCTION_CONTROL_CALLBACK, WMI_FUNCTION_CONTROL_CALLBACK callback, k903_d43ba720-8de2-411d-ae6c-3ba6b7bfe3ca.xml, kernel.dpwmifunctioncontrol, wmilib/DpWmiFunctionControl
 f1_keywords:
  - "wmilib/DpWmiFunctionControl"
+ - "DpWmiFunctionControl"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Desktop

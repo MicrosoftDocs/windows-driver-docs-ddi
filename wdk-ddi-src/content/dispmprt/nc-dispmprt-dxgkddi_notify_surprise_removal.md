@@ -10,6 +10,7 @@ keywords: ["DXGKDDI_NOTIFY_SURPRISE_REMOVAL callback function"]
 ms.keywords: DXGKDDI_NOTIFY_SURPRISE_REMOVAL, DXGKDDI_NOTIFY_SURPRISE_REMOVAL callback, DxgkDdiNotifySurpriseRemoval, DxgkDdiNotifySurpriseRemoval callback function [Display Devices], display.dxgkddinotifysurpriseremoval, dispmprt/DxgkDdiNotifySurpriseRemoval
 f1_keywords:
  - "dispmprt/DxgkDdiNotifySurpriseRemoval"
+ - "DxgkDdiNotifySurpriseRemoval"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop

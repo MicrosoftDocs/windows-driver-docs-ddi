@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_MIRACAST_CHUNK_DATA structure"]
 f1_keywords:
  - "d3dkmthk/D3DKMT_MIRACAST_CHUNK_DATA"
+ - "D3DKMT_MIRACAST_CHUNK_DATA"
 ms.keywords: D3DKMT_MIRACAST_CHUNK_DATA, D3DKMT_MIRACAST_CHUNK_DATA, 
 req.header: d3dkmthk.h
 req.include-header:

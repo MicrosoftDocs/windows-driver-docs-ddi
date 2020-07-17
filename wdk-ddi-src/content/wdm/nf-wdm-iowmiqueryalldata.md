@@ -10,6 +10,7 @@ keywords: ["IoWMIQueryAllData function"]
 ms.keywords: IoWMIQueryAllData, IoWMIQueryAllData routine [Kernel-Mode Driver Architecture], k104_120c73d7-392a-4604-8f6b-11c4e717fcac.xml, kernel.iowmiqueryalldata, wdm/IoWMIQueryAllData
 f1_keywords:
  - "wdm/IoWMIQueryAllData"
+ - "IoWMIQueryAllData"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

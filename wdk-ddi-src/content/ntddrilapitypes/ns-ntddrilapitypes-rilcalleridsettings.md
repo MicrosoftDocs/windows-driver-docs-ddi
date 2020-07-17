@@ -10,6 +10,7 @@ keywords: ["RILCALLERIDSETTINGS structure"]
 ms.keywords: "*LPRILCALLERIDSETTINGS, RILCALLERIDSETTINGS, RILCALLERIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilcalleridsettings, ntddrilapitypes/RILCALLERIDSETTINGS"
 f1_keywords:
  - "ntddrilapitypes/RILCALLERIDSETTINGS"
+ - "RILCALLERIDSETTINGS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

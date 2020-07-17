@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelperPS::SetOptions"]
 ms.keywords: IPrintCoreHelperPS interface [Print Devices],SetOptions method, IPrintCoreHelperPS.SetOptions, IPrintCoreHelperPS::SetOptions, SetOptions, SetOptions method [Print Devices], SetOptions method [Print Devices],IPrintCoreHelperPS interface, prcomoem/IPrintCoreHelperPS::SetOptions, print.iprintcorehelperps_setoptions, print_unidrv-pscript_allplugins_7830001c-589d-4797-870c-cb48231745ed.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelperPS.SetOptions"
+ - "IPrintCoreHelperPS.SetOptions"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

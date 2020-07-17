@@ -8,6 +8,7 @@ ms.date: 11/28/2018
 keywords: ["PFND3D12DDI_BEGIN_PASS callback function"]
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_BEGIN_PASS"
+ - "PFND3D12DDI_BEGIN_PASS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

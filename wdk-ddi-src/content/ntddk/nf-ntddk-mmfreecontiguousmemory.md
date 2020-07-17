@@ -10,6 +10,7 @@ keywords: ["MmFreeContiguousMemory function"]
 ms.keywords: MmFreeContiguousMemory, MmFreeContiguousMemory routine [Kernel-Mode Driver Architecture], k106_1b930a75-7382-4a6c-a638-3e7675f43f83.xml, kernel.mmfreecontiguousmemory, wdm/MmFreeContiguousMemory
 f1_keywords:
  - "ntddk/MmFreeContiguousMemory"
+ - "MmFreeContiguousMemory"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

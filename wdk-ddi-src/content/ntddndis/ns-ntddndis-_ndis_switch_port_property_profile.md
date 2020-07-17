@@ -10,6 +10,7 @@ keywords: ["_NDIS_SWITCH_PORT_PROPERTY_PROFILE structure"]
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_PROFILE, NDIS_SWITCH_PORT_PROPERTY_PROFILE, NDIS_SWITCH_PORT_PROPERTY_PROFILE structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_PROFILE, PNDIS_SWITCH_PORT_PROPERTY_PROFILE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_PROFILE, netvista.ndis_switch_port_property_profile, ntddndis/NDIS_SWITCH_PORT_PROPERTY_PROFILE, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_PROFILE"
 f1_keywords:
  - "ntddndis/NDIS_SWITCH_PORT_PROPERTY_PROFILE"
+ - "NDIS_SWITCH_PORT_PROPERTY_PROFILE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

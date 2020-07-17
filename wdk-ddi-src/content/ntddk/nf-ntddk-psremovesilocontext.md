@@ -10,6 +10,7 @@ keywords: ["PsRemoveSiloContext function"]
 ms.keywords: PsRemoveSiloContext, PsRemoveSiloContext routine [Kernel-Mode Driver Architecture], kernel.psremovesilocontext, ntddk/PsRemoveSiloContext
 f1_keywords:
  - "ntddk/PsRemoveSiloContext"
+ - "PsRemoveSiloContext"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

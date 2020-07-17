@@ -10,6 +10,7 @@ keywords: ["ChangerReinitializeUnit function"]
 ms.keywords: ChangerReinitializeUnit, ChangerReinitializeUnit function [Storage Devices], chgrmini_9883d8fd-334e-49f5-93ad-408622aa339f.xml, mcd/ChangerReinitializeUnit, storage.changerreinitializeunit
 f1_keywords:
  - "mcd/ChangerReinitializeUnit"
+ - "ChangerReinitializeUnit"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

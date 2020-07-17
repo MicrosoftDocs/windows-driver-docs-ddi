@@ -10,6 +10,7 @@ keywords: ["ExtRemoteData::GetW32Bool"]
 ms.keywords: EngExtCpp_Ref_367ee79b-5fdf-41ca-b43c-f9f29b3a872c.xml, ExtRemoteData class [Windows Debugging],GetW32Bool method, ExtRemoteData.GetW32Bool, ExtRemoteData::GetW32Bool, GetW32Bool, GetW32Bool method [Windows Debugging], GetW32Bool method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getw32bool
 f1_keywords:
  - "engextcpp/ExtRemoteData.GetW32Bool"
+ - "ExtRemoteData.GetW32Bool"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

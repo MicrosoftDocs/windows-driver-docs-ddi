@@ -7,6 +7,7 @@ ms.date: 10/01/2018
 keywords: ["PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED macro"]
 f1_keywords:
  - "acpitabl/PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED"
+ - "PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED"
 ms.keywords: PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED
 req.header: acpitabl.h
 req.include-header:

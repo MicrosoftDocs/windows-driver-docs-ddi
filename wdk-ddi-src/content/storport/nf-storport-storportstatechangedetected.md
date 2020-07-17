@@ -10,6 +10,7 @@ keywords: ["StorPortStateChangeDetected function"]
 ms.keywords: ATTRIBUTE_VM_PASSTHROUGH_LUN, STATE_CHANGE_BUS, STATE_CHANGE_LUN, STATE_CHANGE_TARGET, StorPortStateChangeDetected, StorPortStateChangeDetected routine [Storage Devices], storage.storportstatechangedetected, storport/StorPortStateChangeDetected
 f1_keywords:
  - "storport/StorPortStateChangeDetected"
+ - "StorPortStateChangeDetected"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

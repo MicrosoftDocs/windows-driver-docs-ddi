@@ -9,6 +9,7 @@ keywords: ["D3D10_DDI_BOX structure"]
 ms.keywords: D3D10_DDI_BOX, D3D10_DDI_BOX structure [Display Devices], UMDisplayDriver_Dx10param_Structs_11ac8e3e-48db-469b-a6e6-d42fd491d56e.xml, d3d10umddi/D3D10_DDI_BOX, display.d3d10_ddi_box
 f1_keywords:
  - "d3d10umddi/D3D10_DDI_BOX"
+ - "D3D10_DDI_BOX"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

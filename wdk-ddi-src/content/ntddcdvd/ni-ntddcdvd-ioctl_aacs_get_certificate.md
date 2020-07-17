@@ -10,6 +10,7 @@ keywords: ["IOCTL_AACS_GET_CERTIFICATE IOCTL"]
 ms.keywords: IOCTL_AACS_GET_CERTIFICATE, IOCTL_AACS_GET_CERTIFICATE control, IOCTL_AACS_GET_CERTIFICATE control code [Storage Devices], k307_53c85a18-def4-48b8-bc19-12347714d191.xml, ntddcdvd/IOCTL_AACS_GET_CERTIFICATE, storage.ioctl_aacs_get_certificate
 f1_keywords:
  - "ntddcdvd/IOCTL_AACS_GET_CERTIFICATE"
+ - "IOCTL_AACS_GET_CERTIFICATE"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows

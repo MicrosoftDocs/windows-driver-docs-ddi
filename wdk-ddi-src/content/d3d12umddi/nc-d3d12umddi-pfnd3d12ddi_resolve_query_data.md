@@ -9,6 +9,7 @@ keywords: ["PFND3D12DDI_RESOLVE_QUERY_DATA callback function"]
 ms.keywords: PFND3D12DDI_RESOLVE_QUERY_DATA, PFND3D12DDI_RESOLVE_QUERY_DATA callback, d3d12umddi/pfnResolveQueryData, display.pfnd3d12ddi_resolve_query_data, pfnResolveQueryData, pfnResolveQueryData callback function [Display Devices]
 f1_keywords:
  - "d3d12umddi/pfnResolveQueryData"
+ - "pfnResolveQueryData"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

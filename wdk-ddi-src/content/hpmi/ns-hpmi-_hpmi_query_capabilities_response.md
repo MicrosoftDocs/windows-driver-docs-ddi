@@ -10,6 +10,7 @@ keywords: ["_HPMI_QUERY_CAPABILITIES_RESPONSE structure"]
 ms.keywords: "*PHPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE structure [Power Metering and Budgeting Devices], PHPMI_QUERY_CAPABILITIES_RESPONSE, PHPMI_QUERY_CAPABILITIES_RESPONSE structure pointer [Power Metering and Budgeting Devices], _HPMI_QUERY_CAPABILITIES_RESPONSE, hpmi/HPMI_QUERY_CAPABILITIES_RESPONSE, hpmi/PHPMI_QUERY_CAPABILITIES_RESPONSE, powermeter.hpmi_query_capabilities_response"
 f1_keywords:
  - "hpmi/HPMI_QUERY_CAPABILITIES_RESPONSE"
+ - "HPMI_QUERY_CAPABILITIES_RESPONSE"
 req.header: hpmi.h
 req.include-header: 
 req.target-type: Windows

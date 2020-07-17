@@ -10,6 +10,7 @@ keywords: ["KsPinRegisterFrameReturnCallback function"]
 ms.keywords: KsPinRegisterFrameReturnCallback, KsPinRegisterFrameReturnCallback function [Streaming Media Devices], avfunc_16d1d4cd-f3ae-4cc0-b903-1db1f5b40a6f.xml, ks/KsPinRegisterFrameReturnCallback, stream.kspinregisterframereturncallback
 f1_keywords:
  - "ks/KsPinRegisterFrameReturnCallback"
+ - "KsPinRegisterFrameReturnCallback"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

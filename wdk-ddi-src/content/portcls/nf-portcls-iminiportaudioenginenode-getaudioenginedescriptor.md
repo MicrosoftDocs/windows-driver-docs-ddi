@@ -10,6 +10,7 @@ keywords: ["IMiniportAudioEngineNode::GetAudioEngineDescriptor"]
 ms.keywords: GetAudioEngineDescriptor, GetAudioEngineDescriptor method [Audio Devices], GetAudioEngineDescriptor method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetAudioEngineDescriptor method, IMiniportAudioEngineNode.GetAudioEngineDescriptor, IMiniportAudioEngineNode::GetAudioEngineDescriptor, audio.iminiportaudioenginenode_getaudioenginedescriptor, portcls/IMiniportAudioEngineNode::GetAudioEngineDescriptor
 f1_keywords:
  - "portcls/IMiniportAudioEngineNode.GetAudioEngineDescriptor"
+ - "IMiniportAudioEngineNode.GetAudioEngineDescriptor"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

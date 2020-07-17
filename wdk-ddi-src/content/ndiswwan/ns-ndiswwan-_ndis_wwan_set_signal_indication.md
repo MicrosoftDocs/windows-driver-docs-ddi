@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_SET_SIGNAL_INDICATION structure"]
 ms.keywords: "*PNDIS_WWAN_SET_SIGNAL_INDICATION, NDIS_WWAN_SET_SIGNAL_INDICATION, NDIS_WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_SIGNAL_INDICATION, PNDIS_WWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WwanRef_da95b173-97da-4e41-9628-2a101a851f1c.xml, _NDIS_WWAN_SET_SIGNAL_INDICATION, ndiswwan/NDIS_WWAN_SET_SIGNAL_INDICATION, ndiswwan/PNDIS_WWAN_SET_SIGNAL_INDICATION, netvista.ndis_wwan_set_signal_indication"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_SET_SIGNAL_INDICATION"
+ - "NDIS_WWAN_SET_SIGNAL_INDICATION"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["PcAddContentHandlers function"]
 ms.keywords: PcAddContentHandlers, PcAddContentHandlers function [Audio Devices], audio.pcaddcontenthandlers, audpc-routines_11505f52-36d9-4b58-b1f8-44083705f9b5.xml, portcls/PcAddContentHandlers
 f1_keywords:
  - "portcls/PcAddContentHandlers"
+ - "PcAddContentHandlers"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

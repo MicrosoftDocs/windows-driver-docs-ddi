@@ -10,6 +10,7 @@ keywords: ["TCP_OFFLOAD_RECV_COMPLETE_HANDLER callback function"]
 ms.keywords: ProtocolTcpOffloadReceiveComplete, ProtocolTcpOffloadReceiveComplete callback function [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_RECV_COMPLETE_HANDLER, TCP_OFFLOAD_RECV_COMPLETE_HANDLER callback, ndischimney/ProtocolTcpOffloadReceiveComplete, netvista.protocoltcpoffloadreceivecomplete, tcp_chim_protocol_func_3f02ff3b-3b86-4a30-8022-2c540b5e9484.xml
 f1_keywords:
  - "ndischimney/ProtocolTcpOffloadReceiveComplete"
+ - "ProtocolTcpOffloadReceiveComplete"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows

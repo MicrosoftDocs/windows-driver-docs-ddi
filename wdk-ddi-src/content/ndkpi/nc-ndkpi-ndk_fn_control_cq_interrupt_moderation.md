@@ -10,6 +10,7 @@ keywords: ["NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION callback function"]
 ms.keywords: NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION, NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION callback, NdkControlCqInterruptModeration, NdkControlCqInterruptModeration callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkControlCqInterruptModeration, netvista.ndk_fn_control_cq_interrupt_moderation
 f1_keywords:
  - "ndkpi/NdkControlCqInterruptModeration"
+ - "NdkControlCqInterruptModeration"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

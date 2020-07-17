@@ -10,6 +10,7 @@ keywords: ["WskDeregister function"]
 ms.keywords: WskDeregister, WskDeregister function [Network Drivers Starting with Windows Vista], netvista.wskderegister, wsk/WskDeregister, wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml
 f1_keywords:
  - "wsk/WskDeregister"
+ - "WskDeregister"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["DMA_COMPLETION_ROUTINE callback function"]
 ms.keywords: DMA_COMPLETION_ROUTINE, DmaCompletionRoutine, DmaCompletionRoutine routine [Kernel-Mode Driver Architecture], kernel.dmacompletionroutine, wdm/DmaCompletionRoutine
 f1_keywords:
  - "wdm/DmaCompletionRoutine"
+ - "DmaCompletionRoutine"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

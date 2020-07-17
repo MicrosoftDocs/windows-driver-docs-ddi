@@ -10,6 +10,7 @@ keywords: ["NdisCopySendNetBufferListInfo function"]
 ms.keywords: NdisCopySendNetBufferListInfo, NdisCopySendNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis/NdisCopySendNetBufferListInfo, ndis_netbuf_functions_ref_6bea2e25-d488-4bf2-879b-1ace04c66b68.xml, netvista.ndiscopysendnetbufferlistinfo
 f1_keywords:
  - "ndis/NdisCopySendNetBufferListInfo"
+ - "NdisCopySendNetBufferListInfo"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

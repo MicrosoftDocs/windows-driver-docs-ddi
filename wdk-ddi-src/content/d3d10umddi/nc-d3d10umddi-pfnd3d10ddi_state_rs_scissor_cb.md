@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_STATE_RS_SCISSOR_CB callback function"]
 ms.keywords: PFND3D10DDI_STATE_RS_SCISSOR_CB, PFND3D10DDI_STATE_RS_SCISSOR_CB callback, d3d10state_functions_8690a3ee-bc2c-4164-808b-c308a1784893.xml, d3d10umddi/pfnStateRsScissorCb, display.pfnstatersscissorcb, pfnStateRsScissorCb, pfnStateRsScissorCb callback function [Display Devices]
 f1_keywords:
  - "d3d10umddi/pfnStateRsScissorCb"
+ - "pfnStateRsScissorCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

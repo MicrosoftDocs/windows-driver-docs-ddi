@@ -10,6 +10,7 @@ keywords: ["_FILTER_REPLY_HEADER structure"]
 ms.keywords: "*PFILTER_REPLY_HEADER, FILTER_REPLY_HEADER, FILTER_REPLY_HEADER structure [Installable File System Drivers], FltSystemStructures_93e9fad2-e89d-40af-8614-c09a51f07e7b.xml, PFILTER_REPLY_HEADER, PFILTER_REPLY_HEADER structure pointer [Installable File System Drivers], _FILTER_REPLY_HEADER, fltuserstructures/FILTER_REPLY_HEADER, fltuserstructures/PFILTER_REPLY_HEADER, ifsk.filter_reply_header"
 f1_keywords:
  - "fltuserstructures/FILTER_REPLY_HEADER"
+ - "FILTER_REPLY_HEADER"
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, Fltkernel.h
 req.target-type: Windows

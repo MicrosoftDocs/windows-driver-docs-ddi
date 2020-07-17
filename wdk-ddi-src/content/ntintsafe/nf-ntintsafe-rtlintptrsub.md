@@ -10,6 +10,7 @@ keywords: ["RtlIntPtrSub function"]
 ms.keywords: RtlIntPtrSub, RtlIntPtrSub function [Kernel-Mode Driver Architecture], kernel.rtlintptrsub, ntintsafe/RtlIntPtrSub
 f1_keywords:
  - "ntintsafe/RtlIntPtrSub"
+ - "RtlIntPtrSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,7 @@ ms.date: 10/31/2018
 keywords: ["IAdapterPnpManagement::PnpQueryStop"]
 f1_keywords:
  - "portcls/IAdapterPnpManagement.PnpQueryStop"
+ - "IAdapterPnpManagement.PnpQueryStop"
 ms.keywords: IAdapterPnpManagement::PnpQueryStop, PnpQueryStop, IAdapterPnpManagement.PnpQueryStop, IAdapterPnpManagement::PnpQueryStop, IAdapterPnpManagement.PnpQueryStop
 req.header: portcls.h
 req.include-header:

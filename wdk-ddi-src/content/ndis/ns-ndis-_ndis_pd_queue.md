@@ -10,6 +10,7 @@ keywords: ["_NDIS_PD_QUEUE structure"]
 ms.keywords: NDIS_PD_QUEUE, NDIS_PD_QUEUE structure [Network Drivers Starting with Windows Vista], PNDIS_PD_QUEUE, PNDIS_PD_QUEUE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_QUEUE, ndis/NDIS_PD_QUEUE, ndis/PNDIS_PD_QUEUE, netvista.ndis_pd_queue
 f1_keywords:
  - "ndis/NDIS_PD_QUEUE"
+ - "NDIS_PD_QUEUE"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

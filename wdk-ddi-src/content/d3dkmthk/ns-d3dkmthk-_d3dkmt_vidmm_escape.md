@@ -9,6 +9,7 @@ keywords: ["_D3DKMT_VIDMM_ESCAPE structure"]
 ms.keywords: D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE structure [Display Devices], OpenGL_Structs_9a9c243b-b99e-43f2-a749-afbb839fb7c0.xml, _D3DKMT_VIDMM_ESCAPE, d3dkmthk/D3DKMT_VIDMM_ESCAPE, display.d3dkmt_vidmm_escape
 f1_keywords:
  - "d3dkmthk/D3DKMT_VIDMM_ESCAPE"
+ - "D3DKMT_VIDMM_ESCAPE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

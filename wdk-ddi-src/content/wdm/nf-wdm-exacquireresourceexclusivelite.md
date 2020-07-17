@@ -10,6 +10,7 @@ keywords: ["ExAcquireResourceExclusiveLite function"]
 ms.keywords: ExAcquireResourceExclusiveLite, ExAcquireResourceExclusiveLite routine [Kernel-Mode Driver Architecture], k102_894dbc3c-af92-4916-8205-539062946dbe.xml, kernel.exacquireresourceexclusivelite, wdm/ExAcquireResourceExclusiveLite
 f1_keywords:
  - "wdm/ExAcquireResourceExclusiveLite"
+ - "ExAcquireResourceExclusiveLite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,7 @@ ms.date: 09/30/2018
 keywords: ["_UCSI_GET_ALTERNATE_MODES_IN structure"]
 f1_keywords:
  - "ucmucsispec/_UCSI_GET_ALTERNATE_MODES_IN"
+ - "_UCSI_GET_ALTERNATE_MODES_IN"
 ms.keywords: _UCSI_GET_ALTERNATE_MODES_IN, UCSI_GET_ALTERNATE_MODES_IN, *PUCSI_GET_ALTERNATE_MODES_IN, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

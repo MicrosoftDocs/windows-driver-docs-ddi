@@ -10,6 +10,7 @@ keywords: ["IoDeleteSymbolicLink function"]
 ms.keywords: IoDeleteSymbolicLink, IoDeleteSymbolicLink routine [Kernel-Mode Driver Architecture], k104_6ff2f570-3573-4d12-b338-cca69515ef1a.xml, kernel.iodeletesymboliclink, wdm/IoDeleteSymbolicLink
 f1_keywords:
  - "wdm/IoDeleteSymbolicLink"
+ - "IoDeleteSymbolicLink"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

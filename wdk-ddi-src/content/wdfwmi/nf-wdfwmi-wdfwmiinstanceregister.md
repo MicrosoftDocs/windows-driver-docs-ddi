@@ -10,6 +10,7 @@ keywords: ["WdfWmiInstanceRegister function"]
 ms.keywords: DFWMIRef_56a3eb85-855f-4ad9-ad81-c630fecf98b3.xml, WdfWmiInstanceRegister, WdfWmiInstanceRegister method, kmdf.wdfwmiinstanceregister, wdf.wdfwmiinstanceregister, wdfwmi/WdfWmiInstanceRegister
 f1_keywords:
  - "wdfwmi/WdfWmiInstanceRegister"
+ - "WdfWmiInstanceRegister"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal

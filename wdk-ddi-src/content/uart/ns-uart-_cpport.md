@@ -8,6 +8,7 @@ ms.date: 10/19/2018
 keywords: ["_CPPORT structure"]
 f1_keywords:
  - "uart/_CPPORT"
+ - "_CPPORT"
 ms.keywords: _CPPORT, CPPORT, *PCPPORT,
 req.header: uart.h
 req.include-header:

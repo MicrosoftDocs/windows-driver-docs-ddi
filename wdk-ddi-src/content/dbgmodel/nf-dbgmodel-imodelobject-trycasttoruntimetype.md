@@ -7,6 +7,7 @@ ms.date: 08/13/2018
 keywords: ["IModelObject::TryCastToRuntimeType"]
 f1_keywords:
  - "dbgmodel/IModelObject.TryCastToRuntimeType"
+ - "IModelObject.TryCastToRuntimeType"
 ms.keywords: IModelObject::TryCastToRuntimeType, TryCastToRuntimeType, IModelObject.TryCastToRuntimeType, IModelObject::TryCastToRuntimeType, IModelObject.TryCastToRuntimeType
 req.header: dbgmodel.h
 req.include-header:

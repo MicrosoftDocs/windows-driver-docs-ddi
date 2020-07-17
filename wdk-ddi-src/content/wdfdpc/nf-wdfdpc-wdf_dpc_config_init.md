@@ -10,6 +10,7 @@ keywords: ["WDF_DPC_CONFIG_INIT function"]
 ms.keywords: DFDpcObjectRef_ba15c593-3f2a-4e7f-9a58-a550ca47ccc1.xml, WDF_DPC_CONFIG_INIT, WDF_DPC_CONFIG_INIT function, kmdf.wdf_dpc_config_init, wdf.wdf_dpc_config_init, wdfdpc/WDF_DPC_CONFIG_INIT
 f1_keywords:
  - "wdfdpc/WDF_DPC_CONFIG_INIT"
+ - "WDF_DPC_CONFIG_INIT"
 req.header: wdfdpc.h
 req.include-header: Wdf.h
 req.target-type: Universal

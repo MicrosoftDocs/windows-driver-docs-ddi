@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaParameterDefinition interface"]
 ms.keywords: IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition interface [Print Devices], IPrintSchemaParameterDefinition interface [Print Devices],described, print.iprintschemaparameterdefinition, printerextension/IPrintSchemaParameterDefinition
 f1_keywords:
  - "printerextension/IPrintSchemaParameterDefinition"
+ - "IPrintSchemaParameterDefinition"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

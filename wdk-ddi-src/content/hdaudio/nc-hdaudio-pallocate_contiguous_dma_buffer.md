@@ -10,6 +10,7 @@ keywords: ["PALLOCATE_CONTIGUOUS_DMA_BUFFER callback function"]
 ms.keywords: AllocateContiguousDmaBuffer, AllocateContiguousDmaBuffer callback function [Audio Devices], PALLOCATE_CONTIGUOUS_DMA_BUFFER, PALLOCATE_CONTIGUOUS_DMA_BUFFER callback, aud-prop2_c9f2fa85-0967-4793-9092-9f95986c2126.xml, audio.allocatecontiguousdmabuffer, hdaudio/AllocateContiguousDmaBuffer
 f1_keywords:
  - "hdaudio/AllocateContiguousDmaBuffer"
+ - "AllocateContiguousDmaBuffer"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop

@@ -7,6 +7,7 @@ ms.date: 10/05/2018
 keywords: ["IStringDisplayableConcept interface"]
 f1_keywords:
  - "dbgmodel/IStringDisplayableConcept"
+ - "IStringDisplayableConcept"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

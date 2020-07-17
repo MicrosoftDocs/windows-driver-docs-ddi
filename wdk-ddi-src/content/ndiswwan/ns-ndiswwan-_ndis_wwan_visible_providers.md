@@ -10,6 +10,7 @@ keywords: ["_NDIS_WWAN_VISIBLE_PROVIDERS structure"]
 ms.keywords: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_VISIBLE_PROVIDERS, PNDIS_WWAN_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_45997454-b06e-4291-82f5-57e29d8afa7e.xml, _NDIS_WWAN_VISIBLE_PROVIDERS, ndiswwan/NDIS_WWAN_VISIBLE_PROVIDERS, ndiswwan/PNDIS_WWAN_VISIBLE_PROVIDERS, netvista.ndis_wwan_visible_providers"
 f1_keywords:
  - "ndiswwan/NDIS_WWAN_VISIBLE_PROVIDERS"
+ - "NDIS_WWAN_VISIBLE_PROVIDERS"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

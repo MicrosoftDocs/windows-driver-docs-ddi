@@ -27,6 +27,7 @@ tech.root: display
 ms.custom:
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_CREATE_SAMPLER_FEEDBACK_UNORDERED_ACCESS_VIEW_0075"
+ - "PFND3D12DDI_CREATE_SAMPLER_FEEDBACK_UNORDERED_ACCESS_VIEW_0075"
 topic_type:
  - apiref
 api_type:

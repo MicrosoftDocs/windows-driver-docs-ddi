@@ -10,6 +10,7 @@ keywords: ["DXGKCB_WRITE_DEVICE_SPACE callback function"]
 ms.keywords: DXGKCB_WRITE_DEVICE_SPACE, DXGKCB_WRITE_DEVICE_SPACE callback, DpFunctions_947b42ba-4121-4f21-b361-29a63278feb0.xml, DxgkCbWriteDeviceSpace, DxgkCbWriteDeviceSpace callback function [Display Devices], display.dxgkcbwritedevicespace, dispmprt/DxgkCbWriteDeviceSpace
 f1_keywords:
  - "dispmprt/DxgkCbWriteDeviceSpace"
+ - "DxgkCbWriteDeviceSpace"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

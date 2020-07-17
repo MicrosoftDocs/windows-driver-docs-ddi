@@ -10,6 +10,7 @@ keywords: ["_DOT11_CURRENT_OPERATION_MODE structure"]
 ms.keywords: "*PDOT11_CURRENT_OPERATION_MODE, DOT11_CURRENT_OPERATION_MODE, DOT11_CURRENT_OPERATION_MODE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_d2f0f1a7-3e89-4ac1-acbd-a032909837a2.xml, PDOT11_CURRENT_OPERATION_MODE, PDOT11_CURRENT_OPERATION_MODE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_CURRENT_OPERATION_MODE, netvista.dot11_current_operation_mode, windot11/DOT11_CURRENT_OPERATION_MODE, windot11/PDOT11_CURRENT_OPERATION_MODE"
 f1_keywords:
  - "windot11/DOT11_CURRENT_OPERATION_MODE"
+ - "DOT11_CURRENT_OPERATION_MODE"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

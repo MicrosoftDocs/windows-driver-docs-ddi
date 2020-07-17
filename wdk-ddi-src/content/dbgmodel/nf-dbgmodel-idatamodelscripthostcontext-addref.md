@@ -7,6 +7,7 @@ ms.date: 09/21/2018
 keywords: ["IDataModelScriptHostContext::AddRef"]
 f1_keywords:
  - "dbgmodel/IDataModelScriptHostContext.AddRef"
+ - "IDataModelScriptHostContext.AddRef"
 ms.keywords: IDataModelScriptHostContext::AddRef, AddRef, IDataModelScriptHostContext.AddRef, IDataModelScriptHostContext::AddRef, IDataModelScriptHostContext.AddRef
 req.header: dbgmodel.h
 req.include-header:

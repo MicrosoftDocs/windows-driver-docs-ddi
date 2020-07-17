@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetDeviceGetInterface function"]
 ms.keywords: DFUsbRef_b2c7b272-fe4a-4422-9e98-e756cdf3f264.xml, WdfUsbTargetDeviceGetInterface, WdfUsbTargetDeviceGetInterface method, kmdf.wdfusbtargetdevicegetinterface, wdf.wdfusbtargetdevicegetinterface, wdfusb/WdfUsbTargetDeviceGetInterface
 f1_keywords:
  - "wdfusb/WdfUsbTargetDeviceGetInterface"
+ - "WdfUsbTargetDeviceGetInterface"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["FsRtlCompleteRequest macro"]
 ms.keywords: FsRtlCompleteRequest, FsRtlCompleteRequest function [Installable File System Drivers], fsrtlref_ae47bec7-1534-4ace-a29b-d5b6a5da292c.xml, ifsk.fsrtlcompleterequest, ntifs/FsRtlCompleteRequest
 f1_keywords:
  - "ntifs/FsRtlCompleteRequest"
+ - "FsRtlCompleteRequest"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

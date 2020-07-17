@@ -10,6 +10,7 @@ keywords: ["IoGetBootDiskInformation function"]
 ms.keywords: IoGetBootDiskInformation, IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture], k104_11afe919-6902-4f53-9006-57cc4be126f1.xml, kernel.iogetbootdiskinformation, wdm/IoGetBootDiskInformation
 f1_keywords:
  - "wdm/IoGetBootDiskInformation"
+ - "IoGetBootDiskInformation"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

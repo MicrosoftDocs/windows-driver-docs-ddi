@@ -10,6 +10,7 @@ keywords: ["IMiniportWaveCyclicStream::SetNotificationFreq"]
 ms.keywords: IMiniportWaveCyclicStream interface [Audio Devices],SetNotificationFreq method, IMiniportWaveCyclicStream.SetNotificationFreq, IMiniportWaveCyclicStream::SetNotificationFreq, SetNotificationFreq, SetNotificationFreq method [Audio Devices], SetNotificationFreq method [Audio Devices],IMiniportWaveCyclicStream interface, audio.iminiportwavecyclicstream_setnotificationfreq, audmp-routines_9db148da-326d-4176-a852-83fa1e453246.xml, portcls/IMiniportWaveCyclicStream::SetNotificationFreq
 f1_keywords:
  - "portcls/IMiniportWaveCyclicStream.SetNotificationFreq"
+ - "IMiniportWaveCyclicStream.SetNotificationFreq"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

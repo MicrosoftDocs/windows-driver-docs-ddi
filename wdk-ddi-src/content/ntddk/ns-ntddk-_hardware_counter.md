@@ -10,6 +10,7 @@ keywords: ["_HARDWARE_COUNTER structure"]
 ms.keywords: "*PHARDWARE_COUNTER, HARDWARE_COUNTER, HARDWARE_COUNTER structure [Kernel-Mode Driver Architecture], PHARDWARE_COUNTER, PHARDWARE_COUNTER structure pointer [Kernel-Mode Driver Architecture], _HARDWARE_COUNTER, kernel.hardware_counter, kstruct_b_3e230097-13da-4e6b-bb89-baf3563c3570.xml, ntddk/HARDWARE_COUNTER, ntddk/PHARDWARE_COUNTER"
 f1_keywords:
  - "ntddk/HARDWARE_COUNTER"
+ - "HARDWARE_COUNTER"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

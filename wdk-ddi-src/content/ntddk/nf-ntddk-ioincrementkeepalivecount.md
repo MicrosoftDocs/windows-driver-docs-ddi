@@ -10,6 +10,7 @@ keywords: ["IoIncrementKeepAliveCount function"]
 ms.keywords: IoIncrementKeepAliveCount, IoIncrementKeepAliveCount routine [Kernel-Mode Driver Architecture], kernel.ioincrementkeepalivecount, ntddk/IoIncrementKeepAliveCount
 f1_keywords:
  - "ntddk/IoIncrementKeepAliveCount"
+ - "IoIncrementKeepAliveCount"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

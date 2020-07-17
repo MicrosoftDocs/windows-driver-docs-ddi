@@ -10,6 +10,7 @@ keywords: ["KsPinGetConnectedFilterInterface function"]
 ms.keywords: KsPinGetConnectedFilterInterface, KsPinGetConnectedFilterInterface function [Streaming Media Devices], avfunc_d6f6f675-4d44-47c8-aa37-9ad533966603.xml, ks/KsPinGetConnectedFilterInterface, stream.kspingetconnectedfilterinterface
 f1_keywords:
  - "ks/KsPinGetConnectedFilterInterface"
+ - "KsPinGetConnectedFilterInterface"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

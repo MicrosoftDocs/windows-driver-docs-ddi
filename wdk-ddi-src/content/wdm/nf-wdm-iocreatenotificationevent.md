@@ -10,6 +10,7 @@ keywords: ["IoCreateNotificationEvent function"]
 ms.keywords: IoCreateNotificationEvent, IoCreateNotificationEvent routine [Kernel-Mode Driver Architecture], k104_2b3bf223-0427-40e2-9f95-da5aa12c5da2.xml, kernel.iocreatenotificationevent, wdm/IoCreateNotificationEvent
 f1_keywords:
  - "wdm/IoCreateNotificationEvent"
+ - "IoCreateNotificationEvent"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

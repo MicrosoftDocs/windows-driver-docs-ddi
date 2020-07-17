@@ -10,6 +10,7 @@ keywords: ["HidP_SetUsageValueArray function"]
 ms.keywords: HidP_SetUsageValueArray, HidP_SetUsageValueArray routine [Human Input Devices], hid.hidp_setusagevaluearray, hidfunc_08ebfd84-e1da-4eb8-8741-ec2b16b488c9.xml, hidpi/HidP_SetUsageValueArray
 f1_keywords:
  - "hidpi/HidP_SetUsageValueArray"
+ - "HidP_SetUsageValueArray"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

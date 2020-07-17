@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeGetIoTarget function"]
 ms.keywords: DFUsbRef_87bfc4fc-266b-44ca-911f-fc5d73735a6a.xml, WdfUsbTargetPipeGetIoTarget, WdfUsbTargetPipeGetIoTarget method, kmdf.wdfusbtargetpipegetiotarget, wdf.wdfusbtargetpipegetiotarget, wdfusb/WdfUsbTargetPipeGetIoTarget
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeGetIoTarget"
+ - "WdfUsbTargetPipeGetIoTarget"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

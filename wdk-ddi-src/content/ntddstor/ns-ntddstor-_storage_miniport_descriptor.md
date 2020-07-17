@@ -10,6 +10,7 @@ keywords: ["_STORAGE_MINIPORT_DESCRIPTOR structure"]
 ms.keywords: "*PSTORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR structure pointer [Storage Devices], STORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR structure [Storage Devices], _STORAGE_MINIPORT_DESCRIPTOR, ntddstor/PSTORAGE_MINIPORT_DESCRIPTOR, ntddstor/STORAGE_MINIPORT_DESCRIPTOR, storage.storage_miniport_descriptor"
 f1_keywords:
  - "ntddstor/STORAGE_MINIPORT_DESCRIPTOR"
+ - "STORAGE_MINIPORT_DESCRIPTOR"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

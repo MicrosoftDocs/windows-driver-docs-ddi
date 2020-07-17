@@ -10,6 +10,7 @@ keywords: ["IPnpCallbackHardware interface"]
 ms.keywords: IPnpCallbackHardware, IPnpCallbackHardware interface, IPnpCallbackHardware interface,described, UMDFDeviceObjectRef_4b39ad3c-6fa6-4c47-aba8-676a6f628f1b.xml, umdf.ipnpcallbackhardware, wdf.ipnpcallbackhardware, wudfddi/IPnpCallbackHardware
 f1_keywords:
  - "wudfddi/IPnpCallbackHardware"
+ - "IPnpCallbackHardware"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

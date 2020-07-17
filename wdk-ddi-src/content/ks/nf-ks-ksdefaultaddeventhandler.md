@@ -10,6 +10,7 @@ keywords: ["KsDefaultAddEventHandler function"]
 ms.keywords: KsDefaultAddEventHandler, KsDefaultAddEventHandler function [Streaming Media Devices], avfunc_7e4e393b-c3ab-4538-8790-9fe4c4f964cd.xml, ks/KsDefaultAddEventHandler, stream.ksdefaultaddeventhandler
 f1_keywords:
  - "ks/KsDefaultAddEventHandler"
+ - "KsDefaultAddEventHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

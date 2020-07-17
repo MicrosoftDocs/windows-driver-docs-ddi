@@ -8,6 +8,7 @@ ms.date: 02/06/2018
 keywords: ["_NET_ADAPTER_LINK_STATE structure"]
 f1_keywords:
  - "netadapter/NET_ADAPTER_LINK_STATE"
+ - "NET_ADAPTER_LINK_STATE"
 ms.keywords: _NET_ADAPTER_LINK_STATE, NET_ADAPTER_LINK_STATE, *PNET_ADAPTER_LINK_STATE, 
 req.header: netadapter.h
 req.include-header:

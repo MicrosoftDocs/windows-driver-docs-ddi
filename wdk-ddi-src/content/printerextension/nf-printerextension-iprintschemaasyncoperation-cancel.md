@@ -10,6 +10,7 @@ keywords: ["IPrintSchemaAsyncOperation::Cancel"]
 ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrintSchemaAsyncOperation interface, IPrintSchemaAsyncOperation interface [Print Devices],Cancel method, IPrintSchemaAsyncOperation.Cancel, IPrintSchemaAsyncOperation::Cancel, print.iprintschemaasyncoperation_cancel, printerextension/IPrintSchemaAsyncOperation::Cancel
 f1_keywords:
  - "printerextension/IPrintSchemaAsyncOperation.Cancel"
+ - "IPrintSchemaAsyncOperation.Cancel"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

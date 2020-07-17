@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_D3D12_OPTIONS_DATA_0052 structure"]
 f1_keywords:
  - "d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0052"
+ - "D3D12DDI_D3D12_OPTIONS_DATA_0052"
 ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0052, D3D12DDI_D3D12_OPTIONS_DATA_0052, 
 req.header: d3d12umddi.h
 req.include-header:

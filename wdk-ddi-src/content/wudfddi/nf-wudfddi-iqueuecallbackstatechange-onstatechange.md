@@ -10,6 +10,7 @@ keywords: ["IQueueCallbackStateChange::OnStateChange"]
 ms.keywords: IQueueCallbackStateChange interface,OnStateChange method, IQueueCallbackStateChange.OnStateChange, IQueueCallbackStateChange::OnStateChange, OnStateChange, OnStateChange method, OnStateChange method,IQueueCallbackStateChange interface, UMDFQueueObjectRef_194f5013-22a2-40c4-8913-9371aa281009.xml, umdf.iqueuecallbackstatechange_onstatechange, wdf.iqueuecallbackstatechange_onstatechange, wudfddi/IQueueCallbackStateChange::OnStateChange
 f1_keywords:
  - "wudfddi/IQueueCallbackStateChange.OnStateChange"
+ - "IQueueCallbackStateChange.OnStateChange"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

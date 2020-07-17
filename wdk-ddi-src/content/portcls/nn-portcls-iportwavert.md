@@ -10,6 +10,7 @@ keywords: ["IPortWaveRT interface"]
 ms.keywords: IPortWaveRT, IPortWaveRT interface [Audio Devices], IPortWaveRT interface [Audio Devices], described, audio.iportwavert, audmp-routines_0c88b444-3414-49e0-a021-2bc4cd6f1fff.xml, portcls/IPortWaveRT
 f1_keywords:
  - "portcls/IPortWaveRT"
+ - "IPortWaveRT"
 req.header: portcls.h
 req.include-header:
 req.target-type: Windows

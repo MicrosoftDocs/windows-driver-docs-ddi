@@ -10,6 +10,7 @@ keywords: ["IWiaDrvItem interface"]
 ms.keywords: DrvItem_9dbe78e4-0823-4edc-b86e-75e25d4de981.xml, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], IWiaDrvItem interface [Imaging Devices],described, image.iwiadrvitem_interface, wiamindr_lh/IWiaDrvItem
 f1_keywords:
  - "wiamindr_lh/IWiaDrvItem"
+ - "IWiaDrvItem"
 req.header: wiamindr_lh.h
 req.include-header: 
 req.target-type: Windows

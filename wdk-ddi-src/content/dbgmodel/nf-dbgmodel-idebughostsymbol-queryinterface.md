@@ -7,6 +7,7 @@ ms.date: 08/14/2018
 keywords: ["IDebugHostSymbol::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDebugHostSymbol.QueryInterface"
+ - "IDebugHostSymbol.QueryInterface"
 ms.keywords: IDebugHostSymbol::QueryInterface, QueryInterface, IDebugHostSymbol.QueryInterface, IDebugHostSymbol::QueryInterface, IDebugHostSymbol.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

@@ -10,6 +10,7 @@ keywords: ["WdfDeviceQueryInterfaceProperty function"]
 ms.keywords: WdfDeviceQueryInterfaceProperty, WdfDeviceQueryInterfaceProperty method, wdf.wdfdevicequeryinterfaceproperty, wdfdevice/WdfDeviceQueryInterfaceProperty
 f1_keywords:
  - "wdfdevice/WdfDeviceQueryInterfaceProperty"
+ - "WdfDeviceQueryInterfaceProperty"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

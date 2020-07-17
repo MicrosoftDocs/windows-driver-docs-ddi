@@ -8,6 +8,7 @@ ms.date: 01/31/2019
 keywords: ["NetTxQueueGetExtension function"]
 f1_keywords:
  - "nettxqueue/NetTxQueueCreate"
+ - "NetTxQueueCreate"
 ms.keywords: NetTxQueueGetExtension
 req.header: nettxqueue.h
 req.include-header: netadaptercx.h

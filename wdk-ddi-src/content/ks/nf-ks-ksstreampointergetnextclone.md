@@ -10,6 +10,7 @@ keywords: ["KsStreamPointerGetNextClone function"]
 ms.keywords: KsStreamPointerGetNextClone, KsStreamPointerGetNextClone function [Streaming Media Devices], avfunc_946c362b-9246-4d06-afce-e4597a16a91b.xml, ks/KsStreamPointerGetNextClone, stream.ksstreampointergetnextclone
 f1_keywords:
  - "ks/KsStreamPointerGetNextClone"
+ - "KsStreamPointerGetNextClone"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

@@ -10,6 +10,7 @@ keywords: ["PVIDEO_HW_POWER_GET callback function"]
 ms.keywords: HwVidGetPowerState, HwVidGetPowerState callback function [Display Devices], PVIDEO_HW_POWER_GET, PVIDEO_HW_POWER_GET callback, VideoMiniport_Functions_b47b2224-5e0b-44af-9d04-107ff1299381.xml, display.hwvidgetpowerstate, video/HwVidGetPowerState
 f1_keywords:
  - "video/HwVidGetPowerState"
+ - "HwVidGetPowerState"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["RILHIDECONNECTEDIDSETTINGS structure"]
 ms.keywords: "*LPRILHIDECONNECTEDIDSETTINGS, RILHIDECONNECTEDIDSETTINGS, RILHIDECONNECTEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], netvista.rilhideconnectedidsettings, ntddrilapitypes/RILHIDECONNECTEDIDSETTINGS"
 f1_keywords:
  - "rilapitypes/RILHIDECONNECTEDIDSETTINGS"
+ - "RILHIDECONNECTEDIDSETTINGS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

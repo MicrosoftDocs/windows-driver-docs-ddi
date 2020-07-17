@@ -10,6 +10,7 @@ keywords: ["IDebugEventCallbacks::SystemError"]
 ms.keywords: ComCallbacks_a84628b9-4376-4ca0-883f-835d19e13d73.xml, IDebugEventCallbacks interface [Windows Debugging],SystemError method, IDebugEventCallbacks.SystemError, IDebugEventCallbacks::SystemError, SystemError, SystemError method [Windows Debugging], SystemError method [Windows Debugging],IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::SystemError, debugger.idebugeventcallbacks_systemerror
 f1_keywords:
  - "dbgeng/IDebugEventCallbacks.SystemError"
+ - "IDebugEventCallbacks.SystemError"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

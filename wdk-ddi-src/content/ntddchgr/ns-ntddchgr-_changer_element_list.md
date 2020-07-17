@@ -10,6 +10,7 @@ keywords: ["_CHANGER_ELEMENT_LIST structure"]
 ms.keywords: "*PCHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST structure [Storage Devices], PCHANGER_ELEMENT_LIST, PCHANGER_ELEMENT_LIST structure pointer [Storage Devices], _CHANGER_ELEMENT_LIST, ntddchgr/CHANGER_ELEMENT_LIST, ntddchgr/PCHANGER_ELEMENT_LIST, storage.changer_element_list, structs-changer_e1782d96-458d-49a5-9885-c853d835ba0a.xml"
 f1_keywords:
  - "ntddchgr/CHANGER_ELEMENT_LIST"
+ - "CHANGER_ELEMENT_LIST"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows

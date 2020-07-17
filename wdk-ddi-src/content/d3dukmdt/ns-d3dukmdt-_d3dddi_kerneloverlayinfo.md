@@ -10,6 +10,7 @@ keywords: ["_D3DDDI_KERNELOVERLAYINFO structure"]
 ms.keywords: D3DDDI_KERNELOVERLAYINFO, D3DDDI_KERNELOVERLAYINFO structure [Display Devices], D3D_other_Structs_ee8ebc87-60be-4b70-8428-4db20bcbdaa0.xml, _D3DDDI_KERNELOVERLAYINFO, d3dukmdt/D3DDDI_KERNELOVERLAYINFO, display.d3dddi_kerneloverlayinfo
 f1_keywords:
  - "d3dukmdt/D3DDDI_KERNELOVERLAYINFO"
+ - "D3DDDI_KERNELOVERLAYINFO"
 req.header: d3dukmdt.h
 req.include-header: D3dukmdt.h
 req.target-type: Windows

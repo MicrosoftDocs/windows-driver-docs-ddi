@@ -8,6 +8,7 @@ ms.date: 07/19/2018
 keywords: ["EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM callback function"]
 f1_keywords:
  - "netadapter/EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM"
+ - "EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM"
 req.header: netadapter.h
 req.include-header:
 req.target-type: Universal

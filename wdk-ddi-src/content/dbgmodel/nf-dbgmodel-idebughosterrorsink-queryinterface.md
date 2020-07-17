@@ -7,6 +7,7 @@ ms.date: 09/12/2018
 keywords: ["IDebugHostErrorSink::QueryInterface"]
 f1_keywords:
  - "dbgmodel/IDebugHostErrorSink.QueryInterface"
+ - "IDebugHostErrorSink.QueryInterface"
 ms.keywords: IDebugHostErrorSink::QueryInterface, QueryInterface, IDebugHostErrorSink.QueryInterface, IDebugHostErrorSink::QueryInterface, IDebugHostErrorSink.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

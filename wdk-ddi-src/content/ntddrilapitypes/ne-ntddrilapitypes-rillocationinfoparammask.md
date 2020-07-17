@@ -10,6 +10,7 @@ keywords: ["RILLOCATIONINFOPARAMMASK enumeration"]
 ms.keywords: RILLOCATIONINFOPARAMMASK, RILLOCATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_LU_ALL, RIL_PARAM_LU_CELLID, RIL_PARAM_LU_HUICCAPP, RIL_PARAM_LU_LAC, RIL_PARAM_LU_TAC, netvista.rillocationinfoparammask, ntddrilapitypes/RILLOCATIONINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_LU_ALL, ntddrilapitypes/RIL_PARAM_LU_CELLID, ntddrilapitypes/RIL_PARAM_LU_HUICCAPP, ntddrilapitypes/RIL_PARAM_LU_LAC, ntddrilapitypes/RIL_PARAM_LU_TAC
 f1_keywords:
  - "ntddrilapitypes/RILLOCATIONINFOPARAMMASK"
+ - "RILLOCATIONINFOPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -10,6 +10,7 @@ keywords: ["_DEVICE_TRIM_DESCRIPTOR structure"]
 ms.keywords: "*PDEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR structure [Storage Devices], PDEVICE_TRIM_DESCRIPTOR, PDEVICE_TRIM_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_TRIM_DESCRIPTOR, ntddstor/DEVICE_TRIM_DESCRIPTOR, ntddstor/PDEVICE_TRIM_DESCRIPTOR, storage.device_trim_descriptor, structs-general_eeaa452e-bc49-47ac-9d6f-4a7bbc022b2f.xml"
 f1_keywords:
  - "ntddstor/DEVICE_TRIM_DESCRIPTOR"
+ - "DEVICE_TRIM_DESCRIPTOR"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

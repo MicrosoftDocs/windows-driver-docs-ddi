@@ -10,6 +10,7 @@ keywords: ["PAGP_RELEASE_PHYSICAL callback function"]
 ms.keywords: AgpReleasePhysical, AgpReleasePhysical callback function [Display Devices], PAGP_RELEASE_PHYSICAL, PAGP_RELEASE_PHYSICAL callback, VideoPort_Functions_427923a7-3205-41a7-a470-dbc7d531e47f.xml, display.agpreleasephysical, videoagp/AgpReleasePhysical
 f1_keywords:
  - "videoagp/AgpReleasePhysical"
+ - "AgpReleasePhysical"
 req.header: videoagp.h
 req.include-header: Video.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["KsInitializeDeviceProfile function"]
 ms.keywords: KsInitializeDeviceProfile, KsInitializeDeviceProfile function [Streaming Media Devices], ks/KsInitializeDeviceProfile, stream.ksinitializedeviceprofile
 f1_keywords:
  - "ks/KsInitializeDeviceProfile"
+ - "KsInitializeDeviceProfile"
 req.header: ks.h
 req.include-header: Ksmedia.h
 req.target-type: Universal

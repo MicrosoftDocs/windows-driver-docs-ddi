@@ -10,6 +10,7 @@ keywords: ["WritePort function"]
 ms.keywords: print.writeport, WritePort, winsplp/WritePort, WritePort function [Print Devices], spoolfnc_b4300d7a-1424-40e0-931f-08c727eb4174.xml
 f1_keywords:
  - "winsplp/WritePort"
+ - "WritePort"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

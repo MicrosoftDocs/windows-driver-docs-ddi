@@ -10,6 +10,7 @@ keywords: ["RtlIsPartialPlaceholderFileHandle function"]
 ms.keywords: RtlIsPartialPlaceholderFileHandle, RtlIsPartialPlaceholderFileHandle routine [Installable File System Drivers], ifsk.rtlispartialplaceholderfilehandle, ntifs/RtlIsPartialPlaceholderFileHandle
 f1_keywords:
  - "ntifs/RtlIsPartialPlaceholderFileHandle"
+ - "RtlIsPartialPlaceholderFileHandle"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

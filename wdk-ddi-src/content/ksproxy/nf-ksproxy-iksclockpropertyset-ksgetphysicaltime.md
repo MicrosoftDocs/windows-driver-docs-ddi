@@ -10,6 +10,7 @@ keywords: ["IKsClockPropertySet::KsGetPhysicalTime"]
 ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsGetPhysicalTime method, IKsClockPropertySet.KsGetPhysicalTime, IKsClockPropertySet::KsGetPhysicalTime, KsGetPhysicalTime, KsGetPhysicalTime method [Streaming Media Devices], KsGetPhysicalTime method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsGetPhysicalTime, ksproxy_d242cd7a-c210-41b2-9c3c-59900c79e351.xml, stream.iksclockpropertyset_ksgetphysicaltime
 f1_keywords:
  - "ksproxy/IKsClockPropertySet.KsGetPhysicalTime"
+ - "IKsClockPropertySet.KsGetPhysicalTime"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

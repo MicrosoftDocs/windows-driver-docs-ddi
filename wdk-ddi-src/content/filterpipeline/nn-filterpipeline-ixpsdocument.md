@@ -10,6 +10,7 @@ keywords: ["IXpsDocument interface"]
 ms.keywords: IXpsDocument, IXpsDocument interface [Print Devices], IXpsDocument interface [Print Devices],described, filterpipeline/IXpsDocument, filterpipeline_d2db5467-7b2d-439c-8ad1-3ffb607a3167.xml, print.ixpsdocument
 f1_keywords:
  - "filterpipeline/IXpsDocument"
+ - "IXpsDocument"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

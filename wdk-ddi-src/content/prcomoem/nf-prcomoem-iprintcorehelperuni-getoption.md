@@ -10,6 +10,7 @@ keywords: ["IPrintCoreHelperUni::GetOption"]
 ms.keywords: GetOption, GetOption method [Print Devices], GetOption method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],GetOption method, IPrintCoreHelperUni.GetOption, IPrintCoreHelperUni::GetOption, prcomoem/IPrintCoreHelperUni::GetOption, print.iprintcorehelperuni_getoption, print_unidrv-pscript_allplugins_a80d7019-a2e6-4c41-885d-831c429c5dac.xml
 f1_keywords:
  - "prcomoem/IPrintCoreHelperUni.GetOption"
+ - "IPrintCoreHelperUni.GetOption"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

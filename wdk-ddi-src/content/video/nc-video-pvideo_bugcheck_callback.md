@@ -10,6 +10,7 @@ keywords: ["PVIDEO_BUGCHECK_CALLBACK callback function"]
 ms.keywords: HwVidBugcheckCallback, HwVidBugcheckCallback callback function [Display Devices], PVIDEO_BUGCHECK_CALLBACK, PVIDEO_BUGCHECK_CALLBACK callback, VideoMiniport_Functions_d3dcce93-d172-4948-8cc5-395dd2a1f9a5.xml, display.hwvidbugcheckcallback, video/HwVidBugcheckCallback
 f1_keywords:
  - "video/HwVidBugcheckCallback"
+ - "HwVidBugcheckCallback"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

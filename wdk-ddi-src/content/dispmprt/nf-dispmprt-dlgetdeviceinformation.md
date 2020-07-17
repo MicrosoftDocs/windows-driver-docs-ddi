@@ -10,6 +10,7 @@ ms.date: 04/04/2019
 keywords: ["DlGetDeviceInformation function"]
 f1_keywords:
  - "dispmprt/DlGetDeviceInformation"
+ - "DlGetDeviceInformation"
 ms.keywords: DlGetDeviceInformation
 req.header: dispmprt.h
 req.include-header:

@@ -10,6 +10,7 @@ ms.date: 10/03/2019
 keywords: ["NetPowerOffloadListGetElement function"]
 f1_keywords:
  - "netpoweroffloadlist/NetPowerOffloadListGetElement"
+ - "NetPowerOffloadListGetElement"
 ms.keywords: NetPowerOffloadListGetElement
 req.header: netpoweroffloadlist.h
 req.include-header:

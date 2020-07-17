@@ -10,6 +10,7 @@ keywords: ["DebugCreateEx function"]
 ms.keywords: DebugCreateEx, DebugCreateEx function [Windows Debugging], dbgeng/DebugCreateEx, debugger.debugcreateex
 f1_keywords:
  - "dbgeng/DebugCreateEx"
+ - "DebugCreateEx"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -10,6 +10,7 @@ keywords: ["PosCxReleaseDevice function"]
 ms.keywords: PosCxReleaseDevice, PosCxReleaseDevice function, pos.poscxreleasedevice, poscx/PosCxReleaseDevice
 f1_keywords:
  - "poscx/PosCxReleaseDevice"
+ - "PosCxReleaseDevice"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

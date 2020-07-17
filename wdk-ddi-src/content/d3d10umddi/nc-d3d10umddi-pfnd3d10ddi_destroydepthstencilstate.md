@@ -9,6 +9,7 @@ keywords: ["PFND3D10DDI_DESTROYDEPTHSTENCILSTATE callback function"]
 ms.keywords: DestroyDepthStencilState, DestroyDepthStencilState callback function [Display Devices], PFND3D10DDI_DESTROYDEPTHSTENCILSTATE, PFND3D10DDI_DESTROYDEPTHSTENCILSTATE callback, UserModeDisplayDriverDx10_Functions_0d9deca1-62e7-4caa-9bfd-9c42bdd85c2c.xml, d3d10umddi/DestroyDepthStencilState, display.destroydepthstencilstate
 f1_keywords:
  - "d3d10umddi/DestroyDepthStencilState"
+ - "DestroyDepthStencilState"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

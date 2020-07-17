@@ -10,6 +10,7 @@ keywords: ["KsPinGetAndGate function"]
 ms.keywords: KsPinGetAndGate, KsPinGetAndGate function [Streaming Media Devices], avfunc_a4159ef9-1a69-4716-96ce-4fabd1ee6218.xml, ks/KsPinGetAndGate, stream.kspingetandgate
 f1_keywords:
  - "ks/KsPinGetAndGate"
+ - "KsPinGetAndGate"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

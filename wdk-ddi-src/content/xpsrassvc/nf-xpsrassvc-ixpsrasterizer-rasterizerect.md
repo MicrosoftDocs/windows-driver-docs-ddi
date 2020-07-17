@@ -10,6 +10,7 @@ keywords: ["IXpsRasterizer::RasterizeRect"]
 ms.keywords: IXpsRasterizer interface [Print Devices],RasterizeRect method, IXpsRasterizer.RasterizeRect, IXpsRasterizer::RasterizeRect, RasterizeRect, RasterizeRect method [Print Devices], RasterizeRect method [Print Devices],IXpsRasterizer interface, print.ixpsrasterizer_rasterizerect, print_xpsrast_de9e1518-8388-4cc4-9787-8774996221bf.xml, xpsrassvc/IXpsRasterizer::RasterizeRect
 f1_keywords:
  - "xpsrassvc/IXpsRasterizer.RasterizeRect"
+ - "IXpsRasterizer.RasterizeRect"
 req.header: xpsrassvc.h
 req.include-header: 
 req.target-type: Desktop

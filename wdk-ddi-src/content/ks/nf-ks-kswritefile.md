@@ -10,6 +10,7 @@ keywords: ["KsWriteFile function"]
 ms.keywords: KsWriteFile, KsWriteFile function [Streaming Media Devices], ks/KsWriteFile, ksfunc_4e15871e-8093-4b8e-a1ec-0eda4588e262.xml, stream.kswritefile
 f1_keywords:
  - "ks/KsWriteFile"
+ - "KsWriteFile"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

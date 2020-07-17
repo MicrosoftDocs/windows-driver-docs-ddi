@@ -10,6 +10,7 @@ keywords: ["SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT function"]
 ms.keywords: 2/SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT, SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT, SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT function [Serial Ports], serports.sercx2_system_dma_transmit_config_init
 f1_keywords:
  - "sercx/SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT"
+ - "SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

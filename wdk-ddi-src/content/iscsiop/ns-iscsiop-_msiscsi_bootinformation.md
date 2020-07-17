@@ -10,6 +10,7 @@ keywords: ["_MSiSCSI_BootInformation structure"]
 ms.keywords: "*PMSiSCSI_BootInformation, MSiSCSI_BootInformation, MSiSCSI_BootInformation structure [Storage Devices], PMSiSCSI_BootInformation, PMSiSCSI_BootInformation structure pointer [Storage Devices], _MSiSCSI_BootInformation, iscsiop/MSiSCSI_BootInformation, iscsiop/PMSiSCSI_BootInformation, storage.msiscsi_bootinformation, structs-iSCSI_a33678de-f559-4c7a-8007-55ab0381b613.xml"
 f1_keywords:
  - "iscsiop/MSiSCSI_BootInformation"
+ - "MSiSCSI_BootInformation"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

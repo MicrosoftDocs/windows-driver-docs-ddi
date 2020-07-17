@@ -10,6 +10,7 @@ keywords: ["IoThreadToProcess function"]
 ms.keywords: IoThreadToProcess, IoThreadToProcess routine [Installable File System Drivers], ifsk.iothreadtoprocess, ioref_59269b9a-0a64-410d-aafa-b070b2eacfd7.xml, ntifs/IoThreadToProcess
 f1_keywords:
  - "ntifs/IoThreadToProcess"
+ - "IoThreadToProcess"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

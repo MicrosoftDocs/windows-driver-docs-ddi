@@ -10,6 +10,7 @@ keywords: ["WdfUsbTargetPipeFormatRequestForReset function"]
 ms.keywords: DFUsbRef_5a1aa46c-9d8a-4e6b-9003-723a65c314f3.xml, WdfUsbTargetPipeFormatRequestForReset, WdfUsbTargetPipeFormatRequestForReset method, kmdf.wdfusbtargetpipeformatrequestforreset, wdf.wdfusbtargetpipeformatrequestforreset, wdfusb/WdfUsbTargetPipeFormatRequestForReset
 f1_keywords:
  - "wdfusb/WdfUsbTargetPipeFormatRequestForReset"
+ - "WdfUsbTargetPipeFormatRequestForReset"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

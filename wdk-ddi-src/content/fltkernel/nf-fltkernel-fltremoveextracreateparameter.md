@@ -10,6 +10,7 @@ keywords: ["FltRemoveExtraCreateParameter function"]
 ms.keywords: FltApiRef_p_to_z_696787f2-1381-451f-aed4-bf307ee58291.xml, FltRemoveExtraCreateParameter, FltRemoveExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltRemoveExtraCreateParameter, ifsk.fltremoveextracreateparameter
 f1_keywords:
  - "fltkernel/FltRemoveExtraCreateParameter"
+ - "FltRemoveExtraCreateParameter"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

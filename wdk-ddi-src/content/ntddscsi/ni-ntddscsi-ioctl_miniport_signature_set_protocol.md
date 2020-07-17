@@ -10,6 +10,7 @@ ms.date: 03/07/2019
 keywords: ["IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL SIGNATURE"]
 f1_keywords:
  - "ntddscsi/IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL"
+ - "IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL"
 req.header: ntddscsi.h
 req.include-header:
 req.target-type:

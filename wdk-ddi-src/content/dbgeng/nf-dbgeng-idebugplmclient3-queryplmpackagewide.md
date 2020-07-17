@@ -10,6 +10,7 @@ keywords: ["IDebugPlmClient3::QueryPlmPackageWide"]
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],QueryPlmPackageWide method, IDebugPlmClient3.QueryPlmPackageWide, IDebugPlmClient3::QueryPlmPackageWide, QueryPlmPackageWide, QueryPlmPackageWide method [Windows Debugging], QueryPlmPackageWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::QueryPlmPackageWide, debugger.idebugplmclient3_queryplmpackagewide
 f1_keywords:
  - "dbgeng/IDebugPlmClient3.QueryPlmPackageWide"
+ - "IDebugPlmClient3.QueryPlmPackageWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows
